@@ -1,0 +1,221 @@
+{
+ "Tembura": [
+  {
+   "sira": 2236,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:858",
+   "lat": 5.61,
+   "lon": 27.47,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Watsa": [
+  {
+   "sira": 2077,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1892-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:918",
+   "lat": 3.04,
+   "lon": 29.53,
+   "zincir_guncel": "s:kongo-serbest-devleti 1892-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  },
+  {
+   "sira": 2078,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:918",
+   "lat": 3.04,
+   "lon": 29.53,
+   "zincir_guncel": "s:kongo-serbest-devleti 1892-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "Boende": [
+  {
+   "sira": 2134,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1078",
+   "lat": -0.28,
+   "lon": 20.88,
+   "zincir_guncel": "s:kongo-serbest-devleti 1900-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "Ikela": [
+  {
+   "sira": 2178,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1119",
+   "lat": -1.18,
+   "lon": 23.27,
+   "zincir_guncel": "s:kongo-serbest-devleti 1900-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "Monkoto": [
+  {
+   "sira": 2202,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1156",
+   "lat": -1.6,
+   "lon": 20.68,
+   "zincir_guncel": "s:kongo-serbest-devleti 1900-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "İlebo": [
+  {
+   "sira": 2113,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1888-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1260",
+   "lat": -4.33,
+   "lon": 20.58,
+   "zincir_guncel": "s:kongo-serbest-devleti 1888-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  },
+  {
+   "sira": 2114,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1260",
+   "lat": -4.33,
+   "lon": 20.58,
+   "zincir_guncel": "s:kongo-serbest-devleti 1888-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "Elisabethville (Lubumbashi)": [
+  {
+   "sira": 2159,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "katanga",
+   "f": "1960-07-11",
+   "t": "1963-01-14",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": -11.664,
+   "lon": 27.479,
+   "zincir_guncel": "s:katanga 1960-07-11→1963-01-14 | s:kongo-kinsasa 1963-01-14→2000-12-31"
+  },
+  {
+   "sira": 2160,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1963-01-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": -11.664,
+   "lon": 27.479,
+   "zincir_guncel": "s:katanga 1960-07-11→1963-01-14 | s:kongo-kinsasa 1963-01-14→2000-12-31"
+  }
+ ],
+ "Bulawayo": [
+  {
+   "sira": 2136,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rodezya-nyasaland-federasyonu",
+   "f": "1953-08-01",
+   "t": "1963-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": -20.15,
+   "lon": 28.583,
+   "zincir_guncel": "s:rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31"
+  }
+ ],
+ "Vindhuk (Windhoek)": [
+  {
+   "sira": 2059,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1890-10-18",
+   "t": "1915-07-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim oldu» (1915-07-09, taraf kolu) kaynağı — South African History Online, dated-event 'Imperial German Forces forced to unconditional surrend",
+   "dosya_satir": "data/yerlesimler_afrika2.js:2030",
+   "lat": -22.57,
+   "lon": 17.08,
+   "zincir_guncel": "s:alman-guneybati-afrikasi 1890-10-18→1915-07-09 | s:ingiltere 1915-07-09→1920-12-17 | s:guneybati-afrika-mandasi 1920-12-17→1990-03-21 | s:namibya 1990-03-21→2000-12-31"
+  }
+ ],
+ "Solovki (Solovetsky)": [
+  {
+   "sira": 1964,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1436-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:152",
+   "lat": 65.03,
+   "lon": 35.712,
+   "zincir_guncel": "s:novgorod 1436-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Velsk": [
+  {
+   "sira": 2043,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:174",
+   "lat": 61.066,
+   "lon": 42.104,
+   "zincir_guncel": "s:novgorod 1281-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Staraya Russa": [
+  {
+   "sira": 1970,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:115",
+   "lat": 57.99,
+   "lon": 31.362,
+   "zincir_guncel": "s:novgorod 1281-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ]
+}

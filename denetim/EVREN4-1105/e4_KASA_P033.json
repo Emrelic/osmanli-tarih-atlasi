@@ -1,0 +1,822 @@
+{
+ "Podşiversk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:46",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1636-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "M. I. Belov (derl.), Русские мореходы в Ледовитом и Тихом океанах: сборник документов, Л.–М.: Главсевморпути 1952, Ek 1 «Списки якутских воевод и приказчиков зимовий на северо-востоке Сибири» (https://booksite.ru/fulltext/russ_america/02_30_15.html)",
+   "alinti": "Среднее Индигирское, или Подшиверское, зимовье ... было основано в 1639 г.",
+   "oneri": {
+    "f": "1639-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 2458] Kuruluş 1639 (enisey kazağı Posnik İvanov Gubar' ekibi); atlasın 1636'sının dayanağı yok (1636-38 Yana/İndigirka keşif yılları). Aynı ekte prikazçik listesi: 'к. Посник Иванов (Подшиверы) 1639-1640'. YIL hassasiyeti. t teyitsiz (ülke düzeyi, K01 ucu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:46",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2459] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:46",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2460] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:46",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2461] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Nijnekolımsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:49",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1644-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "M. I. Belov (derl.), Русские мореходы в Ледовитом и Тихом океанах, 1952, Ek 1 (https://booksite.ru/fulltext/russ_america/02_30_15.html) · İPUCU: Большая биографическая энциклопедия / ESBE «Стадухин, Михаил» (dic.academic.ru/dic.nsf/enc_biography/115983) [19. yy kaynağı]",
+   "alinti": "впоследствии получившее название Нижнеколымска. Эти два зимовья основаны летом - осенью 1643 г.",
+   "oneri": {
+    "f": "1643-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 2462] Belov: Anyuy ağzındaki zimovye (Dmitriy Zıryan ekibi) 1643 yaz-güzünde kuruldu, sonra Nijnekolımsk adını aldı. Eski biyografi sözlüğü (Stadukhin maddesi) 'В 1644 г. он открыл реку Колыму, при устье которой поставил городок и зимовье (Нижнеколымск)' der — atlasın 1644'ü buna uyar. İki kaynak çelişiyor; arşive dayanan Belov 1952 önerilir, 1644 ic_not'a. YIL. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:49",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2463] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:49",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2464] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:49",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2465] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Yama zimovyesi": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:52",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1692-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2466] 1692 kuruluşu için kaynak yok. Bakılan: dic.academic.ru (BSE, Pospelov, BBE) 'Ямск' — yerleşim maddesi yok; Belov 1952 Ek 1 'Ямск' geçmiyor; web araması yalnız Vikipedi (İPUCU: Yamsk ostrogu 1739, binbaşı Vasiliy Merlin). 1692 zimovye ile 1739 ostrog arasındaki ilişki kaynakla kurulmalı. t teyitsiz (K01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:52",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2467] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:52",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2468] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:52",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2469] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Nijnekamçatsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:55",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1697-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Энциклопедический словарь Брокгауза и Ефрона, «Нижнекамчатск» (dic.academic.ru/dic.nsf/brokgauz_efron/72230) [19. yy kaynağı] · N. N. Kedrov, «Нижнекамчатский острог на реке Радуге…», Историческое краеведение и архивы, Вологда 1996, вып. 3, s. 38-46 (https://www.booksite.ru/fulltext/russ_america/03_7.html)",
+   "alinti": "Нижнекамчатский острог был основан в 1703 г., в 1731 г. разрушен камчадалами",
+   "oneri": {
+    "f": "1703-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 2470] Atlasın 1697'si Atlasov seferinin yılıdır, ostrog değil. ESBE 1703 der (eski başvuru eseri, tek başına kısmen; modern akademik teyit bulunamadı). Kedrov 1996: 1731 ayaklanmasından sonra yeni ostrog Raduga ağzında kuruldu ('строить новый острог в устье р. Радуга'), eski Nijnekamçatsk bugünkü Klyuçi bölgesi. Atlas noktası (56.28 K, 162.00 D) Raduga ostroguna yakın görünüyor — nokta 1731 sonrası yerse f ayrıca sorgulanmalı. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:55",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2471] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:55",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2472] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:55",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2473] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Olyutorsk (Arhangelsk)": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:58",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1714-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2474] Olyutorsk ostrogu 1714 için akademik kaynak bulunamadı. Bakılan: dic.academic.ru 'Олюторский острог' (yalnız ESBE «Сибирь» genel maddesi), Belov 1952 Ek 1 (geçmiyor), web araması (yalnız Vikipedi: 1714, Anadırsk-Kamçatka yolu — İPUCU). t teyitsiz (K01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:58",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2475] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:58",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2476] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:58",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2477] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Verhnekolımsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:61",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1647-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "M. I. Belov (derl.), Русские мореходы в Ледовитом и Тихом океанах, 1952, Ek 1 (https://booksite.ru/fulltext/russ_america/02_30_15.html)",
+   "alinti": "Верхнее Колымское зимовье срублено первым целовальником Колымы ... Петром Новоселовым в 1645-1647 гг.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2478] Kaynak ARALIK verir (1645-1647); atlasın 1647'si aralığın son yılı, aralık içinde. YIL hassasiyeti; ic_not'a 'kuruluş 1645-47 (Belov)' yazılmalı. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:61",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2479] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:61",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2480] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:61",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2481] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Samarovo": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:64",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1637-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "İPUCU: Поспелов Е.М., Географические названия мира: Топонимический словарь, М.: АСТ 2001, «Ханты-Мансийск» (dic.academic.ru/dic.nsf/enc_geo/5289)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2482] 1637 (Samarovo yamı) için akademik kaynak bulunamadı; web sonuçları turistik/ansiklopedi-dışı. Pospelov: 'В XVI в. основано русск. селение Самарово' — yerleşim XVI. yy'da var (Ermak 1582-83 Samar knezinin yurdu); yüzyıl hassasiyeti, yıl vermez. 1637 yam kuruluşu olabilir; kaynak gerekir. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:64",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2483] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:64",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2484] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:64",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2485] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Açinsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:67",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1641-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Поспелов Е.М., Географические названия мира: Топонимический словарь, М.: АСТ 2001, «Ачинск» (dic.academic.ru arama sayfası, did=enc_geo)",
+   "alinti": "Ачинск — город, р.ц., Красноярский край. Основан в 1641 г. как Ачинский острог.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2486] YIL. BES ve 'Русская история' (Otechestvo) 'Основан в 1682' der — ostrogun Çulım'daki yeni yerine taşınma yılı olabilir; ic_not'a iki yıl birlikte. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:67",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2487] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:67",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2488] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:67",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2489] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Nijneudinsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:70",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1648-10-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Поспелов Е.М., Географические названия мира: Топонимический словарь, М.: АСТ 2001, «Нижнеудинск» (dic.academic.ru, did=enc_geo) · Большой Энциклопедический словарь «Нижнеудинск»",
+   "alinti": "Основан в 1648 г. как зимовье на р. Уда ... с 1652 г. Удинский острог.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2490] YIL; atlasın gün/ayı (10-01) kaynakta yok — gün teyitsiz, 1648-01-01'e indirilebilir. BES de 'Основан в 1648' (çift teyit, ikisi de sözlük). t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:70",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2491] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:70",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2492] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:70",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2493] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Bodaybo": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:73",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Поспелов Е.М., Географические названия мира: Топонимический словарь, М.: АСТ 2001, «Бодайбо» (dic.academic.ru, did=enc_geo)",
+   "alinti": "Бодайбо — город, р.ц., Иркутская обл. Основан в 1864 г. как Бодайбинская резиденция",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2494] YIL. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:73",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2495] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:73",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2496] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:73",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2497] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Suntar": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:82",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1740-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2498] 1740 için kaynak yok. Bakılan: dic.academic.ru (BSE/Pospelov: yalnız Suntar-Hayata sıradağı), web araması (yalnız Vikipedi: İPUCU 1764, ilk kilise; 1630'larda Voin Şahov tuz işletmesi; 1736 Krasheninnikov). t teyitsiz (K01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:82",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2499] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:82",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2500] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:82",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2501] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Nelkan": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:84",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1844-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2502] 1844 için kaynak okunamadı. BSE 'Нелькан' maddesi Oymyakon'daki başka bir Nelkan'dır (altın madeni, İndigirka havzası) — atlas noktası (57.65 K, 136.14 D) Maya kıyısındaki Ayan-Yakutsk yolu Nelkan'ı. İPUCU: Kuşnareva & Dameşek, Гуманитарный вектор 2014 (zabvektor.com PDF; bağlantı zaman aşımı) Nelkan'ı 1851-52 Ayan yolu göçmenleriyle anar; yol 1844-45'te açıldı (Vokrug sveta, robots). TARAYICI: https://zabvektor.com/wp-content/uploads/220219030259-kushnareva,%20dameshek.pdf. t teyitsiz (K01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:84",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2503] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:84",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2504] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:84",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2505] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Zeya (Zeyskiy Sklad)": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:87",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1879-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Поспелов Е.М., Географические названия мира: Топонимический словарь, М.: АСТ 2001, «Зея» (dic.academic.ru, did=enc_geo)",
+   "alinti": "Возник в 1879 г. как база Верхнеамурской золотопромышленной компании Зейский Склад",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2506] YIL. Bölge Aygun 1858'den beri Rus (P018 Albazin satırı). t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:87",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2507] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:87",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2508] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:87",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2509] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Güney Başkurt bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1555-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия (3. bs.), «Башкирская Автономная Советская Социалистическая Республика» (https://dic.academic.ru/dic.nsf/bse/67884/)",
+   "alinti": "К 1557 большая часть Б. добровольно вошла в состав России.",
+   "oneri": {
+    "f": "1557-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 2510] BÖLGE DÜZEYİ. BSE: Kazan'ın düşüşünden (1552) sonra batı Başkurtlar 1552'de dilekçe verdi, Başkurdistan'ın çoğu 1557'ye kadar Rusya'ya katıldı. Atlasın 1555'inin dayanağı yok; YIL 1557. DİKKAT: nokta (52 K, 58 D) Orsk bozkırıdır; Rusya'nın fiilî idaresi burada Orenburg seferiyle başlar (Orsk/Orenburg kalesi 1735, P027 Orsk satırı) — 1557 yasak bağlılığı bu güney bozkırın idareye katılması mı, TAHRİR ölçütüyle ayrıca sorgulanmalı (1557-1735 arası Nogay/Kazak/Başkurt kullanımı). t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2511] [KÜME K01] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2512] [KÜME K02] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2513] [KÜME K04] ülke düzeyinde ayrı ajan teyit ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "nogay",
+   "f": "1502-01-01",
+   "t": "1555-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия (3. bs.), «Башкирская АССР» (https://dic.academic.ru/dic.nsf/bse/67884/) · TDV İslâm Ansiklopedisi «Nogaylar» (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "Южная и Юго-Восточная Б. вошла в состав Ногайской Орды | К 1557 большая часть Б. добровольно вошла в состав России.",
+   "oneri": {
+    "t": "1557-01-01"
+   },
+   "uc": "t",
+   "not": "[sira 2514] BSE: Güney ve güneydoğu Başkurdistan Altın Orda'nın dağılmasından sonra XV. yy 2. yarısında Nogay Ordası'na girdi (f 1502 atlasın Altın Orda sonu kuralına bağlı — TDV ilişkili madde 'Altın Orda 1241-1502', ÜLKE DÜZEYİ; f değişmez). t: 1557 (YIL). TDV Nogaylar Başkurt toprağı için yıl vermez (Kadı Mirza'nın 964-965/1557-58 ayrılığını anar). Güney bozkırın fiilen Rus idaresine girişi daha geç olabilir (bkz. sira 2510 notu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2515] [KÜME K03] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Confidence (Büyük Ayı Gölü)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:174",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1837-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, «DEASE, PETER WARREN», cilt IX (https://www.biographi.ca/en/bio/dease_peter_warren_9E.html)",
+   "alinti": "that winter, from the winter quarters built for them at Fort Confidence",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2516] YIL, yıl bağlamdan: aynı paragraf 1837 seferini anlatır (Mackenzie ağzı 17 Ağustos, Fort Norman 4 Eylül 1837; 'that winter' = 1837-38). HBC karakolu Dease-Simpson için 1837 sonbaharında yapıldı. t 1870-07-15 ülke düzeyinden: Rupert's Land and North-Western Territory Order (kanada satırının kaynağı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:174",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2517] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ]
+}

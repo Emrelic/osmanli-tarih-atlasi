@@ -1,0 +1,272 @@
+{
+ "Vize": [
+  {
+   "sira": 2065,
+   "dosya_satir": "data/yerlesimler_ek29.js:454",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1369-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Ayasofya Camii (Vize)» (S. Eyice), https://islamansiklopedisi.org.tr/ayasofya-camii--vize",
+   "alinti": "Bu kasaba ilk defa 1368’de Türkler tarafından fethedilmiş, fakat az sonra yeniden Bizans idaresine geçmiş",
+   "oneri": {
+    "t": "1368-01-01 [YIL]"
+   },
+   "not": "TDV 1368 (yıl) verir, mevcut 1369 kaynaksız. 🔴 Aynı cümle 'az sonra yeniden Bizans' ve 'belki 1411-1413 Mûsâ Çelebi' der; «Silivri ile Vize, ancak 1453’te kesin olarak fetholunmuştur» — zincirdeki kesintisiz d:osmanli 1369→1402 dilimi kısaltılmalı (geri dönüş günü kaynakla). Vize'nin kendi TDV şehir maddesi bulunamadı (arama yalnız bu maddeyi verdi)."
+  }
+ ],
+ "Wiener Neustadt": [
+  {
+   "sira": 2082,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avusturya-dukaligi",
+   "f": "1194-01-01",
+   "t": "1276-11-21",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: Deutsche Biographie (Rudolf I GND denemesi yanlış sayfa). 1194 kuruluş ve 1276-11-21 için kaynak okunmadı. Künye avusturya-dukaligi 'Babenberg ve II. Ottokar dönemi' — Ottokar dilimi (1251-76) künye içinde, bölünme gerekmez."
+  },
+  {
+   "sira": 2083,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1276-11-21",
+   "t": "1282-12-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: Deutsche Biographie (sonuçsuz). 1276-11-21 (Ottokar'ın feragati, Viyana) ve 1282-12-27 (Augsburg) kaynakla okunmalı."
+  },
+  {
+   "sira": 2084,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1282-12-27",
+   "t": "1918-11-12",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Not: 'avusturya' kimliği devletler.js'te künye olarak YOK (BOYALAR'da var) — künye sorusu LAB."
+  },
+  {
+   "sira": 2085,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Nazi Conspiracy and Aggression, Vol. IV, Doc. 2307-PS (Reichsgesetzblatt 1938 I s. 237) — Avalon Project, Yale Law School, https://avalon.law.yale.edu/imt/2307-ps.asp",
+   "alinti": "Law concerning the Reunion of Austria with the German Reich, March 13, 1938",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f (birincil belge neşri). Öteki uç 1945-04-27 teyitsiz: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Wiener Neustadt Kızıl Ordu'ya 1945 Nisan başında düştü (ipucu 04-02/03): 04-27'den önce isg sovyet sorusu, teyitsiz."
+  },
+  {
+   "sira": 2086,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "history.state.gov/countries/austria",
+   "alinti": "A provisional government was established in Austria on April 25, 1945",
+   "oneri": {},
+   "not": "Baktım: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Alıntı 27 Nisan'ı değil 25 Nisan'ı tarihler → teyit yok. Yerel fiilî giriş (Villach 05-08, Hartberg/WN Kızıl Ordu) ayrıca okunmalı."
+  }
+ ],
+ "Çapljina (Čapljina)": [
+  {
+   "sira": 2255,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC.md / E4-BILINEN-KARARLAR.md — EMRELİC gece-106 (3) ve gece-101 (a)",
+   "alinti": "",
+   "oneri": {
+    "t": "1996-08-31"
+   },
+   "not": "Karar uygulaması: rakip hükûmet kuralı fiilî sona bakar — HVO idaresinin sona erişi 1996-08-31; 08-14 dağıtma kararı ve Dayton 1995-12-14 ic_not. HE madde adresi bulunamadı (Abecedarij). f 1991-11-18 okunmadı."
+  }
+ ],
+ "İslimye (Sliven)": [
+  {
+   "sira": 2118,
+   "dosya_satir": "data/yerlesimler_ek29.js:859",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1878-07-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi «İslimye», https://islamansiklopedisi.org.tr/islimye",
+   "alinti": "1877-1878 Osmanlı-Rus Savaşı sırasında camilerin çoğunu yıktılar",
+   "oneri": {
+    "isg": "rusya <İslimye'nin Rus işgali, 1878 Ocak, gün teyitsiz> → 1878-07-13"
+   },
+   "not": "TEK KURAL: savaş işgali Berlin (1878-07-13) devrine dek isg; dilim eksik. f 1413-07-05 fetret sonu: UMIT Fetret kuralı — YIL düzeyi, ABİ MERKEZ. TDV ilk fethi «1370’te veya bundan kısa bir süre sonra» der."
+  }
+ ],
+ "Vara (Wara)": [
+  {
+   "sira": 2039,
+   "dosya_satir": "data/yerlesimler_afrika2.js:328",
+   "alan": "s",
+   "d": "vaday",
+   "f": "1635-01-01",
+   "t": "1909-06-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Vedây», https://islamansiklopedisi.org.tr/veday",
+   "alinti": "Abdülkerîm 1635 yılında ... Vedây Sultanlığı’nı kurdu ... Vârâ şehrini merkez edindi",
+   "oneri": {},
+   "not": "t: aynı madde «2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler» (ülke/başkent düzeyi). TDV: 'sultanlığın 1611’de kurulduğu da söylenir' — ic_not. 🔴 Merdiven ④ sorusu: «Muhammed eş-Şerîf 1850’de Vârâ’dan ayrıldı» — başşehir Ebîşe'ye taşındı; Vârâ'nın 1850 sonrası yerleşim olarak varlığı teyitsiz (yıkıntı ise dönem 1850'de kırpılır)."
+  },
+  {
+   "sira": 2040,
+   "dosya_satir": "data/yerlesimler_afrika2.js:328",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Çad», https://islamansiklopedisi.org.tr/cad",
+   "alinti": "Çad 11 Ağustos 1960 tarihinde bağımsızlığını kazandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f. Vârâ 1850'den sonra başşehir değil; 1960'ta yerleşim olarak varlığı teyitsiz (Merdiven ④, bk. sira 2039)."
+  }
+ ],
+ "Aveyl": [
+  {
+   "sira": 2127,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:985",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ],
+ "Berbérati": [
+  {
+   "sira": 2132,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "orta-afrika-imparatorlugu",
+   "f": "1976-12-04",
+   "t": "1979-09-20",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC.md / E4-BILINEN-KARARLAR.md — LAB SALI UYGULA (e2dc25a7b) + EMRELİC gece-101 (c)",
+   "alinti": "",
+   "oneri": {
+    "t": "1979-09-21"
+   },
+   "not": "Kural/karar uygulaması: Barracuda 20/21 Eylül gecesi; Dacko cumhuriyeti 09-21'de ilan etti (TDV esas). Künye t 09-20 → 09-21 aynı commit'te. f 1976-12-04 kaynak okunmadı (öteki uç teyitsiz)."
+  }
+ ],
+ "Businga": [
+  {
+   "sira": 2137,
+   "dosya_satir": "data/yerlesimler_afrika2.js:903",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f. Öteki uç teyitsiz: 1964 Simba ayaklanması (Stanleyville 'Halk Cumhuriyeti') ve 1998-2000 isyancı (MLC/RCD) fiilî denetimi kuzey/doğu yerleşimlerinde olası; künyesiz, bakılmadı."
+  }
+ ],
+ "Meşra er-Rek": [
+  {
+   "sira": 2200,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:808",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ],
+ "Rağa": [
+  {
+   "sira": 2217,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:989",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ],
+ "Rumbek": [
+  {
+   "sira": 2218,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:820",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ],
+ "Sarh (Fort-Archambault)": [
+  {
+   "sira": 2222,
+   "dosya_satir": "data/yerlesimler_afrika2.js:576",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Çad», https://islamansiklopedisi.org.tr/cad",
+   "alinti": "Çad 11 Ağustos 1960 tarihinde bağımsızlığını kazandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f (TDV Sarh'ı 'eski Fort Archambault' diye anar)."
+  }
+ ]
+}

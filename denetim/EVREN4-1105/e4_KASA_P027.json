@@ -1,0 +1,963 @@
+{
+ "Ukek (Uvek)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "astarhan",
+   "f": "1466-01-01",
+   "t": "1556-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Укек» (metin: booksite.ru/fulltext/1/001/008/113/834.htm) · TDV İslâm Ansiklopedisi, «Astarhan Hanlığı», Mehmet Saray, c. 3 (1991), s. 505, https://islamansiklopedisi.org.tr/astarhan-hanligi",
+   "alinti": "В начале 14 в. чеканил свои монеты. Существовал до конца 14 в.",
+   "uc": "",
+   "oneri": {
+    "sil": true,
+    "son": "Ukek 14. yy sonundan sonra yok (yıl bilinmiyor)"
+   },
+   "not": "[sira 2031] Yerleşim o devirde yok: BSE Ukek'in 14. yy sonuna kadar var olduğunu yazar (Timur 1395 seferi [İPUCU]). Astarhan Hanlığı 1466-1556 (TDV, YIL) devlet düzeyinde doğru, ama Ukek noktası bu dönemde bulunmamalı; toprak 8 km kuzeydeki Saratov (kur 1590-07-12) ve komşu peteklere kalır. Dönem kırpılmalı (merdiven ④). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2032] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı. NOT: Ukek 14. yy sonundan sonra yok (BSE, sira 2031) — bu dönem de kırpılmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1466-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Укек» (metin: booksite.ru/fulltext/1/001/008/113/834.htm)",
+   "alinti": "В начале 14 в. чеканил свои монеты. Существовал до конца 14 в.",
+   "uc": "t",
+   "oneri": {
+    "t": "14. yy sonu (gün/yıl kaynakta yok; Timur 1395 [İPUCU])"
+   },
+   "not": "[sira 2033] [KÜME K04] İstisna (yerleşime özgü çelişen tanıklık): BSE Ukek'in 14. yy sonuna kadar var olduğunu yazar; altinorda dönemi 1466'ya uzayamaz. Yıl bilinmediği için yıl yazılmadı; KASA yıl hassasiyeti için Timur seferi kaynağını arar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Укек» (metin: booksite.ru/fulltext/1/001/008/113/834.htm)",
+   "alinti": "В начале 14 в. чеканил свои монеты. Существовал до конца 14 в.",
+   "uc": "",
+   "oneri": {
+    "sil": true
+   },
+   "not": "[sira 2034] Yerleşim 1556-1917'de yok (BSE: 14. yy sonuna kadar vardı). Saratov (data/yerlesimler.js:1306) bu toprağı taşır. Dönem kırpılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2035] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı. NOT: Ukek bu tarihte yok (BSE, sira 2031)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:389",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2036] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı. NOT: Ukek bu tarihte yok (BSE, sira 2031)."
+  }
+ ],
+ "Yenotayevsk": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:399",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1741-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Энциклопедический словарь Брокгауза и Ефрона, «Енотаевск» (ru.wikisource.org/wiki/ЭСБЕ/Енотаевск) [19. yy kaynağı]",
+   "alinti": "В 1742 г. начата постройка Енотаевской крепости",
+   "uc": "f",
+   "oneri": {
+    "f": "1742-01-01"
+   },
+   "not": "[sira 2037] Kaynak kale inşaatının başlangıcını 1742 verir; mevcut f 1741. Gün yok → 1742-01-01 (kur: de 1742). t 1917-03-15 ülke düzeyi (K01 kümesinin ucu), burada teyit edilmedi. Takvim: yalnız yıl, Jülyen/Gregoryen sorunu yok. Dic.academic Kotlyakov sözlüğünde madde bulunamadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:399",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2038] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:399",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2039] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:399",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2040] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Volsk": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:405",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1690-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Словарь современных географических названий, ред. акад. В. М. Котляков, Екатеринбург 2006, «Вольск» (dic.academic.ru/dic.nsf/enc_geo/1275) · Поспелов Е. М., Географические названия мира: Топонимический словарь, М. 2001",
+   "alinti": "Основан в 1690 г. как сл. Малыковка при впадении в Волгу",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2041] f YIL (gün yok, 1690-01-01 doğru biçim). t 1917-03-15 teyitsiz (ülke düzeyi, K01 kümesinin ucu). İki bağımsız sözlük (Kotlyakov 2006, Pospelov 2001) 1690 der — çift teyit; ama ikisi de sözlük. Not: 1780'de uyezd şehri Volgsk. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:405",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2042] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:405",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2043] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:405",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2044] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "İlek": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:418",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1737-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Уральская историческая энциклопедия (УрО РАН), «Илек» (dic.academic.ru arama sayfası, madde özeti)",
+   "alinti": "Осн. в 1737 украинскими и яицкими казаками как укрепленный пункт",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2045] f YIL 1737 (Orenburg hattının Nijneyaitsk mesafesi kalesi). t 1917-03-15 teyitsiz (ülke düzeyi). Alıntı dic.academic.ru arama sayfasındaki madde özetinden (ham metin, kısaltmalar kaynağın). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:418",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2046] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:418",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2047] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:418",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2048] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Orsk": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:422",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1735-08-31",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Словарь современных географических названий (ред. В. М. Котляков, 2006) / Поспелов, Топонимический словарь (2001), «Орск» (dic.academic.ru)",
+   "alinti": "В 1735 г. в устье р. Орь была построена крепость Оренбург.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2049] f YIL 1735; gün 08-31 teyitsiz (kaynak gün vermez; ilk Orenburg kalesinin temeli 15 Ağustos 1735 Jülyen = 26 Ağustos Gregoryen [İPUCU] — 08-31'in dayanağı ayrıca sınanmalı). 1739'da Orenburg taşındı, yerindeki tahkimat Orsk kalesi oldu. t 1917-03-15 teyitsiz (ülke düzeyi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:422",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2050] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:422",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2051] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:422",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2052] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Hluhiv": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1362-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine, «Hlukhiv», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CL%5CHlukhiv.htm",
+   "alinti": "In the 1350s the region came under Lithuanian rule",
+   "uc": "t",
+   "oneri": {
+    "t": "1350'ler (yıl kaynakta yok)"
+   },
+   "not": "[sira 2053] [KÜME K04] İstisna (yerleşime özgü çelişen tanıklık): EU Litvanya geçişini 1350'lere koyar; 1362 (Mavisu savaşı) bölge düzeyi kırılmadır. Yıl verilmediği için öneri yıl taşımaz; KASA 1362'yi beyanla tutabilir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "litvanya-buyuk-dukalik",
+   "f": "1362-01-01",
+   "t": "1503-04-02",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine, «Hlukhiv», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CL%5CHlukhiv.htm",
+   "alinti": "the region came under Lithuanian rule; it was annexed by Muscovy in 1503",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1350'ler (yıl yok; 1362 beyanla kalabilir)"
+   },
+   "not": "[sira 2054] t 1503 YIL teyitli (Moskova'ya ilhak). f: kaynak '1350s' der, mevcut 1362 bölge kırılması — fark beyan edilmeli. t günü 1503-04-02 teyitsiz (Moskova ateşkesi 25 Mart 1503 Jülyen [İPUCU]; 1582 öncesi kaynak günü yazılır kuralına göre 04-02'nin dayanağı sınanmalı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1503-04-02",
+   "t": "1547-01-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine, «Hlukhiv», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CL%5CHlukhiv.htm",
+   "alinti": "it was annexed by Muscovy in 1503",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2055] f 1503 YIL teyitli, gün teyitsiz (bkz. sira 2054). t 1547-01-16 Moskova→Rusya Çarlığı künye geçişi (aynı polity), teyit edilmedi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2056] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı. KARARLAR gece-20 madde 1 (Ukrayna 1917-91 kesintisiz Sovyet zinciri YANLIŞ, rakip hükûmet kuralı) bu yerleşime de uygulanır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1547-01-16",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine, «Hlukhiv», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CH%5CL%5CHlukhiv.htm",
+   "alinti": "annexed by Muscovy in 1503 and by Poland in 1618 | Part of the Hetman state from 1648 on",
+   "uc": "",
+   "oneri": {
+    "bol": "rusya 1547-01-16 → 1618 (Deulino, gün kaynakla) · lehistan 1618 → 1648 · kazak-hetmanligi 1648 → 1764-11-21 (1654 Pereyaslav'dan v: rusya) · rusya 1764-11-21 → 1917-03-15",
+    "d": "lehistan / kazak-hetmanligi"
+   },
+   "not": "[sira 2057] [KÜME K21] İstisna (yerleşime özgü çelişen tanıklık): EU'ya göre Hluhiv 1618'de Polonya'ya geçti, 1648'den Hetmanlık şehri; 1708-22 ve 1727-64 Sol Yaka hetmanlarının başkenti. Kesintisiz rusya 1547-1917 yanlış. Künyeler var: lehistan 1569-07-01→1795, kazak-hetmanligi 1648-01-01→1764-11-21. Günler (Deulino 1618-12-11 Jülyen, Hmelnitski ayaklanmasında şehrin geçişi, Pereyaslav 1654-01-18 Jülyen) kaynakla bulunmalı [İPUCU]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2058] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:436",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2059] [KÜME K28] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Sûvayra (Mogador)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:94",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2060] ÜLKE DÜZEYİ (Fes Antlaşması ve bağımsızlık antlaşması; bölgenin fiilî 'pasifikasyonu' ayrı tarihtir, ic_not'a). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:94",
+   "alan": "s",
+   "d": "fas",
+   "f": "1764-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2061] ÜLKE DÜZEYİ; t 1912-03-30 teyitli. f 1764 (şehrin Mevlây Muhammed III tarafından kuruluşu) teyitsiz: TDV «Fas», «Mevlây Muhammed III» ve TDV arama 'Suveyre' (29 içerik eşleşmesi) kuruluş yılını vermiyor; TDV'de Suveyre maddesi yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:94",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2062] ÜLKE DÜZEYİ. t 2000-12-31 ufuk sonu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bâdis (Peñón de Vélez)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:130",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1564-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler · TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2063] Bakılan: TDV arama 'Bâdis' (madde yok), TDV «Sa‘dîler», «Vattâsîler», «Sâlih Reis» (slug arama sayfasına düştü) — Peñón de Vélez'in 1549-1564 sahibi yok. İPUCU (Vikipedi/arama özeti): İspanya 1508, kaybı 1522, Cezayir (Osmanlı) 1554, İspanya geri alışı 1564 Eylül başı. Nokta kayalıktaysa sadi 1549-1564 yerine Osmanlı/Cezayir 1554-1564 olabilir. TARAYICI: Pi Corrales, M. de P., Peñón de Vélez 1508-1564 makalesi, https://dialnet.unirioja.es/descarga/articulo/2558823.pdf (indirme zaman aşımı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:130",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1564-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2064] 1564 İspanyol geri alışı TDV'de bulunamadı (bkz. sira 2063). TARAYICI: Pi Corrales (dialnet 2558823)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:130",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2065] Peñón'un 1508-1522 İspanyol dönemi [İPUCU] merini (Vattâsî) zincirini bölebilir; akademik kaynakta okunamadı. Fes 1549-01-31 (TDV «Vattâsîler») bölge düzeyi uç olarak kullanılabilir. TARAYICI: Pi Corrales (dialnet 2558823)."
+  }
+ ],
+ "Fîgîg (Figuig)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:149",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2066] ÜLKE DÜZEYİ (Fes Antlaşması ve bağımsızlık antlaşması; bölgenin fiilî 'pasifikasyonu' ayrı tarihtir, ic_not'a). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:149",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler · TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549)",
+   "uc": "t",
+   "oneri": {
+    "t": "1549-01-31"
+   },
+   "not": "[sira 2067] ÜLKE DÜZEYİ: başşehir Fes 2 Muharrem 956 / 31 Ocak 1549'da Sa‘dîlere geçti (TDV «Vattâsîler»; TDV «Sa‘dîler» 956/1549). 1549-01-01 hicrî 956 başından (≈1549-01-30) önce düşüyor. f 1281 merini künye içi, teyit edilmedi. Not: TDV Vattâsî hânedanını 1471-1554 verir; 1554 Ebû Hassûn dönüşü (961/1554) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:149",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler · TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549) | Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1549-01-31"
+   },
+   "not": "[sira 2068] ÜLKE DÜZEYİ: f Fes'in alınışı 31 Ocak 1549 (TDV «Vattâsîler»); t 1069/1659 Ahmed el-Abbas'ın öldürülüşü, Sa‘dî hânedanının sonu (TDV «Sa‘dîler»; hicrî 1069 ∩ 1659 → 1659-01-01, mevcut değer uyar). 1659-1666 arası Delâ zâviyesi / Alevî yükselişi ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:149",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler · TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler | 30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2069] ÜLKE DÜZEYİ: f 1069/1659 Sa‘dîlerin sonu (hicrî 1069 ∩ 1659 → 1659-01-01); t 30 Mart 1912 Fes Antlaşması (TDV «Fas»). Alevî Mevlây Reşîd'in Fes'i alışı (1666) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:149",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2070] ÜLKE DÜZEYİ. t 2000-12-31 ufuk sonu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Verzâzât": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:159",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2071] ÜLKE DÜZEYİ (Fes Antlaşması ve bağımsızlık antlaşması; bölgenin fiilî 'pasifikasyonu' ayrı tarihtir, ic_not'a). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:159",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Tâdlâ’nın güneyi ve Sûs’un Sa‘dîler’e ... bırakılması şartıyla bir anlaşma yapıldı (943/1536)",
+   "uc": "t",
+   "oneri": {
+    "t": "1536-06-19"
+   },
+   "not": "[sira 2072] Verzâzât Yüksek Atlas'ın güneyinde, Der‘a vadisinin başındadır (Tâdlâ'nın güneyi). TDV «Sa‘dîler»: Ukbâ savaşından sonra 943/1536 anlaşmasıyla Tâdlâ'nın güneyi ve Sûs Sa‘dîlere bırakıldı; Merakeş 930/1524'te Sa‘dîlerin. Hicrî 943 ∩ 1536 → kesişimin ilk günü ≈ 1536-06-20 (1 Muharrem 943; tabloyla teyit edilmeli). merini dönemi 1549'a uzayamaz; daha erken (1524) Sa‘dî hâkimiyeti de mümkün — en geç uç 1536. [alıntı ham metinden, sayfa.py] · [hicrî denetim 1105, KASA] 943: tabular, Perşembe epoch'u → 1536-06-19 (eski 1536-06-20 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:159",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Tâdlâ’nın güneyi ve Sûs’un Sa‘dîler’e ... bırakılması şartıyla bir anlaşma yapıldı (943/1536) | Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1536-06-19"
+   },
+   "not": "[sira 2073] Bkz. sira 2072. t 1069/1659 teyitli (hicrî 1069 ∩ 1659 → 1659-01-01). [alıntı ham metinden, sayfa.py] · [hicrî denetim 1105, KASA] 943: tabular, Perşembe epoch'u → 1536-06-19 (eski 1536-06-20 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:159",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler · TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler | 30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2074] ÜLKE DÜZEYİ: f 1069/1659 Sa‘dîlerin sonu (hicrî 1069 ∩ 1659 → 1659-01-01); t 30 Mart 1912 Fes Antlaşması (TDV «Fas»). Alevî Mevlây Reşîd'in Fes'i alışı (1666) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:159",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2075] ÜLKE DÜZEYİ. t 2000-12-31 ufuk sonu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Hunayfire (Khenifra)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:168",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2076] ÜLKE DÜZEYİ (Fes Antlaşması ve bağımsızlık antlaşması; bölgenin fiilî 'pasifikasyonu' ayrı tarihtir, ic_not'a). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:168",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler · TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549)",
+   "uc": "t",
+   "oneri": {
+    "t": "1549-01-31"
+   },
+   "not": "[sira 2077] ÜLKE DÜZEYİ: başşehir Fes 2 Muharrem 956 / 31 Ocak 1549'da Sa‘dîlere geçti (TDV «Vattâsîler»; TDV «Sa‘dîler» 956/1549). 1549-01-01 hicrî 956 başından (≈1549-01-30) önce düşüyor. f 1281 merini künye içi, teyit edilmedi. Not: TDV Vattâsî hânedanını 1471-1554 verir; 1554 Ebû Hassûn dönüşü (961/1554) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:168",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vattâsîler», https://islamansiklopedisi.org.tr/vattasiler · TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549) | Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1549-01-31"
+   },
+   "not": "[sira 2078] ÜLKE DÜZEYİ: f Fes'in alınışı 31 Ocak 1549 (TDV «Vattâsîler»); t 1069/1659 Ahmed el-Abbas'ın öldürülüşü, Sa‘dî hânedanının sonu (TDV «Sa‘dîler»; hicrî 1069 ∩ 1659 → 1659-01-01, mevcut değer uyar). 1659-1666 arası Delâ zâviyesi / Alevî yükselişi ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:168",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler · TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler | 30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2079] ÜLKE DÜZEYİ: f 1069/1659 Sa‘dîlerin sonu (hicrî 1069 ∩ 1659 → 1659-01-01); t 30 Mart 1912 Fes Antlaşması (TDV «Fas»). Alevî Mevlây Reşîd'in Fes'i alışı (1666) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:168",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2080] ÜLKE DÜZEYİ. t 2000-12-31 ufuk sonu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tîznît": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:177",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2081] ÜLKE DÜZEYİ (Fes Antlaşması ve bağımsızlık antlaşması; bölgenin fiilî 'pasifikasyonu' ayrı tarihtir, ic_not'a). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:177",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Sûs bölgesinin cihad emîri olarak biat aldı (916/1511)",
+   "uc": "t",
+   "oneri": {
+    "t": "1511-01-01"
+   },
+   "not": "[sira 2082] Tîznît Sûs bölgesindedir. TDV «Sa‘dîler»: Sa‘dî Muhammed Târûdânt yakınında Sûs'un cihad emîri olarak biat aldı (916/1511). Hicrî 916 (1510-04-10 → 1511-03-29) ∩ 1511 → 1511-01-01. sadi künyesi f 1511-01-01 (hayalet yok). 943/1536 anlaşması Sûs'u Sa‘dîlere bıraktı (çift dayanak, aynı madde). Not: Tîznît şehrinin 1882 Mevlây Hasan surlarıyla kuruluşu [İPUCU] var-mıydı sorusu için ayrıca sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:177",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Sûs bölgesinin cihad emîri olarak biat aldı (916/1511) | Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1511-01-01"
+   },
+   "not": "[sira 2083] Bkz. sira 2082. t 1069/1659 teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:177",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler», c. 35 (2008), s. 407-410, https://islamansiklopedisi.org.tr/sadiler · TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "Merakeş’i muhasara eden Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler | 30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2084] ÜLKE DÜZEYİ: f 1069/1659 Sa‘dîlerin sonu (hicrî 1069 ∩ 1659 → 1659-01-01); t 30 Mart 1912 Fes Antlaşması (TDV «Fas»). Alevî Mevlây Reşîd'in Fes'i alışı (1666) ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:177",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas», https://islamansiklopedisi.org.tr/fas",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2085] ÜLKE DÜZEYİ. t 2000-12-31 ufuk sonu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tîzî Vezzû (Kabiliye)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:203",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kabîliye», https://islamansiklopedisi.org.tr/kabiliye",
+   "alinti": "Muvahhid, Hammâdî ve Hafsî idarelerinde kaldı. | Kabîliye, 1534’te ... Osmanlı toprağı oldu ve 1830’a kadar Garp ocaklarının bir parçası sayıldı",
+   "uc": "t",
+   "oneri": {
+    "d": "hafsi",
+    "t": "1534-01-01",
+    "not": "16. yy ilk yarısı Kûkû emirliği (künye sorusu)"
+   },
+   "not": "[sira 2086] Kabîliye Zeyyânî (Tilimsân) değil Hafsî idaresindeydi (TDV «Kabîliye»; TDV «Abdülvâdîler»: 1366 Bicâye seferi bozgunla bitti). TDV: 16. yy ilk yarısında Kûkû, Benî Abbas, Benî Câbir emirlikleri; Kabîliye 1534'te Osmanlı toprağı oldu. hafsi künyesi 1228→1574 (hayalet yok). Kûkû emirliğine künye yok → dilim BEYANLI ya da hafsi içinde. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:203",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kabîliye», https://islamansiklopedisi.org.tr/kabiliye · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Kabîliye, 1534’te ... Osmanlı toprağı oldu ve 1830’a kadar Garp ocaklarının bir parçası sayıldı | ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1534-01-01"
+   },
+   "not": "[sira 2087] TDV «Kabîliye»: Kabîliye 1534'te (Barbaros'un Cezayir beylerbeyi oluşu) Osmanlı toprağı oldu; 1519 (Cezayir şehrinin bağlanışı; TDV «Cezayir»'de arîza Ekim 1519 tarihli) Kabîliye'ye uygulanmaz. t 1671 dayılar devrinin başı (TDV «Cezayir»), YIL. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:203",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir · TDV İslâm Ansiklopedisi, «Kabîliye», https://islamansiklopedisi.org.tr/kabiliye",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere | Kabîliye, 1534’te ... Osmanlı toprağı oldu ve 1830’a kadar Garp ocaklarının bir parçası sayıldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2088] f+t YIL düzeyi (dayılar devri 1671-1830; Kabîliye 1830'a kadar Garp ocaklarının parçası). t günü 1830-07-05 TDV «Cezayir»: 5 Temmuz 1830 işgal. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:203",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1857-07-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "5 Temmuz 1830 günü Cezayir şehrini işgal ettiler. | Dağlık Kabîliye (Bilâdü’l-kabâil) bölgesinin 1853, 1854 ve 1857’deki seferler sonunda işgal edilmesiyle",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2089] f 1830-07-05 gün teyitli; t 1857 YIL teyitli (Kabîliye 1853, 1854, 1857 seferleriyle işgal), 07-11 günü teyitsiz. Not: 1830-57 dilimi 'v' (statü vassal, kid yok) yazılmış; Kabîliye bu dönemde fiilen bağımsızdı — v'nin sahibi (Osmanlı iddiası mı?) KASA'da ölçülmeli. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tâhert (Tiaret)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:219",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tâhert», https://islamansiklopedisi.org.tr/tahert · TDV İslâm Ansiklopedisi, «Abdülvâdîler», https://islamansiklopedisi.org.tr/abdulvadiler",
+   "alinti": "Tâhert, Tilimsân’ın alınmasından itibaren Osmanlı egemenliğine girdi. | Türkler, 1550 yılında Tilimsân’ı ele geçirerek Abdülvâdî hânedanına son verdiler.",
+   "uc": "t",
+   "oneri": {
+    "t": "1550-01-01"
+   },
+   "not": "[sira 2090] TDV «Tâhert»: Osmanlı egemenliği Tilimsân'ın alınmasından itibaren; TDV «Abdülvâdîler»: Türkler Tilimsân'ı 1550'de aldı (başlık 1235-1550). Mevcut t 1552 dayanaksız. ÇİFT-TDV notu: TDV «Sa‘dîler» Sa‘dîlerin 1549'dan bir yıl sonra Tilimsân'a girdiğini yazar — 1550-1552 arası Sa‘dî işgali ic_not'a; yerin kendi maddesi (Tâhert) Tilimsân bağını verir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:219",
+   "alan": "s",
+   "d": "abdulkadir",
+   "f": "1832-11-22",
+   "t": "1841-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Abdülkādir el-Cezâirî», https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi · TDV İslâm Ansiklopedisi, «Tâhert», https://islamansiklopedisi.org.tr/tahert",
+   "alinti": "22 Kasım 1832’de “emîrü’l-mü’minîn” unvanını aldı. | 1835-1841 yılları arasında ... Tagdemt kasabasını askerî ve idarî merkez olarak kullandı.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2091] f 1832-11-22 gün teyitli (emîrü'l-mü'minîn unvanı, ülke düzeyi). t 1841 YIL: Abdülkādir'in Tâhert yakınındaki Tagdemt merkezi 1835-1841 (TDV «Tâhert»); gün yok, 1841-01-01 biçimi doğru. Not: modern Tihert 1863'te Lamorcière tarafından kuruldu; Rüstemî Tâhert büyük ölçüde boşalmıştı (TDV). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:219",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tâhert», https://islamansiklopedisi.org.tr/tahert · TDV İslâm Ansiklopedisi, «Abdülvâdîler», https://islamansiklopedisi.org.tr/abdulvadiler · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Tâhert, Tilimsân’ın alınmasından itibaren Osmanlı egemenliğine girdi. | ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1550-01-01"
+   },
+   "not": "[sira 2092] f: bkz. sira 2090 (Tilimsân 1550). t 1671 dayılar devri başı YIL teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:219",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere | 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2093] ÜLKE DÜZEYİ (Cezayir Ocağı); f YIL, t gün teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:219",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1832-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir · TDV İslâm Ansiklopedisi, «Abdülkādir el-Cezâirî», https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi",
+   "alinti": "5 Temmuz 1830 günü Cezayir şehrini işgal ettiler. | 22 Kasım 1832’de “emîrü’l-mü’minîn” unvanını aldı.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2094] f 1830-07-05 ve t 1832-11-22 gün teyitli (ülke düzeyi). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Hanşele (Khenchela)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:254",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "Hafsîler’e geçen Kostantîne’nin idaresi hânedandan bir emîre verildi. | ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar.",
+   "uc": "",
+   "oneri": {
+    "d": "hafsi",
+    "t": "1533-07-22"
+   },
+   "not": "[sira 2095] ABİ MERKEZ: Kostantîne — Hanşele (Evrâs) Kostantîne beyliğinin iç bölgesidir (TDV «Kostantîne»: beylik merkezi); BEYANLI YAKLAŞIKLIK. Kostantîne bölgesi Zeyyânî değil Hafsî idaresindeydi (1229'dan; 14. yy'da Merînî işgalleri). Osmanlı tam hâkimiyeti 940/1533-34 (Mercier: 1519/20 ilk zapt, 1526 Hafsî geri alışı). Hicrî 940 başı ≈ 1533-07-23 (tabloyla teyit; kesişimin ilk günü). hafsi künyesi 1228→1574. [alıntı ham metinden, sayfa.py] · [hicrî denetim 1105, KASA] 940: tabular, Perşembe epoch'u → 1533-07-22 (eski 1533-07-23 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:254",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar. | ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1533-07-22"
+   },
+   "not": "[sira 2096] ABİ MERKEZ: Kostantîne — Hanşele (Evrâs) Kostantîne beyliğinin iç bölgesidir (TDV «Kostantîne»: beylik merkezi); BEYANLI YAKLAŞIKLIK. f: 940/1533-34 garnizon ve tam hâkimiyet; 1519-09-01 Cezayir şehrinin günüdür, iç bölgeye uygulanmaz. t 1671 YIL teyitli. [alıntı ham metinden, sayfa.py] · [hicrî denetim 1105, KASA] 940: tabular, Perşembe epoch'u → 1533-07-22 (eski 1533-07-23 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:254",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere | 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2097] ÜLKE DÜZEYİ (Cezayir Ocağı / Kostantîne beyliği). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:254",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir · TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "5 Temmuz 1830 günü Cezayir şehrini işgal ettiler. | Ahmed Bey Sahrâ’ya çekilip on bir yıl süreyle Fransızlar’a karşı savaştı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2098] ABİ MERKEZ: Kostantîne — Hanşele (Evrâs) Kostantîne beyliğinin iç bölgesidir (TDV «Kostantîne»: beylik merkezi); BEYANLI YAKLAŞIKLIK. f 1830-07-05 teyitli. t 1844-03-04 teyitsiz: TDV Kostantîne'nin 13 Ekim 1837'de düştüğünü, Ahmed Bey'in 11 yıl (→1848) Sahrâ/Evrâs'ta direndiğini yazar; Hanşele'nin Fransız işgal günü bulunamadı (1844-03-04 Biskra'nın alınışı olabilir [İPUCU]). t ucu 1848'e kayabilir — KASA sınamalı. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

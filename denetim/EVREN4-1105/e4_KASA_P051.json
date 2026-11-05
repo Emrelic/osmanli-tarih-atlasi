@@ -1,0 +1,594 @@
+{
+ "Arauco (Mapuche/Araukanya — kuzey sınır bölgesi)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:746",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1281-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Últimas campañas militares, expedición y refundación de Villarrica (1882-1883)», https://www.memoriachilena.gob.cl/602/w3-article-96472.html",
+   "alinti": "Urrutia procedió a refundar Villarrica el 1 de enero de 1883",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3405] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ: Araukanya'nın işgalinin sonu (aynı sayfa: «Con la re-fundación de Villarrica se puso fin a un proceso…»). t 1883-01-01 = Villarrica'nın yeniden kuruluşu. f 1281 pencere ucu, teyitsiz (Dillehay 2007 Cambridge UP — kapalı kapı). 🟡 ŞÜPHE: nokta Arauco kasabası koordinatında (-37.25,-73.32); Arauco 1550'lerden İspanyol kalesi/kasabasıdır (ipucu, okunmadı) — bölge noktasının Arauco kalesinden ayrılması ya da ispanya/sili dilimi sorusu EMRELİC'e."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:746",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Últimas campañas militares, expedición y refundación de Villarrica (1882-1883)», https://www.memoriachilena.gob.cl/602/w3-article-96472.html",
+   "alinti": "Urrutia procedió a refundar Villarrica el 1 de enero de 1883",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3406] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (Araukanya işgalinin bitişi). t pencere ucu. sili-cumhuriyeti künye f 1818-02-12 kapsar."
+  }
+ ],
+ "Cahokia": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:776",
+   "alan": "s",
+   "d": "cahokia",
+   "f": "1281-01-01",
+   "t": "1350-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Kessler et al., «Age and origin of a Cahokian wooden monument at the Mitchell site», PLOS ONE 20 (2025), Europe PMC PMC12494245 fullTextXML",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3407] Bakılan: Kessler et al. 2025 (kaydın kendi kaynağı, Europe PMC tam metin) — «1350», «1400», «abandon» araması: 1350 bitişi yok. Kaynak tersine «by 1200 CE, significant regional depopulation and political … shifts had been completed» diyor → 🟡 ŞÜPHE: 1281'de Cahokia siyasi yapısı zaten dağılmış olabilir (künye cahokia 1050-1350). Pauketat 2009 okunmadı (kitap)."
+  }
+ ],
+ "Mohawk (Kayenlaha'ke)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:790",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1450-01-01",
+   "t": "1777-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3408] Bakılan: kaydın kaynağı Richter, The Ordeal of the Longhouse (1992) — kitap, açık metin yok; American Antiquity (Cambridge Core) kapalı kapı. 1450 kayıtta YAKLAŞIK beyanlı; 1777 Konfederasyonun bölünmesi (kayıt yorumu) okunmadı. TARAYICI: Richter 1992."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:790",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1777-01-01",
+   "t": "1783-09-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3409] Bakılan: yerleşime özgü kaynak bulunamadı. 🟡 ŞÜPHE (okunmadı, ipucu): Mohawk vadisi 1776'dan itibaren New York (Patriot) denetimindeydi; Mohawklar 1775-80'de Kanada'ya çekildi → 1777-1783 'ingiltere' dilimi TAHRİR ile sınanmalı. Kayıt yorumu da 'basitleştirildi, açıkça işaretli' der."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:790",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Treaty of Paris, 1783», https://history.state.gov/milestones/1776-1783/treaty ; Treaty with the Six Nations, Fort Stanwix 1784-10-22 (Avalon Project, Yale Law School), https://avalon.law.yale.edu/18th_century/six1784.asp",
+   "alinti": "a formal peace of Paris signed on September 3, 1783",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3410] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. ic_not: Fort Stanwix 1784-10-22 — «The United States of America give peace to the Senecas, Mohawks, Onondagas and Cayugas, and receive them into their protection» (Avalon, ham). TEK ÖLÇÜ: Mohawk vadisi ABD (NY) denetiminde olduğundan imza günü. t pencere ucu."
+  }
+ ],
+ "Oneida": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:805",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1450-01-01",
+   "t": "1777-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3411] Bakılan: kaydın kaynağı Richter, The Ordeal of the Longhouse (1992) — kitap, açık metin yok; American Antiquity (Cambridge Core) kapalı kapı. 1450 kayıtta YAKLAŞIK beyanlı; 1777 Konfederasyonun bölünmesi (kayıt yorumu) okunmadı. TARAYICI: Richter 1992."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:805",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1777-01-01",
+   "t": "1783-09-03",
+   "hukum": "ONERI",
+   "kaynak": "Treaty with the Six Nations, Fort Stanwix 1784-10-22 (Avalon Project, Yale Law School), https://avalon.law.yale.edu/18th_century/six1784.asp",
+   "alinti": "The Oneida and Tuscarora nations shall be secured in the possession of the lands on which they are settled.",
+   "uc": "",
+   "oneri": {
+    "not": "1777-1783 'ingiltere' dilimi Oneida için kaldırılmalı/sınanmalı: Oneida Devrim'de ABD tarafındaydı (kayıt yorumu da 'Oneida/Tuscarora ABD yanında' der); 1784'te toprakları kendilerine güvence altına alındı. Doğru sahip haudenosaunee/Oneida ulusu (künye haudenosaunee t 1777) — künye sorusu LAB'a; şimdilik BEYANLI."
+   },
+   "not": "[sira 3412] [alıntı ham metinden, sayfa.py] Fort Stanwix Madde II. 1777-83'te Oneida köylerini İngiltere'nin idare ettiğine dair tanıklık yok; kaynak tersini gösteriyor. Gün düzeyinde öneri yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:805",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Treaty of Paris, 1783», https://history.state.gov/milestones/1776-1783/treaty",
+   "alinti": "a formal peace of Paris signed on September 3, 1783",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3413] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. 🟡 Oneida toprakları 1784 Fort Stanwix ile Oneida'ya güvence altına alındı (Avalon, ham) — s: abd yerine s: Oneida + v: abd sorusu (Chota/Holston emsali) EMRELİC'e. t pencere ucu."
+  }
+ ],
+ "Chota (Cherokee Overhill Başkenti)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:877",
+   "alan": "s",
+   "d": "cherokee",
+   "f": "1281-01-01",
+   "t": "1791-07-02",
+   "hukum": "ONERI",
+   "kaynak": "Tennessee Encyclopedia (Tennessee Historical Society), «Chota», https://tennesseeencyclopedia.net/entries/chota/ ; Treaty of Holston 1791 (Avalon Project, Yale Law School), https://avalon.law.yale.edu/18th_century/chr1791.asp",
+   "alinti": "The land occupied by Chota was finally ceded to the United States in 1819.",
+   "uc": "",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "s",
+      "d": "cherokee",
+      "f": "1281-01-01",
+      "t": "1819-01-01"
+     },
+     {
+      "alan": "v",
+      "d": "abd",
+      "f": "1791-07-02",
+      "t": "1819-01-01",
+      "not": "Holston Md. II: Cherokee 'under the protection of the said United States … and of no other sovereign'"
+     }
+    ]
+   },
+   "not": "[sira 3414] [alıntı ham metinden, sayfa.py] Holston 1791 Chota'yı devretmedi; Chota toprağı 1819'da devredildi (yıl; gün teyitsiz — ipucu Calhoun Antlaşması 1819-02-27, okunmadı). Holston antlaşması himaye kurar: «acknowledge themselves … to be under the protection of the said United States of America» (Avalon, ham) → 1791-07-02'den v: abd. ic_not: Chota 1780'de ABD kuvvetlerince yakıldı, 1784'te yeniden kuruldu; 1788 başkent Ustanalli'ye taşındı (aynı madde, ham)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:877",
+   "alan": "s",
+   "d": "abd",
+   "f": "1791-07-02",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Tennessee Encyclopedia (Tennessee Historical Society), «Chota», https://tennesseeencyclopedia.net/entries/chota/",
+   "alinti": "The land occupied by Chota was finally ceded to the United States in 1819.",
+   "uc": "",
+   "oneri": {
+    "f": "1819-01-01"
+   },
+   "not": "[sira 3415] [alıntı ham metinden, sayfa.py] f YIL (1819; gün kaynakla — Calhoun Antlaşması ipucu). 1791-07-02 → 1819 arası v: abd (bkz. sira 3414). t pencere ucu."
+  }
+ ],
+ "Nanih Waiya (Choctaw Konfederasyonu, kutsal/köken merkezi)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:885",
+   "alan": "s",
+   "d": "choctaw",
+   "f": "1281-01-01",
+   "t": "1830-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Kappler, Indian Affairs: Laws and Treaties II, «Treaty with the Choctaw, 1830» (Oklahoma State Univ.), https://treaties.okstate.edu/treaties/treaty-with-the-choctaw-1830-0310",
+   "alinti": "at Dancing Rabbit creek, this 27th day of September, eighteen and thirty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3416] [alıntı ham metinden, sayfa.py] t imza günü. TEK ÖLÇÜ: antlaşma girişi «the General Assembly of the State of Mississippi has extended the laws of said State to persons and property within the chartered limits» der — devralan fiilen yönetiyordu → imza günü uygun; onay (1831-02-24) ic_not. f teyitsiz: 🟡 kaydın kaynağı Galloway, Choctaw Genesis 1500-1700 Choctaw'ın oluşumunu 1500-1700'e koyar; 1281 pencere ucu künyeyi aşan bir devlet kimliği olabilir (hayalet sorusu, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:885",
+   "alan": "s",
+   "d": "abd",
+   "f": "1830-09-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Kappler, Indian Affairs: Laws and Treaties II, «Treaty with the Choctaw, 1830» (Oklahoma State Univ.), https://treaties.okstate.edu/treaties/treaty-with-the-choctaw-1830-0310",
+   "alinti": "at Dancing Rabbit creek, this 27th day of September, eighteen and thirty",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3417] [alıntı ham metinden, sayfa.py] İmza 27 Eylül 1830 (görüşmeler 15 Eylül'de başladı). t pencere ucu."
+  }
+ ],
+ "New Orleans": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:901",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1718-01-01",
+   "t": "1763-11-03",
+   "hukum": "ONERI",
+   "kaynak": "P. E. Hoffman, «Antonio de Ulloa y de la Torre Guiral», 64 Parishes (Louisiana Endowment for the Humanities), https://64parishes.org/entry/antonio-de-ulloa-y-de-la-torre-guiral ; 64 Parishes, «Alejandro O'Reilly», https://64parishes.org/entry/alejandro-oreilly",
+   "alinti": "Ulloa did not arrive in the colony until March 5, 1766.",
+   "uc": "",
+   "oneri": {
+    "t": "1766-03-05"
+   },
+   "not": "[sira 3418] [alıntı ham metinden, sayfa.py] f 1718 YIL (kayıt Eccles 1998; teyitsiz). t: 1763-11-03 hatalı görünüyor — Fontainebleau 1762'dir (64 Parishes O'Reilly: «France had ceded Louisiana to Spain in the 1762 Treaty of Fontainebleau», ham). TEK ÖLÇÜ: İspanya yönetmiyordu → TESLİM günü: Ulloa'nın gelişi 1766-03-05. ic_not: Ulloa vekâleten yönetti, 1768 ayaklanmasıyla çıkarıldı; O'Reilly Temmuz/Ağustos 1769'da İspanyol egemenliğini yeniden kurdu (aynı kaynaklar). Formal devir günü 1769 seçilirse 1768-10 → 1769-08 arası Fransız Yüksek Konseyi dilimi sorusu EMRELİC'e."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:901",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1763-11-03",
+   "t": "1803-04-30",
+   "hukum": "ONERI",
+   "kaynak": "P. E. Hoffman, «Antonio de Ulloa y de la Torre Guiral», 64 Parishes (Louisiana Endowment for the Humanities), https://64parishes.org/entry/antonio-de-ulloa-y-de-la-torre-guiral ; US Office of the Historian, «Louisiana Purchase, 1803», https://history.state.gov/milestones/1801-1829/louisiana-purchase",
+   "alinti": "Ulloa did not arrive in the colony until March 5, 1766.",
+   "uc": "",
+   "oneri": {
+    "f": "1766-03-05",
+    "t": "(Fransa'nın New Orleans'ı fiilen teslim aldığı gün; kaynakla — ipucu 1803-11-30)"
+   },
+   "not": "[sira 3419] [alıntı ham metinden, sayfa.py] f: sira 3418 ile aynı. t: 1803-04-30 Louisiana satışının imzasıdır (ABD–Fransa); İspanya şehri Fransa'ya 1803 sonunda teslim etti. history.state.gov «France acquired Louisiana from Spain in 1800 and took possession in 1802» der (ham) — New Orleans için 1802 ile çelişir, ic_not. TEK ÖLÇÜ: İspanyol idaresi Fransız teslimine kadar sürdü (kaydın kendi yorumu da 'fiilî teslim hiç olmadı' der)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:901",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1803-04-30",
+   "t": "1803-12-20",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, «Louisiana Purchase, 1803», https://history.state.gov/milestones/1801-1829/louisiana-purchase",
+   "alinti": "France acquired Louisiana from Spain in 1800 and took possession in 1802",
+   "uc": "",
+   "oneri": {
+    "bolunme": "ispanya dönemi 3419 ile birleşir (t = Fransız teslimi, ipucu 1803-11-30); ardından s: fransa-cumhuriyet (Fransız teslimi → 1803-12-20)"
+   },
+   "not": "[sira 3420] [alıntı ham metinden, sayfa.py] Aynı devletin iki ardışık dönemi (ispanya 1803-04-30 bölünmesi) gereksiz; 1803-04-30 İspanya için kırılma değildir. Laussat'nın 30 Kasım 1803 teslim alışı okunmadı (64 Parishes «Louisiana Purchase» maddesinde gün yok) — gün kaynakla. fransa-cumhuriyet künye 1792- kapsar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:901",
+   "alan": "s",
+   "d": "abd",
+   "f": "1803-12-20",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "US Office of the Historian, «Louisiana Purchase, 1803», https://history.state.gov/milestones/1801-1829/louisiana-purchase",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3421] Bakılan: history.state.gov Louisiana Purchase (20 Aralık yok), 64 Parishes «Louisiana Purchase and Territorial Louisiana» (December 20 yok). 1803-12-20 ABD'nin teslim alışı (ipucu) okunmadı."
+  }
+ ],
+ "Jamestown": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:930",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1607-05-23",
+   "t": "1776-07-04",
+   "hukum": "ONERI",
+   "kaynak": "Historic Jamestowne (Jamestown Rediscovery / Preservation Virginia), «History», https://historicjamestowne.org/history/",
+   "alinti": "On May 14, 1607, the Virginia Company settlers landed on Jamestown Island",
+   "uc": "",
+   "oneri": {
+    "f": "1607-05-24"
+   },
+   "not": "[sira 3422] [alıntı ham metinden, sayfa.py] Kaynak 14 Mayıs 1607 (Jülyen/O.S.; Britanya 1752'ye dek eski takvim) → Gregoryen 24 Mayıs 1607 (1582 sonrası kuralı). Veri 05-23 iki günle de tutmuyor. ic_not: 'O.S. 14 Mayıs 1607 = N.S. 24 Mayıs 1607'; NPS 13 Mayıs varış / 14 Mayıs karaya çıkış (arama özeti). t: sira 3423."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:930",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «The Declaration of Independence, 1776», https://history.state.gov/milestones/1776-1783/declaration",
+   "alinti": "adopted by the Continental Congress on July 4, 1776",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3423] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t pencere ucu. ic_not: Jamestown 1699'da başkentin Williamsburg'a taşınmasından sonra büyük ölçüde terk edildi (ipucu, okunmadı)."
+  }
+ ],
+ "Detroit (Fort Pontchartrain du Détroit)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:953",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1701-07-24",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "DCB, «LAUMET, dit de Lamothe Cadillac, ANTOINE», http://www.biographi.ca/en/bio/laumet_antoine_2E.html ; DCB, «PICOTÉ DE BELESTRE, FRANÇOIS-MARIE», http://www.biographi.ca/en/bio/picote_de_belestre_francois_marie_4E.html",
+   "alinti": "Cadillac arrived at Detroit with 100 men in the summer of 1701. | After turning over the fort to Robert Rogers on 29 Nov. 1760",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1760-11-29"
+   },
+   "not": "[sira 3424] [alıntı ham metinden, sayfa.py] f YIL/mevsim (yaz 1701; 07-24 teyitsiz). t: Fransız komutan kaleyi 29 Kasım 1760'ta Rogers'a teslim etti. ÖLÇÜT: geçici/askerî — Fransa'nın iddiası Paris 1763'e kadar sürdü (Port Royal emsali) → 1760-11-29 → 1763-02-10 isg ingiltere (sira 3425)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:953",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1796-07-11",
+   "hukum": "ONERI",
+   "kaynak": "DCB, «PICOTÉ DE BELESTRE, FRANÇOIS-MARIE», http://www.biographi.ca/en/bio/picote_de_belestre_francois_marie_4E.html ; DCB, «ENGLAND, RICHARD G.», http://www.biographi.ca/en/bio/england_richard_g_5E.html",
+   "alinti": "After turning over the fort to Robert Rogers on 29 Nov. 1760 | the evacuation of Detroit, which took place without incident on 11 July 1796",
+   "uc": "t",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1760-11-29",
+      "t": "1763-02-10"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1763-02-10",
+      "t": "1796-07-11"
+     }
+    ]
+   },
+   "not": "[sira 3425] [alıntı ham metinden, sayfa.py] TAHRİR/TEK ÖLÇÜ: İngiltere 1760'tan yönetiyordu → s: Paris imza günü 1763-02-10 (gün bu turda okunmadı, ic_not); öncesi isg (Port Royal emsali). t 1796-07-11 KAYNAKLI (DCB England: Detroit'in tahliyesi). 1783 Paris ile 1796 arası İngiliz fiilî idaresi: TEK ÖLÇÜ — ABD yönetmiyordu, TESLİM günü 1796-07-11 doğru."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:953",
+   "alan": "s",
+   "d": "abd",
+   "f": "1796-07-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "DCB, «ENGLAND, RICHARD G.», http://www.biographi.ca/en/bio/england_richard_g_5E.html",
+   "alinti": "the evacuation of Detroit, which took place without incident on 11 July 1796",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3426] [alıntı ham metinden, sayfa.py] TEK ÖLÇÜ teslim günü (Jay Antlaşması gereği). t pencere ucu."
+  }
+ ],
+ "Novoarkhangelsk (Sitka)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1023",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1799-07-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Purchase of Alaska, 1867», https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3427] [alıntı ham metinden, sayfa.py] t gün (Gregoryen; Sitka töreni). f teyitsiz: 1799 Baranov'un kalesi (kayıt Britannica — yasak/kapalı). 🟡 kayıt yorumu 1802-1804 Tlingit kesintisini kabul ediyor (kale 1802'de yıkıldı, 1804 Sitka savaşından sonra Novoarkhangelsk) — dilim modellenmedi, kaynakla bölünmeli (NPS Sitka sayfası 404, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1023",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3428] [KÜME K29]"
+  }
+ ],
+ "Santo Domingo": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1496-01-01",
+   "t": "1795-07-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "US Office of the Historian, «Dominican Republic» (countries), https://history.state.gov/countries/dominican-republic",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3429] Bakılan: history.state.gov Dominican Republic (yalnız 1844/1861/1865 yılları). 1496 kuruluşu ve 1795 Basel okunmadı (kayıt kaynağı Moya Pons 2010 — kitap). 🟡 künye ispanyol-santo-domingo (1496-01-01 → 1821-12-01) var; kayıt 'ispanya' yazıyor — sınıf sorusu. TEK ÖLÇÜ: Basel 1795 imzasından sonra İspanyol idaresi Fransız teslimine (1801/1802, ipucu) kadar sürdü → t TESLİM günü olmalı, kaynakla."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1795-07-22",
+   "t": "1809-07-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3430] Bakılan: history.state.gov Dominican Republic (1795/1809 yok). 🟡 TEK ÖLÇÜ: Fransa 1795'te şehri yönetmiyordu; f Fransız (Toussaint 1801 / Leclerc-Kerverseau 1802, ipucu) teslim günü olmalı. t 1809-07-09 (Fransız teslimi) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1809-07-09",
+   "t": "1822-02-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3431] Bakılan: history.state.gov Dominican Republic (1809/1821/1822 yok). 🟡 künye ispanyol-santo-domingo t 1821-12-01 (Núñez de Cáceres'in 'İspanyol Haitisi' ilanı, ipucu) — 1821-12-01 → 1822-02-09 dilimi künyesiz; LAB sorusu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "haiti",
+   "f": "1822-02-09",
+   "t": "1844-02-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Dominican Republic» (countries), https://history.state.gov/countries/dominican-republic",
+   "alinti": "declared itself an independent nation from neighboring Haiti in 1844",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3432] [alıntı ham metinden, sayfa.py] t YIL (27 Şubat teyitsiz). f 1822-02-09 (Boyer'in girişi) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1844-02-27",
+   "t": "1861-03-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Dominican Republic» (countries), https://history.state.gov/countries/dominican-republic",
+   "alinti": "declared itself an independent nation from neighboring Haiti in 1844. In 1861, the Dominican Republic reverted to Spanish rule",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3433] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, f ve t YIL (gün teyitsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1861-03-18",
+   "t": "1865-03-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Dominican Republic» (countries), https://history.state.gov/countries/dominican-republic",
+   "alinti": "In 1861, the Dominican Republic reverted to Spanish rule, again winning its independence in 1865.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3434] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, YIL. 🟡 t 1865-03-03 ilhakı iptal eden kraliyet kararıdır (ipucu); TEK ÖLÇÜ'ye göre İspanyol askerinin Temmuz 1865 tahliyesi sınanmalı (fiilî çekiliş gecikmesi → ara dönem sorusu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1072",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1865-03-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Dominican Republic» (countries), https://history.state.gov/countries/dominican-republic",
+   "alinti": "again winning its independence in 1865",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3435] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, YIL. t pencere ucu."
+  }
+ ],
+ "Caparra": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1124",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1508-01-01",
+   "t": "1521-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US National Park Service, «Caparra Archeological Site, Guaynabo, Puerto Rico», https://www.nps.gov/places/caparra-archeological-site-guaynabo-puerto-rico.htm",
+   "alinti": "the city was established in 1508 | The Spanish officially abandoned Caparra between 1519 and 1521",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3436] [alıntı ham metinden, sayfa.py] f YIL; t aralık 1519-1521 (aynı madde: «In 1521, the Spanish off[icially moved]…»). YIL düzeyi."
+  }
+ ],
+ "San José de Oruña (St. Joseph)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1168",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1592-01-01",
+   "t": "1797-02-18",
+   "hukum": "ONERI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {
+    "t": "1797-02-18 (değişmez)",
+    "not": "ardıl ingiltere dilimi bölünmeli, bkz. sira 3438"
+   },
+   "not": "[sira 3437] f 1592 teyitsiz (kayıt Brereton 1981 / Williams 1962 — kitap). t 1797-02-18 Chacón'un kapitülasyonu (arama özeti: KCL sergisi — sayfa 503, okunmadı). TARAYICI: King's College London «Trinidad» sergisi, https://kingscollections.org/exhibitions/specialcollections/caribbean/internationalrivalry/trinidad"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1168",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1797-02-18",
+   "t": "1962-08-31",
+   "hukum": "ONERI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1797-02-18",
+      "t": "(Amiens imza günü, kaynakla — ipucu 1802-03-25/27)"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "(Amiens imza günü)",
+      "t": "1962-08-31"
+     }
+    ]
+   },
+   "not": "[sira 3438] KURAL UYGULAMASI (Port Royal emsali, TAHRİR ikinci sınav): İspanya'nın iddiası Amiens 1802'ye kadar sürdü; İngiltere adayı zaten yönettiği için s: imza günü (TEK ÖLÇÜ). Kaynak bu turda okunmadı (KCL 503) — güçlü ONERI, gün kaynakla. 1962-08-31 bağımsızlık teyitsiz."
+  }
+ ],
+ "Corrientes": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1257",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1588-04-03",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "kaynak": "«El cabildo de Corrientes entre la revolución…» (Pontificia Universidad Católica Argentina, Repositorio Institucional UCA), https://repositorio.uca.edu.ar/bitstream/123456789/15651/1/cabildo-corrientes-entre-revoluci%c3%b3n.pdf",
+   "alinti": "llegó a Corrientes el 16 de junio … Ese mismo día, la Sala Capitular adhirió al movimiento juntista",
+   "uc": "t",
+   "oneri": {
+    "t": "1810-06-16"
+   },
+   "not": "[sira 3439] [alıntı ham metinden, pypdf] Rakip hükûmet kuralı (Peru emsali: her şehir kendi ilan/fiilî idare günü): Corrientes cabildosu Junta'ya 16 Haziran 1810'da katıldı; 25 Mayıs Buenos Aires günüdür. f 1588-04-03 bu turda okunmadı (kayıt RIUNNE «La fundación de Corrientes»). 🟡 1776-1810 arası künye rio-de-la-plata-valiligi var; kayıt 'ispanya' yazıyor (sınıf sorusu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1257",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "«El cabildo de Corrientes entre la revolución…» (Pontificia Universidad Católica Argentina, Repositorio Institucional UCA), https://repositorio.uca.edu.ar/bitstream/123456789/15651/1/cabildo-corrientes-entre-revoluci%c3%b3n.pdf",
+   "alinti": "llegó a Corrientes el 16 de junio … Ese mismo día, la Sala Capitular adhirió al movimiento juntista",
+   "uc": "f",
+   "oneri": {
+    "f": "1810-06-16"
+   },
+   "not": "[sira 3440] [alıntı ham metinden, pypdf] Rakip hükûmet kuralı. arjantin-cumhuriyeti künye f 1810-05-25 öneriyi kapsar. Paraguay'ın (Asunción) Corrientes'i davet edip reddedilmesi aynı makalede. t pencere ucu."
+  }
+ ],
+ "San Miguel de Tucumán": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1287",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1565-05-31",
+   "t": "1810-05-25",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3441] Bakılan: arama (Tucumán cabildosu 1810). f 1565-05-31: kaydın kendi notu yalnız YIL'ı okumuş (argentina.gob.ar); gün teyitsiz. t: rakip hükûmet kuralına göre Tucumán cabildosunun Junta'ya katılış günü olmalı — basın kaynakları 19 Haziran / 25 Haziran 1810 veriyor (dayanak değil). Akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1287",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3442] Bakılan: sira 3441 ile aynı. f 1810-05-25 Buenos Aires günü; Tucumán'ın katılış günü (ipucu 1810-06-19/25) akademik kaynakla bulunmalı."
+  }
+ ]
+}

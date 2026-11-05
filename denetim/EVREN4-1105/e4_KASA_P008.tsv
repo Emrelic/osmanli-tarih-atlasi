@@ -1,0 +1,74 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+566	ZAYIF_ATLAS	data/yerlesimler.js:1753	Çarşamba	s	eretna	1335-01-01	1379-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Eretna Beyliği'nin kuruluşu — İlhanlı sonrası Orta Anadol
+567	BOS	data/yerlesimler.js:1753	Çarşamba	s	ilhanli	1281-01-01	1335-01-01	
+568	BOS	data/yerlesimler.js:1753	Çarşamba	s	taceddin	1379-01-01	1427-01-01	
+569	BOS	data/yerlesimler.js:1753	Çarşamba	s	tbmm-turkiye	1920-04-23	1923-10-29	
+570	BOS	data/yerlesimler.js:1753	Çarşamba	d		1427-01-01	1920-04-23	
+571	ZAYIF_ATLAS	data/yerlesimler.js:1781	Şimontorna	s	macaristan	1281-01-01	1544-09-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Budin'in kuzey ve batı savunma kuşağı: Vaç, Hatvan ve Şi
+572	BOS	data/yerlesimler.js:1781	Şimontorna	s	macaristan-naiplik	1918-11-16	1946-02-01	
+573	BOS	data/yerlesimler.js:1781	Şimontorna	d		1544-09-01	1686-09-23	
+574	DIGER	data/yerlesimler.js:1781	Şimontorna	s	macaristan-habsburg	1686-09-23	1918-11-16	Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 0017/1423: 23 Eylül 1686, Baden'li Ludwig aldı (atlas önceden komşu Budin günü 09-02 yazıyordu)
+575	ZAYIF_ATLAS	data/yerlesimler.js:1781	Şimontorna	s	macaristan-halk	1946-02-01	1989-10-23	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-halk f ucunun kaynağı — 1946. évi I. törvénycikk Magyarország államformájáról (net.jogtar.hu/ezer-
+576	ZAYIF_ATLAS	data/yerlesimler.js:1781	Şimontorna	s	macaristan-cumhuriyeti	1989-10-23	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-cumhuriyeti f ucunun kaynağı — https://doha.mfa.gov.hu/eng/page/the-history-of-hungary · BEYANLI: 
+577	ZAYIF_ATLAS	data/yerlesimler.js:1802	Murted (Kea)	s	venedik	1281-01-01	1566-04-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı» (
+578	BOS	data/yerlesimler.js:1802	Murted (Kea)	s	yunanistan	1830-02-03	1973-06-01	
+579	BOS	data/yerlesimler.js:1802	Murted (Kea)	d		1566-04-15	1830-02-03	
+580	ZAYIF_ATLAS	data/yerlesimler.js:1804	Koçbaba (Serifos)	s	venedik	1281-01-01	1566-04-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı» (
+581	BOS	data/yerlesimler.js:1804	Koçbaba (Serifos)	s	yunanistan	1830-02-03	1973-06-01	
+582	BOS	data/yerlesimler.js:1804	Koçbaba (Serifos)	d		1566-04-15	1830-02-03	
+583	ZAYIF_ATLAS	data/yerlesimler.js:1809	Yamurgi (Amorgos)	s	venedik	1281-01-01	1566-04-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı» (
+584	BOS	data/yerlesimler.js:1809	Yamurgi (Amorgos)	s	yunanistan	1830-02-03	1973-06-01	
+585	BOS	data/yerlesimler.js:1809	Yamurgi (Amorgos)	d		1566-04-15	1830-02-03	
+586	ZAYIF_ATLAS	data/yerlesimler.js:1814	Kelemez (Kalimnos)	s	bizans	1281-01-01	1310-08-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyeler
+587	ZAYIF_ATLAS	data/yerlesimler.js:1814	Kelemez (Kalimnos)	s	rodos-sovalyeleri	1310-08-15	1523-01-05	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyeleri
+588	BOS	data/yerlesimler.js:1814	Kelemez (Kalimnos)	d		1523-01-05	1923-07-24	
+589	DIGER	data/yerlesimler.js:1814	Kelemez (Kalimnos)	s	oniki-ada-italyan	1923-07-24	1947-09-15	1923 ESKİ UFUK DÜZELTMESİ (DUNYA-1102, KASA 4 Kasım 2026; UMIT EK-1923-ufuk): 1923-10-29 yapay kırılması kaldırıldı, dönem baştan oniki-ada-italyan — künye onik
+590	DIGER	data/yerlesimler.js:1814	Kelemez (Kalimnos)	isg	italya	1912-05-12	1923-07-24	oniki-ada
+591	ZAYIF_ATLAS	data/yerlesimler.js:1817	İncirli (Nisiros)	s	bizans	1281-01-01	1310-08-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyeler
+592	ZAYIF_ATLAS	data/yerlesimler.js:1817	İncirli (Nisiros)	s	rodos-sovalyeleri	1310-08-15	1522-12-21	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyeleri
+593	BOS	data/yerlesimler.js:1817	İncirli (Nisiros)	d		1522-12-21	1923-07-24	
+594	DIGER	data/yerlesimler.js:1817	İncirli (Nisiros)	s	oniki-ada-italyan	1923-07-24	1947-09-15	1923 ESKİ UFUK DÜZELTMESİ (DUNYA-1102, KASA 4 Kasım 2026; UMIT EK-1923-ufuk): 1923-10-29 yapay kırılması kaldırıldı, dönem baştan oniki-ada-italyan — künye onik
+595	DIGER	data/yerlesimler.js:1817	İncirli (Nisiros)	isg	italya	1912-05-12	1923-07-24	oniki-ada
+596	ZAYIF_ATLAS	data/yerlesimler.js:1826	İpsara (Psara)	s	cenova	1281-01-01	1566-04-14	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Sakız'ın Cenevizlilerden alınışı» (1566-04-14, yer kolu)
+597	BOS	data/yerlesimler.js:1826	İpsara (Psara)	s	yunanistan	1923-07-24	1973-06-01	
+598	BOS	data/yerlesimler.js:1826	İpsara (Psara)	d		1566-04-14	1923-07-24	
+599	DIGER	data/yerlesimler.js:1826	İpsara (Psara)	isg	yunanistan	1912-11-11	1923-07-24	oniki-ada
+600	ZAYIF_ATLAS	data/yerlesimler.js:1829	Alonisos	s	venedik	1453-05-29	1538-08-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar
+601	BOS	data/yerlesimler.js:1829	Alonisos	s	bizans	1281-01-01	1453-05-29	
+602	BOS	data/yerlesimler.js:1829	Alonisos	s	yunanistan	1830-02-03	1973-06-01	
+603	BOS	data/yerlesimler.js:1829	Alonisos	d		1538-08-01	1830-02-03	
+604	ZAYIF_ATLAS	data/yerlesimler.js:1844	Cres (Cherso)	s	avusturya	1797-10-17	1806-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Kvarner adalarının Napolyon İtalya Krallığı'na, Boka Kot
+605	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	macaristan	1358-02-18	1409-01-01	KUTU-H7-1015: LZMK 'Zadarski mir': 18. II. 1358 Venedik 'Osor, Cres, Krk, Rab, Pag, Brač, Hvar i Korčula' adalarıyla Dalmaçya'dan vazgeçti · LZMK 'Cres': 1358'd
+606	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	italya-napolyon	1806-01-01	1809-01-01	"LZMK `krk-otok`: ""Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina"" · ⚠️ Cres ve Rab kendi maddelerinde F"
+607	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	fransa-cumhuriyet	1809-01-01	1813-01-01	"LZMK `krk-otok`: ""Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina"" · ⚠️ Cres ve Rab kendi maddelerinde F"
+608	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	avusturya	1813-01-01	1919-09-10	Habsburg monarşisi 1918-11-11'de bitti (D205 ①); dönem Saint-Germain imzasına dek uzatıldı — öteki SG noktalarıyla aynı tolerans, ardıl emanet md. 91'den
+609	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	itilaf-emaneti	1919-09-10	1920-11-12	F8 (Emre) + D205 ③ ardıl künye (ONCE1281-CISLEITHANIA-1005): Saint-Germain md. 91 (FOROST 19190910-1): 'Austria renounces so far as she is concerned in favour o
+610	DIGER	data/yerlesimler.js:1844	Cres (Cherso)	s	italya	1920-11-12	1946-06-18	F8: de jure devir atama gününde — Rapallo Antlaşması (imza 12 Kasım 1920; LNTS c.18 s.397-403, FOROST 19201112-1) md. 2-3
+611	ZAYIF_ATLAS	data/yerlesimler.js:1844	Cres (Cherso)	s	italya-cumhuriyeti	1946-06-18	1947-09-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Italya Kralligi cumhuriyete donustu: Yargitay referandum 
+612	ZAYIF_ATLAS	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	avusturya	1797-10-17	1806-02-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislav
+613	DIGER	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	macaristan	1358-02-18	1409-01-01	KUTU-H7-1015: LZMK 'Zadarski mir': 18. II. 1358 Venedik 'Osor, Cres, Krk, Rab, Pag, Brač, Hvar i Korčula' adalarıyla Dalmaçya'dan vazgeçti · Zadar'ın adası; Zad
+614	DIGER	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	fransa-cumhuriyet	1809-10-14	1813-01-01	LZMK `dalmacija`: «(mir u Schönbrunnu, 14. X. 1809) Dalmacija je uključena u Ilirske pokrajine» · İlirya Eyaletleri; bitiş 1813-01-01 önceki kayıttan (değişmedi
+615	DIGER	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	avusturya	1813-01-01	1919-09-10	Habsburg monarşisi 1918-11-11'de bitti (D205 ①); dönem Saint-Germain imzasına dek uzatıldı — öteki SG noktalarıyla aynı tolerans, ardıl emanet md. 91'den
+616	DIGER	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	itilaf-emaneti	1919-09-10	1920-11-12	F8 (Emre) + D205 ③ ardıl künye (ONCE1281-CISLEITHANIA-1005): Saint-Germain md. 91 (FOROST 19190910-1): 'Austria renounces so far as she is concerned in favour o
+617	DIGER	data/yerlesimler.js:1861	Uzunada (Dugi Otok)	s	yugoslavya	1920-11-12	1945-11-29	F8: de jure devir atama gününde — Rapallo Antlaşması (imza 12 Kasım 1920; LNTS c.18 s.397-403, FOROST 19201112-1) md. 2-3
+618	ZAYIF_ATLAS	data/yerlesimler.js:1864	Korçula (Kurzola)	s	macaristan	1358-02-18	1420-01-01	KUTU-H7-1015: LZMK 'Zadarski mir': 18. II. 1358 Venedik 'Osor, Cres, Krk, Rab, Pag, Brač, Hvar i Korčula' adalarıyla Dalmaçya'dan vazgeçti · LZMK 'Korčula': '13
+619	ZAYIF_ATLAS	data/yerlesimler.js:1864	Korçula (Kurzola)	s	avusturya	1797-10-17	1806-02-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dalmaçya'nın Fransız idaresine geçişi — Pojun (Bratislav
+620	DIGER	data/yerlesimler.js:1864	Korçula (Kurzola)	s	fransa-cumhuriyet	1809-10-14	1813-01-01	LZMK `dalmacija`: «(mir u Schönbrunnu, 14. X. 1809) Dalmacija je uključena u Ilirske pokrajine» · İlirya Eyaletleri; bitiş 1813-01-01 önceki kayıttan (değişmedi
+621	DIGER	data/yerlesimler.js:1864	Korçula (Kurzola)	s	avusturya	1813-01-01	1919-09-10	Habsburg monarşisi 1918-11-11'de bitti (D205 ①); dönem Saint-Germain imzasına dek uzatıldı — öteki SG noktalarıyla aynı tolerans, ardıl emanet md. 91'den
+622	DIGER	data/yerlesimler.js:1864	Korçula (Kurzola)	s	itilaf-emaneti	1919-09-10	1920-11-12	F8 (Emre) + D205 ③ ardıl künye (ONCE1281-CISLEITHANIA-1005): Saint-Germain md. 91 (FOROST 19190910-1): 'Austria renounces so far as she is concerned in favour o
+623	DIGER	data/yerlesimler.js:1864	Korçula (Kurzola)	s	yugoslavya	1920-11-12	1945-11-29	F8: de jure devir atama gününde — Rapallo Antlaşması (imza 12 Kasım 1920; LNTS c.18 s.397-403, FOROST 19201112-1) md. 2-3
+624	ZAYIF_ATLAS	data/yerlesimler.js:1882	Sasari (Sassari)	s	aragon	1324-01-01	1479-01-19	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Simancas: kastilya tacı → ispanya (kastilya-aragon)» (14
+625	ZAYIF_ATLAS	data/yerlesimler.js:1882	Sasari (Sassari)	s	ispanya	1479-01-19	1720-09-02	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ispanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «K
+626	BOS	data/yerlesimler.js:1882	Sasari (Sassari)	s	cenova	1281-01-01	1324-01-01	
+627	ZAYIF_ATLAS	data/yerlesimler.js:1882	Sasari (Sassari)	s	italya-cumhuriyeti	1946-06-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye italya-cumhuriyeti f ucunun kaynağı — https://www.difesa.it/eng/primo-piano/towards-2-june/32062.html (İtalya
+628	ZAYIF_ATLAS	data/yerlesimler.js:1885	Mayorka (Palma)	s	ispanya	1479-01-19	1936-07-19	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ispanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «K
+629	ZAYIF_ATLAS	data/yerlesimler.js:1885	Mayorka (Palma)	s	ispanya-milliyetci	1936-07-19	1939-04-01	Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol): «El 18 tingueren lloc els [aixe
+630	DIGER	data/yerlesimler.js:1885	Mayorka (Palma)	s	ispanya	1939-04-01	2000-12-31	Künye ispanya-milliyetci t 1939-04-01 (BRIT «Francisco Franco»: «Franco won a complete and unconditional victory on April 1, 1939»; künye kronolojisi). · IBER-K
+631	ZAYIF_ATLAS	data/yerlesimler.js:1902	Ferasan (Farasan)	s	yemen-zeydi	1281-01-01	1538-08-03	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Aden'in zaptı ve Yemen sahilinin ilhakı» (1538-08-03, ye
+632	ZAYIF_ATLAS	data/yerlesimler.js:1902	Ferasan (Farasan)	s	yemen-zeydi	1635-01-01	1849-05-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Yemen'in kaybı — Kāsımî imamlarının hâkimiyeti» (1635-01-
+633	BOS	data/yerlesimler.js:1902	Ferasan (Farasan)	s	yemen-zeydi	1918-10-30	1923-10-29	
+634	BOS	data/yerlesimler.js:1902	Ferasan (Farasan)	d		1538-08-03	1635-01-01	
+635	BOS	data/yerlesimler.js:1902	Ferasan (Farasan)	d		1849-05-01	1918-10-30	
+636	DIGER	data/yerlesimler.js:1902	Ferasan (Farasan)	s	idrisi-asir	1923-10-29	1930-11-20	Emirate of Asir; Qatar Digital Library Coll 6/4(1) Asir 1930 (Ibn Saud ic idareyi devraldi)
+637	ZAYIF_ATLAS	data/yerlesimler.js:1902	Ferasan (Farasan)	s	suudi-arabistan	1932-09-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau
+638	DIGER	data/yerlesimler.js:1902	Ferasan (Farasan)	s	suud-ucuncu	1930-11-20	1932-09-18	Qatar Digital Library Coll 6/4(1)

@@ -1,0 +1,758 @@
+{
+ "Filat (Filiates)": [
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:371",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1913-11-14",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yanya», https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "Yanya, 6 Mart 1913’te ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {
+    "f": "1913-05-30"
+   },
+   "not": "[sira 1627] KARARLAR/DA-BRIEF «Londra 1913 ve Kuzey Epir» kuralı: Epir'de Yunanistan'a kalan yerlerde s: yunanistan 1913-05-30 Londra'dan başlar (Üsküp emsali); Filat Floransa Protokolü (1913-12-17) ile Yunanistan'da kaldı, Kuzey Epir değil. Atina 1913-11-14 ic_not'a. ABİ MERKEZ: Yanya (TDV «Yanya»). TDV Londra gününü bu maddede vermiyor → gün kural uygulaması. TDV «balkan-harbi»/«balkan-savaslari» slug'ları yok. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:371",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-10-09",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yanya», https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "1204’teki IV. Haçlı Seferi’nden sonra ... Epiros Despotluğu’nu kurdu | 1318’de tekrar Bizans İmparatorluğu’na katılsa da",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "epir-despotlugu",
+      "f": "1281-01-01",
+      "t": "1318-01-01"
+     },
+     {
+      "d": "bizans",
+      "f": "1318-01-01",
+      "t": "1430-10-09"
+     }
+    ]
+   },
+   "not": "[sira 1628] ABİ MERKEZ: Yanya — atlasın Yanya kaydı (yerlesimler.js:496) zaten epir-despotlugu 1204→1318 + bizans 1318→1430 yazıyor; Filat aynı zinciri izlemeli. 1318 yalnız yıl. Künye epir-despotlugu f 1204-04-13 t 1430-10-09 (kapsıyor). t 1430: «Yanya 1430’un Ekim ayında “Türkler’in Beylerbeyi” Sinan Paşa’ya teslim oldu» (ay+yıl). 1342 Duşan, 1366 Preljubović dönemleri Yanya kaydında da bizans içinde — beyan. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:371",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1430-10-09",
+   "t": "1913-11-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yanya», https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "Yanya 1430’un Ekim ayında “Türkler’in Beylerbeyi” Sinan Paşa’ya teslim oldu",
+   "oneri": {
+    "t": "1913-05-30"
+   },
+   "not": "[sira 1629] f KAYNAKLI (ABİ MERKEZ Yanya, ay+yıl; gün 10-09 atlasın Yanya kaydından). t: Londra 1913-05-30 kuralı (bkz. sira 1627) — d: osmanli 05-30'da biter. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:371",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1913-03-06",
+   "t": "1913-11-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yanya», https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "Yanya, 6 Mart 1913’te ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {
+    "t": "1913-05-30"
+   },
+   "not": "[sira 1630] f 1913-03-06 KAYNAKLI (ABİ MERKEZ Yanya; Filat'ın kendi işgal günü teyitsiz). t: işgal Londra 1913-05-30'da s: yunanistan'a dönüşür (sira 1627). ÖLÇÜT: geçici/askerî — Londra'ya kadar Osmanlı iddiası sürdü. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Huexotzinco (Huejotzingo)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:205",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1631] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:205",
+   "alan": "s",
+   "d": "nahua-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1521-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Secretaría de Cultura (gob.mx), «Abren reflexión académica en torno a la caída de Tenochtitlan y de Tlatelolco» (INAH-UNAM seminario, 500. yıl), https://www.gob.mx/cultura/prensa/abren-reflexion-academica-en-torno-a-la-caida-de-tenochtitlan-y-de-tlatelolco?idiom=es-MX",
+   "alinti": "último reducto de los mexicas que caería el 13 de agosto de 1521",
+   "oneri": {},
+   "not": "[sira 1632] ÜLKE DÜZEYİ: Tenochtitlan-Tlatelolco'nun düşüşü = İspanyol fethinin günü; Huexotzinco bağımsız Nahua altepetl'iydi (Aztek'e tâbi değildi), 1519-21 Cortés'in müttefiki — şehre özgü devir günü teyitsiz. f 1281 atlas başlangıcı (t teyitli, f teyitsiz). [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:205",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1521-08-13",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Secretaría de Cultura (gob.mx), «Abren reflexión académica en torno a la caída de Tenochtitlan y de Tlatelolco» (INAH-UNAM seminario, 500. yıl), https://www.gob.mx/cultura/prensa/abren-reflexion-academica-en-torno-a-la-caida-de-tenochtitlan-y-de-tlatelolco?idiom=es-MX ; Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "último reducto de los mexicas que caería el 13 de agosto de 1521 | By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1633] ÜLKE DÜZEYİ. t 1535-04-17 Mendoza'nın atanma günü (künye kırılması); Aiton aynı eserde Mendoza'nın Meksika'ya varışını Ekim 1535 verir («where he arrived in October, 1535») → ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:205",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1634] ÜLKE DÜZEYİ. f teyitli (atanma; varış Ekim 1535 ic_not). t 1821-09-27 KÜME K11 (meksika f) ile bağlı, burada teyit edilmedi → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Chalco": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:222",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1635] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:222",
+   "alan": "s",
+   "d": "nahua-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1465-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1636] Chalco'nun Mexica'ya düşüşü (~1465, Moctezuma I) için akademik açık metin bulunamadı; WebSearch yalnız Vikipedi/podcast verdi. TARAYICI: Susan Schroeder, Chimalpahin and the Kingdoms of Chalco, Tucson 1991.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:222",
+   "alan": "s",
+   "d": "aztek-imparatorlugu",
+   "f": "1465-01-01",
+   "t": "1521-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Secretaría de Cultura (gob.mx), «Abren reflexión académica en torno a la caída de Tenochtitlan y de Tlatelolco» (INAH-UNAM seminario, 500. yıl), https://www.gob.mx/cultura/prensa/abren-reflexion-academica-en-torno-a-la-caida-de-tenochtitlan-y-de-tlatelolco?idiom=es-MX",
+   "alinti": "último reducto de los mexicas que caería el 13 de agosto de 1521",
+   "oneri": {},
+   "not": "[sira 1637] ÜLKE DÜZEYİ, uc yalnız t (Aztek'in sonu 1521-08-13). f 1465 teyitsiz (bkz. sira 1636, TARAYICI Schroeder 1991). [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:222",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1521-08-13",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Secretaría de Cultura (gob.mx), «Abren reflexión académica en torno a la caída de Tenochtitlan y de Tlatelolco» (INAH-UNAM seminario, 500. yıl), https://www.gob.mx/cultura/prensa/abren-reflexion-academica-en-torno-a-la-caida-de-tenochtitlan-y-de-tlatelolco?idiom=es-MX ; Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "último reducto de los mexicas que caería el 13 de agosto de 1521 | By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1638] ÜLKE DÜZEYİ (bkz. sira 1633). [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:222",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1639] ÜLKE DÜZEYİ; t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Ihuatzio": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:262",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1530-02-14",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Latin American Theatre Review (University of Kansas), s. 2, Krippner-Martínez'e atıfla, https://journals.ku.edu/latr/article/download/1437/1412/1556 ; Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "executed the Cazonci (hereditary ruler of the Purhépecha Indians) ... on February 14, 1530 | By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1640] ÜLKE DÜZEYİ (Michoacán). f: Cazonci'nin infazı 1530-02-14 (Lerma kıyısı). ic_not: Cazonci'nin Cortés'e itaati 1522 — TAHRİR açısından İspanyol idaresi 1522'den itibaren kısmen (encomienda) başlamış olabilir; atlasın 1530 seçimi beyan edilmeli. t: Mendoza atanması (bkz. sira 1633). [alıntı ham metinden, pypdf] [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:262",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1641] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:262",
+   "alan": "s",
+   "d": "purepecha-imparatorlugu",
+   "f": "1325-01-01",
+   "t": "1530-02-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Latin American Theatre Review (University of Kansas), s. 2, Krippner-Martínez'e atıfla, https://journals.ku.edu/latr/article/download/1437/1412/1556",
+   "alinti": "executed the Cazonci (hereditary ruler of the Purhépecha Indians) ... on February 14, 1530",
+   "oneri": {},
+   "not": "[sira 1642] uc yalnız t: Purépecha devletinin sonu 1530-02-14 (Cazonci infazı). f 1325 teyitsiz (künye purepecha-imparatorlugu f 1300-01-01). [alıntı ham metinden, pypdf]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:262",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1643] ÜLKE DÜZEYİ; t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Tututepec (Yucu Dzaa)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:289",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1522-01-01",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1644] uc yalnız t (Genel Valilik kuruluşu, ÜLKE DÜZEYİ). f 1522 (Alvarado'nun Tututepec fethi) bakılmadı → f teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:289",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1645] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:289",
+   "alan": "s",
+   "d": "tututepec-krallik",
+   "f": "1281-01-01",
+   "t": "1522-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1646] 1522 Alvarado fethi için kaynak aranmadı (bütçe). TARAYICI adayı: Arthur A. Joyce, Mixtecs, Zapotecs, and Chatinos, Wiley-Blackwell 2010.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:289",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1647] ÜLKE DÜZEYİ; t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:289",
+   "alan": "s",
+   "d": "tututepec",
+   "f": "1100-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1648] ön-1281 dönem; mevcut kaynak Joyce (Mixtec Empire) — sınanmadı (bütçe).",
+   "uc": ""
+  }
+ ],
+ "Sotuta": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:325",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1545-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1649] Cocom/Sotuta 1545 teslimi için kaynak aranmadı (bütçe). TARAYICI adayı: Inga Clendinnen, Ambivalent Conquests, Cambridge 1987; Robert S. Chamberlain, The Conquest and Colonization of Yucatan, 1948.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:325",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1545-01-01",
+   "t": "1821-09-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1650] f 1545 aranmadı (sira 1649); t KÜME K11 ile bağlı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:325",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1651] [KÜME K11]",
+   "uc": ""
+  }
+ ],
+ "Acalán (Itzamkanac)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:380",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1530-01-01",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1652] uc yalnız t (ÜLKE DÜZEYİ). f 1530 (Acalán'ın İspanyol idaresine girişi) bakılmadı → f teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:380",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1653] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:380",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1530-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1654] bütçe; t 1530 aranmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:380",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1655] ÜLKE DÜZEYİ; t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Guadalajara": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:407",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1542-02-14",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Instituto de Información Estadística y Geográfica de Jalisco (Jalisco eyalet hükûmeti), «Guadalajara — Diagnóstico municipal» 2023, s. 5, https://iieg.gob.mx/ns/wp-content/uploads/2023/02/Guadalajara-2.pdf",
+   "alinti": "el 14 de febrero de 1542, se funda la ciudad en el sitio",
+   "oneri": {},
+   "not": "[sira 1656] f = bugünkü yerde (Atemajac vadisi) dördüncü kuruluş; önceki yerler (Nochistlán 1532, Tonalá, Tlacotán) ve 1539 kraliyet cédula'sı (Ağustos 1542'de ulaştı) ic_not'a. Resmî eyalet kurumu yayını. t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, pypdf]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:407",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1657] [KÜME K11]",
+   "uc": ""
+  }
+ ],
+ "Campeche (San Francisco de Campeche)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:427",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1540-10-04",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Antropología. Boletín oficial del INAH (revistas.inah.gob.mx), Campeche makalesi, s. 2, https://revistas.inah.gob.mx/index.php/antropologia/article/download/4988/5014/8049",
+   "alinti": "el 4 de octubre de 1540 ... fundó legalmente la Villa ... de Campeche",
+   "oneri": {},
+   "not": "[sira 1658] f teyitli (yasal kuruluş). t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, pypdf]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:427",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1659] [KÜME K11]",
+   "uc": ""
+  }
+ ],
+ "Antequera (Oaxaca)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:449",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1529-01-01",
+   "t": "1535-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1660] uc yalnız t (ÜLKE DÜZEYİ). f 1529 (Peláez de Berrio'nun solar dağıtımı / villa kuruluşu) BULUNAMADI: Historia Mexicana (colmex) PDF'i hata verdi, oaxaca.gob.mx INPAC gacetası çözülemedi; arama yalnız Vikipedi/EcuRed/México Desconocido verdi. TARAYICI: Historia Mexicana, «Alonso García Bravo», https://historiamexicana.colmex.mx/index.php/RHM/article/download/703/594 . ic_not adayı: 1532-04-25 cédula ile ciudad unvanı. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:449",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1661] [KÜME K11]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:449",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1535-04-17",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "By royal commissions issued in Barcelona April 17, 1535, he was named viceroy",
+   "oneri": {},
+   "not": "[sira 1662] ÜLKE DÜZEYİ; t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Ollantaytambo": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:511",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1537-07-01",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "The text of the New Laws as passed November 20, 1542",
+   "oneri": {},
+   "not": "[sira 1663] Aiton 1927 (aynı eser) yalnız 'The text of the New Laws as passed November 20, 1542' diyor — Leyes Nuevas'ın günü; Peru Genel Valiliğinin kuruluşunu o cümlede adıyla anmıyor → uç olayı teyitsiz (msg_uc ②). Aiton ayrıca 'Effective viceregal government was not to be established in Peru until after Mendoza's death ... 1552' der. f 1537-07-01 (Orgóñez'in Ollantaytambo'yu alışı) aranmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:511",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824 | el Cuzco (paradójicamente, la última sede del gobierno virreinal peruano)",
+   "oneri": {},
+   "not": "[sira 1664] uc t, ÜLKE DÜZEYİ + bölge: Cuzco bölgesi son genel valilik merkezi olarak Ayacucho'ya kadar kralcı. f 1542-11-20 teyitsiz (bkz. sira 1663). Callao (Real Felipe) 1826-01'e kadar direndi → ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:511",
+   "alan": "s",
+   "d": "inka-imparatorlugu",
+   "f": "1450-01-01",
+   "t": "1537-07-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1665] İnka 1450 / 1537 aranmadı (bütçe).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:511",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "oneri": {},
+   "not": "[sira 1666] ÜLKE DÜZEYİ; künye peru-cumhuriyeti f 1824-12-09 ile uyumlu. Bağımsızlık ilanı 1821-07-28 ic_not. t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Vilcashuamán": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:537",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1533-01-01",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "The text of the New Laws as passed November 20, 1542",
+   "oneri": {},
+   "not": "[sira 1667] Aiton 1927 (aynı eser) yalnız 'The text of the New Laws as passed November 20, 1542' diyor — Leyes Nuevas'ın günü; Peru Genel Valiliğinin kuruluşunu o cümlede adıyla anmıyor → uç olayı teyitsiz (msg_uc ②). Aiton ayrıca 'Effective viceregal government was not to be established in Peru until after Mendoza's death ... 1552' der. f 1533 aranmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:537",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "oneri": {},
+   "not": "[sira 1668] uc t, ÜLKE DÜZEYİ + bölge: Ayacucho (Quinua) savaş alanı Vilcashuamán'ın komşusu (Huamanga bölgesi); bölge savaşa kadar kralcı. f teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:537",
+   "alan": "s",
+   "d": "inka-imparatorlugu",
+   "f": "1450-01-01",
+   "t": "1533-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1669] İnka 1450 / 1533 aranmadı (bütçe).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:537",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "oneri": {},
+   "not": "[sira 1670] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Trujillo (Peru)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:577",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1534-11-01",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "The text of the New Laws as passed November 20, 1542",
+   "oneri": {},
+   "not": "[sira 1671] Aiton 1927 (aynı eser) yalnız 'The text of the New Laws as passed November 20, 1542' diyor — Leyes Nuevas'ın günü; Peru Genel Valiliğinin kuruluşunu o cümlede adıyla anmıyor → uç olayı teyitsiz (msg_uc ②). Aiton ayrıca 'Effective viceregal government was not to be established in Peru until after Mendoza's death ... 1552' der. f 1534-11-01 (kuruluş; kaynaklarda Aralık 1534 / 5 Mart 1535) aranmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:577",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "kaynak": "El Peruano (Perú resmî gazetesi), «¿Por qué Trujillo y Lambayeque son las primeras en celebrar el Bicentenario de la Independencia?», https://elperuano.pe/noticia/112592",
+   "alinti": "El 29 de diciembre 1820, ... Trujillo fue escenario de la proclamación de la independencia",
+   "oneri": {
+    "t": "1820-12-29",
+    "not": "HAYALET: peru-cumhuriyeti künye f 1824-12-09 → Trujillo'yu künye gününde bırak, 1820-12-29 ilanını ic_not'a yaz, 1820-12-29→1824-12-09 için künye sorusu (San Martín Protektorası 1821-07-28 / bağımsız Peru) LAB'a."
+   },
+   "not": "[sira 1672] Trujillo İntendansı 1820-12-29'da bağımsızlık ilan etti (Torre Tagle); şehir bir daha kralcıya dönmedi → ispanyol-peru t 1824-12-09 Trujillo için 4 yıl geç. ÖLÇÜT: fiilî idare (rakip hükûmet kuralı). El Peruano resmî devlet gazetesi; akademik ikinci kaynak aranmadı. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:577",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "El Peruano (Perú resmî gazetesi), «¿Por qué Trujillo y Lambayeque son las primeras en celebrar el Bicentenario de la Independencia?», https://elperuano.pe/noticia/112592 ; Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "El 29 de diciembre 1820, ... Trujillo fue escenario de la proclamación de la independencia",
+   "oneri": {
+    "f": "1820-12-29",
+    "not": "hayalet kontrolü: künye f 1824-12-09; bkz. sira 1672 — künye genişletilmeden uygulanamaz, LAB."
+   },
+   "not": "[sira 1673] Ayacucho 1824-12-09 ÜLKE DÜZEYİnde doğru (Pereyra), ama Trujillo'da fiilî Peru idaresi 1820-12-29'dan. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  }
+ ],
+ "Salvador (Bahia)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:625",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1549-03-29",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "Câmara dos Deputados (Brezilya parlamentosu), Agência Câmara, «Projeto do governo institui o Dia da Consolidação da Independência do Brasil em 2 de julho», https://www.camara.leg.br/noticias/1177590 ; CHAM / FCSH-Universidade Nova de Lisboa e-kitap bölümü (Jornada dos Vassalos 1625), s. 2 dn. 8, B. Guerreiro, Jornada dos Vassalos..., Lisboa 1625'e atıfla, https://livros.fcsh.unl.pt/cham/catalog/download/175/472/1581",
+   "alinti": "2 de julho ... marca a expulsão definitiva das tropas portuguesas do Brasil, em 1823 | Salvador ... tomada pelos Olandezes a 8 de mayo de 1624 | recuperada ao 1 de Mayo de 1625",
+   "oneri": {
+    "t": "1823-07-02",
+    "bolunme": [
+     {
+      "alan": "isg",
+      "d": "hollanda",
+      "f": "1624-05-08",
+      "t": "1625-05-01"
+     }
+    ]
+   },
+   "not": "[sira 1674] (1) Salvador'daki Portekiz garnizonu (Madeira de Melo) 1823-07-02'ye kadar şehri tuttu → portekiz-brezilyasi t 1823-07-02 (gün ve yıl aynı paragrafta). (2) WIC işgali 1624-05-08 → 1625-05-01 atlasta yok: ÖLÇÜT: geçici/askerî — bir yıllık askerî işgal, Portekiz-İspanya iddiası sürdü ve Jornada dos Vassalos ile geri alındı → isg hollanda. Günler CHAM bölümünün dipnotundaki 1625 tarihli Guerreiro eserinin başlığından; ikinci kaynak aranmadı. f 1549-03-29 (Tomé de Sousa) teyitsiz. [alıntı ham metinden, sayfa.py] [alıntı ham metinden, pypdf]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:625",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "kaynak": "Câmara dos Deputados (Brezilya parlamentosu), Agência Câmara, «Projeto do governo institui o Dia da Consolidação da Independência do Brasil em 2 de julho», https://www.camara.leg.br/noticias/1177590",
+   "alinti": "2 de julho ... marca a expulsão definitiva das tropas portuguesas do Brasil, em 1823",
+   "oneri": {
+    "f": "1823-07-02"
+   },
+   "not": "[sira 1675] [KÜME K23] istisnası: yerleşime özgü tanıklık — Salvador 1823-07-02'ye kadar Portekiz elinde (KARARLAR gece-18: 'Brezilya şehirlerinin tek tek günleri' onaylı). Bağımsızlık ilanı 1822-09-07 ic_not'a. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:625",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1676] [KÜME K06]",
+   "uc": ""
+  }
+ ],
+ "Rio de Janeiro": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:633",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1565-03-01",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Câmara dos Deputados (Brezilya parlamentosu), Agência Câmara, «Projeto do governo institui o Dia da Consolidação da Independência do Brasil em 2 de julho», https://www.camara.leg.br/noticias/1177590",
+   "alinti": "Proclamação da Independência pelo imperador Pedro I, no dia 7 de setembro de 1822",
+   "oneri": {},
+   "not": "[sira 1677] uc t, ÜLKE DÜZEYİ (Rio sarayın merkeziydi; ilan Ipiranga/São Paulo). f 1565-03-01 (Estácio de Sá kuruluşu) aranmadı → f teyitsiz; Fransız Antarktikası 1555-1567 Guanabara'da ic_not adayı. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:633",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1678] [KÜME K23]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:633",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1679] [KÜME K06]",
+   "uc": ""
+  }
+ ]
+}

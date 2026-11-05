@@ -1,0 +1,96 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+156	ZAYIF_VIKI	data/yerlesimler_asya.js:2084	Anqing	s	ming-hanedani	1368-01-23	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+157	ZAYIF_VIKI	data/yerlesimler_asya.js:2084	Anqing	s	guney-ming	1644-04-25	1645-06-08	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+158	ZAYIF_VIKI	data/yerlesimler_asya.js:2084	Anqing	s	qing-hanedani	1861-09-05	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+159	ZAYIF_VIKI	data/yerlesimler_asya.js:2084	Anqing	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+160	BOS	data/yerlesimler_asya.js:2084	Anqing	s	yuan-hanedani	1281-01-01	1368-01-23	
+161	BOS	data/yerlesimler_asya.js:2084	Anqing	s	qing-hanedani	1645-06-08	1853-02-24	
+162	BOS	data/yerlesimler_asya.js:2084	Anqing	s	taiping	1853-02-24	1861-09-05	
+163	DIGER	data/yerlesimler_asya.js:2084	Anqing	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+164	ZAYIF_VIKI	data/yerlesimler_asya.js:2211	Kunming	s	kuzey-yuan	1368-09-14	1382-01-06	Yuan sonrası Yunnan: Liang Prensi Basalawarmi Yuan prensi olarak Yunnan'ı elinde tuttu (Song Lian vd., Mingshi juan 124 «Bazalawaermi», zh.wikisource.org/wiki/明
+165	ZAYIF_VIKI	data/yerlesimler_asya.js:2211	Kunming	s	ming-hanedani	1382-01-06	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+166	ZAYIF_VIKI	data/yerlesimler_asya.js:2211	Kunming	s	guney-ming	1644-04-25	1659-01-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+167	ZAYIF_VIKI	data/yerlesimler_asya.js:2211	Kunming	s	qing-hanedani	1681-12-07	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+168	ZAYIF_VIKI	data/yerlesimler_asya.js:2211	Kunming	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+169	BOS	data/yerlesimler_asya.js:2211	Kunming	s	yuan-hanedani	1281-01-01	1368-09-14	
+170	BOS	data/yerlesimler_asya.js:2211	Kunming	s	qing-hanedani	1659-01-07	1673-12-28	
+171	BOS	data/yerlesimler_asya.js:2211	Kunming	s	san-fan	1673-12-28	1681-12-07	
+172	DIGER	data/yerlesimler_asya.js:2211	Kunming	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+173	ZAYIF_VIKI	data/yerlesimler_asya.js:2278	Ciyayuguan (Jiayuguan)	s	qing-hanedani	1644-10-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+174	ZAYIF_VIKI	data/yerlesimler_asya.js:2278	Ciyayuguan (Jiayuguan)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+175	BOS	data/yerlesimler_asya.js:2278	Ciyayuguan (Jiayuguan)	s	ming-hanedani	1372-01-01	1644-10-01	
+176	DIGER	data/yerlesimler_asya.js:2278	Ciyayuguan (Jiayuguan)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+177	ZAYIF_VIKI	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+178	ZAYIF_VIKI	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	guney-ming	1644-04-25	1646-10-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+179	ZAYIF_VIKI	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	qing-hanedani	1676-10-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+180	ZAYIF_VIKI	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+181	BOS	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	yuan-hanedani	1281-01-01	1368-04-01	
+182	BOS	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	qing-hanedani	1646-10-06	1674-03-15	
+183	BOS	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	san-fan	1674-03-15	1676-10-01	
+184	DIGER	data/yerlesimler_asya.js:2376	Zeytun (Quanzhou)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+185	ZAYIF_VIKI	data/yerlesimler_asya.js:2435	Chaozhou	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+186	ZAYIF_VIKI	data/yerlesimler_asya.js:2435	Chaozhou	s	guney-ming	1644-04-25	1650-11-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+187	ZAYIF_VIKI	data/yerlesimler_asya.js:2435	Chaozhou	s	qing-hanedani	1677-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+188	ZAYIF_VIKI	data/yerlesimler_asya.js:2435	Chaozhou	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+189	BOS	data/yerlesimler_asya.js:2435	Chaozhou	s	yuan-hanedani	1281-01-01	1368-04-01	
+190	BOS	data/yerlesimler_asya.js:2435	Chaozhou	s	qing-hanedani	1650-11-24	1676-03-01	
+191	BOS	data/yerlesimler_asya.js:2435	Chaozhou	s	san-fan	1676-03-01	1677-01-01	
+192	DIGER	data/yerlesimler_asya.js:2435	Chaozhou	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+193	ZAYIF_VIKI	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+194	ZAYIF_VIKI	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	guney-ming	1644-04-25	1652-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+195	ZAYIF_VIKI	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	qing-hanedani	1652-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+196	ZAYIF_VIKI	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+197	BOS	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	yuan-hanedani	1281-01-01	1368-04-01	
+198	DIGER	data/yerlesimler_asya.js:2470	Beihai (Pakhoi)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+199	ZAYIF_VIKI	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+200	ZAYIF_VIKI	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	guney-ming	1644-04-25	1650-11-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+201	ZAYIF_VIKI	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	qing-hanedani	1650-11-24	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+202	ZAYIF_VIKI	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	cin-cumhuriyeti	1912-02-12	1939-02-10	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+203	BOS	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	yuan-hanedani	1281-01-01	1368-04-01	
+204	ZAYIF_ATLAS	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	meiji-japonya	1939-02-10	1945-09-02	Japon Hainan çıkarması 10 Şubat 1939 (Haikou); çekiliş günü adada teyitsiz, Japonya genel teslimi 1945-09-02 esas alındı — BEYANLI
+205	ZAYIF_ATLAS	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	cin-cumhuriyeti	1945-09-02	1950-05-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Japonya'nın genel teslimi: Kuril adaları Sovyet, Ogasawar
+206	DIGER	data/yerlesimler_asya.js:2496	Danzhou (Zhonghe)	s	cin-halk-cumhuriyeti	1950-05-01	2000-12-31	Hainan Çıkarma Harekâtı (16 Nisan-1 Mayıs 1950), adanın tamamı 1 Mayıs 1950 — ikincil teyit; akademik kaynak aranacak
+207	ZAYIF_VIKI	data/yerlesimler_asya.js:2518	Wuzhou	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+208	ZAYIF_VIKI	data/yerlesimler_asya.js:2518	Wuzhou	s	guney-ming	1644-04-25	1652-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+209	ZAYIF_VIKI	data/yerlesimler_asya.js:2518	Wuzhou	s	qing-hanedani	1652-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+210	ZAYIF_VIKI	data/yerlesimler_asya.js:2518	Wuzhou	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+211	BOS	data/yerlesimler_asya.js:2518	Wuzhou	s	yuan-hanedani	1281-01-01	1368-04-01	
+212	DIGER	data/yerlesimler_asya.js:2518	Wuzhou	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+213	ZAYIF_VIKI	data/yerlesimler_asya.js:2750	Cilin (Jilin)	s	qing-hanedani	1673-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+214	ZAYIF_VIKI	data/yerlesimler_asya.js:2750	Cilin (Jilin)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+215	DIGER	data/yerlesimler_asya.js:2750	Cilin (Jilin)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+216	ZAYIF_VIKI	data/yerlesimler_asya.js:2773	Harbin	s	qing-hanedani	1898-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+217	ZAYIF_VIKI	data/yerlesimler_asya.js:2773	Harbin	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+218	DIGER	data/yerlesimler_asya.js:2773	Harbin	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+219	ZAYIF_VIKI	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	qing-hanedani	1877-12-17	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+220	ZAYIF_VIKI	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+221	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	cagatay	1281-01-01	1347-01-01	
+222	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	mogulistan	1347-01-01	1514-01-01	
+223	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	yarkent-hanligi	1514-01-01	1705-01-01	
+224	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	cungar	1705-01-01	1759-01-01	
+225	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	qing-hanedani	1759-01-01	1864-06-04	
+226	BOS	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	yakub-beg	1864-06-04	1877-12-17	
+227	DIGER	data/yerlesimler_asya.js:2901	Yarkent (Şaçe)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+228	ZAYIF_VIKI	data/yerlesimler_asya.js:3042	Yan'an	s	qing-hanedani	1645-01-18	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+229	ZAYIF_VIKI	data/yerlesimler_asya.js:3042	Yan'an	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+230	BOS	data/yerlesimler_asya.js:3042	Yan'an	s	yuan-hanedani	1281-01-01	1368-04-01	
+231	BOS	data/yerlesimler_asya.js:3042	Yan'an	s	ming-hanedani	1368-04-01	1643-10-11	
+232	BOS	data/yerlesimler_asya.js:3042	Yan'an	s	dashun	1643-10-11	1645-01-18	
+233	DIGER	data/yerlesimler_asya.js:3042	Yan'an	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+234	ZAYIF_VIKI	data/yerlesimler_asya.js:3065	Leizhou	s	ming-hanedani	1368-04-01	1644-04-25	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsi
+235	ZAYIF_VIKI	data/yerlesimler_asya.js:3065	Leizhou	s	guney-ming	1644-04-25	1650-11-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz
+236	ZAYIF_VIKI	data/yerlesimler_asya.js:3065	Leizhou	s	qing-hanedani	1650-11-24	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+237	ZAYIF_VIKI	data/yerlesimler_asya.js:3065	Leizhou	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+238	BOS	data/yerlesimler_asya.js:3065	Leizhou	s	yuan-hanedani	1281-01-01	1368-04-01	
+239	DIGER	data/yerlesimler_asya.js:3065	Leizhou	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+240	ZAYIF_VIKI	data/yerlesimler_asya.js:3434	Şuri (Naha)	s	ryukyu-shunten-eiso	1281-01-01	1322-01-01	ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chūzan Seikan 1650, ja.wikisource.org/wiki/琉球國中山世鑑/卷一-二, okundu). BEYANLI YAKLAŞIKLIK
+241	ZAYIF_ATLAS	data/yerlesimler_asya.js:3434	Şuri (Naha)	s	sanzan	1322-01-01	1429-01-01	ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chuzan Sanzan dönemi). BEYANLI YAKLAŞIKLIK: Şuri'nin Chuzan başkenti olması 1406 önce
+242	ZAYIF_ATLAS	data/yerlesimler_asya.js:3434	Şuri (Naha)	s	ryukyu	1429-01-01	1879-03-27	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Shimajiri-Ōzato Gusuku (Nanzan merkezi, Itoman): Sanzan d
+243	ZAYIF_ATLAS	data/yerlesimler_asya.js:3434	Şuri (Naha)	s	meiji-japonya	1879-03-27	1947-05-03	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Shimajiri-Ōzato Gusuku (Nanzan merkezi, Itoman): Ryukyu K
+244	ZAYIF_ATLAS	data/yerlesimler_asya.js:3434	Şuri (Naha)	s	japonya-devleti	1947-05-03	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitutio
+245	ZAYIF_VIKI	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	japon-kore	1910-08-29	1945-09-09	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Japon Kore'si (Chōsen Genel Valiliği) egemenliğine geçti 
+246	ZAYIF_ATLAS	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	goryeo	1281-01-01	1392-08-05	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (1
+247	ZAYIF_ATLAS	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	joseon	1392-08-05	1910-08-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (13
+248	ZAYIF_VIKI	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	silla	0500-01-01	0936-01-08	SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «大丘縣
+249	ZAYIF_VIKI	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	goryeo	0936-01-08	1281-01-01	Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «十二月辛酉，群臣奏曰「天無二日，土無二王，一國二君，民何以堪？願聽羅王之請。」壬申，御天德殿，會百僚曰：「朕與新羅，歃血同盟，庶幾兩國永好，各保社稷。今羅王固請稱臣，卿等亦以爲可
+250	DIGER	data/yerlesimler_asya.js:3521	Taegu (Daegu)	s	abd-ordu-askeri-hukumeti-kore	1945-09-09	1948-08-15	USAMGIK (Office of the Historian)

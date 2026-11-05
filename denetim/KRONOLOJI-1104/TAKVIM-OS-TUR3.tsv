@@ -1,0 +1,76 @@
+dosya_satir	olay	atlas	onerilen	is	gerekce (EMRELİC eski takvim 3. tur: Yunanistan; KASA PAZAR yığını kasa-pazar-yigin-1104 üzerinde ölçüldü, onun çevirdikleri tekrar önerilmedi; ham: TAKVIM-OS-TUR3-ham-A/B.tsv)
+data/olaylar_ek5.js:590	Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması	1913-11-01	1913-11-14	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1913-11-01 → N.S. 1913-11-14 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1913-11-01» — Atina Antlaşması 14 Kasım N.S.; satırın antlaşmaya bağlılığını kontrol et
+data/olaylar_ek6.js:114	Atina'nın yeni Yunan devletine bırakılması	1833-03-31	1833-04-12	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1833-03-31 → N.S. 1833-04-12 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1833-03-31» — orta güven: bir kaynak 29 Nisan
+devletler.js:17971	Milne hattı geçildi	1920-07-22	1920-06-22	tarih düzelt	Milne hattı ilerleyişi: muhtemelen 1920-06-22, atlas 07-22 (L2-439 Yunan taarruzu 06-22 ile aynı) — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): Sofuoğlu & Bilgin, «Yunan Taarruzu…» (TÜBA) 22 HAZİRAN 1920; atlas 22 Temmuz yanlış (L2-439 ile tutarlı) — takvim değil, ay hatası
+kronoloji_balkan.js:858	Atina'nın başkent ilanı	1834-09-18	1834-09-30	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1834-09-18 → N.S. 1834-09-30 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1834-09-18» — Devlet Arşivleri «18th-30th September 1834» çift tarih, güçlü
+kronoloji_balkan.js:868	Anayasa ayaklanması	1843-09-03	1843-09-15	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1843-09-03 → N.S. 1843-09-15 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1843-09-03» — L2-1218 ile aynı olay (kuyrukta)
+kronoloji_balkan.js:878	Patrikhane tomosu	1850-06-29	1850-07-11	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1850-06-29 → N.S. 1850-07-11 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1850-06-29» — yalnız Vikipedi + takvim kuralı, ikinci kaynak sonra — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): Church of Greece (Apostoliki Diakonia) resmî sayfası 29 Haziran 1850 tomos; aynı sayfa Kilisenin Gregoryen'e Mart 1924'te geçtiğini yazar → 29 Haziran Jülyen, N.S. 07-11 desteklenir
+kronoloji_balkan.js:923	Trikopis'in iflası ilanı	1893-12-10	1893-12-22	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1893-12-10 → N.S. 1893-12-22 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1893-12-10» — çıkarım, orta güven
+kronoloji_balkan.js:953	Evangelika (kanlı Perşembe)	1901-11-08	1901-11-21	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1901-11-08 → N.S. 1901-11-21 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1901-11-08» — yalnız Vikipedi + takvim kuralı, ikinci kaynak sonra
+kronoloji_balkan.js:973	Venizelos başbakan	1910-10-06	1910-10-19	tarih düzelt	Yunanistan 1923'e dek Jülyen: O.S. 1910-10-06 → N.S. 1910-10-19 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1910-10-06»
+data/olaylar.js:150	Yunan İsyanı başladı	1821-03-25	1821-04-06	EMRE KARARI	25 Mart 1821 anma günü O.S.; N.S. 1821-04-06 — emsal: sembolik gün devir günü değil → DEĞİŞTİRME, Emre'ye soruluyor (EMRELİC)
+data/savaslar.js:411	Mora isyanı	1821-03-25	1821-04-06	EMRE KARARI	25 Mart 1821 anma günü O.S.; N.S. 1821-04-06 — emsal: sembolik gün devir günü değil → DEĞİŞTİRME, Emre'ye soruluyor (EMRELİC)
+devletler.js:1473	Yunanistan f (devlet künyesi)	1821-03-25	1821-04-06	EMRE KARARI	25 Mart 1821 anma günü O.S.; N.S. 1821-04-06 — emsal: sembolik gün devir günü değil → DEĞİŞTİRME, Emre'ye soruluyor (EMRELİC)
+devletler.js:1477	Mora İsyanı başladı	1821-03-25	1821-04-06	EMRE KARARI	25 Mart 1821 anma günü O.S.; N.S. 1821-04-06 — emsal: sembolik gün devir günü değil → DEĞİŞTİRME, Emre'ye soruluyor (EMRELİC)
+kronoloji_balkan.js:788	Mora İsyanı başladı	1821-03-25	1821-04-06	EMRE KARARI	25 Mart 1821 anma günü O.S.; N.S. 1821-04-06 — emsal: sembolik gün devir günü değil → DEĞİŞTİRME, Emre'ye soruluyor (EMRELİC)
+data/kronoloji_cok_yunanistan.js:20	Yunan filosu Girit'e gönderildi — Vassos adayı kral adına zaptettiğini ilan etti	1897-02-10	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/kronoloji_sinir_avrupa_bati.js:858		1914-03-31	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/olaylar_0073_iran_yanya.js:100		1823-07-28	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/olaylar_0073_iran_yanya.js:112		1820-03-01	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/olaylar_0073_iran_yanya.js:122		1822-02-14	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/olaylar_ek6.js:105	İnebahtı'nın Yunan idaresine geçmesi	1829-04-01	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+devletler.js:1565	Girit'in tek taraflı enosisi	1908-10-12	1908-10-07	BEKLE	Girit enosisi 1908: N.S. 7 Ekim; atlasta iki satır 12 ve 6 Ekim
+devletler.js:1567	Girit meclisi Yunan kralı adına açıldı	1910-05-09	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+devletler.js:17426	Sisam'ın Yunanistan'a katılması	1912-11-11	1912-11-24	BEKLE	Yunanistan 1923'e dek Jülyen: O.S. 1912-11-11 → N.S. 1912-11-24 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1912-11-11» — yalnız Vikipedi + takvim kuralı, ikinci kaynak sonra — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Sisam» 11 Kasım 1912, takvim etiketi yok; TDV miladîsi Gregoryen sayılır ve tarih çelişkisinde TDV esas → O.S. çevirisi geri çekildi; fhw yalnız «October» (çelişki) → ikinci akademik kaynak
+kronoloji_balkan.js:798	Sakız katliamı	1822-04-02	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+kronoloji_balkan.js:803	Tripoliçe'nin geri alınması	1825-06-22	1825-06-23	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+kronoloji_balkan.js:853	Yunan Kilisesi özerkliği ilanı	1833-07-25	1833-08-04	BEKLE	Kilise otosefalisi: 23 Temmuz O.S. = 4 Ağustos N.S.; atlas 25 Temmuz — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): Church of Greece sayfası ilan günü 15 Temmuz 1833 (Nafplion piskoposları), 23 Temmuz Sinod kararnamesinin yayını; Kilise Jülyen → 15 Temmuz O.S. = 27 Temmuz N.S. olası; atlas 25 Temmuz; resmî kurum sayfası tek → karar
+kronoloji_balkan.js:863	Atina Üniversitesi kuruluşu	1837-05-03	1837-05-04	BEKLE	Atina Üniversitesi: ferman 22 Nisan 1837 O.S. = 4 Mayıs N.S.; atlas 3 Mayıs (takvim dışı 1 gün hata) — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): NKUA resmî tarihçe: kuruluş fermanı 22 Nisan 1837, resmî açılış töreni 3 Mayıs 1837 — iki ayrı gün; takvim belirtilmez → madde fermanı mı açılışı mı anlatıyor
+kronoloji_balkan.js:883	Otto'nun tahttan indirilmesi	1862-10-10	1862-10-22	BEKLE	Yunanistan 1923'e dek Jülyen: O.S. 1862-10-10 → N.S. 1862-10-22 (+12, 1900 sonrası +13); ic_not «kaynak O.S. 1862-10-10» — yalnız Vikipedi + takvim kuralı, ikinci kaynak sonra — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): fhw krallığın kaldırılmasını 11 Ekim 1862 sabahı verir (ayaklanma 10/11 Ekim gecesi), takvim belirtmez → 11 Ekim O.S. ise N.S. 10-23, atlas 10-10 O.S. 10-22; olay (ayaklanma mı kaldırılış mı) ve takvim netleşmeli
+kronoloji_balkan.js:943	Girit özerklik ilanı	1897-12-18	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+kronoloji_balkan.js:958	Girit Millî Meclisi enosis	1908-10-06	1908-10-07	BEKLE	Girit enosisi 1908: N.S. 7 Ekim; atlas 6 Ekim
+kronoloji_balkan.js:968	Girit Meclisi kral adına açıldı	1910-05-09	?	BEKLE	takvim kanadı belirlenemedi; kaynak bulunamadı
+data/kronoloji_cok_senkron_0930.js:370	İngiltere İyon Adaları'nı Yunanistan'a devreder	1864-06-02	KALIR	uyumlu	atlas günü zaten N.S.
+data/kronoloji_cok_yunanistan.js:23	Yunan hükümeti Girit ile meclislerin birleşmesini kabul etti	1912-10-10	KALIR	uyumlu	Yunan Meclisi 1912-10-10: 1 Ekim O.S. = 14 Ekim N.S.? — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Girit» 10 Ekim 1912 (TEYİT); Kallivretakis «1 Ekim» ayrı olay → ic_not
+data/kronoloji_cok_yunanistan.js:24	Yunan donanması Limni'yi işgal etti	1912-10-21	KALIR	uyumlu	atlas günü zaten N.S.
+data/kronoloji_cok_yunanistan.js:25	Yunan donanması Taşoz'u işgal etti	1912-10-30	KALIR	uyumlu	Taşoz: 30 ya da 31 Ekim — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Taşoz» 30 Ekim 1912 (TEYİT)
+data/kronoloji_cok_yunanistan.js:26	Semadirek Yunan işgaline girdi	1912-11-01	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek.js:90	Girit'e özerklik	1898-12-22	KALIR	uyumlu	Prens George / Girit özerkliği: 22 Aralık mı 21 Aralık N.S. mi — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Girit» 22 Aralık 1898 (TEYİT; 21 Aralık N.S. iddiası yalnız arama özeti)
+data/olaylar_ek10.js:493		1912-11-08	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek4.js:150	Atina Akropolü teslim alındı	1827-06-05	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek5.js:456	Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri	1913-11-14	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek5.js:644	Sakız'a Yunan çıkarması	1912-11-25	KALIR	uyumlu	Sakız çıkarması: kaynak 11 Kasım O.S. = 24 Kasım N.S.; atlas 25 Kasım — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Sakız Adası» 25 Kasım 1912 (TEYİT)
+data/olaylar_ek5.js:655	Limni'nin Yunanistan'ca işgali	1912-10-21	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek5.js:656	Taşoz'un Yunanistan'ca işgali	1912-10-30	KALIR	uyumlu	Taşoz: 30 ya da 31 Ekim — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Taşoz» 30 Ekim 1912 (TEYİT)
+data/olaylar_ek5.js:657	Semadirek'in Yunanistan'ca işgali	1912-11-01	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek5.js:658	Midilli'nin Yunanistan'ca işgali	1912-11-21	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek6.js:103	Anabolu'nun (Nauplion) isyancılara kaybı	1822-12-12	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek6.js:142	Yanya'nın düşüşü — Epir'in ve Parga'nın kaybı	1913-03-06	KALIR	uyumlu	atlas günü zaten N.S.
+data/olaylar_ek6.js:150	Gümülcine'nin işgali — Batı Trakya'nın kaybı	1920-05-27	KALIR	uyumlu	atlas günü zaten N.S.
+data/savaslar.js:293	Missolonghi kuşatması	1826-04-22	KALIR	uyumlu	atlas günü zaten N.S.
+devletler.js:1481	Selanik'e giriş	1912-11-08	KALIR	uyumlu	atlas günü zaten N.S.
+devletler.js:1561	Prens George göreve başladı	1898-12-22	KALIR	uyumlu	atlas günü zaten N.S. — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Girit» 22 Aralık 1898 (TEYİT)
+devletler.js:1569	Yunanistan Girit birleşmesini onayladı	1912-10-10	KALIR	uyumlu	Yunan Meclisi 1912-10-10: 1 Ekim O.S. = 14 Ekim N.S.? — LAB PAZAR teyidi (TAKVIM-OS-TUR3-teyit.tsv, 27ebcc9d1): TDV «Girit» 10 Ekim 1912 iki meclisin birleşmesine muvafakat (TEYİT); Kallivretakis «1 Ekim» fiilen kabul (O.S.?) ayrı olay → ic_not
+devletler.js:17437	Iyon Adaları devri	1864-06-02	KALIR	uyumlu	atlas günü zaten N.S.
+devletler.js:17441	Adaların devri	1864-06-02	KALIR	uyumlu	atlas günü zaten N.S.
+devletler.js:17969	İzmir çıkarması	1919-05-15	KALIR	uyumlu	atlas günü zaten N.S.
+devletler.js:17970	İzmir çıkarması	1919-05-15	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:1013	Büyük Selanik Yangını	1917-08-18	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:1028	Kral Aleksandros ölümü	1920-10-25	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:1043	Konstantin'in çekilmesi	1922-09-27	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:793	Patrik V. Grigorios idamı	1821-04-22	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:808	Missolonghi'nin düşüşü	1826-04-22	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:833	Kapodistrias suikastı	1831-10-09	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:848	Otto Nafplion'a geldi	1833-02-06	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:873	1844 Anayasası kabulü	1844-03-30	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:888	Prens Georgios seçilmesi	1863-03-30	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:918	Korint Kanalı açılışı	1893-08-06	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:928	İlk Olimpiyat açılışı	1896-04-06	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:938	Dömeke Savaşı	1897-05-17	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:948	Prens George komiser	1898-12-22	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:963	Gudi darbesi	1909-08-28	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:983	Selanik'in alınması	1912-11-08	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:988	Yanya'nın alınması	1913-03-06	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_balkan.js:993	Kral I. Georgios suikastı	1913-03-18	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_cok_1dunya_A.js:55	Selanik Millî Savunma hareketi	1916-08-30	KALIR	uyumlu	atlas günü zaten N.S.
+kronoloji_cok_1dunya_A.js:59	İtilâf Pire'ye çıktı (Noemvriana)	1916-12-01	KALIR	uyumlu	atlas günü zaten N.S.

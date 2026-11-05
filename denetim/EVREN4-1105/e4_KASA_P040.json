@@ -1,0 +1,575 @@
+{
+ "Lubutu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1114",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2766] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1114",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2767] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1900 teyitsiz (TDV istasyon/yerleşim kuruluşunu tarihlemez; künye f 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Maçakos": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1151",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1889-01-01",
+   "t": "1963-12-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kenya», https://islamansiklopedisi.org.tr/kenya · Kenya Independence Act 1963, s. 1(1), legislation.gov.uk/ukpga/1963/54/enacted",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu | On and after 12th December 1963 ... no responsibility for the government of Kenya",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2768] t gün KAYNAKLI, çift teyit. f 1889 teyitsiz (IBEA istasyonu); TDV: kıyı 1890 anlaşmasıyla IBEA'ya, '1895’te İngiltere bölgedeki hâkimiyetini ilân etti' — şirket idaresi ingiltere sayılıyorsa 1889 kalır, beyan ic_not'a. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Fransvil (Franceville)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1161",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1880-06-13",
+   "t": "1960-08-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Gabon», https://history.state.gov/countries/gabon · TDV İslâm Ansiklopedisi, «Gabon», https://islamansiklopedisi.org.tr/gabon",
+   "alinti": "recognized Gabon on August 17, 1960 ... On that date, Gabon’s independence",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2769] t gün KAYNAKLI (Office of the Historian). f 1880-06-13 kaydın kendi kaynağıyla (Pourtier 1980, Persée) zaten kaynaklı. TDV Gabon iç hatası: 'Gabon 17 Ağustos 1961 tarihinde bağımsızlığına kavuştu' (yıl 1961 yazılmış; doğrusu 1960) — ic_not'a, Bar emsali. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kigali": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1171",
+   "alan": "s",
+   "d": "belcika",
+   "f": "1916-05-06",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online (FU Berlin 2016), https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/ · TDV İslâm Ansiklopedisi, «Ruanda», https://islamansiklopedisi.org.tr/ruanda",
+   "alinti": "Molitor moved through British Uganda to occupy Kigali on 9 May 1916 | The 1919 Treaty of Versailles confirmed Belgian occupation and in 1922, the territories became mandates",
+   "uc": "f+t",
+   "oneri": {
+    "isg": "belcika 1916-05-09 → 1919-06-28",
+    "f": "1919-06-28 (s: belcika, Versay imzası)"
+   },
+   "not": "[sira 2770] Kigali'nin işgali 05-06 değil 05-09 (Samson). ÖLÇÜT: geçici/askerî — Almanya'nın hakkı Versay'a kadar sürdü (Kilve/Bagamoyo emsali). KARŞI İŞARET (EMRELİC'e): Samson 'Belgium claimed the captured territory from the start and managed it as an integral part of the Congo. On 27 June 1916, military residents were installed' → TAHRİR'in idareye-katma dalı; karar EMRELİC'te. t 1922-07-20 YIL düzeyinde (1922). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1171",
+   "alan": "s",
+   "d": "ruanda-urundi-mandasi",
+   "f": "1922-07-20",
+   "t": "1962-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online (FU Berlin 2016), https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/ · TDV İslâm Ansiklopedisi, «Ruanda», https://islamansiklopedisi.org.tr/ruanda",
+   "alinti": "in 1922, the territories became mandates | Burundi’den ayrılan Ruanda 1 Temmuz 1962’de bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2771] f YIL (1922; gün 07-20 teyitsiz), t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1171",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1907-01-01",
+   "t": "1916-05-06",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ruanda», https://islamansiklopedisi.org.tr/ruanda",
+   "alinti": "Müslümanlar 1908’de kurulan yeni başşehir Kigali’de ilk camilerini 1914’te inşa ettiler",
+   "uc": "f",
+   "oneri": {
+    "f": "1908-01-01 (TDV) — kur 1907 ile çelişki ic_not'a",
+    "t": "1919-06-28 (künye t; isg belcika 1916-05-09 → 1919-06-28 üstte)"
+   },
+   "not": "[sira 2772] f: TDV Kigali'nin kuruluşunu 1908 verir (atlas 1907; Kandt'ın kuruluşu yaygın olarak 1907 — ikinci kaynak bulunmadı, TDV esas). t: TEK KURAL — s: alman-dogu-afrikasi Versay'a kadar sürer, 1916 işgali isg katmanıdır (alman-dogu-afrikasi künye t 1919-06-28, hayalet değil). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bandundu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1209",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2773] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1209",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Bağımsız Kongo Devleti’ni kurdu (1885) | Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2774] ÜLKE DÜZEYİ. f YIL (1885; gün 01-01 yıl hassasiyeti), t gün KAYNAKLI. Yerleşimin 1885'te var olduğu ve Serbest Devlet idaresine girdiği gün ayrıca sınanmadı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Gitega (Burundi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1237",
+   "alan": "s",
+   "d": "belcika",
+   "f": "1916-06-06",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online (FU Berlin 2016), https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/",
+   "alinti": "Urundi came under Belgian control on 17 June 1916 ... en route to Kitega, the capital",
+   "uc": "f",
+   "oneri": {
+    "isg": "belcika 1916-06-17 → 1919-06-28",
+    "f": "1919-06-28 (s: belcika, Versay imzası)"
+   },
+   "not": "[sira 2775] Atlasın 1916-06-06'sı Usumbura'nın işgal günüdür ('occupying Usumburu on 6 June 1916'); Kitega/Urundi 1916-06-17. ÖLÇÜT: geçici/askerî (emsal) — Samson'un 'integral part of the Congo' tanığı için bkz. Kigali notu (sira 2770). Alttaki s: 1916-06-17 → 1919-06-28 burundi kalır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1237",
+   "alan": "s",
+   "d": "ruanda-urundi-mandasi",
+   "f": "1922-07-20",
+   "t": "1962-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online (FU Berlin 2016), https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/ · US Office of the Historian, «Burundi», https://history.state.gov/countries/burundi",
+   "alinti": "in 1922, the territories became mandates | the United Nations ended the Trusteeship over Ruanda-Urundi",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2776] f YIL (1922), t gün KAYNAKLI: OH 'recognized the Kingdom of Burundi on July 1, 1962, when the United Nations ended the Trusteeship' (gün aynı cümlede). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1237",
+   "alan": "s",
+   "d": "burundi",
+   "f": "1680-01-01",
+   "t": "1916-06-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online (FU Berlin 2016), https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2777] f 1680 ve Alman dönemi: Samson ve TDV Ruanda aranadı; Burundi kuruluşu ve Alman himayesi (1903 Kiganda antlaşması İPUCU) tarihlenmiyor; TDV'de Burundi maddesi yok (arama: 'madde başlıkları 0'). Zincirde 1903-1916 v: alman-dogu-afrikasi eksik olabilir; Gitega şehri Almanlarca 1912'de kuruldu (İPUCU) — yerleşim varlığı sınanmalı. TARAYICI: J.-P. Chrétien, L'Afrique des Grands Lacs (2000)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1237",
+   "alan": "s",
+   "d": "burundi-krallik",
+   "f": "1962-07-01",
+   "t": "1966-11-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Burundi», https://history.state.gov/countries/burundi",
+   "alinti": "recognized the Kingdom of Burundi on July 1, 1962, when the United Nations ended the Trusteeship",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2778] f gün KAYNAKLI. t 1966-11-28 (Micombero darbesi) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Puent-Nuar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1271",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1883-01-01",
+   "t": "1960-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Republic of the Congo», https://history.state.gov/countries/congo-republic",
+   "alinti": "recognized the Republic of the Congo on August 15, 1960 ... On that date",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2779] t gün KAYNAKLI (Office of the Historian). f 1883 teyitsiz (Loango/Pointe-Noire Fransız antlaşması; TDV'de Kongo Cumhuriyeti maddesi bulunamadı — slug 'kongo-cumhuriyeti', 'kongo' arama sayfasına düştü). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tabora (Kazeh)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1852-01-01",
+   "t": "1890-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2780] t YIL (1890; gün 11-04 teyitsiz — 1890-07-01 Helgoland-Zanzibar imzası İPUCU, TEK ÖLÇÜ ile sınanmalı). f 1852 kaydın kendi kaynağıyla (olay düzeyi). Not: Tabora'da Zengibar egemenliği tüccar kolonisi düzeyindedir; Unyanyembe şefliği ayrıca değerlendirilmeli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "G. Delpierre, «Tabora 1916: de la symbolique d'une victoire», Revue belge d'histoire contemporaine / BTNG 32 (2002) 3-4, s. 351-381, https://www.journalbelgianhistory.be/nl/system/files/article_pdf/BTNG-RBHC,%2032,%202002,%203-4,%20pp%20351-381.pdf · TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "pénètrent victorieusement dans Tabora ... Nous sommes alors le 19 septembre 1916",
+   "uc": "",
+   "oneri": {
+    "t": "1919-06-28 (künye t; Versay)",
+    "isg": "belcika 1916-09-19 → 1916-11 (İngilizlere teslim; gün kaynakla) ; isg ingiltere 1916-11 → 1919-06-28"
+   },
+   "not": "[sira 2781] Tabora'yı İngilizler değil Belçikalılar 1916-09-19'da aldı (Delpierre; Almanlar 18/19 Eylül gecesi çekildi). Delpierre: 'Deux mois après la prise de Tabora, les Belges devront remettre la ville à l'autorité britannique'. f 1890 YIL (TDV). TEK KURAL: Bagamoyo emsali — s: alman-dogu-afrikasi Versay'a kadar, işgal isg. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "G. Delpierre, «Tabora 1916: de la symbolique d'une victoire», Revue belge d'histoire contemporaine / BTNG 32 (2002) 3-4, s. 351-381, https://www.journalbelgianhistory.be/nl/system/files/article_pdf/BTNG-RBHC,%2032,%202002,%203-4,%20pp%20351-381.pdf · TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Deux mois après la prise de Tabora, les Belges devront remettre la ville",
+   "uc": "",
+   "oneri": {
+    "f": "1919-06-28 (Versay imzası; TEK ÖLÇÜ — İngiltere zaten yönetiyordu)"
+   },
+   "not": "[sira 2782] 1916-09-01 günü kaynaksız ve yanlış (Belçika girişi 09-19). 1916-11 → 1919-06-28 isg ingiltere (sira 2781). TDV Tanzanya: işgal süreci '1919’da Versailles Antlaşması ile' tamamlandı. t 1922-07-20 → LAB SALI gece-56: 1922-07-19/20 manda künyesi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2783] t KAYNAKLI, yıl bağlamdan (1961; 'Tanzanya 1 Mayıs 1961’de kendi kendini idare etme hakkını ve aynı yılın 9 Aralık günü'). f 1922-07-20 teyitsiz (TDV yalnız 'önce İngiliz mandası'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2784] f yıl bağlamdan (1961), t gün KAYNAKLI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1294",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2785] f gün KAYNAKLI. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kahemba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1363",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2786] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1363",
+   "alan": "s",
+   "d": "lunda-imparatorlugu",
+   "f": "1665-01-01",
+   "t": "1887-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2787] Bütçe: Lunda 1665-1887 uçları aranmadı. P029 Musumba (sira 2253) aynı dönemde GHA VII'de BULUNAMADI. TARAYICI: Vansina, Kingdoms of the Savanna (1966)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1363",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1887-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2788] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1887 teyitsiz (TDV istasyon/yerleşim kuruluşunu tarihlemez; künye f 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bunkeya (Yeke)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1502",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2789] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1502",
+   "alan": "s",
+   "d": "yeke",
+   "f": "1856-01-01",
+   "t": "1891-12-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti · UNESCO GHA VII (archive.org unesco_general_history_africa_vii)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2790] TDV Kongo DC Msiri'nin Garengaze Krallığı'nı yalnız 'Yüzyılın üçüncü çeyreğinde' diye anar (yıl yok, ömrü 'yüzyılın sonuna kadar varmayan'); GHA VII Msiri'nin öldürüldüğünü yazar ama gün vermez. f 1856 ve t 1891-12-20 teyitsiz. TARAYICI: Legros, Le Katanga ... Msiri (2000)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1502",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1891-12-20",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2791] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1891-12-20 (Msiri'nin ölümü) teyitsiz (bkz. sira 2790). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sambava": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1660",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1817-01-01",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "Fransa’nın himayesi altına girmeye mecbur bıraktılar ve 27 Ocak 1897’de de yönetime el koyup",
+   "uc": "t",
+   "oneri": {
+    "f": "1897-01-27 (s: fransa — TDV; merina künye t 1897-02-28 ile çelişki ic_not'a)",
+    "bol": "1817 → 1897-01-27 s: merina (Radama I fethi; yıl teyitsiz) + v: fransa 1890 → 1897-01-27 (himaye; gün kaynakla)"
+   },
+   "not": "[sira 2792] Fransız dönemi 1817'den başlamaz: TDV'ye göre I. Radama (1810-1828) adanın 2/3'üne hâkim oldu, Fransız himayesi 1890, idareye el koyma 1897-01-27. t 1960-06-26 TDV'de KAYNAKLI ('26 Haziran 1960 tarihinde bağımsızlığını kazandı'). ÇİFT-TDV değil; künye merina t 1897-02-28 (Ranavalona'nın sürgünü) atlas kaydıdır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1660",
+   "alan": "s",
+   "d": "betsimisaraka",
+   "f": "1712-01-01",
+   "t": "1817-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2793] TDV Madagaskar Betsimisaraka birliğini yalnız 1750 Nosy Boraha antlaşmasıyla anar; 1712 kuruluş ve 1817 Merina fethi uçları yok. Kuzeydoğu kıyısının Merina'ya geçiş yılı kaynakla bulunmalı. TARAYICI: GHA V-VI Madagaskar bölümleri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1660",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "nihayet ada, ilk anayasanın hazırlanmasından (1959) sonra 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2794] f gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Maroantsetra": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1734",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1817-01-01",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "Fransa’nın himayesi altına girmeye mecbur bıraktılar ve 27 Ocak 1897’de de yönetime el koyup",
+   "uc": "t",
+   "oneri": {
+    "f": "1897-01-27 (s: fransa — TDV; merina künye t 1897-02-28 ile çelişki ic_not'a)",
+    "bol": "1817 → 1897-01-27 s: merina (Radama I fethi; yıl teyitsiz) + v: fransa 1890 → 1897-01-27 (himaye; gün kaynakla)"
+   },
+   "not": "[sira 2795] Fransız dönemi 1817'den başlamaz: TDV'ye göre I. Radama (1810-1828) adanın 2/3'üne hâkim oldu, Fransız himayesi 1890, idareye el koyma 1897-01-27. t 1960-06-26 TDV'de KAYNAKLI ('26 Haziran 1960 tarihinde bağımsızlığını kazandı'). ÇİFT-TDV değil; künye merina t 1897-02-28 (Ranavalona'nın sürgünü) atlas kaydıdır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1734",
+   "alan": "s",
+   "d": "betsimisaraka",
+   "f": "1712-01-01",
+   "t": "1817-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2796] TDV Madagaskar Betsimisaraka birliğini yalnız 1750 Nosy Boraha antlaşmasıyla anar; 1712 kuruluş ve 1817 Merina fethi uçları yok. Kuzeydoğu kıyısının Merina'ya geçiş yılı kaynakla bulunmalı. TARAYICI: GHA V-VI Madagaskar bölümleri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1734",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "nihayet ada, ilk anayasanın hazırlanmasından (1959) sonra 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2797] f gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Salisbury (Harare)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1819",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-09-12",
+   "t": "1965-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve», https://islamansiklopedisi.org.tr/zimbabve",
+   "alinti": "Aldıkları imtiyazla 1890’dan itibaren ... şimdiki Zimbabve topraklarını işgal etti | 1965’te Güney Rodezya tek taraflı bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2798] f YIL (1890; Fort Salisbury 09-12/13 gün teyitsiz), t YIL (1965; 11-11 teyitsiz). Şirket (BSAC) idaresi ingiltere sayılır. UDI: OH 'The United States never recognized the independence of Rhodesia' — rodezya-udi rakip hükûmet dilimi ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1819",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve», https://islamansiklopedisi.org.tr/zimbabve · US Office of the Historian, «Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "18 Nisan 1980’de Rodezya, Zimbabve adını alarak bağımsız bir devlet oldu",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2799] f gün KAYNAKLI, çift teyit (OH: 'recognized the Republic of Zimbabwe on April 18, 1980 ... upon Zimbabwe’s attainment of independence'). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ondangva (Ondonga)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1829",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1917-02-06",
+   "t": "1920-12-17",
+   "hukum": "ONERI",
+   "kaynak": "Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "At the beginning of July, German governor Theodor Seitz (1863-1949) sought an armistice",
+   "uc": "",
+   "oneri": {
+    "isg": "ingiltere (Güney Afrika) 1917-02-06 → 1919-06-28",
+    "f": "1919-06-28 (s: ingiltere, Versay imzası)"
+   },
+   "not": "[sira 2800] Namibya emsali (KARARLAR gece-56 (c)): 1915 fethi/1917 Ovamboland'a giriş işgaldir, s: Versay 1919-06-28'den. 1917-02-06 (Mandume'nin ölümü, Kwanyama — Ondonga değil) teyitsiz. HAYALET: alman-guneybati-afrikasi künye t 1915-07-09; ayrıca Ovamboland Alman fiilî idaresinde değildi — isg altındaki s: ovambo kalır (ovambo t 1917-02-06 → 1919-06-28 GENİŞLET adayı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1829",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Namibia», https://history.state.gov/countries/namibia",
+   "alinti": "upon Namibia’s attainment of independence on that date. Namibia previously had been under South African",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2801] t gün KAYNAKLI, yıl bağlamdan (aynı paragraf: 'recognized Namibia on March 21, 1990'). f 1920-12-17 künye kaynağıyla (MC manda metni). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1829",
+   "alan": "s",
+   "d": "ovambo",
+   "f": "1600-01-01",
+   "t": "1917-02-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2802] Bütçe: Ondonga krallığı 1600 kuruluşu ve 1915-17 Güney Afrika idaresine giriş günü aranmadı. TARAYICI: Clarence-Smith & Moorsom, JAH XVI/3 (1975) 365-381 (Ovamboland 1845-1915)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1829",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Namibia», https://history.state.gov/countries/namibia",
+   "alinti": "recognized Namibia on March 21, 1990 ... upon Namibia’s attainment of independence",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2803] f gün KAYNAKLI. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Gveru": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1891",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1894-01-01",
+   "t": "1965-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve», https://islamansiklopedisi.org.tr/zimbabve",
+   "alinti": "1965’te Güney Rodezya tek taraflı bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2804] t YIL (1965; 11-11 teyitsiz). f 1894 (Gwelo'nun kuruluşu) teyitsiz; TDV Gveru'yu yalnız şehir listesinde anar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1891",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve», https://islamansiklopedisi.org.tr/zimbabve · US Office of the Historian, «Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "18 Nisan 1980’de Rodezya, Zimbabve adını alarak bağımsız bir devlet oldu",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2805] f gün KAYNAKLI, çift teyit. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

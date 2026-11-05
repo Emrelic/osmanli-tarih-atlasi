@@ -1,0 +1,430 @@
+{
+ "Selsey Bill": [
+  {
+   "sira": 2227,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:512",
+   "alan": "s",
+   "d": "sussex-kralligi",
+   "f": "0477-01-01",
+   "t": "0825-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC (Swanton) + Stenton birincil/akademik; ham okuma yapılmadı. 477 ASC efsanevi tarih (ic_not)."
+  },
+  {
+   "sira": 2228,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:512",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0825-01-01",
+   "t": "0927-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 825; ham okuma yapılmadı."
+  }
+ ],
+ "Silchester": [
+  {
+   "sira": 2229,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:509",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1086-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Open Domesday (birincil belge neşri); ham okuma yapılmadı. 6g: Calleva Atrebatum (Roma) çok daha eski — 1086 Domesday ilk anılış olarak BEYANLI ALT SINIR."
+  }
+ ],
+ "Southampton": [
+  {
+   "sira": 1965,
+   "dosya_satir": "data/yerlesimler_avrupa.js:75",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "İki uç da pencere ucu (1281 atlas ufku, 2000-12-31 pencere); kaynakla tarihlenecek olay yok, öneri yok. Kontrol adayı (okunmadı): 1338-10-04 Fransız/Ceneviz baskını kısa yağma, toprak değişimi değil. | KASA SALI uc: öneri yapısal (katman/sahip/zincir); bütün dönemi etkiler"
+  }
+ ],
+ "Tamworth": [
+  {
+   "sira": 2234,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:541",
+   "alan": "s",
+   "d": "mercia",
+   "f": "0913-01-01",
+   "t": "0918-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 913 (Æthelflæd burh'u). 6g: Tamworth 8. yy'da Mercia kraliyet merkeziydi (Offa) — f 913 varoluş değil, f_geri adayı (okunmadı)."
+  },
+  {
+   "sira": 2235,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:541",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0918-01-01",
+   "t": "0927-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 918 (Æthelflæd'in ölümü, Edward'ın Tamworth'a gelişi); ham okuma yapılmadı."
+  }
+ ],
+ "Waterford": [
+  {
+   "sira": 2073,
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "alan": "s",
+   "d": "waterford-norse",
+   "f": "1000-01-01",
+   "t": "1171-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "t": "1170 (Strongbow'un Waterford'u alışı, Ağustos 1170 — gün kaynakla) → 1171 II. Henry'nin Waterford'a çıkışı (Ekim 1171) arası TEK KURAL ile isg (Strongbow/Leinster) ya da s: ingiltere — TAHRİR ile seçilmeli"
+   },
+   "not": "dib.ie 'Strongbow' maddesi 307 yönlendirme verdi (TARAYICI). 1171-01-01 yalnız yıl. f 1000 kuşak ucu; künye waterford-norse 914'ten (ic_not)."
+  },
+  {
+   "sira": 2074,
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1171-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "mevcut: Treccani Enciclopedia on line, 'Waterford' (okunmadı)",
+   "alinti": "",
+   "oneri": {
+    "f": "II. Henry'nin Waterford'a çıkış günü (1171-10, kaynakla) — 2073 ile bitişik"
+   },
+   "not": "Ham okuma yapılmadı; 1171-01-01 yalnız yıl."
+  },
+  {
+   "sira": 2075,
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1281 atlas ufku. t 1922-12-06 İrlanda Serbest Devleti anayasasının yürürlüğü (künye f). TEK ÖLÇÜ notu (ic_not): Geçici Hükûmet 1922-01-16'da Dublin Kalesi'ni teslim aldı — fiilî İrlanda idaresi 12-06'dan önce; Anglo-İrlanda Antlaşması imzası 1921-12-06. Ülke düzeyi sınıf sorusu (LAB/EMRELİC); kaynakla okunmadı. Kontrol adayı: 1922 iç savaşında Waterford'un Anti-Treaty IRA elinde kalışı (Temmuz 1922). | KASA SALI uc: öneri yapısal (katman/sahip/zincir); bütün dönemi etkiler"
+  },
+  {
+   "sira": 2076,
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Britannica (ticari, 6e ONERI-güçlü). 1937-12-29 Bunreacht na hÉireann yürürlüğü; ham okuma yapılmadı."
+  }
+ ],
+ "Wexford": [
+  {
+   "sira": 2080,
+   "dosya_satir": "data/yerlesimler_avrupa.js:157",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Waterford 2075 ile aynı (ÜLKE DÜZEYİ). Kontrol adayı (bu satırın dışı): zincirde 'irlanda 1000 → 1171' — Wexford Norse kasabası 1169 Mayıs'ta Robert FitzStephen'e düştü (gün kaynakla); 1798 isyanı kısa Wexford Cumhuriyeti (1798-05-30 → 06-21, rakip hükûmet; künye yok). | KASA SALI uc: öneri yapısal (katman/sahip/zincir); bütün dönemi etkiler"
+  },
+  {
+   "sira": 2081,
+   "dosya_satir": "data/yerlesimler_avrupa.js:157",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Britannica; ham okuma yapılmadı."
+  }
+ ],
+ "Whitby": [
+  {
+   "sira": 2252,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:582",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0664-01-01",
+   "t": "0954-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Bede HE III.25 (birincil). 6g: Streanæshalch manastırı 657'de kuruldu (Bede III.24) — f 664 sinod günü, f_geri adayı (okunmadı). Kontrol adayı: 867-954 Viking York (Jórvík) dönemi Whitby'yi kapsıyor mu."
+  },
+  {
+   "sira": 2253,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:582",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 954 + beyanlı yaklaşıklık; ham okuma yapılmadı."
+  }
+ ],
+ "Saint Helier (Jersey)": [
+  {
+   "sira": 2219,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Government of Jersey, 'History of Liberation' https://www.gov.je/Leisure/Liberation/Pages/LiberationHistory.aspx",
+   "alinti": "the occupying force arrived on 1 July 1940 ... Jersey was not to be liberated until a day later on 9 May 1945, when British troops arrived in HMS Beagle.",
+   "oneri": {
+    "bolme": "1940-07-01 → 1945-05-09 isg almanya (resmî yayın günleri; altında s: kanal-adalari sürer) · kontrol adayı: 1461 → 1468 Fransız işgali (Pierre de Brézé; Mont Orgueil) — günler kaynakla"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] isg uçları KAYNAKLI (resmî). f 1204 (Normandiya'nın kaybı; adalar İngiliz tacına bağlı kaldı) bu turda okunmadı. dosya_satir girdide boş. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Saint Peter Port (Guernsey)": [
+  {
+   "sira": 2220,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Government of Jersey, 'History of Liberation' (Jersey için); Guernsey günü kaynakla",
+   "alinti": "",
+   "oneri": {
+    "bolme": "1940-06-30 (Alman birliklerinin Guernsey'e inişi — gün kaynakla, gov.gg) → 1945-05-09 isg almanya · kontrol adayı: 1338 → 1345 Fransız işgali (Castle Cornet) — günler kaynakla"
+   },
+   "not": "ÜLKE GRUPLAMASI: Jersey ile aynı işgal; Guernsey'in kendi günü (30 Haziran) okunmadı → ONERI. dosya_satir girdide boş. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Santiago de Compostela": [
+  {
+   "sira": 1942,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1037-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut Treccani 'Galizia' (güncel EOL) okunmadı. t 1037 Tamarón (1037-09-04, I. Fernando'nun León'u alışı) yıl düzeyinde."
+  },
+  {
+   "sira": 1943,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1037-01-01",
+   "t": "1063-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Okunmadı. Kontrol adayı: I. Fernando 1037'den León-Kastilya kralı; Galiçya 1065-12-27 ölümüyle García'ya — 1063 neyi tarihliyor belirsiz."
+  },
+  {
+   "sira": 1944,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "galicia-kralligi",
+   "f": "1063-01-01",
+   "t": "1071-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Okunmadı. Kontrol adayı: García'nın Galiçya krallığı 1065-1071/1072 (I. Fernando'nun ölümü 1065-12-27)."
+  },
+  {
+   "sira": 1945,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1071-01-01",
+   "t": "1157-08-21",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Enciclopedia Italiana 1936 (yalnız ipucu sınıfı). Okunmadı."
+  },
+  {
+   "sira": 1946,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1157-08-21",
+   "t": "1230-09-24",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Britannica 'Alfonso VII' (ticari). Okunmadı."
+  },
+  {
+   "sira": 1947,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "f": "III. Fernando'nun León'da kral tanınması (1230 sonu; Benavente anlaşması — gün kaynakla, DBE/RAH 'Fernando III')"
+   },
+   "not": "1230-09-24 IX. Alfonso'nun ölüm günüdür; vârislik çekişmesi (Sancha ve Dulce) Aralık 1230'da çözüldü — TEK ÖLÇÜ: devralan yeri yönetmeye başladığı gün. Kaynak okunmadı → yalnız öneri. t 1281 atlas ufku."
+  },
+  {
+   "sira": 1948,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1479-01-19 ispanya künye f (DBE RAH, künyede kaynaklı); dönemin kendisi okunmadı."
+  },
+  {
+   "sira": 1949,
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-20",
+   "t": "1939-04-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Gran Enciclopèdia Catalana (ulusal akademik). Ham okuma yapılmadı."
+  }
+ ],
+ "Saumur": [
+  {
+   "sira": 2223,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "anjou-kontlugu",
+   "f": "1026-01-01",
+   "t": "1203-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe; aranmadı. f 1026 Fulk Nerra'nın Saumur'u Blois'dan alışı (yıl). 6g: Saumur 1026'dan önce Blois kontluğundaydı — öncül dilim zincirde yok."
+  },
+  {
+   "sira": 2224,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1203-01-01",
+   "t": "1792-09-22",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe; aranmadı. t 1792-09-22 vs fransa künye t 1792-09-22 / E4-BILINEN 'Fransa Cumhuriyeti 1792-09-21' — hiza kontrol adayı."
+  }
+ ],
+ "Tıtvân (Tetuan)": [
+  {
+   "sira": 2022,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:60",
+   "alan": "s",
+   "d": "merini",
+   "f": "1484-01-01",
+   "t": "1549-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'TITVÂN' https://islamansiklopedisi.org.tr/titvan",
+   "alinti": "888 veya 889 (1483 veya 1484) yılında Endülüs’ten ... göç eden kafileler Tıtvân’ı ıssız halde buldular ... Vattâsîler’in hâkimiyetindeki şehir bu sırada yeniden kuruldu",
+   "oneri": {},
+   "not": "[alıntı ham metinden, sayfa.py] f YIL düzeyi; TDV 1483/1484 iki yıl verir (hicrî 888 = 1483-02-09 → 1484-01-28, 889 1484-01-29'da başlar, tabular) — 1484-01-01 kesişimin ilk günü değil; gün teyitsiz, ic_not'ta hicrî aralıkla beyan. merini künyesi 'Merînî ve Vattâsî' → Vattâsî hâkimiyeti künyeyle uyumlu. Merdiven ④: TDV şehrin ~1400/1435'ten 1484'e kadar 'ıssız' kaldığını yazar — zincirde 1484 öncesi dilim yok, tutarlı. t 1549 (Sâdî) bu turda okunmadı (öteki uç teyitsiz); Manzarî ailesinin özerk idaresi (Ali b. Râşid'in Vattâsî emîri) ic_not."
+  },
+  {
+   "sira": 2023,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:60",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'TITVÂN' https://islamansiklopedisi.org.tr/titvan",
+   "alinti": "İspanya 1913’te Tıtvân dahil bölgeyi tekrar işgal etti ... İspanya’nın Nisan 1956’da Mağrib’in istiklâlini tanımasıyla birlikte Fas’a ilhak edildi.",
+   "oneri": {
+    "f": "1956-04-05 (İspanyol himayesinin sonu — gece-106 Nador kararı, TDV 04-05; 04-07 ortak bildirisi ic_not)"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] 1956-03-02 Fransız himayesinin sonudur; Tetuan İspanyol bölgesinin başkentiydi → yanlış uç. Ayrıca (bu satırın dışı) zincirdeki 's: fas-fransiz-himayesi 1912-03-30 → 1956-03-02' Tetuan için YANLIŞ SAHİP: İspanyol bölgesi (fas-ispanyol-himayesi; TDV 1913 İspanyol işgali — Tetuan'a giriş 1913-02-19, kaynakla) ve himaye kuralı (yerli monarşi s: + koruyucu v:) uygulanmalı."
+  }
+ ]
+}

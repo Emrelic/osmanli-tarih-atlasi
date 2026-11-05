@@ -1,0 +1,862 @@
+{
+ "Karkaralinsk (Karkaralı)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1824-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Х.А. Аубакирова, «Учреждение Кокчетавского, Каркаралинского округов и восстание Саржана Касымова (1824–1836 гг.)», Вестник Карагандинского университета, Серия История. Философия, №4(104)/2021, s. 6-13, DOI 10.31489/2021HPh4/6-13 (https://history-philosophy-vestnik.buketov.edu.kz/index.php/history-philosophy-vestnik/article/download/477/413/813)",
+   "alinti": "8 апреля 1824 г. состоялось открытие Каркаралинского, 29 апреля этого же года — Кокчетавского внешних округов",
+   "oneri": {
+    "f": "1824-04-20"
+   },
+   "uc": "f",
+   "not": "[sira 2396] ÖLÇÜT: idareye katma — Karkaralı dış okrugunun açılışı 8 Nisan 1824 (Rus kaynağı, Jülyen varsayımı) = Gregoryen 1824-04-20; takvim makalede belirtilmemiş, beyan. Senato onayı 24 Temmuz 1824 (arama özeti, ipucu) ic_not. 1822 Ustav ic_not: TDV «Kazakistan»: '22 Haziran 1822’de Rus hükümeti, 319 maddeden meydana gelen Sibirya Kazakları’nın statüsünü tebliğ etti' (Ustav; hukukî düzenleme, okrug açılışı fiilî idare). t teyitsiz (K01). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2397] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2398] [KÜME K04] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1824-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Х.А. Аубакирова, «Учреждение Кокчетавского, Каркаралинского округов и восстание Саржана Касымова (1824–1836 гг.)», Вестник Карагандинского университета, Серия История. Философия, №4(104)/2021, s. 6-13, DOI 10.31489/2021HPh4/6-13 (https://history-philosophy-vestnik.buketov.edu.kz/index.php/history-philosophy-vestnik/article/download/477/413/813) ; TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "8 апреля 1824 г. состоялось открытие Каркаралинского, 29 апреля этого же года — Кокчетавского внешних округов",
+   "oneri": {
+    "t": "1824-04-20"
+   },
+   "uc": "t",
+   "not": "[sira 2399] t: Orta Cüz han idaresi 1822 Ustav'la kalktı (TDV); Karkaralı'da Rus okrug idaresi 8 Nisan 1824 Jül. = 1824-04-20. f 1500 teyitsiz (TDV: Burunduk 1480-1511, Kasım 1503-1523; künye f 1465). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2400] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:377",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2401] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (EMRELİC ardıl kuralı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kazalinsk (Kazalı)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "С.М. Джунусбаев, С. Шатырбеков, К.О. Сеилханова (ЮКГУ им. М. Ауэзова), Rus askerî tahkimatları üzerine makale, auezov.edu.kz yayını 2022, s. 177-180 (https://auezov.edu.kz/media/attachments/2022/04/11/36-..-.2-..3-177-180.pdf; dergi künyesi PDF'te yok)",
+   "alinti": "На северном берегу Аральского моря в 1847 году закладывается основы будущей Сыр-Дарьинской линии",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 2402] t YIL düzeyi, BÖLGE DÜZEYİ: Raim tahkimatı (1847) Aral kıyısında, Kazalı'nın ~80 km batısı; Sırderya hattının başlangıcı. Mevcut kaynak (Kopal 1847) Yedisu'ya ait, ilgisiz — kaynak değişmeli. ÖLÇÜT: idareye katma — Raim garnizonu ve Orenburg idaresi. Kazalı tahkimatının kendisi (Fort No.1) 1853 sonrası ('После взятия ... Ак-Мечеть ... строилось ... Казалы'). ic_not: Küçük Cüz'de han seçimi 1824'te kaldırıldı (ipucu; TDV Küçük Cüz şûrası). f 1500 teyitsiz (K04 ile bağlı). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2403] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2404] [KÜME K04] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "С.М. Джунусбаев, С. Шатырбеков, К.О. Сеилханова (ЮКГУ им. М. Ауэзова), Rus askerî tahkimatları üzerine makale, auezov.edu.kz yayını 2022, s. 177-180 (https://auezov.edu.kz/media/attachments/2022/04/11/36-..-.2-..3-177-180.pdf; dergi künyesi PDF'te yok)",
+   "alinti": "На северном берегу Аральского моря в 1847 году закладывается основы будущей Сыр-Дарьинской линии",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2405] f YIL düzeyi, BÖLGE DÜZEYİ (Raim 1847, bkz. sira 2402). Bu satırın kaynağı boştu. t teyitsiz (K01). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2406] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:410",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2407] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (EMRELİC ardıl kuralı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ak-Meçit (Perovsk)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1815-01-01",
+   "t": "1853-07-28",
+   "hukum": "ONERI",
+   "kaynak": "В.В. Марюткин, «Поход В. А. Перовского на Ак-Мечеть в 1853 году», Известия Саратовского университета, Новая серия, Серия История. Международные отношения, 2022, т. 22, вып. 4, s. 436-442, DOI 10.18500/1819-4907-2022-22-4-436-442 (https://imo.sgu.ru/sites/imo.sgu.ru/files/text-pdf/2022/12/istoriya_2022_4-436-442.pdf)",
+   "alinti": "Очевидно, овладев уже 28 июля крепостными стенами Ак-Мечети, войска Перовского несколько дней подавляли",
+   "oneri": {
+    "t": "1853-08-09"
+   },
+   "uc": "t",
+   "not": "[sira 2408] Ak-Meçit 28 Temmuz 1853'te (Rus kaynağı, Jülyen) alındı = Gregoryen 1853-08-09; atlas 07-28 Jülyen günü Gregoryen yerine yazılmış. Arama özetleri '28 июля (9 августа)' çiftini veriyor (ipucu). Direniş birkaç gün sürdü (ic_not). f 1815 (Hokand kalesi kuruluşu) teyitsiz: TDV «Hokand» ve «Hokand Hanlığı» Ak-Mescid'i anmıyor. Değişmez 2: kronoloji maddesi de 08-09'a taşınmalı. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1853-07-28",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "В.В. Марюткин, «Поход В. А. Перовского на Ак-Мечеть в 1853 году», Известия Саратовского университета, Новая серия, Серия История. Международные отношения, 2022, т. 22, вып. 4, s. 436-442, DOI 10.18500/1819-4907-2022-22-4-436-442 (https://imo.sgu.ru/sites/imo.sgu.ru/files/text-pdf/2022/12/istoriya_2022_4-436-442.pdf)",
+   "alinti": "Очевидно, овладев уже 28 июля крепостными стенами Ак-Мечети, войска Перовского несколько дней подавляли",
+   "oneri": {
+    "f": "1853-08-09"
+   },
+   "uc": "f",
+   "not": "[sira 2409] ÖLÇÜT: idareye katma — fethin ardından kale Fort Perovski adıyla yeni Sırderya hattının merkezi yapıldı (makale: '... основали новую, сырдарьинскую линию'); s: fetih gününden. Jülyen 28 Temmuz = Gregoryen 1853-08-09. t teyitsiz (K01). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2410] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2411] [KÜME K04] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1815-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2412] Hokand'ın Ak-Meçit'i kuruluş günü (1815/1817/1820 aday) TDV «Hokand», «Hokand Hanlığı», «Kazakistan» maddelerinde ve Marjutkin 2022'de yok. f 1500 K04 ile bağlı. Kazak Hanlığı f için TDV yalnız Burunduk (1480-1511)/Kasım (1503-1523)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2413] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:475",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2414] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (EMRELİC ardıl kuralı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kukava (Kukawa)": [
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:243",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1814-01-01",
+   "t": "1893-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "XIX. yüzyılın sonlarına doğru Bornu, Bagirmi Sultanı Râbih b. Zübeyir’in hâkimiyetine girdi (1893).",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 2415] t YIL düzeyi (Râbih). f 1814 teyitsiz: TDV Kukava'yı 'Kânimî’nin kendine yönetim merkezi olarak kurduğu fiilî başşehir' diye anar, yılsız; TDV'deki 1814 Dûneme'nin yeniden tahta çıkışıdır, Kukava'nın kuruluşu değil. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:243",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1902-01-01",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "1902 yılında Bornu Fransa, İngiltere ve Almanya arasında paylaşıldı. | Kukava ile birlikte Ngornu ve merkezî Bornu İngiliz",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2416] f YIL düzeyi (1902). t 1960-10-01 Nijerya bağımsızlığı — ülke düzeyi, bu turda okunmadı → t teyitsiz. Künye notu: ingiliz-nijerya (harita: ingiltere, 1861 → 1960-10-01) var; d: ingiltere yerine kullanılabilir (renk aynı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Dikva (Dikeo)": [
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:265",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1893-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "XIX. yüzyılın sonlarına doğru Bornu, Bagirmi Sultanı Râbih b. Zübeyir’in hâkimiyetine girdi (1893).",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 2417] t YIL düzeyi; TDV 'Dikeo’yu merkez edinen Râbih'. f 1281 atlas ufku, teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:265",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-02-18",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "Dikeo ile güney bölgesi Alman sömürge idarelerine bağlandı. | Almanya’nın elindeki bölge de İngiltere’nin hâkimiyetine geçti",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "not": "1916-02-18 → devir; alttaki s: alman-kamerun t'si devir gününe uzamalı (Versay imza 1919-06-28, TEK ÖLÇÜ: İngiltere bölgeyi zaten yönetiyordu) ya da LAB künye sorusu"
+   },
+   "uc": "",
+   "not": "[sira 2418] TEK KURAL: savaş işgali devir gerçekleşene kadar isg. ÖLÇÜT: geçici/askerî — 1916 askerî işgal, Alman iddiası Versay'a kadar sürdü. Hayalet: alman-kamerun t 1916-02-18, ingiliz-kamerun f 1922-07-20 → 1916-1922 arası künyeli s: sahibi yok; LAB'a. Dikwa'nın düşüş günü ve 1922 mandası bu turda kaynakla okunmadı. TDV cümlesi yılsız ('I. Dünya Savaşı’ndan sonra'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:265",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BM Genel Kurulu, A/RES/1608 (XV), 21 Nisan 1961, «The future of the Trust Territory of the Cameroons under United Kingdom administration» (https://digitallibrary.un.org/record/206162/files/A_RES_1608%28XV%29-EN.pdf)",
+   "alinti": "Northern Cameroons, on 1 June 1961, upon its joining the Federation of Nigeria",
+   "oneri": {
+    "t": "1961-06-01"
+   },
+   "uc": "t",
+   "not": "[sira 2419] Kuzey Kamerun Nijerya'ya 1961-06-01'de katıldı (vesayet o gün sona erdi); plebisit 11-12 Şubat 1961, GA kararı 21 Nisan 1961 ic_not. Künye ingiliz-kamerun özeti de '1961-06-01' diyor. f 1922-07-20 teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:265",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1961-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "BM Genel Kurulu, A/RES/1608 (XV), 21 Nisan 1961, «The future of the Trust Territory of the Cameroons under United Kingdom administration» (https://digitallibrary.un.org/record/206162/files/A_RES_1608%28XV%29-EN.pdf)",
+   "alinti": "Northern Cameroons, on 1 June 1961, upon its joining the Federation of Nigeria",
+   "oneri": {
+    "f": "1961-06-01"
+   },
+   "uc": "f",
+   "not": "[sira 2420] Kuzey Kamerun'un Nijerya Federasyonu'na katılışı 1961-06-01 (Kuzey Bölgesi'nin ayrı eyaleti, Sardauna). nijerya künyesi f 1960-10-01 — hayalet yok. t 2000 pencere ucu. [alıntı ham metinden, pypdf]"
+  }
+ ],
+ "Levuka": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:54",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1874-10-10",
+   "t": "1970-10-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Fiji Independence Act 1970 (c. 50), s. 1(1), legislation.gov.uk (https://www.legislation.gov.uk/ukpga/1970/50/enacted) ; Deed of Cession 1874, PacLII (https://paclii.org/fj/legis/num_act/coftgb1874271 — 403, açılamadı)",
+   "alinti": "formal cession took place on 10 October 1874 | On and after 10th October 1970 ... Her Majesty's Government ... shall have no responsibility",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 2421] ÜLKE DÜZEYİ; Levuka 1874-82 koloni başkenti, devir Levuka/Nasova'da imzalandı. [f alıntısı özetten — PacLII 403; t alıntısı ham metinden, sayfa.py]. TARAYICI: PacLII Deed of Cession metni."
+  }
+ ],
+ "Herbertshöhe (Kokopo) — Rabaul": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:64",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1884-11-03",
+   "t": "1914-09-17",
+   "hukum": "ONERI",
+   "kaynak": "German History in Documents and Images (German Historical Institute Washington), «Hoisting the German Flag at Mioko, German New Guinea (1884)» (https://germanhistorydocs.org/en/forging-an-empire-bismarckian-germany-1866-1890/ghdi:image-5100) ; Australian War Memorial, «German New Guinea» (https://www.awm.gov.au/collection/E84777)",
+   "alinti": "In 1884 the first German colony, called German New Guinea, was established there. | they surrendered German New Guinea on 17 September",
+   "oneri": {
+    "t": "1919-06-28",
+    "not": "s: almanya 1914-09-17'de bitmez; Avustralya askerî işgali isg katmanıdır, s: devirde (Versay imza) biter"
+   },
+   "uc": "f+t",
+   "not": "[sira 2422] f YIL düzeyi (GHDI; bayrak Mioko'da 4 Kasım 1884; Matupi/Blanche Bay 3 Kasım 1884 yalnız arama özetinde, ipucu). t: AWM teslimi 17 Eylül (yıl bağlamdan, sayfa 1914 dönemi). TEK KURAL: teslim şartları 'Military occupation of German New Guinea' diyor (Holmes belgeleri, SLNSW, özetten) → ÖLÇÜT: geçici/askerî. s: almanya devir gününe (Versay imza 1919-06-28; TEK ÖLÇÜ: devralan yönetiyordu) uzar; C mandası 1920-12-17 ve sivil idare 1921-05-09 ic_not (okunmadı). Hayalet: almanya künyesi t 1945-06-05, kapsar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:64",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-09-17",
+   "t": "1949-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Australian War Memorial, «German New Guinea» (https://www.awm.gov.au/collection/E84777)",
+   "alinti": "they surrendered German New Guinea on 17 September",
+   "oneri": {
+    "bolunme": "isg avustralya 1914-09-17 → 1919-06-28 ; s: avustralya 1919-06-28 → 1949-07-01 ; isg japonya 1942-01-23 → 1945-09-06 eklenmeli (günler kaynakla teyit edilecek)"
+   },
+   "uc": "f",
+   "not": "[sira 2423] f 1914-09-17 teslim günü teyitli (yıl bağlamdan) ama TEK KURAL gereği bu gün isg'nin başlangıcıdır, s:'nin değil. ÖLÇÜT: geçici/askerî — 'Military occupation' (Holmes teslim şartları, özetten). Japon işgali (Rabaul 1942-01-23 → 1945-09-06 teslim) atlasta yok — BAKILMADI, AWM'de kaynakla bulunmalı. Hayalet: avustralya künye f 1901 kapsar; japonya künye id'si grep'le bulunamadı (japonya/japon-imparatorlugu YOK) → LAB. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:64",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Papua New Guinea» (https://history.state.gov/countries/papua-new-guinea)",
+   "alinti": "The United States recognized Papua New Guinea on September 16, 1975",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 2424] t teyitli (bağımsızlık töreni günü tanıma). f 1949-07-01 (Papua and New Guinea Act 1949) bu kaynakta yok → f teyitsiz (künye kaynağı legislation.gov.au). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:64",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Papua New Guinea» (https://history.state.gov/countries/papua-new-guinea)",
+   "alinti": "The United States recognized Papua New Guinea on September 16, 1975",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2425] ÜLKE DÜZEYİ. t 2000 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kurgan": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:16",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1662-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), «Kurgan» (https://www.vle.lt/straipsnis/kurgan/)",
+   "alinti": "1662 pradėjo kurtis Cariovo Gorodiščės gyvenvietė; miesto teisės ir dabartinis pavadinimas nuo 1782",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2426] f YIL düzeyi (Tsarevo Gorodişçe slobodası). t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:16",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2427] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:16",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2428] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. KARARLAR gece-20 (2): Kolçak (1918-11-18 → 1920-01) kırılması her şehir kendi günüyle eklenecek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:16",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2429] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Kamışlov": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:19",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1668-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Уральская историческая энциклопедия (УрО РАН, ред. В.В. Алексеев, 2000), «Камышлов» (https://ural.academic.ru/870/)",
+   "alinti": "Первое пос. (Камышловская слобода) было осн. в 1668 крест.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2430] f YIL düzeyi. Topografik sözlük 1667 der (ic_not). t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:19",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2431] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:19",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2432] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:19",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2433] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Turinsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:22",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1600-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Уральская историческая энциклопедия (УрО РАН, 2000), «Туринск» (https://ural.academic.ru/1986/)",
+   "alinti": "Т. возник в 1600 как ямская слобода на полпути между Верхотурьем и Тюменью",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2434] f YIL düzeyi. Mevcut kaynak (uraltradicia.ru, bölge kültür kurumu) yerine akademik UIE. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:22",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2435] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:22",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2436] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:22",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2437] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Nijniy Tagil": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:25",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1722-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), «Nižnij Tagil» (https://www.vle.lt/straipsnis/niznij-tagil/)",
+   "alinti": "Miestas įkurtas 1722 pastačius vario lydymo gamyklą.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2438] f YIL düzeyi. Pospelov toponim sözlüğü 1725 (fabrika işletmeye açılışı) der — ic_not. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:25",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2439] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:25",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2440] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:25",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2441] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Narım": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:28",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1596-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), «Narym» (https://www.vle.lt/straipsnis/narym/)",
+   "alinti": "Įkurtas 1596 (ar 1598) kaip Sibiro kolonizacijos atraminė tvirtovė, 1601 gavo miesto teises",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2442] f YIL düzeyi; 1598 alternatifi ic_not. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:28",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2443] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:28",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2444] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:28",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2445] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Verhneangarsk ostrogu": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:31",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1647-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2446] Aranan: Уральская ист. энц. (kapsam dışı), VLE, journals.bsu.ru (Buryat DÜ, iki makale: anılmıyor), web araması. Akademik olmayan kaynaklar (culture.ru '380 yıl' sergisi, kupi.com) 1646 ve Vasiliy Kolesnikov der — atlas 1647 ile 1 yıl fark, ipucu. TARAYICI: Историческая энциклопедия Сибири (2009) «Верхнеангарский острог»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:31",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2447] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:31",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2448] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak / UDC kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:31",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2449] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Irgen": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:34",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1654-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "А.В. (yazar adı PDF'te okunmadı), Çita'nın ilk tarihi (zimov'ye → şehir, 1653-1851) makalesi, Известия Иркутского государственного университета, Серия «История» (https://izvestiahist.isu.ru/en/article/file?id=290)",
+   "alinti": "После завершения строительства Иргенского острога бекетовцы отправились по волоку ... на Ингоду | К нему приступили 19 октября 7162 г. ... или 29 октября 1653 г.",
+   "oneri": {
+    "f": "1653-01-01",
+    "not": "1655 Tunguz yakması → 1658 Paşkov yeniden kuruluşu arası Rus varlığı kesik (ic_not; künyesiz yerel sahip)"
+   },
+   "uc": "f",
+   "not": "[sira 2450] Irgen ostrogu Beketov'un 1653 yazı-güzü seferinde kuruldu: inşa bitince İngoda'ya geçildi, İngoda zimov'yesi 29 Ekim 1653 (makale, eski takvim çevrimiyle). Atlas 1654 bir yıl geç. Gün yok → YYYY-01-01. Makale: 'Иргенского и Шилского острогов, сожженных тунгусами в 1655 г.'; Paşkov 1658 baharında geldi. t teyitsiz (K01). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:34",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2451] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:34",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2452] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak / UDC kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:34",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2453] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "İlyinsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:37",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1660-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2454] Aranan: web araması (Ильинский острог 1660 Бурятия), journals.bsu.ru iki makale, UIE kapsam dışı. Bulunan 'Ильинск' sonuçları başka yerlere ait. TARAYICI: Историческая энциклопедия Сибири / Энциклопедия Бурятии «Ильинский острог»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:37",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2455] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:37",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2456] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Kolçak / UDC kırılması (gece-20 (2))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:37",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2457] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ]
+}

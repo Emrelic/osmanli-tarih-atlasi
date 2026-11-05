@@ -1,0 +1,30 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3791	BOS	data/yerlesimler_kamerika.js:481	Chignik (Alaska Yarımadası)	s	alutiiq	1281-01-01	1784-08-14	
+3792	BOS	data/yerlesimler_kamerika.js:481	Chignik (Alaska Yarımadası)	s	rusya	1784-08-14	1867-10-18	
+3793	BOS	data/yerlesimler_kamerika.js:481	Chignik (Alaska Yarımadası)	s	abd	1867-10-18	2000-12-31	
+3794	BOS	data/yerlesimler_kamerika.js:629	Sandy Lake (Kuzeybatı Ontario)	s	kri	1281-01-01	1876-08-23	
+3795	BOS	data/yerlesimler_kamerika.js:629	Sandy Lake (Kuzeybatı Ontario)	s	kanada	1876-08-23	2000-12-31	
+3796	BOS	data/yerlesimler_kamerika.js:648	Buffalo Lake / Battle River (Métis)	s	metis	1872-01-01	1885-05-12	
+3797	BOS	data/yerlesimler_kamerika.js:648	Buffalo Lake / Battle River (Métis)	s	kanada	1885-05-12	2000-12-31	
+3798	BOS	data/yerlesimler_kamerika.js:724	Regina	s	kanada	1882-01-01	2000-12-31	
+3799	BOS	data/yerlesimler_kamerika.js:794	Obedjiwan (Atikamekw)	s	kri	1281-01-01	1876-08-23	
+3800	BOS	data/yerlesimler_kamerika.js:794	Obedjiwan (Atikamekw)	s	kanada	1876-08-23	2000-12-31	
+3801	BOS	data/yerlesimler_kamerika.js:828	Devils Lake (Mni Wakan, Dakota)	s	lakota	1281-01-01	1890-12-29	
+3802	BOS	data/yerlesimler_kamerika.js:828	Devils Lake (Mni Wakan, Dakota)	s	abd	1890-12-29	2000-12-31	
+3803	BOS	data/yerlesimler_kamerika.js:854	Seattle (Duwamish)	s	abd	1851-11-13	2000-12-31	
+3804	BOS	data/yerlesimler_kamerika.js:880	Plaisance (Placentia)	s	fransa	1662-01-01	1763-02-10	
+3805	BOS	data/yerlesimler_kamerika.js:880	Plaisance (Placentia)	s	ingiliz-kuzey-amerika	1763-02-10	1855-05-07	
+3806	ZAYIF_ATLAS	data/yerlesimler_kamerika.js:880	Plaisance (Placentia)	s	newfoundland-komisyon-hukumeti	1934-02-16	1949-03-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-komisyon-hukumeti f ucunun kaynağı — https://www.thecanadianencyclopedia.ca/en/article/newfoundl
+3807	BOS	data/yerlesimler_kamerika.js:895	Helena (Montana)	s	abd	1864-01-01	2000-12-31	
+3808	BOS	data/yerlesimler_kamerika.js:905	Sault Ste. Marie	s	fransa	1668-01-01	1763-02-10	
+3809	BOS	data/yerlesimler_kamerika.js:905	Sault Ste. Marie	s	ingiliz-kuzey-amerika	1763-02-10	1783-09-03	
+3810	DIGER	data/yerlesimler_kamerika.js:905	Sault Ste. Marie	s	abd	1783-09-03	2000-12-31	1783 Paris Antlaşması md. II (Avalon, https://avalon.law.yale.edu/18th_century/paris.asp): 'thence through the middle of said lake to the water communication be
+3811	BOS	data/yerlesimler_kamerika.js:951	Michilimackinac	s	fransa	1671-01-01	1763-02-10	
+3812	BOS	data/yerlesimler_kamerika.js:951	Michilimackinac	s	ingiltere	1763-02-10	1783-09-03	
+3813	BOS	data/yerlesimler_kamerika.js:951	Michilimackinac	s	abd	1783-09-03	2000-12-31	
+3814	BOS	data/yerlesimler_kamerika.js:981	Norridgewock (Abenaki)	s	abenaki	1281-01-01	1725-12-15	
+3815	BOS	data/yerlesimler_kamerika.js:981	Norridgewock (Abenaki)	s	ingiltere	1725-12-15	1783-09-03	
+3816	BOS	data/yerlesimler_kamerika.js:981	Norridgewock (Abenaki)	s	abd	1783-09-03	2000-12-31	
+3817	BOS	data/yerlesimler_kamerika.js:1006	Fort Pierre (Arikara/Lakota)	s	abd	1817-01-01	2000-12-31	
+3818	BOS	data/yerlesimler_kamerika.js:1030	Sioux Falls	s	abd	1856-01-01	2000-12-31	
+3819	BOS	data/yerlesimler_kamerika.js:1034	Fort Harney (Harney Havzası, Payut)	s	abd	1867-01-01	2000-12-31	

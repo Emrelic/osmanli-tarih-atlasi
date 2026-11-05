@@ -1,0 +1,194 @@
+{
+ "Wyndham": [
+  {
+   "sira": 2088,
+   "dosya_satir": "data/yerlesimler_okyanusya.js:294",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Landgate (Western Australian Land Information Authority — WA hükûmet kurumu), «History of country town names», https://www.landgate.wa.gov.au/maps-and-imagery/wa-geographic-names/name-history/historical-town-names (web.archive.org 2021-01-23 kopyası; bugünkü sitede sayfa kaldırılmış)",
+   "alinti": "Governor Broome decided it would be named Wyndham, and the townsite was gazetted in September 1886.",
+   "oneri": {
+    "f": "1886-09-01"
+   },
+   "not": "f ileri (Merdiven ④): 1885 Kimberley altın bulunuşu bölgeyi tarihler, yerleşimi değil; yer seçimi Mart 1886 (John Forrest), townsite Eylül 1886'da gazete edildi → f 1886-09-01 (AY hassasiyeti; Mart 1886 yer seçimi ic_not). Resmî devlet kurumu yayını. Öteki uç (t 1901-01-01) teyitsiz."
+  }
+ ],
+ "Uyandina (Nijneindigirsk) zimovyesi": [
+  {
+   "sira": 2035,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:45",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1638-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE araması «Уяндина», «Нижнеиндигирск» (yalnız nehir maddesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1638 kuruluşu teyitsiz. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Zaşiversk": [
+  {
+   "sira": 2099,
+   "dosya_satir": "data/yerlesimler_ek8.js:277",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1639-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Зашиверск» (madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1639 kuruluşu teyitsiz. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Tauysk": [
+  {
+   "sira": 1988,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:51",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1652-09-10",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Тауйск» (yalnız ESBE)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1652-09-10 günü teyitsiz; O.S. ise Gregoryen 1652-09-20 olmalı (Rusya O.S. kuralı) — kaynakla sınanmalı. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Weipa Misyonu": [
+  {
+   "sira": 2079,
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:360",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1898-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "qld.gov.au Napranum topluluk tarihi (tahmin URL 404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Weipa Misyonu 1898 (Presbiteryen/Moravya) kaynakla okunmadı. queensland künye 1859-06-06 → 1901 kapsıyor."
+  }
+ ],
+ "Srednekolımsk": [
+  {
+   "sira": 1967,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:48",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1643-07-30",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Среднеколымск», https://dic.academic.ru/dic.nsf/bse/135357/",
+   "alinti": "С. основан как острог в 1644.",
+   "oneri": {
+    "f": "1644-01-01"
+   },
+   "not": "BSE ve Поспелов (aynı sayfa) 1644 der; atlas 1643-07-30 (dayanağı DEVRALMA, gün kaynağı yok). Yalnız yıl. 1643-07-30 başka bir zimovye/ilk varış günüyse kaynağıyla ic_not'a. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Tigil": [
+  {
+   "sira": 1998,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:85",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1747-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Тигиль», https://dic.academic.ru/dic.nsf/bse/139601/",
+   "alinti": "",
+   "oneri": {},
+   "not": "BSE «Тигиль» nehir maddesi; köy için yalnız 'Словарь География России' özeti (İPUCU): 'Основано в 1747 казаками как сторожевое…' — atlasla uyumlu, akademik teyit yok. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Tulagi": [
+  {
+   "sira": 2016,
+   "dosya_satir": "data/yerlesimler_okyanusya.js:44",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1893-01-01",
+   "t": "1978-07-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Solomon Islands», https://history.state.gov/countries/solomon-islands",
+   "alinti": "The Solomon Islands previously had been under British sovereignty.",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (bağımsızlık 1978; tanıma 1978-07-07) tarihliyor; f 1893 (İngiliz Solomon Adaları Protektorası ilanı, Haziran 1893?) ve Tulagi'nin 1896-97 idare merkezi oluşu teyitsiz → ONERI, öneri yok."
+  },
+  {
+   "sira": 2017,
+   "dosya_satir": "data/yerlesimler_okyanusya.js:44",
+   "alan": "s",
+   "d": "solomon-adalari",
+   "f": "1978-07-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Solomon Islands», https://history.state.gov/countries/solomon-islands",
+   "alinti": "until after the Solomon Islands gained their independence in 1978.",
+   "oneri": {},
+   "not": "f YIL teyitli (1978); 07-07 günü sayfada yalnız TANIMA günü — bağımsızlığı tarihlemez (gün teyitsiz). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Suva": [
+  {
+   "sira": 1978,
+   "dosya_satir": "data/yerlesimler_ek30.js:73",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1874-10-10",
+   "t": "1970-10-10",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Fiji», https://history.state.gov/countries/fiji",
+   "alinti": "became a Crown colony within the British Empire in 1874",
+   "oneri": {},
+   "not": "t ucu ayrı cümle (aynı sayfa): 'Fiji became independent from the British Commonwealth on that date' [October 10, 1970]. f YIL (1874; 10-10 Devir Senedi günü teyitsiz), t GÜN (1970-10-10) teyitli. ÜLKE DÜZEYİ; Suva 1882'de başkent (ic_not, teyitsiz)."
+  },
+  {
+   "sira": 1979,
+   "dosya_satir": "data/yerlesimler_ek30.js:73",
+   "alan": "s",
+   "d": "fiji",
+   "f": "1970-10-10",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Fiji», https://history.state.gov/countries/fiji",
+   "alinti": "Fiji became independent from the British Commonwealth on that date [October 10, 1970]",
+   "oneri": {},
+   "not": "f GÜN teyitli. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Timaru": [
+  {
+   "sira": 2001,
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:230",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1853-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Te Ara / DNZB (robots kapalı); akademik kaynak okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "yeni-zelanda 1853 → 2000: Timaru'nun 1853 günü (Rhodes istasyonu 1851? kasaba 1859?) teyitsiz; f=varoluş: Te Tihi-o-Maru Māori yerleşimi ve 1839 balina istasyonu daha erken — 1853 öncesi sahip (Ngāi Tahu) künyesiz; kaynakla."
+  }
+ ]
+}

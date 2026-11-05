@@ -1,0 +1,1291 @@
+[
+ {
+  "no": "ABD-01",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "New Amsterdam (New York)"
+   ],
+   "t": "1776-09-15",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "İngilizler Manhattan'a çıktı — New York İngiliz işgaline girdi",
+   "tur": "isgal",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Howe komutasındaki İngiliz ordusu 15 Eylül 1776'da Kip's Bay'den Manhattan Adası'na çıktı. Kıta Ordusu kenti boşaltıp kuzeye, Harlem Heights'a çekildi. New York bu günden 1783'e kadar İngiliz işgalinde kaldı.",
+   "kaynak": "NPS, Where the Battle of Harlem Heights Began https://www.nps.gov/places/where-the-battle-of-harlem-heights-began.htm : \"Then on September 15th, the British would invade Manhattan Island around 34th Street\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden. Gün koordinatörün günüyle aynı. Atlas notu: New York kaydında 1776-07-04 → abd kırılması var, işgal (v:) dilimi yok; uygulamada 1776-09-15/1783-11-25 v:ingiltere dilimi gerekir.",
+  "ceviri": {
+   "en": {
+    "b": "British land on Manhattan — New York under British occupation",
+    "d": "On 15 September 1776 the British army under Howe landed on Manhattan Island at Kip's Bay. The Continental Army abandoned the city and withdrew north to Harlem Heights. New York remained under British occupation from this day until 1783."
+   },
+   "ar": {
+    "b": "الإنجليز ينزلون في مانهاتن — نيويورك تحت الاحتلال البريطاني",
+    "d": "في 15 سبتمبر 1776 نزل الجيش البريطاني بقيادة هاو في جزيرة مانهاتن عند خليج كيبس. أخلى الجيش القاري المدينة وانسحب شمالًا إلى مرتفعات هارلم. وبقيت نيويورك تحت الاحتلال البريطاني من هذا اليوم حتى عام 1783."
+   },
+   "de": {
+    "b": "Briten landen auf Manhattan — New York unter britischer Besatzung",
+    "d": "Am 15. September 1776 landete die britische Armee unter Howe bei Kip's Bay auf der Insel Manhattan. Die Kontinentalarmee räumte die Stadt und zog sich nach Norden auf die Harlem Heights zurück. New York blieb von diesem Tag an bis 1783 britisch besetzt."
+   },
+   "es": {
+    "b": "Los británicos desembarcan en Manhattan — Nueva York bajo ocupación británica",
+    "d": "El 15 de septiembre de 1776 el ejército británico al mando de Howe desembarcó en la isla de Manhattan por Kip's Bay. El Ejército Continental abandonó la ciudad y se retiró al norte, a Harlem Heights. Nueva York permaneció bajo ocupación británica desde ese día hasta 1783."
+   },
+   "fr": {
+    "b": "Les Britanniques débarquent à Manhattan — New York sous occupation britannique",
+    "d": "Le 15 septembre 1776, l'armée britannique commandée par Howe débarqua sur l'île de Manhattan à Kip's Bay. L'Armée continentale évacua la ville et se replia au nord, sur les hauteurs de Harlem. New York resta sous occupation britannique de ce jour jusqu'en 1783."
+   },
+   "pt": {
+    "b": "Os britânicos desembarcam em Manhattan — Nova Iorque sob ocupação britânica",
+    "d": "Em 15 de setembro de 1776 o exército britânico comandado por Howe desembarcou na ilha de Manhattan, em Kip's Bay. O Exército Continental abandonou a cidade e retirou-se para norte, para Harlem Heights. Nova Iorque permaneceu sob ocupação britânica desde esse dia até 1783."
+   },
+   "ru": {
+    "b": "Британцы высаживаются на Манхэттене — Нью-Йорк под британской оккупацией",
+    "d": "15 сентября 1776 года британская армия под командованием Хау высадилась на острове Манхэттен в бухте Кипс-Бей. Континентальная армия оставила город и отошла на север, к Гарлемским высотам. С этого дня и до 1783 года Нью-Йорк оставался под британской оккупацией."
+   }
+  }
+ },
+ {
+  "no": "ABD-02",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "New Amsterdam (New York)"
+   ],
+   "t": "1783-11-25",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "İngilizler New York'u tahliye etti — ABD'deki son İngiliz garnizonu çekildi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "Paris Antlaşması'nın ardından İngiliz kuvvetleri 25 Kasım 1783'te New York ve Brooklyn'i boşalttı. Bunlar On Üç Koloni topraklarından ayrılan son İngiliz birlikleriydi. Kent, yedi yıllık işgalden sonra ABD'nin eline geçti.",
+   "kaynak": "NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"New York, NY   25 Nov. 1783   The British forces evacuated New York and Brooklyn, the last British troops to leave the colonies.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden (tablo satırı, boşluklar sayfadaki gibi). Gün koordinatörle aynı.",
+  "ceviri": {
+   "en": {
+    "b": "British evacuate New York — the last British garrison in the US withdraws",
+    "d": "Following the Treaty of Paris, British forces evacuated New York and Brooklyn on 25 November 1783. They were the last British troops to leave the territory of the Thirteen Colonies. After seven years of occupation the city passed into the hands of the United States."
+   },
+   "ar": {
+    "b": "الإنجليز يُخلون نيويورك — انسحاب آخر حامية بريطانية في الولايات المتحدة",
+    "d": "عقب معاهدة باريس أخلت القوات البريطانية نيويورك وبروكلين في 25 نوفمبر 1783. وكانت هذه آخر القوات البريطانية التي غادرت أراضي المستعمرات الثلاث عشرة. وانتقلت المدينة إلى الولايات المتحدة بعد سبع سنوات من الاحتلال."
+   },
+   "de": {
+    "b": "Briten räumen New York — die letzte britische Garnison in den USA zieht ab",
+    "d": "Nach dem Frieden von Paris räumten die britischen Truppen am 25. November 1783 New York und Brooklyn. Es waren die letzten britischen Truppen, die das Gebiet der Dreizehn Kolonien verließen. Nach sieben Jahren Besatzung ging die Stadt an die Vereinigten Staaten über."
+   },
+   "es": {
+    "b": "Los británicos evacúan Nueva York — se retira la última guarnición británica en EE. UU.",
+    "d": "Tras el Tratado de París, las fuerzas británicas evacuaron Nueva York y Brooklyn el 25 de noviembre de 1783. Fueron las últimas tropas británicas en abandonar el territorio de las Trece Colonias. Tras siete años de ocupación, la ciudad pasó a manos de los Estados Unidos."
+   },
+   "fr": {
+    "b": "Les Britanniques évacuent New York — la dernière garnison britannique aux États-Unis se retire",
+    "d": "À la suite du traité de Paris, les forces britanniques évacuèrent New York et Brooklyn le 25 novembre 1783. Ce furent les dernières troupes britanniques à quitter le territoire des Treize Colonies. Après sept ans d'occupation, la ville passa aux États-Unis."
+   },
+   "pt": {
+    "b": "Os britânicos evacuam Nova Iorque — retira-se a última guarnição britânica nos EUA",
+    "d": "Após o Tratado de Paris, as forças britânicas evacuaram Nova Iorque e Brooklyn em 25 de novembro de 1783. Foram as últimas tropas britânicas a deixar o território das Treze Colónias. Após sete anos de ocupação, a cidade passou para as mãos dos Estados Unidos."
+   },
+   "ru": {
+    "b": "Британцы эвакуируют Нью-Йорк — уходит последний британский гарнизон в США",
+    "d": "После Парижского мира британские войска 25 ноября 1783 года оставили Нью-Йорк и Бруклин. Это были последние британские войска, покинувшие территорию Тринадцати колоний. После семи лет оккупации город перешёл к Соединённым Штатам."
+   }
+  }
+ },
+ {
+  "no": "ABD-03",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Philadelphia"
+   ],
+   "t": "1777-09-26",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "İngiliz ordusu Filadelfiya'ya girdi — Kıta Kongresi'nin kenti işgal edildi",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Brandywine yenilgisinden sonra Washington ordusunu batıya çekmek zorunda kaldı ve Filadelfiya'nın yolu açıldı. General Howe 26 Eylül 1777'de kente girdi; Kongre kenti önceden terk etmişti. İşgal ertesi yaz haziranına kadar sürdü.",
+   "kaynak": "NPS, The Philadelphia Campaign of 1777 https://www.nps.gov/articles/000/philadelphia-campaign-1777.htm : \"Occupation of Philadelphia - September 26, 1777\" · çift teyit: Martha K. Robinson, British Occupation of Philadelphia, Encyclopedia of Greater Philadelphia (Rutgers, 2016) https://philadelphiaencyclopedia.org/essays/british-occupation-of-philadelphia/ : \"On September 26, 1777, the British army marched into Philadelphia\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (NPS + Encyclopedia of Greater Philadelphia); iki alıntı da sayfa.py ham metninden. Atlas notu: Philadelphia kaydında işgal dilimi yok (1776-07-04 → abd).",
+  "ceviri": {
+   "en": {
+    "b": "British army enters Philadelphia — the Continental Congress's city occupied",
+    "d": "After the defeat at Brandywine, Washington had to move his army west and the road to Philadelphia lay open. General Howe entered the city on 26 September 1777; Congress had already left it. The occupation lasted until June of the following summer."
+   },
+   "ar": {
+    "b": "الجيش البريطاني يدخل فيلادلفيا — احتلال مدينة الكونغرس القاري",
+    "d": "بعد الهزيمة في برانديواين اضطر واشنطن إلى سحب جيشه غربًا فانفتح الطريق إلى فيلادلفيا. ودخل الجنرال هاو المدينة في 26 سبتمبر 1777، وكان الكونغرس قد غادرها قبل ذلك. ودام الاحتلال حتى يونيو من الصيف التالي."
+   },
+   "de": {
+    "b": "Britische Armee rückt in Philadelphia ein — die Stadt des Kontinentalkongresses besetzt",
+    "d": "Nach der Niederlage am Brandywine musste Washington seine Armee nach Westen verlegen, und der Weg nach Philadelphia lag offen. General Howe rückte am 26. September 1777 in die Stadt ein; der Kongress hatte sie bereits verlassen. Die Besatzung dauerte bis zum Juni des folgenden Sommers."
+   },
+   "es": {
+    "b": "El ejército británico entra en Filadelfia — ocupada la ciudad del Congreso Continental",
+    "d": "Tras la derrota de Brandywine, Washington tuvo que desplazar su ejército hacia el oeste y el camino a Filadelfia quedó abierto. El general Howe entró en la ciudad el 26 de septiembre de 1777; el Congreso ya la había abandonado. La ocupación duró hasta junio del verano siguiente."
+   },
+   "fr": {
+    "b": "L'armée britannique entre à Philadelphie — la ville du Congrès continental occupée",
+    "d": "Après la défaite de la Brandywine, Washington dut porter son armée vers l'ouest et la route de Philadelphie fut ouverte. Le général Howe entra dans la ville le 26 septembre 1777 ; le Congrès l'avait déjà quittée. L'occupation dura jusqu'en juin de l'été suivant."
+   },
+   "pt": {
+    "b": "O exército britânico entra em Filadélfia — ocupada a cidade do Congresso Continental",
+    "d": "Após a derrota de Brandywine, Washington teve de deslocar o seu exército para oeste e o caminho para Filadélfia ficou aberto. O general Howe entrou na cidade em 26 de setembro de 1777; o Congresso já a tinha abandonado. A ocupação durou até junho do verão seguinte."
+   },
+   "ru": {
+    "b": "Британская армия вступает в Филадельфию — город Континентального конгресса оккупирован",
+    "d": "После поражения при Брендивайне Вашингтон был вынужден отвести армию на запад, и путь на Филадельфию оказался открыт. Генерал Хау вступил в город 26 сентября 1777 года; Конгресс к тому времени уже покинул его. Оккупация продлилась до июня следующего лета."
+   }
+  }
+ },
+ {
+  "no": "ABD-04",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Philadelphia"
+   ],
+   "t": "1778-06-18",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "İngilizler Filadelfiya'yı boşalttı ve New York'a çekildi",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "Fransa'nın savaşa girmesiyle Filadelfiya'yı tutmak İngilizler için anlamsızlaştı. General Clinton komutasındaki ordu 18 Haziran 1778'de kenti boşaltıp New Jersey üzerinden New York'a yürüdü. Kent yeniden Amerikalıların eline geçti.",
+   "kaynak": "NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Philadelphia, PA   18 June 1778   British abandoned Philadelphia and moved to New York.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden. Encyclopedia of Greater Philadelphia yalnız 'June 1778' diyor (ay teyidi).",
+  "ceviri": {
+   "en": {
+    "b": "British abandon Philadelphia and withdraw to New York",
+    "d": "With France's entry into the war, holding Philadelphia became pointless for the British. The army under General Clinton evacuated the city on 18 June 1778 and marched across New Jersey to New York. The city passed back into American hands."
+   },
+   "ar": {
+    "b": "الإنجليز يُخلون فيلادلفيا وينسحبون إلى نيويورك",
+    "d": "بدخول فرنسا الحرب لم يعد للاحتفاظ بفيلادلفيا معنى لدى الإنجليز. فأخلى الجيش بقيادة الجنرال كلينتون المدينة في 18 يونيو 1778 وزحف عبر نيوجيرسي إلى نيويورك. وعادت المدينة إلى أيدي الأمريكيين."
+   },
+   "de": {
+    "b": "Briten räumen Philadelphia und ziehen sich nach New York zurück",
+    "d": "Mit dem Kriegseintritt Frankreichs wurde das Halten Philadelphias für die Briten sinnlos. Die Armee unter General Clinton räumte die Stadt am 18. Juni 1778 und marschierte durch New Jersey nach New York. Die Stadt fiel wieder an die Amerikaner."
+   },
+   "es": {
+    "b": "Los británicos abandonan Filadelfia y se retiran a Nueva York",
+    "d": "Con la entrada de Francia en la guerra, conservar Filadelfia dejó de tener sentido para los británicos. El ejército del general Clinton evacuó la ciudad el 18 de junio de 1778 y marchó por Nueva Jersey hacia Nueva York. La ciudad volvió a manos estadounidenses."
+   },
+   "fr": {
+    "b": "Les Britanniques abandonnent Philadelphie et se replient sur New York",
+    "d": "Avec l'entrée en guerre de la France, tenir Philadelphie n'avait plus de sens pour les Britanniques. L'armée du général Clinton évacua la ville le 18 juin 1778 et marcha à travers le New Jersey vers New York. La ville repassa aux mains des Américains."
+   },
+   "pt": {
+    "b": "Os britânicos abandonam Filadélfia e retiram-se para Nova Iorque",
+    "d": "Com a entrada da França na guerra, manter Filadélfia deixou de fazer sentido para os britânicos. O exército do general Clinton evacuou a cidade em 18 de junho de 1778 e marchou através de Nova Jérsia para Nova Iorque. A cidade voltou às mãos dos americanos."
+   },
+   "ru": {
+    "b": "Британцы оставляют Филадельфию и отходят к Нью-Йорку",
+    "d": "После вступления Франции в войну удерживать Филадельфию для британцев стало бессмысленно. Армия генерала Клинтона 18 июня 1778 года оставила город и через Нью-Джерси двинулась к Нью-Йорку. Город вновь перешёл в руки американцев."
+   }
+  }
+ },
+ {
+  "no": "ABD-05",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Charleston (Charles Town)"
+   ],
+   "t": "1780-05-12",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "Charleston İngilizlere teslim oldu — Lincoln ordusuyla birlikte esir düştü",
+   "tur": "isgal",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Kuşatmanın sonunda General Benjamin Lincoln 12 Mayıs 1780'de Charleston'ı ve bütün ordusunu General Clinton'a teslim etti. Clinton savunanlara savaş onuru tanımadı. Bu, Bağımsızlık Savaşı'nda Amerikalıların en ağır yenilgisiydi ve kent iki buçuk yıl İngiliz işgalinde kaldı.",
+   "kaynak": "South Carolina Encyclopedia, Charleston, Siege of (April–May 1780) https://www.scencyclopedia.org/sce/entries/charleston-siege-of-april-may-1780/ : \"The city surrendered to the British on May 12, 1780.\" · çift teyit: NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Siege of Charleston, SC   29 Mar –12 May 1780   Maj. Gen. Lincoln surrendered the town and his entire army.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (SCE + NPS); alıntılar sayfa.py ham metninden. Atlas notu: Charleston kaydında işgal dilimi yok.",
+  "ceviri": {
+   "en": {
+    "b": "Charleston surrenders to the British — captured together with Lincoln's army",
+    "d": "At the end of the siege, General Benjamin Lincoln surrendered Charleston and his entire army to General Clinton on 12 May 1780. Clinton refused the defenders the honours of war. It was the worst American defeat of the Revolutionary War, and the city remained under British occupation for two and a half years."
+   },
+   "ar": {
+    "b": "تشارلستون تستسلم للإنجليز — وقوعها في الأسر مع جيش لينكولن",
+    "d": "في نهاية الحصار سلّم الجنرال بنجامين لينكولن مدينة تشارلستون وجيشه كله إلى الجنرال كلينتون في 12 مايو 1780. ورفض كلينتون منح المدافعين شرف الحرب. وكانت تلك أشد هزيمة للأمريكيين في حرب الاستقلال، وبقيت المدينة تحت الاحتلال البريطاني سنتين ونصفًا."
+   },
+   "de": {
+    "b": "Charleston kapituliert vor den Briten — zusammen mit Lincolns Armee gefangen",
+    "d": "Am Ende der Belagerung übergab General Benjamin Lincoln am 12. Mai 1780 Charleston und seine gesamte Armee an General Clinton. Clinton verweigerte den Verteidigern die militärischen Ehren. Es war die schwerste amerikanische Niederlage des Unabhängigkeitskrieges, und die Stadt blieb zweieinhalb Jahre britisch besetzt."
+   },
+   "es": {
+    "b": "Charleston se rinde a los británicos — capturada junto con el ejército de Lincoln",
+    "d": "Al final del asedio, el general Benjamin Lincoln entregó Charleston y todo su ejército al general Clinton el 12 de mayo de 1780. Clinton negó a los defensores los honores de guerra. Fue la peor derrota estadounidense de la Guerra de Independencia, y la ciudad permaneció dos años y medio bajo ocupación británica."
+   },
+   "fr": {
+    "b": "Charleston capitule devant les Britanniques — prise avec l'armée de Lincoln",
+    "d": "Au terme du siège, le général Benjamin Lincoln livra Charleston et toute son armée au général Clinton le 12 mai 1780. Clinton refusa aux défenseurs les honneurs de la guerre. Ce fut la plus grave défaite américaine de la guerre d'indépendance, et la ville resta deux ans et demi sous occupation britannique."
+   },
+   "pt": {
+    "b": "Charleston rende-se aos britânicos — capturada juntamente com o exército de Lincoln",
+    "d": "No fim do cerco, o general Benjamin Lincoln entregou Charleston e todo o seu exército ao general Clinton em 12 de maio de 1780. Clinton recusou aos defensores as honras de guerra. Foi a pior derrota americana da Guerra da Independência, e a cidade ficou dois anos e meio sob ocupação britânica."
+   },
+   "ru": {
+    "b": "Чарлстон сдаётся британцам — взят вместе с армией Линкольна",
+    "d": "По окончании осады генерал Бенджамин Линкольн 12 мая 1780 года сдал Чарлстон и всю свою армию генералу Клинтону. Клинтон отказал защитникам в воинских почестях. Это было самое тяжёлое поражение американцев в Войне за независимость, и город два с половиной года оставался под британской оккупацией."
+   }
+  }
+ },
+ {
+  "no": "ABD-06",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Charleston (Charles Town)"
+   ],
+   "t": "1782-12-14",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "İngilizler Charleston'ı tahliye etti",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "Yorktown'dan sonra savaş sona ererken İngilizler 14 Aralık 1782'de Charleston'dan çekildi. Artçı birlikler Gadsden İskelesi'nden gemilere bindi ve Kıta Ordusu'nun bir müfrezesi kente girdi. Binlerce Sadık (Loyalist) ve köleleştirilmiş insan İngilizlerle birlikte gitti.",
+   "kaynak": "NPS, British Evacuation of Charleston https://www.nps.gov/articles/000/british-evacuation-of-charleston.htm : \"The British completed their evacuation of Charleston on December 14, 1782.\" · çift teyit: NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Charleston, SC   14 Dec. 1782   Charleston evacuated by British. Leaving with them were 3,800 Loyalists and 5,000 slaves.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (iki NPS sayfası, bağımsız yazar); alıntılar sayfa.py ham metninden.",
+  "ceviri": {
+   "en": {
+    "b": "British evacuate Charleston",
+    "d": "As the war drew to a close after Yorktown, the British withdrew from Charleston on 14 December 1782. The rear guard boarded ships at Gadsden's Wharf and a detachment of the Continental Army entered the city. Thousands of Loyalists and enslaved people left with the British."
+   },
+   "ar": {
+    "b": "الإنجليز يُخلون تشارلستون",
+    "d": "مع اقتراب الحرب من نهايتها بعد يوركتاون انسحب الإنجليز من تشارلستون في 14 ديسمبر 1782. وصعدت مؤخرة الجيش إلى السفن من رصيف غادسدن ودخلت مفرزة من الجيش القاري المدينة. ورحل مع الإنجليز آلاف من الموالين والمستعبَدين."
+   },
+   "de": {
+    "b": "Briten räumen Charleston",
+    "d": "Als der Krieg nach Yorktown zu Ende ging, zogen die Briten am 14. Dezember 1782 aus Charleston ab. Die Nachhut schiffte sich an Gadsden's Wharf ein, und eine Abteilung der Kontinentalarmee rückte in die Stadt ein. Tausende Loyalisten und versklavte Menschen gingen mit den Briten."
+   },
+   "es": {
+    "b": "Los británicos evacúan Charleston",
+    "d": "Cuando la guerra tocaba a su fin tras Yorktown, los británicos se retiraron de Charleston el 14 de diciembre de 1782. La retaguardia embarcó en el muelle de Gadsden y un destacamento del Ejército Continental entró en la ciudad. Miles de leales (loyalists) y personas esclavizadas partieron con los británicos."
+   },
+   "fr": {
+    "b": "Les Britanniques évacuent Charleston",
+    "d": "Alors que la guerre touchait à sa fin après Yorktown, les Britanniques se retirèrent de Charleston le 14 décembre 1782. L'arrière-garde embarqua au quai Gadsden et un détachement de l'Armée continentale entra dans la ville. Des milliers de loyalistes et de personnes réduites en esclavage partirent avec les Britanniques."
+   },
+   "pt": {
+    "b": "Os britânicos evacuam Charleston",
+    "d": "Com a guerra a chegar ao fim depois de Yorktown, os britânicos retiraram-se de Charleston em 14 de dezembro de 1782. A retaguarda embarcou no cais de Gadsden e um destacamento do Exército Continental entrou na cidade. Milhares de legalistas e de pessoas escravizadas partiram com os britânicos."
+   },
+   "ru": {
+    "b": "Британцы эвакуируют Чарлстон",
+    "d": "Когда после Йорктауна война подходила к концу, британцы 14 декабря 1782 года ушли из Чарлстона. Арьергард погрузился на корабли у пристани Гадсдена, и в город вошёл отряд Континентальной армии. Вместе с британцами ушли тысячи лоялистов и порабощённых людей."
+   }
+  }
+ },
+ {
+  "no": "ABD-07",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Savannah"
+   ],
+   "t": "1778-12-29",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "İngilizler Savannah'ı aldı — Güney seferi başladı",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Yarbay Archibald Campbell komutasındaki İngiliz kuvveti Savannah'ın aşağısında karaya çıktı, bataklıklardan korunmasız bir yolla ilerleyerek General Robert Howe'un savunmasını dağıttı. Savannah 29 Aralık 1778'de İngilizlerin eline geçti. Bu, İngilizlerin Güney seferinin ilk olayıydı; Georgia yeniden İngiliz yönetimine sokuldu.",
+   "kaynak": "NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Savannah, GA.   29 Dec. 1778   The first event of the Southern Campaign.\" · ikinci kaynak: Georgia Historical Society, Capture of Savannah işaret metni https://www.georgiahistory.com/ghmi_marker_updated/capture-of-savannah/ : \"When the British attacked Savannah on December 29, 1778\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntılar sayfa.py ham metninden. ÇELİŞKİ: New Georgia Encyclopedia (Revolutionary War in Georgia) 'On December 28, 1778, Campbell's army landed unopposed on a bluff below Savannah ... and overwhelmed General Robert Howe's defenders' diyor (çıkış + zafer tek cümlede 28 Aralık). NPS ve GHS 29 Aralık; GHS 'landed near Brewton Hill at daybreak on Dec. 29' diyor. 29 Aralık tutuldu; NGE farkı ic_not'a yazılmalı.",
+  "ceviri": {
+   "en": {
+    "b": "British take Savannah — the Southern Campaign begins",
+    "d": "A British force under Lieutenant Colonel Archibald Campbell landed below Savannah, advanced through the swamps by an unguarded path and routed General Robert Howe's defenders. Savannah fell to the British on 29 December 1778. It was the first event of the British Southern Campaign, and Georgia was brought back under British rule."
+   },
+   "ar": {
+    "b": "الإنجليز يستولون على سافانا — بدء الحملة الجنوبية",
+    "d": "نزلت قوة بريطانية بقيادة المقدم أرشيبالد كامبل إلى البر جنوب سافانا، وتقدمت عبر المستنقعات من طريق غير محروس فشتّتت دفاعات الجنرال روبرت هاو. وسقطت سافانا في أيدي الإنجليز في 29 ديسمبر 1778. وكان ذلك أول أحداث الحملة البريطانية الجنوبية، وأُعيدت جورجيا إلى الحكم البريطاني."
+   },
+   "de": {
+    "b": "Briten nehmen Savannah — der Südfeldzug beginnt",
+    "d": "Eine britische Truppe unter Oberstleutnant Archibald Campbell landete unterhalb von Savannah, rückte auf einem unbewachten Pfad durch die Sümpfe vor und zerschlug die Verteidigung von General Robert Howe. Savannah fiel am 29. Dezember 1778 an die Briten. Es war das erste Ereignis des britischen Südfeldzugs; Georgia wurde wieder unter britische Herrschaft gebracht."
+   },
+   "es": {
+    "b": "Los británicos toman Savannah — comienza la campaña del Sur",
+    "d": "Una fuerza británica al mando del teniente coronel Archibald Campbell desembarcó aguas abajo de Savannah, avanzó por los pantanos por un sendero sin vigilancia y deshizo la defensa del general Robert Howe. Savannah cayó en manos británicas el 29 de diciembre de 1778. Fue el primer episodio de la campaña británica del Sur; Georgia volvió al dominio británico."
+   },
+   "fr": {
+    "b": "Les Britanniques prennent Savannah — début de la campagne du Sud",
+    "d": "Une force britannique commandée par le lieutenant-colonel Archibald Campbell débarqua en aval de Savannah, avança à travers les marais par un sentier non gardé et dispersa les défenseurs du général Robert Howe. Savannah tomba aux mains des Britanniques le 29 décembre 1778. Ce fut le premier épisode de la campagne britannique du Sud ; la Géorgie repassa sous domination britannique."
+   },
+   "pt": {
+    "b": "Os britânicos tomam Savannah — começa a campanha do Sul",
+    "d": "Uma força britânica comandada pelo tenente-coronel Archibald Campbell desembarcou a jusante de Savannah, avançou pelos pântanos por um caminho sem guarda e desbaratou a defesa do general Robert Howe. Savannah caiu em mãos britânicas em 29 de dezembro de 1778. Foi o primeiro episódio da campanha britânica do Sul; a Geórgia voltou ao domínio britânico."
+   },
+   "ru": {
+    "b": "Британцы берут Саванну — начало Южной кампании",
+    "d": "Британский отряд под командованием подполковника Арчибальда Кэмпбелла высадился ниже Саванны, по неохраняемой тропе прошёл через болота и разбил оборону генерала Роберта Хау. 29 декабря 1778 года Саванна перешла в руки британцев. Это стало первым событием британской Южной кампании; Джорджия вновь оказалась под британской властью."
+   }
+  }
+ },
+ {
+  "no": "ABD-08",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Savannah"
+   ],
+   "t": "1782-07-11",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "İngilizler Savannah'ı tahliye etti",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "General Carleton'ın emriyle İngilizler 11 Temmuz 1782'de Savannah'tan çekildi. Yarbay James Jackson, General Wayne'in birliklerinin başında kente girdi ve Georgia Meclisi iki gün sonra Savannah'ta toplandı. Binlerce Sadık ve köleleştirilmiş insan Doğu Florida'ya göç etti.",
+   "kaynak": "New Georgia Encyclopedia, Revolutionary War in Georgia https://www.georgiaencyclopedia.org/articles/history-archaeology/revolutionary-war-in-georgia/ : \"The British evacuated Savannah on July 11, 1782. Lieutenant Colonel James Jackson had the honor of leading Wayne's victorious troops into the city.\" · çift teyit: NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Savannah, GA   11 July 1782   British evacuated Savannah.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (NGE + NPS); alıntılar sayfa.py ham metninden (NGE'deki kıvrık kesme işareti düz yazıldı).",
+  "ceviri": {
+   "en": {
+    "b": "British evacuate Savannah",
+    "d": "On General Carleton's orders the British withdrew from Savannah on 11 July 1782. Lieutenant Colonel James Jackson entered the city at the head of General Wayne's troops, and the Georgia Assembly met in Savannah two days later. Thousands of Loyalists and enslaved people moved to East Florida."
+   },
+   "ar": {
+    "b": "الإنجليز يُخلون سافانا",
+    "d": "بأمر من الجنرال كارلتون انسحب الإنجليز من سافانا في 11 يوليو 1782. ودخل المقدم جيمس جاكسون المدينة على رأس قوات الجنرال واين، واجتمعت جمعية جورجيا في سافانا بعد يومين. وهاجر آلاف الموالين والمستعبَدين إلى فلوريدا الشرقية."
+   },
+   "de": {
+    "b": "Briten räumen Savannah",
+    "d": "Auf Befehl General Carletons zogen die Briten am 11. Juli 1782 aus Savannah ab. Oberstleutnant James Jackson zog an der Spitze von General Waynes Truppen in die Stadt ein, und die Versammlung von Georgia trat zwei Tage später in Savannah zusammen. Tausende Loyalisten und versklavte Menschen wanderten nach Ostflorida ab."
+   },
+   "es": {
+    "b": "Los británicos evacúan Savannah",
+    "d": "Por orden del general Carleton, los británicos se retiraron de Savannah el 11 de julio de 1782. El teniente coronel James Jackson entró en la ciudad al frente de las tropas del general Wayne, y la Asamblea de Georgia se reunió en Savannah dos días después. Miles de leales y personas esclavizadas emigraron a la Florida Oriental."
+   },
+   "fr": {
+    "b": "Les Britanniques évacuent Savannah",
+    "d": "Sur ordre du général Carleton, les Britanniques se retirèrent de Savannah le 11 juillet 1782. Le lieutenant-colonel James Jackson entra dans la ville à la tête des troupes du général Wayne, et l'Assemblée de Géorgie se réunit à Savannah deux jours plus tard. Des milliers de loyalistes et de personnes réduites en esclavage partirent pour la Floride orientale."
+   },
+   "pt": {
+    "b": "Os britânicos evacuam Savannah",
+    "d": "Por ordem do general Carleton, os britânicos retiraram-se de Savannah em 11 de julho de 1782. O tenente-coronel James Jackson entrou na cidade à frente das tropas do general Wayne, e a Assembleia da Geórgia reuniu-se em Savannah dois dias depois. Milhares de legalistas e de pessoas escravizadas emigraram para a Florida Oriental."
+   },
+   "ru": {
+    "b": "Британцы эвакуируют Саванну",
+    "d": "По приказу генерала Карлтона британцы 11 июля 1782 года ушли из Саванны. Подполковник Джеймс Джексон во главе войск генерала Уэйна вступил в город, и через два дня Ассамблея Джорджии собралась в Саванне. Тысячи лоялистов и порабощённых людей переселились в Восточную Флориду."
+   }
+  }
+ },
+ {
+  "no": "ABD-09",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Wilmington (Kuzey Karolayna)"
+   ],
+   "t": "1781-01-28",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "İngilizler Wilmington'ı (Kuzey Karolina) işgal etti",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Binbaşı James H. Craig komutasındaki küçük bir İngiliz kuvveti, Cornwallis'in Kuzey Karolina seferine ikmal üssü kurmak için Kuzey Karolina'nın başlıca limanı Wilmington'ı ele geçirdi. Kaynağa göre kent 28 Ocak 1781'de İngilizlerin eline geçti. Craig, Cape Fear vadisindeki Sadık baskınlarını buradan yönetti.",
+   "kaynak": "NCpedia, Rockfish, Battle of https://www.ncpedia.org/rockfish-battle : \"Earlier that year, on 28 January, a British force led by Maj. James H. Craig had taken possession of the nearby port and town of Wilmington .\" · ay teyidi: NCpedia, Wilmington Campaign of 1781 https://www.ncpedia.org/wilmington-campaign-1781 : \"In January 1781 a small British force commanded by the energetic Maj. James H. Craig of the 82nd Regiment occupied Wilmington\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "GÜN FARKLI: koordinatörün günü 1781-01-29; okunan kaynak (NCpedia Rockfish) 28 Ocak diyor, t 1781-01-28 yazıldı. NC DNCR yalnız 'January 1781'. Encyclopedia.com başka gün (1 Şubat) veriyor, dayanak değil. Alıntılar sayfa.py ham metninden. Atlas notu: Wilmington kaydı 1783-09-03'e kadar ingiltere — 1776-1781 arası abd dilimi yok; işgal ancak abd dilimi açılırsa haritada görünür.",
+  "ceviri": {
+   "en": {
+    "b": "British occupy Wilmington (North Carolina)",
+    "d": "A small British force under Major James H. Craig seized Wilmington, North Carolina's main port, to set up a supply base for Cornwallis's invasion of North Carolina. According to the source, the town passed into British hands on 28 January 1781. From here Craig directed Loyalist raids across the Cape Fear valley."
+   },
+   "ar": {
+    "b": "الإنجليز يحتلون ويلمنغتون (كارولاينا الشمالية)",
+    "d": "استولت قوة بريطانية صغيرة بقيادة الرائد جيمس هـ. كريغ على ويلمنغتون، الميناء الرئيسي لكارولاينا الشمالية، لإقامة قاعدة إمداد لحملة كورنواليس على كارولاينا الشمالية. وبحسب المصدر وقعت المدينة في أيدي الإنجليز في 28 يناير 1781. ومن هناك أدار كريغ غارات الموالين في وادي كيب فير."
+   },
+   "de": {
+    "b": "Briten besetzen Wilmington (North Carolina)",
+    "d": "Eine kleine britische Truppe unter Major James H. Craig nahm Wilmington, den wichtigsten Hafen North Carolinas, um eine Versorgungsbasis für Cornwallis' Invasion North Carolinas einzurichten. Laut der Quelle fiel die Stadt am 28. Januar 1781 an die Briten. Von hier aus lenkte Craig die loyalistischen Überfälle im Tal des Cape Fear."
+   },
+   "es": {
+    "b": "Los británicos ocupan Wilmington (Carolina del Norte)",
+    "d": "Una pequeña fuerza británica al mando del mayor James H. Craig tomó Wilmington, principal puerto de Carolina del Norte, para establecer una base de suministros para la invasión de Carolina del Norte por Cornwallis. Según la fuente, la ciudad pasó a manos británicas el 28 de enero de 1781. Desde allí Craig dirigió las incursiones leales en el valle del Cape Fear."
+   },
+   "fr": {
+    "b": "Les Britanniques occupent Wilmington (Caroline du Nord)",
+    "d": "Une petite force britannique commandée par le major James H. Craig s'empara de Wilmington, principal port de la Caroline du Nord, pour y établir une base de ravitaillement en vue de l'invasion de la Caroline du Nord par Cornwallis. Selon la source, la ville passa aux mains des Britanniques le 28 janvier 1781. De là, Craig dirigea les raids loyalistes dans la vallée du Cape Fear."
+   },
+   "pt": {
+    "b": "Os britânicos ocupam Wilmington (Carolina do Norte)",
+    "d": "Uma pequena força britânica comandada pelo major James H. Craig tomou Wilmington, principal porto da Carolina do Norte, para instalar uma base de abastecimento para a invasão da Carolina do Norte por Cornwallis. Segundo a fonte, a cidade passou para mãos britânicas em 28 de janeiro de 1781. Daí Craig dirigiu as incursões legalistas no vale do Cape Fear."
+   },
+   "ru": {
+    "b": "Британцы занимают Уилмингтон (Северная Каролина)",
+    "d": "Небольшой британский отряд под командованием майора Джеймса Х. Крейга захватил Уилмингтон, главный порт Северной Каролины, чтобы создать базу снабжения для вторжения Корнуоллиса в Северную Каролину. Согласно источнику, город перешёл в руки британцев 28 января 1781 года. Отсюда Крейг руководил набегами лоялистов в долине Кейп-Фир."
+   }
+  }
+ },
+ {
+  "no": "ABD-10",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Wilmington (Kuzey Karolayna)"
+   ],
+   "t": "1781-11-18",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "İngilizler Wilmington'ı tahliye etti",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "Cornwallis'in 19 Ekim 1781'de Yorktown'da teslim olmasından sonra İngiliz komutanlığı Wilmington'dan vazgeçti. Binbaşı Craig'in kuvvetleri 18 Kasım 1781'de kenti boşalttı ve aynı gün General Rutherford'un birlikleri kente girdi. Bu, İngilizlerin Kuzey Karolina'dan çıkışıydı.",
+   "kaynak": "NC Department of Natural and Cultural Resources, British Forces Leave Wilmington and N.C., 1781 https://www.dncr.nc.gov/blog/2016/11/18/british-forces-leave-wilmington-and-nc-1781 : \"On  November 18, 1781 , British forces under Maj. James Craig evacuated Wilmington.\" · çift teyit: NCpedia, Wilmington Campaign of 1781 https://www.ncpedia.org/wilmington-campaign-1781 : \"On 18 November Rutherford and his men entered Wilmington, the British transport ships still in full view heading down Cape Fear to the Atlantic.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (NC DNCR + NCpedia; NPS Cowpens zaman çizelgesi de 18 Nov. 1781); alıntılar sayfa.py ham metninden (DNCR'deki fazla boşluklar sayfadaki gibi).",
+  "ceviri": {
+   "en": {
+    "b": "British evacuate Wilmington",
+    "d": "After Cornwallis's surrender at Yorktown on 19 October 1781, the British command gave up Wilmington. Major Craig's forces evacuated the town on 18 November 1781, and the same day General Rutherford's troops entered it. This marked the British departure from North Carolina."
+   },
+   "ar": {
+    "b": "الإنجليز يُخلون ويلمنغتون",
+    "d": "بعد استسلام كورنواليس في يوركتاون في 19 أكتوبر 1781 تخلّت القيادة البريطانية عن ويلمنغتون. فأخلت قوات الرائد كريغ المدينة في 18 نوفمبر 1781، ودخلتها قوات الجنرال رذرفورد في اليوم نفسه. وبذلك خرج الإنجليز من كارولاينا الشمالية."
+   },
+   "de": {
+    "b": "Briten räumen Wilmington",
+    "d": "Nach der Kapitulation von Cornwallis bei Yorktown am 19. Oktober 1781 gab das britische Oberkommando Wilmington auf. Major Craigs Truppen räumten die Stadt am 18. November 1781, und am selben Tag rückten die Truppen General Rutherfords ein. Damit verließen die Briten North Carolina."
+   },
+   "es": {
+    "b": "Los británicos evacúan Wilmington",
+    "d": "Tras la rendición de Cornwallis en Yorktown el 19 de octubre de 1781, el mando británico renunció a Wilmington. Las fuerzas del mayor Craig evacuaron la ciudad el 18 de noviembre de 1781 y ese mismo día entraron las tropas del general Rutherford. Así salieron los británicos de Carolina del Norte."
+   },
+   "fr": {
+    "b": "Les Britanniques évacuent Wilmington",
+    "d": "Après la capitulation de Cornwallis à Yorktown le 19 octobre 1781, le commandement britannique renonça à Wilmington. Les forces du major Craig évacuèrent la ville le 18 novembre 1781, et le même jour les troupes du général Rutherford y entrèrent. Ce fut le départ des Britanniques de la Caroline du Nord."
+   },
+   "pt": {
+    "b": "Os britânicos evacuam Wilmington",
+    "d": "Após a rendição de Cornwallis em Yorktown, a 19 de outubro de 1781, o comando britânico abandonou Wilmington. As forças do major Craig evacuaram a cidade em 18 de novembro de 1781 e, no mesmo dia, entraram as tropas do general Rutherford. Foi a saída dos britânicos da Carolina do Norte."
+   },
+   "ru": {
+    "b": "Британцы эвакуируют Уилмингтон",
+    "d": "После капитуляции Корнуоллиса при Йорктауне 19 октября 1781 года британское командование отказалось от Уилмингтона. Войска майора Крейга оставили город 18 ноября 1781 года, и в тот же день в него вошли войска генерала Резерфорда. Так британцы ушли из Северной Каролины."
+   }
+  }
+ },
+ {
+  "no": "ABD-11",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Kaskaskia"
+   ],
+   "t": "1778-07-04",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "George Rogers Clark Kaskaskia'yı aldı — Illinois ülkesi Virginia'ya geçti",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "Virginia adına hareket eden Albay George Rogers Clark, Ohio Nehri'nden inip karadan yürüyerek 4 Temmuz 1778'de İngiliz karakolu Kaskaskia'yı silah kullanmadan aldı. Fransız asıllı halk İngilizlere bağlı değildi ve Clark'ı destekledi. Kısa süre sonra Cahokia da alındı, Vincennes halkı Virginia'ya bağlılık bildirdi.",
+   "kaynak": "NPS, Cowpens National Battlefield, Revolutionary War Timeline (Dr. Christine Swager; Lumpkin, From Savannah to Yorktown, 1981'e dayanır) https://home.nps.gov/cowp/learn/historyculture/revolutionary-war-timeline.htm : \"Kaskaskia, IL   4 July 1778   Town captured by Col. George Rogers Clark.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden. DCB (Hamilton, Henry) ay teyidi: 'Philippe-François Rastel de Rocheblave surrendered Kaskaskia to them in July'. 'Silah kullanmadan' ifadesi WebSearch özetindeki NPS cümlesinden [alıntı özetten]; istenirse d'den çıkarılır. Atlas notu: Kaskaskia kaydı 1783-09-03'e kadar ingiltere.",
+  "ceviri": {
+   "en": {
+    "b": "George Rogers Clark takes Kaskaskia — the Illinois country passes to Virginia",
+    "d": "Acting for Virginia, Colonel George Rogers Clark came down the Ohio River and marched overland to take the British post of Kaskaskia without a fight on 4 July 1778. The French-descended inhabitants had no attachment to the British and supported Clark. Cahokia was taken shortly afterwards, and the people of Vincennes declared for Virginia."
+   },
+   "ar": {
+    "b": "جورج روجرز كلارك يستولي على كاسكاسكيا — بلاد إلينوي تنتقل إلى فرجينيا",
+    "d": "نزل العقيد جورج روجرز كلارك، العامل باسم فرجينيا، في نهر أوهايو ثم زحف برًّا فاستولى على المخفر البريطاني كاسكاسكيا دون قتال في 4 يوليو 1778. ولم يكن السكان ذوو الأصل الفرنسي موالين للإنجليز فساندوا كلارك. وأُخذت كاهوكيا بعد قليل، وأعلن أهل فنسنس ولاءهم لفرجينيا."
+   },
+   "de": {
+    "b": "George Rogers Clark nimmt Kaskaskia — das Illinois-Land fällt an Virginia",
+    "d": "Im Auftrag Virginias zog Oberst George Rogers Clark den Ohio hinab und über Land und nahm am 4. Juli 1778 den britischen Posten Kaskaskia kampflos ein. Die Einwohner französischer Herkunft hingen nicht an den Briten und unterstützten Clark. Kurz darauf wurde Cahokia genommen, und die Bewohner von Vincennes erklärten sich für Virginia."
+   },
+   "es": {
+    "b": "George Rogers Clark toma Kaskaskia — el país de Illinois pasa a Virginia",
+    "d": "En nombre de Virginia, el coronel George Rogers Clark descendió por el río Ohio y marchó por tierra hasta tomar sin combate el puesto británico de Kaskaskia el 4 de julio de 1778. Los habitantes de origen francés no sentían apego por los británicos y apoyaron a Clark. Poco después se tomó Cahokia y los habitantes de Vincennes se declararon a favor de Virginia."
+   },
+   "fr": {
+    "b": "George Rogers Clark prend Kaskaskia — le pays des Illinois passe à la Virginie",
+    "d": "Agissant pour la Virginie, le colonel George Rogers Clark descendit l'Ohio puis marcha par voie de terre et prit sans combat le poste britannique de Kaskaskia le 4 juillet 1778. Les habitants d'origine française, peu attachés aux Britanniques, soutinrent Clark. Cahokia fut prise peu après et les habitants de Vincennes se déclarèrent pour la Virginie."
+   },
+   "pt": {
+    "b": "George Rogers Clark toma Kaskaskia — o país do Illinois passa para a Virgínia",
+    "d": "Agindo em nome da Virgínia, o coronel George Rogers Clark desceu o rio Ohio e marchou por terra, tomando sem combate o posto britânico de Kaskaskia em 4 de julho de 1778. Os habitantes de origem francesa não tinham apego aos britânicos e apoiaram Clark. Pouco depois foi tomada Cahokia e os habitantes de Vincennes declararam-se pela Virgínia."
+   },
+   "ru": {
+    "b": "Джордж Роджерс Кларк берёт Каскаскию — Иллинойс переходит к Виргинии",
+    "d": "Действуя от имени Виргинии, полковник Джордж Роджерс Кларк спустился по реке Огайо, затем двинулся по суше и 4 июля 1778 года без боя занял британский пост Каскаскию. Жители французского происхождения не были привязаны к британцам и поддержали Кларка. Вскоре была взята Кахокия, а жители Винсенна заявили о верности Виргинии."
+   }
+  }
+ },
+ {
+  "no": "ABD-12",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Vincennes (Poste Vincennes)"
+   ],
+   "t": "1778-12-17",
+   "devlet": "ingiltere",
+   "devletler": [
+    "ingiltere",
+    "abd"
+   ],
+   "b": "Henry Hamilton Vincennes'i geri aldı",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "ingiltere",
+    "abd"
+   ],
+   "d": "Detroit'teki İngiliz vali yardımcısı Henry Hamilton, İngiliz askerleri, Kanadalı milisler ve yerli müttefiklerle Vincennes üzerine yürüdü. Yerel milisleri dağılan Yüzbaşı Leonard Helm, 17 Aralık 1778'de Fort Sackville'i teslim etti. Hamilton baharı beklemek üzere Vincennes'te kışladı.",
+   "kaynak": "NPS, Captain Leonard Helm https://www.nps.gov/people/captain-leonard-helm.htm : \"When Hamilton's forces arrived at Vincennes, Captain Helm was forced to surrender the fort on December 17th when his local militia deserted, leaving him little manpower to defend the decrepit fort.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden; yıl aynı cümleden önceki cümlede: 'set out from Fort Detroit in December of 1778' (NPS'in ifadesi; DCB Hamilton'ın 8 Ekim 1778'de yola çıktığını, 'Vincennes was taken in December' diyor — çıkış ayı çelişkisi d'ye girmedi). Ay çift teyit (NPS + DCB), gün tek kaynak.",
+  "ceviri": {
+   "en": {
+    "b": "Henry Hamilton retakes Vincennes",
+    "d": "Henry Hamilton, the British lieutenant governor at Detroit, marched on Vincennes with British soldiers, Canadian militia and Native allies. Captain Leonard Helm, whose local militia had deserted, surrendered Fort Sackville on 17 December 1778. Hamilton wintered at Vincennes to wait for spring."
+   },
+   "ar": {
+    "b": "هنري هاملتون يستعيد فنسنس",
+    "d": "زحف هنري هاملتون، نائب الحاكم البريطاني في ديترويت، على فنسنس بجنود بريطانيين وميليشيا كندية وحلفاء من السكان الأصليين. وسلّم النقيب ليونارد هيلم حصن ساكفيل في 17 ديسمبر 1778 بعد أن تفرّقت عنه ميليشياه المحلية. وأمضى هاملتون الشتاء في فنسنس منتظرًا الربيع."
+   },
+   "de": {
+    "b": "Henry Hamilton erobert Vincennes zurück",
+    "d": "Henry Hamilton, der britische Vizegouverneur in Detroit, zog mit britischen Soldaten, kanadischer Miliz und indigenen Verbündeten gegen Vincennes. Hauptmann Leonard Helm, dessen örtliche Miliz desertiert war, übergab Fort Sackville am 17. Dezember 1778. Hamilton überwinterte in Vincennes, um das Frühjahr abzuwarten."
+   },
+   "es": {
+    "b": "Henry Hamilton recupera Vincennes",
+    "d": "Henry Hamilton, vicegobernador británico en Detroit, marchó sobre Vincennes con soldados británicos, milicia canadiense y aliados indígenas. El capitán Leonard Helm, cuya milicia local había desertado, entregó Fort Sackville el 17 de diciembre de 1778. Hamilton invernó en Vincennes a la espera de la primavera."
+   },
+   "fr": {
+    "b": "Henry Hamilton reprend Vincennes",
+    "d": "Henry Hamilton, lieutenant-gouverneur britannique à Détroit, marcha sur Vincennes avec des soldats britanniques, des miliciens canadiens et des alliés autochtones. Le capitaine Leonard Helm, dont la milice locale avait déserté, rendit le fort Sackville le 17 décembre 1778. Hamilton hiverna à Vincennes en attendant le printemps."
+   },
+   "pt": {
+    "b": "Henry Hamilton retoma Vincennes",
+    "d": "Henry Hamilton, vice-governador britânico em Detroit, marchou sobre Vincennes com soldados britânicos, milícia canadiana e aliados indígenas. O capitão Leonard Helm, cuja milícia local desertara, entregou o Forte Sackville em 17 de dezembro de 1778. Hamilton passou o inverno em Vincennes à espera da primavera."
+   },
+   "ru": {
+    "b": "Генри Гамильтон отбивает Винсенн",
+    "d": "Генри Гамильтон, британский вице-губернатор в Детройте, выступил на Винсенн с британскими солдатами, канадским ополчением и индейскими союзниками. Капитан Леонард Хелм, от которого разбежалось местное ополчение, 17 декабря 1778 года сдал форт Саквилл. Гамильтон остался зимовать в Винсенне, чтобы дождаться весны."
+   }
+  }
+ },
+ {
+  "no": "ABD-13",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Vincennes (Poste Vincennes)"
+   ],
+   "t": "1779-02-25",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "Clark Vincennes'i aldı — Hamilton Fort Sackville'i teslim etti",
+   "tur": "isgal",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "George Rogers Clark, Kaskaskia'dan sular altındaki ovalarda 18 gün süren bir yürüyüşle Vincennes'e ulaştı ve Fort Sackville'i kuşattı. 25 Şubat 1779 sabahı Henry Hamilton ve garnizonu kaleden çıkıp kayıtsız şartsız teslim oldu. Bu, İngilizlerin eski kuzeybatıdaki gücüne ağır bir darbe oldu.",
+   "kaynak": "NPS, George Rogers Clark NHP, The Clark Campaign https://www.nps.gov/gero/learn/historyculture/clark-campaign.htm : \"British Lieutenant-Governor Henry Hamilton and his garrison marched out of the fort at 10 a.m. and surrendered to American Colonel George Rogers Clark.\" (aynı paragrafın önceki cümlesi: \"The British flag would not be raised above Fort Sackville on the morning of February 25, 1779.\") · çift teyit: DCB, HAMILTON, HENRY https://www.biographi.ca/en/bio/hamilton_henry_4E.html : \"...lly on 25 Feb. 1779.\" (bağlam: garnizonun kayıtsız şartsız teslimi)"
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (NPS + DCB); alıntılar sayfa.py ham metninden. DCB alıntısı sayfa.py penceresinin başında kesik ('...lly' = 'unconditionally' olmalı; tam cümle okunmadı). NPS Cowpens zaman çizelgesi 24 Feb. 1779 diyor (kuşatma günü olabilir) — farklı gün, teslim 25 Şubat tutuldu.",
+  "ceviri": {
+   "en": {
+    "b": "Clark takes Vincennes — Hamilton surrenders Fort Sackville",
+    "d": "George Rogers Clark reached Vincennes from Kaskaskia after an 18-day march across flooded plains and besieged Fort Sackville. On the morning of 25 February 1779 Henry Hamilton and his garrison marched out of the fort and surrendered unconditionally. It was a heavy blow to British power in the Old Northwest."
+   },
+   "ar": {
+    "b": "كلارك يستولي على فنسنس — هاملتون يسلّم حصن ساكفيل",
+    "d": "وصل جورج روجرز كلارك إلى فنسنس من كاسكاسكيا بعد زحف دام 18 يومًا عبر سهول غمرتها المياه، وحاصر حصن ساكفيل. وفي صباح 25 فبراير 1779 خرج هنري هاملتون وحاميته من الحصن واستسلموا دون قيد أو شرط. وكانت تلك ضربة قاسية للنفوذ البريطاني في الشمال الغربي القديم."
+   },
+   "de": {
+    "b": "Clark nimmt Vincennes — Hamilton übergibt Fort Sackville",
+    "d": "George Rogers Clark erreichte Vincennes von Kaskaskia aus nach einem 18-tägigen Marsch über überflutete Ebenen und belagerte Fort Sackville. Am Morgen des 25. Februar 1779 zogen Henry Hamilton und seine Garnison aus dem Fort und ergaben sich bedingungslos. Es war ein schwerer Schlag für die britische Macht im alten Nordwesten."
+   },
+   "es": {
+    "b": "Clark toma Vincennes — Hamilton entrega Fort Sackville",
+    "d": "George Rogers Clark llegó a Vincennes desde Kaskaskia tras una marcha de 18 días por llanuras inundadas y sitió Fort Sackville. En la mañana del 25 de febrero de 1779, Henry Hamilton y su guarnición salieron del fuerte y se rindieron sin condiciones. Fue un duro golpe para el poder británico en el antiguo Noroeste."
+   },
+   "fr": {
+    "b": "Clark prend Vincennes — Hamilton rend le fort Sackville",
+    "d": "George Rogers Clark atteignit Vincennes depuis Kaskaskia après une marche de 18 jours à travers des plaines inondées et assiégea le fort Sackville. Au matin du 25 février 1779, Henry Hamilton et sa garnison sortirent du fort et se rendirent sans conditions. Ce fut un coup dur pour la puissance britannique dans l'ancien Nord-Ouest."
+   },
+   "pt": {
+    "b": "Clark toma Vincennes — Hamilton entrega o Forte Sackville",
+    "d": "George Rogers Clark chegou a Vincennes vindo de Kaskaskia após uma marcha de 18 dias por planícies inundadas e cercou o Forte Sackville. Na manhã de 25 de fevereiro de 1779, Henry Hamilton e a sua guarnição saíram do forte e renderam-se incondicionalmente. Foi um duro golpe para o poder britânico no antigo Noroeste."
+   },
+   "ru": {
+    "b": "Кларк берёт Винсенн — Гамильтон сдаёт форт Саквилл",
+    "d": "Джордж Роджерс Кларк дошёл из Каскаскии до Винсенна за 18 дней по затопленным равнинам и осадил форт Саквилл. Утром 25 февраля 1779 года Генри Гамильтон и его гарнизон вышли из форта и сдались без всяких условий. Это был тяжёлый удар по британскому могуществу на старом Северо-Западе."
+   }
+  }
+ },
+ {
+  "no": "ABD-14",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Detroit (Fort Pontchartrain du Détroit)",
+    "Michilimackinac"
+   ],
+   "t": "1796-07-11",
+   "devlet": "abd",
+   "devletler": [
+    "abd",
+    "ingiltere"
+   ],
+   "b": "Jay Antlaşması uyarınca İngilizler batı karakollarını ABD'ye bıraktı — Detroit (11 Temmuz) ve Michilimackinac (1 Eylül)",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "antlasma",
+    "abd",
+    "ingiltere"
+   ],
+   "d": "1783 Paris Antlaşması ABD'ye bıraktığı Büyük Göller karakollarını İngilizler yıllarca boşaltmamıştı. 1794 Jay Antlaşması'nın ardından İngiliz garnizonu 11 Temmuz 1796'da Detroit'i olaysız biçimde ABD'ye teslim etti ve nehrin Kanada yakasındaki Amherstburg'a çekildi. Mackinac Adası'ndaki kaleyi (Michilimackinac garnizonu) İngiliz askerleri 1 Eylül 1796'da bıraktı ve yerine Amerikan askerleri geldi. Fort Niagara ve Oswego da aynı yıl teslim edildi.",
+   "kaynak": "DCB, ENGLAND, RICHARD G. https://www.biographi.ca/en/bio/england_richard_g_5E.html : \"He sternly suppressed the attempt by some spiteful and resentful soldiers to destroy public and private property before the evacuation of Detroit, which took place without incident on 11 July 1796.\" · Michilimackinac günü: Mackinac State Historic Parks (Michigan eyalet kurumu), Fort Mackinac History, Fort Mackinac Chronology https://www.mackinacparks.com/explore/history/fort-mackinac-history/ : \"1796 British soldiers depart and American soldiers arrive to garrison fort on September 1.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Tek madde seçildi (koordinatörün toplam 21 sayımı için), gün Detroit'inki; Michilimackinac 1 Eylül d'de. İki alıntı da sayfa.py ham metninden. Mackinac LOC kitabı 'October, 1796' diyor (WebSearch özeti, [alıntı özetten]) — eyalet kurumu 1 Eylül tutuldu. 'Amherstburg' bilgisi DCB'nin aynı sayfasından (England orada bina yaptırdı); 'Fort Niagara ve Oswego aynı yıl' bilgisi DCB Thayendanegea WebSearch özetinden [alıntı özetten] — Niagara/Oswego'nun atlas kaydı YOK (ad: araması boş), odak_yer'e konmadı; gün teyit edilmedi. ATLAS NOTU: Michilimackinac kaydı 1783-09-03 → abd (1796'ya kadar ingiltere dilimi yok); bu madde Michilimackinac'ta harita kırılmasına denk düşmez, uygulamada 1783-09-03/1796-09-01 ingiltere dilimi gerekir ya da odak_yer'den çıkarılır. Detroit kaydı 1796-07-11 → abd ile birebir.",
+  "ceviri": {
+   "en": {
+    "b": "Under the Jay Treaty the British hand the western posts over to the US — Detroit (11 July) and Michilimackinac (1 September)",
+    "d": "For years the British had not evacuated the Great Lakes posts that the 1783 Treaty of Paris had assigned to the United States. Following the 1794 Jay Treaty, the British garrison handed Detroit over to the US without incident on 11 July 1796 and withdrew to Amherstburg on the Canadian side of the river. British soldiers left the fort on Mackinac Island (the Michilimackinac garrison) on 1 September 1796 and American soldiers took their place. Fort Niagara and Oswego were also handed over that year."
+   },
+   "ar": {
+    "b": "الإنجليز يسلّمون المخافر الغربية للولايات المتحدة بموجب معاهدة جاي — ديترويت (11 يوليو) وميشيليماكيناك (1 سبتمبر)",
+    "d": "ظل الإنجليز سنوات لا يُخلون مخافر البحيرات العظمى التي منحتها معاهدة باريس 1783 للولايات المتحدة. وعقب معاهدة جاي 1794 سلّمت الحامية البريطانية ديترويت للولايات المتحدة دون حوادث في 11 يوليو 1796 وانسحبت إلى أمهرستبرغ على الضفة الكندية من النهر. وغادر الجنود البريطانيون قلعة جزيرة ماكيناك (حامية ميشيليماكيناك) في 1 سبتمبر 1796 وحلّ محلهم جنود أمريكيون. وسُلّم حصن نياغارا وأوسويغو في العام نفسه."
+   },
+   "de": {
+    "b": "Gemäß dem Jay-Vertrag übergeben die Briten die westlichen Posten an die USA — Detroit (11. Juli) und Michilimackinac (1. September)",
+    "d": "Jahrelang hatten die Briten die Posten an den Großen Seen nicht geräumt, die der Frieden von Paris 1783 den Vereinigten Staaten zugesprochen hatte. Nach dem Jay-Vertrag von 1794 übergab die britische Garnison Detroit am 11. Juli 1796 ohne Zwischenfall an die USA und zog sich nach Amherstburg auf der kanadischen Flussseite zurück. Britische Soldaten verließen das Fort auf Mackinac Island (die Garnison von Michilimackinac) am 1. September 1796, und amerikanische Soldaten traten an ihre Stelle. Auch Fort Niagara und Oswego wurden in diesem Jahr übergeben."
+   },
+   "es": {
+    "b": "En virtud del Tratado Jay los británicos entregan los puestos del oeste a EE. UU. — Detroit (11 de julio) y Michilimackinac (1 de septiembre)",
+    "d": "Durante años los británicos no habían evacuado los puestos de los Grandes Lagos que el Tratado de París de 1783 asignaba a los Estados Unidos. Tras el Tratado Jay de 1794, la guarnición británica entregó Detroit a EE. UU. sin incidentes el 11 de julio de 1796 y se retiró a Amherstburg, en la orilla canadiense del río. Los soldados británicos dejaron el fuerte de la isla Mackinac (la guarnición de Michilimackinac) el 1 de septiembre de 1796 y los reemplazaron soldados estadounidenses. Fort Niagara y Oswego también se entregaron ese año."
+   },
+   "fr": {
+    "b": "En vertu du traité Jay, les Britanniques remettent les postes de l'Ouest aux États-Unis — Détroit (11 juillet) et Michillimakinac (1er septembre)",
+    "d": "Pendant des années, les Britanniques n'avaient pas évacué les postes des Grands Lacs que le traité de Paris de 1783 attribuait aux États-Unis. À la suite du traité Jay de 1794, la garnison britannique remit Détroit aux États-Unis sans incident le 11 juillet 1796 et se replia sur Amherstburg, sur la rive canadienne de la rivière. Les soldats britanniques quittèrent le fort de l'île Mackinac (la garnison de Michillimakinac) le 1er septembre 1796 et des soldats américains les remplacèrent. Le fort Niagara et Oswego furent aussi remis cette année-là."
+   },
+   "pt": {
+    "b": "Ao abrigo do Tratado Jay os britânicos entregam os postos do oeste aos EUA — Detroit (11 de julho) e Michilimackinac (1 de setembro)",
+    "d": "Durante anos os britânicos não tinham evacuado os postos dos Grandes Lagos que o Tratado de Paris de 1783 atribuíra aos Estados Unidos. Após o Tratado Jay de 1794, a guarnição britânica entregou Detroit aos EUA sem incidentes em 11 de julho de 1796 e retirou-se para Amherstburg, na margem canadiana do rio. Os soldados britânicos deixaram o forte da ilha Mackinac (a guarnição de Michilimackinac) em 1 de setembro de 1796 e foram substituídos por soldados americanos. O Forte Niagara e Oswego foram também entregues nesse ano."
+   },
+   "ru": {
+    "b": "По договору Джея британцы передают США западные посты — Детройт (11 июля) и Мичилимакинак (1 сентября)",
+    "d": "Британцы годами не освобождали посты на Великих озёрах, отошедшие к США по Парижскому миру 1783 года. После договора Джея 1794 года британский гарнизон 11 июля 1796 года без происшествий передал Детройт США и отошёл в Амхерстберг на канадском берегу реки. 1 сентября 1796 года британские солдаты покинули форт на острове Макинак (гарнизон Мичилимакинака), и их место заняли американские солдаты. В том же году были переданы также форт Ниагара и Осуиго."
+   }
+  }
+ },
+ {
+  "no": "TAC-01",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Tacna",
+    "Arica"
+   ],
+   "t": "1880-05-26",
+   "devlet": "sili-cumhuriyeti",
+   "devletler": [
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti",
+    "bolivya-cumhuriyeti"
+   ],
+   "b": "Tacna (Alto de la Alianza) Savaşı — Peru–Bolivya müttefik ordusu bozguna uğradı",
+   "tur": "isgal",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti",
+    "bolivya-cumhuriyeti"
+   ],
+   "d": "Pasifik Savaşı'nda Şili ordusu 26 Mayıs 1880'de Tacna yakınında Peru–Bolivya müttefik ordusunu kesin biçimde yendi. Müttefik ordunun kaybı ağır oldu ve Bolivya savaştan çekildi. Tacna bu günden itibaren Şili işgaline girdi.",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Las operaciones militares de la Guerra del Pacífico (1879-1884), kronoloji https://www.memoriachilena.gob.cl/602/w3-article-693.html : \"26 de mayo: El Ejército chileno derrota al Ejército Perú-boliviano en Tacna. Éste último tenía 13.650 hombres, y pierde 5 mil. Bolivia se retira de la guerra.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden (yıl satırı '1880'). 'Tacna şehri aynı gün işgal edildi' ifadesi kaynakta yok; kaynak savaşın Tacna'da kazanıldığını söylüyor — d buna göre 'bu günden itibaren' dedi. Mevcut kronoloji_cok_guney_amerika.js:122 maddesi (Putre odaklı, Sater sayfasız) ile mükerrer olmasın: uygulamada o madde Tacna odağına çevrilir ya da bu madde onun yerine geçer. 'Tacna' yeni nokta (LAB). | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
+  "ceviri": {
+   "en": {
+    "b": "Battle of Tacna (Alto de la Alianza) — the allied Peruvian–Bolivian army was routed",
+    "d": "In the War of the Pacific, the Chilean army decisively defeated the allied Peruvian–Bolivian army near Tacna on 26 May 1880. The allied army suffered heavy losses and Bolivia withdrew from the war. From this day Tacna came under Chilean occupation."
+   },
+   "ar": {
+    "b": "معركة تاكنا (ألتو دي لا أليانثا) — هزيمة الجيش البيروفي البوليفي المتحالف",
+    "d": "في حرب المحيط الهادئ هزم الجيش التشيلي جيش بيرو وبوليفيا المتحالف هزيمة حاسمة قرب تاكنا في 26 مايو 1880. وتكبّد الجيش المتحالف خسائر فادحة وانسحبت بوليفيا من الحرب. ومنذ ذلك اليوم دخلت تاكنا تحت الاحتلال التشيلي."
+   },
+   "de": {
+    "b": "Schlacht von Tacna (Alto de la Alianza) — das verbündete peruanisch-bolivianische Heer wurde geschlagen",
+    "d": "Im Salpeterkrieg besiegte die chilenische Armee am 26. Mai 1880 bei Tacna die verbündete peruanisch-bolivianische Armee entscheidend. Die Verbündeten erlitten schwere Verluste, und Bolivien schied aus dem Krieg aus. Von diesem Tag an stand Tacna unter chilenischer Besatzung."
+   },
+   "es": {
+    "b": "Batalla de Tacna (Alto de la Alianza) — el ejército aliado peruano-boliviano fue derrotado",
+    "d": "En la Guerra del Pacífico, el ejército chileno derrotó de forma decisiva al ejército aliado peruano-boliviano cerca de Tacna el 26 de mayo de 1880. El ejército aliado sufrió grandes pérdidas y Bolivia se retiró de la guerra. Desde ese día Tacna quedó bajo ocupación chilena."
+   },
+   "fr": {
+    "b": "Bataille de Tacna (Alto de la Alianza) — l'armée alliée péruano-bolivienne est mise en déroute",
+    "d": "Pendant la guerre du Pacifique, l'armée chilienne battit de façon décisive l'armée alliée péruano-bolivienne près de Tacna le 26 mai 1880. L'armée alliée subit de lourdes pertes et la Bolivie se retira de la guerre. À partir de ce jour, Tacna passa sous occupation chilienne."
+   },
+   "pt": {
+    "b": "Batalha de Tacna (Alto de la Alianza) — o exército aliado peruano-boliviano foi derrotado",
+    "d": "Na Guerra do Pacífico, o exército chileno derrotou de forma decisiva o exército aliado peruano-boliviano perto de Tacna em 26 de maio de 1880. O exército aliado sofreu pesadas perdas e a Bolívia retirou-se da guerra. A partir desse dia Tacna ficou sob ocupação chilena."
+   },
+   "ru": {
+    "b": "Битва при Такне (Альто-де-ла-Алианса) — союзная перуанско-боливийская армия разгромлена",
+    "d": "В Тихоокеанской войне чилийская армия 26 мая 1880 года нанесла решительное поражение союзной перуанско-боливийской армии под Такной. Союзная армия понесла тяжёлые потери, и Боливия вышла из войны. С этого дня Такна оказалась под чилийской оккупацией."
+   }
+  }
+ },
+ {
+  "no": "TAC-02",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Arica"
+   ],
+   "t": "1880-06-07",
+   "devlet": "sili-cumhuriyeti",
+   "devletler": [
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "b": "Arica (Morro) Savaşı — Şili Arica'yı aldı, Tacna–Arica fiilen Şili işgaline girdi",
+   "tur": "isgal",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "isgal",
+    "konu-askeri",
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "d": "Tacna zaferinden on iki gün sonra Şili birlikleri 7 Haziran 1880'de Arica'daki Morro tepesinde mevzilenmiş Peru savunucularını yendi ve kenti aldı. Arica bu günden itibaren Şili yönetimine girdi. Tacna ile birlikte Arica'nın kesin akıbeti ancak 1929'da belirlendi.",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Arica (1540-1929), kronoloji https://www.memoriachilena.gob.cl/602/w3-article-554.html : \"7 de junio. Arica queda bajo soberanía chilena, luego de que sus tropas vencieran a los defensores peruanos parapetados en el morro\" · aynı kurumun ikinci sayfası: Memoria Chilena, Las operaciones militares de la Guerra del Pacífico https://www.memoriachilena.gob.cl/602/w3-article-693.html : \"7 de junio: Chile toma Arica.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Aynı kurumun iki ayrı minisitesi (bağımsız sayılmaz; 'çift teyit' yazılmadı). Alıntılar sayfa.py ham metninden. Atlas: Arica kaydı 1880-06-07 → sili-cumhuriyeti ile birebir. | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
+  "ceviri": {
+   "en": {
+    "b": "Battle of Arica (Morro) — Chile took Arica; Tacna–Arica came under de facto Chilean occupation",
+    "d": "Twelve days after the victory at Tacna, Chilean troops defeated the Peruvian defenders entrenched on the Morro hill at Arica on 7 June 1880 and took the town. From this day Arica came under Chilean rule. The final fate of Arica, together with Tacna, was settled only in 1929."
+   },
+   "ar": {
+    "b": "معركة أريكا (المورو) — استولت تشيلي على أريكا ودخلت تاكنا وأريكا فعليًا تحت الاحتلال التشيلي",
+    "d": "بعد اثني عشر يومًا من النصر في تاكنا هزمت القوات التشيلية المدافعين البيروفيين المتحصنين على تل المورّو في أريكا في 7 يونيو 1880 واستولت على المدينة. ومنذ ذلك اليوم دخلت أريكا تحت الحكم التشيلي. ولم يُحسم مصير أريكا النهائي مع تاكنا إلا في عام 1929."
+   },
+   "de": {
+    "b": "Schlacht von Arica (Morro) — Chile nahm Arica ein; Tacna–Arica geriet faktisch unter chilenische Besatzung",
+    "d": "Zwölf Tage nach dem Sieg bei Tacna besiegten chilenische Truppen am 7. Juni 1880 die auf dem Morro-Hügel von Arica verschanzten peruanischen Verteidiger und nahmen die Stadt. Von diesem Tag an stand Arica unter chilenischer Herrschaft. Das endgültige Schicksal Aricas wurde zusammen mit dem Tacnas erst 1929 entschieden."
+   },
+   "es": {
+    "b": "Batalla de Arica (Morro) — Chile tomó Arica; Tacna–Arica quedó de hecho bajo ocupación chilena",
+    "d": "Doce días después de la victoria de Tacna, las tropas chilenas vencieron el 7 de junio de 1880 a los defensores peruanos parapetados en el morro de Arica y tomaron la ciudad. Desde ese día Arica quedó bajo dominio chileno. El destino definitivo de Arica, junto con el de Tacna, solo se resolvió en 1929."
+   },
+   "fr": {
+    "b": "Bataille d'Arica (Morro) — le Chili prend Arica ; Tacna–Arica passe de fait sous occupation chilienne",
+    "d": "Douze jours après la victoire de Tacna, les troupes chiliennes battirent le 7 juin 1880 les défenseurs péruviens retranchés sur la colline du Morro à Arica et prirent la ville. À partir de ce jour, Arica passa sous domination chilienne. Le sort définitif d'Arica, comme celui de Tacna, ne fut réglé qu'en 1929."
+   },
+   "pt": {
+    "b": "Batalha de Arica (Morro) — o Chile tomou Arica; Tacna–Arica ficou de fato sob ocupação chilena",
+    "d": "Doze dias depois da vitória de Tacna, as tropas chilenas venceram em 7 de junho de 1880 os defensores peruanos entrincheirados no morro de Arica e tomaram a cidade. A partir desse dia Arica ficou sob domínio chileno. O destino definitivo de Arica, juntamente com o de Tacna, só foi resolvido em 1929."
+   },
+   "ru": {
+    "b": "Битва при Арике (Морро) — Чили взяла Арику; Такна и Арика фактически оказались под чилийской оккупацией",
+    "d": "Через двенадцать дней после победы при Такне чилийские войска 7 июня 1880 года разбили перуанских защитников, укрепившихся на холме Морро в Арике, и взяли город. С этого дня Арика оказалась под властью Чили. Окончательная судьба Арики, как и Такны, была решена лишь в 1929 году."
+   }
+  }
+ },
+ {
+  "no": "TAC-03",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Tacna",
+    "Arica"
+   ],
+   "t": "1883-10-20",
+   "devlet": "sili-cumhuriyeti",
+   "devletler": [
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "b": "Ancón Antlaşması — Tacna ve Arica on yıllığına Şili'ye bırakıldı",
+   "tur": "antlasma",
+   "onem": 3,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "antlasma",
+    "konu-siyasi",
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "d": "Peru ile Şili arasındaki savaşı bitiren Ancón Antlaşması 20 Ekim 1883'te imzalandı. Antlaşmayla Tacna ve Arica geçici olarak Şili yönetiminde kaldı; egemenliğin kime ait olacağını on yıl sonra yapılacak bir halk oylaması belirleyecekti. Oylama hiç yapılmadı ve mesele 1929 Lima Antlaşması'na kadar çözülemedi.",
+   "kaynak": "International Boundary Study No. 65 (US Department of State), Chile – Peru Boundary https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs065.pdf : \"The Treaty of Ancon ended the conflict between Peru and Chile on October 20, 1883\" · çift teyit: Memoria Chilena, Arica (1540-1929) https://www.memoriachilena.gob.cl/602/w3-article-554.html : \"20 de octubre. Se firma el Tratado de Ancón que termina con las hostilidades entre Chile y Perú. El departamento de Arica queda provisoriamente bajo dominio chileno, pero se resuelve efectuar un plebiscito en diez años más para decidir qué nación tendrá la soberanía definitiva sobre el territorio\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "çift teyit (IBS 65 + Memoria Chilena); IBS alıntısı pypdf ile indirilen PDF'ten (pdfoku.py), Memoria Chilena sayfa.py ham metninden. IBS: onay belgeleri 28 Mart 1884'te Lima'da değiş tokuş edildi (atlastaki d1923-cl-pe-tacna-arica f:1884-03-28 bununla uyumlu). Tacna'nın da on yıllık hükme girdiğini Memoria Chilena Arica sayfası yalnız Arica için söylüyor; IBS 'the provinces of Tacna and Arica as comprised on October 20, 1883' ifadesiyle ikisini birlikte anıyor.",
+  "ceviri": {
+   "en": {
+    "b": "Treaty of Ancón — Tacna and Arica left to Chile for ten years",
+    "d": "The Treaty of Ancón, ending the war between Peru and Chile, was signed on 20 October 1883. Under the treaty Tacna and Arica remained provisionally under Chilean rule; a plebiscite to be held ten years later was to decide to whom sovereignty would belong. The plebiscite was never held and the question remained unresolved until the 1929 Treaty of Lima."
+   },
+   "ar": {
+    "b": "معاهدة أنكون — ترك تاكنا وأريكا لتشيلي عشر سنوات",
+    "d": "وُقّعت معاهدة أنكون التي أنهت الحرب بين بيرو وتشيلي في 20 أكتوبر 1883. وبموجبها بقيت تاكنا وأريكا مؤقتًا تحت الحكم التشيلي، على أن يحدد استفتاء شعبي يُجرى بعد عشر سنوات لمن تكون السيادة. ولم يُجرَ الاستفتاء قط، وظلت المسألة معلقة حتى معاهدة ليما 1929."
+   },
+   "de": {
+    "b": "Vertrag von Ancón — Tacna und Arica für zehn Jahre an Chile",
+    "d": "Der Vertrag von Ancón, der den Krieg zwischen Peru und Chile beendete, wurde am 20. Oktober 1883 unterzeichnet. Nach dem Vertrag blieben Tacna und Arica vorläufig unter chilenischer Verwaltung; eine zehn Jahre später abzuhaltende Volksabstimmung sollte über die Souveränität entscheiden. Die Abstimmung fand nie statt, und die Frage blieb bis zum Vertrag von Lima 1929 ungelöst."
+   },
+   "es": {
+    "b": "Tratado de Ancón — Tacna y Arica quedan para Chile por diez años",
+    "d": "El Tratado de Ancón, que puso fin a la guerra entre Perú y Chile, se firmó el 20 de octubre de 1883. Según el tratado, Tacna y Arica quedaron provisionalmente bajo dominio chileno; un plebiscito que se celebraría diez años después decidiría a quién correspondería la soberanía. El plebiscito nunca se realizó y la cuestión quedó sin resolver hasta el Tratado de Lima de 1929."
+   },
+   "fr": {
+    "b": "Traité d'Ancón — Tacna et Arica laissées au Chili pour dix ans",
+    "d": "Le traité d'Ancón, qui mit fin à la guerre entre le Pérou et le Chili, fut signé le 20 octobre 1883. Aux termes du traité, Tacna et Arica restèrent provisoirement sous administration chilienne ; un plébiscite à tenir dix ans plus tard devait décider à qui reviendrait la souveraineté. Le plébiscite n'eut jamais lieu et la question resta en suspens jusqu'au traité de Lima de 1929."
+   },
+   "pt": {
+    "b": "Tratado de Ancón — Tacna e Arica ficam para o Chile por dez anos",
+    "d": "O Tratado de Ancón, que pôs fim à guerra entre o Peru e o Chile, foi assinado em 20 de outubro de 1883. Pelo tratado, Tacna e Arica ficaram provisoriamente sob domínio chileno; um plebiscito a realizar dez anos depois decidiria a quem pertenceria a soberania. O plebiscito nunca se realizou e a questão ficou por resolver até ao Tratado de Lima de 1929."
+   },
+   "ru": {
+    "b": "Анконский договор — Такна и Арика оставлены Чили на десять лет",
+    "d": "Анконский договор, завершивший войну между Перу и Чили, был подписан 20 октября 1883 года. По договору Такна и Арика временно оставались под властью Чили; вопрос о суверенитете должен был решить плебисцит через десять лет. Плебисцит так и не состоялся, и вопрос оставался нерешённым до Лимского договора 1929 года."
+   }
+  }
+ },
+ {
+  "no": "TAC-04",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Tacna",
+    "Arica"
+   ],
+   "t": "1884-10-31",
+   "devlet": "sili-cumhuriyeti",
+   "devletler": [
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "b": "Şili, işgal ettiği Tacna ve Arica'yı tek il olarak örgütledi — Tacna y Arica ili kuruldu",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "sili-cumhuriyeti",
+    "peru-cumhuriyeti"
+   ],
+   "d": "Şili 31 Ekim 1884'te işgal altındaki toprakları Tacna ve Arica departmanlarından oluşan Tacna y Arica ili olarak örgütledi. Ancón Antlaşması egemenliği halk oylamasına bıraktığı için bu hukukî bir ilhak değil, fiilî yönetimin kurumsallaşmasıydı. İlin nüfusu büyük çoğunlukla Perulu idi.",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Nuevos territorios (minisitio El impacto de la guerra del Pacífico) https://www.memoriachilena.gob.cl/602/w3-article-96443.html : \"La provincia de Tacna y Arica se creó el 31 de octubre de 1884 y contaba con una población mayoritariamente peruana de 24.160 habitantes. Estaba conformada por los departamentos de Tacna y Arica\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntı sayfa.py ham metninden. Brifin önerdiği BCN yasa metni (bcn.cl / leychile) bu turda okunmadı; yasa numarası yazılmadı (28 Ekim kaynak denetimi kararıyla uyumlu). Mevcut kronoloji_cok_guney_amerika.js:137 maddesiyle aynı gün/olay (tur 'idari', Putre odaklı) — mükerrer olmaması için uygulamada biri seçilmeli. tur 'toprak-kazanc' brifteki listeden seçildi; fiilî/hukukî ayrımı d'de beyanlı. | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
+  "ceviri": {
+   "en": {
+    "b": "Chile organized occupied Tacna and Arica as a single province — the province of Tacna y Arica was created",
+    "d": "On 31 October 1884 Chile organised the occupied territories as the province of Tacna y Arica, made up of the departments of Tacna and Arica. Since the Treaty of Ancón had left sovereignty to a plebiscite, this was not a legal annexation but the institutionalisation of de facto rule. The province's population was overwhelmingly Peruvian."
+   },
+   "ar": {
+    "b": "نظّمت تشيلي تاكنا وأريكا المحتلتين في ولاية واحدة — إنشاء ولاية تاكنا وأريكا",
+    "d": "في 31 أكتوبر 1884 نظّمت تشيلي الأراضي المحتلة باسم ولاية تاكنا وأريكا المؤلفة من مقاطعتي تاكنا وأريكا. ولمّا كانت معاهدة أنكون قد تركت السيادة لاستفتاء شعبي، لم يكن ذلك ضمًّا قانونيًا بل مأسسة للحكم الفعلي. وكان سكان الولاية في غالبيتهم الساحقة من البيروفيين."
+   },
+   "de": {
+    "b": "Chile organisierte das besetzte Tacna und Arica als eine Provinz — die Provinz Tacna y Arica wurde gegründet",
+    "d": "Am 31. Oktober 1884 organisierte Chile die besetzten Gebiete als Provinz Tacna y Arica, bestehend aus den Departements Tacna und Arica. Da der Vertrag von Ancón die Souveränität einer Volksabstimmung überlassen hatte, war dies keine rechtliche Annexion, sondern die Institutionalisierung der faktischen Herrschaft. Die Bevölkerung der Provinz war überwiegend peruanisch."
+   },
+   "es": {
+    "b": "Chile organizó Tacna y Arica, que ocupaba, como una sola provincia — se creó la provincia de Tacna y Arica",
+    "d": "El 31 de octubre de 1884 Chile organizó los territorios ocupados como la provincia de Tacna y Arica, formada por los departamentos de Tacna y Arica. Como el Tratado de Ancón había dejado la soberanía a un plebiscito, no se trató de una anexión jurídica sino de la institucionalización del dominio de hecho. La población de la provincia era mayoritariamente peruana."
+   },
+   "fr": {
+    "b": "Le Chili organise Tacna et Arica, qu'il occupe, en une seule province — création de la province de Tacna y Arica",
+    "d": "Le 31 octobre 1884, le Chili organisa les territoires occupés en province de Tacna y Arica, formée des départements de Tacna et d'Arica. Le traité d'Ancón ayant remis la souveraineté à un plébiscite, il ne s'agissait pas d'une annexion juridique mais de l'institutionnalisation d'une domination de fait. La population de la province était en très grande majorité péruvienne."
+   },
+   "pt": {
+    "b": "O Chile organizou Tacna e Arica, que ocupava, como uma única província — criada a província de Tacna y Arica",
+    "d": "Em 31 de outubro de 1884 o Chile organizou os territórios ocupados como a província de Tacna y Arica, formada pelos departamentos de Tacna e Arica. Como o Tratado de Ancón deixara a soberania a um plebiscito, não se tratou de uma anexação jurídica, mas da institucionalização do domínio de facto. A população da província era maioritariamente peruana."
+   },
+   "ru": {
+    "b": "Чили объединила оккупированные Такну и Арику в одну провинцию — создана провинция Такна-и-Арика",
+    "d": "31 октября 1884 года Чили организовала оккупированные территории в провинцию Такна-и-Арика из департаментов Такна и Арика. Поскольку Анконский договор оставил вопрос о суверенитете плебисциту, это была не юридическая аннексия, а институционализация фактической власти. Население провинции было в подавляющем большинстве перуанским."
+   }
+  }
+ },
+ {
+  "no": "TAC-05",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Tacna"
+   ],
+   "t": "1929-08-28",
+   "devlet": "peru-cumhuriyeti",
+   "devletler": [
+    "peru-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "b": "Tacna, Şili'den Peru'ya fiilen teslim edildi",
+   "tur": "toprak-kazanc",
+   "onem": 3,
+   "dunya": 1,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "peru-cumhuriyeti",
+    "sili-cumhuriyeti"
+   ],
+   "d": "3 Haziran 1929 Lima Antlaşması, Tacna–Arica toprağını ikiye böldü: Tacna Peru'ya, Arica Şili'ye kaldı. Antlaşma uyarınca Şili ve Peru delegeleri 28 Ağustos 1929'da Tacna'da toprak teslim tutanağını imzaladı ve Tacna Peru idaresine geçti. Sınır taşlarının dikilmesi ertesi yıl tamamlandı; 5 Ağustos 1930'da Lima'da işaretleme protokolü imzalandı.",
+   "kaynak": "International Boundary Study No. 65 (US Department of State), Chile – Peru Boundary https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs065.pdf : \"...pursuant to the agreement contained in the Act Regarding the Delivery of Territories, signed at Tacna by Delegates of Chile and Peru on August 28, 1929...\" · bölünme: aynı kaynak : \"The territory of Tacna and Arica shall be divided in two parts, Tacna going to Peru and Aric a to Chile.\""
+  },
+  "teyit": "KAYNAKLI",
+  "not": "kronoloji_cok_1923_1945.js satır 964-976 maddesinden uyarlandı (taraflar → devletler, yer → odak_yer). Alıntılar pypdf ile indirilen IBS 65 PDF'inden (pdfoku.py); 'Aric a' PDF metin çıkarımındaki boşluk, olduğu gibi bırakıldı. 5 Ağustos 1930 protokol günü mevcut maddeden devralındı, bu turda IBS'te ayrıca aranmadı. Mevcut kronoloji_cok maddesiyle mükerrer: uygulamada biri tutulmalı.",
+  "ceviri": {
+   "en": {
+    "b": "Tacna handed over de facto from Chile to Peru",
+    "d": "The Treaty of Lima of 3 June 1929 divided the territory of Tacna–Arica in two: Tacna went to Peru and Arica to Chile. Under the treaty, delegates of Chile and Peru signed the act of delivery of territories at Tacna on 28 August 1929, and Tacna passed under Peruvian administration. The placing of boundary markers was completed the following year; the demarcation protocol was signed in Lima on 5 August 1930."
+   },
+   "ar": {
+    "b": "تسليم تاكنا فعليًا من تشيلي إلى بيرو",
+    "d": "قسمت معاهدة ليما المؤرخة 3 يونيو 1929 أرض تاكنا–أريكا قسمين: ذهبت تاكنا إلى بيرو وبقيت أريكا لتشيلي. وبموجب المعاهدة وقّع مندوبو تشيلي وبيرو محضر تسليم الأراضي في تاكنا في 28 أغسطس 1929، فانتقلت تاكنا إلى الإدارة البيروفية. واكتمل نصب علامات الحدود في العام التالي، ووُقّع بروتوكول الترسيم في ليما في 5 أغسطس 1930."
+   },
+   "de": {
+    "b": "Tacna wird von Chile faktisch an Peru übergeben",
+    "d": "Der Vertrag von Lima vom 3. Juni 1929 teilte das Gebiet Tacna–Arica in zwei Teile: Tacna fiel an Peru, Arica an Chile. Gemäß dem Vertrag unterzeichneten chilenische und peruanische Delegierte am 28. August 1929 in Tacna das Protokoll über die Übergabe der Gebiete, und Tacna ging in peruanische Verwaltung über. Die Setzung der Grenzsteine wurde im folgenden Jahr abgeschlossen; am 5. August 1930 wurde in Lima das Markierungsprotokoll unterzeichnet."
+   },
+   "es": {
+    "b": "Tacna es entregada de hecho por Chile al Perú",
+    "d": "El Tratado de Lima del 3 de junio de 1929 dividió en dos el territorio de Tacna y Arica: Tacna para el Perú y Arica para Chile. En cumplimiento del tratado, los delegados de Chile y del Perú firmaron en Tacna el acta de entrega de territorios el 28 de agosto de 1929, y Tacna pasó a la administración peruana. La colocación de los hitos fronterizos concluyó al año siguiente; el protocolo de demarcación se firmó en Lima el 5 de agosto de 1930."
+   },
+   "fr": {
+    "b": "Tacna est remise de fait par le Chili au Pérou",
+    "d": "Le traité de Lima du 3 juin 1929 partagea en deux le territoire de Tacna–Arica : Tacna revint au Pérou et Arica au Chili. En application du traité, les délégués du Chili et du Pérou signèrent à Tacna l'acte de remise des territoires le 28 août 1929, et Tacna passa sous administration péruvienne. La pose des bornes frontières fut achevée l'année suivante ; le protocole d'abornement fut signé à Lima le 5 août 1930."
+   },
+   "pt": {
+    "b": "Tacna é entregue de facto pelo Chile ao Peru",
+    "d": "O Tratado de Lima de 3 de junho de 1929 dividiu em duas partes o território de Tacna–Arica: Tacna ficou para o Peru e Arica para o Chile. Nos termos do tratado, os delegados do Chile e do Peru assinaram em Tacna a ata de entrega de territórios em 28 de agosto de 1929, e Tacna passou para a administração peruana. A colocação dos marcos fronteiriços foi concluída no ano seguinte; o protocolo de demarcação foi assinado em Lima em 5 de agosto de 1930."
+   },
+   "ru": {
+    "b": "Такна фактически передана Чили Перу",
+    "d": "Лимский договор от 3 июня 1929 года разделил территорию Такна–Арика на две части: Такна отошла к Перу, Арика — к Чили. Во исполнение договора делегаты Чили и Перу 28 августа 1929 года подписали в Такне акт о передаче территорий, и Такна перешла под управление Перу. Установка пограничных знаков была завершена на следующий год; протокол о демаркации подписан в Лиме 5 августа 1930 года."
+   }
+  }
+ },
+ {
+  "no": "YG-01",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Borja (Maynas)",
+    "San Joaquín de Omaguas (Fritz)"
+   ],
+   "t": "1802-07-15",
+   "devlet": "ispanyol-peru",
+   "devletler": [
+    "ispanyol-peru",
+    "yeni-granada-valiligi"
+   ],
+   "b": "Maynas Kraliyet Fermanı — Maynas eyaleti Yeni Granada'dan Peru Valiliği'ne bağlandı",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "ispanyol-peru",
+    "yeni-granada-valiligi"
+   ],
+   "d": "İspanya Kralı'nın 15 Temmuz 1802 tarihli kraliyet fermanı (Real Cédula) Amazon havzasındaki Maynas eyaletini Yeni Granada Valiliği'nden ayırıp Peru Valiliği'ne bağladı. Böylece Borja ve aşağı Marañón–Amazon misyonları Lima'nın idaresine geçti. Bu ferman, bağımsızlıktan sonra Peru ile Ekvador arasındaki uzun sınır anlaşmazlığının başlıca dayanaklarından biri oldu.",
+   "kaynak": "Bastos (UFPA), I Seminário Militares… na Amazônia, 2019, ISBN 978-65-80307-01-2 : «transferência da Província de Maynas… para o Vice-Reino do Peru, mediante a Real Cédula de 15 de julho de 1802»"
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Kaynak ve alıntı koordinatörün verdiği haliyle yazıldı; bu ajan Bastos metnini AÇMADI [alıntı özetten / koordinatörden]. d'deki son cümle (Peru–Ekvador anlaşmazlığının dayanağı) kaynakta okunmadı, genel bağlamdır — kaynaksız bırakılmak istenmezse silinmeli. ATLAS NOTU: 'Borja (Maynas)' kaydı 1619-01-01/1824-12-09 d:'ispanya' (ne yeni-granada-valiligi ne ispanyol-peru); 'San Joaquín de Omaguas (Fritz)' 1686-01-01/1824-12-09 d:'ispanyol-peru'. İkisinde de 1802-07-15 kırılması yok; uygulamada yeni-granada-valiligi → ispanyol-peru kırılması (önceki dilimin başlangıcı kaynaklı olarak) yazılmazsa madde Değişmez 2 açısından boşta kalır.",
+  "ceviri": {
+   "en": {
+    "b": "Maynas Royal Cédula — the province of Maynas transferred from New Granada to the Viceroyalty of Peru",
+    "d": "A royal decree (Real Cédula) of the King of Spain dated 15 July 1802 detached the province of Maynas in the Amazon basin from the Viceroyalty of New Granada and attached it to the Viceroyalty of Peru. Borja and the missions of the lower Marañón–Amazon thus passed under the administration of Lima. After independence this decree became one of the main foundations of the long boundary dispute between Peru and Ecuador."
+   },
+   "ar": {
+    "b": "الأمر الملكي بشأن ماينس — نقل إقليم ماينس من غرناطة الجديدة إلى نيابة ملك البيرو",
+    "d": "فصل أمر ملكي (ريال ثيدولا) صادر عن ملك إسبانيا بتاريخ 15 يوليو 1802 إقليمَ ماينس في حوض الأمازون عن نيابة ملك غرناطة الجديدة وألحقه بنيابة ملك البيرو. وبذلك انتقلت بورخا وإرساليات المارانيون–الأمازون السفلى إلى إدارة ليما. وصار هذا الأمر بعد الاستقلال أحد الأسس الرئيسية لنزاع الحدود الطويل بين بيرو والإكوادور."
+   },
+   "de": {
+    "b": "Real Cédula über Maynas — die Provinz Maynas wird von Neugranada dem Vizekönigreich Peru zugeschlagen",
+    "d": "Ein königlicher Erlass (Real Cédula) des Königs von Spanien vom 15. Juli 1802 trennte die Provinz Maynas im Amazonasbecken vom Vizekönigreich Neugranada und unterstellte sie dem Vizekönigreich Peru. Damit kamen Borja und die Missionen am unteren Marañón–Amazonas unter die Verwaltung Limas. Nach der Unabhängigkeit wurde dieser Erlass eine der Hauptgrundlagen des langen Grenzstreits zwischen Peru und Ecuador."
+   },
+   "es": {
+    "b": "Real Cédula de Maynas — la provincia de Maynas pasa de Nueva Granada al Virreinato del Perú",
+    "d": "Una Real Cédula del rey de España fechada el 15 de julio de 1802 segregó la provincia de Maynas, en la cuenca amazónica, del Virreinato de Nueva Granada y la agregó al Virreinato del Perú. Así, Borja y las misiones del bajo Marañón–Amazonas pasaron a la administración de Lima. Tras la independencia, esta cédula se convirtió en uno de los principales fundamentos del largo conflicto limítrofe entre el Perú y el Ecuador."
+   },
+   "fr": {
+    "b": "Real Cédula de Maynas — la province de Maynas transférée de la Nouvelle-Grenade à la vice-royauté du Pérou",
+    "d": "Un décret royal (Real Cédula) du roi d'Espagne daté du 15 juillet 1802 détacha la province de Maynas, dans le bassin amazonien, de la vice-royauté de Nouvelle-Grenade et la rattacha à la vice-royauté du Pérou. Borja et les missions du bas Marañón–Amazone passèrent ainsi sous l'administration de Lima. Après l'indépendance, ce décret devint l'un des principaux fondements du long différend frontalier entre le Pérou et l'Équateur."
+   },
+   "pt": {
+    "b": "Real Cédula de Maynas — a província de Maynas passa de Nova Granada para o Vice-Reino do Peru",
+    "d": "Uma Real Cédula do rei de Espanha datada de 15 de julho de 1802 separou a província de Maynas, na bacia amazónica, do Vice-Reino de Nova Granada e anexou-a ao Vice-Reino do Peru. Assim, Borja e as missões do baixo Marañón–Amazonas passaram para a administração de Lima. Depois da independência, esta cédula tornou-se um dos principais fundamentos do longo litígio de fronteiras entre o Peru e o Equador."
+   },
+   "ru": {
+    "b": "Королевский указ о Майнасе — провинция Майнас передана из Новой Гранады вице-королевству Перу",
+    "d": "Королевский указ (Real Cédula) короля Испании от 15 июля 1802 года отделил провинцию Майнас в бассейне Амазонки от вице-королевства Новая Гранада и присоединил её к вице-королевству Перу. Тем самым Борха и миссии нижнего Мараньона–Амазонки перешли под управление Лимы. После обретения независимости этот указ стал одним из главных оснований долгого пограничного спора между Перу и Эквадором."
+   }
+  }
+ },
+ {
+  "no": "YG-02",
+  "hedef_dosya": "data/kronoloji_sinir_amerika.js",
+  "madde": {
+   "odak_yer": [
+    "Guayaquil (Santiago de Guayaquil)"
+   ],
+   "t": "1803-07-07",
+   "devlet": "ispanyol-peru",
+   "devletler": [
+    "ispanyol-peru",
+    "yeni-granada-valiligi"
+   ],
+   "b": "Guayaquil askerî ve ticarî bakımdan Peru Valiliği'ne bağlandı",
+   "tur": "toprak-kazanc",
+   "onem": 2,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": [
+    "sinir",
+    "toprak-kazanc",
+    "konu-siyasi",
+    "ispanyol-peru",
+    "yeni-granada-valiligi"
+   ],
+   "d": "1803'te çıkan bir kraliyet kararıyla Guayaquil yönetimi askerî ve ticarî işlerde Yeni Granada Valiliği'nden alınıp Peru Valiliği'ne bağlandı. Liman kenti bu yoldan Lima'nın yörüngesine girdi; bağlılık bağımsızlık savaşlarına kadar sürdü. Kararın günü kaynakta okunarak teyit edilemedi.",
+   "kaynak": "gün teyitsiz, yalnız arama özeti — Laviana Cuetos (CSIC; Guayaquil üzerine çalışmaları) okunamadı; 1803-07-07 günü yalnız WebSearch özetinde geçiyor (koordinatör bildirimi). Okunmuş kaynak yok."
+  },
+  "teyit": "ONERI",
+  "not": "Koordinatörün talimatıyla ONERI. Bu ajan kaynak aramadı (koordinatör Laviana Cuetos'un okunamadığını bildirdi). d'deki 'bağlılık bağımsızlık savaşlarına kadar sürdü' cümlesi kaynaksız genel bağlamdır. ATLAS NOTU: 'Guayaquil (Santiago de Guayaquil)' kaydı 1542-11-20/1822-05-24 d:'ispanyol-peru' — yani atlas zaten 1803 öncesini de Peru sayıyor; yeni-granada-valiligi dilimi (1739 ya da 1717/1739 kuruluşundan 1803'e) yok. Madde uygulanırsa önceki dilim düzeltilmeli, yoksa Değişmez 2'de kırılmasız madde olur.",
+  "ceviri": {
+   "en": {
+    "b": "Guayaquil attached to the Viceroyalty of Peru in military and commercial matters",
+    "d": "By a royal decision issued in 1803, the government of Guayaquil was removed from the Viceroyalty of New Granada in military and commercial affairs and attached to the Viceroyalty of Peru. The port city thereby entered Lima's orbit; the attachment lasted until the wars of independence. The day of the decision could not be confirmed from a source that was read."
+   },
+   "ar": {
+    "b": "إلحاق غواياكيل بنيابة ملك البيرو في الشؤون العسكرية والتجارية",
+    "d": "بقرار ملكي صدر عام 1803 نُزعت إدارة غواياكيل في الشؤون العسكرية والتجارية من نيابة ملك غرناطة الجديدة وأُلحقت بنيابة ملك البيرو. وبذلك دخلت المدينة المرفئية في فلك ليما، واستمر هذا الإلحاق حتى حروب الاستقلال. ولم يمكن التحقق من يوم القرار من مصدر مقروء."
+   },
+   "de": {
+    "b": "Guayaquil wird in militärischen und kommerziellen Angelegenheiten dem Vizekönigreich Peru unterstellt",
+    "d": "Durch eine königliche Entscheidung von 1803 wurde die Regierung von Guayaquil in militärischen und Handelsangelegenheiten dem Vizekönigreich Neugranada entzogen und dem Vizekönigreich Peru unterstellt. Die Hafenstadt geriet damit in den Einflussbereich Limas; die Zuordnung bestand bis zu den Unabhängigkeitskriegen. Der Tag der Entscheidung konnte nicht aus einer gelesenen Quelle bestätigt werden."
+   },
+   "es": {
+    "b": "Guayaquil queda adscrita al Virreinato del Perú en lo militar y lo comercial",
+    "d": "Por una resolución real de 1803, el gobierno de Guayaquil fue separado del Virreinato de Nueva Granada en los asuntos militares y comerciales y adscrito al Virreinato del Perú. La ciudad portuaria entró así en la órbita de Lima; la adscripción duró hasta las guerras de independencia. El día de la resolución no pudo confirmarse en una fuente leída."
+   },
+   "fr": {
+    "b": "Guayaquil rattachée à la vice-royauté du Pérou pour les affaires militaires et commerciales",
+    "d": "Par une décision royale de 1803, le gouvernement de Guayaquil fut retiré à la vice-royauté de Nouvelle-Grenade pour les affaires militaires et commerciales et rattaché à la vice-royauté du Pérou. La ville portuaire entra ainsi dans l'orbite de Lima ; ce rattachement dura jusqu'aux guerres d'indépendance. Le jour de la décision n'a pu être confirmé dans une source lue."
+   },
+   "pt": {
+    "b": "Guayaquil passa a depender do Vice-Reino do Peru nos assuntos militares e comerciais",
+    "d": "Por uma decisão régia de 1803, o governo de Guayaquil foi retirado ao Vice-Reino de Nova Granada nos assuntos militares e comerciais e ligado ao Vice-Reino do Peru. A cidade portuária entrou assim na órbita de Lima; a ligação durou até às guerras da independência. O dia da decisão não pôde ser confirmado numa fonte lida."
+   },
+   "ru": {
+    "b": "Гуаякиль подчинён вице-королевству Перу в военных и торговых делах",
+    "d": "Королевским решением 1803 года управление Гуаякилем в военных и торговых делах было изъято у вице-королевства Новая Гранада и передано вице-королевству Перу. Портовый город тем самым вошёл в орбиту Лимы; это подчинение сохранялось до войн за независимость. День решения не удалось подтвердить по прочитанному источнику."
+   }
+  }
+ }
+]

@@ -1,0 +1,41 @@
+{
+ "San Lorenzo Tenochtitlán": [
+  {"dosya_satir": "data/yerlesimler_mo_amerika.js:7", "alan": "s", "d": "__BOSLUK__", "f": "-1399-01-01", "t": "-1199-01-01", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "uc": "",
+   "not": "[sira 4490] Kaynak Wendt 2010, Ancient Mesoamerica 21(1) — Cambridge Core (erişilemeyen kapı), denenmedi. Boşluk künye olmek f -1199 sınırından doğuyor; San Lorenzo'nun MÖ 1400'den Olmek merkezi sayılıp sayılmadığı künye GENİŞLET sorusudur (LAB). TARAYICI: Wendt 2010, doi:10.1017/S0956536110000088"}
+ ],
+ "El Mirador": [
+  {"dosya_satir": "data/yerlesimler_mo_amerika.js:10", "alan": "s", "d": "maya-orta-preklasik", "f": "-0799-01-01", "t": "-0399-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Hansen R.D., Ball D., Whitehead M. vd. 2022, 'Nuevas perspectivas del Preclásico Medio en El Mirador...', 34 Simposio de Investigaciones Arqueológicas en Guatemala 2021, s. 83-95, https://www.mesoweb.com/Simposio/pdf/34/Hansen_et_al.2022.pdf",
+   "alinti": "at El Mirador have discovered a great concentration of primary deposits ... dating to the Middle Preclassic period (800-400 BC)", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4491] [alıntı ham metinden, pypdf] (İngilizce özet). 800-400 BC dönem tanımıdır; El Mirador Geç Preklasik'te sürer — t künye ucu, terk değil (atlasın kendi notuyla uyumlu)."}
+ ],
+ "Lothagam North": [
+  {"dosya_satir": "data/yerlesimler_mo_afrika.js:6", "alan": "s", "d": "turkana-pastoral-neolitik", "f": "-3001-01-01", "t": "-2203-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Hildebrand E.A., Grillo K.M., Sawchuk E.A. vd. 2018, 'A monumental cemetery built by eastern Africa's first herders near Lake Turkana, Kenya', PNAS 115(36):8942-8947 (PMC6130363)",
+   "alinti": "The minimum period of platform use is 4,871–4,154 cal. BP | the maximum period is from 5,033 to 4,154 cal. BP", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4492] [alıntı özetten] (PNAS 403, Europe PMC tam metin 500; PMC sayfası yalnız WebFetch ile okundu). Orta nokta 5033-4871 BP = MÖ 3083-2921 → -3001; 4154 BP = MÖ 2204 → -2203."}
+ ],
+ "Copán": [
+  {"dosya_satir": "data/yerlesimler_dogu_500_1281.js:1444", "alan": "s", "d": "__BOSLUK__", "f": "0820-01-01", "t": "0926-01-01", "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO WHC 129 'Maya Site of Copan', https://whc.unesco.org/en/list/129",
+   "alinti": "before the city was abandoned in the early 10th century", "oneri": {}, "uc": "",
+   "not": "[sira 4493] UNESCO yalnız yüzyıl verir ('early 10th century'); t 0926 yıl düzeyinde kaynaksız, f 0820 künye copan t'si (kayıt notu M&G'den 0822-02-01 girdi). Ardıl polity UNESCO'da yok — boşluk beyanının içeriği uyuyor, uçlar yıl düzeyinde teyitsiz. Dosya sütunu boştu; kayıt data/yerlesimler_dogu_500_1281.js ~1444-1468 (JSON biçimi)."}
+ ],
+ "Hvalsey (Qaqortukulooq)": [
+  {"dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:29", "alan": "s", "d": "norse-gronland", "f": "1000-01-01", "t": "1450-01-01", "hukum": "BULUNAMADI",
+   "kaynak": "lex.dk, 'Det norrøne Grønland' (Danmarks Nationalleksikon)",
+   "alinti": "Arkæologiske fund i Østerbygden tyder på, at livet her ebbede ud i løbet af 1400-tallet.", "oneri": {}, "uc": "",
+   "not": "[sira 4494] lex.dk okundu: Hvalsey kilisesinde 1408 düğünü ve 'Sidste kendte officielle sejlads fandt sted 1410' var; Østerbygden'in sonu yalnız yüzyıl düzeyinde (1400'ler). f 1000 UFUK işareti (künye f 0985), t 1450 künye ucu — ikisi de yıl düzeyinde kaynakta yok."}
+ ],
+ "Jan Mayen (Olonkinbyen)": [
+  {"dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:150", "alan": "s", "d": "__BOSLUK__", "f": "1000-01-01", "t": "1929-05-08", "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, 'norske polare anneksjoner' (Susan Barr), https://snl.no/norske_polare_anneksjoner",
+   "alinti": "Øya var regnet som «ingenmannsland» | 8. mai 1929 ble Jan Mayen ved kongelig resolusjon lagt inn under norsk statsoverhøyhet", "oneri": {}, "uc": "t",
+   "not": "[sira 4495] [alıntı ham metinden, sayfa.py] f 1000 UFUK işareti, teyitsiz. 1922 ve 1926 'anneksiyonları' Meteorologisk institutt adına yapıldı (devlet egemenliği değil) — boşluk 1929'a kadar doğru."}
+  ,
+  {"dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:150", "alan": "s", "d": "norvec", "f": "1929-05-08", "t": "2000-12-31", "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, 'norske polare anneksjoner' (Susan Barr), https://snl.no/norske_polare_anneksjoner",
+   "alinti": "8. mai 1929 ble Jan Mayen ved kongelig resolusjon lagt inn under norsk statsoverhøyhet", "oneri": {}, "uc": "f",
+   "not": "[sira 4496] [alıntı ham metinden, sayfa.py] ÖLÇÜT: idareye katma — kraliyet kararı. ic_not: 'ved lov av 27. februar 1930 ble øya en del av riket'. t 2000-12-31 atlas ufku."}
+ ]
+}

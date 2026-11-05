@@ -1,0 +1,195 @@
+{
+ "Palenque": [
+  {
+   "sira": 2209,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "palenque-baak",
+   "f": "0431-03-10",
+   "t": "0799-01-01",
+   "mevcut_kaynak": "SAHİP palenque-baak: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-20",
+   "dosya_satir": "",
+   "lat": 17.4842,
+   "lon": -92.0464,
+   "zincir_guncel": "s:palenque-baak 0431-03-10→0799-01-01 | s:__BOSLUK__ 0799-01-01→0851-01-01"
+  },
+  {
+   "sira": 2210,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0799-01-01",
+   "t": "0851-01-01",
+   "mevcut_kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: Palenque’nin 799 sonrası siyasî sahibi. UNESCO no. 411 «Pre-Hispanic City and National Park of Palenque» (açıldı 22.10.2026): «Once the ancient city of Palenque was abandoned around the 9th century, the thick jungle surrounding it covered its temples and palaces»; ",
+   "dosya_satir": "",
+   "lat": 17.4842,
+   "lon": -92.0464,
+   "zincir_guncel": "s:palenque-baak 0431-03-10→0799-01-01 | s:__BOSLUK__ 0799-01-01→0851-01-01"
+  }
+ ],
+ "San José Mogote": [
+  {
+   "sira": 2221,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "oaxaca-formatif",
+   "f": "-1624-01-01",
+   "t": "-0499-01-01",
+   "mevcut_kaynak": "künye oaxaca-formatif (Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek)) · Marcus & Flannery 2005, The Radiocarbon Dating of Public Buildings and Ritual Features in the Ancient Valley of Oaxaca, FAMSI Raporu (Beta Analytic AMS): Structure 3 (Tierras Largas fazi 'Men's House'), ",
+   "dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:8",
+   "lat": 17.1675,
+   "lon": -96.8033,
+   "zincir_guncel": "s:oaxaca-formatif -1624-01-01→-0499-01-01"
+  }
+ ],
+ "Xochicalco": [
+  {
+   "sira": 2254,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "xochicalco",
+   "f": "0700-01-01",
+   "t": "0900-01-01",
+   "mevcut_kaynak": "künye xochicalco (Xochicalco) · Hirth 1984, Science 225:568 'Xochicalco: Urban Growth and State Formation in Central Mexico' (Penn State pure) ; Hirth 1995, Ancient Mesoamerica (Cambridge) 'Urbanism, Militarism, and Architectural Design' (Epiklasik MS 700-900) · yer bağı: künye başkenti «Xochicalco»",
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:30",
+   "lat": 18.8043,
+   "lon": -99.2966,
+   "zincir_guncel": "s:xochicalco 0700-01-01→0900-01-01"
+  }
+ ],
+ "Zaculeu": [
+  {
+   "sira": 2098,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1525-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_amerika.js:352",
+   "lat": 15.3486,
+   "lon": -91.4886,
+   "zincir_guncel": "s:maya-sehir-devletleri 1281-01-01→1525-01-01"
+  }
+ ],
+ "Waskaganish (Rupert House)": [
+  {
+   "sira": 2072,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1668-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:681",
+   "lat": 51.484,
+   "lon": -78.752,
+   "zincir_guncel": "s:ingiltere 1668-01-01→1763-02-10 | s:ingiliz-kuzey-amerika 1763-02-10→1870-07-15 | s:kanada 1870-07-15→2000-12-31"
+  }
+ ],
+ "Vincennes (Poste Vincennes)": [
+  {
+   "sira": 2058,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1732-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1173",
+   "lat": 38.677,
+   "lon": -87.529,
+   "zincir_guncel": "s:fransa 1732-01-01→1763-02-10 | s:ingiltere 1763-02-10→1783-09-03 | s:abd 1783-09-03→2000-12-31"
+  }
+ ],
+ "Washington D.C.": [
+  {
+   "sira": 2071,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1791-09-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1511",
+   "lat": 38.8895,
+   "lon": -77.0353,
+   "zincir_guncel": "s:abd 1791-09-09→2000-12-31"
+  }
+ ],
+ "Wilmington (Kuzey Karolayna)": [
+  {
+   "sira": 2087,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1739-01-01",
+   "t": "1783-09-03",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1321",
+   "lat": 34.226,
+   "lon": -77.945,
+   "zincir_guncel": "s:ingiltere 1739-01-01→1783-09-03 | s:abd 1783-09-03→2000-12-31"
+  }
+ ],
+ "Cobá": [
+  {
+   "sira": 2149,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "coba",
+   "f": "0613-05-12",
+   "t": "0780-12-02",
+   "mevcut_kaynak": "künye coba (Cobá Krallığı) · Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004, https://www.wayeb.org/notes/wayeb_notes0014.pdf (pdftotext ile okundu) | Stela 6: «Initial Series date 9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613)»; Stela 20: «9.17.10.0.0, 12 Aj",
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:33",
+   "lat": 20.494877,
+   "lon": -87.73529,
+   "zincir_guncel": "s:coba 0613-05-12→0780-12-02"
+  }
+ ],
+ "Santiago de Cuba": [
+  {
+   "sira": 1950,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1515-07-25",
+   "t": "1898-12-10",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_amerika.js:1096",
+   "lat": 20.0247,
+   "lon": -75.8219,
+   "zincir_guncel": "s:ispanya 1515-07-25→1898-12-10 | s:abd 1898-12-10→1902-05-20 | s:kuba-cumhuriyeti 1902-05-20→2000-12-31"
+  }
+ ],
+ "Dzibanché (Tzibanche)": [
+  {
+   "sira": 2158,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kaanul",
+   "f": "0520-01-01",
+   "t": "0636-01-01",
+   "mevcut_kaynak": "künye kaanul (Kaanul (Kaan, Yılan Krallığı)) · Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'Calakmul' bölümü: Yuknoom Ch'een I (liste 520-546), Dzibanche 'Captive stairway', Stela 61 (899 veya 909), 849'da Chan Pet son dış atıf (archi",
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:18",
+   "lat": 18.63841,
+   "lon": -88.75866,
+   "zincir_guncel": "s:kaanul 0520-01-01→0636-01-01"
+  }
+ ],
+ "San Salvador": [
+  {
+   "sira": 1938,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 13.698,
+   "lon": -89.191,
+   "zincir_guncel": "s:el-salvador-cumhuriyeti 1841-01-01→2000-12-31"
+  }
+ ]
+}

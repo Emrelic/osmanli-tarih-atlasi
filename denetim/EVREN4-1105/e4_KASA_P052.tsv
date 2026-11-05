@@ -1,0 +1,52 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3443	BOS	data/yerlesimler_amerika.js:1318	Villarrica (Şili)	s	sili-cumhuriyeti	1883-01-01	2000-12-31	
+3444	BOS	data/yerlesimler_amerika.js:1327	Maracaibo	s	ispanyol-peru	1574-01-01	1821-06-24	
+3445	BOS	data/yerlesimler_amerika.js:1327	Maracaibo	s	gran-kolombiya	1821-06-24	1830-01-13	
+3446	BOS	data/yerlesimler_amerika.js:1327	Maracaibo	s	venezuela-cumhuriyeti	1830-01-13	2000-12-31	
+3447	BOS	data/yerlesimler_h2_afrika.js:110	Delgo (Sükkût)	s	nube	1281-01-01	1504-01-01	
+3448	BOS	data/yerlesimler_h2_afrika.js:110	Delgo (Sükkût)	s	funj	1504-01-01	1821-01-04	
+3449	BOS	data/yerlesimler_h2_afrika.js:110	Delgo (Sükkût)	s	mehdi	1885-01-26	1899-01-19	
+3450	BOS	data/yerlesimler_h2_afrika.js:110	Delgo (Sükkût)	v		1821-01-04	1885-01-26	
+3451	BOS	data/yerlesimler_h2_afrika.js:125	Ed-Dâmer	s	funj	1776-01-01	1821-01-04	
+3452	BOS	data/yerlesimler_h2_afrika.js:125	Ed-Dâmer	s	mehdi	1885-01-26	1899-01-19	
+3453	BOS	data/yerlesimler_h2_afrika.js:125	Ed-Dâmer	v		1821-01-04	1885-01-26	
+3454	BOS	data/yerlesimler_h2_afrika.js:642	Kandala	s	adal	1281-01-01	1577-01-01	
+3455	BOS	data/yerlesimler_h2_afrika.js:642	Kandala	s	somali	1577-01-01	1927-01-01	
+3456	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:642	Kandala	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+3457	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:642	Kandala	s	somali-italyan-vesayet	1950-04-01	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt
+3458	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:642	Kandala	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+3459	BOS	data/yerlesimler_afrika.js:1049 | data/yerlesimler_h2_afrika.js:689	Kısmâyû	s	somali	1281-01-01	1927-01-01	
+3460	ZAYIF_ATLAS	data/yerlesimler_afrika.js:1049 | data/yerlesimler_h2_afrika.js:689	Kısmâyû	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+3461	ZAYIF_ATLAS	data/yerlesimler_afrika.js:1049 | data/yerlesimler_h2_afrika.js:689	Kısmâyû	s	somali-italyan-vesayet	1950-04-01	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt
+3462	ZAYIF_ATLAS	data/yerlesimler_afrika.js:1049 | data/yerlesimler_h2_afrika.js:689	Kısmâyû	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+3463	BOS	data/yerlesimler_h2_afrika.js:720	Dukm	s	nebhani	1281-01-01	1515-04-01	
+3464	BOS	data/yerlesimler_h2_afrika.js:720	Dukm	s	umman	1515-04-01	2000-12-31	
+3465	BOS	data/yerlesimler_h2_afrika.js:730	Şisr	s	nebhani	1281-01-01	1515-04-01	
+3466	BOS	data/yerlesimler_h2_afrika.js:730	Şisr	s	umman	1515-04-01	2000-12-31	
+3467	BOS	data/yerlesimler_h2_afrika.js:1097	Ceel Buur	s	somali	1281-01-01	1927-01-01	
+3468	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1097	Ceel Buur	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+3469	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1097	Ceel Buur	s	somali-italyan-vesayet	1950-04-01	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt
+3470	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1097	Ceel Buur	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+3471	BOS	data/yerlesimler_h2_afrika.js:1132	Cezîr (Sevkıra)	s	nebhani	1281-01-01	1515-04-01	
+3472	BOS	data/yerlesimler_h2_afrika.js:1132	Cezîr (Sevkıra)	s	umman	1515-04-01	2000-12-31	
+3473	BOS	data/yerlesimler_h2_afrika.js:1135	Râs Medreke	s	nebhani	1281-01-01	1515-04-01	
+3474	BOS	data/yerlesimler_h2_afrika.js:1135	Râs Medreke	s	umman	1515-04-01	2000-12-31	
+3475	BOS	data/yerlesimler_h2_kuzeyafrika.js:98	Şefşâven	s	merini	1471-01-01	1549-01-01	
+3476	BOS	data/yerlesimler_h2_kuzeyafrika.js:98	Şefşâven	s	sadi	1549-01-01	1659-01-01	
+3477	BOS	data/yerlesimler_h2_kuzeyafrika.js:98	Şefşâven	s	fas	1659-01-01	1924-11-15	
+3478	BOS	data/yerlesimler_h2_kuzeyafrika.js:98	Şefşâven	s	fas	1926-05-25	9999-01-01	
+3479	BOS	data/yerlesimler_h2_kuzeyafrika.js:326	Ğar Dimâv	s	hafsi	1281-01-01	1574-08-25	
+3480	BOS	data/yerlesimler_h2_kuzeyafrika.js:326	Ğar Dimâv	d		1574-08-25	1705-07-12	
+3481	BOS	data/yerlesimler_h2_kuzeyafrika.js:326	Ğar Dimâv	v		1705-07-12	1881-05-12	
+3482	BOS	data/yerlesimler_h2_kuzeyafrika.js:326	Ğar Dimâv	v		1881-05-12	1923-10-29	
+3483	BOS	data/yerlesimler_h2_kuzeyafrika.js:326	Ğar Dimâv	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3484	BOS	data/yerlesimler_h2_kuzeyafrika.js:341	Sîdî Bû Zeyd	s	hafsi	1281-01-01	1574-08-25	
+3485	BOS	data/yerlesimler_h2_kuzeyafrika.js:341	Sîdî Bû Zeyd	d		1574-08-25	1705-07-12	
+3486	BOS	data/yerlesimler_h2_kuzeyafrika.js:341	Sîdî Bû Zeyd	v		1705-07-12	1881-05-12	
+3487	BOS	data/yerlesimler_h2_kuzeyafrika.js:341	Sîdî Bû Zeyd	v		1881-05-12	1923-10-29	
+3488	BOS	data/yerlesimler_h2_kuzeyafrika.js:341	Sîdî Bû Zeyd	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3489	BOS	data/yerlesimler_h2_kuzeyafrika.js:357	Dûz	s	hafsi	1281-01-01	1574-08-25	
+3490	BOS	data/yerlesimler_h2_kuzeyafrika.js:357	Dûz	d		1574-08-25	1705-07-12	
+3491	BOS	data/yerlesimler_h2_kuzeyafrika.js:357	Dûz	v		1705-07-12	1881-05-12	
+3492	BOS	data/yerlesimler_h2_kuzeyafrika.js:357	Dûz	v		1881-05-12	1923-10-29	
+3493	BOS	data/yerlesimler_h2_kuzeyafrika.js:357	Dûz	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	

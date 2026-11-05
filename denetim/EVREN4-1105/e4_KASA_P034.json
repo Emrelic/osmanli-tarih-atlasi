@@ -1,0 +1,468 @@
+{
+ "Fort Norman (Tulita)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:210",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1810-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2518] 1810 kuruluşu için okunabilir akademik kaynak yok. Bakılan: web araması (Vikipedi/fortwiki: 1810, bir hesapta 1804-05 — İPUCU), Sahtu Atlas (srrb.nt.ca, 403), HBC Post History transkripsiyonu dadp.ok.ubc.ca/index.php/documents/7711 (bağlantı reddedildi). İPUCU: karakol 1844'te ~30 mil güneye taşındı, 1851'de eski yerine döndü. TARAYICI: https://dadp.ok.ubc.ca/index.php/documents/7711 (HBCA post history). t 1870-07-15 ülke düzeyinden: Rupert's Land and North-Western Territory Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:210",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2519] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Reliance (Büyük Köle Gölü)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:290",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1833-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, «Fort Reliance National Historic Site of Canada» (https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=325) · HistoricPlaces.ca id=15724",
+   "alinti": "built by Alexander Roderick McLeod of the Hudson's Bay Company in the fall of 1833",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2520] YIL (1833 sonbaharı). Aynı kayıt: 'Abandoned in 1835, Fort Reliance was rebuilt and operated as a Hudson's Bay Company post for a brief period in the 1850's' — 1835-1850'ler arası yerleşim yok; ic_not'a yazılmalı, nokta kırpılması düşünülebilir (yeniden kuruluş yılı kaynakta yok; DFHD tarih alanı '1855 Significant'). t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:290",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2521] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Providence": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:323",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1786-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, «LEROUX, LAURENT», cilt VIII (https://www.biographi.ca/en/bio/leroux_laurent_8E.html)",
+   "alinti": "In the autumn of 1786 ... Leroux set up a trading post | He then set up Fort Providence (Old Fort Providence) on Yellowknife Bay.",
+   "oneri": {
+    "f": "kaynakla bulunacak (konum/kuruluş uyuşmuyor)"
+   },
+   "uc": "",
+   "not": "[sira 2522] KONUM ÇELİŞKİSİ: atlas noktası (61.35 K, 117.65 B) bugünkü Fort Providence'tır (Mackenzie Nehri). Atlasın 1786'sı DCB'ye göre Leroux'nun Büyük Köle Gölü GÜNEY kıyısındaki karakoludur (Fort Resolution yöresi); 'Fort Providence' adlı ilk karakol ise 1789 sonunda Yellowknife Körfezi'nde (Old Fort Providence) kuruldu — ikisi de bu nokta değil. Ya nokta Old Fort Providence'a taşınıp f 1789-01-01 [YIL, DCB 'end of August 1789' sonrası] yazılır, ya bugünkü yerleşimin kuruluşu (İPUCU: 1861 misyonu, kaynak okunmadı) kaynakla bulunur. Sahiplik zinciri (İngiliz → Kanada 1870) değişmez. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:323",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2523] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Halkett (Liard)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:380",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1829-01-01",
+   "t": "1871-07-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2524] 1829 (John McLeod, Liard) için kaynak okunamadı. Bakılan: DCB 'mcleod_john_8E' tahmin bağlantısı (madde bulunamadı), HBC post history arşivleri (gov.mb.ca sayfaları 404, dadp.ok.ubc.ca bağlantı reddi). t 1871-07-20 ülke düzeyinden: British Columbia Terms of Union (kanada satırının kaynağı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:380",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2525] DIGER sınıfı; kanada f 1871-07-20 British Columbia Terms of Union (Justice Canada) mevcut kaynağıyla duruyor, bütçe nedeniyle yeniden okunmadı (K12 kümesine dahil değil)."
+  }
+ ],
+ "Prince of Wales Fort (Churchill)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:414",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2526] f 1763-02-10 yerleşime özgü bir olay değil, ingiltere → ingiliz-kuzey-amerika künye geçişidir (Paris 1763, history.state.gov künye kaynağı). Rupert's Land 1670 tüzüğünden beri HBC/İngiliz; Paris Antlaşması Yeni Fransa'yı devretti, Hudson Körfezi kıyısını değil. Boya/künye kuralı → KURAL KARARI (EMRELİC). Ara olay: La Pérouse 1782 Ağustos'ta Prince of Wales Fort'u ele geçirip yıktı (birkaç günlük baskın; isg yazılmaz — İPUCU, kaynak okunmadı). t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:414",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1717-01-01",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, «KNIGHT, JAMES», cilt II (https://www.biographi.ca/en/bio/knight_james_2E.html)",
+   "alinti": "Knight dispatched an advance party ... for the Churchill River in June 1717",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2527] YIL. Aynı paragraf: Knight 1717-18 kışını nehir ağzındaki yeni yerleşimde geçirdi, 'which was named Fort Prince of Wales, later Churchill'. 1689'da başarısız bir girişim olmuştu. İngiliz tarihleri büyük olasılıkla Jülyen (O.S.); YIL düzeyinde fark yok. t 1763-02-10 künye geçişi (bkz. sira 2526). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:414",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2528] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Kuujjuaq (Fort Chimo)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:440",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1830-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, «FINLAYSON, NICOL», cilt X (https://www.biographi.ca/en/bio/finlayson_nicol_10E.html)",
+   "alinti": "On 10 June 1830 Finlayson left Moose Factory for Ungava Bay ... built Fort Chimo",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2529] YIL, yıl bağlamdan (aynı anlatı: 10 Haziran 1830 hareket → Fort Chimo'nun inşası). Finlayson 1836 Temmuz'da ayrıldı; İPUCU: karakol 1842-43'te kapatılıp 1866'da yeniden açıldı (kaynak okunmadı) — yerleşim boşluğu ic_not adayı. t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:440",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2530] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "York Factory": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:465",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2531] f 1763-02-10 künye geçişi (bkz. sira 2526); York Factory 1714'ten beri kesintisiz HBC. t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:465",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1684-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "Parks Canada, «York Factory NHS — Human history» (https://parks.canada.ca/lhn-nhs/mb/yorkfactory/culture/histoire-history) · Dictionary of Canadian Biography, «LE MOYNE D'IBERVILLE ET D'ARDILLIÈRES, PIERRE», cilt II (https://www.biographi.ca/en/bio/le_moyne_d_iberville_et_d_ardillieres_pierre_2E.html) · DCB «KNIGHT, JAMES» (https://www.biographi.ca/en/bio/knight_james_2E.html)",
+   "alinti": "In 1684, the Hudson's Bay Company built York Fort on the north shore | the French captured York Factory in 1694, lost it to the English in 1696",
+   "oneri": {
+    "bolunme": "ingiltere 1684-01-01 → 1694-10-14 | isg yeni-fransa 1694-10-14 → 1696-01-01 [YIL] | ingiltere 1696-01-01 [YIL] → 1697-09-13 | isg yeni-fransa 1697-09-13 → 1714-09-11 | ingiltere 1714-09-11 → 1763-02-10"
+   },
+   "uc": "f",
+   "not": "[sira 2532] f 1684 KAYNAKLI (Parks Canada). Dönem kesintisiz değil — Fransız dönemleri eksik: DCB Iberville: İngilizler 13 Ekim 1694'te (O.S. 3 Ekim) teslime çağrıldı, 'The following day, Thomas Walsh, the governor, basely surrendered' → 1694-10-14 (N.S.); 1696'da William Allen geri aldı (gün yok); 1697 kampanyasında 'the English under Henry Baley ... surrendered on 13 September'; Fransızlar 16 yıl fiilen elde tuttu (Fort Bourbon). DCB Knight: Utrecht sonrası 'On the 11th [Eylül 1714] Knight went ashore and received the formal surrender of Nicolas Jérémie' — İngiliz kaydı, büyük olasılıkla O.S. (N.S. 1714-09-22), takvim belirsiz, ic_not'ta beyan. ÖLÇÜT: geçici/askerî — HBC ve İngiliz iddiası sürdü, Utrecht 1713-04-11 körfezi İngiltere'ye bıraktı; Fransa'nın Fort Bourbon'u 'Yeni Fransa' idaresine kattığı (tekel, komutan) savunulabilir → s: yeni-fransa seçeneği EMRELİC kararı (Port Royal emsalinin tersi). TEK ÖLÇÜ: İngiltere 1713'te yeri yönetmiyordu → s: ingiltere TESLİM günü 1714-09-11, Utrecht imzası ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:465",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2533] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Severn": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:492",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2534] f 1763-02-10 künye geçişi (bkz. sira 2526). Karakol 1759'da yeniden kurulmuştu (bkz. sira 2535). t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:492",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1685-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "J. D. Christianson, «New Severn or Nieu Savanne: The Identification of an Early Hudson Bay Fur Trade Post», MA tezi, McMaster University 1980 (https://macsphere.mcmaster.ca/handle/11375/10364) · DCB «LE MOYNE D'IBERVILLE…» cilt II · Canada's History, «The Founding of Fort Severn» (https://www.canadashistory.ca/explore/settlement-immigration/the-founding-of-fort-severn)",
+   "alinti": "New Severn (1685-1690) and Nieu Savanne (1700-1704) were the most probable candidates",
+   "oneri": {
+    "t": "1690-01-01",
+    "bolunme": "ingiltere 1685-01-01 → 1690-01-01 [YIL] | yerleşim yok 1690 → 1759 (İsteğe bağlı: yeni-fransa 1700-1704 Nieu Savanne, aynı yer olup olmadığı tezde tartışmalı) | ingiltere 1759-09 → 1763-02-10"
+   },
+   "uc": "f",
+   "not": "[sira 2535] f 1685 KAYNAKLI (Christianson 1980: New Severn 1685-1690). DCB Iberville: 1690 seferinde 'He escaped and decided to attack instead New Severn ... its commander, Thomas Walsh, blew up the buildings and fled' (1690, gün yok). Canada's History: 'For the next seventy years' bölge karakolsuz; Humphrey Marten 4 Eylül 1759'da York'tan Severn'e yerleşim kurmak üzere hareket etti (dergi, akademik değil — yeniden kuruluş günü İPUCU). 1690-1759 arası nokta yok → toprak komşu peteklere kalır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:492",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2536] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Lesser Slave Lake House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:515",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1802-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "J. B. Tyrrell (ed.), David Thompson's Narrative of his Explorations in Western America 1784-1812, Champlain Society, Toronto 1916, Giriş (archive.org davidthompsonsna00thom)",
+   "alinti": "he ascended from the mouth of Lesser Slave Lake river to the house",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2537] YIL, yıl bağlamdan (paragraf 'In May, 1802' ile başlar; 21 Ekim-9 Kasım 1802). VARLIK TANIKLIĞI: alıntı evin 1802'de var olduğunu gösterir, kuruluşunu tarihlemez — kuruluş daha erken olabilir; f'nin 1802 kalması tanıklığa uygun. Ev bir North West Company evidir (İngiliz tebaası). t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:515",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2538] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Kuujjuarapik (Great Whale River)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:523",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1820-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2539] 1820 için kaynak yok. Bakılan: DCB «ATKINSON, GEORGE (1777-1830)» — yalnız 1816 Great Whale River keşfi ('the river held out promise of neither trade nor provisions'); web araması (İPUCU: HBC'nin ilk karakolu XVIII. yy ortası, birkaç kez terk edilip yeniden kuruldu). t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:523",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2540] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Oxford House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:538",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1798-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2541] 1798 için akademik kaynak okunamadı. Bakılan: DCB 'sinclair_william_5E/10E' tahmin bağlantıları (madde bulunamadı); web araması (İPUCU: William Sinclair 1798, HBC post history dadp.ok.ubc.ca/documents/7970 — erişilemedi; Duddy 2020 nauticapedia makalesi, akademik değil). TARAYICI: https://dadp.ok.ubc.ca/documents/7970. t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:538",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2542] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Lac La Biche": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:550",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1798-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "J. B. Tyrrell (ed.), David Thompson's Narrative of his Explorations in Western America 1784-1812, Champlain Society, Toronto 1916, Giriş dipnotu (archive.org davidthompsonsna00thom)",
+   "alinti": "In 1798 he surveyed this river to its source near Lake La Biche",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2543] YIL. North West Company karakolu (Thompson). Yerel müze kaynakları 4 Ekim 1798 varışını verir (İPUCU, akademik değil). Bölge Athabaska havzası (North-Western Territory) — 1870 Order ikisini birlikte devretti. t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:550",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2544] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Fort Assiniboine": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:562",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1823-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2545] 1823 için akademik kaynak bulunamadı. Bakılan: web araması (yalnız northamericanforts.com '1823-1877' ve Vikipedi — İPUCU), Parks Canada DFHD'de Fort Assiniboine kaydı çıkmadı. İPUCU: karakol 1877'de kapandı — 1877-1870 sonrası nokta varlığı ayrıca sorgulanmalı. t 1870-07-15 ülke düzeyinden: Order."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:562",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2546] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Cumberland House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:574",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1774-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, «Cumberland House National Historic Site of Canada» (https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=736)",
+   "alinti": "in 1774 ... Samuel Hearne was sent from York Factory to establish Cumberland House",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2547] YIL (DFHD tarih alanı: '1774 to 1774 (Established)'). HBC'nin ilk iç karakolu, kesintisiz yerleşim. t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:574",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2548] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ],
+ "Chisasibi (Fort George)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:590",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1803-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, «ATKINSON, GEORGE (1777-1830)», cilt VI (https://www.biographi.ca/en/bio/atkinson_george_1777_1830_6E.html)",
+   "alinti": "From 1803 to 1806 he was in charge of the post at Big River",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2549] YIL; varlık tanıklığı (karakol 1803'te var; kuruluşla aynı yıl olduğu kaynakta açık değil). Aynı madde: Atkinson 1807'de döndü 'where he remained until the post closed in 1813' — 1813'ten sonra yerleşim yok; yeniden açılış yılı kaynakta yok (İPUCU 1837). ic_not adayı / nokta kırpma. t 1870-07-15 ülke düzeyinden: Order. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:590",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2550] [KÜME K12] ülke düzeyinde ayrı ajan teyit ediyor."
+  }
+ ]
+}

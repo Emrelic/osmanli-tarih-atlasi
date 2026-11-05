@@ -1,0 +1,390 @@
+{
+ "Selsey Bill": [
+  {
+   "sira": 2227,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sussex-kralligi",
+   "f": "0477-01-01",
+   "t": "0825-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 477: Ælle ve oğulları Cymenes ora'ya (Selsey Bill'e kıyas, Stenton ch. I) çıktı [özdeşlik yorumu: Stenton; sayfa teyidi bekler]; Bede HE IV.13 (Wilfrid Selsey'de, Güney Sakson kralı Æthelwealh) · künye sussex-kralligi 0477-0825. BEYANLI YAKLAŞIKLIK: Cymenes ora = Selsey Bill özdeş",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:512",
+   "lat": 50.734,
+   "lon": -0.787,
+   "zincir_guncel": "s:sussex-kralligi 0477-01-01→0825-01-01 | s:wessex 0825-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2228,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0825-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "ASC 825 (Ingram s.a. 823: Surrey ve Sussex halkı Egbert'e teslim oldu) · künye wessex t=0927.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:512",
+   "lat": 50.734,
+   "lon": -0.787,
+   "zincir_guncel": "s:sussex-kralligi 0477-01-01→0825-01-01 | s:wessex 0825-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  }
+ ],
+ "Silchester": [
+  {
+   "sira": 2229,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1086-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Open Domesday, Holdshott hundred: Silchester, 39 hane https://opendomesday.org/hundred/holdshott/ ; VCH Hampshire c.4 «Hundred of Holdshot» https://www.british-history.ac.uk/vch/hants/vol4 · künye ingiltere 0927-. kur = Domesday tanığı (terminus ante quem); Roma/Calleva dilimleri kaynaklanamadı, yaz",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:509",
+   "lat": 51.354,
+   "lon": -1.074,
+   "zincir_guncel": "s:ingiltere 1086-01-01→1281-01-01"
+  }
+ ],
+ "Southampton": [
+  {
+   "sira": 1965,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_avrupa.js:75",
+   "lat": 50.91,
+   "lon": -1.404,
+   "zincir_guncel": "s:ingiltere 1281-01-01→2000-12-31"
+  }
+ ],
+ "Tamworth": [
+  {
+   "sira": 2234,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "mercia",
+   "f": "0913-01-01",
+   "t": "0918-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 913: Æthelflæd, Mercia leydisi, Tamworth'a gitti ve burada burh yaptırdı (Ingram s.a. 913: «went Ethelfleda, lady of Mercia, with all the Mercians to Tamworth») · künye mercia t=0918-01-01. BEYANLI YAKLAŞIKLIK: Æthelflæd 12 Haziran 918'de Tamworth'ta öldü (ASC 'twelve nights befor",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:541",
+   "lat": 52.625,
+   "lon": -1.69,
+   "zincir_guncel": "s:mercia 0913-01-01→0918-01-01 | s:wessex 0918-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2235,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0918-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "ASC 918 (Ingram/MS A s.a. 922): Edward Tamworth'a gitti ve Mercia halkı ona döndü («Then rode he to the borough of Tamworth; and all the population in Mercia turned to him») · künye wessex t=0927. BEYANLI YAKLAŞIKLIK: başlangıç 918-06-12 yerine 918-01-01 (künye mercia t uyumu).",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:541",
+   "lat": 52.625,
+   "lon": -1.69,
+   "zincir_guncel": "s:mercia 0913-01-01→0918-01-01 | s:wessex 0918-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  }
+ ],
+ "Waterford": [
+  {
+   "sira": 2073,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "waterford-norse",
+   "f": "1000-01-01",
+   "t": "1171-01-01",
+   "mevcut_kaynak": "SAHİBİ BULUNDU (BOŞLUK dolduruldu): waterford-norse künyesi (0914-1171; BOYALAR'da tanımlı); son uç Dublin ile aynı yıl-orta (1171-01-01), bkz. künye ic_not_t. Treccani Enciclopedia on line, Waterford maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/; ham metin ham",
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "lat": 52.259,
+   "lon": -7.11,
+   "zincir_guncel": "s:waterford-norse 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  },
+  {
+   "sira": 2074,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1171-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Treccani Enciclopedia on line, Waterford maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/; ham metin ham/tre_waterford.txt; TDV dışı kaynak, elle doğrulama bekler): «finché nel 1171 fu presa da Richard de Clare. Nel 1172 vi sbarcò re Enrico II» ; Treccani Enciclop",
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "lat": 52.259,
+   "lon": -7.11,
+   "zincir_guncel": "s:waterford-norse 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  },
+  {
+   "sira": 2075,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır uluslararası sınır oldu» (1922-12-06, taraf kolu) kaynağı — Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (i",
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "lat": 52.259,
+   "lon": -7.11,
+   "zincir_guncel": "s:waterford-norse 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  },
+  {
+   "sira": 2076,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica Ireland: Eire 1937, Cumhuriyet 1949-04-18",
+   "dosya_satir": "data/yerlesimler_avrupa.js:138",
+   "lat": 52.259,
+   "lon": -7.11,
+   "zincir_guncel": "s:waterford-norse 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  }
+ ],
+ "Wexford": [
+  {
+   "sira": 2080,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır uluslararası sınır oldu» (1922-12-06, taraf kolu) kaynağı — Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (i",
+   "dosya_satir": "data/yerlesimler_avrupa.js:157",
+   "lat": 52.336,
+   "lon": -6.463,
+   "zincir_guncel": "s:irlanda 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  },
+  {
+   "sira": 2081,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica Ireland: Eire 1937, Cumhuriyet 1949-04-18",
+   "dosya_satir": "data/yerlesimler_avrupa.js:157",
+   "lat": 52.336,
+   "lon": -6.463,
+   "zincir_guncel": "s:irlanda 1000-01-01→1171-01-01 | s:ingiltere 1171-01-01→1281-01-01 | s:ingiltere 1281-01-01→1922-12-06 | s:irlanda-serbest-devlet 1922-12-06→1937-12-29 | s:irlanda-cumhuriyeti 1937-12-29→2000-12-31"
+  }
+ ],
+ "Whitby": [
+  {
+   "sira": 2252,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0664-01-01",
+   "t": "0954-01-01",
+   "mevcut_kaynak": "Bede HE III.25 (Whitby Sinodu, 664, Streanæshalch); ASC (Swanton) s.a. 664 · künye northumbria 0604-0954. BEYANLI YAKLAŞIKLIK: Jorvik (866-954) Whitby'yi kapsamış olabilir, ayrılmadı.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:582",
+   "lat": 54.4851,
+   "lon": -0.6171,
+   "zincir_guncel": "s:northumbria 0664-01-01→0954-01-01 | s:ingiltere 0954-01-01→1281-01-01"
+  },
+  {
+   "sira": 2253,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "ASC 954 + künye ingiltere · BEYANLI YAKLAŞIKLIK.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:582",
+   "lat": 54.4851,
+   "lon": -0.6171,
+   "zincir_guncel": "s:northumbria 0664-01-01→0954-01-01 | s:ingiltere 0954-01-01→1281-01-01"
+  }
+ ],
+ "Saint Helier (Jersey)": [
+  {
+   "sira": 2219,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 49.1891,
+   "lon": -2.1043,
+   "zincir_guncel": "s:kanal-adalari 1204-01-01→2000-12-31"
+  }
+ ],
+ "Saint Peter Port (Guernsey)": [
+  {
+   "sira": 2220,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 49.46,
+   "lon": -2.535,
+   "zincir_guncel": "s:kanal-adalari 1204-01-01→2000-12-31"
+  }
+ ],
+ "Santiago de Compostela": [
+  {
+   "sira": 1942,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1037-01-01",
+   "mevcut_kaynak": "Treccani Enciclopedia on line, Galizia maddesi, https://www.treccani.it/enciclopedia/galizia/ [TDV dışı kaynak, elle doğrulama bekler; ham metin ham/tre_galizia.txt]: «si trovò legata al León (914) e nel 1037 passò a far parte della Castiglia» ; Treccani Enciclopedia on line, Santiago de Compostela ",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1943,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1037-01-01",
+   "t": "1063-01-01",
+   "mevcut_kaynak": "Treccani Enciclopedia on line, Galizia maddesi, https://www.treccani.it/enciclopedia/galizia/ [TDV dışı kaynak, elle doğrulama bekler; ham metin ham/tre_galizia.txt]: «nel 1037 passò a far parte della Castiglia» || BEYANLI: bölge cümlesi (Galiçya). · VERI-MS1-1281",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1944,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "galicia-kralligi",
+   "f": "1063-01-01",
+   "t": "1071-01-01",
+   "mevcut_kaynak": "Treccani Enciclopedia on line, Galizia maddesi, https://www.treccani.it/enciclopedia/galizia/ [TDV dışı kaynak, elle doğrulama bekler; ham metin ham/tre_galizia.txt]: «Per brevi periodi fu eretta in Regno indipendente (1063-72» || Treccani 1063-72, künye t 1071-01-01 ile sınırlandı. · VERI-MS1-1281",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1945,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1071-01-01",
+   "t": "1157-08-21",
+   "mevcut_kaynak": "Enciclopedia Italiana (Treccani, 1936), Santiago de Compostela maddesi, https://www.treccani.it/enciclopedia/santiago-de-compostela_%28Enciclopedia-Italiana%29/ [TDV dışı kaynak, elle doğrulama bekler; ham metin ham/tre_compostela_ei.txt]: «ricostruzione, iniziata da Alfonso VI, fu condotta innanzi ",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1946,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1157-08-21",
+   "t": "1230-09-24",
+   "mevcut_kaynak": "Britannica «Alfonso VII» (devletler.js leon-kralligi künyesi kronolojisi, 1157-08-21): «Kastilya III. Sancho'ya, León ve Galiçya II. Fernando'ya kaldı ve iki krallık yeniden ayrıldı»; Santiago de Compostela Galiçya'dadır; 1230 birleşme günü: GEC «Alfons IX de Lleó» (24 Eylül 1230 ölüm). Önceki kayıt",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1947,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1948,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Simancas: kastilya tacı → ispanya (kastilya-aragon)» (1479-01-19, taraf kolu) kaynağı — Treccani Enciclopedia Italiana (1936) SIMANCAS «fu da questo ceduto, insieme con la città, ai re cattolici i",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  },
+  {
+   "sira": 1949,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-20",
+   "t": "1939-04-01",
+   "mevcut_kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol): «El 18 tingueren lloc els [aixecaments] de Canàries, Sevilla ..., Valladolid i Burgos»; «el 19, els de Saragossa, Pamplona, Vitòria, Oviedo, Salamanca i Palma»; «Les guarn",
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "lat": 42.878,
+   "lon": -8.545,
+   "zincir_guncel": "s:leon-kralligi 1000-01-01→1037-01-01 | s:kastilya 1037-01-01→1063-01-01 | s:galicia-kralligi 1063-01-01→1071-01-01 | s:kastilya 1071-01-01→1157-08-21 | s:leon-kralligi 1157-08-21→1230-09-24 | s:kastilya 1230-09-24→1281-01-01 | s:kastilya 1281-01-01→1479-01-19 | s:ispanya 1479-01-19→1936-07-20 | s:ispanya-milliyetci 1936-07-20→1939-04-01 | s:ispanya 1939-04-01→2000-12-31"
+  }
+ ],
+ "Saumur": [
+  {
+   "sira": 2223,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "anjou-kontlugu",
+   "f": "1026-01-01",
+   "t": "1203-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.26,
+   "lon": -0.077,
+   "zincir_guncel": "s:anjou-kontlugu 1026-01-01→1203-01-01 | s:fransa 1203-01-01→1792-09-22 | s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+  },
+  {
+   "sira": 2224,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1203-01-01",
+   "t": "1792-09-22",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.26,
+   "lon": -0.077,
+   "zincir_guncel": "s:anjou-kontlugu 1026-01-01→1203-01-01 | s:fransa 1203-01-01→1792-09-22 | s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+  }
+ ],
+ "Tıtvân (Tetuan)": [
+  {
+   "sira": 2022,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "merini",
+   "f": "1484-01-01",
+   "t": "1549-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:60",
+   "lat": 35.578,
+   "lon": -5.368,
+   "zincir_guncel": "s:merini 1484-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | isg:ispanya 1860-02-05→1862-01-01 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  },
+  {
+   "sira": 2023,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Morocco'",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:60",
+   "lat": 35.578,
+   "lon": -5.368,
+   "zincir_guncel": "s:merini 1484-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | isg:ispanya 1860-02-05→1862-01-01 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  }
+ ]
+}

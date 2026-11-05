@@ -1,0 +1,247 @@
+{
+ "Linzi": [
+  {
+   "sira": 2193,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qi-devleti",
+   "f": "-0385-01-01",
+   "t": "-0220-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 15 «Liuguo nianbiao» (zh.wikisource.org/wiki/史記/卷015, bu oturumda okundu; tablo satırları MÖ yıl başlığı taşır): MÖ 386 satırı «十九。田常曾孫田和始列為諸侯。» (Qi sütunu); MÖ 221 satırı «四十四。秦虜王建。秦滅齊。» · Shiji juan 46 «Tian Jingzhong Wan shijia» (zh.wikisource.org/wiki/史記/卷046, okundu): «燕將樂",
+   "dosya_satir": "data/yerlesimler_once1281_yt_dogu3.js:7",
+   "lat": 36.849722,
+   "lon": 118.344722,
+   "zincir_guncel": "s:qi-devleti -0385-01-01→-0220-01-01"
+  }
+ ],
+ "Qi İlçesi (Zhaoge)": [
+  {
+   "sira": 2216,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yin-krallik",
+   "f": "-0205-01-01",
+   "t": "-0204-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 16 «Qin Chu zhi ji yuebiao» (zh.wikisource.org/wiki/史記/卷016, okundu; tablo MÖ yıl bloklarına ayrılmıştır, ay adları Qin-Han takvimidir): MÖ 206 bloğu — «分為殷» ; «王司馬卬始，故趙將» ; «二。都朝歌» ; son: MÖ 205 bloğu Han sütunu «三月。王擊殷。» ; Wei sütunu «十四。降漢，卬廢。» ; «為河內郡，屬漢。» | ic_not_takvim: ",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:237",
+   "lat": 35.651,
+   "lon": 114.167,
+   "zincir_guncel": "s:yin-krallik -0205-01-01→-0204-01-01"
+  }
+ ],
+ "Wagang (Hua ilçesi)": [
+  {
+   "sira": 2251,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sui-wei-li-mi",
+   "f": "0617-03-31",
+   "t": "0618-10-06",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚子 (義寧元年, 二月壬午 ile 三月丁卯 arasında) → Jülyen 0617-03-31 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0617-04-03; 1582 öncesi gün Jülyen kalır. ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 甲寅 (武德元年 九月) → Jülyen 0618-10-06 (JDN",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:106",
+   "lat": 35.578,
+   "lon": 114.5189,
+   "zincir_guncel": "s:sui-wei-li-mi 0617-03-31→0618-10-06"
+  }
+ ],
+ "Southern Cross": [
+  {
+   "sira": 1966,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1888-10-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:209",
+   "lat": -31.23,
+   "lon": 119.33,
+   "zincir_guncel": "s:bati-avustralya 1888-10-01→1901-01-01 | s:avustralya 1901-01-01→2000-12-31"
+  }
+ ],
+ "Vilyuysk": [
+  {
+   "sira": 2057,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1634-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek13.js:255",
+   "lat": 63.75,
+   "lon": 121.63,
+   "zincir_guncel": "s:rusya 1634-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Yakutsk": [
+  {
+   "sira": 2091,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1632-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_ek9.js:87",
+   "lat": 62.0281,
+   "lon": 129.7325,
+   "zincir_guncel": "s:rusya 1632-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Dongjingcheng (Sanggyeong / Shangjing Longquanfu)": [
+  {
+   "sira": 2154,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "balhae",
+   "f": "0755-01-01",
+   "t": "0926-02-28",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 辛未 (天顯元年 正月) → Jülyen 0926-02-28 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0926-03-05; 1582 öncesi gün Jülyen kalır. Ouyang Xiu vd., Xin Tang shu (新唐書) juan 219, «Beidi: Bohai» (zh.wikisource.org/wiki/新唐書/卷219, okundu): «天寶末，欽",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:10",
+   "lat": 44.1306,
+   "lon": 129.1417,
+   "zincir_guncel": "s:balhae 0755-01-01→0926-02-28 | s:liao-hanedani 0926-02-28→0926-04-04 | s:dongdan 0926-04-04→0929-01-26"
+  },
+  {
+   "sira": 2155,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "liao-hanedani",
+   "f": "0926-02-28",
+   "t": "0926-04-04",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 辛未 → Jülyen 0926-02-28 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0926-03-05; 1582 öncesi gün Jülyen kalır. ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙午 (二月) → Jülyen 0926-04-04 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 ",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:10",
+   "lat": 44.1306,
+   "lon": 129.1417,
+   "zincir_guncel": "s:balhae 0755-01-01→0926-02-28 | s:liao-hanedani 0926-02-28→0926-04-04 | s:dongdan 0926-04-04→0929-01-26"
+  },
+  {
+   "sira": 2156,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "dongdan",
+   "f": "0926-04-04",
+   "t": "0929-01-26",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙午 (天顯元年 二月) → Jülyen 0926-04-04 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0926-04-09; 1582 öncesi gün Jülyen kalır. ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 甲寅 (天顯三年 十二月) → Jülyen 0929-01-26 (JDN hesabı; sınama: 乙卯 ",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:10",
+   "lat": 44.1306,
+   "lon": 129.1417,
+   "zincir_guncel": "s:balhae 0755-01-01→0926-02-28 | s:liao-hanedani 0926-02-28→0926-04-04 | s:dongdan 0926-04-04→0929-01-26"
+  }
+ ],
+ "Hsinking (Changchun)": [
+  {
+   "sira": 2176,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mancukuo",
+   "f": "1932-03-09",
+   "t": "1945-08-17",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 43.884,
+   "lon": 125.318,
+   "zincir_guncel": "s:mancukuo 1932-03-09→1945-08-17 | s:cin-cumhuriyeti 1945-08-17→1949-10-01 | s:cin-halk-cumhuriyeti 1949-10-01→2000-12-31"
+  },
+  {
+   "sira": 2177,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-08-17",
+   "t": "1949-10-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 43.884,
+   "lon": 125.318,
+   "zincir_guncel": "s:mancukuo 1932-03-09→1945-08-17 | s:cin-cumhuriyeti 1945-08-17→1949-10-01 | s:cin-halk-cumhuriyeti 1949-10-01→2000-12-31"
+  }
+ ],
+ "Iksan": [
+  {
+   "sira": 2179,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "bodeok-goguryeo",
+   "f": "0670-08-21",
+   "t": "0683-10-01",
+   "mevcut_kaynak": "Samguk sagi (三國史記) juan 6, Silla bon-gi Munmu 10 (zh.wikisource.org/wiki/三國史記/卷06, okundu): «王處之國西金馬渚。» ; 秋八月 «遣沙飡須彌山，封安勝爲高句麗王。其冊曰：維咸亨元年歳次庚午秋八月一日辛丑» (= 670-08-21 Jülyen; ic_not_takvim: ganzhi 辛丑 → Jülyen 0670-08-21 = Gregoryen 0670-08-24 doğrulandı) · Samguk sagi juan 7, Munmu 14 (zh.wikisource.org/",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:198",
+   "lat": 35.9439,
+   "lon": 126.9544,
+   "zincir_guncel": "s:bodeok-goguryeo 0670-08-21→0683-10-01"
+  }
+ ],
+ "Ishigaki": [
+  {
+   "sira": 2181,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ryukyu-abd-idaresi",
+   "f": "1945-04-01",
+   "t": "1972-05-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 24.341,
+   "lon": 124.156,
+   "zincir_guncel": "s:ryukyu-abd-idaresi 1945-04-01→1972-05-15 | s:japonya-devleti 1972-05-15→2000-12-31"
+  },
+  {
+   "sira": 2182,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1972-05-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 24.341,
+   "lon": 124.156,
+   "zincir_guncel": "s:ryukyu-abd-idaresi 1945-04-01→1972-05-15 | s:japonya-devleti 1972-05-15→2000-12-31"
+  }
+ ],
+ "Naha": [
+  {
+   "sira": 2204,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ryukyu-abd-idaresi",
+   "f": "1945-04-01",
+   "t": "1972-05-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 26.212,
+   "lon": 127.679,
+   "zincir_guncel": "s:ryukyu-abd-idaresi 1945-04-01→1972-05-15 | s:japonya-devleti 1972-05-15→2000-12-31"
+  },
+  {
+   "sira": 2205,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1972-05-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 26.212,
+   "lon": 127.679,
+   "zincir_guncel": "s:ryukyu-abd-idaresi 1945-04-01→1972-05-15 | s:japonya-devleti 1972-05-15→2000-12-31"
+  }
+ ],
+ "Timber Creek Polis Karakolu": [
+  {
+   "sira": 2002,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1895-01-01",
+   "t": "1911-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:389",
+   "lat": -15.66,
+   "lon": 130.48,
+   "zincir_guncel": "s:kuzey-bolgesi-sa 1895-01-01→1911-01-01 | s:avustralya 1911-01-01→2000-12-31"
+  }
+ ]
+}

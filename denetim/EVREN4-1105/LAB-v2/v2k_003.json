@@ -1,0 +1,247 @@
+{
+ "Chavín de Huántar": [
+  {
+   "sira": 2145,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "chavin",
+   "f": "-0899-01-01",
+   "t": "-0499-01-01",
+   "mevcut_kaynak": "künye chavin (Chavin Kulturu) · Rick J.W., Mesía C., Contreras D., Kembel S.R., Rick R.M., Sayre M., Wolf J. 2009, 'La cronología de Chavín de Huántar y sus implicancias para el Periodo Formativo', Boletín de Arqueología PUCP 13:87–132. 1200–800 a.n.e. = Wacheqsa bölgesinde Kotosh-Kotosh ser",
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:5",
+   "lat": -9.5928,
+   "lon": -77.1785,
+   "zincir_guncel": "s:chavin -0899-01-01→-0499-01-01 | s:__BOSLUK__ -1199-01-01→-0899-01-01"
+  },
+  {
+   "sira": 2146,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0899-01-01",
+   "mevcut_kaynak": "BEYAN (VERI-MO-ARKEO): bu aralıkta nokta var (kur: ilk tarihli kanıt) ama sahibi künye kapsamının dışında — sahip kavramı yok / kaynak sessiz; bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak bu aralık için sahip vermiyor)",
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:5",
+   "lat": -9.5928,
+   "lon": -77.1785,
+   "zincir_guncel": "s:chavin -0899-01-01→-0499-01-01 | s:__BOSLUK__ -1199-01-01→-0899-01-01"
+  }
+ ],
+ "Sarayacu (Ucayali)": [
+  {
+   "sira": 1952,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1790-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:87",
+   "lat": -6.73,
+   "lon": -75.1,
+   "zincir_guncel": "s:ispanya 1790-01-01→1824-12-09 | s:peru-cumhuriyeti 1824-12-09→1861-01-01"
+  }
+ ],
+ "Sechín Bajo": [
+  {
+   "sira": 2226,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "casma-sechin",
+   "f": "-3399-01-01",
+   "t": "-1549-01-01",
+   "mevcut_kaynak": "künye casma-sechin (Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)) · Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54 (İspanyolca; tüm 14C 1 si",
+   "dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:4",
+   "lat": -9.4645,
+   "lon": -78.2648,
+   "zincir_guncel": "s:casma-sechin -3399-01-01→-1549-01-01"
+  }
+ ],
+ "Tonua (Chinchao)": [
+  {
+   "sira": 2006,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1631-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:95",
+   "lat": -9.6,
+   "lon": -75.95,
+   "zincir_guncel": "s:ispanyol-peru 1631-01-01→1824-12-09 | s:peru-cumhuriyeti 1824-12-09→2000-12-31"
+  }
+ ],
+ "Codrington (Barbuda)": [
+  {
+   "sira": 2150,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "antigua-barbuda",
+   "f": "1981-11-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 17.634,
+   "lon": -61.826,
+   "zincir_guncel": "s:antigua-barbuda 1981-11-01→2000-12-31"
+  }
+ ],
+ "Hillsborough (Carriacou)": [
+  {
+   "sira": 2173,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.4819,
+   "lon": -61.4619,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  },
+  {
+   "sira": 2174,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.4819,
+   "lon": -61.4619,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  },
+  {
+   "sira": 2175,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.4819,
+   "lon": -61.4619,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  }
+ ],
+ "Portsmouth (Dominika)": [
+  {
+   "sira": 2214,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominika",
+   "f": "1978-11-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 15.576,
+   "lon": -61.457,
+   "zincir_guncel": "s:dominika 1978-11-03→2000-12-31"
+  }
+ ],
+ "St. George's": [
+  {
+   "sira": 2231,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.0566,
+   "lon": -61.747,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  },
+  {
+   "sira": 2232,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.0566,
+   "lon": -61.747,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  },
+  {
+   "sira": 2233,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 12.0566,
+   "lon": -61.747,
+   "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+  }
+ ],
+ "Valencia (Venezuela)": [
+  {
+   "sira": 2036,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1555-01-01",
+   "t": "1821-06-24",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_amerika.js:1332",
+   "lat": 10.162,
+   "lon": -68.0077,
+   "zincir_guncel": "s:ispanyol-peru 1555-01-01→1821-06-24 | s:gran-kolombiya 1821-06-24→1830-01-13 | s:venezuela-cumhuriyeti 1830-01-13→2000-12-31"
+  }
+ ],
+ "San Vicente del Caguán": [
+  {
+   "sira": 1939,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1905-08-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1444",
+   "lat": 2.1167,
+   "lon": -74.7667,
+   "zincir_guncel": "s:kolombiya-cumhuriyeti 1905-08-01→2000-12-31"
+  }
+ ],
+ "Tucupita": [
+  {
+   "sira": 2014,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1527",
+   "lat": 9.0575,
+   "lon": -62.0452,
+   "zincir_guncel": "s:venezuela-cumhuriyeti 1901-01-01→2000-12-31"
+  }
+ ],
+ "Yavaraté (Vaupés)": [
+  {
+   "sira": 2094,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1784-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:68",
+   "lat": 0.61,
+   "lon": -69.2,
+   "zincir_guncel": "s:portekiz-brezilyasi 1784-01-01→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ]
+}

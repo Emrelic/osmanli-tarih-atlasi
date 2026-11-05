@@ -1,0 +1,1597 @@
+{
+ "adamava": [
+  {
+   "ad": "Banyo",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 6.75,
+   "lon": 11.82,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Garua (Garoua)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 9.3,
+   "lon": 13.4,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Marua (Maroua)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 10.59,
+   "lon": 14.32,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Ngaunder (Ngaoundéré)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 7.32,
+   "lon": 13.58,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Rey Buba",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 8.67,
+   "lon": 14.18,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Tibati",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 6.47,
+   "lon": 12.63,
+   "ilk_kunye": "adamava",
+   "ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:adamava 1809-01-01→1901-09-02",
+    "s:alman-kamerun 1901-09-02→1916-02-18",
+    "s:fransa-cumhuriyet 1916-02-18→1922-07-20",
+    "s:fransiz-kamerun-mandasi 1922-07-20→1960-01-01",
+    "s:kamerun 1960-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "akrotiri-dekelya": [
+  {
+   "ad": "Akrotiri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 34.585,
+   "lon": 32.958,
+   "ilk_kunye": "akrotiri-dekelya",
+   "ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Episkopi",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 34.664,
+   "lon": 32.903,
+   "ilk_kunye": "akrotiri-dekelya",
+   "ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "basuto": [
+  {
+   "ad": "Maseru",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -29.31,
+   "lon": 27.48,
+   "ilk_kunye": "basuto",
+   "ilk_f": "1822-01-01",
+   "kur": "1822-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:basuto 1822-01-01→1868-03-12",
+    "s:ingiltere 1868-03-12→1966-10-04",
+    "s:lesoto 1966-10-04→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Thaba Bosiu",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -29.35,
+   "lon": 27.75,
+   "ilk_kunye": "basuto",
+   "ilk_f": "1822-01-01",
+   "kur": "1822-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:basuto 1822-01-01→1868-03-12",
+    "s:ingiltere 1868-03-12→1966-10-04",
+    "s:lesoto 1966-10-04→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "biafra": [
+  {
+   "ad": "Aba (Nijerya)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.107,
+   "lon": 7.367,
+   "ilk_kunye": "biafra",
+   "ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Enugu",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.441,
+   "lon": 7.499,
+   "ilk_kunye": "biafra",
+   "ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:biafra 1967-05-30→1967-10-04"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Owerri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.485,
+   "lon": 7.035,
+   "ilk_kunye": "biafra",
+   "ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Umuahia",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.532,
+   "lon": 7.486,
+   "ilk_kunye": "biafra",
+   "ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "bophuthatswana": [
+  {
+   "ad": "Ga-Rankuwa",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -25.617,
+   "lon": 28.008,
+   "ilk_kunye": "bophuthatswana",
+   "ilk_f": "1977-12-06",
+   "kur": "1977-12-06",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:bophuthatswana 1977-12-06→1994-04-27"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "ciskei": [
+  {
+   "ad": "Bisho",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -32.847,
+   "lon": 27.442,
+   "ilk_kunye": "ciskei",
+   "ilk_f": "1981-12-04",
+   "kur": "1981-12-04",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ciskei 1981-12-04→1994-04-27"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "darul-kuti": [
+  {
+   "ad": "Birao",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 10.28,
+   "lon": 22.79,
+   "ilk_kunye": "darul-kuti",
+   "ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:darul-kuti 1890-01-01→1911-01-12",
+    "s:fransa-cumhuriyet 1911-01-12→1960-08-13",
+    "s:orta-afrika-cumhuriyeti 1960-08-13→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Ndele (Dâru'l-Kûtî)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 8.41,
+   "lon": 20.65,
+   "ilk_kunye": "darul-kuti",
+   "ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:darul-kuti 1890-01-01→1911-01-12",
+    "s:fransa-cumhuriyet 1911-01-12→1960-08-13",
+    "s:orta-afrika-cumhuriyeti 1960-08-13→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Uanda-Calle",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 8.9,
+   "lon": 22.78,
+   "ilk_kunye": "darul-kuti",
+   "ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:darul-kuti 1890-01-01→1911-01-12",
+    "s:fransa-cumhuriyet 1911-01-12→1960-08-13",
+    "s:orta-afrika-cumhuriyeti 1960-08-13→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "ekvator-ginesi": [
+  {
+   "ad": "Bata",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 1.865,
+   "lon": 9.766,
+   "ilk_kunye": "ekvator-ginesi",
+   "ilk_f": "1968-10-12",
+   "kur": "1968-10-12",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ekvator-ginesi 1968-10-12→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "fas-ispanyol-himayesi": [
+  {
+   "ad": "Nador",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 35.174,
+   "lon": -2.937,
+   "ilk_kunye": "fas-ispanyol-himayesi",
+   "ilk_f": "1912-11-27",
+   "kur": "1912-11-27",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fas-ispanyol-himayesi 1912-11-27→1956-04-07"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "fransiz-ekvator-afrikasi": [
+  {
+   "ad": "Brazzaville",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -4.269,
+   "lon": 15.271,
+   "ilk_kunye": "fransiz-ekvator-afrikasi",
+   "ilk_f": "1910-01-15",
+   "kur": "1910-01-15",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fransiz-ekvator-afrikasi 1910-01-15→1958-01-01"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "fransiz-togo": [
+  {
+   "ad": "Atakpamé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 7.533,
+   "lon": 1.133,
+   "ilk_kunye": "fransiz-togo",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kara (Togo)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 9.551,
+   "lon": 1.187,
+   "ilk_kunye": "fransiz-togo",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Lomé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.131,
+   "lon": 1.223,
+   "ilk_kunye": "fransiz-togo",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Sokodé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 8.983,
+   "lon": 1.133,
+   "ilk_kunye": "fransiz-togo",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "griqua": [
+  {
+   "ad": "Griquatown",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -28.85,
+   "lon": 23.26,
+   "ilk_kunye": "griqua",
+   "ilk_f": "1804-01-01",
+   "kur": "1804-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:griqua 1804-01-01→1878-01-01",
+    "s:ingiltere 1878-01-01→1910-05-31",
+    "s:guney-afrika-birligi 1910-05-31→1961-05-31",
+    "s:guney-afrika-cumhuriyeti 1961-05-31→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Philippolis",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -30.27,
+   "lon": 25.28,
+   "ilk_kunye": "griqua",
+   "ilk_f": "1804-01-01",
+   "kur": "1804-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:griqua 1804-01-01→1878-01-01",
+    "s:ingiltere 1878-01-01→1910-05-31",
+    "s:guney-afrika-birligi 1910-05-31→1961-05-31",
+    "s:guney-afrika-cumhuriyeti 1961-05-31→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "guney-sudan-ozerk-bolge": [
+  {
+   "ad": "Juba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.855,
+   "lon": 31.605,
+   "ilk_kunye": "guney-sudan-ozerk-bolge",
+   "ilk_f": "1972-02-27",
+   "kur": "1972-02-27",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:guney-sudan-ozerk-bolge 1972-02-27→1983-06-05"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "hehe": [
+  {
+   "ad": "Kalenga (Hehe)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -7.79,
+   "lon": 35.62,
+   "ilk_kunye": "hehe",
+   "ilk_f": "1850-01-01",
+   "kur": "1850-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:hehe 1850-01-01→1898-07-19",
+    "s:alman-dogu-afrikasi 1898-07-19→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "ibadan": [
+  {
+   "ad": "İbadan",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 7.38,
+   "lon": 3.9,
+   "ilk_kunye": "ibadan",
+   "ilk_f": "1829-01-01",
+   "kur": "1829-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ibadan 1829-01-01→1893-08-15",
+    "s:ingiltere 1893-08-15→1960-10-01",
+    "s:nijerya 1960-10-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "ingiliz-kamerun": [
+  {
+   "ad": "Bamenda",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.959,
+   "lon": 10.146,
+   "ilk_kunye": "ingiliz-kamerun",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Buea",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.153,
+   "lon": 9.243,
+   "ilk_kunye": "ingiliz-kamerun",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kumba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.636,
+   "lon": 9.446,
+   "ilk_kunye": "ingiliz-kamerun",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "ingiliz-sudani": [
+  {
+   "ad": "Akobo",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 7.788,
+   "lon": 33.033,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Aveyl",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 8.767,
+   "lon": 27.4,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Bentiu",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 9.242,
+   "lon": 29.803,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Bor",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 6.208,
+   "lon": 31.558,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Deym Zübeyr",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 7.7,
+   "lon": 26.217,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Fangak",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 9.07,
+   "lon": 30.883,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Gondokoro",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.9,
+   "lon": 31.65,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Kapoeta",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.767,
+   "lon": 33.591,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Ler",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 8.3,
+   "lon": 30.14,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Maridi",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.917,
+   "lon": 29.467,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Meşra er-Rek",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 8.417,
+   "lon": 29.283,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Nimule",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 3.6,
+   "lon": 32.058,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Nâsir",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 8.608,
+   "lon": 33.067,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Pibor",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 6.8,
+   "lon": 33.133,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Rağa",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 8.46,
+   "lon": 25.68,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Rumbek",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 6.8,
+   "lon": 29.678,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Tembura",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 5.61,
+   "lon": 27.47,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Tonc",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 6.95,
+   "lon": 28.683,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Torit",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.412,
+   "lon": 32.57,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Vav",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 7.702,
+   "lon": 27.99,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Vâdî Halfâ",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 21.802,
+   "lon": 31.352,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "1813-03-06",
+   "kur_durum": "kur farklı",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31",
+    "v:None 1813-03-06→1899-01-19",
+    "isg:ingiltere 1882-09-13→1899-01-19"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Yambio",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.572,
+   "lon": 28.395,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Yei",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 4.09,
+   "lon": 30.679,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Şembe",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "lat": 7.156,
+   "lon": 30.553,
+   "ilk_kunye": "ingiliz-sudani",
+   "ilk_f": "1899-01-19",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:ingiliz-sudani 1899-01-19→1956-01-01",
+    "s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "ingiliz-svaziland": [
+  {
+   "ad": "Manzini",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -26.498,
+   "lon": 31.38,
+   "ilk_kunye": "ingiliz-svaziland",
+   "ilk_f": "1903-01-01",
+   "kur": "1903-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-svaziland 1903-01-01→1968-09-06"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Mbabane",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -26.317,
+   "lon": 31.133,
+   "ilk_kunye": "ingiliz-svaziland",
+   "ilk_f": "1903-01-01",
+   "kur": "1903-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-svaziland 1903-01-01→1968-09-06"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "ingiliz-togoland": [
+  {
+   "ad": "Ho (Togoland)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.601,
+   "lon": 0.471,
+   "ilk_kunye": "ingiliz-togoland",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Hohoe",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 7.152,
+   "lon": 0.473,
+   "ilk_kunye": "ingiliz-togoland",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kpando",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.995,
+   "lon": 0.293,
+   "ilk_kunye": "ingiliz-togoland",
+   "ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "katanga": [
+  {
+   "ad": "Elisabethville (Lubumbashi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -11.664,
+   "lon": 27.479,
+   "ilk_kunye": "katanga",
+   "ilk_f": "1960-07-11",
+   "kur": "1960-07-11",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:katanga 1960-07-11→1963-01-14",
+    "s:kongo-kinsasa 1963-01-14→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Jadotville (Likasi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -10.983,
+   "lon": 26.733,
+   "ilk_kunye": "katanga",
+   "ilk_f": "1960-07-11",
+   "kur": "1960-07-11",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:katanga 1960-07-11→1963-01-14",
+    "s:kongo-kinsasa 1963-01-14→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "katar": [
+  {
+   "ad": "Doha (Katar)",
+   "dosya": "yerlesimler.js",
+   "lat": 25.285,
+   "lon": 51.531,
+   "ilk_kunye": "katar",
+   "ilk_f": "1868-01-01",
+   "kur": "1825-01-01",
+   "kur_durum": "kur farklı",
+   "zincir": [
+    "s:katar 1868-01-01→1871-09-20",
+    "s:katar 1913-07-29→2000-12-31",
+    "v:None 1871-09-20→1913-07-29",
+    "isg:ingiltere 1916-11-03→1923-10-29"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "kibris-ingiliz-kolonisi": [
+  {
+   "ad": "Güzelyurt (Morphou)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 35.199,
+   "lon": 32.993,
+   "ilk_kunye": "kibris-ingiliz-kolonisi",
+   "ilk_f": "1914-11-05",
+   "kur": "1914-11-05",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kibris-ingiliz-kolonisi 1914-11-05→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13",
+    "s:kibris-turk-federe-devleti 1975-02-13→1983-11-15",
+    "s:kktc 1983-11-15→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "kibris-ingiliz-ussler": [
+  {
+   "ad": "Dikelya (Dhekelia)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 34.991,
+   "lon": 33.733,
+   "ilk_kunye": "kibris-ingiliz-ussler",
+   "ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kibris-ingiliz-ussler 1960-08-16→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "kongo-serbest-devleti": [
+  {
+   "ad": "Bandundu",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -3.31,
+   "lon": 17.38,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Basankusu",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 1.22,
+   "lon": 19.8,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Boma",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": -5.85,
+   "lon": 13.05,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Kisangani (Stanleyville)",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": 0.515,
+   "lon": 25.191,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Luebo",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -5.35,
+   "lon": 21.42,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Mbandaka",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 0.05,
+   "lon": 18.26,
+   "ilk_kunye": "kongo-serbest-devleti",
+   "ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:kongo-serbest-devleti 1885-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "kuayti-sultanligi": [
+  {
+   "ad": "Hadramut",
+   "dosya": "yerlesimler.js",
+   "lat": 15.5,
+   "lon": 48.5,
+   "ilk_kunye": "kuayti-sultanligi",
+   "ilk_f": "1881-01-01",
+   "kur": "",
+   "kur_durum": "kur yok",
+   "zincir": [
+    "s:kuayti-sultanligi 1881-01-01→1967-11-30",
+    "s:guney-yemen 1967-11-30→1990-05-22",
+    "s:yemen-cumhuriyeti 1990-05-22→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "liptako": [
+  {
+   "ad": "Dori",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 14.03,
+   "lon": -0.03,
+   "ilk_kunye": "liptako",
+   "ilk_f": "1810-01-01",
+   "kur": "1810-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:liptako 1810-01-01→1897-01-01",
+    "s:fransa-cumhuriyet 1897-01-01→1960-08-05",
+    "s:yukari-volta-burkina 1960-08-05→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "mangbetu": [
+  {
+   "ad": "Niangara (Mangbetu)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 3.69,
+   "lon": 27.87,
+   "ilk_kunye": "mangbetu",
+   "ilk_f": "1815-01-01",
+   "kur": "1815-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:mangbetu 1815-01-01→1895-01-01",
+    "s:kongo-serbest-devleti 1895-01-01→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "matabele": [
+  {
+   "ad": "Bulavayo",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -20.15,
+   "lon": 28.58,
+   "ilk_kunye": "matabele",
+   "ilk_f": "1840-01-01",
+   "kur": "1840-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:matabele 1840-01-01→1893-11-04",
+    "s:ingiltere 1893-11-04→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "misir-sultanligi": [
+  {
+   "ad": "Portsaid",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 31.257,
+   "lon": 32.284,
+   "ilk_kunye": "misir-sultanligi",
+   "ilk_f": "1914-12-18",
+   "kur": "1859-04-25",
+   "kur_durum": "kur farklı",
+   "zincir": [
+    "s:misir-sultanligi 1914-12-18→1922-03-15",
+    "s:misir-kralligi 1922-03-15→1953-06-18",
+    "s:misir-cumhuriyeti 1953-06-18→1958-02-22",
+    "s:birlesik-arap-cumhuriyeti 1958-02-22→1971-09-11",
+    "s:misir-arap-cumhuriyeti 1971-09-11→2000-12-31",
+    "v:None 1859-04-25→1914-12-18",
+    "isg:ingiltere 1882-09-13→1914-12-18",
+    "isg:ingiltere 1914-12-18→1923-10-29"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "İsmâiliye",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 30.588,
+   "lon": 32.271,
+   "ilk_kunye": "misir-sultanligi",
+   "ilk_f": "1914-12-18",
+   "kur": "1863-04-27",
+   "kur_durum": "kur farklı",
+   "zincir": [
+    "s:misir-sultanligi 1914-12-18→1922-03-15",
+    "s:misir-kralligi 1922-03-15→1953-06-18",
+    "s:misir-cumhuriyeti 1953-06-18→1958-02-22",
+    "s:birlesik-arap-cumhuriyeti 1958-02-22→1971-09-11",
+    "s:misir-arap-cumhuriyeti 1971-09-11→2000-12-31",
+    "v:None 1863-04-27→1914-12-18",
+    "isg:ingiltere 1882-09-13→1914-12-18",
+    "isg:ingiltere 1914-12-18→1923-10-29"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "ngoni": [
+  {
+   "ad": "Njombe",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -9.34,
+   "lon": 34.77,
+   "ilk_kunye": "ngoni",
+   "ilk_f": "1835-01-01",
+   "kur": "1835-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Songea (Ngoni)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.68,
+   "lon": 35.65,
+   "ilk_kunye": "ngoni",
+   "ilk_f": "1835-01-01",
+   "kur": "1835-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "orta-afrika-imparatorlugu": [
+  {
+   "ad": "Bangassou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.741,
+   "lon": 22.818,
+   "ilk_kunye": "orta-afrika-imparatorlugu",
+   "ilk_f": "1976-12-04",
+   "kur": "1976-12-04",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:orta-afrika-imparatorlugu 1976-12-04→1979-09-20"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Berbérati",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.261,
+   "lon": 15.792,
+   "ilk_kunye": "orta-afrika-imparatorlugu",
+   "ilk_f": "1976-12-04",
+   "kur": "1976-12-04",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:orta-afrika-imparatorlugu 1976-12-04→1979-09-20"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "rodezya-nyasaland-federasyonu": [
+  {
+   "ad": "Bulawayo",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -20.15,
+   "lon": 28.583,
+   "ilk_kunye": "rodezya-nyasaland-federasyonu",
+   "ilk_f": "1953-08-01",
+   "kur": "1953-08-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31"
+   ],
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Lusaka",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -15.387,
+   "lon": 28.323,
+   "ilk_kunye": "rodezya-nyasaland-federasyonu",
+   "ilk_f": "1953-08-01",
+   "kur": "1953-08-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "sahra-arap-demokratik-cumhuriyeti": [
+  {
+   "ad": "Bir Lahlu (Bir Lehlou)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 26.349,
+   "lon": -9.577,
+   "ilk_kunye": "sahra-arap-demokratik-cumhuriyeti",
+   "ilk_f": "1976-02-27",
+   "kur": "1976-02-27",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Tifariti",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 26.159,
+   "lon": -10.559,
+   "ilk_kunye": "sahra-arap-demokratik-cumhuriyeti",
+   "ilk_f": "1976-02-27",
+   "kur": "1976-02-27",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "svazi": [
+  {
+   "ad": "Lobamba (Svazi)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -26.45,
+   "lon": 31.2,
+   "ilk_kunye": "svazi",
+   "ilk_f": "1815-01-01",
+   "kur": "1815-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:svazi 1815-01-01→1903-01-01",
+    "s:ingiltere 1903-01-01→1968-09-06",
+    "s:svaziland 1968-09-06→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "toro": [
+  {
+   "ad": "Fort Portal (Toro)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 0.66,
+   "lon": 30.28,
+   "ilk_kunye": "toro",
+   "ilk_f": "1830-01-01",
+   "kur": "1830-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:toro 1830-01-01→1900-06-26",
+    "s:ingiltere 1900-06-26→1962-10-09",
+    "s:uganda 1962-10-09→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "transkei": [
+  {
+   "ad": "Butterworth",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -32.331,
+   "lon": 28.139,
+   "ilk_kunye": "transkei",
+   "ilk_f": "1976-10-26",
+   "kur": "1976-10-26",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:transkei 1976-10-26→1994-04-27"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "vasulu": [
+  {
+   "ad": "Beyla",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 8.69,
+   "lon": -8.64,
+   "ilk_kunye": "vasulu",
+   "ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:vasulu 1878-01-01→1898-09-29",
+    "s:fransa-cumhuriyet 1898-09-29→1958-10-02",
+    "s:gine 1958-10-02→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Bisandugu",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 10.03,
+   "lon": -9.1,
+   "ilk_kunye": "vasulu",
+   "ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:vasulu 1878-01-01→1898-09-29",
+    "s:fransa-cumhuriyet 1898-09-29→1958-10-02",
+    "s:gine 1958-10-02→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Odienne",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 9.51,
+   "lon": -7.57,
+   "ilk_kunye": "vasulu",
+   "ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:vasulu 1878-01-01→1898-09-29",
+    "s:fransa-cumhuriyet 1898-09-29→1960-08-07",
+    "s:fildisi-sahili 1960-08-07→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  },
+  {
+   "ad": "Seguela",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": 7.96,
+   "lon": -6.67,
+   "ilk_kunye": "vasulu",
+   "ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:vasulu 1878-01-01→1898-09-29",
+    "s:fransa-cumhuriyet 1898-09-29→1960-08-07",
+    "s:fildisi-sahili 1960-08-07→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "venda-bantustan": [
+  {
+   "ad": "Thohoyandou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -22.945,
+   "lon": 30.485,
+   "ilk_kunye": "venda-bantustan",
+   "ilk_f": "1979-09-13",
+   "kur": "1979-09-13",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:venda-bantustan 1979-09-13→1994-04-27"
+   ],
+   "uc103_listesinde": true
+  }
+ ],
+ "yeke": [
+  {
+   "ad": "Bunkeya (Yeke)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.41,
+   "lon": 26.94,
+   "ilk_kunye": "yeke",
+   "ilk_f": "1856-01-01",
+   "kur": "1856-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:yeke 1856-01-01→1891-12-20",
+    "s:kongo-serbest-devleti 1891-12-20→1908-11-15",
+    "s:belcika-kongo 1908-11-15→1960-06-30",
+    "s:kongo-kinsasa 1960-06-30→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ],
+ "zulu-kralligi": [
+  {
+   "ad": "Ulundi (Zululand)",
+   "dosya": "yerlesimler_e9353f.js",
+   "lat": -28.313,
+   "lon": 31.416,
+   "ilk_kunye": "zulu-kralligi",
+   "ilk_f": "1816-01-01",
+   "kur": "1816-01-01",
+   "kur_durum": "kur=f",
+   "zincir": [
+    "s:zulu-kralligi 1816-01-01→1879-07-04",
+    "s:ingiltere 1879-07-04→1910-05-31",
+    "s:guney-afrika-birligi 1910-05-31→1961-05-31",
+    "s:guney-afrika-cumhuriyeti 1961-05-31→2000-12-31"
+   ],
+   "uc103_listesinde": false
+  }
+ ]
+}

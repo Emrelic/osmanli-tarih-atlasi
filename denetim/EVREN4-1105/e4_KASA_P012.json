@@ -1,0 +1,1070 @@
+{
+ "Sinkat": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:694",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1517-04-13",
+   "t": "1557-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Habeş Eyaleti», https://islamansiklopedisi.org.tr/habes-eyaleti",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 956] Habeşistan'ın 1517-57 Sevâkin kıyısı/iç kesimine hâkimiyetine tanık yok; TDV «Habeş Eyaleti» bölgede Func'a bağlı Arap aşiretlerini ve Sevâkin'in 1554'te Mısır'a bağlanışını yazar. Sahip kimliği (habesistan) şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:694",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 957] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:694",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1891-03-03",
+   "t": "1899-01-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 958] DIGER (Wingate Supplement s.508). Sınanmadı. Not: 1891'de idare İngiliz-Mısır'dır; s: ingiltere yerine v: misir-kavalali + isg ingiltere sorusu (Akīk ile aynı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:694",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1557-01-01",
+   "t": "1884-02-08",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Habeş Eyaleti», https://islamansiklopedisi.org.tr/habes-eyaleti ; TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Masavva‘ ve Sevâkin’in yönetimi 1865’te Mısır Hidivi İsmâil Paşa’ya verildi",
+   "oneri": {
+    "t": "1865-01-01",
+    "not": "1865 → 1884-02-08 v: misir-kavalali"
+   },
+   "not": "[sira 959] ABİ MERKEZ Sevâkin (Sinkat Sevâkin'in iç kalesi). f YIL: Sevâkin sancağı 10 Nisan 1554, Masavva 2 Nisan 1557 (TDV «Habeş Eyaleti»). TDV «Etiyopya»: Sevâkin 1846'da Mehmed Ali'ye sâlyâne, 1865'te İsmâil Paşa resmen Mısır'a kattı. t 1884-02-08 DIGER (Wingate) korunur, yalnız 1865'ten sonrası v: olur."
+  }
+ ],
+ "Aseb": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:764",
+   "alan": "s",
+   "d": "italya",
+   "f": "1882-03-10",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "Assab’ın 1882 yılında sömürge haline getirilmesiyle de bölgenin İtalyan hâkimiyeti altına girmesi",
+   "oneri": {},
+   "not": "[sira 960] f YIL (10 Mart günü bu maddede yok). t 1936-06-01 yalnız kimlik değişimi (İtalyan Doğu Afrikası); bu turda okunmadı. ic_not: 1869 Sapeto'nun Rubattino adına satın alması (TDV «Eritre»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:764",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1882-03-10",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "bu sırada bir müslüman sultan tarafından yönetilen Assab’ın",
+   "oneri": {
+    "d": "yerel Afar sultanlığı (künye yok — LAB)"
+   },
+   "not": "[sira 961] Sahip 'adal' şüpheli: TDV «Somali» Adel Sultanlığı'nın 1543 sonrası yıkıldığını yazar; 1869'da Aseb yerel bir müslüman (Afar) sultanın elindedir. 1281-1882 tek 'adal' dönemi kaynakla uyuşmuyor; künye ölçümü: devletler.js'te Afar/Avsa künyesi grep'lenmedi (yalnız 'adal' var). t 1882 KAYNAKLI (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:764",
+   "alan": "s",
+   "d": "eritre-ingiliz-askeri-idaresi",
+   "f": "1941-04-01",
+   "t": "1952-09-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "İngilizler İtalyan ordusunu Keren’de yenerek Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)",
+   "oneri": {
+    "f": "(Aseb'in İngiliz teslim günü — kaynakla)"
+   },
+   "not": "[sira 962] t 1952-09-15 KAYNAKLI (TDV «Eritre»: '15 Eylül 1952 tarihinde federe bir devlet olarak Etiyopya’ya bağlandı'). f 1941-04-01 künye günü; TDV Asmara/Masavva için 28 Mart 1941 verir; Aseb güneyde daha geç düştü (İPUCU: Haziran 1941) — TEK ÖLÇÜ: teslim günü. Hayalet: künye f 1941-04-01, daha geç gün künyeyle çelişmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:764",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 963] [KÜME K15] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:764",
+   "alan": "s",
+   "d": "eritre-federasyon",
+   "f": "1952-09-15",
+   "t": "1962-11-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "15 Eylül 1952 tarihinde federe bir devlet olarak Etiyopya’ya bağlandı. Fakat Etiyopya yönetimi 14 Kasım 1962’de",
+   "oneri": {},
+   "not": "[sira 964] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Beledveyne": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:786",
+   "alan": "s",
+   "d": "italya",
+   "f": "1905-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 965] TDV «Somali» 1905'i İngiliz Somaliland'ın Aden'e bağlanışı için verir; İtalyan Somalisi'nin devlet idaresine geçişi ve Beledveyne'nin İtalyan işgal günü okunmadı/bulunamadı. TDV'de yer maddesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:786",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 966] İç Somali (Hiran) için 1281-1905 sahibi TDV «Somali»de yok; 'somali' künyesi genel sultanlıklar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:786",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla",
+   "oneri": {},
+   "not": "[sira 967] t 1950-04-01 teyitli (TDV «Somali»). f 1941-02-25 (İngiliz girişi) TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:786",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 968] [KÜME K27] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:786",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)",
+   "oneri": {},
+   "not": "[sira 969] ÜLKE DÜZEYİ. f: 'Kasım 1949’da ... on yıl İtalya idaresinde kaldıktan sonra bağımsız olacağını ilân etti. 1 Nisan 1950’de uygulamaya konulan kararla' (aynı madde)."
+  }
+ ],
+ "Hargeysa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1884-07-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Zeyla‘, Berberâ ve Tâcûre aynı yıl İngilizler tarafından Somaliland adıyla sömürgeleştirildi",
+   "oneri": {},
+   "not": "[sira 970] f 1577 bulunamadı (bkz. adal satırı). t 1884-07-18 kaynakta yok: TDV kıyı şehirlerinin sömürgeleştirilmesini Mısır'ın 1883 çekilişiyle 'aynı yıl'a koyar; iç kesimde (Hargeysa/Erigavo) İngiliz idaresinin başlangıç günü okunmadı (TEK ÖLÇÜ: teslim/fiilî idare)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian (U.S. Dept. of State), «Somalia», https://history.state.gov/countries/somalia ; TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960",
+   "oneri": {
+    "not": "isg italya 1940 → 1941 katmanı eklenmeli (günler kaynakla)"
+   },
+   "not": "[sira 971] t 1960-06-26 KAYNAKLI (Office of the Historian). Katman eksik: TDV «Somali» 'İtalya 1940’ta İngiliz denetimindeki toprakları da ele geçirerek bütün Somali’ye hâkim oldu' ve İngiltere'nin geri alışı — ÖLÇÜT: geçici/askerî ⇒ isg italya (İPUCU günler 1940-08-19 / 1941-03-16, kaynakla). f 1884-07-18 kaynakta yok (bkz. önceki satır). Künye notu: devletler.js'te 'somali-ingiliz-himayesi' (f 1884-01-01) var, atlas 'ingiltere' kullanıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 972] 1577 TDV «Somali»de yok; TDV Adel Sultanlığı'nın Ahmed Gran'ın 1543'te ölümü 'neticesinde ... yıkılmasının ardından' der (yıkılış yılı belirsiz). TDV «Adel» maddesi yok (arama)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian (U.S. Dept. of State), «Somalia», https://history.state.gov/countries/somalia ; TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960",
+   "oneri": {},
+   "not": "[sira 973] t: 'The Somali Republic was formed by the union of Somalia ... and Somaliland' — ABD tanıması 1 Temmuz 1960; TDV «Somali» '(1 Temmuz 1960)'. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "1991-05-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 974] [KÜME K27] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:843",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland bölgesinde iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "[sira 975] TDV esastır (Kaynak kuralı): TDV «Somali» 28 Mayıs 1991; mevcut 18 Mayıs (The East African, haber sitesi — akademik değil) ic_not'a iki kaynağıyla yazılır. Künye somaliland-cumhuriyeti f'si de aynı soruya tâbi (LAB). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Erigavo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1884-07-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Zeyla‘, Berberâ ve Tâcûre aynı yıl İngilizler tarafından Somaliland adıyla sömürgeleştirildi",
+   "oneri": {},
+   "not": "[sira 976] f 1577 bulunamadı (bkz. adal satırı). t 1884-07-18 kaynakta yok: TDV kıyı şehirlerinin sömürgeleştirilmesini Mısır'ın 1883 çekilişiyle 'aynı yıl'a koyar; iç kesimde (Hargeysa/Erigavo) İngiliz idaresinin başlangıç günü okunmadı (TEK ÖLÇÜ: teslim/fiilî idare)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian (U.S. Dept. of State), «Somalia», https://history.state.gov/countries/somalia ; TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960",
+   "oneri": {
+    "not": "isg italya 1940 → 1941 katmanı eklenmeli (günler kaynakla)"
+   },
+   "not": "[sira 977] t 1960-06-26 KAYNAKLI (Office of the Historian). Katman eksik: TDV «Somali» 'İtalya 1940’ta İngiliz denetimindeki toprakları da ele geçirerek bütün Somali’ye hâkim oldu' ve İngiltere'nin geri alışı — ÖLÇÜT: geçici/askerî ⇒ isg italya (İPUCU günler 1940-08-19 / 1941-03-16, kaynakla). f 1884-07-18 kaynakta yok (bkz. önceki satır). Künye notu: devletler.js'te 'somali-ingiliz-himayesi' (f 1884-01-01) var, atlas 'ingiltere' kullanıyor. EK: Erigavo (Sanaag) Derviş hareketinin bölgesi — TDV «Somali» 'İngilizler 1910’da sahil bölgelerinden çekilmek zorunda kaldılar'; künye 'dervis-devleti' var (1899-01-01 → 1920-02-04). Erigavo'nun Derviş dönemi kaynakla günlenmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 978] 1577 TDV «Somali»de yok; TDV Adel Sultanlığı'nın Ahmed Gran'ın 1543'te ölümü 'neticesinde ... yıkılmasının ardından' der (yıkılış yılı belirsiz). TDV «Adel» maddesi yok (arama)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian (U.S. Dept. of State), «Somalia», https://history.state.gov/countries/somalia ; TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960",
+   "oneri": {},
+   "not": "[sira 979] t: 'The Somali Republic was formed by the union of Somalia ... and Somaliland' — ABD tanıması 1 Temmuz 1960; TDV «Somali» '(1 Temmuz 1960)'. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "1991-05-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 980] [KÜME K27] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:852",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Somaliland bölgesinde iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "[sira 981] TDV esastır (Kaynak kuralı): TDV «Somali» 28 Mayıs 1991; mevcut 18 Mayıs (The East African, haber sitesi — akademik değil) ic_not'a iki kaynağıyla yazılır. Künye somaliland-cumhuriyeti f'si de aynı soruya tâbi (LAB). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Berber": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:886",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1884-05-01",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "R. C. Slatin, Fire and Sword in the Sudan (trc. F. R. Wingate, London 1896) [19. yy kaynağı; birincil anı], Gutenberg #41035, https://www.gutenberg.org/files/41035/41035-h/41035-h.htm",
+   "alinti": "Berber ... did not fall till the 19th of May,—three months after Gordon's arrival in Khartum",
+   "oneri": {
+    "f": "1884-05-19"
+   },
+   "not": "[sira 982] f: Slatin Berber'in 19 Mayıs 1884'te düştüğünü yazar (mevcut 05-01 kaynaksız). Arama özeti 20 Mayıs veriyor (GlobalSecurity — dayanak değil). t 1899-01-19 rejim düzeyi (TDV «Sudan»); İPUCU: Berber İngiliz-Mısır kuvvetlerince 1897'de geri alındı — yerleşime özgü t sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:886",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Amâre (Dûnkas), 1504 yılında ... Alve Krallığı’na karşı bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 983] ÜLKE DÜZEYİ, t YIL (Func'un Alve'ye karşı ilanı). f 1281 atlas alt sınırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:886",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-01-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı",
+   "oneri": {},
+   "not": "[sira 984] ÜLKE DÜZEYİ, YIL: f 1504, t 1821. 1821-01-04 bu maddede yok (Berber'in Mısır ordusuna teslimi Sennâr'dan önce — gün kaynakla). TDV: XVIII. yy ortasından Abdellâb kolları bağımsızlık ilan ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:886",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-01-04",
+   "t": "1884-05-01",
+   "hukum": "ONERI",
+   "kaynak": "R. C. Slatin, Fire and Sword in the Sudan (trc. F. R. Wingate, London 1896) [19. yy kaynağı; birincil anı], Gutenberg #41035, https://www.gutenberg.org/files/41035/41035-h/41035-h.htm ; TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Berber ... did not fall till the 19th of May,—three months after Gordon's arrival in Khartum",
+   "oneri": {
+    "t": "1884-05-19"
+   },
+   "not": "[sira 985] f 1821 YIL (TDV «Sudan»; Berber müdürlüğü). t: Berber'in düşüşü 19 Mayıs 1884 (Slatin)."
+  }
+ ],
+ "Ed-Düveym": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:899",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı",
+   "oneri": {},
+   "not": "[sira 986] ÜLKE DÜZEYİ. f 1504 (TDV «Sudan»: Amâre'nin ilanı); t AY düzeyinde (Haziran 1821), 14 Haziran günü bu maddede yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:899",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” ... adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "[sira 987] REJİM DÜZEYİ: f 26 Ocak 1885 Hartum (TDV «Sudan»); Mehdî Devleti 2 Eylül 1898 Kerkeri'de yıkıldı, t Kondominyum 19 Ocak 1899 (aynı madde). Yerleşimin İngiliz-Mısır'a geçiş günü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:899",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Amâre (Dûnkas), 1504 yılında ... Alve Krallığı’na karşı bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 988] ÜLKE DÜZEYİ, t YIL (Func'un Alve'ye karşı ilanı). f 1281 atlas alt sınırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:899",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "26 Ocak 1885’te Hartum’a giren ... Muhammed Ahmed el-Mehdî",
+   "oneri": {},
+   "not": "[sira 989] ÜLKE DÜZEYİ / ABİ MERKEZ Hartum. f: TDV «Sudan» 1821 Func teslimi (Haziran 1821). t: Hartum'un düşüşü; yerleşime özgü Mehdî giriş günü okunmadı."
+  }
+ ],
+ "Rusayris": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:912",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı",
+   "oneri": {},
+   "not": "[sira 990] ÜLKE DÜZEYİ. f 1504 (TDV «Sudan»: Amâre'nin ilanı); t AY düzeyinde (Haziran 1821), 14 Haziran günü bu maddede yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:912",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” ... adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "[sira 991] REJİM DÜZEYİ: f 26 Ocak 1885 Hartum (TDV «Sudan»); Mehdî Devleti 2 Eylül 1898 Kerkeri'de yıkıldı, t Kondominyum 19 Ocak 1899 (aynı madde). Yerleşimin İngiliz-Mısır'a geçiş günü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:912",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "[sira 992] ÜLKE DÜZEYİ. f: '19 Ocak 1899’da “condominium” ... adı verilen yeni bir idare başlattı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:912",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Amâre (Dûnkas), 1504 yılında ... Alve Krallığı’na karşı bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 993] ÜLKE DÜZEYİ, t YIL (Func'un Alve'ye karşı ilanı). f 1281 atlas alt sınırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:912",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "26 Ocak 1885’te Hartum’a giren ... Muhammed Ahmed el-Mehdî",
+   "oneri": {},
+   "not": "[sira 994] ÜLKE DÜZEYİ / ABİ MERKEZ Hartum. f: TDV «Sudan» 1821 Func teslimi (Haziran 1821). t: Hartum'un düşüşü; yerleşime özgü Mehdî giriş günü okunmadı."
+  }
+ ],
+ "Nühûd": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:928",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Mehdî, Ubeyyid’e girdi (19 Ocak 1883)",
+   "oneri": {
+    "f": "1883-01-19"
+   },
+   "not": "[sira 995] ABİ MERKEZ Ubeyyid (Kordofan eyalet merkezi): Kordofan 1883 başında Mehdî'ye geçti; 1885-01-26 (Hartum) Kordofan için geç. Nühûd'a özgü gün yok, BEYANLI YAKLAŞIKLIK. t 1899-01-19 rejim düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:928",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 996] Kordofan'ın 1281-1504 Nûbe (Makurya-Alve) hâkimiyetine tanık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:928",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1785-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "sultanlığın sınırları o sırada doğuda Kızıldeniz, batıda Kordofan’a kadar uzanıyordu",
+   "oneri": {
+    "f": "(XVIII. yy ilk yarısı — yıl kaynakla)"
+   },
+   "not": "[sira 997] TDV «Sudan»: Func'un Kordofan'a uzanışı XVIII. yy ilk yarısındaki en parlak döneme aittir; 1504'ten itibaren Kordofan Func'un değil. Yıl bulunamadı, 1504-? aralığı sahibi bulunamadı. P006 Kordofan (Ubeyyid) ile aynı sorun."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:928",
+   "alan": "s",
+   "d": "darfur",
+   "f": "1785-01-01",
+   "t": "1821-08-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur ; TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 998] 1785 Fûr fethi TDV «Dârfûr»de yok (yalnız Muhammed Teyrâb 1768-1787 saltanatı). t: TDV «Dârfûr» 'Defterdar Muhammed Bey de Kordofan’ı Osmanlı-Mısır topraklarına katmıştır' (1821, gün yok; 19 Ağustos Bara savaşı okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:928",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-08-19",
+   "t": "1885-01-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan ; TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "Mehdî, Ubeyyid’e girdi (19 Ocak 1883)",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 999] f 1821 YIL KAYNAKLI (TDV «Dârfûr»: Defterdar Muhammed Bey Kordofan'ı kattı). t: ABİ MERKEZ Ubeyyid 19 Ocak 1883 (bkz. mehdi satırı)."
+  }
+ ],
+ "El-Fâşir": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:990",
+   "alan": "s",
+   "d": "darfur",
+   "f": "1792-01-01",
+   "t": "1874-11-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "savaşta yenik düşen son bağımsız Dârfûr sultanı İbrâhim öldürülmüştür (1874)",
+   "oneri": {},
+   "not": "[sira 1000] t YIL teyitli (1874). f 1792 (Fâşir'in kuruluşu/başkent oluşu) TDV «Dârfûr»de yok. 1874-11-02 günü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:990",
+   "alan": "s",
+   "d": "darfur",
+   "f": "1898-09-02",
+   "t": "1916-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur ; TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916’da öldürüldü",
+   "oneri": {},
+   "not": "[sira 1001] YIL: f Mehdî Devleti'nin yıkılışı 2 Eylül 1898 (TDV «Sudan»), Ali Dînâr'ın sultanlığı yeniden kurması; t TDV «Sudan» Ali Dînâr 'idarî merkezi Fâşir’de 1916’da yapılan savaşta' — Fâşir'in düşüş günü (05-23) bu maddelerde yok. TAHRİR notu: Ali Dînâr 'diplomatik bakımdan ... İngilizler’e tâbi ... yıllık vergi' (TDV) — v: sorusu ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:990",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1874-11-02",
+   "t": "1884-01-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur ; TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi",
+   "oneri": {},
+   "not": "[sira 1002] f YIL (1874, TDV «Dârfûr»). t: TDV Aralık 1883 (Dârfûr); Fâşir garnizonunun teslimi 1884-01-15 DIGER (Slatin) — yıl düzeyinde uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:990",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1884-01-15",
+   "t": "1898-09-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1003] DIGER (Slatin, Bölüm IX). Sınanmadı."
+  }
+ ],
+ "Nyala": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "s",
+   "d": "dacu",
+   "f": "1281-01-01",
+   "t": "1400-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar",
+   "oneri": {},
+   "not": "[sira 1004] YÜZYIL düzeyi: Dâcû XIII-XIV. yy, Tuncûr XV. yy (TDV «Dârfûr»); 1400 yılı kaynakta yok (uydurma yıl — yalnız yüzyıl). TDV ayrıca Dâcû'yu 'güneydoğuda' yaşayan kabile sayar: Nyala bölgesinde Dâcû'nun daha uzun kalmış olabileceği sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "s",
+   "d": "tunciler",
+   "f": "1400-01-01",
+   "t": "1695-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "Tuncûrlar’ın XV. yüzyılın sonlarında ve XVI. yüzyılda Dârfûr’u ... nüfuzları altına almayı başarmış",
+   "oneri": {},
+   "not": "[sira 1005] f YÜZYIL (XV. yy, yıl yok). t 1695 teyitli: 'Sultan Süleyman Solonc’dan (1695-1715)' (TDV «Dârfûr»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "s",
+   "d": "darfur",
+   "f": "1695-01-01",
+   "t": "1874-11-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "Sultan Süleyman Solonc’dan (1695-1715) sonra aynı aileden on kişi iktidara geldi",
+   "oneri": {},
+   "not": "[sira 1006] YIL. t: 'son bağımsız Dârfûr sultanı İbrâhim öldürülmüştür (1874)' (aynı madde); 11-02 günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1883-12-23",
+   "t": "1898-09-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi",
+   "oneri": {},
+   "not": "[sira 1007] f AY (Aralık 1883; 23 Aralık Slatin teslimi, okunmadı). t: '2 Eylül 1898 tarihinde Kerkeri savaşında ... Mehdî Devleti yıkıldı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "s",
+   "d": "darfur",
+   "f": "1898-09-02",
+   "t": "1916-05-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "Ali Dînâr, Sudan hükümetinin gönderdiği kuvvetler tarafından 6 Kasım 1916’da öldürüldü",
+   "oneri": {
+    "t": "1916-11-06"
+   },
+   "not": "[sira 1008] Nyala güney Dârfûr'dadır: 1916-05-23 Fâşir'in düşüşüdür, Ali Dînâr güneye/batıya çekildi ve 6 Kasım 1916'da öldürüldü (TDV «Dârfûr»). ÖLÇÜT: fiilî idare — Nyala'da sultanlık Kasım'a dek sürmüş olabilir; yerleşime özgü İngiliz giriş günü okunmadı, öneri ABİ MERKEZ = sultanın sonu (BEYANLI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:995",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1874-11-02",
+   "t": "1883-12-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dârfûr», https://islamansiklopedisi.org.tr/darfur ; TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi",
+   "oneri": {},
+   "not": "[sira 1009] f YIL (1874 zapt, TDV «Dârfûr»); t AY (Aralık 1883)."
+  }
+ ],
+ "Sodo (Vollayta)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1894-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1010] Vollayta'nın Menelik'e katılışı (1894) TDV «Etiyopya»de yok (Velayta/Wolaita/1894 aranıp bulunamadı). t 1936-06-01 İtalyan Doğu Afrikası kimlik günü, Sodo'nun İtalyan işgal günü okunmadı. TARAYICI: UNESCO GHA c. VII (archive.org) Menelik'in güney fetihleri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "vollayta",
+   "f": "1281-01-01",
+   "t": "1894-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1011] Vollayta krallığı TDV'de yok; 1894 bitiş okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1012] [KÜME K17] ayrı ajanda. Not: gece-18 kararı — Gondar dışı yerlerde f 1941-05-05 ya da kendi kurtuluş günü; Sodo güneydedir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1013] [KÜME K15] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1014] [KÜME K18] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1030",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1015] [KÜME K19] ayrı ajanda."
+  }
+ ],
+ "Dâhile": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 1016] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 1017] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1018] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 1019] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 1020] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 1021] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 1022] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 1023] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1098",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 1024] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Câlû": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi ; TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Bingazi müstakil mutasarrıflığı Bingazi, Derne, Ucle-Câlû, Ecdâbiye ve Kufra adlı beş kazaya ayrıldı",
+   "oneri": {
+    "d": "kanem-bornu değil — Berka/Bingazi zinciri (öncül sahip kaynakla)",
+    "t": "1578-01-01"
+   },
+   "not": "[sira 1025] Câlû (29.0K 21.5D) Berka'dadır, Fizan'da değil: TDV «Bingazi» Ucle-Câlû'yu Bingazi mutasarrıflığının kazası sayar. Kânim'in aldığı yer TDV «Libya»ye göre Fizan'dır ('adı geçen sultanlık Fizan’ı aldı'); kanem-bornu Câlû için dayanaksız. t: ABİ MERKEZ Bingazi — 'Bingazi de kesin olarak Osmanlı yönetimine katıldı (1578)'. 1281-1578 sahibi bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1577-01-01",
+   "t": "1711-07-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi ; TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra Bingazi de kesin olarak Osmanlı yönetimine katıldı (1578)",
+   "oneri": {
+    "f": "1578-01-01"
+   },
+   "not": "[sira 1026] ABİ MERKEZ Bingazi (TDV «Bingazi»), BEYANLI YAKLAŞIKLIK, YIL. 1577 (Fizan sancağı) Câlû'ya ait değil. t 1711-07-29 KAYNAKLI (TDV «Karamanlı»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli ; TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "f": "1835-05-28"
+   },
+   "not": "[sira 1027] ÜLKE DÜZEYİ. 1835-05-26 kaynakta yok: Necib Paşa kuvvetleri 27 Mayıs karaya çıktı, ertesi gün (28 Mayıs) Karamanlı Ali Bey tutuklandı, ardından vali fermanı ilân edildi. Öneri 1835-05-28 (fiilî devir); 27 Mayıs çıkarma ic_not. t 1912-10-18 (Uşi) bu turda okunmadı. ABİ MERKEZ Trablus/Bingazi. İPUCU: Câlû-Ucle XIX. yy'da Senûsî etki alanı — okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "t": "1835-05-28"
+   },
+   "not": "[sira 1028] f 1711-07-29 KAYNAKLI (TDV «Karamanlı»: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'). t: bkz. d: 1835 satırı, 05-26 → 05-28."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {},
+   "not": "[sira 1029] ÜLKE DÜZEYİ, f YIL (TDV '1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca'); 23 Ocak 1943 (Trablus'a giriş) bu maddede yok — gün teyitsiz. t 1951-12-24 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "[sira 1030] ÜLKE DÜZEYİ. t: '1 Eylül 1969’da ... yapılan darbe ile krallık yıkıldı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1149",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "[sira 1031] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Vrana (Urana)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1806-02-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Dalmacija», https://www.enciklopedija.hr/clanak/dalmacija",
+   "alinti": "do mira u Campoformiju 17. X. 1797., kada je Mletačka Republika prestala postojati",
+   "oneri": {},
+   "not": "[sira 1032] BÖLGE DÜZEYİ (Dalmaçya). t: 'u veljači 1806. Francuska preuzima vlast u Dalmaciji' — AY; 1806-02-01 ayın ilk günü (beyanlı). Pojun barışı 26. XII. 1805 ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1409-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Zadarski mir», https://www.enciklopedija.hr/clanak/zadarski-mir ; Hrvatska tehnička enciklopedija (LZMK), «Vrana, stari grad», https://tehnika.lzmk.hr/vrana-stari-grad/",
+   "alinti": "dana 18. II. 1358. ... kojim je Dalmacija sljedećih pola stoljeća bila inkorporirana",
+   "oneri": {},
+   "not": "[sira 1033] BÖLGE DÜZEYİ: f Zadar barışı 18.II.1358 (LZMK); t LZMK «Vrana»: 'od 1409. Mlečana' (YIL). EK ÇELİŞKİ: zincirdeki s: venedik 1281 → 1358 LZMK ile uyuşmuyor — Vrana 'Od XII st. u posjedu je templara, zatim ivanovaca' (Hırvat-Macar tacı altında tarikat mülkü); Venedik 1281-1358'de Vrana'yı tutmuyordu. Ayrı ONERI adayı (KASA ölçsün)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1540-10-02",
+   "t": "1699-01-26",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska tehnička enciklopedija (LZMK), «Vrana, stari grad», https://tehnika.lzmk.hr/vrana-stari-grad/",
+   "alinti": "od 1409. Mlečana, a 1537–1647. Osmanlija",
+   "oneri": {
+    "f": "1537-01-01",
+    "t": "1647-01-01",
+    "not": "venedik t 1540-10-02 → 1537-01-01; venedik 1647-01-01 → 1797-10-17 (1699-01-26 yerine)"
+   },
+   "not": "[sira 1034] LZMK: Osmanlı dönemi 1537-1647. ÖLÇÜT: idareye katma — Vrana Osmanlı sancağına (Kırka/Klis) bağlandı, Yûsuf Paşa Hanı 1644-45 (LZMK; TDV «Kırka» da Vrana'daki hanı anar). Antlaşma 1540-10-02 ic_not (Antlaşma günü ölçüt değil). t: Venedik 1647'de geri aldı (İPUCU gün 15 Nisan 1647, akademik kaynakla teyit edilmedi); Karlofça 1699-01-26 ic_not. İPUCU: bazı kaynaklar fethi 1538 verir — ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Dalmacija», https://www.enciklopedija.hr/clanak/dalmacija",
+   "alinti": "(mir u Schönbrunnu, 14. X. 1809) Dalmacija je uključena u Ilirske pokrajine",
+   "oneri": {},
+   "not": "[sira 1035] DIGER. f LZMK «Dalmacija» ile uyumlu (okundu); t 1813-01-01 (önceki kayıttan) sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1919-09-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1036] DIGER (D205 kararı). Sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1037] DIGER (F8, Saint-Germain md. 91). Sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:306",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1920-11-12",
+   "t": "1945-11-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1038] DIGER (Rapallo, LNTS c.18). Sınanmadı."
+  }
+ ]
+}

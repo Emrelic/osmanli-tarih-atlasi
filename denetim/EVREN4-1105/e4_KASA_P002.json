@@ -1,0 +1,1098 @@
+{
+ "Bikaner": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:729",
+   "alan": "s",
+   "d": "racput",
+   "f": "1488-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Indian Independence Act 1947 s.1(1) (t ucu; legislation.gov.uk/ukpga/Geo6/10-11/30/section/1/enacted)",
+   "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India",
+   "oneri": {},
+   "not": "[sira 72] f (1488 Rao Bika'nın Bikaner'i merkez yapması) akademik kaynakta okunamadı: bikaner.rajasthan.gov.in bağlantı reddi; arama yalnız popüler siteler verdi (1465 devlet / 1488 şehir ayrımı). t ÜLKE DÜZEYİ teyitli. Sınanmayan notlar: Bâbürlü tâbiliği (Ekber dönemi), 1818 İngiliz antlaşması (v:), 7 Ağustos 1947 Instrument of Accession ve 30 Mart 1949 Büyük Racastan'a katılış — 1947-08-15 sonrası prenslik 1949'a dek ayrı birimdi. Imperial Gazetteer yalnız İPUCU."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:729",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 73] [KÜME K10]"
+  }
+ ],
+ "Bhuc (Kutch)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:798",
+   "alan": "s",
+   "d": "racput",
+   "f": "1510-01-01",
+   "t": "1947-08-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 74] Bütçe; f aranmadı. t (1947-08-15) Indian Independence Act s.1(1) ile ÜLKE DÜZEYİ uyumlu. Sınanmayan not: Kutch 1815/1819 İngiliz himayesi (v:) ve 1948-06-01 Chief Commissioner's Province."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:798",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 75] [KÜME K10]"
+  }
+ ],
+ "Broaç (Bharuch)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1772-11-18",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "British Library, India Office Records, 'Factory Records: Broach' (IOR/G/5), idarî tarihçe (searcharchives.bl.uk/catalog/036-000173372)",
+   "alinti": "In 1783 the district was handed over to the Maratha prince, Scindia, but was regained in 1803.",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "ingiliz-hindistani",
+      "f": "1772-11-18",
+      "t": "1783-01-01"
+     },
+     {
+      "d": "maratha",
+      "f": "1783-01-01",
+      "t": "1803-01-01"
+     },
+     {
+      "d": "ingiliz-hindistani",
+      "f": "1803-01-01",
+      "t": "1947-08-15"
+     }
+    ]
+   },
+   "not": "[sira 76] Dönem bölünmeli: BL 'In 1772 the district of Broach became part of the Company's territories' (f YIL teyitli) + 1783 Sindiya'ya devir, 1803 geri alış. ÖLÇÜT: idareye katma — Şirket toprağı / devir. Uçlar YIL düzeyi (1783 TESLİM yılı; Salbai imzası 1782-05-17, onayı 1783 — ic_not). 1803 günü (Woodington'un hücumu, Ağustos 1803) gün kaynağı aranmalı. Hayalet: maratha künyesi 1674-1818 kapsar (Sindiya ayrı künye yok). t ucu Indian Independence Act ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1304-01-01",
+   "t": "1407-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "1407'de Muzaffer Şah unvanıyla Gucerât Sultanlığı'nın temellerini attı.",
+   "oneri": {
+    "f": "1300-01-01"
+   },
+   "not": "[sira 77] t KAYNAKLI (1407). f: TDV Gucerât «kesin olarak Delhi Sultanı Alâeddin Halacî zamanında (1296-1316) fethedilmiştir» ve Melik Sencer'in vali tayini 1300 — ÖLÇÜT: idareye katma (vali tayini). BÖLGE DÜZEYİ (Gucerât); Broaç'a özgü tanık yok — ONERI zayıftır, alternatif 1304 kaynağı bulunursa o esas. Önceki racput t'si de değişir (sira 79)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1407-01-01",
+   "t": "1573-02-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât»",
+   "alinti": "Ekber Kasım 1572'de Gucerât'a vardı.",
+   "oneri": {
+    "islem": "HAYALET: künye gucerat-sultanligi t=1573-01-01, dönem t=1573-02-26 — künye t'si 1573-02-26'ya genişletilmeli ya da dönem kısaltılmalı (künye sorusu LAB)"
+   },
+   "not": "[sira 78] f KAYNAKLI (1407). t: TDV yalnız Ekber'in Kasım 1572'de Gucerât'a varışını veriyor; Broaç'ın düşüş günü (Mirzalar kuşatması, 1573) TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1304-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Gucerât»",
+   "alinti": "Gucerât, kesin olarak Delhi Sultanı Alâeddin Halacî zamanında (1296-1316) fethedilmiştir.",
+   "oneri": {
+    "t": "1300-01-01"
+   },
+   "not": "[sira 79] sira 77 ile birlikte (Melik Sencer valiliği 1300). BÖLGE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1573-02-26",
+   "t": "1772-11-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "BL IOR/G/5 (t ucu YIL)",
+   "alinti": "In 1772 the district of Broach became part of the Company's territories.",
+   "oneri": {},
+   "not": "[sira 80] t YIL teyitli; f günü bulunamadı (bkz. sira 78). Sınanmayan not: XVIII. yy Broaç nevvâbları (yarı bağımsız) zincirde yok; TDV Gucerât: Ahmedâbâd 1758'de Maratalarca alınınca Gucerât'ta Bâbürlü hâkimiyeti sona erdi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:823",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 81] [KÜME K10]"
+  }
+ ],
+ "Mungîr (Monghyr)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1764-10-22",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bâbürlü hâkimiyeti 1757'ye kadar devam etmiş ve bu tarihte ... bölge tamamen İngilizler'in eline geçmiştir.",
+   "oneri": {
+    "f": "1757-06-23"
+   },
+   "not": "[sira 82] HAYALET + TDV: önceki dönem bengal-nevabligi künyesi t=1757-06-23, oysa yerleşimde 1764-10-22'ye dek sürüyor (1757-1764 boyanmaz). TDV Bengal bölgeyi 1757'de İngilizlere geçmiş sayıyor. BÖLGE DÜZEYİ (Mungîr Bihar'da, Bengal subahının parçası). Alternatif (Emre kararı): aynı polity sürüyorsa bengal-nevabligi künyesi 1764'e GENİŞLETİLİR (Mîr Kâsım Mungîr'i merkez yaptı 1762-63). ic_not: Baksar 1764-10-22, Divanî 1765-08-12. t Indian Independence Act ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1538-01-01",
+   "t": "1564-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Sûrîler» (Azmi Özcan; t ucu)",
+   "alinti": "971 (1564) yılına kadar devam etti.",
+   "oneri": {},
+   "not": "[sira 83] t YIL teyitli (Sûrîler'in Bengal kolu 971/1564). f (1538) TDV Sûrîler'de okunmadı (hânedan kuruluşu 947/1540). Mungîr'e özgü tanık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1564-01-01",
+   "t": "1576-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Bengal»",
+   "alinti": "Bengal'in Bâbürlü İmparatorluğu'na dahil olması 1576'da Ekber Şah zamanında gerçekleşmiştir.",
+   "oneri": {
+    "islem": "HAYALET: künye bengal-sultanligi t=1576-01-01, dönem 1576-07-12'ye dek — künye t'si genişletilmeli (Kerrânî kolu) ya da dönem kısaltılmalı; künye sorusu LAB"
+   },
+   "not": "[sira 84] t YIL teyitli (1576). Rajmahal günü (12 Temmuz 1576) TDV'de yok. f (1564) Sûrîler t'si ile uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1576-07-12",
+   "t": "1717-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Bengal» (f ucu YIL)",
+   "alinti": "Bengal'in Bâbürlü İmparatorluğu'na dahil olması 1576'da Ekber Şah zamanında gerçekleşmiştir.",
+   "oneri": {},
+   "not": "[sira 85] f YIL teyitli; t (1717 Mürşid Kulı Han) TDV Bengal'de yok. TDV Bengal Bâbürlü hâkimiyetini 1757'ye dek sürdürüyor (nevvâblar Bâbürlü valisi) — s:/v: ayrımı Emre kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "bengal-nevabligi",
+   "f": "1717-01-01",
+   "t": "1764-10-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Bengal»; devletler.js künye bengal-nevabligi (f 1717-01-01, t 1757-06-23)",
+   "alinti": "Bâbürlü hâkimiyeti 1757'ye kadar devam etmiş",
+   "oneri": {
+    "t": "1757-06-23"
+   },
+   "not": "[sira 86] HAYALET: künye t 1757-06-23; dönem 1764'e dek. sira 82 ile birlikte. f (1717) kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bengal, bağımsız bir devlet olduğu 1340 yılına kadar Delhi Sultanlığı'nın bir eyaleti olarak kaldı.",
+   "oneri": {},
+   "not": "[sira 87] BÖLGE DÜZEYİ, YIL; Mungîr Bihar'dadır — beyanlı yaklaşıklık. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1340-01-01",
+   "t": "1538-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Bengal» (f ucu)",
+   "alinti": "bağımsız bir devlet olduğu 1340 yılına kadar",
+   "oneri": {},
+   "not": "[sira 88] f YIL teyitli; t (1538 Şîr Şah) okunmadı. Mungîr (Bihar) için Bengal Sultanlığı hâkimiyetinin sürekliliği sınanmadı (Cavnpur/Lûdî dönemleri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:968",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 89] [KÜME K10]"
+  }
+ ],
+ "Bâlâsor (Balasore)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-10-14",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Indian Independence Act 1947 s.1(1) (t ucu)",
+   "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven",
+   "oneri": {},
+   "not": "[sira 90] f bulunamadı: TDV 'urisa' maddesi yok; Odisha hükümeti kronolojisi (magazines.odisha.gov.in ORA-2004) DNS hatası ile açılamadı (arama özeti '1803 Barabati Fort occupied' diyor — teyit değil; 1803-10-14 Barabati/Cuttack günüdür, Balasore'nin kendi düşüşü Eylül 1803 olabilir). TARAYICI: magazines.odisha.gov.in/orissaannualreference/ORA-2004/pdf/chronological_ac_of_orissa_history.pdf."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "orissa",
+   "f": "1281-01-01",
+   "t": "1568-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 91] Bkz. sira 90 (Odisha kronolojisi açılamadı; arama özeti 1568 Süleyman Kerrânî fethi diyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1568-01-01",
+   "t": "1592-01-01",
+   "hukum": "ONERI",
+   "kaynak": "devletler.js künye bengal-sultanligi (t 1576-01-01); TDV «Bengal» (Bâbürlü'ye katılış 1576)",
+   "alinti": "Bengal'in Bâbürlü İmparatorluğu'na dahil olması 1576'da Ekber Şah zamanında gerçekleşmiştir.",
+   "oneri": {
+    "islem": "HAYALET: künye t 1576-01-01, dönem 1592'ye dek — 1576-1592 Afgan (Kutlu Han) Orissa'sı için künye yok; künye sorusu LAB"
+   },
+   "not": "[sira 92] Uçlar kaynakta okunmadı (Odisha kronolojisi açılamadı); öneri yalnız künye penceresi aşımıdır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1592-01-01",
+   "t": "1751-05-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 93] Bkz. sira 90."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1751-05-17",
+   "t": "1803-10-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 94] Bkz. sira 90 (Alivardi Han'ın Orissa'yı Maratalara terki 1751)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1113",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 95] [KÜME K10]"
+  }
+ ],
+ "Mangalor": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1799-05-04",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tîpû Sultan» (Azmi Özcan; https://islamansiklopedisi.org.tr/tipu-sultan); Indian Independence Act 1947 s.1(1)",
+   "alinti": "Srirangapatam savaşında yenilerek hayatını kaybetti (29 Zilkade 1213/4 Mayıs 1799).",
+   "oneri": {},
+   "not": "[sira 96] BÖLGE DÜZEYİ: TDV 'Meysûr Sultanlığı toprakları İngiliz hâkimiyetine girdi'. Kanara'nın fiilî devri (Haziran 1799 taksim antlaşması) ic_not. Sınanmayan not: 1783-84 İngiliz işgali ve Mangalor Antlaşması (1784) zincirde yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "hoysala",
+   "f": "1281-01-01",
+   "t": "1343-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 97] TDV 'mangalor' maddesi yok (arama: Burhânpûr ve İbn Battûta maddelerinde geçiyor). Mangalor Alupa hanedanı (Hoysala tâbii) sorusu açık."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1343-01-01",
+   "t": "1565-01-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 98] TDV 'vijayanagar' slug'ı aramaya düştü. Tâlîkota günü (yaygın: 23 Ocak 1565) atlasın 1565-01-05'i ile uyuşmuyor olabilir — kaynakla sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "nayak-devletleri",
+   "f": "1565-01-05",
+   "t": "1763-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 99] TDV «Meysûr» ve «Tîpû Sultan» 1763 Bednûr/Mangalor fethini anmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "meysur",
+   "f": "1763-01-01",
+   "t": "1799-05-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Tîpû Sultan» (t ucu)",
+   "alinti": "Srirangapatam savaşında yenilerek hayatını kaybetti (29 Zilkade 1213/4 Mayıs 1799).",
+   "oneri": {},
+   "not": "[sira 100] t gün düzeyinde teyitli; f (1763) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1373",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 101] [KÜME K10]"
+  }
+ ],
+ "Bangalor": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1422",
+   "alan": "s",
+   "d": "meysur-racaligi",
+   "f": "1799-05-04",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Meysûr» (Azmi Özcan; https://islamansiklopedisi.org.tr/meysur); TDV «Tîpû Sultan»; Indian Independence Act 1947 s.1(1)",
+   "alinti": "beş yaşında bir Hindu hânedan üyesini tahta oturtup eski racalığı tekrar ihdas ettiler",
+   "oneri": {},
+   "not": "[sira 102] f gün: TDV Tîpû (4 Mayıs 1799). TDV Meysûr devamı: 'gerçek yönetici ise kendilerinin Hindistan genel valisi idi' — v: ingiliz katmanı (1799-1947) zincirde var mı kontrol edilmeli. Sınanmayan not: Bangalor Kantonmanı (Civil and Military Station) İngiliz idaresindeydi. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1422",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1537-01-01",
+   "t": "1565-01-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 103] 1537 (Kempe Gowda kuruluşu) ve Tâlîkota günü okunmadı; TDV 'vijayanagar' maddesi bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1422",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1565-01-05",
+   "t": "1687-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kutubşâhîler» (https://islamansiklopedisi.org.tr/kutubsahiler); devletler.js künye bicapur (t 1686-09-22)",
+   "alinti": "Bîcâpûr'u ele geçirerek (1686) tekrar Gûlkünde'yi kuşattı.",
+   "oneri": {
+    "t": "1686-09-22",
+    "islem": "HAYALET: künye bicapur t=1686-09-22, dönem 1687-01-01'e dek; 1686-09-22 → 1687 arası sahip (Bâbürlü?) kaynakla bulunmalı"
+   },
+   "not": "[sira 104] TDV Kutubşâhîler Bîcâpûr'un düşüşünü 1686 veriyor. Ayrıca f şüpheli: Bangalor Tâlîkota'dan sonra Kempe Gowda (Vijayanagara feodalı) elindeydi, Bîcâpûr'a geçişi yaygın olarak 1638 — kaynakla okunmadı, öneri yazılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1422",
+   "alan": "s",
+   "d": "meysur",
+   "f": "1687-01-01",
+   "t": "1799-05-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Tîpû Sultan» (t ucu)",
+   "alinti": "Srirangapatam savaşında yenilerek hayatını kaybetti (29 Zilkade 1213/4 Mayıs 1799).",
+   "oneri": {},
+   "not": "[sira 105] t teyitli; f (1687) okunmadı — Bâbürlü fethi 1687 ve Meysûr'a satış 1689 arası Bâbürlü dönemi olabilir (sınanmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1422",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 106] [KÜME K10]"
+  }
+ ],
+ "Tranquebar (Tharangambadi)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1845-02-22",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Indian Independence Act 1947 s.1(1) (t ucu)",
+   "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven",
+   "oneri": {},
+   "not": "[sira 107] f (1845 satış imzası) akademik kaynakta okunamadı; arama yalnız Vikipedi/gazete verdi. TEK ÖLÇÜ: İngiltere Tranquebar'ı yönetmiyordu → s: TESLİM günüdür (imza değil) — teslim günü kaynakla bulunmalı. TARAYICI: Rigsarkivet / Nationalmuseet (Danimarka) Trankebar yayınları."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "pandya",
+   "f": "1281-01-01",
+   "t": "1311-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 108] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1311-01-01",
+   "t": "1335-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 109] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "madurai-sultanligi",
+   "f": "1335-01-01",
+   "t": "1378-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 110] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1378-01-01",
+   "t": "1532-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 111] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "nayak-devletleri",
+   "f": "1532-01-01",
+   "t": "1620-11-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 112] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1620-11-19",
+   "t": "1845-02-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 113] Arama: 19/20 Kasım 1620 antlaşma günü çelişkili, yalnız popüler kaynaklar; Kopenhag Rigsarkivet'te Portekizce asıl metin var (arama özeti). t için sira 107 (TEK ÖLÇÜ teslim günü). Sınanmayan not: 1808-1815 İngiliz işgali (Napolyon savaşları) zincirde yok — isg adayı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1495",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 114] [KÜME K10]"
+  }
+ ],
+ "Kalikut (Kozhikode)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1581",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1792-03-18",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malabar» (https://islamansiklopedisi.org.tr/malabar); TDV «Meysûr»; Indian Independence Act 1947 s.1(1)",
+   "alinti": "1792'den itibaren Güney Hindistan'a da hâkim olan İngil[izler]",
+   "oneri": {},
+   "not": "[sira 115] BÖLGE DÜZEYİ, f YIL (TDV Meysûr: Tîpû müttefiklere yenildi 1792). 18 Mart (Seringapatam Antlaşması) günü TDV'de yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1581",
+   "alan": "s",
+   "d": "kalikut",
+   "f": "1281-01-01",
+   "t": "1766-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 116] TDV 'kalikut' maddesi yok; TDV Malabar Haydar Ali'nin Malabar hâkimiyetini yalnız 'XVIII. yüzyılın ikinci yarısında bir dönem' diye veriyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1581",
+   "alan": "s",
+   "d": "meysur",
+   "f": "1766-01-01",
+   "t": "1792-03-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Malabar» (t ucu YIL)",
+   "alinti": "1792'den itibaren Güney Hindistan'a da hâkim olan İngil[izler]",
+   "oneri": {},
+   "not": "[sira 117] t YIL teyitli; f (1766) okunmadı. Sınanmayan not: Kalikut 1790'da İngilizlerce alındı olabilir (TEK ÖLÇÜ: antlaşma imzası mı fiilî denetim mi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1581",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 118] [KÜME K10]"
+  }
+ ],
+ "Kannûr (Cannanore)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1790-12-15",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Indian Independence Act 1947 s.1(1) (t ucu)",
+   "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven",
+   "oneri": {},
+   "not": "[sira 119] f (Aralık 1790 İngiliz zaptı) okunmadı. Sınanmayan not: Arakkal hanedanı İngiliz döneminde de sürdü (TDV Malabar: 'XX. yüzyıla kadar devam eden bu hânedanlık') — v: katmanı sorusu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "kalikut",
+   "f": "1281-01-01",
+   "t": "1505-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malabar» (https://islamansiklopedisi.org.tr/malabar)",
+   "alinti": "Arakkal adıyla bilinen bir hânedanlığı başlatan Kannanur hâkimi Ali Raca, aynı zamanda Malabar sınırlarındaki ilk bağımsız müslüman sultanlığının kurucusudur.",
+   "oneri": {
+    "d": "<Arakkal / Kolattiri künyesi — devletler.js'te yok, LAB>",
+    "islem": "Kannûr Kalikut Zamorin'inin değil kendi hânedanının (Arakkal Ali Racaları; Kolattiri racalarına bağlı) toprağıdır"
+   },
+   "not": "[sira 120] Künye var mı ölçüldü: devletler.js'te arakkal/kolat* id'si yok. TDV kuruluş yılı vermiyor ('muhtemelen bu dönemlerde' — İbn Battûta dönemi, XIV. yy). Ayrıca mevcut kaynak YANLIŞ DEVRALMA: 'Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz' (Fas) maddesi Kannûr'a bağlanmış; kaynak alanı silinmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1505-01-01",
+   "t": "1663-02-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 121] Mevcut kaynak YANLIŞ DEVRALMA (Agadir/Santa Cruz do Cabo de Gué, Fas) — Kannûr'la ilgisi yok. 1505 (Almeida'nın St. Angelo kalesi) ve 1663 Hollanda zaptı kaynakta okunmadı. TAHRİR notu: Portekiz yalnız kaleyi tutuyordu, şehir Arakkal/Kolattiri elindeydi — s: portekiz şehrin bütünü için tartışmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1663-02-15",
+   "t": "1771-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 122] Okunmadı; Hollanda'nın kaleyi Arakkal'e satışı (1772 civarı) sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "meysur",
+   "f": "1771-01-01",
+   "t": "1790-12-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 123] TDV Malabar/Meysûr/Tîpû maddelerinde Kannûr'a özgü tarih yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1599",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 124] [KÜME K10]"
+  }
+ ],
+ "Râcahmundry": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1766-11-12",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Indian Independence Act 1947 s.1(1) (t ucu)",
+   "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven",
+   "oneri": {},
+   "not": "[sira 125] f (1766-11-12 Nizam antlaşması) okunmadı. Sınanmayan not: Kuzey Sirkârları 1753-1758 Fransız idaresinde (Bussy), 1758-59 İngiliz zaptı, 1765 Bâbürlü fermanı — zincirde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1323-01-01",
+   "t": "1347-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 126] Okunmadı. Uyarı: 1347-08-03 Behmenî kuruluşudur; Râcahmundry Behmenî toprağı değil, Musunuri / Reddi ve Gajapati (Orissa) elindeydi — sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1512-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Kutubşâhîler» (t ucu bağlamı)",
+   "alinti": "Doğu Tilangāna'ya vali tayin edilen Türk asıllı Kıvâmülmülk'ü bertaraf ederek bağımsızlığını ilân etti (1512).",
+   "oneri": {},
+   "not": "[sira 127] Râcahmundry'nin Behmenî hâkimiyeti kaynakta okunmadı; TDV Kutubşâhîler yalnız Golkonda'nın 1512 bağımsızlığını ve Orissa-Karnâta racalarıyla mücadeleyi veriyor. Dönem büyük olasılıkla Reddi/Gajapati'dir — TARAYICI: akademik Andhra tarihi (ör. N. Venkataramanayya)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "haydarabad-nizam",
+   "f": "1724-10-11",
+   "t": "1766-11-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hindistan» hanedan cetveli (f YIL)",
+   "alinti": "Haydarâbâd Nizamlığı (1724-1948)",
+   "oneri": {},
+   "not": "[sira 128] f YIL teyitli; t (1766) okunmadı; 1753-1758 Fransız dönemi sorusu (sira 125)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "kakatiya",
+   "f": "1281-01-01",
+   "t": "1323-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 129] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "golkonda",
+   "f": "1512-01-01",
+   "t": "1687-09-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kutubşâhîler» (https://islamansiklopedisi.org.tr/kutubsahiler)",
+   "alinti": "sekiz ay süren bir kuşatma sonunda (14 Zilkade 1098 / 21 Eylül 1687)",
+   "oneri": {},
+   "not": "[sira 130] t gün düzeyinde teyitli (Golkonda'nın düşüşü, ÜLKE DÜZEYİ). f: 1512 Golkonda'nın bağımsızlığıdır; Râcahmundry'nin Kutubşâhîlere geçişi (yaygın olarak 1571, Gajapati'den) kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1687-09-21",
+   "t": "1724-10-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Kutubşâhîler» (f); TDV «Hindistan» hanedan cetveli (t YIL)",
+   "alinti": "sekiz ay süren bir kuşatma sonunda (14 Zilkade 1098 / 21 Eylül 1687)",
+   "oneri": {},
+   "not": "[sira 131] ÜLKE DÜZEYİ; t YIL (Haydarâbâd Nizamlığı 1724-1948). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1630",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 132] [KÜME K10]"
+  }
+ ],
+ "Baoding": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1756",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-09-14",
+   "t": "1644-06-06",
+   "hukum": "ONERI",
+   "kaynak": "F. Wakeman Jr., The Great Enterprise: The Manchu Reconstruction of Imperial Order in Seventeenth-Century China (Univ. of California Press, 1985), archive.org bub_gb_8nXLwSG2O8AC",
+   "alinti": "Besieged inside Baoding by Li Zicheng's men, Li Jiantai surrendered after killing the prefect, Shao Zongyuan",
+   "oneri": {
+    "t": "<1644-04-25 sonrası Baoding'in Shun'a teslim günü>",
+    "ek": {
+     "d": "dashun",
+     "f": "<aynı gün>",
+     "t": "1644-06-06"
+    }
+   },
+   "not": "[sira 133] Wakeman: Li Jiantai 'did not reach Baoding until after Beijing had fallen to the rebels' (Pekin 25 Nisan 1644) → Baoding Nisan sonu/Mayıs 1644'te Shun'a geçti; Ming dönemi Qing girişine (06-06) dek sürmez. Gün kaynakta yok (Wakeman dipnotu: Wan, Chongzhen changbian s.113). Hayalet: dashun künye f 1644-01-01 t 1647-01-01 kapsar. f ucu (1368-09-14) KÜME K13 (yuan t) ile ortak, sınanmadı. Takvim: Çin günleri elle çevrilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1756",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1644-06-06",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 134] Wakeman: Ajige Li Zicheng'i Baoding'e dek kovaladı, isyancılar çekilmişti; Qing Baoding valisi (Wang Wenkui, sonra Shen Wenkui) 1644 — kesin devir günü okunmadı. t KÜME K08 (cin-cumhuriyeti f) ile ortak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1756",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 135] [KÜME K08]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1756",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 136] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1756",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 137] [KÜME K09]"
+  }
+ ],
+ "Pingyao": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-09-14",
+   "t": "1644-03-16",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 138] Wakeman, The Great Enterprise (1985): Li Zicheng'in kuvvetleri 1644 başında Şanxi'ye yayıldı, Pingyang düştü, Taiyuan'ı aldı — Pingyao'ya özgü gün yok. f KÜME K13 ile ortak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1644-10-01",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Wakeman, The Great Enterprise (1985), archive.org bub_gb_8nXLwSG2O8AC",
+   "alinti": "Two of the district capitals, Taigu and Pingyao, refused to surrender.",
+   "oneri": {},
+   "not": "[sira 139] f: Wakeman'a göre Qing'in Eylül 1644 Taiyuan saldırısı Shun savunmasını kıramadı; Taiyuan 1644'te Yecen'ce alındı — Pingyao günü yok. Sınanmayan bulgu: 1649 Jiang Xiang isyanında Pingyao teslim olmayı reddetti, Qing kuvvetlerince alındı (Wakeman) — 1649 isyan dönemi zincirde yok. t KÜME K08 ile ortak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 140] [KÜME K08]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 141] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "dashun",
+   "f": "1644-03-16",
+   "t": "1644-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 142] Wakeman Shun'un Şanxi'deki hâkimiyetini (Taiyuan'da Chen Yongfu) doğruluyor ama Pingyao uçları yok. Künye dashun 1644-1647 kapsar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1800",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 143] [KÜME K09]"
+  }
+ ],
+ "Xuzhou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "F. Wakeman Jr., The Great Enterprise (1985), archive.org bub_gb_8nXLwSG2O8AC",
+   "alinti": "The solar date of the emperor's death was April 25, 1644.",
+   "oneri": {},
+   "not": "[sira 144] t ÜLKE DÜZEYİ (Chongzhen'in ölümü / Pekin'in düşüşü). f ucu KÜME K13 (yuan t) ile ortak, sınanmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1645-06-08",
+   "hukum": "ONERI",
+   "kaynak": "F. Wakeman Jr., The Great Enterprise (1985), s. 328-329, 522 (archive.org bub_gb_8nXLwSG2O8AC)",
+   "alinti": "The official in charge of Xuzhou, Huang Xixian, had in fact abandoned the city to a Shun appointee, Wu Su.",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "dashun",
+      "f": "1644-06-03",
+      "t": "1644-06-28"
+     },
+     {
+      "d": "guney-ming",
+      "f": "1644-06-28",
+      "t": "1645-06-08"
+     }
+    ]
+   },
+   "not": "[sira 145] Wakeman: Shun atanmışı Wu Su 'arrived on June 3, 1644' ve 'By June 28, Wu Su himself had evacuated the city'; ardından şehir Gao Jie (Güney Ming) kuvvetlerine açık kaldı. 1644-04-25 → 06-03 arası Ming memuru Huang Xixian (şehri Shun'a bıraktı) — o ara için d: guney-ming künyesi (f 1644-04-25) kalabilir. t: Wakeman s.522 — Junta Xuzhou'ya saldırdı, garnizon komutanı Li Chengdong Qing'e geçti (gün bilinmiyor; 4 Mayıs'ta hâlâ savaşıyordu); bölgenin öteki savunucusu Liu Liangzuo 'surrendered on June 8, 1645' (Gu Yanwu) — t 1645-06-08 yaklaşık uyumlu, beyan edilmeli. Hayalet: dashun künye 1644-1647 kapsar. Wakeman'ın günleri güneş takvimine çevrilmiş verilmiş (kaynak çevirisi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-06-08",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "F. Wakeman Jr., The Great Enterprise (1985), s. 522 ve dipnot 35 (Gu Yanwu, Sheng'an benji s.29)",
+   "alinti": "According to Gu Yanwu, Liu surrendered on June 8, 1645.",
+   "oneri": {},
+   "not": "[sira 146] f yaklaşık: 8 Haziran 1645 Xuzhou bölgesi savunucusu Liu Liangzuo'nun teslimidir; şehir garnizonu Li Chengdong'un teslim günü bilinmiyor (Wakeman). BEYANLI YAKLAŞIKLIK. t KÜME K08 ile ortak. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 147] [KÜME K08]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 148] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1970",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 149] [KÜME K09]"
+  }
+ ],
+ "Ningbo": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "F. Wakeman Jr., The Great Enterprise (1985), archive.org bub_gb_8nXLwSG2O8AC",
+   "alinti": "The solar date of the emperor's death was April 25, 1644.",
+   "oneri": {},
+   "not": "[sira 150] t ÜLKE DÜZEYİ; f KÜME K13 ile ortak. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1646-07-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Wakeman, The Great Enterprise (1985)",
+   "alinti": "Though by July, 1646 Shaoxing was in Manchu hands, the districts between there and Ningbo were still not entirely settled.",
+   "oneri": {},
+   "not": "[sira 151] f ÜLKE DÜZEYİ (Güney Ming: Hongguang / sonra Lu naipliği). t: Wakeman Temmuz 1646'da Shaoxing'in Qing elinde olduğunu, Ningbo arasının yatışmadığını söylüyor — Ningbo'nun düşüş günü yok. Dağ direnişi (Wang Yi, Siming shan) sürdü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1646-07-06",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 152] f bkz. sira 151; t KÜME K08 ile ortak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 153] [KÜME K08]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 154] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2059",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 155] [KÜME K09]"
+  }
+ ]
+}

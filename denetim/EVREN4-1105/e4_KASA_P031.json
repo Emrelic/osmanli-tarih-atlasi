@@ -1,0 +1,647 @@
+{
+ "İzyum": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:246",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1681-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS, University of Alberta), «Izium» (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CI%5CZ%5CIzium.htm)",
+   "alinti": "in 1681 it was fortified by Kharkiv regiment 's Col H. Donets",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2350] f YIL düzeyi (Harkov Sloboda alayı = Moskova Çarlığı hizmetinde; yerleşim 17. yy ikinci çeyreğinden). t teyitsiz (1917-03-15 K01 ile bağlı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:246",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2351] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:246",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2352] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Not: KARARLAR gece-20 (1) Ukrayna 1917-91 kesintisiz Sovyet zinciri YANLIŞ; rakip hükûmet kuralı (UNR vb.) — küme ajanına."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:246",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2353] [KÜME K28] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Herson": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:293",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2354] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:293",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2355] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Not: KARARLAR gece-20 (1) Ukrayna 1917-91 kesintisiz Sovyet zinciri YANLIŞ; rakip hükûmet kuralı (UNR vb.) — küme ajanına."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:293",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1778-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), «Kherson» (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKherson.htm)",
+   "alinti": "Founded in 1778 (decreed by Catherine on 18 June), the city was named",
+   "oneri": {
+    "f": "1778-06-29"
+   },
+   "uc": "f",
+   "not": "[sira 2356] Kuruluş fermanı 18 Haziran 1778 (Rus kaynağı, Jülyen) = Gregoryen 1778-06-29; atlas 1582 sonrası Gregoryen. Kaynak takvimi belirtmiyor (Rus geleneği Jülyen) — beyan. Gün taşınınca kur: ve kronoloji maddesi birlikte taşınır. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:293",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2357] [KÜME K28] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Novoçerkask": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:311",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2358] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:311",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2359] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:311",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1805-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Гуманитарные и юридические исследования (СКФУ, hakemli), Platov/Savelyev makalesi (https://humanitieslaw.ncfu.ru/jour/article/jats/262) — Savelyev 1906 «Атаман М.И. Платов и основание г. Новочеркасска (в 1805 г.)»'na dayanır",
+   "alinti": "Атаман М.И. Платов и основание г. Новочеркасска (в 1805 г.)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2360] f YIL düzeyi (kuruluş 1805). Gün: popüler kaynaklarda 18 (30) Mayıs 1805 — akademik okunmadı, ipucu. Alıntı eser adıdır, makale 'основание Новочеркасска' kararını Platov'a bağlar. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:311",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2361] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Melitopol": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:335",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2362] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:335",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2363] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder. Not: KARARLAR gece-20 (1) Ukrayna 1917-91 kesintisiz Sovyet zinciri YANLIŞ; rakip hükûmet kuralı (UNR vb.) — küme ajanına. IEU «Melitopol»: 'On 18 June 1918 the Army of the Ukrainian National Republic defeated the Red Army near the town' — yerleşime özgü tanıklık, küme ajanına."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:335",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1784-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), «Melitopol» (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CM%5CE%5CMelitopol.htm)",
+   "alinti": "A frontier settlement was established at the site in 1784.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2364] f YIL düzeyi. t teyitsiz (K01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:335",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2365] [KÜME K28] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Şırnak": [
+  {
+   "dosya_satir": "data/yerlesimler_ok109.js:167",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2366] [KÜME K05] Ülke düzeyinde ayrı ajan teyit eder. Şırnak 1920'de işgal altında değil (TBMM fiilî idare adayı); K05 ASKIDA."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok109.js:167",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1891-01-01",
+   "t": "1920-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şırnak», https://islamansiklopedisi.org.tr/sirnak",
+   "alinti": "Şırnak ismi XIX. yüzyılın sonlarına doğru bir köy adı olarak geçmektedir (Cuinet, II, 612)",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2367] Osmanlı aidiyeti TDV ile açık: '1884’te Siirt sancağı Bitlis vilâyetine bağlanınca Şırnak da Bitlis vilâyetinin Siirt sancağının Eruh kazası içinde yer aldı'; BA İrade 1313 (1895-96) aşiret kaydı. Ama f 1891 (Cuinet II'nin yayın yılı) yerleşimin varlık alt sınırıdır; TDV cümlesi yılsız. Uç teyitsiz; mevcut beyan (alt sınır) kalır. t 1920-04-23 K05 kuralı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Zacatecas": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:102",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1546-09-08",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "INAH (Instituto Nacional de Antropología e Historia), Boletín 279/2025 (https://www.inah.gob.mx/images/boletines/2025/279/Boletin%20279.pdf), s. 1",
+   "alinti": "La presencia hispánica en Zacatecas comenzó, el 8 de septiembre de 1546, con el descubrimiento",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2368] f gün teyitli (gümüş keşfi ve İspanyol varlığının başlangıcı; kayıttaki Gerhard 1982 ile uyumlu). t 1821-09-27 KÜME K11 ile bağlı → t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:102",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2369] [KÜME K11] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Monterrey": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:123",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1596-09-20",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Edelmiro Alemán Cantú (General Zuazua belediye kronikçisi), «Reseña histórica de Gral. Zuazua, Nuevo León», Reforma Siglo XXI (UANL), s. 34 (https://reforma.uanl.mx/index.php/revista/article/download/345/332/611)",
+   "alinti": "fundó el 20 de septiembre de 1596 la Ciudad Metropolitana de Nuestra Señora de Monterrey",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2370] f gün teyitli ('tercera ... definitiva fundación'). ic_not: kuruluş akdi AHM Actas de Cabildo vol. 001; 1599 teyidi (Milenio haberi, ipucu). t teyitsiz (K11). Kaynak niteliği: üniversite dergisi, yazar kronikçi — orta güç. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:123",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2371] [KÜME K11] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Monclova (Santiago de la Monclova)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:144",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1689-01-01",
+   "t": "1821-09-27",
+   "hukum": "ONERI",
+   "kaynak": "Gobierno del Estado de Coahuila, «Monclova — Reseña histórica» (https://coahuila.gob.mx/flash/conoce_coahuila/mapas/pdfs/monclova.pdf), s. 2-3",
+   "alinti": "en 1674, logra establecer el poblado al que llamó Nuestra Señora de Guadalupe | en 1689, Alonso de León lo denominó Santiago de la Monclova",
+   "oneri": {
+    "f": "1674-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 2372] Coahuila hükûmeti İspanyol yerleşimini 1674'ten (Balcárcel; 25 Nisan 1675 ilk şapel) kesintisiz sayar, 1689 yeniden adlandırma. Kaydın kaynağı (Gerhard 1982) 1674 denemesinin kalıcı olmadığını söylüyor → iki kaynak çelişkisi, ic_not'a ikisi; karar KASA/EMRELİC. 1689 yıl düzeyinde de teyitli. t teyitsiz (K11). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:144",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2373] [KÜME K11] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Arizpe": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:166",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1646-01-01",
+   "t": "1821-09-27",
+   "hukum": "BULUNAMADI",
+   "kaynak": "INAH, Señales de Humo, Año 1 No. 4 (https://revistas.inah.gob.mx/index.php/senalesdehumo/article/download/16486/17522/34394)",
+   "alinti": "fue fundado como pueblo de misión ... por el jesuita Jerónimo de la Canal a mediados del siglo XVII",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2374] INAH yalnız yüzyıl ortası diyor (1646 ile uyumlu, yıl teyitsiz). Sonora Kongresi CIPES PDF'i 404. 22 Ağustos 1646 yalnız Vikipedi türevlerinde (ipucu). TARAYICI: Gerhard, The North Frontier of New Spain (1982). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:166",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2375] [KÜME K11] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Misión San Vicente Ferrer": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:188",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1780-08-27",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Antropología. Boletín oficial del INAH, Baja California misyonları makalesi, s. 3 (https://revistas.inah.gob.mx/index.php/antropologia/article/download/4978/5004/8039)",
+   "alinti": "San Vicente Ferrer. Fundada en 1780 por los dominicos, está situada a 82 km de Ensenada.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2376] f YIL düzeyi; gün (27 Ağustos) teyitsiz — Gerhard 1982 kaydı. t teyitsiz (K11). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:188",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2377] [KÜME K11] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Óbidos (Pauxis)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:246",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1697-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "IBGE Biblioteca, «Óbidos (PA) — Histórico» (https://biblioteca.ibge.gov.br/visualizacao/dtb/para/obidos.pdf) ; Revista de História (USP), nº 92, A002N092 (https://revhistoria2.webhostusp.sti.usp.br/wp-content/uploads/revistas/092/A002N092.pdf — DNS çözülmedi, açılamadı); ayrıca Mário Barata, «15 de agosto: o Pará conclui a sua independência de Portugal e incorporação ao Brasil», Revista de História (USP) nº 109",
+   "alinti": "ordenou a Manuel da Mota Siqueira, em 1697, que erigisse uma fortificação | Independência e unificação foram, de fato conjugadamente ultimadas em 15 de agosto de 1823, com a adesão",
+   "oneri": {
+    "t": "1823-08-15"
+   },
+   "uc": "f+t",
+   "not": "[sira 2378] f 1697 KAYNAKLI (IBGE, YIL; resmî kurum) [f alıntısı ham metinden, pypdf]. t ONERI: Grão-Pará'nın (Belém cuntası) İmparatorluğa katılışı 1823-08-15; 1822-09-07 → 1823-08-15 arası Pará Lizbon'a bağlı kaldı (São Luís 1823-07-28 emsali, K23 'Brezilya şehirlerinin tek tek günleri' istisnası). Rakip hükûmet/fiilî idare kuralı. EYALET DÜZEYİ. Bu durumda K23 satırının (brezilya-imparatorlugu) f'si de 1823-08-15 olur. TARAYICI: Revista de História nº 92 / nº 109 (Barata) birebir okunmalı. [t alıntısı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:246",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2379] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder. Pará 1823-08-15 (bkz. sira 2378)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:246",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2380] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Macapá": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:271",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1758-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "IBGE Biblioteca, «Macapá (AP) — Histórico» (https://biblioteca.ibge.gov.br/visualizacao/dtb/amapa/macapa.pdf) ; Revista de História (USP), nº 92, A002N092 (https://revhistoria2.webhostusp.sti.usp.br/wp-content/uploads/revistas/092/A002N092.pdf — DNS çözülmedi, açılamadı); ayrıca Mário Barata, «15 de agosto: o Pará conclui a sua independência de Portugal e incorporação ao Brasil», Revista de História (USP) nº 109",
+   "alinti": "em 4 de fevereiro, dois dias depois, eleva o povoado à categoria de vila | Independência e unificação foram, de fato conjugadamente ultimadas em 15 de agosto de 1823, com a adesão",
+   "oneri": {
+    "f": "1758-02-04",
+    "t": "1823-08-15"
+   },
+   "uc": "f+t",
+   "not": "[sira 2381] f: IBGE 'Em 2 de fevereiro de 1758, Mendonça Furtado instala os poderes...' — vila 1758-02-04 (yıl aynı paragrafta, yıl bağlamdan); povoado daha eski (Azor kolonları), kur: 1758 köy-vila ayrımı ic_not [f alıntısı ham metinden, pypdf]. t ONERI: Grão-Pará'nın (Belém cuntası) İmparatorluğa katılışı 1823-08-15; 1822-09-07 → 1823-08-15 arası Pará Lizbon'a bağlı kaldı (São Luís 1823-07-28 emsali, K23 'Brezilya şehirlerinin tek tek günleri' istisnası). Rakip hükûmet/fiilî idare kuralı. EYALET DÜZEYİ. Bu durumda K23 satırının (brezilya-imparatorlugu) f'si de 1823-08-15 olur. TARAYICI: Revista de História nº 92 / nº 109 (Barata) birebir okunmalı. [t alıntısı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:271",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2382] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder. Pará 1823-08-15 (bkz. sira 2378)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:271",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2383] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Forte Príncipe da Beira": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:296",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1776-06-20",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "Habitus (PUC Goiás, hakemli), Forte Príncipe da Beira armazénları makalesi, s. 9 (https://seer.pucgoias.edu.br/index.php/habitus/article/download/12092/5512/38561)",
+   "alinti": "27 de junho de 1778, exatamente 1 ano após o lançamento da pedra fundamental",
+   "oneri": {
+    "f": "çelişki: 1776-06-20 (kayıt: Boxer/Hemming) ↔ 1777-06-27 (Habitus'un örtük günü) — üçüncü kaynak"
+   },
+   "uc": "",
+   "not": "[sira 2384] Habitus makalesi temel atmayı örtük olarak 27 Haziran 1777'ye koyuyor; aynı makalenin kaynakçasında Fernandes 2003 tezi '(1776-1796)'. Basın kaynakları 20 Haziran 1776 (bir Portal Amazônia/IPHAN haberi 1775). Gün uydurulmaz; uç değişmez, ic_not'a çelişki. t (Mato Grosso'nun İmparatorluğa katılışı) aranmadı → t teyitsiz. TARAYICI: Fernandes, O Forte do Príncipe da Beira..., UFMT 2003. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:296",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2385] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:296",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2386] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "São Cristóvão (Sergipe)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:320",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1590-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "IBGE Biblioteca, «São Cristóvão (SE) — Histórico» (https://biblioteca.ibge.gov.br/visualizacao/dtb/sergipe/saocristovao.pdf)",
+   "alinti": "Após subjugar o gentio a 1.° de janeiro de 1590 ... Cristóvão de Barros fundou a primitiva povoação | restaurada a soberania sergipana sòmente em outubro de 1822, pela ação do general Labatut",
+   "oneri": {
+    "t": "1822-10-01"
+   },
+   "uc": "f+t",
+   "not": "[sira 2387] f 1590 KAYNAKLI (YIL; 1 Ocak 1590 boyun eğdirme günü, kuruluş ondan sonra → f 1590-01-01 yıl hassasiyeti kalır). t: Sergipe valisi Bahia (Lizbon yanlısı) birliklerince devrilmişti; Sergipe'de Pedro yanlısı idare Ekim 1822'de Labatut'la kuruldu → portekiz-brezilyasi t 1822-10 [AY düzeyi; gün kaynakla bulunmalı, 10-01 ay başı beyanı]. Rakip hükûmet/fiilî idare kuralı; K23 satırı f'si de buna bağlı. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:320",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2388] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder. Sergipe 1822-10 (bkz. sira 2387)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:320",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2389] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Kökçetav (Kokçetav)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1824-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Х.А. Аубакирова, «Учреждение Кокчетавского, Каркаралинского округов и восстание Саржана Касымова (1824–1836 гг.)», Вестник Карагандинского университета, Серия История. Философия, №4(104)/2021, s. 6-13, DOI 10.31489/2021HPh4/6-13 (https://history-philosophy-vestnik.buketov.edu.kz/index.php/history-philosophy-vestnik/article/download/477/413/813)",
+   "alinti": "8 апреля 1824 г. состоялось открытие Каркаралинского, 29 апреля этого же года — Кокчетавского внешних округов",
+   "oneri": {
+    "f": "1824-05-11"
+   },
+   "uc": "f",
+   "not": "[sira 2390] ÖLÇÜT: idareye katma — Kokçetav dış okrugunun açılışı 29 Nisan 1824 (Rus kaynağı, Jülyen varsayımı) = Gregoryen 1824-05-11; takvim makalede belirtilmemiş, beyan. 1822 Ustav hukukî zemin, ic_not: TDV «Kazakistan»: '22 Haziran 1822’de Rus hükümeti, 319 maddeden meydana gelen Sibirya Kazakları’nın statüsünü tebliğ etti' (Ustav; hukukî düzenleme, okrug açılışı fiilî idare). Önceki dönem (kazak-hanligi) t de aynı gün. t teyitsiz (K01). [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2391] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2392] [KÜME K04] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1824-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Х.А. Аубакирова, «Учреждение Кокчетавского, Каркаралинского округов и восстание Саржана Касымова (1824–1836 гг.)», Вестник Карагандинского университета, Серия История. Философия, №4(104)/2021, s. 6-13, DOI 10.31489/2021HPh4/6-13 (https://history-philosophy-vestnik.buketov.edu.kz/index.php/history-philosophy-vestnik/article/download/477/413/813) ; TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "8 апреля 1824 г. состоялось открытие Каркаралинского, 29 апреля этого же года — Кокчетавского внешних округов",
+   "oneri": {
+    "t": "1824-05-11"
+   },
+   "uc": "t",
+   "not": "[sira 2393] t: Orta Cüz'de han idaresi 1822 Ustav'la kaldırıldı (TDV), Kokçetav'da Rus okrug idaresi 29 Nisan 1824 Jül. = 1824-05-11. f 1500 teyitsiz: TDV yalnız 'Burunduk Han (1480-1511)' ve 'Kasım Han zamanında (1503-1523) birliği sağladılar' diyor; künye kazak-hanligi f 1465. f K04 kümesiyle (altinorda t) bağlı. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 2394] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:357",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 2395] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (EMRELİC ardıl kuralı). [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

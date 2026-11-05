@@ -1,0 +1,569 @@
+{
+ "Zûâr": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:113",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1914-01-01",
+   "t": "1960-08-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Chad», https://history.state.gov/countries/chad ; TDV İslâm Ansiklopedisi, «Çad», https://islamansiklopedisi.org.tr/cad",
+   "alinti": "The United States recognized the Republic of Chad on August 11, 1960 … Chad’s independence … was proclaimed",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2690] ÜLKE DÜZEYİ; çift teyit (TDV Çad: '11 Ağustos 1960 tarihinde bağımsızlığını kazandı'). f 1914 teyitsiz. İPUCU (kaynakla okunmadı): Tibesti 1914'te işgal, 1916'da boşaltıldı, 1929-30'da yeniden işgal edildi — f ve bir isg/boşluk dilimi sınanmalı. TDV Nijer: Barday (Çad) 1913'e kadar Fizan'a bağlı Osmanlı kazası olarak kuruluyordu — Tibesti'de Osmanlı idaresi ayrıca sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:113",
+   "alan": "s",
+   "d": "tubu-tibesti",
+   "f": "1281-01-01",
+   "t": "1914-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Çad», https://islamansiklopedisi.org.tr/cad ; TDV İslâm Ansiklopedisi, «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2691] TDV Çad ve Nijer Tibesti'nin Fransız işgal yılını vermiyor; TDV Tibesti maddesi yok (arama sayfası). GHA VII Tibesti'yi yalnız kervan yolu olarak anıyor. Bkz. sira 2690 Barday kazası notu."
+  }
+ ],
+ "Kidal": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:148",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2692] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan). f teyitsiz. Kidal f 1899 kaynakla okunmadı (TDV Mali'de Kidal/Adrar geçmiyor). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:148",
+   "alan": "s",
+   "d": "tuareg-adag",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Mali»; GHA VII",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2693] TDV Mali'de Kidal ve Adrar des Ifoghas geçmiyor; GHA VII dizinindeki 'Adrar' Moritanya Adrar'ıdır. Kel Adag'ın Fransız tâbiliğine giriş yılı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:148",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "on September 22, 1960, the National Assembly of the Republic of Soudan legislated that it would become the Republic of Mali",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2694] ÜLKE DÜZEYİ. t pencere ucu. Çift teyit değil (TDV Mali bu günü bu taramada okumadı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Podor": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:182",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-01-01",
+   "t": "1960-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2695] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan). f teyitsiz. f 1881 şüpheli (İPUCU): Podor'da Fransız kalesi 1743/1854; TDV Senegal Podor'un yerel idarecilerinin el-Hâc Ömer'e katıldığını yazar ('Futa, Trarza, Valato ve Podor’un yerel idarecileri Ömer’in yanında'), yıl vermez. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:182",
+   "alan": "s",
+   "d": "futa-toro",
+   "f": "1776-01-01",
+   "t": "1881-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2696] TDV Senegal Futa Toro almamiliğinin kuruluşu (1776) ve Podor'un Fransız idaresine geçişi için tarih vermiyor; TDV futa-toro slug'ı madde değil (arama)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:182",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-08-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali ; Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty | The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2697] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan).  [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:182",
+   "alan": "s",
+   "d": "senegal",
+   "f": "1960-08-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2698] ÜLKE DÜZEYİ. t pencere ucu. ABD tanıması 1960-09-24 ic_not'a. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Saint-Louis (Ndar)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:212",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1659-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal",
+   "alinti": "Fransızlar 1659’da … St. Louis şehrini inşa ettiler | 1758’de Gorée adasını ve St. Louis’i ele geçirdiler",
+   "uc": "f",
+   "oneri": {
+    "t": "1758-01-01"
+   },
+   "not": "[sira 2699] f 1659 YIL KAYNAKLI. Zincirde İngiliz dönemleri eksik: TDV 'İki ülke arasında tekrar el değiştiren Gorée adası ve St. Louis 1815 yılında Viyana Antlaşması’yla İngiltere tarafından Fransa’ya terkedildi'. Bölünme: s/isg ingiltere 1758 → Fransa'ya dönüş (1779 İPUCU) ve 1809 → 1817 (İPUCU) — günler BULUNAMADI. ÖLÇÜT: 1763 Paris ile Senegal İngiltere'ye bırakıldı (İPUCU) → 1758-63 isg, 1763'ten s: ingiltere sınanmalı (Port Royal emsali). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:212",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "1960-11-28",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "",
+   "oneri": {
+    "t": "1960-06-20"
+   },
+   "not": "[sira 2700] [KÜME K22] yerleşime özgü çelişki: Saint-Louis Senegal'dedir (16.03, -16.51; TDV Senegal 'Senegal’in … merkezi olarak kullandıkları St. Louis'); Fransız dönemi Mali Federasyonu'nun bağımsızlığı 1960-06-20'de biter, Moritanya'nın 1960-11-28'inde değil. İçerideki İngiliz dilimi 1809-1817 için bkz. sira 2699. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:212",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali ; Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty | The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "",
+   "oneri": {
+    "f": "1960-06-20",
+    "d": "mali-federasyonu"
+   },
+   "not": "[sira 2701] d: moritanya YANLIŞ — Saint-Louis Senegal kentidir (1957'ye dek Moritanya sömürgesinin de idare merkeziydi, toprağı değil). Öneri: s: mali-federasyonu 1960-06-20 → 1960-08-20, ardından s: senegal 1960-08-20 → 2000-12-31 (Gorée/Podor zinciriyle aynı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Mbul (Kayor)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:233",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1886-10-27",
+   "t": "1960-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2702] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan). f teyitsiz. f 1886-10-27 (Lat Dior'un ölümü) teyitsiz: GHA VII 'they promptly defeated the Damel of Cayor, Lat Dior, who fought to the …' cümlesi OCR'da sayfa sonunda kesik; gün okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:233",
+   "alan": "s",
+   "d": "kayor",
+   "f": "1549-01-01",
+   "t": "1886-10-27",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal ; UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2703] TDV Senegal Lat Dior'un Fransızlarca tanınmasını (1871) verir, Kayor'un kuruluşu (1549) ve sonu için gün vermez; GHA VII cümlesi kesik. TARAYICI: V. Monteil, «Lat Dior, Damel du Kayor (1842-1886)», Archives de sociologie des religions XVI (1963)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:233",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-08-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali ; Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty | The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2704] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan).  [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:233",
+   "alan": "s",
+   "d": "senegal",
+   "f": "1960-08-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2705] ÜLKE DÜZEYİ. t pencere ucu. ABD tanıması 1960-09-24 ic_not'a. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Gore (Gorée)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1677-11-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal",
+   "alinti": "1677’de Gorée adasını Hollandalılar’dan aldılar | 1758’de Gorée adasını ve St. Louis’i ele geçirdiler",
+   "uc": "f",
+   "oneri": {
+    "t": "1758-01-01"
+   },
+   "not": "[sira 2706] f 1677 YIL KAYNAKLI (11-01 gün yok). İngiliz dilimi eksik: 1758 İngiliz işgali; TDV 'İki ülke arasında tekrar el değiştiren Gorée … 1815 … Fransa’ya terkedildi'. Dönüş günleri (1763 Paris, 1817 teslim İPUCU) BULUNAMADI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "1960-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2707] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı. Not: dilimin içinde İngiliz dönemleri (1800/1804 → 1817, İPUCU) var; TDV Senegal 'tekrar el değiştiren'. Küme ajanı ile birlikte sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1444-01-01",
+   "t": "1627-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal",
+   "alinti": "1617’de Dakar açıklarında bulunan Gorée adasını işgal eden Hollandalılar",
+   "uc": "",
+   "oneri": {
+    "t": "1617-01-01"
+   },
+   "not": "[sira 2708] t 1627 → 1617 (TDV). f 1444 teyitsiz: TDV Portekiz'in Gorée'ye geldiği yılı vermiyor; Portekiz'in adayı fiilen idare edip etmediği (TAHRİR) ayrıca sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1627-01-01",
+   "t": "1677-11-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senegal», https://islamansiklopedisi.org.tr/senegal",
+   "alinti": "1617’de … Gorée adasını işgal eden Hollandalılar | 1677’de Gorée adasını Hollandalılar’dan aldılar",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1617-01-01"
+   },
+   "not": "[sira 2709] f 1627 → 1617 (TDV); t 1677 YIL KAYNAKLI (11-01 gün yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-08-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali ; Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty | The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2710] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan).  [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:267",
+   "alan": "s",
+   "d": "senegal",
+   "f": "1960-08-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2711] ÜLKE DÜZEYİ. t pencere ucu. ABD tanıması 1960-09-24 ic_not'a. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Nguigmi": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:308",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1913-01-01",
+   "t": "1960-08-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Niger», https://history.state.gov/countries/niger ; TDV İslâm Ansiklopedisi, «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "The United States recognized the Republic of Niger on August 3, 1960 … previously under French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2712] ÜLKE DÜZEYİ; çift teyit (TDV Nijer: '3 Ağustos 1960’ta bağımsızlığına kavuşmuştur'). f 1913 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:308",
+   "alan": "s",
+   "d": "kanem-tubu",
+   "f": "1281-01-01",
+   "t": "1913-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nijer», https://islamansiklopedisi.org.tr/nijer ; UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2713] TDV Nijer ve GHA VII Nguigmi'yi yalnız kervan yolu durağı olarak anıyor ('Bilma, Nuigni and Kukawa'); Fransız işgal yılı yok."
+  }
+ ],
+ "Kahone (Salum)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:351",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1887-01-01",
+   "t": "1960-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2714] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan). f teyitsiz. f 1887 kaynakla okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:351",
+   "alan": "s",
+   "d": "sine-salum",
+   "f": "1350-01-01",
+   "t": "1887-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2715] GHA VII Sine-Saloum'u yalnız sömürge dönemi ve Klein 1968 kaynakçasıyla anıyor. TARAYICI: M. A. Klein, Islam and Imperialism in Senegal: Sine-Saloum, 1847-1914 (Stanford 1968)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:351",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-08-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali ; Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty | The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2716] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan).  [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:351",
+   "alan": "s",
+   "d": "senegal",
+   "f": "1960-08-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Senegal», https://history.state.gov/countries/senegal",
+   "alinti": "The Republic of Senegal had withdrawn from the Federation of Mali … on August 20, 1960",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2717] ÜLKE DÜZEYİ. t pencere ucu. ABD tanıması 1960-09-24 ic_not'a. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kita": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:394",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-01-01",
+   "t": "1960-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "On that date, the Federation of Mali … attained independence from French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2718] ÜLKE DÜZEYİ. HSG Mali: 'recognized the Federation of Mali on June 20, 1960' — 'On that date' cümlesinin günü bir önceki cümlede (yıl/gün bağlamdan). f teyitsiz. f 1881 teyitsiz: GHA VII dizini Borgnis-Desbordes'u s. 121, 125'te anıyor, metin OCR'da bulunamadı; TDV Mali yalnız 'Galliéni (1878 ve 1881)' keşif seferlerini anar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:394",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Mali», https://history.state.gov/countries/mali",
+   "alinti": "on September 22, 1960, the National Assembly of the Republic of Soudan legislated that it would become the Republic of Mali",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2719] ÜLKE DÜZEYİ. t pencere ucu. Çift teyit değil (TDV Mali bu günü bu taramada okumadı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bauci (Bauchi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:489",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1809-01-01",
+   "t": "1903-07-27",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin) ; TDV İslâm Ansiklopedisi, «Sokoto», https://islamansiklopedisi.org.tr/sokoto",
+   "alinti": "campaigns — against Kontagora in 1900, Adamawa in 1901, Bauchi in 1902, Kano, Sokoto",
+   "uc": "",
+   "oneri": {
+    "t": "1902-01-01"
+   },
+   "not": "[sira 2720] t 1903-07-27 Sokoto halifeliğinin sonudur (TDV Sokoto '(27 Temmuz 1903)'), Bauchi'ye özgü değil; Bauchi emirliği 1902'de İngilizlerce alındı (GHA VII). YIL hassasiyeti, gün yok. ÖLÇÜT: idareye katma — emirlik İngiliz Kuzey Nijerya'sına bağlandı. f 1809 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:489",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1903-07-27",
+   "t": "1960-10-01",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin) ; Office of the Historian, U.S. Department of State, «Nigeria», https://history.state.gov/countries/nigeria",
+   "alinti": "Bauchi in 1902 | The United States recognized the Federation of Nigeria on October 1, 1960",
+   "uc": "t",
+   "oneri": {
+    "f": "1902-01-01"
+   },
+   "not": "[sira 2721] f → 1902 (sira 2720). t 1960-10-01 KAYNAKLI ÜLKE DÜZEYİ. ic_not: künye ingiliz-nijerya (1861 → 1960-10-01) var, kayıt d: ingiltere yazıyor (LAB gece-50 madde 8 benzeri, renk sorusu). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Odienne": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:536",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-09-29",
+   "t": "1960-08-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fildişi Sahili», https://islamansiklopedisi.org.tr/fildisi-sahili ; Office of the Historian, U.S. Department of State, «Cote d’Ivoire», https://history.state.gov/countries/cote-divoire",
+   "alinti": "arkasından Odienne’i de işgal ederek (1898) | recognized the Republic of the Ivory Coast on August 7, 1960 … previously had been under French sovereignty",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2722] f 1898 YIL (09-29 = Samori'nin esir düşüşü, TDV Samori Ture; Odienne'e özgü gün değil). t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:536",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Samori Ture», https://islamansiklopedisi.org.tr/samori-ture ; TDV İslâm Ansiklopedisi, «Fildişi Sahili», https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "Samori Fransız birliğine esir düştü (29 Eylül 1898)",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2723] t ÜLKE DÜZEYİ (Samori devletinin sonu); Odienne'in işgali de 1898 (TDV Fildişi Sahili). f 1878 teyitsiz: TDV Samori 1878'de 'Yukarı Nijer bölgesini' aldığını yazar, Odienne'i anmaz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Buna (Bouna)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:558",
+   "alan": "s",
+   "d": "buna",
+   "f": "1690-01-01",
+   "t": "1897-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fildişi Sahili», https://islamansiklopedisi.org.tr/fildisi-sahili ; UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2724] Kaydın DEVRALMA kaynağı yanlış olaya bağlı: 'Bagirmi Sultanlığı Fransız himayesine girdi' (Çad) Bouna ile ilgisiz. TDV Fildişi Sahili Bouna'yı yalnız Mande ticaret merkezi olarak anar. GHA VII dizini Bouna ve Sarankenyi-Mori'yi s. 127'de anıyor (Samori ordusunun Bouna'yı alışı 1896-97, İPUCU) — metin OCR'da okunamadı. TARAYICI: GHA VII s. 127."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:558",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-01-01",
+   "t": "1960-08-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Cote d’Ivoire», https://history.state.gov/countries/cote-divoire",
+   "alinti": "recognized the Republic of the Ivory Coast on August 7, 1960 … previously had been under French sovereignty",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2725] ÜLKE DÜZEYİ. f 1897 teyitsiz (bkz. sira 2724: araya Samori/vasulu dilimi girebilir). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Yola": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:564",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1841-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Adamava», https://islamansiklopedisi.org.tr/adamava ; UNESCO General History of Africa VII (ed. A. A. Boahen, 1985), bölüm 6, archive.org unesco_general_history_africa_vii (tam metin)",
+   "alinti": "1841’de Yola şehrini merkez yaparak | 1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile … paylaşılmış",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2726] f 1841, t 1901 YIL; t çift teyit (GHA VII 'Adamawa in 1901'). TDV Adamava'yı 'Sokoto Devleti’nin toprakları içinde' sayar → d: sokoto uygun. ic_not: adamava künyesi t 1901-09-02, gün kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Uanda-Calle": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:593",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1911-01-12",
+   "t": "1960-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Central African Republic», https://history.state.gov/countries/central-african-republic",
+   "alinti": "The United States recognized the Central African Republic on August 13, 1960 … independence … was proclaimed",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2727] ÜLKE DÜZEYİ. f 1911-01-12 (Muhammed es-Senûsî'nin ölümü, İPUCU) kaynakla okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:593",
+   "alan": "s",
+   "d": "darul-kuti",
+   "f": "1890-01-01",
+   "t": "1911-01-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti",
+   "alinti": "1890’da Vedây Sultanlığı’na bağlı Dâr Kûtî’yi ele geçirdi … yeğeni Muhammed es-Senûsî’yi geçirdi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2728] f 1890 YIL. t 1911-01-12 teyitsiz (TDV OAC vermiyor; TARAYICI: Grech, «Etude sur le Dar Kouti au temps de Snoussi», Bull. soc. rech. congolaises 4, 1924). Uanda-Calle'nin Dâr Kûtî içinde olduğu kaynakta açık değil. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Mundu (Moundou)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:613",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1923-01-01",
+   "t": "1960-08-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Chad», https://history.state.gov/countries/chad ; TDV İslâm Ansiklopedisi, «Çad», https://islamansiklopedisi.org.tr/cad",
+   "alinti": "The United States recognized the Republic of Chad on August 11, 1960 … Chad’s independence … was proclaimed",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2729] ÜLKE DÜZEYİ; çift teyit (TDV Çad: '11 Ağustos 1960'; Mundu ülkenin önemli şehirleri arasında anılır). f 1923 (Moundou'nun kuruluşu, İPUCU) kaynakla okunmadı. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

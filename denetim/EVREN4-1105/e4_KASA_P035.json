@@ -1,0 +1,523 @@
+{
+ "Fort Edmonton": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:602",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1795-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2551] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:602",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2552] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Skidegate (Haida Gwaii)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:610",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1858-08-02",
+   "t": "1871-07-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "An Act to provide for the Government of British Columbia, 21 & 22 Vict. c. 99 [2 Aug 1858], md. I ve VI (metin: primarydocuments.ca, orijinal PDF ile), https://primarydocuments.ca/an-act-to-provide-for-the-government-of-british-columbia-uk-1858/ · British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "[2d August 1858.] ... shall include Queen Charlotte's Island, and all other Islands adjacent | from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2553] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] f: 1858 Yasası kraliyet onayı 2 Ağustos 1858 ve Queen Charlotte Adası'nı açıkça British Columbia'ya katar. ic_not: kolonin Fort Langley'de ilanı 19.11.1858 (Douglas komisyonu); TEK ÖLÇÜ açısından teslim günü olarak bu gün de tartışılabilir — beyan. 1853-63 'Colony of the Queen Charlotte Islands' (Douglas'a komisyon) ayrı bir dilim olabilir — okunmadı, İPUCU."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:610",
+   "alan": "s",
+   "d": "hayda",
+   "f": "1281-01-01",
+   "t": "1858-08-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "An Act to provide for the Government of British Columbia, 21 & 22 Vict. c. 99 [2 Aug 1858], md. I ve VI (metin: primarydocuments.ca, orijinal PDF ile), https://primarydocuments.ca/an-act-to-provide-for-the-government-of-british-columbia-uk-1858/",
+   "alinti": "[2d August 1858.] ... shall include Queen Charlotte's Island, and all other Islands adjacent",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2554] [alıntı ham metinden, sayfa.py] t teyitli (Hayda Gwaii'nin İngiliz kolonisine katılışı); f = pencere başı (1281), ölçüm değil. ic_not: 1818-1846 bölge ABD-İngiltere ortak işgal alanında (1818 Konvansiyonu md. III) — atlas yerli devleti sürdürüyor; Spokane House'taki __BOSLUK__ tercihiyle tutarlılık KASA kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:610",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2555] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t = pencere sonu."
+  }
+ ],
+ "Grand Rapids (Saskatchewan Irmağı ağzı)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:621",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1794-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2556] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:621",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2557] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Rocky Mountain House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:652",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1799-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Canadian Register of Historic Places, 'Rocky Mountain House National Historic Site of Canada' (HSMBC Minutes 1968), https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=7827 · Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rocky Mountain House was established by the Northwest Company in 1799 | from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2558] f yerleşime özgü (HSMBC), t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] DİKKAT: mevcut kaynak alanı yanlış kronoloji maddesine bağlanmış ('İngiliz Hindistanı (Şirket ve Taç Dönemi) egemenliğine ge…') — DEVRALMA hatası, değiştirilmeli. Parks Canada 'Unearthing history' sayfası da 'established fur trade posts at Rocky Mountain House in 1799' der (çift teyit)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:652",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2559] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Fort Albany": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:663",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2560] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli. f = künye geçişi (ingiltere → ingiliz-kuzey-amerika; devletler.js ingiliz-kuzey-amerika f 1763-02-10): egemen değişmez, Hudson Körfezi 1713 Utrecht'ten beri İngiliz; f için kaynak aranmadı (künye konvansiyonu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:663",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1679-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, 'LE MOYNE D'IBERVILLE ET D'ARDILLIÈRES, PIERRE' (vol. 2), http://www.biographi.ca/en/bio/le_moyne_d_iberville_et_d_ardillieres_pierre_2E.html · DCB 'TROYES, PIERRE DE' (vol. 1)",
+   "alinti": "Its 30 defenders were promptly forced to surrender unconditionally on 25 July | the English had recaptured Albany Fort in 1693",
+   "uc": "",
+   "oneri": {
+    "bolunme": "s: ingiltere 1679-01-01 → 1686-07-25 · s: fransa 1686-07-25 → 1693-01-01 · s: ingiltere 1693-01-01 → 1763-02-10"
+   },
+   "not": "[sira 2561] [alıntı ham metinden, sayfa.py] Troyes seferi 1686 (yıl bağlamdan: DCB Troyes 'back in Quebec at the beginning of October 1686'; DCB Iberville aynı paragraf 1686 seferi). Kale 'Sainte-Anne' adını aldı, Iberville üç kalenin valisi yapıldı, Compagnie du Nord işletti. ÖLÇÜT: idareye katma — vali ataması + yeniden adlandırma + şirket ticareti (İngiliz iddiası sürdü; isg tercih edilirse 'geçici/askerî' değil, barış zamanı baskın — KASA kararı). 1693 geri alınışı (James Knight) yalnız YIL → 1693-01-01 + beyan. f 1679 teyitsiz (kaynak açılmadı). Takvim: 25 Temmuz Fransız (Gregoryen) günü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:663",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2562] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Marten Falls (Ogoki)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:677",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1794-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2563] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:677",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2564] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Blanc-Sablon": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:689",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "all the other islands and coasts in the gulph and river of St. Lawrence | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2565] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] f: Paris 1763 md. IV ('Done at Paris the tenth day of February, 1763' aynı metinde). ic_not: Labrador kıyısı 1763 Bildirisi ile Newfoundland'e, 1774 Quebec Act ile Quebec'e, 1809'da Newfoundland'e, 1825'te Blanc-Sablon'dan batısı Aşağı Kanada'ya — hepsi ingiliz-kuzey-amerika künyesi içinde (İPUCU, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:689",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2566] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Blanc-Sablon 1867'de Quebec (Aşağı Kanada) içinde (1825 sınırı, İPUCU)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:689",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1500-01-01",
+   "t": "1763-02-10",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2567] Bakılan: DCB 'LE GARDEUR DE COURTEMANCHE, AUGUSTIN' (Labrador kıyısı imtiyazı) — Blanc-Sablon geçmiyor. ŞÜPHE: 'ingiltere' 1500-1763 büyük olasılıkla yanlış; Bask/Fransız balıkçı kıyısı, Utrecht 1713 sonrası da Labrador kıyısı Yeni Fransa'da kaldı, Paris 1763 md. IV 'coasts in the gulph ... of St. Lawrence'ı Fransa'dan devralır (yani 1763 öncesi Fransız) — devlet fransa olmalı gibi; f için kaynak yok. TARAYICI: Historical Atlas of Canada vol. I (U Toronto Press)."
+  }
+ ],
+ "Fort Dauphin": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:701",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Canada, with all its dependencies | from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2568] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] f: Paris 1763 ('Done at Paris the tenth day of February, 1763'); La Vérendrye karakolları Kanada'nın 'dependencies'i. t: Rupert's Land devri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:701",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1741-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, 'GAULTIER DE VARENNES ET DE LA VÉRENDRYE, PIERRE' (vol. 3), http://www.biographi.ca/en/bio/gaultier_de_varennes_et_de_la_verendrye_pierre_3E.html",
+   "alinti": "Between 1741 and 1743 Pierre built Fort Dauphin (Winnipegosis, Man.)",
+   "uc": "f",
+   "oneri": {
+    "d": "fransa"
+   },
+   "not": "[sira 2569] [alıntı ham metinden, sayfa.py] Fort Dauphin bir Fransız (La Vérendrye) karakoludur; 1741-1763 sahibi İngiltere değil Fransa. f 1741 yıl düzeyinde uyar (kaynak '1741-1743 arası' der). t 1763-02-10 Paris (ÜLKE DÜZEYİ). fransa künyesi f 0987 / t 1792-09-22 — kapsar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:701",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2570] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Fort Kamloops": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:716",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1812-01-01",
+   "t": "1871-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Convention of 1818 md. III (Avalon Project), https://avalon.law.yale.edu/19th_century/conv1818.asp · Oregon Antlaşması 1846 md. I (Avalon), https://avalon.law.yale.edu/19th_century/br-1846.asp · British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "any Country that may be claimed by either Party ... Westward of the Stony Mountains | Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "",
+   "oneri": {
+    "bolunme": "__BOSLUK__ 1812-01-01 → 1846-06-15 · ingiliz-kuzey-amerika 1846-06-15 → 1871-07-20"
+   },
+   "not": "[sira 2571] [alıntı ham metinden, sayfa.py] Kamloops (50.7°K) Kayalık Dağlar'ın batısında, 1818-1846 ortak işgal (Oregon Country) alanında; atlas aynı rejimdeki Spokane House, Fort Nez Percés, Fort Vancouver'ı __BOSLUK__ 1846-06-15'e kadar yazıyor — tutarlılık için aynı çözüm. 1846 Oregon Antlaşması 49. paralelin kuzeyini İngiliz bıraktı. Alıntı ucu f'yi değil rejimi tarihler; t 1871-07-20 BC Terms of Union ('from and after the twentieth day of July, one thousand eight hundred and seventy-one') teyitli. f 1812 (kuruluş) teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:716",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2572] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Lac Seul": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:732",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1815-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2573] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:732",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2574] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Sept-Îles": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:740",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763. | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2575] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:740",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2576] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:740",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1651-01-01",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2577] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli. f teyitsiz: DCB 'QUEN, JEAN DE' 1651-52'de Oumamiwek (Bersimis) misyonunu 'in the direction of the Sept-Îles' diye anar, Sept-Îles'in kendisini değil; ticaret karakolu için Jolliet 1676 (Canadian Encyclopedia, İPUCU). ic_not: İngiliz askerî yönetimi 1760-09-08 (Montréal teslimi) → 1763-02-10 isg ingiltere olarak düşünülebilir (TEK KURAL) — okunmadı, EK SORU."
+  }
+ ],
+ "Brandon House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:751",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1793-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2578] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:751",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2579] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Yuquot (Nootka Sound)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:767",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1858-08-02",
+   "t": "1871-07-20",
+   "hukum": "ONERI",
+   "kaynak": "An Act to provide for the Government of British Columbia, 21 & 22 Vict. c. 99 [2 Aug 1858], md. I ve VI (metin: primarydocuments.ca, orijinal PDF ile), https://primarydocuments.ca/an-act-to-provide-for-the-government-of-british-columbia-uk-1858/ · DCB 'BLANSHARD, RICHARD' (vol. 12), http://www.biographi.ca/en/bio/blanshard_richard_12E.html · British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "No Part of the Colony of Vancouver's Island, as at present established, shall be comprised | from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "uc": "t",
+   "oneri": {
+    "f": "1849-01-01"
+   },
+   "not": "[sira 2580] [alıntı ham metinden, sayfa.py] Yuquot Vancouver Adası'ndadır; 1858 British Columbia Yasası adayı açıkça DIŞARIDA bırakır (md. VI) — 1858-08-02 bu yerleşim için yanlış kırılma. Vancouver Island kolonisi 1849: DCB Blanshard 'Vancouver Island was about to be colonized by the HBC' (1849), valilik komisyonu 16 Temmuz 1849. Kraliyet bağışı günü (13.01.1849, İPUCU) okunmadı → yıl hassasiyeti 1849-01-01 + beyan. Daha da erken seçenek: Oregon Antlaşması 1846-06-15 adayın tamamını İngiliz bıraktı (Avalon md. I 'to the middle of the channel which separates the continent from Vancouver's Island') — KASA seçer. t 1871-07-20 teyitli (ada 1866'da BC'ye katıldı, İPUCU). ic_not: İspanyol Santa Cruz de Nuca 1789-1795 (Nootka Buhranı) — yerleşimin not alanında var, dönem yok; ayrı isg/s: ispanya dilimi açılabilir — okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:767",
+   "alan": "s",
+   "d": "nuu-cah-nulth",
+   "f": "1281-01-01",
+   "t": "1858-08-02",
+   "hukum": "ONERI",
+   "kaynak": "An Act to provide for the Government of British Columbia, 21 & 22 Vict. c. 99 [2 Aug 1858], md. I ve VI (metin: primarydocuments.ca, orijinal PDF ile), https://primarydocuments.ca/an-act-to-provide-for-the-government-of-british-columbia-uk-1858/",
+   "alinti": "No Part of the Colony of Vancouver's Island, as at present established, shall be comprised",
+   "uc": "",
+   "oneri": {
+    "t": "1849-01-01"
+   },
+   "not": "[sira 2581] [alıntı ham metinden, sayfa.py] 2580 ile birlikte: t 1858-08-02 Vancouver Adası için geçerli değil; 1849 Vancouver Island kolonisi (DCB Blanshard; gün okunmadı) → 1849-01-01 + beyan. nuu-cah-nulth künye t 1858-08-02 — t kısaltılınca künye de kısalmalı ya da başka yerleşimi varsa kalır (KASA ölçsün)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:767",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "British Columbia Terms of Union, Order in Council 16.05.1871 (Justice Canada, Constitution Enactment No. 4), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2582] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Abitibi House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:790",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23.06.1870 (Justice Canada, Constitution Enactment No. 3), https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy | Rupert's Land shall from and after the said date be admitted into",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2583] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Rupert's Land devri, yürürlük günü emirde belirlenen gün); f teyitsiz: f = yerleşimin kuruluş yılı (kur:), kaynak açılamadı (HBCA post history sayfaları gov.mb.ca'da 404). f = künye geçişi (ingiltere → ingiliz-kuzey-amerika)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:790",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1686-01-01",
+   "t": "1763-02-10",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2584] Bakılan: DCB 'TROYES, PIERRE DE' (1686 seferi; Abitibi yalnız kaynakçada: Boucher, 'Une Abitibi traîtresse au XVIIe siècle', RHAF XIII). ŞÜPHE: 1686'da Abitibi gölünde kale kuran Troyes'un FRANSIZ seferidir; HBC'nin Abitibi karakolu çok daha geç (İPUCU, okunmadı). 'ingiltere 1686' büyük olasılıkla yanlış. TARAYICI: HBCA post history 'Abitibi' (Archives of Manitoba)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:790",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1870-07-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2585] [KÜME K12] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Fort William (Thunder Bay)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:820",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1803-01-01",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2586] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli. f teyitsiz: NWC'nin Grand Portage'dan Kaministiquia'ya taşınması 1803 (Archives of Ontario sayfası yönlendirdi, açılamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:820",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2587] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Fort William 1867'de Kanada Batısı (Ontario) içinde."
+  }
+ ]
+}

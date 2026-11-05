@@ -1,0 +1,912 @@
+{
+ "Gimhae": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "japon-kore",
+   "f": "1910-08-29",
+   "t": "1945-09-09",
+   "hukum": "ONERI",
+   "kaynak": "韓国併合ニ関スル条約 (ja.wikisource.org/wiki/韓国併合ニ関スル条約; birincil belge neşri)",
+   "alinti": "第一條 韓國皇帝陛下ハ韓國全部ニ關スル一切ノ統治權ヲ…日本國皇帝陛下ニ讓與ス | 明治四十三年八月二十二日",
+   "oneri": {
+    "f": "1910-08-22"
+   },
+   "not": "[sira 404] TEK ÖLÇÜ: Japonya Kore'yi zaten fiilen yönetiyordu (himaye 1905; history.state.gov 'Korea': 'Japan assumed direction of Korean foreign relations on November 17, 1905') → s: İMZA günü 1910-08-22'den başlar. Yürürlük/ilan 1910-08-29 (md.8 '公布ノ日ヨリ之ヲ施行ス'; ilan 明治四十三年八月二十九日) ic_not'a. ÖLÇÜT: idareye katma — md.1 hükümranlığın tamamen ve kalıcı devri. t=1945-09-09 için 409'a bak (Avalon teslim belgesi, aynı gün teyitli). ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "joseon",
+   "f": "1392-08-05",
+   "t": "1910-08-29",
+   "hukum": "ONERI",
+   "kaynak": "韓国併合ニ関スル条約 (ja.wikisource.org/wiki/韓国併合ニ関スル条約; birincil belge neşri)",
+   "alinti": "明治四十三年八月二十二日",
+   "oneri": {
+    "t": "1910-08-22"
+   },
+   "not": "[sira 405] Yalnız t ucu: 404 ile birlikte imza gününe çekilmeli (TEK ÖLÇÜ). f=1392-08-05 (Taejo 1/7/17, Sillok) kayıttaki birincil okumaya dayanır; ay-güneş günü çevirisi bu turda sınanmadı (Kore günü elle çevrilmez)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "gaya-konfederasyonu",
+   "f": "0500-01-01",
+   "t": "0532-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 406] Bütçe: Gaya 500-532 kayıttaki Goryeosa/Samguk sagi okumasıyla duruyor; f=0500-01-01 yıl beyanı yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "silla",
+   "f": "0532-01-01",
+   "t": "0936-01-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 407] Bütçe: Samguk sagi 卷04 (532 Geumgwan teslimi) ve 936 ucu yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "0936-01-08",
+   "t": "1392-08-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 408] Bütçe: Goryeosa 卷二 (935/936 Silla teslimi) ve 1392 ucu yeniden okunmadı; ay-güneş çevirisi sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "abd-ordu-askeri-hukumeti-kore",
+   "f": "1945-09-09",
+   "t": "1948-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Kore Genel Valisi teslim belgesi, Yale Avalon Project (https://avalon.law.yale.edu/wwii/j2.asp) + FRUS 1948 VI, Editorial Note (https://history.state.gov/historicaldocuments/frus1948v06/d870)",
+   "alinti": "Signed at SEOUL, KOREA, at 1630 hours on the 9th day of September 1945 | the ceremonies inaugurating the new Korean Government on August 15",
+   "oneri": {},
+   "not": "[sira 409] Birincil belge neşri (Avalon) + ABD Dışişleri resmî belge yayını. ÜLKE DÜZEYİ. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:207",
+   "alan": "s",
+   "d": "guney-kore",
+   "f": "1948-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1948 VI, Editorial Note (https://history.state.gov/historicaldocuments/frus1948v06/d870)",
+   "alinti": "the ceremonies inaugurating the new Korean Government on August 15",
+   "oneri": {},
+   "not": "[sira 410] ÜLKE DÜZEYİ; t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Nancowry (Nikobar)": [
+  {
+   "dosya_satir": "data/yerlesimler_hint_adalar.js:67",
+   "alan": "s",
+   "d": "danimarka-hindistani",
+   "f": "1756-01-01",
+   "t": "1868-10-16",
+   "hukum": "ONERI",
+   "kaynak": "Den Store Danske / lex.dk, 'Nicobarerne' (https://lex.dk/Nicobarerne)",
+   "alinti": "søgte Danmark i 1755 at sætte sig i besiddelse af dem | I 1848 opgav Danmark kravet på Nicobarerne",
+   "oneri": {
+    "f": "1755-01-01",
+    "t": "1848-01-01",
+    "bolme": "1848→1869 arası sahipsizlik beyanı (Danimarka iddiadan vazgeçti, İngiltere henüz almadı) — KASA kural kararı: __BOSLUK__ + beyan ya da komşu petek"
+   },
+   "not": "[sira 411] lex.dk: Frederiksøerne 1755-1848 Danimarka mülkü; Danimarka 1848'de iddiasından vazgeçti; İngiltere 1869'da adaları teslim aldı. Mevcut f=1756 (künye maddesi) ve t=1868-10-16 (satış/devir anlaşması) kaynakla uyuşmuyor. YIL düzeyi. Danimarka'nın 1848-1868 arası hukukî iddiası bitmişti — 1868 'satış' yalnız haklardan feragat belgesidir, ic_not. HAYALET DEVLET: danimarka-hindistani künye f'si 1755'i kapsıyor mu KASA ölçmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hint_adalar.js:67",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1868-10-16",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Den Store Danske / lex.dk, 'Nicobarerne' (https://lex.dk/Nicobarerne)",
+   "alinti": "tog Storbritannien dem i besiddelse i 1869.",
+   "oneri": {
+    "f": "1869-01-01"
+   },
+   "not": "[sira 412] TEK ÖLÇÜ: İngiltere adaları fiilen yönetmiyordu → s: TESLİM (fiilî idare) yılından, 1869 (gün kaynakta yok; YIL). 1868-10-16 devir anlaşması ic_not. İPUCU: 1942-1945 Japon işgali gösterilmiyor (kayıtta BEYANLI YAKLAŞIKLIK) — isg japonya katmanı için kaynak aranmalı; lex.dk Japon işgalini anmıyor. TARAYICI: Andaman-Nicobar Japanese occupation 1942-03-23 / 1945-10 akademik kaynak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hint_adalar.js:67",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 413] [KÜME K10] ayrı ajanda."
+  }
+ ],
+ "Datça": [
+  {
+   "dosya_satir": "data/yerlesimler.js:129",
+   "alan": "s",
+   "d": "mentese",
+   "f": "1281-01-01",
+   "t": "1390-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Menteşe' (https://islamansiklopedisi.org.tr/mentese) + TDV İslâm Ansiklopedisi 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "Menteşe Beyliği, 1389-1391 yıllarında Yıldırım Bayezid tarafından alınıp Osmanlı topraklarına … sancak olarak katıldı",
+   "oneri": {},
+   "not": "[sira 414] ABİ MERKEZ Menteşe beyliği (TDV 'datca' maddesi yok — slug arama sayfasına düştü; TDV 'Menteşe': XVI. yy tahrirlerinde Datça yarımadası Menteşe bölgesinde). YIL düzeyi: TDV 1389-1391 aralığı; Menteşeoğulları: 'Osmanlılar’ın ilk fethettiği yıllarda (1390-1402)'. f=1281 atlas epoku. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:129",
+   "alan": "s",
+   "d": "mentese",
+   "f": "1402-07-28",
+   "t": "1425-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "II. Murad 827’de (1424) Menteşe topraklarını ele geçirdiği zaman bu iki kardeş yakalanarak hapsedildi",
+   "oneri": {
+    "t": "1424-01-01"
+   },
+   "not": "[sira 415] f=1402-07-28 KAYNAKLI yıl (TDV Menteşeoğulları: 'Ankara Savaşı’ndan (1402) sonra Timur … Menteşeoğulları’na da ülkelerini iade etti'; TDV Menteşe: 'Ankara Savaşı’ndan sonra bir müddet için elden çıktıysa da 1424’te kesin olarak zaptedildi'). t: iki TDV maddesi de 1424 der, mevcut 1425-06-01 ÇELİŞİYOR. Hicrî 827 ≈ 1423-12-04 → 1424-11-21 (aralık doğrulanmalı) ∩ mîlâdî 1424 → kesişimin ilk günü 1424-01-01. Ardıl d: dönemi (418) ile birlikte taşınmalı. ABİ MERKEZ Menteşe; BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:129",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 416] [KÜME K05] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:129",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1390-01-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari) + TDV İslâm Ansiklopedisi 'Menteşe' (https://islamansiklopedisi.org.tr/mentese)",
+   "alinti": "Osmanlılar’ın ilk fethettiği yıllarda (1390-1402) Yıldırım Bayezid’in Menteşe valisi olan Hoca Fîruz",
+   "oneri": {},
+   "not": "[sira 417] YIL düzeyi; ABİ MERKEZ Menteşe sancağı ('Osmanlı topraklarına aynı isimli bir sancak olarak katıldı' — ÖLÇÜT: idareye katma, sancak). t=1402-07-28 Ankara Savaşı günü ülke düzeyi. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:129",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1425-06-01",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "II. Murad 827’de (1424) Menteşe topraklarını ele geçirdiği zaman",
+   "oneri": {
+    "f": "1424-01-01"
+   },
+   "not": "[sira 418] f 415 ile birlikte 1424'e (hicrî 827 ∩ 1424 ilk günü). ÖLÇÜT: idareye katma — TDV Menteşe: '1424’te kesin olarak zaptedildi ve sancak merkezi Milas’tan Muğla’ya taşındı'. t=1920-04-23 KURAL (tbmm-turkiye başlangıcı)."
+  }
+ ],
+ "Bodrum": [
+  {
+   "dosya_satir": "data/yerlesimler.js:132",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1402-01-01",
+   "t": "1523-01-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Bodrum' (https://islamansiklopedisi.org.tr/bodrum)",
+   "alinti": "şövalyeler 1415'ten itibaren … ada üzerinde bir kale inşasına giriştiler | 1522'de Osmanlı hâkimiyeti altına alındı",
+   "oneri": {
+    "f": "1415-01-01 (ya da Şövalyelerin Bodrum'a yerleşme yılı kaynakla bulunursa o yıl)",
+    "ekle": "1281→f arası s: mentese (1390-1402 d osmanli) — Datça zinciri gibi"
+   },
+   "not": "[sira 419] TDV Bodrum: Şövalyeler kale inşasına 1415'ten itibaren girişti; 1402 tarihi TDV'de yok (kaynaksız uç). Ayrıca zincirde 1281→1402 arası sahip YOK (Değişmez 1 riski): TDV Bodrum 'Menteşe Bey’in liderliğindeki bu Türkmenler XIII. yüzyıl sonlarında şimdiki Bodrum dolayına ulaşmış' → s: mentese (ABİ MERKEZ Menteşe; 1390-1402 Osmanlı, 1402 sonrası Menteşe) eklenmeli. t=1523-01-05 (Şövalyelerin çekilişi): TDV yalnız '1522' der; gün kaynakta yok — kronoloji maddesinden, ic_not. BELİRSİZ: Şövalyelerin yeri ilk ele geçiriş yılı (1404-1415 arası) TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:132",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 420] [KÜME K05] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:132",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1523-01-05",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Bodrum' (https://islamansiklopedisi.org.tr/bodrum)",
+   "alinti": "1522'de Osmanlı hâkimiyeti altına alındı. … Kaptanpaşa eyaletinin İstanköy sancağına bağlı bir kale",
+   "oneri": {},
+   "not": "[sira 421] YIL düzeyi (TDV 1522; f=1523-01-05 gün kronoloji maddesinden). ÖLÇÜT: idareye katma — İstanköy sancağına bağlı kale. 1919-05-11→1921-07-05 İtalyan işgali kayıtta isg katmanı olarak zaten var (TDV Bodrum '11 Mayıs 1919'da İtalyan işgaline uğradı' ile uyumlu). t=1920-04-23 KURAL. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:132",
+   "alan": "s",
+   "d": "karya-hekatomnid",
+   "f": "-0390-01-01",
+   "t": "-0333-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 422] DIGER (Livius dayanaklı, antik); bütçe nedeniyle sınanmadı. TDV Bodrum Hekatomnos/Mausolos tarihlerini vermiyor."
+  }
+ ],
+ "Anamur": [
+  {
+   "dosya_satir": "data/yerlesimler.js:229",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1281-01-01",
+   "t": "1471-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Gedik Ahmed Paşa' (https://islamansiklopedisi.org.tr/gedik-ahmed-pasa) + 'İçel' (https://islamansiklopedisi.org.tr/icel)",
+   "alinti": "1471’de Alâiye’yi (Alanya), ertesi yıl İçel ve Karaman’da Silifke, Mokan, Gorigos … ele geçirdi",
+   "oneri": {
+    "t": "1472-01-01"
+   },
+   "not": "[sira 423] TDV'de 'Anamur' maddesi yok (slug arama sayfasına düştü); Gedik Ahmed Paşa ve Karamanoğulları maddeleri Anamur'u anmıyor. ABİ MERKEZ: İçel sancağı — TDV İçel: 'Sancağın en önemli merkezleri Ermenek, Mut, Silifke ve Anamur şehirleriydi'; 1584'te Anamur kazası (BA, TD nr.128). İçel'in fethi 1471'in ertesi yılı = 1472; mevcut 1471 Alanya'nın yılıdır. BEYANLI YAKLAŞIKLIK, YIL. Ayrıca TDV Gedik Ahmed Paşa: 1474'te Ermenek, Manyan, Silifke 'tekrar' alındı — Karaman geri dönüşü Anamur'a özgü belgelenmedi. f=1281 epok; TDV İçel: Anamur 1225'te Selçuklu (Mübârizüddin Ertokuş) fethi, Karaman sahipliği ayrıca yıl düzeyinde okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:229",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 424] [KÜME K05] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:229",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1471-01-01",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Gedik Ahmed Paşa' (https://islamansiklopedisi.org.tr/gedik-ahmed-pasa) + 'İçel' (https://islamansiklopedisi.org.tr/icel)",
+   "alinti": "ertesi yıl İçel ve Karaman’da Silifke, Mokan, Gorigos (Kızkalesi), Gülek ve Lülye’yi (Lülüe) ele geçirdi",
+   "oneri": {
+    "f": "1472-01-01"
+   },
+   "not": "[sira 425] 423 ile birlikte. ÖLÇÜT: idareye katma — TDV İçel: İçel sancağı tahrirleri (BA, TD nr. 31, 83; 1584 Anamur kazası). ABİ MERKEZ İçel; BEYANLI. t=1920-04-23 KURAL."
+  }
+ ],
+ "Nevşehir (Muşkara)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:296",
+   "alan": "s",
+   "d": "eretna",
+   "f": "1335-01-01",
+   "t": "1365-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Nevşehir' (https://islamansiklopedisi.org.tr/nevsehir)",
+   "alinti": "XIV. yüzyıl ortalarında Eretnaoğulları’nın hâkimiyetine geçti. 766 (1365) yılına doğru Karamanoğulları tarafından ele geçirildi.",
+   "oneri": {},
+   "not": "[sira 426] Kendi şehir maddesi (ABİ MERKEZ Ürgüp gerekmez; TDV Nevşehir: Muşkara köyü Niğde sancağı Ürgüp kazası). YIL düzeyi: t hicrî 766 ≈ 1364-09 → 1365-09 ('yılına doğru'), mevcut 1365-01-01 aralık içinde. f=1335 Eretna kuruluşu; TDV 'XIV. yüzyıl ortalarında' der (yaklaşık). [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:296",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 427] [KÜME K05] ayrı ajanda."
+  }
+ ],
+ "Ürgüp": [
+  {
+   "dosya_satir": "data/yerlesimler.js:307",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 428] [KÜME K20] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:307",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1415-03-22",
+   "t": "1435-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Ürgüp' (https://islamansiklopedisi.org.tr/urgup)",
+   "alinti": "818’de (1415) … İbrâhim Bey buranın idaresini Dulkadırlı Nâsırüddin Muhammed Bey’e verdi. Ürgüp yirmi yıl kadar Dulkadıroğulları’nın hâkimiyetinde",
+   "oneri": {
+    "d": "dulkadir"
+   },
+   "not": "[sira 429] TDV Ürgüp: Memlük sultanının oğlu Kayseri'yi ilhak edip Ürgüp'ün idaresini Dulkadırlı Nâsırüddin Mehmed'e verdi; 'Ürgüp yirmi yıl kadar Dulkadıroğulları’nın hâkimiyetinde kaldı'. Fiilî sahip dulkadir (Memlük'e tâbi; istenirse v: memluk ayrıca). f: hicrî 818 ≈ 1415-03 → 1416-02, mevcut 1415-03-22 aralık içinde (gün kaynakta yok). t 1435 TDV ile uyumlu. Künye dulkadir var (devletler.js); f/t'si 1415-1435'i kapsıyor mu KASA ölçmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:307",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1435-01-01",
+   "t": "1474-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Ürgüp' (https://islamansiklopedisi.org.tr/urgup)",
+   "alinti": "1435 yılında … Kayseri, Ürgüp, Uçhisar ve Develikarahisarı’nı yeniden Karaman hâkimiyetine aldı",
+   "oneri": {},
+   "not": "[sira 430] YIL düzeyi. t: TDV 'Gedik Ahmed Paşa’nın Karaman seferi sırasında (1474 yılı sonları) … Ürgüp’ün de bu tarihte kesin biçimde Osmanlı egemenliğine girdiği söylenebilir'; 1476 Karaman Evkaf Defteri'nde Ürgüp (ÖLÇÜT: idareye katma — defter). Mevcut t=1474-01-01 yıl doğru ama 'yılı sonları' ifadesiyle erken; kesinlik yıl beyanı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:307",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 431] [KÜME K05] ayrı ajanda."
+  }
+ ],
+ "Amasra": [
+  {
+   "dosya_satir": "data/yerlesimler.js:341",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1459-06-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Fâtih Camii (Amasra)' (https://islamansiklopedisi.org.tr/fatih-camii--amasra)",
+   "alinti": "Amasra, 1461 yılında karadan Fâtih Sultan Mehmed idaresindeki ordunun … hiç çarpışmadan teslim olmuştur",
+   "oneri": {
+    "t": "ÇİFT-TDV — karar koordinatörde: 1459 (TDV 'Mehmed II', 863) ya da 1461 (TDV 'Fâtih Camii (Amasra)' + 'Ceneviz')"
+   },
+   "not": "[sira 432] ÇİFT-TDV çelişkisi: TDV 'Mehmed II' 863 (1459) — kayıt bunu kullanıyor; TDV 'Fâtih Camii (Amasra)' (Amasra'ya özgü madde; ayrı şehir maddesi yok — 'amasra' slug arama sayfasına düşüyor) ve TDV 'Ceneviz' 1461. Üçüncü bağımsız kaynak aranmadı (bütçe). Yerleşime özgü TDV maddesi 1461 der. Mevcut 1459-06-20 (Semendire'nin düşüşü, ALT SINIR) Amasra'ya özgü değildir. TARAYICI: Babinger, Mehmed der Eroberer / Kritovulos Amasra 1459-1460."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:341",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 433] [KÜME K05] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:341",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1459-06-20",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Fâtih Camii (Amasra)' (https://islamansiklopedisi.org.tr/fatih-camii--amasra)",
+   "alinti": "Amasra, 1461 yılında … teslim olmuştur",
+   "oneri": {
+    "f": "432 ile aynı ÇİFT-TDV kararı"
+   },
+   "not": "[sira 434] f ucu 432 ile birlikte. t=1920-04-23 KURAL."
+  }
+ ],
+ "Suçava (Suceava)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1775-05-07",
+   "t": "1918-11-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Moldova' (https://islamansiklopedisi.org.tr/moldova)",
+   "alinti": "1775’te Moldova’nın eski başşehri Suceava dahil kuzey kısmı ile Bukovina … Avusturya’ya mükâfat olarak verildi",
+   "oneri": {
+    "t": "Romen askerî girişi (1918-11, gün okunmadı)",
+    "isg": "isg romanya 1918-11 → 1919-12-10",
+    "not": "s: romanya-kralligi 1919-12-10'dan (Trento/Trieste Saint-Germain emsali)"
+   },
+   "not": "[sira 435] f=1775-05-07 KAYNAKLI yıl (TDV Moldova, Suceava'yı adıyla anar). t: TDV Moldova '14-27 Ekim 1918’de Bukovina’nın Millî Meclisi de Romanya ile birleşmeyi onayladı. Bu birleşme 10 Aralık 1919 Saint-Germainen-Laye Muahedesi’yle Avusturya tarafından kabul edildi' — mevcut 1918-11-28 (Genel Kongre) TDV'de yok (TDV 14/27 Ekim, Jülyen/Gregoryen çift gün). TEK KURAL/TEK ÖLÇÜ ve Trento emsali (Saint-Germain imza): hukukî devir antlaşma imzasıyla → s: romanya 1919-12-10 (TDV'deki gün; Romanya'nın imzası), arada isg romanya. ÖLÇÜT: geçici/askerî — Avusturya'nın iddiası antlaşmaya dek hukuken sürer. KURAL KARARI KASA'nın (Bukovina'ya Trento emsali uygulanacak mı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1918-11-28",
+   "t": "1947-12-30",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Moldova' (https://islamansiklopedisi.org.tr/moldova)",
+   "alinti": "Bu birleşme 10 Aralık 1919 Saint-Germainen-Laye Muahedesi’yle Avusturya tarafından kabul edildi.",
+   "oneri": {
+    "f": "1919-12-10 (435'teki kural kararına bağlı)"
+   },
+   "not": "[sira 436] f 435 ile birlikte. t=1947-12-30 (Halk Cumhuriyeti ilanı) bu turda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "s",
+   "d": "bogdan",
+   "f": "1359-01-01",
+   "t": "1456-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Boğdan' (https://islamansiklopedisi.org.tr/bogdan)",
+   "alinti": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek suretiyle varlığını koruyabilmiştir",
+   "oneri": {
+    "t": "1455-09-01"
+   },
+   "not": "[sira 437] t: TDV Boğdan, haraç (tâbiiyet) 1455 Eylülünden — mevcut 1456-06-01 ile çelişiyor. AY düzeyi. f=1359 Boğdan kuruluşu TDV Boğdan'da bulunamadı (anahtar '1359' YOK)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "v",
+   "d": "",
+   "f": "1456-06-01",
+   "t": "1775-05-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Boğdan' (https://islamansiklopedisi.org.tr/bogdan) + TDV İslâm Ansiklopedisi 'Moldova' (https://islamansiklopedisi.org.tr/moldova)",
+   "alinti": "Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın | 1775’te … Suceava dahil kuzey kısmı",
+   "oneri": {
+    "f": "1455-09-01"
+   },
+   "not": "[sira 438] f 437 ile birlikte (AY). ÖLÇÜT: tâbiiyet — haraç; TDV Boğdan: Fâtih 'Boğdan’ı … bir Osmanlı paşası tarafından idare edilen bir eyalet haline getirmemiştir' → v: doğru. t=1775 KAYNAKLI yıl (TDV Moldova). İç not: 1538 Kanûnî seferinde 'Suceava zaptedilerek' (TDV Boğdan) — tâbiiyet sürer, sahiplik değişimi değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 439] DIGER (LoC Romania Country Study); bütçe nedeniyle sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:588",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 440] DIGER (LoC Romania Country Study); bütçe nedeniyle sınanmadı."
+  }
+ ],
+ "İskiros (Skyros)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:710",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1453-05-29",
+   "t": "1538-08-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Barbaros Hayreddin Paşa' (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa)",
+   "alinti": "Venedik’e ait adaların zaptına girişti … 1538 baharında … Skyros",
+   "oneri": {},
+   "not": "[sira 441] t KAYNAKLI yıl: TDV Barbaros 1538 seferinde Venedik'e ait Skyros'u 'Osmanlı idaresine kattı' (sahip venedik 1538'de teyitli). Mevcut gün 1538-08-01 kronoloji maddesinden; TDV 'baharında' der — gün kaynakta yok. f=1453-05-29 (İstanbul'un düşüşüyle Venedik'e geçiş) için kaynak bulunamadı: TDV 'iskiros' maddesi yok (arama sayfası). TARAYICI: Skyros 1453 Venetian (Miller, Latins in the Levant / Koder TIB)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:710",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 442] Bizans 1281-1453 bütçe nedeniyle aranmadı (TDV'de İskiros maddesi yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:710",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Yunanistan' (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Osmanlı Devleti 1830’da bu devleti tanımak zorunda kaldı.",
+   "oneri": {},
+   "not": "[sira 443] ÜLKE DÜZEYİ, YIL (TDV 1830; 1830-02-03 Londra Protokolü günü TDV'de yok, brif emsali). İç not: TDV 'Yunanistan’ın fiilen bağımsız hale geldiği 1828'. t=1973-06-01 okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:710",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1538-08-01",
+   "t": "1830-02-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Barbaros Hayreddin Paşa' (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi 'Yunanistan' (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Skyros … toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı",
+   "oneri": {},
+   "not": "[sira 444] YIL düzeyi. ÖLÇÜT: idareye katma — TDV 'Osmanlı idaresine kattı'. f günü 1538-08-01 TDV'de yok ('1538 baharında' sefer). t 1830 ülke düzeyi (TDV Yunanistan). [alıntı özetten]"
+  }
+ ],
+ "Nikarya (İkarya)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:713",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1481-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 445] Kayıtta beyanlı boşluk (arandı, bulunamadı); bu turda yeniden aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:713",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1481-01-01",
+   "t": "1521-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 446] TDV 'nikarya' maddesi yok (slug arama sayfasına düştü; tek eşleşme Lozan). Kayıttaki dayanak (Kuzey Ege Bölge Yönetimi sayfası) akademik değil; akademik kaynak bulunamadı. TARAYICI: Stamatiadis, Ikariaka (1893) / Melas 1998."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:713",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1923-07-24",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Lozan Antlaşması' (https://islamansiklopedisi.org.tr/lozan-antlasmasi)",
+   "alinti": "İmroz, Bozcaada … dışında kalan ve adları sayılan adalar Yunanistan’a bırakılmıştı … Nikarya",
+   "oneri": {},
+   "not": "[sira 447] TDV Lozan: adlar sayılan adalar (Nikarya dahil) Yunanistan'a bırakıldı → s: yunanistan 1923-07-24 TDV ile uyumlu. KURAL KARARI: brif 'Ada istisnası (Sisam)' — devir 1914 Şubat büyük devletler notasıyla; Nikarya da o kararın kapsadığı Doğu Akdeniz adalarındandır. Sisam emsali Nikarya'ya uygulanacaksa s: yunanistan 1914-02 notasından başlar, d: osmanli orada biter (1914 notasının Nikarya'yı andığını bu turda okumadım). Karar KASA'nın. t=1973-06-01 okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:713",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1521-01-01",
+   "t": "1923-07-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Lozan Antlaşması' (https://islamansiklopedisi.org.tr/lozan-antlasmasi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 448] f=1521-01-01 Osmanlı fethi akademik kaynakta bulunamadı (TDV nikarya yok; kayıttaki tek kaynak 1522 der, akademik değil). t=1923-07-24 TDV Lozan ile uyumlu (447'deki Sisam kural kararı geçerli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:713",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1912-07-17",
+   "t": "1923-07-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 449] 1912-07-17 (İkarya ayaklanması/Yunan işgali) akademik kaynakta bulunamadı; kaynak alanı yalnız 'oniki-ada' (Nikarya Oniki Ada değildir). İPUCU: 1912 Temmuz yerel ayaklanma ve kısa ömürlü 'Özgür İkarya Devleti', Yunan donanmasının gelişi Kasım 1912 — işgalci yunanistan Temmuz'dan değil Kasım'dan olabilir. TARAYICI."
+  }
+ ],
+ "Ağraham burnu": [
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1501-07-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 450] [KÜME K04] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1722-08-08",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Dağıstan' (https://islamansiklopedisi.org.tr/dagistan)",
+   "alinti": "Daha sonra sırasıyla İlhanlılar, Altın Orda Hanlığı, Timurlular, Şirvanşahlar ve Safevîler … Dağıstan 1578-1606 yılları arasında Osmanlı hâkimiyeti altında kaldı.",
+   "oneri": {
+    "bolme": "s: safevi 1501-07-01→1578 | d/v: osmanli 1578→1606 | s: safevi 1606→1722-08-08"
+   },
+   "not": "[sira 451] ÜLKE (bölge) DÜZEYİ: TDV Dağıstan 1578-1606 Osmanlı hâkimiyeti — zincir 1501-1722 kesintisiz safevi. YIL. d: mı v: mı (Şamhal üzerinden tâbiiyet) TAHRİR ölçütüyle KASA karar vermeli; TDV belge vermiyor. Ayrıca Safevî hâkimiyetinin Ağrahan'a (Kuzey Dağıstan, Sulak'ın kuzeyi) 1501'de uzandığı TDV'de yıl/gün olarak yok — f=1501-07-01 (Tebriz) ülke düzeyi ve Kuzey Dağıstan için şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1735-08-23",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Dağıstan' (https://islamansiklopedisi.org.tr/dagistan)",
+   "alinti": "1735 tarihli antlaşma ile de Sulak ve Kura (Kür) nehirleri arasında kalan bazı toprakları ele geçirdi",
+   "oneri": {},
+   "not": "[sira 452] TDV Dağıstan 1735 antlaşmasıyla Nadir'in Sulak–Kür arasını aldığını söyler; Ağrahan yarımadası Sulak ağzının KUZEYİNDEDİR → 1735'te İran'a geçtiği kaynakta yok, Rus/Kumuk tarafında kalmış olabilir. Ağrahan'a özgü kaynak bulunamadı. TARAYICI: Gence Antlaşması 1735 sınırı (Sulak/Terek), Kutsal Haç kalesinin terki."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1813-10-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 453] [KÜME K24] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1722-08-08",
+   "t": "1735-08-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Dağıstan' (https://islamansiklopedisi.org.tr/dagistan)",
+   "alinti": "Büyük Petro … 1722’de İran’a karşı bir savaş açtı … Hazar sahillerine doğru egemenliklerini genişlettiler",
+   "oneri": {},
+   "not": "[sira 454] YIL düzeyi, bölge düzeyi (Hazar kıyısı Dağıstan). t 1735 TDV ('1735 tarihli antlaşma'); gün kaynakta yok. 452'deki Sulak sınırı notuna bak — Rus çekilişinin Ağrahan'ı kapsayıp kapsamadığı belirsiz. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 455] [KÜME K25] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 456] [KÜME K26] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1813-10-24",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Dağıstan' (https://islamansiklopedisi.org.tr/dagistan)",
+   "alinti": "Gülistan Antlaşması ile (1813) Dağıstan Ruslar tarafından ilhak edildi",
+   "oneri": {},
+   "not": "[sira 457] YIL düzeyi, BÖLGE DÜZEYİ. Gün 1813-10-24 TDV'de yok; Gülistan imzası Jülyen 12 Ekim = Gregoryen 24 Ekim 1813 (takvim beyanı; günü taşıyan kaynak okunmadı). t=1917-03-15 [KÜME K01] sınırı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 458] [KÜME K01] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 459] [KÜME K02] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:783",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 460] [KÜME K03] ayrı ajanda."
+  }
+ ],
+ "Kordofan (Ubeyyid)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:986",
+   "alan": "s",
+   "d": "funj",
+   "f": "1800-01-01",
+   "t": "1821-08-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Sudan' (https://islamansiklopedisi.org.tr/sudan)",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı. Ardından Kordofan ele geçirildi.",
+   "oneri": {},
+   "not": "[sira 461] t KAYNAKLI yıl (1821). Sahip funj 1800'de kaynakta bulunamadı: TDV Sudan Func sınırının 'batıda Kordofan’a kadar' uzanışını XVIII. yy ilk yarısına koyar, XVIII. yy ortasından Func zayıflar; 1800'deki Kordofan sahibi (İPUCU: Dârfûr Fûr Sultanlığı, 1785 sonrası) TDV'de açıkça yazmıyor. TDV 'kurdufan' maddesi yok. TARAYICI: Kordofan 1785-1821 Darfur (O'Fahey, State and Society in Dar Fur)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:986",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Sudan' (https://islamansiklopedisi.org.tr/sudan)",
+   "alinti": "Mehdî, Ubeyyid’e girdi (19 Ocak 1883).",
+   "oneri": {
+    "f": "1883-01-19"
+   },
+   "not": "[sira 462] f: TDV Sudan, Mehdî'nin Ubeyyid'e girişi 19 Ocak 1883; mevcut 1882-09-07 (kuşatma başlangıcı?) şehrin düşüşü değildir. ÖLÇÜT: fiilî denetim — kuşatma sırasında şehir Mısır garnizonunun elindeydi. t=1899-01-19 Kondominyum ülke düzeyi; Ubeyyid'in fiilen geri alınışı (1899) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:986",
+   "alan": "v",
+   "d": "",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Sudan' (https://islamansiklopedisi.org.tr/sudan)",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında … Ardından Kordofan ele geçirildi. | Mehdî, Ubeyyid’e girdi (19 Ocak 1883)",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 463] f KAYNAKLI yıl (1821; gün 1821-08-19 Bara muharebesi TDV'de yok). t 462 ile birlikte 1883-01-19. ÖLÇÜT: v: — TDV Sudan 'Kavalalı Mehmed Ali Paşa ve oğulları, Osmanlı Devleti adına … 1821-1882'."
+  }
+ ],
+ "Kerak": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1144",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 464] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1144",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1918-01-01",
+   "t": "1921-02-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Ürdün' (https://islamansiklopedisi.org.tr/urdun)",
+   "alinti": "23 Eylül’de Salt’ı, 25 Eylül’de Amman’ı ele geçirdiler. Böylece 1918 yılı sonunda Ürdün … Faysal’ın yönetimi altına girdi",
+   "oneri": {
+    "bolme": "s: suriye-arap-kralligi 1918-10-01→1920-07-25 | 1920-07-25→1921-02-01 sahip KASA kararı (İngiliz destekli yerel yönetimler) | t 1921-02-01 Şarkî Ürdün Emirliği",
+    "d": "suriye-arap-kralligi (1918-1920 kesimi için)"
+   },
+   "not": "[sira 465] TDV Ürdün: Faysal'a bağlı kuvvetler 1918 Eylül'ünde Salt ve Amman'ı aldı; Ürdün '1918 yılı sonunda … Faysal’ın yönetimi altına girdi'; Abdullah 'Şubat 1921’de kendini Şarkī Ürdün emîri ilân etti' (t=1921-02-01 AY düzeyinde uyumlu; künye urdun-emirligi f=1921-02-01). s: ingiltere 1918-01-01 yanlış: Kerek'in Ocak 1918'de düştüğüne dair kaynak yok, sahip de Faysal yönetimidir. Künye suriye-arap-kralligi 1918-10-01→1920-07-25 var. Kerek'e özgü teslim günü okunmadı (Salt/Amman günleri bölge düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1144",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-01-01",
+   "t": "1918-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Kerek' (https://islamansiklopedisi.org.tr/kerek) + TDV İslâm Ansiklopedisi 'Ürdün' (https://islamansiklopedisi.org.tr/urdun)",
+   "alinti": "1517 yılında bölge Osmanlı Devleti’nin hâkimiyetine girdi.",
+   "oneri": {
+    "t": "1918-10-01 (465 ile birlikte; Kerek'e özgü gün okunmadı)"
+   },
+   "not": "[sira 466] f KAYNAKLI yıl (TDV Kerek 1517). t: 1918-01-01 kaynaksız; TDV Ürdün'e göre Osmanlı hâkimiyeti Eylül 1918'de bitti (Salt 23, Amman 25 Eylül). İç not: TDV Kerek, İbrâhim Paşa 1834'te kaleyi aldı (Mısır idaresi 1831-1840 — v: katmanı gerekir mi KASA ölçmeli); 1893 mutasarrıflık (ÖLÇÜT: idareye katma)."
+  }
+ ],
+ "Deyrizor": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-24",
+   "t": "1946-04-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Deyrizor' (https://islamansiklopedisi.org.tr/deyrizor)",
+   "alinti": "1921’de de Cem‘iyyet-i Akvâm tarafından Fransızlar’ın idaresine bırakılan Suriye’ye ilhak edilmiştir",
+   "oneri": {
+    "f": "1921-01-01 (YIL; Fransız idaresinin Deyrizor'a girişi)"
+   },
+   "not": "[sira 467] Kendi şehir maddesi: Deyrizor Fransız idaresindeki Suriye'ye 1921'de katıldı; 1920-07-24 (Meysalun) iç Suriye günüdür, Deyrizor'a özgü değil. 1920-07-24→1921 arası sahip TDV'de yok (BELİRSİZ; İPUCU: İngiliz/yerel aşiret denetimi). t: TDV '1946 yılında şehir yine Suriye Cumhuriyeti’ne bağlanmıştır' — 1946 yıl uyumlu. İç not: 'II. Dünya Savaşı yıllarında İngilizler burayı yeniden işgal etmişlerse de' — isg ingiltere 1941 katmanı eksik olabilir. ÇİFT-TDV notu: TDV Suriye manda yönetimini '(1920-1946)' verir; şehir maddesi esas."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1918-10-26",
+   "t": "1920-07-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Deyrizor' (https://islamansiklopedisi.org.tr/deyrizor)",
+   "alinti": "1918’de İngilizler tarafından işgal edilen Deyrizor kısa bir süre … I. Faysal’ın denetiminde kalmış",
+   "oneri": {
+    "d": "suriye-arap-kralligi (Faysal denetimi); İngiliz işgali isg ingiltere katmanı olarak"
+   },
+   "not": "[sira 468] s: fransa-cumhuriyet 1918-1920 kaynakla çelişiyor: TDV Deyrizor'a göre 1918'de İngiliz işgali, ardından Faysal denetimi; Fransız idaresi 1921'den. Levant/Şam emsali: iç Suriye 1918-10→1920-07-25 s: suriye-arap-kralligi (künye 1918-10-01 var). ÖLÇÜT: geçici/askerî — İngiliz işgali. Günler (1918-10-26 ve 1920-07-24) Deyrizor'a özgü kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1836-01-01",
+   "t": "1918-10-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Deyrizor' (https://islamansiklopedisi.org.tr/deyrizor)",
+   "alinti": "1918’de İngilizler tarafından işgal edilen Deyrizor",
+   "oneri": {},
+   "not": "[sira 469] t YIL düzeyi (1918). f=1836 'kur' ilk yazılı tanık (Ainsworth), sahiplik ucu değil. ÖLÇÜT: idareye katma — TDV: nahiye/kaymakamlık, 1870 Zor sancağı merkezi (Halep vilâyeti). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "s",
+   "d": "suriye-cumhuriyeti-1946",
+   "f": "1946-04-17",
+   "t": "1958-02-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Suriye' (https://islamansiklopedisi.org.tr/suriye)",
+   "alinti": "Fransa … 1946 baharında Suriye’yi terketmek zorunda kaldı. | Şubat 1958’de Mısır ve Suriye’nin Birleşik Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 470] ÜLKE DÜZEYİ, AY/YIL düzeyi (1946 baharı; Şubat 1958). Gün 1946-04-17 ve 1958-02-22 TDV'de yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1961-09-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Suriye' (https://islamansiklopedisi.org.tr/suriye)",
+   "alinti": "Şubat 1958’de … Birleşik Arap Cumhuriyeti adı altında birleşmesiyle | Eylül 1961’de … askerî ihtilâl Birleşik Arap Cumhuriyeti’ni sona erdirdi",
+   "oneri": {},
+   "not": "[sira 471] ÜLKE DÜZEYİ, AY düzeyi; günler (1958-02-22, 1961-09-28) TDV'de yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1148",
+   "alan": "s",
+   "d": "suriye-arap-cumhuriyeti",
+   "f": "1961-09-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Suriye' (https://islamansiklopedisi.org.tr/suriye)",
+   "alinti": "Eylül 1961’de Suriye’de gerçekleştirilen askerî ihtilâl Birleşik Arap Cumhuriyeti’ni sona erdirdi.",
+   "oneri": {},
+   "not": "[sira 472] ÜLKE DÜZEYİ, AY düzeyi; t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ]
+}

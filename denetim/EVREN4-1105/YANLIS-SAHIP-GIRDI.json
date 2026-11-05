@@ -1,0 +1,963 @@
+{
+ "tanganika": [
+  {
+   "ad": "Kilwa Kisiwani (Kilve)",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": -8.9795,
+   "lon": 39.4862,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-19",
+    "s:ingiltere 1916-09-19→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Zanzibar (Zengibar)",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": -6.1659,
+   "lon": 39.1917,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-01-01",
+    "s:ingiltere 1890-01-01→1963-12-10",
+    "s:zengibar-bagimsiz-sultanlik 1963-12-10→1964-01-12",
+    "s:zengibar-halk-cumhuriyeti 1964-01-12→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Bagamoyo",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": -6.4431,
+   "lon": 38.9006,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Tanga",
+   "dosya": "yerlesimler_emilme.js",
+   "lat": -5.0689,
+   "lon": 39.0988,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Nairobi",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -1.29,
+   "lon": 36.82,
+   "zincir": [
+    "s:ingiltere 1899-01-01→1963-12-12",
+    "s:kenya 1963-12-12→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Bveranyange (Karagve)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -1.3,
+   "lon": 31.1,
+   "zincir": [
+    "s:karagve 1450-01-01→1890-07-01",
+    "s:ingiltere 1890-07-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Bukoba",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -1.33,
+   "lon": 31.81,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1890-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kitui",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -1.37,
+   "lon": 38.01,
+   "zincir": [
+    "s:kamba 1281-01-01→1895-07-01",
+    "s:ingiltere 1895-07-01→1963-12-12",
+    "s:kenya 1963-12-12→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Maçakos",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -1.52,
+   "lon": 37.26,
+   "zincir": [
+    "s:ingiltere 1889-01-01→1963-12-12",
+    "s:kenya 1963-12-12→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mvanza",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -2.52,
+   "lon": 32.9,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1892-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mosi (Moshi)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -3.35,
+   "lon": 37.34,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1893-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Arusa (Arusha)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -3.37,
+   "lon": 36.68,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Babati",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -4.22,
+   "lon": 35.75,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Singida",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -4.82,
+   "lon": 34.75,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Ucici (Ujiji)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -4.92,
+   "lon": 29.68,
+   "zincir": [
+    "s:umman-zengibar 1830-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Tabora (Kazeh)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -5.02,
+   "lon": 32.8,
+   "zincir": [
+    "s:umman-zengibar 1852-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Pangani",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -5.4296,
+   "lon": 38.9781,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Dodoma",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -6.17,
+   "lon": 35.75,
+   "zincir": [
+    "s:alman-dogu-afrikasi 1907-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mpvapva",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -6.35,
+   "lon": 36.49,
+   "zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Morogoro",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -6.82,
+   "lon": 37.66,
+   "zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kilosa",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -6.83,
+   "lon": 36.99,
+   "zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kalenga (Hehe)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -7.79,
+   "lon": 35.62,
+   "zincir": [
+    "s:hehe 1850-01-01→1898-07-19",
+    "s:alman-dogu-afrikasi 1898-07-19→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Sumbavanga",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -7.97,
+   "lon": 31.62,
+   "zincir": [
+    "s:fipa-nyakyusa 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kilva Kivince",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -8.75,
+   "lon": 39.41,
+   "zincir": [
+    "s:umman-zengibar 1800-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mbeya",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -8.9,
+   "lon": 33.46,
+   "zincir": [
+    "s:fipa-nyakyusa 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Njombe",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -9.34,
+   "lon": 34.77,
+   "zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Karonga",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -9.93,
+   "lon": 33.93,
+   "zincir": [
+    "s:umman-zengibar 1880-01-01→1895-01-01",
+    "s:ingiltere 1895-01-01→1964-07-06",
+    "s:malavi 1964-07-06→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mbande (Ngonde)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -9.98,
+   "lon": 33.85,
+   "zincir": [
+    "s:ngonde 1600-01-01→1887-01-01",
+    "s:umman-zengibar 1887-01-01→1895-01-01",
+    "s:ingiltere 1895-01-01→1964-07-06",
+    "s:malavi 1964-07-06→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Lindi",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.0,
+   "lon": 39.72,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kasama (Bemba)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.21,
+   "lon": 31.18,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mikindani",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.28,
+   "lon": 40.12,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Songea (Ngoni)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.68,
+   "lon": 35.65,
+   "zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Masasi",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -10.72,
+   "lon": 38.8,
+   "zincir": [
+    "s:yao 1800-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Tunduru",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -11.11,
+   "lon": 37.36,
+   "zincir": [
+    "s:yao 1800-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kilindoni (Mafia Adası)",
+   "dosya": "yerlesimler_hint_adalar.js",
+   "lat": -7.9167,
+   "lon": 39.6667,
+   "zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-19",
+    "s:ingiltere 1916-09-19→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  }
+ ],
+ "guney_rodezya": [
+  {
+   "ad": "Binga",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -17.62,
+   "lon": 27.34,
+   "zincir": [
+    "s:ingiltere 1900-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Salisbury (Harare)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -17.83,
+   "lon": 31.05,
+   "zincir": [
+    "s:ingiltere 1890-09-12→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Livingstone",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -17.85,
+   "lon": 25.86,
+   "zincir": [
+    "s:ingiltere 1905-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Hvange",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -18.37,
+   "lon": 26.5,
+   "zincir": [
+    "s:ingiltere 1903-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Gveru",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -19.45,
+   "lon": 29.82,
+   "zincir": [
+    "s:ingiltere 1894-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Danangombe (Rozvi)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -19.6,
+   "lon": 29.3,
+   "zincir": [
+    "s:ingiltere 1834-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Khami",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -20.15,
+   "lon": 28.38,
+   "zincir": [
+    "s:ingiltere 1683-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Bulavayo",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -20.15,
+   "lon": 28.58,
+   "zincir": [
+    "s:matabele 1840-01-01→1893-11-04",
+    "s:ingiltere 1893-11-04→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Gvanda",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -20.94,
+   "lon": 29.0,
+   "zincir": [
+    "s:ingiltere 1900-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Serove (Serowe)",
+   "dosya": "yerlesimler_afrika2.js",
+   "lat": -22.39,
+   "lon": 26.71,
+   "zincir": [
+    "s:tsvana 1700-01-01→1885-03-31",
+    "s:ingiltere 1885-03-31→1966-09-30",
+    "s:botsvana 1966-09-30→2000-12-31"
+   ]
+  }
+ ],
+ "kuzey_rodezya_kontrol": [
+  {
+   "ad": "Mbeya",
+   "lat": -8.9,
+   "lon": 33.46,
+   "zincir": [
+    "s:fipa-nyakyusa 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kasama (Bemba)",
+   "lat": -10.21,
+   "lon": 31.18,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mpika",
+   "lat": -11.83,
+   "lon": 31.45,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Solwezi",
+   "lat": -12.17,
+   "lon": 26.38,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Ndola",
+   "lat": -12.97,
+   "lon": 28.64,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Serence (Serenje)",
+   "lat": -13.24,
+   "lon": 30.24,
+   "zincir": [
+    "s:bemba 1700-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kasempa",
+   "lat": -13.46,
+   "lon": 25.83,
+   "zincir": [
+    "s:kaonde-ila 1281-01-01→1900-01-01",
+    "s:ingiltere 1900-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Zambezi (Balovale)",
+   "lat": -13.55,
+   "lon": 23.1,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kabompo",
+   "lat": -13.6,
+   "lon": 24.2,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Çipata (Fort Jameson)",
+   "lat": -13.64,
+   "lon": 32.65,
+   "zincir": [
+    "s:ingiltere 1899-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kaoma (Mankoya)",
+   "lat": -14.8,
+   "lon": 24.8,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Kalabo",
+   "lat": -14.97,
+   "lon": 22.68,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Mumbva",
+   "lat": -14.98,
+   "lon": 27.06,
+   "zincir": [
+    "s:kaonde-ila 1281-01-01→1900-01-01",
+    "s:ingiltere 1900-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Lealui (Lozi)",
+   "lat": -15.2,
+   "lon": 23.1,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Senanga",
+   "lat": -16.12,
+   "lon": 23.27,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Seşeke (Sesheke)",
+   "lat": -17.48,
+   "lon": 24.3,
+   "zincir": [
+    "s:lozi 1600-01-01→1890-06-27",
+    "s:ingiltere 1890-06-27→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Katima Mulilo",
+   "lat": -17.5,
+   "lon": 24.27,
+   "zincir": [
+    "s:alman-guneybati-afrikasi 1890-07-01→1915-07-09",
+    "s:ingiltere 1915-07-09→1920-12-17",
+    "s:guneybati-afrika-mandasi 1920-12-17→1990-03-21"
+   ]
+  },
+  {
+   "ad": "Binga",
+   "lat": -17.62,
+   "lon": 27.34,
+   "zincir": [
+    "s:ingiltere 1900-01-01→1965-11-11"
+   ]
+  },
+  {
+   "ad": "Salisbury (Harare)",
+   "lat": -17.83,
+   "lon": 31.05,
+   "zincir": [
+    "s:ingiltere 1890-09-12→1965-11-11"
+   ]
+  },
+  {
+   "ad": "Livingstone",
+   "lat": -17.85,
+   "lon": 25.86,
+   "zincir": [
+    "s:ingiltere 1905-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ]
+  }
+ ],
+ "togo": [
+  {
+   "ad": "Ho (Togoland)",
+   "lat": 6.601,
+   "lon": 0.471,
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ]
+  },
+  {
+   "ad": "Hohoe",
+   "lat": 7.152,
+   "lon": 0.473,
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ]
+  },
+  {
+   "ad": "Kpando",
+   "lat": 6.995,
+   "lon": 0.293,
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ]
+  },
+  {
+   "ad": "Lomé",
+   "lat": 6.131,
+   "lon": 1.223,
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ]
+  },
+  {
+   "ad": "Atakpamé",
+   "lat": 7.533,
+   "lon": 1.133,
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ]
+  },
+  {
+   "ad": "Sokodé",
+   "lat": 8.983,
+   "lon": 1.133,
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ]
+  },
+  {
+   "ad": "Kara (Togo)",
+   "lat": 9.551,
+   "lon": 1.187,
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ]
+  },
+  {
+   "ad": "Yendi (Dagbon)",
+   "lat": 9.44,
+   "lon": -0.01,
+   "zincir": [
+    "s:dagbon 1401-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1957-03-06",
+    "s:gana 1957-03-06→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Notse",
+   "lat": 6.95,
+   "lon": 1.17,
+   "zincir": [
+    "s:eve-notse 1281-01-01→1884-07-05",
+    "s:alman-togo 1884-07-05→1914-08-26",
+    "s:fransa-cumhuriyet 1914-08-26→1922-07-20",
+    "s:fransiz-togo 1922-07-20→1960-04-27",
+    "s:togo 1960-04-27→2000-12-31"
+   ]
+  }
+ ],
+ "kibris": [
+  {
+   "ad": "Lefkoşa",
+   "lat": 35.17,
+   "lon": 33.36,
+   "zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Magosa",
+   "lat": 35.125,
+   "lon": 33.94,
+   "zincir": [
+    "s:venedik 1489-02-26→1571-08-01",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13",
+    "d:None 1571-08-01→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Girne (Kyrenia)",
+   "lat": 35.3375,
+   "lon": 33.3187,
+   "zincir": [
+    "s:venedik 1489-02-26→1570-09-17",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13",
+    "d:None 1570-09-17→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Baf (Paphos)",
+   "lat": 34.776,
+   "lon": 32.424,
+   "zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Limasol",
+   "lat": 34.707,
+   "lon": 33.023,
+   "zincir": [
+    "s:venedik 1489-02-26→1570-07-02",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-07-02→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Tuzla (Larnaka)",
+   "lat": 34.917,
+   "lon": 33.63,
+   "zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ]
+  },
+  {
+   "ad": "Akrotiri",
+   "lat": 34.585,
+   "lon": 32.958,
+   "zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Episkopi",
+   "lat": 34.664,
+   "lon": 32.903,
+   "zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ]
+  },
+  {
+   "ad": "Güzelyurt (Morphou)",
+   "lat": 35.199,
+   "lon": 32.993,
+   "zincir": [
+    "s:kibris-ingiliz-kolonisi 1914-11-05→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13"
+   ]
+  },
+  {
+   "ad": "Dikelya (Dhekelia)",
+   "lat": 34.991,
+   "lon": 33.733,
+   "zincir": [
+    "s:kibris-ingiliz-ussler 1960-08-16→2000-12-31"
+   ]
+  }
+ ]
+}

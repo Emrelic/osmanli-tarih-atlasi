@@ -1,0 +1,467 @@
+{
+ "Caruru (Vaupés)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:67",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1852-01-01",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "A Carmelite mission established in 1852 at Caruru on the Vaupés River",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3681] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL (gün bilinmiyor). t teyitsiz (1889-11-15 K06 ülke düzeyi). 🟡 Konum (1.02K, -71.28) bugün Kolombiya Vaupés'te; Vaupés 1907 öncesi Brezilya-Kolombiya ihtilaflı bölge — Brezilya sahipliği bu kaynakta yok, yalnız Karmelit misyonunun yılı var."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:67",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3682] [KÜME K06] [UFUK] t = 1923-10-29; ayrıca K06 kümesi (brezilya-cumhuriyeti 1889-11-15)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:67",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1923-10-29",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3683] [UFUK] f = 1923-10-29 ufuk artığı (önceki dönemin t'si 1923-10-29). İPUCU UFUK ajanına: dönemin kendi kaynak sütunu Bogotá Antlaşması 1907 (Vásquez Cobo–Martins) ve Salomón-Lozano 1922'yi gösteriyor; Vaupés'in Kolombiya'ya geçişi büyük olasılıkla 1907 — okunmadı."
+  }
+ ],
+ "San José de los Nuevos Icaguates": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:70",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1733-01-01",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "In 1733, a new Icaguate mission, San José de los Nuevos Icaguates, was founded",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3684] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL. t 1822-05-24 teyitsiz (Pichincha; Maynas'ın 1822 bağlılığı bu turda okunmadı). 🟡 İPUCU: Maynas misyonları 1739-1802 arası Quito Audiencia'sı üzerinden Yeni Granada genel valiliğine bağlıydı (künye yeni-granada-valiligi var), 1802 Real Cédula ile Peru'ya döndü — sahip 'ispanyol-peru' bütün dönem için şüpheli, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:70",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3685] [alıntı ham metinden, sayfa.py] t 1830 YIL (05-13 günü kaynakta yok). f 1822-05-24 teyitsiz: aynı sayfa yalnız ABD'nin Kolombiya'yı 1822-06-19'da tanıdığını verir. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:70",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "1942-01-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador | FRUS 1942 c.V, ch. 9 «Boundary dispute between Ecuador and Peru», Office of the Historian, https://history.state.gov/historicaldocuments/frus1942v05/ch9",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830 | signed at Rio de Janeiro January 29, 1942",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3686] [alıntı ham metinden, sayfa.py] f 1830 YIL (gün teyitsiz); t Rio Protokolü imza günü (FRUS dipnotu). ÜLKE DÜZEYİ: Protokol çizgisinin bu noktayı Peru'ya bıraktığı kaynakta yerleşim adıyla geçmiyor. Peru'nun 1941 savaşında bölgeyi fiilen tutup tutmadığı (TEK ÖLÇÜ imza dalı) ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:70",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1942-01-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1942 c.V, ch. 9 «Boundary dispute between Ecuador and Peru», Office of the Historian, https://history.state.gov/historicaldocuments/frus1942v05/ch9",
+   "alinti": "signed at Rio de Janeiro January 29, 1942",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3687] [alıntı ham metinden, sayfa.py] f Rio Protokolü imza günü; ÜLKE DÜZEYİ (yerleşim adıyla geçmiyor). t atlas ufku. Kayıt kaynağı (Office of the Historian) ham metinle teyit edildi."
+  }
+ ],
+ "San Miguel (Aushiri)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:73",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1665-01-01",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "paved the way for their first mission, founded at San Miguel in 1665",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3688] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL. t 1822-05-24 teyitsiz. Maynas/Yeni Granada sahiplik ipucu sira 3684 ile aynı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:73",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3689] [alıntı ham metinden, sayfa.py] t 1830 YIL. f 1822-05-24 teyitsiz. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:73",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "1942-01-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador | FRUS 1942 c.V, ch. 9 «Boundary dispute between Ecuador and Peru», Office of the Historian, https://history.state.gov/historicaldocuments/frus1942v05/ch9",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830 | signed at Rio de Janeiro January 29, 1942",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3690] [alıntı ham metinden, sayfa.py] f 1830 YIL; t Rio Protokolü imzası. ÜLKE DÜZEYİ (yerleşim adıyla geçmiyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:73",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1942-01-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1942 c.V, ch. 9 «Boundary dispute between Ecuador and Peru», Office of the Historian, https://history.state.gov/historicaldocuments/frus1942v05/ch9",
+   "alinti": "signed at Rio de Janeiro January 29, 1942",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3691] [alıntı ham metinden, sayfa.py] f Rio Protokolü imzası; ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Santo Tomé de los Andoas": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:76",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1708-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin) | Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "Mission of Santo Tomé de los Andoas built in 1708 on the Pastaza River | La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3692] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f YIL (HSAI); t ülke düzeyinden (Ayacucho, AGN Perú); ÜLKE DÜZEYİ. Maynas/Yeni Granada ipucu sira 3684 ile aynı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:76",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3693] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; künye peru-cumhuriyeti f 1824-12-09 ile uyumlu. Bağımsızlık ilanı 1821-07-28 ic_not. t atlas ufku."
+  }
+ ],
+ "Itaituba": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:79",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1823-01-01",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "In 1823, the village of Itaituba was founded",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3694] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL. t teyitsiz (K06 günü). 🟡 Pará'nın bağımsızlığa katılışı 1823-08-15 (önceki parti, Pará emsali): köy 1823'ün ilk yarısında kurulduysa ilk aylar Portekiz idaresindedir; kuruluş ayı kaynakta yok — f 1823-01-01 brezilya-imparatorlugu için yaklaşıklık, beyan önerilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:79",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3695] [KÜME K06]"
+  }
+ ],
+ "Santiago de la Laguna (Lagunas)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:83",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1670-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin) | Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "Mission of Santiago de la Laguna, which he founded in 1670 on the Huallaga River | La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3696] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f YIL (HSAI, Métraux); t ülke düzeyinden (Ayacucho, AGN Perú); ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:83",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3697] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Santa María de Ucayali": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:86",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1653-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin) | Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "Santa Maria de Ucayali, was founded in 1653 by Father Bartolomé Perez | La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3698] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f YIL; t ülke düzeyinden (Ayacucho, AGN Perú); ÜLKE DÜZEYİ. 🟡 Aynı cümlenin devamı: Majano 1657'de sürdürdü ama 'soon forced to abandon it' — misyon kısa ömürlü; 1653-1824 kesintisiz sahiplik yerleşimin varlığını abartıyor olabilir (bit: adayı, yıl kaynakta yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:86",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3699] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t atlas ufku. Misyonun 1657 sonrası sürüp sürmediği bkz. sira 3698."
+  }
+ ],
+ "San Miguel (Pachitea)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:93",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1685-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin) | Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "established San Miguel in 1685 at the mouth of the Pachitea River | La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3700] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f YIL; t ülke düzeyinden (Ayacucho, AGN Perú); ÜLKE DÜZEYİ. 🟡 Sahip 'ispanya' komşu Montaña kayıtlarında 'ispanyol-peru' — sınıf tutarsızlığı (KASA). Aynı cümle: Fransiskenler kısa sürede çekildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:93",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nelson E. Pereyra Chávez, «La Batalla de Ayacucho (9 de diciembre de 1824): cultura y memoria de un acontecimiento», Revista del Archivo General de la Nación (Perú), https://revista.agn.gob.pe/ojs/index.php/ragn/article/download/18/113",
+   "alinti": "La Batalla de Ayacucho, librada el 9 de diciembre de 1824",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3701] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "La Merced (Chanchamayo)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:101",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1869-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "by 1869, the Campa of Chanchamayo were subdued and the city of La Merced founded",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3702] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL ('by 1869' = en geç 1869). t atlas ufku."
+  }
+ ],
+ "Santa Magdalena (Itonama)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:102",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1767-01-01",
+   "t": "1825-08-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Bolivia», https://history.state.gov/countries/bolivia",
+   "alinti": "Bolivia declared its independence from Spain on August 6, 1825",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3703] [alıntı ham metinden, sayfa.py] t ÜLKE DÜZEYİ. f teyitsiz: HSAI c.3 (Métraux) yalnız varlığı tarihliyor («In 1767, there were 4,000 Itonama at Magdalena») — kuruluş yılı yok, kaydın kendi beyanıyla 1767 alt sınır. Aynı paragraf: Itonama 'about 1720' Santa Cruz baskınından sonra toplandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:102",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Bolivia», https://history.state.gov/countries/bolivia",
+   "alinti": "Bolivia declared its independence from Spain on August 6, 1825",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3704] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; künye f 1825-08-06 ile uyumlu. t atlas ufku."
+  }
+ ],
+ "Concepción de Apolobamba": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:105",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1690-01-01",
+   "t": "1825-08-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin) | Office of the Historian, U.S. Department of State, «Bolivia», https://history.state.gov/countries/bolivia",
+   "alinti": "La Concepcion de Apolobamba, 1690 (Leco, Aguachile, and Pamaino) | Bolivia declared its independence from Spain on August 6, 1825",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3705] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f YIL (HSAI, aynı ciltte iki yerde 1690); t ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:105",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Bolivia», https://history.state.gov/countries/bolivia",
+   "alinti": "Bolivia declared its independence from Spain on August 6, 1825",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3706] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Jiboya (Camacan aldeası)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:108",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1817-01-01",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Agência Senado, «Congresso celebra 200 anos de Independência da Bahia» (29.06.2023), https://www12.senado.leg.br/noticias/materias/2023/06/29/congresso-celebra-200-anos-de-independencia-da-bahia",
+   "alinti": "Em 7 de setembro de 1822 foi proclamada formalmente a independência do Brasil",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3707] [alıntı ham metinden, sayfa.py] t ÜLKE DÜZEYİ. f teyitsiz: HSAI c.1 «In 1817 the Camacan who were settled at Jiboya ... were visited» ziyaret yılı, kuruluş değil (ham metinle doğrulandı). 🟡 Bahia istisnası: Portekiz kuvvetleri Salvador'da 1823-07-02'ye kadar direndi (aynı Senado sayfası); Jiboya iç Bahia'da (Conquista) — iç bölgenin 1822'de bağımsızlık tarafında olup olmadığı okunmadı; K23 ajanının Bahia kararına bağlanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:108",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3708] [KÜME K23] Bahia'daki katılış (adesão) istisnası K23 kümesinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:108",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3709] [KÜME K06]"
+  }
+ ],
+ "Fuerte Olimpo (Borbón)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:113",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1772-01-01",
+   "t": "1811-05-14",
+   "hukum": "ONERI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin) | Office of the Historian, U.S. Department of State, «Paraguay», https://history.state.gov/countries/paraguay",
+   "alinti": "posts were established both by Spaniards and by Portuguese at Fuerte Olimpo or Bourbon (1772) | Paraguay declared its independence from Spain on May 15, 1811",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1811-05-15"
+   },
+   "not": "[sira 3710] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] [alıntı ham metinden, sayfa.py] f 1772 kaydın kaynağıyla (HSAI c.1, Métraux) uyumlu. 🟡 Paraguay geleneği ve basın (ABC Color) Fuerte Borbón'un kuruluşunu 1792-09-25 (vali Joaquín Alós) verir; Archivo Nacional de Asunción «Correspondencias del Fuerte de Borbón» dosyası 1793-04-09'da başlar (historia.archivonacional.gov.py) — HSAI 1772'si büyük olasılıkla 1792 yerine; akademik ikinci kaynak bulunmadı, f değişikliği önerilmez, ic_not. t: kaynak bağımsızlık ilanını 15 Mayıs verir (14/15 Mayıs gecesi ayaklanma, vali Velasco'nun teslimi 15'i) — TEK ÖLÇÜ teslim günü 05-15. Künye paraguay-cumhuriyeti f 1811-05-14; künye ile birlikte karar EMRELİC/LAB."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:113",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "f": "1811-05-14",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Paraguay», https://history.state.gov/countries/paraguay",
+   "alinti": "Paraguay declared its independence from Spain on May 15, 1811",
+   "uc": "f",
+   "oneri": {
+    "f": "1811-05-15"
+   },
+   "not": "[sira 3711] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Künye f 1811-05-14 de aynı soruya bağlı (LAB). t atlas ufku."
+  }
+ ],
+ "Tariquea (Chiriguano misyonu)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:116",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1691-01-01",
+   "t": "1727-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "In 1691, Father Arce founded a mission in the valley of Tariquea | In 1727, all the missions in the Chiriguano country were destroyed",
+   "uc": "f+t",
+   "oneri": {
+    "not": "dönem bölünmeli: s: ispanyol-peru 1691-01-01 → 1694-01-01 [yalnız yıl] ve 1715-01-01 → 1727-01-01; 1694-1715 arası yerleşim yok (kaynak: 'In 1715, the Jesuits reestablished their ancient mission of Tariquea')."
+   },
+   "not": "[sira 3712] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f ve t YIL olarak KAYNAKLI; ara boşluk kaynakta açık (kayıt bunu kendi de beyan ediyor). Tek kayıtta iki ömür ifade edilemiyorsa ayrı s: dilimi ya da yeni kayıt — KASA."
+  }
+ ],
+ "Chiquiaca misyonları": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:117",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1700-01-01",
+   "t": "1727-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.3 The Tropical Forest Tribes, Smithsonian BAE Bulletin 143 (1948), archive.org bulletin14331948smit (djvu tam metin)",
+   "alinti": "In 1727, all the missions in the Chiriguano country were destroyed by the rebellion",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3713] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] t YIL. f teyitsiz: kaynak yalnız 'At the beginning of the 18th century, the Dominicans founded three missions in the valley of Chiquiaca' diyor (yılsız; 1700 kaydın yuvarlaması, kayıtta beyanlı)."
+  }
+ ]
+}

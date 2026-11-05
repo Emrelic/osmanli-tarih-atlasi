@@ -1,0 +1,298 @@
+{
+ "Chavín de Huántar": [
+  {
+   "sira": 2145,
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:5",
+   "alan": "s",
+   "d": "chavin",
+   "f": "-0899-01-01",
+   "t": "-0499-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: mevcut kaynak akademik (Rick vd. 2009). Bütçe BOS/ZAYIF satırlara verildi; ham okuma yapılmadı."
+  },
+  {
+   "sira": 2146,
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:5",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0899-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Beyanlı boşluk (VERI-MO-ARKEO); bu turda aranmadı."
+  }
+ ],
+ "Sarayacu (Ucayali)": [
+  {
+   "sira": 1952,
+   "dosya_satir": "data/yerlesimler_gamerika.js:87",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1790-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC gece-106 (Borja/Caraballeda 'ispanya' → ispanyol-peru hizası) ve gece-50 (Peru rakip hükûmet kuralı)",
+   "alinti": "",
+   "oneri": {
+    "d": "ispanyol-peru (gece-106 hizası; komşu Tonua zinciri de ispanyol-peru)",
+    "t": "Sarayacu'nun kendi bağımsızlık/fiilî Peru idaresi günü (gece-50: her şehir kendi günüyle) — kaynakla; 1824-12-09 Ayacucho ülke düzeyi"
+   },
+   "not": "f 1790 (Ocopa Fransisken misyonu, ~1790-91) bu turda okunmadı. Zincir 1861-01-01'de peru-cumhuriyeti ile bitiyor — ardılsız (gece-97 GERÇEK EKSİK adayı; ya bit: alanı ya halef gerekli, ölçülmedi). | KASA SALI uc: öneri t'yi değiştirir"
+  }
+ ],
+ "Sechín Bajo": [
+  {
+   "sira": 2226,
+   "dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:4",
+   "alan": "s",
+   "d": "casma-sechin",
+   "f": "-3399-01-01",
+   "t": "-1549-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: mevcut kaynak akademik (Fuchs/Bischof). Ham okuma yapılmadı."
+  }
+ ],
+ "Tonua (Chinchao)": [
+  {
+   "sira": 2006,
+   "dosya_satir": "data/yerlesimler_gamerika.js:95",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1631-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC gece-50 (Peru: rakip hükûmet kuralı, her şehir kendi ilan ve fiilî idare günüyle)",
+   "alinti": "",
+   "oneri": {
+    "t": "Huánuco bölgesinin bağımsızlık ilanı / fiilî patriot idaresi günü (kaynakla) — 1824-12-09 ülke düzeyi Ayacucho; peru-cumhuriyeti künye f 1824-12-09 (GENİŞLET adayı 1821-07-28, LAB)"
+   },
+   "not": "f 1631 bu turda okunmadı. Kaynak araması yapılmadı; yalnız kural uygulaması → ONERI. | KASA SALI uc: öneri t'yi değiştirir"
+  }
+ ],
+ "Codrington (Barbuda)": [
+  {
+   "sira": 2150,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "antigua-barbuda",
+   "f": "1981-11-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, 'A Guide to the United States' History of Recognition ...: Antigua and Barbuda' https://history.state.gov/countries/antigua-barbuda",
+   "alinti": "Antigua and Barbuda became an independent state within the Commonwealth of Nations on November 1, 1981",
+   "oneri": {
+    "bolme": "EK DÖNEM: 1981 öncesi zincir YOK — Codrington ailesi kirası (1685) ve İngiliz Leeward Adaları dönemi (s: ingiltere) eklenmeli; 6g ilk dilim, kaynakla"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] f KAYNAKLI (bağımsızlık; resmî yayın, tanıma cümlesi değil). Yerleşim 1981'den önce sahipsiz: ilk dönem bağımsızlıkla başlıyor — 6g varoluş günü değil. dosya_satir girdide boş."
+  }
+ ],
+ "Hillsborough (Carriacou)": [
+  {
+   "sira": 2173,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada",
+   "alinti": "Grenada gained independence from the United Kingdom in 1974 ... recognized Grenada on February 7, 1974, on the occasion of Grenada attaining independence",
+   "oneri": {},
+   "not": "[alıntı ham metinden, sayfa.py] f: bağımsızlık yılı birebir; gün tanıma cümlesinden ('on the occasion of ... attaining independence') — tanıma cümlesi çekincesi, gün ic_not'ta beyan. t 1979-03-13 (NJM darbesi) bu turda okunmadı (öteki uç teyitsiz)."
+  },
+  {
+   "sira": 2174,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada",
+   "alinti": "the 1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "t": "1983-10-25 (künye t ile hiza; Urgent Fury başlangıcı)",
+    "bolme": "1983-10-25 → ABD muharip birliklerinin çekilişi (1983-12 — gün kaynakla) isg abd, altında s: grenada (Genel Vali Scoon yetkisi)"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Yerleşim t 1983-10-26, künye grenada-devrimci-hukumet t 1983-10-25 — bir günlük uyumsuzluk. TEK KURAL: savaş işgali → isg. 1983-10-19 Devrimci Askerî Konsey künye içinde (künye adı PRG → RMC). f 1979-03-13 okunmadı."
+  },
+  {
+   "sira": 2175,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada'",
+   "alinti": "",
+   "oneri": {
+    "f": "1983-10-25 (önceki dilimle bitişik)"
+   },
+   "not": "isg abd katmanı için 2174'e bak. Günlü kaynak okunmadı."
+  }
+ ],
+ "Portsmouth (Dominika)": [
+  {
+   "sira": 2214,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dominika",
+   "f": "1978-11-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Dominica' https://history.state.gov/countries/dominica",
+   "alinti": "Great Britain granted independence to the Commonwealth of Dominica on November 3, 1978.",
+   "oneri": {
+    "bolme": "EK DÖNEM: 1978 öncesi zincir YOK — Portsmouth (Prince Rupert Körfezi) İngiliz Dominikası (1763 Paris; 1778-1783 Fransız işgali) dönemleri eklenmeli; 6g ilk dilim, kaynakla"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] f KAYNAKLI. Yerleşim 1978'den önce sahipsiz (ilk dönem bağımsızlıkla başlıyor). dosya_satir girdide boş."
+  }
+ ],
+ "St. George's": [
+  {
+   "sira": 2231,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada",
+   "alinti": "Grenada gained independence from the United Kingdom in 1974 ... recognized Grenada on February 7, 1974, on the occasion of Grenada attaining independence",
+   "oneri": {},
+   "not": "[alıntı ham metinden, sayfa.py] Hillsborough 2173 ile aynı. Ayrıca kontrol adayı (bu partide değil): s: ingiltere 1763-02-10 dilimi içinde 1779-07-04 → 1783-09-03 Fransız işgali (isg fransa) zincirde yok."
+  },
+  {
+   "sira": 2232,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada'",
+   "alinti": "the 1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "t": "1983-10-25",
+    "bolme": "1983-10-25 → 1983-12 (gün kaynakla) isg abd, altında s: grenada"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Hillsborough 2174 ile aynı."
+  },
+  {
+   "sira": 2233,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada'",
+   "alinti": "",
+   "oneri": {
+    "f": "1983-10-25"
+   },
+   "not": "Hillsborough 2175 ile aynı."
+  }
+ ],
+ "Valencia (Venezuela)": [
+  {
+   "sira": 2036,
+   "dosya_satir": "data/yerlesimler_amerika.js:1332",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1555-01-01",
+   "t": "1821-06-24",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "KARARLAR-EMRELIC gece-99 (d) ve gece-100 (Yeni Granada: Venezuela eyaleti 1717-23 ve 1739-77 valiliğe bağlı; 1777-09-08'den venezuela-genel-kaptanligi)",
+   "alinti": "",
+   "oneri": {
+    "d": "YANLIŞ SAHİP: Venezuela eyaleti Peru Valiliği'ne değil, Santo Domingo Audiencia'sına bağlıydı",
+    "bolme": "1555 → 1717-05-27 s: ispanya (metropol künyesi) · 1717-05-27 → 1777-09-08 s: yeni-granada-valiligi (1723-39 kaldırılışı ic_not) · 1777-09-08 → 1821-06-24 s: venezuela-genel-kaptanligi; 1810-1814 Birinci/İkinci Cumhuriyet dilimleri (rakip hükûmet, fiilî kontrol) kaynakla"
+   },
+   "not": "Kural uygulaması; şehre özgü kaynak okunmadı (VLE 'valencia-1' slug 404). f 1555 (Alonso Díaz Moreno kuruluşu) teyitsiz. t 1821-06-24 Carabobo (Valencia yakını) — fiilî patriot idaresi günü olarak uygun görünüyor, teyitsiz. gran-kolombiya künyesi var (f 1819-12-17). | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme,d)"
+  }
+ ],
+ "San Vicente del Caguán": [
+  {
+   "sira": 1939,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1444",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1905-08-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "İPUCU: A. Molano, kronik (Biblioteca Nacional de Colombia PDF, bibliotecanacional.gov.co/.../alfredo_molano_cronica.pdf) — okunmadı; Ley 64 de 1981 (kurucu Juan Vicente Quezada); arama özetleri",
+   "alinti": "",
+   "oneri": {
+    "f": "1898 (kuruluş; ipucu 1898-09-27, teyitsiz) — f_geri adayı, sahip kolombiya-cumhuriyeti (künye f 1831 kapsar)"
+   },
+   "not": "1905-08-01'in neyi tarihlediği belirsiz (idarî statü?); belediye 1950-03-14 (ic_not, 6g). Ham kaynak okunmadı → f_geri alanı yazılmadı."
+  }
+ ],
+ "Tucupita": [
+  {
+   "sira": 2014,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1527",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), 'Tucupita' https://www.vle.lt/straipsnis/tucupita/",
+   "alinti": "Tucupita pradėjo kurtis 1885.",
+   "oneri": {
+    "f": "1885-01-01 [yalnız yıl]"
+   },
+   "f_geri": {
+    "eski_f": "1901-01-01",
+    "yeni_f": "1885-01-01",
+    "sahip": "venezuela-cumhuriyeti",
+    "kaynak": "VLE 'Tucupita' — «Tucupita pradėjo kurtis 1885» (künye f 1830-01-13 aralığı kapsar)"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] VLE ulusal akademik ansiklopedi (6e). İpuçları (ikincil, Margarita göçmenleri) 1848 der — çelişki ic_not'a iki kaynağıyla; VLE esas alındı. Delta Amacuro başkentliği 1887-11-14 / 1905-05-16 (ipucu) ic_not adayı (6g)."
+  }
+ ],
+ "Yavaraté (Vaupés)": [
+  {
+   "sira": 2094,
+   "dosya_satir": "data/yerlesimler_gamerika.js:68",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1784-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "bolme": "KİMLİK/KOORDİNAT: nokta (0.61, -69.20) Vaupés nehrinde Kolombiya Yavaraté'si ile Brezilya Iauaretê'si arasında; ad 'Vaupés' (Kolombiya departmanı) diyor ama zincir 2000'e kadar Brezilya. Kolombiya yakasıysa 1907 Brezilya-Kolombiya sınır antlaşmasından (Vásquez Cobo–Martins; gün kaynakla) kolombiya-cumhuriyeti — koordinatın düştüğü taraf ölçülmeli"
+   },
+   "not": "f 1784 (Portekiz sınır komisyonları?) kaynakla okunmadı. Kaynak araması yapılmadı; yalnız kimlik sorunu işaretlendi. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ]
+}

@@ -1,0 +1,1187 @@
+{
+ "Addis": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1206",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya» (https://islamansiklopedisi.org.tr/etiyopya)",
+   "alinti": "Adisababa’yı başşehir yaptı (1890).",
+   "oneri": {
+    "f": "1890-01-01"
+   },
+   "not": "[sira 473] Addis Ababa 1281'de yoktu (Menelik dönemi kuruluşu; TDV yalnız başkent yapılışını 1890 diye verir — YIL). Yerleşim o devirde var mıydı kuralı: dönem kuruluşa kırpılmalı; kuruluş günü 1886 TDV'de yok → TARAYICI: UNESCO GHA c. VII ya da Pankhurst, «History of Ethiopian Towns». t 1936-06-01 (AOI künyesi) için: İtalyanların Addis'e girişi (1936-05-05) ve ilhak kararnamesi (1936-05-09) TDV «Etiyopya»da yok (yalnız «Ekim 1935» işgal başlangıcı); TEK KURAL'a göre giriş→ilhak arası isg italya olmalı, günler kaynaklanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1206",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya» (https://islamansiklopedisi.org.tr/etiyopya)",
+   "alinti": "1941’de Kenya’dan ülkesini kurtaran müttefik kuvvetlerine katıldı ve 5 Mayıs’ta tekrar tahtına oturdu.",
+   "oneri": {
+    "f": "1941-05-05"
+   },
+   "not": "[sira 474] [KÜME K17] Yerleşime özgü çelişki (4b istisnası) ve EMRELİC K17 kararı: Haile Selassie Addis'e 1941-05-05'te döndü, f 1941-05-05; italyan-dogu-afrikasi dönemi Addis için 1941-05-05'te kapanmalı (1941-11-30 Gondar teslimi). İngilizlerin Addis'e girişi (1941-04-06) okunmadı; varsa 04-06→05-05 isg ingiltere."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1206",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 475] [KÜME K15] TDV «Etiyopya» darbeyi yalnız «1974’te» diye verir (gün yok); küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1206",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 476] [KÜME K18] TDV «Etiyopya»: «29 Mayıs 1991’de gerillalar Adisababa’ya girdiler» — mevcut f ile uyumlu; küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1206",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 477] [KÜME K19] TDV «Etiyopya» 1995 anayasasını anmıyor."
+  }
+ ],
+ "Sevilla": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İşbîliye» (https://islamansiklopedisi.org.tr/isbiliye)",
+   "alinti": "Kastilya Kralı III. Fernando şehri ele geçirdi (646/1248).",
+   "oneri": {},
+   "not": "[sira 478] Kastilya sahipliği 1248'den sürer (1281 ufuk ucu). t 1479-01-19 künye günüdür; TDV «İspanya» yalnız 1469 evliliğini verir, 1479 gününü okumadım — t ÜLKE DÜZEYİ künye uygulaması. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol) + TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "El 18 tingueren lloc els de Canàries, Sevilla —pern de la revolta a Andalusia—",
+   "oneri": {},
+   "not": "[sira 479] t 1936-07-18 Sevilla'ya özgü gün (ayaklanma Sevilla'da 18 Temmuz). f 1479-01-19 künye günü, TDV'de okunmadı (yalnız 1469). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 480] TDV «İşbîliye» yalnız «Roma dönemindeki adı Hispalis» der, tarih yok; künye (Augustus) ucu ÜLKE DÜZEYİ — bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0476-08-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 481] Bütçe; 395/476 künye uçları."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "vizigot",
+   "f": "0507-01-01",
+   "t": "0711-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İşbîliye» (https://islamansiklopedisi.org.tr/isbiliye)",
+   "alinti": "93’te (712) Mûsâ b. Nusayr tarafından fethedildi",
+   "oneri": {
+    "t": "0712-01-01"
+   },
+   "not": "[sira 482] Sevilla'nın kendi TDV maddesi fethi 712 (h. 93) diye verir; 711 Guadalete ülke düzeyidir. t 0712-01-01 (YIL; h. 93 = 711-09-30/712-09-17 ∩ 712 → kesişimin ilk günü 0712-01-01). f 507 okunmadı (TDV «İspanya»: Vizigotlar 415'te yarımadanın büyük kısmını aldı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "emevi",
+   "f": "0711-01-01",
+   "t": "0750-08-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İşbîliye» (https://islamansiklopedisi.org.tr/isbiliye)",
+   "alinti": "93’te (712) Mûsâ b. Nusayr tarafından fethedildi",
+   "oneri": {
+    "f": "0712-01-01"
+   },
+   "not": "[sira 483] f 711 → 712 (yerin kendi maddesi; hicrî 93 ∩ 712 → 0712-01-01, YIL). t 750-08-05 künye ucu (Emevî Hilâfeti sonu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "endulus-emevi",
+   "f": "0756-05-15",
+   "t": "1023-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İşbîliye» (https://islamansiklopedisi.org.tr/isbiliye)",
+   "alinti": "414 (1023) yılında Kadı Ebü’l-Kāsım İbn Abbâd şehri hükümet merkezi olarak ilân edince",
+   "oneri": {},
+   "not": "[sira 484] t 1023 YIL düzeyinde teyit. f 756 (I. Abdurrahman) İşbîliye maddesinde yok; mevcut kaynak TDV «Endülüs» — ayrıca okumadım. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "muvahhidler",
+   "f": "1148-01-01",
+   "t": "1248-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İşbîliye» (https://islamansiklopedisi.org.tr/isbiliye)",
+   "alinti": "Kastilya Kralı III. Fernando şehri ele geçirdi (646/1248).",
+   "oneri": {},
+   "not": "[sira 485] t 1248 YIL teyit (18 ay kuşatma; gün yok). f 1148: İşbîliye maddesi Muvahhid geçişine yıl vermez; mevcut kaynak TDV «Abdülmü’min» okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-18",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol)",
+   "alinti": "El 18 tingueren lloc els de Canàries, Sevilla —pern de la revolta a Andalusia—",
+   "oneri": {},
+   "not": "[sira 486] f gün Sevilla'ya özgü. t 1939-04-01 künye ucu (TDV «İspanya» yalnız 1936-1939). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0507-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 487] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0750-08-05",
+   "t": "0756-05-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 488] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1226",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "hemen ardından da kanlı bir iç savaş patlak verdi (1936-1939)",
+   "oneri": {},
+   "not": "[sira 489] YIL düzeyi, ÜLKE DÜZEYİ; 1939-04-01 günü TDV'de yok. [alıntı ham metinle teyitli 1105]"
+  }
+ ],
+ "Frankfurt": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Francoforte sul Meno» (https://www.treccani.it/enciclopedia/francoforte-sul-meno/) + Declaration Regarding the Defeat of Germany, Berlin, 5 June 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp)",
+   "alinti": "I Prussiani vittoriosi l'occuparono nel 1866 annettendola al Reich. | Gli Americani, entrati a F. il 30 marzo 1945",
+   "oneri": {
+    "bol": "almanya 1281→1815-07-09; frankfurt-serbest-sehri 1815-07-09→1866-10-08; prusya 1866-10-08→1871-01-18; almanya 1871-01-18→1945-06-05",
+    "isg_ekle": {
+     "d": "abd",
+     "f": "1945-03-30",
+     "t": "1945-06-05"
+    }
+   },
+   "not": "[sira 490] Atlasta frankfurt-serbest-sehri künyesi var (f 1815-07-09, t 1866-10-08) ama Frankfurt zinciri onu kullanmıyor; Prusya ilhakı (Treccani 1866) de zincirde yok (Kattowitz zinciri prusya'yı ayrı künye kullanıyor). Künye uçları künyeden; Treccani yalnız YIL verir. 1806-1813 Ren Konfederasyonu / Frankfurt Büyük Dukalığı da ayrıca bakılmalı (okunmadı). 1945: ÖLÇÜT geçici/askerî — Amerikalılar 1945-03-30 girdi, egemenlik Berlin Deklarasyonu 1945-06-05'te devralındı (TEK KURAL istisnası) → isg abd 03-30→06-05. t 1945-06-05 Avalon'da okundu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 491] Treccani «Francoforte sul Meno» Verdun 843 ve Doğu Frankları anmıyor (yalnız Ludovico il Pio). Künye ucu, ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "frank",
+   "f": "0794-01-01",
+   "t": "0843-08-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Francoforte sul Meno» (https://www.treccani.it/enciclopedia/francoforte-sul-meno/)",
+   "alinti": "Ebbe luogo nel 794 e fu presieduto da Carlomagno",
+   "oneri": {},
+   "not": "[sira 492] f 794 YIL (Frankfurt Konsili). t 843 künye (Verdun), Treccani'de yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya",
+   "f": "0962-02-02",
+   "t": "1000-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 493] Bütçe; 962 künye günü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Francoforte sul Meno» (https://www.treccani.it/enciclopedia/francoforte-sul-meno/)",
+   "alinti": "Città libera dal 1222",
+   "oneri": {},
+   "not": "[sira 494] Alman krallığı içinde imparatorluk şehri; yüzyıl düzeyi uyumlu. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany, Berlin, 5 June 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) + Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "hereby assume supreme authority with respect to Germany | Am 23. Mai 1949 wurde das Grundgesetz ... feierlich verkündet.",
+   "oneri": {},
+   "not": "[sira 495] ÜLKE DÜZEYİ; iki uç da okundu. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "Am 23. Mai 1949 wurde das Grundgesetz auf der letzten Sitzung des Parlamentarischen Rates in Bonn feierlich verkündet.",
+   "oneri": {},
+   "not": "[sira 496] ÜLKE DÜZEYİ; f okundu, t 1990-10-03 okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1251",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 497] Bütçe; 1990-10-03 ÜLKE DÜZEYİ."
+  }
+ ],
+ "Radom (Polonya)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "polonya-erken",
+   "f": "1281-01-01",
+   "t": "1569-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "1569’da devletin bu iki büyük parçasını bir araya getiren belge ortaya çıktı",
+   "oneri": {},
+   "not": "[sira 498] ÜLKE DÜZEYİ; t YIL düzeyinde (Lublin 1569-07-01 günü TDV'de yok). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Polonya Avusturya’nın da iştirakiyle üç devlet arasında tamamen paylaşılarak ortadan kaldırıldı (3 Mart 1795).",
+   "oneri": {},
+   "not": "[sira 499] ÜLKE DÜZEYİ. f 1569 YIL. t: TDV günü 3 Mart 1795, atlas 1795-10-24 (üçlü sözleşme). Gün çelişkisi ic_not'a iki tarihle; Avusturya'nın Radom'u fiilen teslim aldığı gün (TEK ÖLÇÜ) okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1918-11-11",
+   "t": "1939-10-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Versailles Barış Antlaşması’nda (29 Haziran 1919) ... bir Polonya Devleti tekrar kuruldu.",
+   "oneri": {},
+   "not": "[sira 500] TDV Polonya 1918-11-11'i değil Versailles'ı verir (fiilî idare ölçüsüyle 1918 Kasım uygundur; Radom'da Avusturya işgalinin bitiş günü okunmadı). t: Almanların Radom'a girişi 1939-09-08 (yalnız arama özeti) → TEK KURAL'a göre 09-08→GG kuruluşu isg almanya olmalı; TARAYICI: USHMM Encyclopedia «Radom» (502 verdi), Yad Vashem Encyclopedia of the Ghettos «Radom»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "kongre-polonyasi",
+   "f": "1815-06-09",
+   "t": "1915-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Viyana Kongresi’nin 9 Haziran 1815 tarihli nihaî belgesi Polonya topraklarının bölünmüşlüğünü yeniden düzenledi.",
+   "oneri": {},
+   "not": "[sira 501] f gün teyit (ÜLKE DÜZEYİ); t 1915-07 okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1915-07-01",
+   "t": "1918-11-11",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 502] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "polonya-genel-hukumeti",
+   "f": "1939-10-06",
+   "t": "1945-01-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 503] USHMM 502 Bad Gateway, Project MUSE (Yad Vashem ansiklopedisi) doğrulama sayfası. İPUCU (okunmadı): Distrikt Radom 1939-10-26'da kuruldu; GG kararnamesi 1939-10-12. TARAYICI: USHMM «Radom», Yad Vashem Encyclopedia of the Ghettos."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-01-17",
+   "t": "1989-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 504] İPUCU (arama özeti, okunmadı): Kızıl Ordu Radom'a 1945-01-16'da girdi → f 1945-01-17 bir gün geç olabilir. TARAYICI: Yad Vashem «Radom»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1263",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Sovyetler Birliği’nin çöküşüne kadar (1989) Doğu bloku içinde",
+   "oneri": {},
+   "not": "[sira 505] ÜLKE DÜZEYİ, YIL; 1989-12-31 anayasa değişikliği günü TDV'de yok. [alıntı özetten]"
+  }
+ ],
+ "Brno": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1918-10-28",
+   "t": "1939-03-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 506] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-10-23",
+   "t": "1918-10-28",
+   "hukum": "ONERI",
+   "kaynak": "Adam Wandruszka, «Ferdinand I.», Neue Deutsche Biographie 5 (1961), s. 81-83 (https://www.deutsche-biographie.de/pnd118532502.html)",
+   "alinti": "Wahl (22.10.1526) und Krönung (24.2.1527) in Prag erfolgten ohne wesentliche Schwierigkeiten",
+   "oneri": {
+    "f": "1526-10-22"
+   },
+   "not": "[sira 507] Ferdinand'ın Bohemya kralı seçimi NDB'de 22.10.1526 (atlas 10-23). Not: bohemya künyesinin t'si 1526-12-05 — Brno zinciri 10-23'te avusturya'ya geçiyor; künye/zincir uyumu LAB'a. t 1918-10-28 okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "bohemya-dukaligi",
+   "f": "1029-01-01",
+   "t": "1198-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 508] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "bohemya-moravya-protektorasi",
+   "f": "1939-03-16",
+   "t": "1945-05-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 509] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "cekya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 510] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1266",
+   "alan": "s",
+   "d": "bohemya",
+   "f": "1198-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 511] Bütçe (DIGER)."
+  }
+ ],
+ "Kattowitz (Katowice)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1922-06-03",
+   "hukum": "ONERI",
+   "kaynak": "Grzegorz Bębnik (OBBH IPN Katowice), «Jak władze polskie przejmowały województwo śląskie», IPN, 2022 (https://ipn.gov.pl/pl/historia-z-ipn/167978,Grzegorz-Bebnik-Jak-wladze-polskie-przejmowaly-wojewodztwo-slaskie.html)",
+   "alinti": "Swą straż pełnić mieli aż do następnego dnia, 20 czerwca 1922 r.; w tym bowiem dniu dawną polsko-niemiecką granicę przekroczyć miały oddziały Wojska Polskiego.",
+   "oneri": {
+    "t": "1922-06-20"
+   },
+   "not": "[sira 512] TEK ÖLÇÜ: Polonya Katowice'yi yönetmiyordu → s: teslim günü. Katowice'de plebisit polisi 17 Haziran 1922'de lağvedildi, Wojsko Polskie 20 Haziran'da girdi; Akt Objęcia 16 Temmuz 1922 (ic_not). 17 mi 20 mi: fiilî teslim 20 Haziran (ordu + Fransız kontrolörden devir); 17 Haziran ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1922-06-03",
+   "t": "1939-10-06",
+   "hukum": "ONERI",
+   "kaynak": "Grzegorz Bębnik (OBBH IPN Katowice), «Jak władze polskie przejmowały województwo śląskie», IPN, 2022 (https://ipn.gov.pl/pl/historia-z-ipn/167978,Grzegorz-Bebnik-Jak-wladze-polskie-przejmowaly-wojewodztwo-slaskie.html)",
+   "alinti": "W Katowicach ... już 17 czerwca 1922 r. rozwiązano miejscową policję plebiscytową",
+   "oneri": {
+    "f": "1922-06-20"
+   },
+   "not": "[sira 513] 512 ile aynı kırılma; 16 lipca 1922 akt ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1526-12-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 514] Yukarı Silezya düklükleri (Bytom) 1327'de Bohemya kralına biat etti (İPUCU, arama özeti: Bytom 24 II 1327) — almanya yerine bohemya s: olabilir; makale (pressto.amu.edu.pl, CPH) 10 MB sınırını aştı, okunamadı. TARAYICI: pressto.amu.edu.pl/index.php/cph/article/download/48384/39215/117435. Katowice ayrıca 16. yy'dan önce köy olarak kayıtlı mı, ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1742-06-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Adam Wandruszka, «Ferdinand I.», Neue Deutsche Biographie 5 (1961), s. 81-83 (https://www.deutsche-biographie.de/pnd118532502.html)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 515] NDB Ferdinand I. maddesi Bohemya (22.10.1526) ve Macaristan seçimlerini verir; Silezya zümrelerinin tanıma günü (1526-12-05) maddede yok. t 1742-06-11 (Breslau ön barışı) okunmadı; Prusya 1741'den Silezya'yı idare ediyordu (TAHRİR: idareye katma günü aranmalı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1742-06-11",
+   "t": "1871-01-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 516] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-01-17",
+   "t": "1989-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 517] Bütçe. İPUCU (okunmadı): Kızıl Ordu Katowice'ye 1945-01-27/28'de girdi; 1945-01-17 Varşova/Radom günü olabilir — şehir günü kaynakla bulunmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 518] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1277",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1939-10-06",
+   "t": "1945-01-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 519] Bütçe (DIGER)."
+  }
+ ],
+ "Perm": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1305",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1723-01-01",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 520] Bütçe; t 1917-03-15 K01 kümesi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1305",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 521] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1305",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 522] [KÜME K02] Rakip hükûmet kuralı (KARARLAR gece-20 madde 2): Perm 1918-12-24 → 1919-07-01 Kolçak (kolcak-omsk-hukumeti künyesi) — İPUCU, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1305",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 523] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Rostov (Don)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1308",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1749-12-15",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 524] Bütçe; t 1917-03-15 K01."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1308",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 525] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1308",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 526] [KÜME K02] Rakip hükûmet kuralı: Rostov 1918-20 Don Ordusu/Gönüllü Ordusu dönemleri — İPUCU, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1308",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 527] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Doha (Katar)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1375",
+   "alan": "s",
+   "d": "katar",
+   "f": "1913-07-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Katar» (https://islamansiklopedisi.org.tr/katar)",
+   "alinti": "Osmanlı Devleti Katar yarımadası üzerindeki bütün taleplerinden feragat etti",
+   "oneri": {},
+   "not": "[sira 528] f YIL (1913) TDV; 1913-07-29 gün TDV'de yok. Not: 1913 sözleşmesi onaylanmadı ve TDV'ye göre Osmanlı varlığı «I. Dünya Savaşı ile birlikte» bitti (Doha garnizonu 1915, gün okunmadı) — TEK ÖLÇÜ açısından ic_not. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1375",
+   "alan": "v",
+   "d": "",
+   "f": "1871-09-20",
+   "t": "1913-07-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Katar» (https://islamansiklopedisi.org.tr/katar)",
+   "alinti": "burası Necid sancağına bağlı bir kaza olarak teşkilâtlandırılıp Câsim b. Sânî fahrî kaymakam tayin edildi",
+   "oneri": {
+    "alan": "d",
+    "d": "osmanli"
+   },
+   "not": "[sira 529] ÖLÇÜT: idareye katma — kaza teşkilatı, Necid sancağına bağlama (TAHRİR ölçütü: idarî birime bağlandı). v: → d: osmanli. f 1871 YIL (TDV). t 1913 feragat (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1375",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1916-11-03",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Katar» (https://islamansiklopedisi.org.tr/katar)",
+   "alinti": "3 Kasım 1916’da Katar Emîri Abdullah ile ... bir himaye antlaşması imzaladılar",
+   "oneri": {
+    "alan": "v",
+    "d": "ingiltere",
+    "f": "1916-11-03",
+    "t": "1971-09-03"
+   },
+   "not": "[sira 530] 1916 bir himaye antlaşmasıdır, işgal değil (ÖLÇÜT: himaye — antlaşma). isg ingiltere → v ingiltere; bitiş TDV «bağımsızlığına kavuşan Katar (3 Eylül 1971)». Mevcut t 1923-10-29 eski ufuk kalıntısı görünüyor."
+  }
+ ],
+ "Mogadişu": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "somali",
+   "f": "1500-01-01",
+   "t": "1905-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Ahmet Kavas, «Makdişu», TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/makdisu)",
+   "alinti": "Uman Sultanı Seyf b. Sultân, Mombasa’yı Portekizliler’den alınca Makdişu ... Umanlılar’ın eline geçti | Zengibar Sultanı Bergaş b. Saîd Makdişu’yu 1871’de doğrudan idaresine aldı.",
+   "oneri": {
+    "bol": "somali →1698; v umman-zengibar 1698→1871; s umman-zengibar 1871→1905"
+   },
+   "not": "[sira 531] TDV Makdişu: 1698 Umman (künye umman-zengibar f 1698-01-01 kapsıyor), 1823 isimen Umman'a bağlılık, 1871 Zengibar doğrudan idare, 1889/1892 İtalya'ya kira, 1905 satış. 'somali' künyesi 1500-1905 bu dönemleri siliyor. Günler YIL. 1892 kira sonrası İtalyan şirket idaresi (Filonardi/VİSC) ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "italya",
+   "f": "1905-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ahmet Kavas, «Makdişu», TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/makdisu)",
+   "alinti": "1905’te Makdişu’yu, 1906’da Somali sahilinde Zengibar’a ait bulunan bütün toprakları İtalya’ya sattı.",
+   "oneri": {},
+   "not": "[sira 532] f 1905 YIL. t 1936-06-01 AOI künyesi (TDV'de yok). 1892 kira ile başlayan İtalyan idaresi ic_not'a (TDV: «1892 yılında 160.000 rupi karşılığında ... kiralandı»). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "makdisu-sultanligi",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ahmet Kavas, «Makdişu», TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/makdisu)",
+   "alinti": "XVI. yüzyılda Makdişu’da yönetim Muzaffer sülâlesinin eline geçti.",
+   "oneri": {},
+   "not": "[sira 533] t 1500 YÜZYIL düzeyinde uyumlu; f 1281 ufuk ucu (künye 1269). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 534] TDV Makdişu İngiliz işgalini tarihsiz anar; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 535] [KÜME K27] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1392",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 536] Bütçe (DIGER)."
+  }
+ ],
+ "Agadir": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1398",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1505-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 537] Bütçe; Sûs bölgesinin Merînî/Vattâsî bağı okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1398",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1505-01-01",
+   "t": "1541-03-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas» (https://islamansiklopedisi.org.tr/fas) + TDV İslâm Ansiklopedisi, «Sa‘dîler» (https://islamansiklopedisi.org.tr/sadiler)",
+   "alinti": "1541’de de Agādîr’i ele geçirmesi",
+   "oneri": {},
+   "not": "[sira 538] t YIL (1541; 03-12 günü TDV'de yok). f 1505 Portekiz kalesi TDV Fas/Sa‘dîler'de yok. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1398",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas» (https://islamansiklopedisi.org.tr/fas)",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı. | 2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "oneri": {},
+   "not": "[sira 539] ÜLKE DÜZEYİ, iki uç gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1398",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sa‘dîler» (https://islamansiklopedisi.org.tr/sadiler) + TDV İslâm Ansiklopedisi, «Fas» (https://islamansiklopedisi.org.tr/fas)",
+   "alinti": "Şebbâne liderleri onu öldürerek (1069/1659) başşehre girdiler.",
+   "oneri": {},
+   "not": "[sira 540] 1659 Sa‘dî sonu ÜLKE DÜZEYİ; Agadir/Sûs'un 1659 sonrası sahibi (Tazerwalt/Semlâlî, Alevî fethi ~1670) TDV Fas ve Sa‘dîler'de yok. TDV «Agadir» slug'ı arama sayfası verdi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1398",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fas» (https://islamansiklopedisi.org.tr/fas)",
+   "alinti": "2 Mart 1956 tarihinde bağımsızlık antlaşması imzalandı",
+   "oneri": {},
+   "not": "[sira 541] ÜLKE DÜZEYİ. [alıntı özetten]"
+  }
+ ],
+ "Ural eteği": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "nogay",
+   "f": "1502-03-01",
+   "t": "1556-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nogaylar» (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "Nogay ordası İdil’in sağ kıyısını Altın Orda’nın tamamen çöküşünden sonra ele geçirmiştir.",
+   "oneri": {},
+   "not": "[sira 542] f (Altın Orda çöküşü) ÜLKE DÜZEYİ uyumlu; t 1556 TDV'de yok: Nogaylar 1557-58'de bölündü, XVII. yy'da Kalmuk baskısı. Ural (Yayık) bölgesi maddede geçmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 543] [KÜME K04] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nogaylar» (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 544] TDV Nogaylar Astarhan'ı 1569 seferiyle anar, Yayık bölgesine Rus egemenliği günü yok. İPUCU: 17. yy Kalmuk hanlığı ve Küçük Cüz bölgede; 1556'dan kesintisiz s: rusya şüpheli. TARAYICI: Encyclopaedia Iranica/EI2 «Nogay»; Khodarkovsky, «Russia's Steppe Frontier» (2002)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 545] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 546] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1506",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 547] Bütçe; EMRELİC kuralı (bağımsızlık ilanı 1991-12-16) ile uyumlu."
+  }
+ ],
+ "Meciboj (Mejibuji)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1363-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 548] [KÜME K04] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "litvanya-buyuk-dukalik",
+   "f": "1363-01-01",
+   "t": "1430-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Podilia» (http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CO%5CPodilia.htm) + TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice)",
+   "alinti": "defeated the Tatars at Syni Vody (1363), captured middle Podilia | Kamaniçe 1430’da Polonya Krallığı’na dahil edildi.",
+   "oneri": {},
+   "not": "[sira 549] f YIL (EU), t YIL (TDV Kamaniçe — ABİ MERKEZ Kamaniçe). EU: Koriatoviçler 1393'te kovuldu (ic_not). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "polonya-erken",
+   "f": "1430-01-01",
+   "t": "1569-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice) + TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Litvanyalılar tarafından alınan Kamaniçe 1430’da Polonya Krallığı’na dahil edildi.",
+   "oneri": {},
+   "not": "[sira 550] ABİ MERKEZ Kamaniçe; t 1569 YIL (TDV Polonya). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1699-01-26",
+   "t": "1793-01-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya) + TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice)",
+   "alinti": "1699 Karlofça Antlaşması neticesinde Polonya 1672’de Türkler’e kaptırdığı yerleri geri aldı. | Prusya ile anlaşarak (23 Ocak 1793)",
+   "oneri": {},
+   "not": "[sira 551] f YIL (Karlofça imza günü künye); TDV Kamaniçe: Osmanlılar tahliye etti (gün yok) — TEK ÖLÇÜ teslim günü ayrıca aranmalı. t gün TDV Polonya. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1793-01-23",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya) + TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice)",
+   "alinti": "II. Katerina, Prusya ile anlaşarak (23 Ocak 1793) bu liberal gelişmeye müdahale etti.",
+   "oneri": {},
+   "not": "[sira 552] f gün (ikinci taksim sözleşmesi); TDV Kamaniçe: «Bu tarihte Rus topraklarına dahil edildi» (1793). t K01 ufku. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1672-08-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya) + TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice)",
+   "alinti": "dokuz gün süren kuşatmadan sonra zaptedildi (3 Cemâziyelevvel 1083 / 27 Ağustos 1672).",
+   "oneri": {},
+   "not": "[sira 553] f 1569 YIL (TDV Polonya); t gün Kamaniçe — ABİ MERKEZ Kamaniçe, gün komşudan: TDV Kamaniçe. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 554] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 555] [KÜME K02] KARARLAR gece-20 madde 1: Ukrayna'da 1917-91 kesintisiz Sovyet zinciri YANLIŞ, rakip hükûmet kuralı — Meciboj da bu listede ONERI adayı (UNR/Hetmanlık/Direktorya), şehir günleri okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1672-08-27",
+   "t": "1699-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamaniçe» (https://islamansiklopedisi.org.tr/kamanice) + TDV İslâm Ansiklopedisi, «Polonya» (https://islamansiklopedisi.org.tr/polonya)",
+   "alinti": "Kamaniçe eyaletinin dört sancağı (Kamaniçe, Bar, Mejibuji/Medžybiž, Yazlofça/Jazloveć)",
+   "oneri": {},
+   "not": "[sira 556] ÖLÇÜT: idareye katma — Mejibuji Kamaniçe eyaletinde sancak merkezi (TAHRİR ölçütü: sancak; 1681 tahrir defteri Kamaniçe için). f gün ABİ MERKEZ Kamaniçe (27 Ağustos 1672), t 1699 YIL. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1598",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 557] [KÜME K28] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Kesendire (Kassandra)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1633",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-03-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Selânik» (https://islamansiklopedisi.org.tr/selanik)",
+   "alinti": "789 (1387) baharında ... | Selânik 1403’te resmen Bizans idaresine geçti | Selânik’i Venedik’e sattı. | 29 Mart 1430’da",
+   "oneri": {
+    "bol": "bizans 1281→1387; d osmanli 1387→1403; bizans 1403→1423; venedik 1423→1430-03-29"
+   },
+   "not": "[sira 558] ABİ MERKEZ: Selanik — TDV «Selânik» (Kesendire maddede geçmiyor). BEYANLI YAKLAŞIKLIK. Bizans dönemi kesintisiz değil: 1387-1403 Osmanlı, 1423-1430 Venedik. Günler YIL (1423 satış günü 1423-09-14 TDV'de yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1633",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1913-11-14",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Koordinatör kuralı «Londra 1913 ve Kuzey Epir» (DA-BRIEF) + TDV İslâm Ansiklopedisi, «Selânik» (https://islamansiklopedisi.org.tr/selanik)",
+   "alinti": "Vali Hasan Tahsin Paşa şehri 26 Ekim 1912’de Yunanlılar’a bıraktı.",
+   "oneri": {
+    "f": "1913-05-30"
+   },
+   "not": "[sira 559] Kassandra Ege Makedonyası'dır (Halkidiki; Aynaroz değil): s: yunanistan Londra 1913-05-30'dan başlar. Atina 1913-11-14 ic_not'a. TDV Selanik: Bükreş 1913 tanıma (ic_not)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1633",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1430-03-29",
+   "t": "1913-11-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Selânik» (https://islamansiklopedisi.org.tr/selanik)",
+   "alinti": "29 Mart 1430’da bir ay süren şiddetli bir kuşatmanın ardından",
+   "oneri": {
+    "t": "1913-05-30"
+   },
+   "not": "[sira 560] f 1430-03-29 ABİ MERKEZ Selanik ile teyit (ilk Osmanlı dönemi 1387-1403 için 558'e bak). t Londra kuralıyla 1913-05-30."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1633",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1912-11-02",
+   "t": "1913-11-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Selânik» (https://islamansiklopedisi.org.tr/selanik)",
+   "alinti": "Vali Hasan Tahsin Paşa şehri 26 Ekim 1912’de Yunanlılar’a bıraktı.",
+   "oneri": {
+    "t": "1913-05-30"
+   },
+   "not": "[sira 561] isg yunanistan Londra 1913-05-30'da biter. f 1912-11-02 Kassandra'ya özgü gün okunmadı; Selanik teslimi Rumî 26 Ekim 1328 = Gregoryen 8 Kasım 1912 (Kassandra'nın Selanik'ten önce alınması mümkün)."
+  }
+ ],
+ "Biskra": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1740",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 562] TDV slug'ları biskra, biskre, salih-reis, tuggurt arama sayfası verdi. İPUCU: Biskra (Zâb) Hafsîler'in nüfuzunda (Benî Müznî valileri) — 'zeyyani' şüpheli, ONERI adayı (hafsi). TARAYICI: EI2 «Biskra»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1740",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 563] Bkz. sira 562; 1552 Salih Reis Sahra seferi günü okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1740",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 564] Bkz. sira 562; Konstantin beyliği bağı okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1740",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 565] Bkz. sira 562; 1844-03-04 Fransız girişi okunamadı (TDV «İbn Azzûz» parçası: 1842 sonrası Biskre Fransız işgali, tarihsiz)."
+  }
+ ]
+}

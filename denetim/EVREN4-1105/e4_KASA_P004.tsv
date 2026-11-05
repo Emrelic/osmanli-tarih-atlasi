@@ -1,0 +1,88 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+251	ZAYIF_VIKI	data/yerlesimler_asya.js:3543	Ûicu (Uiju)	s	japon-kore	1910-08-29	1945-08-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Japon Kore'si (Chōsen Genel Valiliği) egemenliğine geçti 
+252	ZAYIF_ATLAS	data/yerlesimler_asya.js:3543	Ûicu (Uiju)	s	goryeo	1281-01-01	1392-08-05	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (1
+253	ZAYIF_ATLAS	data/yerlesimler_asya.js:3543	Ûicu (Uiju)	s	joseon	1392-08-05	1910-08-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (13
+254	DIGER	data/yerlesimler_asya.js:3543	Ûicu (Uiju)	s	kuzey-kore-sovyet-idaresi	1945-08-26	1948-09-09	Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)
+255	ZAYIF_VIKI	data/yerlesimler_asya.js:3557	Wonsan	s	japon-kore	1910-08-29	1945-08-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Japon Kore'si (Chōsen Genel Valiliği) egemenliğine geçti 
+256	ZAYIF_ATLAS	data/yerlesimler_asya.js:3557	Wonsan	s	goryeo	1356-08-05	1392-08-05	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (1
+257	ZAYIF_ATLAS	data/yerlesimler_asya.js:3557	Wonsan	s	joseon	1392-08-05	1910-08-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Joseon Hanedanı (Kore) egemenliğine geçti — Goryeong» (13
+258	BOS	data/yerlesimler_asya.js:3557	Wonsan	s	yuan-hanedani	1281-01-01	1356-08-05	
+259	DIGER	data/yerlesimler_asya.js:3557	Wonsan	s	kuzey-kore-sovyet-idaresi	1945-08-26	1948-09-09	Sovyet Sivil Idaresi (Library of Congress North Korea Country Study)
+260	ZAYIF_VIKI	data/yerlesimler_ek7.js:66	Kristiansund	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+261	ZAYIF_ATLAS	data/yerlesimler_ek7.js:66	Kristiansund	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+262	BOS	data/yerlesimler_ek7.js:66	Kristiansund	s	norvec-kralligi	1281-01-01	1537-01-01	
+263	BOS	data/yerlesimler_ek7.js:66	Kristiansund	s	danimarka	1537-01-01	1814-01-14	
+264	DIGER	data/yerlesimler_ek7.js:66	Kristiansund	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+265	DIGER	data/yerlesimler_ek7.js:66	Kristiansund	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+266	ZAYIF_VIKI	data/yerlesimler_ek7.js:72	Lillehammer	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+267	ZAYIF_ATLAS	data/yerlesimler_ek7.js:72	Lillehammer	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+268	BOS	data/yerlesimler_ek7.js:72	Lillehammer	s	norvec-kralligi	1281-01-01	1537-01-01	
+269	BOS	data/yerlesimler_ek7.js:72	Lillehammer	s	danimarka	1537-01-01	1814-01-14	
+270	DIGER	data/yerlesimler_ek7.js:72	Lillehammer	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+271	DIGER	data/yerlesimler_ek7.js:72	Lillehammer	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+272	ZAYIF_VIKI	data/yerlesimler_ek7.js:78	Haugesund	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+273	ZAYIF_ATLAS	data/yerlesimler_ek7.js:78	Haugesund	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+274	BOS	data/yerlesimler_ek7.js:78	Haugesund	s	norvec-kralligi	1281-01-01	1537-01-01	
+275	BOS	data/yerlesimler_ek7.js:78	Haugesund	s	danimarka	1537-01-01	1814-01-14	
+276	DIGER	data/yerlesimler_ek7.js:78	Haugesund	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+277	DIGER	data/yerlesimler_ek7.js:78	Haugesund	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+278	ZAYIF_VIKI	data/yerlesimler_ek8.js:85	Tromsø	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+279	ZAYIF_ATLAS	data/yerlesimler_ek8.js:85	Tromsø	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+280	BOS	data/yerlesimler_ek8.js:85	Tromsø	s	norvec-kralligi	1281-01-01	1537-01-01	
+281	BOS	data/yerlesimler_ek8.js:85	Tromsø	s	danimarka	1537-01-01	1814-01-14	
+282	DIGER	data/yerlesimler_ek8.js:85	Tromsø	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+283	DIGER	data/yerlesimler_ek8.js:85	Tromsø	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+284	ZAYIF_VIKI	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	qing-hanedani	1755-01-01	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+285	ZAYIF_VIKI	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+286	BOS	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	cagatay	1281-01-01	1347-01-01	
+287	BOS	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	mogulistan	1347-01-01	1634-01-01	
+288	BOS	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	cungar	1634-01-01	1755-01-01	
+289	DIGER	data/yerlesimler_ek20.js:102	Çöçek (Tarbagatay)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+290	ZAYIF_VIKI	data/yerlesimler_ek21.js:137	Ejin (Hara-Hoto)	s	qing-hanedani	1636-05-15	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+291	ZAYIF_VIKI	data/yerlesimler_ek21.js:137	Ejin (Hara-Hoto)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+292	BOS	data/yerlesimler_ek21.js:137	Ejin (Hara-Hoto)	s	yuan-hanedani	1281-01-01	1368-09-14	
+293	BOS	data/yerlesimler_ek21.js:137	Ejin (Hara-Hoto)	s	kuzey-yuan	1368-09-14	1636-05-15	
+294	DIGER	data/yerlesimler_ek21.js:137	Ejin (Hara-Hoto)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+295	ZAYIF_VIKI	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	qing-hanedani	1636-05-15	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+296	ZAYIF_VIKI	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	cin-cumhuriyeti	1912-02-12	1923-10-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+297	BOS	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	yuan-hanedani	1281-01-01	1368-09-14	
+298	BOS	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	kuzey-yuan	1368-09-14	1636-05-15	
+299	DIGER	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	mogolistan	1923-10-29	1924-11-26	tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26
+300	DIGER	data/yerlesimler_ek21.js:146	Alaşa kuzeyi	s	mogolistan-halk-cumhuriyeti	1924-11-26	2000-12-31	tsv kunye f=1924-11-26
+301	ZAYIF_VIKI	data/yerlesimler_e9353f.js:642	Ulundi (Zululand)	s	guney-afrika-birligi	1910-05-31	1961-05-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-birligi f ucunun kaynağı — f: Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909; Wikisou
+302	DIGER	data/yerlesimler_e9353f.js:642	Ulundi (Zululand)	s	zulu-kralligi	1816-01-01	1879-07-04	bulunamadi
+303	DIGER	data/yerlesimler_e9353f.js:642	Ulundi (Zululand)	s	ingiltere	1879-07-04	1910-05-31	guney-afrika-cumhuriyeti
+304	ZAYIF_ATLAS	data/yerlesimler_e9353f.js:642	Ulundi (Zululand)	s	guney-afrika-cumhuriyeti	1961-05-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-cumhuriyeti f ucunun kaynağı — https://www.sahistory.org.za/article/becoming-republic-and-withdr
+305	ZAYIF_VIKI	data/yerlesimler_e9353f.js:672	Oranj (Bur cumhuriyeti)	s	guney-afrika-birligi	1910-05-31	1961-05-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-birligi f ucunun kaynağı — f: Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909; Wikisou
+306	DIGER	data/yerlesimler_e9353f.js:672	Oranj (Bur cumhuriyeti)	s	oranj	1830-01-01	1902-05-31	guney-afrika-cumhuriyeti
+307	DIGER	data/yerlesimler_e9353f.js:672	Oranj (Bur cumhuriyeti)	s	ingiltere	1902-05-31	1910-05-31	Vereeniging Barış Antlaşması 31 Mayıs 1902 (SAHO sahistory.org.za/node/59798: «by 31 May 1902 the peace agreement was official»; künye transvaal/oranj t = 1902-
+308	ZAYIF_ATLAS	data/yerlesimler_e9353f.js:672	Oranj (Bur cumhuriyeti)	s	guney-afrika-cumhuriyeti	1961-05-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-cumhuriyeti f ucunun kaynağı — https://www.sahistory.org.za/article/becoming-republic-and-withdr
+309	ZAYIF_VIKI	data/yerlesimler_ok104.js:118	Mat (Mati)	s	__BOSLUK__	1356-01-01	1443-01-01	BEYANLI BOŞLUK (#4, POSTIT-50): 1355 Duşan çöküşü sonrası yerel beyler (TDV arnavutluk: kuzeyde Balşalar, merkezde Topyalar); Mat'ın hangisinde olduğu TDV'de YO
+310	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	sicilya-kralligi	1281-01-01	1282-03-30	BEYANLI YAKLAŞIKLIK (#128, 26 Ekim 2026) · ABİ MERKEZ: Akçahisar (Kruja) — TDV kruya: 'Charles ... Draç ile Kruya’yı alıp eski kaleyi yeniden yaptırdı' (1271-12
+311	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	napoli	1282-03-30	1284-01-01	BEYANLI YAKLAŞIKLIK (#128) · ABİ MERKEZ: Akçahisar (Kruja) — TDV kruya: Anjou hâkimiyeti Charles'ın ölümüne (1284) kadar; Kruya kaydıyla aynı f/t
+312	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	bizans	1284-01-01	1344-01-01	BEYANLI YAKLAŞIKLIK (#128) · ABİ MERKEZ: Akçahisar (Kruja) — TDV kruya: 'Bizans İmparatoru II. Andronikos Avlonya, Draç ve Kruya’yı yeniden aldı' (1284, YIL) · 
+313	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	sirbistan-nemanjic	1344-01-01	1356-01-01	BEYANLI YAKLAŞIKLIK (POSTIT-50, 17 Ekim 2026): TDV arnavutluk: 'Sırp Kralı Stefan Duşan’ın Arnavutluk’u işgali (1343-1346)', '1355’te Duşan’ın imparatorluğunun 
+314	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	arnavutluk-bagimsiz	1912-11-28	1939-04-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kema
+315	BOS	data/yerlesimler_ok104.js:118	Mat (Mati)	d		1478-06-15	1912-11-28	
+316	ZAYIF_ATLAS	data/yerlesimler_ok104.js:118	Mat (Mati)	s	arnavutluk-halk-cumhuriyeti	1944-11-29	1991-04-29	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye arnavutluk-halk-cumhuriyeti f ucunun kaynağı — TDV arnavutluk (ÖZET, kelimesi kelimesine DEĞİL): 29 Kasım 194
+317	ZAYIF_VIKI	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	qing-hanedani	1877-12-17	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+318	ZAYIF_VIKI	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+319	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	cagatay	1281-01-01	1347-01-01	
+320	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	mogulistan	1347-01-01	1514-01-01	
+321	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	yarkent-hanligi	1514-01-01	1705-01-01	
+322	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	cungar	1705-01-01	1759-01-01	
+323	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	qing-hanedani	1759-01-01	1864-06-04	
+324	BOS	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	yakub-beg	1864-06-04	1877-12-17	
+325	DIGER	data/yerlesimler_ortaasya3.js:284	Keriya (Yutian)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+326	ZAYIF_VIKI	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	qing-hanedani	1876-08-18	1912-02-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12
+327	ZAYIF_VIKI	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çin Cumhuriyeti egemenliğine geçti — Leshou» (1912-02-12,
+328	BOS	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	cagatay	1281-01-01	1347-01-01	
+329	BOS	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	mogulistan	1347-01-01	1634-01-01	
+330	BOS	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	cungar	1634-01-01	1755-01-01	
+331	BOS	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	qing-hanedani	1755-01-01	1864-06-04	
+332	BOS	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	yakub-beg	1864-06-04	1876-08-18	
+333	DIGER	data/yerlesimler_ortaasya3.js:322	Manas (Cungarya)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+334	ZAYIF_VIKI	data/yerlesimler_afrika2.js:2054	Luis Trichardt	s	guney-afrika-birligi	1910-05-31	1961-05-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-birligi f ucunun kaynağı — f: Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909; Wikisou
+335	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:2054	Luis Trichardt	s	ingiltere	1898-01-01	1910-05-31	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Güney Afrika Birliği kuruldu» (1910-05-31, taraf kolu) k
+336	BOS	data/yerlesimler_afrika2.js:2054	Luis Trichardt	s	venda	1700-01-01	1898-01-01	
+337	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:2054	Luis Trichardt	s	guney-afrika-cumhuriyeti	1961-05-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-afrika-cumhuriyeti f ucunun kaynağı — https://www.sahistory.org.za/article/becoming-republic-and-withdr

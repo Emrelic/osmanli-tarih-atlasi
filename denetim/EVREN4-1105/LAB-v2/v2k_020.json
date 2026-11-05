@@ -1,0 +1,178 @@
+{
+ "Wyndham": [
+  {
+   "sira": 2088,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:294",
+   "lat": -15.48,
+   "lon": 128.12,
+   "zincir_guncel": "s:bati-avustralya 1885-01-01→1901-01-01 | s:avustralya 1901-01-01→2000-12-31"
+  }
+ ],
+ "Uyandina (Nijneindigirsk) zimovyesi": [
+  {
+   "sira": 2035,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1638-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:45",
+   "lat": 68.35,
+   "lon": 145.6,
+   "zincir_guncel": "s:rusya 1638-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Zaşiversk": [
+  {
+   "sira": 2099,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1639-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek8.js:277",
+   "lat": 67.25,
+   "lon": 142.85,
+   "zincir_guncel": "s:rusya 1639-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Tauysk": [
+  {
+   "sira": 1988,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1652-09-10",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:51",
+   "lat": 59.6588,
+   "lon": 149.1761,
+   "zincir_guncel": "s:rusya 1652-09-10→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Weipa Misyonu": [
+  {
+   "sira": 2079,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1898-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:360",
+   "lat": -12.6759,
+   "lon": 141.8851,
+   "zincir_guncel": "s:queensland 1898-01-01→1901-01-01 | s:avustralya 1901-01-01→2000-12-31"
+  }
+ ],
+ "Srednekolımsk": [
+  {
+   "sira": 1967,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1643-07-30",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:48",
+   "lat": 67.46,
+   "lon": 153.72,
+   "zincir_guncel": "s:rusya 1643-07-30→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Tigil": [
+  {
+   "sira": 1998,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1747-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:85",
+   "lat": 57.8,
+   "lon": 158.67,
+   "zincir_guncel": "s:rusya 1747-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Tulagi": [
+  {
+   "sira": 2016,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1893-01-01",
+   "t": "1978-07-07",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:44",
+   "lat": -9.0938,
+   "lon": 160.1497,
+   "zincir_guncel": "s:ingiltere 1893-01-01→1978-07-07 | s:solomon-adalari 1978-07-07→2000-12-31"
+  },
+  {
+   "sira": 2017,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "solomon-adalari",
+   "f": "1978-07-07",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye solomon-adalari f ucunun kaynağı — BM Solomon Adaları ülke bilgisi (un.int/solomonislands) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsi",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:44",
+   "lat": -9.0938,
+   "lon": 160.1497,
+   "zincir_guncel": "s:ingiltere 1893-01-01→1978-07-07 | s:solomon-adalari 1978-07-07→2000-12-31"
+  }
+ ],
+ "Suva": [
+  {
+   "sira": 1978,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1874-10-10",
+   "t": "1970-10-10",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fiji Britanya'dan bagimsiz oldu (Suva, Levuka)» (1970-10-10, yer kolu) kaynağı — https://fijiassociation.co.nz/Events/50YearsFiji/50YearsFiji.html ; https://www.fijitimes.com.fj/?p=770187 · BEYANL",
+   "dosya_satir": "data/yerlesimler_ek30.js:73",
+   "lat": -18.1416,
+   "lon": 178.4419,
+   "zincir_guncel": "s:ingiltere 1874-10-10→1970-10-10 | s:fiji 1970-10-10→2000-12-31"
+  },
+  {
+   "sira": 1979,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fiji",
+   "f": "1970-10-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_ek30.js:73",
+   "lat": -18.1416,
+   "lon": 178.4419,
+   "zincir_guncel": "s:ingiltere 1874-10-10→1970-10-10 | s:fiji 1970-10-10→2000-12-31"
+  }
+ ],
+ "Timaru": [
+  {
+   "sira": 2001,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1853-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:230",
+   "lat": -44.397,
+   "lon": 171.255,
+   "zincir_guncel": "s:yeni-zelanda 1853-01-01→2000-12-31"
+  }
+ ]
+}

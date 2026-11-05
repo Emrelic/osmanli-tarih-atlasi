@@ -1,0 +1,44 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+4230	BOS	data/yerlesimler_a78_okyanusya.js:240	Whangārei	s	yeni-zelanda	1840-02-06	2000-12-31	
+4231	BOS	data/yerlesimler_a78_okyanusya.js:263	Launceston	s	yeni-guney-galler	1806-01-01	1825-12-03	
+4232	BOS	data/yerlesimler_a78_okyanusya.js:263	Launceston	s	van-diemens-land	1825-12-03	1901-01-01	
+4233	BOS	data/yerlesimler_a78_okyanusya.js:263	Launceston	s	avustralya	1901-01-01	2000-12-31	
+4234	BOS	data/yerlesimler_a78_okyanusya.js:279	Devonport (Tazmanya)	s	van-diemens-land	1850-01-01	1901-01-01	
+4235	BOS	data/yerlesimler_a78_okyanusya.js:279	Devonport (Tazmanya)	s	avustralya	1901-01-01	2000-12-31	
+4236	BOS	data/yerlesimler_a78_okyanusya.js:300	Hermannsburg (Ntaria)	s	kuzey-bolgesi-sa	1877-01-01	1911-01-01	
+4237	BOS	data/yerlesimler_a78_okyanusya.js:300	Hermannsburg (Ntaria)	s	avustralya	1911-01-01	2000-12-31	
+4238	BOS	data/yerlesimler_a78_okyanusya.js:320	Norseman	s	bati-avustralya	1895-05-01	1901-01-01	
+4239	BOS	data/yerlesimler_a78_okyanusya.js:320	Norseman	s	avustralya	1901-01-01	2000-12-31	
+4240	BOS	data/yerlesimler_a78_okyanusya.js:335	Port Hedland	s	bati-avustralya	1896-01-01	1901-01-01	
+4241	BOS	data/yerlesimler_a78_okyanusya.js:335	Port Hedland	s	avustralya	1901-01-01	2000-12-31	
+4242	BOS	data/yerlesimler_a78_okyanusya.js:350	Cooktown	s	queensland	1873-10-25	1901-01-01	
+4243	BOS	data/yerlesimler_a78_okyanusya.js:350	Cooktown	s	avustralya	1901-01-01	2000-12-31	
+4244	BOS	data/yerlesimler_a78_okyanusya.js:365	Oenpelli (Gunbalanya)	s	avustralya	1906-01-01	2000-12-31	
+4245	BOS	data/yerlesimler_a78_okyanusya.js:375	Mount Gambier	s	guney-avustralya	1854-01-01	1901-01-01	
+4246	BOS	data/yerlesimler_a78_okyanusya.js:375	Mount Gambier	s	avustralya	1901-01-01	2000-12-31	
+4247	DIGER	data/yerlesimler.js:645	Haram (Banatska Palanka)	s	macaristan-habsburg	1551-07-01	1552-07-27	GÜN KOMŞUDAN: Lugos/Temeşvar · B 0013/988 (Báthory Endre 'július 16-ika körül' Banat kalelerini Ferdinand adına teslim almaya) — AY · Haram: B 0013/1003 Mayıs 1
+4248	ZAYIF_ATLAS	data/yerlesimler.js:645	Haram (Banatska Palanka)	s	yugoslavya-federal-cumhuriyeti	1992-04-27	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye yugoslavya-federal-cumhuriyeti f ucunun kaynağı — https://english.defensie.nl/topics/historical-missions/miss
+4249	DIGER	data/yerlesimler.js:1858	Mliyet (Mljet)	s	macaristan	1358-02-18	1459-03-07	PAKET Dubrovnik ile (EEK ④) — Dubrovnik kaydının zinciri aynen (macaristan himayesi 1358 → 1459 Osmanlı ahidnâmesi) · ⚠️ 1358-1410 ÇIKARIMDIR: LZMK `mljet` yaln
+4250	DIGER	data/yerlesimler.js:1858	Mliyet (Mljet)	s	avusturya	1813-01-01	1919-09-10	Habsburg monarşisi 1918-11-11'de bitti (D205 ①); dönem Saint-Germain imzasına dek uzatıldı — öteki SG noktalarıyla aynı tolerans, ardıl emanet md. 91'den
+4251	DIGER	data/yerlesimler.js:1858	Mliyet (Mljet)	s	itilaf-emaneti	1919-09-10	1920-11-12	F8 (Emre) + D205 ③ ardıl künye (ONCE1281-CISLEITHANIA-1005): Saint-Germain md. 91 (FOROST 19190910-1): 'Austria renounces so far as she is concerned in favour o
+4252	DIGER	data/yerlesimler.js:1858	Mliyet (Mljet)	s	yugoslavya	1920-11-12	1945-11-29	F8: de jure devir atama gününde — Rapallo Antlaşması (imza 12 Kasım 1920; LNTS c.18 s.397-403, FOROST 19201112-1) md. 2-3
+4253	DIGER	data/yerlesimler_avrupa.js:443	Saarbrücken	s	almanya	1281-01-01	1920-01-10	komşu Trier/Metz deseni — 1793-1815 Fransız dönemi bu işte KAYNAKLANMADI (Trier ile aynı borç; UMIT-W54b 1006)
+4254	DIGER	data/yerlesimler_avrupa.js:443	Saarbrücken	s	saar-havzasi-mandasi	1920-01-10	1935-03-01	Versay md. 49 (avalon.law.yale.edu/imt/partiii.asp): 'Germany renounces in favour of the League of Nations, in the capacity of trustee, the government of the te
+4255	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:443	Saarbrücken	s	saar-protektorati	1947-12-15	1957-01-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye saar-protektorati f ucunun kaynağı — https://www.cvce.eu/en/recherche/unit-content/-/unit/5cc6b004-33b7-4e44-
+4256	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:443	Saarbrücken	s	almanya-federal-cumhuriyeti-bati	1957-01-01	1990-10-03	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye almanya-federal-cumhuriyeti-bati t ucunun kaynağı — https://www.bmi.bund.de/EN/topics/constitution/constituti
+4257	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:443	Saarbrücken	s	almanya-birlesik	1990-10-03	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye almanya-birlesik f ucunun kaynağı — https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constituti
+4258	DIGER	data/yerlesimler_avrupa.js:443	Saarbrücken	s	almanya-muttefik-isgali	1945-06-05	1947-12-15	Fransiz isgal bolgesi
+4259	DIGER	data/yerlesimler_avrupa.js:640	Lugano	s	visconti	1335-01-01	1395-05-11	HLS «Lugano» (hls-dhs-dss.ch/de/articles/002177): Lugano Como'ya bağlıydı; Como 1335'te Visconti'lerce zapt edildi (YIL)
+4260	DIGER	data/yerlesimler_avrupa.js:640	Lugano	s	milano-dukaligi	1395-05-11	1512-01-01	Milano Dükalığı (Milano emsali); HLS «Lugano»: 1416 Filippo Maria Visconti bölgeyi Rusca'lara fief verdi, 1433-38 Sanseverino
+4261	DIGER	data/yerlesimler_avrupa.js:640	Lugano	s	isvicre	1512-01-01	1798-04-12	HLS «Lugano»: «besetzten die Eidgenossen ab 1512 Lugano dauerhaft» (YIL); son Fransız birlikleri 1513 başında çıktı; on iki kantonun ortak vogtluğu
+4262	DIGER	data/yerlesimler_avrupa.js:640	Lugano	s	helvetik-cumhuriyeti	1798-04-12	1803-02-19	HLS «Lugano»: 12 Nisan 1798 Helvetik anayasasının yürürlüğe girişiyle Lugano kantonunun merkezi oldu
+4263	DIGER	data/yerlesimler_avrupa.js:640	Lugano	s	isvicre	1803-02-19	2000-12-31	Arabuluculuk Senedi 1803 (künye helvetik-cumhuriyeti t:1803-02-19; Chur emsali) — Tessin kantonu (HLS «Lugano»)
+4264	DIGER	data/yerlesimler_avrupa.js:653	Locarno	s	visconti	1342-01-01	1395-05-11	HLS «Locarno» (Gemeinde, hls-dhs-dss.ch/de/articles/002108): «1342 eroberten Luchino und Giovanni Visconti das Gebiet» (YIL). 1342 öncesi Como / Orelli — künyes
+4265	DIGER	data/yerlesimler_avrupa.js:653	Locarno	s	milano-dukaligi	1395-05-11	1503-01-01	HLS «Locarno»: 1439'dan Rusca kontlarına Milano fiefi
+4266	DIGER	data/yerlesimler_avrupa.js:653	Locarno	s	isvicre	1503-01-01	1798-04-12	HLS «Locarno»: «Die Herrschaft der Rusca endete 1503, als die Eidgenossen das Locarnese besetzten» (YIL); kale 1513 Novara sonrası XII. Louis'ce teslim; Fribour
+4267	DIGER	data/yerlesimler_avrupa.js:653	Locarno	s	helvetik-cumhuriyeti	1798-04-12	1803-02-19	HLS «Locarno»: Helvetik dönemde (1798-1803) Lugano kantonuna bağlı · gün komşudan: Lugano (HLS «Lugano», 12 Nisan 1798)
+4268	DIGER	data/yerlesimler_avrupa.js:653	Locarno	s	isvicre	1803-02-19	2000-12-31	Arabuluculuk Senedi 1803 — Tessin kantonu (Chur emsali)
+4269	DIGER	data/yerlesimler_ek29.js:91	Brassó (Braşov)	s	macaristan-habsburg	1551-07-26	1556-03-12	History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)
+4270	DIGER	data/yerlesimler_ek29.js:91	Brassó (Braşov)	isg	romanya-kralligi	1918-12-01	1920-06-04	AY DÜZEYİ (D213, P84-BRASSO-TEMESVAR-1006): kaynak aynı olaya iki gün veriyor (7 / 10 Aralık 1918), ikisinin ortak en kaba güvenli düzeyi Aralık 1918 — eski f:1
+4271	DIGER	data/yerlesimler_ek29.js:91	Brassó (Braşov)	s	romanya-halk	1947-12-30	1989-12-22	LoC Romania Country Study
+4272	DIGER	data/yerlesimler_ek29.js:91	Brassó (Braşov)	s	romanya-cumhuriyeti	1989-12-22	2000-12-31	LoC Romania Country Study

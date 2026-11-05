@@ -1,0 +1,1106 @@
+{
+ "Serdeşt (Sardasht)": [
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:51",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Iranica, «MOKRI» (J. Oberling), https://www.iranicaonline.org/articles/mokri",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2271] TDV'de Serdeşt/Sardasht maddesi aranmadı ama Mehâbâd maddesi de yok (arama); Iranica MOKRI Serdeşt'i ve 1501'i anmaz (YOK). Safevî'nin bu kesime girişi tarihlenemedi. t 1736-03-08 K25 küme ucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:51",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2272] [KÜME K25] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:51",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2273] [KÜME K26] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:51",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2274] [KÜME K24] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:51",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1725-07-28",
+   "t": "1730-08-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Iranica, «MOKRI» (J. Oberling), https://www.iranicaonline.org/articles/mokri",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2275] ABİ MERKEZ Sâvücbulak (Bilgili 2016, TD 909) zinciri kaydın kendi kaynağıdır; Serdeşt'e özgü 1725-30 tanıklığı aranıp bulunamadı (Iranica MOKRI 18. yy Osmanlı dönemini anmaz). Beyanlı yaklaşıklık yerinde kalır."
+  }
+ ],
+ "Baraba bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-08-20",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Küçüm Han», https://islamansiklopedisi.org.tr/kucum-han",
+   "alinti": "20 Ağustos’ta çar birliklerine karşı giriştiği bu son savaşta da mağlûp olan Küçüm",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2276] f gün KAYNAKLI, yıl bağlamdan (önceki cümle: '4 Ağustos 1598’de Tara’dan başlayan askerî bir harekâtla Küçüm bugünkü Novasibirsk yakınlarında kuşatıldı'). TAKVİM: TDV takvim belirtmez; Rus kaynaklarının günü büyük olasılıkla Jülyen'dir (Jülyen 20 Ağustos 1598 = Gregoryen 30 Ağustos 1598) — 1582 sonrası kuralı gereği çevrilmesi gerekebilir, KASA kaynağın takvimini ikinci kaynakla teyit etsin. t 1917-03-15 K01 küme ucu. Bkz. sira 2280: Baraba 1595'te işgal edilmişti. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2277] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2278] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1430-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2279] [KÜME K04] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "sibir-hanligi",
+   "f": "1430-01-01",
+   "t": "1598-08-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sibir Hanlığı», https://islamansiklopedisi.org.tr/sibir-hanligi · TDV İslâm Ansiklopedisi, «Küçüm Han», https://islamansiklopedisi.org.tr/kucum-han",
+   "alinti": "Hanlığın kurucusu olarak Şeybânî Hacı Muhammed (1420-1430) ve onun oğlu Mahmutek (Mahmud, 1430-?) kabul edilmektedir | 17 Mart 1595’te Baraba çölüne asker göndererek Küçüm’e tâbi o bölgedeki toprakları da işgal ettiler",
+   "uc": "f+t",
+   "oneri": {
+    "isg": "rusya 1595-03-17 → 1598-08-20 (Baraba'nın işgali; TEK KURAL — hanlığın yenilgisine kadar işgal)"
+   },
+   "not": "[sira 2280] f 1430 YIL kabul edilebilir (Mahmutek 1430; TDV ayrıca hanlığın '1420’li yılların sonlarından itibaren' yarı bağımsız olduğunu yazar → f 1420'lerin sonu da olabilir, beyan). TDV Sibir Hanlığı Baraba bozkırını hanlık toprağı sayar. t 1598-08-20 sira 2276 alıntısıyla teyitli; ama Baraba 1595-03-17'den Rus işgalindedir (Jülyen/Gregoryen notu sira 2276). ÖLÇÜT: geçici/askerî — Küçüm Han direnişi sürüyordu ('Küçüm Han ele geçmedikçe bölgedeki hâkimiyetlerini perçinleyemeyeceklerini düşünüyorlardı'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek10.js:95",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2281] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Guayaquil (Santiago de Guayaquil)": [
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:128",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1538-01-01",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2282] Guayaquil kuruluşu 1538 ve Peru Genel Valiliği 1542-11-20 akademik kaynakla okunmadı (history.state.gov Ecuador sömürge dönemini anmaz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:128",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1822-05-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2283] t 1822-05-24 (Pichincha) Guayaquil için şüpheli [İPUCU, kaynak okunmadı]: Guayaquil 1820-10-09'da bağımsızlığını ilan edip 'Provincia Libre de Guayaquil' oldu ve Temmuz 1822'de Büyük Kolombiya'ya katıldı; ayrıca Quito Audiencia'sı 1739'da Yeni Granada Genel Valiliğine bağlandı (künye yeni-granada-valiligi 1717-05-27 → 1810-07-20 var). İkisi de kaynakla sınanmalı; rakip hükûmet kuralı uygulanır. TARAYICI: Hamerly, Historia social y económica de la antigua provincia de Guayaquil; Rodríguez O., The Independence of Spanish America."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:128",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2284] t 1830 YIL (05-13 günü kaynakta yok). f 1822-05-24 teyitsiz — Guayaquil'in katılışı Temmuz 1822 olabilir (sira 2283). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:128",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Ecuador», https://history.state.gov/countries/ecuador",
+   "alinti": "Ecuador withdrew from the Colombian federation in 1830",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2285] f 1830 YIL (gün teyitsiz). t atlas ufku. ABD tanıması 1832. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Paksos (Paxos)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_adalar.js:102",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1797-10-17",
+   "t": "1800-03-21",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yedi Ada Cumhuriyeti», https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti",
+   "alinti": "Fransa ile 17 Ekim 1797’de Campo-Formio Antlaşması’nı imzaladı | Nihayet kale 5 Mart 1799’da zaptedildi",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1799-03-05 en geç (Korfu'nun düşüşü; 'Yedi Ada’nın denetimi tamamen müttefiklerin yönetimine geçmiş oldu') — Paksos'un kendi düşüş günü kaynakla",
+    "isg": "rus-osmanlı müttefik donanması 1799-03-05 (ya da Paksos'un alınışı) → 1800-03-21"
+   },
+   "not": "[sira 2286] f 1797-10-17 KAYNAKLI (TEK ÖLÇÜ: Fransa adaları 1797 seferinde zaten almıştı → imza günü). t 1800-03-21 kuruluş sözleşmesi günüdür ('21 Mart 1800 tarihli on iki maddelik bir kuruluş sözleşmesi'), ama Fransız idaresi 1798-99 müttefik fethiyle bitti; arası isg. Rus-Osmanlı ortak işgal künyesi aranmalı (devletler.js'te `yedi-ada`, `iyon` ile yalnız `birlesik-iyon-adalari` bulundu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_adalar.js:102",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1807-07-07",
+   "t": "1815-11-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yedi Ada Cumhuriyeti», https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti",
+   "alinti": "9 Temmuz 1807 tarihinde Rusya ile Fransa arasında Tilsitt Antlaşması imzalandığında | 1814’te Pakso’da denetimi sağladılar",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1814 (İngilizlerin Paksos'u alışı; gün kaynakla)",
+    "isg": "ingiltere 1814 → 1815-11-05 (Paris antlaşması)",
+    "f": "Rusların adaları Fransa'ya teslim günü (Ağustos 1807 [İPUCU]; TEK ÖLÇÜ: Fransa Temmuz'da yönetmiyordu)"
+   },
+   "not": "[sira 2287] TDV Tilsit'i 9 Temmuz 1807 verir, atlas 07-07 (Fransız-Rus antlaşması genelde 7 Temmuz [İPUCU]; 9 Temmuz Fransız-Prusya antlaşmasıdır) → TDV ile atlas çelişkisi ic_not'a iki tarihle. TEK ÖLÇÜ'ye göre s: teslim günüdür. t: TDV İngilizlerin Paksos'ta denetimi 1814'te sağladığını yazar; 1815-11-05 Paris antlaşması (İngiliz himayesi) — arası isg ingiltere. Paris günü TDV'de 'Viyana Kongresi’nin ardından 5 Kasım’da Paris’te' (yıl bağlamdan 1815). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_adalar.js:102",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1864-06-02",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yedi Ada Cumhuriyeti», https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti",
+   "alinti": "Son prosedürlerin de tamamlanmasıyla Yunanistan 21 Mayıs 1864’te adaları mülkiyetine geçirdi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2288] TAKVİM: TDV'nin 21 Mayıs 1864'ü Jülyen günüdür (Yunanistan 1923'e kadar Jülyen) → Jülyen 21 Mayıs 1864 = Gregoryen 2 Haziran 1864; atlas 1864-06-02 uyumlu. TDV takvimi belirtmez — beyan. t 1973-06-01 (cunta cumhuriyeti) bu kaynakta yok, teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Stavropol–Kuma bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:137",
+   "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Ставрополь» (metin: booksite.ru/FullText/1/001/008/105/673.htm)",
+   "alinti": "Основан в 1777 как одна из крепостей Азово-Моздокской укрепленной линии для охраны южных границ Российской империи",
+   "uc": "",
+   "oneri": {
+    "bol": "Azov-Mozdok hattı boyunca (Stavropol çevresi) s: rusya 1777'den (yıl; kale günü kaynakla) — bozkırın hat dışı kesimi kirim/Nogay 1783-04-19'a kadar"
+   },
+   "not": "[sira 2289] BSE Stavropol'ün 1777'de Rus İmparatorluğu'nun güney sınırını koruyan Azov-Mozdok hattı kalesi olarak kurulduğunu yazar → bölgenin Stavropol kesimi 1777'den Rus idaresindedir; kirim 1774-1783 kesintisiz sahipliği bu kesim için yanlış. Bölge (bolge) kaydı tek nokta olduğundan KASA bölmeyi ya da f'yi seçer. f 1774-07-21 (Küçük Kaynarca) bu kaynakta yok. [19. yy değil, BSE 1976] [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:137",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-04-19",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Ставрополь» (metin: booksite.ru/FullText/1/001/008/105/673.htm)",
+   "alinti": "Основан в 1777 как одна из крепостей Азово-Моздокской укрепленной линии",
+   "uc": "",
+   "oneri": {
+    "f": "1777 (yıl; sira 2289 ile)"
+   },
+   "not": "[sira 2290] Bkz. sira 2289. 1783-04-19 (Kırım ve Kuban ilhak manifestosu) hat dışı Nogay bozkırı için geçerli kalabilir; manifesto günü ayrıca Jülyen 8 Nisan = Gregoryen 19 Nisan beyanı ister. t 1917-03-15 K01 küme ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:137",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2291] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:137",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "ONERI",
+   "kaynak": "Большая советская энциклопедия, 3. изд., «Ставрополь» (metin: booksite.ru/FullText/1/001/008/105/673.htm)",
+   "alinti": "Советская власть установлена 1(14) января 1918. В июле 1918 был захвачен белогвардейцами | освобожден Красной Армией 29 февраля 1920",
+   "uc": "",
+   "oneri": {
+    "f": "1918-01-14 (Sovyet iktidarı; Jülyen 1 Ocak = Gregoryen 14 Ocak)",
+    "bol": "1918-07 → 1920-02-29 Beyaz (Gönüllü Ordusu / Güney Rusya Silahlı Kuvvetleri; künye kaynakla) · 1942-08-03 → 1943-01-21 isg almanya"
+   },
+   "not": "[sira 2292] [KÜME K02] İSTİSNA — yerleşime özgü çelişen tanıklık (brif 4b): BSE Stavropol'de Sovyet iktidarının 1(14) Ocak 1918'de kurulduğunu, şehrin Temmuz 1918'de Beyazlarca alındığını, 29 Şubat 1920'de Kızıl Ordu'ca geri alındığını ve 3 Ağustos 1942 – 21 Ocak 1943 Alman işgalini yazar. sovyet-rusya 1917-11-07'den kesintisiz yanlış (rakip hükûmet kuralı). Beyaz künyesi aranmadı → LAB. TAKVİM: BSE çift gün verir (1(14)); 1920 günü Gregoryen. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:137",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2293] [KÜME K03] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Aşağı Dinyeper bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2294] [KÜME K04] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2295] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2296] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "v",
+   "d": "",
+   "f": "1502-03-01",
+   "t": "1774-07-21",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2297] Kaydın kendi kaynağı TDV (giray, nogaylar, kirim) + BEYANLI YAKLAŞIKLIK; bütçe nedeniyle sınanmadı. NOT: aşağı Dinyeper'de Zaporojye Siçi (Hortitsa, 16. yy-1775) vardı; Kırım tâbiliği bütün bölgeye uymayabilir — Kazak/Lehistan/Rusya katmanı KASA'nın dikkatine."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-04-19",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2298] DIGER (kaynaklı). NOT: kaydın kendi kaynağı 'Herson 1778 Rus kuruluşu' der; Küçük Kaynarca (1774-07-21) Rusya'ya Kılburun ve Dinyeper-Bug arası toprağı verdi [İPUCU] → aşağı Dinyeper'in sağ yakası için rusya f 1774-07-21 olabilir; kaynakla sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2299] [KÜME K28] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Becse (Törökbecse / Novi Bečej)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:292",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1551-07-01",
+   "t": "1551-09-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2300] Kaydın kendi akademik kaynağı var (Bánlaky, MEK 09477); bütçe nedeniyle yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:292",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1716-01-01",
+   "t": "1918-11-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tımışvar», https://islamansiklopedisi.org.tr/timisvar",
+   "alinti": "Prens Eugen von Savoya kumandasındaki Avusturya (Nemçe) kuvvetleri Ekim 1716’da Tımışvar’ı vire ile teslim aldı | Habsburg (1716) ve Avusturya-Macaristan (1867) hâkimiyeti I. Dünya Savaşı sonuna kadar (1918) sürdü",
+   "uc": "f",
+   "oneri": {
+    "f": "1716-10 (ABİ MERKEZ Temeşvar teslimi; gün kaynakla — 1716-10-13 [İPUCU])",
+    "d": "habsburg (1716 → Banat'ın Macaristan'a katılışı 1778/79), sonra macaristan-habsburg"
+   },
+   "not": "[sira 2301] f YIL/AY düzeyinde: TDV 'Ekim 1716'. Becse'nin kendi düşüş günü yok (ABİ MERKEZ: Temeşvar). TDV Tımışvar Banat'ın 1716'dan Habsburg (Avusturya) hâkimiyetine geçtiğini yazar; Banat 1718-1778 Viyana'ya bağlı ayrı taç toprağı (Temeser Banat) idi, Macar Krallığı'na 1778/79'da katıldı [İPUCU, yıl kaynakla] → 1716 → 1778/79 arası `habsburg` (künye var, 1282-12-27 → 1918-11-12), sonra macaristan-habsburg. ÖLÇÜT: idareye katma — Banat Landesadministration; Pasarofça 1718-07-21 ic_not'a (antlaşma günü ölçüt değil). t 1918-11-16 bu kaynakta yalnız '(1918)'. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:292",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-09-07",
+   "t": "1716-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tımışvar», https://islamansiklopedisi.org.tr/timisvar",
+   "alinti": "Prens Eugen von Savoya kumandasındaki Avusturya (Nemçe) kuvvetleri Ekim 1716’da Tımışvar’ı vire ile teslim aldı",
+   "uc": "t",
+   "oneri": {
+    "t": "1716-10 (sira 2301 ile aynı gün)"
+   },
+   "not": "[sira 2302] f 1551-09-07 kaydın kendi TDV kaynağıyla (Sokullu) — yeniden okunmadı. t 1716-01-01 → Ekim 1716 (TDV Tımışvar; ABİ MERKEZ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:292",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2303] Künye düzeyi (yugoslavya-federal-cumhuriyeti f 1992-04-27, ülke düzeyi); bütçe nedeniyle sınanmadı."
+  }
+ ],
+ "Çanad (Csanád / Cenad)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:316",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1551-07-01",
+   "t": "1551-09-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2304] Kaydın kendi akademik kaynağı var (Bánlaky, TDV Sokullu); bütçe nedeniyle yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:316",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1716-01-01",
+   "t": "1918-11-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tımışvar», https://islamansiklopedisi.org.tr/timisvar",
+   "alinti": "Prens Eugen von Savoya kumandasındaki Avusturya (Nemçe) kuvvetleri Ekim 1716’da Tımışvar’ı vire ile teslim aldı | Habsburg (1716) ve Avusturya-Macaristan (1867) hâkimiyeti I. Dünya Savaşı sonuna kadar (1918) sürdü",
+   "uc": "f",
+   "oneri": {
+    "f": "1716-10 (ABİ MERKEZ Temeşvar; gün kaynakla)",
+    "d": "habsburg (1716 → 1778/79), sonra macaristan-habsburg"
+   },
+   "not": "[sira 2305] TDV Tımışvar Çenad'ı Tımışvar eyaletinin 'en sabit ve bilinen' sancaklarından sayar → ABİ MERKEZ bağı kaynaklı. TDV Tımışvar Banat'ın 1716'dan Habsburg (Avusturya) hâkimiyetine geçtiğini yazar; Banat 1718-1778 Viyana'ya bağlı ayrı taç toprağı (Temeser Banat) idi, Macar Krallığı'na 1778/79'da katıldı [İPUCU, yıl kaynakla] → 1716 → 1778/79 arası `habsburg` (künye var, 1282-12-27 → 1918-11-12), sonra macaristan-habsburg. ÖLÇÜT: idareye katma — Banat Landesadministration; Pasarofça 1718-07-21 ic_not'a (antlaşma günü ölçüt değil). t 1918: Çanad (Cenad) Trianon'la Romanya'ya geçti; 1918-11-16 kaydın F8 emsalidir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:316",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-09-07",
+   "t": "1716-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tımışvar», https://islamansiklopedisi.org.tr/timisvar",
+   "alinti": "Prens Eugen von Savoya kumandasındaki Avusturya (Nemçe) kuvvetleri Ekim 1716’da Tımışvar’ı vire ile teslim aldı",
+   "uc": "t",
+   "oneri": {
+    "t": "1716-10"
+   },
+   "not": "[sira 2306] t 1716-01-01 → Ekim 1716 (ABİ MERKEZ Temeşvar). f 1551-09-07 ALT SINIR kaydın kendi kaynağıyla, yeniden okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:316",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2307] DIGER (LoC Romania Country Study); ülke düzeyi, bütçe nedeniyle sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:316",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2308] DIGER (LoC Romania Country Study); ülke düzeyi, bütçe nedeniyle sınanmadı."
+  }
+ ],
+ "Katar Yarımadası (iç, dolgu)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_korfez.js:66",
+   "alan": "s",
+   "d": "benihalid",
+   "f": "1670-01-01",
+   "t": "1795-04-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Katar», https://islamansiklopedisi.org.tr/katar",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2309] TDV Katar Benî Hâlid'i ve 1670/1795 uçlarını anmaz (YOK); Katar'ı Lahsâ'ya bağlı Benî Müsellem idarecilerinin yönettiğini ve 1776'da Âl-i Halîfe'nin Zübâre'yi işgal ettiğini yazar. Kaydın kaynağı Bingöl 2019 (Vakanüvis 4/1) yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_korfez.js:66",
+   "alan": "s",
+   "d": "katar",
+   "f": "1913-07-29",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Katar», https://islamansiklopedisi.org.tr/katar",
+   "alinti": "29 Temmuz 1913’te Londra’da imzalanan, ancak yürürlüğe girmeyen antlaşmanın ilgili maddesinde | 3 Kasım 1916’da Katar Emîri Abdullah ile diğer Körfez şeyhleriyle",
+   "uc": "f",
+   "oneri": {
+    "v": "ingiltere 1916-11-03 → 1971-09-03 (himaye) eklenmeli",
+    "f": "KURAL KARARI: 1913-07-29 imza (antlaşma yürürlüğe girmedi) mı, yoksa Osmanlı varlığının sonu ('I. Dünya Savaşı ile birlikte bölgedeki Osmanlı varlığı tamamen sona erdi'; gün kaynakla) mı"
+   },
+   "not": "[sira 2310] f 1913-07-29 TDV'de gün olarak var ama TDV antlaşmanın yürürlüğe girmediğini yazar; Şeyh Abdullah'ın tayini hâlâ 'Osmanlı Devleti’nin muvafakatiyle oldu' → hukukî devir yok, Osmanlı iddiası savaşa kadar sürdü. TEK ÖLÇÜ (Âl Sânî zaten yönetiyordu → imza) ile yürürlüksüz antlaşma çelişkisi EMRELİC'e. İngiliz himayesi 1916-11-03 ve bağımsızlık 3 Eylül 1971 TDV'de günle var. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bacirge (Esendere)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1351-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2311] [KÜME K20] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1351-01-01",
+   "t": "1467-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hakkâri», https://islamansiklopedisi.org.tr/hakkari",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2312] TDV Hakkâri bölgeyi İlhanlılar'dan sonra 'Karakoyunlular’ın ve Celâyirliler’in idaresi', ardından tekrar Karakoyunlu ve Timur hâkimiyeti olarak anlatır — yılsız. 1351 ve 1467 uçları bulunamadı; Celâyirli ve Timur ara dilimleri atlas zincirinde yok (beyan)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1467-01-01",
+   "t": "1502-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hakkâri», https://islamansiklopedisi.org.tr/hakkari",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2313] TDV Hakkâri: 'XV. yüzyılın ikinci yarısında yörede Akkoyunlular’ın hâkim olduğu' 1472 tarihli Meydan Medresesi'nden anlaşılır — yüzyıl düzeyi, 1467/1502 uçları yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1502-01-01",
+   "t": "1548-08-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hakkâri», https://islamansiklopedisi.org.tr/hakkari · TDV İslâm Ansiklopedisi, «Van», https://islamansiklopedisi.org.tr/van",
+   "alinti": "XVI. yüzyılın başlarında Osmanlı idaresine giren yöre bir ara Safevîler’e tâbi oldu | onuncu gün kale fethedildi (24 Ağustos 1548)",
+   "uc": "t",
+   "oneri": {
+    "bol": "safevi 1502 → 16. yy başı (Hakkâri'nin Osmanlı'ya girişi; yıl kaynakla — 1515 Kürt beylerinin katılışı [İPUCU]) · osmanli → 'bir ara' Safevî tâbiliği (yıl yok) · 1548-08-24'ten osmanli"
+   },
+   "not": "[sira 2314] t 1548-08-24 KAYNAKLI (ABİ MERKEZ Van: TDV Van gün verir; TDV Hakkâri yörenin Van fethi üzerine Van eyaletine bağlandığını yazar). Ama TDV Hakkâri yörenin 16. yy başında Osmanlı idaresine girdiğini söyler → 1502-1548 kesintisiz Safevî yanlış; ara dilimler yılsız, kaynakla bulunmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2315] [KÜME K05] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:76",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1548-08-24",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Van», https://islamansiklopedisi.org.tr/van · TDV İslâm Ansiklopedisi, «Hakkâri», https://islamansiklopedisi.org.tr/hakkari",
+   "alinti": "onuncu gün kale fethedildi (24 Ağustos 1548) | Osmanlılar’ın Van’ı fethetmesi üzerine kurulan Van eyaletine bağlandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2316] f gün KAYNAKLI — ABİ MERKEZ Van (Hakkâri sancağının Van eyaletine bağlanışı TDV Hakkâri'de; Hakkâri 'sahiplerine ait ... ocaklık' sancak — Emre 17 Eyl: Kürt beylikleri d:). t 1920-04-23 atlas KURALI (TBMM), kaynakla teyit edilmedi. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Rāzhān": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2317] [KÜME K20] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "İlhanlılar’ın ardından sırasıyla Çobanoğulları, Timurlular, Karakoyunlular, Akkoyunlular ve Safevîler’in hâkimiyetine giren Urmiye",
+   "uc": "",
+   "oneri": {
+    "d": "cobaniler (Çobânîler, künye 1335-11-30 → 1357) 1340 → 1357; ardından Celâyirli (1360 Tebriz [İPUCU]) ya da doğrudan Timurlu"
+   },
+   "not": "[sira 2318] ABİ MERKEZ Urmiye (kaydın kendi abi merkezi). TDV Urmiye İlhanlılar'dan sonra Çobanoğulları'nı sayar, Celâyirlileri anmaz; atlasın 1340-1386 celayirli dönemi Urmiye için kaynakla çelişiyor. Yılsız sıra; uçlar kaynakla bulunmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2319] TDV Urmiye Timurlu hâkimiyetini yılsız sayar (A: 'İlhanlılar’ın ardından sırasıyla Çobanoğulları, Timurlular, Karakoyunlular, Akkoyunlular ve Safevîler’in hâkimiyetine giren Urmiye'); 1386 ve 1408-04-13 uçları bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2320] TDV Urmiye Akkoyunlu → Safevî sırasını yılsız verir; 1469-04-01 ve 1501-07-01 bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2321] TDV Urmiye Safevî dönemini ve 'XVI. yüzyılın sonlarında kısa bir süre Osmanlı egemenliği'ni yılsız verir. f 1501-07-01 ve t 1736-03-08 (K25 kümesinin f'si) yerleşim düzeyinde bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2322] [KÜME K25] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2323] [KÜME K26] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2324] [KÜME K24] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1724-01-01",
+   "t": "1730-08-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2325] Kaydın kendi ABİ MERKEZ zinciri TDV Urmiye (Özgüdenli, c.42, 179-180) + Emre post-it #161; benim okuduğum TDV Urmiye penceresinde 1724 cümlesi yoktu (anahtar '1724' aranmadı). Bütçe nedeniyle sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1731-01-01",
+   "t": "1732-01-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2326] Kaydın kendi ABİ MERKEZ zinciri TDV Hekimoğlu Ali Paşa; bütçe nedeniyle sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:107",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1585-09-25",
+   "t": "1603-10-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2327] TDV Urmiye: 'XVI. yüzyılın sonlarında kısa bir süre Osmanlı egemenliğine geçtiyse de Şah I. Abbas tarafından yeniden Safevî Devleti’ne bağlandı' — yılsız, KAYNAKLI'ya yetmez. Öneri: Mahabad v: kaydında olduğu gibi 'gün komşudan: Tebriz (TDV tebriz 25 Eylül 1585 · 21 Ekim 1603)' + ABİ MERKEZ Urmiye beyanı; Urmiye'nin Osmanlı'ya geçiş yılı kaynakla (Ferhad Paşa seferleri) aranmalı."
+  }
+ ],
+ "Huamanga (Ayacucho)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika2.js:23",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1539-01-09",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2328] Huamanga'nın kuruluşu (1539-01-09) ve Peru Genel Valiliği (1542-11-20) için akademik kaynak okunmadı; history.state.gov Peru sömürge dönemini anmaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika2.js:23",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1824-12-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Peru», https://history.state.gov/countries/peru",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2329] t 1824-12-09 (Ayacucho, Huamanga'nın yakınında Quinua) kaynakla okunmadı; history.state.gov yalnız 'the proclamation of Peruvian independence in July 1821' der — Huamanga 1821-24 kralcı idarede kaldıysa (rakip hükûmet kuralı) 1824 doğru olabilir. TARAYICI: Congreso del Perú / Basadre, Historia de la República del Perú."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika2.js:23",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Peru», https://history.state.gov/countries/peru",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2330] f 1824-12-09 bkz. sira 2329; Peru bağımsızlık ilanı Temmuz 1821 (history.state.gov) ic_not'a."
+  }
+ ],
+ "Medâin-i Sâlih (el-Hicr)": [
+  {
+   "dosya_satir": "data/yerlesimler_ok101.js:87",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-07-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2331] [KÜME K14] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok101.js:87",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-07-06",
+   "t": "1918-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2332] TDV'de «Hicr» ya da «Medâin-i Sâlih» ve «Ulâ» maddeleri bulunamadı (slug'lar arama sayfasına düştü; arama sonucunda madde başlığı 0). Osmanlı'nın 1517 girişi ve 1918 sonu (Hicaz Demiryolu istasyonu, Arap İsyanı) yerleşim düzeyinde okunmadı. TARAYICI: TDV «Hicaz Demiryolu», «Medine» maddeleri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok101.js:87",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1918-01-01",
+   "t": "1925-12-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2333] DIGER (kaydın kendi 1923 ufuk düzeltmesi); bütçe nedeniyle sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok101.js:87",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2334] Künye düzeyi (suudi-arabistan f 1932-09-18); bütçe nedeniyle sınanmadı. NOT: 1925-12-19 → 1932-09-18 arası (Hicaz-Necid Krallığı) bu partide değil; zincirde boşluk olup olmadığını KASA ölçsün."
+  }
+ ],
+ "Sa'de": [
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1281-01-01",
+   "t": "1872-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "Câfer Paşa, Osmanlı idaresine baş kaldıran Sa‘de Emîri Mehmed’i de yakalayıp İstanbul’a yolladı | Câfer Paşa, İmam Kāsım üzerine kuvvet sevkederek Sa‘de’yi geri aldı",
+   "uc": "",
+   "oneri": {
+    "bol": "yemen-zeydi 1281 → Osmanlı'nın Sa'de'yi alışı (16. yy; yıl kaynakla) · d: osmanli → 1620'ler/1635 (İmam Kāsım ve Müeyyed dönemi; Osmanlı çekilişi 1635-10-22 Muhâ'dan) · yemen-zeydi 1635 → 1872"
+   },
+   "not": "[sira 2335] TDV Yemen ilk Osmanlı döneminde (1538-1635) Sa'de'nin Osmanlı idaresinde bir emirlik olduğunu gösterir (1608-1616 Câfer Paşa dönemi); 1281-1872 kesintisiz Zeydî sahipliği yanlış. Osmanlı'nın Sa'de'ye girişi ve kesin çıkışı (İmam Kāsım'ın Sa'de'de ayaklanması, 1619 antlaşması) yılları kaynakla bulunmalı; TDV son Osmanlı askerinin 22 Ekim 1635'te Muhâ'dan ayrıldığını yazar. t 1872-04-01: sira 2337'ye bkz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1918-10-30",
+   "t": "1962-09-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "açmak zorunda kaldı (26 Eylül 1962). Böylece Yemen’de monarşi sona erdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2336] t gün KAYNAKLI. f 1918-10-30: TDV 'Yemen’de Osmanlı hâkimiyeti Mondros Mütarekesi’nin ardından fiilen sona erdi' der (olay adlı, gün yok); İmam Yahyâ'nın Zeydî Emirliği'ni kuruşu tarihsiz; Osmanlı kadrosunun Hudeyde teslimi '5 Mart 1919' — f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1872-04-01",
+   "t": "1918-10-30",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "İmam Yahyâ ile 13 Ekim 1911’de bir antlaşma yaparak isyanlara son verdi | San‘a dahil Zeydîler’in yaşadığı dağlık bölgelerin yönetimi İmam Yahyâ’ya bırakılacak",
+   "uc": "",
+   "oneri": {
+    "bol": "d: osmanli 1872 → 1911-10-13 · 1911-10-13 → 1918-10-30 v: yemen-zeydi (Da‘an antlaşması: Osmanlı egemenliği altında Zeydî dağlık bölgesinin yönetimi İmam'da)"
+   },
+   "not": "[sira 2337] f 1872-04-01: TDV 'Ahmed Muhtar Paşa’nın Yemen’i tekrar fethiyle birlikte 1872’de yeni bir idarî yapı oluşturuldu' der; Sa'de'nin bu yapıya girişi ayrıca tarihlenmiyor (YIL düzeyi, Sa'de'ye özgü değil). 1911 Da‘an antlaşması Zeydî dağlık bölgesinin (Sa'de dahil, Zeydî merkezi) yönetimini İmam'a bırakır → TAHRİR ölçütüne göre 1911-10-13'ten tâbi (v:) katman. t 1918-10-30 Mondros (olay adlı; bkz. sira 2336). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1000-01-01",
+   "t": "1047-06-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "389’da (999) Sa‘de’ye gelen Kāsım b. Ali b. Abdullah el-İyânî, el-Mansûr lakabıyla kendisini imam ilân etti",
+   "uc": "f",
+   "oneri": {
+    "f": "0999-01-01 (hicrî 389 ∩ mîlâdî 999 → kesişimin ilk günü; yalnız 1000-01-01 bir ufuk sınırı değilse)"
+   },
+   "not": "[sira 2338] TDV Yemen kaydın kendi kaynağıyla (TDV Zeydiyye 389/999) aynı yılı verir; mevcut f 1000-01-01. 1000 atlasın MS1 ufku ise dönem doğru, öneri düşer. HİCRÎ: 389 H ≈ 998-12 → 999-11; kesişim 999. t 1047-06-28 bu kaynakta okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1047-06-28",
+   "t": "1137-09-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2339] TDV Yemen 1045-1052 Ebü’l-Feth ed-Deylemî'nin Sa'de'ye gelişini ve Suleyhîlerle mücadelesini anar; 1047-1137 Sa'de sahibi tarihli olarak bulunamadı. Boşluk beyanı yerinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1171-01-01",
+   "t": "1189-02-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2340] TDV Yemen: Hâtim b. Ahmed döneminde 'Hemdânîler’in hâkimiyeti kuzeyde Sa‘de’ye kadar uzanıyordu' (Eyyûbîlere teslim 570/1174) — yılsız; 1171-1189 boşluğu için Hemdânî adayı, künye aranmadı. Boşluk beyanı yerinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1217-04-10",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2341] 1217-1281 Sa'de sahibi TDV Yemen okunan pencerelerde tarihli bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2342] Künye düzeyi (yemen-cumhuriyeti f 1990-05-22, kaydın kaynağı TDV Yemen); '22 Mayıs 1990' anahtarı TDV Yemen'de doğrudan eşleşti ama okunan pencere birleşmeyi günle göstermedi — sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:219",
+   "alan": "s",
+   "d": "yemen-arap-cumhuriyeti",
+   "f": "1962-09-26",
+   "t": "1990-05-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "(26 Eylül 1962). Böylece Yemen’de monarşi sona erdi ve Mısır’ın desteğiyle Yemen Arap Cumhuriyeti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2343] f gün KAYNAKLI (TDV; kaydın LoC kaynağıyla çift teyit). t 1990-05-22 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Lubnı": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1362-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Internet Encyclopedia of Ukraine, «Lubny» (CIUS, güncelleme 2013), https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLubny.htm",
+   "alinti": "Lubny was destroyed by the Mongols in 1239 | Rebuilt in the latter half of the 16th century by the Wiśniowiecki family",
+   "uc": "",
+   "oneri": {
+    "sil": true,
+    "son": "Lubnı 1239 → 16. yy ikinci yarısı yok (yeniden kuruluş yılı kaynakta yok)"
+   },
+   "not": "[sira 2344] [KÜME K04] İSTİSNA — yerleşime özgü çelişen tanıklık (brif 4b): IEU Lubnı'nın 1239'da Moğollarca yıkıldığını ve 16. yy'ın ikinci yarısında Wiśniowiecki ailesince yeniden kurulduğunu yazar → 1281-1362 Altın Orda dönemi bu noktada olmamalı; toprak komşu peteklere kalır (merdiven ④). Yıl bilinmediği için kur: yazılmaz, yüzyıl beyanı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "litvanya-buyuk-dukalik",
+   "f": "1362-01-01",
+   "t": "1569-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Internet Encyclopedia of Ukraine, «Lubny» (CIUS, güncelleme 2013), https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLubny.htm",
+   "alinti": "Lubny was destroyed by the Mongols in 1239 | Rebuilt in the latter half of the 16th century by the Wiśniowiecki family",
+   "uc": "",
+   "oneri": {
+    "sil": true
+   },
+   "not": "[sira 2345] Yerleşim 1239'dan 16. yy ikinci yarısına kadar yok (bkz. sira 2344); 1362-1569 Litvanya dönemi kırpılmalı. Yeniden kuruluş 1569'dan önce ise (Wiśniowiecki 'latter half of the 16th century') kısa bir Litvanya dilimi kalabilir — yıl kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1649-08-18",
+   "hukum": "ONERI",
+   "kaynak": "Internet Encyclopedia of Ukraine, «Lubny» (CIUS, güncelleme 2013), https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLubny.htm",
+   "alinti": "Rebuilt in the latter half of the 16th century by the Wiśniowiecki family | In the Hetman state it was a regimental capital (1648, 1658–1781)",
+   "uc": "t",
+   "oneri": {
+    "f": "yeniden kuruluş (16. yy ikinci yarısı; yıl kaynakta yok — kur: ile birlikte)",
+    "t": "1648 (yıl; Hetmanlık alay merkezi)"
+   },
+   "not": "[sira 2346] t: IEU Lubnı'yı Hetman devletinde 1648'den alay merkezi sayar → TAHRİR: idareye katma 1648 (yıl), Zborów 1649-08-18 değil; Zborów ic_not'a. f 1569-07-01 (Lublin Birliği) yerleşim yokken başlıyor; kuruluş yılı bulunmalı. IEU ayrıca 1596 Solonitsa savaşını Lubnı yakınında anar (1596'da şehir vardı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2347] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2348] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:206",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2349] [KÜME K28] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ]
+}

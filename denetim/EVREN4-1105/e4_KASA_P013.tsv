@@ -1,0 +1,57 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+1039	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	kazak-hanligi	1644-01-01	1847-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanma
+1040	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	rusya	1847-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanmay
+1041	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+1042	BOS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	altinorda	1281-01-01	1500-01-01	
+1043	BOS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	nogay	1500-01-01	1644-01-01	
+1044	BOS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	sovyet-rusya	1917-11-07	1991-12-16	
+1045	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:205	Üstyurt kuzeyi	s	kazakistan	1991-12-16	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz
+1046	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:233	Guryev (Atyrau)	s	rusya	1640-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+1047	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:233	Guryev (Atyrau)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+1048	BOS	data/yerlesimler_ortaasya2.js:233	Guryev (Atyrau)	s	sovyet-rusya	1917-11-07	1991-12-16	
+1049	ZAYIF_ATLAS	data/yerlesimler_ortaasya2.js:233	Guryev (Atyrau)	s	kazakistan	1991-12-16	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz
+1050	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:137	Cork	s	ingiltere	1281-01-01	1922-12-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sını
+1051	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:137	Cork	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+1052	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:137	Cork	s	irlanda	1000-01-01	1171-01-01	irlanda künyesi (İrlanda Gal Beylikleri ve Krallığı, 1000-1603). BEYANLI YAKLAŞIKLIK: nokta bölge temsilcisidir (yer o devirde kasaba olmayabilir; Norse kentler
+1053	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:137	Cork	s	ingiltere	1171-01-01	1281-01-01	Dublin zinciriyle (Store norske leksikon/Treccani) uyumlu Anglo-Norman dönemi; BEYANLI YAKLAŞIKLIK. [yalnız yıl teyitli; gün teyitsiz]
+1054	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:149	Monaghan	s	irlanda	1281-01-01	1603-03-30	Monaghan: eski manastır (Dört Üstat Yıllıkları'na göre 830 ve 931'de yağmalandı, başrahip kayıtları 1161'e dek); Phelim Mac Mahon 1462'de Conventual Fransiskenl
+1055	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:149	Monaghan	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+1056	DIGER	data/yerlesimler_avrupa.js:149	Monaghan	s	ingiltere	1603-03-30	1922-12-06	Monaghan 1613'te James I şartıyla borough (Lewis 1837).
+1057	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:158	Sligo	s	ingiltere	1603-03-30	1922-12-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sını
+1058	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:158	Sligo	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+1059	BOS	data/yerlesimler_avrupa.js:158	Sligo	s	irlanda	1281-01-01	1603-03-30	
+1060	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:158	Sligo	s	irlanda	1000-01-01	1281-01-01	irlanda künyesi (İrlanda Gal Beylikleri ve Krallığı, 1000-1603). BEYANLI YAKLAŞIKLIK: nokta bölge temsilcisidir (yer o devirde kasaba olmayabilir; Norse kentler
+1061	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:161	Tralee	s	ingiltere	1603-03-30	1922-12-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sını
+1062	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:161	Tralee	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+1063	BOS	data/yerlesimler_avrupa.js:161	Tralee	s	irlanda	1281-01-01	1603-03-30	
+1064	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:161	Tralee	s	irlanda	1000-01-01	1281-01-01	irlanda künyesi (İrlanda Gal Beylikleri ve Krallığı, 1000-1603). BEYANLI YAKLAŞIKLIK: nokta bölge temsilcisidir (yer o devirde kasaba olmayabilir; Norse kentler
+1065	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:171	Quimper	s	fransa	1532-08-13	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1066	BOS	data/yerlesimler_avrupa.js:171	Quimper	s	bretanya	1281-01-01	1532-08-13	
+1067	BOS	data/yerlesimler_avrupa.js:171	Quimper	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1068	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:176	Rouen	s	fransa	1449-10-29	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1069	BOS	data/yerlesimler_avrupa.js:176	Rouen	s	fransa	1281-01-01	1419-01-19	
+1070	BOS	data/yerlesimler_avrupa.js:176	Rouen	s	ingiltere	1419-01-19	1449-10-29	
+1071	BOS	data/yerlesimler_avrupa.js:176	Rouen	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1072	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:182	Calais	s	fransa	1558-01-07	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1073	BOS	data/yerlesimler_avrupa.js:182	Calais	s	fransa	1281-01-01	1347-08-03	
+1074	BOS	data/yerlesimler_avrupa.js:182	Calais	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1075	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:195	Orléans	s	fransa	1281-01-01	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1076	BOS	data/yerlesimler_avrupa.js:195	Orléans	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1077	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:198	Angers	s	fransa	1281-01-01	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1078	BOS	data/yerlesimler_avrupa.js:198	Angers	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1079	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:198	Angers	s	anjou-kontlugu	1000-01-01	1204-01-01	Treccani Enciclopedia on line, Angers maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/; ham metin ham/tre_angers.txt; TDV dı
+1080	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:202	Périgueux	s	fransa	1281-01-01	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1081	BOS	data/yerlesimler_avrupa.js:202	Périgueux	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1082	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:207	Limoges	s	fransa	1370-01-01	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» 
+1083	BOS	data/yerlesimler_avrupa.js:207	Limoges	s	fransa	1281-01-01	1360-10-24	
+1084	BOS	data/yerlesimler_avrupa.js:207	Limoges	s	ingiltere	1360-10-24	1370-01-01	
+1085	BOS	data/yerlesimler_avrupa.js:207	Limoges	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+1086	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:223	Colmar	s	fransa-cumhuriyet	1792-09-22	1871-05-10	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu» (
+1087	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:223	Colmar	isg	almanya	1870-10-12	1871-05-10	BEYANLI YAKLAŞIKLIK: J. Sée, Journal d'un habitant de Colmar (1884): Baden birlikleri 14 Eylül 1870'te girdi (s.134), 15 Eylül çekildi (geçici); 15 Ekim girişi 
+1088	BOS	data/yerlesimler_avrupa.js:223	Colmar	s	fransa-cumhuriyet	1918-11-18	1940-08-02	
+1089	DIGER	data/yerlesimler_avrupa.js:223	Colmar	s	almanya	1281-01-01	1679-01-01	Colmar Dekapol özgür imparatorluk şehri; Vestfalya (1648) Alsas'taki imparatorluk haklarını belirsiz bıraktı, Ağustos 1673 Fransız işgalinin akademik gün kaynağ
+1090	DIGER	data/yerlesimler_avrupa.js:223	Colmar	s	fransa	1679-01-01	1792-09-22	Nijmegen barışı (1679, YIL) ile Fransız egemenliği; Rijswijk (1697) teyit — EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.29, 0052/H-0098)
+1091	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:223	Colmar	s	almanya	1940-08-02	1945-02-02	FRANSA-KONTROL (29 Ekim 2026): FİİLÎ İLHAK (antlaşmasız) — Grandhomme, Revue d'Allemagne 46-2 (2014) 'La mise au pas de l'Alsace-Moselle en 1940-1942': Alsace-M
+1092	BOS	data/yerlesimler_avrupa.js:223	Colmar	s	fransa-cumhuriyet	1945-02-02	2000-12-31	
+1093	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:247	Montpellier	s	fransa	1349-04-18	1792-09-22	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «VI. Philippe Montpellier'yi Mayorka kralından satın aldı»
+1094	BOS	data/yerlesimler_avrupa.js:247	Montpellier	s	fransa-cumhuriyet	1792-09-22	2000-12-31	

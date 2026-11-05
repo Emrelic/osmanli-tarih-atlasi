@@ -1,0 +1,3114 @@
+{
+ "kayitlar": [
+  {
+   "ad": "Cottbus",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "almanya-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1949-10-07",
+   "kur": "1949-10-07",
+   "f_geri": {
+    "kurulus": "1156-01-01",
+    "hukum": "ONERI",
+    "kaynak": "lex.dk 'Cottbus' (WebFetch) yıl vermiyor; 1156 ilk anılış bilgi — KAYNAK ÇEKİLEMEDİ",
+    "alinti": "Cottbus blev anlagt af venderne i 700-tallet [alıntı özetten; ilk anılış yılı vermiyor]"
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "brandenburg-prusya",
+     "f": "1445-01-01",
+     "t": "1701-01-18",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "bilgi (Brandenburg'un Cottbus'u alışı 1445; kaynaksız) — DOĞRULAMA BORCU",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "prusya",
+     "f": "1701-01-18",
+     "t": "1871-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1871-01-18",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1949-10-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: 1156-1445 arası sahip künyesiz (Aşağı Lusatia / Meissen / Bohemya Tacı); 1807-1815 Saksonya/Tilsit dönemi kaynaksız. lex.dk 700-tallet = Slav kuruluşu, yıl yok. kur 1445'e ÇEKİLMEZ ancak 1445-1949 zinciri geri açılabilir (onay: Emre)."
+  },
+  {
+   "ad": "Frankfurt (Oder)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "almanya-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1949-10-07",
+   "kur": "1949-10-07",
+   "f_geri": {
+    "kurulus": "1253-01-01",
+    "hukum": "KAYNAKLI",
+    "kaynak": "lex.dk 'Frankfurt an der Oder' https://lex.dk/Frankfurt_an_der_Oder (sayfa.py ham, ON5 turu; bu turda yeniden okunmadı)",
+    "alinti": "Frankfurt an der Oder blev grundlagt i 1253"
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "brandenburg-markgrafligi",
+     "f": "1253-01-01",
+     "t": "1415-01-01",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "lex.dk Frankfurt_an_der_Oder (kuruluş yılı); brandenburg-markgrafligi künye f 1157 ≤ 1253 ✔",
+     "alinti": "Frankfurt an der Oder blev grundlagt i 1253",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "brandenburg-prusya",
+     "f": "1415-01-01",
+     "t": "1701-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "prusya",
+     "f": "1701-01-18",
+     "t": "1871-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1871-01-18",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Berlin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1949-10-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (Berlin Bildirisi 1945-06-05)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "ON5 (gece-117) EMRELİC onayı gece-118: F-GERİ 1253 onaylandı. uc=f: yalnız kuruluş yılı kaynaklı; yıl hassasiyeti."
+  },
+  {
+   "ad": "Karl-Marx-Stadt (Chemnitz)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "almanya-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1949-10-07",
+   "kur": "1949-10-07",
+   "f_geri": {
+    "kurulus": "1143-01-01",
+    "hukum": "ONERI",
+    "kaynak": "ilk anılış 1143 (bilgi; Bendiktin manastırı 1136) — KAYNAK ÇEKİLEMEDİ (lex.dk/Chemnitz 404)",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1143-01-01",
+     "t": "1308-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "bilgi — Reichsland Pleißen; kaynaksız",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "saksonya",
+     "f": "1308-01-01",
+     "t": "1918-11-13",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "bilgi — Wettin (Meissen) 1308 dolayı; Dresden/Leipzig kalıbı (saksonya→1918-11-13)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1918-11-13",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1949-10-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "1143 ve 1308 KAYNAKSIZ (bilgi). Kayıt adı Karl-Marx-Stadt (1953-1990). Zinciri onaylamadan önce akademik kaynak gerekir."
+  },
+  {
+   "ad": "Schwerin",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "almanya-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1949-10-07",
+   "kur": "1949-10-07",
+   "f_geri": {
+    "kurulus": "1160-01-01",
+    "hukum": "ONERI",
+    "kaynak": "lex.dk 'Schwerin' https://lex.dk/Schwerin (sayfa.py ham, ON5 turu)",
+    "alinti": "Henrik Løve i 1160 erobrede en vendisk borg på stedet"
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "saksonya-dukaligi",
+     "f": "1160-01-01",
+     "t": "1180-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Aslan Henrik 1160 Slav kalesini fethetti",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1180-01-01",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Rostock kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1949-10-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "BEYANLI ALT SINIR: Slav kalesi 1018 'Zuarin' daha eski (arama özeti). ON5'te EMRELİC 1160'ı onayladı. mecklenburg künyesi (1167-1918) sınıf sorusu: Schwerin kontluğu 1358'e dek Alman Krallığı, bu yüzden almanya."
+  },
+  {
+   "ad": "Codrington (Barbuda)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "antigua-barbuda",
+   "mevcut_ilk_f": "1981-11-01",
+   "kur": "1981-11-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Önceki tur (ON5) gibi: kuruluş ham kaynakla bulunamadı (Codrington ailesi kirası ~1685 bilgi, kaynaksız). Uygulanmaz."
+  },
+  {
+   "ad": "Oistins",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "barbados",
+   "mevcut_ilk_f": "1966-11-30",
+   "kur": "1966-11-30",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Speightstown",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "barbados",
+   "mevcut_ilk_f": "1966-11-30",
+   "kur": "1966-11-30",
+   "f_geri": {
+    "kurulus": "1630-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Speight adından; ~1630) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "barbados-ingiliz",
+     "f": "1630-01-01",
+     "t": "1966-11-30",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (barbados-ingiliz f 1627-02-17)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Yıl kaynaksız."
+  },
+  {
+   "ad": "Batı Berlin (Charlottenburg)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "berlin-bati",
+   "mevcut_ilk_f": "1948-12-07",
+   "kur": "1948-12-07",
+   "f_geri": {
+    "kurulus": "1705-01-01",
+    "hukum": "ONERI",
+    "kaynak": "Charlottenburg adı/kent 1705 (bilgi) — KAYNAK ÇEKİLEMEDİ; Lietzow köyü 1239 daha eski (kaynaksız)",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "prusya",
+     "f": "1705-01-01",
+     "t": "1871-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1871-01-18",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Berlin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1948-12-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Batı Berlin 1948-12-07 (berlin-bati künye f)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lietzow köyü (1239) ilk anılış olabilir: seçim Emre'nin (isim mi, yer mi). Kuruluş yılı kaynaksız."
+  },
+  {
+   "ad": "Spandau (Batı Berlin)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "berlin-bati",
+   "mevcut_ilk_f": "1948-12-07",
+   "kur": "1948-12-07",
+   "f_geri": {
+    "kurulus": "1197-01-01",
+    "hukum": "ONERI",
+    "kaynak": "ilk anılış 1197 (bilgi) — KAYNAK ÇEKİLEMEDİ; lex.dk 'Spandau' yalnız şehir hakkı 1232 verir",
+    "alinti": "Spandau fik byrettigheder i 1232, og i slutningen af 1200-tallet byggedes fæstningstårnet Juliusturm. [alıntı özetten; statü, kuruluş değil]"
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "brandenburg-markgrafligi",
+     "f": "1197-01-01",
+     "t": "1415-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Berlin kaydı (yerlesimler.js:1240) kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "brandenburg-prusya",
+     "f": "1415-01-01",
+     "t": "1701-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "prusya",
+     "f": "1701-01-18",
+     "t": "1871-01-18",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya",
+     "f": "1871-01-18",
+     "t": "1945-06-05",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Berlin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "almanya-muttefik-isgali",
+     "f": "1945-06-05",
+     "t": "1948-12-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Batı Berlin 1948-12-07 (berlin-bati künye f)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "1232 şehir hakkı (statü) ic_not. 1197 kaynaksız bilgi."
+  },
+  {
+   "ad": "Doboj",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "bosna-sirp-cumhuriyeti",
+   "mevcut_ilk_f": "1992-01-09",
+   "kur": "1992-01-09",
+   "f_geri": {
+    "kurulus": "1415-01-01",
+    "hukum": "ONERI",
+    "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Doboj'",
+    "alinti": "Srednjovjekovna utvrda prvi se put spominje 1415."
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "habsburg",
+     "f": "1908-10-05",
+     "t": "1918-11-12",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Tuzla (Bosna) kalıbı (avusturya→habsburg gerçek id)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "sirbistan-kralligi",
+     "f": "1918-11-12",
+     "t": "1918-12-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Tuzla kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya",
+     "f": "1918-12-01",
+     "t": "1945-11-29",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya-federal",
+     "f": "1945-11-29",
+     "t": "1992-01-09",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: 1415-1908 arası (Bosna Krallığı/Macar-Osmanlı çekişmesi, Osmanlı fethi tarihi, Avusturya isg 1878) kaynaksız; Osmanlı d: dönemi kaynakla tarihlenmeli. Yalnız 1908→1992 son kısım önerildi; bitişik: yugoslavya-federal t=1992-01-09 = Bosna Sırp Cumhuriyeti f. kur 1415'e ÇEKİLMEZ."
+  },
+  {
+   "ad": "Pale",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "bosna-sirp-cumhuriyeti",
+   "mevcut_ilk_f": "1992-01-09",
+   "kur": "1992-01-09",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Fiume (Rijeka)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "carnaro-naiplik",
+   "mevcut_ilk_f": "1920-09-08",
+   "kur": "1920-09-08",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Rijeka'",
+    "alinti": "na mjestu rimske Tarsatice, razvilo se novo naselje [kuruluş günü/yılı yok]"
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "habsburg",
+     "f": "1466-01-01",
+     "t": "1779-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Rijeka'",
+     "alinti": "od kojih su je 1466. preuzeli Habsburgovci.",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "macaristan-habsburg",
+     "f": "1779-01-01",
+     "t": "1918-11-16",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Rijeka'",
+     "alinti": "reskriptom Marije Terezije iz 1779. grad bio proglašen zasebnim tijelom pridruženim ugarskoj kruni.",
+     "not": "Corpus separatum Macaristan Tacı'na bağlı; gün yok (yıl)."
+    },
+    {
+     "alan": "s",
+     "d": "italya",
+     "f": "1918-11-16",
+     "t": "1920-09-08",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "bilgi — İtalyan işgali 1918-11-17; D'Annunzio 1919-09-12 (HE: 'Gabriele D'Annunzio okupirao grad')",
+     "alinti": "",
+     "not": "KÖPRÜ KARARI (BEYANLI): 1918-11-16→1920-09-08 künyeli sahip yok; italya künyesi İtalyan işgali nedeniyle önerildi (Fiume sorunu; Hırvat Ulusal Konseyi 1918-10-29). Emre kararı."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Fiume'nin kuruluş günü/yılı bulunamadı; 1466 Habsburg devri HE'den (yıl). Öncesi (Devin/Frankopan/Walsee) künyesiz. Zincir 1466'dan itibaren Habsburg→Macaristan Tacı→İtalya köprüsü→Carnaro ile bitişik."
+  },
+  {
+   "ad": "Ruijin (Jiangxi)",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "cin-sovyet-cumhuriyeti",
+   "mevcut_ilk_f": "1931-11-07",
+   "kur": "1931-11-07",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Askeran",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "daglik-karabag",
+   "mevcut_ilk_f": "1991-09-02",
+   "kur": "1991-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Ağdere (Martakert)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "daglik-karabag",
+   "mevcut_ilk_f": "1991-09-02",
+   "kur": "1991-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Hadrut",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "daglik-karabag",
+   "mevcut_ilk_f": "1991-09-02",
+   "kur": "1991-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Hankendi (Stepanakert)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "daglik-karabag",
+   "mevcut_ilk_f": "1991-09-02",
+   "kur": "1991-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Beli Manastir",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "dogu-slavonya-untaes",
+   "mevcut_ilk_f": "1996-01-15",
+   "kur": "1996-01-15",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Ilok",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "dogu-slavonya-untaes",
+   "mevcut_ilk_f": "1996-01-15",
+   "kur": "1996-01-15",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Vukovar",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "dogu-slavonya-untaes",
+   "mevcut_ilk_f": "1996-01-15",
+   "kur": "1996-01-15",
+   "f_geri": {
+    "kurulus": "1231-01-01",
+    "hukum": "ONERI",
+    "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Vukovar'",
+    "alinti": "kojemu je 1231. herceg Slavonije Koloman Arpadović dao povlastice slobodnoga kraljevskoga grada."
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "macaristan",
+     "f": "1231-01-01",
+     "t": "1526-09-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten]",
+     "alinti": "Tijekom vojnoga pohoda Sulejmana II. Kanunija prema Mohaču u ljeto 1526., osmanske su snage zauzele i Vukovar.",
+     "not": "Osijek kalıbı: macaristan→1526-09-01. 1231 STATÜ günü değil yılı: BEYANLI ALT SINIR (kuruluş X. yy 'Vukovo' tartışmalı)."
+    },
+    {
+     "alan": "d",
+     "d": null,
+     "f": "1526-09-01",
+     "t": "1687-09-29",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten]",
+     "alinti": "Osmanlije su pri povlačenju 1687. gotovo u potpunosti spalili grad.",
+     "not": "Osmanlı doğrudan (d:); çekiliş günü Osijek ile aynı varsayıldı (09-29), yerel gün bulunamadı."
+    },
+    {
+     "alan": "s",
+     "d": "macaristan-habsburg",
+     "f": "1687-09-29",
+     "t": "1918-11-16",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (Osijek kalıbı)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "macaristan-naiplik",
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Osijek kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya",
+     "f": "1920-06-04",
+     "t": "1945-11-29",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Osijek kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya-federal",
+     "f": "1945-11-29",
+     "t": "1991-06-25",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Osijek kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1991-06-25",
+     "t": "1996-01-15",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "de jure Hırvatistan; fiilî: Vukovar 1991-11-18'de JNA/Sırp kontrolüne geçti (RSK'ye bağlı). UNTAES 1996-01-15",
+     "alinti": "",
+     "not": "BEYANLI: de jure sahip. 1991-11-18→1996-01-15 fiilî idare künyesi yok (ayrı karar)."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Macar kralının 1231 imtiyazı STATÜdür; kuruluş değil (BEYANLI ALT SINIR). 'Vukovo (Valcou)' X. yy kalesi aynı yer mi belirsiz."
+  },
+  {
+   "ad": "Portsmouth (Dominika)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "dominika",
+   "mevcut_ilk_f": "1978-11-03",
+   "kur": "1978-11-03",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Önceki tur (ON5) gibi kaynaksız; uygulanmaz."
+  },
+  {
+   "ad": "La Unión (El Salvador)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "el-salvador-cumhuriyeti",
+   "mevcut_ilk_f": "1841-01-01",
+   "kur": "1841-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "San Miguel (El Salvador)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "el-salvador-cumhuriyeti",
+   "mevcut_ilk_f": "1841-01-01",
+   "kur": "1841-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "San Salvador",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "el-salvador-cumhuriyeti",
+   "mevcut_ilk_f": "1841-01-01",
+   "kur": "1841-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Santa Ana (El Salvador)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "el-salvador-cumhuriyeti",
+   "mevcut_ilk_f": "1841-01-01",
+   "kur": "1841-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Klaksvík",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "feroe-adalari",
+   "mevcut_ilk_f": "1948-04-01",
+   "kur": "1948-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Vágur",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "feroe-adalari",
+   "mevcut_ilk_f": "1948-04-01",
+   "kur": "1948-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Malolos",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "filipin-malolos-cumhuriyeti",
+   "mevcut_ilk_f": "1899-01-23",
+   "kur": "1899-01-23",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Terijoki (Zelenogorsk)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "finlandiya-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1939-12-01",
+   "kur": "1939-12-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Adelaide",
+   "dosya": "yerlesimler_ek30.js",
+   "ilk_kunye": "guney-avustralya",
+   "mevcut_ilk_f": "1836-12-28",
+   "kur": "1836-12-28",
+   "f_geri": {
+    "kurulus": "1836-12-28",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (koloni ilanı 1836-12-28; şehir yeri Light 1837-01) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": true,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "kur DOĞRU olabilir: koloni ilan günü = künye f; ama şehir alanı Ocak 1837'de seçildi (f İLERİ olabilir). F-GERİ değil."
+  },
+  {
+   "ad": "Java (Dzau)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "guney-osetya",
+   "mevcut_ilk_f": "1992-05-29",
+   "kur": "1992-05-29",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Tskhinvali (Çinvali)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "guney-osetya",
+   "mevcut_ilk_f": "1992-05-29",
+   "kur": "1992-05-29",
+   "f_geri": {
+    "kurulus": "1398-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (ilk anılış 1398; Gürcü kroniği) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "gurcistan",
+     "f": "1398-01-01",
+     "t": "1484-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "kartli-kralligi",
+     "f": "1484-01-01",
+     "t": "1762-01-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "gurcistan",
+     "f": "1762-01-01",
+     "t": "1801-09-12",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1801-09-12",
+     "t": "1917-03-15",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "rusya-gecici-hukumet",
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "transkafkasya",
+     "f": "1917-11-07",
+     "t": "1918-05-26",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "gurcistan-demokratik-cumhuriyeti",
+     "f": "1918-05-26",
+     "t": "1921-02-25",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "sovyet-rusya",
+     "f": "1921-02-25",
+     "t": "1991-04-09",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Gori kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "gurcistan-cumhuriyeti",
+     "f": "1991-04-09",
+     "t": "1992-05-29",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "de jure Gürcistan; 1990-92 Güney Osetya Özerk Oblastı/Cumhuriyeti ilanı (künye f 1992-05-29)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "1398 kaynaksız bilgi. Gori kalıbı kopyalandı; rakip hükûmet 1918-21 Güney Osetya ayrıntısı yok."
+  },
+  {
+   "ad": "Znaur",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "guney-osetya",
+   "mevcut_ilk_f": "1992-05-29",
+   "kur": "1992-05-29",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Gonaïves",
+   "dosya": "yerlesimler_a78_amerika.js",
+   "ilk_kunye": "haiti",
+   "mevcut_ilk_f": "1804-01-01",
+   "kur": "1804-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Posušje",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "herzeg-bosna",
+   "mevcut_ilk_f": "1991-11-18",
+   "kur": "1991-11-18",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Vitez",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "herzeg-bosna",
+   "mevcut_ilk_f": "1991-11-18",
+   "kur": "1991-11-18",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Çapljina (Čapljina)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "herzeg-bosna",
+   "mevcut_ilk_f": "1991-11-18",
+   "kur": "1991-11-18",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Grozni (Groznıy)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ickerya",
+   "mevcut_ilk_f": "1991-11-01",
+   "kur": "1991-11-01",
+   "f_geri": {
+    "kurulus": "1818-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Yermolov kalesi 1818; gün: ONERI-gün BULUNAMADI) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1818-01-01",
+     "t": "1917-03-15",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye rusya t 1917-03-15",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "rusya-gecici-hukumet",
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "sovyet-rusya",
+     "f": "1917-11-07",
+     "t": "1991-11-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu); Çeçen-İnguş 1991-11-01 ilanı; 1918-20 Kafkas Emirliği/Beyaz Ordu dönemi ayrıca",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Gün yok (yıl hassasiyeti). Grozni UC103'te son ucu çözüldü; yalnız ilk uç."
+  },
+  {
+   "ad": "Gudermes",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ickerya",
+   "mevcut_ilk_f": "1991-11-01",
+   "kur": "1991-11-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Urus-Martan",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ickerya",
+   "mevcut_ilk_f": "1991-11-01",
+   "kur": "1991-11-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Şali (Shali)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ickerya",
+   "mevcut_ilk_f": "1991-11-01",
+   "kur": "1991-11-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Montgomery",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "konfedere-devletler",
+   "mevcut_ilk_f": "1861-02-08",
+   "kur": "1861-02-08",
+   "f_geri": {
+    "kurulus": "1819-12-03",
+    "hukum": "ONERI",
+    "kaynak": "Alabama Department of Archives & History (bilgi): East Alabama + New Philadelphia 1817 kuruluş; Montgomery belediye 1819-12-03 — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "abd",
+     "f": "1819-12-03",
+     "t": "1861-02-08",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "abd künye f 1776-07-04 ✔; Alabama devleti 1819-12-14",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "BEYANLI ALT SINIR: 1819-12-03 belediye statüsü; yerleşim 1817'den (kaynaksız). Alabama 1861-01-11 ayrılışı: konfedere künye f 02-08 ile bitişik, ara 4 hafta abd (Alabama ayrılığı) — Emre'nin Konfedere kararı geçerli."
+  },
+  {
+   "ad": "Gilan (Gjilan)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosova-golge-cumhuriyeti",
+   "mevcut_ilk_f": "1991-09-22",
+   "kur": "1991-09-22",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Mitroviça (Mitrovicë)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosova-golge-cumhuriyeti",
+   "mevcut_ilk_f": "1991-09-22",
+   "kur": "1991-09-22",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Cartago (Kosta Rika)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosta-rika-cumhuriyeti",
+   "mevcut_ilk_f": "1838-01-01",
+   "kur": "1838-01-01",
+   "f_geri": {
+    "kurulus": "1563-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Juan Vázquez de Coronado, 1563) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "yeni-ispanya",
+     "f": "1563-01-01",
+     "t": "1609-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye yeni-ispanya 1535-1821; Guatemala Genel Kaptanlığı öncesi (ONERI-KARAR)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "guatemala-kaptanligi",
+     "f": "1609-01-01",
+     "t": "1821-09-15",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "guatemala",
+     "f": "1821-09-15",
+     "t": "1823-07-01",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "künye f 1821-09-15 = Orta Amerika Bağımsızlık Bildirisi; Kosta Rika 1822 Meksika İmparatorluğu katılımı kaynaksız (BEYANLI)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "orta-amerika-federasyonu",
+     "f": "1823-07-01",
+     "t": "1838-01-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (federasyon t 1838-05-30; Kosta Rika 1838-01-01 künyesine dek)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Yıl kaynaksız. 1563→1609 sahibi: Kaptanlık künyesi 1609'dan; öncesi Yeni İspanya'ya bağlı Guatemala Audiencia'sı (karar)."
+  },
+  {
+   "ad": "Limón (Puerto Limón)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosta-rika-cumhuriyeti",
+   "mevcut_ilk_f": "1838-01-01",
+   "kur": "1838-01-01",
+   "f_geri": {
+    "kurulus": "1871-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (liman ~1870-71) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Yerleşim 1838'de YOK (kuruluş ~1870-71): f İLERİ gider (merdiven ④); öncül zincir gerekmez. Kaynak çekilemedi; Kosta Rika künyesi zaten sahip."
+  },
+  {
+   "ad": "Puntarenas",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosta-rika-cumhuriyeti",
+   "mevcut_ilk_f": "1838-01-01",
+   "kur": "1838-01-01",
+   "f_geri": {
+    "kurulus": "1814-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (liman 1814) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "guatemala-kaptanligi",
+     "f": "1814-01-01",
+     "t": "1821-09-15",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "guatemala",
+     "f": "1821-09-15",
+     "t": "1823-07-01",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "künye f 1821-09-15 = Orta Amerika Bağımsızlık Bildirisi; Kosta Rika 1822 Meksika İmparatorluğu katılımı kaynaksız (BEYANLI)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "orta-amerika-federasyonu",
+     "f": "1823-07-01",
+     "t": "1838-01-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (federasyon t 1838-05-30; Kosta Rika 1838-01-01 künyesine dek)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Yıl kaynaksız."
+  },
+  {
+   "ad": "San José (Kosta Rika)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kosta-rika-cumhuriyeti",
+   "mevcut_ilk_f": "1838-01-01",
+   "kur": "1838-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Keningau",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kuzey-borneo-tac-kolonisi",
+   "mevcut_ilk_f": "1946-07-15",
+   "kur": "1946-07-15",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Hsinking (Changchun)",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "mancukuo",
+   "mevcut_ilk_f": "1932-03-09",
+   "kur": "1932-03-09",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Ngāruawāhia",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "maori-kingitanga",
+   "mevcut_ilk_f": "1858-01-01",
+   "kur": "1858-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Melekeok (Babeldaob)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "palau",
+   "mevcut_ilk_f": "1981-01-01",
+   "kur": "1981-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Balboa Heights (Panama Kanalı İdaresi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "panama-kanali-bolgesi",
+   "mevcut_ilk_f": "1904-02-26",
+   "kur": "1904-02-26",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Cristóbal (Colón limanı, Kanal Bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "panama-kanali-bolgesi",
+   "mevcut_ilk_f": "1904-02-26",
+   "kur": "1904-02-26",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Bandung",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pasundan-devleti",
+   "mevcut_ilk_f": "1948-02-26",
+   "kur": "1948-02-26",
+   "f_geri": {
+    "kurulus": "1810-09-25",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Daendels kararı 25 Eylül 1810; kent hari doğum günü) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "hollanda-dogu-hint",
+     "f": "1810-09-25",
+     "t": "1948-02-26",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu) (künye t 1949-12-27)",
+     "alinti": "",
+     "not": "1942-03-08→1945: Japon işgali (isg japonya ayrı); 1945-08-17 Endonezya ilanı fiilî: Bandung 1946 Hollanda. de jure Hollanda BEYANLI. Pasundan 1948-02-26 Hollandalı yarı özerk devlet."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Gün kaynaksız. 1810 öncesi Bandung (Krapyak) yerleşimi var; 25 Eylül 1810 yeni kent kararı (taşınma)."
+  },
+  {
+   "ad": "Sukabumi",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pasundan-devleti",
+   "mevcut_ilk_f": "1948-02-26",
+   "kur": "1948-02-26",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Tasikmalaya",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pasundan-devleti",
+   "mevcut_ilk_f": "1948-02-26",
+   "kur": "1948-02-26",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Phongsali",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pathet-lao-hukumeti",
+   "mevcut_ilk_f": "1950-08-13",
+   "kur": "1950-08-13",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Vieng Xai",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pathet-lao-hukumeti",
+   "mevcut_ilk_f": "1950-08-13",
+   "kur": "1950-08-13",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Xam Nua (Sam Neua)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "pathet-lao-hukumeti",
+   "mevcut_ilk_f": "1950-08-13",
+   "kur": "1950-08-13",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Hirara (Miyakojima)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ryukyu-abd-idaresi",
+   "mevcut_ilk_f": "1945-04-01",
+   "kur": "1945-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş bulunamadı; öncül zincir yazılmadı. Aday: ryukyu (1429-01-01→1879-03-27) → meiji-japonya 1879-03-27→1945-04-01; kuruluş kaynağı gelince."
+  },
+  {
+   "ad": "Ishigaki",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ryukyu-abd-idaresi",
+   "mevcut_ilk_f": "1945-04-01",
+   "kur": "1945-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş bulunamadı; öncül zincir yazılmadı. Aday: ryukyu (1429-01-01→1879-03-27) → meiji-japonya 1879-03-27→1945-04-01; kuruluş kaynağı gelince."
+  },
+  {
+   "ad": "Nago",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ryukyu-abd-idaresi",
+   "mevcut_ilk_f": "1945-04-01",
+   "kur": "1945-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş bulunamadı; öncül zincir yazılmadı. Aday: ryukyu (1429-01-01→1879-03-27) → meiji-japonya 1879-03-27→1945-04-01; kuruluş kaynağı gelince."
+  },
+  {
+   "ad": "Naha",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ryukyu-abd-idaresi",
+   "mevcut_ilk_f": "1945-04-01",
+   "kur": "1945-04-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş bulunamadı; öncül zincir yazılmadı. Aday: ryukyu (1429-01-01→1879-03-27) → meiji-japonya 1879-03-27→1945-04-01; kuruluş kaynağı gelince."
+  },
+  {
+   "ad": "Vieux Fort",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "saint-lucia",
+   "mevcut_ilk_f": "1979-02-22",
+   "kur": "1979-02-22",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Port Elizabeth (Bequia)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "saint-vincent-grenadinler",
+   "mevcut_ilk_f": "1979-10-27",
+   "kur": "1979-10-27",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Salo",
+   "dosya": "yerlesimler_nokta2.js",
+   "ilk_kunye": "salo-cumhuriyeti",
+   "mevcut_ilk_f": "1943-09-23",
+   "kur": "1943-09-23",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Apia",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "samoa-kralligi",
+   "mevcut_ilk_f": "1889-01-01",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Pago Pago",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "samoa-kralligi",
+   "mevcut_ilk_f": "1889-01-01",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Benkovac",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "sirp-krajina-cumhuriyeti",
+   "mevcut_ilk_f": "1991-12-19",
+   "kur": "1991-12-19",
+   "f_geri": {
+    "kurulus": "1449-01-01",
+    "hukum": "ONERI",
+    "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten] 'Benkovac'",
+    "alinti": "Mjesto se prvi put spominje 1449."
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "macaristan",
+     "f": "1449-01-01",
+     "t": "1527-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye macaristan t 1527-01-01; Hırvat-Macar (HE Osmanlı 1527 fethi)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": null,
+     "f": "1527-01-01",
+     "t": "1699-01-26",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Hrvatska enciklopedija (LZMK) [WebFetch özeti — alıntı özetten]",
+     "alinti": "Osmanlı fethi 1527, 1683-99 savaşına dek [özetten]",
+     "not": "Venedik'in fethi 1684-1699 arası; Karlofça günü sınır varsayıldı."
+    },
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1699-01-26",
+     "t": "1797-05-12",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye venedik t 1797-05-12 (Knin kayıtlarında 1797-10-17 Campo Formio kullanılıyor)",
+     "alinti": "",
+     "not": "HE: 1683-99 savaşından sonra kalıcı Venedik [özetten]."
+    },
+    {
+     "alan": "s",
+     "d": "habsburg",
+     "f": "1797-05-12",
+     "t": "1806-02-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı (avusturya→habsburg)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "italya-napolyon",
+     "f": "1806-02-01",
+     "t": "1809-10-14",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1809-10-14",
+     "t": "1813-01-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "habsburg",
+     "f": "1813-01-01",
+     "t": "1918-11-12",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı; habsburg t 1918-11-12",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "itilaf-emaneti",
+     "f": "1919-09-10",
+     "t": "1920-11-12",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya",
+     "f": "1920-11-12",
+     "t": "1945-11-29",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "yugoslavya-federal",
+     "f": "1945-11-29",
+     "t": "1991-06-25",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Knin kalıbı",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1991-06-25",
+     "t": "1991-12-19",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Knin kalıbı; RSK f 1991-12-19",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Şu an ÇIKAN zincir 1918-11-12→1919-09-10 aralığında KOPUK (habsburg t=1918-11-12 / itilaf f=1919-09-10; Knin kayıtlarında 'avusturya→1919-09-10' harita anahtarıyla kapatılıyor, künye yok). Kopuk uç: köprü kararı (sirbistan-kralligi/italya isg). HE özetten.",
+   "kopuk_aralik": "1918-11-12→1919-09-10"
+  },
+  {
+   "ad": "Glina",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "sirp-krajina-cumhuriyeti",
+   "mevcut_ilk_f": "1991-12-19",
+   "kur": "1991-12-19",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Korenica",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "sirp-krajina-cumhuriyeti",
+   "mevcut_ilk_f": "1991-12-19",
+   "kur": "1991-12-19",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Kalam (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "swat-devleti",
+   "mevcut_ilk_f": "1915-04-24",
+   "kur": "1915-04-24",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Madyan (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "swat-devleti",
+   "mevcut_ilk_f": "1915-04-24",
+   "kur": "1915-04-24",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Saidu Sharif",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "swat-devleti",
+   "mevcut_ilk_f": "1915-04-24",
+   "kur": "1915-04-24",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Kızıl (Hem-Beldir, Belotsarsk)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "tannu-tuva",
+   "mevcut_ilk_f": "1921-08-14",
+   "kur": "1921-08-14",
+   "f_geri": {
+    "kurulus": "1914-09-15",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Belotsarsk 1914-09-15) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1914-09-15",
+     "t": "1917-03-15",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye rusya",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "rusya-gecici-hukumet",
+     "f": "1917-03-15",
+     "t": "1917-11-07",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "sovyet-rusya",
+     "f": "1917-11-07",
+     "t": "1921-08-14",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "ARA DÖNEM 1918-1921 (Kolçak, Çin işgali 1919-21): künyeli sahip yok; Rusya Federasyonu mantığı BEYANLI",
+     "alinti": "",
+     "not": "ONERI-KARAR: Çin işgali/Kolçak rakip hükûmet kuralıyla ayrı tur."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Gün bilgisi kaynaksız. Rusya himayesi 1914-04-17 sonrası."
+  },
+  {
+   "ad": "Dubăsari (Dubossari)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "transdinyester",
+   "mevcut_ilk_f": "1990-09-02",
+   "kur": "1990-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Rîbnița (Rıbnitsa)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "transdinyester",
+   "mevcut_ilk_f": "1990-09-02",
+   "kur": "1990-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Slobozia (Transdinyester)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "transdinyester",
+   "mevcut_ilk_f": "1990-09-02",
+   "kur": "1990-09-02",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Tiraspol",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "transdinyester",
+   "mevcut_ilk_f": "1990-09-02",
+   "kur": "1990-09-02",
+   "f_geri": {
+    "kurulus": "1792-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (Suvorov kalesi 1792) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Zincir yazılmadı: 1918-1944 ara dönem (Ukrayna Devleti/Alman/Romanya Transnistria 1941-44) karar ister; sol yaka Moldova Kuzeyi Besarabya değil. Aday: rusya 1792→1917-03-15 → rusya-gecici → sovyet-rusya 1917-11-07→1990-09-02 (ONERI-KARAR)."
+  },
+  {
+   "ad": "Koper (Capodistria, B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "triyeste-serbest-toprak",
+   "mevcut_ilk_f": "1947-09-15",
+   "kur": "1947-09-15",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Umag (B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "triyeste-serbest-toprak",
+   "mevcut_ilk_f": "1947-09-15",
+   "kur": "1947-09-15",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Acman (Ajman)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "trucial-states",
+   "mevcut_ilk_f": "1820-01-01",
+   "kur": "1820-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı (~1816 bilgi)."
+  },
+  {
+   "ad": "Dubay (Dubai)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "trucial-states",
+   "mevcut_ilk_f": "1820-01-01",
+   "kur": "1820-01-01",
+   "f_geri": {
+    "kurulus": "1095-01-01",
+    "hukum": "ONERI",
+    "kaynak": "bilgi (el-Bekrî, Kitâbü'l-Mesâlik 1095'te 'Dubai' anılışı) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: 1095→1820 arası künyeli sahip yok (Hürmüz/Portekiz/Kasimî...); zincir yazılmadı; kur 1095'e ÇEKİLMEZ."
+  },
+  {
+   "ad": "Ummu'l-Kuveyn (Umm al-Quwain)",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "trucial-states",
+   "mevcut_ilk_f": "1820-01-01",
+   "kur": "1820-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı (~1768 bilgi, kaynaksız)."
+  },
+  {
+   "ad": "Bahlâ",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "umman-ic-imamlik",
+   "mevcut_ilk_f": "1913-01-01",
+   "kur": "1913-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Izkî",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "umman-ic-imamlik",
+   "mevcut_ilk_f": "1913-01-01",
+   "kur": "1913-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Beyan G31.5 B56.5",
+   "dosya": "yerlesimler_gamerika.js",
+   "ilk_kunye": "uruguay-cumhuriyeti",
+   "mevcut_ilk_f": "1828-08-27",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Bu kayıt gerçek yerleşim değil, 'Beyan' koordinat yer tutucusu (ad: Beyan G31.5 B56.5): F-GERİ konusu değil; kayıt incelenmeli (Uruguay kuzeyi). Kuruluş yok."
+  },
+  {
+   "ad": "Vatikan",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "vatikan",
+   "mevcut_ilk_f": "1929-06-07",
+   "kur": "1929-06-07",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "italya",
+     "f": "1870-09-20",
+     "t": "1929-06-07",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "künye italya 1861-03-17→1946-06-18; Roma'nın alınışı 1870-09-20 (Porta Pia; papalik künye t 1870-09-20)",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Vatikan tepesi antik (kuruluş yok); papalik 756→1870-09-20 sahip geçişi: papalik künyesi 756 ≤ ... ama kuruluş BULUNAMADI olduğundan yalnız 1870-1929 BEYANLI dilimi önerilir (Garantiler Kanunu 1871: Papa fiilî egemen — BEYANLI)."
+  },
+  {
+   "ad": "Vichy",
+   "dosya": "yerlesimler_nokta3.js",
+   "ilk_kunye": "vichy-fransasi",
+   "mevcut_ilk_f": "1940-07-10",
+   "kur": "1940-07-10",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Port Vila",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "yeni-hebridler-kondominyumu",
+   "mevcut_ilk_f": "1906-10-20",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Wellington",
+   "dosya": "yerlesimler_ek30.js",
+   "ilk_kunye": "yeni-zelanda",
+   "mevcut_ilk_f": "1840-02-06",
+   "kur": "1840-01-22",
+   "f_geri": {
+    "kurulus": "1840-01-22",
+    "hukum": "ONERI",
+    "kaynak": "atlas kur 1840-01-22 (NZ Company 'Aurora' gelişi; Te Ara bilgi) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "yeni-zelanda-birlesik-kabileler",
+     "f": "1840-01-22",
+     "t": "1840-02-06",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "künye birlesik-kabileler 1835-10-28→1840-02-06 ✔",
+     "alinti": "",
+     "not": "Waitangi öncesi 15 gün; bağımsızlık beyannamesi altında Maori sahibi (BEYANLI)."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Mevcut kur 1840-01-22 < ilk dilim f 1840-02-06: bu dilim kapatır (şu an sahipsiz!). Kuruluş = atlas kur (Te Ara doğrulanmadı)."
+  },
+  {
+   "ad": "Whanganui",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "yeni-zelanda",
+   "mevcut_ilk_f": "1840-02-06",
+   "kur": "1840-02-06",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Whangārei",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "yeni-zelanda",
+   "mevcut_ilk_f": "1840-02-06",
+   "kur": "1839-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": true,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "yeni-zelanda-birlesik-kabileler",
+     "f": "1839-01-01",
+     "t": "1840-02-06",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "atlas kur 1839-01-01 (yıl) ile bitişik",
+     "alinti": "",
+     "not": "kur 1839 kaynaksız; Avrupa yerleşimi 1839 varsayımı. Maori yerleşimi çok daha eski."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Atlas kur 1839-01-01 < f 1840-02-06 → şu an boşluk; BEYANLI birlesik-kabileler dilimi kapatır. Kuruluş kaynaksız."
+  },
+  {
+   "ad": "Waitangi (Bay of Islands)",
+   "dosya": "yerlesimler_a78_okyanusya.js",
+   "ilk_kunye": "yeni-zelanda-birlesik-kabileler",
+   "mevcut_ilk_f": "1835-10-28",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Espargos (Sal)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "yesilburun",
+   "mevcut_ilk_f": "1975-07-05",
+   "kur": "1975-07-05",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Mindelo",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "yesilburun",
+   "mevcut_ilk_f": "1975-07-05",
+   "kur": "1975-07-05",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Praia",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "yesilburun",
+   "mevcut_ilk_f": "1975-07-05",
+   "kur": "1975-07-05",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Grammos (DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "yunanistan-gecici-demokratik-hukumet",
+   "mevcut_ilk_f": "1947-12-24",
+   "kur": "1947-12-24",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Vitsi (Grammos-Vitsi, DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "yunanistan-gecici-demokratik-hukumet",
+   "mevcut_ilk_f": "1947-12-24",
+   "kur": "1947-12-24",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; uydurma yok. Öncül zincir yazılmadı."
+  },
+  {
+   "ad": "Mapimí",
+   "dosya": null,
+   "ilk_kunye": "",
+   "mevcut_ilk_f": "1825",
+   "kur": "1825-09-01",
+   "f_geri": {
+    "kurulus": "1598-01-01",
+    "hukum": "ONERI",
+    "kaynak": "LAB notu e4_LAB_050 (≈1598 maden kasabası; 1711 yeniden kuruluş) — KAYNAK ÇEKİLEMEDİ",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "yeni-ispanya",
+     "f": "1598-01-01",
+     "t": "1821-09-27",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye f/t sınırı (atlas künyesi; referans değil, kaynak borcu)",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "meksika",
+     "f": "1821-09-27",
+     "t": "1825-09-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "sahip geçişi (bağımsızlık); künye f 1821-09-27 ✔",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Yıl LAB notu; 1598 mi 1711 mi kaynaksız. Bitişik: meksika dilimi 1825-09-01'e kadar uzar."
+  },
+  {
+   "ad": "Marcapata",
+   "dosya": null,
+   "ilk_kunye": "",
+   "mevcut_ilk_f": "1869",
+   "kur": "1869-01-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "",
+    "alinti": ""
+   },
+   "f_geri_kismi": false,
+   "kur_dogru": false,
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kaynakla bulunamadı; öncül zincir yazılmadı (ispanyol-peru 1542-11-20→1824-12-09, peru-cumhuriyeti 1824-12-09→1869-01-20 adayı: kuruluş gelince)."
+  }
+ ],
+ "gruplar": {
+  "almanya-demokratik-cumhuriyeti": {
+   "okunan_kaynak": "lex.dk Cottbus/Spandau/Frankfurt/Schwerin (+ Chemnitz 404)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "ONERI": 3,
+    "KAYNAKLI": 1
+   }
+  },
+  "antigua-barbuda": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "barbados": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1,
+    "ONERI": 1
+   }
+  },
+  "berlin-bati": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "ONERI": 2
+   }
+  },
+  "bosna-sirp-cumhuriyeti": {
+   "okunan_kaynak": "Hrvatska enciklopedija Doboj",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 1
+   }
+  },
+  "carnaro-naiplik": {
+   "okunan_kaynak": "Hrvatska enciklopedija Rijeka",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "cin-sovyet-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "daglik-karabag": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "BULUNAMADI": 4
+   }
+  },
+  "dogu-slavonya-untaes": {
+   "okunan_kaynak": "Hrvatska enciklopedija Vukovar/Ilok/Beli Manastir",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2,
+    "ONERI": 1
+   }
+  },
+  "dominika": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "el-salvador-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "BULUNAMADI": 4
+   }
+  },
+  "feroe-adalari": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "filipin-malolos-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "finlandiya-demokratik-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "guney-avustralya": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "ONERI": 1
+   }
+  },
+  "guney-osetya": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2,
+    "ONERI": 1
+   }
+  },
+  "haiti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "herzeg-bosna": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 3
+   }
+  },
+  "ickerya": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 3
+   }
+  },
+  "konfedere-devletler": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "ONERI": 1
+   }
+  },
+  "kosova-golge-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "kosta-rika-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "ONERI": 3,
+    "BULUNAMADI": 1
+   }
+  },
+  "kuzey-borneo-tac-kolonisi": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "mancukuo": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "maori-kingitanga": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "palau": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "panama-kanali-bolgesi": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "pasundan-devleti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 2
+   }
+  },
+  "pathet-lao-hukumeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 3
+   }
+  },
+  "ryukyu-abd-idaresi": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "BULUNAMADI": 4
+   }
+  },
+  "saint-lucia": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "saint-vincent-grenadinler": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "salo-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "samoa-kralligi": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "sirp-krajina-cumhuriyeti": {
+   "okunan_kaynak": "Hrvatska enciklopedija Benkovac/Glina(nehir)/Korenica(nehir)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 2
+   }
+  },
+  "swat-devleti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 3
+   }
+  },
+  "tannu-tuva": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "ONERI": 1
+   }
+  },
+  "transdinyester": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 4,
+   "hukum_sayilari": {
+    "BULUNAMADI": 3,
+    "ONERI": 1
+   }
+  },
+  "triyeste-serbest-toprak": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "trucial-states": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2,
+    "ONERI": 1
+   }
+  },
+  "umman-ic-imamlik": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "uruguay-cumhuriyeti": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "vatikan": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "vichy-fransasi": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "yeni-hebridler-kondominyumu": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "yeni-zelanda": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 2
+   }
+  },
+  "yeni-zelanda-birlesik-kabileler": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 1,
+   "hukum_sayilari": {
+    "BULUNAMADI": 1
+   }
+  },
+  "yesilburun": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 3,
+   "hukum_sayilari": {
+    "BULUNAMADI": 3
+   }
+  },
+  "yunanistan-gecici-demokratik-hukumet": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "BULUNAMADI": 2
+   }
+  },
+  "EK": {
+   "okunan_kaynak": "kaynak çekilemedi / çekim yapılmadı (bilgi)",
+   "uygulanan_kayit_sayisi": 2,
+   "hukum_sayilari": {
+    "ONERI": 1,
+    "BULUNAMADI": 1
+   }
+  }
+ },
+ "ozet": {
+  "kayit": 102,
+  "grup": 50,
+  "kurulus_bulunan": 23,
+  "kurulus_bulunamadi": 79,
+  "kaynakli_kurulus": 1,
+  "zincirli_kayit": 22,
+  "d2_gerekli_kayit": 0,
+  "d2_madde": 0,
+  "kur_dogru": 1
+ },
+ "tarayici": [
+  "lex.dk/Chemnitz 404; enciklopedija.hr Glina/Korenica sayfaları nehir maddesi (yerleşim değil); teara.govt.nz/en/waitangi 403 (WebFetch)",
+  "D2 TARAMASI GEVŞEK: yalnız data/olaylar*.js ve kronoloji*.js içinde sınır gününün ±30 gününde HERHANGİ bir ISO tarih var mı bakıldı (konu eşleşmesi yok); d2_gerekli boş = kanıt değil. Yeni sınırlar (1445, 1308, 1466, 1779, 1918-11-16 Fiume köprüsü, 1527/1699 Benkovac, 1398 Gürcü, 1563/1609 Kosta Rika) için madde ihtiyacı elle değerlendirilmeli.",
+  "sayfa.py 'ham' lex.dk için HTML başlığı döndürdü; 'oku' ile anahtar bulunamadı (Cottbus)"
+ ],
+ "hatalar": []
+}

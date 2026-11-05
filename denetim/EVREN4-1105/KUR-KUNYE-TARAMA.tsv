@@ -1,0 +1,199 @@
+dosya	ad	lat	lon	ilk_kunye	ilk_f=kunye_f	kur	kur_durum	son_t	bit	son_delik	kunye_ad
+yerlesimler_afrika2.js	Banyo	6.75	11.82	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_afrika2.js	Garua (Garoua)	9.3	13.4	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_afrika2.js	Marua (Maroua)	10.59	14.32	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_afrika2.js	Ngaunder (Ngaoundéré)	7.32	13.58	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_afrika2.js	Rey Buba	8.67	14.18	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_afrika2.js	Tibati	6.47	12.63	adamava	1809-01-01	1809-01-01	kur=f	2000-12-31			Adamava Emirliği (Fumbina)
+yerlesimler_halef_1946.js	Akrotiri	34.585	32.958	akrotiri-dekelya	1960-08-16	1960-08-16	kur=f	2000-12-31			Akrotiri ve Dekelya Egemen Üs Bölgeleri
+yerlesimler_halef_1946.js	Episkopi	34.664	32.903	akrotiri-dekelya	1960-08-16	1960-08-16	kur=f	2000-12-31			Akrotiri ve Dekelya Egemen Üs Bölgeleri
+yerlesimler_halef_1946.js	Cottbus	51.763	14.334	almanya-demokratik-cumhuriyeti	1949-10-07	1949-10-07	kur=f	1990-10-03		D1 SON DELİK	Almanya Demokratik Cumhuriyeti (Doğu Almanya)
+yerlesimler_halef_1946.js	Frankfurt (Oder)	52.347	14.55	almanya-demokratik-cumhuriyeti	1949-10-07	1949-10-07	kur=f	1990-10-03		D1 SON DELİK	Almanya Demokratik Cumhuriyeti (Doğu Almanya)
+yerlesimler_halef_1946.js	Karl-Marx-Stadt (Chemnitz)	50.833	12.92	almanya-demokratik-cumhuriyeti	1949-10-07	1949-10-07	kur=f	1990-10-03		D1 SON DELİK	Almanya Demokratik Cumhuriyeti (Doğu Almanya)
+yerlesimler_halef_1946.js	Schwerin	53.635	11.401	almanya-demokratik-cumhuriyeti	1949-10-07	1949-10-07	kur=f	1990-10-03		D1 SON DELİK	Almanya Demokratik Cumhuriyeti (Doğu Almanya)
+yerlesimler_halef_1946.js	Codrington (Barbuda)	17.634	-61.826	antigua-barbuda	1981-11-01	1981-11-01	kur=f	2000-12-31			Antigua ve Barbuda
+yerlesimler_halef_1946.js	Oistins	13.067	-59.54	barbados	1966-11-30	1966-11-30	kur=f	2000-12-31			Barbados
+yerlesimler_halef_1946.js	Speightstown	13.252	-59.642	barbados	1966-11-30	1966-11-30	kur=f	2000-12-31			Barbados
+yerlesimler_afrika2.js	Maseru	-29.31	27.48	basuto	1822-01-01	1822-01-01	kur=f	2000-12-31			Basuto (Basotho) Krallığı
+yerlesimler_afrika2.js	Thaba Bosiu	-29.35	27.75	basuto	1822-01-01	1822-01-01	kur=f	2000-12-31			Basuto (Basotho) Krallığı
+yerlesimler_halef_1946.js	Batı Berlin (Charlottenburg)	52.507	13.332	berlin-bati	1948-12-07	1948-12-07	kur=f	1990-10-03		D1 SON DELİK	Batı Berlin (üç Müttefik sektörü, özel statü)
+yerlesimler_halef_1946.js	Spandau (Batı Berlin)	52.535	13.2	berlin-bati	1948-12-07	1948-12-07	kur=f	1990-10-03		D1 SON DELİK	Batı Berlin (üç Müttefik sektörü, özel statü)
+yerlesimler_halef_1946.js	Aba (Nijerya)	5.107	7.367	biafra	1967-05-30	1967-05-30	kur=f	1970-01-15		D1 SON DELİK	Biafra Cumhuriyeti
+yerlesimler_halef_1946.js	Enugu	6.441	7.499	biafra	1967-05-30	1967-05-30	kur=f	1967-10-04		D1 SON DELİK	Biafra Cumhuriyeti
+yerlesimler_halef_1946.js	Owerri	5.485	7.035	biafra	1967-05-30	1967-05-30	kur=f	1970-01-15		D1 SON DELİK	Biafra Cumhuriyeti
+yerlesimler_halef_1946.js	Umuahia	5.532	7.486	biafra	1967-05-30	1967-05-30	kur=f	1970-01-15		D1 SON DELİK	Biafra Cumhuriyeti
+yerlesimler_halef_1946.js	Ga-Rankuwa	-25.617	28.008	bophuthatswana	1977-12-06	1977-12-06	kur=f	1994-04-27		D1 SON DELİK	Bophuthatswana (Bantustan)
+yerlesimler_halef_1946.js	Doboj	44.731	18.087	bosna-sirp-cumhuriyeti	1992-01-09	1992-01-09	kur=f	1995-12-14		D1 SON DELİK	Sırp Cumhuriyeti (Republika Srpska)
+yerlesimler_halef_1946.js	Pale	43.815	18.573	bosna-sirp-cumhuriyeti	1992-01-09	1992-01-09	kur=f	1995-12-14		D1 SON DELİK	Sırp Cumhuriyeti (Republika Srpska)
+yerlesimler_nokta3.js	Fiume (Rijeka)	45.343	14.409	carnaro-naiplik	1920-09-08	1920-09-08	kur=f	2000-12-31			Carnaro İtalyan Naipliği (D'Annunzio)
+yerlesimler_nokta2.js	Ruijin (Jiangxi)	25.889	116.022	cin-sovyet-cumhuriyeti	1931-11-07	1931-11-07	kur=f	2000-12-31			Çin Sovyet Cumhuriyeti (Jiangxi)
+yerlesimler_halef_1946.js	Bisho	-32.847	27.442	ciskei	1981-12-04	1981-12-04	kur=f	1994-04-27		D1 SON DELİK	Ciskei (Bantustan)
+yerlesimler_halef_1946.js	Askeran	39.938	46.835	daglik-karabag	1991-09-02	1991-09-02	kur=f	2000-12-31			Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)
+yerlesimler_halef_1946.js	Ağdere (Martakert)	40.21	46.823	daglik-karabag	1991-09-02	1991-09-02	kur=f	2000-12-31			Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)
+yerlesimler_halef_1946.js	Hadrut	39.519	47.031	daglik-karabag	1991-09-02	1991-09-02	kur=f	2000-12-31			Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)
+yerlesimler_halef_1946.js	Hankendi (Stepanakert)	39.818	46.751	daglik-karabag	1991-09-02	1991-09-02	kur=f	2000-12-31			Dağlık Karabağ Cumhuriyeti (Artsakh; fiilî)
+yerlesimler_afrika2.js	Birao	10.28	22.79	darul-kuti	1890-01-01	1890-01-01	kur=f	2000-12-31			Dârü'l-Kûtî Sultanlığı (Senûsî)
+yerlesimler_afrika2.js	Ndele (Dâru'l-Kûtî)	8.41	20.65	darul-kuti	1890-01-01	1890-01-01	kur=f	2000-12-31			Dârü'l-Kûtî Sultanlığı (Senûsî)
+yerlesimler_afrika2.js	Uanda-Calle	8.9	22.78	darul-kuti	1890-01-01	1890-01-01	kur=f	2000-12-31			Dârü'l-Kûtî Sultanlığı (Senûsî)
+yerlesimler_halef_1946.js	Beli Manastir	45.77	18.61	dogu-slavonya-untaes	1996-01-15	1996-01-15	kur=f	1998-01-15		D1 SON DELİK	Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)
+yerlesimler_halef_1946.js	Ilok	45.223	19.372	dogu-slavonya-untaes	1996-01-15	1996-01-15	kur=f	1998-01-15		D1 SON DELİK	Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)
+yerlesimler_halef_1946.js	Vukovar	45.351	19.002	dogu-slavonya-untaes	1996-01-15	1996-01-15	kur=f	1998-01-15		D1 SON DELİK	Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)
+yerlesimler_halef_1946.js	Portsmouth (Dominika)	15.576	-61.457	dominika	1978-11-03	1978-11-03	kur=f	2000-12-31			Dominika Milletler Topluluğu
+yerlesimler_halef_1946.js	Bata	1.865	9.766	ekvator-ginesi	1968-10-12	1968-10-12	kur=f	2000-12-31			Ekvator Ginesi Cumhuriyeti
+yerlesimler_halef_1946.js	La Unión (El Salvador)	13.337	-87.843	el-salvador-cumhuriyeti	1841-01-01	1841-01-01	kur=f	2000-12-31			El Salvador Cumhuriyeti
+yerlesimler_halef_1946.js	San Miguel (El Salvador)	13.48	-88.177	el-salvador-cumhuriyeti	1841-01-01	1841-01-01	kur=f	2000-12-31			El Salvador Cumhuriyeti
+yerlesimler_halef_1946.js	San Salvador	13.698	-89.191	el-salvador-cumhuriyeti	1841-01-01	1841-01-01	kur=f	2000-12-31			El Salvador Cumhuriyeti
+yerlesimler_halef_1946.js	Santa Ana (El Salvador)	13.972	-89.561	el-salvador-cumhuriyeti	1841-01-01	1841-01-01	kur=f	2000-12-31			El Salvador Cumhuriyeti
+yerlesimler_halef_1946.js	Nador	35.174	-2.937	fas-ispanyol-himayesi	1912-11-27	1912-11-27	kur=f	1956-04-07		D1 SON DELİK	Fas İspanyol Himayesi (Kuzey bölgesi)
+yerlesimler_halef_1946.js	Klaksvík	62.2272	-6.5811	feroe-adalari	1948-04-01	1948-04-01	kur=f	2000-12-31			Faroe Adaları (Danimarka içinde özerk)
+yerlesimler_halef_1946.js	Vágur	61.474	-6.811	feroe-adalari	1948-04-01	1948-04-01	kur=f	2000-12-31			Faroe Adaları (Danimarka içinde özerk)
+yerlesimler_nokta2.js	Malolos	14.844	120.811	filipin-malolos-cumhuriyeti	1899-01-23	1899-01-23	kur=f	2000-12-31			Filipinler Birinci (Malolos) Cumhuriyeti
+yerlesimler_nokta3.js	Terijoki (Zelenogorsk)	60.2008	29.7022	finlandiya-demokratik-cumhuriyeti	1939-12-01	1939-12-01	kur=f	2000-12-31			Finlandiya Demokratik Cumhuriyeti (Terijoki)
+yerlesimler_halef_1946.js	Brazzaville	-4.269	15.271	fransiz-ekvator-afrikasi	1910-01-15	1910-01-15	kur=f	1958-01-01		D1 SON DELİK	Fransız Ekvator Afrikası (AEF)
+yerlesimler_halef_1946.js	Atakpamé	7.533	1.133	fransiz-togo	1922-07-20	1922-07-20	kur=f	1960-04-27		D1 SON DELİK	Fransız Togosu (Mandat → Vesayet)
+yerlesimler_halef_1946.js	Kara (Togo)	9.551	1.187	fransiz-togo	1922-07-20	1922-07-20	kur=f	1960-04-27		D1 SON DELİK	Fransız Togosu (Mandat → Vesayet)
+yerlesimler_halef_1946.js	Lomé	6.131	1.223	fransiz-togo	1922-07-20	1922-07-20	kur=f	1960-04-27		D1 SON DELİK	Fransız Togosu (Mandat → Vesayet)
+yerlesimler_halef_1946.js	Sokodé	8.983	1.133	fransiz-togo	1922-07-20	1922-07-20	kur=f	1960-04-27		D1 SON DELİK	Fransız Togosu (Mandat → Vesayet)
+yerlesimler_afrika2.js	Griquatown	-28.85	23.26	griqua	1804-01-01	1804-01-01	kur=f	2000-12-31			Griqua Devletleri (Griqualand Batı ve Doğu)
+yerlesimler_afrika2.js	Philippolis	-30.27	25.28	griqua	1804-01-01	1804-01-01	kur=f	2000-12-31			Griqua Devletleri (Griqualand Batı ve Doğu)
+yerlesimler_ek30.js	Adelaide	-34.9285	138.6007	guney-avustralya	1836-12-28	1836-12-28	kur=f	2000-12-31			Güney Avustralya Kolonisi
+yerlesimler_halef_1946.js	Java (Dzau)	42.39	43.923	guney-osetya	1992-05-29	1992-05-29	kur=f	2000-12-31			Güney Osetya (fiilî)
+yerlesimler_halef_1946.js	Tskhinvali (Çinvali)	42.226	43.97	guney-osetya	1992-05-29	1992-05-29	kur=f	2000-12-31			Güney Osetya (fiilî)
+yerlesimler_halef_1946.js	Znaur	42.225	43.736	guney-osetya	1992-05-29	1992-05-29	kur=f	2000-12-31			Güney Osetya (fiilî)
+yerlesimler_halef_1946.js	Juba	4.855	31.605	guney-sudan-ozerk-bolge	1972-02-27	1972-02-27	kur=f	1983-06-05		D1 SON DELİK	Güney Sudan Özerk Bölgesi (Addis Ababa Anlaşması)
+yerlesimler_a78_amerika.js	Gonaïves	19.4461	-72.6884	haiti	1804-01-01	1804-01-01	kur=f	2000-12-31			Haiti Cumhuriyeti
+yerlesimler_afrika2.js	Kalenga (Hehe)	-7.79	35.62	hehe	1850-01-01	1850-01-01	kur=f	2000-12-31			Hehe Krallığı
+yerlesimler_halef_1946.js	Posušje	43.471	17.327	herzeg-bosna	1991-11-18	1991-11-18	kur=f	1996-08-14		D1 SON DELİK	Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)
+yerlesimler_halef_1946.js	Vitez	44.151	17.792	herzeg-bosna	1991-11-18	1991-11-18	kur=f	1996-08-14		D1 SON DELİK	Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)
+yerlesimler_halef_1946.js	Çapljina (Čapljina)	43.113	17.705	herzeg-bosna	1991-11-18	1991-11-18	kur=f	1996-08-14		D1 SON DELİK	Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)
+yerlesimler_afrika2.js	İbadan	7.38	3.9	ibadan	1829-01-01	1829-01-01	kur=f	2000-12-31			İbadan Devleti
+yerlesimler_halef_1946.js	Grozni (Groznıy)	43.309	45.707	ickerya	1991-11-01	1991-11-01	kur=f	2000-02-06		D1 SON DELİK	Çeçenistan Içkerya Cumhuriyeti (fiilî)
+yerlesimler_halef_1946.js	Gudermes	43.349	46.096	ickerya	1991-11-01	1991-11-01	kur=f	2000-02-06		D1 SON DELİK	Çeçenistan Içkerya Cumhuriyeti (fiilî)
+yerlesimler_halef_1946.js	Urus-Martan	43.133	45.538	ickerya	1991-11-01	1991-11-01	kur=f	2000-02-06		D1 SON DELİK	Çeçenistan Içkerya Cumhuriyeti (fiilî)
+yerlesimler_halef_1946.js	Şali (Shali)	43.154	45.907	ickerya	1991-11-01	1991-11-01	kur=f	2000-02-06		D1 SON DELİK	Çeçenistan Içkerya Cumhuriyeti (fiilî)
+yerlesimler_halef_1946.js	Bamenda	5.959	10.146	ingiliz-kamerun	1922-07-20	1922-07-20	kur=f	1961-10-01		D1 SON DELİK	İngiliz Kamerunu (Mandat → Vesayet)
+yerlesimler_halef_1946.js	Buea	4.153	9.243	ingiliz-kamerun	1922-07-20	1922-07-20	kur=f	1961-10-01		D1 SON DELİK	İngiliz Kamerunu (Mandat → Vesayet)
+yerlesimler_halef_1946.js	Kumba	4.636	9.446	ingiliz-kamerun	1922-07-20	1922-07-20	kur=f	1961-10-01		D1 SON DELİK	İngiliz Kamerunu (Mandat → Vesayet)
+yerlesimler_h2_afrika.js	Akobo	7.788	33.033	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Aveyl	8.767	27.4	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Bentiu	9.242	29.803	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Bor	6.208	31.558	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Deym Zübeyr	7.7	26.217	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Fangak	9.07	30.883	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Gondokoro	4.9	31.65	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Kapoeta	4.767	33.591	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Ler	8.3	30.14	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Maridi	4.917	29.467	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Meşra er-Rek	8.417	29.283	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Nimule	3.6	32.058	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Nâsir	8.608	33.067	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Pibor	6.8	33.133	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Rağa	8.46	25.68	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Rumbek	6.8	29.678	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Tembura	5.61	27.47	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Tonc	6.95	28.683	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Torit	4.412	32.57	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Vav	7.702	27.99	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_afrika.js	Vâdî Halfâ	21.802	31.352	ingiliz-sudani	1899-01-19	1813-03-06	kur farklı	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Yambio	4.572	28.395	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Yei	4.09	30.679	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_h2_afrika.js	Şembe	7.156	30.553	ingiliz-sudani	1899-01-19		kur yok	2000-12-31			İngiliz Sudanı (Anglo-Mısır Kondominyumu)
+yerlesimler_halef_1946.js	Manzini	-26.498	31.38	ingiliz-svaziland	1903-01-01	1903-01-01	kur=f	1968-09-06		D1 SON DELİK	Svaziland Himayesi (İngiliz)
+yerlesimler_halef_1946.js	Mbabane	-26.317	31.133	ingiliz-svaziland	1903-01-01	1903-01-01	kur=f	1968-09-06		D1 SON DELİK	Svaziland Himayesi (İngiliz)
+yerlesimler_halef_1946.js	Ho (Togoland)	6.601	0.471	ingiliz-togoland	1922-07-20	1922-07-20	kur=f	1957-03-06		D1 SON DELİK	İngiliz Togolandı (Mandat/Vesayet)
+yerlesimler_halef_1946.js	Hohoe	7.152	0.473	ingiliz-togoland	1922-07-20	1922-07-20	kur=f	1957-03-06		D1 SON DELİK	İngiliz Togolandı (Mandat/Vesayet)
+yerlesimler_halef_1946.js	Kpando	6.995	0.293	ingiliz-togoland	1922-07-20	1922-07-20	kur=f	1957-03-06		D1 SON DELİK	İngiliz Togolandı (Mandat/Vesayet)
+yerlesimler_halef_1946.js	Elisabethville (Lubumbashi)	-11.664	27.479	katanga	1960-07-11	1960-07-11	kur=f	2000-12-31			Katanga Devleti
+yerlesimler_halef_1946.js	Jadotville (Likasi)	-10.983	26.733	katanga	1960-07-11	1960-07-11	kur=f	2000-12-31			Katanga Devleti
+yerlesimler.js	Doha (Katar)	25.285	51.531	katar	1868-01-01	1825-01-01	kur farklı	2000-12-31			Katar (Âl Sânî Şeyhliği)
+yerlesimler_halef_1946.js	Güzelyurt (Morphou)	35.199	32.993	kibris-ingiliz-kolonisi	1914-11-05	1914-11-05	kur=f	2000-12-31			Kıbrıs (İngiliz ilhakı 1914 → Taç Kolonisi 1925)
+yerlesimler_halef_1946.js	Dikelya (Dhekelia)	34.991	33.733	kibris-ingiliz-ussler	1960-08-16	1960-08-16	kur=f	2000-12-31			Akrotiri ve Dikelya Egemen Üs Bölgeleri
+yerlesimler_nokta2.js	Montgomery	32.367	-86.3	konfedere-devletler	1861-02-08	1861-02-08	kur=f	2000-12-31			Amerika Konfedere Devletleri
+yerlesimler_afrika2.js	Bandundu	-3.31	17.38	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_afrika2.js	Basankusu	1.22	19.8	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_emilme.js	Boma	-5.85	13.05	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_emilme.js	Kisangani (Stanleyville)	0.515	25.191	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_afrika2.js	Luebo	-5.35	21.42	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_afrika2.js	Mbandaka	0.05	18.26	kongo-serbest-devleti	1885-01-01	1885-01-01	kur=f	2000-12-31			Kongo Serbest Devleti
+yerlesimler_halef_1946.js	Gilan (Gjilan)	42.464	21.469	kosova-golge-cumhuriyeti	1991-09-22	1991-09-22	kur=f	1999-06-10		D1 SON DELİK	Kosova Cumhuriyeti (gölge devlet, Rugova)
+yerlesimler_halef_1946.js	Mitroviça (Mitrovicë)	42.879	20.866	kosova-golge-cumhuriyeti	1991-09-22	1991-09-22	kur=f	1999-06-10		D1 SON DELİK	Kosova Cumhuriyeti (gölge devlet, Rugova)
+yerlesimler_halef_1946.js	Cartago (Kosta Rika)	9.864	-83.921	kosta-rika-cumhuriyeti	1838-01-01	1838-01-01	kur=f	2000-12-31			Kosta Rika Cumhuriyeti
+yerlesimler_halef_1946.js	Limón (Puerto Limón)	9.991	-83.03	kosta-rika-cumhuriyeti	1838-01-01	1838-01-01	kur=f	2000-12-31			Kosta Rika Cumhuriyeti
+yerlesimler_halef_1946.js	Puntarenas	9.977	-84.835	kosta-rika-cumhuriyeti	1838-01-01	1838-01-01	kur=f	2000-12-31			Kosta Rika Cumhuriyeti
+yerlesimler_halef_1946.js	San José (Kosta Rika)	9.933	-84.08	kosta-rika-cumhuriyeti	1838-01-01	1838-01-01	kur=f	2000-12-31			Kosta Rika Cumhuriyeti
+yerlesimler.js	Hadramut	15.5	48.5	kuayti-sultanligi	1881-01-01		kur yok	2000-12-31			Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)
+yerlesimler_halef_1946.js	Keningau	5.338	116.16	kuzey-borneo-tac-kolonisi	1946-07-15	1946-07-15	kur=f	1963-09-16		D1 SON DELİK	Kuzey Borneo Tâc Kolonisi (İngiliz, Labuan dahil)
+yerlesimler_afrika2.js	Dori	14.03	-0.03	liptako	1810-01-01	1810-01-01	kur=f	2000-12-31			Liptako Emirliği (Dori)
+yerlesimler_nokta2.js	Hsinking (Changchun)	43.884	125.318	mancukuo	1932-03-09	1932-03-09	kur=f	2000-12-31			Mançukuo
+yerlesimler_afrika2.js	Niangara (Mangbetu)	3.69	27.87	mangbetu	1815-01-01	1815-01-01	kur=f	2000-12-31			Mangbetu Krallığı
+yerlesimler_nokta2.js	Ngāruawāhia	-37.667	175.158	maori-kingitanga	1858-01-01	1858-01-01	kur=f	2000-12-31			Maori Krallığı (Kīngitanga)
+yerlesimler_afrika2.js	Bulavayo	-20.15	28.58	matabele	1840-01-01	1840-01-01	kur=f	2000-12-31			Matabele (Ndebele) Krallığı
+yerlesimler_afrika.js	Portsaid	31.257	32.284	misir-sultanligi	1914-12-18	1859-04-25	kur farklı	2000-12-31			Mısır Sultanlığı (İngiliz Himayesi)
+yerlesimler_afrika.js	İsmâiliye	30.588	32.271	misir-sultanligi	1914-12-18	1863-04-27	kur farklı	2000-12-31			Mısır Sultanlığı (İngiliz Himayesi)
+yerlesimler_afrika2.js	Njombe	-9.34	34.77	ngoni	1835-01-01	1835-01-01	kur=f	2000-12-31			Ngoni Devletleri
+yerlesimler_afrika2.js	Songea (Ngoni)	-10.68	35.65	ngoni	1835-01-01	1835-01-01	kur=f	2000-12-31			Ngoni Devletleri
+yerlesimler_halef_1946.js	Bangassou	4.741	22.818	orta-afrika-imparatorlugu	1976-12-04	1976-12-04	kur=f	1979-09-20		D1 SON DELİK	Orta Afrika İmparatorluğu (Bokassa)
+yerlesimler_halef_1946.js	Berbérati	4.261	15.792	orta-afrika-imparatorlugu	1976-12-04	1976-12-04	kur=f	1979-09-20		D1 SON DELİK	Orta Afrika İmparatorluğu (Bokassa)
+yerlesimler_halef_1946.js	Melekeok (Babeldaob)	7.5	134.624	palau	1981-01-01	1981-01-01	kur=f	2000-12-31			Palau Cumhuriyeti
+yerlesimler_halef_1946.js	Balboa Heights (Panama Kanalı İdaresi)	8.95	-79.55	panama-kanali-bolgesi	1904-02-26	1904-02-26	kur=f	1979-10-01		D1 SON DELİK	Panama Kanalı Bölgesi (ABD)
+yerlesimler_halef_1946.js	Cristóbal (Colón limanı, Kanal Bölgesi)	9.3485	-79.8987	panama-kanali-bolgesi	1904-02-26	1904-02-26	kur=f	1979-10-01		D1 SON DELİK	Panama Kanalı Bölgesi (ABD)
+yerlesimler_halef_1946.js	Bandung	-6.917	107.619	pasundan-devleti	1948-02-26	1948-02-26	kur=f	1950-03-11		D1 SON DELİK	Pasundan Devleti (Batı Cava)
+yerlesimler_halef_1946.js	Sukabumi	-6.927	106.93	pasundan-devleti	1948-02-26	1948-02-26	kur=f	1950-03-11		D1 SON DELİK	Pasundan Devleti (Batı Cava)
+yerlesimler_halef_1946.js	Tasikmalaya	-7.327	108.22	pasundan-devleti	1948-02-26	1948-02-26	kur=f	1950-03-11		D1 SON DELİK	Pasundan Devleti (Batı Cava)
+yerlesimler_halef_1946.js	Phongsali	21.683	102.113	pathet-lao-hukumeti	1950-08-13	1950-08-13	kur=f	2000-12-31			Pathet Lao (Neo Lao Issara) Direniş Hükûmeti
+yerlesimler_halef_1946.js	Vieng Xai	20.416	104.2	pathet-lao-hukumeti	1950-08-13	1950-08-13	kur=f	2000-12-31			Pathet Lao (Neo Lao Issara) Direniş Hükûmeti
+yerlesimler_halef_1946.js	Xam Nua (Sam Neua)	20.416	104.046	pathet-lao-hukumeti	1950-08-13	1950-08-13	kur=f	2000-12-31			Pathet Lao (Neo Lao Issara) Direniş Hükûmeti
+yerlesimler_halef_1946.js	Bulawayo	-20.15	28.583	rodezya-nyasaland-federasyonu	1953-08-01	1953-08-01	kur=f	1963-12-31		D1 SON DELİK	Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu)
+yerlesimler_halef_1946.js	Lusaka	-15.387	28.323	rodezya-nyasaland-federasyonu	1953-08-01	1953-08-01	kur=f	1963-12-31		D1 SON DELİK	Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu)
+yerlesimler_halef_1946.js	Hirara (Miyakojima)	24.805	125.281	ryukyu-abd-idaresi	1945-04-01	1945-04-01	kur=f	2000-12-31			Ryukyu Adaları ABD İdaresi
+yerlesimler_halef_1946.js	Ishigaki	24.341	124.156	ryukyu-abd-idaresi	1945-04-01	1945-04-01	kur=f	2000-12-31			Ryukyu Adaları ABD İdaresi
+yerlesimler_halef_1946.js	Nago	26.592	127.977	ryukyu-abd-idaresi	1945-04-01	1945-04-01	kur=f	2000-12-31			Ryukyu Adaları ABD İdaresi
+yerlesimler_halef_1946.js	Naha	26.212	127.679	ryukyu-abd-idaresi	1945-04-01	1945-04-01	kur=f	2000-12-31			Ryukyu Adaları ABD İdaresi
+yerlesimler_halef_1946.js	Bir Lahlu (Bir Lehlou)	26.349	-9.577	sahra-arap-demokratik-cumhuriyeti	1976-02-27	1976-02-27	kur=f	2000-12-31			Sahra Arap Demokratik Cumhuriyeti (Polisario)
+yerlesimler_halef_1946.js	Tifariti	26.159	-10.559	sahra-arap-demokratik-cumhuriyeti	1976-02-27	1976-02-27	kur=f	2000-12-31			Sahra Arap Demokratik Cumhuriyeti (Polisario)
+yerlesimler_halef_1946.js	Vieux Fort	13.72	-60.951	saint-lucia	1979-02-22	1979-02-22	kur=f	2000-12-31			Saint Lucia
+yerlesimler_halef_1946.js	Port Elizabeth (Bequia)	13.007	-61.238	saint-vincent-grenadinler	1979-10-27	1979-10-27	kur=f	2000-12-31			Saint Vincent ve Grenadinler
+yerlesimler_nokta2.js	Salo	45.607	10.521	salo-cumhuriyeti	1943-09-23	1943-09-23	kur=f	2000-12-31			İtalyan Sosyal Cumhuriyeti (Salò)
+yerlesimler_a78_okyanusya.js	Apia	-13.8345	-171.7631	samoa-kralligi	1889-01-01		kur yok	2000-12-31			Samoa Krallığı (Berlin Senedi, üçlü gözetim)
+yerlesimler_a78_okyanusya.js	Pago Pago	-14.2755	-170.7048	samoa-kralligi	1889-01-01		kur yok	2000-12-31			Samoa Krallığı (Berlin Senedi, üçlü gözetim)
+yerlesimler_halef_1946.js	Benkovac	44.034	15.613	sirp-krajina-cumhuriyeti	1991-12-19	1991-12-19	kur=f	1995-08-07		D1 SON DELİK	Sırp Krajina Cumhuriyeti (RSK; fiilî)
+yerlesimler_halef_1946.js	Glina	45.336	16.094	sirp-krajina-cumhuriyeti	1991-12-19	1991-12-19	kur=f	1995-08-07		D1 SON DELİK	Sırp Krajina Cumhuriyeti (RSK; fiilî)
+yerlesimler_halef_1946.js	Korenica	44.753	15.708	sirp-krajina-cumhuriyeti	1991-12-19	1991-12-19	kur=f	1995-08-07		D1 SON DELİK	Sırp Krajina Cumhuriyeti (RSK; fiilî)
+yerlesimler_afrika2.js	Lobamba (Svazi)	-26.45	31.2	svazi	1815-01-01	1815-01-01	kur=f	2000-12-31			Svazi Krallığı
+yerlesimler_halef_1946.js	Kalam (Swat)	35.482	72.578	swat-devleti	1915-04-24	1915-04-24	kur=f	1969-07-28		D1 SON DELİK	Swat Devleti (Yusufzay / Akhund)
+yerlesimler_halef_1946.js	Madyan (Swat)	35.141	72.538	swat-devleti	1915-04-24	1915-04-24	kur=f	1969-07-28		D1 SON DELİK	Swat Devleti (Yusufzay / Akhund)
+yerlesimler_halef_1946.js	Saidu Sharif	34.747	72.356	swat-devleti	1915-04-24	1915-04-24	kur=f	1969-07-28		D1 SON DELİK	Swat Devleti (Yusufzay / Akhund)
+yerlesimler_nokta3.js	Kızıl (Hem-Beldir, Belotsarsk)	51.719	94.438	tannu-tuva	1921-08-14	1921-08-14	kur=f	2000-12-31			Tannu Tuva Halk Cumhuriyeti
+yerlesimler_afrika2.js	Fort Portal (Toro)	0.66	30.28	toro	1830-01-01	1830-01-01	kur=f	2000-12-31			Toro Krallığı
+yerlesimler_halef_1946.js	Dubăsari (Dubossari)	47.266	29.162	transdinyester	1990-09-02	1990-09-02	kur=f	2000-12-31			Transdinyester (Pridnestrovie)
+yerlesimler_halef_1946.js	Rîbnița (Rıbnitsa)	47.766	29.007	transdinyester	1990-09-02	1990-09-02	kur=f	2000-12-31			Transdinyester (Pridnestrovie)
+yerlesimler_halef_1946.js	Slobozia (Transdinyester)	46.728	29.709	transdinyester	1990-09-02	1990-09-02	kur=f	2000-12-31			Transdinyester (Pridnestrovie)
+yerlesimler_halef_1946.js	Tiraspol	46.837	29.611	transdinyester	1990-09-02	1990-09-02	kur=f	2000-12-31			Transdinyester (Pridnestrovie)
+yerlesimler_halef_1946.js	Butterworth	-32.331	28.139	transkei	1976-10-26	1976-10-26	kur=f	1994-04-27		D1 SON DELİK	Transkei (Bantustan, 'bağımsız')
+yerlesimler_halef_1946.js	Koper (Capodistria, B bölgesi)	45.548	13.73	triyeste-serbest-toprak	1947-09-15	1947-09-15	kur=f	1954-10-26		D1 SON DELİK	Triyeste Serbest Toprağı (A bölgesi Anglo-Amerikan, B bölgesi Yugoslav askerî idaresi)
+yerlesimler_halef_1946.js	Umag (B bölgesi)	45.434	13.521	triyeste-serbest-toprak	1947-09-15	1947-09-15	kur=f	1954-10-26		D1 SON DELİK	Triyeste Serbest Toprağı (A bölgesi Anglo-Amerikan, B bölgesi Yugoslav askerî idaresi)
+yerlesimler_nokta3.js	Acman (Ajman)	25.402	55.479	trucial-states	1820-01-01	1820-01-01	kur=f	2000-12-31			Muahede (Trucial) Sahili Şeyhlikleri
+yerlesimler_nokta3.js	Dubay (Dubai)	25.077	55.309	trucial-states	1820-01-01	1820-01-01	kur=f	2000-12-31			Muahede (Trucial) Sahili Şeyhlikleri
+yerlesimler_nokta3.js	Ummu'l-Kuveyn (Umm al-Quwain)	25.565	55.555	trucial-states	1820-01-01	1820-01-01	kur=f	2000-12-31			Muahede (Trucial) Sahili Şeyhlikleri
+yerlesimler_halef_1946.js	Bahlâ	22.979	57.305	umman-ic-imamlik	1913-01-01	1913-01-01	kur=f	1955-01-01		D1 SON DELİK	İç Umman İbâdî İmamlığı
+yerlesimler_halef_1946.js	Izkî	22.761	57.802	umman-ic-imamlik	1913-01-01	1913-01-01	kur=f	1955-01-01		D1 SON DELİK	İç Umman İbâdî İmamlığı
+yerlesimler_gamerika.js	Beyan G31.5 B56.5	-31.5	-56.5	uruguay-cumhuriyeti	1828-08-27		kur yok	2000-12-31			Uruguay Doğu Cumhuriyeti
+yerlesimler_afrika2.js	Beyla	8.69	-8.64	vasulu	1878-01-01	1878-01-01	kur=f	2000-12-31			Vâsûlû Devleti (Samori Ture)
+yerlesimler_afrika2.js	Bisandugu	10.03	-9.1	vasulu	1878-01-01	1878-01-01	kur=f	2000-12-31			Vâsûlû Devleti (Samori Ture)
+yerlesimler_afrika2.js	Odienne	9.51	-7.57	vasulu	1878-01-01	1878-01-01	kur=f	2000-12-31			Vâsûlû Devleti (Samori Ture)
+yerlesimler_afrika2.js	Seguela	7.96	-6.67	vasulu	1878-01-01	1878-01-01	kur=f	2000-12-31			Vâsûlû Devleti (Samori Ture)
+yerlesimler_nokta3.js	Vatikan	41.902	12.453	vatikan	1929-06-07	1929-06-07	kur=f	2000-12-31			Vatikan Şehir Devleti (Kutsal Makam)
+yerlesimler_halef_1946.js	Thohoyandou	-22.945	30.485	venda-bantustan	1979-09-13	1979-09-13	kur=f	1994-04-27		D1 SON DELİK	Venda (Bantustan)
+yerlesimler_nokta3.js	Vichy	46.128	3.427	vichy-fransasi	1940-07-10	1940-07-10	kur=f	2000-12-31			Fransız Devleti (Vichy)
+yerlesimler_afrika2.js	Bunkeya (Yeke)	-10.41	26.94	yeke	1856-01-01	1856-01-01	kur=f	2000-12-31			Yeke Krallığı (Msiri)
+yerlesimler_a78_okyanusya.js	Port Vila	-17.7334	168.3273	yeni-hebridler-kondominyumu	1906-10-20		kur yok	2000-12-31			Yeni Hebridler Anglo-Fransız Kondominyumu
+yerlesimler_ek30.js	Wellington	-41.2865	174.7762	yeni-zelanda	1840-02-06	1840-01-22	kur farklı	2000-12-31			Yeni Zelanda (İngiliz Kolonisi/Dominyonu)
+yerlesimler_a78_okyanusya.js	Whanganui	-39.9301	175.0479	yeni-zelanda	1840-02-06	1840-02-06	kur=f	2000-12-31			Yeni Zelanda (İngiliz Kolonisi/Dominyonu)
+yerlesimler_a78_okyanusya.js	Whangārei	-35.7251	174.3237	yeni-zelanda	1840-02-06	1839-01-01	kur farklı	2000-12-31			Yeni Zelanda (İngiliz Kolonisi/Dominyonu)
+yerlesimler_a78_okyanusya.js	Waitangi (Bay of Islands)	-35.268	174.079	yeni-zelanda-birlesik-kabileler	1835-10-28		kur yok	2000-12-31			Yeni Zelanda Birleşik Kabileler Konfederasyonu (Te Whakaminenga)
+yerlesimler_halef_1946.js	Espargos (Sal)	16.754	-22.944	yesilburun	1975-07-05	1975-07-05	kur=f	2000-12-31			Yeşilburun Cumhuriyeti
+yerlesimler_halef_1946.js	Mindelo	16.886	-24.988	yesilburun	1975-07-05	1975-07-05	kur=f	2000-12-31			Yeşilburun Cumhuriyeti
+yerlesimler_halef_1946.js	Praia	14.933	-23.513	yesilburun	1975-07-05	1975-07-05	kur=f	2000-12-31			Yeşilburun Cumhuriyeti
+yerlesimler_halef_1946.js	Grammos (DSE üssü)	40.333	20.833	yunanistan-gecici-demokratik-hukumet	1947-12-24	1947-12-24	kur=f	1949-08-28		D1 SON DELİK	Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)
+yerlesimler_halef_1946.js	Vitsi (Grammos-Vitsi, DSE üssü)	40.583	21.3	yunanistan-gecici-demokratik-hukumet	1947-12-24	1947-12-24	kur=f	1949-08-28		D1 SON DELİK	Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)
+yerlesimler_e9353f.js	Ulundi (Zululand)	-28.313	31.416	zulu-kralligi	1816-01-01	1816-01-01	kur=f	2000-12-31			Zulu Krallığı

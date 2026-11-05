@@ -1,0 +1,270 @@
+{
+ "Derne": [
+  {
+   "sira": 2998,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Liegnitz (Legnica)": [
+  {
+   "sira": 3004,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1742-06-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3005,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1742-06-11",
+   "t": "1871-01-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3006,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3007,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "polonya-erken",
+   "f": "1004-01-01",
+   "t": "1138-01-01",
+   "mevcut_kaynak": "Enciclopedia Italiana (1929-37), Liegnitz maddesi, Treccani (https://www.treccani.it/enciclopedia/liegnitz_%28Enciclopedia-Italiana%29/; ham metin ham/e_liegnit"
+  },
+  {
+   "sira": 3008,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "silezya-piast",
+   "f": "1138-01-01",
+   "t": "1335-08-24",
+   "mevcut_kaynak": "Britannica 'Silesia' (britannica.com/place/Silesia): Lüksemburglu Bohemya kralı Yohann Silezya prensliklerinde (1327-30) üstünlük kurdu; Silezya Piast prensleri"
+  },
+  {
+   "sira": 3009,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-06-05",
+   "t": "1989-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-halk t ucunun kaynağı — Dziennik Ustaw 1989 nr 75 poz. 444, Ustawa z dnia 29 grudnia 1989 r. o zmiani"
+  },
+  {
+   "sira": 3010,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-iii-cumhuriyet f ucunun kaynağı — https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Pola"
+  }
+ ],
+ "Kopenhag": [
+  {
+   "sira": 3011,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nizva": [
+  {
+   "sira": 3012,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1624-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nefud çölü": [
+  {
+   "sira": 3013,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1824-06-01",
+   "t": "1836-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3014,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sammar",
+   "f": "1836-01-01",
+   "t": "1921-11-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3015,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1921-11-02",
+   "t": "1932-09-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3016,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1818-09-09",
+   "t": "1824-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3017,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau"
+  }
+ ],
+ "Yanıkkale (Győr)": [
+  {
+   "sira": 3018,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1946-02-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3019,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1594-09-27",
+   "t": "1598-03-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3020,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-halk f ucunun kaynağı — 1946. évi I. törvénycikk Magyarország államformájáról (net.jogtar.hu/ezer-"
+  },
+  {
+   "sira": 3021,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-cumhuriyeti f ucunun kaynağı — https://doha.mfa.gov.hu/eng/page/the-history-of-hungary · BEYANLI: "
+  }
+ ],
+ "Ladik (Amasya)": [
+  {
+   "sira": 3023,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "eretna",
+   "f": "1335-01-01",
+   "t": "1381-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3024,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "burhaneddin",
+   "f": "1381-01-01",
+   "t": "1393-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3025,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1402-07-28",
+   "t": "1413-07-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3027,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1393-06-01",
+   "t": "1402-07-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3028,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kaşot (Kasos)": [
+  {
+   "sira": 3029,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1537-10-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3030,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1537-10-01",
+   "t": "1923-07-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3031,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "oniki-ada-italyan",
+   "f": "1923-07-24",
+   "t": "1947-09-15",
+   "mevcut_kaynak": "1923 ESKİ UFUK DÜZELTMESİ (DUNYA-1102, KASA 4 Kasım 2026; UMIT EK-1923-ufuk): 1923-10-29 yapay kırılması kaldırıldı, dönem baştan oniki-ada-italyan — künye onik"
+  },
+  {
+   "sira": 3032,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "italya",
+   "f": "1912-05-12",
+   "t": "1923-07-24",
+   "mevcut_kaynak": "oniki-ada"
+  }
+ ]
+}

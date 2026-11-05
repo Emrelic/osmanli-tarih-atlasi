@@ -1,0 +1,990 @@
+{
+ "Çarşamba": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1753",
+   "alan": "s",
+   "d": "eretna",
+   "f": "1335-01-01",
+   "t": "1379-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tâceddinoğulları» (https://islamansiklopedisi.org.tr/taceddinogullari)",
+   "alinti": "Eretnaoğulları’na vergi veriyordu ... 781’den (1379) itibaren de bağımsız hareket etmeye başladı.",
+   "oneri": {},
+   "not": "[sira 566] t 1379 YIL teyit. f 1335 Eretna künyesi (ÜLKE). İPUCU: Tâceddin Bey 1346/1348'den bölgede, Eretna'ya vergi veren bey — tâbilik (s: taceddin + v: eretna) daha doğru olabilir; Çarşamba adıyla geçmiyor (Limnia=Terme/Çarşamba yöresi 1379). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1753",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 567] [KÜME K20] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1753",
+   "alan": "s",
+   "d": "taceddin",
+   "f": "1379-01-01",
+   "t": "1427-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tâceddinoğulları» (https://islamansiklopedisi.org.tr/taceddinogullari)",
+   "alinti": "Tâceddin Bey, Eudokia’yı aldıktan sonra hâkimiyet bölgesi Limnia’ya (Terme/Çarşamba yöresi) döndü.",
+   "oneri": {},
+   "not": "[sira 568] f 1379 (bağımsızlık) ve 1427 (Hasan Bey'in Rumeli sancağıyla değiştirilmesi) YIL düzeyinde. ÇELİŞKİ İPUCU: TDV «Hasan Bey ... Kubadoğlu Cüneyd’i ortadan kaldırarak Çarşamba taraflarını zaptedince» — Çarşamba bir süre Kubadoğulları'nda olabilir (yıl yok; künye ölçüldü: kubadogullari YOK). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1753",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 569] [KÜME K05] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1753",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1427-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tâceddinoğulları» (https://islamansiklopedisi.org.tr/taceddinogullari)",
+   "alinti": "II. Murad da ona Rumeli’de bir sancağı timar olarak verdi (1427).",
+   "oneri": {},
+   "not": "[sira 570] f 1427 YIL: Hasan Bey toprağını bıraktı, Yörgüç Paşa Canik'te Osmanlı idaresini kurdu. t 1920-04-23 TBMM kuralı (K05, ASKIDA). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Şimontorna": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1544-09-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 571] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1946-02-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 572] Bütçe. İPUCU: künye adı 'naiplik' 1918-11-16'dan; 1918-20 Halk Cumhuriyeti/Sovyet Cumhuriyeti dilimleri ve 1944-45 Sovyet işgali bu dönemde ayrışmıyor — ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1544-09-01",
+   "t": "1686-09-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Budin» (https://islamansiklopedisi.org.tr/budin) + TDV İslâm Ansiklopedisi, «Zülfikar Paşa» (https://islamansiklopedisi.org.tr/zulfikar-pasa)",
+   "alinti": "Budin vilâyeti ... Şimontorna (Simontornya) ... sancaklarından ibaretti",
+   "oneri": {},
+   "not": "[sira 573] ÖLÇÜT: idareye katma — 1568'de Budin vilâyetinin sancağı (TAHRİR ölçütü). t: TDV Zülfikar Paşa «Şimontorna, Peçuy, Kapoşvar, Şikloş kaleleri elden çıktı» (gün yok; Bánlaky 1686-09-23 ile uyumlu). f 1544-09-01 TDV'de yok [f teyitsiz]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1686-09-23",
+   "t": "1918-11-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 574] Bütçe (DIGER)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 575] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1781",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 576] Bütçe."
+  }
+ ],
+ "Murted (Kea)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1802",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "1538 baharında Ege denizine açılarak ... toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "t": "1538-01-01"
+   },
+   "not": "[sira 577] Barbaros'un 1538 Ege seferi Venedik'e ait adaları Osmanlı idaresine kattı (TDV Barbaros; YIL, «1538 baharı» — gün yok, YYYY-01-01 beyanı). TDV Nakşa: «Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında ... Osmanlı kontrolü altına girdi. 1540’taki Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar’a devredildi» — 1540 ic_not'a. 1566 yalnız Nakşa dukalığının Yasef Nasi'ye verilişidir, bu ada için kırılma değil. Ada TDV'de adıyla geçmiyor: BÖLGE DÜZEYİ (Kiklad), BEYANLI YAKLAŞIKLIK. İPUCU: ada 1281'de Venedik'in değil Nakşa dukalığının (naksa-dukaligi künyesi var) Venedikli vassal ailelerinin elindeydi — ayrıca bakılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1802",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yunanistan» (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Mora yarımadasından Golos (Volos) ve Arta körfezleri ... Eğriboz ve Kiklad adalarını kapsar.",
+   "oneri": {},
+   "not": "[sira 578] ÜLKE DÜZEYİ. TDV: «Osmanlı Devleti 1830’da bu devleti tanımak zorunda kaldı» — YIL; 1830-02-03 Londra Protokolü günü TDV'de yok. t 1973-06-01 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1802",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "f": "1538-01-01"
+   },
+   "not": "[sira 579] f 1566 → 1538 (bkz. venedik dönemi). ÖLÇÜT: idareye katma — TDV Barbaros «Osmanlı idaresine kattı»; Nakşa ve civar adalar sonra sancak (TDV Nakşa). t 1830-02-03 ÜLKE DÜZEYİ (TDV Yunanistan 1830). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Koçbaba (Serifos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1804",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "1538 baharında Ege denizine açılarak ... toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "t": "1538-01-01"
+   },
+   "not": "[sira 580] Barbaros'un 1538 Ege seferi Venedik'e ait adaları Osmanlı idaresine kattı (TDV Barbaros; YIL, «1538 baharı» — gün yok, YYYY-01-01 beyanı). TDV Nakşa: «Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında ... Osmanlı kontrolü altına girdi. 1540’taki Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar’a devredildi» — 1540 ic_not'a. 1566 yalnız Nakşa dukalığının Yasef Nasi'ye verilişidir, bu ada için kırılma değil. Ada TDV'de adıyla geçmiyor: BÖLGE DÜZEYİ (Kiklad), BEYANLI YAKLAŞIKLIK. İPUCU: ada 1281'de Venedik'in değil Nakşa dukalığının (naksa-dukaligi künyesi var) Venedikli vassal ailelerinin elindeydi — ayrıca bakılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1804",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yunanistan» (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Mora yarımadasından Golos (Volos) ve Arta körfezleri ... Eğriboz ve Kiklad adalarını kapsar.",
+   "oneri": {},
+   "not": "[sira 581] ÜLKE DÜZEYİ. TDV: «Osmanlı Devleti 1830’da bu devleti tanımak zorunda kaldı» — YIL; 1830-02-03 Londra Protokolü günü TDV'de yok. t 1973-06-01 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1804",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "f": "1538-01-01"
+   },
+   "not": "[sira 582] f 1566 → 1538 (bkz. venedik dönemi). ÖLÇÜT: idareye katma — TDV Barbaros «Osmanlı idaresine kattı»; Nakşa ve civar adalar sonra sancak (TDV Nakşa). t 1830-02-03 ÜLKE DÜZEYİ (TDV Yunanistan 1830). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Yamurgi (Amorgos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1809",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "1538 baharında Ege denizine açılarak ... toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "t": "1538-01-01"
+   },
+   "not": "[sira 583] Barbaros'un 1538 Ege seferi Venedik'e ait adaları Osmanlı idaresine kattı (TDV Barbaros; YIL, «1538 baharı» — gün yok, YYYY-01-01 beyanı). TDV Nakşa: «Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında ... Osmanlı kontrolü altına girdi. 1540’taki Osmanlı-Venedik antlaşmasıyla hâkimiyet hakkı resmen Osmanlılar’a devredildi» — 1540 ic_not'a. 1566 yalnız Nakşa dukalığının Yasef Nasi'ye verilişidir, bu ada için kırılma değil. Ada TDV'de adıyla geçmiyor: BÖLGE DÜZEYİ (Kiklad), BEYANLI YAKLAŞIKLIK. İPUCU: ada 1281'de Venedik'in değil Nakşa dukalığının (naksa-dukaligi künyesi var) Venedikli vassal ailelerinin elindeydi — ayrıca bakılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1809",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yunanistan» (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Mora yarımadasından Golos (Volos) ve Arta körfezleri ... Eğriboz ve Kiklad adalarını kapsar.",
+   "oneri": {},
+   "not": "[sira 584] ÜLKE DÜZEYİ. TDV: «Osmanlı Devleti 1830’da bu devleti tanımak zorunda kaldı» — YIL; 1830-02-03 Londra Protokolü günü TDV'de yok. t 1973-06-01 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1809",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Nakşa» (https://islamansiklopedisi.org.tr/naksa)",
+   "alinti": "toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {
+    "f": "1538-01-01"
+   },
+   "not": "[sira 585] f 1566 → 1538 (bkz. venedik dönemi). ÖLÇÜT: idareye katma — TDV Barbaros «Osmanlı idaresine kattı»; Nakşa ve civar adalar sonra sancak (TDV Nakşa). t 1830-02-03 ÜLKE DÜZEYİ (TDV Yunanistan 1830). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kelemez (Kalimnos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1814",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada",
+   "oneri": {},
+   "not": "[sira 586] t YIL düzeyinde: TDV 1309, atlas 1310-08-15 — gün çelişkisi ic_not'a iki tarihle (TDV yalnız yıl verir). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1814",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1310-08-15",
+   "t": "1523-01-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {
+    "t": "1522 — Rodos teslim günü (Rodos kaydının kaynaklı günü)"
+   },
+   "not": "[sira 587] TDV fethi 1522 diye verir; Kelemez'de t 1523-01-05, aynı fetihle düşen İncirli'de 1522-12-21 — iki ada ayrı günde. Rodos teslim günüyle eşitlenmeli; Kelemez'e özgü 1523-01-05 tanığı varsa kaynak alanına yazılmalı (bulunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1814",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1523-01-05",
+   "t": "1923-07-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Rodos ve ona tâbi adalar grubu tahrir sistemiyle belirlenmiş bir statü içindeydi",
+   "oneri": {},
+   "not": "[sira 588] ÖLÇÜT: idareye katma — tahrir, has/timar; Kilimli'de kale muhafızı timarları. f için sira 587. t Lozan 1923-07-24 (isg italya altında d:). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1814",
+   "alan": "s",
+   "d": "oniki-ada-italyan",
+   "f": "1923-07-24",
+   "t": "1947-09-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Adalarda 8 Mayıs 1945’te kurulan İngiliz askerî idaresi | 10 Şubat 1947’de imzalanan ... Paris İtalyan Barış Antlaşması",
+   "oneri": {
+    "isg_ekle": {
+     "d": "ingiltere",
+     "f": "1945-05-08",
+     "t": "Yunan askerî idaresine teslim günü (kaynaklanmadı)"
+    },
+    "t": "Yunan teslim günü (TEK ÖLÇÜ)"
+   },
+   "not": "[sira 589] ÖLÇÜT: geçici/askerî — İngiliz askerî idaresi 1945-05-08. TEK ÖLÇÜ: Yunanistan 1947-02-10 imzada adaları yönetmiyordu → s: yunanistan teslim günü; 1947-09-15 yürürlüktür, s: günü olamaz (ic_not). 1943-45 Alman işgali de ayrı isg (okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1814",
+   "alan": "isg",
+   "d": "italya",
+   "f": "1912-05-12",
+   "t": "1923-07-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "İtalya 28 Nisan - 20 Mayıs 1912 tarihleri arasında İstanpulya, Rodos, ... Kilimli ... adalarını işgal etti",
+   "oneri": {},
+   "not": "[sira 590] f aralık içinde (adaya özgü gün TDV'de yok); t Lozan. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "İncirli (Nisiros)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1817",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada",
+   "oneri": {},
+   "not": "[sira 591] Bkz. sira 586 (TDV 1309 / atlas 1310-08-15). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1817",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1310-08-15",
+   "t": "1522-12-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {},
+   "not": "[sira 592] t YIL teyit (1522-12-21 gün TDV'de yok). f bkz. 586. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1817",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1522-12-21",
+   "t": "1923-07-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Rodos ve ona tâbi adalar grubu tahrir sistemiyle belirlenmiş bir statü içindeydi",
+   "oneri": {},
+   "not": "[sira 593] ÖLÇÜT: idareye katma — tahrir; İncirli gelirleri Kanûnî vakfına ait (TDV). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1817",
+   "alan": "s",
+   "d": "oniki-ada-italyan",
+   "f": "1923-07-24",
+   "t": "1947-09-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Adalarda 8 Mayıs 1945’te kurulan İngiliz askerî idaresi",
+   "oneri": {
+    "isg_ekle": {
+     "d": "ingiltere",
+     "f": "1945-05-08",
+     "t": "Yunan teslim günü"
+    },
+    "t": "Yunan teslim günü (TEK ÖLÇÜ)"
+   },
+   "not": "[sira 594] Bkz. sira 589. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1817",
+   "alan": "isg",
+   "d": "italya",
+   "f": "1912-05-12",
+   "t": "1923-07-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "İtalya 28 Nisan - 20 Mayıs 1912 tarihleri arasında ... toplam on altı adayı işgal etti.",
+   "oneri": {},
+   "not": "[sira 595] İncirli adıyla sayılmıyor (on altı adanın içinde); f aralık içinde. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "İpsara (Psara)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1826",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1566-04-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sakız Adası» (https://islamansiklopedisi.org.tr/sakiz-adasi)",
+   "alinti": "Cenevizliler İstanbul’a gönderildi (24 Ramazan 973 / 14 Nisan 1566). Bu fetihle Sakız’da 220 yıl süren Maona hâkimiyeti",
+   "oneri": {
+    "f": "1346-01-01",
+    "bol": "bizans 1281→1346 (1304-1329 Zaccaria dönemi ic_not)"
+   },
+   "not": "[sira 596] ABİ MERKEZ: Sakız — TDV Sakız Adası (İpsara Sakız sancağına bağlı). t 1566-04-14 gün teyit. Maona 220 yıl → 1346 (YIL; TDV maddesi 1346 gününü bu cümlede vermiyor). 1281'de Sakız Bizans'taydı; cenova 1281'den başlayamaz. pisa/zaccaria künyesi ölçülmedi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1826",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1923-07-24",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "KARARLAR-EMRELIC gece-17 (c) Ege adaları emsali + TDV İslâm Ansiklopedisi, «Sakız Adası» (https://islamansiklopedisi.org.tr/sakiz-adasi)",
+   "alinti": "24 Temmuz 1923 tarihli Lozan Antlaşması’nın ilgili 12 ve 13. maddeleri hükmünce ... Sakız Yunanistan’a bırakıldı.",
+   "oneri": {
+    "f": "1914-02-13"
+   },
+   "not": "[sira 597] Ada istisnası (Sisam/Nikarya emsali): s: yunanistan Büyük Devletler notası 1914-02-13'ten (Yunanistan adayı 1912'den yönetiyordu). TDV Sakız'ın Lozan cümlesi ic_not'a. KURAL KARARI: TDV Lozan der, koordinatör kuralı 1914. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1826",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1566-04-14",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sakız Adası» (https://islamansiklopedisi.org.tr/sakiz-adasi)",
+   "alinti": "(24 Ramazan 973 / 14 Nisan 1566)",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 598] f gün ABİ MERKEZ Sakız ile teyit. t Ege adaları emsaliyle 1914-02-13 (Lozan ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1826",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1912-11-11",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Oniki Ada» (https://islamansiklopedisi.org.tr/oniki-ada)",
+   "alinti": "Yunanistan da 20 Ekim - 20 Aralık 1912 tarihleri arasında ... İpsara ... adalarını ele geçirdi.",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 599] f 1912-11-11 TDV aralığı içinde (adaya özgü gün yok; TDV günleri Rumî olabilir — beyan). t 1914-02-13 (Ege adaları emsali). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Alonisos": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1829",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1453-05-29",
+   "t": "1538-08-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa)",
+   "alinti": "Venedik’e ait adaların zaptına girişti. Bu amaçla 1538 baharında Ege denizine açılarak",
+   "oneri": {},
+   "not": "[sira 600] t YIL, BÖLGE DÜZEYİ (Alonisos adıyla geçmiyor; Skyros geçiyor). f 1453-05-29 (Venedik'in Kuzey Sporatlar'ı alması) okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1829",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 601] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1829",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yunanistan» (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "Osmanlı Devleti 1830’da bu devleti tanımak zorunda kaldı.",
+   "oneri": {},
+   "not": "[sira 602] ÜLKE DÜZEYİ, YIL; Kuzey Sporatlar TDV'de adıyla geçmiyor (çekirdek: «Eğriboz ve Kiklad»). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1829",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1538-08-01",
+   "t": "1830-02-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Barbaros Hayreddin Paşa» (https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa) + TDV İslâm Ansiklopedisi, «Yunanistan» (https://islamansiklopedisi.org.tr/yunanistan)",
+   "alinti": "1538 baharında Ege denizine açılarak ... Osmanlı idaresine kattı.",
+   "oneri": {},
+   "not": "[sira 603] f YIL BÖLGE DÜZEYİ; t 1830 ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Cres (Cherso)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1806-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "Nakon 1797. izmjenjuju se austrijska (1797–1805) i francuska (1805–14) uprava",
+   "oneri": {},
+   "not": "[sira 604] YIL düzeyi. HE Fransız idaresini 1805'ten sayar; atlas t 1806-01-01 (Pressburg 1805-12-26 imzası, teslim 1806 başı — TEK ÖLÇÜ teslim, uyumlu sayılabilir; ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1409-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "do 1358. kada je ušao u sastav države hrvatsko-ugarskoga kralja Ludovika I. Anžuvinca",
+   "oneri": {},
+   "not": "[sira 605] HE: 1380 Saracen ailesi, 1389 Gorjanski knezleri (Macar tacı içinde); «Ponovno je pod mletačkom vlašću 1409–1797» — t teyit. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1806-01-01",
+   "t": "1809-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 606] Bütçe (DIGER). HE yalnız «francuska (1805–14)» der."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-01-01",
+   "t": "1813-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 607] Bütçe (DIGER)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1919-09-10",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "a 1814. otok je konačno pripojen Austriji (do 1918)",
+   "oneri": {
+    "f": "1814-01-01",
+    "isg_ekle": {
+     "d": "avusturya",
+     "f": "1813-01-01",
+     "t": "1814-01-01"
+    }
+   },
+   "not": "[sira 608] HE: Fransız idaresi 1814'e dek, Avusturya'ya «konačno» katılış 1814 (YIL). 1813 Avusturya askerî girişi ile 1814 katılış arası isg (ÖLÇÜT: geçici/askerî — ilhak 1814). Günler kaynaklanmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "Nakon završetka I. svjetskog rata Cres je okupirala talijanska vojska",
+   "oneri": {
+    "isg_ekle": {
+     "d": "italya",
+     "f": "1918-11 (gün kaynaklanmadı)",
+     "t": "1920-11-12"
+    }
+   },
+   "not": "[sira 609] ÖLÇÜT: geçici/askerî — Rapallo'ya dek İtalyan askerî işgali. itilaf-emaneti s: kalabilir, altına isg italya eklenmeli. Kayıttaki 'neden' notu da bu ara dönemi açık bırakmış. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "italya",
+   "f": "1920-11-12",
+   "t": "1946-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "Italiji je pripao Rapallskim ugovorom 1920.",
+   "oneri": {},
+   "not": "[sira 610] TEK ÖLÇÜ: İtalya adayı zaten yönetiyordu → imza günü (1920-11-12) doğru. t 1946-06-18 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1844",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "1947-09-15",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Cres» (https://www.enciklopedija.hr/clanak/cres-otok)",
+   "alinti": "Nakon II. svjetskog rata priključen je Hr[vatskoj]",
+   "oneri": {
+    "t": "1947-02-10",
+    "isg_ekle": {
+     "d": "yugoslavya-federal",
+     "f": "1945 (Yugoslav girişi, gün kaynaklanmadı)",
+     "t": "1947-02-10"
+    }
+   },
+   "not": "[sira 611] TEK ÖLÇÜ: Yugoslavya Cres'i 1945'ten fiilen yönetiyordu → devir Paris imzası 1947-02-10; 1947-09-15 yürürlük, s: günü olamaz (ic_not). 1943-45 Alman işgali ayrı isg (okunmadı). Ardıl dönemin f'si de 1947-02-10 olmalı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Uzunada (Dugi Otok)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1806-02-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 612] Hrvatska enciklopedija «Dugi otok» maddesinde siyasî tarih/yıl yok (sayfa.py: 1358/1409/1797/1806 YOK). Bölge emsali HE «Korčula»: Habsburg 1797-1805."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1409-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 613] Bütçe (DIGER)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 614] Bütçe (DIGER)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1919-09-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 615] Bütçe (DIGER). İPUCU: HE Korčula'da 1813-15 İngiliz işgali var; Dugi otok için ayrı bakılmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 616] Bütçe (DIGER). İPUCU: Dalmaçya adalarında 1918-21 İtalyan işgali (HE Korčula) — Dugi otok için ayrı bakılmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1861",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1920-11-12",
+   "t": "1945-11-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 617] Bütçe (DIGER). İPUCU: TEK ÖLÇÜ — SHS adayı 1920-11-12'de yönetmiyorsa s: İtalyan tahliye (1921) gününden."
+  }
+ ],
+ "Korçula (Kurzola)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1420-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "u razdoblju 1358–1420., s povremenim prekidima, hrvatsko-ugarski kraljevi, 1390–94. bosanski vladari, a od 1403. protukralj Ladislav",
+   "oneri": {
+    "bol": "macaristan 1358→1390; bosna 1390→1394; macaristan 1394→1403; Napoli Ladislas/Hrvoje 1403→1413; dubrovnik 1413→1417; macaristan 1417→1420"
+   },
+   "not": "[sira 618] HE: «Od 1413. do 1417. bila je pod upravom Dubrovačke Republike, a 1420–1797. dio posjeda Mletačke Republike». Tek macaristan dönemi bölünmeli; künyeler (bosna, napoli, dubrovnik) ölçülmedi — hayalet kontrolü KASA'da. YIL düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1806-02-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "otok je 1797–1805. bio pod vlašću Habsburške Monarhije, a 1805–13. pod francuskom vlašću.",
+   "oneri": {},
+   "not": "[sira 619] YIL düzeyi; atlas t 1806-02-01 (teslim). 1806-07 Rus baskınları ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "a 1805–13. pod francuskom vlašću. Za Rusko-francuskoga rata 1806–07. Rusi su nekoliko puta osvojili Korčulu.",
+   "oneri": {},
+   "not": "[sira 620] t 1813 YIL teyit; f 1809-10-14 (Schönbrunn/İlirya) mevcut LZMK kaynağına dayanır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1919-09-10",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "God. 1813–15. otok je bio pod britanskom okupacijom, a 1815–1918. pod vlašću Habsburške",
+   "oneri": {
+    "f": "1815-01-01",
+    "isg_ekle": {
+     "d": "ingiltere",
+     "f": "1813-01-01",
+     "t": "1815-01-01"
+    }
+   },
+   "not": "[sira 621] ÖLÇÜT: geçici/askerî — HE «britanskom okupacijom» 1813-15; Habsburg idaresi 1815'ten (YIL; teslim günü kaynaklanmadı). İngiliz işgali altındaki s: sahibi sorusu (Fransa mı, Avusturya mı) KASA'ya. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "Prva talijanska okupacija trajala je 1918–21., nakon čega je Korčula ušla u sastav Kraljevine SHS",
+   "oneri": {
+    "isg_ekle": {
+     "d": "italya",
+     "f": "1918-11 (gün kaynaklanmadı)",
+     "t": "1921 (tahliye günü kaynaklanmadı)"
+    }
+   },
+   "not": "[sira 622] ÖLÇÜT: geçici/askerî — İtalyan işgali 1918-21. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1864",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1920-11-12",
+   "t": "1945-11-29",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Korčula» (https://www.enciklopedija.hr/clanak/korcula-otok)",
+   "alinti": "Prva talijanska okupacija trajala je 1918–21., nakon čega je Korčula ušla u sastav Kraljevine SHS",
+   "oneri": {
+    "f": "1921-01-01"
+   },
+   "not": "[sira 623] TEK ÖLÇÜ: SHS 1920-11-12 Rapallo imzasında Korčula'yı yönetmiyordu (İtalyan işgali) → s: yugoslavya teslim gününden (1921, YIL; gün kaynaklanmadı). HE ayrıca «Za II. svjetskoga rata pod talijanskom (1941–43) i njemačkom okupacijom» — isg katmanları ayrıca. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sasari (Sassari)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1882",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1324-01-01",
+   "t": "1479-01-19",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sassari» (https://www.treccani.it/enciclopedia/sassari/)",
+   "alinti": "nel 1323 si diede all’infante Alfonso d’Aragona ma, esasperata dal fiscalismo catalano, insorse nel 1324, nel 1325 e nel 1329.",
+   "oneri": {
+    "f": "1323-01-01"
+   },
+   "not": "[sira 624] f 1324 → 1323 (YIL). 1324/1325/1329 isyanları ic_not («Più volte ripresa e perduta dagli Aragonesi»). Not: sardinya-aragon künyesi var (1326-01-01 → 1720-08-24) — zincir 'aragon/ispanya' kullanıyor; künye seçimi KASA'da. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1882",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1720-09-02",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sardegna» (https://www.treccani.it/enciclopedia/sardegna/)",
+   "alinti": "dopo il bombardamento inglese di Cagliari (1708) fu firmata la resa e il trattato di Utrecht (1713) assegnò la S. all’imperatore.",
+   "oneri": {
+    "t": "1708-01-01",
+    "bol": "habsburg 1708→(İspanyol geri alışı 1717, gün kaynaklanmadı); isg ispanya 1717→1720; sardinya 1720 (Savoia'nın teslim alışı)"
+   },
+   "not": "[sira 625] Treccani: «con il trattato di Londra (1718) la S. passò a Vittorio Amedeo II di Savoia, che prese possesso dell’isola nel 1720». ÖLÇÜT: idareye katma — 1708 teslim (resa) + Habsburg idaresi; Utrecht 1713 ic_not. 1717 İspanyol çıkarması Treccani'de tarihsiz («tentativi spagnoli ... furono stroncati»). Ölçüm: veri satırında ispanya t şu an 1720-02-24 (TSV 1720-09-02 diyor); künye ölçümü: 'habsburg' var, 'avusturya' id'si devletler.js'te bulunamadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1882",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1324-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sassari» (https://www.treccani.it/enciclopedia/sassari/)",
+   "alinti": "la cui autonomia era limitata dalle convenzioni imposte da Pisa . Passata ai Genovesi (1294), nel 1323 si diede",
+   "oneri": {
+    "f": "1294-01-01",
+    "t": "1323-01-01"
+   },
+   "not": "[sira 626] 1281-1294 Pisa'ya bağlı komün (Torres yargıçlığı) — pisa künyesi YOK (ölçüldü): BEYANLI ya da künye sorusu LAB'a. Ceneviz 1294-1323 (YIL). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1882",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 627] Bütçe."
+  }
+ ],
+ "Mayorka (Palma)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1885",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol)",
+   "alinti": "el 19, els de Saragossa, Pamplona, Vitòria, Oviedo, Salamanca i Palma",
+   "oneri": {},
+   "not": "[sira 628] t gün Palma'ya özgü; f 1479-01-19 künye (okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1885",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-19",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol)",
+   "alinti": "A Palma, els militars, amb el suport d’uns quants grups dretans, triomfaren fàcilment.",
+   "oneri": {},
+   "not": "[sira 629] f 1936-07-19 (aynı maddede «el 19 ... Palma»). t 1939-04-01 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1885",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 630] Bütçe (DIGER)."
+  }
+ ],
+ "Ferasan (Farasan)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1281-01-01",
+   "t": "1538-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 631] TDV slug'ları ferasan, asir, idrisi-muhammed-b-ali arama sayfası verdi. İPUCU: Tihâme kıyısı 1281-1538 Resûlî/Tâhirî/Memlûk (tahiri ve memluk künyeleri var), Zeydî imamlık değil — ONERI adayı. TARAYICI: EI2 «Farasān»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1635-01-01",
+   "t": "1849-05-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 632] Bkz. 631; 1635 Osmanlı'nın Yemen'den çekilişi Ferasan için okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "yemen-zeydi",
+   "f": "1918-10-30",
+   "t": "1923-10-29",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 633] İPUCU (okunmadı): Ferasan 1915-17'de İngiliz desteğiyle İdrîsî Asir'e geçti; 1918-10-30 → 1923-10-29 yemen-zeydi şüpheli (idrisi-asir künyesi f 1908). Ayrıca t 1923-10-29 eski ufuk kalıntısı görünüyor. TARAYICI: EI2 «Farasān», «Idrīsī»; Qatar Digital Library IOR/L/PS Farasan dosyaları."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1538-08-03",
+   "t": "1635-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 634] Bkz. 631; Ferasan'ın 1538 sonrası sancak bağı okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1849-05-01",
+   "t": "1918-10-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 635] Bkz. 633; 1849 Tihâme dönüşü ve 1915-17 İdrîsî geçişi okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "idrisi-asir",
+   "f": "1923-10-29",
+   "t": "1930-11-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 636] Bütçe (DIGER)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 637] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1930-11-20",
+   "t": "1932-09-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 638] Bütçe (DIGER)."
+  }
+ ]
+}

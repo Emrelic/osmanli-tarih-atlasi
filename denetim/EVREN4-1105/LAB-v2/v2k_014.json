@@ -1,0 +1,195 @@
+{
+ "Fangak": [
+  {
+   "sira": 2163,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:993",
+   "lat": 9.07,
+   "lon": 30.883,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Fâşoda": [
+  {
+   "sira": 2165,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:787",
+   "lat": 9.892,
+   "lon": 32.117,
+   "zincir_guncel": "s:mehdi 1885-01-26→1899-01-19 | s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Gimbî": [
+  {
+   "sira": 2168,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "mevcut_kaynak": "Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:525",
+   "lat": 9.17,
+   "lon": 35.833,
+   "zincir_guncel": "s:habesistan 1897-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-11-30 | s:habesistan 1941-11-30→1974-09-12 | s:etiyopya-derg 1974-09-12→1991-05-29 | s:etiyopya-gecis-hukumeti 1991-05-29→1995-08-22 | s:etiyopya-federal 1995-08-22→2000-12-31"
+  }
+ ],
+ "Juba": [
+  {
+   "sira": 2186,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "guney-sudan-ozerk-bolge",
+   "f": "1972-02-27",
+   "t": "1983-06-05",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 4.855,
+   "lon": 31.605,
+   "zincir_guncel": "s:guney-sudan-ozerk-bolge 1972-02-27→1983-06-05"
+  }
+ ],
+ "Ler": [
+  {
+   "sira": 2192,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:997",
+   "lat": 8.3,
+   "lon": 30.14,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Moyale": [
+  {
+   "sira": 2203,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "mevcut_kaynak": "Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:561",
+   "lat": 3.533,
+   "lon": 39.05,
+   "zincir_guncel": "s:habesistan 1897-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-11-30 | s:habesistan 1941-11-30→1974-09-12 | s:etiyopya-derg 1974-09-12→1991-05-29 | s:etiyopya-gecis-hukumeti 1991-05-29→1995-08-22 | s:etiyopya-federal 1995-08-22→2000-12-31"
+  }
+ ],
+ "Negele Borana": [
+  {
+   "sira": 2206,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "mevcut_kaynak": "Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1041",
+   "lat": 5.33,
+   "lon": 39.58,
+   "zincir_guncel": "s:habesistan 1897-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-11-30 | s:habesistan 1941-11-30→1974-09-12 | s:etiyopya-derg 1974-09-12→1991-05-29 | s:etiyopya-gecis-hukumeti 1991-05-29→1995-08-22 | s:etiyopya-federal 1995-08-22→2000-12-31"
+  }
+ ],
+ "Pibor": [
+  {
+   "sira": 2213,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1001",
+   "lat": 6.8,
+   "lon": 33.133,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Torit": [
+  {
+   "sira": 2239,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:846",
+   "lat": 4.412,
+   "lon": 32.57,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Vanlaveyn": [
+  {
+   "sira": 2037,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi» (1905-01-01, yer kolu) kaynağı — TDV İslâm Ansiklopedisi: somali · BEYANLI: olayın kaynağıdır, yerleşim tanı",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1107",
+   "lat": 2.62,
+   "lon": 44.89,
+   "zincir_guncel": "s:somali 1281-01-01→1905-01-01 | s:italya 1905-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-02-25 | s:somali-ingiliz-askeri-idaresi 1941-02-25→1950-04-01 | s:somali-italyan-vesayet 1950-04-01→1960-07-01 | s:somali-cumhuriyeti 1960-07-01→2000-12-31"
+  },
+  {
+   "sira": 2038,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-02-25",
+   "mevcut_kaynak": "Britannica: Italian East Africa, 1 Haziran 1936",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1107",
+   "lat": 2.62,
+   "lon": 44.89,
+   "zincir_guncel": "s:somali 1281-01-01→1905-01-01 | s:italya 1905-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-02-25 | s:somali-ingiliz-askeri-idaresi 1941-02-25→1950-04-01 | s:somali-italyan-vesayet 1950-04-01→1960-07-01 | s:somali-cumhuriyeti 1960-07-01→2000-12-31"
+  }
+ ],
+ "Sumbavanga": [
+  {
+   "sira": 1974,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fipa-nyakyusa",
+   "f": "1281-01-01",
+   "t": "1890-11-04",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1388",
+   "lat": -7.97,
+   "lon": 31.62,
+   "zincir_guncel": "s:fipa-nyakyusa 1281-01-01→1890-11-04 | s:alman-dogu-afrikasi 1890-11-04→1916-09-01 | s:ingiltere 1916-09-01→1922-07-20 | s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09 | s:tanganika 1961-12-09→1964-04-26 | s:tanzanya 1964-04-26→2000-12-31"
+  }
+ ],
+ "Tete": [
+  {
+   "sira": 1994,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1531-01-01",
+   "t": "1974-09-20",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1768",
+   "lat": -16.16,
+   "lon": 33.59,
+   "zincir_guncel": "s:portekiz-mozambik 1531-01-01→1974-09-20 | s:mozambik-gecis-hukumeti 1974-09-20→1975-06-25 | s:mozambik 1975-06-25→2000-12-31"
+  }
+ ]
+}

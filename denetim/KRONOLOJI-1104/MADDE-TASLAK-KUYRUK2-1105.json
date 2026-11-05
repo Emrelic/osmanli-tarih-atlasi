@@ -1,0 +1,771 @@
+{
+ "taslaklar": [
+  {
+   "no": "LOM-01",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Lomé"
+    ],
+    "t": "1914-08-07",
+    "gun": "7 Ağustos 1914",
+    "kesinlik": "gun",
+    "devlet": "ingiltere",
+    "devletler": [
+     "alman-togo",
+     "ingiltere"
+    ],
+    "b": "Lomé ve çevresi İngiliz (Gold Coast Regiment) kuvvetlerine teslim oldu — Alman Togosu'nun başkenti işgal altına girdi",
+    "tur": "isgal",
+    "onem": 3,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "isgal",
+     "konu-askeri",
+     "konu-siyasi",
+     "alman-togo",
+     "ingiltere"
+    ],
+    "yer_id": "Lomé",
+    "d": "Birinci Dünya Savaşı'nın başında Gold Coast Regiment Togo'yu istila etti. Yüzbaşı E. B. Barker 6 Ağustos 1914'te beyaz bayrakla başkent Lomé'ye girdi; ertesi gün (7 Ağustos) kent ve denizden 120 km'ye kadar iç bölgesi teslim edildi. Fransızlar Anecho'yu 8 Ağustos'ta işgal etti. Lomé, 1914 sonundaki İngiliz-Fransız yönetim bölüşümünde İngiliz sektöründe kaldı.",
+    "kaynak": "Report by His Britannic Majesty's Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland, 1920-1931 (archive.org item report-togoland-1920, ham metin, sayfa.py ia-oku, 5 Kasım 2026), §3: «On the 6th August, 1914, Captain E. B. Barker, accompanied by Mr. H. S. Newlands, Political Officer, entered the capital, Lome, under a flag of truce and, on the following day, that town and the hinterland for a distance of 120 kilometres from the sea was surrendered. On the 8th August, Anecho (Petit Popo) was occupied by the French.»",
+    "ic_not": "OCR 'H. 8. Newlands' = H. S. Newlands. 6 Ağustos girişi, 7 Ağustos teslim; atlas günü 7 Ağustos (teslim)."
+   },
+   "teyit": "KAYNAKLI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Lomé",
+     "alan": "isg",
+     "d": "ingiltere",
+     "gun": "1914-08-07",
+     "uc": "f",
+     "hukum": "KAYNAKLI"
+    }
+   ],
+   "d2_olcum": "±30 gün içinde Togo/Lomé anan madde yok (data/olaylar*.js + kronoloji_sinir*.js grep: togo|lom|1914-08).",
+   "not": "Lomé isg ingiltere f=1914-08-07 bu maddeyle örtülür. Aynı gün komşu Togo yerleşimleri için kırılma YOK (Fransız sektörü sonradan 1914-08-26).",
+   "ceviri": {
+    "en": {
+     "b": "Lomé and its hinterland surrendered to British (Gold Coast Regiment) forces — the capital of German Togoland fell under occupation",
+     "d": "At the start of the First World War the Gold Coast Regiment invaded Togoland. Captain E. B. Barker entered the capital Lomé under a flag of truce on 6 August 1914; the next day (7 August) the town and its hinterland up to 120 km from the sea were surrendered. The French occupied Anecho on 8 August. In the Anglo-French division of administration at the end of 1914, Lomé stayed in the British sector."
+    },
+    "ar": {
+     "b": "استسلمت لومي وما حولها للقوات البريطانية (فوج ساحل الذهب) — وقعت عاصمة توغو الألمانية تحت الاحتلال",
+     "d": "في بداية الحرب العالمية الأولى غزا فوج ساحل الذهب توغولاند. دخل النقيب إي. بي. باركر العاصمة لومي تحت راية بيضاء في 6 أغسطس 1914، وفي اليوم التالي (7 أغسطس) سُلّمت المدينة وداخلها حتى 120 كم من البحر. واحتل الفرنسيون أنيكو في 8 أغسطس. وفي تقسيم الإدارة البريطاني الفرنسي أواخر 1914 بقيت لومي في القطاع البريطاني."
+    },
+    "de": {
+     "b": "Lomé und sein Hinterland ergaben sich britischen Truppen (Gold Coast Regiment) — die Hauptstadt Deutsch-Togos wurde besetzt",
+     "d": "Zu Beginn des Ersten Weltkriegs fiel das Gold Coast Regiment in Togo ein. Hauptmann E. B. Barker zog am 6. August 1914 unter weißer Flagge in die Hauptstadt Lomé ein; am folgenden Tag (7. August) wurden die Stadt und ihr Hinterland bis 120 km von der Küste übergeben. Die Franzosen besetzten am 8. August Anecho. Bei der britisch-französischen Aufteilung der Verwaltung Ende 1914 blieb Lomé im britischen Sektor."
+    },
+    "es": {
+     "b": "Lomé y su interior se rindieron a las fuerzas británicas (Gold Coast Regiment) — la capital del Togo alemán quedó ocupada",
+     "d": "Al comenzar la Primera Guerra Mundial el Gold Coast Regiment invadió Togo. El capitán E. B. Barker entró en la capital, Lomé, bajo bandera blanca el 6 de agosto de 1914; al día siguiente (7 de agosto) la ciudad y su interior hasta 120 km de la costa se rindieron. Los franceses ocuparon Anecho el 8 de agosto. En el reparto anglo-francés de la administración a finales de 1914, Lomé quedó en el sector británico."
+    },
+    "fr": {
+     "b": "Lomé et son arrière-pays se rendent aux forces britanniques (Gold Coast Regiment) — la capitale du Togo allemand est occupée",
+     "d": "Au début de la Première Guerre mondiale, le Gold Coast Regiment envahit le Togo. Le capitaine E. B. Barker entra dans la capitale, Lomé, sous drapeau blanc le 6 août 1914 ; le lendemain (7 août), la ville et son arrière-pays jusqu'à 120 km de la mer furent livrés. Les Français occupèrent Anécho le 8 août. Lors du partage anglo-français de l'administration fin 1914, Lomé resta dans le secteur britannique."
+    },
+    "pt": {
+     "b": "Lomé e o seu interior renderam-se às forças britânicas (Gold Coast Regiment) — a capital do Togo alemão foi ocupada",
+     "d": "No início da Primeira Guerra Mundial o Gold Coast Regiment invadiu o Togo. O capitão E. B. Barker entrou na capital, Lomé, sob bandeira branca a 6 de agosto de 1914; no dia seguinte (7 de agosto) a cidade e o interior até 120 km da costa foram entregues. Os franceses ocuparam Anecho a 8 de agosto. Na divisão anglo-francesa da administração no fim de 1914, Lomé ficou no setor britânico."
+    },
+    "ru": {
+     "b": "Ломе и его тыловая область сдались британским войскам (Gold Coast Regiment) — столица германского Того оказалась под оккупацией",
+     "d": "В начале Первой мировой войны Gold Coast Regiment вторгся в Того. Капитан Э. Б. Баркер вошёл в столицу Ломе под белым флагом 6 августа 1914 года; на следующий день (7 августа) город и его тыловая область на 120 км от моря были сданы. Французы заняли Анеко 8 августа. При англо-французском разделе управления в конце 1914 года Ломе осталось в британском секторе."
+    }
+   }
+  },
+  {
+   "no": "TOG-02",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Atakpamé",
+     "Sokodé",
+     "Ho (Togoland)",
+     "Kpando",
+     "Yendi (Dagbon)",
+     "Lomé"
+    ],
+    "t": "1914-08-26",
+    "gun": "26 Ağustos 1914",
+    "kesinlik": "gun",
+    "devlet": "alman-togo",
+    "devletler": [
+     "alman-togo",
+     "ingiltere",
+     "fransa-cumhuriyet"
+    ],
+    "b": "Alman Togosu'nun vekil valisi kolonisini kayıtsız şartsız teslim etti — ülke İngiliz-Fransız ortak askerî yönetimine geçti",
+    "tur": "isgal",
+    "onem": 4,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "isgal",
+     "konu-askeri",
+     "konu-siyasi",
+     "alman-togo",
+     "ingiltere",
+     "fransa-cumhuriyet"
+    ],
+    "yer_id": "Lomé",
+    "d": "26 Ağustos 1914'te Togo'nun vekil valisi kolonisini kayıtsız şartsız teslim etti. Gold Coast valisi Sir Hugh Clifford ile Dahomey valisi Noufflard'ın görüşmeleriyle, ülkenin sıkıyönetim altında İngiliz ve Fransız görevlilerce birlikte yönetilmesi kararlaştırıldı: Lomé ve Lomeland, Misahöhe (Ho, Kpando dahil), Kete-Kratchi ve Yendi İngilizlere; Anecho, Atakpamé, Sokodé ve Sansanne-Mangu Fransızlara verildi.",
+    "kaynak": "Report by His Britannic Majesty's Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland, 1920-1931 (archive.org item report-togoland-1920, ham metin, sayfa.py ia-oku, 5 Kasım 2026), §3-4: «On the 26th August the Acting Governor surrendered the Colony unconditionally.» · «Under this agreement Togoland was to be jointly administered, under martial law, by British and French officials. To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu.»",
+    "ic_not": "Bölüşüm sözleşmesinin günü raporda YOK (gece-126 notu: 27 Aralık 1914 BULUNAMADI); yalnız teslim günü 26 Ağustos KAYNAKLI. Kara ve Notse Fransız sektörü ilçelerinin coğrafî çıkarımıdır."
+   },
+   "teyit": "KAYNAKLI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Atakpamé",
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "KAYNAKLI (ilçe adı alıntıda)"
+    },
+    {
+     "yerlesim": "Sokodé",
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "KAYNAKLI (ilçe adı alıntıda)"
+    },
+    {
+     "yerlesim": "Ho (Togoland)",
+     "alan": "isg",
+     "d": "ingiltere",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "KAYNAKLI (Misahöhe, Kpandu ve Ho'yu kapsar: rapor §49)"
+    },
+    {
+     "yerlesim": "Kpando",
+     "alan": "isg",
+     "d": "ingiltere",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "KAYNAKLI (aynı)"
+    },
+    {
+     "yerlesim": "Yendi (Dagbon)",
+     "alan": "isg",
+     "d": "ingiltere",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "KAYNAKLI (Yendi ilçe adı alıntıda)"
+    },
+    {
+     "yerlesim": "Hohoe",
+     "alan": "isg",
+     "d": "ingiltere",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "ONERI (Misahöhe ilçesi çıkarımı)"
+    },
+    {
+     "yerlesim": "Kara (Togo)",
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "ONERI (Sansanne-Mangu/Sokodé hattı coğrafî çıkarım)"
+    },
+    {
+     "yerlesim": "Notse",
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "gun": "1914-08-26",
+     "uc": "f",
+     "hukum": "ONERI (Atakpamé hattı coğrafî çıkarım)"
+    }
+   ],
+   "d2_olcum": "±30 gün içinde Togo teslimini anan madde yok. Bağlı: alman-togo künye t 1914-08-26 -> 1919-06-28 GENİŞLET ile aynı commit; madde günü (1914-08-26) yerleşimlerin isg f ucunu örter, künye t uzatıldığı için 1919-06-28 kırılması için ayrıca VER-06 gerekir.",
+   "not": "Madde Alman Togosu'nun fiilî sonudur (26 Ağustos); hukuken devir 1919-06-28 (VER-06). Bu iki madde birlikte okunmalı.",
+   "ceviri": {
+    "en": {
+     "b": "The acting governor of German Togoland surrendered the colony unconditionally — the country passed under joint Anglo-French military administration",
+     "d": "On 26 August 1914 the acting governor of Togoland surrendered the colony unconditionally. After talks between Sir Hugh Clifford, Governor of the Gold Coast, and Noufflard, Governor of Dahomey, the country was to be administered jointly under martial law by British and French officials: Lomé and Lomeland, Misahöhe (including Ho and Kpando), Kete-Kratchi and Yendi went to the British; Anecho, Atakpamé, Sokodé and Sansanne-Mangu to the French."
+    },
+    "ar": {
+     "b": "سلّم الحاكم بالنيابة لتوغولاند الألمانية المستعمرة دون قيد أو شرط — وانتقلت البلاد إلى إدارة عسكرية بريطانية فرنسية مشتركة",
+     "d": "في 26 أغسطس 1914 سلّم الحاكم بالنيابة لتوغولاند المستعمرة دون قيد أو شرط. وبعد محادثات بين السير هيو كليفورد حاكم ساحل الذهب ونوفلار حاكم داهومي، تقرر أن يديرها مسؤولون بريطانيون وفرنسيون معاً في ظل الأحكام العرفية: لومي ولوميلاند وميساهوه (بما فيها هو وكباندو) وكيتي-كراتشي ويندي للبريطانيين؛ وأنيكو وأتاكباميه وسوكودي وسانسان-مانغو للفرنسيين."
+    },
+    "de": {
+     "b": "Der amtierende Gouverneur von Deutsch-Togo übergab die Kolonie bedingungslos — das Land kam unter gemeinsame britisch-französische Militärverwaltung",
+     "d": "Am 26. August 1914 übergab der amtierende Gouverneur Togos die Kolonie bedingungslos. Nach Gesprächen zwischen Sir Hugh Clifford, Gouverneur der Goldküste, und Noufflard, Gouverneur von Dahomey, sollte das Land unter Kriegsrecht gemeinsam von britischen und französischen Beamten verwaltet werden: Lomé und Lomeland, Misahöhe (mit Ho und Kpando), Kete-Kratschi und Yendi fielen an die Briten; Anecho, Atakpame, Sokode und Sansanne-Mangu an die Franzosen."
+    },
+    "es": {
+     "b": "El gobernador en funciones del Togo alemán entregó la colonia sin condiciones — el país pasó a una administración militar conjunta anglo-francesa",
+     "d": "El 26 de agosto de 1914 el gobernador en funciones de Togo entregó la colonia sin condiciones. Tras las conversaciones entre Sir Hugh Clifford, gobernador de la Costa de Oro, y Noufflard, gobernador de Dahomey, el país se administraría conjuntamente bajo ley marcial por funcionarios británicos y franceses: Lomé y Lomeland, Misahöhe (con Ho y Kpando), Kete-Kratchi y Yendi pasaron a los británicos; Anecho, Atakpamé, Sokodé y Sansanne-Mangu, a los franceses."
+    },
+    "fr": {
+     "b": "Le gouverneur par intérim du Togo allemand rendit la colonie sans condition — le pays passa sous administration militaire conjointe franco-britannique",
+     "d": "Le 26 août 1914, le gouverneur par intérim du Togo rendit la colonie sans condition. Après des pourparlers entre Sir Hugh Clifford, gouverneur de la Côte-de-l'Or, et Noufflard, gouverneur du Dahomey, le pays devait être administré conjointement, sous loi martiale, par des fonctionnaires britanniques et français : Lomé et Lomeland, Misahöhe (avec Ho et Kpando), Kete-Kratchi et Yendi revinrent aux Britanniques ; Anécho, Atakpamé, Sokodé et Sansanne-Mangu aux Français."
+    },
+    "pt": {
+     "b": "O governador interino do Togo alemão entregou a colónia sem condições — o país passou a uma administração militar conjunta anglo-francesa",
+     "d": "A 26 de agosto de 1914 o governador interino do Togo entregou a colónia sem condições. Após conversações entre Sir Hugh Clifford, governador da Costa do Ouro, e Noufflard, governador do Daomé, o país seria administrado conjuntamente, sob lei marcial, por funcionários britânicos e franceses: Lomé e Lomeland, Misahöhe (com Ho e Kpando), Kete-Kratchi e Yendi couberam aos britânicos; Anecho, Atakpamé, Sokodé e Sansanne-Mangu aos franceses."
+    },
+    "ru": {
+     "b": "Исполняющий обязанности губернатора германского Того безоговорочно сдал колонию — страна перешла под совместное англо-французское военное управление",
+     "d": "26 августа 1914 года исполняющий обязанности губернатора Того безоговорочно сдал колонию. После переговоров сэра Хью Клиффорда, губернатора Золотого Берега, и Нуффлара, губернатора Дагомеи, страна должна была управляться совместно британскими и французскими чиновниками при военном положении: Ломе и Ломеленд, Мисахёэ (с Хо и Кпандо), Кете-Кратчи и Йенди отошли британцам; Анеко, Атакпаме, Сокоде и Сансанн-Манго — французам."
+    }
+   }
+  },
+  {
+   "no": "DAG-03",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Yendi (Dagbon)"
+    ],
+    "t": "1899-11-14",
+    "gun": "14 Kasım 1899",
+    "kesinlik": "gun",
+    "devlet": "alman-togo",
+    "devletler": [
+     "dagbon",
+     "alman-togo",
+     "ingiltere"
+    ],
+    "b": "Anglo-Alman Antlaşması: Altın Sahili–Togo tarafsız bölgesi paylaşıldı — doğu yarısı (Yendi ve Dagbon'un doğusu) Almanya'ya kaldı",
+    "tur": "antlasma",
+    "onem": 3,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "antlasma",
+     "konu-diplomasi",
+     "konu-siyasi",
+     "dagbon",
+     "alman-togo",
+     "ingiltere"
+    ],
+    "yer_id": "Yendi",
+    "d": "14 Kasım 1899 tarihli İngiliz-Alman sözleşmesinin I. ve II. maddeleriyle Altın Sahili ile Togo arasındaki tarafsız bölgenin doğu yarısı Almanya'ya, batı yarısı İngiltere'ye bırakıldı; V. madde kuzey sınırını tanımladı. Dagbon'un başkenti Yendi bu paylaşımla Alman Togosu'nda kaldı; bölge 1914'te İngiliz işgaline girdi. Aynı gün imzalanan anlaşma Samoa konusunu da içerir (Samoa metni bu kaynakta görülmedi).",
+    "kaynak": "Hertslet, The Map of Africa by Treaty (3. basım, 1909; archive.org item mapofafricabytr01hert, cilt I, Gold Coast, «Frontier with German Territory (Togoland)»): «The eastern portion of the Neutral Zone was recognised as falling to Germany, and the western portion to Great Britain, by Arts. I and II of the Convention of the 14th November, 1899 … and by Art. V of the same Convention the frontier to the north between the British and German possessions was defined.» · Cilt III Great Britain and Germany listesinde No. 277: 14 Nov., 1899. · Onay: Report by His Britannic Majesty's Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland, 1920-1931 (archive.org item report-togoland-1920, ham metin, sayfa.py ia-oku, 5 Kasım 2026) §2: «Subsequent agreements dated the 23rd July, 1897, and 14th November, 1899 … defined the Northern Frontiers of Togoland.»",
+    "ic_not": "Yendi'nin tarafsız bölgenin DOĞU yarısında olduğu Hertslet alıntısında açıkça YAZMIYOR (Yendi adı o sayfada geçmiyor); Yendi'nin Alman Togosu'nda kalması gün 1899-11-14 sonrası İngiliz sektörü raporuyla (Yendi, Alman Sansanne-Mangu ilçesinin alt ilçesi) tutarlı. Samoa metni görülmedi."
+   },
+   "teyit": "KAYNAKLI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Yendi (Dagbon)",
+     "alan": "s",
+     "d": "dagbon",
+     "gun": "1899-11-14",
+     "uc": "t",
+     "hukum": "KAYNAKLI gün (antlaşma) / ONERI Yendi=doğu yarı"
+    },
+    {
+     "yerlesim": "Yendi (Dagbon)",
+     "alan": "s",
+     "d": "alman-togo",
+     "gun": "1899-11-14",
+     "uc": "f",
+     "hukum": "KAYNAKLI gün (antlaşma) / ONERI Yendi=doğu yarı"
+    }
+   ],
+   "d2_olcum": "±30 gün içinde yok. Yakın: olaylar_ek5.js:437 (1899-11-27 Konya-Bağdat) konu farklı.",
+   "not": "Hertslet baskısı: 'The map of Africa by treaty' 3 cilt (1909). Rapor §2 antlaşmayı yalnız sınır tanımı olarak anar; dagbon t 1899-01-01 -> 1899-11-14 GENİŞLET BEYANLI ile aynı commit.",
+   "ceviri": {
+    "en": {
+     "b": "Anglo-German Agreement: the Gold Coast–Togoland Neutral Zone was divided — its eastern half (Yendi and eastern Dagbon) went to Germany",
+     "d": "By Articles I and II of the Anglo-German convention of 14 November 1899 the eastern half of the Neutral Zone between the Gold Coast and Togoland fell to Germany and the western half to Britain; Article V defined the northern frontier. Yendi, the capital of Dagbon, thus remained in German Togoland until the British occupation of 1914. The agreement of the same day also covers Samoa (the Samoa text was not seen in this source)."
+    },
+    "ar": {
+     "b": "الاتفاق الإنجليزي الألماني: تقسيم المنطقة المحايدة بين ساحل الذهب وتوغولاند — نصفها الشرقي (يندي وشرق داغبون) لألمانيا",
+     "d": "بموجب المادتين الأولى والثانية من الاتفاقية الإنجليزية الألمانية في 14 نوفمبر 1899 آل النصف الشرقي من المنطقة المحايدة بين ساحل الذهب وتوغولاند إلى ألمانيا والنصف الغربي إلى بريطانيا، وحددت المادة الخامسة الحدود الشمالية. وهكذا بقيت يندي عاصمة داغبون في توغولاند الألمانية حتى الاحتلال البريطاني عام 1914. ويشمل الاتفاق الصادر في اليوم نفسه مسألة ساموا أيضاً (لم يُطّلع على نص ساموا في هذا المصدر)."
+    },
+    "de": {
+     "b": "Britisch-deutsches Abkommen: Die Neutrale Zone zwischen Goldküste und Togo wurde geteilt — ihre Osthälfte (Yendi und Ost-Dagbon) fiel an Deutschland",
+     "d": "Durch die Artikel I und II des britisch-deutschen Abkommens vom 14. November 1899 fiel die östliche Hälfte der Neutralen Zone zwischen Goldküste und Togo an Deutschland, die westliche an Großbritannien; Artikel V legte die Nordgrenze fest. Yendi, die Hauptstadt Dagbons, blieb so bis zur britischen Besetzung 1914 in Deutsch-Togo. Das Abkommen desselben Tages betrifft auch Samoa (der Samoa-Text wurde in dieser Quelle nicht eingesehen)."
+    },
+    "es": {
+     "b": "Acuerdo anglo-alemán: se dividió la Zona Neutral entre Costa de Oro y Togo — su mitad oriental (Yendi y el este de Dagbon) quedó para Alemania",
+     "d": "Por los artículos I y II del convenio anglo-alemán del 14 de noviembre de 1899, la mitad oriental de la Zona Neutral entre la Costa de Oro y Togo pasó a Alemania y la occidental a Gran Bretaña; el artículo V definió la frontera norte. Yendi, capital de Dagbon, permaneció así en el Togo alemán hasta la ocupación británica de 1914. El acuerdo del mismo día abarca también Samoa (el texto sobre Samoa no se vio en esta fuente)."
+    },
+    "fr": {
+     "b": "Accord anglo-allemand : la zone neutre entre Côte-de-l'Or et Togo est partagée — sa moitié orientale (Yendi et l'est du Dagbon) revient à l'Allemagne",
+     "d": "Par les articles I et II de la convention anglo-allemande du 14 novembre 1899, la moitié orientale de la zone neutre entre la Côte-de-l'Or et le Togo revint à l'Allemagne et la moitié occidentale à la Grande-Bretagne ; l'article V définit la frontière nord. Yendi, capitale du Dagbon, resta ainsi dans le Togo allemand jusqu'à l'occupation britannique de 1914. L'accord du même jour concerne aussi Samoa (le texte sur Samoa n'a pas été vu dans cette source)."
+    },
+    "pt": {
+     "b": "Acordo anglo-alemão: a Zona Neutra entre a Costa do Ouro e o Togo foi dividida — a metade oriental (Yendi e o leste de Dagbon) ficou com a Alemanha",
+     "d": "Pelos artigos I e II da convenção anglo-alemã de 14 de novembro de 1899, a metade oriental da Zona Neutra entre a Costa do Ouro e o Togo coube à Alemanha e a ocidental à Grã-Bretanha; o artigo V definiu a fronteira norte. Yendi, capital de Dagbon, permaneceu assim no Togo alemão até à ocupação britânica de 1914. O acordo do mesmo dia abrange também Samoa (o texto sobre Samoa não foi visto nesta fonte)."
+    },
+    "ru": {
+     "b": "Англо-германское соглашение: нейтральная зона между Золотым Берегом и Того разделена — её восточная половина (Йенди и восток Дагбона) отошла Германии",
+     "d": "Статьями I и II англо-германской конвенции от 14 ноября 1899 года восточная половина нейтральной зоны между Золотым Берегом и Того отошла Германии, а западная — Великобритании; статья V определила северную границу. Йенди, столица Дагбона, остался в германском Того до британской оккупации 1914 года. Соглашение того же дня касается и Самоа (текст по Самоа в этом источнике не просмотрен)."
+    }
+   }
+  },
+  {
+   "no": "ZIM-04",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Khami"
+    ],
+    "t": "1684-01-01",
+    "gun": "1684 (yalnız yıl; gün yok)",
+    "kesinlik": "yil",
+    "devlet": "rozvi",
+    "devletler": [
+     "torva",
+     "rozvi"
+    ],
+    "b": "Changamire Dombo'nun Rozvi devleti kuruldu — Zimbabve platosunda Torva'nın yerini Rozvi aldı",
+    "tur": "kurulus",
+    "onem": 3,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "kurulus",
+     "konu-siyasi",
+     "torva",
+     "rozvi"
+    ],
+    "yer_id": "Khami",
+    "d": "XVII. yüzyılın sonlarında Çanga (Changamire) liderliğindeki Rozvi hânedanı yükseldi ve Zimbabve platosunda Monomutapa imparatorluğu ortadan kalktı. Atlas bu geçişi Torva'dan Rozvi'ye 1684 yılı olarak işler; kaynaklar yalnız 'yüzyıl sonu' der, gün ve kesin yıl yoktur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026): «Monomutapa adıyla anılan bu imparatorluk, XVII. yüzyılın sonlarında Portekizliler’in gittikçe artan baskısı ve Çanga liderliğindeki Rozvi hânedanının yükselişiyle ortadan kalktı.» — TDV Torva'yı ve 1684'ü anmaz.",
+    "ic_not": "[yalnız yıl] 1684 TDV'de YOK ('XVII. yüzyılın sonlarında'); torva t = rozvi f = 1684 LAB kararıdır (gece-127), TDV yıl vermez. Akademik teyit (Beach, The Shona and Zimbabwe 900-1850, 1980) OKUNMADI."
+   },
+   "teyit": "ONERI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Khami",
+     "alan": "s",
+     "d": "torva",
+     "gun": "1684-01-01",
+     "uc": "t",
+     "hukum": "ONERI [yalnız yıl; yıl LAB kararı]"
+    },
+    {
+     "yerlesim": "Khami",
+     "alan": "s",
+     "d": "rozvi",
+     "gun": "1684-01-01",
+     "uc": "f",
+     "hukum": "ONERI [yalnız yıl; yıl LAB kararı]"
+    }
+   ],
+   "d2_olcum": "±30 gün (1683-12 / 1684-02) içinde Zimbabve/Rozvi/Torva anan madde yok. Yakın tarihli olaylar_ek3.js:36-37 (Kutsal İttifak, Budin) konu dışı.",
+   "not": "Madde ancak torva/rozvi künye değişikliğiyle aynı commit'te girer. Khami'nin 1680'lerde terk edilip edilmediği kaynakta bulunamadı.",
+   "ceviri": {
+    "en": {
+     "b": "Changamire Dombo's Rozvi state arose — on the Zimbabwe plateau Rozvi replaced Torwa",
+     "d": "In the late seventeenth century the Rozvi dynasty under Changamire rose and the Monomotapa empire disappeared from the Zimbabwe plateau. The atlas treats this as Torwa giving way to Rozvi in the year 1684; the sources only say 'late in the century', with no day and no firm year."
+    },
+    "ar": {
+     "b": "قيام دولة روزفي بزعامة شانغاميري دومبو — حلّت روزفي محل تورفا في هضبة زيمبابوي",
+     "d": "في أواخر القرن السابع عشر صعدت أسرة روزفي بقيادة شانغاميري واختفت إمبراطورية مونوموتابا من هضبة زيمبابوي. يعتمد الأطلس هذا الانتقال من تورفا إلى روزفي في سنة 1684؛ والمصادر تقول فقط «أواخر القرن» دون يوم أو سنة محددة."
+    },
+    "de": {
+     "b": "Changamire Dombos Rozvi-Staat entstand — auf dem Simbabwe-Plateau löste Rozvi Torwa ab",
+     "d": "Im späten 17. Jahrhundert stieg die Rozvi-Dynastie unter Changamire auf, und das Reich Monomotapa verschwand vom Simbabwe-Plateau. Der Atlas behandelt dies als Ablösung Torwas durch Rozvi im Jahr 1684; die Quellen sagen nur 'Ende des Jahrhunderts', ohne Tag und ohne sicheres Jahr."
+    },
+    "es": {
+     "b": "Surgió el estado Rozvi de Changamire Dombo — en la meseta de Zimbabue Rozvi sustituyó a Torwa",
+     "d": "A finales del siglo XVII la dinastía Rozvi, bajo Changamire, ascendió y el imperio de Monomotapa desapareció de la meseta de Zimbabue. El atlas lo trata como el relevo de Torwa por Rozvi en el año 1684; las fuentes solo dicen 'a finales del siglo', sin día ni año firme."
+    },
+    "fr": {
+     "b": "Naissance de l'État rozvi de Changamire Dombo — sur le plateau du Zimbabwe, les Rozvi remplacent les Torwa",
+     "d": "À la fin du XVIIe siècle, la dynastie rozvi dirigée par Changamire s'éleva et l'empire du Monomotapa disparut du plateau du Zimbabwe. L'atlas y voit le remplacement des Torwa par les Rozvi en l'an 1684 ; les sources disent seulement « à la fin du siècle », sans jour ni année ferme."
+    },
+    "pt": {
+     "b": "Surgiu o Estado Rozvi de Changamire Dombo — no planalto do Zimbabwe os Rozvi substituíram os Torwa",
+     "d": "No final do século XVII a dinastia Rozvi, sob Changamire, ascendeu e o império de Monomotapa desapareceu do planalto do Zimbabwe. O atlas trata isso como a substituição dos Torwa pelos Rozvi no ano de 1684; as fontes dizem apenas 'no final do século', sem dia nem ano firme."
+    },
+    "ru": {
+     "b": "Возникло государство Розви Чангамире Домбо — на плато Зимбабве Розви сменило Торва",
+     "d": "В конце XVII века династия Розви под предводительством Чангамире возвысилась, и империя Мономотапа исчезла с плато Зимбабве. Атлас трактует это как смену Торва государством Розви в 1684 году; источники говорят лишь «в конце века», без дня и без твёрдого года."
+    }
+   }
+  },
+  {
+   "no": "ZIM-05",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Danangombe (Rozvi)",
+     "Khami"
+    ],
+    "t": "1840-01-01",
+    "gun": "1840 (yalnız yıl; gün yok)",
+    "kesinlik": "yil",
+    "devlet": "matabele",
+    "devletler": [
+     "rozvi",
+     "matabele"
+    ],
+    "b": "Mzilikazi'nin Ndebele (Matabele) devleti Zimbabve platosuna yerleşti — Rozvi hâkimiyeti sona erdi",
+    "tur": "kurulus",
+    "onem": 3,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "kurulus",
+     "konu-siyasi",
+     "konu-askeri",
+     "rozvi",
+     "matabele"
+    ],
+    "yer_id": "Danangombe (Rozvi)",
+    "d": "Zulu baskısından kaçan Mzilikazi'nin Ndebele kuvvetleri 1830'lardan itibaren güneyden gelip Zimbabve platosunu istila etti, Şona halkını egemenliği altına aldı ve Ndebele (Matabele) Devleti'ni kurdu. Atlas Rozvi'nin sonunu ve Matabele'nin başlangıcını 1840 yılına koyar; kaynaklarda kesin yıl ve gün yoktur.",
+    "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026): «Bundan daha etkilisi Ndebele Devleti’ni kuran Mzilikazi güçlerinin istilâsıdır. Bölge halkı Şonalar’ı tam bir hâkimiyet altına alan Mzilikazi …» · «Zimbabve tarihinde etkili olan ikinci Bantu göçü 1830’larda bu defa güneyden geldi.»",
+    "ic_not": "[yalnız yıl] 1840 TDV'de YOK: metin göçü '1830'larda' (Ngoni) anar, Ndebele'nin yıl vermez; rozvi t = matabele f = 1840 LAB kararıdır (BEYANLI). Bu madde yıl TDV'de olmadığından 'yıl bilinmiyorsa yıl yazılmaz' kuralına en yakın sınırdadır; EMRELİC karar versin: 1840 BEYANLI mı, kaynak (Beach 1980 / Bhila) bulunana kadar bekletilsin mi."
+   },
+   "teyit": "ONERI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Danangombe (Rozvi)",
+     "alan": "s",
+     "d": "rozvi",
+     "gun": "1840-01-01",
+     "uc": "t",
+     "hukum": "ONERI [yalnız yıl; yıl LAB kararı]"
+    },
+    {
+     "yerlesim": "Danangombe (Rozvi)",
+     "alan": "s",
+     "d": "matabele",
+     "gun": "1840-01-01",
+     "uc": "f",
+     "hukum": "ONERI [yalnız yıl; yıl LAB kararı]"
+    },
+    {
+     "yerlesim": "Khami",
+     "alan": "s",
+     "d": "rozvi",
+     "gun": "1840-01-01",
+     "uc": "t",
+     "hukum": "ONERI [yalnız yıl]"
+    },
+    {
+     "yerlesim": "Khami",
+     "alan": "s",
+     "d": "matabele",
+     "gun": "1840-01-01",
+     "uc": "f",
+     "hukum": "ONERI [yalnız yıl]"
+    }
+   ],
+   "d2_olcum": "±30 gün içinde Zimbabve/Matabele anan madde yok; olaylar_ek4.js 1840-07..11 Londra/Beyrut maddeleri konu dışı.",
+   "not": "Künye: rozvi t 1834-01-01 -> 1840-01-01 GENİŞLET ve matabele f 1840-01-01 aynı commit.",
+   "ceviri": {
+    "en": {
+     "b": "Mzilikazi's Ndebele (Matabele) state settled on the Zimbabwe plateau — Rozvi rule ended",
+     "d": "Fleeing Zulu pressure, Mzilikazi's Ndebele forces came from the south from the 1830s, invaded the Zimbabwe plateau, brought the Shona under their rule and founded the Ndebele (Matabele) state. The atlas places the end of Rozvi and the start of Matabele in the year 1840; the sources give no firm year and no day."
+    },
+    "ar": {
+     "b": "استقرت دولة الندبيلي (ماتابيلي) بزعامة موزيليكازي في هضبة زيمبابوي — وانتهى حكم الروزفي",
+     "d": "فرّت قوات موزيليكازي من ضغط الزولو وجاءت من الجنوب منذ ثلاثينيات القرن التاسع عشر، فغزت هضبة زيمبابوي وأخضعت الشونا وأسست دولة الندبيلي (ماتابيلي). ويضع الأطلس نهاية روزفي وبداية ماتابيلي في سنة 1840؛ والمصادر لا تعطي سنة محددة ولا يوماً."
+    },
+    "de": {
+     "b": "Mzilikazis Ndebele-(Matabele-)Staat ließ sich auf dem Simbabwe-Plateau nieder — die Rozvi-Herrschaft endete",
+     "d": "Auf der Flucht vor dem Druck der Zulu kamen Mzilikazis Ndebele-Verbände ab den 1830er Jahren aus dem Süden, überfielen das Simbabwe-Plateau, unterwarfen die Shona und gründeten den Ndebele-(Matabele-)Staat. Der Atlas setzt das Ende der Rozvi und den Beginn Matabeles auf das Jahr 1840; die Quellen nennen weder ein sicheres Jahr noch einen Tag."
+    },
+    "es": {
+     "b": "El estado ndebele (matabele) de Mzilikazi se asentó en la meseta de Zimbabue — terminó el dominio rozvi",
+     "d": "Huyendo de la presión zulú, las fuerzas ndebele de Mzilikazi llegaron desde el sur a partir de la década de 1830, invadieron la meseta de Zimbabue, sometieron a los shona y fundaron el estado ndebele (matabele). El atlas sitúa el fin de Rozvi y el comienzo de Matabele en el año 1840; las fuentes no dan un año firme ni un día."
+    },
+    "fr": {
+     "b": "L'État ndébélé (matabélé) de Mzilikazi s'installe sur le plateau du Zimbabwe — fin de la domination rozvi",
+     "d": "Fuyant la pression zouloue, les forces ndébélé de Mzilikazi arrivèrent du sud à partir des années 1830, envahirent le plateau du Zimbabwe, soumirent les Shona et fondèrent l'État ndébélé (matabélé). L'atlas place la fin des Rozvi et le début des Matabélé en l'an 1840 ; les sources ne donnent ni année ferme ni jour."
+    },
+    "pt": {
+     "b": "O Estado ndebele (matabele) de Mzilikazi fixou-se no planalto do Zimbabwe — terminou o domínio rozvi",
+     "d": "Fugindo da pressão zulu, as forças ndebele de Mzilikazi vieram do sul a partir da década de 1830, invadiram o planalto do Zimbabwe, submeteram os shona e fundaram o Estado ndebele (matabele). O atlas situa o fim dos Rozvi e o início dos Matabele no ano de 1840; as fontes não dão ano firme nem dia."
+    },
+    "ru": {
+     "b": "Государство ндебеле (матабеле) Мзиликази утвердилось на плато Зимбабве — власть Розви закончилась",
+     "d": "Спасаясь от давления зулу, войска ндебеле Мзиликази с 1830-х годов пришли с юга, вторглись на плато Зимбабве, подчинили шона и основали государство ндебеле (матабеле). Атлас относит конец Розви и начало Матабеле к 1840 году; источники не дают ни твёрдого года, ни дня."
+    }
+   }
+  },
+  {
+   "no": "VER-06",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Dar es-Selam",
+     "Lomé",
+     "Tabora (Kazeh)",
+     "Mvanza",
+     "Duala"
+    ],
+    "t": "1919-06-28",
+    "gun": "28 Haziran 1919",
+    "kesinlik": "gun",
+    "devlet": "alman-dogu-afrikasi",
+    "devletler": [
+     "alman-dogu-afrikasi",
+     "alman-togo",
+     "ingiltere",
+     "fransa-cumhuriyet"
+    ],
+    "b": "Versay Antlaşması (md. 119): Almanya denizaşırı topraklarından — Doğu Afrika, Togo ve Kamerun dahil — Müttefik Devletler lehine feragat etti",
+    "tur": "antlasma",
+    "onem": 4,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "antlasma",
+     "konu-diplomasi",
+     "konu-siyasi",
+     "toprak-kaybi",
+     "alman-dogu-afrikasi",
+     "alman-togo",
+     "ingiltere",
+     "fransa-cumhuriyet"
+    ],
+    "yer_id": "Lomé",
+    "d": "28 Haziran 1919'da imzalanan Versay Antlaşması'nın 119. maddesiyle Almanya, Togo dahil bütün denizaşırı haklarından Başlıca Müttefik ve Ortak Devletler lehine feragat etti. TDV, İngilizlerin Versay ile Alman Doğu Afrikası'nın büyük kısmını aldığını söyler. Böylece Alman Doğu Afrikası ve Alman Togosu'nun Alman egemenliği hukuken sona erdi; manda dağılımı 1919-07-10 Milner-Simon bildirisi ve 1922-07-20 Milletler Cemiyeti onayıyla netleşti.",
+    "kaynak": "Order in Council, 11 Ekim 1923 (Report by His Britannic Majesty's Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland, 1920-1931 (archive.org item report-togoland-1920, ham metin, sayfa.py ia-oku, 5 Kasım 2026), Ek. J): «Whereas by Article 119 of the Treaty of Peace with Germany, signed at Versailles on the Twenty-eighth day of June, 1919, Germany, renounced in favour of the Principal Allied and Associated Powers all her rights over her oversea possessions, including therein Togoland» · TDV «Tanzanya»: «1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti».",
+    "ic_not": "Togo için md. 119 KAYNAKLI (Order in Council alıntısı). Doğu Afrika için yalnız TDV yılı (1919) KAYNAKLI; md. 119'un Doğu Afrika'yı kapsadığı TDV metninde açık değil (md. 119 tüm denizaşırı toprakları kapsar; Kamerun kısmı bu turda okunmadı)."
+   },
+   "teyit": "KAYNAKLI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "27 Tanganika yerleşimi (Bagamoyo, Tanga, Bukoba, Mvanza, Mosi, Arusa, Babati, Singida, Ucici, Tabora, Pangani, Dodoma, Mpvapva, Morogoro, Kilosa, Kalenga, Sumbavanga, Kilva Kivince, Mbeya, Lindi, Mikindani, Kilwa Kisiwani, Bveranyange, Njombe, Songea, Masasi, Tunduru)",
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "gun": "1919-06-28",
+     "uc": "t",
+     "hukum": "ONERI-KARAR (TANGANIKA-VERSAY-ISG sistemik model; DOA künye t 1919-06-28 GENİŞLET ile aynı commit)"
+    },
+    {
+     "yerlesim": "Kilindoni (Mafia Adası)",
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "gun": "1919-06-28",
+     "uc": "t",
+     "hukum": "ONERI-KARAR"
+    },
+    {
+     "yerlesim": "Ho, Hohoe, Kpando, Lomé, Atakpamé, Sokodé, Kara, Notse",
+     "alan": "s",
+     "d": "alman-togo",
+     "gun": "1919-06-28",
+     "uc": "t",
+     "hukum": "KAYNAKLI (md. 119 Togoland'ı sayar)"
+    }
+   ],
+   "d2_olcum": "VAR OLAN: data/olaylar_ok109.js:211 (1919-06-28, 'Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi', odak Strazburg/Metz/Colmar/Mulhouse; md. 51 anlatır, md. 119/denizaşırı toprakları ANMAZ — grep 119|Doğu Afrika|Togo bu maddede boş). Konu eşleşmesi YOK → bu taslak ayrıca gerekli. Alternatif: o maddenin odak_yer/d alanına md. 119 + Doğu Afrika/Togo cümlesi eklemek (olaylar biçiminde 'taraflar' alanı yok; alman-dogu-afrikasi / alman-togo taraf ekleme önerisi ancak kronoloji_sinir biçiminde mümkün).",
+   "not": "Hedef dosya kronoloji_sinir_afrika.js (taraflar alanı için). Kamerun'un 1919-06-28 kırılması bu turun kapsamı dışı.",
+   "ceviri": {
+    "en": {
+     "b": "Treaty of Versailles (Art. 119): Germany renounced its overseas possessions — including East Africa, Togoland and Cameroon — in favour of the Allied Powers",
+     "d": "By Article 119 of the Treaty of Versailles, signed on 28 June 1919, Germany renounced all its overseas rights, Togoland included, in favour of the Principal Allied and Associated Powers. The TDV states that the British took most of German East Africa through Versailles. German sovereignty over German East Africa and German Togoland thus ended in law; the mandate allocation became clear through the Milner–Simon declaration of 10 July 1919 and the League of Nations confirmation of 20 July 1922."
+    },
+    "ar": {
+     "b": "معاهدة فرساي (المادة 119): تنازلت ألمانيا عن ممتلكاتها فيما وراء البحار — ومنها شرق أفريقيا وتوغولاند والكاميرون — لصالح الدول المتحالفة",
+     "d": "بالمادة 119 من معاهدة فرساي الموقعة في 28 يونيو 1919 تنازلت ألمانيا عن جميع حقوقها فيما وراء البحار، ومنها توغولاند، لصالح الدول الرئيسية المتحالفة والمشاركة. وتذكر موسوعة الشؤون الإسلامية التركية أن البريطانيين حصلوا بفرساي على معظم شرق أفريقيا الألمانية. وبذلك انتهت السيادة الألمانية قانوناً على شرق أفريقيا الألمانية وتوغولاند الألمانية؛ وتوضح توزيع الانتدابات بإعلان ميلنر-سيمون في 10 يوليو 1919 وبتصديق عصبة الأمم في 20 يوليو 1922."
+    },
+    "de": {
+     "b": "Versailler Vertrag (Art. 119): Deutschland verzichtete auf seine überseeischen Besitzungen — darunter Ostafrika, Togo und Kamerun — zugunsten der Alliierten",
+     "d": "Durch Artikel 119 des am 28. Juni 1919 unterzeichneten Versailler Vertrags verzichtete Deutschland auf alle seine überseeischen Rechte, Togo eingeschlossen, zugunsten der alliierten und assoziierten Hauptmächte. Das TDV vermerkt, dass die Briten durch Versailles den größten Teil Deutsch-Ostafrikas erhielten. Damit endete die deutsche Souveränität über Deutsch-Ostafrika und Deutsch-Togo rechtlich; die Mandatsverteilung klärte sich durch die Milner-Simon-Erklärung vom 10. Juli 1919 und die Bestätigung des Völkerbunds am 20. Juli 1922."
+    },
+    "es": {
+     "b": "Tratado de Versalles (art. 119): Alemania renunció a sus posesiones de ultramar — incluidos África Oriental, Togo y Camerún — en favor de los Aliados",
+     "d": "Por el artículo 119 del Tratado de Versalles, firmado el 28 de junio de 1919, Alemania renunció a todos sus derechos de ultramar, Togo incluido, en favor de las Potencias Aliadas y Asociadas Principales. La TDV indica que los británicos obtuvieron con Versalles la mayor parte del África Oriental Alemana. Así terminó en derecho la soberanía alemana sobre el África Oriental Alemana y el Togo alemán; el reparto de mandatos se aclaró con la declaración Milner-Simon del 10 de julio de 1919 y la confirmación de la Sociedad de Naciones el 20 de julio de 1922."
+    },
+    "fr": {
+     "b": "Traité de Versailles (art. 119) : l'Allemagne renonce à ses possessions d'outre-mer — dont l'Afrique orientale, le Togo et le Cameroun — au profit des Alliés",
+     "d": "Par l'article 119 du traité de Versailles, signé le 28 juin 1919, l'Allemagne renonça à tous ses droits d'outre-mer, Togo compris, au profit des Principales Puissances alliées et associées. La TDV indique que les Britanniques obtinrent par Versailles la majeure partie de l'Afrique-Orientale allemande. La souveraineté allemande sur l'Afrique-Orientale allemande et le Togo allemand prit ainsi fin en droit ; la répartition des mandats fut précisée par la déclaration Milner-Simon du 10 juillet 1919 et la confirmation de la Société des Nations le 20 juillet 1922."
+    },
+    "pt": {
+     "b": "Tratado de Versalhes (art. 119): a Alemanha renunciou às suas possessões ultramarinas — incluindo a África Oriental, o Togo e os Camarões — a favor dos Aliados",
+     "d": "Pelo artigo 119 do Tratado de Versalhes, assinado a 28 de junho de 1919, a Alemanha renunciou a todos os seus direitos ultramarinos, incluindo o Togo, a favor das Principais Potências Aliadas e Associadas. A TDV indica que os britânicos obtiveram com Versalhes a maior parte da África Oriental Alemã. Assim terminou, em direito, a soberania alemã sobre a África Oriental Alemã e o Togo alemão; a repartição dos mandatos ficou clara com a declaração Milner-Simon de 10 de julho de 1919 e a confirmação da Sociedade das Nações em 20 de julho de 1922."
+    },
+    "ru": {
+     "b": "Версальский договор (ст. 119): Германия отказалась от заморских владений — включая Восточную Африку, Того и Камерун — в пользу держав-победительниц",
+     "d": "Статьёй 119 Версальского договора, подписанного 28 июня 1919 года, Германия отказалась от всех своих заморских прав, включая Того, в пользу главных союзных и объединившихся держав. ТДВ сообщает, что британцы получили по Версалю большую часть Германской Восточной Африки. Так юридически закончился германский суверенитет над Германской Восточной Африкой и германским Того; распределение мандатов прояснилось декларацией Мильнера-Симона от 10 июля 1919 года и подтверждением Лиги Наций 20 июля 1922 года."
+    }
+   }
+  },
+  {
+   "no": "TOG-07",
+   "hedef_dosya": "data/kronoloji_sinir_afrika.js",
+   "madde": {
+    "odak_yer": [
+     "Lomé",
+     "Ho (Togoland)",
+     "Atakpamé"
+    ],
+    "t": "1922-07-20",
+    "gun": "20 Temmuz 1922",
+    "kesinlik": "gun",
+    "devlet": "ingiliz-togoland",
+    "devletler": [
+     "ingiliz-togoland",
+     "fransiz-togo"
+    ],
+    "b": "Milletler Cemiyeti Konseyi Togo'nun İngiliz ve Fransız B-mandalarını onayladı",
+    "tur": "idari",
+    "onem": 3,
+    "dunya": 2,
+    "kapsam": "dis",
+    "etiket": [
+     "sinir",
+     "idari",
+     "konu-siyasi",
+     "konu-idari",
+     "ingiliz-togoland",
+     "fransiz-togo"
+    ],
+    "yer_id": "Lomé",
+    "d": "20 Temmuz 1922'de Milletler Cemiyeti Konseyi, Milner-Simon bildirisiyle (10 Temmuz 1919) çizilen hatta göre Togo'nun batısı için İngiltere'ye, doğusu için Fransa'ya verilen mandaları onayladı. Aynı gün Kamerun ve Tanganika mandaları da onaylandı.",
+    "kaynak": "Report by His Britannic Majesty's Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland, 1920-1931 (archive.org item report-togoland-1920, ham metin, sayfa.py ia-oku, 5 Kasım 2026), Ek. J (Order in Council, 11 Ekim 1923): «AND WHEREAS on the twentieth day of July, 1922, the Council of the League of Nations confirmed the said mandate» (İngiliz Togoland mandası, 10 Temmuz 1919 Milner-Simon hattı).",
+    "ic_not": "İngiliz sektörü KAYNAKLI; Fransız mandasının 20 Temmuz 1922'de onayı bu raporda yazmaz (aynı konsey oturumu Kamerun için atlasta zaten 1922-07-20): Fransız Togo tarafı ONERI olarak aynı güne bağlanır."
+   },
+   "teyit": "KAYNAKLI",
+   "karsiladigi_kirilmalar": [
+    {
+     "yerlesim": "Ho (Togoland)",
+     "alan": "s",
+     "d": "ingiliz-togoland",
+     "gun": "1922-07-20",
+     "uc": "f",
+     "hukum": "KAYNAKLI"
+    },
+    {
+     "yerlesim": "Lomé",
+     "alan": "s",
+     "d": "fransiz-togo",
+     "gun": "1922-07-20",
+     "uc": "f",
+     "hukum": "ONERI (Fransız mandası günü raporda yok)"
+    },
+    {
+     "yerlesim": "Atakpamé",
+     "alan": "s",
+     "d": "fransiz-togo",
+     "gun": "1922-07-20",
+     "uc": "f",
+     "hukum": "ONERI"
+    }
+   ],
+   "d2_olcum": "kronoloji_sinir_afrika.js:12-14 aynı günde Kamerun, Tanganika, Ruanda-Urundi mandalarını anıyor; TOGO yok → eksik. Devlet id'leri ingiliz-togoland / fransiz-togo için devletler.js'te doğrulanmadı (yerleşim zincirlerinde geçer).",
+   "not": "Bonus madde: istenen 6 maddenin dışında, Togo 1922-07-20 kırılmaları için D2 boşluğunu kapatır.",
+   "ceviri": {
+    "en": {
+     "b": "The League of Nations Council confirmed the British and French B-mandates for Togoland",
+     "d": "On 20 July 1922 the Council of the League of Nations confirmed the mandates over Togoland — Britain for the part west of the Milner–Simon line (10 July 1919), France for the east. Mandates for Cameroon and Tanganyika were confirmed the same day."
+    },
+    "ar": {
+     "b": "صدّق مجلس عصبة الأمم على الانتدابين البريطاني والفرنسي (من الفئة ب) على توغولاند",
+     "d": "في 20 يوليو 1922 صدّق مجلس عصبة الأمم على الانتدابين على توغولاند — لبريطانيا على الجزء الغربي من خط ميلنر-سيمون (10 يوليو 1919) ولفرنسا على الشرقي. وصُدّق في اليوم نفسه على انتدابي الكاميرون وتنجانيقا."
+    },
+    "de": {
+     "b": "Der Völkerbundsrat bestätigte die britischen und französischen B-Mandate über Togo",
+     "d": "Am 20. Juli 1922 bestätigte der Völkerbundsrat die Mandate über Togo — Großbritannien für den Teil westlich der Milner-Simon-Linie (10. Juli 1919), Frankreich für den östlichen. Am selben Tag wurden auch die Mandate für Kamerun und Tanganjika bestätigt."
+    },
+    "es": {
+     "b": "El Consejo de la Sociedad de Naciones confirmó los mandatos B británico y francés sobre Togo",
+     "d": "El 20 de julio de 1922 el Consejo de la Sociedad de Naciones confirmó los mandatos sobre Togo — Gran Bretaña para la parte al oeste de la línea Milner-Simon (10 de julio de 1919), Francia para la oriental. El mismo día se confirmaron los mandatos de Camerún y Tanganica."
+    },
+    "fr": {
+     "b": "Le Conseil de la Société des Nations confirme les mandats B britannique et français sur le Togo",
+     "d": "Le 20 juillet 1922, le Conseil de la Société des Nations confirma les mandats sur le Togo — à la Grande-Bretagne pour la partie à l'ouest de la ligne Milner-Simon (10 juillet 1919), à la France pour l'est. Les mandats sur le Cameroun et le Tanganyika furent confirmés le même jour."
+    },
+    "pt": {
+     "b": "O Conselho da Sociedade das Nações confirmou os mandatos B britânico e francês sobre o Togo",
+     "d": "A 20 de julho de 1922 o Conselho da Sociedade das Nações confirmou os mandatos sobre o Togo — à Grã-Bretanha para a parte a oeste da linha Milner-Simon (10 de julho de 1919), à França para a oriental. Os mandatos dos Camarões e do Tanganica foram confirmados no mesmo dia."
+    },
+    "ru": {
+     "b": "Совет Лиги Наций утвердил британский и французский мандаты класса B над Того",
+     "d": "20 июля 1922 года Совет Лиги Наций утвердил мандаты над Того — Великобритании на часть к западу от линии Мильнера-Симона (10 июля 1919 года), Франции на восточную. В тот же день были утверждены мандаты над Камеруном и Танганьикой."
+    }
+   }
+  }
+ ],
+ "var_olanlar": [
+  {
+   "gun": "1919-06-28",
+   "dosya_satir": "data/olaylar_ok109.js:211",
+   "b": "Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi hukuka geçti",
+   "karsiladigi": "YOK (yalnız Strazburg/Metz/Colmar/Mulhouse)",
+   "not": "Aynı antlaşma günü, ama konu Alsas-Loren (md. 51). Denizaşırı toprakları (md. 119: Doğu Afrika, Togo, Kamerun) anmaz → VER-06 gerekli. EMRELİC alternatifi: bu maddenin d/odak_yer'ine md. 119 cümlesi eklensin; 'taraflar' alanı olaylar biçiminde olmadığından alman-dogu-afrikasi/alman-togo ekleme önerisi kronoloji_sinir biçiminde (VER-06) uygulanır."
+  },
+  {
+   "gun": "1922-07-20",
+   "dosya_satir": "data/kronoloji_sinir_afrika.js:12-14",
+   "b": "MC Konseyi Kamerun / Tanganyika / Ruanda-Urundi mandalarını onayladı",
+   "karsiladigi": "Kamerun, Tanganika, Ruanda-Urundi 1922-07-20 kırılmaları",
+   "not": "Togo YOK → TOG-07 bonus taslağı. Tanganika madde odak_yer'i yalnız Zanzibar (Zengibar); Tanganika anakara yerleşimleri (27 kayıt) 1922-07-20 kırılması için odak_yer eksik olabilir (ölçülmedi)."
+  },
+  {
+   "gun": "1914-08-07 / 1914-08-26 / 1899-11-14 / 1684 / 1840",
+   "dosya_satir": "data/olaylar*.js + data/kronoloji_sinir*.js (grep togo|lom|yendi|dagbon|rozvi|torva|matabele|mzilikazi|ndebele)",
+   "b": "—",
+   "karsiladigi": "YOK",
+   "not": "±30 gün içinde konu eşleşen madde bulunamadı (yakın günlerde yalnız olaylar_ek3.js:36-37 Kutsal İttifak/Budin 1684, olaylar_ek4.js:297-313 Londra Antlaşması/Beyrut/Akkâ 1840, olaylar_ek5.js:437 Konya-Bağdat 1899-11-27, olaylar_ek5.js:457 Osmanlı-Alman ittifakı 1914-08-02; hepsi konu dışı)."
+  }
+ ],
+ "dogrulama": {
+  "kilindoni": {
+   "soru": "TDV «Tanzanya» Mafia'yı özgül mü tarihliyor; Ocak 1915 ile çelişki var mı?",
+   "tdv_ham_alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci, I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (https://islamansiklopedisi.org.tr/tanzanya; sayfa.py oku, durum 200, 5 Kasım 2026)",
+   "hukum": "KAYNAKLI-ÇELİŞKİLİ",
+   "oneri": "isg ingiltere f 1914-11-01 + ay beyanı: cümle Mafia adasını ÖZGÜL olarak 'Kasım 1914' ile tarihliyor (ay hassasiyeti; gün yok) → CLAUDE.md gereği TDV esas. Atlasın 1916-09-19'u (ülke düzeyi, kaynaksız) her durumda kalkar.",
+   "celiski": "Genel anlatılan tarih Ocak 1915'tir (WebSearch: bazı kaynaklar 12 Ocak 1915'te İngiliz birliklerinin Mafia'yı Königsberg harekâtı için aldığını yazar; ör. Christie 2017 makalesi bağlamı) — ancak bu tarih akademik kaynaktan ham doğrulanamadı (Strachan/Hordern metinleri archive.org'da ödünç kitap, erişilemedi; Christie PDF'inde '1915'/'1914' anahtarı bulunamadı). Bu yüzden ikinci tarih ic_not'ta 'doğrulanmadı' diye beyan edilir.",
+   "ic_not_onerisi": "TDV «Tanzanya»: İngilizler Mafia'yı Kasım 1914'te aldı (ay; gün yok). Başka (akademik olmayan) kaynaklar 12 Ocak 1915 verir; doğrulanamadı. Atlas TDV'yi esas alır, 1914-11-01 + ay hassasiyeti.",
+   "emrelic_karar_gerekli": "Evet: TDV'nin 'Kasım 1914' ifadesi kaynak yanlışı olabilir (Mafia çıkarması Ocak 1915 ile bilinir). Akademik teyit gelene kadar KAYNAKLI yerine ONERI + iki tarihli ic_not da savunulabilir; ben TDV kuralı gereği KAYNAKLI yazdım."
+  },
+  "lome": {
+   "soru": "Lomé'nin Fransız idaresine geçiş günü İngiliz Togoland raporlarında bulunabilir mi?",
+   "tarananlar": [
+    "report-togoland-1920 (1920-1931 derlemesi, 1,04 MB ham metin): anahtarlar 'French administration', 'taken over by the French', 'handed over to', 'hand over', 'evacuation', 'British troops left', 'transfer of', 'Governor of Togoland', 'Commissaire', 'Bonnecarr', '1st October' → ilgili hiçbir cümle çıkmadı (Lome 20+ eşleşmede yalnız 1914 teslimi, bölüşüm ve 10 Temmuz 1919 Milner-Simon bildirisi).",
+    "archive.org ia-ara: 'Togoland Lome French 1920 handed over British', 'Rapport annuel Togo 1920 Lome occupation francaise', 'Report Togoland 1921 British sphere' → yalnız aynı item (report-togoland-1920)."
+   ],
+   "bulunan_ilgili": "Rapor, 1914 geçici bölüşümde Lomé'nin İngiliz sektöründe olduğunu ve 'the former including the seaport of Lome … now included in the French Mandate' dediğini yazar (Fransız mandasına girdiğini doğrular, GÜN yok). Alıntı: «A provisional agreement was then made partitioning the Colony into British and French Spheres, the former including the sea-port of Lome and the greater portion of the Atakpame and Palime Railway lines, which are now included in the French Mandate».",
+   "ikincil_ipucu": "WebSearch (Vikipedi/globalsecurity düzeyi, KAYNAK DEĞİL): 'Lomé'nin Fransa'ya formal devri Ekim 1920'. Akademik teyit YOK.",
+   "hukum": "BULUNAMADI (gün)",
+   "oneri": "Lomé: s ingiltere BEYANLI 1919-06-28 → 1922-07-20, ic_not 'devir ~1920 (Ekim 1920 ikincil ipucu), gün bulunamadı; İngiliz Togoland raporu Lomé'nin Fransız mandasına girdiğini doğrular (günsüz)'. Devir günü için madde taslağı YAZILMADI.",
+   "kalan_arama": "Fransız 'Rapport annuel du Gouvernement français … sur l'administration du Togo' (1921/1922, Gallica) ve Cmd. 1698 (Report on the British Mandated Sphere of Togoland 1920-1921) tam metni; archive.org'da bulunamadı."
+  }
+ },
+ "ozet": {
+  "taslak_sayisi": 7,
+  "istenen_6": [
+   "LOM-01",
+   "TOG-02",
+   "DAG-03",
+   "ZIM-04",
+   "ZIM-05",
+   "VER-06"
+  ],
+  "bonus": [
+   "TOG-07"
+  ],
+  "teyit": {
+   "KAYNAKLI": 5,
+   "ONERI": 2
+  },
+  "hedef_dosya": {
+   "data/kronoloji_sinir_afrika.js": 7
+  },
+  "diller": [
+   "en",
+   "ar",
+   "de",
+   "es",
+   "fr",
+   "pt",
+   "ru"
+  ],
+  "d2_var_olan": "VER-06 için olaylar_ok109.js:211 aynı günü anar ama Alsas-Loren; konu eşleşmiyor. 1922-07-20 Togo yok (TOG-07). Öteki 5 madde için ±30 gün içinde eşleşen madde yok.",
+  "uyari": "ZIM-04/05: yıl TDV'de yok (1684/1840 LAB kararı) — ONERI [yalnız yıl]. DAG-03: tarih ve tarafsız bölgenin doğu yarısı KAYNAKLI, Yendi'nin doğu yarıda olduğu alıntıda yazmıyor. Kilindoni: TDV 'Kasım 1914' KAYNAKLI ama Ocak 1915 ile çelişkili (doğrulanamadı).",
+  "hedef_dosya_notu": "kronoloji_sinir_afrika.js (32 satır) 1920-1923 mandate odaklıdır; 1684/1840/1899/1914 maddeleri 'kapsam' dışına taşar — EMRELİC isterse kronoloji_sinir_once1281_geriye.js / kronoloji_sinir_zincir_1281sonra_1024.js gibi dosyalardan biri seçilebilir (ölçülmedi)."
+ }
+}

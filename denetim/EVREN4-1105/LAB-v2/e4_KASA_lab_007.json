@@ -1,0 +1,285 @@
+{
+ "Vezzân (Ouezzane)": [
+  {
+   "sira": 2049,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:105",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'SA‘DÎLER' https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Muhammed eş-Şeyh bir dizi savaş neticesinde Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549).",
+   "oneri": {
+    "t": "1549-01-31 (TDV «2 Muharrem 956 / 31 Ocak 1549» — Fîgîg/Hunayfire emsali, KARARLAR hicrî birliği) — ülke düzeyi Fas'ın düşüşü",
+    "f": "MERDİVEN ④ adayı: Vezzân şehri Vezzâniyye zâviyesi (kurucu Abdullah b. İbrâhim, ö. 1089/1678 — TDV arama parçası) çevresinde büyüdü; 1281'de yerleşimin varlığı teyitsiz → kaynakla sınanmalı, yoksa dönem kırpılır"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] t ÜLKE DÜZEYİ (Fas şehrinin düşüşü, yıl); kuzey Fas 1549'da Sâdî'ye geçti — yerleşime özgü gün yok. f 1281 atlas ufku. TDV 'vezzaniyye' slug'ı arama sayfasına düştü (madde başlığı yok; 'VEZZÂNÎ' maddesinde «Vezzâniyye tarikatının merkezi» parçası)."
+  }
+ ],
+ "Zâgûre (Dr'a)": [
+  {
+   "sira": 2105,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:156",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'SÛS' https://islamansiklopedisi.org.tr/sus ve 'SA‘DÎLER' https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Der‘â bölgesindeki Tâgmedâret vadisinde oturan Sa‘dî Şerifi ... Târûdânt yakınındaki Tîdsî köyüne gelip kabile reislerinin biatını kabul etti (916/1511).",
+   "oneri": {
+    "t": "1511-01-01 (hicrî 916 = 1510-04-10 → 1511-03-29 tabular ∩ kaynağın mîlâdî yılı 1511 → kesişimin ilk günü 1511-01-01; sadi künye f 1511-01-01 ile bitişik)",
+    "d": "1511 → Sâdî (sadi künyesi); 1536 Ukbâ anlaşmasıyla Vattâsî tanıması ic_not"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Der'â Sâdîler'in çıkış bölgesidir; 1549 (Fas şehrinin düşüşü) Der'â için çok geç. BÖLGE DÜZEYİ: alıntı biat yerini (Sûs) tarihler, Der'â'nın Sâdî idaresine girişini doğrudan değil → ONERI. 1281-1511 Merînî/Vattâsî hâkimiyetinin Der'â'da fiilî olup olmadığı okunmadı. Hicrî çeviri: tabular, Perşembe epoch; rü'yet ±1-2 gün."
+  }
+ ],
+ "Bir Lahlu (Bir Lehlou)": [
+  {
+   "sira": 2133,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sahra-arap-demokratik-cumhuriyeti",
+   "f": "1976-02-27",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "bolme": "EK DÖNEM: 1976 öncesi zincir YOK — s: ispanyol-sahra (künye var) İspanyol çekilişine (1976-02-26) kadar; 1976-1991 Fas/Moritanya ile çatışmalı kontrol (rakip hükûmet, fiilî kontrol) — yerleşim düzeyinde kaynakla"
+   },
+   "not": "f 1976-02-27 SADR ilanı (künye kronolojisi: «Polisario, Bir Lahlu'da ... ilan etti»; kaynak UCDP + Zunes/Mundy 2010, bu turda okunmadı). Yerleşim 1976'dan önce sahipsiz. Madrid Anlaşması 1975-11-14 ic_not. dosya_satir girdide boş."
+  }
+ ],
+ "Tâtâ": [
+  {
+   "sira": 2021,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:184",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV 'SÛS' ve 'SA‘DÎLER' (bkz. Zâgûre)",
+   "alinti": "Ukbâ savaşının ardından Tâdlâ’nın güneyi ve Sûs’un Sa‘dîler’e ... bırakılması şartıyla bir anlaşma yapıldı (943/1536).",
+   "oneri": {
+    "t": "1511-01-01 (Sâdî biatı, Zâgûre ile aynı hesap) ya da en geç 943/1536 Ukbâ anlaşması (Tâdlâ'nın güneyi Sâdî'ye) — Tâtâ'nın Sâdî'ye geçişi yerleşim düzeyinde kaynakla"
+   },
+   "not": "[alıntı ham metinden, sayfa.py — TDV Sa‘dîler] Tâtâ (Anti-Atlas, Bani) Tâdlâ'nın güneyinde; 1536'da hukuken Sâdî bölgesi, fiilen büyük olasılıkla 1511-1524 arası. 1549 Tâtâ için geç. BÖLGE DÜZEYİ → ONERI."
+  }
+ ],
+ "Îfnî (Sîdî İfnî)": [
+  {
+   "sira": 2108,
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:174",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'SÛS' https://islamansiklopedisi.org.tr/sus",
+   "alinti": "Merînî Hükümdarı Ebû Yûsuf Ya‘kūb’un isyanları bastırıp bölgede kontrolü sağlamasına kadar sürdü (656/1258). ... (916/1511)",
+   "oneri": {
+    "t": "1511-01-01 (Sûs bölgesinin Sâdî biatı; hesap Zâgûre ile aynı)",
+    "bolme": "(bu satırın dışı, kontrol adayı) TDV Sûs: «Aynı tarihte [1934] İspanyollar Sîdî İfnî’ye yerleşti ... Sîdî İfnî de 30 Haziran 1969’da Fas’a devredildi» — zincirde İspanyol İfni dilimi YOK (s: ispanya 1934 → 1969-06-30; 1912-1934 ve 1956-1969 'fas-*' dilimleri yanlış); 1476-1524 Santa Cruz de Mar Pequeña konumu tartışmalı (ic_not)"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] f 1281: TDV Merînî kontrolünü 1258'den verir — f uyumlu ama 1281 atlas ufku. t 1549 Sûs için geç: Sûs 1511'de Sâdî biatına girdi (BÖLGE DÜZEYİ)."
+  }
+ ],
+ "Camulodunum (Colchester)": [
+  {
+   "sira": 2138,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "catuvellauni-krallik",
+   "f": "0005-01-01",
+   "t": "0043-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Frere, Britannia; Cassius Dio — akademik/birincil. Ham okuma yapılmadı."
+  },
+  {
+   "sira": 2139,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "0043-01-01",
+   "t": "0395-01-17",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Tacitus (birincil). Ham okuma yapılmadı. Kontrol adayı: 60/61 Boudicca isyanında şehrin yıkılışı (kısa kesinti)."
+  },
+  {
+   "sira": 2140,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0410-01-01",
+   "t": "0880-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "d": "Merdiven ③/⑤: künye 'essex' (Doğu Sakson Krallığı, f 0527, t 0825; devletler.js:22992) VAR — Colchester Essex topraklarındadır; kaynakla teyit edilirse 527 → 825 s: essex, 825 → 880 s: wessex (Essex'in Wessex'e bağlanışı); 410-527 merdiven ④ (yerleşim sürdü mü?) ayrıca sınanmalı"
+   },
+   "not": "Boşluk beyanı essex künyesini anmıyor. Kaynak okunmadı → yalnız öneri; Colchester'ın Essex içinde anıldığı tarihli tanık gerekli (ör. ASC, Bede). | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (d)"
+  },
+  {
+   "sira": 2141,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "danelaw",
+   "f": "0880-01-01",
+   "t": "0917-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 880/917; ham okuma yapılmadı."
+  },
+  {
+   "sira": 2142,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0917-01-01",
+   "t": "0927-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: ASC 917; ham okuma yapılmadı."
+  }
+ ],
+ "Canterbury": [
+  {
+   "sira": 2143,
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:214",
+   "alan": "s",
+   "d": "kent-kralligi",
+   "f": "0455-01-01",
+   "t": "0825-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Oxford Companion (Loyn) — encyclopedia.com (ticari, 6e). Ham okuma yapılmadı. 6g: Durovernum Cantiacorum (Roma) daha eski; zincir 455'ten başlıyor."
+  }
+ ],
+ "Frankfurt (Oder)": [
+  {
+   "sira": 2164,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "KARARLAR-EMRELIC gece-97 (DDR 1990-10-03 → almanya, GERÇEK EKSİK halefi)",
+   "alinti": "",
+   "oneri": {
+    "bolme": "1990-10-03'ten s: almanya (halef; ARDIL kararı) · EK DÖNEM: 1949 öncesi zincir YOK — şehir 1253 tüzüğüyle Brandenburg'da; 1945-1949 Sovyet işgal bölgesi (isg sscb, altında Alman egemenliği sorusu — sınıf kararı)"
+   },
+   "not": "Yalnız DDR dilimi olan tek dönemli kayıt (halef_1946 katmanı türü; gece-101). Ana kayıt 'Frankfurt' Frankfurt am Main'dir (yerlesimler.js:1243), Oder'deki şehrin ana kaydı yok → yerleşim 1949 öncesi ve 1990 sonrası sahipsiz. Kaynak okunmadı. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Schwerin": [
+  {
+   "sira": 2225,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "KARARLAR-EMRELIC gece-97",
+   "alinti": "",
+   "oneri": {
+    "bolme": "1990-10-03'ten s: almanya · EK DÖNEM: 1949 öncesi zincir YOK — Schwerin 1160 (Henri le Lion) kuruluşu, Mecklenburg dükalığı başkenti; 1945-07 → 1949-10-07 Sovyet işgal bölgesi (1945-05/06 kısa ABD-İngiliz işgali, kaynakla)"
+   },
+   "not": "yerlesimler*.js'te 'Schwerin' ad kaydı bulunamadı (grep) → tek dönemli katman kaydı; 1949 öncesi ve 1990 sonrası sahipsiz. Kaynak okunmadı. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Viborg (Jutland)": [
+  {
+   "sira": 2050,
+   "dosya_satir": "data/yerlesimler_avrupa.js:328",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Danmarkshistorien (Aarhus Üniversitesi) — akademik; ham okuma yapılmadı. f 1000 kuşak ucu."
+  },
+  {
+   "sira": 2051,
+   "dosya_satir": "data/yerlesimler_avrupa.js:328",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Den Store Danske / lex.dk, 'Besættelsen' https://lex.dk/Bes%C3%A6ttelsen",
+   "alinti": "Tyske tropper besatte landet den 9. april 1940 ... officiel tysk kapitulation den næste morgen kl. 8:00 til de britiske tropper",
+   "oneri": {
+    "bolme": "1940-04-09 → 1945-05-05 isg almanya (ÜLKE DÜZEYİ; 5 Mayıs = 'den næste morgen' 4 Mayıs akşamından — gün bağlamdan); altında s: danimarka sürer (hükûmet ve Rigsdag işledi)"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Uçlar pencere ucu (1281/2000); öneri işgal katmanı. TEK KURAL: savaş işgali → isg. Aynı ölçüt Danimarka'nın bütün yerleşimlerine (Bornholm hariç: Sovyet, 1945-05-09 → 1946) uygulanmalı. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Växjö": [
+  {
+   "sira": 2070,
+   "dosya_satir": "data/yerlesimler_ek7.js:89",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe; aranmadı. t 1523-06-06 (Gustav Vasa'nın Strängnäs'ta seçilişi) ülke düzeyi DEVRALMA. Kontrol adayı: 1520-1521 II. Christian'ın (Danimarka) fiilî hâkimiyeti — künye 'Kalmar Birliği öncesi' adına rağmen 1397-1523 birlik dönemini kapsıyor (sınıf sorusu)."
+  }
+ ],
+ "Laon": [
+  {
+   "sira": 2190,
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:86",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1101-01-01",
+   "t": "1331-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut: FRANSA-KONTROL BEYANLI YAKLAŞIKLIK + Treccani (okunmadı). 1101 ve 1331 neyi tarihliyor belirsiz (aynı devlet iki dilim). Kontrol adayı (bu satırın dışı): 1420-1429 Troyes sonrası İngiliz-Burgonya hâkimiyeti."
+  }
+ ]
+}

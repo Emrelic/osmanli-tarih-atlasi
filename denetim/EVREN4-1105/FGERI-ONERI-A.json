@@ -1,0 +1,2297 @@
+{
+ "parti": "A (Afrika)",
+ "tur": "F-GERİ",
+ "kayitlar": [
+  {
+   "ad": "Banyo",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Banyo,_Cameroon: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR."
+  },
+  {
+   "ad": "Garua (Garoua)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "yıl: 19. yy ilk yarısı (Modibbo Adama dönemi, 1809-1848 arası; tek yıl yok)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Garoua",
+    "alinti": "Garoua was established by the Fulani emir Modibbo Adama in the first half of the 19th century."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş adamava f (1809) ile aynı dönemde; gün/yıl yok. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR. | kur_ileri_oneri: yıl bulunamadı (1809-1848 aralığı)"
+  },
+  {
+   "ad": "Marua (Maroua)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Maroua: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR."
+  },
+  {
+   "ad": "Ngaunder (Ngaoundéré)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "1835 (yaklaşık, yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ngaoundéré",
+    "alinti": "the present city dates from around 1835, when it was founded by the Fulani leader Ardo Njobdi"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Eski Mbum başkenti aynı yerdeydi; bugünkü şehir ~1835. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR. | kur_ileri_oneri: 1835-01-01 (yaklaşık; [yalnız yıl; yaklaşık])"
+  },
+  {
+   "ad": "Rey Buba",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Rey_Bouba: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR."
+  },
+  {
+   "ad": "Tibati",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "adamava",
+   "mevcut_ilk_f": "1809-01-01",
+   "kur": "1809-01-01",
+   "f_geri": {
+    "kurulus": "1821 (yıl; ‘1820'ler’)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Tibati",
+    "alinti": "The town of Tibati was founded in the 1820s by Hamman Sambo, a flag-bearer of Modibo Adama"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Vikipedi bilgi kutusu: City Founded 1821. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Adamava Emirliği (Fumbina) f 1809-01-01; Fulani cihadı sonrası kurulan yerleşimlerin kuruluşu çoğunlukla f'den SONRADIR. | kur_ileri_oneri: 1821-01-01 ([yalnız yıl])"
+  },
+  {
+   "ad": "Akrotiri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "akrotiri-dekelya",
+   "mevcut_ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en 'Akrotiri,_Cyprus' 404; kaynak bulunamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Üs bölgesi 1960-08-16'da kuruldu; Akrotiri yerleşimi/yarımadası eski. Taslak (YAZILMADI): Kıbrıs öncül zinciri künyelerle mevcut — kibris-krallik 1192-01-01→1489-02-26, kibris-venedik 1489-02-26→1571-08-01, Osmanlı 1571-08-01→1878-06-04 (Osmanlı künye id'si bu turda devletler.js'te ölçülemedi), kibris-ingiliz 1878-06-04→1914-11-05, kibris-ingiliz-kolonisi 1914-11-05→1960-08-16. Yerleşimin ilk anılışı kaynakla bulunmadan bu zincir uygulanmaz."
+  },
+  {
+   "ad": "Episkopi",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "akrotiri-dekelya",
+   "mevcut_ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Episkopi_Cantonment: kuruluş tarihi alanı boş",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Episkopi Cantonment İngiliz üssü; köy/antik Kourion eski. Taslak (YAZILMADI): Kıbrıs öncül zinciri künyelerle mevcut — kibris-krallik 1192-01-01→1489-02-26, kibris-venedik 1489-02-26→1571-08-01, Osmanlı 1571-08-01→1878-06-04 (Osmanlı künye id'si bu turda devletler.js'te ölçülemedi), kibris-ingiliz 1878-06-04→1914-11-05, kibris-ingiliz-kolonisi 1914-11-05→1960-08-16. Yerleşimin ilk anılışı kaynakla bulunmadan bu zincir uygulanmaz."
+  },
+  {
+   "ad": "Maseru",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "basuto",
+   "mevcut_ilk_f": "1822-01-01",
+   "kur": "1822-01-01",
+   "f_geri": {
+    "kurulus": "1869 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Maseru",
+    "alinti": "Maseru was founded by the British as a small police camp in 1869, following the conclusion of the Free State–Basotho Wars when Basutoland became a British protectorate."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "basuto künyesi t 1868-03-12; kuruluş 1869 = basuto'dan sonra. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Vikipedi bilgi kutusu da 1869. | kur_ileri_oneri: 1869-01-01 ([yalnız yıl])"
+  },
+  {
+   "ad": "Thaba Bosiu",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "basuto",
+   "mevcut_ilk_f": "1822-01-01",
+   "kur": "1822-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Thaba_Bosiu: yıl alanı yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Moşoeşoe 1824'te Thaba Bosiu'ya yerleşti; basuto f 1822. Kesinse f ileri (1824)."
+  },
+  {
+   "ad": "Aba (Nijerya)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "biafra",
+   "mevcut_ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "f_geri": {
+    "kurulus": "1901 (yıl; BEYANLI ALT SINIR: İngiliz askerî karakolu)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Aba,_Nigeria",
+    "alinti": "In 1901, the British founded a military post in Aba and in 1915, a railroad was constructed to link it to Port Harcourt"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-nijerya",
+     "f": "1901-01-01",
+     "t": "1960-10-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "In 1901, the British founded a military post in Aba",
+     "not": "ONERI-KARAR: bilgi kutusu ‘Settled 15th Century’ diyor (Igbo pazar yerleşimi); 1901 karakol açılışı BEYANLI alt sınırdır. [yalnız yıl]"
+    },
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1960-10-01",
+     "t": "1967-05-30",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Nijerya öncül zinciri: ingiliz-nijerya 1861-01-01→1960-10-01, nijerya 1960-10-01→ (künyeler). Kuruluş öncesi Igbo yerel siyasetleri için künye yok. Mevcut son uç UC103-ONERI'de çözüldü (yalnız ilk uç).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Enugu",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "biafra",
+   "mevcut_ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "f_geri": {
+    "kurulus": "1909 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Enugu",
+    "alinti": "The first European settlers arrived in the area in 1909, led by a British mining engineer named Albert Kitson."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-nijerya",
+     "f": "1909-01-01",
+     "t": "1960-10-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "The first European settlers arrived in the area in 1909, led by a British mining engineer named Albert Kitson.",
+     "not": "[yalnız yıl]; yeni kömür kenti."
+    },
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1960-10-01",
+     "t": "1967-05-30",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Nijerya öncül zinciri: ingiliz-nijerya 1861-01-01→1960-10-01, nijerya 1960-10-01→ (künyeler). Kuruluş öncesi Igbo yerel siyasetleri için künye yok.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Owerri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "biafra",
+   "mevcut_ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Owerri",
+    "alinti": "Owerri was founded by in the 14 century CE by Ekwem Oha. (kaynaksız efsanevî tarih; kuruluş günü/yılı değil)"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Nijerya öncül zinciri: ingiliz-nijerya 1861-01-01→1960-10-01, nijerya 1960-10-01→ (künyeler). Kuruluş öncesi Igbo yerel siyasetleri için künye yok.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Umuahia",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "biafra",
+   "mevcut_ilk_f": "1967-05-30",
+   "kur": "1967-05-30",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Umuahia",
+    "alinti": "Umuahia was established by the British colonial administration of Nigeria in the early 20th century."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Yıl yok (‘20. yy başı’). Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Nijerya öncül zinciri: ingiliz-nijerya 1861-01-01→1960-10-01, nijerya 1960-10-01→ (künyeler). Kuruluş öncesi Igbo yerel siyasetleri için künye yok.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Ga-Rankuwa",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "bophuthatswana",
+   "mevcut_ilk_f": "1977-12-06",
+   "kur": "1977-12-06",
+   "f_geri": {
+    "kurulus": "1965 (yıl; BEYANLI ALT SINIR: mahalle ilanı)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ga-Rankuwa",
+    "alinti": "The area was proclaimed a Suburb by Proclamation 448 of 1965 and was initially established to accommodate people who were displaced mainly from Lady Selborne."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1965-01-01",
+     "t": "1977-12-06",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "The area was proclaimed a Suburb by Proclamation 448 of 1965",
+     "not": "[yalnız yıl]; ilan statü günüdür, BEYANLI alt sınır. Arazi satın alma/toplum daha eski (Mamogale)."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Cumhuriyet künyesi f 1961-05-31, 1965 kapsanır. Mevcut son uç UC103-ONERI'de çözüldü.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Bisho",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ciskei",
+   "mevcut_ilk_f": "1981-12-04",
+   "kur": "1981-12-04",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bhisho: kuruluş yılı alınamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Güney Afrika öncül zinciri (cape-ingiliz → guney-afrika-birligi → guney-afrika-cumhuriyeti) künyelerle mevcut ama kuruluş yılı yok.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Birao",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "darul-kuti",
+   "mevcut_ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "f_geri": {
+    "kurulus": "1918-11-06",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Birao",
+    "alinti": "Birao was founded on 6 November 1918 by the French colonial government as its northernmost post in Ubangi-Shari."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş darul-kuti dönemi (1890-1911) sonrasında; Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Vikipedi yazarın kaynakları [4][5][6] okunmadı. | kur_ileri_oneri: 1918-11-06"
+  },
+  {
+   "ad": "Ndele (Dâru'l-Kûtî)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "darul-kuti",
+   "mevcut_ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ndélé: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu: Dâru'l-Kûtî başkenti; darul-kuti f 1890 ile çakışıyor olabilir (doğrulanmadı)."
+  },
+  {
+   "ad": "Uanda-Calle",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "darul-kuti",
+   "mevcut_ilk_f": "1890-01-01",
+   "kur": "1890-01-01",
+   "f_geri": {
+    "kurulus": "1912-12 (ay; gün yok)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ouanda_Djallé",
+    "alinti": "The modern town was founded by Captain Souclier in December 1912 after the fall of the last redoubt of resistance in Dar al Kuti."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Dar al-Kuti'nin son kalesinin düşüşünden SONRA kuruldu (darul-kuti t 1911-01-12 ile uyumsuzluk: Vikipedi son direnişi 1912 verir, atlas künye t 1911-01-12). Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Künye t ayrı sorudur. | kur_ileri_oneri: 1912-12-01 ([yalnız ay])"
+  },
+  {
+   "ad": "Bata",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ekvator-ginesi",
+   "mevcut_ilk_f": "1968-10-12",
+   "kur": "1968-10-12",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bata,_Equatorial_Guinea: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Not: atlasta İspanyol Ginesi (Río Muni) künyesi YOK (ispanya künyesi var); öncül zincir yazılsa da künye sorusu çıkar."
+  },
+  {
+   "ad": "Nador",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fas-ispanyol-himayesi",
+   "mevcut_ilk_f": "1912-11-27",
+   "kur": "1912-11-27",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Nador",
+    "alinti": "The City of Nador was founded in the 19th century by local Berber tribes and was under Spanish occupation from 1912 until Morocco's independence in 1956. (bilgi kutusu: 1722 [citation needed])"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Fas Krallığı künyesi `fas` (f 1549) mevcut; Rif'te fiilî sahiplik tartışmalı (siba), yazılmadı.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Brazzaville",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fransiz-ekvator-afrikasi",
+   "mevcut_ilk_f": "1910-01-15",
+   "kur": "1910-01-15",
+   "f_geri": {
+    "kurulus": "1880-09-10",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Brazzaville",
+    "alinti": "officially founded the settlement on 10 September 1880; it commemorates his name."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1880-09-10",
+     "t": "1910-01-15",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "The Tio king, Iloo I, signed a treaty of protection with Brazza, which subjugated his lands to the French Empire.",
+     "not": "ONERI-KARAR: 1880 himaye antlaşması Fransa ile Tio (Teke) kralı arasında; yerel krallık künyesi yok; Berlin Konferansı 1884-85 ile fiilî Fransız sahiplik kesinleşir. Vikipedi bilgi kutusu 1883. Mevcut ilk dilimin f'si AEF 1910-01-15."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Merdiven ④: önceki yerleşimler Mfwa/Mpila (Tio krallığı) — künye yok. Brazzaville 1958-60 AEF/fransa BEYANLI uzatması ayrı karardır (UC103).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Atakpamé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fransiz-togo",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "1898 (yıl; BEYANLI ALT SINIR: Alman ilçesi)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Atakpamé",
+    "alinti": "In 1898, the Atakpamé district was established in Togoland and it was the last district established under German rule."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1898-01-01",
+     "t": "1914-08-26",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (kuruluş) + künye",
+     "alinti": "",
+     "not": "[yalnız yıl]; ilçe statüsü günüdür (6g BEYANLI alt sınır); ilk anılış 1870'ler fildişi ticareti (Dahomey saldırısı Adandozan dönemi) — künye yok. Almanya 1914-08-26'da teslim oldu (künye t)."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1922-07-20",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "ONERI-KARAR: 1914-08-26→1916 Fransız-İngiliz ortak idare, 1916-12-27 bölüşme; Fransız bölgesi için fransa-cumhuriyet. İngiliz bölgesi ayrı yerleşimlerdir."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Togo öncül zinciri: alman-togo 1884-07-05→1914-08-26, ardından 1914-08-26→1922-07-20 Fransız/İngiliz askerî idaresi ve 1916 bölüşmesi (künye yok) → s: fransa-cumhuriyet ONERI-KARAR (Kamerun emsali: s:fransa-cumhuriyet 1916-02-18→1922-07-20). BM A/RES/1046 (XI) (13 Aralık 1956) fransiz-togo SONU ile ilgili: «with Decree No. 56-847 of 24 August 1956, requesting termination of the Trusteeship Agreement» ve «consulted by referendum on 28 October 1956» — kuruluş/öncül uç değil, ic_not için.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kara (Togo)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fransiz-togo",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "1902 (yıl; ‘Kara nehri köprüsü şehrin başlangıcıdır’)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Kara,_Togo",
+    "alinti": "In 1902, a bridge over the Kara River was built by the Germans, which marks the beginning of the city."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1902-01-01",
+     "t": "1914-08-26",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (kuruluş) + künye",
+     "alinti": "",
+     "not": "[yalnız yıl]; Lama-Kara yerleşimi daha eski olabilir. Almanya 1914-08-26'da teslim oldu (künye t)."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1922-07-20",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "ONERI-KARAR: 1914-08-26→1916 Fransız-İngiliz ortak idare, 1916-12-27 bölüşme; Fransız bölgesi için fransa-cumhuriyet. İngiliz bölgesi ayrı yerleşimlerdir."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Togo öncül zinciri: alman-togo 1884-07-05→1914-08-26, ardından 1914-08-26→1922-07-20 Fransız/İngiliz askerî idaresi ve 1916 bölüşmesi (künye yok) → s: fransa-cumhuriyet ONERI-KARAR (Kamerun emsali: s:fransa-cumhuriyet 1916-02-18→1922-07-20). BM A/RES/1046 (XI) (13 Aralık 1956) fransiz-togo SONU ile ilgili: «with Decree No. 56-847 of 24 August 1956, requesting termination of the Trusteeship Agreement» ve «consulted by referendum on 28 October 1956» — kuruluş/öncül uç değil, ic_not için.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Lomé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fransiz-togo",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Lomé",
+    "alinti": "The city was founded by the Ewes and expanded in the 19th century by German, British and African traders, becoming the capital of Togoland in 1897."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1914-08-26",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (kuruluş) + künye",
+     "alinti": "",
+     "not": "KISMİ: kuruluş bulunamadı; 1884-07-05 Alman Togolandı koruma ilanı, kıyı şeridi (Lomé) kesin olarak içinde. Emre kararı: kısmi başlangıç kabul mü, yoksa yazılmasın mı (kur=1884 kuruluş DEĞİLDİR). Almanya 1914-08-26'da teslim oldu (künye t)."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1922-07-20",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "ONERI-KARAR: 1914-08-26→1916 Fransız-İngiliz ortak idare, 1916-12-27 bölüşme; Fransız bölgesi için fransa-cumhuriyet. İngiliz bölgesi ayrı yerleşimlerdir."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Togo öncül zinciri: alman-togo 1884-07-05→1914-08-26, ardından 1914-08-26→1922-07-20 Fransız/İngiliz askerî idaresi ve 1916 bölüşmesi (künye yok) → s: fransa-cumhuriyet ONERI-KARAR (Kamerun emsali: s:fransa-cumhuriyet 1916-02-18→1922-07-20). BM A/RES/1046 (XI) (13 Aralık 1956) fransiz-togo SONU ile ilgili: «with Decree No. 56-847 of 24 August 1956, requesting termination of the Trusteeship Agreement» ve «consulted by referendum on 28 October 1956» — kuruluş/öncül uç değil, ic_not için.",
+   "f_geri_kismi": true,
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Sokodé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "fransiz-togo",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Sokodé: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Togo öncül zinciri: alman-togo 1884-07-05→1914-08-26, ardından 1914-08-26→1922-07-20 Fransız/İngiliz askerî idaresi ve 1916 bölüşmesi (künye yok) → s: fransa-cumhuriyet ONERI-KARAR (Kamerun emsali: s:fransa-cumhuriyet 1916-02-18→1922-07-20). BM A/RES/1046 (XI) (13 Aralık 1956) fransiz-togo SONU ile ilgili: «with Decree No. 56-847 of 24 August 1956, requesting termination of the Trusteeship Agreement» ve «consulted by referendum on 28 October 1956» — kuruluş/öncül uç değil, ic_not için.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Griquatown",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "griqua",
+   "mevcut_ilk_f": "1804-01-01",
+   "kur": "1804-01-01",
+   "f_geri": {
+    "kurulus": "1812 (yıl; bilgi kutusu)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Griquatown",
+    "alinti": "In 1801 William Anderson and Cornelius Kramer, of the London Missionary Society, established a station among the Griqua at Leeuwenkuil. The site proved too arid"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Bilgi kutusu Established 1812; 1801 istasyonu başka yerde (Leeuwenkuil). griqua f 1804. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. | kur_ileri_oneri: 1812-01-01 ([yalnız yıl], ONERI-KARAR 1801/1812)"
+  },
+  {
+   "ad": "Philippolis",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "griqua",
+   "mevcut_ilk_f": "1804-01-01",
+   "kur": "1804-01-01",
+   "f_geri": {
+    "kurulus": "1823 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Philippolis",
+    "alinti": "The London Missionary Society founded Philippolis in 1823 as a mission station serving the local Griqua people."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Adam Kok II 1826'da yerleşti. griqua f 1804. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. | kur_ileri_oneri: 1823-01-01 ([yalnız yıl])"
+  },
+  {
+   "ad": "Juba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "guney-sudan-ozerk-bolge",
+   "mevcut_ilk_f": "1972-02-27",
+   "kur": "1972-02-27",
+   "f_geri": {
+    "kurulus": "1920 (yıl; BEYANLI ALT SINIR: CMS/modern şehir; bilgi kutusu 1922)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Juba",
+    "alinti": "Juba was established in 1920–21 by the Church Missionary Society (CMS) in a small Bari"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-sudani",
+     "f": "1920-01-01",
+     "t": "1956-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Juba was established in 1920–21 by the Church Missionary Society (CMS) in a small Bari",
+     "not": "ONERI-KARAR: 1920 / 1921 / 1922 (bilgi kutusu) üçlüsü; Bari köyü Juba daha eski, Gondokoro 19. yy. [yalnız yıl]"
+    },
+    {
+     "alan": "s",
+     "d": "sudan-cumhuriyeti",
+     "f": "1956-01-01",
+     "t": "1972-02-27",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Mevcut son uç UC103-ONERI'de çözüldü.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kalenga (Hehe)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "hehe",
+   "mevcut_ilk_f": "1850-01-01",
+   "kur": "1850-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Kalenga,_Tanzania: sayfa/cümle yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Hehe başkenti Munyigumba/Mkwawa dönemi; hehe f 1850."
+  },
+  {
+   "ad": "İbadan",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "ibadan",
+   "mevcut_ilk_f": "1829-01-01",
+   "kur": "1829-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ibadan: kuruluş yılı alınamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Ibadan 1829 savaş kampı; kur=f=1829 ile aynı olabilir. oyo-imparatorlugu (t 1836-01-01) kapsamı ayrı soru."
+  },
+  {
+   "ad": "Bamenda",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-kamerun",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bamenda",
+    "alinti": "In 1884, the city was colonized by Germany until 1916 when it became a colony administered by Great Britain (kuruluş değil, sömürgeleştirme cümlesi; bilgi zayıf)"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Kamerun öncül zinciri: alman-kamerun 1884-07-12→1916-02-18, sonra s: ingiltere 1916-02-18→1922-07-20 (Güney Kamerun İngiliz işgali/idaresi).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Buea",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-kamerun",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "1901 (yıl; BEYANLI ALT SINIR: Alman Kamerun başkenti)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Buea",
+    "alinti": "Buea was the colonial capital of German Kamerun from 1901 to 1919"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-kamerun",
+     "f": "1901-01-01",
+     "t": "1916-02-18",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Buea was the colonial capital of German Kamerun from 1901 to 1919",
+     "not": "BEYANLI alt sınır: başkentlik statüsü; Bakweri yerleşimi daha eski. [yalnız yıl]"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1916-02-18",
+     "t": "1922-07-20",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "ONERI-KARAR: İngiliz askerî işgal/idare; mandanın başlangıcı 1922-07-20. İngiltere künyesi açık."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kamerun öncül zinciri: alman-kamerun 1884-07-12→1916-02-18, sonra s: ingiltere 1916-02-18→1922-07-20 (Güney Kamerun İngiliz işgali/idaresi).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kumba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-kamerun",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Kumba,_Cameroon: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Kamerun öncül zinciri: alman-kamerun 1884-07-12→1916-02-18, sonra s: ingiltere 1916-02-18→1922-07-20 (Güney Kamerun İngiliz işgali/idaresi).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Akobo",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Aveyl",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Bentiu",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Bor",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bor,_South_Sudan",
+    "alinti": "Bor is located on the eastern bank of White Nile River, a site where an ivory trading depot was established in the 1860s. ... In 1905, Bor was established as the headquarters of the Bor District."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Yıl yok (‘1860'lar’ fildişi deposu); 1905 ilçe merkezi BEYANLI statü günü. Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Deym Zübeyr",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Fangak",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Gondokoro",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Gondokoro",
+    "alinti": "(Juba'dan önceki Nil ticaret/misyon üssü; kuruluş yılı alınamadı)"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Bellek ipucu (doğrulanmadı): 1840'lar-1850'ler. Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Kapoeta",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "1927-01 (ay; gün yok)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Kapoeta",
+    "alinti": "The post at Kapoeta was established by Captain Knollys, who reached the river in January 1927."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş 1899'dan sonra. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz. | kur_ileri_oneri: 1927-01-01 ([yalnız ay]; karakol kuruluşu)"
+  },
+  {
+   "ad": "Ler",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Maridi",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Meşra er-Rek",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Nimule",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Nâsir",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Pibor",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "1912 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Pibor",
+    "alinti": "Pibor or Pibor Post was a colonial era outpost built in 1912 by the British and was originally called Fort Bruc"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş 1899'dan sonra. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz. | kur_ileri_oneri: 1912-01-01 ([yalnız yıl])"
+  },
+  {
+   "ad": "Rağa",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Rumbek",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Tembura",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Tonc",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Torit",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Vav",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Vâdî Halfâ",
+   "dosya": "yerlesimler_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "1813-03-06",
+   "f_geri": {
+    "kurulus": "kur DOĞRU",
+    "hukum": "ONERI",
+    "kaynak": "mevcut kaynak: J. L. Burckhardt, Travels in Nubia (1819), 6 Mart 1813 günlük kaydı (atlas kaydı, Project Gutenberg #71129; bu turda yeniden okunmadı)",
+    "alinti": "Vikipedi (ipucu): The modern town of Wadi Halfa was founded in the 19th century"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Atlasın kur'u zaten ‘ilk tanık’ (Burckhardt 1813-03-06); F-GERİ'de yapılacak bir şey yok. Zincir: v (kid) 1813-03-06→1899-01-19 + isg ingiltere 1882-09-13→1899 mevcut (ayrıştırıcı d=None gösteriyor). Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok)."
+  },
+  {
+   "ad": "Yambio",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Yei",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Şembe",
+   "dosya": "yerlesimler_h2_afrika.js",
+   "ilk_kunye": "ingiliz-sudani",
+   "mevcut_ilk_f": "1899-01-19",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (en.wikipedia.org sayfası okundu; kuruluş cümlesi çıkarılamadı)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Güney Sudan yerleşimlerinde 1899-01-19 öncesi sahip karmaşıktır: turk-misir-sudani 1821-01-01→1885-01-26 (ekvator ilhakı 1870'ler), mehdi 1881-03-01→1898-09-02, Lado Kıtası (kongo-serbest-devleti 1894-1910), yerel zariba/krallıklar (künye yok). Yerleşim bazında kaynaklı kuruluş + o günün sahibi bulunmadan zincir yazılmaz."
+  },
+  {
+   "ad": "Manzini",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-svaziland",
+   "mevcut_ilk_f": "1903-01-01",
+   "kur": "1903-01-01",
+   "f_geri": {
+    "kurulus": "1885 (yıl; ticaret karakolu)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Manzini,_Eswatini",
+    "alinti": "A commercial center from the time a trading post was opened in 1885, Bremersdorp was designated a township in 1898."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "svazi",
+     "f": "1885-01-01",
+     "t": "1903-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "A commercial center from the time a trading post was opened in 1885",
+     "not": "ONERI-KARAR: 1894-1903 Svaziland Transvaal/İngiliz ortak koruması; svazi künyesi (1815→1903-01-01) Lobamba zinciriyle tutarlı. [yalnız yıl]; ilçe 1898 statü."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "ingiliz-svaziland ilk dilimi 1903-01-01'de başlıyor; zincir svazi t ile bitişik.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Mbabane",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-svaziland",
+   "mevcut_ilk_f": "1903-01-01",
+   "kur": "1903-01-01",
+   "f_geri": {
+    "kurulus": "1887 (yıl; bilgi kutusu 1902 = başkent ilanı)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Mbabane",
+    "alinti": "Mbabane was founded in 1887 by Mickey Wells, on the spot where the Transvaal-to-Mozambique route cr"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "svazi",
+     "f": "1887-01-01",
+     "t": "1903-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Mbabane was founded in 1887 by Mickey Wells",
+     "not": "ONERI-KARAR: metin 1887, bilgi kutusu ‘Founded 1902’ (başkent ilanı); [yalnız yıl]. svazi künyesi Lobamba ile tutarlı."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "ingiliz-svaziland ilk dilimi 1903-01-01.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Ho (Togoland)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-togoland",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. İngiliz Togolandı yerleşimlerinde (Ho, Hohoe, Kpando) Alman dönemi (alman-togo 1884-07-05→1914-08-26) ve 1914-1922 ortak/İngiliz idaresi zinciri kuruluş yılı bulunursa uygulanır.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Hohoe",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-togoland",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. İngiliz Togolandı yerleşimlerinde (Ho, Hohoe, Kpando) Alman dönemi (alman-togo 1884-07-05→1914-08-26) ve 1914-1922 ortak/İngiliz idaresi zinciri kuruluş yılı bulunursa uygulanır.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Kpando",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "ingiliz-togoland",
+   "mevcut_ilk_f": "1922-07-20",
+   "kur": "1922-07-20",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. İngiliz Togolandı yerleşimlerinde (Ho, Hohoe, Kpando) Alman dönemi (alman-togo 1884-07-05→1914-08-26) ve 1914-1922 ortak/İngiliz idaresi zinciri kuruluş yılı bulunursa uygulanır.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Elisabethville (Lubumbashi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "katanga",
+   "mevcut_ilk_f": "1960-07-11",
+   "kur": "1960-07-11",
+   "f_geri": {
+    "kurulus": "1910 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Lubumbashi",
+    "alinti": "Country Democratic Republic of the Congo ... Founded 1910 (bilgi kutusu); The Belgian government established the modern-day government in the city of Élisabethville"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "belcika-kongo",
+     "f": "1910-01-01",
+     "t": "1960-06-30",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Founded 1910",
+     "not": "[yalnız yıl]; gün bulunamadı."
+    },
+    {
+     "alan": "s",
+     "d": "kongo-kinsasa",
+     "f": "1960-06-30",
+     "t": "1960-07-11",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi; 11 Temmuz Katanga ayrılışı mevcut ilk dilim f. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Katanga: Kongo öncül zinciri belcika-kongo 1908-11-15→1960-06-30, kongo-kinsasa 1960-06-30→; Katanga ayrılışı 1960-07-11."
+  },
+  {
+   "ad": "Jadotville (Likasi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "katanga",
+   "mevcut_ilk_f": "1960-07-11",
+   "kur": "1960-07-11",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Jadotville ve /Likasi: kuruluş cümlesi alınamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Katanga: Kongo öncül zinciri belcika-kongo 1908-11-15→1960-06-30, kongo-kinsasa 1960-06-30→; Katanga ayrılışı 1960-07-11. Bellek ipucu (doğrulanmadı): 1910'lar madencilik kenti."
+  },
+  {
+   "ad": "Doha (Katar)",
+   "dosya": "yerlesimler.js",
+   "ilk_kunye": "katar",
+   "mevcut_ilk_f": "1868-01-01",
+   "kur": "1825-01-01",
+   "f_geri": {
+    "kurulus": "kur DOĞRU (1820'ler, atlas kur 1825-01-01; yıl düzeyi)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Doha",
+    "alinti": "Doha was founded in the 1820s as an offshoot of Al Bidda."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "v",
+     "d": "bahreyn",
+     "f": "1825-01-01",
+     "t": "1868-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, ‘Katar’ (ham metin sayfa.py ile okundu)",
+     "alinti": "Bahreyn şeyhleri Katar üzerinde zaman zaman nüfuz kurmayı başardılar.",
+     "not": "ONERI-KARAR (Emre): TDV nüfuzu ‘zaman zaman’ der, egemenlik/devir DEĞİL → kaynaklı sahiplik yok. Atlas bu aralığı bilerek devletsiz bırakır (kasitli_bosluk:true, bos:devletsiz). Öneri: BEYANLI boşluk korunsun; `v: bahreyn` yalnız Emre onaylarsa. 1868: Âl-i Sânî (katar f 1868-01-01)."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Atlas kur 1825-01-01 Vikipedi bilgi kutusuyla uyuşuyor (kaynaksız; ‘1820'ler’). F-GERİ'de yeni kuruluş günü yok → ‘kur DOĞRU’ (yıl düzeyi). TDV Doha maddesi (3246 kar.) kuruluş vermiyor.",
+   "f_geri_kismi": true
+  },
+  {
+   "ad": "Güzelyurt (Morphou)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kibris-ingiliz-kolonisi",
+   "mevcut_ilk_f": "1914-11-05",
+   "kur": "1914-11-05",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "TDV ‘Kıbrıs’ (okundu: yer adı kuruluşu yok); Vikipedi en Morphou: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Antik/ortaçağ yerleşimi; ilk anılış bulunamadı. Taslak (YAZILMADI): Kıbrıs öncül zinciri künyelerle mevcut — kibris-krallik 1192-01-01→1489-02-26, kibris-venedik 1489-02-26→1571-08-01, Osmanlı 1571-08-01→1878-06-04 (Osmanlı künye id'si bu turda devletler.js'te ölçülemedi), kibris-ingiliz 1878-06-04→1914-11-05, kibris-ingiliz-kolonisi 1914-11-05→1960-08-16. Yerleşimin ilk anılışı kaynakla bulunmadan bu zincir uygulanmaz."
+  },
+  {
+   "ad": "Dikelya (Dhekelia)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "kibris-ingiliz-ussler",
+   "mevcut_ilk_f": "1960-08-16",
+   "kur": "1960-08-16",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Dhekelia_Cantonment: kuruluş tarihi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Üs bölgesi 1960-08-16; köy/üs kuruluşu bulunamadı. Taslak (YAZILMADI): Kıbrıs öncül zinciri künyelerle mevcut — kibris-krallik 1192-01-01→1489-02-26, kibris-venedik 1489-02-26→1571-08-01, Osmanlı 1571-08-01→1878-06-04 (Osmanlı künye id'si bu turda devletler.js'te ölçülemedi), kibris-ingiliz 1878-06-04→1914-11-05, kibris-ingiliz-kolonisi 1914-11-05→1960-08-16. Yerleşimin ilk anılışı kaynakla bulunmadan bu zincir uygulanmaz."
+  },
+  {
+   "ad": "Bandundu",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı."
+  },
+  {
+   "ad": "Basankusu",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı."
+  },
+  {
+   "ad": "Boma",
+   "dosya": "yerlesimler_emilme.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Boma,_Democratic_Republic_of_the_Congo",
+    "alinti": "Boma was founded by European merchants in the 16th century as an entrepôt (yıl yok; 16. yy)"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. 16. yy ticaret üssü; o zamanki sahip Kongo/Loango yerel krallıkları — kaynaklı sınır/sahip yok."
+  },
+  {
+   "ad": "Kisangani (Stanleyville)",
+   "dosya": "yerlesimler_emilme.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "1883 (yıl; Stanley Falls İstasyonu)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Kisangani",
+    "alinti": "Before Henry Morton Stanley, working on behalf of King Leopold II of the Belgians, founded what would become Stanley Falls Station in 1883"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Kongo Serbest Devleti öncesi (1883-1885) sahip: Uluslararası Kongo Derneği (AIC) — künye YOK; zincir yazılmaz, kur 1885-01-01 kalır (f_geri_kısmi: kuruluş kaynaklı ama sahip künyesiz).",
+   "f_geri_kismi": true
+  },
+  {
+   "ad": "Luebo",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "1885-11 (ay; gün yok)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Luebo",
+    "alinti": "The town was founded in November 1885 by Ludwig Wolf and a group of other European colonists"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş kongo-serbest-devleti f'sinden (1885-01-01) sonra. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. | kur_ileri_oneri: 1885-11-01 ([yalnız ay])"
+  },
+  {
+   "ad": "Mbandaka",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "kongo-serbest-devleti",
+   "mevcut_ilk_f": "1885-01-01",
+   "kur": "1885-01-01",
+   "f_geri": {
+    "kurulus": "1883 (yıl; Équateurville)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Mbandaka",
+    "alinti": "The city was founded in 1883 by British explorer Henry Morton Stanley under the name Équateurville"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Kongo Serbest Devleti öncesi (1883-1885) sahip: Uluslararası Kongo Derneği (AIC) — künye YOK; zincir yazılmaz, kur 1885-01-01 kalır (f_geri_kısmi: kuruluş kaynaklı ama sahip künyesiz).",
+   "f_geri_kismi": true
+  },
+  {
+   "ad": "Hadramut",
+   "dosya": "yerlesimler.js",
+   "ilk_kunye": "kuayti-sultanligi",
+   "mevcut_ilk_f": "1881-01-01",
+   "kur": "",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "atlas kaydı tur:bolge (oturma yeri değil, bölge); F-GERİ UYGULANAMAZ",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "tur:bolge — yerleşim değil bölge; kuruluş kavramı yok. kur boş, zincir kuayti-sultanligi 1881-01-01'de başlar; 1881 öncesi araştırılmadı (kayıt notu). Dışarıda bırakılması önerilir."
+  },
+  {
+   "ad": "Dori",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "liptako",
+   "mevcut_ilk_f": "1810-01-01",
+   "kur": "1810-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Dori,_Burkina_Faso: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Liptako emirliği ~1810 Dori'de kuruldu (kur=f=1810 uyuşabilir)."
+  },
+  {
+   "ad": "Niangara (Mangbetu)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "mangbetu",
+   "mevcut_ilk_f": "1815-01-01",
+   "kur": "1815-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Niangara: sayfa/cümle yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Niangara Belçika karakolu 1890'lar (mangbetu t 1895 sonrasında); mangbetu f 1815 ile kuruluş çelişebilir."
+  },
+  {
+   "ad": "Bulavayo",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "matabele",
+   "mevcut_ilk_f": "1840-01-01",
+   "kur": "1840-01-01",
+   "f_geri": {
+    "kurulus": "~1840 (yıl; kur DOĞRU)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bulawayo",
+    "alinti": "Bulawayo was founded by a group led by Gundwane Ndiweni around 1840 as the kraal of Mzilikazi"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Atlas kur 1840-01-01 = matabele f; Vikipedi ‘around 1840’ (Mzilikazi kraal'ı). Modern şehir: ‘On 4 November 1893, Leander Starr Jameson declared Bulawayo a settlement under the rule of the BSAC’ (= matabele t). MÜKERRER: Bulawayo (yerlesimler_halef_1946.js, rodezya-nyasaland grubu) aynı şehir. Zincir kusuru: matabele→ingiltere 1893-11-04→1965 (ingiliz-guney-rodezya künyesi varken ‘ingiltere’)."
+  },
+  {
+   "ad": "Portsaid",
+   "dosya": "yerlesimler_afrika.js",
+   "ilk_kunye": "misir-sultanligi",
+   "mevcut_ilk_f": "1914-12-18",
+   "kur": "1859-04-25",
+   "f_geri": {
+    "kurulus": "kur DOĞRU",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Port_Said",
+    "alinti": "Port Said was founded by Sa'id of Egypt on Easter Monday, 25 April 1859"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Atlas kur 1859-04-25 Vikipedi ile uyuşuyor (ipucu; kaynaklı teyit yok). Zincir 1859'dan itibaren var: v (kid misir-kavalali) 1859-04-25→1914-12-18 + isg ingiltere 1882-09-13→1914. ‘kur farklı’ = ilk s: künyesi (misir-sultanligi 1914-12-18) kuruluştan sonra; F-GERİ'de eksik yok."
+  },
+  {
+   "ad": "İsmâiliye",
+   "dosya": "yerlesimler_afrika.js",
+   "ilk_kunye": "misir-sultanligi",
+   "mevcut_ilk_f": "1914-12-18",
+   "kur": "1863-04-27",
+   "f_geri": {
+    "kurulus": "kur DOĞRU (yıl 1863 uyuşuyor; gün 04-27 teyitsiz)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ismailia",
+    "alinti": "Ismailia was founded in 1863, during the construction of the Suez Canal, by Khedive Ismail"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Atlas kur 1863-04-27: yıl Vikipedi ile uyuşuyor; gün kaynağı bu turda bulunamadı. Zincir kuruluştan itibaren mevcut (v misir-kavalali + isg ingiltere)."
+  },
+  {
+   "ad": "Njombe",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "ngoni",
+   "mevcut_ilk_f": "1835-01-01",
+   "kur": "1835-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. ZİNCİR KUSURU (not): ngoni 1835→1898 sonrası `ingiltere` 1898-01-01→1961-12-09; oysa 1898-1916 Alman Doğu Afrikası (alman-dogu-afrikasi 1885-02-27→1919-06-28) ve 1922 sonrası ingiliz-tanganika-mandasi künyeleri var (hehe zinciri doğru kuruyor)."
+  },
+  {
+   "ad": "Songea (Ngoni)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "ngoni",
+   "mevcut_ilk_f": "1835-01-01",
+   "kur": "1835-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. ZİNCİR KUSURU (not): ngoni 1835→1898 sonrası `ingiltere` 1898-01-01→1961-12-09; oysa 1898-1916 Alman Doğu Afrikası (alman-dogu-afrikasi 1885-02-27→1919-06-28) ve 1922 sonrası ingiliz-tanganika-mandasi künyeleri var (hehe zinciri doğru kuruyor). Bellek ipucu (doğrulanmadı): Songea 1897 Alman boma'sı."
+  },
+  {
+   "ad": "Bangassou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "orta-afrika-imparatorlugu",
+   "mevcut_ilk_f": "1976-12-04",
+   "kur": "1976-12-04",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bangassou",
+    "alinti": "Bangassou has been a sultanate since at least the early 18th century."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "fransiz-ekvator-afrikasi",
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Rubber being bought by French men at Bangassou, 1906",
+     "not": "KISMİ: kuruluş bulunamadı; yerleşim 1906'da var (görsel alt yazısı). Başlangıç 1910-01-15 = AEF künye f, KURULUŞ DEĞİLDİR. Emre kararı."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1958-01-01",
+     "t": "1960-08-13",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "BEYANLI: özerk Orta Afrika Cumhuriyeti (1958-12-01) künyesi yok; Brazzaville emsali BEYANLI AEF/fransa uzatması (UC103 kararı)."
+    },
+    {
+     "alan": "s",
+     "d": "orta-afrika-cumhuriyeti",
+     "f": "1960-08-13",
+     "t": "1976-12-04",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Orta Afrika öncül zinciri: fransiz-ekvator-afrikasi 1910-01-15→1958-01-01; 1958-01-01→1960-08-13 özerk Orta Afrika Cumhuriyeti (künye yok → fransa-cumhuriyet BEYANLI); orta-afrika-cumhuriyeti 1960-08-13→1976-12-04 (künye, f=bağımsızlık). 1906 öncesi (sultanlık, Fransız üssü) künyesiz.",
+   "f_geri_kismi": true,
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Berbérati",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "orta-afrika-imparatorlugu",
+   "mevcut_ilk_f": "1976-12-04",
+   "kur": "1976-12-04",
+   "f_geri": {
+    "kurulus": "1893 (yıl; ‘The city was founded in 1893’)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Berbérati",
+    "alinti": "The city was founded in 1893."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1893-01-01",
+     "t": "1910-01-15",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "The city was founded in 1893.",
+     "not": "ONERI-KARAR: 1893'te Sangha/Haut-Sangha Fransız Kongosu'nun bir parçası mıydı bu turda doğrulanamadı; 1894 Fransız-Alman Kamerun sınırı sonrasına kadar tartışmalı. [yalnız yıl]"
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-ekvator-afrikasi",
+     "f": "1910-01-15",
+     "t": "1958-01-01",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1958-01-01",
+     "t": "1960-08-13",
+     "hukum": "BEYANLI",
+     "uc": "f+t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "BEYANLI: özerk Orta Afrika Cumhuriyeti (1958-12-01) künyesi yok."
+    },
+    {
+     "alan": "s",
+     "d": "orta-afrika-cumhuriyeti",
+     "f": "1960-08-13",
+     "t": "1976-12-04",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Bağımsızlık günü yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Orta Afrika öncül zinciri: fransiz-ekvator-afrikasi 1910-01-15→1958-01-01; 1958-01-01→1960-08-13 özerk Orta Afrika Cumhuriyeti (künye yok → fransa-cumhuriyet BEYANLI); orta-afrika-cumhuriyeti 1960-08-13→1976-12-04 (künye, f=bağımsızlık).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Bulawayo",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "rodezya-nyasaland-federasyonu",
+   "mevcut_ilk_f": "1953-08-01",
+   "kur": "1953-08-01",
+   "f_geri": {
+    "kurulus": "1893-11-04 (modern yerleşim; Ndebele kraal'ı ~1840 → ‘Bulavayo’ kaydı)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bulawayo",
+    "alinti": "On 4 November 1893, Leander Starr Jameson declared Bulawayo a settlement under the rule of the BSAC."
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1893-11-04",
+     "t": "1953-08-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "On 4 November 1893, Leander Starr Jameson declared Bulawayo a settlement under the rule of the BSAC.",
+     "not": "ONERI-KARAR: bu kayıt MÜKERRERdir (matabele grubundaki ‘Bulavayo’ ile aynı şehir: lat/lon -20.15/28.58). Mükerrer ise bu kayıt silinir/birleşir, F-GERİ öncül zinciri gerekmez. 1893-11-04 = matabele t."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Mükerrer tarama: normalleştirilmiş ad ‘bulawayo’~‘bulavayo’ + 0 km. Matabele zincirinde 1893 sonrası `ingiltere` (ingiliz-guney-rodezya künye varken).",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Lusaka",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "rodezya-nyasaland-federasyonu",
+   "mevcut_ilk_f": "1953-08-01",
+   "kur": "1953-08-01",
+   "f_geri": {
+    "kurulus": "1905 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Lusaka",
+    "alinti": "Lusaka was founded in 1905 as a water stop on the route and was named after a Chief Lusaaka"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1905-01-01",
+     "t": "1953-08-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Lusaka was founded in 1905 as a water stop on the route",
+     "not": "[yalnız yıl]; BSAC idaresi (künye ingiliz-kuzey-rodezya 1890-01-01→1964-10-24 kapsar). Lenje köyü Lusaaka daha eski."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Mevcut son uç UC103-ONERI'de çözüldü.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Bir Lahlu (Bir Lehlou)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "sahra-arap-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1976-02-27",
+   "kur": "1976-02-27",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bir_Lehlou: sayfa/cümle yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Öncül: ispanyol-sahra 1884-12-26→1976-02-26 (künye); SADR f 1976-02-27 ile arasında 1 günlük künye boşluğu (t 02-26 ≠ f 02-27) ayrı soru."
+  },
+  {
+   "ad": "Tifariti",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "sahra-arap-demokratik-cumhuriyeti",
+   "mevcut_ilk_f": "1976-02-27",
+   "kur": "1976-02-27",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Tifariti: kuruluş cümlesi yok",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Öncül: ispanyol-sahra 1884-12-26→1976-02-26 (künye); SADR f 1976-02-27 ile arasında 1 günlük künye boşluğu (t 02-26 ≠ f 02-27) ayrı soru."
+  },
+  {
+   "ad": "Lobamba (Svazi)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "svazi",
+   "mevcut_ilk_f": "1815-01-01",
+   "kur": "1815-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Lobamba",
+    "alinti": "Two areas have been called Lobamba, the first now called \"Old Lobamba\" was established in 1750 in southern Eswatini. The subject of this article is a settlement that was created by Sobhuza II in the northwest section of the country."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Atlas koordinatı (-26.45, 31.2) modern Lobamba'ya karşılık (Sobhuza II kuruluşu, 20. yy); Eski Lobamba (1750/1820) ayrı yerdir ⇒ svazi f 1815 ile kuruluş çelişebilir (f ileri)."
+  },
+  {
+   "ad": "Fort Portal (Toro)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "toro",
+   "mevcut_ilk_f": "1830-01-01",
+   "kur": "1830-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Fort_Portal: kuruluş cümlesi çıkarılamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): kale 1893 (Lugard); toro f 1830 ile çelişebilir (f ileri)."
+  },
+  {
+   "ad": "Butterworth",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "transkei",
+   "mevcut_ilk_f": "1976-10-26",
+   "kur": "1976-10-26",
+   "f_geri": {
+    "kurulus": "1827 (yıl; Wesleyan misyon istasyonu)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Butterworth,_Eastern_Cape",
+    "alinti": "Butterworth was first established as a Wesleyan mission station in 1827 north of the Great Kei River"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-birligi",
+     "f": "1910-05-31",
+     "t": "1961-05-31",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "KISMİ: 1827-1910 arası sahip (Xhosa Gcaleka → Cape ilhakı, tarih bulunamadı) künyesiz/kaynaksız; Birlik tarihi 1910-05-31 (künye f), KURULUŞ DEĞİLDİR. Emre kararı."
+    },
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1961-05-31",
+     "t": "1976-10-26",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "künye zinciri (künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı)",
+     "alinti": "",
+     "not": "Cumhuriyet 1961-05-31; bantustan bağımsızlığı yalnız sahip geçişi. künye f/t atlasın devletler.js kaydıdır; bu turda ayrıca kaynaklanmadı"
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "f_geri_kısmi: Mevcut son uç UC103-ONERI'de çözüldü. Cape'e ilhak (1885?) bulunamadı: bellek ipucu doğrulanmadı.",
+   "f_geri_kismi": true,
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Beyla",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "vasulu",
+   "mevcut_ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Vasulu f 1878-01-01; Samori öncesi (Kabadugu/Mahu/Kong) siyaset künyesi yok."
+  },
+  {
+   "ad": "Bisandugu",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "vasulu",
+   "mevcut_ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi sayfası bulunamadı/boş",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Vasulu f 1878-01-01; Samori öncesi (Kabadugu/Mahu/Kong) siyaset künyesi yok."
+  },
+  {
+   "ad": "Odienne",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "vasulu",
+   "mevcut_ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Odienné",
+    "alinti": "The founding of the town is credited to Vakaba Touré (1800–1858), who also founded the Kabadougou Kingdom, of which Odienné was the capital."
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Yıl yok (kurucu 1800-1858 yaşamış). Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Vasulu f 1878-01-01; Samori öncesi (Kabadugu/Mahu/Kong) siyaset künyesi yok. Kabadugu Krallığı künyesi yok ⇒ öncül zincir yazılamaz."
+  },
+  {
+   "ad": "Seguela",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "vasulu",
+   "mevcut_ilk_f": "1878-01-01",
+   "kur": "1878-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) (sayfa okundu; kuruluş cümlesi yok)",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Vasulu f 1878-01-01; Samori öncesi (Kabadugu/Mahu/Kong) siyaset künyesi yok."
+  },
+  {
+   "ad": "Thohoyandou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "ilk_kunye": "venda-bantustan",
+   "mevcut_ilk_f": "1979-09-13",
+   "kur": "1979-09-13",
+   "f_geri": {
+    "kurulus": "1977 (yıl)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Thohoyandou",
+    "alinti": "Established 1977 by the Vhavenda King (bilgi kutusu); built at a large portion of the village of Tshiluvhi"
+   },
+   "oncul_zincir": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1977-01-01",
+     "t": "1979-09-13",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026)",
+     "alinti": "Established 1977 by the Vhavenda King",
+     "not": "[yalnız yıl]; Tshiluvhi köyü 19. yy sonu eski. Venda 1973'ten özyönetimli (Güney Afrika sahipliği). Bağımsızlık 1979-09-13 yalnız sahip geçişi."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Mevcut son uç UC103-ONERI'de çözüldü.",
+   "uc103_listesinde": true
+  },
+  {
+   "ad": "Bunkeya (Yeke)",
+   "dosya": "yerlesimler_afrika2.js",
+   "ilk_kunye": "yeke",
+   "mevcut_ilk_f": "1856-01-01",
+   "kur": "1856-01-01",
+   "f_geri": {
+    "kurulus": "BULUNAMADI",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Bunkeya: kuruluş cümlesi çıkarılamadı",
+    "alinti": ""
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluşu bulunamadı; kaynaklı kuruluş yoksa öncül zincir yazılmaz (uydurma yok). Zincir künye f gününde başlamaya devam eder; kur=f yapıt olarak ADA bırakılır, kapatılmadı. Bellek ipucu (doğrulanmadı): Msiri 1856'da Katanga'ya geldi, Bunkeya ~1860 başkent; kur=f=1856 ile aynı olabilir."
+  },
+  {
+   "ad": "Ulundi (Zululand)",
+   "dosya": "yerlesimler_e9353f.js",
+   "ilk_kunye": "zulu-kralligi",
+   "mevcut_ilk_f": "1816-01-01",
+   "kur": "1816-01-01",
+   "f_geri": {
+    "kurulus": "1873 (yıl; Cetshwayo'nun yeni başkenti)",
+    "hukum": "ONERI",
+    "kaynak": "Vikipedi en (YALNIZ İPUCU; sayfa.py ile ham metin okundu, 5 Kasım 2026) en.wikipedia.org/wiki/Ulundi",
+    "alinti": "When Cetshwayo became king of the Zulus on 1 September 1873, he created, as was customary, a new capital for the nation"
+   },
+   "oncul_zincir": [],
+   "d2_gerekli": [],
+   "not": "Kuruluş zulu-kralligi f'sinden (1816) çok sonra; Cetshwayo 1873-09-01'de kral oldu, başkent kuruluş günü bilinmiyor. Kuruluş künye f'sinden SONRA: F-GERİ değil, f İLERİ gider (CLAUDE.md eski kural: ONERI ile kırp; atlas kararı Emre/LAB'ındır). Bu satırda öncül zincir yazılmadı. (Emre gece-17: Ulundi önerileri uygun.) | kur_ileri_oneri: 1873-09-01 ([yalnız yıl; kral olduğu gün üst sınır değil alt ipucu])"
+  }
+ ],
+ "gruplar": {
+  "adamava": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 6
+  },
+  "akrotiri-dekelya": {
+   "okunan_kaynak": [
+    "Vikipedi en",
+    "Vikipedi en 'Akrotiri,_Cyprus' 404; kaynak bulunamadı"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "basuto": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "biafra": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 2,
+   "kayit_sayisi": 4
+  },
+  "bophuthatswana": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "ciskei": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "darul-kuti": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 3
+  },
+  "ekvator-ginesi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "fas-ispanyol-himayesi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "fransiz-ekvator-afrikasi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "fransiz-togo": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 3,
+   "kayit_sayisi": 4
+  },
+  "griqua": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "guney-sudan-ozerk-bolge": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "hehe": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "ibadan": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "ingiliz-kamerun": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 3
+  },
+  "ingiliz-sudani": {
+   "okunan_kaynak": [
+    "Vikipedi en",
+    "mevcut kaynak: J. L. Burckhardt, Travels in Nubia"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 24
+  },
+  "ingiliz-svaziland": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 2,
+   "kayit_sayisi": 2
+  },
+  "ingiliz-togoland": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 3
+  },
+  "katanga": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 2
+  },
+  "katar": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "kibris-ingiliz-kolonisi": {
+   "okunan_kaynak": [
+    "TDV ‘Kıbrıs’"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "kibris-ingiliz-ussler": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "kongo-serbest-devleti": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 6
+  },
+  "kuayti-sultanligi": {
+   "okunan_kaynak": [
+    "atlas kaydı tur:bolge"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "liptako": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "mangbetu": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "matabele": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "misir-sultanligi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "ngoni": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "orta-afrika-imparatorlugu": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 2,
+   "kayit_sayisi": 2
+  },
+  "rodezya-nyasaland-federasyonu": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 2,
+   "kayit_sayisi": 2
+  },
+  "sahra-arap-demokratik-cumhuriyeti": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 2
+  },
+  "svazi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "toro": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "transkei": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "vasulu": {
+   "okunan_kaynak": [
+    "Vikipedi en",
+    "Vikipedi sayfası bulunamadı/boş"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 4
+  },
+  "venda-bantustan": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 1,
+   "kayit_sayisi": 1
+  },
+  "yeke": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  },
+  "zulu-kralligi": {
+   "okunan_kaynak": [
+    "Vikipedi en"
+   ],
+   "uygulanan_kayıt_sayısı": 0,
+   "kayit_sayisi": 1
+  }
+ },
+ "ozet": {
+  "kayit": 98,
+  "kuruluş_hukum": {
+   "BULUNAMADI": 63,
+   "ONERI": 35
+  },
+  "oncul_zincirli_kayit": 19,
+  "f_geri_kısmi": 6,
+  "kur_ileri_oneri": 12,
+  "kur_dogru": 4,
+  "KAYNAKLI_kurulus": 0,
+  "d2_gerekli": 0,
+  "aciklama": "Kuruluş hükümleri Vikipedi ipucudur (sayfa.py ham metni) ⇒ ONERI; KAYNAKLI yok. TDV Katar ham metni Doha'da Bahreyn nüfuzu için alıntılandı (yine ONERI). Hayalet 0, sahipsiz dilim açılmadı."
+ },
+ "tarayici": [
+  "islamansiklopedisi.org.tr/doha: 3246 karakter, kuruluş/yıl yok (Doha için TDV kuruluş vermiyor)",
+  "islamansiklopedisi.org.tr/arama/portsaid, /arama/nador, /arama/guzelyurt: arama sayfası, madde yok",
+  "en.wikipedia.org Akrotiri,_Cyprus 404; Bisho,_Eastern_Cape 404 (Bhisho sayfası okundu)",
+  "Britannica / Cambridge / Brill: erişilemez (denenmedi); sahistory.org.za, kaowarsom.be (Biographie Coloniale Belge), BM belgeleri aranmadı — bütçe: kuruluş tarihlerinin akademik teyidi AÇIK BORÇ",
+  "Sudan 22 yerleşimi: akademik kaynak (Santandrea, Wau tarihi; O'Fahey) okunmadı",
+  "Osmanlı künye id'si devletler.js'te ‘osmanli’ ile bulunamadı (kunye_olc ‘YOK’): Kıbrıs/Mısır taslak zincirleri için ayrıca ölçülmeli"
+ ],
+ "kaynak_notu": "BM A/RES/1046 (XI), 13 Aralık 1956 (documents.un.org; koordinatör aktardı, KASA un1044.txt): fransiz-togo sonu için ic_not kaynağı; kuruluş/öncül zincire girmedi."
+}

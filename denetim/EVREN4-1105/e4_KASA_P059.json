@@ -1,0 +1,399 @@
+{
+ "Beyan G54.5 B67.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:164",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Honorable Cámara de Diputados de la Nación (Argentina), Proyecto de resolución 5429-D-2022 (138° aniversario de Ushuaia), https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2022/PDF2022/TP2022/5429-D-2022.pdf",
+   "alinti": "Un 12 de octubre de 1884 se instalaba el pabellón de la subprefectura",
+   "uc": "f",
+   "oneri": {
+    "f": "1884-10-12"
+   },
+   "not": "[sira 3738] Nokta Arjantin Ateş Toprağı'nın içinde (Tolhuin/Fagnano doğusu). 1883 Cooper'ın (HSAI) 'Recent period, 1883 to date' yerleşimci dönemi başlangıcıdır, Arjantin idaresinin değil. TEK ÖLÇÜ: Arjantin 1881-07-23 sınır antlaşması imzasında bölgeyi yönetmiyordu ⇒ s: fiilî idarenin başladığı gün: Ushuaia subprefectura'sı 1884-10-12 (Lasserre). ABİ MERKEZ: Ushuaia (Ateş Toprağı'nda tek Arjantin idarî merkezi) + BEYANLI YAKLAŞIKLIK. ic_not: 1881-07-23 antlaşma imzası; Ley 1532 (Territorios Nacionales, 1884-10-16) gobernación kurdu — gün Diputados metninde okunmadı. BEYAN (kabile) dilimi de 1884-10-12'ye uzamalı. t = pencere ucu. [alıntı ham metinden, pypdf]"
+  }
+ ],
+ "Ulguniq (Wainwright) / Icy Cape": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:66",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3739] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:66",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3740] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Kaktovik (Barter Adası)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:75",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3741] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:75",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3742] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Kittigazuit (Mackenzie İnuitleri)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:85",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy … admitted",
+   "uc": "t",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "[sira 3743] ÜLKE DÜZEYİ — Kittigazuit anakarada (Mackenzie deltası = North-Western Territory); t 1880-09-01 değil 1870-07-15 olmalı (bkz. ardıl kanada satırı). f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:85",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy … admitted",
+   "uc": "f",
+   "oneri": {
+    "f": "1870-07-15"
+   },
+   "not": "[sira 3744] ÜLKE DÜZEYİ — Kittigazuit ANAKARADA (Mackenzie deltası = North-Western Territory); 1880 Adjacent Territories Order yalnız Kanada'ya henüz katılmamış toprakları ve adaları kattı, bu bölge 1870-07-15'te Kanada'ya girdi. Eski uç 1880-09-01 Arktik Takımadalar gününden ÖDÜNÇ. Kırılma ve kanada f'si birlikte 1870-07-15'e taşınmalı (Değişmez 2: kronoloji maddesi 'Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi' 1870-07-15 zaten var). 1870 öncesi sahip (inuit mi ingiliz-kuzey-amerika mı) ayrı soru; komşu HBC kaleleri ingiliz-kuzey-amerika yazılı. AYNI DOSYADA aynı hatayı taşıyan başka anakara İnuit yerleşimleri olabilir (bu partide değil). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Iqaluktuuttiaq (Cambridge Bay)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:95",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3745] ÜLKE DÜZEYİ — Victoria Adası; 1880 emri adaları Kanada'ya kattı. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:95",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3746] ÜLKE DÜZEYİ — Arktik Takımadalar 1880-09-01'de Kanada'ya katıldı (Victoria Adası). t = 2000-12-31 pencere ucu, ölçüm değil. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Uqsuqtuuq (Gjoa Haven)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:104",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3747] ÜLKE DÜZEYİ — King William Adası; 1880 emri adaları Kanada'ya kattı. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:104",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3748] ÜLKE DÜZEYİ — Arktik Takımadalar 1880-09-01'de Kanada'ya katıldı (King William Adası). t = 2000-12-31 pencere ucu, ölçüm değil. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Anaktuvuk Geçidi (Nunamiut)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:113",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3749] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:113",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3750] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Anaktuvuk batısı — Noatak (Nautaaġmiut)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:124",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3751] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:124",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3752] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Coldfoot / Wiseman": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:137",
+   "alan": "s",
+   "d": "abd",
+   "f": "1899-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Park Service, Gates of the Arctic NP&P, 'Coldfoot and Wiseman', https://home.nps.gov/gaar/planyourvisit/coldfoot.htm",
+   "alinti": "In 1899, gold was discovered in Slate Creek, and a small rush began",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3753] YIL. Coldfoot'un doğuşu 1899 Slate Creek keşfi; Wiseman 1908 ('Founded as a gold rush boomtown along Wiseman Creek in 1908'). Sahiplik abd (Alaska 1867'den beri). t = pencere ucu, ölçüm değil. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kobuk (Kuuvaŋmiit)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:148",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3754] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:148",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3755] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Alatna / Allakaket": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:157",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, Milestones 1866-1898, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3756] ÜLKE DÜZEYİ — Alaska'nın ABD'ye devri. f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). Takvim: 18 Ekim 1867 Gregoryen (kaynağın günü) = 6 Ekim 1867 Jülyen (Rus takvimi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:157",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3757] [KÜME K29] abd 1867-10-18 kümesi ayrı ajanda."
+  }
+ ],
+ "Panniqtuuq (Pangnirtung / Kekerten)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:182",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1857-01-01",
+   "t": "1880-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Canadian Register of Historic Places (Parks Canada), 'Kekerten Island Whaling Station National Historic Site of Canada', https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=15682 | Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "Construction Date(s) 1857/01/01 | From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3758] f: Kekerten balina istasyonunun inşa yılı 1857 (sicil 'Significant Date(s) 1857/01/01 to 1923/01/01'); YIL. İnuit varlığı 1857'den eskidir — f yerleşimin kayıt başlangıcıdır, İnuit'in başlangıcı değil. Penny'nin istasyonu 1840'a çıkaran ipuçları (Vikipedi/turizm) akademik değil. t: ÜLKE DÜZEYİ, Baffin Adası 1880 emriyle Kanada'ya. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:182",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Adjacent Territories Order (Order in Council, Osborne House, 31 July 1880), Justice Canada, Constitution Enactment No. 8, https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3759] ÜLKE DÜZEYİ — Arktik Takımadalar 1880-09-01'de Kanada'ya katıldı (Baffin Adası). t = 2000-12-31 pencere ucu, ölçüm değil. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Wager Körfezi (Ukkusiksalik)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:196",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into … Dominion of Canada",
+   "uc": "t",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "[sira 3760] ÜLKE DÜZEYİ — Wager Körfezi anakarada (Hudson Körfezi havzası = Rupert's Land); t 1880-09-01 değil 1870-07-15 olmalı (bkz. ardıl kanada satırı). f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:196",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into … Dominion of Canada",
+   "uc": "f",
+   "oneri": {
+    "f": "1870-07-15"
+   },
+   "not": "[sira 3761] ÜLKE DÜZEYİ — Wager Körfezi ANAKARADA (Hudson Körfezi havzası = Rupert's Land); 1880 Adjacent Territories Order yalnız Kanada'ya henüz katılmamış toprakları ve adaları kattı, bu bölge 1870-07-15'te Kanada'ya girdi. Eski uç 1880-09-01 Arktik Takımadalar gününden ÖDÜNÇ. Kırılma ve kanada f'si birlikte 1870-07-15'e taşınmalı (Değişmez 2: kronoloji maddesi 'Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi' 1870-07-15 zaten var). 1870 öncesi sahip (inuit mi ingiliz-kuzey-amerika mı) ayrı soru; komşu HBC kaleleri ingiliz-kuzey-amerika yazılı. AYNI DOSYADA aynı hatayı taşıyan başka anakara İnuit yerleşimleri olabilir (bu partide değil). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Eagle (Fort Egbert)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:218",
+   "alan": "s",
+   "d": "abd",
+   "f": "1897-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "U.S. National Park Service, 'Eagle Historic District' (NHL), https://www.nps.gov/places/eagle-historic-district.htm",
+   "alinti": "Fort Egbert was established as a control station and headquarters for interior Alaska in 1899",
+   "uc": "f",
+   "oneri": {
+    "f": "1899-01-01"
+   },
+   "not": "[sira 3762] Kaynak 1897'yi vermiyor: 'Eagle began as a fur trading post around 1880'; American Creek madenci kampı (yılsız); Fort Egbert 1899. Kayıt tur:kale / 'Fort Egbert' ⇒ f 1899-01-01 (YIL) önerilir; yerleşim (ticaret karakolu) esas alınacaksa 'around 1880' yaklaşıktır, yıl uydurulmaz. Sahiplik abd, değişmez. t = pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Beverly Gölü (Thelon, Karayer İnuit)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:226",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into … Dominion of Canada",
+   "uc": "t",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "[sira 3763] ÜLKE DÜZEYİ — Beverly Gölü anakarada (Thelon → Chesterfield Inlet, Hudson Körfezi havzası = Rupert's Land); t 1880-09-01 değil 1870-07-15 olmalı (bkz. ardıl kanada satırı). f = 1281-01-01 atlas penceresinin başıdır, devir günü değil; f teyitsiz (HNAI okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:226",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Rupert's Land and North-Western Territory Order (23 June 1870), Justice Canada, Constitution Enactment No. 3, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into … Dominion of Canada",
+   "uc": "f",
+   "oneri": {
+    "f": "1870-07-15"
+   },
+   "not": "[sira 3764] ÜLKE DÜZEYİ — Beverly Gölü ANAKARADA (Thelon → Chesterfield Inlet, Hudson Körfezi havzası = Rupert's Land); 1880 Adjacent Territories Order yalnız Kanada'ya henüz katılmamış toprakları ve adaları kattı, bu bölge 1870-07-15'te Kanada'ya girdi. Eski uç 1880-09-01 Arktik Takımadalar gününden ÖDÜNÇ. Kırılma ve kanada f'si birlikte 1870-07-15'e taşınmalı (Değişmez 2: kronoloji maddesi 'Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi' 1870-07-15 zaten var). 1870 öncesi sahip (inuit mi ingiliz-kuzey-amerika mı) ayrı soru; komşu HBC kaleleri ingiliz-kuzey-amerika yazılı. AYNI DOSYADA aynı hatayı taşıyan başka anakara İnuit yerleşimleri olabilir (bu partide değil). [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

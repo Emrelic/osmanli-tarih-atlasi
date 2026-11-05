@@ -1,0 +1,312 @@
+{
+ "Dubăsari (Dubossari)": [
+  {
+   "sira": 2157,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "transdinyester",
+   "f": "1990-09-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Moldavija», https://www.enciklopedija.hr/clanak/moldavija",
+   "alinti": "proglasile su 2. IX. 1990. Pridnjestarsku moldavsku republiku",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f. Dubăsari 1990-92 çatışma bölgesi (Kasım 1990 köprü olayı); PMR'nin şehirdeki fiilî denetimi sürekli görünüyor, teyitsiz."
+  }
+ ],
+ "Hartberg": [
+  {
+   "sira": 2170,
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:50",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Nazi Conspiracy and Aggression, Vol. IV, Doc. 2307-PS (Reichsgesetzblatt 1938 I s. 237) — Avalon Project, Yale Law School, https://avalon.law.yale.edu/imt/2307-ps.asp",
+   "alinti": "Law concerning the Reunion of Austria with the German Reich, March 13, 1938",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f (birincil belge neşri). Öteki uç 1945-04-27 teyitsiz: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Hartberg (Doğu Stirya): Kızıl Ordu girişi 1945 Nisan-Mayıs, gün teyitsiz; fiilî ölçüyle t yerel giriş günü adayı."
+  },
+  {
+   "sira": 2171,
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:50",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "history.state.gov/countries/austria",
+   "alinti": "A provisional government was established in Austria on April 25, 1945",
+   "oneri": {},
+   "not": "Baktım: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Alıntı 27 Nisan'ı değil 25 Nisan'ı tarihler → teyit yok. Yerel fiilî giriş (Villach 05-08, Hartberg/WN Kızıl Ordu) ayrıca okunmalı."
+  }
+ ],
+ "Ilok": [
+  {
+   "sira": 2180,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Ilok», https://www.enciklopedija.hr/clanak/ilok ; peacekeeping.un.org UNTAES",
+   "alinti": "Hrvatskoj je vraćen mirnom reintegracijom 15. I. 1998.",
+   "oneri": {},
+   "not": "f AY düzeyi: UN UNTAES sayfası «UNTAES (January 1996 - January 1998)» (gün 15 teyitsiz; SC Res. 1037 okunmadı). Zincir eksik: HE «okupirale polovicom listopada 1991» — 1991-10 ortası → 1996-01-15 Sırp işgali/RSK (SBWS) dilimi yok; 1998-01-15 sonrası hirvatistan ardıl dilimi yok."
+  }
+ ],
+ "Komárom (Komárno)": [
+  {
+   "sira": 2188,
+   "dosya_satir": "data/yerlesimler_ek29.js:139",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1945-04-04",
+   "t": "1993-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Slovačka», https://www.enciklopedija.hr/clanak/slovacka",
+   "alinti": "sporazumno odvojila od Češke i 1. I. 1993. proglasila neovisnost",
+   "oneri": {},
+   "not": "Alıntı yalnız t'yi tarihler. f 1945-04-04: Komárno 1938-11-02'den Macaristan'daydı; HE'nin «sve do travnja 1945» cümlesi Slovakya içindir, Komárno'ya uymaz. Kızıl Ordu'nun Komárno'ya girişi 1945 Mart sonu (ipucu) — f yerel gün adayı, teyitsiz."
+  },
+  {
+   "sira": 2189,
+   "dosya_satir": "data/yerlesimler_ek29.js:139",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Slovačka», https://www.enciklopedija.hr/clanak/slovacka",
+   "alinti": "sporazumno odvojila od Češke i 1. I. 1993. proglasila neovisnost",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f."
+  }
+ ],
+ "Macaristan": [
+  {
+   "sira": 2194,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:634",
+   "alan": "s",
+   "d": "gepid",
+   "f": "0454-01-01",
+   "t": "0567-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: Magyar Katolikus Lexikon «gepidák» (içerik boş). Mevcut Britannica ticari (ONERI-güçlü). Pohl 2018 okunmadı."
+  },
+  {
+   "sira": 2195,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:634",
+   "alan": "s",
+   "d": "avar",
+   "f": "0567-01-01",
+   "t": "0822-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: Magyar Katolikus Lexikon «avarok» (içerik boş). 567/568 ve 822 (son anılış) Pohl 2018 ile okunmalı."
+  },
+  {
+   "sira": 2196,
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:634",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0822-01-01",
+   "t": "0895-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: MKL avarok/gepidák boş. Boşluk beyanı yerinde kalır."
+  }
+ ],
+ "Mitroviça (Mitrovicë)": [
+  {
+   "sira": 2201,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kosova-golge-cumhuriyeti",
+   "f": "1991-09-22",
+   "t": "1999-06-10",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Kosovo», https://www.enciklopedija.hr/clanak/kosovo",
+   "alinti": "7. IX. 1990. proglasili su Republiku Kosovo ... a 19. X. 1991. neovisnost Kosova",
+   "oneri": {
+    "d": "yugoslavya-federal 1991-09-22 → 1992-04-27, yugoslavya-federal-cumhuriyeti 1992-04-27 → 1999-06-10 (fiilî idare)"
+   },
+   "not": "Rakip hükûmet: fiilî kontrol esas — gölge Kosova Cumhuriyeti toprağı yönetmiyordu; Mitroviça SFRY/SRJ idaresindeydi. HE ilan günleri (1990-09-07, 1991-10-19) künyenin 1991-09-22'siyle çelişir — ic_not. t: HE «Sporazumom iz Kumanova od 9. VI. 1999.»; 06-10 SC 1244 ic_not. Gölge devlet künyesi sınıf sorusu (Emre)."
+  }
+ ],
+ "Segesvár (Sighişoara)": [
+  {
+   "sira": 1957,
+   "dosya_satir": "data/yerlesimler_ek29.js:97",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1551-07-26",
+   "t": "1556-03-12",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Mevcut kaynak akademik (History of Transylvania I, MTA, s.102); ham alıntı okunmadı."
+  }
+ ],
+ "Tiraspol": [
+  {
+   "sira": 2238,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "transdinyester",
+   "f": "1990-09-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Moldavija», https://www.enciklopedija.hr/clanak/moldavija",
+   "alinti": "proglasile su 2. IX. 1990. Pridnjestarsku moldavsku republiku",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f (Tiraspol PMR başkenti)."
+  }
+ ],
+ "Trencsén (Trenčín)": [
+  {
+   "sira": 2240,
+   "dosya_satir": "data/yerlesimler_ek29.js:190",
+   "alan": "s",
+   "d": "slovakya-cumhuriyeti",
+   "f": "1939-03-14",
+   "t": "1945-04-04",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Slovačka», https://www.enciklopedija.hr/clanak/slovacka",
+   "alinti": "slovački je parlament odgovorio 14. III. 1939. proglašenjem neovisne Slovačke Republike",
+   "oneri": {},
+   "not": "uc f. Öteki uç 1945-04-04: HE «Pod njemačkom okupacijom Slovačka je bila sve do travnja 1945» (ay); Trenčín'in yerel kurtuluşu 1945-04-10 (ipucu) teyitsiz."
+  },
+  {
+   "sira": 2241,
+   "dosya_satir": "data/yerlesimler_ek29.js:190",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1945-04-04",
+   "t": "1993-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Slovačka», https://www.enciklopedija.hr/clanak/slovacka",
+   "alinti": "sve do travnja 1945., kada su ju oslobodile sovjetske postrojbe",
+   "oneri": {},
+   "not": "f AY düzeyi (Nisan 1945); Trenčín yerel günü teyitsiz. t: aynı madde «1. I. 1993. proglasila neovisnost»."
+  },
+  {
+   "sira": 2242,
+   "dosya_satir": "data/yerlesimler_ek29.js:190",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Slovačka», https://www.enciklopedija.hr/clanak/slovacka",
+   "alinti": "sporazumno odvojila od Češke i 1. I. 1993. proglasila neovisnost",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f."
+  }
+ ],
+ "Vinča-Belo Brdo": [
+  {
+   "sira": 2248,
+   "dosya_satir": "data/yerlesimler_mo_avrupa.js:5",
+   "alan": "s",
+   "d": "vinca-kultur",
+   "f": "-4586-01-01",
+   "t": "-4514-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik künye dönemi; Tasić vd. 2015 Antiquity okunmadı)."
+  }
+ ],
+ "Vis (Lissa)": [
+  {
+   "sira": 2061,
+   "dosya_satir": "data/yerlesimler.js:1857",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1806-02-01",
+   "t": "1809-10-14",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Vis», https://www.enciklopedija.hr/clanak/vis",
+   "alinti": "1805. otok je, zajedno sa ostatkom Dalmacije, ušao u sastav Ilirskih provincija",
+   "oneri": {
+    "zincir": "isg ingiltere 1811 → 1815 eklenmeli (HE: 1811 Lissa savaşından sonra «Britanci su ondje organizirali svoje pomorsko uporište», «Od 1815. do 1918. ... habsburškom upravom»); mevcut fransa-cumhuriyet 1809-10-14→1813-01-01 ve avusturya 1813-01-01 uçları Vis için çelişir"
+   },
+   "not": "f: HE yalnız 1805 (Pressburg 1805-12-26 imza yılı) der; TEK ÖLÇÜ (devralan yönetmiyordu → teslim) ile mevcut Şubat 1806 (LZMK «dalmacija») uyumlu, Vis'in kendi teslim günü teyitsiz. 1806-07 Rus donanmasının Dalmaçya adalarındaki varlığı Vis için bakılmadı."
+  },
+  {
+   "sira": 2062,
+   "dosya_satir": "data/yerlesimler.js:1857",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1991-06-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Jugoslavija», https://www.enciklopedija.hr/clanak/jugoslavija",
+   "alinti": "Federativna Narodna Republika Jugoslavija (FNRJ) proglašena je 29. XI. 1945",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f. Öteki uç: bk. 2063 (JNA Vis'te 1992'ye dek)."
+  },
+  {
+   "sira": 2063,
+   "dosya_satir": "data/yerlesimler.js:1857",
+   "alan": "s",
+   "d": "hirvatistan",
+   "f": "1991-06-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Jugoslavija», https://www.enciklopedija.hr/clanak/jugoslavija",
+   "alinti": "Slovenija i Hrvatska proglasile su 25. VI. 1991. neovisnost",
+   "oneri": {
+    "isg": "yugoslavya-federal 1991-06-25 → 1992 (JNA'nın Vis'ten çekilişi, gün teyitsiz)"
+   },
+   "not": "f ülke düzeyinde KAYNAKLI; ama ALT BÖLGE İSTİSNASI: HE «Vis» «Jugoslavenska vojska napustila je Vis tek 1992. godine» — rakip hükûmet/fiilî ölçüyle JNA garnizonu dilimi. Sivil idarenin 1991'de Hırvat olup olmadığı teyitsiz; isg mi s: mi kararı fiilî idareye göre."
+  }
+ ],
+ "Vitsi (Grammos-Vitsi, DSE üssü)": [
+  {
+   "sira": 2249,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yunanistan-gecici-demokratik-hukumet",
+   "f": "1947-12-24",
+   "t": "1949-08-28",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Not: Vitsi DSE üssü Ağustos 1949 ortası (Pyrsos) düştü (ipucu); künye t 08-28/29 Grammos sonu — yerel t adayı."
+  }
+ ]
+}

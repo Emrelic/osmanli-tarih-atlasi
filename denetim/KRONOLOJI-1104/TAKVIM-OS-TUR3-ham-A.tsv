@@ -1,0 +1,91 @@
+n	dosya_satir	tarih_atlas	baslik	sinif	ns_tarih	kaynak	url	okunan_ifade	not
+1	devletler.js:937	1827-10-20	Navarin	NS_ZATEN					Müttefik donanma olayı; 20 Ekim 1827 Gregoryen
+2	devletler.js:938	1840-07-15	Londra Konvansiyonu	NS_ZATEN					Batılı güçler diplomasisi
+3	devletler.js:1473	1821-03-25	Yunanistan f (devlet künyesi)	BELIRSIZ	1821-04-06				Sembolik anma tarihi (25 Mart O.S. = 6 Nisan N.S.); künye kararı gerekir
+4	devletler.js:1477	1821-03-25	Mora İsyanı başladı	BELIRSIZ	1821-04-06				Anma tarihi, O.S.; N.S. karşılığı 6 Nisan
+5	devletler.js:1478	1827-10-20	Navarin	NS_ZATEN					bkz. 1
+6	devletler.js:1480	1897-04-18	1897 Savaşı başı	NS_ZATEN					Osmanlı savaş ilanı 17 Nisan, çatışma 18 Nisan N.S.; O.S. kanıtı yok
+7	devletler.js:1481	1912-11-08	Selanik'e giriş	NS_DOGRU	1912-11-08	Yunan 26 Ekim O.S. = 8 Kasım N.S. (12 gün)			Atlas zaten N.S.; kaynak ABAD + Britannica
+8	devletler.js:1561	1898-12-22	Prens George göreve başladı	NS_DOGRU	1898-12-22	TDV Girit; Vikipedi Cretan State: 21 Aralık 1898 (9 Aralık Jülyen)	https://en.wikipedia.org/wiki/Cretan_State	21 December 1898 (9 December Julian)	Eski 1898-12-09 O.S.'ydi, düzeltilmiş; 21/22 Aralık bir gün kaynak ayrımı (varış 21, TDV görev 22)
+9	devletler.js:1565	1908-10-12	Girit'in tek taraflı enosisi	BELIRSIZ	1908-10-07	Vikipedi Cretan State infobox 7 Ekim 1908 (24 Eylül O.S.)	https://en.wikipedia.org/wiki/Cretan_State	7 October 1908	Atlas 12 Ekim ne O.S. ne N.S. ile örtüşüyor; gün hatası şüphesi, takvim değil; yalnız Vikipedi
+10	devletler.js:1567	1910-05-09	Girit meclisi Yunan kralı adına açıldı	BELIRSIZ		TDV Girit			Bağımsız kaynak bulunamadı; Türk makalesi açılışı Nisan 1910 diyor; Jülyen olasılığı (Nisan sonu O.S. = Mayıs başı N.S.)
+11	devletler.js:1568	1910-10-29	Büyük güçler Osmanlı egemenliğini teyit	NS_ZATEN					Güçler notası; TDV
+12	devletler.js:1569	1912-10-10	Yunanistan Girit birleşmesini onayladı	BELIRSIZ		NZ Herald 16 Ekim 1912 (Atina 15 Ekim): Girit mebusları Meclis'e girdi			Yunan Meclisi kararı; kesin kaynak yok; 26 Ekim ikinci tarih (13 Ekim O.S.?) doğrulanmadı
+13	devletler.js:1570	1913-05-30	Londra Antlaşması	NS_ZATEN					Güçler; TDV
+14	devletler.js:1597	1912-05-04	Oniki Ada İtalyan işgali	NS_ZATEN					İtalyan/Osmanlı olayı
+15	devletler.js:5285	1922-08-26	Büyük Taarruz	NS_ZATEN					Türk ordusu olayı
+16	devletler.js:9116	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+17	devletler.js:9119	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+18	devletler.js:9120	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+19	devletler.js:9133	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+20	devletler.js:9588	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+21	devletler.js:10731	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+22	devletler.js:17050	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+23	devletler.js:17180	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+24	devletler.js:17426	1912-11-11	Sisam'ın Yunanistan'a katılması	OS_DUZELT	1912-11-24	Vikipedi Principality of Samos: On 11/24 November 1912 the island's parliament declared enosis; samosin.gr 11-11-1912 (takvim belirtmiyor)	https://en.wikipedia.org/wiki/Principality_of_Samos	11/24 November 1912	O.S. 11 Kasım = N.S. 24 Kasım; yalnız Vikipedi, orta güven
+25	devletler.js:17437	1864-06-02	Iyon Adaları devri	NS_DOGRU	1864-06-02	Archontology: devir 21 Mayıs J. = 2 Haziran N.S. (künye notundan)			Atlas N.S.
+26	devletler.js:17440	1864-03-29	Londra Antlaşması	NS_ZATEN					Güçler antlaşması
+27	devletler.js:17441	1864-06-02	Adaların devri	NS_DOGRU	1864-06-02	bkz. 25			Atlas N.S.; metindeki 28 Mayıs bildirisi tarihi doğrulanmadı
+28	devletler.js:17605	1847-07-04	Bedirhan Bey teslim	NS_ZATEN					Osmanlı olayı
+29	devletler.js:17969	1919-05-15	İzmir çıkarması	NS_DOGRU	1919-05-15	Yunan 2 Mayıs O.S. = 15 Mayıs N.S.			Atlas N.S.
+30	devletler.js:17970	1919-05-15	İzmir çıkarması	NS_DOGRU	1919-05-15	bkz. 29			Atlas N.S.
+31	devletler.js:17971	1920-07-22	Milne hattı geçildi	BELIRSIZ	1920-06-22	Vikipedi Greek Summer Offensive: ilerleme 22 Haziran 1920	https://en.wikipedia.org/wiki/Greek_Summer_Offensive	22 June 1920	Takvim sorunu değil: 22 Temmuz yanlış ay olabilir (22 Haziran); kontrol önerilir
+32	devletler.js:17972	1920-08-10	Sevr	NS_ZATEN					Güçler antlaşması
+33	devletler.js:17973	1922-09-09	Türk ordusu İzmir'de	NS_ZATEN					Türk olayı
+34	devletler.js:17997	1919-07-29	Tittoni-Venizelos	NS_ZATEN					Yaygın tarih Gregoryen, İtalyan/Yunan iki taraflı gizli anlaşma
+35	devletler.js:18645	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+36	devletler.js:18651	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+37	devletler.js:18695	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+38	devletler.js:18763	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+39	devletler.js:18764	-	Yunan olayı değil (aday gürültüsü)	NS_ZATEN					Yunan/Jülyen takvimiyle ilgisiz kayıt
+40	kronoloji_balkan.js:643	1918-09-29	Selanik Mütarekesi	NS_ZATEN					Müttefik/Bulgar; N.S.
+41	kronoloji_balkan.js:788	1821-03-25	Mora İsyanı başladı	BELIRSIZ	1821-04-06				Sembolik O.S. anma tarihi; N.S. 6 Nisan
+42	kronoloji_balkan.js:793	1821-04-22	Patrik V. Grigorios idamı	NS_DOGRU	1821-04-22	Paskalya 1821: 10 Nisan O.S. = 22 Nisan N.S.			Atlas N.S. (Jülyen Paskalya 10 Nisan; +12)
+43	kronoloji_balkan.js:798	1822-04-02	Sakız katliamı	BELIRSIZ		Vikipedi Chios massacre: Osmanlı filosu 22 Mart (takvim belirsiz); yakma emri 12 Nisan (31 Mart O.S.)	https://en.wikipedia.org/wiki/Chios_massacre	12 April (O.S. 31 March)	Atlas 2 Nisan ne 22 Mart O.S. (3 Nisan N.S.) ne 12 Nisan; gün belirsiz
+44	kronoloji_balkan.js:803	1825-06-22	Tripoliçe'nin geri alınması	BELIRSIZ	1825-06-23	greece2021.gr: 11 Haziran 1825 (muhtemelen O.S. = 23 Haziran N.S.)	https://greece2021.gr/en/timeline/1607-ibrahim-in-the-peloponnese.html	occupied on June 11, 1825	Takvim açık değil; atlas 22, bir gün fark
+45	kronoloji_balkan.js:808	1826-04-22	Missolonghi'nin düşüşü	NS_DOGRU	1826-04-22	Çıkış 10 Nisan O.S. (Yunan anma) = 22 Nisan N.S.			Atlas N.S.
+46	kronoloji_balkan.js:813	1827-07-06	Londra Protokolü	NS_ZATEN					Güçler
+47	kronoloji_balkan.js:818	1827-10-20	Navarin	NS_ZATEN					bkz. 1
+48	kronoloji_balkan.js:823	1829-09-14	Edirne Antlaşması	NS_ZATEN					Osmanlı-Rus; atlas N.S.
+49	kronoloji_balkan.js:833	1831-10-09	Kapodistrias suikastı	NS_DOGRU	1831-10-09	27 Eylül O.S. = 9 Ekim N.S.			Atlas N.S.
+50	kronoloji_balkan.js:838	1832-05-07	Otto seçilmesi	NS_ZATEN					Londra konferansı kararı, N.S.
+51	kronoloji_balkan.js:843	1832-07-21	İstanbul Antlaşması	NS_ZATEN					Osmanlı/Güçler
+52	kronoloji_balkan.js:848	1833-02-06	Otto Nafplion'a geldi	NS_DOGRU	1833-02-06	25 Ocak O.S. = 6 Şubat N.S.			Atlas N.S.
+53	kronoloji_balkan.js:853	1833-07-25	Yunan Kilisesi özerkliği ilanı	BELIRSIZ	1833-08-04	Church of Greece kaynakları: 23 Temmuz/4 Ağustos Bağımsızlık Bildirisi	https://en.wikipedia.org/wiki/Church_of_Greece	July 23/August 4	Atlas 25 Temmuz hiçbirine uymuyor; ek kaynak gerekli (23 Temmuz O.S. ise N.S. 4 Ağustos)
+54	kronoloji_balkan.js:858	1834-09-18	Atina'nın başkent ilanı	OS_DUZELT	1834-09-30	Genel Devlet Arşivleri: Royal Decree of 18th-30th September 1834	https://greekcitytimes.com/2021/09/18/1834-athens-the-capital-city-greece/	18/30 September 1834	Çift tarihli kraliyet fermanı (18 O.S. / 30 N.S.)
+55	kronoloji_balkan.js:863	1837-05-03	Atina Üniversitesi kuruluşu	BELIRSIZ	1837-05-04	UoA estories: 22 Nisan 1837 fermanı; yaygın 3 Mayıs	https://estories.uoa.gr/en/establishment-nkua	Royal Decree of April 22, 1837	22 Nisan O.S. + 12 = 4 Mayıs N.S.; 3 Mayıs yaygın ama 11 gün farkı hesabı gibi; aritmetik öneri 4 Mayıs
+56	kronoloji_balkan.js:868	1843-09-03	Anayasa ayaklanması	OS_DUZELT	1843-09-15	Yunan geleneği: 3 Eylül O.S.	https://en.wikipedia.org/wiki/Greek_Constitution_of_1844	3 September 1843	N.S. 15 Eylül (+12); görev tanımındaki bilgiyle uyumlu
+57	kronoloji_balkan.js:873	1844-03-30	1844 Anayasası kabulü	NS_DOGRU	1844-03-30	18 Mart O.S. = 30 Mart N.S.			Atlas N.S.
+58	kronoloji_balkan.js:878	1850-06-29	Patrikhane tomosu	OS_DUZELT	1850-07-11	Vikipedi Tomos dated 29 June 1850; Patrikhane Jülyen kullanır	https://en.wikipedia.org/wiki/Tomos_dated_29_June_1850	dated 29 June 1850	Yalnız Vikipedi + takvim hesabı; N.S. 11 Temmuz (+12)
+59	kronoloji_balkan.js:883	1862-10-10	Otto'nun tahttan indirilmesi	OS_DUZELT	1862-10-22	Vikipedi: night of 10 October 1862 (Yunan takvimi)	https://en.wikipedia.org/wiki/Greek_Constitution_of_1844	On the night of 10 October 1862	Yalnız Vikipedi; 10 Ekim O.S. = 22 Ekim N.S. (yaygın 22 Ekim 1862 Devrimi)
+60	kronoloji_balkan.js:888	1863-03-30	Prens Georgios seçilmesi	NS_DOGRU	1863-03-30	18 Mart O.S. = 30 Mart N.S.			Atlas N.S.
+61	kronoloji_balkan.js:913	1881-05-24	Tesalya'nın devri	NS_ZATEN					Osmanlı-Yunan sözleşmesi; N.S.
+62	kronoloji_balkan.js:918	1893-08-06	Korint Kanalı açılışı	NS_DOGRU	1893-08-06	Korint Belediyesi: 25 Temmuz = 6 Ağustos; Spectator 12 Ağustos 1893	https://korinthos.gr/en/the-isthmus/	25-7/7-8 1893	Atlas N.S. (25 Temmuz O.S.)
+63	kronoloji_balkan.js:923	1893-12-10	Trikopis'in iflası ilanı	OS_DUZELT	1893-12-22	Yunan kaynakları 10/12/1893 (Yunan Jülyen takvimi); çevrim 22 Aralık	https://www.skai.gr/news/politics/san-simera-otan-o-xarilaos-trikoupis-anakoinone-dystyxos-eptoxeysamen	10/12/1893	Kaynaklar takvim belirtmiyor; çıkarım; söz Meclis tutanağında yok (tartışmalı)
+64	kronoloji_balkan.js:928	1896-04-06	İlk Olimpiyat açılışı	NS_DOGRU	1896-04-06	25 Mart O.S. = 6 Nisan N.S.			Atlas N.S.
+65	kronoloji_balkan.js:933	1897-04-17	1897 Savaşı başı	NS_ZATEN					Osmanlı savaş ilanı 17 Nisan N.S.
+66	kronoloji_balkan.js:938	1897-05-17	Dömeke Savaşı	NS_DOGRU	1897-05-17	5 Mayıs O.S. = 17 Mayıs N.S.			Atlas N.S.
+67	kronoloji_balkan.js:943	1897-12-18	Girit özerklik ilanı	BELIRSIZ		Vikipedi Cretan State: kuruluş 9 Aralık 1898 O.S. = 21 Aralık			1897 Aralık olayı doğrulanamadı
+68	kronoloji_balkan.js:948	1898-12-22	Prens George komiser	NS_DOGRU	1898-12-22	bkz. 8			Atlas N.S.
+69	kronoloji_balkan.js:953	1901-11-08	Evangelika (kanlı Perşembe)	OS_DUZELT	1901-11-21	Vikipedi Evangelika: 8 November 1901 (Old Style), 21 November Gregorian; CNN Greece 8 Kasım	https://en.wikipedia.org/wiki/Evangelika	8 November 1901 (Old Style)	8 Kasım O.S. = 21 Kasım N.S.; ikinci kaynak takvim vermiyor
+70	kronoloji_balkan.js:958	1908-10-06	Girit Millî Meclisi enosis	BELIRSIZ	1908-10-07	Vikipedi Cretan State: 7 Ekim 1908 (24 Eylül O.S.)	https://en.wikipedia.org/wiki/Cretan_State	7 October 1908	Atlas 6 Ekim; O.S. değil, bir gün fark
+71	kronoloji_balkan.js:963	1909-08-28	Gudi darbesi	NS_DOGRU	1909-08-28	Vikipedi: 28 August [O.S. 15 August] 1909	https://en.wikipedia.org/wiki/Goudi_coup	28 August [O.S. 15 August] 1909	Atlas N.S.
+72	kronoloji_balkan.js:968	1910-05-09	Girit Meclisi kral adına açıldı	BELIRSIZ		Spectator 28 Mayıs 1910; Türk makalesi: Nisan 1910			Açılış günü bulunamadı; Jülyen olasılığı
+73	kronoloji_balkan.js:973	1910-10-06	Venizelos başbakan	OS_DUZELT	1910-10-19	Vikipedi Venizelos infobox 6 Ekim 1910 (O.S.); grandlodge.gr 19.10.1910	https://grandlodge.gr/en/tektones/venizelos-eleftherios-prime-minister-of-greece-1917-20-1928-32-1933/	19.10.1910	6 Ekim O.S. = 19 Ekim N.S. (+13); Vikipedi bir yerde '18 Ekim [O.S. 6 Ekim]' hatalı
+74	kronoloji_balkan.js:983	1912-11-08	Selanik'in alınması	NS_DOGRU	1912-11-08	bkz. 7			Atlas N.S.
+75	kronoloji_balkan.js:988	1913-03-06	Yanya'nın alınması	NS_DOGRU	1913-03-06	21 Şubat O.S. = 6 Mart N.S.			Atlas N.S.
+76	kronoloji_balkan.js:993	1913-03-18	Kral I. Georgios suikastı	NS_DOGRU	1913-03-18	5 Mart O.S. = 18 Mart N.S.			Atlas N.S.
+77	kronoloji_balkan.js:998	1913-05-30	Londra Antlaşması	NS_ZATEN					Güçler
+78	kronoloji_balkan.js:1008	1913-11-14	Atina Antlaşması	NS_ZATEN					Osmanlı-Yunan; TDV 14 Kasım
+79	kronoloji_balkan.js:1013	1917-08-18	Büyük Selanik Yangını	NS_DOGRU	1917-08-18	5 Ağustos O.S. = 18 Ağustos N.S.			Atlas N.S.
+80	kronoloji_balkan.js:1023	1920-08-10	Sevr	NS_ZATEN					Güçler
+81	kronoloji_balkan.js:1028	1920-10-25	Kral Aleksandros ölümü	NS_DOGRU	1920-10-25	12 Ekim O.S. = 25 Ekim N.S.			Atlas N.S.
+82	kronoloji_balkan.js:1033	1922-08-26	Büyük Taarruz	NS_ZATEN					Türk ordusu
+83	kronoloji_balkan.js:1038	1922-09-09	İzmir'in geri alınması	NS_ZATEN					Türk ordusu
+84	kronoloji_balkan.js:1043	1922-09-27	Konstantin'in çekilmesi	NS_DOGRU	1922-09-27	14 Eylül O.S. = 27 Eylül N.S.			Atlas N.S.
+85	kronoloji_balkan.js:1048	1923-01-30	Nüfus mübadelesi sözleşmesi	NS_ZATEN					Lozan; N.S.
+86	kronoloji_cok_1dunya_A.js:55	1916-08-30	Selanik Millî Savunma hareketi	NS_DOGRU	1916-08-30	17 Ağustos O.S. = 30 Ağustos N.S.			Atlas N.S.
+87	kronoloji_cok_1dunya_A.js:56	1916-09-11	Kavala kolordusu teslim	NS_ZATEN					Bulgar tarafı; N.S.
+88	kronoloji_cok_1dunya_A.js:59	1916-12-01	İtilâf Pire'ye çıktı (Noemvriana)	NS_DOGRU	1916-12-01	18 Kasım O.S. = 1 Aralık N.S.			Atlas N.S.
+89	kronoloji_cok_1dunya_A.js:63	1917-06-11	Fransız ültimatomu	NS_ZATEN					Fransa; N.S.
+90	kronoloji_cok_1dunya_A.js:65	1917-07-20	Korfu Bildirisi	NS_ZATEN					Sırp O.S. 7 Temmuz; atlas N.S.

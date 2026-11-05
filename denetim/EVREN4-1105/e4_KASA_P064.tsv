@@ -1,0 +1,40 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3865	BOS	data/yerlesimler_kamerika.js:1441	Mound Key (Kalusa başkenti)	s	kalusa	1281-01-01	1763-01-01	
+3866	BOS	data/yerlesimler_kamerika.js:1441	Mound Key (Kalusa başkenti)	s	ingiltere	1763-01-01	1783-09-03	
+3867	BOS	data/yerlesimler_kamerika.js:1441	Mound Key (Kalusa başkenti)	s	abd	1783-09-03	2000-12-31	
+3868	BOS	data/yerlesimler_kamerika.js:1519	Miami	s	abd	1896-07-28	2000-12-31	
+3869	BOS		Nakijin Gusuku (Hokuzan merkezi)	s	sanzan	1322-01-01	1429-01-01	
+3870	BOS		Nakijin Gusuku (Hokuzan merkezi)	s	ryukyu	1429-01-01	1879-03-27	
+3871	BOS		Nakijin Gusuku (Hokuzan merkezi)	s	meiji-japonya	1879-03-27	1945-04-01	
+3872	BOS		Nakijin Gusuku (Hokuzan merkezi)	s	ryukyu-abd-idaresi	1945-04-01	1972-05-15	
+3873	BOS		Nakijin Gusuku (Hokuzan merkezi)	s	japonya-devleti	1972-05-15	2000-12-31	
+3874	BOS		Vaduz	s	liechtenstein	1719-01-23	2000-12-31	
+3875	BOS		Dubay (Dubai)	s	trucial-states	1820-01-01	1971-12-02	
+3876	BOS		Dubay (Dubai)	s	birlesik-arap-emirlikleri	1971-12-02	2000-12-31	
+3877	BOS		Ummu'l-Kuveyn (Umm al-Quwain)	s	trucial-states	1820-01-01	1971-12-02	
+3878	BOS		Ummu'l-Kuveyn (Umm al-Quwain)	s	birlesik-arap-emirlikleri	1971-12-02	2000-12-31	
+3879	BOS		Kızıl (Hem-Beldir, Belotsarsk)	s	tannu-tuva	1921-08-14	1944-10-11	
+3880	BOS		Kızıl (Hem-Beldir, Belotsarsk)	s	sovyet-rusya	1944-10-11	1991-12-26	
+3881	BOS		Kızıl (Hem-Beldir, Belotsarsk)	s	rusya-federasyonu	1991-12-26	2000-12-31	
+3882	BOS		Igbo-Ukwu	s	ingiliz-nijerya	1911-01-01	1960-10-01	
+3883	BOS		Igbo-Ukwu	s	nri	1000-01-01	1911-01-01	
+3884	BOS		Igbo-Ukwu	s	nijerya	1960-10-01	2000-12-31	
+3885	BOS		Aberffraw	s	ingiltere	1283-10-03	2000-12-31	
+3886	BOS		Aberffraw	s	gwynedd	1000-01-01	1283-10-03	
+3887	BOS		Iona (Hebridler)	s	ingiltere	1707-05-12	2000-12-31	
+3888	BOS		Iona (Hebridler)	s	man-ve-adalar-krallik	1000-01-01	1266-07-02	
+3889	BOS		Iona (Hebridler)	s	iskocya	1266-07-02	1707-05-12	
+3890	BOS		Sakya Manastırı (Sakya)	s	tibet	1354-01-01	1642-01-01	
+3891	BOS		Sakya Manastırı (Sakya)	s	tibet-ganden-phodrang	1642-01-01	1720-09-24	
+3892	DIGER		Sakya Manastırı (Sakya)	s	tibet-ganden-phodrang	1912-02-12	1951-05-23	KARAR-UYG-1015 (Emre #13: Sakya Lhasa modeline; 0086/H-0006). Günler Lhasa kaydının kaynaklarından: Lhasa kaydıyla aynı uç (Qing hanedanının sonu 1912-02-12)
+3893	BOS		Sakya Manastırı (Sakya)	s	sakya	1264-01-01	1354-01-01	
+3894	DIGER		Sakya Manastırı (Sakya)	s	cin-halk-cumhuriyeti	1951-05-23	2000-12-31	KARAR-UYG-1015 (Emre #13: Sakya Lhasa modeline; 0086/H-0006). Günler Lhasa kaydının kaynaklarından: Onyedi Madde Antlaşması 1951-05-23 (Lhasa kaydı) · eski 1959
+3895	BOS		Leubucó (Leuvucó, La Pampa)	s	ranquel	1281-01-01	1879-04-04	
+3896	BOS		Leubucó (Leuvucó, La Pampa)	s	arjantin-cumhuriyeti	1879-04-04	2000-12-31	
+3897	BOS		Orchha (Orcha)	s	bundela-orcha	1531-01-01	1948-01-01	
+3898	BOS		Orchha (Orcha)	s	hindistan-cumhuriyeti	1948-01-01	2000-12-31	
+3899	BOS		Yuksom (Yuksam)	s	sikkim-krallik	1642-01-01	1975-05-16	
+3900	BOS		Yuksom (Yuksam)	s	hindistan-cumhuriyeti	1975-05-16	2000-12-31	
+3901	BOS		Chanda (Chandrapur)	s	nagpur-bhonsle	1751-01-01	1853-12-11	
+3902	BOS		Chanda (Chandrapur)	s	ingiliz-hindistani	1853-12-11	1947-08-15	
+3903	BOS		Chanda (Chandrapur)	s	hindistan-cumhuriyeti	1947-08-15	2000-12-31	

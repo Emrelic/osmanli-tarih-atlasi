@@ -1,0 +1,845 @@
+{
+ "Potchefstroom": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2183",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 338] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2183",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1902-05-31",
+   "t": "1910-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti) + gov.za/node/605224 (Motlanthe, 12 Mayıs 2010)",
+   "alinti": "1899’dan 1902’ye kadar süren bu çatışma Boerler’in yenilgisi ve devletlerinin doğrudan İngiltere’ye bağlı iki eyalet haline getirilmesiyle sonuçlandı",
+   "oneri": {},
+   "not": "[sira 339] ÜLKE DÜZEYİ; f YIL düzeyinde (TDV 1902; Vereeniging 31 Mayıs 1902 günü akademik kaynakta okunmadı — yalnız arama özeti/Vikipedi). t günü gov.za. İPUCU (TEK ÖLÇÜ): İngiltere Transvaal'i 1900'de ilhak ilan edip fiilen yönetmeye başladı (Roberts bildirisi, 1900-09-01, Vikipedi düzeyi ipucu) — idareye katma belgesi bulunursa s: ingiltere 1900'den başlamalı, 1900-1902 arası en azından isg ingiltere; TARAYICI: Potchefstroom/Transvaal 1900 ilhak bildirisi akademik kaynak. [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2183",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1838-11-01",
+   "t": "1852-01-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "büyük göç (grand trek) … Natal, Transvaal ve Orange bağımsız cumhuriyetlerini kurdular",
+   "oneri": {
+    "d": "(Boer/Voortrekker cumhuriyeti — Potchefstroom-Winburg; künye YOK)"
+   },
+   "not": "[sira 340] TDV: Boerler göçle kuzeye yönelip bağımsız cumhuriyetler kurdu; İngiltere yalnız Natal'i 1842'de aldı ('1842’de Natal’e saldıran İngilizler burayı yönetimleri altına aldılarsa da'), Vaal ötesini yönetmedi; bağımsızlığı 1852-1854'te tanıdı. ÖLÇÜT: idareye katma — İngiliz idaresine katıldığına dair belge yok, s: ingiltere 1838-1852 yanlış atıf. HAYALET DEVLET: transvaal künyesi f=1852-01-01, 1838'i kapsamaz → yerleşim künye gününde bırakılamaz; künye sorusu LAB'a (Potchefstroom-Winburg Cumhuriyeti 1838/1844-1852). BELİRSİZ: Boer yapısının gün düzeyi kuruluşu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2183",
+   "alan": "s",
+   "d": "transvaal",
+   "f": "1852-01-17",
+   "t": "1902-05-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "1877'de İngilizler'in Transvaal'i ilhakıyla sonuçlandı … Majuba Hill Savaşı'nda yenip tekrar bağımsızlıklarını elde ettiler (1881)",
+   "oneri": {
+    "bolme": "s: transvaal 1852-01-17→1877 | s: ingiltere 1877→1881 | s: transvaal 1881→1902-05-31"
+   },
+   "not": "[sira 341] Dönem bölünmeli: TDV 1877 İngiliz ilhakı ve 1881 bağımsızlığın geri alınışı (YIL düzeyi). Gün İPUCU: ilhak bildirisi 1877-04-12 (transvaal künye kronolojisinde SAHO dayanaklı; akademik değil), geri veriliş Pretoria Konvansiyonu 1881-08-03 (Vikipedi düzeyi ipucu) — günler akademik kaynakla bulunmalı. ÖLÇÜT: idareye katma — TDV 'ilhak'. f 1852-01-17 Sand River: TDV yalnız '(1852-1854)' tanıma aralığı verir, gün okunmadı. t 1902: TDV yıl."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2183",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 342] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Postmasburg": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2206",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 343] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2206",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1892-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 344] f=1892 kuruluş yılı hiçbir akademik kaynakta okunmadı (TDV 'Güney Afrika Cumhuriyeti' Postmasburg'u anmıyor). İPUCU (EB1911 'Griqualand West', yalnız ipucu): Griqualand West 1871-10-27 İngiliz bildirisi, 1880-10-15 Kap Kolonisi'ne ilhak; Postmasburg bu bölgede → sahip ingiltere tutarlı. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2206",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 345] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Kimberley": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2228",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 346] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2228",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1871-07-16",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 347] f=1871-07-16 (Colesberg Kopje kazısı/kuruluş) ile İngiliz sahipliğinin başlangıcı akademik kaynakta okunmadı. İPUCU (EB1911 'Griqualand West', yalnız ipucu): 'on the 27th of October 1871 proclamations were issued by the high commissioner'; 'On the 4th of November a small party of Cape Mounted Police took possession of the dry diggings'. Akademik teyit bulunursa ONERI: s: ingiltere f → 1871-11-04 (fiilî idare; bildirisi 1871-10-27 ic_not), 1871-07-16→11-04 arası griqua (künye 1804-1878 kapsar) ya da Orange/Griqua ihtilafı beyanı. TARAYICI. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2228",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 348] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Kenhardt": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2250",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 349] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2250",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1868-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 350] f=1868 kuruluş/Kap idaresine katılış akademik kaynakta okunmadı; TDV 'Güney Afrika Cumhuriyeti' Kenhardt'ı anmıyor. Sahip ingiltere (Kap Kolonisi) ÜLKE DÜZEYİNDE tutarlı (TDV: Cape 1806 İngiliz, 1814 Paris). t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2250",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 351] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Prieska": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2271",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 352] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2271",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1878-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 353] f=1878 akademik kaynakta okunmadı; TDV Prieska'yı anmıyor. Sahip ingiltere (Kap Kolonisi) ÜLKE DÜZEYİNDE tutarlı. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2271",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 354] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Kokstad": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2287",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 355] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2287",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1874-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 356] f=1874 (Griqualand East'in İngiliz idaresine alınışı) akademik kaynakta okunmadı. İPUCU (EB1911 'Kaffraria', yalnız ipucu): Adam Kok bölgeyi 1862'de İngiliz onayıyla işgal etti ve 'governed the country till his death in 1876'; Kap'a ilhak günü verilmiyor. Uç 1874/1876/1879 arasında belirsiz — TARAYICI: Griqualand East annexation 1874/1879 akademik kaynak. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2287",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1863-01-01",
+   "t": "1874-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 357] Akademik kaynak okunmadı. İPUCU (EB1911 'Kaffraria', yalnız ipucu): Adam Kok's Land, Griqua reisi 1862'de 'with the consent of the British authorities' yerleşti ve 1876'daki ölümüne dek yönetti → 1863-1874 sahibi büyük olasılıkla griqua (künye 1804-01-01→1878-01-01 kapsar), ingiltere değil. Akademik teyit bulunursa ONERI d: griqua. TARAYICI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2287",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 358] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Umtata": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2303",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 359] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2303",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1882-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 360] f=1882 Umtata kuruluşu ve İngiliz/Kap sahipliğinin başlangıcı akademik kaynakta okunmadı. İPUCU (EB1911 'Kaffraria', yalnız ipucu): Tembu 1875'te İngiliz himayesi istedi; Tembuland Kap'a 'it was 1885 before … Tembuland' ilhak edildi. 1882-1885 arası himaye/idare ayrımı TAHRİR ölçütüyle belirlenmeli. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2303",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 361] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Beaufort West": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2319",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 362] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2319",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1818-01-01",
+   "t": "1910-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti) + gov.za/node/605224 (Motlanthe, 12 Mayıs 2010)",
+   "alinti": "1806’da yine İngilizler’in eline geçti … 1814’teki Paris Antlaşması ile de Cape adıyla resmen bir İngiliz kolonisi",
+   "oneri": {},
+   "not": "[sira 363] ÜLKE DÜZEYİ: Kap Kolonisi 1806'dan İngiliz, 1910'a dek; t günü gov.za. f=1818 kasabanın kuruluş günüdür, kuruluş yılı ayrıca akademik kaynakta okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2319",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 364] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "East London": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2329",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 365] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2329",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1847-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 366] f=1847 akademik kaynakta okunmadı (TDV Kaffraria/East London'ı anmıyor). İPUCU (EB1911 'Kaffraria', yalnız ipucu): Kei'ye kadar bölge 'became in 1847 the Crown colony of British Kaffraria', 1865'te Kap'a ilhak — sahip ingiltere tutarlı. t günü gov.za ile teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2329",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 367] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Port Elizabeth": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2345",
+   "alan": "s",
+   "d": "guney-afrika-birligi",
+   "f": "1910-05-31",
+   "t": "1961-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Güney Afrika Hükûmeti resmî sitesi, Deputy President K. Motlanthe, The Presidency Budget Vote, National Assembly, 12 Mayıs 2010 (https://www.gov.za/node/605224) + TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "since the establishment of the Union of South Africa on 31 May 1910 | tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 368] ÜLKE DÜZEYİ. f günü gov.za (resmî devlet sayfası), TDV yalnız '1910 yılında' der; t günü TDV'de gün düzeyinde. [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2345",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1820-06-01",
+   "t": "1910-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti) + gov.za/node/605224 (Motlanthe, 12 Mayıs 2010)",
+   "alinti": "1806’da yine İngilizler’in eline geçti … 1814’teki Paris Antlaşması ile de Cape adıyla resmen bir İngiliz kolonisi",
+   "oneri": {},
+   "not": "[sira 369] ÜLKE DÜZEYİ: Kap Kolonisi 1806'dan İngiliz; t günü gov.za. f=1820-06-01 kasabanın kuruluşu (1820 yerleşimcileri), ayrıca akademik kaynakta okunmadı. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2345",
+   "alan": "s",
+   "d": "guney-afrika-cumhuriyeti",
+   "f": "1961-05-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Güney Afrika Cumhuriyeti' (https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti)",
+   "alinti": "tamamen bağımsız Güney Afrika Cumhuriyeti adlı devletin kurulduğunu ilân etti (31 Mayıs 1961)",
+   "oneri": {},
+   "not": "[sira 370] ÜLKE DÜZEYİ. t=2000-12-31 atlas ufku. [alıntı özetten]"
+  }
+ ],
+ "Sanxing (Yilan)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:36",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1714-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'China' (https://history.state.gov/countries/china) + 清帝遜位詔書 (zh.wikisource, kayıttaki birincil belge)",
+   "alinti": "Diplomatic relations were interrupted on February 12, 1912, when, as a result of the Chinese Revolution",
+   "oneri": {},
+   "not": "[sira 371] ÜLKE DÜZEYİ: t=1912-02-12 tahttan çekilme günü history.state.gov ile teyitli. f=1714 garnizon kuruluşu kayıttaki Lee 1970 s.34'e dayanır (yeniden okunmadı). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:36",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 372] [KÜME K08] ayrı ajanda. AÇIK ÇELİŞKİ UYARISI: Sanxing (Yilan, Heilongjiang) 1932-1945 Mançukuo'daydı; zincir 1912-1949 kesintisiz cin-cumhuriyeti yazıyor. history.state.gov 'Mukden Incident' (https://history.state.gov/milestones/1921-1936/mukden-incident): 'The Japanese declared the area to be the new autonomous state of Manchukuo'. Künye mancukuo 1932-03-09→1945-08-17 var. Dönem bölünmeli (cin-cumhuriyeti → mancukuo → 1945 sonrası) — Sanxing'e özgü gün okunmadı; KÜME ajanına/KASA'ya iletilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:36",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 373] [KÜME K09] ayrı ajanda."
+  }
+ ],
+ "Chifeng (Ulanhad)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:59",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1738-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'China' (https://history.state.gov/countries/china) + 清帝遜位詔書 (zh.wikisource, kayıttaki birincil belge)",
+   "alinti": "Diplomatic relations were interrupted on February 12, 1912, when, as a result of the Chinese Revolution",
+   "oneri": {},
+   "not": "[sira 374] ÜLKE DÜZEYİ: t=1912-02-12 history.state.gov ile teyitli. f=1738 alt-valilik kuruluşu kayıttaki Reardon-Anderson 2005 s.43'e dayanır (yeniden okunmadı; Britannica 1729 çelişkisi kayıtta beyanlı). [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:59",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 375] [KÜME K08] ayrı ajanda. AÇIK ÇELİŞKİ UYARISI: Chifeng (Cehol/Rehe eyaleti) 1933'ten 1945'e Mançukuo'daydı; zincir 1912-1949 kesintisiz cin-cumhuriyeti. Künye mancukuo 1932-03-09→1945-08-17 var. history.state.gov Mukden sayfası Cehol'u anmıyor — Chifeng/Rehe 1933 günü okunmadı. TARAYICI: Rehe (Jehol) 1933 Japon harekâtı akademik kaynak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:59",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 376] [KÜME K09] ayrı ajanda."
+  }
+ ],
+ "Ratanpur": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1853-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 377] f=1853-01-01 Nagpur'un İngiliz ilhakı (lapse) için akademik kaynak bulunamadı (arama: Vikipedi ve popüler siteler; Raghuji III ölümü 1853-12-11 yalnız Vikipedi düzeyi İPUCU). Koordinatör kuralı: IGI yalnız ipucu. İÇ TUTARSIZLIK: önceki dönem nagpur-bhonsle künyesi t=1853-12-11, bu dönem f=1853-01-01 (yıl beyanı) — akademik gün bulununca iki uç birlikte düzelmeli. TARAYICI: Nagpur annexation 1853/1854 (Central Provinces District Gazetteers, Bilaspur)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1741-01-01",
+   "t": "1818-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 378] 1741 Bhaskar Pant istilası ve 1818 ucu için IGI dışında akademik kaynak bulunamadı (aynı arama). IGI c.8 s.223-224 yalnız İPUCU. Not: 1818-1853 dönemi nagpur-bhonsle'ye verilmiş; maratha→nagpur-bhonsle ayrımı (Nagpur Bhonsle 1741'de de Maratha kolu) künye tutarlılığı açısından LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "kalacuri-ratnapura",
+   "f": "1281-01-01",
+   "t": "1741-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 379] DIGER (kaynaklı; IGI c.8). Koordinatör kuralıyla IGI artık yalnız ipucu → bu dönem fiilen dayanaksız; bütçe nedeniyle akademik kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "nagpur-bhonsle",
+   "f": "1818-01-01",
+   "t": "1853-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 380] DIGER (kaynaklı; IGI c.21). IGI artık yalnız ipucu; bütçe nedeniyle aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "kalacuri-ratnapura",
+   "f": "1114-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 381] Kayıt R. C. Majumdar (ed.) dayanaklı; 1114-1281 bütçe nedeniyle yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:75",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 382] [KÜME K10] ayrı ajanda."
+  }
+ ],
+ "Ji'an (Jizhou)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 383] Uçlar ülke düzeyi (Ming kuruluşu 1368-01-23, Chongzhen'in ölümü 1644-04-25); bu uçları taşıyan cümle okunmadı. Okunan 明史 卷1 太祖本紀一 (zh.wikisource.org/wiki/明史/卷1): Ji'an Zhu Yuanzhang'ın elinde 至正二十四年八月戊戌'dan beri ('八月戊戌，復吉安') — 1368 başında Ming'e geçiş tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1646-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 384] Güney Ming 1644-1646 ve Qing'in Ji'an'ı alışı (順治 3?) okunmadı; bütçe Ji'an için 6 çağrıda tükendi. TARAYICI: 清史稿 世祖本紀 / 清實錄 順治三年 吉安."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1911-10-31",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 385] 1911-10-31 Jiangxi bağımsızlık ilanı / Ji'an'ın cumhuriyete geçişi okunmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1358-06-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 386] [KÜME K13] ayrı ajanda. Uç t=1358-06-19 için 387'deki nota bak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1358-06-19",
+   "t": "1368-01-23",
+   "hukum": "ONERI",
+   "kaynak": "明史 卷1 太祖本紀一 (zh.wikisource.org/wiki/明史/卷1)",
+   "alinti": "袁、瑞、臨江、吉安相繼下。 | 友諒分兵陷吉安 | 八月戊戌，復吉安，遂圍贛州。",
+   "oneri": {
+    "bolme": "__BOSLUK__ 1358-06-19 → 至正22年正月 | Zhu Yuanzhang (Wu) 至正22年正月 → 至正23年五月 | Chen Youliang Han 至正23年五月 → 至正24年八月戊戌 | Zhu Yuanzhang 至正24年八月戊戌 → 1368-01-23"
+   },
+   "not": "[sira 387] Mingshi 卷1: 至正二十二年春正月 Ji'an Zhu Yuanzhang'a teslim oldu; 二十三年五月 Chen Youliang aldı; 二十四年八月戊戌 Zhu geri aldı. 1358-1368 tek __BOSLUK__ yanlış: Ji'an 1362'den (kısa ara dışında) Zhu'nun idaresinde. KÜNYE YOK: Zhu Yuanzhang'ın Wu rejimi ve Chen Youliang'ın Han rejimi için künye bulunamadı (devletler.js grep: yok) → künye sorusu LAB'a; künye gelene dek beyanlı. Günler Academia Sinica ile çevrilecek: 至正二十二年正月 (gün yok), 至正二十三年五月 (gün yok), 至正二十四年八月戊戌 — Mingshi 卷1. Mingshi ve Qing shi gao günleri KAYIT günüdür. f=1358-06-19 (Chen/Xu Shouhui'nin Ji'an'ı alışı) bu ciltte okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1646-01-01",
+   "t": "1676-04-05",
+   "hukum": "ONERI",
+   "kaynak": "清史稿 卷6 聖祖本紀一 (zh.wikisource.org/wiki/清史稿/卷6)",
+   "alinti": "乙亥，吳三桂將高大傑陷吉安。",
+   "oneri": {
+    "t": "康熙十五年二月乙亥 — Academia Sinica ile çevrilecek (mevcut 1676-04-05 ile karşılaştır)"
+   },
+   "not": "[sira 388] t ucu: Qingshigao 卷6, 康熙十五年二月乙亥 Wu Sangui'nin generali Gao Dajie Ji'an'ı aldı. Gün elle çevrilmedi; Academia Sinica ile çevrilecek. Mingshi ve Qing shi gao günleri KAYIT günüdür. f=1646 okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1676-04-05",
+   "t": "1677-04-30",
+   "hukum": "ONERI",
+   "kaynak": "清史稿 卷6 聖祖本紀一 (zh.wikisource.org/wiki/清史稿/卷6)",
+   "alinti": "乙亥，吳三桂將高大傑陷吉安。 | 丙申，將軍額楚攻吉安失利 | 喇布鎮吉安",
+   "oneri": {
+    "f": "康熙十五年二月乙亥 — Academia Sinica ile çevrilecek",
+    "t": "康熙十六年正月丙申 (Qing saldırısı başarısız) ile 康熙十六年三月乙巳 (喇布鎮吉安 — Qing elinde) arası; geri alış günü 卷6'da yok"
+   },
+   "not": "[sira 389] Qingshigao 卷6: 康熙十五年二月乙亥 San-fan Ji'an'ı aldı; 十六年正月丙申 Qing'in Ji'an saldırısı başarısız; 十六年三月乙巳 Labu'ya 'Ji'an'ı tut' emri (Qing elinde). Mevcut t=1677-04-30 bu aralıkla uyumlu olabilir; çevrilmeden hüküm verilmedi. Academia Sinica ile çevrilecek. KAYIT günüdür."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1677-04-30",
+   "t": "1856-03-02",
+   "hukum": "ONERI",
+   "kaynak": "清史稿 卷20 文宗本紀 (zh.wikisource.org/wiki/清史稿/卷20)",
+   "alinti": "江西賊陷吉安。",
+   "oneri": {
+    "t": "咸豐六年三月壬戌 — Academia Sinica ile çevrilecek (mevcut 1856-03-02 ile karşılaştır)"
+   },
+   "not": "[sira 390] t ucu: Qingshigao 卷20, 咸豐六年三月壬戌 'Jiangxi haydutları (Taiping) Ji'an'ı aldı'. Gün çevrilmedi; mevcut 1856-03-02 3. ay için erken görünüyor (咸豐6. yıl 3. ayı ≈ Nisan 1856; doğrulanmadı). Academia Sinica ile çevrilecek. KAYIT günüdür. f=1677 için 389'a bak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "taiping",
+   "f": "1856-03-02",
+   "t": "1858-09-22",
+   "hukum": "ONERI",
+   "kaynak": "清史稿 卷20 文宗本紀 (zh.wikisource.org/wiki/清史稿/卷20)",
+   "alinti": "江西賊陷吉安。 | 九月癸酉朔 … 辛巳 … 湖南官軍克復吉安",
+   "oneri": {
+    "f": "咸豐六年三月壬戌 — Academia Sinica ile çevrilecek",
+    "t": "咸豐八年九月辛巳 (癸酉朔 → ayın 9'u) — Academia Sinica ile çevrilecek; mevcut 1858-09-22 ile karşılaştır"
+   },
+   "not": "[sira 391] Qingshigao 卷20: f 咸豐六年三月壬戌 'Ji'an düştü'. Geri alış: '湖南官軍克復吉安，予同知曾國荃等升敘有差' girişi 八年戊午 yılı içinde, '九月癸酉朔' ayının 辛巳 günü (sayfa.py ile tam metinde okundu; girişten sonra 九年己未 başlığından önce Li Xubin'in 三河 yenilgisi gelir → yıl 咸豐八年). Ay 癸酉朔 ise 辛巳 ayın 9. günüdür; mevcut 1858-09-22 ile uyumu doğrulanmadı. Academia Sinica ile çevrilecek. Mingshi ve Qing shi gao günleri KAYIT günüdür (saray kayıt günü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1858-09-22",
+   "t": "1911-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 392] f: 391'deki 咸豐八年九月辛巳 (Academia Sinica ile çevrilecek); t=1911-10-31 okunmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:149",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 393] [KÜME K09] ayrı ajanda."
+  }
+ ],
+ "Liepāja (Libau)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-03-28",
+   "t": "1915-05-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 394] Bütçe: t=1915-05-08 (Libau'nun Alman işgali) ve f=1795-03-28 akademik kaynakta aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "livonya-tarikati",
+   "f": "1281-01-01",
+   "t": "1561-11-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 395] Bütçe nedeniyle aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1915-05-08",
+   "t": "1918-11-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 396] Bütçe nedeniyle aranmadı. Kural notu (TEK KURAL): 1915-1918 Ober Ost askerî işgaldir → ilhak/devir yoksa isg almanya yazılmalı; Brest-Litovsk 1918-03-03 Rusya'nın Kurland'dan vazgeçişi ic_not. t=1918-11-18 Letonya ilanı Libau'da Alman askeri dururken fiilî devir değildir — incelenmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "letonya",
+   "f": "1918-11-18",
+   "t": "1940-08-05",
+   "hukum": "ONERI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history) + U.S. Office of the Historian 'Latvia' (https://history.state.gov/countries/latvia)",
+   "alinti": "the Latvian National Council proclaimed the establishment of the Republic of Latvia | Red Army troops crossed the border, occupying Latvia and starting its annexation to the USSR",
+   "oneri": {
+    "isg": "isg sovyet-rusya 1940-06-17 → 1940-08-05 eklenmeli (s: letonya t=1940-08-05 kalır)"
+   },
+   "not": "[sira 397] f=1918-11-18 KAYNAKLI (president.lv, ÜLKE DÜZEYİ). t: president.lv 17 Haziran 1940 Kızıl Ordu işgali, 'independence … de facto discontinued'; history.state.gov 'occupied and annexed Latvia … in August 1940'. TEK KURAL: işgal ilhaka kadar isg → s: letonya 1940-08-05'e (ilhak, ay düzeyi teyitli: August 1940; gün okunmadı) kadar sürer, 1940-06-17→08-05 isg sovyet katmanı eksik. ÖLÇÜT: geçici/askerî — ilhaktan önce Kızıl Ordu işgali, Letonya devleti biçimen sürüyor. ÜLKE DÜZEYİ. Liepāja 1918-1919 Alman askerî varlığı ayrıca incelenmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "kurland-dukaligi",
+   "f": "1561-11-28",
+   "t": "1795-03-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 398] DIGER (kaynaklı); bütçe nedeniyle yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "ostland",
+   "f": "1941-07-28",
+   "t": "1944-10-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history)",
+   "alinti": "June 1941 – May 1945: Latvia was occupied by Nazi Germany.",
+   "oneri": {},
+   "not": "[sira 399] ÜLKE DÜZEYİ, AY düzeyi: Alman işgali Haziran 1941–Mayıs 1945. f=1941-07-28 / t=1944-10-13 Ostland künye günleri (USHMM) yeniden okunmadı. [alıntı ham metinle teyitli 1105]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1944-10-13",
+   "t": "1945-05-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history)",
+   "alinti": "June 1941 – May 1945: Latvia was occupied by Nazi Germany.",
+   "oneri": {},
+   "not": "[sira 400] ÜLKE DÜZEYİ, AY düzeyi: Mayıs 1945'e dek Alman işgali (Kurland cebi; t=1945-05-08 günü okunmadı). TEK KURAL notu: ilhak olmadığından katman isg almanya olabilir — kural kararı KASA'nın. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-05-08",
+   "t": "1991-08-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history)",
+   "alinti": "the Supreme Council of the Republic of Latvia passed the Law “On the National Status of the Republic of Latvia”, restoring Latvia's independence de facto",
+   "oneri": {},
+   "not": "[sira 401] ÜLKE DÜZEYİ: f Mayıs 1945 (ay; 'June 1941 – May 1945' girişi), t 21 Ağustos 1991 gün düzeyinde. ic_not: 4 Mayıs 1990 bağımsızlığın yeniden tesisi bildirisi (geçiş dönemi); ABD tanıması 2 Eylül 1991 (history.state.gov). [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "letonya-cumhuriyeti-yeniden",
+   "f": "1991-08-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history)",
+   "alinti": "passed the Law “On the National Status of the Republic of Latvia”, restoring Latvia's independence de facto",
+   "oneri": {},
+   "not": "[sira 402] ÜLKE DÜZEYİ; 21 Ağustos 1991. [alıntı özetten]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:164",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1940-08-05",
+   "t": "1941-07-28",
+   "hukum": "ONERI",
+   "kaynak": "Letonya Cumhurbaşkanlığı resmî sitesi, 'Significant dates in the history of the Republic of Latvia' (https://www.president.lv/en/history)",
+   "alinti": "June 1941 – May 1945: Latvia was occupied by Nazi Germany.",
+   "oneri": {
+    "t": "1941-06 (Alman işgali; Liepāja'nın düşüş günü kaynakta okunmadı)",
+    "isg": "Alman işgali Haziran 1941 → 1941-07-28 (Ostland) arası katman eklenmeli"
+   },
+   "not": "[sira 403] BOS. f=1940-08-05 ilhak (history.state.gov 'August 1940', ay düzeyi). t=1941-07-28 Ostland kuruluşu, Sovyet denetiminin sonu değil: president.lv Alman işgalini Haziran 1941'den başlatır; Liepāja Haziran 1941 sonunda düştü (gün İPUCU 1941-06-29, akademik okunmadı). Sovyet dönemi Haziran 1941'de bitmeli, ara dönem Alman askerî işgali. ÖLÇÜT: geçici/askerî — sivil idare (Ostland) kurulana dek askerî işgal. TARAYICI: Liepāja 1941 düşüş günü."
+  }
+ ]
+}

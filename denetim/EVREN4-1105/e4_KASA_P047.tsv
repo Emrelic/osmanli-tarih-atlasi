@@ -1,0 +1,64 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3152	BOS	data/yerlesimler_afrika.js:511	Ecdâbiye	d		1551-08-15	1711-07-29	
+3153	BOS	data/yerlesimler_afrika.js:511	Ecdâbiye	d		1835-05-26	1912-10-18	
+3154	BOS	data/yerlesimler_afrika.js:511	Ecdâbiye	v		1711-07-29	1835-05-26	
+3155	ZAYIF_ATLAS	data/yerlesimler_afrika.js:511	Ecdâbiye	s	libya-ingiliz-askeri-idaresi	1943-01-23	1951-12-24	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-ingiliz-askeri-idaresi t ucunun kaynağı — https://fanack.com/libya/history-of-libya/libya-world-war-ii/
+3156	ZAYIF_ATLAS	data/yerlesimler_afrika.js:511	Ecdâbiye	s	libya-krallik	1951-12-24	1969-09-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-krallik f ucunun kaynağı — https://libyanheritagehouse.org/history-libya/libya-independence ; https://f
+3157	ZAYIF_ATLAS	data/yerlesimler_afrika.js:511	Ecdâbiye	s	libya-cumhuriyet-cemahiriye	1969-09-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-cumhuriyet-cemahiriye f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Libya' (islamansiklopedisi.org.tr/li
+3158	BOS	data/yerlesimler_afrika.js:539	Tobruk	d		1556-01-01	1711-07-29	
+3159	BOS	data/yerlesimler_afrika.js:539	Tobruk	d		1835-05-26	1912-10-18	
+3160	BOS	data/yerlesimler_afrika.js:539	Tobruk	v		1711-07-29	1835-05-26	
+3161	ZAYIF_ATLAS	data/yerlesimler_afrika.js:539	Tobruk	s	libya-ingiliz-askeri-idaresi	1943-01-23	1951-12-24	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-ingiliz-askeri-idaresi t ucunun kaynağı — https://fanack.com/libya/history-of-libya/libya-world-war-ii/
+3162	ZAYIF_ATLAS	data/yerlesimler_afrika.js:539	Tobruk	s	libya-krallik	1951-12-24	1969-09-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-krallik f ucunun kaynağı — https://libyanheritagehouse.org/history-libya/libya-independence ; https://f
+3163	ZAYIF_ATLAS	data/yerlesimler_afrika.js:539	Tobruk	s	libya-cumhuriyet-cemahiriye	1969-09-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-cumhuriyet-cemahiriye f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Libya' (islamansiklopedisi.org.tr/li
+3164	BOS	data/yerlesimler_afrika.js:615	Sikikde	s	zeyyani	1281-01-01	1519-09-01	
+3165	BOS	data/yerlesimler_afrika.js:615	Sikikde	d		1519-09-01	1671-01-01	
+3166	BOS	data/yerlesimler_afrika.js:615	Sikikde	v		1671-01-01	1830-07-05	
+3167	BOS	data/yerlesimler_afrika.js:615	Sikikde	v		1830-07-05	1838-10-13	
+3168	BOS	data/yerlesimler_afrika.js:627	Sûk Ahrâs	s	zeyyani	1281-01-01	1519-09-01	
+3169	BOS	data/yerlesimler_afrika.js:627	Sûk Ahrâs	d		1519-09-01	1671-01-01	
+3170	BOS	data/yerlesimler_afrika.js:627	Sûk Ahrâs	v		1671-01-01	1830-07-05	
+3171	BOS	data/yerlesimler_afrika.js:627	Sûk Ahrâs	v		1830-07-05	1844-03-04	
+3172	BOS	data/yerlesimler_afrika.js:639	Berc Bû Areric	s	zeyyani	1281-01-01	1519-09-01	
+3173	BOS	data/yerlesimler_afrika.js:639	Berc Bû Areric	d		1519-09-01	1671-01-01	
+3174	BOS	data/yerlesimler_afrika.js:639	Berc Bû Areric	v		1671-01-01	1830-07-05	
+3175	BOS	data/yerlesimler_afrika.js:639	Berc Bû Areric	v		1830-07-05	1838-10-13	
+3176	BOS	data/yerlesimler_afrika.js:715	Şire	s	habesistan	1281-01-01	1936-06-01	
+3177	DIGER	data/yerlesimler_afrika.js:715	Şire	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+3178	DIGER	data/yerlesimler_afrika.js:715	Şire	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+3179	DIGER	data/yerlesimler_afrika.js:715	Şire	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+3180	DIGER	data/yerlesimler_afrika.js:715	Şire	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+3181	BOS	data/yerlesimler_afrika.js:730	Lalibela	s	habesistan	1281-01-01	1936-06-01	
+3182	ZAYIF_ATLAS	data/yerlesimler_afrika.js:730	Lalibela	s	zagve	1137-01-01	1270-01-01	TDV İslâm Ansiklopedisi, etiyopya (https://islamansiklopedisi.org.tr/etiyopya; ham metin tdvc/etiyopya.txt): «Etiyopya Krallığı’nı 1137’den 1270’e kadar Zague» 
+3183	ZAYIF_ATLAS	data/yerlesimler_afrika.js:730	Lalibela	s	habesistan	1270-01-01	1281-01-01	Treccani Enciclopedia on line, etiopia maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/etiopia/; ham metin ham/ob_t_etiopia.
+3184	DIGER	data/yerlesimler_afrika.js:730	Lalibela	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+3185	DIGER	data/yerlesimler_afrika.js:730	Lalibela	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+3186	DIGER	data/yerlesimler_afrika.js:730	Lalibela	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+3187	DIGER	data/yerlesimler_afrika.js:730	Lalibela	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+3188	BOS	data/yerlesimler_afrika.js:740	Bahır Dar	s	habesistan	1281-01-01	1936-06-01	
+3189	DIGER	data/yerlesimler_afrika.js:740	Bahır Dar	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+3190	DIGER	data/yerlesimler_afrika.js:740	Bahır Dar	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+3191	DIGER	data/yerlesimler_afrika.js:740	Bahır Dar	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+3192	DIGER	data/yerlesimler_afrika.js:740	Bahır Dar	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+3193	BOS	data/yerlesimler_afrika.js:750	Debre Berhan	s	habesistan	1281-01-01	1936-06-01	
+3194	DIGER	data/yerlesimler_afrika.js:750	Debre Berhan	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+3195	DIGER	data/yerlesimler_afrika.js:750	Debre Berhan	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+3196	DIGER	data/yerlesimler_afrika.js:750	Debre Berhan	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+3197	DIGER	data/yerlesimler_afrika.js:750	Debre Berhan	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+3198	BOS	data/yerlesimler_afrika.js:819	Galkayo	s	somali	1281-01-01	1927-01-01	
+3199	ZAYIF_ATLAS	data/yerlesimler_afrika.js:819	Galkayo	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+3200	ZAYIF_ATLAS	data/yerlesimler_afrika.js:819	Galkayo	s	somali-italyan-vesayet	1950-04-01	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt
+3201	ZAYIF_ATLAS	data/yerlesimler_afrika.js:819	Galkayo	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+3202	BOS	data/yerlesimler_afrika.js:829	Bender Kāsım (Bosaso)	s	adal	1281-01-01	1577-01-01	
+3203	BOS	data/yerlesimler_afrika.js:829	Bender Kāsım (Bosaso)	s	somali	1577-01-01	1927-01-01	
+3204	ZAYIF_ATLAS	data/yerlesimler_afrika.js:829	Bender Kāsım (Bosaso)	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+3205	ZAYIF_ATLAS	data/yerlesimler_afrika.js:829	Bender Kāsım (Bosaso)	s	somali-italyan-vesayet	1950-04-01	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt
+3206	ZAYIF_ATLAS	data/yerlesimler_afrika.js:829	Bender Kāsım (Bosaso)	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+3207	BOS	data/yerlesimler_afrika.js:968	Cağbûb	s	italya	1912-10-18	1943-01-23	
+3208	BOS	data/yerlesimler_afrika.js:968	Cağbûb	d		1856-01-01	1912-10-18	
+3209	ZAYIF_ATLAS	data/yerlesimler_afrika.js:968	Cağbûb	s	libya-ingiliz-askeri-idaresi	1943-01-23	1951-12-24	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-ingiliz-askeri-idaresi t ucunun kaynağı — https://fanack.com/libya/history-of-libya/libya-world-war-ii/
+3210	ZAYIF_ATLAS	data/yerlesimler_afrika.js:968	Cağbûb	s	libya-krallik	1951-12-24	1969-09-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-krallik f ucunun kaynağı — https://libyanheritagehouse.org/history-libya/libya-independence ; https://f
+3211	ZAYIF_ATLAS	data/yerlesimler_afrika.js:968	Cağbûb	s	libya-cumhuriyet-cemahiriye	1969-09-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye libya-cumhuriyet-cemahiriye f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Libya' (islamansiklopedisi.org.tr/li
+3212	BOS	data/yerlesimler_avrupa.js:71	Norwich	s	ingiltere	1281-01-01	2000-12-31	
+3213	BOS	data/yerlesimler_avrupa.js:72	Bristol	s	ingiltere	1281-01-01	2000-12-31	
+3214	BOS	data/yerlesimler_avrupa.js:74	Plymouth	s	ingiltere	1281-01-01	2000-12-31	

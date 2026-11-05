@@ -1,0 +1,2214 @@
+{
+ "satirlar": [
+  {
+   "ad": "Aba (Nijerya)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "grup": "biafra",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "US Office of the Historian, FRUS 1969-1976 Vol. E-5 Pt.1, Doc. 163, 'Nigeria Sitrep', 15 Ocak 1970 (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163; sayfa.py ham)",
+     "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” and affirming Ibo loyalty to Federal Government. He said “Republic of Biafra” no longer exists.",
+     "not": "Karar: KARARLAR gece-116 (Biafra -> Nijerya 1970-01-15). Alıntı ülke düzeyinde Biafra'nın sonunu tarihler; şehir düzeyi gün karardır (FRUS Doc.157: Owerri 1970-01-12'de ele geçirilmiş olabilir - rakip hükûmet kuralıyla şehir günü ayrı soru, karar tek gündür). Nijerya künyesi f 1960-10-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Atakpamé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "grup": "togo",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo; sayfa.py ham)",
+     "alinti": "Sylvanus Olympio getirildi; 27 Nisan 1960 tarihinde bağımsızlık ilân edildi.",
+     "not": "TDV bağımsızlık ilanını tarihliyor (fransiz-togo t = togo f). history.state.gov yalnız tanıma günüdür (aynı gün) - ek teyit değil. Togo künyesi f 1960-04-27, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bahlâ",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "umman-ic-imamlik",
+   "son_t": "1955-01-01",
+   "grup": "umman",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "umman",
+     "f": "1955-12-01",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Hansard, HL Deb 29 Temmuz 1957 vol 205 cc241-5, 'The Situation in Central Oman' (api.parliament.uk/historic-hansard/lords/1957/jul/29/the-situation-in-central-oman) - önceki tur ham okuması; bu turda yeniden okunmadı",
+     "alinti": "In December, 1955, the Sultan took steps to reassert his authority, and forces under his control entered the main inhabited centres of Oman",
+     "not": "[yalnız ay] Ay kesişimi ilk gün 1955-12-01 + ay beyanı. imamlık dönemi t 1955-01-01 (yalnız yıl) -> 1955-12-01 öneri. TDV 'Uman' İzkî'yi imamlık yeri sayıyor ama 1955'i tarihlemiyor (bu turda okundu). Nizvâ 15 Aralık 1955 (ipucu, teyitsiz)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": false,
+    "madde": [],
+    "yeni_madde_gerekli": true,
+    "b_taslak": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12]."
+   }
+  },
+  {
+   "ad": "Balboa Heights (Panama Kanalı İdaresi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "panama-kanali-bolgesi",
+   "son_t": "1979-10-01",
+   "grup": "panama",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "panama-cumhuriyeti",
+     "f": "1979-10-01",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "US Office of the Historian, Milestones 1977-1980 'The Panama Canal and the Torrijos-Carter Treaties' (history.state.gov/milestones/1977-1980/panama-canal; sayfa.py ham)",
+     "alinti": "The Panama Canal Treaty, stated that the Panama Canal Zone would cease to exist on October 1, 1979",
+     "not": "Panama Cumhuriyeti künyesi f 1903-11-03, kapsıyor. Kanal'ın kendisi 1999-12-31'de devredildi (ic_not; ufuk 2000-12-31'e takılmaz)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+     "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+     "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt",
+     "1979-10-27 kronoloji_sinir_halef_1923_2000.js: Saint Vincent ve Grenadinler Birleşik Krallık'tan bağımsızlığını kazandı (Bequia dahil, Port Elizabeth)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bamenda",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "grup": "kamerun",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "kamerun",
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun; sayfa.py ham)",
+     "alinti": "Sonuçta Batı Adamava Nijerya’ya geçerken güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961).",
+     "not": "Bamenda/Buea/Kumba Güney Kamerun'da (Batı Kamerun eyaleti). Kamerun künyesi f 1960-01-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+     "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bandung",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "grup": "pasundan",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "endonezya-cumhuriyeti",
+     "f": "1950-03-11",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: künye + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:114 'RIS Başkanlık Kararı ile feshedildi') - atlas kaydı, dayanak değil. Künye kaynağı digilib.uinsgd.ac.id/137993 okunmadı.",
+     "alinti": "",
+     "not": "Karar: Pasundan -> Endonezya (gece-116). Gün akademik kaynakla BULUNAMADI. Not: Pasundan RIS (Birleşik Endonezya Cumhuriyeti, 1949-12-27 -> 1950-08-17) içinde bir devletti; atlas Cava yerleşimlerini 1949-12-27'den endonezya-cumhuriyeti yazıyor (emsal), ayrı RIS künyesi yok."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+     "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bangassou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "orta-afrika-imparatorlugu",
+   "son_t": "1979-09-20",
+   "grup": "oac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "orta-afrika-cumhuriyeti",
+     "f": "1979-09-21",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Orta Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti; sayfa.py ham)",
+     "alinti": "21 Eylül 1979’da Bokassa’nın Libya’da bulunduğu bir sırada Fransa’nın yardımıyla kansız bir darbeyle iktidara el koyan David Dacko",
+     "not": "Karar: KARARLAR gece-101 (c) / LAB SALI: TDV esas, künye t 1979-09-20 -> 09-21. 20/21 gecesi Barracuda ic_not. TDV imparatorluk ilanını 4 Aralık 1977 diyor (künye f 1976-12-04) - ayrı uç. Orta Afrika Cumhuriyeti künyesi f 1960-08-13."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+     "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+     "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   },
+   "mukerrer": "Bangassu (HALEF1946-UYGULA §2): ardıl dilim orada yazılıyor, bu nokta silinir"
+  },
+  {
+   "ad": "Batı Berlin (Charlottenburg)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "berlin-bati",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Beli Manastir",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "grup": "untaes",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1998-01-15",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (UNTAES -> Hırvatistan 1998-01-15). UN Peacekeeping UNTAES sayfası: 'UNTAES concluded its mandate in January 1998' (yalnız ay; önceki tur)",
+     "alinti": "",
+     "not": "Gün 15 karardır; kaynak yalnız ay veriyor [yalnız ay]. Hırvatistan künyesi f 1991-06-25."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Benkovac",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "grup": "krajina",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1995-08-07",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (Krajina -> Hırvatistan 1995-08-07). Hrvatska enciklopedija 'Domovinski rat': Oluja 4-7 Ağustos 1995 (önceki tur)",
+     "alinti": "",
+     "not": "Şehir düzeyi düşüş günleri 4-7 Ağustos arasında olabilir, şehre özgü gün okunmadı; karar tek gün (08-07)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+     "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Berbérati",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "orta-afrika-imparatorlugu",
+   "son_t": "1979-09-20",
+   "grup": "oac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "orta-afrika-cumhuriyeti",
+     "f": "1979-09-21",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Orta Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti; sayfa.py ham)",
+     "alinti": "21 Eylül 1979’da Bokassa’nın Libya’da bulunduğu bir sırada Fransa’nın yardımıyla kansız bir darbeyle iktidara el koyan David Dacko",
+     "not": "Karar: KARARLAR gece-101 (c) / LAB SALI: TDV esas, künye t 1979-09-20 -> 09-21. 20/21 gecesi Barracuda ic_not. TDV imparatorluk ilanını 4 Aralık 1977 diyor (künye f 1976-12-04) - ayrı uç. Orta Afrika Cumhuriyeti künyesi f 1960-08-13."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+     "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+     "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bijeljina",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "grup": "rs",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1995-12-14",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "OSCE Mission to BiH, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173; sayfa.py ham)",
+     "alinti": "formally signed in Paris on 14 December 1995",
+     "not": "İmza günü; RS Annex 4 uyarınca Bosna-Hersek'in entitesi olur (D2 maddesi 1995-12-14'te var). Entite boyası istenirse ayrı karar. Bosna-Hersek künyesi f 1992-03-03. Açık karar yok -> KAYNAKLI değil (imza = yürürlük okunmadı)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bisho",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ciskei",
+   "son_t": "1994-04-27",
+   "grup": "gac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1994-04-27",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (bantustanlar -> GAC 1994-04-27). Constitution of the Republic of South Africa Act 200 of 1993 s.251(1) 'shall ... come into operation on 27 April 1994' (önceki tur, gov.za; bu turda yeniden okunmadı). TDV 'Güney Afrika Cumhuriyeti' dört cumhuriyetin tanınmadığını söylüyor, 1994 günü vermiyor",
+     "alinti": "",
+     "not": "Fiilî gün ic_not adayı (Bophuthatswana/Ciskei Mart 1994'te SA yöneticileri). GAC künyesi f 1961-05-31, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Brazzaville",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fransiz-ekvator-afrikasi",
+   "son_t": "1958-01-01",
+   "grup": "brazzaville",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1958-01-01",
+     "t": "1960-08-15",
+     "hukum": "ONERI",
+     "uc": "f+t",
+     "kaynak": "Emsal: komşu Kongo yerleşimleri (yerlesimler_afrika2.js: Suanke, Impfondo, Ouesso) 1960-08-15'e dek fransa-cumhuriyet. Özerk Kongo Cumhuriyeti künyesi YOK -> LAB (önerisi f 1958-11-28 + v: fransa)",
+     "alinti": "",
+     "not": "AEF künye t 1958-01-01 şüpheli (AEF 1958-11-28'de dağıldı; ipucu). Özerk künye açılınca bu dilim 1958-11-28'den bölünür. Şimdilik ardıl künye adı = fransa-cumhuriyet + not (Emre kararı)."
+    },
+    {
+     "alan": "s",
+     "d": "kongo-brazzaville",
+     "f": "1960-08-15",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (Brazzaville 1960-08-15). D2 maddesi kronoloji_sinir_halef_1923_2000.js:160 ('Fransiz Orta Kongosu ... bagimsiz Kongo-Brazzaville oldu'). history.state.gov/countries/republic-of-the-congo 404.",
+     "alinti": "",
+     "not": "Kongo-brazzaville künyesi f 1960-08-15, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1958-01-03 kronoloji_sinir_halef_1923_2000.js: Batı Hint Federasyonu resmen kuruldu (Chaguaramas, Bridgetown, Castries, St. John's, Basseterre, Roseau, Kingstown, Plymouth)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "",
+    "not": "1960-08-15 maddesi (satır 160) var; 1958 özerk geçiş için yeni madde yalnız özerk künye açılırsa gerekir.",
+    "b_taslak_kosullu": "1958-11-28: Fransız Ekvator Afrikası dağıldı, Kongo Cumhuriyeti Fransız Topluluğu içinde özerk oldu (künye LAB'da açılırsa)."
+   }
+  },
+  {
+   "ad": "Buea",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "grup": "kamerun",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "kamerun",
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun; sayfa.py ham)",
+     "alinti": "Sonuçta Batı Adamava Nijerya’ya geçerken güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961).",
+     "not": "Bamenda/Buea/Kumba Güney Kamerun'da (Batı Kamerun eyaleti). Kamerun künyesi f 1960-01-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+     "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Bulawayo",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "rodezya-nyasaland-federasyonu",
+   "son_t": "1963-12-31",
+   "grup": "rodezya_fed_bulawayo",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1963-12-31",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Federasyon künye t 1963-12-31 + D2 maddesi (satır 192); UDI D2 maddesi 1965-11-11 (satır 200-201). Fesih günü ham okunmadı",
+     "alinti": "",
+     "not": "[gün teyitsiz] KARARLAR gece-101 (d): Bulawayo -> ingiliz-guney-rodezya (künye 1890-01-01 -> 1980-04-18). MÜKERRER: 'Bulavayo' ana kaydı bu zinciri HALEF1946-UYGULA.md §1'de zaten alıyor (1963-12-31 -> 1965-11-11, sonra rodezya-udi 1965-11-11 -> 1979-06-01 -> zimbabve-rodezya -> ingiltere 1979-12-12 -> zimbabve 1980-04-18); bu nokta SİLİNİR, ayrıca ardıl yazma."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1963-12-10 kronoloji_sinir_halef_1923_2000.js: Zengibar (Unguja ve Pemba: Çake Çake) Britanya'dan bağımsız sultanlık olarak kuruldu",
+     "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisumu, Nakuru, Garissa ve Marsabit bağımsız devlete geçti.",
+     "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Zanzibar Sultanı'nın Kenya kıyı şeridi (Mombasa, Malindi, Lamu, Pate) egemenliği Kenya'ya devredildi.",
+     "1963-12-31 kronoloji_sinir_halef_1923_2000.js: Rodezya ve Nyasaland Federasyonu feshedildi; Lusaka ve Bulawayo federal yapıdan çıktı",
+     "1964-01-12 kronoloji_sinir_halef_1923_2000.js: Zengibar Sultanlığı devrildi; Çake Çake (Pemba) dahil adalar devrimci yönetime geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   },
+   "mukerrer": "Bulavayo (HALEF1946-UYGULA §1)"
+  },
+  {
+   "ad": "Butterworth",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "transkei",
+   "son_t": "1994-04-27",
+   "grup": "gac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1994-04-27",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (bantustanlar -> GAC 1994-04-27). Constitution of the Republic of South Africa Act 200 of 1993 s.251(1) 'shall ... come into operation on 27 April 1994' (önceki tur, gov.za; bu turda yeniden okunmadı). TDV 'Güney Afrika Cumhuriyeti' dört cumhuriyetin tanınmadığını söylüyor, 1994 günü vermiyor",
+     "alinti": "",
+     "not": "Fiilî gün ic_not adayı (Bophuthatswana/Ciskei Mart 1994'te SA yöneticileri). GAC künyesi f 1961-05-31, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   },
+   "mukerrer": "Gcuva (Butterworth) (HALEF1946-UYGULA §3): ardıl dilim orada yazılıyor, bu nokta silinir"
+  },
+  {
+   "ad": "Cottbus",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Cristóbal (Colón limanı, Kanal Bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "panama-kanali-bolgesi",
+   "son_t": "1979-10-01",
+   "grup": "panama",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "panama-cumhuriyeti",
+     "f": "1979-10-01",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "US Office of the Historian, Milestones 1977-1980 'The Panama Canal and the Torrijos-Carter Treaties' (history.state.gov/milestones/1977-1980/panama-canal; sayfa.py ham)",
+     "alinti": "The Panama Canal Treaty, stated that the Panama Canal Zone would cease to exist on October 1, 1979",
+     "not": "Panama Cumhuriyeti künyesi f 1903-11-03, kapsıyor. Kanal'ın kendisi 1999-12-31'de devredildi (ic_not; ufuk 2000-12-31'e takılmaz)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+     "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+     "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt",
+     "1979-10-27 kronoloji_sinir_halef_1923_2000.js: Saint Vincent ve Grenadinler Birleşik Krallık'tan bağımsızlığını kazandı (Bequia dahil, Port Elizabeth)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Doboj",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "grup": "rs",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1995-12-14",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "OSCE Mission to BiH, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173; sayfa.py ham)",
+     "alinti": "formally signed in Paris on 14 December 1995",
+     "not": "İmza günü; RS Annex 4 uyarınca Bosna-Hersek'in entitesi olur (D2 maddesi 1995-12-14'te var). Entite boyası istenirse ayrı karar. Bosna-Hersek künyesi f 1992-03-03. Açık karar yok -> KAYNAKLI değil (imza = yürürlük okunmadı)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Enugu",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "biafra",
+   "son_t": "1967-10-04",
+   "grup": "enugu",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1967-10-04",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Gün: atlas kaydı + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:209). Doğrulama: WebSearch özeti 4 Ekim 1967 (Nijerya 1. Tümeni Enugu'yu işgal etti) - ham sayfa okunamadı (dawodu 404, countrystudies bölümlerinde Enugu yok).",
+     "alinti": "",
+     "not": "Rakip hükûmet kuralı: fiilî alış günü, Enugu 1967-10-04'ten itibaren s: nijerya (Biafra'ya geri dönmedi). Bir Nijerya dergi makalesi 28 Eylül 1967 diyor (arama özeti) - akademik ham kaynak BULUNAMADI, TARAYICI: Library of Congress / FRUS Vol. E-5 belgeleri."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1967-10-04 kronoloji_sinir_halef_1923_2000.js: Biafra başkenti Enugu Nijerya federal ordusunun eline geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Frankfurt (Oder)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Ga-Rankuwa",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "bophuthatswana",
+   "son_t": "1994-04-27",
+   "grup": "gac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1994-04-27",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (bantustanlar -> GAC 1994-04-27). Constitution of the Republic of South Africa Act 200 of 1993 s.251(1) 'shall ... come into operation on 27 April 1994' (önceki tur, gov.za; bu turda yeniden okunmadı). TDV 'Güney Afrika Cumhuriyeti' dört cumhuriyetin tanınmadığını söylüyor, 1994 günü vermiyor",
+     "alinti": "",
+     "not": "Fiilî gün ic_not adayı (Bophuthatswana/Ciskei Mart 1994'te SA yöneticileri). GAC künyesi f 1961-05-31, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Gilan (Gjilan)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "kosova-golge-cumhuriyeti",
+   "son_t": "1999-06-10",
+   "grup": "kosova",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "unmik-kosova",
+     "f": "1999-06-10",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "UN Peacekeeping, UNMIK factsheet (peacekeeping.un.org/en/factsheet/unmik) - önceki tur ham okuması",
+     "alinti": "by its resolution 1244 of 10 June 1999, authorized the Secretary-General to establish an international civil presence in Kosovo",
+     "not": "Alıntı BMGK yetkilendirme günüdür; Yugoslav kuvvetlerinin fiilî çekilişi (Askerî Teknik Anlaşma, ~1999-06-20) ve KFOR girişi 12 Haziran ayrı - rakip hükûmet kuralıyla fiilî gün sorusu (kaynak okunmadı) -> KAYNAKLI değil. UNMIK künyesi 1999-06-10 -> 2008-02-17, ufuk 2000-12-31'de kesilir. NOT: 1991-1999 dilimi 'kosova-golge-cumhuriyeti' gölge devlet; fiilî idare Yugoslavya (KARARLAR: '(fiilî) Yugoslavya') - dilim sahibi sorusu Emre'ye."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1999-06-10 kronoloji_sinir_halef_1923_2000.js: BM Güvenlik Konseyi 1244 sayılı kararı: Kosova (Priştine, Prizren) Yugoslavya Federal Cumhuriyeti idaresinden çıkıp UNMIK yönetimine girdi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Glina",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "grup": "krajina",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1995-08-07",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (Krajina -> Hırvatistan 1995-08-07). Hrvatska enciklopedija 'Domovinski rat': Oluja 4-7 Ağustos 1995 (önceki tur)",
+     "alinti": "",
+     "not": "Şehir düzeyi düşüş günleri 4-7 Ağustos arasında olabilir, şehre özgü gün okunmadı; karar tek gün (08-07)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+     "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Grammos (DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "yunanistan-gecici-demokratik-hukumet",
+   "son_t": "1949-08-28",
+   "grup": "dse",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "yunanistan",
+     "f": "1949-08-28",
+     "t": "1973-06-01",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: künye t + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:109 'Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi'). WebSearch özeti: Vitsi 14-15 Ağustos, Grammos son kale 25-30 Ağustos 1949 (Operation Pyrsos) - ham akademik okuma yok",
+     "alinti": "",
+     "not": "ALTERNATİF (bit kabul edilmezse): yunanistan 1949-08-28 -> 1973-06-01, sonra yunanistan-cumhuriyeti 1973-06-01 -> 2000-12-31 (Kesriye emsali). ÖNERİLEN: bit (aşağıda)."
+    },
+    {
+     "alan": "s",
+     "d": "yunanistan-cumhuriyeti",
+     "f": "1973-06-01",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "D2 maddesi satır 230 (1973-06-01 cunta cumhuriyeti)",
+     "alinti": "",
+     "not": "Alternatif zincirin ikinci dilimi."
+    }
+   ],
+   "bit_onerisi": {
+    "bit": "1949-08-28",
+    "hukum": "ONERI",
+    "not": "BİT KARARI (brif §2): Vitsi ve Grammos yerleşim değil DSE dağ üsleridir; geçici hükûmetin sonunda (1949-08-28) üs kalkar, toprak komşu peteklere kalır. Bit günü kaynaksız ONERI (Grammos son kale 30 Ağustos, Vitsi 14-15 Ağustos -> TARAYICI)."
+   },
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1949-08-28 kronoloji_sinir_halef_1923_2000.js: Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi (Vitsi, Grammos)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Grozni (Groznıy)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "grup": "grozni",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "rusya-federasyonu",
+     "f": "2000-02-06",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "D2 maddesi satır 341 (2000-02-06 'Rus kuvvetleri Grozni'nin denetimini ele geçirdi'); TDV 'Çeçenistan' yalnız 1991-11-01 ilanını veriyor; ham akademik kaynak BULUNAMADI",
+     "alinti": "",
+     "not": "Rakip hükûmet kuralı: fiilî alış günü. Grozni için 6 Şubat 2000 Rus yetkililerin duyurusu (basın, ipucu). Rusya Federasyonu künyesi f 1991-12-26."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Gudermes",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "grup": "gudermes",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "rusya-federasyonu",
+     "f": "1999-11-12",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "WebSearch özeti: Putin 12 Kasım 1999'da Rus bayrağının Gudermes'te dalgalandığını açıkladı (haber ajansı; ham okunmadı); RFE/RL 22 Kasım 1999 ve VOA 23 Kasım 'kurşunsuz düştü' diyor - gün çelişkili",
+     "alinti": "",
+     "not": "Rakip hükûmet kuralı: fiilî alış. Mevcut D2 maddesi (2000-02-06) Gudermes'i de anıyor; 1999-11-12 seçilirse madde ayrılmalı. Akademik kaynak BULUNAMADI -> 2000-02-06 (Grozni grubu) güvenli üst sınırdır."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+    ],
+    "yeni_madde_gerekli": true,
+    "b_taslak": "Rus kuvvetleri Gudermes'i ele geçirdi; Çeçenistan'ın ikinci büyük şehri federal denetime girdi (1999-11-12, gün teyitsiz)."
+   }
+  },
+  {
+   "ad": "Ho (Togoland)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "grup": "togoland",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "gana",
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Hohoe",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "grup": "togoland",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "gana",
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Ilok",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "grup": "untaes",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1998-01-15",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (UNTAES -> Hırvatistan 1998-01-15). UN Peacekeeping UNTAES sayfası: 'UNTAES concluded its mandate in January 1998' (yalnız ay; önceki tur)",
+     "alinti": "",
+     "not": "Gün 15 karardır; kaynak yalnız ay veriyor [yalnız ay]. Hırvatistan künyesi f 1991-06-25."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Izkî",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "umman-ic-imamlik",
+   "son_t": "1955-01-01",
+   "grup": "umman",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "umman",
+     "f": "1955-12-01",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Hansard, HL Deb 29 Temmuz 1957 vol 205 cc241-5, 'The Situation in Central Oman' (api.parliament.uk/historic-hansard/lords/1957/jul/29/the-situation-in-central-oman) - önceki tur ham okuması; bu turda yeniden okunmadı",
+     "alinti": "In December, 1955, the Sultan took steps to reassert his authority, and forces under his control entered the main inhabited centres of Oman",
+     "not": "[yalnız ay] Ay kesişimi ilk gün 1955-12-01 + ay beyanı. imamlık dönemi t 1955-01-01 (yalnız yıl) -> 1955-12-01 öneri. TDV 'Uman' İzkî'yi imamlık yeri sayıyor ama 1955'i tarihlemiyor (bu turda okundu). Nizvâ 15 Aralık 1955 (ipucu, teyitsiz)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": false,
+    "madde": [],
+    "yeni_madde_gerekli": true,
+    "b_taslak": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12]."
+   }
+  },
+  {
+   "ad": "Juba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "guney-sudan-ozerk-bolge",
+   "son_t": "1983-06-05",
+   "grup": "sudan",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "sudan-cumhuriyeti",
+     "f": "1983-06-05",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "encyclopedia.com 'Sudanese Civil Wars' (ticari ansiklopedi - ONERI-güçlü; sayfa.py ham) ; D2 maddesi satır 275",
+     "alinti": "Finally, he decreed on 5 June 1983 the redivision of the south into its three original provinces.",
+     "not": "Ticari ansiklopedi KAYNAKLI vermez; TDV 'Sudan' (bu turda okundu) bölgenin feshini tarihlemiyor; countrystudies (LoC) yalnız 1981 meclis feshi. Bir kaynak 1 Haziran 1983 (Cumhurbaşkanlığı Kararnamesi 1) diyor (arama özeti). Juba iç savaş boyunca hükûmet garnizonu: s: sudan-cumhuriyeti (f 1956-01-01, kapsıyor)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1983-06-05 kronoloji_sinir_halef_1923_2000.js: Güney Sudan Özerk Bölgesi Numeyri'nin kararnamesiyle kaldırıldı (Juba)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Kalam (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "grup": "swat",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "pakistan",
+     "f": "1969-07-28",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: D2 maddesi satır 218 + WebSearch özeti (28 Temmuz 1969 Yahya Han'ın Swat/Dir/Çitral entegrasyon duyurusu); ham akademik okuma yok (tribune.com.pk 403, iranicaonline 404, TDV 'Pakistan' Swat'ı anmıyor)",
+     "alinti": "",
+     "not": "Akademik kaynak BULUNAMADI (Sultan-i-Rome, OUP 2008 erişilemedi). Bir Vikipedi aynası 14 Ekim 1969 (Batı Pakistan'a katılım) veriyor - çelişki ic_not. Pakistan künyesi f 1947-08-15."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Kara (Togo)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "grup": "togo",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo; sayfa.py ham)",
+     "alinti": "Sylvanus Olympio getirildi; 27 Nisan 1960 tarihinde bağımsızlık ilân edildi.",
+     "not": "TDV bağımsızlık ilanını tarihliyor (fransiz-togo t = togo f). history.state.gov yalnız tanıma günüdür (aynı gün) - ek teyit değil. Togo künyesi f 1960-04-27, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Karl-Marx-Stadt (Chemnitz)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Keningau",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "kuzey-borneo-tac-kolonisi",
+   "son_t": "1963-09-16",
+   "grup": "malezya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "malezya",
+     "f": "1963-09-16",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Malezya' (islamansiklopedisi.org.tr/malezya; sayfa.py ham)",
+     "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla birlikte ülkenin adı Malezya Federasyonu’na çevrildi.",
+     "not": "Malezya künyesi f 1957-08-31, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1963-09-16 kronoloji_sinir_halef_1923_2000.js: Kuzey Borneo (Sabah: Kudat, Sandakan, Jesselton) Birlesik Krallik'tan Malezya Federasyonu'na katildi",
+     "1963-09-16 kronoloji_sinir_halef_1923_2000.js: Sarawak, Kuzey Borneo ve Singapur ile birlikte Malezya Federasyonu'na katıldı; Kuching, Sibu, Bintulu ve Limbang Malezya'ya geçti."
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Koper (Capodistria, B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "triyeste-serbest-toprak",
+   "son_t": "1954-10-26",
+   "grup": "triyeste",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "yugoslavya-federal",
+     "f": "1954-10-05",
+     "t": "1991-06-25",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Hrvatska enciklopedija 'Slobodni Teritorij Trsta' (önceki tur ham okuması) ; Université Laval CEFAN 'Mémorandum de Londres 1954'",
+     "alinti": "u Londonu je 5. X. 1954. bio postignut sporazum o ukidanju STT-a. … Zona B Jugoslaviji",
+     "not": "TEK ÖLÇÜ imza dalı: Yugoslavya B bölgesini 1945'ten beri askerî yönetiyordu. KARARLAR gece-101..105 §7: künye BÖLÜNMEZ, karar EMRELİC'te bekliyor (LAB önerisi t 1954-10-05). Seçenek B: t 1954-10-26 (D2 maddesi satır 126, uygulama günü) - 10-26 ic_not. Yugoslavya-federal künyesi 1945-11-29 -> 1992-04-27, kapsıyor."
+    },
+    {
+     "alan": "s",
+     "d": "slovenya",
+     "f": "1991-06-25",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "Künye f 1991-06-25 + D2 maddeleri satır 298-299 (bağımsızlık bildirileri); gün bildiri günü, fiilî egemenlik (Slovenya 10 Günlük Savaş sonu 1991-07-07, Hırvatistan 1991-1995) ayrı soru",
+     "alinti": "",
+     "not": "Koper: Yugoslavya sonrası ardıl. Kaynaksız künye günü."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1954-10-26 kronoloji_sinir_halef_1923_2000.js: Londra Mutabakatı uygulandı, Triyeste Serbest Toprağı fiilen sona erdi; B bölgesi Yugoslav idaresinde kaldı (Koper, Umag)",
+     "1954-11-01 kronoloji_sinir_halef_1923_2000.js: Fransa Pondişeri, Karaikal, Mahé ve Yanam'ı fiilen Hindistan'a devreder; Pondişeri"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Korenica",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "grup": "krajina",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1995-08-07",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (Krajina -> Hırvatistan 1995-08-07). Hrvatska enciklopedija 'Domovinski rat': Oluja 4-7 Ağustos 1995 (önceki tur)",
+     "alinti": "",
+     "not": "Şehir düzeyi düşüş günleri 4-7 Ağustos arasında olabilir, şehre özgü gün okunmadı; karar tek gün (08-07)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+     "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Kpando",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "grup": "togoland",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "gana",
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Kumba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "grup": "kamerun",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "kamerun",
+     "f": "1961-10-01",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun; sayfa.py ham)",
+     "alinti": "Sonuçta Batı Adamava Nijerya’ya geçerken güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961).",
+     "not": "Bamenda/Buea/Kumba Güney Kamerun'da (Batı Kamerun eyaleti). Kamerun künyesi f 1960-01-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+     "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Lomé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "grup": "togo",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo; sayfa.py ham)",
+     "alinti": "Sylvanus Olympio getirildi; 27 Nisan 1960 tarihinde bağımsızlık ilân edildi.",
+     "not": "TDV bağımsızlık ilanını tarihliyor (fransiz-togo t = togo f). history.state.gov yalnız tanıma günüdür (aynı gün) - ek teyit değil. Togo künyesi f 1960-04-27, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Lusaka",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "rodezya-nyasaland-federasyonu",
+   "son_t": "1963-12-31",
+   "grup": "rodezya_fed_lusaka",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1963-12-31",
+     "t": "1964-10-24",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Rodezya ve Nyasaland Federasyonu künye t 1963-12-31 + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:192). Rhodesia and Nyasaland Act 1963 (c.34) feshi Order in Council'e bırakıyor; fesih günü ham okunmadı",
+     "alinti": "An Act to confer on Her Majesty in Council powers requisite to provide for the dissolution of the Federation",
+     "not": "[gün teyitsiz] KARARLAR gece-101 (d): Lusaka -> ingiliz-kuzey-rodezya (künye f 1890-01-01, t 1964-10-24), genel ingiltere DEĞİL."
+    },
+    {
+     "alan": "s",
+     "d": "zambiya",
+     "f": "1964-10-24",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "US Office of the Historian, 'Zambia' (history.state.gov/countries/zambia; sayfa.py ham)",
+     "alinti": "The United States recognized Zambia on October 24, 1964, when the American consulate at Lusaka was elevated to Embassy status upon Zambia’s attainment of independence on the same date.",
+     "not": "Zambiya künyesi f 1964-10-24, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1963-12-10 kronoloji_sinir_halef_1923_2000.js: Zengibar (Unguja ve Pemba: Çake Çake) Britanya'dan bağımsız sultanlık olarak kuruldu",
+     "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisumu, Nakuru, Garissa ve Marsabit bağımsız devlete geçti.",
+     "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Zanzibar Sultanı'nın Kenya kıyı şeridi (Mombasa, Malindi, Lamu, Pate) egemenliği Kenya'ya devredildi.",
+     "1963-12-31 kronoloji_sinir_halef_1923_2000.js: Rodezya ve Nyasaland Federasyonu feshedildi; Lusaka ve Bulawayo federal yapıdan çıktı",
+     "1964-01-12 kronoloji_sinir_halef_1923_2000.js: Zengibar Sultanlığı devrildi; Çake Çake (Pemba) dahil adalar devrimci yönetime geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Madyan (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "grup": "swat",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "pakistan",
+     "f": "1969-07-28",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: D2 maddesi satır 218 + WebSearch özeti (28 Temmuz 1969 Yahya Han'ın Swat/Dir/Çitral entegrasyon duyurusu); ham akademik okuma yok (tribune.com.pk 403, iranicaonline 404, TDV 'Pakistan' Swat'ı anmıyor)",
+     "alinti": "",
+     "not": "Akademik kaynak BULUNAMADI (Sultan-i-Rome, OUP 2008 erişilemedi). Bir Vikipedi aynası 14 Ekim 1969 (Batı Pakistan'a katılım) veriyor - çelişki ic_not. Pakistan künyesi f 1947-08-15."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Manzini",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-svaziland",
+   "son_t": "1968-09-06",
+   "grup": "svaziland",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "svaziland",
+     "f": "1968-09-06",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Swaziland Independence Act 1968 (c.56) s.1 (legislation.gov.uk/ukpga/1968/56/enacted; sayfa.py ham)",
+     "alinti": "On 6th September 1968 (in this Act referred to as \" the appointed day \") Swaziland shall cease to be a protected state",
+     "not": "Svaziland künyesi f 1968-09-06 (2018'den eSwatini), bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1968-09-06 kronoloji_sinir_halef_1923_2000.js: Svaziland Britanya himayesinden bagimsiz oldu (Lobamba)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Mbabane",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ingiliz-svaziland",
+   "son_t": "1968-09-06",
+   "grup": "svaziland",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "svaziland",
+     "f": "1968-09-06",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Swaziland Independence Act 1968 (c.56) s.1 (legislation.gov.uk/ukpga/1968/56/enacted; sayfa.py ham)",
+     "alinti": "On 6th September 1968 (in this Act referred to as \" the appointed day \") Swaziland shall cease to be a protected state",
+     "not": "Svaziland künyesi f 1968-09-06 (2018'den eSwatini), bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1968-09-06 kronoloji_sinir_halef_1923_2000.js: Svaziland Britanya himayesinden bagimsiz oldu (Lobamba)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Mitroviça (Mitrovicë)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "kosova-golge-cumhuriyeti",
+   "son_t": "1999-06-10",
+   "grup": "kosova",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "unmik-kosova",
+     "f": "1999-06-10",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "UN Peacekeeping, UNMIK factsheet (peacekeeping.un.org/en/factsheet/unmik) - önceki tur ham okuması",
+     "alinti": "by its resolution 1244 of 10 June 1999, authorized the Secretary-General to establish an international civil presence in Kosovo",
+     "not": "Alıntı BMGK yetkilendirme günüdür; Yugoslav kuvvetlerinin fiilî çekilişi (Askerî Teknik Anlaşma, ~1999-06-20) ve KFOR girişi 12 Haziran ayrı - rakip hükûmet kuralıyla fiilî gün sorusu (kaynak okunmadı) -> KAYNAKLI değil. UNMIK künyesi 1999-06-10 -> 2008-02-17, ufuk 2000-12-31'de kesilir. NOT: 1991-1999 dilimi 'kosova-golge-cumhuriyeti' gölge devlet; fiilî idare Yugoslavya (KARARLAR: '(fiilî) Yugoslavya') - dilim sahibi sorusu Emre'ye."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1999-06-10 kronoloji_sinir_halef_1923_2000.js: BM Güvenlik Konseyi 1244 sayılı kararı: Kosova (Priştine, Prizren) Yugoslavya Federal Cumhuriyeti idaresinden çıkıp UNMIK yönetimine girdi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Nador",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fas-ispanyol-himayesi",
+   "son_t": "1956-04-07",
+   "grup": "nador",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "fas-krallik",
+     "f": "1956-04-05",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Fas' (islamansiklopedisi.org.tr/fas; sayfa.py ham)",
+     "alinti": "İspanya da Fas’ın bağımsızlığını tanıyarak İfni, Sebte ve Melîle dışında kalan topraklarındaki himayesini kaldırdı (5 Nisan 1956).",
+     "not": "Karar: KARARLAR gece-106 (4) ve LAB SALI: TDV esas, t 1956-04-05; 04-07 İspanya-Fas ortak bildirisi ic_not (TDV-uluslararası belge çatışması vakası). Künye fas-ispanyol-himayesi t 04-07 -> 04-05 LAB'da. Fas Krallığı künyesi f 1956-03-02. Melîle (13 km) İspanya'da kalır."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1956-04-07 kronoloji_sinir_halef_1923_2000.js: İspanyol Fas himayesi sona erdi (Nador)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "İspanya Fas'ın bağımsızlığını tanıyıp himayesini kaldırdı (1956-04-05).",
+    "tasima_gerekli": true,
+    "not": "Mevcut madde 1956-04-07 -> yeni gün (aynı kayıt taşınır)."
+   }
+  },
+  {
+   "ad": "Orašje",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "grup": "hb",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1996-08-31",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-106 (3): Herzeg-Bosna rakip hükûmet kuralı, fiilî sona bakar, t 1996-08-31 (HVO idaresinin sona erişi); 08-14 ve Dayton ic_not. HE 'Herceg Bosna' (önceki tur)",
+     "alinti": "",
+     "not": "ÖNCEKİ DİLİM t DÜZELTMESİ: herzeg-bosna dilimi t 1996-08-14 -> 1996-08-31. Ardıl künye adayı 'Bosna-Hersek Federasyonu' (karar metni) - atlasta ayrı künye yok, bosna-hersek (f 1992-03-03) kullanıldı."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "Herzeg-Bosna'nın HVO idaresi sona erdi, Hırvat Cumhuriyeti kurumları Bosna-Hersek Federasyonu'na bağlandı (1996-08-31).",
+    "tasima_gerekli": true,
+    "not": "Mevcut madde 1996-08-14 -> yeni gün (aynı kayıt taşınır)."
+   },
+   "onceki_dilim_t_duzelt": {
+    "d": "herzeg-bosna",
+    "eski_t": "1996-08-14",
+    "yeni_t": "1996-08-31"
+   }
+  },
+  {
+   "ad": "Owerri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "grup": "biafra",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "US Office of the Historian, FRUS 1969-1976 Vol. E-5 Pt.1, Doc. 163, 'Nigeria Sitrep', 15 Ocak 1970 (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163; sayfa.py ham)",
+     "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” and affirming Ibo loyalty to Federal Government. He said “Republic of Biafra” no longer exists.",
+     "not": "Karar: KARARLAR gece-116 (Biafra -> Nijerya 1970-01-15). Alıntı ülke düzeyinde Biafra'nın sonunu tarihler; şehir düzeyi gün karardır (FRUS Doc.157: Owerri 1970-01-12'de ele geçirilmiş olabilir - rakip hükûmet kuralıyla şehir günü ayrı soru, karar tek gündür). Nijerya künyesi f 1960-10-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Pale",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "grup": "rs",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1995-12-14",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "OSCE Mission to BiH, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173; sayfa.py ham)",
+     "alinti": "formally signed in Paris on 14 December 1995",
+     "not": "İmza günü; RS Annex 4 uyarınca Bosna-Hersek'in entitesi olur (D2 maddesi 1995-12-14'te var). Entite boyası istenirse ayrı karar. Bosna-Hersek künyesi f 1992-03-03. Açık karar yok -> KAYNAKLI değil (imza = yürürlük okunmadı)."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Posušje",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "grup": "hb",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1996-08-31",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-106 (3): Herzeg-Bosna rakip hükûmet kuralı, fiilî sona bakar, t 1996-08-31 (HVO idaresinin sona erişi); 08-14 ve Dayton ic_not. HE 'Herceg Bosna' (önceki tur)",
+     "alinti": "",
+     "not": "ÖNCEKİ DİLİM t DÜZELTMESİ: herzeg-bosna dilimi t 1996-08-14 -> 1996-08-31. Ardıl künye adayı 'Bosna-Hersek Federasyonu' (karar metni) - atlasta ayrı künye yok, bosna-hersek (f 1992-03-03) kullanıldı."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "Herzeg-Bosna'nın HVO idaresi sona erdi, Hırvat Cumhuriyeti kurumları Bosna-Hersek Federasyonu'na bağlandı (1996-08-31).",
+    "tasima_gerekli": true,
+    "not": "Mevcut madde 1996-08-14 -> yeni gün (aynı kayıt taşınır)."
+   },
+   "onceki_dilim_t_duzelt": {
+    "d": "herzeg-bosna",
+    "eski_t": "1996-08-14",
+    "yeni_t": "1996-08-31"
+   }
+  },
+  {
+   "ad": "Saidu Sharif",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "grup": "swat",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "pakistan",
+     "f": "1969-07-28",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: D2 maddesi satır 218 + WebSearch özeti (28 Temmuz 1969 Yahya Han'ın Swat/Dir/Çitral entegrasyon duyurusu); ham akademik okuma yok (tribune.com.pk 403, iranicaonline 404, TDV 'Pakistan' Swat'ı anmıyor)",
+     "alinti": "",
+     "not": "Akademik kaynak BULUNAMADI (Sultan-i-Rome, OUP 2008 erişilemedi). Bir Vikipedi aynası 14 Ekim 1969 (Batı Pakistan'a katılım) veriyor - çelişki ic_not. Pakistan künyesi f 1947-08-15."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Schwerin",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Sokodé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "grup": "togo",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo; sayfa.py ham)",
+     "alinti": "Sylvanus Olympio getirildi; 27 Nisan 1960 tarihinde bağımsızlık ilân edildi.",
+     "not": "TDV bağımsızlık ilanını tarihliyor (fransiz-togo t = togo f). history.state.gov yalnız tanıma günüdür (aynı gün) - ek teyit değil. Togo künyesi f 1960-04-27, bitişik."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Spandau (Batı Berlin)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "berlin-bati",
+   "son_t": "1990-10-03",
+   "grup": "almanya",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "almanya-birlesik",
+     "f": "1990-10-03",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (DDR ve Batı Berlin -> almanya-birlesik 1990-10-03). Ek: Einigungsvertrag Art.1 (gesetze-im-internet.de, DNS hatası) -> TARAYICI",
+     "alinti": "",
+     "not": "Almanya-birlesik künyesi f 1990-10-03, bitişik, hayalet yok. Komşu Berlin aynı künyeyi 1990-10-03'ten kullanıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Sukabumi",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "grup": "pasundan",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "endonezya-cumhuriyeti",
+     "f": "1950-03-11",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: künye + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:114 'RIS Başkanlık Kararı ile feshedildi') - atlas kaydı, dayanak değil. Künye kaynağı digilib.uinsgd.ac.id/137993 okunmadı.",
+     "alinti": "",
+     "not": "Karar: Pasundan -> Endonezya (gece-116). Gün akademik kaynakla BULUNAMADI. Not: Pasundan RIS (Birleşik Endonezya Cumhuriyeti, 1949-12-27 -> 1950-08-17) içinde bir devletti; atlas Cava yerleşimlerini 1949-12-27'den endonezya-cumhuriyeti yazıyor (emsal), ayrı RIS künyesi yok."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+     "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Tasikmalaya",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "grup": "pasundan",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "endonezya-cumhuriyeti",
+     "f": "1950-03-11",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: künye + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:114 'RIS Başkanlık Kararı ile feshedildi') - atlas kaydı, dayanak değil. Künye kaynağı digilib.uinsgd.ac.id/137993 okunmadı.",
+     "alinti": "",
+     "not": "Karar: Pasundan -> Endonezya (gece-116). Gün akademik kaynakla BULUNAMADI. Not: Pasundan RIS (Birleşik Endonezya Cumhuriyeti, 1949-12-27 -> 1950-08-17) içinde bir devletti; atlas Cava yerleşimlerini 1949-12-27'den endonezya-cumhuriyeti yazıyor (emsal), ayrı RIS künyesi yok."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+     "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Thohoyandou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "venda-bantustan",
+   "son_t": "1994-04-27",
+   "grup": "gac",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "guney-afrika-cumhuriyeti",
+     "f": "1994-04-27",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (bantustanlar -> GAC 1994-04-27). Constitution of the Republic of South Africa Act 200 of 1993 s.251(1) 'shall ... come into operation on 27 April 1994' (önceki tur, gov.za; bu turda yeniden okunmadı). TDV 'Güney Afrika Cumhuriyeti' dört cumhuriyetin tanınmadığını söylüyor, 1994 günü vermiyor",
+     "alinti": "",
+     "not": "Fiilî gün ic_not adayı (Bophuthatswana/Ciskei Mart 1994'te SA yöneticileri). GAC künyesi f 1961-05-31, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Umag (B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "triyeste-serbest-toprak",
+   "son_t": "1954-10-26",
+   "grup": "triyeste",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "yugoslavya-federal",
+     "f": "1954-10-05",
+     "t": "1991-06-25",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Hrvatska enciklopedija 'Slobodni Teritorij Trsta' (önceki tur ham okuması) ; Université Laval CEFAN 'Mémorandum de Londres 1954'",
+     "alinti": "u Londonu je 5. X. 1954. bio postignut sporazum o ukidanju STT-a. … Zona B Jugoslaviji",
+     "not": "TEK ÖLÇÜ imza dalı: Yugoslavya B bölgesini 1945'ten beri askerî yönetiyordu. KARARLAR gece-101..105 §7: künye BÖLÜNMEZ, karar EMRELİC'te bekliyor (LAB önerisi t 1954-10-05). Seçenek B: t 1954-10-26 (D2 maddesi satır 126, uygulama günü) - 10-26 ic_not. Yugoslavya-federal künyesi 1945-11-29 -> 1992-04-27, kapsıyor."
+    },
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1991-06-25",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "Künye f 1991-06-25 + D2 maddeleri satır 298-299 (bağımsızlık bildirileri); gün bildiri günü, fiilî egemenlik (Slovenya 10 Günlük Savaş sonu 1991-07-07, Hırvatistan 1991-1995) ayrı soru",
+     "alinti": "",
+     "not": "Umag: Yugoslavya sonrası ardıl. Kaynaksız künye günü."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1954-10-26 kronoloji_sinir_halef_1923_2000.js: Londra Mutabakatı uygulandı, Triyeste Serbest Toprağı fiilen sona erdi; B bölgesi Yugoslav idaresinde kaldı (Koper, Umag)",
+     "1954-11-01 kronoloji_sinir_halef_1923_2000.js: Fransa Pondişeri, Karaikal, Mahé ve Yanam'ı fiilen Hindistan'a devreder; Pondişeri"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Umuahia",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "grup": "biafra",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "nijerya",
+     "f": "1970-01-15",
+     "t": "2000-12-31",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "US Office of the Historian, FRUS 1969-1976 Vol. E-5 Pt.1, Doc. 163, 'Nigeria Sitrep', 15 Ocak 1970 (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163; sayfa.py ham)",
+     "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” and affirming Ibo loyalty to Federal Government. He said “Republic of Biafra” no longer exists.",
+     "not": "Karar: KARARLAR gece-116 (Biafra -> Nijerya 1970-01-15). Alıntı ülke düzeyinde Biafra'nın sonunu tarihler; şehir düzeyi gün karardır (FRUS Doc.157: Owerri 1970-01-12'de ele geçirilmiş olabilir - rakip hükûmet kuralıyla şehir günü ayrı soru, karar tek gündür). Nijerya künyesi f 1960-10-01, kapsıyor."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Urus-Martan",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "grup": "urus_shali",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "rusya-federasyonu",
+     "f": "2000-02-06",
+     "t": "2000-12-31",
+     "hukum": "BULUNAMADI",
+     "uc": "t",
+     "kaynak": "Aranan: RFE/RL 1999-12 haberleri, VOA 9 Aralık 1999 (WebSearch özeti: Urus-Martan Aralık 1999 başında Rus denetimine geçti; Şali 9-11 Aralık'ta kuşatılıyordu) - ham okunmadı, gün yok",
+     "alinti": "",
+     "not": "Fiilî alış günü BULUNAMADI. Geçici üst sınır: 2000-02-06 (Grozni D2 maddesi Şali'yi de anıyor). Gerçek gün Aralık 1999 civarı olabilir - TARAYICI: RFE/RL Newsline Aralık 1999, Human Rights Watch 'Welcome to Hell'."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Vitez",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "grup": "hb",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1996-08-31",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-106 (3): Herzeg-Bosna rakip hükûmet kuralı, fiilî sona bakar, t 1996-08-31 (HVO idaresinin sona erişi); 08-14 ve Dayton ic_not. HE 'Herceg Bosna' (önceki tur)",
+     "alinti": "",
+     "not": "ÖNCEKİ DİLİM t DÜZELTMESİ: herzeg-bosna dilimi t 1996-08-14 -> 1996-08-31. Ardıl künye adayı 'Bosna-Hersek Federasyonu' (karar metni) - atlasta ayrı künye yok, bosna-hersek (f 1992-03-03) kullanıldı."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "Herzeg-Bosna'nın HVO idaresi sona erdi, Hırvat Cumhuriyeti kurumları Bosna-Hersek Federasyonu'na bağlandı (1996-08-31).",
+    "tasima_gerekli": true,
+    "not": "Mevcut madde 1996-08-14 -> yeni gün (aynı kayıt taşınır)."
+   },
+   "onceki_dilim_t_duzelt": {
+    "d": "herzeg-bosna",
+    "eski_t": "1996-08-14",
+    "yeni_t": "1996-08-31"
+   }
+  },
+  {
+   "ad": "Vitsi (Grammos-Vitsi, DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "yunanistan-gecici-demokratik-hukumet",
+   "son_t": "1949-08-28",
+   "grup": "dse",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "yunanistan",
+     "f": "1949-08-28",
+     "t": "1973-06-01",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Gün: künye t + D2 maddesi (kronoloji_sinir_halef_1923_2000.js:109 'Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi'). WebSearch özeti: Vitsi 14-15 Ağustos, Grammos son kale 25-30 Ağustos 1949 (Operation Pyrsos) - ham akademik okuma yok",
+     "alinti": "",
+     "not": "ALTERNATİF (bit kabul edilmezse): yunanistan 1949-08-28 -> 1973-06-01, sonra yunanistan-cumhuriyeti 1973-06-01 -> 2000-12-31 (Kesriye emsali). ÖNERİLEN: bit (aşağıda)."
+    },
+    {
+     "alan": "s",
+     "d": "yunanistan-cumhuriyeti",
+     "f": "1973-06-01",
+     "t": "2000-12-31",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "D2 maddesi satır 230 (1973-06-01 cunta cumhuriyeti)",
+     "alinti": "",
+     "not": "Alternatif zincirin ikinci dilimi."
+    }
+   ],
+   "bit_onerisi": {
+    "bit": "1949-08-28",
+    "hukum": "ONERI",
+    "not": "BİT KARARI (brif §2): Vitsi ve Grammos yerleşim değil DSE dağ üsleridir; geçici hükûmetin sonunda (1949-08-28) üs kalkar, toprak komşu peteklere kalır. Bit günü kaynaksız ONERI (Grammos son kale 30 Ağustos, Vitsi 14-15 Ağustos -> TARAYICI)."
+   },
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1949-08-28 kronoloji_sinir_halef_1923_2000.js: Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi (Vitsi, Grammos)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Vukovar",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "grup": "untaes",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "hirvatistan",
+     "f": "1998-01-15",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-116 (UNTAES -> Hırvatistan 1998-01-15). UN Peacekeeping UNTAES sayfası: 'UNTAES concluded its mandate in January 1998' (yalnız ay; önceki tur)",
+     "alinti": "",
+     "not": "Gün 15 karardır; kaynak yalnız ay veriyor [yalnız ay]. Hırvatistan künyesi f 1991-06-25."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  },
+  {
+   "ad": "Çapljina (Čapljina)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "grup": "hb",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "bosna-hersek",
+     "f": "1996-08-31",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "KARARLAR gece-106 (3): Herzeg-Bosna rakip hükûmet kuralı, fiilî sona bakar, t 1996-08-31 (HVO idaresinin sona erişi); 08-14 ve Dayton ic_not. HE 'Herceg Bosna' (önceki tur)",
+     "alinti": "",
+     "not": "ÖNCEKİ DİLİM t DÜZELTMESİ: herzeg-bosna dilimi t 1996-08-14 -> 1996-08-31. Ardıl künye adayı 'Bosna-Hersek Federasyonu' (karar metni) - atlasta ayrı künye yok, bosna-hersek (f 1992-03-03) kullanıldı."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": "Herzeg-Bosna'nın HVO idaresi sona erdi, Hırvat Cumhuriyeti kurumları Bosna-Hersek Federasyonu'na bağlandı (1996-08-31).",
+    "tasima_gerekli": true,
+    "not": "Mevcut madde 1996-08-14 -> yeni gün (aynı kayıt taşınır)."
+   },
+   "onceki_dilim_t_duzelt": {
+    "d": "herzeg-bosna",
+    "eski_t": "1996-08-14",
+    "yeni_t": "1996-08-31"
+   }
+  },
+  {
+   "ad": "Şali (Shali)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "grup": "urus_shali",
+   "oneri_dilimler": [
+    {
+     "alan": "s",
+     "d": "rusya-federasyonu",
+     "f": "2000-02-06",
+     "t": "2000-12-31",
+     "hukum": "BULUNAMADI",
+     "uc": "t",
+     "kaynak": "Aranan: RFE/RL 1999-12 haberleri, VOA 9 Aralık 1999 (WebSearch özeti: Urus-Martan Aralık 1999 başında Rus denetimine geçti; Şali 9-11 Aralık'ta kuşatılıyordu) - ham okunmadı, gün yok",
+     "alinti": "",
+     "not": "Fiilî alış günü BULUNAMADI. Geçici üst sınır: 2000-02-06 (Grozni D2 maddesi Şali'yi de anıyor). Gerçek gün Aralık 1999 civarı olabilir - TARAYICI: RFE/RL Newsline Aralık 1999, Human Rights Watch 'Welcome to Hell'."
+    }
+   ],
+   "bit_onerisi": null,
+   "d2": {
+    "var_mi": true,
+    "madde": [
+     "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+    ],
+    "yeni_madde_gerekli": false,
+    "b_taslak": ""
+   }
+  }
+ ],
+ "ufuk1923_tunus": [
+  "Benzert (Bizerte)",
+  "Bin Gerdân",
+  "Bâce (Béja)",
+  "Cendûbe",
+  "Cerbe (Djerba)",
+  "Cerciş (Zarzis)",
+  "Dûz",
+  "Gabes",
+  "Halkulvâdî",
+  "Kafsa",
+  "Kasrayn",
+  "Kayrevan",
+  "Kef",
+  "Kelîbiye",
+  "Kerkene (Kerkennah)",
+  "Kıbillî (Nefzâve)",
+  "Medenîn",
+  "Mehdiye",
+  "Mekter (Maktar)",
+  "Metlâvî",
+  "Munastır",
+  "Mâtir (Mateur)",
+  "Nefta",
+  "Nâbil (Nabeul)",
+  "Sfaks",
+  "Sîdî Bû Zeyd",
+  "Sûse",
+  "Sübaytıla",
+  "Tabarka",
+  "Tatavin",
+  "Testûr",
+  "Tozer",
+  "Tunus",
+  "Zağvân",
+  "Ğar Dimâv",
+  "Ğâru'l-Melh (Porto Farina)"
+ ],
+ "san_salvador": {
+  "sonuc": "CELISKI",
+  "kaynak": "US Office of the Historian, 'El Salvador' (history.state.gov/countries/el-salvador; sayfa.py ham)",
+  "alinti": "El Salvador declared itself an independent republic in 1839, although the next several decades were marked by frequent revolutions.",
+  "alinti_ek": "After the breakup of the Federation from 1838-1840, the United States recognized Salvador (El Salvador) as a separate, independent state on May 1, 1849",
+  "yorum": "Cümle 1839'u açıkça BAĞIMSIZ CUMHURİYET ilanı olarak tarihliyor (federasyonun çözülüşü 1838-1840 ayrı cümlede). Tarih yalnız YIL; gün yok. KARAR (gece-118 uç kuralı): çelişki var, iki gün ic_not'a yazılır.",
+  "ic_not_onerisi": "1839 (state.gov: 'declared itself an independent republic in 1839', yalnız yıl) / 1841 (künye el-salvador-cumhuriyeti f 1841-01-01; anayasa 1841-02-18 gün kaynakla). Künye f değişmez: 1839 yalnız yıl hassasiyetinde ve 1838-1840 federasyon çözülüşü içinde; 1841'e kadar boşluk beyanlıdır.",
+  "kunye_karari": "künye 1841 kalır (1839 gün vermiyor, ayrıca devletin 1841 anayasasıyla kurumsallaşması); ic_not iki yılı da beyan eder. Emre'nin 'seçilmedi' sorusunun cevabı: seçilmez, ikisi de ic_not."
+ },
+ "ozet": {
+  "satir_toplam": 103,
+  "islenen": 67,
+  "ufuk1923_tunus": 36,
+  "hukum_sayilari": {
+   "KAYNAKLI": 19,
+   "ONERI": 29,
+   "ONERI-KARAR": 23,
+   "BULUNAMADI": 2
+  },
+  "grup_satir_sayilari": {
+   "biafra": 3,
+   "togo": 4,
+   "umman": 2,
+   "panama": 2,
+   "kamerun": 3,
+   "pasundan": 3,
+   "oac": 2,
+   "almanya": 6,
+   "untaes": 3,
+   "krajina": 3,
+   "rs": 3,
+   "gac": 4,
+   "brazzaville": 1,
+   "rodezya_fed_bulawayo": 1,
+   "enugu": 1,
+   "kosova": 2,
+   "dse": 2,
+   "grozni": 1,
+   "gudermes": 1,
+   "togoland": 3,
+   "sudan": 1,
+   "swat": 3,
+   "malezya": 1,
+   "triyeste": 2,
+   "rodezya_fed_lusaka": 1,
+   "svaziland": 2,
+   "nador": 1,
+   "hb": 4,
+   "urus_shali": 2
+  },
+  "bit_onerileri": [
+   "Grammos (DSE üssü)",
+   "Vitsi (Grammos-Vitsi, DSE üssü)"
+  ],
+  "d2_yeni_madde": [
+   {
+    "ad": "Bahlâ",
+    "b": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12]."
+   },
+   {
+    "ad": "Gudermes",
+    "b": "Rus kuvvetleri Gudermes'i ele geçirdi; Çeçenistan'ın ikinci büyük şehri federal denetime girdi (1999-11-12, gün teyitsiz)."
+   },
+   {
+    "ad": "Izkî",
+    "b": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12]."
+   }
+  ],
+  "d2_tasima": [
+   "Nador",
+   "Orašje",
+   "Posušje",
+   "Vitez",
+   "Çapljina (Čapljina)"
+  ],
+  "mukerrer": [
+   "Bangassou",
+   "Bulawayo",
+   "Butterworth"
+  ],
+  "tarayici": [
+   "tribune.com.pk (403, Swat)",
+   "iranicaonline.org/articles/swat (404)",
+   "britannica.com (403)",
+   "un.org A/RES/1044(XI) (403, Togoland 1957)",
+   "history.state.gov/countries/republic-of-the-congo (404)",
+   "dawodu.com Enugu (404)",
+   "gesetze-im-internet.de Einigungsvertrag (DNS, önceki tur)",
+   "gov.za Constitution Act 200/1993 (bu turda yeniden okunmadı)",
+   "RFE/RL Aralık 1999 (Urus-Martan, Şali gün)",
+   "Sultan-i-Rome OUP 2008 (Swat)"
+  ],
+  "kararlar_emre": "1) Triyeste B t 1954-10-05 mi 10-26 mı (künye bölünmez); 2) Kosova gölge cumhuriyeti 1991-99 dilim sahibi: fiilî Yugoslavya mı; 3) Brazzaville özerk künye (1958-11-28); 4) Gudermes 1999-11-12 / Urus-Martan / Şali fiilî gün (D2 maddesi 2000-02-06 hepsini anıyor); 5) Togoland 1957 katılış günü için kaynak."
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "Umag (B bölgesi)": [
+  {
+   "sira": 2244,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "triyeste-serbest-toprak",
+   "f": "1947-09-15",
+   "t": "1954-10-26",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 45.434,
+   "lon": 13.521,
+   "zincir_guncel": "s:triyeste-serbest-toprak 1947-09-15→1954-10-26"
+  }
+ ],
+ "Vatikan": [
+  {
+   "sira": 2247,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "vatikan",
+   "f": "1929-06-07",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 41.902,
+   "lon": 12.453,
+   "zincir_guncel": "s:vatikan 1929-06-07→2000-12-31"
+  }
+ ],
+ "Villach": [
+  {
+   "sira": 2053,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1759-01-01",
+   "t": "1809-10-14",
+   "mevcut_kaynak": "villach.at Stadtgeschichte: 1759 Maria Theresia Bamberg'in Karintiya'daki bütün mülklerini satın aldı (YIL)",
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "lat": 46.611,
+   "lon": 13.856,
+   "zincir_guncel": "s:almanya 1000-01-01→1759-01-01 | s:avusturya 1759-01-01→1809-10-14 | s:fransa-cumhuriyet 1809-10-14→1813-01-01 | s:avusturya 1813-01-01→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2054,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Avusturya Anschluss ile Alman Reich'ına katıldı (Viyana, Graz, Linz, Innsbruck, Klagenfurt vd.)» (1938-03-13, taraf kolu) kaynağı — https://avalon.law.yale.edu/imt/2307-ps.asp ; https://encyclopedi",
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "lat": 46.611,
+   "lon": 13.856,
+   "zincir_guncel": "s:almanya 1000-01-01→1759-01-01 | s:avusturya 1759-01-01→1809-10-14 | s:fransa-cumhuriyet 1809-10-14→1813-01-01 | s:avusturya 1813-01-01→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2055,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "lat": 46.611,
+   "lon": 13.856,
+   "zincir_guncel": "s:almanya 1000-01-01→1759-01-01 | s:avusturya 1759-01-01→1809-10-14 | s:fransa-cumhuriyet 1809-10-14→1813-01-01 | s:avusturya 1813-01-01→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  }
+ ],
+ "Say": [
+  {
+   "sira": 1954,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:389",
+   "lat": 13.1,
+   "lon": 2.37,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  },
+  {
+   "sira": 1955,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:389",
+   "lat": 13.1,
+   "lon": 2.37,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  }
+ ],
+ "Tahoua": [
+  {
+   "sira": 1984,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "adar",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:251",
+   "lat": 14.89,
+   "lon": 5.27,
+   "zincir_guncel": "s:adar 1281-01-01→1899-01-01 | s:fransa-cumhuriyet 1899-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  },
+  {
+   "sira": 1985,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:251",
+   "lat": 14.89,
+   "lon": 5.27,
+   "zincir_guncel": "s:adar 1281-01-01→1899-01-01 | s:fransa-cumhuriyet 1899-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  }
+ ],
+ "Tera": [
+  {
+   "sira": 1992,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:340",
+   "lat": 14.01,
+   "lon": 0.75,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  },
+  {
+   "sira": 1993,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:340",
+   "lat": 14.01,
+   "lon": 0.75,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  }
+ ],
+ "Tillaberi": [
+  {
+   "sira": 1999,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:313",
+   "lat": 14.21,
+   "lon": 1.45,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  },
+  {
+   "sira": 2000,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:313",
+   "lat": 14.21,
+   "lon": 1.45,
+   "zincir_guncel": "s:zerma 1281-01-01→1898-01-01 | s:fransa-cumhuriyet 1898-01-01→1960-08-03 | s:nijer 1960-08-03→2000-12-31"
+  }
+ ],
+ "Umuahia": [
+  {
+   "sira": 2245,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 5.532,
+   "lon": 7.486,
+   "zincir_guncel": "s:biafra 1967-05-30→1970-01-15"
+  }
+ ],
+ "Sibiti": [
+  {
+   "sira": 1959,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1243",
+   "lat": -3.68,
+   "lon": 13.35,
+   "zincir_guncel": "s:fransa-cumhuriyet 1900-01-01→1960-08-15 | s:kongo-brazzaville 1960-08-15→2000-12-31"
+  },
+  {
+   "sira": 1960,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-brazzaville",
+   "f": "1960-08-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1243",
+   "lat": -3.68,
+   "lon": 13.35,
+   "zincir_guncel": "s:fransa-cumhuriyet 1900-01-01→1960-08-15 | s:kongo-brazzaville 1960-08-15→2000-12-31"
+  }
+ ],
+ "Tornio": [
+  {
+   "sira": 2007,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Gustav Vasa Strängnäs'te kral seçildi — İsveç Krallığı Kalmar Birliği'nden ayrıldı» (1523-06-06, yer kolu) kaynağı — Encyclopedia of World Biography (Gale) 'Gustavus I' — AYNEN: \"On June 6 it elec",
+   "dosya_satir": "data/yerlesimler_ek8.js:130",
+   "lat": 65.8482,
+   "lon": 24.1436,
+   "zincir_guncel": "s:isvec-birlik-oncesi 1281-01-01→1523-06-06 | s:isvec 1523-06-06→1809-09-17 | s:finlandiya-buyuk-dukaligi 1809-09-17→1917-12-06 | s:finlandiya 1917-12-06→2000-12-31"
+  }
+ ],
+ "Becskerek (Zrenjanin)": [
+  {
+   "sira": 2130,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "mevcut_kaynak": "Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992",
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:304",
+   "lat": 45.3816,
+   "lon": 20.3903,
+   "zincir_guncel": "s:macaristan 1281-01-01→1526-11-10 | v: 1526-11-10→1541-08-29 | v:erdel 1541-08-29→1551-07-01 | s:macaristan-habsburg 1551-07-01→1551-09-07 | d:osmanli 1551-09-07→1716-01-01 | s:macaristan-habsburg 1716-01-01→1918-11-16 | s:macaristan-naiplik 1918-11-16→1920-06-04 | s:yugoslavya 1920-06-04→1945-11-29 | s:yugoslavya-federal 1945-11-29→1992-04-27 | s:yugoslavya-federal-cumhuriyeti 1992-04-27→2000-12-31"
+  }
+ ],
+ "Benkovac": [
+  {
+   "sira": 2131,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 44.034,
+   "lon": 15.613,
+   "zincir_guncel": "s:sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07"
+  }
+ ]
+}

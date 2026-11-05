@@ -1,0 +1,29 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+4136	BOS	data/yerlesimler_afrika2.js:2072	Mabalane	s	portekiz-mozambik	1895-01-01	1974-09-20	
+4137	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:2072	Mabalane	s	mozambik-gecis-hukumeti	1974-09-20	1975-06-25	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mozambik-gecis-hukumeti f ucunun kaynağı — https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_th
+4138	DIGER	data/yerlesimler_afrika2.js:2072	Mabalane	s	mozambik	1975-06-25	2000-12-31	Bagimsizlik 1975-06-25
+4139	BOS	data/yerlesimler_afrika2.js:2100	Molepolole (Kvena)	s	tsvana	1700-01-01	1885-03-31	
+4140	BOS	data/yerlesimler_afrika2.js:2100	Molepolole (Kvena)	s	ingiltere	1885-03-31	1966-09-30	
+4141	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:2100	Molepolole (Kvena)	s	botsvana	1966-09-30	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1
+4142	BOS	data/yerlesimler_afrika2.js:2147	Lourenço Marques	s	portekiz-mozambik	1781-01-01	1974-09-20	
+4143	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:2147	Lourenço Marques	s	mozambik-gecis-hukumeti	1974-09-20	1975-06-25	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mozambik-gecis-hukumeti f ucunun kaynağı — https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_th
+4144	DIGER	data/yerlesimler_afrika2.js:2147	Lourenço Marques	s	mozambik	1975-06-25	2000-12-31	Bagimsizlik 1975-06-25
+4145	BOS	data/yerlesimler_nokta_amerika_0917.js:85	Barinas (Altamira de Cáceres)	s	ispanyol-peru	1577-06-30	1821-06-24	
+4146	BOS	data/yerlesimler_nokta_amerika_0917.js:85	Barinas (Altamira de Cáceres)	s	gran-kolombiya	1821-06-24	1830-01-13	
+4147	BOS	data/yerlesimler_nokta_amerika_0917.js:85	Barinas (Altamira de Cáceres)	s	venezuela-cumhuriyeti	1830-01-13	2000-12-31	
+4148	BOS	data/yerlesimler_nokta_amerika_0917.js:106	San Ignacio Guazú	s	ispanya	1609-01-01	1811-05-14	
+4149	BOS	data/yerlesimler_nokta_amerika_0917.js:106	San Ignacio Guazú	s	paraguay-cumhuriyeti	1811-05-14	2000-12-31	
+4150	BOS	data/yerlesimler_nokta_amerika_0917.js:118	Junín (Fuerte Federación)	s	arjantin-cumhuriyeti	1827-12-27	2000-12-31	
+4151	BOS	data/yerlesimler_nokta_amerika_0917.js:135	Treinta y Tres	s	uruguay-cumhuriyeti	1853-03-10	2000-12-31	
+4152	BOS	data/yerlesimler_nokta_amerika_0917.js:149	Columbia (Missouri)	s	abd	1821-04-07	2000-12-31	
+4153	BOS	data/yerlesimler_nokta_amerika_0917.js:164	Traverse City	s	abd	1847-06-13	2000-12-31	
+4154	BOS	data/yerlesimler_a78_afrika.js:41	Port-Étienne (Nouadhibou)	s	fransa-cumhuriyet	1904-01-01	1960-11-28	
+4155	ZAYIF_ATLAS	data/yerlesimler_a78_afrika.js:41	Port-Étienne (Nouadhibou)	s	moritanya	1960-11-28	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moritanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Moritanya' (islamansiklopedisi.org.tr/moritanya) — «28
+4156	BOS	data/yerlesimler_a78_afrika.js:53	Şinkît (Chinguetti)	s	fransa-cumhuriyet	1909-01-01	1960-11-28	
+4157	ZAYIF_ATLAS	data/yerlesimler_a78_afrika.js:53	Şinkît (Chinguetti)	s	moritanya	1960-11-28	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moritanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Moritanya' (islamansiklopedisi.org.tr/moritanya) — «28
+4158	BOS	data/yerlesimler_a78_amerika.js:33	Riberalta	s	bolivya-cumhuriyeti	1894-02-03	2000-12-31	
+4159	BOS	data/yerlesimler_a78_amerika.js:63	Huancavelica (Villa Rica de Oropesa)	s	ispanyol-peru	1571-08-04	1824-12-09	
+4160	BOS	data/yerlesimler_a78_amerika.js:63	Huancavelica (Villa Rica de Oropesa)	s	peru-cumhuriyeti	1824-12-09	2000-12-31	
+4161	BOS	data/yerlesimler_a78_amerika.js:113	San José de Chiquitos	s	ispanya	1767-01-01	1825-08-06	
+4162	BOS	data/yerlesimler_a78_amerika.js:113	San José de Chiquitos	s	bolivya-cumhuriyeti	1825-08-06	2000-12-31	
+4163	BOS	data/yerlesimler_a78_amerika.js:135	Chone	s	ekvador-cumhuriyeti	1894-09-20	2000-12-31	

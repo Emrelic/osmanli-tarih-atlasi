@@ -1,0 +1,274 @@
+{
+ "Bergen": [
+  {
+   "ad": "Bergen",
+   "dosya": null,
+   "lat": 60.393,
+   "lon": 5.324,
+   "bit": null,
+   "kur": null,
+   "zincir": [
+    "s:norvec-kralligi 1281-01-01→1537-01-01",
+    "s:danimarka 1537-01-01→1814-01-14",
+    "s:isvec 1814-01-14→1814-05-17",
+    "s:norvec-1814 1814-05-17→1814-11-04",
+    "s:norvec-isvec-birligi 1814-11-04→1905-06-07",
+    "s:norvec 1905-06-07→2000-12-31",
+    "kd:None 1281-01-01→1537-01-01"
+   ]
+  }
+ ],
+ "Saumur": [
+  {
+   "ad": "Saumur",
+   "dosya": null,
+   "lat": 47.26,
+   "lon": -0.077,
+   "bit": null,
+   "kur": "1026-01-01",
+   "zincir": [
+    "s:anjou-kontlugu 1026-01-01→1203-01-01",
+    "s:fransa 1203-01-01→1792-09-22",
+    "s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+   ]
+  }
+ ],
+ "Saint Helier (Jersey)": [
+  {
+   "ad": "Saint Helier (Jersey)",
+   "dosya": null,
+   "lat": 49.1891,
+   "lon": -2.1043,
+   "bit": null,
+   "kur": "1204-01-01",
+   "zincir": [
+    "s:kanal-adalari 1204-01-01→2000-12-31"
+   ]
+  }
+ ],
+ "Saint Peter Port (Guernsey)": [
+  {
+   "ad": "Saint Peter Port (Guernsey)",
+   "dosya": null,
+   "lat": 49.46,
+   "lon": -2.535,
+   "bit": null,
+   "kur": "1204-01-01",
+   "zincir": [
+    "s:kanal-adalari 1204-01-01→2000-12-31"
+   ]
+  }
+ ],
+ "San Salvador": [
+  {
+   "ad": "San Salvador Kalesi, Heping Adasi (Keelung)",
+   "dosya": null,
+   "lat": 25.143,
+   "lon": 121.7623,
+   "bit": null,
+   "kur": "1626-01-01",
+   "zincir": [
+    "s:ispanyol-formosa 1626-01-01→1642-08-26",
+    "s:hollanda-formosa 1642-08-26→1662-02-01",
+    "s:tungning 1662-02-01→1683-10-03",
+    "s:qing-hanedani 1683-10-03→1895-04-17",
+    "s:japon-tayvani 1895-04-17→1945-10-25",
+    "s:cin-cumhuriyeti 1945-10-25→2000-12-31"
+   ]
+  },
+  {
+   "ad": "San Salvador",
+   "dosya": null,
+   "lat": 13.698,
+   "lon": -89.191,
+   "bit": null,
+   "kur": "1841-01-01",
+   "zincir": [
+    "s:el-salvador-cumhuriyeti 1841-01-01→2000-12-31"
+   ]
+  }
+ ],
+ "Bir Lahlu (Bir Lehlou)": [
+  {
+   "ad": "Bir Lahlu (Bir Lehlou)",
+   "dosya": null,
+   "lat": 26.349,
+   "lon": -9.577,
+   "bit": null,
+   "kur": "1976-02-27",
+   "zincir": [
+    "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+   ]
+  }
+ ],
+ "Praia": [
+  {
+   "ad": "Praia",
+   "dosya": null,
+   "lat": 14.933,
+   "lon": -23.513,
+   "bit": null,
+   "kur": "1975-07-05",
+   "zincir": [
+    "s:yesilburun 1975-07-05→2000-12-31"
+   ]
+  }
+ ],
+ "Schwerin": [
+  {
+   "ad": "Schwerin",
+   "dosya": null,
+   "lat": 53.635,
+   "lon": 11.401,
+   "bit": null,
+   "kur": "1949-10-07",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ]
+  }
+ ],
+ "Frankfurt (Oder)": [
+  {
+   "ad": "Frankfurt (Oder)",
+   "dosya": null,
+   "lat": 52.347,
+   "lon": 14.55,
+   "bit": null,
+   "kur": "1949-10-07",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ]
+  }
+ ],
+ "Tórshavn": [
+  {
+   "ad": "Tórshavn",
+   "dosya": null,
+   "lat": 62.01,
+   "lon": -6.772,
+   "bit": null,
+   "kur": null,
+   "zincir": [
+    "s:norvec-kralligi 1035-01-01→1537-01-01",
+    "s:danimarka 1537-01-01→1948-04-01",
+    "s:feroe-adalari 1948-04-01→2000-12-31"
+   ]
+  }
+ ],
+ "Vágur": [
+  {
+   "ad": "Vágur",
+   "dosya": null,
+   "lat": 61.474,
+   "lon": -6.811,
+   "bit": null,
+   "kur": "1948-04-01",
+   "zincir": [
+    "s:feroe-adalari 1948-04-01→2000-12-31"
+   ]
+  }
+ ],
+ "St. George's": [
+  {
+   "ad": "St. George's",
+   "dosya": null,
+   "lat": 12.0566,
+   "lon": -61.747,
+   "bit": null,
+   "kur": "1763-02-10",
+   "zincir": [
+    "s:ingiltere 1763-02-10→1958-01-03",
+    "s:bati-hint-federasyonu 1958-01-03→1962-05-31",
+    "s:ingiltere 1962-05-31→1974-02-07",
+    "s:grenada 1974-02-07→1979-03-13",
+    "s:grenada-devrimci-hukumet 1979-03-13→1983-10-26",
+    "s:grenada 1983-10-26→2000-12-31"
+   ]
+  },
+  {
+   "ad": "St. George's (Bermuda)",
+   "dosya": null,
+   "lat": 32.38,
+   "lon": -64.6783,
+   "bit": null,
+   "kur": null,
+   "zincir": [
+    "s:__BOSLUK__ 1000-01-01→1612-01-01",
+    "s:ingiltere 1612-01-01→2000-12-31"
+   ]
+  }
+ ],
+ "Hillsborough (Carriacou)": [
+  {
+   "ad": "Hillsborough (Carriacou)",
+   "dosya": null,
+   "lat": 12.4819,
+   "lon": -61.4619,
+   "bit": null,
+   "kur": "1763-02-10",
+   "zincir": [
+    "s:ingiltere 1763-02-10→1958-01-03",
+    "s:bati-hint-federasyonu 1958-01-03→1962-05-31",
+    "s:ingiltere 1962-05-31→1974-02-07",
+    "s:grenada 1974-02-07→1979-03-13",
+    "s:grenada-devrimci-hukumet 1979-03-13→1983-10-26",
+    "s:grenada 1983-10-26→2000-12-31"
+   ]
+  }
+ ],
+ "Portsmouth (Dominika)": [
+  {
+   "ad": "Portsmouth (Dominika)",
+   "dosya": null,
+   "lat": 15.576,
+   "lon": -61.457,
+   "bit": null,
+   "kur": "1978-11-03",
+   "zincir": [
+    "s:dominika 1978-11-03→2000-12-31"
+   ]
+  }
+ ],
+ "Codrington (Barbuda)": [
+  {
+   "ad": "Codrington (Barbuda)",
+   "dosya": null,
+   "lat": 17.634,
+   "lon": -61.826,
+   "bit": null,
+   "kur": "1981-11-01",
+   "zincir": [
+    "s:antigua-barbuda 1981-11-01→2000-12-31"
+   ]
+  }
+ ],
+ "Mecklenburg": [
+  {
+   "ad": "Mecklenburg",
+   "dosya": null,
+   "lat": 53.85,
+   "lon": 11.466667,
+   "bit": "1281-01-01",
+   "kur": null,
+   "zincir": [
+    "s:obotrit-prensligi 0995-09-10→1160-01-01",
+    "s:saksonya-dukaligi 1160-01-01→1167-01-01",
+    "s:mecklenburg 1167-01-01→1281-01-01"
+   ]
+  }
+ ],
+ "Palenque": [
+  {
+   "ad": "Palenque",
+   "dosya": null,
+   "lat": 17.4842,
+   "lon": -92.0464,
+   "bit": "0851-01-01",
+   "kur": "0431-03-10",
+   "zincir": [
+    "s:palenque-baak 0431-03-10→0799-01-01",
+    "s:__BOSLUK__ 0799-01-01→0851-01-01"
+   ]
+  }
+ ]
+}

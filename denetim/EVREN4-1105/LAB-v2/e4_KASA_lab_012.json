@@ -1,0 +1,250 @@
+{
+ "Volokolamsk": [
+  {
+   "sira": 2066,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:315",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC.md / E4-BILINEN-KARARLAR.md — gece-50 (d) ve gece-20 (3)",
+   "alinti": "",
+   "oneri": {
+    "d": "1281 → <Moskova'ya kesin geçiş>: s: novgorod (Volok Lamskiy, Novgorod-Moskova ortak tasarrufu) + v: altinorda; s: altinorda yanlış",
+    "t": "1325 kalkar (metropolit taşınması toprak devri değil)"
+   },
+   "not": "Kural uygulaması: Rus knezlikleri 1281'de s: knezlik + v: altinorda. Moskova'ya geçiş günü kaynakla bulunmadı (Treccani/BRE okunamadı)."
+  }
+ ],
+ "Yaroslavl": [
+  {
+   "sira": 2093,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:222",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC.md / E4-BILINEN-KARARLAR.md — gece-20 (3), gece-50 (d); Treccani «Jaroslavl´» (tarih yok)",
+   "alinti": "",
+   "oneri": {
+    "d": "yaroslavl-knezligi (künye VAR, 1218-01-01 → 1463-01-01) + v: altinorda",
+    "t": "1325 kalkar; s: moskova 1463'ten (künye t; satış yılı kaynakla teyit)"
+   },
+   "not": "Zincir s: altinorda 1281→1325 ve s: moskova 1325→ yanlış: Yaroslavl ayrı knezlikti; III. İvan'a devri 1463 (künye özetinden — atlas referans değil, kaynak aranmalı)."
+  }
+ ],
+ "Java (Dzau)": [
+  {
+   "sira": 2183,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "guney-osetya",
+   "f": "1992-05-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Osetija, Južna», https://www.enciklopedija.hr/clanak/juzna-osetija",
+   "alinti": "te neovisnost od Gruzije (potkraj svibnja 1992)",
+   "oneri": {},
+   "not": "AY düzeyi (Mayıs 1992 sonu); 29 Mayıs günü teyitsiz. Sovyet ardılı kuralı (ilan günü) uygulanır. Egemenlik ilanı 'početkom rujna 1991' ic_not. Java 1991'den beri Oset denetiminde (ipucu)."
+  }
+ ],
+ "Stavropol (Kafkas)": [
+  {
+   "sira": 1971,
+   "dosya_satir": "data/yerlesimler_ok106.js:341",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1777-01-01",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Mevcut ESBE yalnız ipucu; BRE kapalı. 1777 Azak-Mozdok hattı kalesi akademik kaynakla okunmalı."
+  }
+ ],
+ "Yekaterinoslav (Dnipro)": [
+  {
+   "sira": 2096,
+   "dosya_satir": "data/yerlesimler_ok106.js:305",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Dnipro», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CD%5CN%5CDnipro.htm",
+   "alinti": "Katerynoslav was founded in 1776 by Prince Grigorii Potemkin ... at the site of the Cossack sloboda of Polovytsia",
+   "oneri": {
+    "f": "1776-01-01 [YIL]"
+   },
+   "not": "f = varoluş: atlas 1783 (ESBE, bugünkü yere nakil). EoU 1776 kuruluşu Polovytsia slobodası yerinde verir (ilk Katerynoslav'ın Kilchen ağzında olduğu da söylenir — ic_not). Polovytsia slobodası daha eski (Zaporog Ordusu, 1775 Sich'in kaldırılışına dek) — daha geri F-GERİ için sahip ve gün gerekir, önerilmedi.",
+   "f_geri": {
+    "eski_f": "1783-01-01",
+    "yeni_f": "1776-01-01",
+    "sahip": "rusya (künye 1547-01-16 → 1917-03-15 kapsar)",
+    "kaynak": "Encyclopedia of Ukraine «Dnipro»"
+   }
+  }
+ ],
+ "Yelisavetgrad (Aziz Yelizaveta Kalesi)": [
+  {
+   "sira": 2097,
+   "dosya_satir": "data/yerlesimler_ok106.js:279",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1754-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Kropyvnytskyi», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKropyvnytskyi.htm",
+   "alinti": "The city was founded in 1754 on Zaporozhian Cossack territory as the Saint Elizabeth Fortress",
+   "oneri": {},
+   "not": "YIL düzeyi; uc f. Kale Rus İmparatorluğu sınırını korumak için kuruldu (sahip rusya). Öteki uç 1917-03-15 ülke düzeyi, ayrıca okunmadı."
+  }
+ ],
+ "Çuguyev": [
+  {
+   "sira": 2107,
+   "dosya_satir": "data/yerlesimler_ok106.js:229",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1638-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Chuhuiv», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CH%5CChuhuiv.htm",
+   "alinti": "Chuhuiv was founded in 1638 as a frontier settlement by Yakiv Ostrianyn and his Cossacks",
+   "oneri": {},
+   "not": "YIL düzeyi; uc f. Moskova sınır yerleşimi (rusya künyesi 1547'den kapsar)."
+  }
+ ],
+ "Eriha (Tell es-Sultan)": [
+  {
+   "sira": 2161,
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:5",
+   "alan": "s",
+   "d": "ppnb-guney-levant",
+   "f": "-8649-01-01",
+   "t": "-6749-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  },
+  {
+   "sira": 2162,
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:5",
+   "alan": "s",
+   "d": "ppna-guney-levant",
+   "f": "-9299-01-01",
+   "t": "-8649-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  }
+ ],
+ "Jerf el-Ahmar": [
+  {
+   "sira": 2184,
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:14",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-9449-01-01",
+   "t": "-8609-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  }
+ ],
+ "Kiş (Tell Uhaimir)": [
+  {
+   "sira": 2187,
+   "dosya_satir": "data/yerlesimler_mo_sumer.js:77",
+   "alan": "s",
+   "d": "akad",
+   "f": "-2323-01-01",
+   "t": "-2153-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  }
+ ],
+ "Mari": [
+  {
+   "sira": 2197,
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "alan": "s",
+   "d": "babil-eski",
+   "f": "-1760-01-01",
+   "t": "-1594-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Not: Hammurabi Mari'yi yıktıktan sonra (orta kronoloji ~-1761/-1759) Mari büyük ölçüde terk edildi; -1594'e dek babil-eski sahipliği Merdiven ④ / Hana krallığı sorusu (kaynak okunmadı)."
+  },
+  {
+   "sira": 2198,
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2294-01-01",
+   "t": "-1760-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  },
+  {
+   "sira": 2199,
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "alan": "s",
+   "d": "mari-erken",
+   "f": "-2549-01-01",
+   "t": "-2294-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  }
+ ],
+ "Nevalı Çori": [
+  {
+   "sira": 2207,
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:11",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-8499-01-01",
+   "t": "-7599-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik/antik künye dönemi; PPND/exoriente, Sallaberger, Frayne okunmadı)."
+  }
+ ]
+}

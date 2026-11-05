@@ -1,0 +1,234 @@
+{
+ "Çelyabinsk": [
+  {
+   "sira": 2106,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1736-09-02",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:15",
+   "lat": 55.16,
+   "lon": 61.4,
+   "zincir_guncel": "s:rusya 1736-09-02→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Şadrinsk": [
+  {
+   "sira": 2120,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1662-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:63",
+   "lat": 56.09,
+   "lon": 63.63,
+   "zincir_guncel": "s:rusya 1662-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Sığnak (Sunak Kurgan)": [
+  {
+   "sira": 1982,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1465-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:447",
+   "lat": 44.05,
+   "lon": 67.05,
+   "zincir_guncel": "s:altinorda 1281-01-01→1465-01-01 | s:ebulhayr-ozbek-ulusu 1465-01-01→1468-01-01 | s:kazak-hanligi 1468-01-01→1847-01-01 | s:rusya 1847-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-16 | s:kazakistan 1991-12-16→2000-12-31"
+  }
+ ],
+ "Alay vadisi (bölge)": [
+  {
+   "sira": 2123,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kirgizistan",
+   "f": "1991-08-31",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri",
+   "dosya_satir": "data/yerlesimler_a78_asya.js:439",
+   "lat": 39.73,
+   "lon": 73.25,
+   "zincir_guncel": "s:__BOSLUK__ 1281-01-01→1876-02-19 | s:rusya 1876-02-19→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-08-31 | s:kirgizistan 1991-08-31→2000-12-31"
+  }
+ ],
+ "Dholavira": [
+  {
+   "sira": 2151,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "gec-harappa",
+   "f": "-1899-01-01",
+   "t": "-1599-01-01",
+   "mevcut_kaynak": "künye gec-harappa (Geç Harappa Dönemi) · UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni",
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "lat": 23.8884,
+   "lon": 70.2133,
+   "zincir_guncel": "s:gec-harappa -1899-01-01→-1599-01-01 | s:harappa -2599-01-01→-1899-01-01 | s:erken-harappa -2999-01-01→-2599-01-01"
+  },
+  {
+   "sira": 2152,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "harappa",
+   "f": "-2599-01-01",
+   "t": "-1899-01-01",
+   "mevcut_kaynak": "künye harappa (Harappa (Indus) Uygarlığı (Olgun evre)) · UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni",
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "lat": 23.8884,
+   "lon": 70.2133,
+   "zincir_guncel": "s:gec-harappa -1899-01-01→-1599-01-01 | s:harappa -2599-01-01→-1899-01-01 | s:erken-harappa -2999-01-01→-2599-01-01"
+  },
+  {
+   "sira": 2153,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "erken-harappa",
+   "f": "-2999-01-01",
+   "t": "-2599-01-01",
+   "mevcut_kaynak": "künye erken-harappa (Erken Harappa Dönemi) · UNESCO WHC Dossier 1645 Dholavira: A Harappan City, ICOMOS Advisory Body Evaluation (belge 189324, 2021; Hindistan/ASI başvurusuna dayanır), Basic data + Brief description; ayrıca whc.unesco.org/en/list/1645 Criterion (iii) metni",
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "lat": 23.8884,
+   "lon": 70.2133,
+   "zincir_guncel": "s:gec-harappa -1899-01-01→-1599-01-01 | s:harappa -2599-01-01→-1899-01-01 | s:erken-harappa -2999-01-01→-2599-01-01"
+  }
+ ],
+ "Udeypûr (Udaipur)": [
+  {
+   "sira": 2024,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "racput",
+   "f": "1559-01-01",
+   "t": "1948-04-18",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_asya.js:706",
+   "lat": 24.585,
+   "lon": 73.712,
+   "zincir_guncel": "s:racput 1559-01-01→1948-04-18 | s:hindistan-cumhuriyeti 1948-04-18→2000-12-31"
+  },
+  {
+   "sira": 2025,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-04-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India",
+   "dosya_satir": "data/yerlesimler_asya.js:706",
+   "lat": 24.585,
+   "lon": 73.712,
+   "zincir_guncel": "s:racput 1559-01-01→1948-04-18 | s:hindistan-cumhuriyeti 1948-04-18→2000-12-31"
+  }
+ ],
+ "Tomsk": [
+  {
+   "sira": 2004,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1604-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek9.js:71",
+   "lat": 56.4884,
+   "lon": 84.948,
+   "zincir_guncel": "s:rusya 1604-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Gaochang": [
+  {
+   "sira": 2167,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "gaochang",
+   "f": "0520-01-01",
+   "t": "0640-08-30",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 癸酉 (貞觀十四年, 八月 ile 九月乙卯 arası) → Jülyen 0640-08-30 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0640-09-02; 1582 öncesi gün Jülyen kalır. Wei Shou, Wei shu (魏書) juan 101, «Gaochang» (zh.wikisource.org/wiki/魏書/卷101, okundu): «相與殺儒而",
+   "dosya_satir": "data/yerlesimler_once1281_yt_hint.js:66",
+   "lat": 42.855,
+   "lon": 89.5286,
+   "zincir_guncel": "s:gaochang 0520-01-01→0640-08-30"
+  }
+ ],
+ "Thimphu": [
+  {
+   "sira": 1997,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bhutan",
+   "f": "1616-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 27.472,
+   "lon": 89.636,
+   "zincir_guncel": "s:bhutan 1616-01-01→2000-12-31"
+  }
+ ],
+ "Trivandrum (Thiruvananthapuram)": [
+  {
+   "sira": 2010,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "travankur",
+   "f": "1281-01-01",
+   "t": "1949-07-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_asya.js:1615",
+   "lat": 8.524,
+   "lon": 76.936,
+   "zincir_guncel": "s:travankur 1281-01-01→1949-07-01 | s:hindistan-cumhuriyeti 1949-07-01→2000-12-31"
+  },
+  {
+   "sira": 2011,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1949-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili devlet/ülke maddesi)",
+   "dosya_satir": "data/yerlesimler_asya.js:1615",
+   "lat": 8.524,
+   "lon": 76.936,
+   "zincir_guncel": "s:travankur 1281-01-01→1949-07-01 | s:hindistan-cumhuriyeti 1949-07-01→2000-12-31"
+  }
+ ],
+ "Voloçanka (Voloçanı zimovyesi)": [
+  {
+   "sira": 2067,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1643-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:60",
+   "lat": 70.98,
+   "lon": 94.53,
+   "zincir_guncel": "s:rusya 1643-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Sayansk ostrogu": [
+  {
+   "sira": 1956,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1709-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:30",
+   "lat": 52.85,
+   "lon": 91.9,
+   "zincir_guncel": "s:rusya 1709-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ]
+}

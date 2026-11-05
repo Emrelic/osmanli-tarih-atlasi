@@ -1,0 +1,1008 @@
+{
+ "São Luís": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:654",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1615-11-04",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "Marcelo Cheche Galves, «As primeiras comemorações das independências do Brasil na imprensa da província do Maranhão (1826-1831)», Varia Historia (UFMG), SciELO, https://www.scielo.br/j/vh/a/HYP98hWvrFLXp6X8bQPSTgD/ ; Alírio Cardoso, «Beschrijving van Maranhão: a Amazônia nos relatórios holandeses na época da Guerra de Flandres (1621-1644)», Topoi (Rio J.) 18/35, 2017, doi:10.1590/2237-101X01803508",
+   "alinti": "Maranhão, incorporado ao Império em 28 de julho de 1823 | “Maranhão holandês” começaria em novembro de 1641 ... | em 1644, no fim do breve “Maranhão holandês”",
+   "oneri": {
+    "t": "1823-07-28",
+    "bolunme": [
+     {
+      "alan": "isg",
+      "d": "hollanda",
+      "f": "1641-11",
+      "t": "1644",
+      "not": "ay / yıl hassasiyeti; gün kaynakla bulunacak (TARAYICI: Mário Meireles, Holandeses no Maranhão 1641-1644)"
+     }
+    ]
+   },
+   "not": "[sira 1680] (1) Maranhão Brezilya İmparatorluğu'na 1823-07-28'de katıldı → portekiz-brezilyasi t 1822-09-07 değil 1823-07-28 (Galves). (2) WIC'in Maranhão işgali Kasım 1641 → 1644 atlasta yok: ÖLÇÜT: geçici/askerî — Cardoso 'ocupação militar do Estado do Maranhão pelo exército da WIC' diyor; Portekiz iddiası ve isyanla geri alındı → isg hollanda (hollanda-brezilyasi künyesi 1630-02-16 → 1654-01-26 kapsar; idareye katma belgesi okunmadı). f 1615-11-04: Cardoso 'conquista do Maranhão aos franceses, em 1615' (yıl) → f yıl düzeyi teyitli. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:654",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "kaynak": "Marcelo Cheche Galves, «As primeiras comemorações das independências do Brasil na imprensa da província do Maranhão (1826-1831)», Varia Historia (UFMG), SciELO, https://www.scielo.br/j/vh/a/HYP98hWvrFLXp6X8bQPSTgD/",
+   "alinti": "Maranhão, incorporado ao Império em 28 de julho de 1823",
+   "oneri": {
+    "f": "1823-07-28"
+   },
+   "not": "[sira 1681] [KÜME K23] istisnası: yerleşime özgü tanıklık — São Luís 1823-07-28'e kadar Portekiz'e bağlı (Lizbon'a bağlı cunta). KARARLAR gece-18 'Brezilya şehirlerinin tek tek günleri' onaylı. 1822-09-07 ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:654",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1682] [KÜME K06]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:654",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1612-09-01",
+   "t": "1615-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Alírio Cardoso, «Beschrijving van Maranhão: a Amazônia nos relatórios holandeses na época da Guerra de Flandres (1621-1644)», Topoi (Rio J.) 18/35, 2017, doi:10.1590/2237-101X01803508",
+   "alinti": "França Equinocial na Ilha do Maranhão entre 1612 e 1615",
+   "oneri": {},
+   "not": "[sira 1683] f+t yıl düzeyi (Fransız Ekinoksal Fransası 1612-1615). Günler (1612-09-01 / 1615-11-04) teyitsiz; Saint-Louis kuruluşu 1612-09-08 olarak bilinir → gün kaynakla sınanmalı. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  }
+ ],
+ "Taos Pueblo": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:828",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1692-08-01",
+   "t": "1821-09-27",
+   "hukum": "ONERI",
+   "kaynak": "U.S. National Park Service, «History and Significance of El Camino Real de Tierra Adentro», https://www.nps.gov/articles/000/history-and-significance-of-el-camino-real-de-tierra-adentro.htm",
+   "alinti": "In late 1692, ... Vargas led a preliminary expedition | A year later, ... a permanent return to Santa Fe",
+   "oneri": {
+    "f": "1693",
+    "not": "yıl hassasiyeti; Santa Fe'ye kalıcı dönüş 1693 (gün kaynakla); 1692 ön sefer ve Taos'un 1696 isyanı ic_not"
+   },
+   "not": "[sira 1684] Kaynak 1692'yi yalnız 'ön sefer' sayıyor, kalıcı İspanyol idaresi bir yıl sonra (1693). Atlasın 1692-08-01'i kaynakta yok. t 1821-09-27 KÜME K11 ile bağlı. Bölge düzeyi (Santa Fe = ABİ MERKEZ); Taos'a özgü gün aranmadı. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:828",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "1848-02-02",
+   "hukum": "ONERI",
+   "kaynak": "U.S. National Park Service, «History and Significance of El Camino Real de Tierra Adentro», https://www.nps.gov/articles/000/history-and-significance-of-el-camino-real-de-tierra-adentro.htm ; U.S. Department of State, Office of the Historian, «The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848», https://history.state.gov/milestones/1830-1860/texas-annexation",
+   "alinti": "In 1846, ... Kearny ... where on August 18, the American flag was raised | Treaty of Guadalupe-Hidalgo, which was signed in Mexico City on February 2, 1848",
+   "oneri": {
+    "t": "1846-08-18",
+    "bolunme": [
+     {
+      "alan": "isg",
+      "d": "abd",
+      "f": "1846-08-18",
+      "t": "1848-02-02"
+     }
+    ]
+   },
+   "not": "[sira 1685] [KÜME K11] f için BAKILMADI; t için yerleşime özgü bölge tanıklığı (4b istisnası): Kearny 1846-08-18'de Santa Fe'de bayrağı çekti → TEK KURAL: ilhak/devir (Guadalupe-Hidalgo imza 1848-02-02) gelene kadar isg abd. TEK ÖLÇÜ: ABD bölgeyi yönetiyordu → s: abd imza günü 1848-02-02 (sira 1688 ile uyumlu); onay 1848-03-10 / yürürlük ic_not. Taos İsyanı 1847-01 (Vali Bent'in öldürülmesi) ic_not. ÖLÇÜT: geçici/askerî — Meksika iddiası antlaşmaya kadar sürdü. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:828",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1610-01-01",
+   "t": "1680-08-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Park Service, «History and Significance of El Camino Real de Tierra Adentro», https://www.nps.gov/articles/000/history-and-significance-of-el-camino-real-de-tierra-adentro.htm",
+   "alinti": "On August 10, 1680, several thousand residents from a majority of the pueblos attacked",
+   "oneri": {},
+   "not": "[sira 1686] uc t (Pueblo İsyanı 1680-08-10). f 1610 (Santa Fe'nin kuruluşu / Taos misyonu) teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:828",
+   "alan": "s",
+   "d": "pueblo-bagimsizligi",
+   "f": "1680-08-10",
+   "t": "1692-08-01",
+   "hukum": "ONERI",
+   "kaynak": "U.S. National Park Service, «History and Significance of El Camino Real de Tierra Adentro», https://www.nps.gov/articles/000/history-and-significance-of-el-camino-real-de-tierra-adentro.htm",
+   "alinti": "On August 10, 1680, several thousand residents from a majority of the pueblos attacked | In late 1692, ... Vargas led a preliminary expedition | A year later, ... a permanent return to Santa Fe",
+   "oneri": {
+    "t": "1693",
+    "not": "HAYALET: künye pueblo-bagimsizligi t 1692-08-01 — t uzatılacaksa künye GENİŞLET aynı commit'te (LAB)."
+   },
+   "not": "[sira 1687] f 1680-08-10 KAYNAKLI. t: kaynak İspanyol idaresinin kalıcı dönüşünü 1693'e koyuyor (1692 ön sefer); atlasın 1692-08-01'i kaynaksız. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:828",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, «The Annexation of Texas, the Mexican-American War, and the Treaty of Guadalupe-Hidalgo, 1845–1848», https://history.state.gov/milestones/1830-1860/texas-annexation",
+   "alinti": "Treaty of Guadalupe-Hidalgo, which was signed in Mexico City on February 2, 1848",
+   "oneri": {},
+   "not": "[sira 1688] uc f. TEK ÖLÇÜ: ABD 1846-08-18'den beri bölgeyi fiilen yönetiyordu → imza günü doğru. Öncesine isg abd 1846-08-18→1848-02-02 eklenmeli (bkz. sira 1685). t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Port Royal (Acadia)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:961",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1605-01-01",
+   "t": "1713-04-11",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, «Sedgwick, Robert», http://www.biographi.ca/en/bio/sedgwick_robert_1E.html ; Dictionary of Canadian Biography, «Andigné de Grandfontaine, Hector d'», http://www.biographi.ca/en/bio/andigne_de_grandfontaine_hector_d_1E.html ; Dictionary of Canadian Biography, «Auger de Subercase, Daniel d'», http://www.biographi.ca/en/bio/auger_de_subercase_daniel_d_2E.html",
+   "alinti": "On 31 July Sedgwick’s expedition sailed to Port-Royal ... took the fort | Port-Royal ... and Port-La Tour (2 September) | the capitulation was discussed and signed on 13 October",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "fransa",
+      "f": "1605-01-01",
+      "t": "1654-08"
+     },
+     {
+      "d": "ingiltere",
+      "f": "1654-08",
+      "t": "1670-09-02"
+     },
+     {
+      "d": "fransa",
+      "f": "1670-09-02",
+      "t": "1710-10-13"
+     }
+    ]
+   },
+   "not": "[sira 1689] (1) 1654 İngiliz fethi (Sedgwick; DCB 'led the English conquest of Acadia in 1654'; fort 31 Temmuz'dan sonra alındı, gün metinde yok → ay hassasiyeti) — ÖLÇÜT: idareye katma — Sir Thomas Temple 1654-70 İngiliz valisi (DCB Grandfontaine: 'As the English governor, Temple...'). (2) İade: Grandfontaine'in teğmeni Port-Royal'i 1670-09-02'de teslim aldı (yıl paragrafta: 7 July 1670 anlaşması) — Breda 1667 ic_not. (3) Fransız dönemi 1710-10-13 kapitülasyonuyla biter (yıl bağlamdan: aynı paragrafta '5 Oct 1710'). 1613 Argall baskını, 1629-32 İskoç dönemi, 1690 Phips işgali aranmadı → ic_not adayı. DCB Fransız günü (N.S.) veriyor; İngiliz kayıtları O.S. 2 Ekim — Britanya 1752 kuralı: atlas Gregoryen 1710-10-13. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:961",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1713-04-11",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, «Auger de Subercase, Daniel d'», http://www.biographi.ca/en/bio/auger_de_subercase_daniel_d_2E.html",
+   "alinti": "the capitulation was discussed and signed on 13 October | settlers within a radius of three miles, by taking an oath of allegiance",
+   "oneri": {
+    "f": "1710-10-13",
+    "alternatif": "TEK KURAL katı okunursa: isg ingiltere 1710-10-13→1713-04-11, s: ingiltere 1713-04-11"
+   },
+   "not": "[sira 1690] ÖLÇÜT: idareye katma — kapitülasyon 3 mil içindeki yerleşimcilere bağlılık yemini şartı koydu; İngiliz garnizon hükûmeti (Annapolis Royal) kuruldu → DA-BRIEF 'antlaşma günü ölçüt değildir' düzeltmesiyle s: ingiltere fetih gününden; Utrecht 1713-04-11 ic_not. Yıl bağlamdan (paragrafta 5 Oct 1710). t 1763-02-10 künye kırılması (ingiliz-kuzey-amerika), sınanmadı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:961",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1691] künye kırılması 1763-02-10 / Konfederasyon 1867-07-01 aranmadı (bütçe).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:961",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1692] Nova Scotia'nın Konfederasyona girişi 1867-07-01 aranmadı (bütçe).",
+   "uc": ""
+  }
+ ],
+ "Jaragua (Taino cacicazgosu)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1049",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1503-01-01",
+   "t": "1697-09-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1693] bütçe. İnceleme adayı: 1503 Xaraguá (Anacaona) — Ryswick 1697-09-20 arası batı Hispaniola'da Fransız fiilî varlığı 1660'lardan (Tortuga/Saint-Domingue valiliği 1665) → TAHRİR ile Fransız s: Ryswick'ten önce başlayabilir; kaynak okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1049",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1697-09-20",
+   "t": "1792-09-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1694] bütçe; Ryswick 1697-09-20 imza günü TEK ÖLÇÜ ile uyumlu görünüyor (Fransa zaten yönetiyordu), okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1049",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "1804-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1695] [KÜME K22]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1049",
+   "alan": "s",
+   "d": "haiti",
+   "f": "1804-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1696] bütçe; 1804-01-01 Gonaïves ilanı aranmadı. İnceleme adayı: 1793-98 İngiliz işgali (Léogâne çevresi) atlasta yok.",
+   "uc": ""
+  }
+ ],
+ "Spanish Town (Villa de la Vega)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1150",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1655-05-10",
+   "t": "1962-08-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Government of Jamaica, Jamaica 55 (gov.jm), «St. Catherine – Quick Facts», https://jamaica55.gov.jm/feature/st-catherine/st-catherine-quick-facts/",
+   "alinti": "when the English captured the island in 1655, it remained the capital",
+   "oneri": {},
+   "not": "[sira 1697] uc f yıl düzeyi (resmî Jamaika hükûmeti sayfası). Gün 1655-05-10 teyitsiz (Penn-Venables çıkarması; şehrin alınışı 1655-05-11 olarak da verilir → gün kaynakla sınanmalı). ÖLÇÜT: idareye katma — İngilizler başkenti sürdürdü; Madrid Antlaşması 1670-07-18 ic_not. t 1962-08-06 aranmadı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1150",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1534-01-01",
+   "t": "1655-05-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Government of Jamaica, Jamaica 55 (gov.jm), «St. Catherine – Quick Facts», https://jamaica55.gov.jm/feature/st-catherine/st-catherine-quick-facts/",
+   "alinti": "Between 1534 to 1655 it served as the capital of Jamaica under Spanish rule",
+   "oneri": {},
+   "not": "[sira 1698] f+t yıl düzeyi; günler (1534-01-01 = yıl, 1655-05-10) gün düzeyinde teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  }
+ ],
+ "Kingston": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1163",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1692-01-01",
+   "t": "1962-08-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1699] bütçe; 1692 kuruluşu (Port Royal depremi 1692-06-07 sonrası) ve 1962-08-06 aranmadı.",
+   "uc": ""
+  }
+ ],
+ "Cayenne": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1202",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1643-01-01",
+   "t": "1792-09-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1700] bütçe. İnceleme adayı: 1664 Hollanda, 1667 İngiliz baskını, 1676 Hollanda işgali atlasta yok.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1202",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "1809-01-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1701] [KÜME K22]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1202",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1809-01-14",
+   "t": "1817-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Revista Brasileira do Caribe (UFMA), Caiena 1809-1817 makalesi, s. 11, https://www.periodicoseletronicos.ufma.br/index.php/rbrascaribe/article/download/17653/9615/53261",
+   "alinti": "No início de janeiro de 1809, as tropas portuguesas ocuparam Caiena",
+   "oneri": {},
+   "not": "[sira 1702] uc f ay+yıl (gün 1809-01-14 teyitsiz; kapitülasyon 12, giriş 14 Ocak ikincil kaynaklarda). ÖLÇÜT notu: kaynak 'ocupação' diyor; Portekiz intendente-geral atadı (idareye katma) → s: portekiz savunulabilir, ama 1814 Paris / 1815 Viyana ile iade öngörüldü → isg tartışması KASA/EMRELİC'e. t 1817-01-01 teyitsiz: iade Kasım 1817 (bkz. sira 1703). [alıntı ham metinden, pypdf]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1202",
+   "alan": "s",
+   "d": "fransiz-guyanasi",
+   "f": "1817-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1703] Fransa'ya iade günü okunamadı; RBC makalesinde 1817 yalnız arşiv dipnotlarında. İkincil (Infopédia, arama özeti) Kasım 1817 diyor — 1817-01-01 büyük olasılıkla yıl yer tutucusu. TARAYICI: Ivete Machado de Miranda Pereira, «O governo da justiça na Guiana Francesa sob ocupação portuguesa (1809-1817)», Varia Historia 38/77 (2022), SciELO.",
+   "uc": ""
+  }
+ ],
+ "Colonia del Sacramento": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1817-01-01",
+   "t": "1822-09-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1704] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1828-08-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1705] [KÜME K23]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1680-01-01",
+   "t": "1705-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1706] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1705-01-01",
+   "t": "1715-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1707] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1715-01-01",
+   "t": "1762-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1708] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1762-01-01",
+   "t": "1763-02-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1709] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1763-02-10",
+   "t": "1777-06-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1710] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1777-06-04",
+   "t": "1814-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1711] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1814-06-20",
+   "t": "1817-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1712] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1210",
+   "alan": "s",
+   "d": "uruguay-cumhuriyeti",
+   "f": "1828-08-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1713] bütçe; UNESCO WHC 747 sayfası 503 verdi, başka kaynak aranmadı. İnceleme adayı (okunmadı): 1680 İspanyol baskını ve 1683 iadesi, 1705/1716 teslim günleri, 1762-10 Cevallos, 1777-06-04 → San Ildefonso 1777-10-01.",
+   "uc": ""
+  }
+ ],
+ "Santa Marta": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1321",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1525-07-29",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arthur S. Aiton, Antonio de Mendoza, First Viceroy of New Spain, Durham: Duke University Press 1927, 'The Appointment of a Viceroy' (archive.org: antoniodemendoza0000aito)",
+   "alinti": "The text of the New Laws as passed November 20, 1542",
+   "oneri": {},
+   "not": "[sira 1714] Aiton 1927 (aynı eser) yalnız 'The text of the New Laws as passed November 20, 1542' diyor — Leyes Nuevas'ın günü; Peru Genel Valiliğinin kuruluşunu o cümlede adıyla anmıyor → uç olayı teyitsiz (msg_uc ②). Aiton ayrıca 'Effective viceregal government was not to be established in Peru until after Mendoza's death ... 1552' der. f 1525-07-29 (Bastidas kuruluşu) aranmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1321",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1821-10-01",
+   "hukum": "ONERI",
+   "kaynak": "Redalyc (dergi 833), Santa Marta katedrali makalesi, s. 4, https://www.redalyc.org/journal/833/83363974006/83363974006.pdf",
+   "alinti": "solo hasta la fundación del Virreinato del Nuevo Reino de Granada en 1717",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "?",
+      "f": "1810-07-20",
+      "t": "1821-10-01",
+      "not": "Santa Marta kralcı kaldı; künye yeni-granada-valiligi t 1810-07-20 → sonrası için künye (ispanya?) LAB"
+     }
+    ]
+   },
+   "not": "[sira 1715] Santa Marta 1717'den Yeni Granada Genel Valiliği'ne bağlı; atlas 1821'e kadar Peru Genel Valiliği yazıyor. Künye yeni-granada-valiligi var (f 1717-05-27). Makale: valilik 1739 Eslava'ya kadar oturmadı → 1723-1739 askıya alınma ic_not. Yıl alıntıda; 05-27 künyeden. Kralcı Santa Marta'nın patriotlara düşüşü (1820-11) ile gran-kolombiya f 1821-10-01 arasındaki fark sınanmadı. [alıntı ham metinden, pypdf]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1321",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-10-01",
+   "t": "1831-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1716] bütçe.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1321",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1717] bütçe.",
+   "uc": ""
+  }
+ ],
+ "Ümmü Dermân": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:141",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum ; TDV İslâm Ansiklopedisi, «Func», https://islamansiklopedisi.org.tr/func",
+   "alinti": "Func Devleti zamanında (1504-1821)",
+   "oneri": {},
+   "not": "[sira 1718] f+t yıl düzeyi (ABİ MERKEZ Hartum). t günü 06-14 (Sennâr teslimi) TDV'de yok; TDV Func sultan listesi 'VII. Bâdî b. Tabl 1804-1821'. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:141",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Func», https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında ... Alve Krallığı’na karşı çıkmış",
+   "oneri": {},
+   "not": "[sira 1719] uc t (Alve'nin Func'a geçişi 1504, ÜLKE DÜZEYİ). Omdurman bölgesi Alve topraklarında; f 1281 atlas başlangıcı, teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:141",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum ; TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "Hartum 26 Ocak 1885’te düştü | 2 Eylül 1898’de ... Kereri’de ... Halife Abdullah’ın mağlûp ... Mehdî Devleti yıkıldı",
+   "oneri": {
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1720] f 1885-01-26 KAYNAKLI (Mehdî merkezi Omdurman'a nakletti — TDV Mehdîler). t 1899-01-19 künye t'sini aşıyor: Omdurman 1898-09-02'de Kitchener'e düştü. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:141",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum",
+   "alinti": "Kavalalı Mehmed Ali Paşa’nın 1821’de Sudan’ı ele geçirip Mısır’a ilhak etmesiyle | Hartum 26 Ocak 1885’te düştü",
+   "oneri": {},
+   "not": "[sira 1721] f yıl düzeyi (1821; gün 06-14 teyitsiz), t gün düzeyi (1885-01-26). ABİ MERKEZ Hartum. d = misir-kavalali (veri satırındaki kid). [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  }
+ ],
+ "El-Kavâ": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:169",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum ; TDV İslâm Ansiklopedisi, «Func», https://islamansiklopedisi.org.tr/func",
+   "alinti": "Func Devleti zamanında (1504-1821)",
+   "oneri": {},
+   "not": "[sira 1722] f+t yıl düzeyi, ÜLKE DÜZEYİ (Beyaz Nil kıyısı Func etki alanı). [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:169",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Func», https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında ... Alve Krallığı’na karşı çıkmış",
+   "oneri": {},
+   "not": "[sira 1723] uc t, ÜLKE DÜZEYİ; f teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:169",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan ; TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum",
+   "alinti": "Başşehir Hartum’un düşmesiyle Sudan’ın bütün bölgelerine hâkim olan Muhammed Mehdî | 2 Eylül 1898’de ... Kereri’de ... Halife Abdullah’ın mağlûp ... Mehdî Devleti yıkıldı",
+   "oneri": {
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1724] f 1885-01-26 ÜLKE DÜZEYİ (Hartum'un düşüşü; Kawa'nın kendi düşüş günü — muhtemelen 1884 — teyitsiz). t künye t'sini aşıyor (bkz. sira 1720). [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:169",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum",
+   "alinti": "Kavalalı Mehmed Ali Paşa’nın 1821’de Sudan’ı ele geçirip Mısır’a ilhak etmesiyle | Hartum 26 Ocak 1885’te düştü",
+   "oneri": {},
+   "not": "[sira 1725] ÜLKE DÜZEYİ; f yıl düzeyi. [alıntı ham metinden, sayfa.py]",
+   "uc": "f+t"
+  }
+ ],
+ "Er-Rahad": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:195",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi | Omdurman’ı ... ele geçirdiler (1898)",
+   "oneri": {
+    "f": "1883-01-19",
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1726] f: bkz. v satırı (Ubeyd 1883-01-19, ABİ MERKEZ). t: künye mehdi t 1898-09-02 — 1899-01-19 künyeyi aşıyor (hayalet); TDV Mehdîler 'Teâyişî Kordofan’a kaçmayı başardıysa da 22 Kasım 1899’da ... öldürüldü' → Kordofan'da fiilî Mahdist direnişi 1899-11'e kadar, künye sorusu LAB. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:195",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Bölgenin en önemli şehirleri XVIII. yüzyılda kurulan Ubeyyid, Bâre, Ümmü Ruvâbe ile Rahad’dır",
+   "oneri": {
+    "not": "dönem kaldırılmalı (merdiven ④: yerleşim o devirde yok) — kur: XVIII. yy (yıl kaynakla); toprak komşu peteklere kalır"
+   },
+   "not": "[sira 1727] Er-Rahad XVIII. yüzyılda kuruldu → 1281-1504 dönemi yerleşimden önce. TDV «Kordofan» bölgede Nûbe krallığı hâkimiyeti anmıyor: XIV. yy müslüman göçleri, XVI. yy Func etkisi (orta kesim), XVII. yy sonundan Func-Dârfûr tampon bölgesi. Alve'nin Kordofan'a uzandığına dair tanıklık okunmadı. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:195",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-08-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Dârfûr Sultanı Muhammed Teyrab bölgeyi tamamen işgal ederek ülkesine kattı",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "funj",
+      "f": "1504-01-01",
+      "t": "?"
+     },
+     {
+      "d": "darfur",
+      "f": "?",
+      "t": "1821-08-19",
+      "not": "Teyrab fethi 'XVIII. yüzyılın sonlarına doğru' — TDV yıl vermiyor; yıl kaynakla bulunacak (TDV «Dârfûr» maddesinde 'Teyrab' geçmiyor). Künye darfur f 1695-01-01 kapsar."
+     }
+    ]
+   },
+   "not": "[sira 1728] TDV «Kordofan»: XVII. yy sonundan Func doğu-orta, Dârfûr batı kesimine hâkim olmaya çalıştı; yüzyıl sonuna doğru Dârfûr Sultanı Muhammed Teyrab bütün Kordofan'ı ülkesine kattı ve 1821'de Bâre'deki Dârfûr garnizonu yıkıldı → 1821'e kadar sahip Func değil Dârfûr. t 1821-08-19 (Bâre) TDV'de yalnız yıl. Ayrıca Rahad XVIII. yy'da kuruldu → f 1504 yerleşimden önce, kur yılı kaynakla. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:195",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan ; TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "Defterdar Mehmed Hüsrev Bey tarafından ele geçirilerek Osmanlı-Mısır idaresine bağlandı (1821) | 19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 1729] f 1821 KAYNAKLI (yıl). t: TDV Kordofan ve Mehdîler — Osmanlı-Mısır idaresi Ocak 1883'te Ubeyd'in teslimiyle çöktü, diğer şehirler 'kısa zamanda' düştü; atlasın 1882-09-07'si (Ubeyd kuşatmasının başı) bir yerleşim düşüş günü değil. ABİ MERKEZ Ubeyyid; şehre özgü günler BEYANLI. Mahdist kırsal denetimi 1882 ortasından ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Dilling": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:211",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi | Omdurman’ı ... ele geçirdiler (1898)",
+   "oneri": {
+    "f": "1883-01-19",
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1730] f: bkz. v satırı (Ubeyd 1883-01-19, ABİ MERKEZ). t: künye mehdi t 1898-09-02 — 1899-01-19 künyeyi aşıyor (hayalet); TDV Mehdîler 'Teâyişî Kordofan’a kaçmayı başardıysa da 22 Kasım 1899’da ... öldürüldü' → Kordofan'da fiilî Mahdist direnişi 1899-11'e kadar, künye sorusu LAB. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:211",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1731] TDV «Kordofan» bölgede Nûbe krallığı hâkimiyeti anmıyor: XIV. yy müslüman göçleri, XVI. yy Func etkisi (orta kesim), XVII. yy sonundan Func-Dârfûr tampon bölgesi. Alve'nin Kordofan'a uzandığına dair tanıklık okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:211",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-08-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Dârfûr Sultanı Muhammed Teyrab bölgeyi tamamen işgal ederek ülkesine kattı",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "funj",
+      "f": "1504-01-01",
+      "t": "?"
+     },
+     {
+      "d": "darfur",
+      "f": "?",
+      "t": "1821-08-19",
+      "not": "Teyrab fethi 'XVIII. yüzyılın sonlarına doğru' — TDV yıl vermiyor; yıl kaynakla bulunacak (TDV «Dârfûr» maddesinde 'Teyrab' geçmiyor). Künye darfur f 1695-01-01 kapsar."
+     }
+    ]
+   },
+   "not": "[sira 1732] TDV «Kordofan»: XVII. yy sonundan Func doğu-orta, Dârfûr batı kesimine hâkim olmaya çalıştı; yüzyıl sonuna doğru Dârfûr Sultanı Muhammed Teyrab bütün Kordofan'ı ülkesine kattı ve 1821'de Bâre'deki Dârfûr garnizonu yıkıldı → 1821'e kadar sahip Func değil Dârfûr. t 1821-08-19 (Bâre) TDV'de yalnız yıl. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:211",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan ; TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "Defterdar Mehmed Hüsrev Bey tarafından ele geçirilerek Osmanlı-Mısır idaresine bağlandı (1821) | 19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 1733] f 1821 KAYNAKLI (yıl). t: TDV Kordofan ve Mehdîler — Osmanlı-Mısır idaresi Ocak 1883'te Ubeyd'in teslimiyle çöktü, diğer şehirler 'kısa zamanda' düştü; atlasın 1882-09-07'si (Ubeyd kuşatmasının başı) bir yerleşim düşüş günü değil. ABİ MERKEZ Ubeyyid; şehre özgü günler BEYANLI. Mahdist kırsal denetimi 1882 ortasından ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Ebû Zabed": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:223",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi | Omdurman’ı ... ele geçirdiler (1898)",
+   "oneri": {
+    "f": "1883-01-19",
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1734] f: bkz. v satırı (Ubeyd 1883-01-19, ABİ MERKEZ). t: künye mehdi t 1898-09-02 — 1899-01-19 künyeyi aşıyor (hayalet); TDV Mehdîler 'Teâyişî Kordofan’a kaçmayı başardıysa da 22 Kasım 1899’da ... öldürüldü' → Kordofan'da fiilî Mahdist direnişi 1899-11'e kadar, künye sorusu LAB. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:223",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1735] TDV «Kordofan» bölgede Nûbe krallığı hâkimiyeti anmıyor: XIV. yy müslüman göçleri, XVI. yy Func etkisi (orta kesim), XVII. yy sonundan Func-Dârfûr tampon bölgesi. Alve'nin Kordofan'a uzandığına dair tanıklık okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:223",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-08-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Dârfûr Sultanı Muhammed Teyrab bölgeyi tamamen işgal ederek ülkesine kattı",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "funj",
+      "f": "1504-01-01",
+      "t": "?"
+     },
+     {
+      "d": "darfur",
+      "f": "?",
+      "t": "1821-08-19",
+      "not": "Teyrab fethi 'XVIII. yüzyılın sonlarına doğru' — TDV yıl vermiyor; yıl kaynakla bulunacak (TDV «Dârfûr» maddesinde 'Teyrab' geçmiyor). Künye darfur f 1695-01-01 kapsar."
+     }
+    ]
+   },
+   "not": "[sira 1736] TDV «Kordofan»: XVII. yy sonundan Func doğu-orta, Dârfûr batı kesimine hâkim olmaya çalıştı; yüzyıl sonuna doğru Dârfûr Sultanı Muhammed Teyrab bütün Kordofan'ı ülkesine kattı ve 1821'de Bâre'deki Dârfûr garnizonu yıkıldı → 1821'e kadar sahip Func değil Dârfûr. t 1821-08-19 (Bâre) TDV'de yalnız yıl. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:223",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan ; TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "Defterdar Mehmed Hüsrev Bey tarafından ele geçirilerek Osmanlı-Mısır idaresine bağlandı (1821) | 19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 1737] f 1821 KAYNAKLI (yıl). t: TDV Kordofan ve Mehdîler — Osmanlı-Mısır idaresi Ocak 1883'te Ubeyd'in teslimiyle çöktü, diğer şehirler 'kısa zamanda' düştü; atlasın 1882-09-07'si (Ubeyd kuşatmasının başı) bir yerleşim düşüş günü değil. ABİ MERKEZ Ubeyyid; şehre özgü günler BEYANLI. Mahdist kırsal denetimi 1882 ortasından ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ],
+ "Bâbanûsa": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:232",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi | Omdurman’ı ... ele geçirdiler (1898)",
+   "oneri": {
+    "f": "1883-01-19",
+    "t": "1898-09-02",
+    "not": "HAYALET: künye mehdi t 1898-09-02; 1898-09-02 → 1899-01-19 arası İngiliz-Mısır fiilî idaresi (Kondominyum öncesi) için katman sorusu LAB'a (v: misir-kavalali + isg ingiltere?). Kordofan'da Teâyişî 1899-11-22'ye kadar direndi (TDV Mehdîler) → ic_not."
+   },
+   "not": "[sira 1738] f: bkz. v satırı (Ubeyd 1883-01-19, ABİ MERKEZ). t: künye mehdi t 1898-09-02 — 1899-01-19 künyeyi aşıyor (hayalet); TDV Mehdîler 'Teâyişî Kordofan’a kaçmayı başardıysa da 22 Kasım 1899’da ... öldürüldü' → Kordofan'da fiilî Mahdist direnişi 1899-11'e kadar, künye sorusu LAB. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:232",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hartum», https://islamansiklopedisi.org.tr/hartum",
+   "alinti": "Sudan’ı birlikte yönetiyorlarmış görünümü altında kendi sömürgeleri haline getirdiler (1899)",
+   "oneri": {},
+   "not": "[sira 1739] uc f yıl düzeyi (Kondominyum 1899; gün 01-19 teyitsiz). t 1956-01-01 aranmadı → t teyitsiz. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:232",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 1740] TDV «Kordofan» bölgede Nûbe krallığı hâkimiyeti anmıyor: XIV. yy müslüman göçleri, XVI. yy Func etkisi (orta kesim), XVII. yy sonundan Func-Dârfûr tampon bölgesi. Alve'nin Kordofan'a uzandığına dair tanıklık okunmadı. Bâbanûsa'nın kuruluş yılı aranmadı (modern demiryolu kavşağı olabilir — sınanmadı).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:232",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-08-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Dârfûr Sultanı Muhammed Teyrab bölgeyi tamamen işgal ederek ülkesine kattı",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "funj",
+      "f": "1504-01-01",
+      "t": "?"
+     },
+     {
+      "d": "darfur",
+      "f": "?",
+      "t": "1821-08-19",
+      "not": "Teyrab fethi 'XVIII. yüzyılın sonlarına doğru' — TDV yıl vermiyor; yıl kaynakla bulunacak (TDV «Dârfûr» maddesinde 'Teyrab' geçmiyor). Künye darfur f 1695-01-01 kapsar."
+     }
+    ]
+   },
+   "not": "[sira 1741] TDV «Kordofan»: XVII. yy sonundan Func doğu-orta, Dârfûr batı kesimine hâkim olmaya çalıştı; yüzyıl sonuna doğru Dârfûr Sultanı Muhammed Teyrab bütün Kordofan'ı ülkesine kattı ve 1821'de Bâre'deki Dârfûr garnizonu yıkıldı → 1821'e kadar sahip Func değil Dârfûr. t 1821-08-19 (Bâre) TDV'de yalnız yıl. [alıntı ham metinden, sayfa.py]",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:232",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan ; TDV İslâm Ansiklopedisi, «Mehdîler (Sudan)», https://islamansiklopedisi.org.tr/mehdiler--sudan",
+   "alinti": "Defterdar Mehmed Hüsrev Bey tarafından ele geçirilerek Osmanlı-Mısır idaresine bağlandı (1821) | 19 Ocak 1883’te Ubeyd şehrini teslim alan Mehdî | Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi",
+   "oneri": {
+    "t": "1883-01-19"
+   },
+   "not": "[sira 1742] f 1821 KAYNAKLI (yıl). t: TDV Kordofan ve Mehdîler — Osmanlı-Mısır idaresi Ocak 1883'te Ubeyd'in teslimiyle çöktü, diğer şehirler 'kısa zamanda' düştü; atlasın 1882-09-07'si (Ubeyd kuşatmasının başı) bir yerleşim düşüş günü değil. ABİ MERKEZ Ubeyyid; şehre özgü günler BEYANLI. Mahdist kırsal denetimi 1882 ortasından ic_not. [alıntı ham metinden, sayfa.py]",
+   "uc": "f"
+  }
+ ]
+}

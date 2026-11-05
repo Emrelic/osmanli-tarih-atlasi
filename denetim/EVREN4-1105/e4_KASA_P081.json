@@ -1,0 +1,104 @@
+{
+ "Hacıoğlupazarcığı (Dobrich)": [
+  {"dosya_satir": "data/yerlesimler_ek29.js:530", "alan": "s", "d": "bulgaristan-halk", "f": "1946-09-15", "t": "1990-11-15", "hukum": "BULUNAMADI", "kaynak": "", "alinti": "", "oneri": {}, "uc": "",
+   "not": "[sira 4470] Mevcut kaynak LoC Bulgaria Country Study (Curtis ed., 1993) — loc.gov/item/93010955 403, marines.mil PDF kopyası robots yasağı, lcweb2 UNT arşivi boş; archive.org'da bulunamadı. president.bg kurum sayfası 1946'yı vermiyor. Arama özetleri (BNR, Vikipedi) dayanak değil. Ülke düzeyi rejim değişimi (8 Eylül 1946 referandumu / 15 Eylül 1946 ilan), toprak değişimi değil. TARAYICI: LoC Bulgaria: A Country Study, https://www.loc.gov/item/93010955/"},
+  {"dosya_satir": "data/yerlesimler_ek29.js:530", "alan": "s", "d": "bulgaristan-cumhuriyeti", "f": "1990-11-15", "t": "2000-12-31", "hukum": "BULUNAMADI", "kaynak": "", "alinti": "", "oneri": {}, "uc": "",
+   "not": "[sira 4471] Aynı yerlere bakıldı (LoC 403, marines.mil robots, UNT arşivi boş). m.president.bg 'Institution' sayfası (resmî) 1990 Yuvarlak Masa, 1 Ağustos 1990 Jelev seçimi ve 12 Temmuz 1991 anayasasını verir; 15 Kasım 1990 ad değişikliği cümlesi o sayfada YOK. t 2000-12-31 atlas ufku. TARAYICI: LoC Bulgaria: A Country Study"}
+ ],
+ "Esutoru kıyısı (bölge)": [
+  {"dosya_satir": "data/yerlesimler_a78_asya.js:396", "alan": "s", "d": "rusya-federasyonu", "f": "1991-12-26", "t": "2000-12-31", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "uc": "",
+   "not": "[sira 4472] [KÜME K03] ülke düzeyi küme ajanında."}
+ ],
+ "Umma (Tell Jokha)": [
+  {"dosya_satir": "data/yerlesimler_mo_sumer.js:89", "alan": "s", "d": "__BOSLUK__", "f": "-2323-01-01", "t": "-2299-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Sallaberger, W. & Schrakamp, I. 2015, ARCANE III: History & Philology, Brepols, Table 39 s. 136 (assyriologie.uni-muenchen.de/.../wasa_schrakamp_2015_arcane1.pdf)",
+   "alinti": "Lugalzagesi of Uruk 25 years ca. 2324-2300 ±30", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4473] [alıntı ham metinden, pypdf] MC; astronomik yıl MÖ 2324 = -2323, MÖ 2300 = -2299. Boşluk beyanı (Lugalzagesi krallığı künyesiz) uçlarıyla teyitli. s. 86: Lugalzagesi 'began as a governor of Umma' (PDF s.102). Kesinlik ±30 yıl."},
+  {"dosya_satir": "data/yerlesimler_mo_sumer.js:89", "alan": "s", "d": "akad", "f": "-2299-01-01", "t": "-2153-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Table 39 s. 136",
+   "alinti": "Sargonic period beginning in Babylonia ca. 2300", "oneri": {}, "uc": "f",
+   "not": "[sira 4474] [alıntı ham metinden, pypdf] t teyitsiz: -2153 (MÖ 2154) künye akad t'sidir; Table 39 Dudu 2177-2157, Shudurul 2156-2142, Gutean Period 2180±30-2111 verir — Akad egemenliğinin Umma'da bittiği yıl tabloda yok."},
+  {"dosya_satir": "data/yerlesimler_mo_sumer.js:89", "alan": "s", "d": "__BOSLUK__", "f": "-2153-01-01", "t": "-2109-01-01", "hukum": "ONERI",
+   "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Table 39 s. 136",
+   "alinti": "Gutean Period 70±10-±30 years 2180±30 -2111 ... Urnamma of Ur III 18 years 2110-2093", "oneri": {"t": "-2111-01-01"}, "uc": "t",
+   "not": "[sira 4475] [alıntı ham metinden, pypdf] Sallaberger MC ile t -2109 (MÖ 2110) doğrudur. ONERI yalnız KONVANSİYON içindir: proje kuralı Ur III için Frayne RIME; künye ur-3 f -2111 (Frayne 2112) — yerleşim ucu künyeyle aynı konvansiyonda olmalı. Frayne RIME 3/2 bu ajanca OKUNMADI; karar EMRELİC. Sira 4476 ile birlikte değişir. f teyitsiz (künye akad t)."},
+  {"dosya_satir": "data/yerlesimler_mo_sumer.js:89", "alan": "s", "d": "ur-3", "f": "-2109-01-01", "t": "-2021-01-01", "hukum": "ONERI",
+   "kaynak": "Sallaberger & Schrakamp 2015, ARCANE III, Table 39 s. 136; s. 50 (PDF s.66)",
+   "alinti": "Urnamma of Ur (MC 2110- 2093), left only a handful of year dates", "oneri": {"f": "-2111-01-01"}, "uc": "f",
+   "not": "[sira 4476] [alıntı ham metinden, pypdf] Sallaberger MC 2110 = -2109 teyitli; ONERI konvansiyon birliği için (künye ur-3 f -2111, Frayne RIME 3/2 2112; Frayne okunmadı, EMRELİC kararı). t teyitsiz: -2021 (MÖ 2022) için Umma'ya özgü cümle bulunamadı; Table 39 Ibbisuen 2026-2003; s. 32 uzak eyaletlerin 'after the year Ibbisuen 3 (= MC 2024)' bağımsızlaşabileceğini söyler (Assur bağlamı)."}
+ ],
+ "Mısyâf (Maşyāf)": [
+  {"dosya_satir": "data/yerlesimler_once1281_yt_anadolu_kafkas.js:79", "alan": "s", "d": "memluk", "f": "1270-01-01", "t": "1281-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Jerzy Hauziński, 'The Syrian Nizārī Ismā'īlīs after the Fall of Alamūt', Rocznik Orientalistyczny LXIV/1 (2011), s. 174-185, journals.pan.pl/Content/82142",
+   "alinti": "he left it probably in early April 1270 (27 Ǧumādā II 668)", "oneri": {}, "uc": "f",
+   "not": "[sira 4477] [alıntı ham metinden, pypdf] Aynı paragraf: Sârimüddin 'was driven from the Masyāf fortress by Ayyubid Al-Malik al-Manṣūr, the emir of Hama' (Memlûk tâbii); Baybars Masyâf'ı 'a sort of a fief (tablkhana)' olarak vermek istedi. Yıl hassasiyeti uyar (kaynakta ay/gün çelişkili, 'not clear enough'). t 1281 atlas pencere sınırı, teyitsiz."}
+ ],
+ "Sechín Alto": [
+  {"dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:6", "alan": "s", "d": "casma-sechin", "f": "-1509-01-01", "t": "-1009-01-01", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "uc": "",
+   "not": "[sira 4478] Erişim: revistas.pucp.edu.pe (Bischof 2009, Boletín de Arqueología PUCP 13:9-54, article/download/977/944) Anubis bot korumasıyla reddetti; PUCP deposu kayıtlı kullanıcıya kısıtlı. TARAYICI: Bischof 2009, https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944"}
+ ],
+ "Nukuleka": [
+  {"dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:11", "alan": "s", "d": "tonga-lapita", "f": "-0887-01-01", "t": "-0742-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Burley D., Edinborough K., Weisler M., Zhao J-X 2015, 'Bayesian modeling and chronological precision for Polynesian settlement of Tonga', PLoS ONE 10(3): e0120795",
+   "alinti": "first establishment of the Nukuleka site is 2846–2830 cal BP (2σ) | For Tongatapu, the end date is 2703–2683 cal BP", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4479] [alıntı ham metinden, sayfa.py] 2846-2830 cal BP = MÖ 896-880, orta MÖ 888 = -0887; 2703-2683 cal BP = MÖ 753-733, orta MÖ 743 = -0742. t Tongatapu Lapita evresinin sonudur (ada düzeyi), Nukuleka'ya özgü değil — beyan."}
+ ],
+ "Petra": [
+  {"dosya_satir": "data/yerlesimler_mo_zincir.js:21", "alan": "s", "d": "nabatiye", "f": "-0167-01-01", "t": "0106-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nabatîler', c. 32 (2006), s. 257-258, https://islamansiklopedisi.org.tr/nabatiler",
+   "alinti": "Devlet, Roma İmparatoru Traianus döneminde başşehri Petra ele geçirilince yıkılmış (106)", "oneri": {}, "uc": "t",
+   "not": "[sira 4480] [alıntı ham metinden, sayfa.py] f teyitsiz: TDV 'Milâttan önce 170’ten sonraki Nabatî krallarının adları ... Bunların ilki I. Arethas' der (MÖ 168 yılı adıyla yok); krallık 'Milâttan önce IV. yüzyılın sonlarından itibaren' biliniyor ve Petra'yı Nabatîler kurmuş — f daha erken olabilir, ama künye nabatiye f -0167 (hayalet sınırı); künye GENİŞLET sorusu LAB'a."},
+  {"dosya_satir": "data/yerlesimler_mo_zincir.js:21", "alan": "s", "d": "roma-imp", "f": "0106-01-01", "t": "0395-01-17", "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nabatîler', c. 32, s. 257-258",
+   "alinti": "Roma İmparatoru Traianus döneminde başşehri Petra ele geçirilince yıkılmış (106)", "oneri": {}, "uc": "f",
+   "not": "[sira 4481] [alıntı ham metinden, sayfa.py] t teyitsiz: 0395-01-17 künye roma-imp ucu (imparatorluğun bölünmesi, ülke düzeyi)."}
+ ],
+ "Ebu Hureyre (Abu Hureyra)": [
+  {"dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:9", "alan": "s", "d": "aseramik-kuzey-levant-anadolu", "f": "-11219-01-01", "t": "-7099-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Benz M. (ed.), ex oriente PPND – Platform for Neolithic Radiocarbon Dates, 'Abu Hureyra', https://www.exoriente.org/associated_projects/ppnd_site.php?s=2",
+   "alinti": "indicates an occupation of the settlement between 11220 and 10750 BC | Most of the younger dates of the Neolithic Phase 2B end around 7100 BC", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4482] [alıntı ham metinden, sayfa.py] Kesintili iskân: Epipaleolitik 11220-10750, Neolitik Faz 2A ~7760/7600-7440, 2B ~7400-7100 BC; arada boşluk olabilir (tek dönem beyanla kalır). Sayfa terk ucunun 'probably earlier' olabileceğini söyler (kalibrasyon platosu)."}
+ ],
+ "Mureybet": [
+  {"dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:10", "alan": "s", "d": "aseramik-kuzey-levant-anadolu", "f": "-10149-01-01", "t": "-7949-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Benz M. (ed.), ex oriente PPND, 'Mureybet', https://www.exoriente.org/associated_projects/ppnd_site.php?s=44",
+   "alinti": "Phase I/II = late Natufian (10150-9250 BC) ... Phase IVA/IVB = PPNB ancien/moyen (IVA: 8750-7950 BC", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4483] [alıntı ham metinden, sayfa.py] Tek cümle iki ucu verir."}
+ ],
+ "Hallan Çemi": [
+  {"dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:13", "alan": "s", "d": "aseramik-kuzey-levant-anadolu", "f": "-9659-01-01", "t": "-9319-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Benz M. (ed.), ex oriente PPND, 'Hallan Çemi', https://www.exoriente.org/associated_projects/ppnd_site.php?s=26",
+   "alinti": "The main occupation of the site starts around 9660 BC and lasts until about 9320 BC", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4484] [alıntı ham metinden, sayfa.py] Sayfa ayrıca Holosen öncesi (Natufian 11100-9300 BC) yüksek sapmalı tarihlerle daha eski bir iskân bulunduğunu söyler; kalibre edilmedi — beyan."}
+ ],
+ "Mehrgarh": [
+  {"dosya_satir": "data/yerlesimler_mo_iran_asya.js:7", "alan": "s", "d": "mehrgarh-neolitik", "f": "-5049-01-01", "t": "-4723-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Mutin B., Zazzo A., Bondioli L., ... Vidale M., Didier A. 2025, 'New radiocarbon dates of human tooth enamel reveal a late appearance of farming life in the Indus Valley', Scientific Reports 15:11345 (PMC12000376)",
+   "alinti": "aceramic Neolithic cemetery at Mehrgarh started between 5200 and 4900 BCE | ended during the first third of the 5th millennium BCE (4769 − 4679 cal. BCE)", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4485] [alıntı ham metinden, sayfa.py] (Europe PMC tam metin). Orta noktalar MÖ 5050 = -5049, MÖ 4724 = -4723. Atlas kaynak adı 'Vidale vd. 2025' — ilk yazar Mutin; kaynak alanı 'Mutin vd. 2025' diye düzeltilmeli. Uçlar mezarlığındır (yerleşim değil) — beyan."}
+ ],
+ "Taosi": [
+  {"dosya_satir": "data/yerlesimler_mo_dogu_asya.js:9", "alan": "s", "d": "taosi-kultur", "f": "-2299-01-01", "t": "-1899-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Shao Jing (邵晶), 「石峁遗址与陶寺遗址的比较研究」, 《考古》2020年第5期; CSSN 2020-07-24, https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552726.shtml",
+   "alinti": "遗址绝对年代为公元前2300年至公元前1900年", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4486] [alıntı ham metinden, sayfa.py]"}
+ ],
+ "Sanxingdui": [
+  {"dosya_satir": "data/yerlesimler_mo_dogu_asya.js:12", "alan": "s", "d": "sanxingdui-kultur", "f": "-1599-01-01", "t": "-1049-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Zhu Naicheng (朱乃诚), 「三星堆文明形成的年代和机制」, 《中原文化研究》 2021, https://zywhyj.cn/Uploads/PdfFile/2021-07-15/60eff1387ee58.pdf",
+   "alinti": "三星堆文明形成于三星堆遗址二期，具体年代大致在公元前1600年至公元前1500年", "oneri": {}, "uc": "f",
+   "not": "[sira 4487] [alıntı ham metinden, pypdf] Atlasın gösterdiği CSSN 2022 metni bulunamadı (CSSN t20220803_5464009 başka makale, Wang Zhenzhong); aynı yazarın 2021 makalesi okundu. t teyitsiz: MÖ 1050 bu PDF'te yok (arama özetinde Guangming Ribao 'MÖ 1050 前后' geçer — dayanak değil)."}
+ ],
+ "Lepenski Vir": [
+  {"dosya_satir": "data/yerlesimler_mo_avrupa.js:4", "alan": "s", "d": "lepenski-vir-kultur", "f": "-9589-01-01", "t": "-5779-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Borić D., Higham T., Cristiani E., Dimitrijević V. vd. 2018, 'High-Resolution AMS Dating of Architecture, Boulder Artworks and the Transition to Farming at Lepenski Vir', Scientific Reports 8:14221 (PMC6155048)",
+   "alinti": "The site was likely occupied from the beginning of the Holocene in 9,900–9,280 cal BC | ends in 5,900–5,6 60 cal BC (95% probability; End Early_Neo_LV_III )", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4488] [alıntı ham metinden, sayfa.py] (Europe PMC tam metin, Model 2; '5,6 60' kaynaktaki dizgi kırığı = 5,660, Tablo 1 aynı). Orta noktalar MÖ 9590 = -9589, MÖ 5780 = -5779."}
+ ],
+ "Xagħra (Brochtorff Çemberi)": [
+  {"dosya_satir": "data/yerlesimler_mo_avrupa.js:7", "alan": "s", "d": "malta-gantija-tarxien", "f": "-3511-01-01", "t": "-2419-01-01", "hukum": "KAYNAKLI",
+   "kaynak": "Malone C., Cutajar N., McLaughlin T.R. vd. 2019, 'Island questions: the chronology of the Brochtorff Circle at Xagħra, Gozo...', Archaeol Anthropol Sci 11(8):4251-4306 (Glasgow Enlighten 299630 PDF)",
+   "alinti": "burial in the rock-cut tomb would have begun in 3640–3500 cal BC (73% probability) or 3465–3385 | Burial in context 1241 in the east cave came to an end in 2490–2350 cal BC", "oneri": {}, "uc": "f+t",
+   "not": "[sira 4489] [alıntı ham metinden, pypdf] Orta noktalar MÖ 3512 = -3511, MÖ 2420 = -2419. Kaya mezarı ~3355-3095'te kullanımdan çıkar, yüzey etkinliği ~2970'te başlar — arada boşluk olabilir (beyan). Alan Tarxien Cemetery evresinde (MÖ 3./2. binyıl) kullanılmaya devam eder; t künyenin Tarxien sonu ucudur."}
+ ]
+}

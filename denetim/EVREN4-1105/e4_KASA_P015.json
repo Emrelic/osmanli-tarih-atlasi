@@ -1,0 +1,1592 @@
+{
+ "Bremen": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "bpb, Handwörterbuch des politischen Systems, «Land Freie Hansestadt Bremen» (https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202054/land-freie-hansestadt-bremen/) ; Enciclopedia Italiana (1929-37) «Brema» (kismen)",
+   "alinti": "1811 wurde HB als Hauptort des Departements Wesermündung in das Französische Kaiserreich eingegliedert.",
+   "oneri": {
+    "bol": "s: almanya 1281-01-01 → 1806 · isg fransa-cumhuriyet 1806 → 1811 (s: almanya altında) · s: fransa-cumhuriyet 1811 → 1813 · s: almanya 1813 → 1945-06-05"
+   },
+   "uc": "",
+   "not": "[sira 1163] bpb: «1806 marschierten napoleonische Truppen in die Stadt ein und stellten sie unter Besatzungsherrschaft» → ÖLÇÜT: geçici/askerî — Besatzungsherrschaft (isg). 1811 «eingegliedert» → ÖLÇÜT: idareye katma — Departement Wesermündung (s:). «1813 endete die napoleonische Herrschaft». Günler kaynakta yok (YIL); İPUCU 1810-12-13 senatus-consulte / 1811-01-01 département — kaynakla bulunacak. t 1945-06-05 Avalon ile teyitli. EI 1929-37 «fino al 1806, quando la città fu annessa all'impero napoleonico» (kismen; bpb ile yıl çelişkisi ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "frank",
+   "f": "0804-01-01",
+   "t": "0843-08-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1164] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1165] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya",
+   "f": "0962-02-02",
+   "t": "1000-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1166] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1167] Mevcut kaynak EI 1929-37 «Brema»; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) ; Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany | Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1168] ÜLKE DÜZEYİ; f Avalon (gün başlıktan, yıl bağlamdan), t bpb. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/) ; Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland. | den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1169] ÜLKE DÜZEYİ; f bpb, t DHM (Volkskammer kararı, yürürlük 3 Ekim 1990). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:427",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1170] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Stettin (Szczecin)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1648-10-24",
+   "t": "1720-02-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Stettino» (https://www.treccani.it/enciclopedia/stettino/)",
+   "alinti": "Nel 1648 passò alla Svezia; nel 1720, per la pace di Stoccolma, alla Prussia",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1171] YIL düzeyi (gün 10-24 Vestfalya / 02-01 Stockholm kaynakta yok). İPUCU: İsveç Stettin'i 1630'dan işgal etti (Stettin Antlaşması 1630) — TEK KURAL'a göre isg isvec 1630 → 1648 adayı, kaynakla bulunacak. Takvim: Stockholm 21 Ocak 1720 (Jülyen) = 1 Şubat 1720 (Gregoryen) İPUCU. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1720-02-01",
+   "t": "1871-01-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Stettino» (https://www.treccani.it/enciclopedia/stettino/)",
+   "alinti": "nel 1720, per la pace di Stoccolma, alla Prussia",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1172] f YIL. t 1871-01-18 teyitsiz (ülke düzeyi künye ucu). TEK ÖLÇÜ: Prusya 1713 sekestrinden beri yönetiyordu → imza günü doğru tip. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1648-10-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Stettino» (https://www.treccani.it/enciclopedia/stettino/)",
+   "alinti": "Nel 1648 passò alla Svezia",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1173] t YIL; f 1281 atlas ufku. Pomeranya dükalığı (Greifen) künyesi yok, almanya şemsiyesi. 1630-1648 İsveç işgali bkz. sira 1171. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "dzieje.pl (Muzeum Historii Polski portalı, PAP), «Dokumenty z początków polskiej administracji odnalezione w magistracie» (https://dzieje.pl/node/124734) ; Treccani, Enciclopedia on line, «Stettino» (https://www.treccani.it/enciclopedia/stettino/)",
+   "alinti": "Armia I Frontu Białoruskiego ... zajęła lewobrzeżną część miasta 26 kwietnia 1945 r.",
+   "oneri": {
+    "isg_ekle": {
+     "d": "sovyet-rusya",
+     "f": "1945-04-26",
+     "t": "1945-07-05"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1174] TEK KURAL: Kızıl Ordu girişi 1945-04-26 → Polonya idaresine teslim 1945-07-05 arası Sovyet komendanturası (isg). s: almanya t 1945-06-05 (Avalon) kalır; 06-05 → 07-05 s: almanya-muttefik-isgali. 1945-05-19 ve 06-09→06-19 kısa Polonya idareleri ic_not. Kaynak niteliği: PAP haberi (akademik değil) — TARAYICI: J. Tyszkiewicz, «Ziemie obiecane», Pamięć i Przyszłość 2010/1 (kwartalnik.zajezdnia.org PDF). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-06-05",
+   "t": "1989-12-31",
+   "hukum": "ONERI",
+   "kaynak": "dzieje.pl (Muzeum Historii Polski portalı, PAP), «Dokumenty z początków polskiej administracji odnalezione w magistracie» (https://dzieje.pl/node/124734)",
+   "alinti": "Polska administracja oficjalnie przejęła Szczecin od sowieckiej komendantury 5 lipca 1945 r.",
+   "oneri": {
+    "f": "1945-07-05"
+   },
+   "uc": "f",
+   "not": "[sira 1175] TEK ÖLÇÜ: Polonya 07-05'ten fiilen yönetiyordu; Potsdam (1945-08-02) ic_not. «28 czerwca Stalin zdecydował, że Szczecin obejmie polska administracja 5 lipca». t 1989-12-31 teyitsiz (künye). Kaynak niteliği bkz. sira 1174. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:434",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1176] Mevcut kaynak Dziennik Ustaw / künye; bütçe."
+  }
+ ],
+ "Trier": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1801-02-09",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Treviri» (https://www.treccani.it/enciclopedia/treviri/)",
+   "alinti": "dal 1798 T. fu la capitale del dipartimento francese della Sarre. Nel 1815 passò alla Prussia.",
+   "oneri": {
+    "t": "Fransız fethi (İPUCU 1794-08-09, kaynakla) ya da en geç 1798 (département) — Lunéville 1801-02-09 ic_not"
+   },
+   "uc": "",
+   "not": "[sira 1177] TAHRİR ÖLÇÜTÜ: «dipartimento francese della Sarre» (1798) = idareye katma belgesi → s: fransa-cumhuriyet FETİH gününden başlar, Lunéville antlaşması ic_not'a (Habsburg Macaristan emsali). Fetih günü Treccani'de yok. Kaydın kendi notu da «fiilî Fransız işgali 1794 sonbaharından» der. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Treviri» (https://www.treccani.it/enciclopedia/treviri/)",
+   "alinti": "fu occupata da truppe alleate dal dicembre 1918 al giugno 1930",
+   "oneri": {
+    "isg_ekle": {
+     "d": "fransa-cumhuriyet (ilk aylarda ABD)",
+     "f": "1918-12 (gün kaynakla)",
+     "t": "1930-06 (gün kaynakla; İPUCU 1930-06-30)"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1178] TEK KURAL: Ren işgali (Versay md. 428) Alman egemenliğini kaldırmadı → isg katmanı; s: almanya kalır. AY düzeyi. f 1871-01-18 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1801-02-09",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Treviri» (https://www.treccani.it/enciclopedia/treviri/)",
+   "alinti": "dal 1798 T. fu la capitale del dipartimento francese della Sarre. Nel 1815 passò alla Prussia.",
+   "oneri": {
+    "f": "bkz. sira 1177 (fetih günü ya da en geç 1798)"
+   },
+   "uc": "t",
+   "not": "[sira 1179] f: TAHRİR (sira 1177). t 1815 YIL uyumlu (06-09 Viyana Nihaî Senedi, kaydın kendi kaynağı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1815-06-09",
+   "t": "1871-01-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Treviri» (https://www.treccani.it/enciclopedia/treviri/)",
+   "alinti": "Nel 1815 passò alla Prussia.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1180] f YIL; t 1871-01-18 teyitsiz (künye). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "frank",
+   "f": "0481-01-01",
+   "t": "0843-08-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1181] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "orta-francia-lotharingia",
+   "f": "0855-09-29",
+   "t": "0925-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1182] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya",
+   "f": "0962-02-02",
+   "t": "1000-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1183] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1184] Mevcut kaynak Treccani «treviri» (yüzyıl); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) ; Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany | Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1185] ÜLKE DÜZEYİ; f Avalon (gün başlıktan, yıl bağlamdan), t bpb. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/) ; Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland. | den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1186] ÜLKE DÜZEYİ; f bpb, t DHM (Volkskammer kararı, yürürlük 3 Ekim 1990). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:444",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1187] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Leipzig": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:448",
+   "alan": "s",
+   "d": "saksonya",
+   "f": "1281-01-01",
+   "t": "1918-11-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1188] Saksonya künyesi; Meissen zinciri; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:448",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-13",
+   "t": "1945-06-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1189] t ÜLKE DÜZEYİ (Avalon, gün başlıktan). f 1918-11-13 teyitsiz (künye saksonya t). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:448",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-10-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1190] f ÜLKE DÜZEYİ; t 1949-10-07 (DDR kuruluşu) teyitsiz. İPUCU: Leipzig Nisan 1945'te ABD işgalinde, Temmuz 1945 başında Sovyet bölgesine devredildi — ic_not adayı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:448",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1191] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Nürnberg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:451",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Norimberga» (https://www.treccani.it/enciclopedia/norimberga/)",
+   "alinti": "ancora riconosciuta come città libera con la pace di Lunéville (1801), nel 1806 fu annessa alla Baviera",
+   "oneri": {
+    "bol": "s: almanya 1281-01-01 → 1806 (gün kaynakla; İPUCU 1806-09-15) · s: bavyera 1806 → 1918-11-08 · s: almanya 1918-11-08 → 1945-06-05"
+   },
+   "uc": "",
+   "not": "[sira 1192] Münih emsali (bavyera künyesi f 1506-07-08, t 1918-11-08 — 1806'yı kapsar, hayalet yok). Treccani yalnız YIL verir. t 1945-06-05 Avalon. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:451",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1050-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1193] Mevcut kaynak Treccani «norimberga»; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:451",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) ; Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany | Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1194] ÜLKE DÜZEYİ; f Avalon (gün başlıktan, yıl bağlamdan), t bpb. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:451",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/) ; Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland. | den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1195] ÜLKE DÜZEYİ; f bpb, t DHM (Volkskammer kararı, yürürlük 3 Ekim 1990). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:451",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1196] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Regensburg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Ratisbona» (https://www.treccani.it/enciclopedia/ratisbona/)",
+   "alinti": "fu occupata dai Francesi nel 1809, l’anno successivo venne incorporata nel nuovo Regno di Baviera",
+   "oneri": {
+    "bol": "s: almanya → 1810 (gün kaynakla) · s: bavyera 1810 → 1918-11-08 · s: almanya 1918-11-08 → 1945-06-05"
+   },
+   "uc": "",
+   "not": "[sira 1197] Treccani: «Principato autonomo retto da K. von Dalberg» (1803-1810; künye YOK → LAB, şimdilik almanya şemsiyesi + ic_not). 1809 Fransız işgali ÖLÇÜT: geçici/askerî → isg fransa-cumhuriyet 1809 (gün kaynakla), kısa. Bavyera'ya katılış YIL (1810). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "bavyera-agilolfing",
+   "f": "0700-01-01",
+   "t": "0788-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1198] Mevcut kaynak Treccani; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1199] Mevcut kaynak Treccani; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1200] Mevcut kaynak Treccani; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) ; Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany | Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1201] ÜLKE DÜZEYİ; f Avalon (gün başlıktan, yıl bağlamdan), t bpb. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/) ; Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland. | den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1202] ÜLKE DÜZEYİ; f bpb, t DHM (Volkskammer kararı, yürürlük 3 Ekim 1990). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:452",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1203] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Konstanz": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1805-12-26",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Costanza» (https://www.treccani.it/enciclopedia/costanza/)",
+   "alinti": "Con la pace di Presburgo (1805) passò al granducato di Baden, che l’occupava provvisoriamente dal 1802.",
+   "oneri": {
+    "d": "baden",
+    "t": "1918-11-22",
+    "sonra": "s: almanya 1918-11-22 → 1945-06-05"
+   },
+   "uc": "f",
+   "not": "[sira 1204] f 1805-12-26 TEK ÖLÇÜ ile uyumlu (Baden 1802'den yönetiyordu → Pressburg imza günü). Devlet yanlış: Konstanz 1805-1918 Baden'dir (baden künyesi f 1112, t 1918-11-22; hayalet yok). Münih/Leipzig emsali. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1548-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Costanza» (https://www.treccani.it/enciclopedia/costanza/)",
+   "alinti": "Carlo V la concesse al fratello Ferdinando nel 1548",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1205] t YIL (HLS 1548 ile çift teyit, kaydın sonraki dönemi). f 1281 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "frank",
+   "f": "0536-01-01",
+   "t": "0843-08-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1206] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1207] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya",
+   "f": "0962-02-02",
+   "t": "1000-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1208] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1209] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 Haziran 1945 — Avalon Project, Yale Law School (https://avalon.law.yale.edu/wwii/ger01.asp) ; Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/)",
+   "alinti": "June 5, 1945 — hereby assume supreme authority with respect to Germany | Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1210] ÜLKE DÜZEYİ; f Avalon (gün başlıktan, yıl bağlamdan), t bpb. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bundeszentrale für politische Bildung, «75 Jahre Grundgesetz» (23.05.2024; https://www.bpb.de/kurz-knapp/hintergrund-aktuell/548752/75-jahre-grundgesetz/) ; Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "Der 23. Mai 1949 ist ... zugleich das Gründungsdatum der Bundesrepublik Deutschland. | den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1211] ÜLKE DÜZEYİ; f bpb, t DHM (Volkskammer kararı, yürürlük 3 Ekim 1990). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:457",
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Deutsches Historisches Museum, «1990 – Der Weg zur Einheit: Beitrittsbeschluss und Einigungsvertrag» (https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/beitrittsbeschluss_und_einigungsvertrag.html)",
+   "alinti": "den Beitritt der DDR zum Geltungsbereich des Grundgesetzes mit Wirkung zum 3. Oktober 1990",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1212] ÜLKE DÜZEYİ; t 2000-12-31 atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sondrio": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1799-04-27",
+   "t": "1800-06-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1213] Künye italya-napolyon kronolojisi; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-04-16",
+   "t": "1859-06-04",
+   "hukum": "ONERI",
+   "kaynak": "Kural uygulaması — DA-BRIEF «Ön barış ≠ devir (Milano 1859)»",
+   "alinti": "",
+   "oneri": {
+    "t": "1859-11-10",
+    "isg_ekle": {
+     "d": "sardinya-piyemonte",
+     "f": "Sardinya/Garibaldi kuvvetlerinin Valtellina'ya girişi 1859-06 (gün kaynakla)",
+     "t": "1859-11-10"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1214] Milano emsali: Villafranca (1859-07-11) devir değil, Zürih (1859-11-10) devirdir; arası isg. Treccani «Sondrio» 1859'u anmıyor («Alla restaurazione rimase unita alla Lombardia», tarihsiz). f 1814-04-16 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1943-09-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1215] Ülke düzeyi künye ucu (1861-03-17 / 1943-09-23); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1859-06-04",
+   "t": "1861-03-17",
+   "hukum": "ONERI",
+   "kaynak": "Kural uygulaması — DA-BRIEF «Ön barış ≠ devir (Milano 1859)»",
+   "alinti": "",
+   "oneri": {
+    "f": "1859-11-10"
+   },
+   "uc": "",
+   "not": "[sira 1216] Bkz. sira 1214. TEK ÖLÇÜ: Sardinya Lombardiya'yı yönetiyordu → Zürih imza günü. t 1861-03-17 künye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "visconti",
+   "f": "1335-01-01",
+   "t": "1395-05-11",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sondrio» (https://www.treccani.it/enciclopedia/sondrio/)",
+   "alinti": "Nel 1336 passò in mano ai Visconti e seguì le sorti del ducato milanese.",
+   "oneri": {
+    "f": "1336 (Treccani) ↔ 1335 (HLS «Veltlin», mevcut kaynak)"
+   },
+   "uc": "f",
+   "not": "[sira 1217] İki akademik kaynak bir yıl farklı; ikisi ic_not'a. Karar KASA'da (Como komünü kaydı 1335'i Treccani «Como»dan alır). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "milano-dukaligi",
+   "f": "1395-05-11",
+   "t": "1512-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sondrio» (https://www.treccani.it/enciclopedia/sondrio/)",
+   "alinti": "Per l’atto di dedizione di Teglio (1512) passò con la Valtellina ai Grigioni",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1218] t YIL (HLS günü 1512-06-24 mevcut kaynakta). f 1395-05-11 künye günü; Treccani «seguì le sorti del ducato milanese» (tarihsiz). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "graubunden",
+   "f": "1512-06-24",
+   "t": "1797-10-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sondrio» (https://www.treccani.it/enciclopedia/sondrio/)",
+   "alinti": "(1512) passò con la Valtellina ai Grigioni | All’avvicinarsi degli eserciti francesi nel 1797, anche S. si sollevò",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1219] YIL düzeyi; günler HLS'den (mevcut kaynak). İPUCU / ONERI adayı: Treccani «La rivoluzione scoppiata nel luglio 1620 ... si costituì un governo provvisorio» — 1620-1639 Valtellina'nın Graubünden'den kopuşu (İspanyol/Fransız işgali, Milano Kapitülasyonu 1639) zincirde yok; kaynakla bulunacak. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1797-10-10",
+   "t": "1799-04-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Sondrio» (https://www.treccani.it/enciclopedia/sondrio/)",
+   "alinti": "quando la Valtellina fu aggregata alla Repubblica cisalpina, divenne il capoluogo del dipartimento dell’Adda",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1220] f YIL (1797, aynı cümlede «nel 1797» — yıl bağlamdan). t 1799-04-27 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1800-06-04",
+   "t": "1814-04-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1221] Ülke düzeyi künye uçları; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "salo-cumhuriyeti",
+   "f": "1943-09-23",
+   "t": "1945-04-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1222] Ülke düzeyi künye uçları; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "italya",
+   "f": "1945-04-28",
+   "t": "1946-06-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1223] Ülke düzeyi künye uçları; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:481",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1224] Ülke düzeyi künye uçları; bütçe."
+  }
+ ],
+ "Udine": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1805-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1225] Künye Campo Formio; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1805-12-26",
+   "t": "1814-04-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1226] Künye italya-napolyon; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-04-16",
+   "t": "1866-10-03",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Udine» (https://www.treccani.it/enciclopedia/udine/)",
+   "alinti": "Le truppe italiane vi entrarono il 26 luglio 1866.",
+   "oneri": {
+    "isg_ekle": {
+     "d": "italya",
+     "f": "1866-07-26",
+     "t": "1866-10-03"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1227] TEK KURAL: 1866-07-26 İtalyan girişi → 10-03 Viyana Barışı arası savaş işgali (isg); s: avusturya t 10-03 kalır. f: Treccani «Passata sotto l’Austria nel 1815» (Viyana) — 1814-04-16 fiilî giriş günü okunmadı, 1815 ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "italya",
+   "f": "1866-10-03",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Udine» (https://www.treccani.it/enciclopedia/udine/)",
+   "alinti": "Le truppe italiane vi entrarono il 26 luglio 1866.",
+   "oneri": {
+    "isg_ekle": {
+     "d": "italya",
+     "f": "1866-07-26",
+     "t": "1866-10-03"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1228] f 1866-10-03 kalır (TEK ÖLÇÜ: İtalya fiilen yönetiyordu → Viyana imza günü); önündeki işgal dilimi isg. Plebisit 1866-10-21 ic_not. t 1946-06-18 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1420-06-07",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Udine» (https://www.treccani.it/enciclopedia/udine/)",
+   "alinti": "scontrandosi più volte coi patriarchi-duchi del Friuli ... rientrò nel 1420 con le truppe della Repubblica di Venezia",
+   "oneri": {
+    "d": "aquileia-patrikligi"
+   },
+   "uc": "t",
+   "not": "[sira 1229] Udine patrik-düklerin şehriydi (Treccani: «Fondata dal patriarca d’Aquileia Bertoldo di Merania»). HAYALET: aquileia-patrikligi künyesi t 1420-01-01 < dönem t 1420-06-07 → künye t GENİŞLET (1420-06-07) ya da LAB. t YIL teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1420-06-07",
+   "t": "1797-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Udine» (https://www.treccani.it/enciclopedia/udine/)",
+   "alinti": "rientrò nel 1420 con le truppe della Repubblica di Venezia ... fino alla caduta della Repubblica (1797)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1230] YIL düzeyi; 06-07 ve 05-12 günleri Treccani'de yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1797-05-12",
+   "t": "1797-10-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1231] DIGER; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:485",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1232] Ülke düzeyi; bütçe."
+  }
+ ],
+ "Rimini": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "papalik",
+   "f": "1281-01-01",
+   "t": "1797-02-19",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rimini» (https://www.treccani.it/enciclopedia/rimini/)",
+   "alinti": "fino al 1500, quando la città fu presa da Cesare Borgia. Dopo breve dominio veneziano (1503-09)",
+   "oneri": {
+    "bol": "s: papalik 1281 → 1503 · s: venedik 1503 → 1509 · s: papalik 1509 → 1797-02-19 (günler kaynakla)"
+   },
+   "uc": "",
+   "not": "[sira 1233] Malatesta senyörlüğü (papalık vekili) ve Borgia 1500 papalık içinde sayılabilir; Venedik 1503-1509 açık kopuştur (YIL). t 1797-02-19 Tolentino teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1799-04-27",
+   "t": "1800-06-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1234] Künye italya-napolyon; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-04-16",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rimini» (https://www.treccani.it/enciclopedia/rimini/)",
+   "alinti": "Occupata dagli Austriaci (1814) e poi per breve tempo da Gioacchino Murat (1815), ritornò nel 1816",
+   "oneri": {
+    "alan": "isg",
+    "d": "avusturya",
+    "not": "+ isg napoli (Murat) 1815 kısa; altında s: papalik (iddia sürüyor)"
+   },
+   "uc": "",
+   "not": "[sira 1235] ÖLÇÜT: geçici/askerî — «Occupata»; Papalık iddiası sürdü → isg. YIL düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "papalik",
+   "f": "1815-06-09",
+   "t": "1860-03-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rimini» (https://www.treccani.it/enciclopedia/rimini/)",
+   "alinti": "ritornò nel 1816 sotto il governo dello Stato Pontificio. Nel 1860 fu annessa al Regno d’Italia.",
+   "oneri": {
+    "f": "Papalık idaresinin fiilen dönüşü (Treccani 1816; gün kaynakla) — Viyana 1815-06-09 ic_not"
+   },
+   "uc": "",
+   "not": "[sira 1236] TEK ÖLÇÜ: Papalık 1815-06-09'da Rimini'yi yönetmiyordu → s: TESLİM günü. t 1860 YIL uyumlu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1946-06-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1237] Ülke düzeyi künye ucu; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1860-03-18",
+   "t": "1861-03-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rimini» (https://www.treccani.it/enciclopedia/rimini/)",
+   "alinti": "Nel 1860 fu annessa al Regno d’Italia.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1238] f YIL (03-18 ilhak kararnamesi günü yok). Treccani 'Regno d’Italia' der; hukuken Sardinya Krallığı'na ilhak. t 1861-03-17 künye. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1797-07-09",
+   "t": "1799-04-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1239] Künye italya-napolyon; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1800-06-04",
+   "t": "1814-04-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1240] Künye italya-napolyon; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:513",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1241] Ülke düzeyi; bütçe."
+  }
+ ],
+ "Cosenza": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1242] Ülke düzeyi; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1861-02-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Cosenza» (https://www.treccani.it/enciclopedia/cosenza/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1243] Treccani «Cosenza» 1860-61'i anmıyor. İPUCU: Garibaldi Calabria'dan Ağustos 1860'ta geçti; 1861-02-13 Gaeta teslimi Cosenza'nın devir günü değil → ONERI adayı (Garibaldi diktatörlüğü / plebisit 1860-10-21 / ilhak 1860-12-17), kaynakla."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1244] Künye uçları (ZİNCİR-GÜNEY-ANTİK); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0476-08-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1245] Künye uçları (ZİNCİR-GÜNEY-ANTİK); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "apulya-dukaligi",
+   "f": "1059-01-01",
+   "t": "1128-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1246] Mevcut kaynak Treccani 'Puglia'; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "sicilya-kralligi",
+   "f": "1128-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1247] Abi merkez zinciri; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1248] Ülke düzeyi; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "odoakar",
+   "f": "0476-08-23",
+   "t": "0493-03-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1249] Künye uçları (ZİNCİR-GÜNEY-ANTİK); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "dogu-got",
+   "f": "0493-03-05",
+   "t": "0553-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1250] Künye uçları (ZİNCİR-GÜNEY-ANTİK); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:533",
+   "alan": "s",
+   "d": "bizans",
+   "f": "0553-01-01",
+   "t": "1059-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Cosenza» (https://www.treccani.it/enciclopedia/cosenza/)",
+   "alinti": "fu invasa dai Longobardi di Benevento e poi riconquistata dai Bizantini nel 9° secolo",
+   "oneri": {
+    "bol": "bizans 553 → Lombard (Benevento) girişi · Lombard Benevento → 9. yy Bizans geri alışı · bizans → 1059 (yıllar kaynakla; künye sorusu LAB: Benevento Lombard dükalığı)"
+   },
+   "uc": "",
+   "not": "[sira 1251] Zincirde Lombard Benevento dönemi yok. Treccani yüzyıl düzeyi. devletler.js'te langobard (f 0568) var; Benevento dükalığı künyesi bulunamadı (yalnız benevento-papalik). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bellinzona": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:647",
+   "alan": "s",
+   "d": "milano-dukaligi",
+   "f": "1395-05-11",
+   "t": "1500-04-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "HLS «Bellinzona» (Gemeinde) https://hls-dhs-dss.ch/de/articles/002031/ — 403",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1252] HLS sayfa.py ve WebFetch'e 403. TARAYICI: HLS «Bellinzona», https://hls-dhs-dss.ch/de/articles/002031/. İPUCU (okunmadı): 1403-1419 Rusca/Sax, 1419-1422 Uri+Obwalden (Arbedo 1422), 1499-1500 Fransız (XII. Louis) — milano-dukaligi dönemi bölünmeli olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:647",
+   "alan": "s",
+   "d": "visconti",
+   "f": "1340-01-01",
+   "t": "1395-05-11",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1253] DIGER (HLS); HLS 403, sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:647",
+   "alan": "s",
+   "d": "isvicre",
+   "f": "1500-04-14",
+   "t": "1798-04-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1254] DIGER (HLS); HLS 403, sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:647",
+   "alan": "s",
+   "d": "helvetik-cumhuriyeti",
+   "f": "1798-04-12",
+   "t": "1803-02-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1255] DIGER (HLS); HLS 403, sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:647",
+   "alan": "s",
+   "d": "isvicre",
+   "f": "1803-02-19",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1256] DIGER (HLS); HLS 403, sınanmadı."
+  }
+ ],
+ "Mdina (Città Notabile)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1282-03-30",
+   "t": "1283-06-08",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Malta 1284’te Sicilya’yı ele geçiren Aragonlular’ın ... hâkimiyetine girdi",
+   "oneri": {
+    "t": "1284 (TDV) ↔ 1283-06-08 (Treccani DBI «Lancia, Manfredi», mevcut kaynak)"
+   },
+   "uc": "",
+   "not": "[sira 1257] Kaydın kendi beyanı da çelişkiyi anar. İki kaynak ic_not'a; karar KASA'da (TDV esas kuralı İslâm dünyası içindir, Malta Anjou-Aragon devri için Treccani DBI günlüdür). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "sicilya-aragon",
+   "f": "1283-06-08",
+   "t": "1530-03-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Malta 1284’te ... Aragonlular’ın | V. Carlos Malta’ya yerleştirdi (1530)",
+   "oneri": {
+    "f": "bkz. sira 1257"
+   },
+   "uc": "t",
+   "not": "[sira 1258] t 1530 YIL teyitli. 1410 «Kastilyalılar» (TDV) Aragon tacı içinde Trastámara hanedanıdır, devlet değişimi değil (ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1530-03-24",
+   "t": "1798-06-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "V. Carlos Malta’ya yerleştirdi (1530) | 1798’de Napolyon ... adayı ele geçirdi",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1259] YIL düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-06-12",
+   "t": "1800-09-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "1798’de Napolyon ... adayı ele geçirdi | Malta 1800’de İngiltere tarafından işgal edildi",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1260] YIL düzeyi. İPUCU (Mdina'ya özgü): Maltalı isyancılar 1798-09-02'de Mdina'yı Fransızlardan aldı; Fransızlar 1800'e dek yalnız Valletta'da — ONERI adayı, kaynakla bulunacak. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1800-09-05",
+   "t": "1964-09-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Malta 1800’de İngiltere tarafından işgal edildi | 1964’te ... bağımsızlığını aldı",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1261] YIL düzeyi. TDV 'işgal' der: TAHRİR sorusu — Amiens 1802 adayı Şövalyelere iade öngördü, hukukî devir Paris 1814-05-30; ÖLÇÜT kaynakla sınanmalı (ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "aglebi",
+   "f": "0870-08-29",
+   "t": "0909-03-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Ahmed b. Ömer yönetiminde yola çıkan bir filo ... (28 Ramazan 256 / 29 Ağustos 870)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1262] f GÜN. t 909-03-18 teyitsiz (künye aglebi sonu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "fatimi",
+   "f": "0909-03-18",
+   "t": "0947-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1263] TDV «Malta» Fâtımî dönemini anmıyor (870 Ağlebî → 1090 Norman)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "sicilya-emirligi",
+   "f": "0947-01-01",
+   "t": "1090-03-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Normanlar’ın 483’te (1090) Sicilya’dan gelerek Malta’yı ele geçirmelerine kadar sürdü",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1264] t YIL (hicrî 483 = 1090-02-24 → 1091-02-13; 03-06 günü TDV'de yok). f 947 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "sicilya-kralligi",
+   "f": "1090-03-06",
+   "t": "1282-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Normanlar’ın 483’te (1090) ... Malta’yı ele geçirmelerine | II. Ruggero 1127’de Malta’yı kesin olarak aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1265] f YIL. 1127 kesin alış ic_not. t 1282-03-30 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:696",
+   "alan": "s",
+   "d": "malta",
+   "f": "1964-09-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malta» (İ. Bostan / M. Tuncel; https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "1964’te referandumla İngiltere’den Commonwealth üyesi olarak bağımsızlığını aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1266] f YIL (09-21 günü TDV'de yok). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Cammû (Jammu)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:627",
+   "alan": "s",
+   "d": "cammu-kesmir",
+   "f": "1846-03-16",
+   "t": "1947-10-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cammû» (https://islamansiklopedisi.org.tr/cammu)",
+   "alinti": "İngilizler Keşmir bölgesini 1846’da ... Gulâb Singh’e verdiler | 1947’de ... Hindistan’ın idaresine geçti",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1267] YIL düzeyi (03-16 Amritsar, 10-26 Instrument of Accession günleri TDV'de yok). Prenslik İngiliz himayesindeydi → v: ingiltere katmanı ic_not adayı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:627",
+   "alan": "s",
+   "d": "kesmir",
+   "f": "1281-01-01",
+   "t": "1586-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cammû» (https://islamansiklopedisi.org.tr/cammu)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1268] TDV «Cammû»: Cammû racaları Keşmir'deki Hasan Şah ile «iş birliği yaptılar» — ayrı Racput beyliği izlenimi; Keşmir'e bağlılık tarihi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:627",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1586-10-01",
+   "t": "1752-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cammû» (https://islamansiklopedisi.org.tr/cammu)",
+   "alinti": "Cammû XVII. yüzyılda Bâbürlü İmparatorluğu’nun hâkimiyetine girdi ve bu durum XVIII. yüzyıla kadar devam etti.",
+   "oneri": {
+    "f": "XVII. yy (TDV; yıl kaynakla bulunacak) — 1586-10-01 Keşmir'in fethidir, Cammû'nun değil"
+   },
+   "uc": "",
+   "not": "[sira 1269] Muhtemelen v: (Racput beyliği Bâbürlü tâbiiyetinde) — TAHRİR sorusu; t 1752 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:627",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1752-01-01",
+   "t": "1808-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cammû» (https://islamansiklopedisi.org.tr/cammu)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1270] TDV «Cammû» Dürrânî dönemini anmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:627",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1808-01-01",
+   "t": "1846-03-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cammû» (https://islamansiklopedisi.org.tr/cammu)",
+   "alinti": "Keşmir Sih Devleti’nin eline geçtiği zaman (1819) Cammû da bu devlete katılmış",
+   "oneri": {
+    "f": "1819-01-01 [yalnız yıl]"
+   },
+   "uc": "t",
+   "not": "[sira 1271] İPUCU: Ranjit Singh'in Cammû'yu alışı 1808/1809 (TDV bunu demiyor). t 1846 teyitli (sira 1267). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tatta (Thatta)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:649",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1843-02-17",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sind» (https://islamansiklopedisi.org.tr/sind) ; Indian Independence Act 1947, s.1(1) (https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted)",
+   "alinti": "nihayet 1843’te imparatorluğun Bombay eyaletine bağlandı | As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1272] f YIL (02-17 Miani günü TDV'de yok); t GÜN. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:649",
+   "alan": "s",
+   "d": "sind",
+   "f": "1281-01-01",
+   "t": "1592-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sind» (https://islamansiklopedisi.org.tr/sind)",
+   "alinti": "1591’de merkezi Tatta (Thatta) olan Aşağı Sind zaptedilmek suretiyle Bâbürlü topraklarına katıldı",
+   "oneri": {
+    "t": "1591-01-01 [yalnız yıl]"
+   },
+   "uc": "t",
+   "not": "[sira 1273] Tatta adıyla anılır. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:649",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1592-01-01",
+   "t": "1701-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sind» (https://islamansiklopedisi.org.tr/sind)",
+   "alinti": "1591’de merkezi Tatta (Thatta) olan Aşağı Sind ... | 1153’te (1740) ... Nâdir Şah’ın",
+   "oneri": {
+    "f": "1591-01-01",
+    "t": "1740 (hicrî 1153 = 1740-03-29 → 1741-03-17; mîlâdî 1740 ile kesişimin ilk günü 1740-03-29, beyanlı)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1274] 1701 Kalhoraların Bâbürlü valiliği — TDV susuyor; Kalhoralar 1740'a dek Bâbürlü valisi sayılırsa Bâbürlü dönemi 1740'a uzar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:649",
+   "alan": "s",
+   "d": "sind",
+   "f": "1701-01-01",
+   "t": "1843-02-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sind» (https://islamansiklopedisi.org.tr/sind)",
+   "alinti": "1153’te (1740) ... Nâdir Şah’ın, 1754’te Ahmed Şah Dürrânî’nin ele geçirdiği ... 1783’te Tâlpûr",
+   "oneri": {
+    "bol": "afsar 1740 → 1754 (Kalhora tâbi: v:) · afgan-durrani 1754 → 1783 (v:) · sind (Tâlpûr) 1783 → 1843-02-17"
+   },
+   "uc": "",
+   "not": "[sira 1275] YIL düzeyi. Kalhora/Tâlpûr künyeleri yok → sind şemsiyesi. afsar ve afgan-durrani künyeleri var; f/t kapsamı KASA ölçmeli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:649",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, «Pakistan» (https://history.state.gov/countries/pakistan) ; Indian Independence Act 1947, s.1(1) (https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted)",
+   "alinti": "recognized the Dominion of Pakistan as an independent state on August 15, 1947",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1276] ÜLKE DÜZEYİ; f GÜN. t atlas ufku. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

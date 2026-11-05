@@ -1,0 +1,76 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3077	BOS	data/yerlesimler.js:2288	Şakrâ	s	suud-birinci	1744-01-01	1818-09-09	
+3078	BOS	data/yerlesimler.js:2288	Şakrâ	s	suud-ikinci	1824-06-01	1891-01-01	
+3079	BOS	data/yerlesimler.js:2288	Şakrâ	s	sammar	1891-01-01	1902-01-15	
+3080	BOS	data/yerlesimler.js:2288	Şakrâ	s	suud-ucuncu	1902-01-15	1932-09-18	
+3081	BOS	data/yerlesimler.js:2288	Şakrâ	v		1818-09-09	1824-06-01	
+3082	ZAYIF_ATLAS	data/yerlesimler.js:2288	Şakrâ	s	suudi-arabistan	1932-09-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau
+3083	BOS	data/yerlesimler.js:2297	Buraymî	s	umman	1624-01-01	2000-12-31	
+3084	BOS	data/yerlesimler.js:2471	Kanina	s	arnavutluk-bagimsiz	1912-11-28	1939-04-07	
+3085	BOS	data/yerlesimler.js:2471	Kanina	d		1417-01-01	1912-11-28	
+3086	DIGER	data/yerlesimler.js:2471	Kanina	s	sicilya-kralligi	1281-01-01	1282-03-30	POSTIT-3 · künye aşımı düzeltmesi: napoli künyesi f 1282-03-30 (Sicilya Vesperleri); öncesi aynı Anjou yönetimi sicilya-kralligi altında — Draç emsali (EPOK-SAH
+3087	ZAYIF_ATLAS	data/yerlesimler.js:2471	Kanina	s	arnavutluk-halk-cumhuriyeti	1944-11-29	1991-04-29	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye arnavutluk-halk-cumhuriyeti f ucunun kaynağı — TDV arnavutluk (ÖZET, kelimesi kelimesine DEĞİL): 29 Kasım 194
+3088	BOS	data/yerlesimler.js:2506	Slatina	s	eflak	1330-01-01	1462-06-01	
+3089	BOS	data/yerlesimler.js:2506	Slatina	s	romanya-kralligi	1881-03-26	1947-12-30	
+3090	BOS	data/yerlesimler.js:2506	Slatina	v		1462-06-01	1859-02-05	
+3091	BOS	data/yerlesimler.js:2506	Slatina	v		1859-02-05	1877-05-21	
+3092	DIGER	data/yerlesimler.js:2506	Slatina	isg	rusya	1806-12-25	1812-05-28	TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр
+3093	DIGER	data/yerlesimler.js:2506	Slatina	s	romanya-halk	1947-12-30	1989-12-22	LoC Romania Country Study
+3094	DIGER	data/yerlesimler.js:2506	Slatina	s	romanya-cumhuriyeti	1989-12-22	2000-12-31	LoC Romania Country Study
+3095	BOS	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	s	eflak	1330-01-01	1462-06-01	
+3096	BOS	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	s	romanya-kralligi	1881-03-26	1947-12-30	
+3097	BOS	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	v		1462-06-01	1859-02-05	
+3098	BOS	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	v		1859-02-05	1877-05-21	
+3099	DIGER	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	isg	rusya	1806-12-25	1812-05-28	TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр
+3100	DIGER	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	isg	rusya	1828-05-07	1834-01-01	TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25
+3101	DIGER	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	s	romanya-halk	1947-12-30	1989-12-22	LoC Romania Country Study
+3102	DIGER	data/yerlesimler.js:2508	Rimnik-i Sârat (Râmnicu Sărat)	s	romanya-cumhuriyeti	1989-12-22	2000-12-31	LoC Romania Country Study
+3103	BOS	data/yerlesimler.js:2512	Turnu Severin	s	eflak	1330-01-01	1462-06-01	
+3104	BOS	data/yerlesimler.js:2512	Turnu Severin	s	macaristan-habsburg	1718-07-21	1739-09-18	
+3105	BOS	data/yerlesimler.js:2512	Turnu Severin	s	romanya-kralligi	1881-03-26	1947-12-30	
+3106	BOS	data/yerlesimler.js:2512	Turnu Severin	v		1462-06-01	1718-07-21	
+3107	BOS	data/yerlesimler.js:2512	Turnu Severin	v		1739-09-18	1859-02-05	
+3108	BOS	data/yerlesimler.js:2512	Turnu Severin	v		1859-02-05	1877-05-21	
+3109	DIGER	data/yerlesimler.js:2512	Turnu Severin	isg	rusya	1806-12-25	1812-05-28	TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр
+3110	DIGER	data/yerlesimler.js:2512	Turnu Severin	s	romanya-halk	1947-12-30	1989-12-22	LoC Romania Country Study
+3111	DIGER	data/yerlesimler.js:2512	Turnu Severin	s	romanya-cumhuriyeti	1989-12-22	2000-12-31	LoC Romania Country Study
+3112	BOS	data/yerlesimler_seyrek.js:100	Dûmetülcendel (Cevf)	s	suud-ucuncu	1921-11-02	1932-09-18	
+3113	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:100	Dûmetülcendel (Cevf)	s	suudi-arabistan	1932-09-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau
+3114	BOS	data/yerlesimler_seyrek.js:244	Kırcaali	d		1482-01-01	1913-09-29	
+3115	DIGER	data/yerlesimler_seyrek.js:244	Kırcaali	s	bulgaristan-halk	1946-09-15	1990-11-15	LoC Bulgaria Country Study
+3116	DIGER	data/yerlesimler_seyrek.js:244	Kırcaali	s	bulgaristan-cumhuriyeti	1990-11-15	2000-12-31	LoC Bulgaria Country Study
+3117	BOS	data/yerlesimler_ek3.js:63	Mersa'l-Kebîr	s	zeyyani	1281-01-01	1509-05-17	
+3118	BOS	data/yerlesimler_ek3.js:63	Mersa'l-Kebîr	s	ispanya	1509-05-17	1708-04-04	
+3119	BOS	data/yerlesimler_ek3.js:63	Mersa'l-Kebîr	s	ispanya	1732-07-01	1792-09-12	
+3120	BOS	data/yerlesimler_ek3.js:63	Mersa'l-Kebîr	d		1708-04-04	1732-07-01	
+3121	BOS	data/yerlesimler_ek3.js:63	Mersa'l-Kebîr	d		1792-09-12	1831-01-04	
+3122	BOS	data/yerlesimler_afrika.js:350	Benzert (Bizerte)	s	hafsi	1281-01-01	1557-01-01	
+3123	BOS	data/yerlesimler_afrika.js:350	Benzert (Bizerte)	d		1557-01-01	1705-07-12	
+3124	BOS	data/yerlesimler_afrika.js:350	Benzert (Bizerte)	v		1705-07-12	1881-05-12	
+3125	BOS	data/yerlesimler_afrika.js:350	Benzert (Bizerte)	v		1881-05-12	1923-10-29	
+3126	BOS	data/yerlesimler_afrika.js:350	Benzert (Bizerte)	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3127	BOS	data/yerlesimler_afrika.js:374	Cendûbe	s	hafsi	1281-01-01	1574-08-25	
+3128	BOS	data/yerlesimler_afrika.js:374	Cendûbe	d		1574-08-25	1705-07-12	
+3129	BOS	data/yerlesimler_afrika.js:374	Cendûbe	v		1705-07-12	1881-05-12	
+3130	BOS	data/yerlesimler_afrika.js:374	Cendûbe	v		1881-05-12	1923-10-29	
+3131	BOS	data/yerlesimler_afrika.js:374	Cendûbe	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3132	BOS	data/yerlesimler_afrika.js:388	Kelîbiye	s	hafsi	1281-01-01	1574-08-25	
+3133	BOS	data/yerlesimler_afrika.js:388	Kelîbiye	d		1574-08-25	1705-07-12	
+3134	BOS	data/yerlesimler_afrika.js:388	Kelîbiye	v		1705-07-12	1881-05-12	
+3135	BOS	data/yerlesimler_afrika.js:388	Kelîbiye	v		1881-05-12	1923-10-29	
+3136	BOS	data/yerlesimler_afrika.js:388	Kelîbiye	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3137	BOS	data/yerlesimler_afrika.js:400	Munastır	s	hafsi	1281-01-01	1574-08-25	
+3138	BOS	data/yerlesimler_afrika.js:400	Munastır	d		1574-08-25	1705-07-12	
+3139	BOS	data/yerlesimler_afrika.js:400	Munastır	v		1705-07-12	1881-05-12	
+3140	BOS	data/yerlesimler_afrika.js:400	Munastır	v		1881-05-12	1923-10-29	
+3141	BOS	data/yerlesimler_afrika.js:400	Munastır	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3142	BOS	data/yerlesimler_afrika.js:422	Nefta	s	hafsi	1281-01-01	1574-08-25	
+3143	BOS	data/yerlesimler_afrika.js:422	Nefta	d		1574-08-25	1705-07-12	
+3144	BOS	data/yerlesimler_afrika.js:422	Nefta	v		1705-07-12	1881-05-12	
+3145	BOS	data/yerlesimler_afrika.js:422	Nefta	v		1881-05-12	1923-10-29	
+3146	BOS	data/yerlesimler_afrika.js:422	Nefta	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	
+3147	BOS	data/yerlesimler_afrika.js:434	Cerciş (Zarzis)	s	hafsi	1281-01-01	1574-08-25	
+3148	BOS	data/yerlesimler_afrika.js:434	Cerciş (Zarzis)	d		1574-08-25	1705-07-12	
+3149	BOS	data/yerlesimler_afrika.js:434	Cerciş (Zarzis)	v		1705-07-12	1881-05-12	
+3150	BOS	data/yerlesimler_afrika.js:434	Cerciş (Zarzis)	v		1881-05-12	1923-10-29	
+3151	BOS	data/yerlesimler_afrika.js:434	Cerciş (Zarzis)	isg	fransa-cumhuriyet	1881-05-12	1923-10-29	

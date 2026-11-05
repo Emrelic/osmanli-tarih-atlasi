@@ -1,0 +1,937 @@
+{
+ "Sapporo": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3424",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1869-01-01",
+   "t": "1947-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "MLIT Hokkaido Regional Development Bureau, «History of Development in Hokkaido» (resmî devlet sayfası), https://www.hkd.mlit.go.jp/ky/ki/keikaku/ud49g700000008b9.html | House of Representatives, Japan — The National Diet (resmî sayfa), https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/dietfun.htm",
+   "alinti": "Jul. 1869 Kaitakushi (Development Commission) established | went into effect on May 3, 1947",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1353] ÜLKE DÜZEYİ (t) · f: Meiji hükûmetinin Ezo/Hokkaido'yu Kaitakushi'ye bağlaması Temmuz 1869 (ay hassasiyeti; kaynak 'Jul.' diyor — Japon ay takvimi mi Gregoryen mi belirsiz, Meiji 2. yıl; çevrilmedi). Atlas f 1869-01-01 yıl düzeyinde uyar; Sapporo'nun kuruluşu (kur) Kaitakushi'nin 1871'de Sapporo'ya taşınmasıyla bağlantılı, ic_not. t: anayasa 1946-11-03 ilan, 1947-05-03 yürürlük — künye kuralı (japonya-devleti f). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3424",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "House of Representatives, Japan — The National Diet (resmî sayfa), https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/dietfun.htm",
+   "alinti": "The Constitution of Japan was promulgated on November 3, 1946, and went into effect on May 3, 1947.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1354] ÜLKE DÜZEYİ · t 2000-12-31 atlas ufku · eski kaynak history.com (popüler site) değiştirilmeli. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Rangun (Yangon)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "pagan",
+   "f": "1281-01-01",
+   "t": "1287-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Pagan Krallığı 1287’de Moğol-Çin İmparatoru Kubilay Han tarafından yıkıldı",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1355] t yıl düzeyinde (1287); f 1281 atlas ufku. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "hanthawaddy",
+   "f": "1287-01-01",
+   "t": "1539-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar | G. E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London 1925), archive.org in.ernet.dli.2015.32059",
+   "alinti": "arkasından ülkenin kuzeyinde Ava, güneyinde Pegu krallıkları kuruldu | Wareru now became sole prince of the Lower Burma state which lasted till 1539",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1356] ABİ MERKEZ: Pegu/Hanthawaddy (Dagon onun toprağı; Harvey Dagon'u Pegu krallığı içinde anlatır). f 1287 TDV (yıl), t 1539 Harvey (yıl; Tabinshwehti Pegu'yu 1539'da aldı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "toungoo",
+   "f": "1539-01-01",
+   "t": "1740-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "G. E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London 1925), archive.org in.ernet.dli.2015.32059",
+   "alinti": "1539 Tabinshwehti captures Pegu | 1539-1740 Pegu is subject to Ava",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1357] ABİ MERKEZ: Pegu. Yıl düzeyi (1539, 1740). Harvey kronoloji tablosu ve Hanthawaddy hükümdar tablosu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "hanthawaddy",
+   "f": "1740-01-01",
+   "t": "1755-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "G. E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London 1925), archive.org in.ernet.dli.2015.32059",
+   "alinti": "he proclaimed himself king of Pegu in 1740 | In May 1755 wrested Dagon from the Talaings, called it Rangoon",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1358] f 1740 yıl (Pegu valisinin isyanı, ABİ MERKEZ Pegu); t: Alaungpaya Dagon'u Mayıs 1755'te aldı — ay düzeyi uyar, atlas günü 05-03 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "konbaung",
+   "f": "1755-05-03",
+   "t": "1852-04-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "G. E. Harvey, History of Burma from the Earliest Times to 10 March 1824 (London 1925), archive.org in.ernet.dli.2015.32059 | TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "In May 1755 wrested Dagon from the Talaings, called it Rangoon | ikincisi 1852",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1359] f ay düzeyi (Mayıs 1755; gün 05-03 teyitsiz). t: TDV yalnız İkinci İngiliz-Birman Savaşı yılı 1852. ONERI-ADAYI (kaynaksız, yazılmadı): 1824-05 → 1826 Birinci Savaş'ta Rangun İngiliz işgalinde idi (Harvey 'Rangoon in 1824' resmi var, işgal günü okunmadı) — isg ingiltere katmanı sorusu; TARAYICI: J. Cady, A History of Modern Burma (1958), archive.org historyofmodernb00cady (403). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1852-04-14",
+   "t": "1937-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "ikincisi 1852 | Myanmar İngiliz Hindistanı’ndan ayrıldı (1937)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1360] Yıl düzeyi. TEK KURAL SORUSU: 1852-04-14 Rangun'un düşüş günüdür; Aşağı Birmanya'nın (Pegu) ilhak ilanı ayrı gündür (atlasın Toungoo kaydında 1852-12-20, kaynaksız). Doğrusu muhtemelen isg ingiltere 1852-04-14 → ilhak ilanı, s: ilhak gününden — gün kaynakla bulunmadı, BULUNAMADI düzeyinde; TARAYICI: Cady 1958 (archive.org 403). t 1937-04-01 gün TDV'de yok (yıl). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-08",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "ülke 1942’de Japon işgaline uğradı",
+   "oneri": {
+    "alan": "isg",
+    "d": "meiji-japonya",
+    "f": "1942-03-08",
+    "t": "1945-09-02"
+   },
+   "uc": "f",
+   "not": "[sira 1361] TEK KURAL: TDV 'Japon işgali' diyor; dönem s: değil isg olmalı, alttaki s: ingiliz-burma 1937-04-01 → 1948-01-04 kesintisiz sürmeli (1361 ve 1362 birleşir). ÖLÇÜT: geçici/askerî — İngiliz iddiası sürdü, 1945'te geri alındı. 1943-08-01 Ba Maw 'Burma Devleti' kukla yönetimi ic_not. f yıl düzeyi (1942; 03-08 günü teyitsiz), t teyitsiz (Rangun Mayıs 1945'te geri alındı — kaynakla bitiş günü bulunmalı; 1945-09-02 genel teslim). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1945-09-02",
+   "t": "1948-01-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Savaş sonrasında tekrar İngiliz egemenliği altına alınan Myanmar 4 Ocak 1948’de Burma Birliği adıyla bağımsızlığına kavuştu",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1362] f teyitsiz (1945-09-02 genel Japon teslimi; Rangun'un fiilî geri alınışı Mayıs 1945). 1361 isg'ye çevrilirse bu dönem 1937-04-01'den başlayan ingiliz-burma ile birleşir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3652",
+   "alan": "s",
+   "d": "myanmar-birmanya",
+   "f": "1948-01-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Myanmar 4 Ocak 1948’de Burma Birliği adıyla bağımsızlığına kavuştu",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1363] ÜLKE DÜZEYİ · t 2000-12-31 atlas ufku. history.state.gov ile çift teyit (mevcut kaynak). [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Kengtung": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3712",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1923-10-29",
+   "t": "1948-01-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1364] f 1923-10-29 atlasın '1923 ufuk düzeltmesi' tarihidir, Kengtung'a özgü olay değil. İPUCU (dayanak değil): EB1911 'Keng Tung' — devlet 1890'da İngilizlere tâbi oldu, 1894 vergi. Akademik kaynak okunamadı. TARAYICI: Sao Saimong Mangrai, The Shan States and the British Annexation (Cornell 1965). Muhtemel yapı: s: san-devletleri sürer + v: ingiliz-burma 1890 → 1948 (kaynakla)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3712",
+   "alan": "s",
+   "d": "san-devletleri",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1365] Şan beyliği zinciri 1281 → 1923 kaynaksız; Konbaung tâbiliği (v: konbaung) ve 1890 İngiliz tâbiliği bakılan yerlerde (TDV Myanmar, web araması) bulunamadı; yalnız EB1911/Vikipedi ipucu (1890 teslim). TARAYICI: Mangrai 1965."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3712",
+   "alan": "s",
+   "d": "myanmar-birmanya",
+   "f": "1948-01-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Myanmar» md. (Syed Sajjad Husain / İsmail Hakkı Göksoy), https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Myanmar 4 Ocak 1948’de Burma Birliği adıyla bağımsızlığına kavuştu",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1366] ÜLKE DÜZEYİ · t ufuk. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Nakhon Si Thammarat": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "ayutthaya",
+   "f": "1438-01-01",
+   "t": "1767-04-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tayland» md., https://islamansiklopedisi.org.tr/tayland",
+   "alinti": "Ayutthaya sarayının 1767’de Burmalılar’ın işgaline uğraması üzerine",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1367] t yıl düzeyi (gün 04-07 teyitsiz); f 1438 teyitsiz — TDV Ayutthaya'nın 'önce Sukothai'nin topraklarını' aldığını yılsız söyler. Nakhon'un (Ligor) Ayutthaya'ya bağlanışı 1438'den çok önce olabilir; TARAYICI: D. K. Wyatt, Thailand: A Short History. [alıntı ham metinden, sayfa.py] · f teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "tonburi",
+   "f": "1767-10-01",
+   "t": "1782-04-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tayland» md., https://islamansiklopedisi.org.tr/tayland",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1368] TDV Tayland Taksin'in merkezi Thonburi'ye taşıdığını yılsız anlatır; Nakhon'a özgü bilgi yok. İPUCU (okunmadı): 1767-1769 Nakhon Si Thammarat valisi bağımsız 'Chao Nakhon' rejimi kurdu, Taksin 1769'da aldı — doğruysa tonburi f 1769 olmalı ve 1767-1769 için künye sorusu (LAB). TARAYICI: Wyatt; Coedès."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "siyam-chakri",
+   "f": "1782-04-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tayland» md., https://islamansiklopedisi.org.tr/tayland",
+   "alinti": "Chao Phraya Chakkri 1782’de Kral I. Rama unvanıyla tahta çıktı",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1369] ÜLKE DÜZEYİ · yıl düzeyi (gün 04-06 teyitsiz) · t ufuk. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tayland» md., https://islamansiklopedisi.org.tr/tayland",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1370] TDV Tayland Sukhothai/Ayutthaya geçişini yılsız verir; Nakhon'un Sukhothai'ye bağlılığı bulunamadı. Mevcut 1373 kaydının ic_not'u Coedès'in Tay fethini ~1294 verdiğini, 1281 dikişiyle çelişki bulunduğunu söylüyor (açık soru)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1767-04-07",
+   "t": "1767-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tayland» md., https://islamansiklopedisi.org.tr/tayland",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1371] Beyanlı boşluk 1767-04-07 → 1767-10-01: TDV 1767 yılını verir, Nakhon'un bu aylardaki durumu yok. İPUCU: Chao Nakhon rejimi 1767-1769 (bkz. sira 1368); doğruysa boşluk künye sorusu olarak 1769'a uzar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "srivijaya",
+   "f": "0775-01-01",
+   "t": "1230-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1372] Mevcut kaynak Coedès 1968 (akademik); 1281 öncesi, yeniden okunmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3759",
+   "alan": "s",
+   "d": "tambralinga",
+   "f": "1230-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1373] Mevcut kaynak Coedès 1968; 1281 öncesi, yeniden okunmadı (bütçe)."
+  }
+ ],
+ "Kuala Lumpur": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4038",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1874-01-20",
+   "t": "1896-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malezya» md., c. 27 (2003), s. 486-493, https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "20 Ocak 1874 tarihinde kabile reisleriyle Pangkor Antlaşması | Temmuz 1896’da Kuala Lumpur başşehir olmak üzere",
+   "oneri": {
+    "f": "Selangor'un İngiliz Resident sistemine giriş günü (kaynakla bulunacak)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1374] TDV: Pangkor 1874-01-20 yalnız PERAK içindir; «İngilizler Perak’tan sonra Johor, Selangor, Negeri Sembilan ve Penang sultanlarıyla da benzeri antlaşmalar imzaladılar» (yılsız). Kuala Lumpur Selangor'dadır; f Selangor'un kendi gününe taşınmalı. Ayrıca alan sorusu: Resident sistemi himayedir — Fransız Çinhindi emsaliyle s: malay-sultanliklari + v: ingiltere daha uygun olabilir (EMRELİC). t ay düzeyinde uyar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4038",
+   "alan": "s",
+   "d": "fed-malay-devletleri",
+   "f": "1896-07-01",
+   "t": "1946-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malezya» md., c. 27 (2003), s. 486-493, https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti | Aralık 1941’de Malay yarımadası, Şubat 1942’de Singapur Japonlar’ın eline geçti",
+   "oneri": {
+    "ek_katman": {
+     "alan": "isg",
+     "d": "meiji-japonya",
+     "f": "1941-12 (ay; Kuala Lumpur'un düşüş günü kaynakla)",
+     "t": "1945 (İngiliz dönüşü, gün kaynakla)"
+    }
+   },
+   "uc": "f",
+   "not": "[sira 1375] f ay düzeyinde KAYNAKLI (Temmuz 1896). Eksik: Japon işgali — TDV «savaş boyunca işgal altında kaldı». TEK KURAL: isg katmanı; s: fed-malay sürer. ÖLÇÜT: geçici/askerî. t 1946-04-01 teyitsiz (TDV yalnız 'Ocak 1946 plan'). [alıntı ham metinden, sayfa.py] · t teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4038",
+   "alan": "s",
+   "d": "malay-sultanliklari",
+   "f": "1857-01-01",
+   "t": "1874-01-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malezya» md., c. 27 (2003), s. 486-493, https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1376] TDV Malezya'da Kuala Lumpur'un 1857 kuruluşu ve Selangor Sultanlığı'na bağlılığı yok. t için bkz. sira 1374 (Pangkor Perak'a özgü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4038",
+   "alan": "s",
+   "d": "malaya-birligi",
+   "f": "1946-04-01",
+   "t": "1948-01-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malezya» md., c. 27 (2003), s. 486-493, https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "1 Şubat 1948 tarihinde varılan bir anlaşma çerçevesinde ... bir Malay Federasyonu kurulması kararlaştırıldı",
+   "oneri": {
+    "t": "1948-02-01"
+   },
+   "uc": "t",
+   "not": "[sira 1377] TDV federasyonu 1 Şubat 1948'e bağlar; atlas t 1948-01-31 (künye malaya-birligi t 1948-01-31, ardıl dönem f 1948-01-31) — künye ile birlikte 02-01'e çekilmeli (LAB). f 1946-04-01 teyitsiz: TDV yalnız «Ocak 1946’da ... birleştirme planı» der; worldstatesmen dayanak değil. [alıntı ham metinden, sayfa.py] · f teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4038",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1957-08-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malezya» md., c. 27 (2003), s. 486-493, https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "31 Ağustos 1957’de bağımsızlık ilân edilerek Malay Federasyonu’nun kuruluşu gerçekleştirildi",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1378] ÜLKE DÜZEYİ · Malezya adı 1963-09-16 (TDV aynı paragraf) ic_not · t ufuk. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Brunei": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4192",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1405-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bruney» md., https://islamansiklopedisi.org.tr/bruney",
+   "alinti": "Muhammed Şah (1405-1415) adını alan yerli lider Alang (Awang) Betatar’ın bir sultanlık kurmasıyla başlar | bir İngiliz himaye devleti haline geldi (Aralık 1888)",
+   "oneri": {
+    "ek_katman_1": {
+     "alan": "v",
+     "d": "ingiltere",
+     "f": "1888-12-01",
+     "t": "1984-01-01"
+    },
+    "ek_katman_2": {
+     "alan": "isg",
+     "d": "meiji-japonya",
+     "f": "1941 (yıl; gün kaynakla)",
+     "t": "1945 (yıl; gün kaynakla)"
+    }
+   },
+   "uc": "f",
+   "not": "[sira 1379] f 1405 yıl düzeyinde KAYNAKLI. Eksik katmanlar: İngiliz himayesi Aralık 1888 → «1 Ocak 1984’te Bruney bağımsızlığını ilân etti» (Fransız Çinhindi emsali: himaye = v:); Japon işgali «1941-1945 yılları» (TDV) — TEK KURAL isg. f 1888-12-01 ay hassasiyeti (anlaşma imzası 1888-09-17 ipucu, okunmadı). Künye ingiltere ve meiji-japonya kapsamı ölçülmeli. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4192",
+   "alan": "s",
+   "d": "poni",
+   "f": "0977-01-01",
+   "t": "1405-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1380] Mevcut kaynak Hirth & Rockhill (Chau Ju-kua, 1911; akademik çeviri); 1281 öncesi, yeniden okunmadı."
+  }
+ ],
+ "Umeå": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:82",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1381] ÜLKE DÜZEYİ · f 1281 atlas ufku. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:82",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1382] ÜLKE DÜZEYİ · t ufuk. Mevcut kaynak (Gale EWB) ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Västerås": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:85",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1383] ÜLKE DÜZEYİ · f 1281 atlas ufku. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:85",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1384] ÜLKE DÜZEYİ · t ufuk. Mevcut kaynak (Gale EWB) ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Borås": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:88",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1385] ÜLKE DÜZEYİ · f 1281 atlas ufku. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:88",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1386] ÜLKE DÜZEYİ · t ufuk. Mevcut kaynak (Gale EWB) ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Vaasa": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:107",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1387] ÜLKE DÜZEYİ · f 1281 ufuk. Finlandiya için 1520-1523 Danimarka (II. Christian) denetimi: SNL «etter gjenerobringen av Stockholm i 1523 ble danskene drevet ut av Finland» — f günü İsveç'in ülke düzeyi seçimi; Finlandiya'daki Danimarka tahliyesi 1523 içinde (gün yok), ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:107",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "1809-09-17",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa | Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge | 17. september samme år, ved en avtale i Hamina, måtte Sverige avstå",
+   "oneri": {
+    "ek_katman": {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1713-1716 (şehrin düşüş günü, kaynakla)",
+     "t": "1721 Nystad (gün kaynakla)"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1388] Uçlar KAYNAKLI (ÜLKE DÜZEYİ; t günü: yıl bağlamdan, aynı paragrafta 'i mars 1809'). ONERI (ayrıca): SNL «Det lyktes tsar Peter å erobre hele Finland i 1713–1716. Ved freden i Uusikaupunki (Nystad) i 1721» — Büyük Kuzey Savaşı'nda bütün Finlandiya Rus işgalinde; isg rusya (şehrin düşüş günü, 1713-1716 arası, kaynakla) → 1721 Nystad (gün kaynakla; İsveç/Rus takvimi beyan edilmeli) katmanı eklenmeli. ÖLÇÜT: geçici/askerî — Nystad'da İsveç'e iade. 1741-1743 savaşı (SNL yalnız savaş yılı verir) için de işgal katmanı sorusu açık. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:107",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå | Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1389] ÜLKE DÜZEYİ · f: yıl bağlamdan (aynı paragrafta 'i mars 1809') · Fredrikshamn 1809-09-17 (Gregoryen; İsveç 1753'ten beri Gregoryen, Rus metni Jülyen 09-05) ic_not. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:107",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1390] ÜLKE DÜZEYİ · t ufuk. Mevcut Jussila vd. 1999 ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Tampere": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:113",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1391] ÜLKE DÜZEYİ · f 1281 ufuk. Finlandiya için 1520-1523 Danimarka (II. Christian) denetimi: SNL «etter gjenerobringen av Stockholm i 1523 ble danskene drevet ut av Finland» — f günü İsveç'in ülke düzeyi seçimi; Finlandiya'daki Danimarka tahliyesi 1523 içinde (gün yok), ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:113",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "1809-09-17",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa | Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge | 17. september samme år, ved en avtale i Hamina, måtte Sverige avstå",
+   "oneri": {
+    "ek_katman": {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1713-1716 (şehrin düşüş günü, kaynakla)",
+     "t": "1721 Nystad (gün kaynakla)"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1392] Uçlar KAYNAKLI (ÜLKE DÜZEYİ; t günü: yıl bağlamdan, aynı paragrafta 'i mars 1809'). ONERI (ayrıca): SNL «Det lyktes tsar Peter å erobre hele Finland i 1713–1716. Ved freden i Uusikaupunki (Nystad) i 1721» — Büyük Kuzey Savaşı'nda bütün Finlandiya Rus işgalinde; isg rusya (şehrin düşüş günü, 1713-1716 arası, kaynakla) → 1721 Nystad (gün kaynakla; İsveç/Rus takvimi beyan edilmeli) katmanı eklenmeli. ÖLÇÜT: geçici/askerî — Nystad'da İsveç'e iade. 1741-1743 savaşı (SNL yalnız savaş yılı verir) için de işgal katmanı sorusu açık. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:113",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå | Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1393] ÜLKE DÜZEYİ · f: yıl bağlamdan (aynı paragrafta 'i mars 1809') · Fredrikshamn 1809-09-17 (Gregoryen; İsveç 1753'ten beri Gregoryen, Rus metni Jülyen 09-05) ic_not. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:113",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag | falt de rødes hovedbastion, Tammerfors, 6. april 1918",
+   "oneri": {
+    "ek_donem": {
+     "alan": "s",
+     "d": "<Kızıl Finlandiya künyesi YOK — LAB>",
+     "f": "1918-01 sonu (Kızıl yönetimin Tampere'de başladığı gün, kaynakla)",
+     "t": "1918-04-06"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1394] f KAYNAKLI (ÜLKE DÜZEYİ). Rakip hükûmet kuralı (fiilî idare): Tampere 1918 iç savaşında Kızılların ana kalesiydi, SNL «Etter blodige strider falt de rødes hovedbastion, Tammerfors, 6. april 1918». Kızıl Finlandiya (Suomen sosialistinen työväentasavalta) künyesi devletler.js'te YOK (grep: finl → yalnız finlandiya, finlandiya-buyuk-dukaligi, finlandiya-demokratik-cumhuriyeti) — LAB'a künye sorusu; o zamana kadar BEYANLI. Başlangıç günü kaynakla bulunmalı (SNL yalnız 'januar 1918'). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Iisalmi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:119",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1395] ÜLKE DÜZEYİ · f 1281 ufuk. Finlandiya için 1520-1523 Danimarka (II. Christian) denetimi: SNL «etter gjenerobringen av Stockholm i 1523 ble danskene drevet ut av Finland» — f günü İsveç'in ülke düzeyi seçimi; Finlandiya'daki Danimarka tahliyesi 1523 içinde (gün yok), ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:119",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "1809-09-17",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa | Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge | 17. september samme år, ved en avtale i Hamina, måtte Sverige avstå",
+   "oneri": {
+    "ek_katman": {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1713-1716 (şehrin düşüş günü, kaynakla)",
+     "t": "1721 Nystad (gün kaynakla)"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1396] Uçlar KAYNAKLI (ÜLKE DÜZEYİ; t günü: yıl bağlamdan, aynı paragrafta 'i mars 1809'). ONERI (ayrıca): SNL «Det lyktes tsar Peter å erobre hele Finland i 1713–1716. Ved freden i Uusikaupunki (Nystad) i 1721» — Büyük Kuzey Savaşı'nda bütün Finlandiya Rus işgalinde; isg rusya (şehrin düşüş günü, 1713-1716 arası, kaynakla) → 1721 Nystad (gün kaynakla; İsveç/Rus takvimi beyan edilmeli) katmanı eklenmeli. ÖLÇÜT: geçici/askerî — Nystad'da İsveç'e iade. 1741-1743 savaşı (SNL yalnız savaş yılı verir) için de işgal katmanı sorusu açık. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:119",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå | Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1397] ÜLKE DÜZEYİ · f: yıl bağlamdan (aynı paragrafta 'i mars 1809') · Fredrikshamn 1809-09-17 (Gregoryen; İsveç 1753'ten beri Gregoryen, Rus metni Jülyen 09-05) ic_not. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:119",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1398] ÜLKE DÜZEYİ · t ufuk. Mevcut Jussila vd. 1999 ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Savonlinna": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:125",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1399] ÜLKE DÜZEYİ · f 1281 ufuk. Finlandiya için 1520-1523 Danimarka (II. Christian) denetimi: SNL «etter gjenerobringen av Stockholm i 1523 ble danskene drevet ut av Finland» — f günü İsveç'in ülke düzeyi seçimi; Finlandiya'daki Danimarka tahliyesi 1523 içinde (gün yok), ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:125",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "1809-09-17",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa | Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge | freden i Turku til avståelsen av områdene øst for Kymijoki ... og Savonlinna (Nyslott)",
+   "oneri": {
+    "t": "1743 Turku (Åbo) barışı imza günü (kaynakla; İsveç/Rus takvimi beyan)",
+    "yeni_donem_1": {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1743 (Turku imzası)",
+     "t": "1811/1812 (Eski Finlandiya'nın Büyük Dükalık'a katılışı, gün kaynakla)"
+    },
+    "ek_katman": {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1713-1716",
+     "t": "1721"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1400] SNL: 1741-1743 savaşı «ved freden i Turku til avståelsen av områdene øst for Kymijoki (Kymmene älv) og Saimasjøen med byene Hamina (Fredrikshamn), Lappeenranta (Villmanstrand) og Savonlinna (Nyslott)». Savonlinna 1743'ten Rusya'nın (Eski Finlandiya/Vyborg guberniyası); SNL: 1811'de «de distrikter som var avstått til Russland før 1809, forent med resten av landet». Rusya 1742'den beri işgaldeydi → TEK ÖLÇÜ imza günü. Bu yüzden isvec t 1809-09-17 YANLIŞ; finlandiya-buyuk-dukaligi f (sira 1401) 1811/12'ye kayar. ONERI (ayrıca): SNL «Det lyktes tsar Peter å erobre hele Finland i 1713–1716. Ved freden i Uusikaupunki (Nystad) i 1721» — Büyük Kuzey Savaşı'nda bütün Finlandiya Rus işgalinde; isg rusya (şehrin düşüş günü, 1713-1716 arası, kaynakla) → 1721 Nystad (gün kaynakla; İsveç/Rus takvimi beyan edilmeli) katmanı eklenmeli. ÖLÇÜT: geçici/askerî — Nystad'da İsveç'e iade. 1741-1743 savaşı (SNL yalnız savaş yılı verir) için de işgal katmanı sorusu açık. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:125",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Samme år ble de distrikter som var avstått til Russland før 1809, forent med resten av landet.",
+   "oneri": {
+    "f": "1811/1812 (Eski Finlandiya'nın katılış günü, kaynakla)"
+   },
+   "uc": "f",
+   "not": "[sira 1401] Savonlinna 1743'ten Rus toprağıydı (bkz. sira 1400); Büyük Dükalığa 1809'da değil, 1811 kararıyla katıldı (SNL 'samme år' = 1811; uygulama 1812-01-01 ipucu, okunmadı). t 1917-12-06 KAYNAKLI: «Den 6. desember 1917 erklærte en borgerlig dominert Landdag». [alıntı ham metinden, sayfa.py] · t teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:125",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1402] ÜLKE DÜZEYİ · t ufuk. Mevcut Jussila vd. 1999 ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ],
+ "Klaipėda (Memel)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1701-01-18",
+   "t": "1871-01-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "1701 Klaipėda tapo susikūrusios Prūsijos karalystės miestu | Nuo 1871 Klaipėda tapo Vokietijos imperijos miestu",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1403] Yıl düzeyi (gün 01-18 her iki uçta künye/ilan günü). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1920-01-10",
+   "hukum": "ONERI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "Nuo 1871 Klaipėda tapo Vokietijos imperijos miestu | 1919 Versalio sutartimi ... 1920–23 miestą valdė prancūzai",
+   "oneri": {
+    "t": "Fransız birliğinin Memel'i teslim aldığı gün, 1920 (kaynakla; ipucu 1920-02-15)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1404] TEK ÖLÇÜ: Versay 1920-01-10 YÜRÜRLÜK günüdür, s: günü olamaz; devralan (Müttefikler) Memel'i o gün yönetmiyordu → s: TESLİM günündendir. VLE yalnız yıl veriyor. 1919-06-28 imza ve 1920-01-10 yürürlük ic_not. f yıl düzeyinde KAYNAKLI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "livonya-tarikati",
+   "f": "1281-01-01",
+   "t": "1328-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "1328 Livonijos ordinas, 1392 Kuršo vyskupas perleido savo Klaipėdos valdas Vokiečių ordino",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1405] t yıl düzeyi; f 1281 ufuk. Not: VLE «2/3 miesto priklausė Livonijos ordinui, 1/3 – Kuršo vyskupui» — Kurland piskoposluğu payı 1392'ye kadar, ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "prusya-dukaligi",
+   "f": "1525-04-08",
+   "t": "1701-01-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "1525 … Prūsijos kunigaikštystės | 1701 Klaipėda tapo susikūrusios Prūsijos karalystės miestu",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1406] Yıl düzeyi; mevcut kaynakla aynı eser. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1920-01-10",
+   "t": "1923-02-16",
+   "hukum": "ONERI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "1919 Versalio sutartimi Klaipėdos kraštą atskyrus nuo Vokietijos, 1920–23 miestą valdė prancūzai",
+   "oneri": {
+    "f": "teslim günü 1920 (bkz. sira 1404)"
+   },
+   "uc": "f",
+   "not": "[sira 1407] TEK ÖLÇÜ (bkz. sira 1404): f yürürlük 1920-01-10 değil teslim günü olmalı. t 1923-02-16 için bkz. sira 1408; ayrıca 1923-01 Litvan ayaklanması → 02-16 arası isg litvanya katmanı sorusu (VLE «1923 po Klaipėdos krašto sukilimo», gün yok). [alıntı ham metinden, sayfa.py] · t teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "litvanya",
+   "f": "1923-02-16",
+   "t": "1939-03-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "1923 po Klaipėdos krašto sukilimo Klaipėda prijungta prie Lietuvos Respublikos",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1408] f yıl düzeyi; gün 02-16 mevcut FRUS kaynağından (Büyükelçiler Konferansı) — çift kaynak. Ayaklanma 1923-01 → 02-16 isg litvanya katmanı sorusu ic_not. t için bkz. sira 1410 (ONERI). [alıntı ham metinden, sayfa.py] · t teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "livonya-tarikati",
+   "f": "1252-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "Pirmąkart Klaipėdos ( Cleipeda ) vardas minimas aprašant Klaipėdos pilį 1252–1328",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1409] f yıl düzeyi (1252 kale); t 1281 ufuk. EI 1929-37 kaynağı yerine VLE yazılabilir. [alıntı ham metinden, sayfa.py] · t teyitsiz"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1939-03-22",
+   "t": "1945-01-28",
+   "hukum": "ONERI",
+   "kaynak": "Visuotinė lietuvių enciklopedija, «Klaipėdos istorija», https://www.vle.lt/straipsnis/klaipedos-istorija/",
+   "alinti": "pasirašo Klaipėdos krašto perdavimo dokumentus (1939 03 22, Berlynas | 1939 03 23 Klaipėdą užgrobė nacių Vokietija | 1945 01 28 ... pasitraukė iš miesto",
+   "oneri": {
+    "f": "1939-03-23"
+   },
+   "uc": "f+t",
+   "not": "[sira 1410] TEK ÖLÇÜ: Almanya 03-22 imzada şehri yönetmiyordu → s: TESLİM/giriş günü 1939-03-23 (VLE). 03-22 imza ic_not; önceki dönem (litvanya) t de 1939-03-23 olmalı. t 1945-01-28 KAYNAKLI (Alman çekilişi, Sovyet girişi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:153",
+   "alan": "s",
+   "d": "litvanya-cumhuriyeti-yeniden",
+   "f": "1990-03-11",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1411] VLE'de 1990 araması yapılmadı (bütçe). Mevcut kaynak 'tsv' — atlas kaydı."
+  }
+ ],
+ "Sodankylä": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:139",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1412] ÜLKE DÜZEYİ · f 1281 ufuk. Finlandiya için 1520-1523 Danimarka (II. Christian) denetimi: SNL «etter gjenerobringen av Stockholm i 1523 ble danskene drevet ut av Finland» — f günü İsveç'in ülke düzeyi seçimi; Finlandiya'daki Danimarka tahliyesi 1523 içinde (gün yok), ic_not. [alıntı ham metinden, sayfa.py] · f teyitsiz (f 1281-01-01 atlas ufku)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:139",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "1809-09-17",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Gustav 1. Vasa» (Magnus A. Mardal), https://snl.no/Gustav_1._Vasa | Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge | 17. september samme år, ved en avtale i Hamina, måtte Sverige avstå",
+   "oneri": {
+    "ek_katman": {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1713-1716 (şehrin düşüş günü, kaynakla)",
+     "t": "1721 Nystad (gün kaynakla)"
+    }
+   },
+   "uc": "f+t",
+   "not": "[sira 1413] Uçlar KAYNAKLI (ÜLKE DÜZEYİ; t günü: yıl bağlamdan, aynı paragrafta 'i mars 1809'). ONERI (ayrıca): SNL «Det lyktes tsar Peter å erobre hele Finland i 1713–1716. Ved freden i Uusikaupunki (Nystad) i 1721» — Büyük Kuzey Savaşı'nda bütün Finlandiya Rus işgalinde; isg rusya (şehrin düşüş günü, 1713-1716 arası, kaynakla) → 1721 Nystad (gün kaynakla; İsveç/Rus takvimi beyan edilmeli) katmanı eklenmeli. ÖLÇÜT: geçici/askerî — Nystad'da İsveç'e iade. 1741-1743 savaşı (SNL yalnız savaş yılı verir) için de işgal katmanı sorusu açık. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:139",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå | Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1414] ÜLKE DÜZEYİ · f: yıl bağlamdan (aynı paragrafta 'i mars 1809') · Fredrikshamn 1809-09-17 (Gregoryen; İsveç 1753'ten beri Gregoryen, Rus metni Jülyen 09-05) ic_not. TAHRİR SORUSU: SNL — Rusya Finlandiya'yı 1808'de fethetti, «En generalguvernør var innsatt i desember 1808», Mart 1809 Porvoo lantdagı; TEK ÖLÇÜ'ye göre (devralan fiilen yönetiyordu) s: imza günü 1809-09-17 doğru; TAHRİR ölçütüne göre fetih/idareye katma günü (şehir başına 1808) de aday — EMRELİC kararı. Fetih→imza arası en az isg rusya katmanı yazılmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:139",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1415] ÜLKE DÜZEYİ · t ufuk. Mevcut Jussila vd. 1999 ile çift teyit. [alıntı ham metinden, sayfa.py] · t teyitsiz (t 2000-12-31 atlas ufku)"
+  }
+ ]
+}
