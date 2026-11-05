@@ -5756,7 +5756,7 @@
    "f": "0507-01-01",
    "t": "0711-01-01",
    "gorev": "ATLAS_DAYANAK",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
     "d": "vizigot",
@@ -5767,9 +5767,10 @@
    "alinti2": "TDV: «Bir süre Bizans’ın yönetiminde kalan şehir VI. yüzyıl sonlarında Vizigotlar’ın eline geçmiştir.» ... «Mûsâ b. Nusayr’ın oğullarından Abdül‘alâ (Abdüla‘lâ) şehri 94’te (713) yılında fethetmiştir.» Treccani: «conquistata dagli Arabi dal 711»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "EMRELİC gece-87 (5 Kasım 2026): f 0476-08-23 BEYANLI (gece-70). t: TDV Mâleka 711/713 iki rivayet — gece-87'de karar YOK, CELISKI kalır (EMRELİC'e soruldu). · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: TDV iki rivayet veriyor (92/711 Tarık'ın gönderdiği küçük kuvvet; 94/713 Abdülalâ), Treccani 711 -> atlas t 0711-01-01 bir rivayetle örtüşüyor, 713 rakip; ic_not'ta iki rivayet. f: TDV'ye göre Vizigot eline VI. yy SONLARINDA geçti, öncesi Bizans (Spania; Córdoba maddesinde 554/571) -> atlas f 0507-01-01 hatalı görünüyor ama Málaga'ya özgü yıl bulunamadı; bölge düzeyi 0476-08-23 önerisi (BEYANLI) yalnız Bizans dönemi kaynaklanana kadar geçici. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "not": "EMRELİC gece-89 (5 Kasım 2026): t 0711-01-01 [yalnız yıl] onaylandı (TDV Mâleka'nın ilk rivayeti; Guadalete sonrası Tarık kolu). 713 ve literatürdeki 714 (Abdülaziz) ic_not'a. Çift rivayet: ONERI. · EMRELİC gece-87 (5 Kasım 2026): f 0476-08-23 BEYANLI (gece-70). t: TDV Mâleka 711/713 iki rivayet — gece-87'de karar YOK, CELISKI kalır (EMRELİC'e soruldu). · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: TDV iki rivayet veriyor (92/711 Tarık'ın gönderdiği küçük kuvvet; 94/713 Abdülalâ), Treccani 711 -> atlas t 0711-01-01 bir rivayetle örtüşüyor, 713 rakip; ic_not'ta iki rivayet. f: TDV'ye göre Vizigot eline VI. yy SONLARINDA geçti, öncesi Bizans (Spania; Córdoba maddesinde 554/571) -> atlas f 0507-01-01 hatalı görünüyor ama Málaga'ya özgü yıl bulunamadı; bölge düzeyi 0476-08-23 önerisi (BEYANLI) yalnız Bizans dönemi kaynaklanana kadar geçici. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
    "_parti": "db_rb008.json",
-   "karar": "EMRELİC gece-87"
+   "karar": "EMRELİC gece-89",
+   "hukum_eski": "CELISKI"
   }
  ],
  "Kannauc": [

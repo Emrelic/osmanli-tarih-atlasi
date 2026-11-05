@@ -1,114 +1,283 @@
 {
  "Soyo": [
-  {"sira": 2247, "dosya_satir": "", "alan": "s", "d": "kongo-kralligi", "f": "1390-01-01", "t": "1885-02-14",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 2247,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kongo-kralligi",
+   "f": "1390-01-01",
+   "t": "1885-02-14",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "SAHO (South African History Online), «Kingdom of Kongo 1390-1914», https://sahistory.org.za/article/kingdom-kongo-1390-1914 (ham metin sayfa.py ile okundu; dipnotları Thornton 1983 'The Kingdom of Kongo: Civil War and Transition 1641-1718'e dayanır — ikincil derleme, hakemli değil)",
    "alinti": "In 1641 the Soyo declared independence under Count Daniel da Silva",
-   "oneri": {"d": "kongo-kralligi 1390 → 1641 (bölünmeli); 1641 → 1885-02-14 arası Soyo için ayrı sahip/beyan gerekir", "f": "1390-01-01", "t": "1885-02-14"},
-   "not": "Satır 1885'e kadar Soyo'yu Kongo Krallığı'na yazıyor; kaynak 1641'de Soyo'nun fiilen bağımsızlaştığını (1670 Kitombo'da Portekiz-Kongo ortak ordusunu yendiğini) söylüyor. Soyo (Mbanza Soyo/Mpinda) 1641-1885 arası ne Kongo ne Portekiz; data/devletler.js'te 'soyo' künyesi YOK (grep 0 sonuç) → LAB'a künye adayı: Soyo Kontluğu/Prensliği, f 1641 (yıl; gün teyitsiz), t en geç 1885-02-14 (Portekiz-AIA sözleşmesi; Soyo'nun son sahibi Portekiz'e geçişi). Künye açılana kadar abi merkez + BEYANLI YAKLAŞIKLIK (Kongo). Bu uc t'yi (1885-02-14) teyit ETMİYOR; yalnız f-tarafındaki 1641 kopuşunu gösteriyor. 1641 yalnız yıl düzeyi (SAHO 'In 1641'). Soyo'nun 1641 sonrası Kongo'ya nominal bağlılığı olup olmadığı okunmadı (Thornton ham metni lending, 401)."},
-  {"sira": 2248, "dosya_satir": "", "alan": "s", "d": "portekiz-angola", "f": "1885-02-14", "t": "1975-11-11",
-   "hukum": "BULUNAMADI", "uc": "f",
+   "oneri": {
+    "d": "kongo-kralligi 1390 → 1641 (bölünmeli); 1641 → 1885-02-14 arası Soyo için ayrı sahip/beyan gerekir",
+    "f": "1390-01-01",
+    "t": "1885-02-14"
+   },
+   "not": "EMRELİC gece-89 (5 Kasım 2026): Soyo 1641'de Kongo'dan ayrılır [yalnız yıl]; künye gelene dek 1641-1885 BEYANLI 'Soyo prensliği; künye adayı'. · Satır 1885'e kadar Soyo'yu Kongo Krallığı'na yazıyor; kaynak 1641'de Soyo'nun fiilen bağımsızlaştığını (1670 Kitombo'da Portekiz-Kongo ortak ordusunu yendiğini) söylüyor. Soyo (Mbanza Soyo/Mpinda) 1641-1885 arası ne Kongo ne Portekiz; data/devletler.js'te 'soyo' künyesi YOK (grep 0 sonuç) → LAB'a künye adayı: Soyo Kontluğu/Prensliği, f 1641 (yıl; gün teyitsiz), t en geç 1885-02-14 (Portekiz-AIA sözleşmesi; Soyo'nun son sahibi Portekiz'e geçişi). Künye açılana kadar abi merkez + BEYANLI YAKLAŞIKLIK (Kongo). Bu uc t'yi (1885-02-14) teyit ETMİYOR; yalnız f-tarafındaki 1641 kopuşunu gösteriyor. 1641 yalnız yıl düzeyi (SAHO 'In 1641'). Soyo'nun 1641 sonrası Kongo'ya nominal bağlılığı olup olmadığı okunmadı (Thornton ham metni lending, 401).",
+   "oneri_son": [
+    {
+     "d": "kongo-kralligi",
+     "f": "1390-01-01",
+     "t": "1641-01-01"
+    },
+    {
+     "d": "__BEYAN__",
+     "f": "1641-01-01",
+     "t": "1885-02-14",
+     "beyan": "BEYANLI: Soyo prensliği; künye adayı (LAB). 1641 Kongo'dan ayrılış (SAHO; ikinci akademik kaynak: Thornton, okunacak)"
+    }
+   ],
+   "karar": "EMRELİC gece-89"
+  },
+  {
+   "sira": 2248,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1885-02-14",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "Hertslet, The Map of Africa by Treaty, c.1 (1896), archive.org mapofafricabytre01hert: Congo Free State bölümü, 'Portugal 14th Feb., 1885. Convention. Recognition of Association' (No. 58) ve 25 Mayıs 1891 Portekiz-Kongo sözleşmesi Art. III (Kongo Nehri'nin sol kıyısı/adaları Portekiz'e)",
    "alinti": "Treaty of 14th February, 1885, between the International Association of the Congo and Portugal (No. 58)",
    "oneri": {},
-   "not": "BULUNAMADI (Soyo'ya özgü): 14 Şubat 1885 AIA-Portekiz sözleşmesinin VARLIĞI ve tarihi ham metinde okundu (1890-06-10 Kwango fermanının girişinde ve içindekiler tablosunda); 1891 sözleşmesi Art. III 'sol kıyı = Portekiz' diyor (Kongo ağzı → Noki arası medyan hat). Ama 1885 sözleşmesinin kendi metni okunamadı ve 'Soyo' adı hiçbir yerde geçmedi. TEK ÖLÇÜ: s: imza gününden yazılır ancak Portekiz o gün Soyo'yu fiilen yönetiyorsa; Soyo'da Portekiz fiilî idaresinin başlangıcı (teslim günü) BULUNAMADI. Alıntı sözleşmeyi tarihler, Soyo'yu değil; bu yüzden KAYNAKLI verilmedi. Baktığım yer: Hertslet c.1 (ia-oku), SAHO Kongo, WebSearch (Simulambuco/Cabinda; Soyo 1885 sonucu çıkmadı), encyclopedia.com (404), Britannica (403), LoC country study (yol 404). t=1975-11-11 künye ucu (Angola bağımsızlığı) ülke düzeyi, okunmadı."}
+   "not": "BULUNAMADI (Soyo'ya özgü): 14 Şubat 1885 AIA-Portekiz sözleşmesinin VARLIĞI ve tarihi ham metinde okundu (1890-06-10 Kwango fermanının girişinde ve içindekiler tablosunda); 1891 sözleşmesi Art. III 'sol kıyı = Portekiz' diyor (Kongo ağzı → Noki arası medyan hat). Ama 1885 sözleşmesinin kendi metni okunamadı ve 'Soyo' adı hiçbir yerde geçmedi. TEK ÖLÇÜ: s: imza gününden yazılır ancak Portekiz o gün Soyo'yu fiilen yönetiyorsa; Soyo'da Portekiz fiilî idaresinin başlangıcı (teslim günü) BULUNAMADI. Alıntı sözleşmeyi tarihler, Soyo'yu değil; bu yüzden KAYNAKLI verilmedi. Baktığım yer: Hertslet c.1 (ia-oku), SAHO Kongo, WebSearch (Simulambuco/Cabinda; Soyo 1885 sonucu çıkmadı), encyclopedia.com (404), Britannica (403), LoC country study (yol 404). t=1975-11-11 künye ucu (Angola bağımsızlığı) ülke düzeyi, okunmadı."
+  }
  ],
  "Matadi": [
-  {"sira": 2251, "dosya_satir": "", "alan": "s", "d": "kongo-kralligi", "f": "1390-01-01", "t": "1885-01-01",
-   "hukum": "BULUNAMADI", "uc": "t",
+  {
+   "sira": 2251,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kongo-kralligi",
+   "f": "1390-01-01",
+   "t": "1885-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
    "kaynak": "SAHO «Kingdom of Kongo 1390-1914» (https://sahistory.org.za/article/kingdom-kongo-1390-1914); Hertslet c.1 (mapofafricabytre01hert)",
    "alinti": "By 1880 most of the Kingdom of Kongo was now made up of small, decentralised trading villages",
    "oneri": {},
-   "not": "BULUNAMADI (Matadi'ye özgü sahiplik): Matadi bölgesinin (Kongo ağzı yukarısı, Vivi-Isangila arası) 1880'lerde Kongo Krallığı'na (São Salvador) bağlı olup olmadığı okunan kaynakta yok; SAHO 1880'de krallığın dağınık köylere indiğini söylüyor (merkezî egemenlik göstergesi değil, ONERI yönünde ipucu). 1885-01-01 sınırı Serbest Devlet künyesinin f'sidir, Matadi'ye özgü gün değil; AIA'nın Matadi çevresi şefleriyle antlaşmaları (1879-84) ham metinde bulunamadı. Baktığım yer: SAHO, Hertslet c.1, Stanley 1885 c.2 (congofoundingofi02stan: 'Matadi' YOK), UNESCO GHA VII (Matadi YOK). Yerleşim 1390'dan itibaren Kongo'ya yazılı; 1390'da Matadi'nin varlığı da teyitsiz (ilk anılış: 1870'ler Stanley/Vivi)."},
-  {"sira": 2252, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1885-01-01", "t": "1908-11-15",
-   "hukum": "ONERI", "uc": "f",
+   "not": "BULUNAMADI (Matadi'ye özgü sahiplik): Matadi bölgesinin (Kongo ağzı yukarısı, Vivi-Isangila arası) 1880'lerde Kongo Krallığı'na (São Salvador) bağlı olup olmadığı okunan kaynakta yok; SAHO 1880'de krallığın dağınık köylere indiğini söylüyor (merkezî egemenlik göstergesi değil, ONERI yönünde ipucu). 1885-01-01 sınırı Serbest Devlet künyesinin f'sidir, Matadi'ye özgü gün değil; AIA'nın Matadi çevresi şefleriyle antlaşmaları (1879-84) ham metinde bulunamadı. Baktığım yer: SAHO, Hertslet c.1, Stanley 1885 c.2 (congofoundingofi02stan: 'Matadi' YOK), UNESCO GHA VII (Matadi YOK). Yerleşim 1390'dan itibaren Kongo'ya yazılı; 1390'da Matadi'nin varlığı da teyitsiz (ilk anılış: 1870'ler Stanley/Vivi)."
+  },
+  {
+   "sira": 2252,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet, The Map of Africa by Treaty, c.1 (1896), archive.org mapofafricabytre01hert: Congo Free State bölümü — 1 Ağustos 1888 'Administrative Districts' fermanı (No. 43) ve 1 Ağustos 1885 tarafsızlık genelgesi (No. 42)",
    "alinti": "3. The District of Matadi. The district of Boma; the southern boundary of the State",
-   "oneri": {"f": "1888-08-01 (Matadi Bölgesi fermanı, idareye katma belgesi) — veya 1885 içinde bir gün; künye f 1885-01-01 Matadi'ye özgü kanıt değil"},
-   "not": "ÖLÇÜT: idareye katma — Serbest Devlet'in 1 Ağustos 1888 fermanı (Ostend) ülkeyi 11 bölgeye ayırıyor, 3. bölge Matadi (Hertslet No. 43). Bu, Matadi'nin Serbest Devlet idaresinde OLDUĞUNU gösterir ama 1885-01-01'i tarihlemez. Aynı metinde: AIA bayrağının tanınması Almanya 1884-11-08, İngiltere 1884-12-16, Berlin Genel Senedi 1885-02-26, Serbest Devlet tarafsızlık genelgesi 1885-08-01 — yani 1885-01-01 hiçbir olayın günü değil (künye f'si yıl başına yuvarlanmış; Değişmez 2 açısından kronoloji maddesiyle ±30 gün çakışması denetlenmeli). Matadi istasyonunun kuruluş günü bulunamadı. t=1908-11-15 (Belçika'ya devir) bu satırın kaynağında okunmadı → t uc teyitsiz."}
+   "oneri": {
+    "f": "1888-08-01 (Matadi Bölgesi fermanı, idareye katma belgesi) — veya 1885 içinde bir gün; künye f 1885-01-01 Matadi'ye özgü kanıt değil"
+   },
+   "not": "ÖLÇÜT: idareye katma — Serbest Devlet'in 1 Ağustos 1888 fermanı (Ostend) ülkeyi 11 bölgeye ayırıyor, 3. bölge Matadi (Hertslet No. 43). Bu, Matadi'nin Serbest Devlet idaresinde OLDUĞUNU gösterir ama 1885-01-01'i tarihlemez. Aynı metinde: AIA bayrağının tanınması Almanya 1884-11-08, İngiltere 1884-12-16, Berlin Genel Senedi 1885-02-26, Serbest Devlet tarafsızlık genelgesi 1885-08-01 — yani 1885-01-01 hiçbir olayın günü değil (künye f'si yıl başına yuvarlanmış; Değişmez 2 açısından kronoloji maddesiyle ±30 gün çakışması denetlenmeli). Matadi istasyonunun kuruluş günü bulunamadı. t=1908-11-15 (Belçika'ya devir) bu satırın kaynağında okunmadı → t uc teyitsiz."
+  }
  ],
  "Kisangani (Stanleyville)": [
-  {"sira": 2254, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1885-01-01", "t": "1908-11-15",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 2254,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "«Tippu Tip», encyclopedia.com (African biography maddesi), https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tippu-tip ; Hertslet c.1 (mapofafricabytre01hert) 1 Ağustos 1888 fermanı",
    "alinti": "in February 1887 he accepted from Stanley a commission from the Congo Free State as governor of the Stanley Falls district",
-   "oneri": {"f": "1887-02 (Tippu Tip valiliği; gün teyitsiz) veya 1888-08-01 (Stanley Falls Bölgesi fermanı)", "t": "1908-11-15"},
-   "not": "ÖLÇÜT: idareye katma — kaynak, Serbest Devlet'in Stanley Falls'taki karakolunun 1886'da Tippu Tip'in adamlarınca yakıldığını, Şubat 1887'de Tippu Tip'in Serbest Devlet adına vali tayin edildiğini söylüyor; Hertslet'te 'District of Stanley Falls' 1888-08-01 fermanında (10. bölge). Yani 1885-01-01'de Kisangani çevresi fiilen Zanzibarlı/Arap tüccar (Tippu Tip) hâkimiyetindeydi; 1892-94 Kongo-Arap savaşı sonrası kesin (okunmadı). Satır 1885-01-01 f'sini destekleyecek kaynak YOK; ONERI: f 1885'ten sonraya çekilmeli, arası için sahip önerisi (Tippu Tip/Zanzibar Arapları) için künye YOK (grep gerekli, LAB) → beyanlı yaklaşıklık. Stanley'nin 1883'te Stanley Falls karakolunu kurduğu (WebSearch özeti, ham metin DEĞİL; Stanley 1885 c.2'de 'Stanley Falls Station' geçiyor ama kuruluş günü okunmadı) Wana Rusari adası, bugünkü Kisangani'ye yakın ama aynı nokta olduğu teyitsiz. Tippu Tip valilik günü 'Şubat 1887' yalnız ay; 24 Şubat 1887 günü yalnız arama özetinde (teyitsiz). Stanleyville adının/kentin 1898-07-15 bölge merkezi olması ham metinde okunmadı."}
+   "oneri": {
+    "f": "1887-02 (Tippu Tip valiliği; gün teyitsiz) veya 1888-08-01 (Stanley Falls Bölgesi fermanı)",
+    "t": "1908-11-15"
+   },
+   "not": "ÖLÇÜT: idareye katma — kaynak, Serbest Devlet'in Stanley Falls'taki karakolunun 1886'da Tippu Tip'in adamlarınca yakıldığını, Şubat 1887'de Tippu Tip'in Serbest Devlet adına vali tayin edildiğini söylüyor; Hertslet'te 'District of Stanley Falls' 1888-08-01 fermanında (10. bölge). Yani 1885-01-01'de Kisangani çevresi fiilen Zanzibarlı/Arap tüccar (Tippu Tip) hâkimiyetindeydi; 1892-94 Kongo-Arap savaşı sonrası kesin (okunmadı). Satır 1885-01-01 f'sini destekleyecek kaynak YOK; ONERI: f 1885'ten sonraya çekilmeli, arası için sahip önerisi (Tippu Tip/Zanzibar Arapları) için künye YOK (grep gerekli, LAB) → beyanlı yaklaşıklık. Stanley'nin 1883'te Stanley Falls karakolunu kurduğu (WebSearch özeti, ham metin DEĞİL; Stanley 1885 c.2'de 'Stanley Falls Station' geçiyor ama kuruluş günü okunmadı) Wana Rusari adası, bugünkü Kisangani'ye yakın ama aynı nokta olduğu teyitsiz. Tippu Tip valilik günü 'Şubat 1887' yalnız ay; 24 Şubat 1887 günü yalnız arama özetinde (teyitsiz). Stanleyville adının/kentin 1898-07-15 bölge merkezi olması ham metinde okunmadı."
+  }
  ],
  "Kabongo (Luba)": [
-  {"sira": 2256, "dosya_satir": "", "alan": "s", "d": "luba", "f": "1585-01-01", "t": "1889-01-01",
-   "hukum": "BULUNAMADI", "uc": "f+t",
+  {
+   "sira": 2256,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "luba",
+   "f": "1585-01-01",
+   "t": "1889-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
    "kaynak": "UNESCO General History of Africa VII (archive.org unesco_general_history_africa_vii) — Luba kısmı; Missouri DICE Luba.pdf (okundu, 'Kabongo' YOK)",
    "alinti": "undercut the efforts of the Luba and Barue to remain autonomous",
    "oneri": {},
-   "not": "BULUNAMADI: Luba ve Barue'nin özerkliği korumaya çalıştığı (GHA VII, Congo Free State fetihleri 1885-1905 bağlamı) okundu ama 'Kabongo' adı, 1585 ya da 1889 tarihi ham metinde YOK. luba künyesinin t=1889-01-01 (Wikipedia 'Luba Empire' bunu 1889 verir — arama özeti, tek dayanak olamaz). WebSearch özeti: 1900 dolayında Belçikalılar Luba merkezini iki mirasçıya (Kabongo ve Kasongo Nyembo) böldü, 1895 büyük isyan — bu Kabongo'nun 1889'da Serbest Devlet idaresine KATILMADIĞINI, 1890'lardan 1900'e dek Luba şeflerinin elinde kaldığını düşündürür (ONERI ipucu, doğrulanmadı). Baktığım yer: GHA VII ('Kabongo' YOK), Luba.pdf, WebSearch (Luba Empire/Kabongo/Invasion of South Kasai Vikipedi sayfaları yalnız ipucu). Vansina Kingdoms of the Savanna / Reefe The Rainforest..: archive.org lending, 401."},
-  {"sira": 2257, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1889-01-01", "t": "1908-11-15",
-   "hukum": "BULUNAMADI", "uc": "f",
+   "not": "BULUNAMADI: Luba ve Barue'nin özerkliği korumaya çalıştığı (GHA VII, Congo Free State fetihleri 1885-1905 bağlamı) okundu ama 'Kabongo' adı, 1585 ya da 1889 tarihi ham metinde YOK. luba künyesinin t=1889-01-01 (Wikipedia 'Luba Empire' bunu 1889 verir — arama özeti, tek dayanak olamaz). WebSearch özeti: 1900 dolayında Belçikalılar Luba merkezini iki mirasçıya (Kabongo ve Kasongo Nyembo) böldü, 1895 büyük isyan — bu Kabongo'nun 1889'da Serbest Devlet idaresine KATILMADIĞINI, 1890'lardan 1900'e dek Luba şeflerinin elinde kaldığını düşündürür (ONERI ipucu, doğrulanmadı). Baktığım yer: GHA VII ('Kabongo' YOK), Luba.pdf, WebSearch (Luba Empire/Kabongo/Invasion of South Kasai Vikipedi sayfaları yalnız ipucu). Vansina Kingdoms of the Savanna / Reefe The Rainforest..: archive.org lending, 401."
+  },
+  {
+   "sira": 2257,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1889-01-01",
+   "t": "1908-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "UNESCO General History of Africa VII (archive.org unesco_general_history_africa_vii)",
    "alinti": "the conquest of Katanga, initiated in 1891, was not completed until early in this century",
    "oneri": {},
-   "not": "BULUNAMADI (Kabongo'ya özgü idareye katma): GHA VII ham metni Katanga fetihinin 1891'de başlayıp yüzyıl başına dek sürdüğünü söylüyor (alıntı Katanga'yı tarihler, Kabongo'yu değil) — 1889-01-01 f'si Luba künyesinin t'sine bağlı (devlet düzeyi). Kabongo'nun Serbest Devlet kayıtlarına (bölge/post) girdiği gün bulunamadı. ÜLKE/BÖLGE DÜZEYİ ipucu: 1889 → muhtemelen daha geç; 'muhtemelen' ile öneri yazılmadı. t=1908-11-15 okunmadı."}
+   "not": "BULUNAMADI (Kabongo'ya özgü idareye katma): GHA VII ham metni Katanga fetihinin 1891'de başlayıp yüzyıl başına dek sürdüğünü söylüyor (alıntı Katanga'yı tarihler, Kabongo'yu değil) — 1889-01-01 f'si Luba künyesinin t'sine bağlı (devlet düzeyi). Kabongo'nun Serbest Devlet kayıtlarına (bölge/post) girdiği gün bulunamadı. ÜLKE/BÖLGE DÜZEYİ ipucu: 1889 → muhtemelen daha geç; 'muhtemelen' ile öneri yazılmadı. t=1908-11-15 okunmadı."
+  }
  ],
  "Kazak bozkırı (Turgay)": [
-  {"sira": 2258, "dosya_satir": "", "alan": "s", "d": "kazak-hanligi", "f": "1500-01-01", "t": "1847-01-01",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 2258,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "«History of colonial reform», e-history.kz (Kazakistan devlet tarih portalı, akademik değil), https://e-history.kz/en/news/show/7077 (ham metin sayfa.py ile okundu)",
    "alinti": "October 21, 1868, \"Decree on the transformation of the management of the Kazakhs",
-   "oneri": {"t": "1868-10-21 (Turgay Oblastı'nın Orenburg Genel Valiliği'ne katıldığı Geçici Nizamname günü; idareye katma belgesi) — daha erken adaylar 1824 (Küçük Cüz hanlığının kaldırılışı, Britannica arama özeti, ham metin DEĞİL) ve 1845 (İç Orda hanlığı)", "d": ""},
-   "not": "ÖLÇÜT: idareye katma — 21 Ekim 1868 Geçici Nizamname 'Ural, Turgay, Akmola ve Semipalatinsk oblastları' yönetimini kurdu; Turgay oblastı Orenburg Genel Valiliği'ne bağlandı (ham metin). Satırın t=1847-01-01 ucu atlasın kendi 'Kopal tahkimatı' (Yedisu, Kuzey Yedisu) maddesinden devralma; Kopal Turgay bozkırı değil, Yedisu → Turgay için 1847 kaynaksız ve yerinden. Turgay bozkırı Küçük Cüz topraklarıdır (1731'de Rus himayesi — Forsyth ham metni 'friendly relations between the Russians and the Kazaks from 1731' ile uyumlu, 1731 ülke düzeyi himaye, idareye katma DEĞİL). Kesin gün için ham kaynak (hakemli: Olcott 'The Kazakhs' lending, 401; Becker) bulunamadı; Kazak Hanlığı künyesi f=1465 (devletler.js), Rusya f=1547-01-16. Seçim (1824/1845/1868) Emre/EMRELİC kararı gerektirir: bu yüzden oneri 1868-10-21 en belgeli aday olarak yazıldı, 'tek doğru' diye değil."},
-  {"sira": 2259, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1847-01-01", "t": "1917-03-15",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1868-10-21 (Turgay Oblastı'nın Orenburg Genel Valiliği'ne katıldığı Geçici Nizamname günü; idareye katma belgesi) — daha erken adaylar 1824 (Küçük Cüz hanlığının kaldırılışı, Britannica arama özeti, ham metin DEĞİL) ve 1845 (İç Orda hanlığı)",
+    "d": ""
+   },
+   "not": "EMRELİC gece-89 (5 Kasım 2026): 1847-01-01 Kopal'dan DEVRALMA; KAYNAKSIZ. TAHRİR: s: rusya ölçüsü Küçük Cüz hanlığının 1824'te kaldırılışı ve Orenburg Kırgız idaresine katılış. Kaynak turu: TDV 'Kazaklar'/'Küçük Cüz', BRE ya da cyberleninka. Bulunana dek 1847 ONERI + bu not. 1868-10-21 Geçici Nizamname idarî yeniden düzenleme, ic_not'a. · ÖLÇÜT: idareye katma — 21 Ekim 1868 Geçici Nizamname 'Ural, Turgay, Akmola ve Semipalatinsk oblastları' yönetimini kurdu; Turgay oblastı Orenburg Genel Valiliği'ne bağlandı (ham metin). Satırın t=1847-01-01 ucu atlasın kendi 'Kopal tahkimatı' (Yedisu, Kuzey Yedisu) maddesinden devralma; Kopal Turgay bozkırı değil, Yedisu → Turgay için 1847 kaynaksız ve yerinden. Turgay bozkırı Küçük Cüz topraklarıdır (1731'de Rus himayesi — Forsyth ham metni 'friendly relations between the Russians and the Kazaks from 1731' ile uyumlu, 1731 ülke düzeyi himaye, idareye katma DEĞİL). Kesin gün için ham kaynak (hakemli: Olcott 'The Kazakhs' lending, 401; Becker) bulunamadı; Kazak Hanlığı künyesi f=1465 (devletler.js), Rusya f=1547-01-16. Seçim (1824/1845/1868) Emre/EMRELİC kararı gerektirir: bu yüzden oneri 1868-10-21 en belgeli aday olarak yazıldı, 'tek doğru' diye değil.",
+   "_etiket": "DEVRALMA_KAYNAKSIZ",
+   "karar": "EMRELİC gece-89"
+  },
+  {
+   "sira": 2259,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "e-history.kz https://e-history.kz/en/news/show/7077 (ham); Forsyth, A History of the Peoples of Siberia (1992), archive.org james-forsyth-...1581-1990 (ham)",
    "alinti": "October 21, 1868, \"Decree on the transformation of the management of the Kazakhs",
-   "oneri": {"f": "1868-10-21 (bkz. 2258) — Kazak Hanlığı satırının t'siyle birlikte taşınmalı"},
-   "not": "f ucu 2258 ile aynı gerekçe (Kopal 1847 ≠ Turgay). t=1917-03-15 (II. Nikolay'ın feragati, Gregoryen) ülke düzeyi: Forsyth ham metninde 'After the February Revolution local Committees of Public Safety were formed… supporting the Russian Provisional government' var ama bu cümle 15 Mart'ı tarihlemez → t ucu TEYİTSİZ. Turgay Oblastı 1917'de Rus Geçici Hükümeti'ne bağlıydı (genel çerçeve); Alaş Orda 1917-12 tarihli, bu satırı etkilemez. Takvim: 2 Mart 1917 Jülyen = 15 Mart 1917 Gregoryen."},
-  {"sira": 2263, "dosya_satir": "", "alan": "s", "d": "kazakistan", "f": "1991-12-16", "t": "2000-12-31",
-   "hukum": "BAKILMADI", "uc": "f",
+   "oneri": {
+    "f": "1868-10-21 (bkz. 2258) — Kazak Hanlığı satırının t'siyle birlikte taşınmalı"
+   },
+   "not": "EMRELİC gece-89 (5 Kasım 2026): 1847-01-01 Kopal'dan DEVRALMA; KAYNAKSIZ. TAHRİR: s: rusya ölçüsü Küçük Cüz hanlığının 1824'te kaldırılışı ve Orenburg Kırgız idaresine katılış. Kaynak turu: TDV 'Kazaklar'/'Küçük Cüz', BRE ya da cyberleninka. Bulunana dek 1847 ONERI + bu not. 1868-10-21 Geçici Nizamname idarî yeniden düzenleme, ic_not'a. · f ucu 2258 ile aynı gerekçe (Kopal 1847 ≠ Turgay). t=1917-03-15 (II. Nikolay'ın feragati, Gregoryen) ülke düzeyi: Forsyth ham metninde 'After the February Revolution local Committees of Public Safety were formed… supporting the Russian Provisional government' var ama bu cümle 15 Mart'ı tarihlemez → t ucu TEYİTSİZ. Turgay Oblastı 1917'de Rus Geçici Hükümeti'ne bağlıydı (genel çerçeve); Alaş Orda 1917-12 tarihli, bu satırı etkilemez. Takvim: 2 Mart 1917 Jülyen = 15 Mart 1917 Gregoryen.",
+   "_etiket": "DEVRALMA_KAYNAKSIZ",
+   "karar": "EMRELİC gece-89"
+  },
+  {
+   "sira": 2263,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "https://adilet.zan.kz/eng/docs/Z910004400_ (sayfa.py 197 bayt döndü, içerik yok — erişim/yönlendirme sorunu)",
    "alinti": "",
    "oneri": {},
-   "not": "BAKILMADI: bağımsızlık yasası sayfası (adilet.zan.kz) ham metin vermedi (197 bayt); e-history.kz alternatifi ve tandfonline (403) denenmedi/başarısız. Künye notu: devletler.js 'kazakistan' ozet: Yüksek Sovyet 16 Aralık 1991'de 270 oyla kabul etti — künye kaydı, ham metinden teyit edilemedi. EMRELİC bağımsızlık-ilanı-günü kuralına uygun görünüyor (1991-12-16, 12-26 değil). t=2000-12-31 satır sonu (veri çerçevesi) olup devlet sonu değil; kaynak aranmadı."}
+   "not": "EMRELİC gece-89 (5 Kasım 2026): 1847-01-01 Kopal'dan DEVRALMA; KAYNAKSIZ. TAHRİR: s: rusya ölçüsü Küçük Cüz hanlığının 1824'te kaldırılışı ve Orenburg Kırgız idaresine katılış. Kaynak turu: TDV 'Kazaklar'/'Küçük Cüz', BRE ya da cyberleninka. Bulunana dek 1847 ONERI + bu not. 1868-10-21 Geçici Nizamname idarî yeniden düzenleme, ic_not'a. · BAKILMADI: bağımsızlık yasası sayfası (adilet.zan.kz) ham metin vermedi (197 bayt); e-history.kz alternatifi ve tandfonline (403) denenmedi/başarısız. Künye notu: devletler.js 'kazakistan' ozet: Yüksek Sovyet 16 Aralık 1991'de 270 oyla kabul etti — künye kaydı, ham metinden teyit edilemedi. EMRELİC bağımsızlık-ilanı-günü kuralına uygun görünüyor (1991-12-16, 12-26 değil). t=2000-12-31 satır sonu (veri çerçevesi) olup devlet sonu değil; kaynak aranmadı.",
+   "_etiket": "DEVRALMA_KAYNAKSIZ",
+   "karar": "EMRELİC gece-89",
+   "hukum_eski": "BAKILMADI"
+  }
  ],
  "Petropavlovsk-Kamçatskiy": [
-  {"sira": 2264, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1740-01-01", "t": "1917-03-15",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 2264,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1740-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Forsyth, A History of the Peoples of Siberia (1992), archive.org james-forsyth-a-history-of-the-peoples-of-siberia-...-1992_202601 (ham); Golder, Russian Expansion on the Pacific 1641-1850 (1914), archive.org cu31924086365388 (ham) [20. yy başı, birincil kaynak kullanımlı]",
    "alinti": "Bering, in 1739, sent one of his officers who sounded and charted the harbor and put up a few buildings",
-   "oneri": {"f": "1740-01-01 korunabilir (YIL); 1739'da limanın ilk binaları, 1740'ta Aziz Petrus-Pavlus kilisesi/ad ve ikinci sefer üssü → ic_not'a '1739-40 YIL, gün yok' yazılmalı"},
-   "not": "Kaynaklar çelişkili-yakın: Golder (ham): 1739'da Bering bir subayını gönderdi, liman ölçüldü, birkaç bina kuruldu; kış (1740-41) hazırlığı burada geçti, köy iki geminin (St Peter/St Paul) adından Petropavlovsk adını aldı. Forsyth (ham): 'it was not until 1740 that two new ships… sailed to the newly created port of Petropavlovsk at Avacha Bay' (gemiler 1740'ta geldi, kuruluş gün/yıl cümlesi değil). Gün yok; atlasın 1740-01-01 değeri yalnız yıl düzeyi → 'YIL' beyanı. Kamçatka'nın genel Rus egemenliği 1697-99 Atlasov, bu satırın konusu değil. t=1917-03-15 ülke düzeyi, Forsyth ham metni Şubat Devrimi'ni anlatıyor ama günü vermiyor → t uc teyitsiz. Satır 'KAYNAKLI' verilmedi: alıntı kuruluş olayını değil limanın hazırlığını tarihler; 1739/1740 yıl farkı var."}
+   "oneri": {
+    "f": "1740-01-01 korunabilir (YIL); 1739'da limanın ilk binaları, 1740'ta Aziz Petrus-Pavlus kilisesi/ad ve ikinci sefer üssü → ic_not'a '1739-40 YIL, gün yok' yazılmalı"
+   },
+   "not": "Kaynaklar çelişkili-yakın: Golder (ham): 1739'da Bering bir subayını gönderdi, liman ölçüldü, birkaç bina kuruldu; kış (1740-41) hazırlığı burada geçti, köy iki geminin (St Peter/St Paul) adından Petropavlovsk adını aldı. Forsyth (ham): 'it was not until 1740 that two new ships… sailed to the newly created port of Petropavlovsk at Avacha Bay' (gemiler 1740'ta geldi, kuruluş gün/yıl cümlesi değil). Gün yok; atlasın 1740-01-01 değeri yalnız yıl düzeyi → 'YIL' beyanı. Kamçatka'nın genel Rus egemenliği 1697-99 Atlasov, bu satırın konusu değil. t=1917-03-15 ülke düzeyi, Forsyth ham metni Şubat Devrimi'ni anlatıyor ama günü vermiyor → t uc teyitsiz. Satır 'KAYNAKLI' verilmedi: alıntı kuruluş olayını değil limanın hazırlığını tarihler; 1739/1740 yıl farkı var."
+  }
  ],
  "Bâne": [
-  {"sira": 2268, "dosya_satir": "", "alan": "s", "d": "safevi", "f": "1501-07-01", "t": "1585-04-19",
-   "hukum": "BULUNAMADI", "uc": "f+t",
+  {
+   "sira": 2268,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1585-04-19",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
    "kaynak": "Bakılan: TDV Erdelan (arama sayfası, madde slug'ı tutmadı), Iranica /articles/baneh (404), DergiPark 'Osmanlı Devleti-Erdelan Emirliği 16-18. yy' (article-file/4081642, 178 KB; Bâne/1590/1603/1723/1732 anahtarları YOK)",
    "alinti": "",
    "oneri": {},
-   "not": "BULUNAMADI: Bâne (Baneh/Pâne, Erdelan emirliği toprağı) için Safevî egemenliği 1501-07-01 (Safevî künye f) → 1585-04-19 aralığının Bâne'ye özgü kaynağı bulunamadı. Not: Bâne tarihsel olarak Erdelan (Erdelan Emirliği) eyaletindeydi, Safevîlere tâbi özerk bir hanedan; s: safevi yerine v:/s: erdelan ayrımı gerekebilir (WebSearch özeti, doğrulanmadı: 'Erdelan çoğu zaman Safevîlerle ittifak yaptı', Osmanlı-Erdelan ilişkisi Kanunî dönemi). 1585-04-19 gününün neye dayandığı (Osmanlı Bâne fethi?) okunmadı. Tavsiye: TDV 'Erdelan' ve 'Bâne' maddesini doğru slug'la (Türkçe başlık) tekrar sorgula; ayrıca Iranica 'ARDALĀN' maddesi (slug 'ardalan' denenmedi, yalnız 'baneh')."},
-  {"sira": 2272, "dosya_satir": "", "alan": "s", "d": "safevi", "f": "1603-10-21", "t": "1736-03-08",
-   "hukum": "BULUNAMADI", "uc": "f+t",
+   "not": "BULUNAMADI: Bâne (Baneh/Pâne, Erdelan emirliği toprağı) için Safevî egemenliği 1501-07-01 (Safevî künye f) → 1585-04-19 aralığının Bâne'ye özgü kaynağı bulunamadı. Not: Bâne tarihsel olarak Erdelan (Erdelan Emirliği) eyaletindeydi, Safevîlere tâbi özerk bir hanedan; s: safevi yerine v:/s: erdelan ayrımı gerekebilir (WebSearch özeti, doğrulanmadı: 'Erdelan çoğu zaman Safevîlerle ittifak yaptı', Osmanlı-Erdelan ilişkisi Kanunî dönemi). 1585-04-19 gününün neye dayandığı (Osmanlı Bâne fethi?) okunmadı. Tavsiye: TDV 'Erdelan' ve 'Bâne' maddesini doğru slug'la (Türkçe başlık) tekrar sorgula; ayrıca Iranica 'ARDALĀN' maddesi (slug 'ardalan' denenmedi, yalnız 'baneh')."
+  },
+  {
+   "sira": 2272,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1603-10-21",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
    "kaynak": "Bakılan: DergiPark 4081642 (Osmanlı-Erdelan), WebSearch (Erdelan Emirleri, Şiilik ve Şeyhilik / Bingöl Üniv. makaleleri yalnız ipucu)",
    "alinti": "",
    "oneri": {},
-   "not": "BULUNAMADI: f=1603-10-21 'gün komşudan: Tebriz' ile devralma; Bâne'ye özgü gün bulunamadı. Kaynak aralığı olarak arama özeti: 1720'lerde Osmanlı Erdelan dahil batı İran'ı aldı, 1730-32 savaşı sonrası İran'a iade edildi (tr.wikipedia ve DergiPark özeti; ham metin DEĞİL). t=1736-03-08 (Nadir Şah'ın Muğan'da şah ilanı) ülke düzeyi, Bâne'ye özgü değil; 1736-03-08 Safevî hanedanı fiilen 1736'da bitiyor (Nadir Şah) — künye t'si ile uyumlu görünüyor, ham kaynakla teyit edilmedi."},
-  {"sira": 2273, "dosya_satir": "", "alan": "d", "d": "", "f": "1723-11-10", "t": "1732-01-10",
-   "hukum": "BAKILMADI", "uc": "f+t",
+   "not": "BULUNAMADI: f=1603-10-21 'gün komşudan: Tebriz' ile devralma; Bâne'ye özgü gün bulunamadı. Kaynak aralığı olarak arama özeti: 1720'lerde Osmanlı Erdelan dahil batı İran'ı aldı, 1730-32 savaşı sonrası İran'a iade edildi (tr.wikipedia ve DergiPark özeti; ham metin DEĞİL). t=1736-03-08 (Nadir Şah'ın Muğan'da şah ilanı) ülke düzeyi, Bâne'ye özgü değil; 1736-03-08 Safevî hanedanı fiilen 1736'da bitiyor (Nadir Şah) — künye t'si ile uyumlu görünüyor, ham kaynakla teyit edilmedi."
+  },
+  {
+   "sira": 2273,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1723-11-10",
+   "t": "1732-01-10",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
    "kaynak": "mevcut: Bilgili 2016 (Ermeni Araştırmaları 53) dn.88 (TD 1066 Pâne livası) — kaynaklı dönem, hedef dışı",
    "alinti": "",
    "oneri": {},
-   "not": "BAKILMADI: dönem zaten kaynaklı (Bilgili 2016, TD 1066 Pâne livası), brif öncelik sırasında hedef değil; baştan doğrulanmadı. Dikkat: d: alanının devlet kimliği boş ('d': '') — bu satır Osmanlı dönemi (alan d:) olduğundan beklenen; ancak gün 'komşudan: Senendec' (kaynak: gün komşudan devralma, zincirleme yasak). Gün düzeyi bağımsız kaynakla teyit edilmedi."}
+   "not": "BAKILMADI: dönem zaten kaynaklı (Bilgili 2016, TD 1066 Pâne livası), brif öncelik sırasında hedef değil; baştan doğrulanmadı. Dikkat: d: alanının devlet kimliği boş ('d': '') — bu satır Osmanlı dönemi (alan d:) olduğundan beklenen; ancak gün 'komşudan: Senendec' (kaynak: gün komşudan devralma, zincirleme yasak). Gün düzeyi bağımsız kaynakla teyit edilmedi."
+  }
  ],
  "Tobolsk (İsker)": [
-  {"sira": 2274, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1598-08-20", "t": "1917-03-15",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 2274,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-08-20",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Forsyth, A History of the Peoples of Siberia (1992), archive.org james-forsyth-a-history-of-the-peoples-of-siberia-...-1992_202601 (ham metin sayfa.py ile)",
    "alinti": "Yermak's expedition beyond the Urals began in 1581",
-   "oneri": {"f": "1587 (Tobolsk'un Rus kalesi olarak kuruluşu) — bu oturumda ham kaynakla TEYİT EDİLEMEDİ; gün yok"},
-   "not": "f=1598-08-20 Sibir Hanlığı künyesinin t'si (Irmen/Ob savaşı, Küçüm'ün yenilgisi) olarak devralınmış. Forsyth (ham): Yermak'ın Urallar ötesi seferi 1581'de başladı; Küçüm'ün hanlığını 'bir yüzyıldan fazla önce Ruslara kaybettiği' belirtiliyor (Forsyth Ch.1; 'more than a century before'). Tobolsk 1587'de kuruldu (ön bilgi) — bu yıl Forsyth ham metninde '1587' anahtarıyla bulunamadı (YOK), Lantzeff/Fisher/Armstrong archive.org lending (401); bu nedenle KAYNAKLI verilmedi. ÖLÇÜT: idareye katma — Rus voyvodalığı kuruluşu (Tobolsk 1621'de ilk Sibirya başpiskoposluğu merkezi, Forsyth ham: 'the first archbishop of Siberia in Tobolsk in 1621'; head voyevoda in Tobolsk) → 1598-08-20 (hanlık sonu) idareye katma gününden sonra DEĞİL, çok daha önceki bir tarihte Rus idaresi olduğunu gösterir. t=1917-03-15 ülke düzeyi (bkz. Kazak/Petropavlovsk notu) teyitsiz."},
-  {"sira": 2278, "dosya_satir": "", "alan": "s", "d": "sibir-hanligi", "f": "1430-01-01", "t": "1598-08-20",
-   "hukum": "ONERI", "uc": "t",
+   "oneri": {
+    "f": "1587 (Tobolsk'un Rus kalesi olarak kuruluşu) — bu oturumda ham kaynakla TEYİT EDİLEMEDİ; gün yok"
+   },
+   "not": "f=1598-08-20 Sibir Hanlığı künyesinin t'si (Irmen/Ob savaşı, Küçüm'ün yenilgisi) olarak devralınmış. Forsyth (ham): Yermak'ın Urallar ötesi seferi 1581'de başladı; Küçüm'ün hanlığını 'bir yüzyıldan fazla önce Ruslara kaybettiği' belirtiliyor (Forsyth Ch.1; 'more than a century before'). Tobolsk 1587'de kuruldu (ön bilgi) — bu yıl Forsyth ham metninde '1587' anahtarıyla bulunamadı (YOK), Lantzeff/Fisher/Armstrong archive.org lending (401); bu nedenle KAYNAKLI verilmedi. ÖLÇÜT: idareye katma — Rus voyvodalığı kuruluşu (Tobolsk 1621'de ilk Sibirya başpiskoposluğu merkezi, Forsyth ham: 'the first archbishop of Siberia in Tobolsk in 1621'; head voyevoda in Tobolsk) → 1598-08-20 (hanlık sonu) idareye katma gününden sonra DEĞİL, çok daha önceki bir tarihte Rus idaresi olduğunu gösterir. t=1917-03-15 ülke düzeyi (bkz. Kazak/Petropavlovsk notu) teyitsiz."
+  },
+  {
+   "sira": 2278,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sibir-hanligi",
+   "f": "1430-01-01",
+   "t": "1598-08-20",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Forsyth, A History of the Peoples of Siberia (1992) (ham) — Yermak seferi; Armstrong (ed.) Yermak's Campaign in Siberia (Hakluyt 1975) Forsyth kaynakçasında anılır, açık metni bulunamadı",
    "alinti": "Yermak's expedition beyond the Urals began in 1581",
-   "oneri": {"t": "1582 (İsker/Kaşlık'ın Yermak'ça ele geçirilişi; yıl düzeyi, gün teyitsiz) — Tobolsk(İsker) için hanlık sahipliği 1598 değil 1582 civarı biter; Küçüm'ün hanlığı Baraba bozkırına kayarak 1598'e dek sürdü"},
-   "not": "ÖLÇÜT: idareye katma/kayıp — İsker Küçüm'ün başkentiydi (devletler.js sibir-hanligi f=1430, t=1598-08-20 künye). Kuşku: t=1598-08-20 hanlığın SONUDUR, İsker'in kaybı değil. Forsyth (ham): sefer 1581'de başladı; Küçüm ve 'Siberian khanate… lost to the Russians more than a century before' (1730'lar bağlamı). İsker'in düşüş günü (26 Ekim 1582, ön bilgi) ham kaynakta okunamadı → öneri YIL düzeyinde ve ön bilgiye dayalı; KASA'nın Armstrong/Skrynnikov ya da TDV 'Sibir Hanlığı' maddesiyle teyit etmesi gerekir. Baktığım yer: Forsyth (Kuchum/Isker/Tobolsk anahtarları), Kennan 1891 (Tobolsk kuruluşu cümlesi bulunamadı), Lantzeff (401)."}
+   "oneri": {
+    "t": "1582 (İsker/Kaşlık'ın Yermak'ça ele geçirilişi; yıl düzeyi, gün teyitsiz) — Tobolsk(İsker) için hanlık sahipliği 1598 değil 1582 civarı biter; Küçüm'ün hanlığı Baraba bozkırına kayarak 1598'e dek sürdü"
+   },
+   "not": "ÖLÇÜT: idareye katma/kayıp — İsker Küçüm'ün başkentiydi (devletler.js sibir-hanligi f=1430, t=1598-08-20 künye). Kuşku: t=1598-08-20 hanlığın SONUDUR, İsker'in kaybı değil. Forsyth (ham): sefer 1581'de başladı; Küçüm ve 'Siberian khanate… lost to the Russians more than a century before' (1730'lar bağlamı). İsker'in düşüş günü (26 Ekim 1582, ön bilgi) ham kaynakta okunamadı → öneri YIL düzeyinde ve ön bilgiye dayalı; KASA'nın Armstrong/Skrynnikov ya da TDV 'Sibir Hanlığı' maddesiyle teyit etmesi gerekir. Baktığım yer: Forsyth (Kuchum/Isker/Tobolsk anahtarları), Kennan 1891 (Tobolsk kuruluşu cümlesi bulunamadı), Lantzeff (401)."
+  }
  ]
 }

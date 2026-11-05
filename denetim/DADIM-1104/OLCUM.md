@@ -1178,7 +1178,10 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
    - Yıllar: Toledo, Sevilla, Granada 712 · Valensiya, Zaragoza 714 · Barselona 715 · Lizbon 716 · Kurtuba 711. Hepsi `YYYY-01-01` [yalnız yıl].
    - emevi künye f 711 değişmez.
    - Kronoloji maddesi önerisi "Tarık ve Musa'nın fetihleri: X" KASA'ya. Kırılmalar yıl-temsilî borç kovasına girer.
-   - **Málaga'da karar yok** (TDV 711/713): CELISKI kalır, EMRELİC'e soruldu.
+   - **Málaga (gece-89, `karar57.py`):** 711 [yalnız yıl], TDV'nin ilk rivayeti. 713 ve 714 (Abdülaziz) ic_not'a. Çift rivayet olduğu için ONERI.
+7. **gece-89, E4 r8_033:**
+   - Turgay 1847: "devralma; kaynaksız" işaretlendi. TAHRİR ölçüsü 1824 (Küçük Cüz hanlığının kaldırılışı); kaynak turu bekliyor. 1868-10-21 ic_not'a.
+   - Soyo 1641 → 1885: BEYANLI "Soyo prensliği; künye adayı" (LAB).
 2. **476-507 dilimi:** vizigot BEYANLI, f 0476-08-23 (yedi BOSLUK satırı; ajanın 08-28'i düzeltildi).
    - Kurtuba'da Bizans Spania 554–571 (TDV; Treccani 572 ic_not'a), ONERI.
 3. **Süev f 0411-01-01:** ONERI-güçlü. bati-roma t 0411 aynı commit'te. 409 ic_not'a.
