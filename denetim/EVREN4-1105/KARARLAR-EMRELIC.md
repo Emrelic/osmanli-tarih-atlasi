@@ -951,6 +951,18 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - **Saumur:** `blois-kontlugu` künye adayı oldu.
     - Zincir: Blois (Odo II) → 1026 Fulk Nerra → `anjou-kontlugu` (künye 1000–1204) → Fransa; günler kaynakla.
     - ⚠️ Atlasın Saumur kaydında `fransa` f **1203-01-01**; LAB'ın zincirinde 1204. ON5 ajanı lex.dk'de Anjou geçişi için "1025" buldu (atlas 1026). İki uç da kaynakla hizalanmalı.
+    - LAB SALI düzeltti: Kanal Adaları için `normandiya` t = 1204-06-24 = `kanal-adalari` f; dönemler yarı açık [f, t), 06-23 bir günlük boşluk bırakırdı.
+
+## gece-120 — ZEND + KAÇAR kararları (EMRELİC; talimat ZEND-KAFKAS-UYGULA.md)
+
+- O.S. çevirileri EMRELİC tarafından sınandı: Bakü 3 Ekim O.S. → 1806-10-15 ✓, Şirvan 25 Aralık 1805 O.S. → 1806-01-06 ✓.
+- **(a) 1827–28:** savaş işgalinden ilhaka kadar `isg rusya` (Revan 1827-10-13; altında `s: revan-hanligi`); Türkmençay 1828-02-22 = `s: rusya`. 1804–06 hanlık ilhakları/tâbilikleri önerildiği gibi.
+- **(b) Urmiye:** TDV cümlesi «1174'te (1760) … kuşatma sonunda Kerim Han Zend tarafından ele geçirildi» ele geçirmeyi tarihliyor → TDV esas.
+  - `zend` f **1760-08-12** (hicrî 1174 ∩ 1760 kesişiminin ilk günü). Iranica «February 1763» `ic_not`a yazılır.
+- **(c) Derbend → Kuba:** TDV 1759 sonbaharı → `kuba-hanligi` 1759-09-01 + ay hassasiyeti; ru.wiki 1765 `ic_not`a.
+- **(d) Koordinat sınaması:** Astara, Culfa ve Kliçatak uygulamadan önce Natural Earth nehir katmanıyla sınanır.
+- **(e) Künye partisi:** 5 düzeltme + 10 aday tek partide LAB SALI'da. 4 taşan uç aynı commit şartıyla girer. Tarki, künye gelene kadar bekler.
+- D2'nin 32 yeni maddesi madde kuyruğuna (Sonnet, 7 dil); 103 uç deliğinden sonra.
 
 ## gece-113 — tarama biçim kusuru (ek)
 
