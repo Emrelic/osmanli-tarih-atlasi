@@ -151,6 +151,20 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-104 — 1776-07-04 odak kapsamı (On Üç Koloni)
+
+- **Ölçüm (KASA, güncel main):** `1776-07-04` günlü üç madde var:
+  - `devletler.js:6392` (odak Philadelphia);
+  - `devletler.js:18810` (`on-uc-koloni` künyesinin t maddesi; odak Philadelphia, Boston, Charleston);
+  - `kronoloji_ingiltere.js:844` (odak yok).
+- 1783'ten 1776'ya çekilecek 9 şehrin 7'si atlasta bu adlarla var: Pemaquid, Falmouth, Portsmouth NH, Providence, Hartford, Norfolk, Wilmington NC. Bu 7'si main'de hâlâ 1783-09-03'te; çekme işlemi henüz uygulanmadı.
+- Pittsburgh atlasta yok. "Hillsborough" yalnız Carriacou'da var; UMIT'in listesinde Kuzey Karolina'nınkiyle karışmış olabilir. EMRELİC bunu UMIT'e ACİL olarak gönderdi.
+- **Karar:** `devletler.js:18810` maddesinin odak listesi genişletilir.
+  - Künye düzeyindeki madde tek yerde tutulur.
+  - Listeye UMIT kimlikleri doğruladıktan sonra yalnız doğrulanmış şehirler girer.
+  - `kronoloji_ingiltere.js:844`'e DOKUNULMAZ (bu dosya Değişmez 2 evreninde değil).
+  - Uygulama KASA PAZAR'da, 1776 çekmesiyle aynı dalgada.
+
 ## 5 Kasım 2026 gece-102 — halef_1946 eşleşme ölçümü (HALEF1946-ESLESME.tsv; yalnız ölçüm)
 
 - **Bantustanlar:** atlas emsali (4 bantustan → GAC 1994) bunları `s:` olarak yazıyor. Draç emsaline göre de ilan eden hükûmet orayı fiilen yönetiyordu. Bu yüzden `s: transkei` kalır; tanınmadığı `ic_not`a yazılır. Sınıf sorusu Emre'nin listesine "tanınmayan kukla devletler" olarak girer.
