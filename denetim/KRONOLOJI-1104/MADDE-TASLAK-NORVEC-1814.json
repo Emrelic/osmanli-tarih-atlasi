@@ -1,0 +1,136 @@
+[
+ {
+  "no": "NOR-01",
+  "hedef_dosya": "data/kronoloji_sinir_zincir_1281sonra_1024.js",
+  "madde": {
+   "odak_yer": ["Oslo", "Bergen", "Stavanger", "Tønsberg", "Kristiansand", "Trondheim", "Ålesund", "Molde", "Kristiansund", "Røros", "Sogndal", "Lillehammer", "Hamar", "Skien", "Haugesund", "Mosjøen", "Bodø", "Tromsø", "Alta", "Vardø"],
+   "t": "1814-02-19",
+   "gun": "19 Şubat 1814",
+   "kesinlik": "gun",
+   "devlet": "norvec-1814",
+   "devletler": ["norvec-1814", "danimarka", "isvec"],
+   "b": "Christian Frederik Norveç naibi oldu: Norveç Kiel'i tanımadı, idareyi kendi eline aldı",
+   "tur": "kurulus",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": ["sinir", "toprak-kazanc", "konu-siyasi", "norvec-1814", "danimarka"],
+   "yer_id": "Oslo",
+   "yer": "Norveç şehirleri",
+   "d": "Kiel Antlaşması Norveç'i kâğıt üzerinde İsveç kralına bırakmıştı, ama antlaşma Norveç'te kabul edilmedi. Danimarka kralının Norveç'teki valisi (stattholder) Christian Frederik, 16 Şubat 1814'te Eidsvoll'de ileri gelenlerle toplandı. 19 Şubat'ta yayımladığı bildirilerle Norveç'in naibi olarak idareyi kendi eline aldı ve anayasa yazacak bir meclisi toplantıya çağırdı. Norveç'in tamamı (Bergen, Trondheim, Stavanger, Tromsø vd.) bu günden itibaren ne Danimarka'nın ne İsveç'in, kendi naibinin yönetimindeydi.",
+   "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik): «Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid.» ; SNL «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814): «Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov» ; SNL «stormannsmøtet» (https://snl.no/stormannsm%C3%B8tet): «Inntil videre skulle prinsen styre som regent» ; SNL «Mossekonvensjonen» (Francis Sejersted): «Kieltraktaten ble ikke godtatt i Norge.» · hassasiyet: gun",
+   "ic_not_t": "Takvim: Danimarka-Norveç 1700'den Gregoryen, çeviri yok. Bu madde yerleşimlerin danimarka→norvec-1814 kırılmasını (1814-02-19) açıklar; eski isvec 1814-01-14→05-17 dilimi düşer (EMRELİC gece-116). Künye norvec-1814 f 1814-05-17 → 1814-02-19 LAB'a; aynı commit. Gün üç SNL maddesinde; SNL dışı ikinci akademik kaynak okunamadı (regjeringen.no robots) — çift teyit yazılmaz. · ZİNCİR-1281SONRA-1024 · NORVEÇ-1814"
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntılar sayfa.py ham metninden birebir (5 Kasım 2026). Hedef dosya: Kiel maddesi kronoloji_sinir dosyasında DEĞİL — data/olaylar_ek16.js:150 (Değişmez 2 evreni) ve data/kronoloji_isvec.js:488'de; Norveç 1814 s: kırılma maddeleri (05-17, 11-04) data/kronoloji_sinir_zincir_1281sonra_1024.js'te olduğu için oraya yazılır, o dosyanın alan düzeni (gun, kesinlik, yer_id, yer, ic_not_t; 'devletler' yerine 'taraflar') uygulamada izlenir. 1814-05-17 maddesinin d'sindeki 'Norveç bağımsız krallık oldu' cümlesi geçerli kalır.",
+  "ceviri": {
+   "en": {
+    "b": "Christian Frederik becomes regent of Norway: Norway rejects Kiel and takes over its own government",
+    "d": "The Treaty of Kiel had handed Norway to the King of Sweden on paper, but the treaty was not accepted in Norway. Christian Frederik, the Danish king's governor (stattholder) in Norway, met the country's leading men at Eidsvoll on 16 February 1814. With the proclamations he issued on 19 February he took over the government as regent of Norway and summoned an assembly to write a constitution. From this day all of Norway (Bergen, Trondheim, Stavanger, Tromsø and others) was ruled neither by Denmark nor by Sweden, but by its own regent."
+   },
+   "ar": {
+    "b": "كريستيان فريدريك وصيًّا على النرويج: النرويج ترفض معاهدة كيل وتتولى حكم نفسها",
+    "d": "كانت معاهدة كيل قد سلّمت النرويج على الورق لملك السويد، لكن المعاهدة لم تُقبل في النرويج. واجتمع كريستيان فريدريك، حاكم ملك الدنمارك في النرويج، بوجهاء البلاد في إيدسفول في 16 فبراير 1814. وبالبيانات التي أصدرها في 19 فبراير تولّى الحكم وصيًّا على النرويج ودعا إلى مجلس يضع دستورًا. ومنذ ذلك اليوم لم تعد النرويج كلها (برغن وتروندهايم وستافنغر وترومسو وغيرها) تحت حكم الدنمارك ولا السويد، بل تحت حكم وصيّها."
+   },
+   "de": {
+    "b": "Christian Frederik wird Regent Norwegens: Norwegen verwirft Kiel und übernimmt die eigene Regierung",
+    "d": "Der Kieler Frieden hatte Norwegen auf dem Papier dem König von Schweden übertragen, doch in Norwegen wurde der Vertrag nicht anerkannt. Christian Frederik, Statthalter des dänischen Königs in Norwegen, traf am 16. Februar 1814 in Eidsvoll die führenden Männer des Landes. Mit den Proklamationen vom 19. Februar übernahm er als Regent Norwegens die Regierung und berief eine verfassunggebende Versammlung ein. Von diesem Tag an stand ganz Norwegen (Bergen, Trondheim, Stavanger, Tromsø u. a.) weder unter Dänemark noch unter Schweden, sondern unter seinem eigenen Regenten."
+   },
+   "es": {
+    "b": "Christian Frederik, regente de Noruega: Noruega rechaza Kiel y asume su propio gobierno",
+    "d": "El Tratado de Kiel había entregado Noruega sobre el papel al rey de Suecia, pero el tratado no fue aceptado en Noruega. Christian Frederik, gobernador (stattholder) del rey danés en Noruega, se reunió con los notables del país en Eidsvoll el 16 de febrero de 1814. Con las proclamas del 19 de febrero asumió el gobierno como regente de Noruega y convocó una asamblea para redactar una constitución. Desde ese día toda Noruega (Bergen, Trondheim, Stavanger, Tromsø y otras) no estuvo gobernada ni por Dinamarca ni por Suecia, sino por su propio regente."
+   },
+   "fr": {
+    "b": "Christian Frederik devient régent de Norvège : la Norvège rejette Kiel et prend son propre gouvernement",
+    "d": "Le traité de Kiel avait cédé la Norvège sur le papier au roi de Suède, mais le traité ne fut pas accepté en Norvège. Christian Frederik, gouverneur (stattholder) du roi de Danemark en Norvège, réunit les notables du pays à Eidsvoll le 16 février 1814. Par les proclamations du 19 février, il prit le gouvernement en qualité de régent de Norvège et convoqua une assemblée chargée de rédiger une constitution. À partir de ce jour, toute la Norvège (Bergen, Trondheim, Stavanger, Tromsø, etc.) ne releva ni du Danemark ni de la Suède, mais de son propre régent."
+   },
+   "pt": {
+    "b": "Christian Frederik torna-se regente da Noruega: a Noruega rejeita Kiel e assume o próprio governo",
+    "d": "O Tratado de Kiel entregara a Noruega, no papel, ao rei da Suécia, mas o tratado não foi aceite na Noruega. Christian Frederik, governador (stattholder) do rei dinamarquês na Noruega, reuniu-se com os notáveis do país em Eidsvoll a 16 de fevereiro de 1814. Com as proclamações de 19 de fevereiro assumiu o governo como regente da Noruega e convocou uma assembleia para redigir uma constituição. A partir desse dia toda a Noruega (Bergen, Trondheim, Stavanger, Tromsø e outras) não foi governada nem pela Dinamarca nem pela Suécia, mas pelo seu próprio regente."
+   },
+   "ru": {
+    "b": "Кристиан Фредерик становится регентом Норвегии: Норвегия отвергает Кильский договор и берёт власть в свои руки",
+    "d": "Кильский договор на бумаге передал Норвегию королю Швеции, однако в Норвегии договор не признали. Кристиан Фредерик, наместник (штатгальтер) датского короля в Норвегии, 16 февраля 1814 года собрал видных людей страны в Эйдсволле. Прокламациями 19 февраля он принял управление как регент Норвегии и созвал собрание для составления конституции. С этого дня вся Норвегия (Берген, Тронхейм, Ставангер, Тромсё и другие) управлялась не Данией и не Швецией, а собственным регентом."
+   }
+  }
+ },
+ {
+  "no": "NOR-02",
+  "hedef_dosya": "data/kronoloji_sinir_zincir_1281sonra_1024.js",
+  "madde": {
+   "odak_yer": ["Oslo"],
+   "t": "1814-08-14",
+   "gun": "14 Ağustos 1814",
+   "kesinlik": "gun",
+   "devlet": "isvec",
+   "devletler": ["isvec", "norvec-1814"],
+   "b": "Moss Sözleşmesi: İsveç-Norveç savaşı bitti, Norveç anayasasını koruyarak birliği kabul etti",
+   "tur": "antlasma",
+   "onem": 4,
+   "dunya": 2,
+   "kapsam": "dis",
+   "etiket": ["sinir", "antlasma", "konu-askeri", "konu-diplomasi", "isvec", "norvec-1814"],
+   "yer_id": "Oslo",
+   "yer_kon": [59.4342, 10.6598],
+   "yer": "Moss",
+   "d": "İsveç ordusu 26 Temmuz 1814'te Hvaler adalarına saldırarak Norveç'e girdi; 4 Ağustos'ta Fredrikstad kalesi teslim oldu. Kral Christian Frederik İsveç veliahdı Karl Johan'ın ateşkes önerisini kabul etti ve 14 Ağustos'ta Moss'ta sözleşme yapıldı. Christian Frederik tahttan çekilip ülkeyi terk etmeyi, olağanüstü bir Storting toplamayı üstlendi; Norveç ise anayasasını koruyarak İsveç ile birliği kabul etti. Savaş sona erdi; Norveç birliğe kadar kendi hükümetiyle kaldı, doğudaki Fredrikstad ve Fredriksten kaleleri İsveç askerinin elinde kaldı.",
+   "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Mossekonvensjonen var avtalen der Norge godkjente unionen med Sverige . Avtalen ble inngått 14. august 1814.» ; «De viktigste bestemmelsene i Mossekonvensjonen var at Christian Frederik forpliktet seg til å abdisere og forlate landet, at Norge skulle få beholde grunnloven i unionen med Sverige» ; SNL «krigen i 1814» (https://snl.no/krigen_i_1814): «Det svenske angrepet blei sett i verk om morgonen 26. juli.» ; «4. august kapitulerte Fredrikstad festning.» ; SNL «Fredriksten festning»: «Uten å være beseiret ble Fredriksten i samsvar med overenskomsten i Moss overlevert til svenske tropper, som i mars 1815 igjen forlot området.» · hassasiyet: gun",
+   "ic_not_t": "Takvim: Gregoryen, çeviri yok. SNL «Mossekonvensjonen» görsel altyazısı sözleşmenin Moss'ta biçimlendiğini, imzanın Fredrikstad Kommandantgården'da 15 Ağustos 1814'te atıldığını söyler; metin gövdesi ve öteki SNL maddeleri 14 Ağustos der — atlas 14 Ağustos'u kullanır, 15 Ağustos beyan. Atlasta Østfold (Fredrikstad, Hvaler, Halden) yerleşim kaydı yok; isg isvec katmanı yazılmadı, bu madde Değişmez 2 kırılması açıklamaz, kronoloji bütünlüğü içindir. odak_yer Moss'a en yakın kayıt (Oslo); yer_kon Moss. · NORVEÇ-1814"
+  },
+  "teyit": "KAYNAKLI",
+  "not": "Alıntılar sayfa.py ham metninden birebir. Mevcut data/kronoloji_isvec.js:492 maddesi (1814-08-14, Nordstrom) Değişmez 2 evreninde değil; bu madde kronoloji_sinir'e onun kaynaklı karşılığıdır — çift madde riskine karşı uygulamada kronoloji_isvec maddesi korunur (ayrı evren). Fredrikstad isg t ucu: SNL 'birlikten birkaç ay sonrasına dek' diyor, brifin 1814-11-04'ü ile çelişir (ONERI dosyasında beyanlı).",
+  "ceviri": {
+   "en": {
+    "b": "Convention of Moss: the Swedish-Norwegian war ends, Norway accepts the union while keeping its constitution",
+    "d": "The Swedish army entered Norway on 26 July 1814 with an attack on the Hvaler islands; on 4 August Fredrikstad fortress capitulated. King Christian Frederik accepted the ceasefire offered by the Swedish crown prince Karl Johan, and on 14 August the convention was concluded at Moss. Christian Frederik undertook to abdicate, leave the country and convene an extraordinary Storting; Norway accepted the union with Sweden while keeping its constitution. The war was over; Norway kept its own government until the union, while the eastern fortresses of Fredrikstad and Fredriksten remained in Swedish hands."
+   },
+   "ar": {
+    "b": "اتفاقية موس: انتهاء الحرب السويدية النرويجية وقبول النرويج الاتحاد مع الاحتفاظ بدستورها",
+    "d": "دخل الجيش السويدي النرويج في 26 يوليو 1814 بهجوم على جزر هفالر، وفي 4 أغسطس استسلمت قلعة فريدريكستاد. وقبل الملك كريستيان فريدريك عرض الهدنة الذي قدّمه ولي العهد السويدي كارل يوهان، وفي 14 أغسطس عُقدت الاتفاقية في موس. وتعهّد كريستيان فريدريك بالتنازل عن العرش ومغادرة البلاد ودعوة برلمان (ستورتينغ) استثنائي، وقبلت النرويج الاتحاد مع السويد مع الاحتفاظ بدستورها. وانتهت الحرب؛ وبقيت النرويج بحكومتها حتى قيام الاتحاد، فيما ظلت قلعتا فريدريكستاد وفريدريكستن في الشرق بيد الجنود السويديين."
+   },
+   "de": {
+    "b": "Konvention von Moss: Der schwedisch-norwegische Krieg endet, Norwegen nimmt die Union an und behält seine Verfassung",
+    "d": "Die schwedische Armee drang am 26. Juli 1814 mit einem Angriff auf die Hvaler-Inseln in Norwegen ein; am 4. August kapitulierte die Festung Fredrikstad. König Christian Frederik nahm das Waffenstillstandsangebot des schwedischen Kronprinzen Karl Johan an, und am 14. August wurde in Moss die Konvention geschlossen. Christian Frederik verpflichtete sich, abzudanken, das Land zu verlassen und ein außerordentliches Storting einzuberufen; Norwegen nahm die Union mit Schweden an und behielt seine Verfassung. Der Krieg war beendet; Norwegen behielt bis zur Union seine eigene Regierung, während die östlichen Festungen Fredrikstad und Fredriksten in schwedischer Hand blieben."
+   },
+   "es": {
+    "b": "Convención de Moss: termina la guerra sueco-noruega y Noruega acepta la unión conservando su constitución",
+    "d": "El ejército sueco entró en Noruega el 26 de julio de 1814 atacando las islas Hvaler; el 4 de agosto capituló la fortaleza de Fredrikstad. El rey Christian Frederik aceptó el alto el fuego ofrecido por el príncipe heredero sueco Karl Johan, y el 14 de agosto se concluyó la convención en Moss. Christian Frederik se comprometió a abdicar, abandonar el país y convocar un Storting extraordinario; Noruega aceptó la unión con Suecia conservando su constitución. La guerra terminó; Noruega mantuvo su propio gobierno hasta la unión, mientras las fortalezas orientales de Fredrikstad y Fredriksten quedaban en manos suecas."
+   },
+   "fr": {
+    "b": "Convention de Moss : fin de la guerre suédo-norvégienne, la Norvège accepte l'union en gardant sa constitution",
+    "d": "L'armée suédoise entra en Norvège le 26 juillet 1814 en attaquant les îles Hvaler ; le 4 août, la forteresse de Fredrikstad capitula. Le roi Christian Frederik accepta le cessez-le-feu proposé par le prince héritier suédois Karl Johan, et la convention fut conclue à Moss le 14 août. Christian Frederik s'engagea à abdiquer, à quitter le pays et à convoquer un Storting extraordinaire ; la Norvège accepta l'union avec la Suède en conservant sa constitution. La guerre prit fin ; la Norvège garda son propre gouvernement jusqu'à l'union, tandis que les forteresses orientales de Fredrikstad et de Fredriksten restaient aux mains des Suédois."
+   },
+   "pt": {
+    "b": "Convenção de Moss: termina a guerra sueco-norueguesa e a Noruega aceita a união mantendo a sua constituição",
+    "d": "O exército sueco entrou na Noruega a 26 de julho de 1814 atacando as ilhas Hvaler; a 4 de agosto a fortaleza de Fredrikstad capitulou. O rei Christian Frederik aceitou o cessar-fogo proposto pelo príncipe herdeiro sueco Karl Johan, e a 14 de agosto a convenção foi concluída em Moss. Christian Frederik comprometeu-se a abdicar, a deixar o país e a convocar um Storting extraordinário; a Noruega aceitou a união com a Suécia mantendo a sua constituição. A guerra terminou; a Noruega manteve o seu próprio governo até à união, enquanto as fortalezas orientais de Fredrikstad e Fredriksten ficavam em mãos suecas."
+   },
+   "ru": {
+    "b": "Мосская конвенция: шведско-норвежская война окончена, Норвегия принимает унию, сохраняя свою конституцию",
+    "d": "26 июля 1814 года шведская армия вступила в Норвегию, атаковав острова Хвалер; 4 августа капитулировала крепость Фредрикстад. Король Кристиан Фредерик принял предложение о перемирии шведского кронпринца Карла Юхана, и 14 августа в Моссе была заключена конвенция. Кристиан Фредерик обязался отречься от престола, покинуть страну и созвать чрезвычайный стортинг; Норвегия приняла унию со Швецией, сохранив свою конституцию. Война закончилась; до заключения унии Норвегия сохраняла собственное правительство, а восточные крепости Фредрикстад и Фредрикстен оставались в руках шведов."
+   }
+  }
+ },
+ {
+  "no": "NOR-03-ONERI",
+  "hedef_dosya": "data/olaylar_ek16.js",
+  "madde_degisikligi": {
+   "satir": 150,
+   "t": "1814-01-14",
+   "b": "DEĞİŞMEZ",
+   "d_ek_cumle": "İsveç Norveç'i fiilen devralamadı: antlaşma Norveç'te kabul edilmedi ve idare Christian Frederik'te kaldı; İsveç ordusu Norveç'e ancak 26 Temmuz 1814'te girdi.",
+   "kaynak_ek": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» ; «26. juli 1814 gikk svenske tropper til angrep på Norge.» ; SNL «Kieltraktaten» (Øystein Lydik Idsø Viken): «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.»",
+   "kaynak_alani_notu": "Mevcut kaynak:'bulunamadı' ve ic_not_d Britannica'ya dayanıyor (ticari ansiklopedi — 6e). SNL «Kieltraktaten» KAYNAKLI karşılıktır; kaynak alanı bununla değiştirilebilir. Ayrıca mevcut d'deki 'kişisel birlik (real union)' ifadesi kendi içinde çelişik — öneri: 'kişisel birlik'. Aynı madde data/kronoloji_isvec.js:488'de de var (Değişmez 2 evreni dışında)."
+  },
+  "teyit": "ONERI",
+  "not": "Brif: b değişmez, d'ye cümle yalnız öneri olarak. Alıntılar sayfa.py ham metninden birebir.",
+  "ceviri": {
+   "en": {"d_ek_cumle": "Sweden could not actually take over Norway: the treaty was not accepted in Norway and the government stayed with Christian Frederik; the Swedish army entered Norway only on 26 July 1814."},
+   "ar": {"d_ek_cumle": "لم تتمكن السويد من تسلّم النرويج فعليًا: فقد رُفضت المعاهدة في النرويج وبقي الحكم بيد كريستيان فريدريك، ولم يدخل الجيش السويدي النرويج إلا في 26 يوليو 1814."},
+   "de": {"d_ek_cumle": "Schweden konnte Norwegen tatsächlich nicht übernehmen: Der Vertrag wurde in Norwegen nicht anerkannt, die Regierung blieb bei Christian Frederik; die schwedische Armee rückte erst am 26. Juli 1814 in Norwegen ein."},
+   "es": {"d_ek_cumle": "Suecia no pudo hacerse efectivamente con Noruega: el tratado no fue aceptado en Noruega y el gobierno quedó en manos de Christian Frederik; el ejército sueco no entró en Noruega hasta el 26 de julio de 1814."},
+   "fr": {"d_ek_cumle": "La Suède ne put pas prendre effectivement possession de la Norvège : le traité n'y fut pas accepté et le gouvernement resta à Christian Frederik ; l'armée suédoise n'entra en Norvège que le 26 juillet 1814."},
+   "pt": {"d_ek_cumle": "A Suécia não conseguiu tomar efetivamente a Noruega: o tratado não foi aceite na Noruega e o governo ficou com Christian Frederik; o exército sueco só entrou na Noruega a 26 de julho de 1814."},
+   "ru": {"d_ek_cumle": "Фактически Швеция не смогла получить Норвегию: в Норвегии договор не признали, и власть осталась у Кристиана Фредерика; шведская армия вступила в Норвегию лишь 26 июля 1814 года."}
+  }
+ }
+]
