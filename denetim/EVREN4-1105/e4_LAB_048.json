@@ -186,8 +186,11 @@
    "uc": "f",
    "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html ; https://www.pref.hokkaido.lg.jp/ks/bns/digest/data_e.html (SSL hatası)",
    "alinti": "",
-   "oneri": {},
-   "not": "KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | Bakıldı: cas.go.jp hoppou01-01 (1799 geçmiyor; Matsumae 17. yy 'kendi alanı' diyor), Hokkaido Valiliği kronolojisi (SSL hatası, başka makinede). WebSearch özeti 1799 bakufu doğrudan idaresi diyor (okunmamış, KAYNAKLI değil). Not: cas.go.jp'ye göre 17. yy'dan beri Matsumae alanı; bakufu 1799-1821 doğrudan, 1821 Matsumae'ye iade (özet) -> 1799-1868 kesintisiz edo-bakufu s: zincirinde 1821 iadesi gözden geçirilmeli."
+   "oneri": {
+    "f": "1799 (bakufunun doğrudan idaresi, gün kaynakla)",
+    "not": "öncesi bos:'kabile' (Ainu toprağı)"
+   },
+   "not": "LAB SALI (origin/main ölçümü): Matsumae ayrı künye AÇILMAZ (han'lar şogunluğun idarî birimi; atlas han tutmuyor). Kunashiri ÖZEL: 1799'dan önce Matsumae'nin fiilî idaresi yok (yalnız basho ticaret ruhsatı; 1789 Menashi-Kunashir Ainu ayaklanması) → 1799'a dek bos:'kabile' + neden ('Ainu toprağı; Matsumae ticaret ruhsatı'); 1799'dan (gün kaynakla) s: edo-bakufu; 1868-01-03'ten meiji-japonya; bakufu doğrudan idaresi değişimleri ic_not. AMUR-ONERI Hokkaido Ainu önerisiyle tutarlı. | KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | Bakıldı: cas.go.jp hoppou01-01 (1799 geçmiyor; Matsumae 17. yy 'kendi alanı' diyor), Hokkaido Valiliği kronolojisi (SSL hatası, başka makinede). WebSearch özeti 1799 bakufu doğrudan idaresi diyor (okunmamış, KAYNAKLI değil). Not: cas.go.jp'ye göre 17. yy'dan beri Matsumae alanı; bakufu 1799-1821 doğrudan, 1821 Matsumae'ye iade (özet) -> 1799-1868 kesintisiz edo-bakufu s: zincirinde 1821 iadesi gözden geçirilmeli."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2659",
@@ -204,7 +207,7 @@
     "alan": "isg",
     "t": "1946-02-02"
    },
-   "not": "KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL: Sovyet askerî işgali (Kunashiri Eylül 1945) ilhaka dek isg; s: sscb 1946-02-02 (KARAR). Japon resmî sayfası işgali Ağustos 28-Eylül 5 aralığı veriyor (Kunashiri'ye özgü gün yok). 1946-02-02 kaynağı okunamadı. ÖLÇÜT: geçici/askerî."
+   "not": "LAB SALI (origin/main ölçümü): Matsumae ayrı künye AÇILMAZ (han'lar şogunluğun idarî birimi; atlas han tutmuyor). Kunashiri ÖZEL: 1799'dan önce Matsumae'nin fiilî idaresi yok (yalnız basho ticaret ruhsatı; 1789 Menashi-Kunashir Ainu ayaklanması) → 1799'a dek bos:'kabile' + neden ('Ainu toprağı; Matsumae ticaret ruhsatı'); 1799'dan (gün kaynakla) s: edo-bakufu; 1868-01-03'ten meiji-japonya; bakufu doğrudan idaresi değişimleri ic_not. AMUR-ONERI Hokkaido Ainu önerisiyle tutarlı. | KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL: Sovyet askerî işgali (Kunashiri Eylül 1945) ilhaka dek isg; s: sscb 1946-02-02 (KARAR). Japon resmî sayfası işgali Ağustos 28-Eylül 5 aralığı veriyor (Kunashiri'ye özgü gün yok). 1946-02-02 kaynağı okunamadı. ÖLÇÜT: geçici/askerî."
   }
  ],
  "Kazak bozkırı (Sarısu)": [
@@ -419,7 +422,7 @@
     "d": "vyatka (künye adayı)",
     "t": "1489"
    },
-   "not": "KARAR EMRELİC (gece-132): Vyatka toprağı 1489'a dek ayrı (Moskova ilhakı 1489) → novgorod kalkar; vyatka künyesi YOK (LAB PAZAR ölçümü) → LAB SALI'ya aday; ipucu → ONERI. | Bakıldı: BRE arama özetleri. SAHİPLİK ŞÜPHESİ: arama özeti BRE Котельнич'i Vyatka Zemlya (Rogojsky 1374) ile ilişkilendiriyor, 1478'e dek Novgorod değil Vyatka alanı olabilir; ilk anış 1181 doğrulanamadı (özet: 1459)."
+   "not": "LAB SALI (origin/main ölçümü): vyatka aday listesinde (gece-50, t 1489-08): novgorod kalkar; 1489'a dek vyatka, sonra moskova. | KARAR EMRELİC (gece-132): Vyatka toprağı 1489'a dek ayrı (Moskova ilhakı 1489) → novgorod kalkar; vyatka künyesi YOK (LAB PAZAR ölçümü) → LAB SALI'ya aday; ipucu → ONERI. | Bakıldı: BRE arama özetleri. SAHİPLİK ŞÜPHESİ: arama özeti BRE Котельнич'i Vyatka Zemlya (Rogojsky 1374) ile ilişkilendiriyor, 1478'e dek Novgorod değil Vyatka alanı olabilir; ilk anış 1181 doğrulanamadı (özet: 1459)."
   }
  ],
  "Krasnıy Yar": [
