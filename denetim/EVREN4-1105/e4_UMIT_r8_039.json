@@ -1,0 +1,256 @@
+{
+ "Ostrovnoye (Anyuy panayırı)": [
+  {
+   "sira": 2464,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1794-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "W. Bogoras, The Chukchee (Jesup North Pacific Expedition, Memoirs AMNH vol. 7, 1904-09), archive.org; James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org)",
+   "alinti": "a regular trade was started the following year",
+   "alinti2": "Finally Ostrovnoye prevailed",
+   "oneri": {},
+   "not": "f=1794 yılını tarihleyen kaynak bulunamadı. Bogoras: 1788'de Banner barış kurdu, ticaret 1789'da başladı; panayır düzensiz aralıklarla bazen Ostrovnoye'de bazen Büyük Anyuy'da toplandı, 'sonunda Ostrovnoye ağır bastı' ve Ruslar orada ahşap Anuisk kalesini kurdu (yıl verilmiyor). Forsyth: Yakutsk makamları 1788'den beri Anyuy üstünde yıllık panayır düzenledi. Yani 1794 ya 1789-90 öncesi ya da sonrası olabilir; yer kimliği/yıl teyitsiz. Baktığım: Bogoras (ia-oku, 'Anui Fair' bölümü), Forsyth (indeks+Anyui), ru.wikipedia Островное (yalnız 'XVIII yy başı', ipucu). Not: ru.wikipedia'ya göre bugünkü köy 1930'da kurulmuş; atlas 'kale' kaydı Anuisk kalesidir."
+  },
+  {
+   "sira": 2464,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Gijiga": [
+  {
+   "sira": 2468,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1651-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org); ESBE (Brockhaus-Efron) [19. yy kaynağı, İPUCU sınıfı; tarihler Jülyen] 'Гижигинск' (ru.wikisource.org/wiki/ЭСБЕ/Гижигинск)",
+   "alinti": "building a new fort on the Gizhiga river",
+   "alinti2": "Основан был в 1753 г. в виде крепости",
+   "oneri": {
+    "f": "1751-01-01",
+    "alt": "1753-01-01 (ESBE)"
+   },
+   "not": "1651 yılını destekleyen kaynak bulunamadı. Forsyth: 1751'de Gijiga nehrinde yeni kale inşa edildi (Korak köleleriyle). ESBE Gizhiginsk (cilt VIIIa, 1893): 'Основан был в 1753 г. в виде крепости' (Korak ayaklanmalarını bastırmak için). Olası yazım/okuma hatası 1651 vs 1751. Kırpma adayı: 1651-1751 arası YOK_O_DEVIRDE olabilir (Forsyth 'new fort' dediği için daha eski bir zimovye ihtimali tümüyle elenmedi). Karar için iki akademik kaynak gerek: 1751 (Forsyth) / 1753 (ESBE) çelişkisi KASA'da beyan edilmeli; kaynak: ru.wikipedia Гижига sayfası kuruluş yılı vermedi."
+  },
+  {
+   "sira": 2468,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Verhnekamçatsk": [
+  {
+   "sira": 2472,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1698-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org); ESBE (Brockhaus-Efron) [19. yy kaynağı, İPUCU sınıfı; tarihler Jülyen] 'Камчатка' ve 'Верхне-Камчатск'",
+   "alinti": "the 1697—9 expedition led by the Cossack officer Atlasov",
+   "alinti2": "устроили Верхне-Камчатское ясачное зимовье",
+   "oneri": {},
+   "not": "1698 yılını tarihleyen kaynak bulunamadı; kaynaklar çelişiyor. ESBE 'Камчатка': Atlasov 1697'de Anadyrsk'tan çıktı, 'в том же году ... устроили Верхне-Камчатское ясачное зимовье' (1697). ESBE 'Верхне-Камчатск' (cilt VI, 1892): 'основан в 1703 г. Атласовым' (kendi içinde çelişik, 19. yy). Forsyth yalnız 1697-9 Atlasov seferini anar, Verhnekamçatsk'ı adıyla dönemlemez. Modern akademik (Müller/Krasheninnikov yorumları, Polonsky) kaynağa erişilemedi. Baktığım: Forsyth (Verkhne*, Atlasov), ESBE iki madde, Coxe 1780 OCR (okunaksız)."
+  },
+  {
+   "sira": 2472,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Ust-Olenyok zimovyesi": [
+  {
+   "sira": 2476,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1633-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org), Bölüm 'Central and North-East Siberia' (s. ~75)",
+   "alinti": "in the following year, 1633, a Russian expedition sailed north to the delta",
+   "alinti2": "up the river Olenyok, where a fort was set up among the Edyan Tungus",
+   "oneri": {},
+   "not": "Yıl düzeyi (atlas f=1633-01-01 yıl hassasiyetidir). YER ÖZDEŞLİĞİ ZAYIF: Forsyth zimovye'yi adıyla anmıyor; 'Lena deltasından Olenyok nehrinden yukarı çıkıp Edyan Tungusları arasında bir kale kuruldu' diyor. Atlas noktası (72.9N, 119.8E) Olenyok ağzıdır; 'up the river' ağızla aynı nokta olmayabilir. Gün teyitsiz. İkinci kaynak (Lantzeff, archive.org 403) açılamadı."
+  },
+  {
+   "sira": 2476,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Markovo": [
+  {
+   "sira": 2480,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1840-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "W. Bogoras, The Chukchee (Jesup North Pacific Expedition, Memoirs AMNH vol. 7, 1904-09), archive.org; James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org); ESBE 'Гижигинский округ' (Anadyrsk); ru.wikipedia Марково (ipucu)",
+   "alinti": "В 1649 г. казаком Дежневым был основан Анадырский острог",
+   "alinti2": "В 1649 г. казаком Дежневым был основан Анадырский острог",
+   "oneri": {},
+   "not": "1840 yılı bulunamadı. Bogoras 1890'lar için 'Russianized village of Markova' (Dyachkov 1893) anar; Forsyth Markovo'yu yalnız 1919'da anar. ESBE Gizhiginsk okrugu: 'В 1649 г. казаком Дежневым был основан Анадырский острог' (Anadyrsk, 480 verst denizden); ru.wikipedia Марково kuruluşu 1649 yazıyor ve eski adı 'Anadyrskiy ostrog' diyor (ipucu, tek dayanak değil). Markovo ile 1649 Anadyrsk'ın aynı yer olup olmadığı akademik kaynakla teyit edilemedi; atlasın 1840'ı da kaynaksız."
+  },
+  {
+   "sira": 2480,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Demyanskoye": [
+  {
+   "sira": 2484,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1637-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "ru.wikipedia Демьянское (Тюменская область) (ipucu); atıf: O. V. Semenov, 'История Демьянского яма в XVII в.: возникновение и первые годы существования' (açılamadı)",
+   "alinti": "В конце 1620-х — начале 1630-х гг. на берегу Иртыша был основан Демьянский ям",
+   "alinti2": "",
+   "oneri": {},
+   "not": "1637'yi doğrulayan akademik kaynağa ulaşılamadı. ru.wikipedia: Demyanskiy yam (menzil istasyonu) 1620 sonu-1630 başı Irtış kıyısında kuruldu (ipucu; kendisi Semenov makalesine atıf yapıyor, makale okunamadı). Bu yam ostrog/kale değil; atlas 'kale' kaydı 1637 ile çelişebilir. Forsyth'te Demyanskoye geçmiyor. Baktığım: Forsyth, ru.wikipedia (2 sayfa), ESBE (404)."
+  },
+  {
+   "sira": 2484,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Kansk": [
+  {
+   "sira": 2488,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1636-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org); ESBE (Brockhaus-Efron) [19. yy kaynağı, İPUCU sınıfı; tarihler Jülyen] 'Канск' (cilt XIV, 1895); ru.wikipedia Канск (ipucu)",
+   "alinti": "основанного енисейскими казаками в 1640 г.",
+   "alinti2": "in 1628 men from Yeniseysk erected the forts of Krasnoyarsk and Kansk",
+   "oneri": {},
+   "not": "ÜÇ YILLI ÇELİŞKİ, akademik çözüm bulunamadı. Forsyth: 1628'de Yeniseysk adamları Krasnoyarsk ve Kansk kalelerini kurdu. ESBE (Latkin 1895): 'на месте бывшего ... укрепления (острога), основанного енисейскими казаками в 1640 г.'. ru.wikipedia (ipucu): 1636'da ataman Mihail Koltsov 50 kazakla Kan üstünde ostrog kurdu, 1640'ta ostrog 43 km ötesine taşındı; yani atlasın 1636'sı ilk ostrog, bugünkü şehir yeri (atlas koordinatı 56.20N 95.71E) 1640 olabilir. KASA'ya: bugünkü yer için f=1640 adayı (ESBE, yıl); karar için TDV dışı ikinci akademik kaynak (Kopylov, Istoriya Sibiri) gerek."
+  },
+  {
+   "sira": 2488,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ],
+ "Balagansk": [
+  {
+   "sira": 2492,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1654-05-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "James Forsyth, A History of the Peoples of Siberia: Russia's North Asian Colony 1581-1990, Cambridge UP 1992 (archive.org); ESBE (Brockhaus-Efron) [19. yy kaynağı, İPUCU sınıfı; tarihler Jülyen] 'Балаганск' (cilt IIa, 1891)",
+   "alinti": "Б. острог основан в 1653 г. Фирсовым для сбора ясака",
+   "alinti2": "In 1653—4 there was conflict over yasak",
+   "oneri": {
+    "f": "1653-01-01",
+    "alt": "1654-01-01 (Forsyth aralığının üst ucu)"
+   },
+   "not": "Atlas günü 1654-05-01 teyitsiz (gün veren kaynak bulunamadı). ESBE: 'Б. острог основан в 1653 г. Фирсовым' (19. yy, yıl). Forsyth: 'In 1653-4 there was conflict over yasak ... and the foundation of Balagansk on the Angara by men from [Yeniseysk]' (1653-54 aralığı; yıl net değil). Öneri: gün alanı yıl hassasiyetine inmeli; yıl 1653 (ESBE) ile 1653-54 (Forsyth) arasında; üçüncü akademik kaynakla çözülmeli. ESBE'ye göre ostrog 1668-1775 arası anılmaz (sürekliliği için ayrıca bakılmalı)."
+  },
+  {
+   "sira": 2492,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Akt ob otrecenii Nikolaya II (birincil belge neşri), ru.wikisource.org/wiki/Акт_об_отречении_Николая_II (Solntse Rossii No 9, 1917)",
+   "alinti": "Дата создания: 2 (15) марта 1917",
+   "alinti2": "г. Псков. 2 марта, 15 час. 5 мин. 1917 г.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: yerleşime özgü tanıklık değil, Rusya'nın kapanış olayı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart 1917 (sayfa künyesi '2 (15) марта'). Mihail 3 (16) Mart'ta tahtı reddetti, Geçici Hükümet sürdü (künye rusya-gecici-hukumet f=1917-03-15 mevcut). Bu satır YALNIZ t ucunu tarihler; f ucu ayrı satırda."
+  }
+ ]
+}

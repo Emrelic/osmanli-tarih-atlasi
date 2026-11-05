@@ -4274,8 +4274,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, «Lisbona» https://www.treccani.it/enciclopedia/lisbona/ (ham metin); Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Nel 457 L. (che già nel 357 era sede episcopale) fu conquistata dagli Svevi, poco dopo dai Visigoti, e nel 711 dagli Arabi.",
@@ -4284,8 +4285,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot f=0418-01-01 t=0711-01-01; öneri künye içinde. Yerleşim VAR (Roma Olisipo, 357'de piskoposluk merkezi, Treccani). Treccani Lisbona: 457'de Süevler aldı, 'poco dopo' (kısa süre sonra) Vizigotlar aldı, 711 Araplar; VI. yy surları 'dominazione visigota' (ham metin). Vizigot alış yılı verilmez. ÇELİŞKİ (kendi atlası ile): mevcut zincir 0395-0476 bati-roma yazıyor, oysa Treccani 457'de Süev'i gösterir; suev künyesi f=0409 t=0585 mevcut. Öneri dışı, LAB'a: bati-roma t=0457 yıl düzeyi + suev 457-? + vizigot ?-; Vizigotların alış yılı kaynaksız -> bu satırın f=0476-08-28 bir üst sınırdır (en geç), Treccani Euric'in 'quasi tutta la Spagna' yayılmasını Odoacre sonrasına koyar (Enc. Ital.). ONERI(güçlü): şehre özgü yıl yok, tek Enc.Ital. + Treccani Lisbona. ÖLÇÜT: idareye katma — Lusitania'nın Süev'den Vizigot'a geçişi Treccani 'conquistata'.",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot f=0418-01-01 t=0711-01-01; öneri künye içinde. Yerleşim VAR (Roma Olisipo, 357'de piskoposluk merkezi, Treccani). Treccani Lisbona: 457'de Süevler aldı, 'poco dopo' (kısa süre sonra) Vizigotlar aldı, 711 Araplar; VI. yy surları 'dominazione visigota' (ham metin). Vizigot alış yılı verilmez. ÇELİŞKİ (kendi atlası ile): mevcut zincir 0395-0476 bati-roma yazıyor, oysa Treccani 457'de Süev'i gösterir; suev künyesi f=0409 t=0585 mevcut. Öneri dışı, LAB'a: bati-roma t=0457 yıl düzeyi + suev 457-? + vizigot ?-; Vizigotların alış yılı kaynaksız -> bu satırın f=0476-08-28 bir üst sınırdır (en geç), Treccani Euric'in 'quasi tutta la Spagna' yayılmasını Odoacre sonrasına koyar (Enc. Ital.). ONERI(güçlü): şehre özgü yıl yok, tek Enc.Ital. + Treccani Lisbona. ÖLÇÜT: idareye katma — Lusitania'nın Süev'den Vizigot'a geçişi Treccani 'conquistata'.",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler.js",
@@ -4335,7 +4337,7 @@
    "f": "0507-01-01",
    "t": "0711-01-01",
    "gorev": "ATLAS_DAYANAK",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "uc": "t",
    "oneri_son": {
     "d": "vizigot",
@@ -4346,8 +4348,10 @@
    "alinti2": "TDV: «Üşbûne, Endülüs fâtihi Mûsâ b. Nusayr’ın yerine vali olarak bıraktığı oğlu Abdülazîz b. Mûsâ tarafından fethedildi (97/716).» Treccani: «Nel 457 L. (che già nel 357 era sede episcopale) fu conquistata dagli Svevi, poco dopo dai Visigoti, e nel 711 dagli Arabi.»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: iki kaynak çelişiyor (TDV 716, Treccani 711). Şehrin kendi TDV maddesi esas: t=0716-01-01 (hicrî 97 ∩ 716, yalnız yıl); Treccani 711 ic_not'a. f: atlas f 0507-01-01 hiçbir kaynakta tarihlenmiyor; Treccani 457'de Süev, 'poco dopo' Vizigot (yılsız) diyor; TDV yılsız 'Roma, Alanlar ve Vizigotlar'. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Lizbon'un 457-476 arasında Süev elinde olup olmadığı Hydatius/Collins ile ayrıca bakılmalı (okunmadı). Değişmez 2: t 0716 için Lizbon fethi kronoloji maddesi önerilir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0716-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Lizbon' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0716-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: iki kaynak çelişiyor (TDV 716, Treccani 711). Şehrin kendi TDV maddesi esas: t=0716-01-01 (hicrî 97 ∩ 716, yalnız yıl); Treccani 711 ic_not'a. f: atlas f 0507-01-01 hiçbir kaynakta tarihlenmiyor; Treccani 457'de Süev, 'poco dopo' Vizigot (yılsız) diyor; TDV yılsız 'Roma, Alanlar ve Vizigotlar'. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Lizbon'un 457-476 arasında Süev elinde olup olmadığı Hydatius/Collins ile ayrıca bakılmalı (okunmadı). Değişmez 2: t 0716 için Lizbon fethi kronoloji maddesi önerilir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Sevilla": [
@@ -4362,8 +4366,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Dopo la rivolta di Odoacre, i Visigoti occuparono la Provenza fino alle Alpi, sottomisero la provincia di Tarragona, diffondendosi come padroni su quasi tutta la Spagna, mentre la flotta vinceva i Sassoni predoni del mare.",
@@ -4372,8 +4377,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler.js",
@@ -4434,8 +4440,9 @@
    "alinti2": "TDV: «Eskiçağ ve Roma dönemindeki adı Hispalis olan şehir 93’te (712) Mûsâ b. Nusayr tarafından fethedildi ve Endülüs’ün ilk idarî merkezi oldu.» Treccani: «fu conquistata dai Vandali (411), dagli Svevi, dai Visigoti e dagli Arabi di Mūsā ibn Nuṣair (712)»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ÇİFT TEYİT (TDV + Treccani): Sevilla vizigot t'si 711 değil 712 (hicrî 93 ∩ 712 -> 0712-01-01, yalnız yıl). Atlas t 0711-01-01 ONERI. f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Emevî f ve fetih kronoloji maddesi aynı commit'te kayar. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0712-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Sevilla' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0712-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ÇİFT TEYİT (TDV + Treccani): Sevilla vizigot t'si 711 değil 712 (hicrî 93 ∩ 712 -> 0712-01-01, yalnız yıl). Atlas t 0711-01-01 ONERI. f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Emevî f ve fetih kronoloji maddesi aynı commit'te kayar. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Granada": [
@@ -4450,8 +4457,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Dopo la rivolta di Odoacre, i Visigoti occuparono la Provenza fino alle Alpi, sottomisero la provincia di Tarragona, diffondendosi come padroni su quasi tutta la Spagna, mentre la flotta vinceva i Sassoni predoni del mare.",
@@ -4460,8 +4468,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler.js",
@@ -4519,8 +4528,9 @@
    "alinti2": "«Iliberis vilâyetini ele geçirdiler; dolayısıyla Gırnata da 712 yılı ortalarında fethedildi.»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. TDV Gırnata (kendi şehir maddesi): fetih 712 ortası -> t 0712-01-01 (yalnız yıl). Treccani Granada maddesi Vizigot/Arap fethini hiç tarihlemiyor (Zirî 1015, Nasrî 1232). f 0507: kaynak yok. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. 713'te Hristiyan halkın isyanı bastırıldı (TDV), sahiplik değişmez. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0712-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Granada' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0712-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. TDV Gırnata (kendi şehir maddesi): fetih 712 ortası -> t 0712-01-01 (yalnız yıl). Treccani Granada maddesi Vizigot/Arap fethini hiç tarihlemiyor (Zirî 1015, Nasrî 1232). f 0507: kaynak yok. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. 713'te Hristiyan halkın isyanı bastırıldı (TDV), sahiplik değişmez. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Valensiya": [
@@ -4535,8 +4545,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Dopo la rivolta di Odoacre, i Visigoti occuparono la Provenza fino alle Alpi, sottomisero la provincia di Tarragona, diffondendosi come padroni su quasi tutta la Spagna, mentre la flotta vinceva i Sassoni predoni del mare.",
@@ -4545,8 +4556,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler.js",
@@ -4604,8 +4616,9 @@
    "alinti2": "TDV: «Şehir 95 (714) yılında müslümanlar tarafından fethedildi; ancak merkezî idareye tam olarak bağlanamadı.» Treccani: «sotto gli Arabi, che se ne impadronirono nel 714»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ÇİFT TEYİT (TDV + Treccani) t=714 (hicrî 95 ∩ 714 -> 0714-01-01, yalnız yıl); atlas t 0711 yanlış. f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0714-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Valensiya' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0714-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ÇİFT TEYİT (TDV + Treccani) t=714 (hicrî 95 ∩ 714 -> 0714-01-01, yalnız yıl); atlas t 0711 yanlış. f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Köln": [
@@ -4882,8 +4895,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Dopo la rivolta di Odoacre, i Visigoti occuparono la Provenza fino alle Alpi, sottomisero la provincia di Tarragona, diffondendosi come padroni su quasi tutta la Spagna, mentre la flotta vinceva i Sassoni predoni del mare.",
@@ -4892,8 +4906,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -4943,7 +4958,7 @@
    "f": "0507-01-01",
    "t": "0711-01-01",
    "gorev": "ATLAS_DAYANAK",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "uc": "t",
    "oneri_son": {
     "d": "vizigot",
@@ -4954,8 +4969,10 @@
    "alinti2": "TDV: «Vizigot Krallığı’nın başşehri Tuleytula’ya ulaştı (93/712).» Treccani: «Conquistata dagli Arabi nel 711»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. İki kaynak çelişiyor (TDV 712, Treccani 711). Şehrin kendi TDV maddesi esas -> 0712-01-01; Treccani 711 ic_not. TDV: Toledo, Leovigild ile (VI. yy ikinci yarısı) başşehir ilân edildi (yılsız). f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0712-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Toledo' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0712-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. İki kaynak çelişiyor (TDV 712, Treccani 711). Şehrin kendi TDV maddesi esas -> 0712-01-01; Treccani 711 ic_not. TDV: Toledo, Leovigild ile (VI. yy ikinci yarısı) başşehir ilân edildi (yılsız). f 0507 tarihlenmedi. Bölge düzeyi (Treccani «Visigoti»: Euric 466-84, fetihleri Nepos'un 475'te tanıdığı, «quasi tutta la Penisola Iberica») ile 476-507 BOSLUK diliminin vizigot'a bağlanması BEYANLI YAKLAŞIKLIK olarak önerilir; f Batı Roma sonu 0476-08-23 ile aynı gün. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Kurtuba (Córdoba)": [
@@ -4970,8 +4987,9 @@
    "uc": null,
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia Italiana, «Visigoti» (G. B. Picotti, 1937) https://www.treccani.it/enciclopedia/visigoti_(Enciclopedia-Italiana)/ [Enc. Italiana 1929-37 eski başvuru eseri: tek başına en çok kısmen]",
    "alinti2": "Dopo la rivolta di Odoacre, i Visigoti occuparono la Provenza fino alle Alpi, sottomisero la provincia di Tarragona, diffondendosi come padroni su quasi tutta la Spagna, mentre la flotta vinceva i Sassoni predoni del mare.",
@@ -4980,8 +4998,9 @@
     "Thompson, The Goths in Spain (1969/2000; archive.org gothsinspain00thom) 403 verdi, Emre girişi/ödünç gerekli",
     "Cambridge Medieval History I (archive.org cambridge_medieval_history_v1_2107_librivox) 500 verdi"
    ],
-   "not": "HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
-   "_parti": "db_ra_003.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · HAYALET: vizigot künyesi f=0418-01-01 t=0711-01-01 (data/devletler.js okundu); önerilen 0476-08-28..0507-01-01 künye içinde. Yerleşim o devirde VAR (Roma kenti; 476 öncesi zincirde bati-roma). Treccani (Picotti): Euric (466-84) Odoacre'nin isyanından (476) sonra Tarragona eyaletini aldı ve 'quasi tutta la Spagna'ya yayıldı. Şehir adı ve gün/yıl geçmez, bu yüzden KAYNAKLI değil ONERI(güçlü). Atlasın 'Vouillé 507 sonrası merkez İberya' gerekçesi Treccani ile çelişir: 507 Galya kaybıdır, İberya'ya geçiş değil (Treccani). ÖLÇÜT: idareye katma — Euric'in toprakları 'padrone' olarak alması, sortes Gothicae ile toprak paylaşımı (Treccani). Not: 0476-08-28 bati-roma dönem ucuna bağlıdır (künye t=0476-09-04). Mevcut vizigot 0507-01-01 dönemiyle birleşir. ",
+   "_parti": "db_ra_003.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -5028,19 +5047,36 @@
    "f": "0507-01-01",
    "t": "0711-01-01",
    "gorev": "ATLAS_DAYANAK",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "uc": "f+t",
-   "oneri_son": {
-    "d": "vizigot",
-    "f": "0571-01-01",
-    "t": "0711-01-01"
-   },
+   "oneri_son": [
+    {
+     "d": "vizigot",
+     "f": "0476-08-23",
+     "t": "0554-01-01",
+     "not": "BEYANLI (gece-70)"
+    },
+    {
+     "d": "bizans",
+     "f": "0554-01-01",
+     "t": "0571-01-01",
+     "not": "Bizans Spania; TDV Kurtuba 554 Bizans, 571 Leovigild [yalnız yıl]; Treccani 572 ic_not; bizans künyesi kapsar"
+    },
+    {
+     "d": "vizigot",
+     "f": "0571-01-01",
+     "t": "0711-01-01",
+     "not": "t 711 TDV ile uyumlu (Temmuz-Ağustos 711)"
+    }
+   ],
    "kaynak2": "TDV İslâm Ansiklopedisi, «Kurtuba», https://islamansiklopedisi.org.tr/kurtuba ; Treccani «Cordova» https://www.treccani.it/enciclopedia/cordova/",
    "alinti2": "TDV: «554’te Bizanslılar, 571’de Vizigot Kralı Leovigild tarafından ele geçirilen şehir VIII. yüzyılın başlarına kadar Vizigot hâkimiyetinde kaldı.» Treccani: «nel 527 d.C. fu conquistata dai Visigoti che la fecero centro di un ducato»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. f: Treccani 527, TDV 571 (Leovigild); ikisi de atlas 0507 ile uyuşmuyor. Şehrin kendi TDV maddesi esas: f=0571-01-01. TDV'ye göre 554-571 Bizans elinde (Spania): ayrı bizans dönemi (bizans künyesi devletler.js'te var) 0554-01-01 -> 0571-01-01 [yalnız yıl] önerilir; öncesi için BOLGE düzeyi 476-554 belirsiz. t: TDV 'Şevval 92’de (Temmuz-Ağustos 711)' fethetti -> atlas t 0711-01-01 yıl düzeyinde doğrulandı. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Kurtuba t 711 TDV uyumlu; Bizans Spania 554–571 (Leovigild'in geri alışı) ONERI. Kırılmalar yıl-temsilî borç kovası; kronoloji maddesi önerisi KASA'ya. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. f: Treccani 527, TDV 571 (Leovigild); ikisi de atlas 0507 ile uyuşmuyor. Şehrin kendi TDV maddesi esas: f=0571-01-01. TDV'ye göre 554-571 Bizans elinde (Spania): ayrı bizans dönemi (bizans künyesi devletler.js'te var) 0554-01-01 -> 0571-01-01 [yalnız yıl] önerilir; öncesi için BOLGE düzeyi 476-554 belirsiz. t: TDV 'Şevval 92’de (Temmuz-Ağustos 711)' fethetti -> atlas t 0711-01-01 yıl düzeyinde doğrulandı. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Cartagena": [
@@ -5531,13 +5567,18 @@
    "onceki_hukum": "BULUNAMADI",
    "hukum": "KAYNAKLI",
    "uc": "t",
-   "oneri_son": {},
+   "oneri_son": {
+    "d": "kartaca",
+    "f": "-0813-01-01",
+    "t": "-0145-01-01"
+   },
    "kaynak2": "Treccani Enciclopedia Italiana (1931), «Cartagine» (https://www.treccani.it/enciclopedia/cartagine_%28Enciclopedia-Italiana%29/) [EI 1931: eski başvuru, en çok kısmen]",
    "alinti2": "La distruzione totale della città nel 146 a. C. non consente di giudicare intorno al carattere dell'architettura cartaginese. i Cartaginesi soggiacquero all'assalto generale della città ordinato nel marzo-aprile del 146 da Publio Cornelio Scipione Emiliano.",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "ÜLKE/ŞEHİR AYNI: Karthago şehri kendi devletinin başkentidir. MÖ 146 = astronomik -0145; dilim t -0145-01-01 YIL düzeyinde doğrulandı (gün/ay: EI 'marzo-aprile del 146' = yalnız ay aralığı; -01-01 yıl-temsilî). f -0759 bu turda doğrulanmadı (mevcut Docter 2002-03 kaynağı korunur). Kronoloji: EI 1931 eski eser, en çok kısmen; Docter için ayrı akademik kaynak mevcut. Önceki hüküm 'hedef dışı'ydı; EI okunarak t ucu teyit edildi.",
-   "_parti": "db_ra_012.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Tek uzlaşım: künye ve Treccani −0813 (MÖ 814, geleneksel kuruluş) → yerleşim f −0813-01-01; Docter 'about 760 BC' (−0759) ic_not'a. t −0145 KAYNAKLI. · ÜLKE/ŞEHİR AYNI: Karthago şehri kendi devletinin başkentidir. MÖ 146 = astronomik -0145; dilim t -0145-01-01 YIL düzeyinde doğrulandı (gün/ay: EI 'marzo-aprile del 146' = yalnız ay aralığı; -01-01 yıl-temsilî). f -0759 bu turda doğrulanmadı (mevcut Docter 2002-03 kaynağı korunur). Kronoloji: EI 1931 eski eser, en çok kısmen; Docter için ayrı akademik kaynak mevcut. Önceki hüküm 'hedef dışı'ydı; EI okunarak t ucu teyit edildi.",
+   "_parti": "db_ra_012.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js",
@@ -5545,20 +5586,26 @@
    "d": "kartaca",
    "f": "-0759-01-01",
    "t": "-0145-01-01",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "kaynak": "ZINCIR-ANTIK 23 Ekim 2026: künye kartaca (Kartaca (Pön) Devleti, devletler.js f -0813 / t -0145) renkler.py BOYALAR'da tanımlı ⇒ boşluk kaynaktaki sahiple dolduruldu; uçlar aynı kaynaktan (Docter 2002-03). ESKİ BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Fenike-Pön Karthago\" ama künyesi yoktu → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Başlangıç: derin sondajda iskân 'about 760 BC'ten itibaren'; son: 'destruction by the Romans in 146 BC, at the end of the Third Punic War' (Docter 2002-03). Gelenek kuruluş 814-813 AYRI kaydedildi.",
    "alinti": null,
    "oneri": null,
-   "not": "t=-0145-01-01: Treccani 'nel 146' (MÖ 146, astronomik -0145 DOĞRU) → t KAYNAKLI yıl düzeyi (EI 1930: 'marzo-aprile del 146' destek). f çelişkisi: Treccani gelenek tarihi MÖ 814 (-0813; künye f=-0813 ile uyumlu, 'secondo la tradizione'); satır f=-0759 (MÖ 760) Docter 2002-03 arkeolojik 'about 760 BC'ye dayanıyor ve künyeden 54 yıl sonra. Ayrıca Docter ve ark. 2008 radyokarbon yayını (başlığı doğrulandı, metin/özet okunamadı; arama özetine göre 9. yy sonu) MÖ 760'ı eskitiyor olabilir — ham metinle teyit EDİLMEDİ. Kural: bir devlet kaydının bütün uçları aynı konvansiyonda olmalı (antik kronoloji kuralı) → ya f=-0813 (gelenek, künye ile aynı) ya f=-0759 (arkeolojik, notla) seçilmeli; karar EMRELİC'in. Hayalet yok (-0759 künye aralığında). 'Atlas künyesi' dayanağı değil, satırın içinde Docter alıntısı var; sınıf etiketi kısmen yanlış (gerçekte akademik kaynak-künyeli, ama metni okunamadı).",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Tek uzlaşım: künye ve Treccani −0813 (MÖ 814, geleneksel kuruluş) → yerleşim f −0813-01-01; Docter 'about 760 BC' (−0759) ic_not'a. t −0145 KAYNAKLI. · t=-0145-01-01: Treccani 'nel 146' (MÖ 146, astronomik -0145 DOĞRU) → t KAYNAKLI yıl düzeyi (EI 1930: 'marzo-aprile del 146' destek). f çelişkisi: Treccani gelenek tarihi MÖ 814 (-0813; künye f=-0813 ile uyumlu, 'secondo la tradizione'); satır f=-0759 (MÖ 760) Docter 2002-03 arkeolojik 'about 760 BC'ye dayanıyor ve künyeden 54 yıl sonra. Ayrıca Docter ve ark. 2008 radyokarbon yayını (başlığı doğrulandı, metin/özet okunamadı; arama özetine göre 9. yy sonu) MÖ 760'ı eskitiyor olabilir — ham metinle teyit EDİLMEDİ. Kural: bir devlet kaydının bütün uçları aynı konvansiyonda olmalı (antik kronoloji kuralı) → ya f=-0813 (gelenek, künye ile aynı) ya f=-0759 (arkeolojik, notla) seçilmeli; karar EMRELİC'in. Hayalet yok (-0759 künye aralığında). 'Atlas künyesi' dayanağı değil, satırın içinde Docter alıntısı var; sınıf etiketi kısmen yanlış (gerçekte akademik kaynak-künyeli, ama metni okunamadı).",
    "gorev": "ATLAS_DAYANAK",
    "kaynak_sinifi": "ATLAS künyesi (devletler.js)",
    "uc": "f+t",
-   "oneri_son": null,
+   "oneri_son": {
+    "d": "kartaca",
+    "f": "-0813-01-01",
+    "t": "-0145-01-01"
+   },
    "kaynak2": "Treccani Vocabolario online, «Cartagine» (https://www.treccani.it/enciclopedia/cartagine/); Enciclopedia Italiana 1930 «Cartagine» (https://www.treccani.it/enciclopedia/cartagine_%28Enciclopedia-Italiana%29/, yalnız destek); satırın mevcut alıntısı: Docter et al. 2002-03 (metin okunamadı); Docter, Chelbi, Maraoui Telmini, Nijboer, van der Plicht ve ark., 'New radiocarbon dates from Carthage: bridging the gap between history and archaeology?', Sagona (ed.), Beyond the Homeland, Peeters 2008, s. 379-422 (yalnız künye doğrulandı: research.rug.nl)",
    "alinti2": "Fu fondata nell’814 a.C., secondo la tradizione da Elissa (Didone). || conclusasi nel 146 con la distruzione di Cartagine.",
    "tarayici_gerekli": [],
    "dogrusu": null,
-   "_parti": "db_rb007.json"
+   "_parti": "db_rb007.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Veii": [
@@ -5642,8 +5689,9 @@
    "uc": "f",
    "oneri_son": {
     "d": "vizigot",
-    "f": "0476-08-28",
-    "t": "0507-01-01"
+    "f": "0476-08-23",
+    "t": "0507-01-01",
+    "beyan": "BEYANLI YAKLAŞIKLIK: Treccani Visigoti, Euric fethinin 475'te Nepos'ça tanınması; şehre özgü tanık yok"
    },
    "kaynak2": "Treccani, Enciclopedia on line, «Visigoti» https://www.treccani.it/enciclopedia/visigoti/ ; «Malaga» https://www.treccani.it/enciclopedia/malaga/",
    "alinti2": "Sotto Eurico (466-84), il fondatore del regno dei V. dal punto di vista giuridico in quanto le conquiste visigote furono formalmente riconosciute dall’imperatore Giulio Nepote (475), il regno tolosano raggiunse la massima estensione territoriale, con la conquista di tutta la regione tra il Rodano e la Loira, della Provenza , e di quasi tutta la Penisola Iberica.",
@@ -5651,8 +5699,9 @@
    "tarayici_gerekli": [
     "Málaga'ya özgü 5. yy sonu tanıklığı: TIB değil, Iberia için CAH XIV / Collins 'Visigothic Spain 409-711' (kapalı) — Emre girişi gerekirse"
    ],
-   "not": "YERLEŞİM VAR MIYDI: Treccani Malaga: 'Rasa al suolo dai Visigoti, fu ricostruita e divenne importante sede episcopale' — yıl yok; yıkımın 476-507 aralığına düşüp düşmediği bilinmiyor, dolayısıyla varlık TEYİTLİ DEĞİL, yalnız 'ricostruita' ile sürekliliği ima edilir. SAHİP: Treccani Eurico (466-84) dönemi 'quasi tutta la Penisola Iberica' Vizigot — ülke düzeyi, Málaga adı yok, 476 günü yok → ONERI (KAYNAKLI sayılmaz). Önceki beyanın 'şehir adlı tanık aranmadı' borcu şimdi aranmış, bulunamamıştır: ŞEHİR ADLI tanık yok. ÖNERİ: s vizigot 0476-08-28 → 0507-01-01, sonraki vizigot 0507-01-01 dönemiyle birleşebilir; BEYANLI YAKLAŞIKLIK, ÜLKE DÜZEYİ. Hayalet: vizigot f=0418 ≤ 476, geçer. DİKKAT (ayrı bulgu, bu satırın dışında): atlasta vizigot 507-711 sürekli yazılı; Treccani Visigoti Justinianus'un güney İspanya'yı kısmen Bizans'a bağladığını söyler (Málaga Bizans Spania'sında olabilir, Málaga adı Treccani'de geçmez) — o dönem kaynaklıdır diye bakılmadı. ÖLÇÜT: yok (fetih/idare tanığı değil, ülke düzeyi). Bakılan: Treccani Visigoti, Eurico (sayfa yok), Malaga.",
-   "_parti": "db_ra_004.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): 476-507 vizigot BEYANLI onaylandı (gece-70); f 0476-08-23 (Batı Roma sonu ile aynı gün; ajanın 08-28'i düzeltildi). Vizigot dönemiyle birleşir. · YERLEŞİM VAR MIYDI: Treccani Malaga: 'Rasa al suolo dai Visigoti, fu ricostruita e divenne importante sede episcopale' — yıl yok; yıkımın 476-507 aralığına düşüp düşmediği bilinmiyor, dolayısıyla varlık TEYİTLİ DEĞİL, yalnız 'ricostruita' ile sürekliliği ima edilir. SAHİP: Treccani Eurico (466-84) dönemi 'quasi tutta la Penisola Iberica' Vizigot — ülke düzeyi, Málaga adı yok, 476 günü yok → ONERI (KAYNAKLI sayılmaz). Önceki beyanın 'şehir adlı tanık aranmadı' borcu şimdi aranmış, bulunamamıştır: ŞEHİR ADLI tanık yok. ÖNERİ: s vizigot 0476-08-28 → 0507-01-01, sonraki vizigot 0507-01-01 dönemiyle birleşebilir; BEYANLI YAKLAŞIKLIK, ÜLKE DÜZEYİ. Hayalet: vizigot f=0418 ≤ 476, geçer. DİKKAT (ayrı bulgu, bu satırın dışında): atlasta vizigot 507-711 sürekli yazılı; Treccani Visigoti Justinianus'un güney İspanya'yı kısmen Bizans'a bağladığını söyler (Málaga Bizans Spania'sında olabilir, Málaga adı Treccani'de geçmez) — o dönem kaynaklıdır diye bakılmadı. ÖLÇÜT: yok (fetih/idare tanığı değil, ülke düzeyi). Bakılan: Treccani Visigoti, Eurico (sayfa yok), Malaga.",
+   "_parti": "db_ra_004.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -5718,8 +5767,9 @@
    "alinti2": "TDV: «Bir süre Bizans’ın yönetiminde kalan şehir VI. yüzyıl sonlarında Vizigotlar’ın eline geçmiştir.» ... «Mûsâ b. Nusayr’ın oğullarından Abdül‘alâ (Abdüla‘lâ) şehri 94’te (713) yılında fethetmiştir.» Treccani: «conquistata dagli Arabi dal 711»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: TDV iki rivayet veriyor (92/711 Tarık'ın gönderdiği küçük kuvvet; 94/713 Abdülalâ), Treccani 711 -> atlas t 0711-01-01 bir rivayetle örtüşüyor, 713 rakip; ic_not'ta iki rivayet. f: TDV'ye göre Vizigot eline VI. yy SONLARINDA geçti, öncesi Bizans (Spania; Córdoba maddesinde 554/571) -> atlas f 0507-01-01 hatalı görünüyor ama Málaga'ya özgü yıl bulunamadı; bölge düzeyi 0476-08-23 önerisi (BEYANLI) yalnız Bizans dönemi kaynaklanana kadar geçici. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): f 0476-08-23 BEYANLI (gece-70). t: TDV Mâleka 711/713 iki rivayet — gece-87'de karar YOK, CELISKI kalır (EMRELİC'e soruldu). · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: TDV iki rivayet veriyor (92/711 Tarık'ın gönderdiği küçük kuvvet; 94/713 Abdülalâ), Treccani 711 -> atlas t 0711-01-01 bir rivayetle örtüşüyor, 713 rakip; ic_not'ta iki rivayet. f: TDV'ye göre Vizigot eline VI. yy SONLARINDA geçti, öncesi Bizans (Spania; Córdoba maddesinde 554/571) -> atlas f 0507-01-01 hatalı görünüyor ama Málaga'ya özgü yıl bulunamadı; bölge düzeyi 0476-08-23 önerisi (BEYANLI) yalnız Bizans dönemi kaynaklanana kadar geçici. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Kannauc": [
@@ -8050,25 +8100,14 @@
    "gorev": "BOSLUK",
    "hukum": "KAYNAKLI",
    "uc": "f",
-   "oneri_son": [
-    {
-     "s": "dogu-han",
-     "f": "0036-01-01",
-     "t": "0220-12-10",
-     "not": "f yil duzeyi: Chengdu Jianwu 12/11. ayda dustu (Cin ayi, Academia Sinica); Liu Zhang 214'e dek Han valisi, Liu Bei 214'ten itibaren Han Zhongwang/Yizhou valisi = nominal Han"
-    },
-    {
-     "s": "(BEYAN: 0220-12-10 -> 0221-01-01, ~3 hafta)",
-     "f": "0220-12-10",
-     "t": "0221-01-01",
-     "not": "shu-han f=0221-01-01; Liu Bei Jianwu 5 Zhangwu 1 ilani"
-    }
-   ],
+   "oneri_son": {
+    "not": "dogu-han f 0036-01-01 → 0036-12-07 [yalnız ay] (Gongsun Shu t ile bitişik)"
+   },
    "kaynak2": "Hou Hanshu 18 (Wu Han zhuan) https://zh.wikisource.org/wiki/後漢書/卷18 ; Hou Hanshu 1下 https://zh.wikisource.org/wiki/後漢書/卷1下 ; Sanguozhi Shu 32 https://zh.wikisource.org/wiki/三國志/卷32",
    "alinti2": "十二年春，與公孫述將魏黨、公孫永戰於魚涪津，大破之，遂圍武陽。 ‖ 旦日城降，斬述首傳送洛陽。",
    "dogrusu": "",
    "tarayici_gerekli": [],
-   "not": "VAR MIYDI: EVET. OLCUT: idareye katma - Dong Han Chengdu'yu Yizhou/Shu komutanligi olarak yonetti (Hou Hanshu 1下 Jianwu 18: 'Shu jun shou jiang Shi Xin pan, Wu Han Chengdu'yu kusatti' = Han komutanligi var). CELISKI-NOT (komsu): chengjia-gongsun-shu kunye t=0036-01-01 ama kaynak Jianwu 12/11. ay (Hou Hanshu 1下, 13, 18): kunye t 11 ay erken, 'GENISLET' LAB; bu satir f=0036-01-01'de kalirsa 11 ay Dong Han'a erken yazilir (Degismez 3 notu). Hayalet: dogu-han 0025-08-05..0220-12-10 (devletler.js okundu); shu-han f=0221-01-01. Bu satir ayni ile cakisan kronoloji maddesi: 'Chengdu Dong Han'a gecti (Jianwu 12/11. ay)'. 0220-12-10..0221-01-01 arasi kisa BEYAN.",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Chengdu düşüşü 0036-12-07 [yalnız ay] (Academia Sinica). · VAR MIYDI: EVET. OLCUT: idareye katma - Dong Han Chengdu'yu Yizhou/Shu komutanligi olarak yonetti (Hou Hanshu 1下 Jianwu 18: 'Shu jun shou jiang Shi Xin pan, Wu Han Chengdu'yu kusatti' = Han komutanligi var). CELISKI-NOT (komsu): chengjia-gongsun-shu kunye t=0036-01-01 ama kaynak Jianwu 12/11. ay (Hou Hanshu 1下, 13, 18): kunye t 11 ay erken, 'GENISLET' LAB; bu satir f=0036-01-01'de kalirsa 11 ay Dong Han'a erken yazilir (Degismez 3 notu). Hayalet: dogu-han 0025-08-05..0220-12-10 (devletler.js okundu); shu-han f=0221-01-01. Bu satir ayni ile cakisan kronoloji maddesi: 'Chengdu Dong Han'a gecti (Jianwu 12/11. ay)'. 0220-12-10..0221-01-01 arasi kisa BEYAN.",
    "parcalar": [
     {
      "d": "dogu-han",
@@ -8091,7 +8130,8 @@
      "not": "Jian'an 19/yaz: Liu Zhang Liu Bei'ye teslim; Liu Bei Han Zhongwang (219) olarak Han'a sadik -> himaye/tabilik devir degildir; dogu-han suruyor. Shu Han kunye f=0221-01-01."
     }
    ],
-   "_parti": "db_ra_005.json"
+   "_parti": "db_ra_005.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js",
@@ -8150,15 +8190,17 @@
    "hukum": "KAYNAKLI",
    "uc": "f+t",
    "oneri_son": {
-    "f": "0025-01-01 [yalnız yıl; Jianwu 1, 4. ay; Academia Sinica ile çevrilecek]",
-    "t": "0036 yılı içinde, Jianwu 12 / 11. ay (Academia Sinica ile çevrilecek); 0036-01-01 yıl-başı yaklaşımı"
+    "d": "chengjia-gongsun-shu",
+    "f": "0025-05-17",
+    "t": "0036-12-07"
    },
    "kaynak2": "Fan Ye, Hou Han shu (後漢書) juan 13 \"Wei Xiao Gongsun Shu liezhuan\", zh.wikisource.org/wiki/後漢書/卷13",
    "alinti2": "建武元年四月，遂自立為天子，號成家。 / 十一月，臧宮軍至咸門。… 述以兵屬延岑，其夜死。明旦，岑降吳漢。",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "ÇİN TAKVİMİ: ÇEVRİLMEDİ. f ifadesi: 建武元年四月 (Jianwu 1, 4. ay) - Chengjia imparatorluk ilanı, Chengdu başkent (kaynak: bundan önce \"自立為蜀王，都成都\" yılsız Gengshi dönemi). t ifadesi: 建武十二年 içinde \"十一月\" (Jianwu 12, 11. ay): Wu Han/Zang Gong kuşatması, Gongsun Shu yaralanıp o gece öldü, ertesi sabah Yan Cen teslim oldu. Academia Sinica ile çevrilecek (EMRELİC toplu). Yıl düzeyi f=0025 (Jianwu 1), t=0036 (Jianwu 12) ile uyumlu; ancak t gerçekte yılın sonuna yakın (11. ay), atlas 0036-01-01 yıl başı = ~11 ay erken: gün çevrilince t ilerletilmeli. Hou Han shu KAYIT günüdür (sonradan derleme). Hayalet: chengjia-gongsun-shu f=0025,t=0036 künye ile birebir. Chengdu Wang Mang dönemi -0220..0025 __BOSLUK__ ve 0036..0221 (Doğu Han) BOSLUK ayrı görev. Değişmez 2 notu: t kırılması 0036-01-01 yıl-temsilî; kronoloji maddesi Wu Han Chengdu fethi Jianwu 12/11. ay önerilir.",
-   "_parti": "db_rb010.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TAKVİM ÇEVİRİSİ (EMRELİC, Academia Sinica, Jülyen): 建武元年四月 = 0025-05-17…06-14 (tabloda 更始3年4月) → f 0025-05-17 [yalnız ay]; 建武十二年十一月 = 0036-12-07…0037-01-05 → t 0036-12-07 [yalnız ay]. Hou Han shu'da ganzhi varsa gün verilecek. Künye f/t aynı commit'te (LAB). · ÇİN TAKVİMİ: ÇEVRİLMEDİ. f ifadesi: 建武元年四月 (Jianwu 1, 4. ay) - Chengjia imparatorluk ilanı, Chengdu başkent (kaynak: bundan önce \"自立為蜀王，都成都\" yılsız Gengshi dönemi). t ifadesi: 建武十二年 içinde \"十一月\" (Jianwu 12, 11. ay): Wu Han/Zang Gong kuşatması, Gongsun Shu yaralanıp o gece öldü, ertesi sabah Yan Cen teslim oldu. Academia Sinica ile çevrilecek (EMRELİC toplu). Yıl düzeyi f=0025 (Jianwu 1), t=0036 (Jianwu 12) ile uyumlu; ancak t gerçekte yılın sonuna yakın (11. ay), atlas 0036-01-01 yıl başı = ~11 ay erken: gün çevrilince t ilerletilmeli. Hou Han shu KAYIT günüdür (sonradan derleme). Hayalet: chengjia-gongsun-shu f=0025,t=0036 künye ile birebir. Chengdu Wang Mang dönemi -0220..0025 __BOSLUK__ ve 0036..0221 (Doğu Han) BOSLUK ayrı görev. Değişmez 2 notu: t kırılması 0036-01-01 yıl-temsilî; kronoloji maddesi Wu Han Chengdu fethi Jianwu 12/11. ay önerilir.",
+   "_parti": "db_rb010.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Lanzhou": [
@@ -8805,36 +8847,20 @@
    "kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Colchester'ın 410-880 sahibi için tarihli tanık yok (Essex krallığı essex 527-825 Colchester'ı adıyla anmaz; ASC 823/825 Essex'in Wessex'e teslimi şehir adı vermez). Aranan: ASC (Ingram), Bede HE, Stenton, Historic England Colchester.",
    "alinti": "",
    "oneri": {},
-   "not": "YERLEŞİM VAR: evet — Crummy: Colchester Saksonlar döneminde iskân edildi (Lion Walk kulübeleri). 410-527: sahip kaynakta yok → BOSLUK_KALIR (dönemin ilk kısmı). Orta Sakson (yaklaşık 7.-9. yy) Essex içinde: KAYNAKLI sınıfı ama uçlar tarihlenmedi → ONERI. Essex künyesi f=0527/t=0825 'gelenek' (Oxford Companion: erken 7. yy'da mevcut); satır f için 527 kullanılırsa beyan şart. 825 için EB1911 dayanaklı künye notu var; ASC 825 Essex'in teslimi şehir adı vermez (atlas beyanı). ASC 917 (Colchester'in alınışı) satırın t=0880 sonrası (danelaw dilimi) ile ilgili değil. Hayalet: essex 527-825, wessex 519-927 künye içinde.",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Britannia t 0409-01-01 kararıyla bitişik kayar. · YERLEŞİM VAR: evet — Crummy: Colchester Saksonlar döneminde iskân edildi (Lion Walk kulübeleri). 410-527: sahip kaynakta yok → BOSLUK_KALIR (dönemin ilk kısmı). Orta Sakson (yaklaşık 7.-9. yy) Essex içinde: KAYNAKLI sınıfı ama uçlar tarihlenmedi → ONERI. Essex künyesi f=0527/t=0825 'gelenek' (Oxford Companion: erken 7. yy'da mevcut); satır f için 527 kullanılırsa beyan şart. 825 için EB1911 dayanaklı künye notu var; ASC 825 Essex'in teslimi şehir adı vermez (atlas beyanı). ASC 917 (Colchester'in alınışı) satırın t=0880 sonrası (danelaw dilimi) ile ilgili değil. Hayalet: essex 527-825, wessex 519-927 künye içinde.",
    "gorev": "BOSLUK",
    "uc": "",
-   "oneri_son": [
-    {
-     "d": "__BOSLUK__",
-     "f": "0410-01-01",
-     "t": "0527-01-01",
-     "not_": "Roma sonrası; sahip yok (BOSLUK_KALIR) — yerleşim var"
-    },
-    {
-     "d": "essex",
-     "f": "0527-01-01",
-     "t": "0825-01-01",
-     "beyan": "BEYANLI YAKLAŞIKLIK: Crummy yalnız 'Orta Sakson dönemi'nde Doğu Saksonlar krallığı der; künye f=527 gelenek"
-    },
-    {
-     "d": "wessex",
-     "f": "0825-01-01",
-     "t": "0880-01-01",
-     "beyan": "Essex'in Wessex'e katılışı (künye ic_not, EB11 dayanaklı); Colchester'a özgü tanık okunmadı"
-    }
-   ],
+   "oneri_son": {
+    "not": "BOSLUK dilimi f 0410-01-01 → 0409-01-01 (bati-roma t ile bitişik)"
+   },
    "kaynak2": "Crummy, P. 1981, Aspects of Anglo-Saxon and Norman Colchester, CBA Research Report 39, giriş ve s. (Orta Sakson çömlek) — https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-281-1/dissemination/pdf/cba_rr_039.pdf",
    "alinti2": "Although only eighteen miles apart, the marked contrast in ceramic assemblages between Colchester and Ipswich over the middle Saxon period must be primarily related to the fact that Colchester lay in the kingdom of the East Saxons rather than in East Anglia. / The discovery at Lion Walk in 1972 of two Anglo-Saxon huts, at least one of which was clearly of post-Roman date, proved that Colchester was inhabited during the early Saxon period",
    "dogrusu": "",
    "tarayici_gerekli": [
     "Gascoyne & Radford 2013, Colchester: Fortress of the War God (Oxbow/OAPEN) — OAPEN 403 verdi; 410-916 bölümü okunamadı"
    ],
-   "_parti": "db_ra_008.json"
+   "_parti": "db_ra_008.json",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js",
@@ -8842,24 +8868,27 @@
    "d": "bati-roma",
    "f": "0395-01-17",
    "t": "0410-01-01",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "kaynak": "künye bati-roma f=0395-01-17 · t: Zosimus VI.10 (Honorius'un 410 tarihli Britanya şehirlerine yazısı) — Roma yönetiminin sonu [sayfa teyidi bekler]; Frere ch. XV. BEYANLI YAKLAŞIKLIK: 410 yıl düzeyi, Britanya'dan çekilme 407-410 arası tartışmalı.",
    "alinti": null,
    "oneri": null,
-   "not": "f=0395: Arcadio (yıl düzeyi). t çelişkisi: VCH Essex IX (Colchester'a özgü, 1994) merkezî Roma yönetiminin çöküşünü 'c. 409' veriyor, kaynak 'by then Britain had in effect ceased to be part of the Roman empire' diyor; Treccani «Britannia» ise 406 Galya istilasının Britannia'yı Roma'dan 'definitivamente' ayırdığını söylüyor; atlas t=0410 Zosimus VI.10 (Honorius yazısı, kaynak alanında 'sayfa teyidi bekler', okunmadı). Üç tarih (406 / c.409 / 410) arasında karar EMRELİC'indir; ben seçmedim. Satır t=0410-01-01 mevcut BEYANLI YAKLAŞIKLIK ile (407-410 tartışmalı) kalabilir; Colchester'a özgü akademik kaynak (VCH) c.409 diyor → ic_not'a 'VCH: c.409; Treccani: 406' beyanı eklenmeli. Colchester: 'life in the town was certainly radically different by the mid 5th century, the date of the earliest known Saxon hut' (VCH) — sonraki __BOSLUK__ 410-880 için Saxon yerleşimi tanığı; devir tarihi yok. Atlas künyesi dayanağı; şehre özgü sahiplik cümlesi bulunamadı: dönem, bölge/imparatorluk düzeyindeki kaynakla tarihlendi → ülke/bölge düzeyi, BEYANLI YAKLAŞIKLIK olarak kalır.",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Yerel akademik kaynak esas: VCH Essex IX 'c. 409' → t 0409-01-01 BEYANLI; Treccani 406 ve 410 (Honorius) ic_not'a. · f=0395: Arcadio (yıl düzeyi). t çelişkisi: VCH Essex IX (Colchester'a özgü, 1994) merkezî Roma yönetiminin çöküşünü 'c. 409' veriyor, kaynak 'by then Britain had in effect ceased to be part of the Roman empire' diyor; Treccani «Britannia» ise 406 Galya istilasının Britannia'yı Roma'dan 'definitivamente' ayırdığını söylüyor; atlas t=0410 Zosimus VI.10 (Honorius yazısı, kaynak alanında 'sayfa teyidi bekler', okunmadı). Üç tarih (406 / c.409 / 410) arasında karar EMRELİC'indir; ben seçmedim. Satır t=0410-01-01 mevcut BEYANLI YAKLAŞIKLIK ile (407-410 tartışmalı) kalabilir; Colchester'a özgü akademik kaynak (VCH) c.409 diyor → ic_not'a 'VCH: c.409; Treccani: 406' beyanı eklenmeli. Colchester: 'life in the town was certainly radically different by the mid 5th century, the date of the earliest known Saxon hut' (VCH) — sonraki __BOSLUK__ 410-880 için Saxon yerleşimi tanığı; devir tarihi yok. Atlas künyesi dayanağı; şehre özgü sahiplik cümlesi bulunamadı: dönem, bölge/imparatorluk düzeyindeki kaynakla tarihlendi → ülke/bölge düzeyi, BEYANLI YAKLAŞIKLIK olarak kalır.",
    "gorev": "ATLAS_DAYANAK",
    "kaynak_sinifi": "ATLAS künyesi (devletler.js)",
    "uc": "f+t",
    "oneri_son": {
+    "d": "bati-roma",
     "f": "0395-01-17",
-    "t": "0410-01-01",
-    "d": "bati-roma"
+    "t": "0409-01-01",
+    "beyan": "[yaklaşık; VCH] BEYANLI YAKLAŞIKLIK"
    },
    "kaynak2": "J. Cooper & C. R. Elrington (ed.), A History of the County of Essex IX: The Borough of Colchester, VCH, London 1994, 'Late Iron-Age and Roman Colchester' ('The Decline of the Colony'), s. 2-18 (https://www.british-history.ac.uk/vch/essex/vol9/pp2-18)  ||  Treccani Enciclopedia online, «Britannia» (https://www.treccani.it/enciclopedia/britannia/)  ||  Treccani Vocabolario online, «Arcadio» (https://www.treccani.it/enciclopedia/arcadio/)",
    "alinti2": "VCH Essex IX: A small hoard of clipped silver coins (fn. 114) provides evidence of the breakdown of centralized Roman government c . 409. By then Britain had in effect ceased to be part of the Roman empire and the local British councils, the civitates , had taken steps to provide for their own defence. || Treccani Britannia: Teodosio riconquistò l'isola, ma l'invasione della Gallia nel 406 separò definitivamente la B. da Roma.",
    "tarayici_gerekli": [],
    "dogrusu": null,
-   "_parti": "db_rb007.json"
+   "_parti": "db_rb007.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Gordion": [
@@ -9658,20 +9687,22 @@
    "kaynak": "Gallaecia; BEYANLI YAKLAŞIKLIK (bölge sahibi): şehir adlı sahiplik cümlesi yok. Roma: roma-imp (-0026-01-16..0395-01-17), bati-roma (..0409) künyeleri; Süev: devletler.js suev künyesi (409 Hermeric'in Gallaecia'ya yerleşmesi; 585 Leovigild'in ilhakı; kaynak zayıf: FMG/Charles Üniv. tez özeti); Vizigot: vizigot künyesi (t 0711-01-01). · IBER-KRON-1028",
    "alinti": null,
    "oneri": null,
-   "not": "f=0395-01-17: Arcadio (395) ile yılca teyitli. t: Treccani «Galizia» bölge düzeyinde Svev egemenliğini 411'den başlatıyor (atlas künyesi 409). Hydatius'un 409 girişi barbarların İspanya'ya girişidir, Gallaecia'nın Süev payı 411'de (sortes) — bu ayrım yalnız arama özetinde görüldü, ham metin okunamadı, teyit sayılmaz. Öneri: bati-roma t = 0411-01-01 [yıl düzeyi] ve aynı commit'te suev dönemi f = 0411-01-01 (devletler.js suev f=0409-01-01 İÇİNDE kalır, hayalet yok; delik/çakışma yok). Künye suev f için LAB'a soru: 409 mu 411 mi (bölge ucu). Değişmez 2: Suev yerleşimi kronoloji maddesi 409'daysa 411'e taşınmalı veya ic_not'ta iki gün beyan edilmeli. Treccani «La Coruña»: 5. yy'da barbar istilasıyla gerileme, tarihsiz.",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): bati-roma t 0411-01-01 Süev f ile aynı commit'te (ONERI-güçlü). · f=0395-01-17: Arcadio (395) ile yılca teyitli. t: Treccani «Galizia» bölge düzeyinde Svev egemenliğini 411'den başlatıyor (atlas künyesi 409). Hydatius'un 409 girişi barbarların İspanya'ya girişidir, Gallaecia'nın Süev payı 411'de (sortes) — bu ayrım yalnız arama özetinde görüldü, ham metin okunamadı, teyit sayılmaz. Öneri: bati-roma t = 0411-01-01 [yıl düzeyi] ve aynı commit'te suev dönemi f = 0411-01-01 (devletler.js suev f=0409-01-01 İÇİNDE kalır, hayalet yok; delik/çakışma yok). Künye suev f için LAB'a soru: 409 mu 411 mi (bölge ucu). Değişmez 2: Suev yerleşimi kronoloji maddesi 409'daysa 411'e taşınmalı veya ic_not'ta iki gün beyan edilmeli. Treccani «La Coruña»: 5. yy'da barbar istilasıyla gerileme, tarihsiz.",
    "gorev": "ATLAS_DAYANAK",
    "kaynak_sinifi": "ATLAS künyesi (devletler.js)",
    "uc": "f+t",
    "oneri_son": {
+    "d": "bati-roma",
     "f": "0395-01-17",
-    "t": "0411-01-01",
-    "d": "bati-roma"
+    "t": "0411-01-01"
    },
    "kaynak2": "Treccani Vocabolario online, «Arcadio» (https://www.treccani.it/enciclopedia/arcadio/)  +  Treccani Enciclopedia online, «Galizia» (https://www.treccani.it/enciclopedia/galizia/)",
    "alinti2": "Imperatore romano d'Oriente (377-408 d. C.). Figlio di Teodosio I, alla morte di questo (395) ereditò solo la parte orientale dell'Impero, mentre l'occidentale spettò al fratello Onorio. || Dal 411 d.C. fu sottoposta agli Svevi, poi (585) ai Visigoti.",
    "tarayici_gerekli": [],
    "dogrusu": null,
-   "_parti": "db_rb007.json"
+   "_parti": "db_rb007.json",
+   "_etiket": "ONERI_GUCLU",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -9691,8 +9722,10 @@
    "alinti2": "«Dal 411 d.C. fu sottoposta agli Svevi, poi (585) ai Visigoti.»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. BÖLGE DÜZEYİ (Galiçya): Treccani La Coruña şehir maddesi tarih vermiyor (5. yy'da barbar istilalarıyla çöküş). t=585 teyit (uc t). f: Treccani 411, atlas 409 (Hydatius'a göre 409 giriş, 411 paylaşım; ayrı olaylar) -> f 0411-01-01 ONERI, bati-roma t 0409 ile birlikte kayar. Atlasın zayıf Charles Üniv. tez özeti dayanağı yerine Treccani Galizia önerilir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Süev f 0411-01-01 ONERI-güçlü (Treccani Galizia; foedus ile yerleşme, TAHRİR); 409 geçişi ic_not'a. t 585 KAYNAKLI kalır. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. BÖLGE DÜZEYİ (Galiçya): Treccani La Coruña şehir maddesi tarih vermiyor (5. yy'da barbar istilalarıyla çöküş). t=585 teyit (uc t). f: Treccani 411, atlas 409 (Hydatius'a göre 409 giriş, 411 paylaşım; ayrı olaylar) -> f 0411-01-01 ONERI, bati-roma t 0409 ile birlikte kayar. Atlasın zayıf Charles Üniv. tez özeti dayanağı yerine Treccani Galizia önerilir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "_etiket": "ONERI_GUCLU_F",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -9748,20 +9781,22 @@
    "kaynak": "Gallaecia; BEYANLI YAKLAŞIKLIK (bölge sahibi): şehir adlı sahiplik cümlesi yok. Roma: roma-imp (-0026-01-16..0395-01-17), bati-roma (..0409) künyeleri; Süev: devletler.js suev künyesi (409 Hermeric'in Gallaecia'ya yerleşmesi; 585 Leovigild'in ilhakı; kaynak zayıf: FMG/Charles Üniv. tez özeti); Vizigot: vizigot künyesi (t 0711-01-01). · IBER-KRON-1028",
    "alinti": null,
    "oneri": null,
-   "not": "f=0395-01-17: Arcadio (395) ile yılca teyitli. t: Treccani «Galizia» bölge düzeyinde Svev egemenliğini 411'den başlatıyor (atlas künyesi 409). Hydatius'un 409 girişi barbarların İspanya'ya girişidir, Gallaecia'nın Süev payı 411'de (sortes) — bu ayrım yalnız arama özetinde görüldü, ham metin okunamadı, teyit sayılmaz. Öneri: bati-roma t = 0411-01-01 [yıl düzeyi] ve aynı commit'te suev dönemi f = 0411-01-01 (devletler.js suev f=0409-01-01 İÇİNDE kalır, hayalet yok; delik/çakışma yok). Künye suev f için LAB'a soru: 409 mu 411 mi (bölge ucu). Değişmez 2: Suev yerleşimi kronoloji maddesi 409'daysa 411'e taşınmalı veya ic_not'ta iki gün beyan edilmeli. Braga'ya özgü Treccani «Braga» maddesi Svev başkenti ve 585'i verir: 'alla fine del 5° sec. fu eletta a loro capitale dagli Svevi, che in una battaglia combattuta nel 585 nei suoi pressi dovettero cedere il Regno e la città ai Visigoti vincitori.' (komşu suev→vizigot satırının t=0585-01-01 ucunu yılca teyit eder; satır bu partide yok, KASA o satıra kaynak2 olarak yazabilir: Treccani Enciclopedia online, «Braga» (https://www.treccani.it/enciclopedia/braga/)).",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): bati-roma t 0411-01-01 Süev f ile aynı commit'te (ONERI-güçlü). · f=0395-01-17: Arcadio (395) ile yılca teyitli. t: Treccani «Galizia» bölge düzeyinde Svev egemenliğini 411'den başlatıyor (atlas künyesi 409). Hydatius'un 409 girişi barbarların İspanya'ya girişidir, Gallaecia'nın Süev payı 411'de (sortes) — bu ayrım yalnız arama özetinde görüldü, ham metin okunamadı, teyit sayılmaz. Öneri: bati-roma t = 0411-01-01 [yıl düzeyi] ve aynı commit'te suev dönemi f = 0411-01-01 (devletler.js suev f=0409-01-01 İÇİNDE kalır, hayalet yok; delik/çakışma yok). Künye suev f için LAB'a soru: 409 mu 411 mi (bölge ucu). Değişmez 2: Suev yerleşimi kronoloji maddesi 409'daysa 411'e taşınmalı veya ic_not'ta iki gün beyan edilmeli. Braga'ya özgü Treccani «Braga» maddesi Svev başkenti ve 585'i verir: 'alla fine del 5° sec. fu eletta a loro capitale dagli Svevi, che in una battaglia combattuta nel 585 nei suoi pressi dovettero cedere il Regno e la città ai Visigoti vincitori.' (komşu suev→vizigot satırının t=0585-01-01 ucunu yılca teyit eder; satır bu partide yok, KASA o satıra kaynak2 olarak yazabilir: Treccani Enciclopedia online, «Braga» (https://www.treccani.it/enciclopedia/braga/)).",
    "gorev": "ATLAS_DAYANAK",
    "kaynak_sinifi": "ATLAS künyesi (devletler.js)",
    "uc": "f+t",
    "oneri_son": {
+    "d": "bati-roma",
     "f": "0395-01-17",
-    "t": "0411-01-01",
-    "d": "bati-roma"
+    "t": "0411-01-01"
    },
    "kaynak2": "Treccani Vocabolario online, «Arcadio» (https://www.treccani.it/enciclopedia/arcadio/)  +  Treccani Enciclopedia online, «Galizia» (https://www.treccani.it/enciclopedia/galizia/)",
    "alinti2": "Imperatore romano d'Oriente (377-408 d. C.). Figlio di Teodosio I, alla morte di questo (395) ereditò solo la parte orientale dell'Impero, mentre l'occidentale spettò al fratello Onorio. || Dal 411 d.C. fu sottoposta agli Svevi, poi (585) ai Visigoti.",
    "tarayici_gerekli": [],
    "dogrusu": null,
-   "_parti": "db_rb007.json"
+   "_parti": "db_rb007.json",
+   "_etiket": "ONERI_GUCLU",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -9781,8 +9816,10 @@
    "alinti2": "«alla fine del 5° sec. fu eletta a loro capitale dagli Svevi, che in una battaglia combattuta nel 585 nei suoi pressi dovettero cedere il Regno e la città ai Visigoti vincitori.»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ŞEHRE ÖZGÜ t=585 (uc t; savaş yılı, gün yok). f: Treccani Braga 5. yy sonunda Süev başkenti diyor (başlangıç değil); Treccani Galizia 'Dal 411' (bölge düzeyi) -> f 0411-01-01 ONERI (atlas 409), bati-roma t ile birlikte. Atlasın zayıf Charles Üniv. tez özeti dayanağı yerine Treccani. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Süev f 0411-01-01 ONERI-güçlü (Treccani Galizia; foedus ile yerleşme, TAHRİR); 409 geçişi ic_not'a. t 585 KAYNAKLI kalır. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. ŞEHRE ÖZGÜ t=585 (uc t; savaş yılı, gün yok). f: Treccani Braga 5. yy sonunda Süev başkenti diyor (başlangıç değil); Treccani Galizia 'Dal 411' (bölge düzeyi) -> f 0411-01-01 ONERI (atlas 409), bati-roma t ile birlikte. Atlasın zayıf Charles Üniv. tez özeti dayanağı yerine Treccani. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "_etiket": "ONERI_GUCLU_F",
+   "karar": "EMRELİC gece-87"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js",
@@ -9813,24 +9850,27 @@
    "d": "bati-roma",
    "f": "0395-01-17",
    "t": "0410-01-01",
-   "hukum": "CELISKI",
+   "hukum": "ONERI",
    "kaynak": "künye bati-roma f=0395-01-17; t: 410 Honorius yazısı (Zosimus VI.10) [sayfa teyidi bekler]; BEYANLI YAKLAŞIKLIK.",
    "alinti": null,
    "oneri": null,
-   "not": "Verulamium'a özgü akademik kaynak bulunamadı (St Albans Museums sitesi akademik değil, kullanılmadı; Frere/Niblett kazı yayınları açık metin olarak erişilemedi). Bölge düzeyi: Britannia'da Roma yönetiminin sonu Treccani'de 406, VCH Essex'te (Colchester) c.409, atlas 410 (Zosimus). f=0395 Arcadio ile yılca teyitli. Karar EMRELİC'in; Camulodunum satırı ile aynı beyan kullanılmalı. Atlas künyesi dayanağı; şehre özgü sahiplik cümlesi bulunamadı: dönem, bölge/imparatorluk düzeyindeki kaynakla tarihlendi → ülke/bölge düzeyi, BEYANLI YAKLAŞIKLIK olarak kalır.",
+   "not": "EMRELİC gece-87 (5 Kasım 2026): Yerel akademik kaynak esas: VCH Essex IX 'c. 409' → t 0409-01-01 BEYANLI; Treccani 406 ve 410 (Honorius) ic_not'a. Verulamium'a VCH Colchester emsali uygulanır. · Verulamium'a özgü akademik kaynak bulunamadı (St Albans Museums sitesi akademik değil, kullanılmadı; Frere/Niblett kazı yayınları açık metin olarak erişilemedi). Bölge düzeyi: Britannia'da Roma yönetiminin sonu Treccani'de 406, VCH Essex'te (Colchester) c.409, atlas 410 (Zosimus). f=0395 Arcadio ile yılca teyitli. Karar EMRELİC'in; Camulodunum satırı ile aynı beyan kullanılmalı. Atlas künyesi dayanağı; şehre özgü sahiplik cümlesi bulunamadı: dönem, bölge/imparatorluk düzeyindeki kaynakla tarihlendi → ülke/bölge düzeyi, BEYANLI YAKLAŞIKLIK olarak kalır.",
    "gorev": "ATLAS_DAYANAK",
    "kaynak_sinifi": "ATLAS künyesi (devletler.js)",
    "uc": "f+t",
    "oneri_son": {
+    "d": "bati-roma",
     "f": "0395-01-17",
-    "t": "0410-01-01",
-    "d": "bati-roma"
+    "t": "0409-01-01",
+    "beyan": "[yaklaşık; VCH] BEYANLI YAKLAŞIKLIK"
    },
    "kaynak2": "Treccani Enciclopedia online, «Britannia» (https://www.treccani.it/enciclopedia/britannia/)  ||  Treccani Vocabolario online, «Arcadio» (https://www.treccani.it/enciclopedia/arcadio/)  ||  Colchester için VCH Essex IX (bölge karşılaştırması, Verulamium'a özgü DEĞİL)",
    "alinti2": "Treccani Britannia: Teodosio riconquistò l'isola, ma l'invasione della Gallia nel 406 separò definitivamente la B. da Roma. || VCH Essex IX (Colchester): A small hoard of clipped silver coins (fn. 114) provides evidence of the breakdown of centralized Roman government c . 409. By then Britain had in effect ceased to be part of the Roman empire and the local British councils, the civitates , had taken steps to provide for their own defence.",
    "tarayici_gerekli": [],
    "dogrusu": null,
-   "_parti": "db_rb007.json"
+   "_parti": "db_rb007.json",
+   "hukum_eski": "CELISKI",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Barselona": [
@@ -9852,8 +9892,9 @@
    "alinti2": "TDV: «Romalılar’ın, milâttan sonra 415’te de Vizigotlar’ın hâkimiyeti altına giren şehrin müslümanlar tarafından fethedildiği tarih ihtilâflıdır.» Treccani: «quale sede provvisoria del governo visigoto dopo il 415»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. f: TDV ve Treccani çift teyit 415; ama vizigot künye f 0418-01-01 -> hayalet olmaması için f 0418-01-01, 415 ic_not'a. Atlasta 507 öncesi dönem yok: 418-507 arası ayrı vizigot dönemi gerekir. t: TDV rivayetleri 714 öncesi / 715 / 723; TDV sonucu: 'fethin 96’da gerçekleştiği' (715) -> t 0715-01-01 [yıl; ihtilaflı]. Atlas t 0711 hiçbir rivayetle örtüşmüyor. TDV ayrıca Frankların geri alışı ve 723 ikinci fetih: ara dönem BOSLUK ayrıca. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0715-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Barselona' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0715-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. f: TDV ve Treccani çift teyit 415; ama vizigot künye f 0418-01-01 -> hayalet olmaması için f 0418-01-01, 415 ic_not'a. Atlasta 507 öncesi dönem yok: 418-507 arası ayrı vizigot dönemi gerekir. t: TDV rivayetleri 714 öncesi / 715 / 723; TDV sonucu: 'fethin 96’da gerçekleştiği' (715) -> t 0715-01-01 [yıl; ihtilaflı]. Atlas t 0711 hiçbir rivayetle örtüşmüyor. TDV ayrıca Frankların geri alışı ve 723 ikinci fetih: ara dönem BOSLUK ayrıca. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Zaragoza": [
@@ -9875,8 +9916,9 @@
    "alinti2": "Treccani: «Occupata dagli Svevi (452) e dai Visigoti (466 ca.), verso il 714 passò agli Arabi». TDV: «95 (714) yılında Mûsâ b. Nusayr’ın fethettiği Sarakusta, bu tarihten Aragon Kralı I. Alfonso tarafından ele geçirildiği 512 (1118) yılına kadar İslâm hâkimiyetinde kalmış»",
    "dogrusu": null,
    "tarayici_gerekli": [],
-   "not": "Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: ÇİFT TEYİT 714 (hicrî 95 ∩ 714 -> 0714-01-01); atlas t 0711 yanlış. f: Treccani '466 ca.' [yaklaşık] -> f 0466-01-01 ONERI; 452-466 Süev. Vizigot künyesi f 418 kapsıyor. Atlasta 507 öncesi dönem yok; 466-507 ek dönem gerekir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
-   "_parti": "db_rb008.json"
+   "not": "EMRELİC gece-87 (5 Kasım 2026): TDV yer maddesi esas, t 0714-01-01 [yalnız yıl]; Treccani çelişkisi ic_not'a. Değişmez 2: şehir kırılması yıl-temsilî borç kovasına; aynı commit'te yıl düzeyinde kronoloji maddesi önerisi 'Tarık ve Musa'nın fetihleri: Zaragoza' (TDV) KASA'ya. emevi künye f 711 (Guadalete) DEĞİŞMEZ; şehrin emevi dönemi f = 0714-01-01. · Mevcut dayanak atlas künyesi (devletler.js) idi; akademik kaynakla yeniden tarihlendi. t: ÇİFT TEYİT 714 (hicrî 95 ∩ 714 -> 0714-01-01); atlas t 0711 yanlış. f: Treccani '466 ca.' [yaklaşık] -> f 0466-01-01 ONERI; 452-466 Süev. Vizigot künyesi f 418 kapsıyor. Atlasta 507 öncesi dönem yok; 466-507 ek dönem gerekir. Hayalet devlet denetimi: vizigot künyesi f 0418-01-01 t 0711-01-01, suev f 0409-01-01 t 0585-01-01 (devletler.js ölçüldü).",
+   "_parti": "db_rb008.json",
+   "karar": "EMRELİC gece-87"
   }
  ],
  "Sechín Bajo": [

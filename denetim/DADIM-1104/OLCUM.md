@@ -1142,7 +1142,33 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Verhneudinsk f 1665 desteksiz (Udinsk zimovyesi 1666; zayıf).
   - Alazeya 1642 ilk temas, ostrog değil.
   - Rusya 1917-03-15 ucu bu partide teyit edilemedi.
-- **r8_033 ve r8_039:** sürüyor (sonuçlar gelince eklenecek).
+- **r8_039:** 8 yerleşim, 16 satır (f ve t ayrı satır).
+  - t 1917-03-15: 8/8 KAYNAKLI, ÜLKE DÜZEYİ. Dayanak II. Nikola'nın feragatnamesi (2 Mart Jülyen = 15 Mart Gregoryen).
+  - f uçları:
+
+    | Hüküm | Satır | Yerleşim |
+    |---|---|---|
+    | KAYNAKLI | 1 | Ust-Olenyok 1633 (Forsyth; yer özdeşliği zayıf) |
+    | ONERI | 2 | Gijiga, Balagansk |
+    | BULUNAMADI | 5 | |
+
+  - Gijiga f 1651 büyük olasılıkla 1751'in yazım hatası (Forsyth 1751, ESBE 1753). Doğrulanırsa 100 yıllık hayalet dönem kırpılır.
+  - Balagansk: 1653 (ESBE, Forsyth "1653—4").
+  - Kansk: atlas 1636 ilk ostrog, nokta 1640'ta taşınan yerde (Forsyth 1628 / ESBE 1640).
+- **r8_033:** sürüyor.
+
+### 45a. EMRELİC gece-87 kararları (`karar56.py`, 27 satır işlendi)
+1. **İberya Vizigot t:** TDV yer maddesi esas.
+   - Yıllar: Toledo, Sevilla, Granada 712 · Valensiya, Zaragoza 714 · Barselona 715 · Lizbon 716 · Kurtuba 711. Hepsi `YYYY-01-01` [yalnız yıl].
+   - emevi künye f 711 değişmez.
+   - Kronoloji maddesi önerisi "Tarık ve Musa'nın fetihleri: X" KASA'ya. Kırılmalar yıl-temsilî borç kovasına girer.
+   - **Málaga'da karar yok** (TDV 711/713): CELISKI kalır, EMRELİC'e soruldu.
+2. **476-507 dilimi:** vizigot BEYANLI, f 0476-08-23 (yedi BOSLUK satırı; ajanın 08-28'i düzeltildi).
+   - Kurtuba'da Bizans Spania 554–571 (TDV; Treccani 572 ic_not'a), ONERI.
+3. **Süev f 0411-01-01:** ONERI-güçlü. bati-roma t 0411 aynı commit'te. 409 ic_not'a.
+4. **Britannia:** bati-roma t 0409-01-01 "[yaklaşık; VCH]" BEYANLI, Camulodunum ve Verulamium için. Treccani 406 ve 410 ic_not'a.
+5. **Karthago:** f −0813 (tek uzlaşım); Docter −0759 ic_not'a.
+6. **Çengdu (Gongsun Shu):** f 0025-05-17 [yalnız ay], t 0036-12-07 [yalnız ay] (Academia Sinica, Jülyen). Doğu Han f bitişik kayar.
 
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
