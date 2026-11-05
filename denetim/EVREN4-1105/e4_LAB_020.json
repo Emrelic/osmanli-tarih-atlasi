@@ -1,0 +1,647 @@
+{
+ "Barito Hulu (bölge)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:305",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1526-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Endonezya; Treccani Borneo, Kalimantan, Banjarmasin, Indonesia (Banjar/Barito yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1281-1526 arası Barito Hulu için sahip/boşluk tanıklığı bulunamadı; TDV'de Bancar Sultanlığı maddesi yok (tdv-ara 'Bancar' boş)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:305",
+   "alan": "s",
+   "d": "banjar-sultanligi",
+   "f": "1526-01-01",
+   "t": "1860-06-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Endonezya; Treccani Borneo/Kalimantan/Banjarmasin/Indonesia",
+   "alinti": "",
+   "oneri": {},
+   "not": "1526 ve 1860-06-11 uçları bu kaynaklarda yok. İPUCU (KAYNAKLI değil): Treccani Borneo 'Nel 1787 anche il sultano di Bandjarmasin divenne vassallo degli Olandesi' — Hollanda vasallığı 1787'den, atlas ise 1860'a kadar Banjar egemen yazıyor; ince fark (s mi v mi) kaynakla çözülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:305",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1860-06-11",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV Endonezya; Treccani Borneo/Indonesia",
+   "alinti": "",
+   "oneri": {},
+   "not": "1860-06-11 doğrudan idare günü bu kaynaklarda yok (Treccani Borneo yalnız 1787 vasallığı ve 1891 sınır antlaşmasını verir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:305",
+   "alan": "isg",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "TEK KURAL: savaş işgali s: değil isg: yazılır; Japonya Endonezya'yı ilhak etmedi (Koiso sözü 1944: 'yakın gelecekte bağımsızlık'), ÖLÇÜT: geçici/askerî. TDV ay düzeyinde Mart 1942 (ÜLKE DÜZEYİ); atlas 1942-03-09 ay içinde tutarlı ama Borneo için gün teyitsiz. ÇELİŞKİ: Treccani Borneo 'l'isola fu occupata dai Giapponesi (1941-45)'. Alıntı yalnız f ucunu tarihliyor. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:305",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Endonezya üzerindeki egemenlik haklarının tamamını aynı tarihte kurulan bağımsız Endonezya Birleşik Devletleri’ne devretti / Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
+   "oneri": {},
+   "not": "ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Devir günü 27 Aralık 1949 TDV'de teyitli (Lahey Yuvarlak Masa). AMA devralan 'Endonezya Birleşik Devletleri' (federal, Hollanda baskısıyla kurulmuş 16 devlet/özel bölge); TDV: 'Ağustos 1950’de ... üniter Endonezya Cumhuriyeti’ne dönüştürüldü' (17 Ağustos 1950). Barito Hulu Hollanda'nın kurdurduğu federal bölgeler içindeydi; endonezya-cumhuriyeti künyesi f 1945-08-17. Künye var mı / federal devlet ayrı mı kararı Emre'nin. Treccani Borneo: 'Nel 1950 i possedimenti olandesi nel B. entrarono a far parte della Repubblica Indonesiana'. TEK ÖLÇÜ: Hollanda yönetiyordu → teslim günü 1949-12-27."
+  }
+ ],
+ "Bengkulu (Bencoolen)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4088",
+   "alan": "s",
+   "d": "pagaruyung",
+   "f": "1281-01-01",
+   "t": "1685-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, 'Sumatra' — https://www.treccani.it/enciclopedia/sumatra/",
+   "alinti": "Il possesso della costa meridionale, dopo un primo insediamento inglese (1685), passò nel 1824 agli Olandesi",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (İngiliz yerleşimi 1685). Bengkulu'nun Pagaruyung'a bağlılığı (f 1281) hiçbir okunan kaynakta yok; TDV Endonezya/Treccani Sumatra Pagaruyung'u anmıyor. ADA/KIYI DÜZEYİ ('costa meridionale'); Bengkulu adı geçmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4088",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1685-01-01",
+   "t": "1824-03-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Sumatra' — https://www.treccani.it/enciclopedia/sumatra/",
+   "alinti": "dopo un primo insediamento inglese (1685), passò nel 1824 agli Olandesi",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1685) teyitli; gün teyitsiz. ÜLKE/KIYI DÜZEYİ (Bengkulu adı geçmez). Alıntı t ucunu da yıl olarak (1824) veriyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4088",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1824-03-17",
+   "t": "1942-03-09",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Sumatra' — https://www.treccani.it/enciclopedia/sumatra/",
+   "alinti": "Il possesso della costa meridionale, dopo un primo insediamento inglese (1685), passò nel 1824 agli Olandesi",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1824) teyitli; 1824-03-17 (Londra Antlaşması imzası) teyitsiz. TEK ÖLÇÜ AÇIĞI: Bengkulu'yu İngilizler fiilen yönetiyordu → s: Hollanda TESLİM gününden başlamalı (teslim 1825 olabilir, bu turda okunmadı); imza günü yalnız ic_not. ÜLKE/KIYI DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4088",
+   "alan": "isg",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "TEK KURAL: savaş işgali isg: yazılır (Japonya ilhak etmedi; ÖLÇÜT: geçici/askerî). TDV ay düzeyinde Mart 1942, ÜLKE DÜZEYİ; Bengkulu'ya özgü gün teyitsiz. Alıntı yalnız f ucunu tarihliyor. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4088",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Endonezya üzerindeki egemenlik haklarının tamamını aynı tarihte kurulan bağımsız Endonezya Birleşik Devletleri’ne devretti / Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
+   "oneri": {},
+   "not": "ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Gün 27 Aralık 1949 TDV'de teyitli (Lahey devri) ama devralan 'Endonezya Birleşik Devletleri' (federal); TDV: 17 Ağustos 1950'de üniter Cumhuriyet'e dönüştü. Sumatra'nın Bengkulu'su Cumhuriyet bölgesi mi federal eyalet mi bu kaynakta yok. ÜLKE DÜZEYİ; künye/federal ayrımı Emre'nin."
+  }
+ ],
+ "Bucumbura": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1226",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1897-01-01",
+   "t": "1916-06-06",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Bujumbura' — https://www.treccani.it/enciclopedia/bujumbura/",
+   "alinti": "Si è sviluppata intorno a un posto militare tedesco fondato nel 1897",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1897) teyitli — yerleşimin kuruluşu (Alman askerî karakolu). t ucu (1916-06-06) bu alıntıda yok. Treccani Burundi: Urundi 1899'da Alman Doğu Afrikası'na 'incorporato' (ülke düzeyi) — yerleşim 1897'den Alman karakolu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1226",
+   "alan": "isg",
+   "d": "belcika",
+   "f": "1916-06-06",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Burundi' — https://www.treccani.it/enciclopedia/burundi/",
+   "alinti": "l’Urundi fu occupato dalle forze belghe nel 1916 e dopo la fine della guerra assegnato al Belgio, insieme al Ruanda, dalla Società delle nazioni (1919)",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "TEK KURAL: savaş işgali isg: yazılır → 1916'dan devire kadar isg belcika (ÖLÇÜT: geçici/askerî). Kaynak 1916'yı yıl düzeyinde verir (gün 1916-06-06 teyitsiz); Treccani Bujumbura: 'colonizzazione belga (1916-62)'. TDV Ruanda: 'Versailles Barış Antlaşması ile Ruanda ve Burundi, Belçika’ya bırakıldı (1919)' → s: belcika devri Versay'dan olabilir (atlas Alman künye t 1919-06-28; TEK ÖLÇÜ: Belçika zaten yönetiyor → imza günü) ve manda 1922-07-20 ayrı katman. Alıntı yalnız f ucunu (işgal yılı) tarihliyor; devir günü kaynakta yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1226",
+   "alan": "s",
+   "d": "ruanda-urundi-mandasi",
+   "f": "1922-07-20",
+   "t": "1962-07-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Burundi' — https://www.treccani.it/enciclopedia/burundi/ ; TDV İslâm Ansiklopedisi, 'Ruanda' — https://islamansiklopedisi.org.tr/ruanda",
+   "alinti": "dopo la fine della guerra assegnato al Belgio, insieme al Ruanda, dalla Società delle nazioni (1919)",
+   "oneri": {},
+   "not": "ÇELİŞKİ (iki kaynak, seçilmedi): Treccani Burundi atamayı Milletler Cemiyeti'ne atfedip 1919 yazar; TDV Ruanda 1919 Versailles ile Belçika'ya bırakıldı der. Atlas f 1922-07-20 (MC Konseyi B-manda onayı) bu iki kaynakta GEÇMEZ (1922 günü yalnız TDV Kamerun'da Kamerun için okundu). Treccani: 1946'da BM vesayeti, bağımsızlık 1962 (t uçları). Alıntı f ucunu 1919 olarak tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1226",
+   "alan": "s",
+   "d": "burundi-krallik",
+   "f": "1962-07-01",
+   "t": "1966-11-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Burundi' — https://www.treccani.it/enciclopedia/burundi/",
+   "alinti": "Il Burundi, separatosi dal Ruanda, divenne indipendente con il nuovo nome il 1° luglio 1962",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyitli (1962-07-01); ÜLKE DÜZEYİ (Bujumbura başkent). Treccani: 'monarchia costituzionale sotto il re Mwambutsa IV'. TDV Ruanda da 'Ruanda 1 Temmuz 1962’de bağımsızlığını ilân etti' der (aynı gün)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1226",
+   "alan": "s",
+   "d": "burundi-cumhuriyeti",
+   "f": "1966-11-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Burundi' — https://www.treccani.it/enciclopedia/burundi/",
+   "alinti": "nel 1966 Mwambutsa IV fu deposto da un figlio che salì al trono con il nome di Ntare V, a sua volta rovesciato da un colpo di Stato militare",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1966) teyitli; 1966-11-28 günü teyitsiz. Treccani: Micombero darbesi sonrası Cumhuriyet ilanı. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Champasak": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3794",
+   "alan": "s",
+   "d": "laos-kralliklari",
+   "f": "1713-01-01",
+   "t": "1778-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Laos; Treccani Champasak (madde yok); Hall, History of South-East Asia 4th ed. (archive.org, 'Champassak/Bassac' — yalnız Kamboçya valisi Mu of Bassac, Champasak krallığı değil); TDV Laos/Champasak aramaları boş",
+   "alinti": "",
+   "oneri": {},
+   "not": "Champasak krallığının 1713 ayrılışı ve 1778 sonu bu kaynaklarda yok. Treccani Laos yalnız 'nel tardo 17° sec. fu diviso nei due regni di Vientiane e di Luang Prabang' (Champasak anılmaz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3794",
+   "alan": "s",
+   "d": "tonburi",
+   "f": "1778-01-01",
+   "t": "1782-04-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Laos/Thailandia; Hall, History of South-East Asia 4th ed. (archive.org)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Thonburi'nin Champasak'ı alışı (1778) bu kaynaklarda yok. Treccani Thailandia: Rama I 'Phya Chakri' (1781-1809) — Hall ve zincirdeki DEVRALMA 1782 der (Chakri yılı iki kaynakta 1781/1782 farklı; t ucu bu turda seçilmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3794",
+   "alan": "s",
+   "d": "fransiz-cinhindi",
+   "f": "1893-10-03",
+   "t": "1953-10-22",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Laos' (Storia) — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "Nel 1893 il Siam dovette cedere la maggior parte del territorio del L. alla Francia",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ ve YALNIZ YIL (1893); Champasak adı geçmez. ŞÜPHE: Champasak şehri Mekong'un sağ yakasındadır ve 1893 antlaşması sol yakayı devretti; Treccani 'nei decenni successivi, fino al 1946, vari accordi definirono i confini tra il L. e il Siam' der. Çinhindi kuralı: Champasak yönetimi kime ne zaman geçti (Siem Reap/Battambang emsali 1907'ye kadar s: siam) kaynakla bulunmadı — f 1893-10-03 Champasak için doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3794",
+   "alan": "s",
+   "d": "laos-kralligi",
+   "f": "1953-10-22",
+   "t": "1975-12-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Laos' (Storia) — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "Per gli accordi di Ginevra del 1954 seguiti alla sconfitta di Dien bien phu, la Francia riconobbe l’indipendenza del L.",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-67): Laos bağımsızlığı 1953-10-22 Fransız-Lao antlaşması imzası (TEK ÖLÇÜ); Cenevre 1954 ic_not. | ÜLKE DÜZEYİ. Treccani bağımsızlığın tanınmasını Cenevre 1954'e bağlar; atlas f 1953-10-22 (Fransa-Lao antlaşması) bu kaynakta yok. Çelişki mi olay farkı mı belirsiz; kaynak 1953'te Pathet Lao'nun ülkenin bir kısmını denetlediğini de ekler."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3794",
+   "alan": "s",
+   "d": "laos-demokratik-halk-cumhuriyeti",
+   "f": "1975-12-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Laos' (Storia) — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "il re Savang Vatthana abdicò (1975) e fu proclamata la Repubblica democratica popolare",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1975) teyitli; 1975-12-02 günü teyitsiz. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Bertua (Bertoua)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:851",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1905-01-01",
+   "t": "1916-02-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Kamerun; Treccani Camerun (Bertoua anılmaz)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşimin 1905 Alman kuruluşu bulunamadı. Ülke düzeyi: TDV 'himaye antlaşması (Temmuz 1884)'; Almanya himayesi TDV'ye göre 'fiilen son buldu (1918)' — atlasın 1916-02-16 (künye t 1916-02-18) ile ÇELİŞKİ (bkz. sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:851",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1916-02-16",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' — https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "İngiliz ve Fransız birliklerinin ülkeyi işgal etmesiyle fiilen son buldu (1918)",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "TEK KURAL: savaş işgali isg: yazılır (ÖLÇÜT: geçici/askerî; Londra Deklarasyonu Temmuz 1919 paylaşımı 'resmîleştirdi', MC kararı 20 Temmuz 1922 işgal edilen yerleri manda yönetimine bıraktı). ÇELİŞKİ: TDV Alman himayesinin fiilen sonunu 1918 yazar; atlas 1916-02-16. Treccani Camerun: 'occupato durante la Prima guerra mondiale da Francia e Inghilterra' (yıl yok). Alıntı yalnız f ucunu tarihliyor (ve atlasla uyuşmuyor). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:851",
+   "alan": "s",
+   "d": "fransiz-kamerun-mandasi",
+   "f": "1922-07-20",
+   "t": "1960-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' — https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "20 Temmuz 1922’de aldığı bir kararla işgal ettikleri yerleri Fransa ve İngiltere’nin manda yönetimlerine bıraktı",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyitli (Milletler Cemiyeti kararı 20 Temmuz 1922); ÜLKE DÜZEYİ (Fransız bölgesi başşehri Yaoundé)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:851",
+   "alan": "s",
+   "d": "kamerun",
+   "f": "1960-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' — https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyitli (1960-01-01); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Blida": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:558",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Cezayir ve TDV Abdülvâdîler (Zeyyânîler; 'Bilide/Blida/Mitice' geçmez; tdv-ara 'Blida','Bilide' boş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Blida'nın Zeyyânî egemenliği bulunamadı. TDV Abdülvâdîler: hanedan 1235-1550, Tilimsân 1550'de Osmanlı; TDV Cezayir: Abdülvâdî ve Hafsî hâkimiyeti 'birkaç şehre münhasır kaldı' (XVI. yy başı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:558",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Cezayir' — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Cezayir halkının Ekim 1519 tarihli arîzasıyla Yavuz Sultan Selim’e",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-48 Dellîs): Cezayir'in bağlanması 1519-10-01 [yalnız ay] (TDV arîza). | ÜLKE/ŞEHİR DÜZEYİ (Cezayir şehri; Blida adı geçmez). ÇELİŞKİ (aynı madde): atlas f 1519-09-01; TDV 'beylerbeyiler devri (1518-1587)' der, yani 1518; Hızır'ın Osmanlı himayesine arîzası Ekim 1519'dur (Cezayir hâkimi olarak tanınma bundan sonra). Tahrir ölçütü: kaynak susuyor. Blida'nın Cezayir beylerbeyiliğine bağlanış günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:558",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Cezayir' — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1671, dayılar devri başı) teyitli; ÜLKE DÜZEYİ. t ucu: TDV 'Fransızlar ... 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' zincirde kayıtlı; o gün CEZAYİR ŞEHRİ'ne ait, Blida'nın kendi işgal günü teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:558",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Cezayir' — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1962) teyitli; TDV referandum günü 1 Temmuz 1962'yi verir, 5 Temmuz 1962 bağımsızlık ilan/tanıma günü bu maddede GEÇMEZ. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Bâra": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:921",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Funclar’ın reisi Amâre (Dûnkas), 1504 yılında daha önce Sudan’a göç etmiş bazı Arap kabilelerinin",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1504: Func, Alve Krallığı'na karşı bağımsızlığını ilân etti; TDV Func aynı yıl). Bâra'nın (Kordofan) Nûbe/Alve krallığına bağlılığı (f 1281 ve sahiplik) hiçbir okunan kaynakta yok — ŞÜPHE: Alve'nin Kordofan'a uzandığı kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:921",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı. Ardından Kordofan ele geçirildi",
+   "oneri": {},
+   "not": "f ucu SIRALAMA/YIL: Func teslimi Haziran 1821, Kordofan ondan sonra; gün 1821-08-19 teyitsiz. ÜLKE DÜZEYİ. Aynı maddede iç çelişki: TDV Sudan 'mücadele 1820’de Sudan’ın Kavalalı Mehmed Ali Paşa tarafından ilhakına kadar sürdü' (1820) ve 'idare 1821-1882' der. t ucu: TDV Mehdî'nin Kordofan'ı 1882-83'te aldığını söyler (Ubeyyid'e giriş 19 Ocak 1883); Bâra'ya özgü 1882-09-01 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:921",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-01",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "Mehdî sonu: TDV 1898-09-02 (Kerreri/Ümmüderman), künye t 1898-09-02; atlas t 1899-01-19 (kondominyum) — arada isg ingiltere/misir mı, EMRELİC. | alıntı yalnız t ucunu tarihliyor (Kondominyum idaresi 19 Ocak 1899). KÜNYE AŞIMI: dönem t 1899-01-19, mehdi künye t 1898-09-02; TDV 'Kerkeri savaşında Mehdî Devleti yıkıldı (2 Eylül 1898)'. Aradaki 1898-09-02 → 1899-01-19 boşluğu için karar Emre'nin (künyeyi uzat ya da dönemi 1898-09-02'de kes). f 1882-09-01 (Mehdîler'in Bâra'yı alışı) bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:921",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyitli (1956-01-01); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Archidona (Napo)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:71",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1536-01-01",
+   "t": "1542-11-20",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, 'Ecuador' (Storia) — https://www.treccani.it/enciclopedia/ecuador/",
+   "alinti": "la regione ecuadoriana entrò a far parte del vicereame del Perù, costituito nel 1542",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Peru Genel Valiliği 1542 yılı; gün 11-20 teyitsiz). ÜLKE DÜZEYİ. f 1536 (kuruluş, HSAI) bu turda okunmadı. UYARI: aynı maddede 'Oriente amazzonico ... pressoché immune dalla colonizzazione spagnola' — Napo/Archidona'nın fiilî İspanyol sahipliği bu kaynağa göre tartışmalı; beyanlı yaklaşıklık gerekebilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:71",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Ecuador' (Storia) — https://www.treccani.it/enciclopedia/ecuador/",
+   "alinti": "Nel 1822 l’Ecuador aderì alla Republica de la Gran Colombia",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1822) teyitli; 1822-05-24 (Pichincha) teyitsiz. ÜLKE DÜZEYİ; Oriente (Napo) için ayrıca beyan gerekir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:71",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Ecuador' (Storia) — https://www.treccani.it/enciclopedia/ecuador/",
+   "alinti": "Nel 1830 si proclamava repubblica indipendente",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1830) teyitli; 1830-05-13 teyitsiz. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Ayn el-Ğazâle (Bomba)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:443",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Trablusgarp' — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Sinan Paşa kumandasındaki Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyitli ama TRABLUSGARP ŞEHRİ fethi (15 Ağustos 1551); ÜLKE/EYALET DÜZEYİ — TDV 'Fizan’a kadar bugünkü Libya Devleti’nin tamamına yakınını Osmanlı topraklarına Murad Ağa dahil etti'. Ayn el-Ğazâle (Bingazi/Cirene bölgesi) için ayrı gün yok. Tahrir ölçütü: TDV 'burada timar sistemi uygulanmadı' der (ocaklık)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:443",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Trablusgarp' — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1711) teyitli; 1711-07-29 teyitsiz. ÜLKE/EYALET DÜZEYİ. TDV: 'yarı bağımsız eyalet konumuna geldiği Karamanlı hânedanı dönemi'; Yûsuf Paşa 1798'de merkezden vali tayin edildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:443",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Trablusgarp' — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "1835’te tekrar merkeze bağlanan Trablusgarp’ta Tanzimat ve teşkîlât-ı cedîde esnasında",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1835) teyitli; 1835-05-26 teyitsiz. ÜLKE/EYALET DÜZEYİ. TDV: Bingazi sonradan ayrı mutasarrıflık (1864 vilâyet sancağı, 1872 müstakil sancak, 1879 Dahiliye Nezâreti'ne bağlı müstakil vilâyet)."
+  }
+ ],
+ "Belluno": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:490",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1797-05-12",
+   "t": "1797-10-17",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, 'Belluno' — https://www.treccani.it/enciclopedia/belluno/",
+   "alinti": "passò nel 1404 ai Veneziani, i quali la tennero fino al 1797",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "TEK KURAL: Venedik'in 12 Mayıs 1797 çöküşünden Campo Formio'ya (17 Ekim 1797) kadar Fransız askerî işgali s: değil isg: yazılır (egemenlik devri Campo Formio'da; ÖLÇÜT: geçici/askerî). Treccani yalnız 'Venedik 1797'ye kadar elde tuttu' der (yıl); Fransız işgali/idaresi ve gün kaynakta yok. Alıntı Venedik dönemini tarihliyor, f ucunu yıl düzeyinde. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:490",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1805-12-26",
+   "t": "1814-04-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Belluno ('Dopo le vicende napoleoniche, incorporata nel Lombardo-Veneto' — Napolyon dönemi tarihsiz); TDV Kampo Formio/Presburg aramaları boş; Treccani Campoformio/Presburgo slug tahminleri açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1805-12-26 ve 1814-04-16 uçları Belluno için okunan kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:490",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-04-16",
+   "t": "1866-10-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, 'Belluno' — https://www.treccani.it/enciclopedia/belluno/",
+   "alinti": "incorporata nel Lombardo-Veneto, fu unita al Regno d’Italia nel 1866",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1866 YIL; gün 1866-10-03 teyitsiz). f 1814-04-16 yok (Lombardo-Veneto 1815 tarihsiz). EK: aynı maddede 'durante la prima guerra mondiale fu occupata dagli Austriaci' — 1917-18 Avusturya işgali için isg avusturya katmanı eklenebilir (tarih kaynakta yok)."
+  }
+ ],
+ "Bono-Manso (Techiman kuzeyi)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:8",
+   "alan": "s",
+   "d": "bono-manso",
+   "f": "1420-01-01",
+   "t": "1723-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Warren, Dennis M., The Techiman-Bono of Ghana: An Ethnography of an Akan Society, Holt, Rinehart and Winston, New York 1975, ch. 'Historical and Geographical Background' — archive.org/details/the-techiman-bono-of-ghana-by-dennis-m-warren (djvu tam metni sayfa.py ia-oku ile okundu)",
+   "alinti": "Opoku Ware, was able to defeat and destroy the Bono-Manso nation in 1722-1723",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1722-1723; kitap başka yerde 'Bono defeat in 1723', kral Ameyaw). f 1420 (kuruluş) bu kaynakta yok; Warren yalnız Bono'yu 'sınırlı bir zaman perspektifine' oturtur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:8",
+   "alan": "s",
+   "d": "asanti",
+   "f": "1723-01-01",
+   "t": "1896-01-20",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Warren, Dennis M., The Techiman-Bono of Ghana: An Ethnography of an Akan Society, Holt, Rinehart and Winston, New York 1975, ch. 'Historical and Geographical Background' — archive.org/details/the-techiman-bono-of-ghana-by-dennis-m-warren (djvu tam metni sayfa.py ia-oku ile okundu)",
+   "alinti": "Opoku Ware, was able to defeat and destroy the Bono-Manso nation in 1722-1723",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1722-1723; Warren başka yerde 1723) teyitli. Warren: 'Techiman became the new capital' — Bono devleti Techiman'da sürdü; Bono-Manso şehrinin Asante'ye geçişi bu yıl. Asante-Techiman ikinci savaşı c. 1877 (Techiman yenildi, sürgün)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:8",
+   "alan": "s",
+   "d": "ingiliz-altin-kiyisi",
+   "f": "1896-01-20",
+   "t": "1957-03-06",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Warren, Dennis M., The Techiman-Bono of Ghana: An Ethnography of an Akan Society, Holt, Rinehart and Winston, New York 1975, ch. 'Historical and Geographical Background' — archive.org/details/the-techiman-bono-of-ghana-by-dennis-m-warren (djvu tam metni sayfa.py ia-oku ile okundu)",
+   "alinti": "The Techiman people returned to rebuild their capital and state in 1896 after the British defeated the Asante nation",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1896) teyitli — alıntı İngilizlerin Asante'yi yenişini 1896 yazar; 1896-01-20 teyitsiz ve Techiman/Bono'nun Altın Sahili (Ashanti protektorası/kolonisi) idaresine katılış biçimi-günü bu kaynakta yok (BEYANLI YAKLAŞIKLIK). Treccani 'Ashanti': 'Il territorio degli A. fu amministrato dalla colonia britannica della Costa d’Oro fino al 1957' (t ucu yıl)."
+  }
+ ],
+ "Chiang Rai": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:53",
+   "alan": "s",
+   "d": "lan-na",
+   "f": "1281-01-01",
+   "t": "1558-04-02",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Thailandia/Myanmar/Birmania; Hall, History of South-East Asia 4th ed. (archive.org, 'Chiengrai/Chiengmai/Mekuti'); zincirdeki Coedès (1262 kuruluş) ",
+   "alinti": "",
+   "oneri": {},
+   "not": "Lan Na ile Chiang Rai ilişkisi 1262 (Coedès, zincirde kayıtlı) bilinir; 1281 ve 1558 uçları okunan kaynakta yok. Hall: 'Chiengrai' mid-1500'lerde Bayinnaung kuşatmaları anlatısında geçer ama yıl/gün vermez. Treccani Thailandia: Lan Na krallığı 13.-16. yy."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:53",
+   "alan": "s",
+   "d": "toungoo",
+   "f": "1558-04-02",
+   "t": "1752-04-23",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Thailandia/Myanmar; Hall 4th ed. (archive.org)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Toungoo'nun Chiang Rai'yi alışı (1558) ve 1752 sonu bu turda okunan kaynaklarda yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:53",
+   "alan": "s",
+   "d": "tonburi",
+   "f": "1774-01-15",
+   "t": "1782-04-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Thailandia ('Phra Chao Tak ... Phya Chakri Rama I (1781-1809)'); Hall 4th ed. (archive.org)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1774-01-15 ve 1782-04-06 Chiang Rai için yok. DİKKAT: Hall, Burma'nın 1780'lerin ortasındaki istilasında 'occupied Chiengsen and Chiengrai' der (yıl belirsiz, Chakri sonrası) ve Chiengsen'in 1802'de boşaldığını yazar → Chiang Rai'nin Thonburi altında kesintisiz olduğu varsayımı doğrulanmadı; Treccani Rama I yılı 1781, atlas/Hall 1782 (çelişki, seçilmedi)."
+  }
+ ]
+}
