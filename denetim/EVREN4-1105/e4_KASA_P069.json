@@ -1,0 +1,781 @@
+{
+ "Mpvapva": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "nyamvezi",
+   "f": "1281-01-01",
+   "t": "1890-11-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4035] TDV Tanzanya okundu: Mpwapwa'ya özgü tanıklık yok. SINIF şüphesi: Mpwapwa Gogo ülkesindedir; `nyamvezi` künyesi (Unyanyembe · Mirambo, başkent Tabora) buraya uzanıyor mu ölçülmedi; 1281 f'si künye f'si (kuruluş/kapsam teyitsiz). t 1890 ÜLKE DÜZEYİNDE TDV'de yıl olarak var (kara kısmı Almanlar'a), ama Nyamvezi şefliklerinin sonu değildir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi | 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1919-06-28"
+   },
+   "not": "[sira 4036] [alıntı ham metinden, sayfa.py] f YIL düzeyi teyitli (1890, ÜLKE DÜZEYİ; 11-04 günü teyitsiz). t: Kilve/Bagamoyo/Bukoba emsali (KARARLAR gece-56 (c)) — s: alman-dogu-afrikasi Versay imzasına (1919-06-28, künye t ile aynı) kadar sürer; İngiliz fethinden itibaren üstüne isg ingiltere <fetih günü> → 1919-06-28. ÖLÇÜT: geçici/askerî — Almanya'nın iddiası Versay'a kadar sürdü. Mevcut 1916-09-01 kaynaksız. İPUCU: Mpwapwa Ağustos 1916'da Orta Demiryolu harekâtında alındı (okunmadı). TARAYICI: Hordern, Military Operations East Africa I (1941)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya; KARARLAR-EMRELIC gece-56 (c) ve LAB SALI Tanganika maddesi",
+   "alinti": "1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "",
+   "oneri": {
+    "f": "1919-06-28",
+    "d": "ingiltere (s:); öncesi isg ingiltere <fetih günü> → 1919-06-28"
+   },
+   "not": "[sira 4037] [alıntı ham metinden, sayfa.py] Bölünme: isg ingiltere <fetih, kaynakla> → 1919-06-28; s: ingiltere 1919-06-28 → 1922-07-20 (Namibya/Tanganika emsali). ÖLÇÜT: geçici/askerî. Alıntının 1919'u yalnız yıl; gün Versay imzası (kural uygulaması). t 1922-07-20 teyitsiz (manda künye f'si)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4038] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (tablo Tanganika bağımsızlığını 'Tanzanya' satırında verir). f 1922-07-20 teyitsiz: TDV Tanzanya yalnız «önce İngiliz mandası» der, gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika ; TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4039] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. TDV Tanzanya metni de «aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti» der (yıl bağlamdan 1961)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1345",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4040] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Dundo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1369",
+   "alan": "s",
+   "d": "lunda-imparatorlugu",
+   "f": "1665-01-01",
+   "t": "1887-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4041] GHA VII ham metninde 'Lunda' aramaları Dundo'ya ya da 1887'ye ait tanıklık vermedi; TDV'de Angola maddesi yok (arama sayfasına düştü). f 1665 ve t 1887 teyitsiz. Dundo'nun kur 1665'i (Lunda çağı yerleşimi mi, sonraki maden kasabası mı) ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1369",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1887-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4042] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1887 teyitsiz (Lunda bölgesine Portekiz idaresinin girişi kaynakta bulunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1369",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4043] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Uije (Uíge)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1375",
+   "alan": "s",
+   "d": "kongo-kralligi",
+   "f": "1390-01-01",
+   "t": "1914-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4044] Kongo Krallığı'nın Uíge bölgesindeki sonu (1914) için GHA VII ve TDV (Angola maddesi yok) okundu, tanıklık yok. Künye t de 1914-01-01 (yalnız yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1375",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1914-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4045] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1914 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1375",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4046] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Kilva Kivince": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1800-01-01",
+   "t": "1890-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya ; TDV İslâm Ansiklopedisi, 'Kilve', https://islamansiklopedisi.org.tr/kilve",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4047] [alıntı ham metinden, sayfa.py] t YIL (1890, ÜLKE DÜZEYİ; 11-04 günü teyitsiz). f 1800 teyitsiz: TDV Kilve yalnız «Bû Saîdî yönetimi ... sahilindeki bütün şehirlerin idaresini 1840 yılına kadar ele geçirdi» ve bu dönemde «Kilve Kilinje köle ticareti sayesinde canlandı» der. ÇİFT-TDV: TDV Kilve «1886 yılında Alman işgaline kadar Bû Saîd hânedanı Doğu Afrika’nın idaresini elinde tuttu» — 1886 ile TDV Tanzanya 1890 ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi | 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1919-06-28"
+   },
+   "not": "[sira 4048] [alıntı ham metinden, sayfa.py] f YIL düzeyi teyitli (1890, ÜLKE DÜZEYİ; 11-04 günü teyitsiz). t: Kilve/Bagamoyo/Bukoba emsali (KARARLAR gece-56 (c)) — s: alman-dogu-afrikasi Versay imzasına (1919-06-28, künye t ile aynı) kadar sürer; İngiliz fethinden itibaren üstüne isg ingiltere <fetih günü> → 1919-06-28. ÖLÇÜT: geçici/askerî — Almanya'nın iddiası Versay'a kadar sürdü. Mevcut 1916-09-01 kaynaksız. İPUCU: Kilwa Kivinje Eylül 1916'da deniz çıkarmasıyla alındı (okunmadı). TARAYICI: Hordern, Military Operations East Africa I (1941)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya; KARARLAR-EMRELIC gece-56 (c) ve LAB SALI Tanganika maddesi",
+   "alinti": "1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "",
+   "oneri": {
+    "f": "1919-06-28",
+    "d": "ingiltere (s:); öncesi isg ingiltere <fetih günü> → 1919-06-28"
+   },
+   "not": "[sira 4049] [alıntı ham metinden, sayfa.py] Bölünme: isg ingiltere <fetih, kaynakla> → 1919-06-28; s: ingiltere 1919-06-28 → 1922-07-20 (Namibya/Tanganika emsali). ÖLÇÜT: geçici/askerî. Alıntının 1919'u yalnız yıl; gün Versay imzası (kural uygulaması). t 1922-07-20 teyitsiz (manda künye f'si)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4050] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (tablo Tanganika bağımsızlığını 'Tanzanya' satırında verir). f 1922-07-20 teyitsiz: TDV Tanzanya yalnız «önce İngiliz mandası» der, gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika ; TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4051] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. TDV Tanzanya metni de «aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti» der (yıl bağlamdan 1961)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1399",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4052] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Njombe": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1417",
+   "alan": "s",
+   "d": "ngoni",
+   "f": "1835-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4053] TDV Tanzanya ve GHA VII ('Hehe', 'Mkwawa', 'Bemba' aramaları) okundu; Njombe'ye özgü Ngoni hâkimiyeti ve 1898 sonu bulunamadı. Not: Njombe Bena/Hehe bölgesidir; `hehe` künyesi (1850 → 1898-07-19) de var — hangi künyenin doğru olduğu ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1417",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1898-01-01",
+   "t": "1961-12-09",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi | 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "f+t",
+   "oneri": {
+    "d": "ingiltere değil — bölünme: s: alman-dogu-afrikasi 1898 → 1919-06-28 (üstte isg ingiltere <fetih günü> → 1919-06-28); s: ingiltere 1919-06-28 → 1922-07-20; s: ingiliz-tanganika-mandasi 1922-07-20 → 1961-12-09"
+   },
+   "not": "[sira 4054] [alıntı ham metinden, sayfa.py] AÇIK ÇELİŞKİ: Njombe (lat -9.34, lon 34.77) Tanzanya güney dağlarındadır, Alman Doğu Afrikası'nın kara kısmındaydı (TDV 1890). 1898-1916 arası İngiliz sahipliği yanlış; kaydın kök `kaynak:'malavi'` notu Malavi ile karışmış olabilir. t 1961-12-09 ÜLKE DÜZEYİ KAYNAKLI (TDV 'Afrika' tablosu «Tanzanya 09.12.1961»). Kilve/Bagamoyo/Bukoba emsali. f 1898 teyitsiz. ÖLÇÜT: geçici/askerî (1916 işgali, Versay'a kadar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1417",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika ; TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4055] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. TDV Tanzanya metni de «aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti» der (yıl bağlamdan 1961)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1417",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4056] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Malanje": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1434",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4057] GHA VII okundu (Ovimbundu: «Bailundu ruler ... during the 1902 rebellion»). Malanje'ye özgü tanıklık yok. SINIF şüphesi: Malanje Mbundu/Kasanje bölgesidir, Ovimbundu yaylası (Bailundo · Bié · Huambo) değil; `ovimbundu` künyesi buraya uzanmıyor olabilir — EMRELİC/LAB'a. f 1700 ve t 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1434",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4058] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1902 teyitsiz (Ovimbundu 1902 isyanı Malanje'ye bağlanamaz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1434",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4059] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Kambambe (Cambambe)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1457",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1604-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4060] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1604 teyitsiz: GHA V ham metninde 'Cambambe' YOK; TDV Angola maddesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1457",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4061] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Mbande (Ngonde)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1475",
+   "alan": "s",
+   "d": "ngonde",
+   "f": "1600-01-01",
+   "t": "1887-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Malavi', https://islamansiklopedisi.org.tr/malavi",
+   "alinti": "1887’de kendini Ngonde sultanı ilân eden Mlozi, İngiliz sömürgeciliğine karşı giriştiği savaşta öldürüldü",
+   "uc": "t",
+   "oneri": {
+    "t": "Mlozi'nin ilanı (1887) devir değil; s: ngonde künye t'si 1895'e (ya da İngiliz fiilî idaresine) kadar sürmeli — gün kaynakla"
+   },
+   "not": "[sira 4062] [alıntı ham metinden, sayfa.py] 1887 YIL teyitli ama olay Zengibarlı tüccar Mlozi'nin KENDİNİ sultan ilânıdır (Karonga savaşı); Ngonde krallığı (Kyungu, Mbande) ortadan kalkmadı. `ngonde` künyesinin t'si zaten 1895-01-01. ÖLÇÜT: geçici/askerî — Mlozi'nin Mbande'yi idaresine kattığına dair belge okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1475",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1887-01-01",
+   "t": "1895-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Malavi', https://islamansiklopedisi.org.tr/malavi",
+   "alinti": "1887’de kendini Ngonde sultanı ilân eden Mlozi, İngiliz sömürgeciliğine karşı giriştiği savaşta öldürüldü",
+   "uc": "f",
+   "oneri": {
+    "d": "umman-zengibar değil — Mlozi'nin kendi 'Ngonde sultanlığı' Zengibar Sultanlığı'nın toprağı değildir; künye yok → dilim kalkar (s: ngonde sürer) ya da BEYANLI"
+   },
+   "not": "[sira 4063] [alıntı ham metinden, sayfa.py] f YIL (1887) teyitli. TDV Mlozi'yi «Zengibarlı» diye anar; bu menşedir, Zengibar sultanının egemenliği değil. t 1895 için TDV'nin 1895 cümlesi Mwingi Kheiri'nin sürgünüdür (başka yer), Mlozi'nin sonu değil — teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1475",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-01-01",
+   "t": "1964-07-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika ; TDV İslâm Ansiklopedisi, 'Malavi', https://islamansiklopedisi.org.tr/malavi",
+   "alinti": "Malavi 06.07.1964 Lilongve",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4064] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, t gün teyitli. f 1895 teyitsiz (TDV'nin 1895'i Mwingi Kheiri'yi anlatır). ÜLKE DÜZEYİ ipucu: TDV «1891’de ... Nyasaland (Malavi) İngiliz nüfuz bölgesi ilân edildi» — f'nin 1891 mi Mlozi'nin yenilgisi mi olacağı 4062/4063 kararına bağlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1475",
+   "alan": "s",
+   "d": "malavi",
+   "f": "1964-07-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Malavi 06.07.1964 Lilongve",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4065] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. TDV Malavi metni yalnız «Malavi 1964’te bağımsızlığını elde etti» (yıl). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Mikindani": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1698-12-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mombasa', https://islamansiklopedisi.org.tr/mombasa ; TDV İslâm Ansiklopedisi, 'Kilve', https://islamansiklopedisi.org.tr/kilve",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4066] TDV Mombasa'nın 1698'i («Seyf b. Sultân’ın 1698’de ... Nâsır b. Abdullah’ı Mombasa’ya vali olarak göndermesi») yalnız Mombasa'yı tarihler; 12-13 günü (Îsâ Kalesi'nin düşüşü) TDV'de yok. Mikindani'ye özgü tanıklık bulunamadı; TDV Kilve Kilve için 1784-86 istiklali anlatır. f 1281 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1698-12-13",
+   "t": "1890-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4067] [alıntı ham metinden, sayfa.py] t YIL (1890, ÜLKE DÜZEYİ; 11-04 günü teyitsiz). f 1698-12-13 teyitsiz (bkz. önceki satır; TDV Mombasa yalnız 1698, Mombasa için)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi | 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1919-06-28"
+   },
+   "not": "[sira 4068] [alıntı ham metinden, sayfa.py] f YIL düzeyi teyitli (1890, ÜLKE DÜZEYİ; 11-04 günü teyitsiz). t: Kilve/Bagamoyo/Bukoba emsali (KARARLAR gece-56 (c)) — s: alman-dogu-afrikasi Versay imzasına (1919-06-28, künye t ile aynı) kadar sürer; İngiliz fethinden itibaren üstüne isg ingiltere <fetih günü> → 1919-06-28. ÖLÇÜT: geçici/askerî — Almanya'nın iddiası Versay'a kadar sürdü. Mevcut 1916-09-01 kaynaksız. İPUCU: Mikindani Eylül 1916'da alındı (okunmadı). TARAYICI: Hordern, Military Operations East Africa I (1941)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya; KARARLAR-EMRELIC gece-56 (c) ve LAB SALI Tanganika maddesi",
+   "alinti": "1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+   "uc": "",
+   "oneri": {
+    "f": "1919-06-28",
+    "d": "ingiltere (s:); öncesi isg ingiltere <fetih günü> → 1919-06-28"
+   },
+   "not": "[sira 4069] [alıntı ham metinden, sayfa.py] Bölünme: isg ingiltere <fetih, kaynakla> → 1919-06-28; s: ingiltere 1919-06-28 → 1922-07-20 (Namibya/Tanganika emsali). ÖLÇÜT: geçici/askerî. Alıntının 1919'u yalnız yıl; gün Versay imzası (kural uygulaması). t 1922-07-20 teyitsiz (manda künye f'si)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4070] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (tablo Tanganika bağımsızlığını 'Tanzanya' satırında verir). f 1922-07-20 teyitsiz: TDV Tanzanya yalnız «önce İngiliz mandası» der, gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika ; TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Tanzanya 09.12.1961 Dârüsselâm | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4071] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. TDV Tanzanya metni de «aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti» der (yıl bağlamdan 1961)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1495",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya', https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4072] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Mosimboa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1531",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1900-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4073] TDV Mozambik okundu: f yılı yok, t için yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından» (gün yok) — 1974-09-20 (geçiş hükûmeti) teyitsiz. f 1900 teyitsiz (Niassa Şirketi bölgesi; GHA VII: kuzey kıyıda «Swahili-Makua alliance which remained outside the sphere of Portuguese rule until 1910» — İPUCU, Mocímboa'ya bağlanmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1531",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4074] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f 1974-09-20 teyitsiz (TDV yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından»; künye kaynağı africaportal PDF açılamadı — DNS hatası). Lusaka Anlaşması 1974-09-07 ic_not'a. TDV 'Afrika' tablosu «Mozambik 26.06.1975» yazar (TDV içi 1 gün fark), ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1531",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4075] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Mevcut kaynak 'Bagimsizlik 1975-06-25' TDV ile uyumlu. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Kazombo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1548",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4076] Kazombo'ya özgü tanıklık yok. SINIF şüphesi: Kazombo Angola'nın doğusunda Lovale/Lunda bölgesidir, Ovimbundu yaylası değil; `ovimbundu` künyesi (başkent Bailundo) buraya uzanmıyor olabilir — EMRELİC/LAB'a. f 1700 ve t 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1548",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4077] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1548",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4078] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "İbo (Kerimba)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1571",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1600-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4079] TDV Mozambik okundu: f yılı yok, t için yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından» (gün yok) — 1974-09-20 (geçiş hükûmeti) teyitsiz. f 1600 teyitsiz (GHA V: Malgaşlar'ın ~1800'de «their bases at the Querimba and Ibo islands»a baskın yaptığı — Portekiz üssünü 18. yy sonu tanıklar, 1600'ü değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1571",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4080] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f 1974-09-20 teyitsiz (TDV yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından»; künye kaynağı africaportal PDF açılamadı — DNS hatası). Lusaka Anlaşması 1974-09-07 ic_not'a. TDV 'Afrika' tablosu «Mozambik 26.06.1975» yazar (TDV içi 1 gün fark), ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1571",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4081] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Mevcut kaynak 'Bagimsizlik 1975-06-25' TDV ile uyumlu. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Huambo (Wambu)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1587",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4082] GHA VII okundu: «the Bailundu ruler Muta-ya-Kavela ... forged an anti-colonial coalition during the 1902 rebellion» ve 1904'te Ovimbundu yaylasında Portekiz yenilgisi — 1902 isyanı tarihlenir ama Wambu/Huambo krallığının idareden düştüğü gün/yıl tarihlenmez (uç kuralı: olay devir değil). İPUCU olarak kalır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1587",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4083] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1902 teyitsiz (bkz. önceki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1587",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4084] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Ndola": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1605",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya ; UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4085] TDV Zambiya ve GHA VII ('Bemba': «sporadic Bemba resistance at the end of the century») okundu; Ndola'ya özgü Bemba hâkimiyeti ve 1899 sonu tarihlenmiyor. SINIF şüphesi: Ndola Lamba ülkesidir, Bemba çekirdeği (Kasama) değil — ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1605",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4086] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1899 teyitsiz (TDV: «1894’te ... Kuzey Rodezya diye adlandırılan bölgenin İngiltere’ye ait olduğu kabul edildi» — 1894 ic_not adayı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1605",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4087] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Zambiya 24.10.1964 Lusaka»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Licinga": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1622",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1900-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4088] TDV Mozambik okundu: f yılı yok, t için yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından» (gün yok) — 1974-09-20 (geçiş hükûmeti) teyitsiz. f 1900 teyitsiz (Niassa bölgesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1622",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4089] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f 1974-09-20 teyitsiz (TDV yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından»; künye kaynağı africaportal PDF açılamadı — DNS hatası). Lusaka Anlaşması 1974-09-07 ic_not'a. TDV 'Afrika' tablosu «Mozambik 26.06.1975» yazar (TDV içi 1 gün fark), ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1622",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4090] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Mevcut kaynak 'Bagimsizlik 1975-06-25' TDV ile uyumlu. t 2000-12-31 atlas ufku."
+  }
+ ]
+}

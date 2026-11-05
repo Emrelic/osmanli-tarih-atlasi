@@ -1,0 +1,645 @@
+{
+ "Çipata (Fort Jameson)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1644",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4091] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1899 (= kur) teyitsiz (GHA VII: Mpeseni Ngonileri «individually fought the undermanned British colonial force and were overwhelmed» — yılsız)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1644",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4092] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Zambiya 24.10.1964 Lusaka»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Mangoçi": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1673",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1891-01-01",
+   "t": "1964-07-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Malavi', https://islamansiklopedisi.org.tr/malavi ; TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "1891’de İngiltere ile Portekiz arasında imzalanan anlaşmayla ... Nyasaland (Malavi) İngiliz nüfuz bölgesi ilân edildi | Malavi 06.07.1964 Lilongve",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4093] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f YIL (1891), t gün. Mangochi'nin kur'u 1891 ile aynı (Fort Johnston kuruluşu ipucu, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1673",
+   "alan": "s",
+   "d": "malavi",
+   "f": "1964-07-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Malavi 06.07.1964 Lilongve",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4094] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Kaoma (Mankoya)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1684",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi",
+   "uc": "t",
+   "oneri": {
+    "d": "lozi s: sürer (künye t 1890-06-27 → GENİŞLET adayı, LAB); 1890'dan üstüne v: ingiltere (BSAC/İngiliz himayesi) → 1964-10-24"
+   },
+   "not": "[sira 4095] [alıntı ham metinden, sayfa.py] t YIL teyitli (1890; 06-27 günü teyitsiz — İPUCU: Lochner imtiyazı, okunmadı). Ama TDV'nin anlattığı olay HİMAYEDİR, devir değil: «himayesine girdi». Lozi krallığı (Barotseland, Litunga) sömürge boyunca dolaylı idarede sürdü → Kamboçya/Ruanda kuralı (KARARLAR gece-88) uygulanırsa s: lozi kesintisiz + v: ingiltere. SINIF sorusu EMRELİC'e. Hayalet: künye t 1890-06-27; künye GENİŞLET edilmeden yerleşim uzatılamaz (gece-11) → LAB."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1684",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi | Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "v (s: lozi altta sürer) — SINIF sorusu EMRELİC'e"
+   },
+   "not": "[sira 4096] [alıntı ham metinden, sayfa.py] f YIL (1890) ve t gün (1964-10-24) teyitli, ÜLKE DÜZEYİ. Sınıf: TDV olayı himaye olarak anlatır («himayesine girdi»); TDV ayrıca «1894’te ... Kuzey Rodezya diye adlandırılan bölgenin İngiltere’ye ait olduğu kabul edildi». Kamboçya/Ruanda kuralıyla bu dönem v: ingiltere olur; karar EMRELİC'te. Değişmezse satır f+t düzeyinde KAYNAKLI sayılabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1684",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4097] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Zambiya 24.10.1964 Lusaka»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Kalabo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1701",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi",
+   "uc": "t",
+   "oneri": {
+    "d": "lozi s: sürer (künye t 1890-06-27 → GENİŞLET adayı, LAB); 1890'dan üstüne v: ingiltere (BSAC/İngiliz himayesi) → 1964-10-24"
+   },
+   "not": "[sira 4098] [alıntı ham metinden, sayfa.py] t YIL teyitli (1890; 06-27 günü teyitsiz — İPUCU: Lochner imtiyazı, okunmadı). Ama TDV'nin anlattığı olay HİMAYEDİR, devir değil: «himayesine girdi». Lozi krallığı (Barotseland, Litunga) sömürge boyunca dolaylı idarede sürdü → Kamboçya/Ruanda kuralı (KARARLAR gece-88) uygulanırsa s: lozi kesintisiz + v: ingiltere. SINIF sorusu EMRELİC'e. Hayalet: künye t 1890-06-27; künye GENİŞLET edilmeden yerleşim uzatılamaz (gece-11) → LAB."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1701",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi | Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "v (s: lozi altta sürer) — SINIF sorusu EMRELİC'e"
+   },
+   "not": "[sira 4099] [alıntı ham metinden, sayfa.py] f YIL (1890) ve t gün (1964-10-24) teyitli, ÜLKE DÜZEYİ. Sınıf: TDV olayı himaye olarak anlatır («himayesine girdi»); TDV ayrıca «1894’te ... Kuzey Rodezya diye adlandırılan bölgenin İngiltere’ye ait olduğu kabul edildi». Kamboçya/Ruanda kuralıyla bu dönem v: ingiltere olur; karar EMRELİC'te. Değişmezse satır f+t düzeyinde KAYNAKLI sayılabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1701",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4100] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Zambiya 24.10.1964 Lusaka»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Lealui (Lozi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1723",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi",
+   "uc": "t",
+   "oneri": {
+    "d": "lozi s: sürer (künye t 1890-06-27 → GENİŞLET adayı, LAB); 1890'dan üstüne v: ingiltere (BSAC/İngiliz himayesi) → 1964-10-24"
+   },
+   "not": "[sira 4101] [alıntı ham metinden, sayfa.py] t YIL teyitli (1890; 06-27 günü teyitsiz — İPUCU: Lochner imtiyazı, okunmadı). Ama TDV'nin anlattığı olay HİMAYEDİR, devir değil: «himayesine girdi». Lozi krallığı (Barotseland, Litunga) sömürge boyunca dolaylı idarede sürdü → Kamboçya/Ruanda kuralı (KARARLAR gece-88) uygulanırsa s: lozi kesintisiz + v: ingiltere. SINIF sorusu EMRELİC'e. Hayalet: künye t 1890-06-27; künye GENİŞLET edilmeden yerleşim uzatılamaz (gece-11) → LAB."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1723",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "1890’da Loziler’in kralı Lewanika ... Cecil Rhodes’in himayesine girdi | Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "v (s: lozi altta sürer) — SINIF sorusu EMRELİC'e"
+   },
+   "not": "[sira 4102] [alıntı ham metinden, sayfa.py] f YIL (1890) ve t gün (1964-10-24) teyitli, ÜLKE DÜZEYİ. Sınıf: TDV olayı himaye olarak anlatır («himayesine girdi»); TDV ayrıca «1894’te ... Kuzey Rodezya diye adlandırılan bölgenin İngiltere’ye ait olduğu kabul edildi». Kamboçya/Ruanda kuralıyla bu dönem v: ingiltere olur; karar EMRELİC'te. Değişmezse satır f+t düzeyinde KAYNAKLI sayılabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1723",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya', https://islamansiklopedisi.org.tr/zambiya",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4103] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Zambiya 24.10.1964 Lusaka»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Mavinga": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1756",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4104] Mavinga'ya özgü tanıklık yok. SINIF şüphesi: Mavinga Cuando Cubango'dadır (Nganguela bölgesi), Ovimbundu yaylası değil — EMRELİC/LAB'a. f 1700 ve t 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1756",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4105] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1756",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4106] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Besalampy": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1773",
+   "alan": "s",
+   "d": "sakalava-boina",
+   "f": "1690-01-01",
+   "t": "1897-02-28",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa V (ed. B. A. Ogot, 1992), archive.org unesco_general_history_africa_v (djvu tam metin) ; UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4107] GHA V: «by 1700, north-western Madagascar was under Sakalava-Maroserana control» — yalnız yaklaşık (f 1690 ile uyumlu yön, gün/yıl değil). t 1897-02-28: Boina'nın Fransız idaresine geçişi Besalampy için tarihlenmedi (Menabe cümlesi Menabe içindir). TDV Madagaskar Sakalava için tarih vermez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1773",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4108] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, t gün teyitli. f 1897-02-28 teyitsiz — TDV'nin 27 Ocak 1897'si Merina yönetimine el koymayı anlatır; Sakalava batı kıyısının fethi ayrıdır (GHA VII: Menabe fethi 1897'de başladı, direniş 1902'ye kadar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1773",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4109] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Madagaskar 26.06.1960 Antananarivo»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Sena": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1791",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1530-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4110] TDV Mozambik okundu: f yılı yok, t için yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından» (gün yok) — 1974-09-20 (geçiş hükûmeti) teyitsiz. f 1530 teyitsiz: TDV yalnız «Müslümanlar ise epeyce içeride kalan Sena ve Tete şehirlerinde ticaretle meşguldüler» ve Portekiz'in XVI. yy başından itibaren adım adım ele geçirdiğini söyler (yılsız). GHA V'te 'Sena' eşleşmeleri ilgisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1791",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4111] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f 1974-09-20 teyitsiz (TDV yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından»; künye kaynağı africaportal PDF açılamadı — DNS hatası). Lusaka Anlaşması 1974-09-07 ic_not'a. TDV 'Afrika' tablosu «Mozambik 26.06.1975» yazar (TDV içi 1 gün fark), ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1791",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4112] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Mevcut kaynak 'Bagimsizlik 1975-06-25' TDV ile uyumlu. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Kuangar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1808",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4113] Kuangar'a özgü tanıklık yok. SINIF şüphesi: Kuangar Okavango kıyısında Kwangali (Kavango) krallığının bölgesidir, Ovimbundu yaylası değil — EMRELİC/LAB'a. f 1700 ve t 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1808",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4114] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t gün teyitli. f 1902 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1808",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Angola', https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4115] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 2000-12-31 atlas ufku. Not: TDV 'Afrika' tablosu «Angola 11.09.1975» yazar — TDV içi ay hatası (doğrusu 11 Kasım), ic_not'a."
+  }
+ ],
+ "Ambohimanga": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1864",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1401-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4116] __BOSLUK__ 1281-1401 (merina-oncesi künye f'si yüzyıl kesinliğinde). Bütçe nedeniyle aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1864",
+   "alan": "s",
+   "d": "merina-oncesi",
+   "f": "1401-01-01",
+   "t": "1787-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4117] TDV Madagaskar okundu: yalnız «XVIII. yüzyılın ikinci yarısında orta bölgedeki Merinalar Madagaskar’da siyasî birlik kurdular» — 1401 ve 1787 teyitsiz (yüzyıl düzeyi). UNESCO Ambohimanga dünya mirası dosyası TARAYICI adayı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1864",
+   "alan": "s",
+   "d": "merina",
+   "f": "1787-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler",
+   "uc": "t",
+   "oneri": {
+    "t": "1897-01-27"
+   },
+   "not": "[sira 4118] [alıntı ham metinden, sayfa.py] t → 1897-01-27 (TDV; onaylı emsal KARARLAR gece-63). merina künye t 1897-02-28 aynı commit'te sınanmalı (künye t çelişkisi LAB'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1864",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler | 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1897-01-27"
+   },
+   "not": "[sira 4119] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t KAYNAKLI (yıl bağlamdan: aynı paragraf 1960). f: TDV «27 Ocak 1897’de de yönetime el koyup» — onaylı emsal (KARARLAR gece-63 'Madagaskar 1897-01-27 (TDV)', P040 Sambava). merina künye t 1897-02-28 ile çelişki ic_not'a (Kraliçe'nin sürgünü / monarşinin kaldırılışı genelde Şubat 1897 sonu verilir — TDV içi ay hatası olabilir; ÇİFT kaynak bulunmadı, TDV esas). 1896 ilhak kanunu ic_not adayı (okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1864",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4120] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Madagaskar 26.06.1960 Antananarivo»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Antsirabe": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1908",
+   "alan": "s",
+   "d": "merina",
+   "f": "1872-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler",
+   "uc": "t",
+   "oneri": {
+    "t": "1897-01-27"
+   },
+   "not": "[sira 4121] [alıntı ham metinden, sayfa.py] t → 1897-01-27 (TDV; onaylı emsal KARARLAR gece-63). merina künye t 1897-02-28 aynı commit'te sınanmalı (künye t çelişkisi LAB'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1908",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler | 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1897-01-27"
+   },
+   "not": "[sira 4122] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t KAYNAKLI (yıl bağlamdan: aynı paragraf 1960). f: TDV «27 Ocak 1897’de de yönetime el koyup» — onaylı emsal (KARARLAR gece-63 'Madagaskar 1897-01-27 (TDV)', P040 Sambava). merina künye t 1897-02-28 ile çelişki ic_not'a (Kraliçe'nin sürgünü / monarşinin kaldırılışı genelde Şubat 1897 sonu verilir — TDV içi ay hatası olabilir; ÇİFT kaynak bulunmadı, TDV esas). 1896 ilhak kanunu ic_not adayı (okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1908",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4123] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Madagaskar 26.06.1960 Antananarivo»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Mahabo (Menabe)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1944",
+   "alan": "s",
+   "d": "sakalava-menabe",
+   "f": "1600-01-01",
+   "t": "1897-02-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "The conquest of Menabe, a large and well-organized kingdom, began in 1897",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4124] [alıntı ham metinden, sayfa.py] t YIL (1897) teyitli; 02-28 günü teyitsiz. Aynı kaynak: direniş «spread throughout the Menabe and lasted until 1902» — ic_not'a. f 1600 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1944",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin) ; TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "The conquest of Menabe, a large and well-organized kingdom, began in 1897 | 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4125] [alıntı ham metinden, sayfa.py] f YIL (1897, fethin başlangıcı; gün teyitsiz), t gün (TDV, ÜLKE DÜZEYİ). ÖLÇÜT: idareye katma — Galliéni'nin 'gradual annexation' politikası; Menabe direnişi 1902'ye kadar ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1944",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4126] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Madagaskar 26.06.1960 Antananarivo»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Fianarantsoa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1966",
+   "alan": "s",
+   "d": "merina",
+   "f": "1830-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler",
+   "uc": "t",
+   "oneri": {
+    "t": "1897-01-27"
+   },
+   "not": "[sira 4127] [alıntı ham metinden, sayfa.py] t → 1897-01-27 (TDV; onaylı emsal KARARLAR gece-63). merina künye t 1897-02-28 aynı commit'te sınanmalı (künye t çelişkisi LAB'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1966",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler | 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1897-01-27"
+   },
+   "not": "[sira 4128] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t KAYNAKLI (yıl bağlamdan: aynı paragraf 1960). f: TDV «27 Ocak 1897’de de yönetime el koyup» — onaylı emsal (KARARLAR gece-63 'Madagaskar 1897-01-27 (TDV)', P040 Sambava). merina künye t 1897-02-28 ile çelişki ic_not'a (Kraliçe'nin sürgünü / monarşinin kaldırılışı genelde Şubat 1897 sonu verilir — TDV içi ay hatası olabilir; ÇİFT kaynak bulunmadı, TDV esas). 1896 ilhak kanunu ic_not adayı (okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1966",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4129] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (çift teyit: TDV 'Afrika' tablosu «Madagaskar 26.06.1960 Antananarivo»). t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Cikualakuala": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1989",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1895-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4130] TDV Mozambik okundu: f yılı yok, t için yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından» (gün yok) — 1974-09-20 (geçiş hükûmeti) teyitsiz. f 1895 teyitsiz (Gaza devletinin yıkılışı; GHA VII Gungunyane'yi anar ama yılsız)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1989",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4131] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f 1974-09-20 teyitsiz (TDV yalnız «1974’te Portekiz’de gerçekleştirilen darbenin ardından»; künye kaynağı africaportal PDF açılamadı — DNS hatası). Lusaka Anlaşması 1974-09-07 ic_not'a. TDV 'Afrika' tablosu «Mozambik 26.06.1975» yazar (TDV içi 1 gün fark), ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1989",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik', https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4132] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. Mevcut kaynak 'Bagimsizlik 1975-06-25' TDV ile uyumlu. t 2000-12-31 atlas ufku."
+  }
+ ],
+ "Palapye": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2024",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin)",
+   "alinti": "Britain declared a protectorate over northern Bechuanaland in 1885",
+   "uc": "t",
+   "oneri": {
+    "d": "tsvana s: sürer (künye t 1885-03-31 → GENİŞLET adayı, LAB) + v: ingiltere 1885 → 1966-09-30 — SINIF sorusu EMRELİC'e"
+   },
+   "not": "[sira 4133] [alıntı ham metinden, sayfa.py] t YIL (1885) teyitli; 03-31 günü teyitsiz. Olay HİMAYEDİR («declared a protectorate»); Ngwato krallığı (Khama) himaye altında sürdü — Kamboçya/Ruanda kuralı (gece-88) uygulanırsa s: tsvana kesintisiz + v: ingiltere. Ayrıca kur 1700 şüpheli: Palapye Khama'nın 1889'da Shoshong'dan taşıdığı başkent olarak bilinir (İPUCU, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2024",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO General History of Africa VII (ed. A. Adu Boahen, 1985), archive.org unesco_general_history_africa_vii (djvu tam metin) ; Office of the Historian, U.S. Department of State, 'Botswana', https://history.state.gov/countries/botswana ; TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "Britain declared a protectorate over northern Bechuanaland in 1885 | The United States recognized Botswana on September 30, 1966 ... upon Botswana’s attainment of independence",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "v (s: tsvana altta sürer) — SINIF sorusu EMRELİC'e"
+   },
+   "not": "[sira 4134] [alıntı ham metinden, sayfa.py] f YIL (1885) ve t gün (1966-09-30; çift teyit: OH + TDV tablosu «Botswana 30.09.1966 Gabarone») teyitli. Sınıf: himaye → v:. Karar EMRELİC'te; değişmezse satır f+t düzeyinde KAYNAKLI sayılabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2024",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, 'Botswana', https://history.state.gov/countries/botswana ; TDV İslâm Ansiklopedisi, 'Afrika' (bağımsızlık tablosu), https://islamansiklopedisi.org.tr/afrika",
+   "alinti": "The United States recognized Botswana on September 30, 1966 ... upon Botswana’s attainment of independence",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4135] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, çift teyit (OH + TDV 'Afrika' tablosu). t 2000-12-31 atlas ufku."
+  }
+ ]
+}

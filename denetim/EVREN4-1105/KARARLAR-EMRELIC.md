@@ -151,6 +151,44 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-95 — P061-P068 üzerine ve ardılsız zincirler
+
+- **(a) İzlanda:** 1918-12-01. Birlik Yasası o gün yürürlüğe girdi; egemenlik o gün başlar. 11-30 kral onayı `ic_not`a.
+- **(b) Hollanda Antilleri:** 1954-12-15, Krallık Şartı'nın yürürlüğü. 10-28 imzası `ic_not`a.
+  - Bu bir statü değişimidir, toprak değişmez.
+  - Künyenin f'si varsa bu güne hizalanır.
+- **(c) Panama Kanal Bölgesi:** TEK ÖLÇÜ'ye göre teslim günü, 1904-05-04 (ABD'nin bölgeyi fiilen teslim alışı).
+  - Gün kaynakla teyit edilir; elde yalnız ipucu varsa hüküm ONERI.
+  - 02-26 onay belgelerinin değişimi `ic_not`a.
+- **(d) Plaisance:** Fransız teslimi 1714-09-25.
+  - Utrecht 1713'te imzalandı; İngiltere bölgeyi yönetmiyordu, bu yüzden gün teslim günüdür.
+  - `ingiliz-kuzey-amerika` künyesi 1714-1763'ü kapsamıyor. `newfoundland-*` künyelerinden birinin f'si bu aralığı kapsıyorsa o kullanılır.
+  - Kapsamıyorsa `s: ingiltere` (krallık künyesi) + `ic_not`.
+  - Künye aşımı varsa LAB'a.
+- **(e) Fort Ross:**
+  - Rus dönemi 1841-12'de biter: Sutter'e satış ve çekiliş (Hatch 1922; gün kaynakla bulunacak).
+  - Ardından `s: meksika`.
+  - 1846-07-07'den (Monterey) `isg abd`, Kaliforniya'nın fethi.
+  - 1848-02-02 Guadalupe Hidalgo imzasından itibaren `s: abd` (ABD bölgeyi zaten yönetiyordu).
+  - K29 kümesinden çıkarılır.
+- **Onaylananlar:** Batı Florida İspanyol, Kaskaskia, Norfolk/Providence 1776 (rakip hükûmet), Ujiji, Harper (çift teyit), Nioro, Cânet.
+- **Ardılsız zincirler (toplu ölçüm ONAY).** Ölçüm KASA'nın, güncel girdide.
+  - Kapsam: son egemenlik dönemi (`s`, `d` ya da `v`) t ile biten, ardılı olmayan ve t'si 2000-12-31'den önce olan yerleşimler. Tablo: `ARDILSIZ-ZINCIR.tsv`.
+  - Toplam 366 yerleşim:
+
+    | Sınıf | Yerleşim | Açıklama |
+    |---|---|---|
+    | TERK | 178 | Yerleşimin kendi `bit:` alanı var ve bit ≤ son t. Yerleşim sona ermiş; olağan. |
+    | UFUK | 36 | Tunus `v:` 1923-10-29. UFUK işi zaten çözüyor (t → 1956-03-20). |
+    | ÖNCE-1281 | 81 | Tabloda "EKSIK_BIT_SONRA" olarak geçer. Çoğunun `bit:` alanı 1281-01-01; MÖ / MS1-1281 katmanında son devletten sonra 1281'e kadar sahip yok. Düşük öncelik. |
+    | GERÇEK EKSİK | 71 | Halef devlet yazılmamış. |
+
+  - Gerçek eksiğin baskın tipleri:
+    - bağımsızlık sonrası halef yok: Togo 1960, İngiliz Togolandı 1957, İngiliz Kamerunu 1961, Svaziland 1968, Nador 1956, Kanal Bölgesi 1979;
+    - dağılan devletler: Doğu Almanya 1990-10-03 (6), Biafra, Herzeg-Bosna, İçkerya, Pasundan, Sırp Krajina, Bosna Sırp Cumhuriyeti, UNTAES, Swat, Triyeste;
+    - yerel imamlık: Izkî 1955.
+  - Emre'nin ilk 8'i (Nador, Manzini, Hohoe, Lomé, Sokodé, Bamenda, Cristóbal, Izkî) hepsi GERÇEK EKSİK sınıfında.
+
 ## 5 Kasım 2026 gece-88 — Ruanda/Urundi güncellemesi (gece-63 (a) maddesinin YERİNE geçer)
 
 Ruanda ve Burundi krallıkları (Ruanda mwamisi 1961'e, Burundi mwamisi 1966'ya kadar) Alman ve Belçika dolaylı idaresinde sürdü. Bu yüzden Kamboçya/Tunus kuralı uygulanır.
