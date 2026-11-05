@@ -1,0 +1,275 @@
+{
+ "karar": "EMRELİC gece-70, 5 Kasım 2026",
+ "kayitlar": [
+  {
+   "ad": "Lizbon",
+   "dosya_satir": "data/yerlesimler.js:1215",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Sevilla",
+   "dosya_satir": "data/yerlesimler.js:1218",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Granada",
+   "dosya_satir": "data/yerlesimler.js:1219",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Valensiya",
+   "dosya_satir": "data/yerlesimler.js:1221",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Toledo",
+   "dosya_satir": "data/yerlesimler_avrupa.js:253",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Kurtuba (Córdoba)",
+   "dosya_satir": "data/yerlesimler_avrupa.js:264",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Cartagena",
+   "dosya_satir": "data/yerlesimler_avrupa.js:267",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Cádiz",
+   "dosya_satir": "data/yerlesimler_avrupa.js:268",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Málaga",
+   "dosya_satir": "data/yerlesimler_avrupa.js:274",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Tarragona",
+   "dosya_satir": "data/yerlesimler_avrupa.js:283",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "vizigot",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Utrecht",
+   "dosya_satir": "data/yerlesimler_avrupa.js:388",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Nijmegen",
+   "dosya_satir": "data/yerlesimler_avrupa.js:391",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Maastricht",
+   "dosya_satir": "data/yerlesimler_avrupa.js:399",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Tournai",
+   "dosya_satir": "data/yerlesimler_avrupa.js:413",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  },
+  {
+   "ad": "Tongeren",
+   "dosya_satir": "data/yerlesimler_avrupa.js:420",
+   "alan": "s",
+   "bati_roma": {
+    "f": "0395-01-17",
+    "t_eski": "0476-08-28",
+    "t_yeni": "0476-08-23"
+   },
+   "ardil": [
+    {
+     "d": "__BOSLUK__",
+     "f_eski": "0476-08-28",
+     "f_yeni": "0476-08-23"
+    }
+   ],
+   "ic_not": "Batı Roma'nın sona erişine hizalandı (EMRELİC gece-70; künye bati-roma t 0476-08-23, Odoakar'ın kral ilanı); Hispania/Galya'da ardıl hâkimiyetin kendi günü kaynakta yok (Euric 470'ler) — BEYANLI YAKLAŞIKLIK. 08-28 Orestes'in ölümü."
+  }
+ ]
+}

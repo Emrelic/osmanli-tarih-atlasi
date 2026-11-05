@@ -361,6 +361,30 @@
    "dogrusu": "",
    "tarayici_gerekli": [],
    "_parti": "db_ra_009.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0481-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "frank",
+    "f": "0476-08-28",
+    "t": "0481-01-01",
+    "uygulanamaz": "HAYALET: frank künyesi f=0481-01-01; önce künye genişletmesi (LAB) gerekir"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Tournai» https://www.treccani.it/enciclopedia/tournai/ ; «Merovingi» https://www.treccani.it/enciclopedia/merovingi/",
+   "alinti2": "Conquistata tra il 431 e il 451 dai Franchi, divenne la capitale dei primi re merovingi.",
+   "dogrusu": "Bu dilime 'frank' YAZILAMAZ (künye f=0481-01-01 > 476-08-28: hayalet). Önerilen yol: frank künyesinin f'sini Childeric dönemine genişletmek (aynı polity sürüyor: Treccani Merovingi 'Childerico (m. 482 circa) ... Clodoveo alla sua morte gli successe a capo dei Franchi di Tournai') — künye kararı LAB'ın; karar çıkana dek dilim __BOSLUK__ kalır, 'yerleşim var, sahip Salii Franklar' beyanıyla.",
+   "tarayici_gerekli": [
+    "Frank künyesi f=0481 'Clovis' konvansiyonu; Childeric'in kral olduğu yıl için Treccani 'Childerico' sayfası yok — başka akademik kaynak (Wood, The Merovingian Kingdoms; Cambridge Medieval History) kapalı"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet; Treccani Tournai: 'L’antica Turnacum ... capitale in età tardo-imperiale' ve 'divenne la capitale dei primi re merovingi'; Treccani Franchi: Childeric'in Tournai mezarı (5. yy, keşif 1653). SAHİP: Salii Franklar (Treccani Franchi 'i Sali occuparono la regione attorno a Cambrai e Tornai'). ÇELİŞKİ-BEYAN: aynı kaynak Frank fethini 431-451 arası yazar (aralık: [aralık 431-451]); atlasta Tournai için bati-roma 395→476 kayıtlı olabilir (bağlam: bu şehrin önceki zinciri bu partide yok) — Frank fethi 476'dan ÖNCE olduğundan Roma dönemi ucu da sınanmalı. uc=f: Treccani Frank fethini tarihler (431-451), 476 bati-roma bitişini değil. Hüküm bu yüzden ONERI. ÖLÇÜT: idareye katma — Merovenj başkenti (Tournai mezarı).",
+   "_parti": "db_ra_004.json"
   }
  ],
  "Napoli": [
@@ -459,6 +483,25 @@
    "dogrusu": "",
    "tarayici_gerekli": [],
    "_parti": "db_ra_009.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0481-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "Treccani, Enciclopedia on line, «Maastricht» https://www.treccani.it/enciclopedia/maastricht/ ; «Franchi» https://www.treccani.it/enciclopedia/franchi/",
+   "alinti2": "i Ripuari costituirono una Francia Ripuaria tra il Reno, la Mosa e la Mosella ; i Sali occuparono la regione attorno a Cambrai e Tornai.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Maastricht 476-481: Servatius/piskoposluk ve Roma köprü kenti sürekliliği için arkeolojik yayın (Maastricht kazıları, Panhuysen) — erişilemedi"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: Treccani 'La città vescovile, sorta poco a N di una stazione romana' — ortaçağ şehri Roma istasyonunun KUZEYİNDE kurulmuş diyor; 476-481'de aynı yerde iskân KAYNAKLA TEYİTLİ DEĞİL. SAHİP: Mosa Ripuari bölgesi (Reno-Mosa-Mosel) Treccani'de genel; Maastricht adı yok; Ripuari Franklar ≠ atlasın Salii-Clovis 'frank' künyesi (f=0481, hayalet). Abi merkez kanıtlanamadı. BOSLUK_KALIR. Bakılan: Treccani Maastricht, Franchi, Merovingi.",
+   "_parti": "db_ra_004.json"
   }
  ],
  "Utrecht": [
@@ -483,6 +526,31 @@
    "dogrusu": "",
    "tarayici_gerekli": [],
    "_parti": "db_ra_009.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0481-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "YOK_O_DEVIRDE",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "__BOSLUK__",
+    "kirp": true,
+    "f": "0476-08-28",
+    "t": "0481-01-01",
+    "oneri": "dönem kırpılır; toprak komşu peteklere kalır"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Utrecht» https://www.treccani.it/enciclopedia/utrecht/",
+   "alinti2": "Nel 6° sec. i Franchi vi costruirono una fortezza a protezione del traghetto sul Reno. Della città romana restano testimonianze di una fortezza a pianta rettangolare, del 47 d.C., distrutta nella seconda metà del 3° secolo.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Geç Roma Traiectum 4. yy yeniden iskânı / 5. yy terki için arkeolojik yayın (Utrecht Üniv. kazı raporu, Bijvoet?; ya da Brill 'Traiectum' makalesi): bu turda açık erişimli arkeolojik rapor bulunamadı"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: Treccani, Roma kalesinin (47 sonrası) 3. yy ikinci yarısında yıkıldığını, Franklar'ın 6. yy'da kale yaptığını yazar; 476-481 arasında iskân anlaması YOK. Kaynak yokluğu doğrudan söylemez ('ex silentio', Treccani düzeyi): YOK_O_DEVIRDE güvenle değil KAYNAKLA KISMEN. Kırp önerisi: 476-08-28 → 481-01-01 __BOSLUK__ dönemi silinir (Utrecht bu aralıkta sahipsiz değil, yok). ASIL BULGU: aynı kaynak atlasın Utrecht'teki roma-imp (0047→0395) ve bati-roma (0395→0476) dönemleriyle de gerilim kurar: 3. yy sonunda yıkılan kale için 4.-5. yy Roma sahipliği bu kaynakla DESTEKLENMEZ (arkeolojik yayınla — ör. Constantinus dönemi yeniden yapım — ayrıca teyit edilmeli). frank 0481 başlangıcı: Treccani 6. yy Frank kalesi diyor; frank f=0481 ile 6. yy arasında da yerleşim kanıtı yok (Utrecht piskoposluğu 695, Willibrord). Bu satırdaki karar yalnız 476-481 dilimi içindir; üst/alt zincir ayrı denetim ister.",
+   "_parti": "db_ra_004.json"
   }
  ],
  "Milano": [
@@ -630,6 +698,25 @@
    "dogrusu": "",
    "tarayici_gerekli": [],
    "_parti": "db_ra_009.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0481-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "Treccani, Enciclopedia on line, «Nimega» https://www.treccani.it/enciclopedia/nimega/ ; «Franchi» https://www.treccani.it/enciclopedia/franchi/",
+   "alinti2": "Distrutta (7° sec.) e ricostruita dai Franchi , fu residenza temporanea di Carlomagno e più tardi (dal 1247) possesso dei conti di Gheldria.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Nijmegen 5. yy sonu: Valkhof geç Roma kalesi/Frank iskân yayını (Nijmegen Üniv. arkeoloji, Provincial-Romeins Museum) — erişilemedi"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: Treccani 'Ulpia Noviomagus' castrumu ve '7° sec.' yıkımını anar (aradaki sürekliliği kesin söylemez); 476-481 için varlık DOLAYLI. SAHİP: Treccani Franchi 'i Ripuari costituirono una Francia Ripuaria tra il Reno, la Mosa e la Mosella; i Sali occuparono la regione attorno a Cambrai e Tornai' — Nijmegen (Waal/Rhine deltası) bu iki bölgenin ikisinde de adlandırılmadı; Salii (Tournai) ≠ Ripuari. frank künyesi f=0481 (hayalet: 476-481'e frank yazılamaz). Abi merkez kuralı: Nijmegen→Tournai/Köln bağı gösteren kaynak yok. BOSLUK_KALIR; BEYAN: yerleşim var olabilir, sahibi kaynakta yok. Bakılan: Treccani Nimega, Franchi, Merovingi.",
+   "_parti": "db_ra_004.json"
   }
  ],
  "Parma": [
@@ -2652,6 +2739,25 @@
     "Gallo-Romeins Museum Tongeren / Inventaris Onroerend Erfgoed (Atuatuca Tungrorum kuruluşu, Augustus dönemi); Pleiades; Barrington Atlas"
    ],
    "_parti": "db_ra_010.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0481-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Tongeren (Atuatuca Tungrorum) 5. yy sonu: Gallo-Romeins Museum / Brepols yayını; Treccani'de 'tongeren' ve 'tongres' slug'ları ölü (ana sayfaya yönleniyor)"
+   ],
+   "not": "Bakılan: Treccani tongeren, tongres (ikisi de ölü slug, ana sayfa döndü), Franchi, Merovingi (Tongeren adı geçmez). Yerleşimin 476-481'de var olduğu ya da sahibi kaynakla bulunamadı. frank künyesi f=0481 (hayalet). BULUNAMADI.",
+   "_parti": "db_ra_004.json"
   }
  ],
  "Capua": [
@@ -4071,6 +4177,253 @@
    "tarayici_gerekli": [],
    "not": "Veii'nin bağımsız krallık/şehir olması (künye politikası) KASA/EMRELİC kararıdır; bu turda künye değiştirilmedi. t ucu için kronoloji maddesi: Veii'nin Roma'ya geçişi (MÖ 396) 396-01-01 yıl-temsilî olarak kalır (borç kovası).",
    "_parti": "db_ra_012.json"
+  }
+ ],
+ "Cádiz": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0711-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "d": "vizigot",
+    "f": "0476-08-28",
+    "t": "0711-01-01"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Cadice» https://www.treccani.it/enciclopedia/cadice/ ; «Visigoti» https://www.treccani.it/enciclopedia/visigoti/",
+   "alinti2": "Decadde nel periodo della dominazione visigota (5°-8° sec.) ma, dopo la conquista musulmana (711), fu contesa fra varie popolazioni arabe africane fino alla riconquista cristiana di Alfonso il Saggio, re di Castiglia (1262).",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "YERLEŞİM VAR MIYDI: evet; Treccani şehri 5.-8. yy Vizigot hâkimiyetinde 'decadde' (çöküş) olarak anar, yani şehir yaşıyordu. Önceki turdaki 'non ricorre il nome di Cadice' beyanı yalnız başka bir maddedeki adın geçmeyişidir; şehir maddesi sahibi söyler. KAYNAKLI DEĞİL çünkü: ① 'dominazione visigota (5°-8° sec.)' yüzyıl düzeyidir, 476 ucunu tarihlemez; ② Treccani Visigoti, Justinianus'un güney İspanya'yı kısmen Bizans'a bağladığını yazar (Cádiz adı geçmez); Bizans Spania'sı (yaklaşık 552-624, yıl bu kaynaktan DEĞİL, yalnız 'Giustiniano ... parzialmente' okundu) Cádiz'i kapsadıysa vizigot kesintili olur. t=711: Treccani Cadice 'conquista musulmana (711)' ve Visigoti 'Battuto Roderico nei pressi di Cadice (711)'. Hayalet: vizigot künyesi f=0418-01-01 t=0711-01-01, dönem içinde. ÖNERİ: s vizigot 0476-08-28 → 0711-01-01 BEYANLI YAKLAŞIKLIK (Vizigot hâkimiyeti yüzyıl düzeyinde; Bizans Spania'sı Cádiz için ayrıca sınanmadı). ÖLÇÜT: idareye katma yok, bu bölgede sahiplik tanıklığı. Bakılan: Treccani Cadice, Visigoti; TIB/CAH'a bakılmadı (Bizans Spania ayrı iş).",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Málaga": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "0507-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "vizigot",
+    "f": "0476-08-28",
+    "t": "0507-01-01"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Visigoti» https://www.treccani.it/enciclopedia/visigoti/ ; «Malaga» https://www.treccani.it/enciclopedia/malaga/",
+   "alinti2": "Sotto Eurico (466-84), il fondatore del regno dei V. dal punto di vista giuridico in quanto le conquiste visigote furono formalmente riconosciute dall’imperatore Giulio Nepote (475), il regno tolosano raggiunse la massima estensione territoriale, con la conquista di tutta la regione tra il Rodano e la Loira, della Provenza , e di quasi tutta la Penisola Iberica.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Málaga'ya özgü 5. yy sonu tanıklığı: TIB değil, Iberia için CAH XIV / Collins 'Visigothic Spain 409-711' (kapalı) — Emre girişi gerekirse"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: Treccani Malaga: 'Rasa al suolo dai Visigoti, fu ricostruita e divenne importante sede episcopale' — yıl yok; yıkımın 476-507 aralığına düşüp düşmediği bilinmiyor, dolayısıyla varlık TEYİTLİ DEĞİL, yalnız 'ricostruita' ile sürekliliği ima edilir. SAHİP: Treccani Eurico (466-84) dönemi 'quasi tutta la Penisola Iberica' Vizigot — ülke düzeyi, Málaga adı yok, 476 günü yok → ONERI (KAYNAKLI sayılmaz). Önceki beyanın 'şehir adlı tanık aranmadı' borcu şimdi aranmış, bulunamamıştır: ŞEHİR ADLI tanık yok. ÖNERİ: s vizigot 0476-08-28 → 0507-01-01, sonraki vizigot 0507-01-01 dönemiyle birleşebilir; BEYANLI YAKLAŞIKLIK, ÜLKE DÜZEYİ. Hayalet: vizigot f=0418 ≤ 476, geçer. DİKKAT (ayrı bulgu, bu satırın dışında): atlasta vizigot 507-711 sürekli yazılı; Treccani Visigoti Justinianus'un güney İspanya'yı kısmen Bizans'a bağladığını söyler (Málaga Bizans Spania'sında olabilir, Málaga adı Treccani'de geçmez) — o dönem kaynaklıdır diye bakılmadı. ÖLÇÜT: yok (fetih/idare tanığı değil, ülke düzeyi). Bakılan: Treccani Visigoti, Eurico (sayfa yok), Malaga.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Kannauc": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0550-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": [
+    {
+     "alan": "v",
+     "d": "gupta",
+     "f": "0500-01-01",
+     "t": "0540-01-01",
+     "beyan": "BEYANLI YAKLAŞIKLIK; Maukhari beyleri Gupta tâbiiydi (tâbilik devir değildir), Gupta künye t=0540 (hayalet sınırı), Kanauj'a özgü tanık yok"
+    }
+   ],
+   "kaynak2": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Northern India after the Gupta Empire» (Maukhari) s. ~65-70",
+   "alinti2": "There can thus be hardly any doubt that the three pre¬ decessors of Isana-varman were feudatories of the Gupta empire and flourished during the first half of the sixth century A.D.",
+   "dogrusu": "s: maukhari 0500 YAZILAMAZ (künye f=0550-01-01, hayalet). Tâbilik/vassallık devir değildir: bu dilim s: __BOSLUK__ kalır ya da maukhari künyesi f'si LAB'ca genişletilip v: gupta ile birlikte yazılır.",
+   "tarayici_gerekli": [],
+   "not": "YERLEŞİM VAR MIYDI: evet; Majumdar 'Kanauj seems to have been the capital' (Maukhari krallığının), Hiuen Tsang (630-644) Kanyakubja'yı anar. SAHİP: Maukhari ailesi Gupta feodalleriydi (ilk 6. yy yarısı ve 'probably somewhat earlier'), 'the decline of the power of the Imperial Guptas, early in the sixth century A.D., gave them an opportunity to assert their independence'; Isana-varman'ın tarihi ≈554. Kanauj kentine ÖZGÜ 500-550 tanığı YOK ('seems'). Hunalar (Toramana ≈510-512 Eran'a kadar, Mihirakula ≈530 Gwalior) Kanauj'u kapsadıkları da kaynakta açık değil. uc=f+t kullanılamaz: kaynak her iki ucu tarihlemiyor; ONERI. ÖLÇÜT: yok (vassal, idareye katma değil). Hayalet kontrolü: gupta 0320-0540, maukhari 0550-0606.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Siyâlkot": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0540-01-01",
+   "t": "0883-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Minor States in North India» ve «Harsha and his time»; Encyclopaedia Iranica, «Hephthalites» https://www.iranicaonline.org/articles/hephthalites",
+   "alinti2": "According to Hiuen Tsang his capital was Sakala or Sialkot and he ruled over India. ... Its capital was near Sialkot and it extended from the Beas in the east to the Sindhu on the west.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Takka krallığının hanedanı (633-883): Kalhana Rajatarangini (Stein) ve Cambridge History of India III / Majumdar IV (hcip4 'ageofimperialkan04bhar') — bu turda okunmadı"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet; Sakala/Sialkot Mihirakula'nın başkenti (Majumdar, Hiuen Tsang aktarımıyla), Takka başkenti 'near Sialkot' (630-644). SAHİP: Mihirakula Iranica'ya göre Keşmir'de ≈540'a kadar sürdü (atlasın alkhon t=0540 ile uyumlu: ayrıca Iranica 'Mihirakula ... inscriptions of his fifteenth year at Gwalior' notu alkhon dönemi için destek). 540-883 arası Takka (Hiuen Tsang 630-644) var ama hanedanı adlandırılmıyor; Keşmir'in Takshasila/Simhapura/Urasa/Rajapura'yı kattığı yazılır, Takka/Sialkot'u DEĞİL ('The most important kingdom in the Punjab is called Cheh-ka'). atlasta Takka/Karkota Sialkot için kaynaksız. Abi merkez yok. BOSLUK_KALIR; önceki 'arandı, bulunamadı' beyanı doğrulandı.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Peşâver": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0250-01-01",
+   "t": "1000-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "kidarit",
+     "f": "0420-01-01",
+     "t": "0467-01-01",
+     "beyan": "[aralık 420-430; yaklaşık] Iranica: Kidara Gandhara'ya 420-430'larda geçti; künye 390-467 (hayalet geçer); Peşâver-özel tanık Wei shu aktarımı"
+    }
+   ],
+   "kaynak2": "Encyclopaedia Iranica, «Kidarites» https://www.iranicaonline.org/articles/kidarites ; R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Northern India after Gupta...» ve «Harsha and his time»",
+   "alinti2": "The state of the Little Yuezhi: the capital is Puruśapura [Peshawar] … Kidara had been driven away by the Xiongnu and fled westwards, and later made his son assume the defensive",
+   "dogrusu": "Dilim tek parça __BOSLUK__ kalamaz; parçalara ayrılarak sahip tanıklığı olan kesitler yazılmalı. Künye genişletmeleri LAB'a: kusan t=0350 (Peşâver satırı kusan'ı 0250'de bitiriyor, künye 0350'ye kadar), kusan-sasani 0230-0360, kidarit 0390-0467 (Iranica: kalıntı krallık Gandhara'da 477'ye kadar), eftalit 0457-0560, alkhon 0500-0540.",
+   "tarayici_gerekli": [
+    "Peşâver 250-350 arası kusan/kusan-sasani ayrımı: Iranica 'kushano-sasanians' ve 'kushan dynasty' maddesi (ilk slug 404; 'kushan-dynasty' denenecek)",
+    "Peşâver 560-1000 (Türk Şâhî / Kâbil Şâhî / Hindu Şâhî): Majumdar IV 'ageofimperialkan04bhar' ve TDV Hindu Şâhîler — okunmadı"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet; Puruśapura/Peshawar Iranica Kidarites'te 'capital' olarak geçer; Faxian (412'den önce) Gandhara'yı ziyaret etti. SAHİP KESİTLERİ (hepsi ONERI, çünkü Peşâver ismi yalnız Kidarit kesitinde geçiyor): ① Kidarit: Iranica Wei shu aktarımı (Peşâver başkent) — yıl: Iranica 'invasion took place after 412'; ② Eftalit/Hun: Majumdar 'Gandhara, certainly, were already parts of the Huna empire' ve Sung-yun'un 520'de Gandhara'daki Hun kralı ziyareti (Peşâver adı yok, Gandhara düzeyi); ③ Kapisa: Majumdar, Hiuen Tsang 630-644, Kapisa kralı 'directly ruled over ... Lan-po, Nagarahara and even Gandhara' (Peşâver adı yok). 250-350 arası: Majumdar 'Kushana ... Kabul valley' Peşâver yok. uc: hiçbiri satırın t=1000 ya da f=250 ucunu tarihlemiyor. ÖLÇÜT: yok (siyasi sahiplik tanığı). Hayalet: kidarit f=0390 t=0467 (önerilen 0420-0467 içinde); eftalit 0457-0560 (yalnız Gandhara düzeyi). Önceki beyan ('kaynak okunmadı') bu turda kısmen karşılandı.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Kâbil": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0665-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "Encyclopaedia Iranica, «Hephthalites» https://www.iranicaonline.org/articles/hephthalites ; «Kidarites» https://www.iranicaonline.org/articles/kidarites ; R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Harsha and his time»",
+   "alinti2": "Succeeding rulers of the Hephthalite kingdom seem to have been based in Afghanistan, though whether in Kabul, Bamiyan (Bāmiān), Gardez, or, most probably, Ghazni, is uncertain.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "TDV «Kâbil» ve «Kâbilşâhîler» dönem uçları (önceki beyan TDV'yi okumuş; bu turda yeniden okunmadı)",
+    "Kapisa (Begram) ile Kâbil şehrinin özdeşliği: Majumdar IV / Iranica 'Begram'"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet; Iranica Kidarites: ≈390'da Kabul yakınında Tepe Maranjān hazinesi; Majumdar: 4. yy Kabul vadisi Sasani'ye bağlı, Kidara Kabul vadisinde. SAHİP 500-665: Iranica Eftalit 'Afganistan'da bir dal, Kabul/Bamiyan/Gardez/Gazne belirsiz' (şehir adı kesin değil), son kral ≈600'den kısa süre önce öldü; Majumdar (Hiuen Tsang 630-644): 'Kapisa ... was a powerful state under a Kshatriya king who directly ruled over ... Lan-po (Laghman), Nagarahara (Jelalabad) and even Gandhara' — Kapisa Kâbil şehri olmayabilir, Kabul adlı tanık yok. Eftalit künyesi 457-560 olduğundan 500-560 için 'eftalit' BEYANLI YAKLAŞIKLIK adayı olur ama kaynak şehri adlandırmıyor, ona yazılmadı. Abi merkez: yok. BOSLUK_KALIR.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Gazne": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0557-01-01",
+   "t": "0869-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "d": "eftalit",
+    "f": "0557-01-01",
+    "t": "0600-01-01",
+    "uygulanamaz": "HAYALET: eftalit künyesi t=0560-01-01; 560 sonrası için künye genişletmesi/ardıl künye (LAB)",
+    "beyan": "[yaklaşık] 'shortly before 600' Iranica; Gazne 'most probably' ama belirsiz"
+   },
+   "kaynak2": "Encyclopaedia Iranica, «Hephthalites» https://www.iranicaonline.org/articles/hephthalites",
+   "alinti2": "Succeeding rulers of the Hephthalite kingdom seem to have been based in Afghanistan, though whether in Kabul, Bamiyan (Bāmiān), Gardez, or, most probably, Ghazni, is uncertain. ... the latest king, known only by his honorific title Purvāditya, whose demise could have taken place shortly before 600 C. E.",
+   "dogrusu": "eftalit 0557-0560 içinde kalır (künye t=0560), 560 sonrası için hayalet olur. Dilimin 0557→~0600 kısmı için Eftalit Afganistan kolu; ~600→869 için kaynak yok (Iranica: 7. yy Tarkhān Nēzak kuzey/kuzeybatı Afganistan, Gazne adı yok; TDV: Sha-Tarkan, VIII. yy başı).",
+   "tarayici_gerekli": [
+    "Gazne için Eftalit Afganistan kolu: Kuwayama, 'The Hephthalites in Tokharistan and Northwest India', Zinbun 24 (1989) — erişilemedi"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet (TDV Gazne VIII. yy Huei-ch’ao ziyareti, önceki beyanda alıntılı; Iranica Eftalit 'most probably Ghazni'). SAHİP: Iranica Eftalit; ancak 'most probably Ghazni... is uncertain' ve 'shortly before 600' yaklaşık: Gazne adı kesin değil → ONERI. uc=t: yalnız Eftalit sonu (≈600) tarihlenmiş, f=557 (satırın başı atlasın eftalit t=557'sine dayanıyor) tarihlenmedi. ÇELİŞKİ-BEYAN: atlasta Gazne için eftalit dönemi 0500→0557, Eftalit künyesi t=0560; Iranica'da Afgan kolu ≈600'e kadar sürer. 600-869 BOSLUK_KALIR (Tarkhān Nēzak ve Sha-Tarkan künyesiz). ÖLÇÜT: yok.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Gvalyar (Gwalior)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0540-01-01",
+   "t": "0815-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Harsha and his time»; Encyclopaedia Iranica, «Hephthalites»",
+   "alinti2": "In Central India there were three states in Bundelkhand, Gwalior, and Ujjain (E. Malava) ruled over by Brahmana kings.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Gwalior 540-815: Majumdar IV (ageofimperialkan04bhar) Gurjara-Pratihara öncesi Gwalior; Gwalior Mihirakula yazıtından sonrası"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet; Mihirakula'nın 15. yıl Gwalior yazıtı (Majumdar: ≈530; Iranica: 'inscriptions of his fifteenth year at Gwalior') ve Hiuen Tsang Gwalior devleti (630-644). SAHİP: 'Brahmana kings' (hanedan/adı yok); Majumdar 'Harsha's suzerainty did not extend much to the south of the Yamuna' — Harşa de değil. atlas künyesi yok. Mihirakula yazıtı alkhon 500-540 dilimini destekler (f/t'sini tarihlemez). 540-630 arası ve 644-815 arası kaynak yok. BOSLUK_KALIR; önceki beyan doğrulandı.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Patna (Azîmâbâd)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0029-01-01",
+   "t": "1281-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "gupta",
+     "f": "0320-01-01",
+     "t": "0540-01-01",
+     "beyan": "BEYANLI YAKLAŞIKLIK; Faxian Pataliputra'da 3 yıl kaldı (Majumdar III), Gupta merkezi; ama Majumdar 'by A.D. 550 the Guptas had ceased to exercise effective authority over the great part of Magadha' (künye t=0540 ile ~10 yıl fark: CELISKI ucu, ic_not'a)"
+    }
+   ],
+   "kaynak2": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar), «Magadha»/«Later Guptas» ve «Religion/ Fa-hien»; Treccani, Enciclopedia on line, «Patna» https://www.treccani.it/enciclopedia/patna/",
+   "alinti2": "È l’antica Pāṭaliputra , capitale dell’Impero indiano dei Maurya, fondato da Candragupta alla fine del 4° sec. a.C.; fu città splendida e fiorente sino al 5° sec. d.C.; poi decadde.",
+   "dogrusu": "Tek parça __BOSLUK__ (-0029 → 1281, 1310 yıl) KALAMAZ; parçalanmalı. 1) -0029→0320: sahip bu turda bulunmadı (Majumdar II 'hcip-2-age-of-imperial-unity-ed.-r.-c.-majumdar' okunmadı: BAKILMADI). 2) 0320→0540 gupta (aday, yukarıda). 3) 0540→1281: Treccani 'poi decadde' = şehir küçüldü; Hiuen Tsang'ın Pataliputra'yı harabe bulduğu Majumdar IV/V'de aranmalı; Pala/Sena/Gurjara-Pratihara/Ghurid zincirleri atlasta künyeli (pala, gurjara-pratihara, gurlu) ama Patna için tanık yok. 1206-1281 'delhi-sultanligi' atlasta 1281'den başlıyor: pencere sınırı mı gerçek mi ayrıca sorulmalı.",
+   "tarayici_gerekli": [
+    "Majumdar vol II (hcip-2-age-of-imperial-unity...): -29→320 Pataliputra sahibi",
+    "Majumdar IV (ageofimperialkan04bhar), Majumdar V: Pala dönemi Pataliputra/Patna",
+    "Banglapedia «Pala Dynasty»; CHI: Bihar 1197-1204 fethi"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet ama değişken: Treccani Patna 'fu città splendida e fiorente sino al 5° sec. d.C.; poi decadde' (YOK demez, küçülme). Majumdar III: Faxian Pataliputra'da üç yıl kaldı; Aryabhata Kusumapura/Pataliputra doğumlu (476); 'by A.D. 550 the Guptas had ceased to exercise effective authority over the great part of Magadha' (Nandana Gaya yazıtı 551-2). Bu turda yalnız 320-540 Gupta kesiti için kaynak bulundu ve o da ülke/bölge düzeyinde: ONERI. Geri kalan 1100 yıl BOSLUK_KALIR. Hayalet: gupta 0320-0540 geçer. ÖLÇÜT: yok. Brif sınırı (satır başına en çok 4 araç) nedeniyle 9 kesit değil bir kesit denendi.",
+   "_parti": "db_ra_004.json"
+  }
+ ],
+ "Pekin (Hanbalık)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0201-01-01",
+   "t": "0907-06-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "Treccani, Enciclopedia on line, «Pechino» https://www.treccani.it/enciclopedia/pechino/",
+   "alinti2": "Centro dell’antico Stato feudale di Yan (8°-3° sec. a.C.), la città assunse importanza per la posizione di frontiera a N della Cina.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Cambridge History of China cilt 1 (Twitchett-Loewe) ve cilt 3 (Twitchett): archive.org'da açık sürüm yok (arama yalnız 'Cambridge History of Ancient China', -221'e kadar); Emre girişi / kütüphane erişimi",
+    "Academia Sinica takvimi çevirileri (EMRELİC toplu)"
+   ],
+   "not": "YERLEŞİM VAR MIYDI: evet, kesinlikle (Yan devletinin merkezi Ji/Youzhou; Treccani Yan 8.-3. yy a.C. ve 936'da Kitan işgali). SAHİP -0201→0907: bu 1100 yılda Han, Cao Wei, Jin, On Altı Krallık, Kuzey Wei/Qi/Zhou, Sui, Tang ile Lulong askeri valileri sıralanır; atlasta künyeler VAR (bati-han, dogu-han 0025-0220, kuzey-wei 0386-0535, kuzey-qi, kuzey-zhou, sui 0581-0619, tang 0617-0907) ama Pekin/Youzhou için okunmuş tanık yok; Treccani 936 öncesini kapsamaz; Cambridge History of China erişilemedi. Çin ay-güneş günleri çevrilmedi (EMRELİC). BOSLUK_KALIR; kaynakla dolacak, önerilen künye aday listesi tarayici_gerekli'deki ciltlerden okunmadan yazılamaz.",
+   "_parti": "db_ra_004.json"
   }
  ]
 }
