@@ -922,6 +922,15 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **36 kayıt Tunus'tur** (35 + Tabarka). Zincir 1923-10-29'da `v:`/`isg fransa-cumhuriyet` ile bitiyor. Bunlar zaten UFUK-1923 uygulama listesinde (Tunus 72 satır → 1956-03-20) ve uygulanınca kapanır, ayrıca araştırılmaz.
 - Kalan **67 satır** ardıl dilim ajanına verildi (Sonnet; çıktı `UC103-ONERI.json`).
   - 38 ek deliğin 36'sı Tunus; diğer ikisi Bijeljina ve Orašje (Bosna Sırp Cumhuriyeti / Herzeg-Bosna halefleri, 2000 örneği).
+- ⚠️ 52c172273 commit'ine, iki ajan henüz koşarken yazdığı ara dosyalar girdi: `ZEND-KAFKAS-ONERI.json` ve `NORVEC-1814-ONERI.json`. Bunlar TAMAMLANMAMIŞ çıktıdır, uygulanmaz; ajanlar bitince yeniden commit edilir. Commit yardımcısına ad ile hariç tutma (`E4_HARIC_AD`) eklendi.
+
+## gece-118 — DEĞİŞMEZ 1 UYARISI (LAB SALI / LAB PAZAR / EMRELİC)
+
+- Sahipsiz (BEYANLI) dilim açan değişiklikler BEKLENEN_SAHIPSIZ'ı artırır. KASA PAZAR her kalemi uygulamadan önce D1'i ölçer. Sayı artıyorsa o dilimde önceki sahip korunur ve yeni model `ic_not`ta beyanlı kalır; künye adayı ya da Emre kararı gelene dek öyle kalır.
+- HAYALET-UYGULA'daki 7 kalem: zend 1750 üçlü idare; Doğu Timor FRETILIN 1975-11-28 → 12-06; Komor/Moroni 1886–1912; Obok/Tâcûre; demak/pajang; Lahsâ 1524–1546; Sardunya adası 1720-02-17 → 09-01.
+- `bos:"kabile"` önerileri (kabile-toprak-sinifi) hiç uygulanmaz.
+- **KASA'nın Zend 1747–51 hayalet düzeltmesi de bu ölçüye tabidir.** Zend ajanına yazıldı: kaynaklı ve künyeli yerel hanlık yoksa 1747-06-20 → 1751-01-01'de önceki sahip `afsar` korunur (künye 1736 → 1796, hayalet değil) ve ic_not'a "BEYANLI YAKLAŞIKLIK" yazılır. Dilim boş bırakılmaz.
+- 103 uç deliği tablosu D1'i azaltır; öne alındı, ajan koşuyor.
 
 ## gece-113 — tarama biçim kusuru (ek)
 
