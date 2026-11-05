@@ -1,0 +1,168 @@
+{
+ "Ain Mallaha (Eynan)": [
+  {
+   "sira": 4480,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "natufiyen",
+   "f": "-12154-01-01",
+   "t": "-9549-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Biton R., Bailon S. vd. 2021, 'The anurans and squamates assemblage from Final Natufian Eynan (Ain Mallaha, Israel) with an emphasis on snake-human interactions', PLoS ONE 16(2):e0247283, PMC7906325 (Europe PMC fullTextXML; kronoloji sitenin kazi yayinlarina atfen)",
+   "alinti": "its occupation, which started during the Early Natufian, approximately dated to 14,326 ± 266 cal BP ... the Final Natufian (from ca. 12,466 ± 179 to 11,895 ± 141 cal BP)",
+   "oneri": {
+    "f": "-12375-01-01",
+    "t": "-9944-01-01",
+    "d": "natufiyen"
+   },
+   "not": "ANTIK B b009'dan (ayni uc). cal BP->MO: 1950-14326=12376 MO -> astronomik -12375; 1950-11895=9945 MO -> -9944 [kalibre, yaklasik, aralik]. Satirdaki f -12154 yalniz tek GifA-70014 olcumudur; t kunye t'sidir. Kunye natufiyen f -12649/t -9549: oneri icinde. Eynan'da Natufiyen sonrasi iskan okunmadi."
+  }
+ ],
+ "Ain Ghazal": [
+  {
+   "sira": 4481,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ppnb-guney-levant",
+   "f": "-8399-01-01",
+   "t": "-6749-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Lebenzon R., Munro N.D. 2025, 'A biometric meta-study of the emergence of caprine management in the northern and southern Levant', Scientific Reports 15:23507, Table 1 (Belfer-Cohen & Goring-Morris semasi), PMC12222662; site katmani: Scientific Reports PMC8178372 ('Ain Ghazal (MPPNB-PPNC)')",
+   "alinti": "Middle PPNB 10,100-9500 [Southern Levant] ... Late PPNB 9500-8750 (cal BP); Twenty-two individuals from the site of 'Ain Ghazal (MPPNB-PPNC)",
+   "oneri": {
+    "f": "-8149-01-01",
+    "t": "-6799-01-01",
+    "d": "ppnb-guney-levant"
+   },
+   "not": "BOLGE DUZEYI, SITEYE OZGU DEGIL. 'Ain Ghazal MPPNB'den baslar (PMC8178372); Guney Levant MPPNB basi 10.100 cal BP -> 1950-10100=8150 MO -> -8149; Late PPNB sonu 8750 cal BP -> 6800 MO -> -6799 [kalibre, aralik, yaklasik]. Satir f -8399 (MO 8400) MPPNB basindan eski (EPPNB 10.500 cal BP = MO 8550): Ain Ghazal'in kendi mutlak baslangici (Rollefson vd. 14C) acik erisimde okunamadi, bu yuzden site icin KAYNAKLI degil. Kunye ppnb-guney-levant f -8649/t -6749: oneri t -6799 kunye icinde. Bakilan: Europe PMC (PMC9942848, 8178372, 12222662, 7423105, 8214434), ia-ara."
+  },
+  {
+   "sira": 4482,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ppnc-guney-levant",
+   "f": "-6749-01-01",
+   "t": "-6699-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Lebenzon R., Munro N.D. 2025, 'A biometric meta-study of the emergence of caprine management in the northern and southern Levant', Scientific Reports 15:23507, Table 1 (Belfer-Cohen & Goring-Morris semasi), PMC12222662; site katmani: Scientific Reports PMC8178372 ('Ain Ghazal (MPPNB-PPNC)')",
+   "alinti": "Final PPNB/PPNC 8900-8400 [Northern Levant] / 8750-8400 [Southern Levant] (cal BP)",
+   "oneri": {
+    "f": "-6799-01-01",
+    "t": "-6449-01-01",
+    "d": "ppnc-guney-levant"
+   },
+   "not": "BOLGE DUZEYI (Guney Levant 'Final PPNB/PPNC'; yazarlar PPNC terimi konusunda taraf tutmuyor), siteye ozgu degil. 8750 cal BP -> 6800 MO -> -6799; 8400 cal BP -> 6450 MO -> -6449 [kalibre, aralik]. Satir f -6749/t -6699 (50 yillik dilim) kaynaktaki 350 yillik donemden dar; kunye ppnc f -6749/t -6399. Dilim uzunlugunu site 14C'si (Rollefson) belirlemeli; okunamadi. Oneri t -6449 kunye t -6399'dan sonra: kunye t -6399 oldugu icin hayalet yok ama oneri t kunyeyi 50 yil asiyor, kunye t genisletilmeli ya da t -6399'da kalir. PPNB satirinin t'siyle f esitlenmeli (-6799)."
+  }
+ ],
+ "Çayönü Tepesi": [
+  {
+   "sira": 4483,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-8629-01-01",
+   "t": "-7139-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Altinisik N.E. vd. 2022, 'A genomic snapshot of demographic and cultural dynamism in Upper Mesopotamia during the Neolithic Transition', Science Advances (doi 10.1126/sciadv.abo3609), PMC9635823",
+   "alinti": "Çayönü's uninterrupted stratigraphy extending from the Pre-Pottery Neolithic A (PPNA) (c. 9500 cal BCE) to the final PPN (c. 7000 cal BCE)",
+   "oneri": {
+    "f": "-9499-01-01",
+    "t": "-6999-01-01",
+    "d": "aseramik-kuzey-levant-anadolu"
+   },
+   "not": "MO 9500 -> astronomik -9499; MO 7000 -> -6999 [yaklasik, kalibre]. Satir f -8629 (MO 8630) ve t -7139 kaynakla celisir: kaynak PPNA baslangicini c. 9500 diyor. Hayalet: kunye aseramik-kuzey-levant-anadolu t -7099 < oneri t -6999: kunye t genisletilmeli (ayni polity suruyor) ya da donem t -7099'da kalir; LAB'a kunye sorusu. Ayni makale 13 genomun c. 8500-7500 cal BCE oldugunu soyler (ornek tarihi, yerlesim tarihi degil)."
+  }
+ ],
+ "Göbekli Tepe": [
+  {
+   "sira": 4484,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-9528-01-01",
+   "t": "-7999-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Gresky J., Haelm J., Clare L. 2017, 'Modified human crania from Göbekli Tepe provide evidence for a new form of Neolithic skull cult', Science Advances 3(6):e1700564, PMC5489262 (Europe PMC fullTextXML)",
+   "alinti": "The tell is composed of archaeological deposits (maximum of 15 m high), which accumulated ... over a period of circa 1600 years (c. 9600–8000 calBC) during the Pre-Pottery Neolithic A (PPNA; 9600–8700 calBC) and Early/Middle Pre-Pottery Neolithic B (8700–8000 calBC)",
+   "oneri": {
+    "f": "-9599-01-01",
+    "t": "-7999-01-01",
+    "d": "aseramik-kuzey-levant-anadolu"
+   },
+   "not": "ANTIK B b009'dan. t -7999 kaynakla birebir (c. 8000 calBC); f c. 9600 calBC -> -9599 [yaklasik]; satirdaki -9528 kaynakta yok. Kunye f -11219/t -7099: t -7999 kunye icinde (hayalet yok). Hukum: f degisir (ONERI), t teyitli."
+  }
+ ],
+ "Anau": [
+  {
+   "sira": 4485,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "anau-ia-kultur",
+   "f": "-4299-01-01",
+   "t": "-3819-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": null,
+   "not": "Heit 2019 / Hiebert-Kurbansakhatov 2003 / Pollock vd. 'Looking Closely' acik erisimde bulunamadi. Bakilan: Europe PMC (Anau/Namazga/Meana/Kopet Dag aramalari: ilgili OA makale yok), Iranica (anau-tepe, anau-i, namazga-tepe slug'lari 404), archive.org (yalniz Pumpelly 1908, eski, kullanilmadi). tarayici_gerekli: Heit 2019 Chap. 3 (Pollock-Bernbeck-Ogut eds) ya da Hiebert 1994 (kapali); Emre girisi gerekir. Aranip bulunamadi (BAKILMADI degil)."
+  }
+ ],
+ "Shimao": [
+  {
+   "sira": 4486,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "shimao-kultur",
+   "f": "-2299-01-01",
+   "t": "-1799-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Chen Z., Gardner J.D., Sun Z. vd. 2025, 'Ancient DNA from Shimao city records kinship practices in Neolithic China', Nature (doi 10.1038/s41586-025-09799-x), PMC12711557",
+   "alinti": "The discovery of Shimao city (around 2300-1800 bce 1 ), a premier state-level Neolithic fortified settlement in Shaanxi",
+   "oneri": null,
+   "not": "MO 2300 -> astronomik -2299, MO 1800 -> -1799: satir f/t ile birebir [yaklasik, aralik]. Hayalet yok: kunye shimao-kultur f -2299/t -1799. 'bce' aralik makalenin dipnot 1'ine atif (kronoloji kazi raporlarindan). Cin takvimi sorunu yok (arkeolojik)."
+  }
+ ],
+ "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)": [
+  {
+   "sira": 4487,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yangshao",
+   "f": "-4899-01-01",
+   "t": "-3999-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930 (doi 10.1371/journal.pone.0240930), Tablo 2, PMC7641357",
+   "alinti": "Jiangzhai 24 A Shaanxi Yangshao 4900-4000 8.6 0.6 -9.9 1.2 20",
+   "oneri": null,
+   "not": "'Estimated dates (cal. BC/AD)' sutunu: 4900-4000 cal BC -> astronomik -4899 / -3999: satirla birebir [yaklasik, aralik]. Hayalet yok: kunye yangshao f -4999/t -2899. Ayni makalede Banpo 4800-4300, Shijia 4300-4000; kayit Jiangzhai sitesine ait."
+  }
+ ],
+ "Skara Brae": [
+  {
+   "sira": 4488,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "orkney-gec-neolitik",
+   "f": "-2901-01-01",
+   "t": "-2491-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Bayliss A., Marshall P., Richards C., Whittle A. 2017, 'Islands of history: the Late Neolithic timescape of Orkney', Antiquity 91(359) (doi 10.15184/aqy.2017.140), Cambridge Core ham metin",
+   "alinti": "an earlier nucleated settlement with recessed house architecture, founded in the centuries around 2900 cal BC, may have been abandoned after a relatively short period of habitation, and re-occupied in the twenty-eighth century cal BC",
+   "oneri": {
+    "f": "-2899-01-01",
+    "t": "-2491-01-01",
+    "d": "orkney-gec-neolitik"
+   },
+   "not": "f: 'centuries around 2900 cal BC' -> MO 2900 -> -2899 [yaklasik; satirdaki -2901 ile 2 yil fark, anlamsiz]. t teyitsiz: kaynak terkten sonra 28. yy cal BC'de yeniden iskan soyler, nihai terk verilmiyor; satir t -2491 teyitsiz kaliyor. Ikincil celiski (yazarlar dogrulanmadi): Evolution dergisi (PMC5366975, Table 2) Skara Brae phase 0 3360-3160 BC, phase 1 2910-2820 BC, phase 2 2850-2400 BC verir; PMC9035405 3400-2500 BC yazar. Erken faz yapi oncesi dolgu olabilir; LAB karar versin. Yeniden iskan (28. yy) ayri donem olabilir."
+  }
+ ]
+}

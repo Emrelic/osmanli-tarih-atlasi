@@ -1242,6 +1242,23 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   5. Kopal 1847: yalnız cyclowiki (Rogozhinsky 2021 atfı), akademik ham metin yok.
 - **Değişmez 2:** 1824 Küçük Cüz, okrug açılışları ve 1864 Sırderya kırılmaları için kronoloji maddesi önerileri KASA'ya.
 
+### 47a. EMRELİC gece-94 kararları (`karar58.py`, 10 satır)
+1. **Irgiz ve Turgay:** kur ve s: rusya f = kale günü, ONERI-güçlü.
+   - Irgiz 1845-07-31 G, Turgay 1845-08-03 G.
+   - 1845 öncesi kazak dilimi KIRPILIR (merdiven ④); toprak komşu peteklere kalır.
+2. **Akmola:** kur ve s: rusya f 1830-06-30 G (kale). Kale öncesi dilim kırpılır. Okrug 1832-09-03 G ic_not'a.
+3. **İşim ve Sarısu:** Kopal devralması kalkar. ABİ MERKEZ en yakın okrug, BEYANLI:
+   - İşim → Kökçetav 1824-05-11 G (~125 km). EMRELİC Akmola ya da Karkaralı demişti; ikisinden de yakın olduğu için Kökçetav seçildi.
+   - Sarısu → Akmola okrugu 1832-09-03 G.
+4. **Sığnak, Suzak (Hokand dönemi, Rus alışı 1864) ve Kopal (Rogozhinsky 2021 ham metni):** ek tur sürüyor (`kz4`).
+
+- **r8_126:** KAYNAKLI 2 · ONERI 6 · BULUNAMADI 1.
+  - **KAYNAKLI:** Shimao −2299/−1799 (Chen 2025 Nature); Jiangzhai −4899/−3999 (Liu & Reid 2020).
+  - **Çayönü:** −9499/−6999 (Altınışık 2022). t, künyenin −7099'unu aşar (LAB).
+  - **Skara Brae:** f −2899 (Bayliss 2017); t teyitsiz.
+  - **Ain Ghazal:** yalnız bölge düzeyi.
+  - **Anau:** BULUNAMADI.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.

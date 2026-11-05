@@ -147,16 +147,19 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
-    "rusya_f": "1845-08-03",
-    "kazak-hanligi_t": "1845-08-03"
+    "kirp": true,
+    "kur": "1845-08-03",
+    "not": "kazak-hanligi dönemi kaldırılır"
    },
    "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
    "alinti": "а 22 июля – Оренбургского на правом берегу реки Тургая на урочище Жарыкуткуль",
    "kaynak2": "ЭСБЕ 'Тургай, город' (booksite.ru/fulltext/1/001/007/103/103377.htm; İPUCU, yalnız yıl)",
    "alinti2": "В 1845 г. оренбургским отрядом под командой майора Томилина",
    "tarayici_gerekli": true,
-   "not": "Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
-   "parti": "kz1"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): 1845 öncesi kazak-hanligi dilimi KIRPILIR (boşluk merdiveni ④: yerleşim o devirde yok); toprak komşu peteklere kalır. Yerleşimin kur'u kale günü. Küçük Cüz 1824 ölçüsü bölgedeki eski yerleşimler için geçerlidir. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "KIRP_ONERI"
   },
   {
    "dosya_satir": "yerlesimler_sibirya.js",
@@ -167,16 +170,20 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
-    "rusya_f": "1845-08-03",
-    "kazak-hanligi_t": "1845-08-03"
+    "d": "rusya",
+    "f": "1845-08-03",
+    "t": "1917-03-15",
+    "kur": "1845-08-03"
    },
    "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
    "alinti": "а 22 июля – Оренбургского на правом берегу реки Тургая на урочище Жарыкуткуль",
    "kaynak2": "ЭСБЕ 'Тургай, город' (booksite.ru/fulltext/1/001/007/103/103377.htm; İPUCU, yalnız yıl)",
    "alinti2": "В 1845 г. оренбургским отрядом под командой майора Томилина",
    "tarayici_gerekli": true,
-   "not": "Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
-   "parti": "kz1"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): kur ve s: rusya f 1845-08-03 G (22.7.1845 J; Ural/Orenburg istihkâmı) ONERI-güçlü; Jülyen→Gregoryen +12. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
   }
  ],
  "Irgiz (Irgız)": [
@@ -189,16 +196,19 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
-    "rusya_f": "1845-07-31",
-    "kazak-hanligi_t": "1845-07-31"
+    "kirp": true,
+    "kur": "1845-07-31",
+    "not": "kazak-hanligi dönemi kaldırılır"
    },
    "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
    "alinti": "19 июля 1845 года было положено основание Уральскому укреплению на правом берегу реки Иргиза",
    "kaynak2": "Aynı makale (yıl)",
    "alinti2": "Под его командой на берегу реки Иргиз, на возвышенности было сооружено военное укрепление в 1845 году.",
    "tarayici_gerekli": true,
-   "not": "Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
-   "parti": "kz1"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): 1845 öncesi kazak-hanligi dilimi KIRPILIR (boşluk merdiveni ④: yerleşim o devirde yok); toprak komşu peteklere kalır. Yerleşimin kur'u kale günü. Küçük Cüz 1824 ölçüsü bölgedeki eski yerleşimler için geçerlidir. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "KIRP_ONERI"
   },
   {
    "dosya_satir": "yerlesimler_ortaasya3.js",
@@ -209,16 +219,20 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
-    "rusya_f": "1845-07-31",
-    "kazak-hanligi_t": "1845-07-31"
+    "d": "rusya",
+    "f": "1845-07-31",
+    "t": "1917-03-15",
+    "kur": "1845-07-31"
    },
    "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
    "alinti": "19 июля 1845 года было положено основание Уральскому укреплению на правом берегу реки Иргиза",
    "kaynak2": "Aynı makale (yıl)",
    "alinti2": "Под его командой на берегу реки Иргиз, на возвышенности было сооружено военное укрепление в 1845 году.",
    "tarayici_gerekli": true,
-   "not": "Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
-   "parti": "kz1"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): kur ve s: rusya f 1845-07-31 G (19.7.1845 J; Ural/Orenburg istihkâmı) ONERI-güçlü; Jülyen→Gregoryen +12. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
   }
  ],
  "Kazalinsk (Kazalı)": [
@@ -272,14 +286,19 @@
    "t": "1847-01-01",
    "hukum": "BULUNAMADI",
    "uc": "",
-   "oneri_son": {},
+   "oneri_son": {
+    "d": "kazak-hanligi",
+    "t": "1824-05-11"
+   },
    "kaynak2": "",
    "alinti2": "",
    "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
    "alinti": "",
    "tarayici_gerekli": true,
-   "not": "İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~125 km; Akmola ~270 km). · İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
   },
   {
    "dosya_satir": "yerlesimler_ek9.js",
@@ -289,14 +308,21 @@
    "t": "1917-03-15",
    "hukum": "BULUNAMADI",
    "uc": "",
-   "oneri_son": {},
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1824-05-11",
+    "t": "1917-03-15",
+    "beyan": "ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13)"
+   },
    "kaynak2": "",
    "alinti2": "",
    "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
    "alinti": "",
    "tarayici_gerekli": true,
-   "not": "İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~125 km; Akmola ~270 km). · İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
   }
  ],
  "Kazak bozkırı (Sarısu)": [
@@ -308,14 +334,19 @@
    "t": "1847-01-01",
    "hukum": "BULUNAMADI",
    "uc": "",
-   "oneri_son": {},
+   "oneri_son": {
+    "d": "kazak-hanligi",
+    "t": "1832-09-03"
+   },
    "kaynak2": "",
    "alinti2": "",
    "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
    "alinti": "",
    "tarayici_gerekli": true,
-   "not": "Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~590 km; Karkaralı ~720 km). · Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
   },
   {
    "dosya_satir": "yerlesimler_sibirya.js",
@@ -325,14 +356,21 @@
    "t": "1917-03-15",
    "hukum": "BULUNAMADI",
    "uc": "",
-   "oneri_son": {},
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1832-09-03",
+    "t": "1917-03-15",
+    "beyan": "ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması)"
+   },
    "kaynak2": "",
    "alinti2": "",
    "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
    "alinti": "",
    "tarayici_gerekli": true,
-   "not": "Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~590 km; Karkaralı ~720 km). · Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
   }
  ],
  "Petropavlovsk (Kızılcar)": [
@@ -429,16 +467,19 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
-    "f": "1830-06-30",
-    "t": "1830-06-30"
+    "d": "kazak-hanligi",
+    "t": "1830-06-30",
+    "kur": "1830-06-30",
+    "kirp_oncesi": true
    },
    "kaynak2": "Yermekbay 2022 (okrug 1832) + astana2030.narod.ru (Şubin raporu 22.8.1832)",
    "alinti2": "1832 года августа в 22-й день поутру в 10 часов собрался пред линиею казармы весь отряд",
    "kaynak": "e-history.kz 'History of Astana' https://e-history.kz/en/history-of-kazakhstan/show/9740 (yıl); gün için yerel tarih yazısı astana2030.narod.ru/out/akmolprikaz.html (arşiv belgelerine dayanan Şubin araştırması)",
    "alinti": "18 июня 1830 года (по новому стилю 1 июля) можно считать днем основания Акмолинска",
    "tarayici_gerekli": false,
-   "not": "TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli.",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Akmola kale = yerleşimin doğuşu: kur 1830-06-30 G (18.6.1830 J); kale öncesi kazak dilimi kırpılır (Irgiz/Turgay emsali). Okrug 22.8.1832 J = 1832-09-03 G ic_not'a. · TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94"
   },
   {
    "dosya_satir": "yerlesimler_ortaasya3.js",
@@ -449,16 +490,20 @@
    "hukum": "ONERI",
    "uc": "f+t",
    "oneri_son": {
+    "d": "rusya",
     "f": "1830-06-30",
-    "t": "1830-06-30"
+    "t": "1917-03-15",
+    "kur": "1830-06-30"
    },
    "kaynak2": "Yermekbay 2022 (okrug 1832) + astana2030.narod.ru (Şubin raporu 22.8.1832)",
    "alinti2": "1832 года августа в 22-й день поутру в 10 часов собрался пред линиею казармы весь отряд",
    "kaynak": "e-history.kz 'History of Astana' https://e-history.kz/en/history-of-kazakhstan/show/9740 (yıl); gün için yerel tarih yazısı astana2030.narod.ru/out/akmolprikaz.html (arşiv belgelerine dayanan Şubin araştırması)",
    "alinti": "18 июня 1830 года (по новому стилю 1 июля) можно считать днем основания Акмолинска",
    "tarayici_gerekli": false,
-   "not": "TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
-   "parti": "kz2"
+   "not": "EMRELİC gece-94 (5 Kasım 2026): s: rusya kur'dan, 1830-06-30 G. Okrug 1832-09-03 G ic_not'a. · TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
   }
  ],
  "Karkaralinsk (Karkaralı)": [
