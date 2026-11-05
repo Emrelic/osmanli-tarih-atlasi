@@ -68,7 +68,7 @@
    "kaynak": "Bakılan: TDV ilhanlilar (Şemdinli/Hakkâri geçmiyor), TDV karakoyunlular (zincirde)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 yerleşime özgü teyitsiz; kapanış kaynağı Musul'a ilişkin."
+   "not": "LAB SALI (origin/main ölçümü): hakkari-beyligi künyesi YOK, aday (emsal cizre-botan 1300 → 1847-07-29). Zincir: s: hakkari-beyligi + v: osmanli 1534/1548'den (TDV Hakkâri), sonu 1845/47 beyliklerin kaldırılması (kaynakla). | KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 yerleşime özgü teyitsiz; kapanış kaynağı Musul'a ilişkin."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:99",
@@ -81,7 +81,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/van",
    "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van). Şemdinli dağlık Hakkâri kuşağında; 1548'de aynı gün Osmanlı'ya geçtiği okunmadı -> ÜLKE/bölge düzeyi bile değil, GÜN KOMŞUDAN (Van). t 1920-04-23 bu satırda okunmadı."
+   "not": "LAB SALI (origin/main ölçümü): hakkari-beyligi künyesi YOK, aday (emsal cizre-botan 1300 → 1847-07-29). Zincir: s: hakkari-beyligi + v: osmanli 1534/1548'den (TDV Hakkâri), sonu 1845/47 beyliklerin kaldırılması (kaynakla). | KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van). Şemdinli dağlık Hakkâri kuşağında; 1548'de aynı gün Osmanlı'ya geçtiği okunmadı -> ÜLKE/bölge düzeyi bile değil, GÜN KOMŞUDAN (Van). t 1920-04-23 bu satırda okunmadı."
   }
  ],
  "Şeyhrumi (Yücelen)": [
@@ -96,7 +96,7 @@
    "kaynak": "Bakılan: TDV ilhanlilar (Şeyhrumi/Başkale geçmiyor)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 teyitsiz."
+   "not": "LAB SALI (origin/main ölçümü): hakkari-beyligi künyesi YOK, aday (emsal cizre-botan 1300 → 1847-07-29). Zincir: s: hakkari-beyligi + v: osmanli 1534/1548'den (TDV Hakkâri), sonu 1845/47 beyliklerin kaldırılması (kaynakla). | KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:128",
@@ -109,7 +109,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/van",
    "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van); Şeyhrumi'nin o gün geçtiği okunmadı (zincir notu: 1548-1574 Mâkû Safevî, ölçülemedi). GÜN KOMŞUDAN (Van)."
+   "not": "LAB SALI (origin/main ölçümü): hakkari-beyligi künyesi YOK, aday (emsal cizre-botan 1300 → 1847-07-29). Zincir: s: hakkari-beyligi + v: osmanli 1534/1548'den (TDV Hakkâri), sonu 1845/47 beyliklerin kaldırılması (kaynakla). | KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van); Şeyhrumi'nin o gün geçtiği okunmadı (zincir notu: 1548-1574 Mâkû Safevî, ölçülemedi). GÜN KOMŞUDAN (Van)."
   }
  ],
  "Abeşe (Abéché)": [
@@ -262,12 +262,15 @@
    "d": "adal",
    "f": "1281-01-01",
    "t": "1577-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "Bakılan: TDV somali (Alula/Adal yok; Adal ayrı madde slug'ı açılmadı)",
    "alinti": "",
-   "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | Adal f 1281 / t 1577 teyitsiz."
+   "oneri": {
+    "d": "somali",
+    "not": "Somali Sultanlıkları (Majerteen); 1889'dan v: italya"
+   },
+   "not": "LAB SALI (origin/main ölçümü): ayrı majerteen künyesi YOK; somali 'Somali Sultanlıkları' (1500 → 1927-01-01, devletler.js:2901) toplu künye Majerteen'i kapsıyor → Alula: s: somali + v: italya 1889 → 1927 fetih → italyan-somali. 'adal' sahipliği yanlış (Adal = Harar). Ayrı majerteen = toplu künyenin bölünmesi, SINIF sorusu (Emre). | KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | Adal f 1281 / t 1577 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:832",
@@ -280,7 +283,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/somali",
    "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | ÜLKE DÜZEYİ: f ucu YIL 1927 (Alula Mâcerteyn Sultanlığı topraklarında). 'işgal' ifadesi: s: mi isg mi tahrir ölçütü kaynakta yok; gün teyitsiz (atlas 01-01)."
+   "not": "LAB SALI (origin/main ölçümü): ayrı majerteen künyesi YOK; somali 'Somali Sultanlıkları' (1500 → 1927-01-01, devletler.js:2901) toplu künye Majerteen'i kapsıyor → Alula: s: somali + v: italya 1889 → 1927 fetih → italyan-somali. 'adal' sahipliği yanlış (Adal = Harar). Ayrı majerteen = toplu künyenin bölünmesi, SINIF sorusu (Emre). | KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | ÜLKE DÜZEYİ: f ucu YIL 1927 (Alula Mâcerteyn Sultanlığı topraklarında). 'işgal' ifadesi: s: mi isg mi tahrir ölçütü kaynakta yok; gün teyitsiz (atlas 01-01)."
   }
  ],
  "Aşkabad": [
