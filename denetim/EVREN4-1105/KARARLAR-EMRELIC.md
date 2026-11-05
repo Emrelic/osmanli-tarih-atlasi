@@ -151,6 +151,23 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-105 — HAVVA r8_066-075 üzerine
+
+- **Koloni künyeleri** (`sili-kaptanligi`, `yeni-fransa`, `ispanyol-florida`, `yeni-hollanda`, `ispanyol-santo-domingo`, `ispanyol-kuba`, `ispanyol-filipinler`):
+  - Kayıtlarda bunların yerine metropol künyesi kullanılıyor. Koloni künyesine geçmek bir sınıf kararıdır ve Emre'nin listesine girer.
+  - `d:` değerini değiştirmek haritadaki rengi değiştirir. UMIT de Küba için aynı soruyu sordu.
+  - **Bu gece metropol künyesi kalır;** yalnız hayalet dilimler ve yanlış sahip düzeltilir.
+- **Onaylananlar:**
+  - Quebec `isg ingiltere` 1629-32 ve 1759-63.
+  - St. Augustine teslim günü 1763-07-21.
+  - New Amsterdam'a Hollanda dilimi 1673-74.
+  - Boston O.S. 1630-09-07 → 1630-09-17.
+  - Onondaga ve Cayuga'da 1777-83 hayalet dilimi kalkar.
+  - Camagüey ve Higüey `isg abd`.
+  - Vranje 1941-44 `isg bulgaristan`.
+- **Angostura 1817-19:** künyesiz dilim. Venezuela Üçüncü Cumhuriyeti (Gran Colombia öncesi) için künye sorusu LAB'a.
+- **Sabah raporu:** r8_074-075'te bütçe daraldı; bu iki partideki 22 BAKILMADI ayrı sayılır.
+
 ## 5 Kasım 2026 gece-104 — 1776-07-04 odak kapsamı (On Üç Koloni)
 
 - **Ölçüm (KASA, güncel main):** `1776-07-04` günlü üç madde var:
