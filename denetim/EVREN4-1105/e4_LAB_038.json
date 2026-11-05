@@ -289,7 +289,7 @@
    "kaynak": "Bakılan: iranicaonline.org/articles/saqqez (10328 kar., İlhanlı/Moğol sözcüğü yok); TDV tebriz (Sakkız anılmaz)",
    "alinti": "",
    "oneri": {},
-   "not": "Saqqez'in İlhanlı sahipliği 1281-1340 için kaynak okunmadı."
+   "not": "KARAR EMRELİC (gece-109): Sakkız BULUNAMADI ONAY (TD 1066 yalnız 'Erdelan'). | Saqqez'in İlhanlı sahipliği 1281-1340 için kaynak okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2047",
@@ -302,7 +302,7 @@
    "kaynak": "https://dergipark.org.tr/tr/download/article-file/638569 (Bilgili 2016, Ermeni Araştırmaları 53; sayfa.py PDF metnini çıkaramadı, WebFetch de okuyamadı; yerel PDF çıkarımında 'Sakız/Sakkız' YOK, TD 1066 = 'Erdelan tahrir defteri', yalnız 'Erdelan Vilayeti'nde Sinne' anılır)",
    "alinti": "",
    "oneri": {},
-   "not": "Zincirdeki kayıtlı kaynak (dn.88, TD 1066 'Sakîz livası') makalede doğrulanamadı: makale TD 1066'yı Erdelan vilayeti defteri diye geçirir, Sakız'ı anmaz, gün de vermez. Bölge bağlamı: Kirmanşah/Luristan Ekim 1723'te alındı (TD 912, ay düzeyi); 1723-11-10 komşudan, teyitsiz."
+   "not": "KARAR EMRELİC (gece-109): Sakkız BULUNAMADI ONAY (TD 1066 yalnız 'Erdelan'). | Zincirdeki kayıtlı kaynak (dn.88, TD 1066 'Sakîz livası') makalede doğrulanamadı: makale TD 1066'yı Erdelan vilayeti defteri diye geçirir, Sakız'ı anmaz, gün de vermez. Bölge bağlamı: Kirmanşah/Luristan Ekim 1723'te alındı (TD 912, ay düzeyi); 1723-11-10 komşudan, teyitsiz."
   }
  ],
  "Salsipuedes (Charrúa)": [
@@ -439,10 +439,10 @@
    "t": "1730-08-12",
    "hukum": "ONERI",
    "uc": "f",
-   "kaynak": "https://dergipark.org.tr/tr/download/article-file/638569",
-   "alinti": "Köprülü-zâde Abdullah Paşa’nın Ağustos 1725’den az sonra ele geçirdiği Erdebil’in mufassal defteridir",
+   "kaynak": "Bilgili, Ali Sinan, Ermeni Araştırmaları 53 (2016), PDF s.12-13 (EMRELİC pypdf okuması, birebir) — https://dergipark.org.tr/tr/download/article-file/638569",
+   "alinti": "Köprülü-zâde Abdullah Paşa'nın Ağustos 1725'den az sonra ele geçirdiği Erdebil'in mufassal defteridir",
    "oneri": {},
-   "not": "PDF sayfa.py ile okunamadı (yerel çıkarım; alıntı birebir, KAYNAKLI verilmedi). f ucu AY düzeyinde (Ağustos 1725 sonrası); Sarab nahiyesi Erdebil Kazası'na bağlı (aynı makale, TD 902). Gün 1725-09-09 Erdebil'den, teyitsiz. t 1730-08-12 teyitsiz (TDV Tebriz: 'Nâdir Han 1730’da şehri geri aldı' yıl düzeyi, yalnız Tebriz)."
+   "not": "KARAR EMRELİC (gece-109): ONERI-çekinceli: ABİ MERKEZ Erdebil (aynı makale s.13: «Erdebil Kazası'na bağlı Erdebil ve Serab nahiyeleri»); gün yok, 'Ağustos 1725'ten az sonra'; atlas 1725-09-09 ayrı kaynağa dayanmıyorsa beyan. Komşu günler (aynı makale): Tebriz 1725-07-28 (Danişmend 08-03), Gence 1725-09-04, Urmiye 1725-12. | PDF sayfa.py ile okunamadı (yerel çıkarım; alıntı birebir, KAYNAKLI verilmedi). f ucu AY düzeyinde (Ağustos 1725 sonrası); Sarab nahiyesi Erdebil Kazası'na bağlı (aynı makale, TD 902). Gün 1725-09-09 Erdebil'den, teyitsiz. t 1730-08-12 teyitsiz (TDV Tebriz: 'Nâdir Han 1730’da şehri geri aldı' yıl düzeyi, yalnız Tebriz)."
   }
  ],
  "Saurimo": [
@@ -485,9 +485,10 @@
    "kaynak": "https://islamansiklopedisi.org.tr/sebte",
    "alinti": "Portekiz Kralı I. Jean’ın işine yaradı ve 818’de (1415) Sebte’yi işgal etti",
    "oneri": {
-    "f": "1415-03-12"
+    "f": "1415-03-12",
+    "t": "1580-08-25"
    },
-   "not": "HİCRÎ KURAL (LAB PAZAR JDN, Perşembe): TDV '818 / 1415' → 1 Muharrem 818 = 1415-03-12 Jülyen = 818 ∩ 1415'in ilk günü; atlas 1415-01-01 hicrî kuralı atlıyor. Fetih günü (yaygın 1415-08-21) kaynakla bulunursa o gün esas — EMRELİC'e soruldu. | f ucu YIL düzeyinde (hicrî 818 / 1415; hicrî gün hesaplanmadı) [yalnız yıl teyitli; gün teyitsiz]. Sebte'nin kendisine ait madde. Not: TDV 'işgal' der; Portekiz yönetimi 1419'a dek tartışmalı ama kaynak Portekiz hâkimiyetini kabul eder."
+   "not": "KARAR EMRELİC (gece-109): Kesişim kuralı yedektir; günlü akademik kaynak bulunursa fetih 1415-08-21 (Jülyen) KAYNAKLI (Zurara akademik neşri ya da TDV Sebte gövdesi). Bulunana dek 03-12 ONERI; ic_not 'kesişim kuralı; yaygın fetih günü 08-21, kaynak aranıyor'. | HİCRÎ KURAL (LAB PAZAR JDN, Perşembe): TDV '818 / 1415' → 1 Muharrem 818 = 1415-03-12 Jülyen = 818 ∩ 1415'in ilk günü; atlas 1415-01-01 hicrî kuralı atlıyor. Fetih günü (yaygın 1415-08-21) kaynakla bulunursa o gün esas — EMRELİC'e soruldu. | f ucu YIL düzeyinde (hicrî 818 / 1415; hicrî gün hesaplanmadı) [yalnız yıl teyitli; gün teyitsiz]. Sebte'nin kendisine ait madde. Not: TDV 'işgal' der; Portekiz yönetimi 1419'a dek tartışmalı ama kaynak Portekiz hâkimiyetini kabul eder."
   },
   {
    "dosya_satir": "data/yerlesimler_ek3.js:32",
@@ -495,12 +496,14 @@
    "d": "ispanya",
    "f": "1581-04-16",
    "t": "2000-12-31",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "https://islamansiklopedisi.org.tr/sebte",
    "alinti": "İspanya, Portekiz topraklarını ilhak etti (1581)",
-   "oneri": {},
-   "not": "ÇELİŞKİ: Sebte 1581-04-16 (Tomar Cortes'i; TDV 1581) vs Braga/Setúbal kuralı Portekiz t 1580-08-25 (Alcântara, gece-98). Sebte için hangi gün — EMRELİC'e soruldu. | f ucu YIL düzeyinde 1581 [yalnız yıl teyitli; gün 1581-04-16 teyitsiz]. TDV: İspanya 1668'de Portekiz bağımsızlığını kabul ederken Sebte'yi şart koştu. KARŞILAŞTIRMA: Setúbal kaydı İspanya f 1580-08-25 kullanıyor; iki yerleşim arasında 1580/1581 tutarsızlığı beyanlı."
+   "oneri": {
+    "f": "1580-08-25"
+   },
+   "not": "KARAR EMRELİC (gece-109): Braga/Setúbal ile tutarlı: 1580-08-25 (Alcântara, birliğin fiilî günü); Sebte Portekiz tacıyla birlikte geçti. Tomar 1581-04-16 ve Sebte'nin kendi tanıma günü ic_not; 1640'ta ayrılmadı → s: ispanya kesintisiz. | ÇELİŞKİ: Sebte 1581-04-16 (Tomar Cortes'i; TDV 1581) vs Braga/Setúbal kuralı Portekiz t 1580-08-25 (Alcântara, gece-98). Sebte için hangi gün — EMRELİC'e soruldu. | f ucu YIL düzeyinde 1581 [yalnız yıl teyitli; gün 1581-04-16 teyitsiz]. TDV: İspanya 1668'de Portekiz bağımsızlığını kabul ederken Sebte'yi şart koştu. KARŞILAŞTIRMA: Setúbal kaydı İspanya f 1580-08-25 kullanıyor; iki yerleşim arasında 1580/1581 tutarsızlığı beyanlı."
   }
  ],
  "Secwépemc (Adams Gölü)": [
@@ -571,7 +574,7 @@
    "kaynak": "Bakılan: kaynak arama yapılmadı (yalnız Paris 1783 metni okundu)",
    "alinti": "",
    "oneri": {},
-   "not": "Haudenosaunee t 1777 için kaynak okunmadı. 1777 Oriskany/İngiliz müttefikliği ile egemenlik devri karıştırılmış olabilir."
+   "not": "KARAR EMRELİC (gece-109): Merdiven ④: Ganondagan 1687 Temmuzunda Denonville seferinde yakılıp terk edildi → sonrası yerleşim yoksa 1687 sonrası dönemler KIRPILIR (kaynak: NY State Parks/Ganondagan ya da akademik). Yeniden yerleşim gösterilirse: Haudenosaunee s: sürer, İngiliz s: yok; 1783 Paris ic_not; ABD TEK ÖLÇÜ teslim/fiilî (Canandaigua 1794 vb.). | Haudenosaunee t 1777 için kaynak okunmadı. 1777 Oriskany/İngiliz müttefikliği ile egemenlik devri karıştırılmış olabilir."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:795",
@@ -583,8 +586,11 @@
    "uc": "t",
    "kaynak": "https://avalon.law.yale.edu/18th_century/paris.asp",
    "alinti": "Done at Paris, this third day of September in the year of our Lord, one thousand seven hundred and eighty-three",
-   "oneri": {},
-   "not": "ŞÜPHE: Britanya 1777–83 Seneca'yı idareye katmadı (TAHRİR) → s: haudenosaunee sürmüş olabilir (müttefik, v:?); 1777 f dayanaksız — EMRELİC'e soruldu. | t ucu gün düzeyinde 1783-09-03 (antlaşma metni, Yale Avalon neşri). AMA: ingiltere f 1777 hiçbir kaynakla desteklenmedi ve Seneca toprağı 1783'te ABD'ye devredilmedi sayılmaz (Fort Stanwix 1784, Big Tree 1797 — okunmadı); ÖLÇÜT: Britanya orayı idareye katmadı → s: ingiltere dönemi şüpheli, Haudenosaunee sürebilir (karar sizde)."
+   "oneri": {
+    "sil": true,
+    "not": "1687 terk ile kırpma ya da haudenosaunee sürer"
+   },
+   "not": "KARAR EMRELİC (gece-109): Merdiven ④: Ganondagan 1687 Temmuzunda Denonville seferinde yakılıp terk edildi → sonrası yerleşim yoksa 1687 sonrası dönemler KIRPILIR (kaynak: NY State Parks/Ganondagan ya da akademik). Yeniden yerleşim gösterilirse: Haudenosaunee s: sürer, İngiliz s: yok; 1783 Paris ic_not; ABD TEK ÖLÇÜ teslim/fiilî (Canandaigua 1794 vb.). | ŞÜPHE: Britanya 1777–83 Seneca'yı idareye katmadı (TAHRİR) → s: haudenosaunee sürmüş olabilir (müttefik, v:?); 1777 f dayanaksız — EMRELİC'e soruldu. | t ucu gün düzeyinde 1783-09-03 (antlaşma metni, Yale Avalon neşri). AMA: ingiltere f 1777 hiçbir kaynakla desteklenmedi ve Seneca toprağı 1783'te ABD'ye devredilmedi sayılmaz (Fort Stanwix 1784, Big Tree 1797 — okunmadı); ÖLÇÜT: Britanya orayı idareye katmadı → s: ingiltere dönemi şüpheli, Haudenosaunee sürebilir (karar sizde)."
   }
  ],
  "Serhad (Vahan)": [
