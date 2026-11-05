@@ -1,0 +1,108 @@
+{
+ "Edington": [
+  {
+   "sira": 4420,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0878-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "Ethandun (Edington, Wiltshire) savaşı: ASC (Swanton) s.a. 878; Asser, Life of King Alfred ch. 56 [Ethandun-Edington özdeşliği: Keynes/Lapidge, Alfred the Great,"
+  },
+  {
+   "sira": 4421,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "künye ingiltere f=0927 · BEYANLI YAKLAŞIKLIK."
+  }
+ ],
+ "Talakad": [
+  {
+   "sira": 4422,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "bati-ganga",
+   "f": "0450-01-01",
+   "t": "1004-01-01",
+   "mevcut_kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay (archive.org: classicalage03bhar"
+  }
+ ],
+ "Scone": [
+  {
+   "sira": 4423,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0906-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Chronicle of the Kings of Alba: Constantine II'nin 6. yılında kral ve piskopos Cellach, Scone yakınında 'Tulach Credulitatis' üzerinde yasa ve kilise hakları üz"
+  }
+ ],
+ "Birsay": [
+  {
+   "sira": 4424,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "orkney-kontlugu",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Orkneyinga Saga (trans. Pálsson-Edwards, Penguin 1978): Kont Thorfinn'in Birsay'daki konutu ve Christ Church [bölüm no ve sayfa teyidi bekler]; B. Crawford, Sca"
+  }
+ ],
+ "Çatalhöyük": [
+  {
+   "sira": 4425,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "orta-anadolu-neolitik",
+   "f": "-7099-01-01",
+   "t": "-5999-01-01",
+   "mevcut_kaynak": "künye orta-anadolu-neolitik (Orta Anadolu Aseramik–Seramik Neolitik toplulukları (Konya Ovası, Kapadokya)) · Bayliss vd. 2015, Journal of World Prehistory 28(1)"
+  }
+ ],
+ "Ani": [
+  {
+   "sira": 4426,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1046-01-01",
+   "t": "1064-01-01",
+   "mevcut_kaynak": "TDV alparslan «Alparslan Doğu Anadolu’ya geçerek Bizanslılar’ın elinde bulunan, bölgenin en müstahkem şehri Ani’yi kuşattı» | BEYANLI YAKLAŞIKLIK: başlangıç Tre"
+  }
+ ],
+ "Dînever": [
+  {
+   "sira": 4427,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1405-01-01",
+   "mevcut_kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): sahip Hasanveyhîler (künye YOK -> yeni_kunye_gerekli \"hasanveyhi\" 959-1015 civarı); bitiş \"elli yıl\" -> 959+50 (yaklaşık, yı"
+  }
+ ],
+ "Chamba": [
+  {
+   "sira": 4428,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "chamba",
+   "f": "0950-01-01",
+   "t": "1948-04-15",
+   "mevcut_kaynak": "BOŞLUK BEYANI: sahip chamba (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"chamba\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture o"
+  },
+  {
+   "sira": 4429,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-04-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "V. P. Menon, The Story of the Integration of the Indian States (Orient Longmans 1956; archive.org dli.ernet.527198; açıldı, okundu): «These States were therefor"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "Daming": [
+  {
+   "sira": 4386,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "da-qi-liu-yu",
+   "f": "1130-10-12",
+   "t": "1138-01-01",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 戊申 (金天會八年／宋建炎四年九月) → Jülyen 1130-10-12 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13); 1582 öncesi gün "
+  }
+ ],
+ "Xinzheng": [
+  {
+   "sira": 4387,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "han-devleti-zhou",
+   "f": "-0374-01-01",
+   "t": "-0229-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 15 «Liuguo nianbiao» (zh.wikisource.org/wiki/史記/卷015, bu oturumda okundu; tablo satırları MÖ yıl başlığı taşır): MÖ 375 satırı «烈王元年…二。滅鄭。"
+  }
+ ],
+ "Horinger (Shengle)": [
+  {
+   "sira": 4388,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "dai-tuoba",
+   "f": "0315-01-01",
+   "t": "0376-01-01",
+   "mevcut_kaynak": "Sima Guang, Zizhi tongjian juan 89 (zh.wikisource.org/wiki/資治通鑑/卷089, okundu; Jianxing 3 = 315 bölümü): «詔進拓跋猗盧爵為代王，置官屬，食代、常山二郡。» · Wei Shou, Wei shu juan 1 «Xu"
+  }
+ ],
+ "Ulan Batur (Tola/Tuul vadisi)": [
+  {
+   "sira": 4389,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "xueyantuo-kaganligi",
+   "f": "0630-01-01",
+   "t": "0646-01-01",
+   "mevcut_kaynak": "Jiu Tang shu (Liu Xu vd., 945) juan 199 xia «Beidi: Tiele» (zh.wikisource.org/wiki/舊唐書/卷199下, bu oturumda okundu): 「四年，平突厥頡利之後，朔塞空虛，夷男率其部東返故國，建庭于都尉揵山北，獨邏河之南」 (貞"
+  }
+ ],
+ "Kaifeng (Daliang)": [
+  {
+   "sira": 4390,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "wei-devleti-zhou",
+   "f": "-0339-01-01",
+   "t": "-0224-01-01",
+   "mevcut_kaynak": "Shiji juan 44 «Wei shijia» (zh.wikisource.org/wiki/史記/卷044, okundu): Huiwang'ın 31. yılı olayları (Maling'de Qi ile savaş, Shang Yang'ın Wei'yi yenmesi) anlatıl"
+  }
+ ],
+ "Buan (Juryu-seong adayi)": [
+  {
+   "sira": 4391,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "baekje-restorasyon",
+   "f": "0661-01-01",
+   "t": "0663-10-14",
+   "mevcut_kaynak": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 戊午 (龍朔三年 九月) → Jülyen 0663-10-14 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0663-10-17;"
+  }
+ ],
+ "Xuzhou (Pengcheng)": [
+  {
+   "sira": 4392,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "bati-chu-xiang-yu",
+   "f": "-0205-01-01",
+   "t": "-0201-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 16 «Qin Chu zhi ji yuebiao» (zh.wikisource.org/wiki/史記/卷016, okundu; tablo MÖ yıl bloklarına ayrılmıştır, ay adları Qin-Han takvimidir): M"
+  }
+ ],
+ "Huangzhou (Zhu)": [
+  {
+   "sira": 4393,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "hengshan-krallik",
+   "f": "-0205-01-01",
+   "t": "-0201-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 16 «Qin Chu zhi ji yuebiao» (zh.wikisource.org/wiki/史記/卷016, okundu; tablo MÖ yıl bloklarına ayrılmıştır, ay adları Qin-Han takvimidir): M"
+  }
+ ]
+}

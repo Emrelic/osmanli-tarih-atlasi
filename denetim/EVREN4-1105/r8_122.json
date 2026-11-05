@@ -1,0 +1,117 @@
+{
+ "Aba (Nijerya)": [
+  {
+   "sira": 4442,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Mindelo": [
+  {
+   "sira": 4443,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yesilburun",
+   "f": "1975-07-05",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bangassou": [
+  {
+   "sira": 4444,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "orta-afrika-imparatorlugu",
+   "f": "1976-12-04",
+   "t": "1979-09-20",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Jadotville (Likasi)": [
+  {
+   "sira": 4445,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "katanga",
+   "f": "1960-07-11",
+   "t": "1963-01-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4446,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1963-01-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nago": [
+  {
+   "sira": 4447,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ryukyu-abd-idaresi",
+   "f": "1945-04-01",
+   "t": "1972-05-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4448,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1972-05-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Xam Nua (Sam Neua)": [
+  {
+   "sira": 4449,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pathet-lao-hukumeti",
+   "f": "1950-08-13",
+   "t": "1975-12-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4450,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "laos-demokratik-halk-cumhuriyeti",
+   "f": "1975-12-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bandung": [
+  {
+   "sira": 4451,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pasundan-devleti",
+   "f": "1948-02-26",
+   "t": "1950-03-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Sukabumi": [
+  {
+   "sira": 4452,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pasundan-devleti",
+   "f": "1948-02-26",
+   "t": "1950-03-11",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

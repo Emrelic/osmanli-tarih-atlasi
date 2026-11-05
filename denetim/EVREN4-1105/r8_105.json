@@ -1,0 +1,117 @@
+{
+ "Quechualla": [
+  {
+   "sira": 4158,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1835-05-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Totora (Carrasco)": [
+  {
+   "sira": 4159,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1872-06-24",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Loja": [
+  {
+   "sira": 4160,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1548-12-08",
+   "t": "1822-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4161,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4162,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pebas": [
+  {
+   "sira": 4163,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1866-02-07",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Gorgor": [
+  {
+   "sira": 4164,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1857-01-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Santa Cruz de la Sierra": [
+  {
+   "sira": 4165,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1595-05-21",
+   "t": "1825-08-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4166,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Caçu": [
+  {
+   "sira": 4167,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1918-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Boca do Acre": [
+  {
+   "sira": 4168,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1902-09-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "Garðar (Igaliku)": [
+  {
+   "sira": 4430,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "norse-gronland",
+   "f": "1124-01-01",
+   "t": "1450-01-01",
+   "mevcut_kaynak": "lex.dk, 'Det norrøne Grønland' (Danca): «Omkring år 1124 udpegede den norske konge Sigurd Jorsalfarer grønlændernes første biskop, Arnald.» ; «Storgården Garðar"
+  }
+ ],
+ "Vichy": [
+  {
+   "sira": 4432,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "vichy-fransasi",
+   "f": "1940-07-10",
+   "t": "1944-08-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4433,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1944-08-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ruijin (Jiangxi)": [
+  {
+   "sira": 4434,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-sovyet-cumhuriyeti",
+   "f": "1931-11-07",
+   "t": "1934-10-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4435,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1934-10-10",
+   "t": "1949-10-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tripuri (Tewar)": [
+  {
+   "sira": 4437,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kalacuri-tripuri",
+   "f": "1000-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tifariti": [
+  {
+   "sira": 4438,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sahra-arap-demokratik-cumhuriyeti",
+   "f": "1976-02-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Lusaka": [
+  {
+   "sira": 4439,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rodezya-nyasaland-federasyonu",
+   "f": "1953-08-01",
+   "t": "1963-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Butterworth": [
+  {
+   "sira": 4440,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "transkei",
+   "f": "1976-10-26",
+   "t": "1994-04-27",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bisho": [
+  {
+   "sira": 4441,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ciskei",
+   "f": "1981-12-04",
+   "t": "1994-04-27",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

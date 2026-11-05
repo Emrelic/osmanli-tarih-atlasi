@@ -1,0 +1,99 @@
+{
+ "Ain Mallaha (Eynan)": [
+  {
+   "sira": 4480,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "natufiyen",
+   "f": "-12154-01-01",
+   "t": "-9549-01-01",
+   "mevcut_kaynak": "künye natufiyen (Natufiyen Kültürü (Levant)) · Valla vd., «Eynan (Ain Mallaha)», Quaternary of the Levant (2017), Valla vd. 2007 raporuna atfen: GifA-70014 (122"
+  }
+ ],
+ "Ain Ghazal": [
+  {
+   "sira": 4481,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ppnb-guney-levant",
+   "f": "-8399-01-01",
+   "t": "-6749-01-01",
+   "mevcut_kaynak": "künye ppnb-guney-levant (PPNB — Çanak Öncesi Neolitik B (Güney Levant)) · Benz M. (ed.) exoriente PPND, 'Ain Ghazal sayfasi (Rollefson vd. 1985/1992; Zielhofer "
+  },
+  {
+   "sira": 4482,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ppnc-guney-levant",
+   "f": "-6749-01-01",
+   "t": "-6699-01-01",
+   "mevcut_kaynak": "künye ppnc-guney-levant (PPNC — Çanak Öncesi Neolitik C (Güney Levant)) · Benz M. (ed.) exoriente PPND, 'Ain Ghazal sayfasi (Rollefson vd. 1985/1992; Zielhofer "
+  }
+ ],
+ "Çayönü Tepesi": [
+  {
+   "sira": 4483,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-8629-01-01",
+   "t": "-7139-01-01",
+   "mevcut_kaynak": "künye aseramik-kuzey-levant-anadolu (Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)) · Benz M. (ed.) exoriente PPND, "
+  }
+ ],
+ "Göbekli Tepe": [
+  {
+   "sira": 4484,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-9528-01-01",
+   "t": "-7999-01-01",
+   "mevcut_kaynak": "künye aseramik-kuzey-levant-anadolu (Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)) · DAI Göbekli Tepe Araştırma Pro"
+  }
+ ],
+ "Anau": [
+  {
+   "sira": 4485,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "anau-ia-kultur",
+   "f": "-4299-01-01",
+   "t": "-3819-01-01",
+   "mevcut_kaynak": "künye anau-ia-kultur (Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)) · Heit 2019, Chap. 3, in Pollock, Bernbeck, Ogut (eds), Looking Closely vol. 1: Anau Ia,"
+  }
+ ],
+ "Shimao": [
+  {
+   "sira": 4486,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "shimao-kultur",
+   "f": "-2299-01-01",
+   "t": "-1799-01-01",
+   "mevcut_kaynak": "künye shimao-kultur (Shimao Kültürü (Shaanxi)) · Sun Zhouyong (孙周勇), Shao Jing, Di Nan, 「石峁遗址的考古发现与研究综述」, Zhongyuan Wenwu 2020(1); CSSN yeniden yayını"
+  }
+ ],
+ "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)": [
+  {
+   "sira": 4487,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yangshao",
+   "f": "-4899-01-01",
+   "t": "-3999-01-01",
+   "mevcut_kaynak": "künye yangshao (Yangshao Kültürü) · Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, Tablo 1 (Jiangzhai 'Estimated dates (cal. BC/AD)')"
+  }
+ ],
+ "Skara Brae": [
+  {
+   "sira": 4488,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "orkney-gec-neolitik",
+   "f": "-2901-01-01",
+   "t": "-2491-01-01",
+   "mevcut_kaynak": "künye orkney-gec-neolitik (Orkney Geç Neolitik / Grooved Ware (Skara Brae)) · Bayliss A., Marshall P., Richards C., Whittle A. 2017, 'Islands of history: the La"
+  }
+ ]
+}

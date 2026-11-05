@@ -1,0 +1,135 @@
+{
+ "Guanare": [
+  {
+   "sira": 4145,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1591-11-03",
+   "t": "1821-06-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4146,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4147,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Encarnación (Itapúa)": [
+  {
+   "sira": 4148,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1615-03-25",
+   "t": "1811-05-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4149,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "f": "1811-05-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Rafael (Fuerte San Rafael del Diamante)": [
+  {
+   "sira": 4150,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1805-04-02",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4151,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Rawlins": [
+  {
+   "sira": 4152,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cabo Juby (Tarfaya)": [
+  {
+   "sira": 4153,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1916-01-01",
+   "t": "1958-04-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Atâr (Adrar)": [
+  {
+   "sira": 4154,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4155,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moritanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Moritanya' (islamansiklopedisi.org.tr/moritanya) — «28"
+  }
+ ],
+ "el-Menîa (El Goléa)": [
+  {
+   "sira": 4156,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1962-07-05",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Puerto Maldonado": [
+  {
+   "sira": 4157,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1912-12-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

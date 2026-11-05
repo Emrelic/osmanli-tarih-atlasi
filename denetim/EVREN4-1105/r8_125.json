@@ -1,0 +1,90 @@
+{
+ "Eridu (Abu Shahrain)": [
+  {
+   "sira": 4472,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "mevcut_kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Lugalzagesi"
+  }
+ ],
+ "Megara Hyblaia (Megara Hyblaea)": [
+  {
+   "sira": 4473,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "megara-hyblaia",
+   "f": "-0727-01-01",
+   "t": "-0482-01-01",
+   "mevcut_kaynak": "ZINCIR-AVRUPA-H (24 Ekim 2026, kunyesi olup s: zinciri olmayan devletler): Thukydides 6.4.1-2 (Perseus 1999.01.0200): Lamis'in Megara'lıları Hyblaia'lı Megara'y"
+  }
+ ],
+ "Forfar": [
+  {
+   "sira": 4474,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1195-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "PoMS kaynak 382 = RRS ii no. 341: Kral William'ın William de Haya'ya «a full toft in the burgh of Forfar» bağışı, 1189×1195 (PoMS arama özeti); Canmore 33763 ht"
+  }
+ ],
+ "Doncaster": [
+  {
+   "sira": 4475,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1086-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Open Domesday, Doncaster (Strafforth, Yorkshire) https://opendomesday.org/place/SE5703/doncaster/ · künye ingiltere 0927-. kur = Domesday tanığı (terminus ante "
+  }
+ ],
+ "Dunkeld": [
+  {
+   "sira": 4476,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0865-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Annals of Ulster U865: «Tuathal son of Artgus, chief bishop of Foirtriu and abbot of Dún Caillen» https://celt.ucc.ie/published/T100001A/ · künye iskocya 0843-1"
+  }
+ ],
+ "Cerro Sechín": [
+  {
+   "sira": 4477,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "casma-sechin",
+   "f": "-2269-01-01",
+   "t": "-1649-01-01",
+   "mevcut_kaynak": "künye casma-sechin (Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto)) · Bischof H. 2009, 'Los periodos Arcaico Tardío, Arc"
+  }
+ ],
+ "La Blanca": [
+  {
+   "sira": 4478,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "la-blanca-formatif",
+   "f": "-0999-01-01",
+   "t": "-0599-01-01",
+   "mevcut_kaynak": "künye la-blanca-formatif (La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez) · Love, Michael 2006 (FAMSI, Julia Guernsey katkisiyla), The Contex"
+  }
+ ],
+ "Ebla": [
+  {
+   "sira": 4479,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ebla-1",
+   "f": "-2399-01-01",
+   "t": "-2309-01-01",
+   "mevcut_kaynak": "künye ebla-1 (Ebla Birinci Krallığı) · KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)"
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "Miles City (Tongue Irmağı)": [
+  {
+   "sira": 3808,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1877-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Port-la-Joye (Charlottetown)": [
+  {
+   "sira": 3809,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1720-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3811,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1873-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Prince Edward Island Terms of Union (Konsey kararı 26.06.1873; Justice Canada, Constitution Enactment No. 6): 'from and after the first day of July, one thousan"
+  }
+ ],
+ "Crow Agency (Apsáalooke)": [
+  {
+   "sira": 3812,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "karga",
+   "f": "1281-01-01",
+   "t": "1851-09-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3813,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-09-17",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "La Baye (Green Bay)": [
+  {
+   "sira": 3814,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1634-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3815,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3816,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Falmouth (Portland, Maine)": [
+  {
+   "sira": 3817,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1632-01-01",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3818,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Portsmouth (New Hampshire)": [
+  {
+   "sira": 3819,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1623-01-01",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3820,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Camas Ovası (Kuzey Şoşoni)": [
+  {
+   "sira": 3821,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sosoni",
+   "f": "1281-01-01",
+   "t": "1868-07-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3822,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-07-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Chicago (Fort Dearborn)": [
+  {
+   "sira": 3823,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1803-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "Luena (Moxico)": [
+  {
+   "sira": 4074,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4075,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Solwezi": [
+  {
+   "sira": 4077,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4078,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4079,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye zambiya f ucunun kaynağı — Zambia Independence Act 1964 (c.65), legislation.gov.uk/ukpga/1964/65/section/1 ; "
+  }
+ ],
+ "Kuito (Bié)": [
+  {
+   "sira": 4080,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4081,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nkhotakota (Cumbe)": [
+  {
+   "sira": 4083,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1840-01-01",
+   "t": "1895-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4084,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-01-01",
+   "t": "1964-07-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4085,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "malavi",
+   "f": "1964-07-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malavi f ucunun kaynağı — Malawi Independence Act 1964 (c.46), legislation.gov.uk/ukpga/1964/46/section/1 — «"
+  }
+ ],
+ "Serence (Serenje)": [
+  {
+   "sira": 4086,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4087,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4088,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye zambiya f ucunun kaynağı — Zambia Independence Act 1964 (c.65), legislation.gov.uk/ukpga/1964/65/section/1 ; "
+  }
+ ],
+ "Kabompo": [
+  {
+   "sira": 4089,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4090,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4091,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye zambiya f ucunun kaynağı — Zambia Independence Act 1964 (c.65), legislation.gov.uk/ukpga/1964/65/section/1 ; "
+  }
+ ],
+ "Kakonda (Caconda)": [
+  {
+   "sira": 4092,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1682-01-01",
+   "t": "1975-11-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Menongue": [
+  {
+   "sira": 4094,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4095,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "Slobozia (Transdinyester)": [
+  {
+   "sira": 4462,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "transdinyester",
+   "f": "1990-09-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Znaur": [
+  {
+   "sira": 4463,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "guney-osetya",
+   "f": "1992-05-29",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Hadrut": [
+  {
+   "sira": 4464,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "daglik-karabag",
+   "f": "1991-09-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Gudermes": [
+  {
+   "sira": 4465,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Dikelya (Dhekelia)": [
+  {
+   "sira": 4466,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kibris-ingiliz-ussler",
+   "f": "1960-08-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Speightstown": [
+  {
+   "sira": 4467,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "barbados",
+   "f": "1966-11-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Vieux Fort": [
+  {
+   "sira": 4468,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "saint-lucia",
+   "f": "1979-02-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Keningau": [
+  {
+   "sira": 4469,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kuzey-borneo-tac-kolonisi",
+   "f": "1946-07-15",
+   "t": "1963-09-16",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

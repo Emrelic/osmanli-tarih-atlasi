@@ -1,0 +1,171 @@
+{
+ "Vic (Ausona / Osona)": [
+  {
+   "sira": 3903,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "barselona-kontlugu",
+   "f": "1000-01-01",
+   "t": "1164-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3904,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1164-01-01",
+   "t": "1479-01-19",
+   "mevcut_kaynak": "Künye hizası: barselona-kontlugu t 1164-01-01 ve Aragon Tacı birleşme maddesi (II. Alfonso, 1164) ile; Barselona, Lleida, Girona zincirleri de 1164. Eski 1162 y"
+  }
+ ],
+ "Zamora": [
+  {
+   "sira": 3906,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1230-09-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3907,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1479-01-19",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Richmond (Virjinya)": [
+  {
+   "sira": 3908,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "konfedere-devletler",
+   "f": "1861-05-08",
+   "t": "1865-05-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3909,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1865-05-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Skálholt": [
+  {
+   "sira": 3910,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "izlanda",
+   "f": "1918-12-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3911,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "1056-01-01",
+   "t": "1262-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3912,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "izlanda-norvec-danimarka",
+   "f": "1262-01-01",
+   "t": "1918-12-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pointe-à-Pitre": [
+  {
+   "sira": 3913,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "guadeloupe",
+   "f": "1764-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cap-Français (Cap-Haïtien)": [
+  {
+   "sira": 3914,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "saint-domingue",
+   "f": "1697-01-01",
+   "t": "1804-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3915,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haiti",
+   "f": "1804-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Heidelberg": [
+  {
+   "sira": 3916,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "baden",
+   "f": "1803-02-25",
+   "t": "1918-11-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3917,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-22",
+   "t": "1945-06-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3918,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pfalz",
+   "f": "1214-01-01",
+   "t": "1803-02-25",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Durlach (Karlsruhe)": [
+  {
+   "sira": 3922,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "baden",
+   "f": "1565-01-01",
+   "t": "1918-11-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3923,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-22",
+   "t": "1945-06-05",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

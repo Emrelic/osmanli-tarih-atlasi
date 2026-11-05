@@ -1,0 +1,90 @@
+{
+ "Lins": [
+  {
+   "sira": 4169,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1913-12-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Itaguaçu (Boa Família)": [
+  {
+   "sira": 4170,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1891-03-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tanabi": [
+  {
+   "sira": 4171,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1906-08-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Araguaiana (Registro do Araguaia)": [
+  {
+   "sira": 4172,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1899-05-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tarauacá (Seabra)": [
+  {
+   "sira": 4173,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1907-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Altamira": [
+  {
+   "sira": 4174,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1911-11-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Canutama": [
+  {
+   "sira": 4175,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1891-10-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cruzeiro do Sul": [
+  {
+   "sira": 4176,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1904-09-28",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

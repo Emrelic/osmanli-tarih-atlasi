@@ -1,0 +1,126 @@
+{
+ "Gordion": [
+  {
+   "sira": 4394,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "lidya",
+   "f": "-0624-01-01",
+   "t": "-0545-01-01",
+   "mevcut_kaynak": "künye lidya (Britannica ‘Lydia’) · worldhistory.org Phrygia timeline: Lydia c. 625’te Frigya’yı aldı; Croesus altında Lidya imparatorluğu içinde kaldı (Wikipedi"
+  },
+  {
+   "sira": 4395,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "frigya",
+   "f": "-0737-01-01",
+   "t": "-0624-01-01",
+   "mevcut_kaynak": "künye frigya (yeni, boya_gerekli) · worldhistory.org Phrygia timeline: Midas Gordion’da c. MÖ 738-696; Lidya Kimmerleri geri püskürtüp Frigya’yı c. MÖ 625’te al"
+  },
+  {
+   "sira": 4396,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "hitit",
+   "f": "-1649-01-01",
+   "t": "-1199-01-01",
+   "mevcut_kaynak": "künye hitit (Hitit Krallığı ve İmparatorluğu (Hatti)) · Kealhofer vd. 2019 Radiocarbon 61(2) özeti: 'disengagement from Hittite hegemony in the 12th c. BCE' — y"
+  },
+  {
+   "sira": 4397,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0737-01-01",
+   "mevcut_kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Hitit çöküşü (MÖ ~1200) ile Frig krallığının Gordion’da görünmesi (c. MÖ 9.-8. yy) arası siyasî sahip kaynakta belirtilmemiş"
+  }
+ ],
+ "Léva (Levice)": [
+  {
+   "sira": 4398,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye slovakya f ucunun kaynağı — https://timeline.web.cern.ch/node/405 ; https://enrsi.stvr.sk/articles/news/34929"
+  }
+ ],
+ "Segu (Ségou)": [
+  {
+   "sira": 4399,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mali f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mali' (islamansiklopedisi.org.tr/mali) — «22 Eylül 1960 tar"
+  }
+ ],
+ "Calakmul": [
+  {
+   "sira": 4400,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kaanul",
+   "f": "0636-01-01",
+   "t": "0909-01-01",
+   "mevcut_kaynak": "künye kaanul (Kaanul (Kaan, Yılan Krallığı)) · Martin, Simon & Nikolai Grube. Chronicle of the Maya Kings and Queens, 2nd ed. London: Thames & Hudson, 2008, 'Ca"
+  }
+ ],
+ "Taksila (Taxila)": [
+  {
+   "sira": 4401,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "gandhara-mahajanapada",
+   "f": "-0549-01-01",
+   "t": "-0517-01-01",
+   "mevcut_kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. II: The Age of Imperial Unity, Bharatiya Vidya Bhavan, Bombay (archive.org: ageofimperi"
+  }
+ ],
+ "Dhâr": [
+  {
+   "sira": 4402,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "paramara",
+   "f": "1000-01-01",
+   "t": "1055-01-01",
+   "mevcut_kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay (archive.org: struggleforemp"
+  },
+  {
+   "sira": 4403,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "paramara",
+   "f": "1161-01-01",
+   "t": "1305-01-01",
+   "mevcut_kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay (archive.org: struggleforemp"
+  }
+ ],
+ "Khajuraho": [
+  {
+   "sira": 4404,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "candela",
+   "f": "0950-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay (archive.org: ageofimper"
+  }
+ ],
+ "Forteviot": [
+  {
+   "sira": 4405,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0858-02-13",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Chronicle of the Kings of Alba: Cináed mac Ailpín 'Forteviot sarayında' (palatium Fothuirtabaicht) şubat idusunda öldü (13 Şubat 858) [Woolf 2007; Anderson — sa"
+  }
+ ]
+}

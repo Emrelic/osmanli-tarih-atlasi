@@ -1,0 +1,144 @@
+{
+ "Atlin": [
+  {
+   "sira": 3781,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1898-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Skagway": [
+  {
+   "sira": 3782,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1897-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Vermilion güneyi — Peace Point": [
+  {
+   "sira": 3783,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3784,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Katmai (Alaska Yarımadası)": [
+  {
+   "sira": 3785,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "alutiiq",
+   "f": "1281-01-01",
+   "t": "1784-08-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3786,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1784-08-14",
+   "t": "1867-10-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3787,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Ware (Kwadacha)": [
+  {
+   "sira": 3788,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3789,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Wrangell (Redut Sv. Dionisiy)": [
+  {
+   "sira": 3790,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1834-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3791,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Severn güneyi — Winisk": [
+  {
+   "sira": 3792,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kri",
+   "f": "1281-01-01",
+   "t": "1876-08-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3793,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1876-08-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Attawapiskat": [
+  {
+   "sira": 3794,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1893-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

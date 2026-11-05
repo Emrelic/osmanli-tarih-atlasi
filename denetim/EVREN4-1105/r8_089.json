@@ -1,0 +1,144 @@
+{
+ "Fort Des Moines": [
+  {
+   "sira": 3824,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1843-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Saukenuk (Sauk)": [
+  {
+   "sira": 3825,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sauk",
+   "f": "1281-01-01",
+   "t": "1832-09-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3826,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1832-09-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kuzey Payut (Kara Kaya Çölü)": [
+  {
+   "sira": 3827,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "payut",
+   "f": "1281-01-01",
+   "t": "1872-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3828,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1872-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Duquesne (Pittsburgh)": [
+  {
+   "sira": 3829,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1754-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3830,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3831,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Denver": [
+  {
+   "sira": 3832,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1858-11-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Baltimore": [
+  {
+   "sira": 3833,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1729-01-01",
+   "t": "1776-07-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3834,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Genoa (Nevada)": [
+  {
+   "sira": 3835,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "St. Louis": [
+  {
+   "sira": 3836,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1764-02-14",
+   "t": "1804-03-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3837,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1804-03-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Louisiana devri 1803-12-20 (New Orleans); St. Louis hiç Meksika olmadı. Yukarı Louisiana töreni 1804-03-10 kaynakla DOĞRULANMADI — DUNYA-0079"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "Carauari": [
+  {
+   "sira": 4177,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1912-12-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San José de Jáchal": [
+  {
+   "sira": 4178,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1751-06-25",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4179,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fortín Muñoz (General Díaz)": [
+  {
+   "sira": 4180,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1923-08-15",
+   "t": "1923-10-29",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Esquel": [
+  {
+   "sira": 4181,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1906-02-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Clemente (Şili)": [
+  {
+   "sira": 4182,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1891-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Antonio de los Cobres": [
+  {
+   "sira": 4183,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1902-09-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Villa Ojo de Agua": [
+  {
+   "sira": 4184,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1884-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Felipe (Aconcagua)": [
+  {
+   "sira": 4185,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1740-08-03",
+   "t": "1818-02-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4186,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

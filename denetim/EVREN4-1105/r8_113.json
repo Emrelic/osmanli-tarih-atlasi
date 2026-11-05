@@ -1,0 +1,288 @@
+{
+ "Lošinj (Lussino)": [
+  {
+   "sira": 4247,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1358-02-18",
+   "mevcut_kaynak": "Cres emsali (Cres-Osor takımadası): LZMK 'Zadarski mir' — Venedik 'Osor, Cres …' adalarından 18.II.1358'de vazgeçti; HE 'Lošinj': orta çağda Osor kilise ve düny"
+  },
+  {
+   "sira": 4248,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1409-01-01",
+   "mevcut_kaynak": "Cres emsali (LZMK 'Zadarski mir')"
+  },
+  {
+   "sira": 4249,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1409-01-01",
+   "t": "1797-10-17",
+   "mevcut_kaynak": "Cres emsali: HE 'Cres (otok)': 'Ponovno je pod mletačkom vlašću 1409–1797.' · BEYAN: Lošinj'e özel tanık bulunamadı"
+  },
+  {
+   "sira": 4250,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1797-10-17",
+   "t": "1806-01-01",
+   "mevcut_kaynak": "Cres emsali: HE 'Cres (otok)' Avusturya 1797-1805"
+  },
+  {
+   "sira": 4251,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1806-01-01",
+   "t": "1809-01-01",
+   "mevcut_kaynak": "Cres emsali (olaylar_ilirya_0072.js Kvarner hükmü)"
+  },
+  {
+   "sira": 4252,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-01-01",
+   "t": "1813-01-01",
+   "mevcut_kaynak": "Cres emsali (İlirya Eyaletleri)"
+  },
+  {
+   "sira": 4253,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1919-09-10",
+   "mevcut_kaynak": "Cres emsali; HE 'Lošinj': 1854 nautik okul, 1892 iklim kürortu (Avusturya idaresi)"
+  },
+  {
+   "sira": 4254,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "mevcut_kaynak": "Saint-Germain md. 91 (Cres emsali); HE 'Lošinj': 1918'den İtalyan idaresi"
+  },
+  {
+   "sira": 4255,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italya",
+   "f": "1920-11-12",
+   "t": "1946-06-18",
+   "mevcut_kaynak": "Rapallo md. 2-3 (Cres emsali); HE 'Lošinj': 'nakon sloma Monarhije 1918. otok je pripao Italiji', 1943'e dek"
+  },
+  {
+   "sira": 4257,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1947-09-15",
+   "t": "1991-06-25",
+   "mevcut_kaynak": "Paris Barış Antlaşması 1947 (Cres emsali); HE 'Lošinj': WWII sonrası Kvarner adaları Hırvatistan'a"
+  }
+ ],
+ "Subotica (Szabadka)": [
+  {
+   "sira": 4258,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1686-10-23",
+   "t": "1918-11-16",
+   "mevcut_kaynak": "HE «Subotica»: 1686 Habsburg birlikleri işgal etti (YIL; gün komşudan: Segedin) · Karlofça 1699"
+  },
+  {
+   "sira": 4259,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1920-06-04",
+   "mevcut_kaynak": "de jure Trianon'a dek (Varadin/Baç emsali)"
+  },
+  {
+   "sira": 4260,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1920-06-04",
+   "t": "1941-04-11",
+   "mevcut_kaynak": "Trianon (4 Haziran 1920) · Magyar Katolikus Lexikon «Szabadka»"
+  },
+  {
+   "sira": 4261,
+   "sinif": "DIGER",
+   "alan": "v",
+   "d": "",
+   "f": "1526-11-10",
+   "t": "1541-08-29",
+   "mevcut_kaynak": "Temeşvar emsali · 1526-27 Jovan Nenad'ın Szabadka merkezli kısa hâkimiyeti künyesiz — yazılmadı"
+  },
+  {
+   "sira": 4262,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-13",
+   "t": "1918-12-01",
+   "mevcut_kaynak": "Domonkos L., Trianoni Szemle 2018/3-4: Sırp birlikleri 13 Kasım 1918 akşamı Szabadka'ya girdi"
+  },
+  {
+   "sira": 4263,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "yugoslavya",
+   "f": "1918-12-01",
+   "t": "1920-06-04",
+   "mevcut_kaynak": "SHS askerî işgali, künye geçişi (Temeşvar emsali)"
+  },
+  {
+   "sira": 4264,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1944-10-10",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Subotica Kızıl Ordu ve partizanlarca alındı — Macar işgal"
+  },
+  {
+   "sira": 4265,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Sırbistan ve Karadağ Yugoslavya Federal Cumhuriyeti'ni i"
+  },
+  {
+   "sira": 4266,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Sırbistan ve Karadağ Yugoslavya Federal Cumhuriyeti'ni il"
+  }
+ ],
+ "Erdel Belgradı (Gyulafehérvár)": [
+  {
+   "sira": 4267,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1551-07-26",
+   "t": "1556-03-12",
+   "mevcut_kaynak": "History of Transylvania I (MTA) s.102 · künye macaristan-habsburg (harita: macaristan)"
+  },
+  {
+   "sira": 4268,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 4269,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Drežnik (Drežnik Grad)": [
+  {
+   "sira": 4272,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1527-01-01",
+   "mevcut_kaynak": "HE: 1323-1578 Frankapan mülkü"
+  },
+  {
+   "sira": 4273,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1791-08-04",
+   "t": "1809-10-14",
+   "mevcut_kaynak": "Ziştovi 4 Ağustos 1791 (Korić 2016 n.118, 4. madde)"
+  },
+  {
+   "sira": 4275,
+   "sinif": "DIGER",
+   "alan": "d",
+   "d": "",
+   "f": "1592-01-01",
+   "t": "1791-08-04",
+   "mevcut_kaynak": "HE Drežnik Grad 1592 (YIL). 1683 ('kratak prekid') ve 1697–99 Habsburg aralıkları gün/ay yok — modellenmedi, rapor §5"
+  },
+  {
+   "sira": 4276,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "macaristan-habsburg",
+   "f": "1788-01-01",
+   "t": "1791-08-04",
+   "mevcut_kaynak": "HE Drežnik Grad 'do 1788.' (YIL) · Korić 2016 1790 der — çelişki"
+  }
+ ],
+ "Ogooué havzası": [
+  {
+   "sira": 4277,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1837-01-01",
+   "t": "1960-08-17",
+   "mevcut_kaynak": "gabon"
+  }
+ ],
+ "Anchorage": [
+  {
+   "sira": 4278,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1915-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "YIL: Cook Inlet Historical Society, Legends & Legacies, Anchorage 1910-1940 — Anchorage Timeline (alaskahistory.org/anchorage-timeline): «1915, spring: “Tent Ci"
+  }
+ ],
+ "Pembina": [
+  {
+   "sira": 4279,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1818-10-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "1818 Konvansiyonu md. II (Avalon): 49. paralel 'shall form the Northern Boundary of the said Territories of the United States … from the Lake of the Woods to th"
+  }
+ ],
+ "Duluth (Fond du Lac)": [
+  {
+   "sira": 4280,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1793-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "1783 Paris Antlaşması md. II sınırı Lake Superior'un kuzeyinden geçirir ⇒ yer de jure ABD (Avalon paris.asp) · NWC Fort St. Louis 1793 (Connor's Point, Superior"
+  }
+ ]
+}

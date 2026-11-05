@@ -1,0 +1,99 @@
+{
+ "Dunedin": [
+  {
+   "sira": 4224,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1848-03-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Invercargill": [
+  {
+   "sira": 4225,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1856-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "New Plymouth": [
+  {
+   "sira": 4226,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Whanganui": [
+  {
+   "sira": 4227,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Taupō": [
+  {
+   "sira": 4228,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1868-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Blenheim": [
+  {
+   "sira": 4229,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1856-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Queenstown (Yeni Zelanda)": [
+  {
+   "sira": 4230,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1862-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Campbell Town (Tazmanya)": [
+  {
+   "sira": 4231,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1821-01-01",
+   "t": "1825-12-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4232,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "van-diemens-land",
+   "f": "1825-12-03",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

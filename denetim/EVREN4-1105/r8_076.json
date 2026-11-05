@@ -1,0 +1,180 @@
+{
+ "Zanzibar (Zengibar)": [
+  {
+   "sira": 3573,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1503-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3574,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1503-01-01",
+   "t": "1698-12-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3575,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1698-12-13",
+   "t": "1890-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Quelimane": [
+  {
+   "sira": 3576,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1544-01-01",
+   "t": "1974-09-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3577,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mozambik-gecis-hukumeti f ucunun kaynağı — https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_th"
+  },
+  {
+   "sira": 3578,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Bagimsizlik 1975-06-25"
+  }
+ ],
+ "Luanda": [
+  {
+   "sira": 3579,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1575-01-01",
+   "t": "1975-11-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Madang": [
+  {
+   "sira": 3581,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1884-11-03",
+   "t": "1914-09-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3582,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-09-17",
+   "t": "1949-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3583,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  },
+  {
+   "sira": 3584,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  }
+ ],
+ "Akureyri": [
+  {
+   "sira": 3585,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "izlanda",
+   "f": "1918-12-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3586,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "0930-01-01",
+   "t": "1262-01-01",
+   "mevcut_kaynak": "lex.dk (Den Store Danske), 'Island – historie', https://lex.dk/Island_-_historie (Danca): Alþingi 930 (yıl); Norveç kralı Håkon 4. Håkonsson'a vergi veren eyale"
+  },
+  {
+   "sira": 3587,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "izlanda-norvec-danimarka",
+   "f": "1262-01-01",
+   "t": "1918-12-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İzlanda reisleri Norveç Kralı IV. Hákon'a bağlılık yemini"
+  }
+ ],
+ "Melbourne": [
+  {
+   "sira": 3588,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1835-08-30",
+   "t": "1851-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3589,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "viktorya-kolonisi",
+   "f": "1851-07-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Wellington": [
+  {
+   "sira": 3591,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Christchurch": [
+  {
+   "sira": 3592,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1850-12-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

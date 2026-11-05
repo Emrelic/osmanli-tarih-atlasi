@@ -1,0 +1,126 @@
+{
+ "Gbarnga": [
+  {
+   "sira": 4000,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bria": [
+  {
+   "sira": 4001,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "banda-gbaya",
+   "f": "1281-01-01",
+   "t": "1903-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4002,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1903-01-01",
+   "t": "1960-08-13",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Monrovia": [
+  {
+   "sira": 4003,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Onitsha": [
+  {
+   "sira": 4004,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "benin-kralligi",
+   "f": "1281-01-01",
+   "t": "1897-02-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4005,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1897-02-18",
+   "t": "1960-10-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Aroçukvu": [
+  {
+   "sira": 4006,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "aro-konfederasyonu",
+   "f": "1690-01-01",
+   "t": "1902-03-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4007,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1902-03-01",
+   "t": "1960-10-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Grand Cess (Kru)": [
+  {
+   "sira": 4008,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kru-grebo",
+   "f": "1281-01-01",
+   "t": "1822-04-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4009,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Gulu": [
+  {
+   "sira": 4010,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1911-01-01",
+   "t": "1962-10-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Lira": [
+  {
+   "sira": 4011,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1911-01-01",
+   "t": "1962-10-09",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

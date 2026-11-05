@@ -1,0 +1,99 @@
+{
+ "Cottbus": [
+  {
+   "sira": 4453,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Batı Berlin (Charlottenburg)": [
+  {
+   "sira": 4454,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "berlin-bati",
+   "f": "1948-12-07",
+   "t": "1990-10-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Grammos (DSE üssü)": [
+  {
+   "sira": 4455,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yunanistan-gecici-demokratik-hukumet",
+   "f": "1947-12-24",
+   "t": "1949-08-28",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Glina": [
+  {
+   "sira": 4456,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Vukovar": [
+  {
+   "sira": 4457,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pale": [
+  {
+   "sira": 4458,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Posušje": [
+  {
+   "sira": 4459,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Peç (Pejë)": [
+  {
+   "sira": 4460,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kosova-golge-cumhuriyeti",
+   "f": "1991-09-22",
+   "t": "1999-06-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4461,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "unmik-kosova",
+   "f": "1999-06-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "BM GK 1244 (10.06.1999) — atlas Prizren emsali; olaylar 1999-06-10 maddesi"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "Tenkodogo": [
+  {
+   "sira": 3981,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mossi-vagadugu",
+   "f": "1281-01-01",
+   "t": "1896-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3982,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-09-01",
+   "t": "1960-08-05",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bobo-Diulasso": [
+  {
+   "sira": 3983,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mossi-vagadugu",
+   "f": "1281-01-01",
+   "t": "1896-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3984,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-09-01",
+   "t": "1960-08-05",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Timbo": [
+  {
+   "sira": 3985,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "futa-callon",
+   "f": "1747-01-01",
+   "t": "1896-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3986,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-01-01",
+   "t": "1958-10-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3987,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye gine f ucunun kaynağı — TDV 'Gine' (islamansiklopedisi.org.tr/gine) — «bağımsız Gine devleti resmen ilân edil"
+  }
+ ],
+ "Bisandugu": [
+  {
+   "sira": 3988,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3989,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-09-29",
+   "t": "1958-10-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3990,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye gine f ucunun kaynağı — TDV 'Gine' (islamansiklopedisi.org.tr/gine) — «bağımsız Gine devleti resmen ilân edil"
+  }
+ ],
+ "Konakri (Conakry)": [
+  {
+   "sira": 3991,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1885-01-01",
+   "t": "1958-10-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3992,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye gine f ucunun kaynağı — TDV 'Gine' (islamansiklopedisi.org.tr/gine) — «bağımsız Gine devleti resmen ilân edil"
+  }
+ ],
+ "İlorin": [
+  {
+   "sira": 3993,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1817-01-01",
+   "t": "1897-02-16",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3994,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1897-02-16",
+   "t": "1960-10-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nzerekore": [
+  {
+   "sira": 3995,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3996,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1958-10-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3997,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye gine f ucunun kaynağı — TDV 'Gine' (islamansiklopedisi.org.tr/gine) — «bağımsız Gine devleti resmen ilân edil"
+  }
+ ],
+ "Man": [
+  {
+   "sira": 3998,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3999,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-07",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

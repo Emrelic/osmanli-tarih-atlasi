@@ -1,0 +1,108 @@
+{
+ "Boulia": [
+  {
+   "sira": 3636,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1879-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Rockhampton": [
+  {
+   "sira": 3638,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1855-01-01",
+   "t": "1859-06-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3639,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1859-06-06",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Winton": [
+  {
+   "sira": 3641,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1876-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Blackall": [
+  {
+   "sira": 3643,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1867-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Charters Towers": [
+  {
+   "sira": 3645,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1872-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Halls Creek": [
+  {
+   "sira": 3647,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1885-08-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bowen": [
+  {
+   "sira": 3649,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1861-04-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Darwin (Palmerston)": [
+  {
+   "sira": 3651,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1869-02-01",
+   "t": "1911-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3652,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1911-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

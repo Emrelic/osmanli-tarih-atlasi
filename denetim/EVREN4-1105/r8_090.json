@@ -1,0 +1,135 @@
+{
+ "Uncompahgre (Ute)": [
+  {
+   "sira": 3838,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ute",
+   "f": "1281-01-01",
+   "t": "1880-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3839,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1880-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bent's Fort": [
+  {
+   "sira": 3840,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1833-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bishop (Owens Vadisi Payutları)": [
+  {
+   "sira": 3841,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "payut",
+   "f": "1281-01-01",
+   "t": "1872-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3842,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1872-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Draper's Meadow (Blacksburg)": [
+  {
+   "sira": 3843,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1748-01-01",
+   "t": "1776-07-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3844,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Supply (Kuzeybatı Toprakları, Oklahoma)": [
+  {
+   "sira": 3845,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Timbisha (Ölüm Vadisi)": [
+  {
+   "sira": 3846,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sosoni",
+   "f": "1281-01-01",
+   "t": "1868-07-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3847,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-07-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Las Vegas (Yeni Meksika)": [
+  {
+   "sira": 3848,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1835-01-01",
+   "t": "1848-02-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3849,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Guadalupe Hidalgo Antlaşması (imza 1848-02-02) — DUNYA-0079; gün, aynı hattaki mevcut 6 noktayla (San Francisco, San Diego, Santa Fe…) aynı kırılma"
+  }
+ ],
+ "Fort Smith": [
+  {
+   "sira": 3850,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1817-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

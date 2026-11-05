@@ -1,0 +1,144 @@
+{
+ "Pavia": [
+  {
+   "sira": 4406,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "langobard",
+   "f": "0572-01-01",
+   "t": "0774-06-01",
+   "mevcut_kaynak": "ZINCIR-BATI (23 Ekim 2026 Emre karari, MS1-1281): f: Treccani EI 'Alboino' (treccani.it/enciclopedia/alboino_(Enciclopedia-Italiana)/) — 'Pavia resistette per t"
+  }
+ ],
+ "Spoleto": [
+  {
+   "sira": 4407,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "spoleto-dukaligi",
+   "f": "0571-01-01",
+   "t": "1198-01-01",
+   "mevcut_kaynak": "ZINCIR-BATI (23 Ekim 2026 Emre karari, MS1-1281): Enciclopedia Italiana (1936), 'Spoleto' (https://www.treccani.it/enciclopedia/spoleto_(Enciclopedia-Italiana)/"
+  }
+ ],
+ "Mikulcice": [
+  {
+   "sira": 4408,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "buyuk-moravya",
+   "f": "0833-01-01",
+   "t": "0907-01-01",
+   "mevcut_kaynak": "KRON-ALMANYA (28 Ekim 2026): künye buyuk-moravya (833-907) · Mikulčice-Valy Büyük Moravya'nın merkez hradiştesidir: Archeologický ústav AV ČR / starfos RIV/6808"
+  }
+ ],
+ "Winchester": [
+  {
+   "sira": 4409,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0643-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 643: Cenwalh Wessex tahtına geçti ve Winchester'da St Peter kilisesini (Old Minster) yaptırdı (Ingram/Giles çevirisi s.a. 643: «ordered the o"
+  },
+  {
+   "sira": 4410,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "künye ingiltere f=0927 (ASC 927) · ASC (Ingram/Giles) s.a. 951-964: Winchester piskoposluğu, Old Minster/New Minster İngiltere krallarının mezar ve taht merkezi"
+  }
+ ],
+ "Bamburgh": [
+  {
+   "sira": 4411,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0604-01-01",
+   "t": "0954-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 547: Ida krallığa başladı ve Bamburgh'u (Bebbanburg) yaptı (Ingram s.a. 547: «He built Bamburgh-Castle») [kur] · künye northumbria 0604-0954 "
+  },
+  {
+   "sira": 4412,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "ASC 954 + künye ingiltere · ASC (Ingram) s.a. 1095: Kral William Rufus ile Northumberland Kontu Robert Mowbray çatışması (Bamburgh kuşatması) [Ingram s.a. 1095'"
+  }
+ ],
+ "Verulamium": [
+  {
+   "sira": 4413,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "0043-01-01",
+   "t": "0395-01-17",
+   "mevcut_kaynak": "Tacitus Annales XIV.33: Verulamium municipium, 60/61 Boudicca isyanında yağmalandı [sayfa teyidi bekler]; Frere, Britannia (1987); Historic England 'Verulamium'"
+  },
+  {
+   "sira": 4414,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0410-01-01",
+   "mevcut_kaynak": "künye bati-roma f=0395-01-17; t: 410 Honorius yazısı (Zosimus VI.10) [sayfa teyidi bekler]; BEYANLI YAKLAŞIKLIK."
+  }
+ ],
+ "Rochester": [
+  {
+   "sira": 4415,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "künye ingiltere f=0927 · BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "sira": 4416,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kent-kralligi",
+   "f": "0604-01-01",
+   "t": "0825-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 604 (Ingram s.a. 604: «to Justus he gave the bishopric of Rochester, which is twenty-four miles from Canterbury»); Bede HE II.3 · künye kent-"
+  },
+  {
+   "sira": 4417,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0825-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "ASC 825 (Kent teslimi, Ingram s.a. 823) · künye wessex t=0927."
+  }
+ ],
+ "Hexham": [
+  {
+   "sira": 4418,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0681-01-01",
+   "t": "0954-01-01",
+   "mevcut_kaynak": "ASC (Swanton) s.a. 681 (Ingram s.a. 681: «Trumbert was consecrated Bishop of Hexham») ; Bede HE IV.12 · künye northumbria 0604-0954. BEYANLI YAKLAŞIKLIK: Hexham"
+  },
+  {
+   "sira": 4419,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "ASC 954 (Eric sürüldü, Edred Northumbria'yı aldı) · künye ingiltere f=0927. BEYANLI YAKLAŞIKLIK: 11-13. yy İskoç işgalleri ve 1138-57 David I dönemi modellenmed"
+  }
+ ]
+}
