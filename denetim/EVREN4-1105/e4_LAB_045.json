@@ -352,7 +352,7 @@
    "alinti": "",
    "uc": "t",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | 1603-03-30 Mellifont, Tyrone'un teslimidir; Tír Chonaill lordu Ruaidhrí Aralık 1602'de Athlone'da teslim oldu, 1603'te kontluk (arama özeti). Donegal için gün teyit edilmedi."
+   "not": "LAB SALI (origin/main ölçümü): zincir uyumlu, bitişik: irlanda-dail-cumhuriyeti → irlanda-serbest-devlet (→ 1937-12-29) → irlanda-cumhuriyeti (f 1937-12-29); değişiklik gerekmez. | KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | 1603-03-30 Mellifont, Tyrone'un teslimidir; Tír Chonaill lordu Ruaidhrí Aralık 1602'de Athlone'da teslim oldu, 1603'te kontluk (arama özeti). Donegal için gün teyit edilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:160",
@@ -365,7 +365,7 @@
    "alinti": "Whole Act 29 D",
    "uc": "f",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | Alıntı pencere sınırında kesik ('Whole Act 29 D') — tam '29 December 1937' metni başka makinede gözle teyit edilecek. | Resmî devlet yayını: Commencement tablosu 'Whole Act 29 D[ecember 1937]' (sayfa.py çıktısı pencere sınırında kesildi). ÜLKE DÜZEYİ."
+   "not": "LAB SALI (origin/main ölçümü): zincir uyumlu, bitişik: irlanda-dail-cumhuriyeti → irlanda-serbest-devlet (→ 1937-12-29) → irlanda-cumhuriyeti (f 1937-12-29); değişiklik gerekmez. | KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | Alıntı pencere sınırında kesik ('Whole Act 29 D') — tam '29 December 1937' metni başka makinede gözle teyit edilecek. | Resmî devlet yayını: Commencement tablosu 'Whole Act 29 D[ecember 1937]' (sayfa.py çıktısı pencere sınırında kesildi). ÜLKE DÜZEYİ."
   }
  ],
  "Douglas (Arizona)": [
@@ -519,7 +519,7 @@
    "oneri": {
     "t": "1860-10-21"
    },
-   "not": "KARAR EMRELİC (gece-124): TAHRİR (Toskana/Piombino emsali): s: italya/sardinya 1860-12-17 (ilhak kararnamesi); iki-sicilya t = Garibaldi kuvvetlerinin Foggia'yı fiilen denetimi (1860-09, kaynakla); o günden 12-17'ye 'Garibaldi diktatörlüğü' BEYANLI (rakip hükûmet; künye adayı LAB SALI); plebisit 1860-10-21 ve Gaeta 1861-02-13 ic_not. | TAHRİR/TEK ÖLÇÜ sorusu: Garibaldi diktatörlüğü 1860-09 → plebisit 1860-10-21 → ilhak kararnamesi 1860-12-17; Gaeta 1861-02-13 Bourbon kapitülasyonu Foggia'yı tarihlemez — EMRELİC'e soruldu. | Kaynak anneksiyonu 21 Ekim 1860 plebisiti diyor (ÜLKE DÜZEYİ); atlas t=1861-02-13 (Gaeta). TEK ÖLÇÜ: Foggia'nın fiilî teslim günü bilinmiyor; plebisit ≠ teslim, karar Emre'ye. f 1281 kaynak yok."
+   "not": "LAB SALI (origin/main ölçümü): Garibaldi diktatörlüğü künyesi YOK, aday (Sicilya 1860-05-14 Salemi, anakara 1860-09-07, ilhak 1860-12-17). Zincir: napoli → Garibaldi fiilî (1860-09) → 1860-12-17 sardinya-piyemonte → 1861-03-17 italya; napoli t 1861-02-13 (Gaeta) Bourbon direnişi için doğru. | KARAR EMRELİC (gece-124): TAHRİR (Toskana/Piombino emsali): s: italya/sardinya 1860-12-17 (ilhak kararnamesi); iki-sicilya t = Garibaldi kuvvetlerinin Foggia'yı fiilen denetimi (1860-09, kaynakla); o günden 12-17'ye 'Garibaldi diktatörlüğü' BEYANLI (rakip hükûmet; künye adayı LAB SALI); plebisit 1860-10-21 ve Gaeta 1861-02-13 ic_not. | TAHRİR/TEK ÖLÇÜ sorusu: Garibaldi diktatörlüğü 1860-09 → plebisit 1860-10-21 → ilhak kararnamesi 1860-12-17; Gaeta 1861-02-13 Bourbon kapitülasyonu Foggia'yı tarihlemez — EMRELİC'e soruldu. | Kaynak anneksiyonu 21 Ekim 1860 plebisiti diyor (ÜLKE DÜZEYİ); atlas t=1861-02-13 (Gaeta). TEK ÖLÇÜ: Foggia'nın fiilî teslim günü bilinmiyor; plebisit ≠ teslim, karar Emre'ye. f 1281 kaynak yok."
   }
  ]
 }
