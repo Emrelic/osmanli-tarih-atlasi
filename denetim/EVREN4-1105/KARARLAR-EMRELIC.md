@@ -782,3 +782,17 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
     - kuzeyindeyse Bakü gibi 1735-03-21'e kadar `rusya`.
   - Ayrıca Mahmudâbâd'ın `rusya` f'si 1723-09-23 (Petersburg Antlaşması imzası). TEK ÖLÇÜ'ye göre Rusya yeri yönetmiyorsa teslim günü olmalı. Sonraki tur.
   - Yan bulgu (sonraki tur): üç kayıtta da 1747-06-20 → 1794 `zend` var. Zend idaresi Şirvan'a ulaşmadı; bu yıllar yerel hanlıklar (Bakü, Derbend/Kuba, Salyan) dönemidir. Hayalet ve yanlış sahip şüphesi.
+
+## 5 Kasım 2026 gece-111 — ZEND + KAÇAR Kafkas turu kuralı (EMRELİC; ölçüm ZEND-KAFKAS-OLCUM.md)
+
+- **Kapsam:** kutudaki 23 `zend` ve 23 `kacar` dilimi aynı turda. Önce sayı, sonra kaynak turu (LAB v2'den sonra). Uygulama KASA PAZAR'ındır.
+- **Kuzey hanlıkları (1747 sonrası fiilen yarı bağımsız):**
+  - `s:` hanlık künyesidir.
+  - Zend ya da Kaçar bağlılığı kaynaklıysa `v:` olarak yazılır, değilse hiç yazılmaz.
+- **Rus geçişleri:** fiilî alış günü (rakip hükûmet kuralı). Gence 1804, Karabağ ve Şeki 1805 Kürekçay, Şirvan 1805, Derbend, Bakü ve Kuba 1806. Rus günleri O.S. → N.S. çevrilir.
+  - Gülistan 1813-10-24 ve Türkmençay 1828 (Revan, Nahçıvan, Talış'ın bir kısmı) yalnız gerçekten o gün teslim edilen yerde uç olur; öteki yerlerde `ic_not`a yazılır.
+- **Güney (İran Azerbaycanı):**
+  - 1747–1762 arası yerel hanlıklar (Tebriz, Urmiye, Hoy vb.; Âzâd Han Afgan dönemi dahil) kaynakla belirlenir. `zend` 1762-63'ten başlar.
+  - 🔴 Hayalet hemen düzelir: 1747-06-20 → 1751-01-01 dilimleri `zend`den çıkar ve kaynak bulunana kadar BEYANLI yazılır.
+- **Tarki:** `kumuk-samhalligi` aynı polity olarak sürdüyse t GENİŞLETİLİR (Şamhallık 1867'ye kadar; kaynakla); ardıl künye açılmaz. LAB SALI'ya.
+- **Salyan hanlığı:** künye adayı, LAB SALI'ya.
