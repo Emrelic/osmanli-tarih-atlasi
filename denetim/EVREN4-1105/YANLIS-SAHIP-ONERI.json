@@ -1,0 +1,4808 @@
+{
+ "kayitlar": [
+  {
+   "ad": "Kilwa Kisiwani (Kilve)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-manda-eksik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-19",
+    "s:ingiltere 1916-09-19→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "DOA dilimi 1916-09-19'a değil 1919-06-28'e kadar (künye t GENİŞLET, UYGULA'da). EMRELİC TEK KURAL."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-19",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Mevcut s: ingiltere 1916-09-19 değeri isg başlangıcı olarak taşındı (atlas kaydı; günü kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali; TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Manda dilimi eksikti; künye f 1922-07-20."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Manda dilimi eklendi; isg + Versay dilimi sistemik modelle."
+  },
+  {
+   "ad": "Bagamoyo",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Tanga",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Bveranyange (Karagve)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-direkt-ingiltere",
+   "mevcut_zincir": [
+    "s:karagve 1450-01-01→1890-07-01",
+    "s:ingiltere 1890-07-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "karagve",
+     "f": "1450-01-01",
+     "t": "1890-07-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-07-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi.",
+     "not": "Heligoland-Zanzibar 1890 ülke düzeyi; TDV yalnız yılı verir (1890-07-01 karagve künye t'sidir, atlas kaydı - dayanak değil). Bveranyange/Karagve bölgesinin Alman idaresine fiilî girişi günü BULUNAMADI. DOA künye t 1919-06-28 GENİŞLET (UYGULA'da) ile birlikte geçerli."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "EMRELİC TEK KURAL (savaş işgali ilhaka kadar isg). Ülke düzeyi 1916-09-01 (brif); bu yere özgü İngiliz giriş günü BULUNAMADI. TDV işgal sürecini Kasım 1914 Mafia'dan 1921'e kadar anlatır, yere özgü gün vermez."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali (Namibya/Kilve-Bagamoyo kararı, KARARLAR gece-107/126). TDV yalnız 1919 yılını verir; gün DOA künye t'sidir (atlas) - hüküm ONERI-KARAR."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Künye f 1922-07-20 (ölçüldü). TDV mandanın günü yok; gün künyeden (atlas) - dayanak değil."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Doğrudan ingiltere'ye atlama düzeltildi: yerel → DOA → isg ingiltere → s ingiltere → manda."
+  },
+  {
+   "ad": "Bukoba",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1890-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Mvanza",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1892-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1892-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Mosi (Moshi)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1893-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1893-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Arusa (Arusha)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1900-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Babati",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1900-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Singida",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1900-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1900-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Ucici (Ujiji)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1830-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1830-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Tabora (Kazeh)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1852-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1852-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Pangani",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Dodoma",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:alman-dogu-afrikasi 1907-01-01→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1907-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Mpvapva",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "nyamvezi",
+     "f": "1281-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Morogoro",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "nyamvezi",
+     "f": "1281-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Kilosa",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:nyamvezi 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "nyamvezi",
+     "f": "1281-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Kalenga (Hehe)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:hehe 1850-01-01→1898-07-19",
+    "s:alman-dogu-afrikasi 1898-07-19→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "hehe",
+     "f": "1850-01-01",
+     "t": "1898-07-19",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1898-07-19",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Sumbavanga",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:fipa-nyakyusa 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "fipa-nyakyusa",
+     "f": "1281-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Kilva Kivince",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1800-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1800-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Mbeya",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:fipa-nyakyusa 1281-01-01→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "fipa-nyakyusa",
+     "f": "1281-01-01",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Njombe",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-direkt-ingiltere",
+   "mevcut_zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ngoni",
+     "f": "1835-01-01",
+     "t": "1898-01-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1898-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Yerel sahibin sonu (ngoni künye t) ile Alman fiilî alış/idare günü arasındaki ilişki kaynakta BULUNAMADI; DOA dilimi yerel künye t'sine bitişik yazıldı (boşluk bırakmamak için, atlas künyesi - dayanak değil). Hehe emsali: Kalenga 1898-07-19. DOA künye t 1919-06-28 GENİŞLET (UYGULA'da) ile birlikte geçerli."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "EMRELİC TEK KURAL (savaş işgali ilhaka kadar isg). Ülke düzeyi 1916-09-01 (brif); bu yere özgü İngiliz giriş günü BULUNAMADI. TDV işgal sürecini Kasım 1914 Mafia'dan 1921'e kadar anlatır, yere özgü gün vermez."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali (Namibya/Kilve-Bagamoyo kararı, KARARLAR gece-107/126). TDV yalnız 1919 yılını verir; gün DOA künye t'sidir (atlas) - hüküm ONERI-KARAR."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Künye f 1922-07-20 (ölçüldü). TDV mandanın günü yok; gün künyeden (atlas) - dayanak değil."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Doğrudan ingiltere'ye atlama düzeltildi: yerel → DOA → isg ingiltere → s ingiltere → manda."
+  },
+  {
+   "ad": "Lindi",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Mikindani",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-sistemik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-01",
+    "s:ingiltere 1916-09-01→1922-07-20",
+    "s:ingiliz-tanganika-mandasi 1922-07-20→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "t 1916-09-01 → 1919-06-28 (DOA künye t GENİŞLET ile aynı commit)."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "Ülke düzeyi 1916-09-01 (brif/atlas); yere özgü gün BULUNAMADI. TEK KURAL."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "s: ingiltere dilimi 1919-06-28'den başlar (Versay emsali); TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": ""
+  },
+  {
+   "ad": "Songea (Ngoni)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-direkt-ingiltere",
+   "mevcut_zincir": [
+    "s:ngoni 1835-01-01→1898-01-01",
+    "s:ingiltere 1898-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ngoni",
+     "f": "1835-01-01",
+     "t": "1898-01-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1898-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Yerel sahibin sonu (ngoni künye t) ile Alman fiilî alış/idare günü arasındaki ilişki kaynakta BULUNAMADI; DOA dilimi yerel künye t'sine bitişik yazıldı (boşluk bırakmamak için, atlas künyesi - dayanak değil). Hehe emsali: Kalenga 1898-07-19. DOA künye t 1919-06-28 GENİŞLET (UYGULA'da) ile birlikte geçerli."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "EMRELİC TEK KURAL (savaş işgali ilhaka kadar isg). Ülke düzeyi 1916-09-01 (brif); bu yere özgü İngiliz giriş günü BULUNAMADI. TDV işgal sürecini Kasım 1914 Mafia'dan 1921'e kadar anlatır, yere özgü gün vermez."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali (Namibya/Kilve-Bagamoyo kararı, KARARLAR gece-107/126). TDV yalnız 1919 yılını verir; gün DOA künye t'sidir (atlas) - hüküm ONERI-KARAR."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Künye f 1922-07-20 (ölçüldü). TDV mandanın günü yok; gün künyeden (atlas) - dayanak değil."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Doğrudan ingiltere'ye atlama düzeltildi: yerel → DOA → isg ingiltere → s ingiltere → manda."
+  },
+  {
+   "ad": "Masasi",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-direkt-ingiltere",
+   "mevcut_zincir": [
+    "s:yao 1800-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "yao",
+     "f": "1800-01-01",
+     "t": "1899-01-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1899-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Yerel sahibin sonu (yao künye t) ile Alman fiilî alış/idare günü arasındaki ilişki kaynakta BULUNAMADI; DOA dilimi yerel künye t'sine bitişik yazıldı (boşluk bırakmamak için, atlas künyesi - dayanak değil). Hehe emsali: Kalenga 1898-07-19. DOA künye t 1919-06-28 GENİŞLET (UYGULA'da) ile birlikte geçerli."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "EMRELİC TEK KURAL (savaş işgali ilhaka kadar isg). Ülke düzeyi 1916-09-01 (brif); bu yere özgü İngiliz giriş günü BULUNAMADI. TDV işgal sürecini Kasım 1914 Mafia'dan 1921'e kadar anlatır, yere özgü gün vermez."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali (Namibya/Kilve-Bagamoyo kararı, KARARLAR gece-107/126). TDV yalnız 1919 yılını verir; gün DOA künye t'sidir (atlas) - hüküm ONERI-KARAR."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Künye f 1922-07-20 (ölçüldü). TDV mandanın günü yok; gün künyeden (atlas) - dayanak değil."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Doğrudan ingiltere'ye atlama düzeltildi: yerel → DOA → isg ingiltere → s ingiltere → manda."
+  },
+  {
+   "ad": "Tunduru",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-direkt-ingiltere",
+   "mevcut_zincir": [
+    "s:yao 1800-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "yao",
+     "f": "1800-01-01",
+     "t": "1899-01-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1899-01-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Yerel sahibin sonu (yao künye t) ile Alman fiilî alış/idare günü arasındaki ilişki kaynakta BULUNAMADI; DOA dilimi yerel künye t'sine bitişik yazıldı (boşluk bırakmamak için, atlas künyesi - dayanak değil). Hehe emsali: Kalenga 1898-07-19. DOA künye t 1919-06-28 GENİŞLET (UYGULA'da) ile birlikte geçerli."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci",
+     "not": "EMRELİC TEK KURAL (savaş işgali ilhaka kadar isg). Ülke düzeyi 1916-09-01 (brif); bu yere özgü İngiliz giriş günü BULUNAMADI. TDV işgal sürecini Kasım 1914 Mafia'dan 1921'e kadar anlatır, yere özgü gün vermez."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali (Namibya/Kilve-Bagamoyo kararı, KARARLAR gece-107/126). TDV yalnız 1919 yılını verir; gün DOA künye t'sidir (atlas) - hüküm ONERI-KARAR."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Künye f 1922-07-20 (ölçüldü). TDV mandanın günü yok; gün künyeden (atlas) - dayanak değil."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Doğrudan ingiltere'ye atlama düzeltildi: yerel → DOA → isg ingiltere → s ingiltere → manda."
+  },
+  {
+   "ad": "Kilindoni (Mafia Adası)",
+   "grup": "tanganika",
+   "alt_grup": "tanganika-manda-eksik",
+   "mevcut_zincir": [
+    "s:umman-zengibar 1698-12-13→1890-11-04",
+    "s:alman-dogu-afrikasi 1890-11-04→1916-09-19",
+    "s:ingiltere 1916-09-19→1961-12-09",
+    "s:tanganika 1961-12-09→1964-04-26",
+    "s:tanzanya 1964-04-26→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "umman-zengibar",
+     "f": "1698-12-13",
+     "t": "1890-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1890-11-04",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "",
+     "alinti": "",
+     "not": "DOA dilimi 1916-09-19'a değil 1919-06-28'e kadar (künye t GENİŞLET, UYGULA'da). EMRELİC TEK KURAL."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-19",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Mevcut s: ingiltere 1916-09-19 değeri isg başlangıcı olarak taşındı (atlas kaydı; günü kaynağı BULUNAMADI). ÇELİŞKİ: TDV «Tanzanya» İngilizler’in Mafia adasını Kasım 1914’te ele geçirdiğini söyler (alıntı: «İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan Alman Doğu Afrika sömürgesine ait yerleri işgal süreci»); atlas 1916-09-19. Seçim EMRELİC'in: ay hassasiyetli TDV (1914-11, gün teyitsiz) mi, mevcut gün mü? Yeni f yazılmadı."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "I. Dünya Savaşı’nın ardından 1919’da Versailles Antlaşması ile Alman Doğu Afrikası’nın büyük bir kısmını almalarıyla devam etti",
+     "not": "Versay emsali; TDV yalnız yıl."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi",
+     "f": "1922-07-20",
+     "t": "1961-12-09",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "İngilizler, Tanzanya’yı önce İngiliz mandası, daha sonra Birleşmiş Milletler emanet bölgesi olarak yönettiler.",
+     "not": "Manda dilimi eksikti; künye f 1922-07-20."
+    },
+    {
+     "alan": "s",
+     "d": "tanganika",
+     "f": "1961-12-09",
+     "t": "1964-04-26",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "tanzanya",
+     "f": "1964-04-26",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1919-06-28",
+     "b_taslak": "Versay Antlaşması imzalandı: Alman Doğu Afrikası'nın İngiliz işgal bölgesi s: ingiltere idaresine geçti (isg biter) — DOA künye 1919-06-28 maddesi varsa yeterli; denetle ile ölçülecek, ölçülmedi."
+    }
+   ],
+   "not": "Manda dilimi eklendi; isg + Versay dilimi sistemik modelle."
+  },
+  {
+   "ad": "Binga",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1900-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1900-01-01",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Salisbury (Harare)",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1890-09-12→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1890-09-12",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Livingstone",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1905-01-01→1964-10-24",
+    "s:zambiya 1964-10-24→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1905-01-01",
+     "t": "1964-10-24",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "zambiya",
+     "f": "1964-10-24",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Hvange",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1903-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1903-01-01",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Gveru",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1894-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1894-01-01",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Danangombe (Rozvi)",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1834-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "rozvi",
+     "f": "1834-01-01",
+     "t": "1840-01-01",
+     "hukum": "BEYANLI",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "LAB kararı (gece-127): 'ingiltere 1834' dilimi s: rozvi olur. rozvi künye t 1834-01-01 → 1840-01-01 GENİŞLET BEYANLI (= matabele f); yerleşim dilimi künye değişikliğiyle AYNI commit'te. Rozvi 1834 sonrası fiilî durum kaynakta BULUNAMADI (TDV Zimbabve: Rozvi 'XVII. yüzyılın sonlarında' yükselir; Ngoni '1830’larda' - yılsız). Taranacak: Beach, The Shona and Zimbabwe 900-1850 (1980) - OKUNMADI."
+    },
+    {
+     "alan": "s",
+     "d": "matabele",
+     "f": "1840-01-01",
+     "t": "1893-11-04",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Mzilikazi’den sonra tahta geçen oğlu Lobengula, 1889’da Cecil John Rhodes’in İngiliz Güney Afrika Şirketi’ne ilk maden arama imtiyazını verdi.",
+     "not": "Danangombe'nin Ndebele (matabele) devletine geçişi kaynakta BULUNAMADI; zincir EMRELİC kararı (Torwa → Rozvi → Matabele). Künye matabele f 1840, t 1893-11-04 (ölçüldü)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1893-11-04",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "Matabele t 1893-11-04 künye; TDV yalnız yıl (1893). Mevcut 'ingiltere' id'si → ingiliz-guney-rodezya (künye f 1890-01-01 ≤ 1893)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1684-01-01",
+     "b_taslak": "Rozvi hânedanı Torva'nın yerine geçti (rozvi f 1684 yalnız yıl; Khami)."
+    },
+    {
+     "t": "1840-01-01",
+     "b_taslak": "Ndebele (Matabele) devleti bölgeye egemen oldu (matabele f 1840, Danangombe/Khami)."
+    }
+   ],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Khami",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1683-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "torva",
+     "f": "1683-01-01",
+     "t": "1684-01-01",
+     "hukum": "BEYANLI",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "LAB kararı (gece-127): 'ingiltere 1683' dilimi s: torva olur; torva künye t 1683-01-01 → 1684-01-01 (= rozvi f, yalnız yıl) ile AYNI commit'te. 🔴 MERDİVEN ④ SORUSU: Khami 1680'lerde terk edildiyse (Torwa başkenti; Changamire Dombo fethi) bit önerisi gerekir; bu tur kaynakta BULUNAMADI (TDV Zimbabve Torva'yı anmıyor). Terk kanıtlanırsa 1684 sonrası dilimler yazılmaz (nokta var olmaz)."
+    },
+    {
+     "alan": "s",
+     "d": "rozvi",
+     "f": "1684-01-01",
+     "t": "1840-01-01",
+     "hukum": "BEYANLI",
+     "uc": "",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Monomutapa adıyla anılan bu imparatorluk, XVII. yüzyılın sonlarında Portekizliler’in gittikçe artan baskısı ve Çanga liderliğindeki Rozvi hânedanının yükselişiyle ortadan kalktı.",
+     "not": "Khami'nin Rozvi'ye geçişi kaynakta BULUNAMADI (TDV yalnız Rozvi yükselişi 'XVII. yüzyılın sonlarında'). Rozvi künye f 1684, t 1834 → 1840 GENİŞLET BEYANLI (LAB). Khami terk edilmişse bu iki dilim YAZILMAZ."
+    },
+    {
+     "alan": "s",
+     "d": "matabele",
+     "f": "1840-01-01",
+     "t": "1893-11-04",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Bölge halkı Şonalar’ı tam bir hâkimiyet altına alan Mzilikazi bu dönemde topraklarına güneyden gelen Avrupalı misyonerlerle ilişki kurdu.",
+     "not": "Khami Ndebele ülkesinde mi, kaynakta BULUNAMADI; zincir EMRELİC kararı. Künye matabele 1840 → 1893-11-04."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1893-11-04",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "TDV yalnız yıl (1893); gün künye t."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1684-01-01",
+     "b_taslak": "Rozvi hânedanı Torva'nın yerine geçti (rozvi f 1684 yalnız yıl; Khami)."
+    },
+    {
+     "t": "1840-01-01",
+     "b_taslak": "Ndebele (Matabele) devleti bölgeye egemen oldu (matabele f 1840, Danangombe/Khami)."
+    }
+   ],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Bulavayo",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:matabele 1840-01-01→1893-11-04",
+    "s:ingiltere 1893-11-04→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "matabele",
+     "f": "1840-01-01",
+     "t": "1893-11-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1893-11-04",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI). Bulavayo: matabele → 1893-11-04 → ingiliz-guney-rodezya; HALEF1946 §1 birleştirmesiyle tutarlı. TDV: 'Direnen Ndebele halkı 1893’te yenildi' (yıl)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Gvanda",
+   "grup": "guney_rodezya",
+   "mevcut_zincir": [
+    "s:ingiltere 1900-01-01→1965-11-11",
+    "s:rodezya-udi 1965-11-11→1979-06-01",
+    "s:zimbabve-rodezya 1979-06-01→1979-12-12",
+    "s:ingiltere 1979-12-12→1980-04-18",
+    "s:zimbabve 1980-04-18→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "ingiliz-guney-rodezya",
+     "f": "1900-01-01",
+     "t": "1965-11-11",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Aldıkları imtiyazla 1890’dan itibaren bölgede gittikçe güçlenen İngiliz Güney Afrika Şirketi’nin silâhlı birlikleri Cecil Rhodes liderliğinde şimdiki Zimbabve topraklarını işgal etti. Direnen Ndebele halkı 1893’te yenildi.",
+     "not": "id ingiltere → ingiliz-guney-rodezya (künye f 1890-01-01, t 1980-04-18). TDV 1890 yılını verir; yerleşime özgü f gün/yıl mevcut kayıttan korundu (kaynağı BULUNAMADI)."
+    },
+    {
+     "alan": "s",
+     "d": "rodezya-udi",
+     "f": "1965-11-11",
+     "t": "1979-06-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve-rodezya",
+     "f": "1979-06-01",
+     "t": "1979-12-12",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1979-12-12",
+     "t": "1980-04-18",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "18 Nisan 1980’de Zimbabve (Şona [Shona] dilinde “büyük taş evler, değerli evler”) adıyla bağımsızlığını kazanmıştır.",
+     "not": "ingiltere KALIR (Lancaster House doğrudan İngiliz valiliği, brif). t 1980-04-18 TDV ile KAYNAKLI; f 1979-12-12 mevcut."
+    },
+    {
+     "alan": "s",
+     "d": "zimbabve",
+     "f": "1980-04-18",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Kuzey Rodezya/Botsvana kapsam dışı."
+  },
+  {
+   "ad": "Ho (Togoland)",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "for that of Ho the Provincial Commissioner, Eastern Province, at Koforidua. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Ho bölgesi İngiliz sektöründe (1920 raporu §79: «Ho» Senior Political Officer Koforidua'daki Provincial Commissioner). Ülke düzeyi teslim günü 26 Ağustos 1914 (aşağıdaki Q: «On the 26th August the Acting Governor surrendered the Colony unconditionally»). Bölüşüm hattı «since the surrender of the Colony» (§4); brifteki 1914-12-27 günü bu turda hiçbir kaynakta çıkmadı, kullanılmadı."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-togoland",
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Hohoe",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Misahöhe (Ho, Kpando, Hohoe yerleşimlerini kapsayan bölge) İngiliz sektörüne ayrıldı (§4). Yerleşimin Misahöhe bölgesinde olduğu coğrafî çıkarım (alıntı Misahohe'yi anar, yerleşimi anmaz). Başlangıç 1914-08-26 ülke teslim günü. 1914-12-27 BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-togoland",
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Kpando",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Misahöhe (Ho, Kpando, Hohoe yerleşimlerini kapsayan bölge) İngiliz sektörüne ayrıldı (§4). Yerleşimin Misahöhe bölgesinde olduğu coğrafî çıkarım (alıntı Misahohe'yi anar, yerleşimi anmaz). Başlangıç 1914-08-26 ülke teslim günü. 1914-12-27 BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-togoland",
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Lomé",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1914-08-07",
+     "t": "1920-10-01",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "On the 6th August, 1914, Captain E. B. Barker, accompanied by Mr. H. S. Newlands, Political Officer, entered the capital, Lome, under a flag of truce and, on the following day, that town and the hinterland for a distance of 120 kilometres from the sea was surrendered.",
+     "not": "f KAYNAKLI: Lomé ve 120 km'lik iç bölge 7 Ağustos 1914'te teslim oldu (alıntı '6 Ağustos... ertesi gün'). t 1920-10-01 BULUNAMADI: brifteki 'Lomé 1920-10-01 civarı Fransız'a geçti' iddiası bu turda hiçbir okunan kaynakta çıkmadı (1920 İngiliz raporu devri anlatmıyor). Milner-Simon bildirisi 10 Temmuz 1919 (rapor §8, sınırı belirler) devir günü değildir. Uç değiştirilmeden önce LAB/EMRELİC kaynak ister; kaynaksızsa Lomé 1914-08-07 → 1922-07-20 tek isg ingiltere/Versay sonrası s: ingiltere olarak bırakılabilir ama Lomé 1922'de fransiz-togo'ya geçer: 1919-06-28 → 1922-07-20 sahibi BELİRSİZ."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1920-10-01",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay sonrası İngiliz idaresi (isg ile birlikte); 1920-10-01 BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1920-10-01",
+     "t": "1922-07-20",
+     "hukum": "BULUNAMADI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Fransız idaresine devir günü kaynaksız; ya 1920-10-01 BEYANLI ya Lomé'de bu dilim yok (s: ingiltere 1922-07-20'ye kadar sürer). Karar EMRELİC'in."
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-togo",
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "togo 1960-04-27 → 2000-12-31 (UC103-ONERI, TDV KAYNAKLI; bu turda değişmez)"
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-07",
+     "b_taslak": "Lomé 7 Ağustos 1914'te teslim oldu: Gold Coast Regiment (İngiliz) Lomé'ye girdi; Alman Togosu'nun başkenti isg ingiltere altına geçti."
+    }
+   ],
+   "not": "Lomé: İngiliz → Fransız devri günü BULUNAMADI (açık soru). KAYNAK ADAYI (okunmadı): ANOM / Persée Togo mandası makaleleri; Milletler Cemiyeti Fransız Togo raporu."
+  },
+  {
+   "ad": "Atakpamé",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Bu bölge Fransız sektörüne ayrıldı (§4 alıntı); yerleşim ad olarak anılıyor."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-togo",
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "togo 1960-04-27 → 2000-12-31 (UC103-ONERI, TDV KAYNAKLI; bu turda değişmez)"
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Sokodé",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Bu bölge Fransız sektörüne ayrıldı (§4 alıntı); yerleşim ad olarak anılıyor."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-togo",
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "togo 1960-04-27 → 2000-12-31 (UC103-ONERI, TDV KAYNAKLI; bu turda değişmez)"
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Kara (Togo)",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "f = künye f (Notse emsali; kuruluş öncesi yerel sahip bu turda ARANMAZ - F-GERİ ikinci tur). Yerleşimin 1884 öncesi var olup olmadığı BULUNAMADI. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Kara, Sokodé bölgesinin (Fransız sektörü, §4: «Sokode») içinde (coğrafî çıkarım; alıntı Kara'yı anmaz)."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-togo",
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "togo 1960-04-27 → 2000-12-31 (UC103-ONERI, TDV KAYNAKLI; bu turda değişmez)"
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Yendi (Dagbon)",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:dagbon 1401-01-01→1899-01-01",
+    "s:ingiltere 1899-01-01→1957-03-06",
+    "s:gana 1957-03-06→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "dagbon",
+     "f": "1401-01-01",
+     "t": "1899-11-14",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "Subsequent agreements dated the 23rd July, 1897, and 14th November, 1899, between Germany and the Governments of Great Britain respectively defined the Northern Frontiers of Togoland.",
+     "not": "dagbon künye t 1899-01-01 → 1899-11-14 GENİŞLET BEYANLI (künye sorusu): alıntı sınır antlaşmasını tarihler, Yendi'nin Alman olduğu günü değil. Yendi’nin Alman Togosu’na girişi (yaklaşık 1896-1900) BULUNAMADI; 'Yendi' Alman bölgesi: aynı raporda «Yendi District» Alman bölge merkezi."
+    },
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1899-11-14",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "With the exception of Yendi, all District Headquarters had telegraphic or telephonic facilities.",
+     "not": "Yendi’nin Alman Togo’su bölge merkezi olduğu rapor §69 ile tanıklı; f ONERI (antlaşma günü). Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Yendi İngiliz sektörüne verildi (KAYNAKLI bölge); başlangıç 26 Ağustos 1914 teslim günü, bölüşüm gününe bağlı değil."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda."
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-togoland",
+     "f": "1922-07-20",
+     "t": "1957-03-06",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Mevcut zincirde Yendi 1899-1957 'ingiltere' idi; mandanın kuzey kesimi (Northern Togoland) Yendi'yi içerir (rapor: Yendi District İngiliz mandası). Künye f 1922-07-20."
+    },
+    {
+     "alan": "s",
+     "d": "gana",
+     "f": "1957-03-06",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Gana'ya katılış UC103-ONERI KAYNAKLI (BM A/RES/1044 (XI))."
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1899-11-14",
+     "b_taslak": "Yendi ve Dagbon sınırı Alman-İngiliz antlaşmasıyla belirlendi: Yendi Alman Togosu'nda kaldı."
+    }
+   ],
+   "not": "Yanlış sahip: 1899'dan itibaren 'ingiltere' yazılıydı; Yendi 1899-1914 Alman Togosu'ydu."
+  },
+  {
+   "ad": "Notse",
+   "grup": "togo",
+   "mevcut_zincir": [
+    "s:eve-notse 1281-01-01→1884-07-05",
+    "s:alman-togo 1884-07-05→1914-08-26",
+    "s:fransa-cumhuriyet 1914-08-26→1922-07-20",
+    "s:fransiz-togo 1922-07-20→1960-04-27",
+    "s:togo 1960-04-27→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "eve-notse",
+     "f": "1281-01-01",
+     "t": "1884-07-05",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "alman-togo",
+     "f": "1884-07-05",
+     "t": "1919-06-28",
+     "hukum": "ONERI-KARAR",
+     "uc": "t",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Togo» (islamansiklopedisi.org.tr/togo, II. Tarih; sayfa.py oku ham)",
+     "alinti": "1856’dan itibaren Togo sahil bölgesine ilgi duyan Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı",
+     "not": "alman-togo t 1914-08-26 → 1919-06-28 GENİŞLET. Bağlı: alman-togo künye t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e); yerleşim dilimleri aynı commit'te."
+    },
+    {
+     "alan": "isg",
+     "d": "fransa-cumhuriyet",
+     "f": "1914-08-26",
+     "t": "1919-06-28",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)",
+     "alinti": "To the charge of the former were allotted the western administrative areas of Lome and Lomeland, Misahohe, Kete-Kratchi and Yendi, and to the latter Anecho, Atakpame, Sokode and Sansanne-Mangu. | On the 26th August the Acting Governor surrendered the Colony unconditionally.",
+     "not": "Notse'nin Atakpamé/Anecho Fransız bölgesinde mi Lomeland İngiliz bölgesinde mi olduğu kaynakta okunmadı (rapor Notsé'yi anmaz); mevcut kayıt fransa-cumhuriyet 1914-08-26 → 1922-07-20 tek dilimdi, model buna uyduruldu (başlangıç korundu)."
+    },
+    {
+     "alan": "s",
+     "d": "fransa-cumhuriyet",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "hukum": "ONERI-KARAR",
+     "uc": "f",
+     "kaynak": "",
+     "alinti": "",
+     "not": "Versay → manda arası idareci devlet (LAB SALI Dikva kuralı). 1919-06-28 künye/Versay günü (atlas); kaynakta yere özgü gün BULUNAMADI."
+    },
+    {
+     "alan": "s",
+     "d": "fransiz-togo",
+     "f": "1922-07-20",
+     "t": "1960-04-27",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "togo",
+     "f": "1960-04-27",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "togo 1960-04-27 → 2000-12-31 (UC103-ONERI, TDV KAYNAKLI; bu turda değişmez)"
+    }
+   ],
+   "d2_gerekli": [
+    {
+     "t": "1914-08-26",
+     "b_taslak": "Togoland'ın Alman valisi koşulsuz teslim oldu: Alman Togosu İngiliz-Fransız işgaline geçti; bölgeler iki sektöre ayrıldı (Alman künyesi 1919-06-28'e kadar sürer)."
+    }
+   ],
+   "not": "KAYNAK ADAYI (okunmadı): ANOM/Persée; Encyclopaedia Africana."
+  },
+  {
+   "ad": "Lefkoşa",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-09",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Magosa",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1571-08-01",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13",
+    "d:None 1571-08-01→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1571-08-01",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1571-08-01",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Girne (Kyrenia)",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1570-09-17",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13",
+    "d:None 1570-09-17→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-17",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-17",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Baf (Paphos)",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-09",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Limasol",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1570-07-02",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-07-02→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-07-02",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-07-02",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Tuzla (Larnaka)",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:venedik 1489-02-26→1570-09-09",
+    "s:ingiltere 1878-06-04→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→2000-12-31",
+    "d:None 1570-09-09→1878-06-04"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-09",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "DEĞİŞMEZ; zaten Lefkoşa modeli: tek ingiltere 1878-06-04 → 1960-08-16, d: Osmanlı katmanı. KAYNAKLI yalnız f ucu (imza günü)."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-09",
+     "t": "1878-06-04",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Lefkoşa modeli ile aynı; değişiklik yok."
+  },
+  {
+   "ad": "Akrotiri",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-07-02",
+     "hukum": "BEYANLI",
+     "uc": "t",
+     "kaynak": "ABİ MERKEZ: Limasol — atlas kaydı (TDV kibris alıntısıyla, ham yeniden okunmadı); emsal Limasol",
+     "alinti": "",
+     "not": "f GERİ: kur 1960-08-16 üs bölgesi kuruluşudur, yerleşimin değil; öncül Limasol emsaliyle (venedik 1489-02-26 başlangıcı). Düşüş günü Akrotiri için BULUNAMADI."
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-07-02",
+     "t": "1878-06-04",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "ABİ MERKEZ: Limasol",
+     "alinti": "",
+     "not": "Lefkoşa/Limasol emsali d: katmanı (y alanı yok; Lefkoşa y:'kusatma' taşır). Fetih günü Akrotiri için BULUNAMADI (ayrı kaynak)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "UÇ ÖZEL: alıntı 4 Haziran 1878 antlaşma imza gününü tarihler (fiilî yerleşme/devir günü ayrı olabilir; TDV 1 Temmuz ek anlaşmayı da anar). Lefkoşa'nın bugünkü modeli: tek ingiltere dilimi, 1914 kırılması YOK."
+    },
+    {
+     "alan": "s",
+     "d": "akrotiri-dekelya",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "LAB gece-127: ana id akrotiri-dekelya; kibris-ingiliz-ussler kalkıyor (LAB uygular). id birleştirme LAB'da."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Üs bölgesi id'si: akrotiri-dekelya (LAB kararı). Önerilen zincir F-GERİ ONERI-KARAR; yerleşimin varlığı o devirde kaynakta okunmadı (kuruluş öncesi bu turda ARANMAZ)."
+  },
+  {
+   "ad": "Episkopi",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:akrotiri-dekelya 1960-08-16→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-07-02",
+     "hukum": "BEYANLI",
+     "uc": "t",
+     "kaynak": "ABİ MERKEZ: Limasol — atlas kaydı (TDV kibris alıntısıyla, ham yeniden okunmadı); emsal Limasol",
+     "alinti": "",
+     "not": "f GERİ: kur 1960-08-16 üs bölgesi kuruluşudur, yerleşimin değil; öncül Limasol emsaliyle (venedik 1489-02-26 başlangıcı). Düşüş günü Episkopi için BULUNAMADI."
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-07-02",
+     "t": "1878-06-04",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "ABİ MERKEZ: Limasol",
+     "alinti": "",
+     "not": "Lefkoşa/Limasol emsali d: katmanı (y alanı yok; Lefkoşa y:'kusatma' taşır). Fetih günü Episkopi için BULUNAMADI (ayrı kaynak)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "UÇ ÖZEL: alıntı 4 Haziran 1878 antlaşma imza gününü tarihler (fiilî yerleşme/devir günü ayrı olabilir; TDV 1 Temmuz ek anlaşmayı da anar). Lefkoşa'nın bugünkü modeli: tek ingiltere dilimi, 1914 kırılması YOK."
+    },
+    {
+     "alan": "s",
+     "d": "akrotiri-dekelya",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "LAB gece-127: ana id akrotiri-dekelya; kibris-ingiliz-ussler kalkıyor (LAB uygular). id birleştirme LAB'da."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Üs bölgesi id'si: akrotiri-dekelya (LAB kararı). Önerilen zincir F-GERİ ONERI-KARAR; yerleşimin varlığı o devirde kaynakta okunmadı (kuruluş öncesi bu turda ARANMAZ)."
+  },
+  {
+   "ad": "Güzelyurt (Morphou)",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:kibris-ingiliz-kolonisi 1914-11-05→1960-08-16",
+    "s:kibris-cumhuriyeti 1960-08-16→1975-02-13"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-09",
+     "hukum": "BEYANLI",
+     "uc": "t",
+     "kaynak": "ABİ MERKEZ: Lefkoşa — atlas kaydı (TDV kibris alıntısıyla, ham yeniden okunmadı); emsal Lefkoşa",
+     "alinti": "",
+     "not": "f GERİ: kur 1914-11-05 (OSM Nominatim kaynaklı) Morphou’nun kuruluşu değildir; F-GERİ kuralıyla 1489-02-26 ONERI-KARAR (kibris-krallik 1192-01-01 → 1489-02-26 öncülü Lefkoşa'da var; kuruluş öncesi bu turda aranmadı). Venedik düşüş günü Morphou için BULUNAMADI; abi merkez Lefkoşa (1570-09-09)."
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-09",
+     "t": "1878-06-04",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "ABİ MERKEZ: Lefkoşa",
+     "alinti": "",
+     "not": "Lefkoşa/Limasol emsali d: katmanı (y alanı yok; Lefkoşa y:'kusatma' taşır). Fetih günü Güzelyurt (Morphou) için BULUNAMADI (ayrı kaynak)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "UÇ ÖZEL: alıntı 4 Haziran 1878 antlaşma imza gününü tarihler (fiilî yerleşme/devir günü ayrı olabilir; TDV 1 Temmuz ek anlaşmayı da anar). Lefkoşa'nın bugünkü modeli: tek ingiltere dilimi, 1914 kırılması YOK."
+    },
+    {
+     "alan": "s",
+     "d": "kibris-cumhuriyeti",
+     "f": "1960-08-16",
+     "t": "1975-02-13",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "kibris-turk-federe-devleti",
+     "f": "1975-02-13",
+     "t": "1983-11-15",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    },
+    {
+     "alan": "s",
+     "d": "kktc",
+     "f": "1983-11-15",
+     "t": "2000-12-31",
+     "hukum": "MEVCUT",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": ""
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "1914 kırılması KALDIRILDI (Lefkoşa modeli): kibris-ingiliz-kolonisi (künye 1914-11-05 → 1960-08-16) bu kayıtta kullanılmaz; TDV 5 Kasım 1914 ilhakını KAYNAKLI verir (alıntı: «İngiltere 5 Kasım 1914’te Kıbrıs’ı resmen ilhak etti.») → ic_not'a yazılır, harita etkisi yok. Eğer EMRELİC 'hepsinde olsun' derse 7 kayıtta ingiltere 1878 → 1914-11-05 → kibris-ingiliz-kolonisi böler."
+  },
+  {
+   "ad": "Dikelya (Dhekelia)",
+   "grup": "kibris",
+   "mevcut_zincir": [
+    "s:kibris-ingiliz-ussler 1960-08-16→2000-12-31"
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "venedik",
+     "f": "1489-02-26",
+     "t": "1570-09-09",
+     "hukum": "BEYANLI",
+     "uc": "t",
+     "kaynak": "ABİ MERKEZ: Tuzla (Larnaka) — atlas kaydı (TDV kibris alıntısıyla, ham yeniden okunmadı); emsal Tuzla (Larnaka)",
+     "alinti": "",
+     "not": "f GERİ: kur 1960-08-16 üs bölgesi kuruluşudur, yerleşimin değil; öncül Tuzla (Larnaka) emsaliyle (venedik 1489-02-26 başlangıcı). Düşüş günü Dikelya (Dhekelia) için BULUNAMADI."
+    },
+    {
+     "alan": "d",
+     "d": "osmanli",
+     "f": "1570-09-09",
+     "t": "1878-06-04",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "ABİ MERKEZ: Tuzla (Larnaka)",
+     "alinti": "",
+     "not": "Lefkoşa/Limasol emsali d: katmanı (y alanı yok; Lefkoşa y:'kusatma' taşır). Fetih günü Dikelya (Dhekelia) için BULUNAMADI (ayrı kaynak)."
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1878-06-04",
+     "t": "1960-08-16",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)",
+     "alinti": "Zor durumdaki Osmanlı hükümeti, 4 Haziran 1878’de İngiltere’nin fiilen adaya yerleşmesine zemin hazırlayacak olan anlaşmayı imzaladı.",
+     "not": "UÇ ÖZEL: alıntı 4 Haziran 1878 antlaşma imza gününü tarihler (fiilî yerleşme/devir günü ayrı olabilir; TDV 1 Temmuz ek anlaşmayı da anar). Lefkoşa'nın bugünkü modeli: tek ingiltere dilimi, 1914 kırılması YOK."
+    },
+    {
+     "alan": "s",
+     "d": "akrotiri-dekelya",
+     "f": "1960-08-16",
+     "t": "2000-12-31",
+     "hukum": "ONERI-KARAR",
+     "uc": "",
+     "kaynak": "",
+     "alinti": "",
+     "not": "LAB gece-127: ana id akrotiri-dekelya; kibris-ingiliz-ussler kalkıyor (LAB uygular). id birleştirme LAB'da."
+    }
+   ],
+   "d2_gerekli": [],
+   "not": "Üs bölgesi id'si: akrotiri-dekelya (LAB kararı). Önerilen zincir F-GERİ ONERI-KARAR; yerleşimin varlığı o devirde kaynakta okunmadı (kuruluş öncesi bu turda ARANMAZ)."
+  }
+ ],
+ "sistemik": [
+  {
+   "ad": "TANGANIKA-VERSAY-ISG",
+   "kapsam_kayitlar": [
+    "Bagamoyo",
+    "Tanga",
+    "Bukoba",
+    "Mvanza",
+    "Mosi (Moshi)",
+    "Arusa (Arusha)",
+    "Babati",
+    "Singida",
+    "Ucici (Ujiji)",
+    "Tabora (Kazeh)",
+    "Pangani",
+    "Dodoma",
+    "Mpvapva",
+    "Morogoro",
+    "Kilosa",
+    "Kalenga (Hehe)",
+    "Sumbavanga",
+    "Kilva Kivince",
+    "Mbeya",
+    "Lindi",
+    "Mikindani",
+    "Kilwa Kisiwani (Kilve)",
+    "Bveranyange (Karagve)",
+    "Njombe",
+    "Songea (Ngoni)",
+    "Masasi",
+    "Tunduru",
+    "Kilindoni (Mafia Adası)"
+   ],
+   "oneri": "Tek satır: s: alman-dogu-afrikasi (t 1916-09-01|1916-09-19 → 1919-06-28) + isg ingiltere 1916-09-01 → 1919-06-28 + s: ingiltere 1919-06-28 → 1922-07-20 + manda. Yalnız DOA künye t 1919-06-28 GENİŞLET ile birlikte.",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» (islamansiklopedisi.org.tr/tanzanya; sayfa.py oku ham, 5 Kasım 2026) — yalnız yıl 1919; yere özgü İngiliz giriş günleri BULUNAMADI"
+  },
+  {
+   "ad": "ZIMBABVE-KUNYE-BAGLI",
+   "kapsam_kayitlar": [
+    "Khami",
+    "Danangombe (Rozvi)"
+   ],
+   "oneri": "torva t→1684-01-01, rozvi t→1840-01-01 künye değişikliği ve iki yerleşim dilimi AYNI commit.",
+   "kaynak": "LAB gece-127; TDV Zimbabve (Torva yok)"
+  },
+  {
+   "ad": "TOGO-KUNYE-BAGLI",
+   "kapsam_kayitlar": [
+    "Ho (Togoland)",
+    "Hohoe",
+    "Kpando",
+    "Lomé",
+    "Atakpamé",
+    "Sokodé",
+    "Kara (Togo)",
+    "Yendi (Dagbon)",
+    "Notse"
+   ],
+   "oneri": "alman-togo t→1919-06-28 GENİŞLET ile aynı commit; Yendi için dagbon t→1899-11-14 BEYANLI.",
+   "kaynak": "Report by His Britannic Majesty’s Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (1920 raporu; archive.org item report-togoland-1920, ham metin, §3-4, sayfa.py oku, 5 Kasım 2026)"
+  },
+  {
+   "ad": "KIBRIS-1914",
+   "kapsam_kayitlar": [
+    "Lefkoşa",
+    "Magosa",
+    "Girne (Kyrenia)",
+    "Baf (Paphos)",
+    "Limasol",
+    "Tuzla (Larnaka)",
+    "Akrotiri",
+    "Episkopi",
+    "Güzelyurt (Morphou)",
+    "Dikelya (Dhekelia)"
+   ],
+   "oneri": "Lefkoşa modeli: 1914-11-05 kırılması hiçbir kayıtta yok (Güzelyurt dahil). TDV 5 Kasım 1914 ilhakını KAYNAKLI verir; ic_not. Alternatif (hepsinde 1914 kırılması) 7+1 kayıt, kibris-ingiliz-kolonisi künyesi kullanır.",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs» (islamansiklopedisi.org.tr/kibris; sayfa.py oku ham, 5 Kasım 2026)"
+  }
+ ],
+ "kunye_sorulari": [
+  "Akrotiri/Episkopi 'akrotiri-dekelya', Dikelya 'kibris-ingiliz-ussler' kullanıyor: KASA ölçümü iki künye de f 1960-08-16, t AÇIK, baskent Episkopi, ikisi de var; renkler.py'de ayrı renk (#cc6024 / #726012); kronoloji 1960-08-16 maddesi taraflar listesinde ikisini birlikte anar. LAB kararı (gece-127): ana id akrotiri-dekelya; Dikelya bu id'ye geçer, kibris-ingiliz-ussler kalkar.",
+  "alman-togo t 1914-08-26 → 1919-06-28 GENİŞLET (UYGULA'da, LAB SALI 7125d725e) — Togo zincirleri buna bağlı.",
+  "dagbon t 1899-01-01 → 1899-11-14 GENİŞLET BEYANLI (Yendi) — Yendi'nin Alman Togosu'na giriş günü kaynaksız.",
+  "torva t→1684-01-01, rozvi t→1840-01-01 (LAB kararı); Khami 1680'lerde terk edildi mi? (merdiven ④) kaynak BULUNAMADI.",
+  "alman-dogu-afrikasi t 1919-06-28 künyede zaten ölçüldü (uygun).",
+  "Lomé: İngiliz → Fransız devri günü (brif 1920-10-01) kaynaksız; Lomé için 1919-06-28 → 1922-07-20 sahibi karar EMRELİC'in.",
+  "Mafia/Kilindoni: TDV Kasım 1914 ele geçirme ile atlas 1916-09-19 çelişkisi.",
+  "Danangombe/Khami kronoloji: iki yeni sınır (1684, 1840) için madde var mı: denetle ile ölçülmedi."
+ ],
+ "ozet": {
+  "kayit_sayisi": 56,
+  "grup_sayilari": {
+   "tanganika": 28,
+   "guney_rodezya": 9,
+   "togo": 9,
+   "kibris": 10
+  },
+  "hukum_sayilari": {
+   "tanganika": {
+    "MEVCUT": 98,
+    "ONERI-KARAR": 79,
+    "ONERI": 12
+   },
+   "guney_rodezya": {
+    "ONERI": 10,
+    "MEVCUT": 26,
+    "KAYNAKLI": 8,
+    "BEYANLI": 4
+   },
+   "togo": {
+    "BEYANLI": 7,
+    "ONERI": 11,
+    "ONERI-KARAR": 11,
+    "MEVCUT": 15,
+    "BULUNAMADI": 1
+   },
+   "kibris": {
+    "MEVCUT": 23,
+    "KAYNAKLI": 10,
+    "BEYANLI": 8,
+    "ONERI-KARAR": 1
+   }
+  },
+  "dogrulama_sorun": 10,
+  "sorunlar": [
+   [
+    "Lefkoşa",
+    "bitişik değil",
+    "venedik",
+    "1570-09-09",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Magosa",
+    "bitişik değil",
+    "venedik",
+    "1571-08-01",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Girne (Kyrenia)",
+    "bitişik değil",
+    "venedik",
+    "1570-09-17",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Baf (Paphos)",
+    "bitişik değil",
+    "venedik",
+    "1570-09-09",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Limasol",
+    "bitişik değil",
+    "venedik",
+    "1570-07-02",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Tuzla (Larnaka)",
+    "bitişik değil",
+    "venedik",
+    "1570-09-09",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Akrotiri",
+    "bitişik değil",
+    "venedik",
+    "1570-07-02",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Episkopi",
+    "bitişik değil",
+    "venedik",
+    "1570-07-02",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Güzelyurt (Morphou)",
+    "bitişik değil",
+    "venedik",
+    "1570-09-09",
+    "ingiltere",
+    "1878-06-04"
+   ],
+   [
+    "Dikelya (Dhekelia)",
+    "bitişik değil",
+    "venedik",
+    "1570-09-09",
+    "ingiltere",
+    "1878-06-04"
+   ]
+  ],
+  "notlar": [
+   "KAYNAKLI yalnız sayfa.py ham metninden birebir alıntıyla (TDV Kıbrıs, TDV Zimbabve, 1920 İngiliz Togoland raporu). 'MEVCUT' = değişmeyen dilim.",
+   "Brifteki 1914-12-27 geçici bölüşüm günü ve Lomé 1920-10-01 devri hiçbir okunan kaynakta çıkmadı: kullanılmadı, BULUNAMADI.",
+   "Kuzey Rodezya kontrol grubu (20) YALNIZ BİLGİ: işlenmedi. Zanzibar, Nairobi, Kitui, Maçakos, Karonga, Mbande, Kasama, Livingstone, Serowe kapsam dışı.",
+   "Kıbrıs: 10 kaydın 6'sı zaten Lefkoşa modelinde; yalnız Akrotiri, Episkopi, Dikelya, Güzelyurt değişir."
+  ]
+ }
+}
