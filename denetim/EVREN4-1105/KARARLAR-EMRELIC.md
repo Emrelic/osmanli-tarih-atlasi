@@ -151,6 +151,35 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-73 — P041-P048 üzerine
+
+- **SİSTEMİK, Tunus 1923-10-29:** bu bir UFUK artığı; doğru gün 07-24 DE değil.
+  - Fransız himayesi Lozan'dan etkilenmez, 1956-03-20'ye kadar sürer (gece-22 kuralı): `v: fransa` 1881-05-12 → 1956-03-20, altında `tunus-beyligi-fransiz`.
+  - Tunus satırlarında t → 1956-03-20, ya da künyenin t'si.
+  - Lozan yalnız Osmanlı haklarının sonudur, `ic_not`a yazılır.
+- **Toplu tarama (ONAY):** güncel main'de t = 1923-10-29 olan bütün yerleşim dönemleri dökülür ve sınıflanır:
+  - (i) Osmanlı/TBMM → TC geçişi: meşru.
+  - (ii) Ufuk artığı: devlet ya da himaye bu günden sonra da sürüyor (Tunus, Lashio, Kengtung gibi). Bunlar için gerçek t kaynakla aranır.
+  - (iii) Belirsiz.
+  - LAB'ın UFUK-KUNYE çalışması künye uçları içindi; bu tarama yerleşim düzeyindedir.
+  - **Ölçüm (KASA, 5 Kasım, güncel girdi):** `UFUK-1923-YERLESIM.tsv`.
+    - Toplam 455 dönem: (i) 295, (ii) 147, (iii) 13.
+    - (ii)'nin 132'sinden sonra hiçbir dönem gelmiyor; zincir 1923-10-29'da bitiyor. Bunlar: ingiltere 60, fransa-cumhuriyet 36, tunus-beyligi-fransiz 36.
+    - (ii)'nin 15'inde 1923-10-29'da başka devlete geçiş var. Bunlar şüpheli: meksika → abd, sovyet-rusya → kacar, bolivya → paraguay vb.
+    - (iii): künyesinin t'si 1923-10-29 olan devletler (san-devletleri 5, cohor 3, yogyakarta, tidore), ayrıca tbmm 2 ve adal 1.
+    - Etkilenen yerleşim sayısı 124 ((ii) ve (iii) birlikte).
+- **(a) Eflak:** `v:` 1417'den başlar; 1462 `ic_not`a. Krayova ve Piteşti ile aynı.
+- **(b) Kırcaali 1913:** rakip hükûmet kuralı uygulanır.
+  - 07-14'ten `isg bulgaristan`, ardından Osmanlı / Garbî Trakya.
+  - Garbî Trakya Hükûmeti Kırcaali'yi fiilen yönettiyse (TDV, Ağustos 1913) `s: garbi-trakya`, hükûmet dağılana kadar (1913-10, gün kaynakla).
+  - Ardından Bulgaristan'ın teslim alışı. İstanbul Antlaşması 1913-09-29'da imzalandı, ama TEK ÖLÇÜ'ye göre gün teslim günüdür.
+- **(c) Koror/Palau:** vesayet 1994-10-01'e kadar `s:` olarak yazılır (ABD vesayet künyesi; ölçülecek). 1994-10-01'den `s: palau` (Serbest Birlik yürürlüğe girdi, fiilî devir). 1981 anayasası `ic_not`a. `v:` kullanılmaz.
+- **(d) Dir'iye 1818:**
+  - 1818-09'da Dir'iye teslim oldu, Birinci Suud Devleti yıkıldı, iddia eden bir egemen kalmadı.
+  - Bu yüzden `s: misir-kavalali` (Darfur emsali; Osmanlı adına olduğu `ic_not`a).
+  - Dönem 1824'te Türkî'nin Riyad'ı alışına kadar sürer; gün kaynakla bulunacak.
+- P041-P048'in öne çıkan önerileri uygun.
+
 ## 5 Kasım 2026 gece-63 — P031-P040 üzerine
 
 Künye ölçümü (KASA):
