@@ -592,5 +592,27 @@
   "islem": "Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise (yerlesimler.js; şu an s: napoli 1281 → 1479-08-01): s: kefalonya-palatin (devletler.js:17352 — künye VAR, hiçbir yerleşim kullanmıyor; BOYALAR'da KENDİ rengi VAR #04a25c — LAB ölçümü renkler.py, yani renk DEĞİŞİR: napoli → kefalonya-palatin rengi; doğru sahip olduğu için beklenen değişim) + v: sicilya-kralligi (→ 1282-03-29), 1282-03-30'dan v: napoli (Anjou metbûluğu; ic_not '1381 sonrası metbûluk zayıfladı'). Bitiş: Ayamavra ve Kefalonya 1479-08-01 Osmanlı fethi (TDV GEDİK AHMED PAŞA / AYAMAVRA cümlesiyle); Zaklise Venedik 1485 (TDV ZAKLİSE ile; künye ozet'i 'Zakintos 1482' — ÇELİŞKİ, kaynakla). Künye t 1479-01-01 ↔ fetih 1479-08-01 7 ay uyumsuz → t 1479-08-01'e GENİŞLET (Zaklise ayrıca beyanlı/isg). LAB TDV OKUMASI (6 Kasım): TDV AYAMAVRA «İki yıl sonra [1477+2 = 1479] Avlonya beyi Gedik Ahmed Paşa idaresindeki Osmanlı donanması, güneydeki Kefalonya adasıyla birlikte burayı da ele geçirdi» → YALNIZ YIL (1479); 1479-08-01'in gün kaynağı TDV'de YOK (ölçülmeli); TDV AYAMAVRA ayrıca «Şehir 1362'de İtalyan Tocco Dukalığı'nın hâkimiyetine geçti» ve «1300'lerde I. John Orsini … kale» → Lefkada Orsini'ye ~1300'lerde geçti (öncesi Epir — tarih kaynakla), 1362'den Tocco. TDV MEHMED II (arama parçası) «…hânedanına ait Ayamavra, Kefalonya ve Zanta adalarını aldı» → ZAKLİSE DE 1479'da Osmanlı'ya geçti; sonra Tocco'nun kısa geri alışı ve 1485 Venedik (TDV 'zaklise' slug'ı YOK — arama sayfası; 'zanta' ile denenmeli). KARAR (EMRELİC gece-82) + HİCRÎ GÜNCELLEME (LAB, TDV 'zanta' araması): TDV madde içeriği (Yedi Ada Cumhuriyeti maddesi, arama parçası) «Ayamavra, Kefalonya ve Zanta'yı fethetti (884/1479)» → HİCRÎ YIL VAR → hicrî kural ÖNCELİKLİ: 884 H = 1479-03-24 → 1480-03-11 (tabular, brif epoch'u, Jülyen) ∩ 1479 → kesişimin ilk günü 1479-03-24. Künye t ve Ayamavra, Kefalonya, İthaki, Zaklise'nin Osmanlı f'si = 1479-03-24 + ic_not '884/1479 (TDV — dizin birebir: iki TDV maddesinin iç parçası, madde gövdesi açılmadı); tabular ±1-2 gün; kaynaksız 1479-08-01 kalktı'. Akademik gün (Babinger; Setton) bulunursa o gün. Lefkada: 1281 → 1299-12-31 epir-despotlugu, 1300-01-01 [TDV 'yaklaşık'; I. John Orsini kalesi] BEYANLI kefalonya-palatin; Tocco 1362 ic_not (aynı künye içinde hanedan değişimi). Zaklise: 1479-03-24 Osmanlı; Tocco'nun kısa geri alışı ve 1485 Venedik kaynakla (TDV'de 'zanta' maddesi yok — yalnız madde içi parçalar: GEDİK AHMED PAŞA «1479'da Ege'de Kefalonya, Zanta ve Ayamavra'yı zaptetti»); künye t yalnız Tocco'nun son kesin ayrılışı kaynaklanırsa uzar.",
   "dayanak": "LAB PAZAR (7acb10c1e) + LAB ölçümü devletler.js:17352, renkler.py; TDV Gedik Ahmed Paşa (künye kaynağı)",
   "onay": "EMRELİC 6 Kasım gece-81/82 (1479-03-24 onaylı)"
+ },
+ {
+  "d": "ruanda",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "KUNYE_GENISLET",
+  "islem": "devletler.js ruanda 'Ruanda Krallığı (Nyiginya)' (:3794) t → 1961-01-28 (Gitarama, monarşinin ilgası — kaynakla). Kamboçya/Tunus kuralı: himaye/manda altında monarşi sürdü (dolaylı idare). ic_not_t: '1916-05-19 Belçika işgali; 1922-07-20 Belçika mandası (dolaylı idare); 1961-01-28 Gitarama; 1962-07-01 bağımsız cumhuriyet'. Nyanza ve öteki Ruanda yerleşimleri: s: ruanda kesintisiz 1961-01-28'e dek; v: alman-dogu-afrikasi (himaye 1897/1899 — kaynakla) → 1916-05-19 isg belcika (s: ruanda) → 1919-06-28 v: belcika → 1922-07-20 v: ruanda-urundi-mandasi → 1961-01-28 cumhuriyet (ruanda-cumhuriyeti f 1962-07-01 — 1961-01-28 → 1962-06-30 dilimi: manda altında cumhuriyet, v: ruanda-urundi-mandasi; künye adayı ya da beyanlı). 13 günlük boşluk (t 05-06 ↔ isg 05-19) kapanır. Değişmez 2: 1961-01-28 maddesi ölçülmeli.",
+  "kunye": "ruanda t 1916-05-06 → 1961-01-28 (Gitarama; gün kaynakla)",
+  "gun": "1961-01-28",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-88 (LAB PAZAR iletimi); LAB PAZAR 5dbbc659f (e4_LAB_025)",
+  "onay": "EMRELİC 6 Kasım gece-88"
+ },
+ {
+  "d": "burundi",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "KUNYE_GENISLET",
+  "islem": "Aynı kural (mwami 1966'ya dek): devletler.js burundi 'Burundi Krallığı' 1680 → 1916-06-06 (:3806) t → 1962-07-01; burundi-krallik 'Burundi Krallığı (bağımsız)' 1962-07-01 → 1966-11-28 (:14816) AYNI POLITY — birleştirme (tek künye 1680 → 1966-11-28) Emre kararı; o zamana dek bitişik iki künye. Bucumbura, Gitega: s: burundi + v: alman-dogu-afrikasi → 1916-06 isg belcika → 1919-06-28 v: belcika → 1922-07-20 v: ruanda-urundi-mandasi → 1962-07-01 burundi-krallik. KASA'nın gece-63 Urundi kararı bununla güncellenir (EMRELİC KASA'ya bildiriyor). LAB PAZAR e4_LAB_020 Bucumbura.",
+  "kunye": "burundi t 1916-06-06 → 1962-07-01 (bitişik burundi-krallik f 1962-07-01)",
+  "gun": "1962-07-01",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-88",
+  "onay": "EMRELİC 6 Kasım gece-88"
  }
 ]
