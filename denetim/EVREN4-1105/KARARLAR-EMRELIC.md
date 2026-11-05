@@ -178,6 +178,14 @@ Ruanda ve Burundi krallıkları (Ruanda mwamisi 1961'e, Burundi mwamisi 1966'ya 
 
 - Mandanın künyesi `s:` için açılmıştı. Bu kuralda manda `v:` katmanında kullanılır.
 - 1962-07-01'deki bağımsızlıkta Burundi'nin `burundi` → `burundi-krallik` geçişi ya aynı devlet sayılır ya künye birleşir. Bu da LAB'a.
+- **LAB SALI cevabı (b0c03b3ce + e508c520a):**
+  - `ruanda` t → 1961-01-28 ve `burundi` t → 1962-07-01 GENİŞLET işlemleri UYGULA'da. Eski t günlerindeki künye içi maddeler `isg` olarak kalır (Alman sömürgeleri emsali).
+  - `burundi` ve `burundi-krallik` aynı monarşidir, ama BOYALAR'da renkleri farklı (#3024d2 / #a8cc24). Birleştirmek haritadaki rengi değiştirir. Bu yüzden şimdilik bitişik iki künye olarak kalırlar; `ic_not`: "aynı monarşi; 1962 statü değişimi". Birleştirme kararı D-ANAHTAR listesinde, Emre'de.
+  - `ruanda-cumhuriyeti` f GERİ ÇEKİLİR: 1962-07-01 → 1961-01-28. Manda altındaki cumhuriyet ile bağımsız cumhuriyet aynı devlettir (Laos'taki bağlı devlet → tam bağımsızlık emsali).
+    - 1961-01-28 → 1962-06-30 arasına `v: ruanda-urundi-mandasi` katmanı gelir.
+    - 1962-07-01 bağımsızlığı `ic_not`a yazılır.
+    - Künye `ruanda` künyesinin t'siyle bitişik olur. Değişmez 2 için 1961-01-28 kronoloji maddesi iki künyeye ortaktır.
+  - `ruanda-urundi-mandasi` künyesi `v:` katmanına uygundur. Aralığı (1922-07-20 → 1962-07-01) bütün `v:` dilimlerini kapsıyor. Künye BOYALAR'da yok, ama `harita:'belcika'` alanı var; himaye gruplamasında Belçika rengine düşer.
 
 ## 5 Kasım 2026 gece-85 — Kanada 1880 sistemik bulgusu (KANADA-1880-TARAMA.tsv)
 
