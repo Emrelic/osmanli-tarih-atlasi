@@ -151,6 +151,29 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-99 — son partiler üzerine
+
+- **(a) Doğu Timor:** gece-93 modeli geçerli. TAHRİR modeli bu gece UMIT'le denendi ve geri alındı: işgal diliminin altında sahipsiz toprak bırakıyordu (Değişmez 1).
+  - `s: endonezya-dogu-timor` (künyesi `tur:isgal`) 1975-12-07 → 1999-10-25.
+  - 1976-07-17 ilhakı ve BM'nin ilhakı tanımaması `ic_not`a.
+  - `portekiz-timor` t → 1975-11-27.
+  - 11-28 → 12-06 BEYANLI: "FRETILIN Ağustos 1975'ten fiilî idarede; RDTL künye adayı".
+  - TAHRİR ile işgal künyesinin nasıl uyuşacağı Emre'nin sabah listesinde.
+- **(b) Dolaylı idare (Papeete, Mutsamudu, Molepolole):** BEKLET. İki model de ONERI olarak yazılır; sınıf kararı Emre'de.
+  - Molepolole: `tsvana` t 1885-03-31 kaynaksız. UMIT 1885-09-30'a çekti (Hertslet); KASA satırı da buna hizalanır.
+- **(c) Ur III / Umma:** künyedeki -2111 kalır (proje kuralı); yerleşimler künyeye hizalanır.
+  - ARCANE'in -2109'u alternatif kronoloji olarak `ic_not`a.
+  - Beyan: "proje kuralı, Frayne okunmadı".
+  - Kronoloji sistemini değiştirmek Emre'nin işidir.
+- **(d) Yeni Granada toplu taraması: ONAY.**
+  - 1717-05-27 → 1810-07-20 arası Kolombiya, Ekvador ve Panama yerleşimleri → `yeni-granada-valiligi`. Künye tek parça kalır; 1723-39 kaldırılışı `ic_not`a (LAB kararı).
+  - Venezuela 1777-09-08'den itibaren `venezuela-genel-kaptanligi` (UMIT'in Guanare zinciri emsal).
+  - Önce ölçüm listesi çıkarılır: yerleşim, eski → yeni, yeni Değişmez 2 kırılması sayısı. Uygulama ondan sonra.
+  - Yeni kırılmalar için 1717, 1739 ve 1777 kronoloji maddeleri var mı, kontrol edilir.
+- **(e) Çin ganzhi el çevirileri:** tek dosyaya çıkarılır. Sütunlar: satır kimliği | hanedan/dönem adı + yıl | ay (閏 varsa yazılır) | gün (ganzhi ya da sayı) | atlas değeri | alıntı. EMRELİC bunları Academia Sinica'da toplu çevirecek.
+- **Onaylananlar (TEK ÖLÇÜ'ye uygun):** Eisenstadt, Nuuk, Koper, Melekeok.
+- **Yeni iş:** HAVVA'nın EVREN4 kovasında r8_060 → r8_075 KASA'ya verildi (ardıl ajanı bittikten sonra). Aynı brif kullanılır; f = varoluş kuralı ve F-GERI listesi dahil.
+
 ## 5 Kasım 2026 gece-97 — ardılsız zincirler ve dolaylı idare
 
 - **GERÇEK EKSİK (71) — ONAY.** P079-P082 bitince tek bir ajanla doldurulur.
