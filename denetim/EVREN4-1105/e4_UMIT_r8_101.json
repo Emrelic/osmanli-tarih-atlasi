@@ -1,0 +1,304 @@
+{
+ "Luena (Moxico)": [
+  {
+   "sira": 4074,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Gale Encyclopedia of World Cultures, Ovimbundu (encyclopedia.com, ONERI-guclu sinif); EB1911 Angola (wikisource, IPUCU)",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: encyclopedia.com Ovimbundu (Viye/Bié, Mbailundu, Wambu... sayılır; Luena/Moxico anılmaz), EB1911 Angola (Lunda ve Barotseland sınırı; Moxico yok). Luena (Moxico) Lunda-Luvale-Chokwe-Luchazi ülkesi, Ovimbundu krallık çekirdeği (Bié/Bailundu/Wambu) dışında; Ovimbundu sahipliği KAYNAKTA YOK. t=1902 de Ovimbundu için doğrulanmadı: Gale 'Bié 1890, Mbailundu 1896, Mbailunda Savaşı 1902-1904'. Sahip dilimi kaynaksız/şüpheli; LAB: yerel sahip (Lunda/Luvale/Chokwe) ya da ABI MERKEZ kararı. Fiilî Portekiz idaresi Luena'da: kaynak bulunamadı."
+  },
+  {
+   "sira": 4075,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Hertslet, Map of Africa by Treaty II (archive.org mapofafricabytre02hertuoft) 1891-06-11 Anglo-Portuguese; EB1911 Angola",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "f=1902 Luena'ya özgü kaynak yok. EB1911 (IPUCU): Barotseland-Angola sınırı 1891 Anglo-Portekiz anlaşması + 1905 İtalya Kralı hakem kararı (nüfuz alanı, idare değil). t=1975-11-11 bu turda ham metin okunmadı (BAKILMADI; künye portekiz-angola t aynı gün)."
+  }
+ ],
+ "Solwezi": [
+  {
+   "sira": 4077,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Zambiya; EB1911 Rhodesia, British Central Africa (wikisource, IPUCU)",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: TDV Zambiya (Bemba yalnız Tippu Tip ile çatışan halk, Kuzeydoğu), EB1911 Rhodesia/BCA ('BSAC quelled turbulent Awemba', tarihsiz). Solwezi Kaonde ülkesi (Kuzeybatı); Bemba hakimiyeti kaynakta YOK; Lozi iddiası ve Lunda olası. Sahip dilimi kaynaksız: LAB kararı. 1700 ve 1899 uçları teyitsiz."
+  },
+  {
+   "sira": 4078,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "Zambia Independence Act 1964 (c.65) s.1 (t ucu, primer); TDV Zambiya (genel çerçeve); künye ingiliz-kuzey-rodezya f:1890-01-01 t:1964-10-24 (data/devletler.js:10287, harita:ingiltere)",
+   "alinti": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)",
+   "uc": "t",
+   "oneri": {
+    "d": "ingiliz-kuzey-rodezya"
+   },
+   "not": "t=1964-10-24 KAYNAKLI (Act s.1: Kuzey Rodezya 'shall cease to be a protectorate'; TDV: Kaunda 24 Ekim 1964 bağımsızlık). ONERI d: künye ingiliz-kuzey-rodezya VAR ve aralığı kapsıyor (harita:ingiltere, boya değişmez). f=1899 TEYITSIZ: Solwezi Kuzeybatı Rodezya (BSAC) içinde; Hertslet 1909 kronolojik listede (OCR) 'Order in C. Barotziland-North-Western Rhodesia. Limits' 1899 sonu; fiilî idare günü kaynakla bulunamadı, f değiştirilmedi. TDV Zambiya (ULKE DUZEYI): 1894'te Kuzey Rodezya'nın İngiltere'ye ait olduğu kabul edildi; 1923'te Kuzey Rodezya İngiliz Sömürge Ofisi'nin idaresinde kaldı (BSAC idaresi/1924 geçişi künyede ikincil kaynakta, burada okunmadı)."
+  },
+  {
+   "sira": 4079,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, Zambiya (Kuzey Rodezya), https://islamansiklopedisi.org.tr/zambiya ; Zambia Independence Act 1964 (c.65) s.1, https://www.legislation.gov.uk/ukpga/1964/65/section/1",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını îlan etti",
+   "uc": "f",
+   "oneri": null,
+   "not": "f GÜN: TDV ve Act aynı gün. Act s.1 (ham sayfa): Kuzey Rodezya toprakları 'shall cease to be a protectorate' ve bağımsız cumhuriyet olur. t=2000-12-31 pencere ucu, ölçüm değil (öteki uç teyitsiz). Mevcut DEVRALMA yerine iki bağımsız kaynak: Act (primer) + TDV.",
+   "alinti2": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)"
+  }
+ ],
+ "Kuito (Bié)": [
+  {
+   "sira": 4080,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Gale Encyclopedia of World Cultures, Ovimbundu, https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ovimbundu (ONERI-guclu); EB1911 Angola (IPUCU)",
+   "alinti": "The Portuguese took advantage of this internal conflict and invaded the kingdom of Bié in 1890",
+   "uc": "t",
+   "oneri": {
+    "t": "1890-01-01"
+   },
+   "not": "f: Gale 'Viye (Bié) ve Mbailundu 1799 raporundaki 22 krallığın büyükleri' ama 1700 başlangıcı kaynakta YOK. t: Gale Bié'nin Portekiz istilası 1890 (YIL); 1902 ise Mbailunda Savaşı (1902-1904), Bié'nin ucu değil. ONERI t=1890 (YIL, gün yok). OLCUT: istila ≠ idareye katma (Gale: direct rule/District Officers sonradan pekişti) → fiilî idare tarihi için ek kaynak gerek; LAB kararı. EB1911 'king of Bihe' (Kangomba) metni (IPUCU). Ticari ansiklopedi tek başına KAYNAKLI değil."
+  },
+  {
+   "sira": 4081,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "kaynak": "Gale Ovimbundu (ONERI-guclu)",
+   "alinti": "The Portuguese took advantage of this internal conflict and invaded the kingdom of Bié in 1890",
+   "uc": "f",
+   "oneri": {
+    "f": "1890-01-01"
+   },
+   "not": "f önerisi 1890 (YIL) ya da 1902-1904 pekişme; yukarıdaki aynı sorun (istila vs idareye katma). t=1975-11-11 okunmadı (BAKILMADI). Dilim sınırları taşınırsa Değişmez 2 için kronoloji maddesi (Bié 1890) gerekir."
+  }
+ ],
+ "Nkhotakota (Cumbe)": [
+  {
+   "sira": 4083,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1840-01-01",
+   "t": "1895-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, Malavi (Ahmet Kavas), https://islamansiklopedisi.org.tr/malavi",
+   "alinti": "1840’ta kendisini önce Marimba sultanı, ardından ... “jumbe” îlan eden Sâlim b. Abdullah",
+   "uc": "f",
+   "oneri": {
+    "d": "nkhotakota-jumbe-sultanligi (künye yok; LAB)"
+   },
+   "not": "OLCUT: fiilî idare. TDV: Sâlim b. Abdullah (Zengibarlı) Nkhotakota'da ticaret merkezi kurdu, 1840'ta kendini Marimba sultanı/jumbe îlan etti; 'jumbeler dönemi' kendi idare; TDV Zengibar egemenliği YAZMIYOR (Zengibar yalnız 'dikkatini çekti'). Mwingi Kheiri 1895'te İngilizlerce tahttan indirilip Zengibar'a sürüldü (t=1895 YIL KAYNAKLI). ONERI: d=umman-zengibar yerine Jumbe sultanlığı (künye adayi LAB'a) ya da nominal bağ beyanı. f=1840 YIL TDV (Salim'in gelisi daha eski olabilir; f_geri önerilmedi, ilk iskan yılı yok). Shepperson 1966 'The Jumbe of Kota Kota' (TDV bibliyografyası) erişilemedi.",
+   "alinti2": "1895’te Mwingi Kheiri’yi tahttan indirerek Zengibar’a sürdüler"
+  },
+  {
+   "sira": 4084,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-01-01",
+   "t": "1964-07-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Malavi (f YIL); Malawi Independence Act 1964 (c.46) s.1, https://www.legislation.gov.uk/ukpga/1964/46/section/1 (t GÜN)",
+   "alinti": "1895’te Mwingi Kheiri’yi tahttan indirerek Zengibar’a sürdüler",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "f: TDV 1895 YIL (İngilizler Jumbe'yi indirdi), gün yok, 'yalnız yıl teyitli'. t: Act s.1 'On and after 6th July 1964 ... territories ... comprised in the Nyasaland protectorate shall together form part of Her Majesty's dominions under the name of Malawi' (primer). Künye tercihi: ingiliz-nyasaland (f 1891-05-14, harita:ingiltere) aralığı kapsıyor; d 'ingiltere' yerine o olabilir. UYARI: 1891 protektora/1894-95 Kota Kota fiilî idare ayrımı okunmadı. TDV: 1891'de Nyasaland İngiliz nüfuz bölgesi îlan edildi.",
+   "alinti2": "On and after 6th July 1964 (in this act referred to as “the appointed day”)"
+  },
+  {
+   "sira": 4085,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "malavi",
+   "f": "1964-07-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Malawi Independence Act 1964 (c.46) s.1, https://www.legislation.gov.uk/ukpga/1964/46/section/1 ; TDV Malavi: 'Malavi 1964'te bağımsızlığını elde etti' (yıl)",
+   "alinti": "On and after 6th July 1964 (in this act referred to as “the appointed day”)",
+   "uc": "f",
+   "oneri": null,
+   "not": "f GÜN primer (Act s.1 'under the name of Malawi'); TDV yalnız 1964 YIL. t=2000-12-31 pencere ucu (ölçüm değil; öteki uç teyitsiz). Mevcut DEVRALMA yerine Act + TDV."
+  }
+ ],
+ "Serence (Serenje)": [
+  {
+   "sira": 4086,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Zambiya; EB1911 Rhodesia, British Central Africa (IPUCU)",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: TDV Zambiya (Bemba/Tippu Tip), EB1911 BCA ('BSAC quelled the turbulent Awemba and Bashukulumbwe', tarihsiz). Serenje Lala/Lenje/Bemba sınır kusağı; Bemba fiilî hakimiyeti kaynakta YOK; 1700 ve 1899 uçları teyitsiz."
+  },
+  {
+   "sira": 4087,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "Zambia Independence Act 1964 (c.65) s.1 (t ucu, primer); TDV Zambiya (genel çerçeve); künye ingiliz-kuzey-rodezya f:1890-01-01 t:1964-10-24 (data/devletler.js:10287, harita:ingiltere)",
+   "alinti": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)",
+   "uc": "t",
+   "oneri": {
+    "d": "ingiliz-kuzey-rodezya"
+   },
+   "not": "t=1964-10-24 KAYNAKLI (Act s.1: Kuzey Rodezya 'shall cease to be a protectorate'; TDV: Kaunda 24 Ekim 1964 bağımsızlık). ONERI d: künye ingiliz-kuzey-rodezya VAR ve aralığı kapsıyor (harita:ingiltere, boya değişmez). f=1899 TEYITSIZ: Serenje Kuzeydoğu Rodezya (BSAC) içinde; Hertslet 1909 kronolojik listesinde (OCR, yıl başlığı çıkarımı) 'Order in C. North-Eastern Rhodesia. Limits' 29 Ocak (1900?) — idareye katma ADAYI, ham metin doğrulanmadı, f değiştirilmedi. TDV Zambiya (ULKE DUZEYI): 1894'te Kuzey Rodezya'nın İngiltere'ye ait olduğu kabul edildi; 1923'te Kuzey Rodezya İngiliz Sömürge Ofisi'nin idaresinde kaldı (BSAC idaresi/1924 geçişi künyede ikincil kaynakta, burada okunmadı)."
+  },
+  {
+   "sira": 4088,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, Zambiya (Kuzey Rodezya), https://islamansiklopedisi.org.tr/zambiya ; Zambia Independence Act 1964 (c.65) s.1, https://www.legislation.gov.uk/ukpga/1964/65/section/1",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını îlan etti",
+   "uc": "f",
+   "oneri": null,
+   "not": "f GÜN: TDV ve Act aynı gün. Act s.1 (ham sayfa): Kuzey Rodezya toprakları 'shall cease to be a protectorate' ve bağımsız cumhuriyet olur. t=2000-12-31 pencere ucu, ölçüm değil (öteki uç teyitsiz). Mevcut DEVRALMA yerine iki bağımsız kaynak: Act (primer) + TDV.",
+   "alinti2": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)"
+  }
+ ],
+ "Kabompo": [
+  {
+   "sira": 4089,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "ONERI",
+   "kaynak": "EB1911 Rhodesia (wikisource, IPUCU); Hertslet, Map of Africa by Treaty II (archive.org mapofafricabytre02hertuoft) 1890-08-20 ve 1891-06-11 Anglo-Portuguese; TDV Zambiya",
+   "alinti": "Lewanika, the king of the Barotse, signed, on the 27th of June 1890, a treaty placing his country under the protection",
+   "uc": "t",
+   "oneri": {
+    "alan": "s lozi sürer; v: ingiltere/BSAC 1890-06-27'den (HIMAYE)"
+   },
+   "not": "t=1890-06-27 EB1911'de (IPUCU) HIMAYE anlaşması günü: 'undertook not to interfere in the internal administration of Barotseland' → Lozi iç idaresi SÜRER; himaye v:, s:lozi sonrasında da sürmeli. TDV: Lewanika 1890'da Rhodes'in himayesine girdi (YIL). Hertslet: Kabompo nehri Anglo-Portekiz nüfuz hattı ('up to the junction with that river of the River Kabompo', sphere of influence, idare değil). f=1600 teyitsiz. Kabompo bölgesi Kaonde/Luvale/Lunda; Lozi fiilî hakimiyeti doğrulanmadı — LAB kararı. Tek ölçü fiilî idare: BSAC fiilî idare günü bulunamadı (Barotziland-NW Rhodesia Order in Council 1899 Hertslet listesinde, gün OCR'da net değil)."
+  },
+  {
+   "sira": 4090,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "Zambia Independence Act 1964 (c.65) s.1 (t ucu, primer); TDV Zambiya (genel çerçeve); künye ingiliz-kuzey-rodezya f:1890-01-01 t:1964-10-24 (data/devletler.js:10287, harita:ingiltere)",
+   "alinti": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)",
+   "uc": "t",
+   "oneri": {
+    "d": "ingiliz-kuzey-rodezya"
+   },
+   "not": "t=1964-10-24 KAYNAKLI (Act s.1: Kuzey Rodezya 'shall cease to be a protectorate'; TDV: Kaunda 24 Ekim 1964 bağımsızlık). ONERI d: künye ingiliz-kuzey-rodezya VAR ve aralığı kapsıyor (harita:ingiltere, boya değişmez). f=1890-06-27 HIMAYE günüdür (EB1911 IPUCU), fiilî idare değil; yukarıdaki satirın kararına bağlı: s:lozi sürer + v:ingiltere. TDV Zambiya (ULKE DUZEYI): 1894'te Kuzey Rodezya'nın İngiltere'ye ait olduğu kabul edildi; 1923'te Kuzey Rodezya İngiliz Sömürge Ofisi'nin idaresinde kaldı (BSAC idaresi/1924 geçişi künyede ikincil kaynakta, burada okunmadı)."
+  },
+  {
+   "sira": 4091,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, Zambiya (Kuzey Rodezya), https://islamansiklopedisi.org.tr/zambiya ; Zambia Independence Act 1964 (c.65) s.1, https://www.legislation.gov.uk/ukpga/1964/65/section/1",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını îlan etti",
+   "uc": "f",
+   "oneri": null,
+   "not": "f GÜN: TDV ve Act aynı gün. Act s.1 (ham sayfa): Kuzey Rodezya toprakları 'shall cease to be a protectorate' ve bağımsız cumhuriyet olur. t=2000-12-31 pencere ucu, ölçüm değil (öteki uç teyitsiz). Mevcut DEVRALMA yerine iki bağımsız kaynak: Act (primer) + TDV.",
+   "alinti2": "On 24th October 1964 (in this Act referred to as “ the appointed day ”)"
+  }
+ ],
+ "Kakonda (Caconda)": [
+  {
+   "sira": 4092,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1682-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Angola; Gale Ovimbundu (encyclopedia.com)",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: EB1911 Angola (Caconda 'hill country S.E. of Benguella', 1911'de Portekiz; tarih yok), Gale Ovimbundu (Caconda yok). f=1682 (ve presidio 1769 ipucu) kaynakla DOĞRULANMADI; f daha geç olabilir, f_geri önerilmez. t=1975-11-11 okunmadı (BAKILMADI)."
+  }
+ ],
+ "Menongue": [
+  {
+   "sira": 4094,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Gale Ovimbundu; EB1911 Angola",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: Gale Ovimbundu, EB1911 Angola (Menongue/Serpa Pinto yok). Menongue (Cuando-Cubango) Ovimbundu krallık çekirdeğinden uzak (Ganguela ülkesi); Ovimbundu sahipliği kaynaksız. Yerleşimin bu devirde var olup olmadığı belirsiz — LAB: kuruluş tarihi + yerel sahip."
+  },
+  {
+   "sira": 4095,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Angola; Hertslet II 1891 Anglo-Portuguese",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Baktığım: EB1911 Angola, Hertslet II. Menongue'nin Portekiz idaresine giriş günü bulunamadı; t=1975-11-11 okunmadı (BAKILMADI)."
+  }
+ ],
+ "f_geri": []
+}
