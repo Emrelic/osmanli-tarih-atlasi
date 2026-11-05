@@ -1021,5 +1021,16 @@
   "guc": "ZAYIF (yıl; beyanlı)",
   "dayanak": "KASA SALI iletimi; LAB ölçümü origin/main; TDV 'ZİMBABVE'; Britannica 'Changamire dynasty' (devletler.js'teki alıntı)",
   "onay": "EMRELİC gece-127 (karar LAB'da)"
+ },
+ {
+  "d": "dagbon (t) / Yendi",
+  "tur": "KUNYE + YERLESIM + MADDE",
+  "karar": "TARIH_DUZELT",
+  "guc": "ORTA (BEYANLI)",
+  "kunye": "dagbon t 1899-01-01 → 1899-11-14",
+  "gun": "1899-11-14",
+  "islem": "devletler.js dagbon (LAB ölçümü origin/main: f 1401-01-01 [yüzyıl], t 1899-01-01, kaynak 'bulunamadı') t → 1899-11-14 (1899 İngiliz-Alman Antlaşması — Samoa / Batı Afrika tarafsız bölge paylaşımı; Yendi Alman Togosu'na kaldı; TEK ÖLÇÜ: imza günü). ic_not_t: '1899-01-01 yer tutucuydu; Alman-İngiliz tarafsız bölgesi 1888-1899 (Salaga Antlaşması 1888) — Dagbon fiilen bağımsız; 1896-12 Adibo/Yendi Alman seferi ic_not'. Yendi aynı commit'te 1899-11-14'ten s: alman-togo (alman-togo t 1919-06-28 GENİŞLET kalemine bağlı — UYGULA'da VAR, 'alman sömürge künyeleri (Versay)'; 1914-08-26 sonrası Yendi isg ingiltere dilimi o kalemde). DEĞİŞMEZ 2 (LAB ölçümü origin/main, data/ tamamı): 1899-11-14 maddesi YOK → madde önerisi 'İngiltere ile Almanya Samoa ve Batı Afrika antlaşmasını imzaladı; Yendi dahil Dagbon'un doğusu Alman Togosu'na kaldı' (taraflar dagbon, alman-togo, ingiltere) — kırılmayla AYNI commit (KASA SALI madde kuyruğu: KRONOLOJI-1104/MADDE-TASLAK-KUYRUK-1105.json). DİKKAT — SINIF KARARI: Dagbon 'dolaylı idare krallıkları' Emre bekleyen sınıfında (Lozi, Yatenga ile); Emre himaye modelini (Kamboçya/Ruanda kuralı) seçerse dagbon t yeniden GENİŞLER (Ya Naa sürdü; Yendi s: dagbon + v: alman-togo). Bu kalem o kararı önceden kapatmaz; yalnız yer tutucu günü olaya bağlar. Kaynak: YANLIS-SAHIP-UYGULA.md (KASA SALI; LAB origin/main'de görmedi — denetim/EVREN4-1105'te yok) — antlaşma günü birincil metinle (Hertslet, Map of Africa by Treaty) teyit edilmeli. [UYGULAYICI: KASA PAZAR]",
+  "dayanak": "KASA SALI denetim/EVREN4-1105/YANLIS-SAHIP-UYGULA.md; LAB ölçümü origin/main",
+  "onay": "EMRELİC (KASA SALI iletimi, yanlış sahip kalemi)"
  }
 ]
