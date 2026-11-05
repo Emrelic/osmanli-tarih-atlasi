@@ -7,7 +7,7 @@
    "d": "timor-beylikleri",
    "f": "1281-01-01",
    "t": "1769-10-10",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "uc": "t",
    "kaynak": "ANU Press, Divided Loyalties (Timor, ch.2) https://press-files.anu.edu.au/downloads/press/n4398/html/ch02.xhtml (sayfa.py ham metin)",
    "alinti": "The central, western and south-western parts of East Timor, on the other hand, remained self-governing",
@@ -18,9 +18,12 @@
    },
    "oneri_son": {
     "d": "timor-beylikleri",
-    "t": "YIL düzeyi ~1895-1912, kaynakla netleşecek"
+    "f": "1281-01-01",
+    "t": "1895-05-01",
+    "not": "iç bölge; künye t genişletmesi LAB'a"
    },
-   "not": "1769 Lifau->Dili taşınmasıdır (koloni merkezi), liurai krallıklarının sonu değil. ANU: 1888'de yalnız DOĞU'daki 13 reino Portekiz'e bağlılık bildirdi; orta/batı/güneybatı özerk kaldı; Mayıs 1895'te Obulo/Marobo (batı sınır, Maliana-Bobonaro civarı; ilçe adı kaynakta yok) yenildi. Künye timor-beylikleri t=1769 hayalet/erken kapanıyor -> künye genişletme sorusu LAB'a. f 1281 ve künyedeki ONCE1281 notu: BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Maliana onay: ANU Press (akademik) KAYNAKLI sınıf; timor-beylikleri iç bölgede 1895'e uzar. · 1769 Lifau->Dili taşınmasıdır (koloni merkezi), liurai krallıklarının sonu değil. ANU: 1888'de yalnız DOĞU'daki 13 reino Portekiz'e bağlılık bildirdi; orta/batı/güneybatı özerk kaldı; Mayıs 1895'te Obulo/Marobo (batı sınır, Maliana-Bobonaro civarı; ilçe adı kaynakta yok) yenildi. Künye timor-beylikleri t=1769 hayalet/erken kapanıyor -> künye genişletme sorusu LAB'a. f 1281 ve künyedeki ONCE1281 notu: BAKILMADI.",
+   "hukum_eski": "ONERI"
   },
   {
    "sira": 4351,
@@ -40,11 +43,10 @@
     "t": "~1895-1912 (yıl, kaynakla)"
    },
    "oneri_son": {
-    "d": "timor-beylikleri",
-    "f": "1769-10-10",
-    "t": "YIL ~1895-1912"
+    "kaldir": true,
+    "not": "1769–1860 BOSLUK timor-beylikleri ile dolar"
    },
-   "not": "Boşluk dolar: Maliana'nın batı iç bölgesi Portekiz yönetimine ancak 1890'ların sonu-1910'larda girdi; arası özerk liurai/reino. Dolayısıyla BOSLUK yerine s: timor-beylikleri (beyanlı, künye t genişletilmeli). Maliana'ya özgü tanık yok: ÜLKE/BÖLGE DÜZEYİ; BEYANLI YAKLAŞIKLIK."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): 1769–1860 BOŞLUK dolar (timor-beylikleri). · Boşluk dolar: Maliana'nın batı iç bölgesi Portekiz yönetimine ancak 1890'ların sonu-1910'larda girdi; arası özerk liurai/reino. Dolayısıyla BOSLUK yerine s: timor-beylikleri (beyanlı, künye t genişletilmeli). Maliana'ya özgü tanık yok: ÜLKE/BÖLGE DÜZEYİ; BEYANLI YAKLAŞIKLIK."
   },
   {
    "sira": 4352,
@@ -53,7 +55,7 @@
    "d": "portekiz-timor",
    "f": "1860-08-23",
    "t": "1942-02-24",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "uc": "f",
    "kaynak": "ANU Press, Divided Loyalties ch.2 (ham metin)",
    "alinti": "controlled by the Dutch in accordance with the 1859 treaty",
@@ -64,9 +66,12 @@
    },
    "oneri_son": {
     "d": "portekiz-timor",
-    "f": "hukukî devir günü (1859 antlaşma imzası/1860 ratifikasyon) ile fiilî idare günü (~1895 sonrası) ayrı; TEK ÖLÇÜ gereği Maliana için fiilî idare"
+    "f": "1895-05-01",
+    "t": "1942-02-24",
+    "beyan": "Mayıs 1895, ay hassasiyeti (Obulo/Marobo'nun yenilgisi; ANU Divided Loyalties ch.2)"
    },
-   "not": "ANU yalnız '1859 treaty' der; 1860-08-23 günü bu kaynakla tarihlenmez (mevcut Marques dos Santos/RIAA kaynağını doğrulamadım). TEK ÖLÇÜ: Portekiz Maliana'yı imza anında fiilen yönetmiyordu -> s: portekiz-timor teslim/fiilî idare gününden (1895-96 sonrası) başlamalı, 1860 hukukî ic_not. t 1942-02-24 (Japon çıkarması): BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor Maliana'da 1895-05-01'den [ay]. · ANU yalnız '1859 treaty' der; 1860-08-23 günü bu kaynakla tarihlenmez (mevcut Marques dos Santos/RIAA kaynağını doğrulamadım). TEK ÖLÇÜ: Portekiz Maliana'yı imza anında fiilen yönetmiyordu -> s: portekiz-timor teslim/fiilî idare gününden (1895-96 sonrası) başlamalı, 1860 hukukî ic_not. t 1942-02-24 (Japon çıkarması): BAKILMADI.",
+   "hukum_eski": "ONERI"
   },
   {
    "sira": 4353,
@@ -81,7 +86,13 @@
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "alinti2": "The United Nations never recognised this integration, and both the Security Council and the General Assembly called for Indonesia’s withdrawal.",
    "oneri": {},
-   "not": "t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI.",
+   "oneri_son": {
+    "d": "portekiz-timor",
+    "f": "1945-09-02",
+    "t": "1975-11-28",
+    "sonraki": "1975-11-28 → 12-07 DRTL/FRETILIN (künye LAB) — beyanlı"
+   }
   },
   {
    "sira": 4354,
@@ -101,13 +112,21 @@
     "f": "1975-12-07",
     "t": "1999-10-25"
    },
-   "oneri_son": {
-    "alan": "isg",
-    "d": "endonezya-dogu-timor",
-    "f": "1975-12-07",
-    "t": "1999-10-25"
-   },
-   "not": "ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "endonezya",
+     "f": "1975-12-07",
+     "t": "1976-07-17"
+    },
+    {
+     "alan": "s",
+     "d": "endonezya-dogu-timor",
+     "f": "1976-07-17",
+     "t": "1999-10-25"
+    }
+   ],
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."
   },
   {
    "sira": 4355,
@@ -187,7 +206,13 @@
    "kaynak": "ANU Press ch.2 (ham metin); UNIS Note 189",
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "oneri": {},
-   "not": "Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI.",
+   "oneri_son": {
+    "d": "portekiz-timor",
+    "f": "1945-09-02",
+    "t": "1975-11-28",
+    "sonraki": "1975-11-28 → 12-07 DRTL/FRETILIN (künye LAB) — beyanlı"
+   }
   },
   {
    "sira": 4360,
@@ -206,13 +231,21 @@
     "f": "1975-12-07",
     "t": "1999-10-25"
    },
-   "oneri_son": {
-    "alan": "isg",
-    "d": "endonezya-dogu-timor",
-    "f": "1975-12-07",
-    "t": "1999-10-25"
-   },
-   "not": "ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "endonezya",
+     "f": "1975-12-07",
+     "t": "1976-07-17"
+    },
+    {
+     "alan": "s",
+     "d": "endonezya-dogu-timor",
+     "f": "1976-07-17",
+     "t": "1999-10-25"
+    }
+   ],
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."
   },
   {
    "sira": 4361,
@@ -246,9 +279,12 @@
     "f": "洪武十五年三月 (ay düzeyi; Tonghai'ye özgü idarî katılış) — EMRELİC çevirir"
    },
    "oneri_son": {
-    "f": "1382 (yıl); gün/ay çevirisi EMRELİC"
+    "d": "ming-hanedani",
+    "f": "1382-04-14",
+    "t": "1644-04-25",
+    "beyan": "ay hassasiyeti; 洪武十五年三月 (Tonghai府'a bağlanış)"
    },
-   "not": "ÖLÇÜT: idareye katma — Mingshi 46: Tonghai 洪武十五年三月 府'a bağlandı, 'bu yerde' 守禦千戶所 kuruldu (本元臨安路治). Atlas f 1382-01-16 ise 卷3 洪武十五年正月壬午 (eyalet özeti 'Yunnan sakinleşti'); 壬午'de sayılan yerler arasında 臨安路 ADI GEÇMEZ. İki ifade: «洪武十五年正月壬午» (kayıt günü, ay-güneş) ve «洪武十五年三月» -> Academia Sinica ile çevrilecek. Kaynaktan hangisi esas: TAHRİR ölçütüne göre 3. ay (idareye katma) aday; karar EMRELİC. t Ming künye günü; Güney Ming (Yongli) geçişi BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): 洪武15 三月 → 1382-04-14…05-13, gün yok → 1382-04-14 [ay]. 洪武15 正月壬午 = 1382-01-16 (Yunnan sakinleşmesi, atlas f) — Tonghai'ye özgü değil, ic_not. · ÖLÇÜT: idareye katma — Mingshi 46: Tonghai 洪武十五年三月 府'a bağlandı, 'bu yerde' 守禦千戶所 kuruldu (本元臨安路治). Atlas f 1382-01-16 ise 卷3 洪武十五年正月壬午 (eyalet özeti 'Yunnan sakinleşti'); 壬午'de sayılan yerler arasında 臨安路 ADI GEÇMEZ. İki ifade: «洪武十五年正月壬午» (kayıt günü, ay-güneş) ve «洪武十五年三月» -> Academia Sinica ile çevrilecek. Kaynaktan hangisi esas: TAHRİR ölçütüne göre 3. ay (idareye katma) aday; karar EMRELİC. t Ming künye günü; Güney Ming (Yongli) geçişi BAKILMADI."
   },
   {
    "sira": 4366,
@@ -257,12 +293,19 @@
    "d": "qing-hanedani",
    "f": "1659-01-07",
    "t": "1673-12-28",
-   "hukum": "KAYNAKLI",
-   "uc": "f",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "清史稿 卷5 世祖本紀二 (zh.wikisource.org/wiki/清史稿/卷5, ham metin)",
    "alinti": "遂俱抵雲南，入省城。李定國、白文選奉桂王奔永昌。",
    "oneri": {},
-   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE/EYALET DÜZEYİ: Kunming'in Qing eline geçişi (順治十六年春正月; kayıtta bu cümlede gün ganzhi yok, 'ay düzeyi'), Tonghai/Lin'an adı geçmez. Qing shi gao günleri KAYIT günüdür -> 1659-01-07 günü EMRELİC çevirmesi/Academia Sinica. Yıl başlığı (十六年) alıntıdan önce ayrı satırda; ardındaki «二月丙寅，以雲、貴蕩平» ile sıralı. t (1673-12-28) için 4367 notuna bak."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): 順治16 春正月 → 1659-01-23…02-20; atlasın 1659-01-07'si bu aydan ÖNCE, yanlış → f 1659-01-23 [ay]. t: 康熙12 12月壬子 = 1674-01-23 (kayıt), 丙辰 = 1674-01-27 (haber saraya). Harita değişimi Yunnan'daki ayaklanma günü: geleneksel 11月21日 ≈ 1673-12-28. Dayanaklı kaynakla teyit edilirse 12-28 kalır, 壬子/丙辰 ic_not; EDİLEMEZSE KAYNAKLI gün 1674-01-23 + 'kayıt günü' beyanı. · EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE/EYALET DÜZEYİ: Kunming'in Qing eline geçişi (順治十六年春正月; kayıtta bu cümlede gün ganzhi yok, 'ay düzeyi'), Tonghai/Lin'an adı geçmez. Qing shi gao günleri KAYIT günüdür -> 1659-01-07 günü EMRELİC çevirmesi/Academia Sinica. Yıl başlığı (十六年) alıntıdan önce ayrı satırda; ardındaki «二月丙寅，以雲、貴蕩平» ile sıralı. t (1673-12-28) için 4367 notuna bak.",
+   "oneri_son": {
+    "d": "qing-hanedani",
+    "f": "1659-01-23",
+    "t": "1673-12-28",
+    "beyan": "f ay hassasiyeti; 順治十六年春正月 (Kunming'e giriş)"
+   },
+   "hukum_eski": "KAYNAKLI"
   },
   {
    "sira": 4367,
@@ -280,9 +323,11 @@
     "t": "康熙二十年四月己酉 civarı: «武定、大理、臨安、永順、姚安皆降» (Lin'an fu Qing'e teslim; Tonghai'nin üst idaresi) — EMRELİC çevirir"
    },
    "oneri_son": {
-    "t": "1681 (yıl); Lin'an teslimi ay/gün çevirisi EMRELİC; Kunming 10. ay 28. gün (atlas 1681-12-07) şehir düzeyi"
+    "d": "san-fan",
+    "f": "1673-12-28",
+    "t": "1681-06-12"
    },
-   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · f: Qing shi gao isyanı 康熙十二年十二月壬子 maddesine yazmış (KAYIT günü; 'Wu Sangui'nin ayaklanma günü' değil: ardından «丙辰，反問至» haber geldi). Atlas 1673-12-28 başka kaynaktan (isyan günü) — bu ham metin doğrulamıyor -> ONERI. t: 清史稿 卷6, 康熙二十年: 彰泰 «夏四月甲辰朔 ... 己酉，貝子彰泰遣使招撫諸路，武定、大理、臨安、永順、姚安皆降»; Kunming'e girişi 五月辛巳 ve «十月二十八日入雲南城» (Kunming). Tonghai Lin'an fu'ya bağlı olduğundan san-fan'dan Qing'e dönüş Kunming'den (atlas t) ÖNCE olmuş olabilir. İki sonuç: Çin ifadeleri çevrilecek. Yıl başlığı bitişik değil (aynı juan'da 二十年辛酉 başlığı öncede), sıra çıkarımı."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): t: 康熙20 四月己酉 = 1681-06-12 (朔 05-18 甲申, 26. gün) — Lin'an (Tonghai'nin üst idaresi) teslimi Kunming'den (康熙20 十月二十八日 = 1681-12-07) önce. f: 康熙12 12月壬子 = 1674-01-23 (kayıt), 丙辰 = 1674-01-27 (haber saraya). Harita değişimi Yunnan'daki ayaklanma günü: geleneksel 11月21日 ≈ 1673-12-28. Dayanaklı kaynakla teyit edilirse 12-28 kalır, 壬子/丙辰 ic_not; EDİLEMEZSE KAYNAKLI gün 1674-01-23 + 'kayıt günü' beyanı. · EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · f: Qing shi gao isyanı 康熙十二年十二月壬子 maddesine yazmış (KAYIT günü; 'Wu Sangui'nin ayaklanma günü' değil: ardından «丙辰，反問至» haber geldi). Atlas 1673-12-28 başka kaynaktan (isyan günü) — bu ham metin doğrulamıyor -> ONERI. t: 清史稿 卷6, 康熙二十年: 彰泰 «夏四月甲辰朔 ... 己酉，貝子彰泰遣使招撫諸路，武定、大理、臨安、永順、姚安皆降»; Kunming'e girişi 五月辛巳 ve «十月二十八日入雲南城» (Kunming). Tonghai Lin'an fu'ya bağlı olduğundan san-fan'dan Qing'e dönüş Kunming'den (atlas t) ÖNCE olmuş olabilir. İki sonuç: Çin ifadeleri çevrilecek. Yıl başlığı bitişik değil (aynı juan'da 二十年辛酉 başlığı öncede), sıra çıkarımı."
   },
   {
    "sira": 4368,
@@ -300,9 +345,11 @@
     "f": "康熙二十年四月己酉 (Lin'an teslim kaydı) — Tonghai için Lin'an yolu; Kunming 十月二十八日 şehir"
    },
    "oneri_son": {
-    "f": "1681 (yıl düzeyi); gün EMRELİC"
+    "d": "qing-hanedani",
+    "f": "1681-06-12",
+    "t": "1912-02-12"
    },
-   "not": "Bkz. 4367: Lin'an'ın Qing'e teslimi Kunming'in düşüşünden önce kayıtlı (四月己酉). KAYIT günü, çeviri EMRELİC. t 1912-02-12 (Kunming emsali): BAKILMADI. Bilgi (kaynak okunmadı): Yunnan'da 1911-10-30 Chongjiu ayaklanması Qing idaresini fiilen bitirmiş olabilir — ayrı araştırma. 清史稿 卷21 (1865 Lin'an eşrafı) BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): f 1681-06-12 (Lin'an teslimi, 康熙20 四月己酉); Kunming 1681-12-07 ic_not. · Bkz. 4367: Lin'an'ın Qing'e teslimi Kunming'in düşüşünden önce kayıtlı (四月己酉). KAYIT günü, çeviri EMRELİC. t 1912-02-12 (Kunming emsali): BAKILMADI. Bilgi (kaynak okunmadı): Yunnan'da 1911-10-30 Chongjiu ayaklanması Qing idaresini fiilen bitirmiş olabilir — ayrı araştırma. 清史稿 卷21 (1865 Lin'an eşrafı) BAKILMADI."
   }
  ],
  "Nabil kıyısı (bölge)": [
@@ -321,9 +368,18 @@
     "f": "1875-05-07 imza (Petersburg Antlaşması) gün-düzeyi akademik teyit bulunamadı; YIL düzeyi 1875"
    },
    "oneri_son": {
-    "f": "1875 (yıl) — 1875-05-07 teyitsiz"
+    "d": "rusya",
+    "f": "1875-05-07",
+    "t": "1917-03-15",
+    "isg_ek": {
+     "alan": "isg",
+     "d": "japonya",
+     "f": "1920-01-01",
+     "t": "1925-05-15",
+     "beyan": "yıl hassasiyeti; Nikolayevsk olayı Mayıs 1920'den sonra; bitiş 1925-05-15 tahliyesi (kaynakla)"
+    }
    },
-   "not": "Mevcut kaynak Amano 'Karafuto as a Border Island' (EBR 10(1)): bu makale 1905-1945 Karafuto'sunu anlatır, 1875'i dayandırmıyor (PDF metni sayfa.py ile boş döndü, özet aramada 1905-45). Antlaşma metni (Wikisource Treaty of St Petersburg 1875) 404; 7 Mayıs/22 Ağustos 1875 ratifikasyon bilgisi yalnız arama özeti -> teyit değil. Bölge: kuzey Sahalin 51.8N Portsmouth 1905 hattı (50N) kuzeyinde = Rusya'da kalır (EB1911). EK BULGU (satır dışı, işgal): FRUS 1925 II d563 «the Japanese Government, whose military forces have occupied Northern Sakhalin» -> isg japonya (atlas notunda 1920-07-03 → 1925-05-15 'yazılmadı'): FRUS yalnız işgalin varlığını ve 15 Mayıs 1925 çekilişi iddiasını (Sinclair) verir; 1920-07-03 BAKILMADI. TEK KURAL/isg: ÖLÇÜT: geçici/askerî."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Nabil: isg japonya ekle (FRUS 1925 II 'Japanese… military forces have occupied Northern Sakhalin'). Başlangıç günü aranacak (FRUS 1920 / Japonca akademik); bulunamazsa 1920-01-01 + beyan. ONERI. · Mevcut kaynak Amano 'Karafuto as a Border Island' (EBR 10(1)): bu makale 1905-1945 Karafuto'sunu anlatır, 1875'i dayandırmıyor (PDF metni sayfa.py ile boş döndü, özet aramada 1905-45). Antlaşma metni (Wikisource Treaty of St Petersburg 1875) 404; 7 Mayıs/22 Ağustos 1875 ratifikasyon bilgisi yalnız arama özeti -> teyit değil. Bölge: kuzey Sahalin 51.8N Portsmouth 1905 hattı (50N) kuzeyinde = Rusya'da kalır (EB1911). EK BULGU (satır dışı, işgal): FRUS 1925 II d563 «the Japanese Government, whose military forces have occupied Northern Sakhalin» -> isg japonya (atlas notunda 1920-07-03 → 1925-05-15 'yazılmadı'): FRUS yalnız işgalin varlığını ve 15 Mayıs 1925 çekilişi iddiasını (Sinclair) verir; 1920-07-03 BAKILMADI. TEK KURAL/isg: ÖLÇÜT: geçici/askerî."
   }
  ],
  "Pago Pago": [
@@ -456,7 +512,7 @@
    "alinti": "敬侯元年，武公子朝作亂，不克，出奔魏。趙始都邯鄲。",
    "alinti2": "二十一年，魏圍我邯鄲。二十二年，魏惠王拔我邯鄲 … 二十四年，魏歸我邯鄲",
    "oneri": {},
-   "not": "Çin takvimi: 趙敬侯元年 (Zhao Jinghou 1. yıl) = atlasta MÖ 386 = astronomik -0385: yıl düzeyi, ay yok; Shiji'nin kendi cümlesi MÖ yıl vermez (Jinghou yılı), eşleme 卷15 tablosundan. EMRELİC doğrulasın. Ek (BEYANLI borç zaten kayıtlı): 趙成侯 21-24. yıl Wei Handan'ı aldı/geri verdi (353-351). Ek: 史記 卷43 «趙竟有邯鄲、柏人» (晉定公二十一年) -> Handan Zhao-Jin hanedanında MÖ 386 öncesi de Zhao'nun; atlas -0385 öncesi devleti/Jin sahipliği ayrı sorun (zhao-devleti künye f=-0402). t -0227: 卷43 'Handan Qin'e geçti' (八年十月) bu turda okunmadı: BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): 趙敬侯元年: Academia Sinica MÖ'yü kapsamaz → −0385 (MÖ 386, astronomik) [yalnız yıl]; atlas negatif yıl biçimi astronomik (VERI-YAPISI §304) — uyumlu. · Çin takvimi: 趙敬侯元年 (Zhao Jinghou 1. yıl) = atlasta MÖ 386 = astronomik -0385: yıl düzeyi, ay yok; Shiji'nin kendi cümlesi MÖ yıl vermez (Jinghou yılı), eşleme 卷15 tablosundan. EMRELİC doğrulasın. Ek (BEYANLI borç zaten kayıtlı): 趙成侯 21-24. yıl Wei Handan'ı aldı/geri verdi (353-351). Ek: 史記 卷43 «趙竟有邯鄲、柏人» (晉定公二十一年) -> Handan Zhao-Jin hanedanında MÖ 386 öncesi de Zhao'nun; atlas -0385 öncesi devleti/Jin sahipliği ayrı sorun (zhao-devleti künye f=-0402). t -0227: 卷43 'Handan Qin'e geçti' (八年十月) bu turda okunmadı: BAKILMADI."
   }
  ]
 }

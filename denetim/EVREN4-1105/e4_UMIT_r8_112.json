@@ -1,0 +1,154 @@
+{
+ "St Helens (Tazmanya)": [
+  {
+   "sira": 4234,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "van-diemens-land",
+   "f": "1834-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Baktim: Companion to Tasmanian History (utas.edu.au, robots yasagi), ADB (robots yasagi); WebFetch ile en.wikipedia (tek dayanak olamaz, ozet): Georges Bay 1830'larda balina/fok ussu, ilk resmi arazi tahsisi 1830, ad 1835'te St Helens oldu. Sahiplik: ada 1825-12-03'ten beri van-diemens-land (kunye ic_not_f, MoAD); f=1834-01-01 yerlesimin var olus yilina yakin tahmin, kaynakli gun yok. t=1901-01-01 Federasyon (kunye). Hukum verilemedi; f ucu icin akademik kaynak (Companion to Tasmanian History 'St Helens') gerekir. f yerlesim kurulusu, kolonyal sahiplik baslangici degil (1825-1830'lar yerlesim yok/belirsiz)."
+  }
+ ],
+ "Coober Pedy": [
+  {
+   "sira": 4236,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1915-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Baktim: SA Heritage Assessment PDF (data.environment.sa.gov.au; '1915' ve 'Coober Pedy' anahtarlari ham metinde YOK), samemory.sa.gov.au (SSL suresi dolmus), Britannica (403). Yalniz arama ozeti: opal 1 Subat 1915'te bulundu, yerlesim ~1916'dan, ad 1920 (Wikipedia/Britannica ozeti; ham metin okunmadi). 1915'te Avustralya Milletler Toplulugu mevcut (kunye f 1901-01-01), yer SA eyaleti icinde; 1915 oncesi yerlesim yok, kirpma uygun. IPUCU: f yili dogru gorunuyor. KAYNAKLI verilemedi."
+  }
+ ],
+ "Fitzroy Crossing": [
+  {
+   "sira": 4237,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1903-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "State Records Office of WA, archive.sro.wa.gov.au/index.php/occurrence-books-s1423 (SSL hatasi; yalniz arama ozeti, ham metin YOK)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "d": "bati-avustralya",
+    "f": "1893-01-01",
+    "t": "1901-01-01",
+    "ek": "avustralya 1901-01-01'den baslamali"
+   },
+   "not": "ONERI-guclu, KAYNAKLI degil (ozet). SRO WA ozeti: Fitzroy'da 1893'te polis kampi, 1895-96'da ilk istasyon; kasaba 1912'de gazetted, 1974-75'te yeniden konumlandi; Wikipedia: haritalarda 1903'ten. Yani 1903 oncesi yer var ve Bati Avustralya Kolonisi'nde (kunye t 1901-01-01): 1893-1901 arasi s: bati-avustralya dilimi eksik, avustralya 1901-01-01'den baslamali. 1893 yalniz YIL (polis kampi = baslangic varsayimi). Dogrulama icin SRO sayfasi ham okunmali ya da WA Government Gazette. Kolonyal sahiplik 1829'dan ama yerlesim 1893 oncesi yok: oncesi YOK_O_DEVIRDE."
+  }
+ ],
+ "Mount Magnet": [
+  {
+   "sira": 4238,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1895-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Baktim: outbackfamilyhistoryblog (404), reiwa.com.au (ticari emlak sitesi, ozet: altin 1891 Woodley/Sampey; kasaba 1894 etut, 1895 gazetted; belediye/Lennonville 1896). Akademik kaynak okunamadi. f=1895-01-01 gazetted yiliyla uyumlu ama yerlesim fiilen 1891 altin keşfiyle baslar (ONERI-zayif f=1891, YIL, ticari/ozet). t=1901-01-01 Federasyon (kunye). Hukum verilmedi."
+  }
+ ],
+ "Bunbury": [
+  {
+   "sira": 4240,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1841-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "inHerit (WA Dept of Planning, Lands and Heritage heritage database), 'House, 15 Forster St, Bunbury', Place 26361, https://inherit.dplh.wa.gov.au/Public/Inventory/Details/fe324bfd-00d8-4dbe-a52f-f7d6b9a182dd",
+   "alinti": "The townsite of Bunbury was surveyed and gazetted in 1841.",
+   "uc": "f",
+   "oneri": {},
+   "not": "YIL duzeyi KAYNAKLI (f ucu, 1841); t=1901 Federasyon kunyeden, bu kaynakta yok: oteki uc teyitsiz. Gun: arama ozetleri 26 Mart 1841 (Colonial Secretary's Office kayitlari) ve baska bir kaynak Subat 1841 diyor: CELISKI, gun secilmedi. Ayni ham metin: ilk arazi tahsisleri 1830, yerlesim 1838'de basladi; Stirling 1836'da adlandirdi (ozet). f kasaba resmi kurulusu; 1830-1841 arasi yerlesim zayif, kolonyal sahiplik 1829'dan: oncesi icin YOK_O_DEVIRDE/abi merkez karari Emre'de."
+  }
+ ],
+ "Thursday Island (Port Kennedy)": [
+  {
+   "sira": 4242,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1878-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Baktim: en.wikipedia (ham okundu, tek dayanak olamaz): 'In 1877, an administrative centre for the Torres Strait Islands was set up on the island by the Queensland Government'; adada 1867'de bir karakol kuruldu ifadesi (belirsiz). ADB ve qld.gov.au'da uygun sayfa yok/robots. ONERI-zayif: f 1877 (YIL, Wikipedia) - atlas 1878; akademik kaynak yok, degistirme. Torres Bogazi adalarinin Queensland'e ilhaki (1872/1879) BAKILMADI."
+  }
+ ],
+ "Roper River Misyonu (Ngukurr)": [
+  {
+   "sira": 4244,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1908-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Find & Connect (Australian Government), 'Roper River Mission', https://www.findandconnect.gov.au/entity/roper-river-mission-2/ ; NT Place Names Register, Ngukurr, https://www.ntlis.nt.gov.au/placenames/view.jsp?id=22448",
+   "alinti": "Roper River Mission was established in 1908 by the Church Missionary Society at Mirlinbarrwarr.",
+   "uc": "f",
+   "oneri": {
+    "d": "kuzey-bolgesi-sa",
+    "f": "1908-08-27",
+    "t": "1911-01-01",
+    "ek": "s: avustralya 1911-01-01'den yeni satir"
+   },
+   "not": "Kurulus 1908 KAYNAKLI (Find & Connect ham metin: misyonerler 27 Agustos 1908'de vardi; arazi 'leased to the Mission by the Government of South Australia'; NT Place Names: 'established ... in 1908'). Sahip hatasi: 1908'de Kuzey Bolge hala Guney Avustralya'ya bagli (kunye kuzey-bolgesi-sa f 1863-07-06 t 1911-01-01, ABS 'passed to the Commonwealth on 1 January 1911'; kunyenin ic_notundan, ben ayrica kaynaklamadim). Bu yuzden s: avustralya 1908'de olamaz; 1908-1911-01-01 kuzey-bolgesi-sa, sonra avustralya. Misyon 1940 selinden sonra Ngukurr'a tasindi, 1968'de NT Welfare Branch devraldi, 1988'de Ngukurr adi. 1911-01-01 ucu bu kaynakla teyitsiz. Gun 1908-08-27 varis gunu, kurulus gunu olarak alindi."
+  }
+ ],
+ "Waitangi (Bay of Islands)": [
+  {
+   "sira": 4245,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda-birlesik-kabileler",
+   "f": "1835-10-28",
+   "t": "1840-02-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Baktim: nzhistory.govt.nz (robots yasagi), teara.govt.nz (robots/403), WebSearch ozeti. He Whakaputanga 28 Ekim 1835 Waitangi (kunye ic_not_f, DigitalNZ/Archives NZ) ham metinde okunamadi. f ucu teyitsiz. t=1840-02-06 Waitangi Antlasmasi imzasi (asagidaki satirla birlikte)."
+  },
+  {
+   "sira": 4246,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Oxford Companion to British History (J. A. Cannon), 'Waitangi, treaty of', encyclopedia.com (ticari sinif, ONERI-guclu) https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/waitangi-treaty",
+   "alinti": "At Waitangi in February 1840 a majority of the Maori chiefs present agreed to cede sovereignty",
+   "uc": "f",
+   "oneri": {},
+   "not": "Degisiklik onerilmiyor; KAYNAKLI da degil: alinti AY duzeyinde (Subat 1840), gun vermiyor; ticari ansiklopedi sinifi. Te Ara robots yasagi/403; arama ozeti (ham degil): 1966 Te Ara maddesi egemenligin 21 Mayis 1840'ta Hobson'un ilaniyla kuruldugunu soyluyor. Yani f=1840-02-06 antlasma imza gunu, fiili egemenlik ilani 1840-05-21 (ic_not'a yazilmali). t=1840-02-06 (kabileler) ayni olaya bagli."
+  }
+ ]
+}
