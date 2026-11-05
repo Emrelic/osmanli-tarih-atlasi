@@ -1,0 +1,633 @@
+{
+ "Uluköy (Akçadam)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1410-02-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi», https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "Yanbolu’da Emîr Süleyman’a tâbi Rumeli beylerbeyine karşı büyük başarı kazandı (8 Şevval 812 / 13 Şubat 1410). Edirne’yi aldı",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3607] Fetret kuralı: ABİ MERKEZ Edirne (köy Edirne-Dimetoka arasında; köye özgü tanıklık yok). t GÜN ülke/bölge düzeyi (Yanbolu zaferi + Edirne'nin alınışı; Edirne'ye giriş günü ayrıca verilmiyor). f 1402-07-28 Ankara Savaşı ülke düzeyi, t teyitli / f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi», https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "(8 Şevval 812 / 13 Şubat 1410). Edirne’yi aldı | 15 Haziran 1410’da Mûsâ Çelebi’yi Kosmidion’da (Hasköy) yendi",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3608] Fetret kuralı: ABİ MERKEZ Edirne, bölge düzeyi. TDV: Kosmidion'dan sonra Mûsâ Rumeli'de mücadeleyi sürdürdü, 'Emîr Süleyman’a temmuz ayında tekrar yenildi' — Edirne'nin Süleyman'a fiilen dönüşü Temmuz 1410 olabilir; 06-15 savaş günüdür, köyün devir günü değil (ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi», https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "15 Haziran 1410’da Mûsâ Çelebi’yi Kosmidion’da (Hasköy) yendi | hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3609] Fetret kuralı: ABİ MERKEZ Edirne. t: Mûsâ Edirne'ye girdi, Süleyman'ı öldürttü, 17 Şubat 1411 hükümdarlık ilanı (Edirne). f bkz. sira 3608 notu (Temmuz 1410 ikinci yenilgi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi», https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411) | boğduruldu (5 Rebîülâhir 816 / 5 Temmuz 1413)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3610] Fetret kuralı: ABİ MERKEZ Edirne; t ülke düzeyi (Çamurlu, Mûsâ'nın ölümü). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3611] [KÜME K05] (TBMM uygulaması ASKIDA). Bilgi: köy Doğu Trakya'da; Yunan işgali (1920 yazı → 1922 sonbaharı) zincirde yok — K05 ajanına not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:11",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi», https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "Mehmed Çelebi’nin adamları tarafından yakalanarak boğduruldu (5 Rebîülâhir 816 / 5 Temmuz 1413)",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3612] f ülke düzeyi (Fetret'in sonu; ABİ MERKEZ Edirne). t teyitsiz: t K05 kümesine bağlı (TBMM 1920-04-23, ASKIDA); Mersin emsaline göre Doğu Trakya'da d: Yunan işgali boyunca isg yunanistan ile sürer ve TBMM teslimiyle biter — K05/Emre kararına bırakıldı, gün okunmadı. Ayrıca mevcut isg bulgaristan 1913-03-26 f'si (Edirne'nin düşüşü) köyün işgal günü olmayabilir (Bulgar ordusu Kasım 1912'de Edirne çevresindeydi) — ölçülmedi. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ts’q’altbila": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:24",
+   "alan": "s",
+   "d": "gurcistan",
+   "f": "1281-01-01",
+   "t": "1578-08-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
+   "alinti": "atabegler, 1268-1578 tarihleri arasında bölgenin yönetimini ellerinde tuttular ve bu dönemde İlhanlı, Karakoyunlu, Akkoyunlu devletlerine bağlı kaldılar",
+   "uc": "f+t",
+   "oneri": {
+    "d": "samtshe-atabegligi",
+    "t": "1578-08-09",
+    "not": "künye samtshe-atabegligi var (f 1268-01-01, t 1578-08-09); İlhanlı/Karakoyunlu/Akkoyunlu bağlılığı v: katmanı olarak ayrıca düşünülmeli (Ahıska kaydıyla birlikte)"
+   },
+   "not": "[sira 3613] ABİ MERKEZ Ahıska (11,9 km; kayıt zinciri zaten Ahıska'dan kopya). Sahip Gürcistan Krallığı değil Samçhe atabegleri. t: Ahıska kaydı 1578-08-09 Çıldır Savaşı (TDV lala-mustafa-pasa, cildir-eyaleti) — bu kayıtta 08-01 kalmış (eski kaynaksız gün). YIL düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:24",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1829-09-14",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
+   "alinti": "1828-1829 Osmanlı-Rus Savaşı sonunda imzalanan Edirne Antlaşması’yla Rusya’ya terkedildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3614] ABİ MERKEZ Ahıska; f YIL (antlaşmanın 14 Eylül 1829 imza günü TDV «Edirne Antlaşması»ndan, atlas kronolojisi; bu maddede gün yok). t ülke düzeyinden: [KÜME K01] (Şubat Devrimi). Rusya 1918'e kadar Jülyen; 1829-09-14 Gregoryen (Jülyen 2 Eylül) — atlas günü Gregoryen. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:24",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3615] [KÜME K01]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:24",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-04-09",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
+   "alinti": "Millî Gürcistan hükümeti Haziran 1918’de Trabzon Antlaşması’yla bu iki sancağı resmen Türkiye’ye bıraktı | 16 Mart 1921 Moskova Antlaşması’yla",
+   "uc": "",
+   "oneri": {
+    "not": "dönem bölünmeli: 1917-11-07 → 1918 (Transkafkasya / Gürcistan DC 1918-05-26) → 1918 Haziran Osmanlı (TDV: Trabzon/Batum antlaşmasıyla Ahıska ve Ahılkelek sancakları Türkiye'ye) → Mondros sonrası Kars Millî Şûrası → 1919-04-13 sonrası Gürcistan işgali (gurcistan-demokratik-cumhuriyeti, künye 1918-05-26 → 1921-03-16) → 1921-03-16 Moskova ile Gürcistan SSC; günler kaynakla tek tek okunmalı"
+   },
+   "not": "[sira 3616] [KÜME K02] — İSTİSNA (4b): yerleşime (ABİ MERKEZ Ahıska) özgü, dönemle çelişen tanıklık. 1917-1991 kesintisiz sovyet-rusya yanlış (KARARLAR gece-20 madde 2: Gürcistan DC kırılmaları her şehir kendi günüyle). TDV 'Haziran 1918' Batum Antlaşması (1918-06-04) olmalı; TDV 'Trabzon' diyor — TDV iç tutarsızlığı ic_not'a. Köyün Ahıska sancağında olup olmadığı ölçülmedi (Ahıska'ya 11,9 km, sınır köyü). uc boş: alıntı satırın uçlarını değil ara kırılmaları tarihliyor. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:24",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1578-08-01",
+   "t": "1829-09-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
+   "alinti": "Ahıska atabegleri, Lala Mustafa Paşa’nın Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler | Edirne Antlaşması’yla Rusya’ya terkedildi",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1578-08-09"
+   },
+   "not": "[sira 3617] ABİ MERKEZ Ahıska. f: Ahıska kaydının kendi günü 1578-08-09 (Çıldır Savaşı; TDV lala-mustafa-pasa / cildir-eyaleti, Ahıska kaydının kaynak alanı) — burada 08-01 kalmış, savaştan 8 gün önce, kaynaksız. TAHRİR: 'yeni kurulan Çıldır eyaletinin merkezi' = idareye katma. Ara dilim: 'Bir ara Safevîler’in eline geçen şehir, 1635’te Osmanlılar tarafından geri alındı' — Safevî dilimi zincirde yok, yılı belirsiz (BULUNAMADI; Ahıska kaydıyla birlikte bakılmalı). t YIL (1829), gün Edirne Antlaşması imzası. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bayamo": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:14",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1513-01-01",
+   "t": "1898-12-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Peace Between the United States and Spain; December 10, 1898 (Paris), Art. I — Avalon Project, Yale Law School, https://avalon.law.yale.edu/19th_century/sp1898.asp",
+   "alinti": "Spain relinquishes all claim of sovereignty over and title to Cuba.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3618] ÜLKE DÜZEYİ. t = Paris Antlaşması imza günü; yıl/gün belgenin başlığından ('December 10, 1898' — yıl bağlamdan). f (1513, kuruluş yılı) teyitsiz: akademik kaynak aranmadı/bulunmadı, mevcut kaynak gazete/Britannica. TEK ÖLÇÜ notu: İspanya imzadan sonra da Küba'yı fiilen yönetiyordu; Havana'da İspanyol tahliyesi/devir 1899-01-01 (bu oturumda okunmadı) — İspanya s'si imzada bitse bile 1898-12-10 → 1899-01-01 arası fiilî İspanyol idaresi ic_not'a. Bayamo Doğu Küba'dadır: 1898 yazındaki Santiago teslimi ve Kurtuluş Ordusu'nun bölgedeki fiilî denetimi ayrı dilim olabilir — ölçülmedi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:14",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'Cuba' (Guide to the U.S. History of Recognition), https://history.state.gov/countries/cuba",
+   "alinti": "the United States remained in Cuba as an occupying power until the Republic of Cuba was formally installed",
+   "uc": "t",
+   "oneri": {
+    "alan": "isg",
+    "d": "abd",
+    "f": "1898-12-10",
+    "t": "1902-05-20",
+    "not": "s: abd → isg abd (askerî işgal). Altta s: sahibi yok: İspanya egemenlikten vazgeçti (devretmedi), Küba Cumhuriyeti künyesi 1902-05-19'da başlıyor → 1898-12-10 → 1902-05-20 arası altta yatan s: için künye sorusu LAB'a (BEYANLI)."
+   },
+   "not": "[sira 3619] ÖLÇÜT: geçici/askerî — ABD 'occupying power' (OH), Paris Art. I 'so long as such occupation shall last'; İspanya Küba'yı ABD'ye DEVRETMEDİ ('relinquishes', Porto Riko için 'cedes'). TEK KURAL → isg. ÜLKE DÜZEYİ. f: imza 1898-12-10 (fiilî ABD idaresi Havana'da 1899-01-01, okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:14",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'Cuba' (Guide to the U.S. History of Recognition), https://history.state.gov/countries/cuba",
+   "alinti": "On May 20, 1902, the United States relinquished its occupation authority over Cuba",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3620] ÜLKE DÜZEYİ. f gün: ABD işgal yetkisini bıraktı. Künye kuba-cumhuriyeti f 1902-05-19 ('formally installed on May 19, 1902', aynı sayfa) — bir günlük künye/yerleşim farkı ic_not'a. t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Matanzas (Küba)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:30",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1693-01-01",
+   "t": "1898-12-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Peace Between the United States and Spain; December 10, 1898 (Paris), Art. I — Avalon Project, Yale Law School, https://avalon.law.yale.edu/19th_century/sp1898.asp",
+   "alinti": "Spain relinquishes all claim of sovereignty over and title to Cuba.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3621] ÜLKE DÜZEYİ. t = Paris Antlaşması imza günü; yıl/gün belgenin başlığından ('December 10, 1898' — yıl bağlamdan). f (1693, kuruluş yılı) teyitsiz: akademik kaynak aranmadı/bulunmadı, mevcut kaynak gazete/Britannica. TEK ÖLÇÜ notu: İspanya imzadan sonra da Küba'yı fiilen yönetiyordu; Havana'da İspanyol tahliyesi/devir 1899-01-01 (bu oturumda okunmadı) — İspanya s'si imzada bitse bile 1898-12-10 → 1899-01-01 arası fiilî İspanyol idaresi ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:30",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'Cuba' (Guide to the U.S. History of Recognition), https://history.state.gov/countries/cuba",
+   "alinti": "the United States remained in Cuba as an occupying power until the Republic of Cuba was formally installed",
+   "uc": "t",
+   "oneri": {
+    "alan": "isg",
+    "d": "abd",
+    "f": "1898-12-10",
+    "t": "1902-05-20",
+    "not": "s: abd → isg abd (askerî işgal). Altta s: sahibi yok: İspanya egemenlikten vazgeçti (devretmedi), Küba Cumhuriyeti künyesi 1902-05-19'da başlıyor → 1898-12-10 → 1902-05-20 arası altta yatan s: için künye sorusu LAB'a (BEYANLI)."
+   },
+   "not": "[sira 3622] ÖLÇÜT: geçici/askerî — ABD 'occupying power' (OH), Paris Art. I 'so long as such occupation shall last'; İspanya Küba'yı ABD'ye DEVRETMEDİ ('relinquishes', Porto Riko için 'cedes'). TEK KURAL → isg. ÜLKE DÜZEYİ. f: imza 1898-12-10 (fiilî ABD idaresi Havana'da 1899-01-01, okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:30",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'Cuba' (Guide to the U.S. History of Recognition), https://history.state.gov/countries/cuba",
+   "alinti": "On May 20, 1902, the United States relinquished its occupation authority over Cuba",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3623] ÜLKE DÜZEYİ. f gün: ABD işgal yetkisini bıraktı. Künye kuba-cumhuriyeti f 1902-05-19 ('formally installed on May 19, 1902', aynı sayfa) — bir günlük künye/yerleşim farkı ic_not'a. t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "George Town (Cayman)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:61",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1670-07-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UK Parliament, Hansard, Written Answers, 23 June 1977, 'Cayman Islands' (vol. 933 cc551-2W), https://api.parliament.uk/historic-hansard/written-answers/1977/jun/23/cayman-islands",
+   "alinti": "Jamaica and the Cayman Islands ... were both ceded to the Crown by the Treaty of Madrid in 1670",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3624] ZAYIF: cümle soru metnindedir (milletvekili), bakanın cevabında değil; resmî parlamento kaydı, YIL. Gün: TNA SP 108/470 'Treaty ... (1670 July 8 OS/ 18 NS)' (kronoloji_sinir_karayip_adalar.js:14 ic_not'u) — Jülyen 8 Temmuz 1670 = Gregoryen 18 Temmuz 1670; İspanya Gregoryen kullanıyordu, atlas günü 07-18 doğru. Bu oturumda TNA kaydı açılmadı. TAHRİR notu: Madrid Antlaşması Amerika'daki İngiliz zilyetliğini genel olarak tanır, Cayman'ı adıyla anmaz (okunmadı); kalıcı iskân 18. yy. TARAYICI: TNA Discovery SP 108/470. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:61",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1670-07-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {
+    "not": "dönem değişmez; kaynak metnindeki '1670-07-08' yazım hatası → '1670-07-18' (t ile tutarsız; Jülyen günü kalmış)"
+   },
+   "not": "[sira 3625] 1670 öncesi kalıcı iskânsızlık için akademik kaynak okunmadı (Hansard yalnız 1670 devrini anar). Bakılan: Hansard 1977, web araması (Cayman Compass, gazete — dayanak değil)."
+  }
+ ],
+ "Puerto Baquerizo Moreno (San Cristóbal, Galápagos)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:81",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1832-02-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "«El Archipiélago de las Galápagos», Anales de la Universidad Central del Ecuador (revistadigital.uce.edu.ec), s. 223 vd., https://revistadigital.uce.edu.ec/index.php/anales/article/download/4846/6673/30594",
+   "alinti": "El Gobierno del Ecuador tomó posesión formal de ellas el día 12 de febrero de 1832",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3626] Gün teyitli (mevcut kronoloji ic_not'undaki '[yalnız yıl teyitli]' kalkabilir). Takımada düzeyi; San Cristóbal (Chatham) iskânı sonradır, nokta adaları temsil eder. 19 Şubat'ta Floreana'da Villamil'e ayrıca zilyetlik verildi (ic_not). Eski (19./20. yy başı) dergi metni [eski kaynak]. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:81",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1832-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "«El Archipiélago de las Galápagos», Anales de la Universidad Central del Ecuador (revistadigital.uce.edu.ec), s. 223 vd., https://revistadigital.uce.edu.ec/index.php/anales/article/download/4846/6673/30594",
+   "alinti": "El archipiélago de las Galápagos permaneció desolado, y solo visitado temporalmente por algunos buques balleneros",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3627] Boşluk beyanını destekler (1832 zilyetliğine kadar iskânsız; balina gemileri ve orchilla toplayıcıları geçici). t bkz. sira 3626. [alıntı ham metinden, pypdf]"
+  }
+ ],
+ "San Juan Bautista (Juan Fernández)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:89",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1750-01-01",
+   "t": "1818-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Orellana, M. ve dğr., Las Islas de Juan Fernández: historia, arqueología y antropología de la isla Robinson Crusoe, Universidad de Chile, Sede Oriente, Facultad de Ciencias Humanas (Memoria Chilena MC0038876), s. 10-11, https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0038876.pdf · Memoria Chilena (Biblioteca Nacional de Chile), «Patriotas apresados y deportados al presidio de la isla de Juan Fernández (1814-1817)» (Romo Sánchez 2004'e dayanır), https://www.memoriachilena.gob.cl/602/w3-article-97327.html",
+   "alinti": "partió de Concepción, el día 11 de Marzo de 1750, la fragata Las Taldas, llevando a bordo 62 individuos de tropa, 171 colonos | arribaron a Valparaíso el 31 de marzo de 1817",
+   "uc": "f",
+   "oneri": {
+    "t": "1817-03-01",
+    "not": "t: adadaki İspanyol (kralcı) idaresi Chacabuco (1817-02-12) sonrası çöktü; Patria Nueva hükûmeti Şubat-Mart 1817'de mahkûmların serbest bırakılmasını kararlaştırdı, Águila 1817-03-31'de Valparaíso'ya döndü → ada Mart 1817'den yurtsever idarede (AY hassasiyeti; teslim günü bulunamadı). Künye sili-cumhuriyeti f 1818-02-12 olduğundan 1817-03 → 1818-02-12 arası künye sorusu LAB'a (Patria Nueva / Chile 1817)."
+   },
+   "not": "[sira 3628] f YIL KAYNAKLI: kolonlar 11 Mart 1750'de Concepción'dan çıktı (adaya varış birkaç hafta sonra; 1750-01-01 yıl hassasiyeti; 1749-03-07 kraliyet emri ic_not'a). t için kaynak başka gün veriyor → ONERI. Not: alıntının ikinci parçası (1817) 'Finalmente... entre febrero y marzo de 1817, se decretó la liberación' cümlesinden. [alıntı ham metinden, pypdf] [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:89",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Patriotas apresados y deportados al presidio de la isla de Juan Fernández (1814-1817)» (Romo Sánchez 2004'e dayanır), https://www.memoriachilena.gob.cl/602/w3-article-97327.html",
+   "alinti": "entre febrero y marzo de 1817, se decretó la liberación de los presidiario de la isla",
+   "uc": "",
+   "oneri": {
+    "not": "f 1818-02-12 künye günüdür (bağımsızlık ilanı), adanın fiilî devri değil; Mart 1817'den yurtsever Şili idaresi. Hayalet kuralı: künye kapsamadığı için yerleşim 1818-02-12'de kalır, 1817-03 ic_not'a; künye GENİŞLET / Patria Nueva sorusu LAB'a."
+   },
+   "not": "[sira 3629] uc boş: alıntı satırın f'sini değil önceki fiilî devri tarihliyor. f ülke düzeyinde (ilan) kaynak okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:89",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1750-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Orellana, M. ve dğr., Las Islas de Juan Fernández: historia, arqueología y antropología de la isla Robinson Crusoe, Universidad de Chile, Sede Oriente, Facultad de Ciencias Humanas (Memoria Chilena MC0038876), s. 10-11, https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0038876.pdf",
+   "alinti": "Sólo algunos años después, en 1749, la corona de España promovió la población y fortificación de la isla",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3630] Boşluk beyanını destekler: aynı sayfa önceki iskân iddiaları için 'no hemos encontrado evidencias de tal hecho'. 1749 emir, 1750 iskân (bkz. sira 3628). t YIL. [alıntı ham metinden, pypdf]"
+  }
+ ],
+ "Râbiğ": [
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-07-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3631] [KÜME K14]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1916-06-16",
+   "t": "1925-12-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
+   "alinti": "Osmanlı Devleti’ne karşı isyan etti (Haziran 1916) ve ... Medine hariç Hicaz’ın büyük bir kısmını ele geçirerek",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3632] Bölge düzeyi, AY (Haziran 1916); 06-16 Cidde'nin teslim günü (ABİ MERKEZ Cidde, kayıt notu). Râbiğ'in kendi düşüş günü bulunamadı. t 1925-12-19 teyitsiz: TDV Cidde yalnız '1925 yılı boyunca ... muhasara' der (yıl). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-07-06",
+   "t": "1813-01-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cidde», https://islamansiklopedisi.org.tr/cidde · TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
+   "alinti": "Yavuz Sultan Selim 16 Cemâziyelâhir 923 (6 Temmuz 1517) günü bu heyeti ve dolayısıyla Hicaz’ın biatını kabul etmiştir",
+   "uc": "f",
+   "oneri": {
+    "not": "dönem bölünmeli: TDV «Hicaz» 'Vehhâbîler’in Haremeyn’i ele geçirmesine engel olamadı (1801) ... şehir 1806’da tekrar el değiştirdi. Hicaz’a hâkim olan Vehhâbîler hutbelerde padişahın isminin okunmasını yasakladılar' → Mekke-Medine hac yolu üzerindeki Râbiğ için 1806 → Mısır kuvvetlerinin girişi (1812-13) arası s: suud-birinci (künye f 1744, t 1818-09-09) adayı; Cidde alınamadı (TDV Cidde), bu yüzden ABİ MERKEZ Cidde mi Mekke mi kararı gerekir. Gün yok (YIL 1806)."
+   },
+   "not": "[sira 3633] f KAYNAKLI GÜN (ABİ MERKEZ Cidde/Hicaz, bölge düzeyi). t 1813-01-23 teyitsiz (Cidde kaydından); TDV Cidde: Vehhâbîler Şerif Gālib'i 'Mehmed Ali Paşa’nın bölgeye gelişine kadar' (1811) boyun eğdirdi. Râbiğ TDV slug'ları ölü (kayıt notu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1841-05-24",
+   "t": "1916-06-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
+   "alinti": "bölgeyi, Mısır meselesinin büyük devletlerin araya girmesiyle halledilmesine kadar (1840) elinde tuttu",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3634] f YIL (1840; atlas 1841-05-24 günü teyitsiz, Cidde kaydından). TAHRİR: aynı paragraf 'Mekke, Medine, Cidde, Yenbu‘, Tâif, Tebük ve Râbiğ gibi önemli şehirleri içine alan eyalet' ve sonra 'Tâif, Râbiğ, Ulâ ve Hayber de nahiye merkezi oldu' — Râbiğ ADIYLA Hicaz eyaleti/vilayetinde idarî birim (yerleşime özgü tanıklık). 1840 ile 1841-05-24 arası fark ic_not'a (TDV 1840; 1841 Mısır veraset fermanları). t Haziran 1916 (bkz. sira 3632). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1813-01-23",
+   "t": "1841-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
+   "alinti": "Gazi unvanı alan II. Mahmud, İbrâhim Paşa’yı Cidde sancağı ile birlikte Habeş eyaleti valiliğine ... getirdi | Böylece Hicaz bir anlamda Mısır valisinin vesâyetine verilmiş oldu",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3635] Statü (Mısır vesayeti = v: misir-kavalali) KAYNAKLI; uçlar yılsız alıntıyla teyit edilemedi: aynı paragrafta Vehhâbîler'in çıkarılışı 'Mehmed Ali Paşa tarafından durdurulabildi (1818)', bitiş 'halledilmesine kadar (1840)'. Gün 1813-01-23 ve 1841-05-24 Cidde kaydından, teyitsiz. uc boş olduğundan hüküm uç kuralına göre zayıf — KASA isterse BULUNAMADI (uç) okusun. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:195",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Department of State, Office of the Historian, 'Saudi Arabia', https://history.state.gov/countries/saudi-arabia",
+   "alinti": "The name of the state was changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3636] ÜLKE DÜZEYİ (ad değişikliği; toprak değişimi değil). Mevcut DEVRALMA kaynağı doğrulandı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Normanton": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:79",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1867-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Normanton», https://queenslandplaces.com.au/normanton (web.archive.org kopyası)",
+   "alinti": "by 1867 a European settlement was established on the site of the future Normanton township",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3637] f YIL (yerleşim 1867; kasaba ilanı Ağustos 1868). t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:79",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3638] [KÜME K07]"
+  }
+ ],
+ "Charleville": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:94",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1863-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Charleville», https://queenslandplaces.com.au/charleville (web.archive.org kopyası)",
+   "alinti": "The Gowrie run (1863) was positioned on a natural stock route between New South Wales and Queensland",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3639] f YIL: 1863 Gowrie otlak işletmesi (run), kasaba değil; aynı paragraf 'town reserve ... gazetted in 1865', sokaklar 1868'de çizildi (ic_not). Toprak 1863'te zaten Queensland kolonisinde (künye f 1859). t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:94",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3640] [KÜME K07]"
+  }
+ ],
+ "Cloncurry": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:104",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1867-05-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Cloncurry», https://queenslandplaces.com.au/cloncurry (web.archive.org kopyası)",
+   "alinti": "in May 1867 he found the 'Great Australian' copper ore body south of present day Cloncurry",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3641] f AY (Mayıs 1867, Ernest Henry'nin bakır bulgusu; kasaba 1876'da ölçüldü — ic_not). t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:104",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3642] [KÜME K07]"
+  }
+ ],
+ "Barcaldine": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:119",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Barcaldine and Barcaldine Shire», https://queenslandplaces.com.au/barcaldine-and-barcaldine-shire (web.archive.org kopyası)",
+   "alinti": "Barcaldine town lots were sold in 1885 and within a year several buildings were under construction",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3643] f YIL (arsa satışı 1885; ölçüm 1886 sonu — ic_not). t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:119",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3644] [KÜME K07]"
+  }
+ ],
+ "Georgetown": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:134",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1869-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Georgetown», https://queenslandplaces.com.au/georgetown (web.archive.org kopyası)",
+   "alinti": "Georgetown began in 1869 as an alluvial gold mining centre, based on the Etheridge River",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3645] f YIL. t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:134",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3646] [KÜME K07]"
+  }
+ ],
+ "Tennant Creek Telegraf İstasyonu": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:149",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1872-01-01",
+   "t": "1911-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Northern Territory Government, NT Place Names Register, «Tennant Creek» (id 18869), https://www.ntlis.nt.gov.au/placenames/print_extract.jsp?id=18869 · Museum of Australian Democracy, Documenting a Democracy, «Northern Territory Acceptance Act 1910 (Cth)», https://www.foundingdocs.gov.au/item-did-52.html",
+   "alinti": "A repeater station was established near Tennant Creek following the completion of the OT Line in 1872 | from 1 January 1911 the Northern Territory became the exclusive responsibility of the Commonwealth",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3647] f YIL (resmî yer adları kaydı; istasyonun açılış günü 1872-08 web özetlerinde, okunmadı; rezerv 1874). t GÜN, ÜLKE DÜZEYİ (NT'nin Güney Avustralya'dan Commonwealth'e devri). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:149",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1911-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Museum of Australian Democracy, Documenting a Democracy, «Northern Territory Acceptance Act 1910 (Cth)», https://www.foundingdocs.gov.au/item-did-52.html",
+   "alinti": "from 1 January 1911 the Northern Territory became the exclusive responsibility of the Commonwealth of Australia",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3648] ÜLKE DÜZEYİ. Kabul Yasası 16 Kasım 1910 onaylandı, 1 Ocak 1911 ilanla yürürlüğe girdi (ic_not). K07 değil (f 1911). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Emerald": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:164",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1878-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Queensland Places, Centre for the Government of Queensland, University of Queensland — «Emerald», https://queenslandplaces.com.au/emerald (web.archive.org kopyası)",
+   "alinti": "the town of Emerald was surveyed in 1878, laid out on the west side of the Nogoa River",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3649] f YIL. t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:164",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3650] [KÜME K07]"
+  }
+ ]
+}

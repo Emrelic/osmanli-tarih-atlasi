@@ -1,0 +1,424 @@
+{
+ "Broken Hill": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:184",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1883-09-05",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3651] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Australian Dictionary of Biography «Rasp, Charles» (adb.anu.edu.au — robots.txt yasak / WebFetch 403). TARAYICI: ADB 'Rasp, Charles (1846–1907)', https://adb.anu.edu.au/biography/rasp-charles-4458 (5 Eylül 1883 maden başvurusu günü orada okunmalı). t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:184",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3652] [KÜME K07]"
+  }
+ ],
+ "Horsham": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:199",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1842-01-01",
+   "t": "1851-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Governor of Victoria (resmî), «The Separation of Victoria – A Brief History», https://www.governor.vic.gov.au/separation-victoria-brief-history",
+   "alinti": "The Port Phillip District formally became the Colony of Victoria on 1 July 1851",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3653] t GÜN, ÜLKE DÜZEYİ (Port Phillip Bölgesi'nin NSW'den ayrılışı; aynı sayfa: NSW Parlamentosu Viktorya Yasama Konseyi'ni kurduktan sonra). f 1842 (Horsham'ın kuruluşu, Darlot) teyitsiz — kaynak okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:199",
+   "alan": "s",
+   "d": "viktorya-kolonisi",
+   "f": "1851-07-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Governor of Victoria (resmî), «The Separation of Victoria – A Brief History», https://www.governor.vic.gov.au/separation-victoria-brief-history",
+   "alinti": "The Port Phillip District formally became the Colony of Victoria on 1 July 1851",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3654] f GÜN, ÜLKE DÜZEYİ; künye viktorya-kolonisi f 1851-07-01 ile uyumlu. t ülke düzeyinden: [KÜME K07]. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:199",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3655] [KÜME K07]"
+  }
+ ],
+ "Port Augusta": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:219",
+   "alan": "s",
+   "d": "guney-avustralya",
+   "f": "1852-05-24",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3656] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: SA Memory (State Library of South Australia), Dowsett günlüğü sayfası u=1041 — SSL sertifikası süresi dolmuş, açılmadı; web araması özeti 24 Mayıs 1852 ilanını SA Memory'ye dayandırıyor. TARAYICI: https://www.samemory.sa.gov.au/site/page.cfm?u=1041 · Manning Index (SLSA) Port Augusta maddesi. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:219",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3657] [KÜME K07]"
+  }
+ ],
+ "Onslow": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:239",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3658] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Landgate «History of country town names» (eski URL www0.landgate.wa.gov.au/.../historical-town-names yeni place-names ana sayfasına yönleniyor, madde açılmadı); web araması yalnız REIWA/Vikipedi özeti verdi. Not: web özetlerine göre eski Onslow 1885'te ilan edildi, kasaba 1925'te Beadon Point'e taşındı (1924-01-10 'Beadon' ilanı) — atlas noktasının hangi Onslow olduğu ölçülmedi; nokta yeni kasabadaysa f 1885 eski kasabanın günüdür (ic_not). TARAYICI: Landgate History of country town names – O. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:239",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3659] [KÜME K07]"
+  }
+ ],
+ "Meekatharra": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:254",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1903-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Shire of Meekatharra (yerel yönetim, resmî), «Our Background, Our Culture», https://www.meekashire.wa.gov.au/community/new-residents/our-background.aspx",
+   "alinti": "registered their mine, \"The Meekatharra\" in 1894, and by 1894 a settlement had sprung up | The town was gazetted in 1903",
+   "uc": "f",
+   "oneri": {
+    "not": "dönem bölünmeli: s bati-avustralya 1894-01-01 → 1901-01-01 (yerleşim 1894'te vardı) + s avustralya 1901-01-01 → 2000-12-31 (K07 ile aynı ülke devri); 1903 kasaba ilanı ic_not'a. Kaynak yerel yönetim sayfasıdır, akademik değil; yıl teyidi için Landgate maddesi okunmalı."
+   },
+   "not": "[sira 3660] f 1903 = kasabanın ilanı (gazette), yerleşimin başlangıcı değil. Aynı cümlede 1894 iki kez geçiyor (madenin kaydı ve iskân) — sayfanın kendi iç hatası olabilir (web özetleri ikinci altın bulgusunu 1899 diye veriyor); YIL düzeyi, BEYANLI. TARAYICI: Landgate History of country town names – M. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Wagga Wagga": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:259",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1849-01-01",
+   "t": "1901-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3661] Bütçe yüzünden aranmadı (NSW kuruluş yılı; aday: NSW Government Gazette 1849 / Wagga Wagga City Council). t ülke düzeyinden: [KÜME K07]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:259",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3662] [KÜME K07]"
+  }
+ ],
+ "Armidale": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:274",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1839-01-01",
+   "t": "1901-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3663] Bütçe yüzünden aranmadı (aday: ADB «Macdonald, George James» — ADB robots/403, TARAYICI). t ülke düzeyinden: [KÜME K07]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:274",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3664] [KÜME K07]"
+  }
+ ],
+ "Derby": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:289",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1883-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3665] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Landgate «History of country town names» (eski URL www0.landgate.wa.gov.au/.../historical-town-names yeni place-names ana sayfasına yönleniyor, madde açılmadı); web araması yalnız REIWA/Vikipedi özeti verdi. TARAYICI: Landgate History of country town names – D. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:289",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3666] [KÜME K07]"
+  }
+ ],
+ "Thargomindah": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:304",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1870-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3667] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Queensland Places (UQ) «thargomindah», «thargomindah-and-bulloo-shire», «bulloo-shire» — canlı site bağlantı reddetti, web.archive.org kopyaları 404/bağlantı reddi. İpucu (dayanak değil): Outback Queensland turizm sitesi kasaba ilanını 1874 diye verir; atlas 1870 Thargomindah istasyonu (otlak) olabilir. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:304",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3668] [KÜME K07]"
+  }
+ ],
+ "Moree": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:319",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1848-01-01",
+   "t": "1901-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3669] Bütçe yüzünden aranmadı (NSW kuruluş yılı). t ülke düzeyinden: [KÜME K07]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:319",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3670] [KÜME K07]"
+  }
+ ],
+ "Wave Hill": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:334",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1883-01-01",
+   "t": "1911-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Museum of Australian Democracy, Documenting a Democracy, «Northern Territory Acceptance Act 1910 (Cth)», https://www.foundingdocs.gov.au/item-did-52.html",
+   "alinti": "from 1 January 1911 the Northern Territory became the exclusive responsibility of the Commonwealth of Australia",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3671] t GÜN, ÜLKE DÜZEYİ. f 1883 (istasyonun kuruluşu) teyitsiz: NT Place Names Register «Wave Hill» (ntlis id 5437) yalnız Buchanan'ın 1877 yolculuğunu ve adlandırmayı anar (web özeti, açılmadı); 1883 yalnız Vikipedi'de. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:334",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1911-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Museum of Australian Democracy, Documenting a Democracy, «Northern Territory Acceptance Act 1910 (Cth)», https://www.foundingdocs.gov.au/item-did-52.html",
+   "alinti": "from 1 January 1911 the Northern Territory became the exclusive responsibility of the Commonwealth of Australia",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3672] ÜLKE DÜZEYİ (K07 değil, f 1911). Kabul Yasası 1910-11-16, ilanla yürürlük 1911-01-01 (ic_not). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Roebourne": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:349",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1866-08-17",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3673] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Landgate «History of country town names» (eski URL www0.landgate.wa.gov.au/.../historical-town-names yeni place-names ana sayfasına yönleniyor, madde açılmadı); web araması yalnız REIWA/Vikipedi özeti verdi; web özetleri 17 Ağustos 1866 ilanını Landgate'e dayandırıyor (Vikipedi dipnotu + The Inquirer & Commercial News). TARAYICI: Landgate History of country town names – R. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:349",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3674] [KÜME K07]"
+  }
+ ],
+ "Camooweal": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:364",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1883-12-15",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3675] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Queensland Places (UQ) «camooweal» — canlı site bağlantı reddetti, web.archive.org kopyaları 404. İpucu (dayanak değil): turizm sitesi kuruluşu 1884 diye verir; atlas 1883-12-15 (muhtemelen ilan günü) kaynaksız. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:364",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3676] [KÜME K07]"
+  }
+ ],
+ "Laverton": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:384",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1899-01-01",
+   "t": "1901-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3677] Bütçe yüzünden ayrıca aranmadı; Landgate maddeleri bu oturumda erişilemedi (bkz. Onslow/Derby/Roebourne). TARAYICI: Landgate History of country town names – L. t ülke düzeyinden: [KÜME K07]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:384",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3678] [KÜME K07]"
+  }
+ ],
+ "Marree (Hergott Springs)": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:404",
+   "alan": "s",
+   "d": "guney-avustralya",
+   "f": "1883-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3679] f (kuruluş/ilan yılı) akademik ya da resmî kaynakta okunamadı. Bakılan: Manning Index of South Australian History (SLSA) pn/m/m2.htm (Marree yok, doğru sayfa bulunamadı); web özetleri 20 Aralık 1883 Government Gazette ilanını verir (Vikipedi dipnotu, Australian War Memorial PL505546 kaydı). TARAYICI: SA Government Gazette 20.12.1883. Yıl 1883 ile uyumlu, gün teyitsiz. t ülke düzeyinden: [KÜME K07] (Federasyon 1901-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:404",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3680] [KÜME K07]"
+  }
+ ]
+}
