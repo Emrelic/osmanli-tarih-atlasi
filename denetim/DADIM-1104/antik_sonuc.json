@@ -40,6 +40,60 @@
    ],
    "not": "Bakilan: archive.org arama (Cambridge History of China, Helian Bobo Xia / Northern Wei): acik cilt yok; ham metin okunamadi. Donem uclari (f 413-01-01, t 427-07-12) akademik kaynakla teyitsiz. Kuzey Wei'nin Tongwan'i alisi ay-gunes takvimiyle kayitlidir; gun cevirisi EMRELIC'te yapilmali. Astronomik yil sorunu yok (MS). Hayalet devlet: hu-xia kunyesi devletler.js'te grep'te tek satirlik (28728) kayitta; f/t okunmadi.",
    "_parti": "db_ra_023.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0427-07-12",
+   "t": "0881-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI: 0427-07-12–0881-01-01 arası sahip YAZILMADI: önceki dilim (hu-xia) kaynaklı olarak 0427-07-12'te biter, sonraki dilim (__BOSLUK__) 0881-01-01'te başlar; aradaki dilim için bu pakette (ASYA-ZINCIR-1024) kaynak okunmadı/bulunamadı. Boşluk komşuya İTİLMEDİ (VERI-YAPISI __BOSLUK__ kuralı); BORÇ: bu dilim için TDV ve ardıl kaynak taraması. · ASYA-ZINCIR-1024",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Tongwancheng, Wei idaresinde Tongwan Zhen → 487'de Xiazhou). f ucu: 'Shiguang 4 平' = 427 (Wei'nin Tongwancheng'i alışı) → hu-xia satırının t=0427-07-12 ile YIL düzeyinde uyumlu; Hu Xia devleti 431'e kadar sürdü (künye hu-xia t=0431) ama başkent 427'de düştü. ÖLÇÜT: idareye katma — Tongwan Garnizonu/Xiazhou (idarî birim). Ardıl dilimlerin (Wei bölünmesi, Zhou, Sui, Tang) Xiazhou'ya özgü tanığı okunmadı → BEYANLI YAKLAŞIKLIK, abi merkez: ulusal hanedan. Hayalet: tüm künyeler (kuzey-wei 0386-0535, bati-wei 0535-0557, kuzey-zhou 0557-0581, sui 0581-0619, tang 0617-0907) kapsıyor; bati-wei/kuzey-wei ve sui/tang künyeleri 2-10 gün/ay örtüşür. Değişmez 2: 427, 535, 557, 581 geçişleri için kronoloji maddesi önerisi (şehir kırılmaları) KASA'ya.",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "kuzey-wei",
+     "f": "0427-07-12",
+     "t": "0535-01-20",
+     "beyan": "Wei shu 106: Tongwan Garnizonu 427, Xia Eyaleti 487"
+    },
+    {
+     "d": "bati-wei",
+     "f": "0535-01-01",
+     "t": "0557-02-15",
+     "beyan": "BEYANLI YAKLAŞIKLIK: kaynak okunmadı; Xiazhou Guanzhong'un kuzeyi"
+    },
+    {
+     "d": "kuzey-zhou",
+     "f": "0557-02-15",
+     "t": "0581-03-04",
+     "beyan": "BEYANLI"
+    },
+    {
+     "d": "sui",
+     "f": "0581-03-04",
+     "t": "0618-06-18",
+     "beyan": "BEYANLI; Liang Shidu (617-628, Shuofang) künye aranmadı"
+    },
+    {
+     "d": "tang",
+     "f": "0617-12-12",
+     "t": "0881-01-01",
+     "beyan": "BEYANLI; Tuoba Sigong 881 Xiazhou künyesi sonraki dilim"
+    }
+   ],
+   "kaynak2": "Wei Shou, Wei shu 106 (Dixing zhi), 'Xiazhou' maddesi, zh.wikisource.org/wiki/魏書/卷106下",
+   "alinti2": "夏州 〈 赫連屈孑所都， 始光四年 平，為統萬鎮，太和十一年改置。治大夏。 〉",
+   "dogrusu": "Sui ve Tang dilimleri çakışmasın: sui t=0619-05-25, tang f=0617-12-12 (künyeler çakışıyor); Xiazhou'da -617/-628 Liang Shidu rejimi ayrıca değerlendirilmeli.",
+   "tarayici_gerekli": [
+    "Jiu Tang shu / Sui shu dili tablosu — Xiazhou 581-881 idarî devir günleri okunmadı",
+    "Academia Sinica ile takvim çevirisi (Shiguang 4 = 427; Taihe 11 = 487) EMRELİC'te"
+   ],
+   "_parti": "db_ra_008.json"
   }
  ],
  "Memphis": [
@@ -966,6 +1020,38 @@
    "alinti2": "Ur-Nammu (2112-2095 B.C.E.), founder of the Third Dynasty of Ur",
    "not": "Donem kaynakli (ARCANE III), hedef disi; yeniden dogrulanmadi. Bilgi: Iranica Ur III'u 2112-2004 verir; atlas Nippur t=-2018 imparatorluk sonundan once (Isin'e kaybi olabilir), celiski sayilmadi. Nippur-ozel kaynaga bakilmadi.",
    "_parti": "db_ra_019.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "gutium",
+     "f": "-2153-01-01",
+     "t": "-2111-01-01",
+     "aciklama": "[ULKE DUZEYI; yaklasik]"
+    },
+    {
+     "d": "ur-3",
+     "f": "-2111-01-01",
+     "t": "-2109-01-01",
+     "aciklama": "ur-3 satirina birlesir"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Gutei» (2010), https://www.treccani.it/enciclopedia/gutei_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Ur-Nammu» (2011), https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Nippur» (2010), https://www.treccani.it/enciclopedia/nippur_(Dizionario-di-Storia)/",
+   "alinti2": "verso il 2200 a.C. i g. invasero la Mesopotamia mettendo fine alla dinastia di Akkad e regnandovi per un secolo piuttosto oscuro. | ... e regnò dal 2112 al 2095 a.C. ca.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Erridu-pizir / Tirigan Nippur yazitlari (RIME 2.11) - kapali; Nippur'a ozgu Guti tanigi bulunamadi"
+   ],
+   "not": "ULKE DUZEYI: Treccani Gutei butun Mezopotamya'yi anar, Nippur'a ozgu tanik yok (Treccani Nippur sehir maddesi donem vermez). Yerlesim VAR (Treccani Nippur: Enlil kultu, Ekur). HAYALET: gutium f=-2153 t=-2111 ve ur-3 f=-2111 temiz. -2111 icin Treccani Ur-Nammu 2112 (ca.). KASA ULKE DUZEYI beyanli yaklasiklik yazar.",
+   "_parti": "db_ra_007.json"
   }
  ],
  "Samiriye": [
@@ -1232,6 +1318,173 @@
    "tarayici_gerekli": [],
    "not": "f: MÖ 141 = astronomik -0140 (kuralla doğru yazılmış); Uruk'a özgü çivi yazılı metin 12 Ekim 141'de Mithridates I'in egemenliğinin tanındığını gösterir - gün düzeyi 141-10-12 Iranica'da 'by' ile üst sınırdır; atlas f=-0140-01-01 yıl düzeyi, gün uydurulmadı. t: Part sonu 28 Nisan 224 ÜLKE DÜZEYİ ('probably'); Uruk'a özgü değil. Uruk'un 224 sonrası Sasani zinciri kayıtta yok (ayrı iş). Hayalet denetimi: part f=-0249 t=0224-04-28, dönem künyeyi aşmıyor; sasani f=0224-04-28. ÖLÇÜT: idareye katma yorumu gerekmez, Part tâbiliği değil doğrudan egemenlik (Mithridates tanınması).",
    "_parti": "db_ra_020.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2153-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "CELISKI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "akad",
+     "f": "-2333-01-01",
+     "t": "-2153-01-01",
+     "aciklama": "Treccani/kunye kronolojisi; Uruk'un onceki zincirinin ucu (uruk-erken-hanedan t=-2333) ile bitisik. ARCANE kronolojisi secilirse: __BOSLUK__ -2323..-2299 + akad -2299..-2153 (Ur/Nippur zinciriyle uyumlu)"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Uruk» (2011), https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Lugalzaggesi» (2010), https://www.treccani.it/enciclopedia/lugalzaggesi_(Dizionario-di-Storia)/",
+   "alinti2": "La III dinastia di U., postaccadica, è poco nota, mentre il re di U. Utu-khegal (2100 ca.) ebbe il merito di scacciare i gutei e dare avvio alla rinascita sumerica. | Re di Uruk (n. 2359 ca.-m. 2335 a.C.). ... Fu a sua volta sconfitto da Sargon di Akkad, che così unificò l’intera Mesopotamia.",
+   "dogrusu": "akad -2333/-2299 -> -2153 (hangi baslangic: kronoloji karari)",
+   "tarayici_gerekli": [
+    "Frayne RIME 2 (Sargon) / Sallaberger-Schrakamp ARCANE III s.86-88 PDF'i satir kaynaginda var ama Sargon-Uruk fetih yili okunamadi"
+   ],
+   "not": "CELISKI: ARCANE III (Sallaberger-Schrakamp 2015) Lugalzagesi ca. 2324-2300 MC (satir beyaninda) <-> Treccani Lugalzaggesi n.2359 ca.-m.2335. Atlas kunyeleri (akad f=-2333, uruk-erken-hanedan t=-2333) Treccani ile uyumlu; satirin -2323 basi ARCANE'ye dayaniyor ve akad f'sinden 10 yil sonra. Sahip (Akad) icin Treccani: Lugalzagesi'yi Sargon yendi; sonraki 'III dinastia di U. postaccadica poco nota'. HAYALET: akad f=-2333 t=-2153 icinde. Gutium -2153'ten baslayan sonraki satir (Uruk Gutium'a bagli) etkilenmez. Sargon'un Uruk'u idareye kattigi yil Treccani'de YOK -> KAYNAKLI degil. Degismez 2: ARCANE-sirasi secilirse -2299 kirilmasi yil-temsili borc.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2111-01-01",
+   "t": "-2109-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "ur-3",
+     "f": "-2111-01-01",
+     "t": "-2109-01-01",
+     "aciklama": "dilim ur-3'e doner; satir -2111..-2003 ur-3 ile birlesir (-2109 kirilmasi kalkar) [yaklasik: 'ca.']"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur-Nammu» (2011), https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/",
+   "alinti2": "Già funzionario del re di Uruk Utu-khegal (il quale liberò Sumer dal dominio dei gutei), poi lo soppiantò e regnò dal 2112 al 2095 a.C. ca.",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Ur-Nammu Uruk kralini devirip 2112'den (=-2111, astronomik) hukum surer -> Uruk -2111'den ur-3. HAYALET: ur-3 f=-2111 t=-2003 tam oturur. ARCANE satiri (-2109'a dek 'Uruk V Utu-hengal') ile 2 yil fark: 'ca.' yaklasik beyani gerekli. Utu-khegal icin kunye adayi (uruk-v) GEREKMEZ olur. Treccani Gutei: Utu-khegal Tirigan'i 2120'de yendi (=-2119): -2119..-2111 arasi Uruk bagimsiz/hegemon, ama bu satirin disinda (gutium kunyesi -2111'e kadar uzatilmis; kunye sorusu LAB'a).",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2003-01-01",
+   "t": "-1801-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Treccani, Dizionario di Storia, «Uruk» (2011), https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/",
+   "alinti2": "In seguito U. fu indipendente per breve periodo (1870-1800 ca.) con la dinastia di Sin-kashid, per essere poi annessa da Larsa e infine da Babilonia.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Frayne RIME 4 (Isin-Larsa) - kapali",
+    "Charpin, Uruk in der altbabylonischen Zeit - erisilemedi"
+   ],
+   "not": "Yerlesim VAR (Treccani Uruk surekli anlatir). Sahip: -2003..~-1869 Uruk'a ozgu kaynak yok (Treccani Ur 'Isin altinda ~1900'e dek' der ama bu Ur icindir; Treccani Isin yalniz Nippur'u sayar) -> abi merkez (Ur/Isin) icin Uruk'u baglayan kaynak yok. ~-1869..-1799 Sin-kasid hanedani (Treccani, 'ca.') BAGIMSIZ ama kunyesi yok -> kunye adayi 'uruk-sin-kasid' (-1869..-1799 [yaklasik]) LAB'a. -1800 Larsa: Treccani yil vermiyor. Satir sonu -1801 ile ARCANE; atlas larsa f=-2024 t=-1762 kapsar. BOSLUK_KALIR.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1739-01-01",
+   "t": "-1464-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "babil-eski",
+     "f": "-1739-01-01",
+     "t": "-1594-01-01",
+     "aciklama": "[abi merkez: Babil; yaklasik]"
+    },
+    {
+     "d": "kassit-babil",
+     "f": "-1594-01-01",
+     "t": "-1464-01-01",
+     "aciklama": "[abi merkez: Babil; Cassiti: 'tutta la Mesopotamia, a eccezione dell’estremo Sud']"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Uruk» (2011), https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Cassiti» (2010), https://www.treccani.it/enciclopedia/cassiti_(Dizionario-di-Storia)/",
+   "alinti2": "per essere poi annessa da Larsa e infine da Babilonia. Da allora in poi seguì le vicende della Babilonia | Sotto il re Agum II (1592-65 a.C.) i c. s’impadronirono di Babilonia e di tutta la Mesopotamia, a eccezione dell’estremo Sud",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Dalley 2009 Babylonian Tablets from the First Sealand Dynasty (Uruk Sealand'a bagli miydi) - kapali"
+   ],
+   "not": "ABI MERKEZ: Babil. Treccani Uruk: Babil'e katildiktan sonra Babil'in kaderini izledi (yil yok). Babil'in kendi atlas zinciri -1594'e dek babil-eski, sonra kassit-babil (Iranica Kassites ile kaynakli; yerlesimler_mo_zincir.js:7) -> zincir uyumlu. RISK: Treccani Ur/Paese del Mare Birinci Deniz Ulkesi hanedanini (-1735..~-1500) Ur merkezli 'estremo Sud' sayar; Uruk bu 'extreme south' icinde miydi kaynakta yok -> BEYANLI YAKLASIKLIK. HAYALET: babil-eski f=-1893 t=-1594; kassit-babil f=-1594 t=-1154 -> icinde. Eski ucu: -1739 (Samsu-iluna 10) bu satirin kendi ucu, dogrulanmadi. uc bos.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1154-01-01",
+   "t": "-0625-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "isin-2",
+     "f": "-1154-01-01",
+     "t": "-1025-01-01",
+     "aciklama": "[abi merkez: Babilonya; yaklasik]"
+    },
+    {
+     "d": "__BOSLUK__",
+     "f": "-1025-01-01",
+     "t": "-0625-01-01",
+     "aciklama": "BOSLUK_KALIR"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Isin» (2010), https://www.treccani.it/enciclopedia/isin_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Uruk» (2011), https://www.treccani.it/enciclopedia/uruk_(Dizionario-di-Storia)/",
+   "alinti2": "La «seconda dinastia di I.» (1154-1026) subentrò a quella cassita ed ebbe come figura di spicco Nabucodonosor I, che scacciò gli elamiti dalla Babilonia e impose il suo predominio",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Brinkman, A Political History of Post-Kassite Babylonia (Uruk 1158-722) - kapali",
+    "Iranica ELAM / BABYLONIA iii-iv (bu pencerede Uruk'a ozgu cumle taranmadi)"
+   ],
+   "not": "Yerlesim VAR: Treccani Uruk: Inanna heykeli 12. yy'da Elamlilarca yagmalandi, Asurbanipal iade etti; neo-Babil/Pers canlanma. -1154..-1025: Isin II 'impose il suo predominio' (Babilonya capinda) + Uruk Babil'in kaderini izler -> isin-2 ABI MERKEZ + BEYANLI; uc 'f' (1154 Isin II baslangici, -1154 kunye ile ayni). HAYALET: isin-2 f=-1154 t=-1025 tam. -1025..-625: Babil'in kendi atlas zinciri de BOSLUK (yerlesimler_mo_zincir.js:7, -1209..-709) -> abi merkez kurali 'merkez bosluksa yer de bosluk' => BOSLUK_KALIR. Bu arada: Babil satiri icin -1154..-1025 isin-2 (Treccani Isin) ayri bulgu. Yeni-Asur (-910..-608) Uruk uzerinde suzeren miydi: Treccani yalniz 'filoassira' (Ur icin) der; sahiplik degil.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0322-06-10",
+   "t": "-0310-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "-0322-06-10",
+     "t": "-0311-01-01",
+     "aciklama": "BOSLUK_KALIR (Diadokhlar: 321 Seleukos satrapligi, 316 Antigonos, 312 donus)"
+    },
+    {
+     "d": "selevkos",
+     "f": "-0311-01-01",
+     "t": "-0310-01-01",
+     "aciklama": "selevkos satiri -0311'e cekilir (MO 312)"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Seleuco I Nicatore» (2011), https://www.treccani.it/enciclopedia/seleuco-i-nicatore_(Dizionario-di-Storia)/",
+   "alinti2": "da questa riconquista (312) ha inizio l’era regale seleucidica",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Babylonian Chronicle ABC 10 (Diadokhlar Kroniki) - gunluk tarih icin"
+   ],
+   "not": "Treccani: Seleukos 321'de Babilonya satrapligini aldi, 316'da Antigonos geldi, Seleukos kacti, 312'de Babilonya'yi geri aldi; Selevkos Cagi buradan baslar. Atlas selevkos f=-0311 (MO 312) -> Uruk satiri -0311'e cekilebilir (HAYALET temiz: selevkos -0311..-0062). Onceki dilim -0322-06-10..-0311: iskender-imparatorlugu t=-0322-06-10 (Iskender'in olumu); 323-312 icin kunye yok (satraplik/Antigonos) -> BOSLUK_KALIR, kunye adayi 'diadok-babil-satraplik' LAB'a. Antigonos-krallik f=-0305 daha gec, kullanilamaz. Gun hassasiyeti yok (yil). Degismez 2: -0311 kirilmasi icin kronoloji maddesi (Seleukos Babilonya'yi geri alir, MO 312) KASA'ya.",
+   "_parti": "db_ra_007.json"
   }
  ],
  "Seleukeia": [
@@ -2788,6 +3041,42 @@
     "Livius XXIII.7-10 / XXVI.14-16 neşri (Capua'nın Hannibal'e katılışı ve 211 teslimi, gün); Oxford Classical Dictionary «Capua»"
    ],
    "_parti": "db_ra_010.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:24",
+   "alan": "s",
+   "d": "",
+   "f": "-0026-01-01",
+   "t": "2000-12-31",
+   "gorev": "TEYIT",
+   "hukum": "HATALI_ONERI",
+   "uc": null,
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "roma-cumhuriyeti",
+     "f": "-0337-01-01",
+     "t": "-0026-01-16"
+    },
+    {
+     "alan": "s",
+     "d": "roma-imp",
+     "f": "-0026-01-16",
+     "t": "0395-01-17"
+    },
+    {
+     "alan": "s",
+     "d": "bati-roma",
+     "f": "0395-01-17",
+     "t": "0476-09-04"
+    }
+   ],
+   "kaynak2": "Treccani, Enciclopedia on line, «Capua» (https://www.treccani.it/enciclopedia/capua/), sayfa.py ile okundu",
+   "alinti2": "Superò la devastazione di Genserico (456) ma quella compiuta dai Saraceni nell’840 costrinse gli abitanti a cercare rifugio a Casilinum.",
+   "dogrusu": "Girdi satırı d:'' (boş devlet) ve f -0026-01-01 → t 2000-12-31: devletsiz dönem geçersiz; yerleşim 840'a dek var olduğundan (Treccani) 'YOK_O_DEVIRDE' da değildir. Doğrusu: roma-cumhuriyeti t -0026-01-16 (künye t; şu an satır -0026-01-01 → 15 günlük DELİK) ve ardından roma-imp -0026-01-16 → 0395-01-17, bati-roma 0395-01-17 → 0476-09-04. Sonrası (Odoakar/Ostrogot/Bizans/Lombard/Benevento-Kapua) bu turda kaynakla bulunamadı.",
+   "tarayici_gerekli": [],
+   "not": "YERLEŞİM VAR: Treccani 211'de Roma'ya teslim, siyasi özerklik kaybı, 59'da kolonya (deduzione), 456 Vandal Genserico tahribi atlatıldı, 840 Saraceni tahribi → halk Casilinum'a sığındı (sonraki Santa Maria Capua Vetere/Kapua). Bu cümle ÜLKE/YERLEŞİM DÜZEYİ varlık teyididir, sahip değiştiren uç tarihlemez → KAYNAKLI değil. Roma-imp ve bati-roma segmentleri künye f/t'den (hayalet yok: roma-cumhuriyeti t -0026-01-16, roma-imp f -0026-01-16 t 0395-01-17, bati-roma t 0476-09-04) ÜLKE DÜZEYİ ONERI; 456 Vandal tahribi sahiplik devri değil (baskın). 476 sonrası: gece-66 kuralı (Ostrogot t 0552-10-01, Lombard) Capua için şehre özgü tanıklık bulunamadı; ABİ MERKEZ+BEYAN gerekir. Değişmez 2 (kronoloji maddesi) için: -0026-01-16 Augustus unvanı maddesi mevcutsa yeterli, KASA doğrulasın. Vandal ele geçirişi 456 Mart? gün aranmadı.",
+   "_parti": "db_ra_017.json"
   }
  ],
  "Reggio Calabria": [
@@ -4424,6 +4713,2731 @@
    ],
    "not": "YERLEŞİM VAR MIYDI: evet, kesinlikle (Yan devletinin merkezi Ji/Youzhou; Treccani Yan 8.-3. yy a.C. ve 936'da Kitan işgali). SAHİP -0201→0907: bu 1100 yılda Han, Cao Wei, Jin, On Altı Krallık, Kuzey Wei/Qi/Zhou, Sui, Tang ile Lulong askeri valileri sıralanır; atlasta künyeler VAR (bati-han, dogu-han 0025-0220, kuzey-wei 0386-0535, kuzey-qi, kuzey-zhou, sui 0581-0619, tang 0617-0907) ama Pekin/Youzhou için okunmuş tanık yok; Treccani 936 öncesini kapsamaz; Cambridge History of China erişilemedi. Çin ay-güneş günleri çevrilmedi (EMRELİC). BOSLUK_KALIR; kaynakla dolacak, önerilen künye aday listesi tarayici_gerekli'deki ciltlerden okunmadan yazılamaz.",
    "_parti": "db_ra_004.json"
+  }
+ ],
+ "Kotosh": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:14",
+   "alan": "s",
+   "d": "kotosh-dini-gelenek",
+   "f": "-2799-01-01",
+   "t": "-0549-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Mesia-Montenegro & Sanchez-Borjas 2023 (Antiquity) mevcut; MÖ 2800-550 dönem toplamı, astronomik yıl -2799/-0549 doğru (MÖ n = -(n-1)). Künye kotosh-dini-gelenek f=-2799 t=-0549 (devletler.js:22409), hayalet devlet yok. Sahiplik kültür künyesi (sahip kavramı yok).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Erlitou": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_dogu_asya.js:11",
+   "alan": "s",
+   "d": "erlitou-kultur",
+   "f": "-1749-01-01",
+   "t": "-1519-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Chen Minzhen 2020 (Huaxia Kaogu) mevcut. Künye erlitou-kultur f=-1749 t=-1519 (devletler.js:22296) uyumlu, hayalet yok. MÖ 1750/1520 -> -1749/-1519 doğru. Kaynak seri-uydurma 14C kronolojisi kullanır (Xia-Shang-Zhou Projesi'nden farklı olabilir; ic_not'ta beyan).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Jeitun": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:4",
+   "alan": "s",
+   "d": "jeitun-kultur",
+   "f": "-6098-01-01",
+   "t": "-5926-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Heit 2019 (OxCal, Sidestone) mevcut. Künye jeitun-kultur f=-6098 t=-5926 (devletler.js:22256) uyumlu, hayalet yok. Uçlar OxCal modelinin başlangıç/bitiş değerleri (kalibre MÖ yıl); astronomik dönüşüm doğru.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Malé": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "maldivler-budist",
+   "f": "0500-01-01",
+   "t": "1153-07-07",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. 5 dönemin hepsi kaynaklı (TDV Maldivler). Hedef dönem yok. Künye maldivler-budist devletler.js:26714'te var (f/t bu turda ölçülmedi). Girdide dosya_satir satır numarasız geldi; KASA arayacak.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Ugarit": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:19",
+   "alan": "s",
+   "d": "ugarit",
+   "f": "-1349-01-01",
+   "t": "-1189-01-01",
+   "hukum": "CELISKI",
+   "uc": "t",
+   "oneri_son": {},
+   "kaynak2": "Treccani Enciclopedia on line, 'Ugarit' (https://www.treccani.it/enciclopedia/ugarit/); karşı: Manning 2023 (atlas kaynağı, künye ugarit, devletler.js:20765)",
+   "alinti2": "L’invasione dei ‘popoli del mare’ verso il 1180 a.C. portò alla sua definitiva distruzione. [Treccani, ham metin] / Manning 2023 (atlastan, ham okunmadı): 'the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc'",
+   "dogrusu": "t değişmesin: -1189 (Manning 1193-1186 BC) kaynaklı kalır; Treccani 'verso il 1180' (=-1179, [yaklaşık]) ic_not'ta iki kaynağıyla beyan edilir.",
+   "tarayici_gerekli": [
+    "Bryce 2005 (Hitit vasallığı, f ~1350) ia-oku denenmedi (bütçe); kapalıysa Emre girişi",
+    "Ugarit için kronoloji konvansiyonu beyanı gerek (Orta kronoloji/kronik yılı)"
+   ],
+   "not": "Treccani t'yi 'verso il 1180 a.C.' diye yıl düzeyinde yaklaşık tarihler (-1179); mevcut t=-1189 Manning'e dayanır: ~9 yıl fark, CELISKI. f=-1349: Treccani yalnız 'metà 14° sec. a.C.' depremini ve Hitit yörüngesini söyler, krallık başlangıcını tarihlemez (Niqmaddu/1350 Treccani'de YOK) -> f ucu teyitsiz (ONERI düzeyi). Künye ugarit f=-1349 t=-1189 hayalet değil. Treccani 'Ras Shamra' maddesi çekilemedi (ana sayfa döndü).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Rudnik": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "s",
+   "d": "sirbistan",
+   "f": "1281-01-01",
+   "t": "1439-08-27",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "t": "1439-08-27"
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı (16 Rebîülevvel 843 / 27 Ağustos 1439).",
+   "dogrusu": "Gün kalır ama kaynak yalnız Semendire'nin düşüşünü tarihler; Rudnik için 'ABİ MERKEZ Semendire, BEYANLI YAKLAŞIKLIK'. Ayrıca d:'sirbistan' künye id'si değil, harita anahtarıdır (devletler.js'te id yok; sirbistan-nemanjic 1166-1402 ve sirp-despotlugu 1402-1459 künyelerinin harita: değeri). Künyeye bölmek gerekirse: 1281-01-01→1402-01-01 sirbistan-nemanjic, 1402-01-01→1439-08-27 sirp-despotlugu (İvranye emsali).",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). 1439-08-27 yalnız Semendire kalesi. Fetret emsali: yerleşime özgü değil, KAYNAKLI sayılmadı. f=1281-01-01 yıl-temsilî (atlas ufku; Nemanjić künyesi 1166'dan beri); Rudnik madeninin Sırp kayıtları bu turda okunmadı.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1439-08-27",
+   "t": "1444-08-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "15 Ağustos 1444’te Haçlı ordularının tehdidi altındaki II. Murad, Đurađ ile barış yaptı; ona yirmi dört önemli kalesiyle birlikte Semendire’yi ve işgal altındaki diğer Sırp topraklarını geri verdi.",
+   "dogrusu": "Değişiklik önerilmez; 'diğer Sırp topraklarını geri verdi' t'yi bölge düzeyinde destekler, Rudnik 24 kale listesinde teyit edilmedi.",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). Kaynaksız d: dönemi, y:'kusatma'. ÖLÇÜT: idareye katma belgesi (tahrir) Rudnik için yok; mevcut yazım BEYANLI YAKLAŞIKLIK olarak kalmalı.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "s",
+   "d": "sirp-despotlugu",
+   "f": "1444-08-15",
+   "t": "1459-06-20",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.",
+   "dogrusu": "Künye sirp-despotlugu f=1402-01-01 t=1459-06-20: dönem künye ömrü içinde, hayalet yok. Tarihler Semendire düzeyinde teyitli; Rudnik için ABİ MERKEZ Semendire BEYANLI YAKLAŞIKLIK.",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). f=1444-08-15 ve t=1459-06-20 ikisi de TDV Semendire. 1454-55 Osmanlı akınları (TDV: 1454'te 20.000 kişilik sefer) Rudnik'te ara kesinti yaratmış olabilir; ölçülmedi.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1459-06-20",
+   "t": "1717-08-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "1459’dan 1521’e kadar çok önemli bir Osmanlı sancağının merkezi olmuş [Semendire]",
+   "dogrusu": "Değişiklik yok. 1683-99 savaşında Belgrad kısa süre Avusturya'ya geçti, 1690'da geri alındı (TDV Sırbistan); Rudnik için 1689-90 kaynaksız, YAZILMADI kalır.",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). f=1459-06-20 Semendire teslimi. Rudnik'in Osmanlı sancak/nahiye bağı Semendire sancağıyla (1521) belgeli; 1459-1521 arası yerel teyit yok. t=1717-08-18 Belgrad'ın düşüşü, Rudnik'e özgü değil.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1717-08-18",
+   "t": "1738-08-01",
+   "hukum": "HATALI_ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1718-07-21",
+    "t": "1738-08-01",
+    "d": "macaristan-habsburg"
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan); 'Pasarofça Antlaşması' (https://islamansiklopedisi.org.tr/pasarofca-antlasmasi); 'Belgrad' (https://islamansiklopedisi.org.tr/belgrad)",
+   "alinti2": "Pasarofça Antlaşması (1718) sırasında Sırbistan’ın kuzey yarısı Avusturya’nın eline geçti [Sırbistan]. Avusturyalılar bu bölgede Ağustos 1738’e kadar kaldılar [Semendire].",
+   "dogrusu": "TEK KURAL (işgal vs devir): 1717-08-18 Belgrad'ın düşüş günüdür (askerî işgal); egemenlik devri Pasarofça 1718-07-21 (TDV, imza günü). Doğrusu: d:osmanli + isg macaristan-habsburg 1717-08-18→1718-07-21, sonra s:macaristan-habsburg 1718-07-21→1738-08-01 [yalnız ay; fiilî Osmanlı dönüşü]. Rudnik'in Pasarofça sınırı içinde olduğu kaynakta adıyla geçmez: BEYANLI YAKLAŞIKLIK.",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). ÖLÇÜT: idareye katma — Pasarofça 1718-07-21 (TDV); 1717-08-18 ÖLÇÜT: geçici/askerî. Hayalet yok: macaristan-habsburg f=1526-12-17 t=1918-11-16 (devletler.js:766). Belgrad Antlaşması 1739 (TDV yalnız yıl verir, gün teyitsiz) hukukî devri 1739'a taşır; 1738-08 fiilî Semendire dönüşü ic_not'a 'hukukî devir 1739' beyanıyla. Değişmez 2: kronoloji maddesi 1718-07-21 (Pasarofça) için gerekir, KASA'ya toplu not.",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1738-08-01",
+   "t": "1830-10-17",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1738-08-01"
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "Avusturyalılar bu bölgede Ağustos 1738’e kadar kaldılar. [Semendire] Nihayet 17 Ekim 1830’da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti. [Sırbistan]",
+   "dogrusu": "f: TDV yalnız Ağustos 1738 (ay) der -> 1738-08-01 [yalnız ay]. t: 1830-10-17 ferman günü TDV Sırbistan'da var; ÜLKE DÜZEYİ. 1789-91 Avusturya işgali kaynaksız, YAZILMADI kalır.",
+   "tarayici_gerekli": [],
+   "not": "BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). t ucu ÜLKE DÜZEYİ KAYNAKLI aday. TDV Sırbistan: 1739 Belgrad Antlaşması ile kuzey Sırbistan'ın bir kısmı Osmanlı yönetimine geçti. 1815-17 fiilî muhtariyet ic_not'a (EMRELİC gece-36).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "v",
+   "d": "sirbistan-prensligi",
+   "f": "1830-10-17",
+   "t": "1878-07-13",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "Nihayet 17 Ekim 1830’da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "ÜLKE DÜZEYİ: ferman günü Belgrad paşalığı/Sırbistan geneli; Rudnik adlı yok. Künye sirbistan-prensligi (1804-02-14→1882-03-06; ikinci kayıt f=1817-01-01 t=1878-07-13) kapsar, hayalet yok. t=1878-07-13 Berlin imza günü (atlasta zaten kaynaklı).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:773",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Girdideki özgün satır alan='-' idi (AD KARIŞMASI notu: Rudnik dağı/madeni, Bosna ve Polonya Rudnik'leri; koordinat 44.1398/20.494 Šumadija Rudnik'i, TDV Sırbistan'ın Semendire sancağı 'Rudnik' nahiyesi ile aynı bölge). Dönemler yerleşimin s/d/v alanlarından açıldı; dosya_satir hep girdi satırı 773. Rudnik'e özgü sahiplik tanığı BULUNAMADI; bakılan: TDV semendire, sirbistan, belgrad, pasarofca-antlasmasi. Treccani/Iranica/Serbian arşiv denenmedi (bütçe).",
+   "gorev": "TEYIT",
+   "_parti": "db_ra_018.json"
+  }
+ ],
+ "Kanton (Guangzhou)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0110-01-01",
+   "t": "0907-06-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "bati-han",
+    "f": "-0110-01-01",
+    "t": "0009-01-10"
+   },
+   "kaynak2": "Sima Qian, Shiji 113 (Nanyue liezhuan), zh.wikisource.org/wiki/史記/卷113 ; Fan Ye, Hou Hanshu, Zhi 23 Junguo 5 (Jiaozhou: Nanhai jun, Panyu), zh.wikisource.org/wiki/後漢書/卷113 ; Jin shu 15 Dili xia, zh.wikisource.org/wiki/晉書/卷015 ; Sanguozhi 47",
+   "alinti2": "元鼎六年 冬 ... 犁旦，城中皆降伏波。 ... 遂為九郡。 (Shiji 113)",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "KISMİ: yalnız bati-han dilimi KAYNAKLI. Shiji: Yuanding 6 kışı (MÖ 111 = -0110, astronomik) Panyu Han'a teslim oldu, Nanyue topraklarından 'dokuz komanderlik' kuruldu (f). Hou Hanshu coğrafya bölümü Panyu'yu Han Nanhai komanderliği (Jiaozhou) altında sayar (Han sürekliliği ~2. yy). Hayalet denetimi: bati-han f=-0205 t=0009-01-10 kapsar; dogu-han 0025-08-05→0220-12-10. Kalan 0009→0907 dilimi için tek sahip önerilemez: Xin 0009-0023, Gengshi 0023-25, Dogu Han 0025-0220, Wu 0226?-0280 (Jin shu 15: Wu Huangwu 5 = 226'da Nanhai/Cangwu/Yulin'den Guangzhou'yu kurdu; Sanguozhi 47 aynı yıl '分交州置廣州'), Bati Jin 0280-, Dogu Jin, Liu Song, Guney Qi (KÜNYE YOK), Liang-guney, Chen, Sui (589), Tang. Bu zincirin her ucu şehre özgü kaynakla okunmadı → BOSLUK_KALIR. Yerleşim varlığı: Panyu Han ve Wu'da il merkezi (Jin shu/Hou Hanshu) - 'yok' hükmü yok. Değişmez 2: dilim bölünürse her kırılma için kronoloji maddesi gerekir (KASA'ya borç).",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Karakurum": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0552-02-10",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "TDV 'Türk' (islamansiklopedisi.org.tr/turk) ham metni tarandı: Juan-Juan/Ötüken geçiyor, Orhun vadisi-Rouran sahipliğini adıyla bağlayan cümle yok; Karakurum TDV'de ayrı madde olarak çıkmadı (tdv-ara boş). Künye adayı rouran f=0402 t=0552 depoda VAR (hayalet yok) ama Orhun'a bağlayan kaynak okunmadı. Yerleşim 1220 Karakurum'dan önce var mıydı sorusu kaynakla kapanmadı (UNESCO 1081 503 verdi). YOK_O_DEVIRDE denmedi.",
+   "_parti": "db_ra_006.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0630-01-01",
+   "t": "0630-05-02",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "0630-01-01→05-02: TDV 'Türk' dogu-gokturk'ün 630'da Çinlilerce yıkıldığını yıl olarak veriyor; 4 aylık dilim için gün-içi kaynak yok. Tang f=0617-12-12 künyesi var (Tang idaresi bu bozkıra kalıcı yerleşmedi: ülke düzeyi himaye, devir değil). Beyanlı boşluk korunur.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Mrauk U (Arakan)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1237-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Leider/Hall Arakan, Mrauk-U kuruluşu 1430; UNESCO tentative list Mrauk-U"
+   ],
+   "not": "Baktığım: Coedès (ia-oku, anahtarlar Mrohaung, Launggyet, Vesali, Dhanyawadi) ham metinde YOK (OCR yazımı farklı olabilir). Mrauk U kuruluşunun 1430-33 olduğu iddiası (YOK_O_DEVIRDE adayı) bu turda kaynakla okunamadı. Not: depoda artık vesali-chandra f=0788 t=0957 ve launggyet f=1237 var; ön tur 'künyesiz' diyordu. Mrauk U kıyısı Vesali'ye bağlanamaz (Vesali Kaladan değil; kaynak yok).",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Sukhothai": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1000-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu 1968), archive.org/details/theindianizedstatesofsoutheastasia (djvu ham metin)",
+   "alinti2": "the archaeological remains that are attributable to Khmer influence—and these are, moreover, later than the eleventh century—do not go beyond Luang Phrabang on the Mekong and Sukhothai-Sawankhalok on the Menam.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Coedès: Khmer izleri 11. yy sonrası; Aşağı Menam Dvaravati (Lopburi-Ratburi-Prachin) — Sukhothai bu ağın dışında (kuzey). 0500-1000 sahibi kaynakta yok. Yerleşimin o devirde varlığı kanıtlanmadı ama yokluğu da kaynaklanmadı → YOK_O_DEVIRDE verilmez. 1000-1238 (bu partide satır değil) için Coedès Khmer'i ima eder; ayrı iş.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Ternate": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1042-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Bu turda arama yapılmadı (bütçe: SE Asya zinciri Coedès ile sınırlandı; Hall/Coedès Moluccas girişi okunmadı). Önceki tur 'Hall, Coedès, Majumdar arandı' diyor; yeniden doğrulanmadı.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Tidore": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1042-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Ternate ile aynı: bu turda aranmadı.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Semerkant": [
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0560-01-01",
+   "t": "0562-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "CELISKI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "eftalit",
+    "f": "0560-01-01",
+    "t": "0562-01-01"
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'SOGDIANA iii. History and archaeology', iranicaonline.org/articles/sogdiana-iii-history-and-archaeology/ ; TDV İslâm Ansiklopedisi 'Semerkant', islamansiklopedisi.org.tr/semerkant",
+   "alinti2": "[Iranica] When the Hephthalite empire was partitioned by the Sasanians and Turks in 560, Sogdiana passed under the control of the Turks. [TDV] 562’de Semerkant’ı ele geçiren Göktürkler",
+   "dogrusu": "TDV esastır (CLAUDE.md kaynak kuralı; Iranica üçüncü bağımsız hakem değil, ikinci taraftır). Seçenek A (TDV): s eftalit 0560→0562 ve gokturk-1 f=0562 — AMA eftalit künye t=0560 → HAYALET; künye t 0562'ye genişletilmeli (aynı polity sürüyor, LAB) . Seçenek B (Iranica): gokturk-1 f=0560 (künye f=0552 kapsar, hayalet yok), delik kapanır. Karar KASA/EMRELİC.",
+   "tarayici_gerekli": [],
+   "not": "ÇELİŞKİ iki kaynakta da ham metinden alındı: Iranica 560 (Sogdiana'nın geçişi, ülke düzeyi, Sasani-Türk paylaşımı), TDV 562 (Semerkant'ın şehir olarak ele geçirilişi, şehre özgü). Aynı olay değil olabilir (paylaşım kararı vs. şehrin fiilen alınışı) — hangisinin doğru olduğuna karar verilmedi. TDV aynı maddede Eftalit'in 5. yy ortasında Semerkant'ı aldığını, 659 Batı Göktürk yıkılışında Çin hâkimiyetini, 701 II. Göktürk akınını, 711 Kuteybe fethini verir (diğer BOSLUK dilimleri için ipucu: 0659-0711 Tang/Soğd Yabguluğu).",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Cizzah": [
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0680-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Encyclopaedia Iranica, 'SOGDIANA ii. Historical geography', iranicaonline.org/articles/sogdiana-historical-geography/",
+   "alinti2": "Osrušana (Ostrušana around Ura-tyube and Jizak) are never considered part of Sogdiana by Islamic authors.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Iranica Osrušana'yı (Jizak/Dizak dahil) Soğd'dan AYRI bölge sayar; dolayısıyla Iranica Sogdiana iii'deki 'Sogdiana 560'ta Türklere geçti' cümlesi Cizzah için aktarılamaz (Semerkant'tan çıkarım yasak). Cizzah'ın 500-680 sahibi: 560 öncesi Eftalit olasılığı ve sonrası Batı Göktürk (bati-gokturk f=0582, gokturk-1) için şehre/bölgeye özgü tarihli cümle bulunamadı. Arkeolojik varlık: Üsrûşene/Dizak yerleşimi TDV'de eski dönemlerden sayılıyor (önceki tur) - yok hükmü verilemez.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Taşkent": [
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0751-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "TDV 'Taşkent' islamansiklopedisi.org.tr/taskent ; Encyclopaedia Iranica 'ILĀQ' iranicaonline.org/articles/ilaq/",
+   "alinti2": "Mahallî Türk hükümdarlarının yönettiği şehir bir süre sonra Çinliler’in hâkimiyeti altına girdi. [TDV; yılsız]",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "TDV ham metni: Çâç VI-VIII. yy'da 'Türk hakanlığının egemenliği'ne girdi (yılsız); Çin hâkimiyeti yalnız 751 Talas ile ilişkili (133/751). Yıl vermeyen cümle KAYNAKLI değildir. Iranica ILĀQ: 'At the turn of the Middle Ages the Hephthalites and Turks came to power' (sayfa içi ham arama eşleşmedi, yalnız arama özeti) → kullanılmadı. WebSearch özeti Iranica Khorasan iii'ün Eftalit çöküşünü '563-66' verdiğini söylüyor; ham okunmadı, ONERI dayanağı değil. Kuruluş: 'cac-tudun' boya yok (önceki tur). Künye adayı bati-gokturk f=0582 depoda var; 560-582 arası gokturk-1 (0552-0582): Türk üstünlüğü yıl düzeyinde ama Çâç için tarihli cümle yok. Sahip yazılırsa BEYANLI YAKLAŞIKLIK olurdu.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Belh": [
+  {
+   "dosya_satir": "data/yerlesimler_ek16.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0124-01-01",
+   "t": "0500-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Bu turda okunmadı. Künye adayları depoda var: kusan f=0050 t=0350, kusan-sasani 0230-0360, kidarit 0390-0467 (baskent Balh), eftalit 0457-0560, sasani; greko-baktria t=-0124. -0124→0050 (Yuezhi/Kuşan öncesi) ve 0350-0390 için künye yok. Sonraki turda Iranica 'BALḴ' + 'KUSHAN' + Kidarit maddeleri okunmalı.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Chichén Itzá": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0800-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Treccani, 'Chichén Itzá', treccani.it/enciclopedia/chichen-itza/",
+   "alinti2": "Centro archeologico maya nello Yucatán, fiorito dalla fase finale del periodo classico (9°-10° sec. d.C.) fino al 13° secolo.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Treccani çiçeklenmeyi 9.-10. yy'a koyar; 500-800 için yerleşim varlığı/sahibi söylenmez. UNESCO 483 sayfası zaman aşımı verdi (okunamadı). YOK_O_DEVIRDE kanıtlanamadı (erken Klasik iskân olasılığı kapatılmadı). ms1 künyesi chichen-itza f=0800 hayalet sorunu yok.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Sandoway (Thandwe)": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1237-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "Coedès ham metin: Sandoway/Vesali/Dhanyawadi anahtarları YOK. Baktığım yer yalnız Coedès; TDV/Iranica konu dışı. Not: launggyet f=1237 künyesi ve vesali-chandra 0788-0957 künyesi depoda var (hayalet yok) ama Sandoway'i bu devletlere bağlayan kaynak okunmadı.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Suphan Buri": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1181-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "dvaravati",
+    "f": "0551-01-01",
+    "t": "1000-01-01"
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu 1968), archive.org/details/theindianizedstatesofsoutheastasia (djvu ham metin), s. 76-77, 137, 176",
+   "alinti2": "Ayutthaya was founded following the abandonment of a town situated in the region of Suphan, and it seems reasonable to infer from this that the name Dvaravati was originally applied to a city situated in this region.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "ÇIKARIM (Coedès kendisi 'infer', 'perhaps', 'we know virtually nothing') → KAYNAKLI değil. Hayalet: dvaravati f=0551 t=1100 kapsar. 0500-0551: Dvaravati 'may or may not have existed in 5th-6th c.', Si Thep Khmer olabilir → o dilim BOSLUK_KALIR. 1000-1181: Coedès Lavo'nun 11. yy'da Kmerlere ilhakını söyler (n.32: 11. yy başında Lavo hâlâ bağımsız, Song Shi 1001); Lavo künyesi depoda 0600-1388. Suphan'ın ilhak günü yok → bu dilim BOSLUK_KALIR/ABİ MERKEZ Lavo olurdu, kaynak 'Suphan statüleri Jayavarman VII' (1181 civarı). Yerleşim o devirde var: Suphan bölgesi Dvaravati kalıntı bölgesi (Coedès).",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Takeo": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0627-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": {
+    "d": "funan",
+    "f": "0500-01-01",
+    "t": "0627-01-01"
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu 1968), archive.org/details/theindianizedstatesofsoutheastasia (djvu ham metin), Bölüm V-1, s. 65-70",
+   "alinti2": "the New History of the Tang, which attributes to him the conquest of Funan at the beginning of the period 627-49 ; The capital of Funan must have been transferred from T'e-mu to a locality farther south named Na-fu-na ... Angkor Borei, an archaeological site very rich in ancient remains",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "[aralık] 627-49 aralığının ilk yılı (Yeni Tang Tarihi'nin Isanavarman'a atfettiği Funan fethi). Na-fu-na=Angkor Borei (Takeo ili): Funan'ın son başkenti, yani Takeo bölgesi Chenla'nın ilk darbesinden (Sui Shu: T'e-mu'nun zaptı) sonra da Funan'da kaldı. HAYALET UYARISI: funan künyesi t=0550 → 0550-0627 dilimi künye aşımıdır. Sınıflama: aynı polity (Funan, Na-fu-na'da sürdü) → künye t 0627'ye GENİŞLETİLMELİ (LAB); genişletilmezse öneri 0500→0550 funan + 0550→0627 BOSLUK. chenla f=0550 ile 0550-0627 çakışması Funan başkentinde yoktur ama Chenla Mekong'un orta kesiminde. 'gün' yok: yıl-temsilî borç kovası (0627-01-01). Kronoloji maddesi (Değişmez 2) için: 'Chenla Funan'ı fethetti (~627)' KASA'ya.",
+   "_parti": "db_ra_006.json"
+  }
+ ],
+ "Hattuşa": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:4",
+   "alan": "s",
+   "d": "hitit",
+   "f": "-1649-01-01",
+   "t": "-1199-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UNESCO WHC 377 «Hattusha: the Hittite Capital» (whc.unesco.org/en/list/377); TDV «Hititler» arama özeti (açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Hitit Devleti'nin başlangıcını (MÖ 1650 -> astronomik -1649) ve sonunu (MÖ ~1200 -> -1199) verir; Hattuşa'ya özgü değil, ama aynı maddede 'Başşehir Hattuşaş (Boğazköy)' geçer. Yıl düzeyi; 'yaklaşık' ('1200 yıllarında, muhtemelen') -> [yaklaşık]. Kuruluş tarihi devletin, şehrin değil (UNESCO: şehir MÖ 16. yy kuruldu, yıl yok). Hayalet devlet denetimi: devletler.js hitit f=-1649-01-01 t=-1179-01-01; dönem [-1649,-1199] künye ömrü içinde, hayalet yok. Künye t (-1179, MÖ 1180 konvansiyonu) ile dönem t (-1199) farkı: 1199-1179 arası Hattuşa sahipsiz kalır (şehir ~1200'de boşaltıldı, Manning 2023); beyanlı bırakılabilir. Bryce 2005 açılamadı (403). Astronomik çeviri doğru (1650 -> -1649). Değişmez 2 için kronoloji maddesi önerisi yok.",
+   "gorev": "TEYIT",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "-1649-01-01",
+    "t": "-1199-01-01",
+    "d": "hitit"
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Anadolu» maddesi, https://islamansiklopedisi.org.tr/anadolu (Hitit Devleti, ÜLKE DÜZEYİ)",
+   "alinti2": "Orta Anadolu’da Hititler önce 1650-1490 arasında, bir ara Bâbil’i dahi fetheden Eski Hitit Devleti ile varlıklarını sürdürmüşler. Hitit Devleti milâttan önce 1200 yıllarında muhtemelen “Ege göçleri” ile gelen “Deniz kavimleri” tarafından yıkılmıştır.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Bryce 2005, The Kingdom of the Hittites (archive.org kingdomofhittite0000bryc / kingdomofhittite0000trev): ia-oku HTTP 403 — Emre girişi gerekli (ödünç kitap)"
+   ],
+   "_parti": "db_ra_024.json"
+  }
+ ],
+ "Harappa": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:8",
+   "alan": "s",
+   "d": "harappa",
+   "f": "-2599-01-01",
+   "t": "-1899-01-01",
+   "gorev": "TEYIT",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "-2599-01-01",
+    "t": "-1899-01-01",
+    "d": "harappa"
+   },
+   "kaynak2": "Parikh D. & Petrie C.A. 2019, Indus Civilisation rural-urban makalesi, World Archaeology 51(2), doi:10.1080/00438243.2019.1601463 (Introduction; Possehl 1977/2002, Mughal 1970, Wright 2010, Kenoyer 1998'e atıf) - https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+   "alinti2": "alternatively referred to as ‘Early Harappan’ (3200–2600 BC), ‘Mature Harappan’ (2600–1900 BC) (or ‘Harappa phase’ after Kenoyer 1998 , 26), and ‘Late Harappan’ periods (1900–1600 BC)",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "ÜLKE (UYGARLIK) DÜZEYİ: kaynak Harappa sitesine özgü değil, Indus Uygarlığı'nın olgun evresini tarihler; Harappa sitesi kaynakta olgun evre kentlerinden biri olarak geçer. Uçlar [yaklaşık] (c.2600 / c.1900 MÖ) ve [aralık] tarihidir; astronomik yıl: MÖ 2600 = -2599, MÖ 1900 = -1899, atlasla birebir uyumlu. Hayalet devlet denetimi TAM: devletler.js 'harappa' f=-2599-01-01 t=-1899-01-01 (satır 19174) = dönem uçları; öncül 'erken-harappa' (-3199..-2599) ve ardıl 'gec-harappa' (-1899..-1599) ile çakışma/delik yok, sıfır uzunluk yok. Kaynak Early Harappan sonu = Mature başı = 2600 ve Mature sonu = Late başı = 1900 diyerek komşu uçları da doğrular. Mevcut kaynak alanı Kenoyer 'Period 1, Ravi evresi MÖ 3300-2800' diyor; bu olgun evreyi değil erken evreyi tarihler, KASA kaynak alanını bu yeni kaynakla değiştirmeli (dönem uçları değişmez). Britannica devlet kavramını 'conjecture' sayar (künye özetinde beyanlı); bu satırda sahip kavramı kültür künyesidir. AD KARIŞMASI: yok, Harappa (Sahiwal, Pencap) site olarak kronolojideki Harappa maddeleriyle aynı yer. Imperial Gazetteer kullanılmadı; Majumdar/CHI I ve Iranica'ya bakılmadı (açık hakemli makale uçları tarihledi).",
+   "_parti": "db_ra_025.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-3299-01-01",
+   "t": "-3199-01-01",
+   "hukum": "BOSLUK_KALIR",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): bu aralıkta nokta var (kur: ilk tarihli kanıt) ama sahibi künye kapsamının dışında — sahip kavramı yok / kaynak sessiz; bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak bu aralık için sahip vermiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet — Harappa Projesi (Meadow & Kenoyer) Ravi evresini ca. MÖ 3300-2800 tarihler; MÖ 3300 → -3299 [yaklaşık]. Sahip YOK: Ravi evresi siyasî devlet değil kültür evresi; `erken-harappa` künyesi 'kültür, sahip kavramı yok' (f=-3199). BOSLUK_KALIR (veri-yok) — kaynak sessiz değil, sahip kavramı yok. Öneri (LAB): erken-harappa f'si -3299'a çekilebilir (aynı kültür sürekliliği; Ravi → Kot Diji). Not: alıntı resim başlığıdır; evre tarihi aynı sayfada tablo 1'de. Harappa.com başka sayfalarda 3500 öncesi iskân de anar (okunmadı).",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": {
+    "d": "erken-harappa",
+    "f": "-3299-01-01",
+    "t": "-3199-01-01",
+    "beyan": "yalnız KÜLTÜR künyesi (sahip kavramı yok); künye f=-3199 → -3299'a genişletilirse boyanmaz zaten"
+   },
+   "kaynak2": "Kenoyer, J.M. & Meadow, R.H., 'The Ravi Phase: A New Cultural Manifestation at Harappa', harappa.com — https://www.harappa.com/content/ravi-phase-new-cultural-manifestation-harappa",
+   "alinti2": "Bone tools from the Ravi Phase levels at Harappa ( c. 3300-2800 BC) include projectile points",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Sabi (Buyeo)": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "baekje",
+   "f": "0538-01-01",
+   "t": "2000-12-31",
+   "gorev": "TEYIT",
+   "tarayici_gerekli": [],
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "0538-01-01",
+    "t": "0660-08-29",
+    "d": "baekje"
+   },
+   "kaynak2": "Encyclopedia of Korean Culture (AKS), «백제» (Baekje), https://encykorea.aks.ac.kr/Article/E0022355 (sayfa.py ham metin)",
+   "alinti2": "사비도읍기(泗沘都邑期: 538∼660) ... 시가지는 방리제(方里制)에 입각해 정비한 후 538년(성왕 16)에 천도하였다.",
+   "dogrusu": null,
+   "not": "Yıl düzeyi teyit: f = Seong'un Sabi'ye taşınması 538; t = 660 (Baekje'nin ölümü, aynı madde: 660 Nadang ittifakı). Gün (0660-08-29) bu maddede yok; künye ic_not_t'de Samguk sagi 7/7/18 olarak beyanlı, ay-güneş günü ÇEVRİLMEDİ. DİKKAT: girdideki t=2000-12-31 veri dosyasıyla uyuşmuyor (dosyada baekje dönemi t=0660-08-29, ardından tang); baekje künyesi t=0660-08-29 olduğundan t=2000-12-31 gerçek olsaydı HAYALET olurdu; girdi aktarım artefaktı sanılıyor, KASA dosyada doğrulasın. Hayalet denetimi: baekje f -0017-01-01, t 0660-08-29 (devletler.js:20495); 0538-0660 kapsanır.",
+   "_parti": "db_ra_021.json"
+  }
+ ],
+ "Goryeong (Daegaya)": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "gaya-konfederasyonu",
+   "f": "0500-01-01",
+   "t": "0562-01-01",
+   "gorev": "TEYIT",
+   "tarayici_gerekli": [],
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "0562-01-01",
+    "d": "gaya-konfederasyonu"
+   },
+   "kaynak2": "Encyclopedia of Korean Culture (AKS), «대가야» (Daegaya), https://encykorea.aks.ac.kr/Article/E0013970 (sayfa.py ham metin); Samguk sagi 卷04 Jinheung 23 (zh.wikisource.org/wiki/三國史記/卷04, okundu)",
+   "alinti2": "『삼국사기』신라본기에는 562년(진흥왕 23) 가야가 배반했기 때문에 이사부(異斯夫)에게 명해 사다함(斯多含)과 함께 쳐서 멸망시켰다고 했는데, 여기에서 말하는 가야는 고령의 대가야임에 틀림없다.",
+   "dogrusu": null,
+   "not": "t=562 (Silla'nın Daegaya'yı yıkması) yıl düzeyinde teyit; madde Gimhae'nin 532 teslimini ayrı olay sayar (Garak-guk gi 562/532 karışıklığını açıklar). Gün: Samguk sagi 9. ay, Nihon Shoki Kinmei 23 1. ay (künye ic_not'ta çelişki beyanlı); satır 0562-01-01 yıl hassasiyetinde, doğru. LoC Country Studies Gaya'yı yalnız '6. yüzyılda komşularca soğurulduğu' diye verir (yıl yok). f=0500 ufuk işareti, teyit edilmedi. Hayalet: gaya-konfederasyonu f 0042 t 0562-01-01 (devletler.js:25233) satırı tam kapsar; silla f -0056 t 0936-01-08.",
+   "_parti": "db_ra_021.json"
+  }
+ ],
+ "Huế (Phú Xuân)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3906",
+   "alan": "s",
+   "d": "linyi-champa",
+   "f": "0500-01-01",
+   "t": "1000-01-01",
+   "gorev": "TEYIT",
+   "tarayici_gerekli": [],
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa"
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center, 1968), archive.org/details/theindianizedstatesofsoutheastasia djvu metni (ia-oku), Böl. VI-6 (Thua-thien), Böl. IX-2 (Champa from 1000)",
+   "alinti2": "Until that time, the heart of the Cham kingdom had been located at Thua-thien and then at Quang-nam. ‖ The king Yang Pu Ku Vijaya, ... evacuated Indrapura (Quang-nam) in the year 1000 to establish himself at Vijaya (Binh-dinh).",
+   "dogrusu": null,
+   "not": "ÜLKE DÜZEYİ. Coedès Huế bölgesini de anar (Böl. V-5, 446: 'the capital, situated in the region of Hue'). 1000 = başkentin Indrapura'dan Vijaya'ya taşınması (künye campa f ic_not_f ile aynı olay); bu uç DEVİR DEĞİL: Huế aynı polity'de kalır, linyi-champa→campa yalnız künye bölünmesidir. 758 Linyi→Huanwang ve 875 Chan-ch'eng Çince ad değişimleridir, sahip değişimi değil. 605 Sui işgali (Liu Fang) kısa süreli, devir sayılmaz. Hayalet: linyi-champa f 0192-01-01, t 0999-12-31 (devletler.js:20547) satırı kapsar; t=1000-01-01 campa f ile bitişik. f=0500 ufuk işareti, teyit edilmedi.",
+   "_parti": "db_ra_021.json"
+  }
+ ],
+ "Đà Nẵng (Tourane)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3931",
+   "alan": "s",
+   "d": "linyi-champa",
+   "f": "0500-01-01",
+   "t": "1000-01-01",
+   "gorev": "TEYIT",
+   "tarayici_gerekli": [],
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa"
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center, 1968), archive.org/details/theindianizedstatesofsoutheastasia djvu metni (ia-oku), Böl. IX-2 (Champa from 1000), Böl. VIII-2 (Indrapura, Quang-nam)",
+   "alinti2": "The king Yang Pu Ku Vijaya, who came to the throne in the very last years of the tenth century, evacuated Indrapura (Quang-nam) in the year 1000 to establish himself at Vijaya (Binh-dinh).",
+   "dogrusu": null,
+   "not": "ÜLKE DÜZEYİ. Đà Nẵng Quang-nam çekirdeğinde (Indrapura, Mỹ Sơn, Trà Kiệu); t=1000 başkent taşınması, DEVİR DEĞİL, satır linyi-champa→campa künye bölünmesi. Hayalet: linyi-champa f 0192 t 0999-12-31 satırı kapsar; t 1000-01-01 bitişik. f=0500 ufuk, teyit edilmedi.",
+   "_parti": "db_ra_021.json"
+  }
+ ],
+ "Fihl (Pella)": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_ortadogu.js:126",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "bizans",
+     "f": "(belirsiz)",
+     "t": "0635-01-23"
+    },
+    {
+     "alan": "s",
+     "d": "hulefa-yi-rasidin",
+     "f": "0635-01-23",
+     "t": "0661-07-29"
+    }
+   ],
+   "kaynak2": "TDV İslâm Ansiklopedisi, arama sayfası fihl (https://islamansiklopedisi.org.tr/arama/fihl; HULEFÂ-yi RÂŞİDÎN, HERAKLEİOS, HÂLİD b. VELÎD maddelerinin geçen cümleleri); madde gövdeleri açılmadı",
+   "alinti2": "…(23 Ocak 635) vuku bulan Fihl Savaşı’nda da düşman… | …13’te (0cak 635) yapılan Fihl Savaşı’nda Bizans ordusu…",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "TDV gövde: islamansiklopedisi.org.tr/hâlid-b-velid, ebu-ubeyde-b-cerrah (slug doğrulanmadı)"
+   ],
+   "not": "Kayıtta dönem yok; zincir sıfırdan. Savaş günü (Fihl/Pella, 23 Ocak 635 = hicrî 13 Muharrem-Safer; TDV iki yerde bozuk '0cak' yazımı verir) YER TESLİM günü değildir ve arama sayfası kesitidir, gövde okunmadı → KAYNAKLI sayılmadı. Savaş düzeyi (Fetret kuralı gibi) yerleşime özgü devir günü değil; teslim/kapitülasyon günü TDV «Fihl»/«Hâlid b. Velîd»/«Ebû Ubeyde» gövdelerinden okunmalı. Hayalet denetimi: hulefa-yi-rasidin künye f 0632-06-08 t 0661-07-29 (635 ve 661 içinde); bizans f 0330-05-11 t 1453-05-29. Sonrası emevi f 0661-07-29 t 0750-08-05 → abbasi f 0749-11-28; Fihl'in terkedilişi (749 depremi vb.) bu turda okunmadı. 614-628 Sâsânî işgali bu turda tarihlenmedi. Hukukî devir ölçütü: ÖLÇÜT: idareye katma (Halife Ömer fethi) - belge yok, ONERI.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Aşşur": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:11",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "__BOSLUK__",
+     "f": "-1775-01-01",
+     "t": "-1362-01-01"
+    },
+    {
+     "alan": "s",
+     "d": "orta-asur",
+     "f": "-1362-01-01",
+     "t": "-0910-01-01"
+    }
+   ],
+   "kaynak2": "Lendering, J., Livius.org: Assur (https://www.livius.org/articles/place/assur/), sayfa gövdesi sayfa.py ile okundu",
+   "alinti2": "King Aššur-Uballit I (r.c.1364-c.1328) and his Hittite colleague Šuppililiuma simultaneously attacked Mitanni, which disintegrated. | After a Hittite attack on Babylon and the collapse of the Babylonian Empire (usually dated to 1595 BCE), Assyria became a vassal of the kingdom of Mitanni.",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "BOSLUK görevi (-1775 → -0910 __BOSLUK__). YERLEŞİM VAR: Livius 15. yy'da Sin-Şamaş çifte tapınağı ve anıtların yenilendiğini söyler (kanıt az ama yerleşim sürer). BÖLÜNME ÖNERİSİ: (a) -1775 → -1362 BOSLUK_KALIR: Livius Išme-Dagan'ın Hammurabi'ye, Asur'un 1595'ten sonra Mitanni'ye vassal olduğunu söyler; tâbilik devir değildir (v:, s: değil) ve eski-asur künye t -1749, mitanni künye f -1499 olduğundan bu aralığı kapsayan s: künye yok (HAYALET: mitanni'yi -1594'e çekmek künyeyi aşar). LAB'a künye adayı: 'Asur şehir yönetimi (Šamši-Adad sonrası, Orta Asur öncesi)' + v: mitanni -1499 → -1362 tâbilik. (b) -1362 → -0910 orta-asur: Livius Aššur-uballit I (c.1364) ile Asur'un bağımsızlığını kazandığını ve Orta Asur döneminin başladığını söyler; ÜLKE DÜZEYİ. f uç Livius'ta c.1364 = astronomik -1363; künye f -1362 (MÖ 1363) — 1 yıl fark, Livius kronoloji tabanını (orta/kısa) belirtmediği için KAYNAKLI değil ONERI ([yaklaşık]); t -0910 (Adad-nirari II) Livius'ta tarihlenmiyor. orta-asur künye -1362 → -0910 satırla tam örtüşür, hayalet yok (yeni-asur f -0910 bitişik). Orta Asur başkenti Assur (künye baskent). Himaye/tâbilik devir sayılmadı.",
+   "_parti": "db_ra_017.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1775-01-01",
+   "t": "-0910-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-1775-01-01 … -0910-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Aşşur kesintisiz Asur merkezi; Treccani). f ucu: Assuruballit 1363 → astronomik -1362 = orta-asur f=-1362 (uc f, KAYNAKLI düzeyi) — ama 15. yy Mitanni tâbiliği başlangıcı ('a partire dal 15° sec.') YIL tarihlenmiyor → mitanni dilimi ONERI. -1775..-1749 eski-asur künye uzantısı (Treccani tarihlemiyor); -1749..-1499 sahip kaynakta yok → BOSLUK_KALIR. Himaye/tâbilik devir değildir. Hayalet: eski-asur t=-1749, mitanni -1499..-1259, orta-asur -1362..-0910 künye içinde. Orta-asur t=-0910 ile yeni-asur f aynı (zaten satırın sonraki dilimi).",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "eski-asur",
+     "f": "-1775-01-01",
+     "t": "-1749-01-01"
+    },
+    {
+     "d": "__BOSLUK__",
+     "f": "-1749-01-01",
+     "t": "-1499-01-01",
+     "not_": "Treccani: Babil'den 'belli bir bağımsızlık'; künye yok (BOSLUK_KALIR)"
+    },
+    {
+     "d": "mitanni",
+     "f": "-1499-01-01",
+     "t": "-1362-01-01",
+     "alan": "v",
+     "beyan": "Mitanni'ye TABİ (soggezione); s: değil, v:/beyanlı"
+    },
+    {
+     "d": "orta-asur",
+     "f": "-1362-01-01",
+     "t": "-0910-01-01"
+    }
+   ],
+   "kaynak2": "Treccani, Enciclopedia on line, 'Assiria' — https://www.treccani.it/enciclopedia/assiria/",
+   "alinti2": "Successivamente si affermò nella regione lo Stato hurrita di Mitanni che la sottomise a partire dal 15° sec. a.C. Liberata da Assuruballit (1363-28) dalla soggezione a Mitanni, ebbe un nuovo grande sovrano in Addu-Nirāri I (1305-1274)",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Grayson, RIMA 1 / Bryce — Aşşur 1775-1500 arası sahiplik (Adasi hanedanı); kapalı kaynak"
+   ],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Toul": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:218",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "BAKILMADI",
+   "uc": null,
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Bu turda okunmadı: 3 dönemin hepsi kaynaklı (Treccani Enciclopedia Italiana TOUL: 1552 Fransa). Hayalet denetimi (devletler.js): almanya f 0962-02-02 (1281 içinde); fransa f 0987-07-03 t 1792-09-22 (satırla birebir); fransa-cumhuriyet f 1792-09-22, t yok (süren) → 2000-12-31 sorun değil. Yıl düzeyi 1552 gün teyitsiz (Henri II girişi 1552 bahar; gün aranmadı).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Saint-Denis (Réunion)": [
+  {
+   "dosya_satir": "data/yerlesimler_hint_adalar.js:25",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1810-07-08",
+     "t": "(1815, gün teyitsiz)"
+    }
+   ],
+   "kaynak2": "Treccani «Riunione» (https://www.treccani.it/enciclopedia/riunione/ ve reunion-isola_(Enciclopedia-Italiana)) açılmadı: ana sayfaya düştü (208/4046 bayt, madde gövdesi yok)",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Treccani Riunione gövdesi (Cloudflare/yönlendirme)"
+   ],
+   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali 1810-1815; ada Fransız egemenliğinde kaldı (1814 Paris) → isg ingiltere, d: fransa-cumhuriyet sürer. Gün 1810-07-08 yalnız arama özeti (çerçeve Vikipedi 'Invasion of Île Bonaparte') → KAYNAKLI değil. Akademik kaynak (Treccani/Cambridge/EVE Réunion) bu turda açılamadı. Hayalet: ingiliz-mauritius künye f 1810-12-03 (Réunion o künyede değil, Mauritius+Rodrigues); isg için ingiltere künye var (f/t kapsar). 1792-09-22'de satır sınırı: Fransız Cumhuriyeti ilanı ülke düzeyi, Réunion'a özgü değil. 1669 kuruluşu ve 1738 merkez yapılışı kaynağı 'Eve açılmadı' beyanında, bu turda da doğrulanamadı.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Funchal (Madeira)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:81",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "YOK_O_DEVIRDE",
+   "uc": "f",
+   "oneri_son": {
+    "d": "__BOSLUK__ kırpılır",
+    "f": "1419-07-02",
+    "t": null
+   },
+   "kaynak2": "Elucidário Madeirense, 'Chronology' (https://elucidariomadeirense.pt/en/chronology/), sayfa gövdesi sayfa.py ile okundu",
+   "alinti2": "2 July 1419 Zarco made the first landing on Madeira at Machico on the feast of the Visitation, where accompanying Franciscans reportedly celebrated the first Mass | 1420s 8 c. 1425 Settlement of Madeira began under the first donatary captains, with settlers from mainland Portugal, some first sheltering at the Ilhéus of Funchal.",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "BOSLUK görevi: 1000 → 1419-07-02. Madeira ıssız (kalıcı yerleşim c.1425; Funchal'ın ilk kilisesi 1425 kapı tarihi, vila 1451-52). Yani 1000-1419 arasında Funchal yerleşimi YOK → dönem kırpılır, toprak komşu peteklere kalır (Funchal noktası kur ≈1425 [yaklaşık], 1419-07-02 yalnız adadaki ilk iniş (Machico)). portekiz satırı f 1419-07-02 ada düzeyidir; yerleşim bazında c.1425 [yaklaşık] daha doğru, KASA karar verir. Hayalet: portekiz künye f 1097-01-01, t yok (süren) → kapsar. Madeira 'Portekiz egemenliği' keşiften itibaren (Henrique'nin donatarilik).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Angra (Terceira, Azorlar)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:85",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "YOK_O_DEVIRDE",
+   "uc": "t",
+   "oneri_son": {
+    "d": "__BOSLUK__ kırpılır",
+    "f": "1460-01-01",
+    "t": null
+   },
+   "kaynak2": "Gregório, R. D., 'Angra do Heroísmo', Encyclopaedia of the Voyages of Exploration (EVE), Univ. Nova de Lisboa (https://eve.fcsh.unl.pt/en/node/5160), sayfa gövdesi okundu",
+   "alinti2": "The first part of the city to be settled, circa the 1460s, was on a hillock, further inland, facing the ocean. | After 1474, when Terceira was divided into two captaincies, the 1st captain of Angra, João Vaz Corte, also chose this higher a",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "BOSLUK görevi: 1000 → 1460. EVE: Angra'nın ilk yerleşimi c.1460'lar [yaklaşık, onyıl]; öncesinde yerleşim yok → dönem kırpılır, portekiz f 1460-01-01 [yaklaşık] zaten bu uçtur; 'yalnız onyıl' beyanı sürer. 1474 kaptanlık bölünmesi (João Vaz Corte) yerleşimin Portekiz idaresinde olduğunu gösterir (t değil f desteği). Hayalet: portekiz künye f 1097, t yok. Ek bilgi: ilk yerleşimci Álvaro Martins Homem tek kaynak (EVE).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Rey": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_ortadogu.js:9",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "sasani",
+     "f": "(kayıt yok)",
+     "t": "(yıl 22-23/643-44 aralığı, taslak)"
+    },
+    {
+     "alan": "s",
+     "d": "hulefa-yi-rasidin",
+     "f": "(yıl 22-23/643-44, retaken)",
+     "t": "0661-07-29"
+    }
+   ],
+   "kaynak2": "Encyclopaedia Iranica, ʿARAB ii. Arab conquest of Iran (https://www.iranicaonline.org/articles/arab-ii/); RAY i. ARCHAEOLOGY (https://www.iranicaonline.org/articles/ray-i-archeo/); TEHRAN i. (https://www.iranicaonline.org/articles/tehran/i-a-persian-city/); hepsi sayfa.py ile okundu",
+   "alinti2": "Some places, such as Hamadān and Ray, were taken and retaken several times. | After the destruction caused by the Mongols, the old settlement was abandoned and replaced, first by Varāmin to the south",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Treptow 2007 The Medieval Persian City of Rayy (kapalı)",
+    "EI2 'Rayy' (kapalı)",
+    "Iranica 'RAY ii' tarihçe makalesi slug'ı bulunamadı"
+   ],
+   "not": "Kayıtta dönem yok (bos:veri-yok, bit 1281). TDV'de 'Rey' şehir maddesi bulunamadı (tdv-ara 'Rey': yalnız ehl-i-rey vb.; slug tahmini rey, rey-sehir, rey-sehri başarısız). Iranica Arab-ii: 22-23/643-44'te Kûfe ve Basra kuvvetleri Cibâl'e dağıldı; Rey 'defalarca alındı ve geri alındı' ve 500.000 dirhem haraçla marzbândan alındı — YIL ARALIĞI, gün/yıl tek tanık yok → KAYNAKLI değil. Moğol yıkımı (erken 13. yy, Iranica Tehran: 'early 13th century'; Yâkūt Rey'de 617/1220 idi) yılsız → ONERI; Rey'in 1281'den önce yerleşim olarak terk edilmesi atlasın bit:1281 ile ZINCIR sorusu: Moğol yıkımından sonra Rey sahibi ilhanli f 1256 (künye). Hayalet: hulefa-yi-rasidin 0632-06-08/0661-07-29, sasani f 0224-04-28 t 0651-01-01 (643 sasani t'den önce, kapsar), ilhanli f 1256. Bu turda Part, Büveyhî, Selçuklu, Hârizmşah ara zinciri okunmadı. Ünite: 'Rey' ile Tahran karışmasın (Iranica: Tahran 10 km kuzey).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Longcheng (Chaoyang)": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_dogu3.js:15",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "BAKILMADI",
+   "uc": null,
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Bu turda okunmadı: tek dönem (onceki-yan 0341 → 0370-12-11) Zizhi tongjian + Jin shu ile kaynaklı. Hayalet: onceki-yan künye f 0337-01-01 t 0370-12-11, satırla f hariç örtüşür (341 künye içinde), t birebir. Longcheng'in Yan başkenti olduğu 342 (ZZTJ) vs 341 (Jin shu) çelişkisi kayıtta beyanlı. Ay-güneş takvim günü çevrilmedi (EMRELİC toplu).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Tinmel (Tin Mal)": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_afrika.js:18",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "muvahhidler",
+     "f": "1130-01-01",
+     "t": "1269-01-01"
+    }
+   ],
+   "kaynak2": "TDV İslâm Ansiklopedisi, «İbn Tûmert» (https://islamansiklopedisi.org.tr/ibn-tumert) ve «Muvahhidler» (https://islamansiklopedisi.org.tr/muvahhidler), sayfa.py ile okundu",
+   "alinti2": "İbn Tûmert, daha iyi bir savunma ortamına kavuşmak için 517 (1123) yılında Tinmellel’e intikal etti ve şehir halkını çıkarıp buraya yerleşti. | Böylece Muvahhidler Devleti son bulurken bu sırada Tinmellel’e çekilmiş olan liderleri de ele geçirilerek idam edildi.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Tinmel'in Merînî eline geçiş yılı: Ibn Khaldun/Ibn Abi Zar neşri ya da EI2 'Tinmal' (kapalı)"
+   ],
+   "not": "Kayıtta dönem yok. f: TDV İbn Tûmert Tinmellel'e 517 (1123) yerleşti, 'hicret' denir (Mehdî hareketinin merkezi); AMA muvahhidler künye f 1130-01-01 (TDV: devletin resmen teşekkülü Abdülmü'min, İbn Tûmert'in ölümü 14 Ramazan 524/21 Ağustos 1130 sonrası; ic_not_f). 1123-1130 aralığını muvahhidler'e yazmak künyeyi AŞAR (HAYALET) → LAB: künye f genişletme sorusu (ardıl yapı değil, aynı polity; 'aynı polity sürüyorsa künyeyi GENİŞLET' kuralı) ya da önerilen s: muvahhidler 1130-01-01. 1123 öncesi sahip: Murâbıtlar (f 1056 t 1147-03-23) yerel kabile Tinmellel'de, belge yok → BOSLUK_KALIR. t: TDV Merînîler'in Merakeş'e girişi 668 (1269), Muvahhid liderler Tinmellel'e çekildi ve sonra idam edildi; Tinmel'in düşüş yılı/günü metinde YOK (muvahhidler t 1269 ile merini devri günü bulunamadı). Merini künye f 1196 t 1549. İki TDV maddesi muvahhidler t'de yıl farkı taşır (667/1269 vs 668/1269-70) → künye ic_not_t'de beyanlı. Anıt cami tarihi (1153-54) mülkiyet değil.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Korint": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:25",
+   "alan": "s",
+   "d": "korint",
+   "f": "-0799-01-01",
+   "t": "-0145-01-01",
+   "gorev": "TEYIT",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "oneri_son": {
+    "d": "korint",
+    "f": "-0799-01-01",
+    "t": "-0145-01-01"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Corinto» (https://www.treccani.it/enciclopedia/corinto/), sayfa.py ile okundu",
+   "alinti2": "la regione fu ridotta a provincia e C. distrutta (146)",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "t: MÖ 146 = astronomik -0145 ✓ (satır -0145-01-01). Yıl düzeyi, gün yok (satır kesinlik onyıl; Mummius'un MÖ 146 sonbaharı yıl içi gün bu turda aranmadı). f -0799 (MÖ 800 yy başı, 'şehir devleti MÖ 8. yy'): Treccani yalnız 'Città dorica ... (2°-1° millennio a.C.)' der, f'yi tarihlemez → f ONERI/BAKILMADI. Hayalet: korint künye f -0799-01-01 t -0145-01-01, satırla birebir. YIKIK sonrası: Treccani 146 sonrası MÖ 44 kolonisini söylemiyor; Roma eyaleti (Akhaia) 'ridotta a provincia' ÜLKE DÜZEYİ: -0145 sonrası zincir (roma-cumhuriyeti → roma-imp → bizans: 'in epoca bizantina capitale amministrativa' → 1210 ducato di Morea → 1459 Turchi) satır olarak yazılmamış; Treccani gövde 1459-1822 Türk verir (yıl).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Banavasi": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "__HEPSİ__",
+   "f": "0500-01-01",
+   "t": "2000-12-31",
+   "gorev": "TEYIT",
+   "hukum": "BAKILMADI",
+   "uc": null,
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Bu turda okunmadı: 13 dönemin hiçbiri kaynaksız/DEVRALMA değil. BOSLUK 1343-1347 (Hoysala → Vijayanagara) 'arandı, bulunamadı' beyanlı (HCIP VI). Hayalet kontrol: hoysala f 1026 t 1343 (satır 1305-1343 içinde), vijayanagara f 1336 t 1646 (satır f 1347 içinde), kadamba-banavasi künye f 0340 t 0610 (satır f 0500: künye kapsar), badami-calukya 0543-0757, rastrakuta 0755-0975 (satır 0757 ✓.), bati-calukya 0975-1189, yadava 1187-1318, nayak 1336-1763 (satır 1565 ✓), meysur 1610-1799 (1763 ✓), ingiliz-hindistani 1757-1947-08-15. Ölçüm: hepsi künye içinde, hayalet yok.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Paracas": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:7",
+   "alan": "s",
+   "d": "paracas-kultur",
+   "f": "-0789-01-01",
+   "t": "-0039-01-01",
+   "gorev": "TEYIT",
+   "hukum": "BAKILMADI",
+   "uc": null,
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Bu turda okunmadı: tek dönem kaynaklı (Conlee ve ark. 2024). Hayalet: paracas-kultur künye f -0789 t -0039, satırla birebir. Yüzyıl kesinliği; arkeolojik kültür, sahiplik kavramı yok.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Yarlung (Nêdong/Tsetang)": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "yarlung-krallik",
+   "f": "0500-01-01",
+   "t": "0629-01-01",
+   "gorev": "TEYIT",
+   "hukum": "BULUNAMADI",
+   "uc": null,
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "BOSLUK 0842-1264 için baktım: Treccani «Tibet» (https://www.treccani.it/enciclopedia/tibet/, gövde okundu, Yarlung/842/Langdarma/Tsetang anahtarlarının hiçbiri geçmedi); Iranica tibet-i slug'ı 404. Nedong'un Phagmodrupa merkezi olması (tibet künye baskent Nêdong, f 1354) kayıtta var. Yarlung yerleşimi bu aralıkta var (yarlung vadisi kutsal merkez), sahibi kaynakta bulunamadı: BOSLUK_KALIR eşdeğeri. Hayalet: yarlung-krallik f -0126 t 0629 (satır 0500 kapsar), tibet-imparatorlugu f 0629 t 0842, sakya 1264-1354, tibet 1354-1642 (Nêdong başkent), tibet-ganden-phodrang 1642-1959-03-28 (satır t 1951-05-23, künye içinde).",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Tikal": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js",
+   "alan": "s",
+   "d": "tikal-mutul",
+   "f": "0292-01-01",
+   "t": "0869-01-01",
+   "gorev": "TEYIT",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "d": "tikal-mutul",
+    "f": "0292-01-01",
+    "t": "0869-01-01"
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Maya» (https://www.treccani.it/enciclopedia/maya/), sayfa.py ile okundu",
+   "alinti2": "Il principale centro del Petén fin dagli inizi dell’epoca classica fu Tikal (la prima stele datata risale al 292 d.C.)",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Martin & Grube 2008 Chronicle of the Maya Kings (Emre girişi gerekebilir)"
+   ],
+   "not": "BOSLUK 0869 → 1001: Treccani 'Dopo la fine dell’8° sec. ebbe inizio la fase di decadenza: nel giro di un secolo tutti i principali siti delle pianure centrali ... venendo progressivamente abbandonati' — ÜLKE DÜZEYİ, Tikal'a özgü terk tarihi yok; metin '(l’ulti…' diye kesildi → BOSLUK_KALIR (YOK_O_DEVIRDE değil: Tikal-özgü kaynak yok). f 0292: ilk tarihli stel (alt sınır, KURULUŞ DEĞİL) → ONERI; künye tikal-mutul f 0090-01-01 (tartışmalı) ile satır f 0292 arasındaki fark ilk-tarihli-kanıt kuralıdır. Hayalet: tikal-mutul t 0869-01-01 satırla birebir. Martin & Grube 2008 kapalı kaynak, archive.org'da denenmedi.",
+   "_parti": "db_ra_017.json"
+  }
+ ],
+ "Jambi": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0519-01-01",
+   "t": "0644-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Coedes, G., The Indianized States of Southeast Asia, East-West Center Press, Honolulu 1968, s.55 (Bolum II-3, 'Kan-t'o-li'); archive.org vxuz-the-indianized-states-of-southeast-asia-by-g-coede",
+   "alinti2": "Kan-t'o-li, first mentioned in the History of the Liang in connection with events occurring in the middle of the fifth century, is located by general agreement in Sumatra. It presumably preceded Srivijaya and may have had its center at Jambi.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Wolters 1967 Early Indonesian Commerce / Manguin 2009 JMBRAS (Kan-t'o-li'nin 519 sonrasi elciligi 560'lar iddiasi) - kapali, okunamadi",
+    "Muaro Jambi / Kota Kapur kazi raporlari - sayfa.py ile erisilebilir akademik metin bulunamadi"
+   ],
+   "not": "Yerlesim VAR MIYDI? Kanit yok: Coedes yalniz 'may have had its center at Jambi' (varsayim) der; 519 elciligi Vijayavarman'indir (ayni sayfa: 'In 502 a Buddhist king, Gautama Subhadra, was reigning. His son, Vijayavarman, sent an embassy to China in 519.'). 519-644 arasi Jambi'ye ozgu tanik yok; Kan-t'o-li'nin Jambi ile ozdeslesmesi de 'presumably/may' duzeyinde. Merdiven: TDV (konuyu kapsamiyor, aranmadi-bulunamadi), Coedes okundu (s.55, Malayu s.79-82 dizin), akademik kazi yayini (Muaro Jambi 7.yy+) erisilemedi. Sonuc: BOSLUK_KALIR; YOK_O_DEVIRDE de denemez (yoklugun kaniti yok). BITISIK BULGU: onceki satirdaki 'kantoli' 0500-0519 Jambi atamasi da kaynakta yalniz 'may have' - BEYANLI YAKLASIKLIK olarak isaretlenmeli.",
+   "_parti": "db_ra_007.json"
+  }
+ ],
+ "Balasagun (Ak-Beşim)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0699-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "0500-01-01",
+     "t": "0582-01-01",
+     "aciklama": "BOSLUK_KALIR; 500-582 icin TDV/Iranica'da tanik yok (Iranica: 'must have been a Sogdian foundation', tarihsiz)"
+    },
+    {
+     "d": "bati-gokturk",
+     "f": "0582-01-01",
+     "t": "0659-01-01",
+     "aciklama": "[yaklasik; TDV yalniz 'VII. yuzyil' + Tung Yabgu der; f kunye f'sinden]"
+    },
+    {
+     "d": "tang",
+     "f": "0659-01-01",
+     "t": "0699-01-01",
+     "aciklama": "[yaklasik; TDV: Cinliler 658'de aldi; 699'a dek surdugu kaynakta YOK - KASA ya beyanli yaklasiklik yazar ya da bu uzun dilimi BOSLUK birakir (onerim: BOSLUK)]"
+    }
+   ],
+   "kaynak2": "TDV Islam Ansiklopedisi, «Balasagun» (Enver Konukcu, DIA c.5, 1992, s.4), https://islamansiklopedisi.org.tr/balasagun",
+   "alinti2": "Balasagun bölgesi VII. yüzyılda Batı Göktürk Hükümdarı Tung Yabgu’nun idaresinde bulunuyordu. Çinliler batı yayılışı sırasında 658’de, kaynaklarında Şu, Sui-ye Çing yani “Şu Kalesi” diye zikrettikleri Balasagun’u ele geçirdiler.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Cambridge History of China c.3 / Tang Anxi-Beiting koruyuculugu (658-699 Suyab) - kapali (archive.org 403), Emre girisi"
+   ],
+   "not": "Merdiven: TDV Balasagun okundu (yerlesimin kendi maddesi): VII. yy Bati Gokturk (Tung Yabgu 618-628 donemi), 658 Cin ele gecirmesi. Iranica Balasagun (Bosworth) 500-699 icin sessiz. HAYALET denetimi: bati-gokturk f=0582 t=0659 (devletler.js 22132), tang f=0617-12-12 t=0907 -> oneri dilimleri kunye icinde. 658 vs kunye t=0659: TDV 658 diyor, kunye 0659; 1 yil fark ic_not'a (tang f=0659 birakilir, sifir uzunluk/cakisma yok). ONEMLI: satir t=0699 'turges kunye f' idi, ancak devletler.js'te turges f=0717 (hayalet/delik riski: 699-717 arasi). uc bos: alinti 582'yi ve 699'u tarihlemiyor. Degismez 2: 0659 kirilmasi icin kronoloji maddesi (Cin-Bati Gokturk 658-659 Suyab) gerekir - KASA toplu dosyasina.",
+   "_parti": "db_ra_007.json"
+  }
+ ],
+ "Taraz (Evliya-Ata)": [
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0699-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "TDV Islam Ansiklopedisi, «Karluklar» (DIA c.24, 2001, s.509-510), https://islamansiklopedisi.org.tr/karluklar",
+   "alinti2": "Daha sonra da yıkılma sürecine giren Kara Türgiş Kağanlığı’nın iki büyük idare merkezi Tokmok ve Talas’ı zaptederek 766 yılında burada başşehri Balasagun yakınlarındaki Kara-ordu olan bir devlet kurdular.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Xuanzang 630 Da-luo-si (Taraz) + Cambridge History of China c.3 - kapali, Emre girisi",
+    "Iranica HEPHTHALITES (okundu: Talas/Taraz/Semirech gecmiyor)"
+   ],
+   "not": "Yerlesim o devirde VAR MIYDI: TDV Karluklar Talas'i 766 oncesi 'idare merkezi' sayar (8. yy), 500-699 icin Taraz'a ozgu tanik yok; yerlesimin varligi ve sahibi ikisi de kaynaksiz. ABI MERKEZ adayi Balasagun/Suyab (ayni Bati Gokturk alani), ama baglayici kaynak (TDV Karluklar 'iki idare merkezi') 8. yy'a ait; 500-699 icin baglayici kaynak YOK -> abi merkez kurali uygulanamaz. TDV Turk, TDV Balasagun, TDV Karluklar, Iranica Hephthalites tarandi. Hukum BOSLUK_KALIR. KASA istersen Balasagun onerisini (bati-gokturk 582-659 / tang 659-699) BEYANLI YAKLASIKLIK olarak kopyalayabilir; ben kaynaksiz oldugu icin onermiyorum.",
+   "_parti": "db_ra_007.json"
+  }
+ ],
+ "Ur (Tell al-Muqayyar)": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "CELISKI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "akad",
+     "f": "-2333-01-01",
+     "t": "-2299-01-01",
+     "aciklama": "Treccani/kunye kronolojisi (Lugalzagesi m.2335); alternatif: ARCANE -> __BOSLUK__ kalir"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur» (2011), https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Lugalzaggesi» (2010), https://www.treccani.it/enciclopedia/lugalzaggesi_(Dizionario-di-Storia)/",
+   "alinti2": "U. fu poi assoggettata da Uruk (Lugalzaggesi), da Akkad (Sargon e successori), e infine dai gutei (2400-2100 ca.). | Re di Uruk (n. 2359 ca.-m. 2335 a.C.)",
+   "dogrusu": "akad (kronoloji karari)",
+   "tarayici_gerekli": [
+    "Frayne RIME 2.1 Sargon yazitlari (Ur'un alinisi) - kapali"
+   ],
+   "not": "CELISKI: ARCANE III (Sallaberger-Schrakamp 2015) Lugalzagesi ca. 2324-2300 MC (satir beyaninda) <-> Treccani Lugalzaggesi n.2359 ca.-m.2335. Sahip ikisi de kaynakli (Uruk/Lugalzagesi sonra Akad). Treccani Ur: Uruk (Lugalzaggesi) sonra Akad (Sargon ve halefleri) tarafindan boyun egdirildi. Satir ARCANE'nin Lugalzagesi 2324-2300 kronolojisini kullaniyor; atlas akad f=-2333 ve Treccani 2335 ile 10 yil ayrilik. Hayalet: akad f=-2333 -> temiz. Hangi kronolojinin secilecegi karar isi (atlas konvansiyonu orta kronoloji: Sargon -2333).",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "gutium",
+     "f": "-2153-01-01",
+     "t": "-2111-01-01",
+     "aciklama": "[yaklasik; Treccani Gutei 'verso il 2200', Treccani Ur 'gutei 2400-2100 ca.']"
+    },
+    {
+     "d": "ur-3",
+     "f": "-2111-01-01",
+     "t": "-2109-01-01",
+     "aciklama": "Ur-Nammu 2112 (Treccani); ur-3 satirina birlesir"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur» (2011), https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Ur-Nammu» (2011), https://www.treccani.it/enciclopedia/ur-nammu_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Gutei» (2010), https://www.treccani.it/enciclopedia/gutei_(Dizionario-di-Storia)/",
+   "alinti2": "U. fu poi assoggettata da Uruk (Lugalzaggesi), da Akkad (Sargon e successori), e infine dai gutei (2400-2100 ca.). | Già funzionario del re di Uruk Utu-khegal ..., poi lo soppiantò e regnò dal 2112 al 2095 a.C. ca.",
+   "dogrusu": null,
+   "tarayici_gerekli": [],
+   "not": "Sahip Treccani Ur'da acik (gutei), ama tarih ucu 'ca.' araligi -> KAYNAKLI degil, ONERI. HAYALET: gutium f=-2153 t=-2111, ur-3 f=-2111 -> temiz. Treccani Gutei: Utu-khegal son Guti kralini 2120'de yendi (=-2119): -2119..-2111 Ur, Utu-khegal'in Uruk'u hegemonyasinda (Ur-Nammu onun gorevlisiydi); bu 8 yil icin kunye yok -> KASA 'gutium t=-2111' kunyesinin dogrulugunu sormali (LAB). Degismez 2: gutium/ur-3 kirilmalarinin kronoloji maddeleri mevcut mu bakilmali.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2003-01-01",
+   "t": "-1924-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "isin",
+     "f": "-2003-01-01",
+     "t": "-1924-01-01",
+     "aciklama": "[yaklasik; Treccani: Isin altinda 'fin verso il 1900' (~24 yil fark); Ur'un dusmesi (Elam) -2003 satirin kendi ucu]"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur» (2011), https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/",
+   "alinti2": "U. rimase sotto Isin (fin verso il 1900), poi passò sotto Larsa, e infine (1763) sotto la Babilonia di Hammurabi.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Frayne RIME 4 (Ishbi-Erra, Elam'in Ur'dan atilisi) - kapali"
+   ],
+   "not": "Sahip (Isin) acik; uclar yaklasik: Treccani ~1900'e dek, satir -1924 (Larsa/Gungunum). HAYALET: isin f=-2016 t=-1793 icinde. Elam'in Ur'u tutma suresi (2004 sonrasi) Treccani Ur'da 'attacco degli elamiti' olarak anilir, yil yok -> dilimin basi tarihlenmedi. ONERI (BEYANLI YAKLASIKLIK).",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1594-01-01",
+   "t": "-1464-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "sealand-1",
+     "f": "-1594-01-01",
+     "t": "-1474-01-01",
+     "aciklama": "[yaklasik; kunye t]"
+    },
+    {
+     "d": "kassit-babil",
+     "f": "-1474-01-01",
+     "t": "-1464-01-01",
+     "aciklama": "[yaklasik; Ulam-Buriash 1496-74 saltanati icinde fetih, Treccani Ur 'cassiti 1450-1150 ca.']"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur» (2011), https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Paese del Mare» (2011), https://www.treccani.it/enciclopedia/paese-del-mare_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Cassiti» (2010), https://www.treccani.it/enciclopedia/cassiti_(Dizionario-di-Storia)/",
+   "alinti2": "Ben presto (1735 ca.) U. si distaccò da Babilonia con la I dinastia del Paese del mare, restando autonoma per tre secoli, per essere poi nuovamente annessa dai cassiti (1450- 1150 ca.) | la «I dinastia del P. del M.», che durò fino al 1500 ca., quando il suo ultimo re, Ea-gamil, fu sconfitto dal cassita Ulam-Buriash.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Dalley 2009 / Brinkman: Ea-gamil'in yenilis yili (1500 ca. vs kunye -1474) - kapali"
+   ],
+   "not": "Ur, Deniz Ulkesi I. hanedaninin MERKEZI (Treccani Paese del Mare: 'con centro a Ur'). HAYALET: sealand-1 f=-1731 t=-1474, kassit-babil f=-1594 -> temiz. Kaynak Fethi 1500 ca./1496-74 verir, kunye t=-1474, satir -1464 -> uclar yaklasik; ONERI. KOMSU SATIR CELISKISI: ayni zincirin onceki satiri babil-eski -1762..-1594 (Ur): Treccani Ur/Paese del Mare Ur'u ~1735'te Babil'den kopmus, Deniz Ulkesi'ne bagli (~1735..~1500) gosterir -> -1735..-1594 sealand-1 olmali (HATALI_ONERI adayi: mevcut kaynakli satir, KASA ayri hucrede ele almali). Sealand-1 kunyesi f=-1731 bunu karsilar.",
+   "_parti": "db_ra_007.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1154-01-01",
+   "t": "-0625-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "isin-2",
+     "f": "-1154-01-01",
+     "t": "-1025-01-01",
+     "aciklama": "[yaklasik; Treccani Ur '1150-1050 ca.', Treccani Isin 1154-1026]"
+    },
+    {
+     "d": "__BOSLUK__",
+     "f": "-1025-01-01",
+     "t": "-0625-01-01",
+     "aciklama": "BOSLUK_KALIR (tek baskin sahip yok)"
+    }
+   ],
+   "kaynak2": "Treccani, Dizionario di Storia, «Ur» (2011), https://www.treccani.it/enciclopedia/ur_(Dizionario-di-Storia)/ ; Treccani, Dizionario di Storia, «Isin» (2010), https://www.treccani.it/enciclopedia/isin_(Dizionario-di-Storia)/",
+   "alinti2": "Ben presto (1735 ca.) U. si distaccò ... e dalla II dinastia di Isin (1150-1050 ca.). | Il periodo di grave depressione della Bassa Mesopotamia (1050-750 ca.) vide U. a tratti indipendente (II dinastia del Paese del mare), a tratti dipendente da Babilonia o dai caldei di Bit-Yakin.",
+   "dogrusu": null,
+   "tarayici_gerekli": [
+    "Brinkman Post-Kassite Babylonia; Neo-Asur donemi Ur (Asurbanipal 652-648 cezasi) - kapali"
+   ],
+   "not": "HAYALET: isin-2 f=-1154 t=-1025 tam. -1025..-625: Treccani Ur 'a tratti indipendente (II Deniz Ulkesi 1025-1005 - Treccani Paese del Mare), a tratti Babil ya da Bit-Yakin'e bagli, 7. yy'da Asur yanlisi (filoassira; sahiplik degil); -648 sonrasi 50 yil belge yok' -> tek baskin sahip yok; ABI MERKEZ Babil'in kendi zinciri de BOSLUK. BOSLUK_KALIR, kunye adayi 'sealand-2' (-1024..-1004, Treccani Paese del Mare) LAB'a. Yerlesim VAR (sekiz fazli Treccani anlatimi).",
+   "_parti": "db_ra_007.json"
+  }
+ ],
+ "Xi'an (Chang'an)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0206-01-01",
+   "t": "-0201-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "bati-han",
+     "f": "-0204-01-01",
+     "t": "-0201-01-01",
+     "not": "Han 2. yil: Sai Krali Sima Xin teslimi [yil; Han takvimi 10. ayda baslar, MO 206/205 siniri belirsiz -> -0204 secildi, -0205'e kadar inebilir]"
+    }
+   ],
+   "kaynak2": "Sima Qian, Shiji 7 (Xiang Yu benji) ve Shiji 8 (Gaozu benji), https://zh.wikisource.org/wiki/史記/卷007 ; https://zh.wikisource.org/wiki/史記/卷008 (sayfa.py oku, ham metin)",
+   "alinti2": "故立司馬欣為塞王，王咸陽以東至河，都櫟陽；立董翳為翟王，王上郡，都高奴。 ‖ 二年，漢王東略地，塞王欣、翟王翳、河南王申陽皆降。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET. Shiji 8: '封項羽為長安侯，號為魯公' (Chang'an adi MO 207'de zaten var; Han Chang'an surunun yapimi 202 sonrasi, Shiji 8 '長樂宮成' Gaozu 7). Gaozu 5. yil (MO 202) imparator; atlas t=-0201 ile uyumlu. OLCUT: idareye katma - Shiji 8 '置...渭南、河上、中地郡'. Kunye f/t denetimi: bati-han f=-0205-01-01 t=0009-01-10 (devletler.js okundu), qin-hanedani t=-0206-01-01. Astronomik yil: MO 207=-0206, MO 206=-0205, MO 205=-0204. Bati-han'i -0205'ten alma secenegi: Han 1 8. ay 'Yong topragi dondu, Xianyang'a kadar' (Shiji 8) ama Sai Han 2'de teslim olduk (Shiji 8) -> -0204 secildi.",
+   "parcalar": [
+    {
+     "d": "(sahipsiz: Sai Krali / Chu-Qin kalintisi)",
+     "f": "-0206-01-01",
+     "t": "-0204-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Shiji 7",
+     "alinti2": "立司馬欣為塞王，王咸陽以東至河，都櫟陽",
+     "not": "Chang'an (Xianyang'in guneydogusu) Sai topraginda; Sai icin kunye YOK (devletler.js grep: sai/zhai yok) -> kunye adayi 'sai-krallik' LAB'a. Kaynaksiz tarih uydurulmadi."
+    },
+    {
+     "d": "bati-han",
+     "f": "-0204-01-01",
+     "t": "-0201-01-01",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Shiji 8",
+     "alinti2": "二年，漢王東略地，塞王欣、翟王翳、河南王申陽皆降。",
+     "not": "Ayni sayfa: '置隴西、北地、上郡、渭南、河上、中地郡' = Han idaresine katma (OLCUT: idareye katma - komutanlik kurulmasi). Han kunye f=-0205-01-01, hayalet yok."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0027-01-01",
+   "t": "0030-05-28",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Hou Hanshu 17 (Feng Yi zhuan), https://zh.wikisource.org/wiki/後漢書/卷17 ; Hou Hanshu 1下, https://zh.wikisource.org/wiki/後漢書/卷1下",
+   "alinti2": "威行關中，惟呂鮪、張邯、蔣震遣使降蜀，其餘悉平。 ‖ 夏四月丙子，幸長安，始謁高廟，遂有事十一陵。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Hou Hanshu 17: 'Zhang Han Chang'an'i elinde tuttu'; 'Feng Yi Chang'an magistratini idam etti' -> Han idaresi sonra isliyor). Chimei kunyesi t=0027-01-01 -> Dong Han tanikligi 0030-05-28 (Jianwu 6/4. ay bingzi; Hou Hanshu 1下 okundu, Cin ayi gunu EMRELIC'te Academia Sinica ile cevrilecek). Arada tek-sahip gun-gun okunamadi; Zhang Han ve 'Shu'ya biat' (himaye/tabilik devir degildir) -> uydurma sahip yazilmadi. Kunye adayi 'zhang-han-chang-an' LAB'a. Bu satir BOSLUK_KALIR: kaynak sessiz (yil bile yok).",
+   "parcalar": [
+    {
+     "d": "(Zhang Han - kunyesiz yerel savas lordu, Shu'ya nominal tabi)",
+     "f": "0027-01-01",
+     "t": "?",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Hou Hanshu 17",
+     "alinti2": "張邯據長安",
+     "not": "Feng Yi'nin Chimei'yi yenmesinden sonra Zhang Han Chang'an'i tutuyor; Dong Han'a gecis gunu kaynakta YOK (Feng Yi 'Guanzhong'u temizledi' yilsiz)."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Luoyang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0220-01-01",
+   "t": "0023-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "qin-hanedani",
+     "f": "-0220-01-01",
+     "t": "-0206-01-01"
+    },
+    {
+     "s": "(Henan Krali - Shen Yang, kunyesiz)",
+     "f": "-0206-01-01",
+     "t": "-0204-01-01",
+     "not": "BOSLUK_KALIR / BEYAN"
+    },
+    {
+     "s": "bati-han",
+     "f": "-0204-01-01",
+     "t": "0009-01-10",
+     "not": "Henan komutanligi Han 2"
+    },
+    {
+     "s": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-10-06",
+     "not": "satirin t'si 0023-01-01 -> 0023-10-06 (Gengshi Luoyang'i 9. ayda aldi); komsu 'gengshi' satiri f=0023-01-01 yanlis, 0023-10-06 olmali"
+    }
+   ],
+   "kaynak2": "Shiji 5 (Qin benji) https://zh.wikisource.org/wiki/史記/卷005 ; Shiji 7 .../卷007 ; Shiji 8 .../卷008 ; Hanshu 99中 https://zh.wikisource.org/wiki/漢書/卷099中 ; Hou Hanshu 11 https://zh.wikisource.org/wiki/後漢書/卷11",
+   "alinti2": "故立申陽為河南王，都雒陽。 ‖ 是月，拔洛陽，生縛王匡、哀章，至，皆斬之。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Chengzhou/Luoyi; Shiji 5: Qin 'Sanchuan' komutanligi kurdu). SATIR t HATASI: atlas bu satirin t'sini 0023-01-01 yazmis (komsu gengshi f=0023-01-01) ama Hou Hanshu 11 Luoyang'in Xin elinde Gengshi 9. ayina kadar kaldigini soyluyor -> t=0023-10-06, ve komsu 'gengshi' satiri f=0023-01-01 -> 0023-10-06 olmali (ONERI, Degismez 1/2 icin KASA). OLCUT: idareye katma - Han 2'de 'kuan wai zhi Henan jun' (Shiji 8) ve Qin 'chu zhi Sanchuan jun' (Shiji 5). Hayalet denetimi: qin-hanedani -0220..-0206, bati-han -0205..0009-01-10, xin-hanedani 0009-01-10..0023-10-06 (devletler.js okundu) - kunye icinde. Astronomik yil: MO 249=-0248, MO 207=-0206, MO 206=-0205, MO 205=-0204. Hanshu 99 (Wang Mang) Luoyang'i 'idare merkezi yapma plani' diyor (Tianfeng 1, 'luo yang zhi du') -> Xin'in Luoyang'i kendi saydigi dolayli tanik.",
+   "parcalar": [
+    {
+     "d": "qin-hanedani",
+     "f": "-0220-01-01",
+     "t": "-0206-01-01",
+     "hukum": "KAYNAKLI",
+     "uc": "",
+     "kaynak2": "Shiji 5",
+     "alinti2": "東周君與諸侯謀秦，秦使相國呂不韋誅之，盡入其國。 ‖ 秦界至大梁，初置三川郡。",
+     "not": "ULKE DUZEYI/ONCEKI DILIM: Qin alisi Zhuangxiang 1 (MO 249 = -0248). Komsu 'qin-devleti' f=-0254 ile 6 yil celisiyor (CELISKI-NOT: komsu dilim, bu turun konusu degil)."
+    },
+    {
+     "d": "(Henan Krali / Shen Yang)",
+     "f": "-0206-01-01",
+     "t": "-0204-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Shiji 7; Shiji 8",
+     "alinti2": "故立申陽為河南王，都雒陽。 ‖ 二年，漢王東略地，塞王欣、翟王翳、河南王申陽皆降。",
+     "not": "Kunye yok (devletler.js grep: henan-krallik yok) -> kunye adayi LAB'a. Han 2 '關外置河南郡' = Han idaresi."
+    },
+    {
+     "d": "bati-han",
+     "f": "-0204-01-01",
+     "t": "0009-01-10",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Shiji 8",
+     "alinti2": "於是置隴西、北地、上郡、渭南、河上、中地郡；關外置河南郡。",
+     "not": "Han 2 yil duzeyi; Han suresi (-0204..0009) icin Luoyang'a ozgu ayri tanik okunmadi."
+    },
+    {
+     "d": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-10-06",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak2": "Hou Hanshu 11",
+     "alinti2": "王莽使太師王匡、國將哀章守洛陽。 ‖ 是月，拔洛陽，生縛王匡、哀章，至，皆斬之。",
+     "not": "Luoyang Xin elinde (Xin komutanlari Wang Kuang/Ai Zhang savunuyor) ta ki Gengshi 9. ayda (Wang Mang'in oldugu ay) alana kadar. Cin ayi cevrilmedi: Academia Sinica. Atlas Xin t=0023-10-06 ile ayni ay."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0311-07-13",
+   "t": "0500-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "s": "dogu-jin",
+     "f": "0416-01-01",
+     "t": "0420-07-10",
+     "not": "Yixi 12 / 10. ay [yalniz yil; Cin ayi Academia Sinica ile cevrilecek] - Liu Yu Luoyang'i Sonraki Qin'den aldi"
+    },
+    {
+     "s": "liu-song",
+     "f": "0420-07-10",
+     "t": "0423-01-01",
+     "not": "t: Kuzey Wei Taichang 8 (423) Luoyang'a girdi - gun okunmadi"
+    },
+    {
+     "s": "kuzey-wei",
+     "f": "0423-01-01",
+     "t": "0500-01-01",
+     "not": "ONERI; yil duzeyi; Song shu 4 (423) okunmadi"
+    }
+   ],
+   "kaynak2": "Song shu 2 (Wudi ji zhong) https://zh.wikisource.org/wiki/宋書/卷2 ; Wei shu 3 (Taizong ji) https://zh.wikisource.org/wiki/魏書/卷3 ; Jin shu 5 https://zh.wikisource.org/wiki/晉書/卷005",
+   "alinti2": "十月，眾軍至洛陽，圍金墉。泓弟偽平南將軍洸請降，送于京師。 ‖ 遂至洛陽，觀石經。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Jin shu 5: Luoyang 311'de 'dustu', ama sonra 356/365/416/423 olaylari sehrin kullanimda oldugunu gosteriyor). Satir ONERI: yalniz 416 (Dong Jin f) kaynaklidir; 311-416 BOSLUK_KALIR. Hayalet denetimi: dogu-jin 0317-04-06..0420-07-10, liu-song 0420-07-10..0479-05-29, kuzey-wei 0386-01-01..0535-01-20 (devletler.js okundu); han-zhao/hou-zhao/onceki-yan/onceki-qin/sonraki-qin kunyeleri var ama sahip-sirasi okunmadigi icin onerilmedi. Degismez 2: satirdaki sahip-degisimleri icin kronoloji maddesi onerisi: 'Luoyang Liu Yu tarafindan alindi (Yixi 12/10. ay)'; 423 Kuzey Wei girisi.",
+   "parcalar": [
+    {
+     "d": "(Han-Zhao/Sonraki Zhao/Dong Jin/On Yan/On Qin/Sonraki Qin zinciri)",
+     "f": "0311-07-13",
+     "t": "0416-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Jin shu 5 (Min di / Min di biyografisi); mevcut satir notundaki Jin shu 5/8, ZZTJ 87-100, Song shu 4 izleri",
+     "alinti2": "及洛陽傾覆，避難於滎陽密縣",
+     "not": "Luoyang 311'de dustu (Jin shu 5, Min di biyografisi, yilsiz ifade) ama 312-415 arasinda sahip-gun siralamasi okunamadi: 325/356/365/416 izleri (satir notunda) gun-gun dogrulanmadi. VAR MIYDI: EVET (Jin shu: 'Luoyang tuzagi' sonrasi 356 Huan Wen, 365 Murong Ke, 416 Liu Yu'nun varisi). Uydurma sahip yazilmadi."
+    },
+    {
+     "d": "dogu-jin",
+     "f": "0416-01-01",
+     "t": "0420-07-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Song shu 2",
+     "alinti2": "十月，眾軍至洛陽，圍金墉。泓弟偽平南將軍洸請降，送于京師。",
+     "not": "Liu Yu (Dong Jin generali) Yixi 12 10. ay Luoyang/Jinyong'u aldi, Yao Hong'un kardesi Yao Guang teslim oldu. Yil basligi alinti disi (Song shu 2 Yixi 12 bolumu). Gun cevirisi yok: Academia Sinica."
+    },
+    {
+     "d": "kuzey-wei",
+     "f": "0423-01-01",
+     "t": "0500-01-01",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Wei shu 3",
+     "alinti2": "遂至洛陽，觀石經。",
+     "not": "Taichang 8 (423) Kuzey Wei hukumdari Luoyang'da; Hulao dustu. Luoyang'in Kuzey Wei'ye geciş gunu ve 423-494 arasi sahip okunmadi."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Nanking (Nanjing)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0618-01-01",
+   "t": "0620-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "",
+   "oneri_son": null,
+   "kaynak2": "Jiu Tang shu 56, https://zh.wikisource.org/wiki/舊唐書/卷56",
+   "alinti2": "時齊郡賊帥樂伯通據丹陽，為化及城守，法興使果仁攻陷之，於是據有江表十餘郡，自署江南道總管。 ‖ 後伏威遣輔公祏攻陷丹陽，進屯溧水，子通擊之，反為公祏所敗。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Danyang, Jiankang'in Sui sonrasi adi; Jiu Tang shu 56: 'Danyang'i kusattilar / aldilar'; Fu Gongshi 624'te 'Chen'in eski baskentinde saray yapti' = sehir alani yerlesik). Kaynak sirali gun vermiyor, hicbiri atlasta kunyeli degil (devletler.js grep: shen-faxing/li-zitong/du-fuwei/fu-gongshi yok) -> mevcut BEYAN dogru, BOSLUK_KALIR. Kunye adaylari LAB'a: Shen Faxing (Jiangnan Dao Zongguan, 618), Wu (Li Zitong, 619), Du Fuwei/Wu Wang. Tang f=0620 korunur (komsu).",
+   "parcalar": [
+    {
+     "d": "(Shen Faxing / Li Zitong / Du Fuwei-Fu Gongshi - hepsi kunyesiz)",
+     "f": "0618-01-01",
+     "t": "0620-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Jiu Tang shu 56",
+     "alinti2": "後伏威遣輔公祏攻陷丹陽，進屯溧水",
+     "not": "Danyang ardisik el degistiriyor: Yuwen Huaji-Le Botong -> Shen Faxing (Chen Guoren) -> Li Zitong -> Du Fuwei/Fu Gongshi; hicbirinin yili/gunu kaynakta yok."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Wenzhou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0137-01-01",
+   "t": "1281-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "dogu-jin",
+     "f": "0323-01-01",
+     "t": "0420-07-10",
+     "not": "Taining 1 = 323 [yil]; Yongjia komutanligi kuruldu"
+    }
+   ],
+   "kaynak2": "Sima Qian, Shiji 114 https://zh.wikisource.org/wiki/史記/卷114 ; Jiu Tang shu 40 https://zh.wikisource.org/wiki/舊唐書/卷40 ; Jin shu 015 https://zh.wikisource.org/wiki/晉書/卷015",
+   "alinti2": "東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。 ‖ 明帝太甯元年，分臨海立永嘉郡",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: BIRKAC EVRE: (1) -0137 sonrasi: Shiji 114 'Dongou ahalisi Jianghuai'ye tasindi' + 'Dongyue topragi bosaldi'. (2) Dong Han: JTS 40 'Dong Han Zhang'an ilcesinin Dongou xiang'ini ayirip Yongning ilcesi kurdu (Kuaiji)'. (3) 323: Yongjia komutanligi. (4) 675: Tang Wenzhou'yu kurdu (JTS 40 'Shangyuan 2'). Satir: -0137..1281 = 1418 yil, tek kaynakla dolmaz. Sadece Dong Jin parcasi KAYNAKLI; Han/Xin/Dong Han/Sun Wu/Liu Song..Tang/Wuyue/Song icin Wenzhou'ya ozgu sahip okunmadi. Sonraki adimlar: Hou Han shu 'Junguo zhi' (Kuaiji), Songshi 88 (ilgili metin okundu ama 'Wenzhou' anahtari donmedi - YOK), Xin Wudai shi 67 Wuyue shijia. ABI MERKEZ: Kuaiji/Linhai komutanlik zinciri (Han, Sun Wu) uygulanabilir ama kaynak okunmadi. Hayalet: dogu-jin 0317-04-06..0420-07-10.",
+   "parcalar": [
+    {
+     "d": "(YOK_O_DEVIRDE adayi: Dongou halki tasinmis)",
+     "f": "-0137-01-01",
+     "t": "?",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Shiji 114; Jiu Tang shu 40",
+     "alinti2": "東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。 ‖ 後漢分章安縣之東甌鄉置永寧縣，屬會稽郡。",
+     "not": "Dongou halki MO 138'de Jianghuai'ye tasindi (Jianyuan 3); Min-Zhe topragi 'bos' (東越地遂虛, MO 110). Yerlesimin yeniden kurulus tarihi (Yongning ilcesi/Dongou xiang) Dong Han'da yilsiz ifade. Siniri bilinmiyor -> kirpma onerilmedi."
+    },
+    {
+     "d": "dogu-jin",
+     "f": "0323-01-01",
+     "t": "0420-07-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Jin shu 15",
+     "alinti2": "明帝太甯元年，分臨海立永嘉郡",
+     "not": "Taining 1 = 323; Yongjia komutanligi (Wenzhou) Dong Jin'de. Yil duzeyi; Dong Jin f=0317-04-06 icinde."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Changsha": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0557-11-16",
+   "t": "0561-02-24",
+   "gorev": "BOSLUK",
+   "hukum": "BOSLUK_KALIR",
+   "uc": "t",
+   "oneri_son": null,
+   "kaynak2": "Chen shu 3 (Shizu ji), https://zh.wikisource.org/wiki/陳書/卷3 ; Bei Qi shu 32 (Wang Lin zhuan), https://zh.wikisource.org/wiki/北齊書/卷32",
+   "alinti2": "辛未，周湘州城主殷亮降，湘州平。 ‖ 琳屯兵長沙，傳檄諸方，為進趨之計。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Xiangzhou/Changsha her iki kaynakta isleyen vilayet merkezi). t=0561-02-24'u tarihleyen satir: Chen shu 3 'Zhou Xiangzhou sehir komutani Yin Liang teslim oldu' - atlas ucuyla ayni olay (gun cevirisi EMRELIC). f ve arasi: Zhou'nun sehri hangi yilda aldigi, Wang Lin'in ne zamana dek tuttugu okunmadi (ek kaynak: Zhou shu 5/6, Chen shu 'Hou Andu' veya 'Zhou Wenyu' zhuan). Uydurma yok; kuzey-zhou kunyesini yaklasiklik olarak YAZMA (mevcut beyan dogru).",
+   "parcalar": [
+    {
+     "d": "(Wang Lin - kunyesiz)",
+     "f": "0557-11-16",
+     "t": "?",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Bei Qi shu 32",
+     "alinti2": "琳屯兵長沙，傳檄諸方，為進趨之計。",
+     "not": "Wang Lin 555'ten once Xiangzhou valisi; Chen kurulusu (557) sonrasi askerleri Yingcheng'e tasidi; Changsha kimde kaldi bu kaynakta yok."
+    },
+    {
+     "d": "kuzey-zhou",
+     "f": "?",
+     "t": "0561-02-24",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak2": "Chen shu 3",
+     "alinti2": "辛未，周湘州城主殷亮降，湘州平。",
+     "not": "Zhou kuvveti (Yin Liang) Tianjia 2/1. ay xinwei'de Chen'e teslim: t kaynakli (Cin ayi gunu Academia Sinica); f (Zhou'nun Xiangzhou'yu alis tarihi) okunmadi. kuzey-zhou kunye f=0557-02-15 t=0581-03-04, hayalet yok."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Çengdu (Chengdu)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0220-01-01",
+   "t": "0025-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "oneri_son": [
+    {
+     "s": "qin-hanedani",
+     "f": "-0220-01-01",
+     "t": "-0206-01-01",
+     "not": "ULKE DUZEYI: Qin'in Ba-Shu'su"
+    },
+    {
+     "s": "(BEYAN: Han kurulusundan once ~1 yil)",
+     "f": "-0206-01-01",
+     "t": "-0205-01-01",
+     "not": "BOSLUK_KALIR"
+    },
+    {
+     "s": "bati-han",
+     "f": "-0205-01-01",
+     "t": "0009-01-10",
+     "not": "Shiji 8: Liu Bang Han Krali, Ba-Shu-Hanzhong"
+    },
+    {
+     "s": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-01-01",
+     "not": "Tianfeng 'Daojiang zu zheng' Xin gorevlisi; t yil duzeyi (Gengshi 1)"
+    },
+    {
+     "s": "chengjia-gongsun-shu",
+     "f": "0023-01-01",
+     "t": "0025-01-01",
+     "not": "Gongsun Shu Gengshi 1'de Shu komutanligini fiilen aldi; 'Shu Wang' 24 (Gengshi 2); imparator 25. Kunye f 0025-01-01 -> 0024-01-01 (ya da 0023-01-01) GENISLET, ayni polity"
+    }
+   ],
+   "kaynak2": "Shiji 8 https://zh.wikisource.org/wiki/史記/卷008 ; Hou Hanshu 13 https://zh.wikisource.org/wiki/後漢書/卷13",
+   "alinti2": "負約，更立沛公為漢王，王巴、蜀、漢中，都南鄭。 ‖ 於是自立為蜀王，都成都。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Qin'den beri Shu komutanligi merkezi; Han'da Yizhou). ALTIN KURAL: Himaye/tabilik devir degildir - Gongsun Shu'nun Gengshi'den sahte 'Han yetkisi' almasi (詐稱漢使者, Hou Hanshu 13) tabilik degil; Gengshi buraya hic hukmetmedi (Li Bao yenildi). OLCUT: idareye katma - Shu komutanligini kendi duzenine (Shu Wang, sonra Chengjia). Kunye denetimi: bati-han f=-0205-01-01 t=0009-01-10; xin-hanedani 0009-01-10..0023-10-06; chengjia-gongsun-shu f=0025-01-01 (genisletme LAB'a). MO 207=-0206, MO 206=-0205. Satir sonu f=-0206-01-01 ile -0205 arasi: Han'in Ba-Shu'yu Qin elinden aldigi donem (206 baharinda Han Krali ilani) tek dilimlik BEYAN.",
+   "parcalar": [
+    {
+     "d": "bati-han",
+     "f": "-0205-01-01",
+     "t": "0009-01-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Shiji 8",
+     "alinti2": "負約，更立沛公為漢王，王巴、蜀、漢中，都南鄭。",
+     "not": "Qin takvimi 1. ay = MO 206 = -0205. Chengdu Han Krali'nin Ba-Shu'sunda. OLCUT: idareye katma - komutanlik duzeni."
+    },
+    {
+     "d": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-01-01",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Hou Hanshu 13",
+     "alinti2": "王莽天鳳中，為導江卒正，居臨邛",
+     "not": "Daojiang = Xin'in Shu komutanligi adi; Xin gorevlisi var. Gengshi 1'de Gongsun Shu 'komutanligi koru, gercek hukumdari bekle' dedi (保郡自守) -> Xin t yil duzeyi."
+    },
+    {
+     "d": "chengjia-gongsun-shu",
+     "f": "0023-01-01",
+     "t": "0025-01-01",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak2": "Hou Hanshu 13",
+     "alinti2": "於是自立為蜀王，都成都。",
+     "not": "Alinti 'ikinci yil sonbahar' (Gengshi 2 = 24) -> 'Shu Wang' ilani. 25'te imparator: 'kurulus yili Jianwu 1/4. ay'. ic_not: Gengshi'nin Shu'ya gonderdigi Li Bao/Zhang Zhong yenildi."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0036-01-01",
+   "t": "0221-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "s": "dogu-han",
+     "f": "0036-01-01",
+     "t": "0220-12-10",
+     "not": "f yil duzeyi: Chengdu Jianwu 12/11. ayda dustu (Cin ayi, Academia Sinica); Liu Zhang 214'e dek Han valisi, Liu Bei 214'ten itibaren Han Zhongwang/Yizhou valisi = nominal Han"
+    },
+    {
+     "s": "(BEYAN: 0220-12-10 -> 0221-01-01, ~3 hafta)",
+     "f": "0220-12-10",
+     "t": "0221-01-01",
+     "not": "shu-han f=0221-01-01; Liu Bei Jianwu 5 Zhangwu 1 ilani"
+    }
+   ],
+   "kaynak2": "Hou Hanshu 18 (Wu Han zhuan) https://zh.wikisource.org/wiki/後漢書/卷18 ; Hou Hanshu 1下 https://zh.wikisource.org/wiki/後漢書/卷1下 ; Sanguozhi Shu 32 https://zh.wikisource.org/wiki/三國志/卷32",
+   "alinti2": "十二年春，與公孫述將魏黨、公孫永戰於魚涪津，大破之，遂圍武陽。 ‖ 旦日城降，斬述首傳送洛陽。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET. OLCUT: idareye katma - Dong Han Chengdu'yu Yizhou/Shu komutanligi olarak yonetti (Hou Hanshu 1下 Jianwu 18: 'Shu jun shou jiang Shi Xin pan, Wu Han Chengdu'yu kusatti' = Han komutanligi var). CELISKI-NOT (komsu): chengjia-gongsun-shu kunye t=0036-01-01 ama kaynak Jianwu 12/11. ay (Hou Hanshu 1下, 13, 18): kunye t 11 ay erken, 'GENISLET' LAB; bu satir f=0036-01-01'de kalirsa 11 ay Dong Han'a erken yazilir (Degismez 3 notu). Hayalet: dogu-han 0025-08-05..0220-12-10 (devletler.js okundu); shu-han f=0221-01-01. Bu satir ayni ile cakisan kronoloji maddesi: 'Chengdu Dong Han'a gecti (Jianwu 12/11. ay)'. 0220-12-10..0221-01-01 arasi kisa BEYAN.",
+   "parcalar": [
+    {
+     "d": "dogu-han",
+     "f": "0036-01-01",
+     "t": "0220-12-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Hou Hanshu 18; Hou Hanshu 1下",
+     "alinti2": "旦日城降，斬述首傳送洛陽。 ‖ 冬十一月戊寅，吳漢、臧宮與公孫述戰於成都，大破之。述被創，夜死。辛巳，吳漢屠成都，夷述宗族及延岑等。",
+     "not": "Jianwu 12/11. ay: Cin ayi gunu elle cevrilmedi (EMRELIC, Academia Sinica). Chengjia kunye t=0036-01-01 -> gercek dusus 11. ay (≈Aralik) 0036; kunye t ~11 ay ERKEN."
+    },
+    {
+     "d": "dogu-han (nominal)",
+     "f": "0214-01-01",
+     "t": "0220-12-10",
+     "hukum": "KAYNAKLI",
+     "uc": "",
+     "kaynak2": "Sanguozhi Shu 32",
+     "alinti2": "進圍成都數十日，璋出降。",
+     "not": "Jian'an 19/yaz: Liu Zhang Liu Bei'ye teslim; Liu Bei Han Zhongwang (219) olarak Han'a sadik -> himaye/tabilik devir degildir; dogu-han suruyor. Shu Han kunye f=0221-01-01."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0347-01-01",
+   "t": "0907-06-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "dogu-jin",
+     "f": "0347-01-01",
+     "t": "?",
+     "not": "Huan Wen Yonghe 2'de sefere cikti (346); Chengdu dususu 347 [Jin shu 98 alintisi dususu yilsiz verir; Jin shu 8 okunmadi]"
+    }
+   ],
+   "kaynak2": "Jin shu 098 (Huan Wen zhuan) https://zh.wikisource.org/wiki/晉書/卷098 ; Zhou shu 21 https://zh.wikisource.org/wiki/周書/卷21",
+   "alinti2": "永和二年 ，率眾西伐。 ‖ 惎、虔以成都降，隋文以其首謀，斬之。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Chengdu bu 560 yil boyunca Yizhou merkezi; Zhou shu 21 ve Jin shu 98 'Chengdu'yu yurutme'). Bu satir yalniz Dong Jin f=0347 ONERI. Kunye denetimi: dogu-jin 0317-04-06..0420-07-10. Qiao Zong / Liu Song / Qi / Liang / Xi Wei (553) / Zhou / Sui / Tang sirasi atlasin diger sehir zincirlerinde var (Xi'an) ama Chengdu'ya ozgu tarih okunmadi -> ABI MERKEZ yok (Chang'an ile ayni devlet zinciri olmayabilir). Kalan 347..907 BOSLUK_KALIR.",
+   "parcalar": [
+    {
+     "d": "dogu-jin",
+     "f": "0347-01-01",
+     "t": "?",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak2": "Jin shu 98",
+     "alinti2": "永和二年 ，率眾西伐。",
+     "not": "Huan Wen Cheng-Han'i Yonghe 2 seferiyle yok etti; dususun yili alintida yok (346 sefer / 347 dusus). t: bilinmiyor (Qiao Zong 405-413 'Shu' devleti kunyesiz; Liu Song/Qi/Liang/Xi Wei 553/Zhou/Sui/Tang)."
+    },
+    {
+     "d": "(Qiao Shu, Liu Song..Tang zinciri)",
+     "f": "?",
+     "t": "0907-06-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Zhou shu 21",
+     "alinti2": "惎、虔以成都降",
+     "not": "580-581 Wang Qian ayaklanmasi ve Sui'ye teslim bulundu (yilsiz alinti) ama 553 Xi Wei, 618-19 Tang gecisleri bu turda okunmadi."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Lanzhou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0618-11-30",
+   "t": "1281-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "s": "tang",
+     "f": "0618-11-30",
+     "t": "?",
+     "not": "JTS 40: Lanzhou Wude 2'de Tang'a alindi (Xue Ju kalintisini yendiler); f atlas=0618-11-30 (Xue-Qin t) ile bir yil farkli olabilir"
+    }
+   ],
+   "kaynak2": "Jiu Tang shu 40 (Dili zhi san, Longyou dao) https://zh.wikisource.org/wiki/舊唐書/卷40 ; Song shi 87 https://zh.wikisource.org/wiki/宋史/卷087 ; Jin shi 26 https://zh.wikisource.org/wiki/金史/卷26",
+   "alinti2": "蘭州 ，下，隋金城郡。隋末，陷薛舉。 武德二年 ，平賊，置蘭州。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Jincheng/Lanzhou Sui komutanligi, Tang vilayeti, Song 'Lanhui' bolgesi, Jin vilayeti). Satir 663 yil: yalnız Tang f ucu (Wude 2 yil duzeyi) ONERI; kalan BOSLUK_KALIR. Hayalet: tang 0617-12-12..0907-06-01 (devletler.js okundu). Song/Jin kunyeleri var (song, jin-hanedani) ama Lanzhou'ya ozgu devir gunu bu turda okunmadi. BORC: Song shi 87 'Lanzhou' girisinin ayni sayfasinda tarihli Wang Shao seferi (1072-73) ve Xia tahliyeleri; Jin shi 135 Xi Xia zhuan.",
+   "parcalar": [
+    {
+     "d": "tang",
+     "f": "0618-11-30",
+     "t": "?",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak2": "Jiu Tang shu 40",
+     "alinti2": "蘭州 ，下，隋金城郡。隋末，陷薛舉。 武德二年 ，平賊，置蘭州。",
+     "not": "Wude 2 = 619; atlas Xue-Qin t=0618-11-30 (Wude 1). CELISKI-NOT: kaynak yil 619 diyor, atlas 618-11-30; JTS 'ping zei' = Xue Rengao'yu yenme, 'zhi Lanzhou' = vilayet kurulusu (idari). Cin ayi cevirisi yok."
+    },
+    {
+     "d": "(Tibet/Song/Xia/Jin/Mogol zinciri)",
+     "f": "?",
+     "t": "1281-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Song shi 87; Jin shi 26",
+     "alinti2": "後得蘭州，因加「蘭會」字。 ‖ 蘭州，上，刺史。宋金城郡軍事。",
+     "not": "Song 'Xining 5 (1072) Xi-Zhou geri aldi, sonra Lanzhou' ve Jin 'Lanzhou, Song Jincheng jun junshi' - yilsiz/gunsuz; Tang..Song arasi (Tubo 8-11. yy, Xia) okunmadi."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Zhangye (Ganzhou)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0009-01-10",
+   "t": "0397-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-10-06",
+     "not": "ONERI: Zhangye'ye ozgu tanik okunmadi"
+    },
+    {
+     "s": "(Dou Rong'un Hexi 5 komutanligi, kunyesiz)",
+     "f": "0023-10-06",
+     "t": "0029-01-01",
+     "not": "BEYAN"
+    },
+    {
+     "s": "dogu-han",
+     "f": "0029-01-01",
+     "t": "0220-12-10",
+     "not": "Jianwu 5: Dou Rong Han'a baglandi, Liangzhou mu"
+    },
+    {
+     "s": "cao-wei, bati-jin, (On Liang - Zhang Gui), (On Qin), (Sonraki Liang - Lu Guang)",
+     "f": "0220-12-10",
+     "t": "0397-01-01",
+     "not": "BOSLUK_KALIR / ONERI; Jin shu 86 Zhang Gui 301 sonrasi 'Zhang'lar Hexi'ye hakim'"
+    }
+   ],
+   "kaynak2": "Hou Hanshu 23 (Dou Rong zhuan) https://zh.wikisource.org/wiki/後漢書/卷23 ; Jin shu 086 https://zh.wikisource.org/wiki/晉書/卷086",
+   "alinti2": "於是以梁統為武威太守，史苞為張掖太守，竺曾為酒泉太守，辛肜為敦煌太守，厙鈞為金城太守。 ‖ 五年夏，遣長史劉鈞奉書獻馬。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Zhangye komutanligi Han'dan; Hou Hanshu 23: Zhangye taishou). Satir 388 yil; yalniz Dong Han f=0029 (yil duzeyi) kaynakli. Xin donemi (Hanshu 99'daki 'Zhangye Xin'de Zhangye'yi yeniden adlandirdi' okunmadi), Cao Wei/Bati Jin, On Liang (Zhang Gui 301 'Zhang'lar Hexi'ye hakim oldu' Jin shu 86), 376 On Qin, 386 Sonraki Liang yerine kunye var mi: grep 'onceki-liang' YOK; kuzey-liang f=0397 komsu. ABI MERKEZ: Guzang/Wuwei (Liangzhou merkezi). OLCUT (Dong Han): idareye katma - taishou ataniyor. Hayalet: dogu-han 0025-08-05..0220-12-10.",
+   "parcalar": [
+    {
+     "d": "(Hexi Bes Komutanlik - Dou Rong, kunyesiz)",
+     "f": "0023-10-06",
+     "t": "0029-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Hou Hanshu 23",
+     "alinti2": "乃推融行河西五郡大將軍事",
+     "not": "Gengshi cokunce Hexi bes komutanligi Dou Rong'u 'Hexi bes komutanligi buyuk generali' secti; Zhangye taishou Shi Bao. Kunyesiz; kunye adayi LAB'a."
+    },
+    {
+     "d": "dogu-han",
+     "f": "0029-01-01",
+     "t": "0220-12-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Hou Hanshu 23",
+     "alinti2": "五年夏，遣長史劉鈞奉書獻馬。 ‖ 因授融為涼州牧。",
+     "not": "Jianwu 5 (29): Hexi Dong Han'a baglandi. Zhangye taishou Dong Han'da: 'Shi Bao Zhangye taishou, bao yi hou' (ayni sayfa)."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0439-01-01",
+   "t": "0894-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "s": "kuzey-wei",
+     "f": "0439-01-01",
+     "t": "0535-01-20",
+     "not": "Kuzey Wei Taiyan 5'te Liangzhou/Guzang'i aldi - Zhangye taishou kacti; sayfa penceresinde yil basligi yok"
+    },
+    {
+     "s": "tang",
+     "f": "0619-01-01",
+     "t": "?",
+     "not": "JTS 40: Wude 2'de Li Gui yenildi, Ganzhou kuruldu (yil duzeyi)"
+    }
+   ],
+   "kaynak2": "Jiu Tang shu 40 https://zh.wikisource.org/wiki/舊唐書/卷40 ; Wei shu 4上 https://zh.wikisource.org/wiki/魏書/卷4上",
+   "alinti2": "甘州 ，下，隋張掖郡。 武德二年 ，平李軌，置甘州。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Zhangye/Ganzhou komutanligi bu aralikta surekli yerlesik; JTS 40: 'Zhangye, Hun Kunye vang topragi, Han Wudi komutanlik acti; Kuzey Wei Zhangye junu kurdu' - 'Zhangye juni Kuzey Wei'de' ifadesi). Hayalet: kuzey-wei 0386..0535-01-20; tang 0617-12-12..0907-06-01. 439-0894 arasi 455 yil; Kuzey Wei sonrasi Xi Wei/Kuzey Zhou/Sui/Tang/Tubo/Guiyi zinciri okunmadi. ONERI: Tubo (tibet-imparatorlugu 0629..0842) Ganzhou'yu 8. yy sonunda aldi (JTS 196 sayfasi 'Shazhou' anahtariyla yalniz baska bolum dondu - YOK); Ganzhou Uygur f=0894.",
+   "parcalar": [
+    {
+     "d": "kuzey-wei",
+     "f": "0439-01-01",
+     "t": "0535-01-20",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Wei shu 4上",
+     "alinti2": "燒倉庫，西奔酒泉",
+     "not": "Wei shu 4上 Taiyan 5 bolumunde 'Zhangye taishou Yide depolari yakip Jiuquan'a kacti' (pencere: 掖太守宜得，燒倉庫，西奔酒泉); KUZEY LIANG t=0439-01-01 ile hizali ama Zhangye'ye ozgu f gun/yil dogrudan okunmadi."
+    },
+    {
+     "d": "tang",
+     "f": "0619-01-01",
+     "t": "?",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Jiu Tang shu 40",
+     "alinti2": "甘州 ，下，隋張掖郡。 武德二年 ，平李軌，置甘州。",
+     "not": "Wude 2 = 619 yil duzeyi; Li Gui'nin Liang'i (Guzang, 617-619) kunyesiz. Tang f=0617-12-12 hayalet degil."
+    },
+    {
+     "d": "(Bati Wei, Kuzey Zhou, Sui, Li Gui, Tubo 8-9. yy)",
+     "f": "0535-01-20",
+     "t": "0894-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "-",
+     "alinti2": "-",
+     "not": "Bati Wei/Kuzey Zhou/Sui/Tubo parcalari Zhangye'ye ozgu kaynakla bu turda okunmadi."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Dunhuang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0009-01-10",
+   "t": "0397-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "xin-hanedani",
+     "f": "0009-01-10",
+     "t": "0023-10-06",
+     "not": "Dunhuang'a ozgu Xin tanigi okunmadi"
+    },
+    {
+     "s": "(Dou Rong Hexi 5 komutanligi)",
+     "f": "0023-10-06",
+     "t": "0029-01-01",
+     "not": "BEYAN; Xin Tong Dunhuang taishou"
+    },
+    {
+     "s": "dogu-han",
+     "f": "0029-01-01",
+     "t": "0220-12-10",
+     "not": "KAYNAKLI"
+    },
+    {
+     "s": "cao-wei",
+     "f": "0220-12-10",
+     "t": "0266-02-08",
+     "not": "Taihe (227-233) Dunhuang taishou Cang Ci"
+    },
+    {
+     "s": "(Bati Jin 266-301; On Liang-Zhang Gui 301-376; On Qin 376-386; Sonraki Liang-Lu Guang 386-397)",
+     "f": "0266-02-08",
+     "t": "0397-01-01",
+     "not": "BOSLUK_KALIR / ONERI"
+    }
+   ],
+   "kaynak2": "Hou Hanshu 23 https://zh.wikisource.org/wiki/後漢書/卷23 ; Sanguozhi Wei shu 16 https://zh.wikisource.org/wiki/三國志/卷16 ; Jin shu 086 .../晉書/卷086 ; Jin shu 087 .../晉書/卷087",
+   "alinti2": "於是以梁統為武威太守，史苞為張掖太守，竺曾為酒泉太守，辛肜為敦煌太守，厙鈞為金城太守。 ‖ 太和中，迁敦煌太守。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Dunhuang komutanligi). Jin shu 87 (Li Hao): 'Lu Guang sonunda Duan Ye Liangzhou muyu oldu, Dunhuang taishou Meng Min'i Shazhou cishi yapti' -> komsu kuzey-liang 397-400 dilimini Dunhuang icin destekler (satirin disinda). Satir ONERI, cogu dilim BOSLUK_KALIR. Hayalet: dogu-han 0025-08-05..0220-12-10, cao-wei 0220-12-10..0266-02-08, kuzey-liang 0397..0439. OLCUT: idareye katma - her iki devir de taishou atamasi. Cin yili 227-233 Taihe: yil duzeyi, gun yok.",
+   "parcalar": [
+    {
+     "d": "(Hexi Bes Komutanlik - Dou Rong)",
+     "f": "0023-10-06",
+     "t": "0029-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "Hou Hanshu 23",
+     "alinti2": "辛肜為敦煌太守",
+     "not": "Dunhuang taishou Xin Tong, Dou Rong'un Hexi birliginde; kunyesiz."
+    },
+    {
+     "d": "dogu-han",
+     "f": "0029-01-01",
+     "t": "0220-12-10",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Hou Hanshu 23",
+     "alinti2": "五年夏，遣長史劉鈞奉書獻馬。 ‖ 因授融為涼州牧。",
+     "not": "Jianwu 5 (29): Hexi (Dunhuang dahil) Dong Han'a baglandi."
+    },
+    {
+     "d": "cao-wei",
+     "f": "0220-12-10",
+     "t": "0266-02-08",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Sanguozhi 16 (Wei shu)",
+     "alinti2": "太和中，迁敦煌太守。",
+     "not": "Cang Ci Taihe (227-233) Dunhuang taishou = Cao Wei idaresi; Dunhuang 'sangluan yuzunden 20 yil taishousuz' -> 200-227 arasi fiilen yerel buyuk aileler (kunyesiz)."
+    },
+    {
+     "d": "(On Liang - Zhang Gui)",
+     "f": "0301-01-01",
+     "t": "0376-01-01",
+     "hukum": "ONERI",
+     "uc": "",
+     "kaynak2": "Jin shu 86",
+     "alinti2": "至是，張氏遂霸河西。",
+     "not": "Zhang Gui Liangzhou valisi Yongning 1 (301) ve Zhang'lar Hexi'de; 'onceki-liang' kunyesi YOK -> LAB. Dunhuang'a ozgu: Zhang Jun 'Huang Bin'i Dunhuang taishou yapti' (Jin shu 86)."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0400-01-01",
+   "t": "0423-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "s": "xi-liang-li-gao",
+     "f": "0400-01-01",
+     "t": "0421-01-01",
+     "not": "kunye t=0421-01-01 ile hizali"
+    },
+    {
+     "s": "xi-liang-li-gao (Li Xun, Dunhuang kalintisi) / kuzey-liang",
+     "f": "0421-01-01",
+     "t": "0423-01-01",
+     "not": "ONERI: Dunhuang Taichang (416-423) icinde Juqu Mengxun'a dustu; kesin yil Wei shu 99'da yok; kunye t genisletilirse xi-liang, aksi halde kuzey-liang"
+    }
+   ],
+   "kaynak2": "Jin shu 087 (Liang Wuzhao wang Li Xuansheng zhuan) https://zh.wikisource.org/wiki/晉書/卷087 ; Wei shu 99 https://zh.wikisource.org/wiki/魏書/卷99",
+   "alinti2": "隆安四年 ，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公、領秦涼二州牧、護羌校尉。 ‖ 歆弟敦煌太守恂復自立于敦煌，稱冠軍將軍、涼州刺史。蒙遜攻恂于敦煌，三面起堤，以水灌城。恂請降，不許。城陷，恂自殺，蒙遜克敦煌。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET. Jin shu 87: Dunhuang, Li Hao'nun kurulus merkezi (Liang Gong). Xi-Liang kunyesi devletler.js'te 'xi-liang-li-gao' (f=0400-01-01 t=0421-01-01, baskent 'Dunhuang->Jiuquan->Dunhuang') OLARAK VAR; satirdaki 'bati-liang ID'si yok' beyani ESKI - xi-liang-li-gao ayni polity (Li Hao, devletler.js okundu). Hayalet yok. Astronomik yil: CE yillari duz. Notta: Jin shu 87 'Longan 4' ve 'jian nian wei Gengzi' yil duzeyi, gun yok.",
+   "parcalar": [
+    {
+     "d": "xi-liang-li-gao",
+     "f": "0400-01-01",
+     "t": "0421-01-01",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak2": "Jin shu 87",
+     "alinti2": "隆安四年 ，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公、領秦涼二州牧、護羌校尉。",
+     "not": "Longan 4 = 400; 'jian nian wei geng zi' (庚子, 400). Li Hao Dunhuang'ta; 405'te Jiuquan'a tasindi, Dunhuang'i oglu Li Rang'a birakti (ayni sayfa: '與其子敦煌太守讓鎮敦煌，遂遷居於酒泉'). OLCUT: idareye katma - Dunhuang taishou ataniyor, ayri 'Liang' eyaleti."
+    },
+    {
+     "d": "(Li Xun / Xi-Liang kalintisi -> kuzey-liang)",
+     "f": "0421-01-01",
+     "t": "0423-01-01",
+     "hukum": "ONERI",
+     "uc": "t",
+     "kaynak2": "Wei shu 99",
+     "alinti2": "歆弟敦煌太守恂復自立于敦煌，稱冠軍將軍、涼州刺史。蒙遜攻恂于敦煌，三面起堤，以水灌城。恂請降，不許。城陷，恂自殺，蒙遜克敦煌。",
+     "not": "Dususun yili yok ('泰常中' = 416-423). Atlas t=0423-01-01 gun/yil okunamadi. xi-liang kunye t=0421-01-01 -> Li Xun'u Xi-Liang devami sayarsak kunye genisletilir."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0423-01-01",
+   "t": "0851-01-01",
+   "gorev": "BOSLUK",
+   "hukum": "ONERI",
+   "uc": "",
+   "oneri_son": [
+    {
+     "s": "kuzey-liang",
+     "f": "0423-01-01",
+     "t": "0439-01-01",
+     "not": "Dunhuang dususu Taichang (416-423) icinde; Kuzey Wei Taiyan 5 (439) Liangzhou"
+    },
+    {
+     "s": "(Kuzey Wei 439-535 [kuzey-wei], Bati Wei 535-557, Kuzey Zhou, Sui)",
+     "f": "0439-01-01",
+     "t": "0620-01-01",
+     "not": "ONERI / BOSLUK_KALIR; 442-444 Juqu Wuhui kesintisi"
+    },
+    {
+     "s": "tang",
+     "f": "0620-01-01",
+     "t": "0786-01-01",
+     "not": "JTS 40: Shazhou Wude 2 Guazhou; Tubo 786?: okunmadi"
+    },
+    {
+     "s": "(Tubo 786-848)",
+     "f": "0786-01-01",
+     "t": "0848-01-01",
+     "not": "BOSLUK_KALIR"
+    }
+   ],
+   "kaynak2": "Wei shu 99 https://zh.wikisource.org/wiki/魏書/卷99 ; Jiu Tang shu 40 https://zh.wikisource.org/wiki/舊唐書/卷40",
+   "alinti2": "泰常中，蒙遜克李歆，尋滅敦煌。 ‖ 沙州 ，下，隋燉煌郡。 武德二年 ，置瓜州。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "not": "VAR MIYDI: EVET (Dunhuang/Shazhou surekli yerlesik; JTS 40: 'Dunhuang, Han komutanligi...'). CELISKI-NOT: komsu guiyi-jun-dunhuang satiri f=0851-01-01 iken devletler.js guiyi-jun-dunhuang f=0848-01-01; bu satirin t'si 3 yil gec. Hayalet denetimi: kuzey-liang 0397..0439, kuzey-wei 0386..0535-01-20, tang 0617-12-12..0907-06-01, tibet-imparatorlugu 0629..0842 (devletler.js okundu). 423-851 satiri 428 yil; yalniz kuzey-liang ve tang f uclari yil duzeyi ONERI; geri kalan BOSLUK_KALIR. Degismez 2 not: 'Dunhuang Kuzey Liang'a gecti (Taichang)'; 'Tubo Shazhou'yu aldi (786?)' kronoloji maddesi onerisi KASA'ya.",
+   "parcalar": [
+    {
+     "d": "kuzey-liang",
+     "f": "0423-01-01",
+     "t": "0439-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak2": "Wei shu 99",
+     "alinti2": "泰常中，蒙遜克李歆，尋滅敦煌。",
+     "not": "Taichang (416-423) icinde; f 0423'ten onceye cekilebilir (Xi-Liang t / Dunhuang sonu). t=kunye 0439-01-01."
+    },
+    {
+     "d": "tang",
+     "f": "0619-01-01",
+     "t": "?",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak2": "Jiu Tang shu 40",
+     "alinti2": "沙州 ，下，隋燉煌郡。 武德二年 ，置瓜州。",
+     "not": "Tang Dunhuang'ta Wude 2'de Guazhou vilayeti kurdu (yil duzeyi); Dunhuang'in Sui sonrasi (Li Gui?) durumu okunmadi."
+    },
+    {
+     "d": "(Tubo, Guiyi)",
+     "f": "0786-01-01",
+     "t": "0851-01-01",
+     "hukum": "BOSLUK_KALIR",
+     "uc": "",
+     "kaynak2": "-",
+     "alinti2": "-",
+     "not": "Tibet fethi (781-786) JTS 196 sayfasi 'Shazhou' anahtariyla yalniz baska bolum dondurdu (YOK); Guiyi Jun kunye f=0848-01-01 (devletler.js) ama satir komsu dilim f=0851-01-01: 848-851 aralik CELISKI-NOT."
+    }
+   ],
+   "_parti": "db_ra_005.json"
+  }
+ ],
+ "Banpo (Yangshao, Banpo evresi)": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_dogu_asya.js:14",
+   "alan": "s",
+   "d": "yangshao",
+   "f": "-4799-01-01",
+   "t": "-4299-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Parti dosyası: dönem kaynaklı (Liu X., Reid R. 2020, PLOS ONE, Tablo 1; doi:10.1371/journal.pone.0240930)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynaklı dönem doğrulandı: tablo satırı Banpo için Yangshao, 4800–4300 (cal BC) veriyor; MÖ 4800 = -4799, MÖ 4300 = -4299, atlas değerleriyle birebir. [kalibre, yaklaşık, aralık] — yüzyıl düzeyi; tarih uydurma yok. Hayalet devlet denetimi: devletler.js yangshao f=-4999-01-01, t=-2899-01-01; dönem bu aralığın içinde, künye aşımı yok. Tek dönem, çakışma/delik/sıfır uzunluk yok. Uyarı: devletler.js yangshao kaydı kendi notunda 5000-2900 (Sun vd. 2025) ile 5000-2700 (Xiong vd. 2025) çelişkisini beyan ediyor; bu satırı etkilemez. Ad: koordinat Xi'an Banpo ile uyumlu. İkinci bağımsız kaynak: UNESCO adaylık sayfası denendi, zaman aşımı; bulunamadı. Önceki BAKILMADI hükmü KAYNAKLI'ya çevrildi. Küçük düzeltme önerisi: mevcut kaynak metnindeki 'Tablo 1' etiketi yanlış görünüyor; PLOS Tablo 1 MÖ 5000 öncesi verileri, Banpo Tablo 2 (5000-2000) içindedir (satır 'Banpo 20 A Shaanxi Yangshao 4800–4300'). KASA kaynak alanında 'Tablo 2' yazabilir (tablo numarasını ham metinde başlıktan çıkardım; hücreyi görsel doğrulamadım).",
+   "gorev": "TEYIT",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "-4799-01-01",
+    "t": "-4299-01-01",
+    "d": "yangshao"
+   },
+   "kaynak2": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, doi:10.1371/journal.pone.0240930, Tablo 2 (5000-2000 cal BC arası insan C/N izotop verileri); ham metin Europe PMC fullTextXML PMC7641357 (https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7641357/fullTextXML)",
+   "alinti2": "Banpo 20 A Shaanxi Yangshao 4800–4300 9.1 - -15.0 - 1 [ 42 ]",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_026.json"
+  }
+ ],
+ "Eridu (Abu Shahrain)": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Lugalzagesi'nin unvanları Eridu'nun da onu tanıdığını gösterir (Eresh, Eridu, Kesh) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 88 | http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sall",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR MI: evet. ARCANE III Eridu'yu Arkaik Ur şehir mühürlerinde (Ur, Uruk, Larsa, Nippur, Kesh ile) sayar ve Lugalzagesi'nin Eridu tarafından tanındığını yazar; Pleiades 'ca. MÖ 5300'den beri iskân' (atlas not'u). SAHİP: kaynak 'tanındı' diyor, Uruk/Umma/Larsa/Ur/Nippur gibi 'ruled' demiyor → tâbilik/tanıma devir değildir; bu yüzden KAYNAKLI değil ONERI + beyanlı yaklaşıklık. ABİ MERKEZ: Uruk (Lugalzagesi krallığı merkezi). Astronomik yıl: ca. MÖ 2324 → -2323, ca. MÖ 2300 → -2299 [yaklaşık ±30, orta kronoloji]. Sargon'un Babil'deki başlangıcı ca. 2300 (Tablo 39) — Umma satırındaki akad f=-2299 ile uyumlu.",
+   "gorev": "BOSLUK",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "uruk-erken-hanedan",
+    "f": "-2323-01-01",
+    "t": "-2299-01-01",
+    "beyan": "BEYANLI YAKLASIKLIK: Eridu Lugalzagesi'yi TANIDI (tabi/tanıyan), doğrudan idaresi belgeli değil"
+   },
+   "kaynak2": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Orta Kronoloji=MC), s. 86-88, Tablo 39 s. 136; http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf (Eridu: şehir mührü listesinde ve Lugalzagesi unvanlarında geçer)",
+   "alinti2": "His titles also indicate that he was recognized by Eresh, Eridu and Kesh. / Lugalzagesi of Uruk 25 years ca. 2324-2300 ±30",
+   "dogrusu": "Künye `uruk-erken-hanedan` t=-2333-01-01 bu dilimi KAPSAMIYOR: önerilen s: bu haliyle HAYALET devlet olur. Önce künye t'si -2299'a genişletilmeli (LAB) — ya da Treccani (Lugalzagesi öl. ~2335) ile ARCANE MC (2324-2300) kronoloji çelişkisi karara bağlanmalı.",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Umma (Tell Jokha)": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): sahip kaynakta \"Lugalzagesi krallığı (Uruk-Umma)\" ama künyesi yok → boşluk (kimsenin değil DEĞİL; künye açılınca doldurulur). Umma valisi Lugalzagesi, Uruk kralı olarak Umma, Uruk, Larsa, Ur ve Nippur'u tek krallıkta birleştirir; saltanatı ca. 2324-2300 (±30, MC) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 86-88; Tablo 39 s. 136 | http://w",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Umma, Lugalzagesi'nin kendi şehri; satırın önceki/sonraki dilimleri de kaynaklı). SAHİP: Lugalzagesi Umma valisi iken Uruk kralı oldu ve Umma'yı Uruk-Umma krallığına kattı. 'Lugalzagesi ruled Umma with its cultic centres Zabalam and Ki.an and the Sumerian cult centres Uruk, Larsa, Ur, and Nippur' (ARCANE s. 87). Umma'nın kendi künyesi (`umma-erken-hanedan` t=-2333) da aynı sorunu taşır; Lugalzagesi 'Uruk kralı' olduğu için `uruk-erken-hanedan` seçildi. MC 2324 → -2323; 2300 → -2299 [yaklaşık].",
+   "gorev": "BOSLUK",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "uruk-erken-hanedan",
+    "f": "-2323-01-01",
+    "t": "-2299-01-01",
+    "aralik": "[yaklaşık ±30; orta kronoloji]"
+   },
+   "kaynak2": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Orta Kronoloji=MC), s. 86-88, Tablo 39 s. 136; http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+   "alinti2": "Lugalzagesi began as a governor of Umma (see 5.2. sub (11)), later became king of Uruk and as such was entered in the Sumerian King List as the as the only ruler of the Uruk III dynasty with a reign of 25 years. / Lugalzagesi of Uruk 25 years ca. 2324-2300 ±30 ca. 2316-2292±30",
+   "dogrusu": "Künye `uruk-erken-hanedan` t=-2333-01-01 bu dilimi kapsamıyor → künye t'si -2299'a genişletilmeden s: yazılırsa hayalet devlet olur (LAB). Treccani Dizionario di Storia (künyenin kaynağı) Lugalzagesi'yi ~2359-2335 verir; ARCANE MC 2324-2300 → iki kronoloji, atlas orta kronolojiyi esas alır (CLAUDE.md Antik konvansiyonu).",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_mo_sumer.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2153-01-01",
+   "t": "-2109-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Akad İmparatorluğu\" sahibini -2109-01-01'a dek veriyor ama künye t=-2153-01-01 → künye sonrası boşluk",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Umma valileri Nammahni, Lugalanatum Guti dönemine ait yazıtlarla belgeli). SAHİP: Guti kralının tâbisi/vasalı; 'Himaye ve tâbilik devir değildir' kuralı gereği `s: gutium` yerine `v:`/beyanlı yaklaşıklık. Kaynak 35 yıllık bir bağımsızlığı da anar (Dudu-Şudurul dönemi ile örtüşebilir) → ucun tam günü/yılı TARİHLENMEDİ (gutium künyesi -2153..-2111, ARCANE'de uçlar yok). Gutium künyesi t=-2111 olduğundan ur-3 satırı -2111'e çekilebilir (-2111..-2109 iki yıllık dilim: Frayne 2112 vs Sallaberger MC 2110 konvansiyon farkı; notta beyan). Hayalet denetimi: gutium -2153..-2111 ve ur-3 -2111.. künye içinde.",
+   "gorev": "BOSLUK",
+   "uc": "f+t",
+   "oneri_son": [
+    {
+     "d": "gutium",
+     "f": "-2153-01-01",
+     "t": "-2111-01-01",
+     "v": "Gutium'a TABİ şehir devleti (overlord); beyanlı yaklaşıklık"
+    },
+    {
+     "d": "ur-3",
+     "f": "-2111-01-01",
+     "t": "-2109-01-01",
+     "not_": "künye konvansiyonu (Frayne 2112); satırın ur-3 f=-2109 Sallaberger MC 2110"
+    }
+   ],
+   "kaynak2": "Sallaberger & Schrakamp 2015, ARCANE III, s. 119 (§8.4.2 Umma; RIME 2.11.12.1, 2.11.13.1); URL: bkz. Eridu satırı",
+   "alinti2": "Both Nammahni and Lugalanatum recognized the king of Gutium as overlord ( RIME 2.11.12.1, RIME 2.11.13.1, see above). / In conclusion, after its Akkadian period Umma was a city state under the dominion of the Dynasty of Gutium and, at a time before Tirigan, it had apparently enjoyed 35 years of independence.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Ye": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_dogu_gd_asya.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0313-01-01",
+   "t": "0335-09-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI: 0313-01-01–0335-09-01 arası sahip YAZILMADI: önceki dilim (bati-jin) kaynaklı olarak 0313-01-01'te biter, sonraki dilim (hou-zhao) 0335-09-01'te başlar; aradaki dilim için bu pakette (ASYA-ZINCIR-1024) kaynak okunmadı/bulunamadı. Boşluk komşuya İTİLMEDİ (VERI-YAPISI __BOSLUK__ kuralı); BORÇ: bu dilim için TDV ve ardıl kaynak taraması. · ASYA-ZINCIR-1024",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Ye, Wei Jun merkezi, Üç Teras/三臺). f ucu: Jianxing 1 = 313 → Jin'in (Liu Yan) Ye'den çıkışı ve Shi Le'nin yerleşmesi; satır f=0313-01-01 YIL düzeyinde uyumlu (gün çevrilmedi; Jianxing 1 ay/gün Academia Sinica ile EMRELİC'te). SAHİP belirsizliği: 313'te Shi Le henüz bağımsız değil, Liu Cong'un Han-Zhao'su adına general ('及元海僭號，遣使授勒持節、平東大將軍'); Zhao krallığı 319 (hou-zhao f). Tâbilik/özerklik devir sayılmaz → han-zhao + hou-zhao BEYANLI. 335-09 (Shi Hu'nun başkenti Ye'ye taşıması) satırın sonraki dilimiyle uyumlu. Hayalet: han-zhao 0304-0329, hou-zhao 0319-0351 künye içinde. Değişmez 2: 313 geçişi için kronoloji maddesi önerisi: 'Shi Le/Shi Hu Ye'yi Jin'den aldı' (Jin shu 104; yıl hassasiyeti).",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "han-zhao",
+     "f": "0313-01-01",
+     "t": "0319-01-01",
+     "beyan": "Shi Le Han-Zhao generali olarak Ye'yi aldı; beyanlı yaklaşıklık"
+    },
+    {
+     "d": "hou-zhao",
+     "f": "0319-01-01",
+     "t": "0335-09-01",
+     "beyan": "hou-zhao künyesi f=0319-01-01 (Jin shu 105); Ye'ye özgü tanık yok"
+    }
+   ],
+   "kaynak2": "Fang Xuanling vd., Jin shu 104 (Shi Le zaiji shang), zh.wikisource.org/wiki/晉書/卷104",
+   "alinti2": "建興元年，石季龍攻鄴三臺，鄴潰，劉演奔于稟丘 / 勒以石季龍為魏郡太守，鎮鄴三臺",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Jingzhou (Jiangling)": [
+  {
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0277-01-01",
+   "t": "-0205-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI: -0277-01-01–-0205-01-01 arası sahip YAZILMADI: önceki dilim (chu-devleti) kaynaklı olarak -0277-01-01'te biter, sonraki dilim (linjiang-krallik) -0205-01-01'te başlar; aradaki dilim için bu pakette (ASYA-ZINCIR-1024) kaynak okunmadı/bulunamadı. Boşluk komşuya İTİLMEDİ (VERI-YAPISI __BOSLUK__ kuralı); BORÇ: bu dilim için TDV ve ardıl kaynak taraması. · ASYA-ZINCIR-1024",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Ying/Jiangling bölgesi, Nan Komutanlığı merkezi). Qin Zhaoxiang 29. yıl (MÖ 278 → -0277) Ying'in alınması ve Nan Komutanlığı'na dönüştürülmesi chu-devleti t=-0277 ile uyumlu (f ucu yıl düzeyinde). Yıl çevirisi Shiji tablosundan değil künye uyumundan; gün çevrilmedi. ÖLÇÜT: idareye katma — Nan Komutanlığı (idarî birim). Qin'in birleşme öncesi ve sonrası künyeleri: qin-devleti -0769..-0220, qin-hanedani -0220..-0206 (hayalet yok). -0206..-0205 arası künye boşluğu satırın Linjiang f=-0205 ile 1 yıl açık; BOSLUK_KALIR. Linjiang'ın alınışı/Han: sonraki dilimler bu satırın konusu değil.",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "qin-devleti",
+     "f": "-0277-01-01",
+     "t": "-0220-01-01"
+    },
+    {
+     "d": "qin-hanedani",
+     "f": "-0220-01-01",
+     "t": "-0206-01-01"
+    },
+    {
+     "d": "__BOSLUK__",
+     "f": "-0206-01-01",
+     "t": "-0205-01-01",
+     "not_": "künyeler arası 1 yıllık boşluk (qin-hanedani t=-0206, linjiang-krallik f=-0205); Xiang Yu bölüşümü"
+    }
+   ],
+   "kaynak2": "Sima Qian, Shiji 5 (Qin benji), zh.wikisource.org/wiki/史記/卷005",
+   "alinti2": "二十九年，大良造白起攻楚，取郢為南郡，楚王走。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Camulodunum (Colchester)": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0410-01-01",
+   "t": "0880-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Colchester'ın 410-880 sahibi için tarihli tanık yok (Essex krallığı essex 527-825 Colchester'ı adıyla anmaz; ASC 823/825 Essex'in Wessex'e teslimi şehir adı vermez). Aranan: ASC (Ingram), Bede HE, Stenton, Historic England Colchester.",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet — Crummy: Colchester Saksonlar döneminde iskân edildi (Lion Walk kulübeleri). 410-527: sahip kaynakta yok → BOSLUK_KALIR (dönemin ilk kısmı). Orta Sakson (yaklaşık 7.-9. yy) Essex içinde: KAYNAKLI sınıfı ama uçlar tarihlenmedi → ONERI. Essex künyesi f=0527/t=0825 'gelenek' (Oxford Companion: erken 7. yy'da mevcut); satır f için 527 kullanılırsa beyan şart. 825 için EB1911 dayanaklı künye notu var; ASC 825 Essex'in teslimi şehir adı vermez (atlas beyanı). ASC 917 (Colchester'in alınışı) satırın t=0880 sonrası (danelaw dilimi) ile ilgili değil. Hayalet: essex 527-825, wessex 519-927 künye içinde.",
+   "gorev": "BOSLUK",
+   "uc": "",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "0410-01-01",
+     "t": "0527-01-01",
+     "not_": "Roma sonrası; sahip yok (BOSLUK_KALIR) — yerleşim var"
+    },
+    {
+     "d": "essex",
+     "f": "0527-01-01",
+     "t": "0825-01-01",
+     "beyan": "BEYANLI YAKLAŞIKLIK: Crummy yalnız 'Orta Sakson dönemi'nde Doğu Saksonlar krallığı der; künye f=527 gelenek"
+    },
+    {
+     "d": "wessex",
+     "f": "0825-01-01",
+     "t": "0880-01-01",
+     "beyan": "Essex'in Wessex'e katılışı (künye ic_not, EB11 dayanaklı); Colchester'a özgü tanık okunmadı"
+    }
+   ],
+   "kaynak2": "Crummy, P. 1981, Aspects of Anglo-Saxon and Norman Colchester, CBA Research Report 39, giriş ve s. (Orta Sakson çömlek) — https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-281-1/dissemination/pdf/cba_rr_039.pdf",
+   "alinti2": "Although only eighteen miles apart, the marked contrast in ceramic assemblages between Colchester and Ipswich over the middle Saxon period must be primarily related to the fact that Colchester lay in the kingdom of the East Saxons rather than in East Anglia. / The discovery at Lion Walk in 1972 of two Anglo-Saxon huts, at least one of which was clearly of post-Roman date, proved that Colchester was inhabited during the early Saxon period",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Gascoyne & Radford 2013, Colchester: Fortress of the War God (Oxbow/OAPEN) — OAPEN 403 verdi; 410-916 bölümü okunamadı"
+   ],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Gordion": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0737-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Hitit çöküşü (MÖ ~1200) ile Frig krallığının Gordion’da görünmesi (c. MÖ 9.-8. yy) arası siyasî sahip kaynakta belirtilmemiş (yerel Geç Tunç/Erken Demir yerleşimi; Kealhofer vd. 2019). · ZINCIR-ANADOLU-KIBRIS-1029",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Penn Museum: Erken Demir Çağı yerleşimi ca. 1200-950, hiatus yok, Geç Tunç tabakasının doğrudan üstünde). Hitit kopuşu sonrası 'Iron Age successor states' doğdu ama Gordion'un siyasî sahibi için kaynak 'there are no historical texts to tell us who they were' diyor → 1199..949 BOSLUK_KALIR. 950-800 Erken Frigya = Frig devletinin oluşumu (ONERI; dönem ucu yaklaşık). Astronomik: MÖ 950 → -0949 [yaklaşık]. ÖNEMLİ: 'Iron Age successor states' cümlesi Hitit t=-1199'a (künye -1179) uygundur.",
+   "gorev": "BOSLUK",
+   "uc": "f",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "-1199-01-01",
+     "t": "-0949-01-01",
+     "not_": "Erken Demir Çağı; siyasî sahip yok (BOSLUK_KALIR)"
+    },
+    {
+     "d": "frigya",
+     "f": "-0949-01-01",
+     "t": "-0737-01-01",
+     "beyan": "Erken Frigya dönemi: 'Phrygian state' ortaya çıkışı; künye f=-0737 → -0949'a genişletilmeli (LAB)"
+    }
+   ],
+   "kaynak2": "Penn Museum, Gordion Project, 'Iron Age Gordion' (Voigt & Henrickson 2000, Anatolian Studies 50; Sams 2005'e dayanır) — https://www.penn.museum/sites/gordion/history/iron-age-gordion/",
+   "alinti2": "After a relatively modest Early Iron Age phase that may mark the beginning of Phrygian settlement on the Citadel Mound at Gordion (ca. 1200–950 BCE), the site took on a truly monumental character during the Early Phrygian period (ca. 950-800 BCE), indicating the emergence of a Phrygian state.",
+   "dogrusu": "Frigya künyesi f=-0737-01-01: -0949'a çekilmeden s: frigya -0949..-0737 HAYALET devlet olur (Midas dönemi ozeti c. MÖ 738; Erken Frigya devleti Penn'e göre 950'den).",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Mari": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2294-01-01",
+   "t": "-1760-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-2294-01-01 … -1760-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet (Mari yıkımdan sonra da iskânlı, şakkanakku başkenti). f ucu (Mari yıkımı ca. MÖ 2295 → -2294 [yaklaşık ±30, MC]) ARCANE ile tarihli; şakkanakku dönemi 'Akad yıkımından Yahdunlim'e'. t ucu: ARCANE Yagidlim/Yahdunlim'i MC 1801-1794 verir, künye mari-lim f=-1809 (Colonna d'Istria JCS 72, ca. 1820/1810) → ~8 yıllık KRONOLOJİ FARKI (CELISKI, atlas künyeyi korur). Hammurabi'nin Mari yıkımı (-1760) bu kaynakta yok; mari-lim künyesinin kaynağı Enciclopedia dell'Arte Antica (yalnız yüzyıl). Akad/Ur III dönemlerinde şakkanakkular Akad ve Ur III 'valisi' (Treccani) — künye mari-sakkanakku ozetinde beyan edilmiş; ayrıca `akad` s: ile çakışma için satır beyanlı kalmalı.",
+   "gorev": "BOSLUK",
+   "uc": "f+t",
+   "oneri_son": [
+    {
+     "d": "mari-sakkanakku",
+     "f": "-2294-01-01",
+     "t": "-1809-01-01",
+     "beyan": "künye f=-2219 → -2294'e genişletilmeli (LAB); mari-erken t=-2219 de -2294'e çekilmeli (Sargon/Naram-Sin çelişkisi künyede beyanlı)"
+    },
+    {
+     "d": "mari-lim",
+     "f": "-1809-01-01",
+     "t": "-1760-01-01"
+    }
+   ],
+   "kaynak2": "Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Orta Kronoloji=MC), s. 86-88, Tablo 39 s. 136; http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf (§2.4 Shakkanakku List; §6.5 Destruction of Mari; Tablo 39)",
+   "alinti2": "The rulers of Mari (Hariri) on the Euphrates were entitled “ šakkanakkum (written kiš.nita (2)) of Mari”, in the long period after the Akkadian destruction and before kings Yagidlim and Yahdunlim (MC 1801-1794). / destruction of Mari ca. 2295±30 ca. 2287±30",
+   "dogrusu": "mari-sakkanakku künyesi f=-2219-01-01: -2294'ten başlayan s: bu haliyle HAYALET olur. Önce künye f genişletilmeli ve mari-erken t'si -2294'e indirilmeli (LAB) — ARCANE (MC) Mari II yıkımını Sargon'un erken yıllarına (ca. 2295) koyar; künye t=-2219 Naram-Sin/WHE'ye dayanır.",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Pasargad": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0322-06-10",
+   "t": "-0279-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): kaynak \"Makedon/Seleukos denetimi\" sahibini -0279-01-01'a dek veriyor ama künye t=-0322-06-10 → künye sonrası boşluk",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet — Iranica: Tall-i Takht üzerindeki yapı kullanımda kaldı; 'storehouse' İskender'e teslim edildi (330); Selevkos dönemine ait yol taşı (Bivar 1978) ve iki sikke definesi. t ucu: ayaklanma Selevkos I'in ölümünden (280 BCE → -0279) sonra; satır t=-0279-01-01 ile UYUMLU (uc t; yıl düzeyi). 'Fratadara (c. 280-180 BCE)' hanedanı sonrası Persis için künye YOK (künye adayı LAB'a: `fratarakalar`/Persis). f tarafında -0322..-0311 sahip kaynakta yok. Iranica ölüm yılı 280 verir (Selevkos I'in ölümü genelde 281); satır t=-0279 Iranica'ya göre.",
+   "gorev": "BOSLUK",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "-0322-06-10",
+     "t": "-0311-01-01",
+     "not_": "Diadokhlar dönemi; Persis sahibi bu kaynaklarda yok (BOSLUK_KALIR)"
+    },
+    {
+     "d": "selevkos",
+     "f": "-0311-01-01",
+     "t": "-0279-01-01",
+     "beyan": "BEYANLI: 'Greek control' + Selevkos dönemi yol taşı; Persis'te Selevkos I'in 312'deki hakimiyeti kaynakla okunmadı"
+    }
+   ],
+   "kaynak2": "Encyclopaedia Iranica, 'PASARGADAE' (D. Stronach), https://www.iranicaonline.org/articles/pasargadae/",
+   "alinti2": "it is likely to have remained under Greek control down to the moment of a local uprising that followed the death of Seleucus I in 280 BCE",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Diodoros XIX / Persis diadokh dönemi (Peukestas 321-316, Antigonos 316-312): Iranica 'PERSIS' ya da CAH VI okunamadı"
+   ],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Chavín de Huántar": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_amerika.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0899-01-01",
+   "hukum": "YOK_O_DEVIRDE",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): bu aralıkta nokta var (kur: ilk tarihli kanıt) ama sahibi künye kapsamının dışında — sahip kavramı yok / kaynak sessiz; bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak bu aralık için sahip vermiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM O DEVİRDE YOK: Burger 2019 (AMS) Urabarriu evresi 950-800 cal BC; yer ca. MÖ 950'de kuruldu → -0949. -1199..-0949 arası yerleşim yok; dönem kırpılır, toprak komşu peteklere kalır. Satırın -0949..-0899 dilimi (Urabarriu) chavin künyesiyle (f=-0949, t=-0399) sahiplenebilir [yaklaşık, cal BC]. 'Hiç yerleşim yok' iddiası bu radyokarbon dizisine dayanır; Burger 1981 (850 BC) eski tahmindir. Kültür künyesi; siyasî sahip değil.",
+   "gorev": "BOSLUK",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "d": "__BOSLUK__",
+     "f": "-1199-01-01",
+     "t": "-0949-01-01",
+     "sil": "DÖNEM KIRPILIR/SİLİNİR: yerleşim yok"
+    },
+    {
+     "d": "chavin",
+     "f": "-0949-01-01",
+     "t": "-0899-01-01",
+     "beyan": "satırın önceki dilimiyle devam: künye chavin f=-0949 (kültür)"
+    }
+   ],
+   "kaynak2": "Burger, R.L. 2019, 'Understanding the Socioeconomic Trajectory of Chavín de Huántar: A New Radiocarbon Sequence and Its Wider Implications', Latin American Antiquity (Cambridge) — https://www.cambridge.org/core/journals/latin-american-antiquity/article/abs/understanding-the-socioeconomic-trajectory-of-chavin-de-huantar-a-new-radiocarbon-sequence-and-its-wider-implications/5D63DAC926FCA75CAFE0F044632CC28B",
+   "alinti2": "The new measurements confirm the sequence of the ceramic phases and indicate that the site was established around 950 cal BC and was abandoned by 400 cal BC.",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "San Lorenzo Tenochtitlán": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_amerika.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1399-01-01",
+   "t": "-1199-01-01",
+   "hukum": "BOSLUK_KALIR",
+   "kaynak": "BEYAN (VERI-MO-ARKEO): bu aralıkta nokta var (kur: ilk tarihli kanıt) ama sahibi künye kapsamının dışında — sahip kavramı yok / kaynak sessiz; bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak bu aralık için sahip vermiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet — Ojochi (1500-1350) ve Bajío (1350-1250) evreleri San Lorenzo'da 'pre-Olmec habitation' olarak belgeli (Coe & Diehl). Sahip: siyasî devlet yok; Olmek künyesi kültürdür (f=-1199) ve 'San Lorenzo evresi (1150-900)' sonrası başlar. BOSLUK_KALIR (kültür/sahip kavramı yok). FAMSI raporu saha çalışması özetidir (hakemli monografi değil) → Coe & Diehl 1980 / Cyphers kaynağı kapalı, kaynak zayıf. MÖ 1500 → -1499, 1350 → -1349 [yaklaşık].",
+   "gorev": "BOSLUK",
+   "uc": "",
+   "oneri_son": {
+    "d": "__BOSLUK__",
+    "f": "-1399-01-01",
+    "t": "-1199-01-01",
+    "not_": "yerleşim VAR; sahip yok; olmek künyesi f=-1199 (kültür)"
+   },
+   "kaynak2": "Vega (FAMSI raporu), San Lorenzo yüzey/seramik çalışması (Coe & Diehl 1980; Symonds, Cyphers & Lunagómez 2003 tipolojisi) — https://www.ancientamericas.org/sites/default/files/00103Vega01.pdf",
+   "alinti2": "Figure 3. Bajío phase (1350-1250 B.C.). / Figure 6. Ojochi phase (1500-1350 B.C.).",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "_parti": "db_ra_008.json"
+  }
+ ],
+ "Sart": [
+  {
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-0329-01-01",
+   "t": "1000-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Sardes MÖ 334 sonrası Makedon/Selevkos/Bergama/Roma/Bizans (MÖ 329-MS 1000) zinciri bu oturumda kaynakla okunmadı (TDV sart/manisa yalnız 1000 sonrası Bizans anar). Arandı: TDV manisa, saruhanogullari; sıradaki: Pleiades, ODB. · ZINCIR-ANADOLU-KIBRIS-1029",
+   "alinti": "",
+   "oneri": {},
+   "not": "YERLEŞİM VAR: evet — Harvard kazı zaman çizelgesi 334'ten Bizans/Türk dönemine kesintisiz. Treccani zincir ve yıllar (287 Selevkos, 189 Bergama, 133 Roma); Harvard: 334-213 Aleksandros ve ardıllar, 213-188 III. Antiochos, 188-133 Bergama, 133 b.c.e.-400 Roma, 400-ca.1315 Geç Roma-Bizans. ÇELİŞKİ (iki kaynak): Selevkos başlangıcı Treccani 287 / Harvard 213; Bergama 189 / 188. Treccani Enciclopedia on line esas alınır, Harvard ic_not. Astronomik: 287 BC → -0286, 189 → -0188, 133 → -0132. Hayalet: iskender f=-0335 t=-0322-06-10; selevkos -0311..-0062; bergama -0281..-0132; roma-cumhuriyeti -0508..-0026-01-16; roma-imp -0026-01-16..0395-01-17; bizans 0330-05-11..1453 künye içinde. DİKKAT: ahamenis satırı t=-0329 Harvard'a göre Sardes için -0333 olmalı (ayrı satır, burada yalnız uyarı). -0322..-0286 arası Lysimakhos künyesi yok. Byzantium 395-1000 Sardes'e özgü Bizans tanığı okunmadı (kronolojik çerçeve ülke düzeyi) → ONERI. Not: satırın mevcut sonrası bizans 1000 → 1204 başlangıcı: 395-1000 genişletmesi ile birleşir.",
+   "gorev": "BOSLUK",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "d": "iskender-imparatorlugu",
+     "f": "-0333-01-01",
+     "t": "-0322-06-10",
+     "beyan": "Harvard: 'Alexander the Great takes Sardis' 334 → ahamenis satırı t=-0329 yerine -0333 olmalı"
+    },
+    {
+     "d": "__BOSLUK__",
+     "f": "-0322-06-10",
+     "t": "-0286-01-01",
+     "not_": "Antigonos/Lysimakhos (Treccani yıl vermiyor); Lysimakhos künyesi yok (LAB); antigonos-krallik -0305..-0282 yalnız kısmen örtüşür"
+    },
+    {
+     "d": "selevkos",
+     "f": "-0286-01-01",
+     "t": "-0188-01-01",
+     "beyan": "Treccani 287; Harvard 213 (Antiochos III Sardes'i yeniden alır) — iki kaynak"
+    },
+    {
+     "d": "bergama",
+     "f": "-0188-01-01",
+     "t": "-0132-01-01",
+     "beyan": "Treccani 189, Harvard 188 → -0188/-0187; künye -0281..-0132 içinde"
+    },
+    {
+     "d": "roma-cumhuriyeti",
+     "f": "-0132-01-01",
+     "t": "-0026-01-16"
+    },
+    {
+     "d": "roma-imp",
+     "f": "-0026-01-16",
+     "t": "0395-01-17"
+    },
+    {
+     "d": "bizans",
+     "f": "0395-01-17",
+     "t": "1000-01-01",
+     "beyan": "Harvard: 400-ca.1315 Geç Roma-Bizans Çağı; 615 Sasani yağması işgal değil akın"
+    }
+   ],
+   "kaynak2": "Treccani, 'Sardi' (Roberta Belli Pasqua), https://www.treccani.it/enciclopedia/sardi/ ; Archaeological Exploration of Sardis (Harvard), 'Sardis timeline', Harvard Magazine 1998, https://www.harvardmagazine.com/sites/default/files/html/1998/03/sardis.history.html",
+   "alinti2": "Dopo la conquista di Alessandro Magno ebbe una costituzione di tipo greco; passò poi agli Antigonidi e a Lisimaco, infine nel 287 ai Seleucidi. Nel 189 passò al regno di Pergamo e nel 133 alla provincia romana d’Asia.",
+   "dogrusu": "",
+   "tarayici_gerekli": [
+    "Hanfmann, Sardis from Prehistoric to Roman Times (1983): archive.org kimliği bwb_C0-ABV-120 — ödünç/kilitli; Bizans 400-1000 için ODB/Foss okunamadı"
+   ],
+   "_parti": "db_ra_008.json"
   }
  ]
 }

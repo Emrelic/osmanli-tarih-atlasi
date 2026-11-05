@@ -1034,6 +1034,42 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - v satırlarında `d` görünen ad olduğu için yalnız f ile eşlendi.
   - Çok satırlı yerleşim kayıtlarında satır numarası bulunamadı, yalnız dosya yazıldı.
 
+## 44. ANTİK turu A önceliği — TAMAM (26/26 parti; UMIT, 5 Kasım 2026; `ANTIK-PLAN.md`, `brif/ANTIK-BRIEF.md`, `antik_sonuc.json`)
+- **Evren:** f < 0640, 284 satır, 151 yerleşim. Görevler: TEYIT 137, BOSLUK 105, KAYNAKSIZ 42.
+- **Hükümler:**
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 70 |
+  | ONERI | 104 |
+  | CELISKI | 31 |
+  | HATALI_ONERI | 7 |
+  | BULUNAMADI | 32 |
+  | BOSLUK_KALIR | 27 |
+  | YOK_O_DEVIRDE | 5 |
+  | BAKILMADI | 8 |
+
+  Tarayıcı gerekli satır 72 (Shaw, Bryce, Frayne, CAH, CHC ve benzeri kapalı ciltler; "Emre girişi").
+- **MO-KAYMA-29 (`mo_kayma_29_sonuc.json`):** 28 kural uygulaması, 1 İNCELE (xi-wei sıfır uzunluk).
+- **Koordinatör kararları:**
+  - **gece-66:** dogu-got t 0552-10-01, langobard f 0568-04-02; şehirler kendi fetih yılını alır.
+  - **gece-69/70:** bati-roma t 0476-08-23; 15 dönem hizalanır (`bati_roma_hizalama.json`).
+- **Bulgu desenleri:**
+  1. **Künye ömrü ile kaynak çatışıyor; künye genişletmesi LAB'a:** frank f, eftalit t, funan t, muvahhid f, uruk-erken t, mari-sakkanakku f, frigya f, yeni-babil f.
+  2. **Eksik ara dilimler:**
+     - Roma Cumhuriyeti (Lucca, Piacenza, Modena).
+     - Deniz Ülkesi (Ur).
+     - Sirakuza 9 dilim, Sart 6 dilim, Milano 5 dilim.
+  3. **Eksik künyeler (LAB adayları):** Benevento, Bâmiyan, Ripuer, İskit, Diadokh, Râşidîn, Kafsa, Lysimakhos, Persis, Sin-kašid, Çin geçiş rejimleri.
+  4. **YOK_O_DEVIRDE:**
+     - Astrahan 500–732.
+     - Utrecht 476–481.
+     - Funchal ve Angra (iskân 1425 ve 1460'lar).
+     - Chavín, −949 öncesi.
+- **Sınır:**
+  - Çin ve Kore ay-güneş günleri çevrilmedi (EMRELİC/Academia Sinica). a_005 ajanı iki günü kural dışı çevirdi; notta işaretli.
+  - Mezopotamya'da kronoloji tabanı karışık (Iranica, Treccani, ARCANE). Orta kronoloji uzlaşımı ic_not'larda beyanlı.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.

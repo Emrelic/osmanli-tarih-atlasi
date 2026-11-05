@@ -4687,12 +4687,32 @@
    "kaynak": "Parti dosyası incelemesi",
    "alinti": "",
    "oneri": {},
-   "not": "Kayıtta hiç dönem yok (donemler listesi 0 satır): sahiplik zinciri yazılmamış. Hedef dönem olmadığı için araştırma yapılmadı; zincir sıfırdan yazılacaksa ayrı bir iş (TDV 'Fihl' + Bizans/Ürdün kaynakları) gerekir.",
+   "not": "ANTİK A (ONERI): Kayıtta dönem yok; zincir sıfırdan. Savaş günü (Fihl/Pella, 23 Ocak 635 = hicrî 13 Muharrem-Safer; TDV iki yerde bozuk '0cak' yazımı verir) YER TESLİM günü değildir ve arama sayfası kesitidir, gövde okunmadı → KAYNAKLI sayılmadı. Savaş düzeyi (Fetret kuralı gibi) yerleşime özgü devir günü değil; teslim/kapitülasyon günü TDV «Fihl»/«Hâlid b. Velîd»/«Ebû Ubeyde» gövdelerinden okunmalı. Hayalet denetimi: hulefa-yi-rasidin künye f 0632-06-08 t 0661-07-29 (635 ve 661 içinde); bizans f 0330-05-11 t 1453-05-29. Sonrası emevi f 0661-07-29 t 0750-08-05 → abbasi f 0749-11-28; Fihl'in terkedilişi (749 depremi vb.) bu turda okunmadı. 614-628 Sâsânî işgali bu turda tarihlenmedi. Hukukî devir ölçütü: ÖLÇÜT: idareye katma (Halife Ömer fethi) - belge yok, ONERI. · Kayıtta hiç dönem yok (donemler listesi 0 satır): sahiplik zinciri yazılmamış. Hedef dönem olmadığı için araştırma yapılmadı; zincir sıfırdan yazılacaksa ayrı bir iş (TDV 'Fihl' + Bizans/Ürdün kaynakları) gerekir.",
    "dosya_satir_eski": "-",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, arama sayfası fihl (https://islamansiklopedisi.org.tr/arama/fihl; HULEFÂ-yi RÂŞİDÎN, HERAKLEİOS, HÂLİD b. VELÎD maddelerinin geçen cümleleri); madde gövdeleri açılmadı",
+   "alinti2": "…(23 Ocak 635) vuku bulan Fihl Savaşı’nda da düşman… | …13’te (0cak 635) yapılan Fihl Savaşı’nda Bizans ordusu…",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "bizans",
+     "f": "(belirsiz)",
+     "t": "0635-01-23"
+    },
+    {
+     "alan": "s",
+     "d": "hulefa-yi-rasidin",
+     "f": "0635-01-23",
+     "t": "0661-07-29"
+    }
+   ],
+   "tarayici_gerekli": [
+    "TDV gövde: islamansiklopedisi.org.tr/hâlid-b-velid, ebu-ubeyde-b-cerrah (slug doğrulanmadı)"
+   ],
+   "uc": "f"
   }
  ],
  "Ktesiphon": [
@@ -5473,12 +5493,29 @@
    "kaynak": "Lendering, J., Livius.org: Assur (https://www.livius.org/articles/place/assur/)",
    "alinti": "",
    "oneri": {},
-   "not": "Partide kaynağı boş ya da DEVRALMA olan dönem YOK (5 dönemin hepsi kaynaklı / beyanlı) → hedef yok, araştırma yapılmadı. BİLGİ (tek okuma): Livius «sacked by the Medes and Babylonians in 614» — atlas yeni-asur t=-0613 (astronomik yıl = MÖ 614) ile UYUMLU; Livius 'Išme-Dagan ... vassal of Hammurabi' (Şamşi-Adad sonrası) mevcut samsi-adad t=-1775 (MÖ 1776) ile çelişmiyor.",
+   "not": "ANTİK A (ONERI): BOSLUK görevi (-1775 → -0910 __BOSLUK__). YERLEŞİM VAR: Livius 15. yy'da Sin-Şamaş çifte tapınağı ve anıtların yenilendiğini söyler (kanıt az ama yerleşim sürer). BÖLÜNME ÖNERİSİ: (a) -1775 → -1362 BOSLUK_KALIR: Livius Išme-Dagan'ın Hammurabi'ye, Asur'un 1595'ten sonra Mitanni'ye vassal olduğunu söyler; tâbilik devir değildir (v:, s: değil) ve eski-asur künye t -1749, mitanni künye f -1499 olduğundan bu aralığı kapsayan s: künye yok (HAYALET: mitanni'yi -1594'e çekmek künyeyi aşar). LAB'a künye adayı: 'Asur şehir yönetimi (Šamši-Adad sonrası, Orta Asur öncesi)' + v: mitanni -1499 → -1362 tâbilik. (b) -1362 → -0910 orta-asur: Livius Aššur-uballit I (c.1364) ile Asur'un bağımsızlığını kazandığını ve Orta Asur döneminin başladığını söyler; ÜLKE DÜZEYİ. f uç Livius'ta c.1364 = astronomik -1363; künye f -1362 (MÖ 1363) — 1 yıl fark, Livius kronoloji tabanını (orta/kısa) belirtmediği için KAYNAKLI değil ONERI ([yaklaşık]); t -0910 (Adad-nirari II) Livius'ta tarihlenmiyor. orta-asur künye -1362 → -0910 satırla tam örtüşür, hayalet yok (yeni-asur f -0910 bitişik). Orta Asur başkenti Assur (künye baskent). Himaye/tâbilik devir sayılmadı. · Partide kaynağı boş ya da DEVRALMA olan dönem YOK (5 dönemin hepsi kaynaklı / beyanlı) → hedef yok, araştırma yapılmadı. BİLGİ (tek okuma): Livius «sacked by the Medes and Babylonians in 614» — atlas yeni-asur t=-0613 (astronomik yıl = MÖ 614) ile UYUMLU; Livius 'Išme-Dagan ... vassal of Hammurabi' (Şamşi-Adad sonrası) mevcut samsi-adad t=-1775 (MÖ 1776) ile çelişmiyor.",
    "dosya_satir_eski": "-",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "Lendering, J., Livius.org: Assur (https://www.livius.org/articles/place/assur/), sayfa gövdesi sayfa.py ile okundu",
+   "alinti2": "King Aššur-Uballit I (r.c.1364-c.1328) and his Hittite colleague Šuppililiuma simultaneously attacked Mitanni, which disintegrated. | After a Hittite attack on Babylon and the collapse of the Babylonian Empire (usually dated to 1595 BCE), Assyria became a vassal of the kingdom of Mitanni.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "__BOSLUK__",
+     "f": "-1775-01-01",
+     "t": "-1362-01-01"
+    },
+    {
+     "alan": "s",
+     "d": "orta-asur",
+     "f": "-1362-01-01",
+     "t": "-0910-01-01"
+    }
+   ],
+   "uc": "f"
   }
  ],
  "Ninova": [
@@ -6034,7 +6071,7 @@
    "kaynak": "—",
    "alinti": "",
    "oneri": {},
-   "not": "Partide kaynağı boş ya da DEVRALMA olan dönem YOK (3 dönemin hepsi kaynaklı: Treccani TOUL, FRANSA-KONTROL) → hedef yok, araştırma yapılmadı.",
+   "not": "ANTİK A (BAKILMADI): Bu turda okunmadı: 3 dönemin hepsi kaynaklı (Treccani Enciclopedia Italiana TOUL: 1552 Fransa). Hayalet denetimi (devletler.js): almanya f 0962-02-02 (1281 içinde); fransa f 0987-07-03 t 1792-09-22 (satırla birebir); fransa-cumhuriyet f 1792-09-22, t yok (süren) → 2000-12-31 sorun değil. Yıl düzeyi 1552 gün teyitsiz (Henri II girişi 1552 bahar; gün aranmadı). · Partide kaynağı boş ya da DEVRALMA olan dönem YOK (3 dönemin hepsi kaynaklı: Treccani TOUL, FRANSA-KONTROL) → hedef yok, araştırma yapılmadı.",
    "dosya_satir_eski": "-",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
@@ -6053,12 +6090,25 @@
    "kaynak": "Treccani Enciclopedia on line, «Riunione» (slug tahmini; sayfa.py ana sayfaya düştü, madde açılmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK: iki dönemden biri kaynaklı (Eve, açılmadı beyanıyla), öteki BEYANLI YAKLAŞIKLIK metni taşıyor (boş değil, DEVRALMA değil). Araştırma yapılmadı. Bilgi (kanıtsız): mevcut beyan 1810-1815 İngiliz işgalini gösterilmedi diyor; F8 gereği isg: ingiltere katmanı eklenebilir, tarihler bu oturumda teyit edilmedi.",
+   "not": "ANTİK A (ONERI): ÖLÇÜT: geçici/askerî — İngiliz işgali 1810-1815; ada Fransız egemenliğinde kaldı (1814 Paris) → isg ingiltere, d: fransa-cumhuriyet sürer. Gün 1810-07-08 yalnız arama özeti (çerçeve Vikipedi 'Invasion of Île Bonaparte') → KAYNAKLI değil. Akademik kaynak (Treccani/Cambridge/EVE Réunion) bu turda açılamadı. Hayalet: ingiliz-mauritius künye f 1810-12-03 (Réunion o künyede değil, Mauritius+Rodrigues); isg için ingiltere künye var (f/t kapsar). 1792-09-22'de satır sınırı: Fransız Cumhuriyeti ilanı ülke düzeyi, Réunion'a özgü değil. 1669 kuruluşu ve 1738 merkez yapılışı kaynağı 'Eve açılmadı' beyanında, bu turda da doğrulanamadı. · Hedef dönem YOK: iki dönemden biri kaynaklı (Eve, açılmadı beyanıyla), öteki BEYANLI YAKLAŞIKLIK metni taşıyor (boş değil, DEVRALMA değil). Araştırma yapılmadı. Bilgi (kanıtsız): mevcut beyan 1810-1815 İngiliz işgalini gösterilmedi diyor; F8 gereği isg: ingiltere katmanı eklenebilir, tarihler bu oturumda teyit edilmedi.",
    "dosya_satir_eski": "data/yerlesimler_hint_adalar.js:25-26",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "Treccani «Riunione» (https://www.treccani.it/enciclopedia/riunione/ ve reunion-isola_(Enciclopedia-Italiana)) açılmadı: ana sayfaya düştü (208/4046 bayt, madde gövdesi yok)",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1810-07-08",
+     "t": "(1815, gün teyitsiz)"
+    }
+   ],
+   "tarayici_gerekli": [
+    "Treccani Riunione gövdesi (Cloudflare/yönlendirme)"
+   ],
+   "uc": "t"
   }
  ],
  "Rennes": [
@@ -6183,12 +6233,20 @@
    "kaynak": "Parti dosyası incelemesi",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK: __BOSLUK__ satırı BOŞLUK BEYANI taşıyor, portekiz satırı Elucidário Madeirense + Infopédia ile kaynaklı. Araştırma yapılmadı.",
+   "not": "ANTİK A (YOK_O_DEVIRDE): BOSLUK görevi: 1000 → 1419-07-02. Madeira ıssız (kalıcı yerleşim c.1425; Funchal'ın ilk kilisesi 1425 kapı tarihi, vila 1451-52). Yani 1000-1419 arasında Funchal yerleşimi YOK → dönem kırpılır, toprak komşu peteklere kalır (Funchal noktası kur ≈1425 [yaklaşık], 1419-07-02 yalnız adadaki ilk iniş (Machico)). portekiz satırı f 1419-07-02 ada düzeyidir; yerleşim bazında c.1425 [yaklaşık] daha doğru, KASA karar verir. Hayalet: portekiz künye f 1097-01-01, t yok (süren) → kapsar. Madeira 'Portekiz egemenliği' keşiften itibaren (Henrique'nin donatarilik). · Hedef dönem YOK: __BOSLUK__ satırı BOŞLUK BEYANI taşıyor, portekiz satırı Elucidário Madeirense + Infopédia ile kaynaklı. Araştırma yapılmadı.",
    "dosya_satir_eski": "data/yerlesimler_ek_atlantik_adalar.js:83",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "Elucidário Madeirense, 'Chronology' (https://elucidariomadeirense.pt/en/chronology/), sayfa gövdesi sayfa.py ile okundu",
+   "alinti2": "2 July 1419 Zarco made the first landing on Madeira at Machico on the feast of the Visitation, where accompanying Franciscans reportedly celebrated the first Mass | 1420s 8 c. 1425 Settlement of Madeira began under the first donatary captains, with settlers from mainland Portugal, some first sheltering at the Ilhéus of Funchal.",
+   "oneri_son": {
+    "d": "__BOSLUK__ kırpılır",
+    "f": "1419-07-02",
+    "t": null
+   },
+   "uc": "f"
   }
  ],
  "Angra (Terceira, Azorlar)": [
@@ -6202,12 +6260,20 @@
    "kaynak": "Parti dosyası incelemesi",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK: iki dönem de kaynaklı (EVE Univ. Nova de Lisboa). Araştırma yapılmadı.",
+   "not": "ANTİK A (YOK_O_DEVIRDE): BOSLUK görevi: 1000 → 1460. EVE: Angra'nın ilk yerleşimi c.1460'lar [yaklaşık, onyıl]; öncesinde yerleşim yok → dönem kırpılır, portekiz f 1460-01-01 [yaklaşık] zaten bu uçtur; 'yalnız onyıl' beyanı sürer. 1474 kaptanlık bölünmesi (João Vaz Corte) yerleşimin Portekiz idaresinde olduğunu gösterir (t değil f desteği). Hayalet: portekiz künye f 1097, t yok. Ek bilgi: ilk yerleşimci Álvaro Martins Homem tek kaynak (EVE). · Hedef dönem YOK: iki dönem de kaynaklı (EVE Univ. Nova de Lisboa). Araştırma yapılmadı.",
    "dosya_satir_eski": "data/yerlesimler_ek_atlantik_adalar.js:87",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "Gregório, R. D., 'Angra do Heroísmo', Encyclopaedia of the Voyages of Exploration (EVE), Univ. Nova de Lisboa (https://eve.fcsh.unl.pt/en/node/5160), sayfa gövdesi okundu",
+   "alinti2": "The first part of the city to be settled, circa the 1460s, was on a hillock, further inland, facing the ocean. | After 1474, when Terceira was divided into two captaincies, the 1st captain of Angra, João Vaz Corte, also chose this higher a",
+   "oneri_son": {
+    "d": "__BOSLUK__ kırpılır",
+    "f": "1460-01-01",
+    "t": null
+   },
+   "uc": "t"
   }
  ],
  "Philadelphia": [
@@ -6921,12 +6987,34 @@
    "kaynak": "Parti dosyası incelemesi",
    "alinti": "",
    "oneri": {},
-   "not": "Kayıtta hiç dönem yok (donemler=0); hedef dönem olmadığı için araştırma yapılmadı. Zincir sıfırdan yazılacaksa ayrı iş (TDV Rey, Iranica 'Rayy').",
+   "not": "ANTİK A (ONERI): Kayıtta dönem yok (bos:veri-yok, bit 1281). TDV'de 'Rey' şehir maddesi bulunamadı (tdv-ara 'Rey': yalnız ehl-i-rey vb.; slug tahmini rey, rey-sehir, rey-sehri başarısız). Iranica Arab-ii: 22-23/643-44'te Kûfe ve Basra kuvvetleri Cibâl'e dağıldı; Rey 'defalarca alındı ve geri alındı' ve 500.000 dirhem haraçla marzbândan alındı — YIL ARALIĞI, gün/yıl tek tanık yok → KAYNAKLI değil. Moğol yıkımı (erken 13. yy, Iranica Tehran: 'early 13th century'; Yâkūt Rey'de 617/1220 idi) yılsız → ONERI; Rey'in 1281'den önce yerleşim olarak terk edilmesi atlasın bit:1281 ile ZINCIR sorusu: Moğol yıkımından sonra Rey sahibi ilhanli f 1256 (künye). Hayalet: hulefa-yi-rasidin 0632-06-08/0661-07-29, sasani f 0224-04-28 t 0651-01-01 (643 sasani t'den önce, kapsar), ilhanli f 1256. Bu turda Part, Büveyhî, Selçuklu, Hârizmşah ara zinciri okunmadı. Ünite: 'Rey' ile Tahran karışmasın (Iranica: Tahran 10 km kuzey). · Kayıtta hiç dönem yok (donemler=0); hedef dönem olmadığı için araştırma yapılmadı. Zincir sıfırdan yazılacaksa ayrı iş (TDV Rey, Iranica 'Rayy').",
    "dosya_satir_eski": "-",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, ʿARAB ii. Arab conquest of Iran (https://www.iranicaonline.org/articles/arab-ii/); RAY i. ARCHAEOLOGY (https://www.iranicaonline.org/articles/ray-i-archeo/); TEHRAN i. (https://www.iranicaonline.org/articles/tehran/i-a-persian-city/); hepsi sayfa.py ile okundu",
+   "alinti2": "Some places, such as Hamadān and Ray, were taken and retaken several times. | After the destruction caused by the Mongols, the old settlement was abandoned and replaced, first by Varāmin to the south",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "sasani",
+     "f": "(kayıt yok)",
+     "t": "(yıl 22-23/643-44 aralığı, taslak)"
+    },
+    {
+     "alan": "s",
+     "d": "hulefa-yi-rasidin",
+     "f": "(yıl 22-23/643-44, retaken)",
+     "t": "0661-07-29"
+    }
+   ],
+   "tarayici_gerekli": [
+    "Treptow 2007 The Medieval Persian City of Rayy (kapalı)",
+    "EI2 'Rayy' (kapalı)",
+    "Iranica 'RAY ii' tarihçe makalesi slug'ı bulunamadı"
+   ],
+   "uc": "t"
   }
  ],
  "Isfahan": [
@@ -8538,7 +8626,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK: tek dönem (onceki-yan 0341-0370) Zizhi tongjian ile kaynaklı; araştırma yapılmadı.",
+   "not": "ANTİK A (BAKILMADI): Bu turda okunmadı: tek dönem (onceki-yan 0341 → 0370-12-11) Zizhi tongjian + Jin shu ile kaynaklı. Hayalet: onceki-yan künye f 0337-01-01 t 0370-12-11, satırla f hariç örtüşür (341 künye içinde), t birebir. Longcheng'in Yan başkenti olduğu 342 (ZZTJ) vs 341 (Jin shu) çelişkisi kayıtta beyanlı. Ay-güneş takvim günü çevrilmedi (EMRELİC toplu). · Hedef dönem YOK: tek dönem (onceki-yan 0341-0370) Zizhi tongjian ile kaynaklı; araştırma yapılmadı.",
    "dosya_satir_eski": "data/yerlesimler_once1281_yt_dogu3.js:16",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
@@ -9538,11 +9626,11 @@
    "d": "hitit",
    "f": "-1649-01-01",
    "t": "-1199-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "UNESCO WHC 377 «Hattusha: the Hittite Capital» (whc.unesco.org/en/list/377); TDV «Hititler» arama özeti (açılmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "t ucu (≈-1200) mevcut Manning vd. 2023 kaynağıyla yıl düzeyinde var. f=-1649 (kur) için kaynak YOK: UNESCO Japonca özet (NFUAJ) şehri 'MÖ 16. yüzyılda kuruldu' der (YIL YOK, -1649 ile uyumsuz olabilir); TDV arama özeti 'Hititler 1650-1490 arası' der ama madde açılıp teyit edilemedi. Treccani Hattusa slug'ı çözülmedi. Sonuç: f için kaynaklı yıl bulunamadı; -1649 teyitsiz kalır. Terk/yıkım: site Hitit idaresince boşaltıldı, sonraki dönem için dönem eklenmemesi doğru.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: TDV Hitit Devleti'nin başlangıcını (MÖ 1650 -> astronomik -1649) ve sonunu (MÖ ~1200 -> -1199) verir; Hattuşa'ya özgü değil, ama aynı maddede 'Başşehir Hattuşaş (Boğazköy)' geçer. Yıl düzeyi; 'yaklaşık' ('1200 yıllarında, muhtemelen') -> [yaklaşık]. Kuruluş tarihi devletin, şehrin değil (UNESCO: şehir MÖ 16. yy kuruldu, yıl yok). Hayalet devlet denetimi: devletler.js hitit f=-1649-01-01 t=-1179-01-01; dönem [-1649,-1199] künye ömrü içinde, hayalet yok. Künye t (-1179, MÖ 1180 konvansiyonu) ile dönem t (-1199) farkı: 1199-1179 arası Hattuşa sahipsiz kalır (şehir ~1200'de boşaltıldı, Manning 2023); beyanlı bırakılabilir. Bryce 2005 açılamadı (403). Astronomik çeviri doğru (1650 -> -1649). Değişmez 2 için kronoloji maddesi önerisi yok. · t ucu (≈-1200) mevcut Manning vd. 2023 kaynağıyla yıl düzeyinde var. f=-1649 (kur) için kaynak YOK: UNESCO Japonca özet (NFUAJ) şehri 'MÖ 16. yüzyılda kuruldu' der (YIL YOK, -1649 ile uyumsuz olabilir); TDV arama özeti 'Hititler 1650-1490 arası' der ama madde açılıp teyit edilemedi. Treccani Hattusa slug'ı çözülmedi. Sonuç: f için kaynaklı yıl bulunamadı; -1649 teyitsiz kalır. Terk/yıkım: site Hitit idaresince boşaltıldı, sonraki dönem için dönem eklenmemesi doğru.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -9551,7 +9639,19 @@
      "f": "-1649-01-01",
      "t": "-1199-01-01"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Anadolu» maddesi, https://islamansiklopedisi.org.tr/anadolu (Hitit Devleti, ÜLKE DÜZEYİ)",
+   "alinti2": "Orta Anadolu’da Hititler önce 1650-1490 arasında, bir ara Bâbil’i dahi fetheden Eski Hitit Devleti ile varlıklarını sürdürmüşler. Hitit Devleti milâttan önce 1200 yıllarında muhtemelen “Ege göçleri” ile gelen “Deniz kavimleri” tarafından yıkılmıştır.",
+   "oneri_son": {
+    "f": "-1649-01-01",
+    "t": "-1199-01-01",
+    "d": "hitit"
+   },
+   "tarayici_gerekli": [
+    "Bryce 2005, The Kingdom of the Hittites (archive.org kingdomofhittite0000bryc / kingdomofhittite0000trev): ia-oku HTTP 403 — Emre girişi gerekli (ödünç kitap)"
+   ],
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Selevkeia (Samandağ)": [
@@ -13002,12 +13102,26 @@
    "kaynak": "TDV arama «Tinmel» (islamansiklopedisi.org.tr/arama/tinmel): 14 madde içeriği eşleşmesi; TDV İbn Tûmert, Abdülmü'min el-Kûmî, Mağrib, Fas",
    "alinti": "Tinmellel Camii'nde biat merasimi icra",
    "oneri": {},
-   "not": "Parti dosyasında Tinmel'in HİÇ dönemi yok (donemler listesi boş, yeni yerleşim kaydı). Kaynak ipucu: TDV 'Tinmellel' adıyla: İbn Tûmert 517 (1123) yılında Tinmel'e yerleşti/mezarı Tinmellel'de; Abdülmü'min'in ölümü Tinmellel Camii'nde biatla açıklandı; Tinmellel Ulucamii 1153-54 (Mağrib md.). Doğru dönemler (muvahhidler, murabitlar öncesi/sonrası) için TDV «İbn Tûmert» ve «Muvahhidler» maddesi okunmalı; bu partide sınırlı bütçe sebebiyle okunmadı.",
+   "not": "ANTİK A (ONERI): Kayıtta dönem yok. f: TDV İbn Tûmert Tinmellel'e 517 (1123) yerleşti, 'hicret' denir (Mehdî hareketinin merkezi); AMA muvahhidler künye f 1130-01-01 (TDV: devletin resmen teşekkülü Abdülmü'min, İbn Tûmert'in ölümü 14 Ramazan 524/21 Ağustos 1130 sonrası; ic_not_f). 1123-1130 aralığını muvahhidler'e yazmak künyeyi AŞAR (HAYALET) → LAB: künye f genişletme sorusu (ardıl yapı değil, aynı polity; 'aynı polity sürüyorsa künyeyi GENİŞLET' kuralı) ya da önerilen s: muvahhidler 1130-01-01. 1123 öncesi sahip: Murâbıtlar (f 1056 t 1147-03-23) yerel kabile Tinmellel'de, belge yok → BOSLUK_KALIR. t: TDV Merînîler'in Merakeş'e girişi 668 (1269), Muvahhid liderler Tinmellel'e çekildi ve sonra idam edildi; Tinmel'in düşüş yılı/günü metinde YOK (muvahhidler t 1269 ile merini devri günü bulunamadı). Merini künye f 1196 t 1549. İki TDV maddesi muvahhidler t'de yıl farkı taşır (667/1269 vs 668/1269-70) → künye ic_not_t'de beyanlı. Anıt cami tarihi (1153-54) mülkiyet değil. · Parti dosyasında Tinmel'in HİÇ dönemi yok (donemler listesi boş, yeni yerleşim kaydı). Kaynak ipucu: TDV 'Tinmellel' adıyla: İbn Tûmert 517 (1123) yılında Tinmel'e yerleşti/mezarı Tinmellel'de; Abdülmü'min'in ölümü Tinmellel Camii'nde biatla açıklandı; Tinmellel Ulucamii 1153-54 (Mağrib md.). Doğru dönemler (muvahhidler, murabitlar öncesi/sonrası) için TDV «İbn Tûmert» ve «Muvahhidler» maddesi okunmalı; bu partide sınırlı bütçe sebebiyle okunmadı.",
    "dosya_satir_eski": "",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, «İbn Tûmert» (https://islamansiklopedisi.org.tr/ibn-tumert) ve «Muvahhidler» (https://islamansiklopedisi.org.tr/muvahhidler), sayfa.py ile okundu",
+   "alinti2": "İbn Tûmert, daha iyi bir savunma ortamına kavuşmak için 517 (1123) yılında Tinmellel’e intikal etti ve şehir halkını çıkarıp buraya yerleşti. | Böylece Muvahhidler Devleti son bulurken bu sırada Tinmellel’e çekilmiş olan liderleri de ele geçirilerek idam edildi.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "muvahhidler",
+     "f": "1130-01-01",
+     "t": "1269-01-01"
+    }
+   ],
+   "tarayici_gerekli": [
+    "Tinmel'in Merînî eline geçiş yılı: Ibn Khaldun/Ibn Abi Zar neşri ya da EI2 'Tinmal' (kapalı)"
+   ],
+   "uc": "f"
   }
  ],
  "Merakeş": [
@@ -30050,11 +30164,11 @@
    "d": "korint",
    "f": "-0799-01-01",
    "t": "-0145-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (KAYNAKLI): t: MÖ 146 = astronomik -0145 ✓ (satır -0145-01-01). Yıl düzeyi, gün yok (satır kesinlik onyıl; Mummius'un MÖ 146 sonbaharı yıl içi gün bu turda aranmadı). f -0799 (MÖ 800 yy başı, 'şehir devleti MÖ 8. yy'): Treccani yalnız 'Città dorica ... (2°-1° millennio a.C.)' der, f'yi tarihlemez → f ONERI/BAKILMADI. Hayalet: korint künye f -0799-01-01 t -0145-01-01, satırla birebir. YIKIK sonrası: Treccani 146 sonrası MÖ 44 kolonisini söylemiyor; Roma eyaleti (Akhaia) 'ridotta a provincia' ÜLKE DÜZEYİ: -0145 sonrası zincir (roma-cumhuriyeti → roma-imp → bizans: 'in epoca bizantina capitale amministrativa' → 1210 ducato di Morea → 1459 Turchi) satır olarak yazılmamış; Treccani gövde 1459-1822 Türk verir (yıl). · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30063,7 +30177,16 @@
      "f": "-0799-01-01",
      "t": "-0145-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Corinto» (https://www.treccani.it/enciclopedia/corinto/), sayfa.py ile okundu",
+   "alinti2": "la regione fu ridotta a provincia e C. distrutta (146)",
+   "oneri_son": {
+    "d": "korint",
+    "f": "-0799-01-01",
+    "t": "-0145-01-01"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Susa": [
@@ -32233,7 +32356,7 @@
    "kaynak": "parti dosyası db_q05.json tarandı",
    "alinti": "",
    "oneri": null,
-   "not": "HEDEF DÖNEM YOK: 13 s-döneminin hiçbirinin kaynağı boş/DEVRALMA değil (Majumdar, Imperial Gazetteer XIV 'North Kanara', Indian Independence Act 1947). Baştan doğrulama yapılmadı. Kaynağı boş olmasa da 3 dönem BOŞLUK BEYANI (kadamba-banavasi, badami-calukya, rastrakuta: BOYALAR'da künye eksik, 'boya gerekli') — D adımı kapsamı dışı.",
+   "not": "ANTİK A (BAKILMADI): Bu turda okunmadı: 13 dönemin hiçbiri kaynaksız/DEVRALMA değil. BOSLUK 1343-1347 (Hoysala → Vijayanagara) 'arandı, bulunamadı' beyanlı (HCIP VI). Hayalet kontrol: hoysala f 1026 t 1343 (satır 1305-1343 içinde), vijayanagara f 1336 t 1646 (satır f 1347 içinde), kadamba-banavasi künye f 0340 t 0610 (satır f 0500: künye kapsar), badami-calukya 0543-0757, rastrakuta 0755-0975 (satır 0757 ✓.), bati-calukya 0975-1189, yadava 1187-1318, nayak 1336-1763 (satır 1565 ✓), meysur 1610-1799 (1763 ✓), ingiliz-hindistani 1757-1947-08-15. Ölçüm: hepsi künye içinde, hayalet yok. · HEDEF DÖNEM YOK: 13 s-döneminin hiçbirinin kaynağı boş/DEVRALMA değil (Majumdar, Imperial Gazetteer XIV 'North Kanara', Indian Independence Act 1947). Baştan doğrulama yapılmadı. Kaynağı boş olmasa da 3 dönem BOŞLUK BEYANI (kadamba-banavasi, badami-calukya, rastrakuta: BOYALAR'da künye eksik, 'boya gerekli') — D adımı kapsamı dışı.",
    "dosya_satir_eski": "",
    "tazeleme": {
     "durum": "DONEM_YOK",
@@ -43420,7 +43543,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem yok (tek dönem kaynaklı: Conlee ve ark. 2024). Bakılmadı. AD KARIŞMASI kontrolü: koordinat -13.8585,-76.3293 Paracas yarımadası (Ica) — kültür adı Paracas ile uyumlu.",
+   "not": "ANTİK A (BAKILMADI): Bu turda okunmadı: tek dönem kaynaklı (Conlee ve ark. 2024). Hayalet: paracas-kultur künye f -0789 t -0039, satırla birebir. Yüzyıl kesinliği; arkeolojik kültür, sahiplik kavramı yok. · Hedef dönem yok (tek dönem kaynaklı: Conlee ve ark. 2024). Bakılmadı. AD KARIŞMASI kontrolü: koordinat -13.8585,-76.3293 Paracas yarımadası (Ica) — kültür adı Paracas ile uyumlu.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -43479,11 +43602,11 @@
    "d": "harappa",
    "f": "-2599-01-01",
    "t": "-1899-01-01",
-   "hukum": "BAKILMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem yok (hepsi Harappa Archaeological Research Project / Kenoyer kaynaklı, tarihlemeler MÖ). Bakılmadı. AD KARIŞMASI kontrolü: 30.632,72.865 Harappa (Sahiwal, Pencap) — kronolojideki Harappa uygarlığı sitesi ile uyumlu; ama kronoloji 'Harappa' ile şehri değil uygarlığı anıyor olabilir (uygarlık adı, site adı ortak: AD KARIŞMASI olasılığı düşük değil — KASA kronoloji maddelerine baksın).",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE (UYGARLIK) DÜZEYİ: kaynak Harappa sitesine özgü değil, Indus Uygarlığı'nın olgun evresini tarihler; Harappa sitesi kaynakta olgun evre kentlerinden biri olarak geçer. Uçlar [yaklaşık] (c.2600 / c.1900 MÖ) ve [aralık] tarihidir; astronomik yıl: MÖ 2600 = -2599, MÖ 1900 = -1899, atlasla birebir uyumlu. Hayalet devlet denetimi TAM: devletler.js 'harappa' f=-2599-01-01 t=-1899-01-01 (satır 19174) = dönem uçları; öncül 'erken-harappa' (-3199..-2599) ve ardıl 'gec-harappa' (-1899..-1599) ile çakışma/delik yok, sıfır uzunluk yok. Kaynak Early Harappan sonu = Mature başı = 2600 ve Mature sonu = Late başı = 1900 diyerek komşu uçları da doğrular. Mevcut kaynak alanı Kenoyer 'Period 1, Ravi evresi MÖ 3300-2800' diyor; bu olgun evreyi değil erken evreyi tarihler, KASA kaynak alanını bu yeni kaynakla değiştirmeli (dönem uçları değişmez). Britannica devlet kavramını 'conjecture' sayar (künye özetinde beyanlı); bu satırda sahip kavramı kültür künyesidir. AD KARIŞMASI: yok, Harappa (Sahiwal, Pencap) site olarak kronolojideki Harappa maddeleriyle aynı yer. Imperial Gazetteer kullanılmadı; Majumdar/CHI I ve Iranica'ya bakılmadı (açık hakemli makale uçları tarihledi). · Hedef dönem yok (hepsi Harappa Archaeological Research Project / Kenoyer kaynaklı, tarihlemeler MÖ). Bakılmadı. AD KARIŞMASI kontrolü: 30.632,72.865 Harappa (Sahiwal, Pencap) — kronolojideki Harappa uygarlığı sitesi ile uyumlu; ama kronoloji 'Harappa' ile şehri değil uygarlığı anıyor olabilir (uygarlık adı, site adı ortak: AD KARIŞMASI olasılığı düşük değil — KASA kronoloji maddelerine baksın).",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -43492,7 +43615,16 @@
      "f": "-2599-01-01",
      "t": "-1899-01-01"
     }
-   }
+   },
+   "kaynak2": "Parikh D. & Petrie C.A. 2019, Indus Civilisation rural-urban makalesi, World Archaeology 51(2), doi:10.1080/00438243.2019.1601463 (Introduction; Possehl 1977/2002, Mughal 1970, Wright 2010, Kenoyer 1998'e atıf) - https://pmc.ncbi.nlm.nih.gov/articles/PMC7643715/",
+   "alinti2": "alternatively referred to as ‘Early Harappan’ (3200–2600 BC), ‘Mature Harappan’ (2600–1900 BC) (or ‘Harappa phase’ after Kenoyer 1998 , 26), and ‘Late Harappan’ periods (1900–1600 BC)",
+   "oneri_son": {
+    "f": "-2599-01-01",
+    "t": "-1899-01-01",
+    "d": "harappa"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Eupen": [
@@ -44559,7 +44691,7 @@
    "d": "baekje",
    "f": "0538-01-01",
    "t": "2000-12-31",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "—",
    "alinti": "",
    "oneri": {
@@ -44568,7 +44700,7 @@
     "d": null,
     "isg": null
    },
-   "not": "HEDEF DÖNEM YOK: 9 dönemin hepsinin mevcut_kaynak alanı dolu ve birincil kaynaklı (Samguk sagi, Goryeosa, Sillok, İlhak Antlaşması, FRUS) — brif gereği kaynaklı dönem baştan doğrulanmadı. AD KARIŞMASI yok: Sabi = Buyeo (36.275, 126.91), Baekje başkenti 538'den. Not: 1910-08-29 (ilhak yürürlüğü) ve 1948-08-15 satırları KURAL TEK KURAL ile uyumlu; Joseon f=1392-08-05 mevcut kayıtta Ganzhi çevirisi yapılmış (takvim kuralı: elle çevirme yasak; çevrilmiş gün Academia Sinica ile doğrulanmalı) — açıkça çelişki değil, beyan eksiği olabilir.",
+   "not": "ANTİK A (KAYNAKLI): Yıl düzeyi teyit: f = Seong'un Sabi'ye taşınması 538; t = 660 (Baekje'nin ölümü, aynı madde: 660 Nadang ittifakı). Gün (0660-08-29) bu maddede yok; künye ic_not_t'de Samguk sagi 7/7/18 olarak beyanlı, ay-güneş günü ÇEVRİLMEDİ. DİKKAT: girdideki t=2000-12-31 veri dosyasıyla uyuşmuyor (dosyada baekje dönemi t=0660-08-29, ardından tang); baekje künyesi t=0660-08-29 olduğundan t=2000-12-31 gerçek olsaydı HAYALET olurdu; girdi aktarım artefaktı sanılıyor, KASA dosyada doğrulasın. Hayalet denetimi: baekje f -0017-01-01, t 0660-08-29 (devletler.js:20495); 0538-0660 kapsanır. · HEDEF DÖNEM YOK: 9 dönemin hepsinin mevcut_kaynak alanı dolu ve birincil kaynaklı (Samguk sagi, Goryeosa, Sillok, İlhak Antlaşması, FRUS) — brif gereği kaynaklı dönem baştan doğrulanmadı. AD KARIŞMASI yok: Sabi = Buyeo (36.275, 126.91), Baekje başkenti 538'den. Not: 1910-08-29 (ilhak yürürlüğü) ve 1948-08-15 satırları KURAL TEK KURAL ile uyumlu; Joseon f=1392-08-05 mevcut kayıtta Ganzhi çevirisi yapılmış (takvim kuralı: elle çevirme yasak; çevrilmiş gün Academia Sinica ile doğrulanmalı) — açıkça çelişki değil, beyan eksiği olabilir.",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "T_DEGISTI",
@@ -44578,7 +44710,16 @@
      "f": "0538-01-01",
      "t": "0660-08-29"
     }
-   }
+   },
+   "kaynak2": "Encyclopedia of Korean Culture (AKS), «백제» (Baekje), https://encykorea.aks.ac.kr/Article/E0022355 (sayfa.py ham metin)",
+   "alinti2": "사비도읍기(泗沘都邑期: 538∼660) ... 시가지는 방리제(方里制)에 입각해 정비한 후 538년(성왕 16)에 천도하였다.",
+   "oneri_son": {
+    "f": "0538-01-01",
+    "t": "0660-08-29",
+    "d": "baekje"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Peşte": [
@@ -56595,7 +56736,7 @@
    "t": "2000-12-31",
    "hukum": "BULUNAMADI",
    "kaynak": "Treccani CAPUA md.",
-   "not": "Zincir -0026'da bitiyor; sonrası (Roma Prensipatı, Vandal 456 yıkımı, Saraceni 840) bu yerleşimde dönem YOK. Treccani Capua: 456 Genserico yıkımı, 840 Saraceni ('quella compiuta dai Saraceni nell’840') → eski şehir terk, Casilinum'a taşınma. Bu parti dosyasında hedef dönem yok; zincir tamamlanması KASA'ya.",
+   "not": "ANTİK A (HATALI_ONERI): YERLEŞİM VAR: Treccani 211'de Roma'ya teslim, siyasi özerklik kaybı, 59'da kolonya (deduzione), 456 Vandal Genserico tahribi atlatıldı, 840 Saraceni tahribi → halk Casilinum'a sığındı (sonraki Santa Maria Capua Vetere/Kapua). Bu cümle ÜLKE/YERLEŞİM DÜZEYİ varlık teyididir, sahip değiştiren uç tarihlemez → KAYNAKLI değil. Roma-imp ve bati-roma segmentleri künye f/t'den (hayalet yok: roma-cumhuriyeti t -0026-01-16, roma-imp f -0026-01-16 t 0395-01-17, bati-roma t 0476-09-04) ÜLKE DÜZEYİ ONERI; 456 Vandal tahribi sahiplik devri değil (baskın). 476 sonrası: gece-66 kuralı (Ostrogot t 0552-10-01, Lombard) Capua için şehre özgü tanıklık bulunamadı; ABİ MERKEZ+BEYAN gerekir. Değişmez 2 (kronoloji maddesi) için: -0026-01-16 Augustus unvanı maddesi mevcutsa yeterli, KASA doğrulasın. Vandal ele geçirişi 456 Mart? gün aranmadı. · Zincir -0026'da bitiyor; sonrası (Roma Prensipatı, Vandal 456 yıkımı, Saraceni 840) bu yerleşimde dönem YOK. Treccani Capua: 456 Genserico yıkımı, 840 Saraceni ('quella compiuta dai Saraceni nell’840') → eski şehir terk, Casilinum'a taşınma. Bu parti dosyasında hedef dönem yok; zincir tamamlanması KASA'ya.",
    "dosya_satir": "data/yerlesimler_mo_zincir.js:24",
    "oneri": {},
    "alinti": "",
@@ -56604,7 +56745,31 @@
     "agac": "afe2b86f1",
     "uygulandi": null,
     "yeni": null
-   }
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Capua» (https://www.treccani.it/enciclopedia/capua/), sayfa.py ile okundu",
+   "alinti2": "Superò la devastazione di Genserico (456) ma quella compiuta dai Saraceni nell’840 costrinse gli abitanti a cercare rifugio a Casilinum.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "roma-cumhuriyeti",
+     "f": "-0337-01-01",
+     "t": "-0026-01-16"
+    },
+    {
+     "alan": "s",
+     "d": "roma-imp",
+     "f": "-0026-01-16",
+     "t": "0395-01-17"
+    },
+    {
+     "alan": "s",
+     "d": "bati-roma",
+     "f": "0395-01-17",
+     "t": "0476-09-04"
+    }
+   ],
+   "dogrusu": "Girdi satırı d:'' (boş devlet) ve f -0026-01-01 → t 2000-12-31: devletsiz dönem geçersiz; yerleşim 840'a dek var olduğundan (Treccani) 'YOK_O_DEVIRDE' da değildir. Doğrusu: roma-cumhuriyeti t -0026-01-16 (künye t; şu an satır -0026-01-01 → 15 günlük DELİK) ve ardından roma-imp -0026-01-16 → 0395-01-17, bati-roma 0395-01-17 → 0476-09-04. Sonrası (Odoakar/Ostrogot/Bizans/Lombard/Benevento-Kapua) bu turda kaynakla bulunamadı.",
+   "_etiket": "HATALI_ONERI"
   }
  ],
  "Benevento": [
@@ -58533,7 +58698,7 @@
    "kaynak": "Bu partide okunmadı: yerleşimin hiçbir dönemi kaynaksız/DEVRALMA değil (HEDEF yok)",
    "alinti": "",
    "oneri": {},
-   "not": "Yarlung (Nêdong/Tsetang) 7 döneminin hepsi kaynaklı (Snellgrove & Richardson 1968, Britannica atfı, Ohio State Origins/Lama); 7 dönemden biri BOŞLUK beyanlı (0842-1264). Kaynaklı dönemi baştan doğrulamak brife göre hedef değil; açık çelişen bir şey okunmadı. AD KARIŞMASI yok (Yarlung vadisi/Tsetang koordinatı uyumlu).",
+   "not": "ANTİK A (BULUNAMADI): BOSLUK 0842-1264 için baktım: Treccani «Tibet» (https://www.treccani.it/enciclopedia/tibet/, gövde okundu, Yarlung/842/Langdarma/Tsetang anahtarlarının hiçbiri geçmedi); Iranica tibet-i slug'ı 404. Nedong'un Phagmodrupa merkezi olması (tibet künye baskent Nêdong, f 1354) kayıtta var. Yarlung yerleşimi bu aralıkta var (yarlung vadisi kutsal merkez), sahibi kaynakta bulunamadı: BOSLUK_KALIR eşdeğeri. Hayalet: yarlung-krallik f -0126 t 0629 (satır 0500 kapsar), tibet-imparatorlugu f 0629 t 0842, sakya 1264-1354, tibet 1354-1642 (Nêdong başkent), tibet-ganden-phodrang 1642-1959-03-28 (satır t 1951-05-23, künye içinde). · Yarlung (Nêdong/Tsetang) 7 döneminin hepsi kaynaklı (Snellgrove & Richardson 1968, Britannica atfı, Ohio State Origins/Lama); 7 dönemden biri BOŞLUK beyanlı (0842-1264). Kaynaklı dönemi baştan doğrulamak brife göre hedef değil; açık çelişen bir şey okunmadı. AD KARIŞMASI yok (Yarlung vadisi/Tsetang koordinatı uyumlu).",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -61947,11 +62112,11 @@
    "d": "yangshao",
    "f": "-4799-01-01",
    "t": "-4299-01-01",
-   "hukum": "BAKILMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Parti dosyası: dönem kaynaklı (Liu X., Reid R. 2020, PLOS ONE, Tablo 1; doi:10.1371/journal.pone.0240930)",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK: tek dönem zaten kaynaklı (kaynak alanı dolu, DEVRALMA değil). Ad kontrolü: koordinat (34.2744, 109.0475) Xi'an Banpo höyüğüyle uyumlu, AD KARIŞMASI yok. Bütçe nedeniyle kaynaklı dönemi baştan doğrulamadım; araç çağrısı harcanmadı.",
+   "not": "ANTİK A (KAYNAKLI): Mevcut kaynaklı dönem doğrulandı: tablo satırı Banpo için Yangshao, 4800–4300 (cal BC) veriyor; MÖ 4800 = -4799, MÖ 4300 = -4299, atlas değerleriyle birebir. [kalibre, yaklaşık, aralık] — yüzyıl düzeyi; tarih uydurma yok. Hayalet devlet denetimi: devletler.js yangshao f=-4999-01-01, t=-2899-01-01; dönem bu aralığın içinde, künye aşımı yok. Tek dönem, çakışma/delik/sıfır uzunluk yok. Uyarı: devletler.js yangshao kaydı kendi notunda 5000-2900 (Sun vd. 2025) ile 5000-2700 (Xiong vd. 2025) çelişkisini beyan ediyor; bu satırı etkilemez. Ad: koordinat Xi'an Banpo ile uyumlu. İkinci bağımsız kaynak: UNESCO adaylık sayfası denendi, zaman aşımı; bulunamadı. Önceki BAKILMADI hükmü KAYNAKLI'ya çevrildi. Küçük düzeltme önerisi: mevcut kaynak metnindeki 'Tablo 1' etiketi yanlış görünüyor; PLOS Tablo 1 MÖ 5000 öncesi verileri, Banpo Tablo 2 (5000-2000) içindedir (satır 'Banpo 20 A Shaanxi Yangshao 4800–4300'). KASA kaynak alanında 'Tablo 2' yazabilir (tablo numarasını ham metinde başlıktan çıkardım; hücreyi görsel doğrulamadım). · Hedef dönem YOK: tek dönem zaten kaynaklı (kaynak alanı dolu, DEVRALMA değil). Ad kontrolü: koordinat (34.2744, 109.0475) Xi'an Banpo höyüğüyle uyumlu, AD KARIŞMASI yok. Bütçe nedeniyle kaynaklı dönemi baştan doğrulamadım; araç çağrısı harcanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -61960,7 +62125,16 @@
      "f": "-4799-01-01",
      "t": "-4299-01-01"
     }
-   }
+   },
+   "kaynak2": "Liu X., Reid R. 2020, PLOS ONE 15(11):e0240930, doi:10.1371/journal.pone.0240930, Tablo 2 (5000-2000 cal BC arası insan C/N izotop verileri); ham metin Europe PMC fullTextXML PMC7641357 (https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7641357/fullTextXML)",
+   "alinti2": "Banpo 20 A Shaanxi Yangshao 4800–4300 9.1 - -15.0 - 1 [ 42 ]",
+   "oneri_son": {
+    "f": "-4799-01-01",
+    "t": "-4299-01-01",
+    "d": "yangshao"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Goryeong (Daegaya)": [
@@ -61970,11 +62144,11 @@
    "d": "gaya-konfederasyonu",
    "f": "0500-01-01",
    "t": "0562-01-01",
-   "hukum": "BAKILMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Parti dosyası: 8 dönemin hepsi kaynaklı (Goryeosa, Samguk sagi, Nihon Shoki, Joseon Wangjo Sillok, Avalon Project, FRUS 1948)",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem YOK (kaynak boş/DEVRALMA olan dönem yok). Ad kontrolü: koordinat (35.731, 128.269) Goryeong-gun (Daegaya merkezi) ile uyumlu, AD KARIŞMASI yok. Bütçe nedeniyle kaynaklı dönemler baştan doğrulanmadı. Gözlem (kaynaklı dönemlerle çelişki değil): Joseon f=1392-08-05 satırında ay-güneş günü (1392/7/17, 丙申) Jülyen'e çevrilmiş; Takvim kuralı (1582 öncesi kaynaktaki gün yazılır, toplu çevirme yok / Çin-Kore ay-güneş çevirisi EMRELİC'te toplu) bu satır için gözden geçirilmeli — KURAL KARARI: EMRELİC toplu çeviriye bıraktı, mevcut satır ajan çevirisi içeriyor.",
+   "not": "ANTİK A (KAYNAKLI): t=562 (Silla'nın Daegaya'yı yıkması) yıl düzeyinde teyit; madde Gimhae'nin 532 teslimini ayrı olay sayar (Garak-guk gi 562/532 karışıklığını açıklar). Gün: Samguk sagi 9. ay, Nihon Shoki Kinmei 23 1. ay (künye ic_not'ta çelişki beyanlı); satır 0562-01-01 yıl hassasiyetinde, doğru. LoC Country Studies Gaya'yı yalnız '6. yüzyılda komşularca soğurulduğu' diye verir (yıl yok). f=0500 ufuk işareti, teyit edilmedi. Hayalet: gaya-konfederasyonu f 0042 t 0562-01-01 (devletler.js:25233) satırı tam kapsar; silla f -0056 t 0936-01-08. · Hedef dönem YOK (kaynak boş/DEVRALMA olan dönem yok). Ad kontrolü: koordinat (35.731, 128.269) Goryeong-gun (Daegaya merkezi) ile uyumlu, AD KARIŞMASI yok. Bütçe nedeniyle kaynaklı dönemler baştan doğrulanmadı. Gözlem (kaynaklı dönemlerle çelişki değil): Joseon f=1392-08-05 satırında ay-güneş günü (1392/7/17, 丙申) Jülyen'e çevrilmiş; Takvim kuralı (1582 öncesi kaynaktaki gün yazılır, toplu çevirme yok / Çin-Kore ay-güneş çevirisi EMRELİC'te toplu) bu satır için gözden geçirilmeli — KURAL KARARI: EMRELİC toplu çeviriye bıraktı, mevcut satır ajan çevirisi içeriyor.",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -61984,7 +62158,16 @@
      "f": "0500-01-01",
      "t": "0562-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopedia of Korean Culture (AKS), «대가야» (Daegaya), https://encykorea.aks.ac.kr/Article/E0013970 (sayfa.py ham metin); Samguk sagi 卷04 Jinheung 23 (zh.wikisource.org/wiki/三國史記/卷04, okundu)",
+   "alinti2": "『삼국사기』신라본기에는 562년(진흥왕 23) 가야가 배반했기 때문에 이사부(異斯夫)에게 명해 사다함(斯多含)과 함께 쳐서 멸망시켰다고 했는데, 여기에서 말하는 가야는 고령의 대가야임에 틀림없다.",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "0562-01-01",
+    "d": "gaya-konfederasyonu"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Cidde": [
@@ -76591,7 +76774,7 @@
    "kaynak": "Hedef dönem yok: iki dönemin de kaynağı dolu (Martin & Grube 2008)",
    "alinti": "",
    "oneri": {},
-   "not": "Kaynağı boş/DEVRALMA dönem yok; ek tarama yapılmadı. dosya_satir parti dosyasında 'None'. AD KARIŞMASI yok (koordinat Tikal/Guatemala).",
+   "not": "ANTİK A (ONERI): BOSLUK 0869 → 1001: Treccani 'Dopo la fine dell’8° sec. ebbe inizio la fase di decadenza: nel giro di un secolo tutti i principali siti delle pianure centrali ... venendo progressivamente abbandonati' — ÜLKE DÜZEYİ, Tikal'a özgü terk tarihi yok; metin '(l’ulti…' diye kesildi → BOSLUK_KALIR (YOK_O_DEVIRDE değil: Tikal-özgü kaynak yok). f 0292: ilk tarihli stel (alt sınır, KURULUŞ DEĞİL) → ONERI; künye tikal-mutul f 0090-01-01 (tartışmalı) ile satır f 0292 arasındaki fark ilk-tarihli-kanıt kuralıdır. Hayalet: tikal-mutul t 0869-01-01 satırla birebir. Martin & Grube 2008 kapalı kaynak, archive.org'da denenmedi. · Kaynağı boş/DEVRALMA dönem yok; ek tarama yapılmadı. dosya_satir parti dosyasında 'None'. AD KARIŞMASI yok (koordinat Tikal/Guatemala).",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -76601,7 +76784,18 @@
      "f": "0292-01-01",
      "t": "0869-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani, Enciclopedia on line, «Maya» (https://www.treccani.it/enciclopedia/maya/), sayfa.py ile okundu",
+   "alinti2": "Il principale centro del Petén fin dagli inizi dell’epoca classica fu Tikal (la prima stele datata risale al 292 d.C.)",
+   "oneri_son": {
+    "d": "tikal-mutul",
+    "f": "0292-01-01",
+    "t": "0869-01-01"
+   },
+   "tarayici_gerekli": [
+    "Martin & Grube 2008 Chronicle of the Maya Kings (Emre girişi gerekebilir)"
+   ],
+   "uc": "f"
   }
  ],
  "Sâve": [
@@ -78296,7 +78490,7 @@
    "kaynak": "bakılmadı: tek dönem kaynaklı (Mesia-Montenegro & Sanchez-Borjas 2023, Antiquity)",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dışı (kaynaklı). Koordinat -9.9308,-76.2794 Kotosh (Huánuco), AD KARIŞMASI yok.",
+   "not": "ANTİK A (BULUNAMADI): Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Mesia-Montenegro & Sanchez-Borjas 2023 (Antiquity) mevcut; MÖ 2800-550 dönem toplamı, astronomik yıl -2799/-0549 doğru (MÖ n = -(n-1)). Künye kotosh-dini-gelenek f=-2799 t=-0549 (devletler.js:22409), hayalet devlet yok. Sahiplik kültür künyesi (sahip kavramı yok). · Hedef dışı (kaynaklı). Koordinat -9.9308,-76.2794 Kotosh (Huánuco), AD KARIŞMASI yok.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -78319,7 +78513,7 @@
    "kaynak": "bakılmadı: tek dönem kaynaklı (Chen Minzhen 2020, Huaxia Kaogu 2020(2))",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dışı (kaynaklı). Koordinat 34.6925,112.69 Erlitou (Yanshi, Henan), AD KARIŞMASI yok.",
+   "not": "ANTİK A (BULUNAMADI): Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Chen Minzhen 2020 (Huaxia Kaogu) mevcut. Künye erlitou-kultur f=-1749 t=-1519 (devletler.js:22296) uyumlu, hayalet yok. MÖ 1750/1520 -> -1749/-1519 doğru. Kaynak seri-uydurma 14C kronolojisi kullanır (Xia-Shang-Zhou Projesi'nden farklı olabilir; ic_not'ta beyan). · Hedef dışı (kaynaklı). Koordinat 34.6925,112.69 Erlitou (Yanshi, Henan), AD KARIŞMASI yok.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -83498,7 +83692,7 @@
    "kaynak": "Treccani Enciclopedia on line, 'Ugarit' (treccani.it/enciclopedia/ugarit/); mevcut kaynak: Manning 2023 (1193-1186 BC)",
    "alinti": "L’invasione dei ‘popoli del mare’ verso il 1180 a.C. portò alla sua definitiva distruzione.",
    "oneri": {},
-   "not": "TDV'de Ugarit maddesi YOK (tdv-ara 'ugarit' yalnız 23 geçiş eşleşmesi). t: Treccani 'yaklaşık -1180' ile atlasın mevcut Manning 2023 -1189 (1193-1186) kaynağı çelişir (~9 yıl); mevcut KAYNAKLI dilim olduğu için değiştirme önerilmedi; ic_not'ta iki konvansiyon (Treccani ~1180, Manning 1193-1186) beyanı yeterli. f=-1349 (kur) DEVRALMA/künye: Treccani 'metà 14° sec. a.C. terremoto' ve 'Hitit yörüngesi' diyor ama krallık başlangıcı -1349 değil; f için kaynak BULUNAMADI (Britannica ve archive.org aramaları 403/boş; zorlanmadı). AD KARIŞMASI yok: 35.60/35.79 = Ras Shamra (Lazkiye kuzeyi, Treccani 'Ras Shamra'). Antik konvansiyon: Hitit — Bryce (2005), Mısır — Shaw; Ugarit için ayrı konvansiyon beyanı gerek.",
+   "not": "ANTİK A (CELISKI): Treccani t'yi 'verso il 1180 a.C.' diye yıl düzeyinde yaklaşık tarihler (-1179); mevcut t=-1189 Manning'e dayanır: ~9 yıl fark, CELISKI. f=-1349: Treccani yalnız 'metà 14° sec. a.C.' depremini ve Hitit yörüngesini söyler, krallık başlangıcını tarihlemez (Niqmaddu/1350 Treccani'de YOK) -> f ucu teyitsiz (ONERI düzeyi). Künye ugarit f=-1349 t=-1189 hayalet değil. Treccani 'Ras Shamra' maddesi çekilemedi (ana sayfa döndü). · TDV'de Ugarit maddesi YOK (tdv-ara 'ugarit' yalnız 23 geçiş eşleşmesi). t: Treccani 'yaklaşık -1180' ile atlasın mevcut Manning 2023 -1189 (1193-1186) kaynağı çelişir (~9 yıl); mevcut KAYNAKLI dilim olduğu için değiştirme önerilmedi; ic_not'ta iki konvansiyon (Treccani ~1180, Manning 1193-1186) beyanı yeterli. f=-1349 (kur) DEVRALMA/künye: Treccani 'metà 14° sec. a.C. terremoto' ve 'Hitit yörüngesi' diyor ama krallık başlangıcı -1349 değil; f için kaynak BULUNAMADI (Britannica ve archive.org aramaları 403/boş; zorlanmadı). AD KARIŞMASI yok: 35.60/35.79 = Ras Shamra (Lazkiye kuzeyi, Treccani 'Ras Shamra'). Antik konvansiyon: Hitit — Bryce (2005), Mısır — Shaw; Ugarit için ayrı konvansiyon beyanı gerek.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -83507,7 +83701,16 @@
      "f": "-1349-01-01",
      "t": "-1189-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, 'Ugarit' (https://www.treccani.it/enciclopedia/ugarit/); karşı: Manning 2023 (atlas kaynağı, künye ugarit, devletler.js:20765)",
+   "alinti2": "L’invasione dei ‘popoli del mare’ verso il 1180 a.C. portò alla sua definitiva distruzione. [Treccani, ham metin] / Manning 2023 (atlastan, ham okunmadı): 'the destruction of the major coastal centre of Ugarit has been argued to lie between ~1193 and 1186 bc'",
+   "dogrusu": "t değişmesin: -1189 (Manning 1193-1186 BC) kaynaklı kalır; Treccani 'verso il 1180' (=-1179, [yaklaşık]) ic_not'ta iki kaynağıyla beyan edilir.",
+   "tarayici_gerekli": [
+    "Bryce 2005 (Hitit vasallığı, f ~1350) ia-oku denenmedi (bütçe); kapalıysa Emre girişi",
+    "Ugarit için kronoloji konvansiyonu beyanı gerek (Orta kronoloji/kronik yılı)"
+   ],
+   "uc": "t",
+   "_etiket": "CELISKI"
   }
  ],
  "Trondheim": [
@@ -90857,7 +91060,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "HEDEF DÖNEM YOK: 5 dönemin hepsinin kaynağı dolu (TDV «Maldivler», Casim Avcı; Portekiz 1558-1573 BEYANLI YAKLAŞIKLIK kaynaklı, 1968-11-11 Cumhurbaşkanlığı Ofisi). Okunan: parti dosyasındaki mevcut kaynak metinleri. Kaynaklı dönemler baştan doğrulanmadı. AD KARIŞMASI KONTROLÜ: kronolojide \"Malé\" 4 dosyada Maldivler Malé'si olarak geçer (yer_id \"Malé\", Maldivler 1968 cumhuriyet); \"Male\" yazımı yalnız Flandre Kontu Louis de Male (kişi) — Malé yerleşiminin dönemlerine karışmaz, AD KARIŞMASI yok (anılma sayımı kişi adı \"Louis de Male\" ile şişmiş olabilir).",
+   "not": "ANTİK A (BULUNAMADI): Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. 5 dönemin hepsi kaynaklı (TDV Maldivler). Hedef dönem yok. Künye maldivler-budist devletler.js:26714'te var (f/t bu turda ölçülmedi). Girdide dosya_satir satır numarasız geldi; KASA arayacak. · HEDEF DÖNEM YOK: 5 dönemin hepsinin kaynağı dolu (TDV «Maldivler», Casim Avcı; Portekiz 1558-1573 BEYANLI YAKLAŞIKLIK kaynaklı, 1968-11-11 Cumhurbaşkanlığı Ofisi). Okunan: parti dosyasındaki mevcut kaynak metinleri. Kaynaklı dönemler baştan doğrulanmadı. AD KARIŞMASI KONTROLÜ: kronolojide \"Malé\" 4 dosyada Maldivler Malé'si olarak geçer (yer_id \"Malé\", Maldivler 1968 cumhuriyet); \"Male\" yazımı yalnız Flandre Kontu Louis de Male (kişi) — Malé yerleşiminin dönemlerine karışmaz, AD KARIŞMASI yok (anılma sayımı kişi adı \"Louis de Male\" ile şişmiş olabilir).",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -90905,7 +91108,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "HEDEF DÖNEM YOK: tek dönem (jeitun-kultur -6098 → -5926) Heit 2019 (OxCal) kaynaklı. AD KARIŞMASI: yok — kronolojide \"Jeitun\" yalnız olaylar_arkeoloji_d2-iran-orta-asya.js içinde Kopet Dağ Neolitik Jeitun Kültürü olarak geçer (Ermeni/Maraş \"Zeytun\" ile yazım karışmaz). Kaynaklı dönem baştan doğrulanmadı.",
+   "not": "ANTİK A (BULUNAMADI): Kaynaklı dönem; bu turda baştan doğrulanmadı (hedef dışı), hüküm fiilen BAKILMADI. Tek kaynak Heit 2019 (OxCal, Sidestone) mevcut. Künye jeitun-kultur f=-6098 t=-5926 (devletler.js:22256) uyumlu, hayalet yok. Uçlar OxCal modelinin başlangıç/bitiş değerleri (kalibre MÖ yıl); astronomik dönüşüm doğru. · HEDEF DÖNEM YOK: tek dönem (jeitun-kultur -6098 → -5926) Heit 2019 (OxCal) kaynaklı. AD KARIŞMASI: yok — kronolojide \"Jeitun\" yalnız olaylar_arkeoloji_d2-iran-orta-asya.js içinde Kopet Dağ Neolitik Jeitun Kültürü olarak geçer (Ermeni/Maraş \"Zeytun\" ile yazım karışmaz). Kaynaklı dönem baştan doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -107196,11 +107399,11 @@
    "d": "linyi-champa",
    "f": "0500-01-01",
    "t": "1000-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "ANTİK — ayrı tur (başlangıç 0500, 600 öncesi); bu partide dokunulmadı.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ. Coedès Huế bölgesini de anar (Böl. V-5, 446: 'the capital, situated in the region of Hue'). 1000 = başkentin Indrapura'dan Vijaya'ya taşınması (künye campa f ic_not_f ile aynı olay); bu uç DEVİR DEĞİL: Huế aynı polity'de kalır, linyi-champa→campa yalnız künye bölünmesidir. 758 Linyi→Huanwang ve 875 Chan-ch'eng Çince ad değişimleridir, sahip değişimi değil. 605 Sui işgali (Liu Fang) kısa süreli, devir sayılmaz. Hayalet: linyi-champa f 0192-01-01, t 0999-12-31 (devletler.js:20547) satırı kapsar; t=1000-01-01 campa f ile bitişik. f=0500 ufuk işareti, teyit edilmedi. · ANTİK — ayrı tur (başlangıç 0500, 600 öncesi); bu partide dokunulmadı.",
    "dosya_satir_eski": "data/yerlesimler_asya.js:3907",
    "tazeleme": {
     "durum": "AYNI",
@@ -107210,7 +107413,16 @@
      "f": "0500-01-01",
      "t": "1000-01-01"
     }
-   }
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center, 1968), archive.org/details/theindianizedstatesofsoutheastasia djvu metni (ia-oku), Böl. VI-6 (Thua-thien), Böl. IX-2 (Champa from 1000)",
+   "alinti2": "Until that time, the heart of the Cham kingdom had been located at Thua-thien and then at Quang-nam. ‖ The king Yang Pu Ku Vijaya, ... evacuated Indrapura (Quang-nam) in the year 1000 to establish himself at Vijaya (Binh-dinh).",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3906",
@@ -115126,7 +115338,7 @@
    "kaynak": "TDV «Semendire» (okundu)",
    "alinti": "Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı (16 Rebîülevvel 843 / 27 Ağustos 1439).",
    "oneri": {},
-   "not": "BÖLGE CÜMLESİ (Semendire düşüşü), Rudnik adıyla tanıklık BULUNAMADI. BEYANLI YAKLAŞIKLIK: 1439'da Osmanlı'ya geçen toprak Semendire ve çevresi; Valjevo/Rudnik bu kapsamda kaynak göstermiyor. GÜN: 27 Ağustos 1439 (hicrî 16 Rebîülevvel 843) çift tarih TDV'de.",
+   "not": "ANTİK A (ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). 1439-08-27 yalnız Semendire kalesi. Fetret emsali: yerleşime özgü değil, KAYNAKLI sayılmadı. f=1281-01-01 yıl-temsilî (atlas ufku; Nemanjić künyesi 1166'dan beri); Rudnik madeninin Sırp kayıtları bu turda okunmadı. · BÖLGE CÜMLESİ (Semendire düşüşü), Rudnik adıyla tanıklık BULUNAMADI. BEYANLI YAKLAŞIKLIK: 1439'da Osmanlı'ya geçen toprak Semendire ve çevresi; Valjevo/Rudnik bu kapsamda kaynak göstermiyor. GÜN: 27 Ağustos 1439 (hicrî 16 Rebîülevvel 843) çift tarih TDV'de.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115135,7 +115347,14 @@
      "f": "1281-01-01",
      "t": "1439-08-27"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "Topların kullanıldığı üç aylık bir kuşatmanın ardından şehir Osmanlılar tarafından alındı (16 Rebîülevvel 843 / 27 Ağustos 1439).",
+   "oneri_son": {
+    "t": "1439-08-27"
+   },
+   "dogrusu": "Gün kalır ama kaynak yalnız Semendire'nin düşüşünü tarihler; Rudnik için 'ABİ MERKEZ Semendire, BEYANLI YAKLAŞIKLIK'. Ayrıca d:'sirbistan' künye id'si değil, harita anahtarıdır (devletler.js'te id yok; sirbistan-nemanjic 1166-1402 ve sirp-despotlugu 1402-1459 künyelerinin harita: değeri). Künyeye bölmek gerekirse: 1281-01-01→1402-01-01 sirbistan-nemanjic, 1402-01-01→1439-08-27 sirp-despotlugu (İvranye emsali).",
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115147,7 +115366,7 @@
    "kaynak": "TDV «Semendire» (okundu)",
    "alinti": "",
    "oneri": {},
-   "not": "Bölge cümlesi: 1439-1444 Osmanlı idaresi (Semendire sancağı); Rudnik özelinde BULUNAMADI. Rakip/Macar iddiası 1444'ten önce.",
+   "not": "ANTİK A (ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). Kaynaksız d: dönemi, y:'kusatma'. ÖLÇÜT: idareye katma belgesi (tahrir) Rudnik için yok; mevcut yazım BEYANLI YAKLAŞIKLIK olarak kalmalı. · Bölge cümlesi: 1439-1444 Osmanlı idaresi (Semendire sancağı); Rudnik özelinde BULUNAMADI. Rakip/Macar iddiası 1444'ten önce.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115156,7 +115375,11 @@
      "f": "1439-08-27",
      "t": "1444-08-15"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "15 Ağustos 1444’te Haçlı ordularının tehdidi altındaki II. Murad, Đurađ ile barış yaptı; ona yirmi dört önemli kalesiyle birlikte Semendire’yi ve işgal altındaki diğer Sırp topraklarını geri verdi.",
+   "dogrusu": "Değişiklik önerilmez; 'diğer Sırp topraklarını geri verdi' t'yi bölge düzeyinde destekler, Rudnik 24 kale listesinde teyit edilmedi.",
+   "uc": "f+t"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115168,7 +115391,7 @@
    "kaynak": "TDV «Semendire» (okundu)",
    "alinti": "15 Ağustos 1444’te ... II. Murad Đurađ ile barış yaptı; ona yirmi dört önemli kalesiyle birlikte Semendire’yi ve işgal altındaki diğer Sırp topraklarını geri verdi.",
    "oneri": {},
-   "not": "f GÜN teyit (15 Ağustos 1444, BÖLGE DÜZEYİ). t GÜN teyit: 20 Haziran 1459 (Helena kaleyi teslim etti). NOT: TDV 'Sırp despotu Osmanlı vasalı olmayı ve vergi vermeyi kabul etti' -> 1444-59 tâbi (v) olabilir; KASA sınıflama kararı. Rudnik özel tanıklık yok.",
+   "not": "ANTİK A (ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). f=1444-08-15 ve t=1459-06-20 ikisi de TDV Semendire. 1454-55 Osmanlı akınları (TDV: 1454'te 20.000 kişilik sefer) Rudnik'te ara kesinti yaratmış olabilir; ölçülmedi. · f GÜN teyit (15 Ağustos 1444, BÖLGE DÜZEYİ). t GÜN teyit: 20 Haziran 1459 (Helena kaleyi teslim etti). NOT: TDV 'Sırp despotu Osmanlı vasalı olmayı ve vergi vermeyi kabul etti' -> 1444-59 tâbi (v) olabilir; KASA sınıflama kararı. Rudnik özel tanıklık yok.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115177,7 +115400,11 @@
      "f": "1444-08-15",
      "t": "1459-06-20"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "20 Haziran 1459’da Lazar Brankoviç’in dul eşi Helena kaleyi Osmanlılar’a teslim etti.",
+   "dogrusu": "Künye sirp-despotlugu f=1402-01-01 t=1459-06-20: dönem künye ömrü içinde, hayalet yok. Tarihler Semendire düzeyinde teyitli; Rudnik için ABİ MERKEZ Semendire BEYANLI YAKLAŞIKLIK.",
+   "uc": "f+t"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115191,7 +115418,7 @@
    "oneri": {
     "not": "t: 1717-08 Ağustos (Semendire'nin terki); gün 18 TDV'de yok"
    },
-   "not": "f GÜN 1459-06-20 teyit (Semendire). t: TDV 'Belgrad'ın düşüşünün hemen ardından ... Osmanlılar Semendire'yi yeniden terketti' -> AY 1717-08; atlas 1717-08-18 Belgrad günü: BÖLGE. Lehçe: Habsburg işgali sırasında Valjevo/Rudnik'in ne zaman Osmanlı'dan çıktığı kaynakta yok. Arada 1688-91 Habsburg işgali (Büyük Türk Savaşı) atlasta yok; kaynak okunmadı.",
+   "not": "ANTİK A (ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). f=1459-06-20 Semendire teslimi. Rudnik'in Osmanlı sancak/nahiye bağı Semendire sancağıyla (1521) belgeli; 1459-1521 arası yerel teyit yok. t=1717-08-18 Belgrad'ın düşüşü, Rudnik'e özgü değil. · f GÜN 1459-06-20 teyit (Semendire). t: TDV 'Belgrad'ın düşüşünün hemen ardından ... Osmanlılar Semendire'yi yeniden terketti' -> AY 1717-08; atlas 1717-08-18 Belgrad günü: BÖLGE. Lehçe: Habsburg işgali sırasında Valjevo/Rudnik'in ne zaman Osmanlı'dan çıktığı kaynakta yok. Arada 1688-91 Habsburg işgali (Büyük Türk Savaşı) atlasta yok; kaynak okunmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115200,7 +115427,11 @@
      "f": "1459-06-20",
      "t": "1717-08-18"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "1459’dan 1521’e kadar çok önemli bir Osmanlı sancağının merkezi olmuş [Semendire]",
+   "dogrusu": "Değişiklik yok. 1683-99 savaşında Belgrad kısa süre Avusturya'ya geçti, 1690'da geri alındı (TDV Sırbistan); Rudnik için 1689-90 kaynaksız, YAZILMADI kalır.",
+   "uc": "f"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115223,9 +115454,9 @@
      "t": "1738-08"
     }
    },
-   "not": "YÜKSELTME TURU (ONERI): Valjevo ile aynı: okunmuş yeni kaynak yok; TEK ÖLÇÜ (imza 1718-07-21 + öncesi isg) ile 'antlaşma günü ölçüt değildir' arasında kural çatışması, Habsburg idaresinin Rudnik'e uzandığı gün kaynaksız, f=1717-08-18 Belgrad düşüş günüdür (Rudnik-özgü değil). Karar EMRELİC'in. · KURAL KARARI: TDV 'işgal' diyor; hukukî devir Pasarofça 21 Temmuz 1718 (bu oturumda kaynaktan okunmadı, genel bilgi). TEK KURAL: isg 1717-08-18 -> devir; s devirden. ANCAK 'Antlaşma günü ölçüt değildir' (Neoacquistica emsali): Habsburg Sırbistan Krallığı idaresini fetihle birlikte kurduysa s fetih gününden. Belge (kamara/idare) bu oturumda okunmadı -> hüküm KASA/EMRELİC. Rudnik'in Habsburg Sırbistan'ında yer aldığı ayrıca doğrulanmadı. t YIL-AY 1738-08 teyit (TDV).",
-   "kaynak2": "",
-   "alinti2": "",
+   "not": "ANTİK A (HATALI_ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). ÖLÇÜT: idareye katma — Pasarofça 1718-07-21 (TDV); 1717-08-18 ÖLÇÜT: geçici/askerî. Hayalet yok: macaristan-habsburg f=1526-12-17 t=1918-11-16 (devletler.js:766). Belgrad Antlaşması 1739 (TDV yalnız yıl verir, gün teyitsiz) hukukî devri 1739'a taşır; 1738-08 fiilî Semendire dönüşü ic_not'a 'hukukî devir 1739' beyanıyla. Değişmez 2: kronoloji maddesi 1718-07-21 (Pasarofça) için gerekir, KASA'ya toplu not. · YÜKSELTME TURU (ONERI): Valjevo ile aynı: okunmuş yeni kaynak yok; TEK ÖLÇÜ (imza 1718-07-21 + öncesi isg) ile 'antlaşma günü ölçüt değildir' arasında kural çatışması, Habsburg idaresinin Rudnik'e uzandığı gün kaynaksız, f=1717-08-18 Belgrad düşüş günüdür (Rudnik-özgü değil). Karar EMRELİC'in. · KURAL KARARI: TDV 'işgal' diyor; hukukî devir Pasarofça 21 Temmuz 1718 (bu oturumda kaynaktan okunmadı, genel bilgi). TEK KURAL: isg 1717-08-18 -> devir; s devirden. ANCAK 'Antlaşma günü ölçüt değildir' (Neoacquistica emsali): Habsburg Sırbistan Krallığı idaresini fetihle birlikte kurduysa s fetih gününden. Belge (kamara/idare) bu oturumda okunmadı -> hüküm KASA/EMRELİC. Rudnik'in Habsburg Sırbistan'ında yer aldığı ayrıca doğrulanmadı. t YIL-AY 1738-08 teyit (TDV).",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan); 'Pasarofça Antlaşması' (https://islamansiklopedisi.org.tr/pasarofca-antlasmasi); 'Belgrad' (https://islamansiklopedisi.org.tr/belgrad)",
+   "alinti2": "Pasarofça Antlaşması (1718) sırasında Sırbistan’ın kuzey yarısı Avusturya’nın eline geçti [Sırbistan]. Avusturyalılar bu bölgede Ağustos 1738’e kadar kaldılar [Semendire].",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115234,7 +115465,15 @@
      "f": "1717-08-18",
      "t": "1738-08-01"
     }
-   }
+   },
+   "oneri_son": {
+    "f": "1718-07-21",
+    "t": "1738-08-01",
+    "d": "macaristan-habsburg"
+   },
+   "dogrusu": "TEK KURAL (işgal vs devir): 1717-08-18 Belgrad'ın düşüş günüdür (askerî işgal); egemenlik devri Pasarofça 1718-07-21 (TDV, imza günü). Doğrusu: d:osmanli + isg macaristan-habsburg 1717-08-18→1718-07-21, sonra s:macaristan-habsburg 1718-07-21→1738-08-01 [yalnız ay; fiilî Osmanlı dönüşü]. Rudnik'in Pasarofça sınırı içinde olduğu kaynakta adıyla geçmez: BEYANLI YAKLAŞIKLIK.",
+   "uc": "f",
+   "_etiket": "HATALI_ONERI"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115248,7 +115487,7 @@
    "oneri": {
     "bolunme": "1804→1813 Birinci Sırp Ayaklanması: Semendire sancağı (Valjevo/Rudnik nahiyeleri dahil) ayaklanmacıların elinde; atlas d:osmanli kesintisiz yazıyor — ayrı dönem (devlet kimliği: Sırp ayaklanma yönetimi atlasta aranmalı). 1813 sonrası Osmanlı geri döner, 1815 II. ayaklanmayla fiilî özerklik başlar"
    },
-   "not": "BAKILMADI TURU: TDV Sırbistan: 1804 Karadjordje isyanı → Semendire sancağının diğer bölgeleri zaptedildi; 1813'te isyan bastırıldı; 1815 II. isyan, ardından imtiyazlar genişletildi (Miloş başknez). Valjevo/Rudnik adı geçmiyor (Rudnik yalnız Semendire sancağı nahiyesi olarak geçer); BÖLGE DÜZEYİ. f=1738-08-01 ve t=1830-10-17: t TDV'de \"17 Ekim 1830 imtiyaz fermanı\" ile aynı gün (teyitli). ÇELİŞKİ: kesintisiz d:osmanli 1804-1813 arasında gerçeği yansıtmıyor. · eski: ÇELİŞKİ ADAYI (kaynaksız): 1788-91 Koča Krajina (Avusturya destekli), 1804-13 I. Sırp Ayaklanması (Valjevo/Rudnik merkez bölgeler) ve 1815 II. Ayaklanma atlasta sürekli Osmanlı d yazılı. İlgili kaynak (TDV 'Sırbistan', 'Karadjordje') bu oturumda okunmadı; ISG/özerk dönem eklenmesi için sınanmalı. 1830-10-17 ucu da okunmadı.",
+   "not": "ANTİK A (ONERI): BÖLGE/KOMŞU DÜZEYİ: Rudnik adı kaynak cümlesinde yok, Rudnik'e özgü tanıklık yok. TDV Sırbistan: 'Semendire, Belgrad, Jejne, Rudnik, Koyluca... nahiyeleri Semendire sancağını meydana getirdi' (1521 sonrası Osmanlı idarî bağı). t ucu ÜLKE DÜZEYİ KAYNAKLI aday. TDV Sırbistan: 1739 Belgrad Antlaşması ile kuzey Sırbistan'ın bir kısmı Osmanlı yönetimine geçti. 1815-17 fiilî muhtariyet ic_not'a (EMRELİC gece-36). · BAKILMADI TURU: TDV Sırbistan: 1804 Karadjordje isyanı → Semendire sancağının diğer bölgeleri zaptedildi; 1813'te isyan bastırıldı; 1815 II. isyan, ardından imtiyazlar genişletildi (Miloş başknez). Valjevo/Rudnik adı geçmiyor (Rudnik yalnız Semendire sancağı nahiyesi olarak geçer); BÖLGE DÜZEYİ. f=1738-08-01 ve t=1830-10-17: t TDV'de \"17 Ekim 1830 imtiyaz fermanı\" ile aynı gün (teyitli). ÇELİŞKİ: kesintisiz d:osmanli 1804-1813 arasında gerçeği yansıtmıyor. · eski: ÇELİŞKİ ADAYI (kaynaksız): 1788-91 Koča Krajina (Avusturya destekli), 1804-13 I. Sırp Ayaklanması (Valjevo/Rudnik merkez bölgeler) ve 1815 II. Ayaklanma atlasta sürekli Osmanlı d yazılı. İlgili kaynak (TDV 'Sırbistan', 'Karadjordje') bu oturumda okunmadı; ISG/özerk dönem eklenmesi için sınanmalı. 1830-10-17 ucu da okunmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -115257,7 +115496,14 @@
      "f": "1738-08-01",
      "t": "1830-10-17"
     }
-   }
+   },
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Semendire' (https://islamansiklopedisi.org.tr/semendire); 'Sırbistan' (https://islamansiklopedisi.org.tr/sirbistan)",
+   "alinti2": "Avusturyalılar bu bölgede Ağustos 1738’e kadar kaldılar. [Semendire] Nihayet 17 Ekim 1830’da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti. [Sırbistan]",
+   "oneri_son": {
+    "f": "1738-08-01"
+   },
+   "dogrusu": "f: TDV yalnız Ağustos 1738 (ay) der -> 1738-08-01 [yalnız ay]. t: 1830-10-17 ferman günü TDV Sırbistan'da var; ÜLKE DÜZEYİ. 1789-91 Avusturya işgali kaynaksız, YAZILMADI kalır.",
+   "uc": "f+t"
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:773",
@@ -115354,7 +115600,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "AD KARIŞMASI: 'Rudnik' birden çok yerin adıdır (Šumadija'daki Rudnik dağı/Rudnik madeni kasabası, Bosna/Polonya Rudnik'leri). Koordinat 44.1398/20.494 Sırbistan Rudnik'ine denk; kaynak aramaları 'Valyevo/Rudnik' adıyla boş döndü.",
+   "not": "ANTİK A (BULUNAMADI): Girdideki özgün satır alan='-' idi (AD KARIŞMASI notu: Rudnik dağı/madeni, Bosna ve Polonya Rudnik'leri; koordinat 44.1398/20.494 Šumadija Rudnik'i, TDV Sırbistan'ın Semendire sancağı 'Rudnik' nahiyesi ile aynı bölge). Dönemler yerleşimin s/d/v alanlarından açıldı; dosya_satir hep girdi satırı 773. Rudnik'e özgü sahiplik tanığı BULUNAMADI; bakılan: TDV semendire, sirbistan, belgrad, pasarofca-antlasmasi. Treccani/Iranica/Serbian arşiv denenmedi (bütçe). · AD KARIŞMASI: 'Rudnik' birden çok yerin adıdır (Šumadija'daki Rudnik dağı/Rudnik madeni kasabası, Bosna/Polonya Rudnik'leri). Koordinat 44.1398/20.494 Sırbistan Rudnik'ine denk; kaynak aramaları 'Valyevo/Rudnik' adıyla boş döndü.",
    "tazeleme": {
     "durum": "YERLESIM_DUZEYI",
     "agac": "afe2b86f1"
@@ -126027,11 +126273,11 @@
    "d": "linyi-champa",
    "f": "0500-01-01",
    "t": "1000-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "ANTİK — ayrı tur",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ. Đà Nẵng Quang-nam çekirdeğinde (Indrapura, Mỹ Sơn, Trà Kiệu); t=1000 başkent taşınması, DEVİR DEĞİL, satır linyi-champa→campa künye bölünmesi. Hayalet: linyi-champa f 0192 t 0999-12-31 satırı kapsar; t 1000-01-01 bitişik. f=0500 ufuk, teyit edilmedi. · ANTİK — ayrı tur",
    "dosya_satir_eski": "data/yerlesimler_asya.js:3932",
    "tazeleme": {
     "durum": "AYNI",
@@ -126041,7 +126287,16 @@
      "f": "0500-01-01",
      "t": "1000-01-01"
     }
-   }
+   },
+   "kaynak2": "Coedès, G., The Indianized States of Southeast Asia (Honolulu: East-West Center, 1968), archive.org/details/theindianizedstatesofsoutheastasia djvu metni (ia-oku), Böl. IX-2 (Champa from 1000), Böl. VIII-2 (Indrapura, Quang-nam)",
+   "alinti2": "The king Yang Pu Ku Vijaya, who came to the throne in the very last years of the tenth century, evacuated Indrapura (Quang-nam) in the year 1000 to establish himself at Vijaya (Binh-dinh).",
+   "oneri_son": {
+    "f": "0500-01-01",
+    "t": "1000-01-01",
+    "d": "linyi-champa"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3931",
