@@ -12,9 +12,10 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "1881’de kurulan Kuzey Borneo Şirketi’ne geçmesiyle İngiliz hâkimiyeti altına girdi",
    "oneri": {
-    "kırp": "1881-01-01→1881-11-01 dönemi: Kudat 7 Aralık 1881'de kuruldu (yalnız ipucu: Vikipedi/gazete özeti; akademik kaynak bulunamadı) -> yerleşim yok, dönem kırpılmalı. s: sahibi de 'ingiltere' değil Kuzey Borneo Şirketi (kuzey-borneo künyesi)"
+    "sil": true,
+    "not": "kuruluş 1881-12 öncesi kırp; sonra s: kuzey-borneo"
    },
-   "not": "Alıntı yalnız şirketin 1881'de devralışını yıl düzeyinde veriyor (t ucu); gün teyitsiz. Şirket dönemi BEYANLI s: (karar). Kuruluş günü için akademik kaynak bulunamadı."
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | Alıntı yalnız şirketin 1881'de devralışını yıl düzeyinde veriyor (t ucu); gün teyitsiz. Şirket dönemi BEYANLI s: (karar). Kuruluş günü için akademik kaynak bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:261",
@@ -27,8 +28,11 @@
    "uc": "t",
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
-   "oneri": {},
-   "not": "Alıntı yalnız t ucunu (1963-09-16) tarihliyor; f 1946-07-15 (North Borneo Cession, Taç Kolonisi) için WebSearch özeti 1946 Cession Order'ı vermedi, TDV Malezya Borneo 1946'yı anmıyor -> f teyitsiz."
+   "oneri": {
+    "sil": true,
+    "not": "kuruluş 1881-12 öncesi kırp; sonra s: kuzey-borneo"
+   },
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | Alıntı yalnız t ucunu (1963-09-16) tarihliyor; f 1946-07-15 (North Borneo Cession, Taç Kolonisi) için WebSearch özeti 1946 Cession Order'ı vermedi, TDV Malezya Borneo 1946'yı anmıyor -> f teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:261",
@@ -42,7 +46,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ (Sabah). Gün 1963-09-16 TDV'de açık. Kudat yerleşimi ayrıca el değiştirmemiş."
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | ÜLKE DÜZEYİ (Sabah). Gün 1963-09-16 TDV'de açık. Kudat yerleşimi ayrıca el değiştirmemiş."
   }
  ],
  "Kesela": [
@@ -183,7 +187,7 @@
    "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html ; https://www.pref.hokkaido.lg.jp/ks/bns/digest/data_e.html (SSL hatası)",
    "alinti": "",
    "oneri": {},
-   "not": "Bakıldı: cas.go.jp hoppou01-01 (1799 geçmiyor; Matsumae 17. yy 'kendi alanı' diyor), Hokkaido Valiliği kronolojisi (SSL hatası, başka makinede). WebSearch özeti 1799 bakufu doğrudan idaresi diyor (okunmamış, KAYNAKLI değil). Not: cas.go.jp'ye göre 17. yy'dan beri Matsumae alanı; bakufu 1799-1821 doğrudan, 1821 Matsumae'ye iade (özet) -> 1799-1868 kesintisiz edo-bakufu s: zincirinde 1821 iadesi gözden geçirilmeli."
+   "not": "KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | Bakıldı: cas.go.jp hoppou01-01 (1799 geçmiyor; Matsumae 17. yy 'kendi alanı' diyor), Hokkaido Valiliği kronolojisi (SSL hatası, başka makinede). WebSearch özeti 1799 bakufu doğrudan idaresi diyor (okunmamış, KAYNAKLI değil). Not: cas.go.jp'ye göre 17. yy'dan beri Matsumae alanı; bakufu 1799-1821 doğrudan, 1821 Matsumae'ye iade (özet) -> 1799-1868 kesintisiz edo-bakufu s: zincirinde 1821 iadesi gözden geçirilmeli."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2659",
@@ -200,7 +204,7 @@
     "alan": "isg",
     "t": "1946-02-02"
    },
-   "not": "ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL: Sovyet askerî işgali (Kunashiri Eylül 1945) ilhaka dek isg; s: sscb 1946-02-02 (KARAR). Japon resmî sayfası işgali Ağustos 28-Eylül 5 aralığı veriyor (Kunashiri'ye özgü gün yok). 1946-02-02 kaynağı okunamadı. ÖLÇÜT: geçici/askerî."
+   "not": "KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL: Sovyet askerî işgali (Kunashiri Eylül 1945) ilhaka dek isg; s: sscb 1946-02-02 (KARAR). Japon resmî sayfası işgali Ağustos 28-Eylül 5 aralığı veriyor (Kunashiri'ye özgü gün yok). 1946-02-02 kaynağı okunamadı. ÖLÇÜT: geçici/askerî."
   }
  ],
  "Kazak bozkırı (Sarısu)": [
@@ -216,7 +220,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kazaklar",
    "alinti": "İlk birleşik Kazak Hanlığı’nın XVI. yüzyıl başlarında Kasım Han tarafından kurulmasından sonra",
    "oneri": {},
-   "not": "ÜLKE/BÖLGE DÜZEYİ: Kazak Hanlığı 'XVI. yy başları' (yıl teyitsiz; atlas 1500). Sarısu bozkırı için ara dönem Ebülhayr/Özbek Hanlığı 1428-68 ve Kazak Hanlığı 1465 (kaynak okunmadı, ipucu) olabilir. f 1281 atlas tabanı, kaynaksız."
+   "not": "KARAR EMRELİC (gece-132): TDV 'Ebülhayr Han' ve 'Kazak' maddeleri okunacak; muhtemel zincir altinorda → (~1428) Ebülhayr'ın Özbek hanlığı → (1465/68 sonrası) Kazak hanlığı; altinorda t 1500 kaynaksızsa ONERI 'zincir okunmadı'. | ÜLKE/BÖLGE DÜZEYİ: Kazak Hanlığı 'XVI. yy başları' (yıl teyitsiz; atlas 1500). Sarısu bozkırı için ara dönem Ebülhayr/Özbek Hanlığı 1428-68 ve Kazak Hanlığı 1465 (kaynak okunmadı, ipucu) olabilir. f 1281 atlas tabanı, kaynaksız."
   }
  ],
  "Kazak bozkırı (İşim)": [
@@ -232,7 +236,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kazaklar",
    "alinti": "İlk birleşik Kazak Hanlığı’nın XVI. yüzyıl başlarında Kasım Han tarafından kurulmasından sonra",
    "oneri": {},
-   "not": "Sarısu satırıyla aynı; İşim (52.5N 68E) Altın Orda'nın Ak Orda/Şibanî alanı; ara dönem kaynakla teyit edilmedi."
+   "not": "KARAR EMRELİC (gece-132): TDV 'Ebülhayr Han' ve 'Kazak' maddeleri okunacak; muhtemel zincir altinorda → (~1428) Ebülhayr'ın Özbek hanlığı → (1465/68 sonrası) Kazak hanlığı; altinorda t 1500 kaynaksızsa ONERI 'zincir okunmadı'. | Sarısu satırıyla aynı; İşim (52.5N 68E) Altın Orda'nın Ak Orda/Şibanî alanı; ara dönem kaynakla teyit edilmedi."
   }
  ],
  "Kazakevičevo (Kazakevičeva stanitsası)": [
@@ -264,7 +268,7 @@
    "kaynak": "BRE (bigenc.ru) arama özeti: 'Расселение и его системы' Кашира 1353",
    "alinti": "",
    "oneri": {},
-   "not": "Bakıldı: WebSearch bigenc (Kashira madde yok), BRE 401. Özet: BRE Kashira'yı 1353 (Oka kentleri) ile anıyor -> 1325'te yerleşim olmayabilir (merdiven ④ aday: kırp), ama özet okunmadı. Altın Orda->Moskova 1325 teyitsiz."
+   "not": "KARAR EMRELİC (gece-132): 1353 ilk anış BEYANLI alt sınır, 1325 dilimi kırpılır; ONERI. | Bakıldı: WebSearch bigenc (Kashira madde yok), BRE 401. Özet: BRE Kashira'yı 1353 (Oka kentleri) ile anıyor -> 1325'te yerleşim olmayabilir (merdiven ④ aday: kırp), ama özet okunmadı. Altın Orda->Moskova 1325 teyitsiz."
   }
  ],
  "Kenai (Nikolayevskiy Redut)": [
@@ -295,8 +299,10 @@
    "uc": "t",
    "kaynak": "https://islamansiklopedisi.org.tr/tanzanya",
    "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
-   "oneri": {},
-   "not": "TDV Tanzanya: 1890 Helgoland-Zanzibar anlaşması, yıl düzeyi (atlas 1890-11-04 gün teyitsiz). SAHİPLİK ŞÜPHESİ: Kilosa Nyamwezi (Tabora) değil Kaguru/Sagara alanı; nyamvezi polity'si Kilosa'yı kapsamıyor olabilir, kaynak okunmadı. f 1281 atlas tabanı."
+   "oneri": {
+    "d": "__BOSLUK__ (yerel Sagara BEYANLI)"
+   },
+   "not": "KARAR EMRELİC (gece-132): Kilosa Usagara'da (Sagara), Nyamwezi alanı değil → nyamvezi kalkar, yerel BEYANLI; Alman dönemi Tanga/Lindi kiralama emsali; TDV 1890 yıl düzeyi ic_not; ONERI. | TDV Tanzanya: 1890 Helgoland-Zanzibar anlaşması, yıl düzeyi (atlas 1890-11-04 gün teyitsiz). SAHİPLİK ŞÜPHESİ: Kilosa Nyamwezi (Tabora) değil Kaguru/Sagara alanı; nyamvezi polity'si Kilosa'yı kapsamıyor olabilir, kaynak okunmadı. f 1281 atlas tabanı."
   }
  ],
  "Kiŋigin (Wales)": [
@@ -405,12 +411,15 @@
    "f": "1281-01-01",
    "t": "1478-01-15",
    "sira": "1741",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "BRE Kirov Oblastı bigenc.ru/geography/text/2067351 (401, arama özeti: Kotelnich 1459, Vyatka Zemlya)",
    "alinti": "",
-   "oneri": {},
-   "not": "Bakıldı: BRE arama özetleri. SAHİPLİK ŞÜPHESİ: arama özeti BRE Котельнич'i Vyatka Zemlya (Rogojsky 1374) ile ilişkilendiriyor, 1478'e dek Novgorod değil Vyatka alanı olabilir; ilk anış 1181 doğrulanamadı (özet: 1459)."
+   "oneri": {
+    "d": "vyatka (künye adayı)",
+    "t": "1489"
+   },
+   "not": "KARAR EMRELİC (gece-132): Vyatka toprağı 1489'a dek ayrı (Moskova ilhakı 1489) → novgorod kalkar; vyatka künyesi YOK (LAB PAZAR ölçümü) → LAB SALI'ya aday; ipucu → ONERI. | Bakıldı: BRE arama özetleri. SAHİPLİK ŞÜPHESİ: arama özeti BRE Котельнич'i Vyatka Zemlya (Rogojsky 1374) ile ilişkilendiriyor, 1478'e dek Novgorod değil Vyatka alanı olabilir; ilk anış 1181 doğrulanamadı (özet: 1459)."
   }
  ],
  "Krasnıy Yar": [
@@ -530,7 +539,7 @@
    "kaynak": "WebSearch özetleri (lostiempos, andesacd, eju.tv, Cieza de León) — ipucu",
    "alinti": "",
    "oneri": {},
-   "not": "20 Ekim 1548 kuruluş (Alonso de Mendoza, Laja'da; Chuquiago vadisine nakil) akademik kaynak okunamadı. UYARI (kaynaksız): La Paz 1776'da Rio de la Plata Genel Valiliği'ne geçti, ispanyol-peru 1548-1824 bütün dönem için doğru olmayabilir."
+   "not": "KARAR EMRELİC (gece-132): ONAY: 1776 → 1810 rio-de-la-plata-valiligi (künye VAR; KASA Tarija kararı); 1809-07-16 La Paz cuntası (rakip hükûmet) ic_not ya da BEYANLI dilim; geri alış 1809 sonu, kaynakla. | 20 Ekim 1548 kuruluş (Alonso de Mendoza, Laja'da; Chuquiago vadisine nakil) akademik kaynak okunamadı. UYARI (kaynaksız): La Paz 1776'da Rio de la Plata Genel Valiliği'ne geçti, ispanyol-peru 1548-1824 bütün dönem için doğru olmayabilir."
   }
  ],
  "La Rioja (Arjantin)": [
