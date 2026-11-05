@@ -1,0 +1,171 @@
+{
+ "Carauari": [
+  {
+   "sira": 4177,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1912-12-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BAKILDI: cidades.ibge.gov.br (403), biblioteca.ibge dtbs (404), pt/es.wikipedia (tek dayanak olamaz), pt.wikipedia Tratado do Rio de Janeiro 1909. Wikipedia'ya gore Xibaua 1910'da termo juridico, Lei estadual 683 (1911; infobox kurulus 27.09.1911) ile Tefe'den ayrilan belediye, Lei 1006 (1912) ile vila ve merkez Carauari'ye tasindi; gun 1912-12-27 dogrulanamadi. f belediye/vila olayidir, egemenlik olayi degil: orta Jurua 1851 antlasmasindan beri Brezilya (1909 antlasmasi yalniz Alto Jurua'yi Peru'ya birakti; Wikipedia ozeti). Akademik/IBGE ham metni alinamadi."
+  }
+ ],
+ "San José de Jáchal": [
+  {
+   "sira": 4178,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1751-06-25",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia San José de Jáchal (tek dayanak olamaz)",
+   "alinti": "Fue fundada el 25 de junio de 1751 por el maestre de campo Juan de Echegaray",
+   "uc": "f",
+   "oneri": {},
+   "not": "ONERI-guclu, degisiklik onerisi yok. f kurulus gunu; kurulus 'Junta de Poblaciones del Reino de Chile' emriyle (Wikipedia ham metin). Cuyo 1776'ya dek Sili Genel Kaptanligi idi (1776 Rio de la Plata Genel Valiligi; hicbir sayfada dogrulanmadi) -> 'ispanya' kunyesi ayni polity, sorun yok. t=1810-05-25 kunye hizasi (ULKE DUZEYI, Buenos Aires Mayis Devrimi); San Juan cabildo abierto ile 1810-07-07'de Cunta'ya katildi (Diario de Cuyo 2018, YALNIZ ARAMA OZETI, sayfa 403). Akademik ham metin alinamadi."
+  },
+  {
+   "sira": 4179,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Diario de Cuyo (haber; ham metin 403, yalniz arama ozeti)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "ONERI-guclu, degisiklik onerisi yok. f=1810-05-25 kunye hizasidir (ULKE DUZEYI); San Juan'in Primera Junta'ya fiili katilimi cabildo abierto 1810-07-07 (arama ozeti), haberin Cuyo'ya ulasmasi 17 Haziran 1810. Resmi bagimsizlik 1816-07-09 kunye ozetinde. Oneri: kunye hizasi korunur, ic_not'a San Juan 1810-07-07 yazilabilir."
+  }
+ ],
+ "Fortín Muñoz (General Díaz)": [
+  {
+   "sira": 4180,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1923-08-15",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "ABC Color (Paraguay), 'Fundacion de fortines militares' https://www.abc.com.py/edicion-impresa/politica/fundacion-de-fortines-militares-114626.html ; es.wikipedia Fortin General Diaz (tek dayanak degil)",
+   "alinti": "los bolivianos a seguir fundando fortines en la región Occidental: Muñoz, Saavedra, Cuatro Vientos",
+   "uc": "f",
+   "oneri": {
+    "t": "1933-12-19",
+    "not": "sonrasi paraguay-cumhuriyeti; 1938-07-21 Buenos Aires antlasmasi de jure ic_not"
+   },
+   "not": "ABC Color ham metni: Bolivya 1922-23 Paraguay ic savasi sirasinda Chaco fortlarini kurdu; Muñoz = 'Mariano Muñoz', sonra 'General José E. Díaz' (gun YOK). es.wikipedia: kurulus 1923-08-15 (Saavedra donemi), Paraguay'in ele gecirmesi 1933-12-19, 1938 antlasmasi bolgeyi Paraguay'a birakti (Wikipedia, dogrulanmadi). Atlas t=1923-10-29 hicbir kaynakta yok (yer tutucu gorunuyor); fort 1933'e dek Bolivya askeri ussuydu (Kundt karargahi, 4. Tumen; arama ozeti). Sahiplik: Chaco Boreal ihtilafliydi; Bolivya'nin idareye katma belgesi yok -> OLCUT karari KASA/EMRELIC'te: s bolivya 1923-08-15 -> 1933-12-19, sonra isg/s paraguay (1938-07-21 TEK OLCU). Kunye paraguay-cumhuriyeti (f 1811-05-14) var. Akademik kaynak (Querejazu Calvo vb.) BAKILMADI."
+  }
+ ],
+ "Esquel": [
+  {
+   "sira": 4181,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1906-02-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "welcomeargentina/interpatagonia/Cholila Online (arama ozeti; populer/yerel portal -> ONERI-guclu)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "ONERI-guclu, degisiklik onerisi yok. 25.02.1906 resmi kurulus tarihi, telgraf servisinin (Medanitos istasyonu) baslangici; kurulus senedi YOK (Cholila Online), tarih konvansiyon. Esquel Colonia 16 de Octubre'nin uzantisi (Wikipedia ozeti). Egemenlik: 1902-11-20 Edward VII hakemligi (ipucu) ile Arjantin tarafi; bunu yerlesime baglayan ham akademik metin alinamadi (aacademica PDF ayristirilamadi, mundoagrario Esquel icermiyor)."
+  }
+ ],
+ "San Clemente (Şili)": [
+  {
+   "sira": 4182,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1891-12-22",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "kiddle/ecured (ansiklopedi cocuk/halk; ONERI-guclu)",
+   "alinti": "",
+   "uc": "",
+   "oneri": {
+    "f": "1864 (yil; gun yok)"
+   },
+   "not": "f=1891-12-22 comuna kurulus karari, egemenlik olayi degil: arama ozetine gore kasaba 1864'te mezarlik, 1865'te okul, 1874'te 824 nufus. Yerlesim 1864'te varsa Sili'ye aittir (Sili 1818-02-12'den) -> f onerisi 1864; gun uydurulmaz. BCN resena sayfasi 404. Ham akademik metin alinamadi."
+  }
+ ],
+ "San Antonio de los Cobres": [
+  {
+   "sira": 4183,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1902-09-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "es.hispanopedia (Wikipedia aynasi; tek dayanak olamaz)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1900 oncesi (yil duzeyi)"
+   },
+   "not": "ONERI: aynaya gore San Antonio de los Cobres 1900'e dek kucuk bir Salta departmaninin merkeziydi, 1900'de Los Andes Valiligi (Ley 3906; 1943'te Decreto 9375 ile kaldirildi) merkezi oldu -> yerlesim ve Arjantin egemenligi 1902'den ONCE. 1902-09-26 gununu dogrulayan kaynak bulunamadi. Puna de Atacama ihtilafi (Antofagasta de la Sierra) San Antonio'yu degil Puna'nin batisini ilgilendirir; 'Buchanan hakemligi' hicbir sonucta cikmadi (ipucu dogrulanamadi). UNSa dergi PDF'leri zaman asimi verdi (BAKILMADI)."
+  }
+ ],
+ "Villa Ojo de Agua": [
+  {
+   "sira": 4184,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1884-07-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BAKILDI: arama (HCDN kongre kararlari: 141. ve 142. yildonumu, resmi isim 1 Temmuz); 1884 yalniz yildonumu sayimindan cikiyor, ham metinde yil yok. Akademik/yerel tarih kaynagi bulunamadi. Egemenlik suphesi yok (Santiago del Estero)."
+  }
+ ],
+ "San Felipe (Aconcagua)": [
+  {
+   "sira": 4185,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1740-08-03",
+   "t": "1818-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Fundacion de San Felipe' https://www.memoriachilena.gob.cl/602/w3-article-97780.html ; 'Proclamacion de la Independencia de Chile el 12 de febrero de 1818' https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "fundada por el gobernador José Antonio Manso de Velasco el 3 de agosto de 1740",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ULKE DUZEYI (t). f yerlesime ozgu (villa de San Felipe del Real; Curimon kurulus senedi 3.8.1740, Lorenzo Schiaffino 1995, MC98903). t: alinti2 (MC2 ham). Akt 1818-01-01 tarihli, 02-02 onayli; ilan 12 Subat. Chacabuco (1817-02-12) sonrasi fiili yonetim San Felipe icin olculmedi. ic_not: bir kaynak imzayi 4 Agustos verir (arama ozeti); 1743 kraliyet fermani onayi.",
+   "alinti2": "O'Higgins decidió realizar dicho acto público el día 12 de febrero de 1818"
+  },
+  {
+   "sira": 4186,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena, Proclamacion de la Independencia... https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "decidió realizar dicho acto público el día 12 de febrero de 1818",
+   "uc": "f",
+   "oneri": {},
+   "not": "ULKE DUZEYI; 'la Republica existia de hecho' (Gay): fiili Sili Chacabuco 1817-02-12'den, San Felipe'ye ozgu teyit yok."
+  }
+ ],
+ "f_geri": [
+  "F-GERI: Carauari 1912-12-27 -> 1910-01-01 (termo juridico Xibaua 1910, yalniz YIL, Wikipedia pt/es; kaynaksiz-zayif -> BEYANLI alt sinir; kesin kurulus gunu yok, 1911-09-27 belediye gunu ic_not), sahip brezilya-cumhuriyeti (kunye f 1889-11-15 kapsiyor; orta Jurua 1851'den beri Brezilya)",
+  "F-GERI: San Clemente (Sili) 1891-12-22 -> 1864-01-01 (yalniz yil: mezarlik 1864; kiddle/ecured arama ozeti, BEYANLI alt sinir), sahip sili-cumhuriyeti (kunye f 1818-02-12 kapsiyor; 1864 > 1818 tamam); 1891-12-22 comuna gunu ic_not",
+  "F-GERI: San Antonio de los Cobres 1902-09-26 -> 1900-01-01 oncesi (departman merkezi 'hasta 1900'; yalniz yil, Wikipedia aynasi, BEYANLI alt sinir; tam yil bulunamadi), sahip arjantin-cumhuriyeti (kunye f 1810-05-25 kapsiyor); 1902-09-26 gunu ic_not. Uygulamadan once kurulus yili aranmali."
+ ]
+}
