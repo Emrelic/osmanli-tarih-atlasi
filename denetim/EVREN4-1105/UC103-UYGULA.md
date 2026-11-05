@@ -39,13 +39,22 @@
   - Herzeg-Bosna dörtlüsü 08-14 → 08-31.
 - Kalan satırlarda son t'nin ±30 gününde madde var.
 
-## Açık kalemler (EMRELİC)
+## EMRELİC kararları (gece-123)
 
-- Triyeste B bölgesi: Yugoslavya'ya geçiş 1954-10-05 (imza, TEK ÖLÇÜ) mi, 10-26 (fiilî devir) mi?
-- Kosova gölge cumhuriyeti dilimleri: sahip fiilî Yugoslavya mı? (Mitroviça kararıyla aynı soru.)
-- Brazzaville: özerk künye 1958-11-28 (LAB'da).
-- Gudermes, Urus-Martan ve Şali fiilî alış günleri: mevcut D2 maddesi 2000-02-06 hepsini anıyor. Urus-Martan ve Şali BULUNAMADI, geçici gün 2000-02-06.
-- İngiliz Togoland → Gana 1957-03-06: Gana Bağımsızlık Yasası Togoland'ı açıkça anmıyor; ONERI.
+- **Triyeste B → Yugoslavya:** **1954-10-05** (TEK ÖLÇÜ: Yugoslavya 1945'ten idare ediyordu → imza günü; Umag ve Koper ile aynı). 10-26 `ic_not`a yazılır.
+- **Kosova gölge cumhuriyeti** (Draç emsali): ilan eden hükûmet ilan ettiği yeri fiilen yönetmiyordu, sahip değildir.
+  - Gilan ve Mitroviça: `s: yugoslavya-federal` (FRY) → 1999-06-10 `unmik-kosova`. Gölge cumhuriyet `ic_not`a yazılır.
+- **Brazzaville:** özerk künye LAB'da. Künye gelene kadar 1958-11-28 → 1960-08-15 boş bırakılmaz; `fransiz-ekvator-afrikasi` ya da `fransa` BEYANLI uzatılır (D1 kuralı).
+- **Gudermes, Urus-Martan, Şali:** yerel gün bulunamazsa ABİ MERKEZ Grozni (2000-02-06, Rus kontrolü), BEYANLI. Gudermes'in 1999-11 teslimi kaynakla bulunursa o gün ve maddesi yazılır.
+- **İngiliz Togoland → Gana** 1957-03-06: dayanak BM Genel Kurulu A/RES/1044(XI).
+  - KASA okuması: UN Dag Hammarskjöld Kütüphanesi'nin GA 11. oturum karar dizini (research.un.org/en/docs/ga/quick/regular/11), ham metin: «A/RES/1044(XI) C.4 39 A/PV.619 13 Dec. 1956 64-0-9 A/3449 The future of Togoland under British administration».
+  - Karar metninin kendisi okunamadı: docs.un.org yalnız görüntüleyici kabuğu döndürüyor, digitallibrary.un.org robots ile yasaklı.
+  - Dizin kararın günü ile konusunu teyit ediyor, ama vesayetin Gold Coast bağımsızlığıyla sona ermesini (1957-03-06) tarihleyen cümle okunmadı → **ONERI** kalır, kaynak alanına karar künyesi yazılır. Metin TARAYICI listesinde.
+- **San Salvador:** ÇELİŞKİ beyanlı, künye 1841.
+
+## Açık kalemler
+
+- Hepsi gece-123'te karara bağlandı (yukarıda).
 
 ## San Salvador (EMRELİC gece-118 kuralı)
 
