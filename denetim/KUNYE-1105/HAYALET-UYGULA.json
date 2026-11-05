@@ -625,5 +625,16 @@
   "islem": "devletler.js (LAB ölçümü origin/main): fransa-cumhuriyet 'Fransa (1792 Sonrası …)' f 1792-09-22 (:904) → 1792-09-21 (Konvansiyon krallığı oybirliğiyle kaldırdı); önceki künye (:879, f 0987-07-03 — Fransa Krallığı) t 1792-09-22 → 09-21; künye içi maddeler :894 ('Krallık ilga edildi …' t 09-22) ve :909 ('I. Fransız Cumhuriyeti ilan edildi' t 09-22) → 09-21. ic_not: '22 Eylül 1792 = Cumhuriyet takviminin an I başlangıcı (tarihleme)'. ATOMİK — '1792-09-22' geçen yerleşim/olay satırları (git grep -c, origin/main): yer_yama_1923_1945.js 55, yerlesimler_avrupa.js 47, yerlesimler_ms1_1281_yeni.js 12, yerlesimler_afrika2.js 8, yerlesimler.js 6, yerlesimler_hint_adalar.js 6, yerlesimler_nokta2.js 5, yer_yama_1923_nepal_karayip.js 4, yerlesimler_amerika.js 3, yer_yama_guyana.js 2, yerlesimler_halef_1946.js 1 (LAB ölçümü dönem dökümü: 132 KIRILMA — hepsi s: alanı, 'fransa' t 1792-09-22 → 'fransa-cumhuriyet' f 1792-09-22; dosya başına kırılma uçları: yer_yama_1923_1945 110/2, yerlesimler_avrupa 94/2, yerlesimler 12/2, ms1_1281_yeni 12/2, nokta2 10/2, afrika2 8/2, hint_adalar 6/2, nepal_karayip 4/2, amerika 4/2, guyana 2/2, halef_1946 2/2 — uç sayısı/2 = yerleşim; git grep'in 149 satırı aynı satırdaki t+f'yi tek sayar); kronoloji_sinir_once1281_geriye.js 1, olaylar_ek15.js 1 → 09-21. LAB PAZAR K002 kümesi + 18 yerleşim (lab-1104-kunye b5d9d185f).",
   "dayanak": "Assemblée nationale, '21 septembre 1792 - La Convention nationale et la fin de la royauté' (assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute; LAB PAZAR sayfa.py birebir): «Elle abolit la royauté à l'unanimité le 21 septembre.» + Larousse (LAB PAZAR); CAPRAZ-1018 DEFTER-fransiz.tsv:86-88 aynı kaynağı daha önce not etmiş",
   "onay": "EMRELİC 6 Kasım (atomik kalem)"
+ },
+ {
+  "d": "yogyakarta",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA",
+  "kunye": "yogyakarta t 1923-10-29 → 1945-09-05 (Amanat)",
+  "gun": "1945-09-05",
+  "islem": "devletler.js yogyakarta 'Yogyakarta Sultanlığı' f 1755-02-13 (Giyanti) t 1923-10-29 (:7197) → 1945-09-05 (Amanat: sultanlığın Endonezya Cumhuriyeti'ne katılışı) — dolaylı idare sınıfı (EMRELİC gece-92). Yogyakarta yerleşimleri: s: yogyakarta 1755-02-13 → 1945-09-04; v: VOC (hollanda-dogu-hint) 1755'ten; 1942-03 → 1945-08 isg japonya (gün kaynakla); 1945-09-05'ten endonezya-cumhuriyeti; mevcut 1945-09-02 → 09-05 'hollanda' dilimi KALKAR. ic_not: 'Yogyakarta Özel Bölgesi olarak sultanlık kurumu sürer (Endonezya içinde)'. Değişmez 2: 1945-09-05 maddesi ölçülmeli.",
+  "dayanak": "EMRELİC gece-92 (LAB PAZAR parti 027, af12878ac)",
+  "onay": "EMRELİC 6 Kasım gece-92"
  }
 ]
