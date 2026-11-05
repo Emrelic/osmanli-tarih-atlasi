@@ -1,0 +1,624 @@
+{
+ "Shimajiri-Ōzato Gusuku (Nanzan merkezi, Itoman)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:5",
+   "alan": "s",
+   "d": "sanzan",
+   "f": "1322-01-01",
+   "t": "1429-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı). Atlas yer_kaynak: Nanzan başkenti 1429'a kadar (Vikipedi, ipucu). Kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:5",
+   "alan": "s",
+   "d": "ryukyu",
+   "f": "1429-01-01",
+   "t": "1879-03-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı). 1429 birleşme ve 1879-03-27: zincirde Ryukyu Shimpo kaydı var, bu turda sayfa okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:5",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1879-03-27",
+   "t": "1945-04-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı). 1879-03-27 Matsuda/Okinawa vilayeti kaydı mevcut kaynak:'ta (Ryukyu Shimpo); bu turda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:5",
+   "alan": "s",
+   "d": "ryukyu-abd-idaresi",
+   "f": "1945-04-01",
+   "t": "1972-05-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı). Nimitz Bildirisi 1945-04-01: NTA sayfası WebFetch ile özetlendi ama kodlama bozuk, birebir cümle alınamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:5",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1972-05-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: UNESCO WHC 972 (WebFetch 403, sayfa.py zaman aşımı), Okinawa Eyaleti Arşivi No14p1.pdf (sayfa.py: anahtar yok, PDF metni çıkmadı), NTA 1902 (WebFetch: kodlama bozuk), history.state.gov FRUS 1969-76 v1 d2 (anahtar yok), Amano 2019 PDF (metin çıkmadı). 1972-05-15 iade günü NTA özetinde yok (yalnız Showa 47 = 1972); gün teyitsiz."
+  }
+ ],
+ "Tebük": [
+  {
+   "dosya_satir": "data/yerlesimler.js:912",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-07-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV tebuk (gövde okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV tebuk (gövde okundu). TDV Tebük: Memlük dönemi/1517 geçişine dair cümle yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:912",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1517-07-06",
+   "t": "1918-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV tebuk (gövde okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV tebuk (gövde okundu). Osmanlı f 1517-07-06 ve t 1918-01-01 TDV Tebük'te yok; yalnız hac güzergâhı (965/1558) ve Hicaz Demiryolu (1916 Haziranında tahrip) var. 1517 geçişi ve 1918 çekilişi kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:912",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1918-01-01",
+   "t": "1925-12-19",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tebuk",
+   "alinti": "1924’te Şerîf Hüseyin, İngilizler’in himayesinde Hicaz Hâşimî Krallığı’nı kurunca Maan’a bağlanan Tebük",
+   "oneri": {
+    "f": "1924-01-01"
+   },
+   "not": "TDV Hicaz Krallığı'nın 1924'te kurulduğunu ve Tebük'ün Maan'a bağlandığını söyler; Tebük'ün Hicaz'a geçiş günü yok. Atlas f 1918-01-01 (künye 1916-06-10) TDV ile teyitsiz/çelişir. Öneri yalnız yıl; Osmanlı çekiliş tarihi bulunamadı, seçme yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:912",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1925-12-19",
+   "t": "1932-09-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tebuk",
+   "alinti": "1925’te Suudi Arabistan’ın hâkimiyetine girdi",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] Atlas 1925-12-19. TDV 1925 der; Tebük'ün Suudi eline geçtiği gün yok. Hicaz t ucu da aynı yıl."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:912",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV tebuk (gövde okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV tebuk (gövde okundu). Suudi Arabistan adı 1932-09-18 künye olayıdır (zincirde OH DEVRALMA kaydı); Tebük'e özgü tanıklık yok."
+  }
+ ],
+ "Shikuka (Poronaysk)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:380",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1869-01-01",
+   "t": "1875-05-07",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar. Amano 2019 (Eurasia Border Review 10(1)) zincirde mevcut kaynak; PDF metni bu araçla okunamadı. Britannica Sakhalin kapısı denenmedi (BAKILMADI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:380",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1905-09-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar. Amano 2019 (Eurasia Border Review 10(1)) zincirde mevcut kaynak; PDF metni bu araçla okunamadı. Britannica Sakhalin kapısı denenmedi (BAKILMADI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:380",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1905-09-05",
+   "t": "1945-09-02",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar. Amano 2019 (Eurasia Border Review 10(1)) zincirde mevcut kaynak; PDF metni bu araçla okunamadı. Britannica Sakhalin kapısı denenmedi (BAKILMADI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:380",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Amano 2019 PDF (sayfa.py: metin çıkmadı), WebSearch; ESBE/Amano zincirdeki mevcut kaynaklar. Amano 2019 (Eurasia Border Review 10(1)) zincirde mevcut kaynak; PDF metni bu araçla okunamadı. Britannica Sakhalin kapısı denenmedi (BAKILMADI)."
+  }
+ ],
+ "Sina güneyi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1418",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-01-24",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV misir (24 Ocak 1517 anahtarı yok), TDV sina (dağ maddesi, tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV misir (24 Ocak 1517 anahtarı yok), TDV sina (dağ maddesi, tarih yok). TDV Mısır Memlük sonunu Sina için vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1418",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1805-07-03",
+   "t": "1867-06-08",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/misir",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805).",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Mehmed Ali'nin valiliği, yalnız yıl (1805); atlas 1805-07-03 gün teyitsiz. Sina TDV'de Mısır'ın dört bölgesinden biri. t ucu 1867-06-08 ayrı satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1418",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1867-06-08",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/ismail-pasa-hidiv",
+   "alinti": "5 Safer 1284 (8 Haziran 1867) tarihli ferman Mısır’ın imtiyazlarını daha da genişletti.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Hicrî: 5 Safer 1284 (TDV aynen) = 8 Haziran 1867; atlas 1867-06-08 ile aynı gün. Önceki dönemin t ucunu da tarihliyor. t ucu 1914-12-18: TDV misir'da Hüseyin Kâmil'in 19 Aralık'ta sultan ilanı var, 18 Aralık himaye cümlesi bu turda birebir okunmadı (zincirdeki kaynak:'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1418",
+   "alan": "s",
+   "d": "misir-cumhuriyeti",
+   "f": "1953-06-18",
+   "t": "1958-02-22",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV misir (Cumhuriyet ilanı, 18 Haziran 1953 anahtarları yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV misir (Cumhuriyet ilanı, 18 Haziran 1953 anahtarları yok). Mısır Cumhuriyeti ilanı 1953-06-18 TDV'de bulunamadı; atlas kaynağı Britannica (ikincil)."
+  }
+ ],
+ "Stralsund": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:435",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1648-10-24",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu). Atlas almanya 1281-1648. İpucu: Stralsund'da İsveç garnizonu 1628'den."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:435",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1648-10-24",
+   "t": "1815-06-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu). İsveç 1648-10-24 (Vestfalya): ipucu, Stralsund İsveç Pomeranyası'nda. Akademik madde okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:435",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1815-06-09",
+   "t": "1945-06-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu). İpucu: Viyana Kongresi sonrası devir/teslim 1815-10-23 (arama özeti). Atlas 1815-06-09 (Viyana Nihai Senedi) ile fark olabilir (TEK ÖLÇÜ teslim günü). Akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:435",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Treccani (URL ana sayfaya düştü, madde çekilemedi), WebSearch özeti (Vikipedi türevleri = ipucu). DDR kuruluşu 1949-10-07 olayı (zincirde Britannica); Stralsund'a özgü kaynak yok."
+  }
+ ],
+ "Sîva (Siwa)": [
+  {
+   "dosya_satir": "data/yerlesimler_p0043libya.js:83",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988). Tek isabet EB1911 (ipucu): Siwa Müslüman fethi sonrası bağımsız, 1820'ye dek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0043libya.js:83",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "WebSearch özeti: Aramco World 1988 (archive.aramcoworld.com/issue/198805/siwa-oasis.extraordinary.htm) ve EB1911 'Siwa'; okunmadı, ipucu",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 ipucu: Siwa 1517'de Osmanlı'ya dahil olmadı, bağımsız kalıp 1820'de Mehmed Ali'ye geçti; atlas d: Osmanlı 1517-04-13 bu durumda sorunlu olabilir. Hüküm ONERI-ipucu; akademik teyit yok, öneri değeri yazılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0043libya.js:83",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988). v: Mısır-kavalali 1805-1914; ipucu: Mısır kontrolü 1820, 1838'de yerel temsilci öldürüldü. Gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0043libya.js:83",
+   "alan": "s",
+   "d": "misir-cumhuriyeti",
+   "f": "1953-06-18",
+   "t": "1958-02-22",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV misir (Sîva yalnız coğrafya), TDV arama, WebSearch özeti (EB1911 türevi, Aramco World 1988). 1953-06-18 cumhuriyet: TDV misir'de yok."
+  }
+ ],
+ "Taşoz": [
+  {
+   "dosya_satir": "data/yerlesimler.js:689",
+   "alan": "s",
+   "d": "ceneviz",
+   "f": "1281-01-01",
+   "t": "1455-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tasoz",
+   "alinti": "1327’de Bizanslılar adayı tekrar egemenlikleri altına aldılar.",
+   "oneri": {
+    "d": "bizans (künye kimliği ölçülmedi)",
+    "f": "1327-01-01"
+   },
+   "not": "TDV: XIII. yy başı Cenevizli korsan grupları fiilen idareyi aldı ve kale yaptı; 1327'de Bizans geri aldı; sonra II. Manuel döneminde (1391-1425) Gattilusio ailesine timar verildi, gelirin 2/3'ü Osmanlı'ya gitti. s: ceneviz 1281-1455 devlet olarak teyitli değil. Gattilusio ardıllığı künye sorusu. Seçme yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:689",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1455-01-01",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tasoz",
+   "alinti": "Taşoz’un 1456 yılı içinde diğer bazı adalarla birlikte Osmanlı idaresi altına girdiği anlaşılmaktadır.",
+   "oneri": {
+    "f": "1456-01-01"
+   },
+   "not": "TDV: fetih tarihi tespit edilemiyor, 860 (1456) olmalı; Ağustos 1459 Zağanos Paşa fethi; 1466 Venedik işgali; 1479 antlaşmasıyla yeniden Osmanlı idaresi. Atlas 1455-01-01 TDV ile çelişir. Yalnız yıl. 1466-1479 arası Osmanlı yok (TDV)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:689",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1923-07-24",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tasoz",
+   "alinti": "24 Temmuz 1923 Lozan Antlaşması’na göre Taşoz hukuken Türk egemenliğinden çıktı.",
+   "oneri": {},
+   "not": "Gün düzeyi, Lozan imza günü. TEK ÖLÇÜ: Yunanistan 1912-10-30'dan beri fiilen yönetiyor (TDV, isg yunanistan ayrı kayıt). Osmanlı t ucunu da tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:689",
+   "alan": "s",
+   "d": "yunanistan-cumhuriyeti",
+   "f": "1973-06-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV tasoz (1973 anahtarı yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV tasoz (1973 anahtarı yok). 1973-06-01 ülke düzeyi olay; Taşoz'a özgü kaynak yok."
+  }
+ ],
+ "Quilmes (Calchaquí Vadisi — Diaguita)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:762",
+   "alan": "s",
+   "d": "diaguita-calchaqui-konfederasyonu",
+   "f": "1281-01-01",
+   "t": "1667-01-02",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Ambrosetti 1897 (es.wikisource), Mundo de Antes PDF (anahtar yok), WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Ambrosetti 1897 (es.wikisource), Mundo de Antes PDF (anahtar yok), WebSearch. Diaguita-Calchaquí konfederasyonu f 1281 teyitsiz (Ambrosetti Quilmes'i en savaşçı topluluk sayar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:762",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1667-01-02",
+   "t": "1816-07-09",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://es.wikisource.org/wiki/La_antigua_ciudad_de_Quilmes_(Valle_Calchaqu%C3%AD)",
+   "alinti": "Recien en 1667 pudo sujetarla por las armas el gobernador Alonso Mercado y Villacorta",
+   "oneri": {},
+   "not": "[alıntı LAB PAZAR'ca sayfa.py oku ile birebir doğrulandı (doğrulayıcı URL ')' kesimi)]; Ambrosetti 1897 (19. yy akademik makale, Wikisource transkripsiyonu) çıtası EMRELİC'e soruldu. | [19. yy kaynağı: J. B. Ambrosetti, La antigua ciudad de Quilmes, 1897; Wikisource transkripsiyonu] Yalnız yıl (1667); atlas 1667-01-02 gün teyitsiz. Silahla boyun eğdirme + 2000 kişinin Buenos Aires yöresine nakli; Peru genel valiliğine idarî katma bu kaynakta açık değil (tahrir ölçütü: kaynak susuyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:762",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1816-07-09",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Ambrosetti 1897 (es.wikisource), Mundo de Antes PDF (anahtar yok), WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Ambrosetti 1897 (es.wikisource), Mundo de Antes PDF (anahtar yok), WebSearch. 1816-07-09 Tucumán Kongresi: Quilmes'e özgü kaynak yok (ülke düzeyi, okunmadı)."
+  }
+ ],
+ "San Antonio (Misyon San Antonio de Valero)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:999",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1718-05-01",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.tshaonline.org/handbook/entries/san-antonio-de-valero-mission",
+   "alinti": "Mission San Antonio de Valero was founded on May 1",
+   "oneri": {},
+   "not": "Handbook of Texas (TSHA), S. Schoelwer, San Antonio de Valero Mission: 1 Mayıs 1718 kuruluş (Alarcón, Coahuila ve Teksas valisi); 'one of five Spanish missions'. f ucu. t 1821-09-27 bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:999",
+   "alan": "s",
+   "d": "teksas-cumhuriyeti",
+   "f": "1836-03-02",
+   "t": "1845-12-29",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.tshaonline.org/handbook/entries/san-antonio-tx",
+   "alinti": "Bexar County was organized by the Republic of Texas in December 1836",
+   "oneri": {
+    "f": "1836-12"
+   },
+   "not": "Handbook 'San Antonio, TX': San Jacinto sonrası Meksika kuvvetlerinin çekilmesi, Aralık 1836'da Bexar County örgütlendi (fiilî yönetim, ay düzeyi). Atlas f 1836-03-02 bağımsızlık bildirgesi (Handbook: bildirge 2 Mart'ta sunuldu); ama 6 Mart 1836 Alamo düştü, Mart-Nisan 1836'da San Antonio Meksika elindeydi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:999",
+   "alan": "s",
+   "d": "abd",
+   "f": "1845-12-29",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.tshaonline.org/handbook/entries/annexation",
+   "alinti": "accepted by the United States Congress on December 29, 1845, the date of Texas's legal entry into the Union",
+   "oneri": {
+    "f": "1846-02-19"
+   },
+   "not": "ÖNCEKİ KARAR (gece-83 Nacogdoches): TEK ÖLÇÜ teslim günü 1846-02-19 (Anson Jones yetki devri); 1845-12-29 kabul yasası ic_not. | ic_not: devir töreni (formal transfer of authority) 1846-02-19 (aynı madde). Atlas 1845-12-29 hukukî katılış; Teksas hükümeti zaten yönetiyordu, tören günü ic_not. Teksas t ucunu da tarihliyor."
+  }
+ ],
+ "Suhâr": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2281",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1507-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). Nebhânî dönemi için Suhâr özelinde kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2281",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1507-01-01",
+   "t": "1650-01-26",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). İpucu (Vikipedi Portuguese Oman, akademik değil): 1507'de Portekiz Suhâr'ı aldı, 1516/1521'de yeniden; Ya'rubî imamı Suhâr kalesini 1643'te aldı. Atlas Portekiz t 1650-01-26 Maskat günüdür; Suhâr için 1643 olabilir. Akademik teyit yok, ONERI yazmadım."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2281",
+   "alan": "s",
+   "d": "umman",
+   "f": "1650-01-26",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). Umman f 1650-01-26 Maskat; Suhâr için ipucu 1643. Teyitsiz."
+  }
+ ],
+ "Tambov": [
+  {
+   "dosya_satir": "data/yerlesimler_ek17.js:166",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Altın Orda 1281-1441: kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek17.js:166",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1441-01-01",
+   "t": "1636-04-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Kayıt ESBE: güney bozkır sürekli iskânsız, Kuman/Kalmuk/Tatar göçebeleri; hanlık tasarrufu yok. Akademik teyit yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek17.js:166",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1636-04-17",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Arama özeti (Vikipedi/rusmania, KAYNAKLI değil): kuruluş fermanı 17 Nisan 1636 Jülyen = Gregoryen 27 Nisan 1636. Atlas 1636-04-17 Jülyen günü olabilir (takvim beyanı gerekir). Sayfa okunmadı."
+  }
+ ],
+ "Toamasina (Tamatave)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1850",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1712-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Larousse Madagascar: histoire (sayfa.py okundu), WebSearch (kupi, History Files = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Larousse (genel ansiklopedi) çıtası EMRELİC'e soruldu. | Baktığım yerler: Larousse Madagascar: histoire (sayfa.py okundu), WebSearch (kupi, History Files = ipucu). Betsimisaraka öncesi için kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1850",
+   "alan": "s",
+   "d": "betsimisaraka",
+   "f": "1712-01-01",
+   "t": "1817-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Larousse Madagascar: histoire (sayfa.py okundu), WebSearch (kupi, History Files = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Larousse (genel ansiklopedi) çıtası EMRELİC'e soruldu. | Baktığım yerler: Larousse Madagascar: histoire (sayfa.py okundu), WebSearch (kupi, History Files = ipucu). Larousse Betsimisaraka 1712 ve Radama I 1817 Tamatave için tarih vermiyor; arama özeti (ipucu): Radama I 1817."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1850",
+   "alan": "s",
+   "d": "merina",
+   "f": "1817-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.larousse.fr/encyclopedie/divers/Madagascar_histoire/187014",
+   "alinti": "L'île est alors annexée (loi du 6 août 1896) et l'esclavage aboli.",
+   "oneri": {
+    "t": "1896-08-06"
+   },
+   "not": "Larousse (genel ansiklopedi) çıtası EMRELİC'e soruldu. | Larousse (genel ansiklopedi, hakemli akademik değil). Hukukî ilhak 6 Ağustos 1896 kanunu; Gallieni kraliçeyi Şubat 1897'de sürdü (Larousse); atlas t 1897-02-28 monarşinin kaldırıldığı gün. Arama özeti (ipucu): Fransızlar Tamatave'yi 1894-12-12'de aldı. TEK ÖLÇÜ: Fransa fiilen yönetiyorsa kanun günü, yönetmiyorsa teslim günü; iki tarih de yazıldı, seçme yok."
+  }
+ ]
+}
