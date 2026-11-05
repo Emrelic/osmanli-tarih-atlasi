@@ -151,6 +151,26 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-106 — Yeni Granada uygulama listesi (e4_KASA_YG.json) üzerine
+
+- **Kronoloji maddeleri:** 1802-07-15 (Maynas Real Cédula) ve 1803-07-07 (Guayaquil'in Peru'ya bağlanışı) madde ajanına ek olarak verildi. Guayaquil ONERI'dir; maddesi de "gün teyitsiz" kaynak notunu taşır.
+- **(1) Trinidad:** onay. Cédula metnine dayanarak 1777 öncesi `yeni-granada-valiligi`. Zincir:
+  1. 1777-09-08'den `venezuela-genel-kaptanligi`.
+  2. 1797-02-18 İngiliz alışı: `isg ingiltere`.
+  3. 1802 Amiens Antlaşması'ndan `s: ingiltere`. TEK ÖLÇÜ: İngiltere adayı zaten yönetiyordu, bu yüzden imza günü.
+  - KASA PAZAR: Port of Spain ve San José de Oruña zincirleri bu uçlarla kontrol edilsin (r8 Chaguaramas emsali).
+- **(2) Maynas istisnası:**
+  - Cédula metninde adı geçen yerler KAYNAKLI: Borja, Omaguas, Andoas.
+  - Quijos misyonları (Archidona, Canelos, Nuevos Icaguates, San Miguel) yalnız ipucuyla dayanıyor. Hüküm ONERI, not: "kapsam teyitsiz".
+- **(3) Herzeg-Bosna:** rakip hükûmet kuralı fiilî sona bakar. t 1996-08-31 (HVO idaresinin sona erişi). 08-14 dağıtma kararı ve Dayton `ic_not`a.
+- **(4) Nador:** onay. TDV aynı hukukî işlemi 04-05 diye veriyor ve TDV esastır.
+  - t 1956-04-05. Künye LAB'da aynı commit'te değişir.
+  - 04-07 ortak bildirisi iki kaynağıyla `ic_not`a.
+  - EMRELİC bunu sabah raporuna "TDV esas kuralının uluslararası belge günüyle çatıştığı vaka" olarak yazıyor.
+- **Quito:** dilim ucu 1721-02-13 uygulama günüdür (TEK ÖLÇÜ'nün ruhu: fiilî uygulama). 1720-04-29 cédula `ic_not`a.
+  - KASA notu: Quito audiencia'sındaki öteki Ekvador yerlerine de aynı uç uygulanacak mı, teyitsiz. Yalnız Quito için karar verildi.
+- **Borja ve Caraballeda:** eski zincirleri "ispanya" yazıyor. Ötekilerle aynı zincire (`ispanyol-peru`) hizalanır.
+
 ## 5 Kasım 2026 gece-105 — HAVVA r8_066-075 üzerine
 
 - **Koloni künyeleri** (`sili-kaptanligi`, `yeni-fransa`, `ispanyol-florida`, `yeni-hollanda`, `ispanyol-santo-domingo`, `ispanyol-kuba`, `ispanyol-filipinler`):
