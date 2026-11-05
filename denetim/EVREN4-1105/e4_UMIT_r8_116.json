@@ -1,192 +1,462 @@
 {
  "Maliana": [
-  {"sira": 4350, "dosya_satir": "", "alan": "s", "d": "timor-beylikleri", "f": "1281-01-01", "t": "1769-10-10",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 4350,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "ANU Press, Divided Loyalties (Timor, ch.2) https://press-files.anu.edu.au/downloads/press/n4398/html/ch02.xhtml (sayfa.py ham metin)",
    "alinti": "The central, western and south-western parts of East Timor, on the other hand, remained self-governing",
    "alinti2": "relocation of the colony to Dili in 1769",
-   "oneri": {"d": "timor-beylikleri", "t": "1769-10-10 künye günü satır ucu olamaz; batı iç bölge (Maliana/Bobonaro) için t ancak Portekiz fiilî hakimiyeti ~1895-1912 aralığı (kaynakla belirlenecek)"},
-   "oneri_son": {"d": "timor-beylikleri", "t": "YIL düzeyi ~1895-1912, kaynakla netleşecek"},
-   "not": "1769 Lifau->Dili taşınmasıdır (koloni merkezi), liurai krallıklarının sonu değil. ANU: 1888'de yalnız DOĞU'daki 13 reino Portekiz'e bağlılık bildirdi; orta/batı/güneybatı özerk kaldı; Mayıs 1895'te Obulo/Marobo (batı sınır, Maliana-Bobonaro civarı; ilçe adı kaynakta yok) yenildi. Künye timor-beylikleri t=1769 hayalet/erken kapanıyor -> künye genişletme sorusu LAB'a. f 1281 ve künyedeki ONCE1281 notu: BAKILMADI."},
-  {"sira": 4351, "dosya_satir": "", "alan": "s", "d": "__BOSLUK__", "f": "1769-10-10", "t": "1860-08-23",
-   "hukum": "ONERI", "uc": "f+t",
+   "oneri": {
+    "d": "timor-beylikleri",
+    "t": "1769-10-10 künye günü satır ucu olamaz; batı iç bölge (Maliana/Bobonaro) için t ancak Portekiz fiilî hakimiyeti ~1895-1912 aralığı (kaynakla belirlenecek)"
+   },
+   "oneri_son": {
+    "d": "timor-beylikleri",
+    "t": "YIL düzeyi ~1895-1912, kaynakla netleşecek"
+   },
+   "not": "1769 Lifau->Dili taşınmasıdır (koloni merkezi), liurai krallıklarının sonu değil. ANU: 1888'de yalnız DOĞU'daki 13 reino Portekiz'e bağlılık bildirdi; orta/batı/güneybatı özerk kaldı; Mayıs 1895'te Obulo/Marobo (batı sınır, Maliana-Bobonaro civarı; ilçe adı kaynakta yok) yenildi. Künye timor-beylikleri t=1769 hayalet/erken kapanıyor -> künye genişletme sorusu LAB'a. f 1281 ve künyedeki ONCE1281 notu: BAKILMADI."
+  },
+  {
+   "sira": 4351,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "ANU Press, Divided Loyalties ch.2 (aynı sayfa; ham metin)",
    "alinti": "only in the late nineteenth century were the Portuguese ‘able to exert their influence on the interior of Timor’",
    "alinti2": "The central, western and south-western parts of East Timor, on the other hand, remained self-governing and proved constant irritants to the Portuguese.",
-   "oneri": {"d": "timor-beylikleri", "f": "1769-10-10", "t": "~1895-1912 (yıl, kaynakla)"},
-   "oneri_son": {"d": "timor-beylikleri", "f": "1769-10-10", "t": "YIL ~1895-1912"},
-   "not": "Boşluk dolar: Maliana'nın batı iç bölgesi Portekiz yönetimine ancak 1890'ların sonu-1910'larda girdi; arası özerk liurai/reino. Dolayısıyla BOSLUK yerine s: timor-beylikleri (beyanlı, künye t genişletilmeli). Maliana'ya özgü tanık yok: ÜLKE/BÖLGE DÜZEYİ; BEYANLI YAKLAŞIKLIK."},
-  {"sira": 4352, "dosya_satir": "", "alan": "s", "d": "portekiz-timor", "f": "1860-08-23", "t": "1942-02-24",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "d": "timor-beylikleri",
+    "f": "1769-10-10",
+    "t": "~1895-1912 (yıl, kaynakla)"
+   },
+   "oneri_son": {
+    "d": "timor-beylikleri",
+    "f": "1769-10-10",
+    "t": "YIL ~1895-1912"
+   },
+   "not": "Boşluk dolar: Maliana'nın batı iç bölgesi Portekiz yönetimine ancak 1890'ların sonu-1910'larda girdi; arası özerk liurai/reino. Dolayısıyla BOSLUK yerine s: timor-beylikleri (beyanlı, künye t genişletilmeli). Maliana'ya özgü tanık yok: ÜLKE/BÖLGE DÜZEYİ; BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "sira": 4352,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1860-08-23",
+   "t": "1942-02-24",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "ANU Press, Divided Loyalties ch.2 (ham metin)",
    "alinti": "controlled by the Dutch in accordance with the 1859 treaty",
    "alinti2": "After more than 30 years of extensive military campaigns, only in the late nineteenth century were the Portuguese ‘able to exert their influence on the interior of Timor’",
-   "oneri": {"d": "portekiz-timor", "f": "hukukî: 1859 Lizbon antlaşması (gün okunmadı); fiilî Maliana: ~1895-96 sonrası (yıl)"},
-   "oneri_son": {"d": "portekiz-timor", "f": "hukukî devir günü (1859 antlaşma imzası/1860 ratifikasyon) ile fiilî idare günü (~1895 sonrası) ayrı; TEK ÖLÇÜ gereği Maliana için fiilî idare"},
-   "not": "ANU yalnız '1859 treaty' der; 1860-08-23 günü bu kaynakla tarihlenmez (mevcut Marques dos Santos/RIAA kaynağını doğrulamadım). TEK ÖLÇÜ: Portekiz Maliana'yı imza anında fiilen yönetmiyordu -> s: portekiz-timor teslim/fiilî idare gününden (1895-96 sonrası) başlamalı, 1860 hukukî ic_not. t 1942-02-24 (Japon çıkarması): BAKILMADI."},
-  {"sira": 4353, "dosya_satir": "", "alan": "s", "d": "portekiz-timor", "f": "1945-09-02", "t": "1975-12-07",
-   "hukum": "KAYNAKLI", "uc": "t",
+   "oneri": {
+    "d": "portekiz-timor",
+    "f": "hukukî: 1859 Lizbon antlaşması (gün okunmadı); fiilî Maliana: ~1895-96 sonrası (yıl)"
+   },
+   "oneri_son": {
+    "d": "portekiz-timor",
+    "f": "hukukî devir günü (1859 antlaşma imzası/1860 ratifikasyon) ile fiilî idare günü (~1895 sonrası) ayrı; TEK ÖLÇÜ gereği Maliana için fiilî idare"
+   },
+   "not": "ANU yalnız '1859 treaty' der; 1860-08-23 günü bu kaynakla tarihlenmez (mevcut Marques dos Santos/RIAA kaynağını doğrulamadım). TEK ÖLÇÜ: Portekiz Maliana'yı imza anında fiilen yönetmiyordu -> s: portekiz-timor teslim/fiilî idare gününden (1895-96 sonrası) başlamalı, 1860 hukukî ic_not. t 1942-02-24 (Japon çıkarması): BAKILMADI."
+  },
+  {
+   "sira": 4353,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
    "kaynak": "ANU Press, Divided Loyalties ch.2 (ham metin); UNIS Note 189, 15 May 2002 https://unis.unvienna.org/unis/en/pressrels/2002/note189.html",
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "alinti2": "The United Nations never recognised this integration, and both the Security Council and the General Assembly called for Indonesia’s withdrawal.",
    "oneri": {},
-   "not": "t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI."},
-  {"sira": 4354, "dosya_satir": "", "alan": "s", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25",
-   "hukum": "ONERI", "uc": "f+t",
+   "not": "t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI."
+  },
+  {
+   "sira": 4354,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "ANU Press ch.2 (f); UN peacekeeping UNTAET Background https://peacekeeping.un.org/mission/past/etimor/UntaetB.htm (t, ham metin); UNIS Note 189",
    "alinti": "the Indonesian army launched a military invasion",
    "alinti2": "on 25 October, the United Nations Security Council, by resolution 1272 (1999), established the United Nations Transitional Administration in East Timor (UNTAET)",
-   "oneri": {"alan": "isg", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25"},
-   "oneri_son": {"alan": "isg", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25"},
-   "not": "ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."},
-  {"sira": 4355, "dosya_satir": "", "alan": "s", "d": "untaet", "f": "1999-10-25", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "isg",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25"
+   },
+   "oneri_son": {
+    "alan": "isg",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25"
+   },
+   "not": "ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."
+  },
+  {
+   "sira": 4355,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "UN Peacekeeping, UNTAET Background https://peacekeeping.un.org/mission/past/etimor/UntaetB.htm (ham metin)",
    "alinti": "on 25 October, the United Nations Security Council, by resolution 1272 (1999), established the United Nations Transitional Administration in East Timor (UNTAET)",
    "alinti2": "UNTAET ... will conclude its mandate on 20 May when the territory declares its independence (UNIS Note 189)",
    "oneri": {},
-   "not": "f KAYNAKLI. t=2000-12-31 atlas zaman ufku; untaet künye t=2002-05-20 (UNIS ve UN: 20 Mayıs 2002 bağımsızlık). Öteki uç (2000-12-31) teyitsiz/ufuk. Kaynak 'will' ile gelecek zaman kullanıyor (15 Mayıs 2002 notu), fiilî 20 Mayıs gerçekleşmesi ayrı kaynak ister."}
+   "not": "f KAYNAKLI. t=2000-12-31 atlas zaman ufku; untaet künye t=2002-05-20 (UNIS ve UN: 20 Mayıs 2002 bağımsızlık). Öteki uç (2000-12-31) teyitsiz/ufuk. Kaynak 'will' ile gelecek zaman kullanıyor (15 Mayıs 2002 notu), fiilî 20 Mayıs gerçekleşmesi ayrı kaynak ister."
+  }
  ],
  "Lautém (Moro)": [
-  {"sira": 4356, "dosya_satir": "", "alan": "s", "d": "timor-beylikleri", "f": "1281-01-01", "t": "1769-10-10",
-   "hukum": "BULUNAMADI", "uc": "t",
+  {
+   "sira": 4356,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Baktım: ANU Press Divided Loyalties ch.2 (Lautém yalnız göç/yerleşim bağlamında geçiyor; 1888 bağlılık listesindeki 13 doğu reino arasında Lautém/Moro YOK). Lautém'e özgü liurai-dönem tanığı bulunamadı. Genel çerçeve için Maliana 4350 notu."},
-  {"sira": 4357, "dosya_satir": "", "alan": "s", "d": "__BOSLUK__", "f": "1769-10-10", "t": "1860-08-23",
-   "hukum": "BULUNAMADI", "uc": "f+t",
+   "not": "Baktım: ANU Press Divided Loyalties ch.2 (Lautém yalnız göç/yerleşim bağlamında geçiyor; 1888 bağlılık listesindeki 13 doğu reino arasında Lautém/Moro YOK). Lautém'e özgü liurai-dönem tanığı bulunamadı. Genel çerçeve için Maliana 4350 notu."
+  },
+  {
+   "sira": 4357,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Baktım: ANU ch.2; Lautém için 1769-1860 sahipliği veren cümle yok. Boşluk merdiveni: yerleşim/bölge var (Moro/Lautém), abi merkez Portekiz kaynaklarında (Davidson 1994, Hägerdal 2012) olabilir — erişilemedi/okunmadı. BOSLUK_KALIR."},
-  {"sira": 4358, "dosya_satir": "", "alan": "s", "d": "portekiz-timor", "f": "1860-08-23", "t": "1942-02-24",
-   "hukum": "ONERI", "uc": "f",
+   "not": "Baktım: ANU ch.2; Lautém için 1769-1860 sahipliği veren cümle yok. Boşluk merdiveni: yerleşim/bölge var (Moro/Lautém), abi merkez Portekiz kaynaklarında (Davidson 1994, Hägerdal 2012) olabilir — erişilemedi/okunmadı. BOSLUK_KALIR."
+  },
+  {
+   "sira": 4358,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1860-08-23",
+   "t": "1942-02-24",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "ANU Press, Divided Loyalties ch.2 (ham metin)",
    "alinti": "controlled by the Dutch in accordance with the 1859 treaty",
-   "oneri": {"d": "portekiz-timor", "f": "hukukî 1859 antlaşması; Lautém'de fiilî idare günü kaynakla bulunmalı"},
-   "oneri_son": {"d": "portekiz-timor", "f": "1860-08-23 teyitsiz (ANU yalnız '1859 treaty')"},
-   "not": "ANU 1859 antlaşmasını yıl olarak anar; 1860-08-23 ve Lautém'e özgü hakimiyet günü okunmadı. Lautém 1888 doğu bağlılık listesinde adıyla yok. t 1942-02-24 BAKILMADI."},
-  {"sira": 4359, "dosya_satir": "", "alan": "s", "d": "portekiz-timor", "f": "1945-09-02", "t": "1975-12-07",
-   "hukum": "KAYNAKLI", "uc": "t",
+   "oneri": {
+    "d": "portekiz-timor",
+    "f": "hukukî 1859 antlaşması; Lautém'de fiilî idare günü kaynakla bulunmalı"
+   },
+   "oneri_son": {
+    "d": "portekiz-timor",
+    "f": "1860-08-23 teyitsiz (ANU yalnız '1859 treaty')"
+   },
+   "not": "ANU 1859 antlaşmasını yıl olarak anar; 1860-08-23 ve Lautém'e özgü hakimiyet günü okunmadı. Lautém 1888 doğu bağlılık listesinde adıyla yok. t 1942-02-24 BAKILMADI."
+  },
+  {
+   "sira": 4359,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
    "kaynak": "ANU Press ch.2 (ham metin); UNIS Note 189",
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "oneri": {},
-   "not": "Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI."},
-  {"sira": 4360, "dosya_satir": "", "alan": "s", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25",
-   "hukum": "ONERI", "uc": "f+t",
+   "not": "Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI."
+  },
+  {
+   "sira": 4360,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "ANU Press ch.2; UN UntaetB.htm (ham metin)",
    "alinti": "on 25 October, the United Nations Security Council, by resolution 1272 (1999), established the United Nations Transitional Administration in East Timor (UNTAET)",
-   "oneri": {"alan": "isg", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25"},
-   "oneri_son": {"alan": "isg", "d": "endonezya-dogu-timor", "f": "1975-12-07", "t": "1999-10-25"},
-   "not": "ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."},
-  {"sira": 4361, "dosya_satir": "", "alan": "s", "d": "untaet", "f": "1999-10-25", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "isg",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25"
+   },
+   "oneri_son": {
+    "alan": "isg",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25"
+   },
+   "not": "ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."
+  },
+  {
+   "sira": 4361,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "UN Peacekeeping, UNTAET Background (ham metin)",
    "alinti": "on 25 October, the United Nations Security Council, by resolution 1272 (1999), established the United Nations Transitional Administration in East Timor (UNTAET)",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ; t=2000-12-31 atlas ufku, künye t=2002-05-20 (bkz. 4355)."}
+   "not": "ÜLKE DÜZEYİ; t=2000-12-31 atlas ufku, künye t=2002-05-20 (bkz. 4355)."
+  }
  ],
  "Tonghai": [
-  {"sira": 4364, "dosya_satir": "", "alan": "s", "d": "ming-hanedani", "f": "1382-01-16", "t": "1644-04-25",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 4364,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-01-16",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "明史 卷46 地理志 (zh.wikisource.org/wiki/明史/卷46, ham metin); 明史 卷3 (zh.wikisource.org/wiki/明史/卷3)",
    "alinti": "通海府西北。元屬寧州，洪武十五年三月改屬府。",
    "alinti2": "十五年春正月辛巳，… 下威楚路。壬午，元曲靖宣慰司及中慶、澂江、武定諸路俱降，雲南平。",
-   "oneri": {"f": "洪武十五年三月 (ay düzeyi; Tonghai'ye özgü idarî katılış) — EMRELİC çevirir"},
-   "oneri_son": {"f": "1382 (yıl); gün/ay çevirisi EMRELİC"},
-   "not": "ÖLÇÜT: idareye katma — Mingshi 46: Tonghai 洪武十五年三月 府'a bağlandı, 'bu yerde' 守禦千戶所 kuruldu (本元臨安路治). Atlas f 1382-01-16 ise 卷3 洪武十五年正月壬午 (eyalet özeti 'Yunnan sakinleşti'); 壬午'de sayılan yerler arasında 臨安路 ADI GEÇMEZ. İki ifade: «洪武十五年正月壬午» (kayıt günü, ay-güneş) ve «洪武十五年三月» -> Academia Sinica ile çevrilecek. Kaynaktan hangisi esas: TAHRİR ölçütüne göre 3. ay (idareye katma) aday; karar EMRELİC. t Ming künye günü; Güney Ming (Yongli) geçişi BAKILMADI."},
-  {"sira": 4366, "dosya_satir": "", "alan": "s", "d": "qing-hanedani", "f": "1659-01-07", "t": "1673-12-28",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "f": "洪武十五年三月 (ay düzeyi; Tonghai'ye özgü idarî katılış) — EMRELİC çevirir"
+   },
+   "oneri_son": {
+    "f": "1382 (yıl); gün/ay çevirisi EMRELİC"
+   },
+   "not": "ÖLÇÜT: idareye katma — Mingshi 46: Tonghai 洪武十五年三月 府'a bağlandı, 'bu yerde' 守禦千戶所 kuruldu (本元臨安路治). Atlas f 1382-01-16 ise 卷3 洪武十五年正月壬午 (eyalet özeti 'Yunnan sakinleşti'); 壬午'de sayılan yerler arasında 臨安路 ADI GEÇMEZ. İki ifade: «洪武十五年正月壬午» (kayıt günü, ay-güneş) ve «洪武十五年三月» -> Academia Sinica ile çevrilecek. Kaynaktan hangisi esas: TAHRİR ölçütüne göre 3. ay (idareye katma) aday; karar EMRELİC. t Ming künye günü; Güney Ming (Yongli) geçişi BAKILMADI."
+  },
+  {
+   "sira": 4366,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-01-07",
+   "t": "1673-12-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "清史稿 卷5 世祖本紀二 (zh.wikisource.org/wiki/清史稿/卷5, ham metin)",
    "alinti": "遂俱抵雲南，入省城。李定國、白文選奉桂王奔永昌。",
    "oneri": {},
-   "not": "ÜLKE/EYALET DÜZEYİ: Kunming'in Qing eline geçişi (順治十六年春正月; kayıtta bu cümlede gün ganzhi yok, 'ay düzeyi'), Tonghai/Lin'an adı geçmez. Qing shi gao günleri KAYIT günüdür -> 1659-01-07 günü EMRELİC çevirmesi/Academia Sinica. Yıl başlığı (十六年) alıntıdan önce ayrı satırda; ardındaki «二月丙寅，以雲、貴蕩平» ile sıralı. t (1673-12-28) için 4367 notuna bak."},
-  {"sira": 4367, "dosya_satir": "", "alan": "s", "d": "san-fan", "f": "1673-12-28", "t": "1681-12-07",
-   "hukum": "ONERI", "uc": "f+t",
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE/EYALET DÜZEYİ: Kunming'in Qing eline geçişi (順治十六年春正月; kayıtta bu cümlede gün ganzhi yok, 'ay düzeyi'), Tonghai/Lin'an adı geçmez. Qing shi gao günleri KAYIT günüdür -> 1659-01-07 günü EMRELİC çevirmesi/Academia Sinica. Yıl başlığı (十六年) alıntıdan önce ayrı satırda; ardındaki «二月丙寅，以雲、貴蕩平» ile sıralı. t (1673-12-28) için 4367 notuna bak."
+  },
+  {
+   "sira": 4367,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "清史稿 卷6 聖祖本紀一 (zh.wikisource.org/wiki/清史稿/卷6, ham metin)",
    "alinti": "十二月壬子，以姚文然為左都御史。吳三桂反，殺雲南巡撫朱國治",
    "alinti2": "疏報王師於十月二十八日入雲南城，吳世璠自殺，傳首，吳三桂析骸，示中外，誅偽相方光琛，餘黨降，雲南平。",
-   "oneri": {"t": "康熙二十年四月己酉 civarı: «武定、大理、臨安、永順、姚安皆降» (Lin'an fu Qing'e teslim; Tonghai'nin üst idaresi) — EMRELİC çevirir"},
-   "oneri_son": {"t": "1681 (yıl); Lin'an teslimi ay/gün çevirisi EMRELİC; Kunming 10. ay 28. gün (atlas 1681-12-07) şehir düzeyi"},
-   "not": "f: Qing shi gao isyanı 康熙十二年十二月壬子 maddesine yazmış (KAYIT günü; 'Wu Sangui'nin ayaklanma günü' değil: ardından «丙辰，反問至» haber geldi). Atlas 1673-12-28 başka kaynaktan (isyan günü) — bu ham metin doğrulamıyor -> ONERI. t: 清史稿 卷6, 康熙二十年: 彰泰 «夏四月甲辰朔 ... 己酉，貝子彰泰遣使招撫諸路，武定、大理、臨安、永順、姚安皆降»; Kunming'e girişi 五月辛巳 ve «十月二十八日入雲南城» (Kunming). Tonghai Lin'an fu'ya bağlı olduğundan san-fan'dan Qing'e dönüş Kunming'den (atlas t) ÖNCE olmuş olabilir. İki sonuç: Çin ifadeleri çevrilecek. Yıl başlığı bitişik değil (aynı juan'da 二十年辛酉 başlığı öncede), sıra çıkarımı."},
-  {"sira": 4368, "dosya_satir": "", "alan": "s", "d": "qing-hanedani", "f": "1681-12-07", "t": "1912-02-12",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "康熙二十年四月己酉 civarı: «武定、大理、臨安、永順、姚安皆降» (Lin'an fu Qing'e teslim; Tonghai'nin üst idaresi) — EMRELİC çevirir"
+   },
+   "oneri_son": {
+    "t": "1681 (yıl); Lin'an teslimi ay/gün çevirisi EMRELİC; Kunming 10. ay 28. gün (atlas 1681-12-07) şehir düzeyi"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · f: Qing shi gao isyanı 康熙十二年十二月壬子 maddesine yazmış (KAYIT günü; 'Wu Sangui'nin ayaklanma günü' değil: ardından «丙辰，反問至» haber geldi). Atlas 1673-12-28 başka kaynaktan (isyan günü) — bu ham metin doğrulamıyor -> ONERI. t: 清史稿 卷6, 康熙二十年: 彰泰 «夏四月甲辰朔 ... 己酉，貝子彰泰遣使招撫諸路，武定、大理、臨安、永順、姚安皆降»; Kunming'e girişi 五月辛巳 ve «十月二十八日入雲南城» (Kunming). Tonghai Lin'an fu'ya bağlı olduğundan san-fan'dan Qing'e dönüş Kunming'den (atlas t) ÖNCE olmuş olabilir. İki sonuç: Çin ifadeleri çevrilecek. Yıl başlığı bitişik değil (aynı juan'da 二十年辛酉 başlığı öncede), sıra çıkarımı."
+  },
+  {
+   "sira": 4368,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "清史稿 卷6 (zh.wikisource.org/wiki/清史稿/卷6, ham metin)",
    "alinti": "武定、大理、臨安、永順、姚安皆降",
    "alinti2": "疏報王師於十月二十八日入雲南城，吳世璠自殺，… 雲南平。",
-   "oneri": {"f": "康熙二十年四月己酉 (Lin'an teslim kaydı) — Tonghai için Lin'an yolu; Kunming 十月二十八日 şehir"},
-   "oneri_son": {"f": "1681 (yıl düzeyi); gün EMRELİC"},
-   "not": "Bkz. 4367: Lin'an'ın Qing'e teslimi Kunming'in düşüşünden önce kayıtlı (四月己酉). KAYIT günü, çeviri EMRELİC. t 1912-02-12 (Kunming emsali): BAKILMADI. Bilgi (kaynak okunmadı): Yunnan'da 1911-10-30 Chongjiu ayaklanması Qing idaresini fiilen bitirmiş olabilir — ayrı araştırma. 清史稿 卷21 (1865 Lin'an eşrafı) BAKILMADI."}
+   "oneri": {
+    "f": "康熙二十年四月己酉 (Lin'an teslim kaydı) — Tonghai için Lin'an yolu; Kunming 十月二十八日 şehir"
+   },
+   "oneri_son": {
+    "f": "1681 (yıl düzeyi); gün EMRELİC"
+   },
+   "not": "Bkz. 4367: Lin'an'ın Qing'e teslimi Kunming'in düşüşünden önce kayıtlı (四月己酉). KAYIT günü, çeviri EMRELİC. t 1912-02-12 (Kunming emsali): BAKILMADI. Bilgi (kaynak okunmadı): Yunnan'da 1911-10-30 Chongjiu ayaklanması Qing idaresini fiilen bitirmiş olabilir — ayrı araştırma. 清史稿 卷21 (1865 Lin'an eşrafı) BAKILMADI."
+  }
  ],
  "Nabil kıyısı (bölge)": [
-  {"sira": 4372, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1875-05-07", "t": "1917-03-15",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 4372,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "EB 1911 «Sakhalin» (en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Sakhalin, ham metin; eski başvuru eseri, en çok kismen)",
    "alinti": "the southern part of the island was held by the Japanese until 1875, when they ceded it to Russia",
-   "oneri": {"f": "1875-05-07 imza (Petersburg Antlaşması) gün-düzeyi akademik teyit bulunamadı; YIL düzeyi 1875"},
-   "oneri_son": {"f": "1875 (yıl) — 1875-05-07 teyitsiz"},
-   "not": "Mevcut kaynak Amano 'Karafuto as a Border Island' (EBR 10(1)): bu makale 1905-1945 Karafuto'sunu anlatır, 1875'i dayandırmıyor (PDF metni sayfa.py ile boş döndü, özet aramada 1905-45). Antlaşma metni (Wikisource Treaty of St Petersburg 1875) 404; 7 Mayıs/22 Ağustos 1875 ratifikasyon bilgisi yalnız arama özeti -> teyit değil. Bölge: kuzey Sahalin 51.8N Portsmouth 1905 hattı (50N) kuzeyinde = Rusya'da kalır (EB1911). EK BULGU (satır dışı, işgal): FRUS 1925 II d563 «the Japanese Government, whose military forces have occupied Northern Sakhalin» -> isg japonya (atlas notunda 1920-07-03 → 1925-05-15 'yazılmadı'): FRUS yalnız işgalin varlığını ve 15 Mayıs 1925 çekilişi iddiasını (Sinclair) verir; 1920-07-03 BAKILMADI. TEK KURAL/isg: ÖLÇÜT: geçici/askerî."}
+   "oneri": {
+    "f": "1875-05-07 imza (Petersburg Antlaşması) gün-düzeyi akademik teyit bulunamadı; YIL düzeyi 1875"
+   },
+   "oneri_son": {
+    "f": "1875 (yıl) — 1875-05-07 teyitsiz"
+   },
+   "not": "Mevcut kaynak Amano 'Karafuto as a Border Island' (EBR 10(1)): bu makale 1905-1945 Karafuto'sunu anlatır, 1875'i dayandırmıyor (PDF metni sayfa.py ile boş döndü, özet aramada 1905-45). Antlaşma metni (Wikisource Treaty of St Petersburg 1875) 404; 7 Mayıs/22 Ağustos 1875 ratifikasyon bilgisi yalnız arama özeti -> teyit değil. Bölge: kuzey Sahalin 51.8N Portsmouth 1905 hattı (50N) kuzeyinde = Rusya'da kalır (EB1911). EK BULGU (satır dışı, işgal): FRUS 1925 II d563 «the Japanese Government, whose military forces have occupied Northern Sakhalin» -> isg japonya (atlas notunda 1920-07-03 → 1925-05-15 'yazılmadı'): FRUS yalnız işgalin varlığını ve 15 Mayıs 1925 çekilişi iddiasını (Sinclair) verir; 1920-07-03 BAKILMADI. TEK KURAL/isg: ÖLÇÜT: geçici/askerî."
+  }
  ],
  "Pago Pago": [
-  {"sira": 4376, "dosya_satir": "", "alan": "s", "d": "samoa-kralligi", "f": "1889-01-01", "t": "1900-04-17",
-   "hukum": "KAYNAKLI", "uc": "t",
+  {
+   "sira": 4376,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "samoa-kralligi",
+   "f": "1889-01-01",
+   "t": "1900-04-17",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
    "kaynak": "FRUS 1929 I, Document 855 (Manua Instrument of Cession 1904, recitals) https://history.state.gov/historicaldocuments/frus1929v01/d855 (ham metin)",
    "alinti": "on the 17th day of April, in the year 1900, the Islands of Tutuila and Aunuu",
    "alinti2": "were, by the chiefs and rulers of Tutuila and Aunuu, ceded to and placed under the sovereignty and protection of the United States of America",
    "oneri": {},
-   "not": "t 1900-04-17 KAYNAKLI (Tutuila ve Aunu'u devri; Pago Pago Tutuila'dadır). ic_not: aynı recital 16 Şubat 1900'de üçlü düzenlemeyle ABD koruması; Manu'a 1904-07-14 ayrı. f 1889-01-01 (Berlin Senedi, atlas YIL) BAKILMADI; Berlin Senedi haziran 1889 imzalıdır (bilgi, okunmadı)."},
-  {"sira": 4377, "dosya_satir": "", "alan": "s", "d": "amerikan-samoasi", "f": "1900-04-17", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "not": "t 1900-04-17 KAYNAKLI (Tutuila ve Aunu'u devri; Pago Pago Tutuila'dadır). ic_not: aynı recital 16 Şubat 1900'de üçlü düzenlemeyle ABD koruması; Manu'a 1904-07-14 ayrı. f 1889-01-01 (Berlin Senedi, atlas YIL) BAKILMADI; Berlin Senedi haziran 1889 imzalıdır (bilgi, okunmadı)."
+  },
+  {
+   "sira": 4377,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "amerikan-samoasi",
+   "f": "1900-04-17",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "FRUS 1929 I, Document 855 (ham metin)",
    "alinti": "ceded to and placed under the sovereignty and protection of the United States of America",
    "oneri": {},
-   "not": "f KAYNAKLI: «the government of said Islands was thereupon assumed by said United States» (idareyi aynı gün devralma). t=2000-12-31 atlas ufku."}
+   "not": "f KAYNAKLI: «the government of said Islands was thereupon assumed by said United States» (idareyi aynı gün devralma). t=2000-12-31 atlas ufku."
+  }
  ],
  "Meissen": [
-  {"sira": 4378, "dosya_satir": "", "alan": "s", "d": "almanya", "f": "1918-11-13", "t": "1945-06-05",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 4378,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-13",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Sächsische Biografie, «Friedrich August III.» https://saebi.isgv.de/files/saebi/pdf/1533_Friedrich_August_III._Koenig_von_Sachsen_%281865-1932%29.pdf (PDF sayfa.py'de ham metin vermedi)",
    "alinti": "",
-   "oneri": {"f": "1918-11-13 doğru görünüyor ama ham metin okunamadı"},
-   "oneri_son": {"f": "1918-11-13"},
-   "not": "SäBi PDF'inde '13.11.1918' ve 'verzichtete' aramaları YOK döndü (PDF ayrıştırılamadı); yalnız arama özeti «Am 13.11.1918 verzichtete der König …» gördüm -> özet, KAYNAKLI değil. İkinci aday: Schlösserland Sachsen basın metni (özet). f olayı kral feragati; Saksonya Hür Devleti Almanya içi (Weimar) — sahiplik 'almanya' etiketi künye almanya sürüyor. t 1945-06-05 (Berlin Bildirisi) BAKILMADI (başka satırların kaynağı)."},
-  {"sira": 4381, "dosya_satir": "", "alan": "s", "d": "almanya", "f": "1000-01-01", "t": "1123-01-01",
-   "hukum": "KAYNAKLI", "uc": "t",
+   "oneri": {
+    "f": "1918-11-13 doğru görünüyor ama ham metin okunamadı"
+   },
+   "oneri_son": {
+    "f": "1918-11-13"
+   },
+   "not": "SäBi PDF'inde '13.11.1918' ve 'verzichtete' aramaları YOK döndü (PDF ayrıştırılamadı); yalnız arama özeti «Am 13.11.1918 verzichtete der König …» gördüm -> özet, KAYNAKLI değil. İkinci aday: Schlösserland Sachsen basın metni (özet). f olayı kral feragati; Saksonya Hür Devleti Almanya içi (Weimar) — sahiplik 'almanya' etiketi künye almanya sürüyor. t 1945-06-05 (Berlin Bildirisi) BAKILMADI (başka satırların kaynağı)."
+  },
+  {
+   "sira": 4381,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1123-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
    "kaynak": "NDB 8 (1969), Herbert Helbig, «Heinrich I. Graf von Eilenburg» https://www.deutsche-biographie.de/sfz42473.html (ham metin)",
    "alinti": "Auf diesem Erbe konnte nach Heinrichs II. Tod 1123 sein Vetter Konrad aufbauen",
    "alinti2": "1089, nach der Ächtung und Absetzung des Markgrafen Ekbert II. [...] erhielt er auch die Lehen über die Mark Meißen",
    "oneri": {},
-   "not": "t 1123 YIL KAYNAKLI, ama olay hanedan/markgraf değişimidir (Heinrich II. ölümü, Konrad), Reich'tan çıkış DEĞİL: Mark Meißen Reich lehni olarak sürdü; saksonya künyesi f=1123 atlas konvansiyonu (BEYAN; alternatif 1089 Heinrich I.). f 1000-01-01 TARİHLENMEDİ: kaynakta Mark'ın 1000 başlangıcı yok; Mark Meißen 965/968 (arama özeti: Burgenwelt/Albrechtsburg Zeittafel; ham okunmadı) -> f için ONERI: 0968 (yıl) aday, kaynak ham okunmalı. 'Reichslehen' ifadesi NDB'de ham olarak okunmadı."},
-  {"sira": 4382, "dosya_satir": "", "alan": "s", "d": "saksonya", "f": "1123-01-01", "t": "1918-11-13",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "not": "t 1123 YIL KAYNAKLI, ama olay hanedan/markgraf değişimidir (Heinrich II. ölümü, Konrad), Reich'tan çıkış DEĞİL: Mark Meißen Reich lehni olarak sürdü; saksonya künyesi f=1123 atlas konvansiyonu (BEYAN; alternatif 1089 Heinrich I.). f 1000-01-01 TARİHLENMEDİ: kaynakta Mark'ın 1000 başlangıcı yok; Mark Meißen 965/968 (arama özeti: Burgenwelt/Albrechtsburg Zeittafel; ham okunmadı) -> f için ONERI: 0968 (yıl) aday, kaynak ham okunmalı. 'Reichslehen' ifadesi NDB'de ham olarak okunmadı."
+  },
+  {
+   "sira": 4382,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "saksonya",
+   "f": "1123-01-01",
+   "t": "1918-11-13",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "NDB 8 (1969), Helbig, «Heinrich I. Graf von Eilenburg» https://www.deutsche-biographie.de/sfz42473.html (ham metin)",
    "alinti": "Auf diesem Erbe konnte nach Heinrichs II. Tod 1123 sein Vetter Konrad aufbauen",
    "oneri": {},
-   "not": "f 1123 YIL düzeyi. ONERI-notu: NDB (Helbig) ilk Wettin Meißen markgrafı için 1089 verir («1089 … erhielt er auch die Lehen über die Mark Meißen»); künye ic_not seçimi 1123 (söndü gerekçesi) — NDB Heinrich I.'nin 'Aus d. Hause Wettin' olduğunu yazar. t 1918-11-13: bkz. 4378 (özet, ham yok)."}
+   "not": "f 1123 YIL düzeyi. ONERI-notu: NDB (Helbig) ilk Wettin Meißen markgrafı için 1089 verir («1089 … erhielt er auch die Lehen über die Mark Meißen»); künye ic_not seçimi 1123 (söndü gerekçesi) — NDB Heinrich I.'nin 'Aus d. Hause Wettin' olduğunu yazar. t 1918-11-13: bkz. 4378 (özet, ham yok)."
+  }
  ],
  "Home Island (Cocos Keeling)": [
-  {"sira": 4383, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1857-01-01", "t": "1955-11-23",
-   "hukum": "KAYNAKLI", "uc": "f",
+  {
+   "sira": 4383,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1857-01-01",
+   "t": "1955-11-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "UK Parlamentosu, Hansard, Cocos Islands Bill, HC Deb 31 January 1955 vol 536 (Hopkinson) https://api.parliament.uk/historic-hansard/commons/1955/jan/31/cocos-islands-bill (ham metin)",
    "alinti": "The territory was proclaimed part of the British Dominions in 1857 by Captain Freemantle of H.M.S. \"Juno\"",
    "oneri": {},
-   "not": "f YIL düzeyi (1857) KAYNAKLI; metin ayrıca bunun 'Departmental error' olduğunu söyler (bildirim Andaman Cocos'una yönelikti). EB1911 «Keeling Islands» (kismen): 1856'da Britanya koruması, 1878 Ceylon, 1882 Straits Settlements -> çelişki: 1856 koruma / 1857 ilan; atlas 1857. Hansard: Clunies Ross ailesi 'Kings of Cocos', 1944'te askerî idareci. t 1955-11-23: Hansard yalnız yasa tasarısı (Ocak 1955), gün yok; BAKILMADI (bkz. 4384)."},
-  {"sira": 4384, "dosya_satir": "", "alan": "s", "d": "avustralya", "f": "1955-11-23", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "not": "f YIL düzeyi (1857) KAYNAKLI; metin ayrıca bunun 'Departmental error' olduğunu söyler (bildirim Andaman Cocos'una yönelikti). EB1911 «Keeling Islands» (kismen): 1856'da Britanya koruması, 1878 Ceylon, 1882 Straits Settlements -> çelişki: 1856 koruma / 1857 ilan; atlas 1857. Hansard: Clunies Ross ailesi 'Kings of Cocos', 1944'te askerî idareci. t 1955-11-23: Hansard yalnız yasa tasarısı (Ocak 1955), gün yok; BAKILMADI (bkz. 4384)."
+  },
+  {
+   "sira": 4384,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1955-11-23",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hansard, Cocos Islands Bill 31 Jan 1955 (ham metin); gün: NAA 'History of the Cocos (Keeling) Islands' (arama özeti, ham okunamadı)",
    "alinti": "the Australian Government had agreed to enact legislation giving Austra",
-   "oneri": {"f": "1955-11-23 muhtemelen doğru; ham gün kaynağı okunamadı"},
-   "oneri_son": {"f": "1955-11-23"},
-   "not": "Hansard devri yıl düzeyinde tarihler (Cocos Islands Act 1955; royal assent 1955-03-29 arama özeti). 23 Kasım 1955 yalnız NAA/Vikipedi arama özetinde; naa.gov.au DNS hatası, legislation.gov.au JS sayfası, AustLII 403 -> ham tarih alıntısı alınamadı."}
+   "oneri": {
+    "f": "1955-11-23 muhtemelen doğru; ham gün kaynağı okunamadı"
+   },
+   "oneri_son": {
+    "f": "1955-11-23"
+   },
+   "not": "Hansard devri yıl düzeyinde tarihler (Cocos Islands Act 1955; royal assent 1955-03-29 arama özeti). 23 Kasım 1955 yalnız NAA/Vikipedi arama özetinde; naa.gov.au DNS hatası, legislation.gov.au JS sayfası, AustLII 403 -> ham tarih alıntısı alınamadı."
+  }
  ],
  "Handan": [
-  {"sira": 4385, "dosya_satir": "", "alan": "s", "d": "zhao-devleti", "f": "-0385-01-01", "t": "-0227-01-01",
-   "hukum": "KAYNAKLI", "uc": "f",
+  {
+   "sira": 4385,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zhao-devleti",
+   "f": "-0385-01-01",
+   "t": "-0227-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "史記 卷43 趙世家 (zh.wikisource.org/wiki/史記/卷043, ham metin); MÖ yıl eşlemesi 史記 卷15 六國年表 (önceki turda okunmuş; bu turda yeniden okunmadı)",
    "alinti": "敬侯元年，武公子朝作亂，不克，出奔魏。趙始都邯鄲。",
    "alinti2": "二十一年，魏圍我邯鄲。二十二年，魏惠王拔我邯鄲 … 二十四年，魏歸我邯鄲",
    "oneri": {},
-   "not": "Çin takvimi: 趙敬侯元年 (Zhao Jinghou 1. yıl) = atlasta MÖ 386 = astronomik -0385: yıl düzeyi, ay yok; Shiji'nin kendi cümlesi MÖ yıl vermez (Jinghou yılı), eşleme 卷15 tablosundan. EMRELİC doğrulasın. Ek (BEYANLI borç zaten kayıtlı): 趙成侯 21-24. yıl Wei Handan'ı aldı/geri verdi (353-351). Ek: 史記 卷43 «趙竟有邯鄲、柏人» (晉定公二十一年) -> Handan Zhao-Jin hanedanında MÖ 386 öncesi de Zhao'nun; atlas -0385 öncesi devleti/Jin sahipliği ayrı sorun (zhao-devleti künye f=-0402). t -0227: 卷43 'Handan Qin'e geçti' (八年十月) bu turda okunmadı: BAKILMADI."}
+   "not": "Çin takvimi: 趙敬侯元年 (Zhao Jinghou 1. yıl) = atlasta MÖ 386 = astronomik -0385: yıl düzeyi, ay yok; Shiji'nin kendi cümlesi MÖ yıl vermez (Jinghou yılı), eşleme 卷15 tablosundan. EMRELİC doğrulasın. Ek (BEYANLI borç zaten kayıtlı): 趙成侯 21-24. yıl Wei Handan'ı aldı/geri verdi (353-351). Ek: 史記 卷43 «趙竟有邯鄲、柏人» (晉定公二十一年) -> Handan Zhao-Jin hanedanında MÖ 386 öncesi de Zhao'nun; atlas -0385 öncesi devleti/Jin sahipliği ayrı sorun (zhao-devleti künye f=-0402). t -0227: 卷43 'Handan Qin'e geçti' (八年十月) bu turda okunmadı: BAKILMADI."
+  }
  ]
 }

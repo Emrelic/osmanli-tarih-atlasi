@@ -111,7 +111,13 @@
     "f": "0579-01-01 [yalnız yıl; aday] — Scroll Serpent'in tahta çıkışı 579; Calakmul'daki Yılan krallığı 636'dan önce de var (Stela 114, 435 K'atun)",
     "t": "0909-01-01 korunur [proxy: son Calakmul anıtı, Stela 61'in tarihi 899 ya da 909, kitap 909'u tercih ediyor]"
    },
-   "not": "f=0636 Calakmul'a taşınma tarihi DEĞİL: kitap 'Yuknoom Head 630-636', sonra Yuknoom Ch'een the Great'in tahta çıkışını (636) kral değişimi olarak verir. Calakmul'un Yılan krallığının başkenti oluşu 'Geç Klasik'te kesin, daha erken merkez Dzibanche olabilir ('Calakmul certainly took that role in the Late Classic, but in earlier times its seat of power may have resided further to the north, perhaps at Dzibanche'); Stela 114 (435) Calakmul'da erken Klasik. Yani 636 şehir sahipliği ucu değil hanedan içi kral değişimi. t=909: son Uzun Sayım tarihi anlatıdır; siyasî son değil. Uç tarihlenmediği için ONERI; KASA 636'yı kaynakla bağlayamaz."
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (d) Calakmul f 0579 [aday] — ONERI kalır (636 hanedan içi değişim, Martin & Grube). · f=0636 Calakmul'a taşınma tarihi DEĞİL: kitap 'Yuknoom Head 630-636', sonra Yuknoom Ch'een the Great'in tahta çıkışını (636) kral değişimi olarak verir. Calakmul'un Yılan krallığının başkenti oluşu 'Geç Klasik'te kesin, daha erken merkez Dzibanche olabilir ('Calakmul certainly took that role in the Late Classic, but in earlier times its seat of power may have resided further to the north, perhaps at Dzibanche'); Stela 114 (435) Calakmul'da erken Klasik. Yani 636 şehir sahipliği ucu değil hanedan içi kral değişimi. t=909: son Uzun Sayım tarihi anlatıdır; siyasî son değil. Uç tarihlenmediği için ONERI; KASA 636'yı kaynakla bağlayamaz.",
+   "oneri_son": {
+    "d": "kaanul",
+    "f": "0579-01-01",
+    "t": "0909-01-01",
+    "not": "[aday; Scroll Serpent 579, Stela 114 435]"
+   }
   }
  ],
  "Taksila (Taxila)": [
@@ -204,7 +210,13 @@
     "f": "0843-01-01 [künye iskocya f ile; Pikt (piktler) t=0843-01-01]; 0858-02-13 Cináed'in ölümü, sahiplik değişimi değil",
     "t": "1281 olay değil atlas kesimi; İskoçya 1707'ye dek sürer"
    },
-   "not": "Alıntı Anderson'ın aktardığı Melrose kronikinden (Cinaed 16 yıl krallık, Forteviot'ta ölür; Anderson '? 841-858' verir). 858-02-13 (Alba Kronikinde 'Ides of Feb') bir hükümdarın ölüm günüdür, Forteviot'un devlet değiştirdiği gün DEĞİL; Forteviot Pikt kral merkeziydi (Anderson: Drust/Drostan 'slain at Forteviot', Óengus oğulları Forteviot'ta) ve 843'te Pikt-Dál Riata birleşmesiyle iskocya'ya geçer. Satırın hemen öncesi (843-858) hangi sahibe yazıldıysa kontrol edilmeli; yoksa f=0843 ve künye ile hizalanmalı. Alba Kronikinin 'palatium Fothuirtabaicht' cümlesi vol.1 OCR'ında bulunamadı (Woolf 2007/SERF ham metin okunmadı)."
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (d) Forteviot iskocya f 0843'e hizalanır; 858-02-13 Cináed'in ölüm günü ic_not. Künye f 0843'ün kendi kaynağı KASA'da doğrulanmalı. · Alıntı Anderson'ın aktardığı Melrose kronikinden (Cinaed 16 yıl krallık, Forteviot'ta ölür; Anderson '? 841-858' verir). 858-02-13 (Alba Kronikinde 'Ides of Feb') bir hükümdarın ölüm günüdür, Forteviot'un devlet değiştirdiği gün DEĞİL; Forteviot Pikt kral merkeziydi (Anderson: Drust/Drostan 'slain at Forteviot', Óengus oğulları Forteviot'ta) ve 843'te Pikt-Dál Riata birleşmesiyle iskocya'ya geçer. Satırın hemen öncesi (843-858) hangi sahibe yazıldıysa kontrol edilmeli; yoksa f=0843 ve künye ile hizalanmalı. Alba Kronikinin 'palatium Fothuirtabaicht' cümlesi vol.1 OCR'ında bulunamadı (Woolf 2007/SERF ham metin okunmadı).",
+   "oneri_son": {
+    "d": "iskocya",
+    "f": "0843-01-01",
+    "t": "1281-01-01",
+    "beyan": "gün künyeden: iskocya f 0843 (komşu künye günü yalnız kendi kaynağı varsa)"
+   }
   }
  ]
 }
