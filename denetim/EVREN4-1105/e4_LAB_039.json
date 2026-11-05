@@ -147,7 +147,7 @@
    "kaynak": "Bakılan: arama sonuçları (Wikipedia, borneohistory.net blog — ipucu); akademik kaynak bulunamadı",
    "alinti": "",
    "oneri": {},
-   "not": "Sukadana tarihsel olarak Tanjungpura/Sukadana krallığı merkezi; Brunei egemenliği kaynakta teyitsiz (künye brunei-sultanligi f 1368). İPUCU: Hollandalılar 1604'te Sukadana'ya geldi; 1786 Pontianak+Hollanda saldırısı (tek ikincil kaynak). Atlasta Sukadana/Tanjungpura künyesi yok — LAB'a künye sorusu."
+   "not": "LAB SALI 66243a492: tanjungpura-sukadana (Matan) künyesi YOK, aday (64); brunei-sultanligi 1400–1786 sahipliği şüpheli (Brunei'nin Batı Borneo'da fiilî egemenliği kaynakla gösterilmeli); 1786 VOC sonrası sultanlık Hollanda himayesinde sürdü (dolaylı idare) → künye açılana dek BEYANLI. | Sukadana tarihsel olarak Tanjungpura/Sukadana krallığı merkezi; Brunei egemenliği kaynakta teyitsiz (künye brunei-sultanligi f 1368). İPUCU: Hollandalılar 1604'te Sukadana'ya geldi; 1786 Pontianak+Hollanda saldırısı (tek ikincil kaynak). Atlasta Sukadana/Tanjungpura künyesi yok — LAB'a künye sorusu."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:281",
@@ -160,7 +160,7 @@
    "kaynak": "Bakılan: arama sonuçları (borneohistory.net, Wikipedia — ipucu); TDV endonezya Sukadana'yı anmıyor",
    "alinti": "",
    "oneri": {},
-   "not": "1786 yılı yalnız ipucu (Pontianak+Hollanda saldırısı). Akademik teyit yok."
+   "not": "LAB SALI 66243a492: tanjungpura-sukadana (Matan) künyesi YOK, aday (64); brunei-sultanligi 1400–1786 sahipliği şüpheli (Brunei'nin Batı Borneo'da fiilî egemenliği kaynakla gösterilmeli); 1786 VOC sonrası sultanlık Hollanda himayesinde sürdü (dolaylı idare) → künye açılana dek BEYANLI. | 1786 yılı yalnız ipucu (Pontianak+Hollanda saldırısı). Akademik teyit yok."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:281",
@@ -175,7 +175,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "Koordinatör kararı: Japon dönemi isg (ÖLÇÜT: geçici/askerî). TDV ülke düzeyi: Japon dönemi 'yaklaşık üç buçuk yıl'; Sukadana'ya özgü gün yok."
+   "not": "LAB SALI 66243a492: tanjungpura-sukadana (Matan) künyesi YOK, aday (64); brunei-sultanligi 1400–1786 sahipliği şüpheli (Brunei'nin Batı Borneo'da fiilî egemenliği kaynakla gösterilmeli); 1786 VOC sonrası sultanlık Hollanda himayesinde sürdü (dolaylı idare) → künye açılana dek BEYANLI. | Koordinatör kararı: Japon dönemi isg (ÖLÇÜT: geçici/askerî). TDV ülke düzeyi: Japon dönemi 'yaklaşık üç buçuk yıl'; Sukadana'ya özgü gün yok."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:281",
@@ -188,7 +188,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' — https://islamansiklopedisi.org.tr/endonezya",
    "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: Batı Borneo Hollanda denetiminde federal devlet olarak 1949-12-27'de devredildi (yer özgü tanıklık yok)."
+   "not": "LAB SALI 66243a492: tanjungpura-sukadana (Matan) künyesi YOK, aday (64); brunei-sultanligi 1400–1786 sahipliği şüpheli (Brunei'nin Batı Borneo'da fiilî egemenliği kaynakla gösterilmeli); 1786 VOC sonrası sultanlık Hollanda himayesinde sürdü (dolaylı idare) → künye açılana dek BEYANLI. | ÜLKE DÜZEYİ: Batı Borneo Hollanda denetiminde federal devlet olarak 1949-12-27'de devredildi (yer özgü tanıklık yok)."
   }
  ],
  "Shwebo": [
@@ -292,7 +292,7 @@
    "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
    "alinti": "On 7 May 1875, Admiral Takeaki Enomoto and Prince Aleksandr Gorchakov signed the Treaty of St. Petersburg.",
    "oneri": {},
-   "not": "Alıntı yerel pypdf çıkarımıdır (sayfa.py PDF metni veremedi: tam URL yukarıda) → KAYNAKLI verilmedi. 'Sakhalin stayed an island jointly possessed by Russia and Japan until 1875.' Devir imza günü 1875-05-07 (Rusya adayı zaten idare ediyordu: cezaevi sömürgesi)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (giriş günü kaynakla) → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY (Japonya 07'den işgal ediyordu). | Alıntı yerel pypdf çıkarımıdır (sayfa.py PDF metni veremedi: tam URL yukarıda) → KAYNAKLI verilmedi. 'Sakhalin stayed an island jointly possessed by Russia and Japan until 1875.' Devir imza günü 1875-05-07 (Rusya adayı zaten idare ediyordu: cezaevi sömürgesi)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:450",
@@ -305,7 +305,7 @@
    "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
    "alinti": "On 5 September 1905 the Treaty of Portsmouth was signed.",
    "oneri": {},
-   "not": "Yerel pypdf çıkarımı (bkz. üst). Japonya adanın tamamını 24 Temmuz 1905'e dek işgal etmişti ('occupied the whole island by July 24'): TEK ÖLÇÜ gereği imza günü 1905-09-05 uygun; ancak 50°K güneyi Japon, işgal 1905-07'den beri fiilî — isg katmanı isteyebilir (karar LAB'ın)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (giriş günü kaynakla) → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY (Japonya 07'den işgal ediyordu). | Yerel pypdf çıkarımı (bkz. üst). Japonya adanın tamamını 24 Temmuz 1905'e dek işgal etmişti ('occupied the whole island by July 24'): TEK ÖLÇÜ gereği imza günü 1905-09-05 uygun; ancak 50°K güneyi Japon, işgal 1905-07'den beri fiilî — isg katmanı isteyebilir (karar LAB'ın)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:450",
@@ -321,7 +321,7 @@
     "alan": "isg",
     "t": "1946-02-02"
    },
-   "not": "TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | TEK KURAL: ilhaka dek isg sovyet-rusya (işgal günü kaynakla bulunamadı; Karafuto Ağustos 1945), s sovyet-rusya 1946-02-02 (Presidyum fermanı, Güney Sahalin oblastı; arama özeti, OKUNMADI). Japonya feragati San Francisco 1951 (ic_not)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (giriş günü kaynakla) → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY (Japonya 07'den işgal ediyordu). | TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | TEK KURAL: ilhaka dek isg sovyet-rusya (işgal günü kaynakla bulunamadı; Karafuto Ağustos 1945), s sovyet-rusya 1946-02-02 (Presidyum fermanı, Güney Sahalin oblastı; arama özeti, OKUNMADI). Japonya feragati San Francisco 1951 (ic_not)."
   }
  ],
  "Toyohara (Vladimirovka)": [
@@ -336,7 +336,7 @@
    "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
    "alinti": "On 5 September 1905 the Treaty of Portsmouth was signed.",
    "oneri": {},
-   "not": "t ucu yerel pypdf çıkarımı (KAYNAKLI verilmedi). f 1882 için Amano yok; zincirdeki Sahalin kütüphanesi takvimi (ipucu)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (Toyohara'ya giriş, gün kaynakla) → s: sscb 1946-02-02; 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY. | t ucu yerel pypdf çıkarımı (KAYNAKLI verilmedi). f 1882 için Amano yok; zincirdeki Sahalin kütüphanesi takvimi (ipucu)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:369",
@@ -349,7 +349,7 @@
    "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
    "alinti": "On 31 March 1907 the Karafuto-cho (Karafuto office) was established at Toyohara",
    "oneri": {},
-   "not": "Yerel pypdf çıkarımı. Portsmouth 5 Eylül 1905 imza; Japonya adayı 24 Temmuz 1905'e dek işgal etmişti → TEK ÖLÇÜ imza günü. Karafuto-chō Toyohara'da 1907-03-31 (idareye katma belgesi)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (Toyohara'ya giriş, gün kaynakla) → s: sscb 1946-02-02; 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY. | Yerel pypdf çıkarımı. Portsmouth 5 Eylül 1905 imza; Japonya adayı 24 Temmuz 1905'e dek işgal etmişti → TEK ÖLÇÜ imza günü. Karafuto-chō Toyohara'da 1907-03-31 (idareye katma belgesi)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:369",
@@ -365,7 +365,7 @@
     "alan": "isg",
     "t": "1946-02-02"
    },
-   "not": "TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | Tomari ile aynı: isg sovyet-rusya (gün bulunamadı) → s 1946-02-02 (Presidyum 2 Şubat 1946, merkez Toyohara; arama özeti)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TAHRİR: isg sovyet 1945-08 (Toyohara'ya giriş, gün kaynakla) → s: sscb 1946-02-02; 1951 San Francisco ic_not; Portsmouth 1905-09-05 imza ONAY. | TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | Tomari ile aynı: isg sovyet-rusya (gün bulunamadı) → s 1946-02-02 (Presidyum 2 Şubat 1946, merkez Toyohara; arama özeti)."
   }
  ],
  "Simití": [
@@ -436,7 +436,7 @@
    "kaynak": "Bakılan: arama sonuçları (kupi.com turizm sitesi, Wikipedia aynası — ipucu)",
    "alinti": "",
    "oneri": {},
-   "not": "Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Ngoni Songea'ya 1840-50'lerde (ipucu); künye ngoni 1835. 1898 sonu teyitsiz."
+   "not": "KARAR EMRELİC (gece-112): ONAY: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → isg ingiltere (I. Dünya Savaşı, yerel gün kaynakla) → s: ingiltere 1919-06-28 → ingiliz-tanganika-mandasi 1922-07-20 (Tanganika zinciri). | Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Ngoni Songea'ya 1840-50'lerde (ipucu); künye ngoni 1835. 1898 sonu teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1508",
@@ -451,7 +451,7 @@
    "oneri": {
     "d": "alman-dogu-afrikasi"
    },
-   "not": "Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Songea Tanganyika'da (Tanzanya); İngiliz yönetimi 1898'de değil. Alman Doğu Afrikası 1890 antlaşması (TDV, yıl), Maji Maji 1905-07 (ipucu). Doğru sıra: ngoni → alman-dogu-afrikasi (fiilî giriş yılı kaynakla bulunmadı) → isg ingiltere (I. Dünya Savaşı) → Versay 1919-06-28 → ingiliz-tanganika-mandasi 1922-07-20 (zincirde Tanga gibi). 'yer_kaynak: malavi' ile uyuşmuyor, koordinat Tanzanya."
+   "not": "KARAR EMRELİC (gece-112): ONAY: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → isg ingiltere (I. Dünya Savaşı, yerel gün kaynakla) → s: ingiltere 1919-06-28 → ingiliz-tanganika-mandasi 1922-07-20 (Tanganika zinciri). | Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Songea Tanganyika'da (Tanzanya); İngiliz yönetimi 1898'de değil. Alman Doğu Afrikası 1890 antlaşması (TDV, yıl), Maji Maji 1905-07 (ipucu). Doğru sıra: ngoni → alman-dogu-afrikasi (fiilî giriş yılı kaynakla bulunmadı) → isg ingiltere (I. Dünya Savaşı) → Versay 1919-06-28 → ingiliz-tanganika-mandasi 1922-07-20 (zincirde Tanga gibi). 'yer_kaynak: malavi' ile uyuşmuyor, koordinat Tanzanya."
   }
  ],
  "Stornoway": [
@@ -522,9 +522,10 @@
    "kaynak": "Russian Life, 'Sviyazhsk' (dergi, İPUCU) — https://russianlife.com/magazine/march-april-2019/sviyazhsk/",
    "alinti": "",
    "oneri": {
-    "d": "rusya"
+    "d": "rusya",
+    "not": "kazan dilimi kalkar; kuruluş günü kaynakla"
    },
-   "not": "Sviyajsk 1551'de Rus ordusu için Kazan seferi üssü olarak kurulmuş Rus kalesi: Kazan Hanlığı sahibi olamaz (kuruluş günü 24 Mayıs 1551 de ipucu). Öneri ipucu düzeyi; akademik kaynak okunmadı. t 1552-10-02 Kazan düşüşü ('After Kazan fell in 1552'; gün: History Today arama özeti, okunamadı)."
+   "not": "KARAR EMRELİC (gece-112): 1551 Rus kalesi olarak kuruldu → f'den itibaren s: rusya, kazan dilimi KALKAR; ipucu → ONERI-güçlü, kuruluş günü kaynakla. | Sviyajsk 1551'de Rus ordusu için Kazan seferi üssü olarak kurulmuş Rus kalesi: Kazan Hanlığı sahibi olamaz (kuruluş günü 24 Mayıs 1551 de ipucu). Öneri ipucu düzeyi; akademik kaynak okunmadı. t 1552-10-02 Kazan düşüşü ('After Kazan fell in 1552'; gün: History Today arama özeti, okunamadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_rusya.js:335",
@@ -537,7 +538,7 @@
    "kaynak": "Bakılan: historytoday.com/archive/kazan-falls-ivan-terrible (sayfa.py metin vermedi), russianlife.com",
    "alinti": "",
    "oneri": {},
-   "not": "Kazan düşüşü 1552-10-02 bilinen karar; yerleşime özgü kaynak ve t=1917-03-15 teyit edilmedi."
+   "not": "KARAR EMRELİC (gece-112): 1551 Rus kalesi olarak kuruldu → f'den itibaren s: rusya, kazan dilimi KALKAR; ipucu → ONERI-güçlü, kuruluş günü kaynakla. | Kazan düşüşü 1552-10-02 bilinen karar; yerleşime özgü kaynak ve t=1917-03-15 teyit edilmedi."
   }
  ],
  "Tanga": [
@@ -552,7 +553,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Tanga için Svahili şehir devletleri/Umman devri (Mombasa 1698) aranmadı; TDV Tanzanya Tanga'yı yalnız şehir olarak anıyor."
+   "not": "KARAR EMRELİC (gece-112): Lindi/kiralama emsali: DOAG'ın kıyı idaresini fiilen devralışı 1888-08-16 → s: almanya; Abuşiri isyanı dilimi ayrı; 1890 Helgoland/satış ic_not. | Tanga için Svahili şehir devletleri/Umman devri (Mombasa 1698) aranmadı; TDV Tanzanya Tanga'yı yalnız şehir olarak anıyor."
   },
   {
    "dosya_satir": "data/yerlesimler_emilme.js:46",
@@ -565,7 +566,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya' — https://islamansiklopedisi.org.tr/tanzanya",
    "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
    "oneri": {},
-   "not": "İki yıl: TDV Almanya'nın 'sahil arazilerini 1888’de kiralamak suretiyle ele geçirdiğini' de söyler; 1890 anlaşması. [yalnız yıl teyitli; 1890-11-04 günü teyitsiz]. Tanga kıyı şeridinde 1888 kiralama t ucunu öne çekebilir (karar LAB'ın)."
+   "not": "KARAR EMRELİC (gece-112): Lindi/kiralama emsali: DOAG'ın kıyı idaresini fiilen devralışı 1888-08-16 → s: almanya; Abuşiri isyanı dilimi ayrı; 1890 Helgoland/satış ic_not. | İki yıl: TDV Almanya'nın 'sahil arazilerini 1888’de kiralamak suretiyle ele geçirdiğini' de söyler; 1890 anlaşması. [yalnız yıl teyitli; 1890-11-04 günü teyitsiz]. Tanga kıyı şeridinde 1888 kiralama t ucunu öne çekebilir (karar LAB'ın)."
   }
  ],
  "Tolanaro (Fort Dauphin)": [
@@ -582,7 +583,7 @@
    "oneri": {
     "f": "1643-01-01"
    },
-   "not": "Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | [yalnız yıl teyitli; gün teyitsiz]. SORU: TDV sahibi şirket yapar ('Fransa’nın o dönemde adayla herhangi bir resmî ilişkisi olmadı'; 1686'da devlete devir) → d: fransa şirket kolonisi için BEYANLI olmalı."
+   "not": "KARAR EMRELİC (gece-112): Şirket emsali: 1643 Société de l'Orient → s: fransa (şirket dönemi BEYANLI), 1686 devlete devir ic_not; 1674 terkinden sonra Antanosy (künye adayı) BEYANLI; 1768–1771 Maudave dönüşü ayrı dilim (kaynakla); sonra 19. yy Fransız/Merina zinciri kaynakla. 'fransa 1674–1792' dilimi KALKAR. | Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | [yalnız yıl teyitli; gün teyitsiz]. SORU: TDV sahibi şirket yapar ('Fransa’nın o dönemde adayla herhangi bir resmî ilişkisi olmadı'; 1686'da devlete devir) → d: fransa şirket kolonisi için BEYANLI olmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2130",
@@ -590,12 +591,15 @@
    "d": "fransa",
    "f": "1674-01-01",
    "t": "1792-09-22",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "kaynak": "TDV 'Madagaskar' okundu (1674 geçmiyor; 1686 devir, 1750 St. Marie); Wikipedia (İPUCU): Fort-Dauphin katliamı 1674-08, Fransızlar kaçtı",
    "alinti": "",
-   "oneri": {},
-   "not": "Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | 1674 sonrası 1768'e dek Fransız varlığı yok görünüyor (ipucu); atlas 1674→1792 fransa sorgulanmalı. Akademik kaynak bulunamadı."
+   "oneri": {
+    "sil": true,
+    "not": "Antanosy BEYANLI; 1768–1771 Maudave ayrı dilim"
+   },
+   "not": "KARAR EMRELİC (gece-112): Şirket emsali: 1643 Société de l'Orient → s: fransa (şirket dönemi BEYANLI), 1686 devlete devir ic_not; 1674 terkinden sonra Antanosy (künye adayı) BEYANLI; 1768–1771 Maudave dönüşü ayrı dilim (kaynakla); sonra 19. yy Fransız/Merina zinciri kaynakla. 'fransa 1674–1792' dilimi KALKAR. | Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | 1674 sonrası 1768'e dek Fransız varlığı yok görünüyor (ipucu); atlas 1674→1792 fransa sorgulanmalı. Akademik kaynak bulunamadı."
   }
  ],
  "Toulon": [
@@ -638,7 +642,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Zincirdeki OUPblog (Iturbide 27 Eylül 1821) ülke düzeyi ve blog (ipucu)."
+   "not": "KARAR EMRELİC (gece-112): ONAY TEK ÖLÇÜ: Meksika garnizonunun çekilişi (1856-03, kaynakla) → s: abd; 1853-12-30 imza ve 1854-06-30 onay ic_not. | Zincirdeki OUPblog (Iturbide 27 Eylül 1821) ülke düzeyi ve blog (ipucu)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1361",
@@ -651,7 +655,7 @@
    "kaynak": "Office of the Historian, 'Gadsden Purchase, 1853–1854' — https://history.state.gov/milestones/1830-1860/gadsden-purchase",
    "alinti": "",
    "oneri": {},
-   "not": "TEK ÖLÇÜ: Gadsden imza 1853-12-30 / onay 1854-06-30; ABD fiilen yönetmiyordu → teslim (Meksika birliklerinin Tucson'dan çekilişi 1856-03, kaynakla) — EMRELİC'e soruldu. | Okundu: imza 1853-12-30; Senato 1854-04-25; Santa Anna 1854-06-08 imzaladı. 1854-06-30 günü sayfada yok. TEK ÖLÇÜ: Tucson'un fiilî teslimi (US Army girişi 1856) kaynakla bulunamadı → teslim günü f olabilir; araştırılmalı."
+   "not": "KARAR EMRELİC (gece-112): ONAY TEK ÖLÇÜ: Meksika garnizonunun çekilişi (1856-03, kaynakla) → s: abd; 1853-12-30 imza ve 1854-06-30 onay ic_not. | TEK ÖLÇÜ: Gadsden imza 1853-12-30 / onay 1854-06-30; ABD fiilen yönetmiyordu → teslim (Meksika birliklerinin Tucson'dan çekilişi 1856-03, kaynakla) — EMRELİC'e soruldu. | Okundu: imza 1853-12-30; Senato 1854-04-25; Santa Anna 1854-06-08 imzaladı. 1854-06-30 günü sayfada yok. TEK ÖLÇÜ: Tucson'un fiilî teslimi (US Army girişi 1856) kaynakla bulunamadı → teslim günü f olabilir; araştırılmalı."
   }
  ]
 }
