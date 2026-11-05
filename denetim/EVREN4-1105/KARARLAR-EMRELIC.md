@@ -168,10 +168,12 @@ Kararlar:
   - Tablo: `HICRI-DENETIM-1105.tsv`.
   - KRONOLOJI-1104'teki eski tabular hesaplar yalnız kaynaktaki günü ±1 içinde sınamak içindi (L2-956 vb.). Kuyruğa giren tek hicrî gün (Lahor 1215-12-01) ay kesişimine dayandığı için epoch farkından etkilenmez.
 - **Yukarı Burma (HAVVA buldu):** Yukarı Burma yerleşimlerine 1852-12-20 Aşağı Burma ilhakı uygulanmış.
-  - Doğrusu: `s: ingiliz-hindistani` Mandalay'ın düşüşünden başlar (1885-11-28/29). TEK ÖLÇÜ: İngiltere 1885-11'den itibaren yönetiyordu.
-  - 1886-01-01 ilhak bildirisi `ic_not`a.
+  - ~~Doğrusu: `s: ingiliz-hindistani` Mandalay'ın düşüşünden başlar (1885-11-28/29).~~ **EMRELİC DÜZELTMESİ (aynı gece):** Mandalay'ın düşüşü (1885-11-28; Thibaw'ın teslimi 11-29) askerî işgaldir. Hukukî ilhak 1886-01-01 bildirisidir: antlaşma yok, devralan zaten yönetiyordu, bu yüzden hukukî işlem günü esas alınır. Zincir:
+    - 1885-11-28 → 1886-01-01: Konbaung `s:` sürer, üstünde `isg ingiltere`.
+    - 1886-01-01'den itibaren `s: ingiliz-hindistani`.
+  - Meiktila, Yenangyaung, Minbu, Taungdwingyi ve Pyinmana aynı zinciri alır; 1852 kalkar.
   - **Ölçüm:** `BURMA-1852-TARAMA.tsv` — 1852 günüyle başlayan 12 dönemin 5'i 1852 hattının kuzeyinde: Meiktila, Yenangyaung, Minbu, Taungdwingyi, Pyinmana. Kaynak araması UFUK ajanına eklendi.
-  - P049'daki Mandalay önerisi (isg 1885-11-28 → s: 1886-01-01) bu kararla `s:` 1885-11-28'den olarak düzelir.
+  - P049'daki Mandalay önerisi (isg 1885-11-28 → s: 1886-01-01) DOĞRUDUR, değişmez.
 
 ## 5 Kasım 2026 gece-73 — P041-P048 üzerine
 
