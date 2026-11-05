@@ -92,8 +92,8 @@
   "tur": "KUNYE_GENISLET",
   "karar": "KUNYE_GENISLET",
   "guc": "ORTA (gün: Academia Sinica çevirisi EMRELİC)",
-  "islem": "devletler.js: ming-hanedani t 1644-04-25 → 1644-06-06; guney-ming f 1644-04-25 → 1644-06-07 (Zhu Yousong Nanjing'de 監國, 崇禎十七年五月初三). guney-ming ic_not: '1644-06-19 (五月十五) Hongguang tahta çıkışı'. EVREN4 guney-ming kümesi (14 satır): Nanjing tarafındaki dönemlerin 04-25→06-06 dilimi s: ming-hanedani, 06-07'den guney-ming; kuzey (Pekin) dönemleri 04-25'te Shun'a geçer, DEĞİŞMEZ. AYNI COMMIT'te kronoloji_cin.js'e madde: 1644-06-07 'Zhu Yousong (Fu prensi) Nanjing'de 監國 oldu' (Değişmez 2 — 04-25 maddesinin ±30 penceresi 05-25'te kapanır). guney-ming t 1662-01-01 → Yongli'nin ölümü 永曆十六年四月 = 1662-05-18…06-16; gün kaynaktan gelmezse 1662-05-18 + ay-düzeyi beyanı (Zheng'in Yongli takvimini 1683'e dek kullanması t'yi etkilemez; tungning ayrı künye VAR, devletler.js:7763).",
-  "kunye": "ming-hanedani t 1644-06-06 · guney-ming f 1644-06-07 · guney-ming t 1662-05-18 (ay beyanlı)",
+  "islem": "devletler.js: ming-hanedani t 1644-04-25 → 1644-06-07 (t = ardıl f, yarı açık); guney-ming f 1644-04-25 → 1644-06-07 (Zhu Yousong Nanjing'de 監國, 崇禎十七年五月初三). guney-ming ic_not: '1644-06-19 (五月十五) Hongguang tahta çıkışı'. EVREN4 guney-ming kümesi (14 satır): Nanjing tarafındaki dönemlerin 04-25→06-06 dilimi s: ming-hanedani, 06-07'den guney-ming; kuzey (Pekin) dönemleri 04-25'te Shun'a geçer, DEĞİŞMEZ. AYNI COMMIT'te kronoloji_cin.js'e madde: 1644-06-07 'Zhu Yousong (Fu prensi) Nanjing'de 監國 oldu' (Değişmez 2 — 04-25 maddesinin ±30 penceresi 05-25'te kapanır). guney-ming t 1662-01-01 → Yongli'nin ölümü 永曆十六年四月 = 1662-05-18…06-16; gün kaynaktan gelmezse 1662-05-18 + ay-düzeyi beyanı (Zheng'in Yongli takvimini 1683'e dek kullanması t'yi etkilemez; tungning ayrı künye VAR, devletler.js:7763).",
+  "kunye": "ming-hanedani t 1644-06-07 · guney-ming f 1644-06-07 (yarı açık [f,t): t = ardıl f — LAB düzeltmesi, önceki 06-06 bir günlük boşluk açardı) · guney-ming t 1662-05-18 (ay beyanlı)",
   "gun": "1644-06-07",
   "dayanak": "Struve, The Southern Ming 1644–1662 (Yale 1984) — Hongguang sarayı Ming'in devamı (LAB açmadı); çeviri: Academia Sinica 兩千年中西曆轉換 (EMRELİC, 5 Kasım)",
   "onay": "EMRELİC 5 Kasım"
@@ -254,14 +254,14 @@
  },
  {
   "d": "karolenj-italya",
-  "tur": "KUNYE_DARALT",
-  "karar": "KUNYE_DARALT",
-  "guc": "ORTA",
-  "kunye": "karolenj-italya t 0962-02-02 → 0962-02-01",
-  "gun": "0962-02-01",
-  "islem": "LAB ölçümü origin/main: karolenj-italya t 0962-02-02 = almanya ('Kutsal Roma 962-1806') f 0962-02-02 → BİR GÜN ÇAKIŞMA. t → 0962-02-01 (HRE f'sinden bir gün önce, EMRELİC). ic_not_t: 'Treccani DBI Berengario II: «Nel febbraio del 962» [yalnız ay]; 951-09-23 Otto Pavia'da (10/15 Ekim unvan), 952-08-07 Augsburg vasallık yemini, 961-08 ikinci sefer; Berengar'ın 961-964 direnişi (San Leo, 964 sonu düştü)'. San Leo/Montefeltro yerleşimi varsa 962-02-02 → 964 sonu kısa dilim (karolenj-italya ya da isg) — kaynakla, yerleşim ölçülmedi.",
-  "dayanak": "Treccani DBI 'Berengario II' (Delogu) — H4B",
-  "onay": "EMRELİC 5 Kasım gece-27"
+  "tur": "KUNYE",
+  "karar": "DOGRU_BEYANLI",
+  "guc": "ÖLÇÜM",
+  "kunye": "karolenj-italya t 0962-02-02 KALIR (DÜZELTME: çakışma YOKTU)",
+  "gun": "0962-02-02",
+  "islem": "LAB DÜZELTMESİ (yarı açık [f,t) kuralı): karolenj-italya t 0962-02-02 = almanya f 0962-02-02 → BİTİŞİK, çakışma YOK; önceki '→ 0962-02-01' önerisi bir günlük BOŞLUK açardı — GERİ ALINDI. Künye t değişmez. ic_not_t (EMRELİC gece-27 içeriği korunur): 'Treccani DBI Berengario II: «Nel febbraio del 962» [yalnız ay]; 951-09-23 Otto Pavia (10/15 Ekim unvan), 952-08-07 Augsburg vasallık yemini, 961-08 ikinci sefer; Berengar 961-964 direnişi (San Leo, 964 sonu düştü)'.",
+  "dayanak": "Treccani DBI 'Berengario II' (Delogu); LAB yarı açık aralık düzeltmesi",
+  "onay": "EMRELİC gece-27 (içerik); t değişikliği GERİ ALINDI (LAB)"
  },
  {
   "d": "burgonya",
@@ -378,9 +378,9 @@
   "tur": "KUNYE + YERLESIM",
   "karar": "EMRELİC",
   "guc": "ORTA",
-  "kunye": "sardinya-piyemonte f 1720-08-02 → 1720-09-02 · savoya t → 1720-09-01",
+  "kunye": "sardinya-piyemonte f 1720-08-02 → 1720-09-02 · savoya t → 1720-09-02 (t = ardıl f, yarı açık)",
   "gun": "1720-09-02",
-  "islem": "devletler.js sardinya-piyemonte f → 1720-09-02, savoya t → 1720-09-01 (anakarada unvan adanın teslim alınmasıyla geldi). ic_not: '1720-08-02 kaynaksız — Londra Antlaşması 1718-08-02 ile karışmış görünüyor; Londra 1718-08-02 adayı Vittorio Amedeo II'ye verdi; Utrecht 1713 imparatora; Lahey 1720-02-17'. Anakara yerleşimleri (Torino, Aosta, Nice, Chambéry, Bourg-Saint-Maurice, Thonon, Annemasse …) savoya → sardinya-piyemonte kırılması 1720-08-02 → 1720-09-02. Ada (Kalyari, Sasari, Oristano, Alghero — 4 dosyada): 1479-01-19 → 1708-07-31 s: tek id (ispanya ya da sardinya-aragon — biri seçilir), 1708-08-01 [yalnız ay] isg avusturya, Utrecht 1713 imzası s: habsburg, 1717-08-01 [yalnız ay] isg ispanya, 1720-02-17 → 1720-09-01 beyanlı (İspanyol tahliyesi / Avusturya aracılığı, gün yok), 1720-09-02'den s: sardinya-piyemonte. d:'sardinya' YAZILMAZ (D-ANAHTAR). Değişmez 2: 1720-09-02, 1708-08, 1713, 1717-08 kırılmaları için madde ölçülmeli/önerilmeli; 1720-08-02 maddeleri varsa 09-02'ye taşınır.",
+  "islem": "devletler.js sardinya-piyemonte f → 1720-09-02, savoya t → 1720-09-02 (t = ardıl f, yarı açık) (anakarada unvan adanın teslim alınmasıyla geldi). ic_not: '1720-08-02 kaynaksız — Londra Antlaşması 1718-08-02 ile karışmış görünüyor; Londra 1718-08-02 adayı Vittorio Amedeo II'ye verdi; Utrecht 1713 imparatora; Lahey 1720-02-17'. Anakara yerleşimleri (Torino, Aosta, Nice, Chambéry, Bourg-Saint-Maurice, Thonon, Annemasse …) savoya → sardinya-piyemonte kırılması 1720-08-02 → 1720-09-02. Ada (Kalyari, Sasari, Oristano, Alghero — 4 dosyada): 1479-01-19 → 1708-07-31 s: tek id (ispanya ya da sardinya-aragon — biri seçilir), 1708-08-01 [yalnız ay] isg avusturya, Utrecht 1713 imzası s: habsburg, 1717-08-01 [yalnız ay] isg ispanya, 1720-02-17 → 1720-09-01 beyanlı (İspanyol tahliyesi / Avusturya aracılığı, gün yok), 1720-09-02'den s: sardinya-piyemonte. d:'sardinya' YAZILMAZ (D-ANAHTAR). Değişmez 2: 1720-09-02, 1708-08, 1713, 1717-08 kırılmaları için madde ölçülmeli/önerilmeli; 1720-08-02 maddeleri varsa 09-02'ye taşınır.",
   "dayanak": "Treccani Enciclopedia Italiana 'Sardegna' (1936) tarih bölümü: «preso appena possesso della Sardegna (2 settembre 1720)»; «col trattato di Londra (2 agosto 1718) assegnò la Sardegna a re Vittorio Amedeo II»; «Il trattato di Utrecht (1713) assegnava l'isola all'imperatore»",
   "onay": "EMRELİC 6 Kasım gece-37"
  },
@@ -501,7 +501,7 @@
   "guc": "ORTA",
   "kunye": "umman f 1624-01-01 → 1615-01-30 (hicrî 1024 ∩ 1615, GREGORYEN — 1582 sonrası atlas günü Gregoryen)",
   "gun": "1615-01-30",
-  "islem": "KÜNYE: umman (Ya'rubî/Bû Saîd) f → 1615-01-30. TDV YA'RUBÎLER cümlesi hicrî veriyor: «Nâsır b. Mürşid … biat etmesiyle kurulmuştur (1024/1615). Nâsır b. Mürşid'e 1034'te (1624) biat edildiği de söylenmektedir» → TDV esas (hicrî 1024 tabular, brif epoch'u Perşembe: 1 Muharrem 1024 = 1615-01-20 Jülyen = 1615-01-30 GREGORYEN; ∩ 1615 → ilk gün; Cuma varyantı 01-31); ic_not_f iki ifadeyle (1024/1615 · 1034/1624). nebhani t 1624-01-01 → 1615-01-29 (künye ardışıklığı). MASKAT: TDV YA'RUBÎLER «I. Sultân b. Seyf … Portekizliler'den Maskat'ı aldı (1060/1650)» → mevcut 1650-01-26 hicrî 1060 (1650-01-05 → 1650-12-25) içinde, TUTARLI — '1620' TDV MASKAT ve YA'RUBÎLER'de BULUNAMADI (H3 notu çürük; 1630 Portekiz barış antlaşması var: «Portekizliler barış antlaşması yapmak zorunda kaldı (1630)»). YAN BULGU: TDV MASKAT «Osmanlı Devleti … 1552'de ele geçirdiği fakat kısa bir [süre sonra] … kaptırdığı Maskat» → 1552 kısa isg osmanli dilimi (Pîrî Reis; gün kaynakla). YERLEŞİMLER: iç Umman (Nizva, Buraymî, Rustak…) nebhani → 1615-01-30 umman; 1515-04-01 artığı (Hürmüz kopyası) bütün iç Umman ve Zufâr satırlarından KALKAR. Nizva/Buraymî yer_yama_1923_1945.js + yer_yama_halef_1946.js yerlesimler.js'e uyar (künye f değiştiği için 1624 değil 1615-01-30). Sahil kaleleri kale kale: Maskat portekiz 1507 → 1650-01-26 (Matrah ve Suhâr kaleleri de Nâsır'ın ölümünde Portekiz'deydi — TDV; düşüş günleri kaynakla), Sûr vb. Cülfâr ve Şârika: s: hurmuz-sultanligi + v: portekiz 1515-04-01 → 1622 (gece-39), 1622 → Ya'rubî alışı (Nâsır'ın Culfâr seferi, TDV) kaynakla. Zufâr (Salala, Mirbât, Tâka, Hâsik …) 1515 → 1624 BEYANLI (kesiri-sultanligi künyesi VAR 1450 → — Zufâr Kesîrî denetimi kaynakla teyit edilirse o). Sokotra çelişkisi (umman ↔ mahra-sultanligi) AYRI satır, kaynakla. MÜKERRER: nebhani (20 ref, #60121b) kalır, nebhani-umman (#f480cf) — renk farklı → D-ANAHTAR.md ek bölüm (Emre).",
+  "islem": "KÜNYE: umman (Ya'rubî/Bû Saîd) f → 1615-01-30. TDV YA'RUBÎLER cümlesi hicrî veriyor: «Nâsır b. Mürşid … biat etmesiyle kurulmuştur (1024/1615). Nâsır b. Mürşid'e 1034'te (1624) biat edildiği de söylenmektedir» → TDV esas (hicrî 1024 tabular, brif epoch'u Perşembe: 1 Muharrem 1024 = 1615-01-20 Jülyen = 1615-01-30 GREGORYEN; ∩ 1615 → ilk gün; Cuma varyantı 01-31); ic_not_f iki ifadeyle (1024/1615 · 1034/1624). nebhani t 1624-01-01 → 1615-01-30 (künye ardışıklığı; t = ardıl f, yarı açık). MASKAT: TDV YA'RUBÎLER «I. Sultân b. Seyf … Portekizliler'den Maskat'ı aldı (1060/1650)» → mevcut 1650-01-26 hicrî 1060 (1650-01-05 → 1650-12-25) içinde, TUTARLI — '1620' TDV MASKAT ve YA'RUBÎLER'de BULUNAMADI (H3 notu çürük; 1630 Portekiz barış antlaşması var: «Portekizliler barış antlaşması yapmak zorunda kaldı (1630)»). YAN BULGU: TDV MASKAT «Osmanlı Devleti … 1552'de ele geçirdiği fakat kısa bir [süre sonra] … kaptırdığı Maskat» → 1552 kısa isg osmanli dilimi (Pîrî Reis; gün kaynakla). YERLEŞİMLER: iç Umman (Nizva, Buraymî, Rustak…) nebhani → 1615-01-30 umman; 1515-04-01 artığı (Hürmüz kopyası) bütün iç Umman ve Zufâr satırlarından KALKAR. Nizva/Buraymî yer_yama_1923_1945.js + yer_yama_halef_1946.js yerlesimler.js'e uyar (künye f değiştiği için 1624 değil 1615-01-30). Sahil kaleleri kale kale: Maskat portekiz 1507 → 1650-01-26 (Matrah ve Suhâr kaleleri de Nâsır'ın ölümünde Portekiz'deydi — TDV; düşüş günleri kaynakla), Sûr vb. Cülfâr ve Şârika: s: hurmuz-sultanligi + v: portekiz 1515-04-01 → 1622 (gece-39), 1622 → Ya'rubî alışı (Nâsır'ın Culfâr seferi, TDV) kaynakla. Zufâr (Salala, Mirbât, Tâka, Hâsik …) 1515 → 1624 BEYANLI (kesiri-sultanligi künyesi VAR 1450 → — Zufâr Kesîrî denetimi kaynakla teyit edilirse o). Sokotra çelişkisi (umman ↔ mahra-sultanligi) AYRI satır, kaynakla. MÜKERRER: nebhani (20 ref, #60121b) kalır, nebhani-umman (#f480cf) — renk farklı → D-ANAHTAR.md ek bölüm (Emre).",
   "dayanak": "TDV YA'RUBÎLER + MASKAT + UMMAN (LAB açtı, 6 Kasım)",
   "onay": "EMRELİC 6 Kasım gece-49"
  },
