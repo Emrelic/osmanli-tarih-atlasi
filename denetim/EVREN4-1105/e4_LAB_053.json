@@ -1,0 +1,560 @@
+{
+ "Reggio Calabria": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "odoakar",
+   "f": "0476-08-23",
+   "t": "0493-03-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Treccani/Reggio Calabria 536-1060 sorgusu); kabul edilen kaynak sayfasi okunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Reggio'ya ozgu Odoaker donemi (476-08-23 -> 493-03-05) tanigi bulunamadi; yalniz ULKE duzeyi (Italya Odoaker'e gecti) bilinir. Yerlesim-ozel kaynak aranmadi: bu kaynak Treccani 'Reggio di Calabria' (Enc. Italiana 1935 ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "dogu-got",
+   "f": "0493-03-05",
+   "t": "0553-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Treccani/Reggio Calabria); ozel kaynak sayfasi okunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Dogu Got 493-03-05 ulke duzeyi; Reggio'ya ozgu (Gotik Savasi, Belisarius 536 Reggio'da - arama ozeti/blog ipucu) tanik okunmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "bizans",
+   "f": "0553-01-01",
+   "t": "1059-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Treccani/Reggio Calabria); skuola.net/blog ipucu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bizans 553 -> 1059: Reggio Bizans'ta Normanlar 1060'a dek (Guiscard Reggio'yu 1060'ta aldi - arama ozeti ipucu, okunmadi). Atlas t 1059-01-01 yil duzeyi; apulya-dukaligi f 1059 kunye. 1060 (Reggio'nun fethi) icin ONERI adayi: t 1060 - KAYNAK OKUNAMADI. Arap/Aglebi arasi donemi (Sicilya emirligi) atlasta yok mu? kontrol onerilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "sicilya-kralligi",
+   "f": "1128-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Treccani/Reggio Calabria 1128-1281)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1128/1130 Sicilya Krallik ulke duzeyi; Reggio'ya ozgu cumle bulunamadi. KUNYE: napoli f 1282-03-30 -> asagidaki napoli donemi f 1281-01-01 kunyeden once."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1861-02-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Emre karari (Napoli ilhaki 1860-12-17, TAHRIR) - bilinen kararlar listesi; kaynak sayfasi okunmadi",
+   "alinti": "",
+   "oneri": {
+    "t": "1860-12-17"
+   },
+   "not": "ÖNCEKİ KARAR (gece-124 Foggia): Napoli ilhak kararnamesi 1860-12-17 (TAHRİR). KÜNYE AŞIMI: dönem f 1281-01-01, napoli künye f 1282-03-30 (Sicilya Vesperleri; 1281–82 Anjou Sicilya Krallığı). | KARAR UYGULAMASI: Napoli Krallıgi'nin Italya'ya ilhaki 1860-12-17 (tahrir olcutu: idareye katma). Atlas t 1861-02-13 (Gaeta teslimi/ Italya Kralligi f 1861-03-17 kunye). ONERI t 1860-12-17; yerlesim ayrica el degistirmemis (Garibaldi Reggio'ya 1860-08 girdi - isg ayrimi kontrol). KUNYE ASIMI: donem f 1281-01-01, kunye napoli f 1282-03-30; 1281-82 icin sicilya-kralligi (Anjou) uzatilmali mi sor."
+  }
+ ],
+ "Reykjavík": [
+  {
+   "dosya_satir": "data/yerlesimler_ek12.js:76",
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "0930-01-01",
+   "t": "1262-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://lex.dk/Island_-_historie",
+   "alinti": "930 Grundlæggelse af fællesforsamlingen (Altinget)",
+   "oneri": {},
+   "not": "ULKE DUZEYI, YIL (930, Altingi). lex.dk (Den Store Danske). t 1262 icin bkz. sonraki satir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek12.js:76",
+   "alan": "s",
+   "d": "izlanda-norvec-danimarka",
+   "f": "1262-01-01",
+   "t": "1918-12-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://lex.dk/Island_-_historie",
+   "alinti": "1262-64 Godetiden ender. Traktat med Håkon 4. Håkonsson; Island bliver en provins i det norske monarki",
+   "oneri": {},
+   "not": "ULKE DUZEYI. lex.dk f ucunu '1262-64' ARALIGI olarak veriyor (Altinget 1262-64'te onayladi); atlas 1262-01-01 yil sabitlemesi - kaynak 1262-64 araligi, gun yok. t 1918-12-01 bu satirda: Forbundsloven 'trådte formelt i kraft 1. december' 1918 (lex.dk) -> t uc tutarli. Oneri yok, aralik beyani ic_not'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek12.js:76",
+   "alan": "s",
+   "d": "izlanda",
+   "f": "1918-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://lex.dk/Island_-_historie",
+   "alinti": "den trådte formelt i kraft 1. december samme år",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Forbundsloven (1918) yururluk 1 Aralik 1918 = Izlanda'nin ozgur-egemen devlet (Danimarka ile personalunion) statusu baslangici. Yururluk gunu burada statu baslangicidir (devir degil); Danimarka ile personalunion ic_not."
+  }
+ ],
+ "Port Vila": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:384",
+   "alan": "s",
+   "d": "yeni-hebridler-kondominyumu",
+   "f": "1906-10-20",
+   "t": "1980-07-30",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch (Anglo-French Convention 20 Oct 1906; Bremen dijital, Spectator 1906 - arsiv 202/bos, Wikipedia 'Protocol of 1906 effective 1907' ipucu); Woodward ANU Press gövdesi okunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sozlesme imzasi 1906-10-20 (ipucu kaynaklari), yururluk/Kondominyum fiilen 1907 (Protocol of 1906 effective 1907 - Vikipedi ipucu). TEK OLCU: iki devlet zaten yonetiyor -> imza gunu; ama kondominyum yonetimi 1907'de kuruldu -> teslim gunu 1907 olabilir. Okunmus akademik kaynak yok; karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:384",
+   "alan": "s",
+   "d": "vanuatu",
+   "f": "1980-07-30",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Chain'deki history.state.gov 'recognized' tipi kaynak KAYNAKLI vermez; bu oturumda Vanuatu 1980-07-30 icin ayri kaynak sayfasi acilmadi (butce)."
+  }
+ ],
+ "Plymouth (Montserrat)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:119",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1632-01-01",
+   "t": "1958-01-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://www.worldstatesmen.org/Montserrat.htm",
+   "alinti": "1632 English settlement of Montserrat begins",
+   "oneri": {},
+   "not": "worldstatesmen.org = IPUCU (kaynakli degil). 1632 yil: Montserrat Ingiliz yerlesimi basladi; '3 Jan 1958 - 31 May 1962 Part of the Federation of the West Indies' (ayni sayfa) atlas t 1958-01-03 ve sonraki donem t 1962-05-31 ile tutarli. globalsecurity.org ipucu 1632 Thomas Warner. ONERI degisiklik yok; akademik/resmi kaynak (legislation.gov.uk West Indies Federation Order 1957) okunmadi. Plymouth'un kurulus yili 1632'den sonraki olabilir (merdiven 4 kontrolu yapilmadi)."
+  }
+ ],
+ "Pompéu": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:668",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1866-11-14",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "IBGE Cidades/servicodados atlanmasi gereken kaynak; alternatif (Minas Gerais Assembleia Legislativa / il kanunu) aranmadi."
+  }
+ ],
+ "Ponta Delgada (São Miguel)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:89",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1546-04-02",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sayfa acilmadi. NOT: f 1546-04-02 sehir (cidade) statusu - devlet degisimi degil; Portekiz Sao Miguel'de 1440'lardan beri (yerlesim), onceki __BOSLUK__ donemi beyanli. Devlet ucu icin Azor yerlesim kaynagi (Portekiz) gerek."
+  }
+ ],
+ "Porkhov": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:36",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (nortfort.ru 'History of the Porkhov Fortress' ipucu, Vikipedi ipucu); bigenc.ru atlanmasi gereken",
+   "alinti": "",
+   "oneri": {},
+   "not": "Porkhov kalesi 1239 ilk ani (nortfort.ru, kurum sitesi = IPUCU); atlas f 1281 ufuk. 1478 Novgorod'un Moskova'ya katilisi ulke duzeyi (Vikipedi ipucu, 1478-01-15 zincir). Akademik kaynak okunamadi."
+  }
+ ],
+ "Port Lincoln": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:309",
+   "alan": "s",
+   "d": "guney-avustralya",
+   "f": "1839-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://firstparliament.senate.gov.au/origins/declaration",
+   "alinti": "The Commonwealth of Australia was established on 1 January 1901",
+   "oneri": {},
+   "not": "Avustralya Senatosu (devletin kendi resmi yayini): Federasyon 1901-01-01 -> t ucu gun duzeyinde teyit (ULKE DUZEYI). f 1839: Britannica 'surveyed in 1839' (zincir, ipucu; Port Lincoln'in kurulus yili; sahiplik Guney Avustralya 1836-12-28'den beri - kaynak okunmadi). Alinti yalniz t ucunu tarihliyor."
+  }
+ ],
+ "Presidente Dutra (Curador)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:618",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1896-06-06",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "IBGE atlanmasi gereken; alternatif aranmadi. f 1896-06-06 belediye/yerlesim kurulusu, devlet ucu degil."
+  }
+ ],
+ "Prince Albert": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:613",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1866-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.biographi.ca/en/bio/nisbet_james_10E.html",
+   "alinti": "After inspecting the site Nisbet took his party to the place, which he named Prince Albert. The date of their arrival was 26 July 1866.",
+   "oneri": {
+    "f": "1866-07-26"
+   },
+   "not": "DCB (Dictionary of Canadian Biography, vol.10, J.E. Murray): Prince Albert 26 Temmuz 1866'da kuruldu -> merdiven 4: yerlesim 1866-07-26'dan once yok; atlas f 1866-01-01 -> 1866-07-26. t 1870-07-15: Rupert's Land and North-Western Territory Order (justice.gc.ca p1t31): 'from and after the fifteenth day of July, one thousand eight hundred and seventy' (bilinen karar 1870-07-15 ile ayni). Alan Rupert's Land'te (HBC); d ingiliz-kuzey-amerika sahibi HBC mulkiyeti beyani gerekebilir."
+  }
+ ],
+ "Provo (Utah Gölü, Timpanogos Ute)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1127",
+   "alan": "s",
+   "d": "abd",
+   "f": "1849-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://digital.newberry.org/ahcb/documents/UT_Consolidated_Chronology.htm",
+   "alinti": "The area of present Utah became unorganized federal territory in the United States.",
+   "oneri": {
+    "f": "1848-02-02"
+   },
+   "not": "Kaliforniya emsali sorusu: Guadalupe Hidalgo 1848-02-02 imza; Newberry AHCB '1848-07-04' (ilan/yürürlük); Mormon yerleşimi 1847-07-24 (ABD vatandaşları, Meksika fiilen yönetmiyordu) → TEK ÖLÇÜ hangi gün — EMRELİC'e soruldu; öncesi meksika dilimi eklenecek; Timpanogos Ute bos:'kabile' yazılmadı (BEKLET). | Atlas f yerlesim kurulus gunu; Utah 1847-49'da Meksika'ydi (Newberry: 'still under the jurisdiction of Republic of Mexico'), ABD'ye gecis Guadalupe Hidalgo. Newberry gunu '4 July 1848' (ilan/yurutluk) verir; imza 1848-02-02 (Kaliforniya emsali, bilinen karar). TEK OLCU: ABD Utah'i fiilen yonetmiyor (Utah Territory 1850-09-09, Newberry) -> imza mi teslim mi EMRE karari. Oneri: oncesine meksika (1821-09-27 -> 1848-02-02) donemi eklenmeli; Timpanogos Ute halk topragi: bos:'kabile' YAZILMADI, mevcut sahip korundu, not dusuldu (Emre karari bekleniyor). Fort Utah kurulusu 1849-03 (WebSearch ozeti, okunmadi)."
+  }
+ ],
+ "Puebla de los Ángeles": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:400",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1531-04-16",
+   "t": "1535-04-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (INAFED/Puebla belediye yayinlari, UNAM historicas PDF - SSL hatasi acilamadi: https://historicas.unam.mx/publicaciones/publicadigital/libros/podercivil/pcivil005.pdf)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Puebla 16 Nisan 1531 'resmi' kurulus (arama ozeti: Motolinia ilk ayin; tarih tartismali, 1531-1534 arasi) - okunmus kaynak yok. t 1535-04-17 Yeni Ispanya Genel Valiligi (zincirde TDV 'amerika' yalniz yil). Merdiven 4 uyumlu."
+  }
+ ],
+ "Puerto Deseado": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1373",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1884-07-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch (turizm/Vikipedi ipucu; santacruz.gob.ar zincirde kayitli, bu oturumda acilmadi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama ozeti: 15 Temmuz 1884 Kaptan Oneto ile Arjantin yerlesimi (resmi kurulus), 1780 Viedma Ispanyol yerlesimi (1807'ye dek). ZAYIF: 1780-1807 Ispanya ve 1884 oncesi donem atlasta yoksa MERDIVEN 4: atlas koordinati 1884 kasabasi; ancak 1780 yerlesim ayni koyda - cakisma Emre'ye. Arjantin Atlantik Patagonya egemenligi 1881 Chile sinir antlasmasi (okunmadi)."
+  }
+ ],
+ "Puerto Natales": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1176",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1911-05-31",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch; Memoria Chilena 'Ultima Esperanza' https://www.memoriachilena.gob.cl/602/w3-article-93348.html (arama ozeti: 'ciudad surgio en 1911'), 31 Mayis gunu ikincil (Kiddle/Vikipedi ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yil 1911 Memoria Chilena (devlet portali) ozetiyle uyumlu; GUN 1911-05-31 resmi karar/dekreto okunmadi. Sayfa sayfa.py ile acilmadi."
+  }
+ ],
+ "Punakha": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:37",
+   "alan": "s",
+   "d": "bhutan",
+   "f": "1616-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://countrystudies.us/bhutan/6.htm",
+   "alinti": "The theocratic government was founded by an expatriate Drukpa monk, Ngawang Namgyal, who arrived in Bhutan in 1616",
+   "oneri": {},
+   "not": "ULKE DUZEYI, YIL (LoC Country Studies, 'Bhutan - Theocratic Government, 1616-1907'). Punakha'ya ozgu degil: Punakha Dzong 1637-38 (WebSearch/NYPL ozeti, okunmadi) Zhabdrung tarafindan insa; Punakha yerlesimi 1616'da var miydi - merdiven 4 sorusu acik. BEYANLI YAKLASIKLIK."
+  }
+ ],
+ "Qamanittuaq (Baker Lake)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:233",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy, the said North-Western Territory shall be admitted into and become part of the Dominion of Canada",
+   "oneri": {
+    "t": "1870-07-15",
+    "d_sonraki": "kanada f 1870-07-15"
+   },
+   "not": "ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara Arktik → 1870-07-15 Rupert's Land ülke düzeyi BEYANLI; bos:'kabile' yazılmaz (kabile-toprak sınıfı BEKLET). | KARAR UYGULAMASI: Rupert's Land/North-Western Territory 1870-07-15 (anakara Arktik ve Yukon dahil, BEYANLI). Baker Lake anakarada (Keewatin) -> Arktik adalar 1880-09-01 degil, 1870-07-15; t 1880-09-01 -> 1870-07-15, sonraki kanada donemi f ayni gun. bos:'kabile' (Inuit halk toprag) onerisi YAZILMADI, mevcut sahip 'inuit' korundu, not dusuldu (Emre karari bekleniyor). Alinti yalniz t ucunu tarihliyor."
+  }
+ ],
+ "Qikiqtaruk (Herschel Adası)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:78",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1890-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://primarydocuments.ca/adjacent-territories-order/",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions in North America, not already included within the Dominion of Canada, and all Islands adjacent to any of such Territories or Possessions, shall",
+   "oneri": {
+    "f": "1880-09-01"
+   },
+   "not": "KARAR UYGULAMASI: Arktik adalar 1880-09-01 (Adjacent Territories Order, 31 Temmuz 1880). Atlas f 1890-01-01 = balina avciligi istasyonu kurulusu; devlet gecisi degil. Herschel Adasi Yukon anakara kiyisina bitisik ada: Order 'adjacent islands' kapsar -> 1880-09-01 (anakara Yukon 1870-07-15; ada formal 1880). BEYANLI; onceki sahip (1880 oncesi) icin satir yok - bos kalir/halk toprag (bos:'kabile' YAZILMADI)."
+  }
+ ],
+ "Ribeirão Branco": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:608",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1883-03-29",
+   "t": "1889-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (arpensp.org.br haber 13424; al.sp.gov.br Lei 83/1892 sayfasi arama sonucu) - sayfa.py ile okunmadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama ozeti: Lei Provincial n.28, 29 Mart 1883 Bom Jesus do Ribeirao Branco Distrito de Paz/freguesia (Faxina belediyesi) - atlas f 1883-03-29 ile ayni gun; fakat bu idari kurulus, devlet ucu degil (Imparatorluk 1822'den beri). t 1889-11-15 cumhuriyet ilani (ulke duzeyi) okunmadi. Merdiven 4 yaklasimi: yerlesim kurulusu f."
+  }
+ ],
+ "Rondonópolis": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:770",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1920-10-08",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "IBGE atlanmasi gereken; alternatif aranmadi. f 1920-10-08 belediye/yerlesim kurulusu."
+  }
+ ],
+ "Rotorua": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:215",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1881-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch (Te Ara/heritage.org.nz/gtas.nz Fenton Agreement ozeti); Te Ara atlanmasi gereken",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rotorua kasabasi 1881 (Thermal Springs Districts Act 1881 / Fenton Agreement 1877-81, arama ozeti). Te Arawa/Ngati Whakaue arazisi; NZ egemenligi 1840 (Waitangi) - Rotorua bolgesi icin ayri el degisimi yok; f 1881 kasaba kurulusu, devlet ucu degil. Okunmus kaynak yok."
+  }
+ ],
+ "Rovaniemi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:136",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://snl.no/Gustav_1._Vasa",
+   "alinti": "blei på riksmøtet i Strängnäs 6. juni 1523 vald til svensk konge",
+   "oneri": {},
+   "not": "Store norske leksikon: Gustav Vasa 6 Haziran 1523 Strangnas'ta kral secildi -> bilinen karar 1523-06-06 (Kalmar'dan ayrilis) ile uyumlu; t ucu gun duzeyi (ULKE DUZEYI). Alinti yalniz t ucunu tarihliyor; f 1281 ufuk (kaynak yok). Rovaniemi'nin 1281-1523 sahipligi (Kemi Lapland Isvec/Novgorod/Norvec iddialari) okunmadi."
+  }
+ ],
+ "Rundu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1835",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1900-01-01",
+   "t": "1915-07-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Nkurenkuru Alman karakolu 17 Haziran 1910; Rundu'nun 1936'da bolge merkezi olmasi - Vikipedi ipucu); Univ. Koeln Kavango.pdf https://kups.ub.uni-koeln.de/1321/1/Kavango.pdf (HTTP 502, acilamadi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kavango'da Alman varligi 1910 (Nyangana/Andara/Nkurenkuru karakollari); Rundu'da Alman istasyonu kaniti yok. f 1900-01-01 destek bulunamadi; Rundu 1936 oncesi yerlesim degil (merdiven 4 adayi: f'yi yerlesimin kurulusuna cek / Kavango krallik sahibi). t 1915-07-09 Alman Guneybati Afrikasi teslimi ulke duzeyi (SAHO ipucu, zincirde). Acilamayan PDF: https://kups.ub.uni-koeln.de/1321/1/Kavango.pdf"
+  }
+ ],
+ "Rykovskoye (Kirovskoye)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:402",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1878-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch (Tymovskoye/Gentes 'Russia's Sakhalin Penal Colony 1849-1917', Cambridge 'Eight Years on Sakhalin' bolum basliklari)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rykovskoye'nin kurulus yili bulunamadi (Derbinskoye 1880; Rykov 'Tym vadisi yerlesimcisi'). Atlas f 1878 (libsakh takvimi). Rusya Sahalin 1875 Petersburg Antlasmasi ile tam egemen (okunmadi). Koordinat 50.7N: Portsmouth 1905-09-05 ile Japonya'ya giden guney kisim disinda; 1920-25 Japon isgali zincirde not edildi."
+  }
+ ],
+ "Río Cuarto (Villa de la Concepción del Río Cuarto)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:123",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1786-11-11",
+   "t": "1810-05-25",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (Cordoba karsi-devrimi Liniers; Rio Cuarto kurulusu 11 Kasim 1786 zincirde UNRC haberi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1810-05-25 Mayis Devrimi (ulke duzeyi). Cordoba valisi Gutierrez de la Concha/Liniers karsi-devrimi Temmuz-Agustos 1810'a dek surdu, Cordoba Junta'yi Agustos 1810'da kabul etti (Infobae/Perfil/Vikipedi ipucu) -> Rio Cuarto icin fiili devir gunu daha gec olabilir; kaynak okunmadi. f 1786-11-11 kurulus gunu (UNRC haberi, akademik degil)."
+  }
+ ],
+ "Saint-Pierre (Martinik)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:64",
+   "alan": "s",
+   "d": "martinik",
+   "f": "1635-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.herodote.net/15_septembre_1635-evenement-16350915.php",
+   "alinti": "",
+   "oneri": {
+    "f": "1635-09-15"
+   },
+   "not": "herodote.net = IPUCU (arama ozeti: d'Esnambuc 15 Eylul 1635'te Martinik'e cikti; Vikipedi History of Martinique 1 Eylul der); sayfa okunmadi, KAYNAKLI degil. Atlas f 1635-01-01 yil sabitlemesi; Fransiz sahipligi fiilen d'Esnambuc cikisiyla baslar. Akademik kaynak (Compagnie des Iles d'Amerique 1635 aksi) okunmadi."
+  }
+ ],
+ "Salt Lake City": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1115",
+   "alan": "s",
+   "d": "abd",
+   "f": "1847-07-24",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://digital.newberry.org/ahcb/documents/UT_Consolidated_Chronology.htm",
+   "alinti": "The area of present Utah became unorganized federal territory in the United States.",
+   "oneri": {
+    "f": "1848-02-02"
+   },
+   "not": "Kaliforniya emsali sorusu: Guadalupe Hidalgo 1848-02-02 imza; Newberry AHCB '1848-07-04' (ilan/yürürlük); Mormon yerleşimi 1847-07-24 (ABD vatandaşları, Meksika fiilen yönetmiyordu) → TEK ÖLÇÜ hangi gün — EMRELİC'e soruldu; öncesi meksika dilimi eklenecek; Timpanogos Ute bos:'kabile' yazılmadı (BEKLET). | Atlas f yerlesim kurulus gunu; Utah 1847-49'da Meksika'ydi (Newberry: 'still under the jurisdiction of Republic of Mexico'), ABD'ye gecis Guadalupe Hidalgo. Newberry gunu '4 July 1848' (ilan/yurutluk) verir; imza 1848-02-02 (Kaliforniya emsali, bilinen karar). TEK OLCU: ABD Utah'i fiilen yonetmiyor (Utah Territory 1850-09-09, Newberry) -> imza mi teslim mi EMRE karari. Oneri: oncesine meksika (1821-09-27 -> 1848-02-02) donemi eklenmeli; Timpanogos Ute halk topragi: bos:'kabile' YAZILMADI, mevcut sahip korundu, not dusuldu (Emre karari bekleniyor)."
+  }
+ ],
+ "Samara": [
+  {
+   "dosya_satir": "data/yerlesimler_ek22.js:125",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://ssau.ru/english/news/22661-ria-novosti-fortresses-against-free-lands-why-did-the-volga-cossacks-fail",
+   "alinti": "",
+   "oneri": {
+    "kirp": "f 1281 -> 1586 (kale kurulusu); Altin Orda ve Nogay donemleri Samara'da kirpilir"
+   },
+   "not": "MERDIVEN 4: Samara kalesi 1586'da kuruldu (WebSearch ozeti: 22 Mayis-19 Agustos 1586, Prens Zasekin; ssau.ru robots.txt ile acilamadi, ipucu). Atlas koordinati bu kaleye ait -> altinorda (1281-1502) ve nogay (1502-1556) donemleri ve rusya 1556-1586 arasi kirpilmali; toprak komsu peteklere (Altin Orda/Nogay) kalir. Akademik kaynak okunmadi. Acilamayan: https://ssau.ru/english/news/22661-ria-novosti-fortresses-against-free-lands-why-did-the-volga-cossacks-fail"
+  }
+ ],
+ "San Carlos de Río Negro": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1477",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1760-03-11",
+   "t": "1821-06-24",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Şüphe: 1760'ta bölge Yeni Granada/Venezuela idaresinde (Mérida emsali) → yeni-granada-valiligi / venezuela-genel-kaptanligi (KASA YG listesiyle hizala). | Sayfa acilmadi (zincirdeki bibliofep Diccionario de Historia de Venezuela okunmadi). SORU: San Carlos de Rio Negro 1760'ta Yeni Granada/Venezuela (Guayana) idaresinde; 'ispanyol-peru' kunyesi supheli - dogrulanmali. t 1821-06-24 Carabobo: Guayana/Amazonas'ta Ispanyol egemenligi daha gec bitti."
+  }
+ ],
+ "San Cristóbal de La Laguna (Tenerife)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:53",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1496-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: WebSearch (Alvarez Delgado, ULPGC mdc.ulpgc.es PDF robots.txt ile acilamadi: https://mdc.ulpgc.es/files/original/86aadae217e9660f16f432cb2faed5a4ef6fea78.pdf; rodin.uca.es TFG acilmadi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Tenerife fethinin sonu: 25 Temmuz 1496 Los Realejos antlasmasi (Vikipedi turevi ipucu) / Eylul 1496 kesin (J. Alvarez Delgado, ULPGC - okunamadi) / bazi biyografi sitesi 1495. Atlas f 1496-01-01 yil, Aguere ve Acentejo 1494-95 oncesi. Gun duzeyi kaynak okunamadi; kaynak celiskisi iki yonde. ZAYIF: La Laguna Guanche'den Kastilya'ya gecis 1496 yil duzeyi."
+  }
+ ],
+ "San Cristóbal de las Casas (Ciudad Real)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:434",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1528-03-31",
+   "t": "1535-04-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: WebSearch (hmdb isaret levhasi, UNAM Anales IIE https://www.analesiie.unam.mx/index.php/analesiie/article/download/284/271/289 - PDF metninde '1528' bulunamadi); kabul edilen kaynak sayfasi okunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "31 Mart 1528 Villa Real (Diego de Mazariegos) arama ozetinde (levha/Kiddle ipucu); 1 Mart 1528 Chiapa de Corzo'ya ait. t 1535-04-17 genel valilik; okunmus kaynak yok."
+  }
+ ]
+}
