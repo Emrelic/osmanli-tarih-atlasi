@@ -52,7 +52,22 @@
   - Bulunursa: `s: ingiltere` → devir günü `s: fransa-cumhuriyet` → 1922-07-20 `fransiz-togo`.
   - Bulunmazsa: "devir ~1920, gün bulunamadı" `ic_not`a.
 - **Kıbrıs:** Lefkoşa modeli; 1914 ilhakı `ic_not`ta.
-- **6 madde:** kuyruğa alındı (`MADDE-TASLAK-KUYRUK2-1105.json`, Sonnet).
+- **6 madde:** kuyruğa alındı (`denetim/KRONOLOJI-1104/MADDE-TASLAK-KUYRUK2-1105.json`, Sonnet).
+
+### KUYRUK2 sonucu (gece-128)
+
+- **7 taslak** (6 + TOG-07 bonus), 7 dil dolu: 5 KAYNAKLI, 2 ONERI.
+  - LOM-01 1914-08-07 (1920 Togoland raporu §3)
+  - TOG-02 1914-08-26
+  - DAG-03 1899-11-14 (Hertslet, 3. basım 1909, Gold Coast bölümü; Yendi adı geçmiyor, doğu yarı çıkarım)
+  - VER-06 1919-06-28 (Versay md. 119)
+  - TOG-07 1922-07-20 (Togo mandaları; İngiliz tarafı KAYNAKLI)
+  - ZIM-04 1684 ve ZIM-05 1840: ONERI [yalnız yıl]. ZIM-05'in 1840'ı tamamen LAB kararı; TDV yıl vermiyor ("1830'larda").
+- **Versay:** mevcut `olaylar_ok109.js:211` maddesi Alsas-Loren'i (md. 51) anıyor; md. 119'u, Doğu Afrika'yı ve Togo'yu anmıyor, konu eşleşmiyor → VER-06 ayrı taslak.
+- **Kilindoni (B1):** TDV «Tanzanya» Mafia'yı ÖZGÜL tarihliyor: «İngilizler'in Kasım 1914'te Mafia adasını ele geçirmesiyle başlayan…» → `isg ingiltere` f **1914-11-01** + ay beyanı, **KAYNAKLI**; 1916-09-19 kalkar.
+  - Öteki kaynaklardaki 12 Ocak 1915 akademik kaynakla doğrulanamadı (Strachan ve Hordern ödünç kitap). `ic_not`ta iki tarih beyanı.
+- **Lomé (B2):** devir günü BULUNAMADI; 1920 raporu tarandı, devir cümlesi yok. → `s: ingiltere` BEYANLI 1919-06-28 → 1922-07-20, `ic_not` "devir ~1920, gün bulunamadı". Devir maddesi yazılmadı.
+- ⚠️ Hedef dosya: 7 taslak `kronoloji_sinir_afrika.js`'e hedeflendi; ajan bu dosyanın 1920–23 mandalarına odaklı olduğunu not etti. 1684, 1840 ve 1899 maddeleri için başka bir Afrika dosyası seçilebilir (KASA PAZAR / EMRELİC).
 
 ## D2
 
