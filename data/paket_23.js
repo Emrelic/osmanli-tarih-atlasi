@@ -748,9 +748,9 @@ window.YERLESIMLER_NOKTA_ASYA_0917 = [
      {f:"1644-04-25",t:"1646-01-01",d:"guney-ming",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz (beyanlı boşluk) — Leshou» (1644-04-25, taraf kolu) kaynağı — Takvim: Ming shi 丁未 → Gregoryen 1644-04-25 | BOŞLUK BEYANI: arandı, bulunamadı: Ming shi j.24 «Zhuanglie 2» (zh.wikisource.org/wiki/明史/卷24; açıldı, okundu): «丙午，日晡，外城陷。…丁未，昧爽，內城陷。帝崩於萬歲山» (Chongzhen’in ölümü 1644-04-25 Gregoryen) ile Qing shi gao j.4 (zh.wikisource.org/wiki/清史稿/卷4; açıldı, okundu): «五月戊子朔…己丑，大軍抵燕京…睿親王多爾袞入居武英殿。» (1644-06-06 Gregoryen) arasında Hejian/Leshou’nun fiilî sahibi (Li … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1646-01-01",t:"1676-04-05",d:"qing-hanedani"},
      {f:"1676-04-05",t:"1677-04-30",d:"san-fan"},
-     {f:"1677-04-30",t:"1856-03-02",d:"qing-hanedani"},
-     {f:"1856-03-02",t:"1858-09-22",d:"taiping"},
-     {f:"1858-09-22",t:"1911-10-31",d:"qing-hanedani"},
+     {f:"1677-04-30",t:"1856-04-09",d:"qing-hanedani",kaynak:"Academia Sinica çevirisi (EMRELİC; CIN-TAKVIM-SONUC, KASA PAZAR 6 Kasım 2026): Qingshigao 卷20 咸豐6 三月 壬戌 «江西賊陷吉安» = 1856-04-09 (kayıt günü)"},
+     {f:"1856-04-09",t:"1858-10-15",d:"taiping",kaynak:"Academia Sinica çevirisi (EMRELİC; CIN-TAKVIM-SONUC, KASA PAZAR 6 Kasım 2026): Qingshigao 卷20 咸豐6 三月 壬戌 «江西賊陷吉安» = 1856-04-09 (kayıt günü) · Academia Sinica çevirisi (EMRELİC; CIN-TAKVIM-SONUC, KASA PAZAR 6 Kasım 2026): Qingshigao 卷20 咸豐8 九月 辛巳 «湖南官軍克復吉安» = 1858-10-15 (kayıt günü)"},
+     {f:"1858-10-15",t:"1911-10-31",d:"qing-hanedani",kaynak:"Academia Sinica çevirisi (EMRELİC; CIN-TAKVIM-SONUC, KASA PAZAR 6 Kasım 2026): Qingshigao 卷20 咸豐8 九月 辛巳 «湖南官軍克復吉安» = 1858-10-15 (kayıt günü)"},
      {f:"1911-10-31",t:"1949-10-01",d:"cin-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Çin Halk Cumhuriyeti egemenliğine geçti — Leshou» (1949-10-01, taraf kolu) kaynağı — «中華人民共和國中央人民政府公告» (zh.wikisource.org/wiki/中華人民共和國中央人民政府公告; açıldı, okundu): «一九四九年十月一日 … 宣告中華人民共和國的成立，並決定北京爲中華人民共和國的首都。» | BEYANLI YAKLAŞIKLIK: Hebei’nin fiilî KKP denetimi 1947–Ocak 1949 (Pekin); Hejian/Leshou için yer-özgü tarih açılan kaynaklarda yok, ilan günü işaret. · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1949-10-01",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"ilan 1949-10-01, tsv kunye"}] },
 
 { ad:"Ganzhou", tur:"sehir", lat:25.85, lon:114.93, g:0, k:0,
