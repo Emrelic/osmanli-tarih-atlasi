@@ -1,0 +1,182 @@
+{
+ "Sena Madureira": [
+  {
+   "sira": 1958,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1904-09-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:337",
+   "lat": -9.066,
+   "lon": -68.6571,
+   "zincir_guncel": "s:brezilya-cumhuriyeti 1904-09-25→2000-12-31"
+  }
+ ],
+ "Tabatinga": [
+  {
+   "sira": 1983,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1766-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.",
+   "dosya_satir": "data/yerlesimler_amerika3.js:254",
+   "lat": -4.2528,
+   "lon": -69.9381,
+   "zincir_guncel": "s:portekiz-brezilyasi 1766-01-01→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "Tefé (Teffé de Aisuaris)": [
+  {
+   "sira": 1989,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1688-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:77",
+   "lat": -3.35,
+   "lon": -64.71,
+   "zincir_guncel": "s:portekiz-brezilyasi 1688-01-01→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "Tonantins": [
+  {
+   "sira": 2005,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1865-08-15",
+   "t": "1889-11-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Brezilya'da cumhuriyet ilan edildi — 1872 Paraguay sınırı Brezilya Cumhuriyeti'ne geçti» (1889-11-15, taraf kolu) kaynağı — Library of Congress, Brazil–U.S. Relations: First Republic ('On November",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1002",
+   "lat": -2.8658,
+   "lon": -67.7919,
+   "zincir_guncel": "s:brezilya-imparatorlugu 1865-08-15→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "San Francisco Xavier (Chiquitos)": [
+  {
+   "sira": 1936,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1691-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:111",
+   "lat": -16.27,
+   "lon": -62.5,
+   "zincir_guncel": "s:ispanya 1691-01-01→1825-08-06 | s:bolivya-cumhuriyeti 1825-08-06→2000-12-31"
+  }
+ ],
+ "San José de Uchupiamonas": [
+  {
+   "sira": 1937,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1716-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:103",
+   "lat": -14.3,
+   "lon": -68.0,
+   "zincir_guncel": "s:ispanya 1716-01-01→1825-08-06 | s:bolivya-cumhuriyeti 1825-08-06→2000-12-31"
+  }
+ ],
+ "Santa Ana del Yacuma": [
+  {
+   "sira": 1940,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1894-10-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:226",
+   "lat": -13.7455,
+   "lon": -65.4279,
+   "zincir_guncel": "s:bolivya-cumhuriyeti 1894-10-22→2000-12-31"
+  }
+ ],
+ "Trinidad (Mojos)": [
+  {
+   "sira": 2009,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1687-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:106",
+   "lat": -14.83,
+   "lon": -64.9,
+   "zincir_guncel": "s:ispanya 1687-01-01→1825-08-06 | s:bolivya-cumhuriyeti 1825-08-06→2000-12-31"
+  }
+ ],
+ "Xapuri": [
+  {
+   "sira": 2089,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1904-08-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1060",
+   "lat": -10.6516,
+   "lon": -68.4969,
+   "zincir_guncel": "s:brezilya-cumhuriyeti 1904-08-22→2000-12-31"
+  }
+ ],
+ "Tarija": [
+  {
+   "sira": 1987,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1690-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gamerika.js:114",
+   "lat": -21.53,
+   "lon": -64.73,
+   "zincir_guncel": "s:ispanyol-peru 1690-01-01→1824-12-09 | s:ispanya 1824-12-09→1825-08-06 | s:bolivya-cumhuriyeti 1825-08-06→2000-12-31"
+  }
+ ],
+ "Sarmiento (Chubut)": [
+  {
+   "sira": 1953,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1897-06-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1352",
+   "lat": -45.5868,
+   "lon": -69.0688,
+   "zincir_guncel": "s:arjantin-cumhuriyeti 1897-06-21→2000-12-31"
+  }
+ ],
+ "Vila Boa de Goiás": [
+  {
+   "sira": 2052,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1727-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.",
+   "dosya_satir": "data/yerlesimler_amerika3.js:304",
+   "lat": -15.9339,
+   "lon": -50.14,
+   "zincir_guncel": "s:portekiz-brezilyasi 1727-01-01→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ]
+}

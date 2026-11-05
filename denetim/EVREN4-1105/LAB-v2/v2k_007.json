@@ -1,0 +1,247 @@
+{
+ "Vezzân (Ouezzane)": [
+  {
+   "sira": 2049,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:105",
+   "lat": 34.796,
+   "lon": -5.583,
+   "zincir_guncel": "s:merini 1281-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  }
+ ],
+ "Zâgûre (Dr'a)": [
+  {
+   "sira": 2105,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:156",
+   "lat": 30.332,
+   "lon": -5.838,
+   "zincir_guncel": "s:merini 1281-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  }
+ ],
+ "Bir Lahlu (Bir Lehlou)": [
+  {
+   "sira": 2133,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sahra-arap-demokratik-cumhuriyeti",
+   "f": "1976-02-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 26.349,
+   "lon": -9.577,
+   "zincir_guncel": "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+  }
+ ],
+ "Tâtâ": [
+  {
+   "sira": 2021,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:184",
+   "lat": 29.744,
+   "lon": -7.972,
+   "zincir_guncel": "s:merini 1281-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  }
+ ],
+ "Îfnî (Sîdî İfnî)": [
+  {
+   "sira": 2108,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:174",
+   "lat": 29.379,
+   "lon": -10.173,
+   "zincir_guncel": "s:merini 1281-01-01→1549-01-01 | s:sadi 1549-01-01→1659-01-01 | s:fas 1659-01-01→1912-03-30 | s:fas-fransiz-himayesi 1912-03-30→1956-03-02 | s:fas-krallik 1956-03-02→2000-12-31"
+  }
+ ],
+ "Camulodunum (Colchester)": [
+  {
+   "sira": 2138,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "catuvellauni-krallik",
+   "f": "0005-01-01",
+   "t": "0043-01-01",
+   "mevcut_kaynak": "Cunobelinus'un (Catuvellauni-Trinovantes) başkenti Camulodunum: Frere, Britannia (1987); Cassius Dio LX.19-21 (Claudius Camulodunum'u aldı) [sayfa teyidi bekler] · künye catuvellauni-krallik 0005-0043. BEYANLI YAKLAŞIKLIK: künye başı kullanıldı (kaynakta gün yok).",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "zincir_guncel": "s:catuvellauni-krallik 0005-01-01→0043-01-01 | s:roma-imp 0043-01-01→0395-01-17 | s:bati-roma 0395-01-17→0410-01-01 | s:__BOSLUK__ 0410-01-01→0880-01-01 | s:danelaw 0880-01-01→0917-01-01 | s:wessex 0917-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2139,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "0043-01-01",
+   "t": "0395-01-17",
+   "mevcut_kaynak": "Tacitus Annales XII.32: 49'da Camulodunum colonia (veteranlar); XIV.31-32: 60/61'de Boudicca isyanında yıkıldı [sayfa teyidi bekler]; Salway, Roman Britain (1981) · künye roma-imp t=0395-01-17. BEYANLI YAKLAŞIKLIK: 61 sonrası yeniden kurulum, Roma sürekliliği çıkarım.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "zincir_guncel": "s:catuvellauni-krallik 0005-01-01→0043-01-01 | s:roma-imp 0043-01-01→0395-01-17 | s:bati-roma 0395-01-17→0410-01-01 | s:__BOSLUK__ 0410-01-01→0880-01-01 | s:danelaw 0880-01-01→0917-01-01 | s:wessex 0917-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2140,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0410-01-01",
+   "t": "0880-01-01",
+   "mevcut_kaynak": "BOŞLUK BEYANI (arandı, bulunamadı): Colchester'ın 410-880 sahibi için tarihli tanık yok (Essex krallığı essex 527-825 Colchester'ı adıyla anmaz; ASC 823/825 Essex'in Wessex'e teslimi şehir adı vermez). Aranan: ASC (Ingram), Bede HE, Stenton, Historic England Colchester.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "zincir_guncel": "s:catuvellauni-krallik 0005-01-01→0043-01-01 | s:roma-imp 0043-01-01→0395-01-17 | s:bati-roma 0395-01-17→0410-01-01 | s:__BOSLUK__ 0410-01-01→0880-01-01 | s:danelaw 0880-01-01→0917-01-01 | s:wessex 0917-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2141,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "danelaw",
+   "f": "0880-01-01",
+   "t": "0917-01-01",
+   "mevcut_kaynak": "ASC 880 (Doğu Anglia Danimarkalı yerleşimi) + ASC 917 (Ingram s.a. 921: İngilizler Colchester'ı kuşatıp aldı, halkı kırdı, sonra kralın onarımı: «repaired and renewed the town») → şehir Danelaw'daydı · künye danelaw f=0878. BEYANLI YAKLAŞIKLIK: 880 başı Doğu Anglia yerleşimi, Colchester adı 917'de i",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "zincir_guncel": "s:catuvellauni-krallik 0005-01-01→0043-01-01 | s:roma-imp 0043-01-01→0395-01-17 | s:bati-roma 0395-01-17→0410-01-01 | s:__BOSLUK__ 0410-01-01→0880-01-01 | s:danelaw 0880-01-01→0917-01-01 | s:wessex 0917-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  },
+  {
+   "sira": 2142,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0917-01-01",
+   "t": "0927-01-01",
+   "mevcut_kaynak": "ASC 917 (Ingram s.a. 921): «King Edward with the West-Saxon army to Colchester; and repaired and renewed the town... And all the army in East-Anglia swore union with him» · künye wessex t=0927.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "lat": 51.8900740264,
+   "lon": 0.901087762674,
+   "zincir_guncel": "s:catuvellauni-krallik 0005-01-01→0043-01-01 | s:roma-imp 0043-01-01→0395-01-17 | s:bati-roma 0395-01-17→0410-01-01 | s:__BOSLUK__ 0410-01-01→0880-01-01 | s:danelaw 0880-01-01→0917-01-01 | s:wessex 0917-01-01→0927-01-01 | s:ingiltere 0927-01-01→1281-01-01"
+  }
+ ],
+ "Canterbury": [
+  {
+   "sira": 2143,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kent-kralligi",
+   "f": "0455-01-01",
+   "t": "0825-01-01",
+   "mevcut_kaynak": "künye kent-kralligi · H. Loyn, «Kent, kingdom of», The Oxford Companion to British History (ed. J. Cannon), encyclopedia.com/history/modern-europe/british-and-irish-history/kingdom-kent: f: «Kent was founded, according to tradition, in the middle of the 5th cent.» (0455 geleneksel Anglosakson Chroni",
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:214",
+   "lat": 51.28,
+   "lon": 1.08,
+   "zincir_guncel": "s:kent-kralligi 0455-01-01→0825-01-01 | s:wessex 0825-01-01→0927-01-01 | s:ingiltere 0927-01-01→2000-12-31"
+  }
+ ],
+ "Frankfurt (Oder)": [
+  {
+   "sira": 2164,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 52.347,
+   "lon": 14.55,
+   "zincir_guncel": "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+  }
+ ],
+ "Schwerin": [
+  {
+   "sira": 2225,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 53.635,
+   "lon": 11.401,
+   "zincir_guncel": "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+  }
+ ],
+ "Viborg (Jutland)": [
+  {
+   "sira": 2050,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Danmarkshistorien (Aarhus Universitet / lex.dk), Viborg maddesi, https://danmarkshistorien.dk/vis/materiale/viborg (ham metin ham/dk_viborg.txt; TDV dışı kaynak, elle doğrulama bekler): «Byen blev bispesæde i 1065, og frem til 1200-tallet blev den en af Danmarks betydeligste byer» ; Danmarkshistorie",
+   "dosya_satir": "data/yerlesimler_avrupa.js:328",
+   "lat": 56.451,
+   "lon": 9.402,
+   "zincir_guncel": "s:danimarka 1000-01-01→1281-01-01 | s:danimarka 1281-01-01→2000-12-31"
+  },
+  {
+   "sira": 2051,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_avrupa.js:328",
+   "lat": 56.451,
+   "lon": 9.402,
+   "zincir_guncel": "s:danimarka 1000-01-01→1281-01-01 | s:danimarka 1281-01-01→2000-12-31"
+  }
+ ],
+ "Växjö": [
+  {
+   "sira": 2070,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Gustav Vasa Strängnäs'te kral seçildi — İsveç Krallığı Kalmar Birliği'nden ayrıldı» (1523-06-06, yer kolu) kaynağı — Encyclopedia of World Biography (Gale) 'Gustavus I' — AYNEN: \"On June 6 it elec",
+   "dosya_satir": "data/yerlesimler_ek7.js:89",
+   "lat": 56.878,
+   "lon": 14.809,
+   "zincir_guncel": "s:isvec-birlik-oncesi 1281-01-01→1523-06-06 | s:isvec 1523-06-06→2000-12-31"
+  }
+ ],
+ "Laon": [
+  {
+   "sira": 2190,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1101-01-01",
+   "t": "1331-01-01",
+   "mevcut_kaynak": "FRANSA-KONTROL (28 Ekim 2026): BEYANLI YAKLAŞIKLIK — boşluk Fransa egemenliğiyle dolduruldu: Treccani aynı maddede piskoposluk/komün gücünün «a profitto del re di Francia» eridiğini söyler, komün 1331'e dek sürer; Piskoposluk/komün devlet künyesi değil; egemen olarak Fransa tacı varsayıldı (şehir Fr",
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:86",
+   "lat": 49.56409,
+   "lon": 3.6245035,
+   "zincir_guncel": "s:fransa 1101-01-01→1331-01-01 | s:fransa 1331-01-01→1792-09-22 | s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+  }
+ ]
+}

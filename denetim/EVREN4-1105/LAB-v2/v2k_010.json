@@ -1,0 +1,247 @@
+{
+ "Vize": [
+  {
+   "sira": 2065,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1369-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Istıranca kaleleri: Pınarhisar, Kırkkilise (Kırklareli) ve Vize'nin fethi» (1369-01-01, yer kolu) kaynağı — murad-i · kirklareli · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil",
+   "dosya_satir": "data/yerlesimler_ek29.js:454",
+   "lat": 41.5714,
+   "lon": 27.7658,
+   "zincir_guncel": "s:bizans 1281-01-01→1369-01-01 | d:osmanli 1369-01-01→1402-07-28 | s:suleyman-celebi 1402-07-28→1403-02-01 | s:bizans 1403-02-01→1410-02-13 | s:musa-celebi 1410-02-13→1410-06-15 | s:bizans 1410-06-15→1453-05-29 | v:bizans 1424-02-22→1453-05-29 | d:osmanli 1453-05-29→1920-04-23 | isg:bulgaristan-kralligi 1913-03-26→1913-07-21 | s:tbmm-turkiye 1920-04-23→1923-10-29 | s:turkiye-cumhuriyeti 1923-10-29→2000-12-31"
+  }
+ ],
+ "Wiener Neustadt": [
+  {
+   "sira": 2082,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya-dukaligi",
+   "f": "1194-01-01",
+   "t": "1276-11-21",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.813,
+   "lon": 16.244,
+   "zincir_guncel": "s:avusturya-dukaligi 1194-01-01→1276-11-21 | s:almanya 1276-11-21→1282-12-27 | s:avusturya 1282-12-27→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2083,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1276-11-21",
+   "t": "1282-12-27",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.813,
+   "lon": 16.244,
+   "zincir_guncel": "s:avusturya-dukaligi 1194-01-01→1276-11-21 | s:almanya 1276-11-21→1282-12-27 | s:avusturya 1282-12-27→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2084,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1282-12-27",
+   "t": "1918-11-12",
+   "mevcut_kaynak": "AVMAC-A-1029: kimlik habsburg → avusturya — Habsburg lehni topraklarının bütün öteki yerleşimleri (Viyana, Graz, Linz, Maribor) haritada 'avusturya' anahtarıyla boyanır (habsburg künyesi harita:avusturya); 'habsburg' anahtarı farklı renk (mavi) verip Wiener Neustadt'ı komşularından ayırıyordu. Gün d",
+   "dosya_satir": "",
+   "lat": 47.813,
+   "lon": 16.244,
+   "zincir_guncel": "s:avusturya-dukaligi 1194-01-01→1276-11-21 | s:almanya 1276-11-21→1282-12-27 | s:avusturya 1282-12-27→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2085,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.813,
+   "lon": 16.244,
+   "zincir_guncel": "s:avusturya-dukaligi 1194-01-01→1276-11-21 | s:almanya 1276-11-21→1282-12-27 | s:avusturya 1282-12-27→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  },
+  {
+   "sira": 2086,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 47.813,
+   "lon": 16.244,
+   "zincir_guncel": "s:avusturya-dukaligi 1194-01-01→1276-11-21 | s:almanya 1276-11-21→1282-12-27 | s:avusturya 1282-12-27→1918-11-12 | s:avusturya-cumhuriyet 1918-11-12→1938-03-13 | s:almanya 1938-03-13→1945-04-27 | s:avusturya-ikinci-cumhuriyet 1945-04-27→2000-12-31"
+  }
+ ],
+ "Çapljina (Čapljina)": [
+  {
+   "sira": 2255,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 43.113,
+   "lon": 17.705,
+   "zincir_guncel": "s:herzeg-bosna 1991-11-18→1996-08-14"
+  }
+ ],
+ "İslimye (Sliven)": [
+  {
+   "sira": 2118,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1878-07-13",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_ek29.js:859",
+   "lat": 42.686,
+   "lon": 26.326,
+   "zincir_guncel": "s:bulgar-carligi 1281-01-01→1370-01-01 | d:osmanli 1370-01-01→1402-07-28 | s:suleyman-celebi 1402-07-28→1410-02-13 | s:musa-celebi 1410-02-13→1410-06-15 | s:suleyman-celebi 1410-06-15→1411-02-17 | s:musa-celebi 1411-02-17→1413-07-05 | d:osmanli 1413-07-05→1878-07-13 | v:sarki-rumeli 1878-07-13→1885-09-18 | s:bulgaristan-prensligi 1885-09-18→1908-10-05 | s:bulgaristan-kralligi 1908-10-05→1946-09-15 | s:bulgaristan-halk 1946-09-15→1990-11-15 | s:bulgaristan-cumhuriyeti 1990-11-15→2000-12-31"
+  }
+ ],
+ "Vara (Wara)": [
+  {
+   "sira": 2039,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "vaday",
+   "f": "1635-01-01",
+   "t": "1909-06-02",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu» (1909-06-02, yer kolu) kaynağı — TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi el",
+   "dosya_satir": "data/yerlesimler_afrika2.js:328",
+   "lat": 14.05,
+   "lon": 21.0,
+   "zincir_guncel": "s:vaday 1635-01-01→1909-06-02 | s:fransa-cumhuriyet 1909-06-02→1960-08-11 | s:cad 1960-08-11→2000-12-31"
+  },
+  {
+   "sira": 2040,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:328",
+   "lat": 14.05,
+   "lon": 21.0,
+   "zincir_guncel": "s:vaday 1635-01-01→1909-06-02 | s:fransa-cumhuriyet 1909-06-02→1960-08-11 | s:cad 1960-08-11→2000-12-31"
+  }
+ ],
+ "Aveyl": [
+  {
+   "sira": 2127,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:985",
+   "lat": 8.767,
+   "lon": 27.4,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Berbérati": [
+  {
+   "sira": 2132,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "orta-afrika-imparatorlugu",
+   "f": "1976-12-04",
+   "t": "1979-09-20",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 4.261,
+   "lon": 15.792,
+   "zincir_guncel": "s:orta-afrika-imparatorlugu 1976-12-04→1979-09-20"
+  }
+ ],
+ "Businga": [
+  {
+   "sira": 2137,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Democratic Republic of the Congo'",
+   "dosya_satir": "data/yerlesimler_afrika2.js:903",
+   "lat": 3.34,
+   "lon": 20.88,
+   "zincir_guncel": "s:kongo-serbest-devleti 1900-01-01→1908-11-15 | s:belcika-kongo 1908-11-15→1960-06-30 | s:kongo-kinsasa 1960-06-30→2000-12-31"
+  }
+ ],
+ "Meşra er-Rek": [
+  {
+   "sira": 2200,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:808",
+   "lat": 8.417,
+   "lon": 29.283,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Rağa": [
+  {
+   "sira": 2217,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:989",
+   "lat": 8.46,
+   "lon": 25.68,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Rumbek": [
+  {
+   "sira": 2218,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica 'Anglo-Egyptian Condominium'; Sudan parlamentosu bagimsizlik karari 1955-12-19, yururluk 1956-01-01",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:820",
+   "lat": 6.8,
+   "lon": 29.678,
+   "zincir_guncel": "s:ingiliz-sudani 1899-01-19→1956-01-01 | s:sudan-cumhuriyeti 1956-01-01→2000-12-31"
+  }
+ ],
+ "Sarh (Fort-Archambault)": [
+  {
+   "sira": 2222,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri",
+   "dosya_satir": "data/yerlesimler_afrika2.js:576",
+   "lat": 9.15,
+   "lon": 18.39,
+   "zincir_guncel": "s:fransa-cumhuriyet 1899-01-01→1960-08-11 | s:cad 1960-08-11→2000-12-31"
+  }
+ ]
+}

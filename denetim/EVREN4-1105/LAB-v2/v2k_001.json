@@ -1,0 +1,182 @@
+{
+ "Unalaska (Iliuliuk)": [
+  {
+   "sira": 2032,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1787-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:582",
+   "lat": 53.87,
+   "lon": -166.53,
+   "zincir_guncel": "s:rusya 1787-01-01→1867-10-18 | s:abd 1867-10-18→2000-12-31"
+  }
+ ],
+ "Telida / Denali eteği (Atabask)": [
+  {
+   "sira": 1991,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:257",
+   "lat": 63.4,
+   "lon": -153.0,
+   "zincir_guncel": "s:dene 1281-01-01→1867-10-18 | s:abd 1867-10-18→2000-12-31"
+  }
+ ],
+ "Vashrąįį K'ǫǫ (Arctic Village)": [
+  {
+   "sira": 2041,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:116",
+   "lat": 68.128,
+   "lon": -145.535,
+   "zincir_guncel": "s:dene 1281-01-01→1867-10-18 | s:abd 1867-10-18→2000-12-31"
+  }
+ ],
+ "Yakutat (Novorossiysk)": [
+  {
+   "sira": 2090,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1796-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:388",
+   "lat": 59.547,
+   "lon": -139.727,
+   "zincir_guncel": "s:rusya 1796-01-01→1867-10-18 | s:abd 1867-10-18→2000-12-31"
+  }
+ ],
+ "Telegraph Creek (Tlegohin)": [
+  {
+   "sira": 1990,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:444",
+   "lat": 57.902,
+   "lon": -131.16,
+   "zincir_guncel": "s:dene 1281-01-01→1899-06-21 | s:kanada 1899-06-21→2000-12-31"
+  }
+ ],
+ "Tsilhqot'in (Çilkotin platosu)": [
+  {
+   "sira": 2013,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:674",
+   "lat": 52.1,
+   "lon": -123.3,
+   "zincir_guncel": "s:dene 1281-01-01→1899-06-21 | s:kanada 1899-06-21→2000-12-31"
+  }
+ ],
+ "Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)": [
+  {
+   "sira": 2119,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:299",
+   "lat": 62.3896,
+   "lon": -110.7375,
+   "zincir_guncel": "s:dene 1281-01-01→1899-06-21 | s:kanada 1899-06-21→2000-12-31"
+  }
+ ],
+ "St. George (Utah)": [
+  {
+   "sira": 1968,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1861-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1234",
+   "lat": 37.096,
+   "lon": -113.578,
+   "zincir_guncel": "s:abd 1861-01-01→2000-12-31"
+  }
+ ],
+ "Virginia City (Nevada)": [
+  {
+   "sira": 2060,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1859-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1145",
+   "lat": 39.31,
+   "lon": -119.649,
+   "zincir_guncel": "s:abd 1859-01-01→2000-12-31"
+  }
+ ],
+ "Anakena": [
+  {
+   "sira": 2124,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "rapa-nui",
+   "f": "1200-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "T. L. Hunt & C. P. Lipo, Late colonization of Easter Island, Science 311 (2006) 1603-1606: en erken iskân katmanları Anakena'da ~MS 1200 (`rapa-nui` künyesi; 'about 1200' radyokarbon tahmini, YAKLAŞIK; 2024 PLOS ONE çalışması 1000-1300 kullanımı der, tartışmalı). Bitiş = bit sınırı, olay DEĞİL.",
+   "dosya_satir": "data/yerlesimler_once1281_yt_yer3.js:223",
+   "lat": -27.0788,
+   "lon": -109.328,
+   "zincir_guncel": "s:rapa-nui 1200-01-01→1281-01-01"
+  }
+ ],
+ "Tula (Tamaulipas)": [
+  {
+   "sira": 2015,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1617-01-01",
+   "t": "1821-09-27",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and ",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1464",
+   "lat": 22.997,
+   "lon": -99.72,
+   "zincir_guncel": "s:yeni-ispanya 1617-01-01→1821-09-27 | s:meksika 1821-09-27→2000-12-31"
+  }
+ ],
+ "Ceibal": [
+  {
+   "sira": 2144,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "maya-orta-preklasik",
+   "f": "-0999-01-01",
+   "t": "-0399-01-01",
+   "mevcut_kaynak": "künye maya-orta-preklasik (Orta Preklasik Maya (Mirador Havzası ve Petén)) · Inomata vd. 2015, Development of sedentary communities in the Maya lowlands, PNAS 112(14):4268-4273: 'Real 1 (1000-850 B.C.)' fazinin basi ~MO 950'de E-grubu ritüel kompleksi; PNAS 2017 (114:1293) 154 14C tarihi",
+   "dosya_satir": "data/yerlesimler_mo_amerika.js:15",
+   "lat": 16.5117,
+   "lon": -90.0611,
+   "zincir_guncel": "s:maya-orta-preklasik -0999-01-01→-0399-01-01"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "Vetluga": [
+  {
+   "sira": 2048,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, taraf kolu) kaynağı — Cambridge History of Russia, c.1 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:246",
+   "lat": 57.851,
+   "lon": 45.782,
+   "zincir_guncel": "s:altinorda 1281-01-01→1325-01-01 | s:moskova 1325-01-01→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Ağdere (Martakert)": [
+  {
+   "sira": 2128,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "daglik-karabag",
+   "f": "1991-09-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 40.21,
+   "lon": 46.823,
+   "zincir_guncel": "s:daglik-karabag 1991-09-02→2000-12-31"
+  }
+ ],
+ "Grozni (Groznıy)": [
+  {
+   "sira": 2169,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 43.309,
+   "lon": 45.707,
+   "zincir_guncel": "s:ickerya 1991-11-01→2000-02-06"
+  }
+ ],
+ "Urus-Martan": [
+  {
+   "sira": 2246,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 43.133,
+   "lon": 45.538,
+   "zincir_guncel": "s:ickerya 1991-11-01→2000-02-06"
+  }
+ ],
+ "Tumreyt": [
+  {
+   "sira": 2018,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:726",
+   "lat": 17.667,
+   "lon": 54.024,
+   "zincir_guncel": "s:nebhani 1281-01-01→1515-04-01 | s:umman 1515-04-01→2000-12-31"
+  }
+ ],
+ "Tâka (Zufâr)": [
+  {
+   "sira": 2020,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:710",
+   "lat": 17.057,
+   "lon": 54.404,
+   "zincir_guncel": "s:nebhani 1281-01-01→1515-04-01 | s:umman 1515-04-01→2000-12-31"
+  }
+ ],
+ "İskuşubân": [
+  {
+   "sira": 2116,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:645",
+   "lat": 10.283,
+   "lon": 50.233,
+   "zincir_guncel": "s:adal 1281-01-01→1577-01-01 | s:somali 1577-01-01→1927-01-01 | s:italyan-somali 1927-01-01→1941-02-25 | s:somali-ingiliz-askeri-idaresi 1941-02-25→1950-04-01 | s:somali-italyan-vesayet 1950-04-01→1960-07-01 | s:somali-cumhuriyeti 1960-07-01→2000-12-31"
+  },
+  {
+   "sira": 2117,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "mevcut_kaynak": "Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:645",
+   "lat": 10.283,
+   "lon": 50.233,
+   "zincir_guncel": "s:adal 1281-01-01→1577-01-01 | s:somali 1577-01-01→1927-01-01 | s:italyan-somali 1927-01-01→1941-02-25 | s:somali-ingiliz-askeri-idaresi 1941-02-25→1950-04-01 | s:somali-italyan-vesayet 1950-04-01→1960-07-01 | s:somali-cumhuriyeti 1960-07-01→2000-12-31"
+  }
+ ],
+ "Şüveymiye": [
+  {
+   "sira": 2121,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:717",
+   "lat": 17.946,
+   "lon": 55.969,
+   "zincir_guncel": "s:nebhani 1281-01-01→1515-04-01 | s:umman 1515-04-01→2000-12-31"
+  }
+ ],
+ "Verder": [
+  {
+   "sira": 2044,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:589",
+   "lat": 6.96,
+   "lon": 45.35,
+   "zincir_guncel": "s:adal 1281-01-01→1577-01-01 | s:somali 1577-01-01→1897-01-01 | s:habesistan 1897-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-11-30 | s:habesistan 1941-11-30→1974-09-12 | s:etiyopya-derg 1974-09-12→1991-05-29 | s:etiyopya-gecis-hukumeti 1991-05-29→1995-08-22 | s:etiyopya-federal 1995-08-22→2000-12-31"
+  },
+  {
+   "sira": 2045,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "mevcut_kaynak": "Italyan ilhaki 1936-05-09; AOI 1936-06-01; Gondar teslimi 1941-11-27 (Britannica)",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:589",
+   "lat": 6.96,
+   "lon": 45.35,
+   "zincir_guncel": "s:adal 1281-01-01→1577-01-01 | s:somali 1577-01-01→1897-01-01 | s:habesistan 1897-01-01→1936-06-01 | s:italyan-dogu-afrikasi 1936-06-01→1941-11-30 | s:habesistan 1941-11-30→1974-09-12 | s:etiyopya-derg 1974-09-12→1991-05-29 | s:etiyopya-gecis-hukumeti 1991-05-29→1995-08-22 | s:etiyopya-federal 1995-08-22→2000-12-31"
+  }
+ ],
+ "Tara": [
+  {
+   "sira": 1986,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1594-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek18.js:112",
+   "lat": 56.9021,
+   "lon": 74.3714,
+   "zincir_guncel": "s:rusya 1594-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Verhoturye": [
+  {
+   "sira": 2047,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Verhoturye kalesi kuruldu» (1598-01-01, yer kolu) kaynağı — Уральская историческая энциклопедия, 'Верхотурье', https://ural.academic.ru/360/ — AYNEN: \"В. осн. как укрепленный пункт в 1598 на месте ",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:21",
+   "lat": 58.86,
+   "lon": 60.8,
+   "zincir_guncel": "s:rusya 1598-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Yekaterinburg": [
+  {
+   "sira": 2095,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1723-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:24",
+   "lat": 56.84,
+   "lon": 60.61,
+   "zincir_guncel": "s:rusya 1723-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ]
+}

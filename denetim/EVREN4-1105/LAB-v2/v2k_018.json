@@ -1,0 +1,208 @@
+{
+ "İrkutsk": [
+  {
+   "sira": 2115,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1661-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek9.js:105",
+   "lat": 52.287,
+   "lon": 104.281,
+   "zincir_guncel": "s:rusya 1661-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Uliastay": [
+  {
+   "sira": 2026,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1733-01-01",
+   "t": "1911-12-29",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_asya.js:2839",
+   "lat": 47.742,
+   "lon": 96.844,
+   "zincir_guncel": "s:qing-hanedani 1733-01-01→1911-12-29 | s:mogolistan 1911-12-29→1919-11-22 | s:cin-cumhuriyeti 1919-11-22→1921-07-11 | s:mogolistan 1921-07-11→1924-11-26 | s:mogolistan-halk-cumhuriyeti 1924-11-26→2000-12-31"
+  }
+ ],
+ "Leidu (Nianbo)": [
+  {
+   "sira": 2191,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "guney-liang-16",
+   "f": "0398-01-01",
+   "t": "0414-01-01",
+   "mevcut_kaynak": "Sima Guang, Zizhi tongjian (zh.wikisource.org/wiki/資治通鑑, bu oturumda okundu): juan 110, Long'an 2 (398): «樂都太守田瑤、湟河太守張裯、澆河太守王稚皆以郡降，嶺南羌、胡數萬落皆附於烏孤»; juan 111, Long'an 3 (399): «武威王烏孤徙治樂都»; juan 112, Yuanxing 1 (402): «辱檀襲位，更稱涼王，改元弘昌，遷於樂都»; juan 116, Yixi 10 (414): «一夕，城潰，熾磐入樂都，遣平遠將軍捷虔帥騎五千追辱檀 ... 以鎮南將軍",
+   "dosya_satir": "data/yerlesimler_once1281_yt_dogu_gd_asya.js:25",
+   "lat": 36.46431,
+   "lon": 102.40215,
+   "zincir_guncel": "s:guney-liang-16 0398-01-01→0414-01-01"
+  }
+ ],
+ "Chiang Hung (Jinghong)": [
+  {
+   "sira": 2147,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1950-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "ilan 1949-10-01, tsv kunye",
+   "dosya_satir": "data/yerlesimler_a78_asya.js:147",
+   "lat": 22.01,
+   "lon": 100.8,
+   "zincir_guncel": "s:sipsong-panna 1281-01-01→1950-01-01 | s:cin-halk-cumhuriyeti 1950-01-01→2000-12-31"
+  }
+ ],
+ "Phongsali": [
+  {
+   "sira": 2211,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pathet-lao-hukumeti",
+   "f": "1950-08-13",
+   "t": "1975-12-02",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 21.683,
+   "lon": 102.113,
+   "zincir_guncel": "s:pathet-lao-hukumeti 1950-08-13→1975-12-02 | s:laos-demokratik-halk-cumhuriyeti 1975-12-02→2000-12-31"
+  },
+  {
+   "sira": 2212,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "laos-demokratik-halk-cumhuriyeti",
+   "f": "1975-12-02",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 21.683,
+   "lon": 102.113,
+   "zincir_guncel": "s:pathet-lao-hukumeti 1950-08-13→1975-12-02 | s:laos-demokratik-halk-cumhuriyeti 1975-12-02→2000-12-31"
+  }
+ ],
+ "Suphan Buri": [
+  {
+   "sira": 1975,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1181-01-01",
+   "mevcut_kaynak": "UFUK SINIR İŞARETİ (0500-01-01): pencere başıdır, kuruluş değil.  | BOŞLUK BEYANI: arandı, bulunamadı: Suphan (Suphan Buri) için 1181 öncesi sahip tanığı: Coedès Dvaravati'nin başkentinin Suphan bölgesinde olabileceğini çıkarır ama hiçbir tarihli kayıt vermez (V-4); Hall, Majumdar aranıp bulunamadı.",
+   "dosya_satir": "data/yerlesimler_gdasya.js:292",
+   "lat": 14.47,
+   "lon": 100.12,
+   "zincir_guncel": "s:__BOSLUK__ 0500-01-01→1181-01-01 | s:angkor-kmer 1181-01-01→1281-01-01 | s:sukhothai 1281-01-01→1438-01-01 | s:ayutthaya 1438-01-01→1767-04-07 | s:__BOSLUK__ 1767-04-07→1767-10-01 | s:tonburi 1767-10-01→1782-04-06 | s:siyam-chakri 1782-04-06→2000-12-31"
+  },
+  {
+   "sira": 1976,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gdasya.js:292",
+   "lat": 14.47,
+   "lon": 100.12,
+   "zincir_guncel": "s:__BOSLUK__ 0500-01-01→1181-01-01 | s:angkor-kmer 1181-01-01→1281-01-01 | s:sukhothai 1281-01-01→1438-01-01 | s:ayutthaya 1438-01-01→1767-04-07 | s:__BOSLUK__ 1767-04-07→1767-10-01 | s:tonburi 1767-10-01→1782-04-06 | s:siyam-chakri 1782-04-06→2000-12-31"
+  }
+ ],
+ "Uthai Thani": [
+  {
+   "sira": 2034,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gdasya.js:232",
+   "lat": 15.38,
+   "lon": 100.02,
+   "zincir_guncel": "s:sukhothai 1281-01-01→1438-01-01 | s:ayutthaya 1438-01-01→1767-04-07 | s:__BOSLUK__ 1767-04-07→1767-10-01 | s:tonburi 1767-10-01→1782-04-06 | s:siyam-chakri 1782-04-06→2000-12-31"
+  }
+ ],
+ "Surat Thani": [
+  {
+   "sira": 1977,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gdasya.js:268",
+   "lat": 9.14,
+   "lon": 99.32,
+   "zincir_guncel": "s:sukhothai 1281-01-01→1438-01-01 | s:ayutthaya 1438-01-01→1767-04-07 | s:__BOSLUK__ 1767-04-07→1767-10-01 | s:tonburi 1767-10-01→1782-04-06 | s:siyam-chakri 1782-04-06→2000-12-31"
+  }
+ ],
+ "Trang": [
+  {
+   "sira": 2008,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_gdasya.js:186",
+   "lat": 7.56,
+   "lon": 99.61,
+   "zincir_guncel": "s:sukhothai 1281-01-01→1438-01-01 | s:ayutthaya 1438-01-01→1767-04-07 | s:__BOSLUK__ 1767-04-07→1767-10-01 | s:tonburi 1767-10-01→1782-04-06 | s:siyam-chakri 1782-04-06→2000-12-31"
+  }
+ ],
+ "Verholensk": [
+  {
+   "sira": 2046,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1641-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:72",
+   "lat": 53.94,
+   "lon": 107.28,
+   "zincir_guncel": "s:rusya 1641-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)": [
+  {
+   "sira": 2064,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1661-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:120",
+   "lat": 59.45,
+   "lon": 112.56,
+   "zincir_guncel": "s:rusya 1661-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Jiahu": [
+  {
+   "sira": 2185,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "jiahu-kultur",
+   "f": "-6999-01-01",
+   "t": "-5699-01-01",
+   "mevcut_kaynak": "künye jiahu-kultur (Jiahu Kültürü (Henan)) · Zhang, Harbottle, Wang, Kong 1999, Nature 401 (doi 10.1038/43865): Jiahu yerleşimi yaklaşık MÖ 7000–5700 (kalibrasyon durumu özette belirtilmemiş)",
+   "dosya_satir": "data/yerlesimler_mo_dogu_asya.js:4",
+   "lat": 33.617,
+   "lon": 113.665,
+   "zincir_guncel": "s:jiahu-kultur -6999-01-01→-5699-01-01"
+  }
+ ]
+}

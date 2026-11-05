@@ -1,0 +1,182 @@
+{
+ "São Paulo": [
+  {
+   "sira": 1980,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1554-01-25",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.",
+   "dosya_satir": "data/yerlesimler_amerika.js:640",
+   "lat": -23.5505,
+   "lon": -46.6333,
+   "zincir_guncel": "s:portekiz-brezilyasi 1554-01-25→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "Três Lagoas": [
+  {
+   "sira": 2012,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1914-06-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:266",
+   "lat": -20.7849,
+   "lon": -51.7007,
+   "zincir_guncel": "s:brezilya-cumhuriyeti 1914-06-12→2000-12-31"
+  }
+ ],
+ "Villaguay": [
+  {
+   "sira": 2056,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1823-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1248",
+   "lat": -31.8676,
+   "lon": -59.027,
+   "zincir_guncel": "s:arjantin-cumhuriyeti 1823-01-01→2000-12-31"
+  }
+ ],
+ "Stanley": [
+  {
+   "sira": 1969,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1844-07-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1321",
+   "lat": -51.6931,
+   "lon": -57.8565,
+   "zincir_guncel": "s:ingiltere 1844-07-15→2000-12-31"
+  }
+ ],
+ "Santa Maria da Boa Vista": [
+  {
+   "sira": 1941,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1762-01-30",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:488",
+   "lat": -8.7977,
+   "lon": -39.8241,
+   "zincir_guncel": "s:portekiz-brezilyasi 1762-01-30→1822-09-07 | s:brezilya-imparatorlugu 1822-09-07→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "São Raimundo Nonato": [
+  {
+   "sira": 1981,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1832-07-06",
+   "t": "1889-11-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Brezilya'da cumhuriyet ilan edildi — 1872 Paraguay sınırı Brezilya Cumhuriyeti'ne geçti» (1889-11-15, taraf kolu) kaynağı — Library of Congress, Brazil–U.S. Relations: First Republic ('On November",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:638",
+   "lat": -9.0124,
+   "lon": -42.6987,
+   "zincir_guncel": "s:brezilya-imparatorlugu 1832-07-06→1889-11-15 | s:brezilya-cumhuriyeti 1889-11-15→2000-12-31"
+  }
+ ],
+ "Praia": [
+  {
+   "sira": 2215,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yesilburun",
+   "f": "1975-07-05",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 14.933,
+   "lon": -23.513,
+   "zincir_guncel": "s:yesilburun 1975-07-05→2000-12-31"
+  }
+ ],
+ "Tórshavn": [
+  {
+   "sira": 2243,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "feroe-adalari",
+   "f": "1948-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 62.01,
+   "lon": -6.772,
+   "zincir_guncel": "s:norvec-kralligi 1035-01-01→1537-01-01 | s:danimarka 1537-01-01→1948-04-01 | s:feroe-adalari 1948-04-01→2000-12-31"
+  }
+ ],
+ "Vágur": [
+  {
+   "sira": 2250,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "feroe-adalari",
+   "f": "1948-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 61.474,
+   "lon": -6.811,
+   "zincir_guncel": "s:feroe-adalari 1948-04-01→2000-12-31"
+  }
+ ],
+ "Chichester": [
+  {
+   "sira": 2148,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sussex-kralligi",
+   "f": "0477-01-01",
+   "t": "0825-01-01",
+   "mevcut_kaynak": "künye sussex-kralligi · H. Loyn, «Sussex, kingdom of», The Oxford Companion to British History (ed. J. Cannon), encyclopedia.com/history/modern-europe/british-and-irish-history/kingdom-sussex: f: «Sussex was ruled by its own kings from the time of Ælle (c.477)»; t: «after 825 the West Saxon dynasty ",
+   "dosya_satir": "data/yerlesimler_odak_yedek_1023.js:70",
+   "lat": 50.8365,
+   "lon": -0.7792,
+   "zincir_guncel": "s:sussex-kralligi 0477-01-01→0825-01-01"
+  }
+ ],
+ "Gainsborough": [
+  {
+   "sira": 2166,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1013-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "ASC s.a. 1013 (Ingram, Avalon/Yale ang11): «along the Trent, until he came to Gainsborough»; ASC 1014: «King Sweyne ended his days at Candlemas», «sat Knute with his army in Gainsborough until Easter» · künye ingiltere 0927-. kur = ilk belgeli tanık (terminus ante quem). 29 Ekim 2026 araştırma; akad",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:549",
+   "lat": 53.39,
+   "lon": -0.77,
+   "zincir_guncel": "s:ingiltere 1013-01-01→1281-01-01"
+  }
+ ],
+ "Oswestry": [
+  {
+   "sira": 2208,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1086-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Domesday «castelle Lurve», Meresberie hundred (Historic England list entry 1367336, arama özetinden) · künye ingiltere 0927-. kur = Domesday tanığı (terminus ante quem). 1149-1157 Powys dilimi (Madog ap Maredudd) kaynaklar çelişkili olduğu ve Brut gövdesi okunamadığı için yazılmadı. 29 Ekim 2026 ara",
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:574",
+   "lat": 52.8606,
+   "lon": -3.0555,
+   "zincir_guncel": "s:ingiltere 1086-01-01→1281-01-01"
+  }
+ ]
+}

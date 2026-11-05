@@ -1,0 +1,234 @@
+{
+ "Tunduru": [
+  {
+   "sira": 2019,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yao",
+   "f": "1800-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1525",
+   "lat": -11.11,
+   "lon": 37.36,
+   "zincir_guncel": "s:yao 1800-01-01→1899-01-01 | s:ingiltere 1899-01-01→1961-12-09 | s:tanganika 1961-12-09→1964-04-26 | s:tanzanya 1964-04-26→2000-12-31"
+  }
+ ],
+ "Umtali (Mutare)": [
+  {
+   "sira": 2027,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "manica",
+   "f": "1281-01-01",
+   "t": "1891-01-01",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "lat": -18.97,
+   "lon": 32.67,
+   "zincir_guncel": "s:manica 1281-01-01→1891-01-01 | s:ingiliz-guney-rodezya 1891-01-01→1965-11-11 | s:rodezya-udi 1965-11-11→1979-06-01 | s:zimbabve-rodezya 1979-06-01→1979-12-12 | s:ingiliz-guney-rodezya 1979-12-12→1980-04-18 | s:zimbabve 1980-04-18→2000-12-31"
+  },
+  {
+   "sira": 2028,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "rodezya-udi",
+   "f": "1965-11-11",
+   "t": "1979-06-01",
+   "mevcut_kaynak": "UDI 1965-11-11 (Britannica)",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "lat": -18.97,
+   "lon": 32.67,
+   "zincir_guncel": "s:manica 1281-01-01→1891-01-01 | s:ingiliz-guney-rodezya 1891-01-01→1965-11-11 | s:rodezya-udi 1965-11-11→1979-06-01 | s:zimbabve-rodezya 1979-06-01→1979-12-12 | s:ingiliz-guney-rodezya 1979-12-12→1980-04-18 | s:zimbabve 1980-04-18→2000-12-31"
+  },
+  {
+   "sira": 2029,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "zimbabve-rodezya",
+   "f": "1979-06-01",
+   "t": "1979-12-12",
+   "mevcut_kaynak": "Britannica",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "lat": -18.97,
+   "lon": 32.67,
+   "zincir_guncel": "s:manica 1281-01-01→1891-01-01 | s:ingiliz-guney-rodezya 1891-01-01→1965-11-11 | s:rodezya-udi 1965-11-11→1979-06-01 | s:zimbabve-rodezya 1979-06-01→1979-12-12 | s:ingiliz-guney-rodezya 1979-12-12→1980-04-18 | s:zimbabve 1980-04-18→2000-12-31"
+  },
+  {
+   "sira": 2030,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-guney-rodezya",
+   "f": "1979-12-12",
+   "t": "1980-04-18",
+   "mevcut_kaynak": "Lancaster House; Ingiliz valisi 1979-12-12",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "lat": -18.97,
+   "lon": 32.67,
+   "zincir_guncel": "s:manica 1281-01-01→1891-01-01 | s:ingiliz-guney-rodezya 1891-01-01→1965-11-11 | s:rodezya-udi 1965-11-11→1979-06-01 | s:zimbabve-rodezya 1979-06-01→1979-12-12 | s:ingiliz-guney-rodezya 1979-12-12→1980-04-18 | s:zimbabve 1980-04-18→2000-12-31"
+  },
+  {
+   "sira": 2031,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Bagimsizlik 1980-04-18",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "lat": -18.97,
+   "lon": 32.67,
+   "zincir_guncel": "s:manica 1281-01-01→1891-01-01 | s:ingiliz-guney-rodezya 1891-01-01→1965-11-11 | s:rodezya-udi 1965-11-11→1979-06-01 | s:zimbabve-rodezya 1979-06-01→1979-12-12 | s:ingiliz-guney-rodezya 1979-12-12→1980-04-18 | s:zimbabve 1980-04-18→2000-12-31"
+  }
+ ],
+ "Zomba": [
+  {
+   "sira": 2100,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1891-01-01",
+   "t": "1964-07-06",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1729",
+   "lat": -15.39,
+   "lon": 35.32,
+   "zincir_guncel": "s:ingiltere 1891-01-01→1964-07-06 | s:malavi 1964-07-06→2000-12-31"
+  }
+ ],
+ "Thohoyandou": [
+  {
+   "sira": 2237,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venda-bantustan",
+   "f": "1979-09-13",
+   "t": "1994-04-27",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": -22.945,
+   "lon": 30.485,
+   "zincir_guncel": "s:venda-bantustan 1979-09-13→1994-04-27"
+  }
+ ],
+ "Toliara (Tuléar)": [
+  {
+   "sira": 2003,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sakalava-menabe",
+   "f": "1600-01-01",
+   "t": "1897-02-28",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_afrika2.js:2066",
+   "lat": -23.35,
+   "lon": 43.67,
+   "zincir_guncel": "s:sakalava-menabe 1600-01-01→1897-02-28 | s:fransa-cumhuriyet 1897-02-28→1960-06-26 | s:madagaskar 1960-06-26→2000-12-31"
+  }
+ ],
+ "Ust-Tsilma": [
+  {
+   "sira": 2033,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_ek8.js:213",
+   "lat": 65.4392,
+   "lon": 52.1508,
+   "zincir_guncel": "s:novgorod 1281-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Vaygaç": [
+  {
+   "sira": 2042,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1877-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ek8.js:324",
+   "lat": 69.9,
+   "lon": 59.3,
+   "zincir_guncel": "s:rusya 1877-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Yarensk": [
+  {
+   "sira": 2092,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:186",
+   "lat": 62.166,
+   "lon": 49.098,
+   "zincir_guncel": "s:novgorod 1281-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Sarapul": [
+  {
+   "sira": 1951,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1596-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:365",
+   "lat": 56.47,
+   "lon": 53.804,
+   "zincir_guncel": "s:rusya 1596-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Solikamsk": [
+  {
+   "sira": 1963,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1430-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:212",
+   "lat": 59.649,
+   "lon": 56.771,
+   "zincir_guncel": "s:novgorod 1430-01-01→1478-01-15 | s:moskova 1478-01-15→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Stavropol (Volga)": [
+  {
+   "sira": 1972,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1738-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:407",
+   "lat": 53.507,
+   "lon": 49.42,
+   "zincir_guncel": "s:rusya 1738-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Sterlitamak": [
+  {
+   "sira": 1973,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1766-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:428",
+   "lat": 53.63,
+   "lon": 55.95,
+   "zincir_guncel": "s:rusya 1766-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ]
+}

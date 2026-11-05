@@ -1,0 +1,221 @@
+{
+ "Volokolamsk": [
+  {
+   "sira": 2066,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, taraf kolu) kaynağı — Cambridge History of Russia, c.1 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:315",
+   "lat": 56.037,
+   "lon": 35.958,
+   "zincir_guncel": "s:altinorda 1281-01-01→1325-01-01 | s:moskova 1325-01-01→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Yaroslavl": [
+  {
+   "sira": 2093,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, taraf kolu) kaynağı — Cambridge History of Russia, c.1 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:222",
+   "lat": 57.626,
+   "lon": 39.894,
+   "zincir_guncel": "s:altinorda 1281-01-01→1325-01-01 | s:moskova 1325-01-01→1547-01-16 | s:rusya 1547-01-16→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Java (Dzau)": [
+  {
+   "sira": 2183,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "guney-osetya",
+   "f": "1992-05-29",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "",
+   "dosya_satir": "",
+   "lat": 42.39,
+   "lon": 43.923,
+   "zincir_guncel": "s:guney-osetya 1992-05-29→2000-12-31"
+  }
+ ],
+ "Stavropol (Kafkas)": [
+  {
+   "sira": 1971,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1777-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "ESBE «Ставропольская губерния» (1777 Azak-Mozdok hattı kalesi)",
+   "dosya_satir": "data/yerlesimler_ok106.js:341",
+   "lat": 45.0448,
+   "lon": 41.9691,
+   "zincir_guncel": "s:rusya 1777-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-12-26 | s:rusya-federasyonu 1991-12-26→2000-12-31"
+  }
+ ],
+ "Yekaterinoslav (Dnipro)": [
+  {
+   "sira": 2096,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "ESBE «Екатеринослав» (1783 bugünkü yerine nakil)",
+   "dosya_satir": "data/yerlesimler_ok106.js:305",
+   "lat": 48.4647,
+   "lon": 35.0462,
+   "zincir_guncel": "s:rusya 1783-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-08-24 | s:ukrayna 1991-08-24→2000-12-31"
+  }
+ ],
+ "Yelisavetgrad (Aziz Yelizaveta Kalesi)": [
+  {
+   "sira": 2097,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1754-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ok106.js:279",
+   "lat": 48.51,
+   "lon": 32.26,
+   "zincir_guncel": "s:rusya 1754-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-08-24 | s:ukrayna 1991-08-24→2000-12-31"
+  }
+ ],
+ "Çuguyev": [
+  {
+   "sira": 2107,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1638-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hükümet'e geçti (Mitau, Goldingen, Ani, Mestia, Zugdidi dahil)» (1917-03-15, taraf kolu) kaynağı — Abdication of Nicholas II, https://www.prlib.r",
+   "dosya_satir": "data/yerlesimler_ok106.js:229",
+   "lat": 49.83,
+   "lon": 36.68,
+   "zincir_guncel": "s:rusya 1638-01-01→1917-03-15 | s:rusya-gecici-hukumet 1917-03-15→1917-11-07 | s:sovyet-rusya 1917-11-07→1991-08-24 | s:ukrayna 1991-08-24→2000-12-31"
+  }
+ ],
+ "Eriha (Tell es-Sultan)": [
+  {
+   "sira": 2161,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ppnb-guney-levant",
+   "f": "-8649-01-01",
+   "t": "-6749-01-01",
+   "mevcut_kaynak": "künye ppnb-guney-levant (PPNB — Çanak Öncesi Neolitik B (Güney Levant)) · PPND (Platform for Neolithic Radiocarbon Dates, exoriente.org, Jericho/Tell es-Sultan sayfası): «en erken PPN tarihleri Stage IV/IVA; toplamları 9300–8700 BC»",
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:5",
+   "lat": 31.871,
+   "lon": 35.444,
+   "zincir_guncel": "s:ppnb-guney-levant -8649-01-01→-6749-01-01 | s:ppna-guney-levant -9299-01-01→-8649-01-01"
+  },
+  {
+   "sira": 2162,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ppna-guney-levant",
+   "f": "-9299-01-01",
+   "t": "-8649-01-01",
+   "mevcut_kaynak": "künye ppna-guney-levant (PPNA — Çanak Öncesi Neolitik A (Güney Levant)) · PPND (Platform for Neolithic Radiocarbon Dates, exoriente.org, Jericho/Tell es-Sultan sayfası): «en erken PPN tarihleri Stage IV/IVA; toplamları 9300–8700 BC»",
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:5",
+   "lat": 31.871,
+   "lon": 35.444,
+   "zincir_guncel": "s:ppnb-guney-levant -8649-01-01→-6749-01-01 | s:ppna-guney-levant -9299-01-01→-8649-01-01"
+  }
+ ],
+ "Jerf el-Ahmar": [
+  {
+   "sira": 2184,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-9449-01-01",
+   "t": "-8609-01-01",
+   "mevcut_kaynak": "künye aseramik-kuzey-levant-anadolu (Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)) · Benz M. (ed.) exoriente PPND, Jerf el Ahmar sayfasi (Stordeur & Abbès 2002; Stordeur & Evin 2008)",
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:14",
+   "lat": 36.3833,
+   "lon": 38.1806,
+   "zincir_guncel": "s:aseramik-kuzey-levant-anadolu -9449-01-01→-8609-01-01"
+  }
+ ],
+ "Kiş (Tell Uhaimir)": [
+  {
+   "sira": 2187,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "akad",
+   "f": "-2323-01-01",
+   "t": "-2153-01-01",
+   "mevcut_kaynak": "künye akad (Akad Imparatorlugu) · Sargon'un kuzey Babilonya'yı güneyden önce denetlemiş olabileceği (Kiş, Sargon'un \"Kiş kralı\" unvanı) | Kaynak: Sallaberger, W. & Schrakamp, I. (eds.) 2015, ARCANE III: History & Philology, Brepols (Kisim I; Orta Kronoloji=MC), s. 90 | http://www.assyriologie.uni-mu",
+   "dosya_satir": "data/yerlesimler_mo_sumer.js:77",
+   "lat": 32.54609,
+   "lon": 44.59316,
+   "zincir_guncel": "s:akad -2323-01-01→-2153-01-01"
+  }
+ ],
+ "Mari": [
+  {
+   "sira": 2197,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "babil-eski",
+   "f": "-1760-01-01",
+   "t": "-1594-01-01",
+   "mevcut_kaynak": "künye babil-eski (Eski Babil (Amorit) Krallığı) · Hammurabi yıl 32 (MC 1761): Mari yenilir | Kaynak: \"Hammurapi\", Encyclopaedia Judaica (Gale), encyclopedia.com uzerinden | https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hammurapi | «Mari, in the 32nd»",
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "lat": 34.54944,
+   "lon": 40.89,
+   "zincir_guncel": "s:babil-eski -1760-01-01→-1594-01-01 | s:__BOSLUK__ -2294-01-01→-1760-01-01 | s:mari-erken -2549-01-01→-2294-01-01"
+  },
+  {
+   "sira": 2198,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2294-01-01",
+   "t": "-1760-01-01",
+   "mevcut_kaynak": "BEYAN (VERI-MO-ARKEO): iki kaynaklı dönem arasında sahip kaynakta yok (-2294-01-01 … -1760-01-01) → boşluk, bos:'veri-yok' (kimsenin değil DEĞİL, araştırılmadı da DEĞİL: kaynak sessiz)",
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "lat": 34.54944,
+   "lon": 40.89,
+   "zincir_guncel": "s:babil-eski -1760-01-01→-1594-01-01 | s:__BOSLUK__ -2294-01-01→-1760-01-01 | s:mari-erken -2549-01-01→-2294-01-01"
+  },
+  {
+   "sira": 2199,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "mari-erken",
+   "f": "-2549-01-01",
+   "t": "-2294-01-01",
+   "mevcut_kaynak": "künye mari-erken (Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad)) · KAYNAKLANMADI (başlangıç geçişi için bu oturumda kaynak yok)",
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:13",
+   "lat": 34.54944,
+   "lon": 40.89,
+   "zincir_guncel": "s:babil-eski -1760-01-01→-1594-01-01 | s:__BOSLUK__ -2294-01-01→-1760-01-01 | s:mari-erken -2549-01-01→-2294-01-01"
+  }
+ ],
+ "Nevalı Çori": [
+  {
+   "sira": 2207,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "aseramik-kuzey-levant-anadolu",
+   "f": "-8499-01-01",
+   "t": "-7599-01-01",
+   "mevcut_kaynak": "künye aseramik-kuzey-levant-anadolu (Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)) · Benz M. (ed.) exoriente PPND, Nevali Cori sayfasi (Hauptmann 1997/1999 14C)",
+   "dosya_satir": "data/yerlesimler_mo_levant_anadolu.js:11",
+   "lat": 37.5183,
+   "lon": 38.6056,
+   "zincir_guncel": "s:aseramik-kuzey-levant-anadolu -8499-01-01→-7599-01-01"
+  }
+ ]
+}
