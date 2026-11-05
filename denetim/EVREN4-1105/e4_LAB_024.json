@@ -1,0 +1,630 @@
+{
+ "Mrauk U (Arakan)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1237-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "G. E. Harvey, History of Burma (Longmans, London 1925), Genealogies — https://archive.org/details/historyofburmafr00harv (djvu tam metin sayfa.py ile okundu)",
+   "alinti": "Rajahs of Mrohaung (Mrauk-u) city 1433-1785",
+   "oneri": {
+    "f": "1433-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Dönem sonu (t 1237) ve 1281 öncesi dönemler yerleşim kuruluşundan önce olduğu için düşer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1237-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "G. E. Harvey, History of Burma (Longmans, London 1925), Genealogies — https://archive.org/details/historyofburmafr00harv (djvu tam metin sayfa.py ile okundu)",
+   "alinti": "Rajahs of Mrohaung (Mrauk-u) city 1433-1785",
+   "oneri": {
+    "f": "1433-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Launggyet (1237-1433) Hall Ek I'e göre başka merkezli hanedandır; Mrauk U için sahiplik değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "arakan",
+   "f": "1281-01-01",
+   "t": "1785-01-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "G. E. Harvey, History of Burma (Longmans, London 1925), Genealogies — https://archive.org/details/historyofburmafr00harv (djvu tam metin sayfa.py ile okundu)",
+   "alinti": "Rajahs of Mrohaung (Mrauk-u) city 1433-1785",
+   "oneri": {
+    "f": "1433-01-01",
+    "t": "1785-01-02"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Alıntı Mrauk-u şehir hükümdarlarının 1433-1785 aralığını verir (yıl düzeyi): f ucu atlasın 1281'i yerine şehir kuruluşu 1433; t ucu 1785 atlas gününü yıl düzeyinde doğruluyor ama Banglapedia 1784 diyor (bkz. Konbaung satırı). Gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "konbaung",
+   "f": "1785-01-02",
+   "t": "1826-02-24",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Banglapedia, 'Arakan' — https://en.banglapedia.org/index.php/Arakan ; Harvey 1925 (archive.org historyofburmafr00harv)",
+   "alinti": "In 1784, in the time of Bodawpaya (1782-1819), Arakan was annexed to the Kingdom of Burma",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | İKİ KAYNAK ÇELİŞİYOR, SEÇİLMEDİ: Banglapedia 1784 (ilhak yılı); Harvey Mrauk-u hükümdar listesi 1433-1785. Atlas 1785-01-02. Hükmü Emre verir; gün (2 Ocak) iki kaynakta da yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1826-02-24",
+   "t": "1937-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Banglapedia, 'Arakan' — https://en.banglapedia.org/index.php/Arakan",
+   "alinti": "which in turn was made a part of the British dominion in 1826",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | f ucu yıl düzeyinde teyitli [yalnız yıl; gün 1826-02-24 Yandabo, gün teyitsiz]. Ülke düzeyi (Arakan) anlatısı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3679",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1937-04-01",
+   "t": "1948-01-04",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Dönem zaten kaynaklı (history.state.gov + Oxford Reference yıl 1937; gün teyitsiz); bu partide yeniden aranmadı."
+  }
+ ],
+ "Nauru (Yaren)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1888-10-01",
+   "t": "1914-11-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Viviani 1970 PDF (nauru-data.sprep.org) metin çıkmadı; ANU Press n1857 PDF metin çıkmadı; WebSearch (ANU Press, UN, history.state.gov) 1888 ilhakını doğrulamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Ayrıntı yer_kaynak'ta (1888-10-01 fiilî, 16 Nisan 1888 kâğıt üstü) yalnız o kayıttan; teyit için başka cihazda PDF okunmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1914-11-06",
+   "t": "1921-06-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: aynı kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. 1914-11-06 teslim günü yer_kaynak'ta (Viviani/Naval Historical Society); bu oturumda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1921-06-01",
+   "t": "1947-11-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: aynı kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Avustralya idaresi Haziran 1921 (ay hassasiyeti); manda 1920-12-17 İngiltere'ye; kayıtta beyanlı. Egemen/idare ayrımı (İngiliz İmp. vs Avustralya) kaynaklı karar gerektirir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
+   "alan": "s",
+   "d": "nauru-vesayeti",
+   "f": "1947-11-01",
+   "t": "1968-01-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "history.state.gov/countries/nauru okundu: yalnız 'became a United Nations trust territory following World War II' — yıl yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Vesayet 1947-11-01 (BM GA 140(II)) mevcut DEVRALMA kaydında; bu sayfa yıl vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
+   "alan": "s",
+   "d": "nauru-cumhuriyeti",
+   "f": "1968-01-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/nauru (US Office of the Historian)",
+   "alinti": "The country achieved independence in 1968",
+   "oneri": {},
+   "not": "f ucu yıl düzeyinde teyitli [yalnız yıl; gün 1968-01-31 teyitsiz]."
+  }
+ ],
+ "Malolos": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:44",
+   "alan": "s",
+   "d": "filipin-malolos-cumhuriyeti",
+   "f": "1899-01-23",
+   "t": "1899-03-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: history.state.gov; nhcp.gov.ph (robots yasak); WebSearch özeti (Barasoain, 23 Ocak 1899 — kurum portalı, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranan/okunan: history.state.gov (philippines, spanish-american-war) okundu; NHCP ve US Army CMH sayfaları robots yasağı (atlandı); WebSearch özetleri okunmuş sayılmaz. Cumhuriyet ilanı 1899-01-23 yalnız kurum portalı özetinde (NHCP) göründü; KAYNAKLI değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:44",
+   "alan": "s",
+   "d": "abd",
+   "f": "1899-03-31",
+   "t": "1901-07-04",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/spanish-american-war (Office of the Historian)",
+   "alinti": "Spain also agreed to sell the Philippines to the United States for the sum of $20 million",
+   "oneri": {},
+   "not": "TEK ÖLÇÜ: Paris Antlaşması 1898-12-10 imza, Senato 1899-02-06 onay (yürürlük ratifikasyon mübadelesi 1899-04-11 ic_not) ⇒ Malolos'u ABD o gün fiilen yönetmiyordu; teslim = ABD'nin Malolos'u aldığı gün. Malolos 1899-03-31 alındı (US Army CMH özeti, kurum portalı ipucu; robots yasak, okunamadı). Alıntı devri tarihliyor, f ucu (31 Mart) için okunmuş akademik kaynak yok ⇒ ONERI/ipucu; savaş işgali sorusu: Malolos Cumhuriyeti tanınmamış olduğundan ABD kendi toprağı saydı, s: abd korunur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:44",
+   "alan": "s",
+   "d": "amerikan-filipinleri",
+   "f": "1901-07-04",
+   "t": "1935-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: history.state.gov; WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranan/okunan: history.state.gov (philippines, spanish-american-war) okundu; NHCP ve US Army CMH sayfaları robots yasağı (atlandı); WebSearch özetleri okunmuş sayılmaz. 1901-07-04 (Taft sivil vali) için okunmuş kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:44",
+   "alan": "s",
+   "d": "filipin-commonwealth",
+   "f": "1935-11-15",
+   "t": "1946-07-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/philippines",
+   "alinti": "as an independent state on July 4, 1946",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Commonwealth t / Cumhuriyet f 1946-07-04, ABD tanıma + antlaşma aynı gün); f ucu (1935-11-15 Commonwealth açılışı) teyitsiz olduğu için KAYNAKLI değil. KÜNYE: filipin-commonwealth f 1935-01-01, dönem f 1935-11-15 (aşım yok)."
+  }
+ ],
+ "Muglad": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:228",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (Meral Avcı) — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Funclar’ın reisi Amâre (Dûnkas), 1504 yılında daha önce Sudan’a göç etmiş bazı Arap kabilelerinin desteğini alarak Alve Krallığı’na karşı bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Func'un doğuşu 1504, yıl). Muglad Kordofan/Baggara ülkesi; Nûbe (Makurra-Alve) hâkimiyeti bu yer için kaynakta yok ⇒ sahiplik tanıklığı BULUNAMADI, f 1281 pencere başı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:228",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (Meral Avcı) — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Sudan’ın idaresini 1821-1882 yılları arasında kendilerine verilen en üst yetkilerle ele geçirdiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl düzeyi: Mısır valisi Mehmed Ali ve soyu Osmanlı adına 1821-1882. TDV ayrıca 'Son Func sultanı Bâdî 1821 Haziranında ... boyun eğmek zorunda kaldı. Ardından Kordofan ele geçirildi' (gün 1821-08-19 teyitsiz) ve Sudan'daki Türkiye döneminin 1885'te tamamen yıkıldığını söyler; Muglad'ın fiilî kopuşu 1882-09-07'den sonra (Ubeyyid 1883-01-19) olabilir. [yalnız yıl teyitli; gün teyitsiz]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:228",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (Meral Avcı) — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Kurduğu devlet, İngiliz-Mısır kuvvetlerinin büyük askerî harekâtına rağmen 1899 yılına kadar ayakta kalmayı başardı",
+   "oneri": {
+    "t": "1899-11-24"
+   },
+   "not": "ÖNCEKİ KARAR (gece-72, Bâra emsali): Halife Abdullahi Kordofan'da Umm Diwaykarat'a (1899-11-24) kadar sürdü; yerde t = İngiliz-Mısır fiilî girişi (kaynakla); 1898-09-02 Ümmüdurman ic_not. | BİLİNEN KARAR: Mehdî t 1899-11-24 (Umm Diwaykarat; Daly 1983 ile EMRELİC gece-76 çift kaynak). TDV 'Sudan' Mehdî Devleti'nin 2 Eylül 1898 Kerkeri ile yıkıldığını, 19 Ocak 1899'da condominium başladığını söyler ⇒ TDV ile karar çelişiyor, ikisi de beyan. f 1882-09-07 için kaynakta gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:228",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (Meral Avcı) — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Sudan Cumhuriyeti f 1956-01-01 gün düzeyinde teyitli (TDV Sudan, bağımsızlık)."
+  }
+ ],
+ "Muhammed Kol": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:361",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV sudan, masavva, sevakin (arama sayfası), bingazi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Memlük hâkimiyeti Kızıldeniz'in Beca kıyısında Muhammed Kol (Sevâkin kuzeyi) için tanıklı kaynak bulunamadı; 1517-04-13 Memlük sonu ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:361",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1557-01-01",
+   "t": "1885-02-05",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Masavva‘' — https://islamansiklopedisi.org.tr/masavva",
+   "alinti": "Hidiv İsmâil Paşa zamanında Dehlek ve Sevâkin ile birlikte Mısır emlâkine dahil edilerek kaymakamlık statüsünde teşkilâtlandırıldı (1865)",
+   "oneri": {
+    "t": "1865-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-71): Sevakin ve kıyısı 1885 sonrası İngiliz-Mısır elinde kaldı, iç Beja Mehdî'nin; 1885-02-05 Masavva (İtalya) günüdür, Muhammed Kol'a uygulanmaz. | ABİ MERKEZ: Masavva/Sevâkin (Habeş eyaleti sancağı; Masavva 1557-04-02 Özdemir Paşa ile Osmanlı'ya katıldı — TDV Masavva). TDV: 1865'te Sevâkin Mısır emlâkine geçti, 'Osmanlı hâkimiyeti fiilen sona erdi' ⇒ d: OSMANLI 1885 değil 1865'te biter, 1865-1885 arası v: mısır-kavalali (tâbi) olmalı. Yerleşime özgü tanıklık yok (abi merkez beyanı), f 1557 yıl düzeyi Masavva'dan; Muhammed Kol bu eyaletin kıyı bandında, Sevâkin kuzeyinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:361",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-02-05",
+   "t": "1899-01-19",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Masavva‘' — https://islamansiklopedisi.org.tr/masavva",
+   "alinti": "5 Şubat 1885’te Masavva‘a girdiler",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-71): Sevakin ve kıyısı 1885 sonrası İngiliz-Mısır elinde kaldı, iç Beja Mehdî'nin; 1885-02-05 Masavva (İtalya) günüdür, Muhammed Kol'a uygulanmaz. | 1885-02-05 İTALYAN'ın Masavva'ya girişidir (TDV Masavva), Muhammed Kol'un İngiltere'ye geçişi değil; 'ingiltere' sahibi bu kayıtta kaynaksız. Sevâkin çevresi 1883-85 Osman Dikne/Mehdî tarafı (TDV Bece, 1883-85 anılır) ⇒ sahiplik ve gün için okunmuş kaynak yok; satır ONERI konusu (sahip ve gün birlikte yeniden bakılmalı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:361",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (Meral Avcı) — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Sudan Cumhuriyeti f 1956-01-01 gün düzeyinde teyitli."
+  }
+ ],
+ "Myitkyina": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:179",
+   "alan": "s",
+   "d": "pagan",
+   "f": "1281-01-01",
+   "t": "1297-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Harvey 1925 (archive.org, Myitkyina anıları s.221/310/323), Banglapedia, history.state.gov",
+   "alinti": "",
+   "oneri": {},
+   "not": "Pagan'ın Myitkyina (Kachin ülkesi) üzerinde hâkimiyeti okunan kaynakta yok; Harvey Pagan çekirdeğini Orta Birmanya'da verir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:179",
+   "alan": "s",
+   "d": "ava",
+   "f": "1297-01-01",
+   "t": "1555-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Harvey 1925; atlasın kendi Ava notu (Harvey: devlet Myedu/Bangyi'den Prome altına uzanır)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Harvey'in Ava sınırı tanımı Myitkyina'yı kapsamıyor; Harvey Mogaung/Myitkyina bölgesini 1752'de bağımsız direniş merkezi olarak anar. Ava f 1297 künye ucu; yerleşim sahipliği tanıksız ⇒ boşluk/Şan-Kaçin tâbiliği araştırılmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:179",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1885-11-28",
+   "t": "1937-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "G. E. Harvey, History of Burma (Longmans, London 1925) — https://archive.org/details/historyofburmafr00harv (sayfa.py ia-oku)",
+   "alinti": "the Kachins were penetrating Upper Burma when the English annexed it in 1885",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl düzeyi: Üst Birmanya 1885'te İngilizlerce ilhak edildi (Harvey). Myitkyina'nın fiilî İngiliz idaresi (1886-89 Kaçin tepeleri) ayrı sorudur; gün 1885-11-28 teyitsiz [yalnız yıl teyitli; gün teyitsiz]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:179",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1937-04-01",
+   "t": "1948-01-04",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Dönem zaten kaynaklı (history.state.gov + Oxford Reference yıl 1937); bu partide aranmadı."
+  }
+ ],
+ "Mankhamba (Maravi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1666",
+   "alan": "s",
+   "d": "maravi",
+   "f": "1480-01-01",
+   "t": "1800-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. ",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. Arama özeti: Çewa-Maravi liderliği 15. yy ortasında Mankhamba'yı merkez yaptı (Juwayeyi); gün/yıl sınırı 1480 ve t 1800 okunmuş metinle teyit edilemedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1666",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1800-01-01",
+   "t": "1891-05-14",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. ",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. Umman-Zengibar'ın 1800-1891 arası Mankhamba'da egemenliği kaynakta yok: arama sonuçları Swahili-Arap tüccarlarını (Nkhotakota-Jumbe) ve Yao uzun mesafe ticaretini anar, siyasî egemenlik değil. Sahiplik beyansız yaklaşıklık sayılır ⇒ sahipsiz/boşluk ya da Yao-Ngoni yerel yapı araştırılmalı (oneri yok, kaynak okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1666",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1891-05-14",
+   "t": "1964-07-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. ",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: Cambridge (Juwayeyi 2020, Mankhamba/Maravi bölümleri — erişilemedi), Oxford Research Encyclopedia African History (arama özeti), UNESCO Malawi sayfası (özet), countrystudies.us (404), history.state.gov/countries/malawi. İngiliz Orta Afrika Himayesi 1891-05-14 ilanı için okunmuş kaynak yok; himaye (Nyasaland) şeklinde v:/s: ayrımı çıkarılmalı (himaye ise v:)."
+  }
+ ],
+ "Merc": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:517",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Bingazi' — https://islamansiklopedisi.org.tr/bingazi",
+   "alinti": "1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-67, Zilla emsali): TDV zinciri 1551 Osmanlı → Karamanlı 1711 (Trablus künyesine göre v:/d:) → merkeze bağlanma 1835; yıl/ay düzeyi, beyanlı. | f ucu yıl düzeyinde teyitli (Berka 1551). 1551-08-15 Trablus şehrinin ele geçiriliş günüdür (TDV Trablusgarp/Libya), Berka'ya özgü gün değil [yalnız yıl teyitli; gün teyitsiz]. Aynı madde Bingazi'nin kesin olarak 1578'de Osmanlı yönetimine katıldığını da söyler (çekince: 1551-1578 arası kesin olmayan hâkimiyet)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:517",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Libya' — https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-67, Zilla emsali): TDV zinciri 1551 Osmanlı → Karamanlı 1711 (Trablus künyesine göre v:/d:) → merkeze bağlanma 1835; yıl/ay düzeyi, beyanlı. | f ucu yıl düzeyinde teyitli (Karamanlı hânedanı 1711, ülke/eyalet düzeyi) [yalnız yıl teyitli; gün 1711-07-29 teyitsiz]. Mevcut atlas v: tâbi (yarı bağımsız); TDV 'sultan nâibi niteliği'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:517",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Libya' — https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-67, Zilla emsali): TDV zinciri 1551 Osmanlı → Karamanlı 1711 (Trablus künyesine göre v:/d:) → merkeze bağlanma 1835; yıl/ay düzeyi, beyanlı. | f ucu ay düzeyinde teyitli (Mayıs 1835; ülke/eyalet düzeyi, Berka dahil). Gün 1835-05-26 teyitsiz. t 1912-10-18 (Uşi) TDV Trablusgarp'ta yalnız '1912' yıl."
+  }
+ ],
+ "Mobile (Fort Louis de la Louisiane)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1393",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1702-01-01",
+   "t": "1762-11-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Encyclopedia of Alabama, 'Mobile' — https://encyclopediaofalabama.org/article/mobile/ ; 'Fort Condé' — https://encyclopediaofalabama.org/article/fort-conde/",
+   "alinti": "Founded by the French in 1702, Mobile",
+   "oneri": {
+    "t": "1763-01-01"
+   },
+   "not": "f ucu yıl düzeyinde teyitli (1702). t ucu: EA 'French (1702-1763), British (1763-1780) and Spanish (1780-1813)' ⇒ Fransız dönemi 1763'te biter (Paris Antlaşması 1763-02-10 imza; teslim gün teyitsiz), atlasın 1762-11-03 (Fontainebleau gizli devri, Louisiane batısı) Mobile için geçerli değil: Mobile Mississippi'nin doğusunda İngiliz Batı Florida'sı. [yalnız yıl teyitli; gün teyitsiz]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1393",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1762-11-03",
+   "t": "1803-12-20",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Encyclopedia of Alabama, 'Mobile' — https://encyclopediaofalabama.org/article/mobile/ ; 'Fort Condé' — https://encyclopediaofalabama.org/article/fort-conde/",
+   "alinti": "From 1780 to 1813, Spain ruled Mobile",
+   "oneri": {
+    "d": "ingiltere",
+    "f": "1763-01-01",
+    "t": "1780-03-14"
+   },
+   "not": "BÖLÜNMELİ: 1763-1780 İngiliz Batı Florida'sı ('Fort Condé then became part of British West Florida', 'The British held the fort until March 1780') ⇒ yeni dönem d: ingiltere 1763 → 1780-03 (gün EA'da yok; 14 Mart tarihli Gálvez teslimi bu oturumda okunmadı, 'Mart 1780' ay düzeyi); ardından İspanya 1780-03 → 1813 (yeni-ispanya künyesi ya da İspanya? Mobile Batı Florida/Louisiana İspanyol idaresi, Yeni İspanya Genel Valiliği altında Küba kaptanlığı) ⇒ künye sorusu LAB'a. Atlas 1762-11-03 → 1803-12-20 aralığı yanlış."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1393",
+   "alan": "s",
+   "d": "abd",
+   "f": "1803-12-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Alabama, 'Mobile' — https://encyclopediaofalabama.org/article/mobile/ ; 'Fort Condé' — https://encyclopediaofalabama.org/article/fort-conde/",
+   "alinti": "in April 1813, U.S. Army general James Wilkinson arrived with more than 1,000 men with orders from Pres. James Madison to take possession of the city",
+   "oneri": {
+    "f": "1813-04-01"
+   },
+   "not": "ABD Mobile'i Nisan 1813'te aldı (Spanish surrendered ... without firing a shot, 13 Nisan: sayfa metninde gün kesik, WebSearch özeti 13 Nisan). 1803-12-20 Louisiana Satın Alımı Mobile'i kapsamıyordu (İspanyol Batı Florida'sı). f yıl-ay düzeyinde 1813-04; gün (13) ham metinde okunamadı. TEK ÖLÇÜ: İspanya teslim etti (teslim günü)."
+  }
+ ],
+ "Mîrat (Meerut)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1526-04-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Encyclopaedia Iranica, 'Delhi Sultanate i. Political and cultural history' — https://www.iranicaonline.org/articles/delhi-sultanate/delhi-sultanate-i-political-and-cultural-history/",
+   "alinti": "the Lōdīs (855-932/1451-1526)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, alıntı yalnız t ucunu tarihliyor (Lodî sonu 1526; Panipat); Meerut'un Delhi Sultanlığı'na aidiyeti (f 1281) yerleşim-düzeyinde okunmadı. IGI ipucu aranmadı. Gün 1526-04-21 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1788-01-01",
+   "t": "1803-09-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Iranica (Delhi Sultanate), WebSearch (Cambridge/JSTOR/Oxford) — Meerut-Maratha/Scindia 1788 çıkmadı; ia-ara IGI Meerut boş döndü",
+   "alinti": "",
+   "oneri": {},
+   "not": "Maratha (Sindhia) Meerut'u 1788'de Gulam Kadir sonrası Delhi bölgesiyle birlikte aldığı iddiası okunmuş akademik kaynakta bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-09-11",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: aynı kaynaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "Doab'ın 1803 Surji-Anjangaon (30 Aralık 1803) ile ilhakı yazılabilir ama okunmuş kaynak yok; Delhi Savaşı 1803-09-11 fiilî denetim günü Delhi içindir, Meerut için ayrı gün gerekebilir (Meerut Doab'da, Aligarh/Laswari kampanyası 1803-09/11)."
+  }
+ ],
+ "Nacogdoches": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1381",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1779-01-01",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Handbook of Texas Online (TSHA), 'Nacogdoches, TX' — https://www.tshaonline.org/handbook/entries/nacogdoches-tx",
+   "alinti": "caused Ibarvo to lead them in 1779 to the abandoned mission site at Nacogdoches",
+   "oneri": {},
+   "not": "f ucu yıl düzeyinde teyitli (Ibarvo 1779'da yerleşimi kurdu; İspanyol Teksası). Alanın daha eski misyon geçmişi var (kur: 1779 yerleşim); t 1821-09-27 teyitsiz [yalnız yıl teyitli; gün 1779-01-01 teyitsiz]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1381",
+   "alan": "s",
+   "d": "teksas-cumhuriyeti",
+   "f": "1836-03-02",
+   "t": "1845-12-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Handbook of Texas Online (TSHA), 'Texas Declaration of Independence' — https://www.tshaonline.org/handbook/entries/texas-declaration-of-independence",
+   "alinti": "the declaration was presented to the convention on March 2",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Bağımsızlık bildirgesi 1836-03-02 (gün düzeyi). Nacogdoches Teksas'ın doğu ucu; fiilî Teksas denetimi 1836 devrimi sırasında (TSHA Nacogdoches: 'seat of unrest ... supplied the revolutionary cause'). Meksika ara dönemi (1821-1836) zincirde var, hedef değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1381",
+   "alan": "s",
+   "d": "abd",
+   "f": "1845-12-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Handbook of Texas Online (TSHA), 'Annexation' — https://www.tshaonline.org/handbook/entries/annexation",
+   "alinti": "accepted by the United States Congress on December 29, 1845, the date of Texas's legal entry into the Union",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, gün düzeyi: hukukî katılış 1845-12-29. ic_not: aynı madde yetkinin resmî devri törenini Şubat 1846'ya (19 Şubat) koyar (metin kesik okundu); TEK ÖLÇÜ'ye göre Teksas hükümeti yerinde idare ettiğinden hukukî gün esas alındı, karar Emre'nin."
+  }
+ ],
+ "Nagazaki": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3313",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1571-01-01",
+   "t": "1580-06-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Springer 'Nanban and Shuinsen Trade' bölümü (metin açılmadı), WebSearch akademik (Cambridge, Nanzan, Brill) — özet",
+   "alinti": "",
+   "oneri": {},
+   "not": "Azuchi-Momoyama (Oda-Toyotomi) idaresinde Nagasaki 1571'de Ōmura Sumitada tarafından Cizvit limanı olarak açılır (arama özeti); okunmuş birebir metin yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3313",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1580-06-09",
+   "t": "1587-07-24",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "WebSearch özeti (akademik kaynak adları: Cambridge/Springer; metin okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖLÇÜT: geçici/askerî değil — idare Cizvitlerde: 1580'de Nagasaki 'Cizvitlerin doğrudan denetimine' girdi (Valignano, Makao benzeri kira). Portekiz Krallığı değil, Cizvit tarikatı idaresi; Japon egemenliği (Ōmura/Toyotomi) formal sürer ⇒ s: portekiz yanlış sahip olabilir (hayalet sahiplik); 1580-06-09 ve 1587-07-24 günleri okunmadı. Hideyoshi 1587 bateren fermanı 18-19 Haziran (arama özeti), 24 Temmuz atlas günü teyitsiz. Kaynak okunmadan öneri verilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3313",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1587-07-24",
+   "t": "1603-03-24",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: aynı; Hideyoshi'nin Nagasaki'yi doğrudan alması (Terasawa Shima no kami bugyō) arama özetinde, gün yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Toyotomi doğrudan idaresi 1587 (yıl) arama özetinde; okunmuş metin yok. t 1603-03-24 TDV 'Japonya' DEVRALMA kaydında (Ieyasu şogun 1603) — t ucu."
+  }
+ ]
+}
