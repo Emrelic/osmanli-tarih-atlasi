@@ -1,0 +1,261 @@
+{
+ "K313": {
+  "teyit": "bulunamadi",
+  "kaynak": "The New Cambridge Medieval History vol.7 (archive.org the-new-cambridge-medieval-history-vol.-7) tarandi; Vale/Pernoud kopyalari odunc kilitli (401)",
+  "teyit_edilen": "Senlis/Soissons/Laon'in 1429 teslimi okunabilir kaynakta bulunamadi",
+  "alinti": "",
+  "not": "NCMH vol.7 tematik; Soissons gecmiyor, Laon yalniz baska baglamda. Vale 'Charles VII' ve Pernoud kopyalari 401. Hukum 'YAPAY' tarihsel olarak dogru olasi (Reims yolculugu Temmuz-Agustos 1429) ama kaynakla teyitsiz. Giris: Contamine/Vale/Perroy basili metni."
+ },
+ "K315": {
+  "teyit": "tam",
+  "kaynak": "Luciano Petech, China and Tibet in the Early 18th Century, Leiden 1972, s.68 (archive.org china-and-tibet-in-the-early-18th-century-history-of-the-establishment-of-chines)",
+  "teyit_edilen": "Cungarlar Lhasa'ya 30 Kasim 1717 gece yarisindan sonra saldirdi; Qing ordusu (Galbi) 23/VIII = 24 Eylul 1720'de Lhasa'yi isgal etti, direnisle karsilasmadi. Gun hicri degil Qing ay takvimi (23. gun, 8. ay) = Gregoryen 24 Eylul.",
+  "alinti": "which they occupied on 23/VIII = September 24th",
+  "not": "Bitis 1720-09-24 DOGRU. Hukum dogru: 1717-11-30 -> 1720-09-24 Cungar isgali var; Lhasa/Orta Tibet o donemde Cungar olmali, qing degil. Sakya'nin 1720-01 -> 09-24 'tibet-ganden-phodrang' yazimi sorunlu: Cungar donemi (1717-1720) modelde yoksa eklenmeli."
+ },
+ "K317": {
+  "teyit": "giris_gerek",
+  "kaynak": "Wyatt 'Thailand: a short history' archive.org thailandshorthis00unse (403, zorlanmadi); Cambridge History of SE Asia kopyalari 401",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Acik kopya bulunamadi. Okunmali: Wyatt, Thailand (Ayutthaya 1569 dususu, Naresuan 1584 bagimsizlik ilani), Chanthaburi iliskisi."
+ },
+ "K319": {
+  "teyit": "celiski",
+  "kaynak": "The Cambridge Ancient History vol.10 (1996), 'The Augustan Restoration' (archive.org the-cambridge-ancient-history-volume-10)",
+  "teyit_edilen": "Galatya Augustus tarafindan eyalete cevrildi (yil metinde okunamadi, MO 25 olarak bilinir), ancak Paflagonya Galatya eyaletine dahil degil: Deiotarus Philadelphus Paflagonya krali olarak MO 6'daki olumune dek (36'dan beri) hukum surdu; Pontus kiyisi Polemon'daydi. Sinop ise Caesar'dan beri Roma kolonisi.",
+  "alinti": "Deiotarus enjoyed an untroubled dominion until his death in 6 B.C.",
+  "not": "'Kastamonu-Sinop MO26-MO24 roma-imp' yazimi, MO 25 Galatya eyaleti ile aciklanamaz: Paflagonya MO 6'ya kadar tabi krallikti (Kastamonu ic Paflagonya). Duzeltme: Galatya f MO25 ile hizalamak yerine Kastamonu'yu MO 6'ya kadar roma-imp disinda (tabi kral) tut; Sinop kolonisi ayrica sinanmali."
+ },
+ "K320": {
+  "teyit": "celiski",
+  "kaynak": "TDV Islam Ansiklopedisi 'Danismendliler' (islamansiklopedisi.org.tr/danismendliler); 'Kastamonu'; 'Sinop'",
+  "teyit_edilen": "Kastamonu yoresi Bizans'ta kalmisti; Danismendliler Alexios Komnenos doneminde fethetti. Emir Gazi 1129'da Kastamonu/Cankiri ve Karadeniz sahillerini kontrol etti; Ioannes Komnenos'un istila ettigi Kastamonu'yu 1132'de geri aldi; 1135'te (529) Ioannes yeniden isgal etti, Melik Muhammed geri katti. Sinop: XIII. yuzyil basinda Trabzon Komnenoslari'nin egemenliginde, Izzeddin Keykavus 26 Cemaziyelahir 611 / 2 Kasim 1214'te fethetti.",
+  "alinti": "Kastamonu yöresini 1132’de geri aldığı gibi",
+  "not": "'1073-1204 kesintisiz bizans' yanlis: Kastamonu yaklasik 1129-1135 arasi Danismendli (Bizans 1135'te gecici isgal, sonra Danismendli tekrar); Sinop 1204 sonrasi Trabzon Komnenos (bizans degil), 1214 Selcuklu. GERCEK hukmu kismen dogru (kopukluk var) ama zincir TDV'ye gore yeniden yazilmali. TDV kesin Malazgirt-sonrasi ilk Turk (Kara Tegin, 1084 sonrasi kisa sure) bilgisi de veriyor."
+ },
+ "K321": {
+  "teyit": "kismen",
+  "kaynak": "CAH vol.9 (1994) (archive.org the-cambridge-ancient-history-volume-9) 'combined province of Bithynia and Pontus'; TDV 'Sinop'",
+  "teyit_edilen": "Pompeius'un duzenlemesiyle Bithynia ve Pontus birlesik eyalet oldu; Sinop MO 69'da Lucullus tarafindan alindi (TDV) ve Colonia Julia Felix Sinope oldu. Eyaletin kuruldugu yil metinde okunamadi.",
+  "alinti": "the combined province of Bithynia and Pontus",
+  "not": "MO 68 baslangici Pompeius oncesi; TDV'ye gore Sinop MO 69 (Lucullus) Roma'ya gecti, eyalet duzeni Pompeius (MO 65-62). Paflagonya ici (Kastamonu) ise Roma eyaletinde degil, tabi krallik. 'Sinop roma f -> MO 70/63' onerisi: MO 69/Lucullus fiili, MO 63-62 hukuki duzen; yil 63 kaynakta dogrudan okunamadi."
+ },
+ "K326": {
+  "teyit": "tam",
+  "kaynak": "M.C. Ricklefs, A History of Modern Indonesia since c.1200, 3rd ed. 2001, s.~107-111 (archive.org a-history-of-modern-indonesia-since-c.-1200-3rd-ed)",
+  "teyit_edilen": "Amangkurat II Ekim 1677'de Priangan'i VOC'a devretti (Mataram'in bati bagimliligi); Ekim 1705 sozlesmesinde Pakubuwana I Batavia sinirlarini (Priangan dahil) yeniden tanidi.",
+  "alinti": "Amangkurat II had signed this area over to the VOC in October 1677",
+  "not": "Priangan VOC baslangici 1663 YANLIS: Ekim 1677. 1705 ikinci teyit. Duzeltme: Priangan noktalari hollanda-dogu-hint f = 1677-10 (gun kaynakta yok), oncesi mataram (Banten 1678'de Priangan'a girdi). Pakuan/Bogor 1579'da Banten'e dusmustu (Ricklefs ayrica)."
+ },
+ "E020": {
+  "teyit": "bulunamadi",
+  "kaynak": "vle.lt Kaunas ve Siauliai maddeleri tarandi, 1944 gecmiyor; Glantz kopyasi bulunamadi",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Siauliai 27.07.1944 ve Kaunas 01.08.1944 icin acik akademik metin bulunamadi (vle.lt cekildi, '1944' yok). Giris: Glantz & House, When Titans Clashed ya da Lietuvos istorija."
+ },
+ "K330": {
+  "teyit": "giris_gerek",
+  "kaynak": "Cambridge History of Poland kopyalari (archive.org cambridgehistory0000redd, ...wfre) 401; encyklopedia.pwn.pl 'Serwis Nieaktywny'",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Acik kaynak bulunamadi. Okunmali: Cambridge History of Poland vol.1 (Mestwin II Gdansk dukaligi, 1294 Przemysl II'ye gecis)."
+ },
+ "K331": {
+  "teyit": "kismen",
+  "kaynak": "UNESCO General History of Africa vol.VI (archive.org general_history_africa_vi)",
+  "teyit_edilen": "Saint-Louis Fransiz ticaret ussu 1809-1817 arasi Ingiliz eline dustu; Fransizlar 1817'de Saint-Louis ve Goree'yi yeniden isgal etti. 1758-1779 Ingiliz donemi bu ciltte teyit edilmedi.",
+  "alinti": "which fell into British hands between 1809 and 1817",
+  "not": "1809-1817 Ingiliz donemi TEYITLI -> Saint-Louis 1792-1881 kesintisiz fransa-cumhuriyet yazimi bu aralikta yanlis (Fransiz Imparatorlugu 1804-1815 ayrica). 1758-1779 icin GHA V gerek."
+ },
+ "K333": {
+  "teyit": "giris_gerek",
+  "kaynak": "Petech, Central Tibet and the Mongols (archive.org centraltibetmongolsyuansaskyaperiodoftibetanhistorylucianopetech_435_y) acildi ama OCR bozuk (Devanagari karisik), Nedong/Yarlung bulunamadi",
+  "teyit_edilen": "1354 civarinda Sakya'nin dususu metinde seçildi (OCR parcalari '1354') ama cumle okunamadi",
+  "alinti": "",
+  "not": "Okunabilir kopya gerek: Petech 1990 'Central Tibet and the Mongols' ya da Cambridge History of China vol.6 (Tibet). Nedong'un Phagmodrupa merkezi olup 1354'te Sakya'yi devirmesi kaynakla teyit edilemedi."
+ },
+ "K337": {
+  "teyit": "kismen",
+  "kaynak": "UNESCO General History of Africa vol.VII (1880-1935) (archive.org general-history-of-africa-vol-7), bolum 'African initiatives and resistance'",
+  "teyit_edilen": "Ingiliz ordusu 1896'da Kumasi'ye yuruyup Prempeh I'i yakaladi (Prempeh 1891'de himaye teklifini reddetmisti); Asante 1901'de topyekun ilhak edildi, Kuzey Topraklari 1896-1898 arasi isgal edilip 1901'de resmen ilhak edildi.",
+  "alinti": "The Northern Territories to the north of Asante were also formally annexed in 1901",
+  "not": "Ingiliz Kumasi isgali 1896 TEYITLI (20 Ocak gunu bu ciltte yok); ancak Asante 1896'dan itibaren 'ingiltere himayesi' degil: ilhak 1901. Bono-Manso (Techiman) 1896-1899 'ingiltere' yazimi icin Kuzey Topraklari isgali 1896-98 destekli. Duzeltme: Asante noktalari 1896 -> ingiltere 'v:'(himaye) olabilir, tam ilhak 1901."
+ },
+ "K339": {
+  "teyit": "kismen",
+  "kaynak": "TDV Islam Ansiklopedisi 'Gurcistan' (islamansiklopedisi.org.tr/gurcistan)",
+  "teyit_edilen": "Bagratoglu I. Alexandre'den (1412-1442) sonra Gurcistan uc krallik (Kartliya, Kahetya, Imeretiya) ve bes beyliga ayrildi. Yil verilmiyor; Uzun Hasan 1466'da Gurcistan topraklarina girdi.",
+  "alinti": "Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ve beş beyliğe ayrıldı.",
+  "not": "Kaheti'nin ayri krallik oldugu TDV'de teyitli, 1465 yili (I. Giorgi) TDV'de yok. 1484-1492 'gurcistan' birlesik kimlik yazimi yanlis: Kaheti ayri krallik. 1465 icin Cambridge/Rayfield gerek (teyitsiz)."
+ },
+ "K342": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India vol.18 (1908), 'Nasik District' (archive.org the-imperial-gazetteer-of-india-volume-18)",
+  "teyit_edilen": "Nasik Bolgesi: Muslim donemi 1295-1760 (Deogiri, Bahmani, Nizam Shahi, Mogol); Maratha ustunlugu 1760'tan 1818'e dek surdu, 1818'de Ingilizler son Pesvalar'i ezdi. 1803'te Nasik bolgesi Peshwa idaresindeydi.",
+  "alinti": "The Maratha ascendancy lasted from 1760 until 1818",
+  "not": "Nasik 1803-1818 'maratha' yazimi DOGRU. Peşva cekirdegi (Pune) ile aradaki 20 km Nizam/Ingiliz seridi ise veri hatasi (YAPAY-a) olmalı: IGI Nasik'i butun halinde Maratha gosteriyor. Seridin tam sahibi bu maddede yok (ara noktalar)."
+ },
+ "E021": {
+  "teyit": "kismen",
+  "kaynak": "E.H. Carr, The Bolshevik Revolution 1917-1923 vol.1, Pt II 'Dispersal and Reunion', s.~355-358 (archive.org edward-h.-carr-the-bolshevik-revolution-1917-1923-vol.-1)",
+  "teyit_edilen": "Dogu Uzak Cumhuriyeti 6 Nisan 1920'de Verkhne-Udinsk'te 'kurucu meclis' tarafindan ilan edildi; Sovyet hukumeti Mayis 1920'de tanidi; Cita cumhuriyetin merkezi oldu ve Kasim 1920 basinda Dogu Uzak delegeler kongresi Verkhne-Udinsk bildirisini yeniledi; Aralik'ta Sovyet hukumetiyle resmi anlasma. 14.11.1922 katilma bu ciltte okunmadi (Cilt 3?).",
+  "alinti": "proclaimed an independent democratic Far Eastern Republic",
+  "not": "UDC kurulusu 1920-04-06 TEYITLI (gerekcedeki gun). Cita baskent gecisi Kasim 1920 basi. Hukum (YAPAY: Zabaykalye noktalarina UDC donemi eklenmeli) dogru yonde. Katilma 14.11.1922 kaynakla gelecek (Carr cilt 3 / Smele)."
+ },
+ "K343": {
+  "teyit": "kismen",
+  "kaynak": "Donald M. Nicol, The Despotate of Epiros 1267-1479 (archive.org despipiros), Serbian doneminin sonu",
+  "teyit_edilen": "Sirp imparatoru Symeon Uros'un Epir'i iki appanage'a bolmesi: Gjin Boua Spata (Acheloos ve Angelokastron), Peter Losha (Arta ve Rogoi); Thomas Preljubovic Yanya'da. Epir Bizans yonetiminde degil, Sirp/Arnavut beylikleri (1360'lardan sonra).",
+  "alinti": "Arta and Rogoi were assigned to another Albanian lord, Peter Losha.",
+  "not": "YAPAY hukmu dogru yonde: 1371'de Epir (Arta/Rogoi/Angelokastron) Arnavut beylerinde, Yanya Thomas Preljubovic'te; 'bizans' yazimi yanlis. Thomas'in Yanya'daki tam donemi (c.1366-1384) bu alintida acik okunmadi. Nicol Despotate = yazar akademik, 1984."
+ },
+ "K351": {
+  "teyit": "giris_gerek",
+  "kaynak": "Cambridge History of China vol.7 kopyalari archive.org'da odunc kilitli/acik degil; Yang Bin 'Between Winds and Clouds' bulunamadi",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Acik kaynak bulunamadi: Ming Yunnan fethi 1381-82 (Kunming Ocak 1382, Dali, Lijiang). Okunmali: Cambridge History of China vol.7 ch.3; Ming Shilu."
+ },
+ "K362": {
+  "teyit": "giris_gerek",
+  "kaynak": "Taylor, A History of the Vietnamese acik kopya bulunamadi (archive.org aramasi bos)",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Nha Trang (Kauthara) 1775-1786 sahibi icin acik kaynak bulunamadi. Okunmali: Taylor 2013 ch.6 Tay Son; Cambridge History of Southeast Asia."
+ },
+ "K363": {
+  "teyit": "giris_gerek",
+  "kaynak": "K351 ile ayni; acik kopya yok",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "K351 ile ayni: Cambridge History of China vol.7 (Yunnan fethi 1381-82) okunmali."
+ },
+ "K372": {
+  "teyit": "bulunamadi",
+  "kaynak": "The New Cambridge Medieval History vol.7 (archive.org the-new-cambridge-medieval-history-vol.-7) tarandi; Vaughan 'Philip the Bold' kopyasi odunc kilitli",
+  "teyit_edilen": "Burgonya dukunun Flandre'i miras aldigi genel bir cumle var (tarihsiz); 1384 gunu yok.",
+  "alinti": "",
+  "not": "30 Ocak 1384 (Flandre-Artois Burgonya'ya) bu ciltte okunmadi; Schnerb 'Burgundy' bolumu Philip'in 1404 olumuyle basliyor. Okunmali: Vaughan, Philip the Bold (1962) bolum 1-2."
+ },
+ "E065": {
+  "teyit": "celiski",
+  "kaynak": "Imperial Gazetteer of India vol.XI (1908) 'Dholka Town' (archive.org dli.ernet.15195); vol.V (1908) 'Ahmadabad City' (archive.org in.ernet.dli.2015.61232)",
+  "teyit_edilen": "Dholka Marathalar'ca 1736'da alindi, 1757'de Gaikwar'in eline gecti, 1804'te Ingilizlere devredildi. Ahmadabad: 1738'de Damaji Gaikwar ve Momin Khan'in eline dustu; Marathalar 1753'te aldi, Momin Khan II 1755-56'da geri aldi, Marathalar 1757'de kesin olarak aldi.",
+  "alinti": "It was taken by the Marathas in 1736, came into the Gaikwar’s hands in 1757",
+  "not": "Dholka 1741 -> 1757-01-01 'babur-imparatorlugu' yazimi IGI ile celisiyor (IGI 1736'da Maratha, 1757'de Gaikwar). Ahmedabad Maratha tutusu 1757 (1753 gecici, 1755-56 Momin Khan II geri aldi). Dholka icin 'maratha f' 1736-1757 arasi; Gaikwar 1757; Ahmedabad f=1757. Kesin gun yok."
+ },
+ "E024": {
+  "teyit": "giris_gerek",
+  "kaynak": "Hugh Thomas, The Spanish Civil War (archive.org spanishcivilwar0000thom_t9y8) odunc kilitli (401); Preston acik kopya yok",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Sevilla 18.07.1936 Queipo de Llano ve Afrika Ordusu baglantisi icin acik metin okunamadi. Okunmali: Thomas ya da Preston, Spanish Civil War."
+ },
+ "K388": {
+  "teyit": "kismen",
+  "kaynak": "TDV Islam Ansiklopedisi 'Selcuklular' (Anadolu Selcuklulari bolumu, Faruk Sumer) (islamansiklopedisi.org.tr/selcuklular)",
+  "teyit_edilen": "Anadolu Selcuklulari Kosedag'da (Muharrem 641 / Temmuz 1243) Mogollar'a yenildi, yillik vergi vermeyi kabul etti ve Mogol tahakkumune girdi; Sultanhani'nda (Aksaray yakini) 654/1256'da Mogollar'a yenildi; IV. Kilicarslan 1257'de Konya'da tahta cikarildi; Mengu Han yarligiyla ulke 1259'da ikiye bolundu. Abaka Han Memluk isbirligi gerekcesiyle Anadolu'yu istila etti (Baybars 1277 sonrasi), Perrane'yi oldurttu ve Selcuklu devletini Tebriz'den gonderilen memurlarla yonetmeye basladi.",
+  "alinti": "Anadolu Selçukluları, Moğollar’ın tahakkümü altına girmiştir.",
+  "not": "Hukum YAPAY-m dogru yonde: Selcuklu 1243'ten itibaren Mogol/Ilhanli tabisi (vergi), Ilhanli dogrudan idaresi 1277 sonrasi. Cevre 'ilhanli' ile komsu 'selcuklu' yan yana boyanmasi tabilik beyanini gerektirir. Amasya/Corum'un 1256-1281 'ilhanli' yazimi TDV'de dogrudan yok; cevre tabilik tarihleri: 1243 (vergi), 1256 (Sultanhani), 1277 sonrasi (dogrudan idare)."
+ },
+ "K419": {
+  "teyit": "kismen",
+  "kaynak": "TDV Islam Ansiklopedisi 'Harput' (islamansiklopedisi.org.tr/harput)",
+  "teyit_edilen": "Harput 1234'e dek Artuklu'da kaldi; 1234'te Anadolu Selcuklulari, Kosedag'dan bir sure sonra Ilhanlilar zapteti; XIV. yuzyildan sonra Dulkadirli, Kadi Burhaneddin, Karakoyunlu ve Akkoyunlu arasinda el degistirdi; 1465'te Uzun Hasan kesin olarak Akkoyunlular'a kattı.",
+  "alinti": "Kösedağ Savaşı’ndan bir süre sonra da İlhanlılar tarafından zaptedildi.",
+  "not": "Ilhanli zaptı teyitli ama yilsiz; 1351-1353 icin 'ilhanli' yazimi TDV'de yok: Ilhanli devleti Ebu Said (1335) sonrasi dagildi, Harput'un o yillardaki sahibi TDV Harput'ta belirtilmiyor. YAPAY hukmu mantikli ama kaynakla kesinlesmedi. Palu icin TDV maddesi yok (Palu yalniz Cubukoglu/Belek baglaminda geciyor)."
+ },
+ "K427": {
+  "teyit": "bulunamadi",
+  "kaynak": "The New Cambridge Medieval History vol.5 (archive.org the-new-cambridge-medieval-history-vol.-5) tarandi: Touraine/Chinon/Chateau-Gaillard/Anjou aramalari 1203-04 Tours'u vermedi",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Tours'un 1203-1204 gecisi okunamadi. Okunmali: Powicke 'Loss of Normandy' ya da Baldwin 'Philip Augustus' (Anjou-Touraine 1204-05 fethi)."
+ },
+ "K430": {
+  "teyit": "tam",
+  "kaynak": "UNESCO General History of Africa vol.VI (archive.org general_history_africa_vi), Madagascar bolumu",
+  "teyit_edilen": "Merina krali I. Radama'nin Jean Rene komutasindaki kuvvetleri Fort-Dauphin'e (guney-dogu) 1825'te ulasti ve dogu kiyisinin efendisi iddiasi guclendi; 1855'te Fort-Dauphin garnizonu guneydoğu halklari tarafindan kusatiliyordu (Ranavalona'nin garnizonu). Fransiz Fort-Dauphin kolonisi 1643-1674 (bu ciltte yok).",
+  "alinti": "Fort Dauphin in the extreme south-east of the island was reached in 1825",
+  "not": "Tolanaro 1792-1897 'fransa-cumhuriyet' YANLIS: 19. yuzyilda Fort-Dauphin Merina Krallığı (Radama I, 1825 -> Ranavalona garnizonu) elinde, Fransa 1896 (ilhak) / 1897 (Merina tahtinin kaldirilmasi). Duzeltme: Tolanaro ~1825-1895 merina (Imerina), ondan once Antanosy; Fransiz donemi 1643-1674 ayri."
+ },
+ "K454": {
+  "teyit": "bulunamadi",
+  "kaynak": "Imperial Gazetteer of India vol.XXI 'Quilon' (archive.org in.ernet.dli.2015.35295) ve vol.X 'Cochin' (archive.org dli.ernet.11616) tarandi",
+  "teyit_edilen": "Quilon maddesi: Portekiz faktoryasi Hollandalilarca ele gecirildi; Hollandali Cochin'in 1795'te Ingilizlerce alinmasi ve Quilon'un Travancore'da olusu bu metinlerde okunamadi.",
+  "alinti": "",
+  "not": "Quilon 1795 sahibi kaynakta dogrulanmadi. Travancore State Manual / IGI 'Travancore State' maddesi okunmali. (Hollandali Koçin 20 Ekim 1795 tarihi de bulunamadi.)"
+ },
+ "K465": {
+  "teyit": "tam",
+  "kaynak": "The New Cambridge Medieval History vol.7 (c.1415-c.1500), B. Schnerb 'Burgundy' (archive.org the-new-cambridge-medieval-history-vol.-7)",
+  "teyit_edilen": "Arras 1435'te Philippe'e 'Somme towns' (Saint-Quentin, Corbie, Doullens, Amiens, Abbeville) 400.000 ecu karsiliginda geri alinabilir olarak rehin verildi; Louis XI Ekim 1465 Conflans Antlasmasi ile Somme kentlerini Charles'a geri verdi; Charles'in kaybettigi kentler arasinda Amiens 1471'de Fransizlarca geri alindi; Eylul 1475 Soleuvre ateskesi 1477'ye dek surdu.",
+  "alinti": "notably Amiens, retaken by the French in 1471",
+  "not": "Amiens 1477-01-01 -> 01-05 'burgonya' yazimi YANLIS: Amiens 1471'den beri Fransiz. Duzeltme (Amiens burgonya t -> 1471) kaynakla dogru; gun kaynakta yok (yil). Nancy 5 Ocak 1477 bu ciltte okunmadi."
+ },
+ "K474": {
+  "teyit": "kismen",
+  "kaynak": "TDV Islam Ansiklopedisi 'Safeviler' ve 'Alamut' (islamansiklopedisi.org.tr/safeviler, /alamut)",
+  "teyit_edilen": "Sah Ismail Tebriz'de Akkoyunlu hanedanina karşi katliamlara girişti; 909'da (1503) Irak-i Arab ve Fars hakimi Murad Bey'e karşı yuruyup Hemedan yakinindaki savasta galip geldi. Alamut Kalesi Safeviler zamaninda tamir edilip siyasi suclular icin hapishane oldu (yil verilmiyor).",
+  "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+  "not": "1503 Hemedan zaferi TEYITLI; Alamut'un 1501-07 -> 1503 arasi Safevi olmasi TDV'de yok (Alamut maddesi Safevi donemini yilsiz anar). Duzeltme (Alamut safevi f=1503) mantikli ama gun/yil kaynakli degil; kesin 'Alamut'un Safevi'ye gecis yili' arastirilmali."
+ },
+ "K482": {
+  "teyit": "giris_gerek",
+  "kaynak": "Cambridge Modern History (archive.org cu31924070596857/-774/-816) acildi; Maastricht 1632 gecmeyen ciltler; Israel 'Dutch Republic' kopyasi odunc kilitli (401)",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Maastricht'in Frederik Hendrik tarafindan 1632'de (Agustos) alinmasi icin dogru cilt (Cambridge Modern History vol.IV) acik kopyada bulunamadi. Okunmali: Israel, The Dutch Republic 1477-1806 (1632 Maastricht kusatmasi)."
+ },
+ "K485": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Kirim' (islamansiklopedisi.org.tr/kirim) tarandi: Hacibey/Kocabey/Odessa gecmiyor; 'odesa','hacibey' maddeleri yok",
+  "teyit_edilen": "TDV Kirim: Hacı Giray Kirim Hanligi'nin gercek kurucusu, en eski sikke 845 (1441-42); Ozu (Oczakow) Kalesi sonra Osmanli elinde. Hacibey'in 1441-1480 Litvanya sahipligi gecmiyor.",
+  "alinti": "",
+  "not": "Hacibey 1441-1480 Litvanya yazimi kaynakla teyit edilemedi. Kirim Hanligi'nin kurulusu 1441 civari (Haci Giray) ayni donemde Litvanya'nin Karadeniz kiyisi iddiasi icin Ukrayna Ansiklopedisi / Kamyanets kaynagi gerek."
+ },
+ "E066": {
+  "teyit": "kismen",
+  "kaynak": "TDV Islam Ansiklopedisi 'Mardin' (islamansiklopedisi.org.tr/mardin)",
+  "teyit_edilen": "Mardin yabanci isgaline ugramadi; Ingilizlerin Musul'u isgali sirasinda bazi karisikliklar oldu; 9 Ocak 1920'de birkac Fransiz subayi sehre geldi fakat destek bulamayip geri dondu.",
+  "alinti": "9 Ocak 1920’de birkaç Fransız subayı şehre geldi",
+  "not": "Mudros gunu (1918-10-30) Malikiye/Derik'in Fransiz isgali TDV Mardin'de yok; aksine Mardin yabanci isgali gormedi, Fransiz varligi Ocak 1920'de birkac subay. YAPAY hukmu (1918 yazimi sorunlu) desteklenir; Malikiye (Derik) icin dogrudan madde yok. Duzeltme: Malikiye fransa f ~1920 (kaynakla, Fransiz-Antep/Cizre hattı)."
+ },
+ "E081": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Bosna-Hersek' (islamansiklopedisi.org.tr/bosna-hersek) tarandi",
+  "teyit_edilen": "Herzeg-Bosna, Vitez, HVO gecmiyor (TDV maddesi cografya ve Osmanli odakli)",
+  "alinti": "",
+  "not": "Herzeg-Bosna 18.11.1991 ilani ve Vitez/Lasva vadisi HVO enklavi (1993-94) icin acik akademik kaynak okunamadi. Okunmali: ICTY Blaskic/Kordic yargilari, Burg & Shoup, The War in Bosnia-Herzegovina."
+ },
+ "E088": {
+  "teyit": "bulunamadi",
+  "kaynak": "UNESCO General History of Africa vol.VIII (archive.org general_history_africa_viii), 'Biafra' aramasi",
+  "teyit_edilen": "Nijerya iç savasi 1967-70'i genel olarak anlatiyor (Biafra donemi 1967-1970); Aroçukvu/Arochukwu ele gecirilisi gecmiyor.",
+  "alinti": "",
+  "not": "Arochukwu'nun Nijerya eline gecis tarihi (1968-1969) cilt VIII'de yok; De St. Jorre, The Nigerian Civil War vb. okunmali. Biafra 30 Mayis 1967 - 15 Ocak 1970 genel cerceve dogrulaniyor."
+ },
+ "E091": {
+  "teyit": "giris_gerek",
+  "kaynak": "archive.org'da Grammos/Vitsi icin yalniz CIA Reading Room belgeleri bulundu (akademik degil)",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Okunmali: Close, The Origins of the Greek Civil War; Clogg, A Concise History of Greece. DSE Grammos-Vitsi 1949 Pirsos (Agustos) bitis gunu kaynakli degil."
+ },
+ "E097": {
+  "teyit": "tam",
+  "kaynak": "TDV Islam Ansiklopedisi 'Osman I' (islamansiklopedisi.org.tr/osman-i)",
+  "teyit_edilen": "Bapheus (Koyunhisar) savasindan sonra Bursa ovasindaki Adranos, Bidnos, Kestel ve Kite tekfurlari Osman'a karsi birlesti (Asikpasazade: 702 = 1303; 702 yili 26 Agustos 1302'de basliyor, baharı 1303'ün ilk yedi ayına denk); Dimbos savasinda Kestel tekfuru oldu, Bursa ve Adranos tekfurlari hisarlarina kactı; Kite tekfuru idam edilince Kite (Urunlu) Kalesi teslim oldu (1303). Bursa 23 yil kusatma altinda kaldi.",
+  "alinti": "Kite (Ürünlü) Kalesi önünde onu idam edince kale teslim oldu (1303).",
+  "not": "Kite/Kestel Osmanli 1303 YIL TEYITLI (gun yok; yaz 1303, 'baharın ilk yedi ayi'). 1303-01-01 yil-hassasiyetli; kaynak 1303 (Asikpasazade 702 = 26.8.1302 baslangici). GERCEK hukmu dogru: Bursa 1326'ya dek Bizans, Kite/Kestel Osmanli ileri karakolu. Dimbos (Dimbos Savasi) de 1303."
+ },
+ "E108": {
+  "teyit": "giris_gerek",
+  "kaynak": "Imperial Gazetteer of India vol.XIX (archive.org dli.ernet.16988) ve vol.XVIII tarandi; 'North Arcot'/'Vellore' maddeleri OCR'de bulunamadi",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Vellore 1760, Gingee 1761-04-05 ve Karnatik antlasmasi 31.07.1801 icin acik kopyada madde cikarilamadi. Okunmali: IGI 'Arcot, North' (cilt 5/6) ve 'Vellore' (cilt 24); Karnatik nevvabi antlasmasi 1801 icin Cambridge History of India vol.5."
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "E016": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908, Provincial Series Berar, madde Berar (archive.org in.ernet.dli.2015.206982)",
+  "teyit_edilen": "Berar 1853'ten beri İngiliz hükümetince Nizam adına yönetilen Hyderabad Assigned Districts idi.",
+  "alinti": "administered by the British Government on behalf of His Highness the Nizam of Hyderabad since 1853",
+  "not": "1853 devri teyitli ama egemenlik Nizam'da kaldı (yönetim İngiliz, atanmış bölge). Nanded/Hingoli bitişikliği okunmadı. Hüküm YAPAY makul; Berar statüsü v: olarak beyan edilmeli."
+ },
+ "K287": {
+  "teyit": "tam",
+  "kaynak": "Imperial Gazetteer of India 1908, Punjab Vol. I (archive.org dli.ernet.15107), tarih bölümü",
+  "teyit_edilen": "1809 anlaşmasıyla Ranjit Singh Satluj'un sol yakasına tecavüz etmemeyi, karşılığında kuzeydeki fetihlerinde egemenliğinin tanınmasını kabul etti; Cis-Sutlej Sih beylikleri İngiliz himayesine girdi.",
+  "alinti": "not to encroach on the left bank of the Sutlej",
+  "not": "Sirhind Satluj'un sol yakasında; sih-imparatorlugu yazımı yanlış. Patiala adı bu pasajda yok; 1849 bitiş ayrıca kaynaklanmadı."
+ },
+ "K298": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Yeni Sırbistan 1752 / Aziz Yelizaveta kalesi 1754: Treccani/Rusça akademik (Brockhaus-Efron) ya da Encyclopedia of Ukraine (internet) okunmalı."
+ },
+ "K300": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908, Vol. XII (Einme to Gwalior), madde Gwalior City (archive.org in.ernet.dli.2015.207390)",
+  "teyit_edilen": "Panipat 1761 sonrası Gohad Cât şefi Lokendra Singh kaleyi aldı, Sindhia kısa sürede çıkardı; 1780'de Popham tugayı aldı, Gohad Rana'sına verildi, Sindhia 1784'te geri aldı.",
+  "alinti": "retaken by Sindhia in 1784",
+  "not": "Zincir (Gohad/Sindhia/İngiliz 1780) teyitli. ÇELİŞKİ: gerekçedeki 1783-07-21 yerine IGI 1784 diyor. Bâbürlü yazımı yanlış."
+ },
+ "K302": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Kuching'in Brunei sultanlığına bağlılığı ve 1841 Brooke: Sarawak için akademik kaynak (Cambridge History of Southeast Asia, Runciman) okunmalı."
+ },
+ "K306": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Safevîler ve Akkoyunlular maddeleri",
+  "teyit_edilen": "1503'te Hemedan yakınında Alvand yenildi; Şah İsmâil Yezd'e girdi (Eberkûh hâkimi Muhammed Kere'yi bertaraf ettikten sonra), yıl verilmemiş.",
+  "alinti": "Yezd’e girip ahalinin bir bölümünü kılıçtan geçirdi",
+  "not": "Yezd'in Safevî'ye geçişi teyitli ama TDV gün/yıl vermiyor; 1504-12-06 günü teyitsiz. Giriş: Encyclopaedia Iranica Yazd / Safavids."
+ },
+ "K309": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Eretnaoğulları maddesi",
+  "teyit_edilen": "Eretnaoğulları toprakları Erzurum'a kadar uzanıyordu; Alâeddin Ali döneminde Mutahharten Erzincan'da bağımsız hareket etti.",
+  "alinti": "Mutahharten Erzincan’da",
+  "not": "Erzurum'un 1378-1381'de Eretna mı Mutahharten mi elinde olduğu TDV'de açık değil. Kadı Burhâneddin 1381'de Sivas'ta hükümdarlığını ilan etti (TDV): bitiş uyumlu."
+ },
+ "K310": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, İlhanlılar maddesi",
+  "teyit_edilen": "Ebû Said 1335'te vârissiz öldü, devlet parçalandı, yerini mahallî hânedanlar aldı; İlhan listesi Nûşirevân 1344-1353'e dek nominal sürer.",
+  "alinti": "Ebû Said’in vâris bırakmadan ölümü İlhanlı Devleti’nin parçalanmasına",
+  "not": "İlhanlı fiilî hakimiyeti 1335'te bitti: 1351-1353 ilhanli Erzurum yazımı hayalet uzatma (TDV listesi nominal ilhanları 1353'e kadar sayar). Çobanoğulları TDV'de Kastamonu merkezli, Erzurum yok; 1351-53 Erzurum sahibi bulunamadı."
+ },
+ "E019": {
+  "teyit": "bulunamadi",
+  "kaynak": "UNESCO General History of Africa VII (archive.org unesco_general_history_africa_vii)",
+  "teyit_edilen": "Tippu Tip ve Svahili-Arap tüccarlarının Orta Afrika'daki rolü anılıyor; Nyangwe adı aramada çıkmadı.",
+  "alinti": "activities of the Swahili-Arab and Nyamwezi traders such as Tippu Tip",
+  "not": "Nyangwe 1893 sahibi ve Kongo Serbest Devleti 04.03.1893 teyitsiz. Giriş: GHA VI Congo bölümü. Svahili-Arap devleti yönünde hüküm makul."
+ },
+ "K311": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Zengî İmâdüddin maddesi",
+  "teyit_edilen": "Zengî Cezîre-i İbn Ömer, Nusaybin, Sincar, Habur, Harran ve Halep'i Artuklu elinden aldı; Urfa 26 Aralık'ta (iç kale) fethedildi, farklı tarihler de verilir.",
+  "alinti": "26 Aralık’ta iç kaleyi de ele geçirdiler",
+  "not": "Zengî Musul-Cezîre-Halep birliği teyitli. Urfa günü TDV'de iç kale 26 Aralık 1144, başka tarihler de var; atlas 1144-12-24 yerine bu belirsizlik beyan edilmeli."
+ },
+ "K312": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Tepeaca'nın Aztek haraç eyaleti olması ve Cortés Tepeaca seferi (1520): Cambridge History of Native Peoples of the Americas / Hassig, Aztec Warfare okunmalı."
+ },
+ "K313": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Senlis/Soissons/Laon Ağustos 1429 teslim: Treccani/HLS değil, Fransız akademik (Contamine, Jeanne d'Arc; Perroy) okunmalı."
+ },
+ "K315": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Qing'in Lhasa'ya girişi 24 Eylül 1720: Cambridge History of China vol.9 (403 riski), Petech, China and Tibet in the Early 18th Century okunmalı."
+ },
+ "K317": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Ayutthaya 1569-1584 Burma tâbiliği: Cambridge History of Southeast Asia / Wyatt, Thailand: A Short History okunmalı."
+ },
+ "K319": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Galatya MÖ 25 eyalet: Cambridge Ancient History vol. X / Mitchell, Anatolia okunmalı."
+ },
+ "K320": {
+  "teyit": "giris_gerek",
+  "kaynak": "TDV Candaroğulları okundu; 1073-1204 Kastamonu zinciri için kaynak okunmadı",
+  "teyit_edilen": "TDV Candaroğulları: Kastamonu bölgesinde beylik XIV. yy başında kuruldu (1073-1204 dönemini kapsamıyor).",
+  "alinti": "",
+  "not": "Okunmalı: TDV Danişmendliler, TDV Kastamonu; Bizans tarafı için Cambridge History of the Byzantine Empire. 1130'larda geri alma iddiası teyitsiz."
+ },
+ "K321": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Pontus-Bithynia eyaleti MÖ 63/64: Cambridge Ancient History vol. IX / Mitchell okunmalı."
+ },
+ "K322": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Şirvan maddesi",
+  "teyit_edilen": "Tahmasb 1538'de Şirvanşahlar'ın hâkimiyetine son verdi, bölge Safevî vilâyeti oldu.",
+  "alinti": "1538’de Şirvanşahlar’ın hâkimiyetine son vermesinin ardından",
+  "not": "Bitiş 1538 teyitli. Derbend'in 1501-1538 Şirvanşah tabiliği bu pasajda açıkça yok."
+ },
+ "K323": {
+  "teyit": "tam",
+  "kaynak": "TDV İslâm Ansiklopedisi, Derbend (Dağıstan) ve Şirvan maddeleri",
+  "teyit_edilen": "Derbend 1759'dan 1796'ya kadar Kuba hanlarının hâkimiyetinde; 1806'da Ruslar şehri yeniden işgal etti; 1813 Gülistan'da Derbend Rusya'ya verildi.",
+  "alinti": "1806’da yeniden şehri işgal ettiler",
+  "not": "Kaçar yazımı yanlış. Düzeltme: Derbend 1794-1796 Kuba; 1796 sonrası Rus işgali ve çekilme, 1806 Rus. Gün TDV'de yok."
+ },
+ "K324": {
+  "teyit": "celiski",
+  "kaynak": "TDV İslâm Ansiklopedisi, Derbend (Dağıstan) maddesi",
+  "teyit_edilen": "Derbend'de müstakil hanlık kuruldu; şehir 1759 sonbaharında Kuba Hanı Feth Ali Han idaresine girdi, 1796'ya kadar Kuba hanlarında kaldı.",
+  "alinti": "Şehir 1759 sonbaharında Kuba Hanı Feth Ali Han’ın idaresi altına girdi",
+  "not": "Zend yazımı yanlış (hüküm doğru). ÇELİŞKİ: gerekçedeki 1765 yerine TDV 1759; ondan önce müstakil Derbend hanlığı."
+ },
+ "K326": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Priangan'ın VOC'a 1677/1705 geçişi: Ricklefs, A History of Modern Indonesia okunmalı."
+ },
+ "E020": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Bagration sonrası Şiauliai 27.07.1944, Kaunas 01.08.1944: Glantz & House, When Titans Clashed gibi akademik kaynak okunmalı."
+ },
+ "K330": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Gdańsk Pomeranya dükalığı 1294'e kadar: Cambridge History of Poland / Labuda okunmalı."
+ },
+ "K331": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Saint-Louis 1758-1779 ve 1809-1817 İngiliz dönemleri: GHA VI Senegambia bölümü ya da Cambridge History of Africa vol.5 okunmalı."
+ },
+ "K333": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Nêdong Phagmodrupa merkezi 1354'ten önce: Petech, Central Tibet and the Mongols; Cambridge History of China vol.6 okunmalı."
+ },
+ "K335": {
+  "teyit": "tam",
+  "kaynak": "TDV İslâm Ansiklopedisi, Dulkadıroğulları ve İlhanlılar maddeleri",
+  "teyit_edilen": "Ebû Said 1335'te öldü; Karaca Bey Elbistan yöresine 1337'de Memlük Sultanı tarafından tayin edildi.",
+  "alinti": "1337 yılında, Şam Valisi Tengiz’in delâletiyle",
+  "not": "Hüküm doğru: 1335-1339 ilhanli hayalet; Elbistan 1337 -> Dulkadır (Memlük tâbisi). Gün yok."
+ },
+ "K337": {
+  "teyit": "bulunamadi",
+  "kaynak": "UNESCO General History of Africa VII (archive.org)",
+  "teyit_edilen": "Asante War of 1896 görsel listesinde; Kumasi/protektora cümlesi aramada bulunamadı.",
+  "alinti": "",
+  "not": "Asante 1896-01-20 himaye tarihi ve Bono-Manso okunamadı. Giriş: GHA VII West Africa bölümü; Cambridge History of Africa vol.6."
+ },
+ "K339": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV İslâm Ansiklopedisi, Gürcistan maddesi",
+  "teyit_edilen": "Kaheti yalnız coğrafi olarak geçiyor; 1465 ayrılma bulunamadı.",
+  "alinti": "",
+  "not": "Giriş: Cambridge History of Georgia / Rayfield, Edge of Empires."
+ },
+ "K340": {
+  "teyit": "kismen",
+  "kaynak": "Dictionary of Canadian Biography, PARAT, ANTOINE (biographi.ca/en/bio/parat_antoine_1E.html)",
+  "teyit_edilen": "Plaisance (Placentia) 1685'te Fransız valiliği altında Newfoundland'daki Fransız kolonisiydi (18 ev, 640 kişi).",
+  "alinti": "governor of Plaisance (Placentia)",
+  "not": "Fransız kolonisi olarak varlığı teyitli. Utrecht 1713 devri okunamadı; DCB Brouillan/Costebelle maddeleri okunmalı (Costebelle sayfasında Utrecht/1713 geçmedi)."
+ },
+ "K342": {
+  "teyit": "bulunamadi",
+  "kaynak": "Imperial Gazetteer of India 1908 Vol. XVIII (in.ernet.dli.2015.152066)",
+  "teyit_edilen": "Nasik District maddesi okundu, 1803-1818 sahiplik anlatısı yakalanmadı.",
+  "alinti": "",
+  "not": "Giriş: IGI Nasik District tarih bölümü ve Bombay Presidency Vol. II."
+ },
+ "E021": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Uzak Doğu Cumhuriyeti 06.04.1920 kuruluş, 10-14.11.1920 Çita başkent, 14.11.1922 katılma: Carr, The Bolshevik Revolution; Smele akademik kaynak okunmalı."
+ },
+ "K343": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Epir 1371: Fine, The Late Medieval Balkans; Cambridge Medieval History vol.4 okunmalı."
+ },
+ "K344": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Zengî İmâdüddin maddesi",
+  "teyit_edilen": "Zengî Harran'ı Artuklulardan aldı; Urfa 1144 Aralık sonunda düştü.",
+  "alinti": "Harran’dan Rakka’ya kadar olan geniş bir alanı",
+  "not": "Harran'ın Zengî payı olması teyitli; 1132 tarihi bu sayfada kesinlenmedi. Bitiş Urfa fethiyle uyumlu."
+ },
+ "K345": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Kadı Burhâneddin maddesi",
+  "teyit_edilen": "Kadı Burhâneddin 1381'de Sivas'ta hükümdarlığını ilan etti; Karayülük Osman'a esir düşüp öldürüldü (muhtemelen Zilkade 800 / Temmuz 1398).",
+  "alinti": "muhtemelen Zilkade 800 / Temmuz 1398",
+  "not": "Bitiş Temmuz 1398 teyitli ama 15 Temmuz günü yok (muhtemel ifadesi). Dulkadır koridoru teyit edilmedi."
+ },
+ "K346": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Tekeoğulları maddesi",
+  "teyit_edilen": "Finike'de Menteşeoğlu Emîr Zervân b. Kirman hüküm sürdü; Antalya/Teke yöresi Dündar Bey ailesindeydi.",
+  "alinti": "Finike’de hüküm süren Menteşeoğlu Emîr Zervân b. Kirman’a",
+  "not": "Likya kıyısının Selçuklu değil Menteşe/Teke elinde olduğu teyitli; 1297-1300 yıl hassasiyeti kaynakta yok. Hüküm YAPAY doğru."
+ },
+ "K351": {
+  "teyit": "giris_gerek",
+  "kaynak": "Cambridge History of China (archive.org cambridgehistory0012unse_d2u0, cambridgehistory0000unse_u8v0): 403",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "ia-oku 403 verdi, zorlanmadı. Giriş: Cambridge History of China vol.7, Ming Yunnan fethi 1381-82."
+ },
+ "K360": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Safevîler maddesi",
+  "teyit_edilen": "İsmâil Erzincan'da Ustaclu Türkmenlerince karşılandı; 1501'de Şerûr'da Elvend'i yendi.",
+  "alinti": "Erzincan’da Ustaclu Türkmenleri onu coşkuyla karşıladılar",
+  "not": "Bayburt TDV Safevîler'de geçmiyor; Kiğı/Bayburt 1501-07 Safevî payı teyitsiz. Erzincan toplanması teyitli."
+ },
+ "K362": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Nha Trang 1775-1786: Cambridge History of Southeast Asia / Taylor, A History of the Vietnamese okunmalı."
+ },
+ "K363": {
+  "teyit": "giris_gerek",
+  "kaynak": "Cambridge History of China (403)",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "K351 ile aynı; 403 nedeniyle okunamadı."
+ },
+ "K367": {
+  "teyit": "kismen",
+  "kaynak": "Magyar Katolikus Lexikon, Thököly Imre (lexikon.katolikus.hu/T/Thököly.html)",
+  "teyit_edilen": "Thököly 1682'de Zrínyi Ilona ile evlendi; 1682 Kasım 19 Viyana ateşkesiyle Felvidék ve Tiszáninnen vármegyelerini Garam'a kadar elinde tuttu.",
+  "alinti": "1682. XI. 19-i bécsi fegyverszünet eredményeként",
+  "not": "Thököly bölgesi 1682 teyitli; Szatmár kalesinin Habsburg elinde kalması ve 1682-09-16 / 1685-10-15 günleri okunmadı."
+ },
+ "K369": {
+  "teyit": "kismen",
+  "kaynak": "UNESCO General History of Africa VII (archive.org unesco_general_history_africa_vii)",
+  "teyit_edilen": "1890 Heligoland antlaşması Doğu Afrika bölüşümünü tamamladı, Uganda İngiltere'ye ayrıldı.",
+  "alinti": "famous Heligoland Treaty of 1890",
+  "not": "Antlaşma teyitli; Karagve'nin Alman tarafında kalması aramada (Karagwe) çıkmadı. Karagve için GHA VI okunmalı."
+ },
+ "K372": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Flandre-Artois'nın 30 Ocak 1384 Burgonya'ya geçişi: Vaughan, Philip the Bold; HLS/Treccani değil, akademik Burgonya kaynağı okunmalı."
+ },
+ "E024": {
+  "teyit": "giris_gerek",
+  "kaynak": "okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Sevilla 18.07.1936 Queipo de Llano: Preston, The Spanish Civil War; Thomas okunmalı."
+ },
+ "K376": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, İdrîs-i Bitlisî maddesi",
+  "teyit_edilen": "İdris Çaldıran'a (23 Ağustos 1514) katıldı; Cizre, Bitlis, Siirt, Meyyâfârikīn gibi bölgeler savaşsız Osmanlı'ya bağlandı.",
+  "alinti": "Siirt, Meyyâfârikīn (Silvan), Suran",
+  "not": "Siirt/Silvan'ın Osmanlı'ya bağlanması teyitli; 1514-09-06 ve 1515-02-25 günleri TDV'de yok. Çaldıran 2 Receb 920 / 23 Ağustos 1514."
+ },
+ "K379": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Silistre maddesi",
+  "teyit_edilen": "790 (1388) kışında Çandarlı Ali Paşa kumandasındaki Osmanlı ordusu Silistre'yi ele geçirdi.",
+  "alinti": "790 (1388) kışında Çandarlı Ali Paşa kumandasındaki Osmanlı ordusu Silistre’yi ele geçirdi",
+  "not": "Silistre 1388 Osmanlı teyitli (hüküm doğru). Varna/Dobruca despotluğu okunmadı; Varna kısmı teyitsiz."
+ },
+ "K382": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Timur maddesi",
+  "teyit_edilen": "Timur 1402 Mayıs'ta Sivas, Kayseri, Kırşehir üzerinden Ankara'ya geldi; Temmuz 1404'te (Muharrem 807) Semerkant'a döndü.",
+  "alinti": "Muharrem 807’de (Temmuz 1404) Semerkant’a döndü",
+  "not": "ÇELİŞKİ: gerekçe Anadolu'dan 1404 Temmuz'da ayrıldı diyor; TDV Temmuz 1404'te Semerkant'a dönüşü veriyor, Anadolu'dan ayrılış daha erken. Sivas 1400'de Timur eline geçmişti; Timurlu t kaynakla belirlenmeli."
+ },
+ "K386": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908, Vol. VII (Berhampore to Bombay), madde Bombay (archive.org in.ernet.dli.2015.206980)",
+  "teyit_edilen": "Bombay İngilizlere Charles II ile Portekiz Infantası arasındaki evlilik anlaşması gereğince 1661'de geçti.",
+  "alinti": "under the terms of the marriage treaty between Charles II and the Infanta",
+  "not": "1661 devri teyitli; atlas Portekiz'i 1740'a dek gösteriyorsa Bombay adası için yanlış. Thane/Bassein 1739 teyit edilmedi."
+ },
+ "K387": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Tücîbîler maddesi",
+  "teyit_edilen": "Tücîbîler Zaragoza valiliğine tayin edildi; Mülûkü't-tavâif döneminde Münzir b. Yahyâ el-Mansûr bağımsızlığını ilân etti.",
+  "alinti": "Münzir b. Yahyâ el-Mansûr’un bağımsızlığını ilân etmesiyle",
+  "not": "Zaragoza'nın tavaif döneminde Tücîbî emirliği olduğu teyitli; 1013/1018 yılı TDV'de yok."
+ },
+ "K388": {
+  "teyit": "giris_gerek",
+  "kaynak": "TDV anadolu-selcuklulari sayfası kısa (3307 karakter, yönlendirme); gövde okunmadı",
+  "teyit_edilen": "",
+  "alinti": "",
+  "not": "Okunmalı: TDV Selçuklular (Anadolu) alt maddeleri, Kılıç Arslan IV / Gıyâseddin Keyhusrev III; İlhanlı tabiliği 1243 Kösedağ sonrası."
+ }
+}

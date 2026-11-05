@@ -1,0 +1,469 @@
+{
+"_aciklama": "ENKLAV-1104 hükümleri (K701-K758, EMRELİC'in istediği son aralık; ölçümde yabancı-kara aday toplamı 858 — K759-K858 işlenmedi). Sözlük ENKLAV-1103/hukumler.json ile aynı; kaynak hükümle birlikte arandı. KAYNAK5 (LAB SALI): 4 hüküm kaynak_toplu.py ile güncellendi.",
+"K701": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Napoli 1281 → 1282-03-30 'napoli', çevre 'sicilya-kralligi' %61: Akşam Duası öncesi Napoli Anjou Sicilya Krallığı'nın parçasıydı — KOVALAR N4 (napoli kimliği 1282 öncesine taşmış).",
+"duzeltme": "KOVALAR N4.",
+"kaynak": "veri ölçümü · Treccani «Vespri siciliani» (KAYNAK2)"
+},
+"K702": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "İngiliz parçası 1922-1923, nokta yok (Kamerun): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K703": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Rus parçası 1905-1917, nokta yok (Norveç/Finlandiya komşu): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K704": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "K703 ardılı (Geçici Hükûmet), nokta yok.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K705": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kotor 1807 → 1814 Fransız (İlirya), Osmanlı ve Karadağ arasında: gerçek. HE 1813 bitişi verir; 1814 kısa Karadağ idaresi veride yok.",
+"duzeltme": "Kotor 1813 → karadag (kısa), 1814 → avusturya.",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/kotor — 'nakon prve austrijske vladavine (od 1797), pa ruske (od 1806), francuske (1807–13) i nakon kratkotrajne crnogorske vladavine (1814) ponovno pripao Austriji … (do 1918)'"
+},
+"K706": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kotor 1797-10-17 (Campo Formio) → 1806 Avusturya: gerçek (HE 'od 1797').",
+"duzeltme": "Yok.",
+"kaynak": "Hrvatska enciklopedija «Kotor» (K705 ile aynı)"
+},
+"K707": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kotor 1814 → Avusturya (HE: 1918'e dek); parçanın 1908-10-05'te bitmesi Bosna ilhakıyla gövdeye bağlanmadan — sahip değişimi değil.",
+"duzeltme": "Yok.",
+"kaynak": "Hrvatska enciklopedija «Kotor»"
+},
+"K708": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kotor Venedik (1420'den, HE) → 1797-10-17 Venedik'in düşüşü: Osmanlı ve Karadağ arasında gerçek. Parça başlangıcı 1482 topoloji kırılması.",
+"duzeltme": "Yok.",
+"kaynak": "Hrvatska enciklopedija «Kotor» — 'grad se predao Mletačkoj Republici, pod čijom je upravom ostao sve do njezina pada 1797'"
+},
+"K709": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kotor 1806 → 1807 Rus işgali: gerçek (HE 'ruske (od 1806)').",
+"duzeltme": "Yok.",
+"kaynak": "Hrvatska enciklopedija «Kotor»"
+},
+"K710": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "İngiliz parçası 1911-1915, nokta yok (Portekiz/Alman GB Afrikası): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K711": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Eupen (Limburg dükalığı, Overmaas) 1430 Burgonya → 1482: Limburg Brabant'tan Liège toprağıyla ayrı — gerçek eksklav zinciri (K711-K715 aynı aile).",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K712": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Eupen 1714 → 1795 Avusturya Hollandası (Limburg): gerçek eksklav.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K713": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Eupen 1632 → 1714 İspanyol Hollandası (Limburg): gerçek eksklav.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K714": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Eupen 1482 → 1516 Habsburg Hollandası (Limburg): gerçek eksklav.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K715": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Eupen 1288-06-05 (Worringen savaşı: Limburg Brabant'a) → 1430 Burgonya: gerçek eksklav; başlangıç Worringen günüyle birebir.",
+"duzeltme": "Yok.",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/limburgo/ — 'Estintasi la casata (1283), iniziò una guerra di successione, in cui Brabante vinse sul Lussemburgo (1288)' (Worringen, veri 1288-06-05 ile uyumlu)"
+},
+"K716": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Como 1800-06-04 → 1814 'avusturya': Marengo (1800) sonrası Lombardiya Cisalpin'e (1800 restorasyonu), 1802 İtalya Cumhuriyeti, 1805 İtalya Krallığı — Avusturya yazımı yanlış (KOVALAR N8 ailesi).",
+"duzeltme": "Como 1800-06 → italya-napolyon; 1814-04 → avusturya.",
+"kaynak": "Treccani, «Milano» — 'dopo una breve restaurazione austriaca (1799-1800) della Repubblica Italiana (1802) e del Regno Italico (1805)'"
+},
+"K717": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Gilan 1991-09-22 → 1999-06-10 'kosova-golge-cumhuriyeti': KOVALAR N3 (gölge cumhuriyet toprak sahibi boyalı).",
+"duzeltme": "KOVALAR N3.",
+"kaynak": "veri ölçümü"
+},
+"K718": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Aydos-Samandıra 1328 Osmanlı → 1329-06 (Pelekanon/Maltepe savaşı): Bizans'ın Kocaeli kıyısı ortasında Osmanlı ileri parçası — kısmen.",
+"duzeltme": "Uçlar kaynakla.",
+"kaynak": "bulunamadı (model bilgisi) · KISMEN — R. P. Lindner, Cambridge History of Turkey 1, ch.4, s.121: Pelekanon Haziran 1329 (gün yok); Aydos/Samandıra 1328 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Pelekanon Haziran 1329",
+"aday_tarih": "Pelekanon Haziran 1329"
+},
+"K719": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Maastricht 1632-08-22 (Frederik Hendrik) → 1673 Fransız kuşatması: Liège ve İspanyol Hollandası arasında gerçek Hollanda parçası (K719-K722 aynı aile).",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K720": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Maastricht 1678-08-10 (Nijmegen) → 1795 Hollanda: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K721": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Maastricht 1830-10-04 (Belçika bağımsızlığı) → 1839-04-19 (Londra antlaşması) Hollanda garnizonu, Belçika ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K722": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Maastricht 1673-07-01 Fransız zaptı → 1678-08-10 Nijmegen: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K723": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "İspanya parçası 1894-2000, nokta yok (Fas komşu — Melilla çevresi?): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (Melilla/Ceuta noktaları ölçülsün).",
+"kaynak": "veri ölçümü"
+},
+"K724": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kartaca 1229-01-01 → 12-01 Muvahhid, çevre Hafsî: 1229 Hafsîlerin bağımsızlık yılı — yıl hassasiyetli iki kaydın arasında kalan ara. Karthago, Ğâru'l-Melh sahipsiz.",
+"duzeltme": "Tunus kıyısı 1229 tek geçiş günü (kaynakla).",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K725": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Korenica 1991-12-19 → 1995-08-07 Sırp Krajina Cumhuriyeti: Lika parçası Knin gövdesine Udbina-Gračac hattıyla bitişik olmalı; kopukluk noktasızlıktan. Bitiş Fırtına harekâtıyla uyumlu.",
+"duzeltme": "Lika noktaları 1991-1995 sirp-krajina-cumhuriyeti (ölçülsün).",
+"kaynak": "HE «Republika Srpska Krajina» maddesi açılmadı — bulunamadı"
+},
+"K726": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Sovyet Rusya parçası 1917-1918, nokta yok (Moldova DC): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K727": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Bombay 1665 İngiliz (1661 çeyizi), Portekiz ve Maratha arasında → 1757: gerçek; 1668'de Doğu Hindistan Şirketi'ne kiralandı (K729 ile kimlik geçişi).",
+"duzeltme": "1668 → ingiliz-hindistani (Şirket) kimlik geçişi.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bombay — '1661'de Bombay adaları ve limanı İngiltere Kralı II. Charles ile … Prenses Catherina evlenince çeyiz olarak İngilizler'e teslim edildi. 1668'de II. Charles bu adaları yıllık 10 sterlin karşılığında İng[iliz Doğu Hindistan Şirketi'ne]'"
+},
+"K728": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Belgrad 1941-08-29 → 1944-10-06 Nediç Sırbistanı, çevre 'yugoslavya' %80: K645 ile aynı (işgal altındaki Sırbistan'ın öteki noktaları Krallık kimliğinde).",
+"duzeltme": "K645 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K729": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bombay 1757 → 1774-12-28 (Salsette'in alınışı) Şirket Bombay'ı, Maratha ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV «Bombay» (1668 Şirket) — 1774 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782",
+"aday_tarih": "Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782"
+},
+"K730": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Girne 1570-09-09 (Lefkoşa'nın düşüşü) → 09-17 teslim: Venedik'in kısa kalıntısı, gerçek.",
+"duzeltme": "Girne venedik t 1570-09-17 → 1570-09-14 (savaşsız teslim, Hill); Osmanlı kaynaklarındaki daha erken (Temmuz) rivayet Hill'ce reddedilir — ic_not'ta iki rivayet beyanlı.",
+"kaynak": "EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — G. Hill, A History of Cyprus III, ch. XV, s.988: 'on the 14th … gave up the fortress' (Lefkoşa 9 Eylül 1570 düşüşünden sonra)"
+},
+"K731": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Vehrân (Oran) ve Mersa'l-Kebîr 1509-05-17 İspanyol işgali → 1708 Osmanlı (Bûşelagam), Zeyyânî/Osmanlı Cezayir'i ortasında: gerçek presidio; başlangıç günü TDV ile birebir.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/vehran — 'Kastilya Krallığı 17 Mayıs 1509'da Vehrân'ı işgal edip' · '1708'de Vehrân'ı Osmanlılar adına teslim aldı'"
+},
+"K732": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Bombay 1534 Gucerat sultanlığı → 1534-12-23 (Bassein antlaşması) Portekiz'e: kısa gerçek parça.",
+"duzeltme": "Yok.",
+"kaynak": "TDV «Bombay» — 'Sultan Bahadır Şah Gucerâtî ile Portekizli kumandan Nuno da Cunha arasında imzalanan antlaşma ile Portekizliler'e bırakıldı'"
+},
+"K733": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Vehrân 1732 İspanyol geri alışı → 1792-09-12 Osmanlı (Kuloğlu Mehmed b. Osman): gerçek; bitiş günü TDV ile birebir.",
+"duzeltme": "Yok.",
+"kaynak": "TDV «Vehrân» — '12 Eylül 1792 tarihinde Muasker'deki Osmanlı idarecisi Kuloğlu Mehmed b. Osman, Vehrân'ı İspanyollar'dan geri almayı başardı'"
+},
+"K734": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ba'ja (Sina) 1922-1923 Mısır Krallığı, çevre Filistin/Hicaz: tek iç nokta sahipsiz — Sina noktasızlığı.",
+"duzeltme": "Sina noktalarına Mısır dönemleri.",
+"kaynak": "veri ölçümü"
+},
+"K735": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "K734 öncülü (Mısır Sultanlığı 1920-1922), aynı noktasızlık.",
+"duzeltme": "K734 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K736": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Hulst 1814-05-04 → 05-30 (Paris antlaşması) Fransız, Hollanda ortasında: kısa gerçek kalıntı.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K737": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Vehrân 1831-01-04 Fransız işgali → 1841, Emîr Abdülkādir ve Osmanlı kalıntısı (TABI) ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV «Vehrân» 1831'i bu okumada vermedi — bulunamadı"
+},
+"K738": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Sardinya-Piyemonte parçası 1861-03-07 → 03-17, nokta yok: noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K739": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Bulgar çarlığı parçası 1390-1393, nokta yok (Eflak/Dobruca komşu): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K740": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Bar 1421 (III. Balša'nın ölümü) Sırp despotluğu → 1433 (sonra Venedik), Venedik Arnavutluğu ortasında: kısmen gerçek.",
+"duzeltme": "Bar despotluk dönemi bitişi 1433 → 1443 (HE: 1443'te kesin Venedik); 1571 → OSMANLI.",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/bar — 'U prvoj polovici XV. st. Bar je naizmjence pod vlašću Balšića, Venecije i Stefana Lazarevića, a 1443. konačno je došao pod vlast Venecije … Godine 1571. osvojili su ga Osmanli' (1421 başlangıcı III. Balša'nın ölümü — HE yüzyıl düzeyinde, gün teyitsiz)"
+},
+"K741": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "İngiliz parçası 1895-1923, nokta yok (Fransız komşu): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K742": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Silopi-Cumai 1918-10-30 → 11-08 'ingiltere': Mondros sonrası İngilizler Musul'a ilerledi; Silopi (bugünkü Türkiye) için İngiliz işgali şüpheli.",
+"duzeltme": "Silopi 1918-1921 sahibi kaynakla (Musul vilayeti sınırı).",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K743": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Silopi 1921-08-23 → 10-20 'ingiltere' (Irak Krallığı ilanı → Ankara antlaşması): K742 ile aynı aile.",
+"duzeltme": "K742 ile aynı.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K744": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "İngiliz Sudanı parçası 1919-1923, nokta yok: noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K745": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Yafa 1917-11-16 İngiliz zaptı → 1917-12-09 Kudüs'ün düşüşüyle gövdeye bağlanma: gerçek ilerleme parçası.",
+"duzeltme": "Yok.",
+"kaynak": "EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — J. D. Grainger, The Battle for Palestine 1917 (2006), s.173: Yafa'ya 16 Kasım 1917 sabahı Yeni Zelanda birlikleri girdi"
+},
+"K746": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Habsburg parçası 1815-1918, nokta yok (İsviçre/Liechtenstein komşu — Vorarlberg?): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K747": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Ferecik-Távri 1920-05-14 → 05-27 'bulgaristan-kralligi': İtilâf adına Fransız işgali 15 Ekim 1919, Yunan işgali 22 Mayıs 1920 — Bulgar yazımı yanlış.",
+"duzeltme": "Batı Trakya 1919-10-15 → Müttefik (Fransız) işgali (beyan; künye gerek), 1920-05-22 → yunanistan (veri 05-14 değil).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bati-trakya — 'İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)' · 'Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920)'"
+},
+"K748": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Amasra 1459 Fatih'in Cenevizlilerden alışı → 1461 Candar (Sinop) ilhakıyla gövdeye bağlanma: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV'de Amasra maddesi açılmadı — bulunamadı"
+},
+"K749": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Kfar HaHoresh 1832-05-27 → 06-15, 19 günlük parça: K514 (Akkâ 1832) ailesinin kısa arası.",
+"duzeltme": "K514 düzeltmesiyle kalkar.",
+"kaynak": "veri ölçümü"
+},
+"K750": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Tanca 1661 çeyiziyle İngiliz → 1095/1684 Mevlây İsmâil: Fas ortasında gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/tanca — '1661'de İngiltere Kralı II. Charles'in Braganza prensesiyle evliliği sonucu çeyiz olarak İngiltere'ye intikal etti' · 'Mevlây İsmâil döneminde yeniden müslümanların eline geçti (1095/1684)'"
+},
+"K751": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Batum 1878-03-03 (Ayastefanos) → 07-13 (Berlin) Osmanlı, Rus işgali ortasında: Berlin ile Rusya'ya bırakıldı — gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/batum — '1878 Berlin Antlaşması'yla serbest liman olarak Rusya'ya bırakıldı'"
+},
+"K752": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "İsfakiye 1646-11-13 → 1669-09-27 Venedik: Girit savaşında Venedik Kandiye, Suda, Gramvousa ve Spinalonga'yı tuttu; Sfakia dağ bölgesi Venedik garnizonu değil — kısmen yanlış.",
+"duzeltme": "Sfakia 1646 sonrası sahibi kaynakla.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K753": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Dubrovnik 1941-04-10 → 1944-10-18 NDH — HE ile birebir; ancak çevre 'yugoslavya' %63: Hersek/Karadağ noktaları 1941-44'te Krallık kimliğinde (K645 ailesi).",
+"duzeltme": "Komşu noktalar 1941-04 → NDH / İtalyan işgali (kaynakla).",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/dubrovnik — 'Dubrovnik je od 10. travnja 1941. bio uključen u sastav NDH, a 18. X. 1944. zauzele su ga partizanske jedinice'"
+},
+"K754": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Parga 1815 İngiliz → 1819 Tepedelenli Ali Paşa'ya satış, Osmanlı ortasında: gerçek.",
+"duzeltme": "Yok (1819-05-10 günü kaynakla).",
+"kaynak": "TDV içerik araması (parga) — «Tepedelenli Ali Paşa»: 'Parga İngilizler'e teslim oldu ve…'"
+},
+"K755": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Singapur 1826 Boğazlar Yerleşimleri → 1959 öz yönetim, Cohor yanında ada: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K756": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Dimetoka 1920-05-14 → 05-27 'bulgaristan-kralligi': K747 ile aynı (Batı Trakya 1919-10-15 Fransız, 1920-05-22 Yunan).",
+"duzeltme": "K747 ile aynı.",
+"kaynak": "TDV «Batı Trakya» (K747 ile aynı)"
+},
+"K757": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Macar parçası 1522-1537, nokta yok (Osmanlı/Venedik komşu — Klis?): noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K758": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Habsburg parçası 1918-11-08 → 11-11, nokta yok: noktasız motor ataması.",
+"duzeltme": "Motor sorusu.",
+"kaynak": "veri ölçümü"
+}
+}

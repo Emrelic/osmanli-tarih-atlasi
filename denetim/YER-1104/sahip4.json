@@ -1,0 +1,226 @@
+{
+ "Bhirrana (Bhirdana)": [
+  null,
+  "-6433-01-01",
+  "en eski tabaka (Hakra çanak çömleği evresi) — devlet öncesi; erken-harappa künyesi -3199'da başlar, o güne dek sahipsiz kültür noktası",
+  "Sarkar vd. 2016, Sci Rep 6:26555 (madde)",
+  "KAYNAKLI (14C), KÜNYE YOK"
+ ],
+ "Szászsebes (Sebeş)": [
+  "dogu-macar-kralligi",
+  "1540-07-22",
+  "Szapolyai János'un öldüğü yer — Erdel'de, Szapolyai krallığı",
+  "madde kaynağı Vikipedi + Explore Carpathia (akademik değil)",
+  "KAYNAK-GEREK"
+ ],
+ "Jebel Barkal": [
+  "misir-yeni-krallik",
+  "-1499-01-01",
+  "III. Thutmose'un Napata'ya ulaşması — aday sahip; madde 'başlar' (yerleşim başlangıcı)",
+  "Peeters vd. 2026 (madde) — sahip teyitsiz",
+  "KAYNAK-GEREK"
+ ],
+ "Elea (Lucania)": [
+  null,
+  "-0544-01-01",
+  "Fokaia sürgünlerinin kurduğu bağımsız polis — künye yok",
+  "Herodotos 1.167; Strabon 6.1.1",
+  "KAYNAKLI, KÜNYE YOK"
+ ],
+ "Olbia": [
+  null,
+  "-0646-01-01",
+  "Milet kolonisi, bağımsız polis — künye yok",
+  "Eusebios; Hansen & Nielsen 2004",
+  "KAYNAKLI, KÜNYE YOK"
+ ],
+ "Lokroi (Bruttium)": [
+  null,
+  "-0672-01-01",
+  "Lokris kolonisi, bağımsız polis — künye yok",
+  "Strabon 6.1.7; Eusebios",
+  "KAYNAKLI, KÜNYE YOK"
+ ],
+ "Kirrha": [
+  null,
+  "-0594-01-01",
+  "Birinci Kutsal Savaş'ta yıkıldı → bit: -0594 (kur: KAYNAK-GEREK)",
+  "Aischines 3.107-113; Parker 2002",
+  "KAYNAKLI (bitiş)"
+ ],
+ "Burzahom (Burzahama)": [
+  null,
+  "-2899-01-01",
+  "Keşmir Neolitiği — devlet öncesi; künye yok",
+  "Dwivedi vd. 2025, Sci Rep (madde)",
+  "KAYNAKLI, KÜNYE YOK"
+ ],
+ "Babaeski": [
+  "OSMANLI",
+  "1360-01-01",
+  "Bizans → Osmanlı (I. Murad'ın Edirne kuşatması öncesi; yıl)",
+  "TDV «Murad I», «Lüleburgaz» (madde)",
+  "KAYNAKLI (yıl)"
+ ],
+ "Osnabrück": [
+  "almanya",
+  "1648-10-24",
+  "Osnabrück Prens-Piskoposluğu (Kutsal Roma)",
+  "TDV «Almanya» (madde)",
+  "KAYNAKLI"
+ ],
+ "Drivasto": [
+  "venedik",
+  "1478-01-01",
+  "Venedik (1390'lar, yerli beylerden) → Osmanlı 1478 (yıl; Akçahisar, Leş, Jabyak ile)",
+  "TDV «Arnavutluk»",
+  "KAYNAKLI (yıl)"
+ ],
+ "Serav (Serâb)": [
+  "safevi",
+  "1618-09-26",
+  "Safevî şehri (Tebriz-Erdebil arası)",
+  "TDV «Osman II» (madde), «Dilâver Paşa»",
+  "KAYNAKLI"
+ ],
+ "Vasvár": [
+  "macaristan-habsburg",
+  "1664-08-09",
+  "Habsburg Macaristan'ı (Vas ili)",
+  "TDV «Vasvar Antlaşması» (madde)",
+  "KAYNAKLI"
+ ],
+ "Versec": [
+  "OSMANLI",
+  "1552-07-27",
+  "Temeşvar'dan gönderilen kuvvetler tuttu (Güney Banat palankaları)",
+  "Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) (madde)",
+  "KAYNAKLI"
+ ],
+ "Facset": [
+  "OSMANLI",
+  "1552-07-27",
+  "aynı madde (Versec, Facset, Mehádia, Csákóvár…)",
+  "Bánlaky (madde)",
+  "KAYNAKLI"
+ ],
+ "Mehádia": [
+  "OSMANLI",
+  "1552-07-27",
+  "aynı madde",
+  "Bánlaky (madde)",
+  "KAYNAKLI"
+ ],
+ "Csákóvár": [
+  "OSMANLI",
+  "1552-07-27",
+  "aynı madde",
+  "Bánlaky (madde)",
+  "KAYNAKLI"
+ ],
+ "Ayastefanos (Yeşilköy)": [
+  "OSMANLI",
+  "1878-03-03",
+  "İstanbul'un batısında köy; ABİ MERKEZ: İstanbul",
+  "TDV «Ayastefanos Antlaşması» (madde)",
+  "BEYANLI YAKLAŞIKLIK (zincir İstanbul'dan)"
+ ],
+ "Novigrad": [
+  "OSMANLI",
+  "1544-09-01",
+  "Budin'in kuzey savunma kuşağı (1544 seferi; ay)",
+  "TDV «Budin» (madde)",
+  "KAYNAKLI (ay)"
+ ],
+ "Fethülislâm": [
+  "OSMANLI",
+  "1867-04-18",
+  "Osmanlı kalesi → 1867-04-18 garnizon çekildi, Sırbistan Prensliği'ne (sirbistan-prensligi)",
+  "TDV «Sırbistan» (madde)",
+  "KAYNAKLI (kur KAYNAK-GEREK)"
+ ],
+ "Missolonghi": [
+  "OSMANLI",
+  "1826-04-22",
+  "1821 isyanıyla Yunan isyancılar → 1826-04-22 Osmanlı aldı → 1829 Yunan (KAYNAK-GEREK)",
+  "TDV «Reşid Mehmed Paşa» (madde)",
+  "KAYNAKLI (düşüş günü)"
+ ],
+ "Yanbolu (Yambol)": [
+  "OSMANLI",
+  "1410-02-13",
+  "Bulgar kalesi → Osmanlı fethi 1373 (TDV: 'ikinci tarihin daha doğru olma ihtimali yüksek'; eski görüş 766/1365) → 1410 fetret savaşı Osmanlı içi. ÇELİŞKİ: kronolojideki 1369 maddesi (Timurtaş) TDV'nin iki tarihinden de farklı",
+  "TDV «Yanbolu»",
+  "KAYNAKLI (yıl) — fetih yılı çelişkisi beyanlı"
+ ],
+ "Nizip": [
+  "OSMANLI",
+  "1839-06-24",
+  "Nizip Muharebesi; kasaba Osmanlı (Mısır ordusu karşısında)",
+  "madde",
+  "KAYNAKLI (madde)"
+ ],
+ "Kumanova": [
+  "OSMANLI",
+  "1912-10-23",
+  "Osmanlı → Sırbistan (Kumanova savaşı)",
+  "madde",
+  "KAYNAKLI (madde)"
+ ],
+ "Zenta": [
+  "habsburg",
+  "1697-09-08",
+  "Habsburg tarafında kasaba-kale (1686'dan çarpışma alanı) → 8 Eylül 1697 Osmanlı zaptetti → 11 Eylül bozgun, Habsburg; ilk anılma 1216 (Szintarev)",
+  "TDV «Zenta» (E. Afyoncu)",
+  "KAYNAKLI (gün)"
+ ],
+ "Dömeke": [
+  "yunanistan",
+  "1897-05-17",
+  "Osmanlı Tesalya kasabası (Dömeke) → 1881 Tesalya Yunan Krallığı'na → 1897 savaşında kısa Osmanlı idaresi",
+  "TDV «Tesalya», «Yenişehir»",
+  "KAYNAKLI (1881 yıl)"
+ ],
+ "Bileća": [
+  "bosna-kralligi",
+  "1388-08-27",
+  "ilk anılma 1387; 1388'de yakınında Bosna komutanı Vlatko Vuković Osmanlıları yendi → 1391 knez Pavle Radinović → 1430'lar Kosača → 1465 Osmanlı",
+  "Hrvatska enciklopedija «Bileća» (LZMK)",
+  "KAYNAKLI"
+ ],
+ "Salankamen": [
+  "OSMANLI",
+  "1691-08-19",
+  "Macar kalesi → 1521 Osmanlı (Srem sancağı) → 19.8.1691 savaştan sonra Habsburg (Askerî Sınır)",
+  "Hrvatska enciklopedija «Slankamen»; TDV «Srem» (XVI. yy. Osmanlı kasabası)",
+  "KAYNAKLI (gün)"
+ ],
+ "Parkan": [
+  "OSMANLI",
+  "1683-10-09",
+  "Osmanlı Parkan palankası → 1683-10-09 bozgun, Habsburg",
+  "madde",
+  "KAYNAKLI (madde)"
+ ],
+ "Sen Gotar": [
+  "macaristan-habsburg",
+  "1664-08-01",
+  "Habsburg Macaristan'ı (Rába kıyısı) — TDV'de madde ve içerik eşleşmesi yok (sengotar, vasvar-antlasmasi denendi)",
+  "madde",
+  "KAYNAK-GEREK"
+ ],
+ "Hisarcık (Grocka)": [
+  "habsburg",
+  "1739-07-22",
+  "Pasarofça (1718) ile Belgrad ve havalisi Avusturya'ya → 1739 Osmanlı; savaş 'Hisarcık Boğazı'nda 22 Temmuz' (TDV Hacı İvaz Paşa). ABİ MERKEZ: Belgrad",
+  "TDV «Pasarofça Antlaşması», «Hacı İvaz Paşa»",
+  "BEYANLI YAKLAŞIKLIK (zincir Belgrad'dan)"
+ ],
+ "Kozluca": [
+  "OSMANLI",
+  "1774-06-25",
+  "Osmanlı (Varna-Şumnu arası)",
+  "madde",
+  "KAYNAKLI (madde)"
+ ]
+}

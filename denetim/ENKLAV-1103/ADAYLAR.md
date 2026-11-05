@@ -32,14 +32,14 @@ Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt ala
 
 | kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
 |---|---|---|---|
-| GERCEK | 0 | 8 | 85 |
-| BIRLESMELI | 10 | 0 | 2 |
+| GERCEK | 0 | 64 | 28 |
+| BIRLESMELI | 10 | 1 | 1 |
 | YAPAY-a | 32 | 0 | 3 |
-| YAPAY-b | 9 | 0 | 4 |
-| YAPAY-c | 16 | 5 | 24 |
-| YAPAY-d | 6 | 0 | 4 |
+| YAPAY-b | 9 | 2 | 2 |
+| YAPAY-c | 16 | 19 | 12 |
+| YAPAY-d | 6 | 3 | 0 |
 | YAPAY-k | 5 | 0 | 0 |
-| YAPAY-m | 5 | 0 | 3 |
+| YAPAY-m | 5 | 2 | 1 |
 
 Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-k aynı yapı iki devlet kimliğiyle yazılmış (ör. ingiltere / ingiliz-nijerya) · YAPAY-m motor (veriyle çözülmez) · BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.
 
@@ -52,10 +52,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 267.6 km · muzafferi 9/9
 - içindeki yerleşimler (74, s.eksklav 0): Senendec (Sine) (sahipsiz); Merîvan (timurlu); Bîcâr (sahipsiz); Bâne (sahipsiz); Ebher (Abhar) (sahipsiz); Sakkız (timurlu); Sultâniye (timurlu); Izirtu (sahipsiz) … +66
 - koridor yerleşimleri: Tahran (muzafferi); Kazvin (muzafferi)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Timur Sultâniye'yi 1385'te aldı (Âdil Ağa'ya verdi), Tebriz 1386. 1383-84'te Sultâniye/Sakkız/Merîvan Celâyirli idi. 74 yerleşimin çoğu sahipsiz: alan noktasız emilmeyle 253 bin km²ye şişmiş. Koridordaki Tahran/Kazvin 'muzafferi' kaydı da şüpheli.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Timur Sultâniye'yi 1385'te aldı (Âdil Ağa'ya verdi), Tebriz 1386. 1383-84'te Sultâniye/Sakkız/Merîvan Celâyirli idi. 74 yerleşimin çoğu sahipsiz: alan noktasız emilmeyle 253 bin km²ye şişmiş. Koridordaki Tahran/Kazvin 'muzafferi' kaydı da şüpheli. [KAYNAK-1104 (kismen): 1384'te Sultan Ahmed Celâyir kardeşi Bayezid'i esir aldı (Irâk-ı Acem Celâyirli); Timur 'bu tarihten başlayarak' Kuzey İran'ı ele geçirdi. — "Timur’un bu tarihten başlayarak Kuzey İran ile Ermenistan’ı ... ele geçirmesi" · 1383 başı Timurlu başlangıcı TDV'ye göre erken (Kuzey İran fethi 1384'ten itibaren) — YAPAY-c destekli. Sultâniye için gün yok; DergiPark 1385.]
   - önerilen düzeltme: Sultâniye, Sakkız, Merîvan: timurlu f → 1385 (gün bulunamadı), öncesi celayirli. Tahran, Kazvin 1383-87 sahibi kaynakla sınansın. Parça içindeki sahipsiz noktalar (Senendec, Bîcâr, Bâne, Ebher…) Değişmez 1 açısından ayrıca bakılsın.
-  - kaynak: DergiPark makalesi dergipark.org.tr/en/download/article-file/3863407 (Sultâniye 1385, Âdil Ağa) — alt ajan; Iranica 'Timur' çekilemedi
+  - kaynak: TDV İslâm Ansiklopedisi, "Celâyirliler" (Muzaffer Ürekli), https://islamansiklopedisi.org.tr/celayirliler; + DergiPark article-file/3863407 (önceki) · önceki: DergiPark makalesi dergipark.org.tr/en/download/article-file/3863407 (Sultâniye 1385, Âdil Ağa) — alt ajan; Iranica 'Timur' çekilemedi
 
 ### E002 · Kutsal Roma / Almanya (`almanya`) · 1941-07-11 → 1944-06-28 · 169.996 km²
 
@@ -100,10 +100,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 79.4 km · zend 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Nîşâbur (afsar); Sebzevâr (afsar); Meşhed (afsar); Tûs (afsar)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Nâdir sonrası Afşar hâkimiyeti Meşhed merkezli Horasan'a çekildi (Şâhruh 1748-96). Çekirdek gerçek; ama çevrenin %94 'zend' olması şüpheli — Zendler Horasan'a uzanmadı.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Nâdir sonrası Afşar hâkimiyeti Meşhed merkezli Horasan'a çekildi (Şâhruh 1748-96). Çekirdek gerçek; ama çevrenin %94 'zend' olması şüpheli — Zendler Horasan'a uzanmadı. [KAYNAK-1104 (tam): Horasan emîrleri Ekim 1748'de Nâdir Şah'ın torunu Şâhruh'u Meşhed'de hükümdar yaptı; İbrâhim Han Tebriz'de ayrı şahlık ilân etti (8 Aralık 1748). — "Horasan emîrleri Meşhed’de Nâdir Şah’ın hayatta kalan tek torunu Şâhruh Mirza’yı hükümdarlık makamına geçirdiler (Ekim 1748)" · Nâdir sonrası Afşar hâkimiyetinin Meşhed-Horasan'a çekilmesi teyitli: GERÇEK.]
   - önerilen düzeltme: Horasan çevresi (Tûs/Nîşâbur dışı) noktalarında 1747-85 zend dönemleri sınansın.
-  - kaynak: Kyoto Üniv. deposu 2433/155132 (özet); Iranica 'Afsharids' çekilemedi
+  - kaynak: TDV İslâm Ansiklopedisi, "Avşarlılar" (Faruk Sümer), https://islamansiklopedisi.org.tr/avsarlilar · önceki: Kyoto Üniv. deposu 2433/155132 (özet); Iranica 'Afsharids' çekilemedi
 
 ### E006 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1803-02-18 → 1818-01-01 · 32.788 km²
 
@@ -172,10 +172,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 267.3 km · timurlu 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Taşkent (mogulistan)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Yûnus Han Taşkent'i 1484'te aldı, Mahmud Han 1503'e dek tuttu. Çekirdek gerçek; koridorun 8/9 'timurlu' boyanması şüpheli (arada Kazak/Özbek bozkırı).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Yûnus Han Taşkent'i 1484'te aldı, Mahmud Han 1503'e dek tuttu. Çekirdek gerçek; koridorun 8/9 'timurlu' boyanması şüpheli (arada Kazak/Özbek bozkırı). [KAYNAK-1104 (tam): Taşkent ve çevresi 890/1485'te Yûnus Han'ın idaresine girdi; oğlu Mahmud Han'dan 908/1503'te Şeybânî Han aldı. — "Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485)" · Moğolistan Taşkent'i 1485-1503 GERÇEK. Hicrî kural: 890 ∩ 1485 → ilk gün 1485-01-18 (atlas 1485-01-01, 17 gün erken; KASA ic_not ile 1485-01-18'e çekebilir). Koridor boyası ayrı.]
   - önerilen düzeltme: Taşkent mogulistan f 1485 → 1484 (gün bulunamadı); koridor bozkır noktaları sınansın.
-  - kaynak: yalnız Vikipedi ipucu
+  - kaynak: TDV İslâm Ansiklopedisi, "Taşkent" (Abdullah Muhammedcanov), https://islamansiklopedisi.org.tr/taskent · önceki: yalnız Vikipedi ipucu
 
 ### E012 · Kutsal Roma / Almanya (`almanya`) · 1941-10-03 → 1941-10-06 · 26.625 km²
 
@@ -196,10 +196,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 34.0 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (babur-imparatorlugu)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.
-  - önerilen düzeltme: 1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.
-  - kaynak: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı. [KAYNAK-1104 (celiski): Ekber'le başlayan İslâmî dönem 1721'de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü; sonra yerini giderek Maratalar, 1818'de İngilizler aldı. — "1721’de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü" · Atlas Ecmîr babur 1727-1756: TDV'ye göre 1721'den Racpût. Hüküm GERCEK → YAPAY-c; düzeltme: Ecmîr babur t → 1721-01-01, 1721 → Maratha geçişi racput (Maratha yılı: 1911 EB 1770, bkz. E015).] [hüküm GERCEK/GERCEK → YAPAY/YAPAY-c, kaynak üzerine]
+  - önerilen düzeltme: Ecmîr babur t → 1721-01-01 (TDV Ecmîr: 1721'de Racpût hâkimiyeti); 1721 → Maratha yılı arası racput.
+  - kaynak: TDV İslâm Ansiklopedisi, "Ecmîr" (Rıza Kurtuluş), https://islamansiklopedisi.org.tr/ecmir · önceki: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
 
 ### E014 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1818-06-25 → 1947-08-15 · 26.574 km²
 
@@ -208,10 +208,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 34.0 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (ingiliz-hindistani)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ajmer-Merwara 1818-1947 İngiliz doğrudan idaresi, Rajputana içinde klasik enklav. Gerçek alan ~7.000 km²; petek 26.574 km² (noktasız emilme abartısı).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Ajmer-Merwara 1818-1947 İngiliz doğrudan idaresi, Rajputana içinde klasik enklav. Gerçek alan ~7.000 km²; petek 26.574 km² (noktasız emilme abartısı). [KAYNAK-1104 (kismen): Ajmer 1818'de Marathalar tarafindan 50.000 rupi karsiligi Ingilizlere devredildi; o tarihten beri 'unbroken peace'. — "unbroken peace and a stable government" · Sindhia adi gecmiyor; Merwara kapsami yok; 1818-06-25 gunu yok. 1911 kaynak.]
   - önerilen düzeltme: yok (alan abartısı için Merwara çevresine Racput noktası önerilir)
-  - kaynak: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Ajmere, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ajmere · önceki: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
 
 ### E015 · Maratha Konfederasyonu (`maratha`) · 1756-01-01 → 1818-06-03 · 26.574 km²
 
@@ -220,10 +220,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 122.1 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (maratha)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ecmîr 1756'dan Sindia (Maratha) elinde, 1818'de İngiliz. 1787-91 Racput geri alışı sınanmalı.
-  - önerilen düzeltme: 1756-01-01 yıl-başı; gün bulunamadı.
-  - kaynak: bulunamadı
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Ecmîr 1756'dan Sindia (Maratha) elinde, 1818'de İngiliz. 1787-91 Racput geri alışı sınanmalı. [KAYNAK-1104 (celiski): Ajmer 1770'te Marathalara devredildi (Mogollar tarafindan); 1770-1818 Mewar ve Marwar racalari tarafindan tekrar tekrar ele gecirilip Marathalarca geri alindi. — "the unhappy district" · Atlas f=1756-01-01 (Sindia elinde); kaynak 1770 diyor ve araya Racput isgalleri girdigini soyluyor (1787-91 sinavi ile uyumlu). 1818 bitis uyumlu. 1911 kaynak.] [hüküm GERCEK/GERCEK → GERCEK/GERCEK, kaynak üzerine]
+  - önerilen düzeltme: Ecmîr maratha f 1756 → 1770 sınansın (1911 EB 'Ajmere': Bâbürlüler 1770'te Marathalara bıraktı; Racput-Maratha çekişmesi 1818'e dek); E013 bâbür t ucu aynı.
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Ajmere, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Ajmere
 
 ### E016 · Haydarâbâd Nizamlığı (`haydarabad-nizam`) · 1853-05-21 → 1948-09-17 · 23.277 km²
 
@@ -244,10 +244,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 226.3 km · fransa-cumhuriyet 9/9
 - içindeki yerleşimler (3, s.eksklav 2): Bû Sa'âde (abdulkadir); Mesîle (abdulkadir); Kal‘atü Benî Hammâd (sahipsiz)
 - koridor yerleşimleri: Tâhert (Tiaret) (fransa-cumhuriyet)
-- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `KAYNAK-GEREK`
-  - gerekçe: Tâhert/Tagdemt 1841 Mayıs'ında Bugeaud yıkana dek Emîr'in iç merkeziydi; atlas Tâhert'i fransa yaparak Mesîle–Bû Saâde parçasını ayırıyor.
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `KAYNAKLI`
+  - gerekçe: Tâhert/Tagdemt 1841 Mayıs'ında Bugeaud yıkana dek Emîr'in iç merkeziydi; atlas Tâhert'i fransa yaparak Mesîle–Bû Saâde parçasını ayırıyor. [KAYNAK-1104 (kismen): Abdülkādir Tâfnâ (30 Mayıs 1837) sonrası idare merkezini Muasker'den Tagdempt'e taşıdı; Aralık 1840'ta vali olan Bugeaud'nun kuvvetleri Tagdempt, Muasker ve Tilimsân'ı işgal etti. — "Daha önce Muasker’de olan idare merkezini Tagdempt’e naklettikten sonra" · Tagdemt'in 1841'e dek Emîr'in merkezi olduğu teyitli: BİRLEŞMELİ hükmü destekli. Tagdemt'in düşüş günü TDV'de yok (Mayıs 1841 teyitsiz).]
   - önerilen düzeltme: Tâhert (Tiaret): fransa-cumhuriyet f → 1841-05 sonrası (gün bulunamadı), arası abdulkadir.
-  - kaynak: TDV 'Abdülkādir el-Cezâirî' (tam metin çekilemedi)
+  - kaynak: TDV İslâm Ansiklopedisi, "Abdülkādir el-Cezâirî" (Ercüment Kuran), https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi · önceki: TDV 'Abdülkādir el-Cezâirî' (tam metin çekilemedi)
 
 ### E018 · Âdilşâhî Sultanlığı (Bîcâpûr) (`bicapur`) · 1686-09-12 → 1686-09-22 · 22.014 km²
 
@@ -256,10 +256,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 377.6 km · babur-imparatorlugu 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kalyani (Basavakalyan) (bicapur)
 - koridor yerleşimleri: Kurnûl (Kurnool) (babur-imparatorlugu); Manyakheta (sahipsiz)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit. [KAYNAK-1104 (kismen): Evrengzîb 1657 başlarında Âdilşâhî ülkesine girip Bîder ve Kalyan'ı ele geçirdi, sonra barış imzaladı; Bîcâpûr 1686'da Bâbürlülere teslim oldu. — "önce Bîder, sonra da Kalyan şehirlerini ele geçirdi" · Kalyani'nin 1657'de Bâbürlüye geçtiği teyitli: YAPAY-c destekli. 1657 barışında iade edilip edilmediği TDV'de yok.]
   - önerilen düzeltme: Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).
-  - kaynak: yalnız Vikipedi ipucu
+  - kaynak: TDV İslâm Ansiklopedisi, "Âdilşâhîler" (Erdoğan Merçil), https://islamansiklopedisi.org.tr/adilsahiler · önceki: yalnız Vikipedi ipucu
 
 ### E019 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1893-01-01 → 1893-03-04 · 20.413 km²
 
@@ -304,10 +304,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 789.9 km · delhi-sultanligi 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (1, s.eksklav 1): Delhi (timurlu)
 - koridor yerleşimleri: Hisâr-ı Fîrûze (delhi-sultanligi); Harappa (sahipsiz); Dera İsmail Han (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Delhi 1398-12-17 → 1399-01-01 timurlu: Timur'un Delhi'yi işgali kısa askerî işgaldir; çevre Delhi Sultanlığı (Hisâr-ı Fîrûze ölçüldü: delhi-sultanligi 1354-1526). Gerçek enklav (14 gün). Harappa, Dera İsmail Han koridorda sahipsiz (alakasız nokta).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Delhi 1398-12-17 → 1399-01-01 timurlu: Timur'un Delhi'yi işgali kısa askerî işgaldir; çevre Delhi Sultanlığı (Hisâr-ı Fîrûze ölçüldü: delhi-sultanligi 1354-1526). Gerçek enklav (14 gün). Harappa, Dera İsmail Han koridorda sahipsiz (alakasız nokta). [KAYNAK-1104 (kismen): Timur Receb 800'de (Mart-Nisan 1398) Semerkant'tan çıktı, Delhi yakınında Tuğluk hükümdarını yendi, Delhi'yi yağmaladı, 29 Nisan 1399'da Semerkant'a döndü. — "Delhi’de büyük bir yağma ve katliamda bulundu." · Kısa askerî işgal GERÇEK. Delhi'ye giriş ve çıkış günü TDV'de yok (1398-12-17 → 1399-01-01 teyitsiz).]
   - önerilen düzeltme: Gün/ay teyidi kaynakla; yapısal düzeltme gerekmez.
-  - kaynak: bulunamadı (Iranica 'Timur' 403 verdi)
+  - kaynak: TDV İslâm Ansiklopedisi, "Timur" (İsmail Aka), https://islamansiklopedisi.org.tr/timur · önceki: bulunamadı (Iranica 'Timur' 403 verdi)
 
 ### E023 · Ming Hanedanı (`ming-hanedani`) · 1382-01-06 → 1382-01-15 · 13.572 km²
 
@@ -364,10 +364,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 64.3 km · celayirli 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Bağdat 1393-08-29 → 1394-01-01 timurlu: Timur Bağdat'ı alınca Celâyirli Ahmed kaçtı, şehir garnizonu çevre Celâyirli toprağında kaldı; 4 aylık gerçek enklav. 12 bin km² Sippar, Ktesiphon, Seleukeia, Eşnunna dönemsiz (ölçüldü: YOK) noktalarının Bağdat peteğine emilmesinden şişkin.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Bağdat 1393-08-29 → 1394-01-01 timurlu: Timur Bağdat'ı alınca Celâyirli Ahmed kaçtı, şehir garnizonu çevre Celâyirli toprağında kaldı; 4 aylık gerçek enklav. 12 bin km² Sippar, Ktesiphon, Seleukeia, Eşnunna dönemsiz (ölçüldü: YOK) noktalarının Bağdat peteğine emilmesinden şişkin. [KAYNAK-1104 (kismen): Bağdat Timur tarafından 795'te (1393) işgal edildi; Ahmed Celâyir Timur Semerkant'a dönünce Memlük yardımıyla Bağdat'ı geri aldı. — "Bağdat Timur tarafından 795’te (1393) ve 803’te (1401) olmak üzere iki defa işgal edildi." · 1393 kısa Timurlu işgali teyitli: GERÇEK. Ahmed'in dönüş yılı TDV'de yok (1394-01-01 teyitsiz).]
   - önerilen düzeltme: Gün 1393-08-29 ve 1394-01-01 teyit. Antik noktalar dönemsiz bırakılmış, gizlensin.
-  - kaynak: TDV celayirliler atlas kaydından yalnız 1393 yılı; gün bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Bağdat", https://islamansiklopedisi.org.tr/bagdat; "Celâyirliler" (Muzaffer Ürekli), https://islamansiklopedisi.org.tr/celayirliler · önceki: TDV celayirliler atlas kaydından yalnız 1393 yılı; gün bulunamadı
 
 ### E028 · Timurlu valiliği (`timurlu`) · 1401-01-01 → 1405-01-01 · 12.177 km²
 
@@ -376,10 +376,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 64.3 km · celayirli 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Bağdat 1401-01-01 → 1405-01-01 timurlu: başlangıç 1 Ocak yıl-hassasiyeti; Timur Bağdat'ı Temmuz 1401'de aldı (teyitsiz), yani ilk 6 ay sahte enklav. Alan şişkini E027 ile aynı.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Bağdat 1401-01-01 → 1405-01-01 timurlu: başlangıç 1 Ocak yıl-hassasiyeti; Timur Bağdat'ı Temmuz 1401'de aldı (teyitsiz), yani ilk 6 ay sahte enklav. Alan şişkini E027 ile aynı. [KAYNAK-1104 (kismen): İkinci Timur işgali 803 (1401); Ahmed Celâyir 1405'te Bağdat'a döndü. — "Ahmed Celâyir 1405’te Bağdat’a dönerek Timur’un yıktığı duvarları ... tamir ettirmeye çalıştı" · TDV yalnız hicrî yıl verir: 803 = 1400-08-22 → 1401-08-11; ∩ 1401 → ilk gün 1401-01-01. Atlas başlangıcı CLAUDE.md hicrî kuralıyla uyumlu çıkıyor; 'Temmuz 1401' iddiası TDV'de yok. YAPAY-c hükmü ikinci kaynakla (gün) sınanmadan uygulanmamalı; 1405 bitişi teyitli.]
   - önerilen düzeltme: Bağdat timurlu f → 1401-07 (gün bulunamadı); t 1405-01-01 teyit.
-  - kaynak: bulunamadı (Iranica 'Jalayerids' 403)
+  - kaynak: TDV İslâm Ansiklopedisi, "Bağdat", https://islamansiklopedisi.org.tr/bagdat · önceki: bulunamadı (Iranica 'Jalayerids' 403)
 
 ### E029 · Karakoyunlular (`karakoyunlu`) · 1408-04-13 → 1410-01-01 · 11.834 km²
 
@@ -520,10 +520,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 79.8 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
-  - gerekçe: Taiz yemen 1517-04-15 → 1547-02-01; çevre Osmanlı. Ölçüldü: 1547-02-01 → 1629-01-01 Taiz'in dönem kaydı hiç yok. 1 aylık parça Osmanlı fetih günü teyitsizliğinden.
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAKLI`
+  - gerekçe: Taiz yemen 1517-04-15 → 1547-02-01; çevre Osmanlı. Ölçüldü: 1547-02-01 → 1629-01-01 Taiz'in dönem kaydı hiç yok. 1 aylık parça Osmanlı fetih günü teyitsizliğinden. [KAYNAK-1104 (tam): Taiz Zilhicce 953'te (Şubat 1547) Üveys Paşa tarafından zaptedildi; Rebîülâhir 975'te (Ekim 1567) İmam Mutahhar'ın eline geçti; Osman Paşa Receb 976'da (Ocak 1569) geri aldı; Osmanlılar 1038'de (1629) Taiz'i terk etti. — "Taiz Zilhicce 953’te (Şubat 1547) zaptedildi." · YAPAY-d teyitli: Taiz'in 1547-02-01 → 1629 dönemi yok. Düzeltme: OSMANLI 1547-02-01 → 1567-10-05 (Rebîülâhir 975 ∩ Ekim 1567 ilk günü); zeydî imamlık 1567-10-05 → 1569-01-01 (Receb 976 ∩ Ocak 1569); OSMANLI 1569-01-01 → 1629-01-01. İmamlık kimliği devletler.js'ten seçilmeli.]
   - önerilen düzeltme: Taiz 1547 sonrası Osmanlı dönemi eklensin; fetih günü kaynakla (gün bulunamadı).
-  - kaynak: bulunamadı (TDV 'yemen' önerilir)
+  - kaynak: TDV İslâm Ansiklopedisi, "Taiz" (İdris Bostan), https://islamansiklopedisi.org.tr/taiz · önceki: bulunamadı (TDV 'yemen' önerilir)
 
 ### E041 · Yemen İmamlığı (`yemen`) · 1629-01-01 → 1635-01-01 · 6.593 km²
 
@@ -532,10 +532,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 79.8 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Taiz yemen f=1629-01-01 (yıl hassasiyeti); Osmanlı Sana'yı 1629'da kaybetti, Yemen'den 1635'te çıktı; Taiz'in Zeydî elinde, çevrenin Osmanlı kalması muhtemel gerçek ama teyitsiz. 1547-1629 Taiz sahipsiz (ölçüldü).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Taiz yemen f=1629-01-01 (yıl hassasiyeti); Osmanlı Sana'yı 1629'da kaybetti, Yemen'den 1635'te çıktı; Taiz'in Zeydî elinde, çevrenin Osmanlı kalması muhtemel gerçek ama teyitsiz. 1547-1629 Taiz sahipsiz (ölçüldü). [KAYNAK-1104 (tam): Osmanlılar 1038'de (1629) Yemen'deki hâkimiyetlerini San'a'daki Kāsımî yönetimine bıraktıkları için Taiz'i de terk ettiler. — "Osmanlılar, 1038’de (1629) ... Taiz’i de terkettiler." · Taiz 1629'dan Kāsımî: GERÇEK. 1038 = 1628-08-31 → 1629-08-20; ∩ 1629 → 1629-01-01 atlasla uyumlu.]
   - önerilen düzeltme: Taiz 1629 başlangıcı ve Osmanlı çıkışı kaynakla; 1547-1629 dolgusu.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Taiz" (İdris Bostan), https://islamansiklopedisi.org.tr/taiz
 
 ### E042 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 6.553 km²
 
@@ -676,10 +676,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 72.3 km · napoli 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Benevento 1051-07-05 → 1861-03-17 papalik (benevento-papalik 1000-1051): Napoli Krallığı içinde Papalık eksklavı gerçektir. Bovianum 'bit 1281' dönemsiz (ölçüldü). Not: Benevento 1806-1815 Talleyrand prensliği idi ve 1860 sonrası İtalya; atlas kaydı 1861-03-17'ye dek papalik.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Benevento 1051-07-05 → 1861-03-17 papalik (benevento-papalik 1000-1051): Napoli Krallığı içinde Papalık eksklavı gerçektir. Bovianum 'bit 1281' dönemsiz (ölçüldü). Not: Benevento 1806-1815 Talleyrand prensliği idi ve 1860 sonrası İtalya; atlas kaydı 1861-03-17'ye dek papalik. [KAYNAK-1104 (kismen): Benevento 1051'de Papalige gecti, 1077'de tam denetim; 1806 Napoleon Talleyrand icin prenslik yapti; Viyana Kongresi Pius VII'ye iade etti; 1860'ta Garibaldi Italya Krallıgi'na bagli il merkezi ilan etti. — "la restituì a Pio VII" · Gun yok. Treccani bitis olarak 1860 veriyor; atlas t=1861-03-17 (Krallik ilani) ile 1860 arasinda fark olabilir.]
   - önerilen düzeltme: 1806-1815 Benevento prensliği ve 1860 ilhakı kaynakla; Bovianum'a dönem ya da gizleme.
-  - kaynak: bulunamadı
+  - kaynak: Treccani, Benevento, https://www.treccani.it/enciclopedia/benevento/
 
 ### E054 · Papalık (`papalik`) · 1814-04-16 → 1861-03-17 · 5.706 km²
 
@@ -688,10 +688,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 71.3 km · napoli 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: E053'ün 1814-04-16 → 1861-03-17 devamı: Benevento papalik, çevre napoli 100%. Gerçek eksklav (1860 Ekim plebisiti öncesi).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: E053'ün 1814-04-16 → 1861-03-17 devamı: Benevento papalik, çevre napoli 100%. Gerçek eksklav (1860 Ekim plebisiti öncesi). [KAYNAK-1104 (kismen): 1815 Viyana Kongresi Benevento'yu Kilise'ye iade etti (gun yok); 1860'ta Garibaldi Italya Krallıgi il merkezi ilan etti. — "la restituì a Pio VII" · 16 Nisan 1814 ve 17 Mart 1861 sayfada yok; Treccani 1860 diyor.]
   - önerilen düzeltme: Benevento papalik t kaynakla (1860); 1806-1815 aralığı ayrıca.
-  - kaynak: bulunamadı
+  - kaynak: Treccani, Benevento, https://www.treccani.it/enciclopedia/benevento/
 
 ### E055 · Osmanlı (`OSMANLI`) · 1448-01-01 → 1460-01-01 · 5.661 km²
 
@@ -724,10 +724,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 62.0 km · fransa 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Meaux (ingiltere)
 - koridor yerleşimleri: Paris (fransa); Senlis (fransa)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü). [KAYNAK-1104 (kismen): Paris 13 Nisan 1436'da kurtarıldı. — "liberation of Paris on 13 April 1436" · Parça başlangıcı 1436-04-13 teyitli; Meaux'nun Fransızlarca geri alınışı (1439) okunmadı.]
   - önerilen düzeltme: Meaux t gün (1439) ve Paris f 1436 gün kaynakla; Melun/Soissons dönemleri.
-  - kaynak: bulunamadı
+  - kaynak: Oxford Dictionary of the Renaissance, "Dunois" — EMRELİC okuması (Oxford Reference)
 
 ### E058 · Lehistan-Litvanya (`lehistan`) · 1649-08-18 → 1654-01-18 · 5.438 km²
 
@@ -772,10 +772,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 43.5 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 1): Konstantin (hafsi)
 - koridor yerleşimleri: Sikikde (OSMANLI)
-- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
-  - gerekçe: Konstantin hafsi 1526-01-01 → 1527-01-01 tek yıllık ara; d OSMANLI 1519-09-01 → 1526-01-01 ve 1527-01-01 → 1671; çevre OSMANLI. TDV hafsiler 1519-1529 Constantine'i kapsamıyor; yıl hassasiyetli ara kaynaksız.
-  - önerilen düzeltme: Konstantin 1519-1671 Osmanlı/Hafsî seyri kaynakla; ara yıl doğrulanmazsa kaldırılsın.
-  - kaynak: TDV hafsiler okundu: dönem yok; bulunamadı
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Konstantin hafsi 1526-01-01 → 1527-01-01 tek yıllık ara; d OSMANLI 1519-09-01 → 1526-01-01 ve 1527-01-01 → 1671; çevre OSMANLI. TDV hafsiler 1519-1529 Constantine'i kapsamıyor; yıl hassasiyetli ara kaynaksız. [KAYNAK-1104 (celiski): Kostantîne 1519 veya 1520'de Barbaros'un adamı Hasan Ağa tarafından zaptedildi; Hafsîler 1526'da geri aldı; bir yıl sonra tekrar Osmanlı'ya geçti; tam hâkimiyet ancak 940'ta (1533-34) garnizonla sağlandı (Mercier'ye atfen). — "Hafsîler’in 1526’da geri aldığı şehir bir yıl sonra tekrar Osmanlılar’ın eline geçtiyse de" · Hüküm YAPAY-d → GERCEK: 1526-1527 Hafsî arası TDV'de var, kaynaksız değil. Yıl hassasiyetli (1526-01-01 → 1527-01-01) kalabilir; silinmemeli. TDV de Mercier'den aktarıyor (tek dayanak).] [hüküm YAPAY/YAPAY-d → GERCEK/GERCEK, kaynak üzerine]
+  - önerilen düzeltme: Yok — 1526-1527 Hafsî arası TDV Kostantîne'de var; silinmesin.
+  - kaynak: TDV İslâm Ansiklopedisi, "Kostantîne" (Muhammed Rezûk), https://islamansiklopedisi.org.tr/kostantine · önceki: TDV hafsiler okundu: dönem yok; bulunamadı
 
 ### E062 · Anadolu Selçukluları (`selcuklu`) · 1281-01-01 → 1308-01-01 · 4.605 km²
 
@@ -856,10 +856,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 27.0 km · macaristan 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Macaristan (sahipsiz); Peşte (macaristan-habsburg); Aquincum-Óbuda-Pest (macaristan-habsburg)
 - koridor yerleşimleri: Vaç (Vác) (macaristan)
-- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
-  - gerekçe: Peşte/Aquincum macaristan-habsburg 1527-09-23 → 1529-09-08 (Buda 8 Eylül 1529'da Süleyman tarafından Zapolya'ya geri verildi); Vaç macaristan. Ferdinand'ın tuttuğu Estergon-Tata-Székesfehérvár hattı noktalarına Habsburg dönemi yazılı mı sınanmalı (Estergon 1530-01-01'e dek habsburg, ölçüldü). Macaristan sahipsiz nokta.
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAKLI`
+  - gerekçe: Peşte/Aquincum macaristan-habsburg 1527-09-23 → 1529-09-08 (Buda 8 Eylül 1529'da Süleyman tarafından Zapolya'ya geri verildi); Vaç macaristan. Ferdinand'ın tuttuğu Estergon-Tata-Székesfehérvár hattı noktalarına Habsburg dönemi yazılı mı sınanmalı (Estergon 1530-01-01'e dek habsburg, ölçüldü). Macaristan sahipsiz nokta. [KAYNAK-1104 (kismen): Ferdinand 17 Aralık 1526'da seçildi, 1527 Ağustos'unda Buda'yı ele geçirdi; Süleyman 1529'da Buda'yı alıp Szapolyai'ye bıraktı. — "1527 Ağustosunda Buda’yı ele geçiren Ferdinand’a karşı János Szapolyai Sultan Süleyman’dan yardım istedi." · Peşte/Buda 1527-1529 Habsburg teyitli; atlas başlangıcı 1527-09-23 TDV'deki Ağustos 1527 ile çelişiyor (Buda kaydı varsa 1527-08-01'e çekilmeli, gün teyitsiz). YAPAY-b (komşu Vaç/Hatvan dönemleri) TDV'de yok — o kısım teyitsiz.]
   - önerilen düzeltme: Komşu noktaların (Vaç, Hatvan…) 1527-1529 Habsburg/Zapolya durumu kaynakla.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Budin" (Géza Dávid), https://islamansiklopedisi.org.tr/budin
 
 ### E069 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 3.071 km²
 
@@ -904,10 +904,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 35.4 km · eretna 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Nevşehir (Muşkara) (karaman)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
-  - gerekçe: Nevşehir (Muşkara) karaman f=1365-01-01; Ürgüp, Aksaray eretna; 1 yıllık parça komşunun 1366'da karamana geçmesinden. Eretna-Karaman geçişi gün bulunamadı.
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAKLI`
+  - gerekçe: Nevşehir (Muşkara) karaman f=1365-01-01; Ürgüp, Aksaray eretna; 1 yıllık parça komşunun 1366'da karamana geçmesinden. Eretna-Karaman geçişi gün bulunamadı. [KAYNAK-1104 (kismen): Nevşehir bölgesi 766 (1365) yılına doğru Karamanoğulları'nca ele geçirildi; Alâeddin Bey Eretna karışıklığında Konya (1366-1367), Aksaray, Niğde Karahisarı vb.'ni kattı. — "766 (1365) yılına doğru Karamanoğulları tarafından ele geçirildi." · Nevşehir 1365 teyitli ("yılına doğru" — yaklaşık). Aksaray'ın 1366-67 geçişi ile 1 yıllık kopukluk kaynaklarda da yaklaşık; YAPAY-d (hizalama) destekli: Nevşehir ve Aksaray aynı yıla (766 ∩ 1365 → 1365-01-01 ya da 1366) beyanla hizalanmalı.]
   - önerilen düzeltme: Nevşehir f ve Ürgüp/Aksaray geçişi hizalansın (TDV karamanoğulları).
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Nevşehir" (İlhan Şahin), https://islamansiklopedisi.org.tr/nevsehir; "Karamanoğulları" (Faruk Sümer), https://islamansiklopedisi.org.tr/karamanogullari
 
 ### E073 · Transkafkasya (Federasyon) (`transkafkasya`) · 1918-02-19 → 1918-02-26 · 2.352 km²
 
@@ -988,10 +988,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 89.0 km · bosna-hersek 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Glina (sirp-krajina-cumhuriyeti)
 - koridor yerleşimleri: Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
-- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Glina RSK 1991-12-19 → 1995-08-07; Kostajnica hirvatistan 1991-06-25'ten kesintisiz; Sisak/Karlovac hirvatistan. Banija'nın Hrvatska Kostajnica'sı RSK kontrolündeydi (tarihsel, teyitsiz); 'Hırvatistan' diye sahipsiz nokta var.
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Glina RSK 1991-12-19 → 1995-08-07; Kostajnica hirvatistan 1991-06-25'ten kesintisiz; Sisak/Karlovac hirvatistan. Banija'nın Hrvatska Kostajnica'sı RSK kontrolündeydi (tarihsel, teyitsiz); 'Hırvatistan' diye sahipsiz nokta var. [KAYNAK-1104 (kismen): Oluja 4-7 Agustos 1995; 7 Agustos'ta kuzey Dalmacya, dogu Lika, Kordun ve Banovina Hirvat denetimine girdi; Knin 5 Agustos. Banovina cephesinde Hrvatska Kostajnica, Sisak, Petrinja, Glina anilir. — "Već 5. kolovoza oslobođen je Knin." · RSK ilan tarihi (19 Aralik 1991) ve Glina/Kostajnica bazinda gunler bu kaynaklarda yok.]
   - önerilen düzeltme: Banija/Kordun/Lika noktalarına RSK dönemi (Petrinja, Kostajnica, Vojnić…; gün bulunamadı).
-  - kaynak: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
+  - kaynak: Hrvatska enciklopedija, Domovinski rat, https://enciklopedija.hr/clanak/domovinski-rat ; Benkovac, https://enciklopedija.hr/clanak/benkovac · önceki: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
 
 ### E080 · İspanya (`ispanya`) · 1531-04-16 → 1535-04-17 · 1.534 km²
 
@@ -1120,10 +1120,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 95.3 km · bosna-hersek 6/9, hirvatistan 3/9
 - içindeki yerleşimler (1, s.eksklav 0): Benkovac (sirp-krajina-cumhuriyeti)
 - koridor yerleşimleri: Glina (sirp-krajina-cumhuriyeti); Udbina (hirvatistan); Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
-- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
-  - gerekçe: Benkovac sirp-krajina → 1995-08-07; Fırtına Harekâtı'nda Benkovac 5 Ağustos 1995'te alındı (teyitsiz). Çevre 08-05'te Hırvat.
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAKLI`
+  - gerekçe: Benkovac sirp-krajina → 1995-08-07; Fırtına Harekâtı'nda Benkovac 5 Ağustos 1995'te alındı (teyitsiz). Çevre 08-05'te Hırvat. [KAYNAK-1104 (kismen): Benkovac 1991'de isgal edildi, 1995 Oluja'da kurtarildi (yalniz yil); Oluja 4-7 Agustos 1995. — "Oslobođen u vojno-redarstvenoj akciji Oluja 1995." · Benkovac icin 5 Agustos gunu kaynakta yok; t=1995-08-07 operasyon sonuyla uyumlu.]
   - önerilen düzeltme: Benkovac t 1995-08-07 → kaynaklı düşüş günü; hirvatistan dönemi eklensin (kayıtta 1995 sonrası dönem YOK — sahipsizlik).
-  - kaynak: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
+  - kaynak: Hrvatska enciklopedija, Benkovac, https://enciklopedija.hr/clanak/benkovac ; Domovinski rat, https://enciklopedija.hr/clanak/domovinski-rat · önceki: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
 
 ### E091 · Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş) (`yunanistan-gecici-demokratik-hukumet`) · 1947-12-24 → 1949-08-28 · 900 km²
 
@@ -1276,10 +1276,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 14.0 km · OSMANLI 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Bozüyük (OSMANLI); Ermeni Derbendi (OSMANLI); Pazaryeri (OSMANLI); Söğüt (OSMANLI); Harmankaya (bizans); Bilecik (OSMANLI); Lefke (Osmaneli) (bizans); Leblebicihisar (bizans); Absu (Hypsu) (bizans)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Harmankaya 1299-1313 bizans; çevre Osmanlı. Harmankaya tekfuru Köse Mihal erken dönemde Osman'a katıldı; ihtida yılı (1300'ler başı) ile bizans döneminin sonu karşılaştırılmalı.
-  - önerilen düzeltme: Harmankaya bizans t → Köse Mihal'in Osman'a katılışı (TDV 'Köse Mihal'), gün bulunamadı.
-  - kaynak: TDV 'Köse Mihal' önerilir (okunmadı)
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Harmankaya 1299-1313 bizans; çevre Osmanlı. Harmankaya tekfuru Köse Mihal erken dönemde Osman'a katıldı; ihtida yılı (1300'ler başı) ile bizans döneminin sonu karşılaştırılmalı. [KAYNAK-1104 (celiski): Osmanlı geleneğine göre Köse Mihal Bizans'a bağlı Harmankaya tekfuru iken Osman'ın silah arkadaşı oldu, muhtemelen 713'te (1313) Osmanlılar'a tâbi olup İslâm'ı kabul etti; bir kısım araştırmacı (Imber) rivayeti uydurma sayar. — "muhtemelen 713’te (1313) Osmanlılar’a tâbi olarak İslâmiyet’i kabul etmiştir" · Hüküm YAPAY-c → GERCEK (beyanlı): Harmankaya'nın 1313'e dek Bizans tekfurluğu olarak Osmanlı arasında kalması TDV'deki geleneksel anlatıyla uyumlu. Hicrî kural: 713 ∩ 1313 → bitiş 1313-04-28 (atlas 1313-01-01). ic_not: rivayetin tartışmalı olduğu (Imber).] [hüküm YAPAY/YAPAY-c → GERCEK/GERCEK, kaynak üzerine]
+  - önerilen düzeltme: Harmankaya bizans t → 1313-04-28 (713 ∩ 1313, TDV Mihaloğulları); ic_not: rivayet tartışmalı (Imber).
+  - kaynak: TDV İslâm Ansiklopedisi, "Mihaloğulları" (Fahameddin Başar), https://islamansiklopedisi.org.tr/mihalogullari · önceki: TDV 'Köse Mihal' önerilir (okunmadı)
 
 ### E104 · İspanya (`ispanya`) · 1564-01-01 → 1673-01-01 · 174 km²
 
@@ -1506,10 +1506,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2025.3 km · ingiliz-sudani 5/9, DENIZ/BOS 4/9
 - içindeki yerleşimler (45, s.eksklav 32): Ramletü Murzuk (sahipsiz); Gât (italya); İdehân Ubârî (sahipsiz); İdehân Murzuk (sahipsiz); el-Katrûn (italya); Ramletü Zellâf (sahipsiz); Murzuk (Fizan) (italya); Tırgan (Traghan) (italya) … +37
 - koridor yerleşimleri: Esh-Shaheinab (sahipsiz); Kortî (ingiliz-sudani); Dongola (ingiliz-sudani); Kerma (ingiliz-sudani)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (koridor 2025 km). Parça Libya (Trablusgarp/Fizan) kesiti; öteki İtalyan gövde Doğu Afrika (AOI). Libya ile AOI arasında Mısır, İngiliz Sudanı, Fransız toprakları var: ayrı denizaşırı sömürge gövdeleri. Ölçüldü: içteki noktaların çoğu (Ramletü Murzuk, İdehân Ubârî/Murzuk, Ramletü Zellâf) sahipsiz çöl yerleri, parçanın varlığını bunlar değil Libya yerleşimleri taşıyor.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (koridor 2025 km). Parça Libya (Trablusgarp/Fizan) kesiti; öteki İtalyan gövde Doğu Afrika (AOI). Libya ile AOI arasında Mısır, İngiliz Sudanı, Fransız toprakları var: ayrı denizaşırı sömürge gövdeleri. Ölçüldü: içteki noktaların çoğu (Ramletü Murzuk, İdehân Ubârî/Murzuk, Ramletü Zellâf) sahipsiz çöl yerleri, parçanın varlığını bunlar değil Libya yerleşimleri taşıyor. [KAYNAK-1104 (kismen): AOI 1 Haziran 1936 kraliyet kararnamesiyle kuruldu (baslangic tam teyit). Libya'da Italyan donemi 1911-12'den; Fizan isgali 1913 (Treccani). — "con regio decreto 1° giugno 1936" · Bitis (Gondar, Kasim 1941) Treccani'de yok; AOI'nin sonu 1947 baris antlasmasi diye geciyor. Treccani Fizan isgalini 1913 veriyor (hukum metnindeki Fizan kesiti ile uyumlu ama gun yok).]
   - önerilen düzeltme: Yapısal düzeltme yok. Sahipsiz çöl noktaları ayrı iş (Değişmez 1).
-  - kaynak: bulunamadı (web harcanmadı, UZAK)
+  - kaynak: Treccani, Africa Orientale Italiana (Dizionario di Storia), https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/ ; Treccani, Libia, https://www.treccani.it/enciclopedia/libia/ · önceki: bulunamadı (web harcanmadı, UZAK)
 
 ### K002 · Britanya (`ingiltere`) · 1897-01-01 → 1960-10-01 · 867.291 km²
 
@@ -1518,10 +1518,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2406.0 km · fransa-cumhuriyet 4/9, belcika 4/9, portekiz 1/9
 - içindeki yerleşimler (29, s.eksklav 0): Aba (Nijerya) (sahipsiz); Aroçukvu (ingiltere); Owerri (sahipsiz); Umuahia (sahipsiz); Igbo-Ukwu (ingiliz-nijerya); Onitsha (ingiltere); Nri (Agukwu Nri) (ingiliz-nijerya); Eski Kalabar (ingiltere) … +21
 - koridor yerleşimleri: Sandoa (belcika-kongo)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (2406 km). Nijerya, öteki İngiliz gövdelerden (Mısır-Sudan, Doğu/Güney Afrika) Fransız ve Belçika toprakları ile ayrı: gerçek denizaşırı gövde. KIMLIK etiketi: parça 'ingiltere', Igbo-Ukwu/Nri 'ingiliz-nijerya' — ölçüldü: devletler.js'te ingiliz-nijerya kaydı `harita: ingiltere` taşıyor, yani boya aynı, iki kimlik YAPAY-k değil (takma ad). Aba/Owerri/Umuahia sahipsiz (üçü).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (2406 km). Nijerya, öteki İngiliz gövdelerden (Mısır-Sudan, Doğu/Güney Afrika) Fransız ve Belçika toprakları ile ayrı: gerçek denizaşırı gövde. KIMLIK etiketi: parça 'ingiltere', Igbo-Ukwu/Nri 'ingiliz-nijerya' — ölçüldü: devletler.js'te ingiliz-nijerya kaydı `harita: ingiltere` taşıyor, yani boya aynı, iki kimlik YAPAY-k değil (takma ad). Aba/Owerri/Umuahia sahipsiz (üçü). [KAYNAK-1104 (kismen): Nijerya 1 Ekim 1960'ta bagimsizlik/taninma; oncesinde Britanya egemenligi altinda. Baslangic (1897) teyit edilemedi. — "previously under British sovereignty" · Britannica 403.]
   - önerilen düzeltme: Yok. Sahipsiz üç Nijerya noktası ayrı iş.
-  - kaynak: veri ölçümü (devletler.js harita: alanı)
+  - kaynak: Office of the Historian (ABD Disisleri), Countries: Nigeria, https://history.state.gov/countries/nigeria · önceki: veri ölçümü (devletler.js harita: alanı)
 
 ### K003 · Portekiz (`portekiz`) · 1902-01-01 → 1974-09-20 · 728.282 km²
 
@@ -1542,10 +1542,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2682.5 km · ingiltere 3/9, nijer 3/9, kamerun 1/9, DENIZ/BOS 1/9, KENDI 1/9
 - içindeki yerleşimler (16, s.eksklav 0): Puent-Nuar (fransa-cumhuriyet); Loango (Buali) (fransa-cumhuriyet); Cibanga (fransa-cumhuriyet); Muila (Mouila) (fransa-cumhuriyet); Ogooué havzası (fransa-cumhuriyet); Lambarene (fransa-cumhuriyet); Librevil (Libreville) (fransa-cumhuriyet); Sibiti (fransa-cumhuriyet) … +8
 - koridor yerleşimleri: Bauci (Bauchi) (ingiltere); Hoggar (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: 1960 Ağustos'unda AEF ülkeleri sırayla bağımsız oldu (Çad 11, OAC 13, Kongo 15, Gabon 17); Gabon 6 gün Fransız kalıntısı olarak kaldı. Sömürge çözülmesinin gerçek anı.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: 1960 Ağustos'unda AEF ülkeleri sırayla bağımsız oldu (Çad 11, OAC 13, Kongo 15, Gabon 17); Gabon 6 gün Fransız kalıntısı olarak kaldı. Sömürge çözülmesinin gerçek anı. [KAYNAK-1104 (tam): Cad 11 Agustos 1960'ta, Gabon 17 Agustos 1960'ta bagimsizligini ilan etti (Fransiz Ekvator Afrikasi'ndan). OAC (13 Agustos) ve Kongo (15 Agustos) okunmadi. — "Gabon's independence from French Equatorial Africa was proclaimed" · Gabon'un 6 gun 'Fransiz kalintisi' olmasi bir yorum; kaynak yalniz bagimsizlik gunlerini verir.]
   - önerilen düzeltme: yok
-  - kaynak: bulunamadı
+  - kaynak: Office of the Historian (ABD Disisleri), Countries: Chad, https://history.state.gov/countries/chad ; Gabon, https://history.state.gov/countries/gabon
 
 ### K005 · Britanya (`ingiltere`) · 1914-11-22 → 1963-12-12 · 585.911 km²
 
@@ -1555,7 +1555,7 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - içindeki yerleşimler (19, s.eksklav 0): Maçakos (ingiltere); Kitui (ingiltere); Garissa (ingiltere); İsiolo (ingiltere); Vacir (Wajir) (ingiltere); Marsabit (ingiltere); Mbarara (Nkore) (ingiltere); Hoima (Bunyoro) (ingiltere) … +11
 - koridor yerleşimleri: Babati (tanganika)
 - **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: En büyük kesit 1962-08-31: Kenya+Uganda (İngiliz) ile Kuzey Rodezya/Nyasaland arasında 1961-12-09'da bağımsız olan Tanganika (devletler.js f=1961-12-09) var; koridor 804 km tanganika 9/9, iç noktalar hep ingiltere. 1914-1961 arasındaki DAR-AYRIM kesitler Tanganika mandası ile ilgili (ayrı mesele).
+  - gerekçe: En büyük kesit 1962-08-31: Kenya+Uganda (İngiliz) ile Kuzey Rodezya/Nyasaland arasında 1961-12-09'da bağımsız olan Tanganika (devletler.js f=1961-12-09) var; koridor 804 km tanganika 9/9, iç noktalar hep ingiltere. 1914-1961 arasındaki DAR-AYRIM kesitler Tanganika mandası ile ilgili (ayrı mesele). [KAYNAK-1104: aday kaynak reddedildi — South African History Online akademik başvuru eseri değil] [KAYNAK-1104: aday kaynak reddedildi — South African History Online akademik başvuru eseri değil]
   - önerilen düzeltme: Yok.
   - kaynak: veri ölçümü (devletler.js tanganika f=1961-12-09)
 
@@ -1566,10 +1566,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 3414.2 km · kongo-serbest-devleti 4/9, ingiltere 2/9, DENIZ/BOS 1/9, portekiz 1/9, alman-dogu-afrikasi 1/9
 - içindeki yerleşimler (20, s.eksklav 0): Ambovombe (Antandroy) (fransa-cumhuriyet); İhosy (Bara) (fransa-cumhuriyet); Vohipeno (Antemoro) (fransa-cumhuriyet); Fianarantsoa (fransa-cumhuriyet); Mananjary (fransa-cumhuriyet); Ambositra (fransa-cumhuriyet); Antsirabe (fransa-cumhuriyet); Antananarivo (fransa-cumhuriyet) … +12
 - koridor yerleşimleri: Tunduru (ingiltere); Njombe (ingiltere); Basankusu (kongo-serbest-devleti)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (3414 km). Parça Madagaskar (ada); sınıf KARA-EKSKLAV çünkü adada ayrı Antandroy petek var. Fransız gövdesinden denizle ayrı: denizaşırı. Eksklav olarak doğru, motor kaynaklı kusur değil.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (3414 km). Parça Madagaskar (ada); sınıf KARA-EKSKLAV çünkü adada ayrı Antandroy petek var. Fransız gövdesinden denizle ayrı: denizaşırı. Eksklav olarak doğru, motor kaynaklı kusur değil. [KAYNAK-1104 (kismen): Fransa 19. yy basinda anakara postlarini birakip yalniz Sainte-Marie adasini tuttu; 1895'te Antananarivo isgal edildi (30 Eylul 1895), 1896 ayaklanmasindan sonra Gallieni monarsiyi kaldirip adayi Fransiz kolonisi ilan etti. — "retained nothing but" · 1817-1818 gunu ve 26 Haziran 1960 bagimsizlik bu kaynakta yok (1911). Tek dayanak 1911 EB oldugu icin en cok kismen.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Madagascar, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Madagascar · önceki: bulunamadı (UZAK)
 
 ### K007 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1818-01-01 → 1893-01-01 · 459.908 km²
 
@@ -1578,10 +1578,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 3001.9 km · DENIZ/BOS 3/9, ispanya 3/9, fas 2/9, moritanya-emirlikleri 1/9
 - içindeki yerleşimler (19, s.eksklav 0): Dingiray (Dinguiraye) (fransa-cumhuriyet); Kangaba (fransa-cumhuriyet); Kirina (Mali) (sahipsiz); Bamako (fransa-cumhuriyet); Kita (fransa-cumhuriyet); Kahone (Salum) (fransa-cumhuriyet); Diahav (Sine) (fransa-cumhuriyet); Bulebane (Bundu) (fransa-cumhuriyet) … +11
 - koridor yerleşimleri: Tâze (Taza) (fas); Nekor (Temsaman yöresi) (sahipsiz); el-Hüseyme (Alhucemas) (ispanya); Motril (ispanya); Cuenca (ispanya); Pamplona (ispanya)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (3001 km). Parça Senegal-Sudan (Bamako, Kita, Kahone); ana gövde Cezayir/Fransa. Aradan Fas, Moritanya emirlikleri geçiyor: gerçek ayrı gövde. Kirina sahipsiz (tek).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (3001 km). Parça Senegal-Sudan (Bamako, Kita, Kahone); ana gövde Cezayir/Fransa. Aradan Fas, Moritanya emirlikleri geçiyor: gerçek ayrı gövde. Kirina sahipsiz (tek). [KAYNAK-1104 (kismen): Bamako 1883'te Fransiz sömürge birlikleri tarafindan isgal edildi (Galliéni 1880'de tanimisti); Samori ve Segu krali aleyhine arka us oldu. — "occupée par les troupes coloniales françaises" · Yalniz Bamako/yil; 1818 baslangici, Kita, Kahone yok.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Meillassoux, 'The Social Structure of Modern Bamako', Africa 35/2 (1965), Cambridge ozet, https://www.cambridge.org/core/journals/africa/article/abs/the-social-structure-of-modern-bamako1/57CFCA0C94A8057967FEADF422D76BCA · önceki: bulunamadı (UZAK)
 
 ### K008 · Amerika Birleşik Devletleri (`abd`) · 1817-01-01 → 1856-01-01 · 442.493 km²
 
@@ -1590,10 +1590,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 90.4 km · pavni 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (11, s.eksklav 0): Cheyenne (Wyoming) (sahipsiz); Fort Laramie (abd); Büyük Ovalar (orta kesim) (sahipsiz); Fort Pierre (Arikara/Lakota) (abd); Fort Fetterman (Powder Irmağı) (sahipsiz); Crow Agency (Apsáalooke) (abd); Miles City (Tongue Irmağı) (sahipsiz); Fort Benton (abd) … +3
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Büyük Ovalar (Dakota) kesiti 1851: ABD hukuken Louisiana Satın Alması içinde, fiilen Pavni (t=1857-09-24), Mandan (t=1851-09-17), Lakota (t=1890-12-29) denetiminde. Atlas yerli devletleri fiilî egemen modelliyor; koridorda yerleşim yok (ölçüldü). Bu bir model tercihi, bozukluk değil; kaynakla kesinleşmedi. İçte Cheyenne (1867'de kurulan şehir), Fort Fetterman gibi noktalar sahipsiz = o tarihte yok.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Büyük Ovalar (Dakota) kesiti 1851: ABD hukuken Louisiana Satın Alması içinde, fiilen Pavni (t=1857-09-24), Mandan (t=1851-09-17), Lakota (t=1890-12-29) denetiminde. Atlas yerli devletleri fiilî egemen modelliyor; koridorda yerleşim yok (ölçüldü). Bu bir model tercihi, bozukluk değil; kaynakla kesinleşmedi. İçte Cheyenne (1867'de kurulan şehir), Fort Fetterman gibi noktalar sahipsiz = o tarihte yok. [KAYNAK-1104 (kismen): Fort Laramie Antlasmasi 17 Eylul 1851'de imzalandi; Lakota ve Mandan-Hidatsa-Arikara topraklari Missouri boyunca ayri ayri tanimlandi. — "territory" · Pawnee (t=1857) ve hukuki ABD egemenligi vs fiili yerli denetim bu sayfada yok. Okul mufredat sayfasi; akademik degil.]
   - önerilen düzeltme: Yok. İsteğe: hukuki-fiilî ayrımı dipnotu.
-  - kaynak: bulunamadı
+  - kaynak: North Dakota Studies (State Historical Society of ND), Treaty of Fort Laramie 1851, https://www.ndstudies.gov/gr8/content/unit-iii-waves-development-1861-1920/lesson-1-changing-landscapes/topic-4-reservation-boundaries/section-2-treaty-fort-laramie-1851
 
 ### K009 · Çin Cumhuriyeti (`cin-cumhuriyeti`) · 1932-03-09 → 1945-08-17 · 420.760 km²
 
@@ -1626,10 +1626,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 155.0 km · creek-konfederasyonu 9/9
 - içindeki yerleşimler (7, s.eksklav 0): Moundville (abd); Etowah (abd); French Lick (Nashville) (abd); Kaskaskia (abd); Louisville (abd); Cahokia (sahipsiz); Vincennes (Poste Vincennes) (abd)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: 1783 civarı Cumberland (Nashville), Kentucky, Illinois yerleşimleri Atlantik eyaletlerinden Cherokee/Creek toprağı ile ayrı. Ölçüldü: koridorda yerleşim yok, creek-konfederasyonu 9/9. Tarihsel olarak doğru yapı; hukukî (1783 Paris) ile fiilî ayrımı belirsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: 1783 civarı Cumberland (Nashville), Kentucky, Illinois yerleşimleri Atlantik eyaletlerinden Cherokee/Creek toprağı ile ayrı. Ölçüldü: koridorda yerleşim yok, creek-konfederasyonu 9/9. Tarihsel olarak doğru yapı; hukukî (1783 Paris) ile fiilî ayrımı belirsiz. [KAYNAK-1104 (kismen): Paris Antlasmasi 3 Eylul 1783'te imzalandi; ABD'nin bati siniri Mississippi. Hukuki egemenlik Mississippi'ye kadar ABD'de; fiili Cherokee/Creek denetimi kaynakta yok. — "from thence on a due west course to the river Mississippi" · t=1788-12-28 ve f=1778-05-27 teyit edilmedi. Sayfa basliginda 30 Eylul 1783 yazili, metin 3 Eylul diyor.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: Avalon Project (Yale Law), Definitive Treaty of Peace 1783, https://avalon.law.yale.edu/18th_century/paris.asp
 
 ### K012 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1897-01-01 → 1903-01-01 · 369.392 km²
 
@@ -1650,10 +1650,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 405.8 km · maratha 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (24, s.eksklav 1): Kolam (Quilon) (ingiliz-hindistani); Madurai (ingiliz-hindistani); Koçin (Kochi) (ingiliz-hindistani); Nagapatnam (ingiliz-hindistani); Tancûr (Thanjavur) (ingiliz-hindistani); Trichinopoly (Tiruchirappalli) (ingiliz-hindistani); Kalikut (Kozhikode) (ingiliz-hindistani); Cinci (Gingee) (ingiliz-hindistani) … +16
 - koridor yerleşimleri: Sonepur (Subarnapur) (sahipsiz); Sambalpur (maratha)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Madras (Güney Hindistan) ile Bengal arasında Maratha Orissa'sı (Cuttack, Sambalpur). Parça bitişi 1803-10-14, Orissa'nın Ekim 1803'te İngilizlerce alınmasıyla uyumlu (gün kaynakla teyit edilmedi). Sonepur sahipsiz (tek).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Madras (Güney Hindistan) ile Bengal arasında Maratha Orissa'sı (Cuttack, Sambalpur). Parça bitişi 1803-10-14, Orissa'nın Ekim 1803'te İngilizlerce alınmasıyla uyumlu (gün kaynakla teyit edilmedi). Sonepur sahipsiz (tek). [KAYNAK-1104 (kismen): Orissa Maratha (Nagpur Racasi) elindeydi; Ingilizler 1803'te Marathalardan 'kesin fethetti'. Yalniz yil. — "finally conquered" · Gun (1803-10-14) yok; 1759 baslangici yok. Metin Wikisource transkripsiyonu (1911 EB), dayanak olarak dikkat. Britannica Deogaon sayfasi 403.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: Encyclopaedia Britannica 11. baski (1911), Orissa, Wikisource uzerinden: https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Orissa
 
 ### K014 · Amerika Birleşik Devletleri (`abd`) · 1846-06-15 → 2000-12-31 · 362.137 km²
 
@@ -1662,10 +1662,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 83.7 km · sosoni 9/9
 - içindeki yerleşimler (9, s.eksklav 0): Fort Klamath / Klamath Bataklığı (abd); Fort Harney (Harney Havzası, Payut) (abd); Boise (Fort Boise) (abd); Fort Vancouver (abd); Wayám (Celilo Şelâleleri) (abd); Fort Nez Percés (Walla Walla) (abd); Seattle (Duwamish) (abd); Spokane House (abd) … +1
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: şoşoni t=1868-07-03; 1867'de Idaho'daki Camas Ovası şoşoni, Fort Hall/Boise/Salt Lake abd. Oregon (1846) Pasifik gövdesi, Şoşoni toprağı ile ABD ana gövdesinden ayrı; 1868'den sonra parça yok (1900 ve 1950 sorgusunda hepsi abd). Fiilî-denetim modeli; hukuki ABD egemenliği ile çelişen model tercihi.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: şoşoni t=1868-07-03; 1867'de Idaho'daki Camas Ovası şoşoni, Fort Hall/Boise/Salt Lake abd. Oregon (1846) Pasifik gövdesi, Şoşoni toprağı ile ABD ana gövdesinden ayrı; 1868'den sonra parça yok (1900 ve 1950 sorgusunda hepsi abd). Fiilî-denetim modeli; hukuki ABD egemenliği ile çelişen model tercihi. [KAYNAK-1104 (kismen): Oregon Antlasmasi 15 Haziran 1846'da imzalandi (49. paralel); Fort Bridger Antlasmasi (Dogu Shoshone ve Bannock) 3 Temmuz 1868, Royce devir listesinde 14 Haziran 1867 ve 3 Temmuz 1868 geciyor. — "Eastern Band of Shoshoni and Bannock" · Camas Ovasi'nin 1867-68 durumu sayfada yok; t=1868-07-03 antlasma gunuyle uyumlu.]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (devletler.js, cevre.py 1867/1900/1950)
+  - kaynak: Avalon Project (Yale), Oregon Treaty 1846, https://avalon.law.yale.edu/19th_century/br-1846.asp ; DigiTreaties, Shoshone-Bannock cession, https://digitreaties.org/treaties/cession/524/ · önceki: veri ölçümü (devletler.js, cevre.py 1867/1900/1950)
 
 ### K015 · Britanya (`ingiltere`) · 1916-05-23 → 1923-10-29 · 333.051 km²
 
@@ -1686,10 +1686,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2406.7 km · DENIZ/BOS 3/9, ingiliz-sudani 3/9, sammar 1/9, hicaz 1/9, misir-sultanligi 1/9
 - içindeki yerleşimler (77, s.eksklav 0): Dîvâniye (ingiltere); Necef (ingiltere); Hîre (sahipsiz); Kûfe (ingiltere); Fâv (ingiltere); Bağuz (Baghuz Fawqani) (sahipsiz); Eski Basra (Zübeyr) (sahipsiz); Eridu (Abu Shahrain) (sahipsiz) … +69
 - koridor yerleşimleri: Nefud çölü (sammar); Ebû Ramâd (Şalâtîn) (misir-sultanligi)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (2406 km). İngiliz Mezopotamya'sı (Basra 1914-11-06 -> Irak mandası) öteki İngiliz gövdelerden ayrı denizaşırı. Ayrı borç: içteki 77 noktanın 39'u sahipsiz (Hîre, Bağuz, Eridu gibi antik yerler) — Değişmez 1/merdiven ④.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (2406 km). İngiliz Mezopotamya'sı (Basra 1914-11-06 -> Irak mandası) öteki İngiliz gövdelerden ayrı denizaşırı. Ayrı borç: içteki 77 noktanın 39'u sahipsiz (Hîre, Bağuz, Eridu gibi antik yerler) — Değişmez 1/merdiven ④. [KAYNAK-1104 (tam): Basra 22 Kasım 1914'te İngilizlerce işgal edildi; 1920'de yönetim yerliye devredildi, 1920-1932 manda. Denizaşırı İngiliz Mezopotamyası gerçek. — "Basra bu son vali zamanında 22 Kasım 1914’te İngilizler tarafından işgal edildi." · Atlasta Basra ingiltere f=1914-11-06 (Fav çıkarması günü); TDV şehir için 22 Kasım 1914 verir — Basra kaydı f → 1914-11-22, Fav 1914-11-06 kalabilir (KASA, ic_not'ta iki gün).]
   - önerilen düzeltme: Yapısal yok; 39 sahipsiz nokta ayrı iş.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: TDV İslâm Ansiklopedisi, "Basra" (Abdulhalik Bakır), https://islamansiklopedisi.org.tr/basra · önceki: bulunamadı (UZAK)
 
 ### K017 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1024-01-01 → 1136-01-01 · 313.910 km²
 
@@ -1710,10 +1710,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 407.5 km · botsvana 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (8, s.eksklav 0): Gvanda (ingiltere); Khami (ingiltere); Umtali (Mutare) (ingiliz-guney-rodezya); Salisbury (Harare) (ingiltere); Danangombe (Rozvi) (ingiltere); Gveru (ingiltere); Hvange (ingiltere); Binga (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Güney Rodezya, Aralık 1979-Nisan 1980 geçiş dönemi (Lancaster House, Soames); künye ingiliz-guney-rodezya t=1980-04-18 ile uyumlu. Öteki İngiliz gövdelerden çok uzak; iç noktalar 'ingiltere' (Umtali 'ingiliz-guney-rodezya', ama harita: ingiltere takma adı, boya aynı).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Güney Rodezya, Aralık 1979-Nisan 1980 geçiş dönemi (Lancaster House, Soames); künye ingiliz-guney-rodezya t=1980-04-18 ile uyumlu. Öteki İngiliz gövdelerden çok uzak; iç noktalar 'ingiltere' (Umtali 'ingiliz-guney-rodezya', ama harita: ingiltere takma adı, boya aynı). [KAYNAK-1104 (kismen): Zimbabwe 18 Nisan 1980'de bagimsiz (eski Guney Rodezya, Ingiliz kolonisi); atlasin t=1980-04-18'i ile uyumlu. — "previously been a British colony known as Southern Rhodesia" · Aralik 1979 baslangici (Lancaster House/Soames) sayfada yok.]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (devletler.js)
+  - kaynak: Office of the Historian (ABD Disisleri), Countries: Zimbabwe, https://history.state.gov/countries/zimbabwe · önceki: veri ölçümü (devletler.js)
 
 ### K019 · Gazneliler (Gazneli Devleti) (`gazneli`) · 1038-05-09 → 1043-01-01 · 286.884 km²
 
@@ -1722,10 +1722,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 687.5 km · buyuk-selcuklu 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (7, s.eksklav 0): Karakum (sahipsiz); Hazârasp (sahipsiz); Hîve (sahipsiz); Yeni Ürgenç (sahipsiz); Köhne Ürgenç (Gürgenç) (gazneli); Küngrat (sahipsiz); Üstyurt platosu (doğu) (sahipsiz)
 - koridor yerleşimleri: Kâin (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (buyuk-selcuklu); Kûçân (sahipsiz); Anau (sahipsiz); Aşkabad (sahipsiz); Jeitun (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (687 km). Harezm 1038-1043: Selçuklular Horasan'ı alınca (Dandanakan 1040) Gazneli Harezm'i ana gövdeden kopuk. İçteki 7 noktanın 6'sı sahipsiz (Hive, Hazarasp...) — petek emilmesiyle boyalı. Kesin tarihler kaynakla.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (687 km). Harezm 1038-1043: Selçuklular Horasan'ı alınca (Dandanakan 1040) Gazneli Harezm'i ana gövdeden kopuk. İçteki 7 noktanın 6'sı sahipsiz (Hive, Hazarasp...) — petek emilmesiyle boyalı. Kesin tarihler kaynakla. [KAYNAK-1104 (kismen): Altuntaş 1017-1032 Gazneli valisi; oğlu Hârun döneminde ilişkiler bozuldu; Şah Melik 12 Şubat 1041'de Gürgenç'e girip Sultan Mesud adına hutbe okuttu; iki yıl sonra (1043) Tuğrul ve Çağrı Şah Melik'i çıkardı. — "Şah Melik, 12 Şubat 1041 tarihinde Hârizm kuvvetlerini bozguna uğratarak başşehir Gürgenç’e girdi" · Parça bitişi 1043 teyitli. 1038-1041 Hârizm fiilen Gazneli'ye isyan eden Altuntaşoğulları (Hârun, İsmâil) elinde: bu ara GERÇEK Gazneli eksklavı değil, 1041-02-12'den sonrası Gazneli adına. Düzeltme önerisi: Hârizm noktaları 1034/35-1041-02-12 isyankâr hârizmşah dönemi (yıl kaynakla), 1041-02-12 → 1043 gazneli.]
   - önerilen düzeltme: Sahipsiz Harezm noktaları için dönem (ayrı iş).
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: TDV İslâm Ansiklopedisi, "Hârizm" (Abdülkerim Özaydın), https://islamansiklopedisi.org.tr/harizm · önceki: bulunamadı (UZAK)
 
 ### K020 · Moğol İmparatorluğu (bölünmemiş) (`mogol-imparatorlugu`) · 1213-12-30 → 1256-01-01 · 276.726 km²
 
@@ -1734,10 +1734,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 3715.5 km · cagatay 5/9, DENIZ/BOS 3/9, KENDI 1/9
 - içindeki yerleşimler (9, s.eksklav 0): Pingyao (sahipsiz); Taiyuan (mogol-imparatorlugu); Zhengding (mogol-imparatorlugu); Leshou (Xianxian) (mogol-imparatorlugu); Baoding (sahipsiz); Tiencin (Tianjin) (sahipsiz); Pekin (Hanbalık) (mogol-imparatorlugu); Kalgan (Zhangjiakou) (sahipsiz) … +1
 - koridor yerleşimleri: Xiazhou (Tongwancheng) (sahipsiz); Andican (cagatay); Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (3715 km). Kuzey Çin kesiti ile Orta Asya (Çağatay f=1227-01-01) arasında, bölünmemiş imparatorluk içinde ulus ayrışması modeli. Çağatay kimliği ayrı id; 'bölünmemiş' etiketi ile uyumsuz ama tasarım tercihi.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (3715 km). Kuzey Çin kesiti ile Orta Asya (Çağatay f=1227-01-01) arasında, bölünmemiş imparatorluk içinde ulus ayrışması modeli. Çağatay kimliği ayrı id; 'bölünmemiş' etiketi ile uyumsuz ama tasarım tercihi. [KAYNAK-1104 (kismen): Kuzey Çin Mukali'ye emanet edildi. — "Muqali, to whom China was entrusted" · Kuzey Çin'in Büyük Han adına Mukali'nin genel valiliği altında olduğu teyitli; 1217 tarihi ve Çağatay'dan ayrık statü teyitsiz.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Berkshire Encyclopedia of World History, "Mongol Empire" — EMRELİC okuması (Oxford Reference) · önceki: bulunamadı (UZAK)
 
 ### K021 · İspanyol Perusu (`ispanyol-peru`) · 1819-12-17 → 1821-06-24 · 267.675 km²
 
@@ -1794,10 +1794,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 133.9 km · fransa-cumhuriyet 9/9
 - içindeki yerleşimler (11, s.eksklav 0): Elmina (São Jorge da Mina) (ingiltere); Cape Coast (ingiltere); Akra (Accra) (ingiltere); Kumasi (ingiltere); Sokodé (sahipsiz); Kara (Togo) (sahipsiz); Bono-Manso (Techiman kuzeyi) (ingiliz-altin-kiyisi); Begho (Bighu) (ingiltere) … +3
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Altın Kıyısı, Nijerya'dan 134 km Fransız toprağı ile ayrı: gerçek ayrı koloni. Altın Kıyısı kaydı `harita: ingiltere` takma adlı, boya aynı (YAPAY-k değil). Sokodé, Kara (Togo) sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Altın Kıyısı, Nijerya'dan 134 km Fransız toprağı ile ayrı: gerçek ayrı koloni. Altın Kıyısı kaydı `harita: ingiltere` takma adlı, boya aynı (YAPAY-k değil). Sokodé, Kara (Togo) sahipsiz. [KAYNAK-1104 (kismen): Gana (eski Altin Kiyisi) 6 Mart 1957'de Britanya Imparatorlugu'ndan bagimsiz ilan edildi (atlasin t=1957-03-06 ile uyumlu). — "formerly known as the Gold Coast" · 1664 baslangici ve Nijerya ile ayrik gövde teyit edilmedi.]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (devletler.js)
+  - kaynak: Office of the Historian, Ghana, https://history.state.gov/countries/ghana · önceki: veri ölçümü (devletler.js)
 
 ### K026 · Yuan Hanedanı (Moğol Çin) (`yuan-hanedani`) · 1260-01-01 → 1368-09-14 · 236.213 km²
 
@@ -1830,10 +1830,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 3182.5 km · habesistan 3/9, ingiliz-sudani 3/9, DENIZ/BOS 3/9
 - içindeki yerleşimler (14, s.eksklav 0): Cilib (italya); Afgoye (italya); Merka (italya); Bardere (italya); Diinsoor (italya); Vanlaveyn (italya); Baydoa (italya); Garbahârey (italya) … +6
 - koridor yerleşimleri: Fiçe (habesistan); Mota (habesistan); Bahır Dar (habesistan); Metemma (habesistan); Kadârif (ingiliz-sudani); Şendî (ingiliz-sudani); Selîme (Nûbe çölü batısı) (sahipsiz); Merevî (ingiliz-sudani); Delgo (Sükkût) (ingiliz-sudani)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (3182 km). İtalyan Somalisi, Eritre/Libya'dan Habeşistan ve İngiliz Sudanı ile ayrı. Somali kıyısındaki yerli emirlikler 1925-27 fethine dek çevrede.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (3182 km). İtalyan Somalisi, Eritre/Libya'dan Habeşistan ve İngiliz Sudanı ile ayrı. Somali kıyısındaki yerli emirlikler 1925-27 fethine dek çevrede. [KAYNAK-1104 (kismen): Zanzibar'in Benadir limanlari 1905'te Italya'ya satildi (1890'dan beri kiradaydi). — "sold in 1905" · Italyan Somalisi'nin dogrudan 1905 baslangicini destekler (yalniz yil); 1925-27 emirlikler teyit yok. 1911 kaynak, Somaliland maddesi kesildi.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Zanzibar, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Zanzibar · önceki: bulunamadı (UZAK)
 
 ### K029 · Osmanlı (`OSMANLI`) · 1871-01-01 → 1918-10-30 · 222.209 km²
 
@@ -1842,10 +1842,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 113.8 km · hicaz 9/9
 - içindeki yerleşimler (16, s.eksklav 0): Marib (sahipsiz); Kunfüze (el-Kunfüze) (OSMANLI); Moha (OSMANLI); Taiz (OSMANLI); Zûcible (sahipsiz); Zebîd (OSMANLI); Zafâr (sahipsiz); Hudeyde (OSMANLI) … +8
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: En büyük kesit 1916-06-10: Hicaz (Şerif Hüseyin isyanı) Yemen ile Osmanlı gövdesi arasına giriyor; koridor 114 km hicaz 9/9. Geçerli yalnız 1916-06-10 sonrası; 1871-1916 DAR/KARA kesitleri Asir-Necran çevresinde (Necran, Karna 'YOK epok', Marib sahipsiz) — ayrı borç. Hicaz id'si devletler.js'te 'hicaz' adıyla bulunamadı (ölçülemedi).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: En büyük kesit 1916-06-10: Hicaz (Şerif Hüseyin isyanı) Yemen ile Osmanlı gövdesi arasına giriyor; koridor 114 km hicaz 9/9. Geçerli yalnız 1916-06-10 sonrası; 1871-1916 DAR/KARA kesitleri Asir-Necran çevresinde (Necran, Karna 'YOK epok', Marib sahipsiz) — ayrı borç. Hicaz id'si devletler.js'te 'hicaz' adıyla bulunamadı (ölçülemedi). [KAYNAK-1104 (tam): Şerîf Hüseyin Haziran 1916'da Mekke'de isyanı başlattı (bildiri 27 Haziran); Medine dışındaki Hicaz şehirleri isyancılara geçti; Medine Ocak 1919'a kadar Osmanlı'da kaldı. — "Şerîf Hüseyin Haziran 1916’da Mekke’de isyanı başlattı" · Hicaz'ın Yemen ile Osmanlı gövdesi arasına girmesi 1916 Haziran sonrası gerçek. Ek: Medine 1916-1919 Osmanlı enklavı olmalı — atlasta ayrıca sınanmalı.]
   - önerilen düzeltme: Yok. Marib, Zucible, Zafâr dönemi ayrı iş.
-  - kaynak: veri ölçümü (kısmi)
+  - kaynak: TDV İslâm Ansiklopedisi, "Şerîf Hüseyin" (Azmi Özcan), https://islamansiklopedisi.org.tr/serif-huseyin · önceki: veri ölçümü (kısmi)
 
 ### K030 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1043-01-01 → 1064-01-01 · 209.382 km²
 
@@ -1866,10 +1866,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 218.3 km · racput 9/9
 - içindeki yerleşimler (13, s.eksklav 0): Sûrat (delhi-sultanligi); Broaç (Bharuch) (delhi-sultanligi); Valabhi (sahipsiz); Baroda (Vadodara) (delhi-sultanligi); Kanbâyet (Khambhat) (delhi-sultanligi); Çampâner (delhi-sultanligi); Lothal (sahipsiz); Wadhwan (Vardhamana) (delhi-sultanligi) … +5
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Sûrat/Broaç delhi-sultanligi 1304-1407, gucerat-sultanligi 1407-1573. 1392-1407 Gucerat Delhi valiliği, Rajput toprağı (koridor 218 km) ile Delhi'den ayrı: gerçek. 1407 sonrası Delhi aralığında parça artık Gucerat'ı içermiyor; aday aralığı (1484'e dek) 1392-1407 dışı kesitler için ayrı kontrol ister.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Sûrat/Broaç delhi-sultanligi 1304-1407, gucerat-sultanligi 1407-1573. 1392-1407 Gucerat Delhi valiliği, Rajput toprağı (koridor 218 km) ile Delhi'den ayrı: gerçek. 1407 sonrası Delhi aralığında parça artık Gucerat'ı içermiyor; aday aralığı (1484'e dek) 1392-1407 dışı kesitler için ayrı kontrol ister. [KAYNAK-1104 (tam): Tuğluklular 1391'de Zafer Han'ı Gucerât valisi tayin etti; 1407'de Muzaffer Şah unvanıyla Gucerât Sultanlığı kuruldu. — "Tuğluklular 1391’de Zafer Han’ı vali tayin ettiler." · 1392-1407 Delhi valiliği olarak gerçek. Atlas başlangıcı 1392 (TDV valilik 1391) — sorun değil; 1407 bitişi teyitli.]
   - önerilen düzeltme: Yok (1407-1484 kesitleri ayrıca ölçülmeli).
-  - kaynak: veri ölçümü (kayit.py)
+  - kaynak: TDV İslâm Ansiklopedisi, "Gucerât" (Khaliq Ahmad Nizami), https://islamansiklopedisi.org.tr/gucerat · önceki: veri ölçümü (kayit.py)
 
 ### K032 · Britanya (`ingiltere`) · 1668-01-01 → 1763-02-10 · 192.416 km²
 
@@ -1878,10 +1878,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 523.5 km · DENIZ/BOS 4/9, haudenosaunee 3/9, fransa 2/9
 - içindeki yerleşimler (4, s.eksklav 0): Abitibi House (ingiltere); Moose Factory (ingiltere); Fort Albany (ingiltere); Attawapiskat (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Hudson Körfezi Şirketi karakolları (Moose Factory, Fort Albany) Britanya koloni gövdesinden ayrı; Attawapiskat sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Hudson Körfezi Şirketi karakolları (Moose Factory, Fort Albany) Britanya koloni gövdesinden ayrı; Attawapiskat sahipsiz. [KAYNAK-1104 (celiski): Moose Factory 1672-73'te Charles Bayly tarafindan kuruldu (HBC'nin ikinci karakolu). — "Founded in 1672–73 by Charles Bayly" · Atlas f=1668-01-01. Eger 1668 Rupert Nehri/Nonsuch seferine dayaniyorsa Moose Factory icin erken. Fort Albany sayfada yok. Hukum degisikligi sizde.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK-benzeri)
+  - kaynak: The Canadian Encyclopedia, Moose Factory, https://thecanadianencyclopedia.ca/en/article/moose-factory · önceki: bulunamadı (UZAK-benzeri)
 
 ### K033 · Sovyet Rusya (`sovyet-rusya`) · 1917-11-07 → 1920-09-02 · 187.369 km²
 
@@ -1890,10 +1890,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 251.7 km · buhara 9/9
 - içindeki yerleşimler (9, s.eksklav 0): Merv (Mari) (sovyet-rusya); Ebîverd (sovyet-rusya); Aşkabad (sovyet-rusya); Nesâ (sovyet-rusya); Dihistan ovası (Meşhed-i Misriyân) (sovyet-rusya); Jeitun (sahipsiz); Kızılarvat (sovyet-rusya); Çeleken (sovyet-rusya) … +1
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Transhazar (Aşkabad, Merv, Kızılarvat) ile Taşkent/Türkistan arasında Buhara Emirliği (koridor 252 km). 1918-07 -> 1920-02 Transhazar'ın Bolşevik-karşıtı hükümet/İngiliz dönemi atlasta 'sovyet-rusya' olarak görünüyor olabilir; bu sahiplik konusu ölçülmedi, kaynak gerekir. Jeitun sahipsiz (antik).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Transhazar (Aşkabad, Merv, Kızılarvat) ile Taşkent/Türkistan arasında Buhara Emirliği (koridor 252 km). 1918-07 -> 1920-02 Transhazar'ın Bolşevik-karşıtı hükümet/İngiliz dönemi atlasta 'sovyet-rusya' olarak görünüyor olabilir; bu sahiplik konusu ölçülmedi, kaynak gerekir. Jeitun sahipsiz (antik). [KAYNAK-1104 (kismen): Aralık 1917'de Bolşevik yönetim kuruldu; Temmuz 1918'de Beyaz Rus ve Türkmen karşı devrimcilerin eline geçti; sonra Kızıl Ordu (Kuybişev) şehri geri aldı. — "Temmuz 1918’de Beyaz Rus ve Türkmenler’den oluşan karşı devrimcilerin eline geçtiyse de" · Hüküm GERÇEK yalnız Bolşevik aralıkları için; 1918-07 → Kızıl Ordu dönüşü arası Aşkabad/Merv/Kızılarvat 'sovyet-rusya' YANLIŞ (YAPAY-b: Transhazar geçici hükümeti dönemi yok). TDV dönüş günü vermiyor — ikinci kaynak gerek (gün teyitsiz).]
   - önerilen düzeltme: Aşkabad/Merv/Kızılarvat 1918-1920 sahipliği kaynakla (gün bulunamadı).
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Aşkābâd" (Sargon Erdem), https://islamansiklopedisi.org.tr/askabad
 
 ### K034 · Britanya (`ingiltere`) · 1763-02-10 → 1783-09-03 · 175.125 km²
 
@@ -1902,10 +1902,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 228.1 km · cikasav 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Kaskaskia (ingiltere); St. Louis (sahipsiz); Cahokia (sahipsiz); Vincennes (Poste Vincennes) (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: 1763-1783 İllinois Ülkesi (Kaskaskia, Vincennes) İngiliz iddiası, Doğu sömürgelerinden Çikasav/Kızılderili toprağı ile ayrı; hukukî-fiilî model tercihi. St. Louis, Cahokia sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: 1763-1783 İllinois Ülkesi (Kaskaskia, Vincennes) İngiliz iddiası, Doğu sömürgelerinden Çikasav/Kızılderili toprağı ile ayrı; hukukî-fiilî model tercihi. St. Louis, Cahokia sahipsiz. [KAYNAK-1104 (tam): 10 Subat 1763'te Fransa Mississippi dogusunu (Kanada dahil) Britanya'ya birakti; 3 Eylul 1783 Paris Antlasmasi ile sinir Mississippi'de ABD'ye gecti. Hukuki egemenlik tarihleri atlas ile uyumlu. — "Done at Paris, this third day of September" · Illinois Ulkesi'nin fiili Ingiliz denetimi (Kaskaskia 1765) kaynakta okunmadi; yalniz hukuki tarihler teyitli.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: Avalon Project (Yale), Definitive Treaty 1763, https://avalon.law.yale.edu/18th_century/paris763.asp ; Treaty of Paris 1783, https://avalon.law.yale.edu/18th_century/paris.asp
 
 ### K035 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1041-01-01 → 1043-01-01 · 169.473 km²
 
@@ -1926,10 +1926,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 276.4 km · TABI 9/9
 - içindeki yerleşimler (26, s.eksklav 0): Hicaz (sahipsiz); el-Ulâ (OSMANLI); Medâin-i Sâlih (el-Hicr) (OSMANLI); el-Vech (OSMANLI); Tebük (OSMANLI); Maan (OSMANLI); Kerak (OSMANLI); Ürdün (sahipsiz) … +18
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Şam d/v: v (Mısır, İbrâhim Paşa) 1832-06-16 -> 1841-02-25; Gazze v 1831-10-31 -> 1841-02-25. Oysa Maan, Kerak, Tebük aynı 1832-1841 aralığında yalnızca OSMANLI (v dönemi yok), çevre TABI %39, koridor TABI 9/9. Mısır'ın Suriye ve Hicaz hâkimiyeti (1840 Kasım'a dek) hac yolu noktalarını da kapsıyordu (tarihsel iddia, kaynak sırasıyla teyit). 1840-11-27 kesit tarihi İskenderiye Mukavelesi ile uyumlu.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Şam d/v: v (Mısır, İbrâhim Paşa) 1832-06-16 -> 1841-02-25; Gazze v 1831-10-31 -> 1841-02-25. Oysa Maan, Kerak, Tebük aynı 1832-1841 aralığında yalnızca OSMANLI (v dönemi yok), çevre TABI %39, koridor TABI 9/9. Mısır'ın Suriye ve Hicaz hâkimiyeti (1840 Kasım'a dek) hac yolu noktalarını da kapsıyordu (tarihsel iddia, kaynak sırasıyla teyit). 1840-11-27 kesit tarihi İskenderiye Mukavelesi ile uyumlu. [KAYNAK-1104 (kismen): İbrâhim Paşa Şam'ı 16 Haziran 1832'de aldı; Mehmed Ali Hicaz'ı Mısır meselesi 1840'ta halledilene dek elinde tuttu, sonra Bâbıâli'ye geçti. — "Mısır meselesinin büyük devletlerin araya girmesiyle halledilmesine kadar (1840) elinde tuttu" · Atlas Şam v 1832-06-16 TDV ile aynı gün. Hicaz/hac yolu noktalarına (Tebük, el-Vech, el-Ulâ, Medâin-i Sâlih) Mısır v dönemi eksik iddiası TDV ile destekli; Maan/Kerak için TDV'de açık ifade yok.]
   - önerilen düzeltme: Maan, Kerak, Tebük, el-Vech, Medâin-i Sâlih, el-Ulâ: 1832/33-1840/41 v (misir-kavalali) dönemi, gün TDV/İSAM kaynakla; Hicaz ve Ürdün sahipsiz noktaları için sahip.
-  - kaynak: veri ölçümü (kayit.py Şam, Gazze, Maan, Kerak, Tebük)
+  - kaynak: TDV İslâm Ansiklopedisi, "Hicaz" (Mustafa Sabri Küçükaşçı), https://islamansiklopedisi.org.tr/hicaz; "İbrâhim Paşa, Kavalalı" (M. Hanefi Kutluoğlu), https://islamansiklopedisi.org.tr/ibrahim-pasa-kavalali · önceki: veri ölçümü (kayit.py Şam, Gazze, Maan, Kerak, Tebük)
 
 ### K037 · Maratha Konfederasyonu (`maratha`) · 1743-01-01 → 1818-01-01 · 158.028 km²
 
@@ -1938,10 +1938,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 200.4 km · bhopal 7/9, haydarabad-nizam 2/9
 - içindeki yerleşimler (11, s.eksklav 0): Valabhi (sahipsiz); Kanbâyet (Khambhat) (maratha); Mandu (Mândû) (maratha); Çampâner (maratha); Lothal (sahipsiz); Dhâr (sahipsiz); Wadhwan (Vardhamana) (maratha); Dholka (maratha) … +3
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Maratha Malva/Gucerat payları (Holkar, Sindhiya, Gaekwad) ana Deccan gövdesinden Bhopal ve Nizam topraklarıyla ayrı; konfederasyon yapısı. Valabhi, Lothal, Dhâr sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Maratha Malva/Gucerat payları (Holkar, Sindhiya, Gaekwad) ana Deccan gövdesinden Bhopal ve Nizam topraklarıyla ayrı; konfederasyon yapısı. Valabhi, Lothal, Dhâr sahipsiz. [KAYNAK-1104 (kismen): Damaji Gaekwar Gucerat'ta (Baroda), Tukoji Holkar Malva yaylalarinda, Mahadji Sindhia Agra-Delhi guneyinde guclenerek kendi beyliklerini kurdu; Maratha gucu 1750 civarinda zirvede, Panipat 1761. — "subdued the uplands of Malwa" · Yil yok (1743 teyit edilmedi); konfederasyon yapisi dogrulaniyor. 1911 kaynak.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Mahrattas, https://en.wikisource.org/wiki/Page:EB1911_-_Volume_17.djvu/441
 
 ### K038 · Kongo Serbest Devleti (`kongo-serbest-devleti`) · 1885-01-01 → 1888-01-01 · 157.884 km²
 
@@ -1950,10 +1950,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 81.5 km · kuba 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Sandoa (kongo-serbest-devleti); Musumba (kongo-serbest-devleti); Luebo (kongo-serbest-devleti); İlebo (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Sandoa ve Musumba lunda-imparatorlugu -> 1887-01-01, ardından kongo-serbest-devleti; Luebo 1885. Lunda başkenti Musumba'nın KSD'ye 1887'de geçmesi kaynaksız; KSD'nin Kasai/Lunda'da fiilî varlığı 1885-1888'de çok zayıftı (tarihsel iddia). Parça yalnız 1885-1888, kuba (t=1900) araya giriyor.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Sandoa ve Musumba lunda-imparatorlugu -> 1887-01-01, ardından kongo-serbest-devleti; Luebo 1885. Lunda başkenti Musumba'nın KSD'ye 1887'de geçmesi kaynaksız; KSD'nin Kasai/Lunda'da fiilî varlığı 1885-1888'de çok zayıftı (tarihsel iddia). Parça yalnız 1885-1888, kuba (t=1900) araya giriyor. [KAYNAK-1104 (kismen): KSD egemenligi 1 Temmuz 1885'te Boma'da ilan edildi; Portekiz ile Lunda sinir antlasmasi 25 Mayis 1891 (onay 24 Mart 1894); Lunda 'imparatorlugu' basi Muteba 1892'de oldurulunce dagildi; KSD orta Kasai'de otoritesini hic tam kuramadi. — "never fully established its authority" · Hukumle (YAPAY) uyumlu: Musumba/Sandoa'nin 1887'de KSD'ye gecmesi kaynakta yok, Lunda icin 1891-92 daha uygun gorunur. Karar sizde. 1911.]
   - önerilen düzeltme: Sandoa, Musumba KSD başlangıcı kaynakla (Lunda ilhakı 1890'lar); İlebo sahipsiz.
-  - kaynak: veri ölçümü (kayit.py Sandoa, Musumba, Luebo)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Congo Free State, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Congo_Free_State · önceki: veri ölçümü (kayit.py Sandoa, Musumba, Luebo)
 
 ### K039 · Britanya (`ingiltere`) · 1684-01-01 → 1763-02-10 · 154.374 km²
 
@@ -1974,10 +1974,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2029.9 km · cagatay 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Buhara (mogol-imparatorlugu)
 - koridor yerleşimleri: Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (2030 km). 1256-1260 Büyük Han'ın doğrudan idare ettiği Maveraünnehir (Buhara), Çağatay/İlhanlı/Altın Orda arasında; parçada yalnız Buhara noktası var. Düşük güven: bu tarihte Buhara idaresinin Büyük Han'a bağlılığı kaynakla.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (2030 km). 1256-1260 Büyük Han'ın doğrudan idare ettiği Maveraünnehir (Buhara), Çağatay/İlhanlı/Altın Orda arasında; parçada yalnız Buhara noktası var. Düşük güven: bu tarihte Buhara idaresinin Büyük Han'a bağlılığı kaynakla. [KAYNAK-1104 (kismen): Orta Asya'nın sivil idaresi Alğu döneminde (1260-66) Büyük Han'a değil Çağatay ulusunun başına bağlandı; Mesud Bey 1289'a dek idareci. — "subordinated to the head of Čaḡatai's ulus ... rather than to the great khan" · 1260 sonrası Çağatay'a geçiş teyitli (parça bitişi 1260 ile uyumlu); 1256-1260'ta doğrudan Büyük Han'a bağlılık açıkça söylenmiyor, yalnız çıkarım.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Encyclopaedia Iranica, "CHAGHATAYID DYNASTY" (Peter Jackson); "BUKHARA iii" (Yuri Bregel) — EMRELİC okuması · önceki: bulunamadı (UZAK)
 
 ### K041 · Birleşik Arap Cumhuriyeti (Mısır-Suriye; Suriye 28.09.1961'de ayrıldı, Mısır adı 1971'e dek korudu) (`birlesik-arap-cumhuriyeti`) · 1958-02-22 → 1961-09-28 · 151.016 km²
 
@@ -1986,10 +1986,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 237.7 km · urdun-emirligi 4/9, DENIZ/BOS 3/9, lubnan-cumhuriyeti 1/9, israil-devleti 1/9
 - içindeki yerleşimler (34, s.eksklav 0): Şam (birlesik-arap-cumhuriyeti); Humus (birlesik-arap-cumhuriyeti); Krak des Chevaliers (sahipsiz); Katna (Al-Mashrafah) (sahipsiz); Mısyâf (Maşyāf) (sahipsiz); Hama (birlesik-arap-cumhuriyeti); Margat (Marqab) (sahipsiz); Şeyzer (sahipsiz) … +26
 - koridor yerleşimleri: Masada (sahipsiz); Dibon (Dhībān) (sahipsiz); Eriha (Tell es-Sultan) (sahipsiz); Amman (urdun-hasimi-krallik); Ain Ghazal (sahipsiz); Câbiye (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Birleşik Arap Cumhuriyeti: Suriye bölgesi ile Mısır arasında İsrail ve Ürdün (koridor 238 km). Bilinen gerçek eksklav. İçteki 34 noktanın 20'si sahipsiz (Krak des Chevaliers, Margat, Mısyâf... ortaçağ kaleleri): boyama sorunu ayrı.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Birleşik Arap Cumhuriyeti: Suriye bölgesi ile Mısır arasında İsrail ve Ürdün (koridor 238 km). Bilinen gerçek eksklav. İçteki 34 noktanın 20'si sahipsiz (Krak des Chevaliers, Margat, Mısyâf... ortaçağ kaleleri): boyama sorunu ayrı. [KAYNAK-1104 (kismen): Şubat 1958'de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti; başkan Abdünnâsır. — "Şubat 1958’de Mısır ve Suriye’nin Birleşik Arap Cumhuriyeti adı altında birleşmesiyle sonuçlandı" · Mısır-Suriye arası İsrail/Ürdün ile ayrık BAC: GERCEK. Başlangıç ayı teyitli (gün 22 Şubat TDV'de yok); 1961 ayrılış bu pencerede okunmadı.]
   - önerilen düzeltme: Yok. 20 sahipsiz kale noktası ayrı iş.
-  - kaynak: veri ölçümü (devletler.js f=1958-02-22)
+  - kaynak: TDV İslâm Ansiklopedisi, "Suriye" (Cemalettin Şahin vd.), https://islamansiklopedisi.org.tr/suriye · önceki: veri ölçümü (devletler.js f=1958-02-22)
 
 ### K042 · Fransız Çinhindi (`fransiz-cinhindi`) · 1883-08-25 → 1907-03-23 · 150.426 km²
 
@@ -2022,10 +2022,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 411.0 km · mutahharten 4/9, dulkadir 3/9, memluk 2/9
 - içindeki yerleşimler (29, s.eksklav 0): Burdur (timurlu); Söke (timurlu); Denizli (timurlu); Ermenek (timurlu); Karaman (timurlu); Çatalhöyük (sahipsiz); Karapınar (timurlu); Boncuklu Höyük (sahipsiz) … +21
 - koridor yerleşimleri: Zamantı (Pınarbaşı) (dulkadir); Gemerek (dulkadir); Divriği (memluk); Kemah (mutahharten); Erzincan (mutahharten)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ankara Savaşı (1402-07-28) sonrası Timur'un Anadolu valiliği; Timur'un tâbileri Mutahharten (Erzincan) ve Dulkadir araya giriyor, Memlük Divriği'de. Çatışan yapı model tercihi; Timurlu denetiminin Batı Anadolu'da bu kadar geniş olup olmadığı ayrıca kaynak ister (Söke, Denizli).
-  - önerilen düzeltme: Yok; bitiş günü 1404-03-01 için kaynak (gün bulunamadı).
-  - kaynak: bulunamadı
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ankara Savaşı (1402-07-28) sonrası Timur'un Anadolu valiliği; Timur'un tâbileri Mutahharten (Erzincan) ve Dulkadir araya giriyor, Memlük Divriği'de. Çatışan yapı model tercihi; Timurlu denetiminin Batı Anadolu'da bu kadar geniş olup olmadığı ayrıca kaynak ister (Söke, Denizli). [KAYNAK-1104 (celiski): Timur İzmir'den doğuya döndü, Denizli'den Akşehir'e yönelirken Bayezid'in ölüm haberini aldı (Mart 1403); bir yıl kadar Anadolu'da kalıp Anadolu beyliklerini canlandırdı; Muharrem 807'de (Temmuz 1404) Semerkant'a döndü. — "Bir yıl kadar Anadolu’da kalıp Anadolu beyliklerini canlandıran Timur" · TDV'ye göre Batı Anadolu (Denizli, Söke, Burdur) doğrudan Timurlu idaresine değil, yeniden kurulan beyliklere (Germiyan, Menteşe, Aydın, Karaman, Hamîd) verildi. Hüküm GERÇEK → YAPAY-c önerisi: bu noktalarda 1402-08 sonrası ilgili beylik d: + timurlu tâbiliği (v:) — beylik iade günleri kaynakla. Bitiş 1404-03-01 yerine Timur'un Anadolu'dan ayrılışı Temmuz 1404 (Muharrem 807 ∩ Temmuz → 1404-07-10).] [hüküm GERCEK/GERCEK → YAPAY/YAPAY-c, kaynak üzerine]
+  - önerilen düzeltme: Denizli, Söke, Burdur, Isparta vb. 1402-08 sonrası ilgili beylik (Germiyan/Menteşe/Aydın/Hamîd/Karaman) d: + timurlu v: — beylik iade günleri kaynakla; timurlu bitişi Temmuz 1404 (Muharrem 807, TDV Timur).
+  - kaynak: TDV İslâm Ansiklopedisi, "Timur" (İsmail Aka), https://islamansiklopedisi.org.tr/timur
 
 ### K045 · San Fan (Üç Feudatori) İsyanı (`san-fan`) · 1674-03-15 → 1677-01-01 · 141.255 km²
 
@@ -2034,10 +2034,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 44.1 km · qing-hanedani 9/9
 - içindeki yerleşimler (6, s.eksklav 0): Hong Kong (sahipsiz); Kanton (Guangzhou) (san-fan); Zhangzhou (san-fan); Zeytun (Quanzhou) (san-fan); Chaozhou (san-fan); Fuzhou (san-fan)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Geng Jingzhong (Fujian) ve Shang Zhixin (Guangdong) payları, Wu Sangui'nin Hunan/Yunnan gövdesinden Qing elindeki Jiangxi ile ayrı (koridor 44 km qing 9/9). Zhangzhou/Chaozhou 'san-fan', Amoy 'tungning' (ölçüldü); Zhangzhou'nun Tungning'e geçişi 1676 civarı kaynakla bakılmalı. Hong Kong sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Geng Jingzhong (Fujian) ve Shang Zhixin (Guangdong) payları, Wu Sangui'nin Hunan/Yunnan gövdesinden Qing elindeki Jiangxi ile ayrı (koridor 44 km qing 9/9). Zhangzhou/Chaozhou 'san-fan', Amoy 'tungning' (ölçüldü); Zhangzhou'nun Tungning'e geçişi 1676 civarı kaynakla bakılmalı. Hong Kong sahipsiz. [KAYNAK-1104 (kismen): Geng Jingzhong 1674'te isyan etti (ay yok), 9 Kasım 1676'da teslim oldu; Shang Zhixin 1676 başında isyana katıldı, 1677'de teslim oldu. — "Early in 1676 Shang Zhixin joined the rebellion" · Fujian payının bitişi 1676-11-09 (Geng teslimi); Guangdong payı 1677. Atlas parça bitişi 1677-01-01 Fujian için ~2 ay geç — kesit ayrı ölçülmeli.]
   - önerilen düzeltme: Zhangzhou/Chaozhou sahipliği ve bitiş günü kaynakla.
-  - kaynak: veri ölçümü (cevre.py 1676-04-05)
+  - kaynak: Eminent Chinese of the Qing Period, "GIYEŠU" ve "ZHENG Jing" maddeleri; "WU Sangui" (Fang Chao-ying) — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (cevre.py 1676-04-05)
 
 ### K046 · Memlûk (`memluk`) · 1517-01-22 → 1517-04-13 · 139.417 km²
 
@@ -2046,10 +2046,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 180.8 km · habesistan 9/9
 - içindeki yerleşimler (9, s.eksklav 2): Bûr Sûdân (sahipsiz); Akīk (memluk); Tokar (memluk); Trinkitât (memluk); Sevâkin (memluk); Derûdeb (memluk); Hayyâ (memluk); Sinkat (memluk) … +1
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. 1517 Ocak-Nisan Memlûk kalıntısı: ölçüldü (1517-03-01) Sinkat, Sevâkin, Tokar, Trinkitât, Cidde (352 km) memluk; Berber/Şereyk funj, Nakfa habesistan. Memlûk'ün Kızıldeniz Sudan sahilindeki fiilî denetimi kaynak gerektirir; Kahire 1517'de düştüğü hâlde atlas memluk'u 1517-04-13'e dek tutuyor.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. 1517 Ocak-Nisan Memlûk kalıntısı: ölçüldü (1517-03-01) Sinkat, Sevâkin, Tokar, Trinkitât, Cidde (352 km) memluk; Berber/Şereyk funj, Nakfa habesistan. Memlûk'ün Kızıldeniz Sudan sahilindeki fiilî denetimi kaynak gerektirir; Kahire 1517'de düştüğü hâlde atlas memluk'u 1517-04-13'e dek tutuyor. [KAYNAK-1104 (tam): Ridâniye 22 Ocak 1517; Tomanbay 30 Mart 1517'de yakalandı, 13 Nisan 1517 (21 Rebîülevvel 923) Bâbüzüveyle'de asıldı. — "21 Rebîülevvel 923 (13 Nisan 1517) tarihinde Kahire kapılarından Bâbüzüveyle’de asıldı" · Parça aralığı 1517-01-22 → 1517-04-13 TDV'deki iki günle birebir: Memlük devleti Tomanbay'ın idamına dek sürdü. Sevâkin kıyısının fiilî Memlük denetimi TDV'de yok (o kısım teyitsiz).]
   - önerilen düzeltme: Gün/sahiplik kaynakla (TDV Tomanbay/Memlûkler).
-  - kaynak: veri ölçümü (cevre.py)
+  - kaynak: TDV İslâm Ansiklopedisi, "Tomanbay" (Cüneyt Kanat), https://islamansiklopedisi.org.tr/tomanbay · önceki: veri ölçümü (cevre.py)
 
 ### K047 · Meksika (`meksika`) · 1825-09-01 → 2000-12-31 · 136.403 km²
 
@@ -2058,10 +2058,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 40.8 km · abd 9/9
 - içindeki yerleşimler (6, s.eksklav 0): La Paz (Baja California Sur) (meksika); Loreto (Baja California) (meksika); Misión Santa Gertrudis (Baja California) (meksika); Misión San Francisco de Borja (meksika); El Rosario (Baja California) (meksika); Misión San Vicente Ferrer (meksika)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `KAYNAK-GEREK`
-  - gerekçe: Aşağı Kaliforniya yarımadası Sonora'ya Colorado ırmağı deltasında kara komşu (Baja California-Sonora sınırı); 40,8 km 'abd' koridoru motor/kıyı sınırı yaklaşıklığı olmalı (çok kesit; 28 kesitin 4'ü KARA, 6'sı ADA). Ölçülmedi, eksklav tarihsel değil.
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `KAYNAKLI`
+  - gerekçe: Aşağı Kaliforniya yarımadası Sonora'ya Colorado ırmağı deltasında kara komşu (Baja California-Sonora sınırı); 40,8 km 'abd' koridoru motor/kıyı sınırı yaklaşıklığı olmalı (çok kesit; 28 kesitin 4'ü KARA, 6'sı ADA). Ölçülmedi, eksklav tarihsel değil. [KAYNAK-1104 (kismen): 30 Aralik 1853 Gadsden Antlasmasi: sinir Colorado Irmagi'nin ortasindan gider, 'iki Kaliforniya' arasindaki eski bolme cizgisi korunur; yani Baja California'nin kuzey siniri Colorado/Kaliforniya cizgisidir. — "retaining the same dividing line between the two Californias" · Sonora-Baja kara komsulugunun delta ayrintisi ve 40,8 km 'abd' koridoru motor sorusu; kaynak yalniz sinir hattini verir.]
   - önerilen düzeltme: Motor sorusu (HAVVA): Colorado deltası ABD/Meksika sınırı kesişimi.
-  - kaynak: bulunamadı
+  - kaynak: Avalon Project (Yale), Gadsden Purchase Treaty, https://avalon.law.yale.edu/19th_century/mx1853.asp
 
 ### K048 · Delhi Sultanlığı (`delhi-sultanligi`) · 1311-01-01 → 1323-01-01 · 131.035 km²
 
@@ -2070,10 +2070,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 686.2 km · kakatiya 7/9, yadava 2/9
 - içindeki yerleşimler (8, s.eksklav 0): Madurai (delhi-sultanligi); Nagapatnam (delhi-sultanligi); Tancûr (Thanjavur) (delhi-sultanligi); Trichinopoly (Tiruchirappalli) (delhi-sultanligi); Pondişeri (sahipsiz); Cinci (Gingee) (delhi-sultanligi); Arkot (Arcot) (delhi-sultanligi); Vellor (Vellore) (delhi-sultanligi)
 - koridor yerleşimleri: Kurnûl (Kurnool) (kakatiya); Bîdar (kakatiya)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir. [KAYNAK-1104 (kismen): Alâeddin döneminde Devâgirî, Telingana, Dvârasamudra ve Madura Halacî üstünlüğünü kabul edip vergiye bağlandı (ilhak değil); Ma'ber Delhi'nin en güney eyaleti iken Celâleddin Ahsen Şah'ın isyanıyla 735/1334-35'te Delhi idaresinden çıktı. — "Dvârasamudra ve Madura gibi vilâyetler Delhi Halacîleri’nin üstünlüğünü kabul ederek vergiye bağlandılar" · 1311-1323 Madura için Delhi d: dönemi YAPAY-c destekli: o aralık en çok v: (vergili tâbi). Eyalet (d:) başlangıç günü TDV'de yok; bitiş 1334-35 (735 ∩ 1334 → 1334-08-30) teyitli.]
   - önerilen düzeltme: Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı).
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: TDV İslâm Ansiklopedisi, "Halacîler" (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler; "Tuğluklular" (S. Haluk Kortel), https://islamansiklopedisi.org.tr/tugluklular · önceki: bulunamadı (UZAK)
 
 ### K049 · Maratha Konfederasyonu (`maratha`) · 1732-01-01 → 1818-06-03 · 129.443 km²
 
@@ -2094,10 +2094,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
 - içindeki yerleşimler (14, s.eksklav 0): Suçava (Suceava) (avusturya); Çernovitz (Çernivtsi) (avusturya); Yazlofça (Yazlovets) (avusturya); Ostrava (Mährisch Ostrau) (avusturya); Karviná (Fryštát) (avusturya); Opava (Troppau) (avusturya); Lvov (avusturya); Zamość (avusturya) … +6
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Çekoslovakya 28.10.1918'de ayrıldı; Galiçya/Bukovina/Silezya Avusturya'da birkaç gün daha kaldı (Batı Ukrayna 1 Kasım, Krakov 31 Ekim). Çözülme anı.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Çekoslovakya 28.10.1918'de ayrıldı; Galiçya/Bukovina/Silezya Avusturya'da birkaç gün daha kaldı (Batı Ukrayna 1 Kasım, Krakov 31 Ekim). Çözülme anı. [KAYNAK-1104 (kismen): Ukrayna Ulusal Rada'si 18 Ekim 1918'de Lviv'de kuruldu; 1 Kasim 1918'de Lviv ve Galiciya ilce kentlerinde yonetimi ele gecirdi (yaklasik 150 yillik Avusturya yonetiminin sonu). 9 Kasim: ZUNR yapisi belirlendi. — "bringing to an end nearly 150 years of Austrian rule" · Cekoslovakya 28 Ekim ve Krakov 31 Ekim bu kaynakta okunmadi. Makalenin son 66.692 karakteri okunmadi.]
   - önerilen düzeltme: yok
-  - kaynak: bulunamadı
+  - kaynak: Encyclopedia of Ukraine, Galicia, http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CG%5CA%5CGalicia.htm
 
 ### K051 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1830-01-01 → 1890-11-04 · 126.599 km²
 
@@ -2130,10 +2130,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
 - içindeki yerleşimler (24, s.eksklav 0): Fiume (Rijeka) (sahipsiz); Ljubljana (avusturya); Maribor (Marburg) (avusturya); Villach (avusturya); Klagenfurt (avusturya); Lienz (avusturya); Graz (avusturya); Hartberg (avusturya) … +16
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Ljubljana ve Maribor 'avusturya' -> 1918-11-11, sonra yugoslavya; yugoslavya künyesi f=1918-12-01. Slovence bölge SHS Devleti ilanıyla (29 Ekim 1918, tarihsel iddia) bu kesitten önce Habsburg dışına çıkıyor; 1918-11-03 kesiti ile uyumsuz. Habsburg `habsburg` kimliği harita:avusturya takma adlı (t=1918-11-12). Fiume sahipsiz.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Ljubljana ve Maribor 'avusturya' -> 1918-11-11, sonra yugoslavya; yugoslavya künyesi f=1918-12-01. Slovence bölge SHS Devleti ilanıyla (29 Ekim 1918, tarihsel iddia) bu kesitten önce Habsburg dışına çıkıyor; 1918-11-03 kesiti ile uyumsuz. Habsburg `habsburg` kimliği harita:avusturya takma adlı (t=1918-11-12). Fiume sahipsiz. [KAYNAK-1104 (kismen): Sloven toprakları 1918'de Avusturya'dan ayrılarak Güney Slav devletine katıldı. · Yalnız yıl teyitli; 29 Ekim 1918 günü okunmadı. YAPAY-c (Ljubljana/Maribor 'avusturya' 1918-11-11'e dek) yıl düzeyinde destekli.]
   - önerilen düzeltme: Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı).
-  - kaynak: veri ölçümü (kayit.py, devletler.js)
+  - kaynak: Oxford Companion to Politics of the World, "Slovenia" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (kayit.py, devletler.js)
 
 ### K054 · Portekiz (`portekiz`) · 1887-01-01 → 1902-01-01 · 118.842 km²
 
@@ -2142,10 +2142,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 991.7 km · ingiltere 5/9, ovimbundu 2/9, kongo-serbest-devleti 1/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (2, s.eksklav 0): Saurimo (portekiz-angola); Dundo (portekiz-angola)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (992 km). Lunda (Saurimo, Dundo) Portekiz Angola'sından Kongo Serbest Devleti ve Ovimbundu ile ayrı. Portekiz-angola kaydı `harita: portekiz` takma adlı (ölçüldü) -> YAPAY-k değil. Dundo'nun 1887-1902 arasında var olup olmadığı kaynak ister.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (992 km). Lunda (Saurimo, Dundo) Portekiz Angola'sından Kongo Serbest Devleti ve Ovimbundu ile ayrı. Portekiz-angola kaydı `harita: portekiz` takma adlı (ölçüldü) -> YAPAY-k değil. Dundo'nun 1887-1902 arasında var olup olmadığı kaynak ister. [KAYNAK-1104 (celiski): Lunda Portekiz ile Kongo Serbest Devleti arasinda uluslararasi anlasma ile paylasildi: 25 Mayis 1891 antlasmasi, 24 Mart 1894 beyan. — "divided by international agreement between Portugal and the Congo Free State" · Atlas f=1887-01-01; kaynak Portekiz Lunda sinirini 1891/1894'e baglar. Dundo/Saurimo'nun 1887'de Portekiz oldugu teyit edilmedi. 1911 kaynak.]
   - önerilen düzeltme: Dundo/Saurimo için kuruluş ve Portekiz hâkimiyeti başlangıcı kaynakla.
-  - kaynak: veri ölçümü (devletler.js)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Angola, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Angola ; Congo Free State maddesi · önceki: veri ölçümü (devletler.js)
 
 ### K055 · Portekiz (`portekiz`) · 1575-01-01 → 1902-01-01 · 117.541 km²
 
@@ -2154,10 +2154,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 248.4 km · kasance 9/9
 - içindeki yerleşimler (7, s.eksklav 0): Kambambe (Cambambe) (portekiz-angola); Pungo Andongo (portekiz-angola); Massangano (portekiz-angola); Matamba (portekiz-angola); Kabasa (portekiz-angola); Luanda (portekiz-angola); Soyo (portekiz-angola)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Luanda/Massangano/Pungo Andongo Portekiz payı, Benguela-Güney payından Kasanç-Ovimbundu-Ndongo toprağı ile ayrı (koridor 248 km); 1575-1902 boyu parçalı Portekiz varlığı. portekiz-angola `harita: portekiz` takma adı (ölçüldü).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Luanda/Massangano/Pungo Andongo Portekiz payı, Benguela-Güney payından Kasanç-Ovimbundu-Ndongo toprağı ile ayrı (koridor 248 km); 1575-1902 boyu parçalı Portekiz varlığı. portekiz-angola `harita: portekiz` takma adı (ölçüldü). [KAYNAK-1104 (celiski): Luanda 1576'da kuruldu, Benguela 1617; Hollandalilar 1640-1648'de limanlari elinde tuttu (Portekiz egemenliginin tek kesintisi). — "The Dutch held the ports" · Atlas f=1575-01-01 (Luanda 1576, 1 yil fark) ve atlas 1640-48 Hollanda kesintisini gostermiyor olabilir. Massangano/Pungo Andongo yok. 1911 kaynak.]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (devletler.js)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Angola, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Angola · önceki: veri ölçümü (devletler.js)
 
 ### K056 · Britanya (`ingiltere`) · 1763-02-10 → 1783-09-03 · 116.208 km²
 
@@ -2190,10 +2190,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 65.5 km · mogulistan 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Sayram (İsficâb) (buhara); Çimkent (buhara); Türkistan (Yesi) (buhara); Taraz (Evliya-Ata) (buhara)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. 1500-1503 Şeybanî ilerleyişi: Sayram, Çimkent, Türkistan, Taraz 'buhara', koridor 65 km Moğulistan (Taşkent 1503'e dek Moğul). Şeybânî Han'ın bu şehirlere geliş tarihi kaynak ister.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. 1500-1503 Şeybanî ilerleyişi: Sayram, Çimkent, Türkistan, Taraz 'buhara', koridor 65 km Moğulistan (Taşkent 1503'e dek Moğul). Şeybânî Han'ın bu şehirlere geliş tarihi kaynak ister. [KAYNAK-1104 (kismen): Moğol hanı Mahmud Han Türkistan'ı (Yesi) Şeybânî Han'a yurtluk verdi (893/1488); Şeybânî 905-913 (1500-1507) yıllarında Mâverâünnehir, Hârizm ve Horasan'ı aldı. — "Mahmud Han, Türkistan’ı (Yesi) kendisine yurtluk olarak verdi (893/1488)" · Sir-Derya kentlerinin 1500-1503'te Şeybânî elinde, Taşkent'in Moğol elinde olması teyitli (Taşkent 1503, bkz. E011): GERÇEK. Sayram/Çimkent için ayrı tarih TDV'de yok.]
   - önerilen düzeltme: Yok; Sayram/Türkistan için f ucu kaynakla.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Şeybânîler" (İsmail Türkoğlu), https://islamansiklopedisi.org.tr/seybaniler
 
 ### K059 · Memlûk (`memluk`) · 1517-04-13 → 1517-05-19 · 111.759 km²
 
@@ -2226,10 +2226,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 263.2 km · cherokee 6/9, DENIZ/BOS 3/9
 - içindeki yerleşimler (3, s.eksklav 0): Wilmington (Kuzey Karolayna) (ingiltere); Occaneechi (Hillsborough) (ingiltere); Norfolk (Virginia) (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Wilmington (KK), Norfolk, Hartford, Providence 'ingiltere' 1783-09-03'e dek, çevre 'abd' 9/9. ABD 1776-07-04'te ilan edildi; Hartford/Providence savaşta İngiliz denetiminde değil (tarihsel iddia). Atlas hukuki egemenliği (1783 Paris) kullanıyor, çevre 'abd' fiilî; ikisi karışmış.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Wilmington (KK), Norfolk, Hartford, Providence 'ingiltere' 1783-09-03'e dek, çevre 'abd' 9/9. ABD 1776-07-04'te ilan edildi; Hartford/Providence savaşta İngiliz denetiminde değil (tarihsel iddia). Atlas hukuki egemenliği (1783 Paris) kullanıyor, çevre 'abd' fiilî; ikisi karışmış. [KAYNAK-1104 (kismen): Hukuki devir 3 Eylul 1783 Paris Antlasmasi ile; atlasin t=1783-09-03'u hukuki tarihtir. 4 Temmuz 1776 ve fiili Ingiliz isgal pencereleri okunmadi. — "Done at Paris, this third day of September" · Hukum fiili/hukuki karisikligini kaynak cozmez.]
   - önerilen düzeltme: Atlantik kıyısı noktaları 1776-07-04 -> 1783-09-03 abd (fiilî) ya da hepsi ingiltere; İngiliz işgal pencereleri (Norfolk 1776, Wilmington 1781-82) kaynakla.
-  - kaynak: veri ölçümü (kayit.py)
+  - kaynak: Avalon Project (Yale), Definitive Treaty 1783, https://avalon.law.yale.edu/18th_century/paris.asp · önceki: veri ölçümü (kayit.py)
 
 ### K062 · Britanya (`ingiltere`) · 1876-01-01 → 1899-01-01 · 108.209 km²
 
@@ -2238,10 +2238,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 254.0 km · portekiz 6/9, DENIZ/BOS 3/9
 - içindeki yerleşimler (6, s.eksklav 0): Blantyre (ingiltere); Zomba (ingiltere); Kuamba (sahipsiz); Mangoçi (ingiltere); Mankhamba (Maravi) (ingiltere); Nkhotakota (Cumbe) (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Blantyre 'ingiltere' f=1876-01-01 (1876 İskoç misyonu kuruluşu); İngiliz himayesi Shire Highlands 1889, Britanya Orta Afrika Himayesi 1891 (tarihsel iddia). Parça 1876-1899, dönem başı erken. Kuamba sahipsiz.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Blantyre 'ingiltere' f=1876-01-01 (1876 İskoç misyonu kuruluşu); İngiliz himayesi Shire Highlands 1889, Britanya Orta Afrika Himayesi 1891 (tarihsel iddia). Parça 1876-1899, dönem başı erken. Kuamba sahipsiz. [KAYNAK-1104 (kismen): Blantyre 1876'da Iskoc misyonerlerce kuruldu; Ingiliz himayesi/etki alani Johnston'in 1889 misyonu ve antlasmalariyla, imperial commissioner olarak donusu 1891; 'British Central Africa' adi 1893'te resmilesti. — "Blantyre was founded in 1876 by Scottish missionaries" · Hukumle (YAPAY) uyumlu: 1876 misyon kurulusu, Ingiliz egemenligi degil; himaye 1889-1891. 1911 kaynak.]
   - önerilen düzeltme: Blantyre/Zomba/Mangoçi 'ingiltere' f ucu kaynakla (1889-1891), öncesi yerel devlet (yao/maravi).
-  - kaynak: veri ölçümü (kayit.py Blantyre)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Blantyre (Nyasaland) ve British Central Africa, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/British_Central_Africa · önceki: veri ölçümü (kayit.py Blantyre)
 
 ### K063 · Britanya (`ingiltere`) · 1683-01-01 → 1885-03-31 · 106.542 km²
 
@@ -2262,10 +2262,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 10818.8 km · DENIZ/BOS 3/9, ingiliz-hindistani 2/9, kacar 2/9, racput 1/9, OSMANLI 1/9
 - içindeki yerleşimler (7, s.eksklav 0): Legazpi (ispanya); Naga (Camarines) (ispanya); Batangas (ispanya); Manila (ispanya); Malolos (sahipsiz); Vigan (ispanya); Tuguegarao (ispanya)
 - koridor yerleşimleri: Ava (İnwa) (ingiliz-hindistani); Çatgam (Chittagong) (ingiliz-hindistani); Nadia (Navadvipa/Nabadwip) (ingiliz-hindistani); Kâlincar (sahipsiz); Mahoba (sahipsiz); Orchha (Orcha) (bundela-orcha); İzeh (sahipsiz); Dur-Untaş (Çoğa Zanbil) (sahipsiz); Şüşter (kacar); Susa (sahipsiz) … +20
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (10819 km). Filipinler (Luzon), İspanya'dan uzak denizaşırı; çoğu kesit ADA. Malolos sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (10819 km). Filipinler (Luzon), İspanya'dan uzak denizaşırı; çoğu kesit ADA. Malolos sahipsiz. [KAYNAK-1104 (kismen): Ispanyol fethi 1565'te Legazpi ile Cebu'da basladi; 1898'de koloni ABD'ye devredildi. — "la conquista spagnola delle F. fu avviata (1565)" · Manila 24 Haziran 1571 ve Aralik 1898 gunleri sayfada yok; yalniz yil.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Treccani, Filippine, https://www.treccani.it/enciclopedia/filippine/ · önceki: bulunamadı (UZAK)
 
 ### K065 · Cungar Hanlığı (Kalmuk) (`cungar`) · 1720-01-01 → 1736-01-01 · 104.836 km²
 
@@ -2274,10 +2274,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 170.6 km · rusya 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (2, s.eksklav 0): Zmeinogorsk (cungar); Barnaul (cungar)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Üst Ob/Altay Cungar kesiti, Cungar ana gövdesinden Rus Irtış hattı ile ayrı (koridor 171 km). Ölçüldü: Barnaul cungar t=1730-01-01; Barnaul 1730'da kuruldu ve Zmeinogorsk 1736'da (tarihsel iddia) — 1720 kesitinde o yerler yok, nokta yer tutucu.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Üst Ob/Altay Cungar kesiti, Cungar ana gövdesinden Rus Irtış hattı ile ayrı (koridor 171 km). Ölçüldü: Barnaul cungar t=1730-01-01; Barnaul 1730'da kuruldu ve Zmeinogorsk 1736'da (tarihsel iddia) — 1720 kesitinde o yerler yok, nokta yer tutucu. [KAYNAK-1104 (kismen): Barnaul 1730'da A. Demidov tarafindan kuruldu (Altay madencilik merkezi). — "founded in 1730 by A. Demidov" · Hukumdeki 'Barnaul 1730'da kuruldu' dogrulaniyor; Zmeinogorsk 1736 ve Cungar-Rus hatti okunmadi. 1911 kaynak.]
   - önerilen düzeltme: Barnaul/Zmeinogorsk 'o devirde yok' (merdiven ④), Cungar-Altay hâkimiyeti noktaları kaynakla.
-  - kaynak: veri ölçümü (kayit.py Barnaul)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Barnaul, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Barnaul · önceki: veri ölçümü (kayit.py Barnaul)
 
 ### K066 · Britanya (`ingiltere`) · 1776-07-04 → 1783-09-03 · 103.732 km²
 
@@ -2286,10 +2286,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 73.0 km · abd 9/9
 - içindeki yerleşimler (5, s.eksklav 2): Hartford (ingiltere); Providence (ingiltere); Portsmouth (New Hampshire) (ingiltere); Pemaquid (ingiltere); Norridgewock (Abenaki) (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: K061 ile aynı: Hartford, Providence, Portsmouth (NH), Pemaquid 'ingiltere' 1783-09-03'e dek (Hartford, Providence ölçüldü), çevre abd 9/9 (koridor 73 km, 3 kesit). Yeni İngiltere kentleri 1776'dan itibaren fiilen ABD'dir (tarihsel iddia); İngiliz işgali yok.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: K061 ile aynı: Hartford, Providence, Portsmouth (NH), Pemaquid 'ingiltere' 1783-09-03'e dek (Hartford, Providence ölçüldü), çevre abd 9/9 (koridor 73 km, 3 kesit). Yeni İngiltere kentleri 1776'dan itibaren fiilen ABD'dir (tarihsel iddia); İngiliz işgali yok. [KAYNAK-1104 (kismen): Hukuki devir 3 Eylul 1783 (bkz. K061). — "Done at Paris, this third day of September" · Penobscot/Pemaquid 1779 isgali okunmadi.]
   - önerilen düzeltme: Yeni İngiltere noktaları 1776-07-04 f abd; Penobscot/Pemaquid İngiliz işgal penceresi (1779) kaynakla.
-  - kaynak: veri ölçümü (kayit.py)
+  - kaynak: Avalon Project (Yale), Definitive Treaty 1783, https://avalon.law.yale.edu/18th_century/paris.asp · önceki: veri ölçümü (kayit.py)
 
 ### K067 · Bengal Sultanlığı (`bengal-sultanligi`) · 1576-01-01 → 1576-07-12 · 102.548 km²
 
@@ -2310,10 +2310,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 232.8 km · astarhan 4/9, nogay 3/9, KENDI 2/9
 - içindeki yerleşimler (6, s.eksklav 0): Petrovsk (Saratov) (altinorda); Hvalınsk (sahipsiz); Syzran (altinorda); Samara (altinorda); Stavropol (Volga) (sahipsiz); Buzuluk (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. 1466-1502 Büyük Orda, Astarhan Hanlığı (f=1466) ve Nogay ile bölünmüş Volga; Orta Volga (Samara, Saratov) payı ana gövdeden kopuk. Hvalınsk, Stavropol (Volga), Buzuluk sahipsiz (sonraki kentler).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. 1466-1502 Büyük Orda, Astarhan Hanlığı (f=1466) ve Nogay ile bölünmüş Volga; Orta Volga (Samara, Saratov) payı ana gövdeden kopuk. Hvalınsk, Stavropol (Volga), Buzuluk sahipsiz (sonraki kentler). [KAYNAK-1104 (kismen): Astarhan Hanlığı 1466-1556 hüküm sürdü (Kasım Han 1466-1490); Altın Orda (Şeyh Ahmed Han 1481-1502) 1502'de Mengli Giray'ın Saray'ı tahribiyle sona erdi, toprakları Kırım ve Nogay arasında paylaşıldı. — "1466-1556 yılları arasında hüküm süren hanlıklardan biri" · 1466-1502 Büyük Orda'nın Astarhan'la bölünmüş Volga'da ayrık payları olması yapıyla uyumlu: GERCEK (düşük güven sürer — Orta Volga'nın Büyük Orda'ya ait olduğu TDV'de açıkça yok).]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Astarhan Hanlığı" (Mehmet Saray), https://islamansiklopedisi.org.tr/astarhan-hanligi; "Altın Orda Hanlığı" (Mehmet Saray), https://islamansiklopedisi.org.tr/altin-orda-hanligi
 
 ### K069 · Muvahhidler Devleti (`muvahhidler`) · 1150-01-01 → 1235-01-01 · 101.112 km²
 
@@ -2334,10 +2334,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 1003.9 km · habesistan 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (12, s.eksklav 0): Adi Kuala (italya); Adi Kayh (italya); Debârve (italya); Barentu (italya); Zula (italya); Asmara (italya); Ğındâ (italya); Arkîko (italya) … +4
 - koridor yerleşimleri: İmi (habesistan)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (1004 km). Eritre, İtalyan Somalisi/Libya'dan Habeşistan ve Sudan ile ayrı (bkz. K028).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (1004 km). Eritre, İtalyan Somalisi/Libya'dan Habeşistan ve Sudan ile ayrı (bkz. K028). [KAYNAK-1104 (kismen): Italya 1885'te Massaua'da Misir egemenliginin yerini aldi; 1890'da 'Colonia Eritrea' birlestirildi; 1941'de Ingiliz isgali. — "Colonia Eritrea" · 5 Subat 1885 gunu sayfada yok (yalniz yil).]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Treccani, Eritrea, https://www.treccani.it/enciclopedia/eritrea/ ; Treccani AOI (K001) · önceki: bulunamadı (UZAK)
 
 ### K071 · Osmanlı (`OSMANLI`) · 1604-06-08 → 1607-01-01 · 98.293 km²
 
@@ -2346,10 +2346,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 84.8 km · safevi 9/9
 - içindeki yerleşimler (19, s.eksklav 0): Mahmudâbâd (OSMANLI); Hadrut (sahipsiz); Salyan (OSMANLI); Şuşa (sahipsiz); Hankendi (Stepanakert) (sahipsiz); Askeran (sahipsiz); Ağdere (Martakert) (sahipsiz); Bakü (OSMANLI) … +11
 - koridor yerleşimleri: Şerur (Sharur) (safevi)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: 1604-1607 Şirvan/Karabağ Osmanlı payı (Bakü, Salyan, Mahmudâbâd), Erivan-Nahçıvan hattında Safevî (Şerur safevi) geri alımı ile ana gövdeden ayrı. İçteki sahipsizler (Şuşa 1750, Hankendi, Askeran, Ağdere, Hadrut) 1604'te yok = doğru.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: 1604-1607 Şirvan/Karabağ Osmanlı payı (Bakü, Salyan, Mahmudâbâd), Erivan-Nahçıvan hattında Safevî (Şerur safevi) geri alımı ile ana gövdeden ayrı. İçteki sahipsizler (Şuşa 1750, Hankendi, Askeran, Ağdere, Hadrut) 1604'te yok = doğru. [KAYNAK-1104 (kismen): Şah Abbas Revan'ın kontrolünü 1013/1604'te sağladı; Şah Abbas 1607'de Şirvan'ı yeniden Safevî idaresine kattı. — "Şah Abbas 1607’de bölgeyi yeniden Safevî idaresine kattı." · Revan hattında Safevî kopuşu (1604) ve Şirvan'ın 1607'ye dek Osmanlı'da kalması teyitli: GERÇEK. TDV yalnız yıl verir; 1604-06-08 hicrî 1013 (1604-05-30 → 1605-05-19) içinde, uyumlu. Gün teyitsiz.]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (cevre.py)
+  - kaynak: TDV İslâm Ansiklopedisi, "Şirvan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/sirvan; "Revan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/revan · önceki: veri ölçümü (cevre.py)
 
 ### K072 · Fransa (`fransa`) · 1661-01-01 → 1763-02-10 · 97.092 km²
 
@@ -2382,10 +2382,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 87.7 km · ispanya 5/9, creek-konfederasyonu 4/9
 - içindeki yerleşimler (2, s.eksklav 0): St. Augustine (ingiltere); Mission San Luis (Apalaçi) (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Doğu Florida (St. Augustine), Pensacola'nın düşüşünden (1781-05-08) sonra İngiliz Batı Florida'sından ayrı; İspanya ve Creek ile çevrili. Parça 1781-05-08 -> 1783-09-03 Paris Antlaşması. Gün tarihsel iddia, kaynakla teyit edilmedi.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Doğu Florida (St. Augustine), Pensacola'nın düşüşünden (1781-05-08) sonra İngiliz Batı Florida'sından ayrı; İspanya ve Creek ile çevrili. Parça 1781-05-08 -> 1783-09-03 Paris Antlaşması. Gün tarihsel iddia, kaynakla teyit edilmedi. [KAYNAK-1104 (kismen): 10 Subat 1763'te Florida Britanya'ya gecti ve Dogu/Bati Florida'ya bolundu; Galvez yonetimindeki Ispanya Bati Florida'da Pensacola'yi aldi (sayfada gun yok); 1783 Paris Baris'i Florida'yi Ispanya'ya geri verdi. — "returned Florida to Spain" · 8 Mayis 1781 (hukumdeki gun) bu sayfada yok; Pensacola 10 Mayis 1781 diye arama ozetinde gecti ama sayfa okunmadi.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: National Park Service, Fort Matanzas, The British Period (1763-1784), https://www.nps.gov/foma/learn/historyculture/the-british-period.htm
 
 ### K075 · Osmanlı (`OSMANLI`) · 1623-11-28 → 1638-12-24 · 89.304 km²
 
@@ -2394,10 +2394,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 385.3 km · safevi 9/9
 - içindeki yerleşimler (14, s.eksklav 0): Kuveyt (sahipsiz); Fâv (OSMANLI); Abâdân (OSMANLI); Eski Basra (Zübeyr) (sahipsiz); Muhammere (sahipsiz); Basra (OSMANLI); Eridu (Abu Shahrain) (sahipsiz); Charax Spasinou (sahipsiz) … +6
 - koridor yerleşimleri: Necef (safevi); Hîre (sahipsiz); Kûfe (safevi); Marad (Tell Wannat es-Sadum) (sahipsiz); Dilbat (Tell ed-Duleym) (sahipsiz); Hille (safevi); Babil (sahipsiz); Kiş (Tell Uhaimir) (sahipsiz); Kutha (Tell Ibrahim) (sahipsiz); Sippar (Tell Abu Habbah) (sahipsiz) … +3
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Safevîler Bağdat'ı 1623'te aldı ve Murad IV 24 Aralık 1638'de geri aldı (parça bitişi 1638-12-24 ile uyumlu, tarihsel iddia). Basra/Fâv/Abâdân Osmanlı'da kalıp Bağdat-Kûfe-Hille Safevî (ölçüldü, koridor 385 km). Koridordaki sahipsizler antik yerler (Babil, Kiş, Sippar vb.): emilme sorunu ayrı.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Safevîler Bağdat'ı 1623'te aldı ve Murad IV 24 Aralık 1638'de geri aldı (parça bitişi 1638-12-24 ile uyumlu, tarihsel iddia). Basra/Fâv/Abâdân Osmanlı'da kalıp Bağdat-Kûfe-Hille Safevî (ölçüldü, koridor 385 km). Koridordaki sahipsizler antik yerler (Babil, Kiş, Sippar vb.): emilme sorunu ayrı. [KAYNAK-1104 (tam): Derviş Mehmed iç kaleyi 28 Kasım 1623'te Safevîlere teslim etti; Bağdat 15 Ekim 1638'de başlayan kırk günlük kuşatma sonunda yeniden Osmanlı idaresine girdi. — "müdafaa etmekte olduğu iç kaleyi Safevîler’e teslim etti (28 Kasım 1623)" · Parça başlangıcı 1623-11-28 TDV ile birebir; bitiş 1638-12-24 kırk günlük kuşatmanın sonuyla uyumlu (15 Ekim + 40 gün ≈ 24 Kasım-Aralık; gün TDV'de yok).]
   - önerilen düzeltme: Yok.
-  - kaynak: veri ölçümü (cevre.py)
+  - kaynak: TDV İslâm Ansiklopedisi, "Bağdat" (Abdülazîz ed-Dûrî vd.), https://islamansiklopedisi.org.tr/bagdat · önceki: veri ölçümü (cevre.py)
 
 ### K076 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1753-04-01 → 1760-01-01 · 89.226 km²
 
@@ -2418,10 +2418,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 33.4 km · astarhan 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Rın kumulları (Volga-Yayık arası) (altinorda); Kamışin (altinorda)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Volga-Yayık arası Büyük Orda payı, Astarhan Hanlığı (koridor 33 km) ile ana gövdeden ayrı; göçebe alanda sınır ölçeği belirsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Volga-Yayık arası Büyük Orda payı, Astarhan Hanlığı (koridor 33 km) ile ana gövdeden ayrı; göçebe alanda sınır ölçeği belirsiz. [KAYNAK-1104 (kismen): Bkz. K068: Astarhan 1466'da kuruldu; Altın Orda 1502'de son buldu. · K068 ile aynı dayanak; Volga-Yayık payının sınır ölçeği belirsiz.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Astarhan Hanlığı" ve "Altın Orda Hanlığı" (Mehmet Saray), https://islamansiklopedisi.org.tr/astarhan-hanligi, https://islamansiklopedisi.org.tr/altin-orda-hanligi
 
 ### K078 · Osmanlı (`OSMANLI`) · 1871-04-20 → 1913-07-08 · 87.498 km²
 
@@ -2430,10 +2430,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 198.1 km · TABI 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (4, s.eksklav 0): Lahsa (OSMANLI); Katîf (OSMANLI); Cübeyl (OSMANLI); Ukayr (Uceyr) (OSMANLI)
 - koridor yerleşimleri: Kuveyt (TABI)
-- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Lahsa OSMANLI d 1871-04-20 -> 1913-07-08; Kuveyt v (Sabah emirliği, Osmanlı kazâsı) 1871-01-01 -> 1914-11-22 (statu vassal). Koridor TABI 8/9: Lahsa ile Basra arasındaki tek şerit Osmanlı'ya bağlı Kuveyt. Tâbi aynı hükümdara bağlı olduğu için kopukluk tâbiyi 'komşu' sayma artefaktı (Evren tanımı).
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Lahsa OSMANLI d 1871-04-20 -> 1913-07-08; Kuveyt v (Sabah emirliği, Osmanlı kazâsı) 1871-01-01 -> 1914-11-22 (statu vassal). Koridor TABI 8/9: Lahsa ile Basra arasındaki tek şerit Osmanlı'ya bağlı Kuveyt. Tâbi aynı hükümdara bağlı olduğu için kopukluk tâbiyi 'komşu' sayma artefaktı (Evren tanımı). [KAYNAK-1104 (kismen): Küveyt I. Dünya Savaşı öncesinde Basra vilâyetinin Basra sancağına bağlı üç kazadan biriydi; 23 Ocak 1899 Mübârek-İngiltere gizli antlaşması; 29 Temmuz 1913 Hakkı Paşa-Grey mukavelesi Küveyt'i Osmanlı'ya bağlı idarî birim saydı. — "Küveyt, I. Dünya Savaşı’ndan önceki yıllarda Osmanlı Devleti’nin Basra vilâyetinin Basra sancağına bağlı üç kazadan biri iken" · Lahsa ile Basra arasındaki Kuveyt şeridinin Osmanlı'ya bağlı olduğu teyitli: kopukluk tâbiyi yabancı sayma artefaktı (YAPAY-m) destekli. Motor sorusu olarak kalır.]
   - önerilen düzeltme: Motor sorusu: tâbi aracılı bitişiklik eksklav sayılmasın. Veri düzeltmesi yok.
-  - kaynak: veri ölçümü (kayit.py Lahsa, Kuveyt)
+  - kaynak: TDV İslâm Ansiklopedisi, "Küveyt" (Sırrı Erinç vd.), https://islamansiklopedisi.org.tr/kuveyt · önceki: veri ölçümü (kayit.py Lahsa, Kuveyt)
 
 ### K079 · Qing Hanedanı (Mançu) (`qing-hanedani`) · 1659-01-07 → 1677-01-01 · 87.494 km²
 
@@ -2442,10 +2442,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 493.7 km · san-fan 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Leizhou (qing-hanedani); Beihai (Pakhoi) (qing-hanedani); Wuzhou (qing-hanedani)
 - koridor yerleşimleri: Chenzhou (Hunan) (san-fan)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Qing Guangxi/Guangdong batı payı (Leizhou, Wuzhou), Qing ana gövdesinden Wu Sangui'nin Hunan'ı (Chenzhou san-fan) ile ayrı, 1676. Parça aralığı 1659 başlıyor, San Fan 1674 sonrası; ilk yıllar DAR-AYRIM (K045'in karşı parçası).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Qing Guangxi/Guangdong batı payı (Leizhou, Wuzhou), Qing ana gövdesinden Wu Sangui'nin Hunan'ı (Chenzhou san-fan) ile ayrı, 1676. Parça aralığı 1659 başlıyor, San Fan 1674 sonrası; ilk yıllar DAR-AYRIM (K045'in karşı parçası). [KAYNAK-1104 (kismen): Shang Zhixin 1676 başında Wu Sangui isyanına katıldı, 1677'de teslim oldu. — "Early in 1676 Shang Zhixin joined the rebellion" · Qing'in batı Guangdong/Guangxi payının 1676'da Wu Sangui Hunan'ı ve Shang'ın Guangdong'u arasında kalması isyan takvimiyle uyumlu; Leizhou/Wuzhou ayrıntısı okunmadı.]
   - önerilen düzeltme: Yok; aralık 1674-1677 olmalı.
-  - kaynak: veri ölçümü (cevre.py benzeri)
+  - kaynak: Eminent Chinese of the Qing Period, "WU Sangui" (Fang Chao-ying) — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (cevre.py benzeri)
 
 ### K080 · Avusturya (Habsburg) (`avusturya`) · 1809-10-14 → 1915-10-01 · 87.155 km²
 
@@ -2490,10 +2490,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 33.6 km · hanthawaddy 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (konbaung); Nan (konbaung); Chiang Mai (konbaung); Chiang Rai (konbaung)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Ölçüldü: Chiang Mai toungoo 1558-04-02 -> 1752-04-23, konbaung 1752-04-23 -> 1774-01-15; toungoo künye t=1752-01-01, konbaung f=1752-01-01 (geçiş günleri künyeyle çelişir). Hanthawaddy (t=1757-05-06) Konbaung gövdesi ile Lan Na arasına giriyor (33,6 km).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Ölçüldü: Chiang Mai toungoo 1558-04-02 -> 1752-04-23, konbaung 1752-04-23 -> 1774-01-15; toungoo künye t=1752-01-01, konbaung f=1752-01-01 (geçiş günleri künyeyle çelişir). Hanthawaddy (t=1757-05-06) Konbaung gövdesi ile Lan Na arasına giriyor (33,6 km). [KAYNAK-1104 (kismen): Lan Na 1774'te Burma'ya karşı ayaklandı. — "In 1774, Lan Na rebelled against Burma" · Chiang Mai'nin 1774'e dek Burma (Konbaung) idaresinde olduğu teyitli (atlas t=1774-01-15 uyumlu); 1752/1762-63 başlangıcı teyitsiz.]
   - önerilen düzeltme: Konbaung/toungoo künye uçları ile Chiang Mai dönem günü 1752 (gün bulunamadı).
-  - kaynak: veri ölçümü (devletler.js, kayit.py)
+  - kaynak: Oxford Encyclopedia of Economic History, "Thailand" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (devletler.js, kayit.py)
 
 ### K084 · Toungoo Hanedanı (Birmanya) (`toungoo`) · 1740-01-01 → 1752-04-23 · 85.751 km²
 
@@ -2502,10 +2502,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 33.6 km · hanthawaddy 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (toungoo); Nan (toungoo); Chiang Mai (toungoo); Chiang Rai (toungoo)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: K083 ile aynı parça (1740-1752): Hanthawaddy 1740 Mon isyanından sonra Ava-Pegu arasında; toungoo t=1752-01-01 ile Chiang Mai dönemi t=1752-04-23 çelişkisi var.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: K083 ile aynı parça (1740-1752): Hanthawaddy 1740 Mon isyanından sonra Ava-Pegu arasında; toungoo t=1752-01-01 ile Chiang Mai dönemi t=1752-04-23 çelişkisi var. [KAYNAK-1104 (kismen): Bkz. K083: Lan Na 1774'te Burma'ya karşı ayaklandı. · 1740-1752 Toungoo dönemi için doğrudan teyit yok; yalnız Burma bağlılığının genel çerçevesi.]
   - önerilen düzeltme: K083.
-  - kaynak: veri ölçümü
+  - kaynak: Oxford Encyclopedia of Economic History, "Thailand" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü
 
 ### K085 · Delhi Sultanlığı (`delhi-sultanligi`) · 1394-01-01 → 1479-01-01 · 81.686 km²
 
@@ -2514,10 +2514,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 364.5 km · cavnpur-sultanligi 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Rohtasgarh (sahipsiz); Gayâ (delhi-sultanligi); Rajagriha (Rājgīr) (sahipsiz); Patna (Azîmâbâd) (delhi-sultanligi)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Patna ve Gayâ delhi-sultanligi 1281 -> 1497, sonra bengal-sultanligi; cavnpur-sultanligi künyesi 1394-1483 (Cevnpur). Bihar 1394-1479 Cevnpur ve Bengal etkisi altındaydı (tarihsel iddia); Delhi Bihar'a Sikender Lodi ile 1490'larda ulaştı. Cevnpur 26%, Bengal 21% çevre. Rohtasgarh, Rajagriha sahipsiz.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Patna ve Gayâ delhi-sultanligi 1281 -> 1497, sonra bengal-sultanligi; cavnpur-sultanligi künyesi 1394-1483 (Cevnpur). Bihar 1394-1479 Cevnpur ve Bengal etkisi altındaydı (tarihsel iddia); Delhi Bihar'a Sikender Lodi ile 1490'larda ulaştı. Cevnpur 26%, Bengal 21% çevre. Rohtasgarh, Rajagriha sahipsiz. [KAYNAK-1104 (tam): Bihar 1394-1479 Jaunpur Şarkîlerinin elindeydi (Bengal'in değil); Delhi (Lodî) Jaunpur'u 1483'te, Bihar'ı 1495'te aldı. — "conquest of Jaunpur 1483 and of Bihar 1495 by Delhi" · YAPAY-c teyitli: Patna/Gayâ 'delhi-sultanligi 1281 → 1497' yanlış. Düzeltme: Patna/Gayâ cavnpur-sultanligi 1394 → (Hüseyin Şah Şarkî'nin Bihar'daki son yılları) 1495, delhi-sultanligi 1495 → (sonraki); 'bengal-sultanligi 1497' ucu kaynakla sınansın.]
   - önerilen düzeltme: Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün).
-  - kaynak: veri ölçümü (kayit.py Patna, Gayâ)
+  - kaynak: Dynasties of the World (2. bs.), "Jaunpur, Kingdom of"; Oxford Encyclopedia of the Islamic World, "Delhi Sultanate" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (kayit.py Patna, Gayâ)
 
 ### K086 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1136-01-01 → 1224-01-01 · 81.062 km²
 
@@ -2538,10 +2538,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 184.1 km · ponka 6/9, DENIZ/BOS 3/9
 - içindeki yerleşimler (2, s.eksklav 0): Quivira (Wiçita, Büyük Bükülme) (wicita); Fort Riley (Kansas Irmağı) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Wiçita (t=1859-01-01) Kansas (Quivira) kesiti, Kızıl Irmak Wiçita'sından Ponka toprağı ile ayrı. Wiçita grupları tarihsel olarak birbirinden uzak köylerde yaşardı; model tercihi. Fort Riley sahipsiz (1853'te kuruldu).
-  - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Wiçita (t=1859-01-01) Kansas (Quivira) kesiti, Kızıl Irmak Wiçita'sından Ponka toprağı ile ayrı. Wiçita grupları tarihsel olarak birbirinden uzak köylerde yaşardı; model tercihi. Fort Riley sahipsiz (1853'te kuruldu). [KAYNAK-1104 (celiski): Coronado 1541'de Kansas'ta 'Quivira' halkini gordu (Wichita). 1719'a gelindiginde grup Oklahoma'ya inmisti; Red River koyleri 1750-1810; 1858 Rush Springs koyu yikildi, 1859 Washita. — "By 1719 the group had moved south" · Kansas'ta 1750-1849 Wichita varligi (Quivira) bu kaynakta yok; 1719'da Oklahoma'ya inmis deniyor. Wichita'nin Kansas'a donusu iç savas (1860'lar). Hukum: 'model tercihi'.] [hüküm GERCEK/GERCEK → YAPAY/YAPAY-c, kaynak üzerine]
+  - önerilen düzeltme: Quivira/Kansas wicita noktası 1719 sonrası dönemi kaldırılsın ya da kaynakla yeniden kurulsun (Handbook of Texas: 1719'a dek grup Oklahoma'ya indi).
+  - kaynak: Handbook of Texas, Wichita Indians, https://tshaonline.org/handbook/entries/wichita-indians
 
 ### K088 · İngiliz Kuzey Amerikası (`ingiliz-kuzey-amerika`) · 1763-02-10 → 1786-01-01 · 80.298 km²
 
@@ -2562,10 +2562,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 243.4 km · kanem-tubu 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Mao (Kanem) (kanem-bornu)
 - koridor yerleşimleri: N'Gazargamu (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Mao (Kanem) kanem-bornu 1281 -> 1902; Rabih (f=1893, t=1900-04-22) Bornu'yu 1893'te aldı. 1893-1900 Kanem'de kanem-bornu adı, Rabih zamanında sorgulanabilir; koridor 243 km kanem-tubu. N'Gazargamu sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Mao (Kanem) kanem-bornu 1281 -> 1902; Rabih (f=1893, t=1900-04-22) Bornu'yu 1893'te aldı. 1893-1900 Kanem'de kanem-bornu adı, Rabih zamanında sorgulanabilir; koridor 243 km kanem-tubu. N'Gazargamu sahipsiz. [KAYNAK-1104 (kismen): Rabih Aralik 1893'te Kuka'ya girdi (Sultan Ahsem kacti), baskenti Dikwa'ya tasidi; 1900'de Kussuri'de (Shari asagisi) oldurulduse Fransiz kuvvetlerince. — "Rabah was killed at Kussuri" · Kanem/Mao uzerinde Rabih hakimiyeti bu kaynakta tarif edilmiyor; 22 Nisan 1900 gunu yok. 1911 kaynak.]
   - önerilen düzeltme: Mao 1893-1900 sahibi (Rabih/Kanem-Bornu) kaynakla.
-  - kaynak: veri ölçümü (kayit.py Mao)
+  - kaynak: Encyclopaedia Britannica 11. baski (1911, ESKI), Wikisource transkripsiyonu, Bornu, https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bornu · önceki: veri ölçümü (kayit.py Mao)
 
 ### K090 · Maratha Konfederasyonu (`maratha`) · 1761-01-14 → 1803-10-17 · 79.066 km²
 
@@ -2586,10 +2586,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 173.2 km · ponka 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Spiro (wicita); Fort Smith (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Spiro (Oklahoma) 1450 tek kesit; Spiro Höyükleri Caddo kültürü, Wiçita atfı sorgulu. Fort Smith sahipsiz (1817).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Spiro (Oklahoma) 1450 tek kesit; Spiro Höyükleri Caddo kültürü, Wiçita atfı sorgulu. Fort Smith sahipsiz (1817). [KAYNAK-1104 (kismen): Spiro 850-1450 arasinda Caddo dilli onderler icin kuruldu; 1450 donemin sonu. — "Caddoan-speaking leadership" · Wichita atfi bu sayfada YOK (yalniz Caddoan). Hukumdeki 'Wichita atfi sorgulu' dogrulaniyor, Wichita sahipligi teyit edilmedi.]
   - önerilen düzeltme: Spiro 1450-1682 sahibi kaynakla.
-  - kaynak: bulunamadı
+  - kaynak: Encyclopedia of Oklahoma History and Culture, Spiro Mounds, https://www.okhistory.org/publications/enc/entry?entry=SP012
 
 ### K092 · Hârizmşahlar (Anuştegin hânedanı) (`harizmsah`) · 1187-03-13 → 1200-07-04 · 77.257 km²
 
@@ -2658,10 +2658,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 186.3 km · ponka 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Taovaya (İspanyol Kalesi, Kızıl Irmak) (wicita); Fort Sill (Wiçita Dağları) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Taovaya (Kızıl Irmak) Wiçita köyü, Wiçita'nın öteki parçalarından ABD (%47) ve Ponka ile ayrı; parça 1849-1853. Fort Sill sahipsiz (1869).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Taovaya (Kızıl Irmak) Wiçita köyü, Wiçita'nın öteki parçalarından ABD (%47) ve Ponka ile ayrı; parça 1849-1853. Fort Sill sahipsiz (1869). [KAYNAK-1104 (kismen): Wichita Red River koyleri 1750'lerden; koyler aralikli olarak 1850'lere dek; 1858'de Rush Springs koyu ABD gucleriyle yikildi. · 'Taovaya' adi gecmiyor; 1849-1853 penceresi yok.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı
+  - kaynak: Handbook of Texas, Wichita Indians, https://tshaonline.org/handbook/entries/wichita-indians
 
 ### K098 · Timurlu valiliği (`timurlu`) · 1500-01-01 → 1504-01-01 · 72.211 km²
 
@@ -2670,10 +2670,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 346.3 km · buhara 9/9
 - içindeki yerleşimler (6, s.eksklav 0): Hucend (timurlu); Oş (timurlu); Hokand (timurlu); Fergana (sahipsiz); Andican (timurlu); Özkent (Uzgen) (sahipsiz)
 - koridor yerleşimleri: Bactria (sahipsiz)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ferğana (Babür'ün Timurlu payı, 1494-1504) Herat gövdesinden Şeybanî'nin Semerkand-Buhara toprağı ile ayrı (koridor 346 km). Fergana, Özkent sahipsiz: aslında yerler o devirde var (merdiven ④/⑤).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Ferğana (Babür'ün Timurlu payı, 1494-1504) Herat gövdesinden Şeybanî'nin Semerkand-Buhara toprağı ile ayrı (koridor 346 km). Fergana, Özkent sahipsiz: aslında yerler o devirde var (merdiven ④/⑤). [KAYNAK-1104 (kismen): Bâbür 9 Haziran 1494'te Fergana hükümdarı oldu; siyasî hayatı Fergana (1494-1504), Kâbil (1504-1526), Hindistan (1526-1530) devrelerine ayrılır. — "Fergana hâkimiyeti (1494-1504), Kâbil hâkimiyeti (1504-1526)" · 1500-1504 Fergana'da Timurlu (Bâbür) payı teyitli: GERCEK. Ara kayıplar (Semerkant 1500-01, Fergana'nın Tanbal'a geçişi) TDV özetinde ayrıntısız.]
   - önerilen düzeltme: Fergana, Özkent için sahip dönemi.
-  - kaynak: bulunamadı
+  - kaynak: TDV İslâm Ansiklopedisi, "Bâbür" (Enver Konukçu), https://islamansiklopedisi.org.tr/babur
 
 ### K099 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1572-11-18 → 1573-02-26 · 71.908 km²
 

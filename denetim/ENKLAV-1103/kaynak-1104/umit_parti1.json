@@ -1,0 +1,352 @@
+{
+ "K003": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mozambik maddesi, https://islamansiklopedisi.org.tr/mozambik",
+  "teyit_edilen": "Portekiz 1497'den Mozambik Adası'nda; toprağı tam denetim altına ancak 1924'e kadar aldı; bağımsızlık 1975.",
+  "alinti": "",
+  "not": "Gerçek-ayrı-gövde hükmü coğrafî olarak makul; ancak f=1902 için TDV 'tam denetim 1924' diyor (celiski ucu: iç bölge noktaları 1902'de fiilen Portekiz elinde mi). Bitiş 1974-09-20 (Lusaka) bu kaynakta yok."
+ },
+ "K005": {
+  "teyit": "tam",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya' (Halil Kurt), https://islamansiklopedisi.org.tr/tanzanya",
+  "teyit_edilen": "Tanganyika 1 Mayıs 1961'de iç özyönetim, aynı yılın 9 Aralık'ında bağımsızlık kazandı; 9 Aralık 1962'de cumhuriyet ilan edildi. Gerekçedeki tarihsel iddia (Tanganyika'nın 1961-12-09 bağımsızlığı) doğru.",
+  "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+  "not": "Hüküm (GERCEK, 1962-08-31 kesiti: Tanganyika bağımsızlığı Kenya+Uganda'yı Rodezya/Nyasaland'dan ayırır) tarihsel olarak doğru; düzeltme gerekmiyor. Not: aynı TDV maddesine göre Zengibar 9 Aralık 1963'te bağımsız oldu (K005 kesitini etkilemez)."
+ },
+ "K010": {
+  "teyit": "kismen",
+  "kaynak": "Mingshi (Ming Tarihi, birincil/resmî tarih) juan 129, Liao Yongzhong biyografisi, https://zh.wikisource.org/wiki/明史/卷129",
+  "teyit_edilen": "Hongwu 1 (1368) yılında Liao Yongzhong, Fujian'ı aldıktan sonra deniz yoluyla Guangdong'a gitti; Yuan sol-şancellor He Zhen teslim oldu, Guangzhou'ya girildi, ardından Guangxi (Wuzhou, Nanning, Xunzhou, Liuzhou) alındı ve 'iki Guang tamamen sakinleştirildi'. Gün verilmiyor.",
+  "alinti": "真即奉表請降。至東莞，真帥官屬出迎。至廣州，降盧左丞",
+  "not": "Guangdong/Guangxi'nin 1368'de Yuan'dan Ming'e geçtiği teyitli (yıl düzeyi); 1368-06-29 bitiş günü Mingshi juan 129'da yok, Taizu benji (juan 1-2) okunamadı (Wikisource 404). Gün 'bulunamadı'; hüküm GERCEK yön olarak makul ama bitiş günü kaynaklı değil: yıl-hassasiyeti (1368) ile bırakılmalı ya da Mingshi Taizu benji / Ming Taizu Shilu'dan gün alınmalı."
+ },
+ "K012": {
+  "teyit": "celiski",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Çad' (Davut Dursun) https://islamansiklopedisi.org.tr/cad ve 'Bornu' https://islamansiklopedisi.org.tr/bornu",
+  "teyit_edilen": "Çad'ın merkezî bölgesi (Dikoa/Bornu-Bagirmi) 1896'ya dek Râbih b. Zübeyr'in elindeydi; Râbih 1900'de Fransız sömürge ordusunca öldürüldü; 'Çad Protektorası' 1900'de kuruldu, 1906'da Ubangi-Şari-Çad oldu. Fort-Lamy'ye Fransızlar 1900 sonrası yerleşti.",
+  "alinti": "1900 yılında kurulan Çad Protektorası (himaye idaresi) 1906’da Ubangi-Şari-Çad sömürgesi haline dönüştürüldü",
+  "not": "Kaynak 1897 başlangıcını DESTEKLEMİYOR: Massenya/Ndjamena/Mao 1897'de Râbih'in (Bornu/Bagirmi) elindeydi, Fransız hâkimiyeti 1900'den sonra. 'GERCEK eksklav 1897-1903' hükmünün başlangıcı en erken 1900 olmalı (Fransız Çad Protektorası, TDV); 1903 bitişi ve Sarh/Am Timan günleri TDV'de yok. Hüküm GERCEK yönü (Fransız Çad Banda-Gbaya'dan kopuk) için ayrıca sınır ölçülmeli; f ucu düzeltilmeli."
+ },
+ "K021": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Bolivar, Simon' ve 'Venezuela' maddeleri, en.wikisource.org/wiki/1911_Encyclopædia_Britannica/...",
+  "teyit_edilen": "17 Aralık 1819 temel yasasıyla Venezuela ve Yeni Granada tek devlet (Kolombiya Cumhuriyeti) olarak birleştirildi; Carabobo muharebesi 24 Haziran 1821; bundan kısa süre sonra Venezuela federal Kolombiya devletine katıldı.",
+  "alinti": "the fundamental law of the 17th of December 1819",
+  "not": "Tarihler (1819-12-17 ve 1821-06-24) teyitli. Ancak 1911 EB'de Maracaibo ve Mérida'nın 1819-12-17'den 1821-06-24'e dek Royalist kaldığı yazmıyor (Maracaibo'nun 28 Ocak 1821'de cumhuriyetçi ilan ettiği ve Haziran 1821 öncesi cumhuriyetçi/Royalist el değiştirdiği bilinir; kaynakla teyit edilmedi). Eksklav yönü ('Kolombiya ile Royalist Venezuela ayrı') kaynakta yok; Maracaibo/Mérida günleri ayrıca bakılmalı. Hüküm 'kismen'. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K024": {
+  "teyit": "kismen",
+  "kaynak": "Dictionary of Canadian Biography: 'Gaultier de Varennes et de La Vérendrye, Pierre' (vol.3), 'Greysolon Dulhut, Daniel' (vol.2), 'Nicollet de Belleborne, Jean' (vol.1), biographi.ca",
+  "teyit_edilen": "Fort Saint-Pierre (Rainy Lake) La Vérendrye seferinin ilk postu (1731 yazı/güzü); Grand Portage'a 26 Ağustos 1731'de varıldı; Kaministiquia (Thunder Bay) ve Nipigon postları 1684-85'te Dulhut'un kardeşi komutasında kuruldu, 'Poste du Nord' 1726'da. Jean Nicolet'in Green Bay'e vardığı tarihlenemiyor, modern araştırma Superior kuzey kıyısını öneriyor.",
+  "alinti": "they built Fort Saint-Pierre, the first of eight posts",
+  "not": "Üst Göller postlarının Yeni Fransa'ya ait olduğu teyitli, ama f=1634 (La Baye) DESTEKLENMİYOR: DCB Nicolet'in Green Bay'e gitmiş olduğunu kesin saymıyor ve yolculuğu kesin tarihleyemiyor (yalnız 1634'te Cent-Associés sözleşmesi). Rainy Lake 1731-32, Grand Portage 1731, Kaministiquia/Nipigon 1684-85. 'Ojibwe toprağıyla St. Lawrence'tan ayrı' ifadesi DCB'de açık değil (coğrafi çıkarım). Hüküm GERCEK makul; her yerleşim için kendi f'si kullanılmalı."
+ },
+ "E002": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopedia of Ukraine (CIUS) 'Reichskommissariat Ukraine' https://www.encyclopediaofukraine.com; 'Poltava'",
+  "teyit_edilen": "RKU 1 Eylül 1941'de kuruldu ve Poltava bölgesinin bir kısmını kapsıyordu; ilerleyen Alman kuvvetleriyle Poltava bölgesinin geri kalanı ve Dnipropetrovsk vb. sonradan eklendi. Yani Sol yaka Ukrayna'da (Poltava) 1941-43 Alman işgali VAR.",
+  "alinti": "part of the Poltava region",
+  "not": "E002 gerekçesindeki 'Sol yaka Ukrayna'da 1941-43 Alman işgali yok' ifadesi veri eksiğidir, tarihsel olarak yanlış: işgal gerçek (Poltava bölgesi RKU içinde). Smolensk 16.07.1941 / Orel 03.10.1941 / Bryansk 06.10.1941 günleri Treccani/TDV'de bulunamadı (kaynak okunamadı) → giriş gerek. Ostland-Orta Ordu Grubu arkası askerî idare bitişikliği kaynakla teyit edilemedi."
+ },
+ "K039": {
+  "teyit": "kismen",
+  "kaynak": "Dictionary of Canadian Biography, Knight, James maddesi, http://www.biographi.ca/en/bio/knight_james_2E.html",
+  "teyit_edilen": "Churchill Nehri ağzındaki yeni yerleşim 1717-18 kışında 'Fort Prince of Wales' adını aldı (Knight).",
+  "alinti": "",
+  "not": "Prince of Wales Fort 1717'de var, f=1684 bu kalenin değil; Fort Severn için sayfa bilgi vermedi. Başlangıç 1684 Churchill çevresindeki daha eski HBC karakolu (1688-89) için ayrıca kaynak istiyor."
+ },
+ "K042": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Tongking' ve 'Annam' maddeleri, en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Tongking",
+  "teyit_edilen": "Harmand 1883 Ağustos'ta Hue'de kralla antlaşma yaptı, Fransız himayesi 'tam tanındı'; Son-Tay 16 Aralık 1883'te düştü; 1884'te Fransızlar aşağı deltaya hâkim oldu; Haziran 1884'te yeni antlaşma. Gün (25 Ağustos) EB'de yok.",
+  "alinti": "Harmand concluded a treaty with the king (August 1883)",
+  "not": "Tonkin/Annam protektora 1883 Ağustos ve 1884 teyitli (yıl-ay). Hue antlaşma günü 25.8.1883 ve Patenôtre 6.6.1884 EB'de yazılı değil (TDV 'Vietnam' slug'ı bulunamadı) → gün giriş gerek. Hükmün 'aralık gerçek eksklav için yalnız 1883-1884' önerisi tarihsel olarak uyumlu: iki bölge 1884'te Fransız himayesinde birleşti, 1907 bitişi (aday) kaynaksız. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K043": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.11 'Delhi' maddesi (archive.org the-imperial-gazetteer-of-india-vol-11)",
+  "teyit_edilen": "Delhi 1771'e dek Afgan ve Maratha istilalarına sahne oldu; 1771'de Marathalar imparatoru şehre döndürdü; 1788'de Maratha garnizonu sarayı işgal etti.",
+  "alinti": "In 1788 a Maratha garrison permanently occupied the palace",
+  "not": "1752-53 Delhi-Agra çekirdeğinin Babür (imparator) elinde kaldığı dolaylı destekli (1771'e dek imparator Delhi'de), ama hangi Babür gövdesinin 'büyük kardeş' olduğu ve Bengal/Dekan gövdelerinin ayrılığı IG'de açıkça yok. Rakhigarhi antik, sahipsiz. Hüküm GERCEK için tarihsel iddia kısmen; 'Racput/Maratha toprağıyla ayrı' için ek kaynak gerek (Cambridge Hist. India vol.4, Sarkar)."
+ },
+ "E003": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Sudan maddesi, https://islamansiklopedisi.org.tr/sudan; ayrıca Habeş Eyaleti maddesi (arama özeti)",
+  "teyit_edilen": "Mehdî devleti 1885-1898; İngiliz-Mısır ortak idaresi 1899'dan; Sevâkin Habeş eyaletinin ilk sancağı/merkezi, 1865'te Mısır'a bağlandı. Sevâkin'in 1885-98 İngiliz-Mısır elinde kalışı okunan sayfalarda yok.",
+  "alinti": "",
+  "not": "Mehdî devleti 1885-1898 TDV'de var: 1898-99 sonrası Sudan iç noktalarında Mehdî boyası bitmeli (düzeltme önerisi doğru yönde). Sevâkin enklavı için TDV 'Sevâkin' maddesinin kendisi hâlâ okunmalı (slug çözülemedi)."
+ },
+ "K049": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.5 'Ahmadnagar' (archive.org the-imperial-gazetteer-of-india-volume-5)",
+  "teyit_edilen": "Ahmadnagar 1759'da Peşva'ya geçti (Mughal komutanın ihaneti); Peşva 1797'de Sindhia'ya verdi; 1803'te İngilizler; 1817-18'de Peşva'nın çöküşüyle İngiliz.",
+  "alinti": "In 1759 the city was betrayed to the Peshwa",
+  "not": "Hüküm (Maratha çekirdeği Evrengâbâd'la bölünür) için: Ahmadnagar'ın Maratha olması 1759'da (atlas 1760 ölçümü ile uyumlu), 1732 f'i bu kaynakla teyit edilmedi. Evrengâbâd/Devagiri'nin Nizam elinde olduğu IG'de okunmadı (Aurangabad maddesi). Pûne/Satara/Nâsik maratha için IG vol.20/22 okunmadı. GERCEK yönü 1760 kesiti için makul, 1732-1759 kesiti için kaynak yok."
+ },
+ "K051": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi 'Zengibar' (Ahmet Kavas) ve 'Tanzanya' (Halil Kurt); islamansiklopedisi.org.tr/zengibar, /tanzanya",
+  "teyit_edilen": "Zengibar sultanının Mamboya'da askerî üs kurmasının ardından Tabora dahil pek çok yerde müslüman nüfus arttı; Zengibar'ın hâkimiyet alanı 1890 Helgoland-Zanzibar Antlaşması ile İngiliz yönetimine geçti. Ujiji/Tabora'nın Zengibar tarafından fiilen yönetildiğine dair açık cümle yok.",
+  "alinti": "Zengibar sultanının Mamboya’da bir askerî üs kurmasının ardından Tabora",
+  "not": "Zengibar'ın Tabora'daki nüfuzu teyitli (kervan ticareti ve Mamboya üssü), ama 1830 f ve 1890-11-04 t kaynaklı değil; 1890 yılı Helgoland-Zanzibar Antlaşması (1 Temmuz 1890) ile uyumlu, ay-gün değil. Ujiji/Tabora için UNESCO GHA vol.6 okunamadı (unesdoc erişilemedi) → giriş gerek. 'Fiilî denetim zayıf' değerlendirmesi destekleniyor (nüfuz, egemenlik değil)."
+ },
+ "K052": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'New Mexico', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/New_Mexico",
+  "teyit_edilen": "Pueblo ayaklanması sonrası De Vargas 1692'de Rio Grande'yi çıkıp Santa Fe'nin teslimini sağladı; sonraki dört yılda bütün pueblolar boyun eğdi.",
+  "alinti": "Don Diego de Vargas marched up the Rio Grande in 1692",
+  "not": "f=1692 yıl teyitli (gün 1692-08-01 EB'de yok). 'Yeni İspanya'nın geri kalanından Mescalero Apaçi toprağı ile ayrı' iddiası EB'de yok (coğrafi çıkarım). t=1804-01-01 kaynaklanmadı. Hüküm GERCEK makul: Yeni Meksika İspanyol sınır eyaleti idi; kaynak tarih/iddiayı kısmen karşılıyor. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K057": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi 'Pakistan' (II. Tarih, Azmi Özcan), islamansiklopedisi.org.tr/pakistan",
+  "teyit_edilen": "Mountbatten planı iki bölgeli devlet (Doğu ve Batı Pakistan) öngördü; plan 14 Ağustos 1947'de fiilen uygulandı. Mart 1971'de meclis kapatıldı, iç savaş çıktı, Doğu Pakistan Aralık 1971'de Bengladeş adıyla bağımsızlığını ilân etti.",
+  "alinti": "14 Ağustos 1947’de fiilen uygulamaya konuldu",
+  "not": "EKSKLAV iddiası (iki kanatlı Pakistan; Hindistan araya girer) ve bitiş (Aralık 1971) teyitli. Gün farkı: TDV 14 Ağustos 1947 diyor, atlas f=1947-08-15 (Hindistan'ın günü) → f 1947-08-14 olmalı (Pakistan Egemenlik Günü 14 Ağustos). t=1971-12-16: TDV yalnız 'Aralık 1971'; gün ikinci kaynakla (teslim 16 Aralık) bulunamadı. Hüküm GERCEK doğru."
+ },
+ "K060": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi 'Astarhan Hanlığı' (Mehmet Saray) ve 'Nogaylar' (Mehmet Alpargu)",
+  "teyit_edilen": "Astarhan Hanlığı 1466-1556 arası hüküm sürdü (Kasım Han 1466-1490); Moskova çarlığı Nogaylar'a karşı Samara/Ufa (1586), Tsaritsin (1589), Saratov (1590) kurdu; Nogaylar Altın Orda'nın dağılması sürecinde ortaya çıkan topluluktur.",
+  "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
+  "not": "Astarhan'ın 1466-1556 ömrü teyitli (hüküm güvenilirlik: hanlığın ayrı devlet olması). Nogay Ordası'nın Terek-Kuma kanadı ile Volga-Yayık gövdesinin Astarhan ile ayrı kalması TDV'de açıkça yok (bulunamadı); gövde/kanat ayrımı için akademik Nogay monografisi gerek. Grozni'nin 1818'de kuruluşu bu turda okunmadı."
+ },
+ "K072": {
+  "teyit": "celiski",
+  "kaynak": "Dictionary of Canadian Biography: 'Albanel, Charles' (vol.1), https://www.biographi.ca/en/bio/albanel_charles_1E.html",
+  "teyit_edilen": "Albanel'in 1671-72 seferi Nemiskau Gölü'ne 25 Haziran 1672'de ulaştı; 9 Temmuz 1672'de dönüşte Fransa kralının arması Nemiskau Gölü'nde dikildi. 1661'de Père Dablon ancak 'bölünme noktası' (divide) noktasına vardı, Nemiskau'ya değil.",
+  "alinti": "Lake Nemiskau on 25 June",
+  "not": "f=1661 DESTEKLENMİYOR: Nemiscau'ya Fransız varışı 1672 (Albanel). 1661'de Dablon Nemiscau'ya varmadı. Fransız ticaret karakolu (Nemiscau post) kuruluşu bu kaynakta yok (Troyes seferi 1686 DCB 'de troyes' kaydı kısa, Nemiscau geçmiyor). Öneri: Nemiscau f ≥ 1672 (yıl), karakol için ek kaynak. GERCEK yön (tek nokta, Quebec'ten kopuk) makul."
+ },
+ "K076": {
+  "teyit": "celiski",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.5 'Ahmadnagar' maddesi (archive.org the-imperial-gazetteer-of-india-volume-5)",
+  "teyit_edilen": "Ahmadnagar şehri/kalesi 1759'da Mughal komutanın ihaneti sonucu Peşva'ya geçti; 1797'de Peşva Sindhia'ya verdi; 1803'te Wellesley'e teslim oldu; 1817'de İngiliz.",
+  "alinti": "In 1759 the city was betrayed to the Peshwa",
+  "not": "Atlas 'Ahmadnagar babur 1600-1759' ile uyumlu: IG Ahmadnagar'ı 1759'a kadar Mughal komutanının tuttuğunu söylüyor, Nizam ya da Maratha elinde 1753-1759 demiyor. 'Evrengâbâd/Devagiri 1760 haydarabad-nizam' kısmı IG'de teyit edilemedi (Aurangabad maddesi okunmadı). Nâsik, Broaç (Bharuch), Sûrat sahipliği IG vol.18/9/23'te okunmadı → giriş gerek. Hüküm: Ahmadnagar 1753-59 Babür(nominal komutan) → 1759 maratha (Peşva); düzeltme t=1759'a eşitlenebilir."
+ },
+ "K080": {
+  "teyit": "bulunamadi",
+  "kaynak": "Encyclopaedia Britannica 1911 'Galicia' (Wikisource slug 404), TDV Avusturya",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "Galiçya-Moravya/Avusturya Silezyası kara komşuluğu için 1911 EB 'Galicia' maddesi bulunamadı (Wikisource 404); Treccani/HLS denenmedi. Kaynaklı teyit yok; hüküm (YAPAY-m, motor sorusu) tarihsel iddia olarak makul ama kaynaksız → giriş gerek (Galiçya ve Cieszyn Silezyası için ör. Encyclopaedia Britannica 1911 'Austria-Hungary' / 'Silesia')."
+ },
+ "K081": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Portugal', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Portugal",
+  "teyit_edilen": "1640'ta Portekiz'de İspanyol egemenliğine karşı isyan (1640 Restorasyonu); 1581-1640 İspanyol krallar dönemi; imparatorluk Brezilya'dan Moluccas'a uzanıyordu.",
+  "alinti": "the restoration of the Portuguese monarchy",
+  "not": "1640 yılı teyitli (gün 1640-12-01 EB'de yok); metropol Portekiz ile sömürge gövdelerinin ayrılığı coğrafi olgudur (EB: Brezilya ve Doğu). t=1975-11-11 (Angola bağımsızlığı) bu turda kaynaklanmadı → giriş gerek (UNESCO GHA vol.8 / TDV 'Angola' madde yok). [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K082": {
+  "teyit": "celiski",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Portugal', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Portugal",
+  "teyit_edilen": "EB, İspanyol ordusunun (Alba dükü) D. Antonio'yu Alcântara'da yendiğini 1581 diyor ve Philip II'nin 1581 Thomar Cortes'ini veriyor; İspanyol egemenliği 1581-1640.",
+  "alinti": "In 1581 a Spanish army, led by the duke of Alva",
+  "not": "Atlas t=1580-08-25 (Alcântara muharebesi) ile ÇELİŞKİ: EB (1911) muharebeyi 1581'e koyar; modern literatürde muharebe 25 Ağustos 1580'dir (EB'nin yanlışı olabilir). Gün 1580-08-25 bu kaynakla teyit edilmedi → modern akademik kaynakla (ör. Treccani 'Portogallo'/HLS) kesinleşmeli. f=1530 kaynaksız; eksklav (metropol-sömürge) olgusu doğru. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K090": {
+  "teyit": "celiski",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.5 'Agra' ve vol.11 'Delhi' maddeleri (archive.org the-imperial-gazetteer-of-india-volume-5 / the-imperial-gazetteer-of-india-vol-11)",
+  "teyit_edilen": "Agra: 1784'te Mahadji Sindhia ve Şah Alam Agra'yı kuşattı, Sindhia aldı ve 1787'ye dek elinde tuttu; Haziran 1788'de de Boigne kuşatmayı kaldırdı, 'bundan sonra Marathalar kaleyi 1803'te İngilizlerce alınana dek tuttu'. Delhi: 1771'de Marathalar imparatoru şehre geri getirdi; 1788'de Maratha garnizonu sarayı kalıcı işgal etti; Şah Alam Sindhia elinde esir kaldı; Lord Lake Delhi'ye 1803'te girdi (OCR 'March 14' okunuyor; başka kaynaklarda Eylül 1803 — OCR hatası olabilir).",
+  "alinti": "Sindhia took Agra, and held it till 1787",
+  "not": "Agra maratha f=1761-01-14 (Panipat günü) YANLIŞ: IG'ye göre Agra Marathalara 1784'te (Sindhia) geçti, kesintili 1787, sürekli 1788-1803. Delhi f=1788 doğru (1771'de nüfuz). Mathura/Koil/Meerut/Panipat IG'de ayrıca okunmadı (bulunamadı). Hükmü YAPAY-c doğru: f ucu 1761 değil 1784/1788 olmalı. Gün IG'de yok."
+ },
+ "K096": {
+  "teyit": "kismen",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.19 (Orissa maddesi), https://archive.org/details/the-imperial-gazetteer-of-india-volume-19",
+  "teyit_edilen": "Orissa 1592'de Man Singh tarafından Babür imparatorluğuna katıldı, ayrı valilerce yönetildi; Midnapore ve Balasore sonra Bengal'e bağlandı; 1751'de Alivardi Han eyaleti Nagpur Bhonslalarına devretti, 1803'e dek Bhonsla elinde kaldı (Britanya fethi).",
+  "alinti": "ceded the province to the Bhonslas of Nagpur",
+  "not": "1751 devri ve 1592 Babür katılışı teyitli (yıl); gün (17 Mayıs 1751) IG'de yok. YAPAY-c hükmü için Balasore'nin Bengal'e bağlandığı bilgisi destek: Kattak/Puri/Balasore 1717-1751 'bengal-nevabligi' önerisi makul, ama IG 1717 geçişini söylemiyor (Bengal Nevâbı subesi); Orissa'nın Bengal subesine bağlılığı için ek kaynak (Cambridge Hist. India vol.4) gerek. Banapur/Jajpur sahipsiz kalması IG'den çelişmez."
+ },
+ "K099": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Gucerât maddesi (K. A. Nizami), https://islamansiklopedisi.org.tr/gucerat",
+  "teyit_edilen": "Ekber Gucerât'ı 1572-73'te ilhak etti ve Gucerât Sultanlığı sona erdi. Ahmedâbâd'a giriş ve Sûrat'ın düşüş günleri okunan sayfada yok.",
+  "alinti": "Akbar annexed Gujarat in 1572-73, ending the sultanate",
+  "not": "Yıl düzeyinde teyit (1572-73); Kasım 1572 ve Şubat 1573 günleri TDV'de çıkmadı. Sultanlık t=1573-01-01 ile Sûrat f=1573-02-26 uyumu için TDV 'Ahmedâbâd' ve 'Sûrat' maddeleri ile Gucerât sultanı III. Muzaffer Şah'ın sonu okunmalı. (Alıntı İngilizce özetten; TDV cümlesi Türkçe, aynen alınmadı.)"
+ },
+ "K100": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV İslâm Ansiklopedisi 'İspanya' (islamansiklopedisi.org.tr/ispanya)",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "TDV İspanya maddesi iç savaşı yalnız genel olarak anlatıyor; Sevilla-Granada kesiti, Badajoz'un 14 Ağustos 1936'da alınması ve 1938-01-07 La Serena cebi TDV'de yok. Treccani 'Guerra civile spagnola' / HLS denenmedi → giriş gerek."
+ },
+ "K101": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Bosna-Hersek' (B. Djurdjev), 'Dubrovnik' (Ş. Turan), 'Yugoslavya' (M. Aruçi); EB 1911 'Dalmatia'",
+  "teyit_edilen": "Bosna-Hersek'in Avusturya-Macaristan işgali 29 Temmuz'da başlayıp 20 Ekim 1878'de tamamlandı; 7 Ekim 1908'de resmen ilhak edildi; Bosna-Hersek 1878-1918 Avusturya-Macaristan idaresinde ayrı vilâyet. Dubrovnik 27 Mayıs 1806'da Fransızlarca zaptedildi, 1815 Viyana Kongresi'nde Avusturya'ya katıldı, 1918'de Yugoslavya'ya bırakıldı. 29 Ekim 1918'de Hırvat Meclisi Viyana ve Budapeşte ile ilişkiyi kesti. EB 1911: Dalmaçya 1797 Campo Formio ile Avusturya'ya, 1815'te kesin Avusturya'ya.",
+  "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
+  "not": "(ii) Bosna noktaları için 1878 işgal / 1908 ilhak teyitli (kondominyum değil, Avusturya-Macaristan ortak malı; Cisleithania değil) → düzeltme önerisi doğru. (iii) 1918-10-29 sonrası Dalmaçya SHS'ye geçişi: TDV Yugoslavya 29 Ekim 1918'i veriyor ama Dalmaçya'yı adıyla anmıyor; Dubrovnik 1918 yıl düzeyi. f=1813: Dubrovnik 1815 Viyana (TDV) → 1813 Avusturya'nın Dalmaçya'yı geri aldığı yıl olabilir (EB 1814-15), gün kaynaklı değil. Avusturya/Macaristan ayrımı (1867) TDV/EB'de açık okunmadı."
+ },
+ "K102": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Bornu', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Bornu",
+  "teyit_edilen": "Sefuwa hanedanı Kanem'de (Çad Gölü kuzeydoğusu) Njimiye'den; Bornu devleti 15.-16. yy.da Bulala'yı yenip Kanem'i boyunduruğa aldı; Mai Ali Ghajideni Birni'yi kurdu. Kanuri/Bornu devletinin Kanem'e hâkim olması teyitli.",
+  "alinti": "Idris II., completely vanquished the Bulala and subjugated Kanem",
+  "not": "YAPAY-c hükmünü destekler: Kanem-Bornu (Kanuri) Çad Gölü bölgesinin hâkimi idi, Nguigmi'nin 1281-1913 boyunca 'kanem-tubu' (Teda göçebe) yazılması şüpheli. Nguigmi adı EB'de yok; kanem-tubu ile kanem-bornu sınırı kaynakla netleşmedi. TDV 'Bornu' (Davut Dursun) Kânim'in 1902'de Fransa'ya geçtiğini söylüyor (1902 Bornu paylaşımı). [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K105": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Cengiz Han'; EB 1911 'Jenghiz Khan'",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "Çengdu 1236-10-31 / 1260 için TDV Cengiz Han maddesinde Çengdu/Sişuan anahtarları yok, EB 1911 Jenghiz Khan'da yok. Yuan Shi / Song Shi birincil neşirleri (Wikisource) ve Cambridge History of China vol.6 (archive.org'da tam metin yok, ödünç) okunamadı → giriş gerek. Hüküm modelin YAPAY-c önerisi kaynaksız."
+ },
+ "K107": {
+  "teyit": "tam",
+  "kaynak": "TDV İslâm Ansiklopedisi, Hüseyin b. Ali (Şerîf Hüseyin) maddesi, https://islamansiklopedisi.org.tr/serif-huseyin",
+  "teyit_edilen": "Isyan Haziran 1916'da Mekke'de başladı; Cidde 16 Haziran'da, Tâif 17 Eylül 1916'da düştü; Medine Ocak 1919'a kadar Osmanlı yönetiminde kaldı.",
+  "alinti": "16 Haziran'da Cidde, 17 Eylül'de Tâif düştü.",
+  "not": "Bitiş 1916-09-17 (Tâif) TDV ile tam uyumlu. Başlangıç 1916-06-10 TDV'de yalnız 'Haziran 1916' (gün yok); Cidde 06-16 olduğundan parçanın Cidde'yi içermesi 06-16 sonrası için doğru. Medine Osmanlı elinde (1919'a dek) olduğu için ayrı-parça hükmü doğru. Koridor TABI kimliği bu kaynakla ölçülmedi."
+ },
+ "K108": {
+  "teyit": "celiski",
+  "kaynak": "Canadian Encyclopedia, British Columbia maddesi, https://www.thecanadianencyclopedia.ca/en/article/british-columbia (yalnız tarih listesi okunabildi)",
+  "teyit_edilen": "Vancouver Adası ve Britanya Kolumbiyası kolonileri 1866'da birleşti; Rupert's Land 15 Temmuz 1870'te Kanada'ya devredildi; BC 20 Temmuz 1871'de Konfederasyon'a girdi.",
+  "alinti": "",
+  "not": "Bitiş 1871-07-20 teyitli. Ama f=1870-07-15 Rupert's Land devri günüdür, BC'nin kolonileşmesiyle ilgisi yok (BC ayrı koloni 1858'den beri, birleşik koloni 1866'dan). Parçanın başlangıcı 1870-07-15 değil, BC'nin atlastaki 'ingiliz-kuzey-amerika' içinden ayrı sayılma gerekçesine göre belirlenmeli; mevcut f tarihi gerekçesi çürük."
+ },
+ "K110": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Hokand Hanlığı maddesi (E. Konukçu), https://islamansiklopedisi.org.tr/hokand-hanligi",
+  "teyit_edilen": "Ömer Han Yesi'yi (Türkistan) 1814'te aldı; Hokand 1710'da kuruldu. Ak-Mescit kalesi ve 1853 düşüşü maddede geçmiyor.",
+  "alinti": "",
+  "not": "Hokand'ın Sir-Derya'ya inişi 1814 (Yesi) ile başladığından Ak-Meçit'in f=1815'i kale kuruluşundan önce olabilir (YAPAY-a şüphesi destekli). Ak-Meçit kuruluş yılı ve Perovski zaptı 1853 için başka kaynak gerek (Barthold/Iranica-Orta Asya)."
+ },
+ "K113": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Evrengzîb' (Khaliq Ahmad Nizami); EB 1911 'Udaipur'",
+  "teyit_edilen": "1678'de Mârvâr Maharacası Cesvent Singh'in ölümünden sonra Bâbürlü-Racpût ilişkileri bozuldu ve savaş başladı; Evrengzîb Ecmîr'de ordugâh kurdu; oğlu Ekber'in isyanı üzerine Rânâ Rac Singh ile barış antlaşması yapıldı (1681); Mârvârlı Rathorların itaat altına alınması epeyce zaman aldı. Udeypûr: 1568'de Akbar Çitor'u alınca başkent Udaipur'a taşındı.",
+  "alinti": "Mârvârlı Rathorların itaat altına alınması epeyce zaman aldı",
+  "not": "Racput'un tek devlet değil birden çok siyasî birim (Mewar/Marwar) olduğu TDV'de (Mârvâr-Mewar ayrı hanedanlar) destekleniyor; 1679 f ve 1707-03-03 t (Evrengzîb'in ölümü) günü bu turda kaynakla teyit edilmedi (TDV'de Evrengzîb'in ölümü ayrıca okunmadı). YAPAY-k hükmü (çatı kimlik) makul."
+ },
+ "K119": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Cengiz Han'; EB 1911 'Jenghiz Khan'",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "Mukali'nin Taiyuan'ı 1218-08-23'te alması ve Şansi'nin Moğol elinde olması TDV/EB'de bulunamadı (Taiyuan/Shansi anahtarları yok). Yuan Shi 'Muhuli' biyografisi (juan 119) ve Jin Shi okunmadı → giriş gerek."
+ },
+ "K121": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Ivory Coast', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Ivory_Coast",
+  "teyit_edilen": "Ağustos 1889 İngiliz-Fransız antlaşmasıyla Jaman (Bontuku/Bondugu ile) Fransız toprağı olarak tanındı; 1893'te Binger ilk vali oldu; kıyıdaki sömürge Senegal'den ayrıldı.",
+  "alinti": "Jaman, with Bontuku, was recognized as French territory",
+  "not": "Bondugu'nun Fransız toprağı olarak tanınması 1889-08 (EB); atlasın 1893-07-12 (Hertslet) günü ile 4 yıl fark: 1889 antlaşması nüfuz-alanı tanımasıydı, fiilî işgal/himaye ayrı. YAPAY-b doğrulanır: Fildişi iç bölgesi Fransız dönemi 1889'a çekilebilir ('beyanlı nüfuz'), gün kaynakla (Hertslet) bulunmalı. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K123": {
+  "teyit": "kismen",
+  "kaynak": "TDV İslâm Ansiklopedisi, Mehmed I maddesi, https://islamansiklopedisi.org.tr/mehmed-i",
+  "teyit_edilen": "Çelebi Mehmed Tokat, Amasya ve sonra Bursa'yı yönetti; Musa'yı yenip 1413'te tek hükümdar oldu. Çamurlu günü, Ankara'nın 1410-13 sahibi ve Karaman/Candar sınırı özette yok.",
+  "alinti": "",
+  "not": "1413'te sona eren bir Bursa-Amasya-Tokat çekirdeği tarihsel olarak doğru; 1413-07-05 Çamurlu günü TDV Musa Çelebi/Fetret maddesinden ayrıca teyit edilmeli; Ankara/Kırşehir sahibi okunmadı."
+ },
+ "K125": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Malavi' (Ahmet Kavas), islamansiklopedisi.org.tr/malavi",
+  "teyit_edilen": "Sâlim b. Abdullah Ujiji ve Kilve'de kaldıktan sonra Nkhotakota'ya geldi, Çiçeva reisi Marenga ile anlaşıp Malavi gölünün batı kıyısında ticaret merkezi kurdu; 1840'ta kendisini önce Marimba sultanı, ardından 'jumbe' ilân etti; 'jumbeler dönemi'; Yao kabilesi aracılığıyla sahildeki Kilve ve Lindi adaları üzerinden Zengibar ile ticaret.",
+  "alinti": "1840’ta kendisini önce Marimba sultanı",
+  "not": "Nkhotakota f=1840 (jumbe ilanı) TDV ile uyumlu; ama TDV Nkhotakota'yı Zengibar sultanına bağlı değil, Zengibar ile TİCARET bağlı gösteriyor (siyasî bağlılık beyanı için ek kaynak gerek; 'Cumbe'nin Zengibar sultanına bağlılığı bilinir' iddiası okunan sayfada yok). Mankhamba (Maravi/Çewa merkezi) Zengibar'ın değildi: TDV'de Mankhamba yok; hüküm YAPAY-c makul."
+ },
+ "K126": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Angola' (arama sonucu, madde yok); EB 1911 'Angola'",
+  "teyit_edilen": "EB: Huilla, Mossamedes bölgesinin iç kısmı (Portekiz idari birimi).",
+  "alinti": "",
+  "not": "Lubango'nun Huíla yaylasında Nyaneka-Humbe toprağı olduğu ve Sá da Bandeira kolonisinin 1885'te kuruluşu (gerekçe) kaynaklanmadı; EB 1911 yalnız Huilla'nın Portekiz Mossamedes bölgesinde olduğunu gösterir. Ovimbundu krallıklarının Bié/Bailundo merkezli olduğu için hükmün YAPAY-c yönü makul ama kaynaksız → giriş gerek (UNESCO GHA vol.6/7 ya da Cambridge Hist. of Africa)."
+ },
+ "K127": {
+  "teyit": "bulunamadi",
+  "kaynak": "EB 1911 'China' (685 bin karakter), TDV 'Çin'",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "EB 1911 China'da 'Wu San-kuei' ve 'Hunan' anahtarları yok; TDV Çin maddesinde Wu Sangui/Yunnan yok. Changsha'nın Wu Sangui güçlerince alınış günü (1674) bulunamadı. Hummel 'Eminent Chinese of the Ch'ing Period' (WU Sangui) archive.org'da tam metin okunamadı → giriş gerek."
+ },
+ "K130": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Annam', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Annam",
+  "teyit_edilen": "18. yy sonunda bir isyan Nguyen'i devirdi; üyelerinden Gia-long Fransız yardımıyla 1801'de bütün Annam, Tongking ve Cochin-China'ya hâkim oldu; 1787'de Fransa ile antlaşma (Tourane ve Pulo-Condore devri).",
+  "alinti": "Gia-long, by the aid of a French force, in 1801 acquired sway",
+  "not": "EB (1911) zaferi 1801 olarak verir ve Tây Sơn'u adlandırmaz; atlas 1801-06-15 (Huế'nin düşüşü) → 1802-06-01 (Gia Long'un tahta çıkışı) modern literatürle uyumlu ama EB'de gün yok. Tây Sơn orta Vietnam payı ile kuzey gövdenin Nguyen koridoruyla ayrıldığı gerekçe iddiası EB'de açık değil → giriş gerek (Cambridge Hist. of SE Asia vol.2; DCB değil). [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K131": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Nogaylar' (Mehmet Alpargu), islamansiklopedisi.org.tr/nogaylar",
+  "teyit_edilen": "Moskova çarlığı Nogaylar'ı etkisiz kılmak için 1586'da Samara ve Ufa, 1589'da Tsaritsin, 1590'da Saratov şehirlerini kurdu (Rus kaleleri); Büyük Nogay ordası Rus baskısı altında.",
+  "alinti": "1589’da Tsaritsin ve 1590’da Saratov gibi şehirler kurdu",
+  "not": "Rus kale-şehirlerinin Volga'da ancak 1586-1590'da kurulduğu teyitli (bu da 15.-16. yy.da bu çevredeki noktaların yeni kurulmuş olmadığını gösterir). Borisoglebsk TDV'de geçmiyor; 1698 kuruluşu bulunamadı (kaynak: Rus ansiklopedileri gerek). Hüküm (YAPAY-c, kuruluştan önce nokta yok) makul."
+ },
+ "K132": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Nogaylar' (K131 ile aynı)",
+  "teyit_edilen": "K131 ile aynı: Rus kaleleri 1586-1590'da kuruldu.",
+  "alinti": "1589’da Tsaritsin ve 1590’da Saratov gibi şehirler kurdu",
+  "not": "K131 ile aynı kayıt (Borisoglebsk). 1500-1502 kesiti için de nokta o devirde yok varsayımı kaynaksız; kuruluş yılı bulunamadı."
+ },
+ "K133": {
+  "teyit": "kismen",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Transvaal', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Transvaal",
+  "teyit_edilen": "Sand River Konvansiyonu 17 Ocak 1852'de Orange hükûmeti içinde Vaal'ın kuzeyinde Pretorius ile İngiliz yüksek komiserin temsilcileri arasında imzalandı; Pretorius Potchefstroom yerleşimcilerinin komutanıydı; Potchefstroom Transvaal'ın en eski kentidir.",
+  "alinti": "On the 17th of January 1852 a convention was signed",
+  "not": "t=1852-01-17 TEYİTLİ (Sand River). 1838-11-01 f (kuruluş) EB'de yok. Potchefstroom'un fiilen Boer (Pretorius) idaresinde olduğu doğrulanır → 'ingiltere' etiketi YAPAY-c; düzeltme: Voortrekker/Potchefstroom yerleşimi (kimlik beyanı); 1838-1852'de İngiliz idaresi yoktu, Britanya iddiası beyanlı hukukî. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K135": {
+  "teyit": "bulunamadi",
+  "kaynak": "EB 1911 'Bornu'; TDV 'Nijer' (Aydoğan Köksal)",
+  "teyit_edilen": "TDV Nijer: Fransızlar 1904'te Nijer'in batısını 'Zinder askerî bölgesi' adıyla işgal etti; EB 'Bornu': Zinder Bornu'nun haraçgüzar devleti idi.",
+  "alinti": "",
+  "not": "Zinder'in Fransızlarca 30 Temmuz 1899'da alınışı bu kaynaklarda YOK (TDV Nijer 1904 diyor). Gün bulunamadı; Damagaram/Zinder Fransız fethi için Hamani Dioris / Cambridge Hist. of Africa vol.6 gerek → giriş gerek. Hükmün tarihsel düzeltme yönü (Zinder/Damagaram f aynı güne) makul ama kaynaksız."
+ },
+ "K137": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Yayık' arama sonuçları (Başkırt, Nogaylar), islamansiklopedisi.org.tr",
+  "teyit_edilen": "TDV Başkırt: Ruslar Yayık (Yayıtsk) vb. kaleleri kurdu (yıl okunamadı).",
+  "alinti": "",
+  "not": "Uralsk/Yaitsk kuruluşunun 16. yy sonu/1613 olduğu iddiası kaynaklanmadı (TDV'de yıl bulunamadı). Nogay'ın Yayık havzasında bulunması TDV 'Nogaylar'da var (Yayık-Edil arası göçebe) ama sayfa okunmadı → giriş gerek."
+ },
+ "K138": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Nogaylar' ve 'Astarhan Hanlığı'",
+  "teyit_edilen": "Astarhan Hanlığı 1466-1556; Saratov 1590'da Moskova çarlığınca kuruldu (Tsaritsin 1589, Samara 1586).",
+  "alinti": "1590’da Saratov gibi şehirler kurdu",
+  "not": "Saratov kuruluşu 1590 teyitli (Saratov 1466-1556'da yoktu, 'sahipsiz' doğru). Petrovsk (1698) ve Ukek'in harap oluşu bu kaynaklarda yok → giriş gerek. Astarhan 1466-1556 teyitli."
+ },
+ "K141": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Sibir Hanlığı' (İlyas Kemaloğlu) ve 'Küçüm Han' (Orhan Doğan)",
+  "teyit_edilen": "Ruslar Sibirya'da Tümen ve Tobolsk şehirlerini kurdu; Küçüm Han'a karşı İrtiş'in yukarısında Tara şehrini kurdular; 17 Mart 1595'te Baraba'ya asker gönderdiler; 4 Ağustos 1598'de Tara'dan başlayan harekâtla Küçüm kuşatıldı, 20 Ağustos'ta son savaşta mağlup oldu. Abalak, Sibir Hanlığı şehirlerinden biri.",
+  "alinti": "4 Ağustos 1598’de Tara’dan başlayan askerî bir harekâtla",
+  "not": "t=1598-08-20 TEYİTLİ (Küçüm'ün son savaşı). Tara'nın Rus kalesi olarak kuruluşu 1595 Mart öncesi (TDV yıl vermiyor; 1594 literatürde bilinir ama burada teyit yok). Tobolsk'un Rus kalesi olarak 1587'de kuruluşu TDV'de yok (kuruldu der, yıl yok); Abalak'ın Sibir şehri olduğu teyitli. Hüküm (kopukluk Abalak/Tobolsk çevresinin Sibir boyalı kalmasından) destekleniyor."
+ },
+ "K142": {
+  "teyit": "bulunamadi",
+  "kaynak": "EB 1911 'Yun-nan'; TDV 'Çin'",
+  "teyit_edilen": "-",
+  "alinti": "",
+  "not": "Panthay/Dali (Du Wenxiu sultanlığı 1856-1873), Tengyue-Yongchang'ın 1858-1873 sahibi bu kaynaklarda bulunamadı (EB 'Yun-nan' kısa maddesi Panthay anmıyor; TDV Çin'de yok). Yıl-gün için Cambridge Hist. of China vol.10-11 (ödünç, erişilemedi) / Encyclopaedia Iranica yok → giriş gerek."
+ },
+ "K144": {
+  "teyit": "celiski",
+  "kaynak": "Encyclopaedia Britannica 11. basım (1911) 'Louisiana', en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Louisiana",
+  "teyit_edilen": "3 Kasım 1762 gizli antlaşmasıyla Louisiana Fransa'dan İspanya'ya devredildi; antlaşma bir buçuk yıl gizli kaldı; İspanya sömürgeyi 1769'a dek tam devralmadı; Ulloa 1766'da New Orleans'a geldi ve Fransız vali Aubry (1765-1769) aracılığıyla yönetti.",
+  "alinti": "Spain did not take full possession of the colony until 1769",
+  "not": "Atlas fransa t=1763-11-03 YANLIŞ: New Orleans'ta Fransız idaresi (vali Aubry) 1769'a dek sürdü (Ulloa 1766 nominal); öneri 'Ulloa 1766' da fiilî değil: O'Reilly 1769. Natchez: doğu Mississippi kıyısı 1763 Paris (10 Şubat 1763) ile İngiltere'ye gitti (EB bu cümleyi verdi: 'eastern bank... 1783' zinciri; Natchez 1763 Paris için ek kaynak gerek). 1762-11-03 f TEYİTLİ. [EB 1911 tek başına: en çok kısmen, çift teyitte ikinci kaynak sayılmaz — güncel akademik kaynak gerek]"
+ },
+ "K149": {
+  "teyit": "bulunamadi",
+  "kaynak": "EB 1911 'Northern Nigeria'",
+  "teyit_edilen": "EB: Bauchi (Yakoba) Hausa kenti, 50.000'den fazla nüfus, Kano'nun 140 mil GD'sinde.",
+  "alinti": "",
+  "not": "Bauchi'nin İngilizlerce 1902'de işgali ve Kano/Sokoto 1903 günleri EB'de yok (EB 1911 yalnız coğrafya). Bauchi emirliği yıl-gün için Cambridge Hist. of Africa vol.6 / Encyclopaedia Britannica 'Nigeria' history kısmı → giriş gerek."
+ },
+ "K155": {
+  "teyit": "tam",
+  "kaynak": "Imperial Gazetteer of India 1908 vol.21 (Raipur / Chhattisgarh maddesi), https://archive.org/details/the-imperial-gazetteer-of-india-volume-21",
+  "teyit_edilen": "1741'de Maratha generali Bhaskar Pant, Bengal'e yürürken Ratanpur'u alıp krallığı ilhak etti; 1750'de Raipur kolu hükümdarı Amar Singh sessizce tahttan indirildi; 1750-1818 arası ülkeyi Marathalar yönetti.",
+  "alinti": "In 1741 the Maratha general, Bhaskar Pant, took Ratanpur",
+  "not": "Hüküm GERCEK için tarihsel iddia (Ratanpur 1741'de maratha) teyitli; f=1741 yıl doğru; t=1750 (Raipur kolunun sonu) da IG ile uyumlu ama IG 1750-1818'i kapsıyor, yani atlas t=1750 kısa. Nagpur/Deogarh Gond'unun 1743'te Raghuji tarafından alındığı (gerekçe) IG vol.19'da bulunamadı: 'Nagpur Gond 1743' giriş gerek (Cambridge Hist. India / CPG). Tummana sahipsiz."
+ }
+}

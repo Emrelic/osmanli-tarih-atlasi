@@ -1,0 +1,1132 @@
+[
+ {
+  "sira": 3,
+  "ad": "Teb",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0185-01-01",
+  "madde": "Teb isyanı bastırıldı: Komanos Yukarı Mısır'ı Ptolemaios hâkimiyetine geri aldı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 4,
+  "ad": "Efes",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0087-01-01",
+  "madde": "Mithridates Asia eyaletini işgal etti; Efes Vespers'i (80.000 Romalı katliamı)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 6,
+  "ad": "Çamurlu",
+  "sinif": "OLAY YERİ",
+  "not_": "1413 Çamurlu Savaşı (Bulgaristan, Samokov yöresi)",
+  "madde_t": "1413-07",
+  "madde": "Çelebi Mehmed birliği yeniden kurdu",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 7,
+  "ad": "Karlofça",
+  "sinif": "YERLEŞİM",
+  "not_": "antlaşma yeri, kasaba",
+  "madde_t": "1699-01-26",
+  "madde": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+  "koordinat": [
+   45.20278,
+   19.93361
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Sremski Karlovci (alt adlar arasında Karlofça), Sırbistan, Voyvodina · https://www.geonames.org/3190101/sremski-karlovci.html"
+ },
+ {
+  "sira": 8,
+  "ad": "Dumlupınar",
+  "sinif": "OLAY YERİ",
+  "not_": "Büyük Taarruz / Başkomutan Meydan Muharebesi",
+  "madde_t": "1922-09-09",
+  "madde": "Büyük Taarruz ve İzmir'in kurtuluşu",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 10,
+  "ad": "Elefantin",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0024-01-01",
+  "madde": "Kandake önderliğinde Kush Elefantin, Syene ve Philae'yi aldı; Augustus heykellerini yıktı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 11,
+  "ad": "Kalhu (Nimrud)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0878-01-01",
+  "madde": "II. Aşşurnasirpal Kalhu'yu (Nimrud) Asur'un yeni başkenti yaptı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 12,
+  "ad": "Pınarbaşı Höyüğü",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-7999-01-01",
+  "madde": "Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 13,
+  "ad": "Dzheitun (Ahal)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-5926-01-01",
+  "madde": "Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 15,
+  "ad": "Tongatapu",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0742-01-01",
+  "madde": "Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi sona erer",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 16,
+  "ad": "Tembladera",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0799-01-01",
+  "madde": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edilir",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 18,
+  "ad": "Kom el-Ahmar",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-3463-01-01",
+  "madde": "Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 21,
+  "ad": "Qalʿat Sherqat",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0613-01-01",
+  "madde": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler tarafından",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 22,
+  "ad": "Tell Halaf (Guzana)",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-5499-01-01",
+  "madde": "Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 23,
+  "ad": "Arad",
+  "sinif": "YERLEŞİM",
+  "not_": "şehir (madde Világos teslimi — Arad ilinde)",
+  "madde_t": "1849-08-13",
+  "madde": "Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı",
+  "koordinat": [
+   46.18333,
+   21.31667
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Arad, Romanya, Arad ili merkezi · https://www.geonames.org/686254/arad.html"
+ },
+ {
+  "sira": 24,
+  "ad": "İnönü",
+  "sinif": "OLAY YERİ",
+  "not_": "İnönü muharebeleri",
+  "madde_t": "1921-01-10",
+  "madde": "Birinci İnönü Muharebesi: düzenli ordunun ilk zaferi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 25,
+  "ad": "Nukuʻalofa",
+  "sinif": "YERLEŞİM",
+  "not_": "şehir",
+  "madde_t": "1893-02-18",
+  "madde": "I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)",
+  "koordinat": [
+   -21.13667,
+   -175.20111
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Nuku'alofa, Tonga başkenti · https://www.geonames.org/4032402/nuku-alofa.html"
+ },
+ {
+  "sira": 26,
+  "ad": "Berka",
+  "sinif": "YER DEĞİL",
+  "not_": "Berka = Bingazi/Kirenayka bölgesi",
+  "madde_t": "1911-10-16",
+  "madde": "Derne'nin İtalyan çıkarmasıyla elden çıkışı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 27,
+  "ad": "Otrar",
+  "sinif": "YERLEŞİM",
+  "not_": "şehir",
+  "madde_t": "1218-01-01",
+  "madde": "Otrar'da 450 kişilik Moğol kervanı öldürüldü; Alâeddin Muhammed Cengiz Han'ın tazminat isteğini redd",
+  "koordinat": [
+   42.91333,
+   68.34361
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Otrar (Otyrar), Kazakistan, Türkistan ili — yerleşim; antik höyük (Otyrar-tobe) yakını, KASA höyük konumunu tercih edebilir · https://www.geonames.org/1520295/otrar.html"
+ },
+ {
+  "sira": 28,
+  "ad": "Çayeli",
+  "sinif": "YERLEŞİM",
+  "not_": "kasaba",
+  "madde_t": "1916-03-08",
+  "madde": "Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü",
+  "koordinat": [
+   41.08583,
+   40.72194
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Çayeli (Mapavri), Türkiye, Rize · https://www.geonames.org/749502/cayeli.html"
+ },
+ {
+  "sira": 29,
+  "ad": "Karaburun",
+  "sinif": "OLAY YERİ",
+  "not_": "Börklüce Mustafa isyanı, Karaburun yarımadası",
+  "madde_t": "1416-05-01",
+  "madde": "Şeyh Bedreddin isyanı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 30,
+  "ad": "Otlukbeli",
+  "sinif": "OLAY YERİ",
+  "not_": "1473 savaşı",
+  "madde_t": "1473-08-11",
+  "madde": "Otlukbeli Savaşı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 31,
+  "ad": "Mercidabık",
+  "sinif": "OLAY YERİ",
+  "not_": "1516 savaşı",
+  "madde_t": "1516-08-24",
+  "madde": "Mercidabık Zaferi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 32,
+  "ad": "Ridaniye",
+  "sinif": "OLAY YERİ",
+  "not_": "1517 savaşı",
+  "madde_t": "1517-01-22",
+  "madde": "Ridaniye — Mısır'ın fethi ve hilâfet",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 33,
+  "ad": "Haçova (Mezőkeresztes)",
+  "sinif": "OLAY YERİ",
+  "not_": "1596 meydan muharebesi",
+  "madde_t": "1596-10-26",
+  "madde": "Haçova Meydan Muharebesi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 34,
+  "ad": "Granbosa (Gramvousa)",
+  "sinif": "KALE/YAPI",
+  "not_": "ada kalesi",
+  "madde_t": "1692-01-01",
+  "madde": "Granbosa Kalesi'nin fethi — Girit'in Venedik'te kalan kayalık kalelerinden biri",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 36,
+  "ad": "Spinalonga",
+  "sinif": "KALE/YAPI",
+  "not_": "ada kalesi",
+  "madde_t": "1715-01-01",
+  "madde": "Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 37,
+  "ad": "Bucaş",
+  "sinif": "YERLEŞİM",
+  "not_": "antlaşma yeri, kasaba",
+  "madde_t": "1672-10-18",
+  "madde": "Bucaş Antlaşması — en geniş sınırlar",
+  "koordinat": [
+   49.06222,
+   25.39472
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Buchach (Bucac), Ukrayna, Ternopil · https://www.geonames.org/711348/buchach.html"
+ },
+ {
+  "sira": 38,
+  "ad": "Küçük Kaynarca",
+  "sinif": "YERLEŞİM",
+  "not_": "antlaşma yeri, köy",
+  "madde_t": "1774-07-21",
+  "madde": "Küçük Kaynarca Antlaşması",
+  "koordinat": [
+   43.99278,
+   27.50694
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Kaynardzha, Bulgaristan, Silistre · https://www.geonames.org/730504/kaynardzha.html"
+ },
+ {
+  "sira": 39,
+  "ad": "Sevr",
+  "sinif": "YERLEŞİM",
+  "not_": "antlaşma yeri, Paris banliyösü (ülke dışı)",
+  "madde_t": "1920-04",
+  "madde": "TBMM'nin açılışı ve Sevr",
+  "koordinat": [
+   48.82278,
+   2.2175
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Sèvres (alt ad Sevr), Fransa, Hauts-de-Seine (ilk sorgu Deux-Sèvres/Niort verdi — elle düzeltildi) · https://www.geonames.org/2974678/sevres.html"
+ },
+ {
+  "sira": 40,
+  "ad": "Tepedelen",
+  "sinif": "YERLEŞİM",
+  "not_": "kasaba",
+  "madde_t": "1820-03-01",
+  "madde": "Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması",
+  "koordinat": [
+   40.29583,
+   20.01917
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Tepelenë, Arnavutluk · https://www.geonames.org/781443/tepelene.html"
+ },
+ {
+  "sira": 41,
+  "ad": "Pandeleimon Manastırı",
+  "sinif": "KALE/YAPI",
+  "not_": "Yanya gölü adasında manastır",
+  "madde_t": "1822-02-14",
+  "madde": "Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 42,
+  "ad": "Karánşebeş (Caransebeş)",
+  "sinif": "YERLEŞİM",
+  "not_": "şehir/kale",
+  "madde_t": "1552-08-01",
+  "madde": "Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin devamı",
+  "koordinat": [
+   45.41667,
+   22.21667
+  ],
+  "konum": "beyanlı konum (GeoNames; ad + ülke maddeyle tutuyor) — Caransebeş, Romanya, Caraș-Severin · https://www.geonames.org/682729/caransebes.html"
+ },
+ {
+  "sira": 48,
+  "ad": "Nikopolis (Doğu Pontus)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0065-01-01",
+  "madde": "Pompeius Mithridates'i yendi; Pontus Roma'ya bağlandı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 54,
+  "ad": "Kynoskephalai (Tesalya)",
+  "sinif": "OLAY YERİ",
+  "not_": "antik savaş yeri",
+  "madde_t": "-0196-01-01",
+  "madde": "Kynoskephalai: Roma V. Philippos'u yendi; Makedonya Yunanistan'dan çekilmeye mecbur kaldı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 56,
+  "ad": "Sikyon",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0250-01-01",
+  "madde": "Aratos Sikyon'u Akhaia Birliği'ne kattı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 57,
+  "ad": "Argos",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0271-01-01",
+  "madde": "Pyrrhos Argos'ta öldü",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 61,
+  "ad": "Lysimakheia (Gelibolu Yarımadası)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0308-01-01",
+  "madde": "Lysimakhos Lysimakheia'yı kurdu: Trakya Khersonesos'unda başkent",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 62,
+  "ad": "Baktra",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0326-01-01",
+  "madde": "Baktria ve Sogdiana İskender'e boyun eğdi; İskender Roksane ile evlendi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 64,
+  "ad": "Miletos",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0333-01-01",
+  "madde": "Batı Anadolu kıyısı İskender'e geçti: Efes, Miletos ve Halikarnassos",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 65,
+  "ad": "Halikarnassos",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0333-01-01",
+  "madde": "Batı Anadolu kıyısı İskender'e geçti: Efes, Miletos ve Halikarnassos",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 66,
+  "ad": "Ithome (Messene)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0369-01-01",
+  "madde": "Messenia Sparta'dan ayrıldı; Messene kuruldu",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 67,
+  "ad": "Leuktra (Boiotia)",
+  "sinif": "OLAY YERİ",
+  "not_": "antik savaş yeri",
+  "madde_t": "-0370-01-01",
+  "madde": "Leuktra: Teb ordusu Spartalıları yendi; Sparta kara üstünlüğünü yitirdi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 68,
+  "ad": "Teb (Boiotia)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0378-01-01",
+  "madde": "Pelopidas Teb'i kurtardı; Sparta garnizonu Kadmeia'dan atıldı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 69,
+  "ad": "Sybota (Epiros kıyısı)",
+  "sinif": "OLAY YERİ",
+  "not_": "antik savaş yeri",
+  "madde_t": "-0432-01-01",
+  "madde": "Sybota: Korint–Korkyra savaşı Atina'yı müdahaleye çekti",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 70,
+  "ad": "Eleusis (Attika)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0504-01-01",
+  "madde": "Korint'in çekilmesiyle Peloponnes Birliği'nin Atina seferi dağıldı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 73,
+  "ad": "Nisibis",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "0198-01-01",
+  "madde": "Septimius Severus Mezopotamya'yı eyalet yaptı; Ktesifon yağmalandı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 78,
+  "ad": "Premnis (Qasr İbrim)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0022-01-01",
+  "madde": "Petronius Kush'a karşı sefere çıkıp Pselkis, Premnis ve Napata'yı aldı; İbrim'e garnizon yerleştirdi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 80,
+  "ad": "Philae",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0028-01-01",
+  "madde": "Cornelius Gallus ilk Mısır prefekti oldu; Heroonpolis ve Teb isyanlarını bastırdı, Kush ile sınır gü",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 84,
+  "ad": "Eltekeh",
+  "sinif": "OLAY YERİ",
+  "not_": "antik savaş yeri",
+  "madde_t": "-0700-01-01",
+  "madde": "Sennakerib Yehuda seferinde Kush-Mısır ordusuyla Eltekeh'te karşılaştı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 85,
+  "ad": "Beth-Shean",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1293-01-01",
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 86,
+  "ad": "Yenoam",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1293-01-01",
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 87,
+  "ad": "Kadeş",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1293-01-01",
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 88,
+  "ad": "Akhetaton",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1347-01-01",
+  "madde": "IV. Amenhotep (Akhenaton) Mısır'ın başkentini Akhetaton'a (Amarna) taşıdı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 89,
+  "ad": "Amada",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1424-01-01",
+  "madde": "II. Amenhotep Nubya'da Napata'ya ulaştı ve güney sınır steli dikti: Mısır'ın en güney noktası",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 90,
+  "ad": "Semne",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1866-01-01",
+  "madde": "III. Sesostris Semne'de Mısır'ın güney sınırını II. Şelale'ye çekti; Nubyalıların geçişini yasakladı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 91,
+  "ad": "Khalkedon",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "0451-10-08",
+  "madde": "Khalkedon Konsili: İskenderiye Patriği Dioskoros mahkûm edildi; Mısır Kilisesi imparatorluk Kilisesi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 92,
+  "ad": "Lysimakheia (Trakya kıyısı)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0280-01-01",
+  "madde": "Selevkos I Ptolemaios Keraunos tarafından öldürüldü; I. Antiokhos tahta çıktı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 94,
+  "ad": "Kunaksa",
+  "sinif": "OLAY YERİ",
+  "not_": "antik savaş yeri",
+  "madde_t": "-0400-01-01",
+  "madde": "Kunaksa Savaşı: Genç Kyros ağabeyi II. Artakserkses'e yenildi ve öldü",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 96,
+  "ad": "Milet",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0493-01-01",
+  "madde": "Lade Deniz Savaşı: Pers donanması İyon filosunu yendi; Milet düştü",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 97,
+  "ad": "Ragai",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0520-05-08",
+  "madde": "Dareios'un ordusu Medya isyancısı Fravartiş'i (Phraortes) yendi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 99,
+  "ad": "Aşkelon",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0603-12-01",
+  "madde": "II. Nabukadnezar Aşkelon'u aldı, kralını esir etti ve şehri harabeye çevirdi",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 100,
+  "ad": "Lakiş",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0700-01-01",
+  "madde": "Sennacherib Yahuda'yı işgal etti; Lakiş'i aldı, Kudüs'ü kuşattı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 102,
+  "ad": "Vaşşukanni",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1499-01-01",
+  "madde": "Mitanni (Hanigalbat) krallığı Habur-Fırat bölgesinde kuruldu",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 103,
+  "ad": "Djenné-Djenno",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0299-01-01",
+  "madde": "Cenne-Ceno (Jenne-jeno): başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 104,
+  "ad": "Teouma",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0944-01-01",
+  "madde": "Teouma (Lapita mezarligi), Efate: başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 105,
+  "ad": "Monte Verde",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-12599-01-01",
+  "madde": "Monte Verde II: başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 106,
+  "ad": "Caral-Supe",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-2999-01-01",
+  "madde": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 107,
+  "ad": "Stonehenge",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-2871-01-01",
+  "madde": "Stonehenge (Aşama 1: hendek ve set): başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 108,
+  "ad": "San Martin Tilcajete",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0374-01-01",
+  "madde": "San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: meydan yakılır (Monte Albán sa",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 109,
+  "ad": "Cueva San Marcos",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-3184-01-01",
+  "madde": "Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır (San Marcos",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 110,
+  "ad": "Valle de Tehuacan",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-3184-01-01",
+  "madde": "Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır (San Marcos",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 111,
+  "ad": "Los Morteros",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-3749-01-01",
+  "madde": "Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Amerika'nın en eski kerpiç anıtsal ",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 112,
+  "ad": "Southern Neolithic",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-2999-01-01",
+  "madde": "Güney Hint Neolitiği (Ashmound geleneği, Deccan): Güney Hint: Kodekal'da en eski iskân tabakası (köm",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 113,
+  "ad": "Mādā",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0699-01-01",
+  "madde": "Med Devleti (Hegmatana merkezli): Med devleti: Deioces dönemi başlar (Herodotos geleneği)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 114,
+  "ad": "Proto-Elamite script",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-3199-01-01",
+  "madde": "Proto-Elam yazı sistemi (Susa): Proto-Elam yazısı ortaya çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 115,
+  "ad": "Trypillia A1-2",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-4648-01-01",
+  "madde": "Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia genişlemesi (A1-2) başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 116,
+  "ad": "Precucuteni II",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-4648-01-01",
+  "madde": "Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia genişlemesi (A1-2) başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 117,
+  "ad": "Formative LBK",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-5499-01-01",
+  "madde": "Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LBK ortaya çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 118,
+  "ad": "Transdanubien",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-5499-01-01",
+  "madde": "Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LBK ortaya çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 119,
+  "ad": "Tradición Topará",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0141-01-01",
+  "madde": "Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 120,
+  "ad": "Izapa",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0749-01-01",
+  "madde": "Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 121,
+  "ad": "Mulifanua (SU-17-1)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0864-01-01",
+  "madde": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 122,
+  "ad": "'Upolu",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0864-01-01",
+  "madde": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 123,
+  "ad": "Samoa",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0864-01-01",
+  "madde": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 124,
+  "ad": "Talepakemalai (site ECA)",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1284-01-01",
+  "madde": "Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 125,
+  "ad": "Mussau Islands",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1284-01-01",
+  "madde": "Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 126,
+  "ad": "Kamgot",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-1324-01-01",
+  "madde": "Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 127,
+  "ad": "Anir Group",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1324-01-01",
+  "madde": "Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 128,
+  "ad": "Deer Stone-Khirigsuur Complex (DSKC)",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1346-01-01",
+  "madde": "Geyik Tasi-Hirigsuur Kompleksi (Deer Stone-Khirigsuur Complex), Mogolistan: Hirigsuur (Geyik Taşı) m",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 129,
+  "ad": "Lapita Cultural Complex",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1449-01-01",
+  "madde": "Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 130,
+  "ad": "Bismarck Archipelago",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1449-01-01",
+  "madde": "Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 131,
+  "ad": "Afontova Gora-2",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-14961-01-01",
+  "madde": "Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibirya iskânı ",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 132,
+  "ad": "Usolsky District",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-22206-01-01",
+  "madde": "Mal'ta (Belaya Nehri, Baykal yakini) - MA-1 bireyi: Mal'ta (MA-1): Üst Paleolitik Sibirya iskânı (uf",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 133,
+  "ad": "Biainili",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0899-01-01",
+  "madde": "Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 135,
+  "ad": "Šuppiluliuma II",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1206-01-01",
+  "madde": "II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (son Hitit k",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 136,
+  "ad": "Ḫattušili I",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-1649-01-01",
+  "madde": "Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna): I. Hattusili dönemi (hMC geleneksel değer)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 137,
+  "ad": "Hisarlık",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-2919-01-01",
+  "madde": "Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 139,
+  "ad": "Shillourokambos",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-9149-01-01",
+  "madde": "Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyler (Klimon",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 140,
+  "ad": "Buddha parinirvāṇa",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0482-01-01",
+  "madde": "Buda'nın parinirvana tarihi (kronoloji dayanağı): Buda'nın parinirvanası (Cambridge History tarihi)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 141,
+  "ad": "Bimbisāra",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0542-01-01",
+  "madde": "Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 142,
+  "ad": "Ajātaśatru",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0542-01-01",
+  "madde": "Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 143,
+  "ad": "Expulsio regum",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0507-01-01",
+  "madde": "Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cumhuriyet (g",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 144,
+  "ad": "primi consules",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0507-01-01",
+  "madde": "Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cumhuriyet (g",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 145,
+  "ad": "Hallstatt C",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0669-01-01",
+  "madde": "Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (14C modeli)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 146,
+  "ad": "D-Übergang",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0669-01-01",
+  "madde": "Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (14C modeli)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 147,
+  "ad": "Roma condita (traditio)",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0751-01-01",
+  "madde": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 148,
+  "ad": "Qart-ḥadašt",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0759-01-01",
+  "madde": "Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı (arkeolojik",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 149,
+  "ad": "Aegyptus",
+  "sinif": "YER DEĞİL",
+  "not_": "kişi, kültür, dönem, bölge ya da ada adı",
+  "madde_t": "-0029-01-01",
+  "madde": "Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ },
+ {
+  "sira": 150,
+  "ad": "Alexandreia",
+  "sinif": "ANTİK YERLEŞİM",
+  "not_": "Pleiades'te tek/yakın eşleşme yok — Pleiades kimliği elle seçilmeli (koordinat yok)",
+  "madde_t": "-0331-01-01",
+  "madde": "Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek)",
+  "koordinat": null,
+  "konum": "koordinat yok"
+ }
+]

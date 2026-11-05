@@ -1,0 +1,806 @@
+{
+"_aciklama": "ENKLAV-1104 hükümleri (K759-K858, son parti; liste 858'de kapanır). İçinde nokta olmayan parçalar kuralla YAPAY-m (OLCUM); noktalılar elle, kaynak hükümle birlikte (hukum9_yaz.py). KAYNAK5 (LAB SALI): 3 hüküm kaynak_toplu.py ile güncellendi.",
+"K759": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K760": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Annemasse 1859-11-10 → 1860-03-24 'sardinya', çevre 'sardinya-piyemonte': aynı Sardinya Krallığı'nın iki kimliği; 1860-03-24 Torino antlaşmasıyla Savoya Fransa'ya.",
+"duzeltme": "Savoya noktaları tek tutucu; 1860-03-24 → fransa-cumhuriyet.",
+"kaynak": "veri ölçümü"
+},
+"K761": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1890-11-23 → 1918-11-19, içinde hiç yerleşim noktası yok (komşu: almanya, belcika): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K762": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "ingiltere parçası 1704-08-04 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: ispanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K763": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Zadar 1920-11-12 (Rapallo) → 1947-09-15 (Paris barışı yürürlüğü) İtalyan eksklavı, Yugoslavya ortasında: bilinen gerçek eksklav. Nin sahipsiz.",
+"duzeltme": "Yok (de jure 1947 bitişi kalabilir); fiilî: 1943-09 İtalya kapitülasyonu → NDH, 1944-11 Yugoslavya — ayrı kova (beyan).",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava na istočnoj obali Jadrana' · 'pod talijanskom upravom sve do kapitulacije Italije 1943.' · 'U studenome 1944. grad je napokon bio pripojen matici zemlji'"
+},
+"K764": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1922-07-20 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere, ingiliz-kamerun): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K765": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Zadar 1540 → 1699 Venedik Dalmaçyası, Osmanlı ortasında: gerçek (1409'dan Venedik; 1540 başlangıcı topoloji kırılması).",
+"duzeltme": "Yok.",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — '1409. Ladislav Napuljski prodao Mletačkoj Republici Zadar … Mlečani zadržali vlast nad gradom sve do pada Mletačke Republike (1797)' · 'ratovi s Osmanlijama, koji … nikada nisu osvojili grad'"
+},
+"K766": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Nador 1912-11-27 'fas' / iç 'fas-ispanyol-himayesi', komşu İspanyol himayesi %40: İspanyol Fas himayesi iki kimlikte.",
+"duzeltme": "Rif noktaları 1912-11-27 → fas-ispanyol-himayesi tek tutucu.",
+"kaynak": "veri ölçümü"
+},
+"K767": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1860-03-24 → 1860-06-14, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K768": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sardinya-piyemonte parçası 1859-11-10 → 1860-03-24, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K769": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K770": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Sudak 1475 Osmanlı (Gedik Ahmed: Kefe'nin ardından Sudak) → 1774, Kırım Hanlığı (TABI) ortasında: Kefe eyaleti kıyısı, gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/arama/sudak («Gedik Ahmed Paşa») — '1475'te Kefe, ardından Sudak ve Azak'ı zaptedip'"
+},
+"K771": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Sudak 1365 Ceneviz → 1475 Osmanlı, Altınorda/Kırım ortasında: gerçek Ceneviz Gazaria'sı.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/arama/sudak («Gedik Ahmed Paşa», 1475) · TDV «Kefe» (Ceneviz kolonizasyonu)"
+},
+"K772": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAKLI",
+"gerekce": "Beyrut 1918-10-07 → 10-08 Fransız, çevre Osmanlı %59: Fransız işgal günü TDV ile birebir; tek günlük parça çevre Suriye noktalarının Ekim 1918'de hâlâ Osmanlı kalmasından.",
+"duzeltme": "Suriye-Lübnan kıyısı noktaları Ekim 1918 işgal günleri (kaynakla).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/beyrut — '7 Ekim 1918'de Fransız kuvvetlerinin bölgeyi işgal etmelerine kadar'"
+},
+"K773": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: avusturya, isvicre): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K774": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sardinya-piyemonte parçası 1859-11-10 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K775": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "rusya parçası 1877-12-10 → 1878-07-13, içinde hiç yerleşim noktası yok (komşu: OSMANLI, romanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K776": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "liberya parçası 1885-11-11 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K777": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "OSMANLI parçası 1574-08-24 → 1574-08-25, içinde hiç yerleşim noktası yok (komşu: hafsi, ispanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K778": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kefe Ceneviz (1266 civarı Altınorda izniyle) → Haziran 1475 Osmanlı: gerçek koloni.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/kefe — 'Altın Orda'dan yerleşme izni almak suretiyle Kefe'ye gelen Cenevizliler (1266 yılı civarı)' · 'Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)'"
+},
+"K779": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1918-11-11 → 1918-11-17, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K780": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "italya parçası 1861-03-17 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K781": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K782": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sirbistan-kralligi parçası 1913-08-10 → 1918-12-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K783": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "yugoslavya parçası 1918-12-01 → 1920-01-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K784": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kefe 1475 Osmanlı eyalet merkezi → 1774, Kırım (TABI) ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/kefe — Haziran 1475 fethi; 'Kırım Hanlığı himaye altına alındı'"
+},
+"K785": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Balaklava (Cembalo) 1349-1357 'altinorda' doğrudan, çevre Theodoro: Cembalo 1345'ten Ceneviz kalesiydi; Altınorda doğrudan yazımı şüpheli. Akyar sahipsiz.",
+"duzeltme": "Cembalo 1345-1475 ceneviz (kaynakla).",
+"kaynak": "TDV'de Balaklava maddesi yok — bulunamadı · KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz Cembalo 1357 (1345 iddiası da var)",
+"aday_tarih": "Ceneviz Cembalo 1357 (1345 iddiası da var)"
+},
+"K786": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Balaklava 1357 → 1475 Ceneviz, Theodoro ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi) · KISMEN — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: 'Ottoman conquest of 1475' (Kırım geneli; Cembalo için ABİ BÖLGE yılı, BEYANLI YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)",
+"aday_tarih": "Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)"
+},
+"K787": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Balaklava 1475-06 Osmanlı → 1475-12 (Mangup/Theodoro'nun düşüşü): kısa gerçek parça.",
+"duzeltme": "Yok.",
+"kaynak": "KISMEN — TDV, https://islamansiklopedisi.org.tr/kefe — 'harekât sonunda Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)' · 'Balıklagu (Balıklava) ve İnkerman da Mangub'a bağlı' (başlangıç teyitli; Mangub'un düşüş günü KAYNAK-GEREK)"
+},
+"K788": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K789": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "macaristan-naiplik parçası 1919-09-10 → 1920-06-04, içinde hiç yerleşim noktası yok (komşu: cekoslovakya, itilaf-emaneti): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K790": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Şârika 1820 → 1971 'ingiltere' doğrudan, çevre Trucial States %66: Şârika İngiliz himayesindeki şeyhliklerdendi (doğrudan İngiliz toprağı değil); 1932 hava üssü.",
+"duzeltme": "Şârika 1820-1971 d: trucial-states, v: ingiltere.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/sarika — '1932'de burada İngiliz hava kuvvetleri üssünün kurulması' (himaye statüsü tarihi yok)"
+},
+"K791": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Enez Gattilusio 1355 → 1456-01-24 Osmanlı fethi, Osmanlı Trakyası ortasında: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "TDV'de Enez maddesi açılmadı — bulunamadı · KISMEN — K. Brummett, Cambridge History of Turkey 2, ch.5, s.143 (Osmanlı 1456, gün yok); s.146 Dorino Gattilusio Enez'i vergi ve tuz payıyla tutuyordu; 1355 başlangıcı ve 24 Ocak günü teyitsiz · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Osmanlı 1456 (gün teyitsiz); Gattilusio başlangıcı okunmadı",
+"aday_tarih": "Osmanlı 1456 (gün teyitsiz); Gattilusio başlangıcı okunmadı"
+},
+"K792": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "safevi parçası 1545-12-26 → 1701-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K793": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1897-03-20 → 1897-05-14, içinde hiç yerleşim noktası yok (komşu: ingiltere, habesistan): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K794": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "habsburg parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: avusturya, italya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K795": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K796": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransiz-cinhindi parçası 1912-02-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: cin-cumhuriyeti): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K797": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "avusturya-cumhuriyet parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: almanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K798": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K799": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K800": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: isvicre, milano-dukaligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K801": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "isvicre parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: avusturya-cumhuriyet, almanya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K802": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa-cumhuriyet parçası 1814-05-04 → 1814-05-30, içinde hiç yerleşim noktası yok (komşu: hollanda): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K803": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Naha ve güney Okinawa 1945-04-01 ABD → 1972-05-15 iade: Ryukyu ABD idaresi, Japonya'dan denizle ayrı — gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "bulunamadı (model bilgisi)"
+},
+"K804": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K805": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "arjantin-cumhuriyeti parçası 1884-10-12 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sili-cumhuriyeti): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K806": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "belcika parçası 1916-05-01 → 1916-05-06, içinde hiç yerleşim noktası yok (komşu: ingiltere, alman-dogu-afrikasi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K807": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "hollanda parçası 1802-01-01 → 1802-03-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K808": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "bati-hint-federasyonu parçası 1958-01-03 → 1962-05-31, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K809": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "maratha parçası 1674-06-06 → 1737-04-01, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K810": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "bicapur parçası 1636-01-01 → 1674-06-06, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K811": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K812": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "ingiliz-hindistani parçası 1896-01-15 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransiz-cinhindi, san-devletleri): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K813": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "israil-devleti parçası 1948-05-14 → 1948-07-11, içinde hiç yerleşim noktası yok (komşu: urdun-emirligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K814": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Kulluk (Salamis) 1456 Osmanlı (Atina ile) → 1821 isyanı, Venedik Mora'sına karşı: gerçek ada parçası. 1687-1688 Venedik arası veride yok.",
+"duzeltme": "Salamis 1687-09 → 1688-04 venedik (Atina ile; TDV Atina).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/atina — 'Atina 1687'de kısa bir müddet için Venedik hâkimiyetine girdi' (Salamis için ABİ MERKEZ: Atina — beyan)"
+},
+"K815": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "afsar parçası 1736-03-08 → 1747-06-20, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K816": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "safevi parçası 1716-01-01 → 1736-03-08, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K817": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "zend parçası 1747-06-20 → 1794-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K818": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "kacar parçası 1794-01-01 → 1925-10-31, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K819": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "iran parçası 1925-10-31 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: irak-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K820": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "norvec parçası 1905-06-07 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, finlandiya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K821": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "norvec-isvec-birligi parçası 1814-11-04 → 1905-06-07, içinde hiç yerleşim noktası yok (komşu: rusya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K822": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "ispanya parçası 1714-01-01 → 1810-05-25, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K823": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "arjantin-cumhuriyeti parçası 1810-05-25 → 1816-07-09, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K824": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "fransa parçası 1435-01-01 → 1439-01-01, içinde hiç yerleşim noktası yok (komşu: burgonya, ingiltere): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K825": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K826": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sovyet-rusya parçası 1917-12-15 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K827": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Kartaca 1912-10-18 'tunus-beyligi-fransiz', çevre TABI %36: Fransız himayesindeki Tunus beyliği iki kimlikte.",
+"duzeltme": "Tunus noktaları tek tutucu.",
+"kaynak": "veri ölçümü"
+},
+"K828": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K829": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "lur-i-buzurg parçası 1335-12-01 → 1393-01-01, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K830": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "timurlu parçası 1393-01-01 → 1442-01-16, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K831": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "musasa parçası 1442-01-16 → 1494-10-02, içinde hiç yerleşim noktası yok (komşu: karakoyunlu): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K832": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K833": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "rusya parçası 1905-06-07 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K834": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K835": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sovyet-rusya parçası 1917-11-07 → 1917-12-06, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K836": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "hollanda parçası 1820-03-28 → 1830-10-04, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, luksemburg-hollanda-birligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K837": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sovyet-rusya parçası 1917-11-07 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K838": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sovyet-rusya parçası 1917-11-07 → 1918-01-01, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K839": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "transkafkasya parçası 1917-11-07 → 1918-03-14, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K840": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "ilhanli parçası 1281-01-01 → 1308-01-01, içinde hiç yerleşim noktası yok (komşu: selcuklu, ahiler): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K841": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "haudenosaunee parçası 1667-01-01 → 1777-01-01, içinde hiç yerleşim noktası yok (komşu: fransa): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K842": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "OSMANLI parçası 1354-08-01 → 1392-11-01, içinde hiç yerleşim noktası yok (komşu: eretna, burhaneddin): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K843": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "venedik parçası 1443-01-01 → 1571-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, OSMANLI): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K844": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "zeta parçası 1356-01-01 → 1421-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, sirbistan-nemanjic): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K845": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sirbistan-nemanjic parçası 1281-01-01 → 1356-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K846": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sirp-despotlugu parçası 1421-01-01 → 1443-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, venedik): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K847": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "finlandiya parçası 1917-12-06 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: isvec): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K848": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "cin-cumhuriyeti parçası 1911-10-10 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K849": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "italya parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: isvicre, avusturya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K850": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "qing-hanedani parçası 1897-06-05 → 1911-10-10, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K851": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "ezo-cumhuriyeti parçası 1869-01-27 → 1869-06-27, içinde hiç yerleşim noktası yok (komşu: meiji-japonya): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K852": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "qing-hanedani parçası 1853-03-19 → 1860-06-02, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K853": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "timurlu parçası 1402-07-28 → 1402-09-15, içinde hiç yerleşim noktası yok (komşu: mehmed-celebi, candar): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K854": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K855": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "sokoto parçası 1901-01-01 → 1903-07-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K856": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "rusya parçası 1878-08-03 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: romanya, romanya-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K857": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+},
+"K858": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "qing-hanedani parçası 1863-12-04 → 1864-07-19, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması.",
+"duzeltme": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü"
+}
+}

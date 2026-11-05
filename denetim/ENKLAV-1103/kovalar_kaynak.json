@@ -1,0 +1,93 @@
+{
+"_aciklama": "KOVALAR kova düzeyinde kaynaklı günler (KAYNAK2, LAB SALI, 4 Kasım 2026). Her gün kaynağının cümlesiyle; şehir şehir gün değil, kova kırılmalarının çerçevesi. Okuma: TDV (tdv.py), Encyclopedia of Ukraine ve Handbook of Texas (urllib), Hrvatska enciklopedija, Treccani, Encyclopedia Virginia (uygulama tarayıcısı).",
+"A-UKR": [
+  {"gun": "1917-11-20", "olay": "Ukrayna Halk Cumhuriyeti ilanı (III. Universal)", "kaynak": "Encyclopedia of Ukraine, \"Ukrainian National Republic\", https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CU%5CK%5CUkrainianNationalRepublic.htm — \"first proclaimed in the Third of the Universals of the Central Rada on 20 November 1917\""},
+  {"gun": "1918-01-22", "olay": "Tam bağımsızlık (IV. Universal; 25 Ocak'ta ilan, 22'ye geri tarihli)", "kaynak": "aynı madde — \"declared complete independence in its Fourth Universal on 25 January 1918 (back-dated to 22 January)\""},
+  {"gun": "1918-04-29", "olay": "Hetmanlık: Ukrayna Devleti (Skoropadski)", "kaynak": "aynı madde — \"renamed the Ukrainian State (29 April to 14 December 1918)\""},
+  {"gun": "1918-12-14", "olay": "Direktörlük, UHC adı geri", "kaynak": "aynı madde"},
+  {"not": "UHC 1920'ye dek Ukrayna toprağında sürdü (aynı madde); şehir şehir Sovyet/Beyaz giriş günleri bu maddede yok — KAYNAK-GEREK (şehir maddeleri)."}
+],
+"A-KAF": [
+  {"gun": "1918-05-26", "olay": "Gürcistan bağımsızlığı", "kaynak": "TDV İslâm Ansiklopedisi, \"Gürcistan\" (Davut Dursun), https://islamansiklopedisi.org.tr/gurcistan — \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\""},
+  {"gun": "1921-02", "olay": "Sovyet işgali, Gürcistan (yalnız ay)", "kaynak": "aynı madde — \"Şubat 1921’de Gürcistan’ı da işgal ederek\" (gün yok; künye t 1921-03-16 ayrı, beyan)"},
+  {"gun": "1918-05-28", "olay": "Azerbaycan Demokratik Cumhuriyeti ilanı", "kaynak": "TDV, \"Azerbaycan\" (Ziya Musa Buniyatov), https://islamansiklopedisi.org.tr/azerbaycan — \"28 Mayıs 1918’de Azerbaycan Demokratik Cumhuriyeti ilân edildi\""},
+  {"gun": "1918-09-15", "olay": "Kafkas İslâm Ordusu Bakü'yü aldı", "kaynak": "aynı madde — \"Bakü’yü ele geçirdi (15 Eylül 1918)\""},
+  {"gun": "1920-04-27", "olay": "Kızıl Ordu işgali, ADC'nin sonu (28 Nisan Azerbaycan SSC)", "kaynak": "aynı madde — \"27 Nisan 1920’de Azerbaycan’ı işgal eden Kızıl Ordu ... 28 Nisan’da Azerbaycan Sovyet Sosyalist Cumhuriyeti kuruldu\""},
+  {"gun": "1920-07-28", "olay": "XI. Kızılordu Nahçıvan'a girdi", "kaynak": "TDV, \"Nahcıvan\" (Hüsamettin M. Karamanlı), https://islamansiklopedisi.org.tr/nahcivan — \"XI. Kızılordu 28 Temmuz 1920’de Nahcıv[an'a]\"; Mart 1920 Türk ordusu Nahcıvan'a girdi"},
+  {"gun": "1920-12-02", "olay": "Gümrü Antlaşması (Ermenistan'ın Sovyetleşme çerçevesi)", "kaynak": "TDV, \"Revan\" (Mustafa Aydın), https://islamansiklopedisi.org.tr/revan — \"Gümrü Antlaşması ile birlikte (2 Aralık 1920)\"; Revan 1918 Haziran'da Osmanlı'nın tanıdığı Ermenistan'ın başşehri [kısmen: Sovyetleşme günü değil antlaşma günü]"}
+],
+"A-KKF": [
+  {"gun": "1918-05-11", "olay": "Dağıstan ve Kuzey Kafkasya Cumhuriyeti bağımsızlık ilanı (Osmanlı desteğiyle)", "kaynak": "TDV İslâm Ansiklopedisi, \"Dağıstan\" (Ziya Musa Buniyatov), https://islamansiklopedisi.org.tr/dagistan — \"11 Mayıs 1918’de Dağıstan Osmanlılar’ın desteğiyle Dağıstan ve Kuzey Kafkasya Cumhuriyeti adı altında bağımsızlığını ilân etti\""},
+  {"gun": "1920-03-30", "olay": "Kızılordu Temir Han Şura'ya girdi, Dağıstan'ın işgali başladı", "kaynak": "aynı madde — \"30 Mart 1920’de Kızılordu Timurhanşura’ya girdi ve Dağıstan’ı işgale başladı\""},
+  {"gun": "1921-01-20", "olay": "Dağıstan ÖSSC (RSFSC'ye bağlı)", "kaynak": "aynı madde — \"20 Ocak 1921’de ... Dağıstan Özerk Sovyet Sosyalist Cumhuriyeti\""},
+  {"not": "1917 sonrası Terek-Dağıstan mahallî hükümeti (aynı madde, gün yok); 1919 Denikin işgali günü okunmadı. Kuban/Stavropol/Karadeniz kıyısı (Anapa, Tuapse) için ayrı kaynak gerek."}
+],
+"A-BEL": [
+  {"gun": "1920-07-11", "olay": "Kızıl Ordu Minsk'i Polonya'dan geri aldı", "kaynak": "Oxford Companion to Military History (2004), \"Russo-Polish war (1920)\" — \"on 11 July the Soviets recaptured Minsk\" (EMRELİC okuması, Oxford Reference)"},
+  {"not": "Minsk'in Polonya'ya düşüşü (Ağustos 1919), Belarus Halk Cumhuriyeti ve Ober Ost günleri okunamadı — KAYNAK-GEREK."}
+],
+"A-UZD": [
+  {"gun": "1920", "olay": "Uzak Doğu Cumhuriyeti kuruldu, merkez Çita (yalnız yıl)", "kaynak": "Encyclopaedia Britannica, \"Far Eastern Republic\", https://www.britannica.com/place/Far-Eastern-Republic — \"nominally independent state formed by Soviet Russia in eastern Siberia in 1920 … centring on the city of Chita\" (KAYNAK3)"},
+  {"gun": "1922-11", "olay": "SSCB'ye katılım (yalnız ay)", "kaynak": "aynı madde — \"incorporated into the Soviet Union in November 1922\""},
+  {"not": "Çita'nın başkent oluş GÜNÜ (Verhneudinsk'ten taşınma, Semyonov'un çekilişi) bulunamadı: Bolşaya Rossiyskaya Entsiklopediya (bigenc.ru) HTTP 403 verdi. Britannica üçüncül kaynak — akademik teyit gerek. KAYNAK-GEREK (gün)."}
+],
+"B": [
+  {"gun": "1941-04-10", "olay": "NDH ilanı (S. Kvaternik, radyo)", "kaynak": "Hrvatska enciklopedija, \"Nezavisna Država Hrvatska\", https://www.enciklopedija.hr/clanak/nezavisna-drzava-hrvatska — \"proglasio ju je preko radija vođa domovinske ustaške skupine S. Kvaternik 10. IV. 1941\""},
+  {"gun": "1941-05-18", "olay": "Roma antlaşmaları: Zrmanja-Split kıyısı, Kotor Körfezi ve adaların çoğu İtalya'ya", "kaynak": "aynı madde — \"potpisivanja Rimskih ugovora 18. V. 1941 ... Cijela obala od utoka Zrmanje u Novigradsko more do Splita, Boka kotorska\""},
+  {"gun": "1941-12", "olay": "Međimurje Macar ilhakı (ay)", "kaynak": "aynı madde — \"mađarsko zaposjednuće i potonje pripojenje (od prosinca 1941)\""},
+  {"gun": "1943-09", "olay": "İtalya'nın teslimi; Pavelić Roma antlaşmalarını geçersiz saydı, Dalmaçya'da NDH yönetimi (biçimsel)", "kaynak": "aynı madde — \"Padom Italije u rujnu 1943 ... proglasio je nevažećim Rimske ugovore\""},
+  {"gun": "1945-05-06", "olay": "NDH kurumları Zagreb'i terk etti (çöküş)", "kaynak": "aynı madde — \"Državne ustanove djelovale su do 6. V., kada je počelo napuštanje Zagreba\" [künye t 1945-05-08 ile 2 gün fark — beyan]"}
+],
+"L1": [
+  {"gun": "1861-02-01", "olay": "Teksas ayrılık kararnamesi (resmî 2 Mart 1861)", "kaynak": "Handbook of Texas, \"Secession\", https://www.tshaonline.org/handbook/entries/secession — \"on February 1 ... the convention met to take a final vote on the ordinance of secession\"; \"the secession of the state became official on March 2\""},
+  {"gun": "1861-04-17", "olay": "Virginia konvansiyonu ayrılık oyu (referandum 23 Mayıs 1861)", "kaynak": "Encyclopedia Virginia, \"Virginia Convention of 1861\" (Nelson D. Lankford), https://encyclopediavirginia.org/entries/virginia-convention-of-1861/ — \"the convention voted on April 17 to leave the Union. Virginians expressed their agreement at the polls on May 23\""},
+  {"gun": "1860-12-20", "olay": "Güney Carolina ayrılık oyu (Charleston, oybirliği)", "kaynak": "South Carolina Encyclopedia, \"Secession\", https://www.scencyclopedia.org/sce/entries/secession/ — \"December 20, 1860, the day in Charleston on which delegates at the South Carolina state convention voted unanimously to secede\" (KAYNAK3)"},
+  {"gun": "1861-01-09", "olay": "Mississippi ayrılık kararnamesi", "kaynak": "Mississippi Encyclopedia, \"Secessionist Movement\" (Christopher Olsen), https://mississippiencyclopedia.org/entries/secession/ — \"The convention passed an ordinance of secession on 9 January 1861\""},
+  {"gun": "1861-01-07/11", "olay": "Florida ayrılığı — gün değil aralık (Alabama konvansiyonu 7-11 Ocak arasında 'Mississippi and Florida did so as well')", "kaynak": "Encyclopedia of Alabama, \"Secession\" (J. Mills Thornton), https://encyclopediaofalabama.org/article/secession/ — Florida günü KAYNAK-GEREK (Florida'nın eyalet ansiklopedisi yok; Florida Memory 403)"},
+  {"gun": "1861-01-11", "olay": "Alabama ayrılık kararnamesi", "kaynak": "Encyclopedia of Alabama, \"Secession\" — \"the final vote on the Ordinance of Secession on January 11\""},
+  {"not": "Georgia (19 Ocak 1861 sanılır): New Georgia Encyclopedia'ya erişim reddedildi (urllib TLS hatası, uygulama tarayıcısı site izni yok) — KAYNAK-GEREK."},
+  {"gun": "1861-01-26", "olay": "Louisiana ayrılığı (Baton Rouge, 113-17)", "kaynak": "64 Parishes, \"Louisiana's Secession from the Union\" (John M. Sacher), https://64parishes.org/entry/louisianas-secession-from-the-union — \"On January 26, 1861, the delegates to Louisiana's secession convention meeting in Baton Rouge voted 113 to 17 to secede\""},
+  {"gun": "1861-05-06", "olay": "Arkansas ayrılık konvansiyonu oyu", "kaynak": "CALS Encyclopedia of Arkansas, \"Secession Convention\", https://encyclopediaofarkansas.net/entries/secession/ — \"On May 6, 1861, a body of men … voted to remove Arkansas from the United States of America\""},
+  {"gun": "1861-05-20", "olay": "Kuzey Carolina konvansiyonu toplandı ve oybirliğiyle ayrılık kararnamesini kabul etti (21 Mayıs imza)", "kaynak": "NCpedia, \"Secession Movement\", https://www.ncpedia.org/secession-movement — \"gathered on 20 May 1861 … The convention then unanimously passed the ordinance of secession … On 21 May 1861 the ordinance was signed\" [oy günü 'then' ile — beyan]"},
+  {"gun": "1861-06-08", "olay": "Tennessee ayrılık referandumu (yasama öncesinde bağımsızlık ilan edip Konfedere ile askerî ittifak yaptı)", "kaynak": "Tennessee Encyclopedia, \"Civil War\", https://tennesseeencyclopedia.net/entries/civil-war/ — \"the legislators called another referendum for June 8. On that date, approximately 105,000 Tennesseans voted for secession\""},
+  {"not": "Missouri ve Kentucky kapsam dışı (EMRELİC). Kalan: Georgia günü, Florida günü — KAYNAK-GEREK."}
+],
+"N1": [
+  {"gun": "1943-09-23", "olay": "Repubblica Sociale Italiana kuruluşu (Salò)", "kaynak": "Treccani, \"Repubblica sociale italiana\", https://www.treccani.it/enciclopedia/repubblica-sociale-italiana/ — \"instaurato il 23 settembre 1943 da B. Mussolini, nella parte di territorio italiano occupato dai Tedeschi\""},
+  {"not": "Aynı madde: Trentino, Alto Adige, Belluno, Friuli, Venezia Giulia ve İstria RSI dışında, fiilen Üçüncü Reich'a bağlı (\"annesse di fatto al Terzo Reich\") — bu bölgelerdeki noktalar salo değil almanya (OZAV/OZAK) olmalı. Bitiş (1945 Nisan) bu maddede okunmadı."}
+],
+"N1b": [
+  {"gun": "1943-09-08", "olay": "Ateşkes sonrası Belluno, Trento, Bolzano Alman denetimine geçti: Alpenvorland (komiser Bolzano'da), RSI'den ayrı", "kaynak": "Treccani, \"Belluno\" (Enciclopedia Italiana), https://www.treccani.it/enciclopedia/belluno_res-426c5aa5-87e5-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — \"Dopo la proclamazione dell'armistizio (8 settembre 1943) la provincia di Belluno, con quelle di Trento e di Bolzano, passò sotto il controllo germanico: le tre provincie costituirono la zona dell'Alpenvorland\" [yalnız 'sonrası'; operasyon bölgesinin kuruluş günü okunmadı]"},
+  {"gun": "1945-05-01", "olay": "Belluno'da çatışmaların sonu", "kaynak": "aynı madde — \"non ebbe termine che il 1° maggio 1945\""},
+  {"gun": "1943-08-02", "olay": "Alman birlikleri Brenner'den zorla girip Trentino-Alto Adige merkezlerine yerleşti (ateşkes öncesi)", "kaynak": "Treccani, \"Venezie, Tre\" (Enciclopedia Italiana, II Appendice), https://www.treccani.it/enciclopedia/tre-venezie_res-12b59fa8-87e7-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — \"le quali già il 2 agosto 1943 entrarono di forza dal Brennero\"; 8 Eylül'de kışlaları ve resmî daireleri ele geçirip \"costituirono la Operationszone Alpenvorland … con un alto commissario a Bolzano\" (KAYNAK3, Belluno 1943-09-08 ile çift teyit)"},
+  {"gun": "1943-09/10", "olay": "Adriatisches Küstenland: Udine, Gorizia, Trieste, Pola, Fiume (ve Ljubljana) RSI yargısından alınıp 'Zona di operazioni del litorale adriatico' oldu (Oberster Kommissar) — gün değil Eylül-Ekim 1943", "kaynak": "aynı madde — \"Tra il settembre e l'ottobre le S.S. compirono azioni di rastrellamento … Contemporaneamente i Tedeschi sottraevano le provincie di Udine, Gorizia, Trieste, Pola e Fiume (e Lubiana) alla giurisdizione del governo della cosiddetta repubblica sociale … sotto il nome di 'Zona di operazioni del litorale adriatico' (Operationszone Adriatisches Küstenland)\" [kuruluş günü KAYNAK-GEREK]"},
+  {"gun": "1945-05-01", "olay": "Yugoslav birlikleri Trieste ve İsonzo'ya ulaştı; 2 Mayıs Anglo-Amerikan birlikleri Gorizia ve Trieste'de Almanları teslim aldı (Küstenland'ın sonu)", "kaynak": "aynı madde — \"le truppe iugoslave … si precipitarono in direzione di Trieste e dell'Isonzo, che raggiunsero il 1° maggio … Il giorno dopo reparti angloamericani si spingevano … fino a Gorizia ed a Trieste, obbligavano alla resa i Tedeschi superstiti\""}
+],
+"N2": [
+  {"gun": "1915-05-07", "olay": "Alman ordusu Libau'yu (Liepāja) aldı (Jülyen 24-25.04 / Gregoryen 07-08.05.1915)", "kaynak": "Nacionālā enciklopēdija (Latvijas Nacionālā bibliotēka), \"Pirmais pasaules karš Latvijā\", https://enciklopedija.lv/skirklis/20833 — \"24.–25.04./07.–08.05.1915. Vācijas armija ieņēma Liepāju\"; evre: \"04.–07.1915. – Vācijas armija okupēja Kurzemes guberņu\" (KAYNAK3)"},
+  {"gun": "1915-07-31", "olay": "Bauska'nın alınışı", "kaynak": "aynı madde — \"18./31.07. ieņemot Bausku\""},
+  {"gun": "1915-08-01", "olay": "Mitau'nun (Jelgava) alınışı — Kurland valiliği merkezi", "kaynak": "aynı madde — \"un 19.07./01.08. – Jelgavu\""},
+  {"not": "Treccani \"Curlandia\" \"Occupata dall'esercito tedesco (1918)\" diyor — Letonya Ulusal Ansiklopedisi 1915'i günüyle veriyor; Treccani'nin 1918'i büyük olasılıkla Riga sonrası (Eylül 1917) ve Kurland düklüğü ilanı (1918) dönemini tarihliyor. Çelişki iki kaynağıyla beyanlı; kova günü 1915 (Gregoryen) alınır."}
+],
+"N4": [
+  {"gun": "1282-03-30", "olay": "Sicilya Akşam Duası (Palermo); Angevinler Sicilya'dan atıldı, ana kara (Napoli) Angevin kaldı", "kaynak": "Treccani, \"Vespri siciliani\", https://www.treccani.it/enciclopedia/vespri-siciliani/ — \"Insurrezione scoppiata (1282) a Palermo all'ora del vespro del lunedì di Pasqua contro il malgoverno di Carlo I d'Angiò\"; Caltabellotta (1302) Angevinlerin atılışını ve Aragon tacını onayladı [gün: 1282 Paskalya Pazartesi'sinden hesaplandı (Jülyen 30 Mart) — beyan]"}
+],
+"E": [
+  {"gun": "1230", "olay": "Kastilya ve León'un III. Fernando altında kesin birleşmesi (Kastilya tahtı 1217, León 1230)", "kaynak": "Treccani, \"Ferdinando III il Santo\", https://www.treccani.it/enciclopedia/ferdinando-iii-il-santo/ — \"successe al padre nel 1230: nel 1217 aveva ottenuto il trono di Castiglia\" (yalnız yıl) — kastilya/leon-kralligi çatı sorusu için 1230 sonrası tek kimlik"}
+],
+"N6": [
+  {"gun": "1919", "olay": "Bratislava (Pozsony) Slovakya'nın başkenti ve 'Slovakya idaresi için tam yetkili bakanlık' merkezi oldu; ad 1919'dan Bratislava (yalnız yıl)", "kaynak": "Encyclopaedia Beliana (SAV), \"Bratislava\", https://beliana.sav.sk/heslo/bratislava-0 — \"keď sa v roku 1919 stala hlavným mestom Slovenska a sídlom Ministerstva s plnou mocou pre správu Slovenska\" (KAYNAK3)"},
+  {"gun": "1919-03-21", "olay": "Macar Sovyet Cumhuriyeti kuruldu; Slovakya'nın Çek topraklarına bağlanmasını tanımadı → Çekoslovak-Macar savaşı", "kaynak": "Encyclopaedia Beliana, \"Československo\", https://beliana.sav.sk/heslo/ceskoslovensko — \"po vzniku boľševickej Maďarskej republiky rád (21. 3. 1919), ktorá odmietla uznať pripojenie Slovenska\""},
+  {"gun": "1919-07-01", "olay": "Çekoslovak-Macar ateşkesi; Çekoslovak ordusu 1919 yazında Slovakya'yı ve Podkarpatya Rusyası'nı denetimine aldı", "kaynak": "aynı madde — \"1. 7. 1919 podpísaná československo-maďarská zmluva o prímerí a československé vojsko mohlo obsadiť … v priebehu leta 1919\""},
+  {"gun": "1919-06-06", "olay": "Macar Kızıl Ordusu Košice'yi (Kassa) aldı; 1919-07-04 son Macar çekilişi", "kaynak": "Toma 1958, s. 206-212 (HAVVA SALI JSTOR okuması, origin/havva-1104-jstor 79ddbf869, denetim/TOP100-1103/EK-jstor-havva.md) — Çekoslovak ilk giriş günü (1918-12) bulunamadı"},
+  {"not": "Bratislava'ya giriş GÜNÜ ve Košice'ye ilk Çekoslovak giriş günü Beliana'da ve JSTOR'da bulunamadı — KAYNAK-GEREK (gün)."}
+],
+"N11": [
+  {"gun": "1918-10-29", "olay": "Hırvat Saborunun kararı: Dalmaçya, Hırvatistan, Slavonya Avusturya-Macaristan'dan ayrılıp Sloven-Hırvat-Sırp Devleti'ne katıldı (Narodno vijeće bildirgesi 19. X. 1918); Bosna-Hersek de Narodno vijeće'nin yetki alanında", "kaynak": "Hrvatska enciklopedija, \"Država Slovenaca, Hrvata i Srba\", https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — \"od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.\" (ENKLAV8)"},
+  {"gun": "1918-12-01", "olay": "Sırp-Hırvat-Sloven Krallığı ilanı (Belgrad)", "kaynak": "aynı madde"}
+],
+"N12": [
+  {"gun": "1919-10-15", "olay": "İtilâf devletleri adına Fransız kuvvetleri Batı Trakya'yı işgal etti (Neuilly sonrası Müttefik idaresi)", "kaynak": "TDV İslâm Ansiklopedisi, \"Batı Trakya\", https://islamansiklopedisi.org.tr/bati-trakya — \"İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)\" (ENKLAV9)"},
+  {"gun": "1920-05-22", "olay": "Yunan işgali (veri 1920-05-14 — düzeltme); 27 Mayıs 1920 Hemetli'de Batı Trakya hükûmeti", "kaynak": "aynı madde — \"Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920) … Batı Trakya hükümetini kurdular (27 Mayıs 1920)\""}
+]
+}
