@@ -11,7 +11,7 @@
    "kaynak": "Bakılan: TDV oniki-ada (Venedik/Astipalya 1281-1537 geçmiyor; yalnız 1912 işgali), TDV yunanistan",
    "alinti": "",
    "oneri": {},
-   "not": "t 1537-10-01 ve Venedik dönemi teyitsiz."
+   "not": "KARAR EMRELİC (gece-116): TEK ÖLÇÜ: Yunanistan 1947-02-10'da idare etmiyordu → f = Oniki Ada'nın Yunan askerî idaresine teslimi 1947-03-31 (kaynakla); imza ve 1947-09-15 yürürlük, 1948-03-07 resmî ilhak ic_not; öncesi isg ingiltere 1945 → 1947-03-31, altında s: italya. | t 1537-10-01 ve Venedik dönemi teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1813",
@@ -24,7 +24,7 @@
    "kaynak": "Bakılan: TDV oniki-ada (1537 anahtarı YOK), Treccani Astipalea denenmedi",
    "alinti": "",
    "oneri": {},
-   "not": "Osmanlı f 1537-10-01 teyitsiz."
+   "not": "KARAR EMRELİC (gece-116): TEK ÖLÇÜ: Yunanistan 1947-02-10'da idare etmiyordu → f = Oniki Ada'nın Yunan askerî idaresine teslimi 1947-03-31 (kaynakla); imza ve 1947-09-15 yürürlük, 1948-03-07 resmî ilhak ic_not; öncesi isg ingiltere 1945 → 1947-03-31, altında s: italya. | Osmanlı f 1537-10-01 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1813",
@@ -36,8 +36,11 @@
    "uc": "f",
    "kaynak": "https://islamansiklopedisi.org.tr/oniki-ada",
    "alinti": "Rodos, Oniki Ada ve Meis Yunanistan’a devredildi",
-   "oneri": {},
-   "not": "TEK ÖLÇÜ: Paris 1947-02-10 imza; İngiliz askerî idaresi sürüyordu → teslim günü (Oniki Ada devri 1947-03-31 / resmî ilhak 1948-03-07) — EMRELİC'e soruldu. | ÜLKE DÜZEYİ: TDV: Paris Barış Antlaşması 10 Şubat 1947 imza; atlas f 1947-09-15 yürürlük günü. TEK ÖLÇÜ: Yunanistan o sırada fiilen yönetmiyor (İngiliz askerî idaresi) -> teslim günü esas; teslim günü TDV'de yok, kaynak bulunamadı. Alıntı yalnız imza/devri tarihliyor."
+   "oneri": {
+    "f": "1947-03-31",
+    "not": "öncesi isg ingiltere 1945 → 1947-03-31, altında s: italya"
+   },
+   "not": "KARAR EMRELİC (gece-116): TEK ÖLÇÜ: Yunanistan 1947-02-10'da idare etmiyordu → f = Oniki Ada'nın Yunan askerî idaresine teslimi 1947-03-31 (kaynakla); imza ve 1947-09-15 yürürlük, 1948-03-07 resmî ilhak ic_not; öncesi isg ingiltere 1945 → 1947-03-31, altında s: italya. | TEK ÖLÇÜ: Paris 1947-02-10 imza; İngiliz askerî idaresi sürüyordu → teslim günü (Oniki Ada devri 1947-03-31 / resmî ilhak 1948-03-07) — EMRELİC'e soruldu. | ÜLKE DÜZEYİ: TDV: Paris Barış Antlaşması 10 Şubat 1947 imza; atlas f 1947-09-15 yürürlük günü. TEK ÖLÇÜ: Yunanistan o sırada fiilen yönetmiyor (İngiliz askerî idaresi) -> teslim günü esas; teslim günü TDV'de yok, kaynak bulunamadı. Alıntı yalnız imza/devri tarihliyor."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1813",
@@ -50,7 +53,7 @@
    "kaynak": "https://history.state.gov/historicaldocuments/frus1969-76v30/d3",
    "alinti": "On June 1, Papadopoulos announced that the monarchy was abolished by a constituent act voted by the Cabinet.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu gün 1973-06-01 (FRUS 1969-76 XXX d3, memorandum 12 Haziran 1973; devletin resmî yayını); yıl memo tarihinden."
+   "not": "KARAR EMRELİC (gece-116): TEK ÖLÇÜ: Yunanistan 1947-02-10'da idare etmiyordu → f = Oniki Ada'nın Yunan askerî idaresine teslimi 1947-03-31 (kaynakla); imza ve 1947-09-15 yürürlük, 1948-03-07 resmî ilhak ic_not; öncesi isg ingiltere 1945 → 1947-03-31, altında s: italya. | ÜLKE DÜZEYİ: f ucu gün 1973-06-01 (FRUS 1969-76 XXX d3, memorandum 12 Haziran 1973; devletin resmî yayını); yıl memo tarihinden."
   }
  ],
  "Şemdinli (Şemdinni)": [
@@ -65,7 +68,7 @@
    "kaynak": "Bakılan: TDV ilhanlilar (Şemdinli/Hakkâri geçmiyor), TDV karakoyunlular (zincirde)",
    "alinti": "",
    "oneri": {},
-   "not": "İlhanlı f 1281 ve t 1351 yerleşime özgü teyitsiz; kapanış kaynağı Musul'a ilişkin."
+   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 yerleşime özgü teyitsiz; kapanış kaynağı Musul'a ilişkin."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:99",
@@ -78,7 +81,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/van",
    "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
    "oneri": {},
-   "not": "Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van). Şemdinli dağlık Hakkâri kuşağında; 1548'de aynı gün Osmanlı'ya geçtiği okunmadı -> ÜLKE/bölge düzeyi bile değil, GÜN KOMŞUDAN (Van). t 1920-04-23 bu satırda okunmadı."
+   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van). Şemdinli dağlık Hakkâri kuşağında; 1548'de aynı gün Osmanlı'ya geçtiği okunmadı -> ÜLKE/bölge düzeyi bile değil, GÜN KOMŞUDAN (Van). t 1920-04-23 bu satırda okunmadı."
   }
  ],
  "Şeyhrumi (Yücelen)": [
@@ -93,7 +96,7 @@
    "kaynak": "Bakılan: TDV ilhanlilar (Şeyhrumi/Başkale geçmiyor)",
    "alinti": "",
    "oneri": {},
-   "not": "İlhanlı f 1281 ve t 1351 teyitsiz."
+   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | İlhanlı f 1281 ve t 1351 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:128",
@@ -106,7 +109,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/van",
    "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
    "oneri": {},
-   "not": "Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van); Şeyhrumi'nin o gün geçtiği okunmadı (zincir notu: 1548-1574 Mâkû Safevî, ölçülemedi). GÜN KOMŞUDAN (Van)."
+   "not": "KARAR EMRELİC (gece-116): ABİ MERKEZ Van değil Hakkâri (Çölemerik): TDV 'Hakkâri' maddesinde beyliğin Osmanlı'ya bağlanışı (1534/1548) okunacak; yarı özerkse s: hakkari-beyligi + v: osmanli (künye LAB SALI'ya); TDV yalnız Van fethini veriyorsa ABİ MERKEZ Van + beyan. | Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van); Şeyhrumi'nin o gün geçtiği okunmadı (zincir notu: 1548-1574 Mâkû Safevî, ölçülemedi). GÜN KOMŞUDAN (Van)."
   }
  ],
  "Abeşe (Abéché)": [
@@ -121,9 +124,10 @@
    "kaynak": "https://islamansiklopedisi.org.tr/veday",
    "alinti": "Muhammed eş-Şerîf 1850’de Vârâ’dan ayrıldı",
    "oneri": {
-    "f": "1850-01-01"
+    "f": "1850-01-01",
+    "not": "BEYANLI [yalnız yıl]"
    },
-   "not": "TDV Vedây: sultanlık 1635'te kuruldu (merkez Vârâ); Ebîşe 1850'de başşehir edinildi (YIL). Atlas f=1635 yerleşimin değil sultanlığın kuruluşu; yerleşim kuruluş yılı ÜLKE DÜZEYİ değil. t 1909-06-02 TDV: 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' (gün, Abeşe için doğrudan)."
+   "not": "KARAR EMRELİC (gece-116): Merdiven ④: başkentten önce yerleşim kaynakla gösterilmezse f 1850 [yıl] BEYANLI; vaday künye f 1635 ic_not. | TDV Vedây: sultanlık 1635'te kuruldu (merkez Vârâ); Ebîşe 1850'de başşehir edinildi (YIL). Atlas f=1635 yerleşimin değil sultanlığın kuruluşu; yerleşim kuruluş yılı ÜLKE DÜZEYİ değil. t 1909-06-02 TDV: 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' (gün, Abeşe için doğrudan)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:357",
@@ -136,7 +140,7 @@
    "kaynak": "https://history.state.gov/countries/chad",
    "alinti": "The United States recognized the Republic of Chad on August 11, 1960",
    "oneri": {},
-   "not": "history.state.gov ABD'nin TANIMA günü; bağımsızlık günü sayılmaz (brif). Bağımsızlık 1960-08-11 olabilir ama kaynak tanıma diyor."
+   "not": "KARAR EMRELİC (gece-116): Merdiven ④: başkentten önce yerleşim kaynakla gösterilmezse f 1850 [yıl] BEYANLI; vaday künye f 1635 ic_not. | history.state.gov ABD'nin TANIMA günü; bağımsızlık günü sayılmaz (brif). Bağımsızlık 1960-08-11 olabilir ama kaynak tanıma diyor."
   }
  ],
  "Acman (Ajman)": [
@@ -263,7 +267,7 @@
    "kaynak": "Bakılan: TDV somali (Alula/Adal yok; Adal ayrı madde slug'ı açılmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "Adal f 1281 / t 1577 teyitsiz."
+   "not": "KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | Adal f 1281 / t 1577 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:832",
@@ -276,7 +280,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/somali",
    "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu YIL 1927 (Alula Mâcerteyn Sultanlığı topraklarında). 'işgal' ifadesi: s: mi isg mi tahrir ölçütü kaynakta yok; gün teyitsiz (atlas 01-01)."
+   "not": "KARAR EMRELİC (gece-116): Himaye + TAHRİR: 1889 İtalyan koruma antlaşmasından s: majerteen + v: italya; 1927 fethiyle doğrudan idare → s: italya (İtalyan Somalisi; gün kaynakla, De Vecchi seferi). Majerteen künyesi LAB SALI'ya. | ÜLKE DÜZEYİ: f ucu YIL 1927 (Alula Mâcerteyn Sultanlığı topraklarında). 'işgal' ifadesi: s: mi isg mi tahrir ölçütü kaynakta yok; gün teyitsiz (atlas 01-01)."
   }
  ],
  "Aşkabad": [
@@ -362,7 +366,7 @@
    "kaynak": "Bakılan: yer_kaynak INEGI PDF'i (açılmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "f 1823-06-21 teyitsiz. PDF: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909132.pdf"
+   "not": "KARAR EMRELİC (gece-116): INEGI PDF AES şifreli (EMRELİC'te de açılmadı) → tarayıcı listesi. | f 1823-06-21 teyitsiz. PDF: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909132.pdf"
   }
  ],
  "Adelaide": [
@@ -437,9 +441,9 @@
    "kaynak": "https://www.treccani.it/enciclopedia/alghero/",
    "alinti": "in possesso dei Doria, che la mantennero fino al 1353, quando se ne impadronirono gli Aragonesi",
    "oneri": {
-    "t": "1353-01-01"
+    "t": "1353 (Ağustos teslimi, kaynakla)"
    },
-   "not": "Treccani kısa madde (Enc. Italiana kökenli olabilir -> ipucu sınıfı); t YIL 1353, atlas 1354 (Treccani 1354'ü sürgün yılı verir). f 1281 teyitsiz."
+   "not": "KARAR EMRELİC (gece-116): Treccani 1353 (Ağustos teslimi, kaynakla) → aragon f 1353; 1353–1354 isyan/geri alış dilimi (Arborea/Doria) varsa ayrı; 1354 ic_not ya da dilim ucu. ONERI. | Treccani kısa madde (Enc. Italiana kökenli olabilir -> ipucu sınıfı); t YIL 1353, atlas 1354 (Treccani 1354'ü sürgün yılı verir). f 1281 teyitsiz."
   }
  ],
  "Amapá (Montenegro)": [
