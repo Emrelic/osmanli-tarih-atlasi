@@ -735,5 +735,16 @@
   "islem": "devletler.js teksas-cumhuriyeti 'Teksas Cumhuriyeti' (:8698) t → 1846-02-19 (yetki devri töreni — TSHA); ic_not_t: '1845-12-29 ABD Kongresi kabul yasası (ilhak)'. abd s: 1846-02-19'dan. 4 yerleşim: San Antonio (Misyon San Antonio de Valero) (yerlesimler_amerika.js); Nacogdoches, San Felipe de Austin, Houston (yerlesimler_kamerika.js) — kırılma 1845-12-29 → 1846-02-19. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1845-12-29 ve 1846-02-19 maddesi YOK → madde önerisi 1846-02-19 'Teksas Cumhuriyeti yetkileri ABD'ye devretti (Austin töreni)', taraflar [teksas-cumhuriyeti, abd], odak Austin/San Antonio.",
   "dayanak": "Texas State Historical Association (TSHA, Handbook of Texas — UMIT); EMRELİC r8_091",
   "onay": "EMRELİC r8_091 (UMIT iletimi)"
+ },
+ {
+  "d": "Tacna-Arica (Arica + yeni Tacna noktası)",
+  "tur": "YERLESIM + YENİ NOKTA + MADDE",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "künye değişmez",
+  "gun": "1884-10-31",
+  "islem": "ARICA (yerlesimler_amerika.js): peru-cumhuriyeti → 1880-06-06; 1880-06-07 → 1884-10-30 isg sili-cumhuriyeti (alt s: peru-cumhuriyeti); 1884-10-31'den s: sili-cumhuriyeti (Şili yasası); ic_not 'Ancón 1883-10-20'. YENİ NOKTA TACNA (Emre onayı gerekmez; KASA PAZAR uygulama dalgası): LAB PAZAR mükerrer taraması (origin/main, girdi.yukle) — ad eşleşmesi YOK, 3 km içinde nokta YOK (en yakın Arica 51,7 km, Putre 76,1 km); koordinat ~ -18.0146, -70.2536 (Plaza de Armas). Zincir (her uç kaynakla): ispanya (peru-valiligi künyesi YOK) → peru-cumhuriyeti (Tacna'nın kendi bağımsızlık günü varsa) → 1880-05-26 isg sili (Alto de la Alianza / Tacna muharebesi) → 1884-10-31 s: sili-cumhuriyeti (Tacna eyaleti yasası) → 1929-08-28 s: peru-cumhuriyeti (teslim; Lima Antlaşması 1929-06-03 ic_not). DEĞİŞMEZ 2 — DİKKAT (LAB ölçümü origin/main): LAB PAZAR'ın bulduğu 1929-08-28 maddesi (data/kronoloji_cok_1923_1945.js:965) ve Lima 1929-06-03 (:935) 'kronoloji_cok' dosyasında — Değişmez 2 EVRENİ DIŞINDA (evren yalnız olaylar*.js + kronoloji_sinir*.js; CLAUDE.md). Evrende 1880-05-26, 1880-06-07, 1883-10-20, 1884-10-31, 1929-08-28 maddelerinin HİÇBİRİ YOK (git grep) → beş kırılma için kronoloji_sinir madde önerisi gerekir (1929-08-28 için kronoloji_cok maddesi kaynak olarak kopyalanabilir, IBS No. 65).",
+  "dayanak": "EMRELİC (LAB PAZAR iletimi, gece-110 sonrası); LAB PAZAR mükerrer taraması; IBS No. 65 (kronoloji_cok_1923_1945.js:965)",
+  "onay": "EMRELİC 6 Kasım"
  }
 ]
