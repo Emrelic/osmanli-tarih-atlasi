@@ -1,0 +1,1164 @@
+{
+ "Tidore": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4237",
+   "alan": "s",
+   "d": "tidore-sultanligi",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hollanda Doğu Hindistan Şirketi», https://islamansiklopedisi.org.tr/hollanda-dogu-hindistan-sirketi",
+   "alinti": "İspanyollar’ın 1663’te Tidore’yi boşaltmalarından sonra bu adaların tamamını hâkimiyeti altına aldı",
+   "uc": "",
+   "oneri": {
+    "t": "eski ufuk izi 1923-10-29 kaldırılmalı (sultanlık sürer)",
+    "ek_v": "v: hollanda-dogu-hint 1663 → (sultanlığın sonu; kaynakla)",
+    "ic_not": "1606-1663 İspanyol kalesi (isg/v ispanya sorusu, bakılmadı)"
+   },
+   "not": "[sira 3322] 1923-10-29 kırılması Colo kaydında düzeltilen '1923 ESKİ UFUK' yapay kırılmasının aynısıdır; Tidore → hollanda-dogu-hint 1923 tarihî bir olay değil. TDV: VOC 1663'te Tidore dahil adaların 'tamamını hâkimiyeti altına aldı' — sultanlık sürdü (TAHRİR: VOC antlaşmalarıyla metbû → v:). f 1281 pencere başı; sultanlığın kuruluşu bakılmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4237",
+   "alan": "s",
+   "d": "kediri",
+   "f": "1042-01-01",
+   "t": "1222-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3323] Mevcut Hall/ABİ MERKEZ kaynağı; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4237",
+   "alan": "s",
+   "d": "singhasari",
+   "f": "1222-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3324] Mevcut Coedès/ABİ MERKEZ kaynağı; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4237",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "1042-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3325] Mevcut BOŞLUK BEYANI; bütçe."
+  }
+ ],
+ "Kupang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4262",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1653-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hollanda Doğu Hindistan Şirketi», https://islamansiklopedisi.org.tr/hollanda-dogu-hindistan-sirketi",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3326] TDV'de Kupang/Timor maddesi yok (arama 'timor' boş); TDV «Hollanda Doğu Hindistan Şirketi» Kupang/Timor'u anmıyor. TARAYICI: H. G. Schulte Nordholt, The Political System of the Atoni of Timor (1971); Fort Concordia 1653."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4262",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1653-01-01",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hollanda Doğu Hindistan Şirketi», https://islamansiklopedisi.org.tr/hollanda-dogu-hindistan-sirketi",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3327] f 1653 VOC Fort Concordia: akademik kaynakta okunmadı (TDV'de yok). 1613-1653 Portekiz/Dominiken Solor-Kupang varlığı ipucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4262",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1945-09-02",
+   "t": "1949-12-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3328] [KÜME K16]"
+  }
+ ],
+ "Colo (Jolo)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4303",
+   "alan": "s",
+   "d": "sulu-sultanligi",
+   "f": "1281-01-01",
+   "t": "1915-03-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Filipinler», https://islamansiklopedisi.org.tr/filipinler",
+   "alinti": "başşehri Jolo olan Sulu Sultanlığı’nı kurmuştur (1450 [?]) | 1876’da Jolo’yu tamamen zaptettiler | Temmuz 1878’de İspanyol hâkimiyetini resmen tanımak",
+   "uc": "f+t",
+   "oneri": {
+    "bolunme": "1281 → ~1450 sultanlık öncesi (Raca Baguinda; künye yok — HAYALET: sulu-sultanligi f 1457) · sulu-sultanligi ~1450 → 1876 · isg ispanya 1876 (gün yok) → 1878-07 · s: ispanya 1878-07 (sultanın İspanyol hâkimiyetini tanıması) → 1898-12-10 Paris (TEK ÖLÇÜ: ABD Jolo'yu yönetmiyordu → s: ABD teslim gününden; gün kaynakla) · ABD 1899 → (amerikan-filipinleri künye f 1901-07-04: HAYALET, 1899-1901 askerî yönetim künyesi LAB'a)"
+   },
+   "not": "[sira 3329] Jolo şehri 1876'dan sonra sultanlığın değil İspanya'nın elindeydi (sultan iç kesimlere çekildi). ÖLÇÜT: 1876 askerî zapt (geçici/askerî) → isg; 1878 sultanın tanıması = idareye katma/metbûluk. TDV 1450'yi '[?]' ile veriyor; künye f 1457 ile çelişki ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4303",
+   "alan": "s",
+   "d": "amerikan-filipinleri",
+   "f": "1915-03-22",
+   "t": "1935-11-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Filipinler», https://islamansiklopedisi.org.tr/filipinler",
+   "alinti": "1903-1913 yılları arasında Mindanao ve Sulu Amerikan askerî yönetimi altında kaldı.",
+   "uc": "",
+   "oneri": {
+    "f": "1899 (ABD'nin Jolo'ya girişi; gün kaynakla) — bkz 3329"
+   },
+   "not": "[sira 3330] f 1915-03-22 (Carpenter-Kiram anlaşması, sultanın dünyevî yetkisini bırakması) Jolo şehri için geç: TDV Sulu'nun 1903'ten itibaren Amerikan askerî yönetiminde olduğunu söylüyor. 1915 sultanlığın sonudur, şehrin devri değil (ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4303",
+   "alan": "s",
+   "d": "filipin-commonwealth",
+   "f": "1945-09-02",
+   "t": "1946-07-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3331] Bütçe; 1945-09-02 (Japon teslimi) günü aranmadı. t 1946-07-04 için bkz 3332."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4303",
+   "alan": "s",
+   "d": "filipinler-cumhuriyeti",
+   "f": "1946-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Philippines», https://history.state.gov/countries/philippines",
+   "alinti": "The United States recognized the Republic of the Philippines as an independent state on July 4, 1946",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3332] ÜLKE DÜZEYİ; t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kristianstad": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:96",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "1658-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Kristianstad», https://snl.no/Kristianstad · Store norske leksikon, «freden i Roskilde» (Øystein Lydik Idsø Viken), https://snl.no/freden_i_Roskilde",
+   "alinti": "Byen ble grunnlagt i 1614 av Christian 4. som grensefestning mot Sverige da Skåne var en del av Danmark | underteikna 26. februar 1658",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3333] JÜLYEN/GREGORYEN: Roskilde imzası 26 Şubat 1658 (Jülyen; Danimarka ve İsveç 1700/1753'e kadar Jülyen) = Gregoryen 8 Mart 1658 → atlas günü 1658-03-08 doğru çeviri. f=1281 pencere başı; şehir 1614'te kuruldu, öncesi Vä (Danimarka, 1100'lerden şehir — SNL). TEK ÖLÇÜ: Skåne'nin İsveç'e fiilî teslimi Nisan-Mayıs 1658 bakılmadı (imza günü mü teslim mi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:96",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1658-03-08",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «freden i Roskilde» (Øystein Lydik Idsø Viken), https://snl.no/freden_i_Roskilde · Store norske leksikon, «Kristianstad», https://snl.no/Kristianstad",
+   "alinti": "underteikna 26. februar 1658 | ble sete for svensk landshøvding i Skåne i 1719",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3334] f Jülyen 1658-02-26 = Gregoryen 1658-03-08. t pencere ucu. BULUNAMADI notu: Skåne Savaşı'nda Kristianstad'ın Danimarka'ca geri alınışı (1676) ve İsveç'in geri alması (1678) — isg danimarka dilimi adayı; SNL «Skånske krig» slugı 404, bakılamadı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kirensk": [
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:219",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1630-01-01",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3335] f 1630 (Kirenga ostrogu) aranmadı; BSE/BRE erişilemez kapı. t [KÜME K01] ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:219",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3336] [KÜME K01]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:219",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3337] [KÜME K02]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:219",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3338] [KÜME K03]"
+  }
+ ],
+ "Şehrisebz (Kiş)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:130",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1370-04-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Keş», https://islamansiklopedisi.org.tr/kes",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3339] TDV «Keş»: 'Daha sonra Keş ve çevresi Çağatay hanlarına kışlak vazifesi görmeye başladı' — sahip teyitli, uç günleri yok (1370-04-09 Timur'un Belh'te tahta çıkışı TDV «Keş»te yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:130",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1370-04-09",
+   "t": "1500-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Keş», https://islamansiklopedisi.org.tr/kes",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3340] TDV «Keş» Timur dönemini (Ak Saray 1380, 1388 kurultay) anlatır; 1370 ve 1500 uçları için tarih vermez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:130",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1500-01-01",
+   "t": "1920-09-02",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Keş», https://islamansiklopedisi.org.tr/kes",
+   "alinti": "Keş Semerkant ve Belh gibi bağımsızlığını ilân etti | XVIII. yüzyılın başlarında Hokand Hanı Ebû Rahim, 1860’ta da Buhara Hanı Nasrullah Han Keş’i idareleri altına aldılar.",
+   "uc": "",
+   "oneri": {
+    "bolunme": "buhara 1500 → (XVI. yy 2. yarısı bağımsız Şehrisebz; II. Abdullah Han geri bağladı) · XVIII. yy başı Hokand → 1860 · buhara 1860 → 1865 Rus (TDV) · 1865/1870 → 1920 (Rus işgali / Buhara Emirliği — v: rusya SINIF sorusu)"
+   },
+   "not": "[sira 3341] TDV: Şehrisebz 1500-1920 kesintisiz Buhara değil; XVIII. yy başından 1860'a Hokand, 1860'ta Buhara, 'Şehir 1865’te Ruslar’ın eline geçti'. Not: 1865 TDV'nin yılıdır; yaygın akademik yıl 1870 (Rusların Şehrisebz'i alıp Buhara'ya vermesi) — çelişki, ikinci kaynak aranmadı (TARAYICI: Becker, Russia's Protectorates in Central Asia 1968). Gün yok; YIL/YÜZYIL. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:130",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1920-09-02",
+   "t": "1991-08-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Keş», https://islamansiklopedisi.org.tr/kes",
+   "alinti": "işgal 1920’de kesin bir Sovyet yönetimine dönüştü. Bugün, 31 Ağustos 1991’de bağımsızlığını ilân eden Özbekistan",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3342] f YIL (09-02 Buhara'nın düşüşü günü TDV'de yok); t 1991-08-31 birebir (Sovyet ardılı bağımsızlık ilanı kuralı; ic_not: SSCB'nin sona erişi 1991-12-26). ic_not: 1920-10-08 → 1924 Buhara Halk Sovyet Cumhuriyeti ayrı künye sorusu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Oş": [
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1370-04-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fergana», https://islamansiklopedisi.org.tr/fergana",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3343] TDV «Fergana»: XIII. yy Moğol, XIV. yy Çağatay bölünmesinden Timurlular'a kadar çekişme — sahip uyumlu, uç günleri (1370-04-09) yok. Oş'a özgü TDV maddesi yok (slug 'os' arama döndü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1504-01-01",
+   "t": "1710-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fergana», https://islamansiklopedisi.org.tr/fergana",
+   "alinti": "1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti | Şeybânîler’in 1599’da ortadan kalkmasından sonra halk arasında nüfuz sahibi olan birçok hoca ailesi toprakları bölüştü",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1599-01-01",
+    "bolunme": "1599 → 1710 Fergana hocaları (Bî Hocalar) dönemi — künye YOK (LAB'a); 'Bî Hocalar’ın hâkimiyetine son vererek' (1710)"
+   },
+   "not": "[sira 3344] f 1504 TDV birebir (BÖLGE DÜZEYİ, YIL). t: Buhara (Şeybânî) hâkimiyeti 1599'da bitti; 1599-1710 yerel hoca aileleri. buhara künyesi Canoğulları'nı da kapsıyorsa Fergana'yı kapsadığına dair tanık yok. YIL düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1710-01-01",
+   "t": "1876-02-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fergana», https://islamansiklopedisi.org.tr/fergana",
+   "alinti": "bağımsız bir Özbek devleti kurmayı başardı (1710). ... 1876’da Ruslar tarafından ilhak edilinceye kadar",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3345] BÖLGE DÜZEYİ, YIL; 1876-02-19 günü TDV'de yok. Oş'un Rus işgali (1875-76 Skobelev seferi) yerleşime özgü günü bakılmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1876-02-19",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fergana», https://islamansiklopedisi.org.tr/fergana",
+   "alinti": "Hokand Hanlığı 1876’da Ruslar tarafından yıkılınca Fergana şehri Fergana bölgesinin merkezi oldu.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3346] BÖLGE DÜZEYİ, YIL. t [KÜME K01] ülke düzeyinden — t teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3347] [KÜME K01]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:117",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3348] [KÜME K02]"
+  }
+ ],
+ "Öndörhaan (Hentiy)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3349] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3350] ÜLKE DÜZEYİ, YIL (05-30 günü TDV'de yok). f 1368-09-14 TDV «Moğolistan» II. Tarih'te yok ('önceki tarihi için bk. MOĞOLLAR' — okunmadı) → f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Bu durum Mançu Qing hânedanının 1911’de yıkılışına kadar devam etti. ... ancak özerklik elde edebildiler (18 Kasım 1911)",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1911-11-18 (TDV) — takvim belirsiz; TDV Jülyen kullanıyorsa Gregoryen 1911-12-01 (bağımsızlık ilanı). 1911-12-29 Bogd Han'ın tahta çıkışı ic_not"
+   },
+   "not": "[sira 3351] f 1691 TDV ile YIL düzeyinde teyitli. t: TDV 18 Kasım 1911 veriyor, atlas 12-29; ikisi farklı olay (TDV 'özerklik', atlas tahta çıkış). Jülyen 18 Kasım 1911 = Gregoryen 1 Aralık 1911 — TDV hangi takvimi kullandı belirsiz, beyan. Karar EMRELİC'e (ÇİFT-TDV: TDV «Moğollar» okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "1919’da Urga’yı (bugünkü Ulan Batur) ele geçirip özerkliğe son verdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3352] ÜLKE DÜZEYİ, YIL (11-22 günü TDV'de yok). f için bkz önceki satır (TDV 18 Kasım 1911). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Ungern-Sternberg’in Şubat 1921’de Urga’yı kuşatarak ele geçirmesine ve Çin hâkimiyetine son vermesine kadar sürdü",
+   "uc": "t",
+   "oneri": {
+    "t": "1921-02 (Urga'nın düşüşü; gün kaynakta yok)",
+    "ic_not": "Şubat-Temmuz 1921 Ungern'in yeniden tahta çıkardığı Bogd Han rejimi → s: mogolistan; 1921-07 Kızılordu/halk hükümeti künye içi rejim değişimi"
+   },
+   "not": "[sira 3353] f 1919 TDV ile YIL düzeyinde uyumlu. t 1921-07-11 değil: TDV'ye göre Çin hâkimiyeti Şubat 1921'de sona erdi. Bu yerleşim (Urga dışı) için yerel Çin garnizonu günü bulunamadı → BÖLGE/ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Şubat 1921’de Urga’yı kuşatarak ele geçirmesine | 26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "t",
+   "oneri": {
+    "f": "1921-02 (önceki satırla birleşir)"
+   },
+   "not": "[sira 3354] t 1924-11-26 TDV ile birebir (KAYNAKLI uç). f 1921-07-11 Şubat 1921'e çekilmeli (bkz önceki satır). TDV 'Haziran 1921 ... Kızılordu Moğolistan’a girdi. 6 Temmuz’da Kızılordu' — 07-11 halk hükümeti ilanı ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:141",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3355] ÜLKE DÜZEYİ; t pencere ucu. ic_not adayı: TDV 'bu cumhuriyet özerk bir statüyü kabul ederek 1924-1945 yılları arasında Çin hâkimiyeti altında kaldı' (hukukî iddia). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Mörön (Hövsgöl)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3356] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3357] ÜLKE DÜZEYİ, YIL (05-30 günü TDV'de yok). f 1368-09-14 TDV «Moğolistan» II. Tarih'te yok ('önceki tarihi için bk. MOĞOLLAR' — okunmadı) → f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Bu durum Mançu Qing hânedanının 1911’de yıkılışına kadar devam etti. ... ancak özerklik elde edebildiler (18 Kasım 1911)",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1911-11-18 (TDV) — takvim belirsiz; TDV Jülyen kullanıyorsa Gregoryen 1911-12-01 (bağımsızlık ilanı). 1911-12-29 Bogd Han'ın tahta çıkışı ic_not"
+   },
+   "not": "[sira 3358] f 1691 TDV ile YIL düzeyinde teyitli. t: TDV 18 Kasım 1911 veriyor, atlas 12-29; ikisi farklı olay (TDV 'özerklik', atlas tahta çıkış). Jülyen 18 Kasım 1911 = Gregoryen 1 Aralık 1911 — TDV hangi takvimi kullandı belirsiz, beyan. Karar EMRELİC'e (ÇİFT-TDV: TDV «Moğollar» okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "1919’da Urga’yı (bugünkü Ulan Batur) ele geçirip özerkliğe son verdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3359] ÜLKE DÜZEYİ, YIL (11-22 günü TDV'de yok). f için bkz önceki satır (TDV 18 Kasım 1911). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Ungern-Sternberg’in Şubat 1921’de Urga’yı kuşatarak ele geçirmesine ve Çin hâkimiyetine son vermesine kadar sürdü",
+   "uc": "t",
+   "oneri": {
+    "t": "1921-02 (Urga'nın düşüşü; gün kaynakta yok)",
+    "ic_not": "Şubat-Temmuz 1921 Ungern'in yeniden tahta çıkardığı Bogd Han rejimi → s: mogolistan; 1921-07 Kızılordu/halk hükümeti künye içi rejim değişimi"
+   },
+   "not": "[sira 3360] f 1919 TDV ile YIL düzeyinde uyumlu. t 1921-07-11 değil: TDV'ye göre Çin hâkimiyeti Şubat 1921'de sona erdi. Bu yerleşim (Urga dışı) için yerel Çin garnizonu günü bulunamadı → BÖLGE/ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Şubat 1921’de Urga’yı kuşatarak ele geçirmesine | 26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "t",
+   "oneri": {
+    "f": "1921-02 (önceki satırla birleşir)"
+   },
+   "not": "[sira 3361] t 1924-11-26 TDV ile birebir (KAYNAKLI uç). f 1921-07-11 Şubat 1921'e çekilmeli (bkz önceki satır). TDV 'Haziran 1921 ... Kızılordu Moğolistan’a girdi. 6 Temmuz’da Kızılordu' — 07-11 halk hükümeti ilanı ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:159",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3362] ÜLKE DÜZEYİ; t pencere ucu. ic_not adayı: TDV 'bu cumhuriyet özerk bir statüyü kabul ederek 1924-1945 yılları arasında Çin hâkimiyeti altında kaldı' (hukukî iddia). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ömnögovi (Dalanzadgad)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3363] [KÜME K13]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3364] ÜLKE DÜZEYİ, YIL (05-30 günü TDV'de yok). f 1368-09-14 TDV «Moğolistan» II. Tarih'te yok ('önceki tarihi için bk. MOĞOLLAR' — okunmadı) → f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Bu durum Mançu Qing hânedanının 1911’de yıkılışına kadar devam etti. ... ancak özerklik elde edebildiler (18 Kasım 1911)",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1911-11-18 (TDV) — takvim belirsiz; TDV Jülyen kullanıyorsa Gregoryen 1911-12-01 (bağımsızlık ilanı). 1911-12-29 Bogd Han'ın tahta çıkışı ic_not"
+   },
+   "not": "[sira 3365] f 1691 TDV ile YIL düzeyinde teyitli. t: TDV 18 Kasım 1911 veriyor, atlas 12-29; ikisi farklı olay (TDV 'özerklik', atlas tahta çıkış). Jülyen 18 Kasım 1911 = Gregoryen 1 Aralık 1911 — TDV hangi takvimi kullandı belirsiz, beyan. Karar EMRELİC'e (ÇİFT-TDV: TDV «Moğollar» okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "1919’da Urga’yı (bugünkü Ulan Batur) ele geçirip özerkliğe son verdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3366] ÜLKE DÜZEYİ, YIL (11-22 günü TDV'de yok). f için bkz önceki satır (TDV 18 Kasım 1911). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Ungern-Sternberg’in Şubat 1921’de Urga’yı kuşatarak ele geçirmesine ve Çin hâkimiyetine son vermesine kadar sürdü",
+   "uc": "t",
+   "oneri": {
+    "t": "1921-02 (Urga'nın düşüşü; gün kaynakta yok)",
+    "ic_not": "Şubat-Temmuz 1921 Ungern'in yeniden tahta çıkardığı Bogd Han rejimi → s: mogolistan; 1921-07 Kızılordu/halk hükümeti künye içi rejim değişimi"
+   },
+   "not": "[sira 3367] f 1919 TDV ile YIL düzeyinde uyumlu. t 1921-07-11 değil: TDV'ye göre Çin hâkimiyeti Şubat 1921'de sona erdi. Bu yerleşim (Urga dışı) için yerel Çin garnizonu günü bulunamadı → BÖLGE/ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "Şubat 1921’de Urga’yı kuşatarak ele geçirmesine | 26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "t",
+   "oneri": {
+    "f": "1921-02 (önceki satırla birleşir)"
+   },
+   "not": "[sira 3368] t 1924-11-26 TDV ile birebir (KAYNAKLI uç). f 1921-07-11 Şubat 1921'e çekilmeli (bkz önceki satır). TDV 'Haziran 1921 ... Kızılordu Moğolistan’a girdi. 6 Temmuz’da Kızılordu' — 07-11 halk hükümeti ilanı ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:125",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Moğolistan» (II. Tarih, Osman Gazi Özgüdenli), https://islamansiklopedisi.org.tr/mogolistan#2",
+   "alinti": "26 Kasım 1924’te Moğolistan Halk Cumhuriyeti ilân edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3369] ÜLKE DÜZEYİ; t pencere ucu. ic_not adayı: TDV 'bu cumhuriyet özerk bir statüyü kabul ederek 1924-1945 yılları arasında Çin hâkimiyeti altında kaldı' (hukukî iddia). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Botoşani": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "s",
+   "d": "bogdan",
+   "f": "1359-01-01",
+   "t": "1456-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Boğdan» (Abdülkadir Özcan), https://islamansiklopedisi.org.tr/bogdan",
+   "alinti": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek suretiyle",
+   "uc": "t",
+   "oneri": {
+    "t": "1455-09-01"
+   },
+   "not": "[sira 3370] TDV «Boğdan»: Osmanlı'ya tâbiiyet (haraç) Eylül 1455'ten; atlas 1456-06-01. AY düzeyi (gün yok → ayın 1'i beyanlı). f 1359: TDV 'Moldova nehrinin iki kenarındaki arazide XIV. yüzyılda kurulan prenslik' — yüzyıl düzeyi uyumlu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi. | Ruslar, Romanya’da monarşi idaresine son verdiler (1947).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3371] ÜLKE DÜZEYİ, YIL. Günler (1881-03-26 = Jülyen 14 Mart; 1947-12-30) TDV'de yok — Romanya 1919'a kadar Jülyen kullandı, atlas günü Gregoryen çeviri. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1456-06-01",
+   "t": "1859-02-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Boğdan» (Abdülkadir Özcan), https://islamansiklopedisi.org.tr/bogdan",
+   "alinti": "1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın | 5 Şubat 1859’da ... Boğdan prensliğine seçilen Alexandru Ion Cuza",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1455-09-01"
+   },
+   "not": "[sira 3372] t 1859-02-05 TDV «Boğdan» ile birebir (KAYNAKLI uç). f Eylül 1455'e çekilmeli (bkz 3370). Takvim notu: TDV '5 Şubat' Boğdan seçimi, '24 Şubat' Eflak seçimi diyor; bilinen günler Boğdan Jülyen 5 Ocak (=17 Ocak G), Eflak Jülyen 24 Ocak (=5 Şubat G) — TDV'nin günleri takvim karışması olabilir; atlas 02-05'i Botoşani için kullanıyor. ÇİFT-TDV/üçüncü kaynak aranmadı, EMRELİC'e beyan. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Boğdan» (Abdülkadir Özcan), https://islamansiklopedisi.org.tr/bogdan · TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "5 Şubat 1859’da ... Boğdan prensliğine seçilen | 9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3373] JÜLYEN: 9 Mayıs 1877 (Romanya Jülyen takvimi) = Gregoryen 21 Mayıs 1877 → atlas t 1877-05-21 doğru çeviri. f için 3372 takvim notu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3374] Mevcut ESBE kaynağı (Jülyen çevrili); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Ruslar, Romanya’da monarşi idaresine son verdiler (1947). | 1989’da idamının ardından demokratik bir yapıya geçildi.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3375] ÜLKE DÜZEYİ, YIL; günler TDV'de yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:752",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1989’da idamının ardından demokratik bir yapıya geçildi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3376] ÜLKE DÜZEYİ, YIL; t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Leskofça (Leskovac)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "sirp-despotlugu",
+   "f": "1402-01-01",
+   "t": "1428-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Leskofça» (M. Kiel), https://islamansiklopedisi.org.tr/leskofca",
+   "alinti": "Dubočica ve yöresi, 831’de (1428) II. Murad tarafından ... ele geçirildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3377] YIL; t 1428 TDV ile uyumlu. TDV aynı maddede 'büyük ihtimalle ... (1433)' alternatifini verir — ic_not (mevcut d: kaydında beyanlı). f 1402 (despotluk) bu maddede yok — f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1882-03-06",
+   "t": "1918-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3378] Bütçe; ülke düzeyi 1882-03-06 (krallık ilanı) aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-12-01",
+   "t": "1941-08-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Leskofça» (M. Kiel), https://islamansiklopedisi.org.tr/leskofca",
+   "alinti": "II. Dünya Savaşı sırasında Almanya tarafından işgal edilen Leskofça",
+   "uc": "",
+   "oneri": {
+    "ek_isg": "isg almanya 1941-04 (Nisan Savaşı; Leskofça'ya giriş günü kaynakla) → 1944-10 (kurtuluş; gün kaynakla)"
+   },
+   "not": "[sira 3379] TEK KURAL: savaş işgali isg. 1941-08-29 Nedić hükûmeti Alman askerî idaresi altında bir kukla idaredir; işgal katmanı eksik. Günler TDV'de yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "sirbistan-nedic",
+   "f": "1941-08-29",
+   "t": "1944-10-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3380] Niş zinciri (ABİ MERKEZ); bütçe. Not: 3379 isg önerisi bu dilimi kapsar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1944-10-06",
+   "t": "1945-11-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3381] Niş zinciri; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3382] Niş zinciri; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:795",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3383] Niş zinciri; bütçe."
+  }
+ ],
+ "Calafat": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi. | Ruslar, Romanya’da monarşi idaresine son verdiler (1947).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3384] ÜLKE DÜZEYİ, YIL (bkz Botoşani 3371). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflâk», https://islamansiklopedisi.org.tr/eflak · TDV İslâm Ansiklopedisi, «Boğdan» (Abdülkadir Özcan), https://islamansiklopedisi.org.tr/bogdan",
+   "alinti": "Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında ... Osmanlı hükümranlığını kabul etti. | 24 Şubat günü Eflak’ta da seçilmiş",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1417-01-01",
+    "ic_not": "1462 Radu'nun voyvodalığa getirilişi (TDV «Eflâk»: 'Radu (1462-1474)'); Segedin 1444 ikili hükümranlık; Vlad Tepeş 1456-1462 mücadelesi"
+   },
+   "not": "[sira 3385] TDV «Eflâk»: Eflak 1417'de Osmanlı hükümranlığını kabul etti → v: 1462 değil 1417'den (s: eflak 1330-1462 dönemi 1417'de kısalır). YIL düzeyi. t: TDV «Boğdan» Eflak seçimini '24 Şubat' diye verir, atlas 02-05 — Jülyen 24 Ocak 1859 = Gregoryen 5 Şubat 1859; TDV ay hatası/takvim karışması olası, atlas günü korunur, iki gün ic_not'a. f 1330 Posada TDV «Eflâk» ile birebir ('Macarlar’ı 1330 yılında Posada mevkiinde yenerek'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3386] JÜLYEN 9 Mayıs 1877 = Gregoryen 21 Mayıs 1877 (atlas t doğru). f için 3385 takvim notu (TDV 24 Şubat). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3387] Mevcut ESBE kaynağı; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Ruslar, Romanya’da monarşi idaresine son verdiler (1947). | 1989’da idamının ardından",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3388] ÜLKE DÜZEYİ, YIL. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:928",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1989’da idamının ardından demokratik bir yapıya geçildi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3389] ÜLKE DÜZEYİ, YIL; t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Hırsova (Hârșova)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:975",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi. | Ruslar, Romanya’da monarşi idaresine son verdiler (1947).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3390] ÜLKE DÜZEYİ, YIL. TDV «Romanya» Hırsova'yı 1850'lerin Türk nüfuslu Dobruca kasabaları arasında sayar; Berlin 1878 sonrası Kuzey Dobruca Romanya'ya ('Kuzey Dobruca bölgesi verildi'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:975",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1393-09-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1393’ten sonra Tuna’ya ulaşan Osmanlı Devleti’ne karşı da yeni bir çatışma içine girdi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3391] BÖLGE DÜZEYİ, YIL (09-01 günü kaynakta yok; Köstence zinciri BEYAN). t 1402-07-28 Ankara (ülke düzeyi) teyitsiz; mevcut s: eflak 1402 dönemi TDV «Köstence»ye dayanıyor. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:975",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Ruslar, Romanya’da monarşi idaresine son verdiler (1947). | 1989’da idamının ardından",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3392] ÜLKE DÜZEYİ, YIL. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:975",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1989’da idamının ardından demokratik bir yapıya geçildi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3393] ÜLKE DÜZEYİ, YIL; t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kalabaka (Kalambaka)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1390-01-01",
+   "t": "1394-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "Onun ardından yerine Manuel Angelos geçti (1390-1393). Her iki idareci de Batı ovasında bulunan Trikkala’da ikamet etti.",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1393-01-01"
+   },
+   "not": "[sira 3394] f 1390 TDV ile YIL düzeyinde birebir. t 1394 değil 1393 (Manuel Angelos'un idaresi 1390-1393; Osmanlı fethi). YIL. ABİ MERKEZ Tırhala (Trikkala) — Kalabaka 20 km, Batı ovası. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1410-02-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3395] Fetret kuralı (UMIT): savaş günleri ülke düzeyi; Tesalya'ya özgü tanıklık aranmadı. TDV «Tesalya» fetret dönemini anmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3396] Fetret kuralı; aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3397] Fetret kuralı; aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3398] Fetret kuralı; aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1413-07-05",
+   "t": "1881-07-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "1881’de Yunanlı güçlerin ağır baskısı altında Osmanlılar, Tesalya’yı Yunan Krallığı’na terketti.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3399] BÖLGE DÜZEYİ, YIL (07-02 sözleşme günü TDV'de yok). f 1413-07-05 fetret kuralına göre ülke düzeyi — teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1311-03-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "VIII. Mikhail Palaiologos adına Ioannes Palaiologos, Tesalya’nın doğu yarısını alıp Nicea (İznik) İmparatorluğu’na kattı.",
+   "uc": "",
+   "oneri": {
+    "d": "Tesalya (Megali Vlachia) Doukas sebastokratorluğu — künye YOK (LAB'a); 1318'de hanedanın sonu ipucu"
+   },
+   "not": "[sira 3400] Kalabaka Batı ovasındadır; TDV'ye göre Bizans yalnız Tesalya'nın DOĞU yarısını aldı. 1281'de batı Tesalya bağımsız Rum prensliğiydi (Doukas). s: bizans 1281-1311 batı için tanıksız. Uç günleri kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "katalan",
+   "f": "1311-03-15",
+   "t": "1388-05-02",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "1320’lerde Katalanlar, Tesalya’da özellikle doğu ovasında büyük tahribata yol açtı. | Sırp Çarı Stefan Duşan bunun üzerine Tesalya’yı ele geçirdi.",
+   "uc": "",
+   "oneri": {
+    "bolunme": "katalan YANLIŞ (Katalanlar yalnız doğu ovasını yağmaladı) · ~1333/1342 Bizans (TDV: 1342 Kantakuzenos'un Angelos'u Tesalya valisi atadı) → 1348 · Sırp (Duşan) 1348 → 1356 · II. Nikephoros (Epir; künye epir-despotlugu) 1356 → ~1359 · Sırp Simeon Uroš (Trikkala'da imparator) ~1359 → 1370 · Alexis Angelos Philanthropenos 1370 → 1390 (Bizans tâbi; künye: bizans?)"
+   },
+   "not": "[sira 3401] Kalabaka (Stagoi) Trikkala yanında, Batı ovasında; TDV'ye göre Katalan dönemi bu yer için tanıksız. Komşu Tırhala zincirindeki katalan dönemi de aynı sorunu taşıyabilir (ABİ MERKEZ). YIL düzeyi; günler kaynakta yok. Künye soruları: Simeon Uroš 'Sırp-Rum imparatorluğu', Angelos'lar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1388-05-02",
+   "t": "1390-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "Daha sonra Alexis Angelos Philanthropenos Tesalya’nın idaresini üstlendi (1370-1390).",
+   "uc": "",
+   "oneri": {
+    "d": "Alexis Angelos Philanthropenos idaresi (Bizans tâbi; künye: bizans ya da yeni künye — LAB'a)"
+   },
+   "not": "[sira 3402] __BOSLUK__ 1388-1390 doldurulabilir: TDV bu aralıkta Trikkala'da Alexis Angelos'un idaresini veriyor. Uç 1388-05-02 Katalan künyesinin sonu, Kalabaka'yla ilgisiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1394-01-01",
+   "t": "1402-07-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tesalya», https://islamansiklopedisi.org.tr/tesalya",
+   "alinti": "Onun ardından yerine Manuel Angelos geçti (1390-1393).",
+   "uc": "",
+   "oneri": {
+    "f": "1393-01-01"
+   },
+   "not": "[sira 3403] f 1394 → 1393 (bkz 3394). t 1402-07-28 Ankara ülke düzeyi, teyitsiz. TDV: doğu ovası Evrenos tarafından 1386-1387 kışında fethedildi (doğu için; Kalabaka değil — ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1068",
+   "alan": "s",
+   "d": "yunanistan-cumhuriyeti",
+   "f": "1973-06-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3404] Bütçe; 1973-06-01 aranmadı."
+  }
+ ]
+}
