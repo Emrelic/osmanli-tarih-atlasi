@@ -347,7 +347,7 @@
   "guc": "ORTA",
   "kunye": "künye aşımı YOK",
   "gun": "1860-11-07",
-  "islem": "Napoli bölgesi yerleşimleri 1860-11-07 → 1861-03-16 s: sardinya-piyemonte (Vittorio Emanuele'nin devralması, Treccani), 1861-03-17'den italya-kralligi. LAB ölçümü: sardinya-piyemonte künyesi 1720-08-02 → 1861-03-17 KAPSIYOR (devletler.js:2555). DİKKAT: d:'sardinya' YAZILMASIN — 'sardinya' künye id'si değil, sardinya-piyemonte'nin harita: anahtarı (D-ANAHTAR.md: 30 dönem bu hatada); d:'sardinya-piyemonte' yaz (renk: D-ANAHTAR kararına bağlı). napoli künyesi t 1861-02-13 (Gaeta) — Gaeta ve çevresi 1861-02-13'e dek napoli. YAN BULGU: sardinya-aragon t 1720-08-24 > sardinya-piyemonte f 1720-08-02 → 22 GÜN KÜNYE ÇAKIŞMASI (ayrı madde, ölçüldü; hangi uç doğru kaynakla — Londra/Lahey 1720 devri).",
+  "islem": "Napoli bölgesi yerleşimleri 1860-11-07 → 1861-03-16 s: sardinya-piyemonte (Vittorio Emanuele'nin devralması, Treccani), 1861-03-17'den italya (künye id 'italya' — 'italya-kralligi' YOK, LAB düzeltmesi). LAB ölçümü: sardinya-piyemonte künyesi 1720-08-02 → 1861-03-17 KAPSIYOR (devletler.js:2555). DİKKAT: d:'sardinya' YAZILMASIN — 'sardinya' künye id'si değil, sardinya-piyemonte'nin harita: anahtarı (D-ANAHTAR.md: 30 dönem bu hatada); d:'sardinya-piyemonte' yaz (renk: D-ANAHTAR kararına bağlı). napoli künyesi t 1861-02-13 (Gaeta) — Gaeta ve çevresi 1861-02-13'e dek napoli. YAN BULGU: sardinya-aragon t 1720-08-24 > sardinya-piyemonte f 1720-08-02 → 22 GÜN KÜNYE ÇAKIŞMASI (ayrı madde, ölçüldü; hangi uç doğru kaynakla — Londra/Lahey 1720 devri).",
   "dayanak": "Treccani (LAB PAZAR); LAB ölçümü devletler.js",
   "onay": "EMRELİC 6 Kasım gece-34"
  },
