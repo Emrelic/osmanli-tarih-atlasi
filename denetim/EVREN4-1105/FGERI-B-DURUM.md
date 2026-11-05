@@ -45,6 +45,22 @@ Dosya: `FGERI-ONERI-B.json`. 102 kayıt, 50 künye grubu; Mapimí ve Marcapata d
   - Aynı dosyada 46 "Beyan …" noktası var; bu bir tasarım.
   - F-GERİ'ye girmemeli: 1828 öncesi kaynaklı kasıtlı boşluk, kur = künye f yapıtı DEĞİL. Bu, KUR-KUNYE taramasının bir yanlış pozitifidir. 198'in içinde bu tek Beyan kaydı var.
 
+## LAB SALI künye cevabı (gece-124; ölçüm origin/main devletler.js)
+
+- **Fiume:** künyeler VAR: `carnaro-naiplik` (1920-09-08 → 1920-12-29) ve `fiume-serbest-devleti` (1920-11-12 → 1924-01-27).
+  - (a) carnaro f GENİŞLET adayı 1919-09-12 (D'Annunzio rejimi; Carta 1920-09-08 aynı rejimin anayasasıdır).
+  - (b) fiume f 11-12 ile carnaro t 12-29 arasında 6 haftalık çakışma var. Rakip hükûmet kuralıyla fiume f → 1920-12-29 mu, imza kuralıyla 11-12 mi? **EMRELİC.**
+  - (c) t 1924-01-27 imza olarak kalır; 03-16 `ic_not`a.
+  - (d) 1918-11-17 → 1919-09-12 `isg italya`, BEYANLI.
+- **Benkovac:** `itilaf-emaneti` (f 1919-09-10) Dalmaçya için şüpheli. LAB önerisi: 1918-10-29 `shs-devleti` (aday) → 1918-12-01 `yugoslavya`. İtalyan işgal hattı kapsıyorsa `isg italya`, kaynakla.
+  - `shs-devleti` açılana dek D1 için **EMRELİC kararı** gerekiyor. KASA önerisi: önceki sahip `habsburg` BEYANLI uzatılır.
+- **Malolos:** ara dönem için ayrı künye açılmaz. `filipin-malolos-cumhuriyeti` f 1899-01-23 → 1898-06-12 GENİŞLET adayı (Aguinaldo'nun devrimci hükûmeti aynı polity).
+  - İspanyol elindeki yerler 1898-12-10'a dek `ispanyol-filipinler`. Manila 1898-08-13'ten `isg abd`.
+- **Vukovar:** RSK t 1995-08-07 ile UNTAES f 1996-01-15 arasında Doğu Slavonya'da 5 ay boşluk var. RSK orada sürdü (Erdut 1995-11-12) → RSK t GENİŞLET adayı 1996-01-15. SBWS SAO RSK'nın kurucu birimidir, ayrı künye açılmaz.
+  - Zincir: 1991-11-18 → 12-19 SAO (beyanlı), 1991-12-19 RSK, 1996-01-15 `untaes`, 1998-01-15 `hirvatistan`.
+  - 🔴 KASA notu: 1991-11-18 → 12-19 "beyanlı SAO" dilimi künyesiz kalırsa sahipsiz olur. D1 kuralı gereği önceki sahip `yugoslavya-federal` BEYANLI korunur.
+- **Tannu-Tuva:** "sovyet-rusya BEYANLI" tek blok yanlıştır. 1914 Rus himayesi, ardından 1918–21 Beyaz, Çin/Moğol ve Kızıl dilimleri yerleşim düzeyinde `isg` zinciri olarak kaynakla yazılır (Paine, Forbes). Ayrı künye gerekmez. Alt `s:` için **EMRELİC kararı.**
+
 ## Öneri: ikinci tur
 
 - 79 BULUNAMADI ve 22 kaynaksız kayıt için daha dar partiler gerekiyor: künye grubu başına 10–15 kayıt, ülke kaynağı önceden belirlenmiş.
