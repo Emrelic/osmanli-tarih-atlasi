@@ -250,7 +250,7 @@
    "kaynak": "Encyclopaedia Iranica, 'BOUNDARIES iii. Boundaries of Afghanistan' — https://www.iranicaonline.org/articles/boundaries-iii/",
    "alinti": "abandon all claims to the Transoxanian parts of Rōšān and Šeḡnān",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: 1893'te Durand anlaşmasıyla Emir Abdurrahman, Rōšān ve Šeḡnān'ın Amu Derya ötesi kısımlarındaki iddiasından vazgeçti (Darvāz'ın güneyiyle takas). Atlas t 1895-03-11 (İngiliz-Rus notaları); fiilî Afgan çekilişi günü Iranica'da yok. Maddede Rōšān ve Šeḡnān 'subject to Afghanistan' denir ama yıl yok; f 1883 teyit edilmedi (EB1911 1882, Iloliev 1883 zincirde). İki ucu ölç: 1893 vs 1895."
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | alıntı yalnız t ucunu tarihliyor: 1893'te Durand anlaşmasıyla Emir Abdurrahman, Rōšān ve Šeḡnān'ın Amu Derya ötesi kısımlarındaki iddiasından vazgeçti (Darvāz'ın güneyiyle takas). Atlas t 1895-03-11 (İngiliz-Rus notaları); fiilî Afgan çekilişi günü Iranica'da yok. Maddede Rōšān ve Šeḡnān 'subject to Afghanistan' denir ama yıl yok; f 1883 teyit edilmedi (EB1911 1882, Iloliev 1883 zincirde). İki ucu ölç: 1893 vs 1895."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:423",
@@ -264,7 +264,7 @@
    "kaynak": "Bakılan: Iranica 'Darvāz' ve 'Boundaries iii' (1905 yok); zincirdeki Morrison, The Russian Conquest of Central Asia (CUP 2020) erişilemedi (Cambridge kapalı).",
    "alinti": "",
    "oneri": {},
-   "not": "Yerleşime özgü 1905 doğrudan Rus idaresi tanıklığı okunamadı."
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | Yerleşime özgü 1905 doğrudan Rus idaresi tanıklığı okunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:423",
@@ -278,7 +278,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Tacikistan' — https://islamansiklopedisi.org.tr/tacikistan",
    "alinti": "9 Eylül 1991’de Tacikistan Yukarı Parlamentosu bir deklarasyon yayımlayarak / Tacikistan’ın Sovyet Sosyalist Cumhuriyetleri Birliği’nden bağımsızlığını ilân etti",
    "oneri": {},
-   "not": "f: bağımsızlık ilanı günü (atlas kuralı); ÜLKE DÜZEYİ. SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (ic_not). Yerleşime özgü tanıklık yok."
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | f: bağımsızlık ilanı günü (atlas kuralı); ÜLKE DÜZEYİ. SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (ic_not). Yerleşime özgü tanıklık yok."
   }
  ],
  "Hualien": [
@@ -352,9 +352,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı. / 26 Ocak 1885’te Hartum’a giren",
    "oneri": {
-    "f": "1821-06"
+    "f": "1821-06-14"
    },
-   "not": "ÖNCEKİ KARAR (gece-34): Mısır Sudanı v: misir-kavalali, Hartum 1885-01-26; f Haziran 1821 (TDV Func teslimi) — funj künye t 1821-06-14 ile hizalı. | f: TDV Func sultanının teslimini Haziran 1821 yazar (ay düzeyi); atlas f 1821-01-04 ayı tutmuyor, künye funj t 1821-06-14 ile de çelişiyor (iki ucu ölç). t: 26 Ocak 1885 Hartum'un Mehdî'ye geçişi (gün düzeyi, TDV) = atlas t. TDV: Mehmed Ali ve oğulları Sudan'ı 'Osmanlı Devleti adına' 1821-1882 idare etti. Tahrir ölçütü: kaynak susuyor."
+   "not": "KARAR EMRELİC (gece-101): v: f 1821-06-14, 'gün künyeden: funj t (TDV Func teslimi)'. ÖLÇÜM LAB PAZAR: devletler.js:1927 funj t 1821-06-14, kaynak alanı yalnız 'func' (TDV); TDV ay düzeyi (Haziran 1821) — künye gününün kendi kaynağı GÖRÜLMEDİ → gün teyitsiz, beyanlı. | ÖNCEKİ KARAR (gece-34): Mısır Sudanı v: misir-kavalali, Hartum 1885-01-26; f Haziran 1821 (TDV Func teslimi) — funj künye t 1821-06-14 ile hizalı. | f: TDV Func sultanının teslimini Haziran 1821 yazar (ay düzeyi); atlas f 1821-01-04 ayı tutmuyor, künye funj t 1821-06-14 ile de çelişiyor (iki ucu ölç). t: 26 Ocak 1885 Hartum'un Mehdî'ye geçişi (gün düzeyi, TDV) = atlas t. TDV: Mehmed Ali ve oğulları Sudan'ı 'Osmanlı Devleti adına' 1821-1882 idare etti. Tahrir ölçütü: kaynak susuyor."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:130",
@@ -444,7 +444,7 @@
    "kaynak": "Parks Canada, 'Fort St. Pierre National Historic Site of Canada' — https://pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=372",
    "alinti": "In 1731 the Sieur de la Jemeraye, La Vérendrye's nephew and lieutenant, constructed Fort St. Pierre",
    "oneri": {},
-   "not": "f: yıl düzeyi (kuruluş 1731, Fransız postası). t 1763-02-10 (Paris) bu kaynakta yok; Fransızlar kaleyi ~1758'de terk etti (aynı sayfa). DCB J.-B. La Vérendrye maddesi: Fort Saint-Pierre'in 1731 sonbaharında tamamlandığı (okundu)."
+   "not": "KARAR EMRELİC (gece-101): ONAY: Parks Canada konumu (Fort Frances, Ontario) → abd satırı kalkar; Kanada öncesi zincir (HBC/İngiltere → 1867) kesintisiz mi kontrol edilecek. | f: yıl düzeyi (kuruluş 1731, Fransız postası). t 1763-02-10 (Paris) bu kaynakta yok; Fransızlar kaleyi ~1758'de terk etti (aynı sayfa). DCB J.-B. La Vérendrye maddesi: Fort Saint-Pierre'in 1731 sonbaharında tamamlandığı (okundu)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:804",
@@ -458,10 +458,9 @@
    "kaynak": "Parks Canada, 'Fort St. Pierre National Historic Site of Canada' — https://pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=372",
    "alinti": "is located in the town of Fort Frances, 348 km west of Thunder Bay, Ontario",
    "oneri": {
-    "d": "kanada",
-    "f": "1867-07-01"
+    "sil": true
    },
-   "not": "Alıntı yerleşimin Ontario'da (Fort Frances, Kanada) olduğunu söyler; 48.61N -93.40E = Fort Frances. abd satırı yanlış: zincirdeki kanada 1867-07-01 satırı 2000-12-31'e uzatılmalı, abd 1923-10-29 satırı kaldırılmalı. Rupert's Land'in Kanada'ya devri (1870) okunmadı. Alıntı f ucunu değil yerleşim konumunu tarihliyor."
+   "not": "KARAR EMRELİC (gece-101): ONAY: Parks Canada konumu (Fort Frances, Ontario) → abd satırı kalkar; Kanada öncesi zincir (HBC/İngiltere → 1867) kesintisiz mi kontrol edilecek. | Alıntı yerleşimin Ontario'da (Fort Frances, Kanada) olduğunu söyler; 48.61N -93.40E = Fort Frances. abd satırı yanlış: zincirdeki kanada 1867-07-01 satırı 2000-12-31'e uzatılmalı, abd 1923-10-29 satırı kaldırılmalı. Rupert's Land'in Kanada'ya devri (1870) okunmadı. Alıntı f ucunu değil yerleşim konumunu tarihliyor."
   }
  ],
  "Gobi-Altay (Yösönbulag)": [
@@ -479,7 +478,7 @@
    "oneri": {
     "t": "1368-09-10"
    },
-   "not": "KARAR EMRELİC (gece-100, Kerulen emsali): Yuan → kuzey-yuan geçişinde TDV esas 1368-09-10 (kaçış, 丙寅); 09-14 (庚午) ic_not. | t: TDV Yuan'ın sonunu 10 Eylül 1368 yazar; atlas künye/dönem t 1368-09-14 (Ming'in Dadu'yu alışı / Hongwu takvimi — Academia Sinica ile çevrilecek, ajan çevirmedi). İki olay farklı; karar Emre'de. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-101): Nokta 1691–1758'de Halha (Zasagt Han aymağı) mı Cungar sahası mı kaynakla ölçülecek: Halha ise qing 1691 [yıl], Cungar ise 1755–58. ÖLÇÜLMEDİ. | KARAR EMRELİC (gece-100, Kerulen emsali): Yuan → kuzey-yuan geçişinde TDV esas 1368-09-10 (kaçış, 丙寅); 09-14 (庚午) ic_not. | t: TDV Yuan'ın sonunu 10 Eylül 1368 yazar; atlas künye/dönem t 1368-09-14 (Ming'in Dadu'yu alışı / Hongwu takvimi — Academia Sinica ile çevrilecek, ajan çevirmedi). İki olay farklı; karar Emre'de. ÜLKE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_ek21.js:117",
@@ -488,12 +487,12 @@
    "f": "1691-05-30",
    "t": "1911-12-29",
    "sira": "1031",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Moğolistan', Osman Gazi Özgüdenli — https://islamansiklopedisi.org.tr/mogolistan",
    "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
    "oneri": {},
-   "not": "f: yıl düzeyi (1691); atlas 1691-05-30 günü kaynakta yok [yalnız yıl teyitli; gün teyitsiz]. ÜLKE DÜZEYİ (Halha/Dış Moğolistan). UYARI: Gobi-Altay/Yösönbulag Cungar sahasında olabilir; Qing'in Batı Moğolistan'a girişi 1755-58 — iki ucu ölç. Qing t 1911: TDV 'Qing hânedanının 1911’de yıkılışına kadar' (yıl)."
+   "not": "KARAR EMRELİC (gece-101): Nokta 1691–1758'de Halha (Zasagt Han aymağı) mı Cungar sahası mı kaynakla ölçülecek: Halha ise qing 1691 [yıl], Cungar ise 1755–58. ÖLÇÜLMEDİ. | f: yıl düzeyi (1691); atlas 1691-05-30 günü kaynakta yok [yalnız yıl teyitli; gün teyitsiz]. ÜLKE DÜZEYİ (Halha/Dış Moğolistan). UYARI: Gobi-Altay/Yösönbulag Cungar sahasında olabilir; Qing'in Batı Moğolistan'a girişi 1755-58 — iki ucu ölç. Qing t 1911: TDV 'Qing hânedanının 1911’de yıkılışına kadar' (yıl)."
   }
  ],
  "Hagåtña (Agaña)": [
@@ -508,8 +507,11 @@
    "uc": "f",
    "kaynak": "Guampedia (Univ. of Guam), 'Father Diego Luis de San Vitores' — https://www.guampedia.com/father-diego-luis-de-san-vitores/",
    "alinti": "In June 1668, the patache (or supply boat) San Diego arrived / off the shores of Guam’s primary village, Hagåtña",
-   "oneri": {},
-   "not": "f: ay düzeyi (Haziran 1668, misyon merkezi). Gün 16 bu sayfada yok (yer_kaynak başka bölüm). Beyan: aynı madde Legazpi'nin adayı İspanya adına 1565'te sahiplendiğini söyler — atlas başlangıcı misyon (1668). t: ABD teslimi 21 Haziran 1898 bu araştırmada okunmadı."
+   "oneri": {
+    "t": "1898-06-21",
+    "not": "isg abd başlar; İspanya'nın hukukî iddiası Paris'e dek ic_not"
+   },
+   "not": "KARAR EMRELİC (gece-101): TEK ÖLÇÜ (ABD idare etmiyordu → teslim): isg abd 1898-06-21 → s: abd 1899'daki fiilî devir (ilk ABD deniz valisinin gelişi, gün kaynakla); Paris 1898-12-10 ve yürürlük 1899-04-11 ic_not. | f: ay düzeyi (Haziran 1668, misyon merkezi). Gün 16 bu sayfada yok (yer_kaynak başka bölüm). Beyan: aynı madde Legazpi'nin adayı İspanya adına 1565'te sahiplendiğini söyler — atlas başlangıcı misyon (1668). t: ABD teslimi 21 Haziran 1898 bu araştırmada okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:116",
@@ -523,9 +525,10 @@
    "kaynak": "Office of the Historian (history.state.gov), 'The Spanish-American War, 1898' — https://history.state.gov/milestones/1866-1898/spanish-american-war",
    "alinti": "signed the Treaty of Paris on December 10, 1898 / forced Spain to cede Guam and Puerto Rico to the United States",
    "oneri": {
-    "f": "1898-12-10"
+    "f": "1899 (deniz valisinin gelişi, kaynakla)",
+    "not": "öncesi isg abd 1898-06-21"
    },
-   "not": "TEK KURAL: savaş işgali (21 Haziran 1898 teslim, bayrak) isg abd 1898-06-21 → 1898-12-10; s: abd hukukî devirden = Paris Antlaşması imzası 1898-12-10 (yürürlük 1899-04-11 ic_not). ÖLÇÜT: geçici/askerî. ispanya satırı t da 1898-12-10 olmalı. TEK ÖLÇÜ: ABD'nin fiilî idaresi 7 Ağustos 1899 (yer_kaynak NHHC) — teslim günü ölçüsü tartışmalı; Emre kararı."
+   "not": "KARAR EMRELİC (gece-101): TEK ÖLÇÜ (ABD idare etmiyordu → teslim): isg abd 1898-06-21 → s: abd 1899'daki fiilî devir (ilk ABD deniz valisinin gelişi, gün kaynakla); Paris 1898-12-10 ve yürürlük 1899-04-11 ic_not. | TEK KURAL: savaş işgali (21 Haziran 1898 teslim, bayrak) isg abd 1898-06-21 → 1898-12-10; s: abd hukukî devirden = Paris Antlaşması imzası 1898-12-10 (yürürlük 1899-04-11 ic_not). ÖLÇÜT: geçici/askerî. ispanya satırı t da 1898-12-10 olmalı. TEK ÖLÇÜ: ABD'nin fiilî idaresi 7 Ağustos 1899 (yer_kaynak NHHC) — teslim günü ölçüsü tartışmalı; Emre kararı."
   }
  ],
  "Halmstad": [
@@ -665,7 +668,7 @@
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Iquique (1556-2004)' — https://www.memoriachilena.gob.cl/602/w3-article-653.html",
    "alinti": "En 1556 se inició la explotación del mineral de plata de Huantajaya",
    "oneri": {},
-   "not": "f: yıl düzeyi; 1556 maden başlangıcı, Iquique limanının işlevi (kuruluş eylemi yok — zincir beyanı). Sahiplik İspanya Peru genel valiliği; t 1824-12-09 okunmadı."
+   "not": "KARAR EMRELİC (gece-101): ONAY: isg sili fiilî alış (1879-11-23, kaynakla teyit; yoksa beyan) → s: sili 1883-10-20 Ancón imzası (Şili idare ediyordu). | f: yıl düzeyi; 1556 maden başlangıcı, Iquique limanının işlevi (kuruluş eylemi yok — zincir beyanı). Sahiplik İspanya Peru genel valiliği; t 1824-12-09 okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:1298",
@@ -679,9 +682,10 @@
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Guerra del Pacífico, cronología' — https://www.memoriachilena.gob.cl/602/w3-printer-693.html",
    "alinti": "1883 20 de octubre: Tratado de Ancón: Tratado de paz y amistad entre las repúblicas de Chile y Perú.",
    "oneri": {
-    "f": "1883-10-20"
+    "f": "1883-10-20",
+    "not": "öncesi isg sili 1879-11-23 (kaynakla)"
    },
-   "not": "TEK KURAL: savaş işgali (2 Kasım 1879 Pisagua çıkarması; Iquique'nin fiilî işgali 23 Kasım 1879 arama özeti, DOĞRULANMADI) isg sili 1879-11 → 1883-10-20; s: sili hukukî devirden = Ancón 1883-10-20 (imza). Aynı sayfa: 1879 2 de noviembre Pisagua çıkarması. Peru t aynı gün. ÖLÇÜT: geçici/askerî. Kaynak sayfa antlaşma özetinde Tarapacá'yı saymıyor, Iquique'ye özgü cümle yok; Şili 1879'dan beri fiilen yönetiyor → TEK ÖLÇÜ imza günü."
+   "not": "KARAR EMRELİC (gece-101): ONAY: isg sili fiilî alış (1879-11-23, kaynakla teyit; yoksa beyan) → s: sili 1883-10-20 Ancón imzası (Şili idare ediyordu). | TEK KURAL: savaş işgali (2 Kasım 1879 Pisagua çıkarması; Iquique'nin fiilî işgali 23 Kasım 1879 arama özeti, DOĞRULANMADI) isg sili 1879-11 → 1883-10-20; s: sili hukukî devirden = Ancón 1883-10-20 (imza). Aynı sayfa: 1879 2 de noviembre Pisagua çıkarması. Peru t aynı gün. ÖLÇÜT: geçici/askerî. Kaynak sayfa antlaşma özetinde Tarapacá'yı saymıyor, Iquique'ye özgü cümle yok; Şili 1879'dan beri fiilen yönetiyor → TEK ÖLÇÜ imza günü."
   }
  ],
  "Kabasa": [
