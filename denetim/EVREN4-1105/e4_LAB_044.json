@@ -624,7 +624,7 @@
    "kaynak": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
    "alinti": "the United States recognized the Black Hills as part of the Great Sioux Reservation",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-122): TAHRİR + yerli devri: 1876 kuruluş (f = varoluş); altında s: sioux (Fort Laramie 1868 rezervasyonu), isg abd (kaçak madenciler, ordu çıkarmadı); 1877-02-28 yasasıyla s: abd. Künye kimlikleri devletler.js'ten. | devletin resmî yayını (NARA): Black Hills 1868 Fort Laramie'de Büyük Sioux Rezervi'ne, Sioux'nun 'exclusive use'una ayrıldı; 1874 Custer seferi sonrası altın. Atlas abd f 1876-01-01: ELE GEÇİREN yeri kendi toprağı saymıyor / yerli iddiası sürüyor (ÖLÇÜT: geçici/askerî-hukuki iddia), 1877-02-28 Black Hills yasası (19 Stat. 254) alıntılanamadı (Supreme Court PDF anahtarı bulunamadı). Karar Emre'nin: 1876 -> 1877-02-28 mı, yoksa isg/yerli iddia mı. Deadwood kuruluş günü kaynağı bulunamadı."
+   "not": "LAB SALI (origin/main ölçümü): Sioux künye kimliği 'lakota' (1281 → 1890-12-29, :4465); zincir 1868 s: lakota → 1876 isg abd → 1877-02-28 s: abd tutarlı. | KARAR EMRELİC (gece-122): TAHRİR + yerli devri: 1876 kuruluş (f = varoluş); altında s: sioux (Fort Laramie 1868 rezervasyonu), isg abd (kaçak madenciler, ordu çıkarmadı); 1877-02-28 yasasıyla s: abd. Künye kimlikleri devletler.js'ten. | devletin resmî yayını (NARA): Black Hills 1868 Fort Laramie'de Büyük Sioux Rezervi'ne, Sioux'nun 'exclusive use'una ayrıldı; 1874 Custer seferi sonrası altın. Atlas abd f 1876-01-01: ELE GEÇİREN yeri kendi toprağı saymıyor / yerli iddiası sürüyor (ÖLÇÜT: geçici/askerî-hukuki iddia), 1877-02-28 Black Hills yasası (19 Stat. 254) alıntılanamadı (Supreme Court PDF anahtarı bulunamadı). Karar Emre'nin: 1876 -> 1877-02-28 mı, yoksa isg/yerli iddia mı. Deadwood kuruluş günü kaynağı bulunamadı."
   }
  ],
  "Debdû": [
@@ -638,8 +638,11 @@
    "uc": "t",
    "kaynak": "https://islamansiklopedisi.org.tr/vattasiler",
    "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549)",
-   "oneri": {},
-   "not": "KARAR EMRELİC (gece-122): TDV esas; Debdû Vattâsî kolu (Benî Vattâs) için vattasi künyesi ölçülecek. LAB PAZAR ÖLÇÜMÜ: ayrı vattasi künyesi YOK; 'merini' künyesinin adı 'Merînî ve Vattâsî Fas Krallığı' → Fas Vattâsîlerini kapsıyor (1549-01-31 Sa'dî). Debdû'nun ayrı kolu (Fas Vattâsîlerinden bağımsız) için kol adayı LAB SALI'ya; merini dilimi Debdû'da TDV tarihinden sonra kalkar. | alıntı yalnız t ucunu tarihliyor ve çelişir: TDV Vattâsîler: Vattâsî hânedanı 1471-1554, Fas şehri Sa‘dîler'e 31 Ocak 1549'da geçti, son Vattâsî Ebû Hassûn 22 Eylül 1554'te öldü. Atlas 'merini' 1549'a dek: Merînî sonrası (1471) Vattâsî olmalı, Debdû'nun fiilî Sa‘dî'ye geçişi (1549-1554 arası) yerleşime özgü okunmadı. Hicrî tarih aynen: 2 Muharrem 956. d önerisi (vattasi künyesi) ölçülmedi."
+   "oneri": {
+    "d": "debdu-emirligi (künye adayı)",
+    "not": "~1430 → 1563"
+   },
+   "not": "LAB SALI (origin/main ölçümü): kol künyesi adayı debdu-emirligi (~1430 → 1563, kaynakla); merini GENİŞLETİLMEZ (Fas tahtı, 1196 → 1549-01-01, devletler.js:5165). merini t 1549-01-01 [yıl] vs 1549-01-31 (Sa'dî Fas'a giriş, hicrî 2 Muharrem 956) — gün TDV Vattâsîler/Sa'dîler ile. | KARAR EMRELİC (gece-122): TDV esas; Debdû Vattâsî kolu (Benî Vattâs) için vattasi künyesi ölçülecek. LAB PAZAR ÖLÇÜMÜ: ayrı vattasi künyesi YOK; 'merini' künyesinin adı 'Merînî ve Vattâsî Fas Krallığı' → Fas Vattâsîlerini kapsıyor (1549-01-31 Sa'dî). Debdû'nun ayrı kolu (Fas Vattâsîlerinden bağımsız) için kol adayı LAB SALI'ya; merini dilimi Debdû'da TDV tarihinden sonra kalkar. | alıntı yalnız t ucunu tarihliyor ve çelişir: TDV Vattâsîler: Vattâsî hânedanı 1471-1554, Fas şehri Sa‘dîler'e 31 Ocak 1549'da geçti, son Vattâsî Ebû Hassûn 22 Eylül 1554'te öldü. Atlas 'merini' 1549'a dek: Merînî sonrası (1471) Vattâsî olmalı, Debdû'nun fiilî Sa‘dî'ye geçişi (1549-1554 arası) yerleşime özgü okunmadı. Hicrî tarih aynen: 2 Muharrem 956. d önerisi (vattasi künyesi) ölçülmedi."
   }
  ],
  "Derry": [
