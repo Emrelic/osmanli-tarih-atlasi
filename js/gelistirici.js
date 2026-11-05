@@ -254,7 +254,7 @@
         return !olayDom[k] || !olayDom[k].classList.contains("suzuldu");
       }, typeof suankiOlayI !== "undefined" ? suankiOlayI : -1);
       var o = olaylar[i];
-      return o ? { t: o.t, gun: o.gun || null, b: o.b, yer: o.yer || null } : null;
+      return o ? { t: o.t, gun: o.gun || null, b: o.b_tr || o.b, yer: o.yer || null } : null;   // b_tr: CEVIRI-1103
     } catch (e) { return null; }
   }
 
@@ -852,8 +852,10 @@
   }
 
   function maddeBul(h) {
-    for (var i = 0; i < olaylar.length; i++) if (olaylar[i].b === h.b && olaylar[i].t === h.t) return i;
-    for (i = 0; i < olaylar.length; i++) if (olaylar[i].b === h.b) return i;
+    // b_tr: CEVIRI-1103 — notlar Türkçe başlıkla kaydedilir, çeviri kipinde de Türkçeyle eşleşir
+    function trb(o) { return o.b_tr || o.b; }
+    for (var i = 0; i < olaylar.length; i++) if (trb(olaylar[i]) === h.b && olaylar[i].t === h.t) return i;
+    for (i = 0; i < olaylar.length; i++) if (trb(olaylar[i]) === h.b) return i;
     return -1;
   }
 
@@ -1161,7 +1163,7 @@
             if (oz) {
               var b = el("button", "gn-madde-dugme", "📝 Bu maddeye not");
               b.type = "button";
-              b.onclick = function () { formAc({ tur: "madde", t: o.t, gun: o.gun || null, b: o.b }); };
+              b.onclick = function () { formAc({ tur: "madde", t: o.t, gun: o.gun || null, b: o.b_tr || o.b }); };
               oz.appendChild(b);
             }
           }

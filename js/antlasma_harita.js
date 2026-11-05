@@ -50,7 +50,7 @@ function _ahHukukiIndeks() {
 function _ahEslesenKayit(o) {
   if (!o || !o.b || o.gi == null) return null;
   return (window.ANTLASMA_HARITALARI || []).filter(function (a) {
-    return a.tarih && Math.abs(gunIdx(a.tarih) - o.gi) < 60 && o.b.indexOf(a.antlasma_ad) >= 0;
+    return a.tarih && Math.abs(gunIdx(a.tarih) - o.gi) < 60 && (o.b_tr || o.b).indexOf(a.antlasma_ad) >= 0;   // b_tr: CEVIRI-1103
   })[0] || null;
 }
 
