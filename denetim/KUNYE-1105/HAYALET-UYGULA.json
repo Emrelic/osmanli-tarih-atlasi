@@ -559,5 +559,16 @@
   "guc": "ORTA",
   "dayanak": "Babil Kroniği ABC 2 (Grayson) — UMIT ANTİK / EMRELİC",
   "onay": "EMRELİC 6 Kasım (UMIT ANTİK)"
+ },
+ {
+  "d": "mehdi",
+  "tur": "KUNYE + YERLESIM + MADDE",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA (JSTOR dizini birebir, çift)",
+  "kunye": "mehdi t 1898-09-02 → 1899-11-24",
+  "gun": "1899-11-24",
+  "islem": "devletler.js mehdi (:2861) t → 1899-11-24. ic_not_t: '1898-09-02 Ümmüdürman (Kerreri); 1899-11-24 Umm Diwaykarat, Halife Abdullahi öldürüldü [çift kaynak: Daly 1983, Warburg 2005; JSTOR tam metin dizini birebir, makale gövdesi açılmadı]; TDV SUDAN yalnız 1899'. Yerleşimler: Nil boyu 1898-09-02 → 1899-01-18 isg (İngiliz-Mısır) s: mehdi, 1899-01-19'dan ingiliz-sudani (Kondominyum — ayrı olay); Kordofan (Bâra, El-Ubeyyid …) 1899-11-24'e dek s: mehdi (mevcut 1899-11-22 uçları → 11-24), 1899-11-24'ten ingiliz-sudani. AYNI COMMIT'te kronoloji_sinir'e madde: {t:'1899-11-24', devlet:'ingiliz-sudani', taraflar:['mehdi','ingiliz-sudani'], odak_yer:['Bâra'], tur:'savas', b:'Umm Diwaykarat: Halife Abdullahi öldürüldü, Mehdî Devleti sona erdi', kaynak:'Daly, BRISMES Bulletin 10/1 (1983); Warburg, MES 41/6 (2005) — JSTOR tam metin dizini'}.",
+  "dayanak": "M. W. Daly, 'Omdurman and Fashoda, 1898', BRISMES Bulletin 10/1 (1983) — jstor.org/stable/194557: «The Khalifa 'Ali wad Hilu died at Umm Diwaykarat with the Khalifa 'Abdallahi on 24 November 1899» · G. Warburg, 'From Mahdism to Neo-Mahdism in the Sudan', MES 41/6 (2005): «…lost their lives in the battle of Umm Diwaykarat, on 24 November 1899 (Holt…» — sınıf: JSTOR dizini birebir (iki bağımsız isabet = KAYNAKLI, tam okuma yok, beyanlı). jstor.org/stable/194557 LAB tarayıcısında yalnız önizleme (giriş yok, şifre girilmedi)",
+  "onay": "EMRELİC 6 Kasım gece-76"
  }
 ]
