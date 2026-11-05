@@ -1,0 +1,638 @@
+{
+ "Klang": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:208",
+   "alan": "s",
+   "d": "malay-sultanliklari",
+   "f": "1281-01-01",
+   "t": "1874-01-20",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV malezya; TDV kuala-lumpur (Klang geçmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Klang (Selangor) 1281-1874: TDV malezya yalnız Malaka'nın Selangor'u almasını ve Selangor'un Johor/Hollanda hâkimiyetini anlatır; Klang'a özgü tanıklık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:208",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1874-01-20",
+   "t": "1896-07-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "20 Ocak 1874 tarihinde kabile reisleriyle Pangkor Antlaşması diye bilinen bir antlaşma imzaladılar / Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti",
+   "oneri": {},
+   "not": "TDV'nin 20 Ocak 1874'ü PERAK içindir (Pangkor); Klang Selangor'dadır, Selangor Residency'si ayrı ve sonraki bir olaydır (okunmadı) -> f 1874-01-20 Klang için teyit değil, Perak günü; EYALET/ÜLKE DÜZEYİ. t ucu: TDV ay düzeyi (Temmuz 1896), gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:208",
+   "alan": "s",
+   "d": "malaya-birligi",
+   "f": "1946-04-01",
+   "t": "1948-01-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV malezya (Ocak 1946 yalnız 'plan geliştirdiler'); legislation.gov.uk/uksi/1948/108 sayfasında 1946 metni okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Malay Birliği'ni yalnız 'plan' olarak anar, 1 Nisan 1946 kuruluş günü yok. KAYNAKLI verilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:208",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1948-01-31",
+   "t": "1957-08-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "1 Şubat 1948 tarihinde varılan bir anlaşma çerçevesinde Penang ve Malaka ile yarımada üzerindeki dokuz sultanlıktan oluşan bir Malay Federasyonu",
+   "oneri": {
+    "f": "1948-02-01"
+   },
+   "not": "TDV 1 Şubat 1948 verir; atlas 1948-01-31. Alıntı anlaşma/karar günüdür ('kurulması kararlaştırıldı'), fiilî yürürlük günü değil; karar sizde. Künye malaya-birligi t=1948-01-31 ile bitişik, birlikte değişmeli. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:208",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1957-08-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "31 Ağustos 1957’de bağımsızlık ilân edilerek Malay Federasyonu’nun kuruluşu gerçekleştirildi",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1957-08-31 bağımsızlık ilanı (TDV Malezya md.). ÜLKE DÜZEYİ. history.state.gov yalnız ABD tanıma günüdür, kullanılmadı."
+  }
+ ],
+ "Koblenz": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0843-08-10",
+   "t": "0855-09-29",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "yalnız Treccani coblenza okundu (Verdun/Lotaringia yok); başka kaynak aranmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
+   "d": "orta-francia-lotharingia",
+   "f": "0855-09-29",
+   "t": "0925-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "yalnız Treccani coblenza okundu (Verdun/Lotaringia yok); başka kaynak aranmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0925-01-01",
+   "t": "0962-02-02",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "yalnız Treccani coblenza okundu (Verdun/Lotaringia yok); başka kaynak aranmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1801-02-09",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://www.treccani.it/enciclopedia/coblenza/",
+   "alinti": "",
+   "oneri": {},
+   "not": "Brüksel emsali öneri: 1794 isg fransa-cumhuriyet → Lunéville 1801-02-09 imza (Fransa yönetiyordu) s:; EMRELİC'e soruldu. Treccani EI-kökenli → ipucu. | Treccani coblenza kısa madde (Enciclopedia Italiana kökenli = ipucu sınıfı): 1018'den Trier başpiskoposları, 1794 işgal, 1815 Viyana->Prusya; 1801 Lunéville anılmaz. t ucu tarihlenmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1801-02-09",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://www.treccani.it/enciclopedia/coblenza/",
+   "alinti": "fu occupata dalle truppe rivoluzionarie (1794) / Con la pace di Vienna (1815) fu assegnata alla Prussia",
+   "oneri": {},
+   "not": "Brüksel emsali öneri: 1794 isg fransa-cumhuriyet → Lunéville 1801-02-09 imza (Fransa yönetiyordu) s:; EMRELİC'e soruldu. Treccani EI-kökenli → ipucu. | Treccani (Enciclopedia Italiana kökenli kısa madde = İPUCU, KAYNAKLI verilmez): 1794 devrimci işgal, 1798 Rhin-et-Moselle başkenti, 1815 Viyana->Prusya (yıl). Lunéville 1801-02-09 imza günü zincirde duruyor (TEK ÖLÇÜ: Fransa zaten yönetiyor); mjp.univ-perp.fr SSL hatası, açılamadı. EK ÖNERİ: 1794 -> 1801-02-09 arası isg fransa-cumhuriyet düşünülmeli (Brüksel emsali); ilhak günü teyit edilmedi."
+  }
+ ],
+ "Kurşunlu (Kuršumlija)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:807",
+   "alan": "s",
+   "d": "sirp-despotlugu",
+   "f": "1402-01-01",
+   "t": "1433-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/leskofca",
+   "alinti": "Dubočica ve Toplice bölgesi büyük ihtimalle … (1433) içerisinde Osmanlı hâkimiyetine girdi",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1433 yılı, 'büyük ihtimalle'; Toplice bölgesi düzeyi, Kurşunlu adı geçmez). f 1402 teyitsiz. TDV: Kruševac 1428'de alındı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:807",
+   "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1882-03-06",
+   "t": "1918-12-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sirbistan",
+   "alinti": "Prens Milan Obrenoviç 1882’de krallığını ilân etti",
+   "oneri": {},
+   "not": "f ucu yıl düzeyinde 1882 ('[yalnız yıl teyitli; gün teyitsiz]'); ÜLKE DÜZEYİ. t 1918-12-01 için TDV yugoslavya md. (ayrı URL): '1 Aralık 1918’de ... Krallığı olarak görülen devlet kuruldu'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:807",
+   "alan": "s",
+   "d": "sirbistan-nedic",
+   "f": "1941-08-29",
+   "t": "1944-10-06",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://islamansiklopedisi.org.tr/sirbistan ; https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV 1941'de Alman, İtalyan, Macar, Bulgar işgalini anar; Nedić 1941-08-29 ve Kurşunlu'nun işgal bölgesi okunmadı (Toplica Bulgar bölgesinde olabilir: ipucu, ölçülmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:807",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1944-10-06",
+   "t": "1945-11-29",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://islamansiklopedisi.org.tr/sirbistan ; https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV: Halk Kurtuluş Ordusu 1945 Mayısına kadar Yugoslav topraklarını kontrol altına aldı; 1944-10-06 yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:807",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sirbistan",
+   "alinti": "29 Kasım 1945’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti (FNRJ) ilân edildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-96): FNRJ 1945-11-29; AVNOJ 1943 ic_not. | f ucu gün düzeyinde 1945-11-29 (TDV Sırbistan md.). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Kuching (Sarawak)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4199",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1827-01-01",
+   "t": "1841-09-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/bruney",
+   "alinti": "İngilizler 1841’de … aynı yıl … Kuching’de hâkimiyet kurarak",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1841, yıl düzeyi). f 1827 (kur) teyitsiz. Brooke ilanı 1841-09-24 (Vikipedi, ipucu) gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4199",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1841-09-24",
+   "t": "1946-07-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/bruney",
+   "alinti": "İngilizler 1841’de … aynı yıl … Kuching’de hâkimiyet kurarak",
+   "oneri": {},
+   "not": "f ucu yıl düzeyinde 1841 ('[yalnız yıl teyitli; gün teyitsiz]'): TDV Brooke'un Kuching'de racalığa getirilmesini 1841'e koyar. t 1946-07-01 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4199",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "sarawak.gov.my (kurum portalı, ipucu); Britannica 403; TDV bruney/malezya 1946 Sarawak'ı anmaz",
+   "alinti": "",
+   "oneri": {},
+   "not": "1 Temmuz 1946 Crown Colony: yalnız kurum portalı/arama özeti (ipucu); okunan akademik kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4199",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1963-09-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1963-09-16, Saravak adı geçer (TDV Malezya md.)."
+  }
+ ],
+ "Loikaw": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:290",
+   "alan": "s",
+   "d": "san-devletleri",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV myanmar (Karenni/Şan sawbwa'lıkları yok); web araması (Vikipedi ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU (okunmadı): Loikaw Kantarawaddy/Karenni Devleti başkentidir, Şan Devletleri'nden ayrı; 21 Haziran 1875 İngiliz-Karenni anlaşması. 'san-devletleri' ve 1923-10-29 ucu sorgulanmalı; ONERI verilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:290",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1923-10-29",
+   "t": "1942-03-08",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV myanmar",
+   "alinti": "",
+   "oneri": {},
+   "not": "1923-10-29 ve 1942-03-08 uçları için yerleşime özgü tanık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:290",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-08",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "ülke 1942’de Japon işgaline uğradı",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "ÖNCEKİ KARAR: Japon dönemi isg. Karenni ayrılığı (san-devletleri değil) EMRELİC'e soruldu. | ÜLKE DÜZEYİ, yıl düzeyi (1942; gün 03-08 teyitsiz). Savaş işgali: alan s -> isg olmalı. ÖLÇÜT: geçici/askerî — Japon işgali."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:290",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1945-09-02",
+   "t": "1948-01-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Savaş sonrasında tekrar İngiliz egemenliği altına alınan Myanmar 4 Ocak 1948’de Burma Birliği adıyla bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1948-01-04, gün düzeyi, ÜLKE DÜZEYİ); f 1945-09-02 teyitsiz. history.state.gov Burma yalnız ABD tanıma günü, kullanılmadı."
+  }
+ ],
+ "Kitui": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1141",
+   "alan": "s",
+   "d": "kamba",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "1895’te İngiltere bölgedeki hâkimiyetini ilân etti",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1895, yıl; atlas 07-01 gün teyitsiz). ÜLKE DÜZEYİ; Kitui/Ukambani adı geçmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1141",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "1895’te İngiltere bölgedeki hâkimiyetini ilân etti / 12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "f yıl düzeyi (1895; '[yalnız yıl teyitli; gün teyitsiz]'), t gün düzeyi 1963-12-12. ÜLKE DÜZEYİ: Kitui iç bölgede, fiilî idare kuruluşu teyitsiz (alt-bölge istisnası olabilir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1141",
+   "alan": "s",
+   "d": "kenya",
+   "f": "1963-12-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1963-12-12 (TDV Kenya md.). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Lagos (Eko)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:756",
+   "alan": "s",
+   "d": "benin-kralligi",
+   "f": "1281-01-01",
+   "t": "1861-08-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "1861’de İngiltere, Lagos adasını alıp burada kendi sömürgesini kurdu",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1861, yıl). Sahip 'benin-kralligi' sorgulanır: 1861 öncesi Lagos Eko Oba'sının (Docemo) kentidir; Benin vasallığı teyit edilmedi. 6 Ağustos 1861 yalnız Vikipedi/ardhi.unl.edu (ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:756",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1861-08-06",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "1861’de İngiltere, Lagos adasını alıp burada kendi sömürgesini kurdu / eskiden İngiliz sömürgesi iken 1 Ekim 1960’ta bağımsızlığına kavuşmuştur",
+   "oneri": {},
+   "not": "f yıl düzeyi (1861; '[yalnız yıl teyitli; gün teyitsiz]'), t gün düzeyi 1960-10-01. Lagos adı geçer; t ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:756",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "eskiden İngiliz sömürgesi iken 1 Ekim 1960’ta bağımsızlığına kavuşmuştur",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1960-10-01; Lagos o tarihte başkent (aynı madde). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Loango (Buali)": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:76",
+   "alan": "s",
+   "d": "loango",
+   "f": "1550-01-01",
+   "t": "1883-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "web araması (Vikipedi Pointe-Noire/Vili: Cordier antlaşması 12 Mart 1883, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU: 12 Mart 1883 Loango-Fransa antlaşması (okunmadı akademik); Loango f 1550 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:76",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1883-01-01",
+   "t": "1960-08-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "web araması (Vikipedi, globalsecurity.org: ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU: f 1883 için ONERI adayı 1883-03-12 (kaynak okunmadı). t 1960-08-15 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:76",
+   "alan": "s",
+   "d": "kongo-brazzaville",
+   "f": "1960-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "kaynak aranmadı (TDV kongo maddesi denenmedi)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  }
+ ],
+ "Kremençuk": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:187",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1571-01-01",
+   "t": "1654-01-18",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKremenchuk.htm",
+   "alinti": "Kremenchuk was founded in 1571 / A Polish castle was built there in 1596 / In the Hetman state the town was a Cossack company center in Chyhyryn regiment (1648–61, 1663–7)",
+   "oneri": {},
+   "not": "Encyclopedia of Ukraine (CIUS): f 1571 kuruluş ve 1596 Lehçe kale TEYİT; ancak t 1654-01-18 ÇELİŞİR: 1648'den Hetman devleti (Çigirin alayı 1648-61) -> Lehistan 1648 civarında bitmiş. Gün teyitsiz; Hetman devleti künyesi var mı ölç."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:187",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1654-01-18",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKremenchuk.htm",
+   "alinti": "In the Hetman state the town was a Cossack company center … Under Russian rule it was the capital of New Russia gubernia in 1765–83",
+   "oneri": {
+    "d": "kazak-hetmanligi",
+    "t": "1764-11-21",
+    "not": "üstte v: rusya 1654-01-18'den (Pereyaslav; himaye kuralı); s: rusya 1764-11-21 / 1765'ten"
+   },
+   "not": "ÖLÇÜM LAB PAZAR: künye kazak-hetmanligi VAR (1648-01-01 → 1764-11-21, devletler.js). Himaye kuralıyla öneri; EMRELİC'e soruldu. | CIUS: 1648-1765 Hetman devletinde (1667-1765 Mirgorod alayı), doğrudan Rus yönetimi 1765'te (Yeni Rusya guberniyası başkenti) -> s: rusya 1654-01-18 başı ÇELİŞİR (Pereyaslav himaye: yerel polity s: sürer, Rusya v:). Doğrudan Rusya yılı 1765."
+  }
+ ],
+ "Kuito Kuanavale": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1712",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "web araması (Cuito Cuanavale Vikipedi yansıları; kolonyal tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşim Kuando Kubango'dadır (Ovimbundu çekirdeğinden uzak): Ovimbundu sahipliği ve 1902 Portekiz ucu şüpheli (Huambo 1902-11-04 emsali ülke düzeyidir). Okunmuş kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1712",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "web araması (Cuito Cuanavale Vikipedi yansıları; kolonyal tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşim Kuando Kubango'dadır (Ovimbundu çekirdeğinden uzak): Ovimbundu sahipliği ve 1902 Portekiz ucu şüpheli (Huambo 1902-11-04 emsali ülke düzeyidir). Okunmuş kaynak yok."
+  }
+ ],
+ "Kuzey Sahalin (bölge)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:470",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1875-05-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html",
+   "alinti": "Conclusion of the Treaty for the Exchange of Sakhalin for the Kurile Islands",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (1875, yıl; Japonya Kabine Sekreterliği resmî sitesi). f 1281 BOŞLUK: Amano PDF'sinde '1875' aranıp bulunamadı. Rusya'nın kuzeyde 1850'lerden karakolları (okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:470",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html",
+   "alinti": "Conclusion of the Treaty for the Exchange of Sakhalin for the Kurile Islands",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde 1875 (Japon hükûmeti resmî tarih sayfası: Sakhalin hakları Rusya'ya bırakıldı). Gün 1875-05-07 teyitsiz ('[yalnız yıl teyitli; gün teyitsiz]'). 1905 Portsmouth yalnız 50°K güneyini devretti."
+  }
+ ],
+ "Labe": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:446",
+   "alan": "s",
+   "d": "futa-callon",
+   "f": "1747-01-01",
+   "t": "1896-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV gine (Futa Calon yalnız etnik bölge); web araması (Vikipedi: Timbo 3 Kasım 1896, Porédaka 13 Kasım 1896: ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Futa Callon f 1747 ve t 1896 için okunmuş akademik kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:446",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-01-01",
+   "t": "1958-10-02",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "aynı; TDV gine 1958",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU (Vikipedi, okunmadı): Timbo 1896-11-03; Labe'nin fiilî Fransız girişi ayrı gün olabilir. ONERI verilmedi."
+  }
+ ],
+ "Lahaina": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:163",
+   "alan": "s",
+   "d": "hawaii-kralligi",
+   "f": "1795-01-01",
+   "t": "1893-01-17",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "history.state.gov/countries/hawaii (1795 ve 1893 geçmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kamehameha 1795 ve 1893-01-17 ucu okunmadı (kayıt kaynağı Britannica erişilemez)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:163",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-08-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/hawaii",
+   "alinti": "the kingdom’s annexation to the United States on August 12, 1898",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1898-08-12 resmî ilhak (ABD Dışişleri Tarihçi Ofisi, devletin resmî yayını). Ara dönem hawaii-cumhuriyeti 1893-1898 zincirde ayrı."
+  }
+ ],
+ "Lapwai (Nez Perce)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:924",
+   "alan": "s",
+   "d": "nez-perce",
+   "f": "1281-01-01",
+   "t": "1877-10-05",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "history.state.gov/milestones/1830-1860/oregon-treaty (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Nez Perce 1877-10-05 (Bear Paw) ordu olayıdır; ABD egemenliği Oregon Antlaşması 1846-06-15 ile olabilir (okunmadı). ONERI verilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:924",
+   "alan": "s",
+   "d": "abd",
+   "f": "1877-10-05",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "aynı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Okunmuş kaynak yok."
+  }
+ ],
+ "Listuguj (Restigouche)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:831",
+   "alan": "s",
+   "d": "mikmak",
+   "f": "1281-01-01",
+   "t": "1761-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "hiçbir kaynak aranmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:831",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1761-01-01",
+   "t": "1763-02-10",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "hiçbir kaynak aranmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": ""
+  }
+ ]
+}
