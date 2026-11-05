@@ -1537,6 +1537,28 @@ def main():
                                    for k in range(2, int(_m.group(1)) + 1)}
     except Exception:                                       # noqa: BLE001
         pass
+    # 🆕 5 Kasım 2026 (KASA PAZAR, toplama dalı — CEVIRI-1103 ilk kez kapıdan geçiyor): ALTINCI
+    #   yol — çok dillilik. `js/ceviri.js` seçili dil Türkçe değilse `data/ceviri_dizin.js`teki
+    #   `CEVIRI_DIZIN.dosyalar[dil]` listesini `'<script src="data/' + liste[i][0]` ile
+    #   document.write eder. Ad JS kaynağında geçmez, DİZİN dosyasında geçer ⇒ tırnak ölçütü
+    #   49 çeviri dosyasını yetim sayıyordu (alet boşluğu, veri değil).
+    #   ⚠️ KANIT ÜÇ ŞARTLI, desen muafiyeti DEĞİL: ① `data/ceviri_dizin.js` index.html'de
+    #   yükleniyor ② `js/ceviri.js` hem `CEVIRI_DIZIN`i okuyor hem `'<script src="data/' +`
+    #   yol kurucusunu taşıyor ③ dosyanın adı dizinin "dosyalar" gövdesinde TIRNAK İÇİNDE
+    #   geçiyor. Dizinden çıkarılan ya da dizin/yükleyici silinen dosya yeniden YETİM öter.
+    try:
+        _cz = os.path.join(KOK, "data", "ceviri_dizin.js")
+        _cj = os.path.join(KOK, "js", "ceviri.js")
+        if "data/ceviri_dizin.js" in istenen and os.path.isfile(_cz) and os.path.isfile(_cj):
+            _cjs = io.open(_cj, encoding="utf-8", errors="replace").read()
+            if "CEVIRI_DIZIN" in _cjs and re.search(r"""['"]<script src="data/['"]\s*\+""", _cjs):
+                _czs = io.open(_cz, encoding="utf-8", errors="replace").read()
+                _dg = _czs.split('"dosyalar"', 1)
+                if len(_dg) == 2:
+                    _DINAMIK_ADLAR |= {"data/" + a for a in
+                                       re.findall(r'"(ceviri_[a-z]{2,3}_[a-z0-9_]+\.js)"', _dg[1])}
+    except Exception:                                       # noqa: BLE001
+        pass
     dinamik_bulunan = []
     # 🆕 14 Ekim 2026 (KOŞU 24 inişi, Emre): BEŞİNCİ kova — GITIGNORE'LU HAM ÇIKTI.
     #   `data/ufuk_bantlari.js` (.gitignore) koşucunun ağacında DURUR ama hiçbir
