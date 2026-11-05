@@ -100,8 +100,11 @@
    "kaynak": "HistoricPlaces.ca (Canadian Register), Fort Frontenac NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=12130",
    "alinti": "Fort Frontenac, located at the confluence of the Cataraqui River and Lake Ontario, was established in 1673",
    "uc": "f",
-   "oneri": {},
-   "not": "f yıl 1673 (DCB Frontenac de aynı yıl: https://www.biographi.ca/en/bio/buade_de_frontenac_et_de_palluau_louis_de_1E.html). t 1763-02-10 Paris Antlaşması ÜLKE DÜZEYİ; ancak fort Ağustos 1758'de Bradstreet'e düştü/yıkıldı (arama özeti) — 1758-1763 arası alt-bölge istisnası olabilir, atlas t'si okunan kaynakla teyit edilmedi."
+   "oneri": {
+    "t": "1758-08 (Bradstreet'in alışı, gün kaynakla)",
+    "not": "sonra isg ingiltere → 1763-02-10 s: ingiltere"
+   },
+   "not": "KARAR EMRELİC (gece-124): ONAY isg ingiltere 1758-08 (Bradstreet) → s: ingiltere 1763-02-10 (Paris; İngiltere yönetiyordu → imza). | f yıl 1673 (DCB Frontenac de aynı yıl: https://www.biographi.ca/en/bio/buade_de_frontenac_et_de_palluau_louis_de_1E.html). t 1763-02-10 Paris Antlaşması ÜLKE DÜZEYİ; ancak fort Ağustos 1758'de Bradstreet'e düştü/yıkıldı (arama özeti) — 1758-1763 arası alt-bölge istisnası olabilir, atlas t'si okunan kaynakla teyit edilmedi."
   }
  ],
  "Fort Nascopie (Petitsikapau)": [
