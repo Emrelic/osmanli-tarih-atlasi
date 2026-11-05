@@ -1,161 +1,516 @@
 {
  "Maun (Tavana)": [
-  {"sira": 4122, "dosya_satir": "", "alan": "s", "d": "tsvana", "f": "1700-01-01", "t": "1885-03-31",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 4122,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "f: Vikipedi 'Maun, Botswana' (İPUCU, tek dayanak olamaz). t: Hertslet, Map of Africa by Treaty vol.1 (1909) s.189-191, archive.org mapofafricabytr01hert, Bechuanaland Protectorate notları",
    "alinti": "The parts of South Africa situate north of British Bechuanaland ... and not within the jurisdiction of any civilised Power.",
-   "oneri": {"f": "1915-01-01 [yalnız yıl; KOŞULLU F-GERI, aşağıya bak]", "t": "1890-06-30", "d": "tsvana (yerel merafe: Batawana) s: olarak 1966-09-30'a dek SÜRER; ingiltere v:"},
-   "not": "ÖLÇÜT (himaye, TAHRİR): ingiltere idareye KATMADI, yargı yetkisi/himaye; s: yerel merafe sürer. UC t: 1885-09-30 ilanı yalnız 22. paralelin GÜNEYİNİ kapsar (Hertslet: 'south of the 22nd parallel of south latitude'); Maun 19.99°S bu alanın KUZEYİNDE. Kuzey için ilk belge 1890-06-30 Order in Council ('territory north of British Bechuanaland', alıntı s.190), 1891-05-09 yeni Order bunu iptal edip alanı Chobe/Zambezi'ye dek tanımlar. İngiliz yargı yetkisi ≠ Batawana'ya himayenin kabulü: Ngamiland'a özgü himaye günü BULUNAMADI (Hertslet'te Tawana anılmıyor). Atlasın 1885-03-31'i hiçbir kaynakta yok (Hertslet kronolojisinde Mart 1885 maddesi yok; Vikipedi/IBS 'Warren ilanı' gün belirsiz). f: Vikipedi 'founded 1915 as tribal capital of the Batawana' + 'before: small Yei village' — İPUCU; akademik kaynak (Botswana Notes and Records / Tlou 1985 'A History of Ngamiland') BAKILMADI (erişim). Künye tsvana t=1885-03-31 bu dilimi kapsamaz (şart ii) → LAB."},
-  {"sira": 4123, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-03-31", "t": "1966-09-30",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "f": "1915-01-01 [yalnız yıl; KOŞULLU F-GERI, aşağıya bak]",
+    "t": "1890-06-30",
+    "d": "tsvana (yerel merafe: Batawana) s: olarak 1966-09-30'a dek SÜRER; ingiltere v:"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Maun (≈20°G, kuzey): ilk belge 1890-06-30 Order in Council → o güne dek tsvana (Ngamiland/Batawana); 1891-05-09 ic_not. Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · ÖLÇÜT (himaye, TAHRİR): ingiltere idareye KATMADI, yargı yetkisi/himaye; s: yerel merafe sürer. UC t: 1885-09-30 ilanı yalnız 22. paralelin GÜNEYİNİ kapsar (Hertslet: 'south of the 22nd parallel of south latitude'); Maun 19.99°S bu alanın KUZEYİNDE. Kuzey için ilk belge 1890-06-30 Order in Council ('territory north of British Bechuanaland', alıntı s.190), 1891-05-09 yeni Order bunu iptal edip alanı Chobe/Zambezi'ye dek tanımlar. İngiliz yargı yetkisi ≠ Batawana'ya himayenin kabulü: Ngamiland'a özgü himaye günü BULUNAMADI (Hertslet'te Tawana anılmıyor). Atlasın 1885-03-31'i hiçbir kaynakta yok (Hertslet kronolojisinde Mart 1885 maddesi yok; Vikipedi/IBS 'Warren ilanı' gün belirsiz). f: Vikipedi 'founded 1915 as tribal capital of the Batawana' + 'before: small Yei village' — İPUCU; akademik kaynak (Botswana Notes and Records / Tlou 1985 'A History of Ngamiland') BAKILMADI (erişim). Künye tsvana t=1885-03-31 bu dilimi kapsamaz (şart ii) → LAB.",
+   "oneri_son": {
+    "d": "tsvana",
+    "t": "1890-06-30",
+    "not": "Ngamiland/Batawana; 22°G'nin kuzeyi"
+   }
+  },
+  {
+   "sira": 4123,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet, Map of Africa by Treaty vol.1 (1909) s.190, archive.org mapofafricabytr01hert; kronolojik liste: '30 Sept. Proclamation Cape. Bechuanaland, Kalahari, &c' (1885)",
    "alinti": "This Proclamation also declared the establishment of a British Protectorate over the Territory known as Bechuanaland and the Kalahari",
-   "oneri": {"alan": "v", "f": "1890-06-30", "d": "ingiltere (v:); altta s: tsvana/Batawana 1966-09-30'a dek"},
-   "not": "ÖLÇÜT: himaye (TAHRİR) — s: ingiltere yerine v: ingiltere. Maun için bkz. önceki satır: 1885-09-30 ilanı 22°S'nin güneyi; Maun'a 1890-06-30 (yargı yetkisi; himaye günü Ngamiland için BULUNAMADI) → v: bu günden, ya da ABİ MERKEZ beyanıyla 1891-05-09. t 1966-09-30: history.state.gov 'Botswana previously had been under British sovereignty as Bechuanaland' (ABD kaydı 'sovereignty' der; TAHRİR'e göre protektora himayedir — beyan). Mart 1885 (atlas f) kaynaksız."},
-  {"sira": 4124, "dosya_satir": "", "alan": "s", "d": "botsvana", "f": "1966-09-30", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "v",
+    "f": "1890-06-30",
+    "d": "ingiltere (v:); altta s: tsvana/Batawana 1966-09-30'a dek"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Maun İngiliz bağı 1890-06-30'dan; model BEKLET. · ÖLÇÜT: himaye (TAHRİR) — s: ingiltere yerine v: ingiltere. Maun için bkz. önceki satır: 1885-09-30 ilanı 22°S'nin güneyi; Maun'a 1890-06-30 (yargı yetkisi; himaye günü Ngamiland için BULUNAMADI) → v: bu günden, ya da ABİ MERKEZ beyanıyla 1891-05-09. t 1966-09-30: history.state.gov 'Botswana previously had been under British sovereignty as Bechuanaland' (ABD kaydı 'sovereignty' der; TAHRİR'e göre protektora himayedir — beyan). Mart 1885 (atlas f) kaynaksız.",
+   "oneri_son": {
+    "model_a": {
+     "d": "ingiliz-becuanaland",
+     "f": "1890-06-30",
+     "t": "1966-09-30"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "tsvana",
+      "t": "1966-09-30"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-becuanaland",
+      "f": "1890-06-30",
+      "t": "1966-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4124,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Botswana', history.state.gov/countries/botswana (sayfa.py ham metin)",
    "alinti": "established upon Botswana’s attainment of independence on that same date",
    "alinti2": "The United States recognized Botswana on September 30, 1966",
    "oneri": {},
-   "not": "Bağımsızlık günü 1966-09-30 ikinci bir bağımsız kaynakla (mevcut: Botswana Independence Act 1966 c.23 'appointed day') çift teyit. t=2000-12-31 pencere ucu."}
+   "not": "Bağımsızlık günü 1966-09-30 ikinci bir bağımsız kaynakla (mevcut: Botswana Independence Act 1966 c.23 'appointed day') çift teyit. t=2000-12-31 pencere ucu."
+  }
  ],
  "Gvanda": [
-  {"sira": 4125, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1900-01-01", "t": "1965-11-11",
-   "hukum": "BULUNAMADI", "uc": "f",
+  {
+   "sira": 4125,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-01-01",
+   "t": "1965-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "Vikipedi 'Gwanda' (İPUCU): 'founded in 1900 as a settlement of European gold miners'; Hertslet vol.1 (1909) BSAC Charter 29 Oct 1889 (s.265-271 notları)",
    "alinti": "Gwanda was founded in 1900 as a settlement of European gold miners and prospectors.",
    "oneri": {},
-   "not": "f=1900-01-01 atlasla UYUMLU (yalnız yıl, Vikipedi İPUCU; akademik kaynak BULUNAMADI — Rhodesiana/Zimbabwe Notes vb. aranmadı = BAKILMADI). Yerleşime özgü İngiliz sahiplik belgesi yok. GÖZLEM: künye 'ingiliz-guney-rodezya' (f 1890-01-01, t 1980-04-18, harita:ingiltere) var; BSAC şirket idaresi 1890-1923 için d: 'ingiltere' yerine bu künye daha doğru olabilir — LAB kararı, ben hüküm vermiyorum. t=1965-11-11 (UDI) için kaynak aranmadı: BAKILMADI. Ndebele krallığı (Lobengula) 1893-94'e dek bölgenin sahibi; f=1900 olduğundan etkisiz."},
-  {"sira": 4126, "dosya_satir": "", "alan": "s", "d": "zimbabve", "f": "1980-04-18", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "not": "f=1900-01-01 atlasla UYUMLU (yalnız yıl, Vikipedi İPUCU; akademik kaynak BULUNAMADI — Rhodesiana/Zimbabwe Notes vb. aranmadı = BAKILMADI). Yerleşime özgü İngiliz sahiplik belgesi yok. GÖZLEM: künye 'ingiliz-guney-rodezya' (f 1890-01-01, t 1980-04-18, harita:ingiltere) var; BSAC şirket idaresi 1890-1923 için d: 'ingiltere' yerine bu künye daha doğru olabilir — LAB kararı, ben hüküm vermiyorum. t=1965-11-11 (UDI) için kaynak aranmadı: BAKILMADI. Ndebele krallığı (Lobengula) 1893-94'e dek bölgenin sahibi; f=1900 olduğundan etkisiz."
+  },
+  {
+   "sira": 4126,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Zimbabwe', history.state.gov/countries/zimbabwe (sayfa.py ham metin)",
    "alinti": "established upon Zimbabwe’s attainment of independence on that same date",
    "alinti2": "recognized the Republic of Zimbabwe on April 18, 1980",
    "oneri": {},
-   "not": "Bağımsızlık 1980-04-18 (mevcut kaynak: Zimbabwe Act 1979 değişiklik notu S.I. 1980/394 ile çift teyit). t pencere ucu."}
+   "not": "Bağımsızlık 1980-04-18 (mevcut kaynak: Zimbabwe Act 1979 değişiklik notu S.I. 1980/394 ile çift teyit). t pencere ucu."
+  }
  ],
  "Massangena": [
-  {"sira": 4127, "dosya_satir": "", "alan": "s", "d": "portekiz-mozambik", "f": "1895-01-01", "t": "1974-09-20",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 4127,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1895-01-01",
+   "t": "1974-09-20",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.3 (1909) No.308 (1890-08-20) Art.II, No.310 (1891-06-11), archive.org mapofafricabytre03hert; atlasın kendi künye kronolojisi (portekiz-mozambik: 1895-12-28 Chaimite) Vikipedi dayanaklı",
    "alinti": "the territories within the Portuguese sphere of influence are bounded by a line",
-   "oneri": {"f": "1895-12-28 [Gaza krallığının çöküşü; atlas kronolojisi, bağımsız kaynakla TEYİTSİZ]", "d": "önce Gaza krallığı (Nguni, Gungunhana) — künye YOK, LAB adayı"},
-   "not": "1890/1891 antlaşmaları (UC f değil) Massangena'yı (Save nehri, 21.5°S 33°E) Portekiz ETKİ ALANINA koyar: Hertslet Art.II hattı Sabi/Save kanalını izler; etki alanı ≠ egemenlik/idareye katma (TAHRİR ölçütü). Gaza (Gungunhana) 1895-12-28'e dek fiilen bağımsız; atlasın f=1895-01-01 yıl başı. Vikipedi 'Massangena': 1740-75 Portekiz keşifleri 'en uzak nokta Massangena' (İPUCU, idare değil). Yerleşime özgü tanıklık BULUNAMADI (baktığım: Hertslet vol.1+3, Vikipedi Massangena). Gaza için Cambridge History of Africa/UNESCO GHA VI-VII bu oturumda ia-ara ile bulunamadı (BAKILMADI). t=1974-09-20: BAKILMADI. F-GERI yok (f zaten geç)."},
-  {"sira": 4128, "dosya_satir": "", "alan": "s", "d": "mozambik-gecis-hukumeti", "f": "1974-09-20", "t": "1975-06-25",
-   "hukum": "BAKILMADI", "uc": "f+t",
+   "oneri": {
+    "f": "1895-12-28 [Gaza krallığının çöküşü; atlas kronolojisi, bağımsız kaynakla TEYİTSİZ]",
+    "d": "önce Gaza krallığı (Nguni, Gungunhana) — künye YOK, LAB adayı"
+   },
+   "not": "1890/1891 antlaşmaları (UC f değil) Massangena'yı (Save nehri, 21.5°S 33°E) Portekiz ETKİ ALANINA koyar: Hertslet Art.II hattı Sabi/Save kanalını izler; etki alanı ≠ egemenlik/idareye katma (TAHRİR ölçütü). Gaza (Gungunhana) 1895-12-28'e dek fiilen bağımsız; atlasın f=1895-01-01 yıl başı. Vikipedi 'Massangena': 1740-75 Portekiz keşifleri 'en uzak nokta Massangena' (İPUCU, idare değil). Yerleşime özgü tanıklık BULUNAMADI (baktığım: Hertslet vol.1+3, Vikipedi Massangena). Gaza için Cambridge History of Africa/UNESCO GHA VI-VII bu oturumda ia-ara ile bulunamadı (BAKILMADI). t=1974-09-20: BAKILMADI. F-GERI yok (f zaten geç)."
+  },
+  {
+   "sira": 4128,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
    "kaynak": "africaportal.org Frelimo_and_the_transitional_government_of_Mozambique.pdf (mevcut kaynak): sayfa.py ile açılamadı (DNS getaddrinfo hatası)",
    "alinti": "",
    "oneri": {},
-   "not": "BAKILMADI: erişim hatası. Yan teyit: history.state.gov/countries/mozambique 'recognized the People’s Republic of Mozambique on June 25, 1975' yalnız TANIMA günüdür (bağımsızlık ilanı olarak 'uc t' tarihlemez; ONERI-güçlü). 1974-09-20 yemin günü teyit edilmedi."},
-  {"sira": 4129, "dosya_satir": "", "alan": "s", "d": "mozambik", "f": "1975-06-25", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "not": "BAKILMADI: erişim hatası. Yan teyit: history.state.gov/countries/mozambique 'recognized the People’s Republic of Mozambique on June 25, 1975' yalnız TANIMA günüdür (bağımsızlık ilanı olarak 'uc t' tarihlemez; ONERI-güçlü). 1974-09-20 yemin günü teyit edilmedi."
+  },
+  {
+   "sira": 4129,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Mozambique', history.state.gov/countries/mozambique (ham metin)",
    "alinti": "The United States recognized the People’s Republic of Mozambique on June 25, 1975",
    "oneri": {},
-   "not": "Alıntı bağımsızlığı değil ABD'nin TANIMA gününü tarihler (+ 'previously had been under Portuguese sovereignty'); bağımsızlık günü 1975-06-25 ile örtüşür ama kaynak 'independence' demez → ONERI-güçlü (KAYNAKLI değil). Bağımsız ikinci kaynak (Lusaka Anlaşması metni / UN) aranmadı: BAKILMADI. Mevcut 'Bagimsizlik 1975-06-25' kaynak değil."}
+   "not": "Alıntı bağımsızlığı değil ABD'nin TANIMA gününü tarihler (+ 'previously had been under Portuguese sovereignty'); bağımsızlık günü 1975-06-25 ile örtüşür ama kaynak 'independence' demez → ONERI-güçlü (KAYNAKLI değil). Bağımsız ikinci kaynak (Lusaka Anlaşması metni / UN) aranmadı: BAKILMADI. Mevcut 'Bagimsizlik 1975-06-25' kaynak değil."
+  }
  ],
  "Vohipeno (Antemoro)": [
-  {"sira": 4130, "dosya_satir": "", "alan": "s", "d": "antemoro", "f": "1500-01-01", "t": "1897-02-28",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 4130,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "antemoro",
+   "f": "1500-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Hertslet vol.2 (1909) No.207, archive.org mapofafricabytre02hert: Fransız kanunu 6 Ağustos 1896; TDV 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
    "alinti": "On the 6th August, 1896, a French law was passed declaring Madagascar",
    "alinti2": "Est declaree Colonie Française l’Ile de Madagascar avec les Iles qui en dependent",
-   "oneri": {"t": "1896-08-06", "d": "antemoro t = fransa-cumhuriyet f = 1896-08-06 (ilhak kanunu)"},
-   "not": "ÖLÇÜT: idareye katma/ilhak — TEK KURAL: ilhak günü s: başlar. Hertslet: 6 Ağustos 1896 kanunu adayı ve bağlılarını Fransız kolonisi ilan eder (adaya ÜLKE DÜZEYİ; Antemoro'ya özgü gün BULUNAMADI). ÇİFT-KAYNAK ÇELİŞKİSİ: TDV 'Madagaskar': Fransızlar '27 Ocak 1897’de de yönetime el koyup' III. Ranavalona'yı sürdü (UC t'ye yakın ama Merina monarşisini tarihler); atlas künyesi 1897-02-28. Üçü de beyan: 1896-08-06 hukuki ilhak (Hertslet), 1897-01-27 yönetime el koyma (TDV), 1897-02-28 atlas künyesi (kaynağı yalnız wildmadagascar, Vikipedi sınıfı). Antemoro krallığının kendisinin fiilen ne zaman sona erdiği ayrıca BULUNAMADI; Antemoro Merina'ya nominal tâbi ise TAHRİR gereği s: antemoro tâbiliği ayrı soru. Künye antemoro t kısaltması LAB. f=1500: bu satırda BAKILMADI (Kent 1969 JAH makalesi okunmadı; künye 1512 Matitana yerleşimini anıyor)."},
-  {"sira": 4131, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1897-02-28", "t": "1960-06-26",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1896-08-06",
+    "d": "antemoro t = fransa-cumhuriyet f = 1896-08-06 (ilhak kanunu)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): TEK ÖLÇÜ gerekçesi DÜZELTİLDİ: Antananarivo'nun alınışı Antemoro'yu tarihlemez. 1895-10-01 himaye antlaşmasıyla Fransa Merina devletini ve eyalet idaresini denetlemeye başladı; Antemoro kıyısı Merina valilerinin idaresindeyse Fransa orayı 1896'dan önce idare ediyordu → ilhak kanunu 1896-08-06 (Hertslet c.2 no.207). Antemoro'nun 1895'te Merina idaresinde olduğu KAYNAKLA TEYİT EDİLMEDİ → ONERI + 'Merina idaresi teyitsiz'. 1897-01-27 (TDV) ve 02-28 ic_not; künye t Merina uç kuralına bağlı. · ÖLÇÜT: idareye katma/ilhak — TEK KURAL: ilhak günü s: başlar. Hertslet: 6 Ağustos 1896 kanunu adayı ve bağlılarını Fransız kolonisi ilan eder (adaya ÜLKE DÜZEYİ; Antemoro'ya özgü gün BULUNAMADI). ÇİFT-KAYNAK ÇELİŞKİSİ: TDV 'Madagaskar': Fransızlar '27 Ocak 1897’de de yönetime el koyup' III. Ranavalona'yı sürdü (UC t'ye yakın ama Merina monarşisini tarihler); atlas künyesi 1897-02-28. Üçü de beyan: 1896-08-06 hukuki ilhak (Hertslet), 1897-01-27 yönetime el koyma (TDV), 1897-02-28 atlas künyesi (kaynağı yalnız wildmadagascar, Vikipedi sınıfı). Antemoro krallığının kendisinin fiilen ne zaman sona erdiği ayrıca BULUNAMADI; Antemoro Merina'ya nominal tâbi ise TAHRİR gereği s: antemoro tâbiliği ayrı soru. Künye antemoro t kısaltması LAB. f=1500: bu satırda BAKILMADI (Kent 1969 JAH makalesi okunmadı; künye 1512 Matitana yerleşimini anıyor).",
+   "oneri_son": {
+    "d": "antemoro",
+    "t": "1896-08-06"
+   }
+  },
+  {
+   "sira": 4131,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.2 (1909) No.207; TDV 'Madagaskar'",
    "alinti": "On the 6th August, 1896, a French law was passed declaring Madagascar",
-   "oneri": {"f": "1896-08-06"},
-   "not": "Önceki satırla aynı: ilhak kanunu 1896-08-06; TDV 1897-01-27; atlas 1897-02-28. ÖLÇÜT: idareye katma (kanun + Vohipeno'da Fransız idaresi). t 1960-06-26: TDV 'ada ... 26 Haziran 1960 tarihinde bağımsızlığını kazandı' (UC t KAYNAKLI, TDV ham metin; history.state.gov ise 'tanıma 25 Haziran 1960' der, bağımsızlık günü değil)."},
-  {"sira": 4132, "dosya_satir": "", "alan": "s", "d": "madagaskar", "f": "1960-06-26", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "f": "1896-08-06"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): TEK ÖLÇÜ gerekçesi DÜZELTİLDİ: Antananarivo'nun alınışı Antemoro'yu tarihlemez. 1895-10-01 himaye antlaşmasıyla Fransa Merina devletini ve eyalet idaresini denetlemeye başladı; Antemoro kıyısı Merina valilerinin idaresindeyse Fransa orayı 1896'dan önce idare ediyordu → ilhak kanunu 1896-08-06 (Hertslet c.2 no.207). Antemoro'nun 1895'te Merina idaresinde olduğu KAYNAKLA TEYİT EDİLMEDİ → ONERI + 'Merina idaresi teyitsiz'. 1897-01-27 (TDV) ve 02-28 ic_not; künye t Merina uç kuralına bağlı. · Önceki satırla aynı: ilhak kanunu 1896-08-06; TDV 1897-01-27; atlas 1897-02-28. ÖLÇÜT: idareye katma (kanun + Vohipeno'da Fransız idaresi). t 1960-06-26: TDV 'ada ... 26 Haziran 1960 tarihinde bağımsızlığını kazandı' (UC t KAYNAKLI, TDV ham metin; history.state.gov ise 'tanıma 25 Haziran 1960' der, bağımsızlık günü değil).",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1896-08-06",
+    "t": "1960-06-26"
+   }
+  },
+  {
+   "sira": 4132,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar', islamansiklopedisi.org.tr/madagaskar (sayfa.py ham metin)",
    "alinti": "ada ... 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
    "oneri": {},
-   "not": "Ham metin: 'nihayet ada, ilk anayasanın hazırlanmasından (1959) sonra 26 Haziran 1960 tarihinde bağımsızlığını kazandı.' ÜLKE DÜZEYİ. history.state.gov: ABD tanıması 25 Haziran 1960 (Eisenhower mektubu) — tanıma günü, çelişki değil."}
+   "not": "Ham metin: 'nihayet ada, ilk anayasanın hazırlanmasından (1959) sonra 26 Haziran 1960 tarihinde bağımsızlığını kazandı.' ÜLKE DÜZEYİ. history.state.gov: ABD tanıması 25 Haziran 1960 (Eisenhower mektubu) — tanıma günü, çelişki değil."
+  }
  ],
  "Şoşong (Shoshong)": [
-  {"sira": 4133, "dosya_satir": "", "alan": "s", "d": "tsvana", "f": "1700-01-01", "t": "1885-03-31",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 4133,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "f: Vikipedi 'Shoshong' (Parsons atfı; İPUCU); t: Hertslet vol.1 (1909) s.178-179, 190, archive.org mapofafricabytr01hert",
    "alinti": "On the 30th September, 1885, a Proclamation was issued by the High Commissioner for South Africa",
-   "oneri": {"f": "1840-01-01 [~; 'forty years' by 1880s; yaklaşık, yalnız onyıl]", "t": "1885-09-30", "d": "tsvana (Ngwato) s: sürer; ingiltere v: 1885-09-30"},
-   "not": "UC t: Hertslet 30 Eylül 1885 bildirisi 22°S'nin güneyinde Bechuanaland ve Kalahari üzerinde himaye kurar; Şoşong 23.03°S, 20°D'nin doğusu → KAPSAMDA. Atlasın 1885-03-31'i kaynaksız (Mart 1885 gün belirsizdi; IBS 122 ile atlas künyesi 'ingiliz-becuanaland' f=1885-09-30 zaten böyle diyor → tsvana t ile 6 aylık BOŞLUK; künye düzeltmesi LAB). ÖLÇÜT (himaye): idareye katma değil. f_geri ADAYI: Vikipedi (Parsons 1998 atfıyla) 'By the 1880s Shoshong had existed in the same location for forty years' ve LMS misyonu 1862 → 1700 çok erken. Yeni ilk dilimin sahibi tsvana (künye 1700-1885 kapsar, şart ii ✓) ama kaynak İPUCU sınıfı; akademik kaynak (Parsons, Botswana Notes and Records / Ngwato tarihi) BAKILMADI."},
-  {"sira": 4134, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-03-31", "t": "1966-09-30",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "f": "1840-01-01 [~; 'forty years' by 1880s; yaklaşık, yalnız onyıl]",
+    "t": "1885-09-30",
+    "d": "tsvana (Ngwato) s: sürer; ingiltere v: 1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): tsvana t 1885-03-31 kaynaksız → 1885-09-30 (seçimden bağımsız). Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · UC t: Hertslet 30 Eylül 1885 bildirisi 22°S'nin güneyinde Bechuanaland ve Kalahari üzerinde himaye kurar; Şoşong 23.03°S, 20°D'nin doğusu → KAPSAMDA. Atlasın 1885-03-31'i kaynaksız (Mart 1885 gün belirsizdi; IBS 122 ile atlas künyesi 'ingiliz-becuanaland' f=1885-09-30 zaten böyle diyor → tsvana t ile 6 aylık BOŞLUK; künye düzeltmesi LAB). ÖLÇÜT (himaye): idareye katma değil. f_geri ADAYI: Vikipedi (Parsons 1998 atfıyla) 'By the 1880s Shoshong had existed in the same location for forty years' ve LMS misyonu 1862 → 1700 çok erken. Yeni ilk dilimin sahibi tsvana (künye 1700-1885 kapsar, şart ii ✓) ama kaynak İPUCU sınıfı; akademik kaynak (Parsons, Botswana Notes and Records / Ngwato tarihi) BAKILMADI.",
+   "oneri_son": {
+    "d": "tsvana",
+    "t": "1885-09-30"
+   }
+  },
+  {
+   "sira": 4134,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190",
    "alinti": "This Proclamation also declared the establishment of a British Protectorate over the Territory known as Bechuanaland and the Kalahari",
-   "oneri": {"alan": "v", "f": "1885-09-30", "d": "ingiltere (v:)"},
-   "not": "ÖLÇÜT: himaye (TAHRİR) → v:. f 1885-03-31 → 1885-09-30 (kaynaklı gün; Hertslet 'On the 30th September, 1885' + kronolojik liste '30 Sept. Proclamation'). t=1966-09-30 bağımsızlık (history.state.gov, çift teyit için Botsvana satırına bak)."},
-  {"sira": 4135, "dosya_satir": "", "alan": "s", "d": "botsvana", "f": "1966-09-30", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "v",
+    "f": "1885-09-30",
+    "d": "ingiltere (v:)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · ÖLÇÜT: himaye (TAHRİR) → v:. f 1885-03-31 → 1885-09-30 (kaynaklı gün; Hertslet 'On the 30th September, 1885' + kronolojik liste '30 Sept. Proclamation'). t=1966-09-30 bağımsızlık (history.state.gov, çift teyit için Botsvana satırına bak).",
+   "oneri_son": {
+    "model_a": {
+     "d": "ingiliz-becuanaland",
+     "f": "1885-09-30",
+     "t": "1966-09-30"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "tsvana",
+      "t": "1966-09-30"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-becuanaland",
+      "f": "1885-09-30",
+      "t": "1966-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4135,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Botswana', history.state.gov/countries/botswana",
    "alinti": "established upon Botswana’s attainment of independence on that same date",
    "oneri": {},
-   "not": "Bkz. Maun/Botsvana satırı. Mevcut Independence Act 1966 ile çift teyit."}
+   "not": "Bkz. Maun/Botsvana satırı. Mevcut Independence Act 1966 ile çift teyit."
+  }
  ],
  "Kang": [
-  {"sira": 4136, "dosya_satir": "", "alan": "s", "d": "tsvana", "f": "1700-01-01", "t": "1885-03-31",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 4136,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190; Vikipedi 'Kang, Botswana' (kuruluş bilgisi YOK)",
    "alinti": "On the 30th September, 1885, a Proclamation was issued by the High Commissioner for South Africa",
-   "oneri": {"t": "1885-09-30"},
-   "not": "Kang 23.67°S 22.8°D: 20°D'nin doğusu, 22°S'nin güneyi, Cape'in kuzeyi → 30 Eylül 1885 himayesinin kapsamında. ÖLÇÜT: himaye. f=1700: Kang'ın kuruluşu BULUNAMADI (baktığım: Vikipedi Kang — kuruluş yok; akademik kaynak aranmadı=BAKILMADI). Bölgenin Kgalagadi/Kwena ilişkisi: 'tsvana' etiketi yaklaşık, sahip merafe BULUNAMADI. F-GERI için yeterli kaynak yok."},
-  {"sira": 4137, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-03-31", "t": "1966-09-30",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): tsvana t 1885-03-31 kaynaksız → 1885-09-30 (seçimden bağımsız). Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · Kang 23.67°S 22.8°D: 20°D'nin doğusu, 22°S'nin güneyi, Cape'in kuzeyi → 30 Eylül 1885 himayesinin kapsamında. ÖLÇÜT: himaye. f=1700: Kang'ın kuruluşu BULUNAMADI (baktığım: Vikipedi Kang — kuruluş yok; akademik kaynak aranmadı=BAKILMADI). Bölgenin Kgalagadi/Kwena ilişkisi: 'tsvana' etiketi yaklaşık, sahip merafe BULUNAMADI. F-GERI için yeterli kaynak yok.",
+   "oneri_son": {
+    "d": "tsvana",
+    "t": "1885-09-30"
+   }
+  },
+  {
+   "sira": 4137,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190",
    "alinti": "This Proclamation also declared the establishment of a British Protectorate over the Territory known as Bechuanaland and the Kalahari",
-   "oneri": {"alan": "v", "f": "1885-09-30"},
-   "not": "Şoşong ile aynı: v: ingiltere 1885-09-30."},
-  {"sira": 4138, "dosya_satir": "", "alan": "s", "d": "botsvana", "f": "1966-09-30", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "v",
+    "f": "1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · Şoşong ile aynı: v: ingiltere 1885-09-30.",
+   "oneri_son": {
+    "model_a": {
+     "d": "ingiliz-becuanaland",
+     "f": "1885-09-30",
+     "t": "1966-09-30"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "tsvana",
+      "t": "1966-09-30"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-becuanaland",
+      "f": "1885-09-30",
+      "t": "1966-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4138,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Botswana', history.state.gov/countries/botswana",
    "alinti": "established upon Botswana’s attainment of independence on that same date",
    "oneri": {},
-   "not": "Bkz. Maun/Botsvana satırı."}
+   "not": "Bkz. Maun/Botsvana satırı."
+  }
  ],
  "Moçudi (Kgatla)": [
-  {"sira": 4139, "dosya_satir": "", "alan": "s", "d": "tsvana", "f": "1700-01-01", "t": "1885-03-31",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 4139,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "f: Vikipedi 'Mochudi' (İPUCU: 'settling in 1871 at the foot of Phuthadikobo Hill'); t: Hertslet vol.1 (1909) s.178-179",
    "alinti": "the Bakgatla tribe migrated from what is now South Africa, settling in 1871",
    "alinti2": "On the 30th September, 1885, a Proclamation was issued by the High Commissioner for South Africa",
-   "oneri": {"f": "1871-01-01 [yalnız yıl; Vikipedi İPUCU]", "t": "1885-09-30", "d": "tsvana (Kgatla) s: sürer"},
-   "not": "F-GERI ADAYI: Moçudi 1700 → 1871 (Kgatla Mochudi'ye 1871'de yerleşti; öncesi Transvaal'daki eski yurtlarında). Yeni ilk dilimin sahibi: tsvana (Kgatla) — künye 1700-1885 kapsar (şart ii ✓). Kaynak yalnız Vikipedi (Rev. Pieter Brink misyonu da aynı maddede) → İPUCU; akademik teyit (Schapera, Botswana Notes and Records; Kgatla tarihi) BAKILMADI. UC t: Moçudi 24.42°S → 1885-09-30 himayesinin kapsamında. ÖLÇÜT: himaye."},
-  {"sira": 4140, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-03-31", "t": "1966-09-30",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "f": "1871-01-01 [yalnız yıl; Vikipedi İPUCU]",
+    "t": "1885-09-30",
+    "d": "tsvana (Kgatla) s: sürer"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): tsvana t 1885-03-31 kaynaksız → 1885-09-30 (seçimden bağımsız). Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · F-GERI ADAYI: Moçudi 1700 → 1871 (Kgatla Mochudi'ye 1871'de yerleşti; öncesi Transvaal'daki eski yurtlarında). Yeni ilk dilimin sahibi: tsvana (Kgatla) — künye 1700-1885 kapsar (şart ii ✓). Kaynak yalnız Vikipedi (Rev. Pieter Brink misyonu da aynı maddede) → İPUCU; akademik teyit (Schapera, Botswana Notes and Records; Kgatla tarihi) BAKILMADI. UC t: Moçudi 24.42°S → 1885-09-30 himayesinin kapsamında. ÖLÇÜT: himaye.",
+   "oneri_son": {
+    "d": "tsvana",
+    "t": "1885-09-30"
+   }
+  },
+  {
+   "sira": 4140,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190",
    "alinti": "This Proclamation also declared the establishment of a British Protectorate over the Territory known as Bechuanaland and the Kalahari",
-   "oneri": {"alan": "v", "f": "1885-09-30"},
-   "not": "Şoşong ile aynı: v: ingiltere 1885-09-30; s: Kgatla sürer."},
-  {"sira": 4141, "dosya_satir": "", "alan": "s", "d": "botsvana", "f": "1966-09-30", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "v",
+    "f": "1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · Şoşong ile aynı: v: ingiltere 1885-09-30; s: Kgatla sürer.",
+   "oneri_son": {
+    "model_a": {
+     "d": "ingiliz-becuanaland",
+     "f": "1885-09-30",
+     "t": "1966-09-30"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "tsvana",
+      "t": "1966-09-30"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-becuanaland",
+      "f": "1885-09-30",
+      "t": "1966-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4141,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Botswana', history.state.gov/countries/botswana",
    "alinti": "established upon Botswana’s attainment of independence on that same date",
    "oneri": {},
-   "not": "Bkz. Maun/Botsvana satırı."}
+   "not": "Bkz. Maun/Botsvana satırı."
+  }
  ],
  "Tsabong": [
-  {"sira": 4142, "dosya_satir": "", "alan": "s", "d": "tsvana", "f": "1700-01-01", "t": "1885-03-31",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 4142,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190; Vikipedi 'Tsabong' (kuruluş bilgisi YOK)",
    "alinti": "On the 30th September, 1885, a Proclamation was issued by the High Commissioner for South Africa",
-   "oneri": {"t": "1885-09-30"},
-   "not": "Tsabong 26.02°S 22.4°D: Molopo'nun kuzeyi, 20°D'nin doğusu → 1885-09-30 himayesinin kapsamı (British Bechuanaland Molopo'nun güneyi). f=1700: kuruluş BULUNAMADI (baktığım: Vikipedi Tsabong: kuruluş yok; akademik kaynak BAKILMADI). Sahip merafe (Kgalagadi/Batlharo-Barolong) kaynakla belirsiz → 'tsvana' yaklaşık, beyan gerekli. F-GERI için kaynak yok."},
-  {"sira": 4143, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-03-31", "t": "1966-09-30",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): tsvana t 1885-03-31 kaynaksız → 1885-09-30 (seçimden bağımsız). Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · Tsabong 26.02°S 22.4°D: Molopo'nun kuzeyi, 20°D'nin doğusu → 1885-09-30 himayesinin kapsamı (British Bechuanaland Molopo'nun güneyi). f=1700: kuruluş BULUNAMADI (baktığım: Vikipedi Tsabong: kuruluş yok; akademik kaynak BAKILMADI). Sahip merafe (Kgalagadi/Batlharo-Barolong) kaynakla belirsiz → 'tsvana' yaklaşık, beyan gerekli. F-GERI için kaynak yok.",
+   "oneri_son": {
+    "d": "tsvana",
+    "t": "1885-09-30"
+   }
+  },
+  {
+   "sira": 4143,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Hertslet vol.1 (1909) s.178-179, 190",
    "alinti": "This Proclamation also declared the establishment of a British Protectorate over the Territory known as Bechuanaland and the Kalahari",
-   "oneri": {"alan": "v", "f": "1885-09-30"},
-   "not": "Şoşong ile aynı: v: ingiltere 1885-09-30."},
-  {"sira": 4144, "dosya_satir": "", "alan": "s", "d": "botsvana", "f": "1966-09-30", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "alan": "v",
+    "f": "1885-09-30"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_101/103): Model BEKLET (dolaylı idare krallıkları, Emre): (a) s: ingiliz-becuanaland; (b) s: tsvana + v: ingiliz-becuanaland (tsvana künye t 1966 yalnız (b) seçilirse LAB). Boşluk ŞİMDİ kapanır: İngiliz bağı her iki modelde 1885-09-30 (Hertslet 1909 c.1 s.178-179 himaye bildirisi, 22°G'nin güneyi). · Şoşong ile aynı: v: ingiltere 1885-09-30.",
+   "oneri_son": {
+    "model_a": {
+     "d": "ingiliz-becuanaland",
+     "f": "1885-09-30",
+     "t": "1966-09-30"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "tsvana",
+      "t": "1966-09-30"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-becuanaland",
+      "f": "1885-09-30",
+      "t": "1966-09-30"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4144,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "U.S. Office of the Historian, 'Botswana', history.state.gov/countries/botswana",
    "alinti": "established upon Botswana’s attainment of independence on that same date",
    "oneri": {},
-   "not": "Bkz. Maun/Botsvana satırı."}
+   "not": "Bkz. Maun/Botsvana satırı."
+  }
  ],
  "f_geri": [
   "F-GERI (KOŞULLU, İPUCU-kaynaklı): Moçudi (Kgatla) 1700-01-01 → 1871-01-01 [yalnız yıl], sahip tsvana s: (künye 1700-1885 kapsar); kaynak Vikipedi, akademik teyit BAKILMADI",

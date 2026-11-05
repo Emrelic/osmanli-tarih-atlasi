@@ -1,0 +1,646 @@
+{
+ "Morogoro": [
+  {
+   "sira": 4038,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "nyamvezi",
+   "f": "1281-01-01",
+   "t": "1890-11-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BAKTIM: TDV tanzanya/zengibar/kilve, UNESCO GHA VI-VII (Lunda/Kazembe, Mkwawa, Hehe bölümleri), Hertslet c.3, Iliffe (archive.org 401 - ödünç), Britannica (403). Hiçbirinde Morogoro’nun Nyamvezi şefliklerine bağlı olduğuna dair tanıklık YOK. UYARI (ölçüm): künye nyamvezi 'Tabora' merkezli, f=1281 epok damgası (künye ic_not’u); Morogoro Luguru/Kutu ülkesidir, Nyamvezi alanı dışındadır — sahiplik sorusu ciddi, ama hüküm vermek için kaynak yok. Boşluk merdiveni ⑤ (abi merkez) için aday aranmadı."
+  },
+  {
+   "sira": 4039,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "f",
+   "oneri": {
+    "t": "1919-06-28",
+    "bol": "1916-09-01 → 1919-06-28 arası d: alman-dogu-afrikasi + isg ingiltere (aşağıdaki 'ingiltere' satırı)"
+   },
+   "not": "f: TDV «Tanzanya» 1890 YIL düzeyinde (kara kısmı Almanlar’a); 1890-11-04 günü hiçbir okunan kaynakta YOK. Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. Morogoro: Alman istasyonu ipucu 1891 (Iliffe, okunamadı) — BAKILMADI."
+  },
+  {
+   "sira": 4040,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan ... işgal süreci | Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "uc": "f+t",
+   "oneri": {
+    "bol": [
+     {
+      "alan": "d",
+      "d": "alman-dogu-afrikasi",
+      "f": "(DOAG f)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1916-09-01 (atlas günü; işgal günü bu yerleşim için BULUNAMADI)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     }
+    ]
+   },
+   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+  },
+  {
+   "sira": 4041,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: TDV «Tanzanya» 1961-12-09 bağımsızlık (gün). f=1922-07-20 öteki uç TEYİTSİZ (Milletler Cemiyeti Konseyi onayı: ipucu verildi, birincil metin 404/erişilemedi; wikisource 'Mandate for East Africa' 404). TDV aynı maddede «kırk üç yıllık İngiliz sömürgeciliği» diyor (1961-43=1918/19) ⇒ İngiliz egemenliğinin başı 1922 değil 1919 civarı; bkz. 'ingiltere' satırı ONERI."
+  },
+  {
+   "sira": 4042,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık. f: TDV «Tanzanya» 1961-12-09 (Tanganyika bağımsızlığı) gün düzeyinde; t: 26 Nisan 1964 birleşme gün düzeyinde. Çift uç tek maddede."
+  },
+  {
+   "sira": 4043,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli. t=2000-12-31 pencere ucu (künye t'si yok); öteki uç teyitsiz/ölçüm değil."
+  }
+ ],
+ "Kalenga (Hehe)": [
+  {
+   "sira": 4044,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hehe",
+   "f": "1850-01-01",
+   "t": "1898-07-19",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, Worldmark Encyclopedia of Cultures and Daily Life, «Hehe», https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/hehe (sayfa.py ham metin; ticari ansiklopedi ⇒ ONERI-güçlü)",
+   "alinti": "savaş Mkwawa’nın 1898’deki ölümüne kadar sürdü",
+   "uc": "t",
+   "oneri": {
+    "t_adaylari": [
+     "1894-10-30 (Kalenga’nın Alman fethi — ipucu, okunan kaynakta YOK)",
+     "1898 (Mkwawa’nın ölümü; yıl düzeyi, ticari kaynak)"
+    ],
+    "karar": "KASA/EMRELİC"
+   },
+   "not": "Worldmark: 'Alman müdahalesi 1890, birlik 1891 yenilgisi, Mkwawa’nın 1898 ölümüne kadar savaş; ardından Hehe’nin Alman kolonisine katılması' (cümleler yılsız-gün yok). 1898-07-19 günü okunan kaynakta YOK. Kalenga şehrinin düşmesi (1894) ile devletin sonu (1898, Mkwawa’nın ölümü) ayrı olaylar: yerleşim t’si için 'idareye katma' belgesi (Iringa istasyonu 1896 ipucu) bulunamadı. f=1850: hiçbir okunan kaynakta YOK (Hehe kuruluşu Munyigumba; akademik kaynak okunamadı). t günü TEYİTSİZ."
+  },
+  {
+   "sira": 4045,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1898-07-19",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "f",
+   "oneri": {
+    "t": "1919-06-28",
+    "bol": "1916-09-01 → 1919-06-28 arası d: alman-dogu-afrikasi + isg ingiltere (aşağıdaki 'ingiltere' satırı)"
+   },
+   "not": "f=1898-07-19 bu satır için KAYNAKSIZ (alıntı genel 1890 devrini anlatır, Hehe ülkesi için değil; Hehe 1890-91’de hâlâ bağımsızdı, Worldmark). Genel zemin: Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. f günü (1898-07-19) = Mkwawa’nın ölümü (Worldmark: 1898 yıl). Kalenga 1894’te düştüyse DOAG f’si öne çekilebilir (BAKILMADI)."
+  },
+  {
+   "sira": 4046,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan ... işgal süreci | Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "uc": "f+t",
+   "oneri": {
+    "bol": [
+     {
+      "alan": "d",
+      "d": "alman-dogu-afrikasi",
+      "f": "(DOAG f)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1916-09-01 (atlas günü; işgal günü bu yerleşim için BULUNAMADI)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     }
+    ]
+   },
+   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+  },
+  {
+   "sira": 4047,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: TDV «Tanzanya» 1961-12-09 bağımsızlık (gün). f=1922-07-20 öteki uç TEYİTSİZ (Milletler Cemiyeti Konseyi onayı: ipucu verildi, birincil metin 404/erişilemedi; wikisource 'Mandate for East Africa' 404). TDV aynı maddede «kırk üç yıllık İngiliz sömürgeciliği» diyor (1961-43=1918/19) ⇒ İngiliz egemenliğinin başı 1922 değil 1919 civarı; bkz. 'ingiltere' satırı ONERI."
+  },
+  {
+   "sira": 4048,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık. f: TDV «Tanzanya» 1961-12-09 (Tanganyika bağımsızlığı) gün düzeyinde; t: 26 Nisan 1964 birleşme gün düzeyinde. Çift uç tek maddede."
+  },
+  {
+   "sira": 4049,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli. t=2000-12-31 pencere ucu (künye t'si yok); öteki uç teyitsiz/ölçüm değil."
+  }
+ ],
+ "Mbeya": [
+  {
+   "sira": 4050,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fipa-nyakyusa",
+   "f": "1281-01-01",
+   "t": "1890-11-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BAKTIM: TDV tanzanya/malavi, UNESCO GHA VI-VII, Hertslet c.3 (Nyasa–Tanganyika hattı). Mbeya ya da Nyakyusa/Safwa/Nyiha ülkesi ile 'fipa-nyakyusa' künyesini (f=1281 epok damgası, künye ic_not’u: Fipa devleti ~1700’lerde) bağlayan tanıklık bulunamadı. Fipa platosu Mbeya’nın güneybatısındadır; Mbeya çevresi Nyakyusa/Safwa/Nyiha — künye bağı sorgulanmalı. Mbeya kasabası ayrıca 1920’lerde (altın) doğdu: 1281-1890 dilimi için 'yerleşim var mıydı?' sorusu (boşluk merdiveni ④) açık."
+  },
+  {
+   "sira": 4051,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "f",
+   "oneri": {
+    "t": "1919-06-28",
+    "bol": "1916-09-01 → 1919-06-28 arası d: alman-dogu-afrikasi + isg ingiltere (aşağıdaki 'ingiltere' satırı)"
+   },
+   "not": "f: TDV «Tanzanya» 1890 YIL düzeyinde (kara kısmı Almanlar’a); 1890-11-04 günü hiçbir okunan kaynakta YOK. Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. Mbeya: 1 Tem 1890 Anglo-Alman anlaşması Rovuma–Nyasa–Tanganyika hattını Alman etki alanına bağlar (Hertslet dizini '…River to Lakes Nyasa and Tanganyika, 1 July 1890'; metin okunmadı)."
+  },
+  {
+   "sira": 4052,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan ... işgal süreci | Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "uc": "f+t",
+   "oneri": {
+    "bol": [
+     {
+      "alan": "d",
+      "d": "alman-dogu-afrikasi",
+      "f": "(DOAG f)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1916-09-01 (atlas günü; işgal günü bu yerleşim için BULUNAMADI)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     }
+    ]
+   },
+   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+  },
+  {
+   "sira": 4053,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: TDV «Tanzanya» 1961-12-09 bağımsızlık (gün). f=1922-07-20 öteki uç TEYİTSİZ (Milletler Cemiyeti Konseyi onayı: ipucu verildi, birincil metin 404/erişilemedi; wikisource 'Mandate for East Africa' 404). TDV aynı maddede «kırk üç yıllık İngiliz sömürgeciliği» diyor (1961-43=1918/19) ⇒ İngiliz egemenliğinin başı 1922 değil 1919 civarı; bkz. 'ingiltere' satırı ONERI."
+  },
+  {
+   "sira": 4054,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık. f: TDV «Tanzanya» 1961-12-09 (Tanganyika bağımsızlığı) gün düzeyinde; t: 26 Nisan 1964 birleşme gün düzeyinde. Çift uç tek maddede."
+  },
+  {
+   "sira": 4055,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli. t=2000-12-31 pencere ucu (künye t'si yok); öteki uç teyitsiz/ölçüm değil."
+  }
+ ],
+ "Massangano": [
+  {
+   "sira": 4056,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1583-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Afrika» (bağımsız devletler tablosu), https://islamansiklopedisi.org.tr/afrika (sayfa.py ham metin)",
+   "alinti": "Angola 11.09.1975 Luanda",
+   "uc": "t",
+   "oneri": {
+    "t_tdv_tablo": "1975-09-11 (TDV tablosu; GG.AA.YYYY biçimi)",
+    "atlas_t": "1975-11-11 (Office of the Historian ‘Angola’, angola künyesi f kaynağı, atlasta mevcut)"
+   },
+   "not": "ÇİFT KAYNAK ÇELİŞKİSİ (t): TDV tablosu 11.09.1975 (11 Eylül) diyor; atlasın angola künyesi history.state.gov 'November 11, 1975' kaynaklı. TDV tablosu muhtemelen baskı hatası olabilir (KARAR VERİLMEDİ — kural: TDV esastır, çelişki ic_not’ta iki kaynakla beyan edilir; üçüncü bağımsız akademik kaynak okunamadı). t ucu şehre özgü değil, ülke düzeyi. f=1583: Massangano presidio’su (1583) için kaynak OKUNAMADI — Davidson 'Trade and Conflict in Angola' (archive.org 401 ödünç), TDV afrika/angola (Massangano yok); f ve devlet için BAKILMADI. Hayalet kontrolü: portekiz-angola künye f=1575 ≤ 1583 ✔."
+  }
+ ],
+ "Pungo Andongo": [
+  {
+   "sira": 4058,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1671-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Afrika» (bağımsız devletler tablosu), https://islamansiklopedisi.org.tr/afrika (sayfa.py ham metin)",
+   "alinti": "Angola 11.09.1975 Luanda",
+   "uc": "t",
+   "oneri": {
+    "t_tdv_tablo": "1975-09-11 (TDV tablosu)",
+    "atlas_t": "1975-11-11"
+   },
+   "not": "t: Massangano ile aynı çelişki (TDV tablosu 11 Eylül ↔ history.state.gov 11 Kasım). f=1671: atlasın ndongo künyesi (f 1500, t 1671-01-01) 'Portekiz’in Pungo Andongo’yu almasıyla sona erdi' diyor — bu ATLAS KAYDIDIR, dayanak değil; fetih günü (1671-11-29 ipucu) okunan kaynakta YOK, f BAKILMADI. F-GERİ ADAYI (UYGULANMADI): Pungo Andongo Ndongo’nun taşra kalesiydi (kur:1671 yalnız fetih yılı); varoluş günü f’si geri çekilirse ilk dilim 'ndongo' olur — şart (i) için Pungo’ya özgü Ndongo tanıklığı bulunamadı ⇒ f geri çekilmedi."
+  }
+ ],
+ "Mvansabombve (Kazembe)": [
+  {
+   "sira": 4060,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kazembe",
+   "f": "1740-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BAKTIM: UNESCO GHA VI (Kazembe Lunda’sının doğuya genişlemesi, 18. yy sonu; kuruluş günü/yılı YOK), UNESCO GHA VII (Kazembe geçmiyor), Hertslet c.3 (Kazembe adı yalnız Nyasa kıyısındaki 'Sultan of Rifu' bağlamında), Cunnison 'Luapula Peoples' (archive.org 401 ödünç). 1740 (f) ve 1899 (t) için kaynak bulunamadı. Mvansabombve’nin (Kazembe başkenti) f/t’yi belirleyen yerleşim tanıklığı yok."
+  },
+  {
+   "sira": 4061,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-rodezya",
+   "f": "1899-01-01",
+   "t": "1964-10-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Mevcut kaynak (Hertslet 1894 Anglo-Kongo sınırı, Luapula talveği) 1899 f’sini tarihlemez, sınır kaynağıdır — açık çelişki YOK. BAKTIM: Hertslet c.3 (Kazembe 1899 yok), TDV zambiya (Kazembe/1899 yok; yalnız 1964 bağımsızlığı), UNESCO GHA VII (Kazembe yok). f=1899 (BSAC/Kazembe’nin teslimi) için okunmuş kaynak bulunamadı. t=1964-10-24: künye zambiya kaynağında (KASA) var; bu satır için ayrıca okunmadı."
+  },
+  {
+   "sira": 4062,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zambiya», https://islamansiklopedisi.org.tr/zambiya (sayfa.py ham metin)",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli (Kuzey Rodezya’dan bağımsızlık). t=2000-12-31 pencere ucu, ölçüm değil."
+  }
+ ],
+ "Lindi": [
+  {
+   "sira": 4063,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1698-12-13",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kilve», https://islamansiklopedisi.org.tr/kilve (sayfa.py ham metin)",
+   "alinti": "1698’de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi",
+   "uc": "t",
+   "oneri": {
+    "t": "1698 (YIL; gün 12-13 TEYİTSİZ)",
+    "ek_dilimler": "Portekiz 1505 (Kilve çıkarması) → 1698 ve 1724-1744 Portekiz arası: ABİ MERKEZ Kilve zincirinde 'portekiz' dilimi eksik; karar KASA/EMRELİC"
+   },
+   "not": "ABİ MERKEZ: Kilve (Lindi vilâyetine bağlı Kilve; Lindi’nin kendisine özgü tanıklık YOK) — ÜLKE/BÖLGE DÜZEYİ, BEYANLI YAKLAŞIKLIK. TDV Kilve: Portekiz 1505 Almeida çıkarması, 1513 tam yıkım; Ya‘rubî Umman 1698’de kıyıyı aldı (Seyf b. Sultan); 1724 Portekiz Kilve ve Patta’yı geri aldı; 1744 Ahmed b. Saîd Umman’a bağladı. 1698-12-13 Mombasa (Fort Jesus) için bilinen gün; bu yerleşim için okunan kaynakta YOK. 1281 f: Lindi’nin o devirde var olduğu kaynaklanmadı (boşluk merdiveni ④ açık)."
+  },
+  {
+   "sira": 4064,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1698-12-13",
+   "t": "1890-11-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Kilve» https://islamansiklopedisi.org.tr/kilve ; TDV «Tanzanya» ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert",
+   "alinti": "1886 yılında Alman işgaline kadar Bû Saîd hânedanı Doğu Afrika’nın idaresini elinde tuttu",
+   "uc": "t",
+   "oneri": {
+    "t_adaylari": [
+     "1886 (TDV Kilve)",
+     "1888 (TDV Tanzanya: sahil arazilerinin kiralanması)",
+     "1890 (TDV Tanzanya/Zengibar: Helgoland-Zanzibar)",
+     "1890-07-01 (Hertslet No. 270: Umba–Rovuma sahilinin Almanya’ya devri)",
+     "1890-10-27/28 (Hertslet No. 271 tanıma notları)"
+    ],
+    "karar": "KASA/EMRELİC"
+   },
+   "not": "İKİ TDV MADDESİ ÇELİŞİYOR (not’ta beyan): «Kilve» t=1886 (Alman işgali), «Tanzanya» 1888 kiralama + 1890 devir, «Zengibar» 1890 Helgoland-Zanzibar. Hüküm verilmedi. Hertslet c.2: 1888 Alman Doğu Afrika Cemiyeti’nin Lindi’de gümrük idaresine başlaması (yazışma: 'taking preliminary steps … Lindi'), c.3 dizin: 13 Oca 1890 imtiyazların Almanya’ya mutlak devri (No. 215). 1890-11-04 günü okunan kaynakta YOK. ÖLÇÜT: idareye katma (Alman gümrük/idaresi 1888-90) vs. Sultan’ın egemenliği ⇒ 1890-07-01/10-28 en güçlü belge adayı. f=1698-12-13: önceki satırla aynı (yıl 1698)."
+  },
+  {
+   "sira": 4065,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1890-11-04",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "f",
+   "oneri": {
+    "t": "1919-06-28",
+    "bol": "1916-09-01 → 1919-06-28 arası d: alman-dogu-afrikasi + isg ingiltere (aşağıdaki 'ingiltere' satırı)"
+   },
+   "not": "f: TDV «Tanzanya» 1890 YIL düzeyinde (kara kısmı Almanlar’a); 1890-11-04 günü hiçbir okunan kaynakta YOK. Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. Lindi: Alman Doğu Afrika Cemiyeti idaresi 1888’den (Hertslet c.2 yazışma)."
+  },
+  {
+   "sira": 4066,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin) ; Versailles Antlaşması md. 119, Yale Avalon https://avalon.law.yale.edu/imt/partiv.asp (sayfa.py ham metin)",
+   "alinti": "İngilizler’in Kasım 1914’te Mafia adasını ele geçirmesiyle başlayan ... işgal süreci | Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "uc": "f+t",
+   "oneri": {
+    "bol": [
+     {
+      "alan": "d",
+      "d": "alman-dogu-afrikasi",
+      "f": "(DOAG f)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1916-09-01 (atlas günü; işgal günü bu yerleşim için BULUNAMADI)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     }
+    ]
+   },
+   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+  },
+  {
+   "sira": 4067,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: TDV «Tanzanya» 1961-12-09 bağımsızlık (gün). f=1922-07-20 öteki uç TEYİTSİZ (Milletler Cemiyeti Konseyi onayı: ipucu verildi, birincil metin 404/erişilemedi; wikisource 'Mandate for East Africa' 404). TDV aynı maddede «kırk üç yıllık İngiliz sömürgeciliği» diyor (1961-43=1918/19) ⇒ İngiliz egemenliğinin başı 1922 değil 1919 civarı; bkz. 'ingiltere' satırı ONERI."
+  },
+  {
+   "sira": 4068,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık. f: TDV «Tanzanya» 1961-12-09 (Tanganyika bağımsızlığı) gün düzeyinde; t: 26 Nisan 1964 birleşme gün düzeyinde. Çift uç tek maddede."
+  },
+  {
+   "sira": 4069,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli. t=2000-12-31 pencere ucu (künye t'si yok); öteki uç teyitsiz/ölçüm değil."
+  }
+ ],
+ "Masasi": [
+  {
+   "sira": 4070,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yao",
+   "f": "1800-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Malavi», https://islamansiklopedisi.org.tr/malavi (sayfa.py ham metin) ; Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert",
+   "alinti": "Yao kabilesi müslüman olduktan sonra Zengibar Sultanlığı’na bağlandı",
+   "uc": "t",
+   "oneri": {
+    "t": "1890-11-04 (atlasın DOAG günü; bkz. 'alman-dogu-afrikasi' satırı)",
+    "neden": "Masasi Rovuma’nın KUZEYİNDE, Alman Doğu Afrikası içinde"
+   },
+   "not": "AÇIK ÇELİŞKİ: yao künyesi t=1899 (Nyasaland Yao’su için anlamlı; TDV Malavi: İngilizler 1895’te Yao Mwingi Kheiri’yi indirdi). Masasi ise Rovuma kuzeyindedir: Hertslet dizini 'Rovuma River. British and German spheres, 9 June 1886' ve '…River to Lakes Nyasa and Tanganyika, 1 July 1890' ⇒ Alman etki alanı; 1899 Britanya’nın Masasi’yi alması diye bir olay okunan kaynakta YOK. Yao’nun Masasi’deki egemenliği (TDV: Yao, Zengibar’a bağlı, tarihsiz) ÜLKE/BÖLGE DÜZEYİ. f=1800 BAKILMADI."
+  },
+  {
+   "sira": 4071,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1961-12-09",
+   "hukum": "ONERI",
+   "kaynak": "Hertslet, The Map of Africa by Treaty, 3. bs. (1909), c. 3, Great Britain–Germany belge dizini (No. 270, 1 Jul 1890; No. 271, 27-28 Eki 1890), archive.org mapofafricabytre03hert ; TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "1890’da yapılan anlaşmayla … Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "uc": "f+t",
+   "oneri": {
+    "bol": [
+     {
+      "alan": "s",
+      "d": "alman-dogu-afrikasi",
+      "f": "1890-11-04",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "1916 (gün BAKILMADI)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     },
+     {
+      "alan": "s",
+      "d": "ingiliz-tanganika-mandasi",
+      "f": "1922-07-20",
+      "t": "1961-12-09"
+     }
+    ]
+   },
+   "not": "AÇIK ÇELİŞKİ ve muhtemel veri hatası: 's: ingiltere 1899-01-01' Masasi’yi 1899’dan itibaren İngiliz yapıyor; Masasi 1890-1916 Alman Doğu Afrikası (Rovuma kuzeyi, Hertslet), 1916’dan İngiliz işgali, 1919-06-28 Versailles imzasından s: ingiltere, 1922’den manda. Satır yao künyesinin t=1899’unu kopyalamış görünüyor. Aynı zincir Morogoro/Lindi/Kalenga/Mbeya’da kuruldu. TEK KURAL/TEK ÖLÇÜ ve ÖLÇÜT notları 'ingiltere' ara dilim satırlarında (Morogoro 4040). Masasi’ye özgü işgal günü ve Alman idaresine katma günü BAKILMADI."
+  },
+  {
+   "sira": 4072,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti | 26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık. f: TDV «Tanzanya» 1961-12-09 (Tanganyika bağımsızlığı) gün düzeyinde; t: 26 Nisan 1964 birleşme gün düzeyinde. Çift uç tek maddede."
+  },
+  {
+   "sira": 4073,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya (sayfa.py ham metin)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "f gün düzeyinde teyitli. t=2000-12-31 pencere ucu (künye t'si yok); öteki uç teyitsiz/ölçüm değil."
+  }
+ ],
+ "f_geri": [],
+ "f_geri_not": "Bu partide uygulanan f geri çekmesi YOK. Aday: Pungo Andongo 1671 → Ndongo dönemi (şart i sağlanmadı: Pungo’ya özgü tanıklık yok). Massangano f=1583 zaten presidio kuruluş yılı (yıl düzeyi, kaynak okunamadı)."
+}
