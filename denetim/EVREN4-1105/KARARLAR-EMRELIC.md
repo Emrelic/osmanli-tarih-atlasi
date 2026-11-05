@@ -963,6 +963,10 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **(d) Koordinat sınaması:** Astara, Culfa ve Kliçatak uygulamadan önce Natural Earth nehir katmanıyla sınanır.
 - **(e) Künye partisi:** 5 düzeltme + 10 aday tek partide LAB SALI'da. 4 taşan uç aynı commit şartıyla girer. Tarki, künye gelene kadar bekler.
 - D2'nin 32 yeni maddesi madde kuyruğuna (Sonnet, 7 dil); 103 uç deliğinden sonra.
+- **gece-121 Derbend:** İLHAK.
+  - `derbent-hanligi` t 1759-09-01 (ay hassasiyeti beyanı) = Derbend'deki `s: kuba-hanligi` dilim f'si (t = ardıl f).
+  - Kuba'nın Derbend'e naib ataması `ic_not`a yazılır. `kuba-hanligi` künye f'si 1735 değişmez.
+  - Urmiye 1760-08-12 uygulaması onaylandı.
 
 ## gece-113 — tarama biçim kusuru (ek)
 

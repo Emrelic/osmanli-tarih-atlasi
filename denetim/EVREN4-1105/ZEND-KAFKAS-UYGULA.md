@@ -31,6 +31,10 @@
   - Önerideki Urmiye zend f 1763-02-01 bu yüzden 1760-08-12'ye çekilir. Önceki `afsar` dilimi t = 1760-08-12 olur.
   - Öteki güney yerleşimleri (Tebriz vb.) Iranica 1763-02 ile kalır.
 - **(c) Derbend → Kuba:** TDV 1759 sonbaharı → `kuba-hanligi` f **1759-09-01** + ay hassasiyeti beyanı. ru.wikipedia'nın 1765'i `ic_not`a yazılır. `derbent-hanligi` künye t'si 1759-09-01'e kısalır (LAB, 5. düzeltme).
+  - **İLHAK** (EMRELİC gece-121; TDV: "kattı, ayrı han kalmadı"). Derbend kaydında `s: derbent-hanligi` t = **1759-09-01** = `s: kuba-hanligi` f (yarı açık [f, t), bitişik). `v:` yazılmaz.
+  - Kuba'nın Derbend'e naib atadığı bilgisi `ic_not`a yazılır.
+  - `kuba-hanligi` künyesinin f'si (1735) değişmez; 1759-09-01 yalnız Derbend'in dilim günüdür.
+  - `derbent-hanligi` künye t'si 1759-09-01, ay hassasiyeti beyanıyla, yerleşimle AYNI commit'te.
 - **(d) Koordinat sınaması (uygulamadan ÖNCE):** Natural Earth 10m nehir katmanıyla (`veri-kaynak/`) üç noktanın yakası sınanır.
   - Astara (38.4292 K, 48.8728 D): Astara çayının İran kıyısında mı? İran kıyısındaysa zincir İran Astarası'nındır, Talış hanlığı satırları uygulanmaz.
   - Culfa (38.955, 45.63): Aras'ın güney yakasında mı? Güneydeyse Türkmençay sonrasında `kacar` sürer.
