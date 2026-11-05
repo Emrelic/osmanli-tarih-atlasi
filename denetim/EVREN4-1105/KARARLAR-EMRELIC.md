@@ -983,6 +983,20 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - Marcapata: f 1869 → 1824-12-09 (1861 öncesi zaten distrito).
   - İkisi de KUR-KUNYE taramasına girmedi (ilk f, künye f'sine eşit değil). Kaynaklar e4_LAB_050 notlarında.
 
+## gece-122 — Mérida ve F-GERİ tanımı (EMRELİC)
+
+- **Mérida 1558–1717:** tutarlılık coğrafyaya göre değil, bağlılık zincirine göre kurulur.
+  - Mérida Santa Fe Audiencia'sına, o da Peru Valiliği'ne bağlıydı → Bogotá ve Tunja ile aynı muamele: **`ispanyol-peru` kalır.**
+  - Valencia, Caracas ve Guanare ise Venezuela eyaletindeydi (Santo Domingo Audiencia'sı, Yeni İspanya Valiliği) → orada `ispanya` doğrudur. İki karar çelişmez.
+  - Nuevo Reino de Granada künyesi yok; açılması koloni künyeleri kararına bağlı.
+- **Mérida 1810–1821:** `ispanyol-peru` yanlış; ayrı tur onaylandı.
+  - Rakip hükûmet kuralıyla 1810-09-16 cunta → kralcı ve vatansever el değiştirmeleri (fiilî günler, kaynakla) → Gran Colombia.
+  - Lagunillas kuruluş yeri notu `ic_not`a yazılır.
+- 🔴 **F-GERİ TANIMI:** başlangıcı bağımsızlık gününe çekmek F-GERİ değildir; aynı "kur = künye f" yapıtını yeniden üretir.
+  - F-GERİ hedefi: kaynaklı KURULUŞ günü + öncesindeki zincir (sömürge / öncül devlet). Bağımsızlık günü yalnız sahip geçişi olarak girer.
+  - Mapimí (≈1598 maden kasabası) ve Marcapata (sömürge dönemi) 198 listesine bu tanımla eklendi (`KUR-KUNYE-EK.tsv` düzeltildi).
+  - Aynı tanım bütün 198 F-GERİ turu için geçerlidir.
+
 ## gece-113 — tarama biçim kusuru (ek)
 
 - Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.
