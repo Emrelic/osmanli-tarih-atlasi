@@ -1,5 +1,11 @@
 # Zend / Kafkas taraması — ilk ölçüm (KASA SALI, gece-110)
 
+> 🔴 **DÜZELTME (gece-113):** ilk tarama yalnız `ad:"…"` biçimini okuyordu; `"ad": "…"` (JSON biçimi) dosyalarını ve `s: [` boşluklu yazımı kaçırıyordu.
+> - Düzeltilmiş tarama (`zend_tara2.py`, iki biçim): **85 dilim, 33 yerleşim — zend 26, kacar 26, afsar 33.**
+> - Eklenen 3 yerleşim, hepsi `data/yerlesimler_sinir_kuzey.js`te: **Norapat, Beri, Kliçatak (Suser)**. Üçünde de zend 1747 → 1794 ve kacar 1794 → 1828-02-22 var; Revan Hanlığı bölgesi, aday künye `revan-hanligi`.
+> - Kuzeydeki sayı 11'den **14**'e çıkar. Aşağıdaki sayılar ilk taramanındır; `ZEND-KAFKAS-TARAMA.tsv` güncellenmiş hâlidir.
+> - Satırları tek satırda olmayan 227 kayıt (çoğu a78_amerika) okunmadı; kutuya düşen yoktur (elle bakıldı: yerlesimler.js'teki 3 çok satırlı kayıt Niş, Bingazi, Derne).
+
 Bu dosya yalnız sayımdır; kaynak araştırması LAB v2 bittikten sonra yapılacak. Veriye dokunulmadı.
 
 - **Ölçüm yeri:** KASA, kasa-1104-kronoloji ağacı (origin/main ile eş).

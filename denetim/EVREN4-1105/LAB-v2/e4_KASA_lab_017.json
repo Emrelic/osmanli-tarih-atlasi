@@ -169,7 +169,8 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): 貞觀十四年 八月 癸酉 = 0640-08-30 J ✓ (朔 08-23, ayın 8'i; 九月'da 癸酉 yok → 8. ay kesin). Gün DOĞRU.",
+   "cin_ceviri": "DOGRU"
   }
  ],
  "Thimphu": [

@@ -1,0 +1,231 @@
+{
+ "Palenque": [
+  {
+   "sira": 2209,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "palenque-baak",
+   "f": "0431-03-10",
+   "t": "0799-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Erişim: mesoweb.com/palenque/dynasty URL'si 404; Martin & Grube, Chronicle of the Maya Kings and Queens çevrimiçi yok. f 0431-03-10 K'uk Bahlam I tahta çıkışı (Uzun Sayım çevirisi, GMT korelasyonu — ic_not'ta beyan edilmeli), t 799 son tarihli anıt (Janaab Pakal III, 9.18.9.4.4) — bu turda kaynakla okunmadı. Künye f 0431-01-01 ile yerleşim f 0431-03-10 farklı; künye/yerleşim hizası kontrol edilmeli."
+  },
+  {
+   "sira": 2210,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0799-01-01",
+   "t": "0851-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Beyanlı boşluk; merdiven ④ (799 sonrası terk) bu turda aranmadı. Merdiven ④'e göre şehir 9. yy başında terk edildiyse dönem kırpılmalı — kaynak şart."
+  }
+ ],
+ "San José Mogote": [
+  {
+   "sira": 2221,
+   "dosya_satir": "data/yerlesimler_mo_boya_bekleyen.js:8",
+   "alan": "s",
+   "d": "oaxaca-formatif",
+   "f": "-1624-01-01",
+   "t": "-0499-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: mevcut kaynak akademik (Marcus & Flannery 2005, radyokarbon). Bütçe önceliği BOS/ZAYIF satırlara verildi; ham okuma yapılmadı."
+  }
+ ],
+ "Xochicalco": [
+  {
+   "sira": 2254,
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:30",
+   "alan": "s",
+   "d": "xochicalco",
+   "f": "0700-01-01",
+   "t": "0900-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: mevcut kaynak akademik (Hirth 1984, Science 225). Ham okuma yapılmadı."
+  }
+ ],
+ "Zaculeu": [
+  {
+   "sira": 2098,
+   "dosya_satir": "data/yerlesimler_amerika.js:352",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1525-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "İPUCU: Woodbury & Trik, The Ruins of Zaculeu, Guatemala (1953) archive.org ruinsofzaculeugu0001char — ödünç kitap (403); F. Gall, 'Los Gonzalo de Alvarado, conquistadores de Guatemala', Anales de la Sociedad de Geografía e Historia (1967) — okunmadı",
+   "alinti": "",
+   "oneri": {
+    "t": "1525-10-01 [ay hassasiyeti; Kaybʼil Bʼalam'ın teslimi, Gonzalo de Alvarado kuşatması] — kaynakla teyit şart",
+    "bolme": "ardından s: ispanya (zincirde 1525 sonrası dönem YOK — ardılsız; gece-97 GERÇEK EKSİK sınıfı)"
+   },
+   "not": "1525-01-01 yalnız yıl; ipuçları (ikincil) teslimi Eylül ya da Ekim 1525 diye verir — çelişki, gün uydurulmaz. Zincirde Mam devrinden sonra hiçbir dönem yok: yerleşim 1525'ten sonra sahipsiz (Değişmez 1 adayı, ölçülmedi). Mam başkentinin künyesi genel 'maya-sehir-devletleri' (ic_not)."
+  }
+ ],
+ "Waskaganish (Rupert House)": [
+  {
+   "sira": 2072,
+   "dosya_satir": "data/yerlesimler_kamerika.js:681",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1668-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Dictionary of Canadian Biography, 'TROYES, PIERRE DE' http://www.biographi.ca/en/bio/troyes_pierre_de_1E.html",
+   "alinti": "They seized Fort Monsipi (Moose Factory or Saint-Louis), Fort Rupert (Charles Fort), and Fort Quichicouanne (Fort Albany).",
+   "oneri": {
+    "bolme": "1686 (Troyes seferi; yıl bağlamdan — Hudson Körfezi'ne varış 20 Haziran 1686, Fort Rupert'in alınış günü kaynakla) → s/isg: fransa; İngiliz dönüşü Utrecht 1713-04-11 ya da fiilî teslim/yeniden kuruluş (Rupert House HBC karakolu 1776'da yeniden açıldı — teyitsiz) — TEK ÖLÇÜ ve merdiven ④ ile seçilmeli"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] f 1668 (Nonsuch seferi, Charles Fort) bu turda okunmadı. Şirket dönemi (HBC) BEYANLI s: ingiltere yazılmalı (kural). t 1763-02-10 → ingiliz-kuzey-amerika geçişi Rupert's Land için anlamsız (Paris 1763 Rupert's Land'i ilgilendirmez; HBC tüzüğü sürer) — künye sorusu, ic_not. 1870-07-15 Kanada devri gece-85 ile uyumlu. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+  }
+ ],
+ "Vincennes (Poste Vincennes)": [
+  {
+   "sira": 2058,
+   "dosya_satir": "data/yerlesimler_kamerika.js:1173",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1732-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "NPS, George Rogers Clark National Historical Park, 'History & Culture' https://www.nps.gov/gero/learn/historyculture/index.htm",
+   "alinti": "Hamilton retook the fort on Dec. 17. ... The surrender occurred 10 a.m., Thurs., Feb. 25, 1779.",
+   "oneri": {
+    "t": "TEK ÖLÇÜ: İngiltere 1763'te Vincennes'i yönetmiyordu → s: fransa İngiliz fiilî teslim alışına kadar (Lt. Gov. Edward Abbott 1777 — gün kaynakla, teyitsiz)",
+    "bolme": "1778-07 (Gibault; Virginia'ya bağlılık — gün kaynakla) → s: abd (Virginia, Illinois County) · 1778-12-17 → 1779-02-25 isg ingiltere (Hamilton) · 1779-02-25'ten s: abd; Paris 1783-09-03 ic_not"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] f 1732 bu turda okunmadı. NPS 1778-12-17 ve 1779-02-25 günlerini birebir verir (resmî yayın → bu iki uç KAYNAKLI düzeyinde). ÖLÇÜT: idareye katma — Virginia'nın Illinois County'si (1778) ve Clark'ın fethi; İngiliz iddiası 1783'e kadar sürdü ama yer Virginia idaresindeydi. Mevcut zincir (ingiltere 1763-02-10 → 1783-09-03) iki yönde yanlış. | KASA SALI uc: öneri t'yi değiştirir"
+  }
+ ],
+ "Washington D.C.": [
+  {
+   "sira": 2071,
+   "dosya_satir": "data/yerlesimler_kamerika.js:1511",
+   "alan": "s",
+   "d": "abd",
+   "f": "1791-09-09",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "İPUCU: Komisyonerlerin L'Enfant'a 9 Eylül 1791 mektubu (Founders Online, National Archives) — founders.archives.gov 202 boş gövde döndü; arama özetleri",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1791-09-09 (şehre 'Washington' adının verilişi) ipucuyla uyumlu; ham metin okunamadı. 6g: şehrin varoluş günü olarak Residence Act 1790-07-16 / alan seçimi 1791-01-24 ic_not adayıdır; Georgetown ayrı yerleşim. TARAYICI: founders.archives.gov."
+  }
+ ],
+ "Wilmington (Kuzey Karolayna)": [
+  {
+   "sira": 2087,
+   "dosya_satir": "data/yerlesimler_kamerika.js:1321",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1739-01-01",
+   "t": "1783-09-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "NCpedia (State Library of North Carolina), 'Wilmington' https://www.ncpedia.org/geography/wilmington",
+   "alinti": "it wasn't until 1729 that white colonists built the town first called \"New Carthage\" ... chartered as the town of Wilmington in 1740",
+   "oneri": {
+    "f": "1729 (New Carthage/Newton yerleşimi; 6g varoluş) — f_geri",
+    "t": "1776-07-04 (gece-104 On Üç Koloni çekmesi)",
+    "bolme": "1781-01-28 → 1781-11 isg ingiltere (Craig'in işgali; KRONOLOJI-1104 NCpedia günü 01-28; bitiş günü kaynakla)"
+   },
+   "f_geri": {
+    "eski_f": "1739-01-01",
+    "yeni_f": "1729-01-01",
+    "sahip": "ingiltere",
+    "kaynak": "NCpedia 'Wilmington' — «it wasn't until 1729 that white colonists built the town first called New Carthage»"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Şehir tüzüğü 1740 (NC General Assembly Act), 1739 değil → ic_not (6g: statü günü f değildir). ingiltere künyesi f 0927 → 1729'u kapsar. NCpedia «In 1781 ... the city was occupied by the British, with Maj. James Henry Craig» (yıl). Commit da2485545 Wilmington 1781-01-28 NCpedia günü."
+  }
+ ],
+ "Cobá": [
+  {
+   "sira": 2149,
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:33",
+   "alan": "s",
+   "d": "coba",
+   "f": "0613-05-12",
+   "t": "0780-12-02",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Gronemeyer 2004, Wayeb Notes 14 — PDF indirildi ama metin katmanı sayfa.py ile çıkarılamadı (erişim). Uzun Sayım → GMT çevirisi ic_not'ta beyan edilmeli."
+  }
+ ],
+ "Santiago de Cuba": [
+  {
+   "sira": 1950,
+   "dosya_satir": "data/yerlesimler_amerika.js:1096",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1515-07-25",
+   "t": "1898-12-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, Milestones 1866-1898, 'The Spanish-American War, 1898' https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "the U.S. and Spanish governments signed the Treaty of Paris on December 10, 1898",
+   "oneri": {
+    "bolme": "1898-07-17 (Santiago'nun ABD'ye teslimi — gün kaynakla) → 1898-12-10 isg abd; s: abd 1898-12-10'dan (ABD yeri zaten yönetiyordu → imza günü, TEK ÖLÇÜ). Havana 1899-01-01 devri (E4-BILINEN) Santiago için geçerli değil, ic_not"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] t KAYNAKLI (Paris imzası); f 1515-07-25 (Aziz Yakup günü; Velázquez kuruluşu geleneği) okunmadı → uç kuralı ONERI. Ham metin Santiago çıkarmasını (22-24 Haziran) verir, teslim gününü vermez. Koloni künyesi ispanyol-kuba var ama bu gece metropol künyesi kalır (gece-105)."
+  }
+ ],
+ "Dzibanché (Tzibanche)": [
+  {
+   "sira": 2158,
+   "dosya_satir": "data/yerlesimler_once1281_yt_amerika.js:18",
+   "alan": "s",
+   "d": "kaanul",
+   "f": "0520-01-01",
+   "t": "0636-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DIGER: Martin & Grube 2008 (akademik). Ham okuma yapılmadı."
+  }
+ ],
+ "San Salvador": [
+  {
+   "sira": 1938,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "f": "f geriye çekilmeli: şehir 1525/1528 kuruldu (Gonzalo/Diego de Alvarado; kaynakla) — f_geri adayı, sahibi kaynakla",
+    "bolme": "s: ispanya (Guatemala Kaptanlığı; metropol künyesi) kuruluş → 1821-09-15 · (1822-1823 Meksika İmparatorluğu ilhakı, kaynakla) · s: orta-amerika-federasyonu 1823 → 1841 · s: el-salvador-cumhuriyeti 1841-02-18 (anayasa; gün kaynakla)"
+   },
+   "not": "Zincir yalnız 1841'den başlıyor: başkent 1841 öncesi sahipsiz (6g, ilk dilim eksik). Künyeler ölçüldü: ispanya f 1479, guatemala-kaptanligi 1609-1821-09-15, orta-amerika-federasyonu var, el-salvador-cumhuriyeti f 1841-01-01 (yıl). Kaynak bu turda okunmadı → f_geri alanı yazılmadı (6g (i) şartı). dosya_satir girdide boş."
+  }
+ ]
+}

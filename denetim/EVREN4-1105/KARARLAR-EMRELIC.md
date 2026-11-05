@@ -816,3 +816,28 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
     - Teymâ için ayrı Rummân künyesi açılmaz. Reşîdî / Cebel-i Şemmer Emirliği (1836 → 1921-11-02, TDV Reşîdîler) künyesi YOK, aday listesinde. Aday açılırsa `s: residi-emirligi` (yerel şeyh `ic_not`a); açılmazsa `bos:"kabile"` + neden.
 - **Boş uc:** 4 ONERI satırı dolduruldu: Tunduru t, Hsinking f+t, Ishigaki f+t, Naha f+t.
 - **CIN 6 satır:** ifadeler `LAB-v2/CIN-TAKVIM-IFADE-v2.tsv`te, EMRELİC çevirecek.
+
+## 5 Kasım 2026 gece-113 — CIN v2 çevirisi (EMRELİC, Academia Sinica, Jülyen)
+
+- **7 uç DOĞRU:**
+  - Gaochang 0640-08-30 (8. ay kesin).
+  - Wagang 0617-03-31 ve 0618-10-06. f ifadesi Daye 13 (大業十三年) olarak yazılır; Yining adı sonradan verildi.
+  - Dongjingcheng 0926-02-28, 0926-04-04 ve 0929-01-26. ic_not: tablo 正月'ı 天贊 diye listeliyor; dönem adı ayın içinde değişti.
+  - Iksan f 0670-08-21 (ganzhi 辛丑 tutuyor).
+- **Iksan t YANLIŞ:** 0683-10-01 → **0683-10-25**.
+  - Atlasın günü "十月"in Batı Ekimi sanılmasından.
+  - Samguk sagi juan 8, Sinmun 3, KASA sayfa.py ile okudu: «冬十月，徴報德王安勝爲蘇判，賜姓金氏，留京都» — gün yok.
+  - Bu yüzden ay başı + "ay hassasiyeti (神文王三年冬十月 = Jülyen 683-10-25…11-23)" + Silla Tang takvimini kullandığı için ±1 gün beyanı.
+  - Ek: Bodeok toprağı 684 十一月 Daemun isyanından sonra 金馬郡 oldu. 683-684 arasının sahibi kaynakla belirlenecek (ardıl dilim).
+- Sonuçlar `e4_KASA_lab_017/019.json` satırlarına `cin_ceviri` alanıyla yazıldı.
+
+## gece-113 — tarama biçim kusuru (KASA SALI öz-denetimi)
+
+- ZEND taraması yalnız `ad:"…"` biçimini okuyordu ve 3 yerleşimi kaçırdı (Norapat, Beri, Kliçatak; yerlesimler_sinir_kuzey.js). Düzeltildi: zend 23 → 26, yerleşim 28 → 33.
+- Sebep: `"ad": "…"` JSON biçimli dosyalar (yerlesimler_halef_1946.js, yerlesimler_nokta2.js vb.) ve `s: [` boşluklu yazım.
+- Aynı kusur v2 ajanının "dosya_satir boş, bulunamadı" dediği 14 kaydı da açıklıyor. Kayıtların hepsi var:
+  - yerlesimler_halef_1946.js: Bir Lahlu, Codrington, Hillsborough (Carriacou), Portsmouth (Dominika), Praia, Schwerin, Tórshavn, Vágur.
+  - yerlesimler_nokta2.js: Saint Helier, Saint Peter Port, Saumur.
+  - Frankfurt (Oder): yerlesimler.js:1243.
+  - Palenque, San Salvador, St. George's: başka dosyalar, KASA PAZAR ad:"…" ve "ad": "…" ile arasın.
+- Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.

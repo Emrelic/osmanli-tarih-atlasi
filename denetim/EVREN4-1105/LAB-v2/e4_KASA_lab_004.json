@@ -1,0 +1,226 @@
+{
+ "Sena Madureira": [
+  {
+   "sira": 1958,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:337",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1904-09-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, Documentação Territorial do Brasil, 'Sena Madureira – AC' https://biblioteca.ibge.gov.br/visualizacao/dtb/acre/senamadureira.pdf (metin kaynağı: Confederação Nacional de Municípios)",
+   "alinti": "No dia seguinte, 25 de setembro, às 08:00 horas da manhã, instalou o governo e o berço da cidade de Sena Madureira",
+   "oneri": {},
+   "not": "[alıntı PDF metninden birebir — sayfa.py PDF açamıyor; WebFetch'in kaydettiği PDF Read ile okundu] Yıl bağlamdan (1904, aynı paragraf). Kuruluş = varoluş günü (6g). Bölgede 1861'den kauçuk keşifleri ve 1878 iskânı var ama şehrin kendisi 1904; Acre 1903-11-17 Petrópolis'ten Brezilya (ic_not)."
+  }
+ ],
+ "Tabatinga": [
+  {
+   "sira": 1983,
+   "dosya_satir": "data/yerlesimler_amerika3.js:254",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1766-01-01",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, DTB 'Tabatinga – AM' https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/tabatinga.pdf",
+   "alinti": "Próximo ao local são estabelecidos em 1766 um posto militar e um posto fiscal",
+   "oneri": {},
+   "not": "[alıntı PDF metninden birebir — WebFetch'in kaydettiği PDF Read ile] f yıl düzeyi KAYNAKLI. 6g notu: IBGE «Em meados do século XVII, registra-se a existência ... de uma aldeia, fundada pelos jesuítas» — yerleşim öncesinde Cizvit aldeia'sı var; f_geri adayı ama sahibi (İspanyol mı Portekiz Cizvitleri mi) kaynakta yok → f_geri yazılmadı. t 1822-09-07 ülke düzeyi bağımsızlık (DEVRALMA), bu turda okunmadı."
+  }
+ ],
+ "Tefé (Teffé de Aisuaris)": [
+  {
+   "sira": 1989,
+   "dosya_satir": "data/yerlesimler_gamerika.js:77",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1688-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, DTB 'Tefé – AM' https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/tefe.pdf",
+   "alinti": "várias aldeias foram fundada por aquele religioso [Samuel Fritz], à margem do Solimões, nos fins do cec. XVII. Tefé, foi uma dessas aldeias.",
+   "oneri": {
+    "bolme": "1688 → 1709 s: ispanyol-peru (Fritz'in Quito'ya bağlı İspanyol Cizvit misyonu; künye f 1542 kapsar) · 1709 (José Antunes da Fonseca seferi, Portekiz zaferi; gün kaynakla) → s: portekiz-brezilyasi; 1718 Frei André da Costa'nın yeniden iskânı ic_not"
+   },
+   "not": "[alıntı PDF metninden birebir — WebFetch PDF + Read] f 1688 yalnız 'fins do séc. XVII' ile uyumlu (yıl yok). Sahip YANLIŞ: kuruluş İspanyol misyonudur; IBGE «Em 1708 o Governo do Grão-Pará enviou uma tropa ... para fazer evacuar ditas aldeia» ve ertesi yıl Portekiz zaferi. ÖLÇÜT: idareye katma — Portekiz'in 1709 sonrası aldeia'ları yönetimi; Madrid 1750 / San Ildefonso 1777 ic_not. Vila Ega 1759 (6g ic_not)."
+  }
+ ],
+ "Tonantins": [
+  {
+   "sira": 2005,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1002",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1865-08-15",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, DTB 'Tonantins – AM' https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/tonantins.pdf",
+   "alinti": "As origens do município remontam a 1813, quando é fundada à margem do rio Solimões a igreja em louvor ao Divino Espírito Santo.",
+   "oneri": {
+    "f": "1813-01-01 [yalnız yıl] — f_geri; 1813 → 1822-09-07 s: portekiz-brezilyasi, ardından brezilya-imparatorlugu"
+   },
+   "f_geri": {
+    "eski_f": "1865-08-15",
+    "yeni_f": "1813-01-01",
+    "sahip": "portekiz-brezilyasi (1813-1822-09-07), brezilya-imparatorlugu (1822-09-07'den)",
+    "kaynak": "IBGE DTB Tonantins — «As origens do município remontam a 1813»; künye portekiz-brezilyasi 1549-1822-09-07 aralığı kapsar"
+   },
+   "not": "[alıntı PDF metninden birebir] 1865-08-15 freguesia kuruluşudur (lei provincial nº 149) — statü günü, ic_not (6g). Sahip ABİ MERKEZ değil, doğrudan Portekiz Amazonu (Tefé'ye bağlı povoado, IBGE)."
+  }
+ ],
+ "San Francisco Xavier (Chiquitos)": [
+  {
+   "sira": 1936,
+   "dosya_satir": "data/yerlesimler_gamerika.js:111",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1691-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "UNESCO World Heritage Centre, 'Jesuit Missions of the Chiquitos' (no. 529) https://whc.unesco.org/en/list/529/",
+   "alinti": "Between 1691 and 1760, a series of remarkable reducciones de indios ... was founded by the Society of Jesus in the Chiquitos territory",
+   "oneri": {
+    "d": "ispanyol-peru (gece-106 hizası; Charcas Audiencia'sı Peru Valiliği'ne bağlı)",
+    "bolme": "1776 (gün kaynakla; künye rio-de-la-plata-valiligi f 1776-01-01) → 1810-05-25 s: rio-de-la-plata-valiligi · 1810 sonrası Yukarı Peru kralcı idare (ispanyol-peru, Abascal ilhakı — gün kaynakla) → 1825-08-06"
+   },
+   "not": "[alıntı ham metinden, sayfa.py] Dizi 1691'de başlar (ilk misyon San Javier geleneği), ama alıntı San Javier'in kendisini 1691'e tarihlemiyor → f uyumlu, ONERI. Aynı sayfa başka yerde 1696-1760 der (UNESCO içi tutarsızlık, ic_not)."
+  }
+ ],
+ "San José de Uchupiamonas": [
+  {
+   "sira": 1937,
+   "dosya_satir": "data/yerlesimler_gamerika.js:103",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1716-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "KARARLAR-EMRELIC gece-106 (ispanya → ispanyol-peru hizası)",
+   "alinti": "",
+   "oneri": {
+    "d": "ispanyol-peru (1776'ya kadar), ardından rio-de-la-plata-valiligi 1776 → 1810-05-25, sonra ispanyol-peru (kralcı Yukarı Peru) → 1825-08-06 — San Francisco Xavier ile aynı bölge devri"
+   },
+   "not": "f 1716 (Fransisken Apolobamba misyonu) kaynakla okunmadı. Bölge devri ÜLKE GRUPLAMASI ile uygulandı; şehre özgü kaynak yok. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (d)"
+  }
+ ],
+ "Santa Ana del Yacuma": [
+  {
+   "sira": 1940,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:226",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1894-10-22",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "f": "f_geri adayı: Santa Ana Mojos Cizvit misyonu olarak 18. yy başında kuruldu (yıl kaynakla) — 1894-10-22 büyük olasılıkla idarî statü (il merkezi) günü"
+   },
+   "not": "Kaynak bu turda okunmadı; Mojos misyonlarının kuruluş yılları için sıradaki tur (Bolivya akademik / UNESCO geçici listesi). Önceki sahipler Trinidad ile aynı zincir (ispanyol-peru → rio-de-la-plata → kralcı → bolivya). 6g (i) şartı sağlanmadığı için f_geri alanı yazılmadı."
+  }
+ ],
+ "Trinidad (Mojos)": [
+  {
+   "sira": 2009,
+   "dosya_satir": "data/yerlesimler_gamerika.js:106",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1687-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "KARARLAR-EMRELIC gece-106 (ispanya → ispanyol-peru hizası)",
+   "alinti": "",
+   "oneri": {
+    "d": "ispanyol-peru → 1776 · rio-de-la-plata-valiligi 1776 → 1810-05-25 · ispanyol-peru (kralcı) → 1825-08-06 (San Francisco Xavier ile aynı)",
+    "f": "Cipriano Barace'nin kuruluşu 1686 (gün kaynakla; teyitsiz) — f 1687 ile bir yıl fark"
+   },
+   "not": "Kaynak okunmadı; bölge devri kuralı. | KASA SALI uc: öneri f'yi değiştirir"
+  }
+ ],
+ "Xapuri": [
+  {
+   "sira": 2089,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1060",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1904-08-22",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, DTB 'Xapuri – AC' https://biblioteca.ibge.gov.br/visualizacao/dtb/acre/xapuri.pdf (metin kaynağı: Prefeitura Municipal)",
+   "alinti": "O povoado surgiu logo depois de Volta da Empreza (Rio Branco), no ano de 1883",
+   "oneri": {
+    "f": "1883-01-01 [yalnız yıl] — f_geri",
+    "bolme": "1883 → 1903-08-06 s: bolivya-cumhuriyeti (Ayacucho 1867 sınırı; 'Mariscal Sucre' Bolivya idaresi) · 1903-08-06 (Plácido de Castro'nun alışı) → 1903-11-17 Acre devrimcileri (rakip hükûmet; Estado Independente do Acre künyesi yok → BEYANLI / LAB) · 1903-11-17 Petrópolis imzası → s: brezilya-cumhuriyeti (Brezilya/Acre güçleri yeri yönetiyordu → imza günü, TEK ÖLÇÜ)"
+   },
+   "f_geri": {
+    "eski_f": "1904-08-22",
+    "yeni_f": "1883-01-01",
+    "sahip": "bolivya-cumhuriyeti",
+    "kaynak": "IBGE DTB Xapuri — «O povoado surgiu ... no ano de 1883»; «Xapuri foi ocupada por autoridades bolivianas que passaram a chamá-la de Mariscal Sucre»; künye bolivya-cumhuriyeti f 1825-08-06 kapsar"
+   },
+   "not": "[alıntı PDF metninden birebir — WebFetch PDF + Read] 1904-08-22 vila statüsüdür (Decreto do Prefeito nº 3) → ic_not (6g). IBGE «Em 6 de agosto de 1903, as tropas do Coronel Plácido de Castro tomaram o povoado». 1883-1902 arası Bolivya fiilî idaresi kaynakta açık değil (Brezilyalı seringueiros) — sahip kararı TAHRİR ile sınanmalı; Petrópolis günü genel bilgi, kaynakla teyit şart."
+  }
+ ],
+ "Tarija": [
+  {
+   "sira": 1987,
+   "dosya_satir": "data/yerlesimler_gamerika.js:114",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1690-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "f": "f_geri adayı: Tarija 1574'te Luis de Fuentes tarafından kuruldu (gün kaynakla) — 1690 neyi tarihliyor belirsiz",
+    "bolme": "1776 → 1810-05-25 s: rio-de-la-plata-valiligi (Tarija 1807'de Salta intendencia'sına bağlandı, ic_not) · 1810-1826 rakip hükûmet dönemi (Birleşik Eyaletler / kralcı) şehrin kendi günleriyle · Bolivya'ya katılış 1826 (gün kaynakla) — mevcut 'ispanya 1824-12-09 → 1825-08-06' dilimi teyitsiz"
+   },
+   "not": "Kaynak bu turda okunmadı. Zincir bölge kuralıyla uyumsuz: Tarija 1776'dan sonra Peru Valiliği'nde değildi. | KASA SALI uc: öneri f'yi değiştirir"
+  }
+ ],
+ "Sarmiento (Chubut)": [
+  {
+   "sira": 1953,
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1352",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1897-06-21",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Colonia Sarmiento kuruluşu (21 Haziran 1897) bu turda kaynakla okunmadı."
+  }
+ ],
+ "Vila Boa de Goiás": [
+  {
+   "sira": 2052,
+   "dosya_satir": "data/yerlesimler_amerika3.js:304",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1727-01-01",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "IBGE Biblioteca, DTB 'Goiás – GO' https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/goias.pdf",
+   "alinti": "fundou, em 1726, o arraial da Barra ... e no ano seguinte, os de Ouro Fino, Ferreiro e Santana, originando-se deste ultimo a atual cidade",
+   "oneri": {},
+   "not": "[alıntı PDF metninden birebir — WebFetch PDF + Read] f 1727 yıl bağlamdan ('no ano seguinte' = 1727). Vila Boa Carta Régia 1736-02-11, kuruluş 1739-07-25 (6g ic_not). t 1822-09-07 ülke düzeyi (DEVRALMA), bu turda okunmadı (öteki uç teyitsiz)."
+  }
+ ]
+}

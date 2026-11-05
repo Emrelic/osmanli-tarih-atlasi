@@ -44,7 +44,8 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): f: 大業十三年 二月 庚子 = 0617-03-31 J ✓ (Yining adı sonradan verildi; ifade Daye 13 yazılır). t: 武德元年 九月 甲寅 = 0618-10-06 J ✓. Günler DOĞRU.",
+   "cin_ceviri": "DOGRU"
   }
  ],
  "Southern Cross": [
@@ -108,7 +109,8 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): 天顯元年 正月 辛未 = 0926-02-28 J ✓. ic_not: tablo o ayı hâlâ 天贊 diye listeliyor; dönem adı ayın içinde değişti.",
+   "cin_ceviri": "DOGRU"
   },
   {
    "sira": 2155,
@@ -122,7 +124,8 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): f 天顯元年 正月 辛未 = 0926-02-28 J ✓ · t 天顯元年 二月 丙午 = 0926-04-04 J ✓. ic_not: 正月 tabloda 天贊; dönem adı ay içinde değişti.",
+   "cin_ceviri": "DOGRU"
   },
   {
    "sira": 2156,
@@ -136,7 +139,8 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): f 天顯元年 二月 丙午 = 0926-04-04 J ✓ · t 天顯三年 十二月 甲寅 = 0929-01-26 J ✓.",
+   "cin_ceviri": "DOGRU"
   }
  ],
  "Hsinking (Changchun)": [
@@ -180,12 +184,15 @@
    "d": "bodeok-goguryeo",
    "f": "0670-08-21",
    "t": "0683-10-01",
-   "hukum": "BAKILMADI",
-   "uc": "",
-   "kaynak": "",
-   "alinti": "",
-   "oneri": {},
-   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi (咸亨 Tang dönem adı) çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Samguk sagi (三國史記) juan 8, Silla bon-gi, Sinmun 3 — zh.wikisource.org/wiki/三國史記/卷08 (sayfa.py ham, KASA SALI gece-113)",
+   "alinti": "冬十月，徴報德王安勝爲蘇判，賜姓金氏，留京都，賜甲第良田。",
+   "oneri": {
+    "t": "0683-10-25"
+   },
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi (咸亨 Tang dönem adı) çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli. | EMRELİC Academia Sinica çevirisi (gece-113): f 咸亨元年 秋八月 一日 辛丑 = 0670-08-21 J ✓ (kaynaktaki 辛丑 tutuyor). t ✗: Tang 永淳二年 (弘道元年) 十月 = 0683-10-25 … 11-23 J; atlasın 0683-10-01'i '十月'in Batı Ekimi sanılmasından. Samguk sagi gün vermiyor (yalnız 冬十月) → t 0683-10-25 + ic_not 'ay hassasiyeti (神文王三年冬十月, Jülyen 10-25…11-23)'. Silla Tang takvimini kullanıyordu; ±1 gün beyanı. Not: Bodeok'un toprağı 684 (神文王四年) 十一月 大文 isyanından sonra 金馬郡 oldu — 683-684 arası Silla doğrudan idaresi mi, kaynakla (ardıl dilim).",
+   "cin_ceviri": "f DOGRU, t YANLIS"
   }
  ],
  "Ishigaki": [
