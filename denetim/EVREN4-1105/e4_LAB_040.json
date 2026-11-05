@@ -56,7 +56,7 @@
    "oneri": {
     "yapi": "s: yatenga SÜRER; v: fransa 1895 (himaye)"
    },
-   "not": "t ucu YIL düzeyinde 1895 (TDV Burkina Faso md.). HİMAYE anlaşması: brif kuralı gereği yerli polity s: sürer, Fransa v: yazılır; s: yatenga t=1895 kapanışı yanlış olur (Yatenga kunye t 1895-01-01 de buna göre gözden geçirilmeli). Gün teyitsiz."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | t ucu YIL düzeyinde 1895 (TDV Burkina Faso md.). HİMAYE anlaşması: brif kuralı gereği yerli polity s: sürer, Fransa v: yazılır; s: yatenga t=1895 kapanışı yanlış olur (Yatenga kunye t 1895-01-01 de buna göre gözden geçirilmeli). Gün teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:368",
@@ -71,7 +71,7 @@
    "oneri": {
     "alan": "v"
    },
-   "not": "Himaye kuralı: Naaba Bulli 1895 Fransız himayesi (TDV) → s: yatenga sürer + v: fransa-cumhuriyet; yatenga künye t gözden geçirilecek (LAB SALI). | f ucu YIL düzeyinde 1895 ama olay himaye: alan s -> v (v: fransa-cumhuriyet). t 1960-08-05 için bkz. sonraki satır (TDV Burkina Faso md. 5 Ağustos 1960 bağımsızlık ilanı)."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | Himaye kuralı: Naaba Bulli 1895 Fransız himayesi (TDV) → s: yatenga sürer + v: fransa-cumhuriyet; yatenga künye t gözden geçirilecek (LAB SALI). | f ucu YIL düzeyinde 1895 ama olay himaye: alan s -> v (v: fransa-cumhuriyet). t 1960-08-05 için bkz. sonraki satır (TDV Burkina Faso md. 5 Ağustos 1960 bağımsızlık ilanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:368",
@@ -84,7 +84,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/burkina-faso",
    "alinti": "5 Ağustos 1960’ta ise bağımsızlığını ilân etti",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-05 (TDV Burkina Faso md.: Haute-Volta bağımsızlık ilanı)."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-05 (TDV Burkina Faso md.: Haute-Volta bağımsızlık ilanı)."
   }
  ],
  "Zemio": [
@@ -135,12 +135,17 @@
    "d": "kanem-bornu",
    "f": "1281-01-01",
    "t": "1902-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "Bakılan: TDV nijer (Zinder yalnız şehir listesinde; '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' idarî birimdir, Zinder şehrinin devir günü değil)",
    "alinti": "",
-   "oneri": {},
-   "not": "Fransız fethi/devri (atlas 1902-01-01) akademik kaynakta bulunamadı. KÜNYE NOTU: Zinder Damagaram Sultanlığı merkezidir, Kanem-Bornu değil; kanem-bornu kunye t 1905-01-01, dönem t 1902-01-01. Arama özetlerinde (açılmadı, ipucu) 1899 Damagaram seferi anılır."
+   "oneri": {
+    "d": "damagaram",
+    "f": "1731-01-01",
+    "t": "1899 (Fransız fethi, kaynakla)",
+    "not": "üstte v: kanem-bornu (haraç, kaynakla); 1281–1731 kanem-bornu ayrı"
+   },
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | Fransız fethi/devri (atlas 1902-01-01) akademik kaynakta bulunamadı. KÜNYE NOTU: Zinder Damagaram Sultanlığı merkezidir, Kanem-Bornu değil; kanem-bornu kunye t 1905-01-01, dönem t 1902-01-01. Arama özetlerinde (açılmadı, ipucu) 1899 Damagaram seferi anılır."
   },
   {
    "dosya_satir": "data/yerlesimler_ok107.js:293",
@@ -153,7 +158,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/nijer",
    "alinti": "3 Ağustos 1960’ta bağımsızlığına kavuşmuştur",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: t ucu gün düzeyinde 1960-08-03 (TDV Nijer md.); alıntı yalnız t ucunu tarihliyor. f 1902-01-01 teyitsiz."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1960-08-03 (TDV Nijer md.); alıntı yalnız t ucunu tarihliyor. f 1902-01-01 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_ok107.js:293",
@@ -166,7 +171,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/nijer",
    "alinti": "3 Ağustos 1960’ta bağımsızlığına kavuşmuştur",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-03 (TDV Nijer md.)."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-03 (TDV Nijer md.)."
   }
  ],
  "İdeles": [
@@ -385,7 +390,7 @@
    "kaynak": "Bakılan: WebSearch özetleri (Hurtado de Arbieto 1572-06-24 ilerleyişi, Tupac Amaru idamı 1572-09-24 — Vikipedi/Biografías y Vidas, açılmadı); PUCP repo kaydı 175895 (özet)",
    "alinti": "",
    "oneri": {},
-   "not": "Dönem f 1539 ve t 1572-06-24 hakemli kaynakla okunmadı. KÜNYE ÇELİŞKİ: inka-imparatorlugu künye t 1572-09-24, dönem t 1572-06-24; 24 Haziran 1572 askerî ilerleyiş günüdür, devir günü (düşüş/yakalanma) farklı olabilir. Neo-İnka devleti Vilcabamba'da 1537/39'dan; f belgelenmedi."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | Dönem f 1539 ve t 1572-06-24 hakemli kaynakla okunmadı. KÜNYE ÇELİŞKİ: inka-imparatorlugu künye t 1572-09-24, dönem t 1572-06-24; 24 Haziran 1572 askerî ilerleyiş günüdür, devir günü (düşüş/yakalanma) farklı olabilir. Neo-İnka devleti Vilcabamba'da 1537/39'dan; f belgelenmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:519",
@@ -398,7 +403,7 @@
    "kaynak": "Bakılan: aynı",
    "alinti": "",
    "oneri": {},
-   "not": "ispanyol-peru f 1572-06-24 teyitsiz; künye ispanyol-peru f 1542-11-20."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | ispanyol-peru f 1572-06-24 teyitsiz; künye ispanyol-peru f 1542-11-20."
   }
  ],
  "Wayám (Celilo Şelâleleri)": [
@@ -587,7 +592,7 @@
    "oneri": {
     "yapi": "s: lozi SÜRER; v: ingiltere (BSAC/İngiliz himayesi)"
    },
-   "not": "t ucu YIL düzeyinde 1890 (TDV Zambiya md.: Lozi kralı Lewanika 1890’da Rhodes’in himayesine girdi). HİMAYE: yerli polity s: sürer, Avrupa gücü v: (brif). Gün 1890-06-27 (Lochner imtiyazı) teyitsiz. UYARI: koruyucu İngiliz Güney Afrika Şirketi; İngiliz Kuzey Rodezya protektorası 1924'te (kaynaksız, ölç)."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | t ucu YIL düzeyinde 1890 (TDV Zambiya md.: Lozi kralı Lewanika 1890’da Rhodes’in himayesine girdi). HİMAYE: yerli polity s: sürer, Avrupa gücü v: (brif). Gün 1890-06-27 (Lochner imtiyazı) teyitsiz. UYARI: koruyucu İngiliz Güney Afrika Şirketi; İngiliz Kuzey Rodezya protektorası 1924'te (kaynaksız, ölç)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1632",
@@ -600,7 +605,7 @@
    "kaynak": "https://history.state.gov/countries/zambia",
    "alinti": "recognized Zambia on October 24, 1964 … attainment of independence on the same date",
    "oneri": {},
-   "not": "Himaye kuralı: Lewanika 1890 (TDV Zambiya) → s: lozi sürer + v: ingiltere; 1890-06-27 teyitsiz. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1964-10-24 (devletin kendi resmî tarih yayını history.state.gov); alıntı yalnız t ucunu tarihliyor. f 1890-06-27 teyitsiz; himaye yapısı için önceki satır."
+   "not": "LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | Himaye kuralı: Lewanika 1890 (TDV Zambiya) → s: lozi sürer + v: ingiltere; 1890-06-27 teyitsiz. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1964-10-24 (devletin kendi resmî tarih yayını history.state.gov); alıntı yalnız t ucunu tarihliyor. f 1890-06-27 teyitsiz; himaye yapısı için önceki satır."
   }
  ],
  "Çita": [
