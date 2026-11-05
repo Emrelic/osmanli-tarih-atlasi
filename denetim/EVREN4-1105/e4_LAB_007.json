@@ -1,0 +1,641 @@
+{
+ "Dîvâniye": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1917-03-11",
+   "t": "1921-08-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "Bağdat Lozan Antlaşması’na kadar hukuken Osmanlı Devleti’ne bağlı kaldı.",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere"
+   },
+   "not": "KARAR EMRELİC (gece-43): TDV 21 Cemâziyelevvel 941 = 1534-11-28 esas (atlas 12-04 düzelir); Karakoyunlu 1410–1467 TDV Bağdat esas; UMIT'in Bağdat kümesine (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn) bağlanır — çift iş yok. Irak kuralı: d osmanli + isg ingiltere → 1921-08-23 s: irak-kralligi. | ABİ MERKEZ: Bağdat (Dîvâniye'ye özgü tanıklık yok). TDV Bağdat 1917'yi aradım, sayfa.py metninde 11 Mart 1917 günü çıkmadı (günü DergiPark makalesi arama özeti verdi, okunmadı). Levant/Irak kuralı: işgal süresince d:osmanli + isg ingiltere; s: irak-kralligi 1921-08-23'ten. TDV: Lozan'a (1923-07-24) kadar hukuken Osmanlı — atlas kuralı (1921-08-23) ile fark, KURAL KARARI olarak Emre'ye. ÖLÇÜT: geçici/askerî."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, CELÂYİRLİLER — https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340).",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV 21 Cemâziyelevvel 941 = 1534-11-28 esas (atlas 12-04 düzelir); Karakoyunlu 1410–1467 TDV Bağdat esas; UMIT'in Bağdat kümesine (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn) bağlanır — çift iş yok. Irak kuralı: d osmanli + isg ingiltere → 1921-08-23 s: irak-kralligi. | alıntı yalnız t ucunu (Celâyirli bağımsızlığı 1340, yıl) tarihliyor; f=1281 teyitsiz. Dîvâniye'ye özgü tanıklık yok, ÜLKE DÜZEYİ (Irak-ı Arab). Not: TDV İlhanlılar ilhan listesi 1335 sonrası Nûşirevân 1353'e kadar sürüyor (kayıttaki yer_kaynak ile uyumlu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1411-01-01",
+   "t": "1469-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde kalan Bağdat daha sonra Akkoyunlular’ın eline geçti.",
+   "oneri": {
+    "f": "1410",
+    "t": "1467"
+   },
+   "not": "KARAR EMRELİC (gece-43): TDV 21 Cemâziyelevvel 941 = 1534-11-28 esas (atlas 12-04 düzelir); Karakoyunlu 1410–1467 TDV Bağdat esas; UMIT'in Bağdat kümesine (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn) bağlanır — çift iş yok. Irak kuralı: d osmanli + isg ingiltere → 1921-08-23 s: irak-kralligi. | ABİ MERKEZ: Bağdat, yıl düzeyi, ÜLKE/MERKEZ DÜZEYİ. Atlas 1411/1469 ile TDV 1410/1467 çelişiyor (Akkoyunlu 1467'den). Karakoyunlu künye f 1351, t 1469-12-19 — 1469 künye sonu, TDV 1467 verir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1508-01-01",
+   "t": "1534-12-04",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde teyit; ABİ MERKEZ: Bağdat (Dîvâniye'ye özgü tanıklık yok; BEYANLI YAKLAŞIKLIK). t ucu atlas 1534-12-04, TDV Bağdat: Kanûnî 28 Kasım 1534'te şehre girdi — bkz. d:osmanli satırı. TDV ayrıca Tahmasb'ın 1530'da Bağdat'ı ikinci kez aldığını yazıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1623-11-28",
+   "t": "1638-12-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "iç kaleyi Safevîler’e teslim etti (28 Kasım 1623).",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyit (Bağdat iç kalesi teslimi); ABİ MERKEZ: Bağdat, Dîvâniye'ye özgü tanıklık yok. t=1638-12-24 kayıtta TDV murad-iv ile zaten kaynaklı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "irak-kralligi",
+   "f": "1921-08-23",
+   "t": "1958-07-14",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "Irak’ın 23 Ağustos 1921’de bir krallık haline gelmesi üzerine",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde teyit; ÜLKE DÜZEYİ (Irak Krallığı kuruluşu). t=1958-07-14 bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "d",
+   "d": "",
+   "f": "1534-12-04",
+   "t": "1623-11-28",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, BAĞDAT (II. Osmanlı Dönemi, Yusuf Halaçoğlu; Son Dönem, Azmi Özcan) — https://islamansiklopedisi.org.tr/bagdat",
+   "alinti": "Kanûnî de 21 Cemâziyelevvel 941’de (28 Kasım 1534) şehre girdi.",
+   "oneri": {
+    "f": "1534-11-28"
+   },
+   "not": "KARAR EMRELİC (gece-43): TDV 21 Cemâziyelevvel 941 = 1534-11-28 esas (atlas 12-04 düzelir); Karakoyunlu 1410–1467 TDV Bağdat esas; UMIT'in Bağdat kümesine (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn) bağlanır — çift iş yok. Irak kuralı: d osmanli + isg ingiltere → 1921-08-23 s: irak-kralligi. | ABİ MERKEZ: Bağdat. TDV gün veriyor: 28 Kasım 1534 (atlas 12-04). Kanûnî şehre girmeden anahtarlar teslim edilmişti (Mehmed Han ayrıldı). t=1623-11-28 TDV ile teyit (Bekir Subaşı'nın oğlunun iç kaleyi teslimi). Fiilî yönetim girişi: TEK ÖLÇÜ teslim günü = 28 Kasım 1534; Hicrî 21 Cemâziyelevvel 941 beyan edildi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "irak-cumhuriyeti",
+   "f": "1958-07-14",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "bakılmadı (bütçe: Irak'ın erken dönemleri sıralandı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV 21 Cemâziyelevvel 941 = 1534-11-28 esas (atlas 12-04 düzelir); Karakoyunlu 1410–1467 TDV Bağdat esas; UMIT'in Bağdat kümesine (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn) bağlanır — çift iş yok. Irak kuralı: d osmanli + isg ingiltere → 1921-08-23 s: irak-kralligi. | Zayıf atlas sınıfı DIGER; kayıtta Library of Congress Iraq Country Study var. Aranmadı."
+  }
+ ],
+ "Elmalı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "s",
+   "d": "teke",
+   "f": "1321-01-01",
+   "t": "1392-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Sait Kofoğlu, TEKEOĞULLARI, 2011, c.40, s.348-350 — https://islamansiklopedisi.org.tr/tekeogullari ; TDV, Tuncer Baykara, İNANÇOĞULLARI — https://islamansiklopedisi.org.tr/inancogullari",
+   "alinti": "Merkezi Antalya olan Türkmen beyliği (1321-1423).",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV'de 'Elmalı' yer maddesi YOK (LAB PAZAR sayfa.py: /elmali arama sayfasına yönleniyor; İnançoğulları özeti 'önce Isparta-Alâiye, Elmalı'). Sıra: 1261–1368 İnançoğulları, sonra Teke/Hamid; 1402–1415 Karamanoğlu'na veriliş Timur dağıtımı, kaynakla dilim. Beylik maddeleri birlikte ic_not'a. | TDV'de Elmalı maddesi yok (arama: yalnız Elmalılı Muhammed Hamdi vb.). Tekeoğulları 1321 yıl düzeyi ÜLKE DÜZEYİ ama Elmalı'nın dahil olduğuna yer tanıklığı yok (Elmalı Teke sancağı kazası ancak XVI. yy, TDV antalya). İKİ TDV MADDESİ ÇELİŞKİ ADAYI: İnançoğulları başlığı 'Yaklaşık 1261-1368 ... Isparta-Alâiye, Elmalı ... hüküm süren Türkmen beyliği' — Elmalı 1368'e dek İnançoğulları olabilir. Seçmedim; İnançoğulları künyesi atlasta var mı bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "s",
+   "d": "selcuklu",
+   "f": "1281-01-01",
+   "t": "1300-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Tuncer Baykara, İNANÇOĞULLARI — https://islamansiklopedisi.org.tr/inancogullari",
+   "alinti": "Yaklaşık 1261-1368 yılları arasında önce Isparta-Alâiye, Elmalı, daha sonra sadece Denizli çevresinde hüküm süren bir Türkmen beyliği.",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV'de 'Elmalı' yer maddesi YOK (LAB PAZAR sayfa.py: /elmali arama sayfasına yönleniyor; İnançoğulları özeti 'önce Isparta-Alâiye, Elmalı'). Sıra: 1261–1368 İnançoğulları, sonra Teke/Hamid; 1402–1415 Karamanoğlu'na veriliş Timur dağıtımı, kaynakla dilim. Beylik maddeleri birlikte ic_not'a. | Başlık cümlesi: Elmalı İnançoğulları'na bağlı görünüyor (sahip Selçuklu değil olabilir). Tarihler 'yaklaşık'. Kaynak Selçuklu sahipliğini ne doğruluyor ne yalanlıyor; önerilen devir yapılmadı (gövde okunmadı, tek cümle)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "s",
+   "d": "hamid",
+   "f": "1300-01-01",
+   "t": "1321-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV hamidogullari (Elmalı geçmiyor), TDV tekeogullari (Elmalı geçmiyor), TDV elmali (madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV'de 'Elmalı' yer maddesi YOK (LAB PAZAR sayfa.py: /elmali arama sayfasına yönleniyor; İnançoğulları özeti 'önce Isparta-Alâiye, Elmalı'). Sıra: 1261–1368 İnançoğulları, sonra Teke/Hamid; 1402–1415 Karamanoğlu'na veriliş Timur dağıtımı, kaynakla dilim. Beylik maddeleri birlikte ic_not'a. | Bakıldı: Hamîdoğulları ve Tekeoğulları maddelerinde Elmalı adı yok. Teke maddesi: Dündar Bey Antalya dışında kalan bütün bölgeyi idaresi altına aldı (tarihsiz); Hamîd'in Elmalı'ya sahipliği yer tanıklığıyla bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "s",
+   "d": "teke",
+   "f": "1402-07-28",
+   "t": "1423-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Sait Kofoğlu, TEKEOĞULLARI, 2011, c.40, s.348-350 — https://islamansiklopedisi.org.tr/tekeogullari",
+   "alinti": "1402-1415 yılları arasında Antalya ve Alâiye dışında bütün Teke-ili’ne Karamanoğlu II. Mehmed Bey hâkim oldu.",
+   "oneri": {
+    "d": "karaman",
+    "t": "1415"
+   },
+   "not": "KARAR EMRELİC (gece-43): TDV'de 'Elmalı' yer maddesi YOK (LAB PAZAR sayfa.py: /elmali arama sayfasına yönleniyor; İnançoğulları özeti 'önce Isparta-Alâiye, Elmalı'). Sıra: 1261–1368 İnançoğulları, sonra Teke/Hamid; 1402–1415 Karamanoğlu'na veriliş Timur dağıtımı, kaynakla dilim. Beylik maddeleri birlikte ic_not'a. | ÜLKE DÜZEYİ: Antalya ve Alâiye dışı Teke-ili 1402-1415 Karamanoğlu → Elmalı bu bölgede ise teke satırı çelişir. 1415-1423 arası sahip belirsiz (Osmanlı'nın Antalya subaşısı, Osman Çelebi İstanoz). Elmalı özelinde tanıklık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "d",
+   "d": "",
+   "f": "1392-01-01",
+   "t": "1402-07-28",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Sait Kofoğlu, TEKEOĞULLARI, 2011, c.40, s.348-350 — https://islamansiklopedisi.org.tr/tekeogullari",
+   "alinti": "Bazı araştırmalarda 1390-1392 yılları esas alınmıştır.",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): TDV'de 'Elmalı' yer maddesi YOK (LAB PAZAR sayfa.py: /elmali arama sayfasına yönleniyor; İnançoğulları özeti 'önce Isparta-Alâiye, Elmalı'). Sıra: 1261–1368 İnançoğulları, sonra Teke/Hamid; 1402–1415 Karamanoğlu'na veriliş Timur dağıtımı, kaynakla dilim. Beylik maddeleri birlikte ic_not'a. | İKİ AKADEMİK TARİH ÇELİŞKİSİ (ÜLKE DÜZEYİ, TDV içinde): Hoca Sâdeddin 793 (1391); 'bazı araştırmalar 1390-1392'; Barbara Flemming 1397-1399 arası; Şükrullah 1391. Seçmedim. Kayıttaki 1392-01-01 güne dayanmıyor (gün yok). Elmalı özelinde tanıklık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2007",
+   "alan": "d",
+   "d": "",
+   "f": "1423-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, Sait Kofoğlu, TEKEOĞULLARI, 2011, c.40, s.348-350 — https://islamansiklopedisi.org.tr/tekeogullari",
+   "alinti": "Ocak 1423’te Antalya’nın muhasarası ile başlayan ve Osman Çelebi’nin öldürülmesiyle sona eren bu olayların neticesinde Hamîdoğulları Beyliği’nin bütün arazileri Osmanlılar’ın eline geçti.",
+   "oneri": {},
+   "not": "f ucu YIL (olay Ocak 1423'te başlar, bitiş günü verilmez) ÜLKE DÜZEYİ; ayrıca TDV antalya: Elmalı XVI. yy Teke sancağının altı kazasından biri. Elmalı özelinde 1423 tanıklığı yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Simav": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1961",
+   "alan": "s",
+   "d": "germiyan",
+   "f": "1300-01-01",
+   "t": "1381-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, GERMİYANOĞULLARI — https://islamansiklopedisi.org.tr/germiyanogullari",
+   "alinti": "1300 yıllarında bağımsızlığını kazandığı anlaşılan Yâkub Bey",
+   "oneri": {},
+   "not": "f ucu YIL düzeyi, ÜLKE DÜZEYİ (beyliğin bağımsızlığı). Simav özelinde: TDV 1304'te Bizanslılardan 'Simav yakınlarındaki Angir’i (Hisarköy)' fethedildiğini yazar (Simav çevresinin bu tarihten önce Germiyan'da olduğu kesin değil). t=1381 aşağıdaki d:osmanli satırında Simav adıyla teyit."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1961",
+   "alan": "s",
+   "d": "selcuklu",
+   "f": "1281-01-01",
+   "t": "1300-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, GERMİYANOĞULLARI — https://islamansiklopedisi.org.tr/germiyanogullari",
+   "alinti": "Selçuklu hâkimiyetini tanıdıkları anlaşılmaktadır.",
+   "oneri": {},
+   "not": "alıntı (699/1299 tamir kitâbesi: Germiyanlılar Ankara'ya kadar uzandı, Selçuklu'yu tanıdı) yalnız t ucuna (Germiyan bağımsızlığı ~1300) bakıyor; f=1281 teyitsiz; Simav özelinde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1961",
+   "alan": "s",
+   "d": "germiyan",
+   "f": "1402-07-28",
+   "t": "1429-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, GERMİYANOĞULLARI — https://islamansiklopedisi.org.tr/germiyanogullari",
+   "alinti": "1402’de Ankara Savaşı’ndan sonra eski toprakları kendilerine verilen Anadolu beylerinden biri de Yâkub Bey idi.",
+   "oneri": {},
+   "not": "f ucu YIL düzeyi; 1402-07-28 Ankara Savaşı günüdür, TDV iade günü vermez (Timur sonra Kütahya'ya gelip bir süre kaldı). Simav özelinde tanıklık yok, ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1961",
+   "alan": "d",
+   "d": "",
+   "f": "1381-01-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, GERMİYANOĞULLARI — https://islamansiklopedisi.org.tr/germiyanogullari",
+   "alinti": "Kütahya, Simav, Eğrigöz (Emet) ve Tavşanlı’yı çeyiz olarak Osmanlılar’a vermesi",
+   "oneri": {},
+   "not": "f ucu YIL (1381 düğünü), Simav ADIYLA geçer. TDV ayrıca: 'Bayezid Kütahya’ya idareci olarak gönderildi' (1381) ve '1390 yılında bütün Germiyan toprakları Osmanlılar’ın idaresi altına girdi' — çeyiz devri ile 1390 tam ilhak ayrımı beyan edilir. ÖLÇÜT: idareye katma (idareci gönderildi). t=1402-07-28 için TDV: Ankara sonrası iade (yıl 1402). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1961",
+   "alan": "d",
+   "d": "",
+   "f": "1429-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, GERMİYANOĞULLARI — https://islamansiklopedisi.org.tr/germiyanogullari",
+   "alinti": "Kütahya’ya dönen Yâkub Bey bir yıl sonra vefat ederek yaptırmış olduğu imaret mescidinin içine defnedildi.",
+   "oneri": {},
+   "not": "f ucu YIL, ÇIKARIM: Yâkub Bey 1428'de Edirne'de II. Murad'a memleketi vasiyet etti, 'bir yıl sonra' öldü = 1429 (TDV yılı açık yazmaz; kaynakça 'Germiyanoğulları Tarihi: 1300-1429'). ÜLKE DÜZEYİ; Simav adıyla geçmez. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Ermenek": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1988",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1281-01-01",
+   "t": "1397-07-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, KARAMANOĞULLARI (Faruk Sümer; M. Baha Tanman) — https://islamansiklopedisi.org.tr/karamanogullari",
+   "alinti": "Mehmed Bey, Şemseddin lakabıyla Ermenek subaşılığına getirildi",
+   "oneri": {},
+   "not": "Ermenek ADIYLA: 675/1276 Mehmed Bey Ermenek subaşısı (kayıtta zaten 1276-06-15 satırı var; birleştirme önerisi mevcut). 1380: TDV 'Karamanlı ülkesi ... Mut, Ermenek ...' sayar. t=1397: TDV Alâeddin Bey Konya'da yenildi (800/1397), 'İç İl müstesna bütün Karaman-ili Osmanlı topraklarına katıldı' — Ermenek İç İl'e dahil mi belirsiz (Mehmed Bey 'İç İl'i idaresi altına aldı'), gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1988",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1402-07-28",
+   "t": "1402-09-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, KARAMANOĞULLARI (Faruk Sümer; M. Baha Tanman) — https://islamansiklopedisi.org.tr/karamanogullari",
+   "alinti": "Ankara Savaşı’ndan (1402) sonra Timur Karamanlı ülkesini Kayseri",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): Timurlu 1402 satırı kaynaksız → ONERI. | TDV Timur'un Karaman ülkesini Mehmed ve Ali beylere VERDİĞİNİ yazar; Timurlu doğrudan hâkimiyeti yazmaz. Timurlu satırı kaynakça desteklenmiyor (kaldırma/kısaltma önerisi, Emre kararı). 09-15 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1988",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1402-09-15",
+   "t": "1468-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, KARAMANOĞULLARI (Faruk Sümer; M. Baha Tanman) — https://islamansiklopedisi.org.tr/karamanogullari",
+   "alinti": "Ankara Savaşı’ndan (1402) sonra Timur Karamanlı ülkesini Kayseri",
+   "oneri": {},
+   "not": "f ucu YIL, ÜLKE DÜZEYİ (Karaman ülkesinin iadesi); 09-15 gün teyitsiz. t=1468 ÇELİŞKİ: bkz. d:osmanli 1468 satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1988",
+   "alan": "d",
+   "d": "",
+   "f": "1397-07-01",
+   "t": "1402-07-28",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, KARAMANOĞULLARI (Faruk Sümer; M. Baha Tanman) — https://islamansiklopedisi.org.tr/karamanogullari",
+   "alinti": "İç İl müstesna bütün Karaman-ili Osmanlı topraklarına katıldı",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): Osmanlı f 1474 (TDV Karamanoğulları) uygun. | ÜLKE DÜZEYİ, YIL (800/1397-1398); gün yok. Ermenek İç İl (Silifke-Mut-Ermenek) ise istisna dışı olabilir → f=1397 Ermenek için şüpheli. Özel tanıklık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1988",
+   "alan": "d",
+   "d": "",
+   "f": "1468-01-01",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, KARAMANOĞULLARI (Faruk Sümer; M. Baha Tanman) — https://islamansiklopedisi.org.tr/karamanogullari",
+   "alinti": "Osmanlı seferi 1474’te başarıyla sonuçlandı ve Karaman Beyliği tam anlamıyla kontrol altına alındı.",
+   "oneri": {
+    "f": "1474"
+   },
+   "not": "KARAR EMRELİC (gece-43): Osmanlı f 1474 (TDV Karamanoğulları) uygun. | ÜLKE DÜZEYİ. 1468 Nisan'da Gevele ve Konya alındı; Pîr Ahmed 'Karaman-ili’nin Toroslar bölgesini' (Ermenek bu bölgede) elinde tuttu; dağlık bölge ve İç İl 1474 seferiyle. ÖLÇÜT: idareye katma (kontrol altına alındı); Ermenek özelinde gün yok, 1474 yıl. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Akçakoca": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2024",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1309-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV candarogullari, TDV akca-koca, TDV akcakoca arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Akçakoca yerleşimi maddesi yok; Akça Koca maddesi: Akçakoca ilçesi onun adını taşır, 'Kandıra’yı ve civarını 1326’ya doğru' zaptetti (Osmanlı uç beyi, Kocaeli yöresi) — Düzce Akçakoca'sının Candar/Bizans sahipliği kaynakla bulunamadı. Atlasın Akçakoca=Candar (1309) hipotezi sorgulanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2024",
+   "alan": "s",
+   "d": "candar",
+   "f": "1309-01-01",
+   "t": "1392-11-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "TDV, CANDAROĞULLARI — https://islamansiklopedisi.org.tr/candarogullari",
+   "alinti": "Candaroğulları Beyliği’nin Kastamonu şubesi Osmanlı Devleti topraklarına katılmış oldu (1392).",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): Candaroğulları 1309 kaynaksız → BULUNAMADI; Kandıra ~1326 başka yer, karıştırılmaz. | alıntı yalnız t ucunu tarihliyor (YIL 1392, ay yok); f=1309: TDV 'Şemseddin Yaman muhtemelen 1308 yılında ölmüş', oğlu Süleyman Kastamonu ve Safranbolu'yu aldı (tarihsiz). Akçakoca özelinde yok, ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2024",
+   "alan": "s",
+   "d": "candar",
+   "f": "1402-07-28",
+   "t": "1461-06-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV, CANDAROĞULLARI — https://islamansiklopedisi.org.tr/candarogullari",
+   "alinti": "Kastamonu dahil beyliğin eski topraklarına tekrar sahip olan İsfendiyar Bey’e",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): Candaroğulları 1309 kaynaksız → BULUNAMADI; Kandıra ~1326 başka yer, karıştırılmaz. | f ucu YIL (Ankara 1402 sonrası), ÜLKE DÜZEYİ; 07-28 Ankara Savaşı günü, TDV iade günü vermez. Akçakoca'nın bu topraklarda olduğu teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2024",
+   "alan": "d",
+   "d": "",
+   "f": "1392-11-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, CANDAROĞULLARI — https://islamansiklopedisi.org.tr/candarogullari",
+   "alinti": "Candaroğulları Beyliği’nin Kastamonu şubesi Osmanlı Devleti topraklarına katılmış oldu (1392).",
+   "oneri": {},
+   "not": "f ucu YIL, ÜLKE DÜZEYİ (Kastamonu şubesi); ay (11) teyitsiz; Akçakoca'nın Kastamonu şubesinde olup olmadığı yer tanıklığıyla bulunamadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2024",
+   "alan": "d",
+   "d": "",
+   "f": "1461-06-01",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, CANDAROĞULLARI — https://islamansiklopedisi.org.tr/candarogullari",
+   "alinti": "İsmâil Bey’in yerine Candaroğulları’nın başına 1461 yılında Osmanlı himayesinde Kızıl Ahmed Bey geçti.",
+   "oneri": {},
+   "not": "TDV ilhak yılı/ayı vermiyor: 1461'de Osmanlı himayesinde Kızıl Ahmed, kısa sürede Fâtih ilhak etti (ilhak ≥1461). Gün teyitsiz → f yıl düzeyinde (1461) kalır, 06-01 teyitsiz. ÜLKE DÜZEYİ. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Gulpâygân": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2136",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, İLHANLILAR — https://islamansiklopedisi.org.tr/ilhanlilar",
+   "alinti": "Ebû Said 1335 yılında henüz otuz yaşında iken ölmüş veya zehirlenerek öldürülmüştür",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (YIL 1335; gün/ay yok) tarihliyor; f=1281 teyitsiz. ÜLKE DÜZEYİ. TDV: ilhan listesi Nûşirevân 745-754 (1344-1353)'e kadar sürer, Ebû Said sonrası 'mahallî hânedanlar'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2136",
+   "alan": "s",
+   "d": "incu",
+   "f": "1335-12-01",
+   "t": "1357-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MUZAFFERÎLER — https://islamansiklopedisi.org.tr/muzafferiler",
+   "alinti": "İsfahan’da yakalayarak öldürttü ve bu hânedanı ortadan kaldırdı (758/1357).",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (Muzafferî Mübârizüddin'in İncû Ebû İshak'ı yenip İncû hânedanını ortadan kaldırması, YIL 1357) tarihliyor. f: TDV 'Ebû Said’in vâris bırakmadan ölümü İlhanlı Devleti’nin parçalanmasına ... yol açtı' — İncû'nun Gulpâygân'a hâkimiyeti 1335'te teyitsiz. Gulpâygân Isfahan çevresi (Irak-ı Acem): ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2136",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1357-01-01",
+   "t": "1387-11-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MUZAFFERÎLER — https://islamansiklopedisi.org.tr/muzafferiler",
+   "alinti": "Irak’ın büyük bir kısmı ile Fars bölgesinin hâkimi oldu.",
+   "oneri": {},
+   "not": "f ucu YIL 1357 (aynı yıl İncû'yu ortadan kaldırdı), ÜLKE DÜZEYİ; Gulpâygân adı geçmez. t=1387-11: TDV Muzafferîler 1393'e kadar sürer (795/1393); Timur 1387'de Isfahan'ı aldıysa — TDV Timur maddesinde 1387 bakılmadı. Gulpâygân özelinde BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2136",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1387-11-01",
+   "t": "1452-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV timur (Şîraz 1393 geçer; İsfahan 1387 günü okunmadı), TDV muzafferiler",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV: Timur 'Şîraz’a varıp Muzafferîler hânedanına son verdi (795/1393)' → Fars için 1393; Gulpâygân/Isfahan hattı için 1387-11 TDV'de bulunamadı. Uç: Celâyirli/Muzafferî arası Isfahan'ın 1387 sonrası sahipliği ayrıca araştırılmalı."
+  }
+ ],
+ "Ras el-Hayme (Cülfâr)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2298",
+   "alan": "s",
+   "d": "umman",
+   "f": "1622-05-01",
+   "t": "1820-01-08",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Iranica, Britannica denendi; ipucu: rakheritage.rak.ae (okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): 1633 yalnız arama özeti → ONERI; Ya'rubî künye f ile karşılaştır; Iranica 'Julfar' ya da Peterson ile teyit. | Bakılan: TDV (ras-ulhayme, kavasim arama: madde yok), Iranica julfar/ras-al-khayma (404), Britannica (403). WebSearch arama özeti (okunmadı, ipucu): RAK Heritage sitesi Ya'rubî'lerin Portekizlileri Julfar'dan 1633'te çıkardığını, Portekiz kalesinin ~1631 yapıldığını yazıyor (resmî kurum sayfası, okunmadı) — atlas umman f=1622 ile çelişebilir. Ayrıca Qawasim (Kasımî) hakimiyeti Ras el-Hayme'de 18. yy'da egemen — Umman sahipliği şüpheli (kaynak okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2298",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1820-01-08",
+   "t": "1972-02-10",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "TDV BAE maddesi kayıtta; yeniden okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): 1633 yalnız arama özeti → ONERI; Ya'rubî künye f ile karşılaştır; Iranica 'Julfar' ya da Peterson ile teyit. | Kayıttaki alıntı genel deniz antlaşması 1820'yi söyler (ülke/şeyhlik düzeyi); Ras el-Hayme 1820 antlaşması imzacısı Qasimi şeyhidir. Ingiltere 'sahibi' mi himaye mi (v:) sorusu: TAHRİR ÖLÇÜTÜ — antlaşma himaye, s:ingiltere olmayabilir; kaynakla bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2298",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Iranica, Britannica denendi",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): 1633 yalnız arama özeti → ONERI; Ya'rubî künye f ile karşılaştır; Iranica 'Julfar' ya da Peterson ile teyit. | Bakılan: TDV (ras-ulhayme, kavasim arama: madde yok), Iranica julfar/ras-al-khayma (404), Britannica (403). WebSearch arama özeti (okunmadı, ipucu): RAK Heritage sitesi Ya'rubî'lerin Portekizlileri Julfar'dan 1633'te çıkardığını, Portekiz kalesinin ~1631 yapıldığını yazıyor (resmî kurum sayfası, okunmadı) — atlas umman f=1622 ile çelişebilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2298",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1515-04-01",
+   "t": "1622-05-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, Iranica, Britannica denendi",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-43): 1633 yalnız arama özeti → ONERI; Ya'rubî künye f ile karşılaştır; Iranica 'Julfar' ya da Peterson ile teyit. | Bakılan: TDV (ras-ulhayme, kavasim arama: madde yok), Iranica julfar/ras-al-khayma (404), Britannica (403). WebSearch arama özeti (okunmadı, ipucu): RAK Heritage sitesi Ya'rubî'lerin Portekizlileri Julfar'dan 1633'te çıkardığını, Portekiz kalesinin ~1631 yapıldığını yazıyor (resmî kurum sayfası, okunmadı) — atlas umman f=1622 ile çelişebilir. Hürmüz'ün 1515 Portekiz egemenliği ile Ras el-Hayme (Cülfâr) ayrı konudur."
+  }
+ ],
+ "Râmhürmüz": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2155",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, İLHANLILAR — https://islamansiklopedisi.org.tr/ilhanlilar",
+   "alinti": "Ebû Said 1335 yılında henüz otuz yaşında iken ölmüş veya zehirlenerek öldürülmüştür",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (YIL 1335) tarihliyor, ÜLKE DÜZEYİ. Iranica Râmhormoz maddesi (okundu) hanedan kronolojisi vermiyor: 'Mostawfi'ye göre 14. yy'da hâlâ gelişkin bir merkezdi'; 18-19. yy'da halk Fars ile Hûzistan arasında sadakat değiştirdi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2155",
+   "alan": "s",
+   "d": "lur-i-buzurg",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, RĀMHORMOZ — https://www.iranicaonline.org/articles/ramhormoz/ ; TDV muzafferiler/ilhanlilar (Lur-i Büzürg geçmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: Iranica ramhormoz (hanedan sahipliği yok), TDV İlhanlılar/Muzafferîler (Lur-i Büzürg Atabegliği geçmez). Muzafferî 1393 sonu için TDV bulundu ama Râmhürmüz'e özgü değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2155",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1508-01-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, RĀMHORMOZ — https://www.iranicaonline.org/articles/ramhormoz/ ; TDV bagdat",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Bağdat: Safevî 1508 (Irak-ı Arab); Râmhürmüz (Hûzistan) için Safevî devri bulunamadı; Iranica sayfasında yok."
+  }
+ ],
+ "Erâk (Sultânâbâd)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2135",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1808-01-01",
+   "t": "1925-10-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, ARĀK — https://www.iranicaonline.org/articles/arak/",
+   "alinti": "The present town was founded in 1223/1808 by the general Yūsof Khan Gorǰī",
+   "oneri": {},
+   "not": "f ucu YIL (şehrin kuruluşu 1223/1808; sahibi Kaçar kayda geçmedi — 'Yūsof Khan Gorǰī' general; sayfada Kaçar adı bu cümlede yok). Kayıttaki DEVRALMA ile aynı kaynak; sayfa.py ile birebir okundu."
+  }
+ ],
+ "Bender Abbas (Gamrûn)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2171",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1622-04-23",
+   "t": "1736-03-08",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, HORMUZ ii. Islamic Period — https://www.iranicaonline.org/articles/hormuz-ii/ ; BANDAR-E ʿABBĀS i — https://www.iranicaonline.org/articles/bandar-e-abbasi/",
+   "alinti": "Emāmqoli Khan, was able to take Qešm and Hormuz in 1622 after a fierce battle.",
+   "oneri": {},
+   "not": "Alıntı Hürmüz'ün alınışını (1622, yıl) tarihliyor; Bandar-ı Abbâs'ın kuruluşu bunun hemen ardından (Şah Abbas yeni limanı Gamru'da kurdu, adını verdi). Gün (04-23) kaynakta yok. Iranica: 'in 1614 Gamru (Gombron), the last foothold of the Portuguese on the Persian mainland' (1614/1615 çelişkisi) — Gamru Safevî'ye 1622'den önce geçmiş olabilir. t: Iranica 1736'da Nâder Şah'ın limanı donanımıyla ilgilendiğini yazar, devir tarihi değil. ÜLKE/LİMAN düzeyi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Lâr": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2177",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1340-01-01",
+   "t": "1393-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MUZAFFERÎLER — https://islamansiklopedisi.org.tr/muzafferiler",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393).",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (YIL 1393) tarihliyor; ÜLKE DÜZEYİ. TDV Timur maddesi de 'Şîraz’a varıp Muzafferîler hânedanına son verdi (795/1393)'. f=1340 ve Lâr'a özgü tanıklık yok (TDV Muzafferîler maddesinde Lâr geçmiyor; arama 'Lâr' YOK)."
+  }
+ ],
+ "Ebrekûh": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2183",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, İLHANLILAR — https://islamansiklopedisi.org.tr/ilhanlilar",
+   "alinti": "Ebû Said 1335 yılında henüz otuz yaşında iken ölmüş veya zehirlenerek öldürülmüştür",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (YIL 1335) tarihliyor, ÜLKE DÜZEYİ; f teyitsiz. TDV Muzafferîler: Muzaffer 'Merv-Eberkûh arasındaki yolların güvenliğiyle görevlendirildi' (Olcaytu, 1304-1316) — Eberkûh adı geçiyor, İlhanlı idaresi altında, ama Yezd yöresindeki Ebrekûh mü Merv hattındaki mi belirsiz; TDV/Iranica Abarqūh maddesi sahiplik vermiyor."
+  }
+ ],
+ "Rafsencân": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2191",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "TDV rafsancan (madde yok, arama), TDV muzafferiler/ilhanlilar (Rafsancan geçmiyor), Iranica rafsanjan (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rafsencân Kirman bölgesinde; Kirman'ın İlhanlı döneminde Kutluğhanlılar elinde (TDV Muzafferîler: 'Kutluğhanlılar’dan bir prensesle evlenip Kirman eyaletini kattı' 1357) olduğuna dair ip ucu var — İlhanlı doğrudan sahipliği yer tanıklığıyla bulunamadı. ÜLKE DÜZEYİ t=1335 için bkz. İlhanlılar (Ebû Said 1335)."
+  }
+ ],
+ "Bempûr": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2197",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "TDV bempur (madde yok), Iranica bampur (okundu: hanedan kronolojisi yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bempûr (Belucistan): İlhanlı egemenliği yer tanıklığı yok; Iranica Bampur maddesi (2367 karakter) hanedan sahipliği vermiyor. ÜLKE DÜZEYİ İlhanlı sonu 1335 (TDV İlhanlılar) için Gulpâygân satırına bakınız ama Bempûr'un İlhanlı sınırında olup olmadığı belirsiz."
+  }
+ ]
+}

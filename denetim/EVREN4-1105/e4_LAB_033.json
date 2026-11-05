@@ -1,0 +1,662 @@
+{
+ "Karviná (Fryštát)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "bohemya",
+   "f": "1281-01-01",
+   "t": "1526-12-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV; history.state.gov/countries/czechoslovakia; web arama (yalnız Vikipedi/Britannica)",
+   "alinti": "",
+   "oneri": {},
+   "not": "arama özeti yalnız Vikipedi/Britannica(403) verdi, okunmuş kabul edilen kaynak yok; bakılan: TDV (kapsamıyor), history.state.gov czechoslovakia (Münih/Těšín yok). Not: Fryštát Těšín Dükalığı'ndadır; Bohemya Tacı'na bağlılık 1327 civarı — kaynakla okunmadı, 1281 f ucu Piast dönemine denk düşebilir (doğrulanmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1920-07-28",
+   "t": "1938-10-08",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama (yalnız Vikipedi/Britannica)",
+   "alinti": "",
+   "oneri": {},
+   "not": "arama özeti yalnız Vikipedi/Britannica(403) verdi, okunmuş kabul edilen kaynak yok; bakılan: TDV (kapsamıyor), history.state.gov czechoslovakia (Münih/Těšín yok). 1920-07-28 Büyükelçiler Konferansı kararı yalnız arama özetinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1938-10-08",
+   "t": "1939-10-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama (yalnız Vikipedi/Britannica)",
+   "alinti": "",
+   "oneri": {},
+   "not": "arama özeti yalnız Vikipedi/Britannica(403) verdi, okunmuş kabul edilen kaynak yok; bakılan: TDV (kapsamıyor), history.state.gov czechoslovakia (Münih/Těšín yok). Arama özeti: 1938 Ekim başı (1/2/8 Ekim farklı); gün seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "isg",
+   "d": "almanya",
+   "f": "1939-09-02",
+   "t": "1939-10-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "arama özeti yalnız Vikipedi/Britannica(403) verdi, okunmuş kabul edilen kaynak yok; bakılan: TDV (kapsamıyor), history.state.gov czechoslovakia (Münih/Těšín yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1939-10-06",
+   "t": "1945-05-03",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "arama özeti yalnız Vikipedi/Britannica(403) verdi, okunmuş kabul edilen kaynak yok; bakılan: TDV (kapsamıyor), history.state.gov czechoslovakia (Münih/Těšín yok). ÖLÇÜT açık değil (ilhak 1939-10-06)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1945-05-03",
+   "t": "1993-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/czech-republic",
+   "alinti": "Czechia was established on January 1, 1993, out of the former Czech and Slovak",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (FRUS sayfası: ÇSFC 31 Aralık 1992'de sona erdi); f 1945-05-03 kaynaksız (BULUNAMADI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "cekya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/czech-republic",
+   "alinti": "Czechia was established on January 1, 1993, out of the former Czech and Slovak",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ (devletin resmî tarih yayını); künye cekya f 1993-01-01."
+  }
+ ],
+ "Kangaba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:425",
+   "alan": "s",
+   "d": "bambara",
+   "f": "1650-01-01",
+   "t": "1861-03-10",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV mali; history.state.gov/countries/mali",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | 1861-03-10 Ségou'nun el-Hâc Ömer'e düşüş günüdür (arama özeti, okunmuş kaynak değil), Kangaba'ya özgü değil; Kangaba'nın Segu'ya bağlılığı da kaynaksız. SORUN: bambara t=fransa f=1861 Kangaba için Fransız egemenliği anlamına gelemez (TDV Mali: Fransız işgali 1878-1890)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:425",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1861-03-10",
+   "t": "1960-06-20",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/mali",
+   "alinti": "the Federation of Mali (composed of the Republic of Senegal and the Soudanese Republic) attained independence",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | alıntı yalnız t ucunu tarihliyor (1960-06-20). f=1861 hatalı görünüyor: TDV Mali 'Nijer nehriyle Senegal nehri arasındaki topraklar 1878-1890 yılları arasında Fransa tarafından ele geçirildi'; Segu 1890; Kangaba'ya özgü tanık yok. Arada Tukulor/Samori dönemi olabilir (kaynaksız). Fransız f ucu yeniden araştırılmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:425",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-09-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/mali",
+   "alinti": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | f ucu gün düzeyinde; ÜLKE DÜZEYİ. t (1960-09-22): TDV 'iki ay sonra Senegal de federasyondan çekilme kararı aldı' (ay düzeyi), Mali Devleti 22 Eylül."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:425",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/mali",
+   "alinti": "22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti’nin",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | f ucu gün düzeyinde; ÜLKE DÜZEYİ; künye mali f aynı gün."
+  }
+ ],
+ "Kapuas Hulu (bölge)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:296",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1895-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV endonezya; (zincirdeki Sellato/Nieuwenhuis kaydı okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Üst Kapuas Dayak/Malay yönetimleri için TDV susuyor; BOSLUK 1281-1895 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:296",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1895-01-01",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV endonezya (Hollanda dönemi yalnız ülke düzeyi); KalbarOnline kayıtlı kaynak akademik değil",
+   "alinti": "",
+   "oneri": {},
+   "not": "1895 Boven Kapoeas alt bölgesi kararı akademik teyit bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:296",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle",
+   "oneri": {
+    "alan": "isg",
+    "f": "1942-03"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | ÖLÇÜT: geçici/askerî — savaş işgali, devir/ilhak yok (TDV: Japon askerî idaresi). TDV ay düzeyi; atlas 1942-03-09 Java teslim günü ülke düzeyi, Kapuas Hulu'ya özgü gün yok. Alan s→isg japonya (meiji-japonya) önerilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:296",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ; devir günü. history.state.gov Endonezya sayfası 1949-12-28 verir (tanıma günü), çelişki değil. Not: TDV 'Endonezya'nın 17 Ağustos 1945'te bağımsızlık ilân ettiği'ni yazar; Kapuas Hulu Cumhuriyet denetiminde olmadığı için Hollanda s: 1945-09-02→1949-12-27 korunur."
+  }
+ ],
+ "Kadârif": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:907",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Func'un Alve'ye karşı çıkışı, yıl). f=1281 (Nûbe künye f 0543) sınır kaynaksız; Kadârif'in 1504 öncesi Alve/Nûbe'ye aidiyeti okunmadı (Gedaref bölgesi Alve sınırında olabilir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:907",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı",
+   "oneri": {},
+   "not": "f ucu AY düzeyinde (gün 06-14 teyitsiz); ÜLKE/BÖLGE DÜZEYİ (Func başkenti Sennâr); Kadârif'e özgü tanık yok. t=1885-01-26 bu alıntıyla teyit edilmedi (Gedaref'in Mehdîlere düşüş günü bulunamadı; Hartum'un düşüşü ülke düzeyi). Girdide v kaydının d alanı boş; hedef satırdaki 'misir-kavalali' yazıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:907",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/sudan",
+   "alinti": "The United States recognized the Republic of Sudan on January 1, 1956",
+   "oneri": {},
+   "not": "alıntı bağımsızlığı değil ABD tanımasını tarihliyor (aynı gün, 'Sudan previously had been subject to foreign control under an Anglo-Egyptian condominium'); bağımsızlık günü açıkça yazılmadığından KAYNAKLI verilmedi. Sudan parlamentosu kararı 1955-12-19 (zincirdeki kayıt, okunmadı)."
+  }
+ ],
+ "Kala-i Vamar (Rûşan)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:179",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1883-01-01",
+   "t": "1895-03-11",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.iranicaonline.org/articles/darvaz/",
+   "alinti": "which ultimately led to the partition of Darvāz in 1310/1893 and again in 1313/1895",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Gunt ile aynı teslim olayına (Afgan tahliyesi) hizalanacak; iki imza (1893, 1895-03-11) ic_not. | KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | alıntı yalnız t ucunu (Rōšān'ın Rusya ve vassalı Buhara'ya geçişi, hicrî 1310/1893 ve 1313/1895) tarihliyor; gün yok. Atlas t=1895-03-11 (Pamir sınır anlaşması) kaynakla okunmadı. 1893 mi 1895 mi: Iranica iki bölüşme yazar. f=1883 kaynaksız (Iloliev 2021 okunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:179",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1905-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Iranica darvaz (Rusya doğrudan değil 'Russia and its vassal Bukhara' der)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Gunt ile aynı teslim olayına (Afgan tahliyesi) hizalanacak; iki imza (1893, 1895-03-11) ic_not. | KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | Rusya doğrudan egemenliği 1905-01-01 (Morrison CUP 2020) okunamadı; Iranica Rōšān'ın Buhara'ya (vassal) gittiğini söyler, doğrudan Rus egemenliği tarihi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:179",
+   "alan": "s",
+   "d": "tacikistan",
+   "f": "1991-09-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/tacikistan",
+   "alinti": "9 Eylül 1991’de Tacikistan Yukarı Parlamentosu bir deklarasyon yayımlayarak",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Gunt ile aynı teslim olayına (Afgan tahliyesi) hizalanacak; iki imza (1893, 1895-03-11) ic_not. | KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | f ucu gün düzeyinde; ÜLKE DÜZEYİ; bağımsızlık ilanı günü (Sovyet ardılı kuralı: SSCB sonu 1991-12-26, tanınma Aralık 1991)."
+  }
+ ],
+ "Kaşev (Cacheu)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:409",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1588-01-01",
+   "t": "1879-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "bu yerleşim için Portekiz f=1588 (Cacheu kuruluşu) aranmadı; bütçe/tek kaynak turu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:409",
+   "alan": "s",
+   "d": "portekiz-gine",
+   "f": "1879-01-01",
+   "t": "1974-09-10",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Portekiz Ginesi ayrı koloni 1879 aranmadı. Not: 1879 künye f; Cacheu kuruluşu-egemenlik ayrımı için TDV kapsamıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:409",
+   "alan": "s",
+   "d": "gine-bissau",
+   "f": "1974-09-10",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/guinea-bissau",
+   "alinti": "The United States recognized the Republic of Guinea-Bissau on September 10, 1974",
+   "oneri": {},
+   "not": "alıntı ABD tanımasını tarihliyor (Portekiz tanıma gününe denk: Cezayir Anlaşması sonrası devir); bağımsızlık/devir açıkça yazılmadığı için ONERI. TEK ÖLÇÜ: Cacheu Portekiz denetiminde olduğundan teslim günü esas; kaynak teslim gününü ayrıca vermedi."
+  }
+ ],
+ "Kiffa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:188",
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV moritanya (1909 ve Kiffa için YOK)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Emirlikler dönemi 1640-1909 kaynaksız; TDV: 'Fransızlar’ın 1854’te girişi, içlere nüfuz XX. yüzyıl başı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:188",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (gün). f=1909: TDV 'ülkenin içlerine doğru nüfuz etmeleri XX. yüzyılın başlarında' — Kiffa/1909 gün/yıl yok; BULUNAMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:188",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ; history.state.gov Mauritania aynı gün tanıma."
+  }
+ ],
+ "Kala-i Pençe (Vahan)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:196",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1775-01-01",
+   "t": "1883-08-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Iranica darvaz (Vahan yok); Iranica wakhan 404; Iloliev 2021 erişilemedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Gunt ile aynı teslim olayına (Afgan tahliyesi) hizalanacak; iki imza (1893, 1895-03-11) ic_not. | KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | Vahan mîrliği 1775-1883 sahipsizliği kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:196",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1883-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Iranica darvaz; TDV afganistan (Vahan yalnız coğrafya); Iloliev 2021 (Putyata 1884) erişilemedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Gunt ile aynı teslim olayına (Afgan tahliyesi) hizalanacak; iki imza (1893, 1895-03-11) ic_not. | KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | 1883-08-15 Afgan garnizonu kayıtlı kaynakta; okunamadı. Iranica Darvāz: 1893/1895 bölüşmeleri Wakhan'ı anmaz."
+  }
+ ],
+ "Kalaw": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:331",
+   "alan": "s",
+   "d": "san-devletleri",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV myanmar; history.state.gov burma (Şan beylikleri/1923 yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Şan beylikleri ile 1923-10-29 ingiliz-burma f gerekçesi kaynaksız; Kalaw Federated Shan States (1922) içinde olabilir, doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:331",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1923-10-29",
+   "t": "1948-01-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/burma",
+   "alinti": "The United States recognized the Union of Burma as an “independent sovereign state” on January 4, 1948",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (ABD tanıması, bağımsızlık günü açık değil). f=1923-10-29 kaynaksız."
+  }
+ ],
+ "Kangamba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1649",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV (kapsamıyor); countrystudies.us/angola/8.htm (Kasanje/Matamba)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Ovimbundu 1700-1902 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1649",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ). f=1902 kaynaksız."
+  }
+ ],
+ "Karaçi": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:664",
+   "alan": "s",
+   "d": "sind",
+   "f": "1729-01-01",
+   "t": "1839-02-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/sind",
+   "alinti": "nihayet 1843’te imparatorluğun Bombay eyaletine bağlandı",
+   "oneri": {
+    "t": "1843"
+   },
+   "not": "KARAR EMRELİC (gece-100): TAHRİR: isg ingiltere 1839-02 (donanmanın alışı; gün kaynakla, yoksa ay beyanı), altında s: sind (Talpur) 1843 ilhakına dek; sonra s: ingiltere (zincirdeki kimlik). İlhak 1843 ile Bombay'a bağlanma (yaygın 1847) ayrı; TDV '1843 Bombay' cümlesinin neyi tarihlediği okunacak. | alıntı yalnız t ucunu tarihliyor ve çelişki var: TDV Karaçi 'Manora 1795 Talpur kalesi; 1839’da şehre İngilizler hâkim oldular' (yıl); TDV Sind 'Bombay eyaletine bağlandı 1843' (BÖLGE DÜZEYİ). TAHRİR ÖLÇÜTÜ: idareye katma = 1843; 1839-1843 isg ingiltere olabilir — Emre kararı gerek. İki TDV maddesi: Karaçi→1839, Sind→1843; seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:664",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1839-02-03",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/karaci",
+   "alinti": "1839’da şehre İngilizler hâkim oldular",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): TAHRİR: isg ingiltere 1839-02 (donanmanın alışı; gün kaynakla, yoksa ay beyanı), altında s: sind (Talpur) 1843 ilhakına dek; sonra s: ingiltere (zincirdeki kimlik). İlhak 1843 ile Bombay'a bağlanma (yaygın 1847) ayrı; TDV '1843 Bombay' cümlesinin neyi tarihlediği okunacak. | f ucu YIL düzeyinde (atlas 1839-02-03 gün teyitsiz); hâkimiyet=askerî; ÖLÇÜT: idareye katma belgesi yok (bkz. Sind 1843 çelişkisi). t=1947-08-15: history.state.gov/countries/pakistan 'recognized the Dominion of Pakistan ... on August 15, 1947' ve 'formerly part of British India' (tanıma, kaynak ipucu)."
+  }
+ ],
+ "Karonga": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1469",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1880-01-01",
+   "t": "1895-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "web arama (Britannica 403, Vikipedi)",
+   "alinti": "",
+   "oneri": {
+    "d": "BEYANLI Mlozi (künye adayı)"
+   },
+   "not": "KARAR EMRELİC (gece-100): umman-zengibar kalkar (dayanak yok); Mlozi dilimi BEYANLI (künye yok → aday); İngiliz himayesi 1891-05-14 ülke düzeyi; fiilî İngiliz kontrolü Mlozi'nin yenilgisiyle (1895 sonu) — TAHRİR ONERI, günler kaynakla. | Umman-Zengibar egemenliği 1880-1895 dayanaksız görünüyor: arama özeti Karonga'yı ~1880'den Mlozi'nin (Swahili-Arap tüccar) üssü ve African Lakes Co. rekabeti olarak verir, Zengibar iddiası geçmez. KÜNYE/SAHİP sorusu: d yerel (Mlozi) olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1469",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-01-01",
+   "t": "1964-07-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/malawi",
+   "alinti": "Malawi’s attainment of independence on the same date",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): umman-zengibar kalkar (dayanak yok); Mlozi dilimi BEYANLI (künye yok → aday); İngiliz himayesi 1891-05-14 ülke düzeyi; fiilî İngiliz kontrolü Mlozi'nin yenilgisiyle (1895 sonu) — TAHRİR ONERI, günler kaynakla. | alıntı yalnız t ucunu tarihliyor (1964-07-06, ÜLKE DÜZEYİ: 'Malawi previously had been under British sovereignty as Nyasaland'). f=1895 kaynaksız; arama özeti: Nyasaland koruyuculuğu 1891-05 (FO onayı) / 1893-02-22 ilanı — okunmuş kaynak değil."
+  }
+ ],
+ "Kasance (Kasanje)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1423",
+   "alan": "s",
+   "d": "kasance",
+   "f": "1620-01-01",
+   "t": "1910-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "countrystudies.us/angola/8.htm (LoC); web arama özeti (1910-1912 arası değişken)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1910 Portekiz fethi/ilhakı okunmadı; arama özeti 1910-1911(-1912) farklı. Britannica 403."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1423",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1910-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ). f=1910 kaynaksız."
+  }
+ ],
+ "Keetmanshoop": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2170",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1866-01-01",
+   "t": "1884-08-07",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "web arama (Vikipedi, SAHO ipucu)",
+   "alinti": "",
+   "oneri": {
+    "d": "nama-orlam"
+   },
+   "not": "KARAR EMRELİC (gece-100): hollanda 1866–1884 kalkar (Hollanda orada olmadı); künye nama-orlam (Nama ve Orlam Kaptanlıkları) — Keetmanshoop Nama grubunu kapsıyorsa s: nama-orlam; 1884 sonrası s: nama + v: almanya (koruma antlaşması günü kaynakla). | SORUN: d=hollanda 1866-1884 dayanaksız. Arama özeti: 1866 Rhenish Misyon istasyonu (Nama topraklarında, Johann Keetman adına); Hollanda egemenliği yok. Önerilen: __BOSLUK__ ya da Nama beyliği (künye yok). Kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2170",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1884-08-07",
+   "t": "1915-07-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (SAHO ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-100): hollanda 1866–1884 kalkar (Hollanda orada olmadı); künye nama-orlam (Nama ve Orlam Kaptanlıkları) — Keetmanshoop Nama grubunu kapsıyorsa s: nama-orlam; 1884 sonrası s: nama + v: almanya (koruma antlaşması günü kaynakla). | Alman Güneybatı Afrikası 1884-08-07 ülke düzeyi; Keetmanshoop'un Alman idaresine geçişi (Nama bölgesi 1890'lar) yer-özgü teyit yok; 1915-07-09 Khorab teslimi zincirde SAHO ipucu."
+  }
+ ],
+ "Kerulen (Çoybalsan)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:135",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/mogollar",
+   "alinti": "Togan-Temür’ün 10 Eylül 1368’de Hanbalık’ı terkederek Moğolistan’a çekilmesiyle son buldu",
+   "oneri": {
+    "t": "1368-09-10"
+   },
+   "not": "KARAR EMRELİC (gece-100): Kerulen'de Yuan bitmez, kuzey-yuan sürer (künye geçişi); TDV esas 1368-09-10 (Toghon Temür'ün Dadu'dan kaçışı, 丙寅). 09-14 (庚午, Ming'in Dadu'ya girişi) iki kaynağıyla ic_not; Ming shilu / 明史 ile teyit. | ÖNCEKİ KARAR: Yuan t 1368; TDV 1368-09-10 Hanbalık'ın terki vs atlas 09-14 — kaynak bulunamadı, ÇELİŞKİ ic_not. | alıntı yalnız t ucunu tarihliyor ve GÜN FARKI: TDV 10 Eylül 1368 (Yuan sonu), atlas 1368-09-14. Takvim kuralı gereği Çin günü çevrilmedi; 14 Eylül için kaynak bulunamadı; seçilmedi. f=1281: Yuan künye f 1260. Yerleşime özgü değil (ÜLKE DÜZEYİ)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:135",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/mogolistan",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (atlas 1691-05-30 gün teyitsiz); ÜLKE/BÖLGE DÜZEYİ (Dış Moğolistan). t: TDV 'Mançu Qing hânedanının 1911’de yıkılışına kadar devam etti'; 1911'de Moğollar bağımsızlık ilan etti (yıl)."
+  }
+ ],
+ "Keweenaw (Ojibwe bakır yatakları)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:899",
+   "alan": "s",
+   "d": "ojibwe",
+   "f": "1281-01-01",
+   "t": "1842-10-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://treaties.okstate.edu/treaties/treaty-with-the-chippewa-1842-0542",
+   "alinti": "concluded at La Pointe, October 4th 1842",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (toprak devri antlaşması günü) tarihliyor; ÖLÇÜT: idareye katma — devir antlaşması (La Pointe); f=1281 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:899",
+   "alan": "s",
+   "d": "abd",
+   "f": "1842-10-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://treaties.okstate.edu/treaties/treaty-with-the-chippewa-1842-0542",
+   "alinti": "concluded at La Pointe, October 4th 1842",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde (Kappler, Indian Affairs: Laws and Treaties, ABD resmî yayını; Oklahoma State Tribal Treaties Database yeniden basımı; sayfada antlaşma metni değil borç/talep çizelgesi gövdesi okundu — antlaşmanın günü 4 Ekim 1842). Onay 1843 (zincirde)."
+  }
+ ],
+ "Kieta": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:72",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1905-01-01",
+   "t": "1914-12-09",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-96 Aitape emsali): isg avustralya 1914-12-09 → Versay 1919-06-28 s: avustralya → 1920-12-17 yeni-gine-mandasi (aday, LAB SALI). | kayıt düzeyindeki Deutsches Kolonial-Lexikon (1920) cümlesi bu turda açılmadı (yıl düzeyi, 1905)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:72",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-12-09",
+   "t": "1949-07-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "AWM resmî tarih (Mackenzie, The Australians at Rabaul, bl. VII) — kayıtta alıntılı, bu turda açılmadı",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg",
+    "f": "1914-12-09",
+    "t": "1919-06-28"
+   },
+   "not": "ÖNCEKİ KARAR (gece-96 Aitape emsali): isg avustralya 1914-12-09 → Versay 1919-06-28 s: avustralya → 1920-12-17 yeni-gine-mandasi (aday, LAB SALI). | ÖLÇÜT: geçici/askerî — 1914-12-09 Watson kuvvetinin Kieta'ya girişi (yer_kaynak'taki AWM cümlesi, okunmadı). Bilinen karar: Alman sömürgelerinde Versay imza günü 1919-06-28 → s avustralya buradan; 1914-12-09→1919-06-28 isg avustralya. Savaş işgali s olarak yazılmış."
+  }
+ ]
+}

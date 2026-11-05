@@ -1,0 +1,709 @@
+{
+ "Jelgava (Mitau)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-03-28",
+   "t": "1915-08-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "the duchy 'in 1795 was annexed to the Russian Empire' (Jelgava came under Russian rule)",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu YIL düzeyinde teyit (1795); gün 03-28 bu sayfada yok (atlas günü devletler.js kurland t'den). t ucu: 1915 YIL düzeyi (Alman işgali 1915-1918); 1915-08-01 günü teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "livonya-tarikati",
+   "f": "1281-01-01",
+   "t": "1561-11-28",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html ; Treccani 'Curlandia' ve encyclopedia.com 'Jelgava' arandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Pinkas yalnız 1561'de yerleşimin Kurland dükalığına katıldığını söylüyor (t ucu yıl düzeyi uyumlu); Livonya Tarikatı'nın 1281-1561 sahipliği okunan sayfalarda adıyla geçmiyor. Treccani maddesi arama sonucunda çıkmadı; encyclopedia.com Jelgava maddesi (Enc. Judaica) 1561/1795'i içermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1915-08-01",
+   "t": "1918-11-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "During the years 1915 to 1918, Jelgava was occupied by the German Army.",
+   "oneri": {},
+   "not": "[alıntı özetten] | YIL düzeyi (1915-1918). Gün uçları (1915-08-01 / 1918-11-18) teyitsiz. Askerî işgal; atlas 'almanya' beyanlı yaklaşıklık. TAHRİR ÖLÇÜTÜ: ÖLÇÜT: geçici/askerî — Ober Ost; kaynak sivil devir/ilhak belgelemiyor → atlasın 's: almanya' yerine isg: almanya uygun olabilir (karar KASA/EMRELİC'te)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "letonya",
+   "f": "1918-11-18",
+   "t": "1940-08-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Library of Congress Country Studies, Latvia, 'Independence, 1918-40' — https://countrystudies.us/latvia/2.htm",
+   "alinti": "Latvian independence was proclaimed on November 18, 1918",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE DÜZEYİ: f ucu 1918-11-18 ilan günü okundu (LoC). Jelgava'nın 1918-11'de Alman denetiminde olduğu Pinkas'ta (1915-1918 Alman işgali). t ucu 1940-08-05: Pinkas Ağustos 1940 emrini anıyor ('order promulgated on August 15, 1940'), 08-05 teyit değil. Künye letonya t=1940-08-06, dönem t=1940-08-05 (zincirde 08-06) — künye/zincir 1 gün farkı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "kurland-dukaligi",
+   "f": "1561-11-28",
+   "t": "1795-03-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "in 1561 the settlement 'was included in the duchy of Kurland'; the duchy 'in 1795 was annexed to the Russian Empire'",
+   "oneri": {},
+   "not": "[alıntı özetten] | Her iki uç YIL düzeyinde teyit (1561, 1795); gün 11-28 / 03-28 bu sayfada yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1944-10-13",
+   "t": "1991-08-21",
+   "hukum": "ONERI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "In August 1944, the Red Army occupied the city.",
+   "oneri": {
+    "f": "1944-08"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Kızıl Ordu girişi kaynakla (1944-07-31 civarı) bulunacak; 1941-06-29→07-28 isg almanya dilimi uygun. | Jelgava Kızıl Ordu'ya Ağustos 1944'te geçti (Pinkas); atlas 1944-10-13 (Riga/Ostland künye sonu) Jelgava için geç. f ucu için ay: 1944-08. SSCB'nin ilhakı 1940'ta ilan edilmişti; ÖLÇÜT: idareye katma (SSCB yeniden idare kurdu). 1991-08-21 ucu: okunan kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "letonya-cumhuriyeti-yeniden",
+   "f": "1991-08-21",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "arama özeti: Danimarka Dışişleri 'About Latvia' (um.dk/letland/en/about-latvia) — sayfa açılmadı; mfa.gov.lv 'History of Latvia' 302 yönlendirmeyle okunamadı",
+   "alinti": "Supreme Council reiterated its declaration of independence on 21 August 1991 [arama özeti]",
+   "oneri": {},
+   "not": "arama özeti — okunmadı; 21 Ağustos 1991 uç gününün teyidi bekler (atlas bu gün ile uyumlu). Kural: Sovyet ardılı bağımsızlık ilanı günü (EMRELİC 4 Kasım)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1940-08-05",
+   "t": "1941-07-28",
+   "hukum": "ONERI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "Under Soviet rule in 1940-1941 ...; 'On June 29, 1941, the German Army occupied Jelgava.'",
+   "oneri": {
+    "t": "1941-06-29",
+    "not_alan": "isg almanya 1941-06-29 → 1941-07-28 (askerî işgal) eklenmeli"
+   },
+   "not": "Pinkas: Alman ordusu Jelgava'yı 1941-06-29'da işgal etti; encyclopedia.com (Enc. Judaica) 'Germans entered Jelgava August 29, 1941' der — iki kaynak çelişir (muhtemelen yazım hatası), seçilmedi. ÖLÇÜT: geçici/askerî — Ostland sivil idaresi 1941-07-28'den (künye); arada isg. s: sovyet f ucu 1940-08-05 teyitsiz (Pinkas Aug 15 1940 emri). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:163",
+   "alan": "s",
+   "d": "ostland",
+   "f": "1941-07-28",
+   "t": "1944-10-13",
+   "hukum": "ONERI",
+   "kaynak": "Pinkas HaKehillot / Encyclopedia of Jewish Communities: Latvia and Estonia, 'Jelgava' (Yad Vashem, 1988; JewishGen çevirisi) — https://www.jewishgen.org/yizkor/pinkas_latvia/lat_00149.html",
+   "alinti": "In August 1944, the Red Army occupied the city.",
+   "oneri": {
+    "t": "1944-08"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Kızıl Ordu girişi kaynakla (1944-07-31 civarı) bulunacak; 1941-06-29→07-28 isg almanya dilimi uygun. | t ucu: Jelgava Ağustos 1944'te Kızıl Ordu'ya geçti; künye sonu 1944-10-13 Riga düşüşü, Jelgava için geç. KÜNYE AŞIMI yok (dönem künye içinde), ama dönem ucu Jelgava'ya özgü kısaltılmalı."
+  }
+ ],
+ "Hengyang (Hengzhou)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1911-10-22",
+   "t": "1949-10-01",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao 卷25 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷25",
+   "alinti": "九月乙丑朔 … 湖南新軍變，巡撫余誠格奔於兵艦",
+   "oneri": {},
+   "not": "f ucu: 宣統三年九月乙丑朔 Hunan yeni ordu ayaklanması (il düzeyi, merkez Changsha; Hengyang'a özgü tanıklık yok — İL DÜZEYİ/ABİ MERKEZ Changsha). Ay-güneş günü çevrilmedi; Academia Sinica ile çevrilecek (宣統三年九月朔). t ucu 1949-10-01 (ilan günü) için Hengyang'a özgü kaynak yok: Hengyang 1949 sonbaharında HKO'ya geçti ('Hengbao seferi'), kaynak okunamadı (arama özeti, Hengyang Askerî Alt Bölgesi Kasım 1949 — gün yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1356-09-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Yuan Shi 卷44 (zh.wikisource) — https://zh.wikisource.org/wiki/元史/卷044",
+   "alinti": "庚午，倪文俊陷衡州路，元帥甄崇福戰死。",
+   "oneri": {},
+   "not": "[alıntı özetten] | t ucu: 至正十六年八月 庚午 — KAYIT günü (Yuan Shi 本紀), Academia Sinica ile çevrilecek; atlas günü 1356-09-17 bu çeviriyle uyumlu iddia ediliyor, ben çevirmedim. YIL (1356) düzeyi teyitli. Sahip: Yuan komutanı Hengzhou'da, Ni Wenjun (Tianwan/Xu Shouhui) ele geçirdi → Yuan'ın son günü; sonrası BOŞLUK/Tianwan tartışması."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1356-09-17",
+   "t": "1368-01-23",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi 卷1 (zh.wikisource) — https://zh.wikisource.org/wiki/明史/卷1",
+   "alinti": "十二月庚寅，達克辰州，遣別將下衡州。 … 二十五年春正月己巳，徐達下寶慶，湖湘平。",
+   "oneri": {
+    "t": "1364-12-24"
+   },
+   "not": "KARAR EMRELİC (5 Kas): 至正二十四年十二月 = 1364-12-24 … 1365-01-22 (Jülyen); gün yok → 1364-12-24 [yalnız ay]. Boşluk kapanır; sonraki dönem Zhu/ming-hanedani (künye 1356'ya genişliyor, HAYALET-UYGULA). | Ming shi 卷1 Hengzhou'nun Zhu Yuanzhang tarafından alınmasını 至正二十四年十二月-二十五年正月(~1364-12/1365-01-02) gösteriyor; hanedan ilanı 1368-01-23 (Ming shi 卷2). Ay-güneş günleri çevrilmedi (Academia Sinica ile çevrilecek). 1356-1364 arası sahip (Tianwan/Han/Chen Youliang) bu kaynakta açık değil. KÜNYE AŞIMI riski: ming-hanedani f 1368-01-23."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1647-05-16",
+   "t": "1674-03-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao 卷4 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷4",
+   "alinti": "湖廣官軍克衡州、常德及安化、新化等縣。",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu: 順治四年六月 癸巳 — BİLDİRİM günü (KAYIT günü); olay günü atlasta 小腆紀年 四月癸未 (okunmadı). YIL (1647) teyitli. Ay-güneş günü Academia Sinica ile çevrilecek. t ucu: 康熙十三年二月 甲寅 Wu Sangui 'Changsha'yı aldı, yanında Hengzhou'yu'  (QSG6) — bildirim günü, olay günü bilinmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1674-03-26",
+   "t": "1679-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao 卷6 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷6",
+   "alinti": "甲寅，吳三桂陷長沙，副將黃正卿叛應之，旁陷衡州。 … 戊寅，簡親王喇布遣前鋒統領希佛復衡州",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu 康熙十三年二月甲寅 (bildirim), t ucu 康熙十八年二月戊寅 (Qing generali Hengzhou'yu geri aldı) — KAYIT günleri; Academia Sinica ile çevrilecek. Yıl düzeyinde ikisi teyitli (1674, 1679)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1679-03-24",
+   "t": "1911-10-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao 卷6 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷6 ; Qing shi gao 卷25 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷25",
+   "alinti": "戊寅，簡親王喇布遣前鋒統領希佛復衡州 ; 九月乙丑朔 … 湖南新軍變",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu 康熙十八年二月戊寅 (kayıt günü); t ucu 宣統三年九月乙丑朔 Hunan ayaklanması (İL DÜZEYİ). Çevrilecek: Academia Sinica."
+  }
+ ],
+ "Uçturfan (Uç Turfan)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1877-10-18",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao 卷23 德宗本紀一 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷23",
+   "alinti": "庚戌，劉錦棠進復喀喇沙爾、庫車兩城，尋復阿克蘇及烏什城。",
+   "oneri": {
+    "f": "1877-12-03"
+   },
+   "not": "KARAR EMRELİC (5 Kas): TARIH_DUZELT 1877-12-03: 光緒三年十月庚戌 = ayın 29'u (ayın 1'i 1877-11-05 壬午), Academia Sinica. Atlastaki 10-18 ay numarası Gregoryen sanılmış. | 烏什=Uçturfan geri alma KAYIT günü: 光緒三年十月 庚戌 (Qing shi gao 德宗本紀). Gün ÇEVRİLMEDİ, Academia Sinica ile çevrilecek. DİKKAT (ay düzeyi, doğrulanacak): 光緒三年十月 yaklaşık Kasım-Aralık 1877'ye düşer; atlasın 1877-10-18 günü bu kayıtla uyuşmayabilir — Çevirici sonucuna göre f ucu gözden geçirilmeli. Yıl (1877) düzeyi teyitli. Bildirim günü olabilir (olay günü değil). t ucu 1912-02-12: Qing ferman (atlasta mevcut)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1347-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'yarkend' ve 'yakub-bey' slug'ları arandı (yarkend arama sonucu boş; yakub-bey Germiyanoğlu'na gidiyor); İA 'Doğu Türkistan' yalnız yönlendirme ; Qing shi gao 卷529 (Uçturfan/烏什 Çağatay dönemini içermiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Uç Turfan'a özgü Çağatay dönemi tanıklığı bulunamadı; 烏什 yalnız Kokand seferi güzergâhı olarak geçiyor. Aranan yerler: TDV yarkend, yakub-bey; Qing shi gao 卷529, 卷23."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
+   "d": "yarkent-hanligi",
+   "f": "1514-01-01",
+   "t": "1705-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'yarkend' ve 'yakub-bey' slug'ları arandı (yarkend arama sonucu boş; yakub-bey Germiyanoğlu'na gidiyor); İA 'Doğu Türkistan' yalnız yönlendirme ; Vikipedi (Dzungar conquest of Altishahr / Yarkent Khanate) yalnız IPUCU: Çungar fethi 1678-1680",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta Uç Turfan'ın Yarkent Hanlığı'na bağlılığı bulunamadı. IPUCU (Vikipedi, tek dayanak olamaz): Çungar fethi 1678-1680 ⇒ atlasın t=1705-01-01 ucu erken/geç olabilir; akademik kaynak (Millward/Perdue) açılamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1705-01-01",
+   "t": "1759-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao 卷529 屬國傳 (Kokand/Burut bölümü, zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷529",
+   "alinti": "乾隆二十年，準部平，得復故地。 ; 乾隆二十四年，將軍兆惠追捕霍集占兄弟",
+   "oneri": {
+    "t": "1759-01-01"
+   },
+   "not": "ÜLKE/BÖLGE DÜZEYİ: Qing shi gao 卷529: Çungar devleti乾隆二十年(1755)'de bitti, 回疆 Hoca kardeşler 乾隆二十四年(1759)'da takip edildi. f ucu 1705: Çungar yönetiminin başı bu sayfada yok (ipucu 1678-1680, Vikipedi). t=1759 YIL düzeyi bölgeyle uyumlu; 1755'te Çungar Hanlığı'nın çöküşü ayrı bir gerçek (atlas 1759 kullanıyor, Hoca isyanı 1755-59 arası Hocalar altında)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1759-01-01",
+   "t": "1864-06-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao 卷529 屬國傳 (Kokand/Burut bölümü, zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷529",
+   "alinti": "高宗平定回疆，窮追賊首至伊西洱庫爾，三戰三捷 ; 乾隆二十四年，將軍兆惠追捕霍集占兄弟",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE/BÖLGE DÜZEYİ (Tarım havzası/回疆): f ucu 乾隆二十四年 = 1759 YIL düzeyi teyitli; gün 01-01 yalnız yıl. t ucu 1864-06-04 (Kuça ayaklanması) bu kaynakta yok — atlas önceden beyanlı."
+  }
+ ],
+ "Çarklık (Ruoqiang)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1877-12-17",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao 卷23 德宗本紀一 (zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷23 ; Qing shi gao 卷529 屬國傳 (Kokand/Burut bölümü, zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷529",
+   "alinti": "劉錦棠進復喀喇沙爾、庫車兩城，尋復阿克蘇及烏什城 ; 光緒四年，欽差大臣左宗棠遣劉錦棠收復南八城",
+   "oneri": {},
+   "not": "ÜLKE/BÖLGE DÜZEYİ: Qing yeniden fethi 光緒三年(1877)-光緒四年(1878) Güney Sekiz Şehir; Çarklık/Ruoqiang (婼羌) hiçbir okunan sayfada adıyla geçmiyor. 1877-12-17 günü (Kaşgar düşüşü?) Çarklık'a özgü teyitsiz. YIL düzeyi bölge: 1877-78. Gün için Academia Sinica çevirisi gerekir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1347-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'yarkend' ve 'yakub-bey' slug'ları arandı (yarkend arama sonucu boş; yakub-bey Germiyanoğlu'na gidiyor); İA 'Doğu Türkistan' yalnız yönlendirme ; Qing shi gao 卷23, 卷24, 卷529; Ruoqiang County için web araması",
+   "alinti": "",
+   "oneri": {},
+   "not": "Çarklık/Ruoqiang'a özgü tanıklık bulunamadı (xzqh.org 'Ruoqiang tarihçesi' erişilmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "yarkent-hanligi",
+   "f": "1514-01-01",
+   "t": "1705-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'yarkend' ve 'yakub-bey' slug'ları arandı (yarkend arama sonucu boş; yakub-bey Germiyanoğlu'na gidiyor); İA 'Doğu Türkistan' yalnız yönlendirme",
+   "alinti": "",
+   "oneri": {},
+   "not": "Çarklık için Yarkent Hanlığı bağı kabul edilen kaynakta bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1705-01-01",
+   "t": "1759-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao 卷529 屬國傳 (Kokand/Burut bölümü, zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷529",
+   "alinti": "",
+   "oneri": {},
+   "not": "Çarklık özelinde yok; bölge düzeyi: Çungar 1755'te çöktü, 1759'da Hoca isyanı bitti (Qing shi gao 卷529) — bkz. Uç Turfan kaydı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1759-01-01",
+   "t": "1864-06-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao 卷529 屬國傳 (Kokand/Burut bölümü, zh.wikisource) — https://zh.wikisource.org/wiki/清史稿/卷529",
+   "alinti": "高宗平定回疆，窮追賊首至伊西洱庫爾，三戰三捷",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE/BÖLGE DÜZEYİ: Qing 回疆 fethi 1759 YIL; Çarklık'a özgü değil (Çarklık çöl/Lop Nor kenarı, Qing idaresi sınırı belirsiz — beyanlı yaklaşıklık). t=1864-06-04 teyitsiz."
+  }
+ ],
+ "Raipur": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:66",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1853-01-01",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, c.21 (Oxford 1908), 'Raipur District — History' (archive.org the-imperial-gazetteer-of-india-volume-21, tam metin okundu; DSAL c.21 s.51)",
+   "alinti": "In 1853 Chhattisgarh became British territory by lapse",
+   "oneri": {},
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | [alıntı özetten] | f ucu YIL düzeyinde teyitli (1853, 'by lapse' = Nagpur Bhonsle kolu varissiz, idareye katma). Gün yok. t ucu 1947-08-15: 1908 kaynağında yok (ülke düzeyi; Indian Independence Act)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:66",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1750-01-01",
+   "t": "1818-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, c.21 (Oxford 1908), 'Raipur District — History' (archive.org the-imperial-gazetteer-of-india-volume-21, tam metin okundu; DSAL c.21 s.51)",
+   "alinti": "Between 1750 and 1818 the country was governed by the Marathas",
+   "oneri": {},
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | [alıntı özetten] | Her iki uç YIL düzeyinde okundu. Ayrıntı: 1741 Bhaskar Pant Ratanpur'u aldı; 1750'de Raipur kolu Amar Singh tahttan indirildi. Künye maratha t=1818-06-03 ile uyumlu (yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:66",
+   "alan": "s",
+   "d": "kalacuri-ratnapura",
+   "f": "1281-01-01",
+   "t": "1750-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, c.21 (Oxford 1908), 'Raipur District — History' (archive.org the-imperial-gazetteer-of-india-volume-21, tam metin okundu; DSAL c.21 s.51)",
+   "alinti": "in subordination to the Ratanpur kingdom, by a younger branch of the Haihaivansi family",
+   "oneri": {},
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | [alıntı özetten] | Sahip (Ratanpur krallığına bağlı Haihaivansi genç kol) ve t=1750 YIL düzeyinde teyit. f=1281: gazetteer 1281'i tarihlemiyor (atlas ufku). NOT: IGI'ye göre Ratanpur'un kendisi 1741'de Marathalarca ilhak edildi; Raipur kolu 1750'ye dek sürdü (künye kalacuri-ratnapura t=1750 Raipur kolu içindir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:66",
+   "alan": "s",
+   "d": "nagpur-bhonsle",
+   "f": "1818-01-01",
+   "t": "1853-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, c.21 (Oxford 1908), 'Raipur District — History' (archive.org the-imperial-gazetteer-of-india-volume-21, tam metin okundu; DSAL c.21 s.51)",
+   "alinti": "Between 1818 and 1830 the Nagpur territories were administered by the British Resident.",
+   "oneri": {},
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | [alıntı özetten] | YIL düzeyi: 1818-1830 İngiliz Resident idaresi, 1830-1853 Maratha subahları (İngiliz sisteminde). Bhonsle devleti İngiliz himayesinde (Britannica 'British clients' ipucu, okunmadı). ÖLÇÜT: idareye katma yok (himaye) — 1853 'lapse' ile ilhak; atlas 's: nagpur-bhonsle' uygun."
+  }
+ ],
+ "Gaşun Gobi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:143",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1636-05-15",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Moğolistan' — https://islamansiklopedisi.org.tr/mogolistan (okundu)",
+   "alinti": "Moğolistan 1691'de imzalanan Dolon Nor Antlaşması'yla Çin'in bir eyaleti haline geldi.",
+   "oneri": {
+    "f": "1691-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-26): önce koordinatın topluluğu kaynakla bulunsun (Halha mı, Alaşa/Ecine mi). Halha ise kuzey-yuan 1691-05-30'a uzar (Dolon Nor); Alaşa ya da Güney Moğol ise 1636-05-15 Qing'e bağlılık doğru; bulunamazsa ONERI kalır. | KARAR EMRELİC (5 Kas): 1691 Dolon Nor (TDV) uygun. ÖLÇÜM (LAB PAZAR): zincir s: kuzey-yuan 1368-09-14 → 1636-05-15, ama künye kuzey-yuan t 1691-05-30 → Halha yerleşiminde s: kuzey-yuan 1691'e uzamalı; 1636-1691 arası v: qing (Halha'nın 1638 sonrası haraç bağı) ancak kaynakla — şimdilik yazılmaz. Koordinat 42.5K 103.0D: Halha mı Güney Moğol mu, yerleşim kaydıyla teyit edilmeli. | ÜLKE DÜZEYİ: Dış Moğolistan (Halha) Qing'e 1691 Dolon Nor ile bağlandı (YIL); 1636-05-15 Qing'in ilan günüdür (Hong Taiji), Halha için anlamsız. Not: Qing shi gao 卷518'de 崇德三年 'Halha seferi' var, bağlanma değil. Konum belirsizliği: 42.5N/103E Moğolistan-Çin sınırı yakını (Ömnögovi/Alaşan) — Alaşan Mongolları 1697 civarı Qing banner'ı olduysa f farklı olabilir; kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:143",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Moğolistan (okundu; Yuan dönemi yok); Qing shi gao 卷518 (Yuan yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yuan dönemi sahipliği bu yer için kabul edilen kaynakta bulunamadı (Moğol anayurdu/Gobi güneyi). t=1368-09-14 hanedanın bitişi (künye)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:143",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1923-10-29",
+   "t": "1924-11-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Moğolistan' — https://islamansiklopedisi.org.tr/mogolistan (okundu)",
+   "alinti": "26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi.",
+   "oneri": {
+    "f": "1911-11-18"
+   },
+   "not": "t ucu 1924-11-26 TDV ile teyitli (MHC ilanı). f ucu: TDV 'uzun görüşmelerden sonra ancak özerklik elde edebildiler (18 Kasım 1911)'; künye mogolistan f=1911-12-29. İki gün çelişir (11-18 TDV, 12-29 künye); atlasın 1923-10-29 f'si ise Çin Cumhuriyeti zincirinin kopyası (Dış Moğolistan 1912-1919 özerk, 1919-21 Çin işgali, 1921 devrim). Önerilen: dönem Bogd Hanlığı'ndan başlamalı (yaklaşıklık bu yerleşimin Moğolistan topraklarında olmasına bağlı)."
+  }
+ ],
+ "Şeyh Salû-yi Ulyâ": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1724-10-03",
+   "t": "1735-10-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Hoy' — https://islamansiklopedisi.org.tr/hoy (okundu) ; TDV İslâm Ansiklopedisi 'Tebriz' — https://islamansiklopedisi.org.tr/tebriz (okundu)",
+   "alinti": "III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi (1724). ; 1739’da tekrar İranlılar’ın eline geçti.",
+   "oneri": {
+    "t": "1739"
+   },
+   "not": "KARAR EMRELİC (5 Kas): çift TDV: TDV Hoy (1739) esas, TDV Tebriz (1736 antlaşması) ic_not'a. | ABİ MERKEZ: Hoy (Çaldıran nahiyesi 1728'de Hoy livasına bağlı, kayıtlı çıkarım). f=1724 YIL teyitli (TDV Hoy). t ucu ÇİFT-TDV ÇELİŞKİSİ: TDV Hoy 'Hoy 1739'da İranlıların eline geçti'; TDV Tebriz 'Tebriz 1736 antlaşmasıyla İran'a bırakıldı' (Tebriz 1731'de yeniden alınmış); atlas 1735-10-03. Seçmedim: kendi şehir maddesi esası (Hoy TDV: 1739). Gün yok (yalnız yıl). Üçüncü bağımsız akademik kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'İlhanlılar' — https://islamansiklopedisi.org.tr/ilhanlilar (okundu)",
+   "alinti": "Ebû Said’in vâris bırakmadan ölümü İlhanlı Devleti’nin parçalanmasına ve yerini mahallî hânedanların almasına yol açtı.",
+   "oneri": {
+    "t": "1335"
+   },
+   "not": "ÜLKE DÜZEYİ: İlhanlı devleti TDV'de 1256-1353 (başşehir Tebriz); Ebû Said 1335'te vârissiz öldü (YIL), Celâyirli Hasan-ı Büzürg 1336-1338 arası kukla ilhanlar oturttu. 1340 atlas ucu TDV'de yok; yalnız yıl 1335 teyitli. Çelişki: TDV devleti 1353'e dek sürdürüyor (kukla ilhanlar) — iki yıl da beyan edilir, seçilmedi. Hoy/Çaldıran'ın 1335 sonrası Celâyirli denetimine geçişi TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1548-08-24",
+   "t": "1639-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi 'Hoy' — https://islamansiklopedisi.org.tr/hoy (okundu) ; TDV İslâm Ansiklopedisi 'Tebriz' — https://islamansiklopedisi.org.tr/tebriz (okundu)",
+   "alinti": "Osmanlılar 21 Ekim 1603 tarihine kadar Tebriz’i kontrolleri altında tuttular. ; Nasuh Paşa antlaşması ile (1612) İran’a terkedildi",
+   "oneri": {
+    "not_bolunme": "1548-08-24→1639-05-17 sürekli Osmanlı DEĞİL: Osmanlı kesitleri yalnız ~1585→1603 (Hoy 1603'te Abbas'ın eline geçti; 1612 Nasuh Paşa antlaşmasıyla hukuken İran'a terk). 1548 yalnız Temmuz-Ağustos 1548 geçici (TDV Tebriz); 1635 IV. Murad Revan seferi geçici."
+   },
+   "not": "KARAR EMRELİC (5 Kas): çift TDV: yerin kendi maddesi yok → şehir maddesi TDV Hoy esas, Tebriz ic_not'a. d: OSMANLI 1585 → 1603 (TDV Hoy); 1548 geçici işgal → isg osmanli; 1612 Nasuh Paşa ic_not'a. Günler kaynakla. | ABİ MERKEZ: Hoy/Tebriz. Atlasın tek parça 1548-1639 dönemi kaynakla çelişir: 1548-1585 Safevî (geçici 1548 girişi), 1585→1603 Osmanlı (Tebriz 25 Eylül 1585 → 21 Ekim 1603), 1603-1639 Safevî (1612 Nasuh Paşa, 1639 Kasr-ı Şirin Tebriz'i Safevî'de bıraktı). TEK ÖLÇÜ: 1603 fiilî, 1612 hukuki (ic_not). f=1548-08-24 günü TDV'de yok (TDV 1548'i 'July–August' ay düzeyinde veriyor). Çaldıran köyüne özgü tanıklık yok (Hoy livası aracılığıyla çıkarım). 1639-05-17 günü TDV'de okunamadı (Kasr-ı Şirin slug'ı bulunamadı)."
+  }
+ ],
+ "Kolomna": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:299",
+   "alan": "s",
+   "d": "ryazan",
+   "f": "1281-01-01",
+   "t": "1301-01-01",
+   "hukum": "ONERI",
+   "kaynak": "[19. yy kaynağı] ESBE (Brockhaus-Efron), 'Коломна' — https://ru.wikisource.org/wiki/ЭСБЕ/Коломна (okundu; EB1911 gibi eski başvuru eseri: yalnız IPUCU)",
+   "alinti": "Впервые упоминается в летописях под 1177 г., как город Рязанского княжества.",
+   "oneri": {},
+   "not": "ESBE (ipucu): Kolomna Ryazan Knezliği şehri; atlasın t=1301 ucu ESBE ile ÇELİŞİYOR: ESBE «В 1306 г. Юрий Данилович присоединил К. к Москве» (Jülyen/eski takvim sorunu yok, yıl). Atlas 1301 Daniil'in Konstantin Romanoviç'i esir alıp Kolomna'yı kazanması (arama özeti, kaynaklı değil). BRE (bigenc.ru) 401 verdi, okunamadı. Akademik kaynakla hakem gerekir; seçmedim. Yıl düzeyi: gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:299",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1301-01-01",
+   "t": "1547-01-16",
+   "hukum": "ONERI",
+   "kaynak": "[19. yy kaynağı] ESBE (Brockhaus-Efron), 'Коломна' — https://ru.wikisource.org/wiki/ЭСБЕ/Коломна (okundu; EB1911 gibi eski başvuru eseri: yalnız IPUCU)",
+   "alinti": "В 1306 г. Юрий Данилович присоединил К. к Москве.",
+   "oneri": {},
+   "not": "f ucu ESBE ipucu 1306 (Yuri Daniloviç) vs atlas 1301 (Daniil); akademik kaynakla çözülmeli. 'Kolomna Moskova'nın ilk ilhakı' (1301) arama özetinde; okunmadı. t=1547-01-16 (IV. İvan taç giyme) için yerleşime özgü tanıklık aranmadı, ülke düzeyi — BAKILMADI."
+  }
+ ],
+ "Tjate (Pedi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2118",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1879-12-02",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Pedi & Anglo-Pedi Wars 1876-1879' — https://sahistory.org.za/article/pedi-anglo-pedi-wars-1876-1879 ; 'Timeline of Land Dispossession 1800-1899' — https://sahistory.org.za/article/timeline-land-dispossession-and-segregation-south-africa-1800-1899 ; arama özeti: Pretoria Convention 3 Ağustos 1881, Vereeniging 31 Mayıs 1902 (okunmadı)",
+   "alinti": "The Pedi under the leadership of Sekhukhune are defeated by British forces",
+   "oneri": {
+    "t": "1881-08-03",
+    "not_bolunme": "1881-08-03/1881-10 → 1902-05-31: s: zar (Güney Afrika Cumhuriyeti, İngiliz suzerenliği); 1902-05-31 → 1910-05-31: ingiltere"
+   },
+   "not": "Pedi çöküşü 1879-11-28 (SAHO okundu). Tjate Transvaal'ın içinde: Transvaal 1877'de İngiltere'ce ilhak (12 Nisan 1877), 1881 Pretoria Sözleşmesi ile Boer yönetimine döndü (arama özeti, okunmadı: 3 Ağustos 1881); atlasın 1910'a dek süren tek 'ingiltere' dönemi bu ara dönemi (ZAR 1881-1902) örtüyor. ÖLÇÜT: idareye katma (Transvaal Crown territory 1877-81). Kaynaklı doğrulama için Pretoria Sözleşmesi metni okunmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2118",
+   "alan": "s",
+   "d": "pedi",
+   "f": "1650-01-01",
+   "t": "1879-12-02",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Pedi & Anglo-Pedi Wars 1876-1879' — https://sahistory.org.za/article/pedi-anglo-pedi-wars-1876-1879 ; 'Timeline of Land Dispossession 1800-1899' — https://sahistory.org.za/article/timeline-land-dispossession-and-segregation-south-africa-1800-1899",
+   "alinti": "Bapedi arrived in the northern province around the 1650s ; defeated by British forces (28 November 1879)",
+   "oneri": {
+    "t": "1879-11-28"
+   },
+   "not": "f ucu: 1650'ler Pedi'nin bölgeye gelişi (YIL/on yıl) — Tjate'nin kuruluşu değil. t ucu: SAHO dated-event 'Battle of Sekhukhune' = 1879-11-28; atlas 12-02 Sekhukhune'nin yakalanması (arama özeti: SAHO ayrı sayfalarda 2 veya 9 Aralık 1879 — çelişkili, okunmadı). Hangi günün hâkimiyet sonu olduğu: ÖLÇÜT: geçici/askerî değil, devirde Transvaal 1877'den beri İngiliz iddiasında → iki gün beyan edildi, seçmedim."
+  }
+ ],
+ "Svellendam": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2350",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1806-01-18",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'General South African History Timeline: 1800s' — https://sahistory.org.za/article/general-south-african-history-timeline-1800s",
+   "alinti": "The British occupy the Cape for a second time.",
+   "oneri": {},
+   "not": "SAHO eğitim sitesi, tek dayanak olamaz (LAB SALI/EMRELİC kuralı) — KAYNAKLI'dan indirildi; akademik ikinci kaynak gerek (ör. Shillington 1985). | [alıntı özetten] | ÜLKE DÜZEYİ: Kap'ın İngiliz işgali 1806 YIL (Blaauwberg 8 Ocak 1806; teslim günü 01-18 SAHO sayfasında yok). Swellendam'a özgü tanıklık yok. ÖLÇÜT: sonraki idareye katma — Cape Colony (1814 Londra Sözleşmesi hukuken; SAHO okunmadı). t=1910 ülke düzeyi (Birlik)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2350",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1745-01-01",
+   "t": "1806-01-18",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Swellendam' — https://sahistory.org.za/place/swellendam (okundu); 'Political changes 1750-1820' (arama özeti)",
+   "alinti": "Founded in 1743 by the Dutch East India Company",
+   "oneri": {
+    "f": "1743"
+   },
+   "not": "ÇİFT SAHO ÇELİŞKİSİ: Swellendam sayfası 'founded in 1743 by the VOC' (drostdy 1747); başka SAHO zaman çizelgeleri 1745'te van Imhoff'un Swellendam bölgesini kurduğunu söylüyor (arama özeti, okunmadı). Seçmedim; her ikisi yıl düzeyi. Not: 1795'te Swellendam burgerleri kendi kendini yönetme ilan etti (arama özeti) ve 1795-1803 İngiliz, 1803-06 Batavya Cumhuriyeti ara dönemleri atlasta yok (BİLİNEN EKSİK, kaynak okunmadı). Hollanda adı Hollanda Cumhuriyeti/VOC mü Batavya mı — künye kararı."
+  }
+ ],
+ "Vryburg": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2190",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1882-08-06",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'British Bechuanaland' — https://sahistory.org.za/place/british-bechuanaland (okundu)",
+   "alinti": "On 6 August 1883 a second group of Boers established the Republic of Stellaland",
+   "oneri": {
+    "f": "1885-09-30",
+    "not_onceki": "s: stellaland (Boer cumhuriyeti, başkent Vryburg) 1883-08-06 → 1885-09-30 eklenmeli (künye var mı bakılmalı)"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Stellaland önerisi uygun. ÖLÇÜM (LAB PAZAR, origin/main devletler.js): 'stellaland'/'goshen' künyesi YOK → künye sorusu LAB SALI'ya. | Atlasın f=1882-08-06 günü SAHO'daki 1883-08-06 ile ay/gün aynı, YIL FARKLI (1882≠1883) — muhtemelen yıl yazım hatası. SAHO: 'On 30 September 1885 Goshen and Stellaland became part of the Crown Colony of Bechuanaland'; 1895'te Cape'e katıldı. TEK ÖLÇÜ: İngiliz kuvveti (Warren seferi Mart 1885) yönetimi fiilen devraldı → ilhak 30 Eylül 1885. Bölge düzeyinde okundu, Vryburg Stellaland başkenti olarak adıyla anılıyor."
+  }
+ ],
+ "Nevkasl (Newcastle)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2201",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1864-01-01",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Newcastle' — https://sahistory.org.za/place/newcastle (okundu)",
+   "alinti": "Dr Sutherland set out the township in 1854 ; 'In 1876 ... the colonial authorities decided to build a fort at Newcastle'",
+   "oneri": {},
+   "not": "SAHO: township 1854'te ölçüldü (kayıt: Dr Sutherland), Fort Amiel 1876; 1864 SAHO'da yok — atlas f=1864 teyitsiz (yerleşimin Natal Colony içinde İngiliz sahipliği 1843 civarı ülke düzeyi; SAHO bu sayfada Natal'ın ilhakını vermiyor). Önerim: f ucunu yerleşim kuruluşu 1854 yıl olarak değerlendirmek; gün yok. Seçim KASA'da."
+  }
+ ],
+ "Upington": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2223",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Upington, Northern Cape' (okundu) ; 'Gordonia Division' / 'Kora' / 'Dawid Kruiper' arama sonuçları (arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "SAHO: Upington 1870 civarında Orange nehri kıyısında kuruldu ('established in 1870'), 1871 Schröder misyon istasyonu Olyvenhoutsdrift, Kora başkanı Klaas Lukas'ın merkezi; adı Cape başbakanı Sir Thomas Upington'a (1884) — Cape idaresine geçiş/Gordonia ilhak günü okunan sayfalarda yok. Atlasın 'Ingiltere, Yeni Gine himayesi' DEVRALMA kaynağı Upington'a özgü değildir. Bakılan: sahistory.org.za Upington, Gordonia Division, Kora, Dawid Kruiper; Cape ilhak tarihi bulunamadı."
+  }
+ ],
+ "Griquatown": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2233",
+   "alan": "s",
+   "d": "griqua",
+   "f": "1804-01-01",
+   "t": "1878-01-01",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Griqua' — https://sahistory.org.za/article/griqua (okundu)",
+   "alinti": "on 27 October 1871 the diamond fields were proclaimed a British territory under the name of Griqualand West.",
+   "oneri": {
+    "t": "1871-10-27"
+   },
+   "not": "f ucu: 1804'te LMS misyonerleriyle Orange'ın kuzeyine yerleşme (YIL) teyitli. t ucu: SAHO 1871-10-27 Griqualand West İngiliz toprağı ilan edildi (Waterboer adına), 1873 Crown Colony; 1879 Cape ilhakı (SAHO land-dispossession zaman çizelgesi, okundu). Atlas 1878 ucu SAHO'da 1878 Griqua/Kora isyanıyla ilgili, bölge düzeyi. ÖLÇÜT: idareye katma — Barkly ilanı. Griquatown'un Waterboer toprağında olması bölge düzeyi."
+  }
+ ],
+ "Springbok": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2266",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1852-01-01",
+   "t": "1910-05-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Springbok, Namaqualand' (okundu: tarih yok) ; 'Namaqualand' / 'Hondeklipbaai' arama sonuçları (arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "SAHO Springbok sayfası kuruluş/ilhak tarihi vermiyor; arama özeti: Springbok 1863'te kuruldu, ilk civil commissioner 1860'ta Komaggas'ta, bakır sevkiyatı 1852 (okunmadı). Küçük Namaqualand'ın Cape'e katılış tarihi bulunamadı; atlas f=1852 teyitsiz. Bakılan: sahistory.org.za Springbok, Namaqualand, Hondeklipbaai."
+  }
+ ],
+ "Philippolis": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2281",
+   "alan": "s",
+   "d": "griqua",
+   "f": "1804-01-01",
+   "t": "1878-01-01",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Griqua' (okundu) ; 'Colonial history of Bloemfontein' — https://sahistory.org.za/article/colonial-history-bloemfontein (okundu)",
+   "alinti": "In 1860, Adam Kok III trekked from the vicinity of Philippolis, where they had lost their lands.",
+   "oneri": {
+    "t": "1861"
+   },
+   "not": "Atlas t=1878 SAHO ile çelişiyor: Philippolis Griquaları (Adam Kok III) 1860'ta ayrıldı, toprakları 1861'e dek sattı, 1862'de No Man's Land'e vardı; Griqualand West (1871) Philippolis'i içermez. Atlas zincirinde sonraki 'ingiltere 1878-1910' YANLIŞ görünüyor: Philippolis 1854'ten (Bloemfontein Sözleşmesi 23 Şubat 1854; 11 Mart 1854 İngiliz çekilişi) Orange Free State topraklarında (SAHO). Yeni dönem önerisi: s: orange-serbest-devlet ~1861/62 → 1900 (künye bakılmalı). 1804 f ucu bu yer için teyitsiz (1804 Griquatown/Klaarwater yerleşimi)."
+  }
+ ],
+ "Kalvinia": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2298",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1847-01-01",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Calvinia' — https://sahistory.org.za/place/calvinia (okundu)",
+   "alinti": "Calvinia was founded on the Farm-'Hoogekraal', in 1845.",
+   "oneri": {
+    "f": "1845"
+   },
+   "not": "SAHO: Hantam/Calvinia 1845'te Hoogekraal çiftliğinde kuruldu, 1851'de Calvinia adını aldı. Atlas f=1847 SAHO ile uyuşmuyor (YIL). Kap Kolonisi İngiliz idaresi 1806'dan beri (SAHO zaman çizelgesi) — ülke düzeyinde 'ingiltere' doğru; yerleşim f ucu için 1845 kuruluş yılı (yalnız yıl)."
+  }
+ ],
+ "Gcuva (Butterworth)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2314",
+   "alan": "s",
+   "d": "xhosa",
+   "f": "1281-01-01",
+   "t": "1878-01-01",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'Timeline of Land Dispossession 1800-1899' (okundu) ; 'Butterworth, Wild Coast' (okundu: 1827 misyon)",
+   "alinti": "Gcalekaland and Thembuland are incorporated into the Cape Colony.",
+   "oneri": {
+    "t": "1885"
+   },
+   "not": "SAHO zaman çizelgesi: 1885'te Gcalekaland Cape Kolonisi'ne katıldı (YIL). Atlas t=1878 Kreli'nin 1878 yenilgisi (arama özeti: Şubat 1878 Kentani, Haziran teslim; okunmadı); aynı özet 1879'da Gcalekaland'in resmen ilhak edilmediğini ama Cape'ce yönetildiğini söylüyor. ÖLÇÜT: idareye katma = 1885 (resmî); 1878-79 geçici/askerî. f=1281 Xhosa ufku (atlas ufku, kaynak yok; Butterworth misyonu 1827 kasaba tarihidir)."
+  }
+ ],
+ "Grahamstown": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2334",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1812-08-14",
+   "t": "1910-05-31",
+   "hukum": "ONERI",
+   "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'De Rietfonteyn: Founding of Grahamstown' (Elron Kleinhans) — https://sahistory.org.za/archive/adapted-de-rietfonteyn-founding-grahamstown-elron-kleinhans (okundu)",
+   "alinti": "On 14 August 1812, the Cape Governor proclaimed the establishment of a town at De Rietfonteyn",
+   "oneri": {},
+   "not": "SAHO eğitim sitesi, tek dayanak olamaz (LAB SALI/EMRELİC kuralı) — KAYNAKLI'dan indirildi; akademik ikinci kaynak gerek (ör. Shillington 1985). | [alıntı özetten] | f ucu GÜN düzeyinde teyitli (Cape Valisi kasabanın kuruluşunu ilan etti, Graham's Town adı). Sahip: Cape Kolonisi (İngiliz, 1806'dan; SAHO timeline). t=1910-05-31 ülke düzeyi, okunmadı."
+  }
+ ],
+ "Barkol (Balikun / Zhenxi)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:43",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1715-01-01",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao 卷8 聖祖本紀三 — https://zh.wikisource.org/wiki/清史稿/卷8 ; Qing shi gao 卷76 地理志 鎮西直隸廳 — https://zh.wikisource.org/wiki/清史稿/卷76 (ikisi de okundu)",
+   "alinti": "布隆吉爾散秩大臣阿喇衲赴巴爾庫爾參贊軍事。 ; 雍正七年，建城於巴爾庫勒，改名巴里坤。",
+   "oneri": {},
+   "not": "Qing shi gao'da Barkol'un (巴爾庫爾) en erken kaydı 康熙五十五年冬十月丙午 (Arana'nın askerî iş için Barkol'a gönderilmesi) ve 康熙五十六年 屯田 (askerî tarım kolonisi); 康熙五十四年 kaydı Hami'yi anıyor, Barkol'u adıyla değil. 雍正七年 şehir kuruldu (Barkol→巴里坤), 乾隆三十八年 鎮西府. Atlasın f=1715 (Perdue snippet: 'in 1715 he began active efforts to establish colonies at ... Barköl') Qing shi gao ile YIL düzeyinde ±1 uyumlu ama okunan kayıt 1716; seçmedim. ÖLÇÜT: geçici/askerî (1716 Çungar karşıtı garnizon) — idareye katma belgesi (şehir kuruluşu) 雍正七年, 1729. Ay-güneş günleri çevrilmedi (Academia Sinica ile çevrilecek). t ucu 1912-02-12: ülke düzeyi, okunmadı."
+  }
+ ],
+ "Klagenfurt": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:111",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1335-05-01",
+   "t": "1918-11-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "NDB 'Ludwig der Bayer' (Neue Deutsche Biographie, deutsche-biographie.de/gnd118574957.html, okundu) ; Treccani 'Carinzia' (okundu)",
+   "alinti": "1335 war Kärnten ... an die habsburg. Herzöge verliehen worden ; Nel 1335 divenne possesso degli Asburgo",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu AY düzeyinde teyitli: NDB «Anfang Mai 1335» (Kaiser Ludwig Kärnten'i Habsburg dukalarına tevcih etti); Treccani yalnız 1335. Atlas günü 05-01 'Anfang Mai' yaklaşımıdır (gün teyitsiz). t ucu 1918-11-12: Treccani 'Dopo il crollo della monarchia (1918)' yalnız YIL; 12 Kasım 1918 günü bu iki sayfada yok. BİLİNEN EKSİK: 1919 Haziran-Temmuz SHS işgali ve 1920-10-10 plebisiti Treccani'de gün vermiyor (plebisit 'favorevole all'Austria')."
+  }
+ ]
+}

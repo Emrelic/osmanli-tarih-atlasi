@@ -1,0 +1,531 @@
+{
+ "Fort Chipewyan": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:418",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1788-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, 'Mackenzie, Alexander', Cilt V — https://www.biographi.ca/en/bio/mackenzie_alexander_5E.html",
+   "alinti": "In 1788 he sent his cousin Roderick, now serving with him, to build",
+   "uc": "f",
+   "oneri": {},
+   "not": "t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). f ucu yıl düzeyi: 1788 (ilk Fort Chipewyan, Athabasca gölü güney kıyısı)."
+  }
+ ],
+ "Fort Langley": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:774",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1827-01-01",
+   "t": "1871-07-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Parks Canada, Fort Langley NHS history — https://parks.canada.ca/lhn-nhs/bc/langley/culture/histoire-history",
+   "alinti": "Built in 1827, Fort Langley was a Hudson’s Bay Company fur trading post.",
+   "uc": "f",
+   "oneri": {},
+   "not": "f yıl düzeyi 1827 (devletin resmî tarih sayfası). t 1871-07-20: British Columbia Terms of Union, OIC 16 Mayıs 1871, yürürlük 1871-07-20 (laws-lois.justice.gc.ca ConstRpt/endnotes, okundu), ÜLKE DÜZEYİ."
+  }
+ ],
+ "Fort Dunvegan": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:496",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1805-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "HistoricPlaces.ca (Canadian Register, Parks Canada), Fort Dunvegan NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=18983&pid=0",
+   "alinti": "In 1805 Archibald Norman McLeod established the new North West Company’s Fort Dunvegan",
+   "uc": "f",
+   "oneri": {},
+   "not": "t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). f yıl 1805."
+  }
+ ],
+ "Fort McLeod (Britanya Kolumbiyası)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:534",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1805-01-01",
+   "t": "1871-07-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "HistoricPlaces.ca (Canadian Register), Fort McLeod NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=16523",
+   "alinti": "founded in 1805, it was the site of the first fur-trading post",
+   "uc": "f",
+   "oneri": {},
+   "not": "f yıl 1805 (post 1823'te yakına taşındı; mevcut koordinat McLeod Lake). t 1871-07-20 BC Terms of Union ÜLKE DÜZEYİ (Justice Laws endnotes)."
+  }
+ ],
+ "Fort George (Prince George)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:578",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1807-01-01",
+   "t": "1871-07-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "BC Geographical Names (BC hükûmeti), Prince George — https://apps.gov.bc.ca/pub/bcgnws/names/21226.html",
+   "alinti": "a trading post founded in 1807 by Simon Fraser of the North West Company",
+   "uc": "f",
+   "oneri": {},
+   "not": "f yıl 1807. DCB Fraser (fraser_simon_9E) Fort George'u 1807 sonrası 'aradaki sürede' kurulmuş gösterir, yıl vermez; Parks Canada bağlantılı bir sayfa 1806 diyor (arama özeti, okunmadı). t 1871-07-20 BC Terms of Union ÜLKE DÜZEYİ."
+  }
+ ],
+ "Fort Good Hope (Rádeyı̨lı̨kóé)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:178",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1805-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "DCB Bell, John (bell_john_1868_9E; Good Hope 1825-26 bahsi, kuruluş yılı yok); HistoricPlaces Church of Our Lady of Good Hope id=1207 (kilise 1865-85, post kuruluşu yok); web araması",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Kuruluş yılı 1805 hiçbir okunmuş kaynakta yok (HBC/NWC Mackenzie nehri postu). t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu)."
+  }
+ ],
+ "Fort Frontenac (Kingston)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1010",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1673-01-01",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "HistoricPlaces.ca (Canadian Register), Fort Frontenac NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=12130",
+   "alinti": "Fort Frontenac, located at the confluence of the Cataraqui River and Lake Ontario, was established in 1673",
+   "uc": "f",
+   "oneri": {
+    "t": "1758-08 (Bradstreet'in alışı, gün kaynakla)",
+    "not": "sonra isg ingiltere → 1763-02-10 s: ingiltere"
+   },
+   "not": "KARAR EMRELİC (gece-124): ONAY isg ingiltere 1758-08 (Bradstreet) → s: ingiltere 1763-02-10 (Paris; İngiltere yönetiyordu → imza). | f yıl 1673 (DCB Frontenac de aynı yıl: https://www.biographi.ca/en/bio/buade_de_frontenac_et_de_palluau_louis_de_1E.html). t 1763-02-10 Paris Antlaşması ÜLKE DÜZEYİ; ancak fort Ağustos 1758'de Bradstreet'e düştü/yıkıldı (arama özeti) — 1758-1763 arası alt-bölge istisnası olabilir, atlas t'si okunan kaynakla teyit edilmedi."
+  }
+ ],
+ "Fort Nascopie (Petitsikapau)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:546",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1838-01-01",
+   "t": "1867-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, 'Erlandson, Erland', Cilt X — https://www.biographi.ca/en/bio/erlandson_erland_10E.html",
+   "alinti": "in 1838 he built Fort Nascopie on an arm of Lake Petitsikapau",
+   "uc": "f",
+   "oneri": {
+    "t": "1949-03-31",
+    "not": "1867 kanada kalkar; s: ingiltere 1809 → newfoundland-dominyonu 1855-01-01 → komisyon 1934-02-16 → kanada 1949-03-31"
+   },
+   "not": "KARAR EMRELİC (gece-126): Labrador 1809–1854 s: ingiltere (koloni künyeleri Emre listesinde; o güne dek metropol künyesi; newfoundland-dominyonu f GENİŞLETİLMEZ). Zincir: s: ingiltere 1809 (Labrador'un Newfoundland'a bağlanışı, kaynakla) → newfoundland-dominyonu 1855-01-01 → newfoundland-komisyon-hukumeti 1934-02-16 → kanada 1949-03-31; iç Labrador tartışması ve 1927 JCPC ic_not. | LAB SALI (origin/main ölçümü): newfoundland-dominyonu (1855-01-01 → 1934-02-16) + newfoundland-komisyon-hukumeti (→ 1949-03-31); 1867 kanada kalkar; 1855 öncesi Newfoundland kolonisi künyesi YOK (Labrador 1809'dan bağlı). | KARAR EMRELİC (gece-124): Labrador iç kesimi alt-bölge istisnası: t 1867-07-01 KALKAR; Labrador 1949'a dek Newfoundland'ın, zincir buna göre; 1927 JCPC kararı ic_not. | f yıl 1838. UYARI t ucu: Petitsikapau Labrador iç kesimidir (Newfoundland/Labrador); 1867-07-01 Konfederasyon ÜLKE DÜZEYİ geçmez, alt-bölge istisnası (Labrador sınırı 1927 JCPC) olabilir — teyit edilmedi."
+  }
+ ],
+ "Fort Rae (Behchokǫ̀)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:282",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1852-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Northwest Territories hükûmeti, Behchokǫ̀ — https://www.gov.nt.ca/careers/en/behchok%C7%AB%CC%80",
+   "alinti": "Behchokǫ̀ was founded in 1852 as a Hudson’s Bay Company post",
+   "uc": "f",
+   "oneri": {},
+   "not": "t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). f yıl 1852; NWT gazetteer'i (arama özeti, okunmadı) Old Fort Rae'nin eski yerden bugünkü Behchokǫ̀'ye taşındığını söylüyor — konum çekincesi."
+  }
+ ],
+ "Fort Connolly (Bear Lake)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:488",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1826-01-01",
+   "t": "1871-07-20",
+   "hukum": "ONERI",
+   "kaynak": "BC Geographical Names — https://apps.gov.bc.ca/pub/bcgnws/names/2719.html ; DCB 'Douglas, James' (arama özeti, okunmadı)",
+   "alinti": "Fort Connolly (also spelled Connelly) was established in 1826 by James Douglas",
+   "uc": "f",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-124): DCB akademik → 1827 KAYNAKLI-çekinceli; BC Geographical Names 1826 ic_not; inşaat başlangıç/bitiş ise erken olan alt sınır. | ÇELİŞKİ: BC GN 1826; DCB Douglas 'dispatched 15 May 1827 to establish Fort Connolly' (yalnız arama özeti). İki kaynak da yazıldı, seçilmedi. t 1871-07-20 BC Terms of Union ÜLKE DÜZEYİ."
+  }
+ ],
+ "Fort Carlton": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:636",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1795-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "kaynak": "HistoricPlaces.ca (Canadian Register), Carlton House NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=18986&pid=0",
+   "alinti": "first established in 1795 below the forks of the North and South Saskatchewan rivers",
+   "uc": "f",
+   "oneri": {
+    "f": "1810"
+   },
+   "not": "KARAR EMRELİC (gece-124): f 1810 ONAY (koordinat-kaynak uyumu). | Atlas koordinatı 1810 sonrası yerleşik Fort Carlton'a (52.86,-106.53) ait; kaynak 1795 ilk postun başka yerde (Saskatchewan çatalı aşağısı) olduğunu, ~150 km güneybatıya 1810'da taşındığını söylüyor (Construction Date 1810). Öneri f=1810 (yalnız yıl). t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). "
+  }
+ ],
+ "Fort Macleod": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:755",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1874-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "HistoricPlaces.ca (Canadian Register), Fort Macleod NHS — https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=1140&pid=0",
+   "alinti": "In 1874, the Assistant-Commissioner of the North West Mounted Police, James F. Macleod",
+   "uc": "f",
+   "oneri": {},
+   "not": "f yıl 1874 (NWMP Macleod Adası'nda ilk fort; 1883'te yüksek zemine taşındı). Gün teyitsiz."
+  }
+ ],
+ "Fort McKenzie (Ungava)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:469",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1916-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Commission de toponymie du Québec, Fort Mackenzie — https://toponymie.gouv.qc.ca/ct/ToposWeb/Fiche.aspx?no_seq=82107",
+   "alinti": "De 1916 à 1948, un poste de traite de la Compagnie de la Baie d’Hudson se trouvait à cet endroit",
+   "uc": "f",
+   "oneri": {},
+   "not": "f yıl 1916 (HBC postu, Fort Chimo'nun öncüsü olarak). Gün teyitsiz; Ungava'nın 1912'den beri Quebec/Kanada olduğu okunmadı."
+  }
+ ],
+ "Fort Abercrombie (Kızıl Irmak vadisi)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:916",
+   "alan": "s",
+   "d": "abd",
+   "f": "1858-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "State Historical Society of North Dakota, Fort Abercrombie history — https://www.history.nd.gov/historicsites/abercrombie/abercrombiehistory.html",
+   "alinti": "On August 28, 1858, Lieutenant Colonel John J. Abercrombie established the fort",
+   "uc": "f",
+   "oneri": {
+    "f": "1858-08-28"
+   },
+   "not": "KARAR EMRELİC (gece-124): f 1858-08-28 ONAY (NDSHS resmî). | Kaynak gün veriyor: 1858-08-28 (atlas 1858-01-01). Fort 1859-60'ta yüksek zemine taşındı."
+  }
+ ],
+ "Fond du Lac (Athabasca Gölü)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:399",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1851-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "DCB Grollier, Pierre-Henri (grollier_pierre_henri_9F; okundu); arama DCB/HistoricPlaces",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Okunan tek ipucu: HBC Fond-du-Lac postunu 1853 öncesi 'yakın zamanda yeniden kurmuş' (DCB Grollier) — yıl verilmiyor; f 1851 teyit edilemedi. t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu)."
+  }
+ ],
+ "Dolo Odo": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:598",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Harar (islamansiklopedisi.org.tr/harar, okundu: 1577 Webi savaşı); TDV Adal arama sayfası",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-124): AOI 1936-06-01 ONAY. | TDV Harar 1577'yi veriyor (Emir Muhammed öldü) = yalnız t ucu için ipucu; Dolo Odo'nun 1281'de Adal/İfat'a ait olduğuna dair kaynak yok (Adal künyesi f şüpheli: Adal 15. yy.)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:598",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "kaynak": "Enciclopedia Italiana (Treccani, 1929-37 kökenli, İPUCU) 'Africa Orientale Italiana' — https://www.treccani.it/enciclopedia/africa-orientale-italiana_res-13a6efa4-87e5-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/",
+   "alinti": "proclamata il 9 maggio 1936",
+   "uc": "f",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-124): AOI 1936-06-01 ONAY. | ÖNCEKİ KARAR: AOI 1936-06-01 (Treccani Dizionario di Storia, kraliyet kararnamesi) korunur; 1936-05-09 ilhak kararnamesi ic_not (EI kökenli ipucu). | Annexation proclaimed 9 Mayıs 1936 (Treccani; Royal Decree-Law 754, history.state.gov frus1936v03/d226, arama özeti). 1936-06-01 AOI günü BULUNAMADI. Dolo Odo'nun fiilî İtalyan alış günü bakılmadı (TEK ÖLÇÜ). t 1941-11-30 Gondar günüdür; TDV Etiyopya: 5 Mayıs 1941 Hâile Selâsiye dönüşü. İpucu sınıfı: ONERI."
+  }
+ ],
+ "Dusa Mareb": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1094",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Somali (okundu)",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-124): Alula modeli doğru ama yer Hobyo sultanlığı alanında (Majerteen değil): İtalyan koruması 1888-12-23 Hobyo antlaşması, fetih 1925–26 (günler kaynakla); toplu somali künyesi kalır. | TDV yalnız 1927 işgalini söylüyor (t ucu); alıntı yalnız t ucunu tarihliyor. f 1281 için kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1094",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
+   "uc": "f",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-124): Alula modeli doğru ama yer Hobyo sultanlığı alanında (Majerteen değil): İtalyan koruması 1888-12-23 Hobyo antlaşması, fetih 1925–26 (günler kaynakla); toplu somali künyesi kalır. | ÖNCEKİ KARAR (gece-116 Alula emsali): 1889 koruma → s: somali + v: italya; 1927 fethiyle doğrudan idare s: italyan-somali (TAHRİR); isg değil. | TDV 'işgal' diyor, yıl 1927. Tahrir ölçütü: kaynak idareye katmayı söylemiyor; Emre'ye: s mi isg mi. Britannica/EBSCO arama özeti: 1926-27'de iki kuzey protektora İtalyan Somali'sine 'firmly incorporated'."
+  }
+ ],
+ "Dzaoudzi (Mayotte)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:8",
+   "alan": "s",
+   "d": "fransiz-komorlari",
+   "f": "1886-01-01",
+   "t": "1975-07-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Komor Adaları (okundu)",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "TDV 1886 Fransız Komorları'nı veya Mayotte'un statü tarihini vermiyor; yalnız 'Fransa bu kararı 6 Temmuz 1975'te tanıdı' (üç adanın bağımsızlığı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:8",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1975-07-06",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Komor Adaları (okundu); Senato raporları (senat.fr, SSL hatası/okunmadı)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "TDV: Mayotte 'halen özel bir statüyle Fransa’ya bağlıdır'; 1975-07-06 Komor tek taraflı ilanı (arama özeti: Senato 1975-76 raporu). Mayotte'un hukukî ayrılış günü 31 Aralık 1975 yasası/1976 referandumları olabilir; okunmadı."
+  }
+ ],
+ "Filingue": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:291",
+   "alan": "s",
+   "d": "adar",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Nijer (okundu)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "TDV Nijer 1899'u vermiyor; Adar için ayrı kaynak bulunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:291",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nijer — https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "eskiden Fransız sömürgesi iken 3 Ağustos 1960’ta bağımsızlığına kavuşmuştur",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Nijer'in bağımsızlığı 3 Ağustos 1960 (gün düzeyi). Treccani Dizionario di Storia da 1960 (yıl)."
+  }
+ ],
+ "Donegal": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:160",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "DIB Ruaidhrí O'Donnell (dib.ie, HTTP 307 yönlendirme, okunamadı); arama özeti",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "LAB SALI (origin/main ölçümü): zincir uyumlu, bitişik: irlanda-dail-cumhuriyeti → irlanda-serbest-devlet (→ 1937-12-29) → irlanda-cumhuriyeti (f 1937-12-29); değişiklik gerekmez. | KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | 1603-03-30 Mellifont, Tyrone'un teslimidir; Tír Chonaill lordu Ruaidhrí Aralık 1602'de Athlone'da teslim oldu, 1603'te kontluk (arama özeti). Donegal için gün teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:160",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Irish Statute Book, Constitution (Consequential Provisions) Act 1937, Commencement — https://www.irishstatutebook.ie/eli/isbc/1937_40.html",
+   "alinti": "Whole Act 29 D",
+   "uc": "f",
+   "oneri": {},
+   "not": "LAB SALI (origin/main ölçümü): zincir uyumlu, bitişik: irlanda-dail-cumhuriyeti → irlanda-serbest-devlet (→ 1937-12-29) → irlanda-cumhuriyeti (f 1937-12-29); değişiklik gerekmez. | KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | Alıntı pencere sınırında kesik ('Whole Act 29 D') — tam '29 December 1937' metni başka makinede gözle teyit edilecek. | Resmî devlet yayını: Commencement tablosu 'Whole Act 29 D[ecember 1937]' (sayfa.py çıktısı pencere sınırında kesildi). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Douglas (Arizona)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1850",
+   "alan": "s",
+   "d": "abd",
+   "f": "1905-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "City of Douglas, About Douglas — https://www.douglasaz.gov/441/About-Douglas",
+   "alinti": "Founded in 1901 and incorporated four years later",
+   "uc": "f",
+   "oneri": {
+    "f": "1901"
+   },
+   "not": "KARAR EMRELİC (gece-124): f 1901 şehrin kendi sitesi (ipucu) → ONERI-güçlü. | Şehir 1901'de kuruldu, 1905'te belediye oldu; atlas f=1905 belediye yılı. Öneri f=1901 (yalnız yıl; kurum sitesi — İPUCU-artı). ABD egemenliği bölgede Gadsden 1853-56'dan beri."
+  }
+ ],
+ "Dubbo": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:264",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1841-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "ADB Dulhunty (robots yasağı); Dubbo Regional Council CBD planı (robots yasağı); NSW Heritage arama özeti",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Arama özeti: Dubbo run 1829-1833, köy 1849 gazete; f 1841 teyit edilemedi. t 1901-01-01 Federasyon: kaynak okunmadı."
+  }
+ ],
+ "Dudinka": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:250",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1667-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bolşaya Rossiyskaya Entsiklopediya https://old.bigenc.ru/geography/text/1969887 (bağlantı zaman aşımı, başka makinede okunmalı); https://my.krskstate.ru/docs/urbans/gorod-dudinka/ (zaman aşımı)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Arama özeti BRE: 1667 yasak zimovye (okunmadı). t 1917-03-15 kaynak aranmadı."
+  }
+ ],
+ "Durango (Victoria de Durango)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:109",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1563-07-08",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "INAFED (Meksika federal hükûmeti), Hace 456 años se fundó la Villa de Durango — https://www.gob.mx/inafed/articulos/hace-456-anos-se-fundo-la-villa-de-durango",
+   "alinti": "El 8 de julio de 1563, Francisco de Ibarra y su pequeño ejército, fundaron la Villa de Durango",
+   "uc": "f",
+   "oneri": {},
+   "not": "f 1563-07-08 gün düzeyi. t 1821-09-27 ÜLKE DÜZEYİ okunmadı."
+  }
+ ],
+ "Elorza": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1538",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1859-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "gob.ve (minec, mincultura) arama özetleri; kurum portalı",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Özet: 1774 San José de Arichuna misyonu, 1866 Elorza adı, Venezuela–Kolombiya sınırı 1866'ya dek Arauca nehri — f=1859 kaynak yok; ipucu f=1774 (okunmadı). Kolombiya/Venezuela egemenliği belirsiz."
+  }
+ ],
+ "Essey": [
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:259",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1630-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "my.krskstate.ru arama (Ессей = Evenki, Yakut nüfus); bigenc",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "1630 Rus kuruluşu için kaynak bulunamadı."
+  }
+ ],
+ "Exeter": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:73",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Britannica (403), British History Online (challenge sayfası)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Okunabilir kaynak yok; ülke düzeyi İngiltere krallığı kaynağı aranmadı."
+  }
+ ],
+ "Falun": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:351",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO WHC 1027 (okundu; sayfa.py 1288 bulmadı); arama özeti: en eski belge 1288, madencilik 8-9. yy",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "1281'de Falun'un İsveç'te olduğunu veya 1523-06-06 (Gustav Vasa) ucunu dayandıran okunmuş kaynak yok."
+  }
+ ],
+ "Floridablanca (San Julián)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:156",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1780-01-01",
+   "t": "1784-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "'Trapitos al sol: Análisis de textiles de la colonia española de Floridablanca', SciELO Argentina 2006 — https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1850-373X2006000100001",
+   "alinti": "cuyo rango de ocupación se extendió de 1780 a 1784",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "Yıl düzeyi f=1780, t=1784 (hakemli arkeoloji makalesi). Gün teyitsiz; arama özeti: Kasım 1780 kuruluş, Ocak 1784 yakılış."
+  }
+ ],
+ "Foggia": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:532",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1861-02-13",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Napoli, Regno di (modern madde) — https://www.treccani.it/enciclopedia/regno-di-napoli/",
+   "alinti": "plebiscito del 21 ott. 1860 con cui fu sancita l’annessione",
+   "uc": "t",
+   "oneri": {
+    "t": "1860-10-21"
+   },
+   "not": "LAB SALI (origin/main ölçümü): Garibaldi diktatörlüğü künyesi YOK, aday (Sicilya 1860-05-14 Salemi, anakara 1860-09-07, ilhak 1860-12-17). Zincir: napoli → Garibaldi fiilî (1860-09) → 1860-12-17 sardinya-piyemonte → 1861-03-17 italya; napoli t 1861-02-13 (Gaeta) Bourbon direnişi için doğru. | KARAR EMRELİC (gece-124): TAHRİR (Toskana/Piombino emsali): s: italya/sardinya 1860-12-17 (ilhak kararnamesi); iki-sicilya t = Garibaldi kuvvetlerinin Foggia'yı fiilen denetimi (1860-09, kaynakla); o günden 12-17'ye 'Garibaldi diktatörlüğü' BEYANLI (rakip hükûmet; künye adayı LAB SALI); plebisit 1860-10-21 ve Gaeta 1861-02-13 ic_not. | TAHRİR/TEK ÖLÇÜ sorusu: Garibaldi diktatörlüğü 1860-09 → plebisit 1860-10-21 → ilhak kararnamesi 1860-12-17; Gaeta 1861-02-13 Bourbon kapitülasyonu Foggia'yı tarihlemez — EMRELİC'e soruldu. | Kaynak anneksiyonu 21 Ekim 1860 plebisiti diyor (ÜLKE DÜZEYİ); atlas t=1861-02-13 (Gaeta). TEK ÖLÇÜ: Foggia'nın fiilî teslim günü bilinmiyor; plebisit ≠ teslim, karar Emre'ye. f 1281 kaynak yok."
+  }
+ ]
+}

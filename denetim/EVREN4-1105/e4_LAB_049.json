@@ -1,0 +1,542 @@
+{
+ "Lleida": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1110-01-01",
+   "t": "1149-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/lleida",
+   "alinti": "fou conquerida als sarraïns per les forces de Ramon Berenguer IV de Barcelona / Ermengol VI d’Urgell el 24 d’octubre de 1149",
+   "oneri": {
+    "t": "1149-10-24"
+   },
+   "not": "KARAR EMRELİC (gece-130): ONAY 1149-10-24 (GEC, Jülyen); Urgell vasallığı ic_not; Frankocu alış 1938-04-04 ONAY. | t ucu gün düzeyinde: GEC Lleida fetih 1149-10-24 (atlas 1149-01-01 yıl yer tutucu). 1110-1149 Murâbıt sahibi için yerleşime özgü tanık yok: GEC yalnız 'domini almoràvit' (Almenarilla maddesi) diyor, TDV Murâbıtlar Lâride'yi 1149'da Katalonya'nın aldığını söyler; f 1110 ve sahip BULUNAMADI (TDV Murâbıtlar, TDV Hûdîler, GEC Lleida arandı). Boşluk merdiveni ⑤ abi merkez (Zaragoza) kaynağı bu bütçede bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "barselona-kontlugu",
+   "f": "1149-01-01",
+   "t": "1164-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/lleida",
+   "alinti": "fou conquerida als sarraïns per les forces de Ramon Berenguer IV de Barcelona / Ermengol VI d’Urgell el 24 d’octubre de 1149",
+   "oneri": {
+    "f": "1149-10-24"
+   },
+   "not": "KARAR EMRELİC (gece-130): ONAY 1149-10-24 (GEC, Jülyen); Urgell vasallığı ic_not; Frankocu alış 1938-04-04 ONAY. | f ucu gün düzeyinde: 24 Ekim 1149. GEC: egemenlik doğrudan Barcelona kontuna (Ramon Berenguer IV), Urgell kontuna fief olarak verildi ('sobirania directa ... al de Barcelona, que la concediria en feu al d’Urgell'). TDV Endülüs/Murâbıtlar da 'Lâride (1149)' diyor. t 1164 ucu (Aragon) kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1164-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "GEC Lleida (https://www.enciclopedia.cat/gran-enciclopedia-catalana/lleida), TDV Murâbıtlar, Treccani Lérida: 1164 ya da Aragon egemenliğini tarihleyen cümle yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): ONAY 1149-10-24 (GEC, Jülyen); Urgell vasallığı ic_not; Frankocu alış 1938-04-04 ONAY. | Bakılan: GEC Lleida (1164 yalnız Rufea köy bağışı), Treccani Lérida ('passò poi ai re di Aragona', yıl yok). Barselona-Aragon 1164 ayrımı yerleşim düzeyinde kaynaksız; Katalonya Kontluğu-Aragon Krallığı birliği (Petronila 1137) Lleida için ayrı hüküm gerektirebilir, bu bütçede bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "GEC Lleida; Treccani Lérida (https://www.treccani.it/enciclopedia/lerida/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): ONAY 1149-10-24 (GEC, Jülyen); Urgell vasallığı ic_not; Frankocu alış 1938-04-04 ONAY. | 1281 (devlet adı aynı 'aragon', iç bölünme) ve 1479-01-19 (ispanya künyesi) ucunu tarihleyen Lleida'ya özgü cümle bulunamadı; GEC Lleida'da 1479/1469 geçmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1938-04-04",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola",
+   "alinti": "Lleida caigué el 4 d’abril de 1938",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): ONAY 1149-10-24 (GEC, Jülyen); Urgell vasallığı ic_not; Frankocu alış 1938-04-04 ONAY. | f ucu gün düzeyinde: Frankocu birliklerin Lleida'yı alışı 4 Nisan 1938 (fiilî kontrol/rakip hükûmet kuralı). Sivil savaşta ilhak/işgal ayrımı yok."
+  }
+ ],
+ "Lambarene": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1109",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1874-01-01",
+   "t": "1960-08-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Gabon (https://islamansiklopedisi.org.tr/gabon); en.wikipedia Lambaréné (ipucu, 1874/1876 yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1874 f ucu yerleşime özgü kaynaklı bulunamadı. TDV Gabon maddesi Lambaréné'yi yalnız cami/şehir olarak anıyor. t 1960-08-17 için Librevil satırına bk. (ülke düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1109",
+   "alan": "s",
+   "d": "gabon",
+   "f": "1960-08-17",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/gabon",
+   "alinti": "The United States recognized Gabon on August 17, 1960 / On that date, Gabon’s independence from French Equatorial Africa was proclaimed",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Gabon bağımsızlık ilanı 1960-08-17 (ABD Dışişleri Tarihçisi Ofisi resmî yayını; tanınma değil 'independence ... was proclaimed' cümlesi). Lambaréné o tarihte ayrıca el değiştirmemiş."
+  }
+ ],
+ "Librevil (Libreville)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1053",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1849-08-17",
+   "t": "1960-08-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/libreville/",
+   "alinti": "Fondata nel 1849 da un gruppo di schiavi liberati, già base di penetrazione politica e commerciale della Francia",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1849; gün 08-17 teyitsiz). Treccani Enciclopedia on line güncel madde (2017 verili). Not: kuruluş özgürleşmiş kölelerce; Fransız tahkimi/üssü, egemenlik beyanı ayrı konu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1053",
+   "alan": "s",
+   "d": "gabon",
+   "f": "1960-08-17",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/gabon",
+   "alinti": "The United States recognized Gabon on August 17, 1960 / On that date, Gabon’s independence from French Equatorial Africa was proclaimed",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Gabon bağımsızlığı 1960-08-17 (resmî yayın)."
+  }
+ ],
+ "Makoku (Makokou)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1043",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Gabon; en.wikipedia (ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1900 kuruluş/Fransız karakolu tarihi akademik kaynakta bulunamadı (TDV Gabon'da Makokou geçmiyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1043",
+   "alan": "s",
+   "d": "gabon",
+   "f": "1960-08-17",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/gabon",
+   "alinti": "The United States recognized Gabon on August 17, 1960 / On that date, Gabon’s independence from French Equatorial Africa was proclaimed",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: 1960-08-17."
+  }
+ ],
+ "Lisala": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:969",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1890-01-01",
+   "t": "1908-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ, Belçika ilhakı 1908-11-15; atlas t ile uyumlu, değişiklik yok). f 1890 için yerleşime özgü akademik kaynak yok (Lisala kuruluş tarihi bulunamadı; Upoto istasyonu 1884/1888-89 Vikipedi ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:969",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Kongo bağımsızlığı 1960-06-30 (TDV). Yerleşim o tarihte ayrıca el değiştirmemiş."
+  }
+ ],
+ "Lusambo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1289",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1890-01-01",
+   "t": "1908-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ, Belçika ilhakı 1908-11-15; atlas t ile uyumlu, değişiklik yok). f 1890: Le Marinel'in Lusambo'yu seçmesi 1890 (Vikipedi ipucu; akademik kaynak okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1289",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Kongo bağımsızlığı 1960-06-30 (TDV). Yerleşim o tarihte ayrıca el değiştirmemiş."
+  }
+ ],
+ "Lutsk (Łuck)": [
+  {
+   "dosya_satir": "data/yerlesimler_p0037.js:117",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-10-24",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLutsk.htm",
+   "alinti": "It was annexed by Russia in 1795, and became a county center.",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): TAHRİR: isg sscb (Kızıl Ordu'nun Lutsk'a girişi, 1939-09 sonu; 09-17 sefer başlangıcı ülke düzeyi) → s: sscb 1939-11-01 (Yüksek Sovyet katma yasası, kaynakla); 11-14 UkrSSC katılımı ic_not. | f ucu YIL düzeyinde (Üçüncü Bölüşüm; gün 1795-10-24 teyitsiz). Encyclopedia of Ukraine (CIUS) 'Lutsk'. Yerleşime özgü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0037.js:117",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1939-09-17",
+   "t": "1991-08-24",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://encyclopediaofukraine.com/display.asp?linkpath=pages%5CL%5CU%5CLutsk.htm",
+   "alinti": "In 1939 Lutsk was occupied by the Soviets",
+   "oneri": {
+    "alan": "isg",
+    "not": "isg sscb 1939-09 → s: sscb 1939-11-01 (kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-130): TAHRİR: isg sscb (Kızıl Ordu'nun Lutsk'a girişi, 1939-09 sonu; 09-17 sefer başlangıcı ülke düzeyi) → s: sscb 1939-11-01 (Yüksek Sovyet katma yasası, kaynakla); 11-14 UkrSSC katılımı ic_not. | TEK KURAL: 1939-09-17 Sovyet işgali isg → ilhak (Batı Ukrayna'nın SSCB'ye katılışı, 1939-11-01/02 Yüksek Sovyet kararı, kaynakla) s:. | TEK KURAL: savaş işgali ilhaka dek isg. CIUS 'occupied' (1939, gün yok); Volhynia maddesi: 'In 1939 western Volhynia was occupied by the Soviet Army and annexed by the Ukrainian SSR'. İlhak günü (Kasım 1939) kaynakla bulunamadı; s: sovyet-rusya ilhak gününden başlamalı, 1939-09-17 işgal günü isg olarak yazılmalı. ÖLÇÜT: geçici/askerî->idareye katma ayrımı için ilhak günü araştırılmalı."
+  }
+ ],
+ "Le Havre": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:180",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1517-01-01",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/le-havre/",
+   "alinti": "Fondata da Francesco I nel 1517",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 KAYNAKLI (Assemblée nationale, 'la-convention-nationale-et-la-fin-de-la-royaute' sayfası; ajanın denediği /histoire/republique 404). | f ucu YIL düzeyinde (1517; atlas 1517-01-01 yıl yer tutucu). Treccani Enciclopedia on line; metin güncel (konteyner limanı), 1929-37 kökenli olabilir -> çekinceli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:180",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1517-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {
+    "t": "1792-09-21"
+   },
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 KAYNAKLI (Assemblée nationale, 'la-convention-nationale-et-la-fin-de-la-royaute' sayfası; ajanın denediği /histoire/republique 404). | t ucu: EMRELİC bilinen kararı 'Fransa Cumhuriyeti 1792-09-21' (Konvansiyon krallığı kaldırdı); atlas 1792-09-22. Bu bütçede okunmuş kaynak yok (assemblee-nationale.fr 404)."
+  }
+ ],
+ "Lacangayé": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:125",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1780-01-01",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "arama özeti (ipucu): Arias günlüğü 1780-81 (biblioteca.org.ar/libros/153820.pdf, gutenberg.org/ebooks/28967)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): ONERI; 1793 terk kaynakla gösterilirse sonrası kırpılır. | KAYNAKLI değil (okunmadı). Arama: Nuestra Señora de Dolores y Santiago de Lacangayé 1780-81'de Arias seferiyle kuruldu, 1793'te terk. Yer Arjantin Chaco'sunda. MERDİVEN ④: terk sonrası dönemde (1793-1810) yerleşim yok -> t kırpma adayı 1793; Arias günlüğü okunmalı."
+  }
+ ],
+ "Ladário": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:236",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1873-03-14",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "arama özeti (ipucu): marinha.mil.br/com6dn, 14/03/1873 Arsenal de Marinha inşaatı başlangıcı; belediye tarihi 1778 João Leme do Prado",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): ONERI; 1873 tersane, kuruluş değil; yerleşim kuruluşu (~1778) kaynakla. | KAYNAKLI değil. 1873-03-14 yerleşim değil arsenal inşaatının başlangıcı (Marinha duyuru listesi); yer 1778'den beri var -> imparatorluk dönemi f yerleşim kuruluşu değil 1822-09-07 olmalı (ipucu)."
+  }
+ ],
+ "Lagunillas (Cordillera)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:43",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1855-04-24",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama: 24 Nisan 1855 yasası doğrulanamadı; tur sitesi 1855 kuruluş (rahip Ramón Barba); Cordillera ili 1826 (EcuRed)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta bulunamadı. Not: il 1826'da kurulu; Bolivya egemenliği 1825-08-06'dan, f 1855 kuruluşa bağlı."
+  }
+ ],
+ "Lasanod": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:849",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (Las Anod, Adal/Ajuran bağlantısı yok); TDV Somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "Adal 1281-1577 yerleşime özgü teyit edilemedi; Las Anod dervişler/İngiliz Somaliland (1921) kaynakları var, bu dönem için yok."
+  }
+ ],
+ "Lengua misyonu (Paraguay Chaco)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:119",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "f": "1887-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "arama özeti (ipucu): SAMS Chaco ilk istasyonu 1880 sonları, Grubb 1889 (anglicanhistory.org, CONICET)",
+   "alinti": "",
+   "oneri": {
+    "f": "1889"
+   },
+   "not": "KARAR EMRELİC (gece-130): ipucu → ONERI. | KAYNAKLI değil. Atlas 1887; arama kaynakları 1889 diyor, 1887 doğrulanamadı. Chaco Paraguay/Bolivya sınır tartışmalı; misyon istasyonu sahiplik değil."
+  }
+ ],
+ "Lima (Ciudad de los Reyes)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:547",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1535-01-18",
+   "t": "1542-11-20",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Treccani Lima (https://www.treccani.it/enciclopedia/lima/): kuruluşu Pizarro'ya atfeder, tarih yok; Peru basını 18 Ocak 1535 (ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Akademik kaynakta gün bulunamadı. Peru basını/andina.pe 1535-01-18 acta tarihi diyor (ipucu)."
+  }
+ ],
+ "Livingstone": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1824",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1905-01-01",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.legislation.gov.uk/ukpga/1964/65/section/1",
+   "alinti": "On 24th October 1964 / shall cease to be a protectorate",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Zambia Independence Act 1964 s.1; 1964-10-24, atlas ile uyumlu). f 1905: arama kaynakları 1905'te Old Drift'ten taşınma diyor (ipucu; Treccani Livingstone kuruluş yılı vermiyor)."
+  }
+ ],
+ "Loei": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:315",
+   "alan": "s",
+   "d": "sukhothai",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (Loei tarihi: Lan Xang/Ayutthaya, 1907 il; Sukhothai bağı yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-130): Kaynaklar Lan Xang diyorsa ve en az biri akademikse s: lan-xang (künye VAR, LAB PAZAR ölçümü), Sukhothai dilimi kalkar; tek ipucuysa ONERI. | Sukhothai egemenliği Loei için bulunamadı; kaynaklar Lan Xang etkisi ve Chiang Saen göçmenleri diyor (ipucu). Dönem sahibi şüpheli."
+  }
+ ],
+ "Longreach": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:99",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "arama özeti (ipucu): Longreach 1887'de kasaba ilan edildi; queenslandplaces.com.au",
+   "alinti": "",
+   "oneri": {
+    "f": "1887"
+   },
+   "not": "KARAR EMRELİC (gece-130): ipucu → ONERI. | KAYNAKLI değil. Atlas f 1885; kasaba ilanı 1887. t 1901-01-01 (Federasyon) için legislation.gov.au metni çekilemedi (sayfa gövdesi boş)."
+  }
+ ],
+ "Loreto (Mojos)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:109",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1684-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "arama özeti (ipucu): Loreto Moxos'un ilk Cizvit redüksiyonu, 1682",
+   "alinti": "",
+   "oneri": {
+    "f": "1682"
+   },
+   "not": "KARAR EMRELİC (gece-130): ipucu → ONERI. | KAYNAKLI değil. Atlas 1684; arama kaynakları 1682. Akademik kaynak (Cizvit misyon literatürü) okunmadı. t 1825-08-06 bakılmadı."
+  }
+ ],
+ "Luleå": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:104",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://snl.no/Lule%C3%A5",
+   "alinti": "Byen ble først anlagt i 1621 ved den gamle Luleå kyrkby (nå Gammelstad), men flyttet i 1649",
+   "oneri": {
+    "sil": true,
+    "not": "f 1649 (bugünkü yer); 1281–1649 kırpılır"
+   },
+   "not": "KARAR EMRELİC (gece-130): f 1649 (atlas noktası bugünkü yer; f = varoluş); 1621 Gammelstad ic_not; 1281–1649 dilimi KIRPILIR; Gammelstad için ayrı nokta açılmaz. | Merdiven ④: şehir 1621 Gammelstad'da kuruldu, 1649'da bugünkü yere taşındı (SNL); atlas koordinatı 1649 konumu → öncesi kırpılır. | MERDİVEN ④: atlas koordinatı (65.604, 22.155) 1649'da taşınan modern kente ait; şehir 1621'de Gammelstad'da (başka konum) anlatıldı. Bu konumda 1523'e dek yerleşim yok -> dönem kırpılır. Isvec 1523-06-06 ucu bu satırda okunmadı (karar listesi)."
+  }
+ ],
+ "Lámud": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:145",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1861-02-05",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama: Vikipedi/Tierras Vivas 5 Şubat 1861 ilçe kuruluşu (ipucu); Peru Kongresi tablosu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Peru egemenliği 1824'ten; 1861 yerleşim değil idarî ilçe kuruluşu. Akademik kaynakta bulunamadı."
+  }
+ ],
+ "Mahacanga (Majunga)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1745",
+   "alan": "s",
+   "d": "sakalava-boina",
+   "f": "1690-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler",
+   "oneri": {
+    "t": "1897-01-27"
+   },
+   "not": "KARAR EMRELİC (gece-130): Toamasina kararıyla tutarlı: 1897-01-27 ONAY. | ÖNCEKİ KARAR (gece-90 Toamasina): TDV 1897-01-27 esas (s: fransa); 1896-08-06 ilhak kanunu ve 1897-02-28 kraliçenin sürgünü ic_not. | Alıntı yalnız t ucunu ve ülke düzeyinde (Merina Kraliçesi III. Ranavalona) tarihliyor. TDV 27 Ocak 1897; atlas 1897-02-28 -> ÇELİŞKİ, ikinci kaynak gerek (literatürde sürgün 28 Şubat 1897, ilhak yasası 6 Ağustos 1896). Sakalava-Boina (f 1690) ve Mahajanga'nın Merina fethi (1820'ler)/Fransız işgali (1895) modelsiz. SEÇME."
+  }
+ ],
+ "Mananjary": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1960",
+   "alan": "s",
+   "d": "antemoro",
+   "f": "1500-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler",
+   "oneri": {
+    "t": "1897-01-27"
+   },
+   "not": "KARAR EMRELİC (gece-130): Toamasina kararıyla tutarlı: 1897-01-27 ONAY. | ÖNCEKİ KARAR (gece-90 Toamasina): TDV 1897-01-27 esas (s: fransa); 1896-08-06 ilhak kanunu ve 1897-02-28 kraliçenin sürgünü ic_not. | Alıntı yalnız t ucunu tarihliyor; aynı çelişki (TDV 1897-01-27, atlas 1897-02-28). Antemoro f 1500 bulunamadı. Mananjary Merina/Antemoro durumu bakılmadı."
+  }
+ ],
+ "Manaus (Forte de São José do Rio Negro)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:229",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1669-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/manaus/",
+   "alinti": "Fu fondata come fortezza nel 1660 da F. da Mota Falcão",
+   "oneri": {
+    "f": "1660"
+   },
+   "not": "KARAR EMRELİC (gece-130): 1669 (São José da Barra kalesi) kalır; Treccani 1660 dizgi hatası şüphesiyle ic_not. | ÇELİŞKİ: Treccani 1660 diyor, atlas 1669 (literatürde São José da Barra do Rio Negro 1669). Treccani muhtemelen dizgi/yanlış; değişiklik önermeden önce ikinci kaynak gerek. SEÇME."
+  }
+ ],
+ "Lapaha (Muʻa)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:54",
+   "alan": "s",
+   "d": "tui-tonga-imparatorlugu",
+   "f": "1220-01-01",
+   "t": "1845-12-04",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (Tonga tarihi, royalark, globalsecurity; Britannica erişilemez); TDV 'tonga' maddesi yok (yalnız Tonga Alp Er)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Tuʻi Tonga 1220 f ve 1845-12-04 t ucu akademik kaynakta bulunamadı. Arama ipucu: Tupou I 4 Aralık 1845'te Tuʻi Kanokupolu olarak taç giydi (atlas t ile uyumlu, ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:54",
+   "alan": "s",
+   "d": "tonga-kralligi",
+   "f": "1845-12-04",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama (aynı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "tonga-kralligi f 1845-12-04 yerleşim için okunmuş kaynak yok; Tuʻi Tonga unvanı Laufilitonga'nın 1865 ölümünde Lapaha'da kapandı (arama ipucu)."
+  }
+ ]
+}

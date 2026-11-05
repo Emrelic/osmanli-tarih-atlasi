@@ -1,0 +1,572 @@
+{
+ "Manokwari": [
+  {
+   "sira": "1793",
+   "dosya_satir": "data/yerlesimler_emilme.js:107",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1898-01-01",
+   "t": "1942-03-09",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "https://vanderheijden.org/ng/history-nl.html (kişisel site, İPUCU)",
+   "alinti": "vestigde Nederland een administratieve post in Manokwari en Fakfak in 1898",
+   "oneri": {
+    "t": "1942-04-12"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR (1962-10-01 → 1963-05-01, :15597). D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda (künye VAR) + ic_not 'Hollanda Yeni Gine'si' (koloni emsali gece-126) → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): hollanda-dogu-hint t 1949-12-27 → Hollanda Yeni Gine 1949-12-27 → 1962-10-01 → UNTEA → 1963-05-01 endonezya; 1969 'Free Choice' ic_not; iki künye adayı LAB SALI; D2 1962-10-01 ve 1963-05-01 maddeleri KASA. Manokwari isg 1942-04-12 → Müttefik geri alışı (1944, kaynakla) ONERI. | f 1898 yıl düzeyi, kaynak kişisel site (ipucu). t=1942-03-09 Java teslim günüdür (ülke düzeyi); Manokwari'ye Japon çıkarması 12 Nisan 1942 Dore Körfezi (Vikipedi İPUCU, kaynaklı okunmadı). TEK ÖLÇÜ: Hollanda yönetiyordu, işgal fiilî giriş günü. Alıntı yalnız f ucunu tarihliyor."
+  },
+  {
+   "sira": "1794",
+   "dosya_satir": "data/yerlesimler_emilme.js:107",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "https://papuaerfgoed.org/nl/node/28 (İPUCU)",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg",
+    "f": "1942-04-12"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR (1962-10-01 → 1963-05-01, :15597). D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda (künye VAR) + ic_not 'Hollanda Yeni Gine'si' (koloni emsali gece-126) → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): hollanda-dogu-hint t 1949-12-27 → Hollanda Yeni Gine 1949-12-27 → 1962-10-01 → UNTEA → 1963-05-01 endonezya; 1969 'Free Choice' ic_not; iki künye adayı LAB SALI; D2 1962-10-01 ve 1963-05-01 maddeleri KASA. Manokwari isg 1942-04-12 → Müttefik geri alışı (1944, kaynakla) ONERI. | ÖNCEKİ KARAR: Japon dönemi isg; Java 1942-03-09 teslimi bu yeri tarihlemez; Merauke'de Japon işgali olmadı (ipucu) → kırp. | TEK KURAL: savaş işgali isg, s: değil (ÖLÇÜT: geçici/askerî — Japonya'nın idareye katma belgesi yok). f için Vikipedi ipucu 12 Nisan 1942 Dore Körfezi çıkarması, kaynaklı kaynak bulunamadı. t 1945-09-02 ülke düzeyi, Manokwari'de Japon garnizonu 1945'e dek (bakılmadı)."
+  },
+  {
+   "sira": "1795",
+   "dosya_satir": "data/yerlesimler_emilme.js:107",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UN Peacekeeping, 'West New Guinea – UNSF background' — https://peacekeeping.un.org/mission/past/unsfbackgr.html",
+   "alinti": "until 1 May 1963, when the administration of the territory was to be transferred to Indonesia",
+   "oneri": {
+    "f": "1963-05-01"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR (1962-10-01 → 1963-05-01, :15597). D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda (künye VAR) + ic_not 'Hollanda Yeni Gine'si' (koloni emsali gece-126) → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): hollanda-dogu-hint t 1949-12-27 → Hollanda Yeni Gine 1949-12-27 → 1962-10-01 → UNTEA → 1963-05-01 endonezya; 1969 'Free Choice' ic_not; iki künye adayı LAB SALI; D2 1962-10-01 ve 1963-05-01 maddeleri KASA. Manokwari isg 1942-04-12 → Müttefik geri alışı (1944, kaynakla) ONERI. | Batı Yeni Gine 1949'da Hollanda'da kaldı; BM: UNTEA 1962-10-01, Endonezya'ya teslim 1963-05-01 (peacekeeping.un.org resmî) → endonezya f 1963-05-01; hollanda-dogu-hint t 1949 → ardıl künye (Hollanda Yeni Gine 1949–1962, UNTEA 1962–63) LAB SALI'ya. | BM resmî sayfası: Hollanda 1 Ekim 1962'de BM UNTEA'ya devretti, Endonezya'ya 1 Mayıs 1963. 1949-12-27 Round Table devri Batı Yeni Gine'yi KAPSAMAZ (Hollanda yönetimi sürdü). Öneri: 1949-12-27 sonrası Hollanda Yeni Gine (Hollanda) -> 1962-10-01 BM UNTEA (isg/özel) -> s: endonezya-cumhuriyeti 1963-05-01'den. KÜNYE AŞIMI: hollanda-dogu-hint künyesi t=1949-12-27; ardıl künye gerekir. TEK ÖLÇÜ: fiilî yönetim 1963-05-01 teslim günü. 1969 Act of Free Choice bakılmadı."
+  }
+ ],
+ "Merauke": [
+  {
+   "sira": "1811",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:23",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1902-02-12",
+   "t": "1942-03-09",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://papuaerfgoed.org/nl/node/28 (İPUCU)",
+   "alinti": "This settlement is the only unoccupied territory for the duration of the war",
+   "oneri": {
+    "t": "1962-10-01"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR. D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda + ic_not → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): … → 1963-05-01 endonezya. Merauke: Japon işgali yoksa isg kırpılır (Müttefik üssü; teyitle). | Merauke Japonlarca hiç işgal edilmedi (papuaerfgoed; ipucu). 1942-03-09 sonlanışı Merauke için geçersiz; Hollanda yönetimi 1962-10-01 (UNTEA) kadar sürer. f=1902-02-12: yıl 1902 (vanderheijden kişisel site, ipucu), gün teyitsiz. KÜNYE AŞIMI 1949-12-27 sonrası."
+  },
+  {
+   "sira": "1812",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:23",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "https://papuaerfgoed.org/nl/node/28 (İPUCU)",
+   "alinti": "Even though Merauke is never occupied by the Japanese",
+   "oneri": {
+    "kirp": "Japon dönemi tümüyle kırpılsın"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR. D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda + ic_not → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): … → 1963-05-01 endonezya. Merauke: Japon işgali yoksa isg kırpılır (Müttefik üssü; teyitle). | ÖNCEKİ KARAR: Japon dönemi isg; Java 1942-03-09 teslimi bu yeri tarihlemez; Merauke'de Japon işgali olmadı (ipucu) → kırp. | Merauke'de Japon işgali yok; dönem silinmeli. Kaynak heritage vakfı (ipucu); Müttefik üssüydü."
+  },
+  {
+   "sira": "1813",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:23",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UN Peacekeeping, 'West New Guinea – UNSF background' — https://peacekeeping.un.org/mission/past/unsfbackgr.html",
+   "alinti": "until 1 May 1963, when the administration of the territory was to be transferred to Indonesia",
+   "oneri": {
+    "f": "1963-05-01"
+   },
+   "not": "KARAR EMRELİC (gece-138): 1949-12-27 → 1962-10-01 s: hollanda + ic_not \"Hollanda Yeni Gine'si\" ONAY (gece-126 koloni emsali); ÖLÇÜM LAB PAZAR: hollanda künyesi f 1581-07-26, t yok (devlet sürüyor; devletler.js:1802) → 1949–62 KAPSANIYOR, hayalet değil. Sonra untea 1962-10-01 → 1963-05-01 (künye VAR, :15597) → endonezya. hollanda-yeni-gine adayı Emre'nin koloni künyeleri kararına bağlı. D2: 1949-12-27 maddesi var (kronoloji_sinir_halef_1923_2000.js:113); 1962-10-01 ve 1963-05-01 maddeleri YOK (UYGULA kaleminde). | LAB SALI (origin/main devletler.js ölçümü): hollanda-yeni-gine künyesi YOK (aday); untea VAR. D1 için aday açılana dek: 1949-12-27 → 1962-10-01 s: hollanda + ic_not → 1962-10-01 untea → 1963-05-01 endonezya. | KARAR EMRELİC (gece-136): Batı Yeni Gine ONAY (BM resmî → KAYNAKLI): … → 1963-05-01 endonezya. Merauke: Japon işgali yoksa isg kırpılır (Müttefik üssü; teyitle). | Batı Yeni Gine 1949'da Hollanda'da kaldı; BM: UNTEA 1962-10-01, Endonezya'ya teslim 1963-05-01 (peacekeeping.un.org resmî) → endonezya f 1963-05-01; hollanda-dogu-hint t 1949 → ardıl künye (Hollanda Yeni Gine 1949–1962, UNTEA 1962–63) LAB SALI'ya. | Manokwari 1795 ile aynı: Batı Yeni Gine (Merauke dahil) Endonezya'ya 1963-05-01'de teslim. 1949-12-27 yanlış."
+  }
+ ],
+ "Menaka": [
+  {
+   "sira": "1806",
+   "dosya_satir": "data/yerlesimler_afrika2.js:218",
+   "alan": "s",
+   "d": "tuareg-ivellemmedan",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'Mali' (islamansiklopedisi.org.tr/mali) okundu: Ménaka/Tuareg anılmıyor; web araması Fransız postu kuruluş günü vermedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fransız Ménaka postu/cercle kuruluş yılı ve 1281 f ucu (Iwellemmedan) kaynakta bulunamadı. Aranan: TDV Mali, genel web. Boilley gibi akademik monografi önerilir."
+  },
+  {
+   "sira": "1807",
+   "dosya_satir": "data/yerlesimler_afrika2.js:218",
+   "alan": "s",
+   "d": "mali-federasyonu",
+   "f": "1960-06-20",
+   "t": "1960-09-22",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "https://islamansiklopedisi.org.tr/mali",
+   "alinti": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Fransız Sudan = Mali Federasyonu). Alıntı f=1960-06-20'yi tarihliyor; t=1960-09-22 aynı TDV maddesindeki Mali ilanı (satır 1808). Senegal ayrılışı 'iki ay sonra' (künye t 1960-08-20)."
+  },
+  {
+   "sira": "1808",
+   "dosya_satir": "data/yerlesimler_afrika2.js:218",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "https://islamansiklopedisi.org.tr/mali",
+   "alinti": "22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti’nin ilk kurucusu oldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Menaka ayrıca el değiştirmedi."
+  }
+ ],
+ "Manchester": [
+  {
+   "sira": "1791",
+   "dosya_satir": "data/yerlesimler_avrupa.js:83",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "british-history.ac.uk VCH Lancashire vol 4 (Manchester) arandı; Britannica atlandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ süreklilik: İngiltere künyesi f=0927. VCH Manchester'ı Grelley baronluğu/1301 borough olarak anlatır ama 'İngiltere sahibi' tarihleyen cümle yok; 1281-2000 tek dönem, 1707 İngiltere->Büyük Britanya ayrımı tek künyede."
+  }
+ ],
+ "Manicoré": [
+  {
+   "sira": "1792",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:952",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1877-06-04",
+   "t": "1889-11-15",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "IBGE atlandı (kural); web araması Manicoré için sonuç vermedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "1877-06-04 vila yasası (yer_kaynak IBGE); f=vila günü, yerleşim öncesi olabilir. t=1889-11-15 ülke düzeyi Cumhuriyet ilanı, ayrıca okunmadı."
+  }
+ ],
+ "Mapimí": [
+  {
+   "sira": "1796",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1881",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1825-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "UJED Revista Historia (revistahistoria.ujed.mx/index.php/revistahistoria/article/view/19/11) bağlantı zaman aşımı; özet web araması",
+   "alinti": "",
+   "oneri": {
+    "f": "1821-09-27"
+   },
+   "not": "KARAR EMRELİC (gece-136): 'kur = künye f' yapıtı → KASA'nın F-GERİ (198) listesine; f 1821-09-27 ONERI. | Mapimí yerleşimi 1598 (anma) / 1711 presidio (UJED makale özeti) beri var; f=1825-09-01 INEGI belediye evrimi (idarî), Meksika'ya geçiş değil. Merdiven ④: yerleşim var -> f=meksika künyesi 1821-09-27. UJED metni açılamadı."
+  }
+ ],
+ "Marabá": [
+  {
+   "sira": "1797",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1115",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1913-02-27",
+   "t": "2000-12-31",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "web: IBGE biblioteca (Lei 1.278, 27-02-1913 vila) arama özeti; redalyc/tupa makaleleri sayfa.py ile tarandı, anahtar bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1913-02-27 vila. Yerleşim daha eski: 1894/1895 (Colônia Itacaiúnas) / 1903 kuruluş — kaynaklar çelişkili. Gün teyitsiz."
+  }
+ ],
+ "Marble Bar": [
+  {
+   "sira": "1798",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:159",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1893-07-13",
+   "t": "1901-01-01",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Landgate 'History of country town names' erişilemedi (404); arama özeti: 1893 gazetted",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1893-07-13 günü teyit edilemedi (ikincil kaynaklar yalnız 1893). t=1901-01-01 federasyon ülke düzeyi okunmadı (foundingdocs.gov.au / legislation.gov.uk'te gün bulunamadı)."
+  }
+ ],
+ "Marcapata": [
+  {
+   "sira": "1799",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:73",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1869-01-20",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "https://www3.congreso.gob.pe/biblioteca/demarcacion1832-cuzco/quispicanchi",
+   "alinti": "el cuarto de Ocongate y Marcapata",
+   "oneri": {
+    "f": "1824-12-09"
+   },
+   "not": "KARAR EMRELİC (gece-136): 'kur = künye f' yapıtı → KASA'nın F-GERİ listesine; f 1824-12-09 ONERI. | Peru Kongresi demarkasyon kütüphanesi: Marcapata 1869'dan ÖNCE zaten distrito/pueblo (Quispicanchi 4. distrito: Ocongate ve Marcapata, 1861 öncesi yasa). 20 Ocak 1869 yasası bölen idarî yasadır, kuruluş değil. Merdiven ④: yerleşim var -> f=peru künyesi 1824-12-09 (en erken). Yerleşimin yılı ayrıca aranmalı."
+  }
+ ],
+ "Masira": [
+  {
+   "sira": "1800",
+   "dosya_satir": "data/yerlesimler.js:1912",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://islamansiklopedisi.org.tr/uman",
+   "alinti": "627’de (1230) Benî Kayser’i ortadan kaldıran Salgurlular, Portekiz işgaline kadar Uman’ı yönettiler",
+   "oneri": {
+    "t": "1507-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-136): TDV cümlesi yeniden okunacak: Salgurlular (Fars atabegleri) 1282'de bitti → '1230–1507 Salgurlu' büyük olasılıkla Hürmüz ya da başka okuma; özne doğrulanacak, ONERI; Nebhânî 1281–1515 desteklenmiyorsa BEYANLI. | TDV 'Uman': Nebhânîler XI. yy'da 'bir süre' hâkim; 1230'dan Portekiz işgaline (1507'den itibaren sahil şehirleri) kadar Salgurlular. Atlas Nebhânî 1281-1515 ile ÇELİŞKİ (başka kaynaklar Nebhânî'yi 1624'e dek iç Umman'da verir; seçmedim). Masira adası için yer özel tanıklık yok; ülke/bölge düzeyi. Salgurlu künyesi grep'lenmedi."
+  }
+ ],
+ "Mattagami House": [
+  {
+   "sira": "1801",
+   "dosya_satir": "data/yerlesimler_kamerika.js:759",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1794-01-01",
+   "t": "1870-07-15",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
+   "oneri": {},
+   "not": "t=1870-07-15: Rupert's Land and North-Western Territory Order, 'fifteenth day of July, one thousand eight hundred and seventy' (resmî Justice Canada). Alıntı yalnız t ucunu tarihliyor; f=1794 (Mattagami House post kuruluşu) bakılmadı."
+  }
+ ],
+ "Mayapán": [
+  {
+   "sira": "1802",
+   "dosya_satir": "data/yerlesimler_amerika.js:300",
+   "alan": "s",
+   "d": "mayapan-birligi",
+   "f": "1100-01-01",
+   "t": "1281-01-01",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9296624/",
+   "alinti": "the political capital of Mayapan arose and governed from at least 1100 to 1450 cal. CE",
+   "oneri": {
+    "t": "1450-01-01"
+   },
+   "not": "LAB SALI (origin/main devletler.js ölçümü): mayapan-birligi künye t ZATEN 1450-01-01 (:21294), Kennett 2022 ile uyumlu; yerleşim dönemindeki 1441 → 1450 hizalanır, 1441 ic_not. | KARAR EMRELİC (gece-136): Kennett vd. 2022 hakemli → mayapan-birligi t 1450 KAYNAKLI; birleştirme yalnız aynı polity ise, künyeler farklıysa ikisi kalır, uçlar hizalanır. | Kennett ve ark. 2022 (Nat. Commun. 13:3911): 'from at least 1100 to 1450' ve aynı makalede 'Mayapan (1200–1450 cal. CE)'; f=1100 'en az' alt sınırı, çelişki beyanlı. 1281 sınırı kaynakta YOK: Mayapán siyasi başkenti 1450'ye dek tek polity."
+  },
+  {
+   "sira": "1803",
+   "dosya_satir": "data/yerlesimler_amerika.js:300",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9296624/",
+   "alinti": "abandonment of the city, but that Maya political and economic structures endured regionally",
+   "oneri": {
+    "d": "mayapan-birligi",
+    "t": "1450-01-01"
+   },
+   "not": "LAB SALI (origin/main devletler.js ölçümü): mayapan-birligi künye t ZATEN 1450-01-01 (:21294), Kennett 2022 ile uyumlu; yerleşim dönemindeki 1441 → 1450 hizalanır, 1441 ic_not. | KARAR EMRELİC (gece-136): Kennett vd. 2022 hakemli → mayapan-birligi t 1450 KAYNAKLI; birleştirme yalnız aynı polity ise, künyeler farklıysa ikisi kalır, uçlar hizalanır. | Kennett 2022: drought 1400-1450 şehrin terkine yol açtı; Mayapán 1450 cal. CE'ye dek yönetti. Atlas t=1441 (Landa/Roys, bakılmadı). 1281'de maya-sehir-devletleri'ne geçişin dayanağı yok; iki satır birleştirilmeli (mayapan-birligi 1100-1450)."
+  }
+ ],
+ "Mayd": [
+  {
+   "sira": "1804",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1087",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'Somali' ve 'Etiyopya' tarandı: Mayd/Adal tarihli cümle yok; tdv-ara 'Adal' madde yok; web (Vikipedi türevleri)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜNYE AŞIMI: adal f 1415, dönem f 1281; ayrıca 'adal' (Harar) Somali kıyısı için yanlış olabilir (Alula/Obok emsali: s: somali toplu künye). | KÜNYE AŞIMI: adal künyesi f=1415, dönem f=1281. t=1577 Adal'ın Harar'dan Avsa'ya kayışı (Vikipedi ipucu); Leo Africanus 'Adal egemenliği' ipucu. Akademik kaynak bulunamadı; Pankhurst/Lewis önerilir."
+  }
+ ],
+ "Maçambará (Recreio)": [
+  {
+   "sira": "1805",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:548",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1900-01-17",
+   "t": "2000-12-31",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "IBGE atlandı (kural); web aramasında Maçambará sonucu yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "1900-01-17 yer_kaynak IBGE; yerleşim belediye kuruluşundan eski olabilir; kaynakta bulunamadı."
+  }
+ ],
+ "Mendoza": [
+  {
+   "sira": "1809",
+   "dosya_satir": "data/yerlesimler_amerika.js:1264",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1561-03-02",
+   "t": "1810-05-25",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "web: bpgsm.bibliosistemas.com 'Acta de la fundación … 2 de marzo de 1561' kayıt başlığı; core.ac.uk/download/480419599.pdf (Jufré 1562 karşı görüş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1561-03-02 Pedro del Castillo (yaygın; kaynak metni açılmadı); karşı akademik görüş: Juan Jufré 1562. t=1810-05-25 Buenos Aires Mayıs Devrimi; Mendoza'nın Birinci Cunta'ya katılışı sonradır (EcuRed ipucu, tarih yok). Mendoza 1561-1776 Şili Genel Kaptanlığı."
+  }
+ ],
+ "Menzies (Batı Avustralya)": [
+  {
+   "sira": "1810",
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:325",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1895-08-01",
+   "t": "1901-01-01",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Landgate sayfalarına erişilemedi; web: 'gazetted 16 August 1895' ikincil",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1895-08-01 AY hassasiyeti; ikincil kaynaklar 16 Ağustos 1895 verir (İPUCU); resmî Landgate okunamadı. t=1901-01-01 ülke düzeyi okunmadı."
+  }
+ ],
+ "Meşkinşehr (Hiyav)": [
+  {
+   "sira": "1816",
+   "dosya_satir": "data/yerlesimler_kalite4.js:30",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "Üveys 1358’de Azerbaycan ile Tebriz’i, 1364’te Musul ve Diyarbekir’i ele geçirerek",
+   "oneri": {
+    "t": "1358-01-01"
+   },
+   "not": "LAB SALI DÜZELTMESİ: 'cobanogullari' (1211 → 1309) Kastamonu Çobanoğulları — YANLIŞ id; doğrusu cobaniler ('Çobânîler', 1335-11-30 → 1357-01-01, :18226). Zincir: ~1344 cobaniler → 1357 altinorda (Canıbek) → 1358/60 celayirli; cobaniler t [yıl] Canıbek'in Tebriz'e giriş günüyle hizalanmalı (t = ardıl f), kaynakla. | KARAR EMRELİC (gece-136): 1340–1358: Çobanoğulları (Melik Eşref ~1344 → 1357) → kısa Altın Orda (Canıbek 1357) → Celâyirliler (1358/60); TDV 'Çobanoğulları' ve 'Celâyirliler' ile; künyeler ölçülecek; ONERI. | TDV Celâyirliler: devlet 1340'ta kuruldu (Irak/Bağdat merkezli) ama Azerbaycan ve Tebriz 1358'de alındı. Meşkinşehr (Erdebil bölgesi) için ÜLKE DÜZEYİ 1340 desteksiz; 1340-1358 arası sahip bu okumada yok (Çobanlı/Altın Orda bakılmadı). Yıl düzeyi. İlhanlı künyesi t=1353."
+  }
+ ],
+ "Mikkeli": [
+  {
+   "sira": "1817",
+   "dosya_satir": "data/yerlesimler_ek7.js:127",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://snl.no/Kalmarunionen",
+   "alinti": "Valget av ham til svensk konge i 1523 brakte med seg den endelige slutten på Kalmarunionen.",
+   "oneri": {},
+   "not": "SNL yıl 1523 verir; gün 1523-06-06 (Strängnäs; Gale 'Gustavus I' kaydı zincirde, bu oturumda okunmadı). Alıntı yalnız t ucunu (yıl düzeyi) tarihliyor. f=1281: Savo/Mikkeli Pähkinäsaari 1323'e dek Novgorod-İsveç sınır bölgesi (web özet, İPUCU); Mikkeli'nin 1281 f ucu kaynaklı teyit YOK."
+  }
+ ],
+ "Mildura": [
+  {
+   "sira": "1818",
+   "dosya_satir": "data/yerlesimler_okyanusya.js:339",
+   "alan": "s",
+   "d": "viktorya-kolonisi",
+   "f": "1887-01-01",
+   "t": "1901-01-01",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "https://www.victorianplaces.com.au/mildura",
+   "alinti": "In 1887 the Chaffey brothers and the Government entered into an agreement",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-136): Chaffey yerleşimi (1887) kuruluş sayılabilir; ONERI. | Victorian Places (Monash+UQ): 1887 Chaffey sözleşmesi; yerleşim 1886'da 'Mildura homestead' olarak var, pastoral run 1847/isim 1858 (web ipucu). KAYNAKLI sayılmadı: alıntı sözleşmeyi tarihliyor, kuruluşu değil (Indenture 31 Mayıs 1887, thechaffeytrail.com.au ipucu). Merdiven ④: koordinat Chaffey şehrine aitse f=1887 kalır. t=1901-01-01 ülke düzeyi okunmadı."
+  }
+ ],
+ "Minto Inlet (Kangiryuarmiut)": [
+  {
+   "sira": "1819",
+   "dosya_satir": "data/yerlesimler_kamerika.js:60",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "https://canadianmysteries.ca/sites/franklin/archive/text/TransferTerritories_en.htm",
+   "alinti": "From and after September 1, 1880, all British territories and possessions in North America",
+   "oneri": {},
+   "not": "1880-07-31 Order in Council metni (LAC/Canadian Mysteries, 1961 makale yeniden basımı): 1 Eylül 1880'den itibaren bitişik adalar Kanada'ya ilhak. ÜLKE DÜZEYİ; kapsam 'imprecise' ama Arktik adalar kuralı 1880-09-01. Alıntı yalnız t ucunu tarihliyor; f=1281 İnuit künyesi yapay."
+  }
+ ],
+ "Minusinsk": [
+  {
+   "sira": "1820",
+   "dosya_satir": "data/yerlesimler_sibirya2.js:69",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1739-01-01",
+   "t": "1917-03-15",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "web: znanierussia.ru, Vikipedi, cyclowiki (İPUCU); bigenc.ru 401",
+   "alinti": "",
+   "oneri": {},
+   "not": "Minusinsk 1739 (Minyusinskoye köyü) yıl ipucu; Büyük Rus Ansiklopedisi açılamadı (https://bigenc.ru/c/minusinsk-0ea5a6 başka makinede denenebilir). t=1917-03-15 ülke düzeyi okunmadı."
+  }
+ ],
+ "Misión Santa Gertrudis (Baja California)": [
+  {
+   "sira": "1821",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1425",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1752-01-01",
+   "t": "1821-09-27",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "web: discoverbaja, bajabound, Vikipedi; https://karolinum.cz/data/clanek/2109/IBAP_43_2011.169-179.pdf (Lazcano Sahagún)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1752 (Retz, 15 Temmuz 1752 İPUCU) ama IBAP makalesi Consag'ın 1737 kuruluşunu verir (çelişki). t=1821-09-27 ülke düzeyi okunmadı."
+  }
+ ],
+ "Mistassini (Lac Mistassini)": [
+  {
+   "sira": "1822",
+   "dosya_satir": "data/yerlesimler_kamerika.js:728",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1673-01-01",
+   "t": "1763-02-10",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://www.biographi.ca/en/bio/albanel_charles_1E.html (DCB Albanel) okundu",
+   "alinti": "",
+   "oneri": {},
+   "not": "DCB: Albanel Haziran 1672'de Mistassini Gölü'ne Fransız seferiyle ulaştı, yerlilere Fransız koruması vaat etti; Rupert's Land HBC şartı 1670. 'ingiltere 1673' dayanağı yok, bölge çekişmeli. 1763-02-10 yer için Rupert's Land HBC yönünden anlamsız."
+  }
+ ],
+ "Montepuez": [
+  {
+   "sira": "1823",
+   "dosya_satir": "data/yerlesimler_afrika2.js:1611",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1900-01-01",
+   "t": "1974-09-20",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "web: Niassa Company (1891-1929, Rovuma-Lúrio); https://ojs.letras.up.pt/index.php/AfricanaStudia/article/download/15962/13784/59423 'Montepuez' bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Montepuez Companhia do Niassa topraklarında olabilir: şirket dönemi BEYANLI s: gerekir; konum doğrulanmadı. f=1900-01-01 desteksiz. t=1974-09-20 ülke düzeyi okunmadı."
+  }
+ ],
+ "Montreal (Ville-Marie)": [
+  {
+   "sira": "1824",
+   "dosya_satir": "data/yerlesimler_amerika.js:895",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1642-05-17",
+   "t": "1763-02-10",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://www.biographi.ca/en/bio/chomedey_de_maisonneuve_paul_de_1E.html (DCB Maisonneuve)",
+   "alinti": "",
+   "oneri": {},
+   "not": "DCB: ilk ayin 18 Mayıs 1642 Pazar; '17 Mayıs 1642' DCB sayfasında geçmiyor (gün teyitsiz). t=1763-02-10: Montreal 1760-09-08 kapitülasyonla fiilen İngiliz yönetiminde, TEK ÖLÇÜ imza günü tutarlı; DCB'de okunmadı."
+  }
+ ],
+ "Moose Factory": [
+  {
+   "sira": "1825",
+   "dosya_satir": "data/yerlesimler_kamerika.js:693",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1673-01-01",
+   "t": "1763-02-10",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "https://www.biographi.ca/en/bio/bayly_charles_1E.html",
+   "alinti": "A small house was accordingly built on Hayes Island in 1673",
+   "oneri": {},
+   "not": "DCB Bayly: Moose River'da Hayes Island'a 1673'te küçük ev (Moose Factory adasının eski adı Hayes Island; DCB eşleşmeyi açıkça yazmaz). Yıl düzeyi. HBC postu. 1686 Fransız ele geçirişi ve t=1763-02-10 ayrıca incelenmedi."
+  }
+ ],
+ "Metemma": [
+  {
+   "sira": "1814",
+   "dosya_satir": "data/yerlesimler_afrika.js:744",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'Etiyopya' (islamansiklopedisi.org.tr/etiyopya) okundu: yalnız 'Yohannes Mehdî dervişleri tarafından Metemma’da öldürülmüştür (1889)'; web özetleri",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01. | Metemma/Gallabat Etiyopya-Sudan sınır kentidir; Habeşistan'ın 1281'den beri sahipliği, Mehdî dönemi (1885-1889 Gallabat) ve 1902 sınır düzenlemesi kaynakta bulunamadı. KAYNAKLI sahiplik cümlesi yok."
+  },
+  {
+   "sira": "1815",
+   "dosya_satir": "data/yerlesimler_afrika.js:744",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'Etiyopya' (1936-1941 genel cümle, Metemma yok); web: normattiva.it RDL 1 giugno 1936 n.1019 (SSL hatası, okunamadı); bigenc.ru 401",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01. | Ülke düzeyi AOI: kraliyet kararnamesi 1 Haziran 1936 (web özeti, İPUCU). t=1941-11-30: Metemma için Gondar yolu İtalyan çekilişi Şubat 1941 (Vikipedi ipucu: Wolkait garnizonu Şubat 1941'de çekildi); Gondar teslimi 1941-11-27 ülke düzeyi, Metemma'ya uymayabilir. Akademik kaynak okunamadı. Haile Selassie 5 Mayıs 1941 (TDV)."
+  }
+ ]
+}

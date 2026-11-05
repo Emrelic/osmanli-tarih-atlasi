@@ -1,0 +1,652 @@
+{
+ "Manado": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4218",
+   "alan": "s",
+   "d": "ternate-sultanligi",
+   "f": "1281-01-01",
+   "t": "1657-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV endonezya; web arama (yalnız Vikipedi aynaları)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Ternate'den VOC'a geçiş kaynakla okunmadı (Manado'ya özgü tanık yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4218",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1657-01-01",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV endonezya; web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hollanda f (1657) ve t (1942-03-09) kaynakla okunmadı. Manado'ya Japon çıkarması 11-12 Ocak 1942 (Battle of Manado; yalnız Vikipedi/arama özeti = ipucu); t=1942-03-09 Java teslim günüdür, Manado'ya özgü değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4218",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg; Manado çıkarması 1942-01-11/12 (yalnız ipucu) — yerleşime özgü giriş günü kaynakla. | KURAL: Japon dönemi isg (bilinen karar) → s: meiji-japonya yerine isg. Manado'ya Japon çıkarması 11-12 Ocak 1942 (Vikipedi 'Battle of Manado', ipucu, okunmuş kaynak değil); f=1942-03-09 Java teslimi, Manado için geç olabilir (gün düzeltmesi kaynak bulunana dek yok). ÖLÇÜT: geçici/askerî."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4218",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV endonezya (devir yalnız 'Yönetimin Hollanda’dan devralınmasından sonra (1949)': yıl, gün yok); history.state.gov/countries/indonesia (yalnız ABD tanıma/ilişki günü 28 Aralık 1949; bağımsızlık günü değildir)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: Endonezya 1945-08-17 / 1949-12-27. | 1949-12-27 gün teyidi bu turda bulunamadı (bilinen karar günü)."
+  }
+ ],
+ "Lokoca (Lokoja)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:659",
+   "alan": "s",
+   "d": "jukun-kvararafa",
+   "f": "1281-01-01",
+   "t": "1900-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV nijerya (Lokoja geçmiyor); web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kvararafa (Jukun) sahipliği Lokoja için okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:659",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-01-01",
+   "t": "1960-10-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV nijerya (Kuzey Nijerya sultanlıkları İngiltere hâkimiyetine girdi, 1914; 1900 Lokoja devri yok); web arama: Union Jack Lokoja'da 1 Ocak 1900 (yalnız Vikipedi/harita satıcısı, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1900-01-01 Kuzey Nijerya Protektorası; RNC şirket yönetimi 1886-1899 devlet sahipliği değildir (kaynakla okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:659",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ (Lokoja ayrıca el değiştirmemiş). Ek: history.state.gov/countries/nigeria ABD tanıma günü 1 Ekim 1960 (tanıma günü, tek başına bağımsızlık sayılmaz)."
+  }
+ ],
+ "Marsabit": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:954",
+   "alan": "s",
+   "d": "kenya-kuzey-halklari",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV kenya",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kuzey Kenya halklarının sahipliği kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:954",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "1895’te İngiltere bölgedeki hâkimiyetini ilân etti",
+   "oneri": {
+    "f": "fiilî karakol günü (kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-105): ONAY ONERI: Wajir/İsiolo kararıyla aynı — kenya-kuzey-halklari fiilî İngiliz karakolunun kuruluşuna dek sürer (gün kaynakla). | yalnız yıl (TDV Kenya, ÜLKE DÜZEYİ); 07-01 günü kaynakta yok. ALT-BÖLGE ŞÜPHESİ: Marsabit Kuzey Sınır Bölgesi'nde; İngiliz fiilî idaresinin 1895'te başladığı kaynakla gösterilmedi (idareye katma belgesi yok). t ucu 1963-12-12 ayrıca teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:954",
+   "alan": "s",
+   "d": "kenya",
+   "f": "1963-12-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/kenya",
+   "alinti": "The United States recognized Kenya when it gained its independence on December 12, 1963",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ (devletin resmî tarih yayını; metin 'when it gained its independence on December 12, 1963' der: tanıma günü değil bağımsızlık günüdür). Kenya künye f 1963-12-12."
+  }
+ ],
+ "Marua (Maroua)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:474",
+   "alan": "s",
+   "d": "adamava",
+   "f": "1809-01-01",
+   "t": "1901-09-02",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV kamerun",
+   "alinti": "",
+   "oneri": {},
+   "not": "Adamava Emirliği (Fumbina) 1841'de kuruldu (TDV kamerun); Marua'ya özgü 1809 tanığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:474",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1901-09-02",
+   "t": "1916-02-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
+   "oneri": {
+    "f": "1901-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-105): TDV Adamava Marua'yı anmıyor → bölge düzeyi ONERI; Alman girişi için kaynak aranacak. | yalnız yıl; Adamava düzeyi (Marua adı geçmiyor). Atlas günü 1901-09-02 kaynaksız; Marua'nın Alman yönetimine fiilen girişi Adamava paylaşımından sonra olabilir (kaynaksız şüphe). t ucu (1916-02-18) bu turda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:474",
+   "alan": "s",
+   "d": "kamerun",
+   "f": "1960-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/cameroon",
+   "alinti": "the United Nations ended the Trusteeship over Cameroon that had been administered by France",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde: metin 'The United States recognized the Republic of Cameroon on January 1, 1960 ... On that same date' diye başlar (Kamerun Cumhuriyeti 1960-01-01; devletin resmî tarih yayını). ÜLKE DÜZEYİ; Marua Fransız Kamerunu'ndadır (TDV kamerun: beşte dört Fransa)."
+  }
+ ],
+ "Maseru": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2244",
+   "alan": "s",
+   "d": "basuto",
+   "f": "1822-01-01",
+   "t": "1868-03-12",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "history.state.gov/countries/lesotho; TDV (Basuto maddesi bulunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Basuto Krallığı f=1822 Maseru'nun kuruluşuna denk (kur 1822): kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2244",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1868-03-12",
+   "t": "1966-10-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/lesotho",
+   "alinti": "Lesotho previously had been under British sovereignty as Basutoland",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (bağımsızlık 1966-10-04, aynı sayfa). f=1868-03-12 İngiliz egemenliği: yalnız SAHO sahistory.org.za/node/11032 (ipucu, 'Basutoland British territory'); okunmuş akademik kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2244",
+   "alan": "s",
+   "d": "lesoto",
+   "f": "1966-10-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/lesotho",
+   "alinti": "The United States recognized the Kingdom of Lesotho on October 4, 1966 / Lesotho’s attainment of independence on that same date",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ; devletin resmî tarih yayını (bağımsızlık günü açık: 'attainment of independence on that same date')."
+  }
+ ],
+ "Merka": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:783",
+   "alan": "s",
+   "d": "makdisu-sultanligi",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV somali; TDV mogadisu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Makdişu Sultanlığı'nın Merka'yı kapsadığı ve 1500 sonu kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:783",
+   "alan": "s",
+   "d": "somali",
+   "f": "1500-01-01",
+   "t": "1905-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV somali; TDV mogadisu",
+   "alinti": "",
+   "oneri": {
+    "t": "~1893 (Filonardi; İtalya'nın fiilen idareyi devralışı, kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-105): Kiralama emsali: Zengibar Benadir limanlarını İtalya'ya kiraladı; İtalya'nın fiilen idareyi devraldığı gün → s: italya. 1891 'elinde kaldı' ve 1905 satın alma ic_not. Gün bulunmazsa ONERI. | TDV somali: '2 Mart 1891’de İngilizler’in İtalyanlar’la anlaşmasının ardından ... Berâve ve Merkâ gibi şehirler İtalyanlar’ın elinde kaldı' atlas t=1905-01-01 ile gerilim (Benadir Zengibar ilişkisi); 'elinde kaldı' idareye katmayı göstermiyor, ONERI yazılmadı. f=1500 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:783",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-02-25",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV somali (1935'te Habeşistan işgali, 1940 İngiliz Somalisi; AOI 1936-06-01 yok); Britannica 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Italian East Africa 1936-06-01 ülke düzeyi birincil metin bulunamadı."
+  }
+ ],
+ "Moroni": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:19",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1886-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/komor-adalari",
+   "alinti": "",
+   "oneri": {
+    "t": "1886-01-06"
+   },
+   "not": "KARAR EMRELİC (gece-107): Komor sultanlıkları adayı ve fransiz-komorlari f 1886-01-06 ONAY. | LAB SALI (HAYALET-KARAR, origin/main ölçümü): Komor sultanlıkları künyesi YOK, aday; Moroni s: sultanlık + v: fransiz-komorlari 1886-01-06 → 1912-07-24; 1912-07-25 fransiz-komorlari; künye f 01-01 → 01-06 (gün kaynakla). | KARAR EMRELİC (gece-105): ONAY: v: fransa 1886-01-06 (Ngazidja / Said Ali antlaşması), yerli sultanlık s: 1912-07-25 ilhakına dek, sonra s: fransa. Sultanlık künyesi yoksa aday; fransiz-komorlari f 01-06 düzeltmesi LAB SALI'ya. | Dolaylı idare/himaye kuralı (gece-88/98): 1886-01-06 himaye anlaşması → v: fransa; yerli sultanlık s: 1912-07-25 ilhakına dek sürer; künye fransiz-komorlari f 1886-01-01 sorusu LAB SALI'ya. | TDV komor-adalari: «Fransa 6 Ocak, 21 ve 26 Nisan 1886 tarihli yeni anlaşmalarla Ngazidja, Anjouan ve Moheli adalarını himayesine aldığını ilân etti»; Moroni Ngazidja'dadır → 6 Ocak 1886. HİMAYE: kural gereği yerli sultanlık s: sürer (sultanlar 25 Temmuz 1912'de Fransa tarafından azledildi), Fransa v:. BOŞLUK dönemi sultanlık künyesine bağlı (künye yok). WebFetch yok, sayfa.py ham çıktısı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:19",
+   "alan": "s",
+   "d": "fransiz-komorlari",
+   "f": "1886-01-01",
+   "t": "1975-07-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/komor-adalari",
+   "alinti": "",
+   "oneri": {
+    "alan": "v",
+    "f": "1886-01-06",
+    "t": "1912-07-25"
+   },
+   "not": "KARAR EMRELİC (gece-107): Komor sultanlıkları adayı ve fransiz-komorlari f 1886-01-06 ONAY. | LAB SALI (HAYALET-KARAR, origin/main ölçümü): Komor sultanlıkları künyesi YOK, aday; Moroni s: sultanlık + v: fransiz-komorlari 1886-01-06 → 1912-07-24; 1912-07-25 fransiz-komorlari; künye f 01-01 → 01-06 (gün kaynakla). | KARAR EMRELİC (gece-105): ONAY: v: fransa 1886-01-06 (Ngazidja / Said Ali antlaşması), yerli sultanlık s: 1912-07-25 ilhakına dek, sonra s: fransa. Sultanlık künyesi yoksa aday; fransiz-komorlari f 01-06 düzeltmesi LAB SALI'ya. | Dolaylı idare/himaye kuralı (gece-88/98): 1886-01-06 himaye anlaşması → v: fransa; yerli sultanlık s: 1912-07-25 ilhakına dek sürer; künye fransiz-komorlari f 1886-01-01 sorusu LAB SALI'ya. | HİMAYE → v: fransiz-komorlari 1886-01-06 → 1912-07-25; s: 1912-07-25'ten (TDV: «Komor adalarındaki diğer sultanlar 25 Temmuz 1912 tarihinde Fransa tarafından azledilerek adaların idaresi Madagaskar sömürgesine bağlandı»; 'diğer sultanlar' Anjouan'ı hariç tutuyor, Ngazidja için geçerli). Künye f 1886-01-01 için künye sorusu (himaye günü 6 Ocak)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:19",
+   "alan": "s",
+   "d": "komorlar",
+   "f": "1975-07-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/komor-adalari",
+   "alinti": "Fransa bu kararı 6 Temmuz 1975’te tanıdı",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-107): Komor sultanlıkları adayı ve fransiz-komorlari f 1886-01-06 ONAY. | LAB SALI (HAYALET-KARAR, origin/main ölçümü): Komor sultanlıkları künyesi YOK, aday; Moroni s: sultanlık + v: fransiz-komorlari 1886-01-06 → 1912-07-24; 1912-07-25 fransiz-komorlari; künye f 01-01 → 01-06 (gün kaynakla). | KARAR EMRELİC (gece-105): ONAY: v: fransa 1886-01-06 (Ngazidja / Said Ali antlaşması), yerli sultanlık s: 1912-07-25 ilhakına dek, sonra s: fransa. Sultanlık künyesi yoksa aday; fransiz-komorlari f 01-06 düzeltmesi LAB SALI'ya. | Dolaylı idare/himaye kuralı (gece-88/98): 1886-01-06 himaye anlaşması → v: fransa; yerli sultanlık s: 1912-07-25 ilhakına dek sürer; künye fransiz-komorlari f 1886-01-01 sorusu LAB SALI'ya. | f ucu gün düzeyinde: 22 Aralık 1974 referandumu (%95 bağımsızlık), Fransa kararı 6 Temmuz 1975'te tanıdı (TDV komor-adalari). ÜLKE DÜZEYİ; Moroni Ngazidja'dadır (Mayotte hariç)."
+  }
+ ],
+ "Müsellemiyye": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:160",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Func Sultanlığı 1504, Alve'ye karşı bağımsızlık; YIL). Müsellemiyye (Mavi Nil) Funj/Alve çekirdek bölgesinde. f=1281 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:160",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV func ('Mısır’a tâbi olan Sennâr'; 1820'de Funclar'ın nüfuzu yok denecek kadar azdı); TDV sennar; TDV sudan; TDV muhammed-ahmed-el-mehdi (Müsellemiye adı geçer, tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1821-06-14 ve 1885-01-26 günleri TDV'de okunmadı (Mısır fethi yılı ve Hartum'un düşüşü gün olarak yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:160",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ. Ek: history.state.gov/countries/sudan ABD tanıma günü 1 Ocak 1956 (tanıma günü)."
+  }
+ ],
+ "Los Ángeles (El Pueblo)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1330",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1781-09-04",
+   "t": "1821-09-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (EBSCO Research Starters, LA Almanac, 'LA as Subject': 1781-09-04 geleneksel yıldönümü: ipucu); NPS/parks.ca.gov açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-108, gece-107'deki 1822-04-11'in yerine): Alta California kırılması 1821-09-27'de KALIR (yeni-ispanya t = meksika f); 1822-04-11 Monterey yemini yalnız ic_not — aynı idarenin ardılı (valilik taşra birimi), yemin gecikmesi haber süresi, egemenlik dilimi değil. | KARAR EMRELİC (gece-107): Meksika fiilî günü Alta California 1822-04-11 ONAY (kaynakla teyit). | LAB SALI (HAYALET-KARAR, origin/main ölçümü): meksika f 1821-09-27 = yeni-ispanya t, BİTİŞİK; Alta California yemini 1822-04-11 (Monterey) TEK ÖLÇÜ fiilî günü adayı (Bancroft ile kaynakla). | KARAR EMRELİC (gece-105): Kaliforniya: isg abd — Monterey 1846-07-07 (Sloat); Los Angeles 1846-08-13 (Stockton), Eylül 1846 ayaklanmayla geri alındı, 1847-01-10 yeniden; Cahuenga 1847-01-13 ic_not; günler kaynakla. Altında s: meksika (yeni-ispanya t 1821-09-27 sonrası boşluksa ekle; Kaliforniya'nın 1822 Nisan yemini TEK ÖLÇÜ teslim adayı, kaynakla; yoksa künye f + beyan). | Kuruluş 1781-09-04 ve Yeni İspanya t 1821-09-27 kaynakla okunmadı; Alta California Meksika'yı 1822'de tanıdı (kaynaksız bilgi): t ucu şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1330",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+   "alinti": "This treaty, signed on February 2, 1848, ended the war / By its terms, Mexico ceded 55 percent of its territory, including the present-day states California",
+   "oneri": {
+    "not": "öncesi isg abd 1846–48 + s: meksika 1821/22 → 1848-02-02 eklenecek"
+   },
+   "not": "KARAR EMRELİC (gece-108, gece-107'deki 1822-04-11'in yerine): Alta California kırılması 1821-09-27'de KALIR (yeni-ispanya t = meksika f); 1822-04-11 Monterey yemini yalnız ic_not — aynı idarenin ardılı (valilik taşra birimi), yemin gecikmesi haber süresi, egemenlik dilimi değil. | KARAR EMRELİC (gece-107): Meksika fiilî günü Alta California 1822-04-11 ONAY (kaynakla teyit). | LAB SALI (HAYALET-KARAR, origin/main ölçümü): meksika f 1821-09-27 = yeni-ispanya t, BİTİŞİK; Alta California yemini 1822-04-11 (Monterey) TEK ÖLÇÜ fiilî günü adayı (Bancroft ile kaynakla). | KARAR EMRELİC (gece-105): Kaliforniya: isg abd — Monterey 1846-07-07 (Sloat); Los Angeles 1846-08-13 (Stockton), Eylül 1846 ayaklanmayla geri alındı, 1847-01-10 yeniden; Cahuenga 1847-01-13 ic_not; günler kaynakla. Altında s: meksika (yeni-ispanya t 1821-09-27 sonrası boşluksa ekle; Kaliforniya'nın 1822 Nisan yemini TEK ÖLÇÜ teslim adayı, kaynakla; yoksa künye f + beyan). | TEK ÖLÇÜ: Guadalupe Hidalgo 1848-02-02 imza (ABD 1846'dan fiilen yönetiyordu) doğru; öncesi isg abd (Monterey 1846-07-07, Los Angeles 1846-08/1847-01, kaynakla) EKSİK — EMRELİC'e soruldu. | f ucu gün düzeyinde, imza günü (US National Archives, devletin resmî yayını). TEK ÖLÇÜ: ABD Los Angeles'ı Ocak 1847'den beri fiilen yönetiyor (kaynaksız bilgi) → imza günü; yürürlük ic_not."
+  }
+ ],
+ "Mangalya (Mangalia)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:503",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1393-09-01",
+   "t": "1402-07-28",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV dobruca; TDV kostence",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV: Köstence 1402'de Mircea, 1419'da Osmanlı (yıl); 1393-09-01 f ve 1402-07-28 t Mangalya'ya özgü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:503",
+   "alan": "s",
+   "d": "romanya",
+   "f": "1878-07-13",
+   "t": "1881-03-26",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV dobruca ('Berlin Antlaşması ile Dobruca’nın kuzeyi Romanya’ya ... verilmiştir': Mangalya adı yok, gün yok); TDV kostence (Berlin 1878); web arama",
+   "alinti": "",
+   "oneri": {
+    "f": "1878-11 (Romen idaresinin fiilî devralışı, kaynakla)",
+    "not": "öncesi isg rusya 1877"
+   },
+   "not": "KARAR EMRELİC (gece-105): TEK ÖLÇÜ teslim: isg rusya (1877 Rus girişi) → s: romanya Kasım 1878 fiilî devir. Romanya 1919'a dek Jülyen: Romen kaynağı O.S. ise Gregoryen'e çevir, ikisi ic_not. Berlin 1878-07-13 ic_not. DOAJ/dialnet açılmadı → tarayıcı listesi. | TEK ÖLÇÜ: Berlin 1878-07-13 imza; Romanya Dobruca'yı yönetmiyordu (Rus idaresi) → teslim günü (1878-11, Dobruca'nın fiilî devri; DOAJ makalesi gövdesi açılmadı) — ONERI adayı, EMRELİC'e soruldu. | TEK ÖLÇÜ notu: Berlin 1878-07-13 imzası; Dobruca'yı Romanya'nın fiilen devralışı 1878 Kasım (arama özeti, DOAJ makalesi 'Romanian-Russian documents on the administration of Dobrogea (June 1877-November 1878)': https://doaj.org/article/04caf2faa8fb452b906aa3b479847184 gövde okunmadı). Rus yönetimi sürerken imza günü s: yazmak TEK ÖLÇÜ'ye göre sorgulanmalı."
+  }
+ ],
+ "Marmara Adası": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1822",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV marmara-adasi (madde yok, arama sayfası); web arama (DergiPark makaleleri açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Adanın Bizans'tan Osmanlı'ya geçiş günü bulunamadı (1453-05-29 İstanbul fethi günü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1822",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1453-05-29",
+   "t": "1920-04-23",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV marmara-adasi (yok); web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Osmanlı idaresine geçiş (adaya özgü) bulunamadı; zincirdeki v: dönemleri bu turda hedef değil."
+  }
+ ],
+ "Matamba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1412",
+   "alan": "s",
+   "d": "matamba",
+   "f": "1281-01-01",
+   "t": "1744-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "countrystudies.us/angola/8.htm (LoC): Nzinga Matamba tahtına çıktı, 1744 yok; Britannica 403; web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özeti (Britannica, okunamadı): 1744 Portekiz istilası kısmî/vasallık, Matamba'nın Angola'ya fiilen katılışı 1909 seferi. 1744-01-01 t ucu şüpheli, Britannica açılırsa ONERI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1412",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1744-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "countrystudies.us/angola/8.htm; Britannica 403; web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "portekiz-angola f=1744 Matamba için okunmadı; 1909 olası (ipucu). t=1975-11-11 ülke düzeyi, ayrıca teyit edilmedi."
+  }
+ ],
+ "Melîle (Melilla)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:48",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1497-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Aldaba (UNED), hakemli, s. 3-4 (EMRELİC pypdf okuması) — https://revistas.uned.es/index.php/ALDABA/article/download/20288/16798/40106",
+   "alinti": "En jueves 28 de Septiembre de 1497 … víspera de San Miguel, se ganó esta ciudad de Melilla",
+   "oneri": {
+    "t": "1497-09-28"
+   },
+   "not": "KARAR EMRELİC (gece-105): Ay KAYNAKLI (Eylül 1497); gün tartışmalı. Atlas 1497-01-01 → 1497-09-28 (Medina Sidonia kitabesi, çağdaş; Jülyen hafta günü Perşembe ✓). 17 Eylül (Pazar) yazarca sorgulanıyor; Barrantes yalnız ay. İki gün ve hafta günü sınaması ic_not → ONERI-çekinceli. | Merînî sahipliği f=1281 kaynaksız (1497 öncesi Melilla harap/terkedilmişti: arama özeti)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:48",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1497-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Aldaba (UNED), hakemli, s. 3-4 (EMRELİC pypdf okuması) — https://revistas.uned.es/index.php/ALDABA/article/download/20288/16798/40106",
+   "alinti": "En jueves 28 de Septiembre de 1497 … víspera de San Miguel, se ganó esta ciudad de Melilla",
+   "oneri": {
+    "f": "1497-09-28"
+   },
+   "not": "KARAR EMRELİC (gece-105): Ay KAYNAKLI (Eylül 1497); gün tartışmalı. Atlas 1497-01-01 → 1497-09-28 (Medina Sidonia kitabesi, çağdaş; Jülyen hafta günü Perşembe ✓). 17 Eylül (Pazar) yazarca sorgulanıyor; Barrantes yalnız ay. İki gün ve hafta günü sınaması ic_not → ONERI-çekinceli. | Arama özeti: Estopiñán Melilla'yı 17 Eylül 1497'de aldı (Medina Sidonia adına; gün kroniklerde yok, Barrantes): atlas 1497-01-01 yıl düzeyinde uyumlu; okunmuş kaynak yok."
+  }
+ ],
+ "Mercihamis (Yurtbağı)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_guney.js:14",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1516-08-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/selim-i",
+   "alinti": "24 Ağustos’ta Mercidâbık ovasında yapılan savaşta ateşli silâhların da rolüyle Memlük ordusu dağıldı",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu (Mercidâbık savaş günü, ÜLKE DÜZEYİ) tarihliyor; Mercihamis'e özgü Memlük t ucu yok. ABİ MERKEZ Birecik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_guney.js:14",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1516-08-24",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/birecik",
+   "alinti": "Mercidâbık Savaşı’ndan sonra Osmanlı idaresine girdi (1516)",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde; ABİ MERKEZ Birecik (Mercihamis zinciri Birecik'ten). Atlas günü 1516-08-24 = savaş günü (TDV selim-i); Birecik 'sonra' der, gün teyitsiz [yalnız yıl teyitli; gün teyitsiz]. Urfa sancağı/Halep eyaleti: tahrir ölçütü karşılanıyor (sancağa bağlandı)."
+  }
+ ],
+ "Mojácar": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:301",
+   "alan": "s",
+   "d": "granada",
+   "f": "1281-01-01",
+   "t": "1488-06-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "En la España Medieval (UCM), hakemli, s. 4 (EMRELİC pypdf okuması) — https://revistas.ucm.es/index.php/ELEM/article/download/ELEM8282220595A/25270/26431",
+   "alinti": "Pero a la llegada de los castellanos capitula, entregándose el 13 de junio",
+   "oneri": {
+    "t": "1488-06-13"
+   },
+   "not": "KARAR EMRELİC (gece-105): Mojácar teslimi 1488-06-13 (Jülyen) KAYNAKLI (1488 seferi bağlamı); atlas 06-10 → 06-13. | Nasrî sahipliği f=1281 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:301",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1488-06-10",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "En la España Medieval (UCM), hakemli, s. 4 (EMRELİC pypdf okuması) — https://revistas.ucm.es/index.php/ELEM/article/download/ELEM8282220595A/25270/26431",
+   "alinti": "Pero a la llegada de los castellanos capitula, entregándose el 13 de junio",
+   "oneri": {
+    "f": "1488-06-13"
+   },
+   "not": "KARAR EMRELİC (gece-105): Mojácar teslimi 1488-06-13 (Jülyen) KAYNAKLI (1488 seferi bağlamı); atlas 06-10 → 06-13. | Arama özeti: 10 Haziran 1488 Alabez-Garcilaso pakt günü (belediye callejero); teslim 12 ya da 13 Haziran 1488 (Segura Graiño, arama özeti, okunmadı): atlas t=1488-06-10 ile 2-3 gün fark olası. Gövde okunamadı, ONERI yazılmadı."
+  }
+ ],
+ "Monterey (Alta California)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1245",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1770-06-03",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.nps.gov/articles/000/royal-presidio-chapel-ca.htm",
+   "alinti": "The Presidio of Monterey was originally founded on June 3, 1770",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-108, gece-107'deki 1822-04-11'in yerine): Alta California kırılması 1821-09-27'de KALIR (yeni-ispanya t = meksika f); 1822-04-11 Monterey yemini yalnız ic_not — aynı idarenin ardılı (valilik taşra birimi), yemin gecikmesi haber süresi, egemenlik dilimi değil. | KARAR EMRELİC (gece-107): Meksika fiilî günü Alta California 1822-04-11 ONAY (kaynakla teyit). | LAB SALI (HAYALET-KARAR, origin/main ölçümü): meksika f 1821-09-27 = yeni-ispanya t, BİTİŞİK; Alta California yemini 1822-04-11 (Monterey) TEK ÖLÇÜ fiilî günü adayı (Bancroft ile kaynakla). | KARAR EMRELİC (gece-105): NPS federal kurumun resmî yayını (history.state.gov sınıfı) → KAYNAKLI. | KARAR EMRELİC (gece-105): Kaliforniya: isg abd — Monterey 1846-07-07 (Sloat); Los Angeles 1846-08-13 (Stockton), Eylül 1846 ayaklanmayla geri alındı, 1847-01-10 yeniden; Cahuenga 1847-01-13 ic_not; günler kaynakla. Altında s: meksika (yeni-ispanya t 1821-09-27 sonrası boşluksa ekle; Kaliforniya'nın 1822 Nisan yemini TEK ÖLÇÜ teslim adayı, kaynakla; yoksa künye f + beyan). | f ucu gün düzeyinde: İspanyol presidiosunun kuruluşu (NPS makalesi, federal kurum; kurum portalı sınıfı olabilir, çekinceli). t=1821-09-27 ülke günü okunmadı; Alta California Meksika'yı 1822'de tanıdı (kaynaksız bilgi): t şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1245",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.archives.gov/milestone-documents/treaty-of-guadalupe-hidalgo",
+   "alinti": "This treaty, signed on February 2, 1848, ended the war / By its terms, Mexico ceded 55 percent of its territory, including the present-day states California",
+   "oneri": {
+    "not": "öncesi isg abd 1846–48 + s: meksika 1821/22 → 1848-02-02 eklenecek"
+   },
+   "not": "KARAR EMRELİC (gece-108, gece-107'deki 1822-04-11'in yerine): Alta California kırılması 1821-09-27'de KALIR (yeni-ispanya t = meksika f); 1822-04-11 Monterey yemini yalnız ic_not — aynı idarenin ardılı (valilik taşra birimi), yemin gecikmesi haber süresi, egemenlik dilimi değil. | KARAR EMRELİC (gece-107): Meksika fiilî günü Alta California 1822-04-11 ONAY (kaynakla teyit). | LAB SALI (HAYALET-KARAR, origin/main ölçümü): meksika f 1821-09-27 = yeni-ispanya t, BİTİŞİK; Alta California yemini 1822-04-11 (Monterey) TEK ÖLÇÜ fiilî günü adayı (Bancroft ile kaynakla). | KARAR EMRELİC (gece-105): Kaliforniya: isg abd — Monterey 1846-07-07 (Sloat); Los Angeles 1846-08-13 (Stockton), Eylül 1846 ayaklanmayla geri alındı, 1847-01-10 yeniden; Cahuenga 1847-01-13 ic_not; günler kaynakla. Altında s: meksika (yeni-ispanya t 1821-09-27 sonrası boşluksa ekle; Kaliforniya'nın 1822 Nisan yemini TEK ÖLÇÜ teslim adayı, kaynakla; yoksa künye f + beyan). | TEK ÖLÇÜ: Guadalupe Hidalgo 1848-02-02 imza (ABD 1846'dan fiilen yönetiyordu) doğru; öncesi isg abd (Monterey 1846-07-07, Los Angeles 1846-08/1847-01, kaynakla) EKSİK — EMRELİC'e soruldu. | f ucu gün düzeyinde, imza günü (US National Archives). TEK ÖLÇÜ: ABD Monterey'i 1846-07'den beri fiilen yönetiyor (kaynaksız bilgi) → imza günü."
+  }
+ ],
+ "Montería": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1630",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1777-05-01",
+   "t": "1819-12-17",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (Dialnet https://dialnet.unirioja.es/descarga/articulo/3997372.pdf bağlantı zaman aşımı; Alcaldía de Montería tarihçesi yalnız kuruluş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Montería'nın 1819-12-17'de Gran Colombia'ya geçişi (Sinú 1819'da royalist olabilir) kaynakla okunmadı; ülke düzeyi gün şehir günü değildir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1630",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama; Dialnet PDF (açılamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Büyük Kolombiya t=1831-01-01 ülke düzeyi; okunmadı."
+  }
+ ],
+ "Nder (Valo)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:200",
+   "alan": "s",
+   "d": "valo",
+   "f": "1287-01-01",
+   "t": "1855-02-25",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "web arama (Vikipedi 'N'Der' aynaları: Waalo 1855'te ilhak, Dioubouldou 25 Şubat 1855 / 31 Ocak 1855 çelişkili: ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Valo f=1287 kaynaksız; t=1855-02-25 yalnız Vikipedi ipucu (Dioubouldou savaşı günü; ilhak kararı ayrı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:200",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1855-02-25",
+   "t": "1960-06-20",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "web arama (Vikipedi); history.state.gov/countries/mali (yalnız 1960-06-20 Mali Federasyonu bağımsızlığı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fransız ilhakı 1855 (savaş günü 25 Şubat 1855 ipucu) ve t=1960-06-20 Mali Federasyonu: bu satır için ayrıca okunmuş cümle yok."
+  }
+ ]
+}

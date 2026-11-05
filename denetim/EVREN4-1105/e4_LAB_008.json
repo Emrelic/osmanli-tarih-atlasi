@@ -1,0 +1,636 @@
+{
+ "Demenhûr (Damanhur)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:81",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. Delta'da Beheyre; Mısır eyaleti içinde. alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:81",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. Delta'da Beheyre; Mısır eyaleti içinde. f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:81",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. Delta'da Beheyre; Mısır eyaleti içinde. f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:81",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-07-08",
+   "t": "1801-05-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV Mısır (Fransız İşgali ve Sonrası): yalnız ülke düzeyi; ia-ara 'Bonaparte Egypt Damanhur' boş; yerleşime özgü gün kaynağı bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Mısır: «Fransızlar’ın Temmuz 1798’deki işgali Mısır’da yeni bir dönem açmış» ve «Ağustos 1801’de Mısır’ı terketmek zorunda kaldılar» — AY düzeyi, ülke. Yerleşimin kendi gün tanıklığı (f=1798-07-08, t=1801-05-09) okunmadı; mevcut kayıt napoleon.org (NAPO-2/3) kronolojisine dayanıyor, ben açmadım. Not: TDV 'Ağustos 1801' tahliye der, atlas t Haziran/Mayıs 1801 — TDV ülke çapı son tahliyeyi, atlas bölgesel boşaltmayı anlatıyor olabilir; çelişki beyanı. ÖLÇÜT: geçici/askerî — işgal, Osmanlı iddiası sürüyor."
+  }
+ ],
+ "Sâlihiyye": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:155",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:155",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:155",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:155",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-08-11",
+   "t": "1801-06-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV Mısır (Fransız İşgali ve Sonrası): yalnız ülke düzeyi; ia-ara 'Bonaparte Egypt Damanhur' boş; yerleşime özgü gün kaynağı bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Mısır: «Fransızlar’ın Temmuz 1798’deki işgali Mısır’da yeni bir dönem açmış» ve «Ağustos 1801’de Mısır’ı terketmek zorunda kaldılar» — AY düzeyi, ülke. Yerleşimin kendi gün tanıklığı (f=1798-08-11, t=1801-06-27) okunmadı; mevcut kayıt napoleon.org (NAPO-2/3) kronolojisine dayanıyor, ben açmadım. Not: TDV 'Ağustos 1801' tahliye der, atlas t Haziran/Mayıs 1801 — TDV ülke çapı son tahliyeyi, atlas bölgesel boşaltmayı anlatıyor olabilir; çelişki beyanı. ÖLÇÜT: geçici/askerî — işgal, Osmanlı iddiası sürüyor."
+  }
+ ],
+ "Bürüllüs (Baltîm)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:98",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:98",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:98",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı."
+  }
+ ],
+ "Şibînülkûm (Menûfiye)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:115",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:115",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:115",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı."
+  }
+ ],
+ "Menzile": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:137",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:137",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:137",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı."
+  }
+ ],
+ "Mersâ Matruh": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:193",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. ABİ MERKEZ: İskenderiye (TDV Mısır'da İskenderiye sancağı; Matruh özgü kayıt yok). alıntı yalnız t ucunu tarihliyor (Memlük sonu 13 Nisan 1517, gün); f=1281 atlas ufku, kaynak Memlük kuruluşunu 648/1250 verir (atlas ufkundan önce). Bu satırda ek tutarsızlık yok. Mersa Matruh'un 1281-1517'de iskânlı bir yer olarak var olduğu ve Memlük idaresinde olduğu TDV Mısır'da teyitsiz (adı geçmiyor). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:193",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, MISIR (II. Tarih, Memlükler / Osmanlı Dönemi / Fransız İşgali, Mehmed Ali) — https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Osmanlı hâkimiyeti Yavuz Sultan Selim’in buraya yönelik seferi sonucunda 923’te (1517) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. ABİ MERKEZ: İskenderiye (TDV Mısır'da İskenderiye sancağı; Matruh özgü kayıt yok). f: Osmanlı hâkimiyeti 1517'de başladı (yıl) ve Memlük Devleti'nin sonu 13 Nisan 1517 (aynı madde: 'Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)') — f=1517-04-13 ile uyumlu. t=1805-07-03: TDV Kavalalı 'valiliğe getirildi (3 Temmuz 1805)'. KÜNYE NOTU: zincirde d f/memluk t 1517-05-19, hedefte/künyede 1517-04-13; TDV 13 Nisan der (zincir 05-19 TDV ile çelişir). ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, Mısır Kanûnnâmesi (TDV Mısır, Osmanlı Dönemi). Mersa Matruh'un 1281-1517'de iskânlı bir yer olarak var olduğu ve Memlük idaresinde olduğu TDV Mısır'da teyitsiz (adı geçmiyor). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:193",
+   "alan": "v",
+   "d": "",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV, KAVALALI MEHMED ALİ PAŞA (M. H. Kutluoğlu) — https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Mısır); yerleşime özgü tanıklık yok. ABİ MERKEZ: İskenderiye (TDV Mısır'da İskenderiye sancağı; Matruh özgü kayıt yok). f: Mehmed Ali'nin Bâbıâli tarafından valiliğe getirilişi 3 Temmuz 1805 (gün, birebir). t: TDV Mısır, birebir: «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı» (gün, 18 Aralık 1914; ayrı sayfa — Mısır, Kuzey-Güney İngiliz himayesi). Kaynak ÜLKE düzeyinde 'v' (özerk vali/hıdiv) statüsünü kanıtlar; 1841 fermanı Mısır'ı irsî valilik yaptı. Mersa Matruh'un 1281-1517'de iskânlı bir yer olarak var olduğu ve Memlük idaresinde olduğu TDV Mısır'da teyitsiz (adı geçmiyor)."
+  }
+ ],
+ "İsmâiliye": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:174",
+   "alan": "v",
+   "d": "",
+   "f": "1863-04-27",
+   "t": "1914-12-18",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, İSMÂİLİYE — https://islamansiklopedisi.org.tr/ismailiye ; t için TDV MISIR (aşağıda)",
+   "alinti": "18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "t=1914-12-18 TDV Mısır'da gün olarak birebir teyitli (f dışı uç). f=1863-04-27: TDV İsmâiliye kuruluşu yalnız 'Süveyş Kanalı’nın yapımı sırasında (1862-1869)' diye anlatır, Hidiv İsmâil Paşa'nın adı; 1863 yılı/günü doğrudan verilmiyor — f ucu teyitsiz. Kaynak ÜLKE düzeyinde 'v' statüsünü (Mısır özerkliği) ve Mısır Arap Cumhuriyeti öncesini kapsıyor. Alıntı yalnız t ucunu tarihliyor."
+  }
+ ],
+ "Oreoi (İstiaia)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2474",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1470-07-12",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, EĞRİBOZ — https://islamansiklopedisi.org.tr/egriboz",
+   "alinti": "Venedikliler 1304’te burayı müstahkem hale getirdiler ve 1470’e kadar Ege’deki en gelişmiş deniz üssü olarak kullandılar",
+   "oneri": {},
+   "not": "ABİ MERKEZ: Eğriboz (Oreoi/İstiaia ada kuzeyi; TDV Oreoi'den söz etmiyor, 'Eğriboz'un 1204 bölünmesinden sonra Venedikliler’in kontrolü altına girdiği' yazıyor). Alıntı yalnız t ucunu (1470) tarihliyor; 1281 f ufku. UYARI: Eğriboz adasının kuzeyi (Oreos) Veronalı üçlü-beyler (Dalle Carceri) / Venedik himayesi karışımıdır; TDV bunu ayırmıyor — Oreoi için Venedik doğrudan egemenliği beyanlı yaklaşıklık. t gün (12 Temmuz 1470) bu maddede yok; TDV 1470 yıl (kuşatma)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2474",
+   "alan": "d",
+   "d": "",
+   "f": "1470-07-12",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV, EĞRİBOZ — https://islamansiklopedisi.org.tr/egriboz",
+   "alinti": "Osmanlı hâkimiyeti döneminde (1470-1831) önemli bir deniz üssü olan şehir",
+   "oneri": {},
+   "not": "ABİ MERKEZ: Eğriboz (Oreoi'ye özgü tanıklık yok). Hem f (1470, Fâtih'in kuşatma ve fethi) hem t (1831, Yunanlılar’a verilişi) YIL düzeyi; gün teyitsiz. ÖLÇÜT: idareye katma — TDV: 1540 tahrir defteri Eğriboz'u kaydeder. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2474",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1831-01-01",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, EĞRİBOZ — https://islamansiklopedisi.org.tr/egriboz",
+   "alinti": "barış antlaşması yürürlüğe girdikten sonra 1831’de Yunanlılar’a verildi",
+   "oneri": {},
+   "not": "ABİ MERKEZ: Eğriboz; f YIL düzeyi (1831). t=1973-06-01 künye f/t (cunta) bu kaynakta yok. TDV 1831 der; Londra Protokolü/İstanbul Antlaşması tarihleri okunmadı."
+  }
+ ],
+ "Arapkir": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2495",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1315-04-28",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV arapkir (okundu); TDV malatya (Arapkir Moğol dönemi aranmadı: Moğol/İlhanlı geçişi Malatya için); DergiPark arama özeti (okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Arapkir, İlhanlı/Memlük dönemini anmıyor; kaynak SUSUYOR. Komşuluk ölçümü (kayıt notu) kaynak değil. Yerleşim adı kaynakta geçmiyor → ABİ MERKEZ Malatya (TDV malatya: Memlük girişi 22 Muharrem 715 / 28 Nisan 1315 — kayıtta da böyle) Malatya'ya bağlı gitmek atlasın önceki kararı; Arapkir'in Malatya ile siyasî birliği kaynakla gösterilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2495",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1315-04-28",
+   "t": "1399-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV arapkir; TDV malatya (Memlük girişi Malatya'da 1315)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arapkir'e özgü Memlük tanıklığı yok. TDV Arapkir: «XV. yüzyıl başında Timûrîler tarafından zaptedilen Arapkir» — Memlük hakkında hiçbir şey. ABİ MERKEZ Malatya zinciri atlasta zaten uygulanmış, bağın kaynağı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2495",
+   "alan": "d",
+   "d": "",
+   "f": "1399-09-01",
+   "t": "1400-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV arapkir (okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Arapkir'de I. Bayezid dönemi Osmanlı idaresi yok; Osmanlı'ya geçiş yalnız 1515. Bu 4 aylık d dilimi kaynaksız; Yıldırım'ın 1399 Malatya/Elbistan hareketi için ayrı kaynak (TDV Bayezid) bakılmadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2495",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1402-07-28",
+   "t": "1516-08-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, ARAPKIR — https://islamansiklopedisi.org.tr/arapkir",
+   "alinti": "XV. yüzyıl başında Timûrîler tarafından zaptedilen Arapkir, Yavuz Sultan Selim zamanında Osmanlı idaresine alındı (1515)",
+   "oneri": {},
+   "not": "Kaynak Memlük'ü anmıyor; Timurlu (XV. yy başı) sonrası doğrudan Osmanlı (1515) diyor, ara sahibi (Dulkadir/Akkoyunlu/Memlük) belirtmiyor. Memlük 1402-1516 dilimi TDV ile DESTEKLENMİYOR (susuyor) ve t ucu 1516-08-24 yerine 1515 yıl öneriyor. 'f' ucu için kaynak yok. KURAL: gün uydurulmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2495",
+   "alan": "d",
+   "d": "",
+   "f": "1516-08-24",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, ARAPKIR — https://islamansiklopedisi.org.tr/arapkir",
+   "alinti": "Yavuz Sultan Selim zamanında Osmanlı idaresine alındı (1515)",
+   "oneri": {
+    "f": "1515-01-01"
+   },
+   "not": "f: YIL düzeyi 1515 (atlas 1516-08-24 Mercidabık'a bağlı; TDV 1515'te Arapkir'in Osmanlı idaresine girdiğini söyler). ÖLÇÜT: idareye katma — TDV: 932 (1525) ilk tahrir; Diyarbekir eyaleti sancak merkezi, sonra Rum (Sivas) eyaleti. Yalnız yıl; çakışma kontrolü (öncül dilim t=1516-08-24) gerekir. t=1920-04-23 (TBMM) kural kararı bu kaynakta yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Yalta": [
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:180",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1380-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, KIRIM (2022) — https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "Cenevizliler Altın Orda’dan yerleşme izni almak suretiyle Kefe’ye gelen",
+   "oneri": {},
+   "not": "Aynı sayfadaki 1380 anlaşması (Balıklava–Suğdak arası Cenevizliler’e bağlı) bu dilimin t ucunu (yıl) tarihliyor; alıntı Kefe'nin Altın Orda izniyle Ceneviz'e geçtiğini (≈1266) söylüyor, Yalta'ya özgü değil. Yalta'nın 1281'de var olup olmadığı TDV'de yok (Yalta ilk kez 16. yy Osmanlı sayımlarında 3 mahalleli kasaba). Kıyı düzeyi: Ceneviz Gotya sahili 1281'de zaten Ceneviz'de ise (Kefe ≈1266-80) f dilimi tartışmalı. POSTIT #6 Emre kararı korunur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:180",
+   "alan": "s",
+   "d": "ceneviz",
+   "f": "1380-01-01",
+   "t": "1475-06-06",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, KIRIM (2022) — https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "Balıklava’dan Suğdak’a kadar olan yerlerin Cenevizliler’e bağlı sayılması kabul edilmişti",
+   "oneri": {},
+   "not": "Aynı cümle: «1380’de Cenevizliler ile Altın Orda Hanlığı arasında yapılan anlaşmada…» — f YIL düzeyi (1380), KIYI ŞERİDİ düzeyi (Yalta bu şerit içinde, adı geçmiyor). t: TDV Kefe «Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)» — AY düzeyi, atlas 06-06 gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:180",
+   "alan": "d",
+   "d": "",
+   "f": "1475-06-06",
+   "t": "1774-07-21",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, KEFE — https://islamansiklopedisi.org.tr/kefe",
+   "alinti": "Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)",
+   "oneri": {},
+   "not": "f AY düzeyi (Haziran 1475; atlas 06-06 gün teyitsiz). TDV Kırım: «Yarımadada Kerç’ten itibaren Balıklava’ya kadar uzanan sahiller doğrudan Osmanlı kontrolü altına alındı»; «Mangub, İnkerman, Balıklava, Yalta, Aluşta, Suğdak, Kefe, Kerç Osmanlı bölgesinde kalmaktaydı» (Yalta adı geçer; 1542 tahrir, Kefe sancağı — ÖLÇÜT: idareye katma). t: Küçük Kaynarca 21 Temmuz 1774 (TDV Kırım) — ÇİFT-TDV: TDV'nin Küçük Kaynarca başlığı 26 Temmuz 1774 der; iki madde de beyan edilir, seçilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:180",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1771-07-01",
+   "t": "1774-07-21",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, KIRIM (2022) — https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "1771’de Prens Dolgorukov idaresinde Kırım yarımadasını istilâ ettiler",
+   "oneri": {},
+   "not": "f YIL düzeyi (1771; atlas 07-01 gün teyitsiz). ÖLÇÜT: geçici/askerî — TDV işgal/istilâ der; Kaynarca öncesi Kırım Hanlığı'nın Osmanlı-Rus çekişmesi sürüyordu (1774 Kaynarca madde 3: 'tam mânasıyla müstakil'). t=1774-07-21 TDV Kırım'daki antlaşma günü (bkz. d satırı: 21/26 Temmuz çelişkisi)."
+  }
+ ],
+ "Krasnovodsk (Türkmenbaşı)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2312",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1869-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV türkmenistan, türkmenler (Krasnovodsk/1869 anahtarı YOK); Iranica krasnovodsk/transcaspian-region (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta Krasnovodsk 1869 bulunamadı. İPUCU (kaynaklı sayılmaz): arama özeti/EB1911/Vikipedi 1869 sonunda Stoletov'un Muravyov Körfezi'ne çıkarak kale kurması (GÜN YOK, 'late 1869'). Kayıt f=1869-01-01 YIL; ay-gün teyitsiz. t=1917-03-15 bu kaynaklarda aranmadı (ülke düzeyi kronoloji)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2312",
+   "alan": "s",
+   "d": "turkmenistan",
+   "f": "1991-10-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV, TÜRKMENİSTAN (Halil Kurt) — https://islamansiklopedisi.org.tr/turkmenistan",
+   "alinti": "27 Ekim 1991’de bağımsızlığını kazanan Türkmenistan",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f=bağımsızlık ilanı günü (27 Ekim 1991, gün, birebir) = atlas kuralı (Sovyet ardılı başlangıcı). ic_not beyanı: «SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991». 'Türkmenistan Parlamentosu bağımsızlığını ilân etmiştir' (aynı madde)."
+  }
+ ],
+ "Travnik": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2521",
+   "alan": "s",
+   "d": "bosna",
+   "f": "1463-01-01",
+   "t": "1463-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, TRAVNİK — https://islamansiklopedisi.org.tr/travnik ; BOSNA-HERSEK — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "Bölge Ortaçağ’daki Bosna Devleti’nin merkezine bağlıydı",
+   "oneri": {},
+   "not": "Alıntı sahibi (Bosna) teyit eder ama hiçbir ucu tarihlemez; f=1463-01-01 bu dilimin yapay başlangıcı (kayıtta 'sub-split'), t=1463-06-01 gün kaynakta YOK (TDV: Travnik adı 'ilk defa 1463’te Fâtih Sultan Mehmed’in Bosna seferiyle ilgili olarak zikredilir'). TDV Bosna-Hersek: fetih 'Tomašević (1461-1463)' ve Fâtih'in Bosna fethi — yıl 1463 ima, gün/ay yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2521",
+   "alan": "d",
+   "d": "",
+   "f": "1463-06-01",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, TRAVNİK — https://islamansiklopedisi.org.tr/travnik ; BOSNA-HERSEK — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "Travnik adı ilk defa 1463’te Fâtih Sultan Mehmed’in Bosna seferiyle ilgili olarak zikredilir",
+   "oneri": {},
+   "not": "f: 1463 YIL (ima; alıntı ilk anış, fetih değil); gün 06-01 teyitsiz. ÖLÇÜT: idareye katma — TDV Travnik: «Travnik Osmanlı döneminde XVI. yüzyılda ortaya çıkmıştır… 1699-1851 Bosna vezirlerinin ikamet ettiği yer» (merkez Travnik’e taşındı). t: TDV Bosna-Hersek «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi» (atlas 10-05 ile 2 gün fark; Avusturya 5 Ekim ilân/7 Ekim TDV; seçilmedi) — işgal 29 Temmuz–20 Ekim 1878 (isg satırı hedef dışı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Vişegrad": [
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:282",
+   "alan": "s",
+   "d": "bosna",
+   "f": "1281-01-01",
+   "t": "1463-06-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "TDV vişegrad slug'ı çözülemedi (arama 1 madde buldu ama slug 5 denemede açılmadı: visegrad, visegrad-bosna(-hersek), vishegrad); TDV Bosna-Hersek, Drina Köprüsü okundu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Vişegrad'a özgü ortaçağ Bosna kaydı TDV'de okunmadı. Ülke düzeyi: TDV Bosna-Hersek, Bosna Krallığı 1463'te çöktü (yıl, 'Tomašević 1461-1463'). Vişegrad (Drina) Bosna'nın doğusunda Sırp/Bosna sınırında, Hum/Bosna ayrımı ortaçağda değişken — ABİ MERKEZ aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:282",
+   "alan": "d",
+   "d": "",
+   "f": "1463-06-01",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, DRİNA KÖPRÜSÜ (S. Eyice) — https://islamansiklopedisi.org.tr/drina-koprusu ; TDV Bosna-Hersek",
+   "alinti": "Bosna-Hersek’te Vişegrad’da Sadrazam Sokullu Mehmed Paşa adına Mimar Sinan’ın yaptığı köprü",
+   "oneri": {},
+   "not": "Osmanlı idaresinin varlığı (XVI. yy, Sokullu vakfı) teyit; f ucu tarihleyen alıntı yok (Bosna fethi 1463 ülke düzeyi, yıl ima). t: 1908 ilhakı 7 Ekim (TDV) vs atlas 5 Ekim; seçilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Visoko": [
+  {
+   "dosya_satir": "data/yerlesimler_ek2.js:51",
+   "alan": "s",
+   "d": "bosna",
+   "f": "1281-01-01",
+   "t": "1448-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV, SARAYBOSNA (M. Aruçi) — https://islamansiklopedisi.org.tr/saraybosna ; TDV Bosna-Hersek",
+   "alinti": "Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi",
+   "oneri": {},
+   "not": "1448 YILI yalnız HODİDJED vilâyeti + SARAY OVASI içindir; Visoko Saray ovasında değil (≈25 km KB, Bosna vadisi, ortaçağ Bosna krallık merkezi). Alıntı Visoko'yu kapsamıyor → t=1448 teyitsiz. TDV Bosna-Hersek: Bosna Krallığı'nın son kralı Tomašević (1461-1463), fetih 1463 → Visoko için ADAY t=1463 (yıl, dolaylı, ülke düzeyi). Kayıtta 1448 kronoloji maddesi 'Saray ovasının ilhakı'ndan DEVRALMA; yerleşime özgü değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek2.js:51",
+   "alan": "d",
+   "d": "",
+   "f": "1448-01-01",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV, SARAYBOSNA ; TDV Bosna-Hersek",
+   "alinti": "Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi",
+   "oneri": {},
+   "not": "f=1448 Visoko için TEYİTSİZ (bkz. s satırı: Saray ovası ≠ Visoko). Aday f=1463 (ülke düzeyi Bosna fethi). TDV Şer'iyye Sicilleri maddesi Visoko defterlerini anar (Osmanlı idaresinin varlığı, sicil — tarihsiz); yıl verilmiyor. t=1908 bkz. Travnik notu. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Bazavluk Seçi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:150",
+   "alan": "s",
+   "d": "zaporojye",
+   "f": "1593-01-01",
+   "t": "1775-06-16",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bazavluk Sich' — encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBazavlukSich.htm",
+   "alinti": "The Sich was built in 1593 after the Tatars destroyed the Tomakivka Sich.",
+   "oneri": {},
+   "not": "f YIL düzeyi (1593). ÇELİŞKİ — AYNI KAYNAK t: «It stood until 1638 when it was destroyed by the Polish military expedition» → Bazavluk Seçi 1638'de yıkıldı, atlas t=1775-06-16 yeni Seç'in (Pidpilna) yıkımı; aşağıdaki ONERI satırına bak. Not: CIUS alıntısı sayfa.py ham metninden birebir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:150",
+   "alan": "s",
+   "d": "zaporojye",
+   "f": "1593-01-01",
+   "t": "1775-06-16",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Internet Encyclopedia of Ukraine (CIUS), 'Bazavluk Sich' — encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBazavlukSich.htm",
+   "alinti": "It stood until 1638 when it was destroyed by the Polish military expedition",
+   "oneri": {
+    "t": "1638-01-01"
+   },
+   "not": "Alıntı yalnız t ucunu (yıl 1638) tarihliyor. Seç yıkıldı; sahibin (Zaporoj Ordusu toprağı) bölge olarak 1775'e kadar sürmesi başka mesele — 'yerleşim 1638'de bitti' mi, 'bölge toprağı sahibi' mi kararı Emre/KASA'ya. ÜLKE/BÖLGE DÜZEYİ ayrımı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:150",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1775-06-16",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "CIUS, 'Zaporozhian Sich' — encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm",
+   "alinti": "That last Sich was destroyed by a Russian army on 15–16 June 1775",
+   "oneri": {},
+   "not": "Alıntı Pidpilna'daki YENİ Seç'in yıkımını tarihliyor (15–16 Haziran 1775, Jülyen/Gregoryen belirtilmemiş; atlas 06-16 ile uyumlu); Bazavluk Seçi'nin kendisi 1638'de yok olmuştu. Askerî yıkım ≠ idareye katma (Novorossiya idaresi / 3 Ağustos 1775 manifestosu okunmadı). ÖLÇÜT: idareye katma — kaynak susuyor. BÖLGE DÜZEYİ. Takvim: CIUS 'June 1775' (Yeni Seç yıkımı; Jülyen 4–5 Haziran = Gregoryen 15–16 Haziran olabilir, TAKVİM belirsiz — beyan)."
+  }
+ ],
+ "Sloboda bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:214",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "CIUS, 'Slobidska Ukraine' — encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CL%5CSlobidskaUkraine.htm ; Wild Fields maddesi (içeriği boş)",
+   "alinti": "After its devastation during the Mongol invasions of the 13th century it remained uninhabited.",
+   "oneri": {},
+   "not": "CIUS Altın Orda egemenliğini ANMIYOR; bölge Moğol istilâsından sonra 'uninhabited', 16. yy başında Moskova denetimine girdi. Altın Orda f/t uçları (1281/1441) tarihsiz; Tatar akınları geçiş yolu olarak anılıyor. Kayıtta zincir 1441-1654 __BOSLUK__ ile tutarlı. BULUNAMADI (egemenlik kaynakta yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:214",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1654-01-18",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "CIUS, 'Slobidska Ukraine' — encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CL%5CSlobidskaUkraine.htm",
+   "alinti": "In the early 16th century it came under the control of Muscovy",
+   "oneri": {},
+   "not": "Alıntı 'erken 16. yy' (yıl yok) diyor, 1654 f ucundan ÇOK önce; ancak aynı madde Kazak yerleşiminin 1640'lardan–1650'lerden itibaren (Ostrohozk 1652, Harkov 1654) Rus çarlığı idaresinde sloboda alayları kurduğunu anlatır. 1654-01-18 (Pereyaslav, Jülyen 1654-01-08) Hetman devleti içindir, Sloboda bozkırı için ayrı tanıklık yok. ÖLÇÜT: idareye katma — sloboda alayları (ayrıntı okunmadı). f kararı: ya 1654 kalır (Pereyaslav emsali) ya erken 16. yy; YIL yok → öneri yazılmadı."
+  }
+ ]
+}

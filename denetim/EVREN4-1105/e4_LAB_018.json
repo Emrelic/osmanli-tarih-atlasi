@@ -1,0 +1,623 @@
+{
+ "Sisophon": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "angkor-kmer",
+   "f": "1281-01-01",
+   "t": "1431-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "Kimer İmparatorluğu’nun komşu devletler tarafından 1432’de ortadan kaldırılması",
+   "oneri": {
+    "t": "1432-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-68): 1941–46 Tayland dilimi eklenecek: Tokyo imzası 1941-05-09'da Tayland yönetmiyordu → s: tayland Tay idaresinin teslim alışından (1941 yazı, kaynakla); 1946-11-17 Washington imzası, Fransa yönetmiyordu → s/v: fransa (Kamboçya modeli) teslim günü (1946-12, kaynakla); 1907-03-23 Siam → Fransa devri de teslim günüyle (1907 yazı); 1795 Siam'a geçiş kaynaksız → ONERI. ICJ Kamboçya Mémoire kaynak. | ÖNCEKİ KARAR (gece-49): Kamboçya 1432 TDV esas [yalnız yıl]. | ÜLKE DÜZEYİ (Kamboçya/Angkor). Alıntı yalnız t ucunu tarihliyor: Angkor 1432 (yalnız yıl); atlas künyesi 1431. f 1281 teyitsiz (Sisophon'a özgü tanıklık yok; Coedès zincirde başka satırda)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1431-01-01",
+   "t": "1795-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "Kimer İmparatorluğu’nun komşu devletler tarafından 1432’de ortadan kaldırılması",
+   "oneri": {
+    "f": "1432-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-68): 1941–46 Tayland dilimi eklenecek: Tokyo imzası 1941-05-09'da Tayland yönetmiyordu → s: tayland Tay idaresinin teslim alışından (1941 yazı, kaynakla); 1946-11-17 Washington imzası, Fransa yönetmiyordu → s/v: fransa (Kamboçya modeli) teslim günü (1946-12, kaynakla); 1907-03-23 Siam → Fransa devri de teslim günüyle (1907 yazı); 1795 Siam'a geçiş kaynaksız → ONERI. ICJ Kamboçya Mémoire kaynak. | ÖNCEKİ KARAR (gece-49): Kamboçya 1432 TDV esas [yalnız yıl]. | ÜLKE DÜZEYİ. TDV 1432 diyor (künye 1431; ardıl kuruluş yılı). Yalnız yıl. t=1795 (Siam'ın Battambang'ı alması) TDV Kamboçya maddesinde yok; bkz sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "siyam-chakri",
+   "f": "1795-01-01",
+   "t": "1907-03-23",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV Kamboçya (kambocya; 1795/Siyam hiç geçmiyor), TDV arama sisophon/battambang/siyam; Briggs, FEQ 5/4 (1946) PDF'i (cdn.angkordatabase.asia) ikili dosya, sayfa.py metin çıkaramadı; WebSearch yalnız Vikipedi/seyahat siteleri verdi (ipucu: Siyam kontrolü 1795, Ang Eng/Baen; ipucu 1907'ye dek)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): 1941–46 Tayland dilimi eklenecek: Tokyo imzası 1941-05-09'da Tayland yönetmiyordu → s: tayland Tay idaresinin teslim alışından (1941 yazı, kaynakla); 1946-11-17 Washington imzası, Fransa yönetmiyordu → s/v: fransa (Kamboçya modeli) teslim günü (1946-12, kaynakla); 1907-03-23 Siam → Fransa devri de teslim günüyle (1907 yazı); 1795 Siam'a geçiş kaynaksız → ONERI. ICJ Kamboçya Mémoire kaynak. | Kabul edilen kaynakta 1795 f ucu okunamadı; ipucu-düzeyi (Vikipedi/gezi siteleri) 1795. Yerleşime özgü Siyam tanıklığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "fransiz-cinhindi",
+   "f": "1907-03-23",
+   "t": "1953-11-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "ICJ, Temple of Preah Vihear, Mémoire du Gouvernement du Royaume du Cambodge (OCR) — https://www.icj-cij.org/fr/node/104462",
+   "alinti": "Convention de Paix de Tokio du 9 Mai 1941 (OCR: «du g Mai 1941») ... annulée par l'accord du 17 Novembre 1946",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): 1941–46 Tayland dilimi eklenecek: Tokyo imzası 1941-05-09'da Tayland yönetmiyordu → s: tayland Tay idaresinin teslim alışından (1941 yazı, kaynakla); 1946-11-17 Washington imzası, Fransa yönetmiyordu → s/v: fransa (Kamboçya modeli) teslim günü (1946-12, kaynakla); 1907-03-23 Siam → Fransa devri de teslim günüyle (1907 yazı); 1795 Siam'a geçiş kaynaksız → ONERI. ICJ Kamboçya Mémoire kaynak. | f=1907-03-23 imza günü kabul edilen kaynakta okunamadı (1907 antlaşma metni: mjp.univ-perp.fr SSL hatası, hkintexts robots yasağı; ICJ OCR ayı düşmüş); TEK ÖLÇÜ: Siyam yönettiği için teslim günü gerekir, bulunamadı; Vikipedi ipucu 23 Mart 1907 Bangkok. dönem bölünmeli: fransiz-cinhindi, ara dönem s/isg siyam (Tokyo 1941-05-09 imza; teslim günü bulunamadı; 1946-11-17 iptal), sonra tekrar fransiz-cinhindi. Sisophon'un adı bu kaynakta anılmıyor ('plusieurs provinces cambodgiennes'); Vikipedi ipucu: Sisophon Phibunsongkhram eyaletine bağlandı. ÖLÇÜT: geçici/askerî değil, Tayland idareye kattı (eyalet kurdu) -> s; belge okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1953-11-09",
+   "t": "1970-10-09",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "9 Kasım 1953’te bağımsızlığını kazanan Kamboçya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f GÜN teyitli (9 Kasım 1953). Not: Sisophon 1946-11-17'de Kamboçya/Fransız idaresine dönmüştü (önceki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "khmer-cumhuriyeti",
+   "f": "1970-10-09",
+   "t": "1975-04-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "1970’te General Lon Nol’un yaptığı bir darbe ile / Kimer Cumhuriyeti’nin kurulmasının / 17 Nisan 1975’te başşehir Phnom Penh’in Kızıl Kimerler’in eline geçmesiyle",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f yalnız YIL (1970; atlas 10-09 teyitsiz); t GÜN teyitli: Phnom Penh 17 Nisan 1975 (TDV)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "kampucya-halk-cumhuriyeti",
+   "f": "1979-01-07",
+   "t": "1993-09-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "Ocak 1979’da Kamboçya Halk Cumhuriyeti adıyla Vietnam güdümünde yeni bir hükümet kuruldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f AY düzeyi (Ocak 1979; atlas 01-07 gün teyitsiz). TDV Vietnam işgali 25 Aralık 1978."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1993-09-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamboçya (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kambocya",
+   "alinti": "1993’te Birleşmiş Milletler gözetiminde kurulan anayasal monarşik rejim altında çok partili demokrasiye geçildi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1993; atlas 09-24 gün teyitsiz). TDV 1991 Paris Antlaşması ile BM geçici yönetim."
+  }
+ ],
+ "Tebesse": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:631",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Doğu Cezayir Tunus’taki Hafsî Devleti’ne (1228-1574) tâbi oldu",
+   "oneri": {
+    "d": "hafsi"
+   },
+   "not": "KARAR EMRELİC (gece-68): Fransız alımı 1851 ipucu → ONERI; Kostantîne 1837-10-13 ABİ MERKEZ olarak kullanılmaz, Tebesse ayrı ele geçti. | ÖNCEKİ KARAR (gece-59/65 Cicel, Mîle): Doğu Cezayir Hafsî; zeyyani HATALI; Osmanlı tam hâkimiyet 1533–34, ABİ MERKEZ Kostantîne. | BÖLGE DÜZEYİ (Doğu Cezayir; Tebessa doğu beyliği içinde). TDV Doğu Cezayir'i Hafsî'ye bağlıyor, Zeyyânî (Abdülvâdî) yalnız Orta/Batı Cezayir. Zeyyani yanlış görünüyor -> hafsi. Tebessa'ya özgü tanıklık yok (TDV arama: yalnız Hilâl maddesinde adı geçiyor). Künye hafsi t 1574-09-13."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:631",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kostantîne (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar",
+   "oneri": {
+    "f": "1533"
+   },
+   "not": "KARAR EMRELİC (gece-68): Fransız alımı 1851 ipucu → ONERI; Kostantîne 1837-10-13 ABİ MERKEZ olarak kullanılmaz, Tebesse ayrı ele geçti. | ABİ MERKEZ: Kostantîne (Tebessa'nın bağlı olduğu Doğu beyliği merkezi). TDV Kostantîne: ilk zaptı 1519 ya da 1520 (Mercier), Hafsîler 1526'da geri aldı, tam hâkimiyet 940 (1533-34). Atlas 1519-09-01 TDV'de yok. Hicrî 940 = 1533-34 kesişim günü EMRELİC'te. Yalnız yıl düzeyi. t=1671 sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:631",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/cezayir ; https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830) / Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f yalnız YIL (dayılar devri 1671; atlas 01-01 uyumlu), t GÜN: Cezayir şehri 5 Temmuz 1830 (TDV) = atlas t. Tebessa'ya özgü gün yok; beylik sancağı Kostantîne."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:631",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kostantîne (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "burada bağımsız bir beylik kurmaya çalıştı",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ (Kostantîne beyliği, Ahmed Bey 1830'dan sonra), f yalnız YIL (1830). Alıntı yalnız f ucunu tarihliyor; t 1844-03-04 teyitsiz: TDV Kostantîne 13 Ekim 1837'de düştü (Ahmed Bey Sahra'ya çekildi); Tebessa'nın Fransız eline geçiş tarihi TDV'de yok (Vikipedi ipucu: 1851). Atlas t çelişebilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:631",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1962). TDV referandum 1 Temmuz 1962 diyor; ilan günü (atlas 07-05) bu maddede yok -> gün teyitsiz."
+  }
+ ],
+ "Sokna": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1144",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Fizan da bu eyalete bağlı bir sancak olarak teşkilâtlandırıldı",
+   "oneri": {
+    "t": "1551-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51/55/67 Fizan): sancak 1551 (TDV), fiilî Osmanlı 1838–42; 1577 ve 1835 dayanaksız, yıl düzeyi beyanlı. | BÖLGE DÜZEYİ (Fizan; yer_kaynak fizan). TDV 1551 (Trablusgarp'ın alınışı) diyor, 1577 yok. Aynı madde evlâd-ı Muhammed'in bağımsızlığını koruduğunu söyler; Kânim kontrolü bir önceki dönem için (Gât satırında). Yalnız yıl; Sokna'nın Fizan'a dahil olduğu varsayımı atlas yer_kaynak'a dayanır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1144",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1577-01-01",
+   "t": "1711-07-29",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Fizan da bu eyalete bağlı bir sancak olarak teşkilâtlandırıldı",
+   "oneri": {
+    "f": "1551-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51/55/67 Fizan): sancak 1551 (TDV), fiilî Osmanlı 1838–42; 1577 ve 1835 dayanaksız, yıl düzeyi beyanlı. | BÖLGE DÜZEYİ. Atlas f 1577 TDV Fizan'da geçmiyor (arandı); TDV sancak teşkilâtı 1551, fakat evlâd-ı Muhammed zaman zaman isyan (fiilî denetim zayıf). Seçim EMRELİC."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1144",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Karamanlı Ahmed Bey’in 1711’de Trablusgarp yönetimini ele geçirmesi ... Fizan Karamanlı yönetimine tâbi oldu",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ (Fizan), f yalnız YIL (1711; atlas 07-29 teyitsiz). t 1835: aynı madde 'Karamanlı sülâlesi 1835 yılına kadar' (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1144",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Bâbıâli, 1835’te Karamanlı yönetimine son vererek Mustafa Necib Paşa’yı Trablusgarp valiliğine gönderdi",
+   "oneri": {
+    "f": "1838-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51/55/67 Fizan): sancak 1551 (TDV), fiilî Osmanlı 1838–42; 1577 ve 1835 dayanaksız, yıl düzeyi beyanlı. | BÖLGE DÜZEYİ. Trablusgarp'ta Osmanlı 1835 (hukukî, yıl; atlas 05-26 teyitsiz), ama TDV: 'Fizan’da Osmanlı otoritesinin yeniden tesisi 1838’de tayin edilen Aşkar Ali Paşa ile mümkün oldu' (fiilî); Fizan kaza 1842. Fiilî denetim ilkesi için 1838 önerilir; 1835 ile seçim EMRELİC. t 1912-10-18: TDV Trablusgarp '1912 Uşi antlaşması' (yıl)."
+  }
+ ],
+ "Sûse": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:396",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Sûse (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/suse",
+   "alinti": "VII. (XIII.) yüzyılda Hafsî hâkimiyetine giren şehir",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | Yerleşime özgü, YÜZYIL düzeyi (XIII. yy; atlas 1281 başlangıç kırpması, Hafsî 1228'den: TDV Tunus). t=1574: TDV Tunus iki gün veriyor, bkz sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:396",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus şehri dahil Halkulvâdî, Bâbülbahr ve Sen Jak kalelerinin tamamı Osmanlı idaresine girdi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. TDV iki gün: Halkulvâdî 24 Ağustos 1574, Tunus şehri 12 Eylül 1574; atlas 08-25 (1 gün sapma); Sûse'ye özgü gün yok. Seçilmedi. Sûse suse maddesi XVII. yy 'Osmanlı hâkimiyetinde' diyor (f'yi tarihlemiyor). Künye hafsi t 1574-09-13."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:396",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1705; atlas 07-12 teyitsiz). t: Bardo 12 Mayıs 1881 (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:396",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-22): Tunus himaye v: fransa 1881-05-12 → 1956-03-20; zincirdeki isg fransa 1881-1923 çift kaydı kalkar. | ÜLKE DÜZEYİ, f GÜN (imza). TDV Mersâ Antlaşması 8 Haziran 1883 'resmen idaresine girdi'. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt var (v ile çelişir; Tunus emsali yalnız v). t=1923-10-29 Osmanlı sonu, himaye 1956'ya sürer."
+  }
+ ],
+ "Sübaytıla": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:336",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Halkulvâdî Kalesi de otuz üç gün direndiyse de 6 Cemâziyelevvel 982’de (24 Ağustos 1574) yapılan büyük hücum sonunda ele geçirildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. Alıntı yalnız t ucunu tarihliyor: Hafsîler 1228-1574 (yıl); TDV iki gün (Halkulvâdî 24 Ağustos, Tunus şehri 12 Eylül 1574), atlas 08-25; seçilmedi. f 1281 teyitsiz (Hafsî 1228'den). Sübaytıla (Sbeitla) için TDV maddesi yok (arama: Cezayir maddesinde yalnız Bizans dönemi); ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:336",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus şehri dahil Halkulvâdî, Bâbülbahr ve Sen Jak kalelerinin tamamı Osmanlı idaresine girdi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. 1574 yılı teyitli, gün TDV'de iki farklı (24 Ağustos / 12 Eylül); atlas 08-25 teyitsiz. Sübaytıla (Sbeitla) için TDV maddesi yok (arama: Cezayir maddesinde yalnız Bizans dönemi); ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:336",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1705; atlas 07-12 teyitsiz). t: Bardo 1881 (sonraki satır). Sübaytıla (Sbeitla) için TDV maddesi yok (arama: Cezayir maddesinde yalnız Bizans dönemi); ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:336",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-22): Tunus himaye v: fransa 1881-05-12 → 1956-03-20; zincirdeki isg fransa 1881-1923 çift kaydı kalkar. | ÜLKE DÜZEYİ, f GÜN (imza, himaye = v). TDV Mersâ 8 Haziran 1883 'resmen idaresine girdi'. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt (v ile çelişir). Sübaytıla (Sbeitla) için TDV maddesi yok (arama: Cezayir maddesinde yalnız Bizans dönemi); ülke düzeyi."
+  }
+ ],
+ "Tatavin": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:430",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Halkulvâdî Kalesi de otuz üç gün direndiyse de 6 Cemâziyelevvel 982’de (24 Ağustos 1574) yapılan büyük hücum sonunda ele geçirildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. Alıntı yalnız t ucunu tarihliyor: Hafsîler 1228-1574 (yıl); TDV iki gün (Halkulvâdî 24 Ağustos, Tunus şehri 12 Eylül 1574), atlas 08-25; seçilmedi. f 1281 teyitsiz (Hafsî 1228'den). Tatavin (Tataouine) için TDV maddesi yok; uzak güney, Osmanlı/Hafsî fiilî denetimi yerel olarak belgelenmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:430",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus şehri dahil Halkulvâdî, Bâbülbahr ve Sen Jak kalelerinin tamamı Osmanlı idaresine girdi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. 1574 yılı teyitli, gün TDV'de iki farklı (24 Ağustos / 12 Eylül); atlas 08-25 teyitsiz. Tatavin (Tataouine) için TDV maddesi yok; uzak güney, Osmanlı/Hafsî fiilî denetimi yerel olarak belgelenmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:430",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1705; atlas 07-12 teyitsiz). t: Bardo 1881 (sonraki satır). Tatavin (Tataouine) için TDV maddesi yok; uzak güney, Osmanlı/Hafsî fiilî denetimi yerel olarak belgelenmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:430",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-22): Tunus himaye v: fransa 1881-05-12 → 1956-03-20; zincirdeki isg fransa 1881-1923 çift kaydı kalkar. | ÜLKE DÜZEYİ, f GÜN (imza, himaye = v). TDV Mersâ 8 Haziran 1883 'resmen idaresine girdi'. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt (v ile çelişir). Tatavin (Tataouine) için TDV maddesi yok; uzak güney, Osmanlı/Hafsî fiilî denetimi yerel olarak belgelenmedi."
+  }
+ ],
+ "Testûr": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:321",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Halkulvâdî Kalesi de otuz üç gün direndiyse de 6 Cemâziyelevvel 982’de (24 Ağustos 1574) yapılan büyük hücum sonunda ele geçirildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. Alıntı yalnız t ucunu tarihliyor: Hafsîler 1228-1574 (yıl); TDV iki gün (Halkulvâdî 24 Ağustos, Tunus şehri 12 Eylül 1574), atlas 08-25; seçilmedi. f 1281 teyitsiz (Hafsî 1228'den). Testûr için TDV maddesi yok; ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:321",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus şehri dahil Halkulvâdî, Bâbülbahr ve Sen Jak kalelerinin tamamı Osmanlı idaresine girdi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. 1574 yılı teyitli, gün TDV'de iki farklı (24 Ağustos / 12 Eylül); atlas 08-25 teyitsiz. Testûr için TDV maddesi yok; ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:321",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1705; atlas 07-12 teyitsiz). t: Bardo 1881 (sonraki satır). Testûr için TDV maddesi yok; ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:321",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-22): Tunus himaye v: fransa 1881-05-12 → 1956-03-20; zincirdeki isg fransa 1881-1923 çift kaydı kalkar. | ÜLKE DÜZEYİ, f GÜN (imza, himaye = v). TDV Mersâ 8 Haziran 1883 'resmen idaresine girdi'. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt (v ile çelişir). Testûr için TDV maddesi yok; ülke düzeyi."
+  }
+ ],
+ "Tozer": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:418",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Bu arada Cerîd, Tûzer ve Kābis’te bağımsız mahallî emirlikler kuruldu",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): 1284–1295 yerel emirlik, künye yok → BEYANLI ('TDV Tunus: Tûzer'de yerel emirlik'); künye adayı gerekmez. | ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | BÖLGE/YERELE YAKIN: TDV Ebû Hafs Ömer (1284-1295) döneminde Tûzer'de bağımsız mahallî emirlik kurulduğunu söylüyor -> Hafsî egemenliği 1281-1574 kesintisiz değil; dönem bölünmeli ya da beyanlı olmalı (emirlik için künye yok). Aynı madde Tûzer'i Muvahhid sonu önemli şehirler arasında sayar (Tevzer/Tozeur). Hafsîler 1228-1574 (yıl); 1574 günü için TDV iki gün (24 Ağustos/12 Eylül). Gün seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:418",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus şehri dahil Halkulvâdî, Bâbülbahr ve Sen Jak kalelerinin tamamı Osmanlı idaresine girdi",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): 1284–1295 yerel emirlik, künye yok → BEYANLI ('TDV Tunus: Tûzer'de yerel emirlik'); künye adayı gerekmez. | ÖNCEKİ KARAR (gece-61): 1574 ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI; Halkulvâdî 08-24 ic_not. | ÜLKE DÜZEYİ. 1574 yılı teyitli, gün TDV'de iki farklı (24 Ağustos / 12 Eylül); atlas 08-25 teyitsiz. Tozer = Tozeur (Tûzer); TDV'de ayrı madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:418",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f yalnız YIL (1705; atlas 07-12 teyitsiz). t: Bardo 1881 (sonraki satır). Tozer = Tozeur (Tûzer); TDV'de ayrı madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:418",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-22): Tunus himaye v: fransa 1881-05-12 → 1956-03-20; zincirdeki isg fransa 1881-1923 çift kaydı kalkar. | ÜLKE DÜZEYİ, f GÜN (imza, himaye = v). TDV Mersâ 8 Haziran 1883 'resmen idaresine girdi'. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt (v ile çelişir). Tozer = Tozeur (Tûzer); TDV'de ayrı madde yok."
+  }
+ ],
+ "Tatarpazarcığı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:422",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1472-06-08",
+   "t": "1878-07-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "aynı antlaşma ile Filibe, İslimye, Eski Zağra, Tatarpazarcığı, Burgaz ve Hasköy sancaklarından müteşekkil Doğu Rumeli vilâyeti oluşturuldu",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): zincir doğru: Doğu Rumeli 1878-07-13 (Berlin; künyeye göre) → 1885-09-18 birleşme (fiilî; Tophane 1886-04-05 ic_not) → 1908-10-05 bağımsızlık; kur 1472 kuruluş, dönem değil. | Alıntı yalnız t ucunu tarihliyor (Berlin Antlaşması, Tatarpazarcığı sancağı Doğu Rumeli'ye; alıntıda gün yok, 13 Temmuz 1878 imza günü başka kaynakta). f=1472-06-08 yerleşimin 'kur' tarihi, Osmanlı f'si değil; TDV Bulgaristan'da Tatarpazarcığı 1543 yörük kayıtlarında geçer. Aranmadı: Pazarcık için ayrı TDV maddesi yok (slug 404)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:422",
+   "alan": "v",
+   "d": "sarki-rumeli",
+   "f": "1878-07-13",
+   "t": "1885-09-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "Doğu Rumeli vilâyeti oluşturuldu / Osmanlı Vilâyet İdaresi ve Doğu Rumeli Vilâyeti (1878-1885) / Prenslik 1885’te Doğu Rumeli vilâyetini de topraklarına kattı",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): zincir doğru: Doğu Rumeli 1878-07-13 (Berlin; künyeye göre) → 1885-09-18 birleşme (fiilî; Tophane 1886-04-05 ic_not) → 1908-10-05 bağımsızlık; kur 1472 kuruluş, dönem değil. | BÖLGE DÜZEYİ (Doğu Rumeli; Tatarpazarcığı sancağı üyesi). Yıl düzeyi: 1878 (bibliyografya başlığı 1878-1885) ve 1885 birleşme. Gün (13 Temmuz 1878, 18 Eylül 1885) bu maddede yok, teyitsiz. Hukukî statü: özerk vilâyet Osmanlı'ya tâbi (v) Berlin hükmü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:422",
+   "alan": "s",
+   "d": "bulgaristan-prensligi",
+   "f": "1885-09-18",
+   "t": "1908-10-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "Prenslik 1885’te Doğu Rumeli vilâyetini de topraklarına kattı",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): zincir doğru: Doğu Rumeli 1878-07-13 (Berlin; künyeye göre) → 1885-09-18 birleşme (fiilî; Tophane 1886-04-05 ic_not) → 1908-10-05 bağımsızlık; kur 1472 kuruluş, dönem değil. | BÖLGE DÜZEYİ, f yalnız YIL (1885; atlas 09-18 teyitsiz). Not: TDV Bulgaristan Prensliği Berlin'le 1878'de kuruldu (künye f 1878-07-13)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:422",
+   "alan": "s",
+   "d": "bulgaristan-kralligi",
+   "f": "1908-10-05",
+   "t": "1946-09-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân ettikten sonra",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): zincir doğru: Doğu Rumeli 1878-07-13 (Berlin; künyeye göre) → 1885-09-18 birleşme (fiilî; Tophane 1886-04-05 ic_not) → 1908-10-05 bağımsızlık; kur 1472 kuruluş, dönem değil. | ÜLKE DÜZEYİ, f GÜN teyitli (5 Ekim 1908 = atlas 1908-10-05). t 1946-09-15 teyitsiz."
+  }
+ ],
+ "Terhûne": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:369",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1551-08-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Trablusgarp (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Ammâroğulları’ndan sonra Trablusgarp’ta Hafsîler’in hâkimiyeti 1510 yılına kadar sürdü",
+   "oneri": {
+    "t": "1510-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-68): iç bölge: İspanyol 1510 yalnız Trablus şehri, abi merkez iç bölgeye uygulanmaz → 1510–1551 BEYANLI (yerel/kabile); Osmanlı 1551-08-15 (Trablus fethi, ABİ MERKEZ); Ammâroğulları 1327–1401 Trablus şehri, ic_not. | ABİ MERKEZ: Trablus (Terhûne için ayrı TDV maddesi yok, arama boş). TDV: Hafsî 1510'a kadar (yıl), 1510'da İspanyol işgali; Ammâroğulları (1327-1401) araya girer -> f 1281 ile çelişebilir. Atlas t 1551-08-15 Osmanlı alışı; arada 1510 İspanyol, 1530 Saint Jean. Terhûne iç bölge: ayrıca kabileler Turgut Reis'le tâbi kılındı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:369",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Trablusgarp (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Sonunda Kaptanıderyâ Sinan Paşa kumandasındaki Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-68): iç bölge: İspanyol 1510 yalnız Trablus şehri, abi merkez iç bölgeye uygulanmaz → 1510–1551 BEYANLI (yerel/kabile); Osmanlı 1551-08-15 (Trablus fethi, ABİ MERKEZ); Ammâroğulları 1327–1401 Trablus şehri, ic_not. | ABİ MERKEZ: Trablus şehri, GÜN teyitli (15 Ağustos 1551 = atlas). Terhûne iç bölge: TDV 'kabileleri Turgut Reis devlete tâbi kıldı' (valilik 1556-1565), yani Terhûne'ye özgü gün yok; Murad Ağa 1551'de Fizan'a dek dahil etti diyor. Seçim EMRELİC."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:369",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Trablusgarp (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı",
+   "oneri": {},
+   "not": "ABİ MERKEZ Trablus, YIL düzeyi (1711-1835); gün (07-29, 05-26) teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:369",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Trablusgarp (sayfa.py ham metin) — https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "1835’te tekrar merkeze bağlanan Trablusgarp’ta",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-51/55/67 Fizan): sancak 1551 (TDV), fiilî Osmanlı 1838–42; 1577 ve 1835 dayanaksız, yıl düzeyi beyanlı. | ABİ MERKEZ Trablus, f yalnız YIL (1835). t 1912-10-18: TDV '1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma' (yıl); 1911 savaş ilanı 1 Eylül/29 Eylül."
+  }
+ ]
+}

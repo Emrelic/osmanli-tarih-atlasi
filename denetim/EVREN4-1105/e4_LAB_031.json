@@ -1,0 +1,680 @@
+{
+ "Christiansted (St. Croix)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:69",
+   "alan": "s",
+   "d": "danimarka-bati-hint",
+   "f": "1733-01-01",
+   "t": "1917-03-31",
+   "sira": "983",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Lex.dk (Den Store Danske), 'Dansk Vestindien', yazar Rikke Lie Halberg (Ph.D.), https://lex.dk/Dansk_Vestindien",
+   "alinti": "Sankt Croix først blev en del af kolonien i 1733, da kompagniet købte øen fra Frankrig / Kolonien blev overdraget til USA ved en ceremoni 31. marts 1917",
+   "oneri": {},
+   "not": "f: 1733 yıl düzeyi (Danimarka Batı Hint Kompagnisi'nin Fransa'dan satın alışı; gün okunmadı), 1755'te devlet idareyi devraldı (aynı madde). t: devir töreni 31 Mart 1917 gün düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:69",
+   "alan": "s",
+   "d": "abd",
+   "f": "1917-03-31",
+   "t": "2000-12-31",
+   "sira": "984",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Lex.dk (Den Store Danske), 'Dansk Vestindien', yazar Rikke Lie Halberg (Ph.D.), https://lex.dk/Dansk_Vestindien",
+   "alinti": "Kolonien blev overdraget til USA ved en ceremoni 31. marts 1917",
+   "oneri": {},
+   "not": "f: gün düzeyi, devir töreni 'Transfer Day'. TEK ÖLÇÜ: teslim (tören) günü = atlas günü."
+  }
+ ],
+ "Feldkirch": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1805-12-26",
+   "t": "1814-06-03",
+   "sira": "1014",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "AEIOU Österreich-Lexikon (Austria-Forum), 'Pressburg, Frieden von', https://austria-forum.org/af/AEIOU/Pressburg%2C_Frieden_von",
+   "alinti": "Am 26. 12. 1805 zwischen Österreich und Frankreich (Napoleon) / Tirol und Vorarlberg wurden an Bayern abgetreten",
+   "oneri": {
+    "d": "bavyera"
+   },
+   "not": "KARAR EMRELİC (gece-98): 1805–1814 künye bavyera (1506-07-08 → 1918-11-08); almanya değil. | KÜNYE SORUSU (LAB SALI): 1805-1814 gerçek sahip Bavyera Krallığı; d: almanya yanlış. | AEIOU/Austria-Forum kurum portalı → İPUCU (brif ipucu listesi); KAYNAKLI → ONERI. | f: Pressburg imza günü gün düzeyi, Vorarlberg Bavyera'ya. NOT: gerçek sahip Bavyera Krallığı; atlas d 'almanya' kullanıyor (künye Kutsal Roma-Almanya 962-1945) - d sorusu LAB'a. TEK ÖLÇÜ: Bavyera'nın Vorarlberg'i fiilen teslim aldığı gün okunmadı; imza günü atlas günüyle aynı. t ucu (1814-06-03) bu satırda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-06-03",
+   "t": "1918-11-12",
+   "sira": "1015",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "AEIOU Österreich-Lexikon (Austria-Forum), 'Feldkirch', https://austria-forum.org/af/AEIOU/Feldkirch",
+   "alinti": "Von 1805 und 1814 war Feldkirch bayrisch",
+   "oneri": {},
+   "not": "AEIOU/Austria-Forum kurum portalı → İPUCU (brif ipucu listesi); KAYNAKLI → ONERI. | f: YALNIZ YIL (1814) okundu; gün teyitsiz. 3 Haziran 1814 Paris Antlaşması (Bavyera Tirol-Vorarlberg'i Avusturya'ya bıraktı) arama özetinde geçti (losthistory.net, ipucu, açılmadı). Vorarlberg'in fiilî Avusturya devri (Pariser Vertrag 1814; Bavyera-Avusturya Münih 1816-04-14) gün okunmadı: TEK ÖLÇÜ risk. t 1918-11-12 bu satırda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "sira": "1016",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Bundeskanzleramt (Republik Österreich), 'Gang der Geschichte', 1938, https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/1938.html",
+   "alinti": "Am 13. März beschloss die Regierung Seyß-Inquart das",
+   "oneri": {},
+   "not": "KÜNYE SORUSU (LAB SALI): 1805-1814 gerçek sahip Bavyera Krallığı; d: almanya yanlış. | f: 13 Mart 1938 Bundesverfassungsgesetz über die Wiedervereinigung Österreichs mit dem Deutschen Reich (devlet resmî tarih yayını, ÜLKE DÜZEYİ). Fiilî giriş 11/12 Mart 1938 (AEIOU 'Anschluss'). t: BKA 27 Nisan 1945 Unabhängigkeitserklärung; ancak aynı metin 'ülkenin bir kısmı hâlâ NS rejimi altındaydı' diyor - Vorarlberg'de Fransız işgali (Mayıs 1945) gün okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "sira": "1017",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Bundeskanzleramt (Republik Österreich), 'Gang der Geschichte', April 1945, https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/april_1945.html",
+   "alinti": "Am 27. April 1945 proklamierten die drei Parteien in der Unabhängigkeitserklärung die Wiederherstellung",
+   "oneri": {
+    "not": "isg fransa giriş gününden; s: avusturya-ikinci-cumhuriyet batıda Länderkonferenz (1945-09) / Müttefik tanıması 1945-10-20 adayı — Emre'ye"
+   },
+   "not": "KARAR EMRELİC (gece-98): Draç emsali: Renner'in 1945-04-27 ilanı Vorarlberg'de geçmez (orayı idare etmiyordu). | ÜLKE DÜZEYİ: 27 Nisan 1945 Unabhängigkeitserklärung günü kaynaklı. Ancak TEK ÖLÇÜ: BKA metni ülkenin bir kısmının hâlâ NS rejimi altında olduğunu söylüyor; Vorarlberg'e Viyana hükûmetinin fiilî idaresi ve Fransız işgali (1945-05) gün okunmadı. Gün öneri yok; ülke düzeyi gün + beyan ya da teslim günü LAB kararı."
+  }
+ ],
+ "Evrengâbâd": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1174",
+   "alan": "s",
+   "d": "ahmednagar",
+   "f": "1610-01-01",
+   "t": "1633-06-28",
+   "sira": "1005",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nizamşâhîler' (Melik Anber), https://islamansiklopedisi.org.tr/nizamsahiler",
+   "alinti": "Khirki’yi (Evrengâbâd) kendisine yeni merkez edinen Melik Anber",
+   "oneri": {},
+   "not": "f: YIL düzeyi - madde bağlamı 1610 ('1610’da II. Murtazâ Nizamşah azledilip zehirlendi ve III. Burhan Nizamşah tahta geçirildi. Bu dönemde ... Khirki’yi yeni merkez edinen'); gün yok. t (1633-06-28) bu satırda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1174",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1633-06-28",
+   "t": "1724-10-11",
+   "sira": "1006",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nizamşâhîler', https://islamansiklopedisi.org.tr/nizamsahiler",
+   "alinti": "Şah Cihan 1636 Şubatında savaş için Devletâbâd’a gelince Maratha prensi karşı koyamayıp III. Murtazâ Nizamşah’ı Bâbürlüler’e teslim etti",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): babur f 1633-06-28 ONERI kalır: Daulatabad'ın düşüşü Khirki'yi kanıtlamaz; ic_not '1633–36 Khirki sahibi ölçülmedi; TDV III. Murtazâ teslimi Şubat 1636'. | ÇELİŞKİ: TDV'ye göre 1633 Eylül'de Maratha prensi (Şahaji) yeni Nizamşah ilan etti, Nizamşâhî devleti Şubat 1636'ya kadar sürdü ('1633 Eylül' + '1636 Şubat'); atlas f 1633-06-28 (Devletâbâd). Evrengâbâd/Khirki'nin 1633-36 arasında Bâbürlü idaresine fiilen girip girmediği okunmadı - iki ucu ölçmeden değiştirme. t 1724-10-11 okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1174",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-09-17",
+   "t": "2000-12-31",
+   "sira": "1007",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Haydarâbâd Nizamlığı', https://islamansiklopedisi.org.tr/haydarabad-nizamligi",
+   "alinti": "Haydarâbâd’ın Hindistan topraklarının bir parçası olduğunu duyurdu (13 Eylül 1948)",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): Hindistan 1948-09-17 ONAY; 13 Eylül ic_not. | TEK ÖLÇÜ: Haydarabad teslimi 1948-09-17 (fiilî devir) korunur; TDV 13 Eylül giriş ic_not. | TDV 13 Eylül 1948 (Hindistan'ın girişi + ilan) veriyor; atlas 17 Eylül (teslim). TEK ÖLÇÜ: Hindistan fiilen yönetmiyorsa teslim günü = 17 Eylül korunabilir; 'çatışma sonu/teslim' günü TDV'de okunmadı. Karar LAB'ın. Not: TDV 'Haydarâbâd Nizamlığı varlığını ismen sürdürdü' diyor."
+  }
+ ],
+ "Faya-Largeau": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:158",
+   "alan": "s",
+   "d": "kanem-tubu",
+   "f": "1281-01-01",
+   "t": "1913-01-01",
+   "sira": "1011",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çad', https://islamansiklopedisi.org.tr/cad",
+   "alinti": "Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)",
+   "oneri": {
+    "not": "s: senusi 1909-06-02 → 1913 (Fransız alışı; gün kaynaklı değilse 1913-01-01 + beyan)"
+   },
+   "not": "KARAR EMRELİC (gece-98): künye senusi VAR (Borku-Ennedi 1909-06-02'den; TDV Çad/Vedây '1913'te çıkarıldılar'). | Alıntı yalnız t ucunu tarihliyor (1913 yıl). TDV Borku'yu 1913'e dek Senûsîler'in tuttuğunu söylüyor: sahip 'kanem-tubu' yerine Senûsî olabilir (d sorusu LAB'a). f=1281 ufuk işareti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:158",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1913-01-01",
+   "t": "1960-08-11",
+   "sira": "1012",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çad', https://islamansiklopedisi.org.tr/cad",
+   "alinti": "Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913) / 11 Ağustos 1960 tarihinde bağımsızlığını kazandı",
+   "oneri": {},
+   "not": "f: 1913 YIL düzeyi (Borku'da Senûsîler'in çıkarılması), ÜLKE/BÖLGE DÜZEYİ: Faya-Largeau Borku'da; gün yok. t: 11 Ağustos 1960 gün düzeyi (ülke düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:158",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "sira": "1013",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çad', https://islamansiklopedisi.org.tr/cad",
+   "alinti": "Eski bir Fransız sömürgesi olan ülke 11 Ağustos 1960 tarihinde bağımsızlığını kazandı",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Dariganga": [
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:149",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "sira": "990",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi arama sonuç sayfası 'yuan-hanedani' madde içi parçaları, https://islamansiklopedisi.org.tr/arama/yuan-hanedani",
+   "alinti": "Yüan Hânedanı döneminde (1271-1368)",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (1368, yıl) tarihliyor; madde gövdesi açılmadı (arama sayfası parçası). Dariganga için Yuan tanıklığı yok; 1368 sonrası Moğol bozkırı Kuzey Yuan'da sürdü (zincirde kuzey-yuan var)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:149",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "sira": "991",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moğolistan' II. Tarih, https://islamansiklopedisi.org.tr/mogolistan",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi / Mançu Qing hânedanının 1911’de yıkılışına kadar devam etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Dış Moğolistan/Halha). f: 1691 YIL düzeyi (Dolon Nor); gün yok. t: 1911 YIL düzeyi (Qing'in yıkılışı); atlas 1911-12-29 Bogd Han ilanı, künye Qing t 1912-02-12."
+  }
+ ],
+ "Ed-Damazîn": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:950",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "sira": "997",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Func', https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (1504 yıl, Func kuruluşu, Alve'ye karşı) tarihliyor; Func sınırı 'Kızıldeniz'den Kordofan'a, Mavi Nil'e' (TDV). Ed-Damazîn Mavi Nil/Fazugli'de, Alve ile Func arası; Nûbe (Makurra Dongola, Alve Sûbâ) tanıklığı yerleşime özgü değil (TDV 'Nûbe')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:950",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "sira": "998",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan', https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı / 26 Ocak 1885’te Hartum’a giren",
+   "oneri": {},
+   "not": "ÜLKE/FUNC DÜZEYİ. f: Haziran 1821 AY düzeyi (gün yok); Ed-Damazîn'e Mısır idaresinin fiilen ulaşışı okunmadı. t: Hartum'un düşüşü 26 Ocak 1885 gün; Mehdî'nin Mısır Sudanı vilâyetlerine hâkimiyeti. Zincirde d boş (v:), hedef/künye anahtarı misir-kavalali."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:950",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "sira": "999",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan', https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Ebû Hamed": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:881",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "sira": "994",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Func', https://islamansiklopedisi.org.tr/func",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (1504, Func kuruluşu) tarihliyor; TDV Func sınırı 'Üçüncü Şelâle'den Mavi Nil'e, Kızıldeniz'den Kordofan'a' ulaştı demektedir (Ebû Hamed bu aralıkta). Nûbe-Makurra (Dongola) çöküşü Ebû Hamed için okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:881",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "sira": "995",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan', https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "bugünkü Sudan’ın idaresini 1821-1882 yılları arasında kendilerine verilen en üst yetkilerle ele geçirdiler / 26 Ocak 1885’te Hartum’a giren",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f: 1821 YIL düzeyi; gün (01-04) teyitsiz. ÇELİŞKİ: TDV 'Func' maddesi fethi 1820 diyor ('1820’de Sudan’ın Kavalalı Mehmed Ali Paşa tarafından fethine kadar'), 'Sudan' maddesi 1821. Kuzey Nil (Ebû Hamed) için Dongola 1820-21. t: 26 Ocak 1885 Hartum (gün); Ebû Hamed'in kendi düşüş günü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:881",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "sira": "996",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan', https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Falaba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:523",
+   "alan": "s",
+   "d": "solima-yalunka",
+   "f": "1720-01-01",
+   "t": "1884-01-01",
+   "sira": "1008",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV sierra-leone (Falaba geçmiyor), Hertslet 1909 (kayıtlı kaynak, c.2 No. 226; Samori 1883'ten itibaren). Solima Yalunka için akademik madde okunmadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "1720 kuruluş ve 1884 geçişi için Falaba tanığı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:523",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1884-01-01",
+   "t": "1889-08-10",
+   "sira": "1009",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sierra Leone', https://islamansiklopedisi.org.tr/sierra-leone",
+   "alinti": "1884’te Mandinka lideri Samori Ture’nin bazı kabilelerle anlaşıp ülkeye saldırarak topraklarının büyük bir kısmını zaptetmesi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ ve ZAYIF: TDV Samori'nin 1884'te Sierra Leone'a saldırıp topraklarının büyük kısmını zaptettiğini söylüyor; Falaba'ya özgü değil. Kayıtlı kaynak Hertslet: Falaba Samori'nin 'claimed by him as a dependency' (İngiliz hükûmeti bağımsız sayıyordu) - sahiplik beyanı. Öneri yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:523",
+   "alan": "s",
+   "d": "siyera-leon",
+   "f": "1961-04-27",
+   "t": "2000-12-31",
+   "sira": "1010",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sierra Leone', https://islamansiklopedisi.org.tr/sierra-leone",
+   "alinti": "27 Nisan 1961’de İngiliz Uluslar Topluluğu içerisinde bağımsız bir devlet haline gelen Sierra Leone’de",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Chichén Itzá": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:310",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0500-01-01",
+   "t": "0800-01-01",
+   "sira": "978",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani 'Chichén Itzá' (sayfa.py), UNESCO 483 (kayıtlı beyan). Treccani yalnız yapı üslubundan söz eder, devlet adı vermez.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Klasik Maya (Puuc üslubu) için devlet/hanedan tanığı bulunamadı. Abi merkez arandı, bağ bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:310",
+   "alan": "s",
+   "d": "chichen-itza",
+   "f": "0800-01-01",
+   "t": "1200-01-01",
+   "sira": "979",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Treccani, Enciclopedia on line, 'Chichén Itzá', https://www.treccani.it/enciclopedia/chichen-itza/",
+   "alinti": "fiorito dalla fase finale del periodo classico (9°-10° sec. d.C.) fino al 13° secolo",
+   "oneri": {},
+   "not": "Treccani SİTE için 'klasik dönem sonu (9.-10. yy) ile 13. yy arası gelişti' diyor: f ~9.-10. yy (atlas 800) ve t 13. yy (atlas 1200, ms1 'kesin çöküş yılı yok, 1200/1221'). Devlet düzeyinde (Chichén Itzá Devleti) yıl yok; öneri yok, t için 13. yy beyanı yeterli olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:310",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1200-01-01",
+   "t": "1281-01-01",
+   "sira": "980",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani 'Chichén Itzá' ve 'Yucatán' (sayfa.py). 1200-1281 sahibi anılmıyor; Treccani Chichén'i '13. yüzyıla kadar' yaşamış sayıyor.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mayapán bağı/abi merkez kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:310",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1547-01-01",
+   "sira": "981",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, Enciclopedia on line, 'Yucatán', https://www.treccani.it/enciclopedia/yucatan/",
+   "alinti": "portata a termine nel 1542 dal figlio con la fondazione di Mérida",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): 1542 Mérida'nın kuruluşu, Cupul bölgesini tarihlemez (uç kuralı); 1546–47 Büyük Maya İsyanı; atlas 1547 kalır, Treccani 1542 ic_not. | Treccani 'Yucatán': fetih 1527'de baba Montejo'yla başladı, 1542'de oğul Montejo'nun Mérida'yı kurmasıyla tamamlandı (YIL; ÜLKE/BÖLGE DÜZEYİ). Atlas 1547. Öteki aday gün/yıl kaynakları (1546-47 Kuzamil/Doğu Yucatán) arama özetinde, açılmadı. f 1281 ufuk işareti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:310",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1547-01-01",
+   "t": "1821-09-27",
+   "sira": "982",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani, Enciclopedia on line, 'Yucatán', https://www.treccani.it/enciclopedia/yucatan/",
+   "alinti": "portata a termine nel 1542 dal figlio con la fondazione di Mérida",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): 1542 Mérida'nın kuruluşu, Cupul bölgesini tarihlemez (uç kuralı); 1546–47 Büyük Maya İsyanı; atlas 1547 kalır, Treccani 1542 ic_not. | f: bkz. satır 981 (Treccani 1542). Chichén Itzá'ya özgü tanıklık yok (Montejo 1531-35 Ciudad Real arama özetinde, açılmadı). t 1821-09-27: Treccani 'Messico' yalnız 'il 24 febbraio 1821 proclamò l’indipendenza' (İguala) diyor, Şehir'in işgal günü yok; atlas günü okunmadı."
+  }
+ ],
+ "Cimma (Jiren)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1027",
+   "alan": "s",
+   "d": "kaffa",
+   "f": "1281-01-01",
+   "t": "1830-01-01",
+   "sira": "985",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Habeşistan, TDV Etiyopya (sayfa.py; Cimma/Jimma yalnız dergi adı JIMMA olarak geçti), Muse makalesi 221420 (Guluma Gemeda, Northeast African Studies; erişim doğrulama duvarı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kaffa-Cimma ilişkisi ve 1830 (Abba Jifar I) için akademik metin okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1027",
+   "alan": "s",
+   "d": "cimma-sultanligi",
+   "f": "1830-01-01",
+   "t": "1933-01-01",
+   "sira": "986",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Habeşistan, TDV Etiyopya (sayfa.py; Cimma/Jimma yalnız dergi adı JIMMA olarak geçti), Muse makalesi 221420 (Guluma Gemeda, Northeast African Studies; erişim doğrulama duvarı). Arama özeti: Lewis, A Galla Monarchy: Jimma Abba Jifar, Ethiopia 1830-1932 (kitap adı); Guluma Gemeda 2002 NEAS. Açılmadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "IPUCU (Vikipedi/arama özeti, KAYNAKLI değil): Cimma 1830'da Abba Jifar I ile 'Jimma Abba Jifar' ve 1932'de Habeşistan'a katıldı (atlas t 1933-01-01). Akademik makale gövdesi açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1027",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1933-01-01",
+   "t": "1974-09-12",
+   "sira": "987",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Habeşistan, TDV Etiyopya (sayfa.py; Cimma/Jimma yalnız dergi adı JIMMA olarak geçti), Muse makalesi 221420 (Guluma Gemeda, Northeast African Studies; erişim doğrulama duvarı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1974-09-12 (Derg): TDV Etiyopya yalnız '1974 askerî darbesi' (yıl) diyor, gün okunmadı. f 1933 için IPUCU: kaynaklar 1932 (Abba Jifar II ölümü) diyor."
+  }
+ ],
+ "Eski Kalabar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:829",
+   "alan": "s",
+   "d": "nijer-deltasi",
+   "f": "1281-01-01",
+   "t": "1884-09-10",
+   "sira": "1002",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Nijerya (Kalabar geçmiyor; yalnız 1885 Berlin), Hertslet Map of Africa by Treaty c.1 (archive.org mapofafricabytre01hert, 'Old Calabar' 1885 bölümü), arama özeti.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Nijer Deltası şehir devletleri için Eski Kalabar tanığı bulunamadı. IPUCU (gazete/blog, açılmadı): 10 Eylül 1884 Obong of Calabar 'Treaty of Protection'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:829",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-09-10",
+   "t": "1960-10-01",
+   "sira": "1003",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nijerya', https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "İngiltere, 1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "oneri": {
+    "alan": "v",
+    "not": "yerel polity s: altta sürer"
+   },
+   "not": "KARAR EMRELİC (gece-98): Bonny ile aynı: himaye → v: ingiltere 1884, yerel polity s: kalır; 1884-09-10 yalnız gazete/blog → ONERI; dolaylı idare krallıkları sınıfı (Emre listesi). | Bonny ile aynı soru (EMRELİC'te): 1884-09-10 himaye → v: ingiltere, tam hâkimiyet sonra s:? | Alıntı yalnız t ucunu tarihliyor (1 Ekim 1960 gün, ÜLKE DÜZEYİ). f 1884-09-10 (Eski Kalabar himaye antlaşması): akademik kaynak okunmadı. Not: Eski Kalabar himayeydi (Oil Rivers Protectorate); tahrir/himaye ayrımı için v: mı s: mı sorusu LAB'a (Efik krallıkları yerli yönetimde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:829",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "sira": "1004",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nijerya', https://islamansiklopedisi.org.tr/nijerya",
+   "alinti": "İngiltere, 1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Fesi (Feshi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1328",
+   "alan": "s",
+   "d": "lunda-imparatorlugu",
+   "f": "1665-01-01",
+   "t": "1887-01-01",
+   "sira": "1018",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Kongo Demokratik Cumhuriyeti (Lunda/Kwango geçmiyor). Fesi (Kwango) için Lunda/Kongo Serbest Devleti geçişi okunmadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Lunda-Kwango sınırı ve 1887 için Fesi'ye özgü tanık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1328",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1887-01-01",
+   "t": "1908-11-15",
+   "sira": "1019",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Office of the Historian, 'Congo Free State', https://history.state.gov/countries/congo-free-state",
+   "alinti": "the Congo Free State was annexed as a colony by Belgium on November 15, 1908",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (15 Kasım 1908 gün, ÜLKE DÜZEYİ; TDV Kongo aynı gün). f 1887: TDV yalnız Bağımsız Kongo Devleti kuruluşu 1885 diyor; Fesi'ye ulaşma yılı okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1328",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "sira": "1020",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kongo Demokratik Cumhuriyeti', https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "f: gün düzeyi, ÜLKE DÜZEYİ."
+  }
+ ],
+ "Charleston (Charles Town)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:942",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1670-04-15",
+   "t": "1776-07-04",
+   "sira": "976",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "National Park Service, 'Charleston Community History', https://www.nps.gov/articles/charleston-community-history.htm",
+   "alinti": "established by English settlers in 1670 across the Ashley River",
+   "oneri": {},
+   "not": "f: 1670 YIL düzeyi (Charles Town, Ashley Nehri'nin karşısında kuruldu; 1680'de bugünkü yarımadaya taşındı); gün (04-15) teyitsiz. NPS 'King Charles I' yazıyor (kaynakta hata olabilir; Charles II kabul edilir) - yalnız yıl esas alındı. Lords Proprietors kolonisi (Carolina)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:942",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "sira": "977",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "US National Archives, 'The Declaration of Independence: A History', https://www.archives.gov/founding-docs/declaration-history",
+   "alinti": "into the late morning of July 4. The Declaration had been officially adopted",
+   "oneri": {
+    "not": "isg ingiltere 1780-05-12 (teslim) → 1782-12-14 (tahliye); günler NPS/National Archives'tan alıntılanacak, bulunmazsa yıl + beyan"
+   },
+   "not": "KARAR EMRELİC (gece-98): isg ingiltere 1780–1782 eklenecek. | f: ÜLKE DÜZEYİ, bağımsızlık bildirgesinin kabulü (gün). ÖNERİ-NOT: Treccani 'Charleston': 'Dal 1780 al 1782 divenne la base principale inglese' - Charleston 1780-1782 İngiliz işgali (isg ingiltere) eklenmeli; gün okunmadı (Treccani yıl). KAYNAKLI yalnız f ucunu ülke düzeyinde teyit eder."
+  }
+ ],
+ "Cortina d'Ampezzo": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:684",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1511-01-01",
+   "t": "1918-11-03",
+   "sira": "988",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "AEIOU Österreich-Lexikon (Austria-Forum), 'Saint-Germain-en-Laye, Staatsvertrag von', https://austria-forum.org/af/AEIOU/Saint-Germain-en-Laye%2C_Staatsvertrag_von",
+   "alinti": "Am 10. 9. 1919 unterzeichnete im Schloss Saint-Germain in Paris Staatskanzler K. Renner",
+   "oneri": {
+    "t": "1919-09-10"
+   },
+   "not": "KARAR EMRELİC (gece-98): ONAY: isg italya 1918-11-03 (fiilî giriş günü kaynaktaysa o gün; 11-04 yürürlük ic_not) → s: italya 1919-09-10 (İtalya yönetiyordu → imza; 1920-07-16 yürürlük ic_not). | TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Alıntı yalnız t ucunu tarihliyor. TEK ÖLÇÜ / brief emsali (Trento, Trieste Saint-Germain imza 1919-09-10): Villa Giusti mütarekesi (1918-11-03) hukukî devir değil; ara dönem isg italya 1918-11-03 → 1919-09-10 yazılmalı. AEIOU 'Tirol': 'Südtirol, das an Italien abgetreten werden musste' (bölge düzeyi; Ampezzo'nun adı geçmiyor). f 1511: kayıtlı kaynak Giacomel 2015 (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:684",
+   "alan": "s",
+   "d": "italya",
+   "f": "1918-11-03",
+   "t": "1946-06-18",
+   "sira": "989",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "AEIOU Österreich-Lexikon (Austria-Forum), 'Saint-Germain-en-Laye, Staatsvertrag von', https://austria-forum.org/af/AEIOU/Saint-Germain-en-Laye%2C_Staatsvertrag_von",
+   "alinti": "Am 10. 9. 1919 unterzeichnete im Schloss Saint-Germain in Paris Staatskanzler K. Renner",
+   "oneri": {
+    "f": "1919-09-10",
+    "not": "öncesi isg italya 1918-11-03"
+   },
+   "not": "KARAR EMRELİC (gece-98): ONAY: isg italya 1918-11-03 (fiilî giriş günü kaynaktaysa o gün; 11-04 yürürlük ic_not) → s: italya 1919-09-10 (İtalya yönetiyordu → imza; 1920-07-16 yürürlük ic_not). | TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Atlas f 1918-11-03 = Villa Giusti mütarekesi: hukukî devir içermez. Saint-Germain imza 1919-09-10 (AEIOU; yürürlük 1920-07-16/10 Ekim 1920 kaynaklara göre değişir, arama özeti). İtalya 1918 sonbaharda Cortina'yı işgal etti (blog, ipucu). Ampezzo'ya özgü devir tanığı okunmadı: BÖLGE DÜZEYİ. t 1946-06-18 (cumhuriyet) okunmadı."
+  }
+ ],
+ "Diahav (Sine)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:302",
+   "alan": "s",
+   "d": "sine-salum",
+   "f": "1350-01-01",
+   "t": "1887-01-01",
+   "sira": "992",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Senegal (Sine-Sâloum yalnız İslâmlaşma bağlamında; 1887 yok), Office of the Historian Mali/Senegal.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sine krallığı 1350 kuruluş ve 1887 Fransız himayesi/ilhakı için Diahav tanığı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:302",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1887-01-01",
+   "t": "1960-06-20",
+   "sira": "993",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Office of the Historian, 'Mali', https://history.state.gov/countries/mali",
+   "alinti": "The United States recognized the Federation of Mali on June 20, 1960 / attained independence from French sovereignty",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (20 Haziran 1960, Mali Federasyonu'nun bağımsızlığı; ÜLKE DÜZEYİ). f 1887 okunmadı. Not: Sine-Saloum Fransız himayesiydi (dolaylı idare: yerli monarşi s: sürer, Fransa v:) - sahiplik alanı v: mi s: mi sorusu LAB'a."
+  }
+ ],
+ "Erzin": [
+  {
+   "dosya_satir": "data/yerlesimler_ek28.js:68",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1516-08-24",
+   "sira": "1000",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Erzin/Dörtyol/Payas (müstakil madde yok, arama sayfaları), TDV Adana ('Çukurova ... Yavuz Sultan Selim’in Mısır seferi esnasında Osmanlı topraklarına katılmıştır', yıl yok), TDV Hatay. Arama özeti: DergiPark makalesi 'Payas, Dörtyol ve Erzin (Sümer 1964)' Mercidâbık sonrası Osmanlı (açılmadı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Erzin'in Memlûk-Osmanlı geçiş günü kaynakta okunmadı. Atlas 1516-08-24 Mercidâbık günü (Halep fethi); Erzin Çukurova/Payas yöresi olup Memlûk'ten Osmanlı'ya fiilî geçiş ve tahrir günü ayrı (Ramazanoğulları/Dulkadir aracılığı). Tahrir ölçütü: kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek28.js:68",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1516-08-24",
+   "t": "1920-04-23",
+   "sira": "1001",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: aynı kaynaklar; TDV Adana: Çukurova Osmanlı'ya katıldı ama Ramazanoğulları vasıtasıyla uzun müddet idare edildi.",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1516-08-24 için Erzin tanığı yok; tahrir ölçütü: kaynak susuyor. t 1920-04-23 (TBMM) tahrir/işgal bağlamı hedef dışı."
+  }
+ ]
+}

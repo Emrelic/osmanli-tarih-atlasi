@@ -1,0 +1,50 @@
+[
+ {
+  "id": "transkafkasya",
+  "hukum": "DUZELT",
+  "f": "1917-11-28",
+  "guc": "ORTA",
+  "kaynak": "Gürcü Ansiklopedisi (Komiserlik maddesi): Transkafkasya Komiserliği 15 Kasım 1917'de kuruldu (stil yazılı değil; Rus/Gürcü kaynak geleneği O.S.); çift tarih '15 (28) Kasım' Charles Üniv. sayfasında (açılmadı) ve 28 Kasım (N.S.) ikinci sayfada. Veri f 1917-11-07 Ekim Devrimi'nin N.S. günüdür → Komiserliği kapsayan şemsiye künye için 21 gün aşım. ic_not: 'Komiserlik 15 (28) Kasım 1917; Seym 23 Şubat 1918; TDFC 22 Nisan 1918.' İkinci akademik kaynak (Hovannisian / Swietochowski) önerilir."
+ },
+ {
+  "id": "tidore-sultanligi",
+  "hukum": "BEKLE",
+  "bekle": "t 1923-10-29 (UFUK artığı) → GENİŞLET; aday 1950 (üniter Endonezya'ya katılış), yıl hassasiyeti",
+  "guc": "ZAYIF",
+  "kaynak": "Yalnız İPUCU: Vikipedi (Kamma 1947-49 s.271'e atıfla 1905 taht boşluğu); 1905 boşluğu, 1947 Zeynelâbidin'in tahta çıkışı ve 1942-45 Japon işgali son değildir; zelfbesturend landschap olarak 1950'ye dek. Akademik kaynak (Kamma, Andaya) okunmadı."
+ },
+ {
+  "id": "ternate-sultanligi",
+  "hukum": "BEKLE",
+  "bekle": "t 1663-01-01 → GENİŞLET; aday 1950 (sultan sürgünü ve krallar meclisinin kaldırılışı; Scitepress 2018), yıl hassasiyeti",
+  "guc": "ZAYIF",
+  "kaynak": "1663 = İspanyol çekilişi (1662 Manila kararı, 1666 tahkimat sökümü; yalnız arama özeti). 1914-15 Muhammed Usman'ın tutuklanması/azli ve 1929'a dek taht boşluğu geçici kesinti, son değil (Vikipedi, Bongenaar 2005 s.373'e atıfla). Scitepress 2018 bildirisi 1950. Akademik kaynak (Bongenaar, Andaya 1993) okunmadı."
+ },
+ {
+  "id": "polonya-naiplik-kralligi",
+  "hukum": "BEKLE",
+  "bekle": "t 1918-11-11 → 1918-11-14 (Naiplik Konseyi siyasi yetkiyi Piłsudski'ye devretti ve dağıldı)",
+  "guc": "ORTA",
+  "kaynak": "IPN 'Przystanek Historia' PDF; dzieje.pl/PAP 'Rada Regencyjna': 11 Kasım askerî komuta Piłsudski'ye, 14 Kasım siyasi yetki devri ve Konseyin dağılışı; Lublin Geçici Halk Hükûmeti (Daszyński) 6/7 Kasım gecesi kuruldu, 14 Kasım'da Piłsudski'ye bağlandı, 17 Kasım Moraczewski kabinesi. Lublin ayrı künye değil (ic_not)."
+ },
+ {
+  "id": "polonya",
+  "hukum": "BEKLE",
+  "bekle": "f 1918-11-11 KALIR mı (sembolik bağımsızlık günü) yoksa 1918-11-14 mü? Naiplik t 14.11 olursa 11–14 Kasım 3 gün çakışır",
+  "guc": "ORTA",
+  "kaynak": "Aynı kaynaklar (IPN, PAP). Karar Emre'de."
+ },
+ {
+  "id": "triyeste-serbest-toprak",
+  "hukum": "TEYIT",
+  "guc": "ORTA",
+  "kaynak": "f 1947-09-15 Paris Barış Antlaşması (İtalya) yürürlüğü; t 1954-10-26 İtalyan birliklerinin Trieste'ye girişi (Il Post; Londra Mutabakatı 5 Ekim 1954). ic_not: 'Hukuken Osimo Antlaşması 10 Kasım 1975, yürürlük 3 Nisan 1977 (İtalya onay yasası no.73, 14 Mart 1977).' Antlaşma metinleri açılmadı (arama özetleri + haber) → ORTA."
+ },
+ {
+  "id": "tahiri",
+  "hukum": "DUZELT",
+  "t": "1517-01-01",
+  "guc": "ORTA",
+  "kaynak": "KARAR (EMRELİC, 5 Kasım): künye DARALT — TDV TÂHİRÎLER (Yemen) 1454–1517; Memlük 1517 ile tutarlı. Yıl hassasiyeti (gün TDV müstakil maddesinde okunacak). Veri t 1538-08-03 (Osmanlı Yemen seferi/Aden) ayrı olay. HAYALET-KARAR (H2, TDV)."
+ }
+]

@@ -1,0 +1,721 @@
+{
+ "Jeseník (Freiwaldau)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1271",
+   "alan": "s",
+   "d": "bohemya",
+   "f": "1281-01-01",
+   "t": "1526-12-05",
+   "sira": "1058",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV 'Çekoslovakya', web araması (Vikipedi aynaları ipucu). Zincirdeki KASA kaydı (Sněmy české I, belge 55) kitap, açılmadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşime özgü tanıklık yok. Arama özeti: Freiwaldau 1267'de Wrocław piskoposluğu kenti, 1742'de Avusturya Silezyası — ipucu, kaynak değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1271",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1918-11-11",
+   "t": "1938-10-01",
+   "sira": "1059",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çekoslovakya', T. Sabri Erdil — https://islamansiklopedisi.org.tr/cekoslovakya",
+   "alinti": "Millî Konsey 28 Ekim 1918 tarihinde Çekoslovakya’nın bağımsızlığını ilân etti.",
+   "oneri": {},
+   "not": "Alıntı devletin ilan gününü (1918-10-28) verir; atlas f 1918-11-11. Yerleşimin fiilî devri (Alman-Avusturya Sudetenland iddiası, Çek birliklerinin Silezya'yı alışı) bu kaynakta yok — gün önerilmiyor. t ucunu tarihlemiyor; TDV: Sudetler Münih'te 29 Eylül 1938'de dört merhalede Almanya'ya terk edildi. KÜNYE: cekoslovakya f 1918-10-28, dönem f 1918-11-11."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1271",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-10-01",
+   "t": "1945-05-09",
+   "sira": "1060",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Münih Antlaşması metni (29 Eylül 1938), Avalon Project — https://avalon.law.yale.edu/imt/munich1.asp",
+   "alinti": "The occupation by stages of the predominantly German territory / by German troops will begin on 1st October.",
+   "oneri": {},
+   "not": "f: işgal penceresinin ilk günü 1938-10-01; şehrin hangi bölgede (I-IV) olduğu okunan metinde yok, bölge günü teyitsiz (zincirdeki beyanla aynı). TEK ÖLÇÜ: devralan yönetmiyordu, teslim günü; aşamalı teslim 1-10 Ekim. Antlaşma metni neşri (kaynak sırası 8). TDV Çekoslovakya: 29 Eylül 1938 karar, dört merhale."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1271",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1945-05-09",
+   "t": "1993-01-01",
+   "sira": "1061",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çekoslovakya' — https://islamansiklopedisi.org.tr/cekoslovakya",
+   "alinti": "Ocak 1993’te Çek ve Slovakya cumhuriyetlerine ayrılan",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Ocak 1993, ay düzeyi; gün 1993-01-01 zincirde BM mektubu). f 1945-05-09 için kaynak bulunamadı (TDV'de 1945 yalnız üniversite)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1271",
+   "alan": "s",
+   "d": "cekya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "sira": "1062",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çekoslovakya' — https://islamansiklopedisi.org.tr/cekoslovakya",
+   "alinti": "Ocak 1993’te Çek ve Slovakya cumhuriyetlerine ayrılan",
+   "oneri": {},
+   "not": "f: ay düzeyi (Ocak 1993); gün 1993-01-01 TDV'de yok (zincir: BM misyonu mektubu, olayın kaynağı). [yalnız ay teyitli; gün teyitsiz]. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Gorontalo": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:152",
+   "alan": "s",
+   "d": "ternate-sultanligi",
+   "f": "1281-01-01",
+   "t": "1663-01-01",
+   "sira": "1032",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV 'Endonezya' (Ternate/Gorontalo anılmıyor); web araması (Vikipedi aynaları, LLMpedia ipucu bile değil). Açılmadı: https://scholarlypublications.universiteitleiden.nl/access/item%3A3589596/view",
+   "alinti": "",
+   "oneri": {},
+   "not": "Atlas t 1663 doğrulanamadı. Arama özeti: Ternate'nin Gorontalo iddiasını VOC'ye bırakması 1677 (Rahim 2009 tezi), Atlas of Mutual Heritage 1678/1681 — hepsi açılmamış özet. ONERI yazılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:152",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1663-01-01",
+   "t": "1942-03-09",
+   "sira": "1033",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Mart 1942 Hollanda idaresinin sonu, ay düzeyi); f 1663 doğrulanamadı. Arama özeti ipucu (açılmadı, kaynak değil): VOC/Ternate devri 1677 (Ternate'nin Kuzey Sulawesi iddialarını VOC'ye bırakması, 11 Mayıs 1677, Rahim 2009 tezi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:152",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "sira": "1034",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle",
+   "oneri": {
+    "alan": "isg",
+    "d": "meiji-japonya"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | Alıntı ay düzeyi: Mart 1942'de bütün Endonezya adalarının işgali (gün 9 Mart zincirde Britannica/Java teslimi; adaya özgü gün teyitsiz, Sulawesi/Sumatra işgali Ocak-Mart 1942). Savaş işgali: ÖLÇÜT geçici/askerî — Japonya egemenliği kendi toprağı saymadı, 1945'te teslimle bitti; TEK KURAL gereği isg olmalı (oneri.alan=isg, d=meiji-japonya). ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:152",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "sira": "1035",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Endonezya genel). f: 27 Aralık 1949 gün düzeyi (egemenlik devri). TEK ÖLÇÜ: devir/teslim günü. Bağımsızlık ilanı 17 Ağustos 1945 (TDV aynı madde) — Hollanda'nın elinde kalan yerde Hollanda 1949-12-27'ye dek, Cumhuriyet'in fiilen yönettiği yerde 1945-08-17'den (kural); yerleşime özgü tanıklık yok. Gorontalo 1946-49 Hollanda'nın kurduğu Doğu Endonezya Devleti içindeydi — yerel tanıklık okunmadı."
+  }
+ ],
+ "Indrapura": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:277",
+   "alan": "s",
+   "d": "pagaruyung",
+   "f": "1281-01-01",
+   "t": "1663-01-01",
+   "sira": "1052",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV 'Endonezya'; web araması (Atlas of Mutual Heritage kurum portalı = ipucu). Açılamayan: https://resolve.cambridge.org/core/journals/journal-of-southeast-asian-history/article/achehnese-control-over-west-sumatra-up-to-the-treaty-of-painan-1663/55F96E9E9809ED2D03704B7C7D9FDEE9",
+   "alinti": "",
+   "oneri": {},
+   "not": "Atlas t 1663 (Painan) doğrulanamadı; arama özeti VOC'nin Indrapura'da ~1659'da loca, 1716'da yeni sözleşme kurduğunu söylüyor — Indrapura 1663'te Pagaruyung'dan Hollanda'ya geçmiş görünmüyor (künye pagaruyung t 1833). ONERI yazılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:277",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1663-01-01",
+   "t": "1942-03-09",
+   "sira": "1053",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Mart 1942 Hollanda idaresinin sonu, ay düzeyi); f 1663 doğrulanamadı. Arama özeti ipucu (açılmadı, kaynak değil): VOC/Ternate devri 1677 (Ternate'nin Kuzey Sulawesi iddialarını VOC'ye bırakması, 11 Mayıs 1677, Rahim 2009 tezi). Ek uyarı: arama özeti Indrapura için VOC egemenliğinin 1663'te değil sonra kurulduğunu düşündürüyor (kaynak açılmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:277",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "sira": "1054",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle",
+   "oneri": {
+    "alan": "isg",
+    "d": "meiji-japonya"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | Alıntı ay düzeyi: Mart 1942'de bütün Endonezya adalarının işgali (gün 9 Mart zincirde Britannica/Java teslimi; adaya özgü gün teyitsiz, Sulawesi/Sumatra işgali Ocak-Mart 1942). Savaş işgali: ÖLÇÜT geçici/askerî — Japonya egemenliği kendi toprağı saymadı, 1945'te teslimle bitti; TEK KURAL gereği isg olmalı (oneri.alan=isg, d=meiji-japonya). ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:277",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "sira": "1055",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya', https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Endonezya genel). f: 27 Aralık 1949 gün düzeyi (egemenlik devri). TEK ÖLÇÜ: devir/teslim günü. Bağımsızlık ilanı 17 Ağustos 1945 (TDV aynı madde) — Hollanda'nın elinde kalan yerde Hollanda 1949-12-27'ye dek, Cumhuriyet'in fiilen yönettiği yerde 1945-08-17'den (kural); yerleşime özgü tanıklık yok."
+  }
+ ],
+ "Gaeta": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:49",
+   "alan": "s",
+   "d": "gaeta-dukaligi",
+   "f": "1000-01-01",
+   "t": "1136-01-01",
+   "sira": "1027",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, 'Gaeta' — https://www.treccani.it/enciclopedia/gaeta/",
+   "alinti": "Incorporata nel 1136 nel Regno di Sicilia",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1136, yıl). f için aynı madde: 9. yy sonunda Napoli dükalığından bağımsızlaşıp başkent oldu (atlas ufku 1000, künye 0836). ÇELİŞKİ beyanı: aynı madde 'Perdette l’autonomia con la conquista normanna (1032)' diyor — dükalığın fiilî özerkliği 1032'de bitmiş olabilir; atlas t 1136 'Incorporata nel 1136' ile uyumlu, karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:49",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1282-03-30",
+   "t": "1861-02-13",
+   "sira": "1028",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, Dizionario Biografico degli Italiani vol. 49 (1997), 'Francesco II di Borbone', A. Scirocco — https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "fecero infine decidere F. per la capitolazione, conclusa il 13 febbr. 1861.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (kapitülasyon 13 Şubat 1861; kral 14 Şubat sabahı gemiyle ayrıldı). f 1282-03-30 (Sicilya Akşam Duası; Treccani 'Vespri siciliani' yalnız 1282 yılını verir) için Gaeta'ya özgü kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:49",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1861-02-13",
+   "t": "1861-03-17",
+   "sira": "1029",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, Dizionario Biografico degli Italiani vol. 49 (1997), 'Francesco II di Borbone', A. Scirocco — https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "fecero infine decidere F. per la capitolazione, conclusa il 13 febbr. 1861.",
+   "oneri": {},
+   "not": "f: kapitülasyonun sonuçlandığı gün 13 Şubat 1861. TEK ÖLÇÜ notu: Piyemonte'nin fiilî teslim alışı ertesi (14 Şubat) olabilir — kaynakta teslim töreni günü yok; atlas günü kapitülasyon günü. İtalya Krallığı ilanı 1861-03-17 ayrıdır."
+  }
+ ],
+ "Gunt vadisi (bölge)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:423",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1883-01-01",
+   "t": "1895-03-11",
+   "sira": "1036",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Encyclopaedia Iranica, 'BOUNDARIES iii. Boundaries of Afghanistan' — https://www.iranicaonline.org/articles/boundaries-iii/",
+   "alinti": "abandon all claims to the Transoxanian parts of Rōšān and Šeḡnān",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | alıntı yalnız t ucunu tarihliyor: 1893'te Durand anlaşmasıyla Emir Abdurrahman, Rōšān ve Šeḡnān'ın Amu Derya ötesi kısımlarındaki iddiasından vazgeçti (Darvāz'ın güneyiyle takas). Atlas t 1895-03-11 (İngiliz-Rus notaları); fiilî Afgan çekilişi günü Iranica'da yok. Maddede Rōšān ve Šeḡnān 'subject to Afghanistan' denir ama yıl yok; f 1883 teyit edilmedi (EB1911 1882, Iloliev 1883 zincirde). İki ucu ölç: 1893 vs 1895."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:423",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1905-01-01",
+   "t": "1917-03-15",
+   "sira": "1037",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Iranica 'Darvāz' ve 'Boundaries iii' (1905 yok); zincirdeki Morrison, The Russian Conquest of Central Asia (CUP 2020) erişilemedi (Cambridge kapalı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | Yerleşime özgü 1905 doğrudan Rus idaresi tanıklığı okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:423",
+   "alan": "s",
+   "d": "tacikistan",
+   "f": "1991-09-09",
+   "t": "2000-12-31",
+   "sira": "1038",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tacikistan' — https://islamansiklopedisi.org.tr/tacikistan",
+   "alinti": "9 Eylül 1991’de Tacikistan Yukarı Parlamentosu bir deklarasyon yayımlayarak / Tacikistan’ın Sovyet Sosyalist Cumhuriyetleri Birliği’nden bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): 1893 Durand–Abdurrahman ve 1895-03-11 Pamir ikisi de imza; Buhara önceden idare etmiyordu → TEK ÖLÇÜ teslim (Afgan tahliyesi, kaynakla); iki imza ic_not; Kala-i Vamar ile aynı teslim olayına hizalanacak. | f: bağımsızlık ilanı günü (atlas kuralı); ÜLKE DÜZEYİ. SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (ic_not). Yerleşime özgü tanıklık yok."
+  }
+ ],
+ "Hualien": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2613",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1875-01-01",
+   "t": "1895-04-17",
+   "sira": "1049",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV 'Tayvan' (madde yok), history.state.gov (404), web araması (Vikipedi aynaları ipucu: 1875 dağ yasağının kalkışı, Taitung Eyaleti 1887; Pi-lam/Hoe-lian-kang alt idaresi kurulmamış görünüyor).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1875-01-01 sahiplik başlangıcı kaynakla teyit edilmedi (1875 yerleşme/yol tarihi, idarî katma değil). Akademik Tayvan tarihi erişilemedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2613",
+   "alan": "s",
+   "d": "japon-tayvani",
+   "f": "1895-04-17",
+   "t": "1945-10-25",
+   "sira": "1050",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: zincirdeki Şimonoseki metni (https://pages.ucsd.edu/~dkjordan/tw/Simonoseki.html) açılmadı; TDV 'Tayvan' yok.",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | Şimonoseki imza 1895-04-17 (zincir). TEK ÖLÇÜ UYARISI: Japonya Hualien'i imza günü fiilen yönetmiyordu (yer_kaynak: yavaş Japon denetimi) — teslim günü gerekir; Tayvan fiilî devri Haziran 1895 Keelung (okunmadı, ipucu). Emre kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2613",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-10-25",
+   "t": "2000-12-31",
+   "sira": "1051",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV 'Tayvan' yok; web araması: Çin Cumhuriyeti'ne devir 25 Ekim 1945 (Vikipedi aynaları, kurum portalları = ipucu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1945-10-25 doğrudan akademik kaynakla okunmadı."
+  }
+ ],
+ "Kabûşiyye": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:130",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "sira": "1065",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Funclar’ın reisi Amâre (Dûnkas), 1504 yılında / Alve Krallığı’na karşı bağımsızlığını ilân etti.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1504, yıl: Func'un Alve'ye karşı bağımsızlık ilanı, Sennâr'ın kuruluşu). f 1281 ufuk. Kabûşiyye (Şendi çevresi) için yerleşime özgü tanıklık yok; ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:130",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "sira": "1066",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "P. M. Holt, 'Mansfield Parkyns's Manuscript of the Funj Chronicle', Die Welt des Islams NS 28 (1988), s. 244-263 (JSTOR tam metin dizini, LAB SALI d493d77cf)",
+   "alinti": "entered his capital, Sinnar, on 12 Ramadan 1236/ 13 June 1821",
+   "oneri": {
+    "f": "1821-06-13"
+   },
+   "not": "KARAR EMRELİC (gece-103): Funj teslimi 1821-06-13 ONAY (funj t, olaylar_ek4.js:115 ve bu satır). [JSTOR dizini birebir, tek isabet — çekinceli; makale gövdesi açılmadı]. ±1-2 gün (rü'yet), JDN 1821-06-12. ABİ MERKEZ Sennâr (ülke düzeyi). | KARAR EMRELİC (gece-101): v: f 1821-06-14, 'gün künyeden: funj t (TDV Func teslimi)'. ÖLÇÜM LAB PAZAR: devletler.js:1927 funj t 1821-06-14, kaynak alanı yalnız 'func' (TDV); TDV ay düzeyi (Haziran 1821) — künye gününün kendi kaynağı GÖRÜLMEDİ → gün teyitsiz, beyanlı. | ÖNCEKİ KARAR (gece-34): Mısır Sudanı v: misir-kavalali, Hartum 1885-01-26; f Haziran 1821 (TDV Func teslimi) — funj künye t 1821-06-14 ile hizalı. | f: TDV Func sultanının teslimini Haziran 1821 yazar (ay düzeyi); atlas f 1821-01-04 ayı tutmuyor, künye funj t 1821-06-14 ile de çelişiyor (iki ucu ölç). t: 26 Ocak 1885 Hartum'un Mehdî'ye geçişi (gün düzeyi, TDV) = atlas t. TDV: Mehmed Ali ve oğulları Sudan'ı 'Osmanlı Devleti adına' 1821-1882 idare etti. Tahrir ölçütü: kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:130",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "sira": "1067",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı.",
+   "oneri": {},
+   "not": "f: gün düzeyi, bağımsızlık 1 Ocak 1956. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Fort Hall": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1049",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1834-01-01",
+   "t": "1846-06-15",
+   "sira": "1021",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Idaho State Historical Society PDF zaman aşımı (açılamayan PDF): https://history.idaho.gov/wp-content/uploads/2018/12/0121.pdf ; web araması (Vikipedi aynaları ipucu: Wyeth Temmuz 1834, HBC'ye satış 1836/37).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1834 kuruluşu akademik/devlet kaynağıyla okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1049",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "sira": "1022",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "1846 Oregon Antlaşması metni (Statutes of the United States vol. 9), Avalon Project — https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "Done at Washington, the fifteenth day of June / one thousand eight hundred and forty-six.",
+   "oneri": {},
+   "not": "f: antlaşma imza günü 1846-06-15 (antlaşma metni neşri, kaynak sırası 8). Senato onayı 18 Haziran 1846 (history.state.gov 'The Oregon Territory, 1846', okundu). TEK ÖLÇÜ: ABD'nin Fort Hall'da fiilî idaresi 1846'da yok (HBC postası; Oregon Territory 1848) — imza günü atlas emsali (F8); teslim günü teyitsiz; Emre onayı."
+  }
+ ],
+ "Fort Klamath / Klamath Bataklığı": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1064",
+   "alan": "s",
+   "d": "klamath",
+   "f": "1281-01-01",
+   "t": "1864-01-01",
+   "sira": "1023",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Oregon Encyclopedia (Oregon Historical Society), 'Fort Klamath' — https://www.oregonencyclopedia.org/articles/fort_klamath/",
+   "alinti": "In 1864, the post was near the site of a treaty between the U.S. government",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1864 antlaşması, yıl; gün 14 Ekim 1864 bu sayfada yok). ÇELİŞKİ: aynı madde kalenin 1863'te ABD ordusu (1. Oregon Süvarisi) tarafından kurulduğunu söyler — atlas klamath t 1864 öncesi fiilî ABD varlığı. KÜNYE: klamath t 1870-02-17 iken dönem t 1864-01-01."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1064",
+   "alan": "s",
+   "d": "abd",
+   "f": "1864-01-01",
+   "t": "2000-12-31",
+   "sira": "1024",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Oregon Encyclopedia (Oregon Historical Society), 'Fort Klamath' — https://www.oregonencyclopedia.org/articles/fort_klamath/",
+   "alinti": "In 1864, the post was near the site of a treaty between the U.S. government / which created the Klamath Reservation",
+   "oneri": {},
+   "not": "f: yıl düzeyi (1864 Klamath Gölü antlaşması; ÖLÇÜT idareye katma — rezervasyon kuruldu, kale rezervasyonun dışında). [yalnız yıl teyitli; gün teyitsiz]."
+  }
+ ],
+ "Fort St. Pierre (Rainy Lake)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:804",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1731-01-01",
+   "t": "1763-02-10",
+   "sira": "1025",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Parks Canada, 'Fort St. Pierre National Historic Site of Canada' — https://pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=372",
+   "alinti": "In 1731 the Sieur de la Jemeraye, La Vérendrye's nephew and lieutenant, constructed Fort St. Pierre",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): ONAY: Parks Canada konumu (Fort Frances, Ontario) → abd satırı kalkar; Kanada öncesi zincir (HBC/İngiltere → 1867) kesintisiz mi kontrol edilecek. | f: yıl düzeyi (kuruluş 1731, Fransız postası). t 1763-02-10 (Paris) bu kaynakta yok; Fransızlar kaleyi ~1758'de terk etti (aynı sayfa). DCB J.-B. La Vérendrye maddesi: Fort Saint-Pierre'in 1731 sonbaharında tamamlandığı (okundu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:804",
+   "alan": "s",
+   "d": "abd",
+   "f": "1923-10-29",
+   "t": "2000-12-31",
+   "sira": "1026",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Parks Canada, 'Fort St. Pierre National Historic Site of Canada' — https://pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=372",
+   "alinti": "is located in the town of Fort Frances, 348 km west of Thunder Bay, Ontario",
+   "oneri": {
+    "sil": true
+   },
+   "not": "KARAR EMRELİC (gece-101): ONAY: Parks Canada konumu (Fort Frances, Ontario) → abd satırı kalkar; Kanada öncesi zincir (HBC/İngiltere → 1867) kesintisiz mi kontrol edilecek. | Alıntı yerleşimin Ontario'da (Fort Frances, Kanada) olduğunu söyler; 48.61N -93.40E = Fort Frances. abd satırı yanlış: zincirdeki kanada 1867-07-01 satırı 2000-12-31'e uzatılmalı, abd 1923-10-29 satırı kaldırılmalı. Rupert's Land'in Kanada'ya devri (1870) okunmadı. Alıntı f ucunu değil yerleşim konumunu tarihliyor."
+  }
+ ],
+ "Gobi-Altay (Yösönbulag)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:117",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "sira": "1030",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moğollar' — https://islamansiklopedisi.org.tr/mogollar",
+   "alinti": "Yüan hânedanı, Togan-Temür’ün (Shunti) 10 Eylül 1368’de Hanbalık’ı terkederek Moğolistan’a çekilmesiyle son buldu.",
+   "oneri": {
+    "t": "1368-09-10"
+   },
+   "not": "KARAR EMRELİC (gece-101): Nokta 1691–1758'de Halha (Zasagt Han aymağı) mı Cungar sahası mı kaynakla ölçülecek: Halha ise qing 1691 [yıl], Cungar ise 1755–58. ÖLÇÜLMEDİ. | KARAR EMRELİC (gece-100, Kerulen emsali): Yuan → kuzey-yuan geçişinde TDV esas 1368-09-10 (kaçış, 丙寅); 09-14 (庚午) ic_not. | t: TDV Yuan'ın sonunu 10 Eylül 1368 yazar; atlas künye/dönem t 1368-09-14 (Ming'in Dadu'yu alışı / Hongwu takvimi — Academia Sinica ile çevrilecek, ajan çevirmedi). İki olay farklı; karar Emre'de. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:117",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "sira": "1031",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moğolistan', Osman Gazi Özgüdenli — https://islamansiklopedisi.org.tr/mogolistan",
+   "alinti": "Moğolistan 1691’de imzalanan Dolon Nor Antlaşması’yla Çin’in bir eyaleti haline geldi",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): Nokta 1691–1758'de Halha (Zasagt Han aymağı) mı Cungar sahası mı kaynakla ölçülecek: Halha ise qing 1691 [yıl], Cungar ise 1755–58. ÖLÇÜLMEDİ. | f: yıl düzeyi (1691); atlas 1691-05-30 günü kaynakta yok [yalnız yıl teyitli; gün teyitsiz]. ÜLKE DÜZEYİ (Halha/Dış Moğolistan). UYARI: Gobi-Altay/Yösönbulag Cungar sahasında olabilir; Qing'in Batı Moğolistan'a girişi 1755-58 — iki ucu ölç. Qing t 1911: TDV 'Qing hânedanının 1911’de yıkılışına kadar' (yıl)."
+  }
+ ],
+ "Hagåtña (Agaña)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:116",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1668-06-16",
+   "t": "1898-06-21",
+   "sira": "1039",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Guampedia (Univ. of Guam), 'Father Diego Luis de San Vitores' — https://www.guampedia.com/father-diego-luis-de-san-vitores/",
+   "alinti": "In June 1668, the patache (or supply boat) San Diego arrived / off the shores of Guam’s primary village, Hagåtña",
+   "oneri": {
+    "t": "1898-06-21",
+    "not": "isg abd başlar; İspanya'nın hukukî iddiası Paris'e dek ic_not"
+   },
+   "not": "KARAR EMRELİC (gece-101): TEK ÖLÇÜ (ABD idare etmiyordu → teslim): isg abd 1898-06-21 → s: abd 1899'daki fiilî devir (ilk ABD deniz valisinin gelişi, gün kaynakla); Paris 1898-12-10 ve yürürlük 1899-04-11 ic_not. | f: ay düzeyi (Haziran 1668, misyon merkezi). Gün 16 bu sayfada yok (yer_kaynak başka bölüm). Beyan: aynı madde Legazpi'nin adayı İspanya adına 1565'te sahiplendiğini söyler — atlas başlangıcı misyon (1668). t: ABD teslimi 21 Haziran 1898 bu araştırmada okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:116",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-06-21",
+   "t": "2000-12-31",
+   "sira": "1040",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Office of the Historian (history.state.gov), 'The Spanish-American War, 1898' — https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "signed the Treaty of Paris on December 10, 1898 / forced Spain to cede Guam and Puerto Rico to the United States",
+   "oneri": {
+    "f": "1899 (deniz valisinin gelişi, kaynakla)",
+    "not": "öncesi isg abd 1898-06-21"
+   },
+   "not": "KARAR EMRELİC (gece-101): TEK ÖLÇÜ (ABD idare etmiyordu → teslim): isg abd 1898-06-21 → s: abd 1899'daki fiilî devir (ilk ABD deniz valisinin gelişi, gün kaynakla); Paris 1898-12-10 ve yürürlük 1899-04-11 ic_not. | TEK KURAL: savaş işgali (21 Haziran 1898 teslim, bayrak) isg abd 1898-06-21 → 1898-12-10; s: abd hukukî devirden = Paris Antlaşması imzası 1898-12-10 (yürürlük 1899-04-11 ic_not). ÖLÇÜT: geçici/askerî. ispanya satırı t da 1898-12-10 olmalı. TEK ÖLÇÜ: ABD'nin fiilî idaresi 7 Ağustos 1899 (yer_kaynak NHHC) — teslim günü ölçüsü tartışmalı; Emre kararı."
+  }
+ ],
+ "Halmstad": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:364",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "1645-08-23",
+   "sira": "1041",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Lex.dk (Den Store Danske), 'Halland', Bue Nielsen — https://lex.dk/Halland",
+   "alinti": "Ved freden i Brömsebro i 1645 / måtte Danmark afstå Halland til Sverige for en periode på 30 år",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1645, yıl). Gün: atlas t 1645-08-23 (Gregoryen) vs kronoloji maddesi 1645-08-13 (Jülyen 13 = Gregoryen 23) — iç tutarlılık Emre'de; atlas günü kaynakta yok. SNL de: Først ved freden i Brömsebro i 1645 kom hele Halland under Sverige."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:364",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1645-08-23",
+   "t": "2000-12-31",
+   "sira": "1042",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Lex.dk (Den Store Danske), 'Halland', Bue Nielsen — https://lex.dk/Halland",
+   "alinti": "Ved freden i Brömsebro i 1645 / måtte Danmark afstå Halland til Sverige for en periode på 30 år",
+   "oneri": {},
+   "not": "f: yıl düzeyi (1645), 30 yıllık devir; aynı madde: 1658 Roskilde ile kalıcı İsveç. Tahrir ölçütü: 30 yıllığına devir (rehin) — idareye katma belgesi okunmadı, kaynak susuyor. [yalnız yıl teyitli; gün teyitsiz]."
+  }
+ ],
+ "Hilo": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:157",
+   "alan": "s",
+   "d": "hawaii-kralligi",
+   "f": "1795-01-01",
+   "t": "1893-01-17",
+   "sira": "1043",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: history.state.gov/countries/hawaii (1795/1893 yok); Britannica 'Kamehameha I' (403, yer_kaynak'ta alıntılı, açılamadı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1795 ve t 1893-01-17 yerleşime özgü akademik kaynakla okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:157",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-08-12",
+   "t": "2000-12-31",
+   "sira": "1044",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian (history.state.gov), 'Hawaii' — https://history.state.gov/countries/hawaii",
+   "alinti": "annexation to the United States on August 12, 1898",
+   "oneri": {},
+   "not": "f: devletin resmî tarih yayını, ilhak 12 Ağustos 1898 (gün). Aynı sayfa Hilo konsolosluğunun son tarihini 12 Ağustos 1898 'date of annexation' verir. Kongre kararı 6 Temmuz, McKinley imzası 7 Temmuz (ic_not)."
+  }
+ ],
+ "Houston": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1413",
+   "alan": "s",
+   "d": "teksas-cumhuriyeti",
+   "f": "1836-08-30",
+   "t": "1845-12-29",
+   "sira": "1045",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Handbook of Texas Online (TSHA), 'Houston, TX' — https://www.tshaonline.org/handbook/entries/houston-tx",
+   "alinti": "The city began on August 30, 1836",
+   "oneri": {
+    "t": "1846-02-19"
+   },
+   "not": "ÖNCEKİ KARAR (gece-83): Teksas ABD teslimi 1846-02-19; 1845-12-29 ic_not. | f: kuruluş ilanı 1836-08-30 (gün) = atlas. t: Handbook of Texas 'Annexation' (https://www.tshaonline.org/handbook/entries/annexation): 'The formal transfer of authority from the republic to the state was not made until a ceremony held on February 19, 1846'; ABD'ye hukukî giriş 29 Aralık 1845 — bilinen karar 1846-02-19. KÜNYE: teksas-cumhuriyeti t 1845-12-29 genişletilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1413",
+   "alan": "s",
+   "d": "abd",
+   "f": "1845-12-29",
+   "t": "2000-12-31",
+   "sira": "1046",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Handbook of Texas Online (TSHA), 'Annexation' — https://www.tshaonline.org/handbook/entries/annexation",
+   "alinti": "The formal transfer of authority from the republic to the state was not made until a ceremony held on February 19, 1846.",
+   "oneri": {
+    "f": "1846-02-19"
+   },
+   "not": "ÖNCEKİ KARAR (gece-83): Teksas ABD teslimi 1846-02-19; 1845-12-29 ic_not. | f: 1846-02-19 teslim töreni (TEK ÖLÇÜ: devralan fiilen yönetmiyordu, teslim günü). Hukukî giriş 29 Aralık 1845 (history.state.gov 'Texas was admitted into the United States on December 29') ic_not."
+  }
+ ],
+ "Hoşap (Mahmudi)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_ferhadpasa.js:76",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1351-01-01",
+   "sira": "1047",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Bakılan: TDV 'Hoşap Kalesi' (https://islamansiklopedisi.org.tr/hosap-kalesi: yalnız dönemler sayılır, tarih yok), TDV 'Karakoyunlular' (zincirde alıntılı: Bayram Hoca 1351), TDV 'Mahmûdîler' (madde yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1351-01-01 yerleşime özgü teyit edilmedi; zincir notu: kaynak Van-Erciş çevresinin 1351'de topluca el değiştirdiğini söylemez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_ferhadpasa.js:76",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1548-08-24",
+   "t": "1920-04-23",
+   "sira": "1048",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV 'Hoşap Kalesi' (1548 yok; kale 'Osmanlı Devleti’ne bağlı Mahmûdî Beyliği zamanında' son şeklini aldı; kitâbe 1052/1642), TDV arama 'Hoşab'/'Mahmûdî' (madde yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1548-08-24 Hoşap için okunmadı. TAHRİR ÖLÇÜTÜ: kaynak susuyor. TDV Hoşap Kalesi: Mahmûdî Beyliği Osmanlı’ya bağlı — d: mi v: mi sorusu Emre'de (d/OSMANLI korunuyor)."
+  }
+ ],
+ "Iquique": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1298",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1556-01-01",
+   "t": "1824-12-09",
+   "sira": "1056",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Iquique (1556-2004)' — https://www.memoriachilena.gob.cl/602/w3-article-653.html",
+   "alinti": "En 1556 se inició la explotación del mineral de plata de Huantajaya",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-101): ONAY: isg sili fiilî alış (1879-11-23, kaynakla teyit; yoksa beyan) → s: sili 1883-10-20 Ancón imzası (Şili idare ediyordu). | f: yıl düzeyi; 1556 maden başlangıcı, Iquique limanının işlevi (kuruluş eylemi yok — zincir beyanı). Sahiplik İspanya Peru genel valiliği; t 1824-12-09 okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1298",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1879-11-02",
+   "t": "2000-12-31",
+   "sira": "1057",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Guerra del Pacífico, cronología' — https://www.memoriachilena.gob.cl/602/w3-printer-693.html",
+   "alinti": "1883 20 de octubre: Tratado de Ancón: Tratado de paz y amistad entre las repúblicas de Chile y Perú.",
+   "oneri": {
+    "f": "1883-10-20",
+    "not": "öncesi isg sili 1879-11-23 (kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-101): ONAY: isg sili fiilî alış (1879-11-23, kaynakla teyit; yoksa beyan) → s: sili 1883-10-20 Ancón imzası (Şili idare ediyordu). | TEK KURAL: savaş işgali (2 Kasım 1879 Pisagua çıkarması; Iquique'nin fiilî işgali 23 Kasım 1879 arama özeti, DOĞRULANMADI) isg sili 1879-11 → 1883-10-20; s: sili hukukî devirden = Ancón 1883-10-20 (imza). Aynı sayfa: 1879 2 de noviembre Pisagua çıkarması. Peru t aynı gün. ÖLÇÜT: geçici/askerî. Kaynak sayfa antlaşma özetinde Tarapacá'yı saymıyor, Iquique'ye özgü cümle yok; Şili 1879'dan beri fiilen yönetiyor → TEK ÖLÇÜ imza günü."
+  }
+ ],
+ "Kabasa": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:61",
+   "alan": "s",
+   "d": "ndongo",
+   "f": "1500-01-01",
+   "t": "1671-01-01",
+   "sira": "1063",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "U.S. Library of Congress, Angola: A Country Study, 'The Defeat of Kongo and Ndongo' — https://countrystudies.us/angola/7.htm",
+   "alinti": "In 1671 Ndongo intransigence prompted a Portuguese attack and siege on the capital",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1671, yıl; Lara 2016, Revista de História 175: Em dezembro de 1671 ... tomar a capital do Reino do Ndongo — https://revistas.usp.br/revhistoria/article/view/121827). ÜLKE DÜZEYİ: kaynak Pungo Andongo başkentini anlatır, Kabasa yerleşime özgü tanıklık yok. f 1500 (kur) kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:61",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1671-01-01",
+   "t": "1975-11-11",
+   "sira": "1064",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "U.S. Library of Congress, Angola: A Country Study, 'The Defeat of Kongo and Ndongo' — https://countrystudies.us/angola/7.htm",
+   "alinti": "now surrendered entirely to Portugal / Ndongo Kingdom, which had enjoyed only semi-independent status",
+   "oneri": {},
+   "not": "f: yıl düzeyi (1671); Lara 2016 Aralık 1671 verir (ay düzeyi, gün yok). ÜLKE DÜZEYİ: Kabasa'ya özgü teslim günü yok. [yalnız yıl teyitli; gün teyitsiz]."
+  }
+ ]
+}

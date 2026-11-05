@@ -1,0 +1,545 @@
+{
+ "Ganghwa": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "japon-kore",
+   "f": "1910-08-29",
+   "t": "1945-09-09",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «한일합병», Yun Byeong-seok, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0061925 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
+   "alinti": "8월 29일에야 순종으로 하여금 양국(讓國)의 조칙을 내리게 하였다. / 9월 9일 총독부 제1회의실에서 일본의 조선 총독 아베로부터 항복문서에 조인을 받았다.",
+   "oneri": {
+    "f": "1910-08-22"
+   },
+   "not": "KARAR EMRELİC (5 Kas): s: japonya 1910-08-22 (ilhak antlaşması imzası; TEK ÖLÇÜ — 1905'ten beri fiilî idare). 08-29 fermanı ve yürürlük ic_not'a. | ÜLKE DÜZEYİ (Ganghwa maddesi 1910/1945'i anmıyor). f ucu 1910-08-29 = ilhak ilanı/ferman günü; encykorea AYNI maddede antlaşma imzasını 1910-08-22 (Lee Wan-yong-Terauchi) olarak da veriyor. TEK ÖLÇÜ: Japonya Residency-General ile zaten fiilen yönetiyorsa imza günü 08-22 gerekir; karar EMRELİC'te, ikisi de kaynaklı. t ucu: 1945-09-09 Hodge'un Seul'de Japon genel valisinden teslim belgesini imzalatması (38. paralel güneyi; Ganghwa güneyde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "1281-01-01",
+   "t": "1392-08-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «조선», Oh Jong-rok, 2021/2024 — https://encykorea.aks.ac.kr/Article/E0051904",
+   "alinti": "1232년(고종 19) 고려는 도읍을 이곳으로 옮겨 강도(江都)라 칭하고 … 1270년(원종 11) 개경으로 환도하였다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | Ganghwa'nın 1232-1270 Goryeo başkenti (Gangdo) olduğu, 1281'de Goryeo'dan başka sahip yok (ÜLKE DÜZEYİ, yıl). t ucu: Joseon 'Eylül 1392 değil' — encykorea 'Taejo 1392 lunar 7. ay'da tahta çıktı' diyor (gün yok; Joseon Wangjo Sillok Taejo 1/7/17 = Gregoryen çevrimi EMRELİC'te yapılacak, ajan çevirmedi). Goryeo'nun Yuan boyunduruğu altında kalması sahiplik değiştirmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "joseon",
+   "f": "1392-08-05",
+   "t": "1910-08-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «조선», Oh Jong-rok, 2021/2024 — https://encykorea.aks.ac.kr/Article/E0051904 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503",
+   "alinti": "1392년 음력 7월 이성계가 새 왕조의 첫 군주로 즉위하였으나, 국호는 그대로 고려라 하였다. / 1413년(태종 13) 도호부로 승격되었고",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu: yalnız AY (1392 lunar 7. ay), gün yok; 1392-08-05 gün için Sillok (Taejo 1/7/17) tablo çevirisi EMRELİC'te. Ganghwa Joseon'da 1413 도호부, 1896 부, 1906 군. t ucu: 1910 ilhak (bkz. japon-kore satırı; encykorea 조선 maddesi 1.1'de 'Temmuz 1910' yazıyor ama bu madde başka yerde 22/29 Ağustos veriyor — iç çelişki beyan edilir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "goguryeo",
+   "f": "0500-01-01",
+   "t": "0551-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «나제동맹», Roh Jung-guk — http://encykorea.aks.ac.kr/Contents/Item/E0011456",
+   "alinti": "고구려는 이곳에 혈구군을 설치했으나 757년(경덕왕 16) 신라가 이곳을 점령해 해구군이라 개칭했고",
+   "oneri": {},
+   "not": "[alıntı özetten] | Goguryeo'nun Hyeolgu-gun'u burada kurduğu kaynaklı. f=500 ufuk işareti (pencere başı). t=551: 551 üçlü ittifakla Goguryeo'ya saldırı, Baekje aşağı Han 6 gun'u geri aldı (yıl düzeyi, BÖLGE DÜZEYİ; Ganghwa adıyla anılmıyor, ABİ MERKEZ aşağı Han)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "baekje",
+   "f": "0551-01-01",
+   "t": "0553-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «나제동맹», Roh Jung-guk — http://encykorea.aks.ac.kr/Contents/Item/E0011456",
+   "alinti": "나제동맹의 결과로 백제는 한강 하류의 6군(郡)을 회복하였고, 신라는 한강 상류의 10군을 차지하였다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | BÖLGE DÜZEYİ (aşağı Han havzası; Ganghwa/Hyeolgu adıyla anılmıyor) — yıl düzeyinde 551-553 Baekje. Ganghwa maddesi Baekje'yi hiç anmıyor; ABİ MERKEZ mantığı atlasın mevcut beyanıyla uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "silla",
+   "f": "0553-01-01",
+   "t": "0901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «나제동맹», Roh Jung-guk — http://encykorea.aks.ac.kr/Contents/Item/E0011456 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «태봉», Jeong Seon-yong, 2021 — https://encykorea.aks.ac.kr/Article/E0058942",
+   "alinti": "신라가 553년(진흥왕 14) … 한강 하류지역을 점령하고 거기에 신주(新州)를 설치함 / 757년(경덕왕 16) 해구군 / 898 궁예: 한산주 관내 30여성",
+   "oneri": {
+    "t": "898-01-01"
+   },
+   "not": "f=553 yıl düzeyinde KAYNAKLI (BÖLGE). t ucu ÇELİŞKİ: encykorea 태봉/궁예 maddesi Gungye'nin 898'de Songak'a taşınıp Paeseo ve Hanju'nun 30'dan fazla kalesini tuttuğunu söylüyor; Ganghwa adı anılmıyor. Hyeolgu-jin Silla garnizonu 844/790 (Ganghwa maddesi 790, 혈구진 maddesi 844 diyor — iki encykorea maddesi çelişiyor). Silla'dan Taebong'a geçiş Ganghwa için yerleşime özgü kaynakta yok; öneri yalnız dikkat: t 901 yerine 898 olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "taebong",
+   "f": "0901-01-01",
+   "t": "0918-07-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «태봉», Jeong Seon-yong, 2021 — https://encykorea.aks.ac.kr/Article/E0058942",
+   "alinti": "901년에 … 왕을 자칭하고 후고구려를 세웠다. … 태봉도 결국 멸망하였다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE/BÖLGE DÜZEYİ. 901 kuruluş yılı, 918 Haziran (lunar) çöküş; Ganghwa adıyla anılmıyor (Wang Geon ailesi Ganghwa-Yesong ağzı denizci çevresi: 후삼국통일 maddesi). 918-07-25 gün çevirisi EMRELİC."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "0918-07-25",
+   "t": "1000-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «태조» (Wang Geon) / «고려» — https://encykorea.aks.ac.kr/Article/E0059032 , https://encykorea.aks.ac.kr/Article/E0003424 (yalnız arama özeti; sayfa açılmadı) ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503",
+   "alinti": "940년(태조 23) 강화로 개칭하고 현을 두었는데, 이 때 비로소 강화라는 이름이 등장하게 되었다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | Goryeo 918 Haziran (lunar; ÜLKE DÜZEYİ, Taejo Cheorwon'da tahta çıktı); Ganghwa-hyeon 940. Yerleşime özgü gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «강화군», Jeon Jong-han, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0001503",
+   "alinti": "몽고의 제2차 침입 직전인 1232년(고종 19) 고려는 도읍을 이곳으로 옮겨 강도(江都)라 칭하고 … 1270년(원종 11) 개경으로 환도하였다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | Bu aralıkta Goryeo sahipliği çelişmiyor; 1000 sınırı kaynakta yok (sahip aynı, iki satır aynı devlet)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3511",
+   "alan": "s",
+   "d": "abd-ordu-askeri-hukumeti-kore",
+   "f": "1945-09-09",
+   "t": "1948-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
+   "alinti": "1945년 9월부터 1948년 8월 15일까지 존속한 남한 통치를 위한 미국의 군정청.",
+   "oneri": {},
+   "not": "[alıntı özetten] | f: 9 Eylül teslim imzası; encykorea askerî hükûmetin kuruluşunu 12 Eylül 1945 verir (Hodge 9 Eylül Seul'e girdi). TEK ÖLÇÜ'ye göre fiilî yönetim 09-09 ya da 09-12 — ikisi de kaynaklı. t: 1948-08-15 Kore Cumhuriyeti hükûmeti kuruldu, 'askerî yönetim sona erdi'. (Arama özeti 1948-09-13 ayrıca idari yetki devri dedi, sayfada okunmadı.)"
+  }
+ ],
+ "Çungcu (Chungju)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "japon-kore",
+   "f": "1910-08-29",
+   "t": "1945-09-09",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «한일합병», Yun Byeong-seok, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0061925 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
+   "alinti": "8월 29일에야 순종으로 하여금 양국(讓國)의 조칙을 내리게 하였다.",
+   "oneri": {
+    "f": "1910-08-22"
+   },
+   "not": "KARAR EMRELİC (5 Kas): s: japonya 1910-08-22 (ilhak antlaşması imzası; TEK ÖLÇÜ — 1905'ten beri fiilî idare). 08-29 fermanı ve yürürlük ic_not'a. | ÜLKE DÜZEYİ. Chungju maddesi 1910/1945'i anmıyor. İmza 1910-08-22 / ferman 1910-08-29 (TEK ÖLÇÜ kararı EMRELİC); t: 1945-09-09 teslim imzası."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "1281-01-01",
+   "t": "1392-08-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «충주시», Han Jeong-su·Choi Yeong-jun, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0058216 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «조선», Oh Jong-rok, 2021/2024 — https://encykorea.aks.ac.kr/Article/E0051904",
+   "alinti": "940년(태조 23) 충주경을 충주로 개칭하고, … 고려 중기에 … 양광도(楊廣道)에 속했고,",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE DÜZEYİ (Chungju Goryeo'da, 940 Chungju, Yanggwang-do). t: 1392 lunar 7. ay (gün yok; çeviri EMRELİC)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "joseon",
+   "f": "1392-08-05",
+   "t": "1910-08-29",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «충주시», Han Jeong-su·Choi Yeong-jun, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0058216 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «조선», Oh Jong-rok, 2021/2024 — https://encykorea.aks.ac.kr/Article/E0051904",
+   "alinti": "1395년(태조 4) … 충청도의 계수관(界首官)이 되었다. 1895년 … 관찰부 … 충청북도의 중심지가 되었다.",
+   "oneri": {},
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı dönem içindeki başka bir olayı (idarî birim/tahrir) tarihliyor, f'yi değil — KAYNAKLI'dan indirildi. | [alıntı özetten] | f yalnız ay (1392 lunar 7. ay). t: 1910 ilhak (iki gün; bkz. Ganghwa notu).",
+   "uc": "-"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "goguryeo",
+   "f": "0500-01-01",
+   "t": "0551-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «중원», Park Gyeong-hwan — https://encykorea.aks.ac.kr/Article/E0053881 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «충주시», Han Jeong-su·Choi Yeong-jun, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0058216",
+   "alinti": "475년 고구려에 편입되어 국원성(國原城)으로 개칭되었다.",
+   "oneri": {},
+   "not": "[alıntı özetten] | Goguryeo 475'ten (Jungwon maddesi) / 5. yy (Chungju maddesi). f=500 ufuk işareti. t=551: Silla yukarı Han 10 gun'u aldı (나제동맹) — yıl düzeyi, BÖLGE."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "silla",
+   "f": "0551-01-01",
+   "t": "0901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «중원», Park Gyeong-hwan — https://encykorea.aks.ac.kr/Article/E0053881 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «나제동맹», Roh Jung-guk — http://encykorea.aks.ac.kr/Contents/Item/E0011456 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «청길», Yun Byeong-hui — https://encykorea.aks.ac.kr/Article/E0056295",
+   "alinti": "신라는 한강 상류의 10군을 차지하였다. / 557년(진흥왕 18)에 국원소경(國原小京)으로 삼고 / 900년(효공왕 4) 10월 … 왕건의 침공을 받아 … 국원 … 궁예에게 투항",
+   "oneri": {
+    "t": "0900-10-26"
+   },
+   "not": "KARAR EMRELİC (5 Kas): 900, 10. ay (Tang Guanghua 3) = 900-10-26 … 11-24 (Academia Sinica, Jülyen); gün yok → 900-10-26 [yalnız ay]. Taebong künye f 901 aşılıyor — LAB SALI HAYALET-KARAR'da (2bb836bb2). | KARAR EMRELİC (5 Kas): Taebong künye aşımı (künye f 901, Chungju 900) LAB SALI'ya iletildi. | f=551: BÖLGE DÜZEYİ (yukarı Han 10 gun; Chungju adı anılmıyor; 551 Ureuk Daemunsan'a yerleşti = Silla elinde, Chungju maddesi). Gukwon-sogyeong 557 kesin. t ÇELİŞKİ: Cheonggil 900-10'da Gukwon'u (Chungju) Gungye'ye teslim etti → Silla/yerel güç sonu 900, atlas 901. Gün yok (lunar Ekim 900)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "taebong",
+   "f": "0901-01-01",
+   "t": "0918-07-25",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «청길» — https://encykorea.aks.ac.kr/Article/E0056295 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «태봉», Jeong Seon-yong, 2021 — https://encykorea.aks.ac.kr/Article/E0058942",
+   "alinti": "900년(효공왕 4) 10월 궁예(弓裔)의 부하장수 왕건(王建)의 침공을 받아 … 국원(國原 : 지금의 충청북도 충주) … 항복",
+   "oneri": {
+    "f": "0900-10-26"
+   },
+   "not": "KARAR EMRELİC (5 Kas): 900, 10. ay (Tang Guanghua 3) = 900-10-26 … 11-24 (Academia Sinica, Jülyen); gün yok → 900-10-26 [yalnız ay]. Taebong künye f 901 aşılıyor — LAB SALI HAYALET-KARAR'da (2bb836bb2). | KARAR EMRELİC (5 Kas): Taebong künye aşımı (künye f 901, Chungju 900) LAB SALI'ya iletildi. | f: Chungju Taebong/Gungye'ye 900'de (Ekim lunar) geçti; 'Taebong' adı 911'de, 901'de Hu-Goguryeo (aynı devlet, atlas künyesi 901). Öneri yıl düzeyi: f=900; künye f=901 → KÜNYE AŞIMI riski, EMRELİC kararı. Yerel kuvvet sahipliği (Cheonggil) 'Silla'dan' mı 'bağımsız' mı: kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "goryeo",
+   "f": "0918-07-25",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «태조» (Wang Geon) / «고려» — https://encykorea.aks.ac.kr/Article/E0059032 , https://encykorea.aks.ac.kr/Article/E0003424 (yalnız arama özeti; sayfa açılmadı) ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «충주시», Han Jeong-su·Choi Yeong-jun, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0058216",
+   "alinti": "940년(태조 23) 충주경을 충주로 개칭하고, 983년(성종 2) … 충주목으로",
+   "oneri": {},
+   "not": "[alıntı özetten] | Goryeo 918 Haziran lunar (ÜLKE DÜZEYİ). Chungju: Wang Geon'un 3. kraliçesi Chungju'lu (Yu Geung-dal kızı) — erken Goryeo bağı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3536",
+   "alan": "s",
+   "d": "abd-ordu-askeri-hukumeti-kore",
+   "f": "1945-09-09",
+   "t": "1948-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
+   "alinti": "1945년 9월부터 1948년 8월 15일까지 존속한 남한 통치를 위한 미국의 군정청.",
+   "oneri": {},
+   "not": "[alıntı özetten] | Bkz. Ganghwa notu (09-09 teslim / 09-12 kuruluş; 1948-08-15 bitiş)."
+  }
+ ],
+ "Lüşun (Port Arthur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2782",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi (Zhang Tingyu vd.) j.41 Dili 2, Liaodong duzhihuishisi / Jinzhou-wei (zh.wikisource.org/wiki/明史/卷41, okundu)",
+   "alinti": "遼東都指揮使司元置遼陽等處行中書省，治遼陽路。洪武四年七月置定遼都衛。 / 金州衛本金州，洪武五年六月置於舊金州。",
+   "oneri": {
+    "t": "1372-01-01"
+   },
+   "not": "Yuan Liaoyang eyaleti = bölge düzeyi (f ucu ÜLKE DÜZEYİ). t ucu ÇELİŞKİ: Ming shi Liaodong'da Ming idaresini 'Hongwu 4, 7. ay' (1371) ve Jinzhou'yu (Lüshun'un bağlı olduğu) 'Hongwu 5, 6. ay' (1372) kuruyor; 1368-09-14 ülke düzeyinde Dadu'nun düşüşüdür, Liaodong'a ait değil. Gün/ay çevirisi EMRELİC'te (Academia Sinica); hanedan yılı/ay aynen: Hongwu 4/7 ve Hongwu 5/6. Mingshi günleri KAYIT günüdür."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2782",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-09-14",
+   "t": "1621-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi (Zhang Tingyu vd.) j.41 Dili 2, Liaodong duzhihuishisi / Jinzhou-wei (zh.wikisource.org/wiki/明史/卷41, okundu) ; Qing shi gao (Zhao Erxun vd.) j.2 Taizong ben ji 1 (zh.wikisource.org/wiki/清史稿/卷2, okundu)",
+   "alinti": "旅順口關在南 … 其北城有中左千戶所，洪武二十年置。 / 甲辰，貝勒岳託等奏克旅順口。",
+   "oneri": {
+    "t": "1633-08-18"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Tiancong 7, 7. ay 甲辰 = 1633-08-18 Gregoryen (Academia Sinica; ayın 1'i 1633-08-05 辛卯, 甲辰 = 14'ü). ic_not: '奏克旅順口 rapor günü; alınış günü teyitsiz' — rapordan önceki gün uydurulmaz. | KARAR EMRELİC (5 Kas): 1633 önerisi doğru yönde; Qing shi gao ifadesi (天聰七年七月甲辰 貝勒岳託等奏克旅順口) EMRELİC'e çeviriye gönderildi. | f ucu: Ming shi Lüshun'u Jinzhou-wei içinde 'Hongwu 20' (1387) Zhongzuo qianhusuo ile belgeliyor (Jinzhou 'Hongwu 5, 6. ay'). 1368-09-14 ülke düzeyi. t ucu ÇELİŞKİ: Qing shi gao Lüshun'un Tiancong 7 (=1633; sayfa başlığı okunan bölümde görünmedi, arama özeti 'Tiancong 7' dedi) yılında Ming'den alındığını yazıyor: '7. ay, jiachen günü Beile Yuetuo Lüshun'un alındığını bildirdi' (Taizong 本紀; 6. ay jimao günü sefer çıkışı). Çeviri Academia Sinica ile EMRELİC'te. Ming 1621'den sonra da Lüshun'u (Huang Long) tuttu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2782",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1621-01-01",
+   "t": "1898-03-27",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.2 Taizong ben ji 1 (zh.wikisource.org/wiki/清史稿/卷2, okundu) ; FRUS 1898 d112 (Convention of Peking, history.state.gov/historicaldocuments/frus1898/d112)",
+   "alinti": "甲辰，貝勒岳託等奏克旅順口。 / The convention … was signed in Peking on the 27th of March.",
+   "oneri": {
+    "f": "1633-08-18"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Tiancong 7, 7. ay 甲辰 = 1633-08-18 Gregoryen (Academia Sinica; ayın 1'i 1633-08-05 辛卯, 甲辰 = 14'ü). ic_not: '奏克旅順口 rapor günü; alınış günü teyitsiz' — rapordan önceki gün uydurulmaz. | KARAR EMRELİC (5 Kas): 1633 önerisi doğru yönde; Qing shi gao ifadesi (天聰七年七月甲辰 貝勒岳託等奏克旅順口) EMRELİC'e çeviriye gönderildi. | f ucu: Qing shi gao'ya göre Lüshun 1633'te alındı (Tiancong 7, 7. ay, jiachen); atlas 1621 hatalı. t ucu: 1898-03-27 Pekin sözleşmesi imzası (Guangxu 24, 3. ay 3. gün); Rusya 'kiracı', Qing egemenliği sürdü (journals.igps.ru özeti, okunmadı) — ÖLÇÜT: kiralama ≠ devir; s:rusya mı v:rusya mı kararı EMRELİC'te. Lüshun'un 1894-11 Japon işgali (arama özeti) hiç okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2782",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1898-03-27",
+   "t": "1905-09-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1898 d112 (Peking Convention, Art. I, III) ; FRUS 1905 d915 (Portsmouth Treaty, Art. V) — history.state.gov",
+   "alinti": "The Emperor of China agrees hereby to lease Port Arthur and Talien. / August 23 (September 5), 1905",
+   "oneri": {},
+   "not": "[alıntı özetten] | KARAR EMRELİC (5 Kas): s: rusya 1898-03-27 kalır (kiralanıp idaresi devredilen yer emsali, yerlesimler_asya.js:2050); ic_not: 'kira; Qing egemenliği hukuken sürdü'. Portsmouth 1905-09-05'ten s: meiji-japonya doğru. | f: 27 Mart 1898 imza (kira süresi 25 yıl imza gününden). t: Portsmouth 1905-09-05 (Jülyen 23 Ağustos 1905), Madde V Rusya'nın kiralama haklarını Japonya'ya Çin rızasıyla devreder; Japonya Port Arthur'u 1905-01 başında zaten teslim almıştı (arama özeti, okunmadı) → TEK ÖLÇÜ imza günü. Rusya kiracıdır, egemen değil (bkz. qing satırı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2782",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-09-02",
+   "t": "1949-10-01",
+   "hukum": "ONERI",
+   "kaynak": "FRUS 1946 v10 d899 (Benninghoff, Dairen 10 Mayıs 1946) — history.state.gov/historicaldocuments/frus1946v10/d899",
+   "alinti": "the actual administration of the 'Port Arthur Naval Base Area' [Chinese Government]",
+   "oneri": {
+    "not": "s: cin-cumhuriyeti 1945-09-02 → 1949-10-01, sonra cin-halk-cumhuriyeti; + isg sovyet 1945-08-22 (Kızıl Ordu girişi) → 1955-05-31 (tahliye); fiilî ÇC idaresi kurulmadı → ic_not"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Çin-Sovyet antlaşması 1945-08-14 sivil idareyi Çin'e bıraktı, deniz üssü ortak; Sovyet askerî varlığı TAHRİR ölçütüyle isg. Günler (08-22, 05-31) ikinci kaynakla teyit edilecek. | BELİRSİZ: 1945 Çin-Sovyet anlaşması fiilî idareyi Çin'e bırakıyor, ancak Sovyet komutanın güvenlik/savunma önerilerine uyma şartıyla; Sovyet askerî varlığı 1955'e kadar sürdü; FRUS 1947 v7 d591 arama özeti SSCB'nin Çin'in sivil yönetimi devralmasına izin vermediğini söylüyor (sayfa okunmadı). ÖLÇÜT: geçici/askerî (ortak üs) → 'isg sovyet' ya da 's: cin-cumhuriyeti' arasında seçmiyorum. 1945-09-02 Japon teslimi bu kaynaklarda okunmadı."
+  }
+ ],
+ "Altay (Şara Sume)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek20.js:106",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1755-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.76 Dili 23 Xinjiang (zh.wikisource.org/wiki/清史稿/卷76, okundu) ; j.22 Muzong benji (zh.wikisource.org/wiki/清史稿/卷22)",
+   "alinti": "乾隆二十年，平準噶爾，始內屬，改名烏魯木齊，築土城。 / 諭福濟等額魯特各安舊居，僧眾居阿爾泰山南，俗眾居青格里河。",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE/BÖLGE DÜZEYİ: Qianlong 20 (=1755) Dzungar'ın yenilgisi ve Qing'e katılış; Altay dağları (Altay-shan güneyi/Qinggil nehri) Qing yönetimindeki Elüt gruplarının otağı (Tongzhi, 1869 civarı; yıl başlığı okunmadı). Şara Sume'ye özgü kanıt yok. t ucu: 1912 hanedan fermanı (zincirdeki kaynağa dayanır; yeniden okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek20.js:106",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1634-01-01",
+   "t": "1755-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao j.76 (okundu); Wikipedia Dzungar Khanate arama özeti (dayanak değil: 1634-1755/1758)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Dzungar Hanlığı'nın t ucu (Qianlong 20 = 1755) Qing shi gao'da ülke düzeyinde teyit (bkz. qing satırı). f=1634 (Erdeni Batur'un hanlığı kurması) kabul edilen kaynakta okunmadı; Altay'ın Dzungar'a ait olduğunu yerleşime özgü gösteren kaynak bulunamadı. Baktığım yerler: Qing shi gao j.76/j.78/j.22, genel web aramaları (yalnız Vikipedi yansıları)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek20.js:106",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1347-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Genel web araması (Chagatai Khanate / Kaidu; yalnız Vikipedi yansıları); akademik kaynak okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Altay'ın 1281-1347 Çağatay mı (Kaidu'nun Orta Asya ulusu mu) Yuan mı olduğu kabul edilen kaynakta bulunamadı. Arama özeti: Çağatay'ın zirvede Altay dağlarına dek uzandığı ve Kaidu'nun tımarı Altay'ın kuzeyinde (İrtiş'e dek) olduğu — Vikipedi yansıları, dayanak değil. Cambridge History of Inner Asia / Biran'ın Kaidu çalışması açılmadı."
+  }
+ ],
+ "Matsu (Nangan)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2644",
+   "alan": "s",
+   "d": "tungning",
+   "f": "1650-01-01",
+   "t": "1680-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Genel web araması (Zheng Jing 1680 Xiamen/Kinmen çekilişi; Vikipedi yansıları, dayanak değil); Qing shi gao aranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Matsu'nun Tungning (Zheng) elinde olduğu 1650-1680 yerleşime özgü kabul edilen kaynakta bulunamadı. Arama özeti Zheng Jing'in 1680'de Xiamen/Kinmen/Dongshan'ı bıraktığını söylüyor; Matsu adı anılmıyor. Zincirdeki mevcut not yıl düzeyi (1680, gün teyitsiz) zaten bunu söylüyor. Tungning'in 1661 öncesi (1650-1661) hâlâ Güney Ming/Zheng Chenggong: künye f=1661 olmalı (KÜNYE AŞIMI riski: dönem f=1650, Tungning künyesi 1661 civarı — künye f değeri okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2644",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi (Zhang Tingyu vd.) j.2 Taizu ben ji 2 (zh.wikisource.org/wiki/明史/卷2, okundu)",
+   "alinti": "湯和克延平，執元平章陳友定，福建平。",
+   "oneri": {
+    "t": "1368-01-01"
+   },
+   "not": "BÖLGE DÜZEYİ (Fujian): Ming shi Fujian'ın Yuan'dan 'Hongwu 1, 1. ay' (hanedanın ilk ayı; sıralamaya göre) Tang He'nin Yanping'i alıp Yuan valisi Chen Youding'i yakalamasıyla 'pacify' olduğunu yazıyor. Atlas t=1368-04-01 (Gregoryen) ile ÇELİŞKİ: lunar 1. ay ≈ Şubat-Mart 1368. Çeviri Academia Sinica ile EMRELİC'te; Mingshi günleri KAYIT günüdür. Matsu adı anılmıyor; Yuan'a ait ada olduğu aranmadı."
+  }
+ ],
+ "Ürümçi (Dihua)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2949",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1876-08-18",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.23 Dezong ben ji 1 (zh.wikisource.org/wiki/清史稿/卷23, okundu)",
+   "alinti": "八月辛卯，劉錦棠、金順擊敗回酋白彥虎，復烏魯木齊、迪化城，尋復昌吉、呼圖壁、景化各城。",
+   "oneri": {
+    "f": "Guangxu 2 / 8. ay xinmao (kayıt günü; çevrilecek)"
+   },
+   "not": "f ucu: Qing shi gao 'Guangxu 2 (yıl başlığı okunan pencerede görünmedi; arama özeti Guangxu 2 dedi), 8. ay xinmao günü' Urumqi ve Dihua'nın geri alındığını KAYIT günü olarak yazıyor. Atlas 1876-08-18 ile uyuşmuyor görünüyor (lunar 8. ay ≈ Eylül-Ekim 1876; kayıt günü = ihbar/ferman günü, fiilî alış günü değil). Çeviri EMRELİC (Academia Sinica); gün seçmiyorum. t ucu: 1912 fermanı (zincir kaynağı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2949",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1763-01-01",
+   "t": "1864-06-04",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.76 Dili 23 Xinjiang (zh.wikisource.org/wiki/清史稿/卷76, okundu)",
+   "alinti": "乾隆二十年，平準噶爾，始內屬，改名烏魯木齊，築土城。二十八年，築新城於其北，名迪化。",
+   "oneri": {
+    "f": "1755-01-01"
+   },
+   "not": "f ucu: Qianlong 20 (=1755) Qing'e katılış, Urumqi toprak kale; Dihua yeni kalesi Qianlong 28 (=1763) — atlas 1763 sahipliğin değil kale kuruluşunun yılı olabilir; Qing sahipliği 1755'ten (Dzungar'ın düşüşü). Atlas Dzungar'ı 1755'te bitiriyor; ara 1755-1763 boş mu: ölçülmeli. t=1864-06-04 (Urumqi Müslüman ayaklanması) aranmadı; Qing shi gao 22. cildinde 'Urumqi isyancıları Hami'ye kaçtı' (yıl başlığı okunmadı) ve 1864 olayı bulunamadı."
+  }
+ ],
+ "Şanhayguan": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3027",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1644-05-27",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.4 Shizu ben ji 1 (zh.wikisource.org/wiki/清史稿/卷4, okundu)",
+   "alinti": "己卯，師至山海關，三桂開關出迎，大軍入關。",
+   "oneri": {},
+   "not": "[alıntı özetten] | f: Shunzhi 1 (=1644), 4. ay jimao günü (4. ay wuwu朔 → jimao = 22. gün) Wu Sangui geçidi açıp Qing'i karşıladı — KAYIT günü; Gregoryen çevrim (atlas 1644-05-27) Academia Sinica ile EMRELİC'te. Not: Wu Sangui'nin geçidi açışı fetih değil; Qing tahriri/idareye katma belgesi yok (TAHRİR ÖLÇÜTÜ: kaynak susuyor); yönetimsel devralma Eylül 1644 (Qing İmparatoru Shanhaiguan'a 9. ay jiawu günü girdi). t: 1912 fermanı (zincir kaynağı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3027",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1381-01-01",
+   "t": "1644-05-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ming shi (Zhang Tingyu vd.) j.40 Dili 1 (zh.wikisource.org/wiki/明史/卷40, okundu) ; Qing shi gao (Zhao Erxun vd.) j.4",
+   "alinti": "東有山海關。洪武十四年九月置山海衛於此。",
+   "oneri": {},
+   "not": "[alıntı özetten] | f: Hongwu 14, 9. ay (=1381, yıl hassasiyetiyle uyumlu; atlasın 1381-01-01'i yıl düzeyidir, ay lunar 9. ay ≈ Ekim 1381). t: bkz. qing satırı — Ming komutanı Wu Sangui Qing'e açtı (kayıt günü 4. ay jimao)."
+  }
+ ],
+ "Ningguta": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2756",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1653-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao (Zhao Erxun vd.) j.56 Zhi 31 Dili 3 Jilin (zh.wikisource.org/wiki/清史稿/卷56, okundu)",
+   "alinti": "順治十年，置昂邦章京及副都統二人鎮守寧古塔。康熙元年，改寧古塔將軍。",
+   "oneri": {},
+   "not": "[alıntı özetten] | f: Shunzhi 10 (=1653) Ningguta'ya ambanzhanggin ve iki yardımcı vali atandı (idarî birim = TAHRİR ÖLÇÜTÜ: idareye katma). Yıl düzeyi. Ningguta'nın daha öncesi (Qing 1653 öncesi sahibi) bu hedefte değil. t: 1912 fermanı (zincir kaynağı)."
+  }
+ ],
+ "Şaoguan": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3058",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi (Zhang Tingyu vd.) j.2 Taizu ben ji 2 (zh.wikisource.org/wiki/明史/卷2, okundu)",
+   "alinti": "廖永忠師至廣州，元守臣何真降，廣東平。",
+   "oneri": {
+    "t": "1368-05-01"
+   },
+   "not": "BÖLGE DÜZEYİ (Guangdong): Ming shi 'Hongwu 1, 4. ay' (夏四月) Liao Yongzhong Guangzhou'ya vardı, Yuan valisi He Zhen teslim oldu, 'Guangdong pacified'. Atlas t=1368-04-01 (Gregoryen) ile çelişir: lunar 4. ay ≈ Mayıs 1368. Şaoguan adı anılmıyor (Guangzhou'nun kuzeyi; sonraki satır '1368-06 hai'bei daolar teslim' bölge). Çeviri Academia Sinica ile EMRELİC'te."
+  }
+ ],
+ "Baotou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3073",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1809-01-01",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao j.60 Dili 7 Shanxi (zh.wikisource.org/wiki/清史稿/卷60, okundu); Jiaqing chongxiu yitongzhi j.135-136 (okundu, 包頭 yok); arama özeti: yitongzhi askerî bölüm 'Jiaqing 14 Baotou köyü mevzisine memur eklendi' (sayfa okunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baotou'nun Jiaqing 14 (=1809) tarihli Qing idarî kuruluşu (kasaba/hâkimlik) kaynakta bulunamadı: Qing shi gao j.60 yalnız 'Baotou-zhen'de devriye hâkimliği (xunsi) bulunduğunu söyler (Salaqi ting, Tongzhi 4 ve Guangxu 10 değişiklikleri). Qing hanedanı ÜLKE DÜZEYİ egemenliği Moğol ve Salaqi üzerinden belli ama 1809 yerleşime özgü sınır işareti doğrulanamadı. t: 1912 fermanı (zincir)."
+  }
+ ],
+ "Ålesund": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:62",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Norge under dansk styre – 1537–1814», Tor Ragnar Weidling · Magne Njåstad — https://snl.no/Norge_under_dansk_styre_-_1537-1814 ; Store norske leksikon, «Ålesund» — https://snl.no/Ålesund",
+   "alinti": "Norge skal heretter ikke være eller hete et kongerike for seg / Borgundkaupangen på ei halvøy … på Uksenøya.",
+   "oneri": {},
+   "not": "[alıntı özetten] | ÜLKE DÜZEYİ (Norgesparagrafen 1536, Danimarka'ya bağlı lydrike 1537; yerleşime özgü değil) + ABİ MERKEZ: Ålesund kasabası 1793/1848 (SNL), orta çağda Sunnmøre'nin önemli yeri Borgund-kaupang (Uksenøya); Norveç krallığı 1281'de ufuk işareti, Magnus Lagabøte devri kaynakta aranmadı. Yerleşim adı (Ålesund) 1281-1537'de yok: Borgund'a bağlama BEYANLI YAKLAŞIKLIK olmalı. t=1537: Christian III Ağustos 1537'de Kopenhag'da taç giydi (arama özeti)."
+  }
+ ],
+ "Røros": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:68",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Røros» — https://snl.no/Røros ; lokalhistoriewiki.no/wiki/Røros (yalnız arama özeti, sayfa açılamadı: ECONNREFUSED) ; Store norske leksikon, «Norge under dansk styre – 1537–1814», Tor Ragnar Weidling · Magne Njåstad — https://snl.no/Norge_under_dansk_styre_-_1537-1814",
+   "alinti": "den første prøvedriften begynte i Rauhammaren i 1644 / 1530 Olav Engelbrektsons jordebok: bare én gård på Røros (özet)",
+   "oneri": {
+    "f": "1644-01-01",
+    "not": "dönem kırpma önerisi"
+   },
+   "not": "KARAR EMRELİC (5 Kas): dönem kırpması KASA kuyruğuna. | YERLEŞİM O DEVİRDE YOK: Røros madenci yerleşimi 1644'te (Rauhåmmåren) başladı, ilk eritme 1646. 1530 Olav Engelbrektson jordebok'unda tek çiftlik (Rørosgård) — arama özeti, okunmadı. Öneri: 1281-1537 dönemi kırp (yerleşim yok), toprak komşu peteklere kalır (CLAUDE.md merdiven ④). t=1537 ülke düzeyi: SNL Norgesparagrafen 1536. Karar EMRELİC."
+  }
+ ],
+ "Hamar": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:74",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Hamar» — https://snl.no/Hamar ; Store norske leksikon, «Norge under dansk styre – 1537–1814», Tor Ragnar Weidling · Magne Njåstad — https://snl.no/Norge_under_dansk_styre_-_1537-1814",
+   "alinti": "Hamar … var bispesete fra 1153 til reformasjonen. / Hamar bispedømme opprettes [1152]",
+   "oneri": {},
+   "not": "[alıntı özetten] | Hamar piskoposluk merkezi 1152/1153 (SNL iç çelişki 1 yıl), orta çağ kaupang'ı 1000'ler ortası; Norveç krallığı içinde. Reformasyon sonrası piskoposluk sonu; 1537 sınırı ülke düzeyi (Norgesparagrafen 1536; Danimarka lydrike). Hamar kaupang'ı 1567 yangını/1587 kapanma → 1848 kjøpstad (SNL): ara dönem boşluğu bu dönemin dışında."
+  }
+ ],
+ "Mosjøen": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:75",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Mosjøen» — https://snl.no/Mosjøen ; Store norske leksikon, «Norge under dansk styre – 1537–1814», Tor Ragnar Weidling · Magne Njåstad — https://snl.no/Norge_under_dansk_styre_-_1537-1814",
+   "alinti": "Mosjøen vokste fram som en mengde husmannsplasser … nevnes første gang som bosetning i 1660-årene.",
+   "oneri": {
+    "f": "1660-01-01",
+    "not": "dönem kırpma önerisi"
+   },
+   "not": "KARAR EMRELİC (5 Kas): dönem kırpması KASA kuyruğuna. | YERLEŞİM O DEVİRDE ANILMIYOR: SNL Mosjøen'in ilk bosetma olarak 1660'larda anıldığını söylüyor (Mo gård Vefsn'de daha eski olabilir; aranmadı). Sámi pazarı Halsøya 'reformasyondan önce' ama ilk anılış 1690. Öneri: 1281-1537 kırp ya da Mo gård/Vefsn ABİ MERKEZ beyanı; kaynak susuyor."
+  }
+ ],
+ "Alta": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:88",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Store norske leksikon, «Alta» (snl.no/Alta) okundu; lokalhistoriewiki.no/wiki/Alta ECONNREFUSED; Store norske leksikon, «Norge under dansk styre – 1537–1814», Tor Ragnar Weidling · Magne Njåstad — https://snl.no/Norge_under_dansk_styre_-_1537-1814",
+   "alinti": "",
+   "oneri": {},
+   "not": "SNL Alta maddesi orta çağ/Vardøhus/1537 öncesi Finnmark idaresini anmıyor (yalnız Komsa kültürü, Hjemmeluft kaya resimleri, 1700'lerde kven göçü). Alta'nın 1281-1537 Norveç krallığı sahipliğini yerleşime özgü teyit eden kaynak bulunamadı; ülke düzeyi için SNL Norgesparagrafen 1536 geçerli. Vardøhus/Finnmark orta çağ kaynağı aranmadı."
+  }
+ ]
+}

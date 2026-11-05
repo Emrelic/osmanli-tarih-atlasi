@@ -1,0 +1,579 @@
+{
+ "Kudat": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:261",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1881-01-01",
+   "t": "1881-11-01",
+   "sira": "1744",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "1881’de kurulan Kuzey Borneo Şirketi’ne geçmesiyle İngiliz hâkimiyeti altına girdi",
+   "oneri": {
+    "sil": true,
+    "not": "kuruluş 1881-12 öncesi kırp; sonra s: kuzey-borneo"
+   },
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | Alıntı yalnız şirketin 1881'de devralışını yıl düzeyinde veriyor (t ucu); gün teyitsiz. Şirket dönemi BEYANLI s: (karar). Kuruluş günü için akademik kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:261",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1946-07-15",
+   "t": "1963-09-16",
+   "sira": "1745",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
+   "oneri": {
+    "sil": true,
+    "not": "kuruluş 1881-12 öncesi kırp; sonra s: kuzey-borneo"
+   },
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | Alıntı yalnız t ucunu (1963-09-16) tarihliyor; f 1946-07-15 (North Borneo Cession, Taç Kolonisi) için WebSearch özeti 1946 Cession Order'ı vermedi, TDV Malezya Borneo 1946'yı anmıyor -> f teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:261",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1963-09-16",
+   "t": "2000-12-31",
+   "sira": "1746",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/malezya",
+   "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-132): Kuruluştan (1881-12, kaynakla) önceki dilim kırpılır; sahip Kuzey Borneo Şirketi → ÖLÇÜM LAB PAZAR: künye 'kuzey-borneo' VAR ('İngiliz Kuzey Borneo (Chartered Company)', tur sirket-idaresi, 1881-11-01 → 1946-07-15) → s: kuzey-borneo (ingiltere değil); 1946-07-15 kuzey-borneo-tac-kolonisi; 1888 protektora ic_not. | ÜLKE DÜZEYİ (Sabah). Gün 1963-09-16 TDV'de açık. Kudat yerleşimi ayrıca el değiştirmemiş."
+  }
+ ],
+ "Kesela": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:937",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1840-01-01",
+   "t": "1885-01-26",
+   "sira": "1726",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kesela",
+   "alinti": "Aynı yılın nisan ayında Kadârif’i ve 29 Temmuz 1885’te Keselâ’yı ele geçirdiler",
+   "oneri": {
+    "t": "1885-07-29"
+   },
+   "not": "ÖNCEKİ KARAR (gece-72 Bâra emsali): yerde Mehdî'nin fiilî alışı → TDV Keselâ 1885-07-29; Hartum 1885-01-26 bu yeri tarihlemez. | TDV Keselâ (A. Kavas): Mehdî kuvvetleri Keselâ'yı 29 Temmuz 1885'te aldı; atlas t 1885-01-26 Hartum günü (ülke düzeyi). TDV: Tâkâ 'Türkiyye (1821-1885)' Mısır valileri; Keselâ köyü Ebû Vidân döneminde (1840 civarı) kurulmuş, f 1840 TDV'de açık gün/yıl yok (1840 aramada YOK) -> f teyitsiz. Karar: Kassala'da fiilî Mehdî ele geçirişi = t."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:937",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "sira": "1727",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Kesela ayrıca el değiştirmemiş. Gün 1956-01-01."
+  }
+ ],
+ "Kikwit": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1301",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1896-01-01",
+   "t": "1908-11-15",
+   "sira": "1728",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Bağımsız Kongo Devleti’ni kurdu (1885) / 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "oneri": {},
+   "not": "Alıntı Serbest Devlet'in 1885 kuruluşu ve 15 Kasım 1908 sömürgeleştirmeyi veriyor (t ucu ülke düzeyi). f 1896: Kikwit kuruluşu için akademik kaynak bulunamadı (WebSearch: küçük köy, Société anonyme belge... ile gelişti, yıl yok; kupi/LLMpedia özetleri ipucu bile değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1301",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "sira": "1729",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Kikwit ayrıca el değiştirmemiş."
+  }
+ ],
+ "Kisumu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1073",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1901-12-20",
+   "t": "1963-12-12",
+   "sira": "1731",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor. f 1901-12-20 (demiryolu Kisumu/Port Florence'a ulaştı): yalnız Vikipedi/belediye-blog/ macleki özetleri (ipucu); akademik kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1073",
+   "alan": "s",
+   "d": "kenya",
+   "f": "1963-12-12",
+   "t": "2000-12-31",
+   "sira": "1732",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kenya",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Kisumu ayrıca el değiştirmemiş. Gün 1963-12-12."
+  }
+ ],
+ "Korsakov (Güney Sahalin)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:208",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1905-09-05",
+   "sira": "1739",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html",
+   "alinti": "1875 Conclusion of the Treaty for the Exchange of Sakhalin for the Kurile Islands",
+   "oneri": {},
+   "not": "Japonya Kabine Sekreterliği resmî tarih sayfası: 1875 Sahalin-Kuril takası (ülke düzeyi). YIL düzeyi; atlas günü 1875-05-07 sayfada yok (gün teyitsiz). t: aynı sayfa 1905 Portsmouth: 50. paralelin güneyi Japonya'ya (gün yok; atlas 1905-09-05 karar günü). Korsakov ayrıca el değiştirmemiş (Japon karşıtı 1945 sonrası ayrı satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek13.js:208",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "sira": "1740",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-02.html",
+   "alinti": "the Soviet Union continued its offensive against Japan and occupied the Four Northern Islands from August 28, 1945 to September 5, 1945",
+   "oneri": {
+    "alan": "isg",
+    "t": "1946-02-02"
+   },
+   "not": "ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL (karar): Sovyet işgali ilhaka dek isg; Güney Sahalin'de s: sscb 1946-02-02 (KARAR Sahalin). 1946-02-02 kararnamesi için kaynak okunamadı (prlib.ru challenge sayfası, WebSearch özeti ipucu: 2 Şubat 1946 Güney Sahalin oblastı). ÖLÇÜT: geçici/askerî -> 1946-02-02'ye dek idareye katma yok. Cas.go.jp cümlesi Dört Kuzey Adası için, Korsakov'un işgal günü (Ağustos 1945) ayrıca teyitsiz."
+  }
+ ],
+ "Kunashiri (Furukamappu / Yuzhno-Kurilsk)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2659",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1799-01-01",
+   "t": "1868-01-03",
+   "sira": "1750",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-01.html ; https://www.pref.hokkaido.lg.jp/ks/bns/digest/data_e.html (SSL hatası)",
+   "alinti": "",
+   "oneri": {
+    "not": "BEKLET: Ainu modeli Emre'nin halk künyesi kararına bağlı; şimdilik zincir kalır"
+   },
+   "not": "KARAR EMRELİC (gece-134): Matsumae ayrı künye AÇILMAZ (ONAY). Kunashiri Ainu modeli (1799'a dek bos:'kabile') ONERI, UYGULANMAZ: Değişmez 1 aralığında delik açar, BEKLENEN_SAHIPSIZ'ı artırır (push kapısında gerileme). 'Halk künyesi / kabile toprağı' sınıf sorusu Emre'de (Kpelle, Acholi, Lango, İrokua, Inuit, Ainu birlikte). Bu arada mevcut zincir kalır; 1799 bakufu ve 1868 Meiji uçları kaynakla doğrulanacak. | LAB SALI (origin/main ölçümü): Matsumae ayrı künye AÇILMAZ (han'lar şogunluğun idarî birimi; atlas han tutmuyor). Kunashiri ÖZEL: 1799'dan önce Matsumae'nin fiilî idaresi yok (yalnız basho ticaret ruhsatı; 1789 Menashi-Kunashir Ainu ayaklanması) → 1799'a dek bos:'kabile' + neden ('Ainu toprağı; Matsumae ticaret ruhsatı'); 1799'dan (gün kaynakla) s: edo-bakufu; 1868-01-03'ten meiji-japonya; bakufu doğrudan idaresi değişimleri ic_not. AMUR-ONERI Hokkaido Ainu önerisiyle tutarlı. | KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | Bakıldı: cas.go.jp hoppou01-01 (1799 geçmiyor; Matsumae 17. yy 'kendi alanı' diyor), Hokkaido Valiliği kronolojisi (SSL hatası, başka makinede). WebSearch özeti 1799 bakufu doğrudan idaresi diyor (okunmamış, KAYNAKLI değil). Not: cas.go.jp'ye göre 17. yy'dan beri Matsumae alanı; bakufu 1799-1821 doğrudan, 1821 Matsumae'ye iade (özet) -> 1799-1868 kesintisiz edo-bakufu s: zincirinde 1821 iadesi gözden geçirilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2659",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "sira": "1751",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.cas.go.jp/jp/ryodo_eg/taiou/hoppou/hoppou01-02.html",
+   "alinti": "occupied the Four Northern Islands from August 28, 1945 to September 5, 1945",
+   "oneri": {
+    "alan": "isg",
+    "t": "1946-02-02"
+   },
+   "not": "KARAR EMRELİC (gece-134): Matsumae ayrı künye AÇILMAZ (ONAY). Kunashiri Ainu modeli (1799'a dek bos:'kabile') ONERI, UYGULANMAZ: Değişmez 1 aralığında delik açar, BEKLENEN_SAHIPSIZ'ı artırır (push kapısında gerileme). 'Halk künyesi / kabile toprağı' sınıf sorusu Emre'de (Kpelle, Acholi, Lango, İrokua, Inuit, Ainu birlikte). Bu arada mevcut zincir kalır; 1799 bakufu ve 1868 Meiji uçları kaynakla doğrulanacak. | LAB SALI (origin/main ölçümü): Matsumae ayrı künye AÇILMAZ (han'lar şogunluğun idarî birimi; atlas han tutmuyor). Kunashiri ÖZEL: 1799'dan önce Matsumae'nin fiilî idaresi yok (yalnız basho ticaret ruhsatı; 1789 Menashi-Kunashir Ainu ayaklanması) → 1799'a dek bos:'kabile' + neden ('Ainu toprağı; Matsumae ticaret ruhsatı'); 1799'dan (gün kaynakla) s: edo-bakufu; 1868-01-03'ten meiji-japonya; bakufu doğrudan idaresi değişimleri ic_not. AMUR-ONERI Hokkaido Ainu önerisiyle tutarlı. | KARAR EMRELİC (gece-132): Zincir ölçülecek: Matsumae → 1799/1807 bakufunun doğrudan Ezo idaresi → 1821 Matsumae'ye iade → 1855 yeniden bakufu → Meiji; edo-bakufu künyesi VAR, matsumae künyesi YOK (LAB PAZAR ölçümü); günler kaynakla, ipucu → ONERI. | ÖNCEKİ KARAR (gece-112): isg sovyet 1945-08/09 → s: sscb 1946-02-02 (Yüksek Sovyet kararnamesi); Dört Kuzey Ada işgali 1945-08-28 → 09-05 (cas.go.jp). | TEK KURAL: Sovyet askerî işgali (Kunashiri Eylül 1945) ilhaka dek isg; s: sscb 1946-02-02 (KARAR). Japon resmî sayfası işgali Ağustos 28-Eylül 5 aralığı veriyor (Kunashiri'ye özgü gün yok). 1946-02-02 kaynağı okunamadı. ÖLÇÜT: geçici/askerî."
+  }
+ ],
+ "Kazak bozkırı (Sarısu)": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya.js:30",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "sira": "1721",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "İlk birleşik Kazak Hanlığı’nın XVI. yüzyıl başlarında Kasım Han tarafından kurulmasından sonra",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-132): TDV 'Ebülhayr Han' ve 'Kazak' maddeleri okunacak; muhtemel zincir altinorda → (~1428) Ebülhayr'ın Özbek hanlığı → (1465/68 sonrası) Kazak hanlığı; altinorda t 1500 kaynaksızsa ONERI 'zincir okunmadı'. | ÜLKE/BÖLGE DÜZEYİ: Kazak Hanlığı 'XVI. yy başları' (yıl teyitsiz; atlas 1500). Sarısu bozkırı için ara dönem Ebülhayr/Özbek Hanlığı 1428-68 ve Kazak Hanlığı 1465 (kaynak okunmadı, ipucu) olabilir. f 1281 atlas tabanı, kaynaksız."
+  }
+ ],
+ "Kazak bozkırı (İşim)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek9.js:134",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "sira": "1722",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "İlk birleşik Kazak Hanlığı’nın XVI. yüzyıl başlarında Kasım Han tarafından kurulmasından sonra",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-132): TDV 'Ebülhayr Han' ve 'Kazak' maddeleri okunacak; muhtemel zincir altinorda → (~1428) Ebülhayr'ın Özbek hanlığı → (1465/68 sonrası) Kazak hanlığı; altinorda t 1500 kaynaksızsa ONERI 'zincir okunmadı'. | Sarısu satırıyla aynı; İşim (52.5N 68E) Altın Orda'nın Ak Orda/Şibanî alanı; ara dönem kaynakla teyit edilmedi."
+  }
+ ],
+ "Kazakevičevo (Kazakevičeva stanitsası)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:33",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1858-01-01",
+   "t": "1917-03-15",
+   "sira": "1723",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV rusya/rusya-ihtilali (1917-03-15 YOK); WebSearch rusça (Казакевичево): yerleşim anılmıyor; BRE 401 yetkisiz",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakıldı: TDV Rusya, TDV Rus İhtilâli arama, WebSearch. Aygun 28 Mayıs 1858 (Amur sol yakası) ve Amur Kazak Ordusu 1858 yalnız arama özeti ipucu. t 1917-03-15 (II. Nikolay'ın tahttan çekilişi Gregoryen) kaynakla okunamadı."
+  }
+ ],
+ "Kaşira": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:303",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "sira": "1724",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "BRE (bigenc.ru) arama özeti: 'Расселение и его системы' Кашира 1353",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-132): 1353 ilk anış BEYANLI alt sınır, 1325 dilimi kırpılır; ONERI. | Bakıldı: WebSearch bigenc (Kashira madde yok), BRE 401. Özet: BRE Kashira'yı 1353 (Oka kentleri) ile anıyor -> 1325'te yerleşim olmayabilir (merdiven ④ aday: kırp), ama özet okunmadı. Altın Orda->Moskova 1325 teyitsiz."
+  }
+ ],
+ "Kenai (Nikolayevskiy Redut)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:353",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1791-01-01",
+   "t": "1867-10-18",
+   "sira": "1725",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://dnr.alaska.gov/parks/oha/clg/AlaskaCLGs/Kenai.htm",
+   "alinti": "Russian fur traders built Fort St. Nicholas at the mouth of the river in 1791",
+   "oneri": {},
+   "not": "Alaska Eyaleti DNR Tarih ve Arkeoloji Ofisi (devlet resmî yayını). Yıl düzeyi 1791 (gün teyitsiz). t 1867-10-18: history.state.gov 'Alaska was formally transferred to the United States on October 18, 1867' (ülke düzeyi, ayrı okundu önceki parti). Dört arama özetinde 1786 Lebedev-Lastochkin öncül postu çelişkisi."
+  }
+ ],
+ "Kilosa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1357",
+   "alan": "s",
+   "d": "nyamvezi",
+   "f": "1281-01-01",
+   "t": "1890-11-04",
+   "sira": "1730",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "oneri": {
+    "d": "__BOSLUK__ (yerel Sagara BEYANLI)"
+   },
+   "not": "KABİLE-TOPRAK SINIFI BEKLET (EMRELİC gece-134; LAB SALI HAYALET-KARAR 'kabile-toprak-sinifi'): bos:'kabile' / yerel BEYANLI boşluk önerisi UYGULANMAZ (Değişmez 1 deliği, BEKLENEN_SAHIPSIZ gerilemesi); mevcut zincir korunur; Emre'nin sınıf kararıyla tek seferde. | KARAR EMRELİC (gece-132): Kilosa Usagara'da (Sagara), Nyamwezi alanı değil → nyamvezi kalkar, yerel BEYANLI; Alman dönemi Tanga/Lindi kiralama emsali; TDV 1890 yıl düzeyi ic_not; ONERI. | TDV Tanzanya: 1890 Helgoland-Zanzibar anlaşması, yıl düzeyi (atlas 1890-11-04 gün teyitsiz). SAHİPLİK ŞÜPHESİ: Kilosa Nyamwezi (Tabora) değil Kaguru/Sagara alanı; nyamvezi polity'si Kilosa'yı kapsamıyor olabilir, kaynak okunmadı. f 1281 atlas tabanı."
+  }
+ ],
+ "Kiŋigin (Wales)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:190",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "sira": "1733",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ ama alıntı yalnız t ucunu (Alaska 1867-10-18 devri) tarihliyor; Kiŋigin (Wales, Bering Boğazı) Inupiat yerli alanı, Rus fiilî idaresi hiç gelmemiş olabilir (inuit s: -> t devir günü). f 1281 atlas tabanı. milestones 'retired' notlu."
+  }
+ ],
+ "Kokkola": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:109",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "sira": "1734",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://sok.riksarkivet.se/sbl/artikel/13315",
+   "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
+   "oneri": {
+    "kırp": "1281-01-01→1523-06-06 dönemi: Kokkola (Karleby/Gamlakarleby) Gustav II Adolf tarafından 1620'de kuruldu (SNL «Karleby» https://snl.no/Karleby: Byen ble grunnlagt i 1620) -> yerleşim 1620 öncesi yok; dönem kırpılır, isvec 1523-06-06 dönemi f=1620 olur (hedef dışı)"
+   },
+   "not": "Merdiven ④: Kokkola 1620'de kuruldu (SNL 'Karleby') → öncesi kırpılır; İsveç 1523-06-06 SBL ile teyitli. | ÜLKE DÜZEYİ t: Gustav Vasa seçimi 6 Haziran 1523 (SBL; Jülyen, atlas künye ile aynı). Merdiven ④: yerleşim yok -> kırp."
+  }
+ ],
+ "Kola": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:192",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "sira": "1735",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "BRE 401 (bigenc.ru/geography/text/5986391 Великий Новгород); WebSearch bigenc: Кола maddesi yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakıldı: BRE (Кола, Великий Новгород), WebSearch. Kola kenti 1565 ostrog (özet okunmadı) -> 1478 öncesi yerleşim merdiven ④ adayı; Novgorod'un 1478-01-15 düşüşü kaynak okunmadı."
+  }
+ ],
+ "Kolding": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:332",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "sira": "1736",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "https://lex.dk/Kolding",
+   "alinti": "",
+   "oneri": {},
+   "not": "lex.dk (Den Store Danske): Kolding 1231'de Valdemars Jordebog'da anılır, Koldinghus ve St. Nicolai 13. yy ortası, Slesvig dükalığına sınır kenti -> 1281'de Danimarka krallığında varlık teyidi (f tabanı 1281 tarihlenmiyor). Sayfada 1864 savaşı ve 1940 işgali yok (1864 Prusya-Avusturya işgali, 1940-45 Alman işgali kontrol edilmedi)."
+  }
+ ],
+ "Kolmakovskiy Redut": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:316",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1841-01-01",
+   "t": "1867-10-18",
+   "sira": "1737",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "https://www.adfg.alaska.gov/techpap/tp081.pdf (PDF metni çıkmadı, 1841 ve 1866 kapanış); https://www.blm.gov/sites/blm.gov/files/LandsRealty_Alaksa_RDI_KuskokwimRiver_FinalReport_05012013.pdf",
+   "alinti": "",
+   "oneri": {},
+   "not": "PDF'ler okunamadı (başka makinede). WebSearch özeti çelişkili: kuruluş 1832-33 (BLM), 1841 (ADF&G, USGS), 1847 (Castle Hill). KAYNAKLI değil. t 1867-10-18 için bkz Kenai/Kiŋigin satırı."
+  }
+ ],
+ "Kolıvan (Çaus)": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:66",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1713-06-29",
+   "t": "1917-03-15",
+   "sira": "1738",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "BRE arama özeti bigenc.ru/domestic_history/text/2621059 (Колыванская область) ve /geography/text/2668275",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakıldı: WebSearch bigenc. Kolyvan (Novosibirsk) 1713 slobodası doğrulanamadı; BRE 'Колывань kent 1822, 1925 köy' diyor (özet). 1917-03-15 kaynak okunmadı."
+  }
+ ],
+ "Kotelniç": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:200",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "sira": "1741",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "BRE Kirov Oblastı bigenc.ru/geography/text/2067351 (401, arama özeti: Kotelnich 1459, Vyatka Zemlya)",
+   "alinti": "",
+   "oneri": {
+    "d": "vyatka (künye adayı)",
+    "t": "1489"
+   },
+   "not": "LAB SALI (origin/main ölçümü): vyatka aday listesinde (gece-50, t 1489-08): novgorod kalkar; 1489'a dek vyatka, sonra moskova. | KARAR EMRELİC (gece-132): Vyatka toprağı 1489'a dek ayrı (Moskova ilhakı 1489) → novgorod kalkar; vyatka künyesi YOK (LAB PAZAR ölçümü) → LAB SALI'ya aday; ipucu → ONERI. | Bakıldı: BRE arama özetleri. SAHİPLİK ŞÜPHESİ: arama özeti BRE Котельнич'i Vyatka Zemlya (Rogojsky 1374) ile ilişkilendiriyor, 1478'e dek Novgorod değil Vyatka alanı olabilir; ilk anış 1181 doğrulanamadı (özet: 1459)."
+  }
+ ],
+ "Krasnıy Yar": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:401",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1667-01-01",
+   "t": "1917-03-15",
+   "sira": "1742",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "WebSearch bigenc/mnr.gov.ru: Красный Яр 1667 doğrulanamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakıldı: WebSearch. Özet: Astrahan Krasny Yar (1698 strelts), 1667 geçmiyor."
+  }
+ ],
+ "Kuamba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1690",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1900-01-01",
+   "t": "1974-09-20",
+   "sira": "1743",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "WebSearch (Vikipedi aynaları, gezi siteleri) — ipucu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Şirket dönemi: Niassa Şirketi 1891–1929 BEYANLI s: (şirket emsali). | Cuamba: arama özetlerinde Niassa Şirketi (1891-1929) istasyonu olarak kuruldu, 1952 Nova Freixo, 1976 Cuamba; 1900 f ve 1974-09-20 t akademik kaynak okunamadı. ŞİRKET DÖNEMİ: 1891-1929 BEYANLI s: niassa şirketi (karar) -> portekiz-mozambik 1900 dönemi şirket dönemi olarak bölünmeli."
+  }
+ ],
+ "Kugaaruk (Pelly Bay)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:107",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "sira": "1747",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Justice Canada, Adjacent Territories Order 31 Temmuz 1880 (Enactment No. 8) — https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions in North America",
+   "oneri": {
+    "t": "1870-07-15",
+    "not": "anakara: Rupert's Land ülke düzeyi BEYANLI (gece-128 Kangirsuk)"
+   },
+   "not": "ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara Arktik/antlaşmasız Inuit toprağı (Emre listesi); bu gece 1870-07-15 Rupert's Land ülke düzeyi BEYANLI, 1880 yalnız adalar. | Alıntı yalnız t ucu. Kugaaruk anakara (Simpson Yarımadası): anakara Arktik kıyısı 1870-07-15 North-Western Territory içinde olabilir (çıkarım, kaynak anakarayı saymıyor) -> karar Emre'de. f 1281 atlas tabanı."
+  }
+ ],
+ "Kugluktuk doğusu — Bathurst Inlet (Kingaunmiut)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:154",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "sira": "1748",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Justice Canada, Adjacent Territories Order 31 Temmuz 1880 (Enactment No. 8) — https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions in North America",
+   "oneri": {
+    "t": "1870-07-15",
+    "not": "anakara: Rupert's Land ülke düzeyi BEYANLI (gece-128 Kangirsuk)"
+   },
+   "not": "ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara Arktik/antlaşmasız Inuit toprağı (Emre listesi); bu gece 1870-07-15 Rupert's Land ülke düzeyi BEYANLI, 1880 yalnız adalar. | Bathurst Inlet anakara kıyısı: yine 1870-07-15 çıkarımı olabilir (kaynak anakarayı açıkça saymıyor); karar Emre'de. Alıntı yalnız t ucu."
+  }
+ ],
+ "Kumba": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:47",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
+   "sira": "1749",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "20 Temmuz 1922’de aldığı bir kararla işgal ettikleri yerleri Fransa ve İngiltere’nin manda yönetimlerine bıraktı",
+   "oneri": {},
+   "not": "TDV Kamerun: Milletler Cemiyeti kararı 20 Temmuz 1922 (ÜLKE DÜZEYİ; Kumba Güney Kamerun, ayrıca el değiştirmemiş). t: aynı madde 'Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961)' gün teyitli. Öncesi (1914-22 isg ingiltere, Alman Kamerunu) hedef dışı."
+  }
+ ],
+ "L'Aquila": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:530",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1861-02-13",
+   "sira": "1752",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/i-plebisciti-e-le-elezioni_(L'Unificazione)/",
+   "alinti": "",
+   "oneri": {
+    "t": "1860-12-17"
+   },
+   "not": "KARAR (Emre, TAHRİR): Napoli ilhakı 17 Aralık 1860 ilhak kararnamesi. Treccani sayfası 17 Aralık 1860'ı yalnız seçim yasası olarak anıyor; ilhak kararnamesinin kendisi kaynakla okunamadı (arama özeti de bulamadı). Atlas 1861-02-13 (Gaeta) fiilî çöküş. L'Aquila: 21 Ekim 1860 plebisitle Abruzzo katıldı."
+  }
+ ],
+ "La Paz": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:559",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1548-10-20",
+   "t": "1824-12-09",
+   "sira": "1753",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "WebSearch özetleri (lostiempos, andesacd, eju.tv, Cieza de León) — ipucu",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-132): ONAY: 1776 → 1810 rio-de-la-plata-valiligi (künye VAR; KASA Tarija kararı); 1809-07-16 La Paz cuntası (rakip hükûmet) ic_not ya da BEYANLI dilim; geri alış 1809 sonu, kaynakla. | 20 Ekim 1548 kuruluş (Alonso de Mendoza, Laja'da; Chuquiago vadisine nakil) akademik kaynak okunamadı. UYARI (kaynaksız): La Paz 1776'da Rio de la Plata Genel Valiliği'ne geçti, ispanyol-peru 1548-1824 bütün dönem için doğru olmayabilir."
+  }
+ ],
+ "La Rioja (Arjantin)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1144",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1591-01-01",
+   "t": "1810-05-25",
+   "sira": "1754",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "https://dbe.rah.es/biografias/22250/juan-ramirez-de-velasco (yönlendirme: https://historia-hispanica.rah.es/biografias/37039-juan-ramirez-de-velasco, gövde okunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "RAH biyografisi okunamadı; özet 20 Mayıs 1591 Juan Ramírez de Velasco (Todos los Santos de la Nueva Rioja), önceki 1558 Londres. t 1810-05-25 Mayıs Devrimi; hukuki bağımsızlık 1816-07-09 — künye sorusu, kaynakla bakılmadı."
+  }
+ ],
+ "La Unión (El Salvador)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:12",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "sira": "1755",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "WebSearch özetleri (CEPA belgeleri, El Mundo): La Unión",
+   "alinti": "",
+   "oneri": {},
+   "not": "1841 El Salvador devleti kaynakla okunamadı (TDV El Salvador arama sayfası boş). Özet: Puerto San Carlos 13.07.1824'te La Unión adı, 1854 şehir unvanı, 22.06.1865 kararname ile departman -> La Unión 1841'de yerleşim olarak var (ipucu)."
+  }
+ ]
+}

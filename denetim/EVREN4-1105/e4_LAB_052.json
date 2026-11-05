@@ -1,0 +1,545 @@
+{
+ "Oviedo": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "asturias",
+   "f": "0810-01-01",
+   "t": "0910-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "estat independent (910-1037, 1065-72 i 1157-1230)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI (GEC «regne de Lleó»). t ucu: León devleti 910'da başlar (Asturias'ın devamı). f 810 BEYANLI: GEC «regne d'Astúries» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-dasturies) Alfons II (791-842) sarayını Oviedo'ya yerleştirdi, yıl vermiyor; GEC sarayın León'a taşınışını 914 verir (atlas t 910 künye; León devlet başlangıcı). Oviedo şehir adlı sahiplik cümlesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "0910-01-01",
+   "t": "1037-09-04",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "estat independent (910-1037, 1065-72 i 1157-1230)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. f 910 yıl düzeyi GEC; t 1037 yıl düzeyi (gün 09-04 Tamarón teyitsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1037-09-04",
+   "t": "1065-12-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "Des del 1037 fins al 1157, a excepció dels anys de regnat lleonès d’Alfons VI",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. GEC: León 1037-1157 arası Kastilya'ya bağlı (1065-72 hariç). Gün 1037-09-04 ve 1065-12-27 GEC'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1065-12-27",
+   "t": "1072-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "estat independent (910-1037, 1065-72 i 1157-1230)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. 1065-72 yıl aralığı GEC; 1065-12-27 (gün) ve 1072-01-01 (yıl yer tutucu) GEC'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1072-01-01",
+   "t": "1157-08-21",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "Des del 1037 fins al 1157 / regnat lleonès d’Alfons VI (1065-72)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. 1072 yıl düzeyi (Alfons VI'nın León saltanatı 1065-72 sonrası Kastilya birliği); 1157 t ucu yıl."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1157-08-21",
+   "t": "1230-09-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "El tercer i darrer període d’independència (1157-1230)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. 1157 ve 1230 yıl düzeyi; gün 08-21 ve 09-24 GEC'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. f 1230 yıl düzeyi. t 1281-01-01 künye kırpması (olay değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: GEC «regne de Lleó» (1230 birleşme, süreklilik), TDV «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1281-01-01 olay değil, atlasın başlangıç kırpması (1230 Leon-Kastilya birliği sürer). t 1479-01-19: TDV «İspanya» yalnız 1469 evliliği ve 1492 Granada'yı verir, 1479 yok; Kastilya-Aragon birliği hanedan birliğidir (ayrı krallıklar) — künye ispanya f ucu zincirde DBE/GEC ile kayıtlı, bu bütçede yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-19",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol",
+   "alinti": "el 19, els de Saragossa, Pamplona, Vitòria, Oviedo, Salamanca i Palma",
+   "oneri": {},
+   "not": "GEC «el Divuit de Juliol»: Oviedo 19 Temmuz 1936 ayaklanma listesinde (gün düzeyi, şehir adlı). Ayaklanma günü = Milliyetçi eline geçiş (beyanlı yaklaşıklık, zincirdeki not; Frankocu fiilî alış günü). t 1939-04-01: GEC «guerra civil espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola) «l’1 d’abril de 1939 el general Franco donà el darrer i victoriós comunicat de guerra» — ülke düzeyi; ayrı uç, bu satırın uc'si f."
+  }
+ ],
+ "Orašje": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1863-01-01",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): Bosna ilhakı: Avusturya-Macaristan 1878'den idare ediyordu → TEK ÖLÇÜ ilhak işlemi günü = beyanname 1908-10-05 (atlas kalır); TDV 10-07 beyannamenin yayımı/ilanı, ayrı olay → ic_not. Tuzla, Bijeljina, Srebrenik aynı. | Bosna-Hersek ilhakı: TDV 1908-10-07 vs atlas 1908-10-05 (Franz Joseph'in ilhak beyannamesi 10-05 tarihli, 10-07 ilan) — EMRELİC'e soruldu; Tuzla, Bijeljina, Srebrenik aynı emsal. | ULKE DUZEYI. TDV «Bosna-Hersek»: ilhak ilanı 7 Ekim 1908; «Osmanlı Devleti'nin hakları 1908'deki kati ilhaka kadar resmen sürmüştü». Atlas 1908-10-05 (emsal Bijeljina/Tuzla) ≠ TDV 7 Ekim; TDV esas, çelişki ic_not'ta iki kaynakla beyan edilmeli. Aynı emsaldeki öteki Bosna yerleşimleri (isg avusturya t ve s avusturya f) de etkilenir. f 1863 Šljivo (zincirde kayıtlı) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
+   "d": "hirvatistan-bagimsiz",
+   "f": "1941-04-10",
+   "t": "1945-05-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV «Hırvatistan» (https://islamansiklopedisi.org.tr/hirvatistan: NDH kuruluş cümlesi bulunamadı), TDV «Bosna-Hersek», TDV «Yugoslavya»",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): Bosna ilhakı: Avusturya-Macaristan 1878'den idare ediyordu → TEK ÖLÇÜ ilhak işlemi günü = beyanname 1908-10-05 (atlas kalır); TDV 10-07 beyannamenin yayımı/ilanı, ayrı olay → ic_not. Tuzla, Bijeljina, Srebrenik aynı. | TDV'de NDH kuruluş günü (1941-04-10) ve Orašje'nin NDH'ye dahilliği yok. Hrvatska enciklopedija atlanır (SSL); hrcak.srce.hr/file/281893 418 verdi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1945-05-31",
+   "t": "1945-11-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "işgal altındaki Yugoslavya topraklarını 1945 Mayısına kadar kontrolü altına aldı",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): Bosna ilhakı: Avusturya-Macaristan 1878'den idare ediyordu → TEK ÖLÇÜ ilhak işlemi günü = beyanname 1908-10-05 (atlas kalır); TDV 10-07 beyannamenin yayımı/ilanı, ayrı olay → ic_not. Tuzla, Bijeljina, Srebrenik aynı. | [yalnız ay teyitli; gün 05-31 teyitsiz] ULKE DUZEYI. TDV «Yugoslavya»: Halk Kurtuluş Ordusu 1945 Mayıs'a kadar bütün topraklarda denetim kurdu. Yerleşim ayrıca el değiştirmemiş (NDH çöküşü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1991-11-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "Federatif Yugoslavya Halk Cumhuriyeti (Federativna Narodna Republika Jugoslavija [1945-1963]) ilân edildi",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): Bosna ilhakı: Avusturya-Macaristan 1878'den idare ediyordu → TEK ÖLÇÜ ilhak işlemi günü = beyanname 1908-10-05 (atlas kalır); TDV 10-07 beyannamenin yayımı/ilanı, ayrı olay → ic_not. Tuzla, Bijeljina, Srebrenik aynı. | [yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV aynı cümlede «29 Kasım 1943'te krallığa son verilerek» der (AVNOJ Jajce 1943; karar listesi: FNRJ 1945-11-29, AVNOJ 1943 ic_not). TDV yıl aralığı 1945-1963; gün 29 Kasım atlas/karar (1945), TDV 1943 yazar — iki tarih ic_not'ta beyan edilmeli. t 1991-11-18 Herzeg-Bosna sonraki satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV «Bosna-Hersek» (Herceg-Bosna geçmiyor; yalnız Ekim 1991 egemenlik ilanı), web araması (ipucu: Bosna Posavina Hırvat Topluluğu 12 Kasım 1991 Bosanski Brod'da kuruldu, Orašje kapsamında), hrcak.srce.hr/file/281893 (418, açılamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): Bosna ilhakı: Avusturya-Macaristan 1878'den idare ediyordu → TEK ÖLÇÜ ilhak işlemi günü = beyanname 1908-10-05 (atlas kalır); TDV 10-07 beyannamenin yayımı/ilanı, ayrı olay → ic_not. Tuzla, Bijeljina, Srebrenik aynı. | Herzeg-Bosna 18 Kasım 1991 / 14 Ağustos 1996 (Washington) kaynağı bulunamadı. Orašje Posavina Hırvat Topluluğu içindeydi (12 Kasım 1991, ipucu); Herzeg-Bosna'ya resmi katılış günü teyitsiz. Açılamayan: https://hrcak.srce.hr/file/281893 . ICTY Prlić gibi mahkeme belgeleri bakılmadı. bos:'kabile' önerisi yok, mevcut sahip korunur."
+  }
+ ],
+ "Oranjestad (Aruba)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:135",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1636-01-01",
+   "t": "1954-12-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://www.parlement.com/geschiedenis-statuut-voor-het-koninkrijk",
+   "alinti": "Op 15 december 1954 ondertekende koningin Juliana in Den Haag het Statuut voor het Koninkrijk.",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Parlement.com (Montesquieu Instituut): Statüt imzası 15 Aralık 1954 (imza günü, TEK ÖLÇÜ: Hollanda orayı zaten yönetiyordu). f 1636 (Hollanda'nın İspanya'dan alışı) web araması (aruba.com/countryreports = ipucu) — akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:135",
+   "alan": "s",
+   "d": "hollanda-antilleri",
+   "f": "1954-12-15",
+   "t": "1986-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.parlement.com/geschiedenis-statuut-voor-het-koninkrijk",
+   "alinti": "Op 15 december 1954 ondertekende koningin Juliana in Den Haag het Statuut voor het Koninkrijk.",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Statüt 15 Aralık 1954 imzalandı; Aruba 1845'ten beri Antiller birliğinin parçasıydı (arama özeti, okunmadı). Yürürlük günü ayrı (ic_not). t 1986-01-01 sonraki satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:135",
+   "alan": "s",
+   "d": "aruba-ozerk",
+   "f": "1986-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.parlement.com/geschiedenis-statuut-voor-het-koninkrijk",
+   "alinti": "in 1986 kreeg Aruba een 'status aparte'",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. Gün 1 Ocak 1986: Rijkswet 22 Temmuz 1985 (wetten.overheid.nl BWBR0022380, SSL hatasıyla açılamadı: https://wetten.overheid.nl/BWBR0022380/1986-01-01/ ) ve Tweede Kamer arama özeti. t 2000-12-31 künye sonu."
+  }
+ ],
+ "Ovando": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1093",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Arama özeti (Vikipedi «Owando» = ipucu): Rousset 1903'te kuruldu, 1904'te Fort-Rousset",
+   "alinti": "",
+   "oneri": {
+    "f": "1903-01-01"
+   },
+   "not": "IPUCU (okunmuş akademik kaynak yok). MERDIVEN 4: Ovando=Owando=Fort-Rousset; yerleşim 1903'te kuruldu → f 1900-01-01 erken; kırp 1903 (yıl). Kuruluş için Fransız/Kongo akademik kaynak bulunamadı. t 1960-08-15 bağımsızlık: bu bütçede resmî kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1093",
+   "alan": "s",
+   "d": "kongo-brazzaville",
+   "f": "1960-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: web araması (Owando/Fort-Rousset; bağımsızlık 15 Ağustos 1960 Vikipedi ipucu), Britannica atlandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kongo Cumhuriyeti (Brazzaville) 15 Ağustos 1960 için TDV/LoC/Fransız resmî kaynak okunmadı; arama özeti teyit sayılmaz."
+  }
+ ],
+ "Pamirski Post (Murgab)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:212",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1893-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://encyclopedia.1914-1918-online.net/article/dual-power/",
+   "alinti": "after the Tsar’s abdication on 2nd [15th] of March 1917",
+   "oneri": {},
+   "not": "ULKE DUZEYI (1914-1918-Online, Peeling, Dual Power). Çar'ın tahttan çekilişi 2 Mart O.S. = 15 Mart 1917 Gregoryen. f 1893 (Post Pamirsky) zincirdeki IBS 26 kaydı; Iloliev 1891 çelişkisi sürer, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:212",
+   "alan": "s",
+   "d": "tacikistan",
+   "f": "1991-09-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.vkd.tj/1032-declaration-of-state-independence.html",
+   "alinti": "“On State Independence of the Republic of Tajikistan” adopted on 9 September 1991",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Tacikistan Yüksek Konseyi bildirisi 9 Eylül 1991 (devletin kendi yayını). Karar: bağımsızlık ilanı günü; SSCB'nin sona erişi 1991-12-26, uluslararası tanınma Aralık 1991 (ic_not)."
+  }
+ ],
+ "Paros": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1791",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/naksa",
+   "alinti": "987’de (1579) Nasi’nin ölümü üzerine / Nakşa ve civar adaları bir sancak haline getirilip",
+   "oneri": {
+    "f": "1579",
+    "not": "1566-04-15 → 1579 v: Nakşa dükalığı (Yasef Nasi); t 1830-02-03 kalır"
+   },
+   "not": "KARAR EMRELİC (gece-144): ONAY: 1566 → 1579 v: Nakşa dükalığı (Yasef Nasi), 1579'dan d: osmanli. t: ÖLÇÜM LAB PAZAR — Kiklad zinciri (Nakşa, Santorini, Paros) atlasta t 1830-02-03 (Londra Protokolü) → hizalı; Yunan idaresi 1821 sonrası fiilen varsa TEK ÖLÇÜ imza 1830-02-03; TDV'nin 1829/1830 günleri ic_not. | TDV Nakşa: 1566 düklük Yasef Nasi'ye verildi (statü değişmedi), sancak Nasi'nin 1579 ölümünden sonra → 1566–1579 v: (Nakşa dükalığı) — EMRELİC'e soruldu; t 1829/1830 iki TDV maddesi çelişkisi notta. | YIL düzeyi, ULKE/ADA DUZEYI (TDV «Nakşa», Feridun Emecen). TAHRIR ÖLÇÜTÜ: idareye katma = sancak; TDV: 974/1566'da (Cemâziyelevvel 974 ≈ Kasım 1566) düklük Yasef Nasi'ye verildi, «adanın statüsüne dokunulmadı», haraç defteri 954-959; Nasi'nin ölümü 987 (1579) sonrası Nakşa ve çevre adalar sancak yapıldı (sancak yılı ayrıca verilmiyor). Yani 1566-04-15'te Paros'ta d değil v sürüyor olmalı. Paros adıyla TDV'de yok («civar adalar», ULKE DUZEYI beyanı). t: TDV Nakşa «1829 antlaşmasıyla … Yunanistan'a bırakıldı», TDV «Yunanistan» «Osmanlı Devleti 1830'da bu devleti tanımak zorunda kaldı» — atlas 1830-02-03; iki TDV maddesi 1829/1830 çelişir, ic_not'ta beyan."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1791",
+   "alan": "s",
+   "d": "yunanistan-cumhuriyeti",
+   "f": "1973-06-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV «Yunanistan» (islamansiklopedisi.org.tr/yunanistan: 1967 darbesi var, 1973 yalnız kaynakçada)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): ONAY: 1566 → 1579 v: Nakşa dükalığı (Yasef Nasi), 1579'dan d: osmanli. t: ÖLÇÜM LAB PAZAR — Kiklad zinciri (Nakşa, Santorini, Paros) atlasta t 1830-02-03 (Londra Protokolü) → hizalı; Yunan idaresi 1821 sonrası fiilen varsa TEK ÖLÇÜ imza 1830-02-03; TDV'nin 1829/1830 günleri ic_not. | 1 Haziran 1973 cuntanın monarşiyi kaldırması TDV'de yok; zincirdeki Britannica bu bütçede yeniden okunamadı."
+  }
+ ],
+ "Orbetello": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:667",
+   "alan": "s",
+   "d": "sardinya",
+   "f": "1860-03-22",
+   "t": "1861-03-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/granducato-di-toscana/",
+   "alinti": "nel 1860 fu annesso, con un plebiscito, al Regno di Sardegna",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI; karar: Toskana ilhakı TAHRİR (1860-03-22 kararname, camera.it arama özeti — storia.camera.it Cloudflare/SSL ile açılamadı). t 1861-03-17: Treccani «L'unificazione italiana» (https://www.treccani.it/enciclopedia/l-unificazione-italiana_(Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco)/): «Lo Stato che viene proclamato nel 1861» yıl düzeyi. Orbetello ayrıca el değiştirmemiş."
+  }
+ ],
+ "Orenburg": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:420",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1743-04-30",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://encyclopedia.1914-1918-online.net/article/dual-power/",
+   "alinti": "after the Tsar’s abdication on 2nd [15th] of March 1917",
+   "oneri": {},
+   "not": "ULKE DUZEYI. O.S. 2 Mart = 15 Mart 1917 Gregoryen. f 1743-04-30: arama özeti (19 [30] Nisan 1743 nihai yerde kuruluş töreni, Neplyuev; O.S. 19 Nisan + 11 gün = 30 Nisan Gregoryen) — makale gövdesi açılmadı; Orenburg birinci kuruluşu 1735 (Orsk), ikinci 1739/40, nihai 1743: atlas f 1743 = nihai yer."
+  }
+ ],
+ "Oristano": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:698",
+   "alan": "s",
+   "d": "arborea",
+   "f": "1281-01-01",
+   "t": "1410-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/jutjat-darborea",
+   "alinti": "renuncià al jutjat d’Arborea, que fou suprimit / comte de Goceà (1410)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] GEC «jutjat d'Arborea»: Leonardo Cubello Oristany kuşatmasında anlaşmaya zorlandı, Arborea yargıçlığını bıraktı (suprimit), Oristany markisi unvanı aldı (1410). Sanluri 1409; Narbonne haklarının satın alınması 1420. f 1281 künye kırpması."
+  }
+ ],
+ "Oruro (Villa de San Felipe de Austria)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:73",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1606-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://books.openedition.org/ifea/7341",
+   "alinti": "El 1 de noviembre de 1606 se funda la Villa de San Felipe de Austria",
+   "oneri": {
+    "f": "1606-11-01"
+   },
+   "not": "KARAR EMRELİC (gece-144): ONERI 1606-11-01 ONAY. | Medinaceli & Soux, Historia de una crisis: la minería en Oruro (IFEA/Plural), Presentación. Gün düzeyi; arama özeti 29 Ekim 1606 maden asiento belgesi (okunmadı). Yerleşim öncesi maden kampı vardı (San Miguel de Uru Uru). t 1824-12-09 Ayacucho zincirdeki SciELO kaydı."
+  }
+ ],
+ "Ourém (Pará)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:729",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1753-01-01",
+   "t": "1822-09-07",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: IBGE Biblioteca DTB (https://biblioteca.ibge.gov.br/visualizacao/dtb/para/ourem.pdf: metin çıkmadı, AÇILAMAYAN PDF), web araması (ipucu: 1727 köken Luiz de Moura, 1753 vila/freguesia, 1762 belediye kuruluşu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "MERDIVEN 4: yerleşim 1727'den beri var (arama özeti IBGE'ye atfeder), f 1753 vila yükseltmesi; Portekiz Brezilyası egemenliği için erken f önerisi kaynaksız. t 1822-09-07 ülke düzeyi Ipiranga: zincirdeki OUPblog/DEVRALMA, akademik teyit yok."
+  }
+ ],
+ "Parobamba": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:93",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1868-08-28",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: web araması (hispanopedia = Vikipedi aynası: Parobamba ilçesi 28 Ağustos 1868 yasası ile Piscobamba'dan ayrıldı, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "28 Ağustos 1868 ilçe (distrito) oluşturma tarihi, devlet geçişi değil; MERDIVEN 4: yer önceden Peru Cumhuriyeti'ndeydi (1821+), Piscobamba ilçesinin parçası → f egemenlik değil idarî bölünme günü. Peru El Peruano/INEI kaynağı okunmadı."
+  }
+ ],
+ "Parowan": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1211",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: historytogo.utah.gov/parowan (robots yasağı), onlinelibrary.utah.gov (robots), uen.org (404), web araması (Vikipedi/Church News ipucu: 13 Ocak 1851 kuruluş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kuruluş 13 Ocak 1851 yalnız ipucu; Utah Territory 9 Eylül 1850'de ABD toprağı olarak örgütlenmişti (okunmadı). Dalton 1973 kitabı bakılmadı."
+  }
+ ],
+ "Parras": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1452",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1598-01-01",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://memoricamexico.gob.mx/es/memorica/Consumacion_de_la_Independencia",
+   "alinti": "entrada del ejército imperial a la ciudad de México el 27 de septiembre",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Memórica México, Iturbide oficio: Ordu 27 Eylül'de başkente girdi; yıl sayfa bağlamından 1821). Bağımsızlık Bildirgesi 28 Eylül. f 1598: arama özeti 18/19 Şubat 1598 Santa María de las Parras, INAH kataloğunda 1653 yerleşimi çelişkisi — akademik kaynak okunmadı, f teyitsiz."
+  }
+ ],
+ "Paulatuk / Cape Bathurst": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:88",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://www.justice.gc.ca/fra/pr-rp/sjc-csj/constitution/loireg-lawreg/p1t81.html",
+   "alinti": "Le 1 er septembre 1880, le reste des territoires et possessions britanniques d'Amérique du Nord",
+   "oneri": {},
+   "not": "Kabile-toprak sınıfı BEKLET: inuit korunur. | ULKE DUZEYI: Adjacent Territories Order 31 Temmuz 1880 (Osborne House), 1 Eylül 1880'de Kanada'ya bağlandı (Justice Canada resmî Fransızca metni). BEYANLI: Kanada'nın fiilî yönetimi sonradan geldi; bos:'kabile' (halk toprağı) önerisi yazılmadı, inuit sahibi korunur — Emre kararı bekleniyor. f 1281 künye kırpması."
+  }
+ ],
+ "Pelly Banks / Ross River": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:305",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1840-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://www.justice.gc.ca/fra/pr-rp/sjc-csj/constitution/loireg-lawreg/p1t31.html",
+   "alinti": "décrète réalisée le 15 juillet 1870 l'adhésion au dominion du Canada, d'une part, du Territoire du Nord-Ouest",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Justice Canada, Terre de Rupert et Territoire du Nord-Ouest, Texte no 3 (Konsey kararı 23 Haziran 1870): adhésion 15 Temmuz 1870. Kanada anakara Arktik ve Yukon dahil BEYANLI. f 1840: DCB «Robert Campbell» (https://www.biographi.ca/en/bio/campbell_robert_1808_94_12E.html) 1840'ta Frances Lake'e, Pelly nehri kıyısına ulaştı; Pelly Banks postu için tarihler 1842/1844/1846/1847-48 çelişir (arama özetleri) — f teyitsiz."
+  }
+ ],
+ "Pelım ostrogu": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:27",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1593-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://ural.academic.ru/1476/",
+   "alinti": "Осн. в 1593 воеводой Петром Горчаковым.",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-144): KAYNAKLI-çekinceli ONAY. | [çekince: Уральская историческая энциклопедия (УрО РАН 2000) maddesinin academic.ru yansısı — akademik eser, yansı sitesi; KAYNAKLI-çekinceli] | [yalnız yıl teyitli; gün teyitsiz] Уральская историческая энциклопедия (УрО РАН, Екатеринбург 2000, Лигостаева Л.Н.), academic.ru yansısından; Pelım'ın 1593'te voyvoda P. Gorçakov tarafından kurulduğunu söyler. t: 1914-1918-Online (https://encyclopedia.1914-1918-online.net/article/dual-power/) «Tsar’s abdication on 2nd [15th] of March 1917», ayrı uç."
+  }
+ ],
+ "Pemaquid": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1014",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1625-01-01",
+   "t": "1783-09-03",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://avalon.law.yale.edu/18th_century/paris.asp",
+   "alinti": "Done at Paris, this third day of September / one thousand seven hundred and eighty-three",
+   "oneri": {},
+   "not": "ULKE DUZEYI: 1783 Paris Antlaşması imzası 3 Eylül 1783 (Yale Avalon Project, antlaşma metni neşri; TEK ÖLÇÜ imza günü, bu kıyı ABD denetimindeydi). Pemaquid ayrıca el değiştirmiş olabilir (Fort William Henry 1689/1696 Fransız-Wabanaki, arama özeti) — kısa kesintiler modellenmedi. f 1625: Maine/NPS kaynakları okunamadı (maine.gov robots, NPS NHL metninde yok), 1625-1629 arası yerleşim yılı çelişir."
+  }
+ ],
+ "Penjinsk ostrogu": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:54",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1709-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://encyclopedia.1914-1918-online.net/article/dual-power/",
+   "alinti": "after the Tsar’s abdication on 2nd [15th] of March 1917",
+   "oneri": {},
+   "not": "ULKE DUZEYI. O.S. 2 Mart = 15 Mart 1917. f 1709 (Penjinsk ostrogu kuruluşu) için kaynak ARANMADI (bütçe) — bu satırın f ucu BAKILMADI."
+  }
+ ],
+ "Pine Creek": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:194",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1871-01-01",
+   "t": "1911-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/proclamation-of-commonwealth-territories",
+   "alinti": "01 January 1911 The Australian Capital Territory and Northern Territory are created.",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Parliamentary Education Office, devlet yayını): NT 1 Ocak 1911'de Commonwealth'e geçti; Northern Territory Acceptance Act 1910 (legislation.gov.au) yürürlük 1 Ocak 1911, onay 16 Kasım 1910. f 1871: NT Place Names Register (ntlis.nt.gov.au id=17626) «Overland Telegraph Line in 1871 … Telegraph Station and Police Station» — kuruluş yılı belirsiz (hat 1870-72), f 1871 teyitsiz; Güney Avustralya'nın NT'yi 1863'ten beri yönetmesi okunmadı."
+  }
+ ],
+ "Pitic (Hermosillo)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:173",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1700-01-01",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "https://memoricamexico.gob.mx/es/memorica/Consumacion_de_la_Independencia",
+   "alinti": "entrada del ejército imperial a la ciudad de México el 27 de septiembre",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Memórica México). f 1700-01-01 Pitic kuruluşu için kaynak ARANMADI (INAFED/Sonora Hermosillo maddesi bakılmadı) — f ucu BAKILMADI."
+  }
+ ]
+}

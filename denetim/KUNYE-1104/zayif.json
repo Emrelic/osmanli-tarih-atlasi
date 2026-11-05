@@ -1,0 +1,3522 @@
+[
+{
+"id": "novgorod",
+"ad": "Novgorod Cumhuriyeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1136-01-01",
+"t": "1478-01-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "pskov",
+"ad": "Pskov Cumhuriyeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1348-01-01",
+"t": "1510-01-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "tver",
+"ad": "Tver Büyük Knezliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1246-01-01",
+"t": "1485-09-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "moskova",
+"ad": "Moskova Büyük Knezliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1283-01-01",
+"t": "1547-01-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "rusya-gecici-hukumet",
+"ad": "Rusya Geçici Hükûmeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1917-03-15",
+"t": "1917-11-07",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sovyet-rusya",
+"ad": "Sovyet Rusya / SSCB",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1917-11-07",
+"t": "1991-12-26",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "litvanya-buyuk-dukalik",
+"ad": "Litvanya Büyük Dükalığı",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1236-01-01",
+"t": "1569-07-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cenova",
+"ad": "Cenova Cumhuriyeti",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1099-01-01",
+"t": "1797-06-14",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "imereti",
+"ad": "İmereti Krallığı",
+"bolge": "kafkasya",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1490-01-01",
+"t": "1810-02-20",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ermenistan-demokratik-cumhuriyeti",
+"ad": "Ermenistan Demokratik Cumhuriyeti",
+"bolge": "kafkasya",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1918-05-28",
+"t": "1920-12-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "hail-ibn-ali",
+"ad": "Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)",
+"bolge": "arabistan",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1779-01-01",
+"t": "1836-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "residiler"
+},
+{
+"id": "dacu",
+"ad": "Dâcû (Daju) Hanedanlığı",
+"bolge": "misir-sudan",
+"kita": "Afrika",
+"f": "1200-01-01",
+"t": "1400-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "darfur"
+},
+{
+"id": "kaffa-kralligi",
+"ad": "Kaffa Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1390-01-01",
+"t": "1897-09-10",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cimma-sultanligi",
+"ad": "Cimma (Jimma) Sultanlığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1830-01-01",
+"t": "1933-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sidamo-kralliklari",
+"ad": "Sidamo Krallıkları",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1897-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "vollayta-kralligi",
+"ad": "Vollayta (Wolaita) Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1894-01-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "zaporojye",
+"ad": "Zaporojye Kazak Hetmanlığı",
+"bolge": "sibirya-bozkir",
+"kita": "Asya",
+"f": "1552-01-01",
+"t": "1775-06-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "bohemya",
+"ad": "Bohemya Krallığı",
+"bolge": "orta-avrupa",
+"kita": "Avrupa",
+"f": "1198-01-01",
+"t": "1526-12-05",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "milano-dukaligi",
+"ad": "Milano Dükalığı",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1097-01-01",
+"t": "1859-11-10",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "savoya",
+"ad": "Savoya Kontluğu / Dükalığı",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1032-01-01",
+"t": "1720-08-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "zend",
+"ad": "Zend Hanedanı (İran)",
+"bolge": "iran",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1751-01-01",
+"t": "1794-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "galzay",
+"ad": "Galzaylar (Hotakî Afgan Devleti)",
+"bolge": "iran",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1709-04-21",
+"t": "1738-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ryazan",
+"ad": "Ryazan Knezliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1129-01-01",
+"t": "1521-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "nube",
+"ad": "Nûbe Krallıkları (Makurya-Alve)",
+"bolge": "misir-sudan",
+"kita": "Afrika",
+"f": "0543-01-01",
+"t": "1504-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "somali",
+"ad": "Somali Sultanlıkları",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1500-01-01",
+"t": "1927-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "polonya-naiplik-kralligi",
+"ad": "Polonya Naiplik Krallığı (Regency Kingdom, Alman-Avusturya himayesi)",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1916-11-05",
+"t": "1918-11-11",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Poland' / 'History of Poland' (5 Kasım 1916 Beyannamesi); Polish History portalı 'The Act of 5 November 1916 and its Consequences' (polishhistory.pl); Polonya Tarihi Müzesi 'Powstanie Rady Regencyjnej Królestwa Polskiego' (muzhp.pl, Ekim 1917) ve 14 Kasım 1918 devir; IPN. Künye t=1918-11-11 atlasın II. Cumhuriyet künyesiyle süreklilik için seçildi; Konsey'in resmî sonu 14 Kasım 1918."
+},
+{
+"id": "charrua",
+"ad": "Charrúa (Minuan · Guenoa)",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1831-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "HSAI c.1 (Serrano, \"The Charrua\") halkı ve teritoryasını tarif ediyor ama SİYASÎ BİTİŞ vermiyor — ölçüldü, \"bitiş ifadesi + yıl\" içeren cümle 0. Bitiş SÖMÜRGE/ULUS DEVLET kaydında: Salsipuedes katliamı, Uruguay ordusu, Fructuoso Rivera. 🔴 GÜN 11 Nisan 1831 diye BİLDİRİLİYOR ama AKADEMİK kaynakla DOĞRULANAMADI (Uruguay Comisión Nacional de Sitios de Memoria sayfası 403 döndü; kalan sonuçlar Vikipedi düzeyinde). ⇒ YIL yazıldı, GÜN yazılmadı. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır."
+},
+{
+"id": "bundu",
+"ad": "Bundu Emirliği",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1690-01-01",
+"t": "1858-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Malik Sî'nin kurduğu Fûlânî imamlığı; başkenti Bulebane."
+},
+{
+"id": "berabis",
+"ad": "Berâbîş Kabile Konfederasyonu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1600-01-01",
+"t": "1894-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Timbuktu kuzeyi tuz kervan yolu (Aravan-Tavdeni) hâkimi Arap konfederasyonu."
+},
+{
+"id": "gambiya-mandinka",
+"ad": "Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1894-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gambiya nehri boyunca Mali ardılı küçük Mandinka devletleri."
+},
+{
+"id": "solima-yalunka",
+"ad": "Solima Yalunka Krallığı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1720-01-01",
+"t": "1884-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Yukarı Nijer; merkezi Falaba."
+},
+{
+"id": "kenedugu",
+"ad": "Kenedugu Krallığı (Sikasso)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1650-01-01",
+"t": "1898-05-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Senufo krallığı; Tieba ve Babemba dönemi; Fransız fethi 1898."
+},
+{
+"id": "liptako",
+"ad": "Liptako Emirliği (Dori)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1810-01-01",
+"t": "1897-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sokoto cihadının Gurma kuzeyindeki Fûlânî emirliği."
+},
+{
+"id": "zerma",
+"ad": "Zerma (Djerma) Devletçikleri",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1898-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Nijer nehri sağ yakası; Tillaberi · Tera · Say çevresi."
+},
+{
+"id": "kong-vattara",
+"ad": "Kong Devleti (Vattara)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1710-01-01",
+"t": "1897-05-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Seku Vattara'nın Dyula ticaret devleti; Samori 1897'de yıktı."
+},
+{
+"id": "gyaaman",
+"ad": "Gyaaman Krallığı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1690-01-01",
+"t": "1895-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Akan krallığı; merkezi Bondugu."
+},
+{
+"id": "buna",
+"ad": "Buna Krallığı (Kulango)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1690-01-01",
+"t": "1897-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kulango-Dyula devleti."
+},
+{
+"id": "gonja",
+"ad": "Gonja Krallığı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1550-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Volta kuzeyi; Salaga pazarı ve Bole bölümü."
+},
+{
+"id": "dagbon",
+"ad": "Dagbon Krallığı (Dagomba)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1401-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Yendi."
+},
+{
+"id": "eve-notse",
+"ad": "Eve (Ewe) Notse Birliği",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1884-07-05",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Notse ana yerleşimi; Alman Togo himayesi 1884."
+},
+{
+"id": "borgu",
+"ad": "Borgu Bariba Krallıkları (Nikki · Busa)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1898-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Nijer'in batısında Bariba devletçikleri konfederasyonu."
+},
+{
+"id": "ibadan",
+"ad": "İbadan Devleti",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1829-01-01",
+"t": "1893-08-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Oyo çöküşünden sonra doğan Yoruba askerî devleti; İngiliz himayesi 1893."
+},
+{
+"id": "aro-konfederasyonu",
+"ad": "Aro Konfederasyonu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1690-01-01",
+"t": "1902-03-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Arochukvu kâhin merkezli Igbo ticaret ağı; İngiliz seferi 1901-1902."
+},
+{
+"id": "nijer-deltasi",
+"ad": "Nijer Deltası Şehir Devletleri (Kalabar · Bonny)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1884-09-10",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Efik ve İjo ticaret devletleri; İngiliz Petrol Nehirleri himayesi 1884."
+},
+{
+"id": "jukun-kvararafa",
+"ad": "Kvararafa (Jukun) Krallığı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1900-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Vukari."
+},
+{
+"id": "tiv",
+"ad": "Tiv Halkı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1900-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Benue vadisi; merkezî devlet değil, soy örgütlenmesi — tanecik: HALK."
+},
+{
+"id": "birom-plato",
+"ad": "Jos Platosu Halkları (Birom · Jarava)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1903-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sokoto'ya hiç boyun eğmemiş plato toplulukları."
+},
+{
+"id": "damagaram",
+"ad": "Damagaram Sultanlığı (Zinder)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1731-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Bornu'ya tâbi Kanuri-Hausa sultanlığı; Fransız fethi 1899."
+},
+{
+"id": "adar",
+"ad": "Adar Hausa Sahası (Tahoua · Konni · Madaova)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gobir-Adar kuşağı; Sokoto ile Tuareg arasında."
+},
+{
+"id": "tuareg-air",
+"ad": "Aïr Tuareg Sultanlığı (Kel Ayr)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1405-01-01",
+"t": "1906-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Agadez sultanlığı ve Kel Ewey · Kel Fervan konfederasyonları; İn Gall · Fachi · Arlit tuz-kervan sahası."
+},
+{
+"id": "tuareg-adag",
+"ad": "Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kidal merkezli Ifoghas konfederasyonu."
+},
+{
+"id": "tuareg-ivellemmedan",
+"ad": "İvellemmedan Tuareg Konfederasyonu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Menaka-Azavad kuşağı."
+},
+{
+"id": "liberya",
+"ad": "Liberya Cumhuriyeti",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1822-04-25",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 1822 Amerikan Sömürgeleştirme Cemiyeti yerleşimi; 1847-07-26 bağımsız cumhuriyet. 🔴 HİÇ İNGİLİZ KOLONİSİ OLMADI — `ingiltere` yazmak §3.5 hayaleti üretir (bu turda son anda durduruldu)."
+},
+{
+"id": "dan-guro",
+"ad": "Dan · Guro · Bete Halkları (Fildişi orman kuşağı)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1898-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezî devlet kurmamış orman halkları — tanecik: HALK."
+},
+{
+"id": "kru-grebo",
+"ad": "Kru ve Grebo Halkları",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1822-04-25",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Liberya kıyısı; Liberya'dan önce."
+},
+{
+"id": "darul-kuti",
+"ad": "Dârü'l-Kûtî Sultanlığı (Senûsî)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1890-01-01",
+"t": "1911-01-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ndele merkezli köle ticaret sultanlığı; Muhammed es-Senûsî 1911'de öldürüldü."
+},
+{
+"id": "zende",
+"ad": "Zende (Azande) Sultanlıkları",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1750-01-01",
+"t": "1912-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Avungara hânedanının Ubangi-Uele sultanlıkları (Bangassu · Rafai · Zemio · Obo). 🔴 Bu kimliğin YOKLUĞU veride ZATEN kayıtlı: birden çok `kasitli_bosluk` kaydının `neden:` alanı 'zende kimliği yok' diyor."
+},
+{
+"id": "mangbetu",
+"ad": "Mangbetu Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1815-01-01",
+"t": "1895-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Uele yukarısı; merkezi Nangazizi."
+},
+{
+"id": "banda-gbaya",
+"ad": "Banda ve Gbaya Halkları",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1903-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ubangi-Şari iç kesimi; merkezî devlet kurmamış halklar — tanecik: HALK."
+},
+{
+"id": "tio",
+"ad": "Tio (Teke) Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1880-10-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Malebo Havuzu kuzeyi; Makoko ile Brazza antlaşması 1880. 🔴 `teke` KİMLİĞİ KULLANILAMAZ — o Anadolu'daki Teke Beyliğidir, çakışır (§4 Türkçe yazım ekseni)."
+},
+{
+"id": "kasance",
+"ad": "Kasance (Kasanje) Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1620-01-01",
+"t": "1910-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. İmbangala krallığı; Kvango vadisi."
+},
+{
+"id": "matamba",
+"ad": "Matamba Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1744-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Njinga'nın krallığı; 1744'te Portekiz'e yenildi."
+},
+{
+"id": "ovimbundu",
+"ad": "Ovimbundu Krallıkları (Bailundu · Viye · Vambu)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1700-01-01",
+"t": "1902-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Angola platosunun ticaret krallıkları; Bailundu ayaklanması 1902."
+},
+{
+"id": "ovambo",
+"ad": "Ovambo Krallıkları (Ondonga · Kvanyama)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1600-01-01",
+"t": "1917-02-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kral Mandume 1917'de öldü, bağımsızlık sona erdi."
+},
+{
+"id": "burundi",
+"ad": "Burundi Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1680-01-01",
+"t": "1916-06-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ganva hânedanı; merkezi Gitega."
+},
+{
+"id": "nkore",
+"ad": "Nkore (Ankole) Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1450-01-01",
+"t": "1901-10-25",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Hinda hânedanı; merkezi Mbarara."
+},
+{
+"id": "karagve",
+"ad": "Karagve Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1450-01-01",
+"t": "1890-07-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Bveranyange."
+},
+{
+"id": "toro",
+"ad": "Toro Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1830-01-01",
+"t": "1900-06-26",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Bunyoro'dan ayrıldı; merkezi Fort Portal."
+},
+{
+"id": "hehe",
+"ad": "Hehe Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1850-01-01",
+"t": "1898-07-19",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Munyigumba ve Mkvava; başkenti Kalenga; Mkvava 1898'de öldü."
+},
+{
+"id": "fipa-nyakyusa",
+"ad": "Fipa ve Nyakyusa Halkları",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1890-11-04",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Ufipa platosu ve Nyasa kuzeyi; Alman Doğu Afrika'ya katıldı."
+},
+{
+"id": "kazembe",
+"ad": "Mvata Kazembe Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1740-01-01",
+"t": "1899-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Lunda'nın Luapula kolu; merkezi Mvansabombve."
+},
+{
+"id": "kaonde-ila",
+"ad": "Kaonde ve İla Halkları",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1900-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Orta Zambiya; Kasempa · Mumbva sahası."
+},
+{
+"id": "yeke",
+"ad": "Yeke Krallığı (Msiri)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1856-01-01",
+"t": "1891-12-20",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Msiri'nin Katanga devleti; merkezi Bunkeya; Msiri 1891'de öldürüldü."
+},
+{
+"id": "kamba",
+"ad": "Kamba Halkı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1895-07-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kitui-Maçakos ticaret sahası."
+},
+{
+"id": "torva",
+"ad": "Torva Krallığı (Khami)",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1450-01-01",
+"t": "1683-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Büyük Zimbabve ardılı; başkenti Khami; Rozvi 1683'te yıktı."
+},
+{
+"id": "rozvi",
+"ad": "Rozvi İmparatorluğu (Changamire)",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1684-01-01",
+"t": "1834-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Changamire Dombo'nun devleti; merkezi Danangombe; Ngoni akınları 1834."
+},
+{
+"id": "matabele",
+"ad": "Matabele (Ndebele) Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1840-01-01",
+"t": "1893-11-04",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Mzilikazi 1840'ta yerleşti, Lobengula 1870'te Bulavayo'yu kurdu; İngiliz fethi 1893."
+},
+{
+"id": "pedi",
+"ad": "Pedi Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1650-01-01",
+"t": "1879-12-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Maroteng hânedanı; Sekhukhune 1879'da esir alındı; merkezi Tjate."
+},
+{
+"id": "venda",
+"ad": "Venda Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1700-01-01",
+"t": "1898-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Singo hânedanı; merkezi Dzata; Transvaal fethi 1898."
+},
+{
+"id": "svazi",
+"ad": "Svazi Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1815-01-01",
+"t": "1903-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sobhuza ve Mswati; merkezi Lobamba; İngiliz idaresi 1903."
+},
+{
+"id": "basuto",
+"ad": "Basuto (Basotho) Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1822-01-01",
+"t": "1868-03-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Moshoeshoe'nin devleti; Thaba Bosiu; İngiliz himayesi 1868."
+},
+{
+"id": "griqua",
+"ad": "Griqua Devletleri (Griqualand Batı ve Doğu)",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1804-01-01",
+"t": "1878-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kok ve Vaterboer hânedanları; Griquatown · Philippolis · Kokstad."
+},
+{
+"id": "tsvana",
+"ad": "Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1700-01-01",
+"t": "1885-03-31",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Beçuanalend İngiliz himayesi 1885-03-31. Şoşong · Serove · Molepolole · Kanye · Moçudi · Maun."
+},
+{
+"id": "herero",
+"ad": "Herero Halkı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1904-01-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Okahandja ve Otjimbingve; Alman soykırımı 1904'te başladı."
+},
+{
+"id": "nama-orlam",
+"ad": "Nama ve Orlam Kaptanlıkları",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1904-10-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Bondelsvarts · Vitbooi · Afrikaner kaptanlıkları; Varmbad · Bethanie · Rehoboth."
+},
+{
+"id": "xhosa",
+"ad": "Xhosa Krallıkları",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1878-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gcaleka ve Rharhabe kolları; dokuz sınır savaşı 1779-1878."
+},
+{
+"id": "tuareg-ahaggar",
+"ad": "Kel Ahaggar Tuareg Konfederasyonu",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1902-05-07",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 f: ATLAS UFKUDUR, kuruluş yılı DEĞİL. Atlasın kendi `Tamanrasset` kaydı 'Amenokal liderliğinde YAKLAŞIK 1750'den itibaren teşkilatlı; öncesinde de gevşek Tuareg…' diyor — yani 1750 TEŞKİLATLANMA, 1281 ise varlığın atlas ufkundaki başlangıcı. Bu ayrım gizlenmiyor. ⚠️ Tit muharebesi 1902-05-07 kesin gündür; Amenokal Musa ag Amastan'ın resmî tâbiiyeti 1905'tedir — künye ERKEN ucu, yani fiilî yenilgiyi alıyor."
+},
+{
+"id": "tuareg-accer",
+"ad": "Kel Accer Tuareg Konfederasyonu",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1911-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 t: DÜZELTİLDİ — M-2420'de '1911-11-27' yazmıştım, o GÜN kaynaklı DEĞİLDİ. `§4`: gün bilinmiyorsa YYYY-01-01. Yıl (1911) sağlam, gün değil ⇒ 1911-01-01. Kendi önerimdeki uydurma günü kendim çıkardım. ⚠️ Gât Libya tarafındadır ve LİBYA emsalini (hafsi/d/v/italya) kullanır; bu künye yalnız CEZAYİR tarafını kapsar."
+},
+{
+"id": "tubu-tibesti",
+"ad": "Tibesti Teda (Tubu) Konfederasyonu",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1281-01-01",
+"t": "1914-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 Bu künye, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt 'hiçbir devletin fiilen ulaştığı…' diyor ve `bos:\"kabile\"` taşıyor. Künye yazılırsa o beyan ya kaldırılmalı ya cinsi güncellenmelidir — karar ve o nokta KOORDİNATÖRDE. ⚠️ 1914 yılı sağlam, GÜN kaynaklı değil (`§4`: YYYY-01-01). İtalya Tibesti'yi hiç fiilen tutmadı; Fransız Borku-Ennedi-Tibesti idaresi esas alındı."
+},
+{
+"id": "kanada",
+"ad": "Kanada Dominyonu",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1867-07-01",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — British North America Act 1867 (birincil belge) · Historical Atlas of Canada (U. Toronto Press) — çevrimiçi doğrulanmadı. 🟢 f: 1867-07-01 KESİN GÜN — British North America Act'in yürürlüğe girdiği gün; şartnamenin dominyon ölçütünün ta kendisi. 🔴 BU KÜNYE TEK BAŞINA YETMEZ: mevcut `ingiliz-kuzey-amerika` künyesi bugün t:1923-10-29 taşıyor, yani 1867-1923 arası İKİSİ BİRDEN sahnede olur. O künyenin t:'si 1867-07-01'e ÇEKİLMELİDİR — aksi hâlde 56 yıllık bir örtüşme doğar. Karar ve düzeltme koordinatörde. ⚠️ tur: `devlet` seçtim (komanci · haudenosaunee emsali). Kanada bir federasyondur ve sözlükte `federasyon` değeri VAR ama yalnız 1 kez kullanılmış; tek kullanımlık bir değere yaslanmak istemedim. Değiştirmek tek alanlık iştir."
+},
+{
+"id": "inuit",
+"ad": "İnuit",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1000-01-01",
+"t": "1880-09-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 t: 1880-09-01 bu künyenin DIŞ ZARFIDIR, tek bir fetih günü değil. İnuit yurdu parça parça devredildi ve her parça KENDİ noktasının zincirinde daha erken kesilir: Grönland 1721 (danimarka) · Labrador 1763-02-10 (ingiliz-kuzey-amerika) · Alaska 1867-10-18 (abd) · Kanada Arktik'i 1880-09-01. Zarf, EN GEÇ devredilen parçanın günüdür. ⚠️ Bu bir sadeleştirmedir ve gizlemiyorum: alternatifi beş ayrı bölgesel künye açmaktır (inuit-gronland · inuit-labrador · inyupiak · inuvialuit · …) ve o, şartnamenin HALK taneciğinden daha ince olurdu. Karar koordinatörde. 🟡 f: 1281-01-01 ATLAS UFKUDUR, kuruluş yılı değil — Thule yayılımı 13. yüzyılda tamamlanmıştı."
+},
+{
+"id": "dene",
+"ad": "Dene (Atabask Halkları)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1899-06-21",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı. 🟢 t: 1899-06-21 — 8 Numaralı Antlaşma'nın Lesser Slave Lake'te imzalandığı gün. M-2498'in ekseni: yerli bir yapının `t:` günü GENELLİKLE sömürgecinin tarihidir, ve burada da öyle. ⚠️ Antlaşma bütün Dene'yi kapsamaz — 11 Numaralı Antlaşma 1921'de Mackenzie aşağısını ekledi, Yukon Gwich'in'i hiç antlaşma imzalamadı. 1899 EN ERKEN toplu devirdir, kapsayıcı değil. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "kri",
+"ad": "Kri (Nehiyaw)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1876-08-23",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı. 🟢 t: 1876-08-23 — 6 Numaralı Antlaşma'nın Fort Carlton'da imzalandığı gün; Ova ve Orman Krilerinin ana devir belgesi. ⚠️ Kri toprağı tek antlaşmayla kapanmadı: 1 ve 2 Numaralı 1871, 3 Numaralı 1873, 4 Numaralı 1874, 5 Numaralı 1875, 6 Numaralı 1876, 8 Numaralı 1899, 9 Numaralı 1905. 1876 ORTA ve en temsilî olanıdır; seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "ojibwe",
+"ad": "Ojibwe (Anişinabe)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1850-09-07",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1850-09-07 — Robinson-Superior Antlaşması; Yukarı Göller kuzey kıyısının Britanya idaresine devri. İki gün sonra Robinson-Huron imzalandı. ⚠️ ABD tarafındaki Ojibwe toprakları daha önce (1837 · 1842 · 1854) devredildi; bu künye kuzey kıyıyı esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "metis",
+"ad": "Métis Ulusu",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1816-06-19",
+"t": "1885-05-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Historical Atlas of Canada (U. Toronto Press) · Dictionary of Canadian Biography — çevrimiçi doğrulanmadı. 🟢 t: 1885-05-12 — Batoche'un düştüğü gün; M-2498'in verdiği tarih. 🟢 f: 1816-06-19 — Seven Oaks çatışması, Métis'in ayrı bir siyasî özne olarak ilk toplu eylemi. ⚠️ f: için alternatif 1869-11-16 (Kızıl Irmak geçici hükûmeti) idi; onu değil 1816'yı seçtim, çünkü şartnamenin `kur:` kuralı EN ERKEN KALICI olayı ister ve geç tarih hücreyi boşlukta bırakıp komşusuna emdirir (`§2`)."
+},
+{
+"id": "lakota",
+"ad": "Lakota (Teton Sioux)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1890-12-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1890-12-29 — Wounded Knee; M-2498'in verdiği tarih ve M-2498'in ekseninin en saf örneği: künyenin sonu Lakota'nın değil, ABD ordusunun takvimidir. 🟡 f: 1281-01-01 ATLAS UFKU — Lakota'nın Ovalar'a batıya göçü 18. yüzyıldadır, ama halk daha önce de vardı; erken uç `§2` gereği tercih edildi."
+},
+{
+"id": "navaho",
+"ad": "Navaho (Diné)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1868-06-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1868-06-01 — Bosque Redondo Antlaşması; M-2498'in verdiği tarih. ⚠️ Bu antlaşma Navaho'nun yurduna DÖNÜŞÜNÜ sağladı, yani `t:` bir yok oluş değil, bağımsız siyasî varlığın ABD idaresi altına girişidir — `t:` alanının anlamı budur ve karıştırılmamalıdır. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "nez-perce",
+"ad": "Nez Perce (Nimíipuu)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1877-10-05",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1877-10-05 — Bear Paw Dağları'nda Şef Joseph'in teslim olduğu gün; M-2498 '1877' diyor, gün bu. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "hayda",
+"ad": "Hayda",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1858-08-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1858-08-02 — Britanya Kolumbiyası Kolonisi'nin kurulduğu gün; Haida Gwaii resmen koloni sınırları içine alındı. ⚠️ Fiilî tâbiiyet bu günde gerçekleşmedi; 1862 çiçek salgını nüfusu yıktı ve asıl kırılma odur. İdarî günü seçtim çünkü atlas TASARRUFU boyar, demografiyi değil. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "tlingit",
+"ad": "Tlingit",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1867-10-18",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) · Black, Russians in Alaska (U. Alaska Press) — çevrimiçi doğrulanmadı. 🟢 t: 1867-10-18 — Alaska'nın ABD'ye devredildiği gün. ⚠️ Bu bir FETİH günü DEĞİL: Rusya, hiçbir zaman fiilen denetlemediği Tlingit topraklarını da kapsayan bir devir yaptı ve Tlingit bunu tanımadı. Atlas idarî tasarrufu boyadığı için gün budur, ama tarihsel çekince kayıtlıdır. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "vendat",
+"ad": "Vendat (Huron) Konfederasyonu",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1649-03-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Trigger, The Children of Aataentsic (McGill-Queen's UP) · HNAI c.15 Northeast — çevrimiçi doğrulanmadı. 🟢 t: 1649-03-16 — Saint-Ignace ve Saint-Louis köylerinin düştüğü gün; Huronia'nın dağılışının kesin tarihi. Konfederasyon o yıl içinde tamamen çözüldü. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "beothuk",
+"ad": "Beothuk",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1829-06-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1829-06-06 — bilinen son Beothuk olan Shanawdithit'in öldüğü gün. ⚠️ `t:` burada ötekilerden FARKLI bir şey söylüyor: bir idarî devir değil, halkın kendisinin sona erişi. Bu ayrım künyenin okunmasında önemlidir ve gizlenmemelidir. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "savni",
+"ad": "Şavni (Shawnee)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1795-08-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması. ⚠️ Şavni direnişi bitmedi: Tecumseh 1811-13'te yeniden birleştirdi. Ama toprak tasarrufu 1795'te devredildi ve atlas TASARRUFU boyar. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "miami",
+"ad": "Miami (Myaamia)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1795-08-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması, Şavni ile aynı gün ve aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "sauk",
+"ad": "Sauk (Asakiwaki)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1832-09-21",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1832-09-21 — Kara Şahin Savaşı'nı kapatan antlaşma. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "abenaki",
+"ad": "Abenaki (Wabanaki)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1725-12-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1725-12-15 — Dummer Antlaşması'nın Boston'da imzalandığı gün. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "mikmak",
+"ad": "Mikmak (Mi'kmaq)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1761-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1761-01-01 — YIL SAĞLAM, GÜN DEĞİL. Barış ve Dostluk Antlaşmaları 1760-1761 boyunca ayrı ayrı bölgelerle imzalandı; tek bir gün yoktur. `§4`: gün bilinmiyorsa YYYY-01-01. Uydurma gün yazmadım. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "maliseet",
+"ad": "Maliseet (Wolastoqiyik)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1761-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1761-01-01 — Mikmak ile aynı gerekçe: yıl sağlam, gün yok. 🟡 f: 1281-01-01 ATLAS UFKU. ⚠️ Mikmak ile aynı `t:` taşıması tesadüf değil, aynı antlaşma kuşağıdır."
+},
+{
+"id": "cikasav",
+"ad": "Çikasav (Chickasaw)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1907-11-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1832-10-20 — Pontotoc Creek Antlaşması. Emsal: `choctaw` t:1830-09-27 (Dancing Rabbit Creek) — aynı kuşak, aynı mantık. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "sosoni",
+"ad": "Şoşoni",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1868-07-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) · Steward, BAE Bulletin 120 — çevrimiçi doğrulanmadı. 🟢 t: 1868-07-03 — ikinci Fort Bridger Antlaşması; Wind River Rezervasyonu'nu kuran belge. ⚠️ Batı Şoşonileri ayrı bir antlaşma imzaladı (Ruby Vadisi 1863) ve toprakları hiç devredilmedi sayılır; bu künye DOĞU kolunu esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "ute",
+"ad": "Ute (Núuchiu)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1880-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1880-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1880 Ute Removal Act, Beyaz Irmak ve Uncompahgre bantlarını Utah'a sürdü. Kanun tarihi kaynaktan gün olarak doğrulanmadı ⇒ `§4` gereği YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "mandan",
+"ad": "Mandan",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1851-09-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Kuzey Ovalar halklarının toprak sınırlarının ABD'ce tanımlandığı belge. ⚠️ Mandan'ın asıl kırılması 1837 salgınıdır (nüfus ~1600'den ~125'e); ama atlas TASARRUF boyar ve tasarruf 1851'de tanımlandı. Ayrım gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "karga",
+"ad": "Karga (Apsáalooke)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1851-09-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Karga toprakları ilk kez tanımlandı. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "pavni",
+"ad": "Pavni (Pawnee)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1857-09-24",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1857-09-24 — Table Creek Antlaşması; Pavni toprağının büyük kısmının devri. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "wicita",
+"ad": "Wiçita",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1859-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1859-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1859'da Wiçita'lar Teksas'tan Kızıl Irmak'ın kuzeyindeki ayrılmış bölgeye sürüldü. Gün kaynaktan doğrulanmadı ⇒ `§4` YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "aleut",
+"ad": "Aleut (Unangax̂)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1784-08-14",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı. 🟢 t: 1784-08-14 — Şelihov'un Kodiak'ta Üç Aziz Körfezi yerleşimini kurduğu ve Awa'uq direnişini kırdığı gün; Rus-Amerika düzeninin fiilen başladığı tarih. ⚠️ Bu gün Kodiak Alutiiq'ine aittir; Aleut adalarının tâbiiyeti 1760'lardan itibaren kademelidir. Tek gün seçimi bir sadeleştirmedir ve gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "alutiiq",
+"ad": "Alutiiq (Sugpiaq)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1784-08-14",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı. 🟢 t: 1784-08-14 — Awa'uq (Refuge Rock) direnişinin kırıldığı ve Üç Aziz Körfezi yerleşiminin kurulduğu gün. Aleut ile aynı gün, aynı olay. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "yupik",
+"ad": "Yupik",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1867-10-18",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1867-10-18 — Alaska'nın ABD'ye devri. ⚠️ Bu bir fetih DEĞİL, idarî devirdir; Yupik iç bölgeleri fiilen o gün de bağımsızdı. `İnuit` ve `Tlingit` künyelerindeki aynı çekince burada da geçerlidir. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "zuni",
+"ad": "Zuni (A:shiwi)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1848-02-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.9 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 TERİTORYAL SINAVI GEÇTİ: kaynak Zuni'nin belirli pueblo'ları ve tarım arazisini SÜREKLİ denetlediğini söylüyor — 'şu bölgede yaşarlardı' değil. 🟢 t: 1848-02-02 Guadalupe Hidalgo Antlaşması; Yeni Meksika ABD'ye geçti. 🔴 pueblo-bagimsizligi künyesinin KAPSAMINA SOKULMADI ve sebebi ölçüldü: o künye f:1680-08-10 t:1692-08-01, yani ON İKİ YILLIK BİR AYAKLANMA — genel bir Pueblo kimliği DEĞİL. Zuni'yi oraya koymak onu 1680 öncesi ve 1692 sonrası YOK saymak olurdu."
+},
+{
+"id": "nuxalk",
+"ad": "Nuxalk (Bella Coola)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1858-08-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve vadi boyunca tanımlı köy toprakları var — teritoryal denetim açık. 🟢 t: 1858-08-02 Britanya Kolumbiyası Kolonisi. ⚠️ hayda ve secwepemc ile AYNI GÜN ve aynı gerekçe: üçü birlikte karara bağlandı, tek tek değil."
+},
+{
+"id": "secwepemc",
+"ad": "Secwépemc (Shuswap)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1858-08-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: çukur-ev kış köyleri sabit ve band toprakları tanımlı — kaynak 'şu bölgede yaşarlardı' demiyor, belirli havzaların denetimini anlatıyor. 🟢 t: 1858-08-02 BK Kolonisi; aynı yıl Fraser altına hücumu toprağı fiilen açtı. ⚠️ hayda · nuxalk ile aynı gün, aynı gerekçe."
+},
+{
+"id": "nuu-cah-nulth",
+"ad": "Nuu-chah-nulth (Mowachaht)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1858-08-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 SINAVI EN GÜÇLÜ BURADA: Maquinna'nın Yuquot ve çevresindeki denetimi iki Avrupa devleti tarafından MÜZAKERE MUHATABI olarak tanındı — teritoryal denetimin bundan açık kaydı az. 🟢 t: 1858-08-02 BK Kolonisi. ⚠️ Alternatif bir okuma vardı: 1790-10-28 Nootka Sözleşmesi. Onu SEÇMEDİM çünkü o sözleşme İspanya ile Britanya arasındadır ve Nuu-chah-nulth tasarrufunu sona erdirmez; atlas TASARRUFU boyar. Seçim gizlenmiyor."
+},
+{
+"id": "kalusa",
+"ad": "Kalusa (Calusa)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1763-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kaynak Kalusa'nın çevre kasabaları HARACA BAĞLADIĞINI ve İspanyol girişimlerini püskürttüğünü söylüyor — tarım yapmayan tek büyük Kuzey Amerika reisliği olması da bu yüzden dikkat çeker. Teritoryal denetim açık. 🟡 t: 1763-01-01 — YIL SAĞLAM, GÜN DEĞİL. Florida'nın İspanya'dan Britanya'ya geçtiği 1763'te kalan Kalusa nüfusu Küba'ya taşındı. §4 gereği YYYY-01-01."
+},
+{
+"id": "mohave",
+"ad": "Mohave (Aha Macav)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1865-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: taşkın sulamalı SABİT tarım arazileri ve ırmak geçidinin denetimi kaynakta açıkça anlatılıyor. 🟡 t: 1865-01-01 — Kolorado Irmağı Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01."
+},
+{
+"id": "klamath",
+"ad": "Klamath (Maklaks)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1864-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve tanımlı göl-bataklık kaynak alanları var. 🟡 t: 1864-01-01 — Klamath Antlaşması'nın yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01."
+},
+{
+"id": "sahaptin",
+"ad": "Sahaptin (Orta Columbia halkları)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1855-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: Wayám'da balıkçılık mevkileri AİLE VE KÖY DÜZEYİNDE MÜLK sayılırdı ve kaynak bu denetimi ayrıntısıyla anlatır — 'şu bölgede yaşarlardı'nın tam tersi. 🟡 t: 1855-01-01 — 1855 Walla Walla antlaşmaları birkaç gün içinde AYRI AYRI imzalandı ve Celilo'yu kapsayan belgenin günü doğrulanmadı; §4 gereği YYYY-01-01. Uydurma gün yazmadım."
+},
+{
+"id": "ponka",
+"ad": "Ponka (Ponca)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1858-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: sabit toprak-ev köyleri ve tanımlı tarım arazisi var. 🟡 t: 1858-01-01 — 1858 Ponka antlaşmasının yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01."
+},
+{
+"id": "occaneechi",
+"ad": "Occaneechi",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1676-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kaynak Occaneechi'nin ticaret yolunun geçtiği ADALARI tuttuğunu ve aracılığı TEKELİNDE bulundurduğunu söylüyor — teritoryal denetim açık ve ekonomiktir. 🟡 t: 1676-01-01 — Bacon Ayaklanması sırasında dağıtıldıkları yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01."
+},
+{
+"id": "etowah",
+"ad": "Etowah",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1100-01-01",
+"t": "1550-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 TEK BİR mississippi-kulturu KÜNYESİ YAZILMADI ve sebebi ölçüldü: Etowah · Moundville · Spiro · Ocmulgee'nin DÖRT AYRI sonu var; tek künye üçünün t:'sini yalanlardı. Emsal atlasın kendisinde: cahokia (f:1050 t:1350) TEK bir höyük merkezi için AYRI künyedir. 🟡 t: 1550-01-01 — De Soto 1540'ta buradan geçtiğinde merkez hâlâ iskânlıydı; yüzyılın ortasında terk edildi. YIL yaklaşıktır, GÜN yoktur; §4 gereği YYYY-01-01 ve yaklaşıklık burada AÇIKÇA yazılıdır."
+},
+{
+"id": "moundville",
+"ad": "Moundville",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1120-01-01",
+"t": "1450-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — merkez 15. yüzyıl ortasında büyük ölçüde boşaldı. YIL YAKLAŞIKTIR ve gün yoktur; §4 gereği YYYY-01-01. ⚠️ Bu bir fetih ya da devir değil, bir merkezin sönümlenmesidir — okuyan karıştırmasın."
+},
+{
+"id": "spiro",
+"ad": "Spiro",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "0850-01-01",
+"t": "1450-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1450-01-01 — tören kullanımı 15. yüzyıl ortasında sona erdi. YIL YAKLAŞIKTIR; §4 gereği YYYY-01-01. ⚠️ Moundville ile aynı gün taşıması tesadüf değil, aynı yüzyıl ortası çözülmesidir — ama iki AYRI künyedir ve tek künyede birleştirilmedi."
+},
+{
+"id": "payut",
+"ad": "Payut (Paiute)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1872-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Steward, Basin-Plateau Aboriginal Sociopolitical Groups (BAE Bulletin 120) · HNAI c.11 Great Basin (Smithsonian) — çevrimiçi doğrulanmadı. 🔴 M-2425 SINAVI AYNI HALKIN İKİ KOLUNDA İKİ FARKLI CEVAP VERDİ ve bunu gizlemiyorum: Owens Vadisi Payutları SULAMA KANALLARI kazıyor ve köy bölgeleri tanımlıydı (Steward, BAE Bulletin 120) ⇒ teritoryal şart AÇIKÇA karşılanıyor, Büyük Havza'da istisnaî bir vaka. Kara Kaya Çölü'ndeki Kuzey Payutları ise hareketli bantlardı ⇒ o kol tek başına künye hak etmezdi. HALK taneciği kuralı (§⑥) gereği TEK künye yazıldı ve ölçüt GÜÇLÜ OLAN kolun lehine çözüldü; alternatif, halkı ikiye bölüp §⑥'nın 'klan FAZLA İNCE' sınırına düşmekti. 🟡 t: 1872-01-01 — künyenin DIŞ ZARFI: Malheur Rezervasyonu'nun kurulduğu yıl. Owens Vadisi kolu DAHA ERKEN kapanır (1863) ve o noktanın kendi zinciri orada kesilir. Yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU."
+},
+{
+"id": "yavapai",
+"ad": "Yavapai",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1873-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 M-2425 SINIRDA GEÇTİ ve sınırda olduğunu YAZIYORUM: Yavapai bantları hareketliydi, ama dört bandın her birinin tanımlı bölgesel alanı vardı ve kaynak bunları ADIYLA ayırıyor — 'şu bölgede yaşarlardı' genellemesinden ileri. Emsal de destekliyor: atlas apaci-ovalar künyesiyle benzer hareketlilikteki bir gruba ZATEN künye vermiş. 🟡 t: 1873-01-01 — Rio Verde Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. ⚠️ 1875'te San Carlos'a zorla yürütülmeleri daha ağır bir kırılmadır ama toprak tasarrufu 1873'te sona erdi; atlas TASARRUFU boyar."
+},
+{
+"id": "meskalero-apaci",
+"ad": "Meskalero Apaçileri",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1873-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🔴 apaci-ovalar İLE ÇAKIŞMA SORUSUNU ÖLÇTÜM VE ÇAKIŞMA YOK. O künyenin özeti şöyle diyor: 'Güney Büyük Ovalar'da yarı-yerleşik Apaçi grupları… Bitiş, at ve tüfek ticaretinin birleştiği ~1750'de KOMANÇİ BASKISIYLA OVALARDAN ÇEKİLMELERİDİR.' ⇒ O künye OVALAR Apaçisini kapsıyor ve 1750'de ovalardan çekilmeyle bitiyor; Meskalero DAĞ Apaçisidir ve ovalarda değildi. İki künye AYRI COĞRAFYA, ayrı halk. ⚠️ M-2528'de bu soruyu 'ölçmedim' diye açık bırakmıştım; künyenin ozet: alanını okuyunca kapandı. 📌 Ve bu, §4'ün 'kaynağın kendi uyarısını da oku' kuralının künye tarafı: cevap künyenin İÇİNDE yazılıydı, ben yalnız f/t/tur/bolge alanlarına bakmıştım. 🟡 t: 1873-01-01 — Meskalero Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01."
+},
+{
+"id": "letonya",
+"ad": "Letonya Cumhuriyeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1918-11-18",
+"t": "1940-08-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "litvanya",
+"ad": "Litvanya Cumhuriyeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1918-02-16",
+"t": "1940-08-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok (arama yalnız Lipkalar maddesine düşüyor), dayanak: standart akademik kaynak"
+},
+{
+"id": "estonya",
+"ad": "Estonya Cumhuriyeti",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1918-02-24",
+"t": "1940-08-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "norvec-kralligi",
+"ad": "Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)",
+"bolge": "kuzey-avrupa",
+"kita": "Avrupa",
+"f": "0872-01-01",
+"t": "1537-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "norvec",
+"ad": "Norveç Krallığı (bağımsız)",
+"bolge": "kuzey-avrupa",
+"kita": "Avrupa",
+"f": "1905-06-07",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cungar",
+"ad": "Cungar Hanlığı (Kalmuk)",
+"bolge": "orta-asya",
+"kita": "Asya",
+"f": "1634-01-01",
+"t": "1758-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "delhi-sultanligi",
+"ad": "Delhi Sultanlığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1206-01-01",
+"t": "1526-04-21",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "vijayanagara",
+"ad": "Vijayanagara İmparatorluğu",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1336-01-01",
+"t": "1646-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "maratha",
+"ad": "Maratha Konfederasyonu",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1674-06-06",
+"t": "1818-06-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sih-imparatorlugu",
+"ad": "Sih İmparatorluğu (Pencap)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1801-04-12",
+"t": "1849-03-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "meysur",
+"ad": "Meysûr Krallığı/Sultanlığı (Vodeyar 1610-1761; Haydar Ali / Tipu Sultan 1761-1799)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1610-01-01",
+"t": "1799-05-04",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "xi-liang-li-gao",
+"ad": "Batı Liang (Li Gao, 西涼)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "0400-01-01",
+"t": "0421-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "Fang Xuanling vd., Jin shu juan 87 «Liang wu zhao wang Li Gao» (zh.wikisource.org/wiki/晉書/卷087, Çince, okundu): «隆安四年，晉昌太守唐瑤移檄六郡，推玄盛為大都督、大將軍、涼公» · Sima Guang, Zizhi tongjian juan 119 (zh.wikisource.org/wiki/資治通鑑/卷119, Çince, okundu): Li Xun 永初元年 Liaoquan'da öldürüldü, 永初二年三月 Dunhuang teslim; gün bulunamadı"
+},
+{
+"id": "goryeo",
+"ad": "Goryeo Hanedanı (Kore)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "0918-07-25",
+"t": "1392-08-05",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "joseon",
+"ad": "Joseon Hanedanı (Kore)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1392-08-05",
+"t": "1910-08-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "edo-bakufu",
+"ad": "Edo (Tokugawa) Şogunluğu",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1603-03-24",
+"t": "1868-01-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sanzan",
+"ad": "Sanzan Dönemi (Üç Krallık, Okinawa)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1322-01-01",
+"t": "1429-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ryukyu",
+"ad": "Ryukyu Krallığı",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1429-01-01",
+"t": "1879-03-27",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "nguyen-hanedani",
+"ad": "Nguyễn Hanedanı (Vietnam)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1802-06-01",
+"t": "1945-08-30",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "mataram-sultanligi",
+"ad": "Mataram Sultanlığı (Cava)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1587-01-01",
+"t": "1755-02-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "poni",
+"ad": "Po-ni (Poni) Krallığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "0977-01-01",
+"t": "1405-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "songhay-imparatorlugu",
+"ad": "Songhay İmparatorluğu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1464-01-01",
+"t": "1591-04-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "hausa-sehir-devletleri",
+"ad": "Hausa Şehir Devletleri",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1000-01-01",
+"t": "1808-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "asanti",
+"ad": "Aşanti İmparatorluğu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1701-01-01",
+"t": "1902-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "dahomey",
+"ad": "Dahomey Krallığı",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1625-01-01",
+"t": "1894-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "benin-kralligi",
+"ad": "Benin Krallığı (Nijerya)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1180-01-01",
+"t": "1897-02-18",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "oyo-imparatorlugu",
+"ad": "Oyo İmparatorluğu (Yoruba)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1400-01-01",
+"t": "1836-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kongo-kralligi",
+"ad": "Kongo Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1390-01-01",
+"t": "1914-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ndongo",
+"ad": "Ndongo Krallığı (Angola)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1500-01-01",
+"t": "1671-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "loango",
+"ad": "Loango Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1550-01-01",
+"t": "1883-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok (`loango` slug'ı 302 döndürdü), dayanak: standart akademik kaynak"
+},
+{
+"id": "luba",
+"ad": "Luba İmparatorluğu",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1585-01-01",
+"t": "1889-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Thomas Q. Reefe, 'The Rainbow and the Kings', Univ. of California Press 1981)"
+},
+{
+"id": "kuba",
+"ad": "Kuba Krallığı",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1625-01-01",
+"t": "1900-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "lunda-imparatorlugu",
+"ad": "Lunda İmparatorluğu",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1665-01-01",
+"t": "1887-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "buganda",
+"ad": "Buganda Krallığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1300-01-01",
+"t": "1966-05-24",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "zulu-kralligi",
+"ad": "Zulu Krallığı",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1816-01-01",
+"t": "1879-07-04",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "merina",
+"ad": "Merina Krallığı (Madagaskar)",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1787-01-01",
+"t": "1897-02-28",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "svahili-sehirleri",
+"ad": "Svahili Şehir Devletleri (Kıyı)",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1000-01-01",
+"t": "1698-12-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "umman-zengibar",
+"ad": "Umman-Zengibar Sultanlığı",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1698-01-01",
+"t": "1964-01-12",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "aztek-imparatorlugu",
+"ad": "Aztek (Mexica) İmparatorluğu",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "1428-01-01",
+"t": "1521-08-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "maya-sehir-devletleri",
+"ad": "Maya Şehir Devletleri (Post-Klasik)",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "1000-01-01",
+"t": "1697-03-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "brezilya-imparatorlugu",
+"ad": "Brezilya İmparatorluğu",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "1822-09-07",
+"t": "1889-11-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "haiti",
+"ad": "Haiti Cumhuriyeti",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "1804-01-01",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "hawaii-kralligi",
+"ad": "Hawaii Krallığı",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "1795-01-01",
+"t": "1893-01-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "tonga-kralligi",
+"ad": "Tonga Krallığı",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "1845-12-04",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — arandı, yok (canonik \"tonga\" ve alternatif \"tonga-adalari\" ikisi de yalnız alakasız kişi adları -Alp Er Tonga, G. Tongas- döndürüyor); dayanak: standart akademik kaynak"
+},
+{
+"id": "kuzey-bolgesi-sa",
+"ad": "Kuzey Bölgesi (Güney Avustralya'ya bağlı, 1863–1911)",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "1863-07-06",
+"t": "1911-01-01",
+"sinif": "EB1911",
+"kaynak": "Museum of Australian Democracy, «Creating a Nation» — sayfa AÇILDI: «6 July 1863: Northern Territory administration transfers from New South Wales to South Australia»; Australian Bureau of Statistics, Year Book Australia (1973, bölüm 28; ausstats.abs.gov.au) — arama özetinde okundu: bölge 1 Ocak 1911'de Commonwealth'e geçti."
+},
+{
+"id": "iskocya",
+"ad": "İskoçya Krallığı",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "0843-01-01",
+"t": "1707-05-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "irlanda",
+"ad": "İrlanda (Gal Beylikleri ve Krallığı)",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1000-01-01",
+"t": "1603-03-30",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "irlanda-serbest-devlet",
+"ad": "İrlanda Serbest Devleti",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1922-12-06",
+"t": "1937-12-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "bretanya",
+"ad": "Bretanya Dükalığı",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "0939-01-01",
+"t": "1532-08-13",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "burgonya",
+"ad": "Burgonya Dükalığı (Valois)",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1032-01-01",
+"t": "1482-03-27",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "navarra",
+"ad": "Navarra Krallığı",
+"bolge": "iberya",
+"kita": "Avrupa",
+"f": "0824-01-01",
+"t": "1620-10-19",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "siena",
+"ad": "Siena Cumhuriyeti",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1125-01-01",
+"t": "1555-04-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ferrara",
+"ad": "Este Devleti (Ferrara / Modena)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1240-01-01",
+"t": "1859-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "bonacolsi",
+"ad": "Bonacolsi Senyörlüğü (Mantova)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1273-01-01",
+"t": "1328-08-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "mantua",
+"ad": "Mantua Dukalığı (Gonzaga)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1328-01-01",
+"t": "1708-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "parma",
+"ad": "Parma Dukalığı (Farnese / Bourbon)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1545-08-16",
+"t": "1860-03-18",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "piza",
+"ad": "Pisa Cumhuriyeti",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1000-01-01",
+"t": "1406-10-09",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "luksemburg",
+"ad": "Lüksemburg Büyük Dükalığı",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1890-11-23",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sur-hanedani",
+"ad": "Sûrîler (Sûr Hânedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1540-05-17",
+"t": "1564-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "racput",
+"ad": "Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1000-01-01",
+"t": "1947-08-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "nayak-devletleri",
+"ad": "Nâyak Beylikleri (Madurai, Tancûr, Cinci, Keladi)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1336-01-01",
+"t": "1763-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "orissa",
+"ad": "Orissa (Doğu Ganga ve Gacapati Krallığı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1000-01-01",
+"t": "1568-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "tibet",
+"ad": "Tibet (Phagmodrupa · Rinpungpa · Tsangpa)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1354-01-01",
+"t": "1642-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kuzey-yuan",
+"ad": "Kuzey Yuan (Moğol Hanlığı)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1368-09-14",
+"t": "1691-05-30",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "surakarta",
+"ad": "Surakarta Sunanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1755-02-13",
+"t": "1946-06-16",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "bidar",
+"ad": "Barîdşâhî Sultanlığı (Bîdar)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1489-01-01",
+"t": "1619-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "gond-kralliklari",
+"ad": "Gond Krallıkları (Garha-Mandla, Deogarh)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1301-01-01",
+"t": "1781-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ahom",
+"ad": "Ahom Krallığı (Assam)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1826-02-24",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "manipur",
+"ad": "Manipûr Krallığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1949-10-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "nepal",
+"ad": "Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1000-01-01",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ladak",
+"ad": "Ladakh Krallığı (Namgyal Hânedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1834-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kalikut",
+"ad": "Kalikut Zamorinliği",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1100-01-01",
+"t": "1766-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "travankur",
+"ad": "Travankur Krallığı (Venâd)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1949-07-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kandy",
+"ad": "Kandy Krallığı (Seylan)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1469-01-01",
+"t": "1815-03-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "yafna",
+"ad": "Yafna (Jaffna) Krallığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1619-02-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ava",
+"ad": "Yukarı Birmanya (Pinya, Sagaing, Ava Krallığı)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1297-01-01",
+"t": "1555-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "lan-na",
+"ad": "Lan Na Krallığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1262-01-01",
+"t": "1558-04-02",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "san-devletleri",
+"ad": "Şan Beylikleri (Sawbwa'lıklar)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1923-10-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "lan-xang",
+"ad": "Lan Xang Krallığı (Laos)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1353-01-01",
+"t": "1707-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "angkor-kmer",
+"ad": "Kmer (Angkor) İmparatorluğu",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "0802-01-01",
+"t": "1431-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "malay-sultanliklari",
+"ad": "Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1909-07-10",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cohor-sultanligi",
+"ad": "Cohor (Johor) Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1528-01-01",
+"t": "1923-10-29",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "palembang-sultanligi",
+"ad": "Palembang Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1825-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "banten-sultanligi",
+"ad": "Banten Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1527-06-22",
+"t": "1813-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "banjar-sultanligi",
+"ad": "Bancar (Banjar) Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1526-01-01",
+"t": "1860-06-11",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "gova-makassar",
+"ad": "Gova (Makassar) Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1667-11-18",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Cogent Arts & Humanities 13:1, 2604957, 2026 — Poelinggomang vd. 2004'e dayanarak)"
+},
+{
+"id": "banda-adalari",
+"ad": "Banda Adaları (Orang Kaya Meclisleri)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1621-03-08",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: John Villiers, 'Trade and Society in the Banda Islands in the Sixteenth Century', Modern Asian Studies 15(4), 1981 (hakemli) + Holden Furber, 'Rival Empires of Trade in the Orient' (Univ. of Minnesota Press, 1976)"
+},
+{
+"id": "bali-kralliklari",
+"ad": "Bali Krallıkları (Gelgel, Klungkung, Karangasem)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1478-01-01",
+"t": "1908-04-28",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "pagaruyung",
+"ad": "Pagaruyung (Minangkabau) Krallığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1833-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "timor-beylikleri",
+"ad": "Timor Beylikleri (Liurai'lar)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1769-10-10",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Hans Hägerdal, 'Lords of the Land, Lords of the Sea', KITLV 2012)"
+},
+{
+"id": "azuchi-momoyama",
+"ad": "Azuchi-Momoyama Dönemi (Oda-Toyotomi Japonyası)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1568-10-16",
+"t": "1615-06-04",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "guney-ming",
+"ad": "Güney Ming (Hongguang, Longwu, Yongli Sarayları)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1644-04-25",
+"t": "1662-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "tungning",
+"ad": "Tungning Krallığı (Zheng / Koxinga)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1650-01-01",
+"t": "1683-10-05",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "teodoro",
+"ad": "Theodoro (Gotya) Prensliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1349-01-01",
+"t": "1475-12-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cin-cumhuriyeti",
+"ad": "Çin Cumhuriyeti",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1911-10-10",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "mogolistan",
+"ad": "Moğolistan (Bogd Hanlık)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1911-12-29",
+"t": "1924-11-26",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "izlanda",
+"ad": "İzlanda",
+"bolge": "kuzey-avrupa",
+"kita": "Avrupa",
+"f": "1918-12-01",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "fransiz-cinhindi",
+"ad": "Fransız Çinhindi (Indochine française)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1859-02-17",
+"t": "1954-07-21",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "san-fan",
+"ad": "Üç Vasal İsyanı (San Fan)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1673-12-28",
+"t": "1681-12-07",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — arandı, yok (canonik \"uc-feodal-beylik-isyani\" boş, \"cin--ulke\" genel maddesi Qing kuruluş döneminden bahsediyor ama San Fan/Wu Sangui isimlerini içermiyor); dayanak: standart akademik kaynak"
+},
+{
+"id": "dashun",
+"ad": "Dashun (Li Zicheng)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1644-01-01",
+"t": "1647-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — arandı, yok (canonik \"li-zicheng-dashun\" boş, \"cin--ulke\" genel maddesi 1644 Ming yıkılışını anıyor ama Li Zicheng/Dashun'u içermiyor); dayanak: standart akademik kaynak"
+},
+{
+"id": "yadava",
+"ad": "Yadava Hanedanı (Devagiri)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1187-01-01",
+"t": "1318-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "avad",
+"ad": "Avad Nevablığı (Oudh)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1722-01-01",
+"t": "1856-02-07",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kakatiya",
+"ad": "Kakatiya Hanedanı (Warangal)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1163-01-01",
+"t": "1323-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "pandya",
+"ad": "Pandya Hanedanı (İkinci İmparatorluk)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1190-01-01",
+"t": "1323-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "taiping",
+"ad": "Taiping Cennetsel Krallığı",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1851-01-11",
+"t": "1864-07-19",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "madurai-sultanligi",
+"ad": "Madurai Sultanlığı (Ma'bar)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1335-01-01",
+"t": "1378-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "ho-hanedani",
+"ad": "Hồ Hanedanı (Vietnam)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1400-03-01",
+"t": "1407-06-17",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "karnatik",
+"ad": "Karnatik Nevablığı (Arcot)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1690-01-01",
+"t": "1801-07-31",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "tran-hanedani",
+"ad": "Trần Hanedanı (Vietnam)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1225-01-01",
+"t": "1400-03-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "cammu-kesmir",
+"ad": "Cammû-Keşmir (Dogra Hanedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1846-03-16",
+"t": "1947-10-26",
+"sinif": "BULUNAMADI",
+"kaynak": "kesmir"
+},
+{
+"id": "hoysala",
+"ad": "Hoysala Hanedanı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1026-01-01",
+"t": "1343-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "laos-kralliklari",
+"ad": "Laos Krallıkları (Luang Prabang, Vientiane, Champasak)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1707-01-01",
+"t": "1893-10-03",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "seylan-sinhala",
+"ad": "Seylan Sinhala Krallıkları (Portekiz Öncesi)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1070-01-01",
+"t": "1518-01-01",
+"sinif": "BRIT",
+"kaynak": "sri-lanka + standart akademik kaynak (Britannica, EBSCO Research Starters)"
+},
+{
+"id": "cunagadh",
+"ad": "Cunagadh (Junagadh) Nevablığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1748-01-01",
+"t": "1948-02-20",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "kocin",
+"ad": "Kochi (Cochin) Krallığı — Portekiz Öncesi",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1102-01-01",
+"t": "1503-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "samudra-pasai",
+"ad": "Samudra Pasai Sultanlığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": "1521-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "sarawak-brooke",
+"ad": "Sarawak (Brooke Hanedanı)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1841-09-24",
+"t": "1946-07-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak"
+},
+{
+"id": "dogu-sumatra-sultanliklari",
+"ad": "Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1615-01-01",
+"t": "1858-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — arandı, yok. Dört slug tek tek denendi (cambi, siyak, deli, indragiri) — hepsi ölü/alakasız. Genel 'sumatra' ve 'endonezya' maddeleri de okundu: yalnız TOPLU bir cümleyle geçiyorlar (\"1900'lere kadar... irili ufaklı İslâm devletlerinin tamamını egemenlikleri altına aldılar\"), dört sultanlığı ayrı ayrı işlemiyor. Dayanak: standart akademik kaynak."
+},
+{
+"id": "bugis-kralliklari",
+"ad": "Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1330-01-01",
+"t": "1905-08-06",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — arandı, yok. 'bone' slug'ı Cezayir'deki Bûne limanına yönleniyor (alakasız); 'sulawesi' ve 'bugi' genel maddeleri okundu, Bugis halkından bahsediyorlar ama Bone/Wajo/Soppeng krallıklarını ayrı ayrı işlemiyorlar. Dayanak: hakemli dergi (Fadli Hasan, el Harakah: Jurnal Budaya Islam, UIN Malang) + Leonard Andaya akademik monografisi."
+},
+{
+"id": "ekvador-cumhuriyeti",
+"ad": "Ekvador Cumhuriyeti",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "1830-05-13",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — ilk taslakta `mazo4f.com` gösterilmişti; KIRMIZI ÇİZGİ (akademik/güvenilir/bilimsel) gereği DÜŞÜRÜLDÜ, adı verilmeyen 'standart kaynaklar' ifadesi de doğrulanabilir değil. Tarihin dayanağı DURUYOR: f: bağlı veride bu kimliğin kullanıldığı fiilî ayrılma gününe (1830-05-13) hizalandı, uydurulmadı. Akademik kaynak ARANACAK."
+},
+{
+"id": "haudenosaunee",
+"ad": "Haudenosaunee (İrokua) Konfederasyonu",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1450-01-01",
+"t": "1777-01-01",
+"sinif": "BRIT",
+"kaynak": "Britannica, 'Haudenosaunee Confederacy' (akademik çoğunluk 15.yy ortası/sonu) + Bruce E. Johansen, 'Dating the Iroquois Confederacy' (ratical.org/many_worlds/6Nations/DatingIC.html) — akademik anlaşmazlığı DOĞRUDAN tartışan kaynak: gelenek 1570-1600 diyor, bazı araştırmacılar çok daha erken tarihler öneriyor. VERİYLE BİREBİR ÖRTÜŞÜYOR (veri f:1450)."
+},
+{
+"id": "powhatan",
+"ad": "Powhatan Konfederasyonu (Tsenacomoco)",
+"bolge": "kuzey-amerika",
+"kita": "Amerika",
+"f": "1501-01-01",
+"t": "1646-10-01",
+"sinif": "BULUNAMADI",
+"kaynak": "Encyclopedia Virginia, 'Tsenacomoco (Powhatan Paramount Chiefdom)' — Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi, 1607'de 28-32 oymağı kapsıyordu; atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı)."
+},
+{
+"id": "lupaqa-krallik",
+"ad": "Lupaqa Krallığı",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1450-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "Britannica, 'Lupaca' + Diálogo Andino (akademik dergi makalesi, 'El Reino Lupaqa: Articulación') — Titicaca gölü kıyısında Aymara konuşan siyasî merkez, kesin kuruluş tarihi bulunamadı. VERİYLE BİREBİR ÖRTÜŞÜYOR."
+},
+{
+"id": "diaguita-calchaqui-konfederasyonu",
+"ad": "Diaguita-Calchaquí Konfederasyonu",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "1281-01-01",
+"t": "1667-01-02",
+"sinif": "BULUNAMADI",
+"kaynak": "Standart akademik — Kakán dilini paylaşan tarımcı beylikler konfederasyonu, kesin kuruluş tarihi yok. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı)."
+},
+{
+"id": "kabartay",
+"ad": "Kabartay (Kabardey) Beylikleri",
+"bolge": "kafkasya",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1281-01-01",
+"t": "1774-07-21",
+"sinif": "BULUNAMADI",
+"kaynak": "TDV `kabartaylar` md. (gövdesi okundu) — yük taşıyan cümle: \"Belgrad Antlaşması (1739) … Kabartayların yaşadığı bölgeyi TARAFSIZ BİR ÜLKE hâline getirmiştir.\" Bitiş için Küçük Kaynarca md. 21. ⚠️ BULUNAMADI ve UYDURULMADI (TDV gövdesi künye sorularıyla yeniden okundu): kuruluş tarihi · Büyük/Küçük Kabartay ayrımının tarihi · başkent · Kırım-Osmanlı ilişkilerinin tarihleri · 1774 sonrası süreç. Ölü sluglar: cerkesler · cerkes · adigeler · kabardey · besleney (beşi de 302)."
+},
+{
+"id": "meysur-racaligi",
+"ad": "Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1799-05-04",
+"t": "1947-08-15",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (WebSearch: Instrument of Accession, Ağustos 1947). 🟡 GÜN (15 Ağustos, bağımsızlık günü) yaklaşık kabul edildi, doğrulanmalı."
+},
+{
+"id": "gvalyar",
+"ad": "Gvalyar Devleti (Sindiya Hanedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1731-01-01",
+"t": "1948-05-28",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl kesin (Ranoji Sindiya), gün bulunamadı. t: Madhya Bharat'ın kuruluşu — WebSearch doğrulamalı ikinci kaynakla teyit edilmedi."
+},
+{
+"id": "indor",
+"ad": "İndor Devleti (Holkar Hanedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1732-07-29",
+"t": "1948-05-28",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak."
+},
+{
+"id": "kolhapur",
+"ad": "Kolhapur Devleti (Şivâcî'nin İkinci Kolu)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1710-01-01",
+"t": "1949-03-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: Agreement of Merger (1 Şubat 1949), yürürlük 1 Mart 1949."
+},
+{
+"id": "baroda",
+"ad": "Baroda Devleti (Gaikvad Hanedanı)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1721-01-01",
+"t": "1949-05-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak. f: yıl net, gün bulunamadı. t: WebSearch — \"Baroda merged into the Dominion of India on 1 May 1949\"."
+},
+{
+"id": "bali-kralliklari-pejeng",
+"ad": "Bali Pejeng Krallığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1292-01-01",
+"t": "1343-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "bulunamadı — bu görevin (Hindistan/Lübnan/Mısır/Sırbistan/Tunus) bölgesi dışı, yalnız §3.5.0 envanterini doğrulamak için kontrol edildi. Dayanak: CLAUDE.md'nin kendi doğrulaması (Gajah Mada'nın Bali'yi alışı 1343) — AYRICA araştırılmalı."
+},
+{
+"id": "krakow-serbest-sehri",
+"ad": "Krakov Serbest Şehri",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1815-05-03",
+"t": "1846-11-11",
+"sinif": "EB1911",
+"kaynak": "f: Hertslet, 'The Map of Europe by Treaty' (1875; archive.org), No. 14 — Krakov ek antlaşması, Viyana «21st April / 3rd May 1815» (Jülyen/Gregoryen), sonra Viyana Nihai Senedi md. 6; Encyclopædia Britannica 1911 — «for ever a free, independent and strictly neutral city». t: Hertslet No. 202 — Avusturya imparatorunun 11 Kasım 1846 ilhak beyannamesi; No. 201 — üç devletin 6 Kasım 1846 Viyana sözleşmesi (md. 2: şehir Avusturya'ya «restored … for the purpose of being re-united»). TDV `krakov` ÖLÜ (302)."
+},
+{
+"id": "luksemburg-hollanda-birligi",
+"ad": "Lüksemburg Büyük Dükalığı (Hollanda ile Şahsî Birlik)",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1815-06-09",
+"t": "1890-11-23",
+"sinif": "BULUNAMADI",
+"kaynak": "f: Hertslet, 'The Map of Europe by Treaty' — Viyana Nihai Senedi md. 67: kral «Grand Duke of Luxemburg» unvanını aldı. t: KAYNAK BULUNAMADI (Hertslet 1890'ı kapsamıyor; EB1911 Lüksemburg maddesi Wikisource'ta 404) — gün ARDIL künyeden devralındı. TDV `luksemburg` ÖLÜ (302)."
+},
+{
+"id": "slovakya-cumhuriyeti",
+"ad": "Slovak Cumhuriyeti (1939-1945)",
+"bolge": "orta-avrupa",
+"kita": "Avrupa",
+"f": "1939-03-14",
+"t": "1945-04-04",
+"sinif": "BRIT",
+"kaynak": "USHMM-KD — 'March 14–15, 1939 Under German pressure, the Slovaks declare their independence and form a Slovak Republic.' · 'April 4, 1945 The capture of Bratislava forces Slovakia to surrender.' · BRIT Jozef-Tiso"
+},
+{
+"id": "hirvatistan-bagimsiz",
+"ad": "Bağımsız Hırvat Devleti (NDH)",
+"bolge": "balkanlar",
+"kita": "Avrupa",
+"f": "1941-04-10",
+"t": "1945-05-08",
+"sinif": "BRIT",
+"kaynak": "USHMM-KD — 'April 10, 1941 The leaders of the terrorist Ustaša movement proclaim the so-called Independent State of Croatia.' · BRIT Ustasa 'until May 1945'"
+},
+{
+"id": "mancukuo",
+"ad": "Mançukuo",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1932-03-09",
+"t": "1945-08-17",
+"sinif": "BRIT",
+"kaynak": "BRIT Manchukuo — 'puppet state created in 1932 by Japan' · BRIT Puyi — 'On March 9, 1932, he was installed as president, and from 1934 to 1945 he was emperor'"
+},
+{
+"id": "nanjing-wang-jingwei",
+"ad": "Çin Cumhuriyeti Yeniden Düzenlenmiş Millî Hükûmeti (Wang Jingwei, Nanjing)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1940-03-30",
+"t": "1945-08-16",
+"sinif": "BULUNAMADI",
+"kaynak": "BRIT Wang-Ching-wei — 'On March 30, 1940, in cooperation with the Japanese, he became the head of a new regime ... centred in the former Nationalist capital of Nanjing.' · bitiş: bulunamadı"
+},
+{
+"id": "italyan-dogu-afrikasi",
+"ad": "İtalyan Doğu Afrikası",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1936-06-01",
+"t": "1941-11-30",
+"sinif": "BRIT",
+"kaynak": "BRIT Italian-East-Africa — 'Ethiopia (annexed by Italy on May 9, 1936, and proclaimed a part of Italian East Africa June 1)' · 'British forces overran the area between January and November 1941'"
+},
+{
+"id": "ispanya-milliyetci",
+"ad": "Milliyetçi İspanya (Franco, Burgos)",
+"bolge": "iberya",
+"kita": "Avrupa",
+"f": "1936-07-17",
+"t": "1939-04-01",
+"sinif": "BRIT",
+"kaynak": "BRIT Spanish-Civil-War — 'On October 1, 1936, he was named head of state and set up a government in Burgos.' · BRIT Francisco-Franco — 'Franco won a complete and unconditional victory on April 1, 1939.'"
+},
+{
+"id": "endonezya-cumhuriyeti",
+"ad": "Endonezya Cumhuriyeti",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1945-08-17",
+"t": null,
+"sinif": "BRIT",
+"kaynak": "BRIT Sukarno — 'he declared Indonesia's independence (August 17, 1945)'"
+},
+{
+"id": "cabo-juby-ispanyol",
+"ad": "Cabo Juby (Tarfaya) İspanyol Bölgesi",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1912-11-27",
+"t": "1958-04-01",
+"sinif": "VIKIPEDI",
+"kaynak": "https://en.wikipedia.org/wiki/Cape_Juby (ipucu) ; https://revistas.uned.es/index.php/ETFV/article/download/2733/2593/6021 ; https://scholarlypublications.universiteitleiden.nl/access/item%3A2887959/view"
+},
+{
+"id": "ispanyol-sahra",
+"ad": "İspanyol Sahrası (Río de Oro + Sakiyet el-Hamra)",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1884-12-26",
+"t": "1976-02-26",
+"sinif": "VIKIPEDI",
+"kaynak": "https://www.worldstatesmen.org/Western_Sahara.html ; https://en.wikipedia.org/wiki/Spanish_Sahara (ipucu) ; Zunes/Mundy 2010"
+},
+{
+"id": "tiris-el-garbiyye",
+"ad": "Moritanya Tiris el-Garbiyye İli",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1976-04-14",
+"t": "1979-08-05",
+"sinif": "VIKIPEDI",
+"kaynak": "https://ucdp.uu.se/additionalinfo/893/4 ; https://en.wikipedia.org/wiki/Western_Sahara_partition_agreement (ipucu) ; Zunes/Mundy 2010"
+},
+{
+"id": "arap-cumhuriyetleri-federasyonu",
+"ad": "Arap Cumhuriyetleri Federasyonu (Mısır-Libya-Suriye, nominal)",
+"bolge": "misir-sudan",
+"kita": "Afrika",
+"f": "1972-01-01",
+"t": "1977-11-19",
+"sinif": "VIKIPEDI",
+"kaynak": "https://snl.no/Den_forente_arabiske_republikk ; https://en.wikipedia.org/wiki/Federation_of_Arab_Republics (ipucu)"
+},
+{
+"id": "eritre",
+"ad": "Eritre Devleti (fiilî 1991-05-24; resmî ilan 24 Mayıs 1993)",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1991-05-24",
+"t": null,
+"sinif": "GLOBALSECURITY",
+"kaynak": "https://www.globalsecurity.org/military/world/eritrea/history.htm ; https://www.ecoi.net/en/countries/eritrea/briefing/"
+},
+{
+"id": "ruanda-cumhuriyeti",
+"ad": "Ruanda Cumhuriyeti",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1962-07-01",
+"t": null,
+"sinif": "GLOBALSECURITY",
+"kaynak": "https://www.globalsecurity.org/military/world/burundi/history.htm (yıl) ; Prunier; HD Rwanda"
+},
+{
+"id": "burundi-cumhuriyeti",
+"ad": "Burundi Cumhuriyeti",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1966-11-28",
+"t": null,
+"sinif": "GLOBALSECURITY",
+"kaynak": "https://www.globalsecurity.org/military/world/burundi/history.htm ; https://fr.apanews.net/news/8-juillet-1966-le-basculement-du-burundi/ ; Lemarchand 1994"
+},
+{
+"id": "bophuthatswana",
+"ad": "Bophuthatswana (Bantustan)",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1977-12-06",
+"t": "1994-04-27",
+"sinif": "VIKIPEDI",
+"kaynak": "https://worldstatesmen.org/South_African_homelands.html ; https://simple.wikipedia.com/wiki/Bantustan (ipucu)"
+},
+{
+"id": "namibya-gecici-ulusal-birlik-hukumeti",
+"ad": "Güneybatı Afrika Geçici Ulusal Birlik Hükümeti",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1985-06-17",
+"t": "1989-02-28",
+"sinif": "VIKIPEDI",
+"kaynak": "https://en.wikipedia.org/wiki/Transitional_Government_of_National_Unity_(Namibia) (ipucu) ; https://peacekeeping.un.org/sites/default/files/past/untagS.htm ; https://klausdierks.com/Chronology/131.htm"
+},
+{
+"id": "zimbabve-rodezya",
+"ad": "Zimbabve-Rodezya",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1979-06-01",
+"t": "1979-12-12",
+"sinif": "BRIT",
+"kaynak": "Britannica Zimbabwe (ref)"
+},
+{
+"id": "fransiz-birligi",
+"ad": "Fransız Birliği (Union française)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1946-10-27",
+"t": "1958-10-04",
+"sinif": "BRIT",
+"kaynak": "Britannica French Union (ref)"
+},
+{
+"id": "biafra",
+"ad": "Biafra Cumhuriyeti",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1967-05-30",
+"t": "1970-01-15",
+"sinif": "BRIT",
+"kaynak": "Britannica Biafra (ref)"
+},
+{
+"id": "orta-afrika-imparatorlugu",
+"ad": "Orta Afrika İmparatorluğu (Bokassa)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1976-12-04",
+"t": "1979-09-20",
+"sinif": "BRIT",
+"kaynak": "Britannica Central African Republic (ref)"
+},
+{
+"id": "angola-unita-fnla",
+"ad": "Angola Demokratik Halk Cumhuriyeti (UNITA–FNLA, Huambo)",
+"bolge": "orta-afrika",
+"kita": "Afrika",
+"f": "1975-11-11",
+"t": "1976-02-11",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia DPRA; Country Studies Angola; SAHO timeline"
+},
+{
+"id": "singapur-kolonisi",
+"ad": "Singapur Kolonisi",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1946-04-01",
+"t": "1959-06-03",
+"sinif": "BRIT",
+"kaynak": "Britannica Straits Settlements (britannica.com/print/article/567981); (ipucu) Colony of Singapore"
+},
+{
+"id": "singapur",
+"ad": "Singapur (özyönetim 1959; Malezya içi 1963-65; Cumhuriyet 1965)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1959-06-03",
+"t": null,
+"sinif": "BRIT",
+"kaynak": "Britannica Straits Settlements; (ipucu) Self-governance of Singapore"
+},
+{
+"id": "endonezya-dogu-timor",
+"ad": "Doğu Timor (Endonezya idaresi, 27. eyalet)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1975-12-07",
+"t": "1999-10-25",
+"sinif": "GLOBALSECURITY",
+"kaynak": "globalsecurity.org Timor tarihi; Taylor 1991, Gunn 1999 (ağ teyidi yok)"
+},
+{
+"id": "sirp-krajina-cumhuriyeti",
+"ad": "Sırp Krajina Cumhuriyeti (RSK; fiilî)",
+"bolge": "balkanlar",
+"kita": "Avrupa",
+"f": "1991-12-19",
+"t": "1995-08-07",
+"sinif": "VIKIPEDI",
+"kaynak": "https://www.icty.org/en/node/4824 (Martić) ; https://oluja.sensecentar.org/oluja-en.html ; t: adaydaki 08-08 yalnız Vikipedi bilgi kutusunda, harekât 4-7 Ağu (Başkan Martić görev sonu 7 Ağu) → 1995-08-07; Knin'de ilan edildiği teyit edilmedi, yalnız başkent"
+},
+{
+"id": "transdinyester",
+"ad": "Transdinyester (Pridnestrovie)",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1990-09-02",
+"t": null,
+"sinif": "VIKIPEDI",
+"kaynak": "https://www.e-ir.info/?p=93379 ; https://en.wikipedia.org/wiki/Transnistria (ZAYIF KAYNAK, ikincisi)"
+},
+{
+"id": "guney-osetya",
+"ad": "Güney Osetya (fiilî)",
+"bolge": "kafkasya",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1992-05-29",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "https://rrc.ge/law/dekl_1992_05_29_e.htm (bildiri metni) ; https://mfa.rsogov.org/en/node/3396"
+},
+{
+"id": "azerbaycan-cumhuriyeti",
+"ad": "Azerbaycan Cumhuriyeti",
+"bolge": "kafkasya",
+"kita": "Osmanlı-Ortadoğu",
+"f": "1991-10-18",
+"t": null,
+"sinif": "VIKIPEDI",
+"kaynak": "https://prague.mfa.gov.az/en/news/3033/october-18-is-marked-as-the-state-independence-day-in-azerbaijan ; https://en.wikipedia.org/wiki/Constitutional_Act_on_State_Independence_of_the_Republic_of_Azerbaijan (ZAYIF KAYNAK)"
+},
+{
+"id": "ozbekistan",
+"ad": "Özbekistan",
+"bolge": "orta-asya",
+"kita": "Asya",
+"f": "1991-08-31",
+"t": null,
+"sinif": "ARCHONTOLOGY",
+"kaynak": "https://www.archontology.org/nations/uzbekistan/00_polity.php ; https://cisc.uz/en/news-item/556"
+},
+{
+"id": "kirgizistan",
+"ad": "Kırgızistan",
+"bolge": "orta-asya",
+"kita": "Asya",
+"f": "1991-08-31",
+"t": null,
+"sinif": "BULUNAMADI",
+"kaynak": "https://timesca.com/?p=22509 ; ZAYIF KAYNAK (resmî metin bu turda bulunamadı)"
+},
+{
+"id": "irlanda-cumhuriyeti",
+"ad": "İrlanda (Éire 1937-12-29 → Cumhuriyet 1949-04-18)",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1937-12-29",
+"t": null,
+"sinif": "ARCHONTOLOGY",
+"kaynak": "https://archontology.org/nations/eire/01_polity.php ; https://merrionstreet.ie/en/news-room/speeches/speech_of_an_taoiseach_leo_varadkar_t_d_70th_anniversary_of_the_republic_royal_irish_academy.html"
+},
+{
+"id": "monako",
+"ad": "Monako Prensliği",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1297-01-08",
+"t": null,
+"sinif": "GLOBALSECURITY",
+"kaynak": "https://www.globalsecurity.org/military/world/europe/mc-history-2.htm ; https://www.pilotguides.com/articles/how-monaco-became-monaco/ ; ZAYIF KAYNAK, egemen polity başlangıcı karar işi"
+},
+{
+"id": "panama-kanali-bolgesi",
+"ad": "Panama Kanalı Bölgesi (ABD)",
+"bolge": "orta-amerika-karayip",
+"kita": "orta-amerika-karayip",
+"f": "1904-02-26",
+"t": "1979-10-01",
+"sinif": "GLOBALSECURITY",
+"kaynak": "https://govbooktalk.gpo.gov/tag/the-canal/ ; https://www.globalsecurity.org/military/world/centam/pa-history-4.htm"
+},
+{
+"id": "provence-kontlugu",
+"ad": "Provence Kontluğu",
+"bolge": "bati-avrupa",
+"kita": "Avrupa",
+"f": "1000-01-01",
+"t": "1481-12-11",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica 'Provence' (1481 vasiyet); gün: Vikipedi + Fransız numismatik sayfası"
+},
+{
+"id": "anglo-korsika-krallik",
+"ad": "Anglo-Korsika Krallığı",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1794-01-01",
+"t": "1796-10-01",
+"sinif": "VIKIPEDI",
+"kaynak": "St Andrews repository 'Britain and Corsica 1728-1796' (akademik tez); CEEOL makalesi; gün: Vikipedi"
+},
+{
+"id": "malta-fransiz",
+"ad": "Malta Fransız İşgali",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1798-06-12",
+"t": "1800-09-04",
+"sinif": "VIKIPEDI",
+"kaynak": "Malta Üniv. OAR (um.edu.mt/library/oar); culture-malta.org; gün: Vikipedi"
+},
+{
+"id": "roma-cumhuriyeti-1849",
+"ad": "Roma Cumhuriyeti (Mazzini)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "1849-02-09",
+"t": "1849-07-03",
+"sinif": "VIKIPEDI",
+"kaynak": "Museo della Repubblica Romana (museodellarepubblicaromana.it); Vikipedi"
+},
+{
+"id": "westfalya-krallik",
+"ad": "Westfalya Krallığı",
+"bolge": "orta-avrupa",
+"kita": "Avrupa",
+"f": "1807-08-18",
+"t": "1813-10-26",
+"sinif": "BULUNAMADI",
+"kaynak": "napoleon.org Jérôme Bonaparte maddesi; Museum Hameln (digam.net) — Britannica'da doğrudan madde bulunamadı"
+},
+{
+"id": "schleswig-holstein-1848",
+"ad": "Schleswig-Holstein Geçici Hükûmeti",
+"bolge": "kuzey-avrupa",
+"kita": "Avrupa",
+"f": "1848-03-24",
+"t": "1851-01-15",
+"sinif": "BRIT",
+"kaynak": "military-history.dk 'The Rebellion 1848'; savaş sonucu için Britannica 'Schleswig-Holstein question'"
+},
+{
+"id": "macar-sovyet-cumhuriyeti",
+"ad": "Macar Sovyet Cumhuriyeti",
+"bolge": "orta-avrupa",
+"kita": "Avrupa",
+"f": "1919-03-21",
+"t": "1919-08-01",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Bela Kun' (21 Mart: komiser; 1 Ağustos: çöküş)"
+},
+{
+"id": "macaristan-halk-cumhuriyeti",
+"ad": "Macaristan Halk Cumhuriyeti (Károlyi)",
+"bolge": "orta-avrupa",
+"kita": "Avrupa",
+"f": "1918-11-16",
+"t": "1919-03-21",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia 'First Hungarian Republic' + 'Aster Revolution' (ikincil; Britannica Kun maddesi 20 Mart 1919'da Károlyi'nin hükûmetinin bittiğini doğrular)"
+},
+{
+"id": "guney-rusya-beyaz",
+"ad": "Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel)",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1919-01-08",
+"t": "1920-11-14",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Anton Ivanovich Denikin', 'Russian Civil War'; encyclopedia.com 'Wrangel'"
+},
+{
+"id": "kolcak-omsk-hukumeti",
+"ad": "Kolçak Hükûmeti (Omsk, Rusya Yüce Hükümdarlığı)",
+"bolge": "sibirya-bozkir",
+"kita": "Asya",
+"f": "1918-11-18",
+"t": "1920-01-04",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica 'Aleksandr Vasilyevich Kolchak' (18 Kasım 1918 darbe; 7 Şubat 1920 Irkutsk); en.wikipedia 'Supreme Ruler of Russia' (yalnız 4 Ocak 1920 için, ikincil); boya_gerekli: kimlik BOYALAR'da yok — denetim/BOYA-sibirya-1029.tsv"
+},
+{
+"id": "nijni-novgorod-suzdal",
+"ad": "Suzdal-Nijni Novgorod Büyük Knezliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1341-01-01",
+"t": "1392-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia 'Principality of Nizhny Novgorod-Suzdal' + Britannica 'Suzdal' (1392 Vasily I katılım). ic_not: Konstantin'in unvanı 1350-52 Nijni'ye taşınma; Konstantinoviç direnişi ~1418'e dek."
+},
+{
+"id": "beloozero-knezligi",
+"ad": "Beloozero Knezliği",
+"bolge": "dogu-avrupa",
+"kita": "Avrupa",
+"f": "1238-01-01",
+"t": "1389-01-01",
+"sinif": "BULUNAMADI",
+"kaynak": "Wikipedia 'Principality of Beloozero', 'Gleb of Beloozero', 'Yury of Beloozero'. ic_not: fiilî Moskova teslimi 1389; nominal son 1485/1486 (kaynaklar ayrışıyor); ikinci akademik kaynak bulunamadı."
+},
+{
+"id": "sirbistan-nedic",
+"ad": "Sırbistan Millî Kurtuluş Hükûmeti (Nedić)",
+"bolge": "balkanlar",
+"kita": "Avrupa",
+"f": "1941-08-29",
+"t": "1944-10-06",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia 'Government of National Salvation', 'Territory of the Military Commander in Serbia'; Belgrad Şehir Arşivi (stalnapostavka.arhiv-beograda.org). ic_not: aday t 20 Ekim 1944 = Belgrad Taarruzu sonu; kaynaklarda hükûmet 3/4 Ekim 1944'te bitiyor; yönetim evrelendi: 3 Eylül 1944 Alman komutan işlevleri devraldı."
+},
+{
+"id": "ljubljana-ili",
+"ad": "Ljubljana İli (İtalyan)",
+"bolge": "balkanlar",
+"kita": "Avrupa",
+"f": "1941-05-03",
+"t": "1943-09-08",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia 'Province of Ljubljana', 'Operational Zone of the Adriatic Littoral'; okupacijskemeje.si, sistory.si. ic_not: hukuken il 9 Mayıs 1945'e dek; 1943 sonrası fiilen OZAK (10 Eylül 1943)."
+},
+{
+"id": "bundela-orcha",
+"ad": "Orchha (Bundela) Krallığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1531-01-01",
+"t": "1948-01-01",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Orchha (historical India)' ve 'Orchha (former princely state)'"
+},
+{
+"id": "sikkim-krallik",
+"ad": "Sikkim (Namgyal / Çogyal) Krallığı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "1642-01-01",
+"t": "1975-05-16",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Namgyal, Phuntsog', 'Sikkim', 'Indo-Sikkimese Treaty'"
+},
+{
+"id": "kalacuri-tripuri",
+"ad": "Kalaçuri (Tripuri/Çedi) Hanedanı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "0850-01-01",
+"t": null,
+"sinif": "BRIT",
+"kaynak": "Britannica 'Kalachuri Dynasty (Tripuri)', 'Kokalla I', 'Gangeyadeva', 'Karna'"
+},
+{
+"id": "sipsong-panna",
+"ad": "Sipsong Panna (Çiang Rung, Tai Lü) Krallığı",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1180-01-01",
+"t": "1950-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Chronicles of Sipsòng Panna: History and Society of a Tai Lü Kingdom, Twelfth to Mid-twentieth Century (Silkworm); Wikipedia Chiang Hung/Jinghong (ikincil)"
+},
+{
+"id": "ispanyol-formosa",
+"ad": "İspanyol Formosası",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1626-01-01",
+"t": "1642-08-26",
+"sinif": "VIKIPEDI",
+"kaynak": "Taipei Times, 'Aug. 21 to Aug. 27'; Wikipedia Spanish Formosa/Battle of San Salvador 1642 (ikincil); Andrade"
+},
+{
+"id": "daxi-zhang",
+"ad": "Daxi (Zhang Xianzhong, Xi Hanedanı)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "1644-09-09",
+"t": "1647-01-02",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica, Zhang Xianzhong (ölüm 2 Ocak 1647); Wikipedia Zhang Xianzhong (Chengdu 9 Eylül 1644); Parsons, Peasant Rebellions of the Late Ming"
+},
+{
+"id": "touggourt",
+"ad": "Tuggurt Sultanlığı (Benî Celleb)",
+"bolge": "kuzey-afrika",
+"kita": "Afrika",
+"f": "1414-01-01",
+"t": "1854-12-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Wikipedia Sultanate of Tuggurt (Féraud, Histoire des sultans de Touggourt'a atıf); Geneawiki Algérie-Touggourt; Julien"
+},
+{
+"id": "alman-guneybati-afrikasi",
+"ad": "Alman Güneybatı Afrikası",
+"bolge": "guney-afrika",
+"kita": "Afrika",
+"f": "1884-08-07",
+"t": "1915-07-09",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica, German South West Africa; DHM Lemo (Kaiserreich); Wikipedia DSWA (ikincil); Gewald; Drechsler"
+},
+{
+"id": "nri",
+"ad": "Nri Krallığı (İgbo)",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "0994-01-01",
+"t": "1911-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Onwuejeogwu, An Igbo Civilization: Nri Kingdom and Hegemony (A.D. 994 to present; Quai Branly/NYPL kataloğu); Wikipedia Kingdom of Nri/Eze Nri (ikincil); Afigbo"
+},
+{
+"id": "fante",
+"ad": "Fante Konfederasyonu",
+"bolge": "bati-afrika",
+"kita": "Afrika",
+"f": "1868-01-01",
+"t": "1873-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica, Fante confederacy; Wikipedia Fante Confederacy (ikincil); National Archives (UK) Fanti Confederation 1872-73; Kimble"
+},
+{
+"id": "shewa",
+"ad": "Şewa Krallığı (Menelik öncesi)",
+"bolge": "dogu-afrika",
+"kita": "Afrika",
+"f": "1813-01-01",
+"t": "1889-03-10",
+"sinif": "VIKIPEDI",
+"kaynak": "Britannica, Shewa ve Menilek II; Wikipedia List of rulers of Shewa/Menelik II (ikincil); Marcus"
+},
+{
+"id": "danimarka-bati-hint",
+"ad": "Danimarka Batı Hint Adaları",
+"bolge": "orta-amerika-karayip",
+"kita": "orta-amerika-karayip",
+"f": "1672-01-01",
+"t": "1917-03-31",
+"sinif": "VIKIPEDI",
+"kaynak": "Danimarka Ulusal Müzesi (en.natmus.dk, 'The Danish West Indies'); Vikipedi 'Danish West Indies'"
+},
+{
+"id": "ispanyol-kuba",
+"ad": "İspanyol Küba",
+"bolge": "orta-amerika-karayip",
+"kita": "orta-amerika-karayip",
+"f": "1511-01-01",
+"t": "1898-12-10",
+"sinif": "VIKIPEDI",
+"kaynak": "SJSU Watkins 'Cuba' (https://www.sjsu.edu/faculty/watkins/cuba.htm); Vikipedi 'Chronology of Colonial Cuba'"
+},
+{
+"id": "guatemala-kaptanligi",
+"ad": "Guatemala Genel Kaptanlığı",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "1609-01-01",
+"t": "1821-09-15",
+"sinif": "VIKIPEDI",
+"kaynak": "Vikipedi 'Captaincy General of Guatemala' ve 'Act of Independence of Central America' (15 Eylül 1821); 1609 için ikinci kaynak: worldgenweb Guatemala"
+},
+{
+"id": "sican",
+"ad": "Sicán (Lambayeque) Devleti",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "0750-01-01",
+"t": "1375-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Encyclopedia.com 'Sican'; Vikipedi 'Sican culture'; traffickingculture.org 'Batán Grande'"
+},
+{
+"id": "fiji-cakobau",
+"ad": "Fiji Krallığı (Cakobau)",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "1871-01-01",
+"t": "1874-10-10",
+"sinif": "VIKIPEDI",
+"kaynak": "Vikipedi 'Kingdom of Fiji', 'Fiji during the time of Cakobau'; Fiji Times 'A special day for Fiji'; davidlansing.com 'How Fiji became British' (10 Ekim 1874)"
+},
+{
+"id": "rarotonga",
+"ad": "Rarotonga ve Cook Adaları Şeflikleri/Krallığı",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "1250-01-01",
+"t": "1888-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Vikipedi 'Kingdom of Rarotonga', 'History of the Cook Islands'; CIA World Factbook 'Cook Islands' (Te Ara sayfası çekilemedi)"
+},
+{
+"id": "chamorro",
+"ad": "Chamorro (Mariana) Toplulukları",
+"bolge": "okyanusya",
+"kita": "Okyanusya",
+"f": "0800-01-01",
+"t": "1698-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Guampedia 'Ancient CHamoru Warfare' (https://www.guampedia.com/ancient-guam-warfare/); MicSem 'The Early Spanish Period in the Marianas 1668-1698' (Hezel); Vikipedi 'Spanish-Chamorro Wars'"
+},
+{
+"id": "karolenj-italya",
+"ad": "İtalya Krallığı (Karolenj-Berengar dönemi)",
+"bolge": "italya",
+"kita": "Avrupa",
+"f": "0774-01-01",
+"t": "0962-02-02",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Berengar', 'Otto I' (britannica.com/biography/Otto-I), 'Lombard people'"
+},
+{
+"id": "xianbei",
+"ad": "Xianbei Konfederasyonu (Tanşihuai)",
+"bolge": "orta-asya",
+"kita": "Asya",
+"f": "0155-01-01",
+"t": "0235-01-01",
+"sinif": "BRIT",
+"kaynak": "Encyclopedia.com 'Inner Asian Religions'; Britannica 'Manchuria'"
+},
+{
+"id": "han-devleti-zhou",
+"ad": "Han Devleti (Savasan Devletler; Han hanedanindan ayri)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "-0402-01-01",
+"t": "-0229-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Brit 'Zhao' (Jin'in 403'te bolunmesi); t icin Vikipedi 'Han (Warring States)' - ZAYIF"
+},
+{
+"id": "sonraki-jin-5hanedan",
+"ad": "Sonraki Jin (Shatuo, Bes Hanedan)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "0936-01-01",
+"t": "0947-03-10",
+"sinif": "BRIT",
+"kaynak": "Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994"
+},
+{
+"id": "sonraki-zhou-5hanedan",
+"ad": "Sonraki Zhou (Bes Hanedan)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "0951-01-01",
+"t": "0960-02-04",
+"sinif": "BRIT",
+"kaynak": "Toronto east.library.utoronto.ca/node/28218 ; Brit print/article/208994"
+},
+{
+"id": "yamato",
+"ad": "Yamato Devleti (Kofun)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "0250-01-01",
+"t": "0710-04-13",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/event/Tumulus-period ; https://www.britannica.com/place/Japan/The-Nara-period-710-784"
+},
+{
+"id": "dvaravati",
+"ad": "Dvaravati Mon Krallıkları",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "0551-01-01",
+"t": "1100-01-01",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/place/Dvaravati"
+},
+{
+"id": "dinh",
+"ad": "Dinh Hanedani (Dai Co Viet)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "0968-01-01",
+"t": "0979-01-01",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/biography/Dinh-Bo-Linh"
+},
+{
+"id": "kanva",
+"ad": "Kanva Hanedani",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "-0074-01-01",
+"t": "-0029-01-01",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/topic/Kanva-dynasty"
+},
+{
+"id": "pandya-1",
+"ad": "Birinci Pandya Imparatorlugu",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "0601-01-01",
+"t": null,
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/topic/Pandya-dynasty ; https://www.britannica.com/biography/Rajaraja-I"
+},
+{
+"id": "caral-norte-chico",
+"ad": "Norte Chico (Caral-Supe) Uygarligi",
+"bolge": "guney-amerika",
+"kita": "Amerika",
+"f": "-2999-01-01",
+"t": "-1999-01-01",
+"sinif": "BRIT",
+"kaynak": "Brit 'Peru - Inca, Archaeology, Museums' (Caral 3000-2000 BCE) ; Brit 'Norte Chico' Sili bolgesidir, alakasiz"
+},
+{
+"id": "nanyue",
+"ad": "Nanyue (Nam Viet) Krallığı (Zhao hanedani)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "-0203-01-01",
+"t": "-0110-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Sima Qian, Shiji 113 (Nanyue liezhuan); Hanshu 95; ikincil ozetler: Vikipedi 'Nanyue', 'Han conquest of Nanyue' (tek basina yetmez) - [k]"
+},
+{
+"id": "satavahana",
+"ad": "Satavahana Hanedanı (Andhra)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "-0029-01-01",
+"t": "0225-01-01",
+"sinif": "BRIT",
+"kaynak": "Britannica 'Satavahana dynasty': https://www.britannica.com/print/article/524850 (Puranik kanita dayanarak MO 1. yy sonu; bazilari MO 3. yy); D.C. Sircar kronolojisi (Simuka MO ~30)"
+},
+{
+"id": "bati-ganga",
+"ad": "Batı Ganga (Talakad Gangaları) Hanedanı",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "0350-01-01",
+"t": "1004-01-01",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/topic/Ganga-dynasty ; https://www.britannica.com/topic/Chola-dynasty"
+},
+{
+"id": "pallava",
+"ad": "Pallava Hanedanı (Kançipuram)",
+"bolge": "guney-asya",
+"kita": "Asya",
+"f": "0350-01-01",
+"t": "0897-01-01",
+"sinif": "BRIT",
+"kaynak": "https://www.britannica.com/topic/Pallava-dynasty ; https://www.britannica.com/biography/Samudra-Gupta · D. P. Henige, \"Some Phantom Dynasties of Early and Medieval India: Epigraphic Evidence and the Abhorrence of a Vacuum\", BSOAS 38/3 (1975) 525-549, s. 529-532, 547 (erken Pallava soyağacı belirsiz; f'yi ne doğrular ne verir, t=897'ye değinmez) · BEYANLI YAKLAŞIKLIK (f)"
+},
+{
+"id": "alman-isgali-karadag",
+"ad": "Alman İşgali Altındaki Karadağ",
+"bolge": "balkanlar",
+"kita": "Avrupa",
+"f": "1943-09-12",
+"t": "1944-12-15",
+"sinif": "VIKIPEDI",
+"kaynak": "https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro (Tomasevich, War and Revolution in Yugoslavia, 2001; ikincil)"
+},
+{
+"id": "kuzey-borneo-tac-kolonisi",
+"ad": "Kuzey Borneo Tâc Kolonisi (İngiliz, Labuan dahil)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1946-07-15",
+"t": "1963-09-16",
+"sinif": "BULUNAMADI",
+"kaynak": "https://en.wikipedia.org/wiki/North_Borneo_Chartered_Company ; Sabah Devlet Arşivi arkib.sabah.gov.my ; başkent adı doğrulanmadı (bulunamadı)"
+},
+{
+"id": "luwu",
+"ad": "Luwu Krallığı (Güney Sulawesi)",
+"bolge": "guneydogu-asya",
+"kita": "Asya",
+"f": "1281-01-01",
+"t": null,
+"sinif": "VIKIPEDI",
+"kaynak": "Bulbeck, D. & Caldwell, I., Land of Iron: The Historical Archaeology of Luwu and the Cenrana Valley (Hull 2000) — ikincil özet; TDV arama 'buton'/'celebes': Luwu adıyla madde YOK (KUTU-F2-1014, 0052/H-0113). Vikipedi dayanak alınmadı."
+},
+{
+"id": "yarlung-krallik",
+"ad": "Yarlung Krallığı (Tibet, imparatorluk öncesi)",
+"bolge": "dogu-asya",
+"kita": "Asya",
+"f": "-0126-01-01",
+"t": "0629-01-01",
+"sinif": "BRIT",
+"kaynak": "Ouyang Xiu - Song Qi, Xin Tang shu (1060), juan 216 shang «Tubo shang»: «其後有君長曰瘕悉董摩，董摩生佗土度，佗土生揭利失若，揭利生勃弄若，勃弄生詎素若，詎素生論贊索，論贊生棄宗弄贊» — https://zh.wikisource.org/wiki/新唐書/卷216上 (bu oturumda okundu; soy kütüğü, yıl vermez) | t=629: Britannica, «Srong-brtsan-sgam-po»: «crowned 629» — atıf; bu oturumda açılmadı | f=MÖ 127: geleneksel Tibet kronolojisi (Nyatri Tsenpo) — atıf; açılmadı"
+},
+{
+"id": "ceibal",
+"ad": "Ceibal (Seibal) Krallığı",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "0411-01-01",
+"t": "0889-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-2008-martin-grube-ocr, OCR tam metin okundu; alıntılar OCR metninde birebir sınandı), «Dos Pilas/Tikal»: \"(and the earliest date at Seibal) during Sihyaj Chan K'awiil II's reign alone\" … \"the largest and most ancient capital in the region\" | Sharer & Traxler, The Ancient Maya, 6. bsk., Stanford 2006, s.524 (Vikipedi 'Seibal' maddesi aracılığıyla: 'Wat'ul Chatel's last monument was erected in 889'; kitap AÇILMADI, atıf)"
+},
+{
+"id": "cholula",
+"ad": "Cholula (Olmeca-Xicalanca / Tolteca-Chichimeca) Şehir Devleti",
+"bolge": "orta-amerika",
+"kita": "Amerika",
+"f": "0700-01-01",
+"t": "1519-01-01",
+"sinif": "VIKIPEDI",
+"kaynak": "Susan Toby Evans, Ancient Mexico and Central America, 2001, s.139-141 (Tlachihualtepetl evresi MS 700-1200; 'In CE 1200, ethnic Tolteca-Chichimeca conquered Cholula' — Vikipedi 'Cholula (Mesoamerican site)' aracılığıyla; kitap AÇILMADI, atıf) | Geoffrey McCafferty, 'Reinterpreting the Great Pyramid of Cholula, Mexico', Ancient Mesoamerica 7(1), 1996 ve McCafferty 2008 özeti (antharky.ucalgary.ca/mccafferty/node/116): Tolteca-Chichimeca gelişi 'A.D. 1168 (?)'; makale/sayfa AÇILMADI, arama özeti"
+}
+]

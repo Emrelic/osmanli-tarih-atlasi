@@ -1,0 +1,622 @@
+{
+ "Kızıl Kızılderili Gölü (Beothuk)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:797",
+   "alan": "s",
+   "d": "beothuk",
+   "f": "1281-01-01",
+   "t": "1829-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "DCB «SHAWNADITHIT (Shanawdithit, Nancy, Nance April)» https://www.biographi.ca/en/bio/shawnadithit_6E.html",
+   "alinti": "She succumbed to tuberculosis on 6 June 1829",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Beothuk'un bilinen son ferdi Shanawdithit'in ölümü, 1829-06-06; HALK DÜZEYİ, göl çevresine özgü değil). Öneri yok, t ucu kaynakla uyumlu. f=1281 ufuk. Mi'kmaq sözlü tarihi 'son Beothuk' iddiasına itiraz eder (Canadian Encyclopedia, arama özeti = ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:797",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1829-06-06",
+   "t": "1855-05-07",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: DCB shawnadithit; thecanadianencyclopedia.ca newfoundland-and-labrador-and-confederation ve heritage.nf.ca collapse-responsible-government (sayfa.py boş döndü)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Newfoundland 1829-1855 ayrı Taç kolonisiydi; künye ingiliz-kuzey-amerika (Kanada, 1763-1923) Newfoundland'ı kapsıyor mu belirsiz - KÜNYE sorusu LAB'a. Sahiplik kaynakla okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:797",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-05-07",
+   "t": "1934-02-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: DCB shawnadithit (konu dışı); CE/heritage.nf.ca sayfa.py ile boş. Zincirdeki DCB kayıtları (Kent, Hoyles, Glen) yalnız yıl+ay veriyor.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Gün 07 teyitsiz (zincirdeki beyan sürüyor). Okunmuş yeni kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:797",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: thecanadianencyclopedia.ca ve heritage.nf.ca (sayfa.py boş döndü, içerik okunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Zincirdeki DEVRALMA kaynakları okunamadı; 1934-02-16 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:797",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1949-03-31",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: thecanadianencyclopedia.ca (sayfa.py boş), arama özeti",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Katılım 31 Mart 1949 yalnız arama özeti/ipucu düzeyinde; akademik sayfa okunamadı."
+  }
+ ],
+ "Lampung": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:123",
+   "alan": "s",
+   "d": "palembang-sultanligi",
+   "f": "1281-01-01",
+   "t": "1527-06-22",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV endonezya (Lampung yalnız XV. yy sonu İslâmlaşma), arama özeti",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): palembang 1281–1527 dayanaksız → BULUNAMADI; Banten/VOC için Ricklefs ya da Kathirithamby-Wells, yoksa BEYANLI. | Lampung'un Palembang'a bağlılığı kaynakta yok; TDV: «Lampung Kralı Minak Kemal…» yerel krallık. SAHİP sorusu: Lampung için palembang-sultanligi dayanaksız görünüyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:123",
+   "alan": "s",
+   "d": "banten-sultanligi",
+   "f": "1527-06-22",
+   "t": "1808-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV endonezya, WebSearch (Vikipedi aynası/Lampung il sitesi = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Lampung'un Banten'e bağlanışının günü okunmadı. İpucu: VOC Banten'den 1684 antlaşması/1752 ile Lampung'u aldı (Vikipedi aynası, doğrulanmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:123",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1808-01-01",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: WebSearch (Lampung il sitesi: Raffles 1811'de Semangka'yı işgal, Hollanda Rezidanı 1829; Vikipedi aynası: Banten 22 Kasım 1808 Daendels, Lampung 1752). Akademik sayfa okunmadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "1808-01-01 yıl-başı işareti; Lampung'a özgü akademik kaynak bulunamadı. İpuçları 1752/1808/1829 arasında çelişiyor, seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:123",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe). Sumatra'nın Japon işgali Şubat-Mart 1942; atlas tek bölgesel tarih kullanıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:123",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Endonezya» (İ. H. Göksoy), https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
+   "oneri": {},
+   "not": "Lahey Yuvarlak Masa devri; ÜLKE DÜZEYİ (Sumatra/Lampung ayrı anılmıyor). Egemenlik Endonezya Birleşik Devletleri'ne devredildi; 1950-08-17'de üniter cumhuriyet. TEK ÖLÇÜ: bilinen karar (Hollanda'nın geri aldığı yerde 1949-12-27). Künye endonezya-cumhuriyeti f=1945-08-17."
+  }
+ ],
+ "Larantuka": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:166",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1613-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV (Larantuka maddesi yok), WebSearch Larantuka (Vikipedi aynaları = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:166",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1613-01-01",
+   "t": "1859-04-20",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: WebSearch; R.H. Barnes, BKI 165/1 (2009) 32-61 'A temple, a mission, and a war' (okunmadı, yol gösterici)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | 1613 (Solor'un Hollanda'ya düşüşü) Larantuka için okunmadı. Barnes makalesi okunursa f ve t kapanabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:166",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1859-04-20",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: WebSearch (Lizbon Antlaşması 1859-04-20 imza, onay 1860-08-18 - Vikipedi aynaları = ipucu); Barnes BKI 2009 okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | TEK ÖLÇÜ: Hollanda Larantuka'yı imzadan sonra fiilen devraldı (teslim günü ayrı) - teslim günü kaynakla bulunamadı; 1859-04-20 imza günü ipucu düzeyinde. Barnes (BKI 2009) okunmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:166",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:166",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Endonezya», https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ Lahey devri; Flores Hollanda'nın kurduğu Doğu Endonezya Devleti'nde olduğundan TEK ÖLÇÜ kararı 1949-12-27 uygulanır."
+  }
+ ],
+ "Limbang": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:249",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1368-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: zincir kaydı (brunei künyesi 1368), WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "Boşluk merdiveni okunmadı; beyanlı boşluk sürer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:249",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1368-01-01",
+   "t": "1890-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: WebSearch (Hansard 1890: «nominally under the Sovereignty of the Sultan of Brunei»)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Limbang'ın 1368'den Brunei'ye bağı kaynakta yok (künye ülke düzeyi). t ucu aşağıdaki sarawak satırıyla."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:249",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1890-01-01",
+   "t": "1946-07-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "UK Parlamentosu, Hansard HC Deb 17 June 1890 vol 345 cc1124-5 «Rajah Brooke», https://api.parliament.uk/historic-hansard/commons/1890/jun/17/rajah-brooke ; Horton, JSEAS «The Origins of the Limbang Claim» (Cambridge, yalnız özet/dipnot görüldü)",
+   "alinti": "Rajah Brooke has annexed the Limbang District, which was nominally under the Sovereignty",
+   "oneri": {
+    "f": "1890-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-78): s: sarawak 1890 [yalnız yıl] KAYNAKLI (Hansard); 03-17 ic_not, ipucu. | ÖLÇÜT: idareye katma - Brooke bayrak çekip ilhak ilân etti (Hansard 1890: ilhak, İngiliz onayına bağlı; Brunei itirazı sürdü, 1892'de yıllık tazminat). 17 Mart günü yalnız ipucu (Vikipedi/Cambridge dipnot özeti); Hansard günü vermiyor. Zincirde de 'yalnız ipucu'. Kesin gün için Horton makalesi tam metin gerekir. Brunei t ucu da aynı gün olur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:249",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Bakılan: sarawak.gov.my article_view/228/244 (sayfa.py boş)",
+   "alinti": "",
+   "oneri": {
+    "f": "1890-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-78): s: sarawak 1890 [yalnız yıl] KAYNAKLI (Hansard); 03-17 ic_not, ipucu. | Zincirdeki kaynak okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:249",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1963-09-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Dept. of State, Malaysia - Countries, https://history.state.gov/countries/malaysia",
+   "alinti": "In 1963, the Federation of Malaya joined with Singapore , Sarawak , and Borneo to form the Federation of Malaysia.",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün 16 Eylül teyitsiz] Kaynak ABD Dışişleri tarih ofisi resmî sayfası (kurum portalı); Sarawak katılımı ülke düzeyi. Gün için Malaysia Agreement 1963-07-09 imza / 1963-09-16 ilân ayrı kaynak gerekir."
+  }
+ ],
+ "Kyk-over-al (Essequibo)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:56",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1616-01-01",
+   "t": "1803-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Treccani «Guyana» (Hollanda yerleşimi 16. yy sonu; WIC 1621) - Kyk-over-al 1616'yı vermiyor. Kayıt düzeyi yer_kaynak HSAI c.4 (bu oturumda okunmadı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani 1616'yı doğrulamıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:56",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1803-09-01",
+   "t": "1814-08-13",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani «Guyana», https://www.treccani.it/enciclopedia/guyana/ ; gün: WebSearch (Anglo-Dutch Treaty 13 Ağustos 1814, Vikipedi/Hansard 1815 = ipucu)",
+   "alinti": "Durante le guerre napoleoniche i possedimenti olandesi furono occupati dagli Inglesi e definitivamente assegnati dal congresso di Vienna alla Gran Bretagna",
+   "oneri": {
+    "alan": "isg",
+    "t": "1814-08-13"
+   },
+   "not": "KARAR EMRELİC (gece-78): 1803-09 isg → 1814-08-13 Londra Konvansiyonu imzası (İngiltere yönetiyordu, TEK ÖLÇÜ) → s: ingiltere; 08-13 ipucu → ONERI. | ÖLÇÜT: geçici/askerî - Treccani işgali (Napolyon savaşları) ve kesin devri (Viyana) ayırıyor; TEK KURAL: işgal devire kadar isg, s: devir gününden. Devir günü 1814-08-13 Londra Sözleşmesi imzası (ipucu; onay 1815-11-20 ipucu); işgal 1803 günü okunmadı (1803-09-01 zincirde kalsın). 1814-08-13'ten sonra s: ingiltere olmalı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:56",
+   "alan": "s",
+   "d": "ingiliz-guyanasi",
+   "f": "1831-01-01",
+   "t": "1966-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, «Guyana», https://www.treccani.it/enciclopedia/guyana/",
+   "alinti": "Gran Bretagna che, nel 1831, li riunì nella G. Britannica.",
+   "oneri": {},
+   "not": "Yıl düzeyi: Essequibo-Demerara ve Berbice 1831'de Britanya Guyanası'nda birleşti [yalnız yıl teyitli; gün teyitsiz]. Künye ingiliz-guyanasi f=1831-01-01 ile uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:56",
+   "alan": "s",
+   "d": "guyana",
+   "f": "1966-05-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, «Guyana», https://www.treccani.it/enciclopedia/guyana/",
+   "alinti": "Dopo il conseguimento dell’indipendenza nell’ambito del Commonwealth , nel 1966,",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün 26 Mayıs teyitsiz]. Zincirde gün için legislation.gov.uk (Guyana Independence Act 1966) kaydı var, bu oturumda okunmadı."
+  }
+ ],
+ "Kâdûglî": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:215",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV sudan (Alve Krallığı/Func 1504 ülke düzeyi)",
+   "alinti": "",
+   "oneri": {
+    "d": "bos:kabile ya da BEYANLI (Takali künye adayı)"
+   },
+   "not": "KABİLE-TOPRAK SINIFI BEKLET (EMRELİC gece-134; LAB SALI HAYALET-KARAR 'kabile-toprak-sinifi'): bos:'kabile' / yerel BEYANLI boşluk önerisi UYGULANMAZ (Değişmez 1 deliği, BEKLENEN_SAHIPSIZ gerilemesi); mevcut zincir korunur; Emre'nin sınıf kararıyla tek seferde. | KARAR EMRELİC (gece-78): Nuba Dağları: nube satırı HATALI; Takali Krallığı künye adayı LAB SALI'ya; şimdilik bos:'kabile' ya da BEYANLI. | Kâdûglî Nuba Dağları'ndadır; Alve'ye/Nûbe'ye bağlılığı kaynakta yok. TDV: Funcların 1504'te Alve'ye karşı bağımsızlık ilânı (t ucu, ülke düzeyi). SAHİP sorusu: nube yerine bağımsız Nuba dağ toplulukları olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:215",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Osmanlı Devleti adına bugünkü Sudan’ın idaresini 1821-1882 yılları arasında kendilerine verilen en üst yetkilerle ele geçirdiler.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yalnız yıl: 1821 (Func Sultanı Bâdî Haziran 1821'de boyun eğdi, Kordofan sonra) ve 1882 [gün teyitsiz]. Nuba Dağları'nın Mısır idaresine fiilen girişi ayrıca tarihlenmedi. TDV f için gün vermiyor, 1821-08-19 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:215",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı.",
+   "oneri": {
+    "t": "1899-11-24"
+   },
+   "not": "ÖNCEKİ KARAR (gece-76): mehdi t 1899-11-24 (Umm Diwaykarat; Kordofan uçları hizalanır) [çift kaynak: Daly 1983, Warburg 2005; JSTOR dizini]. | Alıntı yalnız t ucunu tarihliyor (Lord Cromer, 1899-01-19 ortak idare); öneri yok, t uyumlu. f=1882-09-07 teyitsiz (TDV: Ekim 1882 Hartum'a İngiliz kuvveti; Mehdîlik 1881). KÜNYE UYARISI: mehdi künye t=1898-09-02, dönem t=1899-01-19; Kâdûglî'de fiilî Mehdî denetimi ayrıca belirsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:215",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı.",
+   "oneri": {},
+   "not": "Gün düzeyinde f teyidi (ÜLKE DÜZEYİ)."
+  }
+ ],
+ "Magdeburg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
+   "d": "magdeburg-basepiskoposlugu",
+   "f": "1281-01-01",
+   "t": "1680-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, «Magdeburgo», https://www.treccani.it/enciclopedia/magdeburgo/",
+   "alinti": "fu trasformata in ducato temporale e incorporata al Brandeburgo (1680)",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Vestfalya 1648'de dünyevî dükalık, Brandenburg'a katılış 1680, yıl); öneri yok, t uyumlu. Treccani 968 başpiskoposluk kuruluşunu verir. f=1281 ufuk. 1648 ayrımı not: Treccani 1648'i 'dünyevî dükalık' diye ayırıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
+   "d": "brandenburg-prusya",
+   "f": "1680-01-01",
+   "t": "1701-01-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, «Magdeburgo», https://www.treccani.it/enciclopedia/magdeburgo/",
+   "alinti": "fu trasformata in ducato temporale e incorporata al Brandeburgo (1680)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz]. Vestfalya 1648 ile Magdeburg dükalığa dönüştü; Brandenburg'a katılış 1680."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1701-01-18",
+   "t": "1871-01-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Prusya», https://islamansiklopedisi.org.tr/prusya",
+   "alinti": "ve 18 Ocak 1701’de Königsberg’de taç giydi.",
+   "oneri": {},
+   "not": "Gün düzeyinde Prusya Krallığı kuruluşu (ÜLKE DÜZEYİ; Brandenburg-Prusya'dan süreklilik). Treccani: Magdeburg 1806'da Vestfalya Krallığı'na geçti, 1815'te Prusya'ya döndü - bu aralık atlasta yok (hedef dışı bulgu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Dept. of State, Germany - Countries, https://history.state.gov/countries/germany",
+   "alinti": "The Soviets then oversaw the creation of the German Democratic Republic",
+   "oneri": {},
+   "not": "Gün düzeyinde f: «out of their zone of occupation on October 7, 1949» (kurumsal portal). Magdeburg Sovyet bölgesinde (ÜLKE DÜZEYİ). t ucu (1990-10-03) bu alıntıda yok."
+  }
+ ],
+ "Makao (Macau)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2359",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Treccani «Macao» (Çin imparatorluğu liman yeri, Yuan'dan söz etmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): aşım değil: dilim künye t (09-14) öncesi biter, Ming 1356 genişletmesi 04-01'i kapsar; gün kaynakla (Guangdong'un Ming'e geçişi), yoksa [yalnız ay/yıl]. | KÜNYE AŞIMI: dönem t=1368-04-01 ama yuan-hanedani künye t=1368-09-14 (Ming f 1368-01-23). Makao'nun Yuan'a bağı kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2359",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1557-01-01",
+   "t": "1887-12-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, «Macao», https://www.treccani.it/enciclopedia/macao/",
+   "alinti": "divenne nel 1557 colonia dei Portoghesi",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): emsal yerlesimler_asya.js:2050 (kiralanıp idaresi devredilen yerler): s: portekiz 1557 kalır; ic_not 'kira/yer kirası; Çin egemenliği hukuken 1887-12-01 Lizbon Protokolü'ne kadar'; v: modeli kurulmaz. | [yalnız yıl teyitli; gün teyitsiz]. ÖLÇÜT UYARISI: Treccani 'colonia' diyor; Makao'da egemenlik hukuken 1887'ye kadar Çin'dedir (kaynaksız bilgi, künye makao-portekiz 1887 bunu taşıyor) - sahiplik yorumu Emre'nin kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2359",
+   "alan": "s",
+   "d": "makao-portekiz",
+   "f": "1887-12-01",
+   "t": "1999-12-20",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Treccani «Macao» (1887'yi anmıyor; 1976 'territorio speciale', 1999 devir)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1887-12-01 (Pekin Antlaşması) Treccani'de yok; zincirde Porter 1996 / Britannica kaydı var, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2359",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1999-12-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, «Macao», https://www.treccani.it/enciclopedia/macao/",
+   "alinti": "Nel 1999, come stabilito dall’accordo cino-portoghese del 1987, M. ha cessato di essere dipendenza del Portogallo",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün 20 Aralık teyitsiz]. 1987 Çin-Portekiz Ortak Bildirisi uyarınca devir."
+  }
+ ],
+ "Kılburun (Kinburn)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1035",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV kirim, TDV sibir-hanligi; Kılburun için tanıklık yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Kılburun Altın Orda'ya aidiyet kaynakta yok (BEYAN bölge sahibi zinciri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1035",
+   "alan": "s",
+   "d": "kirim",
+   "f": "1441-01-01",
+   "t": "1475-06-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV «Kırım» (H. İnalcık) https://islamansiklopedisi.org.tr/kirim - «Kırım Hanlığı (1441-1783)» ülke düzeyi",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Kılburun'un 1441-75 arası Kırım Hanlığı'na bağlılığı kaynakta yok; ülke yılı 1441 (TDV) künye ile uyumlu ama yerleşim tanıklığı değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1035",
+   "alan": "v",
+   "d": "kirim",
+   "f": "1475-06-06",
+   "t": "1538-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV «Kırım» (880’de (1475) Kefe’yi alıp kıyı boyunca eski Ceneviz kolonilerini ele geçirerek…), DergiPark 1854821 (Kılburun 1787-92 savaşları makalesi: 'Kılburun da Osmanlı hâkimiyetine geçmiş olmalıdır' - çıkarım), DergiPark 361028 (Özi/Silistre: Özi 1538; okunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-78): ikinci basamakta: Newfoundland DCB, Larantuka Barnes BKI 2009, Kılburun TDV 'Kılburun' ve Özi. | Kılburun için 1475-06-06 tanıklığı yok: yalnız yıl (1475 Kefe) ve çıkarım. Gün 06-06 teyitsiz."
+  }
+ ],
+ "Kızıl-Tura": [
+  {
+   "dosya_satir": "data/yerlesimler_ek31.js:99",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1430-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV sibir-hanligi (Altın Orda'nın dağılması sonrası Tümen/Sibir Hanlığı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kızıl-Tura'nın Altın Orda'ya bağlılığı kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek31.js:99",
+   "alan": "s",
+   "d": "sibir-hanligi",
+   "f": "1430-01-01",
+   "t": "1598-08-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sibir Hanlığı», https://islamansiklopedisi.org.tr/sibir-hanligi",
+   "alinti": "Hanlığın kurucusu olarak Şeybânî Hacı Muhammed (1420-1430) ve onun oğlu Mahmutek (Mahmud, 1430-?) kabul edilmektedir.",
+   "oneri": {
+    "f": "1420-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-49): Sibir TDV esas 1420 (Hacı Muhammed) [yalnız yıl]; 1430 (Mahmutek) ic_not. | ÜLKE DÜZEYİ: TDV Kızıl-Tura'yı Sibir Hanlığı şehirleri arasında sayar (yirmiden fazla şehir: Kızıl-Tura, Karaçin…) ama tarihsiz. f=1430 yıl düzeyi; TDV 1420'li yılların sonlarından itibaren yarı bağımsız der."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek31.js:99",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-08-20",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV «Sibir Hanlığı»: Yermak 1581-83, «Sibirya’nın tamamen zaptı ise 1593-1604 yıllarında tamamlandı»",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kızıl-Tura'nın Rus idaresine katıldığı gün okunmadı; TDV 1598'i kapsayan 1593-1604 aralığı verir (ülke düzeyi). 1598-08-20 (Irmen) gün kaynaksız."
+  }
+ ],
+ "Malmıj": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:355",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1438-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV kazan-hanligi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Malmıj için tanıklık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:355",
+   "alan": "s",
+   "d": "kazan",
+   "f": "1438-01-01",
+   "t": "1552-10-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazan Hanlığı», https://islamansiklopedisi.org.tr/kazan-hanligi",
+   "alinti": "galip çıkınca (1437-1438) eski Kazan şehrine geldi. Bölge halkı onu sevinçle karşıladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl: TDV Kazan Hanlığı kuruluşu için iki görüş verir: 1437 (künye f=1437-01-01) ya da 1445; Uluğ Muhammed'in 1437-38'de Kazan'a gelişi. Malmıj'ın Kazan'a bağlılığı tarihsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:355",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1552-10-02",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazan Hanlığı», https://islamansiklopedisi.org.tr/kazan-hanligi",
+   "alinti": "İki ay kadar süren kanlı çarpışmaların ardından 15 Ekim 1552’de Kazan düştü.",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (EMRELİC gece-49): Kazan 1552-10-02 kalır (1582 öncesi Jülyen); TDV 15 Ekim ic_not. Malmıj'a özgü gün yok — ülke düzeyi. | ÜLKE DÜZEYİ: TDV Kazan'ın düşüşünü 15 Ekim 1552 verir; atlas 1552-10-02 (Jülyen 2 Ekim ~ Gregoryen 12 Ekim; TDV'nin takvimi belirsiz - takvim çelişkisi beyan). TDV: 'ülkenin fiiliyatta ele geçirilmesi… XVI. yüzyıl sonuna kadar sürmüştür' - Malmıj'ın Rus idaresine katılış günü ayrıca bulunamadı; öneri şehir düzeyinde değil."
+  }
+ ]
+}

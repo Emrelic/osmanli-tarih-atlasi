@@ -1,0 +1,2583 @@
+{
+ "Kurnûl (Kurnool)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1800-10-12",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Kurnool», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Kurnool [eski başvuru eseri, en çok kısmen]",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: EB1911 Kurnool, Britannica (403). 18. yy yarı bağımsız Pathan Nawab jagiri, 1838'de İngilizlerce mülksüzleştirme; 1800 Nizam'dan devir bu maddede YOK. Nawab 1838'e dek yarı bağımsız vasal olduğundan atlas ingiliz-hindistani f=1800 ile gerilim olabilir (varsayım, karar LAB'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1323-01-01",
+   "t": "1347-08-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "haydarabad-nizam",
+   "f": "1724-10-11",
+   "t": "1800-10-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "kakatiya",
+   "f": "1281-01-01",
+   "t": "1323-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1490-01-01",
+   "t": "1565-01-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1565-01-05",
+   "t": "1686-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1686-09-12",
+   "t": "1724-10-11",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Tuapse": [
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1838-01-01",
+   "t": "1854-01-01",
+   "hukum": "ONERI",
+   "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
+   "alinti": "На месте Т. в 1838 г. был построен Вельяминовский форт",
+   "oneri": {},
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu YIL (1838) teyitli, gün teyitsiz; t ucu YIL (1854, 'покинут и взорван'). Kaynak kale kuruluşunu anlatır; idareye katma belgesi (vergi/defter) okunmadı, ÖLÇÜT: kaynak susuyor. Jülyen/Gregoryen farkı yıl düzeyinde etkisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "cerkez",
+   "f": "1854-01-01",
+   "t": "1864-02-01",
+   "hukum": "ONERI",
+   "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
+   "alinti": "но во время Восточной войны, в 1854 г., был покинут и взорван",
+   "oneri": {},
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu YIL (1854) teyitli. t ucu: Şubat 1864 Rus işgali (sıra 3). Çerkez denetimi doğrudan cümle değil ÇIKARIM: 1854-1864 arası Rus varlığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-02-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
+   "alinti": "генерал Гейман занял Вельяминовский форт (февраль 1864 г.)",
+   "oneri": {},
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu AY (1864-02) teyitli, gün yok; atlas 1864-02-01 ayın 1'i beyanlı. Jülyen: ESBE eski takvimle verir, 'Jülyen Şubat 1864' gün çevrilmedi. 'занял' askerî işgal; idareye katma belgesi okunmadı (TEK KURAL: karar LAB'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Nagapatnam": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1781-11-12",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Negapatam», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Negapatam [eski başvuru eseri, en çok kısmen]",
+   "alinti": "The English captured it in 1781",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL (1781) teyitli (EB1911); gün 1781-11-12 teyitsiz. TEK KURAL: bu ele geçirmedir; hukukî devir (Paris 1783) kaynakta yok, isg mi s mi karar verilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "pandya",
+   "f": "1281-01-01",
+   "t": "1311-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1311-01-01",
+   "t": "1335-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "madurai-sultanligi",
+   "f": "1335-01-01",
+   "t": "1378-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1378-01-01",
+   "t": "1554-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1554-01-01",
+   "t": "1658-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1658-01-01",
+   "t": "1781-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Negapatam», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Negapatam [eski başvuru eseri, en çok kısmen]",
+   "alinti": "The Dutch took the town in 1660",
+   "oneri": {
+    "f": "1660"
+   },
+   "not": "EB1911 Hollanda f=1660 diyor, atlas 1658-01-01. Tek eski eser, ikinci kaynak aranmadı. SEÇME: çelişki beyanı. t ucu 1781 YIL teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1483",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Vişâkapatnam": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1766-11-12",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Vizagapatam», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Vizagapatam [eski başvuru eseri, en çok kısmen]",
+   "alinti": "ceded to the East India Company by treaties in 1763 and 1766",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL (1766) teyitli (Kuzey Circar devri); gün 1766-11-12 teyitsiz. Kaynak 1763 ve 1766 iki antlaşma verir, hangisinin Vizag'ı kapsadığını ayırmaz. ÜLKE/BÖLGE DÜZEYİ (Northern Circars)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1323-01-01",
+   "t": "1347-08-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1512-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "haydarabad-nizam",
+   "f": "1724-10-11",
+   "t": "1766-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Vizagapatam», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Vizagapatam [eski başvuru eseri, en çok kısmen]",
+   "alinti": "were ceded to the East India Company by treaties in 1763 and 1766",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | t ucu (1766) YIL düzeyi; f ucu 1724 bu kaynakta yok; Nizam adı kaynakta geçmiyor. ÜLKE/BÖLGE DÜZEYİ, kısmi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "kakatiya",
+   "f": "1281-01-01",
+   "t": "1323-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "golkonda",
+   "f": "1512-01-01",
+   "t": "1687-09-21",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1687-09-21",
+   "t": "1724-10-11",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Nanning": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1644-04-25",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Britannica Nanning 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Erişilemedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1652-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1680-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1680-01-01",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1652-01-01",
+   "t": "1673-12-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Etâve (Etawah)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1801-11-10",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Etawah», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Etawah [eski başvuru eseri, en çok kısmen]",
+   "alinti": "The wazir ceded it to the East India Company in 1801",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL (1801) teyitli, gün 1801-11-10 teyitsiz. ÖLÇÜT: idareye katma — kaynak 'ceded' (hukukî devir) diyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1526-04-21",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Etawah», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Etawah [eski başvuru eseri, en çok kısmen]",
+   "alinti": "Baber conquered the district in the 16th century",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | Bâbürlü sahipliği YÜZYIL düzeyi (16. yy); 1526-04-21 günü teyitsiz. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1722-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Etawah», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Etawah [eski başvuru eseri, en çok kısmen]",
+   "alinti": "it remained under the Moguls until their empire declined",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | Mughal sürekliliği teyitli ama t=1722 DEĞİL: kaynak Mahratta/Jat fetihlerinden sonra 1773'te Oudh ilhakı der (sıra 56). 1555 f ucu bu kaynakta yok. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "avad",
+   "f": "1722-01-01",
+   "t": "1801-11-10",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Etawah», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Etawah [eski başvuru eseri, en çok kısmen]",
+   "alinti": "the wazir of Oudh annexed Etawah in 1773",
+   "oneri": {
+    "f": "1773"
+   },
+   "not": "EB1911: Oudh veziri Etawah'ı 1773'te ilhak etti; atlas avad f=1722-01-01 (künye f). 1722-1773 arası Mahratta/Jat fetihleri ('anarchy'), sahibi kaynakta ayrılmıyor; ara dönem için LAB karar versin. t=1801 YIL teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Don bozkırı (Sal)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "don-kazak",
+   "f": "1570-01-01",
+   "t": "1721-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1721-01-01",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:76",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Sûrat": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1759-03-04",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Surat», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Surat [eski başvuru eseri, en çok kısmen]",
+   "alinti": "Surat was taken by the English in 1759, and the conquerors assumed the undivided government of the city in 1800",
+   "oneri": {
+    "f": "1759 (isg) / 1800 (s)"
+   },
+   "not": "İki tarih: 1759 İngiliz ele geçirme, 1800 tam idare. TEK KURAL: ham işgal 1759 isg/ic_not; s: idareye katma 1800 olabilir; 1759-1800 arası Nawab'la ortak yönetim EB cümlesinde yok, karar LAB'a. Gün 1759-03-04 teyitsiz. EB1911 tek başına."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1304-01-01",
+   "t": "1407-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1407-01-01",
+   "t": "1573-02-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1304-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1573-02-26",
+   "t": "1759-03-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:760",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Hefei": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1645-06-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-06-08",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Swatow (Shantou)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1644-04-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1650-11-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1650-11-24",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2445",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Ahmednagar": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1184",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-08-12",
+   "t": "1947-08-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1184",
+   "alan": "s",
+   "d": "ahmednagar",
+   "f": "1490-01-01",
+   "t": "1600-08-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1184",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1600-08-28",
+   "t": "1759-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1184",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1759-01-01",
+   "t": "1803-08-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1184",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Jinan": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1943",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-09-14",
+   "t": "1644-06-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1943",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1644-06-06",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1943",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1943",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1943",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Dumfries": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:126",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1652-02-14",
+   "t": "1660-06-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Dumfries», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Dumfries [eski başvuru eseri, en çok kısmen]",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: EB1911 Dumfries; Cromwell dönemi geçmiyor. Hedef günler zincirdeki 1652-02-04/1660-05-29'un Gregoryen çevirisi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:126",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1281-01-01",
+   "t": "1652-02-14",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:126",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1660-06-08",
+   "t": "1707-05-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:126",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Dumfries», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Dumfries [eski başvuru eseri, en çok kısmen]",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: EB1911 Dumfries; yalnız Kasım 1706 Birlik protestosu var, 1707 birleşme günü yok. Jülyen 1707-05-01 = Gregoryen 1707-05-12 (hedef f Gregoryen). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Nagpûr": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:906",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1853-12-11",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Nagpur», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Nagpur [eski başvuru eseri, en çok kısmen]",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan: EB1911 Nagpur; yalnız 1864 saray yangını var, Gond/Bhonsla/1853 yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:906",
+   "alan": "s",
+   "d": "gond-kralliklari",
+   "f": "1702-01-01",
+   "t": "1743-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:906",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1743-01-01",
+   "t": "1818-06-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:906",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Qingdao (Tsingtau)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1958",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1922-12-10",
+   "t": "1949-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Kiaochow sayfası 404; Britannica 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Erişilemedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1958",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1898-03-06",
+   "t": "1914-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1958",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1914-11-07",
+   "t": "1922-12-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1958",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Kalyari (Cagliari)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1881",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1720-09-02",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, «Cagliari», treccani.it/enciclopedia/cagliari/",
+   "alinti": "Vittorio Amedeo II di Savoia divenne quindi re di Sardegna nel 1720",
+   "oneri": {},
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | Savoya devri YIL (1720) teyitli, ispanya t ucu yıl düzeyinde uyumlu. Hedef t=1720-09-02 zincirdeki 1720-02-24 ile farklı (tutarsızlık); gün teyitsiz. f=1479 bu kaynakta yok. Treccani 1700-18 arası kısa Avusturya ve İspanyol hâkimiyeti anar: ara dönem atlasta olmayabilir. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1881",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1324-06-19",
+   "t": "1479-01-19",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, «Cagliari», treccani.it/enciclopedia/cagliari/",
+   "alinti": "Pisa «fu costretta alla resa nel 1326»",
+   "oneri": {
+    "f": "1326"
+   },
+   "not": "Aragon f ucu: Treccani'ye göre Cagliari 1326'da teslim oldu (1323 çıkarma); atlas f=1324-06-19. t=1479 bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1881",
+   "alan": "s",
+   "d": "piza",
+   "f": "1281-01-01",
+   "t": "1324-06-19",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, «Cagliari», treccani.it/enciclopedia/cagliari/",
+   "alinti": "Pisa «fu costretta alla resa nel 1326»",
+   "oneri": {
+    "t": "1326"
+   },
+   "not": "Treccani Pisa'nın teslimini 1326 verir, atlas t=1324-06-19 (GEC 'conquesta de Sardenya'); Aragon çıkarması 1323. Çelişki: seçme, LAB ikinci kaynakla gün teyit etsin. 13. yy Pisa hâkimiyeti (1216 kale, 1258 yargıçlığın yıkımı) YIL düzeyi teyitli."
+  }
+ ],
+ "Cavan": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:150",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1300-01-01",
+   "t": "1603-03-30",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:150",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:150",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Caypûr (Jaipur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:721",
+   "alan": "s",
+   "d": "racput",
+   "f": "1727-01-01",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Jaipur», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Jaipur [eski başvuru eseri, en çok kısmen]",
+   "alinti": "Founded in 1728 by Maharaja Jai Singh II",
+   "oneri": {
+    "f": "1728"
+   },
+   "not": "EB1911 şehir kuruluşu 1728 (atlas 1727-01-01). Racput devleti c.1128 (Dhula Rai), şehir devlet değil. 1818 İngiliz himaye antlaşması anılır. t=1947 bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:721",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe/erişim: Britannica 403, IGI 1908 taranmadı). Mevcut kayıt kaynağı yerleşime özgü değil/boş."
+  }
+ ],
+ "Hong Kong": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2366",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1841-01-26",
+   "t": "1842-08-29",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Hong-Kong», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Hong-Kong [eski başvuru eseri, en çok kısmen]",
+   "alinti": "was first ceded to Great Britain in 1841",
+   "oneri": {
+    "alan": "isg",
+    "f": "1841-01-26"
+   },
+   "not": "EB1911: 1841 'ceded', 1842 Nanking onayı. TEK KURAL: Nanking öncesi isg: ingiltere, s: 1842-08-29. Gün 1841-01-26 EB'de yok, Chuenpi'nin onaylanmadığı bilgisini bu oturumda kaynaktan OKUMADIM. ÖLÇÜT: geçici/askerî — hukukî devir Nanking'e dek yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2366",
+   "alan": "s",
+   "d": "hong-kong-ingiliz",
+   "f": "1842-08-29",
+   "t": "1997-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1910-11), «Hong-Kong», en.wikisource.org/wiki/1911_Encyclopædia_Britannica/Hong-Kong [eski başvuru eseri, en çok kısmen]",
+   "alinti": "the cession was confirmed by the treaty of Nanking in 1842",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL (1842) teyitli; gün 1842-08-29 mevcut kayıttaki antlaşma metnine dayanır (bu oturumda yeniden okunmadı). t=1997-07-01 bu kaynakta yok."
+  }
+ ],
+ "Guiyang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1382-01-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Mingshi j.46",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kuzey Yuan sahipliği Guiyang için Mingshi j.46'da yok (zincirde Yunnan için Mingshi j.124 mevcut). Bakılan: Mingshi j.46."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-01-06",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.46 Dili zhi, zh.wikisource.org/wiki/明史/卷46",
+   "alinti": "洪武十五年正月置貴州都指揮使司，治貴州宣慰司",
+   "oneri": {
+    "f": "Hongwu 15, 1. ay (çevrilecek)"
+   },
+   "not": "f ucu AY/yıl düzeyinde: Hongwu 15 (hanedan yılı) 1. ay; atlas f=1382-01-06. BÖLGE DÜZEYİ (Guizhou Eyaleti askerî komutanlığı, şehir değil). ÖLÇÜT: idareye katma — 都指揮使司 kuruldu. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu). Mingshi günü KAYIT günüdür. Hongwu 15/1. ay Gregoryen Şubat 1382'ye düşebilir; çeviride f=1382-01-06 yeniden sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1658-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Mingshi j.46 (zh.wikisource.org/wiki/明史/卷46)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Okunan: «貴州宣慰使司元改順元路軍民安撫司置，屬湖廣行省» (Yuan'da Huguang Eyaleti'ne bağlı Shunyuan lu) — sahibi Yuan olarak doğruluyor ama yıl/uç vermiyor; f=1281/t=1368 uçları teyitsiz. Bakılan: Mingshi j.46."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1658-01-01",
+   "t": "1673-12-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı (bütçe)."
+  }
+ ],
+ "Câlandhar (Jalandhar)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1846-03-09",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Jullundur», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jullundur [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "until the British annexation at the close of the first Sikh war (1846)",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL düzeyi (1846); gün 1846-03-09 bu kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1526-04-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jullundur (wikisource); Imperial Gazetteer 1908 metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: «Under Mahommedan rule the Doab was generally attached to the province of Lahore» — dönem uçları yok. Imperial Gazetteer Jullundur Town metnine ulaşılamadı (arama yalnız katalog verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jullundur (wikisource); Imperial Gazetteer 1908 metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: «Under Mahommedan rule the Doab was generally attached to the province of Lahore» — dönem uçları yok. Imperial Gazetteer Jullundur Town metnine ulaşılamadı (arama yalnız katalog verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jullundur (wikisource); Imperial Gazetteer 1908 metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: «Under Mahommedan rule the Doab was generally attached to the province of Lahore» — dönem uçları yok. Imperial Gazetteer Jullundur Town metnine ulaşılamadı (arama yalnız katalog verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1752-04-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jullundur (wikisource); Imperial Gazetteer 1908 metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: «Under Mahommedan rule the Doab was generally attached to the province of Lahore» — dönem uçları yok. Imperial Gazetteer Jullundur Town metnine ulaşılamadı (arama yalnız katalog verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1752-04-01",
+   "t": "1765-04-16",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jullundur (wikisource); Imperial Gazetteer 1908 metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: «Under Mahommedan rule the Doab was generally attached to the province of Lahore» — dönem uçları yok. Imperial Gazetteer Jullundur Town metnine ulaşılamadı (arama yalnız katalog verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1765-04-16",
+   "t": "1846-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Jullundur», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jullundur [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "In 1766 the town of Jullundur fell into the hands of the Sikh confederacy",
+   "oneri": {
+    "f": "1766"
+   },
+   "not": "f ucu YIL: 1766 (Faizullapuria misl'i); atlas f=1765-04-16. KÜNYE AŞIMI: dönem f 1765, künye (sih-imparatorlugu) f 1801-04-12 — 1766-1811 arası misl, imparatorluk değil; 1811'de Ranjit Singh Faizullapuria topraklarını ilhak etti (EB1911). t ucu: «close of the first Sikh war (1846)» YIL. ÖLÇÜT: idareye katma (Lahor'un Doab başkenti) — EB1911."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Vellor (Vellore)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1760-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Vellore», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vellore [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Vellore 1780'de Haydar Ali'ye direndi, 1799'dan sonra Tipu'nun oğulları orada, 1806 isyan — İngiliz denetimi 1806'da açık ama f=1760 teyitsiz (ikincil arama özeti: 1760'ta İngiliz kuvveti çekildi; dayanak değil). Imperial Gazetteer metni bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "pandya",
+   "f": "1281-01-01",
+   "t": "1311-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1311-01-01",
+   "t": "1378-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1378-01-01",
+   "t": "1656-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1656-01-01",
+   "t": "1687-09-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1687-09-21",
+   "t": "1714-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "karnatik",
+   "f": "1714-01-01",
+   "t": "1760-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Vellore; arama (Sarkar, Shivaji and His Times — yalnız arama özeti)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911 Vijayanagar/Bijapur/Babür sahipliğini ya da uçlarını vermiyor. Bakılan: EB1911 Vellore, arama."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1555",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Suzhou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.40 Dili zhi, zh.wikisource.org/wiki/明史/卷40 (resmî tarih; KAYIT günü, takvim çevrilmedi)",
+   "alinti": "太祖吳元年九月曰蘇州府",
+   "oneri": {
+    "f": "Wu yuan-nian 9. ay (çevrilecek)"
+   },
+   "not": "f ucu: Zhu Yuanzhang rejiminin Suzhou'yu alışı 吳元年 (Wu yıl 1) 9. ay; atlas ming f=1368-01-23. KÜNYE AŞIMI: Wu rejimi Ming künyesinden (1368-01-23) önce. ÖLÇÜT: idareye katma — Suzhou fu idarî birimi. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1645-06-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1863-12-04",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.40 Dili zhi, zh.wikisource.org/wiki/明史/卷40 (resmî tarih; KAYIT günü, takvim çevrilmedi)",
+   "alinti": "蘇州府元平江路，屬江浙行省",
+   "oneri": {
+    "t": "Wu yuan-nian 9. ay (çevrilecek)"
+   },
+   "not": "Yuan t ucu = 吳元年 9. ay (Mingshi: Yuan Pingjiang lu, Jiangzhe eyaleti); atlas t=1368-01-23. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-06-08",
+   "t": "1860-06-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "taiping",
+   "f": "1860-06-02",
+   "t": "1863-12-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Yazhou (Yacheng)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.45 Dili zhi, zh.wikisource.org/wiki/明史/卷45",
+   "alinti": "洪武元年十月改爲崖州，屬府",
+   "oneri": {
+    "f": "Hongwu 1, 10. ay (çevrilecek)"
+   },
+   "not": "f ucu: Hongwu 1, 10. ay (Ming idaresi Yazhou'da); atlas f=1368-04-01. ÖLÇÜT: idareye katma — Qiongzhou fu'ya bağlı zhou. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1650-11-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1650-11-24",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1939-02-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.45",
+   "alinti": "崖州元吉陽軍，屬海北海南道宣慰司",
+   "oneri": {
+    "t": "Hongwu 1, 10. ay (çevrilecek)"
+   },
+   "not": "Yuan t ucu = Hongwu 1/10. ay; atlas t=1368-04-01. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1939-02-10",
+   "t": "1945-09-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-09-02",
+   "t": "1950-05-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2503",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1950-05-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Amoy (Xiamen)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1644-04-25",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Mingshi j.45 (zh.wikisource.org/wiki/明史/卷45)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Okunan: «永寧中左千戶所…即廈門也，洪武二十七年二月置» — Hongwu 27/2. ay (1394) garnizon kuruluşu; sahiplik başlangıcı değil (Yuan→Ming geçişi Amoy için tanıklı değil). Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1650-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "tungning",
+   "f": "1650-01-01",
+   "t": "1680-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1680-01-01",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2418",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Bergen": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "norvec-isvec-birligi",
+   "f": "1814-11-04",
+   "t": "1905-06-07",
+   "hukum": "ONERI",
+   "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
+   "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
+   "oneri": {},
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "norvec-1814",
+   "f": "1814-05-17",
+   "t": "1814-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
+   "alinti": "17. mai 1814 skreiv Riksforsamlinga på Eidsvoll under den norske Grunnlova",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1814-05-17. t=1814-11-04 teyitsiz: SNL Kielfreden Moss Sözleşmesi'ni 14 Ağustos 1814 verir, 4 Kasım okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "SNL Danmark–Norge (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Norveç Krallığı->Danimarka 1537 ucu bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1537-01-01",
+   "t": "1814-01-14",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
+   "alinti": "Fredsavtalen, Kieltraktaten, vart underteikna 14. januar 1814.",
+   "oneri": {},
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN: 1814-01-14 Kiel imza (TEK ÖLÇÜ: imza günü atlas kuralı). f=1537 ucu teyitsiz.",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1814-01-14",
+   "t": "1814-05-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
+   "alinti": "17. mai 1814 skreiv Riksforsamlinga på Eidsvoll under den norske Grunnlova",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1814-01-14 (Kiel imza), t ucu GÜN 1814-05-17 (Eidsvoll anayasası). Kiel Norveç'te kabul edilmedi — atlas kuralı hukukî devir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "alan": "s",
+   "d": "norvec",
+   "f": "1905-06-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
+   "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1905-06-07 (Storting). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar."
+  }
+ ],
+ "Kattak (Cuttack)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-10-14",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Cuttack», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cuttack [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "was captured by the English from the Mahrattas in October 1803",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu AY düzeyi: 1803-10 (atlas 1803-10-14 gün teyitsiz). TEK KURAL uyarısı: bu ham fetih; hukukî devir Deogaon Antlaşması (gün bu kaynakta yok) — isg/s ayrımı için antlaşma günü gerekebilir; ÖLÇÜT: kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "orissa",
+   "f": "1281-01-01",
+   "t": "1568-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Cuttack; Bihar and Orissa District Gazetteer Cuttack (yalnız katalog)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911'de 1751 Maratha / Akbar tarihi yok; ikincil arama özetleri 1751 Maratha (Bhonsle) diyor (dayanak değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1568-01-01",
+   "t": "1592-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Cuttack",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Pathan Bengal krallığı 16. yy'da Moğullar tarafından yıkıldı (yıl yok); 1568/1592 uçları teyitsiz. İkincil arama özetleri 1568 Orissa seferi ve 1576 Moğol fethi diyor (dayanak değil) — 1592 ile çelişme ipucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1592-01-01",
+   "t": "1751-05-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Cuttack; Bihar and Orissa District Gazetteer Cuttack (yalnız katalog)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911'de 1751 Maratha / Akbar tarihi yok; ikincil arama özetleri 1751 Maratha (Bhonsle) diyor (dayanak değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1751-05-17",
+   "t": "1803-10-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Cuttack; Bihar and Orissa District Gazetteer Cuttack (yalnız katalog)",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911'de 1751 Maratha / Akbar tarihi yok; ikincil arama özetleri 1751 Maratha (Bhonsle) diyor (dayanak değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1097",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Nanchang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.43 Dili zhi, zh.wikisource.org/wiki/明史/卷43",
+   "alinti": "太祖壬寅年正月爲洪都府。癸卯年八月改南昌府。",
+   "oneri": {
+    "f": "1362 (壬寅 1. ay; çevrilecek)"
+   },
+   "not": "Zhu Yuanzhang idaresi Nanchang'da 壬寅年 (1362) 1. aydan itibaren (Hongdu fu), 癸卯 (1363) 8. ay Nanchang fu; atlas ming f=1368-01-23 çok geç. KÜNYE AŞIMI: 1362 Ming künyesinden (1368) önce. ÖLÇÜT: idareye katma — fu idarî birimi. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1645-06-08",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-06-08",
+   "t": "1912-02-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "ONERI",
+   "kaynak": "Mingshi j.43",
+   "alinti": "南昌府元龍興路，屬江西行省",
+   "oneri": {
+    "t": "1362 (壬寅 1. ay; çevrilecek)"
+   },
+   "not": "Yuan t ucu: 壬寅年 (1362) 1. ay; atlas t=1368-01-23. Takvim: günler Academia Sinica ile çevrilecek (EMRELİC toplu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Kristiansand": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "alan": "s",
+   "d": "norvec-isvec-birligi",
+   "f": "1814-11-04",
+   "t": "1905-06-07",
+   "hukum": "ONERI",
+   "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
+   "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
+   "oneri": {},
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "alan": "s",
+   "d": "norvec-1814",
+   "f": "1814-05-17",
+   "t": "1814-11-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
+   "alinti": "17. mai 1814 skreiv Riksforsamlinga på Eidsvoll under den norske Grunnlova",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1814-05-17. t=1814-11-04 teyitsiz: SNL Kielfreden Moss Sözleşmesi'ni 14 Ağustos 1814 verir, 4 Kasım okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1641-01-01",
+   "t": "1814-01-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "SNL «Kristiansand», https://snl.no/Kristiansand",
+   "alinti": "Byen Kristiansand ble grunnlagt i 1641 av Christian 4.",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu YIL: 1641 (şehrin kuruluşu); t ucu GÜN 1814-01-14 Kiel imza (SNL Kielfreden)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1814-01-14",
+   "t": "1814-05-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
+   "alinti": "17. mai 1814 skreiv Riksforsamlinga på Eidsvoll under den norske Grunnlova",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1814-01-14 (Kiel imza), t ucu GÜN 1814-05-17 (Eidsvoll anayasası). Kiel Norveç'te kabul edilmedi — atlas kuralı hukukî devir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "alan": "s",
+   "d": "norvec",
+   "f": "1905-06-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
+   "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu GÜN 1905-06-07 (Storting). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar."
+  }
+ ],
+ "Tarvis (Tarvisio)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:494",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1813-01-01",
+   "t": "1918-11-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Tarvisio» (açıldı, ilgili dönemler yok); arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani'de Bamberg/1759/1809/1919 yok. İpucu (dayanak değil): Bamberg->Habsburg 1758 mi 1759 mu çelişkili; Saint-Germain 1919 devri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:494",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1759-01-01",
+   "t": "1809-10-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Tarvisio» (açıldı, ilgili dönemler yok); arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani'de Bamberg/1759/1809/1919 yok. İpucu (dayanak değil): Bamberg->Habsburg 1758 mi 1759 mu çelişkili; Saint-Germain 1919 devri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:494",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Tarvisio» (açıldı, ilgili dönemler yok); arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani'de Bamberg/1759/1809/1919 yok. İpucu (dayanak değil): Bamberg->Habsburg 1758 mi 1759 mu çelişkili; Saint-Germain 1919 devri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:494",
+   "alan": "s",
+   "d": "italya",
+   "f": "1918-11-03",
+   "t": "1946-06-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Tarvisio» (açıldı, ilgili dönemler yok); arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani'de Bamberg/1759/1809/1919 yok. İpucu (dayanak değil): Bamberg->Habsburg 1758 mi 1759 mu çelişkili; Saint-Germain 1919 devri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:494",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Tarvisio» (açıldı, ilgili dönemler yok); arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani'de Bamberg/1759/1809/1919 yok. İpucu (dayanak değil): Bamberg->Habsburg 1758 mi 1759 mu çelişkili; Saint-Germain 1919 devri."
+  }
+ ],
+ "Kolam (Quilon)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1606",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1795-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Quilon», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Quilon [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Tangasseri için «formerly a Portuguese and then a Dutch settlement» — tarih yok; Quilon 16. yy başına dek önemliydi. Dönem uçları teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1606",
+   "alan": "s",
+   "d": "travankur",
+   "f": "1281-01-01",
+   "t": "1502-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Quilon», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Quilon [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Tangasseri için «formerly a Portuguese and then a Dutch settlement» — tarih yok; Quilon 16. yy başına dek önemliydi. Dönem uçları teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1606",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1502-01-01",
+   "t": "1661-12-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Quilon», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Quilon [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Tangasseri için «formerly a Portuguese and then a Dutch settlement» — tarih yok; Quilon 16. yy başına dek önemliydi. Dönem uçları teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1606",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1661-12-08",
+   "t": "1795-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Quilon», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Quilon [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "",
+   "oneri": {},
+   "not": "EB1911: Tangasseri için «formerly a Portuguese and then a Dutch settlement» — tarih yok; Quilon 16. yy başına dek önemliydi. Dönem uçları teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1606",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Aberdeen": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:123",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1652-02-14",
+   "t": "1660-06-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "British History Online (CAPTCHA), EB1911 Aberdeen (404), arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta okunamadı; Cromwell işgali ve 1707 Birleşme günleri Aberdeen için okunmadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:123",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1281-01-01",
+   "t": "1652-02-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "British History Online (CAPTCHA), EB1911 Aberdeen (404), arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta okunamadı; Cromwell işgali ve 1707 Birleşme günleri Aberdeen için okunmadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:123",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1660-06-08",
+   "t": "1707-05-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "British History Online (CAPTCHA), EB1911 Aberdeen (404), arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta okunamadı; Cromwell işgali ve 1707 Birleşme günleri Aberdeen için okunmadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:123",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "British History Online (CAPTCHA), EB1911 Aberdeen (404), arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta okunamadı; Cromwell işgali ve 1707 Birleşme günleri Aberdeen için okunmadı. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Codhpûr (Jodhpur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:712",
+   "alan": "s",
+   "d": "racput",
+   "f": "1707-03-03",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "EB1911 Jodhpur",
+   "alinti": "",
+   "oneri": {},
+   "not": "1707 ve sonrası Racput dönüşü EB1911'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:712",
+   "alan": "s",
+   "d": "racput",
+   "f": "1459-01-01",
+   "t": "1679-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Jodhpur», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jodhpur [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "Aurangzeb invaded Mārwār in 1679, plundered Jodhpur",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL: 1459 (Jodha'nın kuruluşu, EB1911 şehir bölümü); t ucu YIL: 1679 işgali. ÖLÇÜT: kaynak susuyor (işgal mi idareye katma mı belli değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:712",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1679-01-01",
+   "t": "1707-03-03",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Jodhpur», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jodhpur [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "Aurangzeb invaded Mārwār in 1679, plundered Jodhpur",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL düzeyi 1679 (işgal); t=1707-03-03 teyitsiz. TAHRİR ÖLÇÜTÜ: kaynak susuyor — s: mı isg: mı seçilemedi. EB1911 Ocak 1818 İngiliz himayesini anıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:712",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Kalküta": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1065",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1757-01-02",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Calcutta», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Calcutta [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "In January 1757 the expedition despatched from Madras, under Admiral Watson and Colonel Clive",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu AY düzeyi: 1757-01 (atlas 01-02 gün teyitsiz). Plassey 1757-06-23 (EB1911) ayrı olay."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1065",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1690-08-24",
+   "t": "1756-06-20",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Calcutta», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Calcutta [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "The history of Calcutta practically dates from the 24th of August 1690",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu GÜN: 1690-08-24 (Charnock, İngiliz Doğu Hindistan Kumpanyası yerleşimi). ÖLÇÜT: kaynak susuyor — Kumpanya yerleşimi 'ingiltere' egemenliği mi belirsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1065",
+   "alan": "s",
+   "d": "bengal-nevabligi",
+   "f": "1756-06-20",
+   "t": "1757-01-02",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopaedia Britannica 11. baskı (1911), «Calcutta», https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Calcutta [EB1911: tek başına en çok kısmen; 20. yy başı eser]",
+   "alinti": "the capture of Fort William in 1756, by Suraj-ud-Dowlah",
+   "oneri": {},
+   "not": "EB1911 ipucu — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas); TDV/akademik birebir okuma gerekir. | f ucu YIL düzeyi (1756); gün 06-20 bu kaynakta yok. t ucu: «In January 1757» Watson/Clive seferi geri aldı — AY düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1065",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ],
+ "Kimolos (Argentiera)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1801",
+   "alan": "s",
+   "d": "naksa-dukaligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama (Kimolos maddesi yok; Nakşa yalnız arama özeti); aegeanislands.gr (kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Kimolos maddesi yok. İpucu (dayanak değil): 1770-74 Rus filosu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1801",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama (Kimolos maddesi yok; Nakşa yalnız arama özeti); aegeanislands.gr (kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Kimolos maddesi yok. İpucu (dayanak değil): 1770-74 Rus filosu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1801",
+   "alan": "d",
+   "d": "",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama (Kimolos maddesi yok; Nakşa yalnız arama özeti); aegeanislands.gr (kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Kimolos maddesi yok. İpucu (dayanak değil): 1770-74 Rus filosu. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Ennis": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:146",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arama (yalnız Vikipedi/blog sonuçları, kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynak bulunamadı; ipucu: Murrough O'Brien 1543 teslim/yeniden bahşiş, dayanak değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:146",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arama (yalnız Vikipedi/blog sonuçları, kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynak bulunamadı; ipucu: Murrough O'Brien 1543 teslim/yeniden bahşiş, dayanak değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:146",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Arama (yalnız Vikipedi/blog sonuçları, kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynak bulunamadı; ipucu: Murrough O'Brien 1543 teslim/yeniden bahşiş, dayanak değil."
+  }
+ ],
+ "Cehol (Chengde)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1778",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1703-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing shi gao j.54 Dili zhi, zh.wikisource.org/wiki/清史稿/卷54",
+   "alinti": "康熙四十二年，建避暑山莊於熱河",
+   "oneri": {},
+   "not": "[alıntı özetten] | f ucu YIL düzeyi: 1703 (Kangxi 42) Rehe'de yazlık saray inşası; idarî birim: 雍正元年 (1723) Rehe ting, 雍正十一年 (1733) Chengde zhili zhou, 乾隆四十三年 (1778) Chengde fu. ÖLÇÜT: kaynak 1703'te sahipliği değil saray yapımını tarihliyor; Qing'in bölgede önceden egemen olduğu açık. Gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1778",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1778",
+   "alan": "s",
+   "d": "cin-halk-cumhuriyeti",
+   "f": "1949-10-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aranmadı."
+  }
+ ]
+}
