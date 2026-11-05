@@ -151,6 +151,25 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-97 — ardılsız zincirler ve dolaylı idare
+
+- **GERÇEK EKSİK (71) — ONAY.** P079-P082 bitince tek bir ajanla doldurulur.
+  - Yöntem: ülke düzeyinde halef devlet ve gün, küme yöntemiyle.
+  - Bilinen halefler:
+    - DDR (6 yerleşim) 1990-10-03 → `almanya`.
+    - Biafra 1970-01-15 → `nijerya`.
+    - Herzeg-Bosna, Krajina, Bosna Sırp Cumhuriyeti ve UNTAES → Dayton ve Erdut halefleri.
+    - İçkerya → `rusya`.
+    - Svaziland 1968 → Esvatini künyesi (var mı, ölçülecek).
+    - Togo, Togoland ve İngiliz Kamerunu → Gana / Kamerun / Nijerya (1961 plebisitleri).
+  - Hepsi kaynakla teyit edilir.
+- **ÖNCE-1281 (81):** düşük öncelik, şimdilik dokunulmaz.
+- **Merina künyesinin t'si** → 1897-01-27 (TDV); LAB'a. Uygun.
+- **Lozi ve Tsvana:** bu "dolaylı idare krallıkları" sistemik sorusudur; karar sabah Emre'de.
+  - Ruanda ve Burundi'de künyeler zaten krallık olarak vardı, kural o yüzden uygulandı.
+  - Bechuanaland'da atlasın protektora künyesi (`ingiliz-becuanaland`) `s:` olarak kullanılıyor; şimdilik değiştirilmez.
+  - Lozi'de mevcut model korunur. Satıra not düşülür: "dolaylı idare sınıfı — Emre kararı bekliyor".
+
 ## 5 Kasım 2026 gece-95 — P061-P068 üzerine ve ardılsız zincirler
 
 - **(a) İzlanda:** 1918-12-01. Birlik Yasası o gün yürürlüğe girdi; egemenlik o gün başlar. 11-30 kral onayı `ic_not`a.
