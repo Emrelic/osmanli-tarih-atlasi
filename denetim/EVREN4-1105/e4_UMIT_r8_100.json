@@ -64,7 +64,30 @@
      }
     ]
    },
-   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Tanganika Namibya/Garapan emsali onay. D2: 1919-06-28 kırılması ±30 gün kronoloji maddesi ister — alman-dogu-afrikasi künye kronolojisinde 1919-06-28 'Versay ile Alman egemenliği sona erdi…' maddesi VAR (devletler.js:18625); odak_yer'in bu yerleşimi kapsadığını KASA ölçer, kapsamıyorsa kronoloji KASA'da. Sınıf Emre listesinde: 'Versay md. 119 ve 22 kolonileri: Namibya, Garapan, Tanganika'. · ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK.",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-dogu-afrikasi",
+     "not": "yerleşime özgü işgal günü kaynakla"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "not": "Versay; 1920-01-10 yürürlük ve 1920-07-22 ic_not"
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi (künye kimliği KASA)",
+     "f": "1922-07-20"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4041,
@@ -180,7 +203,30 @@
      }
     ]
    },
-   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Tanganika Namibya/Garapan emsali onay. D2: 1919-06-28 kırılması ±30 gün kronoloji maddesi ister — alman-dogu-afrikasi künye kronolojisinde 1919-06-28 'Versay ile Alman egemenliği sona erdi…' maddesi VAR (devletler.js:18625); odak_yer'in bu yerleşimi kapsadığını KASA ölçer, kapsamıyorsa kronoloji KASA'da. Sınıf Emre listesinde: 'Versay md. 119 ve 22 kolonileri: Namibya, Garapan, Tanganika'. · ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK.",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-dogu-afrikasi",
+     "not": "yerleşime özgü işgal günü kaynakla"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "not": "Versay; 1920-01-10 yürürlük ve 1920-07-22 ic_not"
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi (künye kimliği KASA)",
+     "f": "1922-07-20"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4047,
@@ -290,7 +336,30 @@
      }
     ]
    },
-   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Tanganika Namibya/Garapan emsali onay. D2: 1919-06-28 kırılması ±30 gün kronoloji maddesi ister — alman-dogu-afrikasi künye kronolojisinde 1919-06-28 'Versay ile Alman egemenliği sona erdi…' maddesi VAR (devletler.js:18625); odak_yer'in bu yerleşimi kapsadığını KASA ölçer, kapsamıyorsa kronoloji KASA'da. Sınıf Emre listesinde: 'Versay md. 119 ve 22 kolonileri: Namibya, Garapan, Tanganika'. · ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK.",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-dogu-afrikasi",
+     "not": "yerleşime özgü işgal günü kaynakla"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "not": "Versay; 1920-01-10 yürürlük ve 1920-07-22 ic_not"
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi (künye kimliği KASA)",
+     "f": "1922-07-20"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4053,
@@ -351,7 +420,8 @@
     "t_tdv_tablo": "1975-09-11 (TDV tablosu; GG.AA.YYYY biçimi)",
     "atlas_t": "1975-11-11 (Office of the Historian ‘Angola’, angola künyesi f kaynağı, atlasta mevcut)"
    },
-   "not": "ÇİFT KAYNAK ÇELİŞKİSİ (t): TDV tablosu 11.09.1975 (11 Eylül) diyor; atlasın angola künyesi history.state.gov 'November 11, 1975' kaynaklı. TDV tablosu muhtemelen baskı hatası olabilir (KARAR VERİLMEDİ — kural: TDV esastır, çelişki ic_not’ta iki kaynakla beyan edilir; üçüncü bağımsız akademik kaynak okunamadı). t ucu şehre özgü değil, ülke düzeyi. f=1583: Massangano presidio’su (1583) için kaynak OKUNAMADI — Davidson 'Trade and Conflict in Angola' (archive.org 401 ödünç), TDV afrika/angola (Massangano yok); f ve devlet için BAKILMADI. Hayalet kontrolü: portekiz-angola künye f=1575 ≤ 1583 ✔."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Angola t 1975-11-11 KALIR; TDV 'Afrika' tablosundaki 11.09.1975 dizgi hatası, ic_not. · ÇİFT KAYNAK ÇELİŞKİSİ (t): TDV tablosu 11.09.1975 (11 Eylül) diyor; atlasın angola künyesi history.state.gov 'November 11, 1975' kaynaklı. TDV tablosu muhtemelen baskı hatası olabilir (KARAR VERİLMEDİ — kural: TDV esastır, çelişki ic_not’ta iki kaynakla beyan edilir; üçüncü bağımsız akademik kaynak okunamadı). t ucu şehre özgü değil, ülke düzeyi. f=1583: Massangano presidio’su (1583) için kaynak OKUNAMADI — Davidson 'Trade and Conflict in Angola' (archive.org 401 ödünç), TDV afrika/angola (Massangano yok); f ve devlet için BAKILMADI. Hayalet kontrolü: portekiz-angola künye f=1575 ≤ 1583 ✔.",
+   "karar": "EMRELİC"
   }
  ],
  "Pungo Andongo": [
@@ -370,7 +440,8 @@
     "t_tdv_tablo": "1975-09-11 (TDV tablosu)",
     "atlas_t": "1975-11-11"
    },
-   "not": "t: Massangano ile aynı çelişki (TDV tablosu 11 Eylül ↔ history.state.gov 11 Kasım). f=1671: atlasın ndongo künyesi (f 1500, t 1671-01-01) 'Portekiz’in Pungo Andongo’yu almasıyla sona erdi' diyor — bu ATLAS KAYDIDIR, dayanak değil; fetih günü (1671-11-29 ipucu) okunan kaynakta YOK, f BAKILMADI. F-GERİ ADAYI (UYGULANMADI): Pungo Andongo Ndongo’nun taşra kalesiydi (kur:1671 yalnız fetih yılı); varoluş günü f’si geri çekilirse ilk dilim 'ndongo' olur — şart (i) için Pungo’ya özgü Ndongo tanıklığı bulunamadı ⇒ f geri çekilmedi."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Angola t 1975-11-11 KALIR; TDV 'Afrika' tablosundaki 11.09.1975 dizgi hatası, ic_not. · t: Massangano ile aynı çelişki (TDV tablosu 11 Eylül ↔ history.state.gov 11 Kasım). f=1671: atlasın ndongo künyesi (f 1500, t 1671-01-01) 'Portekiz’in Pungo Andongo’yu almasıyla sona erdi' diyor — bu ATLAS KAYDIDIR, dayanak değil; fetih günü (1671-11-29 ipucu) okunan kaynakta YOK, f BAKILMADI. F-GERİ ADAYI (UYGULANMADI): Pungo Andongo Ndongo’nun taşra kalesiydi (kur:1671 yalnız fetih yılı); varoluş günü f’si geri çekilirse ilk dilim 'ndongo' olur — şart (i) için Pungo’ya özgü Ndongo tanıklığı bulunamadı ⇒ f geri çekilmedi.",
+   "karar": "EMRELİC"
   }
  ],
  "Mvansabombve (Kazembe)": [
@@ -456,7 +527,13 @@
     ],
     "karar": "KASA/EMRELİC"
    },
-   "not": "İKİ TDV MADDESİ ÇELİŞİYOR (not’ta beyan): «Kilve» t=1886 (Alman işgali), «Tanzanya» 1888 kiralama + 1890 devir, «Zengibar» 1890 Helgoland-Zanzibar. Hüküm verilmedi. Hertslet c.2: 1888 Alman Doğu Afrika Cemiyeti’nin Lindi’de gümrük idaresine başlaması (yazışma: 'taking preliminary steps … Lindi'), c.3 dizin: 13 Oca 1890 imtiyazların Almanya’ya mutlak devri (No. 215). 1890-11-04 günü okunan kaynakta YOK. ÖLÇÜT: idareye katma (Alman gümrük/idaresi 1888-90) vs. Sultan’ın egemenliği ⇒ 1890-07-01/10-28 en güçlü belge adayı. f=1698-12-13: önceki satırla aynı (yıl 1698)."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Lindi kiralama emsali (yerlesimler_asya.js:2050: kiralanan ve fiilen idare edilen yer kiracının s:'si). TEK ÖLÇÜ: DOAG daha önce idare etmiyordu → fiilî devralma 1888-08-16; kiralama imzası 1888-04-28 ic_not. Helgoland 1890-07-01 ve 1890-11-20 satış ic_not. TDV gün vermiyor → Iliffe 1979 / hakemli; bulunamazsa ONERI. · İKİ TDV MADDESİ ÇELİŞİYOR (not’ta beyan): «Kilve» t=1886 (Alman işgali), «Tanzanya» 1888 kiralama + 1890 devir, «Zengibar» 1890 Helgoland-Zanzibar. Hüküm verilmedi. Hertslet c.2: 1888 Alman Doğu Afrika Cemiyeti’nin Lindi’de gümrük idaresine başlaması (yazışma: 'taking preliminary steps … Lindi'), c.3 dizin: 13 Oca 1890 imtiyazların Almanya’ya mutlak devri (No. 215). 1890-11-04 günü okunan kaynakta YOK. ÖLÇÜT: idareye katma (Alman gümrük/idaresi 1888-90) vs. Sultan’ın egemenliği ⇒ 1890-07-01/10-28 en güçlü belge adayı. f=1698-12-13: önceki satırla aynı (yıl 1698).",
+   "oneri_son": {
+    "d": "umman-zengibar",
+    "f": "1698-12-13",
+    "t": "1888-08-16"
+   },
+   "karar": "EMRELİC"
   },
   {
    "sira": 4065,
@@ -473,7 +550,28 @@
     "t": "1919-06-28",
     "bol": "1916-09-01 → 1919-06-28 arası d: alman-dogu-afrikasi + isg ingiltere (aşağıdaki 'ingiltere' satırı)"
    },
-   "not": "f: TDV «Tanzanya» 1890 YIL düzeyinde (kara kısmı Almanlar’a); 1890-11-04 günü hiçbir okunan kaynakta YOK. Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. Lindi: Alman Doğu Afrika Cemiyeti idaresi 1888’den (Hertslet c.2 yazışma)."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Lindi: Abuşiri isyanı (Eylül 1888) Almanları kovdu, kasaba 1889–90'da geri alındı — dilim ATLANMAZ: BEYANLI ya da isg; geri alış günü kaynakla. · f: TDV «Tanzanya» 1890 YIL düzeyinde (kara kısmı Almanlar’a); 1890-11-04 günü hiçbir okunan kaynakta YOK. Hertslet dizini: 1 Tem 1890 Anglo-Alman anlaşması (No. 270: sahil Umba–Rovuma Almanya’ya devri + Mafia) ve 27-28 Eki 1890 tanıma notları (No. 271); GB–Almanya listesinde '4 Nov 1890 Notification' satırı var (içeriği okunmadı). UNESCO GHA VII: fetih 1888-1907 (ülke düzeyi). ÖLÇÜT: idareye katma — 1891 Reich kolonisi ipucu (okunmadı). t=1916-09-01: askerî işgal günü; Alman egemenliği Versailles imzasına (1919-06-28, künye t’si) kadar sürer ⇒ t ONERI. Lindi: Alman Doğu Afrika Cemiyeti idaresi 1888’den (Hertslet c.2 yazışma).",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "1888-08-16",
+     "t": "1888-09-?"
+    },
+    {
+     "alan": "isg/BEYANLI",
+     "d": "Abuşiri isyanı (künye yok)",
+     "f": "1888-09-?",
+     "t": "? (geri alış 1889–90, kaynakla)"
+    },
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "? (geri alış)",
+     "t": "1916-09-01"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4066,
@@ -508,7 +606,30 @@
      }
     ]
    },
-   "not": "ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Tanganika Namibya/Garapan emsali onay. D2: 1919-06-28 kırılması ±30 gün kronoloji maddesi ister — alman-dogu-afrikasi künye kronolojisinde 1919-06-28 'Versay ile Alman egemenliği sona erdi…' maddesi VAR (devletler.js:18625); odak_yer'in bu yerleşimi kapsadığını KASA ölçer, kapsamıyorsa kronoloji KASA'da. Sınıf Emre listesinde: 'Versay md. 119 ve 22 kolonileri: Namibya, Garapan, Tanganika'. · ÖLÇÜT: geçici/askerî — İngiliz işgali Kasım 1914’te (Mafia) başladı, TDV 1919 Versailles’ı sahiplik olarak anlatıyor; Versailles md.119 Almanya’nın haklarından VAZGEÇTİĞİ belgedir (imza 1919-06-28; yürürlük 1920-01-10 ic_not; Cemiyet Konseyi mandası 1920-07-22/1922-07-20 ic_not, ipucu, teyitsiz). TEK KURAL + TEK ÖLÇÜ: fiilen yönetiliyorsa s: imza gününden ⇒ s: ingiltere 1919-06-28. Mevcut 's: ingiltere 1916-09-01' fiilî işgali sahiplik yazıyor ⇒ isg’e çevrilmeli. Alıntı satırın f’sini (işgal başı) yıl/ay düzeyinde, Versailles md.119 ise t’yi (Alman hakkının sonu) tarihler; Versailles alıntısı günsüz (gün künye t’sinden). f günü (1916-09-01) hiçbir okunan kaynakta YOK.",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-dogu-afrikasi",
+     "not": "yerleşime özgü işgal günü kaynakla"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "not": "Versay; 1920-01-10 yürürlük ve 1920-07-22 ic_not"
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi (künye kimliği KASA)",
+     "f": "1922-07-20"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4067,
@@ -569,7 +690,12 @@
     "t": "1890-11-04 (atlasın DOAG günü; bkz. 'alman-dogu-afrikasi' satırı)",
     "neden": "Masasi Rovuma’nın KUZEYİNDE, Alman Doğu Afrikası içinde"
    },
-   "not": "AÇIK ÇELİŞKİ: yao künyesi t=1899 (Nyasaland Yao’su için anlamlı; TDV Malavi: İngilizler 1895’te Yao Mwingi Kheiri’yi indirdi). Masasi ise Rovuma kuzeyindedir: Hertslet dizini 'Rovuma River. British and German spheres, 9 June 1886' ve '…River to Lakes Nyasa and Tanganyika, 1 July 1890' ⇒ Alman etki alanı; 1899 Britanya’nın Masasi’yi alması diye bir olay okunan kaynakta YOK. Yao’nun Masasi’deki egemenliği (TDV: Yao, Zengibar’a bağlı, tarihsiz) ÜLKE/BÖLGE DÜZEYİ. f=1800 BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Masasi: yao → alman-dogu-afrikasi (f kaynakla) → isg ingiltere → 1919-06-28 → 1922-07-20. · AÇIK ÇELİŞKİ: yao künyesi t=1899 (Nyasaland Yao’su için anlamlı; TDV Malavi: İngilizler 1895’te Yao Mwingi Kheiri’yi indirdi). Masasi ise Rovuma kuzeyindedir: Hertslet dizini 'Rovuma River. British and German spheres, 9 June 1886' ve '…River to Lakes Nyasa and Tanganyika, 1 July 1890' ⇒ Alman etki alanı; 1899 Britanya’nın Masasi’yi alması diye bir olay okunan kaynakta YOK. Yao’nun Masasi’deki egemenliği (TDV: Yao, Zengibar’a bağlı, tarihsiz) ÜLKE/BÖLGE DÜZEYİ. f=1800 BAKILMADI.",
+   "oneri_son": {
+    "d": "yao",
+    "t": "? (Alman idaresi f günü kaynakla)"
+   },
+   "karar": "EMRELİC"
   },
   {
    "sira": 4071,
@@ -610,7 +736,36 @@
      }
     ]
    },
-   "not": "AÇIK ÇELİŞKİ ve muhtemel veri hatası: 's: ingiltere 1899-01-01' Masasi’yi 1899’dan itibaren İngiliz yapıyor; Masasi 1890-1916 Alman Doğu Afrikası (Rovuma kuzeyi, Hertslet), 1916’dan İngiliz işgali, 1919-06-28 Versailles imzasından s: ingiltere, 1922’den manda. Satır yao künyesinin t=1899’unu kopyalamış görünüyor. Aynı zincir Morogoro/Lindi/Kalenga/Mbeya’da kuruldu. TEK KURAL/TEK ÖLÇÜ ve ÖLÇÜT notları 'ingiltere' ara dilim satırlarında (Morogoro 4040). Masasi’ye özgü işgal günü ve Alman idaresine katma günü BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, r8_100): Masasi: s: ingiltere 1899 YANLIŞ (yao t'si kopyalanmış; Masasi Rovuma'nın kuzeyi, Alman DOA). D2: 1919-06-28 kırılması ±30 gün kronoloji maddesi ister — alman-dogu-afrikasi künye kronolojisinde 1919-06-28 'Versay ile Alman egemenliği sona erdi…' maddesi VAR (devletler.js:18625); odak_yer'in bu yerleşimi kapsadığını KASA ölçer, kapsamıyorsa kronoloji KASA'da. Sınıf Emre listesinde: 'Versay md. 119 ve 22 kolonileri: Namibya, Garapan, Tanganika'. · AÇIK ÇELİŞKİ ve muhtemel veri hatası: 's: ingiltere 1899-01-01' Masasi’yi 1899’dan itibaren İngiliz yapıyor; Masasi 1890-1916 Alman Doğu Afrikası (Rovuma kuzeyi, Hertslet), 1916’dan İngiliz işgali, 1919-06-28 Versailles imzasından s: ingiltere, 1922’den manda. Satır yao künyesinin t=1899’unu kopyalamış görünüyor. Aynı zincir Morogoro/Lindi/Kalenga/Mbeya’da kuruldu. TEK KURAL/TEK ÖLÇÜ ve ÖLÇÜT notları 'ingiltere' ara dilim satırlarında (Morogoro 4040). Masasi’ye özgü işgal günü ve Alman idaresine katma günü BAKILMADI.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "alman-dogu-afrikasi",
+     "f": "? (kaynakla)",
+     "t": "1916-09-01"
+    },
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-09-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-dogu-afrikasi",
+     "not": "yerleşime özgü işgal günü kaynakla"
+    },
+    {
+     "alan": "s",
+     "d": "ingiltere",
+     "f": "1919-06-28",
+     "t": "1922-07-20",
+     "not": "Versay; 1920-01-10 yürürlük ve 1920-07-22 ic_not"
+    },
+    {
+     "alan": "s",
+     "d": "ingiliz-tanganika-mandasi (künye kimliği KASA)",
+     "f": "1922-07-20"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4072,
