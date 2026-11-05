@@ -942,6 +942,15 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **Zend 1747–51:** `afsar` korunur + BEYANLI YAKLAŞIKLIK; dilim hayalet de değil, boş da değil. Onay. Hanlık künyesi kaynakla gelirse o dilim hanlığa geçer.
 - **Ara dosya:** 52c172273'teki `ZEND-KAFKAS-ONERI.json` ARA çıktıdır, uygulanmaz; ajan bitince yeniden commit edilir.
 - **Tunus 36:** UFUK-1923 listesiyle birlikte kapanır.
+- **LAB SALI cevabı (UYGULA 78 madde):**
+  - `norvec-1814` f 1814-02-19 zaten UYGULA'daydı (SNL, H4B). ATOMİK notu eklendi: 20 yerleşim aynı commit'te girer.
+    - Künye özetine eklenecek: "Christian Frederik 1814-10-10'da tahttan çekildi; 1814-11-04'te Storting birliği kabul etti". Künye t 11-04 değişmez.
+  - `fransa` / `fransa-cumhuriyet`: UYGULA'daki gece-91 atomik kalemi ikisini birden 09-21'e taşıyor. Künyeler bitişik olur ve 09-21/09-22 farkı kapanır.
+  - **Kanal Adaları:** `kanal-adalari` f 1204-01-01 (devletler.js:16339) ile `normandiya` t 1204-06-24 (:13375) yaklaşık 6 ay örtüşüyor. LAB önerisi: `kanal-adalari` f → 1204-06-24.
+    - 🔴 KASA notu: Saint Helier ve Saint Peter Port'un `s: kanal-adalari` dilimleri de 1204-01-01'de başlıyor. Künye f kayarsa iki yerleşimin f'si aynı commit'te 1204-06-24'e çekilmeli; yoksa hayalet olur. 1204-01-01 → 06-24 arasına `normandiya` dilimi yazılmalı; o da yoksa önceki sahip korunur (D1 kuralı).
+  - **Saumur:** `blois-kontlugu` künye adayı oldu.
+    - Zincir: Blois (Odo II) → 1026 Fulk Nerra → `anjou-kontlugu` (künye 1000–1204) → Fransa; günler kaynakla.
+    - ⚠️ Atlasın Saumur kaydında `fransa` f **1203-01-01**; LAB'ın zincirinde 1204. ON5 ajanı lex.dk'de Anjou geçişi için "1025" buldu (atlas 1026). İki uç da kaynakla hizalanmalı.
 
 ## gece-113 — tarama biçim kusuru (ek)
 
