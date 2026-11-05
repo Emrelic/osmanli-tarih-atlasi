@@ -1,0 +1,1423 @@
+{
+ "Valata (Oualata)": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:134",
+   "alan": "s",
+   "d": "mali-imparatorlugu",
+   "f": "1281-01-01",
+   "t": "1430-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (islamansiklopedisi.org.tr/mali)",
+   "alinti": "Tevârikler’in 1430’da Tinbüktü, Velâte, Aravuan ve Gao’yu ele geçirmesi üzerine ortadan kalktı",
+   "oneri": {
+    "ardil_d": "künye yok → LAB",
+    "ardil_f": "1430-01-01",
+    "ardil_t": ""
+   },
+   "uc": "t",
+   "not": "[yalnız yıl] Halef Tuareg (Tevârik). Künye yok → LAB: Tinbüktü-Velâte Tuareg (Akil) egemenliği 1430-~1468 için künye yok (mevcut tuareg-* künyeleri Aïr/Adag/İvellemmedan/Ahaggar/Accer). Ardından Songay (songhay-imparatorlugu f 1464) — Velâte'ye giriş yılı okunmadı."
+  }
+ ],
+ "Niani": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:123",
+   "alan": "s",
+   "d": "mali-imparatorlugu",
+   "f": "1281-01-01",
+   "t": "1670-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "BULUNAMADI — TDV 'Mali' (islamansiklopedisi.org.tr/mali) Niani'yi ve 1670'i anmıyor",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "",
+    "ardil_f": "1670-01-01",
+    "ardil_t": ""
+   },
+   "uc": "",
+   "not": "Mali künyesi t 1670 = yerleşim t; halef bilinmiyor (Bambara/Segu künyesi bambara 1650-1861 var, ama Niani'nin Bambara'ya geçtiği okunmadı; ipucu: ~1670 Bamana yağması). Önce soru: Niani 1670'ten sonra yerleşim olarak var mıydı? Yoksa TERK sınıfı (bit:). → LAB/TARAYICI (UNESCO GHA c.IV)."
+  }
+ ],
+ "Büyük Zimbabve": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:615",
+   "alan": "s",
+   "d": "mutapa",
+   "f": "1450-01-01",
+   "t": "1700-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zimbabve' (islamansiklopedisi.org.tr/zimbabve)",
+   "alinti": "Monomutapa adıyla anılan bu imparatorluk, XVII. yüzyılın sonlarında … Rozvi hânedanının yükselişiyle ortadan kalktı",
+   "oneri": {
+    "ardil_d": "rozvi",
+    "ardil_f": "1695-01-01",
+    "ardil_t": "1834-01-01",
+    "t_duzelt": "1695-01-01"
+   },
+   "uc": "",
+   "not": "[yalnız yüzyıl] HAYALET: mutapa künye t 1695-01-01 (devletler.js:9146), yerleşim t 1700 → mutapa dönemi 1695'e kısalmalı, ardıl rozvi (1684-1834, devletler.js:4080) 1695'ten. rozvi t 1834 sonrası (Ndebele/matabele künyesi var) ayrı zincir. MÜKERRER: 'Masvingo (Great Zimbabwe)' yerlesimler_once1281_yt_afrika.js:27, 3.4 km. Büyük Zimbabve ~1450'de büyük ölçüde terk edilmişti — TERK sınıfı da düşünülmeli."
+  }
+ ],
+ "Oyo-İle (Eski Oyo)": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:366",
+   "alan": "s",
+   "d": "oyo-imparatorlugu",
+   "f": "1400-01-01",
+   "t": "1836-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "BAKILMADI",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "",
+    "ardil_f": "",
+    "ardil_t": "",
+    "terk_bit": "1836-01-01"
+   },
+   "uc": "",
+   "not": "Eski Oyo (Oyo-İle) ~1835-36'da Fulani/İlorin baskısıyla terk edildi; başkent Ago-Oja'ya (Yeni Oyo) taşındı (ipucu). Öneri: halef değil TERK — kayda bit:1836-01-01 [yalnız yıl] (oyo künye t 1836 ile aynı). Kaynak gerek → TARAYICI (UNESCO GHA c.VI)."
+  }
+ ],
+ "Vitsi (Grammos-Vitsi, DSE üssü)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:72",
+   "alan": "s",
+   "d": "yunanistan-gecici-demokratik-hukumet",
+   "f": "1947-12-24",
+   "t": "1949-08-28",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — gün künyeden",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "yunanistan",
+    "ardil_f": "1949-08-28",
+    "ardil_t": "1973-06-01",
+    "sonraki": [
+     {
+      "d": "yunanistan-cumhuriyeti",
+      "f": "1973-06-01",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "Halef yunanistan (Krallık, 1821-03-25 → 1973-06-01) kapsıyor; ardından yunanistan-cumhuriyeti 1973-06-01 → 2000-12-31 (komşu Kesriye emsali). Grammos-Vitsi harekâtının sonu (Ağustos 1949) okunmadı → TARAYICI."
+  }
+ ],
+ "Grammos (DSE üssü)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:73",
+   "alan": "s",
+   "d": "yunanistan-gecici-demokratik-hukumet",
+   "f": "1947-12-24",
+   "t": "1949-08-28",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — gün künyeden",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "yunanistan",
+    "ardil_f": "1949-08-28",
+    "ardil_t": "1973-06-01",
+    "sonraki": [
+     {
+      "d": "yunanistan-cumhuriyeti",
+      "f": "1973-06-01",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "Halef yunanistan (Krallık, 1821-03-25 → 1973-06-01) kapsıyor; ardından yunanistan-cumhuriyeti 1973-06-01 → 2000-12-31 (komşu Kesriye emsali). Grammos-Vitsi harekâtının sonu (Ağustos 1949) okunmadı → TARAYICI."
+  }
+ ],
+ "Bandung": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:62",
+   "alan": "s",
+   "d": "pasundan-devleti",
+   "f": "1948-02-26",
+   "t": "1950-03-11",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — künye kaynağı digilib.uinsgd.ac.id/137993 (Negara Pasundan) okunmadı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "endonezya-cumhuriyeti",
+    "ardil_f": "1950-03-11",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef endonezya-cumhuriyeti (f 1945-08-17, devletler.js:10994) kapsıyor. Emsal: Cava'daki komşu yerleşimler 1949-12-27'den endonezya-cumhuriyeti (RIS ayrı künye değil). Pasundan'ın Cumhuriyet'e katılım günü kaynakla okunmadı → TARAYICI."
+  }
+ ],
+ "Tasikmalaya": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:63",
+   "alan": "s",
+   "d": "pasundan-devleti",
+   "f": "1948-02-26",
+   "t": "1950-03-11",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — künye kaynağı digilib.uinsgd.ac.id/137993 (Negara Pasundan) okunmadı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "endonezya-cumhuriyeti",
+    "ardil_f": "1950-03-11",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef endonezya-cumhuriyeti (f 1945-08-17, devletler.js:10994) kapsıyor. Emsal: Cava'daki komşu yerleşimler 1949-12-27'den endonezya-cumhuriyeti (RIS ayrı künye değil). Pasundan'ın Cumhuriyet'e katılım günü kaynakla okunmadı → TARAYICI."
+  }
+ ],
+ "Sukabumi": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:64",
+   "alan": "s",
+   "d": "pasundan-devleti",
+   "f": "1948-02-26",
+   "t": "1950-03-11",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — künye kaynağı digilib.uinsgd.ac.id/137993 (Negara Pasundan) okunmadı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "endonezya-cumhuriyeti",
+    "ardil_f": "1950-03-11",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef endonezya-cumhuriyeti (f 1945-08-17, devletler.js:10994) kapsıyor. Emsal: Cava'daki komşu yerleşimler 1949-12-27'den endonezya-cumhuriyeti (RIS ayrı künye değil). Pasundan'ın Cumhuriyet'e katılım günü kaynakla okunmadı → TARAYICI."
+  }
+ ],
+ "Koper (Capodistria, B bölgesi)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:74",
+   "alan": "s",
+   "d": "triyeste-serbest-toprak",
+   "f": "1947-09-15",
+   "t": "1954-10-26",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Slobodni Teritorij Trsta' (enciklopedija.hr/clanak/slobodni-teritorij-trsta) ; Université Laval CEFAN, 'Mémorandum de Londres 1954'",
+   "alinti": "u Londonu je 5. X. 1954. bio postignut sporazum o ukidanju STT-a. … Zona B Jugoslaviji",
+   "oneri": {
+    "ardil_d": "yugoslavya-federal",
+    "ardil_f": "1954-10-05",
+    "ardil_t": "1991-06-25",
+    "sonraki": [
+     {
+      "d": "slovenya",
+      "f": "1991-06-25",
+      "t": "2000-12-31"
+     }
+    ],
+    "t_duzelt": "1954-10-05"
+   },
+   "uc": "t",
+   "not": "ONERI: t 1954-10-26 → 1954-10-05 (TEK ÖLÇÜ imza dalı: Yugoslavya B bölgesini 1945'ten beri askerî olarak yönetiyordu; CEFAN: «l'administration civile yougoslave était étendue à toute la zone B»). Künye t'si de 10-05'e çekilmeli (künye kaynağı 26 Ekim'i teyit edemedi) → LAB. 10-26 devir/tahliye ic_not'a. Halef yugoslavya-federal (1945-11-29 → 1992-04-27) kapsıyor; BOYALAR'da id yok, harita:'yugoslavya' var. Sonrası bkz. sonraki. Koper Slovenya SC'nin parçası; 1991-06-25 Slovenya (f 1991-06-25, devletler.js:15972)."
+  }
+ ],
+ "Umag (B bölgesi)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:75",
+   "alan": "s",
+   "d": "triyeste-serbest-toprak",
+   "f": "1947-09-15",
+   "t": "1954-10-26",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Slobodni Teritorij Trsta' (enciklopedija.hr/clanak/slobodni-teritorij-trsta) ; Université Laval CEFAN, 'Mémorandum de Londres 1954'",
+   "alinti": "u Londonu je 5. X. 1954. bio postignut sporazum o ukidanju STT-a. … Zona B Jugoslaviji",
+   "oneri": {
+    "ardil_d": "yugoslavya-federal",
+    "ardil_f": "1954-10-05",
+    "ardil_t": "1991-06-25",
+    "sonraki": [
+     {
+      "d": "hirvatistan",
+      "f": "1991-06-25",
+      "t": "2000-12-31"
+     }
+    ],
+    "t_duzelt": "1954-10-05"
+   },
+   "uc": "t",
+   "not": "ONERI: t 1954-10-26 → 1954-10-05 (TEK ÖLÇÜ imza dalı: Yugoslavya B bölgesini 1945'ten beri askerî olarak yönetiyordu; CEFAN: «l'administration civile yougoslave était étendue à toute la zone B»). Künye t'si de 10-05'e çekilmeli (künye kaynağı 26 Ekim'i teyit edemedi) → LAB. 10-26 devir/tahliye ic_not'a. Halef yugoslavya-federal (1945-11-29 → 1992-04-27) kapsıyor; BOYALAR'da id yok, harita:'yugoslavya' var. Sonrası bkz. sonraki. Umag Hırvatistan SC'nin parçası; 1991-06-25 hirvatistan."
+  }
+ ],
+ "Bahlâ": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:141",
+   "alan": "s",
+   "d": "umman-ic-imamlik",
+   "f": "1913-01-01",
+   "t": "1955-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Hansard, HL Deb 29 July 1957 vol 205 cc241-5 'The Situation in Central Oman' (api.parliament.uk/historic-hansard/lords/1957/jul/29/the-situation-in-central-oman)",
+   "alinti": "In December, 1955, the Sultan took steps to reassert his authority, and forces under his control entered the main inhabited centres of Oman",
+   "oneri": {
+    "ardil_d": "umman",
+    "ardil_f": "1955-12-01",
+    "ardil_t": "2000-12-31",
+    "t_duzelt": "1955-12-01"
+   },
+   "uc": "",
+   "not": "[yalnız ay] ONERI: imamlık dönemi t 1955-01-01 (yalnız yıl) → 1955-12-01 ve ardıl umman (f 1624, devletler.js:1840, kapsıyor) 1955-12-01'den. Nizvâ'nın 15 Aralık 1955'te alındığı (Vikipedi) ve TNA FO 371 katalog özeti 'Adam ve Firq 14 Aralık 1955' — ipucu, teyitsiz. TDV 'Uman': Nizvâ, İzkî, Semâil imamların yerleri; Cebeliahdar 1957-59 (Talib'in 1957 isyanı ayrı isg/rakip dönem olabilir). Koordinatörün '1955 → umman' hükmüyle uyumlu."
+  }
+ ],
+ "Izkî": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:142",
+   "alan": "s",
+   "d": "umman-ic-imamlik",
+   "f": "1913-01-01",
+   "t": "1955-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Hansard, HL Deb 29 July 1957 vol 205 cc241-5 'The Situation in Central Oman' (api.parliament.uk/historic-hansard/lords/1957/jul/29/the-situation-in-central-oman)",
+   "alinti": "In December, 1955, the Sultan took steps to reassert his authority, and forces under his control entered the main inhabited centres of Oman",
+   "oneri": {
+    "ardil_d": "umman",
+    "ardil_f": "1955-12-01",
+    "ardil_t": "2000-12-31",
+    "t_duzelt": "1955-12-01"
+   },
+   "uc": "",
+   "not": "[yalnız ay] ONERI: imamlık dönemi t 1955-01-01 (yalnız yıl) → 1955-12-01 ve ardıl umman (f 1624, devletler.js:1840, kapsıyor) 1955-12-01'den. Nizvâ'nın 15 Aralık 1955'te alındığı (Vikipedi) ve TNA FO 371 katalog özeti 'Adam ve Firq 14 Aralık 1955' — ipucu, teyitsiz. TDV 'Uman': Nizvâ, İzkî, Semâil imamların yerleri; Cebeliahdar 1957-59 (Talib'in 1957 isyanı ayrı isg/rakip dönem olabilir). Koordinatörün '1955 → umman' hükmüyle uyumlu."
+  }
+ ],
+ "Nador": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:14",
+   "alan": "s",
+   "d": "fas-ispanyol-himayesi",
+   "f": "1912-11-27",
+   "t": "1956-04-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Fas' (islamansiklopedisi.org.tr/fas)",
+   "alinti": "İspanya da Fas’ın bağımsızlığını tanıyarak İfni, Sebte ve Melîle dışında kalan topraklarındaki himayesini kaldırdı (5 Nisan 1956)",
+   "oneri": {
+    "ardil_d": "fas-krallik",
+    "ardil_f": "1956-04-07",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "GÜN ÇELİŞKİSİ: TDV 5 Nisan 1956, künye t 1956-04-07 (Madrid ortak bildirisi; künye kaynağında 'yalnız özet'). TDV esastır kuralı → ONERI t/ardıl f 1956-04-05 adayı; 04-07 ic_not'a; EMRELİC karar. Halef fas-krallik (f 1956-03-02, devletler.js:14434) kapsıyor; BOYALAR'da id yok, harita:'fas' var. Melîle (13 km) İspanya'da kalır."
+  }
+ ],
+ "Ho (Togoland)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:31",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
+   "hukum": "ONERI",
+   "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6), s.5(2) ve s.4 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted) ; TDV 'Gana' (D. Dursun)",
+   "alinti": "“the appointed day” means the sixth day of March, nineteen hundred and fifty-seven | the words “Togoland under United Kingdom Trusteeship” … were omitted",
+   "oneri": {
+    "ardil_d": "gana",
+    "ardil_f": "1957-03-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "İngiliz Togolandı Gana'ya katıldı (1956-05-09 plebisit ic_not'a). TDV: «Togoland’ın batı tarafı da buraya eklendi» (yılsız). Halef gana (f 1957-03-06, devletler.js:15060), bitişik. Ho/Hohoe/Kpando güney Togoland'da."
+  }
+ ],
+ "Hohoe": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:32",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
+   "hukum": "ONERI",
+   "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6), s.5(2) ve s.4 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted) ; TDV 'Gana' (D. Dursun)",
+   "alinti": "“the appointed day” means the sixth day of March, nineteen hundred and fifty-seven | the words “Togoland under United Kingdom Trusteeship” … were omitted",
+   "oneri": {
+    "ardil_d": "gana",
+    "ardil_f": "1957-03-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "İngiliz Togolandı Gana'ya katıldı (1956-05-09 plebisit ic_not'a). TDV: «Togoland’ın batı tarafı da buraya eklendi» (yılsız). Halef gana (f 1957-03-06, devletler.js:15060), bitişik. Ho/Hohoe/Kpando güney Togoland'da."
+  }
+ ],
+ "Kpando": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:33",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
+   "hukum": "ONERI",
+   "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6), s.5(2) ve s.4 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted) ; TDV 'Gana' (D. Dursun)",
+   "alinti": "“the appointed day” means the sixth day of March, nineteen hundred and fifty-seven | the words “Togoland under United Kingdom Trusteeship” … were omitted",
+   "oneri": {
+    "ardil_d": "gana",
+    "ardil_f": "1957-03-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "İngiliz Togolandı Gana'ya katıldı (1956-05-09 plebisit ic_not'a). TDV: «Togoland’ın batı tarafı da buraya eklendi» (yılsız). Halef gana (f 1957-03-06, devletler.js:15060), bitişik. Ho/Hohoe/Kpando güney Togoland'da."
+  }
+ ],
+ "Brazzaville": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:13",
+   "alan": "s",
+   "d": "fransiz-ekvator-afrikasi",
+   "f": "1910-01-15",
+   "t": "1958-01-01",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI — emsal komşu kayıtlar (yerlesimler_afrika2.js: Suanke, İmpfondo, Ouesso)",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "fransa-cumhuriyet",
+    "ardil_f": "1958-01-01",
+    "ardil_t": "1960-08-15",
+    "sonraki": [
+     {
+      "d": "kongo-brazzaville",
+      "f": "1960-08-15",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "Komşu Kongo yerleşimleri 1960-08-15'e dek 'fransa-cumhuriyet', sonra kongo-brazzaville (f 1960-08-15, devletler.js:15278). AEF künye t 1958-01-01 şüpheli (Kongo Cumhuriyeti Fransız Topluluğu içinde özerk: 28 Kasım 1958 — ipucu). Özerk cumhuriyet künyesi yok → LAB. Sonrası bkz. sonraki."
+  }
+ ],
+ "Lomé": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:34",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Togo' (history.state.gov/countries/togo)",
+   "alinti": "The United States recognized the Republic of Togo on April 27, 1960",
+   "oneri": {
+    "ardil_d": "togo",
+    "ardil_f": "1960-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Tanıma günü = bağımsızlık günü (künye kaynağı aynı). Halef togo (f 1960-04-27, devletler.js:15082), bitişik."
+  }
+ ],
+ "Atakpamé": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:35",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Togo' (history.state.gov/countries/togo)",
+   "alinti": "The United States recognized the Republic of Togo on April 27, 1960",
+   "oneri": {
+    "ardil_d": "togo",
+    "ardil_f": "1960-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Tanıma günü = bağımsızlık günü (künye kaynağı aynı). Halef togo (f 1960-04-27, devletler.js:15082), bitişik."
+  }
+ ],
+ "Sokodé": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:36",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Togo' (history.state.gov/countries/togo)",
+   "alinti": "The United States recognized the Republic of Togo on April 27, 1960",
+   "oneri": {
+    "ardil_d": "togo",
+    "ardil_f": "1960-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Tanıma günü = bağımsızlık günü (künye kaynağı aynı). Halef togo (f 1960-04-27, devletler.js:15082), bitişik."
+  }
+ ],
+ "Kara (Togo)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:37",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Togo' (history.state.gov/countries/togo)",
+   "alinti": "The United States recognized the Republic of Togo on April 27, 1960",
+   "oneri": {
+    "ardil_d": "togo",
+    "ardil_f": "1960-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Tanıma günü = bağımsızlık günü (künye kaynağı aynı). Halef togo (f 1960-04-27, devletler.js:15082), bitişik."
+  }
+ ],
+ "Buea": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:45",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun)",
+   "alinti": "güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961)",
+   "oneri": {
+    "ardil_d": "kamerun",
+    "ardil_f": "1961-10-01",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Buea, Kumba, Bamenda koordinatları Güney Kamerun'da (lat 4.1-6.0) → Kamerun; Kuzey Kamerun (Batı Adamava) 1961'de Nijerya'ya — bu kümede yok. Halef kamerun (f 1960-01-01, devletler.js:15232) kapsıyor."
+  }
+ ],
+ "Bamenda": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:46",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun)",
+   "alinti": "güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961)",
+   "oneri": {
+    "ardil_d": "kamerun",
+    "ardil_f": "1961-10-01",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Buea, Kumba, Bamenda koordinatları Güney Kamerun'da (lat 4.1-6.0) → Kamerun; Kuzey Kamerun (Batı Adamava) 1961'de Nijerya'ya — bu kümede yok. Halef kamerun (f 1960-01-01, devletler.js:15232) kapsıyor."
+  }
+ ],
+ "Kumba": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:47",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun)",
+   "alinti": "güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961)",
+   "oneri": {
+    "ardil_d": "kamerun",
+    "ardil_f": "1961-10-01",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Buea, Kumba, Bamenda koordinatları Güney Kamerun'da (lat 4.1-6.0) → Kamerun; Kuzey Kamerun (Batı Adamava) 1961'de Nijerya'ya — bu kümede yok. Halef kamerun (f 1960-01-01, devletler.js:15232) kapsıyor."
+  }
+ ],
+ "Keningau": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:143",
+   "alan": "s",
+   "d": "kuzey-borneo-tac-kolonisi",
+   "f": "1946-07-15",
+   "t": "1963-09-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Malezya' (islamansiklopedisi.org.tr/malezya)",
+   "alinti": "16 Eylül 1963 tarihinde İngiliz sömürge yönetimine bağlı Singapur, Saravak ve Sabah eyaletlerinin de katılmasıyla",
+   "oneri": {
+    "ardil_d": "malezya",
+    "ardil_f": "1963-09-16",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef malezya (f 1957-08-31, devletler.js:21705) kapsıyor; BOYALAR'da id yok, harita:'ingiliz-malaya' var."
+  }
+ ],
+ "Lusaka": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:23",
+   "alan": "s",
+   "d": "rodezya-nyasaland-federasyonu",
+   "f": "1953-08-01",
+   "t": "1963-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Rhodesia and Nyasaland Act 1963 (c.34) (legislation.gov.uk/ukpga/1963/34/enacted)",
+   "alinti": "An Act to confer on Her Majesty in Council powers requisite to provide for the dissolution of the Federation",
+   "oneri": {
+    "ardil_d": "ingiltere",
+    "ardil_f": "1963-12-31",
+    "ardil_t": "1964-10-24",
+    "sonraki": [
+     {
+      "d": "zambiya",
+      "f": "1964-10-24",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "[gün teyitsiz] Yasa feshi Order in Council'e bırakıyor; 31 Aralık 1963 günü okunmadı (künyeden). Komşu emsal (Salisbury, Gveru, Bulavayo): federasyon dönemi hiç yazılmamış, 'ingiltere' 1965-11-11'e / 1964-10-24'e dek. Halef zincir bölgeye göre ayrı (bkz. oneri.sonraki)."
+  }
+ ],
+ "Bulawayo": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:24",
+   "alan": "s",
+   "d": "rodezya-nyasaland-federasyonu",
+   "f": "1953-08-01",
+   "t": "1963-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Rhodesia and Nyasaland Act 1963 (c.34) (legislation.gov.uk/ukpga/1963/34/enacted)",
+   "alinti": "An Act to confer on Her Majesty in Council powers requisite to provide for the dissolution of the Federation",
+   "oneri": {
+    "ardil_d": "ingiltere",
+    "ardil_f": "1963-12-31",
+    "ardil_t": "1965-11-11",
+    "sonraki": [
+     {
+      "d": "rodezya-udi",
+      "f": "1965-11-11",
+      "t": "1979-06-01"
+     },
+     {
+      "d": "zimbabve-rodezya",
+      "f": "1979-06-01",
+      "t": "1979-12-12"
+     },
+     {
+      "d": "ingiltere",
+      "f": "1979-12-12",
+      "t": "1980-04-18"
+     },
+     {
+      "d": "zimbabve",
+      "f": "1980-04-18",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "[gün teyitsiz] Yasa feshi Order in Council'e bırakıyor; 31 Aralık 1963 günü okunmadı (künyeden). Komşu emsal (Salisbury, Gveru, Bulavayo): federasyon dönemi hiç yazılmamış, 'ingiltere' 1965-11-11'e / 1964-10-24'e dek. Halef zincir bölgeye göre ayrı (bkz. oneri.sonraki). MÜKERRER: 'Bulavayo' (yerlesimler_afrika2.js:1932, 0.3 km) zinciri 1893-2000 tam; bu nokta silinmeli ya da Bulavayo zinciri kopyalanmalı (federasyon dönemi orada yok)."
+  }
+ ],
+ "Enugu": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:38",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1967-10-04",
+   "hukum": "ONERI",
+   "kaynak": "BAKILMADI (Enugu düşüş günü) — ülke düzeyi: FRUS 1969-76 E-5/1 Doc.163",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "nijerya",
+    "ardil_f": "1967-10-04",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Mevcut t 1967-10-04 = federal kuvvetlerin Enugu'yu alışı (kayıttan; kaynakla teyit edilmedi). Halef nijerya künyesi kapsıyor, bitişik. Enugu sonrasında Biafra'ya geri geçmedi (ipucu). Gün kaynağı → TARAYICI."
+  }
+ ],
+ "Mbabane": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:29",
+   "alan": "s",
+   "d": "ingiliz-svaziland",
+   "f": "1903-01-01",
+   "t": "1968-09-06",
+   "hukum": "ONERI",
+   "kaynak": "Swaziland Independence Act 1968 (c.56), s.1 (legislation.gov.uk/ukpga/1968/56/enacted)",
+   "alinti": "On 6th September 1968 … Swaziland shall cease to be a protected state",
+   "oneri": {
+    "ardil_d": "svaziland",
+    "ardil_f": "1968-09-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef künye svaziland (Svaziland Krallığı, 2018'den eSwatini; f 1968-09-06, devletler.js:15014) var, bitişik. Komşu Lobamba aynı künyeyi 1968-09-06'dan kullanıyor."
+  }
+ ],
+ "Manzini": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:30",
+   "alan": "s",
+   "d": "ingiliz-svaziland",
+   "f": "1903-01-01",
+   "t": "1968-09-06",
+   "hukum": "ONERI",
+   "kaynak": "Swaziland Independence Act 1968 (c.56), s.1 (legislation.gov.uk/ukpga/1968/56/enacted)",
+   "alinti": "On 6th September 1968 … Swaziland shall cease to be a protected state",
+   "oneri": {
+    "ardil_d": "svaziland",
+    "ardil_f": "1968-09-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef künye svaziland (Svaziland Krallığı, 2018'den eSwatini; f 1968-09-06, devletler.js:15014) var, bitişik. Komşu Lobamba aynı künyeyi 1968-09-06'dan kullanıyor."
+  }
+ ],
+ "Saidu Sharif": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:138",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI — denenen: regionalstudies.com.pk (M. Ali, yönlendirme), LSE JSRP Sayeed (DNS), Sultan-i-Rome, Swat State 1915-1969 (OUP 2008, erişilemedi)",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "pakistan",
+    "ardil_f": "1969-07-28",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef pakistan (f 1947-08-15, devletler.js:21780) kapsıyor. 28 Temmuz 1969 Yahya Han'ın Swat, Dir, Çitral'ın birleşmesini ilânı — yalnız Vikipedi ipucu; bir aynada 14 Ekim 1969 (Batı Pakistan'a katılım) geçiyor. TARAYICI: Sultan-i-Rome OUP 2008."
+  }
+ ],
+ "Madyan (Swat)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:139",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI — denenen: regionalstudies.com.pk (M. Ali, yönlendirme), LSE JSRP Sayeed (DNS), Sultan-i-Rome, Swat State 1915-1969 (OUP 2008, erişilemedi)",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "pakistan",
+    "ardil_f": "1969-07-28",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef pakistan (f 1947-08-15, devletler.js:21780) kapsıyor. 28 Temmuz 1969 Yahya Han'ın Swat, Dir, Çitral'ın birleşmesini ilânı — yalnız Vikipedi ipucu; bir aynada 14 Ekim 1969 (Batı Pakistan'a katılım) geçiyor. TARAYICI: Sultan-i-Rome OUP 2008."
+  }
+ ],
+ "Kalam (Swat)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:140",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI — denenen: regionalstudies.com.pk (M. Ali, yönlendirme), LSE JSRP Sayeed (DNS), Sultan-i-Rome, Swat State 1915-1969 (OUP 2008, erişilemedi)",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "pakistan",
+    "ardil_f": "1969-07-28",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef pakistan (f 1947-08-15, devletler.js:21780) kapsıyor. 28 Temmuz 1969 Yahya Han'ın Swat, Dir, Çitral'ın birleşmesini ilânı — yalnız Vikipedi ipucu; bir aynada 14 Ekim 1969 (Batı Pakistan'a katılım) geçiyor. TARAYICI: Sultan-i-Rome OUP 2008."
+  }
+ ],
+ "Umuahia": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:39",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "hukum": "ONERI",
+   "kaynak": "FRUS 1969-1976, Vol. E-5 Part 1, Doc. 163, Dept. of State to Embassy Ivory Coast, 'Nigeria Sitrep, 1300 Hours EST, Jan 15' (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163)",
+   "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” … He said “Republic of Biafra” no longer exists.",
+   "oneri": {
+    "ardil_d": "nijerya",
+    "ardil_f": "1970-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Belge 15 Ocak 1970 tarihli ('today'), yıl başlıktan. Halef nijerya (f 1960-10-01, devletler.js:15195) kapsıyor. ŞEHİR DÜZEYİ ayrı soru (rakip hükûmet kuralı — her şehir kendi düşüş günü): FRUS Doc.157 (12 Ocak 1970) «The Biafran capital of Owerri has reportedly been captured» → Owerri ≤1970-01-12; Umuahia ve Aba daha önce düşmüş olabilir (ipucu, teyitsiz). EMRELİC kararı."
+  }
+ ],
+ "Aba (Nijerya)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:40",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "hukum": "ONERI",
+   "kaynak": "FRUS 1969-1976, Vol. E-5 Part 1, Doc. 163, Dept. of State to Embassy Ivory Coast, 'Nigeria Sitrep, 1300 Hours EST, Jan 15' (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163)",
+   "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” … He said “Republic of Biafra” no longer exists.",
+   "oneri": {
+    "ardil_d": "nijerya",
+    "ardil_f": "1970-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Belge 15 Ocak 1970 tarihli ('today'), yıl başlıktan. Halef nijerya (f 1960-10-01, devletler.js:15195) kapsıyor. ŞEHİR DÜZEYİ ayrı soru (rakip hükûmet kuralı — her şehir kendi düşüş günü): FRUS Doc.157 (12 Ocak 1970) «The Biafran capital of Owerri has reportedly been captured» → Owerri ≤1970-01-12; Umuahia ve Aba daha önce düşmüş olabilir (ipucu, teyitsiz). EMRELİC kararı."
+  }
+ ],
+ "Owerri": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:41",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "hukum": "ONERI",
+   "kaynak": "FRUS 1969-1976, Vol. E-5 Part 1, Doc. 163, Dept. of State to Embassy Ivory Coast, 'Nigeria Sitrep, 1300 Hours EST, Jan 15' (history.state.gov/historicaldocuments/frus1969-76ve05p1/d163)",
+   "alinti": "Effiong today issued statement accepting “the existing and federal structure of Nigeria” … He said “Republic of Biafra” no longer exists.",
+   "oneri": {
+    "ardil_d": "nijerya",
+    "ardil_f": "1970-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Belge 15 Ocak 1970 tarihli ('today'), yıl başlıktan. Halef nijerya (f 1960-10-01, devletler.js:15195) kapsıyor. ŞEHİR DÜZEYİ ayrı soru (rakip hükûmet kuralı — her şehir kendi düşüş günü): FRUS Doc.157 (12 Ocak 1970) «The Biafran capital of Owerri has reportedly been captured» → Owerri ≤1970-01-12; Umuahia ve Aba daha önce düşmüş olabilir (ipucu, teyitsiz). EMRELİC kararı. Owerri için FRUS Doc.157 (12 Ocak 1970) «The Biafran capital of Owerri has reportedly been captured»."
+  }
+ ],
+ "Berbérati": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:48",
+   "alan": "s",
+   "d": "orta-afrika-imparatorlugu",
+   "f": "1976-12-04",
+   "t": "1979-09-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Orta Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti)",
+   "alinti": "21 Eylül 1979’da Bokassa’nın Libya’da bulunduğu bir sırada Fransa’nın yardımıyla kansız bir darbeyle iktidara el koyan David Dacko",
+   "oneri": {
+    "ardil_d": "orta-afrika-cumhuriyeti",
+    "ardil_f": "1979-09-21",
+    "ardil_t": "2000-12-31",
+    "t_duzelt": "1979-09-21"
+   },
+   "uc": "",
+   "not": "GÜN FARKI: TDV 21 Eylül, künye t 1979-09-20 (Britannica ref). TDV esas → t ve ardıl f 1979-09-21 önerisi; 20/21 gecesi (Barracuda) ic_not'a. Ayrıca TDV imparatorluk ilanını '4 Aralık 1977' diyor, künye f 1976-12-04 — ayrı uç, ic_not. Halef orta-afrika-cumhuriyeti (f 1960-08-13) kapsıyor."
+  }
+ ],
+ "Bangassou": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:49",
+   "alan": "s",
+   "d": "orta-afrika-imparatorlugu",
+   "f": "1976-12-04",
+   "t": "1979-09-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Orta Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti)",
+   "alinti": "21 Eylül 1979’da Bokassa’nın Libya’da bulunduğu bir sırada Fransa’nın yardımıyla kansız bir darbeyle iktidara el koyan David Dacko",
+   "oneri": {
+    "ardil_d": "orta-afrika-cumhuriyeti",
+    "ardil_f": "1979-09-21",
+    "ardil_t": "2000-12-31",
+    "t_duzelt": "1979-09-21"
+   },
+   "uc": "",
+   "not": "GÜN FARKI: TDV 21 Eylül, künye t 1979-09-20 (Britannica ref). TDV esas → t ve ardıl f 1979-09-21 önerisi; 20/21 gecesi (Barracuda) ic_not'a. Ayrıca TDV imparatorluk ilanını '4 Aralık 1977' diyor, künye f 1976-12-04 — ayrı uç, ic_not. Halef orta-afrika-cumhuriyeti (f 1960-08-13) kapsıyor. MÜKERRER: 'Bangassu' (yerlesimler_afrika2.js:845, 0.2 km) 1960-2000 orta-afrika-cumhuriyeti."
+  }
+ ],
+ "Balboa Heights (Panama Kanalı İdaresi)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:136",
+   "alan": "s",
+   "d": "panama-kanali-bolgesi",
+   "f": "1904-02-26",
+   "t": "1979-10-01",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, Milestones 1977-1980 'The Panama Canal and the Torrijos-Carter Treaties' (history.state.gov/milestones/1977-1980/panama-canal)",
+   "alinti": "the Panama Canal Zone would cease to exist on October 1, 1979",
+   "oneri": {
+    "ardil_d": "panama-cumhuriyeti",
+    "ardil_f": "1979-10-01",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef panama-cumhuriyeti (f 1903-11-03, devletler.js:9022) kapsıyor; komşu Panamá aynı künye. Kanal 1999-12-31'de devredildi (ic_not). Gece-95 (c) künye f 1904-05-04 kararı ayrı."
+  }
+ ],
+ "Cristóbal (Colón limanı, Kanal Bölgesi)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:137",
+   "alan": "s",
+   "d": "panama-kanali-bolgesi",
+   "f": "1904-02-26",
+   "t": "1979-10-01",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, Milestones 1977-1980 'The Panama Canal and the Torrijos-Carter Treaties' (history.state.gov/milestones/1977-1980/panama-canal)",
+   "alinti": "the Panama Canal Zone would cease to exist on October 1, 1979",
+   "oneri": {
+    "ardil_d": "panama-cumhuriyeti",
+    "ardil_f": "1979-10-01",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef panama-cumhuriyeti (f 1903-11-03, devletler.js:9022) kapsıyor; komşu Panamá aynı künye. Kanal 1999-12-31'de devredildi (ic_not). Gece-95 (c) künye f 1904-05-04 kararı ayrı."
+  }
+ ],
+ "Juba": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:17",
+   "alan": "s",
+   "d": "guney-sudan-ozerk-bolge",
+   "f": "1972-02-27",
+   "t": "1983-06-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' (A. Kavas) (islamansiklopedisi.org.tr/sudan)",
+   "alinti": "1983’te sadece müslümanların yaşadığı bölgelerde uygulanan şer‘î kanunlar ülkenin her tarafı için geçerli kılındı",
+   "oneri": {
+    "ardil_d": "sudan-cumhuriyeti",
+    "ardil_f": "1983-06-05",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "[yalnız yıl; bölgenin feshini anlatmıyor] Gün künyeden (5 Haziran 1983 bölgenin üçe bölünmesi). Halef sudan-cumhuriyeti (f 1956-01-01) kapsıyor; komşu Gondokoro 1956-2000 sudan-cumhuriyeti — emsal. 2000 sonrası 2005 özerk bölge ufuk dışı."
+  }
+ ],
+ "Schwerin": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:66",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "the signing of a Unification Treaty by East and West German Governments on August 31, 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef künye almanya-birlesik (f 1990-10-03, devletler.js:15762) bitişik, hayalet yok; komşu Berlin (yerlesimler.js) aynı künyeyi 1990-10-03'ten kullanıyor. Okunan kaynak 3 Ekim gününü vermiyor (yalnız 31 Ağustos imza + 1990): gün künyeden (bmi.bund.de). Einigungsvertrag Art.1 (gesetze-im-internet.de/einigvtr/art_1.html) 3 Ekim'i verir ama DNS hatası, açılamadı → TARAYICI. 12-09 İkiartıDört imzası, 1991-03-15 yürürlük ic_not'a."
+  }
+ ],
+ "Cottbus": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:67",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "the signing of a Unification Treaty by East and West German Governments on August 31, 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef künye almanya-birlesik (f 1990-10-03, devletler.js:15762) bitişik, hayalet yok; komşu Berlin (yerlesimler.js) aynı künyeyi 1990-10-03'ten kullanıyor. Okunan kaynak 3 Ekim gününü vermiyor (yalnız 31 Ağustos imza + 1990): gün künyeden (bmi.bund.de). Einigungsvertrag Art.1 (gesetze-im-internet.de/einigvtr/art_1.html) 3 Ekim'i verir ama DNS hatası, açılamadı → TARAYICI. 12-09 İkiartıDört imzası, 1991-03-15 yürürlük ic_not'a."
+  }
+ ],
+ "Karl-Marx-Stadt (Chemnitz)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:68",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "the signing of a Unification Treaty by East and West German Governments on August 31, 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef künye almanya-birlesik (f 1990-10-03, devletler.js:15762) bitişik, hayalet yok; komşu Berlin (yerlesimler.js) aynı künyeyi 1990-10-03'ten kullanıyor. Okunan kaynak 3 Ekim gününü vermiyor (yalnız 31 Ağustos imza + 1990): gün künyeden (bmi.bund.de). Einigungsvertrag Art.1 (gesetze-im-internet.de/einigvtr/art_1.html) 3 Ekim'i verir ama DNS hatası, açılamadı → TARAYICI. 12-09 İkiartıDört imzası, 1991-03-15 yürürlük ic_not'a."
+  }
+ ],
+ "Frankfurt (Oder)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:69",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "the signing of a Unification Treaty by East and West German Governments on August 31, 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef künye almanya-birlesik (f 1990-10-03, devletler.js:15762) bitişik, hayalet yok; komşu Berlin (yerlesimler.js) aynı künyeyi 1990-10-03'ten kullanıyor. Okunan kaynak 3 Ekim gününü vermiyor (yalnız 31 Ağustos imza + 1990): gün künyeden (bmi.bund.de). Einigungsvertrag Art.1 (gesetze-im-internet.de/einigvtr/art_1.html) 3 Ekim'i verir ama DNS hatası, açılamadı → TARAYICI. 12-09 İkiartıDört imzası, 1991-03-15 yürürlük ic_not'a."
+  }
+ ],
+ "Batı Berlin (Charlottenburg)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:70",
+   "alan": "s",
+   "d": "berlin-bati",
+   "f": "1948-12-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "German reunification in 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef almanya-birlesik (f 1990-10-03), bitişik. Komşu 'Berlin' (yerlesimler.js, 5 km) 1990-10-03'ten almanya-birlesik — emsal. Gün künyeden; Einigungsvertrag Art.1(2) «Die 23 Bezirke von Berlin bilden das Land Berlin» → TARAYICI (gesetze-im-internet.de açılamadı)."
+  }
+ ],
+ "Spandau (Batı Berlin)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:71",
+   "alan": "s",
+   "d": "berlin-bati",
+   "f": "1948-12-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "kaynak": "US Office of the Historian, 'Germany' (history.state.gov/countries/germany)",
+   "alinti": "German reunification in 1990",
+   "oneri": {
+    "ardil_d": "almanya-birlesik",
+    "ardil_f": "1990-10-03",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "ÜLKE DÜZEYİ. Halef almanya-birlesik (f 1990-10-03), bitişik. Komşu 'Berlin' (yerlesimler.js, 5 km) 1990-10-03'ten almanya-birlesik — emsal. Gün künyeden; Einigungsvertrag Art.1(2) «Die 23 Bezirke von Berlin bilden das Land Berlin» → TARAYICI (gesetze-im-internet.de açılamadı)."
+  }
+ ],
+ "Butterworth": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:25",
+   "alan": "s",
+   "d": "transkei",
+   "f": "1976-10-26",
+   "t": "1994-04-27",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Republic of South Africa Act 200 of 1993, s.1(2), s.251(1), Schedule 1 (gov.za)",
+   "alinti": "shall, subject to subsection (2), come into operation on 27 April 1994",
+   "oneri": {
+    "ardil_d": "guney-afrika-cumhuriyeti",
+    "ardil_f": "1994-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "s.1(2): ulusal toprak Schedule 1 Part 1 — Transkei/Ciskei/Venda/Bophuthatswana bölgeleri eyaletlere dahil. Halef guney-afrika-cumhuriyeti (f 1961-05-31, devletler.js:14924) kapsıyor. MÜKERRER: 'Gcuva (Butterworth)' (yerlesimler_afrika2.js:2314, 1.0 km) 1961-2000 guney-afrika-cumhuriyeti."
+  }
+ ],
+ "Ga-Rankuwa": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:26",
+   "alan": "s",
+   "d": "bophuthatswana",
+   "f": "1977-12-06",
+   "t": "1994-04-27",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Republic of South Africa Act 200 of 1993, s.1(2), s.251(1), Schedule 1 (gov.za)",
+   "alinti": "shall, subject to subsection (2), come into operation on 27 April 1994",
+   "oneri": {
+    "ardil_d": "guney-afrika-cumhuriyeti",
+    "ardil_f": "1994-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "s.1(2): ulusal toprak Schedule 1 Part 1 — Transkei/Ciskei/Venda/Bophuthatswana bölgeleri eyaletlere dahil. Halef guney-afrika-cumhuriyeti (f 1961-05-31, devletler.js:14924) kapsıyor. Bophuthatswana: Mangope rejimi Mart 1994'te çöktü, SA yöneticileri devraldı (ipucu) — fiilî gün ic_not adayı."
+  }
+ ],
+ "Thohoyandou": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:27",
+   "alan": "s",
+   "d": "venda-bantustan",
+   "f": "1979-09-13",
+   "t": "1994-04-27",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Republic of South Africa Act 200 of 1993, s.1(2), s.251(1), Schedule 1 (gov.za)",
+   "alinti": "shall, subject to subsection (2), come into operation on 27 April 1994",
+   "oneri": {
+    "ardil_d": "guney-afrika-cumhuriyeti",
+    "ardil_f": "1994-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "s.1(2): ulusal toprak Schedule 1 Part 1 — Transkei/Ciskei/Venda/Bophuthatswana bölgeleri eyaletlere dahil. Halef guney-afrika-cumhuriyeti (f 1961-05-31, devletler.js:14924) kapsıyor."
+  }
+ ],
+ "Bisho": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:28",
+   "alan": "s",
+   "d": "ciskei",
+   "f": "1981-12-04",
+   "t": "1994-04-27",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Republic of South Africa Act 200 of 1993, s.1(2), s.251(1), Schedule 1 (gov.za)",
+   "alinti": "shall, subject to subsection (2), come into operation on 27 April 1994",
+   "oneri": {
+    "ardil_d": "guney-afrika-cumhuriyeti",
+    "ardil_f": "1994-04-27",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "s.1(2): ulusal toprak Schedule 1 Part 1 — Transkei/Ciskei/Venda/Bophuthatswana bölgeleri eyaletlere dahil. Halef guney-afrika-cumhuriyeti (f 1961-05-31, devletler.js:14924) kapsıyor. Ciskei: Gqozo Mart 1994'te çekildi, SA yöneticileri (ipucu) — fiilî gün ic_not adayı."
+  }
+ ],
+ "Glina": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:76",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Domovinski rat' (enciklopedija.hr/clanak/domovinski-rat)",
+   "alinti": "DOMOVINSKI RAT, operacija Oluja, 4-7. kolovoza 1995.",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1995-08-07",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Alıntı resim altı yazısı; operasyon sonu 7 Ağustos. Halef hirvatistan (f 1991-06-25, devletler.js:15988) kapsıyor. Şehir düzeyi (Glina, Korenica, Benkovac) düşüş günleri 4-7 Ağustos arasında olabilir; şehre özgü gün okunmadı."
+  }
+ ],
+ "Korenica": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:77",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Domovinski rat' (enciklopedija.hr/clanak/domovinski-rat)",
+   "alinti": "DOMOVINSKI RAT, operacija Oluja, 4-7. kolovoza 1995.",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1995-08-07",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Alıntı resim altı yazısı; operasyon sonu 7 Ağustos. Halef hirvatistan (f 1991-06-25, devletler.js:15988) kapsıyor. Şehir düzeyi (Glina, Korenica, Benkovac) düşüş günleri 4-7 Ağustos arasında olabilir; şehre özgü gün okunmadı."
+  }
+ ],
+ "Benkovac": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:78",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Domovinski rat' (enciklopedija.hr/clanak/domovinski-rat)",
+   "alinti": "DOMOVINSKI RAT, operacija Oluja, 4-7. kolovoza 1995.",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1995-08-07",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Alıntı resim altı yazısı; operasyon sonu 7 Ağustos. Halef hirvatistan (f 1991-06-25, devletler.js:15988) kapsıyor. Şehir düzeyi (Glina, Korenica, Benkovac) düşüş günleri 4-7 Ağustos arasında olabilir; şehre özgü gün okunmadı."
+  }
+ ],
+ "Pale": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:82",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "hukum": "ONERI",
+   "kaynak": "OSCE Mission to Bosnia and Herzegovina, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173)",
+   "alinti": "formally signed in Paris on 14 December 1995",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1995-12-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef bosna-hersek (f 1992-03-03, devletler.js:16026) kapsıyor; komşu Saraybosna/Travnik 1992-03-03'ten bosna-hersek. RS bu günden Bosna-Hersek'in entitesi (Annex 4). Entite boyası istenirse ayrı karar (Emre)."
+  }
+ ],
+ "Bijeljina": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:83",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "hukum": "ONERI",
+   "kaynak": "OSCE Mission to Bosnia and Herzegovina, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173)",
+   "alinti": "formally signed in Paris on 14 December 1995",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1995-12-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef bosna-hersek (f 1992-03-03, devletler.js:16026) kapsıyor; komşu Saraybosna/Travnik 1992-03-03'ten bosna-hersek. RS bu günden Bosna-Hersek'in entitesi (Annex 4). Entite boyası istenirse ayrı karar (Emre)."
+  }
+ ],
+ "Doboj": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:84",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "hukum": "ONERI",
+   "kaynak": "OSCE Mission to Bosnia and Herzegovina, 'General Framework Agreement for Peace in Bosnia and Herzegovina' (osce.org/bih/126173)",
+   "alinti": "formally signed in Paris on 14 December 1995",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1995-12-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "t",
+   "not": "Halef bosna-hersek (f 1992-03-03, devletler.js:16026) kapsıyor; komşu Saraybosna/Travnik 1992-03-03'ten bosna-hersek. RS bu günden Bosna-Hersek'in entitesi (Annex 4). Entite boyası istenirse ayrı karar (Emre)."
+  }
+ ],
+ "Çapljina (Čapljina)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:85",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Herceg Bosna' (enciklopedija.hr/clanak/herceg-bosna)",
+   "alinti": "formalno je prestala postojati prihvaćanjem Daytonskoga sporazuma … do kraja 1996., kada su … definitivno raspuštena",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1996-08-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef bosna-hersek kapsıyor. KAYNAK ÇELİŞKİSİ: HE'ye göre formel son Dayton (1995-12-14, gün OSCE'den), kurumlar 1996 sonuna dek. Mevcut t 1996-08-14 künye kaynağında ZAYIF (tek tablo). Öneri: ya t+ardıl f → 1995-12-14 (formel, TEK ÖLÇÜ) ya 1996-08-14 kalır; EMRELİC seçer. 14 Ağustos HE'de yok."
+  }
+ ],
+ "Posušje": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:86",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Herceg Bosna' (enciklopedija.hr/clanak/herceg-bosna)",
+   "alinti": "formalno je prestala postojati prihvaćanjem Daytonskoga sporazuma … do kraja 1996., kada su … definitivno raspuštena",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1996-08-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef bosna-hersek kapsıyor. KAYNAK ÇELİŞKİSİ: HE'ye göre formel son Dayton (1995-12-14, gün OSCE'den), kurumlar 1996 sonuna dek. Mevcut t 1996-08-14 künye kaynağında ZAYIF (tek tablo). Öneri: ya t+ardıl f → 1995-12-14 (formel, TEK ÖLÇÜ) ya 1996-08-14 kalır; EMRELİC seçer. 14 Ağustos HE'de yok."
+  }
+ ],
+ "Vitez": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:87",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Herceg Bosna' (enciklopedija.hr/clanak/herceg-bosna)",
+   "alinti": "formalno je prestala postojati prihvaćanjem Daytonskoga sporazuma … do kraja 1996., kada su … definitivno raspuštena",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1996-08-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef bosna-hersek kapsıyor. KAYNAK ÇELİŞKİSİ: HE'ye göre formel son Dayton (1995-12-14, gün OSCE'den), kurumlar 1996 sonuna dek. Mevcut t 1996-08-14 künye kaynağında ZAYIF (tek tablo). Öneri: ya t+ardıl f → 1995-12-14 (formel, TEK ÖLÇÜ) ya 1996-08-14 kalır; EMRELİC seçer. 14 Ağustos HE'de yok. Komşu Travnik (13 km) 1992-03-03'ten bosna-hersek."
+  }
+ ],
+ "Orašje": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija (LZMK), 'Herceg Bosna' (enciklopedija.hr/clanak/herceg-bosna)",
+   "alinti": "formalno je prestala postojati prihvaćanjem Daytonskoga sporazuma … do kraja 1996., kada su … definitivno raspuštena",
+   "oneri": {
+    "ardil_d": "bosna-hersek",
+    "ardil_f": "1996-08-14",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef bosna-hersek kapsıyor. KAYNAK ÇELİŞKİSİ: HE'ye göre formel son Dayton (1995-12-14, gün OSCE'den), kurumlar 1996 sonuna dek. Mevcut t 1996-08-14 künye kaynağında ZAYIF (tek tablo). Öneri: ya t+ardıl f → 1995-12-14 (formel, TEK ÖLÇÜ) ya 1996-08-14 kalır; EMRELİC seçer. 14 Ağustos HE'de yok."
+  }
+ ],
+ "Vukovar": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:79",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "hukum": "ONERI",
+   "kaynak": "UN Peacekeeping, UNTAES (peacekeeping.un.org/sites/default/files/past/untaes.htm) ; Hrvatska enciklopedija 'Domovinski rat'",
+   "alinti": "UNTAES concluded its mandate in January 1998, having accomplished … reintegrating Eastern Slavonia, Baranja and Western Sirmium into Croatia",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1998-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "[yalnız ay] Kaynak yalnız 'January 1998' veriyor; gün 15 künyeden (digitallibrary.un.org/record/202323). Halef hirvatistan kapsıyor. HE: «od početka 1996. do siječnja 1998»."
+  }
+ ],
+ "Beli Manastir": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:80",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "hukum": "ONERI",
+   "kaynak": "UN Peacekeeping, UNTAES (peacekeeping.un.org/sites/default/files/past/untaes.htm) ; Hrvatska enciklopedija 'Domovinski rat'",
+   "alinti": "UNTAES concluded its mandate in January 1998, having accomplished … reintegrating Eastern Slavonia, Baranja and Western Sirmium into Croatia",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1998-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "[yalnız ay] Kaynak yalnız 'January 1998' veriyor; gün 15 künyeden (digitallibrary.un.org/record/202323). Halef hirvatistan kapsıyor. HE: «od početka 1996. do siječnja 1998». Baranja; UNTAES alanı."
+  }
+ ],
+ "Ilok": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:81",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "hukum": "ONERI",
+   "kaynak": "UN Peacekeeping, UNTAES (peacekeeping.un.org/sites/default/files/past/untaes.htm) ; Hrvatska enciklopedija 'Domovinski rat'",
+   "alinti": "UNTAES concluded its mandate in January 1998, having accomplished … reintegrating Eastern Slavonia, Baranja and Western Sirmium into Croatia",
+   "oneri": {
+    "ardil_d": "hirvatistan",
+    "ardil_f": "1998-01-15",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "[yalnız ay] Kaynak yalnız 'January 1998' veriyor; gün 15 künyeden (digitallibrary.un.org/record/202323). Halef hirvatistan kapsıyor. HE: «od početka 1996. do siječnja 1998»."
+  }
+ ],
+ "Mitroviça (Mitrovicë)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:89",
+   "alan": "s",
+   "d": "kosova-golge-cumhuriyeti",
+   "f": "1991-09-22",
+   "t": "1999-06-10",
+   "hukum": "ONERI",
+   "kaynak": "UN Peacekeeping, UNMIK factsheet (peacekeeping.un.org/en/factsheet/unmik)",
+   "alinti": "by its resolution 1244 of 10 June 1999, authorized the Secretary-General to establish an international civil presence in Kosovo",
+   "oneri": {
+    "ardil_d": "unmik-kosova",
+    "ardil_f": "1999-06-10",
+    "ardil_t": "2008-02-17"
+   },
+   "uc": "t",
+   "not": "Halef unmik-kosova (1999-06-10 → 2008-02-17, devletler.js:16074) bitişik; ardıl t ufku aşar, 2000-12-31'de kesilebilir."
+  }
+ ],
+ "Gilan (Gjilan)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:91",
+   "alan": "s",
+   "d": "kosova-golge-cumhuriyeti",
+   "f": "1991-09-22",
+   "t": "1999-06-10",
+   "hukum": "ONERI",
+   "kaynak": "UN Peacekeeping, UNMIK factsheet (peacekeeping.un.org/en/factsheet/unmik)",
+   "alinti": "by its resolution 1244 of 10 June 1999, authorized the Secretary-General to establish an international civil presence in Kosovo",
+   "oneri": {
+    "ardil_d": "unmik-kosova",
+    "ardil_f": "1999-06-10",
+    "ardil_t": "2008-02-17"
+   },
+   "uc": "t",
+   "not": "Halef unmik-kosova (1999-06-10 → 2008-02-17, devletler.js:16074) bitişik; ardıl t ufku aşar, 2000-12-31'de kesilebilir."
+  }
+ ],
+ "Grozni (Groznıy)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:103",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI (akademik) — TDV 'Çeçenistan' (islamansiklopedisi.org.tr/cecenistan) yalnız 1991-11-01 ilanını veriyor; Universalis kronolojisi robots yasağı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "rusya-federasyonu",
+    "ardil_f": "2000-02-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef rusya-federasyonu (f 1991-12-26, devletler.js:16086) kapsıyor; BOYALAR'da id yok ama harita:'sovyet-rusya' boya anahtarı var. 6 Şubat 2000 Putin'in Grozni'nin alındığını açıklaması (RFE/RL, La Jornada — basın, ipucu). Şehir düzeyi (rakip hükûmet): Gudermes Kasım 1999, Şali ve Urus-Martan Aralık 1999'da federal kontrole geçmiş olabilir (ipucu, teyitsiz). TARAYICI: universalis.fr 'chute de Grozny'."
+  }
+ ],
+ "Gudermes": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:104",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI (akademik) — TDV 'Çeçenistan' (islamansiklopedisi.org.tr/cecenistan) yalnız 1991-11-01 ilanını veriyor; Universalis kronolojisi robots yasağı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "rusya-federasyonu",
+    "ardil_f": "2000-02-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef rusya-federasyonu (f 1991-12-26, devletler.js:16086) kapsıyor; BOYALAR'da id yok ama harita:'sovyet-rusya' boya anahtarı var. 6 Şubat 2000 Putin'in Grozni'nin alındığını açıklaması (RFE/RL, La Jornada — basın, ipucu). Şehir düzeyi (rakip hükûmet): Gudermes Kasım 1999, Şali ve Urus-Martan Aralık 1999'da federal kontrole geçmiş olabilir (ipucu, teyitsiz). TARAYICI: universalis.fr 'chute de Grozny'."
+  }
+ ],
+ "Şali (Shali)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:105",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI (akademik) — TDV 'Çeçenistan' (islamansiklopedisi.org.tr/cecenistan) yalnız 1991-11-01 ilanını veriyor; Universalis kronolojisi robots yasağı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "rusya-federasyonu",
+    "ardil_f": "2000-02-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef rusya-federasyonu (f 1991-12-26, devletler.js:16086) kapsıyor; BOYALAR'da id yok ama harita:'sovyet-rusya' boya anahtarı var. 6 Şubat 2000 Putin'in Grozni'nin alındığını açıklaması (RFE/RL, La Jornada — basın, ipucu). Şehir düzeyi (rakip hükûmet): Gudermes Kasım 1999, Şali ve Urus-Martan Aralık 1999'da federal kontrole geçmiş olabilir (ipucu, teyitsiz). TARAYICI: universalis.fr 'chute de Grozny'."
+  }
+ ],
+ "Urus-Martan": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:106",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "ONERI",
+   "kaynak": "BULUNAMADI (akademik) — TDV 'Çeçenistan' (islamansiklopedisi.org.tr/cecenistan) yalnız 1991-11-01 ilanını veriyor; Universalis kronolojisi robots yasağı",
+   "alinti": "",
+   "oneri": {
+    "ardil_d": "rusya-federasyonu",
+    "ardil_f": "2000-02-06",
+    "ardil_t": "2000-12-31"
+   },
+   "uc": "",
+   "not": "Halef rusya-federasyonu (f 1991-12-26, devletler.js:16086) kapsıyor; BOYALAR'da id yok ama harita:'sovyet-rusya' boya anahtarı var. 6 Şubat 2000 Putin'in Grozni'nin alındığını açıklaması (RFE/RL, La Jornada — basın, ipucu). Şehir düzeyi (rakip hükûmet): Gudermes Kasım 1999, Şali ve Urus-Martan Aralık 1999'da federal kontrole geçmiş olabilir (ipucu, teyitsiz). TARAYICI: universalis.fr 'chute de Grozny'."
+  }
+ ]
+}
