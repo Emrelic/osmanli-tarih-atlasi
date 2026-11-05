@@ -71,7 +71,7 @@
     "d": "ingiltere",
     "ek": "s: kuayti-sultanligi (kunye mevcut) 1888-05-01 oncesinden 1967'ye"
    },
-   "not": "KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | Himaye kuralı: 1888 İngiliz koruma antlaşması → s: kuayti-sultanligi + v: ingiltere (Hadramut gece-128 emsali); gün kaynakla. | HIMAYE KURALI: 1888-05-01 antlasmasi (Protectorate Treaty No. LXXI, Qu'aiti Jemadar Abdulla bin Umar ile; Vikipedi ipucu, metin okunmadi) himayedir -> yerli monarsi s: sürer, Ingiltere v:. Mukalla'nin Qu'aiti baskenti oldugu 1866/1858 oncesi (zincirde yok): f 1888 yer tutucu degil ama 1888 oncesi bos. TDV 'Yemen' Guney Yemen'in 'himaye yonetimi' oldugunu soyler (tarih yok). Kunye kuayti-sultanligi f/t kontrol edilmeli (hayalet devlet)."
+   "not": "LAB SALI (origin/main devletler.js ölçümü): kuayti-sultanligi VAR (1881 → 1967-11-30, :9398): 1881 Kuaytî (alış günü kaynakla) → 1888 v: ingiltere → 1967. | KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | Himaye kuralı: 1888 İngiliz koruma antlaşması → s: kuayti-sultanligi + v: ingiltere (Hadramut gece-128 emsali); gün kaynakla. | HIMAYE KURALI: 1888-05-01 antlasmasi (Protectorate Treaty No. LXXI, Qu'aiti Jemadar Abdulla bin Umar ile; Vikipedi ipucu, metin okunmadi) himayedir -> yerli monarsi s: sürer, Ingiltere v:. Mukalla'nin Qu'aiti baskenti oldugu 1866/1858 oncesi (zincirde yok): f 1888 yer tutucu degil ama 1888 oncesi bos. TDV 'Yemen' Guney Yemen'in 'himaye yonetimi' oldugunu soyler (tarih yok). Kunye kuayti-sultanligi f/t kontrol edilmeli (hayalet devlet)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1381",
@@ -84,7 +84,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/yemen",
    "alinti": "Güney Yemen ile Aden’in 1967’de bağımsızlığına kavuşmasıyla sonuçlandı",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | [yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV 'Yemen' (Halil Kurt). Gun 1967-11-30 TDV'de yok. Mukalla ayrica Qu'aiti sultanliginin 1967 Eylul'de devrilmesiyle el degistirdi (kaynak okunmadi)."
+   "not": "LAB SALI (origin/main devletler.js ölçümü): kuayti-sultanligi VAR (1881 → 1967-11-30, :9398): 1881 Kuaytî (alış günü kaynakla) → 1888 v: ingiltere → 1967. | KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | [yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV 'Yemen' (Halil Kurt). Gun 1967-11-30 TDV'de yok. Mukalla ayrica Qu'aiti sultanliginin 1967 Eylul'de devrilmesiyle el degistirdi (kaynak okunmadi)."
   }
  ],
  "Nassau (New Providence)": [
@@ -210,7 +210,7 @@
     "d": "yeni-granada-valiligi (1558-1777), sonra 1777-09-08'den Venezuela Genel Kaptanligi",
     "f": "yerlesim yeri farkli: 1558-10-09 San Juan de Lagunillas'ta kuruldu, bugunku yere tasindi (tarih kaynaksiz)"
    },
-   "not": "KARAR EMRELİC (gece-136): KASA'nın Yeni Granada listesinde var → KASA esas, LAB yazmaz; 1558 Lagunillas merdiveni notu KASA'ya iletildi. | SAHIP HATASI: kunye ispanyol-peru = Peru Genel Valiligi (1542-1824); Mérida (Pamplona/Tunja) Yeni Granada Valiligi/Santa Fe Audiencia'sina bagli, 1777-09-08 Real Cedula ile Venezuela Genel Kaptanligina gecti (ipucu seviyesi, sayfa okunmadi). Peru ile hicbir idari bag yok -> d degismeli. MERDIVEN 4: atlas koordinati (8.5933,-71.1739) bugunku Mérida'dir; 1558-10-09'da kurulan sehir ilk yerinde (Lagunillas) idi, tasima 1560 (kaynaksiz) -> f yeni yer icin 1558-10-09 degil olabilir. t 1821-06-24 (Carabobo) icin kaynak yok; Mérida 1810-09-16'da cuntayla Ispanya'dan ayrildi (kaynaksiz hatirlatma). Kunye kontrolu: yeni-granada-valiligi f/t denetlenmeli."
+   "not": "LAB SALI (origin/main devletler.js ölçümü): yeni-granada-valiligi (1717-05-27 → 1810-07-20) ve venezuela-genel-kaptanligi (1777-09-08 → 1810-04-19) VAR; ispanyol-peru YANLIŞ. Zincir: 1717 → 1777-09-08 yeni-granada-valiligi (Maracaibo eyaleti Santa Fe'ye bağlı) → 1777-09-08 venezuela-genel-kaptanligi; 1717 öncesi s: ispanya + ic_not (peru-valiligi künyesi yok). KASA esas. | KARAR EMRELİC (gece-136): KASA'nın Yeni Granada listesinde var → KASA esas, LAB yazmaz; 1558 Lagunillas merdiveni notu KASA'ya iletildi. | SAHIP HATASI: kunye ispanyol-peru = Peru Genel Valiligi (1542-1824); Mérida (Pamplona/Tunja) Yeni Granada Valiligi/Santa Fe Audiencia'sina bagli, 1777-09-08 Real Cedula ile Venezuela Genel Kaptanligina gecti (ipucu seviyesi, sayfa okunmadi). Peru ile hicbir idari bag yok -> d degismeli. MERDIVEN 4: atlas koordinati (8.5933,-71.1739) bugunku Mérida'dir; 1558-10-09'da kurulan sehir ilk yerinde (Lagunillas) idi, tasima 1560 (kaynaksiz) -> f yeni yer icin 1558-10-09 degil olabilir. t 1821-06-24 (Carabobo) icin kaynak yok; Mérida 1810-09-16'da cuntayla Ispanya'dan ayrildi (kaynaksiz hatirlatma). Kunye kontrolu: yeni-granada-valiligi f/t denetlenmeli."
   }
  ],
  "Münster": [
@@ -289,7 +289,7 @@
    "oneri": {
     "t": "1870-07-15"
    },
-   "not": "KARAR EMRELİC (gece-136): ONAY: 1870-07-15 BEYANLI. | ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara/Yukon → 1870-07-15 Rupert's Land/North-Western Territory ülke düzeyi BEYANLI. | ULKE DUZEYI, BEYANLI (karar: Rupert's Land 1870-07-15, anakara Arktik dahil). Rupert's Land and North-Western Territory Order (Konsey karari 23 Haziran 1870, Justice Canada Enactment No. 3): 15 Temmuz 1870'ten itibaren Kanada'ya katildi. Naujaat Hudson Korfezi anakarasinda (Rupert's Land); 1880-09-01 yalniz Arktik ADALAR (British Arctic Territories) icin gecerli. Bu yerlesim Kanada idaresi fiilen yok ama hukukî devir; TAHRIR olcutu: yasa ile idareye katma. Kunye inuit t 1880-09-01 ayrica tashih edilmeli; ruperts-land kunyesi de mevcut (HBC)."
+   "not": "LAB SALI (origin/main devletler.js ölçümü): ruperts-land VAR → d çevrilir; DİKKAT: Naujaat'ta HBC fiilî değil, yalnız iddia — ic_not (Emre'nin Inuit/halk sınıfı). | KARAR EMRELİC (gece-136): ONAY: 1870-07-15 BEYANLI. | ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara/Yukon → 1870-07-15 Rupert's Land/North-Western Territory ülke düzeyi BEYANLI. | ULKE DUZEYI, BEYANLI (karar: Rupert's Land 1870-07-15, anakara Arktik dahil). Rupert's Land and North-Western Territory Order (Konsey karari 23 Haziran 1870, Justice Canada Enactment No. 3): 15 Temmuz 1870'ten itibaren Kanada'ya katildi. Naujaat Hudson Korfezi anakarasinda (Rupert's Land); 1880-09-01 yalniz Arktik ADALAR (British Arctic Territories) icin gecerli. Bu yerlesim Kanada idaresi fiilen yok ama hukukî devir; TAHRIR olcutu: yasa ile idareye katma. Kunye inuit t 1880-09-01 ayrica tashih edilmeli; ruperts-land kunyesi de mevcut (HBC)."
   }
  ],
  "Newcastle": [
@@ -444,8 +444,10 @@
    "uc": "t",
    "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
    "alinti": "Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
-   "oneri": {},
-   "not": "ULKE DUZEYI. Konsey karari (23 Haziran 1870) 15 Temmuz 1870'ten itibaren Rupert's Land'i Kanada'ya katti -> t ayni, degisiklik yok. Alıntı yalnız t ucunu tarihliyor; f 1817 (Norway House HBC postu) icin kaynak bulunamadi. NOT: 1817-1870 arası Norway House HBC Rupert's Land'indeydi (kunye ruperts-land mevcut); d=ingiliz-kuzey-amerika yerine ruperts-land incelenmeli (BEYANLI, karar ayri)."
+   "oneri": {
+    "d": "ruperts-land"
+   },
+   "not": "LAB SALI (origin/main devletler.js ölçümü): ruperts-land künyesi VAR ('Rupert Toprakları (HBC)', 1670 → 1870-07-15, :18814) → d oraya çevrilir. | ULKE DUZEYI. Konsey karari (23 Haziran 1870) 15 Temmuz 1870'ten itibaren Rupert's Land'i Kanada'ya katti -> t ayni, degisiklik yok. Alıntı yalnız t ucunu tarihliyor; f 1817 (Norway House HBC postu) icin kaynak bulunamadi. NOT: 1817-1870 arası Norway House HBC Rupert's Land'indeydi (kunye ruperts-land mevcut); d=ingiliz-kuzey-amerika yerine ruperts-land incelenmeli (BEYANLI, karar ayri)."
   }
  ],
  "Noumea (Yeni Kaledonya)": [
