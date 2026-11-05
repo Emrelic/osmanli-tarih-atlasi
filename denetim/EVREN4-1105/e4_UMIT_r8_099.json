@@ -1,0 +1,491 @@
+{
+ "Vacir (Wajir)": [
+  {
+   "sira": 4012,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kenya-kuzey-halklari",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "Wajir'e özgü 1281-1895 tanıklığı bulunamadı. Aranan: TDV «Kenya» (yerel halk sayımı yok), UNESCO GHA VII tam metin (Wajir/Isiolo/Northern Frontier geçmiyor), Hertslet cilt 3 (geçmiyor), Iliffe Africans (geçmiyor). Künye kenya-kuzey-halklari f=1281-01-01 t=1895-07-01 (devletler.js) aralığı kapsıyor; 1281 başlangıcı ortaçağ dilimi için sınıflayıcı karar. Wajir/İsiolo Kuzey Sınır Bölgesi (NFD) göçebe Borana-Somali alanıdır; İngiliz fiilî varlığı 1912 civarı askerî karakollarla başlar. Akademik kaynak (Simpson, 'On the frontiers of empire: British administration in Kenya's NFD, 1905-1935', WVU tezi 1994, researchrepository.wvu.edu/etd/10142) yalnız özetle okundu; tam metin 403. Gün düzeyi ham alıntı YOK."
+  },
+  {
+   "sira": 4013,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kenya» — https://islamansiklopedisi.org.tr/kenya (ham metin sayfa.py)",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {
+    "d": "kenya-kuzey-halklari",
+    "f": "1895-07-01",
+    "t": "1912-01-01",
+    "ek_donem": {
+     "d": "ingiltere",
+     "f": "1912-01-01",
+     "t": "1963-12-12"
+    }
+   },
+   "uc": "t",
+   "not": "t=1963-12-12 KAYNAKLI (TDV «Kenya», ÜLKE DÜZEYİ). f=1895-07-01: TDV yalnız YIL verir («1895'te İngiltere bölgedeki hâkimiyetini ilân etti»); gün teyitsiz ve ülke düzeyi — Wajir'de İngiliz fiilî idaresi 1912 karakoluyla başlar (arama özetlerinde Ocak 1912 Wajir karakolu; ham alıntı YOK, hüküm ONERI). Öneri BEYANLI: 1895-1912 arası kenya-kuzey-halklari uzatılsın (künye t genişletme LAB'a) VEYA mevcut ingiltere f korunup 'ingiltere nominal; fiilî 1912' beyanı yazılsın — kaynak açıkça 1912 günü vermediğinden karar Emre'de. Not: 1940-41 İtalyan baskınıyla ilgili 'Wajir iki yıl İtalyan kontrolünde' iddiası yalnız haber sitesinde (kbc.co.ke) — doğrulanmadı, isg ingiltere/italya eklemesi İÇİN KAYNAK YOK. Wajir/İsiolo Kuzey Sınır Bölgesi (NFD) göçebe Borana-Somali alanıdır; İngiliz fiilî varlığı 1912 civarı askerî karakollarla başlar. Akademik kaynak (Simpson, 'On the frontiers of empire: British administration in Kenya's NFD, 1905-1935', WVU tezi 1994, researchrepository.wvu.edu/etd/10142) yalnız özetle okundu; tam metin 403. Gün düzeyi ham alıntı YOK."
+  }
+ ],
+ "Ouesso": [
+  {
+   "sira": 4014,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tio",
+   "f": "1281-01-01",
+   "t": "1880-10-03",
+   "hukum": "ONERI",
+   "kaynak": "Iliffe, Africans: The History of a Continent (CUP 2. bs. 2007), 'the Tio ruler at Lake Malebo on the River Congo professed to cede his hereditary rights to the traveller Savorgnan de Brazza' — archive.org/details/john_iliffe_africans_the_history_of_a_continentbookos.org_",
+   "alinti": "the Tio ruler at Lake Malebo on the River Congo professed to cede his hereditary rights",
+   "oneri": {
+    "d": "__BOSLUK__",
+    "f": "1281-01-01",
+    "t": "1891-01-01"
+   },
+   "uc": "",
+   "not": "SAHİPLİK UYUŞMAZLIĞI: Tio (Teke) Krallığı Malebo (Stanley) Havuzu çevresindedir (Iliffe: «Tio ruler at Lake Malebo»); Ouesso Sangha nehri üstünde, 1.61N 16.05E — Malebo'dan ~700 km kuzey. Hiçbir okunan kaynak Ouesso'yu Tio'ya bağlamıyor; Brazza-Makoko antlaşması (Iliffe: Fransız Meclisi 1882'de onayladı; 1880-10-03 günü bu kaynakta YOK, atlas künye ucu 1880-10-03 'teyitsiz') Malebo/Tio hakları içindir, Sangha havzasını kapsamaz. Öneri: 1281→ilk Fransız karakolu arası yerel yapı __BOSLUK__ (Raipur emsali) veya Sangha-Ngoko yerel halkları için ayrı künye adayı (Mbochi/Ndzem — LAB). Abi merkez bağı kurulamadı. Merdiven: TDV (Kongo maddesi arandı: boş), UNESCO GHA VII (Ouesso geçmiyor), Iliffe (geçmiyor) — ③ komşu/yerel kaynaklar BAKILMADI."
+  },
+  {
+   "sira": 4015,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1880-10-03",
+   "t": "1960-08-15",
+   "hukum": "ONERI",
+   "kaynak": "ASCL (African Studies Centre Leiden) Infosheet 'Republic of the Congo at 60' — https://ascleiden.nl/news/infosheets-17-african-countries-gained-independence-1960 (ham metinde yalnız başlık/gün satırı)",
+   "alinti": "ASCL Infosheet 'Republic of the Congo at 60' (15 August 1960)",
+   "oneri": {
+    "d": "fransa-cumhuriyet",
+    "f": "1891-01-01",
+    "t": "1960-08-15"
+   },
+   "uc": "t",
+   "not": "t=1960-08-15 ülke düzeyi bağımsızlık: ASCL infosheet başlığında gün geçiyor (KAYNAKLI-zayıf: alıntı olayı cümle olarak anlatmıyor) — ÜLKE DÜZEYİ. f=1880-10-03 (Makoko, Tio) Ouesso için GEÇERSİZ: arama özetlerinde (ham alıntı YOK) Ouesso Fransız karakolu 1891'de kuruldu (Fourneau/Gaillard seferi; IRD/Wikipedia özetleri çelişkili, 'Fransız idaresi Sangha'da hiçbir zaman gerçekten etkili olmadı' notu var). Öneri f≈1891 [yalnız YIL; gün teyitsiz]; 1880-1891 dilimi BOŞLUK/yerel. BAKILMADI: Fourneau biyografisi (kaowarsom.be) metni okundu ama 'Ouesso' geçmedi; IRD PDF robots yasağı."
+  }
+ ],
+ "İsiolo": [
+  {
+   "sira": 4016,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kenya-kuzey-halklari",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "Isiolo'ya özgü 1281-1895 tanıklığı bulunamadı. Aranan: TDV «Kenya», UNESCO GHA VII, Hertslet 3, Iliffe. Wajir/İsiolo Kuzey Sınır Bölgesi (NFD) göçebe Borana-Somali alanıdır; İngiliz fiilî varlığı 1912 civarı askerî karakollarla başlar. Akademik kaynak (Simpson, 'On the frontiers of empire: British administration in Kenya's NFD, 1905-1935', WVU tezi 1994, researchrepository.wvu.edu/etd/10142) yalnız özetle okundu; tam metin 403. Gün düzeyi ham alıntı YOK. Isiolo Borana/Samburu/Meru sınırı; Meru ve Samburu yerel yapıları için künye var mı LAB kontrol etsin."
+  },
+  {
+   "sira": 4017,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kenya» — https://islamansiklopedisi.org.tr/kenya (ham metin sayfa.py)",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu",
+   "oneri": {
+    "d": "kenya-kuzey-halklari",
+    "f": "1895-07-01",
+    "t": "1911-01-01",
+    "ek_donem": {
+     "d": "ingiltere",
+     "f": "1911-01-01",
+     "t": "1963-12-12"
+    }
+   },
+   "uc": "t",
+   "not": "t KAYNAKLI (TDV «Kenya», ÜLKE DÜZEYİ). f=1895-07-01 yalnız YIL teyitli (TDV: «1895'te İngiltere bölgedeki hâkimiyetini ilân etti»). Isiolo için fiilî İngiliz varlığı: yerel haber/tarih sitesi (abirikenya.com, ham okundu) 1911 anlaşmasıyla Laikipia Maasai'sinin yeri değiştirilip Isiolo yakınında King's African Rifles üssü kurulduğunu söyler — popüler site, ONERI-güçlü, gün yok. 1929 NFD merkezi — olay sahiplik değil. Öneri BEYANLI ve Wajir ile aynı karar noktası. Wajir/İsiolo Kuzey Sınır Bölgesi (NFD) göçebe Borana-Somali alanıdır; İngiliz fiilî varlığı 1912 civarı askerî karakollarla başlar. Akademik kaynak (Simpson, 'On the frontiers of empire: British administration in Kenya's NFD, 1905-1935', WVU tezi 1994, researchrepository.wvu.edu/etd/10142) yalnız özetle okundu; tam metin 403. Gün düzeyi ham alıntı YOK."
+  }
+ ],
+ "Bveranyange (Karagve)": [
+  {
+   "sira": 4018,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "karagve",
+   "f": "1450-01-01",
+   "t": "1890-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Hertslet, The Map of Africa by Treaty, 3. basım 1909, cilt 3, No. 270 (Anglo-German Agreement, Berlin 1 July 1890), Art. I, s. 899-900 — archive.org/details/mapofafricabytre03hert (ham djvu metni) ; Iliffe, Africans (2007)",
+   "alinti": "thence is drawn direct to the point on the eastern side of Lake Victoria Nyanza which is intersected by the 1st parallel of south latitude",
+   "oneri": {
+    "d": "karagve",
+    "f": "1450-01-01",
+    "t": "1890-07-01",
+    "ek_donem_beyan": "t, Berlin 1890 etki alanı anlaşması günüdür; Karagwe krallığı hükümdarlıkla sürer (nominal), Alman himayesi/idaresi sonraki yıllarda (Bukoba merkezli) kurulur — künye karagve t=1890-07-01 'etki alanı sınırı' olarak BEYANLI."
+   },
+   "uc": "t",
+   "not": "t: 1890-07-01 Berlin Anlaşması YALNIZ etki alanı (sphere of influence) belirler, egemenlik devri/idare değildir. Alıntı (Hertslet): 1°G paralelinin GÜNEYİ Alman alanıdır; Bveranyange 1.30°G (atlas koordinatı) → Alman alanında (kuzeyinde Buganda İngiliz alanı). ÖLÇÜT: idareye katma — belge YOK (Alman Bukoba karakolu/anlaşma günü bulunamadı), bu yüzden uç gün düzeyinde ONERI-güçlü. Fetih/idare günü Katoke 'The Making of the Karagwe Kingdom' ve Iliffe 'A Modern History of Tanganyika' ile aranmalıydı: Iliffe 1979 archive.org'da kısıtlı (401), BAKILMADI. Iliffe Africans (ham metin): Hinda klanı «established a kingdom in Karagwe in the high grasslands of northwestern Tanzania» — tarihsiz. Karagwe krallığının 1450 başlangıcı hiçbir okunan kaynakta YOK (BULUNAMADI f)."
+  },
+  {
+   "sira": 4019,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-07-01",
+   "t": "1961-12-09",
+   "hukum": "ONERI",
+   "kaynak": "Hertslet, The Map of Africa by Treaty, 3. basım 1909, cilt 3, No. 270 (Anglo-German Agreement, Berlin 1 July 1890), Art. I, s. 899-900 — archive.org/details/mapofafricabytre03hert (ham djvu metni) ; Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu)",
+   "alinti": "thence is drawn direct to the point on the eastern side of Lake Victoria Nyanza which is intersected by the 1st parallel of south latitude [Alman alanı güneyde: 1°G paralelinden güney]",
+   "oneri": {
+    "d": "alman-dogu-afrikasi",
+    "f": "1890-07-01",
+    "t": "1919-06-28",
+    "ek_donem": [
+     {
+      "alan": "isg",
+      "d": "ingiltere",
+      "f": "BAKILMADI (Bukoba 1916 işgali, gün bulunamadı)",
+      "t": "1919-06-28"
+     },
+     {
+      "alan": "s",
+      "d": "ingiltere",
+      "f": "1919-06-28",
+      "t": "1922-07-20"
+     },
+     {
+      "alan": "s",
+      "d": "ingiliz-tanganika-mandasi",
+      "f": "1922-07-20",
+      "t": "1961-12-09"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "CİDDİ HATA: atlasta Karagve 1890-07-01'den 1961'e kadar 'ingiltere' yazılı; oysa Hertslet cilt 3 No. 270 Art. I Karagwe'nin bulunduğu bölgeyi (1°G güneyi, Victoria Gölü batısı, Kongo Hür Devleti sınırına dek) ALMAN etki alanına verir; TDV «Tanzanya» da 1890 anlaşmasıyla 'Tanzanya'nın kara kısmı Almanlar'a verildi' der. Doğru dizi: s alman-dogu-afrikasi 1890-07-01 → 1919-06-28 (Versay m.119: «Germany renounces in favour of the Principal Allied and Associated Powers all her rights»), 1916 İngiliz işgali dilimi isg ingiltere (Kagera/Bukoba 1916 — kesin gün BULUNAMADI, Cmd 1782 'north of Central Railway by end of 1916' diyor), s ingiltere 1919-06-28→1922-07-20, sonra mandat. İngiliz mandası t=1961-12-09 KAYNAKLI (Act s.1). Künye alman-dogu-afrikasi f=1885-02-27 (ozet: 1891 imparatorluk idaresi) 1890-07-01'i kapsıyor, hayalet yok. Karagwe'nin fiilen Almanlar'a bağlanma günü (Bukoba istasyonu/Rumanyika'nın ardılları) ayrı araştırma ister; 1890-07-01 BEYANLI alt sınır."
+  },
+  {
+   "sira": 4020,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "f: Tanganyika Independence Act 1961 s.1 'appointed day' 9 Aralık 1961 + TDV 'aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti'. t: TDV «26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı». ÜLKE DÜZEYİ (yerleşime özgü tanıklık değil; bağımsızlık ülke olayıdır). Tanzanya adı 1964 sonbaharı için TDV gün vermez; künye notu zaten beyanlı.",
+   "alinti2": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı"
+  },
+  {
+   "sira": 4021,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "ÜLKE DÜZEYİ. t=2000-12-31 atlasın veri kesim sınırıdır (olay değil); kaynak teyidi gerekmez."
+  }
+ ],
+ "Cambala (Djambala)": [
+  {
+   "sira": 4022,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-15",
+   "hukum": "ONERI",
+   "kaynak": "ASCL Infosheet 'Republic of the Congo at 60' — https://ascleiden.nl/news/infosheets-17-african-countries-gained-independence-1960",
+   "alinti": "ASCL Infosheet 'Republic of the Congo at 60' (15 August 1960)",
+   "oneri": {
+    "d": "fransa-cumhuriyet",
+    "f": "1900-01-01",
+    "t": "1960-08-15"
+   },
+   "uc": "t",
+   "not": "t=1960-08-15 ülke düzeyi (ASCL infosheet başlık/gün; olayı cümleyle anlatmıyor) — ÜLKE DÜZEYİ. f=1900-01-01 (atlas kur): Djambala Fransız karakolunun kuruluş günü/yılı BULUNAMADI. Aranan: arama motoru sonuçları (Wikipedia/Plateaux sayfaları; kuruluş tarihi yok), TDV, UNESCO GHA VII (Djambala geçmiyor). Djambala Batéké platosunda, yani Tio (Teke) alanındadır → 1880-10-03 Makoko antlaşması (Iliffe: Malebo Tio hükümdarı) alanı dolaylı kapsar; atlas yerleşimin 1900'den önceki dilimini boş bırakmış (kur=1900). F=VAROLUŞ kuralı: varlık kaynağı yok, f geri ÇEKİLMEDİ. Öneri: 1880-10-03/1882 → 1900 dilimi için s: tio (künye tio f=1281 t=1880-10-03; Makoko 1880-10-03 teyitsiz) abi merkez bağı aranmalı: BAKILMADI (Brazza/Makoko sahası, Fransız Kongo kaynakları ③ basamağı)."
+  }
+ ],
+ "Mosi (Moshi)": [
+  {
+   "sira": 4023,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1893-01-01",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "occupied Moshi on March 13th of that year",
+   "oneri": {
+    "d": "alman-dogu-afrikasi",
+    "f": "1893-01-01",
+    "t": "1919-06-28",
+    "ek_donem": {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-03-13",
+     "t": "1919-06-28"
+    }
+   },
+   "uc": "t",
+   "not": "Moshi: Alman Kilimanjaro bölgesi (1890 Berlin anlaşmasında 'skirts the northern base of the Kilimanjaro range' — Moshi çizginin GÜNEYİNDE → Alman alanı; TDV «Tanzanya»: 1890'da kara Tanzanya Almanlar'a). Chagga şeflerinden Marealle/Kibanga Almanlarla müttefikti (UNESCO GHA VII, ch. East Africa: 'The Marealle and the Kibanga ... saw in the Germans an opportunity').  ÖLÇÜT: geçici/askerî — Almanya hukuken 1919-06-28 Versay imzasında devretti (Madde 119: «Germany renounces in favour of the Principal Allied and Associated Powers all her rights»); İngiliz makamlarının 1917'den itibaren 'provisional Civil Administration' kurması (Cmd 1782 par. 3) askerî işgal altındaki düşman toprağı idaresidir, egemenlik devri değildir. Künye alman-dogu-afrikasi f=1885-02-27 t=1919-06-28 (devletler.js) bu uca TAM oturur: 1916-09-01 ucu künye sınırına değil, hukuki devre denk gelmez. Alan s→(s + isg) ayrımı EMRELİC TEK KURAL'dır. İngiliz resmî raporu: Smuts Kilimanjaro eteğinde Alman kuvvetlerini yenip «occupied Moshi on March 13th» 1916 — GÜN KAYNAKLI (resmî rapor, 1922). Western Front Association makalesi (derleme, hakemsiz) 14 Mart sabahı Güney Afrika Atlı Tugayı'nın 'terk edilmiş Moshi'ye' girdiğini yazar: 13 vs 14 Mart farkı beyan edilir; resmî raporun 13 Mart'ı esas. İşgal günü (isg f) = 1916-03-13.",
+   "f_note": "f=1893-01-01 (Moshi Alman istasyonu/kur) kaynakta doğrulanmadı: BAKILMADI; Chagga şefliklerinin 1893 öncesi (Mandara/Rindi) yerel yapısı için künye yok."
+  },
+  {
+   "sira": 4024,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "oneri": {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1919-06-28",
+    "t": "1922-07-20"
+   },
+   "uc": "f",
+   "not": "s: ingiltere 1916-09-01'den değil 1919-06-28'den (TEK ÖLÇÜ: devralan toprağı zaten fiilen yönetiyorsa s: antlaşmanın İMZA günü; Versay yürürlüğü 1920-01-10 ic_not). 1916-09-01 gününü tarihleyen kaynak bulunamadı (aranan: Cmd 1782, Versay m.119, UNESCO GHA VII). t=1922-07-20 mandat künyesiyle (ingiliz-tanganika-mandasi f) uyumlu; kaynak teyidi yok. KARAR NOKTASI (Emre): 1919-06-28→1922-07-20 arası 'ingiltere' mi yoksa mandat devri öncesi 'devredilmiş-yönetilen' için ayrı künye mi — künye sorusu LAB'a."
+  },
+  {
+   "sira": 4025,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "t",
+   "not": "t: Tanganyika Independence Act 1961 s.1 — 9 Aralık 1961'de Tanganyika bağımsız statüye geçer (Act, 'Tanganyika ... limits defined in Article 1 of the Tanganyika Order in Council, 1920'). f=1922-07-20 TEYİTSİZ (öteki uç teyitsiz): İngiliz resmî raporu (Cmd 1782) yalnız 'In December, 1920, draft mandates ... were submitted to the Council of the League' ve Tanganyika Order in Council'in 25 Eylül 1920'de Dar es Salaam'da ilanını verir; Konsey'in B-mandası onay günü bu kaynaklarda yok. Önceki uç (1919-06-28 Versay) ve İngiliz idaresi aşağıdaki öneriye bakınız."
+  },
+  {
+   "sira": 4026,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "f: Tanganyika Independence Act 1961 s.1 'appointed day' 9 Aralık 1961 + TDV 'aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti'. t: TDV «26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı». ÜLKE DÜZEYİ (yerleşime özgü tanıklık değil; bağımsızlık ülke olayıdır). Tanzanya adı 1964 sonbaharı için TDV gün vermez; künye notu zaten beyanlı.",
+   "alinti2": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı"
+  },
+  {
+   "sira": 4027,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "ÜLKE DÜZEYİ. t=2000-12-31 atlasın veri kesim sınırıdır (olay değil); kaynak teyidi gerekmez."
+  }
+ ],
+ "Singida": [
+  {
+   "sira": 4028,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1900-01-01",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "By the end of 1916 all the country north of the Central Railway was effectively occupied",
+   "oneri": {
+    "d": "alman-dogu-afrikasi",
+    "f": "1900-01-01",
+    "t": "1919-06-28",
+    "ek_donem": {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-12-31",
+     "t": "1919-06-28"
+    }
+   },
+   "uc": "t",
+   "not": "Singida: Merkezî Demiryolu'nun KUZEYİnde (4.82°G) → Cmd 1782 par. 3: 'By the end of 1916 all the country north of the Central Railway was effectively occupied by His Majesty's Forces or by Belgian troops'; İngiliz işgal günü yerleşime özgü BULUNAMADI (yalnız 1916 sonu en geç; ayrı bir İngiliz bölge notu 1917'de Alman devriyesinin Singida'yı geri aldığını söylüyor — kaynak tam okunmadı, BAKILMADI). f=1900-01-01 (kur) Alman Singida karakolunun kuruluşu kaynakta bulunamadı. ÖLÇÜT: geçici/askerî — Almanya hukuken 1919-06-28 Versay imzasında devretti (Madde 119: «Germany renounces in favour of the Principal Allied and Associated Powers all her rights»); İngiliz makamlarının 1917'den itibaren 'provisional Civil Administration' kurması (Cmd 1782 par. 3) askerî işgal altındaki düşman toprağı idaresidir, egemenlik devri değildir. Künye alman-dogu-afrikasi f=1885-02-27 t=1919-06-28 (devletler.js) bu uca TAM oturur: 1916-09-01 ucu künye sınırına değil, hukuki devre denk gelmez. Alan s→(s + isg) ayrımı EMRELİC TEK KURAL'dır. isg f için YIL düzeyi: en geç 1916-12-31 [yalnız yıl; gün BULUNAMADI]; Singida-spesifik gün aranmalı. 1917 Alman devriyesi geri alması isg'yi kesintiye uğratabilir (BAKILMADI). (KAYNAKLI değil: alıntı Merkezî Demiryolu kuzeyi için YIL düzeyi.)"
+  },
+  {
+   "sira": 4029,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "oneri": {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1919-06-28",
+    "t": "1922-07-20"
+   },
+   "uc": "f",
+   "not": "s: ingiltere 1916-09-01'den değil 1919-06-28'den (TEK ÖLÇÜ: devralan toprağı zaten fiilen yönetiyorsa s: antlaşmanın İMZA günü; Versay yürürlüğü 1920-01-10 ic_not). 1916-09-01 gününü tarihleyen kaynak bulunamadı (aranan: Cmd 1782, Versay m.119, UNESCO GHA VII). t=1922-07-20 mandat künyesiyle (ingiliz-tanganika-mandasi f) uyumlu; kaynak teyidi yok. KARAR NOKTASI (Emre): 1919-06-28→1922-07-20 arası 'ingiltere' mi yoksa mandat devri öncesi 'devredilmiş-yönetilen' için ayrı künye mi — künye sorusu LAB'a. Bu satırda isg f günü teyitsiz olduğundan atlas 1916-09-01'in neye dayandığı bilinmiyor."
+  },
+  {
+   "sira": 4030,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "t",
+   "not": "t: Tanganyika Independence Act 1961 s.1 — 9 Aralık 1961'de Tanganyika bağımsız statüye geçer (Act, 'Tanganyika ... limits defined in Article 1 of the Tanganyika Order in Council, 1920'). f=1922-07-20 TEYİTSİZ (öteki uç teyitsiz): İngiliz resmî raporu (Cmd 1782) yalnız 'In December, 1920, draft mandates ... were submitted to the Council of the League' ve Tanganyika Order in Council'in 25 Eylül 1920'de Dar es Salaam'da ilanını verir; Konsey'in B-mandası onay günü bu kaynaklarda yok. Önceki uç (1919-06-28 Versay) ve İngiliz idaresi aşağıdaki öneriye bakınız."
+  },
+  {
+   "sira": 4031,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "f: Tanganyika Independence Act 1961 s.1 'appointed day' 9 Aralık 1961 + TDV 'aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti'. t: TDV «26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı». ÜLKE DÜZEYİ (yerleşime özgü tanıklık değil; bağımsızlık ülke olayıdır). Tanzanya adı 1964 sonbaharı için TDV gün vermez; künye notu zaten beyanlı.",
+   "alinti2": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı"
+  },
+  {
+   "sira": 4032,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "ÜLKE DÜZEYİ. t=2000-12-31 atlasın veri kesim sınırıdır (olay değil); kaynak teyidi gerekmez."
+  }
+ ],
+ "Dodoma": [
+  {
+   "sira": 4033,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1907-01-01",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "By the end of 1916 all the country north of the Central Railway was effectively occupied",
+   "oneri": {
+    "d": "alman-dogu-afrikasi",
+    "f": "1907-01-01",
+    "t": "1919-06-28",
+    "ek_donem": {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1916-07-29",
+     "t": "1919-06-28"
+    }
+   },
+   "uc": "t",
+   "not": "Dodoma: Merkezî Demiryolu üstünde (6.17°G). İngiliz işgal günü: Güney Afrika kuvvetleri (van Deventer) Temmuz 1916 sonunda aldı — 1916-07-29 (Great War Forum yazısı) ve 1916-07-31 tarihli gazete duyurusu; ikisi de hakemsiz/haber sınıfı (ham alıntı YOK) → ONERI-güçlü. Cmd 1782 yalnız 'north of the Central Railway' için yıl sonunu söyler. f=1907-01-01 (kur) kaynakta doğrulanmadı (BAKILMADI). ÖLÇÜT: geçici/askerî — Almanya hukuken 1919-06-28 Versay imzasında devretti (Madde 119: «Germany renounces in favour of the Principal Allied and Associated Powers all her rights»); İngiliz makamlarının 1917'den itibaren 'provisional Civil Administration' kurması (Cmd 1782 par. 3) askerî işgal altındaki düşman toprağı idaresidir, egemenlik devri değildir. Künye alman-dogu-afrikasi f=1885-02-27 t=1919-06-28 (devletler.js) bu uca TAM oturur: 1916-09-01 ucu künye sınırına değil, hukuki devre denk gelmez. Alan s→(s + isg) ayrımı EMRELİC TEK KURAL'dır. isg f=1916-07-29 BEYANLI [haber/forum kaynaklı; resmî gün bulunamadı]. (KAYNAKLI değil: alıntı Merkezî Demiryolu kuzeyi için YIL düzeyi.)"
+  },
+  {
+   "sira": 4034,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "Versailles Antlaşması (28 Haziran 1919), Madde 119 — https://avalon.law.yale.edu/imt/partiv.asp (ham metin sayfa.py) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "Germany renounces in favour of the Principal Allied and Associated Powers all her rights",
+   "oneri": {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1919-06-28",
+    "t": "1922-07-20"
+   },
+   "uc": "f",
+   "not": "s: ingiltere 1916-09-01'den değil 1919-06-28'den (TEK ÖLÇÜ: devralan toprağı zaten fiilen yönetiyorsa s: antlaşmanın İMZA günü; Versay yürürlüğü 1920-01-10 ic_not). 1916-09-01 gününü tarihleyen kaynak bulunamadı (aranan: Cmd 1782, Versay m.119, UNESCO GHA VII). t=1922-07-20 mandat künyesiyle (ingiliz-tanganika-mandasi f) uyumlu; kaynak teyidi yok. KARAR NOKTASI (Emre): 1919-06-28→1922-07-20 arası 'ingiltere' mi yoksa mandat devri öncesi 'devredilmiş-yönetilen' için ayrı künye mi — künye sorusu LAB'a."
+  },
+  {
+   "sira": 4035,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; Report by HBM Government on Tanganyika Territory for the year 1921 (Cmd. 1782, HMSO 1922), 'Geographical and Historical Note' par. 3 — archive.org/details/report-tanganyika-1920 (ham djvu metni)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "t",
+   "not": "t: Tanganyika Independence Act 1961 s.1 — 9 Aralık 1961'de Tanganyika bağımsız statüye geçer (Act, 'Tanganyika ... limits defined in Article 1 of the Tanganyika Order in Council, 1920'). f=1922-07-20 TEYİTSİZ (öteki uç teyitsiz): İngiliz resmî raporu (Cmd 1782) yalnız 'In December, 1920, draft mandates ... were submitted to the Council of the League' ve Tanganyika Order in Council'in 25 Eylül 1920'de Dar es Salaam'da ilanını verir; Konsey'in B-mandası onay günü bu kaynaklarda yok. Önceki uç (1919-06-28 Versay) ve İngiliz idaresi aşağıdaki öneriye bakınız."
+  },
+  {
+   "sira": 4036,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Tanganyika Independence Act 1961 (1961 c.1), s.1 — https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1/enacted (ham metin sayfa.py ile okundu) ; TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "On the ninth day of December, nineteen hundred and sixty-one",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "f: Tanganyika Independence Act 1961 s.1 'appointed day' 9 Aralık 1961 + TDV 'aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti'. t: TDV «26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı». ÜLKE DÜZEYİ (yerleşime özgü tanıklık değil; bağımsızlık ülke olayıdır). Tanzanya adı 1964 sonbaharı için TDV gün vermez; künye notu zaten beyanlı.",
+   "alinti2": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı"
+  },
+  {
+   "sira": 4037,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya» — https://islamansiklopedisi.org.tr/tanzanya (ham metin sayfa.py)",
+   "alinti": "26 Nisan 1964 tarihinde Zengibar ile Tanganyika birleştirilerek Tanzanya adını aldı",
+   "oneri": {},
+   "uc": "f",
+   "not": "ÜLKE DÜZEYİ. t=2000-12-31 atlasın veri kesim sınırıdır (olay değil); kaynak teyidi gerekmez."
+  }
+ ]
+}
