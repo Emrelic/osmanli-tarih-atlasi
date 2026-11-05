@@ -151,6 +151,15 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## LAB SALI: UYGULA'ya alınanlar (e2dc25a7b, 72 madde)
+
+- **orta-afrika-imparatorlugu** t 1979-09-21. Bangassu birleşmesiyle aynı commit'te uygulanır.
+  - D2: `kronoloji_sinir_halef_1923_2000.js:265` maddesi zaten 09-21'de; taşıma gerekmez.
+- **fas-ispanyol-himayesi** t 1956-04-05 (TDV). 04-07 ortak bildirisi `ic_not`a.
+  - 🔴 D2: `kronoloji_sinir_halef_1923_2000.js:132`'deki t 1956-04-07 maddesi aynı commit'te 04-05'e taşınmalı.
+  - Nador'un kırılmaları da 04-05'e çekilir.
+- **Alula (Majerteen):** `s: somali` + `v: italya` 1889 → 1927, ardından `italyan-somali`. `adal` dönemi kalkar.
+
 ## LAB SALI: gece-101..105 soruları (HAYALET-KARAR; ölçüm origin/main)
 
 1. **orta-afrika-imparatorlugu** t 1979-09-20 → 09-21, DÜZELT adayı. Bangassu birleşmesiyle aynı commit'te uygulanır. EMRELİC bunu gece-101 (c)'de zaten onayladı; LAB'a bildirildi.
