@@ -146,7 +146,7 @@
    "alinti": "Fort Connolly (also spelled Connelly) was established in 1826 by James Douglas",
    "uc": "f",
    "oneri": {},
-   "not": "ÇELİŞKİ: BC GN 1826; DCB Douglas 'dispatched 15 May 1827 to establish Fort Connolly' (yalnız arama özeti). İki kaynak da yazıldı, seçilmedi. t 1871-07-20 BC Terms of Union ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-124): DCB akademik → 1827 KAYNAKLI-çekinceli; BC Geographical Names 1826 ic_not; inşaat başlangıç/bitiş ise erken olan alt sınır. | ÇELİŞKİ: BC GN 1826; DCB Douglas 'dispatched 15 May 1827 to establish Fort Connolly' (yalnız arama özeti). İki kaynak da yazıldı, seçilmedi. t 1871-07-20 BC Terms of Union ÜLKE DÜZEYİ."
   }
  ],
  "Fort Carlton": [
@@ -163,7 +163,7 @@
    "oneri": {
     "f": "1810"
    },
-   "not": "Atlas koordinatı 1810 sonrası yerleşik Fort Carlton'a (52.86,-106.53) ait; kaynak 1795 ilk postun başka yerde (Saskatchewan çatalı aşağısı) olduğunu, ~150 km güneybatıya 1810'da taşındığını söylüyor (Construction Date 1810). Öneri f=1810 (yalnız yıl). t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). "
+   "not": "KARAR EMRELİC (gece-124): f 1810 ONAY (koordinat-kaynak uyumu). | Atlas koordinatı 1810 sonrası yerleşik Fort Carlton'a (52.86,-106.53) ait; kaynak 1795 ilk postun başka yerde (Saskatchewan çatalı aşağısı) olduğunu, ~150 km güneybatıya 1810'da taşındığını söylüyor (Construction Date 1810). Öneri f=1810 (yalnız yıl). t ucu ÜLKE DÜZEYİ: Rupert's Land and North-Western Territory Order 23 Haziran 1870, yürürlük 1870-07-15 (https://laws-lois.justice.gc.ca/eng/ConstRpt/endnotes.html, Canada Justice Laws, okundu). "
   }
  ],
  "Fort Macleod": [
@@ -210,7 +210,7 @@
    "oneri": {
     "f": "1858-08-28"
    },
-   "not": "Kaynak gün veriyor: 1858-08-28 (atlas 1858-01-01). Fort 1859-60'ta yüksek zemine taşındı."
+   "not": "KARAR EMRELİC (gece-124): f 1858-08-28 ONAY (NDSHS resmî). | Kaynak gün veriyor: 1858-08-28 (atlas 1858-01-01). Fort 1859-60'ta yüksek zemine taşındı."
   }
  ],
  "Fond du Lac (Athabasca Gölü)": [
@@ -240,7 +240,7 @@
    "alinti": "",
    "uc": "t",
    "oneri": {},
-   "not": "TDV Harar 1577'yi veriyor (Emir Muhammed öldü) = yalnız t ucu için ipucu; Dolo Odo'nun 1281'de Adal/İfat'a ait olduğuna dair kaynak yok (Adal künyesi f şüpheli: Adal 15. yy.)."
+   "not": "KARAR EMRELİC (gece-124): AOI 1936-06-01 ONAY. | TDV Harar 1577'yi veriyor (Emir Muhammed öldü) = yalnız t ucu için ipucu; Dolo Odo'nun 1281'de Adal/İfat'a ait olduğuna dair kaynak yok (Adal künyesi f şüpheli: Adal 15. yy.)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:598",
@@ -253,7 +253,7 @@
    "alinti": "proclamata il 9 maggio 1936",
    "uc": "f",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR: AOI 1936-06-01 (Treccani Dizionario di Storia, kraliyet kararnamesi) korunur; 1936-05-09 ilhak kararnamesi ic_not (EI kökenli ipucu). | Annexation proclaimed 9 Mayıs 1936 (Treccani; Royal Decree-Law 754, history.state.gov frus1936v03/d226, arama özeti). 1936-06-01 AOI günü BULUNAMADI. Dolo Odo'nun fiilî İtalyan alış günü bakılmadı (TEK ÖLÇÜ). t 1941-11-30 Gondar günüdür; TDV Etiyopya: 5 Mayıs 1941 Hâile Selâsiye dönüşü. İpucu sınıfı: ONERI."
+   "not": "KARAR EMRELİC (gece-124): AOI 1936-06-01 ONAY. | ÖNCEKİ KARAR: AOI 1936-06-01 (Treccani Dizionario di Storia, kraliyet kararnamesi) korunur; 1936-05-09 ilhak kararnamesi ic_not (EI kökenli ipucu). | Annexation proclaimed 9 Mayıs 1936 (Treccani; Royal Decree-Law 754, history.state.gov frus1936v03/d226, arama özeti). 1936-06-01 AOI günü BULUNAMADI. Dolo Odo'nun fiilî İtalyan alış günü bakılmadı (TEK ÖLÇÜ). t 1941-11-30 Gondar günüdür; TDV Etiyopya: 5 Mayıs 1941 Hâile Selâsiye dönüşü. İpucu sınıfı: ONERI."
   }
  ],
  "Dusa Mareb": [
@@ -268,7 +268,7 @@
    "alinti": "",
    "uc": "t",
    "oneri": {},
-   "not": "TDV yalnız 1927 işgalini söylüyor (t ucu); alıntı yalnız t ucunu tarihliyor. f 1281 için kaynak yok."
+   "not": "KARAR EMRELİC (gece-124): Alula modeli doğru ama yer Hobyo sultanlığı alanında (Majerteen değil): İtalyan koruması 1888-12-23 Hobyo antlaşması, fetih 1925–26 (günler kaynakla); toplu somali künyesi kalır. | TDV yalnız 1927 işgalini söylüyor (t ucu); alıntı yalnız t ucunu tarihliyor. f 1281 için kaynak yok."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:1094",
@@ -281,7 +281,7 @@
    "alinti": "Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
    "uc": "f",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR (gece-116 Alula emsali): 1889 koruma → s: somali + v: italya; 1927 fethiyle doğrudan idare s: italyan-somali (TAHRİR); isg değil. | TDV 'işgal' diyor, yıl 1927. Tahrir ölçütü: kaynak idareye katmayı söylemiyor; Emre'ye: s mi isg mi. Britannica/EBSCO arama özeti: 1926-27'de iki kuzey protektora İtalyan Somali'sine 'firmly incorporated'."
+   "not": "KARAR EMRELİC (gece-124): Alula modeli doğru ama yer Hobyo sultanlığı alanında (Majerteen değil): İtalyan koruması 1888-12-23 Hobyo antlaşması, fetih 1925–26 (günler kaynakla); toplu somali künyesi kalır. | ÖNCEKİ KARAR (gece-116 Alula emsali): 1889 koruma → s: somali + v: italya; 1927 fethiyle doğrudan idare s: italyan-somali (TAHRİR); isg değil. | TDV 'işgal' diyor, yıl 1927. Tahrir ölçütü: kaynak idareye katmayı söylemiyor; Emre'ye: s mi isg mi. Britannica/EBSCO arama özeti: 1926-27'de iki kuzey protektora İtalyan Somali'sine 'firmly incorporated'."
   }
  ],
  "Dzaoudzi (Mayotte)": [
@@ -352,7 +352,7 @@
    "alinti": "",
    "uc": "t",
    "oneri": {},
-   "not": "1603-03-30 Mellifont, Tyrone'un teslimidir; Tír Chonaill lordu Ruaidhrí Aralık 1602'de Athlone'da teslim oldu, 1603'te kontluk (arama özeti). Donegal için gün teyit edilmedi."
+   "not": "KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | 1603-03-30 Mellifont, Tyrone'un teslimidir; Tír Chonaill lordu Ruaidhrí Aralık 1602'de Athlone'da teslim oldu, 1603'te kontluk (arama özeti). Donegal için gün teyit edilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:160",
@@ -365,7 +365,7 @@
    "alinti": "Whole Act 29 D",
    "uc": "f",
    "oneri": {},
-   "not": "Alıntı pencere sınırında kesik ('Whole Act 29 D') — tam '29 December 1937' metni başka makinede gözle teyit edilecek. | Resmî devlet yayını: Commencement tablosu 'Whole Act 29 D[ecember 1937]' (sayfa.py çıktısı pencere sınırında kesildi). ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-124): 1937-12-29 Anayasa yürürlüğü (md. 62); KAYNAKLI-çekinceli + 'alıntı kesik, gözle teyit bekliyor'. Künye geçişi (İrlanda Özgür Devleti → Éire), sahip değişimi değil — künye zinciriyle uyum kontrol. | Alıntı pencere sınırında kesik ('Whole Act 29 D') — tam '29 December 1937' metni başka makinede gözle teyit edilecek. | Resmî devlet yayını: Commencement tablosu 'Whole Act 29 D[ecember 1937]' (sayfa.py çıktısı pencere sınırında kesildi). ÜLKE DÜZEYİ."
   }
  ],
  "Douglas (Arizona)": [
@@ -382,7 +382,7 @@
    "oneri": {
     "f": "1901"
    },
-   "not": "Şehir 1901'de kuruldu, 1905'te belediye oldu; atlas f=1905 belediye yılı. Öneri f=1901 (yalnız yıl; kurum sitesi — İPUCU-artı). ABD egemenliği bölgede Gadsden 1853-56'dan beri."
+   "not": "KARAR EMRELİC (gece-124): f 1901 şehrin kendi sitesi (ipucu) → ONERI-güçlü. | Şehir 1901'de kuruldu, 1905'te belediye oldu; atlas f=1905 belediye yılı. Öneri f=1901 (yalnız yıl; kurum sitesi — İPUCU-artı). ABD egemenliği bölgede Gadsden 1853-56'dan beri."
   }
  ],
  "Dubbo": [
@@ -519,7 +519,7 @@
    "oneri": {
     "t": "1860-10-21"
    },
-   "not": "TAHRİR/TEK ÖLÇÜ sorusu: Garibaldi diktatörlüğü 1860-09 → plebisit 1860-10-21 → ilhak kararnamesi 1860-12-17; Gaeta 1861-02-13 Bourbon kapitülasyonu Foggia'yı tarihlemez — EMRELİC'e soruldu. | Kaynak anneksiyonu 21 Ekim 1860 plebisiti diyor (ÜLKE DÜZEYİ); atlas t=1861-02-13 (Gaeta). TEK ÖLÇÜ: Foggia'nın fiilî teslim günü bilinmiyor; plebisit ≠ teslim, karar Emre'ye. f 1281 kaynak yok."
+   "not": "KARAR EMRELİC (gece-124): TAHRİR (Toskana/Piombino emsali): s: italya/sardinya 1860-12-17 (ilhak kararnamesi); iki-sicilya t = Garibaldi kuvvetlerinin Foggia'yı fiilen denetimi (1860-09, kaynakla); o günden 12-17'ye 'Garibaldi diktatörlüğü' BEYANLI (rakip hükûmet; künye adayı LAB SALI); plebisit 1860-10-21 ve Gaeta 1861-02-13 ic_not. | TAHRİR/TEK ÖLÇÜ sorusu: Garibaldi diktatörlüğü 1860-09 → plebisit 1860-10-21 → ilhak kararnamesi 1860-12-17; Gaeta 1861-02-13 Bourbon kapitülasyonu Foggia'yı tarihlemez — EMRELİC'e soruldu. | Kaynak anneksiyonu 21 Ekim 1860 plebisiti diyor (ÜLKE DÜZEYİ); atlas t=1861-02-13 (Gaeta). TEK ÖLÇÜ: Foggia'nın fiilî teslim günü bilinmiyor; plebisit ≠ teslim, karar Emre'ye. f 1281 kaynak yok."
   }
  ]
 }
