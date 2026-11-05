@@ -1,98 +1,236 @@
 {
  "Batoche": [
-  {"sira": 3795, "dosya_satir": "", "alan": "s", "d": "metis", "f": "1872-01-01", "t": "1885-05-12",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 3795,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "metis",
+   "f": "1872-01-01",
+   "t": "1885-05-12",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "Parks Canada, Batoche NHS History (parks.canada.ca/lhn-nhs/sk/batoche/culture/histoire-history); DCB, Dumont, Gabriel (biographi.ca/en/bio/dumont_gabriel_13E.html)",
    "alinti": "In 1872 the Village of Batoche was established when Xavier Letendre opened a ferry crossing",
    "alinti2": "On 12 May the defenders could hold out no longer and Batoche was captured.",
-   "oneri": {"d": "kanada", "f": "1872-01-01", "t": "2000-12-31", "ek": "metis 1885-03-19 -> 1885-05-12 rakip hukumet (isg/rakip katman)"},
-   "not": "SAHIPLIK COZULMEDI, kaynak t ucunu (12 Mayis 1885 dusus) ve f yilini (1872) dogruluyor ama 1872-1885 'metis' sahipligini DEGIL. Rupert's Land HBC->Kanada 1870 (Order 23 Haz 1870; yururluk 1870-07-15 yalniz arama ozetinden, justice.canada.ca ham sayfada 15 Temmuz metni okunamadi -> BAKILMADI). Metis Gecici Hukumeti DCB'ye gore 18 Mart 1885'te Dumont iki dukkani bastiktan 'ertesi gun' (= 19 Mart, cikarim) Batoche'ta ilan edildi (ilan gunu acikca yazilmiyor). Oneri: 1872-1885-03-19 s:kanada (NWT, 1870'ten), metis yalniz 1885-03-19 -> 1885-05-12 rakip hukumet katmani (hint: rakip hukumet kurali). ONERI ONERI: kanada f'si 1872 (Parks Canada yil; ayni sayfa baska yerde 1873 ferry diyor, DCB 1872). Parks Canada: Batoche Savasi 9-12 Mayis 1885."},
-  {"sira": 3796, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1885-05-12", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "oneri": {
+    "d": "kanada",
+    "f": "1872-01-01",
+    "t": "2000-12-31",
+    "ek": "metis 1885-03-19 -> 1885-05-12 rakip hukumet (isg/rakip katman)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): s: kanada 1870-07-15. 1885-03-19 → 05-12 Métis Geçici Hükûmeti: rakip hükûmet kuralı fiilî kontrolü SAHİP yapar (Kolçak/Ukrayna emsali), isg değil → s: metis-gecici-hukumeti künye adayı (LAB), gelene dek BEYANLI ONERI; 03-19 DCB çıkarımı ic_not. · SAHIPLIK COZULMEDI, kaynak t ucunu (12 Mayis 1885 dusus) ve f yilini (1872) dogruluyor ama 1872-1885 'metis' sahipligini DEGIL. Rupert's Land HBC->Kanada 1870 (Order 23 Haz 1870; yururluk 1870-07-15 yalniz arama ozetinden, justice.canada.ca ham sayfada 15 Temmuz metni okunamadi -> BAKILMADI). Metis Gecici Hukumeti DCB'ye gore 18 Mart 1885'te Dumont iki dukkani bastiktan 'ertesi gun' (= 19 Mart, cikarim) Batoche'ta ilan edildi (ilan gunu acikca yazilmiyor). Oneri: 1872-1885-03-19 s:kanada (NWT, 1870'ten), metis yalniz 1885-03-19 -> 1885-05-12 rakip hukumet katmani (hint: rakip hukumet kurali). ONERI ONERI: kanada f'si 1872 (Parks Canada yil; ayni sayfa baska yerde 1873 ferry diyor, DCB 1872). Parks Canada: Batoche Savasi 9-12 Mayis 1885.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3796,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1885-05-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "DCB, Dumont, Gabriel (biographi.ca/en/bio/dumont_gabriel_13E.html); Parks Canada Batoche NHS History",
    "alinti": "On 12 May the defenders could hold out no longer and Batoche was captured.",
    "oneri": {},
-   "not": "f ucu: Batoche'un dusus gunu (12 Mayis 1885) iki kaynakta (DCB + Parks Canada 'May 9 to May 12, 1885') cift teyit. UYARI: satir 3795 onerisi uygulanirsa kanada 1872'den surer ve bu satir 'metis rakip katmaninin bitisi' olarak kalir. t=2000-12-31 pencere ucu, olculmedi."}
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): s: kanada 1870-07-15. 1885-03-19 → 05-12 Métis Geçici Hükûmeti: rakip hükûmet kuralı fiilî kontrolü SAHİP yapar (Kolçak/Ukrayna emsali), isg değil → s: metis-gecici-hukumeti künye adayı (LAB), gelene dek BEYANLI ONERI; 03-19 DCB çıkarımı ic_not. · f ucu: Batoche'un dusus gunu (12 Mayis 1885) iki kaynakta (DCB + Parks Canada 'May 9 to May 12, 1885') cift teyit. UYARI: satir 3795 onerisi uygulanirsa kanada 1872'den surer ve bu satir 'metis rakip katmaninin bitisi' olarak kalir. t=2000-12-31 pencere ucu, olculmedi.",
+   "karar": "EMRELİC"
+  }
  ],
  "Fort Calgary": [
-  {"sira": 3797, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1875-01-01", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3797,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "DCB, Macleod, James Farquharson (biographi.ca/en/bio/macleod_james_farquharson_12E.html)",
    "alinti": "Brisebois travelled to the Bow River to build a second major outpost, Fort Brisebois, subsequently renamed Fort Calgary",
-   "oneri": {"f": "1875-01-01", "d": "kanada"},
-   "not": "Alinti yilsiz: cumle 'That summer' diyor, onceki cumle Fort Walsh'u (Parks Canada: Haziran 1875) kuruyor -> yil 1875 baglamdan cikarim. Kati kural geregi ONERI. Gun/ay bulunamadi (Fort Brisebois -> Fort Calgary adi 1876; ad degisimi DCB'de yilsiz). f yil duzeyi 1875-01-01 muhafaza. Sahip: Kanada, NWT 1870'ten (kaynak okunmadi); sahiplik satiri alintiyla teyit DEGIL."}
+   "oneri": {
+    "f": "1875-01-01",
+    "d": "kanada"
+   },
+   "not": "Alinti yilsiz: cumle 'That summer' diyor, onceki cumle Fort Walsh'u (Parks Canada: Haziran 1875) kuruyor -> yil 1875 baglamdan cikarim. Kati kural geregi ONERI. Gun/ay bulunamadi (Fort Brisebois -> Fort Calgary adi 1876; ad degisimi DCB'de yilsiz). f yil duzeyi 1875-01-01 muhafaza. Sahip: Kanada, NWT 1870'ten (kaynak okunmadi); sahiplik satiri alintiyla teyit DEGIL."
+  }
  ],
  "Fort Walsh (Cypress Hills)": [
-  {"sira": 3798, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1875-01-01", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+  {
+   "sira": 3798,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "Parks Canada, Fort Walsh NHS History (parks.canada.ca/lhn-nhs/sk/walsh/culture/histoire-history); DCB, Macleod (biographi.ca/en/bio/macleod_james_farquharson_12E.html)",
    "alinti": "officers from \"B\" Division of the North West Mounted Police established Fort Walsh in June of 1875",
    "oneri": {},
-   "not": "f ucu yil duzeyi KAYNAKLI; ay HAZIRAN 1875 (gun yok, 1875-01-01 muhafaza, istenirse '[yalniz ay: 1875-06]' notu). Sahip kanada alintida yok (NWT 1870'ten ic_not adayi). Fort 1883'te terk edildi (Parks Canada) — yerlesim var oldugu surece t=2000 pencere ucu, olculmedi."}
+   "not": "f ucu yil duzeyi KAYNAKLI; ay HAZIRAN 1875 (gun yok, 1875-01-01 muhafaza, istenirse '[yalniz ay: 1875-06]' notu). Sahip kanada alintida yok (NWT 1870'ten ic_not adayi). Fort 1883'te terk edildi (Parks Canada) — yerlesim var oldugu surece t=2000 pencere ucu, olculmedi."
+  }
  ],
  "Fort Belknap (Assiniboine-Gros Ventre)": [
-  {"sira": 3799, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1871-01-01", "t": "2000-12-31",
-   "hukum": "BULUNAMADI", "uc": "f",
+  {
+   "sira": 3799,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1871-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "Kappler, Indian Affairs: Laws and Treaties (1903 baski, archive.org indianaffairsla01statgoog) — 1 Mayis 1888 Yasasi ve Fort Belknap Agency anlasma metni",
    "alinti": "Gros Ventre and Assinniboine bands of Indians attached to and receiving rations at the Fort Belknap Agency, in the Territory of Montana",
    "oneri": {},
-   "not": "1871 BULUNAMADI: ham metinde Fort Belknap Agency'nin 1871'de kuruldugunu gosteren cumle yok. Kappler yalniz Agency'nin Ocak 1887'de Montana Territory'sinde mevcut oldugunu ve 1888-05-01 Yasasini (Gros Ventre, Piegan, Blood, Blackfeet, River Crow anlasmasi) veriyor -> f icin kaynakli ust sinir 1887. Arama ozeti (kaynak degil): ajans 1870'ler, 1876'da kapandi, 1878'de yeniden kuruldu; 1871 dayanagi yok. Sahip abd (Montana Territory) ham alintiyla yalniz 1887 icin teyit. Ihtiyac: Montana Historical Society / Handbook of NA Indians c.13 (okunmadi). Not: kuruluş yili belirsizse f 1871 'BEYANLI alt sinir' olmalı."}
+   "not": "1871 BULUNAMADI: ham metinde Fort Belknap Agency'nin 1871'de kuruldugunu gosteren cumle yok. Kappler yalniz Agency'nin Ocak 1887'de Montana Territory'sinde mevcut oldugunu ve 1888-05-01 Yasasini (Gros Ventre, Piegan, Blood, Blackfeet, River Crow anlasmasi) veriyor -> f icin kaynakli ust sinir 1887. Arama ozeti (kaynak degil): ajans 1870'ler, 1876'da kapandi, 1878'de yeniden kuruldu; 1871 dayanagi yok. Sahip abd (Montana Territory) ham alintiyla yalniz 1887 icin teyit. Ihtiyac: Montana Historical Society / Handbook of NA Indians c.13 (okunmadi). Not: kuruluş yili belirsizse f 1871 'BEYANLI alt sinir' olmalı."
+  }
  ],
  "Victoria (Fort Victoria)": [
-  {"sira": 3800, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1843-06-10", "t": "1871-07-20",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3800,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1843-06-10",
+   "t": "1871-07-20",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "DCB, Douglas, Sir James (biographi.ca/en/bio/douglas_james_10E.html)",
    "alinti": "in March 1843 started the construction of Fort Victoria",
    "alinti2": "on 13 Jan. 1849 accepted a royal grant to Vancouver Island for ten years",
-   "oneri": {"f": "1843-03-01", "d": "ingiliz-kuzey-amerika", "ek": "[yalniz ay: Mart 1843]"},
-   "not": "DCB: insaat Mart 1843'te basladi; atlas f 1843-06-10 bu ayi tutmuyor (gunun kaynagi bulunamadi). f ERKENE cekilirse F-GERI (sahip ayni HBC/ingiliz-kuzey-amerika, kunye f 1763 kapsar; ancak kunye tur:'gecici-isgal' — HBC fort icin LAB'a soru). Sahiplik notu: 1843-1846 Oregon Country ortak isgal (DCB: 'Americans and Britons had enjoyed equal rights west of the mountains since 1827') — Vancouver Adasi icin 1846 Oregon sınırı oncesi sahiplik beyanli yaklasiklik; 1849-01-13 Britanya Krali'nin HBC'ye adayi verdigi kolonileşme (DCB). t 1871-07-20 bir sonraki satirda Terms of Union ile kaynakli."},
-  {"sira": 3801, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1871-07-20", "t": "2000-12-31",
-   "hukum": "BAKILMADI", "uc": "f",
+   "oneri": {
+    "f": "1843-03-01",
+    "d": "ingiliz-kuzey-amerika",
+    "ek": "[yalniz ay: Mart 1843]"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): F-GERI 1843-03-01 [ay] onay, BEYANLI. · DCB: insaat Mart 1843'te basladi; atlas f 1843-06-10 bu ayi tutmuyor (gunun kaynagi bulunamadi). f ERKENE cekilirse F-GERI (sahip ayni HBC/ingiliz-kuzey-amerika, kunye f 1763 kapsar; ancak kunye tur:'gecici-isgal' — HBC fort icin LAB'a soru). Sahiplik notu: 1843-1846 Oregon Country ortak isgal (DCB: 'Americans and Britons had enjoyed equal rights west of the mountains since 1827') — Vancouver Adasi icin 1846 Oregon sınırı oncesi sahiplik beyanli yaklasiklik; 1849-01-13 Britanya Krali'nin HBC'ye adayi verdigi kolonileşme (DCB). t 1871-07-20 bir sonraki satirda Terms of Union ile kaynakli.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3801,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
    "kaynak": "mevcut kaynak: British Columbia Terms of Union (Justice Canada, Constitution Enactment No. 4)",
    "alinti": "",
    "oneri": {},
-   "not": "Zaten kaynakli (DIGER); onceliksiz, yeniden dogrulanmadi. Cakisan bir sey gorulmedi."}
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): F-GERI 1843-03-01 [ay] onay, BEYANLI. · Zaten kaynakli (DIGER); onceliksiz, yeniden dogrulanmadi. Cakisan bir sey gorulmedi.",
+   "karar": "EMRELİC"
+  }
  ],
  "Fort Benton": [
-  {"sira": 3802, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1846-01-01", "t": "2000-12-31",
-   "hukum": "BULUNAMADI", "uc": "f",
+  {
+   "sira": 3802,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "Bakilan: nps.gov/parkhistory/online_books/soldier/siteb14.htm (404/yonlendirme, konu disi), fortbenton.com/fbrestore/history.html (404), Britannica (denenmedi, 403 bilinen); WebSearch ozetleri (kaynak degil)",
    "alinti": "",
    "oneri": {},
-   "not": "Ham metinde f teyidi YOK. Arama ozetlerinde yillar CELISKILI: Fort Lewis 1844/1845/1847, Fort Benton'a tasima 1846-47, 'Fort Benton' adi 25 Aralik 1850 (ozet). Britannica ve NPS maddeleri ham okunamadigi icin ONERI bile verilmez. Sahip abd (Missouri havzasi, Louisiana Alimi 1803) kaynakla bakilmadi. Onerilen kaynak: Montana Historical Society, Montana: The Magazine of Western History, Fort Benton Historic Landmark NHL formu (npgallery.nps.gov NRHP 66000431.pdf — ozette cikti, ham okunmadi)."}
+   "not": "Ham metinde f teyidi YOK. Arama ozetlerinde yillar CELISKILI: Fort Lewis 1844/1845/1847, Fort Benton'a tasima 1846-47, 'Fort Benton' adi 25 Aralik 1850 (ozet). Britannica ve NPS maddeleri ham okunamadigi icin ONERI bile verilmez. Sahip abd (Missouri havzasi, Louisiana Alimi 1803) kaynakla bakilmadi. Onerilen kaynak: Montana Historical Society, Montana: The Magazine of Western History, Fort Benton Historic Landmark NHL formu (npgallery.nps.gov NRHP 66000431.pdf — ozette cikti, ham okunmadi)."
+  }
  ],
  "Knife River (Hidatsa köyleri)": [
-  {"sira": 3803, "dosya_satir": "", "alan": "s", "d": "hidatsa", "f": "1281-01-01", "t": "1851-09-17",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 3803,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hidatsa",
+   "f": "1281-01-01",
+   "t": "1851-09-17",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Kappler, Indian Affairs: Laws and Treaties, c.2 (1903; archive.org bp_996062-2) — Fort Laramie Antlasmasi 1851; NPS Knife River Indian Villages NHS, History & Culture (nps.gov/knri)",
    "alinti": "on the seventeenth day of September, A. D. one thousand eight hundred and fifty-one",
-   "oneri": {"t": "1851-09-17 korunur; olay 'hukumranlik devri' degil, sinir/baris antlasmasi — beyanli yaklasiklik"},
-   "not": "t: Antlasma ham metni 17 Eylul 1851'i veriyor; taraflar arasinda 'Gros-Ventre' (Kappler'de Hidatsa) var ve 'territory of the Gros Ventre, Mandans, and Arrickaras Nations' sinirlari cizilmis (Heart R. agzi - Yellowstone agzi). ANTLASMA TOPRAK DEVRETMIYOR (sinir tanimi + baris): Hidatsa topragi bu tarihte abd'ye gecmiyor -> atlas yorumu (kunye t ve abd f) ONERI. Alternatif olay Fort Berthold Reservation EO (1870, aday, OKUNMADI) / sonraki anlasmalar. f 1281-01-01 ATLAS UFKU: NPS ham sayfasi 1281'e dair tarih vermiyor (1837, Fort Berthold anahtarlari YOK) -> f BULUNAMADI. Not: kunye 'mandan' t=1851-09-17 ile esdeger durumda."},
-  {"sira": 3804, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1851-09-17", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1851-09-17 korunur; olay 'hukumranlik devri' degil, sinir/baris antlasmasi — beyanli yaklasiklik"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Önce merdiven ④: Hidatsa köyleri 1845'te terk edildi (Like-a-Fishhook'a göç) → yerleşim sonrası yoksa dönem KIRPILIR; Fort Laramie/Fort Berthold soruları düşer. · t: Antlasma ham metni 17 Eylul 1851'i veriyor; taraflar arasinda 'Gros-Ventre' (Kappler'de Hidatsa) var ve 'territory of the Gros Ventre, Mandans, and Arrickaras Nations' sinirlari cizilmis (Heart R. agzi - Yellowstone agzi). ANTLASMA TOPRAK DEVRETMIYOR (sinir tanimi + baris): Hidatsa topragi bu tarihte abd'ye gecmiyor -> atlas yorumu (kunye t ve abd f) ONERI. Alternatif olay Fort Berthold Reservation EO (1870, aday, OKUNMADI) / sonraki anlasmalar. f 1281-01-01 ATLAS UFKU: NPS ham sayfasi 1281'e dair tarih vermiyor (1837, Fort Berthold anahtarlari YOK) -> f BULUNAMADI. Not: kunye 'mandan' t=1851-09-17 ile esdeger durumda.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3804,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-09-17",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Kappler c.2 (archive.org bp_996062-2) — Fort Laramie 1851",
    "alinti": "Gros- Ventre Mandans , and Arrickaras , parties of the second part , on the seventeenth day of September",
-   "oneri": {"d": "abd", "f": "1851-09-17", "ek": "ic_not: antlasma devir degil; Fort Berthold Rezervasyonu EO adayi"},
-   "not": "Alinti 17 Eylul 1851'i tarihliyor ama hukumranlik devri degil (bkz. 3803). Louisiana Alimi 1803'ten beri ABD iddiasi (okunmadi). f degisimi onerilmiyor, beyanli yaklasiklik."}
+   "oneri": {
+    "d": "abd",
+    "f": "1851-09-17",
+    "ek": "ic_not: antlasma devir degil; Fort Berthold Rezervasyonu EO adayi"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Önce merdiven ④: Hidatsa köyleri 1845'te terk edildi (Like-a-Fishhook'a göç) → yerleşim sonrası yoksa dönem KIRPILIR; Fort Laramie/Fort Berthold soruları düşer. · Alinti 17 Eylul 1851'i tarihliyor ama hukumranlik devri degil (bkz. 3803). Louisiana Alimi 1803'ten beri ABD iddiasi (okunmadi). f degisimi onerilmiyor, beyanli yaklasiklik.",
+   "karar": "EMRELİC"
+  }
  ],
  "Chequamegon (La Pointe)": [
-  {"sira": 3805, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1665-01-01", "t": "1763-02-10",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3805,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1665-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Wisconsin Historical Society, Claude Allouez / La Pointe, Wisconsin (wisconsinhistory.org/Records/Article/CS9547; ham metin robots engelli, arama OZETINDEN [alinti ozetten]); FortWiki Fort La Pointe",
    "alinti": "Allouez 1665 Chequamegon Bay mission, La Pointe du St. Esprit [ozetten]",
-   "oneri": {"d": "ojibwe", "ek": "kunye ojibwe (baskent Chequamegon/La Pointe, f 1281, t 1850-09-07) var; Fransa 1665-1763 'ticaret/misyon' ve 1693-98 / 1718-1759-62 kale"},
-   "not": "Ham okunamadi (robots). Ozet: 1665 Jesuit misyonu (Allouez), 1693-98 Le Sueur kalesi, 1718 Fort La Pointe, 1759-62 terk. KUNYE CATISMASI: depodaki devletler.js 'ojibwe' kunyesinin baskenti Chequamegon (La Pointe), t=1850-09-07; Chequamegon'un sahibi Fransa/Ingiltere/ABD yerine ojibwe olmali (Hidatsa/Mandan emsali: yerli kunye antlasmaya kadar). Oneri: s:ojibwe 1281(ufuk) -> kunye t, sonra abd; Fransa/Ingiltere ticaret yeri ic_not. Kunye t 1850-09-07 vs 1854-09-30 La Pointe Antlasmasi LAB'a sorulmali."},
-  {"sira": 3806, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1763-02-10", "t": "1783-09-03",
-   "hukum": "BULUNAMADI", "uc": "f+t",
+   "oneri": {
+    "d": "ojibwe",
+    "ek": "kunye ojibwe (baskent Chequamegon/La Pointe, f 1281, t 1850-09-07) var; Fransa 1665-1763 'ticaret/misyon' ve 1693-98 / 1718-1759-62 kale"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): s: ojibwe (Fransız karakolu ic_not); abd 1854-09-30 La Pointe imzası (yerli devrinde imza = devir, Memphis emsali); ojibwe t GENİŞLET LAB'a. · Ham okunamadi (robots). Ozet: 1665 Jesuit misyonu (Allouez), 1693-98 Le Sueur kalesi, 1718 Fort La Pointe, 1759-62 terk. KUNYE CATISMASI: depodaki devletler.js 'ojibwe' kunyesinin baskenti Chequamegon (La Pointe), t=1850-09-07; Chequamegon'un sahibi Fransa/Ingiltere/ABD yerine ojibwe olmali (Hidatsa/Mandan emsali: yerli kunye antlasmaya kadar). Oneri: s:ojibwe 1281(ufuk) -> kunye t, sonra abd; Fransa/Ingiltere ticaret yeri ic_not. Kunye t 1850-09-07 vs 1854-09-30 La Pointe Antlasmasi LAB'a sorulmali.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3806,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
    "kaynak": "Bakilan: FortWiki Fort La Pointe ve Madeline Island ozeti (kaynak degil); WHS CS9549 (acilmadi)",
    "alinti": "",
    "oneri": {},
-   "not": "Ham metinde 1763 Paris Antlasmasi ile La Pointe'in Ingiliz idaresine gectigine dair tanik YOK. Arama ozeti: Fransiz kalesi 1759-62'de terkedildi; Ingiliz North West Co. postu 1793'te (Michel Cadotte) — yani 1763-83 arasi Ingiliz idaresi kanitsiz, bolge fiilen Ojibwe. 1783 de jure Paris Antlasmasi; Britanya Buyuk Goller kalelerini 1796'ya kadar elinde tuttu (ozet degil genel bilgi, okunmadi)."},
-  {"sira": 3807, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1783-09-03", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): s: ojibwe (Fransız karakolu ic_not); abd 1854-09-30 La Pointe imzası (yerli devrinde imza = devir, Memphis emsali); ojibwe t GENİŞLET LAB'a. · Ham metinde 1763 Paris Antlasmasi ile La Pointe'in Ingiliz idaresine gectigine dair tanik YOK. Arama ozeti: Fransiz kalesi 1759-62'de terkedildi; Ingiliz North West Co. postu 1793'te (Michel Cadotte) — yani 1763-83 arasi Ingiliz idaresi kanitsiz, bolge fiilen Ojibwe. 1783 de jure Paris Antlasmasi; Britanya Buyuk Goller kalelerini 1796'ya kadar elinde tuttu (ozet degil genel bilgi, okunmadi).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3807,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "WebSearch ozeti (Madeline Island: 1842 La Pointe Antlasmasi ve 1854 La Pointe Antlasmasi; ham metin okunamadi); Kappler c.2 La Pointe 1854 metni bulunamadi (archive.org bp_996062-2 La Pointe anahtari bos)",
    "alinti": "",
-   "oneri": {"d": "abd", "f": "1854-09-30", "ek": "ojibwe s: 1850-09-07/1854-09-30 kunye-antlasma tarihi LAB; 1783-09-03 de jure Paris ic_not"},
-   "not": "ONERI (ham alinti YOK, ozet): Adanin 1842'ye (veya 1854'e) kadar devredilmemis Ojibwe toprağı oldugu ozetlerde geciyor; 1783 Paris yalniz Britanya-ABD arasinda de jure. Hint: Duluth emsali (1796 teslim). Kesin oneri icin Kappler c.2 La Pointe 1842/1854 metni ve 1796 Jay Antlasmasi teslim gunu okunmali — BAKILMADI."}
+   "oneri": {
+    "d": "abd",
+    "f": "1854-09-30",
+    "ek": "ojibwe s: 1850-09-07/1854-09-30 kunye-antlasma tarihi LAB; 1783-09-03 de jure Paris ic_not"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): s: ojibwe (Fransız karakolu ic_not); abd 1854-09-30 La Pointe imzası (yerli devrinde imza = devir, Memphis emsali); ojibwe t GENİŞLET LAB'a. · ONERI (ham alinti YOK, ozet): Adanin 1842'ye (veya 1854'e) kadar devredilmemis Ojibwe toprağı oldugu ozetlerde geciyor; 1783 Paris yalniz Britanya-ABD arasinda de jure. Hint: Duluth emsali (1796 teslim). Kesin oneri icin Kappler c.2 La Pointe 1842/1854 metni ve 1796 Jay Antlasmasi teslim gunu okunmali — BAKILMADI.",
+   "karar": "EMRELİC"
+  }
  ]
 }

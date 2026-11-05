@@ -1,0 +1,183 @@
+{
+ "kural": "EMRELİC (5 Kasım 2026): rakip hükûmet + Draç emsali — s: abd 1776-07-04 bağımsızlık ilan eden hükûmetin fiilen yönettiği yerlerde; İngiliz işgalindeki şehirlerde isg ingiltere; Paris 1783-09-03 tanınmadır, ucu tarihlemez (Avalon alıntısı ic_not). Sabah Emre raporunda.",
+ "olcum": {
+  "toplam_kirilma": 37,
+  "1776-07-04": 12,
+  "1783-09-03": 25,
+  "abd_kunye_f": "1776-07-04 (devletler.js:6387)",
+  "D2_madde_1776-07-04": 17,
+  "D2_madde_1783-09-03": 34
+ },
+ "on_uc_koloni_1776": {
+  "New Amsterdam (New York)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1776-09-15",
+     "t": "1783-11-25"
+    }
+   ]
+  },
+  "Philadelphia": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1777-09-26",
+     "t": "1778-06-18"
+    }
+   ]
+  },
+  "Charleston (Charles Town)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1780-05-12",
+     "t": "1782-12-14",
+     "not": "günler kaynakla"
+    }
+   ]
+  },
+  "Savannah": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1778-12-29",
+     "t": "1782-07-11",
+     "not": "günler kaynakla"
+    }
+   ]
+  },
+  "Boston (Massachusetts)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "not": "İngiliz tahliyesi 1776-03-17 (ilan öncesi); isg gerekmez"
+    }
+   ]
+  },
+  "Fort Orange (Albany)": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Jamestown": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Plymouth (Massachusetts)": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Baltimore": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Big Lick (Roanoke)": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Draper's Meadow (Blacksburg)": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Werowocomoco (Powhatan Konfederasyonu Başkenti)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "not": "Virginia kolonisi içinde; yerli künye sorusu ayrı"
+    }
+   ]
+  },
+  "Pemaquid": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Falmouth (Portland, Maine)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "not": "1775-10-18 İngiliz bombardımanı (ilan öncesi), işgal yok"
+    }
+   ]
+  },
+  "Portsmouth (New Hampshire)": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Providence": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Hartford": {
+   "abd_f": "1776-07-04",
+   "ek": []
+  },
+  "Fort Duquesne (Pittsburgh)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "not": "Virginia/Pennsylvania; Avalon 1783-09-03 alıntısı ic_not"
+    }
+   ]
+  },
+  "Norfolk (Virginia)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "not": "1776-01-01 yakılış (ilan öncesi); 1779 ve 1781 İngiliz baskınları kısa — kaynakla"
+    }
+   ]
+  },
+  "Occaneechi (Hillsborough)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1781-02-22",
+     "t": "1781-02-25",
+     "not": "Cornwallis kısa işgali; kaynakla"
+    }
+   ]
+  },
+  "Wilmington (Kuzey Karolayna)": {
+   "abd_f": "1776-07-04",
+   "ek": [
+    {
+     "alan": "isg",
+     "d": "ingiltere",
+     "f": "1781-01-29",
+     "t": "1781-11-18",
+     "not": "günler kaynakla"
+    }
+   ]
+  }
+ },
+ "bati_karakollari_teslim": {
+  "Grand Portage": "İngiliz/NWC 1803'e dek fiilen; ABD teslim Jay sonrası (1796?) / fiilî 1803 — Duluth emsali, kaynakla",
+  "Chequamegon (La Pointe)": "EMRELİC: s: ojibwe → abd 1854-09-30 (La Pointe imzası)",
+  "Sault Ste. Marie": "ingiliz-kuzey-amerika; ABD 1796 Jay / fiilî 1820 (Fort Brady 1822) — kaynakla",
+  "Michilimackinac": "İngiliz teslimi 1796-09-01 (Jay) — kaynakla",
+  "La Baye (Green Bay)": "Duluth emsali: 1796 Jay / 1816 Fort Howard — r8_088 sonucu",
+  "Vincennes (Poste Vincennes)": "Clark 1779-02-25 alışı → Virginia (rakip hükûmet fiilî) — kaynakla",
+  "Kaskaskia": "Clark 1778-07-04 alışı → Virginia — kaynakla"
+ },
+ "yerli_konfederasyonlar_ayri_soru": [
+  "Onondaga (İrokua Konfederasyon Merkezi)",
+  "Mohawk (Kayenlaha'ke)",
+  "Seneca (Ganondagan)",
+  "Cayuga",
+  "Oneida",
+  "Norridgewock (Abenaki)",
+  "Etowah",
+  "Moundville",
+  "Mound Key (Kalusa başkenti)"
+ ]
+}
