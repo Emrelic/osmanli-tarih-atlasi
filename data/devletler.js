@@ -1209,7 +1209,7 @@ window.DEVLETLER = [
 // ========================= TIER 5 — KAFKASYA DEVLETLERİ =========================
 
 { id:"gurcistan", ad:"Gürcistan Krallığı/Krallıkları", tur:"krallik", bolge:"kafkasya",
-  f:"1008-01-01", t:"1801-09-12", baskent:"Tiflis", harita:"gurcistan",
+  f:"1008-01-01", t:"1801-09-24", baskent:"Tiflis", harita:"gurcistan",
   ozet:"Bagratlı hanedanının birleştirdiği, Kraliçe Tamar döneminde altın çağını yaşayan, 1490'da Kartli/Kaheti/İmereti'ye bölünen Kafkas krallığı; Osmanlı-Safevî çekişmesinde parçalandı, sonunda Rusya'ya ilhak edildi. (kaynak: TDV, madde: gurcistan)",
   kaynak:"gurcistan",
   kronoloji:[
@@ -1224,7 +1224,7 @@ window.DEVLETLER = [
     { t:"1590-03-21", tur:"toprak-kazanc", b:"Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi" },
     { t:"1762-01-01", tur:"birlesme", b:"II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı" },
     { t:"1783-08-04", tur:"antlasma", b:"Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi", kaynak:"Gürcüce: Georgian Soviet/National Encyclopedia «24 ივლისს (4 აგვ.)»; Rusça: Volkhonsky — Ağustos 1783", ic_not_takvim:"Jülyen 24 Temmuz 1783 = Gregoryen 4 Ağustos 1783 (çift teyit: Gürcüce + Rusça)" },
-    { t:"1801-09-12", tur:"son", b:"Kartli-Kaheti Krallığı Rusya tarafından ilhak edildi" }
+    { t:"1801-09-24", tur:"son", b:"Kartli-Kaheti Krallığı Rusya tarafından ilhak edildi" }
   ]
 },
 // VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `gurcistan` harita kimliği
@@ -1236,7 +1236,7 @@ window.DEVLETLER = [
 // akademik kaynak; Demokratik Cumhuriyet için TDV'nin kendi tarihleri
 // kullanıldı.
 { id:"imereti", ad:"İmereti Krallığı", tur:"krallik", bolge:"kafkasya",
-  f:"1490-01-01", t:"1810-02-20", baskent:"Kutaisi",
+  f:"1490-01-01", t:"1810-03-04", baskent:"Kutaisi",
   ozet:"Gürcistan Krallığı'nın 1490'da Kartli, Kaheti ve İmereti'ye bölünmesiyle doğan batı Gürcistan krallığı (bkz. [[gurcistan]]); Kartli-Kaheti'nin (1801) aksine 1810'a dek ayrı sürdü, Kral II. Solomon'un tahttan indirilmesiyle Rusya'ya ilhak edildi. ⚠️ TDV `gurcistan` maddesi yalnız \"Birkaç yıl içinde Megreliya (1803), İmeretiya ve Guriya (1804), Abhaz Knezliği (1810), Svanetiya (1856) Rusya ile birleşti.\" diyor — bu muhtemelen kesin ilhaktan önceki bir himaye/vasallık anlaşması; kesin ilhak tarihi (1810-02-20) standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -1247,7 +1247,7 @@ window.DEVLETLER = [
     { odak_yer:["Ahıska"], t:"1757-12-14", tur:"savas", b:"I. Solomon, Hresili'de Ahıska paşası komutasındaki Osmanlı ordusunu ve müttefiki asileri bozguna uğrattı.", kaynak:"İmereti Bölge Yönetimi tarih sayfası (1757) https://imereti.gov.ge/eng/static/97/regions/HISTORY ; gün: 14 Aralık 1757, travelguide.ge ve Hresili maddeleri" },
     { odak_yer:["Kutaisi"], t:"1784-01-01", tur:"hukumdar", b:"I. Solomon öldü; merkezî yönetim zayıfladı (ölüm 1784, ay-gün kaynaklarda farklı).", kaynak:"İmereti Bölge Yönetimi tarih sayfası https://imereti.gov.ge/eng/static/97/regions/HISTORY ; Britannica 'Georgia'" },
     { odak_yer:["Kutaisi"], t:"1804-01-01", tur:"antlasma", b:"Rusya ile bir birlik/himaye anlaşması imzalandı", ic_not_b:"eski b: Rusya ile bir birlik/himaye anlaşması imzalandı (TDV: \"birleşti\", ayrıntı yok)", kaynak:"TDV: gurcistan — «Birkaç yıl içinde Megreliya (1803), İmeretiya ve Guriya (1804), Abhaz Knezliği (1810), Svanetiya (1856) Rusya ile birleşti»" },
-    { odak_yer:["Kutaisi"], t:"1810-02-20", tur:"son", b:"Kral II. Solomon tahttan indirildi, Rusya krallığı kesin olarak ilhak etti" }
+    { odak_yer:["Kutaisi"], t:"1810-03-04", tur:"son", b:"Kral II. Solomon tahttan indirildi, Rusya krallığı kesin olarak ilhak etti" }
   ]
 },
 { id:"gurcistan-demokratik-cumhuriyeti", ad:"Gürcistan Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya",
@@ -10513,7 +10513,7 @@ window.DEVLETLER = [
     { odak_yer:["Niğbolu","Bursa","Vidin"], t:"1396-09-25", tur:"son", b:"Niğbolu zaferinden sonra Bayezid Vidin Prensliği'ni Osmanlı'ya kattı, Sracimir Bursa'ya götürüldü (katılma günü kaynakta yok; zafer günü verildi)", kaynak:"TDV `vidin`; TDV `nigbolu-savasi`" }
   ] },
 { id:"kartli-kralligi", ad:"Kartli Krallığı (1762'den Kartli-Kaheti)", tur:"krallik", bolge:"kafkasya",
-  f:"1484-01-01", t:"1801-09-12",
+  f:"1484-01-01", t:"1801-09-24",
   ozet:"Gürcistan'ın 15. yüzyıl sonunda bölünmesinden doğan Tiflis merkezli krallık; 1762'de Kaheti ile birleşti, 1801'de Rusya'ya ilhak edildi. gurcistan künyesi (1008-1801) aynı toprağı taşımayı sürdürür; harita rengi verilmedi.",
   kaynak:"f: Encyclopaedia Iranica 'KARTLI': 'From 1484 to 1762 Kartli was as a distinct political entity mostly dominated by Persia' (YIL) · t: TDV `gurcistan`: 'I. Pavel, 1800'de Kartli ve Kahet çarlığını feshedip 12 Eylül 1801 tarihli emirle Rusya'nın bir eyaleti ilân ederek'. Öneren: KRONO-KAFKAS-0929 + KUNYE-DUNYA-0929.",
   not:"30 Eylül 2026 KUNYE-UYGULA-0930. f: YIL kodlu ('ayrı siyasî birim' yılı, taç giyme günü değil). 0929 önerisinin 1490'ı hiçbir güvenilir kaynakta bulunamadı, kullanılmadı.",
@@ -10527,7 +10527,7 @@ window.DEVLETLER = [
     { odak_yer:["Duşeti"], t:"1783-01-01", tur:"vassal", b:"II. Irakli siyasi bağımsızlığının tanınması karşılığında Rusya'nın himayesini kabul eden antlaşmayı imzaladı.", kaynak:"TDV 'Gürcistan' https://islamansiklopedisi.org.tr/gurcistan (yalnız yıl)" },
     { odak_yer:["Tiflis"], t:"1795-01-01", tur:"savas", b:"Ağa Muhammed Han'ın Gürcistan seferi Tiflis'i ağır biçimde tahrip etti.", kaynak:"TDV 'Gürcistan' https://islamansiklopedisi.org.tr/gurcistan (yalnız yıl)" },
     { odak_yer:["Duşeti"], t:"1800-01-01", tur:"siyaset", b:"Çar I. Pavel Kartli-Kaheti krallığının feshini kararlaştırdı.", kaynak:"TDV 'Gürcistan' https://islamansiklopedisi.org.tr/gurcistan (yalnız yıl)" },
-    { odak_yer:["Duşeti"], t:"1801-09-12", tur:"son", b:"Çarın emriyle Kartli-Kaheti Rusya'nın bir eyaleti ilan edildi.", kaynak:"TDV 'Gürcistan' https://islamansiklopedisi.org.tr/gurcistan" }
+    { odak_yer:["Duşeti"], t:"1801-09-24", tur:"son", b:"Çarın emriyle Kartli-Kaheti Rusya'nın bir eyaleti ilan edildi.", kaynak:"TDV 'Gürcistan' https://islamansiklopedisi.org.tr/gurcistan" }
   ] },
 { id:"megrelya-prensligi", ad:"Megrelya (Dadyan / Odişi) Prensliği", tur:"prenslik", bolge:"kafkasya",
   f:"1555-05-29", t:"1857-01-01",

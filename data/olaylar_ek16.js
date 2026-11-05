@@ -430,9 +430,9 @@ window.OLAYLAR_EK16 = [
   d:"1798'de Mısır seferi yolunda Napolyon'un ele geçirdiği Malta, kısa süre sonra ada halkının ayaklanmasıyla İngiliz donanmasının deniz ablukasına girdi; iki yıl süren kuşatma ve açlık sonunda Fransız komutan General Vaubois, 5 Eylül 1800'de İngiliz General Pigot'a teslim oldu. Malta böylece Fransız Cumhuriyeti'nden İngiliz himayesine geçti ve 1814 Paris Antlaşması'yla resmen İngiliz tacına bağlanacaktı — Akdeniz'deki en önemli İngiliz deniz üssü hâline geldi.",
   kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Malta 1798-1800 tarihyazımı)", duygu:["😔"] },
 
-{ t:"1810-02-20", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi","konu-darbe"],
+{ t:"1810-03-04", ic_not_t:"20 Şubat 1810 O.S. → 4 Mart Gregoryen (KARARLAR gece-109; ESBE ipucu, BEYANLI; KASA PAZAR 5 Kasım 2026)", k:"siyaset", etiket:["toprak-kayip","konu-askeri","konu-siyasi","konu-darbe"],
   b:"İmereti Krallığı'nın ilhakı — Kral II. Solomon tahttan indirildi",
-  gun:"20 Şubat 1810",
+  gun:"4 Mart 1810",
   yer:"Kutaisi",
   yer_id:"Kutaisi", kisiler:"II. Solomon (İmereti), I. Aleksandr (Rusya)",
   d:"1804'te Elaznauri Sözleşmesi'yle Rus vasallığını kabul etmek zorunda kalan Batı Gürcü İmereti Krallığı'nın son kralı II. Solomon, artan Rus baskısına direnmeye devam edince, Rus birlikleri 20 Şubat 1810'da başkent Kutaisi'yi ele geçirdi, Solomon'u tahttan indirdi ve yerel soyluları Çar I. Aleksandr'a bağlılık yemini etmeye zorladı; İmereti Krallığı böylece fiilen sona erdi ve doğrudan Rus idaresine bağlandı. Solomon, Osmanlı topraklarına kaçarak sürgünde öldü (1815).",

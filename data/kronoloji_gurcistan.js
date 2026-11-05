@@ -279,7 +279,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"II. Herakli'nin ölümüyle Kartli-Kaheti tahtına oğlu XII. Georgi geçti; kısa süren bu son saltanat, üç yıl sonra Rusya'nın doğrudan ilhakıyla sona erecekti.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
-{ t:"1801-09-12", b:"Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı", tur:"son", onem:5, dunya:4, kapsam:"dis",
+{ t:"1801-09-24", b:"Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı", tur:"son", onem:5, dunya:4, kapsam:"dis",
   etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Tiflis",
   d:"Çar I. Aleksandr'ın 12 Eylül 1801 (Jülyen; Gregoryen karşılığı 24 Eylül — t alanı HAVVA koşusu sonrası toplu düzeltilecek) tarihli manifestosuyla Kartli-Kaheti Çarlığı feshedilip doğrudan Rusya'nın bir eyaleti ilan edildi; 793 yıl önce III. Bagrat'ın kurduğu Gürcistan Krallığı'nın son ve en büyük parçası böylece bağımsızlığını tamamen yitirdi. Bu ilhak, Osmanlı-İran-Rusya üçgeninde Transkafkasya'nın kalıcı olarak Rusya'ya geçişinin başlangıç noktasıdır.",
@@ -292,7 +292,7 @@ window.KRONOLOJI_GURCISTAN = [
   d:"Kartli-Kaheti'nin tam ilhakından üç yıl sonra İmereti ve Guriya da Rusya ile bir himaye/birleşme anlaşması imzaladı; TDV bu ilişkiyi ayrıntılandırmadan \\\"birleşti\\\" diye anıyor— muhtemelen kesin ilhaktan önceki bir vasallık anlaşmasıdır.", ic_not_d:"(bkz. devletler.js imereti künyesi notu)",
   kaynak:"gurcistan (TDV, madde: gurcistan — 'İmeretiya ve Guriya [1804]')" },
 
-{ t:"1810-02-20", b:"İmereti Krallığı'nın kesin ilhakı — Kral II. Solomon tahttan indirildi", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1810-03-04", b:"İmereti Krallığı'nın kesin ilhakı — Kral II. Solomon tahttan indirildi", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi","konu-darbe"],
   yer_id:"Kutaisi",
   d:"Artan Rus baskısına direnmeye devam eden İmereti Krallığı'nın son kralı II. Solomon, Rus birliklerinin başkent Kutaisi'yi ele geçirmesiyle tahttan indirildi. İmereti böylece fiilen sona erdi ve doğrudan Rus idaresine bağlandı; Solomon, Osmanlı topraklarına kaçarak sürgünde öldü (1815).",
