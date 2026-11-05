@@ -1,0 +1,750 @@
+{
+ "Palenque": [
+  {
+   "sira": 2209,
+   "dosya": "data/yerlesimler_dogu_500_1281.js:1473",
+   "alan": "s",
+   "d": "palenque-baak",
+   "f": "0431-03-10",
+   "t": "0799-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: UNESCO WHC 411 (sayfa.py, f tarihlemiyor); Martin & Grube 2008 çevrimiçi yok; mesoweb 404 (önceki tur).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Önceki BAKILMADI -> BULUNAMADI (bu turda UNESCO okundu, f 0431-03-10 ve t 0799 tarihlemiyor). Künye palenque-baak f 0431-01-01 (yerleşim f 0431-03-10, hizasız; künye aşımı yok). Uzun Sayım -> mîlâdî çevirisi GMT korelasyonuna bağlı, ic_not'ta beyan şart. Akademik kaynak açık: Martin & Grube (2008), Chronicle of the Maya Kings and Queens."
+  },
+  {
+   "sira": 2210,
+   "dosya": "data/yerlesimler_dogu_500_1281.js:1473",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0799-01-01",
+   "t": "0851-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "UNESCO World Heritage Centre, 'Pre-Hispanic City and National Park of Palenque' (No. 411) https://whc.unesco.org/en/list/411 (sayfa.py ham)",
+   "alinti": "Once the ancient city of Palenque was abandoned around the 9th century",
+   "oneri": {
+    "t": "terk 9. yy'da (kaynak yıl vermiyor); merdiven ④: kaynak 'uninhabited from its abandonment until the Colonial period' der -> 851 bitişi kaynaksız uydurma-riski, terk yılı Martin & Grube / Mesoweb ile bulunmalı; o zamana dek BEYANLI BOŞLUK sürer"
+   },
+   "not": "Alıntı terkin 9. yy olduğunu söyler ama 799 sonrası siyasi sahibi ve t 851'i tarihlemez -> KAYNAKLI değil, ONERI. Terk sonrası dilimin hiç yerleşim saymaması gerekir (merdiven ④: dönemi KIRP); kırpma günü/yılı kaynaksız olduğundan öneri yalnız yöndür. Alıntı özetinin 'uninhabited ... until the Colonial period' kısmı da teyit eder."
+  }
+ ],
+ "San Salvador": [
+  {
+   "sira": 1938,
+   "dosya": "data/yerlesimler_halef_1946.js:9",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, Office of the Historian, 'Recognition ...: El Salvador' https://history.state.gov/countries/el-salvador (sayfa.py ham)",
+   "alinti": "El Salvador declared itself an independent republic in 1839",
+   "oneri": {
+    "f": "yıl çelişkisi: history.state.gov 1839 ('independent republic'), künye f 1841-01-01 (yıl; anayasa 1841-02-18 gün kaynakla) — seçilmedi, ic_not'ta iki kaynağıyla beyan",
+    "bolme": "ek dilimler (San Salvador #ek): ispanya (kuruluş) -> guatemala-kaptanligi 1609-01-01 -> 1821-09-15 -> meksika 1822 (yerel direniş, fiilî) -> orta-amerika-federasyonu 1823-07-01 -> 1838-05-30 -> 1838-1841 beyanlı boşluk"
+   },
+   "not": "Önceki ONERI zincirsizdi; gerçek zincir yalnız 1841'den başlıyor (başkent 1841 öncesi sahipsiz, 6g). Künyeler ölçüldü: ispanya f 1479-01-19 (açık), guatemala-kaptanligi 1609-01-01..1821-09-15, meksika f 1821-09-27 (açık), orta-amerika-federasyonu 1823-07-01..1838-05-30, el-salvador-cumhuriyeti f 1841-01-01. Alıntı 1841 f'sini değil bağımsız cumhuriyet ilanını tarihliyor -> ONERI. F-GERİ yazılmadı: kuruluş (1525/1528) kaynağı bu turda okunamadı (6g (i) şartı)."
+  }
+ ],
+ "Codrington (Barbuda)": [
+  {
+   "sira": 2150,
+   "dosya": "data/yerlesimler_halef_1946.js:129",
+   "alan": "s",
+   "d": "antigua-barbuda",
+   "f": "1981-11-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, 'Recognition ...: Antigua and Barbuda' https://history.state.gov/countries/antigua-barbuda (sayfa.py ham, önceki tur)",
+   "alinti": "Antigua and Barbuda became an independent state within the Commonwealth of Nations on November 1, 1981",
+   "oneri": {
+    "bolme": "ek dilim: ingiltere 1685 -> 1981-11-01 (Codrington Barbuda #ek)"
+   },
+   "not": "KAYNAKLI korunur (devletin kendi resmî yayını, bağımsızlık günü; alıntı önceki turdan, bu turda URL'si 404 verdi -> sayfa.py ile yeniden okunamadı: YENİDEN DOĞRULAMA BORCU). Zincir yalnız 1981'den başlıyor: Codrington 1981 öncesi sahipsiz (6g).",
+   "f_geri": {
+    "eski_f": "1981-11-01",
+    "yeni_f": "1685-01-01",
+    "sahip": "ingiltere",
+    "kaynak": "barbudaful.net / Barbuda tarihçeleri (arama özeti, ham okunmadı) — UYGULANMAZ, kaynak borcu"
+   }
+  }
+ ],
+ "Hillsborough (Carriacou)": [
+  {
+   "sira": 2173,
+   "dosya": "data/yerlesimler_halef_1946.js:125",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "recognized Grenada on February 7, 1974, on the occasion of Grenada attaining independence",
+   "oneri": {
+    "bolme": "alt zincir ölçüldü: ingiltere 1763-02-10..1958-01-03 -> bati-hint-federasyonu -> ingiltere 1962-05-31 -> grenada 1974-02-07 -> ... ek dilimler (ad #ek)"
+   },
+   "not": "Zincir ölçümü: girdi ayrıştırıcısı (ON5-GIRDI.json). Önceki KAYNAKLI zincirsizdi. Alıntı bağımsızlık gününü ABD'nin tanıma cümlesi üzerinden verir ('tanıma cümlesi' çekincesi: LAB PAZAR ölçütü) -> f için ONERI (ikinci kaynak: UK bağımsızlık metni/Grenada Independence Act). t 1979-03-13 (NJM darbesi) bu turda okunmadı; öteki uç teyitsiz."
+  },
+  {
+   "sira": 2174,
+   "dosya": "data/yerlesimler_halef_1946.js:125",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "t": "1983-10-25 (künye t ile hiza; Urgent Fury başlangıcı — gün için ham kaynak okunamadı: jcs.mil robots yasağı)",
+    "bolme": "1983-10-25 -> ~1983-12 (gün kaynakla) isg abd; altında s: grenada"
+   },
+   "not": "Dönem t 1983-10-26 vs künye grenada-devrimci-hukumet t 1983-10-25 (1 gün uyumsuzluk, KÜNYE AŞIMI yok: dönem künyeden 1 gün UZUN). Alıntı yalnız 1983 işgalini tarihliyor (gün yok) -> ONERI. TEK KURAL: savaş işgali -> isg abd (OECS katılımı ic_not). 1979-03-13 f okunmadı."
+  },
+  {
+   "sira": 2175,
+   "dosya": "data/yerlesimler_halef_1946.js:125",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "f": "1983-10-25 (önceki dilimle bitişik; isg abd altında s: grenada sürer)"
+   },
+   "not": "Alıntı f gününü vermez, yalnız olayı (1983 işgali). Genel Vali Scoon yetkisi ve işgalin sonu (ABD muharip birliği çekilişi ~1983-12) kaynaksız."
+  }
+ ],
+ "St. George's": [
+  {
+   "sira": 2231,
+   "dosya": "data/yerlesimler_halef_1946.js:122",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "recognized Grenada on February 7, 1974, on the occasion of Grenada attaining independence",
+   "oneri": {
+    "bolme": "alt zincir ölçüldü: ingiltere 1763-02-10..1958-01-03 -> bati-hint-federasyonu -> ingiltere 1962-05-31 -> grenada 1974-02-07 -> ... ek dilimler (ad #ek)"
+   },
+   "not": "Zincir ölçümü: girdi ayrıştırıcısı (ON5-GIRDI.json). Önceki KAYNAKLI zincirsizdi. Alıntı bağımsızlık gününü ABD'nin tanıma cümlesi üzerinden verir ('tanıma cümlesi' çekincesi: LAB PAZAR ölçütü) -> f için ONERI (ikinci kaynak: UK bağımsızlık metni/Grenada Independence Act). t 1979-03-13 (NJM darbesi) bu turda okunmadı; öteki uç teyitsiz."
+  },
+  {
+   "sira": 2232,
+   "dosya": "data/yerlesimler_halef_1946.js:122",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "t": "1983-10-25 (künye t ile hiza; Urgent Fury başlangıcı — gün için ham kaynak okunamadı: jcs.mil robots yasağı)",
+    "bolme": "1983-10-25 -> ~1983-12 (gün kaynakla) isg abd; altında s: grenada"
+   },
+   "not": "Dönem t 1983-10-26 vs künye grenada-devrimci-hukumet t 1983-10-25 (1 gün uyumsuzluk, KÜNYE AŞIMI yok: dönem künyeden 1 gün UZUN). Alıntı yalnız 1983 işgalini tarihliyor (gün yok) -> ONERI. TEK KURAL: savaş işgali -> isg abd (OECS katılımı ic_not). 1979-03-13 f okunmadı."
+  },
+  {
+   "sira": 2233,
+   "dosya": "data/yerlesimler_halef_1946.js:122",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, 'Recognition ...: Grenada' https://history.state.gov/countries/grenada (sayfa.py ham)",
+   "alinti": "1983 joint American and Organization of Eastern Caribbean States military invasion",
+   "oneri": {
+    "f": "1983-10-25 (önceki dilimle bitişik; isg abd altında s: grenada sürer)"
+   },
+   "not": "Alıntı f gününü vermez, yalnız olayı (1983 işgali). Genel Vali Scoon yetkisi ve işgalin sonu (ABD muharip birliği çekilişi ~1983-12) kaynaksız."
+  }
+ ],
+ "Portsmouth (Dominika)": [
+  {
+   "sira": 2214,
+   "dosya": "data/yerlesimler_halef_1946.js:126",
+   "alan": "s",
+   "d": "dominika",
+   "f": "1978-11-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, 'Recognition ...: Dominica' https://history.state.gov/countries/dominica (sayfa.py ham)",
+   "alinti": "Great Britain granted independence to the Commonwealth of Dominica on November 3, 1978.",
+   "oneri": {
+    "bolme": "ek dilimler: ingiltere 1763 -> 1778 isg fransa -> 1783 ingiltere (Portsmouth #ek)"
+   },
+   "not": "KAYNAKLI korunur (bağımsızlık günü verilmiş, bu turda yeniden okundu). Yerleşim 1978 öncesi sahipsiz (6g): kaynaksız ADAY dilimler 'Portsmouth #ek'.",
+   "f_geri": {
+    "eski_f": "1978-11-03",
+    "yeni_f": "1763-02-10",
+    "sahip": "ingiltere",
+    "kaynak": "UYGULANMAZ: Portsmouth'un kuruluşu (1765?) kaynakla okunmadı"
+   }
+  }
+ ],
+ "Praia": [
+  {
+   "sira": 2215,
+   "dosya": "data/yerlesimler_halef_1946.js:42",
+   "alan": "s",
+   "d": "yesilburun",
+   "f": "1975-07-05",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "history.state.gov, Office of the Historian, 'Recognition ...: Cabo Verde (Cape Verde)' https://history.state.gov/countries/cape-verde (sayfa.py ham)",
+   "alinti": "The United States recognized the Republic of Cape Verde on July 5, 1975",
+   "oneri": {
+    "bolme": "ek dilim: portekiz (kuruluş) -> 1975-07-05 (Praia #ek)"
+   },
+   "not": "Alıntı tanıma gününü tarihliyor (bağımsızlık günü değil) -> f ONERI; ikinci kaynak: Portekiz/Cabo Verde bağımsızlık metni. 1974-12-19 Lusaka geçiş hükümeti ic_not adayı. Önceki ONERI aynı.",
+   "f_geri": {
+    "eski_f": "1975-07-05",
+    "yeni_f": "1615-01-01",
+    "sahip": "portekiz",
+    "kaynak": "UYGULANMAZ: Praia kuruluş yılı kaynaklarda 1516/1613/1615 çelişir (arama özetleri, ham okunmadı)"
+   }
+  }
+ ],
+ "Tórshavn": [
+  {
+   "sira": 2243,
+   "dosya": "data/yerlesimler_halef_1946.js:109",
+   "alan": "s",
+   "d": "feroe-adalari",
+   "f": "1948-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Den Store Danske / lex.dk, 'Færøernes historie' https://lex.dk/F%C3%A6r%C3%B8ernes_historie (önceki tur, sayfa.py); lex.dk 'Færøerne' https://lex.dk/F%C3%A6r%C3%B8erne (bu tur ham: Hjemmestyreloven 23. marts 1948)",
+   "alinti": "en hjemmestyreordning, der trådte i kraft i 1948.",
+   "oneri": {
+    "bolme": "ek dilimler (Tórshavn #ek): isg ingiltere 1940-04-12 (snl.no); zincir 1035/1537/1814 teyit"
+   },
+   "not": "YIL düzeyi KAYNAKLI (gün 1948-04-01 yok; lex.dk 'Lov om Færøernes hjemmestyre af 23. marts 1948'). ZİNCİR ÖLÇÜMÜ (KARAR UYGUN): norvec-kralligi 1035-01-01 -> 1537-01-01 danimarka -> 1948-04-01 feroe-adalari; Bergen zinciriyle uyumlu (1537). snl.no: 'Ved Kielfreden i 1814 forble Færøyene i det danske riket' -> danimarka sürer (1814 geçişi YOK, ic_not). lex.dk 'fra 1035 ... norsk skatteområde, indtil de i 1380 sammen med Norge blev en del af det danske rige' = şahsî birlik, ic_not (Faroe Norveç anakarası zincirini izler: karar). snl.no 1709 'direkte dansk administrasjon'. feroe-adalari bir statü künyesidir (Danimarka egemenliği sürer): sınıf sorusu ic_not. Tórshavn Viking çağında ting yeri (snl.no) -> 1035 öncesi var: F-GERİ adayı, 1035 öncesi sahip yok (beyanlı boşluk)."
+  }
+ ],
+ "Vágur": [
+  {
+   "sira": 2250,
+   "dosya": "data/yerlesimler_halef_1946.js:111",
+   "alan": "s",
+   "d": "feroe-adalari",
+   "f": "1948-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "lex.dk 'Færøerne' https://lex.dk/F%C3%A6r%C3%B8erne (sayfa.py ham); lex.dk 'Vágur' https://lex.dk/V%C3%A1gur (ham: kuruluşu tarihlemiyor)",
+   "alinti": "Lov om Færøernes hjemmestyre af 23. marts 1948",
+   "oneri": {
+    "bolme": "Vágur #ek: Tórshavn zinciri (norvec-kralligi 1035 -> danimarka 1537 -> 1948-04-01), isg ingiltere 1940-04-12"
+   },
+   "not": "Dönem ülke düzeyinde Tórshavn ile aynı, ama yerleşim 1948 öncesi sahipsiz (6g). lex.dk Vágur maddesi kuruluş/ilk anılış tarihi vermiyor -> f_geri uygulanmaz (6g (i)). Kur 1948-04-01 künye f'sidir (kuruluş değil). Karar: Suðuroy köyü, Faroe zincirini izler."
+  }
+ ],
+ "Saint Helier (Jersey)": [
+  {
+   "sira": 2219,
+   "dosya": "data/yerlesimler_nokta2.js:20",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Government of Jersey, 'Liberation history' https://www.gov.je/Leisure/Liberation/pages/liberationhistory.aspx (sayfa.py ham)",
+   "alinti": "Jersey was not to be liberated until a day later on 9 May 1945",
+   "oneri": {
+    "bolme": "1940-07-01 -> 1945-05-09 isg almanya (kanal-adalari altta sürer) — Saint Helier #ek KAYNAKLI"
+   },
+   "not": "İsg uçları KAYNAKLI (resmî yayın; ham: 'occupying force arrived on 1 July 1940', 9 Mayıs 1945). Dönemin kendisi bölünür -> ONERI. f 1204 (Normandiya'nın kaybı) okunmadı. almanya künyesi f 0962-02-02..1945-06-05 ✔ (isg 1940-45 künye içinde). 28 Haziran 1940 bombardıman ic_not. 1461-1468 Fransız işgali (Mont Orgueil) kontrol adayı, kaynaksız."
+  }
+ ],
+ "Saint Peter Port (Guernsey)": [
+  {
+   "sira": 2220,
+   "dosya": "data/yerlesimler_nokta2.js:21",
+   "alan": "s",
+   "d": "kanal-adalari",
+   "f": "1204-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Jersey Heritage/gov.je (Jersey için ham okundu); Guernsey: liberationday.gg erişilemedi (getaddrinfo), history.gg ham metinde gün yok",
+   "alinti": "",
+   "oneri": {
+    "bolme": "1940-06-30 -> 1945-05-09 isg almanya (Guernsey günü kaynakla) — Saint Peter Port #ek"
+   },
+   "not": "Aynı işgal; Guernsey'in kendi günü (30 Haziran inişi / 1 Temmuz bayrak) arama özetinde var ama ham okunamadı -> ONERI. 9 Mayıs 1945 kurtuluş (HMS Bulldog) özet. 1338-1345 Fransız işgali (Castle Cornet) kontrol adayı, kaynaksız."
+  }
+ ],
+ "Saumur": [
+  {
+   "sira": 2223,
+   "dosya": "data/yerlesimler_nokta2.js:14",
+   "alan": "s",
+   "d": "anjou-kontlugu",
+   "f": "1026-01-01",
+   "t": "1203-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "lex.dk 'Saumur' https://lex.dk/Saumur (Den Store Danske; sayfa.py ham)",
+   "alinti": "men kom i 1025 under greven af Anjou",
+   "oneri": {
+    "f": "1025-01-01 (yıl düzeyi; lex.dk) — atlas 1026 yıl; Fulk Nerra'nın alışı kaynak çelişkisi: ikinci akademik kaynak (Bachrach, Fulk Nerra) gerek",
+    "bolme": "öncül dilim: Blois kontluğu -> 1025/1026 (künye blois-kontlugu YOK: künye adayı)"
+   },
+   "not": "Önceki BAKILMADI. lex.dk ve atlas arasında 1 yıl fark (1025 vs 1026) -> ONERI, seçilmedi. t 1203-01-01 teyitsiz (künye anjou t 1204-01-01; dönem künyeden önce bitiyor, KÜNYE AŞIMI yok). Öncül: 'tilhørte oprindelig greverne af Blois' (lex.dk) -> Saumur 1025/26 öncesi sahipsiz; blois-kontlugu künyesi devletler.js'te YOK -> künye açılması ya da abi merkez zinciri (Emre kararı)."
+  },
+  {
+   "sira": 2224,
+   "dosya": "data/yerlesimler_nokta2.js:14",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1203-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "E4-BILINEN-KARARLAR.md (Fransa Cumhuriyeti 1792-09-21) — kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "t": "1792-09-21 mi 1792-09-22 mi: hiza kararı Emre'de (künye fransa t 1792-09-22, E4-BILINEN 'Fransa Cumhuriyeti 1792-09-21')"
+   },
+   "not": "Önceki BAKILMADI -> bu turda gün çelişkisi ölçüldü: dönem t = künye t = 1792-09-22 (hizalı); bilinen kararlar listesi 09-21 yazıyor. 22 Eylül 1792 Cumhuriyet'in ilk günü kabulüyle hizalı; karar Emre'de. f 1203-01-01: Philippe Auguste'ün Anjou'yu alışı 1203-1204 (kaynak okunmadı), anjou-kontlugu künye t 1204-01-01 ile dönem f 1203 arasında 1 yıl boşluk/çakışma sorusu."
+  }
+ ],
+ "Bir Lahlu (Bir Lehlou)": [
+  {
+   "sira": 2133,
+   "dosya": "data/yerlesimler_halef_1946.js:15",
+   "alan": "s",
+   "d": "sahra-arap-demokratik-cumhuriyeti",
+   "f": "1976-02-27",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "lex.dk 'Vestsahara' https://lex.dk/Vestsahara (Den Store Danske; sayfa.py ham)",
+   "alinti": "Polisario udråbte i februar 1976 en ’stat i eksil’",
+   "oneri": {
+    "bolme": "ek dilim: ispanyol-sahra -> 1976-02-26; 1975-76 Fas/Moritanya ilhak iddiası (Bir Lahlu #ek)"
+   },
+   "not": "AY düzeyi teyit (Şubat 1976), gün 27 teyitsiz -> ONERI. lex.dk 'Marokko rykkede i november 1975 ind' ve 'Marokkos og Mauretaniens annektering i 1975-1976' -> Bir Lahlu 1975-11 / 1976-02 arası sahibi kaynakla: yerleşim düzeyinde belirsiz, rakip hükûmet kuralı (fiilî kontrol esas). Künye sahra-arap-demokratik-cumhuriyeti f 1976-02-27. Yerleşim 1976 öncesi sahipsiz."
+  }
+ ],
+ "Frankfurt (Oder)": [
+  {
+   "sira": 2164,
+   "dosya": "data/yerlesimler_halef_1946.js:69",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "lex.dk 'Frankfurt an der Oder' https://lex.dk/Frankfurt_an_der_Oder (Den Store Danske; sayfa.py ham)",
+   "alinti": "Frankfurt an der Oder blev grundlagt i 1253",
+   "oneri": {
+    "f": "1253-01-01 (yıl; kuruluş) — dönem f 1949-10-07 künye f'sidir, kuruluş değil",
+    "bolme": "1990-10-03 -> s: almanya-birlesik (künye ✔); öncesi zincir Frankfurt (Oder) #ek"
+   },
+   "not": "ZİNCİR ÖLÇÜMÜ: tek dönem (DDR). Kayıt yerlesimler_halef_1946.js:69 (yerlesimler.js:1243 Frankfurt am Main'dir, ayrı). Emre kararına uygun: 1990-10-03 sonrası D1 deliği -> almanya-birlesik (f 1990-10-03 ✔) ve DDR öncesi: brandenburg-markgrafligi -> brandenburg-prusya -> prusya -> almanya -> almanya-muttefik-isgali (Berlin kaydı yerlesimler.js:1240 ile birebir kalıp). F-GERİ: sahip brandenburg-markgrafligi (künye 1157-01-01..1701-01-01 ✔ 1253'ü kapsar). lex.dk: 'Langvarig sovjetisk belejring ødelagde byen næsten totalt i april 1945' (Kızıl Ordu girişi Nisan 1945; 22/23 Nisan günü ham değil, arama özeti). Potsdam: Dammvorstadt Słubice oldu (kaynak özeti).",
+   "f_geri": {
+    "eski_f": "1949-10-07",
+    "yeni_f": "1253-01-01",
+    "sahip": "brandenburg-markgrafligi",
+    "kaynak": "lex.dk 'Frankfurt an der Oder': «blev grundlagt i 1253»"
+   }
+  }
+ ],
+ "Schwerin": [
+  {
+   "sira": 2225,
+   "dosya": "data/yerlesimler_halef_1946.js:66",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "lex.dk 'Schwerin' https://lex.dk/Schwerin (Den Store Danske; sayfa.py ham)",
+   "alinti": "Henrik Løve i 1160 erobrede en vendisk borg på stedet",
+   "oneri": {
+    "f": "1160-01-01 (BEYANLI ALT SINIR; yerde Slav kalesi daha eski: 1018 'Zuarin' anılışı arama özeti)",
+    "bolme": "1990-10-03 -> s: almanya-birlesik; öncesi Schwerin #ek"
+   },
+   "not": "ZİNCİR ÖLÇÜMÜ: tek dönem (DDR); 1990 sonrası D1 deliği -> almanya-birlesik ✔. 1949 öncesi zincir YOK: Rostock kaydı kalıbı (almanya 1281-01-01..1945-06-05 -> almanya-muttefik-isgali -> DDR) uygulanır; 1945-05-02 ABD, 1945-06 İngiliz, 1945-07-01 Sovyet devri arama özeti (cavac.at; ham değil) -> ic_not. lex.dk 'I 1945 oprettede den sovjetiske besættelsesmagt delstaten Mecklenburg-Vorpommern med Schwerin som Landeshauptstadt'. Not: Schwerin 1358'e dek ayrı kontluktur (Mecklenburg dükalığına değil, Alman Krallığı); mecklenburg künyesi 1167-01-01..1918-11-01 ✔, mecklenburg-schwerin 1815-06-17..1934-01-01 ✔ (büyük dukalık dönemi 1815 sonrası için daha uygun, sınıf sorusu).",
+   "f_geri": {
+    "eski_f": "1949-10-07",
+    "yeni_f": "1160-01-01",
+    "sahip": "saksonya-dukaligi",
+    "kaynak": "lex.dk 'Schwerin': «Henrik Løve i 1160 erobrede en vendisk borg på stedet og grundlagde grevskabet Schwerin og et bispesæde»"
+   }
+  }
+ ],
+ "San Salvador #ek": [
+  {
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1525-01-01",
+   "t": "1609-01-01",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "YALNIZ YIL ve KAYNAKSIZ (kuruluş 1525/1528 iddiası okunmadı) -> f_geri uygulanmaz, BEYANLI ALT SINIR adayı. Künye ispanya f 1479-01-19 açık ✔; yeni-ispanya t 1821-09-27 ile alternatif (Guatemala Audiencia) -> sınıf sorusu."
+  },
+  {
+   "alan": "s",
+   "d": "guatemala-kaptanligi",
+   "f": "1609-01-01",
+   "t": "1821-09-15",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Künye aralığı birebir (1609-01-01..1821-09-15 ✔). Kaynak okunmadı."
+  },
+  {
+   "alan": "s",
+   "d": "meksika",
+   "f": "1822-01-01",
+   "t": "1823-07-01",
+   "hukum": "ADAY",
+   "kaynak": "history.state.gov El Salvador: 'In 1821, El Salvador and the other Central American provinces declared their independence from Spain.' (ham, okundu; 1822 ilhakı YOK)",
+   "alinti": "In 1821, El Salvador and the other Central American provinces declared their independence from Spain.",
+   "not": "1821-09-15 sonrası ilk dilim: kaynak 1821 bağımsızlığı verir, Meksika ilhakını vermez. 1822 Meksika İmparatorluğu ilhakı San Salvador'da reddedildi (fiilî kontrol esas) -> kaynakla doğrulanmadan YAZILMAZ; kaynak bulunamazsa 1821-09-15..1823-07-01 beyanlı boşluk. meksika künyesi f 1821-09-27 açık."
+  },
+  {
+   "alan": "s",
+   "d": "orta-amerika-federasyonu",
+   "f": "1823-07-01",
+   "t": "1838-05-30",
+   "hukum": "ADAY",
+   "kaynak": "history.state.gov El Salvador: 'In 1823, the United Provinces of Central America was formed ...'",
+   "alinti": "In 1823, the United Provinces of Central America was formed",
+   "not": "Yıl düzeyi teyit (künye f 1823-07-01 gün). Künye aralığı birebir ✔."
+  }
+ ],
+ "Codrington (Barbuda) #ek": [
+  {
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1685-01-01",
+   "t": "1981-11-01",
+   "hukum": "ADAY",
+   "kaynak": "Codrington kirası 1684/1685 (barbudaful.net, Barbuda tarihi) — arama özeti, ham okunmadı",
+   "alinti": "",
+   "not": "Kasaba Codrington kardeşlerin kirasıyla (Ocak 1685) anılır; bazı anlatımlar 1666'dan köy der (azınlık). ingiltere künyesi f 0927-01-01 açık ✔. 1860-08-01 Antigua ile birleşme alt-polity ic_not. Kaynak ham okunmadı -> ADAY, f_geri yazılmaz (6g (i))."
+  }
+ ],
+ "Hillsborough (Carriacou) #ek": [
+  {
+   "alan": "isg",
+   "d": "abd",
+   "f": "1983-10-25",
+   "t": "1983-12-15",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "isg abd (TEK KURAL). Bitiş günü (ABD muharip birliklerinin çekilişi 1983-12) bu turda ham kaynakla doğrulanamadı: jcs.mil robots yasağı, history.state.gov alıntısı gün vermiyor. 12-15 hafızadan: KAYNAKLA DOĞRULANMADAN YAZILMAZ. abd künyesi f 1776-07-04 açık ✔. alan: isg"
+  },
+  {
+   "alan": "s",
+   "d": "fransa",
+   "f": "",
+   "t": "1763-02-10",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Carriacou'da Fransız yerleşiminin ilk günü/yılı kaynaksız; 'yıl bilinmiyor' -> f boş (uydurma yok). 6g: ilk dilim sahibi kaynaklı değilse f_geri uygulanmaz."
+  }
+ ],
+ "St. George's #ek": [
+  {
+   "alan": "isg",
+   "d": "abd",
+   "f": "1983-10-25",
+   "t": "1983-12-15",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "isg abd (TEK KURAL). Bitiş günü (ABD muharip birliklerinin çekilişi 1983-12) bu turda ham kaynakla doğrulanamadı: jcs.mil robots yasağı, history.state.gov alıntısı gün vermiyor. 12-15 hafızadan: KAYNAKLA DOĞRULANMADAN YAZILMAZ. abd künyesi f 1776-07-04 açık ✔. alan: isg"
+  },
+  {
+   "alan": "isg",
+   "d": "fransa",
+   "f": "1779-07-04",
+   "t": "1783-09-03",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "isg fransa (Fransız işgali; zincirde yok). Gün kaynaksız (hafızadan), TEK ÖLÇÜ: Versailles 1783-09-03 imza, fiilî devir ayrı. fransa künyesi 0987-07-03..1792-09-22 ✔. alan: isg"
+  },
+  {
+   "alan": "s",
+   "d": "fransa",
+   "f": "1650-01-01",
+   "t": "1763-02-10",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Fransız kolonisi (Fort St George): kuruluş yılı ve Paris 1763-02-10 devri zincirdeki ingiltere f ile uyumlu; kaynak okunmadı. Hillsborough için geçerli değil (Carriacou yerleşimi kaynakla)."
+  }
+ ],
+ "Portsmouth (Dominika) #ek": [
+  {
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1778-09-07",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Paris Antlaşması 1763 (Dominika İngiltere'ye): ülke düzeyi, kaynak okunmadı. Portsmouth'un o devirde var olması (merdiven ④) yerleşim kaynağıyla doğrulanmalı (1765/1774 kale tarihleri çelişir)."
+  },
+  {
+   "alan": "isg",
+   "d": "fransa",
+   "f": "1778-09-07",
+   "t": "1783-09-03",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "isg fransa: Bouillé'nin 1778-09-07 çıkarması (arama özeti, ham okunmadı) -> Versailles 1783-09-03; bazı özetler 1784'e kadar Fransız der. Gün kaynakla. alan: isg"
+  },
+  {
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1783-09-03",
+   "t": "1978-11-03",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Versailles'tan sonra Britanya (1805 Fransız baskını kısa, kaynakla). Britanya Batı Hint Federasyonu 1958-62 (bati-hint-federasyonu) bu kayıt için de geçerli olabilir (Dominika üyeydi), kaynak okunmadı."
+  }
+ ],
+ "Praia #ek": [
+  {
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1615-01-01",
+   "t": "1975-07-05",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Kuruluş 1516 / 1613 / 1615 çelişir (Praia de Santa Maria); başkent 1770, şehir statüsü 1858 (statü f değildir). portekiz künyesi f 1097-01-01 açık ✔ (Portekiz Yeşilburun künyesi ayrı yok). Kaynak ham okunmadı -> f_geri uygulanmaz."
+  }
+ ],
+ "Tórshavn #ek": [
+  {
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1035-01-01",
+   "t": "1537-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "snl.no 'Færøyene' https://snl.no/F%C3%A6r%C3%B8yene (sayfa.py ham) + lex.dk 'Færøerne' (çift teyit)",
+   "alinti": "I 1035 ble Færøyene norsk skattland under den norske kronen.",
+   "not": "ÇİFT TEYİT: snl.no 'I 1035 ... norsk skattland'; lex.dk 'Færøerne var fra 1035 et norsk skattområde'. Mevcut zincir dilimi doğrulandı (yıl). 1380 Danimarka tacı = şahsî birlik, 1537 geçişi atlas kuralı (Bergen)."
+  },
+  {
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1940-04-12",
+   "t": "",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, 'Færøyene' https://snl.no/F%C3%A6r%C3%B8yene (sayfa.py ham)",
+   "alinti": "besatte britene (med færøyingenes velvilje) Færøyene 12. april 1940",
+   "not": "isg ingiltere f KAYNAKLI (gün). Bitiş (1945) kaynaksız -> t boş; kaynakla. Danimarka egemenliği sürer, işgal Faroe halkının rızasıyla: TEK KURAL (savaş işgali) -> isg, ic_not'a rıza. alan: isg"
+  }
+ ],
+ "Vágur #ek": [
+  {
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "",
+   "t": "1537-01-01",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Vágur'un ilk anılışı/kuruluşu kaynakla bulunamadı -> f BOŞ (uydurma yok); 'yıl bilinmiyor' kuralı. Zincir sonrası kısım Tórshavn ile aynı: danimarka 1537-01-01..1948-04-01 (Kiel 1814'te Danimarka'da kaldı, ic_not), isg ingiltere 1940-04-12 (snl.no, KAYNAKLI) ..., feroe-adalari 1948-04-01."
+  }
+ ],
+ "Saint Helier (Jersey) #ek": [
+  {
+   "alan": "isg",
+   "d": "almanya",
+   "f": "1940-07-01",
+   "t": "1945-05-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Government of Jersey, 'Liberation history' https://www.gov.je/Leisure/Liberation/pages/liberationhistory.aspx (sayfa.py ham)",
+   "alinti": "when the occupying force arrived on 1 July 1940",
+   "not": "f 1940-07-01 (alıntı) ve t 1945-05-09 (alıntı: 'Jersey was not to be liberated until a day later on 9 May 1945, when British troops arrived in HMS Beagle'). Vikipedi 30 Haziran der; resmî yayın 1 Temmuz (çelişki ic_not). alan: isg"
+  },
+  {
+   "alan": "s",
+   "d": "normandiya",
+   "f": "",
+   "t": "1204-01-01",
+   "hukum": "ADAY",
+   "kaynak": "",
+   "alinti": "",
+   "not": "1204 öncesi: Normandiya Dükalığı (künye 0911-01-01..1204-06-24 ✔), adalar 1204'te Fransa'ya geçmedi; f yılı (933?) kaynaksız -> BOŞ. Künye t 1204-06-24 vs dönem f 1204-01-01 arasında 5 aylık örtüşme: sınıf sorusu."
+  }
+ ],
+ "Saint Peter Port (Guernsey) #ek": [
+  {
+   "alan": "isg",
+   "d": "almanya",
+   "f": "1940-06-30",
+   "t": "1945-05-09",
+   "hukum": "ADAY",
+   "kaynak": "arama özeti (liberationday.gg), ham okunamadı",
+   "alinti": "",
+   "not": "Gün: 30 Haziran 1940 akşam hava inişi, 1 Temmuz bayrak; Jersey ile hiza için Emre kararı gerekebilir. alan: isg"
+  }
+ ],
+ "Saumur #ek": [
+  {
+   "alan": "s",
+   "d": "blois-kontlugu",
+   "f": "",
+   "t": "1025-01-01",
+   "hukum": "ADAY",
+   "kaynak": "lex.dk 'Saumur' (sayfa.py ham)",
+   "alinti": "Saumur tilhørte oprindelig greverne af Blois",
+   "not": "Künye YOK (ölçüldü: blois-kontlugu YOK). Alt sınır/ f bilinmiyor -> BOŞ. Önce künye kararı."
+  }
+ ],
+ "Bir Lahlu (Bir Lehlou) #ek": [
+  {
+   "alan": "s",
+   "d": "ispanyol-sahra",
+   "f": "",
+   "t": "1976-02-26",
+   "hukum": "ADAY",
+   "kaynak": "lex.dk 'Vestsahara' (ham)",
+   "alinti": "Da Spanien trak sig ud af deres koloni i Vestsahara",
+   "not": "Künye ispanyol-sahra 1884-12-26..1976-02-26 ✔. Bir Lahlu'nun o devirde var olması / yerleşim f ve Madrid 1975-11-14 sonrası fiilî sahibi (Fas/Moritanya/Polisario) kaynaksız -> f BOŞ. Moritanya ve Fas künyeleri açık (fas f 1549; moritanya f 1960-11-28)."
+  }
+ ],
+ "Frankfurt (Oder) #ek": [
+  {
+   "alan": "s",
+   "d": "brandenburg-markgrafligi",
+   "f": "1253-01-01",
+   "t": "1415-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "lex.dk 'Frankfurt an der Oder' https://lex.dk/Frankfurt_an_der_Oder (Den Store Danske; sayfa.py ham)",
+   "alinti": "Frankfurt an der Oder blev grundlagt i 1253",
+   "not": "Yıl düzeyi kuruluş (şehir hakları 1253; 12 Temmuz günü arama özeti, ham değil)."
+  },
+  {
+   "alan": "s",
+   "d": "brandenburg-prusya",
+   "f": "1415-01-01",
+   "t": "1701-01-18",
+   "hukum": "ADAY",
+   "kaynak": "Berlin kaydı yerlesimler.js:1240 ile aynı kalıp (zincir kalıbı); künye f/t ölçüldü ✔",
+   "alinti": "",
+   "not": "Künye aralığı ölçüldü ✔; zincir kalıbı, kaynak yok."
+  },
+  {
+   "alan": "s",
+   "d": "prusya",
+   "f": "1701-01-18",
+   "t": "1871-01-18",
+   "hukum": "ADAY",
+   "kaynak": "Berlin kaydı yerlesimler.js:1240 ile aynı kalıp (zincir kalıbı); künye f/t ölçüldü ✔",
+   "alinti": "",
+   "not": "Künye aralığı ölçüldü ✔; zincir kalıbı, kaynak yok."
+  },
+  {
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "hukum": "ADAY",
+   "kaynak": "Berlin kaydı yerlesimler.js:1240 ile aynı kalıp (zincir kalıbı); künye f/t ölçüldü ✔",
+   "alinti": "",
+   "not": "Künye aralığı ölçüldü ✔; zincir kalıbı, kaynak yok."
+  },
+  {
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-10-07",
+   "hukum": "ADAY",
+   "kaynak": "Berlin kaydı yerlesimler.js:1240 ile aynı kalıp (zincir kalıbı); künye f/t ölçüldü ✔",
+   "alinti": "",
+   "not": "Berlin Bildirgesi 1945-06-05 (künye f). Alternatif (Emre brief): isg sovyet-rusya Kızıl Ordu girişi (Nisan 1945, gün kaynakla) -> 1945-06-05; sovyet-rusya künyesi 1917-11-07..1991-12-26 ✔ (SSCB id'si sscb YOK)."
+  },
+  {
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "ADAY",
+   "kaynak": "Berlin kaydı yerlesimler.js:1240 ile aynı kalıp (zincir kalıbı); künye f/t ölçüldü ✔",
+   "alinti": "",
+   "not": "1990-10-03 künye f ✔ (künye t 1990-12-02 değil, bu devletin kronoloji maddesidir; devlet açık)."
+  }
+ ],
+ "Schwerin #ek": [
+  {
+   "alan": "s",
+   "d": "saksonya-dukaligi",
+   "f": "1160-01-01",
+   "t": "1180-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "lex.dk 'Schwerin' https://lex.dk/Schwerin (Den Store Danske; sayfa.py ham)",
+   "alinti": "Henrik Løve i 1160 erobrede en vendisk borg på stedet",
+   "not": "Yıl düzeyi; künye saksonya-dukaligi 0880-01-01..1180-01-01 ✔. Slav kalesi öncesi (obotrit-prensligi 0789..1160-01-01 ✔) f_geri'yi 1018'e çeker mi: ilk anılış ham okunmadı -> UYGULANMAZ."
+  },
+  {
+   "alan": "s",
+   "d": "almanya",
+   "f": "1180-01-01",
+   "t": "1945-06-05",
+   "hukum": "ADAY",
+   "kaynak": "Rostock kaydı kalıbı (yerlesimler_avrupa.js:431)",
+   "alinti": "",
+   "not": "Rostock 1281'de almanya'ya girer; Schwerin için 1180 (Saksonya Dükalığı künye t) beyanlı geçiş, Mecklenburg dükalığı aracı sınıf sorusu. Künye almanya f 0962-02-02..1945-06-05 ✔."
+  },
+  {
+   "alan": "s",
+   "d": "almanya-muttefik-isgali",
+   "f": "1945-06-05",
+   "t": "1949-10-07",
+   "hukum": "ADAY",
+   "kaynak": "Rostock kalıbı; Berlin Bildirgesi 1945-06-05",
+   "alinti": "",
+   "not": "Alternatif (Emre brief): isg sovyet-rusya, gün: Sovyet devri 1945-07-01 (arama özeti, ham değil). sovyet-rusya künyesi ✔."
+  },
+  {
+   "alan": "s",
+   "d": "almanya-birlesik",
+   "f": "1990-10-03",
+   "t": "2000-12-31",
+   "hukum": "ADAY",
+   "kaynak": "künye f 1990-10-03 ✔",
+   "alinti": "",
+   "not": "D1 deliği kapatma."
+  }
+ ]
+}

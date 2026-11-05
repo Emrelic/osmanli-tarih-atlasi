@@ -877,6 +877,30 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - Moss (1814-08-14) sonrası Fredrikstad ve Hvaler'e `isg isvec` (kaynakla). 1814-11-04 `norvec-isvec-birligi`.
   - D2: 1814-02-19 ve Moss 1814-08-14 maddeleri madde kuyruğuna (7 dil).
   - Şahsî birlik: (a) ayrı `s:`, `v:` yok — KASA önerisi, Emre'ye gidiyor.
+- **Model kuralı (Emre 1 Kasım, EMRELİC hatırlattı):** araştırma, mekanik iş ve çeviri taslakları Sonnet'te; Opus yalnız karar, çatışma ve tasarım için. Zend ve Norveç ajanları Opus'ta açılmıştı, ilerledikleri için bitiriliyor; sonraki ajanlar Sonnet'te açılır.
+
+## gece-117 — ON5 sonucu ve künye ölçer kusuru (KASA)
+
+- **ON5** (`LAB-v2/e4_KASA_lab_ON5.json`): 15 kayıt, 21 dönem; sıra eşleşiyor, uc boşu 0, 32 ek dilim.
+  - Hükümler: önce 5 KAYNAKLI / 12 ONERI / 4 BAKILMADI; şimdi 3 KAYNAKLI / 17 ONERI / 1 BULUNAMADI.
+  - **Dilimin net sayısı: 320 dönem = 76 KAYNAKLI / 116 ONERI / 62 BULUNAMADI / 66 BAKILMADI.**
+  - KAYNAKLI'dan düşenler: Hillsborough ve St. George's `grenada` f. history.state.gov'daki alıntı tanıma cümlesidir, bağımsızlık gününü tarihlemez.
+  - Codrington'ın alıntısı önceki turdan taşındı; sayfa bu turda 404 verdi, yeniden doğrulama borcu var.
+  - Kaynaklı ek dilimler: Jersey `isg almanya` 1940-07-01 → 1945-05-09 (gov.je); Tórshavn `norvec-kralligi` 1035 (snl.no + lex.dk çift teyit) ve `isg ingiltere` 1940-04-12 (snl.no); Frankfurt (Oder) `brandenburg-markgrafligi` 1253; Schwerin `saksonya-dukaligi` 1160.
+  - Frankfurt ve Schwerin zincirleri Berlin/Rostock kalıbıyla kuruldu (… → `almanya-muttefik-isgali` → DDR → `almanya-birlesik` 1990-10-03). Sovyet işgali için künye id'si `sovyet-rusya`.
+  - F-GERİ uygulanabilir: Frankfurt 1949 → 1253; Schwerin 1949 → 1160 (BEYANLI alt sınır). Codrington, Portsmouth ve Praia için kuruluş ham kaynakla okunamadı, uygulanmaz.
+  - **Emre'ye kalan kararlar:**
+    - San Salvador: bağımsızlık 1839 (history.state.gov) mı, künye f 1841 mi?
+    - Saumur: `blois-kontlugu` künyesi yok. Künye açılacak mı, abi merkez zinciri mi?
+    - `fransa` t 1792-09-21 mi, 09-22 mi?
+    - Jersey 07-01 ile Guernsey 06-30 gün hizası.
+    - `kanal-adalari` ile `normandiya` (t 1204-06-24) arasındaki 5 aylık örtüşme.
+  - TARAYICI listesi: jcs.mil Urgent Fury PDF (robots; Grenada `isg abd` günleri), liberationday.gg (DNS), loc.gov (403).
+- 🔴 **Künye ölçer kusuru:** KASA'nın `kunye_olc.py` yardımcısı regex'le, id'den sonraki ilk `t:`'yi alıyordu. t'si olmayan (açık) künyelerde bir kronoloji satırının t'sini künye t'si sanıyordu.
+  - **42 id kıyaslandı, 9'unda fark var**, hepsi açık künye: isvec, danimarka, ingiltere, portekiz, abd, norvec, umman, almanya-birlesik, yesilburun.
+  - f değerleri hepsinde doğru. Kapalı künyelerin t'si de doğru.
+  - Bu gece KASA'nın raporladığı künye değerlerinin hiçbiri etkilenmedi. Bütün çıktılar sahte t'lere karşı tarandı; tek isabet ON5'teki "künye t 1990-12-02 değil" uyarı notu, yani ajan kusuru zaten yakalamış.
+  - Yardımcı `girdi.oku_devletler()` ayrıştırıcısına geçirildi; açık künyede "t AÇIK" basıyor. ON5 ajanı kusuru bulup `kn2.py` ile aşmıştı.
 
 ## gece-113 — tarama biçim kusuru (ek)
 
