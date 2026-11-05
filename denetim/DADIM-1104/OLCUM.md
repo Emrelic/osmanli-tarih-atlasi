@@ -1155,7 +1155,23 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Gijiga f 1651 büyük olasılıkla 1751'in yazım hatası (Forsyth 1751, ESBE 1753). Doğrulanırsa 100 yıllık hayalet dönem kırpılır.
   - Balagansk: 1653 (ESBE, Forsyth "1653—4").
   - Kansk: atlas 1636 ilk ostrog, nokta 1640'ta taşınan yerde (Forsyth 1628 / ESBE 1640).
-- **r8_033:** sürüyor.
+- **r8_033:** 8 yerleşim, 16 satır.
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 0 |
+  | ONERI | 8 |
+  | BULUNAMADI | 6 |
+  | BAKILMADI | 2 |
+
+  - **Soyo:** SAHO'ya göre 1641'de bağımsız (1670 Kitombo). Atlas 1885'e dek kongo-kralligi yazıyor. `soyo` künyesi yok, LAB adayı.
+  - **kongo-serbest-devleti f 1885-01-01:** künye yuvarlaması, hiçbir olayın günü değil.
+    - Kisangani: f 1887-02 (Tippu Tip valiliği) ya da 1888-08-01 (Stanley Falls fermanı, Hertslet).
+  - **Turgay:** kazak-hanligi t ve rusya f 1847, Kopal'dan devralınmış. Belgeli tek tarih 1868-10-21 Geçici Nizamname; 1824 ve 1845 adaylarının ham metni yok. Karar EMRELİC'in.
+  - **Tobolsk:** 1598-08-20 hanlık sonu. İsker 1582 ve kale 1587 ham metinle teyitsiz.
+  - **Petropavlovsk:** 1740 [YIL, 1739-40].
+  - **Erişim:** Bâne, Kazakistan 1991 ve Kabongo erişilemedi.
+- **Rusya 1917-03-15 ucu:** r8_039'da 8/8 KAYNAKLI (feragatname); r8_033 ve r8_038'de teyitsiz, aynı kaynak uygulanabilir.
 
 ### 45a. EMRELİC gece-87 kararları (`karar56.py`, 27 satır işlendi)
 1. **İberya Vizigot t:** TDV yer maddesi esas.
