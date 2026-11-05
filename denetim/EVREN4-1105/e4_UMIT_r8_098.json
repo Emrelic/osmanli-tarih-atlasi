@@ -1,0 +1,250 @@
+{
+ "Gbarnga": [
+  {
+   "sira": 4000,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Library of Congress/Federal Research Division, Liberia: A Country Study (1985), 'Indirect Rule in the Hinterland' — globalsecurity.org/military/library/report/1985/liberia_1_indirectrulep.htm ; UNESCO General History of Africa VII (1985), ch.11 (Akpan, Liberia) — archive.org unesco_general_history_africa_vii ; Hertslet, The Map of Africa by Treaty, 3. baskı 1909, cilt III, 'Liberia' (No. 351-353, s.1129-1140) — archive.org mapofafricabytre03hert (birincil belge neşri, basamak 8)",
+   "alinti": "The first move to organize the Hinterland was made in 1907, when President Arthur Barclay introduced \"indirect rule\"",
+   "uc": "f",
+   "oneri": {
+    "alan": "s",
+    "d": "liberya",
+    "f": "1907-01-01",
+    "t": "2000-12-31",
+    "onceki_dilim": "1281-01-01 -> 1907-01-01: sahip YOK (Kpelle/Mande ic bolge halklari; kunye yok -> LAB kunye adayi) ya da beyanli __BOSLUK__; 'Kpelle' Americo-Liberian listesinde GHA VII'de sayilir ama devlet degil"
+   },
+   "not": "ONERI (yil duzeyi). Gbarnga ic bolgede (6.998N 9.473W), Monrovia kiyi yerlesiminin 1822 tarihi buraya uygulanamaz. LoC Country Study: etkin idare 1907'de dolayli yonetim ve 5 hinterland ilcesiyle basladi; 1912 Hinterland Regulations. GHA VII (Akpan): Liberya hukumeti 'effective occupation' planlarini yapamadi. De jure alt sinir alternatifi: Fransa-Liberya sinir duzenlemesi 1892-12-08 ve 1907-09-18 (Hertslet III s.1134, 1140) — Gbarnga bu hatlarin icinde kalir ama bu devlet-ici idare belgesi degildir. OLCUT: idareye katma — 1907 hinterland idaresi (yil; gun yok). t=2000-12-31 pencere ucu, olcum degil. RAKIP HUKUMET: NPFL Gbarnga 1990-97 (Taylor, 'Greater Liberia'; Wikipedia ipucu, akademik teyit alinamadi) -> s: liberya kalir, ic_not'a yazilir. Gbarnga'nin kendi kurulus gunu bulunamadi (aranan: Wikipedia Gbarnga, wisdomlib; akademik yok). F-GERI yok (f ileri aliniyor)."
+  }
+ ],
+ "Bria": [
+  {
+   "sira": 4001,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "banda-gbaya",
+   "f": "1281-01-01",
+   "t": "1903-01-01",
+   "hukum": "ONERI",
+   "kaynak": "rulers.org/rulc1.html (Central African Republic, ULKE DUZEYI; hakemsiz, ONERI-guclu) ; ANOM (Archives nationales d'outre-mer) Haute-Kotto circonscription notu — arama ozetinden, sayfa ham okunamadi (SSL hatasi)",
+   "alinti": "29 Dec 1903 Oubangui-Chari",
+   "uc": "t",
+   "oneri": {
+    "alan": "s",
+    "d": "banda-gbaya",
+    "f": "1281-01-01",
+    "t": "1913-11-05",
+    "alternatif_t_ulke_duzeyi": "1903-12-29"
+   },
+   "not": "ONERI. 1903-01-01 Bria'ya ozgu degil; ULKE DUZEYI: rulers.org 'Oubangui-Chari' koloni 1903-12-29 (atlasin 1903-01-01'i 1903-12-29 ile cakismaz; yil ayni, gun yanlis). Bria'ya ozgu tek idari belge ipucu: Haute-Kotto circonscription'u 5 Kasim 1913 arretesi ile 'subdivision de Bria' ile kuruldu (ANOM, ozetten, '[alinti ozetten]'). Dolayisiyla fiili Fransiz idaresi 1913'ten. f=1281 EPOK DAMGASI, Bria'nin varolus gunu degil; Bria'nin kurulus tarihi bulunamadi. Bandalar merkezi devlet degil (kunye ozeti: 'merkezi devlet kurmamis'); Dar al-Kuti/Senussi baskisi kaynaklanamadi. Kunye banda-gbaya t=1903-01-01 degisirse LAB'a gitmeli."
+  },
+  {
+   "sira": 4002,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1903-01-01",
+   "t": "1960-08-13",
+   "hukum": "ONERI",
+   "kaynak": "rulers.org/rulc1.html (ULKE DUZEYI) ; ANOM Haute-Kotto notu (ozetten)",
+   "alinti": "13 Aug 1960 independence",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1913-11-05",
+    "t": "1960-08-13"
+   },
+   "not": "ONERI. t=1960-08-13 ULKE DUZEYI (Orta Afrika Cumhuriyeti bagimsizligi) rulers.org ile uyumlu — ama rulers.org hakemsiz, tek basina KAYNAKLI degil; akademik/BM teyidi bu turda alinamadi (Britannica 403). f: bkz 4001; Fransiz kolonisi Oubangui-Chari 1903-12-29, Bria subdivision 1913-11-05. Banda-Fransa arasinda himaye degil kolonizasyon (Oubangui-Chari kolonisi); alan s kalir."
+  }
+ ],
+ "Monrovia": [
+  {
+   "sira": 4003,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, Liberya (islamansiklopedisi.org.tr/liberya, c.27 s.173-174) ; Hertslet, The Map of Africa by Treaty, 3. baskı 1909, cilt III, 'Liberia' (No. 351-353, s.1129-1140) — archive.org mapofafricabytre03hert (birincil belge neşri, basamak 8) s.1130 ; US Dept of State, Office of the Historian, Liberia (history.state.gov/countries/liberia)",
+   "alinti": "In 1822 this body obtained possession of a tract of land on the Pepper Coast",
+   "uc": "f",
+   "oneri": {},
+   "not": "KAYNAKLI (YIL duzeyi; gun TEYITSIZ). TDV ham: 1822'de 181 kisilik ilk grup 'Cape Mesurado sahil kesimine' yerlestirildi, sehre Monrovia adi verildi (TDV: '1822'de 181 kisilik ilk Amerikali zenciler grubunu Cape Mesurado sahil kesimine yerlestirmeyi basardi'). Hertslet ham (ACS: 1822'de toprak sahibi oldu) ve State Dept ('originated in 1822') uyumlu. Atlasin 1822-04-25 gunu bu kaynaklarda YOK: yalniz Wikipedia (Monrovia 'Established 25 April 1822') ipucu; ayni Wikipedia 7 Ocak 1822'de Dazoe/Providence Adasi'na (Mesurado agzi) inildigini yazar; liberya kunye ic_not'u (Cambridge Hist. Africa V) 'Ocak 1822'. Monrovia = Mesurado burnu: f=1822-04-25 'yalniz yil teyitli; gun teyitsiz' notuyla kalir. F-GERI ADAY (kaynak ONERI-guclu, sart 1-2 saglaniyor: sahip liberya kunyesi f=1822-01-01): Monrovia 1822-04-25 -> 1822-01-07. t=2000-12-31 pencere ucu. Ayri: 1824 Monrovia adlandirma ve 1847-07-26 bagimsizlik (TDV 26 Temmuz 1847) f'yi etkilemez."
+  }
+ ],
+ "Onitsha": [
+  {
+   "sira": 4004,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "benin-kralligi",
+   "f": "1281-01-01",
+   "t": "1897-02-18",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia.org/wiki/Onitsha (YALNIZ IPUCU; Anene 1966 'Southern Nigeria in Transition' s.212-213 atif edilmis, acilamadi) ; TDV İslâm Ansiklopedisi, Nijerya (islamansiklopedisi.org.tr/nijerya)",
+   "alinti": "Onitsha was founded between 1630 and 1680 by Igbo immigrants from Benin",
+   "uc": "f+t",
+   "oneri": {
+    "alan": "s",
+    "d": "ONITSHA-OBI-POLITISI (kunye YOK -> LAB kunye adayi)",
+    "f": "1630-01-01 (BEYANLI alt sinir, 1630-1680 araligi; kaynak ONERI-guclu)",
+    "t": "1884-01-01 (ONERI; bkz 4005)"
+   },
+   "not": "ONERI. Benin Krallıgi Onitsha'yi yonetmedi: Onitsha, Benin'den goc eden Igbo toplulugunun (Eze Chima) kurdugu bagimsiz bir Obi siyasetidir; Wikipedia 'Ado N'Idu Benin ile savasti' diyor. 'benin-kralligi' kunyesi t=1897-02-18 Benin'in kendi dususu; Onitsha ile ilgisi yok -> sahibi YANLIS, hayalet baglanti. Akademik kaynak (Anene 1966; Obidiaju 2020 KDJAS; Nwabara 1971 Cahiers d'Etudes Africaines) acilamadi: BULUNAMADI (aranan: Wikipedia Onitsha + Hertslet I+III OCR 'Onitsha/Onitcha' YOK). f=1281 EPOK DAMGASI. TDV Nijerya Onitsha'dan soz etmez. F-GERI yok."
+  },
+  {
+   "sira": 4005,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1897-02-18",
+   "t": "1960-10-01",
+   "hukum": "ONERI",
+   "kaynak": "Hertslet 1909 cilt I, kronolojik liste: '5 June 1885 Notification Great Britain. Protectorate. Niger Districts' (No.8 s.123; archive.org mapofafricabytr01hert; Onitsha'nin kapsandigi dogrulanamadi) ; TDV İslâm Ansiklopedisi, Nijerya (islamansiklopedisi.org.tr/nijerya) ; en.wikipedia.org/wiki/Onitsha ('In 1900 Onitsha became part of a British protectorate', ipucu)",
+   "alinti": "1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "uc": "t",
+   "oneri": {
+    "alan": "v",
+    "d": "ingiltere",
+    "f": "1900-01-01 (BEYANLI; alternatif de jure himaye 1885-06-05, Onitsha'nin Niger Districts'e dahil oldugu dogrulanirsa)",
+    "t": "1960-10-01",
+    "altta": "s: yerel (Onitsha Obi, kunye yok)"
+   },
+   "not": "ONERI. t=1960-10-01 KAYNAKLI-ULKE DUZEYI (TDV Nijerya ham, satir t ucunu tarihliyor). f=1897-02-18 Benin Seferi gunu — Onitsha ile ilgisiz (Benin sahibi yanlis). Dogrusu: himaye = 'v: ingiltere' + altta yerel 's:'. Adaylar: (a) 1885-06-05 Niger Districts himayesi (Hertslet, kapsam teyitsiz); 1886 Kraliyet Nijer Sirketi (TDV: '1886’da Kraliyet Nijer Şirketi kurularak bölgenin idaresi bu şirkete verildi' — sirket idaresi, Devlet degil); (b) 1900-01-01 sirket topraklari Kraliyete gecti, Southern Nigeria Protectorate (Wikipedia arama ozeti; Hertslet'te 'Southern Nigeria Protectorate Order in Council 16 Feb 1906' ayri). OLCUT: idareye katma — 1900-01-01 (tahmin). Gun TEYITSIZ: Onitsha'ya ozgu belge bulunamadi."
+  }
+ ],
+ "Aroçukvu": [
+  {
+   "sira": 4006,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "aro-konfederasyonu",
+   "f": "1690-01-01",
+   "t": "1902-03-01",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia.org/wiki/Anglo-Aro_War (YALNIZ IPUCU; atif: Heneker, Bush Warfare 1907 — archive.org'da yalniz odunc, acilamadi) ; newworldencyclopedia.org Aro Confederacy (hakemsiz)",
+   "alinti": "Arochukwu was captured on December 28 after four days of fierce battles",
+   "uc": "t",
+   "oneri": {
+    "alan": "s",
+    "d": "aro-konfederasyonu",
+    "f": "1690-01-01",
+    "t": "1901-12-28"
+   },
+   "not": "ONERI (ONERI-guclu; akademik teyit YOK). Anglo-Aro Savasi: Aro Seferi Kasim 1901'de basladi; Arochukwu 28 (Aralik 1901) alindi (yil cumleden degil: 'Kasim 1901' onceki cumleden). Konfederasyonun dagilisi 'Mart 1902' (Bende) ve savasin sonu 'spring 1902' — atlasin t=1902-03-01 SAVAS SONU, kunye t'si; Arochukwu sehri icin yerel devlet sahipligi 1901-12-28'de bitti. Kunye aro t=1902-03-01 ile CAKISMA YOK ama dilim Arochukwu icin 2 ay kisalir. f=1690: kunye 'bulunamadi' kaynakli; Arochukwu kurulus tarihi yok (kuruluş efsane; aranan Wikipedia). Aranan akademik: UNESCO GHA VII (Aro YOK), Hertslet I+III (Aro Expedition YOK), TDV Nijerya (Aro YOK). BULUNAMADI (akademik)."
+  },
+  {
+   "sira": 4007,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1902-03-01",
+   "t": "1960-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nijerya (islamansiklopedisi.org.tr/nijerya) (t) ; en.wikipedia.org/wiki/Anglo-Aro_War (f, ipucu)",
+   "alinti": "1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "uc": "t",
+   "oneri": {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1901-12-28",
+    "t": "1960-10-01",
+    "not_alan": "v mi s mi: Aro sonrasi yerel s yok; Southern Nigeria Protectorate (himaye) ama Aro devleti dagitildi -> dogrudan idare. KASA/EMRELIC siniflamasi gerekli: s: ingiltere (fetih+Warrant Chiefs, Afigbo 1972) ya da v: ingiltere"
+   },
+   "not": "ONERI. t=1960-10-01 ULKE DUZEYI KAYNAKLI (TDV). f: 1902-03-01 savas sonu yerine 1901-12-28 (fetih); 'ele gecirme + idareye katma': Aro topraginda Warrant Chief sistemi (Afigbo, The Warrant Chiefs 1972 — GHA VII kaynakcasinda, acilamadi) -> OLCUT: idareye katma (fetih) -> s: ingiltere, gun 1901-12-28 BEYANLI (yalniz Wikipedia). Alternatif: protectorate sinifi v. Ayrica 1899/1900 Southern Nigeria himaye sinirlari Aro'yu kapsiyordu: Hertslet'te teyit bulunamadi."
+  }
+ ],
+ "Grand Cess (Kru)": [
+  {
+   "sira": 4008,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kru-grebo",
+   "f": "1281-01-01",
+   "t": "1822-04-25",
+   "hukum": "ONERI",
+   "kaynak": "EB 1911 'Liberia' (en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Liberia; IPUCU sinifi) ; UNESCO General History of Africa VII (1985), ch.11 (Akpan, Liberia) — archive.org unesco_general_history_africa_vii ; Hertslet, The Map of Africa by Treaty, 3. baskı 1909, cilt III, 'Liberia' (No. 351-353, s.1129-1140) — archive.org mapofafricabytre03hert (birincil belge neşri, basamak 8)",
+   "alinti": "the greater part of the Kru coast, still, however, remain without foreign—American—settlers, and in a state of quasi-independence",
+   "uc": "t",
+   "oneri": {
+    "alan": "s",
+    "d": "kru-grebo",
+    "f": "1281-01-01",
+    "t": "1892-12-08 (de jure alt sinir; fiili Liberya idaresi daha gec — bkz 4009)"
+   },
+   "not": "ONERI. Kru kiyisinin buyuk kismi 1822'de de, 1857'de de Liberya'da DEGILDI (EB1911). GHA VII ham: 'Lacking effective military might, trained administrative personnel, and funds, the Liberian government could not implement its plans for effective occupation of Liberian territory' (ULKE DUZEYI). Kru ayaklanmalari 1915 (LoC Country Study) ve Sasstown 1931 (GHA VII) gosteriyor. Kunye kru-grebo t=1822-04-25 UZATILMALI (LAB). Grand Cess = Grand Sesters; Hertslet III dizini: 'Grand Sesters: Liberian Possession, Basin — 8 Dec 1892 (No.351 s.1134)'. f=1281 EPOK DAMGASI."
+  },
+  {
+   "sira": 4009,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "liberya",
+   "f": "1822-04-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Hertslet, The Map of Africa by Treaty, 3. baskı 1909, cilt III, 'Liberia' (No. 351-353, s.1129-1140) — archive.org mapofafricabytre03hert (birincil belge neşri, basamak 8) ; UNESCO General History of Africa VII (1985), ch.11 (Akpan, Liberia) — archive.org unesco_general_history_africa_vii ; Library of Congress/Federal Research Division, Liberia: A Country Study (1985), 'Indirect Rule in the Hinterland' — globalsecurity.org/military/library/report/1985/liberia_1_indirectrulep.htm",
+   "alinti": "Grand Sesters Liberian Possession 8 Dec., 1892",
+   "uc": "f",
+   "oneri": {
+    "alan": "s",
+    "d": "liberya",
+    "f": "1892-12-08 (de jure, BEYANLI; fiili idare 1900-1915 arasi, gun yok)",
+    "t": "2000-12-31"
+   },
+   "not": "ONERI. 'Grand Cess' Kru kiyisinda, Cape Palmas'in bati-kuzeyinde; 1822'de ACS yerlesimi degil. Hertslet III dizini (OCR): 'Grand Sesters Liberian Possession 8 Dec., 1892 ... Basin' + 8 Aralik 1892 Fransa-Liberya duzenlemesi (s.1134): Fransa Grand Sesters havzasini Liberya'ya birakti — bu de jure sinirdir, Liberya idaresi degil. Greboes (Cape Palmas, Rocktown vb.) 1893-09-23 'subjects of Liberia' antlasmasi (Hertslet III s.1136) Grand Cess'i kapsamaz (aranan, bulunamadi). OLCUT: de jure sinir -> idareye katma belgesi YOK; 1907 dolayli yonetim (LoC) ve 1915 Kru isyani idarenin gec ve zayif oldugunu gosterir. t=2000-12-31 pencere ucu. Maryland (1834-1857 ayri cumhuriyet; TDV Liberya: 1857'de birlesti) Cape Palmas cevresi — Grand Cess Maryland'in idaresinde miydi? bulunamadi."
+  }
+ ],
+ "Gulu": [
+  {
+   "sira": 4010,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1911-01-01",
+   "t": "1962-10-09",
+   "hukum": "ONERI",
+   "kaynak": "Uganda Independence Act 1962, s.1 (legislation.gov.uk/ukpga/Eliz2/10-11/57/section/1) ; New Vision 'Gulu was named after a valley' (haber sitesi, ipucu; ham okunamadi) ; arama ozeti: Amone-Muura 'British Colonialism and the Creation of Acholi Ethnic Identity' (JICH 2014; ResearchGate 403, ham okunamadi)",
+   "alinti": "On the ninth day of October, nineteen hundred and sixty-two",
+   "uc": "t",
+   "oneri": {
+    "alan": "v",
+    "d": "ingiltere",
+    "f": "1910-01-01 (BEYANLI, YIL; Gulu idari merkezi; v: ingiltere, Uganda Himayesi 1894-06-18)",
+    "t": "1962-10-09",
+    "altta": "s: yerel (Acholi; kunye yok -> LAB) 1281 -> 1910"
+   },
+   "not": "ONERI. t=1962-10-09 KAYNAKLI-birincil (Uganda Independence Act 1962 s.1 ham: 'On the ninth day of October, nineteen hundred and sixty-two ... Uganda Protectorate ... kingdoms, districts or otherwise' — satir t ucunu tarihliyor; ULKE DUZEYI). Alan: Uganda bir HIMAYEDIR (Protectorate, 1894-06-18) -> 'v: ingiltere', s: yerel. f=1911-01-01'in dayanagi yok; arama ozetleri Gulu'nun idari merkez olarak 1910'da acildigini (Koba'dan tasinma, Mr Sullivan) soyluyor — ham teyitsiz. Etkin idare oncesi 'nothing in the way of effective administration until 1910 and 1912' (Girling alintisi, arama ozeti). Akademik kaynak onerisi: Girling 1960 'The Acholi of Uganda'; Atkinson 'The Roots of Ethnicity' (Acholi); acilamadi -> BULUNAMADI (kesin gun). F-GERI ADAY degil (sart 1 saglanmiyor: Acholi yerel kunye yok)."
+  }
+ ],
+ "Lira": [
+  {
+   "sira": 4011,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1911-01-01",
+   "t": "1962-10-09",
+   "hukum": "ONERI",
+   "kaynak": "Uganda Independence Act 1962, s.1 (legislation.gov.uk/ukpga/Eliz2/10-11/57/section/1) ; Tosh 1973 JAH XIV/4 'Colonial chiefs in a stateless society: northern Uganda' ve Tosh 1978 'Clan Leaders and Colonial Chiefs in Lango' (GHA VII kaynakcasinda adi gecer; metne ERISILEMEDI)",
+   "alinti": "On the ninth day of October, nineteen hundred and sixty-two",
+   "uc": "t",
+   "oneri": {
+    "alan": "v",
+    "d": "ingiltere",
+    "f": "BULUNAMADI",
+    "t": "1962-10-09",
+    "altta": "s: yerel (Lango; kunye yok -> LAB)"
+   },
+   "not": "ONERI (t) / BULUNAMADI (f). t=1962-10-09 KAYNAKLI-birincil (bkz 4010; Lango 'districts' kapsami Uganda Protectorate'in butun toprakları). Alan v: ingiltere (himaye). Lira/Lango icin f=1911-01-01 kaynak bulunamadi: aramalar Lango'nun 1912 kurulusunu (Lira boma) sonuclandirmadi; Lamogi isyani 1911-12 (Adimola, Uganda Journal XVIII/2 1954; GHA VII kaynakcasi) Acholi/Lango sinirinda. Lira kasabasinin kurulus yili bulunamadi — uydurma yok. Aranan: Wikipedia Gulu/Lira, New Vision, GHA VII (Lango yalniz kaynakca)."
+  }
+ ],
+ "_f_geri": [
+  "F-GERI (ADAY, kaynak ONERI-guclu): Monrovia 1822-04-25 -> 1822-01-07, sahip liberya (kunye f=1822-01-01, ic_not Cambridge Hist. Africa V) — Wikipedia Monrovia (Dazoe/Providence Adasi); TDV/Hertslet yalniz yil; onay EMRELIC'te"
+ ]
+}
