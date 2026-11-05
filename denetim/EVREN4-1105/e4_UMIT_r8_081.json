@@ -1,0 +1,241 @@
+{
+ "Tupinambarana (Parintins)": [
+  {
+   "sira": 3689,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1669-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "IBGE, Histórico Parintins/AM, biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/paritins.pdf (resmî; PDF metni pypdf ile ham okundu)",
+   "alinti": "Por volta de 1796, o Capitão de Milícias José Pedro Cordovil organizou um desses núcleos, instalando-se na ilha de Tupinambarana",
+   "alinti2": "Esse religioso, em 1803, criou missão em Tupinambarana, com a denominação de Vila Nova da Rainha",
+   "oneri": {
+    "f": "1796-01-01",
+    "t": "",
+    "d": "portekiz-brezilyasi"
+   },
+   "not": "ÖLÇÜT: idareye katma/iskân — Portekiz tebaası milis yüzbaşısı yerleşti (1796 civarı), 1803'te Karmelit misyonu (Vila Nova da Rainha), 1804 freguesia. Atlas f=1669 hiçbir kaynakta yok: 1669 öncesi ada Maués/Sapupé yerlisi, Portekiz yerleşimi yok (IBGE 'primitivos habitantes'). f YIL düzeyi ('por volta de 1796' = yaklaşık; YIL). f 1669→1796 İLERİ çekilir (f_geri değil); 1669-1796 dilimi yerleşimsiz -> kırpma (komşu petek alır). 1803 misyon, 1848-10-24 vila (Pará Lei 146), 1853-03-14 belediye kuruluşu, 1880 Parintins ad değişimi ic_not'a. t=1822-09-07 TEYİTSİZ (öteki uç teyitsiz): bölge ülke bağımsızlık ilanı gününde değil, Pará/Rio Negro'nun 1823-24 katılışıyla fiilen Brezilya oldu — bu hafızadan ipucu, bu oturumda KAYNAKLANMADI; BAKILMADI."
+  }
+ ],
+ "San Joaquín de Omaguas (Fritz)": [
+  {
+   "sira": 3692,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1686-01-01",
+   "t": "1824-12-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Deutsche Biographie NDB/ADB 'Fritz, Samuel' (deutsche-biographie.de/sfz17684.html) + Catholic Encyclopedia 'Samuel Fritz' (newadvent.org/cathen/06308a.htm), ham metin okundu; yerleşime özgü kuruluş günü bulunamadı",
+   "alinti": "Das Gebiet wurde von Portugal erobert, und bis auf die Stadt Ega (Tefé) wurden alle von F. gegründeten Siedlungen zerstört.",
+   "oneri": {},
+   "not": "BAKTIĞIM YERLER: NDB/ADB Fritz maddesi, Catholic Encyclopedia, WebSearch özetleri (Wikipedia aynaları, American Cyclopaedia — alıntı sayılmaz). 1686 'San Joaquín'in kuruluşu' olarak hiçbir kaynakta açıkça yok (Fritz 1683-84'te Quito'ya geldi, 1686-88 Yukarı Amazon keşfi; Ocak 1689 günlük: San Joaquín de los Omaguas 'misyonumun başlangıcı'). YIL düzeyinde en fazla '1686 civarı kuruluş' var, ucu tarihleyen cümle yok. DİKKAT t/sahip: (1) Fritz misyonları 1709-10'da Portekiz baskınıyla (Pará) dağıldı (NDB yılsız; American Cyclopaedia 1710 — ipucu); yer 1695'te Ampiyacu ağzına (Pebas yakını) taşındı (Wikipedia aynası, ipucu). Yani 'yerleşim 1824'e kadar İspanya elinde' varsayımı kuşkulu: ya terk/kırpma ya Portekiz (portekiz-brezilyasi) dilimi. (2) Sahip: Maynas gobernación'u 1717-1802 arası Quito Audiencia'sı/Yeni Granada Valiliği'ne bağlıydı (1802-07-15 Real Cédula ile Peru'ya geri; Wikipedia-düzeyi, KAYNAKLANMADI) — ispanyol-peru künyesi bu aralıkta yanlış sahip olabilir; yeni-granada-valiligi (1717-05-27→1810-07-20, 1723-1739 ara boşluk beyanlı) adaydır. LAB'a: yer koordinatı hangi San Joaquín'e (1686 ilk yer mi, 1695 sonrası mı) denk geliyor ölçülsün."
+  },
+  {
+   "sira": 3693,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. ÜLKE DÜZEYİ Ayacucho 1824-12-09 künye hizası. Yerleşim (Fritz'in San Joaquín'i) 1710 Portekiz baskınıyla dağıldı (NDB, yılsız) — 1824'te mevcut mu ölçülmedi; mevcut değilse bu satır hayalet olabilir. Satır yer-özgü kaynaksız."
+  }
+ ],
+ "Borba (Madeira)": [
+  {
+   "sira": 3694,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1723-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "IBGE, Histórico Borba/AM, biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/borba.pdf (resmî; ham metin pypdf)",
+   "alinti": "Fundada em 1728, ou pouco mais tarde, pelo Frei João Sampaio, da Companhia de Jesus",
+   "oneri": {
+    "f": "1728-01-01",
+    "t": "",
+    "d": "portekiz-brezilyasi"
+   },
+   "not": "ÖLÇÜT: Portekiz Cizvit misyonu (Aldeia do Trocano), Portekiz Estado do Maranhão e Grão-Pará'nın parçası — idareye katma: 1755-03-03 Carta Régia ile Vila de Borba, 1756-01-01 Vila de Borba Nova kuruluşu (Mendonça Furtado) ic_not'a. Atlas f=1723 kaynaksız: IBGE '1728 ya da biraz sonrası'. f YIL düzeyi + 'ou pouco mais tarde' beyanı; f 1723→1728 İLERİ (f_geri değil); 1723-1728 dilimi kırpılır. IBGE ayrıca 1833'te villa rütbesini kaybedip freguesia Araretama oldu (t'yi etkilemez). t=1822-09-07 teyitsiz (öteki uç teyitsiz); Pará 1823-24 hatırlatması aşağıdaki gibi: BAKILMADI."
+  }
+ ],
+ "Jaén de los Bracamoros": [
+  {
+   "sira": 3697,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1549-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Pakamuros (Revista de la Universidad Nacional de Jaén), revistas.unj.edu.pe/index.php/pakamuros/article/download/149/160/586 — Martín Cuestas 1989 ve Espinoza Soriano 2007'ye atıfla; ham metin pypdf. Yerel üniversite dergisi: hakem durumu ölçülmedi => çekinceli",
+   "alinti": "quien fundó la Gobernación de San Leandro de Jaén de los Bracamoros el 17 de abril de 1549",
+   "alinti2": "Jaén, proclamó su independencia y retornó a Perú gloriosamente el lunes 4 de junio de 1821",
+   "oneri": {
+    "f": "1549-04-17",
+    "t": "1821-06-04",
+    "d": "ispanyol-peru"
+   },
+   "not": "ÖLÇÜT: idareye katma — Gobernación kuruldu (1549-04-17; 1549'da Jerez'den Jaén adı). f: atlas 1549-01-01 -> 1549-04-17 (aynı yıl; f_geri değil, 3,5 ay İLERİ; ispanyol-peru f=1542-11-20 kapsar). 1546'da Porcel'in kurduğu Nueva Jerez de la Frontera efemer (IFEA, books.openedition.org/ifea/1668 — Taylor/IFEA, Bracamoros bölümü). t: kaynağa göre Jaén 1821-06-04'te bağımsızlık ilan etti ve Peru'ya katıldı (Trujillo/San Martín hattı) — peru-cumhuriyeti künyesi f=1824-12-09, yani 1821-06-04 → 1824-12-09 arası künye YOK (hayalet kuralı): t'yi künye gününde bırak, 1821-06-04'ü ic_not'a yaz, 1821-24 arası 'Peru Protektorası/Cumhuriyeti' künye sorusunu LAB'a gönder. AYRICA SAHİP: aynı makale 'Quito Audiencia'sına zorunlu ilhak' diyor (gün/yıl yok) — Jaén de Bracamoros Quito'ya bağlıydı, Peru Valiliği hukuken 1739-1802 arası Yeni Granada (yeni-granada-valiligi) olabilir; Wikipedia-düzeyi: 1802-07-15 Real Cédula Maynas'ı Peru'ya geri verdi (Jaén'e özgü metin bulunamadı) — HÜKÜM VERMİYORUM, çelişki beyanı."
+  },
+  {
+   "sira": 3698,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. 1821-06-04 Jaén'in Peru'ya katılışı (Pakamuros/Espinoza Soriano 2007) ile künye f=1824-12-09 arasında 3,5 yıl: Jaén için peru-cumhuriyeti 1821-06-04'ten başlar mı? Künye f hayalet kuralı gereği 1824-12-09'da kalır, 1821 ic_not'a. Ekvador-Peru Jaén iddiası (Gran Colombia 1822-30) ölçülmedi; BAKILMADI."
+  }
+ ],
+ "Santa María de Huallaga": [
+  {
+   "sira": 3699,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1649-01-01",
+   "t": "1824-12-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKTIĞIM YERLER: WebSearch (Fransisken Huallaga/Tarma-Jauja misyonları, Córdova y Salinas 1651 kroniği sorgusu), Amazonía Peruana/Studia Franciszkańskie/Americas 'Franciscan missions in Peru 1532-1569' sonuç listeleri (açılmadı: bütçe). 1649'da Huallaga'da Santa María kuruluşunu tarihleyen cümle bulunamadı. Not: d='ispanya' (Kastilya-Aragon künyesi f=1479), öteki Peru satırlarında 'ispanyol-peru' — tutarsız; bu Fransisken misyonu Lima Valiliği içindeydi, ispanyol-peru (1542-11-20→1824-12-09) beklenir ama KAYNAKLANMADI. t=1824-12-09 ülke düzeyi, yer-özgü kaynak yok."
+  },
+  {
+   "sira": 3700,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe: bu satır için kaynak aranmadı. ÜLKE DÜZEYİ Ayacucho 1824-12-09 künye hizalaması (peru-cumhuriyeti künye f). Yerleşim 1824 sonrası sürdü mü (terk/Juan Santos sonrası) ölçülmedi."
+  }
+ ],
+ "Cerro de la Sal": [
+  {
+   "sira": 3701,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1635-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Amazonía Peruana vol. XVII n.35 (2022), pp.151-186, Juan Santos belgeleri (Amat y Junyent mektupları, AGI Lima 653), amazoniaperuana.caaap.org.pe/index.php/amazoniaperuana/article/download/304/347 — BÖLGE DÜZEYİ, yer-özgü değil",
+   "alinti": "el movimiento desatado por Juan Santos en 1742 aún le seguía quitando el sueño a la Corona española",
+   "alinti2": "las últimas hostilidades de los rebeldes en 1752",
+   "oneri": {
+    "f": "",
+    "t": "1742-01-01",
+    "d": "ispanya"
+   },
+   "not": "RAKİP HÜKÛMET: Juan Santos Atahualpa isyanı 1742'de Selva Central/Gran Pajonal'da Fransisken Cerro de la Sal ve çevre misyonlarını yok etti/terk ettirdi (Nisan-Mayıs 1742 Quisopango; kesin gün kaynakta yok); İspanyol kontrolü 1780'lere dek geri gelmedi (Wikipedia/Gran Pajonal özeti — SADECE İPUCU, kaynaklanmadı). Raw alıntı yalnız isyanın 1742 başladığını, son çatışmanın 1752 olduğunu söylüyor; Cerro de la Sal'ın adını/akıbetini yılsız-yer-özgü vermiyor => ÜLKE/BÖLGE DÜZEYİ, hüküm ONERI. Öneri: t=1742 (YIL; 'yerleşim terk edildi, sonrası kırpma' kuralı; 1742-1780'ler arası İspanyol denetimi yok, sonrası var mıydı? ölçülemedi). f=1635: Fransisken Pangoa/Perené tarihi özeti (arama özeti; ham metin okunmadı) '1635'te Perené çevresinde Tarma misyonu = Cerro de la Sal conversión' diyor — f için BAKILMADI (özetten, alıntı sayılmaz). Yeniden kolonizasyon (1780'ler) için ayrı dilim önerisi YOK, kaynak yok."
+  },
+  {
+   "sira": 3702,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. Cerro de la Sal bölgesi (Chanchamayo/Selva Central) 1824'te fiilen Peru denetiminde miydi? Juan Santos sonrası 19. yy. Asháninka özerkliği (Gran Pajonal 150 yıl, Wikipedia özeti) — yerleşim 1824'te mevcut mu ölçülmeli; mevcut değilse bu satır hayalet olabilir."
+  }
+ ],
+ "Reyes (Maropa)": [
+  {
+   "sira": 3703,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1716-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Block (1994) Mission Culture on the Upper Amazon aracılığıyla Wikipedia 'Reyes, Bolivia' (1706) ve Meireles (1989) tablosu (1710) — Wikipedia tek dayanak olamaz => ONERI-zayıf; ham metin okunmadı (WebSearch özeti)",
+   "alinti": "",
+   "oneri": {
+    "f": "1706-01-01",
+    "t": "",
+    "d": "ispanya"
+   },
+   "not": "ÖLÇÜT: idareye katma — Cizvit Moxos misyonu (Santos Reyes), İspanya tacına bağlı Charcas Audiencia'sı. 1706 (Block 1994) vs 1710 (Meireles 1989) vs atlas 1716: üç farklı yıl; atlas 1716 kaynaksız. YIL düzeyi, çelişki beyanı; hiçbirini KAYNAKLI sayamam (alıntı yok). 1767 Cizvit sürgünü sonrası yerleşim sürdü mü? bu oturumda BAKILMADI. SAHİP: Moxos 1776'dan sonra Río de la Plata Valiliği'ne bağlandı (Charcas Audiencia'sı) — künye 'rio-de-la-plata-valiligi' var (devletler.js:10619, f/t ölçülmedi); atlas 'ispanya' kullanıyor, Peru satırlarıyla tutarsız. f 1716→1706/1710 GERİ: F-GERI listesine yazıldı; yeni dilimin sahibi aynı 'ispanya' (genişleme, yeni sahip yok), künye f=1479 kapsar. Wikipedia-düzeyi olduğundan UYGULAMA ÖNERİLMEZ; Block 1994 sayfa kaydı bulunmalı."
+  },
+  {
+   "sira": 3704,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. ÜLKE DÜZEYİ Bolivya cumhuriyeti kuruluşu 1825-08-06 (künye f). Reyes'in 1825'te mevcut olup olmadığı ölçülmedi."
+  }
+ ],
+ "San Ignacio de Moxos": [
+  {
+   "sira": 3705,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1689-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hispanopedia 'San Ignacio de Moxos' (Wikipedia türevi) — YASAK sınıf, tek dayanak olamaz; ham metin okunmadı (WebSearch özeti). IFEA/Lettres édifiantes metni (books.openedition.org/ifea/6820) ham okundu ama kuruluş yılını vermiyor",
+   "alinti": "",
+   "oneri": {
+    "f": "1689-11-01",
+    "t": "",
+    "d": "ispanya"
+   },
+   "not": "ÖLÇÜT: idareye katma — Cizvit misyonu (Orellana/Espejo/Mendoza). Özet kuruluş günü 1 Kasım 1689 diyor (ZAYIF, Wikipedia türevi; gün atlas f=1689-01-01'den 10 ay SONRA => f İLERİ, f_geri değil). Gün teyitsiz; hüküm ONERI-zayıf. IFEA ham metni yalnız Barace'nin 1702'de Baures tarafından öldürüldüğünü ve San Ignacio'da 1830-31 pamuk/kakao sayımını veriyor (alakasız uçlar). 1767 Cizvit sürgünü, Río de la Plata Valiliği 1776 (Charcas) sahip sorusu: Reyes notundaki gibi, BAKILMADI."
+  },
+  {
+   "sira": 3706,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe. ÜLKE DÜZEYİ Bolivya 1825-08-06 künye hizası; San Ignacio'nun 1825'te mevcudiyeti IFEA/Lettres édifiantes metninde 1830-31 sayımıyla dolaylı doğru, ancak f+t alıntısı yok."
+  }
+ ]
+}

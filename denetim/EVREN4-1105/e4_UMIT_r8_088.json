@@ -1,0 +1,127 @@
+{
+ "Miles City (Tongue Irmağı)": [
+  {"sira": 3808, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1877-01-01", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "Fort Laramie Antlaşması (Sioux) 1868-04-29, Madde XVI — Yale Avalon Project, https://avalon.law.yale.edu/19th_century/nt001.asp (⑧ antlaşma neşri). Fort Keogh/Miles City kuruluş kaynağı bulunamadı.",
+   "alinti": "shall be held and considered to be unceded. Indian territory",
+   "oneri": {},
+   "not": "BULUNAMADI (f=1877). Baktığım yerler: Avalon 1868 Sioux antlaşması (okundu), ARS/USDA Fort Keogh, NPS Fort Keogh (404), Montana Historical Society (403 yasak), archive.org arama (ilgili kitap çıkmadı). Fort Keogh (Tongue River Cantonment, 1876-08) ve Miles City (1877) kuruluş günü akademik kaynakta okunamadı. BULGU: Madde XVI'ya göre Kuzey Platte'in kuzeyi ve Big Horn zirvelerinin doğusu 'unceded Indian territory'dir; Tongue Irmağı bu bölgededir. Yani ABD'nin 1877 öncesi sahipliği yoktur ve abd 1877-01-01 başlangıcı, ABD'nin bölgeyi ne zaman idareye kattığını (1877 Sioux Anlaşması kanunu — bu oturumda OKUNMADI, BAKILMADI) kaynakla göstermedikçe yerleşim kuruluşu ile hukukî devri ayırt etmiyor. Öneri: f=1877 yalnız 'Miles City kuruluşu' ise beyan et; sahiplik başlangıcı için 1877 Sioux Anlaşması yasası (19 Stat. 254 aday, DOĞRULANMADI) okunmalı. Önceki dilim için Lakota/Cheyenne künyesi yok (atlasta yoksa merdiven ④)."}
+ ],
+ "Port-la-Joye (Charlottetown)": [
+  {"sira": 3809, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1720-01-01", "t": "1763-02-10",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Dictionary of Canadian Biography, 'Gotteville de Belile, Robert-David' (Univ. of Toronto/Laval, 1969, rev. 1982), https://www.biographi.ca/en/bio/gotteville_de_belile_robert_david_2E.html · t: Paris Antlaşması 1763-02-10 Madde IV, Yale Avalon Project, https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "The company’s headquarters were established at Port La Joie (near present-day Charlottetown)",
+   "alinti2": "in full right, Canada, with all its dependencies, as well as the island of Cape Breton",
+   "oneri": {},
+   "not": "f: YIL düzeyi (1720). DCB aynı bölümde 'Gotteville arrived in Louisbourg on 23 Aug. 1720 on his way to Île Saint-Jean' ve 'Two of the company’s ships, carrying 300 colonists, had already gone' diyor; gün yok ([yalnız yıl teyitli; gün teyitsiz], 1720-01-01 kuralı). t: Paris 1763 imza günü 'Done at Paris the tenth day of February, 1763'. ÜLKE/ADA DÜZEYİ: metin Île Saint-Jean'i adıyla anmaz, 'all the other islands and coasts in the gulph and river of St. Lawrence' der. TEK ÖLÇÜ: İngiltere fiilen yönetiyordu (DCB Rollo: 'Following the capture of Louisbourg, Rollo was sent to Île Saint-Jean (Prince Edward Island)' 1758, Fort Amherst Port-La-Joie'de, adalılar Fransa'ya sürüldü) -> s: imza gününden; 1758 fiilî işgal ic_not. Yürürlük (ratifikasyon 1763-03-10 civarı) DOĞRULANMADI, ic_not'a yazılmadı."}
+  ,
+  {"sira": 3811, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1873-07-01", "t": "2000-12-31",
+   "hukum": "BAKILMADI", "uc": "f",
+   "kaynak": "", "alinti": "", "oneri": {},
+   "not": "Satırın kaynağı zaten var (Prince Edward Island Terms of Union, Justice Canada alıntısı 'from and after the first day of July, 1873'); hedef dışı (öncelik 1: boş/DEVRALMA) ve bütçe ilk iki dönemi araştırmaya harcandı, bu oturumda yeniden doğrulanmadı. Not: sira 3810 (İngiltere 1763-1873 ara dilimi) bu partide yok; zincir: fransa -> [3810] -> kanada."}
+ ],
+ "Crow Agency (Apsáalooke)": [
+  {"sira": 3812, "dosya_satir": "", "alan": "s", "d": "karga", "f": "1281-01-01", "t": "1851-09-17",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "Kappler, Indian Affairs: Laws and Treaties II — Fort Laramie 1851 (OSU Tribal Treaties Database, https://treaties.okstate.edu/treaties/treaty-of-fort-laramie-with-sioux-etc-1851-0594) ve Treaty with the Crows 1868 (https://treaties.okstate.edu/treaties/treaty-with-the-crows-1868-1008) — ⑧ antlaşma neşri",
+   "alinti": "Assent of all tribes except the Crows was procured",
+   "alinti2": "relinquish all title, claims, or rights in and to any portion of the territory",
+   "oneri": {"t": "1868-08-12"},
+   "not": "ONERI: karga t=1851-09-17 (künye t'si de bu) 1851 Fort Laramie metnine dayanıyor; ama 1851 metni Karga (Crow) topraklarını TANIMLIYOR, devretmiyor ('The territory of the Crow Nation, commencing at the mouth of Powder River...'), ve Kappler dipnotu Senato değişikliğine 'Karga hariç bütün kabilelerin onayı alındı' diyor (Karga onaylamadı). Gerçek devir belgesi Karga ile Fort Laramie 1868-05-07 imza, onay 1868-07-25, İLAN 1868-08-12 (sayfa başlığı: 'May 7, 1868. | 15 Stats., 649. | Ratified, July 25, 1868. | Proclaimed, Aug. 12, 1868.'); Madde 2 rezervasyon dışındaki bütün hak iddialarından vazgeçilir. EMRELİC yerli antlaşma kuralı (künye ucu = yürürlük/ilan; imza ic_not) uygulanırsa t=1868-08-12, imza 1868-05-07 ic_not. UYARI: Crow Agency (1884'te taşınan ajans) 1868 rezervasyonu içindedir (107. boylam, 45. paralel, Yellowstone), yani toprak Karga'da kalır; Wind River/Şoşoni emsaliyle tutarlı olsun diye ONERI; karar EMRELİC'te. Künye t'sinin (devletler.js karga) aynı gün değişmesi gerekir (LAB). f=1281 ATLAS UFKU, teyit edilemez."}
+  ,
+  {"sira": 3813, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1851-09-17", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Aynı: Kappler Fort Laramie 1851 + Crows 1868 (OSU Tribal Treaties Database, bkz. sira 3812)",
+   "alinti": "May 7, 1868. | 15 Stats., 649. | Ratified, July 25, 1868. | Proclaimed, Aug. 12, 1868.",
+   "oneri": {"f": "1868-08-12"},
+   "not": "sira 3812'nin ardılı: abd f=1851-09-17 kaynakta desteklenmiyor (1851 antlaşmasını Karga onaylamadı, devir yok). Öneri f=1868-08-12 (ilan; imza 1868-05-07, onay 1868-07-25 ic_not). Karga t ile aynı gün olmalı (dilim çakışması/boşluk olmasın)."}
+ ],
+ "La Baye (Green Bay)": [
+  {"sira": 3814, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1634-01-01", "t": "1763-02-10",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: DCB 'Nicollet de Belleborne, Jean' (https://www.biographi.ca/en/bio/nicollet_de_belleborne_jean_1E.html) ve DCB 'Perrot, Nicolas' (https://www.biographi.ca/en/bio/perrot_nicolas_2E.html) · t: Paris 1763 Madde IV (https://avalon.law.yale.edu/18th_century/paris763.asp)",
+   "alinti": "historians believed that Nicollet headed towards Michilimackinac, entered Lake Michigan, and reached Green Bay",
+   "alinti2": "In the spring of 1685 Perrot was appointed commandant in chief of Baie des Puants",
+   "oneri": {"f": "1685-01-01"},
+   "not": "ONERI (f): 1634 = Jean Nicolet'in Green Bay'e varışı geleneği. DCB (Nicollet maddesi) bunu çürütüyor: 'Since Marcel Trudel’s work, it has been thought that Nicollet went up towards Sault Ste Marie' (yani Superior gölü yolu, Green Bay değil); seyahat 'dated precisely' edilemiyor. Yer-özgü en erken akademik tanık: DCB Perrot — 1685 baharında Baie des Puants (Green Bay) komutanı atandı, 1689-05-08 Fransız tasarruf töreni (Fransız varlığı/karakol). Önerilen f=1685-01-01 BEYANLI alt sınır (YIL düzeyi); 1669 Allouez misyonu daha erken olabilir ama DCB Allouez sayfası bulunamadı (BAKILMADI). f ILERI çekiliyor, sahipsiz dilim doğmaz. t=1763-02-10: Paris 1763 'Canada, with all its dependencies' (ÜLKE DÜZEYİ, La Baye adıyla geçmez); TEK ÖLÇÜ: İngiliz garnizonu 1761'de (Fort Edward Augustus) fiilî idareyi almıştı — bu oturumda OKUNMADI (BAKILMADI) — bu yüzden imza günü 1763-02-10 ÜLKE DÜZEYİ KAYNAKLI sayılır, ama La Baye'ye özgü fiilî devir tanığı yok."}
+  ,
+  {"sira": 3815, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1763-02-10", "t": "1783-09-03",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: Paris 1763 Madde IV (https://avalon.law.yale.edu/18th_century/paris763.asp) · t: Paris 1783 (https://avalon.law.yale.edu/18th_century/paris.asp) + Jay Antlaşması 1794 Madde 2 (https://avalon.law.yale.edu/18th_century/jay.asp) — Yale Avalon Project, ⑧ antlaşma neşri",
+   "alinti": "Done at Paris the tenth day of February, 1763.",
+   "alinti2": "on or before the first Day of June One thousand seven hundred and ninety six",
+   "oneri": {"t": "1796-06-01"},
+   "not": "f=1763-02-10 KAYNAKLI (ÜLKE DÜZEYİ, imza günü). t ONERI: 1783-09-03 de jure imza, ama La Baye ABD'nin fiilî idaresine girmedi. Jay 1794 Madde 2: Kral 'withdraw all His Troops and Garrisons from all Posts and Places within the Boundary Lines' ve tahliye 1796-06-01'de ya da öncesinde. EMRELİC Duluth emsali (teslim günü) ve TEK ÖLÇÜ (yönetmiyorsa TESLİM günü) uygulanırsa ABD sahipliği 1796-06-01'de başlar; 1783-09-03 imza ic_not. ÇEKİNCE: Madde 2 bölge/ülke düzeyindedir; La Baye'de İngiliz garnizonu 1763'ten beri olmayabilir (bu oturumda doğrulanmadı), fiilî tahliye günleri (Detroit/Mackinac 1796) DOĞRULANMADI. Karar EMRELİC'te; alternatif 1783-09-03 de jure imza gününde bırakmak (Madde 1 'New Hampshire, Massachusetts Bay…' ülke düzeyi). Bu bir F-geri değil."}
+  ,
+  {"sira": 3816, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1783-09-03", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Paris 1783 + Jay 1794 Madde 2 (Yale Avalon Project, bkz. sira 3815)",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord",
+   "alinti2": "withdraw all His Troops and Garrisons from all Posts and Places within the Boundary Lines",
+   "oneri": {"f": "1796-06-01"},
+   "not": "sira 3815 ile eş: 1783-09-03 imza günü KAYNAKLI (de jure, ÜLKE DÜZEYİ). La Baye için fiilî teslim ölçütüyle ONERI f=1796-06-01 (Jay Madde 2 son tarih). Bölgesel tanık (Fort Howard 1816 Quaife 1913 'Fort Howard' atfı, ABD fiilî askerî varlık) ic_not: Quaife, Chicago and the Old Northwest (1913) 'a contract to supply the garrison at Fort Howard' — tarih okunmadı. Karar EMRELİC'te."}
+ ],
+ "Falmouth (Portland, Maine)": [
+  {"sira": 3817, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1632-01-01", "t": "1783-09-03",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: Encyclopaedia Britannica 11. baskı 'Portland (Maine)' (İPUCU sınıfı), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Portland_(Maine) · t: Paris 1783 Madde 1 (https://avalon.law.yale.edu/18th_century/paris.asp)",
+   "alinti": "first permanent settlement on the peninsula was established by George Cleeve and Richard Tucker",
+   "alinti2": "His Brittanic Majesty acknowledges the said United States, viz., New Hampshire, Massachusetts Bay, Rhode Island",
+   "oneri": {"f": "1633-01-01"},
+   "not": "f: EB1911 aynı cümlede 'at the foot of Munjoy Hill in 1633' der (atlas 1632). EB1911 İPUCU sınıfıdır, tek başına KAYNAKLI değil; modern akademik (Maine Historical Society/Maine Memory 403-yasak, maineanencyclopedia 404) bulunamadı. ONERI-zayıf: f=1633; 1632 gün/yıl tanığı bulunamadı. EB1911 ayrıca: 1658 Massachusetts yetki kapsamı, 1718'de Falmouth kasabası, 1775-10-18 İngiliz filosu bombardımanı, 1786 Portland. t=1783-09-03: Massachusetts Bay (Maine bu eyaletin parçası) Madde 1'de adı geçer; imza günü 'Done at Paris, this third day of September'. EYALET/ÜLKE DÜZEYİ. 1776 bağımsızlık ilanı ve fiilî ABD denetimi (1775-76) ic_not; atlas kuralı gereği de jure devir antlaşma günü (Emre F8). t KAYNAKLI sayılır."}
+  ,
+  {"sira": 3818, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1783-09-03", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Paris Antlaşması 1783 Madde 1 ve imza, Yale Avalon Project, https://avalon.law.yale.edu/18th_century/paris.asp (⑧ antlaşma neşri)",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord",
+   "oneri": {},
+   "not": "EYALET/ÜLKE DÜZEYİ: Madde 1 Massachusetts Bay'i (Maine bu eyaletin parçası, EB1911 'In 1658 Massachusetts extended its jurisdiction') özgür egemen devlet olarak tanır. De jure devir imza günü (Emre F8). Yürürlük/ratifikasyon (1784-01-14) DOĞRULANMADI, ic_not'a yazılmadı."}
+ ],
+ "Portsmouth (New Hampshire)": [
+  {"sira": 3819, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1623-01-01", "t": "1783-09-03",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: Encyclopaedia Britannica 11. baskı 'Portsmouth (New Hampshire)' (İPUCU), https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Portsmouth_(New_Hampshire) ; Nathaniel Adams, Annals of Portsmouth (1825; 19. yy kaynağı), archive.org annalsofportsmou00adam · t: Paris 1783 Madde 1",
+   "alinti": "In 1630 there arrived another band of settlers sent over by the Laconia Company.",
+   "alinti2": "His Brittanic Majesty acknowledges the said United States, viz., New Hampshire, Massachusetts Bay",
+   "oneri": {"f": "1630-01-01"},
+   "not": "f: 1623 = David Thomson'ın Little Harbor'da (bugünkü Odiorne's Point, Rye kasabası, Portsmouth değil) kurduğu balık/ticaret evi (EB1911: 'in the spring or early summer of 1623 built and fortified a house at Little Harbor (now Odiorne’s Point in the township of Rye)'); Portsmouth'un kendi çekirdeği (Strawbery Banke, Water Street 'Great House') 1630 (aynı madde); 1653'te Portsmouth adı. Adams 1825 'the commencement of the settlements on Piscataqua river' diyor, tam yıl/yer bildirmiyor ('The precise time of the year ... cannot now be ascertained'). İPUCU + 19. yy kaynağı: ONERI-zayıf; f=1623'te kalması da savunulabilir (Piscataqua yerleşimi bölgesi); karar EMRELİC'te. t=1783-09-03: New Hampshire Madde 1'de adıyla geçer, KAYNAKLI (eyalet düzeyi), de jure imza günü; 1775-76 fiilî bağımsızlık ic_not."}
+  ,
+  {"sira": 3820, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1783-09-03", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Paris Antlaşması 1783 Madde 1 ve imza, Yale Avalon Project, https://avalon.law.yale.edu/18th_century/paris.asp (⑧ antlaşma neşri)",
+   "alinti": "His Brittanic Majesty acknowledges the said United States, viz., New Hampshire, Massachusetts Bay, Rhode Island",
+   "oneri": {},
+   "not": "EYALET DÜZEYİ: New Hampshire adıyla sayılır. İmza günü 'Done at Paris, this third day of September'. De jure devir antlaşma gününde (Emre F8)."}
+ ],
+ "Camas Ovası (Kuzey Şoşoni)": [
+  {"sira": 3821, "dosya_satir": "", "alan": "s", "d": "sosoni", "f": "1281-01-01", "t": "1868-07-03",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "Fort Bridger Antlaşması (Eastern Band Shoshoni and Bannock) 1868 — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database, https://treaties.okstate.edu/treaties/treaty-with-the-eastern-band-shoshoni-and-bannock-1868-1020 (⑧ antlaşma neşri)",
+   "alinti": "July 3, 1868. | 15 Stat., 673. | Ratified Feb. 26, 1869. | Proclaimed Feb. 24, 1869.",
+   "alinti2": "which shall embrace reasonable portions of the “PortNeuf” and “Kansas Prairie” countries",
+   "oneri": {"t": "1869-02-24"},
+   "not": "ÇELİŞKİ 1 (atlas içi): dönem t=1868-07-03 (imza) iken devletler.js 'sosoni' künyesi t=1869-02-24 (ilan; EMRELİC kuralı 'ABD yerli antlaşmasında künye ucu yürürlük/ilan günü, imza ic_not'). Dönem künye ucuyla aynı olmalı: ONERI t=1869-02-24 (imza 1868-07-03; onay 1869-02-26 ic_not; sayfada ilan Feb. 24, onay Feb. 26 yazıyor — iki tarih beyan). ÇELİŞKİ 2 (anlam): Madde 2 Bannack için 'Port Neuf' ve 'Kansas Prairie' ülkelerini kapsayan bir rezervasyon ayrılacağını söyler; yani antlaşma Camas (Kansas) Ovası'nı Bannack/Şoşoni topraklarında bırakır, ABD'ye DEVRETMEZ. 'Kansas Prairie' = Camas Prairie eşleşmesi bu kaynakta yazılı değil (adlandırma DOĞRULANMADI). Bu nedenle bu yerleşimde s: sosoni -> s: abd geçişinin antlaşma gününe bağlanması kaynakla desteklenmiyor; KARAR EMRELİC'te (KURAL KARARI gerektirir). f=1281 ATLAS UFKU."}
+  ,
+  {"sira": 3822, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1868-07-03", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Aynı Fort Bridger 1868 (OSU Tribal Treaties Database, bkz. sira 3821)",
+   "alinti": "Proclaimed Feb. 24, 1869.",
+   "oneri": {"f": "1869-02-24"},
+   "not": "sira 3821 ile eş: künye 'sosoni' t=1869-02-24 iken abd f=1868-07-03 dilim çakışması yaratır. Antlaşma Camas/Kansas Prairie'nin devrini içermez (Madde 2 rezervasyon vaadi). Idaho Territory (1863) örgütlenmesi ABD iddiasının daha erken olabileceğini gösterir — bu oturumda OKUNMADI (BAKILMADI)."}
+ ],
+ "Chicago (Fort Dearborn)": [
+  {"sira": 3823, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1803-01-01", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Greenville Antlaşması 1795-08-03 Madde 3, Yale Avalon Project, https://avalon.law.yale.edu/18th_century/greenvil.asp · Milo M. Quaife, Chicago and the Old Northwest, 1673-1835 (Univ. of Chicago Press, 1913), archive.org chicagooldnorth00quai",
+   "alinti": "One piece of land six miles square, at the mouth of Chikago river",
+   "alinti2": "on the third day of August, one thousand seven hundred and ninety five",
+   "oneri": {"f": "1795-08-03"},
+   "not": "ÖLÇÜT: idareye katma — Greenville Madde 3 madde 14: 'One piece of land six miles square, at the mouth of Chikago river, emptying into the southwest end of lake Michigan, where a fort formerly stood' ABD'ye devredilen parseller arasında; yerli unvan 1795-08-03'te sönüyor ('Done at Greenville ... on the third day of August, one thousand seven hundred and ninety five'). De jure egemenlik Paris 1783'te (Chicago Ohio nehri kuzeyi, Madde 2 sınırı içinde). Fort Dearborn kuruluşu 1803 (Quaife: 'Early in 1803 the matter was at last determined'; Savaş Bakanı emri 1803-03-09; askerler 1803-07-14'te Detroit'ten yola çıktı; 'the troops set out from Detroit under command of Lieutenant James Strode Swearingen') yani atlas f=1803-01-01 ne bir 'var oluş' gününü ne de bir sahiplik gününü gösterir: 1803 kale kuruluşu, daha erken yerleşim: Quaife 'De Peyster says that he was here in 1779' (Du Sable, tüccar; yerleşim tarihi belirsiz) ve Marquette-Joliet 1673 ziyareti (EB1911). F kuralına göre f erken olmalı, ama 1779'a geri gitmek yeni ilk dilimin sahibini (Michilimackinac/İngiliz Kanada, künye ve kaynak yok) gerektirir; bu yüzden BEYANLI alt sınır olarak sahipliği belgeleyen en erken gün 1795-08-03 öneriyorum (sahip abd, Paris 1783 + Greenville). 1803 ic_not (Fort Dearborn kuruluşu). 1779-1795 dilimi için ek araştırma gerekir (Quaife ile; BAKILMADI)."}
+ ],
+ "_f_geri": [
+  "F-GERI: Chicago (Fort Dearborn) 1803-01-01 -> 1795-08-03, sahip abd (Greenville 1795 + Paris 1783); 1779 Du Sable ve 1673 Marquette-Joliet daha erken ama sahibi künyesiz, yeni dilim uydurulmadı",
+  "(f İLERİ, geri değil) La Baye 1634 -> 1685, Portsmouth NH 1623 -> 1630, Falmouth 1632 -> 1633: öneriler f'i geç tarihe taşır; sahipsiz dilim doğurmaz, petek etkisi yalnız bu yerleşimlerin kendi başlangıcı",
+  "(sahip değişimi, f değil) Crow Agency karga/abd 1851-09-17 -> 1868-08-12, Camas Ovası sosoni/abd 1868-07-03 -> 1869-02-24, La Baye ingiltere/abd 1783-09-03 -> 1796-06-01: bu dilim kaymaları komşu petekleri etkiler"
+ ]
+}
