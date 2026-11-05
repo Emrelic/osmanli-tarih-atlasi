@@ -1,0 +1,47 @@
+{
+ "kaynak": "UMIT SALI, D ADIMI (ONERI yükseltme + ANTİK A), 5 Kasım 2026; EMRELİC gece-77 onayıyla LAB SALI'ya",
+ "not": "Hepsi ÖNERİ. Kaynak ve alıntılar ilgili satırların notlarında: antik_sonuc.json, dadim_sonuc.json, bagdat_kume.json. Künyeyi uygulamadan önce aynı polity mi diye LAB sınar.",
+ "genislet": [
+  {"id": "frank", "alan": "f", "mevcut": "0481-01-01", "oneri": "Childeric dönemi (~0457/0463)", "gerekce": "Treccani «Tournai»: 'Conquistata tra il 431 e il 451 dai Franchi, capitale dei primi re merovingi'; Köln Treccani 456", "satirlar": ["Tournai", "Köln"]},
+  {"id": "eftalit", "alan": "t", "mevcut": "0560", "oneri": "~0600 (Afgan kolu)", "gerekce": "Iranica «Hephthalites»: Afganistan kolu ~600'e dek, merkez 'most probably Ghazni'", "satirlar": ["Gazne", "Semerkant (560/562 CELISKI)"]},
+  {"id": "funan", "alan": "t", "mevcut": "0550", "oneri": "0627 [aralık 627-649]", "gerekce": "Coedès: Yeni Tang Tarihi Funan'ın (Na-fu-na) fethini 627-49 başına koyar; Takeo = Angkor Borei", "satirlar": ["Takeo"]},
+  {"id": "muvahhidler", "alan": "f", "mevcut": "1130-01-01", "oneri": "1123 (İbn Tûmert Tinmellel'de)", "gerekce": "TDV «İbn Tûmert»: 517 (1123)", "satirlar": ["Tinmel"]},
+  {"id": "uruk-erken-hanedan", "alan": "t", "mevcut": "-2333", "oneri": "KARAR: orta kronoloji, Akad f -2333 ile bitişik (EMRELİC gece-77); ARCANE ~2300 ic_not", "satirlar": ["Eridu", "Umma", "Uruk", "Ur"]},
+  {"id": "mari-sakkanakku", "alan": "f", "mevcut": "-2219", "oneri": "-2294", "gerekce": "ARCANE III (Sallaberger & Schrakamp 2015): Mari yıkımı ca. 2295; mari-erken t birlikte", "satirlar": ["Mari"]},
+  {"id": "frigya", "alan": "f", "mevcut": "-0737", "oneri": "-0949", "gerekce": "Penn Museum Gordion: Frig devletinin oluşumu ca. 950", "satirlar": ["Gordion"]},
+  {"id": "chengjia-gongsun-shu", "alan": "f/t", "mevcut": "0025 / 0036-01-01", "oneri": "f 0024 ('Shu Wang' Gengshi 2), t Jianwu 12 / 11. ay (Academia Sinica çevirisi)", "gerekce": "Hou Hanshu 1下/13/18", "satirlar": ["Chengdu"]},
+  {"id": "xi-liang-li-gao", "alan": "t", "mevcut": "0421", "oneri": "0423 (Li Xun Dunhuang'da)", "gerekce": "Song shu / Wei shu (a_005)", "satirlar": ["Dunhuang"]},
+  {"id": "bengal-sultanligi", "alan": "f", "mevcut": "1340-01-01", "oneri": "1338", "gerekce": "Banglapedia (Sonargaon, Dakka)", "satirlar": ["Dakka", "Sonârgâon"]},
+  {"id": "bidar", "alan": "f", "mevcut": "1489-01-01", "oneri": "1487", "gerekce": "y_079 kaynağı", "satirlar": ["Bîdar"]},
+  {"id": "afgan-durrani", "alan": "t", "mevcut": "1819-01-01", "oneri": "kapsam: Peşâver 1834'e dek Durrani/Barakzay valileri", "gerekce": "TDV «Peşâver» (Sih 1834); EMRELİC gece-62", "satirlar": ["Peşâver"]},
+  {"id": "hulefa-yi-rasidin", "alan": "kapsam", "mevcut": "0632-0661", "oneri": "Şam, Urfa, Kudüs fetihleri (634-640) kapsamı", "gerekce": "TDV Şam/Kudüs (a_002); EMRELİC: künye VAR, kapsam sorusu", "satirlar": ["Şam", "Urfa", "Kudüs"]},
+  {"id": "benevento-papalik", "alan": "f", "mevcut": "1000", "oneri": "~0571 (Benevento Dükalığı) — ya genişlet ya ayrı künye", "gerekce": "Treccani (Taranto, Cosenza: Benevento Lombardları); EMRELİC: GENİŞLET adayı", "satirlar": ["Taranto", "Cosenza"]},
+  {"id": "nube / makuria", "alan": "f", "mevcut": "nube 1281-1504", "oneri": "kerma.ch: İslâm dönemi 1317", "satirlar": ["Kerma"]},
+  {"id": "maukhari", "alan": "f", "mevcut": "0550", "oneri": "Gupta tâbisi öncesi (v:) — inceleme", "satirlar": ["Kannauc"]},
+  {"id": "maldivler-budist", "alan": "f/t", "mevcut": "ölçülmedi", "oneri": "ölç", "satirlar": ["Malé"]}
+ ],
+ "yeni": [
+  {"oneri_id": "ripuer-franklar", "ad": "Ripuer Frankları", "kapsam": "Köln, Nijmegen, Maastricht ~456-~507", "gerekce": "Treccani «Colonia» 456"},
+  {"oneri_id": "iskit-van", "ad": "İskitler (Urartu sonrası Van)", "kapsam": "-0608 → Med", "gerekce": "TDV «Van»"},
+  {"oneri_id": "diadokh-satrapliklari", "ad": "Diadokh satraplıkları (Babil, Medya)", "kapsam": "-0322-06-10 → -0311", "gerekce": "Iranica, Treccani «Seleuco I»"},
+  {"oneri_id": "kafsa-berberi-krallik", "ad": "Kafsa Berberî Krallığı", "kapsam": "0477 → 0534", "gerekce": "TDV «Kafsa»"},
+  {"oneri_id": "lysimakhos", "ad": "Lysimakhos Krallığı", "kapsam": "Sart vb. -0300'ler", "gerekce": "a_008 Sart zinciri"},
+  {"oneri_id": "persis-fratarakalar", "ad": "Persis (Frataraka)", "kapsam": "Pasargad ~-0279 →", "gerekce": "Iranica «Pasargadae»"},
+  {"oneri_id": "uruk-sin-kasid", "ad": "Uruk (Sin-kašid hanedanı)", "kapsam": "~-1869 → -1799", "gerekce": "Treccani «Uruk»"},
+  {"oneri_id": "sealand-2", "ad": "İkinci Deniz Ülkesi hanedanı", "kapsam": "-1024 → -1004", "gerekce": "Treccani «Paese del Mare»"},
+  {"oneri_id": "asur-sehir-ara", "ad": "Asur şehir yönetimi (Šamši-Adad sonrası, Orta Asur öncesi)", "kapsam": "-1775 → -1362", "gerekce": "Livius/Treccani «Assiria»: tâbilik (v:) üstte"},
+  {"oneri_id": "bamiyan-ser", "ad": "Bâmiyan Şer hanedanı", "kapsam": "~0727 → Gazneliler", "gerekce": "Iranica «Bāmīān ii»"},
+  {"oneri_id": "kubadogullari", "ad": "Kubadoğulları (Samsun)", "kapsam": "1398 → ~1419", "gerekce": "TDV «Samsun» (y_003b)"},
+  {"oneri_id": "dunbuli", "ad": "Dünbülî (Tebriz/Hoy) Hanlığı", "kapsam": "1747 → 1790", "gerekce": "TDV «Tebriz» (y_006b)"},
+  {"oneri_id": "teselya-sirp-yunan", "ad": "Teselya Sırp-Yunan hanedanı (Simeon Uroš, Angeloi)", "kapsam": "1359 → 1393", "gerekce": "TDV «Tırhala»; EMRELİC gece-36"},
+  {"oneri_id": "sadgeldi-amasya", "ad": "Şadgeldi / Amasya emirliği", "kapsam": "~1360 →", "gerekce": "y_082 Osmancık"},
+  {"oneri_id": "thrace-interalliee", "ad": "Thrace Interalliée", "kapsam": "1919-11-27 → 1920-05-22", "gerekce": "EMRELİC gece-36"},
+  {"oneri_id": "cin-gecis-rejimleri", "ad": "Çin geçiş rejimleri", "kapsam": "Sai, Henan (Shen Yang), Zhang Han, Wang Lin, Shen Faxing, Li Zitong, Du Fuwei, Dou Rong Hexi birliği, Ön Liang (Zhang Gui), Xia (Ming Yuzhen), Wu (Zhang Shicheng), Güney Qi", "gerekce": "a_005, y_088 (birincil Çin metinleri)"},
+  {"oneri_id": "cundinamarca-yeniden-fetih", "ad": "Yeni Granada 1810-1821 (Cundinamarca / İspanyol yeniden fethi)", "kapsam": "Panamá 1810-07-20 → 1821-11-28", "gerekce": "EMRELİC gece-53"}
+ ],
+ "cikarildi": [
+  {"id": "hulefa-yi-rasidin", "neden": "künye VAR (632-661); genişlet listesine taşındı"},
+  {"id": "benevento", "neden": "benevento-papalik VAR (1000-1053); genişlet listesine taşındı"},
+  {"id": "yeni-babil f -0625-11-23", "neden": "zaten LAB UYGULA'da"}
+ ]
+}

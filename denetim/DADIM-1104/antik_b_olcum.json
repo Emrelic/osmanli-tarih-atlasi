@@ -1,0 +1,95 @@
+{
+ "toplam": 618,
+ "tek_eski": 129,
+ "sinif": {
+  "Sınıflanamadı": 46,
+  "ATLAS künyesi (devletler.js)+Enc. Italiana 1929-37+Treccani güncel+Eski yerel tarih (<1950)": 6,
+  "Treccani güncel": 12,
+  "ATLAS künyesi (devletler.js)+Klasik/birincil yazar": 25,
+  "ATLAS künyesi (devletler.js)+TDV": 16,
+  "ATLAS künyesi (devletler.js)": 112,
+  "ATLAS künyesi (devletler.js)+EB1911+TDV+Eski yerel tarih (<1950)": 1,
+  "ATLAS künyesi (devletler.js)+Klasik/birincil yazar+TDV": 1,
+  "ATLAS künyesi (devletler.js)+Iranica": 18,
+  "TDV": 41,
+  "ATLAS künyesi (devletler.js)+Klasik/birincil yazar+Iranica": 5,
+  "ATLAS künyesi (devletler.js)+Cambridge (CAH/CHC/CHI)": 1,
+  "Iranica": 1,
+  "TDV+Iranica": 1,
+  "Klasik/birincil yazar": 18,
+  "Vikipedi+Klasik/birincil yazar": 1,
+  "ATLAS künyesi (devletler.js)+Treccani güncel+Eski yerel tarih (<1950)": 5,
+  "Treccani güncel+Eski yerel tarih (<1950)": 1,
+  "ATLAS künyesi (devletler.js)+Treccani güncel": 5,
+  "Enc. Italiana 1929-37+Treccani güncel": 11,
+  "ATLAS künyesi (devletler.js)+Enc. Italiana 1929-37+Treccani güncel": 7,
+  "Vikipedi+ATLAS künyesi (devletler.js)": 5,
+  "Vikipedi": 6,
+  "EB1911+Enc. Italiana 1929-37+Treccani güncel+Eski yerel tarih (<1950)": 1,
+  "EB1911+Treccani güncel+Eski yerel tarih (<1950)": 2,
+  "Enc. Italiana 1929-37+Treccani güncel+Cambridge (CAH/CHC/CHI)+Eski yerel tarih (<1950)": 2,
+  "Akademik monografi": 47,
+  "ATLAS künyesi (devletler.js)+Akademik monografi": 23,
+  "Birincil Çin metni": 70,
+  "ATLAS künyesi (devletler.js)+Birincil Çin metni": 10,
+  "Klasik/birincil yazar+Birincil Çin metni": 41,
+  "ATLAS künyesi (devletler.js)+Klasik/birincil yazar+Birincil Çin metni": 7,
+  "Akademik monografi+Hakemli makale/kazı+Eski yerel tarih (<1950)": 1,
+  "Klasik/birincil yazar+TDV": 1,
+  "ATLAS künyesi (devletler.js)+Eski yerel tarih (<1950)": 6,
+  "ATLAS künyesi (devletler.js)+Hakemli makale/kazı": 40,
+  "Treccani güncel+Birincil Çin metni+Eski yerel tarih (<1950)": 1,
+  "Klasik/birincil yazar+Akademik monografi": 2,
+  "Enc. Italiana 1929-37+Treccani güncel+Eski yerel tarih (<1950)": 1,
+  "Klasik/birincil yazar+Akademik monografi+Enc. Italiana 1929-37+Treccani güncel+Eski yerel tarih (<1950)": 1,
+  "Klasik/birincil yazar+Enc. Italiana 1929-37+Treccani güncel+Eski yerel tarih (<1950)": 1,
+  "Klasik/birincil yazar+Treccani güncel": 2,
+  "Akademik monografi+Birincil Çin metni+Eski yerel tarih (<1950)": 1,
+  "ATLAS künyesi (devletler.js)+Hakemli makale/kazı+Eski yerel tarih (<1950)": 4,
+  "ATLAS künyesi (devletler.js)+Akademik monografi+Hakemli makale/kazı": 1,
+  "ATLAS künyesi (devletler.js)+Iranica+Cambridge (CAH/CHC/CHI)": 1,
+  "ATLAS künyesi (devletler.js)+Iranica+Hakemli makale/kazı": 1,
+  "ATLAS künyesi (devletler.js)+UNESCO+Eski yerel tarih (<1950)": 3,
+  "ATLAS künyesi (devletler.js)+Akademik monografi+Cambridge (CAH/CHC/CHI)": 1,
+  "ATLAS künyesi (devletler.js)+Akademik monografi+Treccani güncel": 1,
+  "TDV+Eski yerel tarih (<1950)": 1
+ },
+ "aile_eski": {
+  "Helenistik/Yunan": {
+   "ATLAS künyesi (devletler.js)": 1
+  },
+  "Roma/Bizans": {
+   "ATLAS künyesi (devletler.js)": 25,
+   "Vikipedi": 5
+  },
+  "Diğer": {
+   "ATLAS künyesi (devletler.js)": 27
+  },
+  "Mezopotamya": {
+   "ATLAS künyesi (devletler.js)": 29
+  },
+  "Mısır": {
+   "ATLAS künyesi (devletler.js)": 5
+  },
+  "Germen göçü": {
+   "ATLAS künyesi (devletler.js)": 13,
+   "Vikipedi": 5
+  },
+  "Çin": {
+   "ATLAS künyesi (devletler.js)": 3
+  },
+  "Bozkır": {
+   "ATLAS künyesi (devletler.js)": 1
+  },
+  "Tarih öncesi": {
+   "ATLAS künyesi (devletler.js)": 9
+  },
+  "Hitit/Anadolu": {
+   "ATLAS künyesi (devletler.js)": 2,
+   "Vikipedi": 1
+  },
+  "Hint": {
+   "ATLAS künyesi (devletler.js)": 3
+  }
+ }
+}
