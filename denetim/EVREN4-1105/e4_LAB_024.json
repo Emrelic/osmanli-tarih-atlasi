@@ -13,7 +13,7 @@
    "oneri": {
     "f": "1433-01-01"
    },
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Dönem sonu (t 1237) ve 1281 öncesi dönemler yerleşim kuruluşundan önce olduğu için düşer."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Dönem sonu (t 1237) ve 1281 öncesi dönemler yerleşim kuruluşundan önce olduğu için düşer."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3679",
@@ -28,7 +28,7 @@
    "oneri": {
     "f": "1433-01-01"
    },
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Launggyet (1237-1433) Hall Ek I'e göre başka merkezli hanedandır; Mrauk U için sahiplik değil."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | ÜST SINIR: Harvey, Mrauk-u şehri hükümdar listesini 1433'te başlatır; atlas notu şehrin 1430'da kurulduğunu söyler (Hall, Launggyet 1237-1433). Yerleşim bu dönemde yok ⇒ boşluk merdiveni ④: dönemi kırp, kur: ~1430/1433; yıl düzeyi, 1430 ile 1433 çelişkisi beyan edilir (Harvey 1433). Launggyet (1237-1433) Hall Ek I'e göre başka merkezli hanedandır; Mrauk U için sahiplik değil."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3679",
@@ -44,7 +44,7 @@
     "f": "1433-01-01",
     "t": "1785-01-02"
    },
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Alıntı Mrauk-u şehir hükümdarlarının 1433-1785 aralığını verir (yıl düzeyi): f ucu atlasın 1281'i yerine şehir kuruluşu 1433; t ucu 1785 atlas gününü yıl düzeyinde doğruluyor ama Banglapedia 1784 diyor (bkz. Konbaung satırı). Gün teyitsiz."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Alıntı Mrauk-u şehir hükümdarlarının 1433-1785 aralığını verir (yıl düzeyi): f ucu atlasın 1281'i yerine şehir kuruluşu 1433; t ucu 1785 atlas gününü yıl düzeyinde doğruluyor ama Banglapedia 1784 diyor (bkz. Konbaung satırı). Gün teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3679",
@@ -57,7 +57,7 @@
    "kaynak": "Banglapedia, 'Arakan' — https://en.banglapedia.org/index.php/Arakan ; Harvey 1925 (archive.org historyofburmafr00harv)",
    "alinti": "In 1784, in the time of Bodawpaya (1782-1819), Arakan was annexed to the Kingdom of Burma",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | İKİ KAYNAK ÇELİŞİYOR, SEÇİLMEDİ: Banglapedia 1784 (ilhak yılı); Harvey Mrauk-u hükümdar listesi 1433-1785. Atlas 1785-01-02. Hükmü Emre verir; gün (2 Ocak) iki kaynakta da yok."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | İKİ KAYNAK ÇELİŞİYOR, SEÇİLMEDİ: Banglapedia 1784 (ilhak yılı); Harvey Mrauk-u hükümdar listesi 1433-1785. Atlas 1785-01-02. Hükmü Emre verir; gün (2 Ocak) iki kaynakta da yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3679",
@@ -70,7 +70,7 @@
    "kaynak": "Banglapedia, 'Arakan' — https://en.banglapedia.org/index.php/Arakan",
    "alinti": "which in turn was made a part of the British dominion in 1826",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | f ucu yıl düzeyinde teyitli [yalnız yıl; gün 1826-02-24 Yandabo, gün teyitsiz]. Ülke düzeyi (Arakan) anlatısı."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | f ucu yıl düzeyinde teyitli [yalnız yıl; gün 1826-02-24 Yandabo, gün teyitsiz]. Ülke düzeyi (Arakan) anlatısı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3679",
@@ -83,7 +83,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Dönem zaten kaynaklı (history.state.gov + Oxford Reference yıl 1937; gün teyitsiz); bu partide yeniden aranmadı."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): arakan künyesi etkilenmez (Launggyet hanedanı aynı polity); ama arakan'ı kullanan tek nokta Mrauk U — kırpılırsa 1281-1430 Arakan toprağı noktasız kalır → Launggyet noktası eklenmeli (mükerrer taraması: ad + 3 km); 1406-1429 sürgün dönemi isg. | KARAR EMRELİC (gece-83): şehir 1430/1433 kuruldu (Harvey) → kuruluş öncesi dilimler KIRPILIR. Konbaung: kaynaksız gün kalmaz; Harvey'den gün okunursa o gün, yoksa 1785-01-01 [yalnız yıl]. | ÖNCEKİ KARAR (gece-51 Çatgam): Arakan zinciri yer maddesi esas; Banglapedia/Harvey çelişkisi ic_not'ta ÇELİŞKİ olarak beyan. | Dönem zaten kaynaklı (history.state.gov + Oxford Reference yıl 1937; gün teyitsiz); bu partide yeniden aranmadı."
   }
  ],
  "Nauru (Yaren)": [
@@ -93,12 +93,12 @@
    "d": "almanya",
    "f": "1888-10-01",
    "t": "1914-11-06",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "uc": "f",
-   "kaynak": "Bakılan: Viviani 1970 PDF (nauru-data.sprep.org) metin çıkmadı; ANU Press n1857 PDF metin çıkmadı; WebSearch (ANU Press, UN, history.state.gov) 1888 ilhakını doğrulamadı",
-   "alinti": "",
+   "kaynak": "Viviani, Nancy, Nauru: Phosphate and Political Progress, ANU Press, Canberra 1970 (PDF, EMRELİC pypdf okuması) — https://nauru-data.sprep.org/system/files/viviani_1970.pdf, PDF s.30",
+   "alinti": "tion of Nauru into the Imperial German Protectorate of the Marshall Islands on 1 October 1888",
    "oneri": {},
-   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Ayrıntı yer_kaynak'ta (1888-10-01 fiilî, 16 Nisan 1888 kâğıt üstü) yalnız o kayıttan; teyit için başka cihazda PDF okunmalı."
+   "not": "f 1888-10-01 gün düzeyinde teyitli (Marşal Adaları himayesi; künye ölç). t ucu: 1914-11-06 Alman idarecinin teslimi (s.56). | Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Ayrıntı yer_kaynak'ta (1888-10-01 fiilî, 16 Nisan 1888 kâğıt üstü) yalnız o kayıttan; teyit için başka cihazda PDF okunmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
@@ -106,12 +106,17 @@
    "d": "ingiltere",
    "f": "1914-11-06",
    "t": "1921-06-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
-   "kaynak": "Bakılan: aynı kaynaklar",
-   "alinti": "",
-   "oneri": {},
-   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. 1914-11-06 teslim günü yer_kaynak'ta (Viviani/Naval Historical Society); bu oturumda okunmadı."
+   "kaynak": "Viviani, Nancy, Nauru: Phosphate and Political Progress, ANU Press, Canberra 1970 (PDF, EMRELİC pypdf okuması) — https://nauru-data.sprep.org/system/files/viviani_1970.pdf, PDF s.56",
+   "alinti": "The German Administrator formally surrendered on 6 November 1914 and was deported to Sydney",
+   "oneri": {
+    "alan": "isg",
+    "d": "avustralya",
+    "f": "1914-11-06",
+    "t": "1919-06-28"
+   },
+   "not": "KARAR EMRELİC (gece-84): savaş işgali isg avustralya 1914-11-06 (OCR '(i November'); Versay 1919-06-28 imza (Avustralya yönetiyordu, TEK ÖLÇÜ) → s: manda künyesi (künye ölç). 1920 manda günü PDF'te çıkmadı. | Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. 1914-11-06 teslim günü yer_kaynak'ta (Viviani/Naval Historical Society); bu oturumda okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
@@ -119,12 +124,15 @@
    "d": "avustralya",
    "f": "1921-06-01",
    "t": "1947-11-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
-   "kaynak": "Bakılan: aynı kaynaklar",
-   "alinti": "",
-   "oneri": {},
-   "not": "Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Avustralya idaresi Haziran 1921 (ay hassasiyeti); manda 1920-12-17 İngiltere'ye; kayıtta beyanlı. Egemen/idare ayrımı (İngiliz İmp. vs Avustralya) kaynaklı karar gerektirir."
+   "kaynak": "Viviani, Nancy, Nauru: Phosphate and Political Progress, ANU Press, Canberra 1970 (PDF, EMRELİC pypdf okuması) — https://nauru-data.sprep.org/system/files/viviani_1970.pdf, PDF s.96, 100-101",
+   "alinti": "The Japanese officially occupied Nauru on 26 August",
+   "oneri": {
+    "f": "1919-06-28",
+    "not": "araya isg japonya 1942-08-26 → 1945-09-14"
+   },
+   "not": "KARAR EMRELİC (gece-84): f Versay 1919-06-28 (manda künyesi ölçülecek); isg japonya 1942-08-26 (08-24 Chalmers teslimi ic_not) → 1945-09-14 Union Jack (s.101; 09-13 Avustralya kuvveti varışı, 21 Ağustos beyaz bayrak ic_not). Alıntılar EMRELİC'in pypdf okumasından birebir. | Kayıt düzeyi kaynak (yer_kaynak: Viviani 1970, ANU Press, PDF) bu oturumda sayfa.py ile açılamadı (6 MB PDF, metin çıkmadı); ANU Press 'Pacific Islanders under German Rule' PDF'i de çıkarılamadı; history.state.gov ve un.org sayfalarında bu tarih yok. Avustralya idaresi Haziran 1921 (ay hassasiyeti); manda 1920-12-17 İngiltere'ye; kayıtta beyanlı. Egemen/idare ayrımı (İngiliz İmp. vs Avustralya) kaynaklı karar gerektirir."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:98",
@@ -471,7 +479,7 @@
    "oneri": {
     "t": "1763-01-01"
    },
-   "not": "KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | f ucu yıl düzeyinde teyitli (1702). t ucu: EA 'French (1702-1763), British (1763-1780) and Spanish (1780-1813)' ⇒ Fransız dönemi 1763'te biter (Paris Antlaşması 1763-02-10 imza; teslim gün teyitsiz), atlasın 1762-11-03 (Fontainebleau gizli devri, Louisiane batısı) Mobile için geçerli değil: Mobile Mississippi'nin doğusunda İngiliz Batı Florida'sı. [yalnız yıl teyitli; gün teyitsiz]"
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): İspanyol dilimi id ispanyol-florida (künye 1513-04-02 → 1821-07-10, BOYALAR #fab1cf; 1763-83 İngiliz aralığı künyede kalır, ic_not, künye bölünmez). Zincir: 1702 fransa → 1763-10 ingiltere → 1780-03-14 isg ispanya → 1783-09-03 ispanyol-florida → 1813-04 isg abd → 1819-02-22 abd; 1821-02-22 onay ve 1821-07 teslim ic_not. yeni-ispanya 1762-11-03→1803-12-20 ve abd 1803-12-20 HATALI. | KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | f ucu yıl düzeyinde teyitli (1702). t ucu: EA 'French (1702-1763), British (1763-1780) and Spanish (1780-1813)' ⇒ Fransız dönemi 1763'te biter (Paris Antlaşması 1763-02-10 imza; teslim gün teyitsiz), atlasın 1762-11-03 (Fontainebleau gizli devri, Louisiane batısı) Mobile için geçerli değil: Mobile Mississippi'nin doğusunda İngiliz Batı Florida'sı. [yalnız yıl teyitli; gün teyitsiz]"
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1393",
@@ -485,10 +493,11 @@
    "alinti": "From 1780 to 1813, Spain ruled Mobile",
    "oneri": {
     "d": "ingiltere",
-    "f": "1763-01-01",
-    "t": "1780-03-14"
+    "f": "1763-10",
+    "t": "1780-03-14",
+    "not": "ardından isg ispanya 1780-03-14 → 1783-09-03, s: ispanyol-florida 1783-09-03 → 1813-04, isg abd 1813-04 → 1819-02-22"
    },
-   "not": "KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | BÖLÜNMELİ: 1763-1780 İngiliz Batı Florida'sı ('Fort Condé then became part of British West Florida', 'The British held the fort until March 1780') ⇒ yeni dönem d: ingiltere 1763 → 1780-03 (gün EA'da yok; 14 Mart tarihli Gálvez teslimi bu oturumda okunmadı, 'Mart 1780' ay düzeyi); ardından İspanya 1780-03 → 1813 (yeni-ispanya künyesi ya da İspanya? Mobile Batı Florida/Louisiana İspanyol idaresi, Yeni İspanya Genel Valiliği altında Küba kaptanlığı) ⇒ künye sorusu LAB'a. Atlas 1762-11-03 → 1803-12-20 aralığı yanlış."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): İspanyol dilimi id ispanyol-florida (künye 1513-04-02 → 1821-07-10, BOYALAR #fab1cf; 1763-83 İngiliz aralığı künyede kalır, ic_not, künye bölünmez). Zincir: 1702 fransa → 1763-10 ingiltere → 1780-03-14 isg ispanya → 1783-09-03 ispanyol-florida → 1813-04 isg abd → 1819-02-22 abd; 1821-02-22 onay ve 1821-07 teslim ic_not. yeni-ispanya 1762-11-03→1803-12-20 ve abd 1803-12-20 HATALI. | KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | BÖLÜNMELİ: 1763-1780 İngiliz Batı Florida'sı ('Fort Condé then became part of British West Florida', 'The British held the fort until March 1780') ⇒ yeni dönem d: ingiltere 1763 → 1780-03 (gün EA'da yok; 14 Mart tarihli Gálvez teslimi bu oturumda okunmadı, 'Mart 1780' ay düzeyi); ardından İspanya 1780-03 → 1813 (yeni-ispanya künyesi ya da İspanya? Mobile Batı Florida/Louisiana İspanyol idaresi, Yeni İspanya Genel Valiliği altında Küba kaptanlığı) ⇒ künye sorusu LAB'a. Atlas 1762-11-03 → 1803-12-20 aralığı yanlış."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1393",
@@ -501,9 +510,9 @@
    "kaynak": "Encyclopedia of Alabama, 'Mobile' — https://encyclopediaofalabama.org/article/mobile/ ; 'Fort Condé' — https://encyclopediaofalabama.org/article/fort-conde/",
    "alinti": "in April 1813, U.S. Army general James Wilkinson arrived with more than 1,000 men with orders from Pres. James Madison to take possession of the city",
    "oneri": {
-    "f": "1813-04-01"
+    "f": "1819-02-22"
    },
-   "not": "KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | ABD Mobile'i Nisan 1813'te aldı (Spanish surrendered ... without firing a shot, 13 Nisan: sayfa metninde gün kesik, WebSearch özeti 13 Nisan). 1803-12-20 Louisiana Satın Alımı Mobile'i kapsamıyordu (İspanyol Batı Florida'sı). f yıl-ay düzeyinde 1813-04; gün (13) ham metinde okunamadı. TEK ÖLÇÜ: İspanya teslim etti (teslim günü)."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): İspanyol dilimi id ispanyol-florida (künye 1513-04-02 → 1821-07-10, BOYALAR #fab1cf; 1763-83 İngiliz aralığı künyede kalır, ic_not, künye bölünmez). Zincir: 1702 fransa → 1763-10 ingiltere → 1780-03-14 isg ispanya → 1783-09-03 ispanyol-florida → 1813-04 isg abd → 1819-02-22 abd; 1821-02-22 onay ve 1821-07 teslim ic_not. yeni-ispanya 1762-11-03→1803-12-20 ve abd 1803-12-20 HATALI. | KARAR EMRELİC (gece-83): Fransız 1702 → Paris 1763-02-10; s: ingiltere teslim günü (1763-10, kaynakla) → 1780-03-14 Gálvez isg ispanya → Versay 1783-09-03 imza s: ispanya → 1813-04 Wilkinson isg abd → Adams-Onís 1819-02-22 imza s: abd (yürürlük 1821 ic_not). 1803 Louisiana alımı Mobile'ı kapsamaz (tartışmalı iddia, ic_not). İspanyol Batı Florida künyesi LAB SALI'da. | ABD Mobile'i Nisan 1813'te aldı (Spanish surrendered ... without firing a shot, 13 Nisan: sayfa metninde gün kesik, WebSearch özeti 13 Nisan). 1803-12-20 Louisiana Satın Alımı Mobile'i kapsamıyordu (İspanyol Batı Florida'sı). f yıl-ay düzeyinde 1813-04; gün (13) ham metinde okunamadı. TEK ÖLÇÜ: İspanya teslim etti (teslim günü)."
   }
  ],
  "Mîrat (Meerut)": [
@@ -615,10 +624,9 @@
    "kaynak": "WebSearch özeti (akademik kaynak adları: Cambridge/Springer; metin okunmadı)",
    "alinti": "",
    "oneri": {
-    "d": "japonya (Ōmura beyliği) — künye LAB SALI",
-    "not": "s: portekiz kalkar"
+    "d": "azuchi-momoyama"
    },
-   "not": "KARAR EMRELİC (gece-83): 1580–87 Cizvit bağışı egemenlik devri değil (Ōmura'nın kilise bağışı); s: portekiz HATALI, Japon (Ōmura beyliği / Japonya künyesi) sürer, ic_not. | ÖLÇÜT: geçici/askerî değil — idare Cizvitlerde: 1580'de Nagasaki 'Cizvitlerin doğrudan denetimine' girdi (Valignano, Makao benzeri kira). Portekiz Krallığı değil, Cizvit tarikatı idaresi; Japon egemenliği (Ōmura/Toyotomi) formal sürer ⇒ s: portekiz yanlış sahip olabilir (hayalet sahiplik); 1580-06-09 ve 1587-07-24 günleri okunmadı. Hideyoshi 1587 bateren fermanı 18-19 Haziran (arama özeti), 24 Temmuz atlas günü teyitsiz. Kaynak okunmadan öneri verilmedi."
+   "not": "LAB SALI b856d0a32 (HAYALET-KARAR, gece-83): Ōmura künyesi yok; dilim azuchi-momoyama (Oda-Toyotomi Japonyası) sürer; 1580-06-09 Cizvit bağışı ve 1587-07-24 Hideyoshi ic_not. | KARAR EMRELİC (gece-83): 1580–87 Cizvit bağışı egemenlik devri değil (Ōmura'nın kilise bağışı); s: portekiz HATALI, Japon (Ōmura beyliği / Japonya künyesi) sürer, ic_not. | ÖLÇÜT: geçici/askerî değil — idare Cizvitlerde: 1580'de Nagasaki 'Cizvitlerin doğrudan denetimine' girdi (Valignano, Makao benzeri kira). Portekiz Krallığı değil, Cizvit tarikatı idaresi; Japon egemenliği (Ōmura/Toyotomi) formal sürer ⇒ s: portekiz yanlış sahip olabilir (hayalet sahiplik); 1580-06-09 ve 1587-07-24 günleri okunmadı. Hideyoshi 1587 bateren fermanı 18-19 Haziran (arama özeti), 24 Temmuz atlas günü teyitsiz. Kaynak okunmadan öneri verilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3313",
