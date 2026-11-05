@@ -86,12 +86,16 @@
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "alinti2": "The United Nations never recognised this integration, and both the Security Council and the General Assembly called for Indonesia’s withdrawal.",
    "oneri": {},
-   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI.",
+   "not": "EMRELİC (5 Kasım 2026) gece-93'e DÖNÜŞ — önceki §151 notu GEÇERSİZ: s: portekiz-timor t 1975-11-27 (künye uzamaz, s: satırı kısalır). 1975-11-28 → 12-06 BEYANLI: FRETILIN Ağustos 1975'ten beri fiilî idarede; RDTL künye adayı (LAB). · EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · t = 7 Aralık 1975 Endonezya işgal günü KAYNAKLI. UYARI: portekiz-timor künye t=1975-11-28 (Fretilin ilanı; ANU: 'Fretilin declared the independence of East Timor on 28 November 1975') -> satır künye ömrünü 9 gün aşıyor (hayalet devlet kontrolü); künye t genişletme (aynı polity sürüyor: BM'ye göre Portekiz idareci güç) ya da 1975-11-28 ile 12-07 arası ayrı kayıt. TEK KURAL: işgal ilhak tanınana dek isg -> Portekiz'in hukukî egemenliği BM kararlarıyla sürdü. f 1945-09-02 (Japon teslimi/Portekiz dönüşü) BAKILMADI.",
    "oneri_son": {
     "d": "portekiz-timor",
     "f": "1945-09-02",
-    "t": "1975-11-28",
-    "sonraki": "1975-11-28 → 12-07 DRTL/FRETILIN (künye LAB) — beyanlı"
+    "t": "1975-11-27",
+    "sonraki_beyan": {
+     "f": "1975-11-28",
+     "t": "1975-12-06",
+     "beyan": "1975-11-28 → 12-06 BEYANLI: FRETILIN Ağustos 1975'ten beri fiilî idarede; RDTL künye adayı (LAB)."
+    }
    }
   },
   {
@@ -112,21 +116,14 @@
     "f": "1975-12-07",
     "t": "1999-10-25"
    },
-   "oneri_son": [
-    {
-     "alan": "isg",
-     "d": "endonezya",
-     "f": "1975-12-07",
-     "t": "1976-07-17"
-    },
-    {
-     "alan": "s",
-     "d": "endonezya-dogu-timor",
-     "f": "1976-07-17",
-     "t": "1999-10-25"
-    }
-   ],
-   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."
+   "oneri_son": {
+    "alan": "s",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25",
+    "ic_not": "1976-07-17 ilhak yasası (27. il); BM tanımadı. Künye tur:isgal bütün işgali temsil eder (gece-93)."
+   },
+   "not": "EMRELİC (5 Kasım 2026) gece-93'e DÖNÜŞ — önceki §151 notu GEÇERSİZ: s: endonezya-dogu-timor 1975-12-07 → 1999-10-25 (künye tur:isgal, f 1975-12-07, devletler.js:15607); 1976-07-17 ilhak ic_not. TAHRİR §151 / işgal künyesi uyumu Emre'nin sabah listesinde. · EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — UNIS: Endonezya askerî müdahale etti, 27. eyalet ilan etti, 'BM entegrasyonu hiç tanımadı' (BM Güvenlik Konseyi ve Genel Kurul çekilme istedi). TEK KURAL (işgal, ilhak tanınana dek isg; Kâbil/Brüksel emsali) -> alan s yerine isg, s: Portekiz hukukî egemenliği devam. Ham gün 7 Aralık 1975 ANU ile teyitli; 1976-07-17 ilhak yasası ic_not (atlas mevcut notu, BM tanımadı). t = 25 Ekim 1999 UNTAET KAYNAKLI. Karar EMRELİC'te."
   },
   {
    "sira": 4355,
@@ -206,12 +203,16 @@
    "kaynak": "ANU Press ch.2 (ham metin); UNIS Note 189",
    "alinti": "On 7 December 1975, a few hours after the conclusion of an official visit to Jakarta [...] the Indonesian army launched a military invasion",
    "oneri": {},
-   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI.",
+   "not": "EMRELİC (5 Kasım 2026) gece-93'e DÖNÜŞ — önceki §151 notu GEÇERSİZ: s: portekiz-timor t 1975-11-27 (künye uzamaz, s: satırı kısalır). 1975-11-28 → 12-06 BEYANLI: FRETILIN Ağustos 1975'ten beri fiilî idarede; RDTL künye adayı (LAB). · EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): portekiz-timor künye t 1975-11-28'i 9 gün aşıyor (hayalet): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · Ülke düzeyi (Doğu Timor işgali). Lautém'in ilk işgal günü bu cümle değil (Dili 7 Aralık; Baucau 10 Aralık atlas kronolojisi). Künye portekiz-timor t=1975-11-28 aşımı için Maliana 4353 notuna bak. f BAKILMADI.",
    "oneri_son": {
     "d": "portekiz-timor",
     "f": "1945-09-02",
-    "t": "1975-11-28",
-    "sonraki": "1975-11-28 → 12-07 DRTL/FRETILIN (künye LAB) — beyanlı"
+    "t": "1975-11-27",
+    "sonraki_beyan": {
+     "f": "1975-11-28",
+     "t": "1975-12-06",
+     "beyan": "1975-11-28 → 12-06 BEYANLI: FRETILIN Ağustos 1975'ten beri fiilî idarede; RDTL künye adayı (LAB)."
+    }
    }
   },
   {
@@ -231,21 +232,14 @@
     "f": "1975-12-07",
     "t": "1999-10-25"
    },
-   "oneri_son": [
-    {
-     "alan": "isg",
-     "d": "endonezya",
-     "f": "1975-12-07",
-     "t": "1976-07-17"
-    },
-    {
-     "alan": "s",
-     "d": "endonezya-dogu-timor",
-     "f": "1976-07-17",
-     "t": "1999-10-25"
-    }
-   ],
-   "not": "EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."
+   "oneri_son": {
+    "alan": "s",
+    "d": "endonezya-dogu-timor",
+    "f": "1975-12-07",
+    "t": "1999-10-25",
+    "ic_not": "1976-07-17 ilhak yasası (27. il); BM tanımadı. Künye tur:isgal bütün işgali temsil eder (gece-93)."
+   },
+   "not": "EMRELİC (5 Kasım 2026) gece-93'e DÖNÜŞ — önceki §151 notu GEÇERSİZ: s: endonezya-dogu-timor 1975-12-07 → 1999-10-25 (künye tur:isgal, f 1975-12-07, devletler.js:15607); 1976-07-17 ilhak ic_not. TAHRİR §151 / işgal künyesi uyumu Emre'nin sabah listesinde. · EMRELİC (5 Kasım 2026, 2. çeviri turu; Academia Sinica, Gregoryen): Doğu Timor (TAHRİR §151, Habsburg Macaristan emsali): isg endonezya 1975-12-07 → 1976-07-17; s: endonezya 1976-07-17 (ilhak yasası, 27. il) → 1999-10-25. BM'nin tanımaması ic_not. 1975-11-28 → 12-07: FRETILIN Dili'yi fiilen yönetiyordu (Portekiz 1975-08'de Atauro'ya çekildi) — DRTL künyesi LAB'a soruldu; portekiz-timor'un 11-28 sonrası 9 günlük aşımı hayalet, künye gelene dek beyanlı. · ÖLÇÜT: geçici/askerî — BM ilhakı tanımadı (Maliana 4354 ile aynı gerekçe). t 25 Ekim 1999 KAYNAKLI. Lautém'e özgü fiilî işgal günü (Lautém ~aralık 1975 sonu?) okunmadı: ÜLKE DÜZEYİ."
   },
   {
    "sira": 4361,

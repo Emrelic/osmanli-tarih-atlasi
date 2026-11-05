@@ -49,7 +49,20 @@
     "t": "1901-01-01",
     "ek": "avustralya 1901-01-01'den baslamali"
    },
-   "not": "ONERI-guclu, KAYNAKLI degil (ozet). SRO WA ozeti: Fitzroy'da 1893'te polis kampi, 1895-96'da ilk istasyon; kasaba 1912'de gazetted, 1974-75'te yeniden konumlandi; Wikipedia: haritalarda 1903'ten. Yani 1903 oncesi yer var ve Bati Avustralya Kolonisi'nde (kunye t 1901-01-01): 1893-1901 arasi s: bati-avustralya dilimi eksik, avustralya 1901-01-01'den baslamali. 1893 yalniz YIL (polis kampi = baslangic varsayimi). Dogrulama icin SRO sayfasi ham okunmali ya da WA Government Gazette. Kolonyal sahiplik 1829'dan ama yerlesim 1893 oncesi yok: oncesi YOK_O_DEVIRDE."
+   "not": "EMRELİC (5 Kasım 2026, r8_112/113 kararları): Fitzroy Crossing onay: bati-avustralya 1893 [yıl] → 1901-01-01 → avustralya (ONERI-güçlü). · ONERI-guclu, KAYNAKLI degil (ozet). SRO WA ozeti: Fitzroy'da 1893'te polis kampi, 1895-96'da ilk istasyon; kasaba 1912'de gazetted, 1974-75'te yeniden konumlandi; Wikipedia: haritalarda 1903'ten. Yani 1903 oncesi yer var ve Bati Avustralya Kolonisi'nde (kunye t 1901-01-01): 1893-1901 arasi s: bati-avustralya dilimi eksik, avustralya 1901-01-01'den baslamali. 1893 yalniz YIL (polis kampi = baslangic varsayimi). Dogrulama icin SRO sayfasi ham okunmali ya da WA Government Gazette. Kolonyal sahiplik 1829'dan ama yerlesim 1893 oncesi yok: oncesi YOK_O_DEVIRDE.",
+   "oneri_son": [
+    {
+     "d": "bati-avustralya",
+     "f": "1893-01-01",
+     "t": "1901-01-01"
+    },
+    {
+     "d": "avustralya",
+     "f": "1901-01-01",
+     "t": "2000-12-31"
+    }
+   ],
+   "karar": "EMRELİC"
   }
  ],
  "Mount Magnet": [
@@ -118,7 +131,13 @@
     "t": "1911-01-01",
     "ek": "s: avustralya 1911-01-01'den yeni satir"
    },
-   "not": "Kurulus 1908 KAYNAKLI (Find & Connect ham metin: misyonerler 27 Agustos 1908'de vardi; arazi 'leased to the Mission by the Government of South Australia'; NT Place Names: 'established ... in 1908'). Sahip hatasi: 1908'de Kuzey Bolge hala Guney Avustralya'ya bagli (kunye kuzey-bolgesi-sa f 1863-07-06 t 1911-01-01, ABS 'passed to the Commonwealth on 1 January 1911'; kunyenin ic_notundan, ben ayrica kaynaklamadim). Bu yuzden s: avustralya 1908'de olamaz; 1908-1911-01-01 kuzey-bolgesi-sa, sonra avustralya. Misyon 1940 selinden sonra Ngukurr'a tasindi, 1968'de NT Welfare Branch devraldi, 1988'de Ngukurr adi. 1911-01-01 ucu bu kaynakla teyitsiz. Gun 1908-08-27 varis gunu, kurulus gunu olarak alindi."
+   "not": "EMRELİC (5 Kasım 2026, r8_112/113 kararları): Roper River: kuzey-bolgesi-sa dilimi AÇILMAZ (atlas eyaletleri federasyonda bitirir; NT 1901'den s: avustralya kesintisiz). 1908 Surrender Act ve 1911-01-01 federal devir ic_not. · Kurulus 1908 KAYNAKLI (Find & Connect ham metin: misyonerler 27 Agustos 1908'de vardi; arazi 'leased to the Mission by the Government of South Australia'; NT Place Names: 'established ... in 1908'). Sahip hatasi: 1908'de Kuzey Bolge hala Guney Avustralya'ya bagli (kunye kuzey-bolgesi-sa f 1863-07-06 t 1911-01-01, ABS 'passed to the Commonwealth on 1 January 1911'; kunyenin ic_notundan, ben ayrica kaynaklamadim). Bu yuzden s: avustralya 1908'de olamaz; 1908-1911-01-01 kuzey-bolgesi-sa, sonra avustralya. Misyon 1940 selinden sonra Ngukurr'a tasindi, 1968'de NT Welfare Branch devraldi, 1988'de Ngukurr adi. 1911-01-01 ucu bu kaynakla teyitsiz. Gun 1908-08-27 varis gunu, kurulus gunu olarak alindi.",
+   "oneri_son": {
+    "d": "avustralya",
+    "f": "1908-01-01",
+    "t": "2000-12-31"
+   },
+   "karar": "EMRELİC"
   }
  ],
  "Waitangi (Bay of Islands)": [
