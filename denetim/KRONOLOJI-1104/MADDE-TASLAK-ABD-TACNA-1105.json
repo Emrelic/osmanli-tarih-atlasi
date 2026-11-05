@@ -870,7 +870,7 @@
     "peru-cumhuriyeti",
     "bolivya-cumhuriyeti"
    ],
-   "b": "Tacna (Alto de la Alianza) Muharebesi — Tacna Şili'nin eline geçti",
+   "b": "Tacna (Alto de la Alianza) Savaşı — Peru–Bolivya müttefik ordusu bozguna uğradı",
    "tur": "isgal",
    "onem": 3,
    "dunya": 2,
@@ -887,34 +887,34 @@
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Las operaciones militares de la Guerra del Pacífico (1879-1884), kronoloji https://www.memoriachilena.gob.cl/602/w3-article-693.html : \"26 de mayo: El Ejército chileno derrota al Ejército Perú-boliviano en Tacna. Éste último tenía 13.650 hombres, y pierde 5 mil. Bolivia se retira de la guerra.\""
   },
   "teyit": "KAYNAKLI",
-  "not": "Alıntı sayfa.py ham metninden (yıl satırı '1880'). 'Tacna şehri aynı gün işgal edildi' ifadesi kaynakta yok; kaynak savaşın Tacna'da kazanıldığını söylüyor — d buna göre 'bu günden itibaren' dedi. Mevcut kronoloji_cok_guney_amerika.js:122 maddesi (Putre odaklı, Sater sayfasız) ile mükerrer olmasın: uygulamada o madde Tacna odağına çevrilir ya da bu madde onun yerine geçer. 'Tacna' yeni nokta (LAB).",
+  "not": "Alıntı sayfa.py ham metninden (yıl satırı '1880'). 'Tacna şehri aynı gün işgal edildi' ifadesi kaynakta yok; kaynak savaşın Tacna'da kazanıldığını söylüyor — d buna göre 'bu günden itibaren' dedi. Mevcut kronoloji_cok_guney_amerika.js:122 maddesi (Putre odaklı, Sater sayfasız) ile mükerrer olmasın: uygulamada o madde Tacna odağına çevrilir ya da bu madde onun yerine geçer. 'Tacna' yeni nokta (LAB). | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
   "ceviri": {
    "en": {
-    "b": "Battle of Tacna (Alto de la Alianza) — Tacna passes to Chile",
+    "b": "Battle of Tacna (Alto de la Alianza) — the allied Peruvian–Bolivian army was routed",
     "d": "In the War of the Pacific, the Chilean army decisively defeated the allied Peruvian–Bolivian army near Tacna on 26 May 1880. The allied army suffered heavy losses and Bolivia withdrew from the war. From this day Tacna came under Chilean occupation."
    },
    "ar": {
-    "b": "معركة تاكنا (ألتو دي لا أليانثا) — تاكنا تنتقل إلى تشيلي",
+    "b": "معركة تاكنا (ألتو دي لا أليانثا) — هزيمة الجيش البيروفي البوليفي المتحالف",
     "d": "في حرب المحيط الهادئ هزم الجيش التشيلي جيش بيرو وبوليفيا المتحالف هزيمة حاسمة قرب تاكنا في 26 مايو 1880. وتكبّد الجيش المتحالف خسائر فادحة وانسحبت بوليفيا من الحرب. ومنذ ذلك اليوم دخلت تاكنا تحت الاحتلال التشيلي."
    },
    "de": {
-    "b": "Schlacht von Tacna (Alto de la Alianza) — Tacna fällt an Chile",
+    "b": "Schlacht von Tacna (Alto de la Alianza) — das verbündete peruanisch-bolivianische Heer wurde geschlagen",
     "d": "Im Salpeterkrieg besiegte die chilenische Armee am 26. Mai 1880 bei Tacna die verbündete peruanisch-bolivianische Armee entscheidend. Die Verbündeten erlitten schwere Verluste, und Bolivien schied aus dem Krieg aus. Von diesem Tag an stand Tacna unter chilenischer Besatzung."
    },
    "es": {
-    "b": "Batalla de Tacna (Alto de la Alianza) — Tacna pasa a Chile",
+    "b": "Batalla de Tacna (Alto de la Alianza) — el ejército aliado peruano-boliviano fue derrotado",
     "d": "En la Guerra del Pacífico, el ejército chileno derrotó de forma decisiva al ejército aliado peruano-boliviano cerca de Tacna el 26 de mayo de 1880. El ejército aliado sufrió grandes pérdidas y Bolivia se retiró de la guerra. Desde ese día Tacna quedó bajo ocupación chilena."
    },
    "fr": {
-    "b": "Bataille de Tacna (Alto de la Alianza) — Tacna passe au Chili",
+    "b": "Bataille de Tacna (Alto de la Alianza) — l'armée alliée péruano-bolivienne est mise en déroute",
     "d": "Pendant la guerre du Pacifique, l'armée chilienne battit de façon décisive l'armée alliée péruano-bolivienne près de Tacna le 26 mai 1880. L'armée alliée subit de lourdes pertes et la Bolivie se retira de la guerre. À partir de ce jour, Tacna passa sous occupation chilienne."
    },
    "pt": {
-    "b": "Batalha de Tacna (Alto de la Alianza) — Tacna passa para o Chile",
+    "b": "Batalha de Tacna (Alto de la Alianza) — o exército aliado peruano-boliviano foi derrotado",
     "d": "Na Guerra do Pacífico, o exército chileno derrotou de forma decisiva o exército aliado peruano-boliviano perto de Tacna em 26 de maio de 1880. O exército aliado sofreu pesadas perdas e a Bolívia retirou-se da guerra. A partir desse dia Tacna ficou sob ocupação chilena."
    },
    "ru": {
-    "b": "Битва при Такне (Альто-де-ла-Алианса) — Такна переходит к Чили",
+    "b": "Битва при Такне (Альто-де-ла-Алианса) — союзная перуанско-боливийская армия разгромлена",
     "d": "В Тихоокеанской войне чилийская армия 26 мая 1880 года нанесла решительное поражение союзной перуанско-боливийской армии под Такной. Союзная армия понесла тяжёлые потери, и Боливия вышла из войны. С этого дня Такна оказалась под чилийской оккупацией."
    }
   }
@@ -932,7 +932,7 @@
     "sili-cumhuriyeti",
     "peru-cumhuriyeti"
    ],
-   "b": "Arica'nın alınışı — Şili Morro'yu hücumla aldı",
+   "b": "Arica (Morro) Savaşı — Şili Arica'yı aldı, Tacna–Arica fiilen Şili işgaline girdi",
    "tur": "isgal",
    "onem": 3,
    "dunya": 2,
@@ -948,34 +948,34 @@
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Arica (1540-1929), kronoloji https://www.memoriachilena.gob.cl/602/w3-article-554.html : \"7 de junio. Arica queda bajo soberanía chilena, luego de que sus tropas vencieran a los defensores peruanos parapetados en el morro\" · aynı kurumun ikinci sayfası: Memoria Chilena, Las operaciones militares de la Guerra del Pacífico https://www.memoriachilena.gob.cl/602/w3-article-693.html : \"7 de junio: Chile toma Arica.\""
   },
   "teyit": "KAYNAKLI",
-  "not": "Aynı kurumun iki ayrı minisitesi (bağımsız sayılmaz; 'çift teyit' yazılmadı). Alıntılar sayfa.py ham metninden. Atlas: Arica kaydı 1880-06-07 → sili-cumhuriyeti ile birebir.",
+  "not": "Aynı kurumun iki ayrı minisitesi (bağımsız sayılmaz; 'çift teyit' yazılmadı). Alıntılar sayfa.py ham metninden. Atlas: Arica kaydı 1880-06-07 → sili-cumhuriyeti ile birebir. | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
   "ceviri": {
    "en": {
-    "b": "Capture of Arica — Chile storms the Morro",
+    "b": "Battle of Arica (Morro) — Chile took Arica; Tacna–Arica came under de facto Chilean occupation",
     "d": "Twelve days after the victory at Tacna, Chilean troops defeated the Peruvian defenders entrenched on the Morro hill at Arica on 7 June 1880 and took the town. From this day Arica came under Chilean rule. The final fate of Arica, together with Tacna, was settled only in 1929."
    },
    "ar": {
-    "b": "الاستيلاء على أريكا — تشيلي تقتحم المورّو",
+    "b": "معركة أريكا (المورو) — استولت تشيلي على أريكا ودخلت تاكنا وأريكا فعليًا تحت الاحتلال التشيلي",
     "d": "بعد اثني عشر يومًا من النصر في تاكنا هزمت القوات التشيلية المدافعين البيروفيين المتحصنين على تل المورّو في أريكا في 7 يونيو 1880 واستولت على المدينة. ومنذ ذلك اليوم دخلت أريكا تحت الحكم التشيلي. ولم يُحسم مصير أريكا النهائي مع تاكنا إلا في عام 1929."
    },
    "de": {
-    "b": "Einnahme von Arica — Chile erstürmt den Morro",
+    "b": "Schlacht von Arica (Morro) — Chile nahm Arica ein; Tacna–Arica geriet faktisch unter chilenische Besatzung",
     "d": "Zwölf Tage nach dem Sieg bei Tacna besiegten chilenische Truppen am 7. Juni 1880 die auf dem Morro-Hügel von Arica verschanzten peruanischen Verteidiger und nahmen die Stadt. Von diesem Tag an stand Arica unter chilenischer Herrschaft. Das endgültige Schicksal Aricas wurde zusammen mit dem Tacnas erst 1929 entschieden."
    },
    "es": {
-    "b": "Toma de Arica — Chile asalta el Morro",
+    "b": "Batalla de Arica (Morro) — Chile tomó Arica; Tacna–Arica quedó de hecho bajo ocupación chilena",
     "d": "Doce días después de la victoria de Tacna, las tropas chilenas vencieron el 7 de junio de 1880 a los defensores peruanos parapetados en el morro de Arica y tomaron la ciudad. Desde ese día Arica quedó bajo dominio chileno. El destino definitivo de Arica, junto con el de Tacna, solo se resolvió en 1929."
    },
    "fr": {
-    "b": "Prise d'Arica — le Chili prend d'assaut le Morro",
+    "b": "Bataille d'Arica (Morro) — le Chili prend Arica ; Tacna–Arica passe de fait sous occupation chilienne",
     "d": "Douze jours après la victoire de Tacna, les troupes chiliennes battirent le 7 juin 1880 les défenseurs péruviens retranchés sur la colline du Morro à Arica et prirent la ville. À partir de ce jour, Arica passa sous domination chilienne. Le sort définitif d'Arica, comme celui de Tacna, ne fut réglé qu'en 1929."
    },
    "pt": {
-    "b": "Tomada de Arica — o Chile toma de assalto o Morro",
+    "b": "Batalha de Arica (Morro) — o Chile tomou Arica; Tacna–Arica ficou de fato sob ocupação chilena",
     "d": "Doze dias depois da vitória de Tacna, as tropas chilenas venceram em 7 de junho de 1880 os defensores peruanos entrincheirados no morro de Arica e tomaram a cidade. A partir desse dia Arica ficou sob domínio chileno. O destino definitivo de Arica, juntamente com o de Tacna, só foi resolvido em 1929."
    },
    "ru": {
-    "b": "Взятие Арики — Чили штурмом берёт Морро",
+    "b": "Битва при Арике (Морро) — Чили взяла Арику; Такна и Арика фактически оказались под чилийской оккупацией",
     "d": "Через двенадцать дней после победы при Такне чилийские войска 7 июня 1880 года разбили перуанских защитников, укрепившихся на холме Морро в Арике, и взяли город. С этого дня Арика оказалась под властью Чили. Окончательная судьба Арики, как и Такны, была решена лишь в 1929 году."
    }
   }
@@ -1056,7 +1056,7 @@
     "sili-cumhuriyeti",
     "peru-cumhuriyeti"
    ],
-   "b": "Şili, Tacna ve Arica'yı tek il olarak kendi idaresine kattı — Tacna y Arica ili kuruldu",
+   "b": "Şili, işgal ettiği Tacna ve Arica'yı tek il olarak örgütledi — Tacna y Arica ili kuruldu",
    "tur": "toprak-kazanc",
    "onem": 2,
    "dunya": 2,
@@ -1072,34 +1072,34 @@
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Nuevos territorios (minisitio El impacto de la guerra del Pacífico) https://www.memoriachilena.gob.cl/602/w3-article-96443.html : \"La provincia de Tacna y Arica se creó el 31 de octubre de 1884 y contaba con una población mayoritariamente peruana de 24.160 habitantes. Estaba conformada por los departamentos de Tacna y Arica\""
   },
   "teyit": "KAYNAKLI",
-  "not": "Alıntı sayfa.py ham metninden. Brifin önerdiği BCN yasa metni (bcn.cl / leychile) bu turda okunmadı; yasa numarası yazılmadı (28 Ekim kaynak denetimi kararıyla uyumlu). Mevcut kronoloji_cok_guney_amerika.js:137 maddesiyle aynı gün/olay (tur 'idari', Putre odaklı) — mükerrer olmaması için uygulamada biri seçilmeli. tur 'toprak-kazanc' brifteki listeden seçildi; fiilî/hukukî ayrımı d'de beyanlı.",
+  "not": "Alıntı sayfa.py ham metninden. Brifin önerdiği BCN yasa metni (bcn.cl / leychile) bu turda okunmadı; yasa numarası yazılmadı (28 Ekim kaynak denetimi kararıyla uyumlu). Mevcut kronoloji_cok_guney_amerika.js:137 maddesiyle aynı gün/olay (tur 'idari', Putre odaklı) — mükerrer olmaması için uygulamada biri seçilmeli. tur 'toprak-kazanc' brifteki listeden seçildi; fiilî/hukukî ayrımı d'de beyanlı. | gece-108 (EMRELİC onayı): b, kronoloji_cok_guney_amerika.js'teki maddeyle birebir aynı yapıldı. js/app.js ekleyicisi aynı t+b'yi atar; sitede olay bir kez görünür. odak_yer (Tacna+Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. Çeviri dalında bu kronoloji_cok maddesinin çevirisi yok (origin/emrelic-1104-ceviri-birlesik'te 'Tacna' geçmiyor). Bu 7 dil b'si, cok maddesi çevrilirken aynen kullanılmalı.",
   "ceviri": {
    "en": {
-    "b": "Chile incorporates Tacna and Arica into its administration as a single province — the province of Tacna y Arica is created",
+    "b": "Chile organized occupied Tacna and Arica as a single province — the province of Tacna y Arica was created",
     "d": "On 31 October 1884 Chile organised the occupied territories as the province of Tacna y Arica, made up of the departments of Tacna and Arica. Since the Treaty of Ancón had left sovereignty to a plebiscite, this was not a legal annexation but the institutionalisation of de facto rule. The province's population was overwhelmingly Peruvian."
    },
    "ar": {
-    "b": "تشيلي تضم تاكنا وأريكا إلى إدارتها ولايةً واحدة — إنشاء ولاية تاكنا وأريكا",
+    "b": "نظّمت تشيلي تاكنا وأريكا المحتلتين في ولاية واحدة — إنشاء ولاية تاكنا وأريكا",
     "d": "في 31 أكتوبر 1884 نظّمت تشيلي الأراضي المحتلة باسم ولاية تاكنا وأريكا المؤلفة من مقاطعتي تاكنا وأريكا. ولمّا كانت معاهدة أنكون قد تركت السيادة لاستفتاء شعبي، لم يكن ذلك ضمًّا قانونيًا بل مأسسة للحكم الفعلي. وكان سكان الولاية في غالبيتهم الساحقة من البيروفيين."
    },
    "de": {
-    "b": "Chile gliedert Tacna und Arica als eine Provinz in seine Verwaltung ein — Gründung der Provinz Tacna y Arica",
+    "b": "Chile organisierte das besetzte Tacna und Arica als eine Provinz — die Provinz Tacna y Arica wurde gegründet",
     "d": "Am 31. Oktober 1884 organisierte Chile die besetzten Gebiete als Provinz Tacna y Arica, bestehend aus den Departements Tacna und Arica. Da der Vertrag von Ancón die Souveränität einer Volksabstimmung überlassen hatte, war dies keine rechtliche Annexion, sondern die Institutionalisierung der faktischen Herrschaft. Die Bevölkerung der Provinz war überwiegend peruanisch."
    },
    "es": {
-    "b": "Chile incorpora Tacna y Arica a su administración como una sola provincia — se crea la provincia de Tacna y Arica",
+    "b": "Chile organizó Tacna y Arica, que ocupaba, como una sola provincia — se creó la provincia de Tacna y Arica",
     "d": "El 31 de octubre de 1884 Chile organizó los territorios ocupados como la provincia de Tacna y Arica, formada por los departamentos de Tacna y Arica. Como el Tratado de Ancón había dejado la soberanía a un plebiscito, no se trató de una anexión jurídica sino de la institucionalización del dominio de hecho. La población de la provincia era mayoritariamente peruana."
    },
    "fr": {
-    "b": "Le Chili intègre Tacna et Arica à son administration en une seule province — création de la province de Tacna y Arica",
+    "b": "Le Chili organise Tacna et Arica, qu'il occupe, en une seule province — création de la province de Tacna y Arica",
     "d": "Le 31 octobre 1884, le Chili organisa les territoires occupés en province de Tacna y Arica, formée des départements de Tacna et d'Arica. Le traité d'Ancón ayant remis la souveraineté à un plébiscite, il ne s'agissait pas d'une annexion juridique mais de l'institutionnalisation d'une domination de fait. La population de la province était en très grande majorité péruvienne."
    },
    "pt": {
-    "b": "O Chile incorpora Tacna e Arica na sua administração como uma só província — criada a província de Tacna y Arica",
+    "b": "O Chile organizou Tacna e Arica, que ocupava, como uma única província — criada a província de Tacna y Arica",
     "d": "Em 31 de outubro de 1884 o Chile organizou os territórios ocupados como a província de Tacna y Arica, formada pelos departamentos de Tacna e Arica. Como o Tratado de Ancón deixara a soberania a um plebiscito, não se tratou de uma anexação jurídica, mas da institucionalização do domínio de facto. A população da província era maioritariamente peruana."
    },
    "ru": {
-    "b": "Чили включает Такну и Арику в свою администрацию как единую провинцию — создана провинция Такна-и-Арика",
+    "b": "Чили объединила оккупированные Такну и Арику в одну провинцию — создана провинция Такна-и-Арика",
     "d": "31 октября 1884 года Чили организовала оккупированные территории в провинцию Такна-и-Арика из департаментов Такна и Арика. Поскольку Анконский договор оставил вопрос о суверенитете плебисциту, это была не юридическая аннексия, а институционализация фактической власти. Население провинции было в подавляющем большинстве перуанским."
    }
   }

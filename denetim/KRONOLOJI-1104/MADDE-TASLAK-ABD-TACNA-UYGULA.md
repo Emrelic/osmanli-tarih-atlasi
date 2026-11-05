@@ -36,7 +36,10 @@ Aşağıdaki 1-4 numaralı veri değişiklikleri ile 21 kronoloji maddesi TEK co
   - 1880-06-07: «Arica (Morro) Savaşı — Şili Arica'yı aldı, Tacna–Arica fiilen Şili işgaline girdi»
   - 1884-10-31: «Şili, işgal ettiği Tacna ve Arica'yı tek il olarak örgütledi — Tacna y Arica ili kuruldu»
   - Bu durumda çevirilerin b'leri de kronoloji_cok maddelerinin mevcut çevirileriyle (ceviri dalında varsa) aynı olmalı.
-- Birleştirme kararı Emre'dedir; EMRELİC sabah listesine yazıyor.
+- ✅ **EMRELİC onayı (gece-108), JSON'a işlendi.** TAC-01, 02 ve 04'ün b'si ve 7 dildeki b'leri artık kronoloji_cok ile ortaktır.
+  - odak_yer (Tacna + Arica) ve kaynak (Memoria Chilena) sinir maddesine özgü kalır. cok maddesinin kaynağı (Sater, sayfasız) zayıftır, sinir maddesine taşınmaz.
+  - Çeviri dalında cok maddelerinin çevirisi yok. JSON'daki 7 dil b'si, cok maddeleri çevrilirken aynen kullanılmalı; yoksa çeviri katmanında ikisi ayrışır.
+  - Bu kalem Emre listesinden düştü.
 
 ## Kaynaksız ya da özetten cümleler (silinebilir)
 
