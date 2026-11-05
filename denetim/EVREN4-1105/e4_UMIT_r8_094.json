@@ -1,7 +1,12 @@
 {
  "Puntarenas": [
   {
-   "sira": 3927, "dosya_satir": "", "alan": "s", "d": "kosta-rika-cumhuriyeti", "f": "1838-01-01", "t": "2000-12-31",
+   "sira": 3927,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kosta-rika-cumhuriyeti",
+   "f": "1838-01-01",
+   "t": "2000-12-31",
    "hukum": "ONERI",
    "kaynak": "history.state.gov/countries/costa-rica (Office of the Historian, ULKE DUZEYI; ham metin sayfa.py ile okundu); künye kosta-rika-cumhuriyeti kaynak alani (Gudmundson ELAHC, SINABI: 1838 YIL; bu turda acilamadi)",
    "alinti": "Costa Rica did not formally declare its independence until August 30, 1848.",
@@ -12,7 +17,12 @@
  ],
  "Santa Ana (El Salvador)": [
   {
-   "sira": 3928, "dosya_satir": "", "alan": "s", "d": "el-salvador-cumhuriyeti", "f": "1841-01-01", "t": "2000-12-31",
+   "sira": 3928,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
    "hukum": "KAYNAKLI",
    "kaynak": "Library of Congress Country Studies, El Salvador, 'The United Provinces of Central America' (countrystudies.us/el-salvador/5.htm; ham metin sayfa.py); künye el-salvador-cumhuriyeti ic kaynaklari (Worldmark: 'January 1841')",
    "alinti": "El Salvador did so in January 1841.",
@@ -23,19 +33,49 @@
  ],
  "Brazzaville": [
   {
-   "sira": 3929, "dosya_satir": "", "alan": "s", "d": "fransiz-ekvator-afrikasi", "f": "1910-01-15", "t": "1958-01-01",
+   "sira": 3929,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransiz-ekvator-afrikasi",
+   "f": "1910-01-15",
+   "t": "1958-01-01",
    "hukum": "ONERI",
    "kaynak": "f: Digithèque MJP (Univ. Perpignan), mjp.univ-perp.fr/constit/td1900.htm; t: Digithèque MJP, mjp.univ-perp.fr/constit/cg1958.htm (Délibération n° 112/58, JO République du Congo 3 déc. 1958)",
    "alinti": "décret du 15 janvier 1910, portant création du Gouvernement général de l'Afrique équatoriale française",
    "alinti2": "Elle proclame la République du Congo le 28 novembre 1958",
    "uc": "f+t",
-   "oneri": {"t": "1958-11-28"},
-   "not": "f=1910-01-15 KAYNAKLI (AEF Genel Valiligi kararnamesi; metinde Brazzaville anilmiyor, ULKE/KUNYE DUZEYI; baskent Brazzaville kunye kaynagi Columbia Enc. = ONERI-guclu). t=1958-01-01 YIL-tabanli ve kaynaksiz: Moyen-Congo Bolge Meclisi Brazzaville'in bagli oldugu bolgede Cumhuriyeti 1958-11-28'de ilan etti (Pointe-Noire oturumu 11:30, 28 Kasim 1958); 1958-09-28 referandum. ONERI t=1958-11-28 (kunye fransiz-ekvator-afrikasi t'sini de etkiler, LAB: AEF federal organlarinin resmi sonu 1958-11-28'den sonra olabilir, okunmadi). Brazzaville 1880-10-03 Makoko antlasmasi (EMRELIC) bu turda kaynakla okunmadi: BAKILMADI, f_geri adayi."
+   "oneri": {
+    "t": "1958-11-28"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Brazzaville: 1958-11-28 Fransız Topluluğu içinde özerk cumhuriyetin ilanı, egemenlik değişimi DEĞİL; bağımsızlık 1960-08-15. AEF t 1958-11-28 olabilir; ardıl kongo-brazzaville künyesi f 1960-08-15 (ölçüldü) → 1958-11-28 → 1960-08-15 özerk Kongo künyesi YOK → LAB'a soruldu. · f=1910-01-15 KAYNAKLI (AEF Genel Valiligi kararnamesi; metinde Brazzaville anilmiyor, ULKE/KUNYE DUZEYI; baskent Brazzaville kunye kaynagi Columbia Enc. = ONERI-guclu). t=1958-01-01 YIL-tabanli ve kaynaksiz: Moyen-Congo Bolge Meclisi Brazzaville'in bagli oldugu bolgede Cumhuriyeti 1958-11-28'de ilan etti (Pointe-Noire oturumu 11:30, 28 Kasim 1958); 1958-09-28 referandum. ONERI t=1958-11-28 (kunye fransiz-ekvator-afrikasi t'sini de etkiler, LAB: AEF federal organlarinin resmi sonu 1958-11-28'den sonra olabilir, okunmadi). Brazzaville 1880-10-03 Makoko antlasmasi (EMRELIC) bu turda kaynakla okunmadi: BAKILMADI, f_geri adayi.",
+   "oneri_son": {
+    "d": "fransiz-ekvator-afrikasi",
+    "t": "1958-11-28",
+    "sonraki": [
+     {
+      "d": "kongo-ozerk-cumhuriyeti (künye YOK → aday LAB)",
+      "f": "1958-11-28",
+      "t": "1960-08-15",
+      "not": "Fransız Topluluğu içinde özerk cumhuriyet"
+     },
+     {
+      "d": "kongo-brazzaville",
+      "f": "1960-08-15",
+      "not": "künye var (devletler.js:15278), egemenlik kırılması"
+     }
+    ]
+   },
+   "karar": "EMRELİC"
   }
  ],
  "Mbabane": [
   {
-   "sira": 3930, "dosya_satir": "", "alan": "s", "d": "ingiliz-svaziland", "f": "1903-01-01", "t": "1968-09-06",
+   "sira": 3930,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-svaziland",
+   "f": "1903-01-01",
+   "t": "1968-09-06",
    "hukum": "ONERI",
    "kaynak": "t: Swaziland Independence Act 1968 (c.56) s.1, legislation.gov.uk/ukpga/1968/56/section/1 (ham metin, primer); f: EB1911 'Swaziland' (wikisource, IPUCU); künye ingiliz-svaziland kronoloji (archontology.org, ONERI-guclu)",
    "alinti": "In June 1903 an order in council formally conferred the government of the country",
@@ -47,7 +87,12 @@
  ],
  "Ho (Togoland)": [
   {
-   "sira": 3931, "dosya_satir": "", "alan": "s", "d": "ingiliz-togoland", "f": "1922-07-20", "t": "1957-03-06",
+   "sira": 3931,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
    "hukum": "KAYNAKLI",
    "kaynak": "f: Report by H.B.M. Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (archive.org report-togoland-1920, Ho Distrikti bu raporun konusu; ham metin ia-oku); t: UN General Assembly res. 1044 (XI) 'The future of Togoland under British administration' (un-project.org/votes/resolution/A-RES-1044(XI)/, ham metin); TDV Gana (t Gana bağımsızlığı 6 Mart 1957)",
    "alinti": "the 20th of July, 1922 (date of British Mandate for Togoland)",
@@ -59,7 +104,12 @@
  ],
  "Kpando": [
   {
-   "sira": 3932, "dosya_satir": "", "alan": "s", "d": "ingiliz-togoland", "f": "1922-07-20", "t": "1957-03-06",
+   "sira": 3932,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
    "hukum": "KAYNAKLI",
    "kaynak": "f: Report by H.B.M. Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (archive.org report-togoland-1920; metinde Kpando/Kpandu yolları ve idaresi geçer); t: UN General Assembly res. 1044 (XI) (un-project.org/votes/resolution/A-RES-1044(XI)/, ham metin); TDV Gana",
    "alinti": "the 20th of July, 1922 (date of British Mandate for Togoland)",
@@ -71,7 +121,12 @@
  ],
  "Atakpamé": [
   {
-   "sira": 3933, "dosya_satir": "", "alan": "s", "d": "fransiz-togo", "f": "1922-07-20", "t": "1960-04-27",
+   "sira": 3933,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
    "hukum": "KAYNAKLI",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (Ahmet Kavas, islamansiklopedisi.org.tr/togo; ham metin sayfa.py); f gunu icin yardimci: British Togoland raporu 'date of British Mandate' 1922-07-20 ve TDV Kamerun 'Milletler Cemiyeti ... 20 Temmuz 1922'",
    "alinti": "27 Nisan 1960 tarihinde bağımsızlık ilân edildi",
@@ -83,7 +138,12 @@
  ],
  "Buea": [
   {
-   "sira": 3934, "dosya_satir": "", "alan": "s", "d": "ingiliz-kamerun", "f": "1922-07-20", "t": "1961-10-01",
+   "sira": 3934,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
    "hukum": "KAYNAKLI",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun; ham metin sayfa.py)",
    "alinti": "20 Temmuz 1922’de aldığı bir kararla işgal ettikleri yerleri Fransa ve İngiltere’nin manda yönetimlerine bıraktı",

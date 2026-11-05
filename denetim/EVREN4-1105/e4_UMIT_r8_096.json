@@ -140,7 +140,18 @@
     "t": "1862-05-16",
     "sonra": "tekrur 1862-05-16 → 1893-01-01"
    },
-   "not": "Wikipedia: Caillié 1828'de Mopti'yi (Isaca) Masina İmparatorluğu'na (Hamdullahi merkezli Seku Amadu) bağlı köy olarak gördü; 1862'de Umar Tall Hamdullahi'yi alınca köy kısa süre Toucouleur devletine geçti. TDV el-Hâc Ömer: 'Ömer 1862’de Mâsînâ’nın merkezi Hamdallahi’yi ele geçirip…'; Segu (Bambara) 1861 başında düştü. Yani Mopti Bambara'ya değil Masina'ya bağlı (Masina Segu'dan ayrı Fulani devleti; künye massina 1818-01-01→1862-05-16, tekrur 1852-09-01→1893-01-01 mevcut). ÖNERİ: bambara dilimi f=1650→1818 (bambara-Masina öncesi sahibi KAYNAKSIZ → BULUNAMADI, Segu abi merkez beyanıyla bırakılabilir), 1818→1862 massina, 1862→1893 tekrur. Gün: Wikipedia yıl veriyor; künye günü 1862-05-16 künye notundan. f=1650: kaynak yok (BAKILMADI)."
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Mopti onay: massina → 1862-05-16 tekrur → fransa. bambara 1650 → 1861 yanlış. · Wikipedia: Caillié 1828'de Mopti'yi (Isaca) Masina İmparatorluğu'na (Hamdullahi merkezli Seku Amadu) bağlı köy olarak gördü; 1862'de Umar Tall Hamdullahi'yi alınca köy kısa süre Toucouleur devletine geçti. TDV el-Hâc Ömer: 'Ömer 1862’de Mâsînâ’nın merkezi Hamdallahi’yi ele geçirip…'; Segu (Bambara) 1861 başında düştü. Yani Mopti Bambara'ya değil Masina'ya bağlı (Masina Segu'dan ayrı Fulani devleti; künye massina 1818-01-01→1862-05-16, tekrur 1852-09-01→1893-01-01 mevcut). ÖNERİ: bambara dilimi f=1650→1818 (bambara-Masina öncesi sahibi KAYNAKSIZ → BULUNAMADI, Segu abi merkez beyanıyla bırakılabilir), 1818→1862 massina, 1862→1893 tekrur. Gün: Wikipedia yıl veriyor; künye günü 1862-05-16 künye notundan. f=1650: kaynak yok (BAKILMADI).",
+   "oneri_son": {
+    "d": "massina",
+    "f": "1818-01-01",
+    "t": "1862-05-16",
+    "sonraki": {
+     "d": "tekrur",
+     "f": "1862-05-16",
+     "t": "1893-01-01"
+    }
+   },
+   "karar": "EMRELİC"
   },
   {
    "dosya_satir": "",
@@ -156,8 +167,14 @@
    "oneri": {
     "f": "1893-01-01"
    },
-   "not": "f=1861-03-10 bambara/Segu t'sinin kopyası; Mopti'de Fransız egemenliği 1861'de değil. Wikipedia: 1893 Archinard. ÇİFT KAYNAK ÇELİŞKİSİ: TDV 'Mali': «Bamako (1883), Segu ve Sikasso (1898), Tinbüktü, Gao, Bourem ve Mopti (1898-1900)» (Fransız ele geçirişi 1898-1900) vs TDV 'el-Hâc Ömer': Tekrûr devleti 'Fransızlar’ın 1893-1894 yıllarında bölgeyi ele geçirmesine kadar varlığını sürdürmüştür' (künye tekrur t=1893-01-01 bu seçimi yapmış). Üçüncü bağımsız akademik kaynak bulunamadı (BAKILMADI: Archinard 1893, Jenné 12 Nisan 1893 — Wikipedia 'Second Battle of Jenné' özeti). İKİ MODEL (BEKLET, dolaylı idare/himaye): A) 1893'ten s: fransa; B) Archinard Aguibu'yu Bandiagara'da 'Masina kralı' koydu (1893, finding-aid/Leiden özeti) → v: fransa + s: yerel (TAHRİR; tahrir yok, Mopti köyü). Hukukî ilhak günü bulunamadı. t=1960-06-20 KAYNAKLI: TDV Mali, alinti2; öteki uç (f) için yukarıdaki.",
-   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken"
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Mopti fransa f 1893: uç kuralı — Mopti'yi özgül tarihleyen madde (TDV el-Hâc Ömer, 1893 Archinard) genel TDV Mali maddesinden (1898-1900) önce gelir; ikisi ic_not. · f=1861-03-10 bambara/Segu t'sinin kopyası; Mopti'de Fransız egemenliği 1861'de değil. Wikipedia: 1893 Archinard. ÇİFT KAYNAK ÇELİŞKİSİ: TDV 'Mali': «Bamako (1883), Segu ve Sikasso (1898), Tinbüktü, Gao, Bourem ve Mopti (1898-1900)» (Fransız ele geçirişi 1898-1900) vs TDV 'el-Hâc Ömer': Tekrûr devleti 'Fransızlar’ın 1893-1894 yıllarında bölgeyi ele geçirmesine kadar varlığını sürdürmüştür' (künye tekrur t=1893-01-01 bu seçimi yapmış). Üçüncü bağımsız akademik kaynak bulunamadı (BAKILMADI: Archinard 1893, Jenné 12 Nisan 1893 — Wikipedia 'Second Battle of Jenné' özeti). İKİ MODEL (BEKLET, dolaylı idare/himaye): A) 1893'ten s: fransa; B) Archinard Aguibu'yu Bandiagara'da 'Masina kralı' koydu (1893, finding-aid/Leiden özeti) → v: fransa + s: yerel (TAHRİR; tahrir yok, Mopti köyü). Hukukî ilhak günü bulunamadı. t=1960-06-20 KAYNAKLI: TDV Mali, alinti2; öteki uç (f) için yukarıdaki.",
+   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1893-01-01",
+    "t": "1960-06-20"
+   },
+   "karar": "EMRELİC"
   },
   {
    "dosya_satir": "",
@@ -257,7 +274,14 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "BAKTIM: TDV 'Mali' (Bamako anahtarı: yalnız etnik dağılım 'Bambara ... Ségou ve Bamako civarında yoğun' — nüfus, siyasî bağlılık değil), TDV 'el-Hâc Ömer' (Segu 1861 başında düştü; Bamako anılmıyor). Bamako'nun Segu Bambara krallığına bağlı olduğuna dair yerleşime özgü tanıklık bulunamadı; 1861-03-10 künye t'si Segu'nun (bambara) t'si. f=1650 BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Bamako 1861–1883 ABİ MERKEZ Segu → tekrur BEYANLI. · BAKTIM: TDV 'Mali' (Bamako anahtarı: yalnız etnik dağılım 'Bambara ... Ségou ve Bamako civarında yoğun' — nüfus, siyasî bağlılık değil), TDV 'el-Hâc Ömer' (Segu 1861 başında düştü; Bamako anılmıyor). Bamako'nun Segu Bambara krallığına bağlı olduğuna dair yerleşime özgü tanıklık bulunamadı; 1861-03-10 künye t'si Segu'nun (bambara) t'si. f=1650 BAKILMADI.",
+   "oneri_son": {
+    "d": "tekrur (ABİ MERKEZ Segu)",
+    "f": "1861-03-10",
+    "t": "1883-01-01",
+    "beyan": "ABİ MERKEZ Segu BEYANLI"
+   },
+   "karar": "EMRELİC"
   },
   {
    "dosya_satir": "",
@@ -274,8 +298,15 @@
     "f": "1883-01-01",
     "ara_dilim": "1861-03-10 → 1883: tekrur (ABİ MERKEZ Segu, BEYANLI YAKLAŞIKLIK) ya da __BOSLUK__"
    },
-   "not": "TDV Mali: Bamako Fransızlarca 1883'te ele geçirildi (yıl; ayrıca TDV 'Mali' keşif seferleri Eugène Mage, Soleillet, Galliéni 1878 ve 1881). Atlas f=1861-03-10 Segu'nun düşüşü günü (Hacı Ömer) — Bamako'nun Fransız olduğu gün değil. Brif ipucu 1883-02-01 (Borgnis-Desbordes) GÜN TEYİTSİZ: TDV yalnız yıl veriyor → oneri 1883-01-01. ARA DİLİM (1861→1883): TDV Tekrûr devleti Segu merkezli ve Bambara bölgesindeki birçok şehri denetledi (TDV Tekrûr/el-Hâc Ömer) ama Bamako'nun Tekrur'a bağlandığı bulunamadı; ABİ MERKEZ Segu (siyasî bağ: Bambara krallığı/Tekrur başkenti) + BEYANLI YAKLAŞIKLIK önerisi, kaynak 'ABİ MERKEZ: Segu — TDV el-Hâc Ömer; Bamako'ya özgü tanıklık yok'. Öteki seçenek: __BOSLUK__ beyanıyla. t=1960-06-20 KAYNAKLI (TDV Mali, alinti2). Gün düzeyi 'ay' ipucu: 1883-02-01 (kaynaksız)",
-   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken"
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Bamako fransa f 1883 onay (TDV Mali). · TDV Mali: Bamako Fransızlarca 1883'te ele geçirildi (yıl; ayrıca TDV 'Mali' keşif seferleri Eugène Mage, Soleillet, Galliéni 1878 ve 1881). Atlas f=1861-03-10 Segu'nun düşüşü günü (Hacı Ömer) — Bamako'nun Fransız olduğu gün değil. Brif ipucu 1883-02-01 (Borgnis-Desbordes) GÜN TEYİTSİZ: TDV yalnız yıl veriyor → oneri 1883-01-01. ARA DİLİM (1861→1883): TDV Tekrûr devleti Segu merkezli ve Bambara bölgesindeki birçok şehri denetledi (TDV Tekrûr/el-Hâc Ömer) ama Bamako'nun Tekrur'a bağlandığı bulunamadı; ABİ MERKEZ Segu (siyasî bağ: Bambara krallığı/Tekrur başkenti) + BEYANLI YAKLAŞIKLIK önerisi, kaynak 'ABİ MERKEZ: Segu — TDV el-Hâc Ömer; Bamako'ya özgü tanıklık yok'. Öteki seçenek: __BOSLUK__ beyanıyla. t=1960-06-20 KAYNAKLI (TDV Mali, alinti2). Gün düzeyi 'ay' ipucu: 1883-02-01 (kaynaksız)",
+   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1883-01-01",
+    "t": "1960-06-20",
+    "beyan": "Borgnis-Desbordes girişi, günü kaynakla"
+   },
+   "karar": "EMRELİC"
   },
   {
    "dosya_satir": "",
