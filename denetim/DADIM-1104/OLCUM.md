@@ -1269,6 +1269,13 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   4. **Bandung, Sukabumi:** s: pasundan 1948-02-26 → 1949-12-27, ardından RIS (künye adayı Emre'de) → 1950-03-11 Cumhuriyet.
   5. **Nago:** ryukyu-abd-idaresi künyesi (Şuri emsali, gece-56).
   6. **Tripuri:** künye t 1181-01-01 "[son yazıt; IGI]" ONERI-güçlü, LAB'a; Mirashi CII IV ile teyit edilirse KAYNAKLI.
+- **r8_119:** KAYNAKLI 6 · ONERI 6 · BULUNAMADI 2.
+  - **Pavia:** 572 (Treccani Longobardi); teslim "giugno del 774".
+  - **Spoleto:** 571 / 1198 (EI). 776 sonrası fiilen Frank idaresi, künye sorusu.
+  - **Mikulčice:** t 0907 → 0906 (Poláček 2007).
+  - **gece-99 kararları (`karar60.py`):**
+    - Kent → Wessex 825 kalır (ASC s.a. 823, +2 yıl kayması); Keynes/ODNB ile KAYNAKLI olur.
+    - Bamburgh 927 Eamont bağlılığı v: (England/Wessex), s: Eadwulfing sürer; t 954 kalır.
 - **r8_121:** KAYNAKLI 1 (Bisho) · ONERI 9.
   - Ruijin t 1934-10-10 olayı tarihlemiyor (1934-11-10 yalnız Vikipedi).
   - Vichy şehir devri 1944-08-25/26 (devlet ucu 08-20).
