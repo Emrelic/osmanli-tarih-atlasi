@@ -1,0 +1,42 @@
+# R3 (68-73) ikinci kaynak sonucu — 4 Kasım 2026
+
+Not: Dosyaların b) bölümleri madde listesi; KUR/YIK uçları f/t alanlarından çıkarıldı (BAS/ANT ucu bu altı dosyada yok). Depo yolu `-ikinci-b` okundu (salt okur). MÖ yıllar: atlas astronomik (MÖ n = -(n-1)); aşağıda yıllar MÖ yazılı. OCD = Oxford Classical Dictionary.
+
+| dosya | uç | atlas | kaynak 1 | hüküm | ikinci kaynak künyesi | alıntı ≤15 kelime | not |
+|---|---|---|---|---|---|---|---|
+| 68-yeni-babil | KUR | -0625-01-01 (MÖ 626) | TDV Babil (626-539); Grayson ABC 2 | ÇİFT TEYİT yıl (MÖ 626) | OUP *Babylonia: A Very Short Introduction*, "The Neo-Babylonian empire (626-539 bc)", https://academic.oup.com/book/898/chapter/135485355 (sayfada yazar Trevor Bryce göründü; kitabın yazarı normalde G. Leick — künye doğrulanmalı) | "In 626, Babylon's throne was seized from Assyrian control by Nabopolassar." | Gün (26 Araḫsamna = 23 Kasım) yalnız Livius (kılavuz); akademik ikinci kaynak yok. Gün için ADAY. |
+| 68-yeni-babil | YIK | -0538-10-12 (MÖ 539) | TDV Babil 539; ABC 7 | ÇİFT TEYİT yıl (MÖ 539) | H. D. Baker, "Babylonia", OCD, https://academic.oup.com/edited-volume/61673/chapter/548548706 (özet okundu) | "When this empire fell to Cyrus (1) in 539 bce." | Gün 12 Ekim: arama özetinde OCD Babylon/Nabonidus girdisi "Sippar 12 Ekim" der, sayfa açılmadı → gün ADAY (ÖZ). Weiershäuser OCD "Nabonidus": "ruled the Neo-Babylonian empire from 555 to 539 bce" (okundu). |
+| 69-medya | KUR | -0677-01-01 (MÖ 678) | Iranica (açılmadı); TDV Hemedan VII. yy | ADAY (ÖZ) | Sancisi-Weerdenburg & Kuhrt, "Media", OCD, https://academic.oup.com/edited-volume/61673/chapter/549654390 | "under their king Umakištar (= Cyaxares)" (okundu; ~612 bağlamı) | Arama özeti: "çoğu modern araştırmacı Cyaxares'i gerçek kurucu sayar" — sayfada okunamadı. 678 teyidi YOK; OCD birleşik Med devletini 612 civarına bağlıyor, atlasın onyıl iddiasını desteklemiyor. |
+| 69-medya | YIK | -0549-01-01 (MÖ 550) | TDV İran 550; ABC 7 | ADAY (ÖZ) | M. Waters, "Cyrus (1)", OCD, https://academic.oup.com/edited-volume/61673/chapter/548061815 (yalnız özet okundu) | "Cyrus's victories over the Medes, Lydians, and Babylonians were key milestones" | "Media (550/49)" ifadesi arama özetinde; sayfada okunamadı. |
+| 70-ptolemai | KUR | -0322-06-10 (ay) (MÖ 323) | Treccani Egitto; Livius | ÇİFT TEYİT yıl (MÖ 323) | Thompson vd., "Ptolemy (1)", OCD, https://academic.oup.com/edited-volume/61673/chapter-abstract/550492830 | "established himself as satrap in place of Cleomenes (3)" ; "took the title of King (basileus) in 305" | Gün 10 Haziran taksim günü değil (dosyanın beyanı); gün teyidi YOK. Fischer-Bovet OCD "Egypt, Ptolemaic": "the king from 305/4 bce" (okundu). |
+| 70-ptolemai | YIK | -0029-08-01 (MÖ 30) | Cassius Dio 51; Treccani | ÇİFT TEYİT yıl (MÖ 30) | C. Fischer-Bovet, "Egypt, Ptolemaic", OCD, https://academic.oup.com/edited-volume/61673/chapter/548206937 (özet) | "annexed Egypt after Cleopatra's suicide and created the Roman province of Egypt in 30 bce" | 1 Ağustos günü bu kaynakta yok → gün BULUNAMADI (Skeat/Orosius okunmadı). |
+| 71-delos-birligi | KUR (delos-birligi) | -0477-01-01 (MÖ 478/7) | Treccani; Thuc. 1.96 / Ath.Pol. 23.5 | ÇİFT TEYİT yıl (478/7) | R. Meiggs & S. Hornblower, "Delian League", OCD, https://academic.oup.com/edited-volume/61673/chapter/548724814 | "formed 478/7 bce against the Persians" | Gün yok; -0477-01-01 biçimi uygun. |
+| 71-delos-birligi | YIK (delos-birligi) | -0403-01-01 (MÖ 404) | Plutarkhos Lys. 15.1 (ay+gün); Treccani 405 | ÇİFT TEYİT yıl (MÖ 404, ilkbahar) | S. Hodkinson, "Lysander", OCD, https://academic.oup.com/edited-volume/61673/chapter-abstract/549651739 ; S. Hornblower, "Aegospotami", OCD | "Obtaining Athens' surrender through blockade (spring 404)." | Dosyanın "yıl bağımsız teyit bekliyor" borcu kapanır. Aegospotami: "victory over the Athenians by the Spartans under Lysander (405)". |
+| 71-delos-birligi | KUR (atina-demokrasisi) | -0507-01-01 (MÖ 508/7) | Ath.Pol. 20-22; Treccani | ÇİFT TEYİT yıl (508/7) | Cadoux & Rhodes, "Cleisthenes (2)", OCD, https://academic.oup.com/edited-volume/61673/chapter/548725772 | "Isagoras obtained the archonship (see archontes) for 508/7" | Reform aynı arkhon yılında/sonrasında; gün yok. |
+| 71-delos-birligi | YIK (atina-demokrasisi) | -0337-01-01 (MÖ 338) | Treccani 337; Diodoros 16.85 | ÇİFT TEYİT yıl (MÖ 338) | J. F. Lazenby, "Chaeronea, battles of", OCD, https://academic.oup.com/edited-volume/61673/chapter/548753637 | "In 338 bce Philip II of Macedonia won a crushing victory" | Bağımsız dış politikanın sonu; Lamia (323/2) ayrı mesele. Gün (2 Ağustos) OUP başka bölüm başlığında ("Chaeronea 2 August 338 B.C.", açılmadı) → ADAY. |
+| 71-delos-birligi | KUR (ikinci-atina-birligi) | -0377-01-01 (MÖ 378) | Treccani/Hammond 378/7; Diodoros 15.28 | ÇELİŞKİ (1 arkhon yılı) | C. J. Tuplin, "Second Athenian Confederacy", OCD, https://academic.oup.com/edited-volume/61673/chapter-abstract/550498220 | "Its foundation (379/8 ) involved converting several existing bilateral alliances" | OCD kuruluş 379/8, sistem "early 377"; atlas künye 378/7 (-0377), olay -0376. Üç değer: 379/8 (OCD) · 378/7 (Hammond) · 377 (kararname). Cawkwell okunmadı. |
+| 71-delos-birligi | YIK (ikinci-atina-birligi) | -0354-01-01 (MÖ 355) | Diodoros 16.22 | BULUNAMADI | OCD Tuplin özeti yalnız savaşı anıyor; "Social Wars" girdisi açılmadı | "the rebellion of Byzantium, Chios, and Rhodes in 357–355" | Bitiş yılı (355) için doğrudan cümle yok; 357-355 aralığı atlasla çelişmez. |
+| 72-cola | KUR | 0850-01-01 (c. 850) | HCIP IV s.153 (c.850-871); TDV Hindistan 850 | ÇİFT TEYİT yıl (c. 850) | (a) K. A. Nilakanta Sastri, *The Cōḻas*, archive.org `in.gov.ignca.35382` djvu (karakter ≈200000-300000); (b) H. Devare, *Nagapattinam to Suvarnadwipa* (ISEAS 2009), böl. 11 | (a) "might have begun, therefore, sometime before 850 A. D." (b) "the rise of Vijayalaya around AD 850" | Sastri "850'den önce" der; atlasın c.850'siyle uyumlu. HCIP'ten bağımsız yazarlar. |
+| 72-cola | YIK | 1279-01-01 | HCIP V (Rajendra III 1246-1279); encyclopedia.com | BULUNAMADI | Sastri vol. 1 yalnız ~1070'e kadar; vol. 2 pt 1 OCR bozuk (dilimler 0/200000/400000 okundu, bulunamadı); encyclopedia.com "Chola Dynasty" (Encyclopedia of India) okundu: 1279 geçmiyor | "vanished toward the end of that century" (arama özeti; sayfada 1279 yok) | TDV 1273 ↔ HCIP V 1279 çelişkisi için üçüncü kaynak çıkmadı. |
+| 73-vijayanagara | KUR | 1336-01-01 | HCIP VI (1336); CHI III ("traditional date") | ADAY | C. Talbot, "The Vijayanagara Empire", Oxford Research Encyclopedia of Asian History, https://academic.oup.com/edited-volume/61799/chapter-abstract/546339039 | "Founded in central Karnataka in the mid-14th century." | Oxford Reference girdisi (Harihara 1336) 403, açılmadı. Talbot yıl vermiyor; Sangama "c. 1350–1485". TDV 1339 ↔ 1336'yı çözmez. |
+| 73-vijayanagara | YIK | 1646-01-01 | TDV Hindistan (1339-1646) | ADAY | C. Talbot (aynı) | "survived until the mid-17th century as no more than a regional power." | 1646 yılını vermiyor; "17. yy ortası" ile uyumlu. Talikota: "abandoned after a massive defeat in 1565" (yıl teyit, gün yok). |
+
+## Sayım (16 uç)
+- ÇİFT TEYİT: 9 (68 KUR, 68 YIK, 70 KUR, 70 YIK, 71 delos KUR, 71 delos YIK, 71 atina-dem KUR, 71 atina-dem YIK, 72 KUR) — hepsi yıl düzeyinde, gün teyidi yok
+- ÇELİŞKİ: 1 (71 ikinci-atina-birligi KUR: OCD 379/8 ↔ atlas 378/7)
+- ADAY: 4 (69 KUR, 69 YIK, 73 KUR, 73 YIK)
+- BULUNAMADI: 2 (72 YIK 1279↔1273; 71 ikinci-atina-birligi YIK 355)
+- KAPSAM DIŞI: 0 · DENENMEDİ: 0
+
+## Açılamayanlar
+Britannica (403), Encyclopaedia Iranica (403), Oxford Reference (403, tüm girdiler), Sastri The Colas vol. 2 pt 1 (OCR bozuk), Perseus (denenmedi).
+
+## JSTOR / Oxford Reference / Iranica'da okunması gerekenler
+- Waters, "Cyrus (1)", OCD (Conquests: Media 550/49)
+- Weiershäuser, "Nabonidus" ve "Babylon", OCD — Sippar 12 Ekim / Babil 14 Ekim
+- OCD "Social Wars" (355) ve "Peloponnesian War" — 404/355 yıl cümleleri
+- Cawkwell, CQ 23.1 (1973) 47-60 — İkinci Birlik 379/8 mi 378/7 mi
+- Oxford Reference "Vijayanagar Empire", "Chola"; Stein, Vijayanagara (NCHI I.2) — 1336/1339 ve 1646
+- Iranica "Media" (Dandamayev) — 678
+- Sastri The Colas (1955) Rajendra III bölümü — 1279 mu 1273 mü
+- "Babylonia: A VSI" yazar adı (Bryce/Leick) doğrulanmalı
