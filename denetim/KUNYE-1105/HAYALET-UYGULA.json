@@ -801,5 +801,27 @@
   "islem": "devletler.js queensland (:6610) f → 1859-12-10 (ayrılış ilanı; arada NSW idare ediyordu — TEK ÖLÇÜ). ic_not_f: '1859-06-06 Letters Patent imzası'. LAB ölçümü origin/main '1859-06-06' geçen yerler: devletler.js 3 satır (künye f + künye içi maddeler — hepsi kontrol edilip 12-10'a), yerlesimler_ek30.js 1, yerlesimler_okyanusya.js 1 (Brisbane — LAB PAZAR satırı; Rockhampton: yeni-guney-galler t / queensland f 1859-12-10). EMRELİC'in önceki '06-06 kalabilir' notu bu kararla değişti. Değişmez 2: 1859-12-10 maddesi ölçülmeli (künye içi madde taşınırsa yeter).",
   "dayanak": "Queensland State Archives (UMIT ham metin: Letters Patent 1859-06-06, ayrılış ilanı 1859-12-10)",
   "onay": "EMRELİC r8_078 (UMIT iletimi)"
+ },
+ {
+  "d": "Birecik (1919-1920)",
+  "tur": "YERLESIM + MADDE",
+  "karar": "EMRELİC",
+  "islem": "Birecik: s: osmanli + isg ingiltere 1919 (gün kaynakla) → isg fransa (devir günü kaynakla) → 1920-07-10 s: tbmm-turkiye (TDV BİRECİK; DİKKAT id 'tbmm-turkiye' — 'tbmm' değil, LAB ölçümü devletler.js 'Türkiye Büyük Millet Meclisi Hükûmeti' 1920-04-23 → 1923-10-29). DEĞİŞMEZ 2 (LAB PAZAR ölçümü origin/main): evrende Birecik 1920-07-10 ve 1919 işgal maddeleri YOK → kronoloji_sinir madde önerileri: 1919 İngiliz işgali, Fransız devri, 1920-07-10 Birecik'in kurtuluşu/TBMM idaresi (TDV BİRECİK) — kırılmalarla AYNI commit.",
+  "kunye": "künye değişmez",
+  "gun": "1920-07-10",
+  "guc": "ORTA",
+  "dayanak": "TDV BİRECİK; EMRELİC gece-118 (LAB PAZAR iletimi, parti 042)",
+  "onay": "EMRELİC 6 Kasım gece-118"
+ },
+ {
+  "d": "Basseterre (Saint Kitts 1702-1713)",
+  "tur": "YERLESIM + MADDE",
+  "karar": "EMRELİC",
+  "islem": "Basseterre: 1702 → 1713-04-10 isg ingiltere (alt s: fransa — Fransız bölümü 1702'de İngilizlerce işgal); 1713-04-11'den s: ingiltere (Utrecht imzası — imza kuralı). Değişmez 2: 1702 işgal ve 1713-04-11 Utrecht maddeleri ölçülmeli (Utrecht büyük olasılıkla VAR).",
+  "kunye": "künye değişmez",
+  "gun": "1713-04-11",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-118 (LAB PAZAR iletimi, parti 042)",
+  "onay": "EMRELİC 6 Kasım gece-118"
  }
 ]
