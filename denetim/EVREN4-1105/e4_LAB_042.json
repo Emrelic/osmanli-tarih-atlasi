@@ -1,0 +1,660 @@
+{
+ "Binga": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1814",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-01-01",
+   "t": "1965-11-11",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "legislation.gov.uk Southern Rhodesia Act 1965 (ukpga/1965/76), Zimbabwe Act 1979 s.1; Binga'nın 1900 başlangıcını (BSAC şirket dönemi) tarihleyen kaynak yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: f 1900-01-01 için kaynak bulunamadı; 1900 öncesi BSAC şirket yönetimi (BEYANLI s: gerekebilir) ölçülmedi. Baktığım yerler: legislation.gov.uk (iki yasa), 3 araç çağrısı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1814",
+   "alan": "s",
+   "d": "rodezya-udi",
+   "f": "1965-11-11",
+   "t": "1979-06-01",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "UK Parliament, Southern Rhodesia Act 1965 c.76 [16 Kasım 1965] — https://www.legislation.gov.uk/ukpga/1965/76",
+   "alinti": "any date not earlier than 11th November 1965",
+   "oneri": {},
+   "not": "TEK KURAL / rakip hükûmet: UDI 1965-11-11 fiilî, hukuken İngiliz egemenliği 1980'e dek (Southern Rhodesia Act 1965) — rakip hükûmet kuralı fiilî kontrolü esas alır → rodezya-udi s: kalır; EMRELİC'e soruldu. | ONERI (değişiklik değil, karar sorusu): 1965-11-11 UDI günü yalnız fiilî; Birleşik Krallık yasası Rodezya'yı hukuken Britanya egemenliğinde sayıyor ve Zimbabwe Act 1979 s.1(1) 'Southern Rhodesia shall become an independent Republic' diyerek 1980-04-18'e dek İngiliz egemenliğini sürdürüyor. Atlas UDI devletini s: boyuyor; TEK KURAL (fiilî/de jure) Emre'nin kararı. Alıntı yalnız 11 Kasım 1965 tarihini anıyor, UDI'yı egemenlik değişimi olarak tarihlemiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1814",
+   "alan": "s",
+   "d": "zimbabve-rodezya",
+   "f": "1979-06-01",
+   "t": "1979-12-12",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "legislation.gov.uk Southern Rhodesia Act 1979 (ukpga/1979/52) — gün yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: Southern Rhodesia Act 1979 yalnız 'appointed day' çerçevesi veriyor; 1979-06-01 (Zimbabve-Rodezya) ve 1979-12-12 (Lancaster House/Soames) günleri okunmadı. Baktığım yer: legislation.gov.uk ukpga/1979/52 ve 1979/60."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1814",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1979-12-12",
+   "t": "1980-04-18",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "UK Parliament, Zimbabwe Act 1979 c.60 s.1 — https://www.legislation.gov.uk/ukpga/1979/60/section/1",
+   "alinti": "C1 18.4.1980 appointed under s. 1(1) by S.I. 1980/394",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Independence Day = 18.4.1980, S.I. 1980/394); f 1979-12-12 kaynaksız. Değişiklik önerisi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1814",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UK Parliament, Zimbabwe Act 1979 c.60 s.1 (Independence Day, S.I. 1980/394) — https://www.legislation.gov.uk/ukpga/1979/60/section/1",
+   "alinti": "Southern Rhodesia shall become an independent Republic under the name of Zimbabwe / 18.4.1980 appointed under s. 1(1) by S.I. 1980/394",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; devletin kendi resmî yasa yayını (gece-91); gün düzeyinde f. Binga için ayrıca el değiştirme yok."
+  }
+ ],
+ "Batavia (Cakarta)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4137",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1619-05-30",
+   "t": "1811-08-18",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: 1619 VOC kuruluşu ve 1811 İngiliz geçişi için araç bütçesi Endonezya/Hollanda 1949 ucuna harcandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4137",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "brif bilinen karar: Japon dönemi isg (Endonezya)",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | ONERI: bilinen karar (Endonezya Japon işgali isg); kaynakla ayrıca tarih okunmadı. oneri.alan isg."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4137",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Parlement & Politiek (Montesquieu Instituut), 'Soevereiniteitsoverdracht aan Indonesië in 1949' — https://www.parlement.com/id/vhm0l02igvut/soevereiniteitsoverdracht_aan_indonesie",
+   "alinti": "Op 27 december 1949 kwam er een einde aan het Nederlandse koloniale bewind in Nederlands-Indië / werd op 27 december 1949 de Akte van Soevereiniteitsoverdracht getekend",
+   "oneri": {},
+   "not": "TEK ÖLÇÜ: Batavia Hollanda elindeydi, akt Batavia'da (Genel Vali sarayı) ve Amsterdam'da aynı gün imzalandı = teslim günü. Çekinceli: kurum (Montesquieu Instituut) kaynağı, hakemli makale değil. history.state.gov ABD tanıma günü 28 Aralık 1949 verir (bağımsızlık günü değil)."
+  }
+ ],
+ "Basankusu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1027",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Office of the Historian, Congo Free State — https://history.state.gov/countries/congo-free-state",
+   "alinti": "annexed as a colony by Belgium on November 15, 1908",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (ülke düzeyi); f 1885-01-01 Basankusu için kaynaksız (istasyon kuruluşu bilinmiyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1027",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Democratic Republic of the Congo — https://history.state.gov/countries/congo-democratic-republic",
+   "alinti": "On that date, the area formerly known as the Belgian Congo was proclaimed independent from Belgian sovereignty.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; 'that date' = 30 Haziran 1960 (aynı cümle grubunda ABD tanıma günü olarak verilir); devletin resmî yayını. Gün düzeyinde."
+  }
+ ],
+ "Basseterre": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:116",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1713-07-13",
+   "t": "1958-01-03",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Universalis (robots yasağı: https://www.universalis.fr/encyclopedie/saint-kitts-et-nevis-ou-saint-christophe-et-nieves/2-histoire/); history.state.gov saint-kitts-nevis",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI. İPUCU (kaynaksız, arama özeti): Basseterre Fransız tarafındaydı; Utrecht'te Fransız payı 1713-04-11 (ya da 03-31) Britanya'ya devredildi — atlasın 1713-07-13 gününü kaynak desteklemiyor olabilir; 1713-07-13 Anglo-İspanyol Utrecht gününe benziyor. Akademik kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:116",
+   "alan": "s",
+   "d": "saint-kitts-nevis",
+   "f": "1983-09-19",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Saint Kitts and Nevis — https://history.state.gov/countries/saint-kitts-nevis",
+   "alinti": "on September 19, 1983, the same day that country declared independence",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; devletin resmî yayını: ABD tanıma günü = bağımsızlık ilanı günü (metin açıkça belirtiyor). Gün düzeyinde."
+  }
+ ],
+ "Belize Town": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1484",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1716-01-01",
+   "t": "1981-09-21",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Office of the Historian, Belize — https://history.state.gov/countries/belize",
+   "alinti": "Belize achieved full independence from the United Kingdom on September 21, 1981.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor; f 1716-01-01 kaynaksız (kolonileşme tarihi okunmadı). Değişiklik yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1484",
+   "alan": "s",
+   "d": "belize",
+   "f": "1981-09-21",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Belize — https://history.state.gov/countries/belize",
+   "alinti": "Belize achieved full independence from the United Kingdom on September 21, 1981.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; devletin resmî yayını; gün düzeyinde. (ABD tanıma günü 29 Ekim 1981 ayrı, kullanılmadı.)"
+  }
+ ],
+ "Betancuria (Fuerteventura)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:74",
+   "alan": "s",
+   "d": "guanche-politileri",
+   "f": "1000-01-01",
+   "t": "1404-01-01",
+   "uc": "t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "WebSearch (Real Academia de la Historia DBE sonuç vermedi); popüler/ansiklopedi özetleri",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: f 1000 ufuk işareti. t için İPUCU: Béthencourt Fuerteventura fethi 1405 (Britannica/özet) — atlas 1404 diyor; akademik kaynak okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:74",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1404-01-01",
+   "t": "1479-01-19",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "WebSearch (RAH DBE bulunamadı); Univ. de La Laguna 'Fase Señorial' mevcut kayıt",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: 1404 mü 1405 mi okunmadı (İPUCU: 1405). t 1479-01-19 (II. Juan ölümü) künye günüdür, Alcáçovas 1479-09-04 antlaşması Kanarya'yı Kastilya'ya tanıdı; ölçülmedi."
+  }
+ ],
+ "Bharatpûr": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:735",
+   "alan": "s",
+   "d": "bharatpur-cat",
+   "f": "1733-01-01",
+   "t": "1948-03-18",
+   "uc": "f+t",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: araç bütçesi dolayısıyla aranmadı (Matsya Birliği 1948-03-18 ve Bharatpur 1733 için)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:735",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-03-18",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI."
+  }
+ ],
+ "Bilma": [
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:282",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1902-01-01",
+   "t": "1960-08-03",
+   "uc": "t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "history.state.gov/countries/niger okundu: yalnız ABD tanıma günü",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: Niger sayfası 'recognized ... on August 3, 1960' diyor, bağımsızlık ilanı günü değil (kural: tanıma günü bağımsızlık günü sayılmaz). f 1902 için kaynak yok; ayrıca Bilma (Kawar) Fransız işgali 1902 mi? ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ok107.js:282",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://history.state.gov/countries/niger (yalnız tanıma günü)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: 3 Ağustos 1960 yalnız ABD tanıma/diplomatik ilişki günü olarak okundu; bağımsızlık ilanı günü kaynakta yok."
+  }
+ ],
+ "Biltine": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:275",
+   "alan": "s",
+   "d": "vaday",
+   "f": "1635-01-01",
+   "t": "1909-06-02",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Vedây' — https://islamansiklopedisi.org.tr/veday",
+   "alinti": "1635 yılında bölgenin yönetimini Tuncûrlar’ın elinden alarak Vedây Sultanlığı’nı kurdu / 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f YIL hassasiyeti (TDV: 'sultanlığın 1611’de kurulduğu da söylenir'), t GÜN (Abeşe'nin düşüşü). Biltine'nin Vedây'a ne zaman katıldığı ve 1909-06-02'de ayrıca el değiştirip değiştirmediği okunmadı (alt-bölge belirsizliği)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:275",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Chad — https://history.state.gov/countries/chad",
+   "alinti": "The United States recognized the Republic of Chad on August 11, 1960 / On that date, Chad’s independence from French Equatorial Africa was proclaimed.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; devletin resmî yayını: metin 11 Ağustos 1960'ı bağımsızlık ilanı günü olarak da veriyor. Gün düzeyinde."
+  }
+ ],
+ "Baracoa": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1088",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1511-08-15",
+   "t": "1898-12-10",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Office of the Historian, Spanish-American War — https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "signed the Treaty of Paris on December 10, 1898",
+   "oneri": {
+    "t": "1899-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); Paris 1898-12-10 ic_not. | ONERI (brif bilinen kararı: Küba İspanyol t 1899-01-01). TEK ÖLÇÜ: devralan ABD toprağı 1898-12-10'da yönetmiyordu → imza değil teslim günü. Kaynak 1899-01-01'i vermiyor (yalnız imza 1898-12-10; Cuba sayfası ABD işgalini 1902'ye dek anar); arama özetleri Jiménez Castellanos devir belgesini 1899-01-01 öğlen gösterdi (okunmadı). f 1511-08-15 (Wright 1916) bu turda okunmadı."
+  }
+ ],
+ "Barrow Creek Telgraf İstasyonu": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:144",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1872-01-01",
+   "t": "1911-01-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "Museum of Australian Democracy, Federation timeline — https://getting-it-together.moadoph.gov.au/teacher-guide/federation-timeline.html",
+   "alinti": "Commonwealth Parliament assumes control of the Northern Territory from South Australia (January).",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu AY hassasiyetiyle tarihliyor (1911 Ocak); gün 01-01 teyitsiz (NAA PDF bağlantı reddi: https://www.naa.gov.au/sites/default/files/2020-02/research-guide-government-records-nt.pdf). f 1872 yer_kaynak'ta (NT Hükûmeti) zaten var."
+  }
+ ],
+ "Basse-Terre (Guadeloupe)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:66",
+   "alan": "s",
+   "d": "guadeloupe",
+   "f": "1643-01-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: araç bütçesi dolayısıyla aranmadı; kayıt düzeyi kaynak (erudit BSHG) zaten var."
+  }
+ ],
+ "Batopilas": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1691",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1826-01-05",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909460.pdf (metni çıkmadı: 'Batopilas' aranan sayfa.py çıktısında YOK)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: INEGI PDF'i açılamadı (metin çıkarımı), başka makinede okunacak. Not: 1826 partido kuruluşu; Batopilas madeni İspanyol döneminde de vardı (zincir 1821'e önceden kurulabilir) — ölçülmedi."
+  }
+ ],
+ "Battleford": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:640",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Canadian Encyclopedia robots; DCB aranmadı."
+  }
+ ],
+ "Bauntovsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:33",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1652-01-01",
+   "t": "1917-03-15",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://history.bgu.ru/dl.ashx?id=4283 (Vakhrushev; sayfa.py ham metninde 'Баунт' YOK); WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: Baunt ostrogunun 1652 tarihi ve Rus idaresi için akademik kaynak okunmadı."
+  }
+ ],
+ "Bayonne": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:209",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1451-08-20",
+   "t": "1792-09-22",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "WebSearch (Cambridge TRHS 'Last years of English Gascony 1451-1453' erişilemez; Gascon Rolls); Vikipedi özetleri ipucu",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: 1451-08-20 yalnız İPUCU (Vikipedi kronolojisi); bir site Bayonne teslimini Temmuz diyor — gün çelişkisi çözülmedi. Akademik makale okunmadı."
+  }
+ ],
+ "Bella Bella (Fort McLoughlin)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:667",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1833-01-01",
+   "t": "1871-07-20",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "Justice Canada, British Columbia Terms of Union (Enactment No. 4) — https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "from and after the twentieth day of July, one thousand eight hundred and seventy-one, the said Colony of British Columbia shall be admitted into and become part of the Dominion of Canada",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1871-07-20, gün); f 1833 (Fort McLoughlin kuruluşu) kaynaksız. Değişiklik yok."
+  }
+ ],
+ "Belozersk": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:137",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://vestnik.vogu35.ru/docs/2022/istor_filolog/4/7.pdf (açılamadı, zaman aşımı); WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI ama ÖNEMLİ ŞÜPHE: arama özetleri Belozersk'in Novgorod değil ayrı Belozersk (Beloozero) knezliği olduğunu, 14. yy'dan fiilen Moskova'ya bağımlı, 1485/86'da Moskova'ya katıldığını gösteriyor — atlasın 'novgorod 1281-1478' sahipliği yanlış olabilir. Akademik kaynakla okunmadı (booksite.ru 'Белозерское княжество' https://booksite.ru/fulltext/1/001/007/010/10295.htm okunmadı)."
+  }
+ ],
+ "Belém": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:664",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1616-01-12",
+   "t": "1822-09-07",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "WebSearch özetleri (dol.com.br, diariodopara.com.br, oliberal.com) — popüler, akademik değil; USP Revista de História no.92 PDF DNS hatası: https://revhistoria2.webhostusp.sti.usp.br/wp-content/uploads/revistas/092/A002N092.pdf",
+   "alinti": "",
+   "oneri": {
+    "t": "1823-08-15"
+   },
+   "not": "ONERI (kaynak gücü ZAYIF, KAYNAKLI değil): Grão-Pará 1822-09-07 sonrası Portekiz'e bağlı kaldı, Belém 1823-08-15'te Brezilya'ya katıldı; aynı tarihte Belém'in elinde Portekiz idaresi vardı → t 1822-09-07 yanlış olabilir. Akademik teyit (USP PDF) bekliyor."
+  }
+ ],
+ "Belén": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1279",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1681-12-20",
+   "t": "1810-05-25",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://www.joseperezcorti.com.ar/Archivos/Legislacion/Provincial/Catamarca/Municipios/Cartas_Organicas_Municipales/Belen_COM_2005.pdf (PDF metni çıkmadı: 'fecha de fundación' YOK)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: açılamayan PDF, başka makinede okunacak. Kurum (belediye) kaynağı zaten KAYNAKLI sınıfı değil."
+  }
+ ],
+ "Benguela": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1582",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1617-05-17",
+   "t": "1975-11-11",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Office of the Historian, Angola — https://history.state.gov/countries/angola",
+   "alinti": "Portugal granted Angola independence on November 11, 1975",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (ülke düzeyi, Portekiz devir günü); f 1617-05-17 (Benguela kuruluşu) okunmadı."
+  }
+ ],
+ "Benî Mellâl": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:165",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "uc": "f+t",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: TDV 'Fas' / Tadla bölgesi ve Saadî-Vattâsî sınırı aranmadı."
+  }
+ ],
+ "Berdyansk": [
+  {
+   "dosya_satir": "data/yerlesimler_ok106.js:323",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1827-01-01",
+   "t": "1917-03-15",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS, Univ. of Alberta), 'Berdiansk' — https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CE%5CBerdiansk.htm",
+   "alinti": "Berdiansk was founded in 1827 on the site of the Nogay-Tatar",
+   "oneri": {},
+   "not": "f YIL hassasiyeti (kuruluş; Rus İmparatorluğu içinde, 1842'de Tavriya guberniyası ilçe merkezi); gün teyitsiz. t 1917-03-15 bu alıntıyla teyit edilmedi. Sahiplik kuruluşa gömülü, ayrı devir günü yok."
+  }
+ ],
+ "Berens River": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:659",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1814-01-01",
+   "t": "1870-07-15",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "Justice Canada, Rupert's Land and North-Western Territory Order (Enactment No. 3) — https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (devir günü 1870-07-15, 'said date'); f 1814 (Berens River postu) kaynaksız. Değişiklik yok."
+  }
+ ],
+ "Bernard Harbour (Bakır İnuit)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:98",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "Justice Canada, Adjacent Territories Order 31 Temmuz 1880 (Enactment No. 8) — https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t81.html",
+   "alinti": "From and after the first day of September, 1880, all British Territories and Possessions in North America",
+   "oneri": {},
+   "not": "Anakara kıyısı → 1870-07-15 Rupert's Land/North-Western Territory devri mi, 1880-09-01 Adjacent Territories mi (yalnız adalar) — EMRELİC'e soruldu. | 1880-09-01 = Adjacent Territories Order (not already included within the Dominion; adalar). Nokta (68.78N 114.79W) Dolphin and Union boğazı anakara kıyısı: anakara Arktik kıyısı 1870 North-Western Territory (p1t31, 1870-07-15) içinde olabilir → t 1870-07-15 olabilir; bunu çıkarım olarak işaretliyorum, kaynak anakara kıyısını açıkça saymıyor. Karar Emre'de (Inuit s: Kanada iddiasına karşı polity)."
+  }
+ ],
+ "Bertolínia (Aparecida)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:800",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1856-01-10",
+   "t": "1889-11-15",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://cidades.ibge.gov.br/brasil/pi/bertolinia/historico (HTTP 403 — sayfa.py okuyamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI: IBGE sayfası 403; kayıt düzeyi kaynak (IBGE) zaten var, başka makinede okunacak."
+  }
+ ],
+ "Beyan G34.5 B65.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:132",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "uc": "f+t",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Çöl Fethi (Conquista del Desierto) ve 1883 ucu aranmadı."
+  }
+ ],
+ "Beyan G36.5 B64.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:135",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "uc": "f+t",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI."
+  }
+ ],
+ "Beyan G44.5 B72.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:150",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI."
+  }
+ ],
+ "Beyan G52.5 B74.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:159",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI."
+  }
+ ],
+ "Birdsville": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:354",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1882-01-01",
+   "t": "1901-01-01",
+   "uc": "f",
+   "hukum": "BAKILMADI",
+   "kaynak": "https://queenslandplaces.com.au/diamantina-shire (bağlantı zaman aşımı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI/erişilemedi: Queensland Places zaman aşımı; t 1901-01-01 (Federasyon) bu turda kaynakla okunmadı (legislation.gov.uk Commonwealth Constitution Act'te gün bulunamadı)."
+  }
+ ],
+ "Birecik": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_bosluk.js:38",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1516-08-24",
+   "t": "1920-04-23",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Birecik' — https://islamansiklopedisi.org.tr/birecik",
+   "alinti": "Birecik 1919’da önce İngilizler, sonra Fransızlar tarafından işgal edildiyse de / 10 Temmuz 1920’de işgal kuvvetlerinin şehri terketmesiyle kurtuldu",
+   "oneri": {
+    "t": "1920-07-10",
+    "isg": "ingiltere 1919 (yıl) → fransa; 1920-07-10'a dek"
+   },
+   "not": "ÖNCEKİ KURAL (DA-BRIEF TBMM, Mersin emsali): işgal boyunca d: osmanli + isg (İngiliz → Fransız, kaynakla) → s: tbmm fiilî kurtuluştan 1920-07-10 (TDV); 1920-04-23 bu yere uygulanmaz. | t: işgal altında d: osmanli + isg işgalci yazılır; s: tbmm şehrin fiilen teslim alındığı günden (TDV: 1920-07-10, işgal güçlerinin çekilişi) başlar, 1920-04-23 değil. f ucu: TDV 'Osmanlı idaresine girdi (1516)... Urfa sancağının merkezi olarak teşkilâtlandırıldı' = YIL (1516) teyit, gün 08-24 (Mercidâbık günü) teyitsiz; tahrir ölçütü: sancak merkezi teşkilatı var. Çelişki: kronoloji maddesi Urfa kurtuluşu 1920-04-11, TDV Birecik 1920-07-10 (Birecik'in kendi maddesi esas); işgal başlangıcı 1919 yalnız yıl."
+  }
+ ]
+}
