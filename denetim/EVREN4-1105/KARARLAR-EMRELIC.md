@@ -858,6 +858,26 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **dene (LAB SALI):** toplu künye BÖLÜNMEZ. Yerleşim düzeyinde uçlar yazılır: BC Dene 1871-07-20, Alaska Atabaskları 1867-10-18 (günler kaynakla). Künye t bölgedeki son Antlaşma 8 adhezyonuna eşitlenir (Peace Point 1899-07-13, 1900; kaynakla). "Arktik/antlaşmasız yerli toprağı" Emre sınıfına girer.
 - Öteki öne çıkanlar: onay.
 
+## 5 Kasım 2026 gece-116 — KUR=KÜNYE, D1 örneklemi ve Norveç kararları (EMRELİC; ölçüm KUR-NORVEC-OLCUM.md)
+
+- **65 UÇ DELİĞİ:** öncelik bu; ON5 ve Zend ajanlarından sonra ilk iş.
+  - Ardıl dilimler ülke gruplamasıyla yazılır. Tek kaynaklı devirler, çoğu bu gece kararlaşan günler: DDR ve Batı Berlin 1990-10-03, bantustanlar 1994-04-27, Biafra 1970-01-15, Krajina 1995-08-07, UNTAES 1998-01-15, Herzeg-Bosna 1996-08-31, Nador ve Tetuan 1956-04-05, Brazzaville 1960-08-15 (özerk künye LAB'da).
+  - ARDILSIZ 71 ile aynı halefler; dosya birleştirilir.
+  - D2 maddesinin varlığı aynı tabloda gösterilir. Uygulamayı KASA PAZAR yapar.
+- **198 F-GERİ:** sonra yapılacak; ülke gruplamasıyla, kaynaklı kuruluş + öncül zincir, ONERI.
+- **D1 örnekleminin 1920 sonrasına uzatılması:** denetle.py değişikliği, Emre'nin kararı (sabah listesi).
+  - **KASA sayımı** (`D1-1920-2000-SAYIM.tsv`; betik `d1_1920.py`, denetle.py'nin `gn` ve `degismez1`'i aynen kullanılır, denetle.py'ye dokunulmadı):
+    - Bugünkü örneklem 311 = BEKLENEN_SAHIPSIZ (taban doğrulandı).
+    - 1930–2000 örneklemi (10 yılda bir): **259** sahipsiz yerleşim. Bunların **103**'ü bugün HİÇ sayılmıyor.
+    - Yeni 103'ün örnek yıllara göre sahipsiz sayısı: 1930 36 · 1940 36 · 1950 41 · 1960 54 · 1970 69 · 1980 73 · 1990 74 · 2000 103 (her yıl bağımsız sayılır, toplanmaz).
+    - 65 uç deliğinin 65'i de yeni örneklemde görünüyor.
+- **NORVEÇ 1814:** model önerisi onaylandı, uygulamaya hazır ONERI hazırlanacak (ajan başladı).
+  - `isvec` 1814-01-14 → 05-17 dilimi düşer (Kiel imzası, TEK ÖLÇÜ).
+  - `danimarka` → **1814-02-19** `norvec-1814`. Künye f 05-17 → 02-19 önerisi LAB'a gider (SNL kaynaklı).
+  - Moss (1814-08-14) sonrası Fredrikstad ve Hvaler'e `isg isvec` (kaynakla). 1814-11-04 `norvec-isvec-birligi`.
+  - D2: 1814-02-19 ve Moss 1814-08-14 maddeleri madde kuyruğuna (7 dil).
+  - Şahsî birlik: (a) ayrı `s:`, `v:` yok — KASA önerisi, Emre'ye gidiyor.
+
 ## gece-113 — tarama biçim kusuru (ek)
 
 - Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.
