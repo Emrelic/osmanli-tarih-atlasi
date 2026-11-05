@@ -1,0 +1,672 @@
+{
+ "Bulavayo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "matabele",
+   "f": "1840-01-01",
+   "t": "1893-11-04",
+   "sira": "961",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (İbrahim Güner; Rıza Kurtuluş), https://islamansiklopedisi.org.tr/zimbabve (sayfa.py)",
+   "alinti": "Direnen Ndebele halkı 1893’te yenildi.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1893; atlas 1893-11-04 gün teyitsiz). ÜLKE DÜZEYİ: Bulavayo adı geçmez. f 1840 için TDV Zimbabve yalnız '1830’larda Mzilikazi’nin istilâsı' der (Bulavayo kuruluşu yok); f bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1893-11-04",
+   "t": "1965-11-11",
+   "sira": "962",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (İbrahim Güner; Rıza Kurtuluş), https://islamansiklopedisi.org.tr/zimbabve (sayfa.py)",
+   "alinti": "Direnen Ndebele halkı 1893’te yenildi.",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1893); atlas 1893-11-04 gün teyitsiz. ÜLKE DÜZEYİ: Ndebele yenilgisi, Bulavayo'ya özgü tanıklık değil. TDV ayrıca '1895’te bu topraklar resmen Rodezya diye adlandırıldı'. t 1965: aşağıdaki UDI satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "rodezya-udi",
+   "f": "1965-11-11",
+   "t": "1979-06-01",
+   "sira": "963",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (İbrahim Güner; Rıza Kurtuluş), https://islamansiklopedisi.org.tr/zimbabve (sayfa.py)",
+   "alinti": "1965’te Güney Rodezya tek taraflı bağımsızlığını ilân etti.",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1965); atlas 1965-11-11 gün teyitsiz. ÜLKE DÜZEYİ. TDV 2 Mart 1970 cumhuriyet ilânını da verir. t 1979-06-01 TDV Zimbabve'de okunmadı (TDV yalnız 10 Eylül 1979 Londra Rodezya Konferansı ve Şubat 1980 seçimlerini sayar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "zimbabve-rodezya",
+   "f": "1979-06-01",
+   "t": "1979-12-12",
+   "sira": "964",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Zimbabve (sayfa.py). 1979-06-01 ve 1979-12-12 günlerini veren madde yok.",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Zimbabve: '10 Eylül 1979’da Londra’da Rodezya Konferansı’nda alınan karar gereğince 27-29 Şubat 1980’de yapılan seçimler' — Zimbabve-Rodezya (Muzorewa) dönemi anılmaz. Abi merkez bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1979-12-12",
+   "t": "1980-04-18",
+   "sira": "965",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Zimbabve (sayfa.py). Lancaster House 1979-12-12 için gün veren madde bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "İngiliz yönetiminin 1979-12-12'de geri dönüşü TDV'de yok; atlas kayıtlı kaynağı da yok. Yalnız 1980-04-18 ucu bir sonraki satırda teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1932",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "sira": "966",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zimbabve» (İbrahim Güner; Rıza Kurtuluş), https://islamansiklopedisi.org.tr/zimbabve (sayfa.py)",
+   "alinti": "18 Nisan 1980’de Rodezya, Zimbabve adını alarak bağımsız bir devlet oldu.",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (1980-04-18) teyitli; ÜLKE DÜZEYİ. Atlas t=2000-12-31 veri ufku işaretidir."
+  }
+ ],
+ "Braga": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "suev",
+   "f": "0409-01-01",
+   "t": "0585-01-01",
+   "sira": "945",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, «Braga» (Enciclopedia on line), https://www.treccani.it/enciclopedia/braga/ (sayfa.py)",
+   "alinti": "in una battaglia combattuta nel 585 nei suoi pressi dovettero cedere il Regno e la città ai Visigoti vincitori",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 585; atlas 0585-01-01 gün teyitsiz). f 0409 için Treccani yalnız 'alla fine del 5° sec. fu eletta a loro capitale dagli Svevi' der; 409 okunmadı. BEYANLI YAKLAŞIKLIK kaydı (bölge sahibi) sürer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "vizigot",
+   "f": "0585-01-01",
+   "t": "0711-01-01",
+   "sira": "946",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Braga» (Enciclopedia on line), https://www.treccani.it/enciclopedia/braga/ (sayfa.py)",
+   "alinti": "in una battaglia combattuta nel 585 nei suoi pressi dovettero cedere il Regno e la città ai Visigoti vincitori",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (585); atlas 0585-01-01 gün teyitsiz. Şehir adlı tanıklık (Braga). t=0711: Treccani 'Conquistata dagli Arabi alla metà dell’8° sec.' der (711 değil, 8. yy ortası; bkz. 947)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0711-01-01",
+   "t": "1281-01-01",
+   "sira": "947",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, «Braga» (Enciclopedia on line), https://www.treccani.it/enciclopedia/braga/ (sayfa.py)",
+   "alinti": "ripresa da Ferdinando I di Castiglia e León nel 1040",
+   "oneri": {
+    "t": "1040"
+   },
+   "not": "alıntı t ucunu tarihliyor: Braga 1040'ta I. Fernando'ca geri alındı ('data in feudo ai marchesi di Portogallo'); atlas __BOSLUK__ 711→1281 sürüyor. Müslüman fethi Treccani'de 'metà dell’8° sec.' (yıl yok). Boşluk merdiveni: TDV Braga maddesi yok; Treccani (İtalyan, ikincil) okundu. 1040 sonrası sahip (León-Kastilya mı Portekiz markisi mi) için ayrı dönem ve künye kararı Emre/LAB'ın; 1040-1281 arası kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "sira": "948",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Portekiz», https://islamansiklopedisi.org.tr/portekiz (sayfa.py)",
+   "alinti": "meclis kendisini Portekiz kralı (I. Felipe) ilân etmek zorunda kaldı (1581)",
+   "oneri": {},
+   "not": "ÇELİŞKİ beyanı: TDV Portekiz 1581 (meclisin I. Felipe'yi kral ilânı) verir; atlas t=1580-08-25 (Alcántara, fiilî denetim) kayıtlı karardır (ispanya satırı kaynağında beyanlı). f 1281: Braga için Portekiz'e geçiş günü okunmadı; Treccani Braga 'feudo ai marchesi di Portogallo' (1040 sonrası) der; atlas f=1281 ufuk işareti gibi görünür."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "sira": "949",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Portekiz», https://islamansiklopedisi.org.tr/portekiz (sayfa.py)",
+   "alinti": "Bragança Dükü (IV.) Johann (1640-1656) kral ilân edilerek İspanya ile olan birlikteliğe son verildi",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1640); atlas 1640-12-01 gün teyitsiz. ÜLKE DÜZEYİ: Braga'ya özgü tanıklık değil."
+  }
+ ],
+ "Breslau (Wrocław)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1264",
+   "alan": "s",
+   "d": "bohemya",
+   "f": "1335-08-24",
+   "t": "1526-12-05",
+   "sira": "950",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Breslavia» (Enciclopedia on line), https://www.treccani.it/enciclopedia/breslavia/ (sayfa.py)",
+   "alinti": "sorse nel 1311 il ducato di B. che fu incorporato nel Regno di Boemia nel 1335",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1335); atlas 1335-08-24 (Trentschin/Visegrád) gün teyitsiz. t=1526-12-05: Treccani Breslavia'da yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1264",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1742-06-11",
+   "t": "1871-01-18",
+   "sira": "951",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Breslavia» (Enciclopedia on line), https://www.treccani.it/enciclopedia/breslavia/ (sayfa.py)",
+   "alinti": "passò dagli Asburgo alla Prussia con la pace di B. dell’11 giugno 1742",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (Breslau Barışı 1742-06-11; Treccani 'Occupata da Federico II nel 1741'). TEK ÖLÇÜ: atlas imza günü. t=1871-01-18 bu satırda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1264",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-06-05",
+   "t": "1989-12-31",
+   "sira": "952",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Breslavia» (Enciclopedia on line), https://www.treccani.it/enciclopedia/breslavia/ (sayfa.py)",
+   "alinti": "Tedesca fino al 1945 / fu quindi incorporata dalla Polonia",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1945); atlas 1945-06-05 (Berlin Bildirisi) gün teyitsiz; Treccani devleti 'Polonia' diye verir, PKWN/Halk Polonyası ayrımı yok. Atlas kuralı (1945-06-05) KURAL KARARI olarak sürer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1264",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "sira": "953",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Polonya (sayfa.py), Treccani Breslavia ve Slesia.",
+   "alinti": "",
+   "oneri": {},
+   "not": "polonya-halk t / polonya-iii f = 1989-12-31 Breslau'ya özgü değil; TDV Polonya yalnız 'Sovyetler Birliği’nin çöküşüne kadar (1989)' ve '1991’de ilk demokratik serbest seçimler' der, 1989-12-31 günü yok. Kayıtlı kaynak (Dziennik Ustaw 1989 nr 75 poz. 444) birincil belge; akademik teyit bu partide yok."
+  }
+ ],
+ "Cartwright (Sandwich Körfezi, Labrador)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:594",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1775-01-01",
+   "t": "1855-01-01",
+   "sira": "969",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Dictionary of Canadian Biography «Cartwright, George» (biographi.ca); Canadian Encyclopedia; heritage.nf.ca (bağlantı zaman aşımı, açılamadı: https://www.heritage.nf.ca/articles/politics/collapse-responsible-government-impacts.php).",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1775 (Cartwright'ın yerleşimi) ve t 1855 için tarihli akademik cümle bulunamadı; DCB George Cartwright 1770'te Labrador'da ticarete geçtiğini ve adının Sandwich Körfezi ağzındaki yerleşimde yaşadığını söyler, yerleşim yılı ve idarî bağ yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:594",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-01-01",
+   "t": "1934-02-16",
+   "sira": "970",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "The Canadian Encyclopedia, «Newfoundland and Labrador and Confederation», https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation (WebFetch özeti; sayfa.py robots.txt yasağı)",
+   "alinti": "suspended responsible government in 1934",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1934; atlas 1934-02-16 gün teyitsiz); WebFetch özeti. Aynı makale başka bir yerde 'since 1933' der (iç tutarsızlık). f=1855: kayıtlı kaynak heritage.nf.ca bu oturumda açılamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:594",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "sira": "971",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "The Canadian Encyclopedia, «Newfoundland and Labrador and Confederation», https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation (WebFetch özeti; sayfa.py robots.txt yasağı)",
+   "alinti": "Newfoundland became Canada’s 10th province on 31 March 1949.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1949-03-31 GÜN teyitli); WebFetch özeti. f: makale 'Commission Government, 1934–49' başlığıyla yalnız yıl verir, 1934-02-16 günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:594",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1949-03-31",
+   "t": "2000-12-31",
+   "sira": "972",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "The Canadian Encyclopedia, «Newfoundland and Labrador and Confederation», https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation (WebFetch özeti; sayfa.py robots.txt yasağı)",
+   "alinti": "Newfoundland became Canada’s 10th province on 31 March 1949.",
+   "oneri": {},
+   "not": "[alıntı özetten] Canadian Encyclopedia robots.txt yasağı, sayfa.py ile birebir doğrulanamadı → ONERI. | f ucu GÜN düzeyinde (1949-03-31); WebFetch özeti. Labrador Newfoundland'ın parçası olarak geçti (ÜLKE DÜZEYİ). t=2000-12-31 veri ufku işaretidir."
+  }
+ ],
+ "Bonga (Kaffa)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1024",
+   "alan": "s",
+   "d": "kaffa",
+   "f": "1281-01-01",
+   "t": "1897-10-01",
+   "sira": "937",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "E. Haberland, «Gaki Sherocho», Encyclopaedia Africana Dictionary of African Biography I (DACB), https://dacb.org/stories/ethiopia/gaki-sherocho/ (sayfa.py)",
+   "alinti": "After heavy fighting, Kaffa was conquered, and Gaki Sherocho was captured and submitted, in October 1897.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (AY düzeyi: Ekim 1897; atlas 1897-10-01 gün yok). f 1281 ufuk işareti; Kaffa krallığının kuruluşu (15. yy) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1024",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1897-10-01",
+   "t": "1936-06-01",
+   "sira": "938",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "E. Haberland, «Gaki Sherocho», Encyclopaedia Africana Dictionary of African Biography I (DACB), https://dacb.org/stories/ethiopia/gaki-sherocho/ (sayfa.py)",
+   "alinti": "After heavy fighting, Kaffa was conquered, and Gaki Sherocho was captured and submitted, in October 1897.",
+   "oneri": {},
+   "not": "f ucu AY düzeyinde (Ekim 1897; gün bilinmiyor, atlas 1897-10-01 ay hassasiyeti beyanlı). t=1936-06-01: Treccani AOI maddesi aşağıda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:1024",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "sira": "939",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Africa orientale italiana» (Dizionario di Storia, 2011), https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/ (sayfa.py)",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "[alıntı LAB PAZAR'ca sayfa.py ile birebir doğrulandı (doğrulayıcı URL ')' kesimi)] | f ucu GÜN düzeyinde: AOI 1936-06-01 kraliyet kararnamesiyle kuruldu (ÜLKE DÜZEYİ; Bonga'ya özgü tanıklık yok; Treccani: Gimma (Galla-Sidama) valiliği AOI içindeydi). Addis Ababa girişi 1936-05-05 ic_not. t=1941-11-30: Treccani 'AOI ha cessato di esistere' diyor, gün yok."
+  }
+ ],
+ "Bonny": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:862",
+   "alan": "s",
+   "d": "nijer-deltasi",
+   "f": "1281-01-01",
+   "t": "1884-09-10",
+   "sira": "940",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV Nijerya (Bonny geçmez); web aramasında Bonny'ye özgü 1884 anlaşma günü bulunamadı (Cambridge/Lobban 'Removing Rulers in the Niger Delta' erişilemedi).",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1884-09-10 ve f 1281 için tarihli akademik cümle bulunamadı. Abi merkez bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:862",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-09-10",
+   "t": "1960-10-01",
+   "sira": "941",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nijerya», https://islamansiklopedisi.org.tr/nijerya (sayfa.py)",
+   "alinti": "1893 yılında Nijerya’nın Atlas Okyanusu sahilini tamamen ele geçirdi / 1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "oneri": {},
+   "not": "ÇELİŞKİ/ÜLKE DÜZEYİ: TDV İngiltere'nin 1893'te sahili tamamen ele geçirdiğini söyler (Royal Niger Company); atlas f=1884-09-10. Bonny'ye özgü değil, TDV 1884-85 koruma anlaşmalarını anmaz; oneri yazılmadı. t ucu 1960-10-01 GÜN düzeyinde teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:862",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "sira": "942",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nijerya», https://islamansiklopedisi.org.tr/nijerya (sayfa.py)",
+   "alinti": "1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (1960-10-01); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Buar (Bouar)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:776",
+   "alan": "s",
+   "d": "banda-gbaya",
+   "f": "1281-01-01",
+   "t": "1903-01-01",
+   "sira": "958",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti (sayfa.py)",
+   "alinti": "Fransa 29 Aralık 1903’te Ubangi-Şari sömürgesini kurduğunu ilân ederek",
+   "oneri": {
+    "t": "1903-12-29"
+   },
+   "not": "alıntı t ucunu tarihliyor: Ubangi-Şari sömürgesi 1903-12-29'da ilân edildi; atlas 1903-01-01. ÜLKE DÜZEYİ (Bouar'a özgü tanıklık yok; TDV 1891-95 arasında Ubangi kuzeyindeki küçük şehir devletlerini himayeye aldığını söyler). ÖLÇÜT: idareye katma — sömürge kuruluşu. f 1281 ufuk işareti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:776",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1903-01-01",
+   "t": "1960-08-13",
+   "sira": "959",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti (sayfa.py)",
+   "alinti": "Fransa 29 Aralık 1903’te Ubangi-Şari sömürgesini kurduğunu ilân ederek / 13 Ağustos 1960’ta bağımsızlığına kavuşan Orta Afrika Cumhuriyeti",
+   "oneri": {
+    "f": "1903-12-29"
+   },
+   "not": "f: TDV sömürge ilânı 1903-12-29 (atlas 1903-01-01); ÜLKE DÜZEYİ, Bouar'a özgü değil. t ucu 1960-08-13 GÜN düzeyinde teyitli. Not: TDV 1911'de ülkenin batı kısmının Almanya'ya (Neukamerun) kaptırıldığını söyler (Bouar'ın bu kısımda olup olmadığı ölçülmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:776",
+   "alan": "s",
+   "d": "orta-afrika-cumhuriyeti",
+   "f": "1960-08-13",
+   "t": "2000-12-31",
+   "sira": "960",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti (sayfa.py)",
+   "alinti": "13 Ağustos 1960’ta bağımsızlığına kavuşan Orta Afrika Cumhuriyeti",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (1960-08-13); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Cebeleyn": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:174",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "sira": "973",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Func», https://islamansiklopedisi.org.tr/func (sayfa.py)",
+   "alinti": "Amâre (Dûnkas) b. Adlân 1504 yılında",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1504; Funj'un Alve Krallığı'na karşı çıkıp bağımsızlığını ilânı, atlas 1504-01-01 gün teyitsiz). Cebeleyn'in Alve değil Funj nüfuzunda mı olduğu okunmadı; ÜLKE/BÖLGE DÜZEYİ. f 1281 ufuk işareti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:174",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "sira": "974",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan (sayfa.py)",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı.",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-34 Hartum modeli): Mısır Sudanı v: misir-kavalali; t 1885-01-26 Hartum'un düşüşü; TDV 1821-1882 ülke düzeyi, ic_not. | f ucu AY düzeyinde (Haziran 1821; atlas 1821-06-14 gün teyitsiz). ÖLÇÜT: tâbi — TDV: Kavalalı Mehmed Ali Paşa 'Osmanlı Devleti adına' Sudan'ın idaresini aldı (v:). ÇELİŞKİ/t: TDV 'idaresini 1821-1882 yılları arasında' der; atlas t=1885-01-26 (Hartum, Mehdî); TDV t ucunu 1882 yazar, seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:174",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "sira": "975",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan (sayfa.py)",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (1956-01-01); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Berwick-upon-Tweed": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:112",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1281-01-01",
+   "t": "1296-01-01",
+   "sira": "931",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani «Berwick-upon-Tweed»; Newcastle Üniv. Özel Koleksiyonlar blogu (blogs.ncl.ac.uk/speccoll/?p=2186).",
+   "alinti": "",
+   "oneri": {},
+   "not": "1296 için tarihli cümle yok: Treccani 'fino ai primi del 14° sec. fu una delle quattro città regie della Scozia; da Edoardo I ... che la conquistò, ebbe nel 1302 una carta municipale'; NCL blogu 1318/1333/1461/1482'yi verir, 1296'yı vermez. Kayıtlı kaynak Kings and Queens of Britain (OUP) bu partide açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:112",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1482-01-01",
+   "t": "2000-12-31",
+   "sira": "932",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Berwick-upon-Tweed» (Enciclopedia on line), https://www.treccani.it/enciclopedia/berwick-upon-tweed/ (sayfa.py)",
+   "alinti": "rimase definitivamente incorporata alla seconda nel 1482",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1482); atlas 1482-01-01 yıl hassasiyeti. NCL blogu da 'Finally in 1482, Richard, Duke of Gloucester ... recaptured the town' der (Ağustos ay bilgisi yok). t=2000-12-31 veri ufku işareti."
+  }
+ ],
+ "Beyla": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:599",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "sira": "933",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine», https://islamansiklopedisi.org.tr/gine (sayfa.py)",
+   "alinti": "topraklarının tamamı işgal edildikten sonra kendisi de esir alındı (1898)",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1898, Samori Ture'nin esir alınması; atlas 1898-09-29 gün teyitsiz). ÜLKE DÜZEYİ: Beyla geçmez. f 1878 için TDV yalnız 'XIX. yüzyılın sonlarına doğru' der; f bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:599",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-09-29",
+   "t": "1958-10-02",
+   "sira": "934",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine», https://islamansiklopedisi.org.tr/gine (sayfa.py)",
+   "alinti": "topraklarının tamamı işgal edildikten sonra kendisi de esir alındı (1898)",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1898); ÜLKE DÜZEYİ, Beyla'ya özgü tanıklık yok (Fransız işgali ile Samori'nin esaret günü ayrı olabilir; atlas 1898-09-29 gün teyitsiz). t=1958-10-02 kayıtlı kaynakla (TDV Gine) teyitli."
+  }
+ ],
+ "Big Lick (Roanoke)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1222",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1740-01-01",
+   "t": "1776-07-04",
+   "sira": "935",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "U.S. National Archives, «Declaration of Independence: A History», https://www.archives.gov/founding-docs/declaration-history (sayfa.py)",
+   "alinti": "into the late morning of July 4. The Declaration had been officially adopted.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1776-07-04 GÜN; resmî devlet yayını). ÜLKE DÜZEYİ: Virginia'nın kendi bağımsızlık kararları (Mayıs-Haziran 1776) okunmadı. f 1740: Big Lick yerleşimi için tanıklık bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1222",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "sira": "936",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "U.S. National Archives, «Declaration of Independence: A History», https://www.archives.gov/founding-docs/declaration-history (sayfa.py)",
+   "alinti": "into the late morning of July 4. The Declaration had been officially adopted.",
+   "oneri": {},
+   "not": "f ucu GÜN düzeyinde (1776-07-04); ÜLKE DÜZEYİ (Kongre bağımsızlık bildirisini kabul etti; Big Lick/Virginia eyalet düzeyi ayrı). t=2000-12-31 veri ufku."
+  }
+ ],
+ "Bourg-Saint-Maurice": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:122",
+   "alan": "s",
+   "d": "savoya",
+   "f": "1281-01-01",
+   "t": "1720-08-02",
+   "sira": "943",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, «Savoia» (Enciclopedia on line), https://www.treccani.it/enciclopedia/savoia/ (sayfa.py)",
+   "alinti": "Il ducato di Savoia (1416-1720)",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1720; başlık; atlas 1720-08-02 gün teyitsiz). ÜLKE DÜZEYİ (Savoya Hanedanı); Bourg-Saint-Maurice/Tarantaise adı geçmez. f 1281 ufuk işareti (ducato 1416'dan; künye f=1032)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:122",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1720-08-02",
+   "t": "1860-06-14",
+   "sira": "944",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Treccani, «Savoia» (Enciclopedia on line), https://www.treccani.it/enciclopedia/savoia/ (sayfa.py)",
+   "alinti": "titolo regio, cambiato poi nel 1720 in quello di re di Sardegna / la S. con Nizza era stata ceduta alla Francia (trattato del 24 marzo 1860)",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (TEK ÖLÇÜ, Savoie emsali): Torino 1860-03-24 imza ic_not; teslim 1860-06-14. | f ucu YIL düzeyinde (1720, kaynakla uyumlu); t ucu ONERI: Treccani yalnız Torino Antlaşması İMZA günü 1860-03-24'ü verir; atlas 1860-06-14 (teslim, Chambéry emsali) TEK ÖLÇÜ ile uyumlu, ama teslim günü bu kaynakta yok. Bourg-Saint-Maurice'e özgü değil (ÜLKE DÜZEYİ). 1792-1815 Fransız ilhakı (BİLİNEN EKSİK) okunmadı."
+  }
+ ],
+ "Brest": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:170",
+   "alan": "s",
+   "d": "bretanya",
+   "f": "1281-01-01",
+   "t": "1532-08-13",
+   "sira": "954",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, «Bretagna» (Enciclopedia on line), https://www.treccani.it/enciclopedia/bretagna/ (sayfa.py)",
+   "alinti": "il matrimonio dell’erede di questa famiglia, Anna, con il re di Francia Carlo VIII (1491) / unì la B. alla Corona di Francia",
+   "oneri": {},
+   "not": "ÇELİŞKİ beyanı: Treccani birleşmeyi 1491 evliliğine (Anne-Charles VIII) bağlar; atlas t=1532-08-13 (Vannes birleşme fermanı, kayıtlı karar), 1532 Treccani Bretagna'da yok. 1491 hanedan birliği, 1532 hukukî birleşme olabilir; seçilmedi. Brest şehir maddesi (Treccani) Bretagne geçişini tarihlemez. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:170",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1532-08-13",
+   "t": "1792-09-22",
+   "sira": "955",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani, «Bretagna» (Enciclopedia on line), https://www.treccani.it/enciclopedia/bretagna/ (sayfa.py)",
+   "alinti": "il matrimonio dell’erede di questa famiglia, Anna, con il re di Francia Carlo VIII (1491) / unì la B. alla Corona di Francia",
+   "oneri": {},
+   "not": "ÇELİŞKİ beyanı: aynı Treccani cümlesi (1491 evlilik/Taç'a birleşme; atlas f=1532-08-13). 1532 günü okunmadı (web aramasında Annales de Bretagne/Persée yönlendirmeleri bulundu, açılmadı). t=1792-09-22: Brest için tanıklık yok, kayıtlı kaynak TDV Fransa."
+  }
+ ],
+ "Brisbane": [
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:122",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1824-01-01",
+   "t": "1859-06-06",
+   "sira": "956",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "National Museum of Australian Democracy, foundingdocs.gov.au, «Letters Patent erecting Colony of Queensland 6 June 1859», https://www.foundingdocs.gov.au/item-did-60.html (sayfa.py)",
+   "alinti": "no separation is to take place until the Letters Patent have been published in New South Wales and Queensland",
+   "oneri": {
+    "t": "1859-12-10"
+   },
+   "not": "Resmî yayın: Letters Patent 6 Haziran 1859'da onaylandı, 11 Ekim 1859 yazışması 'yayımlanana kadar ayrılma olmayacak' der; ilk Queensland Government Gazette'te 10 Aralık 1859'da yayımlandı (sayfa.py'de okundu). TEK ÖLÇÜ: ayrılış fiilen yayımla başlar, t önerisi 1859-12-10 (künye f=1859-06-06 ile çelişir, künye sorusu LAB'a). f 1824 için: Moreton Bay cezaevi yerleşimi Redcliffe 1824 (Queensland Devlet Arşivi blogu aramada görüldü, açılmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:122",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1859-06-06",
+   "t": "1901-01-01",
+   "sira": "957",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "National Museum of Australian Democracy, foundingdocs.gov.au, «Letters Patent erecting Colony of Queensland 6 June 1859», https://www.foundingdocs.gov.au/item-did-60.html (sayfa.py)",
+   "alinti": "no separation is to take place until the Letters Patent have been published in New South Wales and Queensland",
+   "oneri": {
+    "f": "1859-12-10"
+   },
+   "not": "f önerisi 1859-12-10 (Gazette yayımı), gerekçe yukarıdaki satırda; 6 Haziran 1859 'authorised by Queen Victoria' (ic_not, Queensland Günü). t=1901-01-01 (Federasyon) bu partide okunmadı."
+  }
+ ],
+ "Cartagena de Indias": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:583",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1533-06-01",
+   "t": "1542-11-20",
+   "sira": "967",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, «Cartagena» (Enciclopedia on line), https://www.treccani.it/enciclopedia/cartagena/ (sayfa.py)",
+   "alinti": "Fu fondata nel 1533 da Pedro de Heredia",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (kuruluş 1533; atlas 1533-06-01 gün teyitsiz; kuruluş = İspanyol egemenliği). t=1542-11-20 (Peru Genel Valiliği) şehir için okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:583",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-10-01",
+   "t": "1831-01-01",
+   "sira": "968",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani «Cartagena» (yalnız 'Nel 1811 si proclamò indipendente'); Banco de la República makalesi, metni çıkmayan PDF: https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/chee_20.pdf (başka makinede okunacak; arama özetinde 10 Ekim 1821 İspanyol çekilişi görüldü, sayfa okunmadı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özeti (ipucu, okunmadı): İspanyol birlikleri 10 Ekim 1821'de Cartagena'dan çekildi; atlas f=1821-10-01. Treccani'nin 1811 bağımsızlık ilânı 1815 İspanyol geri alışıyla kesilmiştir."
+  }
+ ]
+}
