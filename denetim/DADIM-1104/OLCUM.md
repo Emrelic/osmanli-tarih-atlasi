@@ -1260,6 +1260,26 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
      - Rogozhinsky 2021 (Tomskaya Pisanitsa 14) toponim makalesi; cyclowiki'deki atıf etimoloji cümlesine bağlı. Kopal 1847 cümlesinin dipnotu popüler bir yazı. Atfın Kopal kaydından çıkarılması önerilir.
      - 1847 ONERI-zayıf kalır ("başka verilere göre 1846"). Büyük Cüz 1846–48 için hakemli dayanak bulunamadı.
 
+- **EMRELİC gece-98** (`karar59.py`, 12 satır; brife "KAYNAK SINIFI — ansiklopediler" bölümü eklendi):
+  1. **Kaynak sınıfı:** ulusal akademik ansiklopedi KAYNAKLI; ticari ya da genel ansiklopedi ONERI-güçlü.
+     - Mindelo, Bangassou, Jadotville ×2 ve Butterworth (Columbia) → ONERI-güçlü.
+     - Bisho/Ciskei (VLE) KAYNAKLI kalır.
+  2. **Gudermes:** rakip hükûmet kuralı. İçkerya t 1999-11-12, sonra s: rusya (isg değil); ONERI-güçlü.
+  3. **Peç:** gölge cumhuriyet fiilen yönetmedi (Draç emsali). Sıra: s: yugoslavya-federal → 1992-04-27 FRY → 1999-06-10 UNMIK.
+  4. **Bandung, Sukabumi:** s: pasundan 1948-02-26 → 1949-12-27, ardından RIS (künye adayı Emre'de) → 1950-03-11 Cumhuriyet.
+  5. **Nago:** ryukyu-abd-idaresi künyesi (Şuri emsali, gece-56).
+  6. **Tripuri:** künye t 1181-01-01 "[son yazıt; IGI]" ONERI-güçlü, LAB'a; Mirashi CII IV ile teyit edilirse KAYNAKLI.
+- **r8_121:** KAYNAKLI 1 (Bisho) · ONERI 9.
+  - Ruijin t 1934-10-10 olayı tarihlemiyor (1934-11-10 yalnız Vikipedi).
+  - Vichy şehir devri 1944-08-25/26 (devlet ucu 08-20).
+  - Tifariti: SADR ilanı Tifariti'nin devri değil.
+  - Lusaka: Kuzey Rodezya künyesi yok (LAB).
+  - Garðar: 1124 piskopos, t 1450 kaynaksız.
+- **r8_120:** KAYNAKLI 3 (Edington/Wessex, Talakad, Çatalhöyük f) · ONERI 7.
+  - **Ani:** t 1064-08-16 (TDV Alparslan; TDV Bizans 1065, çift-TDV beyanı).
+  - **Dînever:** 1000→1015 d: hasanveyhiler, 1015 yalnız arama özeti; 1015→1405 BOSLUK_KALIR.
+  - **Chamba:** f 0901-01-01 [aralık 901-950; Vogel ASI 1911]. Kurucu Sahilla-varman, Sajjana-varman değil.
+  - **Çatalhöyük:** t −5999 şüpheli (Batı Höyük).
 - **r8_124:** KAYNAKLI 2 · ONERI 2 · BULUNAMADI 4.
   - **KAYNAKLI:** Speightstown 1966-11-30, Vieux Fort 1979-02-22 (ülke düzeyi).
   - **Gudermes:** t 2000-02-06 Grozni'nin düşüşü; Gudermes 1999-11-12/13'te Rus denetimine geçti (VOA ham metni). isg mi d: mi, EMRELİC kararı.

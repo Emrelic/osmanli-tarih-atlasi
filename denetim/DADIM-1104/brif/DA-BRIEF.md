@@ -222,3 +222,24 @@ Dosyayı **her 5 yerleşimde bir** diske yaz. Bitirmeden önce `py -I -X utf8 -c
 Bir yerleşime en çok 8-10 araç çağrısı harca. Büyük şehirlerde (Bağdat, Kahire, Şam…) TDV şehir maddesi çoğu dönemi tek seferde verir; o maddeyi bir kez oku, birden çok dönemi teyit et.
 
 Bu bir eczane bilgisayarı ve CPU sınırlı. Ağır döngü kurma, büyük dosya indirme.
+
+
+## KAYNAK SINIFI — ansiklopediler (EMRELİC gece-98, 5 Kasım 2026)
+
+**Ulusal akademik ansiklopediler KAYNAKLI sayılır.** Şartlar: ham metin, birebir alıntı, satırın kendi ucu, `uc` alanı. Örnekler:
+- Visuotinė lietuvių enciklopedija (VLE)
+- Hrvatska enciklopedija (LZMK)
+- Store norske leksikon (SNL)
+- Bolşaya rossiyskaya ents. (BRE)
+- Treccani
+- TDV
+
+**Ticari ya da genel ansiklopediler → ONERI-güçlü.** Tek başına KAYNAKLI değildir (e-history.kz emsali). Örnekler:
+- Gale/Worldmark (Encyclopedia.com)
+- Columbia Encyclopedia
+- Larousse
+- Britannica
+
+**Hakemli olmayan portallar da ONERI-güçlü olur:** resmî tarih portalları (e-history.kz), yerel kütüphane ya da kraevedeniye siteleri, haber siteleri (VOA, AP, yerel haber).
+
+**İpucu sınıfı:** EB1911, IGI, Enciclopedia Italiana 1929-37 ve ESBE İPUCU ya da İPUCU-ARTI'dır; değişmez.

@@ -1,0 +1,166 @@
+{
+ "Edington": [
+  {
+   "sira": 4420,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0878-01-01",
+   "t": "0927-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle s.a. 878, Ingram çevirisi (1823), Project Gutenberg #657, https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı]",
+   "alinti": "he proceeded to Heddington; and there fought with all the army, and put them to flight",
+   "oneri": {},
+   "not": "ASC 878: Alfred paskalyadan 7. hafta sonra (yaklaşık Mayıs) Heddington'a (=Ethandun/Edington, çevirmenin özdeşliği) gelip Danimarkalı ordusunu yendi; gün yok, YIL düzeyi. f=878 yalnız yıl teyitli. Öteki uç (927) bu satırda teyitsiz; 927 için ingiltere satırına bak. Ethandun=Edington özdeşliği Keynes/Lapidge'den okunmadı, Ingram'ın 'Heddington' okuması esas."
+  },
+  {
+   "sira": 4421,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle s.a. 925-927, Ingram çevirisi (1823), Gutenberg #657 [19. yy kaynağı]",
+   "alinti": "A.D. 927. This year King Athelstan expelled King Guthfrith",
+   "oneri": {},
+   "not": "ONERI-zayıf (değişiklik önerisi yok, f teyitsiz): ASC 927 yılı Guthfrith'in kovulmasını (York) verir ama aynı çeviride 'took to the kingdom of Northumbria' cümlesi 926 bloğunda geçer (925-926-927 sırası karışık, çeviri 19. yy); 'İngiltere krallığı' ilanını tarihleyen cümle değil. Edington için wessex->ingiltere geçişi AYNI hanedanın kesintisiz mülküdür (Edington Wessex çekirdeğinde), yalnız künye adı değişir; ayrı devir yok. t=1281 atlas pencere sınırı (EPOK), kaynak aranmadı. Baktığım yer: Gutenberg ASC; Swanton/Britannica/Keynes okunmadı."
+  }
+ ],
+ "Talakad": [
+  {
+   "sira": 4422,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-ganga",
+   "f": "0450-01-01",
+   "t": "1004-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age (Bharatiya Vidya Bhavan), Ch. 'Dynasties of South India', Gangas; archive.org classicalage03bhar (ham djvu metni okundu)",
+   "alinti": "Under Hari-varman (c. 450-460) the capital of Gahga va^i was Talakad (Talked, Talavana- pura) on the Kaver'i",
+   "oneri": {},
+   "not": "f: Harivarman dönemi c. 450-460, Talakad başkent [yaklaşık/aralık, aralığın ilk yılı 450]. Alıntı OCR'lıdır ('Gahga va^i'=Gangavadi). t=1004 (Çola eline geçiş) TEYİTSİZ: Majumdar III 985'te biter; K.A.N. Sastri 'The Colas' II.2 (in.ernet.dli.2015.511960) ve 'Cholas I' (CholasI) metinlerinde Talakad/Talakkadu aramasında 1004'ü tarihleyen cümle bulunamadı (Cholas I'de yalnız Gangapadi/Mudikonda-sola-mandala geçer, olay tarihsiz). Öteki uç teyitsiz: t için Epigraphia Indica/Karnataka tarihi gerekir; künye t'si Britannica (devletler.js)."
+  }
+ ],
+ "Scone": [
+  {
+   "sira": 4423,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0906-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "A. O. Anderson, Early Sources of Scottish History A.D. 500-1286, vol. 1 (1922), archive.org cu31924028144313 (not: Hill of Credulity=Moothill, Scone yakını; Chronicle of the Picts, s. 445)",
+   "alinti": "Moothill, now Boothill, near Scone; and the same place as the Hill of Credulity",
+   "oneri": {},
+   "not": "906 ucunu (Constantine II'nin 6. yılı = 900+6) tarihleyen cümle ham metinde BULUNAMADI: Anderson cilt 1'de 'Hill of Credulity' ve 'Cellach' arandı; yalnız dipnot Moothill=Credulity özdeşliğini verir (yıl yok). Dolayısıyla hüküm ONERI/teyitsiz, mevcut kaynak (Chronicle of Kings of Alba) kayıtlı kalsın. Yan bulgu: Anderson Scone'u 906'dan ÖNCE de bilir (Pikt kralı Drust 'Scone'da öldürüldü', Pikt listesi versiyon K, ~840'lar) - iskocya künyesi f=843 (Kenneth) olduğundan Scone f'si 906'dan önceye çekilebilir; geç kaynak (Pikt Kronik versiyonları 14. yy), yıl vermez; öneri yazılmadı, LAB'a sorulabilir."
+  }
+ ],
+ "Birsay": [
+  {
+   "sira": 4424,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "orkney-kontlugu",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Orkneyinga Saga, Vigfusson (ed.), Icelandic Sagas vol. 1 (Rolls Series 1887), ch. 38, archive.org orkneyingasagaa00dasegoog (OCR, Eski Norsça)",
+   "alinti": "Kristskirkju, d^rSligt musteri. far var fyrst settr biskups-st611 i Orkney-",
+   "oneri": {},
+   "not": "Birsay'da Thorfinn jarl Christ Church'ü yaptırdı, Orkney'in ilk piskoposluk makamı orada kuruldu; yayıncının kenar tarihi A.D. 1047 (editör tarihi, saganın değil). Bu cümle Birsay'ın Orkney Kontluğu'na AİTLİĞİNİ gösterir ama f=1000 ucunu tarihlemez (1000 künye penceresi: Olaf Tryggvason'un Hıristiyanlaştırması). Kont Thorfinn Birsay'da 11. yy ortasında oturur: kontluk ondan önce de (Sigurd, c. 980-1014) Orkney'deydi, Birsay'ın ondan önceki sahipliği bu kaynakta yok. t=1281 pencere sınırı; 1468-69 rehin/1472 ilhak zaten künye ic_not'ta (Orkney Kontluğu t 1472). Sagadaki 'Birsay' Eski Norsça 'Byrgisherað' (OCR bozuk); Penguin çevirisi (Pálsson-Edwards) archive.org'da kilitli, okunmadı; Crawford, Scandinavian Scotland okunmadı."
+  }
+ ],
+ "Çatalhöyük": [
+  {
+   "sira": 4425,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "orta-anadolu-neolitik",
+   "f": "-7099-01-01",
+   "t": "-5999-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Çatalhöyük Research Project kronolojisi: Table 1 'Çatalhöyük chronology', PLOS ONE 19(9):e0307067 (2024) (Farid 2014 ve Mazzucato 2019'a dayanır), tam metin Europe PMC PMC11379307; ayrıca Knüsel vd. 2021 (BIAA, Çatalhöyük Research Project Series 15) başlığı '7100-5950 cal. BC'",
+   "alinti": "Early South G-L n/a 7100-6700",
+   "oneri": {},
+   "not": "Erken evre 7100-6700 cal BCE (Hodder seviyeleri South G-L), ham metindeki Tablo 1; f=-7099 = MÖ 7100'ün astronomik karşılığı [yaklaşık, aralığın ilk yılı] doğru. t=-5999 (MÖ 6000) TEYİTSİZ/ŞÜPHELİ: aynı kaynak tabloda Doğu Höyük son evresini 6500-6300 verir; kaynak listesindeki Rosenstock vd. 2019 başlığı 'transition between the East and West Mounds around 6000 cal BC' ve Orton vd. 2018 Antiquity 92(363) 'dating the Çatalhöyük West Mound' (okunamadı - Springer/PMC erişimi engelli) Batı Höyük'ün 6000 sonrası da dolu olduğunu ima eder; Knüsel başlığı doğu höyük için 5950 verir. Yani 'Çatalhöyük' yerleşimi Batı Höyük ile ~5500'e uzar olabilir; t önerisi yazılmadı, kaynakla (Orton 2018) doğrulanmalı. Bayliss vd. 2015 J. World Prehistory 28(1) Springer tarafından okunamadı (360 bayt yanıt)."
+  }
+ ],
+ "Ani": [
+  {
+   "sira": 4426,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1046-01-01",
+   "t": "1064-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Alparslan» (https://islamansiklopedisi.org.tr/alparslan); TDV «Bizans» (https://islamansiklopedisi.org.tr/bizans)",
+   "alinti": "şehir Selçuklular’ın eline geçti (16 Ağustos 1064)",
+   "oneri": {
+    "t": "1064-08-16"
+   },
+   "not": "t: TDV Alparslan Ani kuşatmasının bir aydan fazla sürdüğünü, şehrin 16 Ağustos 1064'te Selçuklu eline geçtiğini söyler (gün düzeyi); atlas t=1064-01-01 yıl başı; öneri t=1064-08-16. Çift-TDV: TDV «Bizans» 'Ani'yi (1065)' der; Alparslan maddesi şehre özgü ve gün verir (üçüncü bağımsız kaynak aranmadı; Osman Turan 1970 Selçuklu Araştırmaları I, s.111-139 TDV kaynakçasında var, okunmadı) -> TDV Alparslan esas, TDV Bizans 1065 not. f: TDV Bizans 'Ermeni krallığı bölgesinin 1045'te Bizans'a ilhakı' der (bölge/ülke düzeyi, Ani'ye özgü değil); atlas f=1046 (Treccani'den). f=1045 mi 1046 mı çözülmedi, Ani'ye özgü kaynak bulunamadı (TDV'de 'Ani' maddesi yok; arama sayfasında Ani başlığı çıkmadı). Selçuklu devri 1064-08-16'dan itibaren: bu uç değişirse sonraki dönem ve Değişmez 2 maddesi birlikte taşınmalı."
+  }
+ ],
+ "Dînever": [
+  {
+   "sira": 4427,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1405-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Dînever» (Tahsin Yazıcı, 1994) ve «Kürtler»; Encyclopaedia Iranica «Dīnavar» (C. E. Bosworth, 1995)",
+   "alinti": "Dînever’i de devletinin başşehri yaparak elli yıl boyunca burada hüküm sürdü",
+   "oneri": {
+    "f": "1000-01-01",
+    "t": "1015-01-01",
+    "d": "hasanveyhiler"
+   },
+   "not": "Dînever Hasanveyhîler'in başşehridir: TDV Dînever (ham metin) 'Hasanveyh 348'de (959) ... Dînever'i başşehri yaparak elli yıl hüküm sürdü'; Iranica 'Dīnavar was the center of the Ḥasanuyid principality' (Hasanūya ca. 348-69/959-80). Öneri: 1000-01-01 -> 1015-01-01 d:hasanveyhiler (künye hasanveyhiler 0959-1015 mevcut). 1015 ucu yalnız TDV arama sonucu özetinde ('Hasanveyhîler Emirliği (959-1015)') görüldü, ham madde cümlesi okunamadı; yıl düzeyi, TDV içi çelişki var (Kürtler maddesi Hasanveyh'in ölümünü 369/979 verir). 1015-1405 arası sahip BULUNAMADI: Iranica Dînever'in 568/1172-73'te Oğuz Türkmenleri'nce yağmalandığını ve 14. yy'da küçük şehir olduğunu, 14. yy sonunda Timur'ca harap edildiğini yazar (yılsız) - sahibi söylemez. 1015-1405 için BOSLUK_KALIR (abi merkez Hemedan/Kirmanşah'a bağ kaynaklı yazılmadı). t=1405: Timur tahribi tarihsiz, Dînever'in 1405'te sona erdiğine dair kaynak yok. Ölçüt: yer o devirde VAR (Iranica 13.-14. yy anlatır), YOK_O_DEVIRDE değil."
+  }
+ ],
+ "Chamba": [
+  {
+   "sira": 4428,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "chamba",
+   "f": "0950-01-01",
+   "t": "1948-04-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "J. Ph. Vogel, Antiquities of Chamba State, Part I (ASI New Imperial Series XXXVI, Calcutta 1911), archive.org india.history.resource.93079",
+   "alinti": "The foundation of Campa must have taken place in the first half of the 10th century",
+   "oneri": {
+    "f": "0901-01-01"
+   },
+   "not": "Vogel: Chamba şehrini Sahilla-varman kurdu (iki bakır levha Champaka'dan tarihli), kuruluş '10. yy'ın ilk yarısı' -> f=950 sınır değeri (ilk yarının SONU); aralık ilk yılı kuralıyla 0901-01-01 [aralık: 901-950]. Tarih uydurmamak için ONERI. t=1948-04-15 öteki satırda. Atlas çelişkisi: mevcut kaynak 'Sajjana-varman founded the city of Chanpaka' (Majumdar IV, Vogel'e atıf) der; Vogel orijinalinde Sahilla-varman. d:chamba BOYALAR'da yok (mevcut kaynakta beyanlı)."
+  },
+  {
+   "sira": 4429,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-04-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "V. P. Menon, The Story of the Integration of the Indian States (Orient Longmans 1956), archive.org dli.ernet.527198",
+   "alinti": "twenty-one Punjab Hill States which comprised Himachal Pradesh",
+   "oneri": {},
+   "not": "Menon (ham metin) Himachal Pradesh'i 21 Punjab Tepe Devleti'nden oluşan Başkomiser eyaleti olarak verir; 'Chamba' kelimesi Menon metninde GEÇMEZ (arama YOK). 15 Nisan 1948 günü mevcut kaynakta Menon'dan alıntılı; bu oturumda o cümleyi yeniden okumadım. Chamba'nın Himachal'e katıldığı gün için ikinci bağımsız kaynak bulunamadı (NITI özeti mevcut kayıtta, özet = dayanak değil). Öneri yok; gün doğrulaması ve Chamba'nın adıyla anılması için Menon'un Punjab Hill States bölümü/Himachal resmî kaynağı gerekir. t=2000-12-31 atlas pencere sınırı."
+  }
+ ]
+}

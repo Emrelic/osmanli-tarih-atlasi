@@ -64,7 +64,20 @@
     "t": "1999-11-12",
     "d": "ickerya"
    },
-   "not": "ALINTI VOA ham metninden (sayfa.py). t=2000-02-06 künye t'sidir (Grozni düşüşü, ülke düzeyi); Gudermes Rus denetimine 1999-11 ortasında geçti: Putin 12 Kasım 1999'da bayrağın Gudermes'te çekildiğini ve geçici idare seçildiğini söyledi; AP/CBS ham: Rus askerleri Cuma girdi, Cumartesi komutanlar denetimi ilan etti (Cuma=12, Cumartesi=13 Kasım). Gün 11-12 / 11-13 belirsiz; 12 önerildi, ikili beyan ic_not. ÖLÇÜT: idareye katma ('temporary administration') - Rus katmanı isg mi d: mi kararı EMRELİC/KASA'da. Alıntı t ucunu tarihliyor; f ucu (1991-11-01) için TDV 'Çeçenistan' mevcut. Ayrıca 1995-12-23 Çeçen birliklerinin çekilmesi ve Rus denetimi (ikincil arama özeti, ham değil) -> 1995-12/1996-08 Rus katmanı için dönem bölünmesi gerekebilir, ölçülmedi (HRW refworld robots yasağı)."
+   "not": "EMRELİC gece-98 (5 Kasım 2026): Rakip hükûmet kuralı: İçkerya 1996–99 fiilen yönetti; Rusya iddia eden egemen → isg değil. 1999-11-12 fiilî geri alışla s: rusya (VOA haber → ONERI-güçlü; 11-12/13 ikili beyan ic_not). Grozni 2000-02-06 ayrı kırılma. 1995-12 → 1996-08 Rus denetimi olasılığı kaynakla ayrıca bakılmalı. · ALINTI VOA ham metninden (sayfa.py). t=2000-02-06 künye t'sidir (Grozni düşüşü, ülke düzeyi); Gudermes Rus denetimine 1999-11 ortasında geçti: Putin 12 Kasım 1999'da bayrağın Gudermes'te çekildiğini ve geçici idare seçildiğini söyledi; AP/CBS ham: Rus askerleri Cuma girdi, Cumartesi komutanlar denetimi ilan etti (Cuma=12, Cumartesi=13 Kasım). Gün 11-12 / 11-13 belirsiz; 12 önerildi, ikili beyan ic_not. ÖLÇÜT: idareye katma ('temporary administration') - Rus katmanı isg mi d: mi kararı EMRELİC/KASA'da. Alıntı t ucunu tarihliyor; f ucu (1991-11-01) için TDV 'Çeçenistan' mevcut. Ayrıca 1995-12-23 Çeçen birliklerinin çekilmesi ve Rus denetimi (ikincil arama özeti, ham değil) -> 1995-12/1996-08 Rus katmanı için dönem bölünmesi gerekebilir, ölçülmedi (HRW refworld robots yasağı).",
+   "_etiket": "ONERI_GUCLU",
+   "oneri_son": {
+    "d": "ickerya",
+    "f": "1991-11-01",
+    "t": "1999-11-12",
+    "sonraki": {
+     "alan": "s",
+     "d": "rusya-federasyonu?",
+     "f": "1999-11-12",
+     "not": "künye kimliği KASA ölçer"
+    }
+   },
+   "karar": "EMRELİC gece-98"
   }
  ],
  "Dikelya (Dhekelia)": [

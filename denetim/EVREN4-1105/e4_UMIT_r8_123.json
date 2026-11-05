@@ -123,12 +123,21 @@
    "d": "kosova-golge-cumhuriyeti",
    "f": "1991-09-22",
    "t": "1999-06-10",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Baktım: history.state.gov Kosovo (1991 yok), CRS RL31053 (1991 ham metinde yok), Malcolm Kosovo: A Short History archive.org (HTTP 500). Arama özeti: Meclis 22 Eylül 1991'de referandum kararı, oylama 26-30 Eylül (ham doğrulanmadı; 22 Eylül 'ilan' değil 'referandum kararı'). SAHİPLİK UYARISI: gölge cumhuriyet Peç'i fiilen yönetmedi (1991-1999 fiilî idare FRY/Sırbistan); s: boyaması beyanlı yaklaşıklık ya da Sırbistan/Yugoslavya olmalı - EMRELİC kararı."
+   "not": "EMRELİC gece-98 (5 Kasım 2026): Gölge cumhuriyet fiilen yönetmedi (Draç emsali) → s: yugoslavya/sırbistan (SFRY → FRY, künye ölç) → 1999-06-10 UNMIK. kosova-golge-cumhuriyeti ic_not'a. · Baktım: history.state.gov Kosovo (1991 yok), CRS RL31053 (1991 ham metinde yok), Malcolm Kosovo: A Short History archive.org (HTTP 500). Arama özeti: Meclis 22 Eylül 1991'de referandum kararı, oylama 26-30 Eylül (ham doğrulanmadı; 22 Eylül 'ilan' değil 'referandum kararı'). SAHİPLİK UYARISI: gölge cumhuriyet Peç'i fiilen yönetmedi (1991-1999 fiilî idare FRY/Sırbistan); s: boyaması beyanlı yaklaşıklık ya da Sırbistan/Yugoslavya olmalı - EMRELİC kararı.",
+   "hukum_eski": "BULUNAMADI",
+   "_etiket": "KURAL",
+   "oneri_son": {
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "1999-06-10",
+    "not": "önceki yugoslavya-federal 1991-09-22 → 1992-04-27; künye uçlarını KASA ölçer"
+   },
+   "karar": "EMRELİC gece-98"
   },
   {
    "sira": 4461,
