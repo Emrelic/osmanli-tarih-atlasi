@@ -1,0 +1,2660 @@
+{
+ "satirlar": [
+  {
+   "ad": "Aba (Nijerya)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.107,
+   "lon": 7.367,
+   "kur": "1967-05-30",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "son_kunye_ad": "Biafra Cumhuriyeti",
+   "son_kunye_t": "1970-01-15",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:biafra@1970-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+   ]
+  },
+  {
+   "ad": "Atakpamé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 7.533,
+   "lon": 1.133,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "son_kunye_ad": "Fransız Togosu (Mandat → Vesayet)",
+   "son_kunye_t": "1960-04-27",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fransiz-togo@1960-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+   ]
+  },
+  {
+   "ad": "Bahlâ",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 22.979,
+   "lon": 57.305,
+   "kur": "1913-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "umman-ic-imamlik",
+   "son_t": "1955-01-01",
+   "son_kunye_ad": "İç Umman İbâdî İmamlığı",
+   "son_kunye_t": "1955-01-01",
+   "zincir": [
+    "s:umman-ic-imamlik 1913-01-01→1955-01-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:umman-ic-imamlik@1955-01-01"
+   ],
+   "d2_son_t_30gun": [
+    "1954-12-15 kronoloji_sinir_halef_1923_2000.js: Krallık Statüsü ile Hollanda Antilleri eşit ortak ülke oldu (Willemstad, Bonaire, Sint Maarten, Sint Eustatius, Oranjestad-Aruba)"
+   ]
+  },
+  {
+   "ad": "Balboa Heights (Panama Kanalı İdaresi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 8.95,
+   "lon": -79.55,
+   "kur": "1904-02-26",
+   "bit": null,
+   "sahipsiz_yillar": "1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "panama-kanali-bolgesi",
+   "son_t": "1979-10-01",
+   "son_kunye_ad": "Panama Kanalı Bölgesi (ABD)",
+   "son_kunye_t": "1979-10-01",
+   "zincir": [
+    "s:panama-kanali-bolgesi 1904-02-26→1979-10-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:panama-kanali-bolgesi@1979-10-01"
+   ],
+   "d2_son_t_30gun": [
+    "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+    "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+    "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt",
+    "1979-10-27 kronoloji_sinir_halef_1923_2000.js: Saint Vincent ve Grenadinler Birleşik Krallık'tan bağımsızlığını kazandı (Bequia dahil, Port Elizabeth)"
+   ]
+  },
+  {
+   "ad": "Bamenda",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.959,
+   "lon": 10.146,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "son_kunye_ad": "İngiliz Kamerunu (Mandat → Vesayet)",
+   "son_kunye_t": "1961-10-01",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-kamerun@1961-10-01"
+   ],
+   "d2_son_t_30gun": [
+    "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+    "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+   ]
+  },
+  {
+   "ad": "Bandung",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -6.917,
+   "lon": 107.619,
+   "kur": "1948-02-26",
+   "bit": null,
+   "sahipsiz_yillar": "1950,1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "son_kunye_ad": "Pasundan Devleti (Batı Cava)",
+   "son_kunye_t": "1950-03-11",
+   "zincir": [
+    "s:pasundan-devleti 1948-02-26→1950-03-11"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:pasundan-devleti@1950-03-11"
+   ],
+   "d2_son_t_30gun": [
+    "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+    "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+   ]
+  },
+  {
+   "ad": "Bangassou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.741,
+   "lon": 22.818,
+   "kur": "1976-12-04",
+   "bit": null,
+   "sahipsiz_yillar": "1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "orta-afrika-imparatorlugu",
+   "son_t": "1979-09-20",
+   "son_kunye_ad": "Orta Afrika İmparatorluğu (Bokassa)",
+   "son_kunye_t": "1979-09-20",
+   "zincir": [
+    "s:orta-afrika-imparatorlugu 1976-12-04→1979-09-20"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:orta-afrika-imparatorlugu@1979-09-20"
+   ],
+   "d2_son_t_30gun": [
+    "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+    "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+    "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt"
+   ]
+  },
+  {
+   "ad": "Batı Berlin (Charlottenburg)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 52.507,
+   "lon": 13.332,
+   "kur": "1948-12-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "berlin-bati",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Batı Berlin (üç Müttefik sektörü, özel statü)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:berlin-bati 1948-12-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:berlin-bati@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Beli Manastir",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.77,
+   "lon": 18.61,
+   "kur": "1996-01-15",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "son_kunye_ad": "Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)",
+   "son_kunye_t": "1998-01-15",
+   "zincir": [
+    "s:dogu-slavonya-untaes 1996-01-15→1998-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:dogu-slavonya-untaes@1998-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+   ]
+  },
+  {
+   "ad": "Benkovac",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 44.034,
+   "lon": 15.613,
+   "kur": "1991-12-19",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "son_kunye_ad": "Sırp Krajina Cumhuriyeti (RSK; fiilî)",
+   "son_kunye_t": "1995-08-07",
+   "zincir": [
+    "s:sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:sirp-krajina-cumhuriyeti@1995-08-07"
+   ],
+   "d2_son_t_30gun": [
+    "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+    "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+   ]
+  },
+  {
+   "ad": "Benzert (Bizerte)",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 37.276,
+   "lon": 9.858,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1557-01-01",
+    "d:None 1557-01-01→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Berbérati",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.261,
+   "lon": 15.792,
+   "kur": "1976-12-04",
+   "bit": null,
+   "sahipsiz_yillar": "1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "orta-afrika-imparatorlugu",
+   "son_t": "1979-09-20",
+   "son_kunye_ad": "Orta Afrika İmparatorluğu (Bokassa)",
+   "son_kunye_t": "1979-09-20",
+   "zincir": [
+    "s:orta-afrika-imparatorlugu 1976-12-04→1979-09-20"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:orta-afrika-imparatorlugu@1979-09-20"
+   ],
+   "d2_son_t_30gun": [
+    "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+    "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+    "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt"
+   ]
+  },
+  {
+   "ad": "Bijeljina",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 44.757,
+   "lon": 19.215,
+   "kur": "1533-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": false,
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "son_kunye_ad": "Sırp Cumhuriyeti (Republika Srpska)",
+   "son_kunye_t": "1995-12-14",
+   "zincir": [
+    "d:None 1533-01-01→1908-10-05",
+    "isg:avusturya 1878-07-29→1908-10-05",
+    "s:avusturya 1908-10-05→1918-11-11",
+    "s:sirbistan-kralligi 1918-11-11→1918-12-01",
+    "s:yugoslavya 1918-12-01→1941-04-10",
+    "s:hirvatistan-bagimsiz 1941-04-10→1945-05-31",
+    "s:yugoslavya 1945-05-31→1945-11-29",
+    "s:yugoslavya-federal 1945-11-29→1992-01-09",
+    "s:bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:bosna-sirp-cumhuriyeti@1995-12-14"
+   ],
+   "d2_son_t_30gun": [
+    "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+   ]
+  },
+  {
+   "ad": "Bin Gerdân",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 33.138,
+   "lon": 11.22,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Bisho",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -32.847,
+   "lon": 27.442,
+   "kur": "1981-12-04",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "ciskei",
+   "son_t": "1994-04-27",
+   "son_kunye_ad": "Ciskei (Bantustan)",
+   "son_kunye_t": "1994-04-27",
+   "zincir": [
+    "s:ciskei 1981-12-04→1994-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ciskei@1994-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+   ]
+  },
+  {
+   "ad": "Brazzaville",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -4.269,
+   "lon": 15.271,
+   "kur": "1910-01-15",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fransiz-ekvator-afrikasi",
+   "son_t": "1958-01-01",
+   "son_kunye_ad": "Fransız Ekvator Afrikası (AEF)",
+   "son_kunye_t": "1958-01-01",
+   "zincir": [
+    "s:fransiz-ekvator-afrikasi 1910-01-15→1958-01-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fransiz-ekvator-afrikasi@1958-01-01"
+   ],
+   "d2_son_t_30gun": [
+    "1958-01-03 kronoloji_sinir_halef_1923_2000.js: Batı Hint Federasyonu resmen kuruldu (Chaguaramas, Bridgetown, Castries, St. John's, Basseterre, Roseau, Kingstown, Plymouth)"
+   ]
+  },
+  {
+   "ad": "Buea",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.153,
+   "lon": 9.243,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "son_kunye_ad": "İngiliz Kamerunu (Mandat → Vesayet)",
+   "son_kunye_t": "1961-10-01",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-kamerun@1961-10-01"
+   ],
+   "d2_son_t_30gun": [
+    "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+    "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+   ]
+  },
+  {
+   "ad": "Bulawayo",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -20.15,
+   "lon": 28.583,
+   "kur": "1953-08-01",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "rodezya-nyasaland-federasyonu",
+   "son_t": "1963-12-31",
+   "son_kunye_ad": "Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu)",
+   "son_kunye_t": "1963-12-31",
+   "zincir": [
+    "s:rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:rodezya-nyasaland-federasyonu@1963-12-31"
+   ],
+   "d2_son_t_30gun": [
+    "1963-12-10 kronoloji_sinir_halef_1923_2000.js: Zengibar (Unguja ve Pemba: Çake Çake) Britanya'dan bağımsız sultanlık olarak kuruldu",
+    "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisumu, Nakuru, Garissa ve Marsabit bağımsız devlete geçti.",
+    "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Zanzibar Sultanı'nın Kenya kıyı şeridi (Mombasa, Malindi, Lamu, Pate) egemenliği Kenya'ya devredildi.",
+    "1963-12-31 kronoloji_sinir_halef_1923_2000.js: Rodezya ve Nyasaland Federasyonu feshedildi; Lusaka ve Bulawayo federal yapıdan çıktı",
+    "1964-01-12 kronoloji_sinir_halef_1923_2000.js: Zengibar Sultanlığı devrildi; Çake Çake (Pemba) dahil adalar devrimci yönetime geçti"
+   ]
+  },
+  {
+   "ad": "Butterworth",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -32.331,
+   "lon": 28.139,
+   "kur": "1976-10-26",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "transkei",
+   "son_t": "1994-04-27",
+   "son_kunye_ad": "Transkei (Bantustan, 'bağımsız')",
+   "son_kunye_t": "1994-04-27",
+   "zincir": [
+    "s:transkei 1976-10-26→1994-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:transkei@1994-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+   ]
+  },
+  {
+   "ad": "Bâce (Béja)",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.733,
+   "lon": 9.183,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Cendûbe",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.501,
+   "lon": 8.78,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Cerbe (Djerba)",
+   "dosya": "yerlesimler.js",
+   "lat": 33.807,
+   "lon": 10.856,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:__BOSLUK__ 1000-01-01→1136-01-01",
+    "s:sicilya-kralligi 1136-01-01→1160-01-12",
+    "s:muvahhidler 1160-01-12→1229-01-01",
+    "s:hafsi 1229-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1284-01-01",
+    "s:sicilya-aragon 1284-01-01→1334-01-01",
+    "s:hafsi 1334-01-01→1560-03-12",
+    "s:ispanya 1560-03-12→1560-07-30",
+    "d:None 1560-07-30→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Cerciş (Zarzis)",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 33.504,
+   "lon": 11.112,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Cottbus",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 51.763,
+   "lon": 14.334,
+   "kur": "1949-10-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Almanya Demokratik Cumhuriyeti (Doğu Almanya)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:almanya-demokratik-cumhuriyeti@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Cristóbal (Colón limanı, Kanal Bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 9.3485,
+   "lon": -79.8987,
+   "kur": "1904-02-26",
+   "bit": null,
+   "sahipsiz_yillar": "1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "panama-kanali-bolgesi",
+   "son_t": "1979-10-01",
+   "son_kunye_ad": "Panama Kanalı Bölgesi (ABD)",
+   "son_kunye_t": "1979-10-01",
+   "zincir": [
+    "s:panama-kanali-bolgesi 1904-02-26→1979-10-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:panama-kanali-bolgesi@1979-10-01"
+   ],
+   "d2_son_t_30gun": [
+    "1979-09-13 kronoloji_sinir_halef_1923_2000.js: Venda Güney Afrika'dan 'bağımsız' ilan edildi (Thohoyandou), uluslararası tanınmadı",
+    "1979-09-21 kronoloji_sinir_halef_1923_2000.js: Orta Afrika İmparatorluğu sona erdi: Fransa Barracuda harekâtıyla Bokassa'yı devirip Dacko'yu getirdi (Berbérati, Bangassou)",
+    "1979-10-01 kronoloji_sinir_halef_1923_2000.js: Panama Kanalı Bölgesi, Torrijos-Carter antlaşmalarının yürürlüğe girmesiyle kaldırıldı: Balboa Heights ve Cristóbal Panama egemenliğine geçt",
+    "1979-10-27 kronoloji_sinir_halef_1923_2000.js: Saint Vincent ve Grenadinler Birleşik Krallık'tan bağımsızlığını kazandı (Bequia dahil, Port Elizabeth)"
+   ]
+  },
+  {
+   "ad": "Doboj",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 44.731,
+   "lon": 18.087,
+   "kur": "1992-01-09",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "son_kunye_ad": "Sırp Cumhuriyeti (Republika Srpska)",
+   "son_kunye_t": "1995-12-14",
+   "zincir": [
+    "s:bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:bosna-sirp-cumhuriyeti@1995-12-14"
+   ],
+   "d2_son_t_30gun": [
+    "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+   ]
+  },
+  {
+   "ad": "Dûz",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 33.466,
+   "lon": 9.02,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Enugu",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.441,
+   "lon": 7.499,
+   "kur": "1967-05-30",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "biafra",
+   "son_t": "1967-10-04",
+   "son_kunye_ad": "Biafra Cumhuriyeti",
+   "son_kunye_t": "1970-01-15",
+   "zincir": [
+    "s:biafra 1967-05-30→1967-10-04"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:biafra@1967-10-04"
+   ],
+   "d2_son_t_30gun": [
+    "1967-10-04 kronoloji_sinir_halef_1923_2000.js: Biafra başkenti Enugu Nijerya federal ordusunun eline geçti"
+   ]
+  },
+  {
+   "ad": "Frankfurt (Oder)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 52.347,
+   "lon": 14.55,
+   "kur": "1949-10-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Almanya Demokratik Cumhuriyeti (Doğu Almanya)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:almanya-demokratik-cumhuriyeti@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Ga-Rankuwa",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -25.617,
+   "lon": 28.008,
+   "kur": "1977-12-06",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "bophuthatswana",
+   "son_t": "1994-04-27",
+   "son_kunye_ad": "Bophuthatswana (Bantustan)",
+   "son_kunye_t": "1994-04-27",
+   "zincir": [
+    "s:bophuthatswana 1977-12-06→1994-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:bophuthatswana@1994-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+   ]
+  },
+  {
+   "ad": "Gabes",
+   "dosya": "yerlesimler.js",
+   "lat": 33.881,
+   "lon": 10.098,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:vandal 0500-01-01→0534-01-01",
+    "s:bizans 0534-01-01→0591-01-01",
+    "s:bizans-afrika-eksarhligi 0591-01-01→0698-01-01",
+    "s:emevi 0698-01-01→0745-01-01",
+    "s:__BOSLUK__ 0745-01-01→0761-08-01",
+    "s:abbasi 0761-08-01→0800-01-01",
+    "s:aglebi 0800-01-01→0909-03-18",
+    "s:fatimi 0909-03-18→0972-01-01",
+    "s:ziriler 0972-01-01→1062-01-01",
+    "s:kabis-emirligi 1062-01-01→1148-01-01",
+    "s:norman-ifrikiye 1148-01-01→1160-01-01",
+    "s:muvahhidler 1160-01-01→1228-01-01",
+    "s:hafsi 1228-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Gilan (Gjilan)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 42.464,
+   "lon": 21.469,
+   "kur": "1991-09-22",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "kosova-golge-cumhuriyeti",
+   "son_t": "1999-06-10",
+   "son_kunye_ad": "Kosova Cumhuriyeti (gölge devlet, Rugova)",
+   "son_kunye_t": "1999-06-10",
+   "zincir": [
+    "s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:kosova-golge-cumhuriyeti@1999-06-10"
+   ],
+   "d2_son_t_30gun": [
+    "1999-06-10 kronoloji_sinir_halef_1923_2000.js: BM Güvenlik Konseyi 1244 sayılı kararı: Kosova (Priştine, Prizren) Yugoslavya Federal Cumhuriyeti idaresinden çıkıp UNMIK yönetimine girdi"
+   ]
+  },
+  {
+   "ad": "Glina",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.336,
+   "lon": 16.094,
+   "kur": "1991-12-19",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "son_kunye_ad": "Sırp Krajina Cumhuriyeti (RSK; fiilî)",
+   "son_kunye_t": "1995-08-07",
+   "zincir": [
+    "s:sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:sirp-krajina-cumhuriyeti@1995-08-07"
+   ],
+   "d2_son_t_30gun": [
+    "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+    "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+   ]
+  },
+  {
+   "ad": "Grammos (DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 40.333,
+   "lon": 20.833,
+   "kur": "1947-12-24",
+   "bit": null,
+   "sahipsiz_yillar": "1950,1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "yunanistan-gecici-demokratik-hukumet",
+   "son_t": "1949-08-28",
+   "son_kunye_ad": "Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)",
+   "son_kunye_t": "1949-08-28",
+   "zincir": [
+    "s:yunanistan-gecici-demokratik-hukumet 1947-12-24→1949-08-28"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:yunanistan-gecici-demokratik-hukumet@1949-08-28"
+   ],
+   "d2_son_t_30gun": [
+    "1949-08-28 kronoloji_sinir_halef_1923_2000.js: Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi (Vitsi, Grammos)"
+   ]
+  },
+  {
+   "ad": "Grozni (Groznıy)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.309,
+   "lon": 45.707,
+   "kur": "1991-11-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "son_kunye_ad": "Çeçenistan Içkerya Cumhuriyeti (fiilî)",
+   "son_kunye_t": "2000-02-06",
+   "zincir": [
+    "s:ickerya 1991-11-01→2000-02-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ickerya@2000-02-06"
+   ],
+   "d2_son_t_30gun": [
+    "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+   ]
+  },
+  {
+   "ad": "Gudermes",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.349,
+   "lon": 46.096,
+   "kur": "1991-11-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "son_kunye_ad": "Çeçenistan Içkerya Cumhuriyeti (fiilî)",
+   "son_kunye_t": "2000-02-06",
+   "zincir": [
+    "s:ickerya 1991-11-01→2000-02-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ickerya@2000-02-06"
+   ],
+   "d2_son_t_30gun": [
+    "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+   ]
+  },
+  {
+   "ad": "Halkulvâdî",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.823,
+   "lon": 10.295,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1535-07-21",
+    "s:ispanya 1535-07-21→1574-08-24",
+    "d:None 1574-08-24→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Ho (Togoland)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.601,
+   "lon": 0.471,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "son_kunye_ad": "İngiliz Togolandı (Mandat/Vesayet)",
+   "son_kunye_t": "1957-03-06",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-togoland@1957-03-06"
+   ],
+   "d2_son_t_30gun": [
+    "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+   ]
+  },
+  {
+   "ad": "Hohoe",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 7.152,
+   "lon": 0.473,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "son_kunye_ad": "İngiliz Togolandı (Mandat/Vesayet)",
+   "son_kunye_t": "1957-03-06",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-togoland@1957-03-06"
+   ],
+   "d2_son_t_30gun": [
+    "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+   ]
+  },
+  {
+   "ad": "Ilok",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.223,
+   "lon": 19.372,
+   "kur": "1996-01-15",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "son_kunye_ad": "Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)",
+   "son_kunye_t": "1998-01-15",
+   "zincir": [
+    "s:dogu-slavonya-untaes 1996-01-15→1998-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:dogu-slavonya-untaes@1998-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+   ]
+  },
+  {
+   "ad": "Izkî",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 22.761,
+   "lon": 57.802,
+   "kur": "1913-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "umman-ic-imamlik",
+   "son_t": "1955-01-01",
+   "son_kunye_ad": "İç Umman İbâdî İmamlığı",
+   "son_kunye_t": "1955-01-01",
+   "zincir": [
+    "s:umman-ic-imamlik 1913-01-01→1955-01-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:umman-ic-imamlik@1955-01-01"
+   ],
+   "d2_son_t_30gun": [
+    "1954-12-15 kronoloji_sinir_halef_1923_2000.js: Krallık Statüsü ile Hollanda Antilleri eşit ortak ülke oldu (Willemstad, Bonaire, Sint Maarten, Sint Eustatius, Oranjestad-Aruba)"
+   ]
+  },
+  {
+   "ad": "Juba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.855,
+   "lon": 31.605,
+   "kur": "1972-02-27",
+   "bit": null,
+   "sahipsiz_yillar": "1990,2000",
+   "uc65": true,
+   "son_sahip": "guney-sudan-ozerk-bolge",
+   "son_t": "1983-06-05",
+   "son_kunye_ad": "Güney Sudan Özerk Bölgesi (Addis Ababa Anlaşması)",
+   "son_kunye_t": "1983-06-05",
+   "zincir": [
+    "s:guney-sudan-ozerk-bolge 1972-02-27→1983-06-05"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:guney-sudan-ozerk-bolge@1983-06-05"
+   ],
+   "d2_son_t_30gun": [
+    "1983-06-05 kronoloji_sinir_halef_1923_2000.js: Güney Sudan Özerk Bölgesi Numeyri'nin kararnamesiyle kaldırıldı (Juba)"
+   ]
+  },
+  {
+   "ad": "Kafsa",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 34.425,
+   "lon": 8.784,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:__BOSLUK__ 0500-01-01→0534-01-01",
+    "s:bizans 0534-01-01→0591-01-01",
+    "s:bizans-afrika-eksarhligi 0591-01-01→0698-03-20",
+    "s:emevi 0698-03-20→0745-01-01",
+    "s:__BOSLUK__ 0745-01-01→0761-08-01",
+    "s:abbasi 0761-08-01→0800-01-01",
+    "s:aglebi 0800-01-01→0909-03-18",
+    "s:fatimi 0909-03-18→0972-01-01",
+    "s:ziriler 0972-01-01→1053-01-01",
+    "s:kafsa-benirend-emirligi 1053-01-01→1159-01-23",
+    "s:muvahhidler 1159-01-23→1228-01-01",
+    "s:hafsi 1228-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Kalam (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 35.482,
+   "lon": 72.578,
+   "kur": "1915-04-24",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "son_kunye_ad": "Swat Devleti (Yusufzay / Akhund)",
+   "son_kunye_t": "1969-07-28",
+   "zincir": [
+    "s:swat-devleti 1915-04-24→1969-07-28"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:swat-devleti@1969-07-28"
+   ],
+   "d2_son_t_30gun": [
+    "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+   ]
+  },
+  {
+   "ad": "Kara (Togo)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 9.551,
+   "lon": 1.187,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "son_kunye_ad": "Fransız Togosu (Mandat → Vesayet)",
+   "son_kunye_t": "1960-04-27",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fransiz-togo@1960-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+   ]
+  },
+  {
+   "ad": "Karl-Marx-Stadt (Chemnitz)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 50.833,
+   "lon": 12.92,
+   "kur": "1949-10-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Almanya Demokratik Cumhuriyeti (Doğu Almanya)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:almanya-demokratik-cumhuriyeti@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Kasrayn",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 35.167,
+   "lon": 8.836,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Kayrevan",
+   "dosya": "yerlesimler.js",
+   "lat": 35.678,
+   "lon": 10.096,
+   "kur": "0670-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:emevi 0670-01-01→0745-01-01",
+    "s:__BOSLUK__ 0745-01-01→0761-01-01",
+    "s:abbasi 0761-01-01→0800-01-01",
+    "s:aglebi 0800-01-01→0909-01-01",
+    "s:fatimi 0909-01-01→0972-10-02",
+    "s:ziriler 0972-10-02→1057-01-01",
+    "s:__BOSLUK__ 1057-01-01→1229-01-01",
+    "s:hafsi 1229-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Kef",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.174,
+   "lon": 8.705,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Kelîbiye",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.849,
+   "lon": 11.094,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Keningau",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.338,
+   "lon": 116.16,
+   "kur": "1946-07-15",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "kuzey-borneo-tac-kolonisi",
+   "son_t": "1963-09-16",
+   "son_kunye_ad": "Kuzey Borneo Tâc Kolonisi (İngiliz, Labuan dahil)",
+   "son_kunye_t": "1963-09-16",
+   "zincir": [
+    "s:kuzey-borneo-tac-kolonisi 1946-07-15→1963-09-16"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:kuzey-borneo-tac-kolonisi@1963-09-16"
+   ],
+   "d2_son_t_30gun": [
+    "1963-09-16 kronoloji_sinir_halef_1923_2000.js: Kuzey Borneo (Sabah: Kudat, Sandakan, Jesselton) Birlesik Krallik'tan Malezya Federasyonu'na katildi",
+    "1963-09-16 kronoloji_sinir_halef_1923_2000.js: Sarawak, Kuzey Borneo ve Singapur ile birlikte Malezya Federasyonu'na katıldı; Kuching, Sibu, Bintulu ve Limbang Malezya'ya geçti."
+   ]
+  },
+  {
+   "ad": "Kerkene (Kerkennah)",
+   "dosya": "yerlesimler.js",
+   "lat": 34.741,
+   "lon": 11.224,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Koper (Capodistria, B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.548,
+   "lon": 13.73,
+   "kur": "1947-09-15",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "triyeste-serbest-toprak",
+   "son_t": "1954-10-26",
+   "son_kunye_ad": "Triyeste Serbest Toprağı (A bölgesi Anglo-Amerikan, B bölgesi Yugoslav askerî idaresi)",
+   "son_kunye_t": "1954-10-26",
+   "zincir": [
+    "s:triyeste-serbest-toprak 1947-09-15→1954-10-26"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:triyeste-serbest-toprak@1954-10-26"
+   ],
+   "d2_son_t_30gun": [
+    "1954-10-26 kronoloji_sinir_halef_1923_2000.js: Londra Mutabakatı uygulandı, Triyeste Serbest Toprağı fiilen sona erdi; B bölgesi Yugoslav idaresinde kaldı (Koper, Umag)",
+    "1954-11-01 kronoloji_sinir_halef_1923_2000.js: Fransa Pondişeri, Karaikal, Mahé ve Yanam'ı fiilen Hindistan'a devreder; Pondişeri"
+   ]
+  },
+  {
+   "ad": "Korenica",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 44.753,
+   "lon": 15.708,
+   "kur": "1991-12-19",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "sirp-krajina-cumhuriyeti",
+   "son_t": "1995-08-07",
+   "son_kunye_ad": "Sırp Krajina Cumhuriyeti (RSK; fiilî)",
+   "son_kunye_t": "1995-08-07",
+   "zincir": [
+    "s:sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:sirp-krajina-cumhuriyeti@1995-08-07"
+   ],
+   "d2_son_t_30gun": [
+    "1995-08-07 kronoloji_sinir_halef_1923_2000.js: Sırp Krajina Cumhuriyeti Fırtına Harekâtı'yla çöktü (Glina, Korenica, Benkovac)",
+    "1995-08-21 kronoloji_sinir_halef_1923_2000.js: Etiyopya Federal Demokratik Cumhuriyeti Anayasası yürürlüğe girdi; Addis Ababa, Gondar, Harar, Mekelle dahil Etiyopya geçiş hükümetinden fed"
+   ]
+  },
+  {
+   "ad": "Kpando",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.995,
+   "lon": 0.293,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-togoland",
+   "son_t": "1957-03-06",
+   "son_kunye_ad": "İngiliz Togolandı (Mandat/Vesayet)",
+   "son_kunye_t": "1957-03-06",
+   "zincir": [
+    "s:ingiliz-togoland 1922-07-20→1957-03-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-togoland@1957-03-06"
+   ],
+   "d2_son_t_30gun": [
+    "1957-03-06 kronoloji_sinir_halef_1923_2000.js: Gana bağımsızlığını kazanır; İngiliz Altın Sahili ve Ashanti, Kuzey Toprakları ile Kumasi, Cape Coast, Akra"
+   ]
+  },
+  {
+   "ad": "Kumba",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 4.636,
+   "lon": 9.446,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-kamerun",
+   "son_t": "1961-10-01",
+   "son_kunye_ad": "İngiliz Kamerunu (Mandat → Vesayet)",
+   "son_kunye_t": "1961-10-01",
+   "zincir": [
+    "s:ingiliz-kamerun 1922-07-20→1961-10-01"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-kamerun@1961-10-01"
+   ],
+   "d2_son_t_30gun": [
+    "1961-09-28 kronoloji_sinir_halef_1923_2000.js: Suriye, Birleşik Arap Cumhuriyeti'nden ayrıldı; Şam, Halep, Hama, Humus, Rakka ve Deyrizor yeniden bağımsız Suriye'ye geçti.",
+    "1961-10-01 kronoloji_sinir_halef_1923_2000.js: Güney Kamerun (İngiliz mandası) Kamerun Cumhuriyeti ile birleşip Kamerun Federal Cumhuriyeti'ni kurdu; zincirdeki Marua, Garua, Ngaunder, Ba"
+   ]
+  },
+  {
+   "ad": "Kıbillî (Nefzâve)",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 33.704,
+   "lon": 8.969,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Lomé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 6.131,
+   "lon": 1.223,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "son_kunye_ad": "Fransız Togosu (Mandat → Vesayet)",
+   "son_kunye_t": "1960-04-27",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fransiz-togo@1960-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+   ]
+  },
+  {
+   "ad": "Lusaka",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -15.387,
+   "lon": 28.323,
+   "kur": "1953-08-01",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "rodezya-nyasaland-federasyonu",
+   "son_t": "1963-12-31",
+   "son_kunye_ad": "Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu)",
+   "son_kunye_t": "1963-12-31",
+   "zincir": [
+    "s:rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:rodezya-nyasaland-federasyonu@1963-12-31"
+   ],
+   "d2_son_t_30gun": [
+    "1963-12-10 kronoloji_sinir_halef_1923_2000.js: Zengibar (Unguja ve Pemba: Çake Çake) Britanya'dan bağımsız sultanlık olarak kuruldu",
+    "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisumu, Nakuru, Garissa ve Marsabit bağımsız devlete geçti.",
+    "1963-12-12 kronoloji_sinir_halef_1923_2000.js: Zanzibar Sultanı'nın Kenya kıyı şeridi (Mombasa, Malindi, Lamu, Pate) egemenliği Kenya'ya devredildi.",
+    "1963-12-31 kronoloji_sinir_halef_1923_2000.js: Rodezya ve Nyasaland Federasyonu feshedildi; Lusaka ve Bulawayo federal yapıdan çıktı",
+    "1964-01-12 kronoloji_sinir_halef_1923_2000.js: Zengibar Sultanlığı devrildi; Çake Çake (Pemba) dahil adalar devrimci yönetime geçti"
+   ]
+  },
+  {
+   "ad": "Madyan (Swat)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 35.141,
+   "lon": 72.538,
+   "kur": "1915-04-24",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "son_kunye_ad": "Swat Devleti (Yusufzay / Akhund)",
+   "son_kunye_t": "1969-07-28",
+   "zincir": [
+    "s:swat-devleti 1915-04-24→1969-07-28"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:swat-devleti@1969-07-28"
+   ],
+   "d2_son_t_30gun": [
+    "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+   ]
+  },
+  {
+   "ad": "Manzini",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -26.498,
+   "lon": 31.38,
+   "kur": "1903-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-svaziland",
+   "son_t": "1968-09-06",
+   "son_kunye_ad": "Svaziland Himayesi (İngiliz)",
+   "son_kunye_t": "1968-09-06",
+   "zincir": [
+    "s:ingiliz-svaziland 1903-01-01→1968-09-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-svaziland@1968-09-06"
+   ],
+   "d2_son_t_30gun": [
+    "1968-09-06 kronoloji_sinir_halef_1923_2000.js: Svaziland Britanya himayesinden bagimsiz oldu (Lobamba)"
+   ]
+  },
+  {
+   "ad": "Mbabane",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -26.317,
+   "lon": 31.133,
+   "kur": "1903-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "ingiliz-svaziland",
+   "son_t": "1968-09-06",
+   "son_kunye_ad": "Svaziland Himayesi (İngiliz)",
+   "son_kunye_t": "1968-09-06",
+   "zincir": [
+    "s:ingiliz-svaziland 1903-01-01→1968-09-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ingiliz-svaziland@1968-09-06"
+   ],
+   "d2_son_t_30gun": [
+    "1968-09-06 kronoloji_sinir_halef_1923_2000.js: Svaziland Britanya himayesinden bagimsiz oldu (Lobamba)"
+   ]
+  },
+  {
+   "ad": "Medenîn",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 33.354,
+   "lon": 10.505,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Mehdiye",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 35.505,
+   "lon": 11.062,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:fatimi 0921-02-20→1048-01-01",
+    "s:ziriler 1048-01-01→1148-05-22",
+    "s:norman-ifrikiye 1148-05-22→1160-01-12",
+    "s:muvahhidler 1160-01-12→1188-03-02",
+    "s:ganiyeler 1188-03-02→1206-01-01",
+    "s:muvahhidler 1206-01-01→1229-01-01",
+    "s:hafsi 1229-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Mekter (Maktar)",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 35.855,
+   "lon": 9.203,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Metlâvî",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 34.32,
+   "lon": 8.4,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Mitroviça (Mitrovicë)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 42.879,
+   "lon": 20.866,
+   "kur": "1991-09-22",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "kosova-golge-cumhuriyeti",
+   "son_t": "1999-06-10",
+   "son_kunye_ad": "Kosova Cumhuriyeti (gölge devlet, Rugova)",
+   "son_kunye_t": "1999-06-10",
+   "zincir": [
+    "s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:kosova-golge-cumhuriyeti@1999-06-10"
+   ],
+   "d2_son_t_30gun": [
+    "1999-06-10 kronoloji_sinir_halef_1923_2000.js: BM Güvenlik Konseyi 1244 sayılı kararı: Kosova (Priştine, Prizren) Yugoslavya Federal Cumhuriyeti idaresinden çıkıp UNMIK yönetimine girdi"
+   ]
+  },
+  {
+   "ad": "Munastır",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 35.778,
+   "lon": 10.826,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Mâtir (Mateur)",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 37.04,
+   "lon": 9.664,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Nador",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 35.174,
+   "lon": -2.937,
+   "kur": "1912-11-27",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fas-ispanyol-himayesi",
+   "son_t": "1956-04-07",
+   "son_kunye_ad": "Fas İspanyol Himayesi (Kuzey bölgesi)",
+   "son_kunye_t": "1956-04-07",
+   "zincir": [
+    "s:fas-ispanyol-himayesi 1912-11-27→1956-04-07"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fas-ispanyol-himayesi@1956-04-07"
+   ],
+   "d2_son_t_30gun": [
+    "1956-04-07 kronoloji_sinir_halef_1923_2000.js: İspanyol Fas himayesi sona erdi (Nador)"
+   ]
+  },
+  {
+   "ad": "Nefta",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 33.873,
+   "lon": 7.878,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Nâbil (Nabeul)",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.451,
+   "lon": 10.735,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Orašje",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.034,
+   "lon": 18.694,
+   "kur": "1863-01-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": false,
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "son_kunye_ad": "Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)",
+   "son_kunye_t": "1996-08-14",
+   "zincir": [
+    "d:None 1863-01-01→1908-10-05",
+    "isg:avusturya 1878-07-29→1908-10-05",
+    "s:avusturya 1908-10-05→1918-11-11",
+    "s:sirbistan-kralligi 1918-11-11→1918-12-01",
+    "s:yugoslavya 1918-12-01→1941-04-10",
+    "s:hirvatistan-bagimsiz 1941-04-10→1945-05-31",
+    "s:yugoslavya 1945-05-31→1945-11-29",
+    "s:yugoslavya-federal 1945-11-29→1991-11-18",
+    "s:herzeg-bosna 1991-11-18→1996-08-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:herzeg-bosna@1996-08-14"
+   ],
+   "d2_son_t_30gun": [
+    "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+   ]
+  },
+  {
+   "ad": "Owerri",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.485,
+   "lon": 7.035,
+   "kur": "1967-05-30",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "son_kunye_ad": "Biafra Cumhuriyeti",
+   "son_kunye_t": "1970-01-15",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:biafra@1970-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+   ]
+  },
+  {
+   "ad": "Pale",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.815,
+   "lon": 18.573,
+   "kur": "1992-01-09",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "bosna-sirp-cumhuriyeti",
+   "son_t": "1995-12-14",
+   "son_kunye_ad": "Sırp Cumhuriyeti (Republika Srpska)",
+   "son_kunye_t": "1995-12-14",
+   "zincir": [
+    "s:bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:bosna-sirp-cumhuriyeti@1995-12-14"
+   ],
+   "d2_son_t_30gun": [
+    "1995-12-14 kronoloji_sinir_halef_1923_2000.js: Bosna Sırp Cumhuriyeti Dayton Anlaşması'yla Bosna-Hersek'in bir entitesi oldu (Pale, Bijeljina, Doboj)"
+   ]
+  },
+  {
+   "ad": "Posušje",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.471,
+   "lon": 17.327,
+   "kur": "1991-11-18",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "son_kunye_ad": "Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)",
+   "son_kunye_t": "1996-08-14",
+   "zincir": [
+    "s:herzeg-bosna 1991-11-18→1996-08-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:herzeg-bosna@1996-08-14"
+   ],
+   "d2_son_t_30gun": [
+    "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+   ]
+  },
+  {
+   "ad": "Saidu Sharif",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 34.747,
+   "lon": 72.356,
+   "kur": "1915-04-24",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "swat-devleti",
+   "son_t": "1969-07-28",
+   "son_kunye_ad": "Swat Devleti (Yusufzay / Akhund)",
+   "son_kunye_t": "1969-07-28",
+   "zincir": [
+    "s:swat-devleti 1915-04-24→1969-07-28"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:swat-devleti@1969-07-28"
+   ],
+   "d2_son_t_30gun": [
+    "1969-07-28 kronoloji_sinir_halef_1923_2000.js: Swat Devleti Pakistan'a katıldı, Saidu Sharif, Madyan ve Kalam Pakistan idaresine geçti"
+   ]
+  },
+  {
+   "ad": "Schwerin",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 53.635,
+   "lon": 11.401,
+   "kur": "1949-10-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "almanya-demokratik-cumhuriyeti",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Almanya Demokratik Cumhuriyeti (Doğu Almanya)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:almanya-demokratik-cumhuriyeti@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Sfaks",
+   "dosya": "yerlesimler.js",
+   "lat": 34.74,
+   "lon": 10.76,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:aglebi 0849-07-26→0909-03-18",
+    "s:fatimi 0909-03-18→0972-01-01",
+    "s:ziriler 0972-01-01→1000-01-01",
+    "s:ziriler 1000-01-01→1062-01-15",
+    "s:sfaks-hammu-emirligi 1062-01-15→1099-11-17",
+    "s:ziriler 1099-11-17→1148-01-01",
+    "s:__BOSLUK__ 1148-01-01→1148-05-22",
+    "s:sicilya-kralligi 1148-05-22→1156-02-25",
+    "s:__BOSLUK__ 1156-02-25→1159-01-23",
+    "s:muvahhidler 1159-01-23→1190-02-08",
+    "s:__BOSLUK__ 1190-02-08→1206-01-01",
+    "s:muvahhidler 1206-01-01→1228-01-01",
+    "s:__BOSLUK__ 1228-01-01→1229-01-01",
+    "s:hafsi 1229-01-01→1281-01-01",
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Sokodé",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 8.983,
+   "lon": 1.133,
+   "kur": "1922-07-20",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "fransiz-togo",
+   "son_t": "1960-04-27",
+   "son_kunye_ad": "Fransız Togosu (Mandat → Vesayet)",
+   "son_kunye_t": "1960-04-27",
+   "zincir": [
+    "s:fransiz-togo 1922-07-20→1960-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:fransiz-togo@1960-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1960-04-27 kronoloji_sinir_halef_1923_2000.js: Fransiz Togosu (Notse) bagimsiz Togo Cumhuriyeti oldu"
+   ]
+  },
+  {
+   "ad": "Spandau (Batı Berlin)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 52.535,
+   "lon": 13.2,
+   "kur": "1948-12-07",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "berlin-bati",
+   "son_t": "1990-10-03",
+   "son_kunye_ad": "Batı Berlin (üç Müttefik sektörü, özel statü)",
+   "son_kunye_t": "1990-10-03",
+   "zincir": [
+    "s:berlin-bati 1948-12-07→1990-10-03"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:berlin-bati@1990-10-03"
+   ],
+   "d2_son_t_30gun": [
+    "1990-10-03 kronoloji_sinir_halef_1923_2000.js: Doğu Almanya Federal Almanya'ya katıldı; Batı Almanya birleşik Almanya oldu, Berlin yeniden birleşik başkent ilan edildi"
+   ]
+  },
+  {
+   "ad": "Sukabumi",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -6.927,
+   "lon": 106.93,
+   "kur": "1948-02-26",
+   "bit": null,
+   "sahipsiz_yillar": "1950,1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "son_kunye_ad": "Pasundan Devleti (Batı Cava)",
+   "son_kunye_t": "1950-03-11",
+   "zincir": [
+    "s:pasundan-devleti 1948-02-26→1950-03-11"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:pasundan-devleti@1950-03-11"
+   ],
+   "d2_son_t_30gun": [
+    "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+    "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+   ]
+  },
+  {
+   "ad": "Sîdî Bû Zeyd",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 35.038,
+   "lon": 9.485,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Sûse",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 35.826,
+   "lon": 10.638,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Sübaytıla",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 35.235,
+   "lon": 9.12,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Tabarka",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.954,
+   "lon": 8.758,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": "cenova",
+   "son_t": "1741-06-12",
+   "son_kunye_ad": "Cenova Cumhuriyeti",
+   "son_kunye_t": "1797-06-14",
+   "zincir": [
+    "s:hafsi 1281-01-01→1544-01-01",
+    "s:cenova 1544-01-01→1741-06-12",
+    "v:None 1741-06-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": []
+  },
+  {
+   "ad": "Tasikmalaya",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -7.327,
+   "lon": 108.22,
+   "kur": "1948-02-26",
+   "bit": null,
+   "sahipsiz_yillar": "1950,1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "pasundan-devleti",
+   "son_t": "1950-03-11",
+   "son_kunye_ad": "Pasundan Devleti (Batı Cava)",
+   "son_kunye_t": "1950-03-11",
+   "zincir": [
+    "s:pasundan-devleti 1948-02-26→1950-03-11"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:pasundan-devleti@1950-03-11"
+   ],
+   "d2_son_t_30gun": [
+    "1950-03-11 kronoloji_sinir_halef_1923_2000.js: Pasundan Devleti RIS Başkanlık Kararı ile feshedildi (Bandung, Tasikmalaya, Sukabumi)",
+    "1950-04-01 kronoloji_sinir_halef_1923_2000.js: Somali'nin eski İtalyan sömürgesi İngiliz askerî idaresinden İtalya'nın BM vesayetine geçer; Mogadişu, Merka, Baydoa vb."
+   ]
+  },
+  {
+   "ad": "Tatavin",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 32.93,
+   "lon": 10.451,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Testûr",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 36.556,
+   "lon": 9.442,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Thohoyandou",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": -22.945,
+   "lon": 30.485,
+   "kur": "1979-09-13",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "venda-bantustan",
+   "son_t": "1994-04-27",
+   "son_kunye_ad": "Venda (Bantustan)",
+   "son_kunye_t": "1994-04-27",
+   "zincir": [
+    "s:venda-bantustan 1979-09-13→1994-04-27"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:venda-bantustan@1994-04-27"
+   ],
+   "d2_son_t_30gun": [
+    "1994-04-27 kronoloji_sinir_halef_1923_2000.js: Bantustanlar (Bophuthatswana, Ciskei, Transkei, Venda) 1994 geçiş anayasasıyla Güney Afrika'ya yeniden katıldı"
+   ]
+  },
+  {
+   "ad": "Tozer",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 33.92,
+   "lon": 8.134,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Tunus",
+   "dosya": "yerlesimler.js",
+   "lat": 36.8,
+   "lon": 10.18,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1229-01-01→1534-09-22",
+    "d:None 1534-09-22→1535-07-21",
+    "s:hafsi 1535-07-21→1569-01-01",
+    "d:None 1569-01-01→1573-10-10",
+    "s:ispanya 1573-10-10→1574-09-12",
+    "d:None 1574-09-12→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Umag (B bölgesi)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.434,
+   "lon": 13.521,
+   "kur": "1947-09-15",
+   "bit": null,
+   "sahipsiz_yillar": "1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "triyeste-serbest-toprak",
+   "son_t": "1954-10-26",
+   "son_kunye_ad": "Triyeste Serbest Toprağı (A bölgesi Anglo-Amerikan, B bölgesi Yugoslav askerî idaresi)",
+   "son_kunye_t": "1954-10-26",
+   "zincir": [
+    "s:triyeste-serbest-toprak 1947-09-15→1954-10-26"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:triyeste-serbest-toprak@1954-10-26"
+   ],
+   "d2_son_t_30gun": [
+    "1954-10-26 kronoloji_sinir_halef_1923_2000.js: Londra Mutabakatı uygulandı, Triyeste Serbest Toprağı fiilen sona erdi; B bölgesi Yugoslav idaresinde kaldı (Koper, Umag)",
+    "1954-11-01 kronoloji_sinir_halef_1923_2000.js: Fransa Pondişeri, Karaikal, Mahé ve Yanam'ı fiilen Hindistan'a devreder; Pondişeri"
+   ]
+  },
+  {
+   "ad": "Umuahia",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 5.532,
+   "lon": 7.486,
+   "kur": "1967-05-30",
+   "bit": null,
+   "sahipsiz_yillar": "1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "biafra",
+   "son_t": "1970-01-15",
+   "son_kunye_ad": "Biafra Cumhuriyeti",
+   "son_kunye_t": "1970-01-15",
+   "zincir": [
+    "s:biafra 1967-05-30→1970-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:biafra@1970-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1970-01-15 kronoloji_sinir_halef_1923_2000.js: Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti"
+   ]
+  },
+  {
+   "ad": "Urus-Martan",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.133,
+   "lon": 45.538,
+   "kur": "1991-11-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "son_kunye_ad": "Çeçenistan Içkerya Cumhuriyeti (fiilî)",
+   "son_kunye_t": "2000-02-06",
+   "zincir": [
+    "s:ickerya 1991-11-01→2000-02-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ickerya@2000-02-06"
+   ],
+   "d2_son_t_30gun": [
+    "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+   ]
+  },
+  {
+   "ad": "Vitez",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 44.151,
+   "lon": 17.792,
+   "kur": "1991-11-18",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "son_kunye_ad": "Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)",
+   "son_kunye_t": "1996-08-14",
+   "zincir": [
+    "s:herzeg-bosna 1991-11-18→1996-08-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:herzeg-bosna@1996-08-14"
+   ],
+   "d2_son_t_30gun": [
+    "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+   ]
+  },
+  {
+   "ad": "Vitsi (Grammos-Vitsi, DSE üssü)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 40.583,
+   "lon": 21.3,
+   "kur": "1947-12-24",
+   "bit": null,
+   "sahipsiz_yillar": "1950,1960,1970,1980,1990,2000",
+   "uc65": true,
+   "son_sahip": "yunanistan-gecici-demokratik-hukumet",
+   "son_t": "1949-08-28",
+   "son_kunye_ad": "Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş)",
+   "son_kunye_t": "1949-08-28",
+   "zincir": [
+    "s:yunanistan-gecici-demokratik-hukumet 1947-12-24→1949-08-28"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:yunanistan-gecici-demokratik-hukumet@1949-08-28"
+   ],
+   "d2_son_t_30gun": [
+    "1949-08-28 kronoloji_sinir_halef_1923_2000.js: Grammos-Vitsi yenilgisiyle Geçici Demokratik Hükûmet fiilen sona erdi (Vitsi, Grammos)"
+   ]
+  },
+  {
+   "ad": "Vukovar",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 45.351,
+   "lon": 19.002,
+   "kur": "1996-01-15",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "dogu-slavonya-untaes",
+   "son_t": "1998-01-15",
+   "son_kunye_ad": "Doğu Slavonya, Baranya ve Batı Sirmiyum (BM Geçici İdaresi, UNTAES)",
+   "son_kunye_t": "1998-01-15",
+   "zincir": [
+    "s:dogu-slavonya-untaes 1996-01-15→1998-01-15"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:dogu-slavonya-untaes@1998-01-15"
+   ],
+   "d2_son_t_30gun": [
+    "1998-01-15 kronoloji_sinir_halef_1923_2000.js: BM Doğu Slavonya Geçiş Yönetimi (UNTAES) görevini bitirdi; Vukovar, Beli Manastir ve Ilok Hırvatistan egemenliğine tam geçti"
+   ]
+  },
+  {
+   "ad": "Zağvân",
+   "dosya": "yerlesimler_afrika.js",
+   "lat": 36.402,
+   "lon": 10.143,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Çapljina (Čapljina)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.113,
+   "lon": 17.705,
+   "kur": "1991-11-18",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "herzeg-bosna",
+   "son_t": "1996-08-14",
+   "son_kunye_ad": "Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28)",
+   "son_kunye_t": "1996-08-14",
+   "zincir": [
+    "s:herzeg-bosna 1991-11-18→1996-08-14"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:herzeg-bosna@1996-08-14"
+   ],
+   "d2_son_t_30gun": [
+    "1996-08-14 kronoloji_sinir_halef_1923_2000.js: Hırvat Herzeg-Bosna Cumhuriyeti Cenevre bildirgesiyle feshedildi (Čapljina, Posušje, Vitez, Orašje)"
+   ]
+  },
+  {
+   "ad": "Ğar Dimâv",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 36.45,
+   "lon": 8.435,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Ğâru'l-Melh (Porto Farina)",
+   "dosya": "yerlesimler_h2_kuzeyafrika.js",
+   "lat": 37.177,
+   "lon": 10.191,
+   "kur": null,
+   "bit": null,
+   "sahipsiz_yillar": "1930,1940,1950,1960,1970,1980,1990,2000",
+   "uc65": false,
+   "son_sahip": null,
+   "son_t": "1705-07-12",
+   "son_kunye_ad": null,
+   "son_kunye_t": "AÇIK",
+   "zincir": [
+    "s:hafsi 1281-01-01→1574-08-25",
+    "d:None 1574-08-25→1705-07-12",
+    "v:None 1705-07-12→1881-05-12",
+    "v:None 1881-05-12→1923-10-29",
+    "isg:fransa-cumhuriyet 1881-05-12→1923-10-29"
+   ],
+   "ardilsiz_esles": [
+    "UFUK:tunus-beyligi-fransiz@1923-10-29"
+   ],
+   "d2_son_t_30gun": [
+    "1705-07-12 olaylar_ek5.js: Tunus'ta Hüseynî hanedanının kurulması"
+   ]
+  },
+  {
+   "ad": "Şali (Shali)",
+   "dosya": "yerlesimler_halef_1946.js",
+   "lat": 43.154,
+   "lon": 45.907,
+   "kur": "1991-11-01",
+   "bit": null,
+   "sahipsiz_yillar": "2000",
+   "uc65": true,
+   "son_sahip": "ickerya",
+   "son_t": "2000-02-06",
+   "son_kunye_ad": "Çeçenistan Içkerya Cumhuriyeti (fiilî)",
+   "son_kunye_t": "2000-02-06",
+   "zincir": [
+    "s:ickerya 1991-11-01→2000-02-06"
+   ],
+   "ardilsiz_esles": [
+    "EKSIK:ickerya@2000-02-06"
+   ],
+   "d2_son_t_30gun": [
+    "2000-02-06 kronoloji_sinir_halef_1923_2000.js: Rus kuvvetleri Grozni'nin denetimini ele geçirdi; Çeçenistan (İçkerya) fiilî devleti Grozni, Gudermes, Şali ve Urus-Martan dahil ülke deneti"
+   ]
+  }
+ ],
+ "gruplar": {
+  "null": 35,
+  "biafra": 4,
+  "fransiz-togo": 4,
+  "almanya-demokratik-cumhuriyeti": 4,
+  "ickerya": 4,
+  "herzeg-bosna": 4,
+  "ingiliz-kamerun": 3,
+  "pasundan-devleti": 3,
+  "dogu-slavonya-untaes": 3,
+  "sirp-krajina-cumhuriyeti": 3,
+  "bosna-sirp-cumhuriyeti": 3,
+  "ingiliz-togoland": 3,
+  "swat-devleti": 3,
+  "umman-ic-imamlik": 2,
+  "panama-kanali-bolgesi": 2,
+  "orta-afrika-imparatorlugu": 2,
+  "berlin-bati": 2,
+  "rodezya-nyasaland-federasyonu": 2,
+  "kosova-golge-cumhuriyeti": 2,
+  "yunanistan-gecici-demokratik-hukumet": 2,
+  "triyeste-serbest-toprak": 2,
+  "ingiliz-svaziland": 2,
+  "ciskei": 1,
+  "fransiz-ekvator-afrikasi": 1,
+  "transkei": 1,
+  "bophuthatswana": 1,
+  "guney-sudan-ozerk-bolge": 1,
+  "kuzey-borneo-tac-kolonisi": 1,
+  "fas-ispanyol-himayesi": 1,
+  "cenova": 1,
+  "venda-bantustan": 1
+ }
+}

@@ -902,6 +902,27 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - Bu gece KASA'nın raporladığı künye değerlerinin hiçbiri etkilenmedi. Bütün çıktılar sahte t'lere karşı tarandı; tek isabet ON5'teki "künye t 1990-12-02 değil" uyarı notu, yani ajan kusuru zaten yakalamış.
   - Yardımcı `girdi.oku_devletler()` ayrıştırıcısına geçirildi; açık künyede "t AÇIK" basıyor. ON5 ajanı kusuru bulup `kn2.py` ile aşmıştı.
 
+## gece-118 — ON5 kalemlerinde EMRELİC kararları (kural içinde; Emre'ye gitmez)
+
+- **Jersey / Guernsey:** iki ayrı ada, iki ayrı işgal günü (Jersey 1940-07-01, Guernsey 1940-06-30). Hiza gerekmez.
+- **fransa t:** yerleşimler künye geçişine uyar. Monarşi künyesinin t'si ile cumhuriyet künyesinin f'si bitişik değilse (1 gün boşluk ya da örtüşme) LAB'a künye sorusu gider. Konvansiyon kraliyeti 09-21'de kaldırdı, cumhuriyet 09-22'de başlar (Yıl I). Tek gün seçilir ve iki künye bitiştirilir.
+- **kanal-adalari ↔ normandiya** 5 ay örtüşmesi künye hatasıdır, LAB'a gider.
+- **Saumur:** `blois-kontlugu` künye adayı, LAB'a gider.
+- **San Salvador:** uç kuralı uygulanır.
+  - state.gov alıntısı 1839'u açıkça bağımsızlık olarak tarihliyorsa çelişki vardır; iki gün `ic_not`a yazılır.
+  - Alıntı federasyonun çözülüşünü ya da ilişkiyi anlatıyorsa künye 1841 kalır.
+  - Alıntının okunması 103 uç deliği ajanına verildi.
+- **F-GERİ:** Frankfurt (Oder) 1253 ve Schwerin 1160 onaylandı. Codrington, Portsmouth ve Praia kaynaksız, uygulanmaz.
+- jcs.mil ve liberationday.gg TARAYICI listesine yazıldı.
+
+## gece-118 — 103 uç deliği tablosu girdisi (KASA)
+
+- Girdi `UC103-GIRDI.json`'dadır: ayrıştırıcıyla zincir, son sahip, ARDILSIZ eşleşmesi, son t'nin ±30 gününde D2 maddesi.
+  - 103 satırın 103'ü ARDILSIZ-ZINCIR.tsv'de eşleşiyor. 102'sinin son t'si yanında bir D2 maddesi var (son sahibin bitişi).
+- **36 kayıt Tunus'tur** (35 + Tabarka). Zincir 1923-10-29'da `v:`/`isg fransa-cumhuriyet` ile bitiyor. Bunlar zaten UFUK-1923 uygulama listesinde (Tunus 72 satır → 1956-03-20) ve uygulanınca kapanır, ayrıca araştırılmaz.
+- Kalan **67 satır** ardıl dilim ajanına verildi (Sonnet; çıktı `UC103-ONERI.json`).
+  - 38 ek deliğin 36'sı Tunus; diğer ikisi Bijeljina ve Orašje (Bosna Sırp Cumhuriyeti / Herzeg-Bosna halefleri, 2000 örneği).
+
 ## gece-113 — tarama biçim kusuru (ek)
 
 - Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.

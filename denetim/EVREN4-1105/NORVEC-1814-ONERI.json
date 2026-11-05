@@ -1,0 +1,2083 @@
+{
+ "baslik": "NORVEÇ 1814 — uygulamaya hazır ONERI (EMRELİC gece-116) · KASA SALI alt ajanı · 5 Kasım 2026",
+ "olcum": {
+  "agac": "D:/atlas/.claude/worktrees/kasa-1104-kronoloji (dal kasa-1104-kronoloji, KASA), arac/girdi.py GIRDI_DOSYALARI üzerinden",
+  "kayit_sayisi": 20,
+  "olcut": "s: içinde d:isvec f:1814-01-14 olan kayıtlar",
+  "isg_bolge_olcumu": "lat 58.7-60.3, lon 10.4-12.6 kutusunda (Østfold + Oslofjord) yalnız 2 kayıt var: Oslo (59.913, 10.752) ve Tønsberg (59.268, 10.407). İkisi de Oslofjord'un batısında/kuzeyinde; İsveç seferi Glomma hattının doğusunda kaldı, Christiania ve Vestfold işgal edilmedi. Fredrikstad, Hvaler, Halden/Fredrikshald, Fredriksten, Sarpsborg, Moss, Kongsvinger adlı kayıt atlas yerleşim dosyalarında YOK (grep). ⇒ isg isvec katmanı alan kayıt: 0. Yeni nokta açılmadı.",
+  "satir_olcumu": "dosya_satir iki yazımla arandı (ad:\"X\" ve \"ad\": \"X\"); 20 kaydın 20'si tek satırda bulundu."
+ },
+ "kayitlar": [
+  {
+   "ad": "Oslo",
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "lat": 59.913,
+   "lon": 10.752,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": "KUTU-H7-1015: SNL 'Kalmarunionen': 'Norge ble et dansk lydrike i 1537' (YIL)"
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Bergen",
+   "dosya_satir": "data/yerlesimler_avrupa.js:369",
+   "lat": 60.393,
+   "lon": 5.324,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Stavanger",
+   "dosya_satir": "data/yerlesimler_avrupa.js:372",
+   "lat": 58.94,
+   "lon": 5.68,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Tønsberg",
+   "dosya_satir": "data/yerlesimler_avrupa.js:373",
+   "lat": 59.268,
+   "lon": 10.407,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Kristiansand",
+   "dosya_satir": "data/yerlesimler_avrupa.js:375",
+   "lat": 58.147,
+   "lon": 7.996,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1641-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1641-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1641-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Trondheim",
+   "dosya_satir": "data/yerlesimler_avrupa.js:377",
+   "lat": 63.431,
+   "lon": 10.395,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Ålesund",
+   "dosya_satir": "data/yerlesimler_ek7.js:62",
+   "lat": 62.47,
+   "lon": 6.4,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Molde",
+   "dosya_satir": "data/yerlesimler_ek7.js:64",
+   "lat": 62.737,
+   "lon": 7.159,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Kristiansund",
+   "dosya_satir": "data/yerlesimler_ek7.js:66",
+   "lat": 63.0,
+   "lon": 8.2,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Røros",
+   "dosya_satir": "data/yerlesimler_ek7.js:68",
+   "lat": 62.575,
+   "lon": 11.385,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Sogndal",
+   "dosya_satir": "data/yerlesimler_ek7.js:70",
+   "lat": 61.23,
+   "lon": 7.1,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Lillehammer",
+   "dosya_satir": "data/yerlesimler_ek7.js:72",
+   "lat": 61.115,
+   "lon": 10.466,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Hamar",
+   "dosya_satir": "data/yerlesimler_ek7.js:74",
+   "lat": 60.795,
+   "lon": 11.068,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Skien",
+   "dosya_satir": "data/yerlesimler_ek7.js:76",
+   "lat": 59.209,
+   "lon": 9.609,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Haugesund",
+   "dosya_satir": "data/yerlesimler_ek7.js:78",
+   "lat": 59.413,
+   "lon": 5.268,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Mosjøen",
+   "dosya_satir": "data/yerlesimler_ek8.js:75",
+   "lat": 65.837,
+   "lon": 13.192,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Bodø",
+   "dosya_satir": "data/yerlesimler_ek8.js:81",
+   "lat": 67.2933,
+   "lon": 14.4446,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Tromsø",
+   "dosya_satir": "data/yerlesimler_ek8.js:85",
+   "lat": 69.6527,
+   "lon": 19.0119,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Alta",
+   "dosya_satir": "data/yerlesimler_ek8.js:88",
+   "lat": 69.9689,
+   "lon": 23.2717,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  },
+  {
+   "ad": "Vardø",
+   "dosya_satir": "data/yerlesimler_ek8.js:95",
+   "lat": 70.3705,
+   "lon": 31.1107,
+   "mevcut_zincir_1800_1906": [
+    {
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-01-14",
+     "kaynak_ozet": ""
+    },
+    {
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "kaynak_ozet": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedi"
+    },
+    {
+     "d": "norvec-1814",
+     "f": "1814-05-17",
+     "t": "1814-11-04",
+     "kaynak_ozet": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen, kronprins Christian Frederi"
+    },
+    {
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "kaynak_ozet": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En rev"
+    },
+    {
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "kaynak_ozet": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "danimarka",
+     "f": "1537-01-01",
+     "t": "1814-02-19",
+     "hukum": "KAYNAKLI",
+     "uc": "t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+     "not": "Yalnız t değişir (1814-01-14 → 1814-02-19). f ucu (1537-01-01) bu turda sınanmadı — öteki uç teyitsiz (mevcut kaynağıyla kalır). 19 Şubat proklamasyonlarıyla Christian Frederik Danimarka kralının stattholder'ı olarak değil, Norveç'in kendi naibi olarak idareyi aldı (SNL «stormannsmøtet»: «Inntil videre skulle prinsen styre som regent .»). ic_not: 1814-01-14 Kiel Antlaşması (SNL «Kieltraktaten»: «Kieltraktaten er ein fredstraktat underteikna 14. januar 1814 mellom den svenske og den danske kongen.») Norveç'i kâğıt üzerinde İsveç kralına devretti; SNL «Mossekonvensjonen»: «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .» İsveç Norveç'i o gün idare etmiyordu (TEK ÖLÇÜ) — Ocak-Şubat 1814'te idare Danimarka kralının stattholder'ı Christian Frederik'teydi. Eski isvec 1814-01-14→05-17 dilimi düşürüldü (EMRELİC gece-116). Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "isvec",
+     "f": "1814-01-14",
+     "t": "1814-05-17",
+     "hukum": "KALDIR",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+     "alinti": "Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør under ledelse av stattholderen , kronprins Christian Frederik .",
+     "not": "Dilim düşer (EMRELİC gece-116, TEK ÖLÇÜ): Kiel bir imzadır, İsveç Norveç'i 14 Ocak-17 Mayıs 1814 arasında idare etmedi; İsveç ordusu Norveç'e ilk kez 26 Temmuz 1814'te girdi (SNL «Mossekonvensjonen»). 1814-01-14 günü danimarka dönemine ic_not olarak yazılır (yukarıda)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-1814",
+     "f": "1814-02-19",
+     "t": "1814-11-04",
+     "hukum": "KAYNAKLI",
+     "uc": "f+t",
+     "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814) ; Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov . | Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "f 1814-05-17 → 1814-02-19. 🔴 KÜNYE AŞIMI: devletler.js norvec-1814 f=1814-05-17; bu dönem künye f'si 1814-02-19'a çekilmeden (kunye_onerileri[0], LAB) uygulanamaz — aynı commit'te. ic_not önerisi: 1814-02-19 naiplik (Christian Frederik regent) · 1814-05-17 Eidsvoll anayasası ve kral seçimi · 1814-10-10 Christian Frederik tahttan çekildi (SNL «Christian Frederik»: «Den 10. oktober frasa Christian Frederik seg tronen»), idare 4 Kasım'a dek statsråd/Storting'de. Gün teyidi: 19 Şubat üç ayrı SNL maddesinde (Mykland/Dørum/Weidling; Riksforsamlingen; stormannsmøtet naiplik kararı) — SNL dışı bağımsız ikinci akademik kaynak sayfa.py ile okunamadı (regjeringen.no robots.txt yasağı; DBL lex.dk «Christian 8.» yalnız 16.2. notabel toplantısını tarihliyor) → 'çift teyit' YAZILMAZ. İPUCU (KAYNAKLI değil): WebSearch özetinde regjeringen.no / Riksarkivet görselinde «Aabent Brev fra Norges Regent» 19. februar 1814; lokalhistoriewiki, archontology — yalnız ipucu. Not: SNL «1814 – Det selvstendige Norges fødsel» kronolojisinde «24. januar … Christian Frederik stiller seg i spissen for et opprør» satırı var — isyan başlangıcı, idare devri değil; f için seçilmedi. Takvim: Danimarka-Norveç 1700'den Gregoryen; kaynak günleri doğrudan atlas günüdür, çeviri yok."
+    },
+    {
+     "alan": "s",
+     "d": "norvec-isvec-birligi",
+     "f": "1814-11-04",
+     "t": "1905-06-07",
+     "hukum": "DEGISMEZ",
+     "uc": "f",
+     "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+     "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+     "not": "Mevcut dönem aynen kalır; f ucu bu turda sayfa.py ile yeniden okundu (alıntı birebir). t ucu (1905-06-07) bu turda okunmadı — öteki uç teyitsiz, mevcut kaynak: Store norske leksikon, «Unionsoppløsningen i 1905» (snl.no) — mevcut kayıttaki alıntı; bu turda yeniden okunmadı. Şahsî birlik: s: norvec-isvec-birligi, v: YOK (seçenek a, Emre'ye öneri)."
+    },
+    {
+     "alan": "s",
+     "d": "norvec",
+     "f": "1905-06-07",
+     "t": "2000-12-31",
+     "hukum": "DEGISMEZ",
+     "uc": "",
+     "kaynak": "mevcut",
+     "alinti": "",
+     "not": "Bu işin kapsamı dışında; dokunulmaz."
+    }
+   ],
+   "isg_isvec": "YOK — kayıt İsveç'in Temmuz-Ağustos 1814 seferinde işgal ettiği doğu bölgesinde (Hvaler, Fredrikstad, Halden/Fredriksten, Glomma doğusu) değil."
+  }
+ ],
+ "isg_yazilmayan_bolge": [
+  {
+   "yer": "Hvaler",
+   "alan": "isg",
+   "d": "isvec",
+   "f": "1814-07-26",
+   "t": "",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Store norske leksikon, «krigen i 1814» (https://snl.no/krigen_i_1814)",
+   "alinti": "Det svenske angrepet blei sett i verk om morgonen 26. juli. Dei første sjøstyrkane gjekk ut frå Strömstad med eitt klart mål – Hvaler-øyane, der dei også var venta.",
+   "not": "Alıntı saldırı başlangıcını tarihliyor, adaların düştüğü günü değil (SNL: ertesi gün İsveç filosu Sekken'e ulaştı, Norveç filotillası çekildi — 'oppgivinga av Hvaler' günsüz). t bulunamadı. Atlas kaydı yok, yazılmaz."
+  },
+  {
+   "yer": "Fredrikstad",
+   "alan": "isg",
+   "d": "isvec",
+   "f": "1814-08-04",
+   "t": "1814-11-04",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Store norske leksikon, «krigen i 1814» (https://snl.no/krigen_i_1814) ; Store norske leksikon, «Fredrikstad festning» (https://snl.no/Fredrikstad_festning)",
+   "alinti": "4. august kapitulerte Fredrikstad festning. | Den ble deretter overgitt til svenskene, som besatte festningen i flere måneder etter at den svensk-norske unionen trådte i kraft seinere samme år.",
+   "not": "f KAYNAKLI düzeyinde (kale teslimi 4 Ağustos 1814, SNL «krigen i 1814» birebir). t: brifin 1814-11-04'ü SNL ile ÇELİŞİR — SNL İsveç'in kaleyi birlikten 'birkaç ay' sonrasına dek tuttuğunu söylüyor; çekiliş günü bulunamadı. Kale işgali kent işgaliyle aynı mı, teyitsiz. Atlas kaydı yok, yazılmaz."
+  },
+  {
+   "yer": "Halden / Fredriksten festning",
+   "alan": "isg",
+   "d": "isvec",
+   "f": "",
+   "t": "1815-03-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Store norske leksikon, «Fredriksten festning» (https://snl.no/Fredriksten_festning) ; Store norske leksikon, «krigen i 1814» (https://snl.no/krigen_i_1814)",
+   "alinti": "Uten å være beseiret ble Fredriksten i samsvar med overenskomsten i Moss overlevert til svenske tropper, som i mars 1815 igjen forlot området. | Fredriksten festning blei oppgitt først etter at Mossefreden blei kjend.",
+   "not": "Kale savaşta düşmedi; Moss sözleşmesi gereği (14 Ağustos sonrası, teslim günü bulunamadı) İsveç'e devredildi, İsveç Mart 1815'te çekildi (ay hassasiyeti → 1815-03-01 + beyan). Halden kenti kuşatıldı ('Det gjekk hardt utover Halden'); kentin işgal günü bulunamadı. t 1814-11-04 DEĞİL. Atlas kaydı yok, yazılmaz."
+  },
+  {
+   "yer": "Glomma doğusu (Østfold) genel",
+   "alan": "isg",
+   "d": "isvec",
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen) ; Store norske leksikon, «krigen i 1814» (https://snl.no/krigen_i_1814)",
+   "alinti": "",
+   "not": "Moss sözleşmesinin İsveç birliklerinin konumlarını (işgal hattını) düzenleyen maddesi SNL'de geçmiyor; bölgesel işgal sınırı kaynaklanamadı."
+  }
+ ],
+ "kunye_onerileri": [
+  {
+   "id": "norvec-1814",
+   "alan": "f",
+   "eski": "1814-05-17",
+   "yeni": "1814-02-19",
+   "hukum": "KAYNAKLI",
+   "hedef": "LAB",
+   "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik) ; Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+   "alinti": "Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt inntil riksforsamlingen var ferdig med sitt arbeid. | Fire dager senere, den 19. februar, sammenkalte Christian Frederik ved åpent brev Riksforsamlingen med det formål å utforme en norsk grunnlov .",
+   "not": "Künye 'Norveç Krallığı (Eidsvoll)' adını taşıyor; 19 Şubat-17 Mayıs naiplik dönemidir. Öneri: ad 'Norveç (1814 — naiplik ve Eidsvoll krallığı)' ya da ozet'e '19 Şubat 1814 Christian Frederik naip; 17 Mayıs Eidsvoll anayasası ve kral seçimi; 10 Ekim tahttan çekilme' eklemesi. KARARLAR gece-25 notu (f 1814-02-19, SNL) ile uyumlu. Yerleşim dönemleri bu künye değişikliğiyle aynı commit'te uygulanmalı (yoksa 02-19→05-17 hayalet devlet)."
+  },
+  {
+   "id": "norvec-1814",
+   "alan": "ozet (t açıklaması)",
+   "eski": "t günü (4 Kasım) [g?]",
+   "yeni": "t 1814-11-04 SNL «Mossekonvensjonen» ile gün teyitli",
+   "hukum": "KAYNAKLI",
+   "hedef": "LAB",
+   "kaynak": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+   "alinti": "Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november, som var datoen for etableringen av den svensk-norske union.",
+   "not": "ozet'teki '[g?]' işareti kaldırılabilir."
+  },
+  {
+   "id": "norvec-isvec-birligi",
+   "alan": "biçim",
+   "eski": "s: norvec-isvec-birligi, v: yok",
+   "yeni": "aynen (seçenek a)",
+   "hukum": "ONERI",
+   "hedef": "Emre",
+   "kaynak": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik)",
+   "alinti": "Til prinsens politiske verk hører at landet fikk en så selvstendig stilling i unionen med Sverige i 1814 at den langt på vei lignet på en personalunion , med unntak av utenriksstyret som Sverige dominerte.",
+   "not": "Şahsî birlik; Norveç kendi anayasası ve meclisiyle ayrı krallık — v: isvec yazılmaz."
+  }
+ ],
+ "degismez2_etkisi": "Uygulama sonrası kırılmalar: 1814-02-19 (danimarka→norvec-1814, YENİ — madde MADDE-TASLAK-NORVEC-1814.json NOR-01) · 1814-11-04 (mevcut madde var) · 1814-01-14 ve 1814-05-17 kırılmaları kalkar (madde fazlası zarar vermez). 1814-08-14 Moss maddesi (NOR-02) isg katmanı uygulanmadığı için Değişmez 2 gereği değil, kronoloji bütünlüğü için.",
+ "kaynaklar": [
+  {
+   "ad": "Store norske leksikon, «Christian Frederik» (Knut Mykland, Knut Dørum, Tor Ragnar Weidling; https://snl.no/Christian_Frederik)",
+   "okuma": "sayfa.py oku, 200, 41834 bayt",
+   "sinif": "ulusal akademik ansiklopedi (6e) → KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «Riksforsamlingen på Eidsvoll 1814» (https://snl.no/Riksforsamlingen_p%C3%A5_Eidsvoll_1814)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «stormannsmøtet» (https://snl.no/stormannsm%C3%B8tet)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «Kieltraktaten» (Øystein Lydik Idsø Viken, Nord universitet; https://snl.no/Kieltraktaten)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «krigen i 1814» (https://snl.no/krigen_i_1814)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «Fredrikstad festning» (https://snl.no/Fredrikstad_festning)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «Fredriksten festning» (https://snl.no/Fredriksten_festning)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI"
+  },
+  {
+   "ad": "Store norske leksikon, «1814 – Det selvstendige Norges fødsel» (https://snl.no/1814_-_Det_selvstendige_Norges_f%C3%B8dsel)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI; iç tutarsızlık: kronolojide '19. oktober Christian Fredrik abdiserer' ve '28. juli krig' — öteki SNL maddeleri 10 Ekim ve 26 Temmuz diyor; kullanılmadı"
+  },
+  {
+   "ad": "Dansk Biografisk Leksikon, «Christian 8.» (biografiskleksikon.lex.dk/Christian_8.)",
+   "okuma": "sayfa.py oku, 200",
+   "sinif": "KAYNAKLI sınıfı ama 19 Şubat'ı tarihlemiyor (yalnız 'notabelforsamlingen på Eidsvold 16.2.')"
+  },
+  {
+   "ad": "WebSearch özetleri (regjeringen.no, lokalhistoriewiki.no, archontology.org, en.wikipedia)",
+   "okuma": "yalnız arama özeti",
+   "sinif": "İPUCU — dayanak değil"
+  }
+ ],
+ "TARAYICI": [
+  "https://www.regjeringen.no/no/om-regjeringa/tidligere-regjeringer-og-historie/historiske-artikler/ministerier_regjeringer/opplosningen-av-det-dansk-norske-rike/id410075/ — robots.txt yasak",
+  "https://www.regjeringen.no/en/the-government/previous-governments/the-establishing-of-the-norwegian-state/id410040 — robots.txt yasak",
+  "https://cms12.regjeringen.no/contentassets/4d2e36f676e44d2ba75758afda1a53d9/1814-regjering-og-departementer-blir-til.pdf — DNS çözülemedi (getaddrinfo 11001)",
+  "https://nbl.snl.no/Christian_8 — 404 (nbl araması snl.no/Christian_Frederik'e yönlendiriyor)",
+  "https://uio.no/studier/emner/hf/iakh/HIS1310/h16/his1310_1814_norsk_revolusjon.pdf — 404",
+  "SSL hatası: yok"
+ ]
+}
