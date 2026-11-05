@@ -151,6 +151,35 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-107 — HAVVA r8_060-065 üzerine ve Kafkas Jülyen kontrolü
+
+- **Jülyen:** Rus kaynakları 1918-02-14'e kadar O.S. tarih verir. Rusya için 50 TARIH_DUZELT bu gece aynı kuralla yapıldı.
+  - Gürcistan ilhak manifestosu 1801-09-12 O.S. → **1801-09-24** Gregoryen; iki gün de `ic_not`a.
+  - Rus kaynaklı bütün Gürcistan/Kafkas günleri aynı kontrolden geçirilir.
+  - **Kontrol (KASA; `KAFKAS-JULYEN-TARAMA.tsv`):** kapsam 39-44.5 K, 39-50.5 D kutusundaki Rus/Gürcü dönemleri, uçları 1700 → 1918-02-14 arası. Toplam 372 uç:
+
+    | Sınıf | Uç | Açıklama |
+    |---|---|---|
+    | GREGORYEN | 336 | Gün zaten Gregoryen karşılık; olay ve O.S. günü tabloda. 1917 feragat/devrim, Gülistan, Türkmençay, Gence, Petersburg 1723, Edirne, Ayastefanos, Berlin, Kars/Ardahan 1877, Erivan 1827, Erzurum 1916. |
+    | JULYEN_CEVIR | 10 | 1801-09-12 → 09-24 |
+    | BEYANLI | 2 | Kayıtta Jülyen beyanı var |
+    | SÜPHELİ | 24 | Kaynakla sınanmalı |
+
+    Şüpheli günler: 1722-08-08, 1722-09-03, 1723-08-06, 1724-06-24, 1732-01-21, 1735-08-12/23, 1747-06-20, 1774-07-21, 1809-11-27, 1810-02-20, 1810-07-11, 1812-12-19, 1828-06-26, 1864-02-01, 1915-02-23, 1916-02-24, 1916-03-08, 1916-04-18, 1916-07-16/19/22/24.
+  - GREGORYEN sınıfı KASA'nın genel bilgisine dayanır: olay günlerinin Gregoryen karşılıkları, kaynakla teyit edilmeden yazıldı.
+- **Onaylananlar:**
+  - Malabo ve Beyzâ'da f ileri alınır ve dönem kırpılır. Merdiven ④ kaynaklıysa uygulanır, değilse "teyit şart".
+  - SHS 1918: `shs-devleti` BEYANLI, LAB adayı.
+  - Ston/Dubrovnik zinciri.
+  - Uneyze ve Nizva.
+  - Ladik: Şadgeldioğlu künye adayı LAB'a.
+  - Hicrî düzeltmeler.
+- **Kaşot ve Oniki Ada katmanları:**
+  - Kaşot 1538 (TDV Preveze).
+  - Oniki Ada'nın t'si için EMRELİC LAB PAZAR'a İstanbulya kararını verdi: teslim 1947-03-31; 09-15 yürürlüğü `ic_not`a.
+  - Kaşot ve öteki Oniki Ada yerleşimleri bu güne hizalanır.
+- **LAB'a:** Kaheti künye f 1465 (Iranica) ve Macaristan 1946 (02-01 / 02-20).
+
 ## LAB SALI: UYGULA'ya alınanlar (e2dc25a7b, 72 madde)
 
 - **orta-afrika-imparatorlugu** t 1979-09-21. Bangassu birleşmesiyle aynı commit'te uygulanır.
