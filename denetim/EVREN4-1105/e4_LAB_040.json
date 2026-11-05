@@ -56,7 +56,7 @@
    "oneri": {
     "yapi": "s: yatenga SÜRER; v: fransa 1895 (himaye)"
    },
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | t ucu YIL düzeyinde 1895 (TDV Burkina Faso md.). HİMAYE anlaşması: brif kuralı gereği yerli polity s: sürer, Fransa v: yazılır; s: yatenga t=1895 kapanışı yanlış olur (Yatenga kunye t 1895-01-01 de buna göre gözden geçirilmeli). Gün teyitsiz."
+   "not": "KARAR EMRELİC (gece-113): Yatenga himaye (1895, TDV) → s: yatenga + v: fransa ONAY; yatenga künye t ölçülecek (sınıf sorusu açık). | LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | t ucu YIL düzeyinde 1895 (TDV Burkina Faso md.). HİMAYE anlaşması: brif kuralı gereği yerli polity s: sürer, Fransa v: yazılır; s: yatenga t=1895 kapanışı yanlış olur (Yatenga kunye t 1895-01-01 de buna göre gözden geçirilmeli). Gün teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:368",
@@ -71,7 +71,7 @@
    "oneri": {
     "alan": "v"
    },
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | Himaye kuralı: Naaba Bulli 1895 Fransız himayesi (TDV) → s: yatenga sürer + v: fransa-cumhuriyet; yatenga künye t gözden geçirilecek (LAB SALI). | f ucu YIL düzeyinde 1895 ama olay himaye: alan s -> v (v: fransa-cumhuriyet). t 1960-08-05 için bkz. sonraki satır (TDV Burkina Faso md. 5 Ağustos 1960 bağımsızlık ilanı)."
+   "not": "KARAR EMRELİC (gece-113): Yatenga himaye (1895, TDV) → s: yatenga + v: fransa ONAY; yatenga künye t ölçülecek (sınıf sorusu açık). | LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | Himaye kuralı: Naaba Bulli 1895 Fransız himayesi (TDV) → s: yatenga sürer + v: fransa-cumhuriyet; yatenga künye t gözden geçirilecek (LAB SALI). | f ucu YIL düzeyinde 1895 ama olay himaye: alan s -> v (v: fransa-cumhuriyet). t 1960-08-05 için bkz. sonraki satır (TDV Burkina Faso md. 5 Ağustos 1960 bağımsızlık ilanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:368",
@@ -84,7 +84,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/burkina-faso",
    "alinti": "5 Ağustos 1960’ta ise bağımsızlığını ilân etti",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-05 (TDV Burkina Faso md.: Haute-Volta bağımsızlık ilanı)."
+   "not": "KARAR EMRELİC (gece-113): Yatenga himaye (1895, TDV) → s: yatenga + v: fransa ONAY; yatenga künye t ölçülecek (sınıf sorusu açık). | LAB SALI (HAYALET-KARAR, origin/main): yatenga künye t 1895-01-01 [yıl] erken: Naaba'lık sürdü ama Yukarı Volta'da Fransız idaresi doğrudana yakın — 'polity mi kurum mu' SINIF sorusu; t GENİŞLET adayı + v: fransa (EMRELİC'e). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-05 (TDV Burkina Faso md.: Haute-Volta bağımsızlık ilanı)."
   }
  ],
  "Zemio": [
@@ -145,7 +145,7 @@
     "t": "1899 (Fransız fethi, kaynakla)",
     "not": "üstte v: kanem-bornu (haraç, kaynakla); 1281–1731 kanem-bornu ayrı"
    },
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | Fransız fethi/devri (atlas 1902-01-01) akademik kaynakta bulunamadı. KÜNYE NOTU: Zinder Damagaram Sultanlığı merkezidir, Kanem-Bornu değil; kanem-bornu kunye t 1905-01-01, dönem t 1902-01-01. Arama özetlerinde (açılmadı, ipucu) 1899 Damagaram seferi anılır."
+   "not": "KARAR EMRELİC (gece-113): Sahibi damagaram (Bornu'ya vergi bağı ic_not); Fransız alışı 1899 (Joalland-Meynier, gün kaynakla); 1902 ve 1905 uçları ölçülecek. | LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | Fransız fethi/devri (atlas 1902-01-01) akademik kaynakta bulunamadı. KÜNYE NOTU: Zinder Damagaram Sultanlığı merkezidir, Kanem-Bornu değil; kanem-bornu kunye t 1905-01-01, dönem t 1902-01-01. Arama özetlerinde (açılmadı, ipucu) 1899 Damagaram seferi anılır."
   },
   {
    "dosya_satir": "data/yerlesimler_ok107.js:293",
@@ -158,7 +158,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/nijer",
    "alinti": "3 Ağustos 1960’ta bağımsızlığına kavuşmuştur",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1960-08-03 (TDV Nijer md.); alıntı yalnız t ucunu tarihliyor. f 1902-01-01 teyitsiz."
+   "not": "KARAR EMRELİC (gece-113): Sahibi damagaram (Bornu'ya vergi bağı ic_not); Fransız alışı 1899 (Joalland-Meynier, gün kaynakla); 1902 ve 1905 uçları ölçülecek. | LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1960-08-03 (TDV Nijer md.); alıntı yalnız t ucunu tarihliyor. f 1902-01-01 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_ok107.js:293",
@@ -171,7 +171,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/nijer",
    "alinti": "3 Ağustos 1960’ta bağımsızlığına kavuşmuştur",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-03 (TDV Nijer md.)."
+   "not": "KARAR EMRELİC (gece-113): Sahibi damagaram (Bornu'ya vergi bağı ic_not); Fransız alışı 1899 (Joalland-Meynier, gün kaynakla); 1902 ve 1905 uçları ölçülecek. | LAB SALI (HAYALET-KARAR, origin/main): damagaram künyesi VAR (1731 → 1899, :3461) ama Zinder'de kullanılmıyor; kanem-bornu 1281 → 1902 → fransa YANLIŞ. Öneri: 1731 → 1899 s: damagaram + v: kanem-bornu (haraç süresi kaynakla); 1899 Fransız fethi (gün kaynakla; damagaram t 1899-01-01 → fetih günü); '1902-01-01' dayanaksız. | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-03 (TDV Nijer md.)."
   }
  ],
  "İdeles": [
@@ -231,7 +231,7 @@
    "kaynak": "Bakılan: TDV kongo-demokratik-cumhuriyeti (Brazzaville anılır, Makoko yok), history.state.gov/countries/congo-republic (1960 öncesi için yalnız 'French Equatorial Africa'); tdv-ara Kongo yalnız Kongo DC",
    "alinti": "",
    "oneri": {},
-   "not": "1880-10-03 (Makoko antlaşması) akademik kaynakla okunmadı. ÖLÇÜT UYARISI: Makoko antlaşması himaye (v:) niteliğindedir ve Tio (Teke) krallığını kapsar; İmpfondo (1.62N 18.06E, Likouala) Tio çekirdeğinin çok kuzeyindedir; Fransız idaresi yerde 1890'lar sonrası olabilir (kaynaksız)."
+   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | 1880-10-03 (Makoko antlaşması) akademik kaynakla okunmadı. ÖLÇÜT UYARISI: Makoko antlaşması himaye (v:) niteliğindedir ve Tio (Teke) krallığını kapsar; İmpfondo (1.62N 18.06E, Likouala) Tio çekirdeğinin çok kuzeyindedir; Fransız idaresi yerde 1890'lar sonrası olabilir (kaynaksız)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:999",
@@ -244,7 +244,7 @@
    "kaynak": "Bakılan: aynı kaynaklar (Fransız idaresi İmpfondo için okunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "f 1880-10-03 teyitsiz; bkz. önceki satır."
+   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | f 1880-10-03 teyitsiz; bkz. önceki satır."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:999",
@@ -257,7 +257,7 @@
    "kaynak": "https://history.state.gov/countries/congo-republic",
    "alinti": "On that date, the Republic of the Congo’s independence from French Equatorial Africa was proclaimed",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-15 (devletin kendi resmî tarih yayını history.state.gov; ABD tanıma günü ile birlikte, bağımsızlık ilanı cümlesi açıkça yazılı)."
+   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-15 (devletin kendi resmî tarih yayını history.state.gov; ABD tanıma günü ile birlikte, bağımsızlık ilanı cümlesi açıkça yazılı)."
   }
  ],
  "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)": [
@@ -328,9 +328,9 @@
    "kaynak": "https://www.britannica.com/event/Capture-of-Valdivia",
    "alinti": "late at night on 3 February 1820",
    "oneri": {
-    "t": "1820-02-03"
+    "t": "1820-02-03 (Cochrane, kaynakla)"
    },
-   "not": "EB İPUCU (WebSearch özeti, sayfa açılmadı; Britannica yasak liste): Valdivia 3-4 Şubat 1820'de Cochrane/Beauchef'çe ele geçirildi; 1818-02-12 Şili bağımsızlık ilanı Valdivia'yı değiştirmedi (Kraliyetçi elde, 1812'den beri). ÖLÇÜT: fetih+idareye katma (Beauchef vali) -> s: şili 1820-02-03/04; gün 3/4 belirsiz. Hakemli kaynakla okunmadı. alıntı yalnız t ucu."
+   "not": "KARAR EMRELİC (gece-113): Rakip hükûmet kuralı: kraliyetçiler fiilen tuttu → ispanya t / sili f Cochrane'in alışı (1820-02-03/04 gecesi; tek gün kaynakla); ipucu → ONERI-güçlü; 1818-02-12 ic_not. | EB İPUCU (WebSearch özeti, sayfa açılmadı; Britannica yasak liste): Valdivia 3-4 Şubat 1820'de Cochrane/Beauchef'çe ele geçirildi; 1818-02-12 Şili bağımsızlık ilanı Valdivia'yı değiştirmedi (Kraliyetçi elde, 1812'den beri). ÖLÇÜT: fetih+idareye katma (Beauchef vali) -> s: şili 1820-02-03/04; gün 3/4 belirsiz. Hakemli kaynakla okunmadı. alıntı yalnız t ucu."
   },
   {
    "dosya_satir": "data/yerlesimler_gamerika.js:143",
@@ -343,9 +343,9 @@
    "kaynak": "https://www.britannica.com/event/Capture-of-Valdivia",
    "alinti": "late at night on 3 February 1820",
    "oneri": {
-    "f": "1820-02-03"
+    "f": "1820-02-03 (Cochrane, kaynakla)"
    },
-   "not": "EB İPUCU (açılmadı): f 1818-02-12 -> 1820-02-03/04. Yerleşime özgü hakemli kaynak aranmalı (Memoria Chilena / Barros Arana)."
+   "not": "KARAR EMRELİC (gece-113): Rakip hükûmet kuralı: kraliyetçiler fiilen tuttu → ispanya t / sili f Cochrane'in alışı (1820-02-03/04 gecesi; tek gün kaynakla); ipucu → ONERI-güçlü; 1818-02-12 ic_not. | EB İPUCU (açılmadı): f 1818-02-12 -> 1820-02-03/04. Yerleşime özgü hakemli kaynak aranmalı (Memoria Chilena / Barros Arana)."
   }
  ],
  "Valparaíso": [
@@ -360,9 +360,10 @@
    "kaynak": "yer_kaynak (kayıt): Memoria Chilena arama özeti, açılmadı",
    "alinti": "",
    "oneri": {
-    "kirp": "f"
+    "sil": true,
+    "not": "kalıcı yerleşim ~1544 (kaynakla) öncesi kırpılır"
    },
-   "not": "MERDİVEN ④: kayıttaki yer_kaynak 1536'yı keşif/adlandırma sayar, resmî kuruluş belgesi YOK, Valdivia 1544'te ikmal limanı yaptı. Yerleşim 1536'da var değil -> dönemi kırp (f ~1544, yıl kaynak: kayıt notu; hakemli teyit BAKILMADI). t 1542-11-20 teyitsiz."
+   "not": "KARAR EMRELİC (gece-113): 1536 Saavedra'nın gelişi keşif; kalıcı yerleşim kaynakla (~1544); öncesi merdiven ④ ile KIRPILIR. | MERDİVEN ④: kayıttaki yer_kaynak 1536'yı keşif/adlandırma sayar, resmî kuruluş belgesi YOK, Valdivia 1544'te ikmal limanı yaptı. Yerleşim 1536'da var değil -> dönemi kırp (f ~1544, yıl kaynak: kayıt notu; hakemli teyit BAKILMADI). t 1542-11-20 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:1303",
@@ -375,7 +376,7 @@
    "kaynak": "Bakılan: yok (BAKILMADI düzeyinde): TDV tdv-ara Valparaiso boş; Memoria Chilena sayfaları açılmadı",
    "alinti": "",
    "oneri": {},
-   "not": "UYARI (kaynaksız hatırlama, ölç): Valparaíso Chacabuco'dan (1817-02-12) sonra yurtseverlerin elindeydi; 1818-02-12 ilan günü ile aynı olmayabilir. Ülke düzeyi teyit de yapılmadı."
+   "not": "KARAR EMRELİC (gece-113): 1536 Saavedra'nın gelişi keşif; kalıcı yerleşim kaynakla (~1544); öncesi merdiven ④ ile KIRPILIR. | UYARI (kaynaksız hatırlama, ölç): Valparaíso Chacabuco'dan (1817-02-12) sonra yurtseverlerin elindeydi; 1818-02-12 ilan günü ile aynı olmayabilir. Ülke düzeyi teyit de yapılmadı."
   }
  ],
  "Vilcabamba (Espíritu Pampa)": [
@@ -390,7 +391,7 @@
    "kaynak": "Bakılan: WebSearch özetleri (Hurtado de Arbieto 1572-06-24 ilerleyişi, Tupac Amaru idamı 1572-09-24 — Vikipedi/Biografías y Vidas, açılmadı); PUCP repo kaydı 175895 (özet)",
    "alinti": "",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | Dönem f 1539 ve t 1572-06-24 hakemli kaynakla okunmadı. KÜNYE ÇELİŞKİ: inka-imparatorlugu künye t 1572-09-24, dönem t 1572-06-24; 24 Haziran 1572 askerî ilerleyiş günüdür, devir günü (düşüş/yakalanma) farklı olabilir. Neo-İnka devleti Vilcabamba'da 1537/39'dan; f belgelenmedi."
+   "not": "KARAR EMRELİC (gece-113): Çelişki değil: dönem t 1572-06-24 Vilcabamba'nın düşüşü (yer), künye t 09-24 Túpac Amaru'nun idamı (polity sonu); ikisi kalır, ic_not. | LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | Dönem f 1539 ve t 1572-06-24 hakemli kaynakla okunmadı. KÜNYE ÇELİŞKİ: inka-imparatorlugu künye t 1572-09-24, dönem t 1572-06-24; 24 Haziran 1572 askerî ilerleyiş günüdür, devir günü (düşüş/yakalanma) farklı olabilir. Neo-İnka devleti Vilcabamba'da 1537/39'dan; f belgelenmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:519",
@@ -403,7 +404,7 @@
    "kaynak": "Bakılan: aynı",
    "alinti": "",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | ispanyol-peru f 1572-06-24 teyitsiz; künye ispanyol-peru f 1542-11-20."
+   "not": "KARAR EMRELİC (gece-113): Çelişki değil: dönem t 1572-06-24 Vilcabamba'nın düşüşü (yer), künye t 09-24 Túpac Amaru'nun idamı (polity sonu); ikisi kalır, ic_not. | LAB SALI (HAYALET-KARAR, origin/main): TUTARLI: inka t 1572-09-24 Túpac Amaru'nun idamı; Vilcabamba'nın düşüşü 06-24 künyeden önce; değişiklik yok, 06-24 ic_not. | ispanyol-peru f 1572-06-24 teyitsiz; künye ispanyol-peru f 1542-11-20."
   }
  ],
  "Wayám (Celilo Şelâleleri)": [
@@ -446,7 +447,7 @@
    "kaynak": "https://ebsco.com/research-starters/history/england-and-scotland-are-united-great-britain",
    "alinti": "",
    "oneri": {},
-   "not": "LAB PAZAR: 1707-05-01 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas DOĞRU; öneri geri alındı (Stornoway ile aynı). | EBSCO Research Starters + Vikipedi İPUCU (WebSearch özeti; parliament.uk robots yasağı, legislation.gov.uk açılmadı): Birlik Yasaları 1 Mayıs 1707'de yürürlüğe girdi. 05-12 yerine 05-01 öneri, hakemli/resmî sayfa okunamadı. Ülke düzeyi."
+   "not": "KARAR EMRELİC (gece-113): Tamam (O.S.). | LAB PAZAR: 1707-05-01 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas DOĞRU; öneri geri alındı (Stornoway ile aynı). | EBSCO Research Starters + Vikipedi İPUCU (WebSearch özeti; parliament.uk robots yasağı, legislation.gov.uk açılmadı): Birlik Yasaları 1 Mayıs 1707'de yürürlüğe girdi. 05-12 yerine 05-01 öneri, hakemli/resmî sayfa okunamadı. Ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:127",
@@ -459,7 +460,7 @@
    "kaynak": "https://ebsco.com/research-starters/history/england-and-scotland-are-united-great-britain",
    "alinti": "",
    "oneri": {},
-   "not": "LAB PAZAR: 1707-05-01 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas DOĞRU; öneri geri alındı (Stornoway ile aynı). | Aynı: f 1707-05-12 -> 1707-05-01 (IPUCU; yürürlük günü). TEK ÖLÇÜ: iki devletin birleşmesi, yürürlük = devir günü. Resmî metin okunmadı."
+   "not": "KARAR EMRELİC (gece-113): Tamam (O.S.). | LAB PAZAR: 1707-05-01 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas DOĞRU; öneri geri alındı (Stornoway ile aynı). | Aynı: f 1707-05-12 -> 1707-05-01 (IPUCU; yürürlük günü). TEK ÖLÇÜ: iki devletin birleşmesi, yürürlük = devir günü. Resmî metin okunmadı."
   }
  ],
  "Yamaguchi": [
@@ -476,7 +477,7 @@
    "oneri": {
     "t": "1568-10-16"
    },
-   "not": "Bilinen karar (Japonya 1568-1603 azuchi-momoyama; künye f 1568-10-16). TDV Japonya md. çelişkili: 1568 Nobunaga Kyoto'ya girdi, '1573’te Muramachi devri kapandı' (YIL). Alıntı 1568 yılı (gün yok) ve t ucunu tarihliyor. Yamaguchi'ye özgü tanık yok (Mōri yönetimi)."
+   "not": "KARAR EMRELİC (gece-113): Tamam, ic_not. | Bilinen karar (Japonya 1568-1603 azuchi-momoyama; künye f 1568-10-16). TDV Japonya md. çelişkili: 1568 Nobunaga Kyoto'ya girdi, '1573’te Muramachi devri kapandı' (YIL). Alıntı 1568 yılı (gün yok) ve t ucunu tarihliyor. Yamaguchi'ye özgü tanık yok (Mōri yönetimi)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3275",
@@ -491,7 +492,7 @@
    "oneri": {
     "f": "1568-10-16"
    },
-   "not": "f 1573-08-15 -> 1568-10-16 (Bilinen karar). TDV Japonya md. Azuchi-Momoyama'yı 1573-1603 verir; çelişki ikisi de yazılı. t 1603: TDV '1603’te şogun tayin edildi' (YIL, gün teyitsiz; 1603-03-24 günü kaynakta yok)."
+   "not": "KARAR EMRELİC (gece-113): Tamam, ic_not. | f 1573-08-15 -> 1568-10-16 (Bilinen karar). TDV Japonya md. Azuchi-Momoyama'yı 1573-1603 verir; çelişki ikisi de yazılı. t 1603: TDV '1603’te şogun tayin edildi' (YIL, gün teyitsiz; 1603-03-24 günü kaynakta yok)."
   }
  ],
  "Yendi (Dagbon)": [
@@ -506,7 +507,7 @@
    "kaynak": "Bakılan: TDV gana (Dagomba krallığı XV. yy. kuruluş, Yendi yalnız pazar/şehir); history.state.gov/countries/ghana (yalnız 1957)",
    "alinti": "",
    "oneri": {},
-   "not": "MERDİVEN ④: Yendi'nin 1281-1401 arasında var olup olmadığı kaynakla ölçülmedi; boşluk için abi merkez/Dagbon çekirdeği bulunamadı."
+   "not": "KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | MERDİVEN ④: Yendi'nin 1281-1401 arasında var olup olmadığı kaynakla ölçülmedi; boşluk için abi merkez/Dagbon çekirdeği bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:544",
@@ -519,7 +520,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/gana",
    "alinti": "XV. yüzyılda kuzeydeki Dagomba ve Mamprusîler’in kurduğu devletler",
    "oneri": {},
-   "not": "f ucu YÜZYIL düzeyinde (XV. yy.; 1401-01-01 ile çelişmez, yıl teyidi yok). t 1899-01-01: TDV Gana yalnız Aşanti'nin 'XIX. yüzyılın sonunda İngilizler tarafından yıkıldığını' söyler. UYARI (kaynaksız hatırlama, ölç): Yendi 1896-1902/1914 Alman Togo'su içinde kalmış olabilir; İngiliz geçişi ve tarihi ölçülmeli."
+   "not": "KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | f ucu YÜZYIL düzeyinde (XV. yy.; 1401-01-01 ile çelişmez, yıl teyidi yok). t 1899-01-01: TDV Gana yalnız Aşanti'nin 'XIX. yüzyılın sonunda İngilizler tarafından yıkıldığını' söyler. UYARI (kaynaksız hatırlama, ölç): Yendi 1896-1902/1914 Alman Togo'su içinde kalmış olabilir; İngiliz geçişi ve tarihi ölçülmeli."
   }
  ],
  "Yüksekova (Gever)": [
@@ -570,12 +571,14 @@
    "d": "yeni-ispanya-ilk-donem",
    "f": "1523-01-01",
    "t": "1535-04-17",
-   "hukum": "BULUNAMADI",
-   "uc": "",
-   "kaynak": "Bakılan: TDV amerika (Genel Valilik kuruluş günü vermiyor — kayıttaki notla uyumlu)",
-   "alinti": "",
-   "oneri": {},
-   "not": "yeni-ispanya-ilk-donem t 1535-04-17 teyitsiz; künye dönemi 1521-08-13 -> 1535-04-17."
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Martínez Gracida, Los últimos soberanos de Zaachila (1888), s. 91-123 seçme — UNAM, Lecturas Históricas Mexicanas T2 (EMRELİC pypdf okuması) — https://historicas.unam.mx/publicaciones/publicadigital/libros/lecturas/T2/LHMT2_060.pdf",
+   "alinti": "El 25 de noviembre de 1521 la fuerza española expedicionaria ocupó los terrenos del hoy pueblo de Santa Anita",
+   "oneri": {
+    "f": "1521-11-25"
+   },
+   "not": "KARAR EMRELİC (gece-113): 19. yy tarihçisinin UNAM neşri → ONERI-güçlü; Zaachila'ya özgü teslim günü yok; Oaxaca vadisinin işgali 1521-11-25 (Jülyen) BÖLGE DÜZEYİ + beyan; Orozco 1521-10-30 çıkış; Cosijoeza işbirliği. | yeni-ispanya-ilk-donem t 1535-04-17 teyitsiz; künye dönemi 1521-08-13 -> 1535-04-17."
   }
  ],
  "Zambezi (Balovale)": [
@@ -592,7 +595,7 @@
    "oneri": {
     "yapi": "s: lozi SÜRER; v: ingiltere (BSAC/İngiliz himayesi)"
    },
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | t ucu YIL düzeyinde 1890 (TDV Zambiya md.: Lozi kralı Lewanika 1890’da Rhodes’in himayesine girdi). HİMAYE: yerli polity s: sürer, Avrupa gücü v: (brif). Gün 1890-06-27 (Lochner imtiyazı) teyitsiz. UYARI: koruyucu İngiliz Güney Afrika Şirketi; İngiliz Kuzey Rodezya protektorası 1924'te (kaynaksız, ölç)."
+   "not": "KARAR EMRELİC (gece-113): Balovale Lozi'ye bağlı → Barotseland ile aynı BEKLET sınıfı (iki model ONERI, Emre'de); bu gece v: uygulanmaz. | LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | t ucu YIL düzeyinde 1890 (TDV Zambiya md.: Lozi kralı Lewanika 1890’da Rhodes’in himayesine girdi). HİMAYE: yerli polity s: sürer, Avrupa gücü v: (brif). Gün 1890-06-27 (Lochner imtiyazı) teyitsiz. UYARI: koruyucu İngiliz Güney Afrika Şirketi; İngiliz Kuzey Rodezya protektorası 1924'te (kaynaksız, ölç)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1632",
@@ -605,7 +608,7 @@
    "kaynak": "https://history.state.gov/countries/zambia",
    "alinti": "recognized Zambia on October 24, 1964 … attainment of independence on the same date",
    "oneri": {},
-   "not": "LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | Himaye kuralı: Lewanika 1890 (TDV Zambiya) → s: lozi sürer + v: ingiltere; 1890-06-27 teyitsiz. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1964-10-24 (devletin kendi resmî tarih yayını history.state.gov); alıntı yalnız t ucunu tarihliyor. f 1890-06-27 teyitsiz; himaye yapısı için önceki satır."
+   "not": "KARAR EMRELİC (gece-113): Balovale Lozi'ye bağlı → Barotseland ile aynı BEKLET sınıfı (iki model ONERI, Emre'de); bu gece v: uygulanmaz. | LAB SALI (HAYALET-KARAR, origin/main): lozi künye t 1890-06-27 erken: Barotseland 1890–1964 kendi Litunga'sıyla ayrı protektora → GÜÇLÜ aday t 1964-10-24 + v: ingiliz-kuzey-rodezya (EMRELİC'e). | Himaye kuralı: Lewanika 1890 (TDV Zambiya) → s: lozi sürer + v: ingiltere; 1890-06-27 teyitsiz. | ÜLKE DÜZEYİ: t ucu gün düzeyinde 1964-10-24 (devletin kendi resmî tarih yayını history.state.gov); alıntı yalnız t ucunu tarihliyor. f 1890-06-27 teyitsiz; himaye yapısı için önceki satır."
   }
  ],
  "Çita": [
