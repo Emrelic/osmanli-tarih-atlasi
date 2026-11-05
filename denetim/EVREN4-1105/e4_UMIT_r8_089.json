@@ -1,0 +1,263 @@
+{
+ "Fort Des Moines": [
+  {
+   "sira": 3824,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1843-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "d=abd dayanağı: Kappler/OSU Tribal Treaties Database (treaties.okstate.edu), Treaty with the Sauk and Foxes 1842-10-11, https://treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-1842-0546",
+   "alinti": "cede to the United States, forever, all the lands west of the Mississippi river",
+   "oneri": {},
+   "uc": "",
+   "not": "f=1843 (yıl düzeyi) için akademik/ansiklopedik kuruluş günü BULUNAMADI. Baktığım: Wikipedia Des Moines (Fort Des Moines 1843-46; 'May 1843, Captain James Allen' - gün yok, ikincil), Annals of Iowa cilt 8/9/12 (ia-oku; kuruluş günü yok), history.iowa.gov, iowaculture.gov (SSL süresi dolmuş), iowapbs/NPS/Wikipedia alt sayfaları 404. d=abd: Sauk-Fox 1842-10-11 antlaşması bölgeyi ABD'ye devrediyor (imza 1842-10-11; ham alıntı), ama Hint topluluğu doğu kısmı 1843-05-01'e, geri kalanı 3 yıl (1845-10-11'e dek) işgalde kalabilirdi (Madde 1/3, ham metin) - alıntı satırın f ucunu (kale kuruluşu) tarihlemez; bu yüzden KAYNAKLI değil. f öncesi dilim gerekmiyor (yerleşim yok). Değişiklik önerisi yok; gün teyidi KASA/Emre'de."
+  }
+ ],
+ "Saukenuk (Sauk)": [
+  {
+   "sira": 3825,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sauk",
+   "f": "1281-01-01",
+   "t": "1832-09-21",
+   "hukum": "ONERI",
+   "kaynak": "Kappler/OSU Tribal Treaties Database (treaties.okstate.edu), Treaty with the Sauk and Foxes 1804-11-03 (St. Louis), https://treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-1804-0074 ; 1832-09-21 (Fort Armstrong), .../treaty-with-the-sauk-and-foxes-1832-0349 ; ikincil ipucu: Wikipedia Black Hawk War / Saukenuk",
+   "alinti": "the Indians belonging to the said tribes, shall enjoy the privilege of living and hunting upon them",
+   "oneri": {
+    "d": "sauk",
+    "f": "1281-01-01",
+    "t": "1831-06-30"
+   },
+   "uc": "t",
+   "not": "ONERI: t 1832-09-21 -> 1831-06-30 (Sauk'in fiili cekilisi / Gaines ile 'agreement', Mississippi'nin batisinda kalma sozu; kaynak YALNIZ Wikipedia Black Hawk War - birincil Kappler metni bulunamadi: treaties.okstate.edu 1831 URL tahminleri 404, digital library okstate kappler DNS cozulemedi; ham alinti YOK). GEREKCE (TEK OLCU): ABD hukuken 1804-11-03 St. Louis antlasmasiyla Illinois topraklarini aldi (Madde 7 Sauk'a 'ceded lands' uzerinde oturma izni verir; ham alinti), ancak topragi fiilen yonetmedi (Saukenuk Sauk elindeydi, kasaba 1831 haziranda tahliye edildi) => s: TESLIM/fiili idare gunu. 1832-09-21 antlasmasi Saukenuk'u kapsamiyor: devrettigi alan Mississippi'nin BATI yakasi (Red Cedar, Missouri siniri; ham metin); yani 1832-09-21 bu yer icin olay degil (kunye t'si 1833-02-13 ratifikasyon kuralıyla Sauk ulkesi icindir). OLCUT: idareye katma - Illinois eyaleti 1818'den beri sinirlari icinde sayiyordu, kaynak okunmadi. Alternatif (Emre karari): ABD f = 1804-11-03 (de jure imza; 1804 Madde 7 fiili Sauk varligina izin verdigi icin onerilmez). sauk kunye t=1833-02-13 zaten 1831-06-30'u kapsar (kunye degismez).",
+   "alinti2": "Done at Fort Armstrong, Rock Island, Illinois, this twenty-first day of September"
+  },
+  {
+   "sira": 3826,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1832-09-21",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "bkz. Saukenuk satir 3825 (ayni kaynaklar)",
+   "alinti": "Done at Saint Louis, in the district of Louisiana, on the third day of November",
+   "oneri": {
+    "d": "abd",
+    "f": "1831-06-30",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "ONERI: f 1832-09-21 -> 1831-06-30 (satir 3825 ile eslenik, gerekce orada). Ham alinti 1804 antlasmasinin tarihlenmesidir (ic_not: 1804-11-03 de jure devir); f ucunu tarihlemedigi icin KAYNAKLI degil. 1832-09-21 yalniz Iowa/Black Hawk Purchase devri; yururluk 1833-02-13 (kunye ic_not'unda). Illinois statehood 1818-12-03 ve 1829 kamu arazisi satisi okunmadi."
+  }
+ ],
+ "Kuzey Payut (Kara Kaya Çölü)": [
+  {
+   "sira": 3827,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "payut",
+   "f": "1281-01-01",
+   "t": "1872-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "Aranan: Wikipedia Northern Paiute / Black Rock Desert (Paiute ~1300 CE'den beri; Wheeler 1978 'The Black Rock Desert', Caxton - dipnot, tam metin yok), onlinenevada.org (tahmin edilen makale URL'leri 404), coloradoencyclopedia (robots yasagi), archive.org Handbook of North American Indians cilt 11 Great Basin (kimlik dogrulanamadi, ia-ara sonuc vermedi). 1281 = ATLAS UFKU; payut kunye f=1281-01-01 t=1872-01-01 araligi kapsiyor. Yerlesime ozgu akademik taniklik ve 1872-01-01 ucunun dayanagi bulunamadi."
+  },
+  {
+   "sira": 3828,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1872-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "1872-01-01 ucu kunye t'sidir (payut), olayi tarihleyen kaynak bulunamadi. Ipucu (KAYNAKSIZ, okunmadi): ABD de jure Guadalupe Hidalgo 1848; fiili idare Nevada Bolgesi 1861-03-02 / Pyramid Lake Savasi 1860; Hardin City 1867 (Wikipedia Black Rock Desert) - hukum degil. Yaklasiklik/bosluk karari Emre'nin (merdiven 4: yerlesim 1867 Hardin City ile var olmus olabilir)."
+  }
+ ],
+ "Fort Duquesne (Pittsburgh)": [
+  {
+   "sira": 3829,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1754-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "ikincil (Wikipedia Fort Duquesne, ham sayfa.py): Fort Prince George 1754-02-17 baslangic, Fransiz teslim alisi 1754-04-18; Forbes 1758-11-25; akademik kaynak (PHMC/Encyclopedia of Pittsburgh/DCB) acilamadi",
+   "alinti": "the Forbes Expedition under the Scotsman General John Forbes took possession of Fort Duquesne",
+   "oneri": {
+    "d": "ingiltere",
+    "f": "1754-02-17",
+    "t": "1754-04-17",
+    "ek_donem": [
+     {
+      "d": "fransa",
+      "f": "1754-04-17",
+      "t": "1758-11-25"
+     },
+     {
+      "d": "ingiltere (isg)",
+      "f": "1758-11-25",
+      "t": "1763-02-10",
+      "not": "TEK KURAL: savas isgali devre kadar isg; s: ingiltere 1763-02-10"
+     }
+    ]
+   },
+   "uc": "t",
+   "not": "Uclar Wikipedia'ya dayanir (ikincil) => ONERI. (1) f: Forks'ta 1754-01-01'de Fransiz yerlesim yoktu; Virjinyalilar Fort Prince George'a 1754-02-17'de basladi (Wikipedia 'Work began on the fort on February 17'); Fransa Contrecoeur ile Nisan 1754'te teslim aldi (Wikipedia 'By April 18'; brif 04-17) => gun celiskisi 17/18 Nisan beyan edilir, kaynak yok. Baslangic dilimi Ingiliz (Virjinya) olabilir: F-GERI adayi. (2) t: Fransa Forks'ta 1758-11-25'te cekildi (Wikipedia: Forbes possession, Fransizlar kaleyi yikip terk etti); 1763-02-10 Paris antlasmasi hukuki devirdir, ele geciren (Ingiltere) 1758'de yeri fiilen tuttu ve Fort Pitt kurdu => TEK KURAL: 1758-11-25 -> 1763-02-10 isg ingiltere (OLCUT: gecici/askeri; Fransiz egemenligi hukuken 1763-02-10'a dek); alternatif (Virjinya/Ingiliz iddiasi Forks uzerinde 1754 oncesinden suruyordu): s: ingiltere 1758-11-25'ten - Emre karari. Alinti satirin t ucundaki olayi (1758-11-25 fiili devir) tarihler ama kaynak ikincil (Wikipedia) oldugundan KAYNAKLI degil. Kunye fransa t=1792-09-22 kapsar. Okunmadi: 1763 Paris metni (Avalon URL denemesi 404)."
+  },
+  {
+   "sira": 3830,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Avalon Project (Yale), Definitive Treaty of Peace 1783, https://avalon.law.yale.edu/18th_century/paris.asp (birincil antlasma metni, ham sayfa.py)",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord,",
+   "oneri": {},
+   "uc": "t",
+   "not": "ULKE DUZEYI. t=1783-09-03: Avalon/Hunter Miller nesri 1783 Paris antlasmasi IMZA gunu; Madde 1 'to be free sovereign and independent states' ve Pennsylvania'yi sayar (Pittsburgh'a ozgu taniklik degil). TEK OLCU: ABD toprağı (Pennsylvania/Virjinya yoluyla) zaten fiilen yonetiyordu => imza gunu; yururluk/ratifikasyon ic_not. f ucu (1763-02-10) bu alintiyla tarihlenmez (ote uc teysitsiz); 1763 Paris metni okunmadi, bkz. satir 3829 (1758-11-25 fiili Ingiliz varligi).",
+   "alinti2": "in the year of our Lord, one thousand seven hundred and eighty-three"
+  },
+  {
+   "sira": 3831,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Avalon Project (Yale), Definitive Treaty of Peace 1783, https://avalon.law.yale.edu/18th_century/paris.asp (birincil antlasma metni, ham sayfa.py)",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord,",
+   "oneri": {},
+   "uc": "f",
+   "not": "ULKE DUZEYI (Avalon 1783 Madde 1 Pennsylvania dahil 13 eyalet). UYARI atlas ici tutarsizlik: Baltimore ve 2 baska kayit ingiltere->abd'yi 1776-07-04'te, yaklasik 15 kayit 1783-09-03'te kesiyor (bkz. Baltimore satiri).",
+   "alinti2": "in the year of our Lord, one thousand seven hundred and eighty-three"
+  }
+ ],
+ "Denver": [
+  {
+   "sira": 3832,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1858-11-22",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "ikincil: Wikipedia History of Denver (Kansas Territory; Montana City yaz 1858; St. Charles ~Eylul 1858; Auraria Ekim 1858; Larimer grubu Kasim 1858). Colorado Encyclopedia robots yasagi, History Colorado bos govde, Kansapedia 404.",
+   "alinti": "The Denver area, part of the Territory of Kansas",
+   "oneri": {},
+   "uc": "",
+   "not": "1858-11-22 ucu dogrulanamadi: Wikipedia Larimer grubunun Kasim 1858'de St. Charles iddiasi uzerine Denver City'yi kurdugunu soyler, gun yok ('November 22' arandi, YOK) => 22 Kasim teyitsiz; alinti ikincil oldugundan KAYNAKLI degil. d=abd: bolge Kansas Bolgesi'nde (1854) sayiliyordu ama fiili ABD idaresi altin telasiyla 1858-59'da basladi; Fort Laramie 1851 (Arapaho/Seyen) ve Fort Wise 1861-02-18 okunmadi. Colorado Bolgesi 1861-02-28, Jefferson Bolgesi (kacak) 1859-10-24 okunmadi. F-GERI ADAYI: ayni mevkide St. Charles (Eylul 1858) ve komsu Auraria (Ekim 1858) var - Denver f'nin St. Charles gunune cekilmesi; gun bulunamadi, sahip abd (Kansas Bolgesi; Louisiana Satin Alması 1803 okunmadi)."
+  }
+ ],
+ "Baltimore": [
+  {
+   "sira": 3833,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1729-01-01",
+   "t": "1776-07-04",
+   "hukum": "ONERI",
+   "kaynak": "ikincil: Wikipedia Baltimore (Port of Baltimore 1706; Baltimore Town 1729-08-08 vali yasayi imzaladi; arazi olcumu 1730-01-12); Maryland State Archives Manual URL'si 404",
+   "alinti": "the Governor of Maryland signed an act allowing",
+   "oneri": {
+    "d": "ingiltere",
+    "f": "1729-08-08",
+    "t": "1783-09-03"
+   },
+   "uc": "f+t",
+   "not": "f: atlas 1729-01-01 yil duzeyi; Baltimore Town kurulus yasasi 1729-08-08 (Wikipedia, ikincil; MSA birincil okunamadi) => f'yi 08-08'e cek (1706 liman Whetstone Point'tedir, Town degil). t: 1776-07-04 yerine 1783-09-03 onerilir: (a) atlasin hukuki devir kurali (F8 de jure antlasma gunu; Avalon 1783 imza, Madde 1 Maryland'i sayar), (b) yaklasik 15 kayit (orn. Fort Duquesne/Pittsburgh) ingiltere->abd'yi 1783-09-03'te kesiyor, yalniz Baltimore + 2 kayit 1776-07-04; (c) kunye abd f=1776-07-04 oldugundan abd 1783'te sahibi olunca gecerli. KARAR Emre'de: iki konvansiyon karisik. Maryland Konvansiyonu bagimsizlik beyani 1776-07 okunmadi. Birincil: Avalon 'Done at Paris, this third day of September'."
+  },
+  {
+   "sira": 3834,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Avalon Project (Yale), Definitive Treaty of Peace 1783, https://avalon.law.yale.edu/18th_century/paris.asp (birincil antlasma metni, ham sayfa.py)",
+   "alinti": "His Brittanic Majesty acknowledges the said United States",
+   "oneri": {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "Satir 3833 ile eslenik: f 1776-07-04 -> 1783-09-03 (tutarlilik ve F8). Avalon alintisi Madde 1'de ABD'nin taninmasini tarihler (imza 1783-09-03) - ULKE DUZEYI; onerilen f ucuyla ortusur ama mevcut f (1776) ile ortusmedigi icin KAYNAKLI degil, ONERI. 1776-07-04 korunmak istenirse 'fiili idare (Maryland eyalet hukumeti) / Bildirge' ic_not'a yazilir."
+  }
+ ],
+ "Genoa (Nevada)": [
+  {
+   "sira": 3835,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "ikincil: Wikipedia Genoa, Nevada ('Founded in 1851'; Beatie'nin 1850 catisiz tuccar cevresi terk edildi; John Reese 1851 kalici ticaret merkezi; Mormon Station; Nevada Bolgesi 1861)",
+   "alinti": "Founded in 1851, it was the first settlement in what became the Nevada Territory",
+   "oneri": {},
+   "uc": "",
+   "not": "BULUNAMADI (akademik): Online Nevada Encyclopedia makale URL'leri (genoa, genoa-nevada, mormon-station, nevada-territory) 404; Nevada SHPO/Historical Society okunmadi. Wikipedia 1851 (yil) ile atlas f=1851-01-01 uyumlu; gun/ay yok. d=abd: Guadalupe Hidalgo 1848 (okunmadi); Utah Bolgesi 1850-09-09 (okunmadi). F-GERI ADAYI: 1851 -> 1850 (Beatie/Mormon tuccar cevresi; Wikipedia kategori 'established in 1850') - ay/gun yok, terk edilmis ilk cevre; mevcut f korunur."
+  }
+ ],
+ "St. Louis": [
+  {
+   "sira": 3836,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1764-02-14",
+   "t": "1804-03-10",
+   "hukum": "ONERI",
+   "kaynak": "ikincil: Wikipedia St. Louis (kurulus 1764-02-14 infobox), Spanish Louisiana ('Spain began administrative processes to govern Upper Louisiana' 1770), Three Flags Day (9-10 Mart 1804). Missouri Encyclopedia URL'leri 404; sos.mo.gov robots yasagi.",
+   "alinti": "The Spanish flag was lowered on March 9, and the French flag was hoisted",
+   "oneri": {
+    "d": "louisiana",
+    "f": "1764-02-14",
+    "t": "1804-03-10"
+   },
+   "uc": "",
+   "not": "KUNYE HATASI: St. Louis Yeni Ispanya Genel Valiligi (Meksika) degil, Louisiana kolonisidir (Fontainebleau 1762-11-03 -> Ispanya; San Ildefonso 1800-10-01 -> Fransa; Uc Bayrak 1804-03-09/10). devletler.js'te 'louisiana' kunyesi var: f=1682-04-09, t=1803-12-20 (Yukari Louisiana devri 1804-03-10 oldugu icin kunye t'si ~80 gun KISA: St. Louis 1803-12-20 -> 1804-03-10 arasi kunyesiz kalir). Siniflandirma: ayni polity suruyor => kunye t 1803-12-20 -> 1804-03-10 GENISLET (LAB), ya da dilim t=1803-12-20 ve arasi isg/bosluk (Emre). f: kurulus 1764-02-14 (Wikipedia infobox; brif 1764-02-15) - gun celiskisi, ham taniklik yok. Ispanyol fiili idaresi 1770-05-20 (brif; okunmadi): split gerekmez (tek kunye Fransiz/Ispanyol). ALINTI 9 Mart devridir, satirin t=1804-03-10 ucunu (ABD bayragi 10 Mart) tarihlemez => KAYNAKLI degil."
+  },
+  {
+   "sira": 3837,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1804-03-10",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "ikincil: Wikipedia Three Flags Day (ham sayfa.py): Amos Stoddard 1804-03-09; American flag hoisted 03-10",
+   "alinti": "The next morning, March 10, 1804, the American flag was hoisted",
+   "oneri": {
+    "d": "abd",
+    "f": "1804-03-10",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "Mevcut f=1804-03-10 ile uyumlu ama kaynak ikincil (Wikipedia) => ONERI-guclu, KAYNAKLI degil; akademik/birincil (Missouri State Archives, SHSMO) okunamadi. Mevcut satirdaki 'DOGRULANMADI - DUNYA-0079' notu hala gecerli. Bagli sorun: louisiana kunye t=1803-12-20 (satir 3836 notu)."
+  }
+ ],
+ "f_geri": [
+  "F-GERI: Fort Duquesne (Pittsburgh) 1754-01-01 fransa -> 1754-02-17 ingiltere (Virjinya, Fort Prince George; Fransa 1754-04-17/18'den), kaynak yalniz Wikipedia; kunye ingiltere kapsar - ADAY, onaysiz",
+  "F-GERI: Denver 1858-11-22 -> St. Charles (~1858-09, gun yok) sahip abd (Kansas Bolgesi) - ADAY, gun bulunamadi",
+  "F-GERI: Genoa (Nevada) 1851-01-01 -> 1850 (Beatie Mormon Station cevresi, terk edilmis) sahip abd - ADAY, ay/gun yok, onerilmiyor"
+ ]
+}
