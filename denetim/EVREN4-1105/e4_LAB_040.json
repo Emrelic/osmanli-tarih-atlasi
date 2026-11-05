@@ -226,12 +226,14 @@
    "d": "tio",
    "f": "1281-01-01",
    "t": "1880-10-03",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "Bakılan: TDV kongo-demokratik-cumhuriyeti (Brazzaville anılır, Makoko yok), history.state.gov/countries/congo-republic (1960 öncesi için yalnız 'French Equatorial Africa'); tdv-ara Kongo yalnız Kongo DC",
    "alinti": "",
-   "oneri": {},
-   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | 1880-10-03 (Makoko antlaşması) akademik kaynakla okunmadı. ÖLÇÜT UYARISI: Makoko antlaşması himaye (v:) niteliğindedir ve Tio (Teke) krallığını kapsar; İmpfondo (1.62N 18.06E, Likouala) Tio çekirdeğinin çok kuzeyindedir; Fransız idaresi yerde 1890'lar sonrası olabilir (kaynaksız)."
+   "oneri": {
+    "d": "__BOSLUK__ (bos:'kabile', Likouala)"
+   },
+   "not": "LAB SALI ölçümü (origin/main): Tio krallığı Stanley Havuzu'nda; İmpfondo ~600 km kuzeyde (Ubangi) → tio dilimi kalkar, yerine bos:'kabile' (Likouala toplulukları); 1880-10-03 fransa da erken (Makoko yalnız Tio toprağı); Fransız fiilî karakolu (Ubangi 1890'lar) kaynakla. | KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | 1880-10-03 (Makoko antlaşması) akademik kaynakla okunmadı. ÖLÇÜT UYARISI: Makoko antlaşması himaye (v:) niteliğindedir ve Tio (Teke) krallığını kapsar; İmpfondo (1.62N 18.06E, Likouala) Tio çekirdeğinin çok kuzeyindedir; Fransız idaresi yerde 1890'lar sonrası olabilir (kaynaksız)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:999",
@@ -244,7 +246,7 @@
    "kaynak": "Bakılan: aynı kaynaklar (Fransız idaresi İmpfondo için okunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | f 1880-10-03 teyitsiz; bkz. önceki satır."
+   "not": "LAB SALI ölçümü (origin/main): Tio krallığı Stanley Havuzu'nda; İmpfondo ~600 km kuzeyde (Ubangi) → tio dilimi kalkar, yerine bos:'kabile' (Likouala toplulukları); 1880-10-03 fransa da erken (Makoko yalnız Tio toprağı); Fransız fiilî karakolu (Ubangi 1890'lar) kaynakla. | KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | f 1880-10-03 teyitsiz; bkz. önceki satır."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:999",
@@ -257,7 +259,7 @@
    "kaynak": "https://history.state.gov/countries/congo-republic",
    "alinti": "On that date, the Republic of the Congo’s independence from French Equatorial Africa was proclaimed",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-15 (devletin kendi resmî tarih yayını history.state.gov; ABD tanıma günü ile birlikte, bağımsızlık ilanı cümlesi açıkça yazılı)."
+   "not": "LAB SALI ölçümü (origin/main): Tio krallığı Stanley Havuzu'nda; İmpfondo ~600 km kuzeyde (Ubangi) → tio dilimi kalkar, yerine bos:'kabile' (Likouala toplulukları); 1880-10-03 fransa da erken (Makoko yalnız Tio toprağı); Fransız fiilî karakolu (Ubangi 1890'lar) kaynakla. | KARAR EMRELİC (gece-113): Makoko antlaşması kapsamıyorsa tio dilimi kalkar (merdiven ④). | ÜLKE DÜZEYİ: f ucu gün düzeyinde 1960-08-15 (devletin kendi resmî tarih yayını history.state.gov; ABD tanıma günü ile birlikte, bağımsızlık ilanı cümlesi açıkça yazılı)."
   }
  ],
  "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)": [
@@ -507,7 +509,7 @@
    "kaynak": "Bakılan: TDV gana (Dagomba krallığı XV. yy. kuruluş, Yendi yalnız pazar/şehir); history.state.gov/countries/ghana (yalnız 1957)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | MERDİVEN ④: Yendi'nin 1281-1401 arasında var olup olmadığı kaynakla ölçülmedi; boşluk için abi merkez/Dagbon çekirdeği bulunamadı."
+   "not": "LAB SALI ölçümü (origin/main): atlas 'dagbon → 1899-01-01 → ingiltere → 1957 gana' YANLIŞ: 1899 bölüşmesinde Yendi Alman Togolandı'na kaldı → 1899-11-14 alman-togo (t 1919-06-28) → 1914-08-26 isg ingiltere → 1919-06-28 ingiltere → 1922-07-20 ingiliz-togoland → 1957-03-06 gana. dagbon + v: almanya sorusu dolaylı idare sınıfı (BEKLET). | KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | MERDİVEN ④: Yendi'nin 1281-1401 arasında var olup olmadığı kaynakla ölçülmedi; boşluk için abi merkez/Dagbon çekirdeği bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:544",
@@ -520,7 +522,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/gana",
    "alinti": "XV. yüzyılda kuzeydeki Dagomba ve Mamprusîler’in kurduğu devletler",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | f ucu YÜZYIL düzeyinde (XV. yy.; 1401-01-01 ile çelişmez, yıl teyidi yok). t 1899-01-01: TDV Gana yalnız Aşanti'nin 'XIX. yüzyılın sonunda İngilizler tarafından yıkıldığını' söyler. UYARI (kaynaksız hatırlama, ölç): Yendi 1896-1902/1914 Alman Togo'su içinde kalmış olabilir; İngiliz geçişi ve tarihi ölçülmeli."
+   "not": "LAB SALI ölçümü (origin/main): atlas 'dagbon → 1899-01-01 → ingiltere → 1957 gana' YANLIŞ: 1899 bölüşmesinde Yendi Alman Togolandı'na kaldı → 1899-11-14 alman-togo (t 1919-06-28) → 1914-08-26 isg ingiltere → 1919-06-28 ingiltere → 1922-07-20 ingiliz-togoland → 1957-03-06 gana. dagbon + v: almanya sorusu dolaylı idare sınıfı (BEKLET). | KARAR EMRELİC (gece-113): Büyük olasılıkla Alman Togo'su 1899'dan → 1914 İngiliz işgali → İngiliz Togolandı → 1957 Gana; atlas zinciri ölçülüp kaynakla düzeltilecek (dagomba künyesi + v: almanya himaye mi, doğrudan mı; ONERI). | f ucu YÜZYIL düzeyinde (XV. yy.; 1401-01-01 ile çelişmez, yıl teyidi yok). t 1899-01-01: TDV Gana yalnız Aşanti'nin 'XIX. yüzyılın sonunda İngilizler tarafından yıkıldığını' söyler. UYARI (kaynaksız hatırlama, ölç): Yendi 1896-1902/1914 Alman Togo'su içinde kalmış olabilir; İngiliz geçişi ve tarihi ölçülmeli."
   }
  ],
  "Yüksekova (Gever)": [

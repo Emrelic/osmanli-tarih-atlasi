@@ -325,12 +325,12 @@
    "f": "1960-08-11",
    "t": "2000-12-31",
    "sira": "901",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "US Office of the Historian, Countries: Chad — https://history.state.gov/countries/chad (sayfa.py)",
    "alinti": "The United States recognized the Republic of Chad on August 11, 1960",
    "oneri": {},
-   "not": "f=1960-08-11 teyit; 'On that date, Chad’s independence from French Equatorial [Africa]'. ÜLKE DÜZEYİ."
+   "not": "LAB PAZAR DENETİMİ (gece-100 kuralı, parti 041 ajanının uyarısıyla): alıntı yalnız ABD'nin tanıma gününü veriyor, bağımsızlığı tarihlemiyor → KAYNAKLI'dan ONERI'ye; Çad bağımsızlığı 1960-08-11 TDV Çad ile teyit edilecek. | f=1960-08-11 teyit; 'On that date, Chad’s independence from French Equatorial [Africa]'. ÜLKE DÜZEYİ."
   }
  ],
  "Bardaî": [
@@ -369,12 +369,12 @@
    "f": "1960-08-11",
    "t": "2000-12-31",
    "sira": "916",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "US Office of the Historian, Countries: Chad — https://history.state.gov/countries/chad (sayfa.py)",
    "alinti": "The United States recognized the Republic of Chad on August 11, 1960",
    "oneri": {},
-   "not": "f=1960-08-11 teyit. ÜLKE DÜZEYİ."
+   "not": "LAB PAZAR DENETİMİ (gece-100 kuralı, parti 041 ajanının uyarısıyla): alıntı yalnız ABD'nin tanıma gününü veriyor, bağımsızlığı tarihlemiyor → KAYNAKLI'dan ONERI'ye; Çad bağımsızlığı 1960-08-11 TDV Çad ile teyit edilecek. | f=1960-08-11 teyit. ÜLKE DÜZEYİ."
   }
  ],
  "Batangafo": [

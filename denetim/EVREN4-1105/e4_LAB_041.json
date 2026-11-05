@@ -1,0 +1,655 @@
+{
+ "İstanbulya (Astipalya)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1813",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1537-10-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV oniki-ada (Venedik/Astipalya 1281-1537 geçmiyor; yalnız 1912 işgali), TDV yunanistan",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1537-10-01 ve Venedik dönemi teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1813",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1537-10-01",
+   "t": "1923-07-24",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV oniki-ada (1537 anahtarı YOK), Treccani Astipalea denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Osmanlı f 1537-10-01 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1813",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1947-09-15",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/oniki-ada",
+   "alinti": "Rodos, Oniki Ada ve Meis Yunanistan’a devredildi",
+   "oneri": {},
+   "not": "TEK ÖLÇÜ: Paris 1947-02-10 imza; İngiliz askerî idaresi sürüyordu → teslim günü (Oniki Ada devri 1947-03-31 / resmî ilhak 1948-03-07) — EMRELİC'e soruldu. | ÜLKE DÜZEYİ: TDV: Paris Barış Antlaşması 10 Şubat 1947 imza; atlas f 1947-09-15 yürürlük günü. TEK ÖLÇÜ: Yunanistan o sırada fiilen yönetmiyor (İngiliz askerî idaresi) -> teslim günü esas; teslim günü TDV'de yok, kaynak bulunamadı. Alıntı yalnız imza/devri tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1813",
+   "alan": "s",
+   "d": "yunanistan-cumhuriyeti",
+   "f": "1973-06-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/historicaldocuments/frus1969-76v30/d3",
+   "alinti": "On June 1, Papadopoulos announced that the monarchy was abolished by a constituent act voted by the Cabinet.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1973-06-01 (FRUS 1969-76 XXX d3, memorandum 12 Haziran 1973; devletin resmî yayını); yıl memo tarihinden."
+  }
+ ],
+ "Şemdinli (Şemdinni)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:99",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1351-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV ilhanlilar (Şemdinli/Hakkâri geçmiyor), TDV karakoyunlular (zincirde)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İlhanlı f 1281 ve t 1351 yerleşime özgü teyitsiz; kapanış kaynağı Musul'a ilişkin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:99",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1548-08-24",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/van",
+   "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
+   "oneri": {},
+   "not": "Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van). Şemdinli dağlık Hakkâri kuşağında; 1548'de aynı gün Osmanlı'ya geçtiği okunmadı -> ÜLKE/bölge düzeyi bile değil, GÜN KOMŞUDAN (Van). t 1920-04-23 bu satırda okunmadı."
+  }
+ ],
+ "Şeyhrumi (Yücelen)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:128",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1351-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV ilhanlilar (Şeyhrumi/Başkale geçmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İlhanlı f 1281 ve t 1351 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:128",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1548-08-24",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/van",
+   "alinti": "Van Kalesi bir daha el değiştirmemek üzere Osmanlı hâkimiyetine girdi",
+   "oneri": {},
+   "not": "Gün komşudan: 1548-08-24 Van Kalesi'nin fethi (TDV) — ABİ MERKEZ Van beyanı gerekli; köylere özgü tanık yok. | f ucu GÜN 1548-08-24 yalnız VAN KALESİ için (TDV Van); Şeyhrumi'nin o gün geçtiği okunmadı (zincir notu: 1548-1574 Mâkû Safevî, ölçülemedi). GÜN KOMŞUDAN (Van)."
+  }
+ ],
+ "Abeşe (Abéché)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:357",
+   "alan": "s",
+   "d": "vaday",
+   "f": "1635-01-01",
+   "t": "1909-06-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/veday",
+   "alinti": "Muhammed eş-Şerîf 1850’de Vârâ’dan ayrıldı",
+   "oneri": {
+    "f": "1850-01-01"
+   },
+   "not": "TDV Vedây: sultanlık 1635'te kuruldu (merkez Vârâ); Ebîşe 1850'de başşehir edinildi (YIL). Atlas f=1635 yerleşimin değil sultanlığın kuruluşu; yerleşim kuruluş yılı ÜLKE DÜZEYİ değil. t 1909-06-02 TDV: 'Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler' (gün, Abeşe için doğrudan)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:357",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/chad",
+   "alinti": "The United States recognized the Republic of Chad on August 11, 1960",
+   "oneri": {},
+   "not": "history.state.gov ABD'nin TANIMA günü; bağımsızlık günü sayılmaz (brif). Bağımsızlık 1960-08-11 olabilir ama kaynak tanıma diyor."
+  }
+ ],
+ "Acman (Ajman)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:20",
+   "alan": "s",
+   "d": "trucial-states",
+   "f": "1820-01-01",
+   "t": "1971-12-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/birlesik-arap-emirlikleri",
+   "alinti": "Gemilere saldırılmaması konusunda İngilizler’le sahil şeyhleri arasında 1820’de bir antlaşma imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu YIL (1820, Genel Deniz Antlaşması); Acman'a özgü anılmıyor; gün yok. t 1971-12-02 sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:20",
+   "alan": "s",
+   "d": "birlesik-arap-emirlikleri",
+   "f": "1971-12-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/birlesik-arap-emirlikleri",
+   "alinti": "devletinin kuruluşunu 2 Aralık 1971’de Dübey’de ilân ettiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1971-12-02 (TDV BAE: kuruluşta Acmân listede). Bağımsızlık ilanı/federasyon kuruluşu günü."
+  }
+ ],
+ "Adigrat": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:718",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: alıntı yalnız t ucunu (AOI kuruluşu 1936-06-01) tarihliyor; Habeşistan f 1281 teyitsiz. Yerleşime özgü el değiştirme tanığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:718",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1936-06-01 (AOI kuruluş kararnamesi). Kaynak Dizionario di Storia 2011."
+  }
+ ],
+ "Ambo": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:461",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: alıntı yalnız t ucunu (AOI kuruluşu 1936-06-01) tarihliyor; Habeşistan f 1281 teyitsiz. Yerleşime özgü el değiştirme tanığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:461",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1936-06-01 (AOI kuruluş kararnamesi). Kaynak Dizionario di Storia 2011."
+  }
+ ],
+ "Ankober": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:754",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: alıntı yalnız t ucunu (AOI kuruluşu 1936-06-01) tarihliyor; Habeşistan f 1281 teyitsiz. Yerleşime özgü el değiştirme tanığı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:754",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1936-06-01 (AOI kuruluş kararnamesi). Kaynak Dizionario di Storia 2011."
+  }
+ ],
+ "Alula": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:832",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV somali (Alula/Adal yok; Adal ayrı madde slug'ı açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Adal f 1281 / t 1577 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:832",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu YIL 1927 (Alula Mâcerteyn Sultanlığı topraklarında). 'işgal' ifadesi: s: mi isg mi tahrir ölçütü kaynakta yok; gün teyitsiz (atlas 01-01)."
+  }
+ ],
+ "Aşkabad": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:181",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1881-01-30",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya (Mart 1917 ve Aşkabad 1881 anahtarı YOK), TDV turkmenistan (zincirde)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rusya f 1881-01-30 ve t 1917-03-15 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:181",
+   "alan": "s",
+   "d": "turkmenistan",
+   "f": "1991-10-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/turkmenistan",
+   "alinti": "27 Ekim 1991’de bağımsızlığını kazanan Türkmenistan",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu gün 1991-10-27 (bağımsızlık ilanı; SSCB sonu 1991-12-26 ic_not)."
+  }
+ ],
+ "Baden-Baden": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:76",
+   "alan": "s",
+   "d": "baden",
+   "f": "1112-01-01",
+   "t": "1918-11-22",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: zincirdeki LEO-BW/HLS notları yeniden açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1112 YIL ve t 1918-11-22 bu turda okunmadı (zincirde kaynaklı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:76",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-22",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "t ucu 1945-06-05 Berlin Deklarasyonu (egemenliği devralma). Alıntı yalnız t ucunu tarihliyor; f 1918-11-22 teyitsiz."
+  }
+ ],
+ "Aalborg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:330",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani Aalborg (kısa, tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Danimarka altında 1281'de var olduğu okunmadı."
+  }
+ ],
+ "Acaponeta": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1773",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1823-06-21",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: yer_kaynak INEGI PDF'i (açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1823-06-21 teyitsiz. PDF: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909132.pdf"
+  }
+ ],
+ "Adelaide": [
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:114",
+   "alan": "s",
+   "d": "guney-avustralya",
+   "f": "1836-12-28",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: ADB (robots yasağı), nzhistory vb. denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1836-12-28 teyitsiz."
+  }
+ ],
+ "Aktöbe": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:223",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1869-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1869 ve t 1917-03-15 teyitsiz."
+  }
+ ],
+ "Aleksandrovski Redut (Nushagak)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:406",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1818-01-01",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: alıntı yalnız t ucunu tarihliyor (gün 1867-10-18, devletin resmî yayını; milestones 'retired' notlu); f 1818 teyitsiz."
+  }
+ ],
+ "Aleşki Seçi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:156",
+   "alan": "v",
+   "d": "kirim",
+   "f": "1711-01-01",
+   "t": "1728-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CL%5COleshkySich.htm",
+   "alinti": "the Zaporozhians established their refuge on the territory belonging to the Crimean Khanate",
+   "oneri": {},
+   "not": "f ucu YIL 1711 (Kırım Hanı izniyle, Han toprağında). t 1728 bu turda okunmadı."
+  }
+ ],
+ "Alghero": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:699",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1354-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/alghero/",
+   "alinti": "in possesso dei Doria, che la mantennero fino al 1353, quando se ne impadronirono gli Aragonesi",
+   "oneri": {
+    "t": "1353-01-01"
+   },
+   "not": "Treccani kısa madde (Enc. Italiana kökenli olabilir -> ipucu sınıfı); t YIL 1353, atlas 1354 (Treccani 1354'ü sürgün yılı verir). f 1281 teyitsiz."
+  }
+ ],
+ "Amapá (Montenegro)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:922",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1901-10-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi (Memoria/akademik kaynak aranmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI düzeyi: f 1901-10-22."
+  }
+ ],
+ "Antseranana": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1566",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1885-12-17",
+   "t": "1960-06-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "1885’te imzalanan bir antlaşmayla Diégo-Suarez ve Tananarive’ye yerleşen Fransızlar",
+   "oneri": {},
+   "not": "f ucu YIL 1885 (Diégo-Suarez = Antseranana); gün 12-17 teyitsiz. t 1960-06-26 okunmadı."
+  }
+ ],
+ "Aral kuzeyi": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:192",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Altın Orda f 1281 / t 1500."
+  }
+ ],
+ "Aralsk (Aral)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:489",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1905-01-01",
+   "t": "1917-03-15",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: f 1905, t 1917-03-15."
+  }
+ ],
+ "Araranguá (Campinas)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:709",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1864-03-19",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Brezilya İmparatorluğu f 1864-03-19, t 1889-11-15."
+  }
+ ],
+ "Arequipa": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:571",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1540-08-15",
+   "t": "1542-11-20",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/arequipa/",
+   "alinti": "Fondata nel 1540 dai conquistadores spagnoli",
+   "oneri": {},
+   "not": "f ucu YIL 1540 (kuruluş); gün 08-15 teyitsiz. t 1542-11-20 okunmadı."
+  }
+ ],
+ "Arhangelsk": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:201",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani archangel-sk slug'ı geçersiz",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Novgorod f 1281 / t 1478-01-15."
+  }
+ ],
+ "Arviat (Eskimo Point)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:339",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1880-09-01 şüpheli (Arviat Hudson Körfezi anakarası; Rupert's Land 1870 devri olabilir) ama kaynaksız ipucu, BAKILMADI."
+  }
+ ],
+ "Arzamas": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:276",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Altın Orda t 1325."
+  }
+ ],
+ "Auckland": [
+  {
+   "dosya_satir": "data/yerlesimler_ek30.js:23",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-09-18",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: nzhistory (robots yasağı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1840-09-18 teyitsiz."
+  }
+ ],
+ "Augsburg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:453",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi (Treccani augusta slug'ı boş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Almanya f 1281 / t 1945-06-05 teyitsiz; Berlin Deklarasyonu için Baden-Baden satırına bakın."
+  }
+ ],
+ "Babati": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1254",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1900-01-01",
+   "t": "1916-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV tanzanya (1890 kara kısmı Almanlar'a; Babati/1916 yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1900 (kuruluş) ve t 1916-09-01 teyitsiz."
+  }
+ ],
+ "Babine (Fort Kilmaurs)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:519",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1822-01-01",
+   "t": "1871-07-20",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: zincirdeki Justice Canada notu (BC Terms of Union 1871-07-20) yeniden açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1822 teyitsiz; t 1871-07-20 kayıtta kaynaklı ama sayfa.py ile okunmadı."
+  }
+ ],
+ "Bakel": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:246",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1818-01-01",
+   "t": "1960-06-20",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Fransa f 1818, t 1960-06-20."
+  }
+ ]
+}
