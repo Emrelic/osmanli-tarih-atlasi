@@ -933,5 +933,60 @@
   "islem": "devletler.js ingiliz-kuzey-amerika 'İngiliz Kuzey Amerika (Kanada)' (:6449) t → 1873-07-01 (UFUK-1923 pencere ucu artefaktı kaldırılır; PEI'nin Kanada'ya girişi = son meşru kullanım). ic_not_t: '1867-07-01 Konfederasyon; 1870-07-15 Rupert Toprakları/KB Toprakları, 1871-07-20 BC, 1873-07-01 PEI'. Yerleşim değişikliği YOK (1867 sonrası 80 dönem meşru — LAB PAZAR ölçümü). 1873 sonrası ingiliz-kuzey-amerika kullanan dönem olmamalı (ölçüldü: yok).",
   "dayanak": "LAB PAZAR ölçümü origin/main (girdi.yukle; s/isg/v)",
   "onay": "EMRELİC gece-142"
+ },
+ {
+  "d": "Fiume (carnaro-naiplik / fiume-serbest-devleti)",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js carnaro-naiplik (:16898) f → 1919-09-12 (D'Annunzio'nun şehri alışı; ic_not_f '1920-09-08 Carta del Carnaro ilanı'); fiume-serbest-devleti (:16889) f → 1920-12-29 = carnaro t (rakip hükûmet kuralı; ic_not_f 'Rapallo 1920-11-12'); fiume t 1924-01-27 KALIR (ic_not '1924-03-16 fiilî ilhak'). Fiume (Rijeka): 1918-11-17 → 1919-09-12 s: italya BEYANLI (isg yok — EMRELİC); 1919-09-12 → 1920-12-29 carnaro-naiplik; 1920-12-29 → 1924-01-27 fiume-serbest-devleti; 1924-01-27 italya. Değişmez 2 (LAB ölçümü origin/main): 1924-01-27 VAR (kronoloji_sinir_nokta3.js); 1919-09-12 ve 1920-12-29 YOK → madde önerisi: 1919-09-12 'D'Annunzio Fiume'yi aldı', 1920-12-29 'Kanlı Noel sonu; D'Annunzio çekildi, Fiume Serbest Devleti'.",
+  "kunye": "carnaro-naiplik f 1920-09-08 → 1919-09-12 · fiume-serbest-devleti f 1920-11-12 → 1920-12-29",
+  "gun": "1920-12-29",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
+  "onay": "EMRELİC gece-125"
+ },
+ {
+  "d": "shs-devleti (YENİ KÜNYE — öncelikli)",
+  "tur": "YENİ KÜNYE + YERLESIM (atomik)",
+  "karar": "EMRELİC",
+  "islem": "🔴 EMRELİC gece-125: shs-devleti künyesi YERLEŞİMLERLE AYNI COMMIT'te açılır (aday listesinden çıkar). devletler.js'e yeni künye: id 'shs-devleti', ad 'Slovenler, Hırvatlar ve Sırplar Devleti (Država SHS)', f 1918-10-29 (Zagreb Saborı kopuşu), t 1918-12-01 (= yugoslavya f, bitişik), harita:'yugoslavya' (BOYALAR'a girmez → renkler.py DEĞİŞMEZ, motor tuzu yok — uret_petek.py:1140 harita: düşüşü), kaynak/ic_not ile. Yerleşimler: Benkovac, Maribor, Ptuj, Ston (KASA listesi) ve 1918-11-11 'yugoslavya' hayalet satırları (Dubiça, Brod, Ostrovica, Tuzla — KASA P019-P020) → 1918-10-29 → 1918-12-01 s: shs-devleti. habsburg t 1918-11-12 ↔ shs f 1918-10-29 (2 hafta): künyeler FARKLI topraklar için örtüşebilir (Avusturya-Alman toprağı 11-12'ye dek habsburg; Güney Slav toprakları 10-29'dan shs) — yerleşim kırılmaları 10-29'da (rakip hükûmet kuralı); Avusturya yerleşimleri değişmez. Değişmez 2 (LAB ölçümü origin/main): 1918-10-29 VAR (olaylar_ok109.js, olaylar_sessiz_borc_0919.js); 1918-12-01 VAR (5 dosya) — taraflarına shs-devleti eklenmeli.",
+  "kunye": "YENİ: shs-devleti 'Slovenler, Hırvatlar ve Sırplar Devleti (Država SHS)' f 1918-10-29 t 1918-12-01 harita:'yugoslavya'",
+  "gun": "1918-10-29",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
+  "onay": "EMRELİC gece-125"
+ },
+ {
+  "d": "filipin-malolos-cumhuriyeti (f)",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js filipin-malolos-cumhuriyeti (:18186) f → 1898-06-12 (bağımsızlık ilanı; Aguinaldo diktatoryal/devrimci hükûmeti aynı polity); ic_not_f '1898-05-24 diktatoryal hükûmet, 1898-06-23 devrimci hükûmet, 1899-01-23 Malolos anayasası'. Rakip hükûmet kuralı: devrimcilerin fiilen tuttuğu yerleşimler kendi günleriyle; İspanyol elindekiler 1898-12-10'a dek ispanyol-filipinler; Manila 1898-08-13 isg abd. Malolos (ve KASA listesi) 1898-12-10 → 1899-01-23 boşluğu kapanır. Değişmez 2 (LAB ölçümü): 1898-06-12 maddesi YOK → madde önerisi 'Aguinaldo Kawit'te Filipin bağımsızlığını ilan etti'.",
+  "kunye": "filipin-malolos-cumhuriyeti f 1899-01-23 → 1898-06-12",
+  "gun": "1898-06-12",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
+  "onay": "EMRELİC gece-125"
+ },
+ {
+  "d": "sirp-krajina-cumhuriyeti (t) / Vukovar",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js sirp-krajina-cumhuriyeti (:15999) t → 1996-01-15 (= dogu-slavonya-untaes f; Doğu Slavonya'da RSK sürdü — Erdut 1995-11-12 ic_not; ic_not_t '1995-08-07 Fırtına harekâtı: Knin Krajinası düştü'). Kninska Krajina yerleşimleri 1995-08-07'de hirvatistan'a (yerleşim düzeyinde, mevcut). Vukovar: 1991-11-18 → 1991-12-19 s: yugoslavya-federal BEYANLI (LAB ölçümü: yugoslavya-federal t 1992-04-27 kapsar) (SAO dilimi, EMRELİC), 1991-12-19 → 1996-01-15 sirp-krajina-cumhuriyeti, 1996-01-15 → 1998-01-15 dogu-slavonya-untaes, 1998-01-15 hirvatistan (LAB ölçümü: hirvatistan künyesi t 1991-07-07 — 1998 için ardıl hirvatistan id'si KASA ölçsün). Değişmez 2: 1996-01-15 VAR (kronoloji_sinir_halef_1923_2000.js).",
+  "kunye": "sirp-krajina-cumhuriyeti t 1995-08-07 → 1996-01-15",
+  "gun": "1996-01-15",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
+  "onay": "EMRELİC gece-125"
+ },
+ {
+  "d": "Tannu-Tuva (Uryanhay 1914-1921)",
+  "tur": "YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "Kızıl ve Uryanhay yerleşimleri: 1914-04-17 → 1921-08-14 s: yerli/rusya BEYANLI + v: rusya (himaye kuralı, EMRELİC gece-125; LAB ölçümü: künye id 'rusya' t 1917-03-15) → 1917-03-15 → 1917-11-07 v: rusya-gecici-hukumet (VAR, f 1917-03-15 t 1917-11-07 — bitişik) → 1917-11-07 sonrası v: sovyet-rusya yalnız fiilî Kızıl dönemde; araya giren el değiştirmeler (Beyaz/Çin/Moğol/Kızıl) isg dilimleri kaynakla; 1921-08-14 tannu-tuva. Değişmez 2 (LAB ölçümü): 1914-04-17 maddesi YOK → madde önerisi 'Uryanhay Rus himayesine alındı'.",
+  "kunye": "künye değişmez (tannu-tuva f 1921-08-14)",
+  "gun": "1914-04-17",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
+  "onay": "EMRELİC gece-125"
  }
 ]
