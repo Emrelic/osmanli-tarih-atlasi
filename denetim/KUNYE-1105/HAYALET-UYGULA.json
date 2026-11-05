@@ -856,5 +856,49 @@
   "islem": "LAB ölçümü: kanal-adalari 'Kanal Adaları (Jersey ve Guernsey Bailiwick'leri)' f 1204-01-01 (:16339) ↔ normandiya 'Normandiya Dükalığı' t 1204-06-24 (:13375) → 1204-01-01 → 06-23 ÖRTÜŞME (~6 ay). Adalar Normandiya dükalığının parçasıydı; ayrı birim anakara Normandiya'nın Fransa'ya kaybıyla (Rouen'in teslimi 1204-06-24) doğdu → kanal-adalari f → 1204-06-24 (bitişik). 🔴 ATOMİK (KASA ölçümü): Saint Helier (Jersey) ve Saint Peter Port (Guernsey) — yerlesimler_nokta2.js — s: kanal-adalari dilimleri 1204-01-01'de başlıyor → AYNI commit'te f 1204-06-24'e; 1204-01-01 → 1204-06-24 s: normandiya (t = ardıl f = 1204-06-24; dönemler yarı açık [f, t) — denetle degismez1: f ≤ gün < t; D1: dilim boş kalmaz).",
   "dayanak": "LAB ölçümü; EMRELİC gece-118 (KASA ON5 iletimi)",
   "onay": "EMRELİC gece-118 (yönlendirme) — LAB önerisi"
+ },
+ {
+  "d": "baku-hanligi (t)",
+  "tur": "KUNYE (+ KASA yerleşimleri aynı commit)",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js baku-hanligi t → 1806-10-15 (3 Ekim Eski Takvim = 15 Ekim Gregoryen, +12). ic_not_t: '3 Ekim 1806 (O.S.)'. ATOMİK: KASA'nın Bakü yerleşim önerileriyle AYNI commit (uç künye dışına taşıyor — ZEND-KAFKAS-UYGULA.md).",
+  "kunye": "baku-hanligi t 1806-10-03 → 1806-10-15",
+  "gun": "1806-10-15",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI ZEND-KAFKAS-ONERI.json (e034718aa) — alıntılar JSON'da; TDV",
+  "onay": "EMRELİC gece-120 (e)/(c) — ZEND-KAFKAS-UYGULA.md (9617597c2)"
+ },
+ {
+  "d": "sirvan-hanligi (f/t)",
+  "tur": "KUNYE (+ KASA yerleşimleri aynı commit)",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js sirvan-hanligi f → 1747-06-20 (Nâdir Şah'ın ölümü — ALT SINIR; ic_not_f '[Nâdir'in ölümü; hanlığın kuruluşu bu günden sonra]'), t → 1820-08-31 (TDV 19 Ağustos 1820 O.S. = 31 Ağustos Gregoryen; ic_not_t iki günüyle). ATOMİK: KASA'nın Şamahı vb. yerleşim önerileriyle AYNI commit.",
+  "kunye": "sirvan-hanligi f 1748-01-01 → 1747-06-20 · t 1820-01-01 → 1820-08-31",
+  "gun": "1747-06-20",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI ZEND-KAFKAS-ONERI.json (e034718aa) — alıntılar JSON'da; TDV",
+  "onay": "EMRELİC gece-120 (e)/(c) — ZEND-KAFKAS-UYGULA.md (9617597c2)"
+ },
+ {
+  "d": "kumuk-samhalligi (t)",
+  "tur": "KUNYE (+ KASA yerleşimleri aynı commit)",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js kumuk-samhalligi (:9594) t → 1867-01-01 + '[yalnız yıl — Rus idaresince ilga; gün bulunamadı]'. ic_not: '1725 Rus müdahalesi (kesinti); 1734 Nâdir şamhalı yeniden tahta çıkardı (TDV KUMUKLAR); 1813 Gülistan → Rus tâbiliği'. 1725-1734 dilimi isg rusya (alt s: kumuk-samhalligi) BEYANLI. ATOMİK: KASA yerleşim önerileriyle aynı commit; 'Tarki künye gelene kadar bekler' (EMRELİC (e)) — Tarki yerleşim satırları KASA'da.",
+  "kunye": "kumuk-samhalligi t 1726-01-01 → 1867-01-01 [yalnız yıl]",
+  "gun": "1867-01-01",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI ZEND-KAFKAS-ONERI.json (e034718aa) — alıntılar JSON'da; TDV",
+  "onay": "EMRELİC gece-120 (e)/(c) — ZEND-KAFKAS-UYGULA.md (9617597c2)"
+ },
+ {
+  "d": "derbent-hanligi (t)",
+  "tur": "KUNYE (+ KASA yerleşimleri aynı commit)",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js derbent-hanligi (:17512) t → 1759-09-01 + '[yalnız ay — TDV: 1759 sonbaharı Feth Ali Han Derbend'i Kuba'ya kattı]'; ic_not 'ru.wiki 1765 (ikincil — tek dayanak olamaz)'. Derbent 1759-09-01'den s: kuba-hanligi (ilhak — KASA TDV okuması; EMRELİC'e teyit soruldu). Kuba sonrası 1806 Rus işgali kuba-hanligi zincirinde.",
+  "kunye": "derbent-hanligi t 1806-01-01 → 1759-09-01 [yalnız ay]",
+  "gun": "1759-09-01",
+  "guc": "ORTA",
+  "dayanak": "KASA SALI ZEND-KAFKAS-ONERI.json (e034718aa) — alıntılar JSON'da; TDV",
+  "onay": "EMRELİC gece-120 (e)/(c) — ZEND-KAFKAS-UYGULA.md (9617597c2)"
  }
 ]
