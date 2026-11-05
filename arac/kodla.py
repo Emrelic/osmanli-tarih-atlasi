@@ -195,6 +195,32 @@ def _havuz_kodla(havuz_metni):
     return govde, len(halkalar), sum(len(h) for h in halkalar)
 
 
+def _havuz_metin_parcalari(b):
+    """`_havuz_metinle(b)` ile BİREBİR aynı metni parça parça verir (birleşimi = o metin).
+    Kapı yalnız sha256 ister; 100 MB'lık metni tek dizgide kurmak gerekmez
+    (5 Kasım 2026, KASA MemoryError — ufuk_bant)."""
+    if YUVA:
+        n, k = _oku(b, 0)
+        sayilar = []
+        for _ in range(n):
+            v, k = _oku(b, k)
+            sayilar.append(v)
+        halkalar = _coz_havuz(b[k:])
+        yield "["
+        j = 0
+        for x, n in enumerate(sayilar):
+            yield ("," if x else "") + _metinle(halkalar[j:j + n])
+            j += n
+        yield "]"
+        return
+    halkalar = _coz_havuz(b)
+    yield "["
+    for x, nk in enumerate(halkalar):
+        yield ("," if x else "") + "[" + ",".join(
+            "[%s,%s]" % (_sayi(p), _sayi(q)) for p, q in nk) + "]"
+    yield "]"
+
+
 def _havuz_metinle(b):
     """İkili akış → havuz metni (özgün biçimiyle, birebir)."""
     if YUVA:
@@ -288,7 +314,13 @@ def _coz_havuz(b):
     if i != len(b):
         raise ValueError("akış sonunda %d bayt arttı — biçim uyuşmuyor"
                          % (len(b) - i))
-    return [[tuple(p) for p in h] for h in halkalar]
+    # 🟢 5 Kasım 2026 (KASA PAZAR): YERİNDE dönüştürme — eskiden bütün yapının
+    # ikinci bir kopyası kuruluyordu ([[tuple(p) …] …]); ufuk_bant havuzunda
+    # (82 MB akış) tepe bellek ikiye katlanıp KASA'da MemoryError veriyordu
+    # (denetle_yayin "kodlama kapısı ÖLÇEMEDİ:" boş mesaj). Çıktı birebir aynı.
+    for h in halkalar:
+        h[:] = [tuple(p) for p in h]
+    return halkalar
 
 
 def _bolumle(metin):
@@ -1030,8 +1062,18 @@ def kapi(dizin, hedef=None):
         if not sha:
             return True, ["✗  kodlama kapısı: %s içinde %s YOK — asıl dosyanın "
                           "damgası olmadan doğrulanamaz" % (DP_JS, SHA_ADI)]
-        metin = onek + _havuz_metinle(havuz_b) + sonek
-        yeni = hashlib.sha256(metin.encode("utf-8")).hexdigest()
+        # 🟢 5 Kasım 2026: özet PARÇA PARÇA (bellek). Küresel taraması önek +
+        # sonek + her havuz parçası üzerinde — birleşik metindekiyle aynı küme.
+        _hs = hashlib.sha256()
+        _hs.update(onek.encode("utf-8"))
+        _havuz_kuresel = set()
+        for _parca in _havuz_metin_parcalari(havuz_b):
+            _hs.update(_parca.encode("utf-8"))
+            if "window." in _parca:
+                _havuz_kuresel |= set(KURESEL.findall(_parca))
+        _hs.update(sonek.encode("utf-8"))
+        yeni = _hs.hexdigest()
+        metin = onek + "\n" + sonek
         if yeni == sha:
             # ── 🔴 KÜRESEL KAPSAMA — metin doğru ama TARAYICI EKSİK GÖREBİLİR ──
             # 29 Eylül 2026 vakası: donemler.js'te SERBEST · SERBEST_U ·
@@ -1043,7 +1085,7 @@ def kapi(dizin, hedef=None):
             # ⇒ Bu blok o ikinci soruyu sorar. Özgün metindeki her `window.X`
             #   adı, yayınlanan ÇALIŞAN dosyalardan birinde bulunmalıdır.
             #   Havuzun kendi adı muaftır: onu geo_coz.js kurar.
-            bekl = set(KURESEL.findall(metin))
+            bekl = set(KURESEL.findall(metin)) | _havuz_kuresel
             havuz_kuresel = HAVUZ_ADI.strip().split("=")[0].strip()[len("window."):]
             bekl.discard(havuz_kuresel)
             var = set()
