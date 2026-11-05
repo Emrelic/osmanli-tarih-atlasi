@@ -4,7 +4,9 @@
   "kural": "EMRELİC gece-109 + gece-111 + LAB SALI gece-111 cevabı; E4-HAVVA-BRIF 6b/6c/6e",
   "alinti_kaynagi": "Bütün alıntılar arac\\sayfa.py ham çıktısından (scratchpad\\k\\sayfalar\\*.txt), boşluk tekleştirildi. ru.wikipedia yalnız İPUCU: hiçbir satır yalnız ru'ya dayanarak KAYNAKLI değildir.",
   "takvim": "Rus günü O.S.→N.S. (+12, 1800-1900; +11, 1700-1800) çevrildi; iki gün not'ta.",
-  "kapsam": "33 yerleşim (28 + sinir_kuzey 3 + ek değil: 28'e Kuba, Şeki, Gence, Nahçıvan, Lenkeran dahil). Zincir 1747-1830; öncesi yalnız Tarki/Mahmudâbâd/Salyan için not.",
+  "kapsam": "33 yerleşim = düzeltilmiş ZEND-KAFKAS-TARAMA.tsv (yerlesimler.js 30 + sinir_kuzey.js 3). Zincir 1747-1830.",
+  "kural_ek": "EMRELİC (koordinatör aktarımı): sahipsiz dilim açılmaz; künyesiz yerel sahip s:'de yazılmaz → önceki sahip afsar (künye →1796-01-01) korunur, aday YENI-KUNYE-ADAY'a; künyesiz v: yazılmaz (alan 'v-ADAY'). Savaş işgali (1796-97 Zubov, 1812-13 Lenkeran, 1827-28) Revan şehir kaydı modeliyle isg: katmanında; ilhak/ilga anında s:.",
+  "katman": "alan: s | v | isg | 'v-ADAY (YAZILMAZ)'",
   "tarayici_ssl": [],
   "erisilemeyen": [
    "iranica: talesh, ardabil, urmia, tabriz, qobba, torkamancay, daghestan, nakhchivan, salyan (404 tahmin slug)",
@@ -85,7 +87,7 @@
     }
    ],
    "kunye_duzeltme": [
-    "kumuk-samhalligi t 1726-01-01 → 1867-01-01 GENİŞLET (1726-1734 Rus işgali ara kesinti; yerleşimde rusya 1726→1735 dilimi zaten var)"
+    "kumuk-samhalligi t 1726-01-01 → 1867-01-01 GENİŞLET (1726-1734 Rus işgali ara kesinti; yerleşimde rusya 1726→1735 dilimi zaten var). Genişletme gelmeden uygulanırsa: 1747-06-20→1796-01-01 s: afsar korunur (BEYANLI), 1796-01-01 sonrası künyeli sahip yok → bu yerleşimin uygulaması künye kararına BAĞLI."
    ],
    "yeni_kunye_aday": [],
    "kronoloji_gerekli": [
@@ -161,36 +163,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
-     "t": "1757-06-01",
-     "hukum": "KAYNAKLI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
-     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI."
-    },
-    {
-     "alan": "v",
-     "d": "kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)",
-     "f": "1757-06-01",
-     "t": "1759-02-14",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
-     "not": "Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu."
-    },
-    {
-     "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
-     "f": "1759-02-14",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
+     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd. ‖ In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
     },
     {
      "alan": "s",
@@ -205,28 +185,28 @@
     },
     {
      "alan": "s",
-     "d": "sekaki/dunbuli (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1790-01-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/aga-muhammed-sah",
      "alinti": "The Donbolis maintained a functionally independent administration as one of the leading powers of Azarbaijan from 1779 until 1792 ‖ Azerbaycan’daki hanların en kuvvetlisi ve Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî’yi yenip kaçmaya mecbur ettikten sonra Azerbaycan eyaletini Dünbülî Hüseyin Han’a verdi.",
-     "not": "Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (sekaki/dunbuli (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
     },
     {
      "alan": "s",
      "d": "kacar",
      "f": "1790-01-01",
-     "t": "1827-10-25",
-     "hukum": "KAYNAKLI",
+     "t": "1925-10-31",
+     "hukum": "ONERI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/tebriz",
      "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828).",
      "not": "f: TDV '1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz' (yıl). Mevcut kacar f 1794-01-01 → 1790-01-01. Künye kacar f 1789-03-21 kapsıyor."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-10-25",
      "t": "1828-02-22",
@@ -235,17 +215,6 @@
      "kaynak": "https://islamansiklopedisi.org.tr/tebriz",
      "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828).",
      "not": "EK BULGU (Değişmez 2 yükü): TDV 'Ekim 1827’de Rus işgaline uğradıysa da Türkmençay … geri alındı (Şubat 1828)' (ay). Gün: Rus giriş 13 Ekim 1827 O.S. → 25 Ekim N.S. İPUCU (kaynak okunmadı) → ay hassasiyeti 1827-10-01 de olur. Rus tahliyesi fiilen tazminat ödemesinden sonra (gün BULUNAMADI); t=Türkmençay BEYANLI."
-    },
-    {
-     "alan": "s",
-     "d": "kacar",
-     "f": "1828-02-22",
-     "t": "1925-10-31",
-     "hukum": "ONERI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/tebriz",
-     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828).",
-     "not": ""
     }
    ],
    "yeni_kunye_aday": [
@@ -272,18 +241,6 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": true
-    },
-    {
-     "t": "1757-06-01",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han Âzâd Han'ı yenip Tebriz ve Urmiye'yi aldı",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1759-02-14",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han öldürüldü; Azerbaycan'da yerel hanlar",
-     "evren_maddesi_var": false
     },
     {
      "t": "1763-02-01",
@@ -377,7 +334,7 @@
      "alan": "s",
      "d": "nahcivan-hanligi",
      "f": "1747-06-20",
-     "t": "1827-07-08",
+     "t": "1828-02-22",
      "hukum": "KAYNAKLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
@@ -396,15 +353,26 @@
      "not": "f: TDV '1797’den başlayarak … İran’a bağımlı' (yıl). Mevcut s: kacar 1794-01-01 → v: kacar 1797-01-01. ru ipucu: Nahçıvan 1808-1810 Rus tarafında — ic_not, teyitsiz."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-07-08",
-     "t": "1917-03-15",
+     "t": "1828-02-22",
      "hukum": "ONERI",
      "uc": "f",
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
      "alinti": "ханство было занято войсками генерала И. Ф. Паскевича , который 26 июня 1827 года вступил в Нахичевань",
-     "not": "Türkmençay 1828-02-22 ic_not."
+     "not": "Revan şehir kaydının modeli (isg: rusya 1827-10-13→1828-02-22, s: Türkmençay'da) izlendi: savaş işgali, hanlık 1828'de ilga (TDV). Alternatif (gece-111 'fiilî alış' katı okuma): s: rusya 1827-07-08."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
+     "t": "1917-03-15",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/nahcivan",
+     "alinti": "Nâdir Şah’ın ölümünden sonra Nahcıvan şehri bu dönemde ortaya çıkan Nahcıvan Hanlığı’nın Rusya’ya ilhakına kadar (1828) bu hanlığın merkezi oldu.",
+     "not": "Türkmençay 22 Şubat 1828 (TDV talis-hanligi günü) — Nahçıvan gerçekten bu antlaşmayla devredildi; işgal isg'de."
     }
    ],
    "yeni_kunye_aday": [],
@@ -439,6 +407,195 @@
      "var_olan": [],
      "b_taslak": "Paskeviç Nahçıvan'a girdi",
      "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
+    }
+   ]
+  },
+  {
+   "ad": "Tiflis",
+   "dosya_satir": "data/yerlesimler.js:793",
+   "mevcut_zincir": [],
+   "oneri_zincir": [],
+   "not": "Tiflis: mevcut zincir kartli-kralligi 1747-06-20→1762-01-01, gurcistan 1762→1801-09-12, rusya — zend/kacar yok, DEĞİŞİKLİK ÖNERİLMEDİ. Ağa Muhammed Han'ın Eylül 1795 Tiflis yağması (Iranica russia-i '1795 … attacked Georgia and sacked Tbilisi') kısa sefer → dilim yazılmaz; 1796-97 Rus kuvvetleri zaten Gürcü müttefiki.",
+   "yeni_kunye_aday": [],
+   "kronoloji_gerekli": []
+  },
+  {
+   "ad": "Revan",
+   "dosya_satir": "data/yerlesimler.js:803",
+   "mevcut_zincir": [
+    {
+     "alan": "s",
+     "d": "revan-hanligi",
+     "f": "1747-06-20",
+     "t": "1828-02-22"
+    }
+   ],
+   "oneri_zincir": [
+    {
+     "alan": "s",
+     "d": "revan-hanligi",
+     "f": "1747-06-20",
+     "t": "1828-02-22",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Bu sırada Pîr Mahmud Han, Revan hanı tayin edilmişti; 1747’de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı oluşturdu.",
+     "not": "MEVCUT, değişmez (s: + isg: rusya 1827-10-13→1828-02-22 + s: rusya 1828-02-22)."
+    },
+    {
+     "alan": "v",
+     "d": "gurcistan",
+     "f": "1751-01-01",
+     "t": "1795-01-01",
+     "hukum": "ONERI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Gürcü ordusu Mîr Mehdî Han’ı 1751’de yenince Revan hanları Gürcüler’e bağımlı hale geldi.",
+     "not": "EK öneri: mevcut v: boş. Gürcü bağımlılığı (TDV yıl)."
+    },
+    {
+     "alan": "v",
+     "d": "kacar",
+     "f": "1795-01-01",
+     "t": "1827-10-13",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "1795’te Ağa Muhammed Han kardeşi Ali Kulı’yı 20.000 kişilik bir ordu ile Revan’a gönderdi ve burayı aldı.",
+     "not": "EK öneri: Kaçar tâbiliği (TDV yıl). Köyler (sinir_kuzey 29-31) aynı zinciri izler."
+    },
+    {
+     "alan": "isg",
+     "d": "rusya",
+     "f": "1827-10-13",
+     "t": "1828-02-22",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827).",
+     "not": "MEVCUT."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
+     "t": "1917-03-15",
+     "hukum": "KAYNAKLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Hemen ardından çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi",
+     "not": "MEVCUT."
+    }
+   ],
+   "yeni_kunye_aday": [],
+   "kronoloji_gerekli": [
+    {
+     "t": "1747-06-20",
+     "var_olan": [
+      {
+       "t": "1747-06-20",
+       "yer": "kronoloji_iran.js:248",
+       "b": "Nadir Şah suikastla öldürüldü",
+       "fark_gun": 0
+      },
+      {
+       "t": "1747-06-20",
+       "yer": "olaylar_ek11.js:211",
+       "b": "Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
+    },
+    {
+     "t": "1751-01-01",
+     "var_olan": [
+      {
+       "t": "1751-01-01",
+       "yer": "kronoloji_cok_gurcistan.js:172",
+       "b": "Gürcü ordusu Revan Hanı Mîr Mehdî'yi yendi — Revan hanları Gürcülere bağımlı oldu",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": false
+    },
+    {
+     "t": "1795-01-01",
+     "var_olan": [
+      {
+       "t": "1795-01-01",
+       "yer": "kronoloji_gurcistan.js:270",
+       "b": "Ağa Muhammed Han'ın Tiflis'i tamamen tahrip etmesi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": false
+    },
+    {
+     "t": "1827-10-13",
+     "var_olan": [
+      {
+       "t": "1827-10-13",
+       "yer": "kronoloji_cok_ermeni.js:84",
+       "b": "Paskeviç Revan Kalesi'ni aldı",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
     }
    ]
   },
@@ -476,15 +633,15 @@
      "alan": "s",
      "d": "gence-hanligi",
      "f": "1747-06-20",
-     "t": "1796-12-24",
+     "t": "1804-01-15",
      "hukum": "KAYNAKLI",
      "uc": "t",
      "kaynak": "https://islamansiklopedisi.org.tr/gence",
      "alinti": "3 Ocak 1804’te Cevâd Han şehid düştü; Ruslar’ın eline geçen Gence büyük bir katliama mâruz kaldı.",
-     "not": "Mevcut zincir doğru: gence-hanligi → 1804-01-15 (TDV 3 Ocak 1804 O.S. → 15 Ocak N.S.). EK BULGU (ONERI): 1796-12-24 → 1797-02-16 Rimski-Korsakov Gence'yi işgal (ru ipucu) — kısa rusya dilimi; akademik teyit gerek."
+     "not": "Mevcut zincir doğru: gence-hanligi → 1804-01-15 (TDV 3 Ocak 1804 O.S. → 15 Ocak N.S.). EK BULGU (ONERI): 1796-12-24 → 1797-02-16 Rimski-Korsakov Gence'yi işgal (ru ipucu) — kısa rusya dilimi; akademik teyit gerek. ‖ BİRLEŞEN DİLİM: TDV 3 Ocak 1804 → 1804-01-15 N.S. (mevcut)."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-12-24",
      "t": "1797-02-16",
@@ -493,17 +650,6 @@
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "13 (24) декабря отряд генерал-майора Римского-Корсакова занял Гянджу. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "Yalnız ipucu; teyit gelmezse yazılmaz."
-    },
-    {
-     "alan": "s",
-     "d": "gence-hanligi",
-     "f": "1797-02-16",
-     "t": "1804-01-15",
-     "hukum": "KAYNAKLI",
-     "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/gence",
-     "alinti": "3 Ocak 1804’te Cevâd Han şehid düştü; Ruslar’ın eline geçen Gence büyük bir katliama mâruz kaldı.",
-     "not": "TDV 3 Ocak 1804 → 1804-01-15 N.S. (mevcut)."
     }
    ],
    "yeni_kunye_aday": [],
@@ -603,15 +749,15 @@
      "alan": "s",
      "d": "sirvan-hanligi",
      "f": "1789-01-01",
-     "t": "1796-10-18",
+     "t": "1820-08-31",
      "hukum": "ONERI",
-     "uc": "f",
+     "uc": "f+t",
      "kaynak": "https://islamansiklopedisi.org.tr/sirvan",
-     "alinti": "Feth Ali Han’ın 1789’da ölümünün ardından yerine oğlu Ahmed Han’ın (daha sonra Şeyh Ali) geçmesi üzerine vaktiyle Osmanlı Devleti’ne sığınmış olan Esger Bey, Kasım Bey ve Mustafa Bey, Şeki Hanı Muhammed Hasan Han’ın yardımıyla Şirvan’ı zaptetti.",
-     "not": "Mustafa Han dönemi. 1794-95 Kaçar baskısı (Mustafa Fit dağına çekildi) → kacar dilimi KAYNAKSIZ, SİLİNİR."
+     "alinti": "Feth Ali Han’ın 1789’da ölümünün ardından yerine oğlu Ahmed Han’ın (daha sonra Şeyh Ali) geçmesi üzerine vaktiyle Osmanlı Devleti’ne sığınmış olan Esger Bey, Kasım Bey ve Mustafa Bey, Şeki Hanı Muhammed Hasan Han’ın yardımıyla Şirvan’ı zaptetti. ‖ Ermolov’un askerî baskısı Mustafa Han’ı 19 Ağustos 1820’de İran’a sığınmaya mecbur etti.",
+     "not": "Mustafa Han dönemi. 1794-95 Kaçar baskısı (Mustafa Fit dağına çekildi) → kacar dilimi KAYNAKSIZ, SİLİNİR. ‖ BİRLEŞEN DİLİM: t: TDV 19 Ağustos 1820 (Ermolov raporu, O.S.) → 1820-08-31 N.S. — gün çevrildiği için katı okumada ONERI; künye sirvan-hanligi t 1820-01-01 → 1820-08-31 düzelt."
     },
     {
-     "alan": "v",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-10-18",
      "t": "1797-02-16",
@@ -620,17 +766,6 @@
      "kaynak": "https://islamansiklopedisi.org.tr/sirvan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "Rus ordu kumandanı Zubov, Bakü’den sonra 7 Ekim 1796’da Yeni Şemâhî’ye ulaştı. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "TDV 7 Ekim 1796 (Rus belgesine dayalı, O.S. varsayıldı → 1796-10-18). 🔴 Yer farkı: Zubov YENİ Şemâhî'ye (Aksu) ulaştı; atlas noktası Eski Şamahı. Rusların Kasım Han'ı hân atadığı (TDV) → v: ONERI; s: sirvan sürer."
-    },
-    {
-     "alan": "s",
-     "d": "sirvan-hanligi",
-     "f": "1797-02-16",
-     "t": "1820-08-31",
-     "hukum": "KAYNAKLI",
-     "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/sirvan",
-     "alinti": "Ermolov’un askerî baskısı Mustafa Han’ı 19 Ağustos 1820’de İran’a sığınmaya mecbur etti.",
-     "not": "t: TDV 19 Ağustos 1820 (Ermolov raporu, O.S.) → 1820-08-31 N.S. — gün çevrildiği için katı okumada ONERI; künye sirvan-hanligi t 1820-01-01 → 1820-08-31 düzelt."
     },
     {
      "alan": "v",
@@ -656,7 +791,7 @@
     }
    ],
    "kunye_duzeltme": [
-    "sirvan-hanligi f 1748-01-01 → 1747-06-20 GENİŞLET",
+    "sirvan-hanligi f 1748-01-01 → 1747-06-20 GENİŞLET (genişletilmezse yeni kural: 1747-06-20→1748-01-01 s: afsar korunur, BEYANLI)",
     "sirvan-hanligi t 1820-01-01 → 1820-08-31"
    ],
    "yeni_kunye_aday": [],
@@ -758,15 +893,15 @@
      "alan": "s",
      "d": "baku-hanligi",
      "f": "1747-06-20",
-     "t": "1796-06-26",
+     "t": "1806-10-15",
      "hukum": "BEYANLI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/baku",
-     "alinti": "Bağımsız Bakü Hanlığı kurulduğunda (1747) hanlığın merkezi yapılan şehir 1806-1813 Rus-İran savaşları sonunda imzalanan Gülistan Antlaşması (1813) ile kesin olarak Rusya’ya geçti",
-     "not": "f: TDV hanlığı yalnız YIL ile verir (1747); f=Nadir'in ölümü 1747-06-20 BEYANLI (ru ipucu ilk han Mirza Muhammed I 1748). Künye baku-hanligi f 1747-01-01 kapsıyor. ‖ v: kuba-hanligi bağlılığı (TDV kuba 'dolaylı olarak') YILSIZ → yazılmadı, BULUNAMADI."
+     "uc": "f+t",
+     "kaynak": "https://islamansiklopedisi.org.tr/baku | https://www.iranicaonline.org/articles/baku-pers (Baku i. General) | ru.wikipedia (İPUCU, kaynak değil): Бакинское ханство",
+     "alinti": "Bağımsız Bakü Hanlığı kurulduğunda (1747) hanlığın merkezi yapılan şehir 1806-1813 Rus-İran savaşları sonunda imzalanan Gülistan Antlaşması (1813) ile kesin olarak Rusya’ya geçti ‖ Definitive Russian annexation, carried out in October, 1806, was ratified in 1813 by the Treaty of Golestān . ‖ 3 октября 1806 года российские войска захватили Баку, а Хусейн Кули-хан бежал в Персию.",
+     "not": "f: TDV hanlığı yalnız YIL ile verir (1747); f=Nadir'in ölümü 1747-06-20 BEYANLI (ru ipucu ilk han Mirza Muhammed I 1748). Künye baku-hanligi f 1747-01-01 kapsıyor. ‖ v: kuba-hanligi bağlılığı (TDV kuba 'dolaylı olarak') YILSIZ → yazılmadı, BULUNAMADI. ‖ BİRLEŞEN DİLİM: t: Iranica 'October, 1806' (ay, KAYNAKLI düzeyinde); gün ru ipucu '3 октября 1806' O.S. → 1806-10-15 N.S. ⇒ ONERI. 🔴 Künye baku-hanligi t 1806-10-03 O.S. görünüyor → 1806-10-15'e düzelt (künye satırı). 1794-1813 kacar dilimi SİLİNİR: Kaçar idaresine kaynak yok (TDV/Iranica)."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-06-26",
      "t": "1797-02-16",
@@ -775,17 +910,6 @@
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "15 и 16 (26 и 27) июня русские войска без боя вступили в Баку и Кубу. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "1796 Zubov seferi: 15 (26) Haziran 1796 O.S./N.S. Bakü'ye giriş; 5 (16) Şubat 1797 Kafkasya'dan tam çekiliş. Dayanak yalnız ru.wikipedia (İPUCU) → ONERI; akademik teyit gerek (Atkin 1980; Bournoutian). Han yerinde kaldıysa s: baku + v: rusya alternatifi. TDV sirvan '1797 yazında Rus orduları Azerbaycan'dan çekilince' der — çekiliş ayı çelişkili, ic_not'a iki kaynak."
-    },
-    {
-     "alan": "s",
-     "d": "baku-hanligi",
-     "f": "1797-02-16",
-     "t": "1806-10-15",
-     "hukum": "ONERI",
-     "uc": "t",
-     "kaynak": "https://www.iranicaonline.org/articles/baku-pers (Baku i. General) | ru.wikipedia (İPUCU, kaynak değil): Бакинское ханство",
-     "alinti": "Definitive Russian annexation, carried out in October, 1806, was ratified in 1813 by the Treaty of Golestān . ‖ 3 октября 1806 года российские войска захватили Баку, а Хусейн Кули-хан бежал в Персию.",
-     "not": "t: Iranica 'October, 1806' (ay, KAYNAKLI düzeyinde); gün ru ipucu '3 октября 1806' O.S. → 1806-10-15 N.S. ⇒ ONERI. 🔴 Künye baku-hanligi t 1806-10-03 O.S. görünüyor → 1806-10-15'e düzelt (künye satırı). 1794-1813 kacar dilimi SİLİNİR: Kaçar idaresine kaynak yok (TDV/Iranica)."
     },
     {
      "alan": "s",
@@ -894,15 +1018,15 @@
      "alan": "s",
      "d": "kuba-hanligi",
      "f": "1759-09-01",
-     "t": "1796-05-21",
+     "t": "1806-07-01",
      "hukum": "ONERI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/kuba--azerbaycan",
-     "alinti": "Şehir 1759 sonbaharında Kuba Hanı Feth Ali Han’ın idaresi altına girdi. 1796’ya kadar Kuba hanlarının hâkimiyetinde kaldıktan sonra ‖ Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti.",
-     "not": "İlhak (TDV 'idaresi altına girdi'; ru 'присоединили … к своим владениям'). Derbend ayrı hanlık olarak yeniden 1796-97 ve 1799-1802 (Hasan Ağa; ru ipucu) — yalnız ipucu, yazılmadı, ic_not."
+     "uc": "f+t",
+     "kaynak": "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+     "alinti": "Şehir 1759 sonbaharında Kuba Hanı Feth Ali Han’ın idaresi altına girdi. 1796’ya kadar Kuba hanlarının hâkimiyetinde kaldıktan sonra ‖ Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ Katerina’nın ölümü üzerine burayı boşaltan Ruslar 1806’da yeniden şehri işgal ettiler. ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
+     "not": "İlhak (TDV 'idaresi altına girdi'; ru 'присоединили … к своим владениям'). Derbend ayrı hanlık olarak yeniden 1796-97 ve 1799-1802 (Hasan Ağa; ru ipucu) — yalnız ipucu, yazılmadı, ic_not. ‖ BİRLEŞEN DİLİM: t: TDV 1806 (yıl); ru ipucu 'летом 1806' (yaz) → gün BULUNAMADI; yaz başı 1806-07-01 BEYANLI seçildi (YYYY-01-01 kuralı Bakü'den önceye düşmesine rağmen 1806-01-01 de savunulabilir — EMRELİC karar). 1794-1813 kacar SİLİNİR."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-05-21",
      "t": "1797-02-16",
@@ -911,17 +1035,6 @@
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "10 (21) мая Шейх-Али-хан был вынужден сдаться . Правительницей Дербента была назначена его сестра Пери-Джахан-ханум ‖ Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "TDV kuba '1796 Mayısında Derbend’i' (ay KAYNAKLI); gün ru ipucu 10 (21) Mayıs 1796 → ONERI. Pery-Cihan Hanım Ruslarca hâkim atandı (ru)."
-    },
-    {
-     "alan": "s",
-     "d": "kuba-hanligi",
-     "f": "1797-02-16",
-     "t": "1806-07-01",
-     "hukum": "ONERI",
-     "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
-     "alinti": "Katerina’nın ölümü üzerine burayı boşaltan Ruslar 1806’da yeniden şehri işgal ettiler. ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
-     "not": "t: TDV 1806 (yıl); ru ipucu 'летом 1806' (yaz) → gün BULUNAMADI; yaz başı 1806-07-01 BEYANLI seçildi (YYYY-01-01 kuralı Bakü'den önceye düşmesine rağmen 1806-01-01 de savunulabilir — EMRELİC karar). 1794-1813 kacar SİLİNİR."
     },
     {
      "alan": "s",
@@ -1223,15 +1336,15 @@
      "alan": "s",
      "d": "kuba-hanligi",
      "f": "1747-06-20",
-     "t": "1796-06-27",
+     "t": "1806-10-15",
      "hukum": "BEYANLI",
      "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan",
-     "alinti": "Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti.",
-     "not": "ABİ MERKEZ: Kuba — Şâbüran Kuba hanlığı arazisinde (TDV kuba: kazalar 'Derbend’le Bakü arasındaki arazi'). BEYANLI YAKLAŞIKLIK. f değişmez (künye f 1735). t: TDV '1796 Mayısında Derbend’i, az sonra da Kuba’yı' (ay yok) → gün ru ipucu 16 (27) Haziran 1796."
+     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+     "alinti": "Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ Rusya’nın İran’a karşı 1805’te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
+     "not": "ABİ MERKEZ: Kuba — Şâbüran Kuba hanlığı arazisinde (TDV kuba: kazalar 'Derbend’le Bakü arasındaki arazi'). BEYANLI YAKLAŞIKLIK. f değişmez (künye f 1735). t: TDV '1796 Mayısında Derbend’i, az sonra da Kuba’yı' (ay yok) → gün ru ipucu 16 (27) Haziran 1796. ‖ BİRLEŞEN DİLİM: t: TDV 1806 (yıl); ru ipucu 'Bakü'yü (3 Ekim 1806 O.S.) … sonra Kuba'yı' → Bakü günü 1806-10-15 ALT SINIR BEYANLI; gerçek gün BULUNAMADI. ru ipucu: 1808-1810 Kuba 'resmen hanlık' (divan) — ic_not."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-06-27",
      "t": "1797-02-16",
@@ -1240,17 +1353,6 @@
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "15 и 16 (26 и 27) июня русские войска без боя вступили в Баку и Кубу. ‖ Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "1796-97 Zubov işgali."
-    },
-    {
-     "alan": "s",
-     "d": "kuba-hanligi",
-     "f": "1797-02-16",
-     "t": "1806-10-15",
-     "hukum": "BEYANLI",
-     "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
-     "alinti": "Rusya’nın İran’a karşı 1805’te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
-     "not": "t: TDV 1806 (yıl); ru ipucu 'Bakü'yü (3 Ekim 1806 O.S.) … sonra Kuba'yı' → Bakü günü 1806-10-15 ALT SINIR BEYANLI; gerçek gün BULUNAMADI. ru ipucu: 1808-1810 Kuba 'resmen hanlık' (divan) — ic_not."
     },
     {
      "alan": "s",
@@ -1343,14 +1445,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "salyan-sultanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1759-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство",
      "alinti": "Taliş dağları, Hazar denizi ve Mugan çölü arasında kurulmuş olup Gîlân, Erdebil, Karadağ, Cevad hanlıkları ve Salyan Sultanlığı ile sınırdaştı. ‖ после покорения Сальянов в 1759 году , Фатали-хан переселил в ханство из Муганской степи несколько шахсевенов .",
-     "not": "ABİ MERKEZ: Salyan — Mahmudâbâd Kura ağzında Salyan sultanlığı arazisi (LAB SALI gece-111: 'Mahmudâbâd'a da aynı zincir'); bağı gösteren akademik kaynak BULUNAMADI. BEYANLI YAKLAŞIKLIK. YENI-KUNYE-ADAY. TDV talis-hanligi 'Salyan Sultanlığı' adını verir (yılsız). t: ru ipucu 'покорения Сальянов в 1759 году' (Feth Ali) — LAB SALI ~1768 tahmini ile ÇELİŞİR; TDV kuba 'Kuba, Salyan … doğrudan doğruya veya dolaylı olarak' (ilhak/vasallık ayırt edilmiyor) → BEYANLI."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (salyan-sultanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Salyan — Mahmudâbâd Kura ağzında Salyan sultanlığı arazisi (LAB SALI gece-111: 'Mahmudâbâd'a da aynı zincir'); bağı gösteren akademik kaynak BULUNAMADI. BEYANLI YAKLAŞIKLIK. YENI-KUNYE-ADAY. TDV talis-hanligi 'Salyan Sultanlığı' adını verir (yılsız). t: ru ipucu 'покорения Сальянов в 1759 году' (Feth Ali) — LAB SALI ~1768 tahmini ile ÇELİŞİR; TDV kuba 'Kuba, Salyan … doğrudan doğruya veya dolaylı olarak' (ilhak/vasallık ayırt edilmiyor) → BEYANLI."
     },
     {
      "alan": "s",
@@ -1365,14 +1467,14 @@
     },
     {
      "alan": "s",
-     "d": "salyan-sultanligi (YENI-KUNYE-ADAY)",
+     "d": "talis-hanligi",
      "f": "1789-01-01",
      "t": "1806-10-15",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Талышское ханство",
      "alinti": "Он сумел установить свою власть в северном Талыше , от Сальяна до Диначала [англ.] , и провозгласил свою независимость.",
-     "not": "1789-1806 BULUNAMADI: Talış Mîr Mustafa 'Сальяна' kuzey Talış'ı tuttu (ipucu), 1805-06'da Şirvanlı Mustafa Han Salyan'ı aldı (ru ipucu). Sahip kaynakla belirlenemedi; yerel sultanlık BEYANLI. t: Bakü/Kuba fiilî alışına bağlandı (BEYANLI)."
+     "not": "afsar künyesi 1796-01-01'de bittiği için önceki sahip korunamaz; künyesi olan en yakın aday talis-hanligi (Mîr Mustafa 'от Сальяна' — ipucu) BEYANLI YAKLAŞIKLIK. 1789-1806 BULUNAMADI: Talış Mîr Mustafa 'Сальяна' kuzey Talış'ı tuttu (ipucu), 1805-06'da Şirvanlı Mustafa Han Salyan'ı aldı (ru ipucu). Sahip kaynakla belirlenemedi; yerel sultanlık BEYANLI. t: Bakü/Kuba fiilî alışına bağlandı (BEYANLI)."
     },
     {
      "alan": "s",
@@ -1462,14 +1564,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
      "alinti": "İran’ın bu geniş eyaleti, Nâdir Şah’ın ölümünden (1747) beri, İran’ın diğer yerlerinden ayrı bir siyasî kadere tâbi olmuştu. ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
     },
     {
      "alan": "s",
@@ -1484,28 +1586,28 @@
     },
     {
      "alan": "s",
-     "d": "erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv | https://islamansiklopedisi.org.tr/erdebil",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself. ‖ Kuba Hanı Feth Ali Han 1784 yazında âni bir saldırı ile burayı zaptettiyse de Ruslar’ın kendisini desteklememesi üzerine geri çekildi.",
-     "not": "1779-1791 yerel hanlar. Erdebil: Kuba Hanı Feth Ali 1784 yazı kısa işgali (TDV, gün yok) — dilim yazılmadı, ic_not."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel hanlar. Erdebil: Kuba Hanı Feth Ali 1784 yazı kısa işgali (TDV, gün yok) — dilim yazılmadı, ic_not."
     },
     {
      "alan": "s",
      "d": "kacar",
      "f": "1791-01-01",
-     "t": "1828-02-01",
+     "t": "1925-10-31",
      "hukum": "ONERI",
      "uc": "f",
-     "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
-     "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "Iranica '1205/1790-91 Āḡā Moḥammad Khan … asserted his power there' → hicrî 1205 ∩ 1791 → 1791-01-01 BEYANLI (bölge geneli; şehir günü BULUNAMADI). Mevcut kacar f 1794-01-01 → 1791-01-01."
+     "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv | https://islamansiklopedisi.org.tr/erdebil",
+     "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself. ‖ Şehir 1828 Şubatında Ruslar tarafından işgal edildi",
+     "not": "Iranica '1205/1790-91 Āḡā Moḥammad Khan … asserted his power there' → hicrî 1205 ∩ 1791 → 1791-01-01 BEYANLI (bölge geneli; şehir günü BULUNAMADI). Mevcut kacar f 1794-01-01 → 1791-01-01. ‖ BİRLEŞEN DİLİM: t/f BEYANLI (tahliye günü bulunamadı)."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1828-02-01",
      "t": "1828-02-22",
@@ -1514,17 +1616,6 @@
      "kaynak": "https://islamansiklopedisi.org.tr/erdebil",
      "alinti": "Şehir 1828 Şubatında Ruslar tarafından işgal edildi",
      "not": "EK BULGU: TDV '1828 Şubatında Ruslar tarafından işgal edildi' (ay). Tahliye günü BULUNAMADI (Türkmençay'dan sonra, tazminat). Dilim kısa; yazılırsa Değişmez 2 maddesi gerekir."
-    },
-    {
-     "alan": "s",
-     "d": "kacar",
-     "f": "1828-02-22",
-     "t": "1925-10-31",
-     "hukum": "ONERI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/erdebil",
-     "alinti": "Şehir 1828 Şubatında Ruslar tarafından işgal edildi",
-     "not": "t/f BEYANLI (tahliye günü bulunamadı)."
     }
    ],
    "yeni_kunye_aday": [
@@ -1640,47 +1731,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "urmiye-afsar-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
-     "t": "1752-01-01",
-     "hukum": "BEYANLI",
-     "uc": "f",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Feth Ali Han Afşar (Iranica karim-khan 'Fatḥ-ʿAli Khan Afšār of Urmia'). 🔴 HAYALET: zend 1747-1751 ÇIKAR."
-    },
-    {
-     "alan": "s",
-     "d": "azad-han (YENI-KUNYE-ADAY)",
-     "f": "1752-01-01",
-     "t": "1757-06-01",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
-     "alinti": "Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad",
-     "not": "Âzâd Han Afgan hegemonyası: Iranica '1165/1752 … between Ardabīl and Urmia' (hicrî 1165 = 1751-11-20…1752-11-08 ∩ 1752 → 1752-01-01 ilk gün); 1756'dan üssü Urmiye. t: Haziran 1757 Urmiye Kaçarlara teslim (ay)."
-    },
-    {
-     "alan": "s",
-     "d": "kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)",
-     "f": "1757-06-01",
-     "t": "1759-02-14",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
-     "not": "Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. "
-    },
-    {
-     "alan": "s",
-     "d": "urmiye-afsar-hanligi (YENI-KUNYE-ADAY)",
-     "f": "1759-02-14",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar. 🔴 ÇELİŞKİ: TDV urmiye '1174’te (1760) Urmiye … Kerim Han Zend tarafından ele geçirildi' ↔ Iranica 'taking Tabriz and Urmia in February 1763'. TDV esastır kuralı → zend f 1760-08-? (hicrî 1174 ∩ 1760 = 1760-08-13…1760-12-31 → 1760-08-13) alternatifi; Iranica Perry (uzman) Şubat 1763 der. EMRELİC karar."
+     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga. ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (urmiye-afsar-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Feth Ali Han Afşar (Iranica karim-khan 'Fatḥ-ʿAli Khan Afšār of Urmia'). 🔴 HAYALET: zend 1747-1751 ÇIKAR. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (azad-han (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Âzâd Han Afgan hegemonyası: Iranica '1165/1752 … between Ardabīl and Urmia' (hicrî 1165 = 1751-11-20…1752-11-08 ∩ 1752 → 1752-01-01 ilk gün); 1756'dan üssü Urmiye. t: Haziran 1757 Urmiye Kaçarlara teslim (ay). ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI.  ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (urmiye-afsar-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar. 🔴 ÇELİŞKİ: TDV urmiye '1174’te (1760) Urmiye … Kerim Han Zend tarafından ele geçirildi' ↔ Iranica 'taking Tabriz and Urmia in February 1763'. TDV esastır kuralı → zend f 1760-08-? (hicrî 1174 ∩ 1760 = 1760-08-13…1760-12-31 → 1760-08-13) alternatifi; Iranica Perry (uzman) Şubat 1763 der. EMRELİC karar."
     },
     {
      "alan": "s",
@@ -1695,14 +1753,14 @@
     },
     {
      "alan": "s",
-     "d": "urmiye-afsar-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "1779-1791 yerel Afşar hanları; gün/yıl kaynaklı değil."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (urmiye-afsar-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel Afşar hanları; gün/yıl kaynaklı değil."
     },
     {
      "alan": "s",
@@ -1740,24 +1798,6 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": true
-    },
-    {
-     "t": "1752-01-01",
-     "var_olan": [],
-     "b_taslak": "Âzâd Han Erdebil–Urmiye arasına hâkim oldu",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1757-06-01",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han Âzâd Han'ı yenip Tebriz ve Urmiye'yi aldı",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1759-02-14",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han öldürüldü; Azerbaycan'da yerel hanlar",
-     "evren_maddesi_var": false
     },
     {
      "t": "1763-02-01",
@@ -1818,36 +1858,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
-     "t": "1757-06-01",
-     "hukum": "BEYANLI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
-     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI."
-    },
-    {
-     "alan": "v",
-     "d": "kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)",
-     "f": "1757-06-01",
-     "t": "1759-02-14",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
-     "not": "Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu."
-    },
-    {
-     "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
-     "f": "1759-02-14",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
+     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd. ‖ In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
     },
     {
      "alan": "s",
@@ -1862,28 +1880,28 @@
     },
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
-     "hukum": "ONERI",
+     "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy",
      "alinti": "The Donbolis maintained a functionally independent administration as one of the leading powers of Azarbaijan from 1779 until 1792",
-     "not": "Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
     },
     {
      "alan": "s",
      "d": "kacar",
      "f": "1791-01-01",
-     "t": "1827-10-01",
+     "t": "1925-10-31",
      "hukum": "ONERI",
      "uc": "f",
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy | https://www.iranicaonline.org/articles/azerbaijan-iv",
-     "alinti": "The latter offered obedience to Āqā Moḥammad Khan Qājār in 1205/1792, ending the period of political autonomy, but elevating the Donbolis to regional governorship. ‖ In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
+     "alinti": "The latter offered obedience to Āqā Moḥammad Khan Qājār in 1205/1792, ending the period of political autonomy, but elevating the Donbolis to regional governorship. ‖ In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself. ‖ Khoy fell in 1827 and was returned to Iran in the Treaty of Torkamānčāy in 1828.",
      "not": "f: Iranica khoy '1205/1792' (hicrî 1205 = 1790-09-10…1791-08-29; 1792 ile kesişmiyor — iç çelişki) ve Iranica azerbaijan '1205/1790-91' → hicrî 1205 ∩ 1791 = 1791-01-01 ilk gün, BEYANLI."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-10-01",
      "t": "1828-02-22",
@@ -1892,17 +1910,6 @@
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/hoy",
      "alinti": "Khoy fell in 1827 and was returned to Iran in the Treaty of Torkamānčāy in 1828. ‖ Şehir 1827’de Ruslar’ın saldırısına uğradı. 1828’de Türkmençay Antlaşması ile 3000 kadar Rus’un Hoy’da kalmasına izin verildiyse de tazminat meselesi halledilince bu birlik şehirden çıkarıldı.",
      "not": "EK BULGU: Iranica 'Khoy fell in 1827 and was returned … 1828' (yıllar); TDV 1827 saldırı + 1828 Rus birliği kaldı. Ay/gün BULUNAMADI; 1827-10-01 (Tebriz ile aynı sefer, BEYANLI)."
-    },
-    {
-     "alan": "s",
-     "d": "kacar",
-     "f": "1828-02-22",
-     "t": "1925-10-31",
-     "hukum": "ONERI",
-     "uc": "f",
-     "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy",
-     "alinti": "Khoy fell in 1827 and was returned to Iran in the Treaty of Torkamānčāy in 1828.",
-     "not": ""
     }
    ],
    "yeni_kunye_aday": [
@@ -1928,18 +1935,6 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": true
-    },
-    {
-     "t": "1757-06-01",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han Âzâd Han'ı yenip Tebriz ve Urmiye'yi aldı",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1759-02-14",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han öldürüldü; Azerbaycan'da yerel hanlar",
-     "evren_maddesi_var": false
     },
     {
      "t": "1763-02-01",
@@ -2031,36 +2026,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
-     "t": "1757-06-01",
-     "hukum": "BEYANLI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
-     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "ABİ MERKEZ: Hoy (Dünbülî). f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI."
-    },
-    {
-     "alan": "v",
-     "d": "kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)",
-     "f": "1757-06-01",
-     "t": "1759-02-14",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
-     "not": "Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu."
-    },
-    {
-     "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
-     "f": "1759-02-14",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
+     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd. ‖ In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Hoy (Dünbülî). f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
     },
     {
      "alan": "s",
@@ -2075,14 +2048,14 @@
     },
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy",
      "alinti": "The Donbolis maintained a functionally independent administration as one of the leading powers of Azarbaijan from 1779 until 1792",
-     "not": "Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
     },
     {
      "alan": "s",
@@ -2119,18 +2092,6 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": true
-    },
-    {
-     "t": "1757-06-01",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han Âzâd Han'ı yenip Tebriz ve Urmiye'yi aldı",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1759-02-14",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han öldürüldü; Azerbaycan'da yerel hanlar",
-     "evren_maddesi_var": false
     },
     {
      "t": "1763-02-01",
@@ -2191,36 +2152,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
-     "t": "1757-06-01",
-     "hukum": "BEYANLI",
-     "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
-     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "ABİ MERKEZ: Tebriz (Dünbülî Tebriz-Hoy hanlığı). f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI."
-    },
-    {
-     "alan": "v",
-     "d": "kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)",
-     "f": "1757-06-01",
-     "t": "1759-02-14",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd.",
-     "not": "Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu."
-    },
-    {
-     "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
-     "f": "1759-02-14",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
-     "kaynak": "https://www.iranicaonline.org/articles/karim-khan-zand",
-     "alinti": "In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
-     "not": "Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
+     "kaynak": "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+     "alinti": "1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular. 1790’da Ağa Muhammed tarafından Kaçar hâkimiyetine alınan Tebriz, Ekim 1827’de Rus işgaline uğradıysa da Türkmençay Antlaşması’yla geri alındı (Şubat 1828). ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35). ‖ First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars, and Āzād fled with a few followers to refuge in Baghdad ‖ Irâk-ı Acem’i ele geçirdiği gibi, Afgan Âzâd Han’ı yenerek Azerbaycan’ı da idaresi altına aldı ve dokuz oğlundan en büyüğü olan on beş yaşındaki Ağa Muhammed’i Azerbaycan valiliğine tayin etti (1757). ‖ on 15 Jomādā II 1172/14 February 1759, he was defeated by an army under the command of Šayḵ-ʿAli Khan Zand and slain by a renegade Kurd. ‖ In the summer of 1760 Āzād returned from refuge in Baghdad in an attempt to regain control of Azarbaijan, but his former allies, Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz, turned on him and defeated him at Marāga.",
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Tebriz (Dünbülî Tebriz-Hoy hanlığı). f: TDV '1747’de Dünbülîler şehri ele geçirip Tebriz-Hoy Hanlığı’nı kurdular' (yıl; gün Nadir ölümü BEYANLI). 🔴 HAYALET düzelir: zend 1747-06-20→1751-01-01 ÇIKAR. v: azad-han (YENI-KUNYE-ADAY) 1752→1757 adayı: Iranica Âzâd 1165/1752 'Ardabīl ile Urmia arası' + Hoy Šahbāz Âzâd'ı destekledi (Iranica khoy) → ONERI. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (kacar-kovanlu (YENI-KUNYE-ADAY: Muhammed Hasan Han Kaçar)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 'First Tabrīz fell then, after a last pitched battle in June, 1757, Urmia surrendered to the Qajars' (ay); TDV ağa-muhammed: Muhammed Hasan Han 'Azerbaycan’ı da idaresi altına aldı … (1757)'. t: Muhammed Hasan Han'ın öldürülüşü 14 Şubat 1759 (Iranica karim-khan, gün). 🔴 kacar künyesi f 1789-03-21 kapsamıyor → ayrı künye adayı ya da BEYANLI. Tebriz/Hoy'da Dünbülî hanlar sürdüyse s: dunbuli + v: kacar-kovanlu. ‖ BİRLEŞEN DİLİM: BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica: 1760 yazında Âzâd'ı Marâga'da yenen 'Fatḥ-ʿAli and Šahbāz Khan Donboli of Tabriz' → yerel hanlar."
     },
     {
      "alan": "s",
@@ -2235,14 +2174,14 @@
     },
     {
      "alan": "s",
-     "d": "dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1790-01-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://www.iranicaonline.org/articles/khoy-ḵoy",
      "alinti": "The Donbolis maintained a functionally independent administration as one of the leading powers of Azarbaijan from 1779 until 1792",
-     "not": "Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (dunbuli-tebriz-hoy (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ Iranica khoy: Dünbülîler 1779-1792 fiilen bağımsız. Tebriz: TDV ağa-muhammed 'Tebriz ile bazı komşu yöreleri elinde tutan Sâdık Hân-ı Şikakî' (1790'da yenildi)."
     },
     {
      "alan": "s",
@@ -2279,18 +2218,6 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": true
-    },
-    {
-     "t": "1757-06-01",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han Âzâd Han'ı yenip Tebriz ve Urmiye'yi aldı",
-     "evren_maddesi_var": false
-    },
-    {
-     "t": "1759-02-14",
-     "var_olan": [],
-     "b_taslak": "Kaçar Muhammed Hasan Han öldürüldü; Azerbaycan'da yerel hanlar",
-     "evren_maddesi_var": false
     },
     {
      "t": "1763-02-01",
@@ -2359,7 +2286,7 @@
      "alan": "s",
      "d": "nahcivan-hanligi",
      "f": "1747-06-20",
-     "t": "1827-07-08",
+     "t": "1828-02-22",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
@@ -2378,15 +2305,26 @@
      "not": "f: TDV '1797’den başlayarak … İran’a bağımlı' (yıl). Mevcut s: kacar 1794-01-01 → v: kacar 1797-01-01. ru ipucu: Nahçıvan 1808-1810 Rus tarafında — ic_not, teyitsiz."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-07-08",
-     "t": "1917-03-15",
+     "t": "1828-02-22",
      "hukum": "ONERI",
      "uc": "f",
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
      "alinti": "ханство было занято войсками генерала И. Ф. Паскевича , который 26 июня 1827 года вступил в Нахичевань",
-     "not": "Türkmençay 1828-02-22 ic_not."
+     "not": "Revan şehir kaydının modeli (isg: rusya 1827-10-13→1828-02-22, s: Türkmençay'da) izlendi: savaş işgali, hanlık 1828'de ilga (TDV). Alternatif (gece-111 'fiilî alış' katı okuma): s: rusya 1827-07-08."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
+     "t": "1917-03-15",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/nahcivan",
+     "alinti": "Nâdir Şah’ın ölümünden sonra Nahcıvan şehri bu dönemde ortaya çıkan Nahcıvan Hanlığı’nın Rusya’ya ilhakına kadar (1828) bu hanlığın merkezi oldu.",
+     "not": "Türkmençay 22 Şubat 1828 (TDV talis-hanligi günü) — Nahçıvan gerçekten bu antlaşmayla devredildi; işgal isg'de."
     }
    ],
    "yeni_kunye_aday": [],
@@ -2421,6 +2359,31 @@
      "var_olan": [],
      "b_taslak": "Paskeviç Nahçıvan'a girdi",
      "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
     }
    ]
   },
@@ -2456,14 +2419,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "karadag-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
      "alinti": "İran’ın bu geniş eyaleti, Nâdir Şah’ın ölümünden (1747) beri, İran’ın diğer yerlerinden ayrı bir siyasî kadere tâbi olmuştu. ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "ABİ MERKEZ: Karadağ hanlığı (Ahar) — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (karadag-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Karadağ hanlığı (Ahar) — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
     },
     {
      "alan": "s",
@@ -2478,14 +2441,14 @@
     },
     {
      "alan": "s",
-     "d": "karadag-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "1779-1791 yerel hanlar."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (karadag-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel hanlar."
     },
     {
      "alan": "s",
@@ -2581,14 +2544,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "sekaki-sarab (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
      "alinti": "İran’ın bu geniş eyaleti, Nâdir Şah’ın ölümünden (1747) beri, İran’ın diğer yerlerinden ayrı bir siyasî kadere tâbi olmuştu. ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "ABİ MERKEZ: Erdebil/Tebriz arası Şakaki yurdu — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (sekaki-sarab (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Erdebil/Tebriz arası Şakaki yurdu — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
     },
     {
      "alan": "s",
@@ -2603,14 +2566,14 @@
     },
     {
      "alan": "s",
-     "d": "sekaki-sarab (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "1779-1791 yerel hanlar."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (sekaki-sarab (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel hanlar."
     },
     {
      "alan": "s",
@@ -2706,14 +2669,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "maku-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1763-02-01",
-     "hukum": "KAYNAKLI",
+     "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/maku | https://islamansiklopedisi.org.tr/maku",
      "alinti": "Nâdir Şah’ın hizmetinde bulunan hânedanın kurucusu Ahmed Sultan, onun 20 Haziran 1747 tarihinde öldürülmesi üzerine karargâhta çıkan karışıklık ve yağmalama sırasında dul kalan eşlerinden birini ve hazinesinin bir kısmını alarak Mâkû’ya gidip yerleşti. ‖ Zend ve Kaçar hânedanları döneminde Dünbüllü aşiretinin elinde kaldığı sanılan Mâkû, 1747’den itibaren Bayat aşiretinin bir kolundan gelen hanların başşehri oldu.",
-     "not": "f: TDV Ahmed Sultan Nadir'in '20 Haziran 1747' ölümü üzerine Mâkû'ya yerleşti, 'Mâkû, 1747’den itibaren Bayat … hanların başşehri' → f günü KAYNAKLI düzeyinde (yerleşme günü değil ölüm günü; katı okumada ONERI). TDV 'Zend ve Kaçar … Dünbüllü aşiretinin elinde kaldığı sanılan' çelişkili ifade — ic_not."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (maku-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ f: TDV Ahmed Sultan Nadir'in '20 Haziran 1747' ölümü üzerine Mâkû'ya yerleşti, 'Mâkû, 1747’den itibaren Bayat … hanların başşehri' → f günü KAYNAKLI düzeyinde (yerleşme günü değil ölüm günü; katı okumada ONERI). TDV 'Zend ve Kaçar … Dünbüllü aşiretinin elinde kaldığı sanılan' çelişkili ifade — ic_not."
     },
     {
      "alan": "s",
@@ -2728,14 +2691,14 @@
     },
     {
      "alan": "s",
-     "d": "maku-hanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "1779-1791 yerel hanlar."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (maku-hanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel hanlar."
     },
     {
      "alan": "s",
@@ -2831,14 +2794,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1763-02-01",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
      "alinti": "İran’ın bu geniş eyaleti, Nâdir Şah’ın ölümünden (1747) beri, İran’ın diğer yerlerinden ayrı bir siyasî kadere tâbi olmuştu. ‖ Āzād rose by 1165/1752 to control all the territory between Ardabīl and Urmia (Olivier, Voyage , pp. 18-19, 35).",
-     "not": "ABİ MERKEZ: Erdebil — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ ABİ MERKEZ: Erdebil — kaynak BULUNAMADI. Yerel hanlık sahibi akademik kaynakla BULUNAMADI (TDV erdebil 1747-1784 arası boş). TDV ağa-muhammed: eyalet 1747'den beri ayrı siyasî kader. Âzâd 1752-1757 hegemonyası (Iranica) v: adayı. 🔴 HAYALET: zend 1747-1751 ÇIKAR."
     },
     {
      "alan": "s",
@@ -2853,14 +2816,14 @@
     },
     {
      "alan": "s",
-     "d": "erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1779-03-01",
      "t": "1791-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://www.iranicaonline.org/articles/azerbaijan-iv",
      "alinti": "In 1205/1790-91 Āḡā Moḥammad Khan, founder of the Qajar dynasty, asserted his power there, but during his reign and the early part of that of his nephew Fatḥ-ʿAlī Shah, this power was disputed by the Dombolis, who on several occasions held Tabrīz itself.",
-     "not": "1779-1791 yerel hanlar."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (erdebil/karadag yerel hanlığı (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ 1779-1791 yerel hanlar."
     },
     {
      "alan": "s",
@@ -2964,12 +2927,12 @@
      "alan": "s",
      "d": "talis-hanligi",
      "f": "1747-06-20",
-     "t": "1812-08-21",
+     "t": "1826-01-01",
      "hukum": "BEYANLI",
      "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
-     "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ В августе Аббас-Мирза возобновил боевые действия, и 9 августа сардар Эмир-хан занял Ленкорань .",
-     "not": "ABİ MERKEZ: Lenkeran (Talış hanlığı) — BEYANLI YAKLAŞIKLIK. 🔴 Nokta 38.4292 K 48.8728 D: Astara çayının GÜNEY (İran) kıyısına düşüyor olabilir (Azerbaycan Astara'sı ~38.456 K). Türkmençay sınırı Astara çayı: güneydeyse 1828 sonrası İran'da kalır ve mevcut 1828-02-22 rusya dilimi yanlıştır — koordinat sınansın. f değişmez (künye f 1736; mevcut 1747-06-20). t: TDV '1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi' (ay); gün ru ipucu 9 Ağustos (O.S.) → 1812-08-21. 1794-1813 kacar dilimi (Astara) SİLİNİR; 1795 Ağa Muhammed saldırısı kısa sefer (TDV)."
+     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813) | https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi",
+     "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ В августе Аббас-Мирза возобновил боевые действия, и 9 августа сардар Эмир-хан занял Ленкорань . ‖ Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ Ancak hanlık 1826’da ilga edildi, İran birlikleri de 1827’de buradan ayrıldı. 22 Şubat 1828’de imzalanan Türkmençay Antlaşması’nın 4. maddesine göre Lenkeran Hanlığı Ruslar’da kaldı.",
+     "not": "ABİ MERKEZ: Lenkeran (Talış hanlığı) — BEYANLI YAKLAŞIKLIK. 🔴 Nokta 38.4292 K 48.8728 D: Astara çayının GÜNEY (İran) kıyısına düşüyor olabilir (Azerbaycan Astara'sı ~38.456 K). Türkmençay sınırı Astara çayı: güneydeyse 1828 sonrası İran'da kalır ve mevcut 1828-02-22 rusya dilimi yanlıştır — koordinat sınansın. f değişmez (künye f 1736; mevcut 1747-06-20). t: TDV '1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi' (ay); gün ru ipucu 9 Ağustos (O.S.) → 1812-08-21. 1794-1813 kacar dilimi (Astara) SİLİNİR; 1795 Ağa Muhammed saldırısı kısa sefer (TDV). ‖ BİRLEŞEN DİLİM: Hanlık Rus himayesinde sürdü (Mîr Mustafa ö. 1814, Mîr Hasan), TDV '1826’da ilga'. Mevcut s: rusya 1813-01-01 → s: talis + v: rusya. Künye talis-hanligi t 1826-01-01 eş."
     },
     {
      "alan": "v",
@@ -2983,7 +2946,7 @@
      "not": "TDV 26 Aralık 1802 (O.S.) → 1803-01-07 N.S. 'tamamen Rus himayesine girdi'. 1805-06 arası İran yanlısı politika (TDV) — kesinti yazılmadı."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "kacar",
      "f": "1812-08-21",
      "t": "1813-01-13",
@@ -2992,17 +2955,6 @@
      "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
      "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ 1 (13) января 1813 года крепость была взята штурмом .",
      "not": "t: TDV '1 Ocak 1813’te Lenkeran’ı aldı' (O.S.) → ru '1 (13) января 1813' → 1813-01-13 N.S. Mevcut talis→rusya 1813-01-01 ucu O.S.'dir."
-    },
-    {
-     "alan": "s",
-     "d": "talis-hanligi",
-     "f": "1813-01-13",
-     "t": "1826-01-01",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi",
-     "alinti": "Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ Ancak hanlık 1826’da ilga edildi, İran birlikleri de 1827’de buradan ayrıldı. 22 Şubat 1828’de imzalanan Türkmençay Antlaşması’nın 4. maddesine göre Lenkeran Hanlığı Ruslar’da kaldı.",
-     "not": "Hanlık Rus himayesinde sürdü (Mîr Mustafa ö. 1814, Mîr Hasan), TDV '1826’da ilga'. Mevcut s: rusya 1813-01-01 → s: talis + v: rusya. Künye talis-hanligi t 1826-01-01 eş."
     },
     {
      "alan": "v",
@@ -3108,12 +3060,12 @@
      "alan": "s",
      "d": "talis-hanligi",
      "f": "1747-06-20",
-     "t": "1812-08-21",
+     "t": "1826-01-01",
      "hukum": "ONERI",
      "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
-     "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ В августе Аббас-Мирза возобновил боевые действия, и 9 августа сардар Эмир-хан занял Ленкорань .",
-     "not": "f değişmez (künye f 1736; mevcut 1747-06-20). t: TDV '1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi' (ay); gün ru ipucu 9 Ağustos (O.S.) → 1812-08-21. 1794-1813 kacar dilimi (Astara) SİLİNİR; 1795 Ağa Muhammed saldırısı kısa sefer (TDV)."
+     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813) | https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi",
+     "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ В августе Аббас-Мирза возобновил боевые действия, и 9 августа сардар Эмир-хан занял Ленкорань . ‖ Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ Ancak hanlık 1826’da ilga edildi, İran birlikleri de 1827’de buradan ayrıldı. 22 Şubat 1828’de imzalanan Türkmençay Antlaşması’nın 4. maddesine göre Lenkeran Hanlığı Ruslar’da kaldı.",
+     "not": "f değişmez (künye f 1736; mevcut 1747-06-20). t: TDV '1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi' (ay); gün ru ipucu 9 Ağustos (O.S.) → 1812-08-21. 1794-1813 kacar dilimi (Astara) SİLİNİR; 1795 Ağa Muhammed saldırısı kısa sefer (TDV). ‖ BİRLEŞEN DİLİM: Hanlık Rus himayesinde sürdü (Mîr Mustafa ö. 1814, Mîr Hasan), TDV '1826’da ilga'. Mevcut s: rusya 1813-01-01 → s: talis + v: rusya. Künye talis-hanligi t 1826-01-01 eş."
     },
     {
      "alan": "v",
@@ -3127,7 +3079,7 @@
      "not": "TDV 26 Aralık 1802 (O.S.) → 1803-01-07 N.S. 'tamamen Rus himayesine girdi'. 1805-06 arası İran yanlısı politika (TDV) — kesinti yazılmadı."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "kacar",
      "f": "1812-08-21",
      "t": "1813-01-13",
@@ -3136,17 +3088,6 @@
      "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
      "alinti": "1812 Ağustosunda İran ordusunun Taliş topraklarını ele geçirmesi Mîr Mustafa Han’ı yeniden Ruslar’a yakınlaştırdı ve Ruslar’la birlikte Gamişavan’a çekildi. ‖ Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ 1 (13) января 1813 года крепость была взята штурмом .",
      "not": "t: TDV '1 Ocak 1813’te Lenkeran’ı aldı' (O.S.) → ru '1 (13) января 1813' → 1813-01-13 N.S. Mevcut talis→rusya 1813-01-01 ucu O.S.'dir."
-    },
-    {
-     "alan": "s",
-     "d": "talis-hanligi",
-     "f": "1813-01-13",
-     "t": "1826-01-01",
-     "hukum": "ONERI",
-     "uc": "f+t",
-     "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi",
-     "alinti": "Ardından Katleyarevski kumandasındaki Ruslar, Erkivan’ı ve 1 Ocak 1813’te Lenkeran’ı aldı; Kaçarlar’ın Ruslar’la yaptığı Gülistan Antlaşması ile Taliş Hanlığı’nın büyük kısmı Ruslar’ın eline geçti. ‖ Ancak hanlık 1826’da ilga edildi, İran birlikleri de 1827’de buradan ayrıldı. 22 Şubat 1828’de imzalanan Türkmençay Antlaşması’nın 4. maddesine göre Lenkeran Hanlığı Ruslar’da kaldı.",
-     "not": "Hanlık Rus himayesinde sürdü (Mîr Mustafa ö. 1814, Mîr Hasan), TDV '1826’da ilga'. Mevcut s: rusya 1813-01-01 → s: talis + v: rusya. Künye talis-hanligi t 1826-01-01 eş."
     },
     {
      "alan": "v",
@@ -3256,14 +3197,14 @@
    "oneri_zincir": [
     {
      "alan": "s",
-     "d": "salyan-sultanligi (YENI-KUNYE-ADAY)",
+     "d": "afsar",
      "f": "1747-06-20",
      "t": "1759-01-01",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство",
      "alinti": "Taliş dağları, Hazar denizi ve Mugan çölü arasında kurulmuş olup Gîlân, Erdebil, Karadağ, Cevad hanlıkları ve Salyan Sultanlığı ile sınırdaştı. ‖ после покорения Сальянов в 1759 году , Фатали-хан переселил в ханство из Муганской степи несколько шахсевенов .",
-     "not": "YENI-KUNYE-ADAY. TDV talis-hanligi 'Salyan Sultanlığı' adını verir (yılsız). t: ru ipucu 'покорения Сальянов в 1759 году' (Feth Ali) — LAB SALI ~1768 tahmini ile ÇELİŞİR; TDV kuba 'Kuba, Salyan … doğrudan doğruya veya dolaylı olarak' (ilhak/vasallık ayırt edilmiyor) → BEYANLI."
+     "not": "BEYANLI YAKLAŞIKLIK afsar: hayalet zend çıkarıldı; yerel sahip (salyan-sultanligi (YENI-KUNYE-ADAY)) künyesiz → s:'de önceki sahip afsar korundu (künye 1736-03-08→1796-01-01). ic_not'a yazılacak. ‖ YENI-KUNYE-ADAY. TDV talis-hanligi 'Salyan Sultanlığı' adını verir (yılsız). t: ru ipucu 'покорения Сальянов в 1759 году' (Feth Ali) — LAB SALI ~1768 tahmini ile ÇELİŞİR; TDV kuba 'Kuba, Salyan … doğrudan doğruya veya dolaylı olarak' (ilhak/vasallık ayırt edilmiyor) → BEYANLI."
     },
     {
      "alan": "s",
@@ -3278,14 +3219,14 @@
     },
     {
      "alan": "s",
-     "d": "salyan-sultanligi (YENI-KUNYE-ADAY)",
+     "d": "talis-hanligi",
      "f": "1789-01-01",
      "t": "1806-10-15",
      "hukum": "BEYANLI",
      "uc": "f+t",
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Талышское ханство",
      "alinti": "Он сумел установить свою власть в северном Талыше , от Сальяна до Диначала [англ.] , и провозгласил свою независимость.",
-     "not": "1789-1806 BULUNAMADI: Talış Mîr Mustafa 'Сальяна' kuzey Talış'ı tuttu (ipucu), 1805-06'da Şirvanlı Mustafa Han Salyan'ı aldı (ru ipucu). Sahip kaynakla belirlenemedi; yerel sultanlık BEYANLI. t: Bakü/Kuba fiilî alışına bağlandı (BEYANLI)."
+     "not": "afsar künyesi 1796-01-01'de bittiği için önceki sahip korunamaz; künyesi olan en yakın aday talis-hanligi (Mîr Mustafa 'от Сальяна' — ipucu) BEYANLI YAKLAŞIKLIK. 1789-1806 BULUNAMADI: Talış Mîr Mustafa 'Сальяна' kuzey Talış'ı tuttu (ipucu), 1805-06'da Şirvanlı Mustafa Han Salyan'ı aldı (ru ipucu). Sahip kaynakla belirlenemedi; yerel sultanlık BEYANLI. t: Bakü/Kuba fiilî alışına bağlandı (BEYANLI)."
     },
     {
      "alan": "s",
@@ -3371,15 +3312,15 @@
      "alan": "s",
      "d": "kuba-hanligi",
      "f": "1747-06-20",
-     "t": "1796-06-27",
+     "t": "1806-10-15",
      "hukum": "BEYANLI",
      "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan",
-     "alinti": "Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti.",
-     "not": "f değişmez (künye f 1735). t: TDV '1796 Mayısında Derbend’i, az sonra da Kuba’yı' (ay yok) → gün ru ipucu 16 (27) Haziran 1796."
+     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+     "alinti": "Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ Rusya’nın İran’a karşı 1805’te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
+     "not": "f değişmez (künye f 1735). t: TDV '1796 Mayısında Derbend’i, az sonra da Kuba’yı' (ay yok) → gün ru ipucu 16 (27) Haziran 1796. ‖ BİRLEŞEN DİLİM: t: TDV 1806 (yıl); ru ipucu 'Bakü'yü (3 Ekim 1806 O.S.) … sonra Kuba'yı' → Bakü günü 1806-10-15 ALT SINIR BEYANLI; gerçek gün BULUNAMADI. ru ipucu: 1808-1810 Kuba 'resmen hanlık' (divan) — ic_not."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1796-06-27",
      "t": "1797-02-16",
@@ -3388,17 +3329,6 @@
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
      "alinti": "15 и 16 (26 и 27) июня русские войска без боя вступили в Баку и Кубу. ‖ Katerina’nın Kafkasya’nın işgali için gönderdiği kalabalık ordu 1796 Mayısında Derbend’i, az sonra da Kuba’yı işgal etti. ‖ К 5 (16) февраля 1797 года русские войска были полностью выведены из Закавказья.",
      "not": "1796-97 Zubov işgali."
-    },
-    {
-     "alan": "s",
-     "d": "kuba-hanligi",
-     "f": "1797-02-16",
-     "t": "1806-10-15",
-     "hukum": "BEYANLI",
-     "uc": "t",
-     "kaynak": "https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
-     "alinti": "Rusya’nın İran’a karşı 1805’te ilân ettiği savaşlar döneminde Derbend ve Kuba bir daha istilâ edildi (1806). ‖ Назначенный вместо Цицианова И. В. Гудович летом 1806 года разгромил Аббас-Мирзу при Каракапете (Карабах) и покорил Дербентское ханство . 3 октября 1806 года русские войска под командованием генерала Булгакова вошли в Баку и захватили Бакинское, а затем Кубинское ханства .",
-     "not": "t: TDV 1806 (yıl); ru ipucu 'Bakü'yü (3 Ekim 1806 O.S.) … sonra Kuba'yı' → Bakü günü 1806-10-15 ALT SINIR BEYANLI; gerçek gün BULUNAMADI. ru ipucu: 1808-1810 Kuba 'resmen hanlık' (divan) — ic_not."
     },
     {
      "alan": "s",
@@ -3697,7 +3627,7 @@
      "alan": "s",
      "d": "nahcivan-hanligi",
      "f": "1747-06-20",
-     "t": "1827-07-08",
+     "t": "1828-02-22",
      "hukum": "BEYANLI",
      "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | https://islamansiklopedisi.org.tr/nahcivan",
@@ -3716,15 +3646,26 @@
      "not": "f: TDV '1797’den başlayarak … İran’a bağımlı' (yıl). Mevcut s: kacar 1794-01-01 → v: kacar 1797-01-01. ru ipucu: Nahçıvan 1808-1810 Rus tarafında — ic_not, teyitsiz."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-07-08",
-     "t": "1917-03-15",
+     "t": "1828-02-22",
      "hukum": "ONERI",
      "uc": "f",
      "kaynak": "ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
      "alinti": "ханство было занято войсками генерала И. Ф. Паскевича , который 26 июня 1827 года вступил в Нахичевань",
-     "not": "Türkmençay 1828-02-22 ic_not."
+     "not": "Revan şehir kaydının modeli (isg: rusya 1827-10-13→1828-02-22, s: Türkmençay'da) izlendi: savaş işgali, hanlık 1828'de ilga (TDV). Alternatif (gece-111 'fiilî alış' katı okuma): s: rusya 1827-07-08."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
+     "t": "1917-03-15",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/nahcivan",
+     "alinti": "Nâdir Şah’ın ölümünden sonra Nahcıvan şehri bu dönemde ortaya çıkan Nahcıvan Hanlığı’nın Rusya’ya ilhakına kadar (1828) bu hanlığın merkezi oldu.",
+     "not": "Türkmençay 22 Şubat 1828 (TDV talis-hanligi günü) — Nahçıvan gerçekten bu antlaşmayla devredildi; işgal isg'de."
     }
    ],
    "yeni_kunye_aday": [],
@@ -3759,6 +3700,31 @@
      "var_olan": [],
      "b_taslak": "Paskeviç Nahçıvan'a girdi",
      "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
     }
    ]
   },
@@ -3790,9 +3756,9 @@
      "alan": "s",
      "d": "revan-hanligi",
      "f": "1747-06-20",
-     "t": "1827-10-13",
+     "t": "1828-02-22",
      "hukum": "BEYANLI",
-     "uc": "f+t",
+     "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
      "alinti": "Bu sırada Pîr Mahmud Han, Revan hanı tayin edilmişti; 1747’de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı oluşturdu. ‖ Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827).",
      "not": "ABİ MERKEZ: Revan — köy Revan hanlığı arazisinde (TDV revan). BEYANLI YAKLAŞIKLIK. f: TDV '1747’de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı' (yıl). t: TDV Revan kalesinin alınışı 13 Ekim 1827 (TDV günü N.S. görünüyor: Rus O.S. 1 Ekim). Köy için abi merkez günü. 🔴 Türkmençay farkı: 1827-10-13 ↔ 1828-02-22 = 132 gün; mevcut 1828-02-22 fiilî alış değil. Norapat Eçmiyadzin batısında: Eçmiyadzin Nisan 1827'de Rus eline geçti (ipucu, gün teyitsiz) — köy daha erken düşmüş olabilir."
@@ -3820,14 +3786,25 @@
      "not": "TDV '1795’te … Revan’a gönderdi ve burayı aldı' (yıl); hanlık sürdü (Bournoutian, The Khanate of Erevan under Qajar Rule 1795-1828 — TDV bibliyografyasında) → s: revan + v: kacar. Mevcut s: zend 1747-1794 + s: kacar 1794-1828 SİLİNİR."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-10-13",
+     "t": "1828-02-22",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827).",
+     "not": "ABİ MERKEZ Revan şehir kaydı (yerlesimler.js:803) birebir izlendi: s: revan-hanligi 1747-06-20→1828-02-22 + isg: rusya 1827-10-13→1828-02-22 + s: rusya 1828-02-22. Türkmençay farkı (132 gün) isg katmanında taşınıyor; s: ucu 1828-02-22 Revan'ın antlaşmayla devri olarak doğru. Gece-111 katı 'fiilî alış' okumasıyla şehir + köyler birlikte s: rusya 1827-10-13'e alınabilir — EMRELİC tek karar."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
      "t": "1917-03-15",
      "hukum": "BEYANLI",
      "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
-     "alinti": "Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827). ‖ Hemen ardından çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Hemen ardından çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi",
      "not": "Revan künyesi t 1828-04-02 (TDV ilga emri) kalır."
     }
    ],
@@ -3890,6 +3867,31 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
     }
    ]
   },
@@ -3921,9 +3923,9 @@
      "alan": "s",
      "d": "revan-hanligi",
      "f": "1747-06-20",
-     "t": "1827-10-13",
+     "t": "1828-02-22",
      "hukum": "BEYANLI",
-     "uc": "f+t",
+     "uc": "f",
      "kaynak": "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
      "alinti": "Bu sırada Pîr Mahmud Han, Revan hanı tayin edilmişti; 1747’de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı oluşturdu. ‖ Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827).",
      "not": "ABİ MERKEZ: Revan — köy Revan hanlığı arazisinde (TDV revan). BEYANLI YAKLAŞIKLIK. f: TDV '1747’de öldürülünce Mîr Mehdî müstakil bir Revan Hanlığı' (yıl). t: TDV Revan kalesinin alınışı 13 Ekim 1827 (TDV günü N.S. görünüyor: Rus O.S. 1 Ekim). Köy için abi merkez günü. 🔴 Türkmençay farkı: 1827-10-13 ↔ 1828-02-22 = 132 gün; mevcut 1828-02-22 fiilî alış değil. "
@@ -3951,14 +3953,25 @@
      "not": "TDV '1795’te … Revan’a gönderdi ve burayı aldı' (yıl); hanlık sürdü (Bournoutian, The Khanate of Erevan under Qajar Rule 1795-1828 — TDV bibliyografyasında) → s: revan + v: kacar. Mevcut s: zend 1747-1794 + s: kacar 1794-1828 SİLİNİR."
     },
     {
-     "alan": "s",
+     "alan": "isg",
      "d": "rusya",
      "f": "1827-10-13",
+     "t": "1828-02-22",
+     "hukum": "BEYANLI",
+     "uc": "f",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827).",
+     "not": "ABİ MERKEZ Revan şehir kaydı (yerlesimler.js:803) birebir izlendi: s: revan-hanligi 1747-06-20→1828-02-22 + isg: rusya 1827-10-13→1828-02-22 + s: rusya 1828-02-22. Türkmençay farkı (132 gün) isg katmanında taşınıyor; s: ucu 1828-02-22 Revan'ın antlaşmayla devri olarak doğru. Gece-111 katı 'fiilî alış' okumasıyla şehir + köyler birlikte s: rusya 1827-10-13'e alınabilir — EMRELİC tek karar."
+    },
+    {
+     "alan": "s",
+     "d": "rusya",
+     "f": "1828-02-22",
      "t": "1917-03-15",
      "hukum": "BEYANLI",
      "uc": "f",
-     "kaynak": "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
-     "alinti": "Savaş yeniden başlayınca (1826) Ruslar, Paskieviç kumandasındaki ilk Revan saldırısından sonuç alamamakla birlikte ikinci saldırıda kaleyi ele geçirdiler (13 Ekim 1827). ‖ Hemen ardından çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi",
+     "kaynak": "https://islamansiklopedisi.org.tr/revan",
+     "alinti": "Hemen ardından çarın 2 Nisan 1828 tarihli emriyle Nahcıvan ve Revan hanlıkları ilga edildi",
      "not": "Revan künyesi t 1828-04-02 (TDV ilga emri) kalır."
     }
    ],
@@ -4021,6 +4034,31 @@
      ],
      "b_taslak": null,
      "evren_maddesi_var": false
+    },
+    {
+     "t": "1828-02-22",
+     "var_olan": [
+      {
+       "t": "1828-02-10",
+       "yer": "kronoloji_iran.js:296",
+       "b": "Türkmençay Antlaşması — Erivan ve Nahcıvan kaybedildi",
+       "fark_gun": 12
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "kronoloji_sinir_komsu.js:121",
+       "b": "Türkmençay Antlaşması: Revan ve Nahçıvan Rusya'ya, Aras sınır oldu",
+       "fark_gun": 0
+      },
+      {
+       "t": "1828-02-22",
+       "yer": "olaylar_ek7.js:213",
+       "b": "Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi",
+       "fark_gun": 0
+      }
+     ],
+     "b_taslak": null,
+     "evren_maddesi_var": true
     }
    ]
   },
@@ -4072,7 +4110,7 @@
     }
    ],
    "yeni_kunye_aday": [
-    "sorogel-sultanligi (Şuregel)"
+    "soregel-sultanligi (Şuregel; s:'de revan-hanligi kalır)"
    ],
    "kronoloji_gerekli": [
     {
@@ -4104,11 +4142,11 @@
   }
  ],
  "_ozet": {
-  "yerlesim": 31,
+  "yerlesim": 33,
   "satir_hukum_toplam": {
-   "ONERI": 69,
-   "KAYNAKLI": 16,
-   "BEYANLI": 53
+   "ONERI": 57,
+   "BEYANLI": 54,
+   "KAYNAKLI": 15
   },
   "yerlesim_basina": [
    {
@@ -4120,43 +4158,54 @@
    {
     "ad": "Tebriz",
     "hukum": {
-     "KAYNAKLI": 3,
-     "ONERI": 3,
-     "BEYANLI": 2
+     "BEYANLI": 2,
+     "KAYNAKLI": 1,
+     "ONERI": 2
     }
    },
    {
     "ad": "Nahçıvan",
     "hukum": {
      "KAYNAKLI": 2,
+     "ONERI": 1,
+     "BEYANLI": 1
+    }
+   },
+   {
+    "ad": "Tiflis",
+    "hukum": {}
+   },
+   {
+    "ad": "Revan",
+    "hukum": {
+     "KAYNAKLI": 4,
      "ONERI": 1
     }
    },
    {
     "ad": "Gence",
     "hukum": {
-     "KAYNAKLI": 2,
+     "KAYNAKLI": 1,
      "ONERI": 1
     }
    },
    {
     "ad": "Şamahı",
     "hukum": {
-     "ONERI": 6,
-     "KAYNAKLI": 1
+     "ONERI": 6
     }
    },
    {
     "ad": "Bakü",
     "hukum": {
      "BEYANLI": 1,
-     "ONERI": 3
+     "ONERI": 2
     }
    },
    {
     "ad": "Derbend",
     "hukum": {
-     "ONERI": 5
+     "ONERI": 4
     }
    },
    {
@@ -4176,7 +4225,7 @@
    {
     "ad": "Şâbüran",
     "hukum": {
-     "BEYANLI": 3,
+     "BEYANLI": 2,
      "ONERI": 1
     }
    },
@@ -4191,42 +4240,42 @@
     "ad": "Erdebil",
     "hukum": {
      "BEYANLI": 3,
-     "ONERI": 3
+     "ONERI": 2
     }
    },
    {
     "ad": "Urmiye",
     "hukum": {
-     "BEYANLI": 3,
-     "ONERI": 3,
-     "KAYNAKLI": 1
+     "BEYANLI": 2,
+     "KAYNAKLI": 1,
+     "ONERI": 1
     }
    },
    {
     "ad": "Hoy",
     "hukum": {
      "BEYANLI": 2,
-     "ONERI": 6
+     "ONERI": 3
     }
    },
    {
     "ad": "Selmâs (Dilman)",
     "hukum": {
-     "BEYANLI": 4,
-     "ONERI": 2
+     "BEYANLI": 3,
+     "ONERI": 1
     }
    },
    {
     "ad": "Merend",
     "hukum": {
-     "BEYANLI": 4,
-     "ONERI": 2
+     "BEYANLI": 3,
+     "ONERI": 1
     }
    },
    {
     "ad": "Culfa",
     "hukum": {
-     "BEYANLI": 1,
+     "BEYANLI": 2,
      "KAYNAKLI": 1,
      "ONERI": 1
     }
@@ -4248,8 +4297,7 @@
    {
     "ad": "Mâku",
     "hukum": {
-     "KAYNAKLI": 1,
-     "BEYANLI": 2,
+     "BEYANLI": 3,
      "ONERI": 1
     }
    },
@@ -4264,13 +4312,13 @@
     "ad": "Astara",
     "hukum": {
      "BEYANLI": 1,
-     "ONERI": 5
+     "ONERI": 4
     }
    },
    {
     "ad": "Lenkeran",
     "hukum": {
-     "ONERI": 6
+     "ONERI": 5
     }
    },
    {
@@ -4283,7 +4331,7 @@
    {
     "ad": "Kuba",
     "hukum": {
-     "BEYANLI": 3,
+     "BEYANLI": 2,
      "ONERI": 1
     }
    },
@@ -4304,7 +4352,7 @@
    {
     "ad": "Ordubad",
     "hukum": {
-     "BEYANLI": 1,
+     "BEYANLI": 2,
      "KAYNAKLI": 1,
      "ONERI": 1
     }
@@ -4312,7 +4360,7 @@
    {
     "ad": "Norapat",
     "hukum": {
-     "BEYANLI": 2,
+     "BEYANLI": 3,
      "ONERI": 1,
      "KAYNAKLI": 1
     }
@@ -4320,7 +4368,7 @@
    {
     "ad": "Beri",
     "hukum": {
-     "BEYANLI": 2,
+     "BEYANLI": 3,
      "ONERI": 1,
      "KAYNAKLI": 1
     }
@@ -4343,16 +4391,16 @@
    "karadag-hanligi (YENI-KUNYE-ADAY)": 1,
    "sekaki-sarab (YENI-KUNYE-ADAY)": 1,
    "maku-hanligi (YENI-KUNYE-ADAY)": 1,
-   "sorogel-sultanligi (Şuregel)": 1
+   "soregel-sultanligi (Şuregel; s:'de revan-hanligi kalır)": 1
   },
   "kunye_duzeltme": [
    "baku-hanligi t 1806-10-03 → 1806-10-15 (O.S.→N.S.)",
    "derbent-hanligi t 1806-01-01: Derbend 1759'dan Kuba'ya ilhak (TDV) → künye t 1759-09-01'e KISALT adayı (1796-1802 ara hanlık ipucu ayrı sınansın)",
-   "kumuk-samhalligi t 1726-01-01 → 1867-01-01 GENİŞLET (1726-1734 Rus işgali ara kesinti; yerleşimde rusya 1726→1735 dilimi zaten var)",
-   "sirvan-hanligi f 1748-01-01 → 1747-06-20 GENİŞLET",
+   "kumuk-samhalligi t 1726-01-01 → 1867-01-01 GENİŞLET (1726-1734 Rus işgali ara kesinti; yerleşimde rusya 1726→1735 dilimi zaten var). Genişletme gelmeden uygulanırsa: 1747-06-20→1796-01-01 s: afsar korunur (BEYANLI), 1796-01-01 sonrası künyeli sahip yok → bu yerleşimin uygulaması künye kararına BAĞLI.",
+   "sirvan-hanligi f 1748-01-01 → 1747-06-20 GENİŞLET (genişletilmezse yeni kural: 1747-06-20→1748-01-01 s: afsar korunur, BEYANLI)",
    "sirvan-hanligi t 1820-01-01 → 1820-08-31"
   ],
-  "kronoloji_kirilma_toplam": 136,
-  "kronoloji_taslak_gerekli": 85
+  "kronoloji_kirilma_toplam": 135,
+  "kronoloji_taslak_gerekli": 74
  }
 }
