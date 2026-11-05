@@ -254,3 +254,5 @@ Bu bir eczane bilgisayarı ve CPU sınırlı. Ağır döngü kurma, büyük dosy
 1. f geri çekilince açılan yeni ilk dilimin SAHİBİ de kaynaklı olmalı ya da ABİ MERKEZ zinciriyle beyanlı olmalı. Sahipsiz ya da hayalet dilim bırakılmaz.
 2. Yeni dilimdeki künyenin f/t'si o aralığı kapsamalı.
 3. Değişiklik başka yerleşimlerin peteğini de değiştirir. Partinin sonunda bu satırları ayrı bir `f_geri` listesine yaz: `"F-GERI: <yer> eski f → yeni f, sahip"`.
+
+- **Japon ansiklopedileri (EMRELİC, 5 Kasım 2026):** Nipponica (Shogakukan) ve Heibonsha Sekai Daihyakka ticarî genel ansiklopedidir → ONERI-güçlü. Yamakawa Nihonshi Shōjiten akademik editörlü tarih sözlüğüdür → tek başına KAYNAKLI-çekinceli. Kotobank yalnız taşıyıcıdır; sınıf asıl esere göre belirlenir.

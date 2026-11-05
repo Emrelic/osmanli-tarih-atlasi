@@ -13,7 +13,8 @@
    "alinti": "1406年佐敷の尚巴志が中山を掌握，16年北山，29年南山を攻略し，三山を統一したとされる",
    "alinti2": "14世紀前半に今帰仁に城を構え北部一帯を勢力下におく北山，浦添城を拠点に中部一帯を支配する中山，...南山が成立したと考えられている",
    "oneri": {},
-   "not": "t 1429 yil duzeyinde KAYNAKLI (Yamakawa: 1429 Nanzan'in fethi, uc dilim birlesti; Heibonsha: 'sanzan' 1416 Hokuzan, 1429 Nanzan). f 1322 TEYITSIZ: kaynak yalniz '14. yy ilk yarisi' diyor (ic_not: 'ist yil'); 1322 kesin yili dogrulanmadi -> ucuncu bir kaynak (Kerr / Smits / Okinawa Prefecture Encyclopedia) gerekir. Urasoe Chuzan'in baskenti: Nipponica 'Urasoe-jo': Shuri'ye tasinana dek ~220 yil Shunten/Eiso/Satto ucu sulalesinin kalesi (https://kotobank.jp/word/浦添城-179750). Tarih ifadeleri yil duzeyinde, Japon era adi yok bu satirda. oneri_son yalniz yil duzeyi."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): KAYNAK SINIFI: Yamakawa Nihonshi Shōjiten akademik editörlü konu sözlüğü → KAYNAKLI-çekinceli (tek başına). Kotobank yalnız taşıyıcı. · t 1429 yil duzeyinde KAYNAKLI (Yamakawa: 1429 Nanzan'in fethi, uc dilim birlesti; Heibonsha: 'sanzan' 1416 Hokuzan, 1429 Nanzan). f 1322 TEYITSIZ: kaynak yalniz '14. yy ilk yarisi' diyor (ic_not: 'ist yil'); 1322 kesin yili dogrulanmadi -> ucuncu bir kaynak (Kerr / Smits / Okinawa Prefecture Encyclopedia) gerekir. Urasoe Chuzan'in baskenti: Nipponica 'Urasoe-jo': Shuri'ye tasinana dek ~220 yil Shunten/Eiso/Satto ucu sulalesinin kalesi (https://kotobank.jp/word/浦添城-179750). Tarih ifadeleri yil duzeyinde, Japon era adi yok bu satirda. oneri_son yalniz yil duzeyi.",
+   "_etiket": "KAYNAKLI_CEKINCELI"
   },
   {
    "sira": 3869,
@@ -28,7 +29,8 @@
    "alinti": "1429年，尚巴志が沖縄本島の北山・中山・南山の3王国を統一して樹立した王国。首里に王府をおき",
    "alinti2": "79年3月27日，松田は...〈琉球藩〉を廃し〈沖縄県〉を設置する旨を琉球側に布告し，3月31日限りで王宮首里城の明渡しを命じた",
    "oneri": {},
-   "not": "ICERIK: f yil duzeyi (1429 = 3 devletin birlesmesi; Nipponica: 1416 Hokuzan, 1429 Nanzan). t gun duzeyi: 1879-03-27 = Matsuda'nin Ryukyu han'ini kaldirip Okinawa ilini ilan ettigi gun (Gregoryen; kaynak 79年3月27日); 3-31 Shuri kalesi teslim suresi ic_not. EK: 1609 Satsuma isgali sonrasi Ryukyu Satsuma'ya TABI (v:) + Cin'e haraccidir; atlasta Satsuma/Shimazu icin kunye YOK (devletler.js grep: edo-bakufu var, satsuma yok); Kotobank Yamakawa 'Ryukyu ōkoku' 1609'u (慶長14) anar ama gun vermez -> v: katmani BULUNAMADI (gun), LAB'a kunye adayi 'satsuma-han' + 1609 yil duzeyi. Dikkat: tarih Gregoryen; Meiji 12 = 1879."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): KAYNAK SINIFI: Yamakawa Nihonshi Shōjiten akademik editörlü konu sözlüğü → KAYNAKLI-çekinceli (tek başına). Kotobank yalnız taşıyıcı. · ICERIK: f yil duzeyi (1429 = 3 devletin birlesmesi; Nipponica: 1416 Hokuzan, 1429 Nanzan). t gun duzeyi: 1879-03-27 = Matsuda'nin Ryukyu han'ini kaldirip Okinawa ilini ilan ettigi gun (Gregoryen; kaynak 79年3月27日); 3-31 Shuri kalesi teslim suresi ic_not. EK: 1609 Satsuma isgali sonrasi Ryukyu Satsuma'ya TABI (v:) + Cin'e haraccidir; atlasta Satsuma/Shimazu icin kunye YOK (devletler.js grep: edo-bakufu var, satsuma yok); Kotobank Yamakawa 'Ryukyu ōkoku' 1609'u (慶長14) anar ama gun vermez -> v: katmani BULUNAMADI (gun), LAB'a kunye adayi 'satsuma-han' + 1609 yil duzeyi. Dikkat: tarih Gregoryen; Meiji 12 = 1879.",
+   "_etiket": "KAYNAKLI_CEKINCELI"
   },
   {
    "sira": 3870,
@@ -47,7 +49,7 @@
     "d": "meiji-japonya",
     "not_d": "1947-05-03'ten sonrasi icin japonya-devleti ile devam"
    },
-   "not": "UMIT (5 Kasım 2026, emsal uygulaması): Okinawa emsali: Nago/Şuri kararı (gece-56, EMRELİC r8_122) — ryukyu-abd-idaresi künyesi (1945-04-01 → 1972-05-15, tur gecici-isgal) kullanılır, Japon kalıntı egemenliği ic_not. Ajanın \"s: japonya + isg ryukyu-abd-idaresi\" önerisi emsalle çelişiyor; Urasoe Maeda sırtı Nisan sonu direnişi şehre özgü gün olarak ic_not. · f KAYNAKLI (gun, 1879-03-27, Okinawa ili ilani; ÖLÇÜT: idareye katma - il kuruldu). t 1945-04-01 yalniz ABD'nin Okinawa ana adasina CIKARMA gunudur (Nipponica 沖縄戦); Urasoe icin Maeda surtu (浦添高地) Nisan sonuna dek Japon elinde direndi ('沖縄戦の天王山', Heibonsha Urasoe maddesi) -> 04-01 Urasoe'nin fiili el degisimi degil. TEK KURAL: savas isgali egemenlik devri degildir; Japonya'nin 1952 San Francisco'dan sonra da 'artik egemenlik' sakli, 1972-05-15'te 'iade' (Britannica Kok. 'Okinawa henkan'). ÖNERİ: s: meiji-japonya/japonya 1879-03-27 -> 1972-05-15 surer; 1945-04-01 -> 1972-05-15 ayri 'isg: ryukyu-abd-idaresi' katmani (kunye zaten tur=gecici-isgal). KURAL KARARI EMRELİC'te: 1945-72 ABD idaresini s: mi isg: mi yazalim (atlas su an s: ryukyu-abd-idaresi). 04-01 yerine Urasoe icin fiili ele gecirme gunu kaynakla ayrica bulunmali (BAKILMADI)."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Okinawa: Nago/Şuri emsali onay (ryukyu-abd-idaresi künyesi; kalıntı egemenlik ic_not). · UMIT (5 Kasım 2026, emsal uygulaması): Okinawa emsali: Nago/Şuri kararı (gece-56, EMRELİC r8_122) — ryukyu-abd-idaresi künyesi (1945-04-01 → 1972-05-15, tur gecici-isgal) kullanılır, Japon kalıntı egemenliği ic_not. Ajanın \"s: japonya + isg ryukyu-abd-idaresi\" önerisi emsalle çelişiyor; Urasoe Maeda sırtı Nisan sonu direnişi şehre özgü gün olarak ic_not. · f KAYNAKLI (gun, 1879-03-27, Okinawa ili ilani; ÖLÇÜT: idareye katma - il kuruldu). t 1945-04-01 yalniz ABD'nin Okinawa ana adasina CIKARMA gunudur (Nipponica 沖縄戦); Urasoe icin Maeda surtu (浦添高地) Nisan sonuna dek Japon elinde direndi ('沖縄戦の天王山', Heibonsha Urasoe maddesi) -> 04-01 Urasoe'nin fiili el degisimi degil. TEK KURAL: savas isgali egemenlik devri degildir; Japonya'nin 1952 San Francisco'dan sonra da 'artik egemenlik' sakli, 1972-05-15'te 'iade' (Britannica Kok. 'Okinawa henkan'). ÖNERİ: s: meiji-japonya/japonya 1879-03-27 -> 1972-05-15 surer; 1945-04-01 -> 1972-05-15 ayri 'isg: ryukyu-abd-idaresi' katmani (kunye zaten tur=gecici-isgal). KURAL KARARI EMRELİC'te: 1945-72 ABD idaresini s: mi isg: mi yazalim (atlas su an s: ryukyu-abd-idaresi). 04-01 yerine Urasoe icin fiili ele gecirme gunu kaynakla ayrica bulunmali (BAKILMADI)."
   },
   {
    "sira": 3871,
@@ -56,13 +58,15 @@
    "d": "ryukyu-shunten-eiso",
    "f": "1187-01-01",
    "t": "1322-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Nipponica (Shogakukan) 'Shunten' (Takara Kurayoshi), https://kotobank.jp/word/舜天-291513 ; Heibonsha Sekai Daihyakka 'Urasoe-shi' maddesi: 12. yy ortasindan 15. yy basina dek Urasoe 'oujo no chi' (Kotobank 沖縄戦 sayfasindaki atif)",
    "alinti": "1180年（治承4）衆望を集めて浦添按司となり、87年（文治3）...王位に登り",
    "alinti2": "王とはいっても琉球一円の覇者ではなく、浦添地方一帯を勢力圏とする強大な按司にすぎなかった、という見方が有力である",
    "oneri": {},
-   "not": "f: 1187 'Shunten'in tahta cikisi' (GELENEK; Nipponica 'と伝えられる', 'tedbir hakkinda belge yok'); 1180 Urasoe aji olusu ayri olay. Yil duzeyi, atlas 1187-01-01 yer tutucu. t 1322 (Eiso hanedaninin sonu / Sanzan'in basi) TEYITSIZ; Nipponica: Shunten sulalesi 3 kral (Shunten, Shunbajunki, Gihon); Eiso sulalesi ayrik. Ek uyari: Nipponica Shunten'in gucunu 'Urasoe cevresi' ile sinirli sayiyor -> Urasoe icin dogrudan dayanak. CEVRILECEK ifadeler (EMRELİC): '治承4' (Jisho 4) = 1180; '文治3' (Bunji 3) = 1187 (NAOJ ile). oneri_son yalniz yil."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): KAYNAK SINIFI: Nipponica / Heibonsha Sekai Daihyakka / Britannica Kokusai ticarî genel ansiklopedi (Britannica/Larousse dengi) → ONERI-güçlü. Kotobank yalnız taşıyıcı. · f: 1187 'Shunten'in tahta cikisi' (GELENEK; Nipponica 'と伝えられる', 'tedbir hakkinda belge yok'); 1180 Urasoe aji olusu ayri olay. Yil duzeyi, atlas 1187-01-01 yer tutucu. t 1322 (Eiso hanedaninin sonu / Sanzan'in basi) TEYITSIZ; Nipponica: Shunten sulalesi 3 kral (Shunten, Shunbajunki, Gihon); Eiso sulalesi ayrik. Ek uyari: Nipponica Shunten'in gucunu 'Urasoe cevresi' ile sinirli sayiyor -> Urasoe icin dogrudan dayanak. CEVRILECEK ifadeler (EMRELİC): '治承4' (Jisho 4) = 1180; '文治3' (Bunji 3) = 1187 (NAOJ ile). oneri_son yalniz yil.",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
   },
   {
    "sira": 3872,
@@ -71,13 +75,15 @@
    "d": "ryukyu-abd-idaresi",
    "f": "1945-04-01",
    "t": "1972-05-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "t",
    "kaynak": "Britannica Kokusai Daihyakka Jiten Shōkōmoku, 'Okinawa henkan' (Kotobank https://kotobank.jp/word/沖縄返還-39933); Sekai Daihyakka Jiten 'Okinawa[ken]' alintisi ayni sayfa: 72年5月15日の施政権返還",
    "alinti": "沖縄返還協定が調印された翌1972年5月15日，27年ぶりに日本に返還された",
    "alinti2": "72年5月15日の施政権返還というかたちで，日米両政府間における沖縄返還が歴史的事実となった",
    "oneri": {},
-   "not": "UMIT (5 Kasım 2026, emsal uygulaması): Okinawa emsali: Nago/Şuri kararı (gece-56, EMRELİC r8_122) — ryukyu-abd-idaresi künyesi (1945-04-01 → 1972-05-15, tur gecici-isgal) kullanılır, Japon kalıntı egemenliği ic_not. Ajanın \"s: japonya + isg ryukyu-abd-idaresi\" önerisi emsalle çelişiyor; Urasoe Maeda sırtı Nisan sonu direnişi şehre özgü gün olarak ic_not. · t gun duzeyinde KAYNAKLI (1972-05-15 'idare yetkisinin iadesi'). f 1945-04-01 = Kadena cikarmasi (Nipponica 沖縄戦: '4月1日...沖縄本島中部嘉手納海岸に上陸'), Urasoe'nin fiili ele gecirilis gunu DEGIL (Maeda surtu Nisan sonu-Mayis basi), ayrica askeri idare ilani ayri gun (kunye ozeti de bunu soyluyor) -> f teyitsiz, yalniz bu satirin f'si icin 'ucu teyitsiz'. TEK KURAL notu icin 3870'e bak (alan s: mi isg: mi)."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): KAYNAK SINIFI: Nipponica / Heibonsha Sekai Daihyakka / Britannica Kokusai ticarî genel ansiklopedi (Britannica/Larousse dengi) → ONERI-güçlü. Kotobank yalnız taşıyıcı. · UMIT (5 Kasım 2026, emsal uygulaması): Okinawa emsali: Nago/Şuri kararı (gece-56, EMRELİC r8_122) — ryukyu-abd-idaresi künyesi (1945-04-01 → 1972-05-15, tur gecici-isgal) kullanılır, Japon kalıntı egemenliği ic_not. Ajanın \"s: japonya + isg ryukyu-abd-idaresi\" önerisi emsalle çelişiyor; Urasoe Maeda sırtı Nisan sonu direnişi şehre özgü gün olarak ic_not. · t gun duzeyinde KAYNAKLI (1972-05-15 'idare yetkisinin iadesi'). f 1945-04-01 = Kadena cikarmasi (Nipponica 沖縄戦: '4月1日...沖縄本島中部嘉手納海岸に上陸'), Urasoe'nin fiili ele gecirilis gunu DEGIL (Maeda surtu Nisan sonu-Mayis basi), ayrica askeri idare ilani ayri gun (kunye ozeti de bunu soyluyor) -> f teyitsiz, yalniz bu satirin f'si icin 'ucu teyitsiz'. TEK KURAL notu icin 3870'e bak (alan s: mi isg: mi).",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
   },
   {
    "sira": 3873,
@@ -86,13 +92,15 @@
    "d": "japonya-devleti",
    "f": "1972-05-15",
    "t": "2000-12-31",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Britannica Kokusai Daihyakka Jiten Shōkōmoku, 'Okinawa henkan' (Kotobank https://kotobank.jp/word/沖縄返還-39933)",
    "alinti": "沖縄返還協定が調印された翌1972年5月15日，27年ぶりに日本に返還された",
    "alinti2": "",
    "oneri": {},
-   "not": "f gun KAYNAKLI. t 2000-12-31 atlasin zaman ufku, olay degil. Kunye japonya-devleti f 1947-05-03 (1947 Anayasasi) bu satiri kapsar. Eger 3870 onerisi (Japon egemenligi 1972'ye dek) kabul edilirse bu satir 1947-05-03'ten baslayip ayni devletle birlesir."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): KAYNAK SINIFI: Nipponica / Heibonsha Sekai Daihyakka / Britannica Kokusai ticarî genel ansiklopedi (Britannica/Larousse dengi) → ONERI-güçlü. Kotobank yalnız taşıyıcı. · f gun KAYNAKLI. t 2000-12-31 atlasin zaman ufku, olay degil. Kunye japonya-devleti f 1947-05-03 (1947 Anayasasi) bu satiri kapsar. Eger 3870 onerisi (Japon egemenligi 1972'ye dek) kabul edilirse bu satir 1947-05-03'ten baslayip ayni devletle birlesir.",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
   }
  ],
  "House of Taga (Tinian, Marianlar)": [
@@ -109,7 +117,7 @@
    "alinti": "in 1695 the Spanish conquistador Don Jose Quiroga left Guam to subdue the island of Tinian",
    "alinti2": "The surviving Tinian and Aguiguan Chamorros were taken to Guam for resettlement",
    "oneri": {},
-   "not": "UMIT (5 Kasım 2026, emsal uygulaması): Mariana emsali (Garapan, EMRELİC Namibya modeli): 1899 Alman devri (TEK ÖLÇÜ teslim günü) → 1914-10 isg (altında s: alman-yeni-gine adayı) → 1919-06-28 s: meiji-japonya → 1920-12-17 nanyo-mandasi (aday). Alman Mikronezya künyesi LAB adayında (alman-yeni-gine). · ONERI-guclu: f 1695 yil duzeyinde Tinian'in Ispanyol fethiyle uyumlu (Guampedia ham metin, 'According to the Spanish records'), ancak Guampedia yerel/portal sinifi -> tek basina KAYNAKLI degil. TEK KURAL: Ispanya Marianlar'i 1565'ten beri iddia ediyordu (Legazpi) ve 1668'de Guam'da Sanvitores misyonu; Tinian icin fiili idare 1695 sonrasi (ahali Guam'a kaydirildi, ada bos kaldi ~1720'lere dek). t 1899-11-17 TEYITSIZ: 1899 Ispanya-Almanya anlasmasi (12 Subat 1899) Wikipedia ile ipucu; Alman devralma gunu kaynakla bulunmadi (BAKILMADI). BOSLUK: 1899-11-17 -> 1914-10-14 arasi Alman idaresi atlasta KUNYESIZ (devletler.js'te Alman Imparatorlugu/Alman Mikronezyasi kunyesi YOK, 'almanya' = Kutsal Roma) -> LAB'a kunye adayi 'alman-mikronezya' (veya 'alman-yeni-gine'), yoksa Tinian bu aralikta delik."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · UMIT (5 Kasım 2026, emsal uygulaması): Mariana emsali (Garapan, EMRELİC Namibya modeli): 1899 Alman devri (TEK ÖLÇÜ teslim günü) → 1914-10 isg (altında s: alman-yeni-gine adayı) → 1919-06-28 s: meiji-japonya → 1920-12-17 nanyo-mandasi (aday). Alman Mikronezya künyesi LAB adayında (alman-yeni-gine). · ONERI-guclu: f 1695 yil duzeyinde Tinian'in Ispanyol fethiyle uyumlu (Guampedia ham metin, 'According to the Spanish records'), ancak Guampedia yerel/portal sinifi -> tek basina KAYNAKLI degil. TEK KURAL: Ispanya Marianlar'i 1565'ten beri iddia ediyordu (Legazpi) ve 1668'de Guam'da Sanvitores misyonu; Tinian icin fiili idare 1695 sonrasi (ahali Guam'a kaydirildi, ada bos kaldi ~1720'lere dek). t 1899-11-17 TEYITSIZ: 1899 Ispanya-Almanya anlasmasi (12 Subat 1899) Wikipedia ile ipucu; Alman devralma gunu kaynakla bulunmadi (BAKILMADI). BOSLUK: 1899-11-17 -> 1914-10-14 arasi Alman idaresi atlasta KUNYESIZ (devletler.js'te Alman Imparatorlugu/Alman Mikronezyasi kunyesi YOK, 'almanya' = Kutsal Roma) -> LAB'a kunye adayi 'alman-mikronezya' (veya 'alman-yeni-gine'), yoksa Tinian bu aralikta delik."
   },
   {
    "sira": 3875,
@@ -128,7 +136,7 @@
     "d": "meiji-japonya",
     "ek_donem": "isg japonya (askeri/donanma isgali) 1914-10-14 -> 1919-06-28, d: Alman kunyesi (yok, LAB)"
    },
-   "not": "UMIT (5 Kasım 2026, emsal uygulaması): Mariana emsali (Garapan, EMRELİC Namibya modeli): 1899 Alman devri (TEK ÖLÇÜ teslim günü) → 1914-10 isg (altında s: alman-yeni-gine adayı) → 1919-06-28 s: meiji-japonya → 1920-12-17 nanyo-mandasi (aday). Alman Mikronezya künyesi LAB adayında (alman-yeni-gine). · ÖLÇÜT: geçici/askerî — savas isgali; Alman egemenligi Versay 1919-06-28'e (Madde 118-119: Almanya denizasiri haklarindan vazgecer) dek hukuken surer; Japon sivil idaresi 1920'ye kadar donanma idaresi (Wikipedia). 1914-10-14 gunu BULUNAMADI (kaynak 'Ekim 1914' diyor, gun vermiyor) -> yil/ay duzeyi. Versay'dan sonra yetki 'C sinifi Milletler Cemiyeti mandasi' (1920-12-17 Konsey) = egemenlik DEGIL: kunye adayi 'japon-guney-denizi-mandasi'. Onerilen: s: meiji-japonya 1914-10-14 yerine isg japonya 1914-10 -> 1919-06-28; 1919-06-28 -> 1944-08-01 mandater kunyesi (LAB) ya da s: meiji-japonya + beyan. Ikinci el kaynak (Wikipedia) -> hukum ONERI. t 1944-08-01 icin 3877'ye bak."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · UMIT (5 Kasım 2026, emsal uygulaması): Mariana emsali (Garapan, EMRELİC Namibya modeli): 1899 Alman devri (TEK ÖLÇÜ teslim günü) → 1914-10 isg (altında s: alman-yeni-gine adayı) → 1919-06-28 s: meiji-japonya → 1920-12-17 nanyo-mandasi (aday). Alman Mikronezya künyesi LAB adayında (alman-yeni-gine). · ÖLÇÜT: geçici/askerî — savas isgali; Alman egemenligi Versay 1919-06-28'e (Madde 118-119: Almanya denizasiri haklarindan vazgecer) dek hukuken surer; Japon sivil idaresi 1920'ye kadar donanma idaresi (Wikipedia). 1914-10-14 gunu BULUNAMADI (kaynak 'Ekim 1914' diyor, gun vermiyor) -> yil/ay duzeyi. Versay'dan sonra yetki 'C sinifi Milletler Cemiyeti mandasi' (1920-12-17 Konsey) = egemenlik DEGIL: kunye adayi 'japon-guney-denizi-mandasi'. Onerilen: s: meiji-japonya 1914-10-14 yerine isg japonya 1914-10 -> 1919-06-28; 1919-06-28 -> 1944-08-01 mandater kunyesi (LAB) ya da s: meiji-japonya + beyan. Ikinci el kaynak (Wikipedia) -> hukum ONERI. t 1944-08-01 icin 3877'ye bak."
   },
   {
    "sira": 3876,
@@ -143,7 +151,7 @@
    "alinti": "in 1695 the Spanish conquistador Don Jose Quiroga left Guam to subdue the island of Tinian",
    "alinti2": "All the Tinian and Aguiguan Chamorros were killed or captured except Taga",
    "oneri": {},
-   "not": "t 1695: ONERI-guclu (Guampedia, yerel portal). f 1000-01-01 TEYITSIZ: Guampedia Taga evi 'latte' mimarisinin zirvesi diyor ama yil vermiyor; kunye chamorro f 0800 (Latte donemi), satir f 1000 = kunye icinden ozgul secim, kaynagi yok (BULUNAMADI). Kunye chamorro t 1698-01-01 iken satir t 1695: Tinian 1695'te bosaltildi (Guampedia), kunye t kunyenin kendi mantigiyla (1698 seferi) farkli -> iki yil farki ic_not. 'Taga' kisisi 1638 (Concepcion enkazi) tanigi olarak anilir: Taga o tarihte hayatta, Tinian'da 'maga'lahi' (Guampedia) -> 1638'de Chamorro egemenligi surdu kaniti."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · t 1695: ONERI-guclu (Guampedia, yerel portal). f 1000-01-01 TEYITSIZ: Guampedia Taga evi 'latte' mimarisinin zirvesi diyor ama yil vermiyor; kunye chamorro f 0800 (Latte donemi), satir f 1000 = kunye icinden ozgul secim, kaynagi yok (BULUNAMADI). Kunye chamorro t 1698-01-01 iken satir t 1695: Tinian 1695'te bosaltildi (Guampedia), kunye t kunyenin kendi mantigiyla (1698 seferi) farkli -> iki yil farki ic_not. 'Taga' kisisi 1638 (Concepcion enkazi) tanigi olarak anilir: Taga o tarihte hayatta, Tinian'da 'maga'lahi' (Guampedia) -> 1638'de Chamorro egemenligi surdu kaniti."
   },
   {
    "sira": 3877,
@@ -161,7 +169,7 @@
     "d": "abd",
     "alan": "isg"
    },
-   "not": "ÖLÇÜT: geçici/askerî — ABD Donanma askeri idaresi; Japon mandasi (Milletler Cemiyeti C mandasi) 1947'ye dek hukuken 'sona ermemis', BM vesayeti 1947-04-02'de onaylandi, 1947-07-18'de yururluge girdi (kunye pasifik-adalari-vesayet). TEK KURAL: savas isgali = isg. Ancak mandater (Japonya) 1945'te fiilen yok; egemenlik 'askida' (mandat) -> s: mi isg: mi EMRELİC KURAL KARARI. 1944-08-01 'ada guvenli ilan' gunu (Wikipedia, USMC kaynak ham metinde okunmadi); ilk cikarma 1944-07-24. Ham USMC History Division monografisi okunmadi -> BAKILMADI (birincil/akademik teyit)."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · ÖLÇÜT: geçici/askerî — ABD Donanma askeri idaresi; Japon mandasi (Milletler Cemiyeti C mandasi) 1947'ye dek hukuken 'sona ermemis', BM vesayeti 1947-04-02'de onaylandi, 1947-07-18'de yururluge girdi (kunye pasifik-adalari-vesayet). TEK KURAL: savas isgali = isg. Ancak mandater (Japonya) 1945'te fiilen yok; egemenlik 'askida' (mandat) -> s: mi isg: mi EMRELİC KURAL KARARI. 1944-08-01 'ada guvenli ilan' gunu (Wikipedia, USMC kaynak ham metinde okunmadi); ilk cikarma 1944-07-24. Ham USMC History Division monografisi okunmadi -> BAKILMADI (birincil/akademik teyit)."
   },
   {
    "sira": 3878,
@@ -176,7 +184,7 @@
    "alinti": "",
    "alinti2": "",
    "oneri": {},
-   "not": "Baktigim: Wikipedia 'Trust Territory of the Pacific Islands' (ham metinde 1947-07-18 ve 1986-11-03 ARANDI, bulunamadi; kaynakca Reagan 'Proclamation 5564 of November 3, 1986' (GPO PDF) gosteriyor ama acilmadi), Guampedia arama sayfasi. Kunye (devletler.js) 1947-07-18 / 1986-11-03 yazili ama atlas referans degildir. Birincil kaynak onerisi: BM 1947 vesayet anlasmasi metni (UN), Proclamation 5564 (GPO), Covenant (Public Law 94-241)."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · Baktigim: Wikipedia 'Trust Territory of the Pacific Islands' (ham metinde 1947-07-18 ve 1986-11-03 ARANDI, bulunamadi; kaynakca Reagan 'Proclamation 5564 of November 3, 1986' (GPO PDF) gosteriyor ama acilmadi), Guampedia arama sayfasi. Kunye (devletler.js) 1947-07-18 / 1986-11-03 yazili ama atlas referans degildir. Birincil kaynak onerisi: BM 1947 vesayet anlasmasi metni (UN), Proclamation 5564 (GPO), Covenant (Public Law 94-241)."
   },
   {
    "sira": 3879,
@@ -191,7 +199,7 @@
    "alinti": "",
    "alinti2": "",
    "oneri": {},
-   "not": "Aynı sebep: 1986-11-03 (Proclamation 5564; CNMI Commonwealth) ham metinden okunamadi; GPO PDF acilmadi. t atlas ufku. Commonwealth statusu icin s: abd uygun mu (ozerk Commonwealth), KURAL KARARI EMRELİC."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Tinian: Garapan zinciri onay. · Aynı sebep: 1986-11-03 (Proclamation 5564; CNMI Commonwealth) ham metinden okunamadi; GPO PDF acilmadi. t atlas ufku. Commonwealth statusu icin s: abd uygun mu (ozerk Commonwealth), KURAL KARARI EMRELİC."
   }
  ],
  "Nri (Agukwu Nri)": [
@@ -290,7 +298,7 @@
     "f": "1284-03-03",
     "ek_donem": "isg ingiltere 1282-12 -> 1284-03-03 (Gwynedd) YA DA f 1283-10-03 korunur"
    },
-   "not": "1283-10-03 = Gwynedd'in SON prensi Dafydd'in Shrewsbury'de idami (DWB, ham metin) — Gwynedd'in egemenlik sonu, ama Garth Celyn/Aber icin 'Ingiliz idaresi baslangici' degil, baska olaydir -> kaynakli SAYILMAZ (ONERI). DWB: Llywelyn 1282-12'de olur; Dafydd 1283-06'ya dek dayanir. Aber (Garth Celyn) Llywelyn'in 'llys'i (Wikipedia: Kasim 1282'de 'Garth Kelyn' tarihli mektup) — Edward I'in o yerde idareye katmasinin gunu BULUNAMADI. Hukuki idareye katma: Statute of Rhuddlan (Wikipedia: ordonans 1284-03-03, Rhuddlan'da 1284-03-19'da ilan; ikisi de Wikipedia, DWB'den Edward maddesi bulunamadi). TEK KURAL/ölçüt: Edward 1282-83'te Gwynedd'i askerice ele gecirdi, 1284 ordonansi anayasal temel — 'idareye katma belgesi' (Welsh Rolls/kamara) aranmadi: BAKILMADI. Karar EMRELİC: fetih gunu mu (1283-06/10) 1284-03-03 mu."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Garth Celyn: TEK ÖLÇÜ fetih günü (Gwynedd'in düşüşü / Dolbadarn 1283 Nisan, kaynakla; Jülyen). 1283-10-03 idam ve 1284-03-03 Rhuddlan Statüsü ic_not. · 1283-10-03 = Gwynedd'in SON prensi Dafydd'in Shrewsbury'de idami (DWB, ham metin) — Gwynedd'in egemenlik sonu, ama Garth Celyn/Aber icin 'Ingiliz idaresi baslangici' degil, baska olaydir -> kaynakli SAYILMAZ (ONERI). DWB: Llywelyn 1282-12'de olur; Dafydd 1283-06'ya dek dayanir. Aber (Garth Celyn) Llywelyn'in 'llys'i (Wikipedia: Kasim 1282'de 'Garth Kelyn' tarihli mektup) — Edward I'in o yerde idareye katmasinin gunu BULUNAMADI. Hukuki idareye katma: Statute of Rhuddlan (Wikipedia: ordonans 1284-03-03, Rhuddlan'da 1284-03-19'da ilan; ikisi de Wikipedia, DWB'den Edward maddesi bulunamadi). TEK KURAL/ölçüt: Edward 1282-83'te Gwynedd'i askerice ele gecirdi, 1284 ordonansi anayasal temel — 'idareye katma belgesi' (Welsh Rolls/kamara) aranmadi: BAKILMADI. Karar EMRELİC: fetih gunu mu (1283-06/10) 1284-03-03 mu."
   },
   {
    "sira": 3886,
@@ -305,7 +313,7 @@
    "alinti": "on 3 October 1283, David III ... suffered a traitor's death",
    "alinti2": "in November 1282 Prince Llywelyn ap Gruffudd dated letters ... at \"Garth Kelyn\"",
    "oneri": {},
-   "not": "t 1283-10-03 bir oge: son Galler prensinin idami, Gwynedd'in sonu (yaklasik; ülke duzeyi olay). Garth Celyn icin fiili el degisimi 1282-12 / 1283-06 arasi (DWB: Llywelyn 1282-12, Dafydd 1283-06'da yakalandi) olabilir -> ONERI. f 1000-01-01 TEYITSIZ: Aber llys'i 12.-13. yy'da belgeli (Wikipedia: Llywelyn 1282'de Garth Celyn'de mektup yazdi; yer iddiasi tartismali: 'Pen y Bryn' vs koy merkezi kazisi) — 1000 yilinda yer bulunmasi icin kaynak bulunamadi (BULUNAMADI). Dictionary of Welsh Biography Llywelyn maddesi slug'i tahmin edilemedi (404), Edward maddesi de (404)."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Garth Celyn: TEK ÖLÇÜ fetih günü (Gwynedd'in düşüşü / Dolbadarn 1283 Nisan, kaynakla; Jülyen). 1283-10-03 idam ve 1284-03-03 Rhuddlan Statüsü ic_not. · t 1283-10-03 bir oge: son Galler prensinin idami, Gwynedd'in sonu (yaklasik; ülke duzeyi olay). Garth Celyn icin fiili el degisimi 1282-12 / 1283-06 arasi (DWB: Llywelyn 1282-12, Dafydd 1283-06'da yakalandi) olabilir -> ONERI. f 1000-01-01 TEYITSIZ: Aber llys'i 12.-13. yy'da belgeli (Wikipedia: Llywelyn 1282'de Garth Celyn'de mektup yazdi; yer iddiasi tartismali: 'Pen y Bryn' vs koy merkezi kazisi) — 1000 yilinda yer bulunmasi icin kaynak bulunamadi (BULUNAMADI). Dictionary of Welsh Biography Llywelyn maddesi slug'i tahmin edilemedi (404), Edward maddesi de (404)."
   }
  ],
  "Foix": [
@@ -322,7 +330,7 @@
    "alinti": "Con Enrico IV passò alla corona di Francia.",
    "alinti2": "",
    "oneri": {},
-   "not": "Treccani cumlesi YILSIZ (Enrico IV ile Fransa tacina gecti) -> kural: yılsız cümle ONERI. 1607 yili fr.wikipedia bilgi kutusunda (Edit de reunion juillet 1607); akademik/ansiklopedik ham teyit bulunamadi (Larousse/Treccani 'Enrico IV' maddesi okunmadi). t 1792-09-22 (Cumhuriyet ilani) icin Foix'ya ozgu tanik aranmadi: BAKILMADI; Foix 1789-90'da Ariege departmani olarak yok olur (fr.wikipedia 'disparition 1789-1790', 4 Mart 1790) — ama devlet 'fransa' kunyesi Cumhuriyet'te de surer, t bu devletin kunye t'sine baglidir."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Foix F-GERI 1012 (Treccani) onay; foix-kontlugu künye GENİŞLET LAB'a. · Treccani cumlesi YILSIZ (Enrico IV ile Fransa tacina gecti) -> kural: yılsız cümle ONERI. 1607 yili fr.wikipedia bilgi kutusunda (Edit de reunion juillet 1607); akademik/ansiklopedik ham teyit bulunamadi (Larousse/Treccani 'Enrico IV' maddesi okunmadi). t 1792-09-22 (Cumhuriyet ilani) icin Foix'ya ozgu tanik aranmadi: BAKILMADI; Foix 1789-90'da Ariege departmani olarak yok olur (fr.wikipedia 'disparition 1789-1790', 4 Mart 1790) — ama devlet 'fransa' kunyesi Cumhuriyet'te de surer, t bu devletin kunye t'sine baglidir."
   },
   {
    "sira": 3889,
@@ -339,7 +347,7 @@
    "oneri": {
     "f": "1012-01-01"
    },
-   "not": "Treccani (KAYNAKLI sinifi) kontlugun KURULUSUNU 1012 verir ('Ruggero I' adi icin; fr.wikipedia ilk kont Bernard-Roger 1012-1034, Roger I 1034-1064): satir/kunye f 1064 = ikinci/ucuncu kont donemi baslangici, kuruluş degil. F-VAROLUS: f 1064 -> 1012, sahip foix-kontlugu; ancak KUNYE f 1064 bu araligi kapsamiyor -> kunye f 1064 -> 1012 genisletilmeli (LAB). Foix kenti 6. yy'dan beri var (Saint-Volusien manastiri, Treccani) ve oncesinde Carcassonne kontlugu icindeydi (fr.wikipedia) -> 1012 oncesi dilim BEYANLI ABI MERKEZ (carcassonne) ya da kırp. t 1607 yil: Treccani yılsız; bak 3887. Kontlugun 1434'te Navarra ile birlesmesi, 1484 Albret ic_not."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Foix F-GERI 1012 (Treccani) onay; foix-kontlugu künye GENİŞLET LAB'a. · Treccani (KAYNAKLI sinifi) kontlugun KURULUSUNU 1012 verir ('Ruggero I' adi icin; fr.wikipedia ilk kont Bernard-Roger 1012-1034, Roger I 1034-1064): satir/kunye f 1064 = ikinci/ucuncu kont donemi baslangici, kuruluş degil. F-VAROLUS: f 1064 -> 1012, sahip foix-kontlugu; ancak KUNYE f 1064 bu araligi kapsamiyor -> kunye f 1064 -> 1012 genisletilmeli (LAB). Foix kenti 6. yy'dan beri var (Saint-Volusien manastiri, Treccani) ve oncesinde Carcassonne kontlugu icindeydi (fr.wikipedia) -> 1012 oncesi dilim BEYANLI ABI MERKEZ (carcassonne) ya da kırp. t 1607 yil: Treccani yılsız; bak 3887. Kontlugun 1434'te Navarra ile birlesmesi, 1484 Albret ic_not."
   }
  ],
  "San Salvador Kalesi, Heping Adasi (Keelung)": [
@@ -356,7 +364,32 @@
    "alinti": "Captain H. Haronse, Commander of the Expedition sent to conquer Kelang and drive away the Spaniards ... Fort La Sanctissimo Trinidado, 4 September 1642",
    "alinti2": "In 1626, the Spanish established Fort San Salvador at present-day Keelung",
    "oneri": {},
-   "not": "t: Campbell belgesi Keelung'un 4 Eylul 1642'de Hollanda'nin elinde oldugunu gosterir (26 Agustos teslim gunu belgede degil, ham metinde bulunmadi) -> 1642-08-26 teyitsiz ama celismez. f 1626 yil duzeyi yalniz Wikipedia (Ispanyollar Mayis 1626'da Keelung'a cikti, Fort San Salvador) -> ONERI-guclu; ay/gun BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · t: Campbell belgesi Keelung'un 4 Eylul 1642'de Hollanda'nin elinde oldugunu gosterir (26 Agustos teslim gunu belgede degil, ham metinde bulunmadi) -> 1642-08-26 teyitsiz ama celismez. f 1626 yil duzeyi yalniz Wikipedia (Ispanyollar Mayis 1626'da Keelung'a cikti, Fort San Salvador) -> ONERI-guclu; ay/gun BAKILMADI.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   },
   {
    "sira": 3891,
@@ -373,7 +406,32 @@
    "oneri": {
     "t": "1668-01-01"
    },
-   "not": "1662-02-01 Zeelandia (Tayouan) teslim gunudur; KEELUNG ayni gun el degistirmedi: Wikipedia (Tungning ve Keelung): Hollandalilar Keelung'u 1668'e dek tuttu (1661'de mürettebat Japonya'ya kacti, 1663'te geri dondu — Keelung maddesi). Campbell: 'Koxinga Formosa'yi almadan az once Keelung'dan Japonya'ya gidildi'. Ona gore 1661-1663 arasi Hollanda/Tungning belirsiz (BULUNAMADI) ve t 1668 (yil duzeyi, ay yok). ONERI-guclu (ikinci el). oneri t: 1668, Tungning dilimi 1668'e baslar."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · 1662-02-01 Zeelandia (Tayouan) teslim gunudur; KEELUNG ayni gun el degistirmedi: Wikipedia (Tungning ve Keelung): Hollandalilar Keelung'u 1668'e dek tuttu (1661'de mürettebat Japonya'ya kacti, 1663'te geri dondu — Keelung maddesi). Campbell: 'Koxinga Formosa'yi almadan az once Keelung'dan Japonya'ya gidildi'. Ona gore 1661-1663 arasi Hollanda/Tungning belirsiz (BULUNAMADI) ve t 1668 (yil duzeyi, ay yok). ONERI-guclu (ikinci el). oneri t: 1668, Tungning dilimi 1668'e baslar.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   },
   {
    "sira": 3892,
@@ -390,7 +448,32 @@
    "oneri": {
     "f": "1668-01-01"
    },
-   "not": "Keelung icin Tungning f 1662-02-01 degil 1668 (3891'e bak). t 1683-10-03 (Qing'e teslim) BAKILMADI. Kunye tungning bu araligi kapsar."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · Keelung icin Tungning f 1662-02-01 degil 1668 (3891'e bak). t 1683-10-03 (Qing'e teslim) BAKILMADI. Kunye tungning bu araligi kapsar.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   },
   {
    "sira": 3893,
@@ -405,7 +488,32 @@
    "alinti": "",
    "alinti2": "",
    "oneri": {},
-   "not": "Baktigim: Wikipedia 'Keelung' (bilgi kutusu 'Part of Taihoku Prefecture 17 April 1895' — Shimonoseki imza gunu). TEK ÖLÇÜ'ye gore Japonya fiilen yonetmiyorsa s: TESLIM gununden baslar (Shimonoseki imza 1895-04-17; Taiwan 1895-05-25 'Taiwan Cumhuriyeti' ilani; Japon girisi/teslim Haziran 1895): Keelung icin teslim gunu kaynakla aranmadi -> BAKILMADI. Qing f 1683-10-03: Qing'in Taiwan'i alisi (Tungning teslimi) Wikipedia Tungning'de aranmadi."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · Baktigim: Wikipedia 'Keelung' (bilgi kutusu 'Part of Taihoku Prefecture 17 April 1895' — Shimonoseki imza gunu). TEK ÖLÇÜ'ye gore Japonya fiilen yonetmiyorsa s: TESLIM gununden baslar (Shimonoseki imza 1895-04-17; Taiwan 1895-05-25 'Taiwan Cumhuriyeti' ilani; Japon girisi/teslim Haziran 1895): Keelung icin teslim gunu kaynakla aranmadi -> BAKILMADI. Qing f 1683-10-03: Qing'in Taiwan'i alisi (Tungning teslimi) Wikipedia Tungning'de aranmadi.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   },
   {
    "sira": 3894,
@@ -420,7 +528,32 @@
    "alinti": "",
    "alinti2": "",
    "oneri": {},
-   "not": "Bak 3893 (f). t 1945-10-25 (Retrocession, Chen Yi) icin kaynak okunmadi. Kunye ozeti Shimonoseki 17 Nisan 1895'e dayaniyor ama atlas referans degildir."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · Bak 3893 (f). t 1945-10-25 (Retrocession, Chen Yi) icin kaynak okunmadi. Kunye ozeti Shimonoseki 17 Nisan 1895'e dayaniyor ama atlas referans degildir.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   },
   {
    "sira": 3895,
@@ -435,7 +568,32 @@
    "alinti": "",
    "alinti2": "",
    "oneri": {},
-   "not": "1945-10-25 (Tayvan'in Cin Cumhuriyeti'ne devri) bu partide kaynakla okunmadi. Wikipedia Keelung: 'provincial city status 11 November 1945' (ilce statüsü; ic_not) ve 'Keelung became part of Taiwan Province under ROC after 1945'."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Keelung onay ONERI-güçlü + ara dilimler; günler Tonio Andrade, How Taiwan Became Chinese (Columbia UP, gutenberg-e, açık, akademik) bölüm 16+ — ham alıntı alınırsa KAYNAKLI. · 1945-10-25 (Tayvan'in Cin Cumhuriyeti'ne devri) bu partide kaynakla okunmadi. Wikipedia Keelung: 'provincial city status 11 November 1945' (ilce statüsü; ic_not) ve 'Keelung became part of Taiwan Province under ROC after 1945'.",
+   "oneri_son": [
+    {
+     "d": "hollanda-formosa",
+     "t": "1661/1662 (Kuzey Tayvan'ın terki)"
+    },
+    {
+     "d": "tungning",
+     "f": "1662",
+     "t": "1664"
+    },
+    {
+     "d": "hollanda-formosa",
+     "f": "1664 (Keelung'a dönüş)",
+     "t": "1668 (terk)"
+    },
+    {
+     "d": "tungning",
+     "f": "1668",
+     "t": "1683"
+    },
+    {
+     "d": "qing-hanedani",
+     "f": "1683"
+    }
+   ]
   }
  ],
  "Serra da Barriga (Cerca do Macaco, Palmares)": [
@@ -454,7 +612,7 @@
    "oneri": {
     "f": "1605-01-01"
    },
-   "not": "ONERI-guclu (Wikipedia + Schwartz atfi; ham akademik metin okunamadi; Scielo hakemli makale aranmadi -> hesaplanabilir): (a) f 1630 yerine 1605 (quilombo 'Serra da Barriga'da 1605'ten) — kunye palmares f 1630 (Britannica 'ozerk cumhuriyet'); F-VAROLUS: f 1630 -> 1605, sahip palmares (kunye f 1630 -> 1605 genisleme, LAB), 1605-1630 dilimi icin Portekiz/Pernambuco nominal sahibi; (b) t gunu: Wikipedia 'final saldiri Ocak 1694, Cerca do Macaco dustu' (gun yok); atlas 1694-02-06 gunu bu ham metinde YOK -> gun teyitsiz, yil duzeyi uyumlu. ÖLÇÜT: egemenlik/yonetim — quilombo 'confederated monarchy' fiili ozerk. Zumbi'nin 1695-11-20 olumu ic_not."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Palmares 1605: Schwartz akademik — ham alıntı varsa KAYNAKLI, yoksa ONERI-güçlü; palmares künye f LAB'a. · ONERI-guclu (Wikipedia + Schwartz atfi; ham akademik metin okunamadi; Scielo hakemli makale aranmadi -> hesaplanabilir): (a) f 1630 yerine 1605 (quilombo 'Serra da Barriga'da 1605'ten) — kunye palmares f 1630 (Britannica 'ozerk cumhuriyet'); F-VAROLUS: f 1630 -> 1605, sahip palmares (kunye f 1630 -> 1605 genisleme, LAB), 1605-1630 dilimi icin Portekiz/Pernambuco nominal sahibi; (b) t gunu: Wikipedia 'final saldiri Ocak 1694, Cerca do Macaco dustu' (gun yok); atlas 1694-02-06 gunu bu ham metinde YOK -> gun teyitsiz, yil duzeyi uyumlu. ÖLÇÜT: egemenlik/yonetim — quilombo 'confederated monarchy' fiili ozerk. Zumbi'nin 1695-11-20 olumu ic_not."
   },
   {
    "sira": 3897,
@@ -469,7 +627,7 @@
    "alinti": "putting an end to the republic in 1694",
    "alinti2": "The final assault against Palmares occurred in January 1694.",
    "oneri": {},
-   "not": "f: yil duzeyi uyumlu (1694), gun teyitsiz (bak 3896). t 1822-09-07 (Ipiranga) BAKILMADI. Kunye portekiz-brezilyasi tur='gecici-isgal' (devletler.js:6360) — 1694-1822 'gecici isgal' kunye turu anlamsiz gorunuyor (Portekiz Brezilyasi kolonisi) -> LAB'a kunye turu sorusu."
+   "not": "EMRELİC (5 Kasım 2026, r8_092): Palmares 1605: Schwartz akademik — ham alıntı varsa KAYNAKLI, yoksa ONERI-güçlü; palmares künye f LAB'a. · f: yil duzeyi uyumlu (1694), gun teyitsiz (bak 3896). t 1822-09-07 (Ipiranga) BAKILMADI. Kunye portekiz-brezilyasi tur='gecici-isgal' (devletler.js:6360) — 1694-1822 'gecici isgal' kunye turu anlamsiz gorunuyor (Portekiz Brezilyasi kolonisi) -> LAB'a kunye turu sorusu."
   }
  ],
  "Kalat (Kelat)": [
