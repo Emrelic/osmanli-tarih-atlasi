@@ -151,6 +151,48 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-100 — Academia Sinica çevirileri (CIN-TAKVIM-CEVIRI.tsv) ve Yeni Granada
+
+EMRELİC ifadeli 23 satırı Academia Sinica'da çevirdi. 1582'den sonrası Gregoryen, öncesi Jülyen verildi.
+
+**Tutanlar:**
+- Baoding: 洪武元年八月 庚午 = 1368-09-14 ✓ (己巳 = 09-13, ayın 1'i).
+- 宣統三年十二月二十五日 = 1912-02-12 ✓. Bu ifadeyi kullanan 13 satırın hepsi tutuyor.
+- Ji'an 388/389: 康熙15 2月 乙亥 = 1676-04-05 ✓.
+- Ye 4386: 泰始元年 12月 丙寅 = 0266-02-08 ✓. Aynı ayın 辛未'si 0266-02-13'tür (ayın 22'si); alıntı hangi olayı tarihliyorsa o gün alınır.
+- 康熙20 10月28日 = 1681-12-07 ✓.
+
+**Tutmayanlar** (uç kuralı: alıntının neyi tarihlediği okunur):
+
+| Satır | İfade | Çeviri | Atlas | Ne yapılır |
+|---|---|---|---|---|
+| Ji'an 383 | 至正24 8月 戊戌 | 1364-09-03 (朔 08-28, ayın 7'si) | f 1368-01-23 | Alıntı 1364'te Zhu Yuanzhang'ın Ji'an'ı alışını tarihliyorsa 1364-1368 sahibi Ming değil, Zhu'nun Wu rejimidir. Künye varsa o; yoksa BEYANLI + künye adayı. Ming künye geçişi 1368-01-23'te kalır. |
+| Ji'an 387 | 至正22 春正月 | 1362-01-27 … 02-24 (gün yok) | f 1358-06-19 | Önce alıntının 387'nin f'sini mi t'sini mi tarihlediği belirlenir; ona göre 1362-01-27 + ay beyanı. |
+| Ji'an 390/391 | 咸豐6 3月 壬戌 / 辛巳 | 1856-04-09 / 1856-04-28 | 1856-03-02 | Atlas günü ikisiyle de tutmuyor. Taiping'in Ji'an'ı alışı alıntıda hangi güne denk geliyorsa o. |
+| Ji'an 392 | 咸豐8 9月 辛巳 | 1858-10-15 | 1858-09-22 | ✗ → 1858-10-15. |
+
+**Yunnan zincirleri (Tengyue, Jingdong, Mengzi):** EMRELİC'in bu gece UMIT için yaptığı çeviriler bunlara da uygulanır.
+- 洪武15 閏2 癸卯 = 1382-04-07: Tengyue ✓.
+- 洪武15 正月 壬午 = 1382-01-16: Mengzi ✓.
+- Jingdong 1382-03-16, 閏2 ayının 朔'udur (ayın 1'i). Ay hassasiyeti mi, yoksa ayrı bir gün mü olduğu alıntıya bakılarak karar verilir.
+- 順治16 正月 = 1659-01-23 … 02-20.
+  - Atlasın 1659-01-07'si bu aydan önce düşüyor, yanlış.
+  - Alıntıda 正月庚子 varsa 1659-01-30; yoksa 01-23 + ay beyanı.
+  - Tengyue 1659-04-22 ayrı bir olaydır; alıntısı gerekiyor.
+- 1673-12-28 Wu Sangui ayaklanması: 清史稿 kaydı 12月壬子 = 1674-01-23 (kayıt günü), 丙辰 = 01-27 (haberin gelişi). UMIT'e verilen karar burada da geçerli: ayaklanma günü akademik kaynakla teyit edilirse 12-28 kalır.
+
+**Kalan 25 satır:** ganzhi ifadesi birincil metinden (明史 / 清史稿, zh.wikisource) bir Sonnet ajanıyla çıkarılır; ifadeler EMRELİC'e gönderilir, o toplu çevirir.
+
+**Yeni Granada:**
+- Venezuela eyaleti 1717-23 ve 1739-77'de de valiliğe bağlıydı. Bu yüzden 1777 öncesi dilim de `yeni-granada-valiligi` olur. Künye tek parçadır; 1723-39 kaldırılışı `ic_not`a.
+- 1742'de Venezuela'ya verilen askerî ayrıcalık `ic_not`a.
+- İstisnalar onaylandı:
+  - Tumbes geçmez.
+  - Maynas 1802 Real Cédula ile Peru'ya.
+  - Guayaquil 1803-1819 Peru'ya bağlı.
+- Hepsi kaynakla teyit edilir; kaynak bulunmazsa hüküm ONERI.
+- Uygulama listesi hazırlanır. Veriyi KASA PAZAR uygular.
+
 ## 5 Kasım 2026 gece-99 — son partiler üzerine
 
 - **(a) Doğu Timor:** gece-93 modeli geçerli. TAHRİR modeli bu gece UMIT'le denendi ve geri alındı: işgal diliminin altında sahipsiz toprak bırakıyordu (Değişmez 1).
