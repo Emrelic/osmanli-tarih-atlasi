@@ -151,6 +151,33 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-84 — UFUK sonuçları üzerine (e4_KASA_UFUK.json)
+
+- **(a) Mısır 1922 sonrası:** ikinci bir `isg` dilimi açılmaz (gece-12 kararı).
+  - 1922 bildirisi ve 1936 antlaşması İngiliz askerî varlığını hukukî bir zemine oturttu; Mısır idaresi sürdü.
+  - `ic_not`: "Kanal bölgesi 1956'ya kadar İngiliz garnizonu".
+  - 1882-1914 bundan farklıydı: o dönemde bağımsızlık da antlaşma da yoktu.
+- **(b) Tunus:** `isg fransa` katmanı SİLİNİR. Kalanlar: `v: fransa` (gece-22) + `s: tunus-beyligi-fransiz`. 72 satır tek kalemde uygulanır.
+- **(c) Halâib:** TAHRİR ve fiilî idare ölçüsü. Zincir:
+  - 1902'deki Mısır İçişleri kararından (İngiliz-Mısır Sudanı idari hattı) itibaren `s: ingiliz-sudani`. Gün kaynakla bulunur; bulunamazsa `1902-01-01` [yalnız yıl], BEYANLI.
+  - 1956-01-01'den itibaren `sudan`.
+  - 1990'lardan itibaren Mısır'ın fiilî kontrolü; veri penceresi içindeyse, kaynakla.
+  - 1899'daki 22° hattına göre hukuken Mısır olduğu `ic_not`a yazılır.
+  - `misir-kralligi` 1923 dönemi kalkar. Hüküm ONERI.
+- **(d) Zerenc:** noktanın kimliğini koordinatı belirler.
+  - Tarihî Zarang (Nimruz, Afgan Sîstânı) ile modern Zaranj aynı bölgededir; zincir koordinatın düştüğü tarafı izler.
+  - Sîstân 1872 Goldsmid hakemliği ve 1905 McMahon kararıyla bölündü; Afgan tarafı Afganistan'dır.
+  - Zincirdeki İran dönemleri 1872/1905'e kadar sürer, ardından Afganistan (kaynakla).
+  - Gerekirse İran Sîstânı ayrı bir yerleşim noktası olur (Astara/Culfa ilkesi).
+- **Sarp:**
+  - Koordinat sınırın üstündeyse hangi Sarp olduğu ölçülmeli: Türk Sarp'ı mı, Gürcü Sarpi mi?
+  - Türk yakasındaysa 1921-10-13 Kars Antlaşması'ndan itibaren `turkiye-cumhuriyeti`. 1918-21 dilimini UMIT'in elviye zinciri kapsar.
+  - **Ölçüm (KASA):** kayıt `yerlesimler_ek27.js:46`, lat 41.520, lon 41.545.
+    - Sarp/Sarpi sınır kapısı yaklaşık 41.519 K'dedir. Nokta sınırın birkaç yüz metre kuzeyinde, Gürcü yakasına düşüyor.
+    - Kaydın adı "Sarp" ve kendi 1921 Kars devri Türk köyünü anlatıyor. KASA'nın önerisi: koordinat Türk Sarp köyüne, yaklaşık 41.512 K / 41.545 D'ye taşınsın.
+    - Bu sınır enlemi genel bilgidir, haritadan ölçülmedi. KASA-YER ya da uygulayan oturum harita kaynağıyla teyit etmeli.
+- **Yukarı Burma:** 1885-11-28'in yılı aynı kaynağın önceki paragrafında açık. Bu yüzden gece-32 kuralıyla satır KAYNAKLI olur, not "yıl bağlamdan"; ONERI'ye indirmeye gerek yok.
+
 ## 5 Kasım 2026 — hicrî kural birliği ve Yukarı Burma
 
 - **Hicrî çeviri:** atlas TEK bir tabular varyant kullanır: Perşembe epoch'u, UMIT brifi.
