@@ -1,0 +1,643 @@
+{
+ "Xieng Khouang": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1353-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Laos (https://www.treccani.it/enciclopedia/laos/), TDV Laos (arama; madde yok, yalnız Fransa hâkimiyeti geçer)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Xieng Khouang (Tran Ninh/Phuan) için 1281-1353 sahibi kaynakta bulunamadı. Treccani yalnız '14. yy'da bir Lao krallığı anılır' der."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "lan-xang",
+   "f": "1353-01-01",
+   "t": "1707-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Laos, Storia — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "Un regno del L. è ricordato nel 14° sec.",
+   "oneri": {},
+   "not": "Alıntı yalnız YÜZYIL düzeyinde (14. yy) ve ÜLKE DÜZEYİ; 1353 günü/yılı teyitsiz, Xieng Khouang'ın Lan Xang'a katılışı yerleşime özgü teyitsiz (Phuan ayrı polity olabilir). Alıntı t ucunu tarihlemiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "laos-kralliklari",
+   "f": "1707-01-01",
+   "t": "1893-10-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Laos, Storia — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "nel tardo 17° sec. fu diviso nei due regni di Vientiane e di Luang Prabang",
+   "oneri": {},
+   "not": "Alıntı f ucunu yalnız yüzyıl düzeyinde (geç 17. yy) tarihliyor, ÜLKE DÜZEYİ; 1707 yılı teyitsiz. Xieng Khouang iki krallıktan hangisine bağlıydı kaynak vermiyor. t ucu (1893) sonraki satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "fransiz-cinhindi",
+   "f": "1893-10-03",
+   "t": "1953-10-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Laos, Storia — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "Nel 1893 il Siam dovette cedere la maggior parte del territorio del L. alla Francia",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu YALNIZ YIL teyitli (1893); gün 1893-10-03 teyitsiz. Xieng Khouang'ın adı geçmez. Atlas kuralı: Laos'ta Vientiane doğrudan idare (s fransa), Luang Prabang v fransa — Xieng Khouang için s mi v mi kaynak yok (TEK ÖLÇÜ/Çinhindi kuralı değerlendirilmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "laos-kralligi",
+   "f": "1953-10-22",
+   "t": "1975-12-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Laos, Storia — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "la Francia riconobbe l’indipendenza del L.",
+   "oneri": {},
+   "not": "Treccani bağımsızlığın tanınmasını Cenevre 1954'e bağlıyor (Dien Bien Phu sonrası); atlas f 1953-10-22 Fransa-Lao antlaşması. Çelişki değil olay farkı olabilir: 1953 antlaşması bu kaynakta yok; Pathet Lao 1953'te ülkenin bir kısmını denetledi (Xieng Khouang/Houaphan çevresi olabilir, kaynak yer vermiyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:71",
+   "alan": "s",
+   "d": "laos-demokratik-halk-cumhuriyeti",
+   "f": "1975-12-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Laos, Storia — https://www.treccani.it/enciclopedia/laos/",
+   "alinti": "il re Savang Vatthana abdicò (1975)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu YALNIZ YIL (1975, kralın tahttan çekilişi ve cumhuriyet ilanı); gün 1975-12-02 teyitsiz. Atlas Britannica kaynağı ayrıca duruyor."
+  }
+ ],
+ "Zeelandia Kalesi (Anping, Tainan)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:27",
+   "alan": "s",
+   "d": "hollanda-formosa",
+   "f": "1624-01-01",
+   "t": "1662-02-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Taiwan, Storia — https://www.treccani.it/enciclopedia/taiwan/",
+   "alinti": "Raggiunta nel 1623 dagli Olandesi",
+   "oneri": {},
+   "not": "Treccani Hollandalıların adaya 1623'te ulaştığını söyler (atlas f 1624: Zeelandia inşa/egemenlik); ULAŞMA ≠ egemenlik/kale. Alıntı t ucunu tarihlemiyor (1662 teslim yok). TDV Tayvan maddesi yok (tayvan arama sayfası yalnız geçen anmalar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:27",
+   "alan": "s",
+   "d": "tungning",
+   "f": "1662-02-01",
+   "t": "1683-10-03",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Taiwan (https://www.treccani.it/enciclopedia/taiwan/), TDV tayvan (arama; madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zheng/Tungning dönemi Treccani Taiwan'da anılmıyor; Iranica/Britannica bu alanla ilgisiz/erişilemez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:27",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1683-10-03",
+   "t": "1895-04-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Taiwan, Storia — https://www.treccani.it/enciclopedia/taiwan/",
+   "alinti": "nel 1683 entrò a far parte dell’Impero cinese",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu YALNIZ YIL (1683); gün 1683-10-03 teyitsiz. Kale yerleşimine özgü değil, ada düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:27",
+   "alan": "s",
+   "d": "japon-tayvani",
+   "f": "1895-04-17",
+   "t": "1945-10-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Taiwan, Storia — https://www.treccani.it/enciclopedia/taiwan/",
+   "alinti": "Annessa nel 1895 dal Giappone",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu YALNIZ YIL (1895); gün 1895-04-17 (Şimonoseki imza) teyitsiz. t ucu 1945-10-25 bu alıntıyla teyitsiz (yalnız yıl 1945 sonraki satırda)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:27",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-10-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Taiwan, Storia — https://www.treccani.it/enciclopedia/taiwan/",
+   "alinti": "tornò alla Cina nel 1945",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu YALNIZ YIL (1945); gün 1945-10-25 teyitsiz. Atlas künye f 1911 (Çin Cumhuriyeti) — dönem Tayvan'ın dönüşüyle uyumlu."
+  }
+ ],
+ "el-Vâdî (Sûf)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:247",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir (II. Tarih) — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Orta ve Batı Cezayir ise Tilimsân’da kurulan Abdülvâdîler’in (1235-1550) idaresine girdi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Abdülvâdîler (Zeyyânîler) 1235-1550 verir (atlas t 1552, künye t 1553); AYRICA TDV 'Doğu Cezayir Hafsîler'e tâbi oldu' der. Sûf Doğu/Güney-doğu Cezayir'dedir: Zeyyânî sahipliği Sûf için TDV'de teyitsiz, Hafsî alternatifi olası. TDV'de Sûf/Tuggurt anılmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:247",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Cezayir (https://islamansiklopedisi.org.tr/cezayir) — Sûf/Vâdî-Sûf/Tuggurt anahtarları 0 isabet",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Cezayir Osmanlı hâkimiyetini ülke düzeyinde verir (beylerbeyileri 1518-1587, paşalar 1587-1659, ağalar 1659-1671); Sûf'un Osmanlıya bağlanışı/tahriri kaynakta yok. Tahrir ölçütü: kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:247",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830) olmak üzere dört ana döneme ayrılır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: dayılar devri 1671-1830 yıl düzeyi (f 1671, t 1830). Sûf'un Cezayir Ocağı'na tâbiiyeti (vergi/bey) yerleşime özgü kaynakta yok; gün teyitsiz. f ucu (1671 yıl) ülke düzeyinde uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:247",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1854-12-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Fransızlar Cezayir’e çıktılar ve 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler",
+   "oneri": {},
+   "not": "Alıntı yalnız Cezayir ŞEHRİNİN işgal gününü (1830-07-05) tarihliyor; ÜLKE DÜZEYİ, Sûf için değil. TDV: Fransızlar'ın bütün ülkeyi ele geçirmesi Abdülkadir'in yenilgisine (1847) kadar sürdü. Sûf'un Fransız denetimine girişi (atlas 1854-12-02 Tuggurt) TDV'de yok. Cezayir Ocağı v dönemi bu aralıkta uzatılmış olabilir; kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:247",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "TDV Cezayir sayfası açıldı ama 1962/bağımsızlık anahtarı bu yerleşim için taranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirde TDV 1 Temmuz 1962 referandumunu anar; 5 Temmuz bağımsızlık günü bu oturumda okunmadı."
+  }
+ ],
+ "Turşiz (Kâşmer)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2214",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1337-09-09",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Denenen: Encyclopaedia Iranica (iranicaonline.org/articles/kashmar-town ve /kashmar: HTTP 404); TDV/Treccani bu yerleşim için açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu dönem için okunmuş kaynak yok. Turşiz/Kâşmer Serbedârîler merkezi çevresinde (Beyhak/Sebzevâr) olduğu için Serbedâr dönemi TDV 'Serbedârlar' maddesinden denenmeli; atlas zincirinde ilhanli->serbedariler 1337-09-09 ve buhara 1507-05-24 -> safevi 1510-12-02 (Merv savaşı) uçları ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2214",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Denenen: Encyclopaedia Iranica (iranicaonline.org/articles/kashmar-town ve /kashmar: HTTP 404); TDV/Treccani bu yerleşim için açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu dönem için okunmuş kaynak yok. Turşiz/Kâşmer Serbedârîler merkezi çevresinde (Beyhak/Sebzevâr) olduğu için Serbedâr dönemi TDV 'Serbedârlar' maddesinden denenmeli; atlas zincirinde ilhanli->serbedariler 1337-09-09 ve buhara 1507-05-24 -> safevi 1510-12-02 (Merv savaşı) uçları ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2214",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Denenen: Encyclopaedia Iranica (iranicaonline.org/articles/kashmar-town ve /kashmar: HTTP 404); TDV/Treccani bu yerleşim için açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu dönem için okunmuş kaynak yok. Turşiz/Kâşmer Serbedârîler merkezi çevresinde (Beyhak/Sebzevâr) olduğu için Serbedâr dönemi TDV 'Serbedârlar' maddesinden denenmeli; atlas zincirinde ilhanli->serbedariler 1337-09-09 ve buhara 1507-05-24 -> safevi 1510-12-02 (Merv savaşı) uçları ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2214",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Denenen: Encyclopaedia Iranica (iranicaonline.org/articles/kashmar-town ve /kashmar: HTTP 404); TDV/Treccani bu yerleşim için açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu dönem için okunmuş kaynak yok. Turşiz/Kâşmer Serbedârîler merkezi çevresinde (Beyhak/Sebzevâr) olduğu için Serbedâr dönemi TDV 'Serbedârlar' maddesinden denenmeli; atlas zincirinde ilhanli->serbedariler 1337-09-09 ve buhara 1507-05-24 -> safevi 1510-12-02 (Merv savaşı) uçları ülke düzeyi."
+  }
+ ],
+ "Umur Fakih (Fakia)": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "bulgar-carligi",
+   "f": "1281-01-01",
+   "t": "1371-09-26",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Bulgaristan (https://islamansiklopedisi.org.tr/bulgaristan) Osmanlı Dönemi bölümü",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV: Çirmen/Yanbolu/Zağra fetihleri anılır (Yanbolu Timurtaş Paşa, Zağra Lala Şahin) ama tarih verilmez ve Fakia/Elhovo anılmaz. 1371-09-26 Çirmen savaşı ülke olayı. Köyün varlığı 1923 öncesi teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1371-09-26",
+   "t": "1402-07-28",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Bulgaristan (https://islamansiklopedisi.org.tr/bulgaristan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşime özgü Osmanlı fethi tanıklığı yok; TDV fetihleri sıralar ama gün vermez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1913-05-30",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV Bulgaristan (https://islamansiklopedisi.org.tr/bulgaristan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fetret sonrası Osmanlı dönemi ülke düzeyi; Musa Çelebi'nin ölümü savaş günü, yerleşim fiilî devir günü değil (YIL düzeyi, ABİ MERKEZ kuralı). t ucu aşağıdaki satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "bulgaristan-kralligi",
+   "f": "1913-05-30",
+   "t": "1946-09-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması Bulgaristan’la müttefiklerinin lehine",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Londra imza günü 1913-05-30 teyitli (TEK ÖLÇÜ: Bulgar ordusu bölgeyi 1912'den beri fiilen yönettiyse imza günü). Alıntı Fakia'yı adıyla anmaz. TDV: Edirne 20 Temmuz 1913'te Osmanlı'ya döndü; Bükreş 10 Ağustos 1913; İstanbul antlaşması 1913-09-29 (bu sorgu için okunmadı). t ucu 1946-09-15 teyitsiz."
+  }
+ ],
+ "Zilla (Zella)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:406",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti",
+   "oneri": {},
+   "not": "ÜLKE/BÖLGE DÜZEYİ (Fizan; Zilla Cufra'da, Fizan'a bağlılığı kaynakta teyitsiz). TDV: Kânim kontrolü 16. yy başında Evlâd-ı Muhammed'e geçti; Osmanlı sancağı 1551. Atlas t 1577 (Fizan sancağı kuruluşu) TDV ile uyumsuz: sahip ara dönemde evlad-ı-muhammed (künye yok). f 1281 teyitsiz (TDV 'bir müddet sonra Kânim kontrolüne girdi', tarih yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:406",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1577-01-01",
+   "t": "1711-07-29",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "1551’de Trablusgarp’ı ele geçirerek eyalet haline getirdiler ve Fizan da bu eyalete bağlı bir sancak",
+   "oneri": {
+    "f": "1551"
+   },
+   "not": "ÖNCEKİ KARAR (gece-51/55 Gât, Tırgan): Fizan iç bölgelerinde doğrudan Osmanlı 1838/1842 (TDV); 1577-1835 tek parça değil. | BÖLGE DÜZEYİ: TDV Fizan'ın Trablusgarp eyaletine bağlı sancak olarak teşkilâtlandığını 1551 bağlamında verir (yıl); ama Evlâd-ı Muhammed 'bağımsızlığını korumak için' kopuk kalır. Tahrir ölçütü: sancak teşkili var ama fiilî idare tartışmalı. Atlas f 1577 TDV 1551 ile farklı; çelişki ONERI. t ucu 1711 sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:406",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Karamanlı Ahmed Bey’in 1711’de Trablusgarp yönetimini ele geçirmesi",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ: TDV 'Fizan Karamanlı yönetimine tâbi oldu' (1711, yıl); gün 1711-07-29 teyitsiz. Karamanlılar 1835'e kadar Trablusgarp'ı elinde tuttu (TDV) — t ucu yıl düzeyinde uyumlu, ama TDV Karamanlı'nın Fizan'ı tam denetleyemediğini ve evlâd-ı Süleyman'ın 1831'de Fizan'ı aldığını yazar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:406",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Fizan — https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Fizan’da Osmanlı otoritesinin yeniden tesisi, 1838’de tayin edilen Aşkar Ali Paşa ile mümkün olabildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-51/55 Gât, Tırgan): Fizan iç bölgelerinde doğrudan Osmanlı 1838/1842 (TDV); 1577-1835 tek parça değil. | BÖLGE DÜZEYİ: Trablusgarp'ta Karamanlı sonu 1835; ama Fizan'da fiilî Osmanlı idaresi 1838-1842 (kaza 1842). Atlas f 1835-05-26 Fizan için erken; Zilla (Cufra) için ayrıca teyit gerek. t 1912-10-18 Uşi: TDV 'Osmanlı hâkimiyeti 1911 İtalyan saldırısına kadar sürdü' der — t ucu bu satırda teyitsiz."
+  }
+ ],
+ "Abrî (Mahas)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:115",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV Sudan (https://islamansiklopedisi.org.tr/sudan) Nûbe bölümü; Abrî/Mahas/Funj anahtarı 0 isabet",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Nûbe krallıklarını (Makarra, Alve) ve Müslüman akınlarını anlatır; 1504 Funj kuruluşu ve Abrî/Mahas bu taramada çıkmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:115",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "TDV Sudan açıldı; 1821 Mısır fethi anahtarı çıktı bu çıktıda görülmedi, Mahas'ın Mısır'a bağlanışı (Nûbe 1820-21) okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "t ucu 1885-01-26: TDV 'Muhammed Ahmed el-Mehdî 26 Ocak 1885’te Hartum’a giren' (ülke düzeyi) — Abrî'nin düşüşü ayrı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:115",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Sudan — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Kurduğu devlet, İngiliz-Mısır kuvvetlerinin büyük askerî harekâtına rağmen 1899 yılına kadar ayakta kalmayı başardı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Mehdî devletinin 1899'a kadar sürdüğünü yazar (yıl); '19 Ocak 1899’da Sudan...' cümlesi (kondominyum antlaşması) bu oturumda tam okunmadı. Zincirde mehdi->ingiliz-sudani 1899-01-19 uyumlu ama alıntı gün vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:115",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "TDV Sudan bağımsızlık bölümü okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe: yalnız bir TDV taraması yapıldı."
+  }
+ ],
+ "Ahtapolu (Ahtopol)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek24.js:134",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1369-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: TDV islamansiklopedisi.org.tr/ahtabolu (0 sonuç), TDV Bulgaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıtta da 'TDV arama 6 Eki 2026: Ahtapolu/Ahtabolu/Agathopolis 0 isabet' var; yeniden doğrulandı. Bizans 1281 sahipliği ve 1369 üst sınırı kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek24.js:134",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1453-05-29",
+   "t": "1913-09-29",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması Bulgaristan’la müttefiklerinin lehine",
+   "oneri": {
+    "t": "1913-05-30"
+   },
+   "not": "ÖNCEKİ KURAL (DA-BRIEF Londra 1913): Struma'nın doğusunda s: bulgaristan 1913-05-30'dan (Londra; Emre'nin açık kuralı TDV gününün önünde — Üsküp emsali). | ÜLKE DÜZEYİ: t 1913-09-29 (İstanbul Antlaşması) yerine Londra imza günü 1913-05-30 (Emre'nin Balkan devri kuralı; TEK ÖLÇÜ — Bulgar ordusu Ahtapol'u 1912'den fiilen yönetiyorsa imza günü; bu fiilî yönetim kaynaklanmadı). Alıntı Ahtapol'u anmaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek24.js:134",
+   "alan": "s",
+   "d": "bulgaristan-kralligi",
+   "f": "1913-09-29",
+   "t": "1946-09-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "30 Mayıs 1913 tarihinde imzalanan Londra Antlaşması Bulgaristan’la müttefiklerinin lehine",
+   "oneri": {
+    "f": "1913-05-30"
+   },
+   "not": "ÖNCEKİ KURAL (DA-BRIEF Londra 1913): Struma'nın doğusunda s: bulgaristan 1913-05-30'dan (Londra; Emre'nin açık kuralı TDV gününün önünde — Üsküp emsali). | Atlas f 1913-09-29 (İstanbul) DEVRALMA kaydı; TDV Londra 1913-05-30'u verir. Önceki satırla birlikte f=1913-05-30 öneri (hukukî devir; fiilî yönetim kaynağı ayrıca gerekir)."
+  }
+ ],
+ "Akra (Accra)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:792",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1650-01-01",
+   "t": "1701-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Accra (https://www.treccani.it/enciclopedia/accra/, kısa madde), Treccani Ghana (https://www.treccani.it/enciclopedia/ghana/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani yalnız Portekizlilerin Akra'da fort kurduğunu (1471 sonrası) söyler; Hollanda 1650 ve 1701 tarihi yok. Ayrıca Hollanda Akra'da 1872'ye kadar kaldığı bilinir (ipucu, kaynaksız) — atlas 1701 t ucu şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:792",
+   "alan": "s",
+   "d": "asanti",
+   "f": "1701-01-01",
+   "t": "1874-07-24",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Ghana (https://www.treccani.it/enciclopedia/ghana/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Ashanti'yi anar ama Akra'nın Aşanti hâkimiyetini ve 1701'i vermez. Treccani: İngilizler kıyıya yerleşince Ashanti ile çatışma (1873)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:792",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1874-07-24",
+   "t": "1957-03-06",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Treccani Ghana, Storia — https://www.treccani.it/enciclopedia/ghana/ ; history.state.gov/countries/ghana",
+   "alinti": "la transizione fu coronata il 6 marzo 1957 dalla proclamazione dell’indipendenza",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; t ucu GÜN düzeyinde teyitli (6 Mart 1957, İngiliz hâkimiyetinin sonu); history.state.gov aynı günü verir. f ucu 1874-07-24 (Altın Sahil sömürgesi) bu alıntıyla teyitsiz."
+  }
+ ],
+ "Alicante": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:288",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1296-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Bu oturumda Alicante için kaynak açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirde kayıtlı kaynaklar: Treccani EI 1929-37 (ipucu) ve GEC 'Alacant' (1296); 1304-08-08 Torrellas RAH. Yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:288",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1296-01-01",
+   "t": "1304-08-08",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Bu oturumda Alicante için kaynak açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirde kayıtlı kaynaklar: Treccani EI 1929-37 (ipucu) ve GEC 'Alacant' (1296); 1304-08-08 Torrellas RAH. Yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:288",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1304-08-08",
+   "t": "1479-01-19",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "Bu oturumda Alicante için kaynak açılmadı (bütçe)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirde kayıtlı kaynaklar: Treccani EI 1929-37 (ipucu) ve GEC 'Alacant' (1296); 1304-08-08 Torrellas RAH. Yeniden okunmadı."
+  }
+ ],
+ "Amiens": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:184",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1435-09-21",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Amiens (https://www.treccani.it/enciclopedia/amiens/, 1892 karakter, tarih yok), Treccani Borgogna (https://www.treccani.it/enciclopedia/borgogna/ — Amiens/Arras/1435/1477 0 isabet)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arras 1435-09-21 ve Charles Téméraire ölümü 1477-01-05 sonrası Amiens dönüşü bu kaynaklarda yok; İkincil akademik kaynak (örn. Vaughan, Philip the Good) bu bütçede açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:184",
+   "alan": "s",
+   "d": "burgonya",
+   "f": "1435-09-21",
+   "t": "1477-01-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Amiens (https://www.treccani.it/enciclopedia/amiens/, 1892 karakter, tarih yok), Treccani Borgogna (https://www.treccani.it/enciclopedia/borgogna/ — Amiens/Arras/1435/1477 0 isabet)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arras 1435-09-21 ve Charles Téméraire ölümü 1477-01-05 sonrası Amiens dönüşü bu kaynaklarda yok; İkincil akademik kaynak (örn. Vaughan, Philip the Good) bu bütçede açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:184",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1477-01-05",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Amiens (https://www.treccani.it/enciclopedia/amiens/, 1892 karakter, tarih yok), Treccani Borgogna (https://www.treccani.it/enciclopedia/borgogna/ — Amiens/Arras/1435/1477 0 isabet)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arras 1435-09-21 ve Charles Téméraire ölümü 1477-01-05 sonrası Amiens dönüşü bu kaynaklarda yok; İkincil akademik kaynak (örn. Vaughan, Philip the Good) bu bütçede açılmadı."
+  }
+ ],
+ "Antigua Guatemala (Santiago de los Caballeros)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:414",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1543-03-10",
+   "t": "1609-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Guatemala, Storia — https://www.treccani.it/enciclopedia/guatemala/",
+   "alinti": "Nell’ambito del vicereame della Nuova Spagna (costituito nel 1535)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Guatemala Audiencia'sı Yeni İspanya Genel Valiliği çerçevesinde (vicereame 1535). 1543-03-10 günü (Santiago'nun bugünkü yerinde kuruluşu) bu kaynakta yok; sahiplik Yeni İspanya içinde sayılıyor ama tarih teyidi değil. Treccani Antigua'nın 1773 depremini anar (yer 'antica capitale')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:414",
+   "alan": "s",
+   "d": "guatemala-kaptanligi",
+   "f": "1609-01-01",
+   "t": "1821-09-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: Treccani Guatemala (https://www.treccani.it/enciclopedia/guatemala/) — 'capitaneria' 0 isabet",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Audiencia'dan söz eder, Kaptanlık/1609 ayrımı yok. 1773 deprem (başkentin taşınması 1776) ve Antigua'nın terki yerleşimin siyasî devrini etkilemez ama kaynak t ucunu (1821-09-15) tarihlemiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:414",
+   "alan": "s",
+   "d": "guatemala",
+   "f": "1821-09-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Guatemala, Storia — https://www.treccani.it/enciclopedia/guatemala/",
+   "alinti": "La dichiarazione d’indipendenza del Messico nel 1821 fu seguita da quella delle province centroamericane",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (EMRELİC gece-52): Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, sonra orta-amerika-federasyonu (LAB SALI UYGULA'da). | ÜLKE DÜZEYİ: Orta Amerika eyaletlerinin bağımsızlık ilanı Meksika 1821'den sonra; Treccani 1822'de Iturbide Meksika imparatorluğuna katılmayı (birleşme) belirtir — atlas guatemala f 1821-09-15 ile 1822-23 Meksika katılımı arasında ara dönem modellenmemiş olabilir; ayrıca Orta Amerika Federasyonu (1823-39). Gün 1821-09-15 bu alıntıda yok."
+  }
+ ]
+}
