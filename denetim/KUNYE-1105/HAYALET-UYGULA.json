@@ -971,7 +971,7 @@
   "d": "sirp-krajina-cumhuriyeti (t) / Vukovar",
   "tur": "KUNYE + YERLESIM",
   "karar": "EMRELİC",
-  "islem": "devletler.js sirp-krajina-cumhuriyeti (:15999) t → 1996-01-15 (= dogu-slavonya-untaes f; Doğu Slavonya'da RSK sürdü — Erdut 1995-11-12 ic_not; ic_not_t '1995-08-07 Fırtına harekâtı: Knin Krajinası düştü'). Kninska Krajina yerleşimleri 1995-08-07'de hirvatistan'a (yerleşim düzeyinde, mevcut). Vukovar: 1991-11-18 → 1991-12-19 s: yugoslavya-federal BEYANLI (LAB ölçümü: yugoslavya-federal t 1992-04-27 kapsar) (SAO dilimi, EMRELİC), 1991-12-19 → 1996-01-15 sirp-krajina-cumhuriyeti, 1996-01-15 → 1998-01-15 dogu-slavonya-untaes, 1998-01-15 hirvatistan (LAB ölçümü: hirvatistan künyesi t 1991-07-07 — 1998 için ardıl hirvatistan id'si KASA ölçsün). Değişmez 2: 1996-01-15 VAR (kronoloji_sinir_halef_1923_2000.js).",
+  "islem": "devletler.js sirp-krajina-cumhuriyeti (:15999) t → 1996-01-15 (= dogu-slavonya-untaes f; Doğu Slavonya'da RSK sürdü — Erdut 1995-11-12 ic_not; ic_not_t '1995-08-07 Fırtına harekâtı: Knin Krajinası düştü'). Kninska Krajina yerleşimleri 1995-08-07'de hirvatistan'a (yerleşim düzeyinde, mevcut). Vukovar: 1991-11-18 → 1991-12-19 s: yugoslavya-federal BEYANLI (LAB ölçümü: yugoslavya-federal t 1992-04-27 kapsar) (SAO dilimi, EMRELİC), 1991-12-19 → 1996-01-15 sirp-krajina-cumhuriyeti, 1996-01-15 → 1998-01-15 dogu-slavonya-untaes, 1998-01-15 hirvatistan (LAB ölçümü: hirvatistan f 1991-06-25, t yok — kapsar). Değişmez 2: 1996-01-15 VAR (kronoloji_sinir_halef_1923_2000.js).",
   "kunye": "sirp-krajina-cumhuriyeti t 1995-08-07 → 1996-01-15",
   "gun": "1996-01-15",
   "guc": "ORTA",
