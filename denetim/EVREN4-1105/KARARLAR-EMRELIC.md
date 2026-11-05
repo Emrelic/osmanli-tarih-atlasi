@@ -766,3 +766,19 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - UYGULA'ya `norvec-1814` f **1814-02-19** (SNL) girdi. 🔴 Değişmez 2 gereği aynı commit'te kronoloji_sinir'e 1814-02-19 maddesi yazılmalı; şu an yalnız Kiel 01-14 maddesi var.
   - Bu durumda Norveç naiplik dilimi 1814-01-14 → 02-19'a daralır.
 - **Kerak:** 1920-21 Moab Arap Hükûmeti için künye sorusu LAB'a gider; o zamana kadar BEYANLI yazılır. Emirlik Şubat 1921'den başlar (02-01 ay hassasiyetidir) ve öyle kalır. 04-11 merkezî hükûmetin kuruluşudur, `ic_not`a yazılır.
+
+## 5 Kasım 2026 gece-109 — Kafkas 24 şüpheli (KAFKAS-SUPHELI-24.tsv) EMRELİC kararı
+
+- **3 ÇEVİR (EMRELİC farkları sınadı):**
+  - Mahmudâbâd `rusya` t / `safevi` f 1732-01-21 → **1732-02-01** (+11, Reşt; Rus kaynağı "21 января (1 февраля)").
+  - Kutaisi `imereti` t / `rusya` f 1810-02-20 → **1810-03-04** (+12). Dayanak ESBE (ipucu) → **BEYANLI**. 🔴 `kronoloji_gurcistan.js:295` maddesi aynı commit'te 03-04'e taşınır.
+  - Tuapse `rusya` f 1864-02-01 → **1864-02-13** (+12). "Şubat 1864 O.S." Gregoryen'de 02-13…03-12'dir; ilk gün + ay hassasiyeti beyanı.
+- **7 BELİRSİZ** (Ağraham f 1722, Tiflis t 1735, Sohum 1810, Poti f 1828, Hopa 1915, Aşkale 1916, Rize 1916): gün değişmez, ic_not "Gregoryen varsayıldı, kaynakla teyit edilmedi".
+- **±1 gün kaynak farkı** (Şâbüran 1724; Bayburt, Kelkit, Erzincan ve Gümüşhane 1916-07): gün değişmez, iki gün kaynaklarıyla `ic_not`a.
+- **Reşt/Gence sahiplik kalemi** (ölçüm KASA, kasa-1104-kronoloji ağacı = origin/main):
+  - Bakü (yerlesimler.js:807) ve Derbend (:809): `rusya` 1723-08-06 / 1722-09-03 → **1735-03-21**, sonra `safevi`. Gence 10 Mart 1735 O.S. = 21 Mart Gregoryen → **uyumlu**.
+  - Mahmudâbâd (:828, 39.380 K 49.240 D): `rusya` 1723-09-23 → 1732-01-21, sonra `safevi`. Koordinat Kura'nın aşağı mecrasına, ağıza yakın düşüyor. Reşt Kura'yı sınır yaptığından yerin Kura'nın hangi yakasında olduğu sınanmalı:
+    - güneyindeyse 1732 iadesi doğru;
+    - kuzeyindeyse Bakü gibi 1735-03-21'e kadar `rusya`.
+  - Ayrıca Mahmudâbâd'ın `rusya` f'si 1723-09-23 (Petersburg Antlaşması imzası). TEK ÖLÇÜ'ye göre Rusya yeri yönetmiyorsa teslim günü olmalı. Sonraki tur.
+  - Yan bulgu (sonraki tur): üç kayıtta da 1747-06-20 → 1794 `zend` var. Zend idaresi Şirvan'a ulaşmadı; bu yıllar yerel hanlıklar (Bakü, Derbend/Kuba, Salyan) dönemidir. Hayalet ve yanlış sahip şüphesi.
