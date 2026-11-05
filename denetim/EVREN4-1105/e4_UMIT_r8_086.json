@@ -1,108 +1,244 @@
 {
  "Atlin": [
-  {"sira": 3781, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1898-01-01", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3781,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1898-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Encyclopedia of BC (Harbour Publishing), 'Atlin', https://www.knowbc.com/limited/Books/Encyclopedia-of-BC/A/Atlin (sayfa.py ham metin)",
    "alinti": "GOLD was discovered in the area in 1898, touching off what has been called",
    "oneri": {},
-   "not": "ONERI-güçlü, değişiklik yok: yıl düzeyinde 1898 altın keşfi f'yi destekler (ticari/bölgesel ansiklopedi, ulusal akademik sınıf değil; Canadian Encyclopedia robots.txt yasağı nedeniyle okunamadı; BC Geographical Names Atlin sayfası okunmadı). Gün teyitsiz [yalnız yıl]. Sahip: BC 1871'den beri Kanada; Atlin 1903-10-20 Alaska sınır hakemliğinden önce de Kanada tarafında kaldı (hakemlik kararı kaynağı okunmadı: BAKILMADI)."}
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · ONERI-güçlü, değişiklik yok: yıl düzeyinde 1898 altın keşfi f'yi destekler (ticari/bölgesel ansiklopedi, ulusal akademik sınıf değil; Canadian Encyclopedia robots.txt yasağı nedeniyle okunamadı; BC Geographical Names Atlin sayfası okunmadı). Gün teyitsiz [yalnız yıl]. Sahip: BC 1871'den beri Kanada; Atlin 1903-10-20 Alaska sınır hakemliğinden önce de Kanada tarafında kaldı (hakemlik kararı kaynağı okunmadı: BAKILMADI).",
+   "karar": "EMRELİC"
+  }
  ],
  "Skagway": [
-  {"sira": 3782, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1897-01-01", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3782,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1897-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "NPS, Klondike Gold Rush NHP Historic Resource Study, ch.2 'Skagway, District of Alaska — A Historic Overview', https://www.npshistory.com/publications/klgo/hpd-36/chap2.htm (ham metin); devir: US State Dept Office of the Historian, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase",
    "alinti": "In October 1887, he returned with his son Ben, and staked a homestead claim.",
    "alinti2": "On August 18, 1897, Frank Reid and William C. Fonda began surveying the townsite.",
-   "oneri": {"f": "1887-10-01"},
-   "not": "F-GERI adayı: NPS federal HRS ilk iskânı (Moore homestead) Ekim 1887 verir ('Skagway's history had begun'); 1897-01-01 hiçbir kaynakta yok. 1887-10-01 = [yalnız ay, Ekim 1887]. 1897-08-18 kasaba planı (townsite survey) ve 1897-07-29 ilk gemi ic_not'a. Yeni ilk dilim sahibi abd: Alaska 1867-10-18'den ABD (State Dept, ülke düzeyi); ama HRS 'Moore Kanada vatandaşı, Victoria yatırımcıları, Sitka idaresi yetersiz' diyor ve Moore bölgeyi İngiliz sayıyordu (sınır 1903-10-20'ye dek tartışmalı) — ic_not'a yaz, ABD de jure sahip kalır. Ölçülemeyen: 1887'de Skagway'in ABD idaresine fiilen katıldığı belge yok (Alaska 1884 Organic Act'e göre District of Alaska; kaynak okunmadı). Alternatif (daha güvenli): f=1897-08-18 BEYANLI alt sınır. Karar EMRELİC/LAB."}
+   "oneri": {
+    "f": "1887-10-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): F-GERI 1887-10-01 [ay] onay (Moore homestead, NPS Historic Resource Study — resmî sınıf); sahip abd (1867'den Alaska, ABD fiilen idare ediyordu). 1903 sınır tahkimi ve 1897-08-18 kasaba planı ic_not. · F-GERI adayı: NPS federal HRS ilk iskânı (Moore homestead) Ekim 1887 verir ('Skagway's history had begun'); 1897-01-01 hiçbir kaynakta yok. 1887-10-01 = [yalnız ay, Ekim 1887]. 1897-08-18 kasaba planı (townsite survey) ve 1897-07-29 ilk gemi ic_not'a. Yeni ilk dilim sahibi abd: Alaska 1867-10-18'den ABD (State Dept, ülke düzeyi); ama HRS 'Moore Kanada vatandaşı, Victoria yatırımcıları, Sitka idaresi yetersiz' diyor ve Moore bölgeyi İngiliz sayıyordu (sınır 1903-10-20'ye dek tartışmalı) — ic_not'a yaz, ABD de jure sahip kalır. Ölçülemeyen: 1887'de Skagway'in ABD idaresine fiilen katıldığı belge yok (Alaska 1884 Organic Act'e göre District of Alaska; kaynak okunmadı). Alternatif (daha güvenli): f=1897-08-18 BEYANLI alt sınır. Karar EMRELİC/LAB.",
+   "karar": "EMRELİC"
+  }
  ],
  "Fort Vermilion güneyi — Peace Point": [
-  {"sira": 3783, "dosya_satir": "", "alan": "s", "d": "dene", "f": "1281-01-01", "t": "1899-06-21",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 3783,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "Antlaşma 8 metni ('Treaty No. 8 Made June 21, 1899 and Adhesions'), Crown-Indigenous Relations (RCAANC), https://www.rcaanc-cirnac.gc.ca/eng/1100100028813/1581293624572 (ham metin)",
    "alinti": "having met at Fort Chipewyan on this thirteenth day of July, in this present year 1899",
    "alinti2": "set their hands at Vermilion on the eighth day of July",
-   "oneri": {"t": "1899-07-13"},
-   "not": "1899-06-21 = Lesser Slave Lake'te ana imza günü, Peace Point'e özgü değil. Peace River bölgesi adhezyonları metinden: Peace River Landing Kri/Beaver 1899-07-01, Vermilion 1899-07-08, Fort Chipewyan (Athabasca/Birch/PEACE River Chipewyan, Gull River Kri) 1899-07-13. Peace Point (Wood Buffalo, Peace-Athabasca) için en yakın: ABİ MERKEZ Fort Chipewyan 1899-07-13 (alternatif Vermilion 07-08). Metin 'Peace Point' adını anmıyor (YOK) => BEYANLI YAKLAŞIKLIK. UYARI: dene künyesi t=1899-06-21; öneri t 1899-07-13 künye t'sini aşar => ya künye genişletilir (LAB) ya dilim 1899-06-21'de kalır, 07-13 ic_not. f=1281 atlas ufku, kaynaksız. Egemenlik ayrımı: Rupert's Land Kanada'ya 1870-07-15 devredildi (kanada künyesi kronolojisi); antlaşma Kanada'nın toprağı idareye katma belgesi (TAHRİR ölçütü), de jure egemenlik değil — EMRELİC kararı gerek: yerli devlet dilimi 'antlaşma günü'ne mi yoksa 1870'e mi kadar."},
-  {"sira": 3784, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1899-06-21", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1899-07-13"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Peace Point onay: ABİ MERKEZ Fort Chipewyan 1899-07-13 (Antlaşma 8 adhezyonu), BEYANLI. Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · 1899-06-21 = Lesser Slave Lake'te ana imza günü, Peace Point'e özgü değil. Peace River bölgesi adhezyonları metinden: Peace River Landing Kri/Beaver 1899-07-01, Vermilion 1899-07-08, Fort Chipewyan (Athabasca/Birch/PEACE River Chipewyan, Gull River Kri) 1899-07-13. Peace Point (Wood Buffalo, Peace-Athabasca) için en yakın: ABİ MERKEZ Fort Chipewyan 1899-07-13 (alternatif Vermilion 07-08). Metin 'Peace Point' adını anmıyor (YOK) => BEYANLI YAKLAŞIKLIK. UYARI: dene künyesi t=1899-06-21; öneri t 1899-07-13 künye t'sini aşar => ya künye genişletilir (LAB) ya dilim 1899-06-21'de kalır, 07-13 ic_not. f=1281 atlas ufku, kaynaksız. Egemenlik ayrımı: Rupert's Land Kanada'ya 1870-07-15 devredildi (kanada künyesi kronolojisi); antlaşma Kanada'nın toprağı idareye katma belgesi (TAHRİR ölçütü), de jure egemenlik değil — EMRELİC kararı gerek: yerli devlet dilimi 'antlaşma günü'ne mi yoksa 1870'e mi kadar.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3784,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Antlaşma 8 metni, RCAANC, https://www.rcaanc-cirnac.gc.ca/eng/1100100028813/1581293624572",
    "alinti": "having met at Fort Chipewyan on this thirteenth day of July",
-   "oneri": {"f": "1899-07-13"},
-   "not": "Önceki satırla birlikte taşınır (dene t = kanada f). Bkz. 3783 notu; alternatif 1870-07-15 (Rupert's Land devri, kaynak okunmadı)."}
+   "oneri": {
+    "f": "1899-07-13"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Peace Point onay: ABİ MERKEZ Fort Chipewyan 1899-07-13 (Antlaşma 8 adhezyonu), BEYANLI. Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · Önceki satırla birlikte taşınır (dene t = kanada f). Bkz. 3783 notu; alternatif 1870-07-15 (Rupert's Land devri, kaynak okunmadı).",
+   "karar": "EMRELİC"
+  }
  ],
  "Katmai (Alaska Yarımadası)": [
-  {"sira": 3785, "dosya_satir": "", "alan": "s", "d": "alutiiq", "f": "1281-01-01", "t": "1784-08-14",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 3785,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "alutiiq",
+   "f": "1281-01-01",
+   "t": "1784-08-14",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "NPS Katmai NP&P, 'History', https://www.nps.gov/katm/learn/historyculture/history.htm (ham metin)",
    "alinti": "an artel (or crew base camp) had been established at the village of Katmai",
    "oneri": {},
-   "not": "ONERI-güçlü: NPS, 1780'lerde Rus artel'inin Katmai köyünde kurulduğunu söyler (onyıl düzeyi); 1784-08-14 Kodiak/Awa'uq olayıdır, Katmai'ye özgü değil. Katmai için t = 'YIL düzeyi ABİ MERKEZ Kodiak (alutiiq künyesi)' beyanıyla kalır; gün düzeyinde KAYNAKLI sayılamaz. f=1281 atlas ufku; NPS 1912 öncesi 4 yıl-boyu köy (Savonoski, Kaguyak, Kukak, Katmai) der, tarih yok."},
-  {"sira": 3786, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1784-08-14", "t": "1867-10-18",
-   "hukum": "ONERI", "uc": "f+t",
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): t 1912-06-06 onay (Novarupta, köy terki). · ONERI-güçlü: NPS, 1780'lerde Rus artel'inin Katmai köyünde kurulduğunu söyler (onyıl düzeyi); 1784-08-14 Kodiak/Awa'uq olayıdır, Katmai'ye özgü değil. Katmai için t = 'YIL düzeyi ABİ MERKEZ Kodiak (alutiiq künyesi)' beyanıyla kalır; gün düzeyinde KAYNAKLI sayılamaz. f=1281 atlas ufku; NPS 1912 öncesi 4 yıl-boyu köy (Savonoski, Kaguyak, Kukak, Katmai) der, tarih yok.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3786,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1784-08-14",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "NPS Katmai 'History' (ham metin); US State Dept Office of the Historian, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase (ham metin)",
    "alinti": "By the 1780s, Russians were forcing local men to hunt sea otters",
    "alinti2": "Alaska was formally transferred to the United States on October 18, 1867.",
    "oneri": {},
-   "not": "f: yalnız onyıl (1780'ler) => ONERI; 1784-08-14 beyanlı yaklaşıklık olarak kalır (Kodiak'tan, ABİ MERKEZ). t: 1867-10-18 ülke düzeyi KAYNAKLI (State Dept; ÜLKE DÜZEYİ). NPS ayrıca 'Russian Years (1760-1867)' yazar. Rus-Amerikan Şirketi 1799-07-08 imtiyazı okunmadı (BAKILMADI). Rus kaynak günü Jülyen olabilir: 18 Ekim 1867 Gregoryen = 6 Ekim Jülyen (State Dept Gregoryen günü verir)."},
-  {"sira": 3787, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): t 1912-06-06 onay (Novarupta, köy terki). · f: yalnız onyıl (1780'ler) => ONERI; 1784-08-14 beyanlı yaklaşıklık olarak kalır (Kodiak'tan, ABİ MERKEZ). t: 1867-10-18 ülke düzeyi KAYNAKLI (State Dept; ÜLKE DÜZEYİ). NPS ayrıca 'Russian Years (1760-1867)' yazar. Rus-Amerikan Şirketi 1799-07-08 imtiyazı okunmadı (BAKILMADI). Rus kaynak günü Jülyen olabilir: 18 Ekim 1867 Gregoryen = 6 Ekim Jülyen (State Dept Gregoryen günü verir).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3787,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "US State Dept, Office of the Historian, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase; NPS Katmai 'History' (1867 yılı)",
    "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ (Alaska devri; Katmai'ye özgü gün değil). NPS Katmai yalnız yıl (1867). Jülyen 6 Ekim = Gregoryen 18 Ekim (ic_not). t=2000-12-31 pencere ucu. VAROLUŞ SORUSU: NPS 'On June 6, 1912, Novarupta erupted' ve dört köy terk edildi; yerleşim noktası köy ise t=1912-06-06 (yer boşaldı, kısmen YOK_O_DEVIRDE); bölge noktası ise sürer — LAB karar."}
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): t 1912-06-06 onay (Novarupta, köy terki). · ÜLKE DÜZEYİ (Alaska devri; Katmai'ye özgü gün değil). NPS Katmai yalnız yıl (1867). Jülyen 6 Ekim = Gregoryen 18 Ekim (ic_not). t=2000-12-31 pencere ucu. VAROLUŞ SORUSU: NPS 'On June 6, 1912, Novarupta erupted' ve dört köy terk edildi; yerleşim noktası köy ise t=1912-06-06 (yer boşaldı, kısmen YOK_O_DEVIRDE); bölge noktası ise sürer — LAB karar.",
+   "karar": "EMRELİC"
+  }
  ],
  "Fort Ware (Kwadacha)": [
-  {"sira": 3788, "dosya_satir": "", "alan": "s", "d": "dene", "f": "1281-01-01", "t": "1899-06-21",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 3788,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "BC Geographical Names, 'Fort Ware', https://apps.gov.bc.ca/pub/bcgnws/names/54738.html; Encyclopedia of BC, 'Fort Ware', https://www.knowbc.com/limited/Books/Encyclopedia-of-BC/F/Fort-Ware; Kwadacha Nation, https://www.kwadacha.com/our-nation/ (hepsi ham metin); Antlaşma 8 metni RCAANC",
    "alinti": "This became a full-fledged post in 1929, re-named Fort Ware in 1938.",
    "alinti2": "A group of Sekani moved here in 1917",
-   "oneri": {"f": "1917-01-01"},
-   "not": "VAROLUŞ: yerleşim 1917 (knowBC: Sekani yerleşti, HBC postu hemen sonra), 1920 (Kwadacha: ticaret postu), c1927 (BC GN: Whitewater postu; Deserters Canyon'dan taşındı; 1929 tam post; 1938 adı Fort Ware; post 1953-05-31 kapandı) — kaynaklar çelişir; 1281 ufuk f YOK_O_DEVIRDE (merdiven ④: dönem kırp, toprak komşu peteklere kalır) VEYA bölge noktası ise 1281 kalır beyanlı. 'f_ileri', f_geri değil. t: Antlaşma 8 tam metninde (1899-1900 adhezyonları) Fort Ware/Finlay/Sekani adhezyonu YOK; 1899-06-21 Fort Ware'e uygulanamaz. Sekani/Kwadacha'nın Antlaşma 8 adhezyonu (1910/1911 iddiası) kaynakla doğrulanamadı: BULUNAMADI. Kanada'ya katılım (BC 1871-07-20) kaynağı okunmadı: BAKILMADI."},
-  {"sira": 3789, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1899-06-21", "t": "2000-12-31",
-   "hukum": "BULUNAMADI", "uc": "f",
+   "oneri": {
+    "f": "1917-01-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): YOK_O_DEVIRDE onay: yerleşim 1917–1929 ortaya çıkıyor → önceki dilim kırpılır. · VAROLUŞ: yerleşim 1917 (knowBC: Sekani yerleşti, HBC postu hemen sonra), 1920 (Kwadacha: ticaret postu), c1927 (BC GN: Whitewater postu; Deserters Canyon'dan taşındı; 1929 tam post; 1938 adı Fort Ware; post 1953-05-31 kapandı) — kaynaklar çelişir; 1281 ufuk f YOK_O_DEVIRDE (merdiven ④: dönem kırp, toprak komşu peteklere kalır) VEYA bölge noktası ise 1281 kalır beyanlı. 'f_ileri', f_geri değil. t: Antlaşma 8 tam metninde (1899-1900 adhezyonları) Fort Ware/Finlay/Sekani adhezyonu YOK; 1899-06-21 Fort Ware'e uygulanamaz. Sekani/Kwadacha'nın Antlaşma 8 adhezyonu (1910/1911 iddiası) kaynakla doğrulanamadı: BULUNAMADI. Kanada'ya katılım (BC 1871-07-20) kaynağı okunmadı: BAKILMADI.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3789,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: Antlaşma 8 tam metni (RCAANC; Ware/Finlay/Sekani/Fort Nelson anahtarları YOK), BC Geographical Names, KnowBC, Kwadacha Nation sitesi (Treaty/1910 YOK), arama özeti (Sekani 1910-11 iddiası, ham doğrulanmadı). Kanada egemenliği BC'nin 1871-07-20 katılımıyla başlar (kaynak okunmadı); 1899-06-21 Fort Ware için kaynaksız. Kwadacha Nation/BC Treaty 8 adhezyon kaydı sonraki adım."}
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): YOK_O_DEVIRDE onay: yerleşim 1917–1929 ortaya çıkıyor → önceki dilim kırpılır. · Baktığım yerler: Antlaşma 8 tam metni (RCAANC; Ware/Finlay/Sekani/Fort Nelson anahtarları YOK), BC Geographical Names, KnowBC, Kwadacha Nation sitesi (Treaty/1910 YOK), arama özeti (Sekani 1910-11 iddiası, ham doğrulanmadı). Kanada egemenliği BC'nin 1871-07-20 katılımıyla başlar (kaynak okunmadı); 1899-06-21 Fort Ware için kaynaksız. Kwadacha Nation/BC Treaty 8 adhezyon kaydı sonraki adım.",
+   "karar": "EMRELİC"
+  }
  ],
  "Wrangell (Redut Sv. Dionisiy)": [
-  {"sira": 3790, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1834-01-01", "t": "1867-10-18",
-   "hukum": "ONERI", "uc": "f+t",
+  {
+   "sira": 3790,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1834-01-01",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "f+t",
    "kaynak": "Wrangell tarih sayfası (turizm), https://travelwrangell.com/wrangell-history (ham metin) — ONERI-güçlü sınıf; t: US State Dept, https://history.state.gov/milestones/1866-1898/alaska-purchase",
    "alinti": "Wrangell began in 1834 as the Russian Redoubt St. Dionysius",
    "alinti2": "On 30 May 1840 the Company ship Beaver reached Fort Dionysius.",
    "oneri": {},
-   "not": "f: yıl düzeyi 1834 (Haziran 1834'te reduit tamamlandı; Zarembo 1833'te indi) turizm sitesi + ADFG TP430 (PDF ham okunamadı) + NRHP formu (arama özeti) — akademik ham kaynak bulunamadı; Alaska SHPO/Dictionary of Canadian Biography okunamadı. t: 1867-10-18 ülke düzeyi KAYNAKLI; ancak 1840-05-30'dan itibaren Fort Stikine HBC KİRASINDA (RAC-HBC anlaşması, 1840-06-01 başlangıç; Wikipedia, tek dayanak olamaz) => kira egemenlik devri değil, Rus egemenliği sürer (TEK KURAL: de jure); 'kira dilimi' ayrı katman istenirse EMRELİC kararı. Post 1849'da bırakıldı (kaynaklar farklı: ADFG ve NRHP özeti), 1867'ye dek İngiliz bayrağı altında kaldığı söylenir. Jülyen: Rus kaynak günleri için 12 gün fark (19. yy), Haziran 1834 / 30 Mayıs 1840 hangi takvim belirsiz."},
-  {"sira": 3791, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+   "not": "f: yıl düzeyi 1834 (Haziran 1834'te reduit tamamlandı; Zarembo 1833'te indi) turizm sitesi + ADFG TP430 (PDF ham okunamadı) + NRHP formu (arama özeti) — akademik ham kaynak bulunamadı; Alaska SHPO/Dictionary of Canadian Biography okunamadı. t: 1867-10-18 ülke düzeyi KAYNAKLI; ancak 1840-05-30'dan itibaren Fort Stikine HBC KİRASINDA (RAC-HBC anlaşması, 1840-06-01 başlangıç; Wikipedia, tek dayanak olamaz) => kira egemenlik devri değil, Rus egemenliği sürer (TEK KURAL: de jure); 'kira dilimi' ayrı katman istenirse EMRELİC kararı. Post 1849'da bırakıldı (kaynaklar farklı: ADFG ve NRHP özeti), 1867'ye dek İngiliz bayrağı altında kaldığı söylenir. Jülyen: Rus kaynak günleri için 12 gün fark (19. yy), Haziran 1834 / 30 Mayıs 1840 hangi takvim belirsiz."
+  },
+  {
+   "sira": 3791,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "US State Dept, Office of the Historian, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase (ham metin)",
    "alinti": "Alaska was formally transferred to the United States on October 18, 1867.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ. Wrangell'e özgü teslim günü (Fort Stikine'in HBC'den ABD ordusuna geçişi, 1868) okunmadı: BAKILMADI; TEK ÖLÇÜ: devralan fiilen yönetmiyorsa teslim günü esas — Wrangell için HBC fiilî idaresi sürdüğünden gün sonra olabilir (kaynak aranmalı). Jülyen 6 Ekim = Gregoryen 18 Ekim."}
+   "not": "ÜLKE DÜZEYİ. Wrangell'e özgü teslim günü (Fort Stikine'in HBC'den ABD ordusuna geçişi, 1868) okunmadı: BAKILMADI; TEK ÖLÇÜ: devralan fiilen yönetmiyorsa teslim günü esas — Wrangell için HBC fiilî idaresi sürdüğünden gün sonra olabilir (kaynak aranmalı). Jülyen 6 Ekim = Gregoryen 18 Ekim."
+  }
  ],
  "Fort Severn güneyi — Winisk": [
-  {"sira": 3792, "dosya_satir": "", "alan": "s", "d": "kri", "f": "1281-01-01", "t": "1876-08-23",
-   "hukum": "ONERI", "uc": "t",
+  {
+   "sira": 3792,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kri",
+   "f": "1281-01-01",
+   "t": "1876-08-23",
+   "hukum": "ONERI",
+   "uc": "t",
    "kaynak": "James Bay Antlaşması (Antlaşma 9, 1905-06) ve 1929-30 adhezyonları, RCAANC, https://www.rcaanc-cirnac.gc.ca/eng/1100100028863/1581293189896 (ham metin)",
    "alinti": "SIGNED at Winisk on the Twenty-eighth day of July, 1930",
    "alinti2": "Fort Severn on the 25th day of July, 1930; at Winisk on the 28th day of July, 1930",
-   "oneri": {"t": "1930-07-28"},
-   "not": "1876-08-23 = Antlaşma 6 (Fort Carlton) günü; Antlaşma 6 Ova/Orman Kri'si içindir, Winisk (Hudson Körfezi ovası) Antlaşma 9 bölgesindedir (metin: 'territory ... Severn and Winisk' havzası). Winisk bandı 1930-07-28'de Antlaşma 9'a katıldı; Fort Severn 1930-07-25 (ABİ yakın nokta). uc t. UYARI: kri künyesi t=1876-08-23; öneri künye t'sini aşar => künye genişletme (LAB) VEYA bu yerleşim için 'kri' yerine 'omushkego/Swampy Cree' künyesi. Egemenlik: Rupert's Land 1870-07-15 Kanada (kaynak okunmadı). Ontario sınırı 1912 (Ontario Boundaries Extension Act, metinde geçer) ic_not. f=1281 ufuk."},
-  {"sira": 3793, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1876-08-23", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+   "oneri": {
+    "t": "1930-07-28"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Winisk onay: 1930-07-28 (Antlaşma 9 adhezyonu; yerli devrinde imza = devir); Fort Severn 1930-07-25 ic_not; kri t GENİŞLET LAB'a. Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · 1876-08-23 = Antlaşma 6 (Fort Carlton) günü; Antlaşma 6 Ova/Orman Kri'si içindir, Winisk (Hudson Körfezi ovası) Antlaşma 9 bölgesindedir (metin: 'territory ... Severn and Winisk' havzası). Winisk bandı 1930-07-28'de Antlaşma 9'a katıldı; Fort Severn 1930-07-25 (ABİ yakın nokta). uc t. UYARI: kri künyesi t=1876-08-23; öneri künye t'sini aşar => künye genişletme (LAB) VEYA bu yerleşim için 'kri' yerine 'omushkego/Swampy Cree' künyesi. Egemenlik: Rupert's Land 1870-07-15 Kanada (kaynak okunmadı). Ontario sınırı 1912 (Ontario Boundaries Extension Act, metinde geçer) ic_not. f=1281 ufuk.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3793,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1876-08-23",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "RCAANC Antlaşma 9 adhezyon metni, https://www.rcaanc-cirnac.gc.ca/eng/1100100028863/1581293189896",
    "alinti": "SIGNED at Winisk on the Twenty-eighth day of July, 1930",
-   "oneri": {"f": "1930-07-28"},
-   "not": "Önceki satırla birlikte taşınır (kri t = kanada f). 1876 Winisk için hatalı. İşaretli alternatif: 1870-07-15 (Rupert's Land)."}
+   "oneri": {
+    "f": "1930-07-28"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Winisk onay: 1930-07-28 (Antlaşma 9 adhezyonu; yerli devrinde imza = devir); Fort Severn 1930-07-25 ic_not; kri t GENİŞLET LAB'a. Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · Önceki satırla birlikte taşınır (kri t = kanada f). 1876 Winisk için hatalı. İşaretli alternatif: 1870-07-15 (Rupert's Land).",
+   "karar": "EMRELİC"
+  }
  ],
  "Attawapiskat": [
-  {"sira": 3794, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1893-01-01", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3794,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1893-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Anthropologica, 'Attawapiskat — Blend of Traditions' (arama özeti; PDF ham okunamadı), https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/download/486/662/1426 ; Antlaşma 9 metni, RCAANC, https://www.rcaanc-cirnac.gc.ca/eng/1100100028863/1581293189896",
    "alinti": "Signed at Fort Albany on the third day of August, 1905",
    "oneri": {},
-   "not": "f=1893: arama özetinde 'kilise 1893, HBC yaz ticaret merkezi 1894, Revillon 1902' — ham okunamadı => ONERI-güçlü (alıntı özetten), gün yok [yalnız yıl]. Antlaşma 9 metni: Fort Albany 1905-08-03'te imzalandı; 'Some of the Indians were away at their hunting grounds at Attawapiskat river' (Attawapiskat avcıları Albany bandı içinde sayıldı); Attawapiskat Bandı rezervi 1929-30 çizelgesinde ('For Attawapiskat Band') geçer. Attawapiskat'ın kendi katılım günü (1905-08-03 Albany yoluyla mı, 1930 mu) metinde AYRI verilmedi: BULUNAMADI. Kanada sahipliği (Rupert's Land 1870-07-15) kaynak okunmadı. Dilim sahibi kanada f=1893 kalır; yerli-künye (kri/omushkego) dilimi isteniyorsa 1905-08-03 adayı, LAB."}
+   "not": "EMRELİC (5 Kasım 2026, r8_086 + Rupert's Land emsali): Rupert's Land emsali: atlas numaralı antlaşmalara göre (kri t 1876-08-23 Antlaşma 6) → yerli s: antlaşmaya dek; 1870-07-15 Kanada egemenliği ic_not; s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden. Sistemik, Emre listesinde. · f=1893: arama özetinde 'kilise 1893, HBC yaz ticaret merkezi 1894, Revillon 1902' — ham okunamadı => ONERI-güçlü (alıntı özetten), gün yok [yalnız yıl]. Antlaşma 9 metni: Fort Albany 1905-08-03'te imzalandı; 'Some of the Indians were away at their hunting grounds at Attawapiskat river' (Attawapiskat avcıları Albany bandı içinde sayıldı); Attawapiskat Bandı rezervi 1929-30 çizelgesinde ('For Attawapiskat Band') geçer. Attawapiskat'ın kendi katılım günü (1905-08-03 Albany yoluyla mı, 1930 mu) metinde AYRI verilmedi: BULUNAMADI. Kanada sahipliği (Rupert's Land 1870-07-15) kaynak okunmadı. Dilim sahibi kanada f=1893 kalır; yerli-künye (kri/omushkego) dilimi isteniyorsa 1905-08-03 adayı, LAB.",
+   "karar": "EMRELİC"
+  }
  ]
 }

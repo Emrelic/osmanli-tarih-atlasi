@@ -179,5 +179,101 @@
   "Etowah",
   "Moundville",
   "Mound Key (Kalusa başkenti)"
+ ],
+ "karar": "EMRELİC (5 Kasım 2026): onay, ONERI olarak. 21 koloni şehri s: abd 1776-07-04 (9 şehir 1783'ten çekilir). isg ingiltere NY/Filadelfiya/Charleston/Savannah/Wilmington/Hillsborough (günler kaynakla; Hillsborough gün yoksa ay beyanı). 7 batı karakolu: rakip hükûmet + TEK ÖLÇÜ teslim → s: ingiltere 1796 Jay teslimlerine dek, sonra abd (Duluth emsali). Vincennes/Kaskaskia: Clark'ın alışıyla abd (Kaskaskia 1778-07-04, Vincennes 1779-02-25; kaynakla); Hamilton'un Vincennes'i geri alışı 1778-12-17 → isg/geri dönüş dilimi. 9 yerli merkezi: Emre listesi (halk künyesi sınıfı), bu gece DOKUNULMAZ.",
+ "D2_yeni_isg_uclari": {
+  "1776-09-15": {
+   "yer": "New York",
+   "dosya": [],
+   "var": false
+  },
+  "1783-11-25": {
+   "yer": "New York",
+   "dosya": [],
+   "var": false
+  },
+  "1777-09-26": {
+   "yer": "Filadelfiya",
+   "dosya": [],
+   "var": false
+  },
+  "1778-06-18": {
+   "yer": "Filadelfiya",
+   "dosya": [],
+   "var": false
+  },
+  "1780-05-12": {
+   "yer": "Charleston",
+   "dosya": [],
+   "var": false
+  },
+  "1782-12-14": {
+   "yer": "Charleston",
+   "dosya": [],
+   "var": false
+  },
+  "1778-12-29": {
+   "yer": "Savannah",
+   "dosya": [],
+   "var": false
+  },
+  "1782-07-11": {
+   "yer": "Savannah",
+   "dosya": [],
+   "var": false
+  },
+  "1781-01-29": {
+   "yer": "Wilmington",
+   "dosya": [],
+   "var": false
+  },
+  "1781-11-18": {
+   "yer": "Wilmington",
+   "dosya": [],
+   "var": false
+  },
+  "1778-07-04": {
+   "yer": "Kaskaskia",
+   "dosya": [],
+   "var": false
+  },
+  "1778-12-17": {
+   "yer": "Vincennes",
+   "dosya": [],
+   "var": false
+  },
+  "1779-02-25": {
+   "yer": "Vincennes",
+   "dosya": [],
+   "var": false
+  },
+  "1796-07-11": {
+   "yer": "Jay teslimleri",
+   "dosya": [
+    "yerlesimler_amerika.js"
+   ],
+   "var": true
+  },
+  "1796-09-01": {
+   "yer": "Jay teslimleri",
+   "dosya": [],
+   "var": false
+  }
+ },
+ "D2_eksik_KASA": [
+  "1776-09-15 (New York)",
+  "1783-11-25 (New York)",
+  "1777-09-26 (Filadelfiya)",
+  "1778-06-18 (Filadelfiya)",
+  "1780-05-12 (Charleston)",
+  "1782-12-14 (Charleston)",
+  "1778-12-29 (Savannah)",
+  "1782-07-11 (Savannah)",
+  "1781-01-29 (Wilmington)",
+  "1781-11-18 (Wilmington)",
+  "1778-07-04 (Kaskaskia)",
+  "1778-12-17 (Vincennes)",
+  "1779-02-25 (Vincennes)",
+  "1796-09-01 (Jay teslimleri)"
  ]
 }
