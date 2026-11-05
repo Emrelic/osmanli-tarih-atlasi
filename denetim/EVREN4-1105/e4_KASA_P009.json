@@ -539,10 +539,10 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Simnân' (https://islamansiklopedisi.org.tr/simnan)",
    "alinti": "766 (1364-65) yılına kadar onların egemenliği altında kalan Simnân",
    "oneri": {
-    "t": "1364-09-28",
+    "t": "1364-09-27",
     "bolme": "1364-09-28 → 1386 sahibi bulunamadı → BEYANLI boşluk ya da kaynakla bulunacak sahip (İPUCU: Emîr Velî / Esterâbâd)"
    },
-   "not": "[sira 679] HİCRÎ: 766 = 1364-09-28 → 1365-09-16; kaynak '1364-65' → kesişimin ilk günü 1364-09-28. f 1337-09-09 Sebzevâr maddesinden devralınmış; Simnân'ın Serbedârî'ye geçiş yılı TDV'de yok."
+   "not": "[sira 679] HİCRÎ: 766 = 1364-09-28 → 1365-09-16; kaynak '1364-65' → kesişimin ilk günü 1364-09-28. f 1337-09-09 Sebzevâr maddesinden devralınmış; Simnân'ın Serbedârî'ye geçiş yılı TDV'de yok. · [hicrî denetim 1105, KASA] 766: tabular, Perşembe epoch'u → 1364-09-27 (eski 1364-09-28 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün"
   },
   {
    "dosya_satir": "data/yerlesimler.js:2129",

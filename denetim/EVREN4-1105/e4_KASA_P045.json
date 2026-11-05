@@ -262,9 +262,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Rumelihisarı», https://islamansiklopedisi.org.tr/rumelihisari",
    "alinti": "yapının Receb 856 (Temmuz-Ağustos 1452) tarihinde tamamlandığı belirtilmektedir",
    "oneri": {
-    "f": "1452-07-18"
+    "f": "1452-07-17"
    },
-   "not": "[sira 3022] [alıntı ham metinden, sayfa.py] Kitâbe Receb 856'yı verir; 1452-08-31 bu aralığın DIŞINDA (Receb 856 ≈ 18 Temmuz – 16 Ağustos 1452; hicrî kural: kesişimin ilk günü, tablo denetimi gerekli). 31 Ağustos kronik geleneğidir (Dukas inşa başlangıcını Mart 1452 sonu verir — TDV) → ic_not. t 1920-04-23: İstanbul 1918-11-13 → 1923-10-06 İtilaf işgalinde; Mersin emsali d: osmanli + isg itilaf, TBMM teslimi 1923-10-06 — K05 ASKIDA, öneri yazılmadı.",
+   "not": "[sira 3022] [alıntı ham metinden, sayfa.py] Kitâbe Receb 856'yı verir; 1452-08-31 bu aralığın DIŞINDA (Receb 856 ≈ 18 Temmuz – 16 Ağustos 1452; hicrî kural: kesişimin ilk günü, tablo denetimi gerekli). 31 Ağustos kronik geleneğidir (Dukas inşa başlangıcını Mart 1452 sonu verir — TDV) → ic_not. t 1920-04-23: İstanbul 1918-11-13 → 1923-10-06 İtilaf işgalinde; Mersin emsali d: osmanli + isg itilaf, TBMM teslimi 1923-10-06 — K05 ASKIDA, öneri yazılmadı. · [hicrî denetim 1105, KASA] Receb 856: tabular, Perşembe epoch'u → 1452-07-17 (eski 1452-07-18 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün",
    "uc": "f"
   }
  ],
@@ -813,9 +813,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
    "alinti": "Bu esnada Câm’dan Damgan’a, Habişan’dan Türşiz’e geniş bir saha Serbedârîler’in hâkimiyeti altındaydı",
    "oneri": {
-    "f": "1344-05-15"
+    "f": "1344-05-14"
    },
-   "not": "[sira 3062] [alıntı ham metinden, sayfa.py] «Bu esnada» = Mes‘ûd'un ölümü (745/1344, aynı paragraf — yıl bağlamdan). f 1337-09-09 Sebzevâr'ın günüdür, Câm'ın değil. Hicrî 745 ∩ 1344 kesişiminin ilk günü ≈ 1344-05-15 (tablo denetimi gerekli). 1337-1344 arası: Câm Herat Kertlerine komşu, Kert–Serbedâr savaşını «Kert Emîri Muizzüddin Hüseyin kazandı» (TDV) — kert künyesi (1244-1389) adayı, kaynaksız → BEYANLI. Zayıf öneri.",
+   "not": "[sira 3062] [alıntı ham metinden, sayfa.py] «Bu esnada» = Mes‘ûd'un ölümü (745/1344, aynı paragraf — yıl bağlamdan). f 1337-09-09 Sebzevâr'ın günüdür, Câm'ın değil. Hicrî 745 ∩ 1344 kesişiminin ilk günü ≈ 1344-05-15 (tablo denetimi gerekli). 1337-1344 arası: Câm Herat Kertlerine komşu, Kert–Serbedâr savaşını «Kert Emîri Muizzüddin Hüseyin kazandı» (TDV) — kert künyesi (1244-1389) adayı, kaynaksız → BEYANLI. Zayıf öneri. · [hicrî denetim 1105, KASA] 745: tabular, Perşembe epoch'u → 1344-05-14 (eski 1344-05-15 Cuma epoch'uyla 1 gün geçti); rü'yet ±1-2 gün",
    "uc": "f"
   },
   {

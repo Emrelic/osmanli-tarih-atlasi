@@ -151,6 +151,28 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 — hicrî kural birliği ve Yukarı Burma
+
+- **Hicrî çeviri:** atlas TEK bir tabular varyant kullanır: Perşembe epoch'u, UMIT brifi.
+  - 1 Muharrem 1 = 622-07-15 Jülyen. Sınama: 1 Rebîülevvel 923 = 1517-03-23 Jülyen.
+  - ic_not'a "tabular, Perşembe epoch; rü'yet ±1-2 gün" yazılır.
+  - **Denetim (KASA):** ajanlar ve KASA'nın kendi sınaması Cuma epoch'unu kullanmıştı, sonuç 1 gün geç çıkıyordu. EVREN4 JSON'larında hicrî kaynaklı 16 öneri ucu bulundu, hepsinde 1 gün fark var.
+  - 12 uç düzeltildi (7 yerleşim):
+    - Simnân 1364-09-27
+    - Verzâzât 1536-06-19
+    - Hanşele, Sikikde ve Sûk Ahrâs 1533-07-22
+    - el-Katrûn 1577-03-20
+    - Rumeli Hisarı 1452-07-17
+    - Turbet-i Câm 1344-05-14
+  - Fîgîg ve Hunayfire'de 1549-01-31 kalır (4 uç): Batı karşılığını TDV'nin kendisi veriyor ("2 Muharrem 956 / 31 Ocak 1549"), kaynak günü esastır.
+  - Tablo: `HICRI-DENETIM-1105.tsv`.
+  - KRONOLOJI-1104'teki eski tabular hesaplar yalnız kaynaktaki günü ±1 içinde sınamak içindi (L2-956 vb.). Kuyruğa giren tek hicrî gün (Lahor 1215-12-01) ay kesişimine dayandığı için epoch farkından etkilenmez.
+- **Yukarı Burma (HAVVA buldu):** Yukarı Burma yerleşimlerine 1852-12-20 Aşağı Burma ilhakı uygulanmış.
+  - Doğrusu: `s: ingiliz-hindistani` Mandalay'ın düşüşünden başlar (1885-11-28/29). TEK ÖLÇÜ: İngiltere 1885-11'den itibaren yönetiyordu.
+  - 1886-01-01 ilhak bildirisi `ic_not`a.
+  - **Ölçüm:** `BURMA-1852-TARAMA.tsv` — 1852 günüyle başlayan 12 dönemin 5'i 1852 hattının kuzeyinde: Meiktila, Yenangyaung, Minbu, Taungdwingyi, Pyinmana. Kaynak araması UFUK ajanına eklendi.
+  - P049'daki Mandalay önerisi (isg 1885-11-28 → s: 1886-01-01) bu kararla `s:` 1885-11-28'den olarak düzelir.
+
 ## 5 Kasım 2026 gece-73 — P041-P048 üzerine
 
 - **SİSTEMİK, Tunus 1923-10-29:** bu bir UFUK artığı; doğru gün 07-24 DE değil.
