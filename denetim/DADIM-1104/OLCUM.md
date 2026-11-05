@@ -1250,8 +1250,31 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 3. **İşim ve Sarısu:** Kopal devralması kalkar. ABİ MERKEZ en yakın okrug, BEYANLI:
    - İşim → Kökçetav 1824-05-11 G (~125 km). EMRELİC Akmola ya da Karkaralı demişti; ikisinden de yakın olduğu için Kökçetav seçildi.
    - Sarısu → Akmola okrugu 1832-09-03 G.
-4. **Sığnak, Suzak (Hokand dönemi, Rus alışı 1864) ve Kopal (Rogozhinsky 2021 ham metni):** ek tur sürüyor (`kz4`).
+4. **Ek tur `kz4`** (`kazak_kume.json`a işlendi; küme toplamı KAYNAKLI 2 · ONERI 39 · BULUNAMADI 7):
+   - **Suzak:**
+     - 1847 yanlış; yapı kazak-hanligi → hokand → rusya 1864-01-01 [yalnız yıl].
+     - Halfin 1960 (hakemli monografi), Milyutin raporu: "с весны 1864 г. … окончательно займут Сузак".
+     - Hokand f'si için TDV 1808–1814, BSE1 1816–1821 veriyor; gün yok, BEYANLI gerekir. 1863-06-11 G (himaye ilanı) ic_not'a.
+   - **Sığnak:** Hokand dönemi ve Rus alışı için şehre özgü kaynak yok (BULUNAMADI).
+   - **Kopal:**
+     - Rogozhinsky 2021 (Tomskaya Pisanitsa 14) toponim makalesi; cyclowiki'deki atıf etimoloji cümlesine bağlı. Kopal 1847 cümlesinin dipnotu popüler bir yazı. Atfın Kopal kaydından çıkarılması önerilir.
+     - 1847 ONERI-zayıf kalır ("başka verilere göre 1846"). Büyük Cüz 1846–48 için hakemli dayanak bulunamadı.
 
+- **r8_124:** KAYNAKLI 2 · ONERI 2 · BULUNAMADI 4.
+  - **KAYNAKLI:** Speightstown 1966-11-30, Vieux Fort 1979-02-22 (ülke düzeyi).
+  - **Gudermes:** t 2000-02-06 Grozni'nin düşüşü; Gudermes 1999-11-12/13'te Rus denetimine geçti (VOA ham metni). isg mi d: mi, EMRELİC kararı.
+  - **Dikelya:** 1960 antlaşma metni egemenliği teyit ediyor, gün yok (16 / 19 Ağustos).
+- **r8_123:** KAYNAKLI 4 · ONERI 2 · BULUNAMADI 3.
+  - **KAYNAKLI:** Cottbus DDR 1949–1990; Charlottenburg f 1948-12-07; Vukovar UNTAES 1996-01-15 → 1998-01-15; Peç UNMIK 1999-06-10.
+  - **Pale:** Dayton RS'yi bitirmedi; t 1995-12-14 künye sorusu (LAB).
+  - **Peç gölge cumhuriyeti 1991-99:** fiilî idare yok → BEYANLI ya da Sırbistan (EMRELİC).
+  - **Erişim:** ICTY PDF'leri metin vermedi.
+- **r8_122:** KAYNAKLI 4 · ONERI 6 · BULUNAMADI 1.
+  - **KAYNAKLI:** Mindelo, Bangassou, Jadotville ×2. Ülke/eyalet düzeyi; dayanak Encyclopedia.com (Gale/Worldmark), hakemli değil. Sınıf kararı EMRELİC'te.
+  - **Aba:** t Biafra teslimi, Aba 1968-09'da düştü.
+  - **Xam Nua:** f 1950-08-13 Tuyen Quang kongresi; Sam Neua 1953-04.
+  - **Nago:** f çıkarma günü; ABD'ye egemenlik devri yok (isg?).
+  - **Bandung, Sukabumi:** 1948-02-26 → 1949-12-27 s: pasundan mı s: hollanda mı (EMRELİC).
 - **r8_126:** KAYNAKLI 2 · ONERI 6 · BULUNAMADI 1.
   - **KAYNAKLI:** Shimao −2299/−1799 (Chen 2025 Nature); Jiangzhai −4899/−3999 (Liu & Reid 2020).
   - **Çayönü:** −9499/−6999 (Altınışık 2022). t, künyenin −7099'unu aşar (LAB).

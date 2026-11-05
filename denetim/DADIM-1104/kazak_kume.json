@@ -756,11 +756,9 @@
    "oneri_son": null,
    "kaynak2": "",
    "alinti2": "",
-   "kaynak": "",
-   "alinti": "",
    "tarayici_gerekli": false,
-   "not": "Kapal kalesi 1847 yil duzeyinde cyclowiki'de; wiki sinifi site, birincil makale okunamadi; gun yok. Bakilan: TDV kazaklar/kazakistan (Kopal gecmez), e-history PDF, altspu Vestnik PDF (Kapal gecmez), ruwiki/cyclowiki. 1847 atlasin kendi devralma kaydi, dayanak sayilmaz.",
-   "parti": "kz3"
+   "not": "Önceki turun BULUNAMADI hükmü korunur. Büyük Cüz'ün Rus himayesi 1846 (cyclowiki: 'В 1846 г. состоялось официальное признание султанами и родоправителями казахов Старшего жуза протектората России'), hakemli karşılık bulunamadı. t=1846 mı 1847 mi: KASA kararı, kaynaksız.",
+   "parti": "kz4 (ek tur, gece-94)"
   },
   {
    "dosya_satir": "yerlesimler_ortaasya3.js",
@@ -773,13 +771,11 @@
    "oneri_son": {
     "f": "1847-01-01"
    },
-   "kaynak2": "",
-   "alinti2": "",
-   "kaynak": "cyclowiki.org 'Semirechye' (Rogozhinsky 2021, Uchenye zapiski 'Tomskaya Pisanitsa' atfiyla), https://cyclowiki.org/wiki/Семиречье",
-   "alinti": "в 1847 г. к юго-востоку от озера Балхаш возведено первое военно-административное поселение — Капальское укрепление",
-   "tarayici_gerekli": false,
-   "not": "Yil 1847 korunur (YYYY-01-01 yalniz yil; gun BULUNAMADI). Zayif: vikisinifi site araciligiyla; ruwiki ozeti 1847 (baska veriye gore 1846), 1848'de Kopalskaya stanitsa. Cuz protektorasi 1846. OLCU: kale (brif). Yil duzeyi kismen teyit.",
-   "parti": "kz3"
+   "kaynak2": "cyclowiki.org 'Semirechye' (vikisınıfı site, tek başına KAYNAKLI değil); ru.wikipedia 'Kapal (Zhetysuskaya oblast)' (teyit değil)",
+   "alinti2": "в 1847 г. к юго-востоку от озера Балхаш возведено первое военно-административное поселение — Капальское укрепление (с 1854 — г. Капал)",
+   "tarayici_gerekli": true,
+   "not": "ROGOZHINSKY 2021 SONUCU: Rogozhinsky A.E., 'От «Жетысу» до «Семиречья»: рождение и трансформация значений', Uchenye zapiski muzeya-zapovednika Tomskaya Pisanitsa, vyp. 14, 2021, s.160-170: ham metne ULAŞILAMADI (academia.edu robots yasak, researchgate 403, kazneb.kz tam sayı PDF'inde anahtar kelime bulunamadı/metin bozuk). Üstelik cyclowiki'de Rogozhinsky dipnotu [1] ETİMOLOJİ cümlesine bağlıdır; Kapal 1847 cümlesinin dipnotu [3] 'Капал: что осталось от первого русского города Семиречья?' başlıklı popüler yazıdır. Yani 'Rogozhinsky 2021' atfı Kapal 1847 için YANLIŞ ATIF olma ihtimali yüksek; makale toponim (Zhetysu/Semirechye) makalesi, kale kuruluşu için birincil dayanak görünmüyor. Öneri: Rogozhinsky atfı Kopal kaydından çıkarılsın. Kuruluş günü BULUNAMADI (ruwiki: 1847, 'по другим данным 1846', 10. Sibirya alayı 1. sotnyası, yesaul Nyuhalov; başka yerde Abakumov; inşaat bahar 1847; stanitsa 1848-50). Takvim belirsiz, yıl düzeyi 1847-01-01. Büyük Cüz 1846-48 idaresi için hakemli dayanak BULUNAMADI. Hakemli ipucu (tam metin okunamadı): SFU Journal (Tarasov) 'Elder Horde Kırgız idaresi yeni kurulan Kopal kalesinde kuruldu' (elib.sfu-kras.ru/bitstream/handle/2311/9494/10_Tarasev.pdf; sayfa.py'de anahtar bulunamadı, yalnız arama özeti).",
+   "parti": "kz4 (ek tur, gece-94)"
   }
  ],
  "Sığnak (Sunak Kurgan)": [
@@ -794,11 +790,9 @@
    "oneri_son": null,
    "kaynak2": "",
    "alinti2": "",
-   "kaynak": "",
-   "alinti": "",
    "tarayici_gerekli": false,
-   "not": "Bakilan: TDV kazakistan/kazaklar (Abilay Han 18. yy 'Sayram, Cimkent ve Suzak' anilir, Signak yok), web aramalari (Signak/Suzak 1864 sonucsuz). 1847 Kopal devralmasi Signak'a ozgu degil; Signak Sirderya hatti/Hokand siniridir, olasi Rus alisi 1860'lar ama kaynaksiz: uydurulmaz. BAKILMADI kismi: Sirderya Oblasti/Turkistan Genel Valiligi kurulus kaynaklari ve Hokand idaresi acilmadi.",
-   "parti": "kz3"
+   "not": "Hokand dönemi Sığnak'a özgü kaynak bulunamadı. TDV hokand-hanligi: 1808 Taşkent+Çimkent+Sayram, 1814 Türkistan alındı, 'hanlığın kuzey sınırları batıda Siriderya'nın aşağı mecrasından doğuda İli'ye kadar uzandı' (Sığnak adı geçmez). BSE1 'Kokandskoe khanstvo': Ömer Han sınırı 'na S. do Chimkenta i Suzaka'. Sığnak'ı sayan kaynak yok; kazak-hanligi t=1847 Kopal devralması, Sığnak'a özgü değil. Sığnak/Sunak-ata 19. yy ortasında terk edilmiş (silkadv.com, popüler, tek başına değil).",
+   "parti": "kz4 (ek tur, gece-94)"
   },
   {
    "dosya_satir": "yerlesimler_ortaasya3.js",
@@ -811,11 +805,9 @@
    "oneri_son": null,
    "kaynak2": "",
    "alinti2": "",
-   "kaynak": "",
-   "alinti": "",
-   "tarayici_gerekli": false,
-   "not": "Ayni: 1847 Signak icin dayanaksiz. Hokand donemi gerekebilir (kunye var), kaynaksiz.",
-   "parti": "kz3"
+   "tarayici_gerekli": true,
+   "not": "1847 dayanaksız. Rus alışı Türkistan (1864) çevresine bağlı olabilir ama Sığnak'ı anan hakemli kaynak çıkmadı (Halfin, Mikhailov, BSE1, ESBE, e-history 'SYGANAK' maddesi Sığnak'ın Rus alışını tarihlemez). Uydurma yok; tarayıcıyla Sır-Derya oblast kuruluş belgeleri / Lerch 1867 bakılmalı.",
+   "parti": "kz4 (ek tur, gece-94)"
   }
  ],
  "Suzak (Sozak)": [
@@ -825,16 +817,30 @@
    "d": "kazak-hanligi",
    "f": "1465-01-01",
    "t": "1847-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "t",
-   "oneri_son": null,
-   "kaynak2": "TDV Kazakistan, https://islamansiklopedisi.org.tr/kazakistan",
-   "alinti2": "Abılay Han Sayram, Çimkent ve Suzak gibi kültür merkezlerini yönetimi altına aldı.",
-   "kaynak": "",
-   "alinti": "",
-   "tarayici_gerekli": false,
-   "not": "TDV Abilay Han (ol. 1781) zamaninda Suzak'in Kazak idaresinde oldugunu gosterir (18. yy; t ucunu tarihlemez). Suzak'in 1847'de Rusya'ya gectigine kaynak yok; web aramasi Suzak'i hic anmadi. BULUNAMADI.",
-   "parti": "kz3"
+   "oneri_son": [
+    {
+     "d": "kazak-hanligi",
+     "f": "1465-01-01",
+     "t": "?"
+    },
+    {
+     "d": "hokand",
+     "f": "?",
+     "t": "1864-01-01",
+     "not": "Hokand f: yalnız 1816-1821 aralığı (Ömer Han, BSE1); gün/yıl BULUNAMADI. Hokand künyesi 1710-01-01..1876-02-19 içinde."
+    },
+    {
+     "d": "rusya",
+     "f": "1864-01-01"
+    }
+   ],
+   "kaynak2": "BSE1 (Bolshaya Sovetskaya Entsiklopediya, 1. bas.) 'Kokandskoe khanstvo' (ru.wikisource.org/wiki/БСЭ1/Кокандское_ханство)",
+   "alinti2": "Свергший в 1816 Алим-хана Омар-хан в 1819 захватил у Бухары г. Туркестан и объявил о присвоении себе титула эмир-эль-муслимин (императора) и в торжественной обстановке надел тадж (корону). Пределы К. х. им были расширены: на С. до Чимкента и Сузака",
+   "tarayici_gerekli": true,
+   "not": "t=1847 YANLIŞ: Suzak 1847'de Rusya'ya geçmedi, Hokand idaresindeydi (Rus alışı 1863-64). Hokand'a geçiş için tek tanık BSE1 (ansiklopedi, hakemli değil): Ömer Han döneminde sınır Çimkent ve Suzak'a dek genişledi. TDV hokand-hanligi: Çimkent+Sayram 1808, Türkistan 1814 (Suzak yok); BSE1 ise Türkistan'ı 1819 der: iki kaynak çelişir (TDV esas). Hokand f günü BULUNAMADI; oneri_son'daki '?' KASA'nın yıl kararıdır (TDV'ye göre en erken 1808-1814 bandı, BSE1'e göre 1816-1821); beyanlı yaklaşıklık gerekir. Hokand sonu t=1864 aşağıdaki Rus f ile aynı.",
+   "parti": "kz4 (ek tur, gece-94)"
   },
   {
    "dosya_satir": "yerlesimler_ortaasya3.js",
@@ -842,16 +848,16 @@
    "d": "rusya",
    "f": "1847-01-01",
    "t": "1917-03-15",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
-   "oneri_son": null,
-   "kaynak2": "",
-   "alinti2": "",
-   "kaynak": "",
-   "alinti": "",
+   "oneri_son": {
+    "f": "1864-01-01"
+   },
+   "kaynak2": "Halfin N.A., Politika Rossii v Srednei Azii (1857-1868), Moskva 1960, gl. IV (militera.lib.ru/research/halfin_na1/04.html); ek: A.A. Mikhailov, Bitva s pustynei, gl.5 (militera.lib.ru/h/mihaylov_aa2/05.html, popüler)",
+   "alinti2": "Неожиданные успехи отряда Черняева (хотя он и не «занял окончательно» Сузак) вызвали беспокойство Безака",
    "tarayici_gerekli": false,
-   "not": "1847 dayanaksiz; olasi Sirderya hatti 1860'lar kaynaksiz.",
-   "parti": "kz3"
+   "not": "ÖLÇÜT: idareye katma. Kalıcı Rus yerleşimi 1864. 1863: Çernyayev'in keşif müfrezesi Suzak'a vardı, halk ayaklandı, Hokand garnizonu silah bıraktı, Rus tâbiliği istendi (Halfin; Mikhailov: Suzak 30 Mayıs 1863 Jülyen = 1863-06-11 Gregoryen, Çolak-Kurgan 8 Haziran 1863). Ama Halfin: Çernyayev Suzak'ı 'окончательно' ELE GEÇİRMEDİ; Milyutin raporu: 'с весны 1864 г. войска Оренбургского корпуса окончательно займут Сузак' (Halfin gl. IV); Mikhailov: Nur-Muhammed 1863 sonunda Suzak'ı ziyaret edip Hokand adına haraç topladı; 22 Mayıs 1864 (Jülyen) Verevkin müfrezesi Perovsk'tan Suzak'a yürüdü. Kesin 1864 günü bulunamadı, yıl düzeyi 1864-01-01. Alternatif (KASA seçer): 1863-06-11 (Gregoryen) 'Rus himayesi ilanı', ama kalıcı idare değil; seçilirse ic_not'ta iki gün + 'Hokand 1863-64 yeniden idare' beyanı. Mikhailov günleri Rus (Jülyen), +12. Hakemli ek: Vestnik RUDN, Ser. Istoriya Rossii 2014, 'General M.G. Chernyaev...' (cyberleninka): 1863'te Suzak ve Çulak-Kurgan işgal edildi, halk tâbiyet istedi (gün yok).",
+   "parti": "kz4 (ek tur, gece-94)"
   }
  ],
  "Türkistan (Yesi)": [

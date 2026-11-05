@@ -1,0 +1,148 @@
+{
+ "Cottbus": [
+  {
+   "sira": 4453,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-demokratik-cumhuriyeti",
+   "f": "1949-10-07",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "bpb (Bundeszentrale fuer politische Bildung), einfach POLITIK Lexikon 'Deutsche Demokratische Republik' https://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/298915/deutsche-demokratische-republik/ ; bpb Deutschland-Chronik '3. Oktober 1990' https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132226/3-oktober-1990/",
+   "alinti": "f: 'Die DDR wurde am 7. Oktober 1949 gegründet.' t: 'Der Beitritt der DDR ... nach Art. 23 wird wirksam. Damit endet die Existenz der DDR.' (3. Oktober 1990)",
+   "oneri": {},
+   "not": "Ham sayfa.py metninden. Ülke düzeyi (DDR); Cottbus'a özgü tanıklık değil -> ÜLKE DÜZEYİ (Cottbus DDR ülkesi içinde, 1952'den Bezirk Cottbus merkezi, Bezirk kaynağı aranmadı)."
+  }
+ ],
+ "Batı Berlin (Charlottenburg)": [
+  {
+   "sira": 4454,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "berlin-bati",
+   "f": "1948-12-07",
+   "t": "1990-10-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Bundeszentrale fuer politische Bildung, APuZ 'Die Berlin-Krise von 1948/49' https://www.bpb.de/shop/zeitschriften/apuz/archiv/534491/die-berlin-krise-von-1948-49/ ; Berlin.de Buergermeistergalerie 'Besatzung, Spaltung und Blockade 1945-1948/49' https://www.berlin.de/rbmskzl/politik/senat/buergermeistergalerie/artikel.4559.php",
+   "alinti": "'Am 5. Dezember 1948 wählten die West-Berliner eine neue Stadtverordnetenversammlung ... Zwei Tage später wurde Ernst Reuter zum Oberbürgermeister gewählt.'",
+   "oneri": {},
+   "not": "f=1948-12-07 (West-Berlin Oberbürgermeister Reuter) kaynakta; ayrılma: 30.11.1948 Ost'ta 'außerordentliche Stadtverordnetenversammlung' Magistrat'ı azletti (berlin.de), 1948-12-05 Batı seçimi, Reuter fiilen Ocak 1949 görevde (berlin.de: 'übernahm im Januar 1949 ... endgültig'). Öteki uç (t=1990-10-03) teyitsiz: bpb 3 Ekim 1990 sayfası Almanya birliğini ve Berlin kutlamasını verir, Batı Berlin statüsünün bitişini açıkça yazmaz. Charlottenburg'un İngiliz sektöründe olduğuna dair sayfa bulunamadı (BAKILMADI)."
+  }
+ ],
+ "Grammos (DSE üssü)": [
+  {
+   "sira": 4455,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yunanistan-gecici-demokratik-hukumet",
+   "f": "1947-12-24",
+   "t": "1949-08-28",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: arama özetleri (getgreece, humanconflicts, Grokipedia, Wikidata) - ham okunamadı/akademik değil; historytoday.com robots.txt yasağı. Özetlerde ilan 24 Aralık 1947 (bir kaynak 23 Aralık), Grammos-Vitsi yenilgisi Ağustos 1949 (bir özet 24 Ağustos), KKE ateşkesi 16 Ekim 1949; künye t=1949-08-28 hiçbir kaynakta doğrulanmadı. Hakemli kaynak (Close, Clogg, Iatrides) erişilemedi."
+  }
+ ],
+ "Glina": [
+  {
+   "sira": 4456,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija, 'Glina' (grad) https://www.enciklopedija.hr/clanak/glina-grad",
+   "alinti": "U početku agresije na Hrvatsku 1991. Glinu su okupirale srpske snage. Oslobođena je u kolovozu 1995.",
+   "oneri": {
+    "t": "1995-08 (yalnız ay; gün teyitsiz)"
+   },
+   "not": "Alıntı t'yi yalnız AY düzeyinde (Ağustos 1995) tarihler, f'yi (1991-12-19 RSK ilanı) tarihlemez; 1991 'işgal' yılsız-günsüz. Arama özetlerinde Glina düşüş günü 6 Ağustos (Raguž makalesi, özet) / 8 Ağustos (HINA, 403 ham okunamadı) çelişkili -> gün hükmü verilemedi; künye t=08-07 RSK ülke sonudur, Glina'ya özgü gün doğrulanmadı. ICTY Martić/Gotovina PDF'leri sayfa.py ile metin vermedi (BAKILMADI)."
+  }
+ ],
+ "Vukovar": [
+  {
+   "sira": 4457,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dogu-slavonya-untaes",
+   "f": "1996-01-15",
+   "t": "1998-01-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "United Nations, UNTAES Brief Chronology, DPI https://peacekeeping.un.org/es/mission/past/untaes_e.htm",
+   "alinti": "f: 'established on 15 January 1996 by the United Nations Security Council in its resolution 1037 (1996)' t: 'UNTAES concludes its mandate on 15 January 1998'",
+   "oneri": {},
+   "not": "Ham sayfa.py metninden. Not: UNTAES 20 Mayıs 1996'da tam konuşlandı (peacekeeping untaes_b.htm), merkez Vukovar; Hırvat egemenliği ilke olarak korundu (res. 1037 'integral parts of the Republic of Croatia'). 1991-11-18 Vukovar düşüşü (ICTY Mrkšić özetlerinde arama özeti) bu satırın ucu değil; 1991-11 → 1996-01 arası RSK/SAO SBWS satırı bu partide yok."
+  }
+ ],
+ "Pale": [
+  {
+   "sira": 4458,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: icty.org Karadžić vaka sayfası (ham metinde 9 Ocak 1992/Pale yok), Britannica 403, enciklopedija.hr Dayton (1995 yok), arama özetleri (encyclopedia.com 27 Mart; PBS 6 Nisan 1992 ilan + Saraybosna başkent: çelişkili, ham doğrulanmadı). KÜNYE UYARISI: Dayton Republika Srpska'yı sona erdirmedi (BiH entitesi olarak sürdü); t=1995-12-14 Pale için sahiplik bitişi değil, künye/LAB sorusu."
+  }
+ ],
+ "Posušje": [
+  {
+   "sira": 4459,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "herzeg-bosna",
+   "f": "1991-11-18",
+   "t": "1996-08-14",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "jabuka.tv 'Obljetnica HZ Herceg-Bosne' https://www.jabuka.tv/obljetnica-hz-herceg-bosne-svoj-dan-slave-zzh-i-grude/ ; brotnjo.info 2024-11-18 https://www.brotnjo.info/2024/11/18/na-danasnji-dan-prije-33-godine-utemeljena-je-hrvatska-zajednica-herceg-bosna/",
+   "alinti": "utemeljena u Grudama 18. studenoga 1991. ; do samoukinuća 14. kolovoza 1996., kada su sve ovlasti Vlade Herceg-Bosne prenesene na Vladu Federacije BiH",
+   "oneri": {
+    "d": "herzeg-bosna (tarihler eşleşir, kaynak sınıfı yetersiz)"
+   },
+   "not": "Ham metinden; tarihler f ve t ile aynı, Posušje 30 kurucu belediyeden biri. Ancak kaynaklar yerel haber portalı (akademik değil) -> KAYNAKLI sayılmadı; akademik teyit (ICTY Prlić yargısı, Hrvatska enciklopedija) bakılmadı/bulunamadı. 1993-08-28 cumhuriyete dönüşüm ve 1994 Federasyon anayasası sonrası fiilî statü künye kararıdır."
+  }
+ ],
+ "Peç (Pejë)": [
+  {
+   "sira": 4460,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kosova-golge-cumhuriyeti",
+   "f": "1991-09-22",
+   "t": "1999-06-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: history.state.gov Kosovo (1991 yok), CRS RL31053 (1991 ham metinde yok), Malcolm Kosovo: A Short History archive.org (HTTP 500). Arama özeti: Meclis 22 Eylül 1991'de referandum kararı, oylama 26-30 Eylül (ham doğrulanmadı; 22 Eylül 'ilan' değil 'referandum kararı'). SAHİPLİK UYARISI: gölge cumhuriyet Peç'i fiilen yönetmedi (1991-1999 fiilî idare FRY/Sırbistan); s: boyaması beyanlı yaklaşıklık ya da Sırbistan/Yugoslavya olmalı - EMRELİC kararı."
+  },
+  {
+   "sira": 4461,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "unmik-kosova",
+   "f": "1999-06-10",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Congressional Research Service RL31053 'Kosovo and U.S. Policy: Background to Independence' https://www.everycrsreport.com/reports/RL31053.html",
+   "alinti": "On June 10, the U.N. Security Council approved UNSC Resolution 1244, based on the international peace plan agreed to by Milosevic.",
+   "oneri": {},
+   "not": "Ham sayfa.py metninden; hukuki dayanak günü (f). Aynı sayfa: 9 Haziran 1999 Askerî Teknik Anlaşma, KFOR 11 Haziran'da girmeye başladı, Yugoslav çekilişi 20 Haziran'da tamamlandı. TEK ÖLÇÜ: Peç'e özgü fiilî teslim günü bulunamadı -> [Peç'e özgü teslim günü teyitsiz]. t=2000-12-31 kaynakta yok (atlas kesimi); künye t=2008-02-17."
+  }
+ ]
+}
