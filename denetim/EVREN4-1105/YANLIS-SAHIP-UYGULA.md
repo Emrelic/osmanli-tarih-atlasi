@@ -67,7 +67,10 @@
 - **Kilindoni (B1):** TDV «Tanzanya» Mafia'yı ÖZGÜL tarihliyor: «İngilizler'in Kasım 1914'te Mafia adasını ele geçirmesiyle başlayan…» → `isg ingiltere` f **1914-11-01** + ay beyanı, **KAYNAKLI**; 1916-09-19 kalkar.
   - Öteki kaynaklardaki 12 Ocak 1915 akademik kaynakla doğrulanamadı (Strachan ve Hordern ödünç kitap). `ic_not`ta iki tarih beyanı.
 - **Lomé (B2):** devir günü BULUNAMADI; 1920 raporu tarandı, devir cümlesi yok. → `s: ingiltere` BEYANLI 1919-06-28 → 1922-07-20, `ic_not` "devir ~1920, gün bulunamadı". Devir maddesi yazılmadı.
-- ⚠️ Hedef dosya: 7 taslak `kronoloji_sinir_afrika.js`'e hedeflendi; ajan bu dosyanın 1920–23 mandalarına odaklı olduğunu not etti. 1684, 1840 ve 1899 maddeleri için başka bir Afrika dosyası seçilebilir (KASA PAZAR / EMRELİC).
+- ⚠️ Hedef dosya: 7 taslak `kronoloji_sinir_afrika.js`'e hedeflendi; ajan bu dosyanın 1920–23 mandalarına odaklı olduğunu not etti.
+  - **EMRELİC gece-128 kararı:** ZIM-04 (1684), ZIM-05 (1840) ve DAG-03 (1899) bu manda dosyasına uymuyorsa KASA PAZAR onları Afrika'nın genel `kronoloji_sinir` dosyasına ya da ilgili bölge dosyasına koyar (grep'le Güney Afrika/Zimbabve ve Batı Afrika maddelerinin çoğunlukta olduğu dosyayı seç). LOM-01, TOG-02, VER-06 ve TOG-07 `kronoloji_sinir_afrika.js`'te kalır.
+- **ZIM-05 (1840):** EMRELİC onayı, BEYANLI YAKLAŞIKLIK. Uç zorunlu ve aralık kaynakla sınırlı; kural ihlali değildir.
+  - `ic_not`: "TDV: 1830'lar; Ndebele'nin Limpopo kuzeyine yerleşmesi ~1838–40; Beach 1980 okunmadı". Madde ONERI kalır.
 
 ## D2
 
