@@ -78,7 +78,7 @@
    "kaynak": "TDV tebuk (gövde okundu)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV tebuk (gövde okundu). TDV Tebük: Memlük dönemi/1517 geçişine dair cümle yok."
+   "not": "KARAR EMRELİC (gece-90): 1918-10 Mondros'a dek Osmanlı garnizonu; sonra Hicaz Krallığı fiilî idaresi; TDV '1924' hangi olayı tarihliyor (Maan-Akabe bağlantısı) okunacak; 1925 Suudi KAYNAKLI; belirsizse 1918–1924 BEYANLI. | Baktığım yerler: TDV tebuk (gövde okundu). TDV Tebük: Memlük dönemi/1517 geçişine dair cümle yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:912",
@@ -86,12 +86,14 @@
    "d": "OSMANLI",
    "f": "1517-07-06",
    "t": "1918-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "TDV tebuk (gövde okundu)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: TDV tebuk (gövde okundu). Osmanlı f 1517-07-06 ve t 1918-01-01 TDV Tebük'te yok; yalnız hac güzergâhı (965/1558) ve Hicaz Demiryolu (1916 Haziranında tahrip) var. 1517 geçişi ve 1918 çekilişi kaynaksız."
+   "oneri": {
+    "t": "1918-10 (Mondros'a dek Osmanlı garnizonu; TDV Tebük/Hicaz Demiryolu ile kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-90): 1918-10 Mondros'a dek Osmanlı garnizonu; sonra Hicaz Krallığı fiilî idaresi; TDV '1924' hangi olayı tarihliyor (Maan-Akabe bağlantısı) okunacak; 1925 Suudi KAYNAKLI; belirsizse 1918–1924 BEYANLI. | Baktığım yerler: TDV tebuk (gövde okundu). Osmanlı f 1517-07-06 ve t 1918-01-01 TDV Tebük'te yok; yalnız hac güzergâhı (965/1558) ve Hicaz Demiryolu (1916 Haziranında tahrip) var. 1517 geçişi ve 1918 çekilişi kaynaksız."
   },
   {
    "dosya_satir": "data/yerlesimler.js:912",
@@ -106,7 +108,7 @@
    "oneri": {
     "f": "1924-01-01"
    },
-   "not": "TDV Hicaz Krallığı'nın 1924'te kurulduğunu ve Tebük'ün Maan'a bağlandığını söyler; Tebük'ün Hicaz'a geçiş günü yok. Atlas f 1918-01-01 (künye 1916-06-10) TDV ile teyitsiz/çelişir. Öneri yalnız yıl; Osmanlı çekiliş tarihi bulunamadı, seçme yok."
+   "not": "KARAR EMRELİC (gece-90): 1918-10 Mondros'a dek Osmanlı garnizonu; sonra Hicaz Krallığı fiilî idaresi; TDV '1924' hangi olayı tarihliyor (Maan-Akabe bağlantısı) okunacak; 1925 Suudi KAYNAKLI; belirsizse 1918–1924 BEYANLI. | TDV Hicaz Krallığı'nın 1924'te kurulduğunu ve Tebük'ün Maan'a bağlandığını söyler; Tebük'ün Hicaz'a geçiş günü yok. Atlas f 1918-01-01 (künye 1916-06-10) TDV ile teyitsiz/çelişir. Öneri yalnız yıl; Osmanlı çekiliş tarihi bulunamadı, seçme yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:912",
@@ -119,7 +121,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/tebuk",
    "alinti": "1925’te Suudi Arabistan’ın hâkimiyetine girdi",
    "oneri": {},
-   "not": "[yalnız yıl teyitli; gün teyitsiz] Atlas 1925-12-19. TDV 1925 der; Tebük'ün Suudi eline geçtiği gün yok. Hicaz t ucu da aynı yıl."
+   "not": "KARAR EMRELİC (gece-90): 1918-10 Mondros'a dek Osmanlı garnizonu; sonra Hicaz Krallığı fiilî idaresi; TDV '1924' hangi olayı tarihliyor (Maan-Akabe bağlantısı) okunacak; 1925 Suudi KAYNAKLI; belirsizse 1918–1924 BEYANLI. | [yalnız yıl teyitli; gün teyitsiz] Atlas 1925-12-19. TDV 1925 der; Tebük'ün Suudi eline geçtiği gün yok. Hicaz t ucu da aynı yıl."
   },
   {
    "dosya_satir": "data/yerlesimler.js:912",
@@ -132,7 +134,7 @@
    "kaynak": "TDV tebuk (gövde okundu)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV tebuk (gövde okundu). Suudi Arabistan adı 1932-09-18 künye olayıdır (zincirde OH DEVRALMA kaydı); Tebük'e özgü tanıklık yok."
+   "not": "KARAR EMRELİC (gece-90): 1918-10 Mondros'a dek Osmanlı garnizonu; sonra Hicaz Krallığı fiilî idaresi; TDV '1924' hangi olayı tarihliyor (Maan-Akabe bağlantısı) okunacak; 1925 Suudi KAYNAKLI; belirsizse 1918–1924 BEYANLI. | Baktığım yerler: TDV tebuk (gövde okundu). Suudi Arabistan adı 1932-09-18 künye olayıdır (zincirde OH DEVRALMA kaydı); Tebük'e özgü tanıklık yok."
   }
  ],
  "Shikuka (Poronaysk)": [
@@ -322,7 +324,7 @@
    "kaynak": "WebSearch özeti: Aramco World 1988 (archive.aramcoworld.com/issue/198805/siwa-oasis.extraordinary.htm) ve EB1911 'Siwa'; okunmadı, ipucu",
    "alinti": "",
    "oneri": {},
-   "not": "EB1911 ipucu: Siwa 1517'de Osmanlı'ya dahil olmadı, bağımsız kalıp 1820'de Mehmed Ali'ye geçti; atlas d: Osmanlı 1517-04-13 bu durumda sorunlu olabilir. Hüküm ONERI-ipucu; akademik teyit yok, öneri değeri yazılmadı."
+   "not": "KARAR EMRELİC (gece-90): 1820 Kavalalı fethi doğru yön (ipucu) → ONERI; 1517 Osmanlı dilimini kaldırma önerisi (not). | EB1911 ipucu: Siwa 1517'de Osmanlı'ya dahil olmadı, bağımsız kalıp 1820'de Mehmed Ali'ye geçti; atlas d: Osmanlı 1517-04-13 bu durumda sorunlu olabilir. Hüküm ONERI-ipucu; akademik teyit yok, öneri değeri yazılmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_p0043libya.js:83",
@@ -366,7 +368,7 @@
     "d": "bizans (künye kimliği ölçülmedi)",
     "f": "1327-01-01"
    },
-   "not": "TDV: XIII. yy başı Cenevizli korsan grupları fiilen idareyi aldı ve kale yaptı; 1327'de Bizans geri aldı; sonra II. Manuel döneminde (1391-1425) Gattilusio ailesine timar verildi, gelirin 2/3'ü Osmanlı'ya gitti. s: ceneviz 1281-1455 devlet olarak teyitli değil. Gattilusio ardıllığı künye sorusu. Seçme yok."
+   "not": "KARAR EMRELİC (gece-90): ceneviz t 1327 → bizans 1327 → Gattilusio (1414/1434 kaynakla; Osmanlı'ya haraç → v: osmanli, künye ölç) → Osmanlı f 1456-01-01 [TDV 'olmalıdır'; hicrî 860 ∩ 1456] → 1459 Zağanos ic_not → 1466 → 1479 isg venedik → 1479 antlaşmasıyla Osmanlı. | TDV: XIII. yy başı Cenevizli korsan grupları fiilen idareyi aldı ve kale yaptı; 1327'de Bizans geri aldı; sonra II. Manuel döneminde (1391-1425) Gattilusio ailesine timar verildi, gelirin 2/3'ü Osmanlı'ya gitti. s: ceneviz 1281-1455 devlet olarak teyitli değil. Gattilusio ardıllığı künye sorusu. Seçme yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:689",
@@ -379,9 +381,10 @@
    "kaynak": "https://islamansiklopedisi.org.tr/tasoz",
    "alinti": "Taşoz’un 1456 yılı içinde diğer bazı adalarla birlikte Osmanlı idaresi altına girdiği anlaşılmaktadır.",
    "oneri": {
-    "f": "1456-01-01"
+    "f": "1456-01-01",
+    "not": "araya isg venedik 1466 → 1479 (günler kaynakla)"
    },
-   "not": "TDV: fetih tarihi tespit edilemiyor, 860 (1456) olmalı; Ağustos 1459 Zağanos Paşa fethi; 1466 Venedik işgali; 1479 antlaşmasıyla yeniden Osmanlı idaresi. Atlas 1455-01-01 TDV ile çelişir. Yalnız yıl. 1466-1479 arası Osmanlı yok (TDV)."
+   "not": "KARAR EMRELİC (gece-90): ceneviz t 1327 → bizans 1327 → Gattilusio (1414/1434 kaynakla; Osmanlı'ya haraç → v: osmanli, künye ölç) → Osmanlı f 1456-01-01 [TDV 'olmalıdır'; hicrî 860 ∩ 1456] → 1459 Zağanos ic_not → 1466 → 1479 isg venedik → 1479 antlaşmasıyla Osmanlı. | TDV: fetih tarihi tespit edilemiyor, 860 (1456) olmalı; Ağustos 1459 Zağanos Paşa fethi; 1466 Venedik işgali; 1479 antlaşmasıyla yeniden Osmanlı idaresi. Atlas 1455-01-01 TDV ile çelişir. Yalnız yıl. 1466-1479 arası Osmanlı yok (TDV)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:689",
@@ -394,7 +397,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/tasoz",
    "alinti": "24 Temmuz 1923 Lozan Antlaşması’na göre Taşoz hukuken Türk egemenliğinden çıktı.",
    "oneri": {},
-   "not": "Gün düzeyi, Lozan imza günü. TEK ÖLÇÜ: Yunanistan 1912-10-30'dan beri fiilen yönetiyor (TDV, isg yunanistan ayrı kayıt). Osmanlı t ucunu da tarihliyor."
+   "not": "KARAR EMRELİC (gece-90): ceneviz t 1327 → bizans 1327 → Gattilusio (1414/1434 kaynakla; Osmanlı'ya haraç → v: osmanli, künye ölç) → Osmanlı f 1456-01-01 [TDV 'olmalıdır'; hicrî 860 ∩ 1456] → 1459 Zağanos ic_not → 1466 → 1479 isg venedik → 1479 antlaşmasıyla Osmanlı. | Gün düzeyi, Lozan imza günü. TEK ÖLÇÜ: Yunanistan 1912-10-30'dan beri fiilen yönetiyor (TDV, isg yunanistan ayrı kayıt). Osmanlı t ucunu da tarihliyor."
   },
   {
    "dosya_satir": "data/yerlesimler.js:689",
@@ -407,7 +410,7 @@
    "kaynak": "TDV tasoz (1973 anahtarı yok)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV tasoz (1973 anahtarı yok). 1973-06-01 ülke düzeyi olay; Taşoz'a özgü kaynak yok."
+   "not": "KARAR EMRELİC (gece-90): ceneviz t 1327 → bizans 1327 → Gattilusio (1414/1434 kaynakla; Osmanlı'ya haraç → v: osmanli, künye ölç) → Osmanlı f 1456-01-01 [TDV 'olmalıdır'; hicrî 860 ∩ 1456] → 1459 Zağanos ic_not → 1466 → 1479 isg venedik → 1479 antlaşmasıyla Osmanlı. | Baktığım yerler: TDV tasoz (1973 anahtarı yok). 1973-06-01 ülke düzeyi olay; Taşoz'a özgü kaynak yok."
   }
  ],
  "Quilmes (Calchaquí Vadisi — Diaguita)": [
@@ -430,12 +433,12 @@
    "d": "ispanyol-peru",
    "f": "1667-01-02",
    "t": "1816-07-09",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "https://es.wikisource.org/wiki/La_antigua_ciudad_de_Quilmes_(Valle_Calchaqu%C3%AD)",
    "alinti": "Recien en 1667 pudo sujetarla por las armas el gobernador Alonso Mercado y Villacorta",
    "oneri": {},
-   "not": "[alıntı LAB PAZAR'ca sayfa.py oku ile birebir doğrulandı (doğrulayıcı URL ')' kesimi)]; Ambrosetti 1897 (19. yy akademik makale, Wikisource transkripsiyonu) çıtası EMRELİC'e soruldu. | [19. yy kaynağı: J. B. Ambrosetti, La antigua ciudad de Quilmes, 1897; Wikisource transkripsiyonu] Yalnız yıl (1667); atlas 1667-01-02 gün teyitsiz. Silahla boyun eğdirme + 2000 kişinin Buenos Aires yöresine nakli; Peru genel valiliğine idarî katma bu kaynakta açık değil (tahrir ölçütü: kaynak susuyor)."
+   "not": "KARAR EMRELİC (gece-90): Ambrosetti 1897 → EB1911 sınıfı İPUCU; 1667 ONERI; modern Arjantin akademik kaynağı (Lorandi) aranacak. | [alıntı LAB PAZAR'ca sayfa.py oku ile birebir doğrulandı (doğrulayıcı URL ')' kesimi)]; Ambrosetti 1897 (19. yy akademik makale, Wikisource transkripsiyonu) çıtası EMRELİC'e soruldu. | [19. yy kaynağı: J. B. Ambrosetti, La antigua ciudad de Quilmes, 1897; Wikisource transkripsiyonu] Yalnız yıl (1667); atlas 1667-01-02 gün teyitsiz. Silahla boyun eğdirme + 2000 kişinin Buenos Aires yöresine nakli; Peru genel valiliğine idarî katma bu kaynakta açık değil (tahrir ölçütü: kaynak susuyor)."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:762",
@@ -476,9 +479,9 @@
    "kaynak": "https://www.tshaonline.org/handbook/entries/san-antonio-tx",
    "alinti": "Bexar County was organized by the Republic of Texas in December 1836",
    "oneri": {
-    "f": "1836-12"
+    "f": "1836-05 (Andrade'nin Bexar'dan çekilişi; gün kaynakla)"
    },
-   "not": "Handbook 'San Antonio, TX': San Jacinto sonrası Meksika kuvvetlerinin çekilmesi, Aralık 1836'da Bexar County örgütlendi (fiilî yönetim, ay düzeyi). Atlas f 1836-03-02 bağımsızlık bildirgesi (Handbook: bildirge 2 Mart'ta sunuldu); ama 6 Mart 1836 Alamo düştü, Mart-Nisan 1836'da San Antonio Meksika elindeydi."
+   "not": "KARAR EMRELİC (gece-90): fiilî idare: Meksika kuvvetleri San Jacinto sonrası Bexar'ı boşalttı (1836-05 sonu, Andrade) → s: teksas-cumhuriyeti o günden; künye f 1836-03-02 kalır; Velasco 05-14 ve 1836-12 Bexar County ic_not. | Handbook 'San Antonio, TX': San Jacinto sonrası Meksika kuvvetlerinin çekilmesi, Aralık 1836'da Bexar County örgütlendi (fiilî yönetim, ay düzeyi). Atlas f 1836-03-02 bağımsızlık bildirgesi (Handbook: bildirge 2 Mart'ta sunuldu); ama 6 Mart 1836 Alamo düştü, Mart-Nisan 1836'da San Antonio Meksika elindeydi."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:999",
@@ -516,12 +519,14 @@
    "d": "portekiz",
    "f": "1507-01-01",
    "t": "1650-01-26",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). İpucu (Vikipedi Portuguese Oman, akademik değil): 1507'de Portekiz Suhâr'ı aldı, 1516/1521'de yeniden; Ya'rubî imamı Suhâr kalesini 1643'te aldı. Atlas Portekiz t 1650-01-26 Maskat günüdür; Suhâr için 1643 olabilir. Akademik teyit yok, ONERI yazmadım."
+   "oneri": {
+    "t": "1643-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-90): ABİ MERKEZ hatası (1650-01-26 Maskat günü); Ya'rubî Suhâr'ı 1643'te aldı (ipucu) → ONERI 1643 [yalnız yıl]. | Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). İpucu (Vikipedi Portuguese Oman, akademik değil): 1507'de Portekiz Suhâr'ı aldı, 1516/1521'de yeniden; Ya'rubî imamı Suhâr kalesini 1643'te aldı. Atlas Portekiz t 1650-01-26 Maskat günüdür; Suhâr için 1643 olabilir. Akademik teyit yok, ONERI yazmadım."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2281",
@@ -529,12 +534,14 @@
    "d": "umman",
    "f": "1650-01-26",
    "t": "2000-12-31",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). Umman f 1650-01-26 Maskat; Suhâr için ipucu 1643. Teyitsiz."
+   "oneri": {
+    "f": "1643-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-90): ABİ MERKEZ hatası (1650-01-26 Maskat günü); Ya'rubî Suhâr'ı 1643'te aldı (ipucu) → ONERI 1643 [yalnız yıl]. | Baktığım yerler: TDV suhar/sohar-umman/umman (Suhâr maddesi yok; arama sayfaları), WebSearch (Vikipedi türevleri = ipucu). Umman f 1650-01-26 Maskat; Suhâr için ipucu 1643. Teyitsiz."
   }
  ],
  "Tambov": [
@@ -557,12 +564,14 @@
    "d": "__BOSLUK__",
    "f": "1441-01-01",
    "t": "1636-04-17",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Kayıt ESBE: güney bozkır sürekli iskânsız, Kuman/Kalmuk/Tatar göçebeleri; hanlık tasarrufu yok. Akademik teyit yok."
+   "oneri": {
+    "t": "1636-04-27"
+   },
+   "not": "KARAR EMRELİC (gece-90): kuruluş fermanı 1636-04-17 O.S. → 1636-04-27 Gregoryen (Rus Jülyen kuralı); ipucu → ONERI. | Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Kayıt ESBE: güney bozkır sürekli iskânsız, Kuman/Kalmuk/Tatar göçebeleri; hanlık tasarrufu yok. Akademik teyit yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ek17.js:166",
@@ -570,12 +579,14 @@
    "d": "rusya",
    "f": "1636-04-17",
    "t": "1917-03-15",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Arama özeti (Vikipedi/rusmania, KAYNAKLI değil): kuruluş fermanı 17 Nisan 1636 Jülyen = Gregoryen 27 Nisan 1636. Atlas 1636-04-17 Jülyen günü olabilir (takvim beyanı gerekir). Sayfa okunmadı."
+   "oneri": {
+    "f": "1636-04-27"
+   },
+   "not": "KARAR EMRELİC (gece-90): kuruluş fermanı 1636-04-17 O.S. → 1636-04-27 Gregoryen (Rus Jülyen kuralı); ipucu → ONERI. | Baktığım yerler: ESBE (zincirde kayıt, ipucu), WebSearch özeti (Britannica/rusmania; Britannica 403 kapısı denenmedi: BAKILMADI). Arama özeti (Vikipedi/rusmania, KAYNAKLI değil): kuruluş fermanı 17 Nisan 1636 Jülyen = Gregoryen 27 Nisan 1636. Atlas 1636-04-17 Jülyen günü olabilir (takvim beyanı gerekir). Sayfa okunmadı."
   }
  ],
  "Toamasina (Tamatave)": [
@@ -616,9 +627,10 @@
    "kaynak": "https://www.larousse.fr/encyclopedie/divers/Madagascar_histoire/187014",
    "alinti": "L'île est alors annexée (loi du 6 août 1896) et l'esclavage aboli.",
    "oneri": {
-    "t": "1896-08-06"
+    "t": "1897-01-27",
+    "not": "s: fransa 1897-01-27 (TDV, KASA Madagaskar kararıyla tutarlı)"
    },
-   "not": "Larousse (genel ansiklopedi) çıtası EMRELİC'e soruldu. | Larousse (genel ansiklopedi, hakemli akademik değil). Hukukî ilhak 6 Ağustos 1896 kanunu; Gallieni kraliçeyi Şubat 1897'de sürdü (Larousse); atlas t 1897-02-28 monarşinin kaldırıldığı gün. Arama özeti (ipucu): Fransızlar Tamatave'yi 1894-12-12'de aldı. TEK ÖLÇÜ: Fransa fiilen yönetiyorsa kanun günü, yönetmiyorsa teslim günü; iki tarih de yazıldı, seçme yok."
+   "not": "KARAR EMRELİC (gece-90): TDV 1897-01-27 esas; 1896-08-06 ilhak kanunu ve 1897-02-28 kraliçenin sürgünü ic_not. Larousse genel ansiklopedi: İPUCU-ARTI, tek başına KAYNAKLI vermez. | Larousse (genel ansiklopedi) çıtası EMRELİC'e soruldu. | Larousse (genel ansiklopedi, hakemli akademik değil). Hukukî ilhak 6 Ağustos 1896 kanunu; Gallieni kraliçeyi Şubat 1897'de sürdü (Larousse); atlas t 1897-02-28 monarşinin kaldırıldığı gün. Arama özeti (ipucu): Fransızlar Tamatave'yi 1894-12-12'de aldı. TEK ÖLÇÜ: Fransa fiilen yönetiyorsa kanun günü, yönetmiyorsa teslim günü; iki tarih de yazıldı, seçme yok."
   }
  ]
 }
