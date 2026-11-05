@@ -5,7 +5,7 @@ LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulm
 **Boyama şartı (ölçüldü, `uret_petek.py:1140`):** motor `d:` BOYALAR'da yoksa künyenin `harita:` anahtarına düşer. Yeni künye **mevcut bir boya anahtarıyla** (`harita:'ingiltere'`, `harita:'abd'` (6 künye) … — emsal: harita:'ingiltere' 10 künye) açılırsa `renkler.py`ye DOKUNULMAZ, motor tuzu değişmez; veri olağan koşuda yansır. **Kendi rengi** istenirse BOYALAR'a girmeli → renkler.py motor tuzu → tam yeniden inşa (7-8 saat, HAVVA). Karar sırasında her aday için hangisi olduğu seçilir.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **41 aday**
+Toplam: **42 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -50,3 +50,4 @@ Toplam: **41 aday**
 | 39 | `thrace-interalliee` | Thrace Interalliée (Müttefik Trakyası) 1919-11-27 → 1920-05-22 (EMRELİC gece-36). Ölçüm: garbi-trakya künyesi 1913 (farklı, :1661). | Batı Trakya (Gümülcine, İskeçe, Dedeağaç) | ZAYIF |  |
 | 40 | `cin-gecis-rejimleri` | Çin geçiş rejimleri (toplu): Sai, Henan (Shen Yang), Zhang Han, Wang Lin, Shen Faxing, Li Zitong, Du Fuwei, Dou Rong Hexi birliği, Ön Liang (Zhang Gui), Xia (Ming Yuzhen), Wu (Zhang Shicheng), Güney Qi — 12+ ayrı polity; TOPLU künye mi ayrı ayrı mı (SINIF) — chen-han adayıyla aynı aile (Yuan sonu rejimleri: Xia, Wu). | a_005, y_088 yerleşimleri | ZAYIF |  |
 | 41 | `cundinamarca` | Cundinamarca / Yeni Granada Birleşik Eyaletleri (patriyot devletler 1810/11 → 1816 Morillo yeniden fethi) — UMIT 'Yeni Granada 1810-1821' kaydıyla BİRLEŞTİ, AMA DÜZELTME: Panamá 1810-07-20 → 1821-11-28 KRALCIYDI → patriyot künyesi değil, yeni-granada-valiligi (t GENİŞLET adayı, gece-50) kapsamı. Yeni künye yalnız patriyot devletler için. | Bogotá, Tunja… 1810-1816 | ZAYIF |  |
+| 42 | `takali` | Takali Krallığı (Nuba Dağları, Güney Kordofan) 18. yy → 1884 (Mehdî hâkimiyeti), sonra İngiliz-Mısır. Ölçüm: takali künyesi YOK. Kâdûglî'deki 'nube' satırı HATALI (EMRELİC: Alve/Nûbe bağı yok; nube künyesi 543-1504 zaten 18. yy'ı kapsamaz). Künye açılana dek bos:'kabile' + neden ya da BEYANLI. Kaynak: Ewald, Soldiers, Traders, and Slaves (1990); Holt/Daly | Kâdûglî (EVREN4 e4_LAB_023): 'nube' dönemi kalkar → 18. yy → 1884 bos:'kabile'/takali, 1884 → 1899-11-24 mehdi (UYGULA'daki mehdi t ile), sonra ingiliz-sudani | ZAYIF | harita: mevcut anahtarla açılırsa renkler.py değişmez. |
