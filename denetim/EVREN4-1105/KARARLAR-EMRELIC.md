@@ -158,7 +158,17 @@ Kararlar:
   - `devletler.js:18810` (`on-uc-koloni` künyesinin t maddesi; odak Philadelphia, Boston, Charleston);
   - `kronoloji_ingiltere.js:844` (odak yok).
 - 1783'ten 1776'ya çekilecek 9 şehrin 7'si atlasta bu adlarla var: Pemaquid, Falmouth, Portsmouth NH, Providence, Hartford, Norfolk, Wilmington NC. Bu 7'si main'de hâlâ 1783-09-03'te; çekme işlemi henüz uygulanmadı.
-- Pittsburgh atlasta yok. "Hillsborough" yalnız Carriacou'da var; UMIT'in listesinde Kuzey Karolina'nınkiyle karışmış olabilir. EMRELİC bunu UMIT'e ACİL olarak gönderdi.
+- ~~Pittsburgh atlasta yok. "Hillsborough" yalnız Carriacou'da var.~~ **DÜZELTME:** KASA'nın taraması ad başından eşleştiriyordu ve parantezli kayıt adlarını kaçırdı. İki kayıt da var:
+  - "Occaneechi (Hillsborough)": `yerlesimler_kamerika.js:1267`, 36.075 / -79.100, Kuzey Karolina.
+  - "Fort Duquesne (Pittsburgh)": `yerlesimler_kamerika.js:1123`.
+  - Öteki 7 şehrin koordinatı 13 koloni içinde (UMIT ölçtü). Alarm boşa çıktı.
+- Odak listesine şehirler bu kayıt adlarıyla, parantezli biçimleriyle yazılır.
+- 🔴 **Occaneechi'de iki işin kesişimi:** LAB PAZAR 036 Occaneechi'nin t'sini 1712 yapmayı ve 1712-1754 dilimini kırpmayı önerdi. KASA PAZAR iki işi birlikte uygularken zincir şu sırada olmalı:
+  1. Occaneechi (yerli dönemi) → 1712.
+  2. 1712-1754: BEYANLI ya da kırpık.
+  3. 1754: Hillsborough'nun kuruluşu, `s: ingiltere`.
+  4. 1776-07-04'ten `s: abd`.
+  5. 1781-02'de kısa `isg ingiltere` dilimi (Cornwallis'in Hillsborough'u tutması). Gün kaynakla bulunacak.
 - **Karar:** `devletler.js:18810` maddesinin odak listesi genişletilir.
   - Künye düzeyindeki madde tek yerde tutulur.
   - Listeye UMIT kimlikleri doğruladıktan sonra yalnız doğrulanmış şehirler girer.
