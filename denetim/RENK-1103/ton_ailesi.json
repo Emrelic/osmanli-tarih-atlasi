@@ -1,0 +1,442 @@
+[
+ {
+  "hue_fark": 0.0,
+  "kimlik": "polonya-genel-hukumeti",
+  "akraba": "polonya",
+  "yeni": "#e406e4",
+  "akraba_renk": "#ab47bc",
+  "dE": 29.8
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "oeta-bati-fransiz",
+  "akraba": "suriye-lubnan-mandasi",
+  "yeni": "#ae6660",
+  "akraba_renk": "#d24824",
+  "dE": 15.6
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "misir-gazze-idaresi",
+  "akraba": "filistin-mandasi",
+  "yeni": "#54c6b4",
+  "akraba_renk": "#24d2a8",
+  "dE": 10.5
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "ispanyol-oran-2",
+  "akraba": "ispanya",
+  "yeni": "#b430c0",
+  "akraba_renk": "#ea0cea",
+  "dE": 21.5
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "ispanyol-halkulvad",
+  "akraba": "ispanya",
+  "yeni": "#9636a8",
+  "akraba_renk": "#ea0cea",
+  "dE": 30.4
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "amerikan-filipinleri",
+  "akraba": "abd",
+  "yeni": "#c612fc",
+  "akraba_renk": "#a828d8",
+  "dE": 15.0
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "iskenderun-sancagi-ozel-idare",
+  "akraba": "hatay-devleti",
+  "yeni": "#d2c018",
+  "akraba_renk": "#d8c624",
+  "dE": 1.7
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "halep-devleti",
+  "akraba": "suriye-lubnan-mandasi",
+  "yeni": "#a8605a",
+  "akraba_renk": "#d24824",
+  "dE": 15.4
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "ingiliz-mezopotamya-idaresi",
+  "akraba": "irak-kralligi",
+  "yeni": "#6cc666",
+  "akraba_renk": "#42d224",
+  "dE": 19.6
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "nauru-vesayeti",
+  "akraba": "avustralya",
+  "yeni": "#604230",
+  "akraba_renk": "#f9b169",
+  "dE": 23.7
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "singapur-kolonisi",
+  "akraba": "ingiliz-malaya",
+  "yeni": "#188a24",
+  "akraba_renk": "#20d820",
+  "dE": 23.0
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "cebel-durzi-devleti",
+  "akraba": "suriye-lubnan-mandasi",
+  "yeni": "#cc421e",
+  "akraba_renk": "#d24824",
+  "dE": 1.0
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "oeta-guney",
+  "akraba": "filistin-mandasi",
+  "yeni": "#4ec0ae",
+  "akraba_renk": "#24d2a8",
+  "dE": 10.5
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "ispanyol-oran-1",
+  "akraba": "ispanya",
+  "yeni": "#9c3cae",
+  "akraba_renk": "#ea0cea",
+  "dE": 30.4
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "alevi-devleti-lazkiye",
+  "akraba": "suriye-lubnan-mandasi",
+  "yeni": "#a25a54",
+  "akraba_renk": "#d24824",
+  "dE": 15.3
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "makao-portekiz",
+  "akraba": "portekiz",
+  "yeni": "#128490",
+  "akraba_renk": "#34fcfc",
+  "dE": 20.4
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "sam-devleti",
+  "akraba": "suriye-lubnan-mandasi",
+  "yeni": "#9c544e",
+  "akraba_renk": "#d24824",
+  "dE": 15.3
+ },
+ {
+  "hue_fark": 0.0,
+  "kimlik": "federe-olmayan-malay-devletleri",
+  "akraba": "cohor-sultanligi",
+  "yeni": "#f09c00",
+  "akraba_renk": "#eab463",
+  "dE": 18.7
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "oniki-ada-italyan",
+  "akraba": "italya",
+  "yeni": "#66fc00",
+  "akraba_renk": "#74a074",
+  "dE": 49.1
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "polonya-naiplik-kralligi",
+  "akraba": "kongre-polonyasi",
+  "yeni": "#fc3012",
+  "akraba_renk": "#c82d1c",
+  "dE": 10.8
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "ingiliz-burma",
+  "akraba": "ingiliz-hindistani",
+  "yeni": "#06fc00",
+  "akraba_renk": "#20d820",
+  "dE": 17.1
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "belcika-kongo",
+  "akraba": "belcika",
+  "yeni": "#7e3666",
+  "akraba_renk": "#e81870",
+  "dE": 25.0
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "malaya-birligi",
+  "akraba": "ingiliz-malaya",
+  "yeni": "#0cfc06",
+  "akraba_renk": "#20d820",
+  "dE": 15.7
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "gojoseon",
+  "akraba": "wiman-joseon",
+  "yeni": "#003666",
+  "akraba_renk": "#03a6ff",
+  "dE": 22.8
+ },
+ {
+  "hue_fark": 0.1,
+  "kimlik": "trinh-lordlari",
+  "akraba": "le-hanedani",
+  "yeni": "#9cfc06",
+  "akraba_renk": "#8ad224",
+  "dE": 15.9
+ },
+ {
+  "hue_fark": 0.2,
+  "kimlik": "cezayir-fransiz",
+  "akraba": "fransa-cumhuriyet",
+  "yeni": "#0c66fc",
+  "akraba_renk": "#00297c",
+  "dE": 19.2
+ },
+ {
+  "hue_fark": 0.4,
+  "kimlik": "italyan-dogu-afrikasi",
+  "akraba": "italya",
+  "yeni": "#0c4200",
+  "akraba_renk": "#74a074",
+  "dE": 17.2
+ },
+ {
+  "hue_fark": 0.5,
+  "kimlik": "kuzey-bolgesi-sa",
+  "akraba": "ingiltere",
+  "yeni": "#a25424",
+  "akraba_renk": "#fc7200",
+  "dE": 21.0
+ },
+ {
+  "hue_fark": 1.1,
+  "kimlik": "queensland",
+  "akraba": "ingiltere",
+  "yeni": "#482418",
+  "akraba_renk": "#fc7200",
+  "dE": 35.5
+ },
+ {
+  "hue_fark": 1.4,
+  "kimlik": "japon-kore",
+  "akraba": "meiji-japonya",
+  "yeni": "#003c42",
+  "akraba_renk": "#1bb790",
+  "dE": 24.7
+ },
+ {
+  "hue_fark": 4.9,
+  "kimlik": "kaheti-hereti-kralligi",
+  "akraba": "kaheti-kralligi",
+  "yeni": "#48d206",
+  "akraba_renk": "#8afc1e",
+  "dE": 8.7
+ },
+ {
+  "hue_fark": 6.7,
+  "kimlik": "japon-tayvani",
+  "akraba": "meiji-japonya",
+  "yeni": "#00d87e",
+  "akraba_renk": "#1bb790",
+  "dE": 15.2
+ },
+ {
+  "hue_fark": 6.9,
+  "kimlik": "portekiz-gine",
+  "akraba": "portekiz",
+  "yeni": "#2a4860",
+  "akraba_renk": "#34fcfc",
+  "dE": 34.5
+ },
+ {
+  "hue_fark": 8.5,
+  "kimlik": "fransiz-bati-afrika",
+  "akraba": "fransa-cumhuriyet",
+  "yeni": "#424e6c",
+  "akraba_renk": "#00297c",
+  "dE": 15.3
+ },
+ {
+  "hue_fark": 10.0,
+  "kimlik": "van-diemens-land",
+  "akraba": "ingiltere",
+  "yeni": "#f0a248",
+  "akraba_renk": "#fc7200",
+  "dE": 15.1
+ },
+ {
+  "hue_fark": 11.9,
+  "kimlik": "italyan-somali",
+  "akraba": "somali",
+  "yeni": "#001efc",
+  "akraba_renk": "#1248d5",
+  "dE": 21.9
+ },
+ {
+  "hue_fark": 14.3,
+  "kimlik": "fransiz-ekvator-afrikasi",
+  "akraba": "fransa-cumhuriyet",
+  "yeni": "#0036fc",
+  "akraba_renk": "#00297c",
+  "dE": 28.5
+ },
+ {
+  "hue_fark": 15.4,
+  "kimlik": "viktorya-kolonisi",
+  "akraba": "ingiltere",
+  "yeni": "#d23600",
+  "akraba_renk": "#fc7200",
+  "dE": 15.2
+ },
+ {
+  "hue_fark": 20.6,
+  "kimlik": "portekiz-hindistani-goa",
+  "akraba": "portekiz",
+  "yeni": "#00d89c",
+  "akraba_renk": "#34fcfc",
+  "dE": 16.3
+ },
+ {
+  "hue_fark": 46.6,
+  "kimlik": "portekiz-mozambik",
+  "akraba": "portekiz",
+  "yeni": "#00fc00",
+  "akraba_renk": "#34fcfc",
+  "dE": 58.1
+ },
+ {
+  "hue_fark": 59.6,
+  "kimlik": "portekiz-angola",
+  "akraba": "portekiz",
+  "yeni": "#78fc00",
+  "akraba_renk": "#34fcfc",
+  "dE": 56.3
+ },
+ {
+  "hue_fark": 67.4,
+  "kimlik": "bohemya-moravya-protektorasi",
+  "akraba": "cekoslovakya",
+  "yeni": "#5a72fc",
+  "akraba_renk": "#930c5d",
+  "dE": 32.1
+ },
+ {
+  "hue_fark": 70.8,
+  "kimlik": "ingiliz-siyera-leon",
+  "akraba": "ingiltere",
+  "yeni": "#f03c9c",
+  "akraba_renk": "#fc7200",
+  "dE": 47.5
+ },
+ {
+  "hue_fark": 77.0,
+  "kimlik": "ingiliz-altin-kiyisi",
+  "akraba": "ingiltere",
+  "yeni": "#fc069c",
+  "akraba_renk": "#fc7200",
+  "dE": 60.0
+ },
+ {
+  "hue_fark": 88.3,
+  "kimlik": "ingiliz-guney-rodezya",
+  "akraba": "ingiltere",
+  "yeni": "#545478",
+  "akraba_renk": "#fc7200",
+  "dE": 45.9
+ },
+ {
+  "hue_fark": 91.6,
+  "kimlik": "guneybati-afrika-mandasi",
+  "akraba": "ingiltere",
+  "yeni": "#d89cea",
+  "akraba_renk": "#fc7200",
+  "dE": 48.4
+ },
+ {
+  "hue_fark": 91.6,
+  "kimlik": "ingiliz-tanca",
+  "akraba": "ingiltere",
+  "yeni": "#b418ae",
+  "akraba_renk": "#fc7200",
+  "dE": 61.6
+ },
+ {
+  "hue_fark": 91.7,
+  "kimlik": "guney-avustralya",
+  "akraba": "ingiltere",
+  "yeni": "#fc0ce4",
+  "akraba_renk": "#fc7200",
+  "dE": 74.6
+ },
+ {
+  "hue_fark": 91.7,
+  "kimlik": "bati-avustralya",
+  "akraba": "ingiltere",
+  "yeni": "#ba1eb4",
+  "akraba_renk": "#fc7200",
+  "dE": 61.4
+ },
+ {
+  "hue_fark": 91.7,
+  "kimlik": "ingiliz-becuanaland",
+  "akraba": "ingiltere",
+  "yeni": "#fc7efc",
+  "akraba_renk": "#fc7200",
+  "dE": 55.6
+ },
+ {
+  "hue_fark": 104.3,
+  "kimlik": "ingiliz-kenya-kolonisi",
+  "akraba": "ingiltere",
+  "yeni": "#9600d2",
+  "akraba_renk": "#fc7200",
+  "dE": 76.6
+ },
+ {
+  "hue_fark": 108.6,
+  "kimlik": "ingiliz-nyasaland",
+  "akraba": "ingiltere",
+  "yeni": "#5a129c",
+  "akraba_renk": "#fc7200",
+  "dE": 63.6
+ },
+ {
+  "hue_fark": 118.6,
+  "kimlik": "ingiliz-kuzey-rodezya",
+  "akraba": "ingiltere",
+  "yeni": "#5400fc",
+  "akraba_renk": "#fc7200",
+  "dE": 89.2
+ },
+ {
+  "hue_fark": 118.9,
+  "kimlik": "ingiliz-nijerya",
+  "akraba": "ingiltere",
+  "yeni": "#9672f6",
+  "akraba_renk": "#fc7200",
+  "dE": 61.6
+ },
+ {
+  "hue_fark": 134.0,
+  "kimlik": "euboea-negroponte",
+  "akraba": "venedik",
+  "yeni": "#de9cfc",
+  "akraba_renk": "#fcfc06",
+  "dE": 75.9
+ }
+]
