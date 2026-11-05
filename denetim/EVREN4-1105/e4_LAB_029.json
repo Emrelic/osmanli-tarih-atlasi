@@ -478,7 +478,7 @@
    "kaynak": "Kayıt yer_kaynak: Deutsches Kolonial-Lexikon 1920 'Eitape' (archive.org/details/bub_gb_jYszAQAAMAAJ; ia-oku 'Eitape' ilk isabetler 1911 Hafenordnung vb., 1906 cümlesi okunmadı). AWM E84777 (sayfa.py).",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | f=1906 Eitape hükûmet istasyonu kuruluşu (kayıt yer_kaynak'ta Kolonial-Lexikon, YIL); bu sayfa.py ham çıktısından kopyalanamadı. t=1914-09-17 için bkz. AWM: 'they surrendered German New Guinea on 17 September' (alıntı yalnız t ucunu tarihliyor); Aitape'ye özgü işgal günü kaynakta yok."
+   "not": "LAB SALI f37cbda5d: yeni-gine-mandasi aday (1920-12-17 → 1949-06-30, harita avustralya); papua-yeni-gine-avustralya 1949-07-01'den; 1914-1919 alman-yeni-gine (aday) üzerine isg avustralya. | KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | f=1906 Eitape hükûmet istasyonu kuruluşu (kayıt yer_kaynak'ta Kolonial-Lexikon, YIL); bu sayfa.py ham çıktısından kopyalanamadı. t=1914-09-17 için bkz. AWM: 'they surrendered German New Guinea on 17 September' (alıntı yalnız t ucunu tarihliyor); Aitape'ye özgü işgal günü kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:56",
@@ -492,7 +492,7 @@
    "kaynak": "Australian War Memorial, Operations against German Pacific territories — https://www.awm.gov.au/collection/E84777 (sayfa.py)",
    "alinti": "they surrendered German New Guinea on 17 September.",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | SORU EMRELİC: AWM (devlet kurumu, resmî tarih) gece-91 resmî yayın sınıfı mı? Versay emsali: Alman Yeni Gine teslimi 1914-09-17 isg avustralya → 1919-06-28 s:. | f=1914-09-17 (Toma/Rabaul teslimi, 1914). ÜLKE DÜZEYİ. TEK ÖLÇÜ: devralan henüz fiilen yönetmiyordu (AWM: diğer istasyonlar sonraki aylarda işgal edildi) → teslim günü kullanılmış; Aitape'nin fiilî işgal günü kaynakta bulunamadı. ÖLÇÜT: geçici/askerî olasılığı beyan: yerel idare sonradan kuruldu."
+   "not": "LAB SALI f37cbda5d: yeni-gine-mandasi aday (1920-12-17 → 1949-06-30, harita avustralya); papua-yeni-gine-avustralya 1949-07-01'den; 1914-1919 alman-yeni-gine (aday) üzerine isg avustralya. | KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | SORU EMRELİC: AWM (devlet kurumu, resmî tarih) gece-91 resmî yayın sınıfı mı? Versay emsali: Alman Yeni Gine teslimi 1914-09-17 isg avustralya → 1919-06-28 s:. | f=1914-09-17 (Toma/Rabaul teslimi, 1914). ÜLKE DÜZEYİ. TEK ÖLÇÜ: devralan henüz fiilen yönetmiyordu (AWM: diğer istasyonlar sonraki aylarda işgal edildi) → teslim günü kullanılmış; Aitape'nin fiilî işgal günü kaynakta bulunamadı. ÖLÇÜT: geçici/askerî olasılığı beyan: yerel idare sonradan kuruldu."
   }
  ],
  "Albany (Batı Avustralya)": [
@@ -538,7 +538,7 @@
    "kaynak": "Bakılan: TDV Mozambik (sayfa.py), Treccani Mozambico (kısa). TDV: 'Quitangonha, Sancul, Sangage ve Angoche gibi yerler uzunca bir süre müslüman yöneticilerin elinde kaldı'.",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | svahili-sehirleri→Portekiz 1600: TDV Angoche'nin XVI. yy'ın başından sonra uzun süre Müslüman yöneticilerde kaldığını söylüyor (yıl yok). Atlas f=1600 Portekiz egemenliği için okunmuş tanık yok."
+   "not": "LAB SALI f37cbda5d: Angoche künyesi YOK, aday (liste 48); künye açılana dek BEYANLI; Portekiz fethi 1910 (gün kaynakla). | KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | svahili-sehirleri→Portekiz 1600: TDV Angoche'nin XVI. yy'ın başından sonra uzun süre Müslüman yöneticilerde kaldığını söylüyor (yıl yok). Atlas f=1600 Portekiz egemenliği için okunmuş tanık yok."
   },
   {
    "dosya_satir": "data/yerlesimler_emilme.js:35",
@@ -554,7 +554,7 @@
    "oneri": {
     "f": "1910 (Portekiz fethi, kaynakla)"
    },
-   "not": "KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | Portekiz f=1600 ve t=1974-09-20 (Lusaka) Angoche için bulunamadı. ÖNERİ İZİ: Angoche'nin Portekiz fethi için ayrı kaynak aranmalı (TDV Müslüman yöneticiler uzun süre sürdü diyor); atlas 1600 şüpheli, doğrulanmadı."
+   "not": "LAB SALI f37cbda5d: Angoche künyesi YOK, aday (liste 48); künye açılana dek BEYANLI; Portekiz fethi 1910 (gün kaynakla). | KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | Portekiz f=1600 ve t=1974-09-20 (Lusaka) Angoche için bulunamadı. ÖNERİ İZİ: Angoche'nin Portekiz fethi için ayrı kaynak aranmalı (TDV Müslüman yöneticiler uzun süre sürdü diyor); atlas 1600 şüpheli, doğrulanmadı."
   }
  ],
  "Annemasse": [

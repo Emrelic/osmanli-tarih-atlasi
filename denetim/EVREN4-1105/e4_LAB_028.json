@@ -597,10 +597,10 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
    "alinti": "Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler",
    "oneri": {
-    "d": "samtshe (künye LAB SALI)",
-    "not": "v: ilhanli → karakoyunlu → akkoyunlu"
+    "d": "samtshe-atabegligi",
+    "not": "künye 1268-01-01 → 1578-08-09 VAR; v: ilhanli → karakoyunlu → akkoyunlu uçları kaynakla"
    },
-   "not": "KARAR EMRELİC (gece-96): TAHRİR: Samtshe atabegliği 1268 sonrası Gürcü krallığından koptu, İlhanlı ve ardıllarının tâbisi → s: samtshe (künye LAB SALI) + v: ilhanli → karakoyunlu → akkoyunlu → Osmanlı 1578; d: gurcistan yanlış. | alıntı yalnız t ucunu tarihliyor (yıl 1578; atlas 1578-08-09 gün teyitsiz; Ahılkelek adı Ahıska maddesinde ayrıca anılmaz). DEVLET SORUSU: TDV Ahıska atabeglerinin «1268-1578 tarihleri arasında … İlhanlı, Karakoyunlu, Akkoyunlu devletlerine bağlı kaldığını» yazıyor; atlasta bu dönem d: gurcistan. Gürcü krallığıyla bağ TDV’de yok, ayrıca ele alınmalı. BÖLGE DÜZEYİ."
+   "not": "LAB SALI f37cbda5d: samtshe-atabegligi künyesi VAR (1268-01-01 → 1578-08-09). | KARAR EMRELİC (gece-96): TAHRİR: Samtshe atabegliği 1268 sonrası Gürcü krallığından koptu, İlhanlı ve ardıllarının tâbisi → s: samtshe (künye LAB SALI) + v: ilhanli → karakoyunlu → akkoyunlu → Osmanlı 1578; d: gurcistan yanlış. | alıntı yalnız t ucunu tarihliyor (yıl 1578; atlas 1578-08-09 gün teyitsiz; Ahılkelek adı Ahıska maddesinde ayrıca anılmaz). DEVLET SORUSU: TDV Ahıska atabeglerinin «1268-1578 tarihleri arasında … İlhanlı, Karakoyunlu, Akkoyunlu devletlerine bağlı kaldığını» yazıyor; atlasta bu dönem d: gurcistan. Gürcü krallığıyla bağ TDV’de yok, ayrıca ele alınmalı. BÖLGE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_ek28.js:125",
