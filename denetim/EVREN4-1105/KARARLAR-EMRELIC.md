@@ -967,6 +967,21 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - `derbent-hanligi` t 1759-09-01 (ay hassasiyeti beyanı) = Derbend'deki `s: kuba-hanligi` dilim f'si (t = ardıl f).
   - Kuba'nın Derbend'e naib ataması `ic_not`a yazılır. `kuba-hanligi` künye f'si 1735 değişmez.
   - Urmiye 1760-08-12 uygulaması onaylandı.
+- **LAB SALI:** 5 künye düzeltmesinin beşi de UYGULA'da (b9ce1b17e, 82 madde); hepsi "KASA yerleşimleriyle aynı commit" şartlı.
+
+## gece-121 — LAB PAZAR iletimi (EMRELİC gece-136)
+
+- **Mérida (Venezuela)** (yerlesimler_amerika.js:605) KASA'nın Yeni Granada listesindedir; LAB yazmaz, KASA esastır.
+  - Bugünkü KASA önerisi (e4_KASA_YG.json): ispanyol-peru 1558-10-09 → 1717-05-27 · yeni-granada-valiligi → 1777-09-08 · venezuela-genel-kaptanligi → 1810-04-19 · ispanyol-peru 1810-04-19 → 1821-06-24.
+  - LAB notu: `ispanyol-peru` yanlış sahip; Mérida Santa Fe Audiencia'sına bağlıydı.
+  - KASA değerlendirmesi:
+    - 1558–1717: Santa Fe Audiencia'sı, 1717'ye kadar Peru Valiliği içindedir. Valilik düzeyinde `ispanyol-peru` savunulabilir. Ama Valencia kararı (gece-114 onay) "ispanya → yeni-granada 1717 → VGK 1777" idi; Nuevo Reino de Granada künyesi varsa o, yoksa `ispanya`. **EMRELİC'e soru.**
+    - 1810–1821: `ispanyol-peru` kesin yanlış. Mérida 1810-09-16'da Caracas cuntasına katıldı; 1812–1821 arası kralcı ve vatansever el değiştirmeleri var. Rakip hükûmet kuralıyla fiilî günler kaynakla bulunmalı. ONERI, yeni tur gerekir.
+  - 1558 ilk kuruluş Lagunillas'tadır; atlas koordinatı bugünkü yer. Merdiven ④ notu: kuruluş yeri `ic_not`a yazılır, F-GERİ değildir.
+- **F-GERİ listesine iki ek** (`KUR-KUNYE-EK.tsv`):
+  - Mapimí: f 1825 → 1821-09-27 (yerleşim 1598/1711'den var).
+  - Marcapata: f 1869 → 1824-12-09 (1861 öncesi zaten distrito).
+  - İkisi de KUR-KUNYE taramasına girmedi (ilk f, künye f'sine eşit değil). Kaynaklar e4_LAB_050 notlarında.
 
 ## gece-113 — tarama biçim kusuru (ek)
 
