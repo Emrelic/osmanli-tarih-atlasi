@@ -589,9 +589,9 @@
   "guc": "ÖLÇÜM",
   "kunye": "künye değişmez — sicilya-kralligi t 1282-03-30 / napoli f 1282-03-30 bitişik",
   "gun": "1282-03-30",
-  "islem": "napoli dönemi f 1281-01-01 olan yerleşimler (LAB PAZAR taraması 7acb10c1e): 1281-01-01 → 1282-03-29 s: sicilya-kralligi, 1282-03-30'dan s: napoli — TEK KALEM — yerlesimler.js: Otranto, Brindisi, Taranto, Lecce, Napoli · yerlesimler_avrupa.js: L'Aquila, Bari, Foggia, Cosenza, Reggio Calabria. İYON ADALARI AYRI (EMRELİC'e ayrıca soruldu): yerlesimler.js Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise — 1281'de Orsini Kefalonya kontluğu, Anjou vasalı → künye VAR: kefalonya-palatin 'Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)' 1194 → 1479 (LAB ölçümü) → LAB önerisi s: kefalonya-palatin + v: sicilya-kralligi/napoli (napoli DEĞİL); Lefkada'nın kontluğa katılışı (1294/1300 civarı?) kaynakla — o tarihe dek Epir despotluğu olabilir. Himara (EMRELİC gece-80, künyesiz çözüm): 1279-06 → 1282-03-29 s: sicilya-kralligi, 1282-03-30 → 1283-04 s: napoli (Kiesewetter); arnavutluk-anjou-kralligi aday listesinde (Emre). DEĞİŞMEZ 2 — LAB ölçümü: 1282-03-30 maddeleri VAR (kronoloji_sinir_once1281_geriye.js:325 sicilya-kralligi; olaylar_ek5.js:101 'Sicilya Akşamı') → yeni madde gerekmez.",
+  "islem": "napoli dönemi f 1281-01-01 olan yerleşimler (LAB PAZAR taraması 7acb10c1e): 1281-01-01 → 1282-03-30 s: sicilya-kralligi (t = ardıl f, yarı açık — EMRELİC gece-142), 1282-03-30'dan s: napoli — TEK KALEM — yerlesimler.js: Otranto, Brindisi, Taranto, Lecce, Napoli · yerlesimler_avrupa.js: L'Aquila, Bari, Foggia, Cosenza, Reggio Calabria. İYON ADALARI AYRI (EMRELİC'e ayrıca soruldu): yerlesimler.js Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise — 1281'de Orsini Kefalonya kontluğu, Anjou vasalı → künye VAR: kefalonya-palatin 'Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)' 1194 → 1479 (LAB ölçümü) → LAB önerisi s: kefalonya-palatin + v: sicilya-kralligi/napoli (napoli DEĞİL); Lefkada'nın kontluğa katılışı (1294/1300 civarı?) kaynakla — o tarihe dek Epir despotluğu olabilir. Himara (EMRELİC gece-80, künyesiz çözüm): 1279-06 → 1282-03-30 s: sicilya-kralligi (t = ardıl f), 1282-03-30 → 1283-04 s: napoli (Kiesewetter); arnavutluk-anjou-kralligi aday listesinde (Emre). DEĞİŞMEZ 2 — LAB ölçümü: 1282-03-30 maddeleri VAR (kronoloji_sinir_once1281_geriye.js:325 sicilya-kralligi; olaylar_ek5.js:101 'Sicilya Akşamı') → yeni madde gerekmez.",
   "dayanak": "LAB PAZAR napoli aşım taraması; LAB ölçümü devletler.js (sicilya-kralligi :13538, kefalonya-palatin)",
-  "onay": "EMRELİC 6 Kasım gece-80/81 (anakara 10 yerleşim TEK KALEM; İyon adaları ayrı madde)"
+  "onay": "EMRELİC 6 Kasım gece-80/81 ESAS (gece-142: gece-140 napoli f GENİŞLET geri alındı; yalnız yarı açık düzeltme)"
  },
  {
   "d": "İyon adaları (kefalonya-palatin)",
@@ -922,5 +922,16 @@
   "islem": "mayapan-birligi künye t 1450-01-01 zaten Kennett 2022 ile uyumlu (LAB PAZAR'ın '1441 → 1450' notu yerleşim düzeyinde geçerli): Mayapan ve Liga yerleşimlerinde 1441'de biten dönemler 1450-01-01'e hizalanır; ic_not '1441 geleneksel düşüş (Landa/kronikler)'.",
   "dayanak": "Kennett et al. 2022 (hakemli); EMRELİC",
   "onay": "EMRELİC 6 Kasım"
+ },
+ {
+  "d": "ingiliz-kuzey-amerika (t)",
+  "tur": "KUNYE",
+  "karar": "KUNYE_DARALT",
+  "guc": "ÖLÇÜM",
+  "kunye": "ingiliz-kuzey-amerika t 1923-10-29 → 1873-07-01",
+  "gun": "1873-07-01",
+  "islem": "devletler.js ingiliz-kuzey-amerika 'İngiliz Kuzey Amerika (Kanada)' (:6449) t → 1873-07-01 (UFUK-1923 pencere ucu artefaktı kaldırılır; PEI'nin Kanada'ya girişi = son meşru kullanım). ic_not_t: '1867-07-01 Konfederasyon; 1870-07-15 Rupert Toprakları/KB Toprakları, 1871-07-20 BC, 1873-07-01 PEI'. Yerleşim değişikliği YOK (1867 sonrası 80 dönem meşru — LAB PAZAR ölçümü). 1873 sonrası ingiliz-kuzey-amerika kullanan dönem olmamalı (ölçüldü: yok).",
+  "dayanak": "LAB PAZAR ölçümü origin/main (girdi.yukle; s/isg/v)",
+  "onay": "EMRELİC gece-142"
  }
 ]
