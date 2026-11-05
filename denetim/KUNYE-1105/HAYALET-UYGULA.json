@@ -537,5 +537,27 @@
   "islem": "devletler.js (LAB ölçümü origin/main): alman-guneybati-afrikasi :18622, alman-togo :18632, alman-kamerun :18640 — t → 1919-06-28 (Versay imzası; Almanya iddiasını imzaya dek sürdürdü, isg katmanının altında künyeli sahip). Her künyenin eski t gününde künye içi kronoloji maddesi VAR (1'er) → SİLİNMEZ, tur:'isgal' olarak kalır (fiilî işgal/teslim olayı); künye t'sine 1919-06-28 'Versay: Almanya … üzerindeki haklarından feragat etti' maddesi eklenir (aynı commit). Yerleşimler: eski t → 1919-06-27 s: alman-* + isg (guney-afrika-birligi / ingiltere / fransa — mevcut fiilî sahip); 1919-06-28 → 1922-07-19 s: idareci devlet (Namibya/Tanganika emsali — ingiltere / fransa / guney-afrika-birligi), mandalar 1922-07-20'den (ingiliz-kamerun, fransiz-kamerun-mandasi, fransiz-togo, ingiliz-togoland — hepsi f 1922-07-20) ve guneybati-afrika-mandasi 1920-12-17'den. NOT: Dikva (Kamerun) 1916-1922 aralığı GENİŞLET ile YALNIZ 1919-06-28'e dek kapanır; 1919-06-28 → 1922-07-19 dilimi idareci devletle (ingiltere) doldurulmalı. Değişmez 2: kronoloji_sinir_afrika.js:21 (1916-02-18) ve :23 (1915-07-09) isg maddeleri olarak kalır; 1919-06-28 maddeleri Kamerun, Togo için de önerilir (Namibya önerisi UYGULA'da, gece-31).",
   "dayanak": "Versay Antlaşması md. 119 (1919-06-28); EMRELİC gece-63 (KASA SALI)",
   "onay": "EMRELİC 6 Kasım gece-63"
+ },
+ {
+  "d": "bati-roma",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js bati-roma t → 0476-08-23 (Odoakar'ın kral ilanı, fiilî yönetim; :19823). LAB ölçümü: odoakar 'Odoakar'ın İtalya Krallığı' f 0476-08-23 → bugün bati-roma t 09-04 ile 12 GÜN ÇAKIŞIYOR — düzeltme çakışmayı kapatır. ic_not_t: '0476-08-28 Orestes'in idamı; 0476-09-04 Romulus Augustulus'un tahttan indirilişi; Nepos Dalmaçya'da 480'e dek (bati-roma uzatılmaz — UMIT: Dalmaçya'da 476 sonrası bati-roma dönemi yok)'. ATOMİK: 0476-08-28'de biten 15 yerleşim dönemi (yerlesimler.js 4, yerlesimler_avrupa.js 11) → 0476-08-23. Kronoloji: kronoloji_sinir_benelux.js:12 (0476-08-28, Maastricht, 'Batı Roma'nın sonu') 08-23'e hizalanır (±30 içinde kalsa da tutarlılık); kronoloji_cok_ms1_1000_akdeniz.js:17 (Orestes'in idamı 08-28) OLAY olarak KALIR (evren dışı).",
+  "kunye": "bati-roma t 0476-09-04 → 0476-08-23",
+  "gun": "0476-08-23",
+  "guc": "ORTA",
+  "dayanak": "UMIT ANTİK / EMRELİC 6 Kasım",
+  "onay": "EMRELİC 6 Kasım (UMIT ANTİK)"
+ },
+ {
+  "d": "yeni-babil",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js yeni-babil f → -0625-11-23 (Nabopolassar'ın Babil'de tahta çıkışı, Babil Kroniği ABC 2: 26 Arahsamnu = 23 Kasım 626 MÖ, proleptik Jülyen; astronomik yıl -0625). ic_not_f: 'ABC 2; MÖ 626'. Değişmez 2: f kırılmasının (yerleşim dönemleri -0625-01-01'de başlıyorsa) maddesi ölçülmeli.",
+  "kunye": "yeni-babil f -0625-01-01 → -0625-11-23",
+  "gun": "-0625-11-23",
+  "guc": "ORTA",
+  "dayanak": "Babil Kroniği ABC 2 (Grayson) — UMIT ANTİK / EMRELİC",
+  "onay": "EMRELİC 6 Kasım (UMIT ANTİK)"
  }
 ]
