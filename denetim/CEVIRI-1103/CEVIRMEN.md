@@ -86,6 +86,27 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
    - **Ad muhafazakârlığı:** emin değilsen modern Türkçe yazımı bırak; Almanca ekzonim UYDURMA,
      Türkçe adı "Almancalaştırma" (önceki bir geçişte "Yalayiridas" gibi uydurma biçimler çıktı).
      Yerleşik Almanca adı olmayan hanedan/boy/kişi adları Türkçe yazımla kalır.
+3d. **Çince (zh, Basitleştirilmiş) ölçüsü:** Anakara Çin akademik tarih yazımının yerleşik adları
+   (《中国大百科全书》, Çince Osmanlı/Bizans tarihi yayınları). Sade akademik üslup (书面语),
+   düğme dili kısa ("显示", "关闭"). Basitleştirilmiş harfler, Çin noktalaması (，。、；：「」yerine
+   “…” kullan); sayılar Batı rakamıyla.
+   - 奥斯曼帝国; 苏丹; 大维齐尔; 耶尼切里（禁卫军）; beylerbeyi → 贝勒贝伊; sancak → 桑贾克;
+     timar → 蒂马尔; devşirme → 德武希尔梅（童子军征召制，yalnız açıklama gerekirse); kadı → 卡迪;
+     şeyhülislâm → 谢赫伊斯兰.
+   - Kent **29 Mayıs 1453 fethine kadar (kuşatma dahil) 君士坦丁堡**, sonrası **伊斯坦布尔**
+     (metin "Kostantiniyye" diyorsa 君士坦丁堡). Edirne: fetihten önce 阿德里安堡, sonra 埃迪尔内.
+     Belgrad → 贝尔格莱德, Viyana → 维也纳, Mora → 莫雷亚, Rumeli → 鲁米利亚, Eflak → 瓦拉几亚,
+     Boğdan → 摩尔达维亚, Erdel → 特兰西瓦尼亚, Kırım Hanlığı → 克里米亚汗国, Memlükler →
+     马穆鲁克 / 马穆鲁克苏丹国, Selçuklular → 塞尔柱, Safevîler → 萨法维, Akkoyunlu → 白羊王朝,
+     Karakoyunlu → 黑羊王朝, Venedik → 威尼斯, Kutsal Roma → 神圣罗马帝国, Bizans → 拜占庭.
+   - Kişiler: 穆罕默德二世, 巴耶济德一世, 苏莱曼一世（立法者 / 大帝 yalnız metin lakabı
+     veriyorsa), 穆拉德, 塞利姆; Batılılar Çincedeki yerleşik adla (查理五世, 弗朗索瓦一世).
+     Çin hanedan ve yer adları standart biçimde (唐朝, 宋朝, 元朝, 长安, 洛阳 …).
+   - Rakamlar Batı rakamı (“#” şablonları ve tarih denetimi rakamla çalışır); MÖ → 公元前
+     (“公元前500年”), MS → 公元. Tarihler "1453年5月29日" biçiminde.
+   - **Ad muhafazakârlığı:** yerleşik Çince adı olmayan kişi/boy/yer adı için Xinhua kurallarıyla
+     harf çevirisi yap ya da Latin/Türkçe yazımı bırak; ad UYDURMA. Emin değilsen Latin yazımı
+     bırak.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
