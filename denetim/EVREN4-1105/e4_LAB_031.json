@@ -41,8 +41,10 @@
    "uc": "f",
    "kaynak": "AEIOU Österreich-Lexikon (Austria-Forum), 'Pressburg, Frieden von', https://austria-forum.org/af/AEIOU/Pressburg%2C_Frieden_von",
    "alinti": "Am 26. 12. 1805 zwischen Österreich und Frankreich (Napoleon) / Tirol und Vorarlberg wurden an Bayern abgetreten",
-   "oneri": {},
-   "not": "KÜNYE SORUSU (LAB SALI): 1805-1814 gerçek sahip Bavyera Krallığı; d: almanya yanlış. | AEIOU/Austria-Forum kurum portalı → İPUCU (brif ipucu listesi); KAYNAKLI → ONERI. | f: Pressburg imza günü gün düzeyi, Vorarlberg Bavyera'ya. NOT: gerçek sahip Bavyera Krallığı; atlas d 'almanya' kullanıyor (künye Kutsal Roma-Almanya 962-1945) - d sorusu LAB'a. TEK ÖLÇÜ: Bavyera'nın Vorarlberg'i fiilen teslim aldığı gün okunmadı; imza günü atlas günüyle aynı. t ucu (1814-06-03) bu satırda okunmadı."
+   "oneri": {
+    "d": "bavyera"
+   },
+   "not": "KARAR EMRELİC (gece-98): 1805–1814 künye bavyera (1506-07-08 → 1918-11-08); almanya değil. | KÜNYE SORUSU (LAB SALI): 1805-1814 gerçek sahip Bavyera Krallığı; d: almanya yanlış. | AEIOU/Austria-Forum kurum portalı → İPUCU (brif ipucu listesi); KAYNAKLI → ONERI. | f: Pressburg imza günü gün düzeyi, Vorarlberg Bavyera'ya. NOT: gerçek sahip Bavyera Krallığı; atlas d 'almanya' kullanıyor (künye Kutsal Roma-Almanya 962-1945) - d sorusu LAB'a. TEK ÖLÇÜ: Bavyera'nın Vorarlberg'i fiilen teslim aldığı gün okunmadı; imza günü atlas günüyle aynı. t ucu (1814-06-03) bu satırda okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
@@ -83,8 +85,10 @@
    "uc": "f",
    "kaynak": "Bundeskanzleramt (Republik Österreich), 'Gang der Geschichte', April 1945, https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/april_1945.html",
    "alinti": "Am 27. April 1945 proklamierten die drei Parteien in der Unabhängigkeitserklärung die Wiederherstellung",
-   "oneri": {},
-   "not": "ÜLKE DÜZEYİ: 27 Nisan 1945 Unabhängigkeitserklärung günü kaynaklı. Ancak TEK ÖLÇÜ: BKA metni ülkenin bir kısmının hâlâ NS rejimi altında olduğunu söylüyor; Vorarlberg'e Viyana hükûmetinin fiilî idaresi ve Fransız işgali (1945-05) gün okunmadı. Gün öneri yok; ülke düzeyi gün + beyan ya da teslim günü LAB kararı."
+   "oneri": {
+    "not": "isg fransa giriş gününden; s: avusturya-ikinci-cumhuriyet batıda Länderkonferenz (1945-09) / Müttefik tanıması 1945-10-20 adayı — Emre'ye"
+   },
+   "not": "KARAR EMRELİC (gece-98): Draç emsali: Renner'in 1945-04-27 ilanı Vorarlberg'de geçmez (orayı idare etmiyordu). | ÜLKE DÜZEYİ: 27 Nisan 1945 Unabhängigkeitserklärung günü kaynaklı. Ancak TEK ÖLÇÜ: BKA metni ülkenin bir kısmının hâlâ NS rejimi altında olduğunu söylüyor; Vorarlberg'e Viyana hükûmetinin fiilî idaresi ve Fransız işgali (1945-05) gün okunmadı. Gün öneri yok; ülke düzeyi gün + beyan ya da teslim günü LAB kararı."
   }
  ],
  "Evrengâbâd": [
@@ -113,10 +117,8 @@
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Nizamşâhîler', https://islamansiklopedisi.org.tr/nizamsahiler",
    "alinti": "Şah Cihan 1636 Şubatında savaş için Devletâbâd’a gelince Maratha prensi karşı koyamayıp III. Murtazâ Nizamşah’ı Bâbürlüler’e teslim etti",
-   "oneri": {
-    "f": "1636-02"
-   },
-   "not": "ÇELİŞKİ: TDV'ye göre 1633 Eylül'de Maratha prensi (Şahaji) yeni Nizamşah ilan etti, Nizamşâhî devleti Şubat 1636'ya kadar sürdü ('1633 Eylül' + '1636 Şubat'); atlas f 1633-06-28 (Devletâbâd). Evrengâbâd/Khirki'nin 1633-36 arasında Bâbürlü idaresine fiilen girip girmediği okunmadı - iki ucu ölçmeden değiştirme. t 1724-10-11 okunmadı."
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): babur f 1633-06-28 ONERI kalır: Daulatabad'ın düşüşü Khirki'yi kanıtlamaz; ic_not '1633–36 Khirki sahibi ölçülmedi; TDV III. Murtazâ teslimi Şubat 1636'. | ÇELİŞKİ: TDV'ye göre 1633 Eylül'de Maratha prensi (Şahaji) yeni Nizamşah ilan etti, Nizamşâhî devleti Şubat 1636'ya kadar sürdü ('1633 Eylül' + '1636 Şubat'); atlas f 1633-06-28 (Devletâbâd). Evrengâbâd/Khirki'nin 1633-36 arasında Bâbürlü idaresine fiilen girip girmediği okunmadı - iki ucu ölçmeden değiştirme. t 1724-10-11 okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1174",
@@ -129,10 +131,8 @@
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Haydarâbâd Nizamlığı', https://islamansiklopedisi.org.tr/haydarabad-nizamligi",
    "alinti": "Haydarâbâd’ın Hindistan topraklarının bir parçası olduğunu duyurdu (13 Eylül 1948)",
-   "oneri": {
-    "f": "1948-09-13"
-   },
-   "not": "TEK ÖLÇÜ: Haydarabad teslimi 1948-09-17 (fiilî devir) korunur; TDV 13 Eylül giriş ic_not. | TDV 13 Eylül 1948 (Hindistan'ın girişi + ilan) veriyor; atlas 17 Eylül (teslim). TEK ÖLÇÜ: Hindistan fiilen yönetmiyorsa teslim günü = 17 Eylül korunabilir; 'çatışma sonu/teslim' günü TDV'de okunmadı. Karar LAB'ın. Not: TDV 'Haydarâbâd Nizamlığı varlığını ismen sürdürdü' diyor."
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): Hindistan 1948-09-17 ONAY; 13 Eylül ic_not. | TEK ÖLÇÜ: Haydarabad teslimi 1948-09-17 (fiilî devir) korunur; TDV 13 Eylül giriş ic_not. | TDV 13 Eylül 1948 (Hindistan'ın girişi + ilan) veriyor; atlas 17 Eylül (teslim). TEK ÖLÇÜ: Hindistan fiilen yönetmiyorsa teslim günü = 17 Eylül korunabilir; 'çatışma sonu/teslim' günü TDV'de okunmadı. Karar LAB'ın. Not: TDV 'Haydarâbâd Nizamlığı varlığını ismen sürdürdü' diyor."
   }
  ],
  "Faya-Largeau": [
@@ -147,8 +147,10 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Çad', https://islamansiklopedisi.org.tr/cad",
    "alinti": "Borku ve Ennîdî’yi hâkimiyetlerinde tutan Senûsîler’i buradan çıkardılar (1913)",
-   "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor (1913 yıl). TDV Borku'yu 1913'e dek Senûsîler'in tuttuğunu söylüyor: sahip 'kanem-tubu' yerine Senûsî olabilir (d sorusu LAB'a). f=1281 ufuk işareti."
+   "oneri": {
+    "not": "s: senusi 1909-06-02 → 1913 (Fransız alışı; gün kaynaklı değilse 1913-01-01 + beyan)"
+   },
+   "not": "KARAR EMRELİC (gece-98): künye senusi VAR (Borku-Ennedi 1909-06-02'den; TDV Çad/Vedây '1913'te çıkarıldılar'). | Alıntı yalnız t ucunu tarihliyor (1913 yıl). TDV Borku'yu 1913'e dek Senûsîler'in tuttuğunu söylüyor: sahip 'kanem-tubu' yerine Senûsî olabilir (d sorusu LAB'a). f=1281 ufuk işareti."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:158",
@@ -395,10 +397,8 @@
    "uc": "t",
    "kaynak": "Treccani, Enciclopedia on line, 'Yucatán', https://www.treccani.it/enciclopedia/yucatan/",
    "alinti": "portata a termine nel 1542 dal figlio con la fondazione di Mérida",
-   "oneri": {
-    "t": "1542"
-   },
-   "not": "Treccani 'Yucatán': fetih 1527'de baba Montejo'yla başladı, 1542'de oğul Montejo'nun Mérida'yı kurmasıyla tamamlandı (YIL; ÜLKE/BÖLGE DÜZEYİ). Atlas 1547. Öteki aday gün/yıl kaynakları (1546-47 Kuzamil/Doğu Yucatán) arama özetinde, açılmadı. f 1281 ufuk işareti."
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): 1542 Mérida'nın kuruluşu, Cupul bölgesini tarihlemez (uç kuralı); 1546–47 Büyük Maya İsyanı; atlas 1547 kalır, Treccani 1542 ic_not. | Treccani 'Yucatán': fetih 1527'de baba Montejo'yla başladı, 1542'de oğul Montejo'nun Mérida'yı kurmasıyla tamamlandı (YIL; ÜLKE/BÖLGE DÜZEYİ). Atlas 1547. Öteki aday gün/yıl kaynakları (1546-47 Kuzamil/Doğu Yucatán) arama özetinde, açılmadı. f 1281 ufuk işareti."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:310",
@@ -411,10 +411,8 @@
    "uc": "f",
    "kaynak": "Treccani, Enciclopedia on line, 'Yucatán', https://www.treccani.it/enciclopedia/yucatan/",
    "alinti": "portata a termine nel 1542 dal figlio con la fondazione di Mérida",
-   "oneri": {
-    "f": "1542"
-   },
-   "not": "f: bkz. satır 981 (Treccani 1542). Chichén Itzá'ya özgü tanıklık yok (Montejo 1531-35 Ciudad Real arama özetinde, açılmadı). t 1821-09-27: Treccani 'Messico' yalnız 'il 24 febbraio 1821 proclamò l’indipendenza' (İguala) diyor, Şehir'in işgal günü yok; atlas günü okunmadı."
+   "oneri": {},
+   "not": "KARAR EMRELİC (gece-98): 1542 Mérida'nın kuruluşu, Cupul bölgesini tarihlemez (uç kuralı); 1546–47 Büyük Maya İsyanı; atlas 1547 kalır, Treccani 1542 ic_not. | f: bkz. satır 981 (Treccani 1542). Chichén Itzá'ya özgü tanıklık yok (Montejo 1531-35 Ciudad Real arama özetinde, açılmadı). t 1821-09-27: Treccani 'Messico' yalnız 'il 24 febbraio 1821 proclamò l’indipendenza' (İguala) diyor, Şehir'in işgal günü yok; atlas günü okunmadı."
   }
  ],
  "Cimma (Jiren)": [
@@ -487,8 +485,11 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Nijerya', https://islamansiklopedisi.org.tr/nijerya",
    "alinti": "İngiltere, 1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
-   "oneri": {},
-   "not": "Bonny ile aynı soru (EMRELİC'te): 1884-09-10 himaye → v: ingiltere, tam hâkimiyet sonra s:? | Alıntı yalnız t ucunu tarihliyor (1 Ekim 1960 gün, ÜLKE DÜZEYİ). f 1884-09-10 (Eski Kalabar himaye antlaşması): akademik kaynak okunmadı. Not: Eski Kalabar himayeydi (Oil Rivers Protectorate); tahrir/himaye ayrımı için v: mı s: mı sorusu LAB'a (Efik krallıkları yerli yönetimde)."
+   "oneri": {
+    "alan": "v",
+    "not": "yerel polity s: altta sürer"
+   },
+   "not": "KARAR EMRELİC (gece-98): Bonny ile aynı: himaye → v: ingiltere 1884, yerel polity s: kalır; 1884-09-10 yalnız gazete/blog → ONERI; dolaylı idare krallıkları sınıfı (Emre listesi). | Bonny ile aynı soru (EMRELİC'te): 1884-09-10 himaye → v: ingiltere, tam hâkimiyet sonra s:? | Alıntı yalnız t ucunu tarihliyor (1 Ekim 1960 gün, ÜLKE DÜZEYİ). f 1884-09-10 (Eski Kalabar himaye antlaşması): akademik kaynak okunmadı. Not: Eski Kalabar himayeydi (Oil Rivers Protectorate); tahrir/himaye ayrımı için v: mı s: mı sorusu LAB'a (Efik krallıkları yerli yönetimde)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:829",
@@ -575,8 +576,10 @@
    "uc": "f",
    "kaynak": "US National Archives, 'The Declaration of Independence: A History', https://www.archives.gov/founding-docs/declaration-history",
    "alinti": "into the late morning of July 4. The Declaration had been officially adopted",
-   "oneri": {},
-   "not": "f: ÜLKE DÜZEYİ, bağımsızlık bildirgesinin kabulü (gün). ÖNERİ-NOT: Treccani 'Charleston': 'Dal 1780 al 1782 divenne la base principale inglese' - Charleston 1780-1782 İngiliz işgali (isg ingiltere) eklenmeli; gün okunmadı (Treccani yıl). KAYNAKLI yalnız f ucunu ülke düzeyinde teyit eder."
+   "oneri": {
+    "not": "isg ingiltere 1780-05-12 (teslim) → 1782-12-14 (tahliye); günler NPS/National Archives'tan alıntılanacak, bulunmazsa yıl + beyan"
+   },
+   "not": "KARAR EMRELİC (gece-98): isg ingiltere 1780–1782 eklenecek. | f: ÜLKE DÜZEYİ, bağımsızlık bildirgesinin kabulü (gün). ÖNERİ-NOT: Treccani 'Charleston': 'Dal 1780 al 1782 divenne la base principale inglese' - Charleston 1780-1782 İngiliz işgali (isg ingiltere) eklenmeli; gün okunmadı (Treccani yıl). KAYNAKLI yalnız f ucunu ülke düzeyinde teyit eder."
   }
  ],
  "Cortina d'Ampezzo": [
@@ -594,7 +597,7 @@
    "oneri": {
     "t": "1919-09-10"
    },
-   "not": "TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Alıntı yalnız t ucunu tarihliyor. TEK ÖLÇÜ / brief emsali (Trento, Trieste Saint-Germain imza 1919-09-10): Villa Giusti mütarekesi (1918-11-03) hukukî devir değil; ara dönem isg italya 1918-11-03 → 1919-09-10 yazılmalı. AEIOU 'Tirol': 'Südtirol, das an Italien abgetreten werden musste' (bölge düzeyi; Ampezzo'nun adı geçmiyor). f 1511: kayıtlı kaynak Giacomel 2015 (YIL)."
+   "not": "KARAR EMRELİC (gece-98): ONAY: isg italya 1918-11-03 (fiilî giriş günü kaynaktaysa o gün; 11-04 yürürlük ic_not) → s: italya 1919-09-10 (İtalya yönetiyordu → imza; 1920-07-16 yürürlük ic_not). | TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Alıntı yalnız t ucunu tarihliyor. TEK ÖLÇÜ / brief emsali (Trento, Trieste Saint-Germain imza 1919-09-10): Villa Giusti mütarekesi (1918-11-03) hukukî devir değil; ara dönem isg italya 1918-11-03 → 1919-09-10 yazılmalı. AEIOU 'Tirol': 'Südtirol, das an Italien abgetreten werden musste' (bölge düzeyi; Ampezzo'nun adı geçmiyor). f 1511: kayıtlı kaynak Giacomel 2015 (YIL)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:684",
@@ -611,7 +614,7 @@
     "f": "1919-09-10",
     "not": "öncesi isg italya 1918-11-03"
    },
-   "not": "TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Atlas f 1918-11-03 = Villa Giusti mütarekesi: hukukî devir içermez. Saint-Germain imza 1919-09-10 (AEIOU; yürürlük 1920-07-16/10 Ekim 1920 kaynaklara göre değişir, arama özeti). İtalya 1918 sonbaharda Cortina'yı işgal etti (blog, ipucu). Ampezzo'ya özgü devir tanığı okunmadı: BÖLGE DÜZEYİ. t 1946-06-18 (cumhuriyet) okunmadı."
+   "not": "KARAR EMRELİC (gece-98): ONAY: isg italya 1918-11-03 (fiilî giriş günü kaynaktaysa o gün; 11-04 yürürlük ic_not) → s: italya 1919-09-10 (İtalya yönetiyordu → imza; 1920-07-16 yürürlük ic_not). | TEK KURAL / TEK ÖLÇÜ: Villa Giusti 1918-11-03 mütareke, devir değil → isg italya 1918-11 → Saint-Germain 1919-09-10 imza (İtalya yönetiyordu) s: italya. | Atlas f 1918-11-03 = Villa Giusti mütarekesi: hukukî devir içermez. Saint-Germain imza 1919-09-10 (AEIOU; yürürlük 1920-07-16/10 Ekim 1920 kaynaklara göre değişir, arama özeti). İtalya 1918 sonbaharda Cortina'yı işgal etti (blog, ipucu). Ampezzo'ya özgü devir tanığı okunmadı: BÖLGE DÜZEYİ. t 1946-06-18 (cumhuriyet) okunmadı."
   }
  ],
  "Diahav (Sine)": [

@@ -128,7 +128,7 @@
    "oneri": {
     "t": "1040"
    },
-   "not": "alıntı t ucunu tarihliyor: Braga 1040'ta I. Fernando'ca geri alındı ('data in feudo ai marchesi di Portogallo'); atlas __BOSLUK__ 711→1281 sürüyor. Müslüman fethi Treccani'de 'metà dell’8° sec.' (yıl yok). Boşluk merdiveni: TDV Braga maddesi yok; Treccani (İtalyan, ikincil) okundu. 1040 sonrası sahip (León-Kastilya mı Portekiz markisi mi) için ayrı dönem ve künye kararı Emre/LAB'ın; 1040-1281 arası kaynak bulunamadı."
+   "not": "KARAR EMRELİC (gece-98): t 1040 (Treccani) tamam; 1040–1281 için merdiven (Dicionário de História de Portugal vb.); bulunmazsa beyanlı boşluk, uydurma yok. | alıntı t ucunu tarihliyor: Braga 1040'ta I. Fernando'ca geri alındı ('data in feudo ai marchesi di Portogallo'); atlas __BOSLUK__ 711→1281 sürüyor. Müslüman fethi Treccani'de 'metà dell’8° sec.' (yıl yok). Boşluk merdiveni: TDV Braga maddesi yok; Treccani (İtalyan, ikincil) okundu. 1040 sonrası sahip (León-Kastilya mı Portekiz markisi mi) için ayrı dönem ve künye kararı Emre/LAB'ın; 1040-1281 arası kaynak bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:321",
@@ -142,7 +142,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Portekiz», https://islamansiklopedisi.org.tr/portekiz (sayfa.py)",
    "alinti": "meclis kendisini Portekiz kralı (I. Felipe) ilân etmek zorunda kaldı (1581)",
    "oneri": {},
-   "not": "ÇELİŞKİ beyanı: TDV Portekiz 1581 (meclisin I. Felipe'yi kral ilânı) verir; atlas t=1580-08-25 (Alcántara, fiilî denetim) kayıtlı karardır (ispanya satırı kaynağında beyanlı). f 1281: Braga için Portekiz'e geçiş günü okunmadı; Treccani Braga 'feudo ai marchesi di Portogallo' (1040 sonrası) der; atlas f=1281 ufuk işareti gibi görünür."
+   "not": "KARAR EMRELİC (gece-98): t 1580-08-25 (fiilî, Alcântara) korunur; TDV 1581 meclis ilanı ic_not. | ÇELİŞKİ beyanı: TDV Portekiz 1581 (meclisin I. Felipe'yi kral ilânı) verir; atlas t=1580-08-25 (Alcántara, fiilî denetim) kayıtlı karardır (ispanya satırı kaynağında beyanlı). f 1281: Braga için Portekiz'e geçiş günü okunmadı; Treccani Braga 'feudo ai marchesi di Portogallo' (1040 sonrası) der; atlas f=1281 ufuk işareti gibi görünür."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:321",
@@ -345,8 +345,11 @@
    "uc": "f+t",
    "kaynak": "TDV İslâm Ansiklopedisi, «Nijerya», https://islamansiklopedisi.org.tr/nijerya (sayfa.py)",
    "alinti": "1893 yılında Nijerya’nın Atlas Okyanusu sahilini tamamen ele geçirdi / 1 Ekim 1960 tarihinde İngiliz Milletler Topluluğu içinde kalmak şartıyla Nijerya’nın bağımsızlığını tanıdı",
-   "oneri": {},
-   "not": "ÇELİŞKİ/ÜLKE DÜZEYİ: TDV İngiltere'nin 1893'te sahili tamamen ele geçirdiğini söyler (Royal Niger Company); atlas f=1884-09-10. Bonny'ye özgü değil, TDV 1884-85 koruma anlaşmalarını anmaz; oneri yazılmadı. t ucu 1960-10-01 GÜN düzeyinde teyitli."
+   "oneri": {
+    "alan": "v",
+    "not": "yerel polity (nijer-deltasi) s: altta sürer; 1884-09-10 yalnız gazete/blog → kaynakla"
+   },
+   "not": "KARAR EMRELİC (gece-98): himaye → v: ingiltere 1884, yerel polity s: kalır; '1893 tam alış' s:'ye geçirilmez — 'dolaylı idare krallıkları' sınıfı (Emre listesi). | ÇELİŞKİ/ÜLKE DÜZEYİ: TDV İngiltere'nin 1893'te sahili tamamen ele geçirdiğini söyler (Royal Niger Company); atlas f=1884-09-10. Bonny'ye özgü değil, TDV 1884-85 koruma anlaşmalarını anmaz; oneri yazılmadı. t ucu 1960-10-01 GÜN düzeyinde teyitli."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:862",
@@ -378,7 +381,7 @@
    "oneri": {
     "t": "1903-12-29"
    },
-   "not": "alıntı t ucunu tarihliyor: Ubangi-Şari sömürgesi 1903-12-29'da ilân edildi; atlas 1903-01-01. ÜLKE DÜZEYİ (Bouar'a özgü tanıklık yok; TDV 1891-95 arasında Ubangi kuzeyindeki küçük şehir devletlerini himayeye aldığını söyler). ÖLÇÜT: idareye katma — sömürge kuruluşu. f 1281 ufuk işareti."
+   "not": "KARAR EMRELİC (gece-98): fransa f 1903-12-29 ÜLKE DÜZEYİ beyanlı ONAY. ÖLÇÜLMEDİ: Buar 1911-11-04 antlaşmasıyla Neukamerun içinde mi (1912 teslim kaynağıyla ölçülecek). | alıntı t ucunu tarihliyor: Ubangi-Şari sömürgesi 1903-12-29'da ilân edildi; atlas 1903-01-01. ÜLKE DÜZEYİ (Bouar'a özgü tanıklık yok; TDV 1891-95 arasında Ubangi kuzeyindeki küçük şehir devletlerini himayeye aldığını söyler). ÖLÇÜT: idareye katma — sömürge kuruluşu. f 1281 ufuk işareti."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:776",
@@ -394,7 +397,7 @@
    "oneri": {
     "f": "1903-12-29"
    },
-   "not": "f: TDV sömürge ilânı 1903-12-29 (atlas 1903-01-01); ÜLKE DÜZEYİ, Bouar'a özgü değil. t ucu 1960-08-13 GÜN düzeyinde teyitli. Not: TDV 1911'de ülkenin batı kısmının Almanya'ya (Neukamerun) kaptırıldığını söyler (Bouar'ın bu kısımda olup olmadığı ölçülmedi)."
+   "not": "KARAR EMRELİC (gece-98): fransa f 1903-12-29 ÜLKE DÜZEYİ beyanlı ONAY. ÖLÇÜLMEDİ: Buar 1911-11-04 antlaşmasıyla Neukamerun içinde mi (1912 teslim kaynağıyla ölçülecek). | f: TDV sömürge ilânı 1903-12-29 (atlas 1903-01-01); ÜLKE DÜZEYİ, Bouar'a özgü değil. t ucu 1960-08-13 GÜN düzeyinde teyitli. Not: TDV 1911'de ülkenin batı kısmının Almanya'ya (Neukamerun) kaptırıldığını söyler (Bouar'ın bu kısımda olup olmadığı ölçülmedi)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:776",
@@ -408,7 +411,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti (sayfa.py)",
    "alinti": "13 Ağustos 1960’ta bağımsızlığına kavuşan Orta Afrika Cumhuriyeti",
    "oneri": {},
-   "not": "f ucu GÜN düzeyinde (1960-08-13); ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-98): fransa f 1903-12-29 ÜLKE DÜZEYİ beyanlı ONAY. ÖLÇÜLMEDİ: Buar 1911-11-04 antlaşmasıyla Neukamerun içinde mi (1912 teslim kaynağıyla ölçülecek). | f ucu GÜN düzeyinde (1960-08-13); ÜLKE DÜZEYİ."
   }
  ],
  "Cebeleyn": [
@@ -588,7 +591,7 @@
    "kaynak": "Treccani, «Bretagna» (Enciclopedia on line), https://www.treccani.it/enciclopedia/bretagna/ (sayfa.py)",
    "alinti": "il matrimonio dell’erede di questa famiglia, Anna, con il re di Francia Carlo VIII (1491) / unì la B. alla Corona di Francia",
    "oneri": {},
-   "not": "ÇELİŞKİ beyanı: Treccani birleşmeyi 1491 evliliğine (Anne-Charles VIII) bağlar; atlas t=1532-08-13 (Vannes birleşme fermanı, kayıtlı karar), 1532 Treccani Bretagna'da yok. 1491 hanedan birliği, 1532 hukukî birleşme olabilir; seçilmedi. Brest şehir maddesi (Treccani) Bretagne geçişini tarihlemez. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-98): 1532-08-13 korunur (TAHRİR: idareye katılış = birlik fermanı); 1491 ve 1499 evlilikleri şahsî birlik, ic_not. | ÇELİŞKİ beyanı: Treccani birleşmeyi 1491 evliliğine (Anne-Charles VIII) bağlar; atlas t=1532-08-13 (Vannes birleşme fermanı, kayıtlı karar), 1532 Treccani Bretagna'da yok. 1491 hanedan birliği, 1532 hukukî birleşme olabilir; seçilmedi. Brest şehir maddesi (Treccani) Bretagne geçişini tarihlemez. ÜLKE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:170",
@@ -602,7 +605,7 @@
    "kaynak": "Treccani, «Bretagna» (Enciclopedia on line), https://www.treccani.it/enciclopedia/bretagna/ (sayfa.py)",
    "alinti": "il matrimonio dell’erede di questa famiglia, Anna, con il re di Francia Carlo VIII (1491) / unì la B. alla Corona di Francia",
    "oneri": {},
-   "not": "ÇELİŞKİ beyanı: aynı Treccani cümlesi (1491 evlilik/Taç'a birleşme; atlas f=1532-08-13). 1532 günü okunmadı (web aramasında Annales de Bretagne/Persée yönlendirmeleri bulundu, açılmadı). t=1792-09-22: Brest için tanıklık yok, kayıtlı kaynak TDV Fransa."
+   "not": "KARAR EMRELİC (gece-98): 1532-08-13 korunur (TAHRİR: idareye katılış = birlik fermanı); 1491 ve 1499 evlilikleri şahsî birlik, ic_not. | ÇELİŞKİ beyanı: aynı Treccani cümlesi (1491 evlilik/Taç'a birleşme; atlas f=1532-08-13). 1532 günü okunmadı (web aramasında Annales de Bretagne/Persée yönlendirmeleri bulundu, açılmadı). t=1792-09-22: Brest için tanıklık yok, kayıtlı kaynak TDV Fransa."
   }
  ],
  "Brisbane": [
@@ -620,7 +623,7 @@
    "oneri": {
     "t": "1859-12-10"
    },
-   "not": "Resmî yayın: Letters Patent 6 Haziran 1859'da onaylandı, 11 Ekim 1859 yazışması 'yayımlanana kadar ayrılma olmayacak' der; ilk Queensland Government Gazette'te 10 Aralık 1859'da yayımlandı (sayfa.py'de okundu). TEK ÖLÇÜ: ayrılış fiilen yayımla başlar, t önerisi 1859-12-10 (künye f=1859-06-06 ile çelişir, künye sorusu LAB'a). f 1824 için: Moreton Bay cezaevi yerleşimi Redcliffe 1824 (Queensland Devlet Arşivi blogu aramada görüldü, açılmadı)."
+   "not": "KARAR EMRELİC (gece-98): Queensland f / NSW t 1859-12-10 (ayrılma ilanı, ilk Gazette; TEK ÖLÇÜ teslim). Künye f 1859-06-06 (Letters Patent) kalabilir, fark ic_not; 12-10'da kronoloji maddesi yoksa eklenecek (D2). | Resmî yayın: Letters Patent 6 Haziran 1859'da onaylandı, 11 Ekim 1859 yazışması 'yayımlanana kadar ayrılma olmayacak' der; ilk Queensland Government Gazette'te 10 Aralık 1859'da yayımlandı (sayfa.py'de okundu). TEK ÖLÇÜ: ayrılış fiilen yayımla başlar, t önerisi 1859-12-10 (künye f=1859-06-06 ile çelişir, künye sorusu LAB'a). f 1824 için: Moreton Bay cezaevi yerleşimi Redcliffe 1824 (Queensland Devlet Arşivi blogu aramada görüldü, açılmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek30.js:122",
@@ -636,7 +639,7 @@
    "oneri": {
     "f": "1859-12-10"
    },
-   "not": "f önerisi 1859-12-10 (Gazette yayımı), gerekçe yukarıdaki satırda; 6 Haziran 1859 'authorised by Queen Victoria' (ic_not, Queensland Günü). t=1901-01-01 (Federasyon) bu partide okunmadı."
+   "not": "KARAR EMRELİC (gece-98): Queensland f / NSW t 1859-12-10 (ayrılma ilanı, ilk Gazette; TEK ÖLÇÜ teslim). Künye f 1859-06-06 (Letters Patent) kalabilir, fark ic_not; 12-10'da kronoloji maddesi yoksa eklenecek (D2). | f önerisi 1859-12-10 (Gazette yayımı), gerekçe yukarıdaki satırda; 6 Haziran 1859 'authorised by Queen Victoria' (ic_not, Queensland Günü). t=1901-01-01 (Federasyon) bu partide okunmadı."
   }
  ],
  "Cartagena de Indias": [
@@ -661,12 +664,14 @@
    "f": "1821-10-01",
    "t": "1831-01-01",
    "sira": "968",
-   "hukum": "BULUNAMADI",
-   "uc": "",
-   "kaynak": "Bakılan: Treccani «Cartagena» (yalnız 'Nel 1811 si proclamò indipendente'); Banco de la República makalesi, metni çıkmayan PDF: https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/chee_20.pdf (başka makinede okunacak; arama özetinde 10 Ekim 1821 İspanyol çekilişi görüldü, sayfa okunmadı).",
-   "alinti": "",
-   "oneri": {},
-   "not": "Arama özeti (ipucu, okunmadı): İspanyol birlikleri 10 Ekim 1821'de Cartagena'dan çekildi; atlas f=1821-10-01. Treccani'nin 1811 bağımsızlık ilânı 1815 İspanyol geri alışıyla kesilmiştir."
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Meisel Roca, Adolfo, Banco de la República, Cuadernos de Historia Económica y Empresarial (CHEE) no. 20, Ekim 2007, s. 27 (EMRELİC PDF okuması) — https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/chee_20.pdf",
+   "alinti": "Al retirase las tropas españolas de Cartagena el 10 de octubre de 1821",
+   "oneri": {
+    "f": "1821-10-10"
+   },
+   "not": "KARAR EMRELİC (gece-98): Banrep hakemli çalışma serisi, akademik sınıf; İspanyol birliklerinin çekilişi 1821-10-10 → gran-kolombiya f 1821-10-10. | Arama özeti (ipucu, okunmadı): İspanyol birlikleri 10 Ekim 1821'de Cartagena'dan çekildi; atlas f=1821-10-01. Treccani'nin 1811 bağımsızlık ilânı 1815 İspanyol geri alışıyla kesilmiştir."
   }
  ]
 }
