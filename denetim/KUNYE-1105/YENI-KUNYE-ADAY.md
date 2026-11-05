@@ -5,7 +5,7 @@ LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulm
 **Boyama şartı (ölçüldü, `uret_petek.py:1140`):** motor `d:` BOYALAR'da yoksa künyenin `harita:` anahtarına düşer. Yeni künye **mevcut bir boya anahtarıyla** (`harita:'ingiltere'`, `harita:'abd'` (6 künye) … — emsal: harita:'ingiltere' 10 künye) açılırsa `renkler.py`ye DOKUNULMAZ, motor tuzu değişmez; veri olağan koşuda yansır. **Kendi rengi** istenirse BOYALAR'a girmeli → renkler.py motor tuzu → tam yeniden inşa (7-8 saat, HAVVA). Karar sırasında her aday için hangisi olduğu seçilir.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **48 aday**
+Toplam: **49 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -57,3 +57,4 @@ Toplam: **48 aday**
 | 46 | `timor-leste` | Doğu Timor Demokratik Cumhuriyeti (Timor-Leste) 2002-05-20 → (süren). Ölçüm: künye YOK (untaet t 2002-05-20 ardılsız). harita: mevcut bir anahtarla (ör. 'portekiz-timor' değil — bağımsız devlet; yeni renk mi) — Emre. | Dili, Baucau, Viqueque … 2002-05-20 → | ORTA |  |
 | 47 | `angoche` | Angoche (Angoxe) Sultanlığı (Mozambik kıyısı; Svahili-Arap şehir devleti, 15. yy → 1910 Portekiz fethi). Ölçüm: angoche künyesi YOK (devletler.js'te Angoche/Angoxe geçmiyor). Atlastaki 'Portekiz 1600' dayanaksız → künye açılana dek BEYANLI; Portekiz'in fiilî fethi 1910 (gün kaynakla). harita: mevcut anahtarla açılırsa renkler.py değişmez. | Angoche 15. yy (kaynakla) → 1910 angoche; 1910'dan portekiz (mozambik künyesi ölçülmeli) | ZAYIF |  |
 | 48 | `yeni-gine-mandasi` | Yeni Gine Toprağı (Avustralya C-mandası) 1920-12-17 (MC şartları; sivil idare 1921-05-09) → 1949-06-30 (papua-yeni-gine-avustralya f 1949-07-01, :15622). Ölçüm: manda künyesi YOK (gece-63'te not edildi). harita:'avustralya' ile açılırsa renkler.py değişmez. | Aitape, Rabaul, Madang, Wewak …: 1914-09-17 isg avustralya (s: alman-yeni-gine — aday) → 1919-06-28 s: avustralya (idareci; Namibya emsali) → 1920-12-17 yeni-gine-mandasi → 1949-07-01 papua-yeni-gine-avustralya | ZAYIF |  |
+| 49 | `soyo` | Soyo (Kongo'nun ayrılan kontluğu/prensliği) f 1641 (Thornton; SAHO — SAHO tek dayanak olamaz) → (Portekiz fethi/19. yy, kaynakla); EMRELİC gece-89. Ölçüm: soyo künyesi YOK; kongo-kralligi 1390 → 1914 (:6135) VAR — Soyo 1641'den Kongo'dan fiilen bağımsız (ayrı polity). | Mbanza Soyo 1641 → | ZAYIF |  |
