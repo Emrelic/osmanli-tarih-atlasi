@@ -26,7 +26,7 @@
    "oneri": {
     "f": "1810-12-02"
    },
-   "not": "ÇELİŞKİ: TDV Moritus md. teslim günü 2 Aralık 1810; atlas künye/yerleşim 1810-12-03. TEK ÖLÇÜ: devralan yönetmiyordu, teslim günü esas -> TDV günü. Öteki gün (3 Aralık) bu oturumda kaynakla okunmadı; iki ucu Emre seçsin. TDV: ada 1814 Paris Antlaşması ile kesin İngiliz oldu (hukukî devir; yürürlük/ic_not). t ucu: TDV 12 Mart 1968 (sonraki satır). ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-110): TDV esas 1810-12-02; 12-03 kapitülasyonu iki kaynağıyla ic_not. | ÇELİŞKİ: TDV Moritus md. teslim günü 2 Aralık 1810; atlas künye/yerleşim 1810-12-03. TEK ÖLÇÜ: devralan yönetmiyordu, teslim günü esas -> TDV günü. Öteki gün (3 Aralık) bu oturumda kaynakla okunmadı; iki ucu Emre seçsin. TDV: ada 1814 Paris Antlaşması ile kesin İngiliz oldu (hukukî devir; yürürlük/ic_not). t ucu: TDV 12 Mart 1968 (sonraki satır). ÜLKE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_halef_1946.js:22",
@@ -180,8 +180,10 @@
    "uc": "t",
    "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
    "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
-   "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (1901, yıl). f ucu çelişki: TDV Kamerun «Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)»; atlas f 1809 (cihad başlangıcı). Seçmedim. Bu oturumda 1809 için kaynak okunmadı."
+   "oneri": {
+    "f": "1841-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-110): Uç kuralı: Rey'e özgü TDV Fumbina 1841 öncelikli [yalnız yıl]; adamava 1809 ic_not; ONERI. | alıntı yalnız t ucunu tarihliyor (1901, yıl). f ucu çelişki: TDV Kamerun «Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)»; atlas f 1809 (cihad başlangıcı). Seçmedim. Bu oturumda 1809 için kaynak okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:605",
@@ -276,7 +278,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/toscana/",
    "alinti": "la T. fu annessa al Regno di Sardegna con il plebiscito del 15 marzo 1860",
    "oneri": {},
-   "not": "Treccani «Toscana»: Sardinya'ya ilhak «plebiscito del 15 marzo 1860» (atlas 1860-03-22). Yıl 1860 uyuşur; gün farkı (plebisito/ilhak ayrımı) bu oturumda başka kaynakla çözülmedi, oneri yazmadım. Piombino'ya özgü cümle yok (Toskana Büyük Dükalığı'na 1815'te bağlanmış, Piombino md.). t 1861-03-17 bu oturumda okunmadı."
+   "not": "KARAR EMRELİC (gece-110): TAHRİR: ilhak kararnamesi 1860-03-22 kalır; Toskana plebisiti 1860-03-15 ic_not. | Treccani «Toscana»: Sardinya'ya ilhak «plebiscito del 15 marzo 1860» (atlas 1860-03-22). Yıl 1860 uyuşur; gün farkı (plebisito/ilhak ayrımı) bu oturumda başka kaynakla çözülmedi, oneri yazmadım. Piombino'ya özgü cümle yok (Toskana Büyük Dükalığı'na 1815'te bağlanmış, Piombino md.). t 1861-03-17 bu oturumda okunmadı."
   }
  ],
  "Ponca köyleri (Salt Fork)": [
@@ -290,8 +292,10 @@
    "uc": "f",
    "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=PO007",
    "alinti": "the federal government removed the Ponca to Indian Territory in 1877",
-   "oneri": {},
-   "not": "Oklahoma Historical Society Encyclopedia (Oklahoma Ansiklopedisi): Güney Ponca Salt Fork/Arkansas birleşimine 1877'de (NPS: 1878) yerleştirildi -> yerleşim 1281'de Ponca yerleşimi DEĞİL; yerleşim o devirde yoktu. Cherokee Outlet ABD toprağıydı. ponka s: Salt Fork için 1877/78'den başlamalı (ya da önceki dönem sahibi ayrı aranmalı); oneri yazmadım (gün yok)."
+   "oneri": {
+    "not": "yerleşim 1877-78'den önce yok → 1281/1858 uçları KIRPILIR (merdiven ④)"
+   },
+   "not": "KARAR EMRELİC (gece-110): Ponca Salt Fork kırpma ONAY. | Oklahoma Historical Society Encyclopedia (Oklahoma Ansiklopedisi): Güney Ponca Salt Fork/Arkansas birleşimine 1877'de (NPS: 1878) yerleştirildi -> yerleşim 1281'de Ponca yerleşimi DEĞİL; yerleşim o devirde yoktu. Cherokee Outlet ABD toprağıydı. ponka s: Salt Fork için 1877/78'den başlamalı (ya da önceki dönem sahibi ayrı aranmalı); oneri yazmadım (gün yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1242",
@@ -303,8 +307,10 @@
    "uc": "f",
    "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=PO007",
    "alinti": "In 1858 and 1865 the Ponca also signed land cession treaties in return for military protection",
-   "oneri": {},
-   "not": "1858 anlaşması Nebraska toprağı devri (Salt Fork değil). Salt Fork'ta ABD egemenliği Ponca gelmeden önce de sürüyordu (Cherokee Outlet); 1858-01-01 bu yerleşim için uygun değil -- ÜLKE/KABİLE DÜZEYİ, yerleşime özgü teyit yok."
+   "oneri": {
+    "not": "yerleşim 1877-78'den önce yok → 1281/1858 uçları KIRPILIR (merdiven ④)"
+   },
+   "not": "KARAR EMRELİC (gece-110): Ponca Salt Fork kırpma ONAY. | 1858 anlaşması Nebraska toprağı devri (Salt Fork değil). Salt Fork'ta ABD egemenliği Ponca gelmeden önce de sürüyordu (Cherokee Outlet); 1858-01-01 bu yerleşim için uygun değil -- ÜLKE/KABİLE DÜZEYİ, yerleşime özgü teyit yok."
   }
  ],
  "Port Moresby": [
@@ -416,10 +422,9 @@
    "kaynak": "https://www.memoriachilena.gob.cl/602/w3-article-554.html",
    "alinti": "Arica queda bajo soberanía chilena y Tacna se reintegra al territorio peruano",
    "oneri": {
-    "alan": "isg",
-    "t": "1929-06-03"
+    "not": "öncesi isg sili 1880-06-07 → 1884-10-31; s: sili 1884-10-31'den (yasa; TAHRİR)"
    },
-   "not": "Tacna-Arica: 1880-06-07 Şili denetimi → isg sili; Lima 1929-06-03 imza (Şili yönetiyordu) → s: sili; Ancón 1883 Arica'yı Şili'ye 10 yıl bırakmıştı (plebisit) — EMRELİC'e soruldu. | ÖLÇÜT: geçici/askerî -- Memoria Chilena (Biblioteca Nacional de Chile) Arica kronolojisi: 7 Haziran 1880 Arica Şili askerî denetiminde; 1883 Ancón Arica'yı geçici bıraktı, 3 Haziran 1929 Lima Antlaşması ile Arica Şili egemenliğine girdi. ÖNERİ: 1884-10-31'den s: sili değil, isg: sili 1880-06-07 (denetim) -> 1929-06-03; s: sili 1929-06-03'ten (TEK ÖLÇÜ imza günü, Şili zaten yönetiyor); peru-cumhuriyeti s: 1929-06-03'e uzar. Putre'nin Arica (Tacna dep.) içinde olduğu arama özetinden (altos de Arica), okunmadı. Kurum portalı: ONERI."
+   "not": "KARAR EMRELİC (gece-110): TAHRİR (Habsburg/Tocopilla emsali): Şili Tacna-Arica'yı 1884-10-31 yasasıyla idaresine kattı → isg sili 1880-06-07 → s: sili 1884-10-31 (atlas f doğru). Peru iddiası ve plebisit TAHRİR'e yenilir; Ancón 1883 ve Lima 1929-06-03 ic_not; 1929'a dek isg YAZILMAZ. DİKKAT: Tacna yerleşimleri 1929-08-28 teslimle peru'ya döner; Arica'da Şili sürer. | Tacna-Arica: 1880-06-07 Şili denetimi → isg sili; Lima 1929-06-03 imza (Şili yönetiyordu) → s: sili; Ancón 1883 Arica'yı Şili'ye 10 yıl bırakmıştı (plebisit) — EMRELİC'e soruldu. | ÖLÇÜT: geçici/askerî -- Memoria Chilena (Biblioteca Nacional de Chile) Arica kronolojisi: 7 Haziran 1880 Arica Şili askerî denetiminde; 1883 Ancón Arica'yı geçici bıraktı, 3 Haziran 1929 Lima Antlaşması ile Arica Şili egemenliğine girdi. ÖNERİ: 1884-10-31'den s: sili değil, isg: sili 1880-06-07 (denetim) -> 1929-06-03; s: sili 1929-06-03'ten (TEK ÖLÇÜ imza günü, Şili zaten yönetiyor); peru-cumhuriyeti s: 1929-06-03'e uzar. Putre'nin Arica (Tacna dep.) içinde olduğu arama özetinden (altos de Arica), okunmadı. Kurum portalı: ONERI."
   }
  ],
  "Quivira (Wiçita, Büyük Bükülme)": [
@@ -489,8 +494,11 @@
    "uc": "t",
    "kaynak": "https://sahistory.org.za/place/rehoboth",
    "alinti": "In 1885, Baster Kaptein Hermanuas van Wyk signed a 'Treaty of Protection and Friendship' with the German Empire",
-   "oneri": {},
-   "not": "Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): 1885 himaye anlaşması Alman İmparatorluğu ile; Basters otonomiyi korudu. Atlas nama-orlam t 1904-10-03 ile çelişir; HİMAYE KURALI: yerel polity s: sürer, Almanya v:. Seçmedim, oneri yazmadım; kabul edilen kaynakla (Cambridge CEH makalesi erişilemez) doğrulanmadı."
+   "oneri": {
+    "d": "baster (künye adayı)",
+    "not": "1885'ten v: almanya"
+   },
+   "not": "KARAR EMRELİC (gece-110): Himaye kuralı: v: almanya 1885 (koruma antlaşması; SAHO ipucu, gün kaynakla) + s: baster (künye adayı, LAB SALI); atlas 1904-10-03 ic_not. | Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): 1885 himaye anlaşması Alman İmparatorluğu ile; Basters otonomiyi korudu. Atlas nama-orlam t 1904-10-03 ile çelişir; HİMAYE KURALI: yerel polity s: sürer, Almanya v:. Seçmedim, oneri yazmadım; kabul edilen kaynakla (Cambridge CEH makalesi erişilemez) doğrulanmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2060",
@@ -503,7 +511,7 @@
    "kaynak": "https://sahistory.org.za/place/rehoboth",
    "alinti": "Namibia was occupied by South Africa, in 1915",
    "oneri": {},
-   "not": "Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): Güney Afrika işgali 1915 (YIL); atlas t 1915-07-09 (Alman teslimi, arama özeti 9 Temmuz 1915). alıntı yalnız t ucunu tarihliyor. f 1904-10-03 hiçbir kaynakta okunmadı."
+   "not": "KARAR EMRELİC (gece-110): Himaye kuralı: v: almanya 1885 (koruma antlaşması; SAHO ipucu, gün kaynakla) + s: baster (künye adayı, LAB SALI); atlas 1904-10-03 ic_not. | Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): Güney Afrika işgali 1915 (YIL); atlas t 1915-07-09 (Alman teslimi, arama özeti 9 Temmuz 1915). alıntı yalnız t ucunu tarihliyor. f 1904-10-03 hiçbir kaynakta okunmadı."
   }
  ],
  "Riohacha": [
@@ -546,7 +554,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/nasriler",
    "alinti": "Cezîretülhadrâ (Algeciras), Runde (Ronda), Cebelitârık ve Tarîf şehirlerini askerî üs olarak verdiği Merînîler’le ittifak kurdu",
    "oneri": {},
-   "not": "TDV Nasrîler md.: II. Muhammed (13. yy sonu) Ronda'yı Merînîlere askerî üs olarak verdi -> Ronda 1281 sonrası bir süre Merînî denetimi; atlas granada 1281-1485 kesintisiz. Gün/yıl yok; oneri yazmadım. t 1485: TDV Gırnata/Nasrîler 1485'i Ronda'ya bağlamaz."
+   "not": "KARAR EMRELİC (gece-110): Merînî dilimi: TDV 'üs olarak verdi' cümlesi okunacak; Merînîler fiilen idare ettiyse (13. yy sonu → 14. yy ortası) dilim merini BEYANLI, günler kaynakla; yoksa ONERI notu. Archivo Dominicano makalesinde Merînî dönemi yok. | TDV Nasrîler md.: II. Muhammed (13. yy sonu) Ronda'yı Merînîlere askerî üs olarak verdi -> Ronda 1281 sonrası bir süre Merînî denetimi; atlas granada 1281-1485 kesintisiz. Gün/yıl yok; oneri yazmadım. t 1485: TDV Gırnata/Nasrîler 1485'i Ronda'ya bağlamaz."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:275",
@@ -554,12 +562,12 @@
    "d": "ispanya",
    "f": "1485-05-22",
    "t": "2000-12-31",
-   "hukum": "BULUNAMADI",
-   "uc": "",
-   "kaynak": "AÇILAMAYAN PDF: https://archivodominicano.dominicos.org/ojs/article/download/dominicos-ronda-malaga/261 ; https://digibug.ugr.es/bitstream/handle/10481/44706/Anejo_Mata.54.pdf?sequence=1 (metin çıkmadı)",
-   "alinti": "",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Archivo Dominicano, 'dominicos-ronda-malaga', PDF s.2 (EMRELİC pypdf okuması) — https://archivodominicano.dominicos.org/ojs/article/download/dominicos-ronda-malaga/261",
+   "alinti": "Una vez conquistada Ronda el 22 de mayo de 1485",
    "oneri": {},
-   "not": "TDV Gırnata ve Nasrîler Ronda'nın 1485-05-22 düşüşünü vermez. Arama özeti: Archivo Dominicano makalesi 22 Mayıs 1485 -- PDF metni okunamadı (ipucu)."
+   "not": "KARAR EMRELİC (gece-110): f 1485-05-22 (Jülyen) gün düzeyinde teyitli. | TDV Gırnata ve Nasrîler Ronda'nın 1485-05-22 düşüşünü vermez. Arama özeti: Archivo Dominicano makalesi 22 Mayıs 1485 -- PDF metni okunamadı (ipucu)."
   }
  ],
  "Ruby Vadisi (Batı Şoşoni)": [
@@ -574,7 +582,7 @@
    "kaynak": "https://www.onlinenevada.org/sites/default/files/RubyValley_Crum_1987.pdf (metin çıkmadı, açılamadı); NARA katalog arama özeti",
    "alinti": "",
    "oneri": {},
-   "not": "Batı Şoşoni egemenlik yılı/gün okunmadı. İpucu (arama özeti): Ruby Valley Antlaşması 1 Ekim 1863; atlas 1868-07-03 Fort Bridger (Doğu Şoşoni) olabilir."
+   "not": "KARAR EMRELİC (gece-110): Crum 1987 (Nevada Historical Society Quarterly, PDF s.4-5, EMRELİC okuması): 'In 1859, the Ruby Valley Indian Reservation was established by Jacob Forney'; rezervasyon 1859'da ve sonra ölçülmedi; çiftlik 1861 sonrası durdu; 1863 antlaşması anılıyor. abd f 1868-07-03'ü doğrudan tarihlemiyor → ONERI notu (1863-10-01 Ruby Valley Antlaşması / onay günü kaynakla). | Batı Şoşoni egemenlik yılı/gün okunmadı. İpucu (arama özeti): Ruby Valley Antlaşması 1 Ekim 1863; atlas 1868-07-03 Fort Bridger (Doğu Şoşoni) olabilir."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1135",
@@ -587,7 +595,7 @@
    "kaynak": "https://www.onlinenevada.org/sites/default/files/RubyValley_Crum_1987.pdf (açılamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "ABD egemenliği Nevada'da Guadalupe Hidalgo 1848-02-02 (bilinen karar, Kaliforniya emsali) olabilir; bu oturumda kaynakla okunmadı."
+   "not": "KARAR EMRELİC (gece-110): Crum 1987 (Nevada Historical Society Quarterly, PDF s.4-5, EMRELİC okuması): 'In 1859, the Ruby Valley Indian Reservation was established by Jacob Forney'; rezervasyon 1859'da ve sonra ölçülmedi; çiftlik 1861 sonrası durdu; 1863 antlaşması anılıyor. abd f 1868-07-03'ü doğrudan tarihlemiyor → ONERI notu (1863-10-01 Ruby Valley Antlaşması / onay günü kaynakla). | ABD egemenliği Nevada'da Guadalupe Hidalgo 1848-02-02 (bilinen karar, Kaliforniya emsali) olabilir; bu oturumda kaynakla okunmadı."
   }
  ],
  "Saginaw (Ojibwe)": [
