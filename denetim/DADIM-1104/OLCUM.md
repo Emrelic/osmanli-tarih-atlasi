@@ -1070,6 +1070,80 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Çin ve Kore ay-güneş günleri çevrilmedi (EMRELİC/Academia Sinica). a_005 ajanı iki günü kural dışı çevirdi; notta işaretli.
   - Mezopotamya'da kronoloji tabanı karışık (Iranica, Treccani, ARCANE). Orta kronoloji uzlaşımı ic_not'larda beyanlı.
 
+## 45. ANTİK B — ATLAS_DAYANAK turu TAMAM (10/10 parti; UMIT, 5 Kasım 2026; `antik_b_parti.py`, `antik_sonuc.json`)
+- **Evren:** kaynağı yalnız atlas künyesi ya da Vikipedi olan antik dönemler, 129 satır, 78 yerleşim. Hepsi işlendi.
+- **Hükümler:**
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 58 |
+  | ONERI | 46 |
+  | CELISKI | 12 |
+  | BULUNAMADI | 11 |
+  | HATALI_ONERI | 2 |
+
+  Tarayıcı gerekli: 32 satır ("Emre girişi"). Kapalı kaynaklar: Shaw, CHAC, Bryce, Hildebrand 2018 (reCAPTCHA), Forsyth ödünç kopyası.
+- **antik_sonuc toplamı (A + B):** 413 satır.
+- **Bulgular:**
+  1. **İberya, Vizigot → Emevî geçişi.** Atlas bütün yarımadada t 0711-01-01 kullanıyor. Şehir maddeleri (TDV) farklı yıl veriyor:
+
+     | Şehir | Yıl |
+     |---|---|
+     | Toledo, Sevilla, Granada | 712 |
+     | Valensiya, Zaragoza | 714 |
+     | Barselona | 715 |
+     | Lizbon | 716 (Treccani 711; CELISKI) |
+     | Málaga | 711 ya da 713 (CELISKI) |
+     | Kurtuba | 711 (atlasla uyumlu) |
+
+     Her kayma için Değişmez 2 gereği kronoloji maddesi ve emevi f kayması aynı commit'te girmeli.
+  2. **İberya, Vizigot başlangıcı 0507.** Hiçbir şehirde kaynakla örtüşmüyor:
+     - Treccani, Euric'in fethinin 475'te tanındığını yazıyor. 476–507 boşluğu altı şehirde 0476-08-23'ten vizigot olarak doldurulabilir (BEYANLI).
+     - Bizans Spania dilimi eksik: Kurtuba 554–571, Málaga yılı bulunamadı.
+     - Braga ve A Coruña'da Süev → Vizigot geçişi 585 KAYNAKLI (Treccani). Süev f 411 (Treccani Galizia), atlas 409: ONERI; bati-roma t ile birlikte kayar.
+     - Málaga bati-roma t 0476-08-28 → 08-23 (gece-69).
+  3. **Britannia sonu:** üç tarih var (VCH c.409, Treccani 406, atlas 410). Camulodunum ve Verulamium CELISKI, karar EMRELİC'in.
+  4. **Karthago f:** satır −0759 (Docter), Treccani −0813; künye −0813. CELISKI: bir kayıtta tek uzlaşım olmalı.
+  5. **Tarih öncesi uçlar** (açık erişimli, hakemli radyokarbon yayınları):
+
+     | Yer | Bulgu |
+     |---|---|
+     | Cerro Sechín | f −2099 (atlas −2269); t −1549 (atlas −1649 dönem sonu) |
+     | Sechín Alto | f −1599 (atlas −1509) |
+     | Ain Mallaha | f −12375, t −9944 (atlas tek ölçüm) |
+     | Göbekli Tepe | f −9599 (atlas −9528 tek sıva) |
+     | Ceibal | t −0349, künye t −0399'u aşar (LAB) |
+     | Lothagam North | f −3001 kendi kaynağının aritmetiğiyle tutmuyor |
+
+  6. **Mezopotamya:**
+     - Ur larsa f −1924 desteksiz. Gungunum 8. yıl Ur'un alınışı değil; en erken kanıt 10. yıl, −1922.
+     - Girsu −2349..−2143 boşluğu Akad'la doldurulabilir (ARCANE, Šarkališarri yıl adları).
+     - Nippur ur-3 t −2018 birebir.
+     - Şam ve Cerablus Yeni Asur f'si RINAP'la teyitli.
+  7. **Öteki:**
+     - Kerma: kerma.ch Mısır işgali 1480–1080 veriyor. −1499..−1079 BOSLUK kaynakla dolabilir; Klasik Kerma t −1479 (künye −1499).
+     - Harappa: Geç Harappa MÖ 1300'e uzuyor (HARP).
+     - Gordion: Yıkım Tabakası 824–807 cal BC; frigya f −0737 kaynaksız.
+     - Çengdu (Gongsun Shu): 建武元年四月 → 建武十二年十一月. t yıl başı değil 11. ay; çeviri EMRELİC'te.
+     - Petra: 395 sonrası dönem yok.
+- **Sınır:** Vikipedi'li satırların `kaynak_sinifi` alanı ajan çıktısında düştü (52 satır boş); sınıf `antik_b_olcum.json`da.
+
+## 46. EVREN 4 — HAVVA devri r8_033 / r8_038 / r8_039 (UMIT; `denetim/EVREN4-1105/e4_UMIT_r8_0XX.json`)
+- **r8_038:** 8 yerleşim, 10 satır.
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 1 |
+  | ONERI | 2 |
+  | YOK_O_DEVIRDE | 1 |
+  | BULUNAMADI | 6 |
+
+  - Yalutorovsk f 1639 yanlış: ostrog 1659 (cyberleninka). 1639–1659 kırpılır.
+  - Verhneudinsk f 1665 desteksiz (Udinsk zimovyesi 1666; zayıf).
+  - Alazeya 1642 ilk temas, ostrog değil.
+  - Rusya 1917-03-15 ucu bu partide teyit edilemedi.
+- **r8_033 ve r8_039:** sürüyor (sonuçlar gelince eklenecek).
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.

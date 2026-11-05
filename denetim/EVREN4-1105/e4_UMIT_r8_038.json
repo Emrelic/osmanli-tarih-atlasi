@@ -1,0 +1,164 @@
+{
+ "Yalutorovsk": [
+  {
+   "sira": 2430,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1639-01-01",
+   "t": "1917-03-15",
+   "hukum": "YOK_O_DEVIRDE",
+   "uc": "f",
+   "kaynak": "Историко-культурное наследие Тюменского края (cyberleninka.ru/article/n/istoriko-kulturnoe-nasledie-tyumenskogo-kraya-i-vozmozhnosti-ego-ispolzovaniya); ham metin sayfa.py ile okundu",
+   "alinti": "На его месте в 1659 г. был возведён Ялуторовский острог",
+   "oneri": {
+    "f": "1659-01-01"
+   },
+   "not": "Kurulus 1659 (yil). 1639-1659 arasi Rus idaresi yok (Tatar Yavlu-tura/Sibir hanligi kalintisi) -> bu kisim kirpilmali, f=1659-01-01 [yalniz yil]. ru.wikipedia ipucu (tek dayanak olamaz): Ялуторовский острог ve слобода 1659. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Irbit": [
+  {
+   "sira": 2434,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1631-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: ru.wikipedia Ирбит (Ирбеевская слобода 1631, Ivan Sipitsin; 1662'de Ирбитская) - hint, f=1631 ile uyumlu; cyberleninka (3 makale) ve archive.org Forsyth'ta Irbit yok. Akademik teyit bulunamadi; 1631 yil duzeyi, slobodanin (ostrog degil) idareye katilmasi ayrimi ic_not'a. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Troitsk": [
+  {
+   "sira": 2438,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1743-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: ru.wikipedia Троицк (Челябинская обл.) 'основан 4 iyun (22 mayis) 1743, kale temeli' - hint, f=1743 ile uyumlu (Julyen 22 Mayis = Gregoryen 2 Haziran; wiki 4 Haziran diyor, gun celiskisi); cyberleninka'da 1743 teyidi cikmadi (Gizatullin monografisi resensiyonunda yok). t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Abakan ostrogu": [
+  {
+   "sira": 2442,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1707-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: ru.wikipedia Абаканский острог (insa 4-18 Agustos 1707, Ilya Tsitsurin) - hint, f=1707 ile uyumlu; Forsyth (archive.org, ham): Kirgiz 1701'de Abakan bozkirinda yenildi, 1703'te siyasi guc olarak sona erdi - ostrog tarihi vermiyor; Messerschmidt 1721 makalesi (cyberleninka) 1707 vermiyor. Akademik teyit bulunamadi. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Barguzin": [
+  {
+   "sira": 2446,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1648-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: Forsyth (archive.org ham) 'establishment of several Russian outposts ... Barguzinsk' yalniz 1630-40'lar on yili (yilsiz -> KAYNAKLI degil); ru.wikipedia Баргузин (село) 'начале лета 1648 Иван Галкин' hint, f=1648 ile uyumlu; Irkutsk ostrogları makalesinde Barguzin yok. Akademik yil teyidi bulunamadi. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Telembinsk": [
+  {
+   "sira": 2450,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1658-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: ru.wikipedia Телембинский острог: 1653 Beketov Telembinskoe zimovye, 1658 Pashkov ostrog - hint, f=1658 ile uyumlu (zimovye 1653 olarak da okunabilir). Cyberleninka'da bulunamadi; Forsyth'ta Telembinsk yok. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ],
+ "Verhneudinsk": [
+  {
+   "sira": 2454,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1665-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Web arama ozeti (ham metin okunamadi: journals.bsu.ru/content/articles/4846.pdf, history.bgu.ru/dl.ashx?id=3070 PDF kodlamasi yuzunden); ru.wikipedia Верхнеудинск",
+   "alinti": "",
+   "oneri": {
+    "f": "1666-01-01"
+   },
+   "not": "[alinti ozetten/ham yok] Konvansiyonel kurulus 1666 (Удинское зимовье, wiki: 23 Mayis 1666); atlas 1665 ile celisir (1665 Selenginsk'in yili). BSU makalesi ozetine gore 1989 arsiv belgeleri tarihi sorguluyor, ostrog 1678-79/1689'da. Zimovye != ostrog: idareye katilma belgesi icin ayrica bakilmali; f 1666 [yalniz yil, konvansiyonel], 1665 icin dayanak yok. NOT: cyberleninka 'Удинский 1649' Nizhneudinsk'tir, karistirma. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  },
+  {
+   "sira": 2457,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "uzak-dogu-cumhuriyeti",
+   "f": "1920-04-06",
+   "t": "1922-11-14",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Forsyth, A History of the Peoples of Siberia, 1992 (archive.org james-forsyth-a-history-...-1992_202601, ham metin)",
+   "alinti": "Moscow in April 1920 sanctioned the creation of a nominally independent Far Eastern Republic.",
+   "oneri": {},
+   "not": "Verhneudinsk hukumeti ('Political Centre government in Verkhneudinsk') Nisan 1920; ay duzeyi, gun (04-06) teyitsiz [yalniz ay]. t=1922-11-14: Forsyth 'absorbed into the Russian Republic' yilsiz -> t teyidi bu kaynakta yok (mevcut Norton 1923 kaynagi korunur)."
+  },
+  {
+   "sira": 2458,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1922-11-14",
+   "t": "1991-12-26",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: Forsyth ham metin (Buryat-Mongol ASSR, FER'in Rusya Cumhuriyeti'ne katilmasi yilsiz). 1991-12-26 devamci kurali (rusya-federasyonu); Verhneudinsk/Ulan-Ude'ye ozgu kaynak bulunamadi."
+  }
+ ],
+ "Alazeya ostrogu": [
+  {
+   "sira": 2460,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1642-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "ru.wikipedia Алазея (ipucu)",
+   "alinti": "",
+   "oneri": {
+    "f": "BULUNAMADI (ostrog tarihi)"
+   },
+   "not": "1642 Ruslarin Alazeya'da ilk temasi (cukci/yukagir), ostrog degil; wiki: 'Алазейский острог ... в конце XVII - начале XVIII века'. Forsyth (ham): 1650'de Alazeya'da Yukagir 'hainleri'ne sefer (yasak tabiiyeti 1650'de var). Ostrog kurulusu icin akademik kaynak bulunamadi; f=1642 ostrog adli yerlesim icin erken olabilir, YOK_O_DEVIRDE adayi. t ucu (1917-03-15) ulke duzeyi, bu partide kaynakla teyit edilmedi (oteki uc teyitsiz)."
+  }
+ ]
+}
