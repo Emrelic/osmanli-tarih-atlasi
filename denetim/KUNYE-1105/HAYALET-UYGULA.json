@@ -790,5 +790,16 @@
   "islem": "Alula: atlastaki 'adal' sahipliği KALKAR → s: somali ('Somali Sultanlıkları' toplu künye, :2901) + v: italya 1889 (İtalyan koruma antlaşması — gün kaynakla) → 1927 fetih (De Vecchi; gün kaynakla) → s: italyan-somali (:18576). Ayrı majerteen künyesi Emre listesine 'toplu künyeler' başlığıyla.",
   "dayanak": "EMRELİC (LAB PAZAR iletimi, parti 041)",
   "onay": "EMRELİC 6 Kasım"
+ },
+ {
+  "d": "queensland (f)",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "TARIH_DUZELT",
+  "guc": "ORTA",
+  "kunye": "queensland f 1859-06-06 → 1859-12-10",
+  "gun": "1859-12-10",
+  "islem": "devletler.js queensland (:6610) f → 1859-12-10 (ayrılış ilanı; arada NSW idare ediyordu — TEK ÖLÇÜ). ic_not_f: '1859-06-06 Letters Patent imzası'. LAB ölçümü origin/main '1859-06-06' geçen yerler: devletler.js 3 satır (künye f + künye içi maddeler — hepsi kontrol edilip 12-10'a), yerlesimler_ek30.js 1, yerlesimler_okyanusya.js 1 (Brisbane — LAB PAZAR satırı; Rockhampton: yeni-guney-galler t / queensland f 1859-12-10). EMRELİC'in önceki '06-06 kalabilir' notu bu kararla değişti. Değişmez 2: 1859-12-10 maddesi ölçülmeli (künye içi madde taşınırsa yeter).",
+  "dayanak": "Queensland State Archives (UMIT ham metin: Letters Patent 1859-06-06, ayrılış ilanı 1859-12-10)",
+  "onay": "EMRELİC r8_078 (UMIT iletimi)"
  }
 ]
