@@ -69,3 +69,5 @@ Düzeltme sonucu ya **renk değiştirir** (çoğunluk) ya da **künye seçimi** 
 - EMRELİC kuralı: referansı çok olan id kalır (`nebhani`), f 1154'e genişler; renkler farklı olduğu için birleşme Emre'ye. `nebhani-umman` BOYALAR girdisi kullanılmayan girdi olarak kalır (renkler.py motor tuzu).
 
 Kararla birlikte `denetle.py`ye "`d:` künye id'si mi" denetimi eklenmesi önerilir (bugün 2326 dönem sessiz geçiyor).
+
+- **burundi / burundi-krallik** (6 Kasım): aynı monarşi (1680 → 1966), iki künye, BOYALAR renkleri farklı (#3024d2 / #a8cc24) → birleşme renk değiştirir; Emre kararı. O zamana dek bitişik (1962-07-01).
