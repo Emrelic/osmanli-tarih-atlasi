@@ -61,7 +61,29 @@
     "t": "1933-12-19",
     "not": "sonrasi paraguay-cumhuriyeti; 1938-07-21 Buenos Aires antlasmasi de jure ic_not"
    },
-   "not": "ABC Color ham metni: Bolivya 1922-23 Paraguay ic savasi sirasinda Chaco fortlarini kurdu; Muñoz = 'Mariano Muñoz', sonra 'General José E. Díaz' (gun YOK). es.wikipedia: kurulus 1923-08-15 (Saavedra donemi), Paraguay'in ele gecirmesi 1933-12-19, 1938 antlasmasi bolgeyi Paraguay'a birakti (Wikipedia, dogrulanmadi). Atlas t=1923-10-29 hicbir kaynakta yok (yer tutucu gorunuyor); fort 1933'e dek Bolivya askeri ussuydu (Kundt karargahi, 4. Tumen; arama ozeti). Sahiplik: Chaco Boreal ihtilafliydi; Bolivya'nin idareye katma belgesi yok -> OLCUT karari KASA/EMRELIC'te: s bolivya 1923-08-15 -> 1933-12-19, sonra isg/s paraguay (1938-07-21 TEK OLCU). Kunye paraguay-cumhuriyeti (f 1811-05-14) var. Akademik kaynak (Querejazu Calvo vb.) BAKILMADI."
+   "not": "EMRELİC (5 Kasım 2026, son karar): isg bolivya DEĞİL: Paraguay ihtilaflı Chaco'da orayı hiç idare etmedi; rakip hükûmet kuralı (fiilî kontrol) → s: bolivya 1923-08-15 → 1933-12-19 isg paraguay → 1938-07-21 s: paraguay. Kaynaksız t 1923-10-29 ufuk artefaktıysa kaldırılır. · ABC Color ham metni: Bolivya 1922-23 Paraguay ic savasi sirasinda Chaco fortlarini kurdu; Muñoz = 'Mariano Muñoz', sonra 'General José E. Díaz' (gun YOK). es.wikipedia: kurulus 1923-08-15 (Saavedra donemi), Paraguay'in ele gecirmesi 1933-12-19, 1938 antlasmasi bolgeyi Paraguay'a birakti (Wikipedia, dogrulanmadi). Atlas t=1923-10-29 hicbir kaynakta yok (yer tutucu gorunuyor); fort 1933'e dek Bolivya askeri ussuydu (Kundt karargahi, 4. Tumen; arama ozeti). Sahiplik: Chaco Boreal ihtilafliydi; Bolivya'nin idareye katma belgesi yok -> OLCUT karari KASA/EMRELIC'te: s bolivya 1923-08-15 -> 1933-12-19, sonra isg/s paraguay (1938-07-21 TEK OLCU). Kunye paraguay-cumhuriyeti (f 1811-05-14) var. Akademik kaynak (Querejazu Calvo vb.) BAKILMADI.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "bolivya-cumhuriyeti",
+     "f": "1923-08-15",
+     "t": "1933-12-19",
+     "beyan": "kuruluş günü kaynakla; yoksa BEYANLI alt sınır"
+    },
+    {
+     "alan": "isg",
+     "d": "paraguay-cumhuriyeti",
+     "f": "1933-12-19",
+     "t": "1938-07-21",
+     "not": "alış günü es.wiki ipucu; akademik kaynak aranacak"
+    },
+    {
+     "alan": "s",
+     "d": "paraguay-cumhuriyeti",
+     "f": "1938-07-21",
+     "not": "Chaco barış antlaşması; Paraguay idare ediyordu → imza günü"
+    }
+   ]
   }
  ],
  "Esquel": [

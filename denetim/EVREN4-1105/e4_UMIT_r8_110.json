@@ -224,18 +224,31 @@
    "oneri": {
     "f": "s: meiji-japonya mandat gunu (Guampedia YIL 1919; 1920-12-17 ham metinde yok, bakilmadi); 1914-10 -> isg japonya"
    },
-   "not": "LAB SALI (03a82fb68, 5 Kasım 2026): ÇELİŞKİ (EMRELİC'e soruldu): LAB zinciri Namibya emsali — 1914-10 isg (s: alman-yeni-gine, aday), 1919-06-28 s: meiji-japonya, 1920-12-17 nanyo-mandasi (aday, harita meiji-japonya), 1944 isg abd. EMRELİC: isg japonya 1914-10 → 1920-12-17 (Versay md.119 Başlıca Müttefik Devletler'e bırakır). meiji-japonya künyesi 1868-1947 (:5707) Taishō/Shōwa'yı kapsar — kimlik hatası YOK (önceki notum yanlış). · EMRELİC (5 Kasım 2026, r8_105–110): Versay md. 119 adaları Japonya'ya DEĞİL Başlıca Müttefik Devletler'e bırakır; Japonya'ya veren C mandası 1920-12-17. isg japonya 1914-10 → 1920-12-17, sonra s: Japon mandası künyesi (devletler.js'te yok → aday). meiji-japonya kimliği de dönemle uyuşmuyor (Taishō/Shōwa) — künye kontrol. Versay ic_not. · f=1914-10-01 askeri isgal gunudur -> isg (TEK KURAL). Garapan Japon bolgesel baskenti. t=1947-07-18 BM vesayet: Guampedia yalniz YIL 1947 ('The United Nations forms the Trust Territory ... 1947'); mevcut_kaynak ayni gunu veriyor, t ucu YIL duzeyinde uyumlu.",
+   "not": "EMRELİC (5 Kasım 2026, son karar): Garapan'da LAB'ın Namibya modeli (emsal tutarlılığı). ic_not: 'Versay md. 119 adaları Başlıca Müttefik ve Ortak Devletler'e bırakır; Japonya'ya devir C mandasıyla 1920-12-17'. Namibya/Garapan emsal sorusu Emre'nin sabah listesinde. Önceki 'isg 1914-10 → 1920-12-17' notu GEÇERSİZ. · LAB SALI (03a82fb68, 5 Kasım 2026): ÇELİŞKİ (EMRELİC'e soruldu): LAB zinciri Namibya emsali — 1914-10 isg (s: alman-yeni-gine, aday), 1919-06-28 s: meiji-japonya, 1920-12-17 nanyo-mandasi (aday, harita meiji-japonya), 1944 isg abd. EMRELİC: isg japonya 1914-10 → 1920-12-17 (Versay md.119 Başlıca Müttefik Devletler'e bırakır). meiji-japonya künyesi 1868-1947 (:5707) Taishō/Shōwa'yı kapsar — kimlik hatası YOK (önceki notum yanlış). · EMRELİC (5 Kasım 2026, r8_105–110): Versay md. 119 adaları Japonya'ya DEĞİL Başlıca Müttefik Devletler'e bırakır; Japonya'ya veren C mandası 1920-12-17. isg japonya 1914-10 → 1920-12-17, sonra s: Japon mandası künyesi (devletler.js'te yok → aday). meiji-japonya kimliği de dönemle uyuşmuyor (Taishō/Shōwa) — künye kontrol. Versay ic_not. · f=1914-10-01 askeri isgal gunudur -> isg (TEK KURAL). Garapan Japon bolgesel baskenti. t=1947-07-18 BM vesayet: Guampedia yalniz YIL 1947 ('The United Nations forms the Trust Territory ... 1947'); mevcut_kaynak ayni gunu veriyor, t ucu YIL duzeyinde uyumlu.",
    "oneri_son": [
     {
      "alan": "isg",
-     "d": "japonya",
+     "d": "meiji-japonya",
      "f": "1914-10-01",
+     "t": "1919-06-28",
+     "alt_s": "alman-yeni-gine (künye adayı)"
+    },
+    {
+     "alan": "s",
+     "d": "meiji-japonya",
+     "f": "1919-06-28",
      "t": "1920-12-17"
     },
     {
      "alan": "s",
-     "d": "japon-guney-denizleri-mandasi (künye yok → aday LAB)",
+     "d": "nanyo-mandasi (künye adayı LAB)",
      "f": "1920-12-17",
+     "t": "1944-07-09"
+    },
+    {
+     "alan": "isg",
+     "d": "abd",
+     "f": "1944-07-09",
      "t": "1947-07-18"
     }
    ],
