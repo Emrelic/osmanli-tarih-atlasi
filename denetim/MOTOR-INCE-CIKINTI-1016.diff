@@ -1,0 +1,235 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index e0d9d3a..98a0cf8 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -2328,6 +2328,203 @@ def _yr_etiket_poligon(L, i0, j0):
+     return dict(zip(_ids, shapely.coverage_simplify(_ps, YURUYUS_SADE)))
+ 
+ 
++# ═══ ✂ İNCE ÇIKINTI KIRPMA — MOTOR3-1016 (#10 Hasköy 1281 · Emre geliştirici notu) ═══
++# `MOTOR_INCE_CIKINTI=N` (N ≥ 1 hücre; 1 ≈ 5 km). Bayrak yoksa (0) HİÇBİR şey
++# çalışmaz ⇒ çıktı bit bit aynı. Ölçülen kusur (KOŞU 25 `petek_govde.js`):
++# Hasköy'ün 0,025-0,04° (≈2-3,5 km) enli, ~17 km boylu dili Kırcaali ile Çirmen
++# arasında; köşeleri 0,05° ızgarada ⇒ yürüyüş ızgarasının 1 hücrelik izi.
++# YÖNTEM — vektörde değil ETİKET IZGARASINDA (örtü sonra aynı yoldan kurulur, bu
++# yüzden boşluk/binme DOĞAMAZ): bir etiketin (N+1)×(N+1) tam bloğa giremeyen
++# hücreleri "ince"dir (morfolojik açma). İnce bileşen yalnız şu ÜÇ şart birlikte
++# tutarsa kırpılır, yoksa DOKUNULMAZ:
++#   ① ÇIKMAZ: etiketin çekirdeğine TEK bir temas bölgesiyle değiyor (köprü
++#      değil — kırpmak etiketi bölüp eksklav doğurmaz) ② SANDVİÇ: hücrelerinin
++#      en az yarısı karşılıklı iki yandan BAŞKA etiketli karayla çevrili (kıyı
++#      şeridi / dağ ardı tek yanlı şerit kırpılmaz) ③ DEVİR: her hücre, nehir
++#      bedelli ya da boğaz yasaklı OLMAYAN bir adımla komşu bir etikete geçer
++#      (çoğunluk oyu, eşitlikte tohumu YAKIN olan); bir hücre bile devredilemezse
++#      bileşenin TAMAMI yerinde kalır (yarım kırpma eksklav doğururdu).
++# Hiç (N+1)×(N+1) bloğu olmayan etiket (baştan sona ince küçük petek) HİÇ
++# kırpılmaz — çıkıntı ancak bir çekirdeğe göre tanımlıdır. Tohum hücresi asla
++# değişmez ve çekirdek sayılır. Taban ızgarada VE her epok onarımında (ölü
++# tohum payı dağıtılınca yeni dil doğabilir — 1281 Kırcaali vakası tam bu)
++# koşar; epokta yalnız ölü tohumun hücreleri değişebilir.
++INCE_CIKINTI = int(os.environ.get("MOTOR_INCE_CIKINTI", "0") or "0")
++_INCE_SAYAC = {"etiket": 0, "bilesen": 0, "kirpilan_bilesen": 0, "kirpilan_hucre": 0,
++               "kopru_ada": 0, "sandvic_degil": 0, "degismez": 0, "devredilemedi": 0}
++_INCE_KOR = None
++_INCE_MERKEZ = None
++
++
++def _ince_cikinti_kirp(S, degisebilir, korunan, genislik=1, engel=None, ofs=(0, 0), say=None,
++                       etiketler=None, merkez=None):
++    """Etiket ızgarası S (satır=j, sütun=i; <0 etiketsiz) → (S2, say). S DEĞİŞMEZ.
++    degisebilir/korunan: S biçiminde bool. engel(jc, ic, jn, in) → True ise n
++    komşusundan c'ye devir yasak; koordinatlar ofs eklenmiş GLOBAL ızgara.
++    etiketler: verilirse YALNIZ bu etiketler incelenir (epok: payı büyüyenler).
++    merkez {etiket: (j, i)} — oy eşitliğinde tohumu YAKIN olan etiket alır (yoksa küçük kimlik).
++    İKİ EVRE: ① bütün etiketlerin kırpılacak bileşenleri ÖZGÜN S'ten bulunur
++    ② hepsi BİRLİKTE devredilir — oy yalnız kırpılmayan (ya da önceki turda devralmış)
++    komşudan sayılır, tur içinde zincirleme yok. Böylece bir hücre, kendisi de
++    kırpılmakta olan bir dile devredilemez (yetim parça doğmaz)."""
++    import numpy as _npy
++    from scipy import ndimage as _nd
++    say = {} if say is None else say
++    for _k in _INCE_SAYAC:
++        say.setdefault(_k, 0)
++    S2 = S.copy()
++    ny, nx = S.shape
++    k = int(genislik) + 1
++    st8 = _npy.ones((3, 3), dtype=bool)
++    _cift = (((0, 1), (0, -1)), ((1, 0), (-1, 0)), ((1, 1), (-1, -1)), ((1, -1), (-1, 1)))
++    # ── ① aday bileşenler ──────────────────────────────────────────────
++    aday = []                                    # [(etiket, [(r, c) global-pencere])]
++    for v, sl in enumerate(_nd.find_objects(_npy.where(S >= 0, S + 1, 0))):
++        if sl is None or (etiketler is not None and v not in etiketler):
++            continue
++        r0, r1 = max(0, sl[0].start - k - 1), min(ny, sl[0].stop + k + 1)
++        c0, c1 = max(0, sl[1].start - k - 1), min(nx, sl[1].stop + k + 1)
++        W = S[r0:r1, c0:c1]
++        M = W == v
++        h, w = M.shape
++        core = _npy.zeros_like(M)
++        if h >= k and w >= k:
++            A = M[0:h - k + 1, 0:w - k + 1].copy()
++            for dy in range(k):
++                for dx in range(k):
++                    A &= M[dy:dy + h - k + 1, dx:dx + w - k + 1]
++            for dy in range(k):
++                for dx in range(k):
++                    core[dy:dy + h - k + 1, dx:dx + w - k + 1] |= A
++        if not core.any():
++            continue                # BLOK çekirdeği yok: petek baştan sona ince — DOKUNULMAZ
++        core |= M & korunan[r0:r1, c0:c1]
++        T = M & ~core
++        if not T.any():
++            continue
++        say["etiket"] += 1
++        comp, n = _nd.label(T, structure=st8)
++        Dg = degisebilir[r0:r1, c0:c1]
++        for ci in range(1, n + 1):
++            C = comp == ci
++            say["bilesen"] += 1
++            if not Dg[C].all():
++                say["degismez"] += 1
++                continue
++            temas = _nd.binary_dilation(C, structure=st8) & ~C & core
++            if _nd.label(temas, structure=st8)[1] != 1:
++                say["kopru_ada"] += 1
++                continue
++            rr, cc = _npy.nonzero(C)
++            sand = 0
++            for r, c in zip(rr.tolist(), cc.tolist()):
++                for (a1, b1), (a2, b2) in _cift:
++                    p, q, p2, q2 = r + a1, c + b1, r + a2, c + b2
++                    if (0 <= p < h and 0 <= q < w and 0 <= p2 < h and 0 <= q2 < w
++                            and W[p, q] >= 0 and W[p, q] != v
++                            and W[p2, q2] >= 0 and W[p2, q2] != v):
++                        sand += 1
++                        break
++            if 2 * sand < len(rr):
++                say["sandvic_degil"] += 1
++                continue
++            aday.append((v, [(r0 + r, c0 + c) for r, c in zip(rr.tolist(), cc.tolist())]))
++    # ── ② ortak devir; devredilemeyen bileşen geri çekilir, kalanlarla yeniden ──
++    while aday:
++        bekleyen = {rc: v for v, hs in aday for rc in hs}
++        yaz = {}
++        ilerledi = True
++        while ilerledi:
++            ilerledi = False
++            tur_yaz = {}
++            for (r, c) in sorted(bekleyen):
++                if (r, c) in yaz:
++                    continue
++                v = bekleyen[(r, c)]
++                oy = {}
++                for a in (-1, 0, 1):
++                    for b in (-1, 0, 1):
++                        p, q = r + a, c + b
++                        if (a == 0 and b == 0) or not (0 <= p < ny and 0 <= q < nx):
++                            continue
++                        if (p, q) in bekleyen and (p, q) not in yaz:
++                            continue
++                        u = int(yaz.get((p, q), S2[p, q]))
++                        if u < 0 or u == v:
++                            continue
++                        if engel is not None and engel(ofs[0] + r, ofs[1] + c,
++                                                       ofs[0] + p, ofs[1] + q):
++                            continue
++                        oy[u] = oy.get(u, 0) + 1
++                if oy:
++                    gj, gi = ofs[0] + r, ofs[1] + c
++                    tur_yaz[(r, c)] = min(oy, key=lambda u: (
++                        -oy[u], ((merkez[u][0] - gj) ** 2 + (merkez[u][1] - gi) ** 2)
++                        if merkez is not None and u in merkez else 0, u))
++            yaz.update(tur_yaz)
++            ilerledi = bool(tur_yaz)
++        kalan = [(v, hs) for v, hs in aday if all(rc in yaz for rc in hs)]
++        if len(kalan) == len(aday):
++            for (r, c), u in yaz.items():
++                S2[r, c] = u
++            say["kirpilan_bilesen"] += len(aday)
++            say["kirpilan_hucre"] += len(yaz)
++            break
++        say["devredilemedi"] += len(aday) - len(kalan)
++        aday = kalan                     # yarım devir YOK: yeniden, yalnız tam devredilenlerle
++    return S2, say
++
++
++def _ince_engel(jc, ic_, jn, in_):
++    """n=(jn,in_) komşusundan c=(jc,ic_) hücresine devir: aradaki adım (iki yönden
++    biri) nehir bedelli ya da boğaz yasaklıysa YASAK."""
++    di, dj = ic_ - in_, jc - jn
++    if (di, dj) not in _KV_YON or (-di, -dj) not in _KV_YON:
++        return False
++    hn, hc = jn * _kvnx + in_, jc * _kvnx + ic_
++    for kk in (hn * _KV_YS + _KV_YON.index((di, dj)), hc * _KV_YS + _KV_YON.index((-di, -dj))):
++        if kk in _KVSU:
++            return True
++        if _KVNEHIR is not None and _KVNEHIR[0].get(kk, 0.0) > 0.0:
++            return True
++    return False
++
++
++def _ince_merkez():
++    """etiket (tohum sırası) → tohum hücresi (j, i) — oy eşitliğini bozmak için."""
++    global _INCE_MERKEZ
++    if _INCE_MERKEZ is None:
++        _INCE_MERKEZ = {ix: divmod(h, _kvnx) for h, idxs in _kvtohum.items() for ix in idxs}
++    return _INCE_MERKEZ
++
++
++def _ince_kor():
++    """Tohum hücreleri (asla değişmez) — bir kez kurulur."""
++    global _INCE_KOR
++    if _INCE_KOR is None:
++        _k = _np.zeros((_kvny, _kvnx), dtype=bool)
++        _k.flat[_np.array(sorted(_kvtohum), dtype=_np.int64)] = True
++        _INCE_KOR = _k
++    return _INCE_KOR
++
++
++def _ince_epok(D, yeni):
++    """Epok onarımının sonucu üzerinde kırpma — yalnız ölü tohum hücreleri (D) değişir."""
++    _nyy, _nxx = _YR_SAHIP.shape
++    g = INCE_CIKINTI + 4
++    _ri, _ci = D // _nxx, D % _nxx
++    r0, r1 = max(0, int(_ri.min()) - g), min(_nyy, int(_ri.max()) + g + 1)
++    c0, c1 = max(0, int(_ci.min()) - g), min(_nxx, int(_ci.max()) + g + 1)
++    W = _YR_SAHIP[r0:r1, c0:c1].copy()
++    W[_ri - r0, _ci - c0] = yeni
++    deg = _np.zeros(W.shape, dtype=bool)
++    deg[_ri - r0, _ci - c0] = yeni >= 0
++    W2, _ = _ince_cikinti_kirp(W, deg, _ince_kor()[r0:r1, c0:c1], INCE_CIKINTI,
++                               _ince_engel, ofs=(r0, c0),
++                               etiketler=set(yeni[yeni >= 0].tolist()), merkez=_ince_merkez())
++    return W2[_ri - r0, _ci - c0].astype(_np.int32)
++
++
+ _YR_SAHIP_SIRA = None
+ 
+ 
+@@ -2393,6 +2590,8 @@ def _yr_epok_onar(olu):
+             kaynak.append((d, k, int(_YR_SAHIP.flat[k])))
+     en = _yr_yerel_dijkstra(kaynak, Dset | {k for _, k, _ in kaynak}, _YR_BUTCE)
+     yeni = _np.array([en[h][1] if h in en else -2 for h in D.tolist()], dtype=_np.int32)
++    if INCE_CIKINTI > 0:
++        yeni = _ince_epok(D, yeni)
+     return D, yeni
+ 
+ 
+@@ -2455,6 +2654,17 @@ if MOTOR_YURUYUS:
+     if (_yr_V < 0).any():
+         raise SystemExit(f"YÜRÜYÜŞ: {int((_yr_V < 0).sum())} hücrenin Voronoi sahibi "
+                          "bulunamadı — örtü eksik kurulurdu. Koşu durduruldu.")
++    if INCE_CIKINTI > 0:
++        _ic_t = time.time()
++        _YR_SAHIP, _ic_say = _ince_cikinti_kirp(_YR_SAHIP, (_YR_SAHIP >= 0) & _YR_KARAR,
++                                                _ince_kor(), INCE_CIKINTI, _ince_engel,
++                                                merkez=_ince_merkez())
++        print(f"  ✂ ince çıkıntı (MOTOR_INCE_CIKINTI={INCE_CIKINTI}): kırpılan "
++              f"{_ic_say['kirpilan_bilesen']:,} çıkıntı / {_ic_say['kirpilan_hucre']:,} hücre · "
++              f"atlanan: köprü/ada {_ic_say['kopru_ada']:,} · sandviç değil "
++              f"{_ic_say['sandvic_degil']:,} · devredilemedi {_ic_say['devredilemedi']:,} · "
++              f"{time.time() - _ic_t:.1f} sn")
++        del _ic_say
+     _yr_G = _np.where(_np.flipud(_YR_SAHIP >= 0) & _np.flipud(_YR_KARAR),
+                       _np.flipud(_YR_SAHIP), _yr_V).astype(_np.int32)
+     del _yr_V
