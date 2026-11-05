@@ -578,8 +578,19 @@
   "guc": "ÖLÇÜM",
   "kunye": "künye değişmez — sicilya-kralligi t 1282-03-30 / napoli f 1282-03-30 bitişik",
   "gun": "1282-03-30",
-  "islem": "napoli dönemi f 1281-01-01 olan yerleşimler (LAB PAZAR taraması 7acb10c1e): 1281-01-01 → 1282-03-29 s: sicilya-kralligi, 1282-03-30'dan s: napoli — yerlesimler.js: Otranto, Brindisi, Taranto, Lecce, Napoli · yerlesimler_avrupa.js: L'Aquila, Bari, Foggia, Cosenza, Reggio Calabria. İYON ADALARI AYRI (EMRELİC'e ayrıca soruldu): yerlesimler.js Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise — 1281'de Orsini Kefalonya kontluğu, Anjou vasalı → künye VAR: kefalonya-palatin 'Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)' 1194 → 1479 (LAB ölçümü) → LAB önerisi s: kefalonya-palatin + v: sicilya-kralligi/napoli (napoli DEĞİL); Lefkada'nın kontluğa katılışı (1294/1300 civarı?) kaynakla — o tarihe dek Epir despotluğu olabilir. Himara (EMRELİC gece-80, künyesiz çözüm): 1279-06 → 1282-03-29 s: sicilya-kralligi, 1282-03-30 → 1283-04 s: napoli (Kiesewetter); arnavutluk-anjou-kralligi aday listesinde (Emre). Değişmez 2: 1282-03-30 maddesi (Sicilya Vesperleri) ölçülmeli.",
+  "islem": "napoli dönemi f 1281-01-01 olan yerleşimler (LAB PAZAR taraması 7acb10c1e): 1281-01-01 → 1282-03-29 s: sicilya-kralligi, 1282-03-30'dan s: napoli — TEK KALEM — yerlesimler.js: Otranto, Brindisi, Taranto, Lecce, Napoli · yerlesimler_avrupa.js: L'Aquila, Bari, Foggia, Cosenza, Reggio Calabria. İYON ADALARI AYRI (EMRELİC'e ayrıca soruldu): yerlesimler.js Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise — 1281'de Orsini Kefalonya kontluğu, Anjou vasalı → künye VAR: kefalonya-palatin 'Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)' 1194 → 1479 (LAB ölçümü) → LAB önerisi s: kefalonya-palatin + v: sicilya-kralligi/napoli (napoli DEĞİL); Lefkada'nın kontluğa katılışı (1294/1300 civarı?) kaynakla — o tarihe dek Epir despotluğu olabilir. Himara (EMRELİC gece-80, künyesiz çözüm): 1279-06 → 1282-03-29 s: sicilya-kralligi, 1282-03-30 → 1283-04 s: napoli (Kiesewetter); arnavutluk-anjou-kralligi aday listesinde (Emre). DEĞİŞMEZ 2 — LAB ölçümü: 1282-03-30 maddeleri VAR (kronoloji_sinir_once1281_geriye.js:325 sicilya-kralligi; olaylar_ek5.js:101 'Sicilya Akşamı') → yeni madde gerekmez.",
   "dayanak": "LAB PAZAR napoli aşım taraması; LAB ölçümü devletler.js (sicilya-kralligi :13538, kefalonya-palatin)",
-  "onay": "EMRELİC 6 Kasım gece-80 (İyon adaları hariç)"
+  "onay": "EMRELİC 6 Kasım gece-80/81 (anakara 10 yerleşim TEK KALEM; İyon adaları ayrı madde)"
+ },
+ {
+  "d": "İyon adaları (kefalonya-palatin)",
+  "tur": "YERLESIM + KUNYE",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "kefalonya-palatin t 1479-01-01 → 1479-08-01 (fetih günü; künye ozet'i 'Zakintos için 1482' diyor — t Zaklise'nin kaybına dek mi, kaynakla)",
+  "gun": "1479-08-01",
+  "islem": "Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise (yerlesimler.js; şu an s: napoli 1281 → 1479-08-01): s: kefalonya-palatin (devletler.js:17352 — künye VAR, hiçbir yerleşim kullanmıyor; BOYALAR'da KENDİ rengi VAR #04a25c — LAB ölçümü renkler.py, yani renk DEĞİŞİR: napoli → kefalonya-palatin rengi; doğru sahip olduğu için beklenen değişim) + v: sicilya-kralligi (→ 1282-03-29), 1282-03-30'dan v: napoli (Anjou metbûluğu; ic_not '1381 sonrası metbûluk zayıfladı'). Bitiş: Ayamavra ve Kefalonya 1479-08-01 Osmanlı fethi (TDV GEDİK AHMED PAŞA / AYAMAVRA cümlesiyle); Zaklise Venedik 1485 (TDV ZAKLİSE ile; künye ozet'i 'Zakintos 1482' — ÇELİŞKİ, kaynakla). Künye t 1479-01-01 ↔ fetih 1479-08-01 7 ay uyumsuz → t 1479-08-01'e GENİŞLET (Zaklise ayrıca beyanlı/isg). Lefkada'nın kontluğa katılış yılı (Orsini 1294/1300?) ölçülmeli — öncesi Epir despotluğu olabilir.",
+  "dayanak": "LAB PAZAR (7acb10c1e) + LAB ölçümü devletler.js:17352, renkler.py; TDV Gedik Ahmed Paşa (künye kaynağı)",
+  "onay": "EMRELİC 6 Kasım gece-81"
  }
 ]
