@@ -1,0 +1,516 @@
+{
+ "Gorbitsa (Gorbiçenskaya)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:27",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1762-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "İPUCU: Энциклопедический словарь Брокгауза и Ефрона, «Горбичинская крепость» (dic.academic.ru arama: https://dic.academic.ru/searchall.php?SWord=Горбица)",
+   "alinti": "заложена в 1762 г. и служила пограничным постом",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2864] Yalnız ESBE (19. yy sonu ansiklopedisi; EB1911 sınıfı → İPUCU, KAYNAKLI veremez) [19. yy kaynağı]: kale 1762'de kuruldu — atlas f ile uyumlu. dic.academic.ru aramasında akademik (SIE/BSE/toponimi) madde çıkmadı. t 1917-03-15 K01 ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:27",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2865] [KÜME K01] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:27",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2866] [KÜME K02] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:27",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2867] [KÜME K03] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Villa Cisneros (Dahla)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_afrika.js:22",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1884-01-01",
+   "t": "1976-04-14",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ», https://islamansiklopedisi.org.tr/bati-sahra",
+   "alinti": "Batı Sahrâlılar 1884, 1887 ve 1894 yıllarında Dahle ... İspanyol merkezlerine saldırarak buraları tahrip ettiler | 14 Kasım 1975’te Madrid’de yapılan bir antlaşma ile Batı Sahrâ’dan çekilmeyi ... kabul etti",
+   "uc": "f",
+   "oneri": {
+    "t": "1976-02-26 (İspanyol idaresinin bitişi = ispanyol-sahra künye t; gün kaynakla teyit edilmeli)",
+    "bol": "1976-02-26 → 1976-04-14 dilimi: Moritanya fiilî idaresi (isg ya da tiris-el-garbiyye f'sinin öne çekilmesi) — Moritanya'nın Dahla'ya giriş günü kaynakla; TEK ÖLÇÜ: Madrid 1975-11-14 imzasında Moritanya yeri yönetmiyordu → teslim günü"
+   },
+   "not": "[sira 2868] f YIL uyumlu (TDV 1884'te Dahle'de İspanyol merkezi; künye ispanyol-sahra f 1884-12-26, gün teyitsiz). t: 1976-04-14 Fas-Moritanya paylaşım sözleşmesidir, İspanya'nın çıkışı değil; İspanya Madrid 1975-11-14 ile çekilmeyi kabul etti, idaresi künyeye göre 1976-02-26'da bitti. Ayrıca d: 'ispanya' (künye İspanya Kastilya-Aragon) yerine 'ispanyol-sahra' (harita:'ispanya', renk değişmez) kullanılabilir — öneri, renk etkisi yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_afrika.js:22",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1979-08-05",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ», https://islamansiklopedisi.org.tr/bati-sahra",
+   "alinti": "Moritanya’nın Polisario gerillaları karşısında başarılı olamaması üzerine Fas bütün bölgeyi koruma görevini yüklendi.",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2869] TDV «Batı Sahrâ»da 1979 yok (anahtar 1979, Dahle/Dahla YOK) — Fas'ın güney kesimi alışı tarihsiz. İPUCU: Fas Vâdizzeheb'i 1979-08-14'te ilhak etti; 08-05 Cezayir'de Moritanya-Polisario anlaşmasıdır. TEK ÖLÇÜ: Fas 08-05'te Dahla'yı yönetmiyordu → s: Fas'ın şehre girdiği/ilhak ettiği günden; 08-05 → giriş arası Moritanya kalır. Kaynak: BM belgesi (A/34/...) ya da TDV «Fas» sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_afrika.js:22",
+   "alan": "s",
+   "d": "tiris-el-garbiyye",
+   "f": "1976-04-14",
+   "t": "1979-08-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ», https://islamansiklopedisi.org.tr/bati-sahra",
+   "alinti": "Batı Sahrâ Nisan 1976’da imzalanan bir antlaşma ile Fas ve Moritanya arasında taksim edildi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2870] f AY düzeyinde KAYNAKLI (Nisan 1976; 14 gün mevcut kaynakta, UN A/AC.109/667, bu turda okunmadı). 'güney kesimi Moritanya’ya kaldı' — Dahla güneydedir. t 1979-08-05 teyitsiz (bkz. sira 2869). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Perdizes": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:287",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1880-01-03",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Perdizes (MG) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/minasgerais/perdizes.pdf)",
+   "alinti": "Distrito criado com a denominação de Nossa Senhora da Conceição (ex-povoado), pela lei provincial nº 2594, de 03-01-1880",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2871] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:287",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2872] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Santa Cecília": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:327",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1874-04-22",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Santa Cecília (SC) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/santacecilia.pdf)",
+   "alinti": "Freguesia criada com a denominação de Rio Correntes pela lei provincial nº 713, de 22-04-1874",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2873] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:327",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2874] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Imperatriz": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:398",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1856-08-27",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Imperatriz (MA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/maranhao/imperatriz.pdf)",
+   "alinti": "Elevado à categoria de vila com a denominação de Vila Nova da Imperatriz, pela Lei Provincial n.º 398, de 27-08-1856",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2875] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). İPUCU/ic_not: aynı belge 'A fundação de Imperatriz se deu em 16 de julho de 1852' (Colônia Militar de Santa Tereza) — yerleşim 1852'den var; f'nin 1852-07-16'ya çekilmesi düşünülebilir (yine İmparatorluk döneminde). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:398",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2876] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Alto Parnaíba": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:428",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1871-06-08",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Alto Parnaíba (MA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/maranhao/altoparnaiba.pdf)",
+   "alinti": "Distrito criado com a denominação de Vitória do Alto Parnaíba, pela lei provincial nº 974, de 08-06-1871",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2877] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:428",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2878] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Bom Jesus (Piauí)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:458",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1838-09-22",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Bom Jesus (PI) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/bomjesus.pdf)",
+   "alinti": "Distrito criado com a denominação de Bom Jesus da Gurguéia, pela lei provincial nº 101, de 22-09-1838",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2879] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:458",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2880] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Morro do Chapéu": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:478",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1838-06-01",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Morro do Chapéu (BA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/morrodochapeu.pdf)",
+   "alinti": "Distrito criado pela lei provincial n.° 67, de 01, 06-1838, com a denominação de Morro do Chapéu",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2881] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:478",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2882] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Buíque": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:528",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1795-12-11",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Buíque (PE) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/pernambuco/buique.pdf)",
+   "alinti": "Distrito criado com a denominação de Vila Nova do Buique, por alvará de 11-12-1795",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2883] f gün KAYNAKLI (alvará). t 1822-09-07 ülke düzeyinden (bu satırda okunmadı; P021 Câmara dos Deputados: 'Proclamação da Independência ... 7 de setembro de 1822') — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:528",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2884] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:528",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2885] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Francisco Sá (Brejo das Almas)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:598",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1867-11-27",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Francisco Sá (MG) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/minasgerais/franciscosa.pdf)",
+   "alinti": "Distrito criado com a denominação de São Gonçalo do Brejo das Almas, pela Lei provincial nº 1398, de 27-11-1867",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2886] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:598",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2887] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Três Corações": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:628",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1832-07-14",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Três Corações (MG) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/minasgerais/trescoracoes.pdf)",
+   "alinti": "Distrito criado com a denominação de Três Corações do Rio Verde, pelo decreto de 14-07- 1832",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2888] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:628",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2889] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Ipameri (Entre Rios)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:658",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1845-07-31",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Ipameri (GO) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/ipameri.pdf)",
+   "alinti": "Freguesia criada com a denominação de Entre Rios, pela lei provincial nº 2, de 31- 07-1845",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2890] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:658",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2891] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Itacaré (Barra do Rio de Contas)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:698",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1718-01-01",
+   "t": "1822-09-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Itacaré (BA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/itacare.pdf)",
+   "alinti": "Distrito criado com a denominação de Barra do Rio de Contas, em 1718.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2892] f YIL KAYNAKLI (freguesia 1718; vila 1732-01-27 ic_not). t 1822-09-07 ülke düzeyinden (bu satırda okunmadı; P021 Câmara dos Deputados: 'Proclamação da Independência ... 7 de setembro de 1822') — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:698",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2893] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:698",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2894] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Porto Seguro": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:750",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1534-05-27",
+   "t": "1549-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Porto Seguro (BA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/portoseguro.pdf)",
+   "alinti": "Elevada à categoria de vila com a denominação de Porto Seguro, por carta régia de 27-05- 1534.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2895] f gün KAYNAKLI (aynı belge: 'A Capitania de Porto Seguro coube, em Carta Régia de 27 de maio de 1534, a Pero de Campos Tourinho'; vila 1535'te kuruldu — ic_not). t 1549-01-01 (Governo-Geral; portekiz-brezilyasi künye f) bu belgede yok — t teyitsiz. Mevcut DEVRALMA kaynağı (Arzila) bu yerle ilgisiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:750",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1549-01-01",
+   "t": "1822-09-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "IBGE Biblioteca, «Porto Seguro (BA) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/portoseguro.pdf)",
+   "alinti": "Em 1759, a Capitania de Porto Seguro passou para a Coroa",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2896] IBGE 1549'u anmıyor (anahtar 1549 YOK); f 1549 künye ucu (Genel Valilik) — teyitsiz. Belge kaptanlığın 1559-08-10'da Aveiro dükasına satıldığını, 1759'da Taç'a geçtiğini yazar (ikisi de Portekiz içi; ic_not). t 1822-09-07 ülke düzeyinden (bu satırda okunmadı; P021 Câmara dos Deputados: 'Proclamação da Independência ... 7 de setembro de 1822') — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:750",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1822-09-07",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2897] [KÜME K23] Ülke düzeyinde ayrı ajan teyit eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:750",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2898] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ],
+ "Lábrea": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:861",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1881-05-14",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Biblioteca, «Lábrea (AM) — Histórico / Formação Administrativa» (https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/labrea.pdf)",
+   "alinti": "sendo a freguesia elevada a vila pela Lei n.° 523, de 14 de maio de 1881",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2899] f gün KAYNAKLI (yerleşimin idarî birim olarak kuruluşu). ic_not: freguesia 1873-05-15 (lei 265), paróquia 1878-09-06 — yerleşim 1881'den önce var. t 1889-11-15 ülke düzeyinden (K06 kümesinin ucu) — t teyitsiz. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:861",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2900] [KÜME K06] Ülke düzeyinde ayrı ajan teyit eder."
+  }
+ ]
+}
