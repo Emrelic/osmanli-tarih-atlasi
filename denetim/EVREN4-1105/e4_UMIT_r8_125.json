@@ -1,0 +1,147 @@
+{
+ "Eridu (Abu Shahrain)": [
+  {
+   "sira": 4472,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-2323-01-01",
+   "t": "-2299-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Sallaberger & Schrakamp (eds.) 2015, ARCANE III: History & Philology, Brepols, s. 86-88, 96-100 (Orta Kronoloji); http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf",
+   "alinti": "His titles also indicate that he was recognized by Eresh, Eridu and Kesh. / Lugalzagesi of Uruk 25 years ca. 2324-2300 ±30",
+   "oneri": {
+    "d": "uruk-erken-hanedan",
+    "f": "-2323-01-01",
+    "t": "-2299-01-01",
+    "beyan": "BEYANLI YAKLASIKLIK, ABI MERKEZ Uruk"
+   },
+   "not": "ANTIK B'den (antik_sonuc.json, ARCANE III, parti db_ra_008). ARCANE Eridu'nun Lugalzagesi'yi TANIDIĞINI yazar (tanıma/tâbilik devir değildir) -> KAYNAKLI değil ONERI + abi merkez Uruk. Astronomik: ca. MÖ 2324 -> -2323, ca. MÖ 2300 -> -2299 [yaklaşık ±30, orta kronoloji]. HAYALET RİSKİ: künye uruk-erken-hanedan t=-2333 (devletler.js ölçüldü) bu dilimi KAPSAMIYOR; önce künye t -2299'a genişletilmeli (LAB) ya da Treccani (Lugalzagesi ~2335) ile ARCANE MC çelişkisi karara bağlanmalı. Eridu için doğrudan idare belgesi bulunamadı."
+  }
+ ],
+ "Megara Hyblaia (Megara Hyblaea)": [
+  {
+   "sira": 4473,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "megara-hyblaia",
+   "f": "-0727-01-01",
+   "t": "-0482-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Dunbabin, T.J. 1948, The Western Greeks: the history of Sicily and South Italy from the foundation of the Greek colonies to 480 B.C., Oxford (archive.org in.ernet.dli.2015.283866), s. 46 ve Appendix I (Chronology of the Western Colonies) s. 435-447; Thukydides 6.4.1-2 (245 yıl).",
+   "alinti": "Thukydides dates the destruction of Megara 245 years after its foundation. It was destroyed by Gelon between 485 and 480: 483-482 is the most probable date. This puts the foundation of Megara in or about 728-727.",
+   "oneri": {},
+   "not": "f: Dunbabin 'Megara (728 b.c.)' kabul tarihi (Appendix tablo: Megara 728) -> MÖ 728 = -0727 [yaklaşık; 728-727 aralığı, aralığın ilk yılı]. t: Gelon'un yıkımı 'most probable 483-482' (Dunbabin) -> ilk yıl MÖ 483 = -0482 [yaklaşık; aralık, Herodotos 7.156'ya dayalı]. Mevcut f/t doğrulandı; yaklaşıklık beyanı kaynak alanına yazılmalı. Dunbabin 1948 eski ama standart akademik monografi (Oxford). Treccani (Enc. Italiana 1934, Libertini) yıl vermez: Gelone 'sec. V' diyor, f 'sec. VIII a.C.' -> tek başına sadece yüzyıl düzeyi; Treccani Enc. on line ise 'distrutta nel 214 a.C.' (Marcellus) der - sonraki yeniden iskân, bu satırın t'si değil. Künye megara-hyblaia -0727/-0482 ile aynı (devletler.js ölçüldü), hayalet yok."
+  }
+ ],
+ "Forfar": [
+  {
+   "sira": 4474,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1195-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "EB1911 'Forfar' (wikisource, ham metin; EB1911 sınıfı - en çok kısmen); PoMS/Canmore robots.txt yasağı, okunamadı.",
+   "alinti": "Forfar is at least as old as the time of Malcolm Canmore, for the first parliament after the defeat of Macbeth met in the old castle",
+   "oneri": {
+    "f": "1058-01-01",
+    "d": "iskocya",
+    "beyan": "[yaklaşık; Malcolm III 1058-1093, Macbeth'in yenilgisi sonrası ilk parlamento, EB1911 geleneği; yalnız ONERI-güçlü]"
+   },
+   "not": "Mevcut f=1195 PoMS RRS ii no.341 (1189x1195) belgesinin terminus ante quem'idir, SAHİPLİK başlangıcı değil. Piktler dilimi (685 Nechtanesmere) yazılmadı. EB1911 Forfar'ı Malcolm Canmore (1058-93) devrine çıkarır; bu yalnız yıl-düzeyi gelenek, ham tarih verilmedi, EB1911 tek başına KAYNAKLI vermez. Künye iskocya f=0843 olduğundan 1058 hayalet değil (devletler.js ölçüldü: iskocya 0843-01-01 -> 1707-05-12). Forfar'ın ne zaman Alba krallığının elinde olduğuna dair bağımsız akademik kaynak (Woolf 2007, Broun, Taylor) erişilemedi: BAKILMADI (kilitli kitaplar, Canmore/PoMS robots). 1195 ucu için: 'burgh in Forfar' 1189x1195 PoMS özeti - özet teyit değildir."
+  }
+ ],
+ "Doncaster": [
+  {
+   "sira": 4475,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1086-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Open Domesday (Hull Domesday Project), Doncaster SE5703, https://opendomesday.org/place/SE5703/doncaster/ (ham metin okundu); Domesday Book 1086.",
+   "alinti": "Doncaster was a settlement in Domesday Book, in the hundred of Strafforth and the county of Yorkshire. ... Lord in 1066 : Earl Tosti .",
+   "oneri": {},
+   "not": "Domesday Doncaster'ı 1086'da Yorkshire/Strafforth'ta kayıtlı iskân, TRE (Edward devri, Ocak 1066 öncesi) sahibi Earl Tosti (Northumbria kontu) gösterir -> yer 1066 öncesi İngiliz krallığı idaresindedir; f=1086 yalnız belge tanığıdır (kur=terminus ante quem), gerçek sahiplik başlangıcı daha eskidir. Önerilen f: künye ingiltere f=0927 (devletler.js ölçüldü; f yalnız yıl, kaynak EB tipi) ya da Northumbria'nın son İngiliz fethi 954 (Eirik Kanlı Balta'nın kovulması) - bu uçları tarihleyen akademik kaynak (Stenton, Anglo-Saxon England; ASC) bu oturumda erişilemedi (Stenton archive.org ia-ara ağ hatası/yok; BHO arama yasaklı). 616 River Idle (Bede HE II.12) Doncaster'a bağlanamaz. Domesday'in 1086 'Tenant-in-chief Count Robert of Mortain / William of Percy' bilgisi kral William'ın idaresi için tanıktır ama 1086 f'sinin altını boşaltmak için yetmez. Hüküm: f için ONERI (erkene çekmek), 1086 tanıklığı KAYNAKLI; t=1281 künye-dışı yapay uç (tüm atlas çekirdek başlangıcı), tarihlenmedi."
+  }
+ ],
+ "Dunkeld": [
+  {
+   "sira": 4476,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0865-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "EB1911 'Dunkeld' (wikisource, ham metin; EB1911 sınıfı - en çok kısmen); Annals of Ulster U865 (mevcut kaynak, sayfa yeniden açılmadı).",
+   "alinti": "As early as 729—some authorities fix the date a hundred and fifty years before—the Culdees possessed a monastery at Dunkeld",
+   "oneri": {
+    "f": "0843-01-01",
+    "d": "iskocya",
+    "beyan": "[yaklaşık; künye iskocya f; 849 Columba kalıntıları nakli ic_not'a; Woolf 2007 erişilemedi]"
+   },
+   "not": "Mevcut f=0865 Annals of Ulster'daki ilk tanıktır (kur=terminus ante quem), sahiplik başlangıcı değil. EB1911 Dunkeld'in 729 öncesi manastır olduğunu söyler: 729'da Dunkeld PİKT krallığındadır (Fortriu), 'iskocya' künyesi (0843) öncesi bölge Pikt/Alba öncesi; dolayısıyla Dunkeld için iskocya f=0843 (künye f) önerisi Kenneth mac Alpin'in Dunkeld'e nakil politikası (Woolf, From Pictland to Alba 2007) varsayımına bağlı - bu ARAŞTIRILDI ama kitap erişilemedi: BAKILMADI. EB1911 tek başına en çok kısmen. Pikt dilimi (729 öncesi) için künye adayı 'piktler/fortriu' LAB'a sorulabilir. 1281 yapay uç."
+  }
+ ],
+ "Cerro Sechín": [
+  {
+   "sira": 4477,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "casma-sechin",
+   "f": "-2269-01-01",
+   "t": "-1649-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Bischof, H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13:9-54, https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/download/977/944 (ANTİK B b009'dan)",
+   "alinti": "Cerro Sechín. Plataforma central, fase 1, c. 2100 a.C. (calib.) ... el diluvio de El Niño que acabó con Cerro Sechín como sitio ritual importante, probablemente en la segunda mitad del siglo XVI a.C.",
+   "oneri": {
+    "d": "casma-sechin",
+    "f": "-2099-01-01",
+    "t": "-1549-01-01"
+   },
+   "not": "ANTİK B b009'dan (db_rb009.json). f: c. 2100 a.C. calib. -> -2099 [yaklaşık]; mevcut -2269 Bischof'ta yok. t: 'segunda mitad del siglo XVI a.C.' -> ilk yıl MÖ 1550 = -1549 [yaklaşık, yüzyıl-yarısı]; mevcut -1649 Bischof'un 'Periodo Sechín' DÖNEM sonudur (3400-1650), Cerro Sechín'in terki değil. Künye casma-sechin f=-3399 t=-1009 (devletler.js ölçüldü) öneriyi kapsar: hayalet yok. Sonuç taşındı, bu oturumda yeniden okunmadı."
+  }
+ ],
+ "La Blanca": [
+  {
+   "sira": 4478,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "la-blanca-formatif",
+   "f": "-0999-01-01",
+   "t": "-0599-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Love, M. (with J. Guernsey) 2006, 'The Context and Associations of Monument 3 from La Blanca, Guatemala', FAMSI Report 05051, ancientamericas.org/sites/default/files/05051Love01.pdf, s. 4-5 (ANTİK B rb004'ten)",
+   "alinti": "It maintained its prominence for over 300 years, until it declined at about 600 B.C. for unknown reasons. ... Mound 1, built at around 900 B.C. (1000 cal B.C.)",
+   "oneri": {},
+   "not": "ANTİK B rb004'ten. Astronomik: MÖ 1000 cal = -0999 (f [yaklaşık]; Mound 1 inşası, polity kuruluş günü değil, yıl/yüzyıl hassasiyeti); MÖ 600 = -0599 (t [yaklaşık], 'declined at about 600 B.C.'). Kalibre/kalibresiz fark (1000 cal vs 900 BC) beyanlı. Künye la-blanca-formatif -0999/-0599 ile aynı, hayalet yok. Sonuç taşındı."
+  }
+ ],
+ "Ebla": [
+  {
+   "sira": 4479,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ebla-1",
+   "f": "-2399-01-01",
+   "t": "-2309-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Sallaberger & Schrakamp (eds.) 2015, ARCANE III: History & Philology, Brepols, s. 86-88, 96-100 (Orta Kronoloji); http://www.assyriologie.uni-muenchen.de/personen/professoren/sallaberger/publ_sallaberger/wasa_schrakamp_2015_arcane1.pdf (Archi bölüm 3, Sallaberger/Schrakamp 6.4-6.5); Treccani Ebla (ANTİK B rb005)",
+   "alinti": "With his first 30 years between 2360/50 and 2330/20 BC, the destruction of Ebla's Royal Palace G could have taken place at any date after around 2350 BC, with later dates down to ca. 2300 BC being more and more plausible.",
+   "oneri": {},
+   "not": "t=-2309 (MÖ 2310) ARCANE aralığı içinde ama yıl tarihlenmedi: kaynak 'ca. 2350 sonrası, ~2300'e doğru daha olası' der [aralık, orta kronoloji ile Pepi I vazo kapağı üzerinden Mısır senkronizmi]. Ayrıca ARCANE: Mari'nin yıkımı Ebla'dan SONRA ve Ebla'dan en az 10-15, en çok ~20 yıl sonra; Mari 'ca. 2295±30' -> Ebla yıkımı ~2315-2305 civarı çıkarım (kesin değil, KAYNAKLI sayılmaz). Yıkımı Sargon mu Naram-Sin mi yaptı tartışması: Treccani Sargon'a bağlar (yılsız), 'attorno al 2250' Naram-Sin'e değinir; atlas satırı Sargon varsayımıyla uyumlu. f=-2399 (MÖ 2400): Treccani 'sec. 24 a.C.' yüzyıl düzeyinde uyumlu; Archi/Matthiae Mardikh IIB1 başlangıcı kilitli kitaplarda (archive.org 401): tarayici_gerekli = Archi/Matthiae. İç tutarsızlık: satır t=-2309, künye ebla-1 t=-2299 (devletler.js ölçüldü) - 10 yıl, hayalet değil. Değişiklik önerilmez; [yaklaşık yüzyıl düzeyi]. Kısa kronoloji beyanı: ARCANE orta kronolojiyi verir."
+  }
+ ]
+}

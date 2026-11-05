@@ -1171,6 +1171,12 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **Tobolsk:** 1598-08-20 hanlık sonu. İsker 1582 ve kale 1587 ham metinle teyitsiz.
   - **Petropavlovsk:** 1740 [YIL, 1739-40].
   - **Erişim:** Bâne, Kazakistan 1991 ve Kabongo erişilemedi.
+- **r8_127:** KAYNAKLI 3 · ONERI 2 · BOSLUK_KALIR 1.
+  - **KAYNAKLI:** Esh-Shaheinab −4699/−4199 (D'Ercole 2024 PLoS ONE); Gobero −7699/−2834 (Sereno 2008); Nakbé f −0999 (b009'dan).
+  - **UMIT notu, Gobero:** t −2834 aralığın orta noktası (2910–2760 MÖ). ANTİK kuralı aralığın ilk yılını ister → −2909 adayı. Ayrıca iç kesinti 6200–5200 MÖ, beyan gerektirir.
+  - **Poverty Point:** 3615–3165 cal BP → f −1664, t −1214 (atlas t −1149). Kidder & Grooms 2023 tablosu okunamadı.
+  - **El Tajín:** 1100–1200 BOSLUK_KALIR. el-tajin künye t'si 1200'e uzatılsın mı (LAB)?
+- **r8_125:** KAYNAKLI 2 (Megara Hyblaia −0727/−0482, Dunbabin 1948 Thukydides hesabı; La Blanca) · ONERI 6. Eridu: uruk-erken künye t −2333 dilimi kapsamıyor (LAB). Forfar/Doncaster/Dunkeld f'leri ilk belge tanığı, sahiplik başlangıcı değil.
 - **Rusya 1917-03-15 ucu:** r8_039'da 8/8 KAYNAKLI (feragatname); r8_033 ve r8_038'de teyitsiz, aynı kaynak uygulanabilir.
 
 ### 45a. EMRELİC gece-87 kararları (`karar56.py`, 27 satır işlendi)
@@ -1188,6 +1194,53 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 4. **Britannia:** bati-roma t 0409-01-01 "[yaklaşık; VCH]" BEYANLI, Camulodunum ve Verulamium için. Treccani 406 ve 410 ic_not'a.
 5. **Karthago:** f −0813 (tek uzlaşım); Docter −0759 ic_not'a.
 6. **Çengdu (Gongsun Shu):** f 0025-05-17 [yalnız ay], t 0036-12-07 [yalnız ay] (Academia Sinica, Jülyen). Doğu Han f bitişik kayar.
+
+## 47. Kazak bozkırı kümesi: Rus f'si (EMRELİC gece-90; `kazak_olc.py`, `kazak_topla.py`, `kazak_kume.json`)
+- **Ölçüm:**
+  - Bölgede 36 yerleşim Kazak, Cungar ya da Hokand döneminden `rusya`ya geçiyor.
+  - Bunlardan 7'sinde rusya f 1847-01-01 Kopal'dan devralınmış; 11'i kaynaksız, geri kalanı yalnız "DEVRALMA" notlu.
+  - Kapsam 24 yerleşim, 48 satır, 3 parti.
+- **Hükümler** (UMIT denetiminden sonra):
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 2 |
+  | ONERI | 37 |
+  | BULUNAMADI | 9 |
+
+  - Ajanlar 14 KAYNAKLI vermişti. 12'si hakemli olmayan dayanağa yaslanıyordu (yerel kütüphane portalı ya da resmî portal e-history.kz; TDV olayı tarihlemiyor), bu yüzden ONERI-güçlü'ye indirildi.
+  - KAYNAKLI satırlarda `uc` f+t → f: rusya t 1917-03-15 bu kaynaklarla tarihlenmiyor.
+- **Küme hükümleri:**
+  - **Küçük Cüz 1824:** yıl tutarlı (e-history.kz: hanlığın kaldırılışı; TDV "1822, 1824 düzenlemeleri"), gün yok → 1824-01-01 [yalnız yıl] ONERI-güçlü (Aral kuzeyi, Üstyurt kuzeyi, Emba). Bu bölgelerde 1824 idaresi nominaldi; han seçimi 1845'e dek sürdü (TDV Kazakistan), ic_not'a.
+  - **Orta Cüz 1822:** Nizamname yılı teyitli (Yermekbay 2022, *Izvestiya IGU* 41, hakemli), günü çelişkili: 22 Haziran (PSZ) mi, 22 Temmuz mu.
+    - Nizamname tek başına yerleşimi Rus idaresine katmaz; ölçü okrug açılışıdır.
+
+      | Yerleşim | Okrug açılışı |
+      |---|---|
+      | Kökçetav | 1824-05-11 G (29.4 J) |
+      | Karkaralı | 1824-04-20 G |
+      | Ayagöz | 1831 (KAYNAKLI, yıl) |
+      | Akmola | 1832 |
+
+  - **Büyük Cüz 1847:** kaynakla teyitsiz. Almatı'nın Rus dönemi 1854 Vernıy ile başlar (e-history.kz: 4 Şubat 1854 J → 1854-02-16 G). kazak-hanligi künye t 1847'yi aşar: künye işi LAB'a.
+  - **Kaleler** (yıl tutarlı, dayanak yerel portal → ONERI-güçlü):
+    - Semipalatinsk 1718, Ust-Kamenogorsk 1720, Pavlodar 1720.
+    - Petropavlovsk 1752-07-23 G (12.7 J).
+    - Akmola kalesi 1830-06-30 G. Okrug 1832-09-03 ic_not'a.
+    - Irgiz 1845-07-31 G ve Turgay 1845-08-03 G (Ural ve Orenburg istihkâmları).
+    - Kazalinsk 1853/1854/1855 çelişkili.
+  - **Sırderya hattı 1864:** atlas günleri Jülyen'den çevrilmemiş (+12).
+    - Çimkent 1864-09-22 → 1864-10-04 G. TDV teslim günü vermez, ic_not'a.
+    - Taraz: atlasta Çimkent günü devralınmış; doğrusu 1864-06-16 G (4.6 J; arama özeti, tarayıcı gerekli).
+    - Türkistan 1864 yılı BSE'de; gün 1864-06-24 G yalnız arama özetinde.
+    - Sayram "Eylül 1864": Çimkent'e hizalı, BEYANLI.
+- **İstisnalar ve kararlar (EMRELİC):**
+  1. Irgiz ve Turgay: kale 1845 mi, Küçük Cüz 1824 mü? TEK ÖLÇÜ çatışması. Ajanın önerisi kale; kale öncesi kazak dilimi kırpılsın mı?
+  2. Akmola: kale 1830 mu, okrug 1832 mi?
+  3. İşim ve Sarısu (bölge noktaları): okrug ya da uyez aidiyeti bulunamadı (BULUNAMADI). Sarısu adayı 1868 Geçici Nizamname.
+  4. Sığnak ve Suzak: 1847 dayanaksız. Rus alışı 1860'lar, kaynaksız. Hokand dönemi eksik olabilir.
+  5. Kopal 1847: yalnız cyclowiki (Rogozhinsky 2021 atfı), akademik ham metin yok.
+- **Değişmez 2:** 1824 Küçük Cüz, okrug açılışları ve 1864 Sırderya kırılmaları için kronoloji maddesi önerileri KASA'ya.
 
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
