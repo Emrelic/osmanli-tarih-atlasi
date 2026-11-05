@@ -1,0 +1,646 @@
+{
+ "Sambas": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:144",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1631-01-01",
+   "t": "1819-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV brunei (gövde yok, 1594 kar.), TDV endonezya (Sambas anılmaz); Jurnal Adabiyah 20(1) 2020, UIN Alauddin 'Bureaucracy of the Sambas Sultanate ... (1818-1942)' https://journal.uin-alauddin.ac.id/index.php/adabiyah/article/view/11220 (yalnız başlık/özet sayfası okundu, tarihleyen cümle yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Brunei üstünlüğü 1631 ve t 1819 için hakemli gün/yıl bulunamadı. Arama özeti (açılmadı, ipucu): Hollanda ile 1819 sözleşmesi, 1818 başlık yılı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:144",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1819-01-01",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {},
+   "not": "t ucu AY düzeyinde (1942-03) TDV Endonezya md.; alıntı yalnız t ucunu tarihliyor. f 1819 teyitsiz (UIN başlığı 1818-1942 yalnız dönem adı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:144",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {
+    "alan": "isg",
+    "f": "1942-03"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | TDV Endonezya md.: Mart 1942'de adaların Japonlarca işgali (ay düzeyi); gün 1942-03-09 (Java teslimi) teyitsiz. TEK KURAL: Japon dönemi isg (Burma, Malaya dahil). ÖLÇÜT: geçici/askerî — Japonlar toprağı ilhak etmedi, Hollanda egemenliği 1949-12-27'ye dek sürdü (TDV). t 1945-09-02 teyitsiz (TDV Endonezya'da yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:144",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1949-12-27 (TDV Endonezya md.; TEK ÖLÇÜ: Hollanda fiilen yönettiği yerde devir günü). ÜLKE DÜZEYİ; Batı Kalimantan Hollanda NICA denetiminde olduğundan Cumhuriyet 1945-08-17 bu yerde geçerli değil."
+  }
+ ],
+ "Scarborough (Tobago)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1814-05-30",
+   "t": "1889-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov/countries/trinidad-and-tobago (yalnız 1962); TDV trinidad-tobago (gövde yok); WebSearch özetleri (Paris 1814, açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Paris Antlaşması 1814 (30 Mayıs) arama özetinde geçer, hakemli/resmî sayfa açılamadı. KÜNYE: ingiltere f 0927, uygun."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
+   "alan": "s",
+   "d": "trinidad-tobago-ingiliz",
+   "f": "1889-01-01",
+   "t": "1958-01-03",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: WebSearch özetleri (Order in Council 20 Ekim 1888, yürürlük 1 Ocak 1889; kaynak sayfa açılmadı); uwispace.sta.uwi.edu PDF denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "1889-01-01 birleşme günü hakemli kaynakla okunamadı. Başka bir arama özeti 1899 ward statüsünü anıyor (açılmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
+   "alan": "s",
+   "d": "trinidad-tobago-ingiliz",
+   "f": "1962-05-31",
+   "t": "1962-08-31",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/trinidad-and-tobago",
+   "alinti": "the same day that it became independent on August 31, 1962",
+   "oneri": {},
+   "not": "t ucu 1962-08-31 (devletin resmî tarih yayını, bağımsızlık günü açıkça yazılı). f 1962-05-31 (Federasyon feshi) bu kaynakta yok. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
+   "alan": "s",
+   "d": "trinidad-tobago",
+   "f": "1962-08-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/trinidad-and-tobago",
+   "alinti": "the same day that it became independent on August 31, 1962",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1962-08-31; cümle ABD tanıma günü bağlamında ama bağımsızlık gününü ayrıca açıkça veriyor. ÜLKE DÜZEYİ (Tobago ayrı el değiştirmedi)."
+  }
+ ],
+ "Sengkang (Wajo)": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:364",
+   "alan": "s",
+   "d": "bugis-kralliklari",
+   "f": "1330-01-01",
+   "t": "1905-08-06",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV endonezya (Bugis/Wajo yok); WebSearch özetleri (1905 Güney Sulawesi seferleri; Vikipedi ipucu, Hasanuddin Üni. dergi sayfaları açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Wajo'nun 1905-08-06'da Hollanda'ya geçişi hakemli kaynakla okunamadı. Arama özeti: Wajo 1905-06 seferinden sonra Hollanda Doğu Hint'ine katıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:364",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1905-08-06",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {},
+   "not": "t ucu AY düzeyinde (1942-03) TDV Endonezya md.; alıntı yalnız t ucunu tarihliyor. f 1905-08-06 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:364",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Mart 1942’de bütün Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu",
+   "oneri": {
+    "alan": "isg",
+    "f": "1942-03"
+   },
+   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg. | TDV Endonezya md.: Mart 1942'de adaların Japonlarca işgali (ay düzeyi); gün 1942-03-09 (Java teslimi) teyitsiz. TEK KURAL: Japon dönemi isg (Burma, Malaya dahil). ÖLÇÜT: geçici/askerî — Japonlar toprağı ilhak etmedi, Hollanda egemenliği 1949-12-27'ye dek sürdü (TDV). t 1945-09-02 teyitsiz (TDV Endonezya'da yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:364",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1949-12-27 (TDV Endonezya md.). ÜLKE DÜZEYİ; Güney Sulawesi 1946-47 Hollanda denetiminde (Doğu Endonezya Devleti), Cumhuriyet'e devir 1949-12-27."
+  }
+ ],
+ "Sandoa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1446",
+   "alan": "s",
+   "d": "lunda-imparatorlugu",
+   "f": "1665-01-01",
+   "t": "1887-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV kongo-demokratik-cumhuriyeti (Lunda yok), TDV angola (madde gövdesi yok); WebSearch özetleri (Lizbon 1891-05-25 / Brüksel 1894-03-24 bölüşüm; Mwant Yav Mushidi 1896 Özgür Devlet antlaşması — Vikipedi/EB türevi, ipucu, açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1887 ucu (Lunda t) kaynaksız; arama özetleri Lunda'nın 1891-1896 arasında bölündüğünü gösteriyor, Sandoa Mushidi çekirdeğinde (Özgür Devlet tarafı). Yerleşime özgü gün bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1446",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1887-01-01",
+   "t": "1908-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "oneri": {},
+   "not": "t ucu gün düzeyinde 1908-11-15 (TDV Kongo DC md.; ÜLKE DÜZEYİ). TDV Özgür Devlet'in kuruluşunu 1885 verir; Sandoa'nın Özgür Devlet'e geçişi f 1887 teyitsiz (Lunda Mushidi 1896 antlaşması ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1446",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin yüzölçümü",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1960-06-30 (TDV Kongo DC md.). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Seguela": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:648",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV fildisi-sahili (Samori'nin yenilgisi gün/yıl vermez; Séguéla yalnız Mandingo ticaret kasabası olarak geçer); WebSearch özetleri (Samori'nin 1898-09-29 Guélémou'da yakalanışı: EBSCO/Blackpast türevi, ipucu, açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Vasulu t 1898-09-29 için hakemli gün kaynağı okunamadı; arama özetleri tutarlı ama ipucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:648",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-09-29",
+   "t": "1960-08-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "Odienne’i de işgal ederek (1898) / bugün Fildişi Sahili’nin sınırları içinde kalan yerlerin hepsini denetimleri altına almış oldular",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde 1898 (Fransız denetimi tüm Fildişi topraklarında); gün 1898-09-29 teyitsiz [yalnız yıl teyitli; gün teyitsiz]. ÜLKE DÜZEYİ. TDV: Fransa'nın kesin otoritesi kuzeyde sonradan oturdu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:648",
+   "alan": "s",
+   "d": "fildisi-sahili",
+   "f": "1960-08-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "7 Ağustos 1960 tarihinde de tam bağımsızlığını elde ederek Birleşmiş Milletler Teşkilâtı’na üye oldu",
+   "oneri": {},
+   "not": "f ucu gün düzeyinde 1960-08-07 (TDV Fildişi Sahili md.). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Sainte-Marie-au-pays-des-Hurons": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:984",
+   "alan": "s",
+   "d": "vendat",
+   "f": "1639-01-01",
+   "t": "1649-03-16",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: WebSearch özetleri (Parks Canada: Saint-Louis köyü 1649-03-16 sabahı yıkıldı; Sainte-Marie Haziran 1649'da yakıldı/terk edildi — kurum portalları ve Vikipedi türevi, açılmadı); DCB (biographi.ca) denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "1639 (Sainte-Marie kuruluşu) ve 1649-03-16 için hakemli kaynak okunmadı. UYARI: 1649-03-16 Saint-Louis/Taenhatentaron günüdür, Sainte-Marie'nin terki arama özetinde Haziran 1649."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:984",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1649-03-16",
+   "t": "1763-02-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: aynı arama özetleri; Fransa egemenliğinin Sainte-Marie yerine ne zaman uzandığı hakemli kaynakta okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yer 1649'da terk edilip yakıldı; 1649-03-16 f ucu Wendat birliğinin çöküşü için gün, Fransa devri için belge yok. t 1763-02-10 (Paris Antlaşması imzası) bu partide açılmadı."
+  }
+ ],
+ "Sakkız": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2047",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: iranicaonline.org/articles/saqqez (10328 kar., İlhanlı/Moğol sözcüğü yok); TDV tebriz (Sakkız anılmaz)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Saqqez'in İlhanlı sahipliği 1281-1340 için kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2047",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1723-11-10",
+   "t": "1732-01-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://dergipark.org.tr/tr/download/article-file/638569 (Bilgili 2016, Ermeni Araştırmaları 53; sayfa.py PDF metnini çıkaramadı, WebFetch de okuyamadı; yerel PDF çıkarımında 'Sakız/Sakkız' YOK, TD 1066 = 'Erdelan tahrir defteri', yalnız 'Erdelan Vilayeti'nde Sinne' anılır)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirdeki kayıtlı kaynak (dn.88, TD 1066 'Sakîz livası') makalede doğrulanamadı: makale TD 1066'yı Erdelan vilayeti defteri diye geçirir, Sakız'ı anmaz, gün de vermez. Bölge bağlamı: Kirmanşah/Luristan Ekim 1723'te alındı (TD 912, ay düzeyi); 1723-11-10 komşudan, teyitsiz."
+  }
+ ],
+ "Salsipuedes (Charrúa)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:32",
+   "alan": "s",
+   "d": "charrua",
+   "f": "1281-01-01",
+   "t": "1831-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "TDV uruguay (madde 2730 kar., Charrúa/1831 yok) bakıldı; ikinci basamak aranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Charrúa'nın 1831-04-11 Salsipuedes harekâtı yalnız kayıttaki Vikipedi dayanağında; hakemli kaynağa bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:32",
+   "alan": "s",
+   "d": "uruguay-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "TDV uruguay (1828 bağımsızlık yılı geçer: 'Uruguay bağımsızlıkları' arama özeti); ikinci basamak aranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜNYE: uruguay-cumhuriyeti f 1828-08-27; dönem f 1831-01-01 künye sonrası, aşım yok. İç bölgenin Uruguay'a geçişi hakemli kaynakla okunmadı."
+  }
+ ],
+ "Samarai": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:59",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-11-06",
+   "t": "1906-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: WebSearch özetleri (6 Kasım 1884 Port Moresby ilanı; Papua Act 1905, yürürlük 1 Eylül 1906 — Vikipedi/britishempire.co.uk türevi, ipucu, açılmadı); history.state.gov Papua sayfası denenmedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1884-11-06 ve t 1906-09-01 hakemli kaynakla okunmadı; arama özeti 1884'te himaye ilanı (1888'de ilhak) ve 1902/1906 Avustralya devri ayrımını gösteriyor — ŞÜPHE: 1884 himaye, ilhak 1888-09-04; ÖLÇÜT/himaye kuralı v: ingiltere olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:59",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1906-09-01",
+   "t": "1949-07-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Aynı arama özetleri; Avustralya Parlamentosu Eğitim Ofisi ve IBS No.160 zincirde kayıtlı kaynak (açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Avustralya f 1906-09-01 Papua Act yürürlüğü (arama özeti); 1902-03-18 devir tartışması. t 1949-07-01 teyitsiz."
+  }
+ ],
+ "San Juan": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1143",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1521-01-01",
+   "t": "1898-12-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "the U.S. and Spanish governments signed the Treaty of Paris on December 10, 1898",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); 1899-01-01 → 1902-05-20 s: abd BEYANLI; kuba-cumhuriyeti f 1902-05-20; Paris 1898-12-10 ic_not. | t ucu gün düzeyinde 1898-12-10 (imza; devletin resmî tarih yayını; Porto Riko'nun devri metinde). TEK ÖLÇÜ: ABD fiilî yönetiyorsa imza günü — fiilî yönetim başlangıcı (18 Ekim 1898) okunmadı. f 1521 teyitsiz. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1143",
+   "alan": "s",
+   "d": "puerto-riko",
+   "f": "1899-04-11",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov spanish-american-war (Senato onayı 6 Şubat 1899; onay belgelerinin değişimi 11 Nisan 1899 yok); TDV porto-riko (gövde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); 1899-01-01 → 1902-05-20 s: abd BEYANLI; kuba-cumhuriyeti f 1902-05-20; Paris 1898-12-10 ic_not. | 1899-04-11 yürürlük günü okunmadı; yürürlük zaten TEK ÖLÇÜ'de s: günü olmaz. abd→puerto-riko aynı egemenin iç künye geçişi."
+  }
+ ],
+ "Santa Clara (Küba)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1468",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1689-07-15",
+   "t": "1898-12-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "the U.S. and Spanish governments signed the Treaty of Paris on December 10, 1898",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); 1899-01-01 → 1902-05-20 s: abd BEYANLI; kuba-cumhuriyeti f 1902-05-20; Paris 1898-12-10 ic_not. | t ucu gün düzeyinde 1898-12-10 (imza); Küba Paris'te ABD'ye değil bağımsızlığa bırakıldı, ABD askerî işgal 1902'ye dek (history.state.gov). f 1689-07-15 teyitsiz. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1468",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/cuba",
+   "alinti": "On May 20, 1902, the United States relinquished its occupation authority over Cuba",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); 1899-01-01 → 1902-05-20 s: abd BEYANLI; kuba-cumhuriyeti f 1902-05-20; Paris 1898-12-10 ic_not. | f ucu gün düzeyinde 1902-05-20 (ABD işgal yetkisini bıraktığı TESLİM günü; TEK ÖLÇÜ). Aynı sayfa Cumhuriyet'in 19 Mayıs 1902'de resmen kurulduğunu da yazar (künye f 1902-05-19) — iki gün beyanlı. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Sarâb": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2042",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: iranicaonline.org/articles/sarab (404); TDV tebriz (Sarab anılmaz)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sarab'ın İlhanlı sahipliği 1281-1340 için kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2042",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1725-09-09",
+   "t": "1730-08-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://dergipark.org.tr/tr/download/article-file/638569",
+   "alinti": "Köprülü-zâde Abdullah Paşa’nın Ağustos 1725’den az sonra ele geçirdiği Erdebil’in mufassal defteridir",
+   "oneri": {},
+   "not": "PDF sayfa.py ile okunamadı (yerel çıkarım; alıntı birebir, KAYNAKLI verilmedi). f ucu AY düzeyinde (Ağustos 1725 sonrası); Sarab nahiyesi Erdebil Kazası'na bağlı (aynı makale, TD 902). Gün 1725-09-09 Erdebil'den, teyitsiz. t 1730-08-12 teyitsiz (TDV Tebriz: 'Nâdir Han 1730’da şehri geri aldı' yıl düzeyi, yalnız Tebriz)."
+  }
+ ],
+ "Saurimo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1440",
+   "alan": "s",
+   "d": "lunda-imparatorlugu",
+   "f": "1665-01-01",
+   "t": "1887-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV angola (gövde yok), TDV kongo-demokratik-cumhuriyeti (Lunda yok); WebSearch özetleri (açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Lunda t 1887 için hakemli kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1440",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1887-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Aynı bakılan yerler; WebSearch özeti: Portekiz birlikleri 1884'te Lunda'ya girdi, 1891-05-25 Lizbon antlaşması (Vikipedi/EB türevi ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1887 teyitsiz; Lizbon 1891-05-25 ve Brüksel 1894-03-24 bölüşümü arama özetinde, açılmadı. t 1975-11-11 zincirde angola künyesiyle kayıtlı."
+  }
+ ],
+ "Sebte (Ceuta)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:32",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1415-01-01",
+   "t": "1581-04-16",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sebte",
+   "alinti": "Portekiz Kralı I. Jean’ın işine yaradı ve 818’de (1415) Sebte’yi işgal etti",
+   "oneri": {
+    "f": "1415-03-12"
+   },
+   "not": "HİCRÎ KURAL (LAB PAZAR JDN, Perşembe): TDV '818 / 1415' → 1 Muharrem 818 = 1415-03-12 Jülyen = 818 ∩ 1415'in ilk günü; atlas 1415-01-01 hicrî kuralı atlıyor. Fetih günü (yaygın 1415-08-21) kaynakla bulunursa o gün esas — EMRELİC'e soruldu. | f ucu YIL düzeyinde (hicrî 818 / 1415; hicrî gün hesaplanmadı) [yalnız yıl teyitli; gün teyitsiz]. Sebte'nin kendisine ait madde. Not: TDV 'işgal' der; Portekiz yönetimi 1419'a dek tartışmalı ama kaynak Portekiz hâkimiyetini kabul eder."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:32",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1581-04-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/sebte",
+   "alinti": "İspanya, Portekiz topraklarını ilhak etti (1581)",
+   "oneri": {},
+   "not": "ÇELİŞKİ: Sebte 1581-04-16 (Tomar Cortes'i; TDV 1581) vs Braga/Setúbal kuralı Portekiz t 1580-08-25 (Alcântara, gece-98). Sebte için hangi gün — EMRELİC'e soruldu. | f ucu YIL düzeyinde 1581 [yalnız yıl teyitli; gün 1581-04-16 teyitsiz]. TDV: İspanya 1668'de Portekiz bağımsızlığını kabul ederken Sebte'yi şart koştu. KARŞILAŞTIRMA: Setúbal kaydı İspanya f 1580-08-25 kullanıyor; iki yerleşim arasında 1580/1581 tutarsızlığı beyanlı."
+  }
+ ],
+ "Secwépemc (Adams Gölü)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:709",
+   "alan": "s",
+   "d": "secwepemc",
+   "f": "1281-01-01",
+   "t": "1858-08-02",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: https://www.legislation.gov.uk/ukpga/Vict/21-22/99/enacted (21&22 Vict. c.99 'An Act to provide for the Government of British Columbia'; sayfada kraliyet onayı günü okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Secwépemc t 1858-08-02 için gün okunmadı. Kanun var ama gün sayfa metninde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:709",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1858-08-02",
+   "t": "1871-07-20",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Aynı: legislation.gov.uk Vict/21-22/99; t 1871-07-20 zincirdeki kanada satırının kayıtlı Terms of Union kaynağıyla örtüşür (bu partide yeniden okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1858-08-02 teyitsiz. ÜLKE/İL DÜZEYİ: koloni kanunu Secwépemc'in toprak kaybını belgelemez (antlaşma yok); ÖLÇÜT beyanı gerekir."
+  }
+ ],
+ "Semipalatinsk": [
+  {
+   "dosya_satir": "data/yerlesimler_ek18.js:155",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1635-01-01",
+   "t": "1718-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV kazakistan (Semey/Semipalatinsk YOK, Cungar anılmaz); WebSearch özetleri (Britannica 'Semey', Vikipedi — açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Cungar f 1635 ve t 1718 teyitsiz; kuruluş 1718 arama özetinde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek18.js:155",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1718-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Aynı; booksite.ru ve e-history.kz arama özetleri (kale 1718, 1778'de taşındı; açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1718 YIL: arama özetlerinde Rus kalesi 1718 (Rus kaynağı Stupin, kupi.com Cheredov — çelişki). Jülyen/Gregoryen farkı yıl düzeyinde etkisiz."
+  }
+ ],
+ "Seneca (Ganondagan)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:795",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1450-01-01",
+   "t": "1777-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: kaynak arama yapılmadı (yalnız Paris 1783 metni okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Haudenosaunee t 1777 için kaynak okunmadı. 1777 Oriskany/İngiliz müttefikliği ile egemenlik devri karıştırılmış olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:795",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1777-01-01",
+   "t": "1783-09-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://avalon.law.yale.edu/18th_century/paris.asp",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord, one thousand seven hundred and eighty-three",
+   "oneri": {},
+   "not": "ŞÜPHE: Britanya 1777–83 Seneca'yı idareye katmadı (TAHRİR) → s: haudenosaunee sürmüş olabilir (müttefik, v:?); 1777 f dayanaksız — EMRELİC'e soruldu. | t ucu gün düzeyinde 1783-09-03 (antlaşma metni, Yale Avalon neşri). AMA: ingiltere f 1777 hiçbir kaynakla desteklenmedi ve Seneca toprağı 1783'te ABD'ye devredilmedi sayılmaz (Fort Stanwix 1784, Big Tree 1797 — okunmadı); ÖLÇÜT: Britanya orayı idareye katmadı → s: ingiltere dönemi şüpheli, Haudenosaunee sürebilir (karar sizde)."
+  }
+ ],
+ "Serhad (Vahan)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:200",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1883-08-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV afganistan (Vahan yalnız idarî bölge olarak geçer; 1883 yok); WebSearch özetleri (Wakhan Mirdom 1883'e dek yarı bağımsız — Vikipedi türevi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Vahan mîrliğinin t 1883-08-15 teyitsiz; Iloliev 2021 kaydı zincirde. Boşluk merdiveni basamağı: abi merkez Badahşan."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:200",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1883-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Aynı; TDV afganistan: Durand Hattı 12 Kasım 1893 (Vahan'a dair cümle yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1883-08-15 gün teyitsiz; Afgan idaresi arama özetinde 1880'ler, Pamir sınır antlaşmaları 1895 (açılmadı)."
+  }
+ ],
+ "Setúbal": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:311",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "meclis kendisini Portekiz kralı (I. Felipe) ilân etmek zorunda kaldı (1581)",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-98 Braga): Portekiz t 1580-08-25 (fiilî, Alcântara) korunur; TDV 1581 meclis ilanı ic_not. | t ucu YIL düzeyinde ve ÇİFT-TDV ÇELİŞKİSİ: TDV Portekiz md. 1581 (kral ilanı; kraliyet soyu 1580'de kesildi), TDV İspanya md. 'ilhak (1580)' (zincirdeki kayıt). Atlas 1580-08-25 Alcántara. Seçmedim; üçüncü akademik kaynak aranmadı. f 1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:311",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "Böylece Portekiz 1640 yılına kadar devam edecek şahsî bir birlik altında İspanya ile birleşmiş oldu",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde 1640 (birliğin sonu) [yalnız yıl teyitli; gün 1640-12-01 teyitsiz]. ÜLKE DÜZEYİ."
+  }
+ ]
+}
