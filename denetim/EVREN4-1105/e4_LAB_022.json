@@ -182,7 +182,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/arnavutluk (M. L. Bilge)",
    "alinti": "1939-1944 yılları arasında Arnavutluk İtalyanlar ve Almanlar tarafından idare edildi",
    "oneri": {},
-   "not": "KÜNYE AŞIMI: dönem f 1939-04-07, künye f 1939-04-12. TDV yalnız yıl düzeyi (işgal 1939); ÖLÇÜT geçici/askerî: 04-07..04-12 isg italya, s 04-12 (künye) önerilir; 12 Nisan'ı TDV vermedi, ikinci kaynak aranmadı."
+   "not": "KARAR EMRELİC (gece-79): Arnavutluk: 1939-04-07 işgal isg italya → 04-12 künye (Kişisel Birlik) s:; 1943-09-08 Alman isg → 09-14 künye; ara günler isg, aşım kapanır. | KÜNYE AŞIMI: dönem f 1939-04-07, künye f 1939-04-12. TDV yalnız yıl düzeyi (işgal 1939); ÖLÇÜT geçici/askerî: 04-07..04-12 isg italya, s 04-12 (künye) önerilir; 12 Nisan'ı TDV vermedi, ikinci kaynak aranmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:276",
@@ -195,7 +195,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/arnavutluk (M. L. Bilge)",
    "alinti": "işgalden kurtulduğu gün olan 29 Kasım 1944’tür",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (29 Kasım 1944, ÜLKE DÜZEYİ). f ucu: TDV yalnız '1943’te ülkenin Almanya tarafından işgal edilmesi' (yıl); KÜNYE AŞIMI: dönem f 1943-09-08, künye f 1943-09-14 — f gün düzeyinde BULUNAMADI."
+   "not": "KARAR EMRELİC (gece-79): Arnavutluk: 1939-04-07 işgal isg italya → 04-12 künye (Kişisel Birlik) s:; 1943-09-08 Alman isg → 09-14 künye; ara günler isg, aşım kapanır. | alıntı yalnız t ucunu tarihliyor (29 Kasım 1944, ÜLKE DÜZEYİ). f ucu: TDV yalnız '1943’te ülkenin Almanya tarafından işgal edilmesi' (yıl); KÜNYE AŞIMI: dönem f 1943-09-08, künye f 1943-09-14 — f gün düzeyinde BULUNAMADI."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:276",
@@ -451,8 +451,12 @@
    "uc": "f",
    "kaynak": "Treccani, 'L’Avana' https://www.treccani.it/enciclopedia/l-avana/ ; 'Cuba' https://www.treccani.it/enciclopedia/cuba/",
    "alinti": "La città antica fondata (1515) vicino all’attuale da Diego Velázques",
-   "oneri": {},
-   "not": "Treccani: kuruluş 1515 'attuale yerin yakınında'; atlas f 1519-11-16 (bugünkü yerdeki kuruluş) ile gün Treccani'de yok. Treccani İPUCU sınıfı olabilir (Enciclopedia Italiana kökenli)."
+   "oneri": {
+    "alan": "isg",
+    "f": "1762-08-13",
+    "t": "1763-07-06"
+   },
+   "not": "KARAR EMRELİC (gece-79): isg ingiltere 1762-08-13 → 1763-07-06 (iade); s: ispanya kesintisiz. Uygun. | Treccani: kuruluş 1515 'attuale yerin yakınında'; atlas f 1519-11-16 (bugünkü yerdeki kuruluş) ile gün Treccani'de yok. Treccani İPUCU sınıfı olabilir (Enciclopedia Italiana kökenli)."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:1103",
@@ -465,9 +469,11 @@
    "kaynak": "Treccani, 'L’Avana' https://www.treccani.it/enciclopedia/l-avana/ ; 'Cuba' https://www.treccani.it/enciclopedia/cuba/",
    "alinti": "Nel 1762 L’Avana subì una breve occupazione britannica",
    "oneri": {
-    "alan": "isg"
+    "alan": "isg",
+    "f": "1762-08-13",
+    "t": "1763-07-06"
    },
-   "not": "DA-BRIEF TEK KURAL (savaş işgali isg; s hukukî devirden): Treccani 'breve occupazione britannica'. Öneri: isg ingiltere, s ispanya kesintisiz. Gün 1762-08-13 ve teslim günü (Temmuz 1763) Treccani'de yok, bulunamadı. Treccani İPUCU."
+   "not": "KARAR EMRELİC (gece-79): isg ingiltere 1762-08-13 → 1763-07-06 (iade); s: ispanya kesintisiz. Uygun. | DA-BRIEF TEK KURAL (savaş işgali isg; s hukukî devirden): Treccani 'breve occupazione britannica'. Öneri: isg ingiltere, s ispanya kesintisiz. Gün 1762-08-13 ve teslim günü (Temmuz 1763) Treccani'de yok, bulunamadı. Treccani İPUCU."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:1103",
@@ -497,7 +503,7 @@
    "oneri": {
     "t": "1881-01-01"
    },
-   "not": "t ucu: TDV Kankan'ın Samori tarafından alınışını 1881'e (yıl) koyar; atlas 1879. TDV Gine: 'Mandinkalar Kankan, Bate...ı kurdu' (f=1650 doğrulanmadı). Vikipedi sonuçları 1873/1881 çelişkisi veriyor (İPUCU)."
+   "not": "KARAR EMRELİC (gece-79): Samori Kankan'ı 1881'de aldı (TDV) [yalnız yıl]. ÖLÇÜM (LAB PAZAR): künye vasulu VAR (devletler.js:3189, f 1878-01-01, t 1898-09-29). | t ucu: TDV Kankan'ın Samori tarafından alınışını 1881'e (yıl) koyar; atlas 1879. TDV Gine: 'Mandinkalar Kankan, Bate...ı kurdu' (f=1650 doğrulanmadı). Vikipedi sonuçları 1873/1881 çelişkisi veriyor (İPUCU)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:482",
@@ -512,7 +518,7 @@
    "oneri": {
     "f": "1881-01-01"
    },
-   "not": "f ucu yıl düzeyinde 1881 (atlas 1879, künye f 1878). t ucu 1898-09-29: TDV 'Samori Fransız birliğine esir düştü (29 Eylül 1898)' — ülke düzeyi, gün teyitli."
+   "not": "KARAR EMRELİC (gece-79): Samori Kankan'ı 1881'de aldı (TDV) [yalnız yıl]. ÖLÇÜM (LAB PAZAR): künye vasulu VAR (devletler.js:3189, f 1878-01-01, t 1898-09-29). | f ucu yıl düzeyinde 1881 (atlas 1879, künye f 1878). t ucu 1898-09-29: TDV 'Samori Fransız birliğine esir düştü (29 Eylül 1898)' — ülke düzeyi, gün teyitli."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:482",
@@ -525,7 +531,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/samori-ture (A. Kavas)",
    "alinti": "Fransız birliğine esir düştü (29 Eylül 1898)",
    "oneri": {},
-   "not": "alıntı Samori'nin yakalanışını (ülke düzeyi) tarihliyor, Kankan'ın Fransız eline geçişini değil. TDV: 'başşehri dahil ülkesinin en önemli merkezlerinin Fransızlar tarafından işgalini önleyemedi' (1891 sonrası, şehir adı yok). Vikipedi İPUCU: Archinard Kankan'ı 1891-04-11'de aldı — kabul edilen kaynakla teyit EDİLEMEDİ; f=1898-09-29 ile 1891 çelişkisi olası (ÖLÇÜT: idareye katma vs işgal, kaynak susuyor)."
+   "not": "KARAR EMRELİC (gece-79): Fransız alışı 1891-04-11 (Archinard) ipucu → ONERI; 1898-09-29 Samori'nin yakalanışı, ic_not. | alıntı Samori'nin yakalanışını (ülke düzeyi) tarihliyor, Kankan'ın Fransız eline geçişini değil. TDV: 'başşehri dahil ülkesinin en önemli merkezlerinin Fransızlar tarafından işgalini önleyemedi' (1891 sonrası, şehir adı yok). Vikipedi İPUCU: Archinard Kankan'ı 1891-04-11'de aldı — kabul edilen kaynakla teyit EDİLEMEDİ; f=1898-09-29 ile 1891 çelişkisi olası (ÖLÇÜT: idareye katma vs işgal, kaynak susuyor)."
   }
  ],
  "Karpuzlu (Yenikarpuzlu)": [
@@ -542,7 +548,7 @@
    "oneri": {
     "t": "1361-01-01"
    },
-   "not": "ABİ MERKEZ: İpsala (zincir İpsala'dan birebir). TDV Evrenosoğulları: İpsala 1361'de alındı (yıl) — atlas 1357. Karpuzlu'ya özgü tanık yok, BEYANLI YAKLAŞIKLIK."
+   "not": "KARAR EMRELİC (gece-79): Osmanlı 1361 (TDV Evrenosoğulları, ABİ MERKEZ İpsala) [yalnız yıl]; atlas 1357 düzelir. | ABİ MERKEZ: İpsala (zincir İpsala'dan birebir). TDV Evrenosoğulları: İpsala 1361'de alındı (yıl) — atlas 1357. Karpuzlu'ya özgü tanık yok, BEYANLI YAKLAŞIKLIK."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -557,7 +563,7 @@
    "oneri": {
     "f": "1361-01-01"
    },
-   "not": "ABİ MERKEZ İpsala; yıl 1361 (atlas 1357). t=1402-07-28 Ankara savaşı günü bu oturumda okunmadı."
+   "not": "KARAR EMRELİC (gece-79): Osmanlı 1361 (TDV Evrenosoğulları, ABİ MERKEZ İpsala) [yalnız yıl]; atlas 1357 düzelir. | ABİ MERKEZ İpsala; yıl 1361 (atlas 1357). t=1402-07-28 Ankara savaşı günü bu oturumda okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -656,7 +662,7 @@
     "d": "ingiltere",
     "f": "1914-11"
    },
-   "not": "TDV Tanzanya adaya ÖZGÜ: İngilizler Mafia'yı Kasım 1914'te ele geçirdi (askerî işgal) -> DA TEK KURAL: isg ingiltere 1914-11'den; s hukukî devirden (Versailles 1919: TDV yalnız yıl; imza 1919-06-28 TEK ÖLÇÜ, bu kaynakta yok). ÇİFT-TDV ÇELİŞKİSİ: TDV Kilve 'Kilve 1916 yılında İngiliz sömürgesi oldu' (atlas f 1916-09-19 bu şehre dayalı); Mafia kendi maddesi yok, Tanzanya maddesi adayı açıkça anar -> esas Tanzanya (1914-11 isg); Kilve beyanı not."
+   "not": "KARAR EMRELİC (gece-79): TDV Kilve maddesi Kilve için, Mafia'ya uygulanmaz; Mafia'nın İngiliz işgali (1915-01, kaynakla) ya da TDV Tanzanya 'Kasım 1914' → isg ingiltere → Versay 1919-06-28 s:; adaya özgü kaynakla gün seçilecek. | TDV Tanzanya adaya ÖZGÜ: İngilizler Mafia'yı Kasım 1914'te ele geçirdi (askerî işgal) -> DA TEK KURAL: isg ingiltere 1914-11'den; s hukukî devirden (Versailles 1919: TDV yalnız yıl; imza 1919-06-28 TEK ÖLÇÜ, bu kaynakta yok). ÇİFT-TDV ÇELİŞKİSİ: TDV Kilve 'Kilve 1916 yılında İngiliz sömürgesi oldu' (atlas f 1916-09-19 bu şehre dayalı); Mafia kendi maddesi yok, Tanzanya maddesi adayı açıkça anar -> esas Tanzanya (1914-11 isg); Kilve beyanı not."
   }
  ]
 }
