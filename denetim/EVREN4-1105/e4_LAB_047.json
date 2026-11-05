@@ -123,7 +123,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi arama sonuç sayfası (madde içi parça) — https://islamansiklopedisi.org.tr/arama/novgorod",
    "alinti": "Büyük Novgorod (1478), Pskov (1510)",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu (Novgorod'un Moskova'ya katılışı 1478) YIL düzeyinde tarihliyor; tek TDV arama parçası, gün 1478-01-15 teyitsiz. Dvina Toprağı/Holmogorı'nın Moskova'ya fiilî geçişi 1471 olabilir (arama özeti, okunmadı) -> ÜLKE DÜZEYİ şartı doğrulanamadı."
+   "not": "KARAR EMRELİC (gece-128): TDV 1478 esas (Novgorod'un katılışı); 1471 Şilenga/Korostın sonrası fiilî Moskova geçişi akademik kaynakla gösterilirse rakip hükûmet kuralıyla 1471; o zamana dek ic_not. | Alıntı yalnız t ucunu (Novgorod'un Moskova'ya katılışı 1478) YIL düzeyinde tarihliyor; tek TDV arama parçası, gün 1478-01-15 teyitsiz. Dvina Toprağı/Holmogorı'nın Moskova'ya fiilî geçişi 1471 olabilir (arama özeti, okunmadı) -> ÜLKE DÜZEYİ şartı doğrulanamadı."
   }
  ],
  "Huelva": [
@@ -213,7 +213,7 @@
    "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
    "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Hämeenlinna Häme Kalesi (13. yy) f için kaynak okunmadı."
+   "not": "KARAR EMRELİC (gece-128): İsveç t 1523-06-06 (Gustav Vasa'nın seçimi; SBL/Riksarkivet) ONAY. | ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Hämeenlinna Häme Kalesi (13. yy) f için kaynak okunmadı."
   }
  ],
  "Härnösand": [
@@ -230,7 +230,7 @@
    "oneri": {
     "kırp": "1281-01-01→1523-06-06 dönemi: Härnösand kenti 1585'te kuruldu"
    },
-   "not": "MERDİVEN ④: SNL kentin 1585'te kurulduğunu söylüyor -> 1523'ten önce yerleşim yok varsayımı; Härnön adasında eski yerleşim olabilir (SNL yalnız kent kuruluşu). Kırpma ONERI; isvec dönemi f'si 1585'e alınması ayrıca düşünülmeli. SBL ile t=1523-06-06 ülke düzeyi geçerli."
+   "not": "KARAR EMRELİC (gece-128): İsveç t 1523-06-06 ONAY; 1585 kuruluşu → merdiven ④: öncesi yerleşim yoksa kırp. | MERDİVEN ④: SNL kentin 1585'te kurulduğunu söylüyor -> 1523'ten önce yerleşim yok varsayımı; Härnön adasında eski yerleşim olabilir (SNL yalnız kent kuruluşu). Kırpma ONERI; isvec dönemi f'si 1585'e alınması ayrıca düşünülmeli. SBL ile t=1523-06-06 ülke düzeyi geçerli."
   }
  ],
  "Ica (Villa de Valverde)": [
@@ -335,7 +335,7 @@
    "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
    "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jokkmokk Lule Lappmark; kasaba/pazar 1605 (hint, okunmadı) -> 1281-1523'te yerleşim/İsveç idaresi belirsiz: merdiven ④ kontrol edilmeli."
+   "not": "KARAR EMRELİC (gece-128): İsveç t 1523-06-06 (Gustav Vasa'nın seçimi; SBL/Riksarkivet) ONAY. | ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jokkmokk Lule Lappmark; kasaba/pazar 1605 (hint, okunmadı) -> 1281-1523'te yerleşim/İsveç idaresi belirsiz: merdiven ④ kontrol edilmeli."
   }
  ],
  "Jyväskylä": [
@@ -350,7 +350,7 @@
    "kaynak": "Store norske leksikon, «Jyväskylä» — https://snl.no/Jyv%C3%A4skyl%C3%A4",
    "alinti": "Jyväskylä fikk bystatus i 1837",
    "oneri": {},
-   "not": "MERDİVEN ④ adayı: kent statüsü 1837; 1281-1523'te yerleşim olduğuna dair kaynak yok. Kırpma için ek kaynak gerekir; SNL yalnız bystatus verir. SBL ile t=1523-06-06 (ÜLKE DÜZEYİ) ayrıca geçerli."
+   "not": "KARAR EMRELİC (gece-128): İsveç t 1523-06-06 ONAY; 1837 kent statüsü → merdiven ④: öncesi yerleşim yoksa kırp; köy düzeyi kaynak bulunursa F-GERİ. | MERDİVEN ④ adayı: kent statüsü 1837; 1281-1523'te yerleşim olduğuna dair kaynak yok. Kırpma için ek kaynak gerekir; SNL yalnız bystatus verir. SBL ile t=1523-06-06 (ÜLKE DÜZEYİ) ayrıca geçerli."
   }
  ],
  "Jönköping": [
@@ -365,7 +365,7 @@
    "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
    "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jönköping şehir imtiyazı 1284 (Magnus Ladulås; 17/18 Mayıs 1284 arama özeti = ipucu) -> 1281-1284 arasında yerleşim vardı, f=1281 tabanı uyumlu."
+   "not": "KARAR EMRELİC (gece-128): İsveç t 1523-06-06 (Gustav Vasa'nın seçimi; SBL/Riksarkivet) ONAY. | ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jönköping şehir imtiyazı 1284 (Magnus Ladulås; 17/18 Mayıs 1284 arama özeti = ipucu) -> 1281-1284 arasında yerleşim vardı, f=1281 tabanı uyumlu."
   }
  ],
  "Kabansk": [
@@ -410,7 +410,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» — https://islamansiklopedisi.org.tr/altin-orda-hanligi",
    "alinti": "1241-1502 yılları arasında Deştikıpçak’ta hüküm süren bir Türk-Moğol devleti.",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ, yalnız t ucu ve YIL (1502; atlas 1502-03-01 gün teyitsiz). Kamışin kenti 17. yy kuruluşlu olabilir (kaynak okunmadı) -> merdiven ④: yerleşim 1502'de yok olabilir."
+   "not": "KARAR EMRELİC (gece-128): Merdiven ④: 17. yy kuruluşu kaynakla gösterilirse öncesi kırpılır, Altın Orda dilimi kalkar. | ÜLKE DÜZEYİ, yalnız t ucu ve YIL (1502; atlas 1502-03-01 gün teyitsiz). Kamışin kenti 17. yy kuruluşlu olabilir (kaynak okunmadı) -> merdiven ④: yerleşim 1502'de yok olabilir."
   }
  ],
  "Kangirsuk (Payne Irmağı)": [
@@ -425,9 +425,10 @@
    "kaynak": "Rupert's Land and North-Western Territory Order — https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
    "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
    "oneri": {
-    "t": "1870-07-15"
+    "t": "1870-07-15",
+    "not": "Rupert's Land ülke düzeyi BEYANLI"
    },
-   "not": "Ungava Rupert's Land içinde → Kanada'ya geçiş 1870-07-15 (Rupert's Land Order); 1880-09-01 (Adjacent Territories) yalnız Arktik adalar — Rupert's Land cümlesi okunacak. | Ungava/Payne Irmağı Rupert's Land'dedir (HBC); Kanada'ya katılış 1870-07-15. 1880-09-01 (Adjacent Territories Order) yalnız hâlâ İngiliz kalan topraklar/adalar içindir. Order'ın Rupert's Land cümlesi sayfa.py çıktısında okunmadı (NWT cümlesi okundu); kayıt zincirindeki alıntı bunu içeriyor. Quebec sınır uzatması 1912 ayrı."
+   "not": "KARAR EMRELİC (gece-128): Ungava: Arktik/antlaşmasız Inuit toprağı sınıfı (Emre listesi); bu gece 1870-07-15 Rupert's Land ülke düzeyi BEYANLI, ONERI; 1880 kalkar. | Ungava Rupert's Land içinde → Kanada'ya geçiş 1870-07-15 (Rupert's Land Order); 1880-09-01 (Adjacent Territories) yalnız Arktik adalar — Rupert's Land cümlesi okunacak. | Ungava/Payne Irmağı Rupert's Land'dedir (HBC); Kanada'ya katılış 1870-07-15. 1880-09-01 (Adjacent Territories Order) yalnız hâlâ İngiliz kalan topraklar/adalar içindir. Order'ın Rupert's Land cümlesi sayfa.py çıktısında okunmadı (NWT cümlesi okundu); kayıt zincirindeki alıntı bunu içeriyor. Quebec sınır uzatması 1912 ayrı."
   }
  ],
  "Kangiva (Nain iç bölgesi)": [
@@ -444,7 +445,7 @@
    "oneri": {
     "not": "Labrador zinciri (gece-126): ingiltere 1809 → newfoundland 1855 → komisyon 1934 → kanada 1949-03-31"
    },
-   "not": "ÖNCEKİ KARAR (gece-126 Labrador): 1880 Kanada geçişi geçersiz (Order Newfoundland'ı hariç tutar) → s: ingiltere 1809 → newfoundland-dominyonu 1855-01-01 → newfoundland-komisyon-hukumeti 1934-02-16 → kanada 1949-03-31; iç Labrador 1927 JCPC ic_not. | Order Newfoundland ve bağımlılıklarını AÇIKÇA hariç tutuyor (with the exception of the Colony of Newfoundland and its dependencies); Labrador Newfoundland bağımlılığıydı -> Kanada'ya geçiş 1880 değil (1949 katılım, okunmadı). Labrador için ayrı zincir gerekir."
+   "not": "KARAR EMRELİC (gece-128): Labrador zinciri (gece-126) ONAY. | ÖNCEKİ KARAR (gece-126 Labrador): 1880 Kanada geçişi geçersiz (Order Newfoundland'ı hariç tutar) → s: ingiltere 1809 → newfoundland-dominyonu 1855-01-01 → newfoundland-komisyon-hukumeti 1934-02-16 → kanada 1949-03-31; iç Labrador 1927 JCPC ic_not. | Order Newfoundland ve bağımlılıklarını AÇIKÇA hariç tutuyor (with the exception of the Colony of Newfoundland and its dependencies); Labrador Newfoundland bağımlılığıydı -> Kanada'ya geçiş 1880 değil (1949 katılım, okunmadı). Labrador için ayrı zincir gerekir."
   }
  ],
  "Kanngiqtugaapik (Clyde River)": [

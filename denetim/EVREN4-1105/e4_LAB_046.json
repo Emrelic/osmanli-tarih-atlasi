@@ -80,7 +80,7 @@
    "kaynak": "Bakılan: TDV 'sikkim' (arama: yalnız Hindistan maddesi parçası), constitution.org 36. Değişiklik metni",
    "alinti": "",
    "oneri": {},
-   "not": "Namgyal hanedanı/1642 (Phuntsog Namgyal) ve Gangtok'un başkentliği için kabul edilen akademik kaynak bulunamadı (TDV Sikkim maddesi yok). Britannica atlandı."
+   "not": "KARAR EMRELİC (gece-128): 36. Değişiklik yürürlük günü metinde yoksa 1975-05-16 kaynak açıkça veriyorsa KAYNAKLI-çekinceli, tahminse ONERI; kabul ve onay günleri ic_not. | Namgyal hanedanı/1642 (Phuntsog Namgyal) ve Gangtok'un başkentliği için kabul edilen akademik kaynak bulunamadı (TDV Sikkim maddesi yok). Britannica atlandı."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta2.js:40",
@@ -93,7 +93,7 @@
    "kaynak": "Constitution (Thirty-sixth Amendment) Act, 1975, md.1(2) — https://www.constitution.org/cons/india/tamnd36.htm",
    "alinti": "deemed to have come into force on the date on which the Bill",
    "oneri": {},
-   "not": "Kanun md.1(2): yürürlük, Tasarının Rajya Sabha'da (Council of States) kabul edildiği gündür (metin günü vermiyor); arama özetlerinde 26 Nisan 1975 ve 16 Mayıs 1975 (Gazete/yürürlük) çelişiyor, seçmiyorum. TEK ÖLÇÜ: Hindistan Mayıs 1975'te zaten fiilen yönetiyorsa imza/geçiş günü; 16 Mayıs günü kaynakta doğrulanamadı. Kanun metni birincil belge, gün bakımından çözümsüz."
+   "not": "KARAR EMRELİC (gece-128): 36. Değişiklik yürürlük günü metinde yoksa 1975-05-16 kaynak açıkça veriyorsa KAYNAKLI-çekinceli, tahminse ONERI; kabul ve onay günleri ic_not. | Kanun md.1(2): yürürlük, Tasarının Rajya Sabha'da (Council of States) kabul edildiği gündür (metin günü vermiyor); arama özetlerinde 26 Nisan 1975 ve 16 Mayıs 1975 (Gazete/yürürlük) çelişiyor, seçmiyorum. TEK ÖLÇÜ: Hindistan Mayıs 1975'te zaten fiilen yönetiyorsa imza/geçiş günü; 16 Mayıs günü kaynakta doğrulanamadı. Kanun metni birincil belge, gün bakımından çözümsüz."
   }
  ],
  "Garbahârey": [
@@ -164,7 +164,7 @@
    "kaynak": "Solomon Islands Historical Encyclopaedia 1893-1978 (ANU), 'British Solomon Islands Protectorate, Proclamation of' — https://solomonencyclopaedia.net/biogs/E000042b.htm ; 'Gizo' — https://solomonencyclopaedia.net/biogs/E000120b.htm",
    "alinti": "The Pacific Order in Council 1893, proclaimed on 15 March 1893, declared a Protectorate over the Solomon Islands",
    "oneri": {},
-   "not": "ÜÇ TARİH ÇELİŞİYOR, seçmiyorum: Pacific Order in Council 15 Mart 1893 (hukukî), naval ilan Haziran-Temmuz 1893 (ilk okunuş Mono 11 Haziran), Gizo'ya özgü idare: 1899'da ikinci hükûmet istasyonu kuruldu, yer temizliği Kasım 1899 ('no-man's land' — Batı Solomon 1893'te fiilî idare dışı olabilir). f=1893-01-01 yıl düzeyinde ortak yıl; gün için kaynak 1893-03-15 öneriyor ama Gizo özgü f 1899 olabilir (tahrir ölçütü: ayrıca sorulmalı). Himaye = v:/protektora, s: ingiltere; Solomon yerel polity yok."
+   "not": "KARAR EMRELİC (gece-128): Wajir mantığı: 1893 protektora ilanı ülke düzeyi; yerel fiilî İngiliz idaresi 1899 istasyonu (ANU/Solomon Encyclopaedia). Önce ölç: Gizo (New Georgia) 1893 ilanı kapsamında mı, 1899 Alman devri (kuzey Solomonlar) mi? Öncesi yerli s: (künye adayı) ONERI. | ÜÇ TARİH ÇELİŞİYOR, seçmiyorum: Pacific Order in Council 15 Mart 1893 (hukukî), naval ilan Haziran-Temmuz 1893 (ilk okunuş Mono 11 Haziran), Gizo'ya özgü idare: 1899'da ikinci hükûmet istasyonu kuruldu, yer temizliği Kasım 1899 ('no-man's land' — Batı Solomon 1893'te fiilî idare dışı olabilir). f=1893-01-01 yıl düzeyinde ortak yıl; gün için kaynak 1893-03-15 öneriyor ama Gizo özgü f 1899 olabilir (tahrir ölçütü: ayrıca sorulmalı). Himaye = v:/protektora, s: ingiltere; Solomon yerel polity yok."
   },
   {
    "dosya_satir": "data/yerlesimler_okyanusya.js:49",
@@ -177,7 +177,7 @@
    "kaynak": "Office of the Historian, Solomon Islands — https://history.state.gov/countries/solomon-islands",
    "alinti": "The United States recognized the Solomon Islands on July 7, 1978",
    "oneri": {},
-   "not": "history.state.gov yalnız 'tanıma' cümlesi veriyor (bağımsızlık yılı 1978 aynı sayfada; gün tanıma günü) — KAYNAKLI verilmedi. Bağımsızlık günü 1978-07-07 için bağımsız ikinci kaynak bu bütçede bulunamadı."
+   "not": "KARAR EMRELİC (gece-128): Wajir mantığı: 1893 protektora ilanı ülke düzeyi; yerel fiilî İngiliz idaresi 1899 istasyonu (ANU/Solomon Encyclopaedia). Önce ölç: Gizo (New Georgia) 1893 ilanı kapsamında mı, 1899 Alman devri (kuzey Solomonlar) mi? Öncesi yerli s: (künye adayı) ONERI. | history.state.gov yalnız 'tanıma' cümlesi veriyor (bağımsızlık yılı 1978 aynı sayfada; gün tanıma günü) — KAYNAKLI verilmedi. Bağımsızlık günü 1978-07-07 için bağımsız ikinci kaynak bu bütçede bulunamadı."
   }
  ],
  "Hadramut": [
@@ -195,7 +195,7 @@
     "d": "kesiri-sultanligi",
     "not": "iç vadi (Şibâm/Sayvan/Terîm) Kesîrî; Kuaytî yalnız sahil (TDV)"
    },
-   "not": "LAB SALI ölçümü: kesiri-sultanligi künyesi VAR (1450–1967). TDV: Kuaytîler 1881 sonunda yalnız sahili aldı, iç bölgeler Kesîrî'de → nokta 15.5K 48.5D iç vadide → s: kesiri-sultanligi (+ İngiliz himayesi v:, kaynakla). | TDV: Kuaytîler İngilizler desteğiyle 1881 sonunda Şihr ve Mükellâ dahil Hadramut SAHİLİNİ ele geçirdi (f yıl düzeyinde doğrulanır); ama iç bölgeler Kesîrîler'de kaldı (Şibâm, Sayvan, Terîm; 'Hadramut' noktası 15.5N 48.5E iç Vadi). Nokta iç bölgede ise kuayti-sultanligi sahibi yanlış olabilir: Kesîrî (Kathiri) sultanlığı künyesi için depo grep'lenmedi (bu ajan depoya dokunmaz) — künye sorusu LAB'a. 1888 İngiliz himayesi (Yâfiî sahil) v:. t=1967-11-30 için history.state.gov bağımsızlık günü (Güney Yemen) var; Kuaytî sultanlığı kendi sonu ayrıca kaynaklanmadı."
+   "not": "KARAR EMRELİC (gece-128): ONAY: TDV sahil/iç ayrımı uç kuralıyla Kuaytî'yi yener → s: kesiri-sultanligi + v: ingiltere (Kesîrî koruma antlaşması günü kaynakla, ~1918); öncesi yalnız s: kesiri. | LAB SALI ölçümü: kesiri-sultanligi künyesi VAR (1450–1967). TDV: Kuaytîler 1881 sonunda yalnız sahili aldı, iç bölgeler Kesîrî'de → nokta 15.5K 48.5D iç vadide → s: kesiri-sultanligi (+ İngiliz himayesi v:, kaynakla). | TDV: Kuaytîler İngilizler desteğiyle 1881 sonunda Şihr ve Mükellâ dahil Hadramut SAHİLİNİ ele geçirdi (f yıl düzeyinde doğrulanır); ama iç bölgeler Kesîrîler'de kaldı (Şibâm, Sayvan, Terîm; 'Hadramut' noktası 15.5N 48.5E iç Vadi). Nokta iç bölgede ise kuayti-sultanligi sahibi yanlış olabilir: Kesîrî (Kathiri) sultanlığı künyesi için depo grep'lenmedi (bu ajan depoya dokunmaz) — künye sorusu LAB'a. 1888 İngiliz himayesi (Yâfiî sahil) v:. t=1967-11-30 için history.state.gov bağımsızlık günü (Güney Yemen) var; Kuaytî sultanlığı kendi sonu ayrıca kaynaklanmadı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1410",
@@ -208,7 +208,7 @@
    "kaynak": "Office of the Historian, Yemen — https://history.state.gov/countries/yemen",
    "alinti": "People’s Republic of Southern Yemen gained independence on November 30, 1967",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f=1967-11-30 teyitli (devletin resmî tarih yayını, 'gained independence' cümlesi, tanıma değil). TDV Yemen de 1967 bağımsızlığını yıl düzeyinde verir. Hadramut'un o günde NLF/Güney Yemen'e katılımı ayrıca kaynaklanmadı (iç sultanlıklar Eylül 1967'de devrildi — kaynaksız bilgi)."
+   "not": "KARAR EMRELİC (gece-128): ONAY: TDV sahil/iç ayrımı uç kuralıyla Kuaytî'yi yener → s: kesiri-sultanligi + v: ingiltere (Kesîrî koruma antlaşması günü kaynakla, ~1918); öncesi yalnız s: kesiri. | ÜLKE DÜZEYİ: f=1967-11-30 teyitli (devletin resmî tarih yayını, 'gained independence' cümlesi, tanıma değil). TDV Yemen de 1967 bağımsızlığını yıl düzeyinde verir. Hadramut'un o günde NLF/Güney Yemen'e katılımı ayrıca kaynaklanmadı (iç sultanlıklar Eylül 1967'de devrildi — kaynaksız bilgi)."
   }
  ],
  "Fort Resolution (Deninu Kų́ę́)": [
@@ -225,7 +225,7 @@
    "oneri": {
     "f": "1819-01-01"
    },
-   "not": "Kaynakta 1786 yok: Fort Resolution 1819'da HBC (Aualay McAulay) tarafından kuruldu; öncülü Grant's Slave Fort 1791'de Slave Nehri ağzı yakınına yerleşti (aynı sayfa). Yer adı Fort Resolution olduğu için 1819 öneriliyor; alternatif 1791 (Grant's post). Yalnız yıl. t=1870-07-15 (Rupert's Land devri) zincirdeki Kanada Konsey Kararı ile hizalı."
+   "not": "KARAR EMRELİC (gece-128): 1819 ONAY (kaynak DCB ya da Parks Canada ise). | Kaynakta 1786 yok: Fort Resolution 1819'da HBC (Aualay McAulay) tarafından kuruldu; öncülü Grant's Slave Fort 1791'de Slave Nehri ağzı yakınına yerleşti (aynı sayfa). Yer adı Fort Resolution olduğu için 1819 öneriliyor; alternatif 1791 (Grant's post). Yalnız yıl. t=1870-07-15 (Rupert's Land devri) zincirdeki Kanada Konsey Kararı ile hizalı."
   }
  ],
  "Fort Riley (Kansas Irmağı)": [
@@ -235,14 +235,14 @@
    "d": "abd",
    "f": "1853-01-01",
    "t": "2000-12-31",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "uc": "f",
    "kaynak": "Kansas Historical Society (devlet kurumu), Kansapedia 'Fort Riley' — https://www.kansashistory.gov/kansapedia/fort-riley/16801",
    "alinti": "Fort Riley was established in 1852 along the Santa Fe Trail",
    "oneri": {
     "f": "1852-01-01"
    },
-   "not": "Kansapedia kuruluşu 1852 veriyor (atlas 1853). Kurum/dernek sınıfı olduğundan KAYNAKLI verilmedi; Ordu kaynakları 1852 (Camp Center) / 1853 (Fort Riley adı) ayrımı yapabilir — çelişki seçilmedi, yalnız yıl. ABD egemenliği Louisiana Satın Alması 1803 (bu oturumda kaynaklanmadı)."
+   "not": "KARAR EMRELİC (gece-128): Kansas Historical Society eyalet kurumu → resmî yayın sınıfı, KAYNAKLI (f 1852). | Kansapedia kuruluşu 1852 veriyor (atlas 1853). Kurum/dernek sınıfı olduğundan KAYNAKLI verilmedi; Ordu kaynakları 1852 (Camp Center) / 1853 (Fort Riley adı) ayrımı yapabilir — çelişki seçilmedi, yalnız yıl. ABD egemenliği Louisiana Satın Alması 1803 (bu oturumda kaynaklanmadı)."
   }
  ],
  "Fort Snelling (Bdote)": [
@@ -289,7 +289,7 @@
    "oneri": {
     "f": "1685-01-01"
    },
-   "not": "Kaynakta 1679 yok: ilk kale Yeni Fransa hükûmetince 'yaklaşık 1685'te yapıldı, 1690'larda kapandı, 1720'de yeniden kuruldu (Parks Canada kültür sayfası: 'in 1720, the authorities of New France allowed the establishment of the first trading post on the current site'). Merdiven ④: 1690'lar-1720 arası yer yok olabilir. Yalnız yıl, 'yaklaşık'. Seçim: 1685 (ilk kale) vs 1720 (mevcut mevki)."
+   "not": "KARAR EMRELİC (gece-128): ~1685 (Parks Canada) ONAY; 1690'lar–1720 yerleşim gerçekten boşaldıysa kırp (merdiven ④), karakol yeniden açılınca yeni dilim. | Kaynakta 1679 yok: ilk kale Yeni Fransa hükûmetince 'yaklaşık 1685'te yapıldı, 1690'larda kapandı, 1720'de yeniden kuruldu (Parks Canada kültür sayfası: 'in 1720, the authorities of New France allowed the establishment of the first trading post on the current site'). Merdiven ④: 1690'lar-1720 arası yer yok olabilir. Yalnız yıl, 'yaklaşık'. Seçim: 1685 (ilk kale) vs 1720 (mevcut mevki)."
   }
  ],
  "Fort Union Trading Post": [
@@ -484,7 +484,7 @@
    "kaynak": "Parliament of Bermuda, 'History of the Legislature' — https://parliament.bm/about/view/12 ; The Royal Gazette (gazete) 16 Ocak 1815",
    "alinti": "The first gathering of the Assembly took place in the Town Hall on Front Street on the 13th January 1815",
    "oneri": {},
-   "not": "ÇELİŞKİ, seçmiyorum: Parlamento sitesi Hamilton'ın 1815'te başkent olduğunu ve Meclis'in ilk toplantısının 13 Ocak 1815'te Hamilton Town Hall'da olduğunu söylüyor; zincirdeki Royal Gazette 16 Ocak 1815; BlackPast 23 Ocak. f yıl 1815 teyitli. Dönem f'si başkentlik günüdür (Bermuda İngiliz egemenliğinde 1612'den beri; nokta kuruluşu 1790/1793)."
+   "not": "KARAR EMRELİC (gece-128): 1815-01-13 ilk Meclis (olay günü); Royal Gazette 16 Ocak haber günü, ic_not. | ÇELİŞKİ, seçmiyorum: Parlamento sitesi Hamilton'ın 1815'te başkent olduğunu ve Meclis'in ilk toplantısının 13 Ocak 1815'te Hamilton Town Hall'da olduğunu söylüyor; zincirdeki Royal Gazette 16 Ocak 1815; BlackPast 23 Ocak. f yıl 1815 teyitli. Dönem f'si başkentlik günüdür (Bermuda İngiliz egemenliğinde 1612'den beri; nokta kuruluşu 1790/1793)."
   }
  ],
  "Hartford": [
