@@ -50,6 +50,11 @@
   - KASA okuması: UN Dag Hammarskjöld Kütüphanesi'nin GA 11. oturum karar dizini (research.un.org/en/docs/ga/quick/regular/11), ham metin: «A/RES/1044(XI) C.4 39 A/PV.619 13 Dec. 1956 64-0-9 A/3449 The future of Togoland under British administration».
   - Karar metninin kendisi okunamadı: docs.un.org yalnız görüntüleyici kabuğu döndürüyor, digitallibrary.un.org robots ile yasaklı.
   - Dizin kararın günü ile konusunu teyit ediyor, ama vesayetin Gold Coast bağımsızlığıyla sona ermesini (1957-03-06) tarihleyen cümle okunmadı → **ONERI** kalır, kaynak alanına karar künyesi yazılır. Metin TARAYICI listesinde.
+  - ✅ **GÜNCELLEME (EMRELİC yolu):** PDF `documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf` alındı, KASA pypdf ile ham metni çıkardı (1 sayfa).
+    - Önsöz: «… the Gold Coast shall become independent on 6 March 1957».
+    - İşlem paragrafı 2: «Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement … shall cease to be in force».
+    - → Ho, Hohoe ve Kpando `gana` 1957-03-06 **KAYNAKLI** (BM resmî; OCR tireleri birleştirildi). JSON güncellendi.
+    - Not: aynı sayfadaki Fransız Togo metni (Decree No. 56-847 of 24 August 1956) **A/RES/1046 (XI)**'dir, 1044 değil. Fransız Togo zinciri için kaynak adayı.
 - **San Salvador:** ÇELİŞKİ beyanlı, künye 1841.
 
 ## Açık kalemler

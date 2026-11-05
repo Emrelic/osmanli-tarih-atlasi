@@ -872,11 +872,11 @@
      "d": "gana",
      "f": "1957-03-06",
      "t": "2000-12-31",
-     "hukum": "ONERI",
+     "hukum": "KAYNAKLI",
      "uc": "t",
-     "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6) s.1: 'appointed day' = 6 Mart 1957 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted; sayfa.py ham) ; TDV 'Gana': Altın Sahili 6 Mart 1957'de Gana adıyla bağımsız oldu",
-     "alinti": "The territories included immediately before the appointed day in the Gold Coast as defined in and for the purposes of the Gold Coast (Constitution) Order in Council, 1954, shall as from that day together form part of Her Majesty's dominions under the name of Ghana",
-     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik."
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
     }
    ],
    "bit_onerisi": null,
@@ -901,11 +901,11 @@
      "d": "gana",
      "f": "1957-03-06",
      "t": "2000-12-31",
-     "hukum": "ONERI",
+     "hukum": "KAYNAKLI",
      "uc": "t",
-     "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6) s.1: 'appointed day' = 6 Mart 1957 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted; sayfa.py ham) ; TDV 'Gana': Altın Sahili 6 Mart 1957'de Gana adıyla bağımsız oldu",
-     "alinti": "The territories included immediately before the appointed day in the Gold Coast as defined in and for the purposes of the Gold Coast (Constitution) Order in Council, 1954, shall as from that day together form part of Her Majesty's dominions under the name of Ghana",
-     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik."
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
     }
    ],
    "bit_onerisi": null,
@@ -1203,11 +1203,11 @@
      "d": "gana",
      "f": "1957-03-06",
      "t": "2000-12-31",
-     "hukum": "ONERI",
+     "hukum": "KAYNAKLI",
      "uc": "t",
-     "kaynak": "Ghana Independence Act 1957 (5&6 Eliz.2 c.6) s.1: 'appointed day' = 6 Mart 1957 (legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted; sayfa.py ham) ; TDV 'Gana': Altın Sahili 6 Mart 1957'de Gana adıyla bağımsız oldu",
-     "alinti": "The territories included immediately before the appointed day in the Gold Coast as defined in and for the purposes of the Gold Coast (Constitution) Order in Council, 1954, shall as from that day together form part of Her Majesty's dominions under the name of Ghana",
-     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik."
+     "kaynak": "BM Genel Kurulu, A/RES/1044 (XI), «The future of Togoland under British administration», 13 Aralık 1956 (documents.un.org/api/symbol/access?s=A/RES/1044(XI)&l=en&t=pdf; KASA pypdf ile ham metinden, gece-123)",
+     "alinti": "Having been informed by the Administering Authority that it is the intention of the Government of the United Kingdom of Great Britain and Northern Ireland that the Gold Coast shall become independent on 6 March 1957, | 2. Resolves, with the agreement of the Administering Authority, that, on the date on which the Gold Coast becomes independent and the union with it of the Territory of Togoland under British administration takes place, the Trusteeship Agreement approved by the General Assembly in resolution 63 (I) of 13 December 1946 shall cease to be in force, the objectives of trusteeship having been attained ;",
+     "not": "Alıntı Gana'nın 6 Mart 1957 doğuşunu tarihler; İngiliz Togolandı'nın bu tanıma dahil olduğu (1954 Order in Council tanımı) okunmadı ve BM Genel Kurulu 1044 (XI) 403 verdi -> Togoland'ın katılış günü için KAYNAKLI verilmedi. 1956-05-09 plebisiti ic_not. Gana künyesi f 1957-03-06, bitişik. | gece-123: BM 1044 (XI) okundu (EMRELİC yönlendirmesi, KASA ham doğrulama): işlem paragrafı 2 vesayetin Gold Coast bağımsızlığı ve birleşme gününde sona ermesini, önsöz o günü 6 March 1957 olarak veriyor → KAYNAKLI. OCR satır sonu tireleri birleştirildi ('Administer- ing', 'administra- tion')."
     }
    ],
    "bit_onerisi": null,
