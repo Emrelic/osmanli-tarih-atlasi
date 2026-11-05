@@ -151,6 +151,30 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-102 — halef_1946 eşleşme ölçümü (HALEF1946-ESLESME.tsv; yalnız ölçüm)
+
+- **Bantustanlar:** atlas emsali (4 bantustan → GAC 1994) bunları `s:` olarak yazıyor. Draç emsaline göre de ilan eden hükûmet orayı fiilen yönetiyordu. Bu yüzden `s: transkei` kalır; tanınmadığı `ic_not`a yazılır. Sınıf sorusu Emre'nin listesine "tanınmayan kukla devletler" olarak girer.
+- **Masvingo:** egemenlik zinciri boş. Ayrı bir kalem olarak listeye eklendi.
+- **Ölçüm (KASA, güncel girdi):** `yerlesimler_halef_1946.js` dosyasında 139 nokta var.
+  - **Yalnız 3'ü başka bir kayıtla 3 km içinde eşleşiyor.**
+
+    | Katman noktası | Ana kayıt | Uzaklık | Eşleşme |
+    |---|---|---|---|
+    | Bulawayo | Bulavayo | 0.31 km | yalnız 3 km |
+    | Butterworth | Gcuva | 1.04 km | ad + 3 km |
+    | Bangassou | Bangassu | 0.25 km | yalnız 3 km |
+
+    - Üçünde de katman dilimi ana zincirde başka bir sahiple çakışıyor. Taşınırsa ana dönem bölünür:
+      - Bulavayo'da `ingiltere` bölünür.
+      - Gcuva'da GAC bölünür.
+      - Bangassu'da `orta-afrika-cumhuriyeti` bölünür.
+    - **Değişmez 2:** taşınan dilimlerin bütün uçlarında ±30 gün içinde kronoloji maddesi VAR (künye maddeleri). Yeni D2 ihlali çıkmaz.
+    - **Petek etkisi (bugün):** dilim süresince aynı yerde iki nokta iki farklı renk taşıyor (katmanın sahibi ve ananın sahibi), yani bölge ikiye bölünüyor. Dilim dışında katman noktası sahipsiz (Değişmez 1 deliği adayı). Ölçüm girdi.yukle ile tarihli sahiplik sayılarak yapıldı; motor çıktısı ölçülmedi.
+  - **136 nokta eşleşmiyor:** bunlar gerçekten ayrı yerler (3 km içinde başka kayıt yok).
+    - 99'u tek dönemli, 37'si 2-7 dönemli.
+    - İlk dönemleri çoğunlukla 19xx (103), ötekileri 16xx-18xx (27) ve 10xx-12xx (6).
+    - Yani dosyanın büyük kısmı "katman" değil, 1946 sonrası halef devletler için eklenmiş bağımsız noktalar. "Ardılsız" çıkmalarının sebebi, zincirlerinin bağımsızlıktan sonra sürdürülmemiş olması (ARDIL ajanı doldurdu).
+
 ## 5 Kasım 2026 gece-101 — ardılsız 71 (e4_KASA_ARDIL.json)
 
 - **Halef listesi ONAY.** Kaynaksız, emsalle yazılan 6 satır ONERI kalır: Enugu, İçkerya, Swat, Pasundan, DSE, Brazzaville/AEF.

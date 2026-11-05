@@ -1,0 +1,140 @@
+eslesme	katman_ad	lat	lon	ana_ad	ana_dosya	km	katman_dilimleri	ana_zincirde_ayni	tasinca_cakisma_ya_da_bosluk	D2 (±30 gün madde)	petek_etkisi
+ESLESMEDI	San José (Kosta Rika)	9.933	-84.08				kosta-rika-cumhuriyeti 1838-01-01→2000-12-31				
+ESLESMEDI	Cartago (Kosta Rika)	9.864	-83.921				kosta-rika-cumhuriyeti 1838-01-01→2000-12-31				
+ESLESMEDI	Puntarenas	9.977	-84.835				kosta-rika-cumhuriyeti 1838-01-01→2000-12-31				
+ESLESMEDI	Limón (Puerto Limón)	9.991	-83.03				kosta-rika-cumhuriyeti 1838-01-01→2000-12-31				
+ESLESMEDI	San Salvador	13.698	-89.191				el-salvador-cumhuriyeti 1841-01-01→2000-12-31				
+ESLESMEDI	Santa Ana (El Salvador)	13.972	-89.561				el-salvador-cumhuriyeti 1841-01-01→2000-12-31				
+ESLESMEDI	San Miguel (El Salvador)	13.48	-88.177				el-salvador-cumhuriyeti 1841-01-01→2000-12-31				
+ESLESMEDI	La Unión (El Salvador)	13.337	-87.843				el-salvador-cumhuriyeti 1841-01-01→2000-12-31				
+ESLESMEDI	Brazzaville	-4.269	15.271				fransiz-ekvator-afrikasi 1910-01-15→1958-01-01				
+ESLESMEDI	Nador	35.174	-2.937				fas-ispanyol-himayesi 1912-11-27→1956-04-07				
+ESLESMEDI	Bir Lahlu (Bir Lehlou)	26.349	-9.577				sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31				
+ESLESMEDI	Tifariti	26.159	-10.559				sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31				
+ESLESMEDI	Juba	4.855	31.605				guney-sudan-ozerk-bolge 1972-02-27→1983-06-05				
+ESLESMEDI	Çake Çake (Pemba)	-5.2442	39.7663				svahili-sehirleri 1281-01-01→1503-01-01 | portekiz 1503-01-01→1698-12-13 | umman-zengibar 1698-12-13→1963-12-10 | zengibar-bagimsiz-sultanlik 1963-12-10→1964-01-12 | zengibar-halk-cumhuriyeti 1964-01-12→1964-04-26 | tanzanya 1964-04-26→2000-12-31				
+ESLESMEDI	Moroni	-11.702	43.256				__BOSLUK__ 1281-01-01→1886-01-01 | fransiz-komorlari 1886-01-01→1975-07-06 | komorlar 1975-07-06→2000-12-31				
+ESLESMEDI	Fomboni (Mohéli)	-12.287	43.744				__BOSLUK__ 1281-01-01→1886-01-01 | fransiz-komorlari 1886-01-01→1975-07-06 | komorlar 1975-07-06→2000-12-31				
+ESLESMEDI	Mutsamudu (Anjuan)	-12.167	44.4				__BOSLUK__ 1281-01-01→1886-01-01 | fransiz-komorlari 1886-01-01→1975-07-06 | komorlar 1975-07-06→1997-08-03 | anjuan-devleti 1997-08-03→2000-12-31				
+ESLESMEDI	Port Louis	-20.162	57.499				fransa 1735-01-01→1792-09-22 | fransa-cumhuriyet 1792-09-22→1810-12-03 | ingiliz-mauritius 1810-12-03→1968-03-12 | morityus 1968-03-12→2000-12-31				
+ESLESMEDI	Lusaka	-15.387	28.323				rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31				
+YALNIZ_3KM	Bulawayo	-20.15	28.583	Bulavayo	yerlesimler_afrika2.js	0.31	rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31		rodezya-nyasaland-federasyonu 1953-08-01→1963-12-31 ana'da s:ingiltere	f1953-08-01:VAR t1963-12-31:VAR	1953-08-01 günü iki nokta iki renk: katman rodezya-nyasaland-federasyonu / ana s:ingiltere ; son dilim 1963-12-31 → bit 2000-12-31 arası SAHİPSİZ
+AD+3KM	Butterworth	-32.331	28.139	Gcuva (Butterworth)	yerlesimler_afrika2.js	1.04	transkei 1976-10-26→1994-04-27		transkei 1976-10-26→1994-04-27 ana'da s:guney-afrika-cumhuriyeti	f1976-10-26:VAR t1994-04-27:VAR	1976-10-26 günü iki nokta iki renk: katman transkei / ana s:guney-afrika-cumhuriyeti ; son dilim 1994-04-27 → bit 2000-12-31 arası SAHİPSİZ
+ESLESMEDI	Ga-Rankuwa	-25.617	28.008				bophuthatswana 1977-12-06→1994-04-27				
+ESLESMEDI	Thohoyandou	-22.945	30.485				venda-bantustan 1979-09-13→1994-04-27				
+ESLESMEDI	Bisho	-32.847	27.442				ciskei 1981-12-04→1994-04-27				
+ESLESMEDI	Mbabane	-26.317	31.133				ingiliz-svaziland 1903-01-01→1968-09-06				
+ESLESMEDI	Manzini	-26.498	31.38				ingiliz-svaziland 1903-01-01→1968-09-06				
+ESLESMEDI	Ho (Togoland)	6.601	0.471				ingiliz-togoland 1922-07-20→1957-03-06				
+ESLESMEDI	Hohoe	7.152	0.473				ingiliz-togoland 1922-07-20→1957-03-06				
+ESLESMEDI	Kpando	6.995	0.293				ingiliz-togoland 1922-07-20→1957-03-06				
+ESLESMEDI	Lomé	6.131	1.223				fransiz-togo 1922-07-20→1960-04-27				
+ESLESMEDI	Atakpamé	7.533	1.133				fransiz-togo 1922-07-20→1960-04-27				
+ESLESMEDI	Sokodé	8.983	1.133				fransiz-togo 1922-07-20→1960-04-27				
+ESLESMEDI	Kara (Togo)	9.551	1.187				fransiz-togo 1922-07-20→1960-04-27				
+ESLESMEDI	Enugu	6.441	7.499				biafra 1967-05-30→1967-10-04				
+ESLESMEDI	Umuahia	5.532	7.486				biafra 1967-05-30→1970-01-15				
+ESLESMEDI	Aba (Nijerya)	5.107	7.367				biafra 1967-05-30→1970-01-15				
+ESLESMEDI	Owerri	5.485	7.035				biafra 1967-05-30→1970-01-15				
+ESLESMEDI	Praia	14.933	-23.513				yesilburun 1975-07-05→2000-12-31				
+ESLESMEDI	Mindelo	16.886	-24.988				yesilburun 1975-07-05→2000-12-31				
+ESLESMEDI	Espargos (Sal)	16.754	-22.944				yesilburun 1975-07-05→2000-12-31				
+ESLESMEDI	Buea	4.153	9.243				ingiliz-kamerun 1922-07-20→1961-10-01				
+ESLESMEDI	Bamenda	5.959	10.146				ingiliz-kamerun 1922-07-20→1961-10-01				
+ESLESMEDI	Kumba	4.636	9.446				ingiliz-kamerun 1922-07-20→1961-10-01				
+ESLESMEDI	Berbérati	4.261	15.792				orta-afrika-imparatorlugu 1976-12-04→1979-09-20				
+YALNIZ_3KM	Bangassou	4.741	22.818	Bangassu	yerlesimler_afrika2.js	0.25	orta-afrika-imparatorlugu 1976-12-04→1979-09-20		orta-afrika-imparatorlugu 1976-12-04→1979-09-20 ana'da s:orta-afrika-cumhuriyeti	f1976-12-04:VAR t1979-09-20:VAR	1976-12-04 günü iki nokta iki renk: katman orta-afrika-imparatorlugu / ana s:orta-afrika-cumhuriyeti ; son dilim 1979-09-20 → bit 2000-12-31 arası SAHİPSİZ
+ESLESMEDI	Bata	1.865	9.766				ekvator-ginesi 1968-10-12→2000-12-31				
+ESLESMEDI	Elisabethville (Lubumbashi)	-11.664	27.479				katanga 1960-07-11→1963-01-14 | kongo-kinsasa 1963-01-14→2000-12-31				
+ESLESMEDI	Jadotville (Likasi)	-10.983	26.733				katanga 1960-07-11→1963-01-14 | kongo-kinsasa 1963-01-14→2000-12-31				
+ESLESMEDI	Akrotiri	34.585	32.958				akrotiri-dekelya 1960-08-16→2000-12-31				
+ESLESMEDI	Episkopi	34.664	32.903				akrotiri-dekelya 1960-08-16→2000-12-31				
+ESLESMEDI	Naha	26.212	127.679				ryukyu-abd-idaresi 1945-04-01→1972-05-15 | japonya-devleti 1972-05-15→2000-12-31				
+ESLESMEDI	Nago	26.592	127.977				ryukyu-abd-idaresi 1945-04-01→1972-05-15 | japonya-devleti 1972-05-15→2000-12-31				
+ESLESMEDI	Hirara (Miyakojima)	24.805	125.281				ryukyu-abd-idaresi 1945-04-01→1972-05-15 | japonya-devleti 1972-05-15→2000-12-31				
+ESLESMEDI	Ishigaki	24.341	124.156				ryukyu-abd-idaresi 1945-04-01→1972-05-15 | japonya-devleti 1972-05-15→2000-12-31				
+ESLESMEDI	Xam Nua (Sam Neua)	20.416	104.046				pathet-lao-hukumeti 1950-08-13→1975-12-02 | laos-demokratik-halk-cumhuriyeti 1975-12-02→2000-12-31				
+ESLESMEDI	Vieng Xai	20.416	104.2				pathet-lao-hukumeti 1950-08-13→1975-12-02 | laos-demokratik-halk-cumhuriyeti 1975-12-02→2000-12-31				
+ESLESMEDI	Phongsali	21.683	102.113				pathet-lao-hukumeti 1950-08-13→1975-12-02 | laos-demokratik-halk-cumhuriyeti 1975-12-02→2000-12-31				
+ESLESMEDI	Bandung	-6.917	107.619				pasundan-devleti 1948-02-26→1950-03-11				
+ESLESMEDI	Tasikmalaya	-7.327	108.22				pasundan-devleti 1948-02-26→1950-03-11				
+ESLESMEDI	Sukabumi	-6.927	106.93				pasundan-devleti 1948-02-26→1950-03-11				
+ESLESMEDI	Melekeok (Babeldaob)	7.5	134.624				palau 1981-01-01→2000-12-31				
+ESLESMEDI	Schwerin	53.635	11.401				almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03				
+ESLESMEDI	Cottbus	51.763	14.334				almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03				
+ESLESMEDI	Karl-Marx-Stadt (Chemnitz)	50.833	12.92				almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03				
+ESLESMEDI	Frankfurt (Oder)	52.347	14.55				almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03				
+ESLESMEDI	Batı Berlin (Charlottenburg)	52.507	13.332				berlin-bati 1948-12-07→1990-10-03				
+ESLESMEDI	Spandau (Batı Berlin)	52.535	13.2				berlin-bati 1948-12-07→1990-10-03				
+ESLESMEDI	Vitsi (Grammos-Vitsi, DSE üssü)	40.583	21.3				yunanistan-gecici-demokratik-hukumet 1947-12-24→1949-08-28				
+ESLESMEDI	Grammos (DSE üssü)	40.333	20.833				yunanistan-gecici-demokratik-hukumet 1947-12-24→1949-08-28				
+ESLESMEDI	Koper (Capodistria, B bölgesi)	45.548	13.73				triyeste-serbest-toprak 1947-09-15→1954-10-26				
+ESLESMEDI	Umag (B bölgesi)	45.434	13.521				triyeste-serbest-toprak 1947-09-15→1954-10-26				
+ESLESMEDI	Glina	45.336	16.094				sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07				
+ESLESMEDI	Korenica	44.753	15.708				sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07				
+ESLESMEDI	Benkovac	44.034	15.613				sirp-krajina-cumhuriyeti 1991-12-19→1995-08-07				
+ESLESMEDI	Vukovar	45.351	19.002				dogu-slavonya-untaes 1996-01-15→1998-01-15				
+ESLESMEDI	Beli Manastir	45.77	18.61				dogu-slavonya-untaes 1996-01-15→1998-01-15				
+ESLESMEDI	Ilok	45.223	19.372				dogu-slavonya-untaes 1996-01-15→1998-01-15				
+ESLESMEDI	Pale	43.815	18.573				bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14				
+ESLESMEDI	Bijeljina	44.757	19.215				avusturya 1908-10-05→1918-11-11 | sirbistan-kralligi 1918-11-11→1918-12-01 | yugoslavya 1918-12-01→1941-04-10 | hirvatistan-bagimsiz 1941-04-10→1945-05-31 | yugoslavya 1945-05-31→1945-11-29 | yugoslavya-federal 1945-11-29→1992-01-09 | bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14				
+ESLESMEDI	Doboj	44.731	18.087				bosna-sirp-cumhuriyeti 1992-01-09→1995-12-14				
+ESLESMEDI	Çapljina (Čapljina)	43.113	17.705				herzeg-bosna 1991-11-18→1996-08-14				
+ESLESMEDI	Posušje	43.471	17.327				herzeg-bosna 1991-11-18→1996-08-14				
+ESLESMEDI	Vitez	44.151	17.792				herzeg-bosna 1991-11-18→1996-08-14				
+ESLESMEDI	Orašje	45.034	18.694				avusturya 1908-10-05→1918-11-11 | sirbistan-kralligi 1918-11-11→1918-12-01 | yugoslavya 1918-12-01→1941-04-10 | hirvatistan-bagimsiz 1941-04-10→1945-05-31 | yugoslavya 1945-05-31→1945-11-29 | yugoslavya-federal 1945-11-29→1991-11-18 | herzeg-bosna 1991-11-18→1996-08-14				
+ESLESMEDI	Mitroviça (Mitrovicë)	42.879	20.866				kosova-golge-cumhuriyeti 1991-09-22→1999-06-10				
+ESLESMEDI	Peç (Pejë)	42.659	20.289				sirbistan 1281-01-01→1456-01-01 | karadag 1913-05-30→1918-11-26 | sirbistan-kralligi 1918-11-26→1918-12-01 | yugoslavya 1918-12-01→1945-11-29 | yugoslavya-federal 1945-11-29→1991-09-22 | kosova-golge-cumhuriyeti 1991-09-22→1999-06-10 | unmik-kosova 1999-06-10→2000-12-31				
+ESLESMEDI	Gilan (Gjilan)	42.464	21.469				kosova-golge-cumhuriyeti 1991-09-22→1999-06-10				
+ESLESMEDI	Tiraspol	46.837	29.611				transdinyester 1990-09-02→2000-12-31				
+ESLESMEDI	Rîbnița (Rıbnitsa)	47.766	29.007				transdinyester 1990-09-02→2000-12-31				
+ESLESMEDI	Dubăsari (Dubossari)	47.266	29.162				transdinyester 1990-09-02→2000-12-31				
+ESLESMEDI	Slobozia (Transdinyester)	46.728	29.709				transdinyester 1990-09-02→2000-12-31				
+ESLESMEDI	Tskhinvali (Çinvali)	42.226	43.97				guney-osetya 1992-05-29→2000-12-31				
+ESLESMEDI	Java (Dzau)	42.39	43.923				guney-osetya 1992-05-29→2000-12-31				
+ESLESMEDI	Znaur	42.225	43.736				guney-osetya 1992-05-29→2000-12-31				
+ESLESMEDI	Hankendi (Stepanakert)	39.818	46.751				daglik-karabag 1991-09-02→2000-12-31				
+ESLESMEDI	Ağdere (Martakert)	40.21	46.823				daglik-karabag 1991-09-02→2000-12-31				
+ESLESMEDI	Hadrut	39.519	47.031				daglik-karabag 1991-09-02→2000-12-31				
+ESLESMEDI	Askeran	39.938	46.835				daglik-karabag 1991-09-02→2000-12-31				
+ESLESMEDI	Grozni (Groznıy)	43.309	45.707				ickerya 1991-11-01→2000-02-06				
+ESLESMEDI	Gudermes	43.349	46.096				ickerya 1991-11-01→2000-02-06				
+ESLESMEDI	Şali (Shali)	43.154	45.907				ickerya 1991-11-01→2000-02-06				
+ESLESMEDI	Urus-Martan	43.133	45.538				ickerya 1991-11-01→2000-02-06				
+ESLESMEDI	Güzelyurt (Morphou)	35.199	32.993				kibris-ingiliz-kolonisi 1914-11-05→1960-08-16 | kibris-cumhuriyeti 1960-08-16→1975-02-13 | kibris-turk-federe-devleti 1975-02-13→1983-11-15 | kktc 1983-11-15→2000-12-31				
+ESLESMEDI	Dikelya (Dhekelia)	34.991	33.733				kibris-ingiliz-ussler 1960-08-16→2000-12-31				
+ESLESMEDI	Tórshavn	62.01	-6.772				norvec-kralligi 1035-01-01→1537-01-01 | danimarka 1537-01-01→1948-04-01 | feroe-adalari 1948-04-01→2000-12-31				
+ESLESMEDI	Klaksvík	62.2272	-6.5811				feroe-adalari 1948-04-01→2000-12-31				
+ESLESMEDI	Vágur	61.474	-6.811				feroe-adalari 1948-04-01→2000-12-31				
+ESLESMEDI	Chaguaramas	10.6885	-61.6501				ingiltere 1797-02-18→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1962-08-31 | trinidad-tobago 1962-08-31→2000-12-31				
+ESLESMEDI	Bridgetown	13.098	-59.618				ingiltere 1627-02-17→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1966-11-30 | barbados 1966-11-30→2000-12-31				
+ESLESMEDI	Castries	14.01	-60.99				ingiltere 1814-05-30→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1979-02-22 | saint-lucia 1979-02-22→2000-12-31				
+ESLESMEDI	St. John's (Antigua)	17.118	-61.844				ingiltere 1632-01-01→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1981-11-01 | antigua-barbuda 1981-11-01→2000-12-31				
+ESLESMEDI	Basseterre	17.296	-62.722				ingiltere 1713-07-13→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1983-09-19 | saint-kitts-nevis 1983-09-19→2000-12-31				
+ESLESMEDI	Roseau	15.299	-61.387				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1978-11-03 | dominika 1978-11-03→2000-12-31				
+ESLESMEDI	Kingstown	13.156	-61.227				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1979-10-27 | saint-vincent-grenadinler 1979-10-27→2000-12-31				
+ESLESMEDI	Plymouth (Montserrat)	16.705	-62.212				ingiltere 1632-01-01→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→2000-12-31				
+ESLESMEDI	Speightstown	13.252	-59.642				barbados 1966-11-30→2000-12-31				
+ESLESMEDI	Oistins	13.067	-59.54				barbados 1966-11-30→2000-12-31				
+ESLESMEDI	St. George's	12.0566	-61.747				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1974-02-07 | grenada 1974-02-07→1979-03-13 | grenada-devrimci-hukumet 1979-03-13→1983-10-26 | grenada 1983-10-26→2000-12-31				
+ESLESMEDI	Gouyave	12.165	-61.727				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1974-02-07 | grenada 1974-02-07→1979-03-13 | grenada-devrimci-hukumet 1979-03-13→1983-10-26 | grenada 1983-10-26→2000-12-31				
+ESLESMEDI	Grenville	12.121	-61.625				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1974-02-07 | grenada 1974-02-07→1979-03-13 | grenada-devrimci-hukumet 1979-03-13→1983-10-26 | grenada 1983-10-26→2000-12-31				
+ESLESMEDI	Hillsborough (Carriacou)	12.4819	-61.4619				ingiltere 1763-02-10→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1974-02-07 | grenada 1974-02-07→1979-03-13 | grenada-devrimci-hukumet 1979-03-13→1983-10-26 | grenada 1983-10-26→2000-12-31				
+ESLESMEDI	Portsmouth (Dominika)	15.576	-61.457				dominika 1978-11-03→2000-12-31				
+ESLESMEDI	Vieux Fort	13.72	-60.951				saint-lucia 1979-02-22→2000-12-31				
+ESLESMEDI	Port Elizabeth (Bequia)	13.007	-61.238				saint-vincent-grenadinler 1979-10-27→2000-12-31				
+ESLESMEDI	Codrington (Barbuda)	17.634	-61.826				antigua-barbuda 1981-11-01→2000-12-31				
+ESLESMEDI	Charlestown (Nevis)	17.137	-62.621				ingiltere 1628-01-01→1958-01-03 | bati-hint-federasyonu 1958-01-03→1962-05-31 | ingiltere 1962-05-31→1983-09-19 | saint-kitts-nevis 1983-09-19→2000-12-31				
+ESLESMEDI	Willemstad	12.109	-68.934				hollanda 1634-01-01→1954-12-15 | hollanda-antilleri 1954-12-15→2000-12-31				
+ESLESMEDI	Kralendijk (Bonaire)	12.15	-68.266				hollanda 1636-01-01→1954-12-15 | hollanda-antilleri 1954-12-15→2000-12-31				
+ESLESMEDI	Philipsburg (Sint Maarten)	18.026	-63.046				hollanda 1648-03-23→1954-12-15 | hollanda-antilleri 1954-12-15→2000-12-31				
+ESLESMEDI	Oranjestad (Sint Eustatius)	17.484	-62.974				hollanda 1636-01-01→1954-12-15 | hollanda-antilleri 1954-12-15→2000-12-31				
+ESLESMEDI	Oranjestad (Aruba)	12.524	-70.027				hollanda 1636-01-01→1954-12-15 | hollanda-antilleri 1954-12-15→1986-01-01 | aruba-ozerk 1986-01-01→2000-12-31				
+ESLESMEDI	Balboa Heights (Panama Kanalı İdaresi)	8.95	-79.55				panama-kanali-bolgesi 1904-02-26→1979-10-01				
+ESLESMEDI	Cristóbal (Colón limanı, Kanal Bölgesi)	9.3485	-79.8987				panama-kanali-bolgesi 1904-02-26→1979-10-01				
+ESLESMEDI	Saidu Sharif	34.747	72.356				swat-devleti 1915-04-24→1969-07-28				
+ESLESMEDI	Madyan (Swat)	35.141	72.538				swat-devleti 1915-04-24→1969-07-28				
+ESLESMEDI	Kalam (Swat)	35.482	72.578				swat-devleti 1915-04-24→1969-07-28				
+ESLESMEDI	Bahlâ	22.979	57.305				umman-ic-imamlik 1913-01-01→1955-01-01				
+ESLESMEDI	Izkî	22.761	57.802				umman-ic-imamlik 1913-01-01→1955-01-01				
+ESLESMEDI	Keningau	5.338	116.16				kuzey-borneo-tac-kolonisi 1946-07-15→1963-09-16				
