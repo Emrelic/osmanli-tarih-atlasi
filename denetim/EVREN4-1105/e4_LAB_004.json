@@ -358,7 +358,7 @@
   },
   {
    "dosya_satir": "data/yerlesimler.js:326",
-   "alan": "isg",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -367,9 +367,10 @@
    "alinti": "19 Temmuz 1916 - 28 Şubat 1918 tarihleri arasına rastlayan Rus işgalinden",
    "oneri": {
     "f": "1916-07-19",
-    "t": "1918-02-28"
+    "t": "1918-02-28",
+    "alan": "isg"
    },
-   "not": "TDV işgali TEK parça 'Rus işgali' 1916-07-19→1918-02-28 verir; işgalcinin Çarlık/Geçici Hükümet/Transkafkasya diye bölünmesi kaynakta YOK. isg katmanı tüm süreyi kaplamalı (sahip rusya -> rusya-gecici-hukumet -> sovyet-rusya/transkafkasya, künye günlerinden) ya da tek 'rusya' olmalı. ÖLÇÜT: geçici/askerî. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "TDV işgali TEK parça 'Rus işgali' 1916-07-19→1918-02-28 verir; işgalcinin Çarlık/Geçici Hükümet/Transkafkasya diye bölünmesi kaynakta YOK. isg katmanı tüm süreyi kaplamalı (sahip rusya -> rusya-gecici-hukumet -> sovyet-rusya/transkafkasya, künye günlerinden) ya da tek 'rusya' olmalı. ÖLÇÜT: geçici/askerî. | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   }
  ],
  "Hudeyde": [

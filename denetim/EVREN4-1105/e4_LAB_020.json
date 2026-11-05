@@ -41,7 +41,7 @@
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:305",
-   "alan": "isg",
+   "alan": "s",
    "d": "meiji-japonya",
    "f": "1942-03-09",
    "t": "1945-09-02",
@@ -52,7 +52,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "TEK KURAL: savaş işgali s: değil isg: yazılır; Japonya Endonezya'yı ilhak etmedi (Koiso sözü 1944: 'yakın gelecekte bağımsızlık'), ÖLÇÜT: geçici/askerî. TDV ay düzeyinde Mart 1942 (ÜLKE DÜZEYİ); atlas 1942-03-09 ay içinde tutarlı ama Borneo için gün teyitsiz. ÇELİŞKİ: Treccani Borneo 'l'isola fu occupata dai Giapponesi (1941-45)'. Alıntı yalnız f ucunu tarihliyor. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-72): savaş işgali s → isg onaylandı. | TEK KURAL: savaş işgali s: değil isg: yazılır; Japonya Endonezya'yı ilhak etmedi (Koiso sözü 1944: 'yakın gelecekte bağımsızlık'), ÖLÇÜT: geçici/askerî. TDV ay düzeyinde Mart 1942 (ÜLKE DÜZEYİ); atlas 1942-03-09 ay içinde tutarlı ama Borneo için gün teyitsiz. ÇELİŞKİ: Treccani Borneo 'l'isola fu occupata dai Giapponesi (1941-45)'. Alıntı yalnız f ucunu tarihliyor. | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:305",
@@ -65,7 +65,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
    "alinti": "Endonezya üzerindeki egemenlik haklarının tamamını aynı tarihte kurulan bağımsız Endonezya Birleşik Devletleri’ne devretti / Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
    "oneri": {},
-   "not": "ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Devir günü 27 Aralık 1949 TDV'de teyitli (Lahey Yuvarlak Masa). AMA devralan 'Endonezya Birleşik Devletleri' (federal, Hollanda baskısıyla kurulmuş 16 devlet/özel bölge); TDV: 'Ağustos 1950’de ... üniter Endonezya Cumhuriyeti’ne dönüştürüldü' (17 Ağustos 1950). Barito Hulu Hollanda'nın kurdurduğu federal bölgeler içindeydi; endonezya-cumhuriyeti künyesi f 1945-08-17. Künye var mı / federal devlet ayrı mı kararı Emre'nin. Treccani Borneo: 'Nel 1950 i possedimenti olandesi nel B. entrarono a far parte della Repubblica Indonesiana'. TEK ÖLÇÜ: Hollanda yönetiyordu → teslim günü 1949-12-27."
+   "not": "KARAR EMRELİC (gece-72): Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) federal polity, künye adayı (Emre); o zamana dek endonezya künyesi + ic_not 'RUSI dönemi'. | ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Devir günü 27 Aralık 1949 TDV'de teyitli (Lahey Yuvarlak Masa). AMA devralan 'Endonezya Birleşik Devletleri' (federal, Hollanda baskısıyla kurulmuş 16 devlet/özel bölge); TDV: 'Ağustos 1950’de ... üniter Endonezya Cumhuriyeti’ne dönüştürüldü' (17 Ağustos 1950). Barito Hulu Hollanda'nın kurdurduğu federal bölgeler içindeydi; endonezya-cumhuriyeti künyesi f 1945-08-17. Künye var mı / federal devlet ayrı mı kararı Emre'nin. Treccani Borneo: 'Nel 1950 i possedimenti olandesi nel B. entrarono a far parte della Repubblica Indonesiana'. TEK ÖLÇÜ: Hollanda yönetiyordu → teslim günü 1949-12-27."
   }
  ],
  "Bengkulu (Bencoolen)": [
@@ -110,7 +110,7 @@
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4088",
-   "alan": "isg",
+   "alan": "s",
    "d": "meiji-japonya",
    "f": "1942-03-09",
    "t": "1945-09-02",
@@ -121,7 +121,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "TEK KURAL: savaş işgali isg: yazılır (Japonya ilhak etmedi; ÖLÇÜT: geçici/askerî). TDV ay düzeyinde Mart 1942, ÜLKE DÜZEYİ; Bengkulu'ya özgü gün teyitsiz. Alıntı yalnız f ucunu tarihliyor. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-72): savaş işgali s → isg onaylandı. | TEK KURAL: savaş işgali isg: yazılır (Japonya ilhak etmedi; ÖLÇÜT: geçici/askerî). TDV ay düzeyinde Mart 1942, ÜLKE DÜZEYİ; Bengkulu'ya özgü gün teyitsiz. Alıntı yalnız f ucunu tarihliyor. | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4088",
@@ -134,7 +134,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' (XI, 1995, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
    "alinti": "Endonezya üzerindeki egemenlik haklarının tamamını aynı tarihte kurulan bağımsız Endonezya Birleşik Devletleri’ne devretti / Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949)",
    "oneri": {},
-   "not": "ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Gün 27 Aralık 1949 TDV'de teyitli (Lahey devri) ama devralan 'Endonezya Birleşik Devletleri' (federal); TDV: 17 Ağustos 1950'de üniter Cumhuriyet'e dönüştü. Sumatra'nın Bengkulu'su Cumhuriyet bölgesi mi federal eyalet mi bu kaynakta yok. ÜLKE DÜZEYİ; künye/federal ayrımı Emre'nin."
+   "not": "KARAR EMRELİC (gece-72): Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) federal polity, künye adayı (Emre); o zamana dek endonezya künyesi + ic_not 'RUSI dönemi'. | ÖNCEKİ KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in fiilen yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda → 1949-12-27 devir; federal Endonezya Birleşik Devletleri (1949-12-27 → 1950-08-17) künye sorusu EMRELİC. | Gün 27 Aralık 1949 TDV'de teyitli (Lahey devri) ama devralan 'Endonezya Birleşik Devletleri' (federal); TDV: 17 Ağustos 1950'de üniter Cumhuriyet'e dönüştü. Sumatra'nın Bengkulu'su Cumhuriyet bölgesi mi federal eyalet mi bu kaynakta yok. ÜLKE DÜZEYİ; künye/federal ayrımı Emre'nin."
   }
  ],
  "Bucumbura": [
@@ -153,7 +153,7 @@
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1226",
-   "alan": "isg",
+   "alan": "s",
    "d": "belcika",
    "f": "1916-06-06",
    "t": "1922-07-20",
@@ -162,9 +162,10 @@
    "kaynak": "Treccani Enciclopedia on line, 'Burundi' — https://www.treccani.it/enciclopedia/burundi/",
    "alinti": "l’Urundi fu occupato dalle forze belghe nel 1916 e dopo la fine della guerra assegnato al Belgio, insieme al Ruanda, dalla Società delle nazioni (1919)",
    "oneri": {
-    "alan": "isg"
+    "alan": "isg",
+    "t": "1919-06-28"
    },
-   "not": "TEK KURAL: savaş işgali isg: yazılır → 1916'dan devire kadar isg belcika (ÖLÇÜT: geçici/askerî). Kaynak 1916'yı yıl düzeyinde verir (gün 1916-06-06 teyitsiz); Treccani Bujumbura: 'colonizzazione belga (1916-62)'. TDV Ruanda: 'Versailles Barış Antlaşması ile Ruanda ve Burundi, Belçika’ya bırakıldı (1919)' → s: belcika devri Versay'dan olabilir (atlas Alman künye t 1919-06-28; TEK ÖLÇÜ: Belçika zaten yönetiyor → imza günü) ve manda 1922-07-20 ayrı katman. Alıntı yalnız f ucunu (işgal yılı) tarihliyor; devir günü kaynakta yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-72): Urundi kararı (gece-63): 1916 isg belcika → 1919-06-28 Versay (Belçika yönetiyordu, TEK ÖLÇÜ) → s: belcika → 1922-07-20 manda künyesi (kalır); 1919–22 s: belcika eklenir. | TEK KURAL: savaş işgali isg: yazılır → 1916'dan devire kadar isg belcika (ÖLÇÜT: geçici/askerî). Kaynak 1916'yı yıl düzeyinde verir (gün 1916-06-06 teyitsiz); Treccani Bujumbura: 'colonizzazione belga (1916-62)'. TDV Ruanda: 'Versailles Barış Antlaşması ile Ruanda ve Burundi, Belçika’ya bırakıldı (1919)' → s: belcika devri Versay'dan olabilir (atlas Alman künye t 1919-06-28; TEK ÖLÇÜ: Belçika zaten yönetiyor → imza günü) ve manda 1922-07-20 ayrı katman. Alıntı yalnız f ucunu (işgal yılı) tarihliyor; devir günü kaynakta yok. | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1226",
@@ -243,8 +244,10 @@
    "uc": "f",
    "kaynak": "Treccani Enciclopedia on line, 'Laos' (Storia) — https://www.treccani.it/enciclopedia/laos/",
    "alinti": "Nel 1893 il Siam dovette cedere la maggior parte del territorio del L. alla Francia",
-   "oneri": {},
-   "not": "ÜLKE DÜZEYİ ve YALNIZ YIL (1893); Champasak adı geçmez. ŞÜPHE: Champasak şehri Mekong'un sağ yakasındadır ve 1893 antlaşması sol yakayı devretti; Treccani 'nei decenni successivi, fino al 1946, vari accordi definirono i confini tra il L. e il Siam' der. Çinhindi kuralı: Champasak yönetimi kime ne zaman geçti (Siem Reap/Battambang emsali 1907'ye kadar s: siam) kaynakla bulunmadı — f 1893-10-03 Champasak için doğrulanmadı."
+   "oneri": {
+    "f": "1905 (teslim günü, kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-72): Champasak sağ yaka: 1893 ilgisiz; 1904-02-13 Fransa-Siyam antlaşması, teslim 1905 (kaynakla) → Fransız; öncesi Siam (v:/s: kaynakla); fransiz-cinhindi künye f'sine dokunulmaz. | ÜLKE DÜZEYİ ve YALNIZ YIL (1893); Champasak adı geçmez. ŞÜPHE: Champasak şehri Mekong'un sağ yakasındadır ve 1893 antlaşması sol yakayı devretti; Treccani 'nei decenni successivi, fino al 1946, vari accordi definirono i confini tra il L. e il Siam' der. Çinhindi kuralı: Champasak yönetimi kime ne zaman geçti (Siem Reap/Battambang emsali 1907'ye kadar s: siam) kaynakla bulunmadı — f 1893-10-03 Champasak için doğrulanmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3794",
@@ -289,7 +292,7 @@
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:851",
-   "alan": "isg",
+   "alan": "s",
    "d": "fransa-cumhuriyet",
    "f": "1916-02-16",
    "t": "1922-07-20",
@@ -300,7 +303,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "TEK KURAL: savaş işgali isg: yazılır (ÖLÇÜT: geçici/askerî; Londra Deklarasyonu Temmuz 1919 paylaşımı 'resmîleştirdi', MC kararı 20 Temmuz 1922 işgal edilen yerleri manda yönetimine bıraktı). ÇELİŞKİ: TDV Alman himayesinin fiilen sonunu 1918 yazar; atlas 1916-02-16. Treccani Camerun: 'occupato durante la Prima guerra mondiale da Francia e Inghilterra' (yıl yok). Alıntı yalnız f ucunu tarihliyor (ve atlasla uyuşmuyor). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-72): savaş işgali s → isg onaylandı. | TEK KURAL: savaş işgali isg: yazılır (ÖLÇÜT: geçici/askerî; Londra Deklarasyonu Temmuz 1919 paylaşımı 'resmîleştirdi', MC kararı 20 Temmuz 1922 işgal edilen yerleri manda yönetimine bıraktı). ÇELİŞKİ: TDV Alman himayesinin fiilen sonunu 1918 yazar; atlas 1916-02-16. Treccani Camerun: 'occupato durante la Prima guerra mondiale da Francia e Inghilterra' (yıl yok). Alıntı yalnız f ucunu tarihliyor (ve atlasla uyuşmuyor). | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:851",
@@ -420,8 +423,10 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
-   "oneri": {},
-   "not": "Mehdî sonu: TDV 1898-09-02 (Kerreri/Ümmüderman), künye t 1898-09-02; atlas t 1899-01-19 (kondominyum) — arada isg ingiltere/misir mı, EMRELİC. | alıntı yalnız t ucunu tarihliyor (Kondominyum idaresi 19 Ocak 1899). KÜNYE AŞIMI: dönem t 1899-01-19, mehdi künye t 1898-09-02; TDV 'Kerkeri savaşında Mehdî Devleti yıkıldı (2 Eylül 1898)'. Aradaki 1898-09-02 → 1899-01-19 boşluğu için karar Emre'nin (künyeyi uzat ya da dönemi 1898-09-02'de kes). f 1882-09-01 (Mehdîler'in Bâra'yı alışı) bu kaynakta yok."
+   "oneri": {
+    "t": "kaynakla: İngiliz-Mısır'ın Bâra'ya fiilî girişi"
+   },
+   "not": "KARAR EMRELİC (gece-72): Halife Abdullahi'nin devleti Kordofan'da Umm Diwaykarat'a (1899-11-24) kadar sürdü → mehdi künye t 1899-11-24 GENİŞLET adayı (LAB SALI); Bâra'da İngiliz-Mısır fiilî girişine kadar s: mehdi; 1898-09-02 Ümmüdurman ic_not. | Mehdî sonu: TDV 1898-09-02 (Kerreri/Ümmüderman), künye t 1898-09-02; atlas t 1899-01-19 (kondominyum) — arada isg ingiltere/misir mı, EMRELİC. | alıntı yalnız t ucunu tarihliyor (Kondominyum idaresi 19 Ocak 1899). KÜNYE AŞIMI: dönem t 1899-01-19, mehdi künye t 1898-09-02; TDV 'Kerkeri savaşında Mehdî Devleti yıkıldı (2 Eylül 1898)'. Aradaki 1898-09-02 → 1899-01-19 boşluğu için karar Emre'nin (künyeyi uzat ya da dönemi 1898-09-02'de kes). f 1882-09-01 (Mehdîler'in Bâra'yı alışı) bu kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:921",
@@ -522,7 +527,7 @@
  "Belluno": [
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:490",
-   "alan": "isg",
+   "alan": "s",
    "d": "fransa-cumhuriyet",
    "f": "1797-05-12",
    "t": "1797-10-17",
@@ -533,7 +538,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "TEK KURAL: Venedik'in 12 Mayıs 1797 çöküşünden Campo Formio'ya (17 Ekim 1797) kadar Fransız askerî işgali s: değil isg: yazılır (egemenlik devri Campo Formio'da; ÖLÇÜT: geçici/askerî). Treccani yalnız 'Venedik 1797'ye kadar elde tuttu' der (yıl); Fransız işgali/idaresi ve gün kaynakta yok. Alıntı Venedik dönemini tarihliyor, f ucunu yıl düzeyinde. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-72): Campo Formio 1797-10-17 sonrası Avusturya. | KARAR EMRELİC (gece-72): savaş işgali s → isg onaylandı. | TEK KURAL: Venedik'in 12 Mayıs 1797 çöküşünden Campo Formio'ya (17 Ekim 1797) kadar Fransız askerî işgali s: değil isg: yazılır (egemenlik devri Campo Formio'da; ÖLÇÜT: geçici/askerî). Treccani yalnız 'Venedik 1797'ye kadar elde tuttu' der (yıl); Fransız işgali/idaresi ve gün kaynakta yok. Alıntı Venedik dönemini tarihliyor, f ucunu yıl düzeyinde. | (alan 'isg' öneri olarak oneri'ye taşındı; mevcut veri s: — LAB PAZAR)"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:490",
