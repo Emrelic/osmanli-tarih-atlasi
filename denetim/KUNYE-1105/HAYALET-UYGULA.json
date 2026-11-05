@@ -894,11 +894,33 @@
   "d": "derbent-hanligi (t)",
   "tur": "KUNYE (+ KASA yerleşimleri aynı commit)",
   "karar": "TARIH_DUZELT",
-  "islem": "devletler.js derbent-hanligi (:17512) t → 1759-09-01 + '[yalnız ay — TDV: 1759 sonbaharı Feth Ali Han Derbend'i Kuba'ya kattı]'; ic_not 'ru.wiki 1765 (ikincil — tek dayanak olamaz)'. Derbent 1759-09-01'den s: kuba-hanligi (ilhak — KASA TDV okuması; EMRELİC'e teyit soruldu). Kuba sonrası 1806 Rus işgali kuba-hanligi zincirinde.",
+  "islem": "devletler.js derbent-hanligi (:17512) t → 1759-09-01 + '[yalnız ay — TDV: 1759 sonbaharı Feth Ali Han Derbend'i Kuba'ya kattı]'; ic_not 'ru.wiki 1765 (ikincil — tek dayanak olamaz)'. Derbent 1759-09-01'den s: kuba-hanligi — İLHAK (EMRELİC gece-121 kesin; v: YOK; t = ardıl f; Derbend yerleşim diliminin s: kuba-hanligi ile AYNI commit). kuba-hanligi f 1735 DEĞİŞMEZ. ic_not: 'Kuba hanının Derbend'e naib ataması'. Kuba sonrası 1806 Rus işgali kuba-hanligi zincirinde.",
   "kunye": "derbent-hanligi t 1806-01-01 → 1759-09-01 [yalnız ay]",
   "gun": "1759-09-01",
   "guc": "ORTA",
   "dayanak": "KASA SALI ZEND-KAFKAS-ONERI.json (e034718aa) — alıntılar JSON'da; TDV",
   "onay": "EMRELİC gece-120 (e)/(c) — ZEND-KAFKAS-UYGULA.md (9617597c2)"
+ },
+ {
+  "d": "Batı Yeni Gine (Manokwari, Merauke …)",
+  "tur": "YERLESIM + MADDE",
+  "karar": "EMRELİC",
+  "guc": "KAYNAKLI (BM resmî)",
+  "kunye": "künye değişmez (hollanda-yeni-gine ADAY; untea VAR)",
+  "gun": "1962-10-01",
+  "islem": "Batı Yeni Gine yerleşimleri (Manokwari, Merauke, Hollandia/Jayapura …): 'endonezya f 1949' YANLIŞ → hollanda-dogu-hint → 1949-12-27; 1949-12-27 → 1962-10-01 s: hollanda-yeni-gine (künye ADAYI — açılana dek D1 gereği s: hollanda (künye VAR, f 1581-07-26) + ic_not 'Hollanda Yeni Gine'si'); 1962-10-01 → 1963-05-01 s: untea (LAB ölçümü: künye VAR, :15597 — aday DEĞİL); 1963-05-01'den endonezya (ic_not '1969 Free Choice / Pepera'). DEĞİŞMEZ 2 — LAB ölçümü origin/main: 1949-12-27 maddesi VAR (kronoloji_sinir_halef_1923_2000.js:113, endonezya tarafı — Batı Yeni Gine'nin Hollanda'da kalışını içeriyor mu kontrol); 1962-10-01 ve 1963-05-01 maddeleri YOK → madde önerileri: 1962-10-01 'New York Antlaşması uyarınca Batı Yeni Gine UNTEA idaresine geçti' (taraflar hollanda, untea), 1963-05-01 'UNTEA idareyi Endonezya'ya devretti' (taraflar untea, endonezya-cumhuriyeti).",
+  "dayanak": "BM resmî (UNTEA; EMRELİC — LAB PAZAR iletimi)",
+  "onay": "EMRELİC 6 Kasım (Batı Yeni Gine)"
+ },
+ {
+  "d": "mayapan-birligi",
+  "tur": "YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "KAYNAKLI (Kennett 2022 hakemli)",
+  "kunye": "künye değişmez — t ZATEN 1450-01-01 (LAB ölçümü :21294)",
+  "gun": "1450-01-01",
+  "islem": "mayapan-birligi künye t 1450-01-01 zaten Kennett 2022 ile uyumlu (LAB PAZAR'ın '1441 → 1450' notu yerleşim düzeyinde geçerli): Mayapan ve Liga yerleşimlerinde 1441'de biten dönemler 1450-01-01'e hizalanır; ic_not '1441 geleneksel düşüş (Landa/kronikler)'.",
+  "dayanak": "Kennett et al. 2022 (hakemli); EMRELİC",
+  "onay": "EMRELİC 6 Kasım"
  }
 ]
