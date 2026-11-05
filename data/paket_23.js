@@ -95,7 +95,7 @@ window.YERLESIMLER_P0043LIBYA = [
     d:[{f:"1517-04-13",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı",statu:"vassal",kid:"misir-kavalali",kaynak:"kid/statu kardeş vahalarla aynı (Dâhile · Hârice · Ferâfire · Bahriye); tarih DEĞİŞMEDİ · UYGULA-YERLESIM-0930 (0076/H-0064)"}],
     isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere"},
-         {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}] }
+         {f:"1914-12-18",t:"1922-02-28",d:"ingiltere",kaynak:"UFUK-1923 (EVREN4, KASA PAZAR 5 Kasım 2026): t 1923-10-29 → 1922-02-28 — TDV İslâm Ansiklopedisi, «Mısır», https://islamansiklopedisi.org.tr/misir: «tere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti.» · ic_not: 1922 bildirisi ve 1936 antlaşması sonrası İngiliz askerî varlığı isg sayılmaz; Kanal bölgesi 1956'ya kadar İngiliz garnizonu (KARARLAR gece-84 a)"}] }
 
 ];
 
