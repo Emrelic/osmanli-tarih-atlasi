@@ -932,6 +932,17 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **KASA'nın Zend 1747–51 hayalet düzeltmesi de bu ölçüye tabidir.** Zend ajanına yazıldı: kaynaklı ve künyeli yerel hanlık yoksa 1747-06-20 → 1751-01-01'de önceki sahip `afsar` korunur (künye 1736 → 1796, hayalet değil) ve ic_not'a "BEYANLI YAKLAŞIKLIK" yazılır. Dilim boş bırakılmaz.
 - 103 uç deliği tablosu D1'i azaltır; öne alındı, ajan koşuyor.
 
+## gece-119 — Norveç ve Zend onayları (EMRELİC)
+
+- **Norveç 1814:** `NORVEC-1814-ONERI.json` ve `MADDE-TASLAK-NORVEC-1814.json` (NOR-01, NOR-02, NOR-03) onaylandı.
+  - `norvec-1814` künye f'si 02-19'a çekilir, yerleşim dönemleriyle AYNI commit'te (LAB'a).
+  - İsveç'in kaleleri Mart 1815'e kadar tutması `ic_not`a yazılır; atlasta nokta yok, harita etkisi yok.
+  - Christian Frederik'in 1814-10-10'da tahttan çekilmesi künye özeti önerisi olarak LAB'a gider.
+  - Kiel maddesinin yeri `olaylar_ek16.js:150`.
+- **Zend 1747–51:** `afsar` korunur + BEYANLI YAKLAŞIKLIK; dilim hayalet de değil, boş da değil. Onay. Hanlık künyesi kaynakla gelirse o dilim hanlığa geçer.
+- **Ara dosya:** 52c172273'teki `ZEND-KAFKAS-ONERI.json` ARA çıktıdır, uygulanmaz; ajan bitince yeniden commit edilir.
+- **Tunus 36:** UFUK-1923 listesiyle birlikte kapanır.
+
 ## gece-113 — tarama biçim kusuru (ek)
 
 - Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.
