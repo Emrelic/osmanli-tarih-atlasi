@@ -1,0 +1,834 @@
+{
+ "Villarrica (Şili)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1318",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Últimas campañas militares, expedición y refundación de Villarrica (1882-1883)», https://www.memoriachilena.gob.cl/602/w3-article-96472.html",
+   "alinti": "Urrutia procedió a refundar Villarrica el 1 de enero de 1883",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3443] [alıntı ham metinden, sayfa.py] Kaydın kendi kaynağı (önce yalnız ARAMA ÖZETİ idi) ham metinle doğrulandı. t pencere ucu."
+  }
+ ],
+ "Maracaibo": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1327",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1574-01-01",
+   "t": "1821-06-24",
+   "hukum": "ONERI",
+   "kaynak": "Roger Pita Pico, «Capitulación de Maracaibo: Revisiones historiográficas de la Independencia desde la perspectiva de la paz», Revista de Ciencias Sociales (Ve) XXVII/2 (2021), Universidad del Zulia, https://www.redalyc.org/journal/280/28066593007/28066593007.pdf",
+   "alinti": "el 28 de enero de 1821 las autoridades civiles y militares de la ciudad redactaron un acta en la cual declararon su separación de España",
+   "uc": "t",
+   "oneri": {
+    "t": "1821-01-28"
+   },
+   "not": "[sira 3444] [alıntı ham metinden, pypdf] t: Maracaibo Carabobo'dan (1821-06-24) önce, 28 Ocak 1821'de İspanya'dan ayrılıp Kolombiya'ya katıldı. f 1574 YIL (kayıt kaynağı arama özeti). 🟡 sahip 'ispanyol-peru' şüpheli: Maracaibo eyaleti Peru Genel Valiliği'ne değil Yeni Granada'ya, 1777'den Venezuela Genel Kaptanlığı'na bağlıydı (künyeler yeni-granada-valiligi 1717-1810, venezuela-genel-kaptanligi 1777-09-08 → 1810-04-19 var; ipucu, bu turda okunmadı) — sınıf sorusu EMRELİC'e."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1327",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "ONERI",
+   "kaynak": "Roger Pita Pico, «Capitulación de Maracaibo: Revisiones historiográficas de la Independencia desde la perspectiva de la paz», Revista de Ciencias Sociales (Ve) XXVII/2 (2021), Universidad del Zulia, https://www.redalyc.org/journal/280/28066593007/28066593007.pdf",
+   "alinti": "el 28 de enero de 1821 las autoridades civiles y militares de la ciudad redactaron un acta en la cual declararon su separación de España | logró mantenerse como fortín republicano hasta junio de 1822, cuando fue invadida por … Morales",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1821-01-28",
+    "bolunme": [
+     {
+      "alan": "s",
+      "d": "gran-kolombiya",
+      "f": "1821-01-28",
+      "t": "1822-06-01"
+     },
+     {
+      "alan": "s",
+      "d": "ispanya",
+      "f": "1822-06-01",
+      "t": "1823-08-03",
+      "not": "Morales'in kralcı idaresi; gün AY (Haziran 1822) + beyan"
+     },
+     {
+      "alan": "s",
+      "d": "gran-kolombiya",
+      "f": "1823-08-03",
+      "t": "1830-01-13"
+     }
+    ]
+   },
+   "not": "[sira 3445] [alıntı ham metinden, pypdf] Pita Pico: kapitülasyon «finalmente firmada el 3 de agosto de 1823». TEK ÖLÇÜ: Kolombiya şehri teslimle aldı → 1823-08-03; ic_not: tahliye Eylül 1823 (aynı makale kaynakçası: «Evacuación de la plaza», 13 Eylül 1823). Haziran 1822 gün yok → 1822-06-01 + '[yalnız ay]'. gran-kolombiya künye f 1819-12-17 kapsar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1327",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3446] Bakılan: Pita Pico 2021 (1830 yok). Venezuela'nın Gran Colombia'dan ayrılış günü (künye f 1830-01-13) bu turda okunmadı. t pencere ucu."
+  }
+ ],
+ "Delgo (Sükkût)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:110",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nûbe», https://islamansiklopedisi.org.tr/nube",
+   "alinti": "Onların tam bir otorite kuramamaları sebebiyle uzun zaman karışıklık ve anarşinin hüküm sürdüğü bölge bağımsız şeyhlikler tarafından yönetildi.",
+   "uc": "",
+   "oneri": {
+    "not": "nube dönemi 1504'e kadar sürmez: TDV Nûbe — Abdullah Berşembû'nun tahta oturtulması (Memlük, XIV. yy başı) → Kenzîler → Cüheyne reisleri → bağımsız şeyhlikler. Kırılma yılı kaynakla (alıntı penceresinde yıl yok); şeyhlikler için künye yok → BEYANLI / LAB."
+   },
+   "not": "[sira 3447] [alıntı ham metinden, sayfa.py] f 1281 pencere ucu. XVI. yy başı Func birleşmesi aynı maddede («XVI. yüzyıl başlarında kurulan Func Sultanlığı bu şeyhliklerin büyük bir kısmını idaresi altında birleştirmeyi başardı»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:110",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-01-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nûbe», https://islamansiklopedisi.org.tr/nube",
+   "alinti": "Osmanlılar, Aşağı Nûbe’de Halfa vadisine kadar olan bölgeyi kontrolleri altına alıp Asvan ve İbrim’de idarî teşkilât kurdular.",
+   "uc": "",
+   "oneri": {
+    "not": "Delgo (Sukkût) Halfa'nın güneyinde; Func'un kuzey sınırı ve Osmanlı İbrim sancağının güney sınırı (Sâî/III. çağlayan, ipucu) kaynakla belirlenmeli. f 1504 Func'un kuruluşudur, Sukkût'a ulaştığı gün değil."
+   },
+   "not": "[sira 3448] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ ipucu: TDV Func'u 'XVI. yüzyıl başları', Osmanlı'yı 'Halfa vadisine kadar' verir; Sukkût açıkça anılmaz → yerleşime özgü sahip kaynakta bulunamadı. t 1821-01-04: TDV Sudan Func teslimini 'Haziran 1821' verir (P012); Sukkût Mısır ordusunun 1820 ilerleyişinde (Dongola, Kurti 1820) daha önce düştü — gün kaynakla. Bkz. TDV «Nûbe»: 'Nûbe 1841’de Mısır Hidivi Mehmed Ali Paşa’ya verildi' (ic_not)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:110",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "W. S. Churchill, The River War (1899) [19. yy kaynağı], Gutenberg #4943, https://www.gutenberg.org/cache/epub/4943/pg4943.txt",
+   "alinti": "it was not until the British troops had been withdrawn from Dongola that they received at Ginniss their baptism of fire",
+   "uc": "",
+   "oneri": {
+    "t": "1896 (Dongola seferi; Firket 1896-06-07 ipucu — gün kaynakla)",
+    "not": "Delgo/Sukkût Halfa sınırı ile Dongola arasında; Mehdîler 1896 Dongola seferiyle çıkarıldı, 1899-01-19 Kondominyum günüdür (yerleşimin geri alınışı değil). mehdi künye t 1898-09-02."
+   },
+   "not": "[sira 3449] [alıntı ham metinden, sayfa.py] [19. yy kaynağı; akademik değil — İPUCU düzeyi] Churchill: İngilizler Dongola'dan çekildikten sonra (1885) cephe Wadi Halfa'ya indi, Ginnis (Aralık 1885, Sukkût) çatışması; 'Towards the end of 1896 … The re-occupation of Dongola was then practically complete' (ham). f 1885-01-26 Hartum günüdür; Dongola'nın tahliyesi 1885 ortası (ipucu). Akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:110",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nûbe», https://islamansiklopedisi.org.tr/nube",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3450] Bakılan: TDV Nûbe (1820/1821 yok), TDV Dunkula slug'ı yok (arama sayfasına düşüyor). f 1821-01-04 neyi tarihlediği belirsiz (Func teslimi Haziran 1821, TDV Sudan — P012). t 1885-01-26: bkz. sira 3449 (Sukkût'un Mehdîlere geçişi Dongola tahliyesiyle, 1885 ortası — ipucu). d: misir-kavalali (kid)."
+  }
+ ],
+ "Ed-Dâmer": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:125",
+   "alan": "s",
+   "d": "funj",
+   "f": "1776-01-01",
+   "t": "1821-01-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cealiyyûn», https://islamansiklopedisi.org.tr/cealiyyun",
+   "alinti": "Hamed b. Muhammed el-Meczûb (ö. 1776) … Dâmir merkez olmak üzere bölgenin en güçlü hükümdarı olmuştu | Mek Nimr, Serasker İsmâil Kâmil Paşa’ya teslim oldu (28 Mart 1821)",
+   "uc": "f",
+   "oneri": {
+    "t": "1821-03-28 (ABİ MERKEZ Şendî — BEYANLI YAKLAŞIKLIK)",
+    "not": "s: sahibi 'funj' yerine Meczûbiye (Dâmir şeyhliği) — künye yok; TDV 'bölgenin en güçlü hükümdarı' der, Func'a bağlılık okunmadı → sınıf sorusu LAB'a"
+   },
+   "not": "[sira 3451] [alıntı ham metinden, sayfa.py] f 1776 KAYNAKLI (kayıt kur'u, TDV Cealiyyûn: ilk tanık). t: Dâmir'e özgü teslim günü yok; Cealî reisi Mek Nimr'in Şendî'de teslimi 28 Mart 1821 (aynı madde) — Mısır ordusu Dâmir'den Şendî'ye geçti. 1821-01-04 kaynakta yok. TDV Sudan (P012): Abdellâb kolları XVIII. yy ortasından bağımsızlık ilan ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:125",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "R. C. Slatin, Fire and Sword in the Sudan (London 1896) [19. yy kaynağı], Gutenberg #41035 (P012 Berber satırında okundu) ; W. S. Churchill, The River War (1899) [19. yy kaynağı], Gutenberg #4943, https://www.gutenberg.org/cache/epub/4943/pg4943.txt",
+   "alinti": "Berber ... did not fall till the 19th of May",
+   "uc": "",
+   "oneri": {
+    "f": "1884-05-19 (ABİ MERKEZ Berber, gün komşudan: P012 Berber — Slatin)",
+    "t": "(1897 Berber'in işgali — gün kaynakla; mehdi künye t 1898-09-02)"
+   },
+   "not": "[sira 3452] Gün komşudan: P012 Berber satırı, Slatin [19. yy kaynağı]. Dâmir Berber'in hemen güneyinde (Atbara kavşağı); Hartum günü 1885-01-26 Dâmir için geç. t: Churchill (İPUCU, ham): 'the sudden occupation of Berber' 1897 — İngiliz-Mısır kuvvetleri Berber ve çevresini 1897'de aldı; 1899-01-19 Kondominyum günüdür. Akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:125",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cealiyyûn», https://islamansiklopedisi.org.tr/cealiyyun",
+   "alinti": "Mek Nimr, Serasker İsmâil Kâmil Paşa’ya teslim oldu (28 Mart 1821)",
+   "uc": "",
+   "oneri": {
+    "f": "1821-03-28 (ABİ MERKEZ Şendî — BEYANLI)",
+    "t": "1884-05-19 (ABİ MERKEZ Berber)"
+   },
+   "not": "[sira 3453] [alıntı ham metinden, sayfa.py] f: komşu Cealî merkezinin teslimi; Dâmir'e özgü gün yok. t: sira 3452 (Berber'in Mehdîlere düşüşü, Slatin). d: misir-kavalali (kid)."
+  }
+ ],
+ "Kandala": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:642",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3454] Bakılan: TDV Somali (Kandala/Bari kıyısında Adal hâkimiyeti anılmaz; yalnız 'Mâcerteyn Sultanlığı XIX. yüzyılda bağımsız hale geldi'). 🔴 HAYALET: adal künyesi f 1415-01-01 (1281-1415 künye dışı; evfat 1285-1415 — LAB gece-50 sorusu 2). Bosaso (P047) ile aynı. 1577 ucu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:642",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1927-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3455] [alıntı ham metinden, sayfa.py] YIL; Mâcerteyn emirliği. f 1577 teyitsiz (Bosaso P047 emsali). TEK KURAL notu: 1889 İtalyan himayesi ile 1927 işgali arası v: italya sorusu ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:642",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3456] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; t gün. f teyitsiz (1941-02-25 Mogadişu'ya giriş; TDV'de gün yok, Mâcerteyn'e giriş günü yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:642",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi. | On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3457] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; f cümlesi vesayet kararının uygulamaya konuluşunu tarihler."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:642",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3458] [KÜME K27]"
+  }
+ ],
+ "Kısmâyû": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:689",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bergaş b. Saîd», https://islamansiklopedisi.org.tr/bergas-b-said",
+   "alinti": "Zengibar sultanı olan Bergaş (7 Ekim 1870), Zengibar yanında Pemba, Lamu yarımadası, Kismâyû, Berâve, Merkâ, Makdişu",
+   "uc": "",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "s",
+      "d": "somali",
+      "f": "1500-01-01",
+      "t": "(Zengibar hâkimiyetinin başlangıcı — yıl kaynakla; ≤1870)"
+     },
+     {
+      "alan": "s",
+      "d": "umman-zengibar",
+      "f": "(≤1870)",
+      "t": "1895-07-01",
+      "not": "İngiliz Doğu Afrika himayesine geçiş — gün kaynakla"
+     },
+     {
+      "alan": "s",
+      "d": "ingiliz-kenya-kolonisi",
+      "f": "1895-07-01",
+      "t": "(1925 İtalya'ya teslim, Oltregiuba — gün kaynakla, ipucu 1925-06-29/30)"
+     },
+     {
+      "alan": "s",
+      "d": "italya",
+      "f": "(1925 teslim)",
+      "t": "1927-01-01 ya da italyan-somali'ye katılış (ipucu 1926-06-30)"
+     }
+    ]
+   },
+   "not": "[sira 3459] [alıntı ham metinden, sayfa.py] 🔴 Kısmâyû 'somali' 1281-1927 tek dönemi kaynakla çelişir: TDV Bergaş b. Saîd Kismâyû'yu 1870'te Zengibar hâkimiyetinde sayar; TDV Somali: 'Somali’nin kuzey ve orta sahil bölgeleri Zengibar Sultanlığı’na bağlı'. Veri dosyasındaki eski (yorumdaki) kayıt da 'Kısmâyû 1895'te İngiliz Doğu Afrika'sına katıldı' der (yerlesimler_afrika.js:1049-1051, yorum). Künyeler: umman-zengibar 1698-1964, ingiliz-kenya-kolonisi f 1895-07-01, italyan-somali f 1905-03-19. 🔴 HAYALET: somali künyesi f 1500 → 1281-1500 künye dışı (LAB gece-50 sorusu 3). 1925 Oltregiuba devri için akademik kaynak okunmadı (filateli/Vikipedi özetleri dayanak değil). TARAYICI: Treccani EI «Oltregiuba». dosya_satir: canlı kayıt yerlesimler_h2_afrika.js:689 (afrika.js:1049 yorum satırı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:689",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3460] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; t gün. f teyitsiz (1941-02-25 Mogadişu'ya giriş; Kısmâyû 1941 Şubat ortasında İngiliz kuvvetlerince alındı — ipucu, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:689",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi. | On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3461] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:689",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3462] [KÜME K27]"
+  }
+ ],
+ "Dukm": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:720",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "t": "1624-01-01"
+   },
+   "not": "[sira 3463] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: ardıl umman künyesi f 1624-01-01 (ölçüldü) → 1515-04-01 kırılması künye dışına düşer. nebhani künyesinin t'si zaten 1624'e GENİŞLETİLDİ (ic_not_t: 'iç Umman Nebhânî meliklerindeydi'); 1515-04-01 Hürmüz'ün alınışıdır (kronoloji_portekiz), Dukm (Vüstâ kıyısı) için kırılma değil. ÇELİŞKİ (künyede beyanlı): TDV Uman 1230'dan Portekiz'e kadar 'Salgurlular' der. Vüstâ kıyısına özgü sahiplik tanıklığı bulunamadı → BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:720",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "f": "1624-01-01"
+   },
+   "not": "[sira 3464] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: umman künyesi f 1624-01-01 (künye kaynağı TDV Yarubiler: 1615/1624). TDV Uman Nâsır b. Mürşid'i 1615-1640 verir, Portekizlilerin Maskat'tan çıkarılması 1029/1620. Vüstâ kıyısının Ya'rubî idaresine giriş yılı kaynakta yok → künye günü + BEYANLI. t pencere ucu."
+  }
+ ],
+ "Şisr": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:730",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zafâr», https://islamansiklopedisi.org.tr/zafar",
+   "alinti": "şehir 678’de (1279) Resûlî topraklarına katıldı | Resûlîler’in IX. (XV.) yüzyılda yıkılmasının ardından şehir bölge kabilelerinden Kesîrîler’in eline geçti",
+   "uc": "",
+   "oneri": {
+    "d": "resuli",
+    "f": "1281-01-01",
+    "t": "1454-01-01",
+    "bolunme": "kesiri-sultanligi 1454-01-01 → 1879-01-01 (BEYANLI, yıl)"
+   },
+   "not": "[sira 3465] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Zafâr (Salâle) — Şisr Zafâr eyaletinin iç kesiminde. Salala (P045 sira 3013) emsali: Zafâr 1279'dan Resûlî, XV. yy'da Kesîrî. Nebhânî (iç Uman) ile Zafâr bağı kaynakta yok. resuli t 1454 = TDV 'IX. (XV.) yüzyıl' (yıl beyanı; P045 künye ölçümü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:730",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "1879’da … o bölgenin Uman’a bağlı olduğu ortaya çıkınca",
+   "uc": "f",
+   "oneri": {
+    "d": "umman",
+    "f": "1879-01-01"
+   },
+   "not": "[sira 3466] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: umman künyesi f 1624-01-01, veri 1515-04-01. ABİ MERKEZ Zafâr (Salala P045 sira 3014 emsali): TDV Uman Zafâr'ın 1879'da Uman'a bağlı olduğunu kaydeder (terminus ante quem; BEYANLI). 1454-1879 kesiri-sultanligi."
+  }
+ ],
+ "Ceel Buur": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1097",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3467] [alıntı ham metinden, sayfa.py] YIL (Obbia/Hobyo emirliği toprağı — Galkayo P047 emsali). f teyitsiz; 🔴 HAYALET: somali künyesi f 1500-01-01 → 1281-1500 künye dışı (LAB gece-50 sorusu 3: beyanlı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1097",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3468] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ; t gün. f teyitsiz (1941-02-25 Mogadişu'ya giriş)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1097",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi. | On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3469] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1097",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3470] [KÜME K27]"
+  }
+ ],
+ "Cezîr (Sevkıra)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1132",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "t": "1624-01-01"
+   },
+   "not": "[sira 3471] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: ardıl umman künyesi f 1624-01-01 (ölçüldü) → 1515-04-01 kırılması künye dışına düşer. nebhani künyesinin t'si zaten 1624'e GENİŞLETİLDİ (ic_not_t: 'iç Umman Nebhânî meliklerindeydi'); 1515-04-01 Hürmüz'ün alınışıdır (kronoloji_portekiz), Cezîr (Sevkıra) (Vüstâ kıyısı) için kırılma değil. ÇELİŞKİ (künyede beyanlı): TDV Uman 1230'dan Portekiz'e kadar 'Salgurlular' der. Vüstâ kıyısına özgü sahiplik tanıklığı bulunamadı → BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1132",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "f": "1624-01-01"
+   },
+   "not": "[sira 3472] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: umman künyesi f 1624-01-01 (künye kaynağı TDV Yarubiler: 1615/1624). TDV Uman Nâsır b. Mürşid'i 1615-1640 verir, Portekizlilerin Maskat'tan çıkarılması 1029/1620. Vüstâ kıyısının Ya'rubî idaresine giriş yılı kaynakta yok → künye günü + BEYANLI. t pencere ucu."
+  }
+ ],
+ "Râs Medreke": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1135",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "t": "1624-01-01"
+   },
+   "not": "[sira 3473] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: ardıl umman künyesi f 1624-01-01 (ölçüldü) → 1515-04-01 kırılması künye dışına düşer. nebhani künyesinin t'si zaten 1624'e GENİŞLETİLDİ (ic_not_t: 'iç Umman Nebhânî meliklerindeydi'); 1515-04-01 Hürmüz'ün alınışıdır (kronoloji_portekiz), Râs Medreke (Vüstâ kıyısı) için kırılma değil. ÇELİŞKİ (künyede beyanlı): TDV Uman 1230'dan Portekiz'e kadar 'Salgurlular' der. Vüstâ kıyısına özgü sahiplik tanıklığı bulunamadı → BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1135",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "Uman’da Ya‘rubî hânedanından Nâsır b. Mürşid (1615-1640)",
+   "uc": "",
+   "oneri": {
+    "f": "1624-01-01"
+   },
+   "not": "[sira 3474] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: umman künyesi f 1624-01-01 (künye kaynağı TDV Yarubiler: 1615/1624). TDV Uman Nâsır b. Mürşid'i 1615-1640 verir, Portekizlilerin Maskat'tan çıkarılması 1029/1620. Vüstâ kıyısının Ya'rubî idaresine giriş yılı kaynakta yok → künye günü + BEYANLI. t pencere ucu."
+  }
+ ],
+ "Şefşâven": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:98",
+   "alan": "s",
+   "d": "merini",
+   "f": "1471-01-01",
+   "t": "1549-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tıtvân», https://islamansiklopedisi.org.tr/titvan",
+   "alinti": "Vattâsîler’in Şefşâven Emîri Ali b. Râşid tarafından 898’den itibaren (1493)",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3475] [alıntı ham metinden, sayfa.py] Kaynak Şefşâven Râşidî emirliğinin Vattâsîlere bağlılığını gösterir (1493 Tıtvân tayini) ama ne 1471 kuruluşunu ne 1549 ucunu tarihler. TDV'de Şefşâven maddesi yok (slug arama sayfasına düşüyor). İç not: s: sahibi fiilen Râşidî emirliği (künye yok) + metbû merini."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:98",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İbn Asker el-Mağribî», https://islamansiklopedisi.org.tr/ibn-asker-el-magribi",
+   "alinti": "Râşidîler’in tâbi oldukları Sa‘dîler | Şefşâven’de Râşidîler’in hâkimiyetine son verildiği 969 (1562) yılında",
+   "uc": "t",
+   "oneri": {
+    "not": "1549-1562 Râşidî emirliği Sa'dîlere TÂBİ (s: Râşidî — künye yok — + v: sadi; ya da BEYANLI s: sadi); doğrudan Sa'dî idaresi 969/1562'den. Hicrî 969 = 1561-09-11 → 1562-08-30; kaynağın mîlâdî yılı 1562 ∩ → 1562-01-01."
+   },
+   "not": "[sira 3476] [alıntı ham metinden, sayfa.py] TDV İbn Asker el-Mağribî. f 1549 (Sa'dîlerin Fes'i alışı, ülke düzeyi) teyitsiz. t 1659 (Sa'dî sonu) bu maddede yok. Alevî geçişi için TDV «Alevîler (Fas)» okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:98",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1924-11-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tıtvân», https://islamansiklopedisi.org.tr/titvan",
+   "alinti": "İspanya 1913’te Tıtvân dahil bölgeyi tekrar işgal etti.",
+   "uc": "",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "s",
+      "d": "fas",
+      "f": "1659-01-01",
+      "t": "(İspanyol kuvvetlerinin Şefşâven'e girişi — ipucu 1920-10, gün kaynakla)"
+     },
+     {
+      "alan": "s",
+      "d": "fas-ispanyol-himayesi",
+      "f": "(İspanyol girişi)",
+      "t": "1924-11-15"
+     }
+    ]
+   },
+   "not": "[sira 3477] [alıntı ham metinden, sayfa.py] 🔴 Zincirde Fas İspanyol Himayesi (künye fas-ispanyol-himayesi 1912-11-27 → 1956-04-07) yok; komşu Vezzân fas-fransiz-himayesi 1912-03-30'dan yazılı. ABİ MERKEZ Tıtvân (himaye başşehri) 1913; Şefşâven'in fiilî İspanyol işgali 1920 (ipucu, okunmadı) — TEK ÖLÇÜ/TAHRİR: himaye alanı 1912-11-27'den, şehre fiilî giriş günü ayrıca. f 1659 YIL teyitsiz. 1924-11-15 İspanyol tahliyesi kaydın kendi kaynağı Vikipedi (yasak) — akademik kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:98",
+   "alan": "s",
+   "d": "fas",
+   "f": "1926-05-25",
+   "t": "9999-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tıtvân», https://islamansiklopedisi.org.tr/titvan",
+   "alinti": "İspanya’nın Nisan 1956’da Mağrib’in istiklâlini tanımasıyla birlikte Fas’a ilhak edildi.",
+   "uc": "",
+   "oneri": {
+    "bolunme": [
+     {
+      "alan": "s",
+      "d": "fas-ispanyol-himayesi",
+      "f": "1926-05-25",
+      "t": "1956-04-07"
+     },
+     {
+      "alan": "s",
+      "d": "fas-krallik",
+      "f": "1956-04-07",
+      "t": "9999-01-01"
+     }
+    ]
+   },
+   "not": "[sira 3478] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tıtvân. Rif Cumhuriyeti'nin sonundan sonra Şefşâven İspanyol himaye bölgesine döndü (İspanyol yeniden girişi 1926, ipucu); bağımsızlık Nisan 1956 (TDV ay; künye fas-ispanyol-himayesi t 1956-04-07). 'fas' künyesi f 1549 (Sâdî/Alevî) — 1956 sonrası fas-krallik (f 1956-03-02) ayrımı kayıtta yok."
+  }
+ ],
+ "Ğar Dimâv": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:326",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3479] [KÜME K30]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:326",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3480] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor; Ğar Dimâv'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; öncül hafsi satırının t'si (K30) birlikte taşınmalı (Cendûbe P046 emsali). t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). ÖLÇÜT: idareye katma — beylerbeyilik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:326",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3481] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:326",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3482] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (Rodos emsali; TEK ÖLÇÜ Lozan imza); veri 1923-10-29 (eski ufuk, sistemik — Cendûbe P046 ile aynı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:326",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3483] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü (TDV: 'bu eyaleti kendi himayelerine aldıklarını duyurdular'; 8 Haziran 1883 Mersâ ile 'Fransa’nın resmen idaresine girdi' — ic_not). Şehre fiilî Fransız giriş günü teyitsiz. t → 1923-07-24 (Lozan imza). Himaye = v: fransa mı, isg mi kural sorusu P046'da EMRELİC'e gitti."
+  }
+ ],
+ "Sîdî Bû Zeyd": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:341",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3484] [KÜME K30]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:341",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3485] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor; Sîdî Bû Zeyd'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; öncül hafsi satırının t'si (K30) birlikte taşınmalı (Cendûbe P046 emsali). t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). ÖLÇÜT: idareye katma — beylerbeyilik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:341",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3486] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:341",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3487] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (Rodos emsali; TEK ÖLÇÜ Lozan imza); veri 1923-10-29 (eski ufuk, sistemik — Cendûbe P046 ile aynı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:341",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3488] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü (TDV: 'bu eyaleti kendi himayelerine aldıklarını duyurdular'; 8 Haziran 1883 Mersâ ile 'Fransa’nın resmen idaresine girdi' — ic_not). Şehre fiilî Fransız giriş günü teyitsiz. t → 1923-07-24 (Lozan imza). Himaye = v: fransa mı, isg mi kural sorusu P046'da EMRELİC'e gitti."
+  }
+ ],
+ "Dûz": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:357",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3489] [KÜME K30]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:357",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3490] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor; Dûz'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; öncül hafsi satırının t'si (K30) birlikte taşınmalı (Cendûbe P046 emsali). t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). ÖLÇÜT: idareye katma — beylerbeyilik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:357",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3491] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:357",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3492] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (Rodos emsali; TEK ÖLÇÜ Lozan imza); veri 1923-10-29 (eski ufuk, sistemik — Cendûbe P046 ile aynı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:357",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "uc": "f",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3493] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü (TDV: 'bu eyaleti kendi himayelerine aldıklarını duyurdular'; 8 Haziran 1883 Mersâ ile 'Fransa’nın resmen idaresine girdi' — ic_not). Şehre fiilî Fransız giriş günü teyitsiz. t → 1923-07-24 (Lozan imza). Himaye = v: fransa mı, isg mi kural sorusu P046'da EMRELİC'e gitti."
+  }
+ ]
+}
