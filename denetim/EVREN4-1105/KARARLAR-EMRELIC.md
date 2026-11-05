@@ -151,6 +151,34 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-88 — Ruanda/Urundi güncellemesi (gece-63 (a) maddesinin YERİNE geçer)
+
+Ruanda ve Burundi krallıkları (Ruanda mwamisi 1961'e, Burundi mwamisi 1966'ya kadar) Alman ve Belçika dolaylı idaresinde sürdü. Bu yüzden Kamboçya/Tunus kuralı uygulanır.
+
+- **Alttaki `s:` kesintisiz krallıktır:** `s: ruanda` ve `s: burundi`. Künyelerin t'si GENİŞLET edilir (LAB).
+- **Üst katman zinciri:**
+  1. `v: almanya`.
+  2. 1916: krallığın üstünde `isg belcika`.
+  3. 1919-06-28: `v: belcika`.
+  4. 1922-07-20: manda (`v:` olarak).
+  5. 1962-07-01: bağımsızlık.
+- **Rejim değişiklikleri:** Ruanda 1961-01-28'de cumhuriyet oldu, Burundi 1966-11-28'de.
+- **Etkilenen satırlar:** Gitega, Kigali, Bucumbura ve Nyanza. Bu satırlarda "s: belcika" yerine bu zincir yazılır.
+
+**Künye ölçümü (KASA):**
+
+| Künye | f | t | Not |
+|---|---|---|---|
+| `ruanda` | 1300-01-01 | 1916-05-06 | t fetih günü; GENİŞLET → 1961-01-28 |
+| `burundi` | 1680-01-01 | 1916-06-06 | t fetih günü; GENİŞLET → 1962-07-01 |
+| `burundi-krallik` | 1962-07-01 | 1966-11-28 | var |
+| `burundi-cumhuriyeti` | 1966-11-28 | — | var |
+| `ruanda-cumhuriyeti` | 1962-07-01 | — | 1961-01-28 ile çelişiyor → LAB |
+| `ruanda-urundi-mandasi` | 1922-07-20 | 1962-07-01 | var |
+
+- Mandanın künyesi `s:` için açılmıştı. Bu kuralda manda `v:` katmanında kullanılır.
+- 1962-07-01'deki bağımsızlıkta Burundi'nin `burundi` → `burundi-krallik` geçişi ya aynı devlet sayılır ya künye birleşir. Bu da LAB'a.
+
 ## 5 Kasım 2026 gece-85 — Kanada 1880 sistemik bulgusu (KANADA-1880-TARAMA.tsv)
 
 - **Sınıflama ONAY:**
