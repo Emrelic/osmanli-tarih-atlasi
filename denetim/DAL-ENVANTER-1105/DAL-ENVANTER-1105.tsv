@@ -1,0 +1,253 @@
+dal	ileri	cherry_arti	fark_dosya	veri_kod_dosyalari	son_commit	durum
+origin/ant-harita-1013	2	2	4	data/antlasma_haritalari.js,index.html	2026-10-13|Emrelic|paketle yenile + surum damgasi r12237 (rebase sonrasi, ANT-HARITA)	GERCEK-IS? veri/kod farki
+origin/birlesim-denetim-1028	0	0	0			ICINDE
+origin/d8-once-olcum-1009	3	3	7		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-d8once)	yalniz denetim/belge farki
+origin/devir-1030/admiring-chaum-3b91c8	0	0	0			ICINDE
+origin/devir-1030/angry-clarke-982f40	0	0	0			ICINDE
+origin/devir-1030/brave-aryabhata-3c0fac	0	0	0			ICINDE
+origin/devir-1030/charming-shtern-5dc306	0	0	0			ICINDE
+origin/devir-1030/confident-almeida-f705bc	0	0	0			ICINDE
+origin/devir-1030/denetim-orta-asya-2	0	0	0			ICINDE
+origin/devir-1030/eager-gagarin-b88d0c	0	0	0			ICINDE
+origin/devir-1030/elastic-bhaskara-799828	0	0	0			ICINDE
+origin/devir-1030/festive-rubin-50c23b	0	0	0			ICINDE
+origin/devir-1030/hopeful-hypatia-b4f7cc	0	0	0			ICINDE
+origin/devir-1030/hungry-mcnulty-511ecd	0	0	0			ICINDE
+origin/devir-1030/intelligent-newton-56b28c	0	0	0			ICINDE
+origin/devir-1030/kind-chandrasekhar-2b3ffb	0	0	0			ICINDE
+origin/devir-1030/kisaltma-yyy	1	0	0		2026-10-28|Emrelic|CLAUDE.md: *yyy kisaltmasi (yapilanlar / yapilmakta olanlar / yapilacaklar brifingi)	ICERIK-ICINDE (patch-id)
+origin/devir-1030/magical-varahamihira-f386c4	0	0	0			ICINDE
+origin/devir-1030/nervous-proskuriakova-c27f6d	0	0	0			ICINDE
+origin/devir-1030/postit-100-kirli	1	1	3	data/yerlesimler.js,data/yerlesimler_ek29.js,data/yerlesimler_serhat.js	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-100 (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-133	2	2	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-134-kirli	1	1	3	data/yerlesimler.js,data/yerlesimler_ok106.js,data/yerlesimler_ukrayna_0916.js	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-134 (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-135	1	0	0		2026-10-30|Emrelic|postit #135: tabi ic sinir hattinda sahipsiz petek hayaletlerini kaldir	ICERIK-ICINDE (patch-id)
+origin/devir-1030/postit-136-kirli	1	1	1	data/olaylar_senusi_0919.js	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-136 (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-137-kirli	1	1	1	data/yerlesimler_ek_bozkir.js	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-137 (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-145	2	1	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-146b-kirli	1	1	1	data/yerlesimler.js	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-146b (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-148	1	1	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|POSTIT-148: Basra 1696-1701 çevresi — Fâv ve Abâdân Osmanlı dönemi kesildi	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-158	2	1	6	data/yerlesimler.js,data/yerlesimler_ek29.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-170	2	2	5	data/yama_p0037_bekleyen.js,data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-172	2	1	2	data/yerlesimler_halef_1946.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/devir-1030/postit-172-kirli	3	2	2	data/yerlesimler_halef_1946.js,index.html	2026-10-30|Emrelic|DEVIR-1030 kirli agac yedegi: postit-172 (commit'lenmemis duzenlemeler)	GERCEK-IS? veri/kod farki
+origin/devir-1030/quizzical-germain-949217	0	0	0			ICINDE
+origin/devir-1030/relaxed-kalam-e73825	0	0	0			ICINDE
+origin/devir-1030/sad-meninsky-55cf2a	0	0	0			ICINDE
+origin/devir-1030/youthful-blackburn-6cc72b	1	1	4	data/devletler.js,index.html	2026-10-29|Emrelic|GDA-OKYANUSYA: campa ic_not \' kacisi kaldirildi (girdi.py Invalid escape)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-birlesim	0	0	0			ICINDE
+origin/emrelic-1101-d8-once-olcum	3	3	7		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-d8once)	yalniz denetim/belge farki
+origin/emrelic-1101-drac-1018	2	2	5	data/yerlesimler.js,index.html	2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-ekokuma-makam	2	2	2	index.html,js/app.js	2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-enklav-harita-1028	2	2	6		2026-10-29|Emrelic|denetim: ENKLAV-HARITA-1028 EK — ilk 40 karasal aday sayfa okunarak sinandi	yalniz denetim/belge farki
+origin/emrelic-1101-motor-yuruyus	1	0	0		2026-09-17|Emrelic|MOTOR-YURUYUS: kara-kara sinirini yuruyus suresi ciziyor (MOTOR_YURUYUS=1, varsayilan KAPALI)	ICERIK-ICINDE (patch-id)
+origin/emrelic-1101-negatif-yil-b-v3	1	1	8	arac/denetle.py,arac/girdi.py,arac/gun.py,arac/kaynak_durum.py,arac/motor_esitlik.py,arac/push_kapisi.py,arac/uret_petek.py TUZ:arac/uret_petek.py,arac/girdi.py	2026-10-14|Emrelic|NEGATIF-YIL-1010-B-v3: motor MÖ tarih sırası gün sayacıyla — B yaması bugünkü main'e oturtuldu (TUZ)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-not-kaydet-takilma	2	2	2	index.html,js/gelistirici.js	2026-10-15|Emrelic|NOT-KAYDET-TAKILMA: sürüm damgası r12368	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-postit-model-sayac	1	1	4	css/style.css,index.html,js/gelistirici.js	2026-10-17|Emrelic|POSTIT: sahipsiz not sayaci, mesaj penceresi arac cubugunu orter, model kapisi	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-push-tren	1	1	3	arac/push_kapisi.py	2026-10-17|Emrelic|KAPI: tren kipi — kuyruktaki commit'ler tek ölçüm + tek push ile geçer	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-rotus-dugme-tasi	4	4	4	arac/not.py,index.html,js/gelistirici.js	2026-10-16|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-teyit-dalga-1014	1	1	32	data/devletler.js,data/etiket_yama.js,data/kronoloji_cok_lehistan.js,data/kronoloji_fransa.js,data/kronoloji_ingiltere.js,data/kronoloji_ispanya.js,data/kronoloji_lehistan.js,data/kronoloji_sinir_afrika.js …	2026-10-15|Emrelic|TEYIT-DALGA-1014 — teyit kampanyası 1.+2. dalga: 612 gün + 121 yıla inen + 21 bağlı-notlu madde; güve	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-vassal-rengi-geri	1	1	2	index.html,js/app.js	2026-10-17|Emrelic|Vassal dolgusu Osmanli kirmizisinin bir ton aciga geri alindi (TABI_RENK)	GERCEK-IS? veri/kod farki
+origin/emrelic-1101-yollar-pers-afrika	2	0	0		2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	ICERIK-ICINDE (patch-id)
+origin/emrelic-1101-yuk-bolme-0925	2	2	3	arac/geo_dilimle.py,index.html,js/app.js	2026-09-25|Emrelic|YUK-BOLME-0925: geo_dilimle.py --sina — catal kapisi (M-5180 ④)	GERCEK-IS? veri/kod farki
+origin/emrelic-1104-2s	0	0	0			ICINDE
+origin/emrelic-1104-ceviri-birlesik	0	0	0			ICINDE
+origin/emrelic-1104-ceviri-de	0	0	0			ICINDE
+origin/emrelic-1104-ceviri-es	0	0	0			ICINDE
+origin/emrelic-1104-l2	0	0	0			ICINDE
+origin/enklav-kirp-1104	1	1	6	arac/uret_petek.py TUZ:arac/uret_petek.py	2026-11-04|Emrelic|motor: MOTOR-ENKLAV-KIRP-1104 — enklav:true presidio devirden pay almaz, hucresi R km ile sinirli (ba	GERCEK-IS? veri/kod farki
+origin/entegrasyon-1029-asya	0	0	0			ICINDE
+origin/entegrasyon-1029-asya-gec	0	0	0			ICINDE
+origin/entegrasyon-1101	0	0	0			ICINDE
+origin/havva-1101-agent-a012e2b28a71ffb62	1	1	2	data/kronoloji_cok_derin_asya_afrika_1024.js,index.html	2026-10-24|Emrelic|DERIN-ASYA-AFRIKA: 20 ince kunyeye kaynakli kronoloji maddeleri (yeni dosya, index.html baglandi)	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a1dd4b6d7d979a6d1	1	1	13	data/kronoloji_sinir_zincir_1281sonra_1024.js,data/yerlesimler.js,data/yerlesimler_asya.js,data/yerlesimler_avrupa.js,data/yerlesimler_dogu_500_1281.js,data/yerlesimler_ek7.js,data/yerlesimler_ek8.js,data/yerlesimler_h2_rusya.js …	2026-10-24|Emrelic|ZINCIR-1281SONRA-1024: kunyesi olup s: zinciri olmayan 12 devlete kaynakli s: zinciri (+25 sinir madd	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a27bc2c6bad3eda25	2	1	10	data/devletler.js,data/olaylar_bk_zincir_1024.js,data/yerlesimler.js,data/yerlesimler_ek.js,data/yerlesimler_ek29.js,index.html	2026-10-24|Emrelic|ZINCIR-BK-1024 parti 2: 9 kunye daha (Kuba/Nahcivan/Talis hanliklari, Vidin, Dilmacogullari, Knin-Hir	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a51f535c2d27271c3	3	2	8	data/kronoloji_sinir_akdeniz3_1024.js,data/yerlesimler_avrupa.js,data/yerlesimler_ms1_1281_yeni.js,data/yerlesimler_once1281_yt_avrupa.js,data/yerlesimler_once1281_yt_yer3.js,index.html	2026-10-24|Emrelic|AKDENIZ3-3: Pliska ve Preslav (Birinci Bulgar) zincirleri + paket yenile + surum damgasi	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a5cbe491172c2b362	1	1	7	data/devletler.js,data/kronoloji_sinir_cin_sanguo.js,data/kronoloji_sinir_orta_ms0600.js,data/yerlesimler_once1281_yt_avrupa.js,index.html	2026-10-24|Emrelic|KAYNAK-DOGRULA: avar/hun-avrupa, Cin Sanguo-Jin, Orta Avrupa2 kunyeleri akademik kaynakla capraz kont	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a7d0838e1ddfbd993	1	1	8	data/devletler.js,data/yerlesimler_avrupa.js,data/yerlesimler_once1281_yt_avrupa.js,data/yerlesimler_once1281_yt_yer3.js,index.html	2026-10-24|Emrelic|ZINCIR-AVRUPA-H: kunyesi olup s: zinciri olmayan 21 devlete kaynakli s: penceresi + 39 sinir maddesi	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a890c12140e1c63c7	1	1	5	index.html,js/app.js	2026-10-24|Emrelic|BOSLUK-ZAMAN: bos_alanlar isaretleri 1281 oncesinde ve sahipsiz kayitlar icin her tarihte gorunmuyor	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-a949569fafc640c98	1	1	5	data/yerlesimler.js,data/yerlesimler_ms1_1281_yeni.js,index.html	2026-10-24|Emrelic|ZINCIR-AFRIKA-ORTADOGU: 12 kunye icin TDV kaynakli s: zinciri (Halep, Musul, Zebid, Isfahan, Bicaye, 	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-aa21e85d858a7596a	1	1	5	data/devletler.js,data/yerlesimler_once1281_yt_avrupa.js,index.html	2026-10-24|Emrelic|KUNYE-AVRUPA2: 4 kunye (avusturya-marki, hirvat-dukalik, bohemya-dukaligi, orta-francia) + Melk zinci	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-aa4c675d930034285	2	1	1	index.html	2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-aa6ce7814b2a5dd5c	2	2	4	data/yerlesimler.js,index.html	2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-af3db820576047450	1	1	8	data/devletler.js,data/yerlesimler.js,data/yerlesimler_avrupa.js,data/yerlesimler_seyrek.js,index.html	2026-10-24|Emrelic|ZINCIR-AVRUPA3: Tedmur, Toulouse, Lyon, Cenevre, Sana, Regensburg ARASTIRILMADI dilimleri kaynakla do	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-af78f3a8ebe507054	2	2	17	data/devletler.js,data/kronoloji_sinir_orta_ms0600.js,data/yerlesimler.js,data/yerlesimler_asya.js,data/yerlesimler_dogu_500_1281.js,data/yerlesimler_ek14.js,data/yerlesimler_ek15.js,data/yerlesimler_ek16.js …	2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-afa174a27d83b2c83	2	1	2	data/kronoloji_sinir_amerika_afrika3_1024.js,index.html	2026-10-24|Emrelic|AMAF3: wagadu-gane-erken 990 maddesi (UNESCO GHA III) + Murabit fethi tartismasi ic_not	GERCEK-IS? veri/kod farki
+origin/havva-1101-agent-afa7403996983da7d	1	1	9	data/devletler.js,data/kronoloji_sinir_cin_sanguo.js,data/yerlesimler_asya.js,data/yerlesimler_once1281_yt_dogu3.js,data/yerlesimler_once1281_yt_dogu_gd_asya.js,index.html	2026-10-24|Emrelic|CIN-SANGUO: Üç Krallık + Batı Jin (MS 25-316) 8 yerleşimde kaynaklı s: zinciriyle haritaya	GERCEK-IS? veri/kod farki
+origin/havva-1101-b-gorunum-bekliyor	1	1	5	arac/dolgu.py,arac/dolgu_birlestir.py,index.html,js/app.js	2026-10-19|Emrelic|B gorunumu kodu (BEKLEMEDE, push edilmedi): tembel yukleme + dolgu paralel uretim + birlestirme	GERCEK-IS? veri/kod farki
+origin/havva-1101-blissful-jackson-5eb584	1	1	3	arac/dolgu.py,index.html,js/app.js	2026-10-23|Emrelic|B-GORUNUM: dolgu ad alani ayrimi (MOTOR_DOLGU_AD=_SONRA) + app.js dolguPaketiEkle (1281 oncesi + sonr	GERCEK-IS? veri/kod farki
+origin/havva-1101-boya-paketi-k3	4	4	18	arac/renkler.py TUZ:arac/renkler.py	2026-10-22|Emrelic|KOSU 29 ciktisindan tek-gun onizleme (MO 3000, MS 1-1000): arac + PNG/GeoJSON ozet (DAL, ITILMEZ)	GERCEK-IS? veri/kod farki
+origin/havva-1101-capraz-sorgu	15	15	79	arac/capraz_cikar.js,data/devletler.js,data/etiket_yama.js,data/kronoloji_almanya.js,data/kronoloji_balkan.js,data/kronoloji_cok_1923_1945.js,data/kronoloji_cok_bulgaristan.js,data/kronoloji_cok_ince_avrupa_amerika.js …	2026-10-19|Emrelic|CAPRAZ-1018: ODAK-TAVAN.json sekme_okunmayan_kimlik - 12 anahtar yeniden adlandirma (net 0, Emre onay	GERCEK-IS? veri/kod farki
+origin/havva-1101-degismez2-tarama	1	1	74	data/kronoloji_sinir_avrupa_bati.js,data/kronoloji_sinir_avrupa_orta.js,data/kronoloji_sinir_guney_g8.js,data/kronoloji_sinir_halef_1923_2000.js,data/kronoloji_sinir_nokta2.js,data/kronoloji_sinir_turkiye.js,data/olaylar.js,data/olaylar_2s_0919.js …	2026-10-19|Emrelic|DEGISMEZ2-TARAMA-1019: kronolojisiz toprak değişimleri baştan sona tarandı	GERCEK-IS? veri/kod farki
+origin/havva-1101-kosu	3	3	12	data/bolgeler.js,data/devirler.js,data/devlet_harita_ust.js,data/devlet_parcalar.js,data/donem_parcalar.js,data/donemler_on.js,data/donemler_ust.js,data/kosu_damga.js …	2026-10-06|Emrelic|KOŞU 20 (HAVVA) — düzeltme sonrası denetim logu + 8k ve D7 üyelik ölçümleri	GERCEK-IS? veri/kod farki
+origin/havva-1101-kosu25-olc	1	1	18	data/altlik.js,data/bolgeler.js,data/devirler.js,data/devlet_harita_ust.js,data/devlet_parcalar.js,data/donem_parcalar.js,data/donemler_on.js,data/donemler_ust.js …	2026-10-15|Emrelic|KOSU 25 (HAVVA) — tam insa, temel b0b48774, ufuk 1000-2000, r12365	GERCEK-IS? veri/kod farki
+origin/havva-1101-kosu31	1	0	0		2026-10-30|Emrelic|KOSU 31 motor yamalari: KUR-DEVIR + KUSATMA-BILESEN + TOHUM-YAKA (+ altlik)	ICERIK-ICINDE (patch-id)
+origin/havva-1101-mo-ayni-prensip	1	1	3	arac/uret_petek.py TUZ:arac/uret_petek.py	2026-10-21|Emrelic|MO-MOTOR (DAL, ITILMEZ): ayni prensip yamasi - MO tavan=taban, bantlar epok-duyarli, puan kapisi acik	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-101	2	2	2	index.html,js/antlasma_harita.js	2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-104	2	2	4	data/yerlesimler_ek28.js,index.html	2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-109	2	2	4	data/kronoloji_habsburg.js,index.html	2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-135-ayna	1	1	1	js/app.js	2026-11-01|Emrelic|POSTIT-135: tâbi iç sınırda sahipsiz petek hayalet halkası kaldırıldı — sahipsiz petek, kenarlarının 	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-62	2	2	7	arac/denetle.py,data/olaylar_ek5.js,data/yerlesimler.js,index.html	2026-10-18|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-postit-99b	1	1	4	data/olaylar_sehir_ilk.js,index.html	2026-10-19|Emrelic|POSTIT-99: Bazavluk Seçi maddesine Seç/hatman/Hetmanlık terim notu (CIUS + TDV hatman)	GERCEK-IS? veri/kod farki
+origin/havva-1101-push-0cmqdy57	0	0	0			ICINDE
+origin/havva-1101-reverent-visvesvaraya-6b5a52	24	23	2	arac/denetle_yayin.py,index.html	2026-10-24|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-tablo-1016	2	2	1		2026-10-16|Emrelic|OLAY-TABLOSU-1016 §8: beş karar (K1-K3 Emre, K4 bölge dosyası, K5 geçiş)	yalniz denetim/belge farki
+origin/havva-1101-tahta-yerel-1017	5	5	2		2026-10-13|Emrelic|TAHTA M-5854 — HAVVA -> YILDIRIM BAYEZIT	yalniz denetim/belge farki
+origin/havva-1101-w-gece	4	1	1	data/yerlesimler.js	2026-10-16|Emrelic|GECE-1016: Haram (Banatska Palanka) noktasi — Guney Banat bosluk (Emre notu #8)	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-not2	4	2	3	data/olaylar_2s_0919.js,data/yerlesimler.js,data/yerlesimler_sinir_kuzey.js	2026-10-16|Emrelic|NOT2-1016: #34 Divriği, Besni, Darende 1398 → 1399 (Berkuk'tan sonra, Sivas'tan sonra)	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-renk2	1	1	1	arac/renkler.py TUZ:arac/renkler.py	2026-10-16|Emrelic|RENK-PAKET-1016: 19 kimlik — T5-1000-A Anadolu/Kafkas/Irak hanedanları + Salzburg + Ebülhayr	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-t5a	7	4	4	data/olaylar_t5_1000a.js,data/yerlesimler.js,data/yerlesimler_ok107.js,data/yerlesimler_ok110.js	2026-10-16|Emrelic|T5-1000-A-1016: 3 yeni künye (boya_gerekli) + renk bekleyen zincir yaması	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-uyg1	11	1	6	data/kronoloji_kirim.js,data/olaylar_ek5.js,data/olaylar_p0063.js,data/olaylar_p0917kosu13.js,data/yerlesimler.js,data/yerlesimler_kirim.js	2026-10-15|Emrelic|KARAR-UYG-1015: Riga yeni künyelere bağlandı (riga-baspiskoposlugu 1281-1330, riga-hur-sehri 1561-158	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-uyg2	10	1	3	data/olaylar_ek16.js,data/yerlesimler.js,data/yerlesimler_afrika.js	2026-10-15|Emrelic|KARAR-UYG-1015: Eski Kandehar babur 1522-1556, safevi 1556-1595 (EIr KANDAHAR iv; G3 0033/H-0010)	GERCEK-IS? veri/kod farki
+origin/havva-1101-w-veri	5	1	28	data/antlasma_haritalari.js,data/devletler.js,data/ekokuma_antlasma2.js,data/ekokuma_karadeniz.js,data/ekokuma_karsi.js,data/ekokuma_kirimrus.js,data/ekokuma_statu.js,data/ekokuma_tartisma.js …	2026-10-15|Emrelic|KUTU-VERI-1015: A#7 Kandehar 1281 sahibi Kert (Emre kararı), Timur 1383	GERCEK-IS? veri/kod farki
+origin/havva-1101-yedek-ms1-1281	16	16	42	arac/girdi_listesi.py,data/devletler.js,data/kronoloji_cok_ms1_1000_ortadogu.js,data/kronoloji_cok_once1281_anadolu.js,data/kronoloji_sinir_once1281_geriye.js,data/olaylar_arkeoloji_zincir.js,data/yerlesimler.js,data/yerlesimler_a78_asya.js …	2026-10-22|Emrelic|VERI-MS1-1281: paket yenile + surum damgasi (rebase sonrasi)	GERCEK-IS? veri/kod farki
+origin/havva-1101-yedek-ms1-1281-v2	2	2	42	arac/girdi_listesi.py,data/devletler.js,data/kronoloji_cok_ms1_1000_ortadogu.js,data/kronoloji_cok_once1281_anadolu.js,data/kronoloji_sinir_once1281_geriye.js,data/olaylar_arkeoloji_zincir.js,data/yerlesimler.js,data/yerlesimler_a78_asya.js …	2026-10-22|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/havva-1101-yedek-postit-117-eski	2	2	18	arac/denetle.py,data/olaylar_ek3.js,data/olaylar_ek5.js,data/olaylar_ek6.js,data/olaylar_ki117.js,data/sehirler.js,data/yerlesimler.js,data/yerlesimler_ek29.js …	2026-10-19|Emrelic|POSTIT-117: Değişmez 7e tavanı 1944 -> 2035 (Emre onayı, 19 Ekim 2026)	GERCEK-IS? veri/kod farki
+origin/havva-1101-yedek-postit-117-eski2	1	1	16	data/olaylar_ek3.js,data/olaylar_ek5.js,data/olaylar_ek6.js,data/olaylar_ki117.js,data/yerlesimler.js,data/yerlesimler_ek29.js,data/yerlesimler_ek5.js,data/yerlesimler_ok106.js …	2026-10-23|Emrelic|POSTIT-117: Kutsal İttifak Savaşı (1683-1699) şehir el değiştirme günleri kaynakla düzeltildi	GERCEK-IS? veri/kod farki
+origin/havva-1101-yedek-postit-117-eski3	1	1	16	data/olaylar_ek3.js,data/olaylar_ek5.js,data/olaylar_ek6.js,data/olaylar_ki117.js,data/yerlesimler.js,data/yerlesimler_ek29.js,data/yerlesimler_ek5.js,data/yerlesimler_ok106.js …	2026-10-27|Emrelic|POSTIT-117: Kutsal İttifak Savaşı (1683-1699) şehir el değiştirme günleri kaynakla düzeltildi	GERCEK-IS? veri/kod farki
+origin/havva-1104-2s	0	0	0			ICINDE
+origin/havva-1104-jstor	0	0	0			ICINDE
+origin/havva-1104-l2	0	0	0			ICINDE
+origin/kamp-ortacag-1010	2	2	4		2026-10-11|Emrelic|KAMP-ORTACAG ikinci tur — 2 sehir duzeltmesi, dikis olcumu (K4/K5/1281), cift oturum beyani	yalniz denetim/belge farki
+origin/kasa-1101-birlesim-main	0	0	0			ICINDE
+origin/kasa-1101-postit-132	1	1	8	data/olaylar_ek3.js,data/olaylar_ek6.js,data/yerlesimler.js,data/yerlesimler_ek5.js,index.html	2026-10-27|Emrelic|POSTIT #132: Macar cephesi — Gyula 1695-01-12, Yanova 1693-05-27, Mohaç 1686 sonbaharı	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-136	2	1	4	data/olaylar_senusi_0919.js,index.html	2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-146c	1	1	2	data/olaylar_senusi_0919.js,data/yerlesimler.js	2026-11-01|Emrelic|KASA 1101: postit-146c worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinat	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-148	1	1	1	data/yerlesimler.js	2026-11-01|Emrelic|KASA 1101: postit-148 worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinato	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-151	1	1	16	arac/denetle.py,data/yerlesimler.js,data/yerlesimler_a78_asya.js,data/yerlesimler_a78_avrupa.js,data/yerlesimler_afrika.js,data/yerlesimler_afrika2.js,data/yerlesimler_asya.js,data/yerlesimler_avrupa.js …	2026-11-01|Emrelic|KASA 1101: postit-151 worktree'sindeki commit edilmemis degisiklikler (sahip oturum bosta; koordinato	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-152	2	2	6	data/olaylar_ek6.js,data/yerlesimler.js,index.html	2026-11-01|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/kasa-1101-postit-duzenle-ekran	3	3	3	css/style.css,index.html,js/gelistirici.js	2026-10-27|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/kasa-1103-ceviri	0	0	0			ICINDE
+origin/kasa-1104-kronoloji	0	0	0			ICINDE
+origin/kasa-dalga1-1003	0	0	0			ICINDE
+origin/kasa-eksik-sehir-b2-1010	1	1	0		2026-10-10|Emrelic|KASA-EKSIK-SEHIR-B2-1010 — B listesi 20 sehir kaynaklandirmasi (TDV + Treccani + GeoNames)	ICERIK-ICINDE (dosya ayni)
+origin/kasa-harran-ters-1010	1	1	0		2026-10-10|Emrelic|KASA-HARRAN-TERS-1010: Harran ters yon iki uc + bit uclusu yili (yalniz olcum)	ICERIK-ICINDE (dosya ayni)
+origin/kasa-kaynak-eksik-sehir-1010	1	1	0		2026-10-10|Emrelic|KAYNAK-EKSIK-SEHIR-1010 — atlasta noktasi olmayan 20 sehrin TDV kaynaklandirmasi	ICERIK-ICINDE (dosya ayni)
+origin/kasa-kunyesiz-1001	0	0	0			ICINDE
+origin/kasa-nokta-dosya-1003	0	0	0			ICINDE
+origin/kasa-once1281-1003	0	0	0			ICINDE
+origin/kasa-pazar-yedek-1104	0	0	0			ICINDE
+origin/kasa-pazar-yerlesim-1105	19	9	14	index.html	2026-11-05|Emrelic|YERLESIM-1105: yerlesim index'i mekanik denetimi (yalniz okur; veri degismedi)	GERCEK-IS? veri/kod farki
+origin/kasa-pazar-yigin-1104	18	9	14	index.html	2026-11-04|Emrelic|Kazan 1552-10-02 kalir (Julyen); TDV 15 Ekim celiskisi ic_not (HAVVA 2s A-59, EMRELIC karari)	GERCEK-IS? veri/kod farki
+origin/kasa-polonya-1005	0	0	0			ICINDE
+origin/kasa-sessiz-kunye-1010	1	1	0		2026-10-10|Emrelic|KASA-SESSIZ-KUNYE-1010 — uc sessiz kunye: aleut · arua · norvec-isvec-birligi	ICERIK-ICINDE (dosya ayni)
+origin/kasa-sumer-kunye-1010	1	1	0		2026-10-10|Emrelic|KASA-SUMER-KUNYE-1010: Sumer 10 sehir + Akad/Ur III/Isin/Larsa kunye ADAYLARI (orta kronoloji)	ICERIK-ICINDE (dosya ayni)
+origin/kasa-urfa-celiski-1010	1	1	0		2026-10-10|Emrelic|KASA-URFA-CELISKI-1010 — Urfa zinciri TDV ile celisiyor; kaynak YANLIS ANILMIS + zincir BOLGEDEN SEHR	ICERIK-ICINDE (dosya ayni)
+origin/kasa-yiltemsili-1001	0	0	0			ICINDE
+origin/kibris-1191-1010	1	1	0		2026-10-10|Emrelic|KIBRIS-1191-1010 — Kibris 1185-1192: SINIF veri eksik (pre-1281 kapsam deligi)	ICERIK-ICINDE (dosya ayni)
+origin/kosu/23	0	0	0			ICINDE
+origin/kosu/27	0	0	0			ICINDE
+origin/kosu/27-hazirlik	0	0	0			ICINDE
+origin/kosu14	5	3	38	arac/kos_ve_yayinla.py,arac/motor_onbellek.py,arac/uret_petek.py,data/altlik.js,data/devirler.js TUZ:arac/motor_onbellek.py,arac/uret_petek.py	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu14)	GERCEK-IS? veri/kod farki
+origin/kosu16	1	1	1	arac/uret_petek.py TUZ:arac/uret_petek.py	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu16)	GERCEK-IS? veri/kod farki
+origin/kosu17	1	0	0		2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-kosu17)	ICERIK-ICINDE (patch-id)
+origin/kosu19	0	0	0			ICINDE
+origin/kunye-isbitariyye-daviyye-1010	1	1	0		2026-10-10|Emrelic|KUNYE-ISBITARIYYE-DAVIYYE-1010 — iki tarikat kunyesi onerisi	ICERIK-ICINDE (dosya ayni)
+origin/kunye-sinif-antakya-1010	1	1	0		2026-10-10|Emrelic|KUNYE-SINIF-ANTAKYA-1010 — antakya-prinkipsligi t:1268 asimi: SINIF B-KOL	ICERIK-ICINDE (dosya ayni)
+origin/lab-1004	9	9	4		2026-10-24|emregokmen|TAHTA M-5785 — LAB-EMRE-6-MADDE-1024 -> YILDIRIM BAYEZIT	yalniz denetim/belge farki
+origin/lab-1101-krono-arama-stash	10	10	6	css/style.css,js/app.js	2026-11-01|emregokmen|LAB stash pull-oncesi-0001 (28 Eki): KRONO-ARAMA devlet secici arama kutusu, js/app.js + css/style	GERCEK-IS? veri/kod farki
+origin/lab-1101-lab1004	10	9	2		2026-10-28|emregokmen|merge origin/main into lab-1004 (tahta: main tarafi)	yalniz denetim/belge farki
+origin/lab-1103-enklav	0	0	0			ICINDE
+origin/lab-1104-ceviri-pt	0	0	0			ICINDE
+origin/lab-1104-enklav2	0	0	0			ICINDE
+origin/lab-1104-enklav3	0	0	0			ICINDE
+origin/lab-1104-enklav4	0	0	0			ICINDE
+origin/lab-1104-enklav5	0	0	0			ICINDE
+origin/lab-1104-enklav6	0	0	0			ICINDE
+origin/lab-1104-enklav7	0	0	0			ICINDE
+origin/lab-1104-enklav8	0	0	0			ICINDE
+origin/lab-1104-enklav9	0	0	0			ICINDE
+origin/lab-1104-ilhanli	0	0	0			ICINDE
+origin/lab-1104-jkova	0	0	0			ICINDE
+origin/lab-1104-kaynak	0	0	0			ICINDE
+origin/lab-1104-kaynak2	0	0	0			ICINDE
+origin/lab-1104-kaynak3	0	0	0			ICINDE
+origin/lab-1104-kaynak4	0	0	0			ICINDE
+origin/lab-1104-kaynak5	0	0	0			ICINDE
+origin/lab-1104-kovalar	0	0	0			ICINDE
+origin/lab-1104-kunye	0	0	0			ICINDE
+origin/lab-1104-nokta	0	0	0			ICINDE
+origin/lab-1104-yer	0	0	0			ICINDE
+origin/lab-1104-yer2	0	0	0			ICINDE
+origin/lab-1104-yer3	0	0	0			ICINDE
+origin/lab-1104-yer4	0	0	0			ICINDE
+origin/lab-1104-yer5	0	0	0			ICINDE
+origin/lab-1104-yer6	0	0	0			ICINDE
+origin/lab-1104-yer7	0	0	0			ICINDE
+origin/lab-d8-uye-1005	0	0	0			ICINDE
+origin/lab-odak-1001	0	0	0			ICINDE
+origin/lab-odak-ortadogu-1002	0	0	0			ICINDE
+origin/lab-rusya-1001	0	0	0			ICINDE
+origin/makine/devralma-dongu	0	0	0			ICINDE
+origin/makine/emrelic	2	2	1		2026-10-10|Emrelic|HARITA-DIL-OLCUM-1009 §8 — C3 kodu okundu: Y'ye yapisal olarak DOKUNAMAZ, kiyi seridi buyuk olcude ko	yalniz denetim/belge farki
+origin/makine/emrelic-budama	2	2	2		2026-10-10|Emrelic|BUDAMA-1010 — CLAUDE.md 96.053 -> 42.669 B (~27.444 -> ~12.191 token), kural kaybi 0	yalniz denetim/belge farki
+origin/makine/emrelic-inis	1	1	2		2026-10-10|Emrelic|INIS-A-PARTI-1010 — A+UYGULANABİLİR 39 kalemden 22'si tek birleşik diff (taban 197455c8)	yalniz denetim/belge farki
+origin/makine/emrelic-kucuk-birimler	4	3	4		2026-10-11|Emrelic|KAMP-KUCUK-BIRIMLER: ikinci tur — GD Asya + Bati Afrika + Kuzey/Dogu Afrika (72 polity, 166 madde) + 	yalniz denetim/belge farki
+origin/makine/emrelic-kunye	2	2	2		2026-10-10|Emrelic|KUNYE-SUMER-7-1010: 6 kunye diff'i (ahameni makedon selefki part elymais + sasani f 0224) - karakene 	yalniz denetim/belge farki
+origin/makine/emrelic-kunye-2	5	4	4		2026-10-10|Emrelic|NEGATIF-YIL-OLCUM-1010: HUKUM EVET SARTLI — Sumer noktalari s:/d:'siz FAZ 2'de inebilir; tek negatif 	yalniz denetim/belge farki
+origin/makine/emrelic-nokta	2	2	0		2026-10-10|Emrelic|NOKTA-SUMER-1010 v2 — EK UYARI işlendi: TAVO hükmü, Ur -0316, Nina -0329, Tutub çıktı	ICERIK-ICINDE (dosya ayni)
+origin/makine/emrelic-nokta-k2	1	1	5		2026-10-10|Emrelic|NOKTA-SUMER-1010-K2 — Sumer noktalari (IKINCI KITA, ayri dal): 22+2 diff ve FAZ 2'de INEMEZ: sahipsiz	yalniz denetim/belge farki
+origin/makine/emrelic-onyuz	0	0	0			ICINDE
+origin/makine/glm-epok-1016	1	1	128		2026-10-17|Emrelic|GLM1-EPOK-SAHIP-1016: AŞAMA 1 tamam — 1240/1240 nokta hükümlü	yalniz denetim/belge farki
+origin/makine/havva	9	5	13	data/bolgeler.js,data/devirler.js,data/devlet_harita_ust.js,data/devlet_parcalar.js,data/donem_parcalar.js,data/donemler_on.js,data/donemler_ust.js,data/kosu_damga.js …	2026-10-06|Emrelic|HAVVA-UFUK-BANT-HATA-1006: KOŞU 20 ölçümleri (①②③④ + renk), öngörü karşılaştırması	GERCEK-IS? veri/kod farki
+origin/makine/havva-h0008	6	6	3	js/app.js	2026-10-11|Emrelic|TAHTA M-5882 — HAVVA -> YILDIRIM BAYEZIT	GERCEK-IS? veri/kod farki
+origin/makine/havva-kosu21	0	0	0			ICINDE
+origin/makine/kasa	165	164	129		2026-10-10|Emrelic|TAHTA M-5894 — KASA -> KOORDINATOR	yalniz denetim/belge farki
+origin/makine/kaynak-tavan	0	0	0			ICINDE
+origin/makine/lab	52	51	72		2026-10-10|emregokmen|LAB TAHTA-ISTEMCI-1010 + TAHTA-BEKCI-1010 — tahta.py istemci kolu (25/25) + bekci sunucu okumasi (	yalniz denetim/belge farki
+origin/makine/sonra1923	0	0	0			ICINDE
+origin/makine/tahta-web	8	8	8	arac/tahta.py,arac/tahta_bekci.py,arac/tahta_kesme.py,arac/tahta_sunucu.py	2026-10-04|Emrelic|TAHTA-WEB: makine defteri (/tahta/makineler) + cikis kodu sozlugu	GERCEK-IS? veri/kod farki
+origin/motor-hiz	3	3	37	arac/kos_ve_yayinla.py,arac/motor_onbellek.py,arac/uret_petek.py TUZ:arac/motor_onbellek.py,arac/uret_petek.py	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-hiz)	GERCEK-IS? veri/kod farki
+origin/nokta-levant-kiyi-1010	1	1	0		2026-10-10|Emrelic|NOKTA-LEVANT-KIYI-1010 — Lazkiye/Cebele/Merkab/Tartus nokta onerisi (Baniyas onerilmez)	ICERIK-ICINDE (dosya ayni)
+origin/nokta-once1281-delik-1010	1	1	1		2026-10-10|Emrelic|NOKTA-ONCE1281-DELIK-1010 — 1000-1280 sahipsiz noktalardan en karli 20	yalniz denetim/belge farki
+origin/nokta-once1281-ucuz-1010	2	2	2		2026-10-10|Emrelic|NOKTA-ONCE1281-UCUZ-1010 — Bicapur kaynagina "bolge cumlesi, sehir tanigi DEGIL" (koordinator istegi)	yalniz denetim/belge farki
+origin/nokta-once1281-zincir-1010	1	1	2		2026-10-10|Emrelic|NOKTA-ONCE1281-ZINCIR-1010 — sekiz zincirli nokta + 14 kronoloji maddesi (inmeye hazir diff)	yalniz denetim/belge farki
+origin/postit-151-su-gecis	1	1	2	arac/uret_petek.py,data/su_gecitleri.js TUZ:arac/uret_petek.py	2026-11-02|Emrelic|MOTOR (TUZ) POSTIT-151: su geçişi bedeli — MOTOR_SU_GECIS=1 bayrağıyla, varsayılan KAPALI	GERCEK-IS? veri/kod farki
+origin/postit-163	1	1	4	data/yerlesimler.js,index.html	2026-10-31|Emrelic|POSTIT-163: Kabala/Ereş/Şeki Şirvan zincirine (1722 tâbi, 1724-1733 Osmanlı), Berde Gence zincirine (	GERCEK-IS? veri/kod farki
+origin/postit-164	1	1	4	data/yerlesimler.js,index.html	2026-11-02|Emrelic|POSTIT-164: Kuba 1724-06-24→1733-08-17 Osmanlı (Şirvan zinciri, abi merkez Şamahı)	GERCEK-IS? veri/kod farki
+origin/postit-173-zend	1	1	13	data/olaylar_2s_0919.js,data/yerlesimler.js,data/yerlesimler_ek26.js,data/yerlesimler_ek_ferhadpasa.js,data/yerlesimler_kalite4.js,data/yerlesimler_sinir_dogu.js,index.html	2026-11-01|Emrelic|post-it #173: İran 1747-1751 — Zend başlangıcı 1751-01-01, arası Afşar; Horasan Şâhruh'la Afşar	GERCEK-IS? veri/kod farki
+origin/projeksiyon	2	1	3	css/style.css,index.html,js/app.js	2026-08-09|Emrelic|PROJEKSIYON: MapLibre v5.24.0 + hibrit kure/Mercator (DAL — henuz gorsel sinav YOK)	GERCEK-IS? veri/kod farki
+origin/renk-1103-oneri	0	0	0			ICINDE
+origin/umit-1101-postit-146	2	1	6	data/olaylar_senusi_0919.js,data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1101-postit-152	2	1	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-atlas-push-oezbixtv	4	2	5	data/kronoloji_sinir_adalar_dogu_asya.js,data/yerlesimler_asya.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-backup-halef-1013	2	2	106	arac/denetle.py,data/devletler.js,data/kronoloji_sinir_halef_1923_2000.js,data/yerlesimler.js,data/yerlesimler_0ee15e.js,data/yerlesimler_a78_afrika.js,data/yerlesimler_a78_amerika.js,data/yerlesimler_a78_asya.js …	2026-10-13|Emrelic|HALEF ZINCIRLERI: 3966 yerlesim noktasinin sahipligi 1923-10-29 -> 2000-12-31, +262 devir maddesi, 30	GERCEK-IS? veri/kod farki
+origin/umit-1102-backup-halef-1013b	3	3	120	arac/denetle.py,data/devletler.js,data/kronoloji_sinir_halef_1923_2000.js,data/yer_yama_1923_bosluk_0906.js,data/yer_yama_avrupa_1923.js,data/yer_yama_avrupa_dayanak_1923.js,data/yer_yama_balkan_1923.js,data/yer_yama_ok105.js …	2026-10-13|Emrelic|HALEF ZINCIRLERI TAMAMLANDI: yama dizileri ve yorum/JSON-anahtar bicimli kayitlar da 2000-12-31'e uza	GERCEK-IS? veri/kod farki
+origin/umit-1102-backup-kunye-1946-2000	4	4	4	data/devletler.js,index.html	2026-10-13|Emrelic|DEVLETLER DIZINI: dalga 5 — kalan 49 devlete kronoloji (1755/1761 dolu)	GERCEK-IS? veri/kod farki
+origin/umit-1102-entegrasyon-1029-asya-gec	2	1	1	index.html	2026-10-29|Emrelic|index.html: karayip ek yerlesim + 2 kronoloji_sinir adalar dosyasi script satiri (yayin kapisi: motor	GERCEK-IS? veri/kod farki
+origin/umit-1102-postit-156	1	1	2	data/olaylar_senusi_0919.js,data/yerlesimler.js	2026-11-02|Emrelic|POSTIT-156: Lugos 1716 kalesi Temeşvar'dan sonra düşsün (Emre, a seçeneği)	GERCEK-IS? veri/kod farki
+origin/umit-1102-t2-kapi-olc	2	1	4	data/yerlesimler.js,index.html	2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-admiring-chaum-3b91c8	4	2	4	index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-elastic-bhaskara-799828	3	2	9	data/devletler.js,data/yerlesimler_avrupa.js,data/yerlesimler_ek_atlantik_adalar.js,data/yerlesimler_halef_1946.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-intelligent-newton-56b28c	4	2	7	data/kronoloji_sinir_karayip_adalar.js,data/yerlesimler_ek_karayip_adalar.js,data/yerlesimler_gamerika.js,data/yerlesimler_halef_1946.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-nervous-proskuriakova-c27f6d	4	2	5	data/kronoloji_sinir_adalar_dogu_asya.js,data/yerlesimler_asya.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-postit-133	2	2	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-postit-145	2	2	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-postit-148	2	2	4	data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye-postit-158	2	2	6	data/yerlesimler.js,data/yerlesimler_ek29.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-tahliye2-postit-148	2	1	4	data/yerlesimler.js,index.html	2026-10-31|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/umit-1102-umit-tahta-yerel-1006	15	15	2		2026-10-06|Emrelic|TAHTA M-5883 — HAZIR KITA 0510 2217 -> YILDIRIM BAYEZIT	yalniz denetim/belge farki
+origin/umit-1102-yedek-atlas-main-oncesi-1006	33	33	2		2026-10-05|Emrelic|TAHTA M-5754 — HAZIR KITA 0510 2247 -> YILDIRIM BAYEZIT	yalniz denetim/belge farki
+origin/umit-1102-yedek-damga-oncesi	4	2	6	arac/denetle_yayin.py,arac/durum_tablosu.py,arac/push_kapisi.py,index.html,js/app.js,js/geo_coz.js	2026-10-13|Emrelic|PROTOTIP: damga artisi denetimi tembel data/*.js'i kapsar, yayinda olmayan commit'leri atlar	GERCEK-IS? veri/kod farki
+origin/umit-1102-yedek-m5755	1	1	2		2026-10-06|Emrelic|TAHTA M-5755 — HAZIR KITA 0610 0100 -> YILDIRIM BAYEZIT	yalniz denetim/belge farki
+origin/umit-1103-top100	0	0	0			ICINDE
+origin/umit-1104-ceviri-ru	0	0	0			ICINDE
+origin/umit-1104-dadim	0	0	0			ICINDE
+origin/umit-1104-enklavkaynak	0	0	0			ICINDE
+origin/umit-1104-ikinci	0	0	0			ICINDE
+origin/umit-1104-yerzincir	0	0	0			ICINDE
+origin/worktree-fransa-kontrol	0	0	0			ICINDE
+origin/worktree-ingiltere-bolge	0	0	0			ICINDE
+origin/worktree-kron-almanya2	0	0	0			ICINDE
+origin/worktree-kron-avusturya-macar	0	0	0			ICINDE
+origin/worktree-kron-balkan	0	0	0			ICINDE
+origin/worktree-kron-baltik-rusya	0	0	0			ICINDE
+origin/worktree-kron-benelux	0	0	0			ICINDE
+origin/worktree-kron-iber	0	0	0			ICINDE
+origin/worktree-kron-iskandinavya	0	0	0			ICINDE
+origin/worktree-kron-lehistan	0	0	0			ICINDE
+origin/worktree-napolyon-italya	0	0	0			ICINDE
+origin/worktree-postit-170	2	2	5	data/yama_p0037_bekleyen.js,data/yerlesimler.js,index.html	2026-10-30|Emrelic|damga: dosya-basi + genel sürüm damgası (push kapısı)	GERCEK-IS? veri/kod farki
+origin/yedek/atlas-sinav	2	2	5	arac/_sinav_kesit.py,arac/kos_ve_yayinla.py,arac/uret_petek.py TUZ:arac/uret_petek.py	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-sinav)	GERCEK-IS? veri/kod farki
+origin/yedek/atlas-yamasinav	1	1	1	arac/uret_petek.py TUZ:arac/uret_petek.py	2026-10-18|Emrelic|YEDEK: bekleyen calisma kaydi (atlas-yamasinav)	GERCEK-IS? veri/kod farki
+origin/yedek/havva-m5771-yerel	1	1	2		2026-10-04|Emrelic|TAHTA M-5771 — HAVVA rc -> KOORDINATOR	yalniz denetim/belge farki
