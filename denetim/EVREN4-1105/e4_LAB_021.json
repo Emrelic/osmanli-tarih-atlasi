@@ -134,7 +134,7 @@
    "kaynak": "Bakılan: TDV habes-eyaleti, TDV sevakin (madde bulunamadı; arama sayfası), TDV derudeb (yok), WebSearch Suakin",
    "alinti": "",
    "oneri": {},
-   "not": "Memlük hâkimiyetinin Derûdeb (Beja iç bölgesi) için kanıtı okunmadı. ZAYIF_ATLAS: Memlük egemenliği kıyı (Sevâkin) için bile tartışmalı. t=1517-04-13 Tomanbay günü ülke düzeyi."
+   "not": "KARAR EMRELİC (gece-71): 1885–1899 iç Beja Mehdî'nin (s: mehdi); s: ingiltere yanlış; Sevakin ayrı (İngiliz-Mısır elinde kaldı). | Memlük hâkimiyetinin Derûdeb (Beja iç bölgesi) için kanıtı okunmadı. ZAYIF_ATLAS: Memlük egemenliği kıyı (Sevâkin) için bile tartışmalı. t=1517-04-13 Tomanbay günü ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:964",
@@ -147,7 +147,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Habeş Eyaleti — https://islamansiklopedisi.org.tr/habes-eyaleti",
    "alinti": "2 Nisan 1557’de Masavva‘ şehri alındıktan sonra yine önemli bir liman olan Arkiko (Harkiko) ele geçirildi.",
    "oneri": {},
-   "not": "alıntı Masavva'yı tarihliyor (Derûdeb'i değil). TDV: Habeş eyaleti 5 Temmuz 1555'te kuruldu, merkez Sevâkin; Sevâkin ve Masavva 1865'te Mısır'a katıldı (TDV etiyopya). Derûdeb iç Beja bölgesi: Osmanlı idaresi kanıtı ABİ MERKEZ Sevâkin'e bağlanabilir ama Sevâkin'in alış yılı TDV'de yok (WebSearch özeti: erken 1550ler, 1517 sembolik). t=1885-02-05 Masavva'nın İtalyan günü, Derûdeb'e özgü değil. YIL düzeyi, ABİ MERKEZ önerisi."
+   "not": "KARAR EMRELİC (gece-71): 1885–1899 iç Beja Mehdî'nin (s: mehdi); s: ingiltere yanlış; Sevakin ayrı (İngiliz-Mısır elinde kaldı). | alıntı Masavva'yı tarihliyor (Derûdeb'i değil). TDV: Habeş eyaleti 5 Temmuz 1555'te kuruldu, merkez Sevâkin; Sevâkin ve Masavva 1865'te Mısır'a katıldı (TDV etiyopya). Derûdeb iç Beja bölgesi: Osmanlı idaresi kanıtı ABİ MERKEZ Sevâkin'e bağlanabilir ama Sevâkin'in alış yılı TDV'de yok (WebSearch özeti: erken 1550ler, 1517 sembolik). t=1885-02-05 Masavva'nın İtalyan günü, Derûdeb'e özgü değil. YIL düzeyi, ABİ MERKEZ önerisi."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:964",
@@ -159,8 +159,10 @@
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, Sudan — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Kurduğu devlet, İngiliz-Mısır kuvvetlerinin büyük askerî harekâtına rağmen 1899 yılına kadar ayakta kalmayı başardı.",
-   "oneri": {},
-   "not": "alıntı t ucunu (Mehdî Devleti sonu ~1898-99) ilgilendiriyor: Kızıldeniz'den Dârfûr'a Mehdî hâkimiyeti. İç Beja bölgesi (Derûdeb) 1885-1898 Mehdî Devleti/Osman Dikne elinde olabilir; 's: ingiltere' sorgulanmalı. Kaynak Derûdeb'i adıyla anmıyor; öneri değer yazılmadı."
+   "oneri": {
+    "d": "mehdi"
+   },
+   "not": "KARAR EMRELİC (gece-71): 1885–1899 iç Beja Mehdî'nin (s: mehdi); s: ingiltere yanlış; Sevakin ayrı (İngiliz-Mısır elinde kaldı). | alıntı t ucunu (Mehdî Devleti sonu ~1898-99) ilgilendiriyor: Kızıldeniz'den Dârfûr'a Mehdî hâkimiyeti. İç Beja bölgesi (Derûdeb) 1885-1898 Mehdî Devleti/Osman Dikne elinde olabilir; 's: ingiltere' sorgulanmalı. Kaynak Derûdeb'i adıyla anmıyor; öneri değer yazılmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:964",
@@ -200,8 +202,10 @@
    "uc": "f",
    "kaynak": "Kultura (Belgrad) 159/2018, 'The Radical Party Concept for Vojvodina’s Unification with Serbia in 1918' — https://casopiskultura.rs/en/publikacije/the-radical-party-concept-for-vojvodinas-unification-with-serbia-in-1918",
    "alinti": "expressed their support to a direct unification with Serbia at their meeting held in Ruma",
-   "oneri": {},
-   "not": "Srem Macaristan'a değil Hırvatistan-Slavonya'ya bağlıydı; Ruma toplantısı 1918-11-24 (Novi Sad 25 Kasım'dan bir gün önce) doğrudan Sırbistan'a katılma kararı aldı. 's: macaristan-naiplik 1918-11-11 -> 1920-06-04' bu yerleşim için YANLIŞ görünüyor: dönem kaldırılmalı, macaristan-habsburg t ucu 1918-10-29 (Hrvatski Sabor, ipucu) ya da 1918-11-24 (Ruma) olmalı. Karar Emre'de; alıntı ayrı kaynak olduğu için ucu yalnız bu söylemle destekliyor. Hırvatistan-Slavonya sabor kararı (1918-10-29) okunmadı."
+   "oneri": {
+    "d": "shs-devleti (künye adayı) → 1918-12-01 krallık"
+   },
+   "not": "KARAR EMRELİC (gece-71): macaristan-naiplik satırı yanlış (Srem Hırvatistan-Slavonya'ya bağlı): 1918-10-29 SHS Devleti (künye adayı; şimdilik BEYANLI) → 1918-12-01 Krallık SHS; Ruma 11-24 ic_not; KAYNAKLI (Kultura 159/2018). | Srem Macaristan'a değil Hırvatistan-Slavonya'ya bağlıydı; Ruma toplantısı 1918-11-24 (Novi Sad 25 Kasım'dan bir gün önce) doğrudan Sırbistan'a katılma kararı aldı. 's: macaristan-naiplik 1918-11-11 -> 1920-06-04' bu yerleşim için YANLIŞ görünüyor: dönem kaldırılmalı, macaristan-habsburg t ucu 1918-10-29 (Hrvatski Sabor, ipucu) ya da 1918-11-24 (Ruma) olmalı. Karar Emre'de; alıntı ayrı kaynak olduğu için ucu yalnız bu söylemle destekliyor. Hırvatistan-Slavonya sabor kararı (1918-10-29) okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek_bosluk.js:78",
@@ -216,7 +220,7 @@
    "oneri": {
     "f": "1918-12-01"
    },
-   "not": "Fiilî yönetim Sırbistan'dan (1918-11-24 Ruma) -> SHS Krallığı 1918-12-01 (künye f); Trianon 1920-06-04 Srem için devir günü olmayabilir (Srem Macaristan toprağı değil, Hırvatistan-Slavonya). TEK ÖLÇÜ: devralan zaten yönetiyor -> imza günü; Trianon art. 46 okunmadı. 1918-12-01 künye günü, Dimitrofça tanıklığı değil."
+   "not": "KARAR EMRELİC (gece-71): macaristan-naiplik satırı yanlış (Srem Hırvatistan-Slavonya'ya bağlı): 1918-10-29 SHS Devleti (künye adayı; şimdilik BEYANLI) → 1918-12-01 Krallık SHS; Ruma 11-24 ic_not; KAYNAKLI (Kultura 159/2018). | Fiilî yönetim Sırbistan'dan (1918-11-24 Ruma) -> SHS Krallığı 1918-12-01 (künye f); Trianon 1920-06-04 Srem için devir günü olmayabilir (Srem Macaristan toprağı değil, Hırvatistan-Slavonya). TEK ÖLÇÜ: devralan zaten yönetiyor -> imza günü; Trianon art. 46 okunmadı. 1918-12-01 künye günü, Dimitrofça tanıklığı değil."
   },
   {
    "dosya_satir": "data/yerlesimler_ek_bosluk.js:78",
@@ -229,7 +233,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Mevcut kaynaklı (Britannica, OH Milestones); bu turda aranmadı."
+   "not": "KARAR EMRELİC (gece-71): macaristan-naiplik satırı yanlış (Srem Hırvatistan-Slavonya'ya bağlı): 1918-10-29 SHS Devleti (künye adayı; şimdilik BEYANLI) → 1918-12-01 Krallık SHS; Ruma 11-24 ic_not; KAYNAKLI (Kultura 159/2018). | Mevcut kaynaklı (Britannica, OH Milestones); bu turda aranmadı."
   }
  ],
  "Diu": [
@@ -244,7 +248,7 @@
    "kaynak": "Bakılan: TDV diu (Nizami; Diû'nun 1281-1304 sahibini vermiyor), TDV gucerat",
    "alinti": "",
    "oneri": {},
-   "not": "TDV diu Zafer Han garnizonu ve 1431 limanı anlatır; Racput sahipliği 1281-1304 için kanıt yok. DEVRALMA zinciri Wadhwan'dan."
+   "not": "KARAR EMRELİC (gece-71): TAHRİR birinci sınav (idareye katma; Habsburg Macaristanı emsali): 1961-12-19 isg hindistan → 1962-03-14 resmî ilhak (TDV; 12. anayasa değişikliği) → s: hindistan; Portekiz 1974-12-31 tanıması ic_not. Portekiz: kale izni 1535 ic_not, ada 1537-02-13 (TDV) s:/d: portekiz. | TDV diu Zafer Han garnizonu ve 1431 limanı anlatır; Racput sahipliği 1281-1304 için kanıt yok. DEVRALMA zinciri Wadhwan'dan."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:781",
@@ -270,7 +274,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Diû — https://islamansiklopedisi.org.tr/diu",
    "alinti": "Bunun üzerine Nuno da Cunha adayı kolaylıkla ele geçirdi",
    "oneri": {},
-   "not": "TDV iki olay verir: 1535'te Bahadır Şah Portekizlilere Diû'da kale yapma izni verdi; Bahadır Şah 13 Şubat 1537'de öldürülünce Nuno da Cunha adayı ele geçirdi. Atlas f=1535-10-25 (gün TDV'de yok). Tahrir ölçütü karşılığı: kendi idaresine katma = 1537 ele geçirme; 1535 yalnız kale izni. İki okuma beyan edildi, seçilmedi."
+   "not": "KARAR EMRELİC (gece-71): TAHRİR birinci sınav (idareye katma; Habsburg Macaristanı emsali): 1961-12-19 isg hindistan → 1962-03-14 resmî ilhak (TDV; 12. anayasa değişikliği) → s: hindistan; Portekiz 1974-12-31 tanıması ic_not. Portekiz: kale izni 1535 ic_not, ada 1537-02-13 (TDV) s:/d: portekiz. | TDV iki olay verir: 1535'te Bahadır Şah Portekizlilere Diû'da kale yapma izni verdi; Bahadır Şah 13 Şubat 1537'de öldürülünce Nuno da Cunha adayı ele geçirdi. Atlas f=1535-10-25 (gün TDV'de yok). Tahrir ölçütü karşılığı: kendi idaresine katma = 1537 ele geçirme; 1535 yalnız kale izni. İki okuma beyan edildi, seçilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:781",
@@ -286,7 +290,7 @@
     "alan": "isg",
     "t": "1962-03-14"
    },
-   "not": "TEK KURAL: işgal ilhaka kadar isg. ÖLÇÜT: geçici/askerî — TDV 19 Aralık 1961 'işgal', 14 Mart 1962 'resmen ilhak' (Goa-Dâmân-Diû idarî bölgesi); s: hindistan-cumhuriyeti 1962-03-14'ten. Uyarı: Hindistan 'kurtuluş/entegrasyon' sayıyor ve Portekiz iddiası sürdü; Emre kararı gerekir."
+   "not": "KARAR EMRELİC (gece-71): TAHRİR birinci sınav (idareye katma; Habsburg Macaristanı emsali): 1961-12-19 isg hindistan → 1962-03-14 resmî ilhak (TDV; 12. anayasa değişikliği) → s: hindistan; Portekiz 1974-12-31 tanıması ic_not. Portekiz: kale izni 1535 ic_not, ada 1537-02-13 (TDV) s:/d: portekiz. | TEK KURAL: işgal ilhaka kadar isg. ÖLÇÜT: geçici/askerî — TDV 19 Aralık 1961 'işgal', 14 Mart 1962 'resmen ilhak' (Goa-Dâmân-Diû idarî bölgesi); s: hindistan-cumhuriyeti 1962-03-14'ten. Uyarı: Hindistan 'kurtuluş/entegrasyon' sayıyor ve Portekiz iddiası sürdü; Emre kararı gerekir."
   }
  ],
  "Hatun Colla": [
@@ -355,7 +359,7 @@
    "kaynak": "Bakılan: HLS (Cloudflare, atlandı), WebSearch (Vikipedi Three Leagues: Zehngerichtebund 1436, merkez Davos = ipucu)",
    "alinti": "",
    "oneri": {},
-   "not": "Davos Zehngerichtebund'ın merkezi; Üç Lig 1471 künyesi ülke düzeyi. Akademik okunamadı."
+   "not": "KARAR EMRELİC (gece-71): HLS Cloudflare → Emre listesi. | Davos Zehngerichtebund'ın merkezi; Üç Lig 1471 künyesi ülke düzeyi. Akademik okunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta2.js:79",
@@ -368,7 +372,7 @@
    "kaynak": "Bakılan: HLS (Cloudflare), WebSearch (Canton of Raetia, 21 Nisan 1799 = Vikipedi ipucu; başka kaynak resmi katılışı Haziran 1801 diyor)",
    "alinti": "",
    "oneri": {},
-   "not": "ÇELİŞKİ ipucu: 1799-04-21 geçici hükümet; resmî katılış 1801 (arama özeti). Akademik okunmadı."
+   "not": "KARAR EMRELİC (gece-71): HLS Cloudflare → Emre listesi. | ÇELİŞKİ ipucu: 1799-04-21 geçici hükümet; resmî katılış 1801 (arama özeti). Akademik okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta2.js:79",
@@ -381,7 +385,7 @@
    "kaynak": "Bakılan: HLS (Cloudflare), WebSearch (Mediation Act 19 Şubat 1803; swissinfo = haber sitesi)",
    "alinti": "",
    "oneri": {},
-   "not": "Graubünden 1803-02-19 Mediation Act ile kanton; akademik okunamadı."
+   "not": "KARAR EMRELİC (gece-71): HLS Cloudflare → Emre listesi. | Graubünden 1803-02-19 Mediation Act ile kanton; akademik okunamadı."
   }
  ],
  "Dingiray (Dinguiraye)": [
@@ -439,7 +443,7 @@
    "kaynak": "Bakılan: Manx Note Book (robots yasağı), imuseum (Request Rejected), Cambridge (kapalı)",
    "alinti": "",
    "oneri": {},
-   "not": "Perth 1266 / 1399 zinciri Peel'den; Douglas'ın o devirde yerleşim olarak varlığı teyitsiz (kayıt beyanlı)."
+   "not": "KARAR EMRELİC (gece-71): 1765 Revestment ipucu → ONERI (Manx kaynakları robots yasaklı). | Perth 1266 / 1399 zinciri Peel'den; Douglas'ın o devirde yerleşim olarak varlığı teyitsiz (kayıt beyanlı)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:108",
@@ -452,7 +456,7 @@
    "kaynak": "Bakılan: WebSearch özeti (Vikipedi Lord of Mann, asmanxasthehills: IV. Henry'nin 19 Ekim 1399 lordluk bağışı, egemenliksiz fief)",
    "alinti": "",
    "oneri": {},
-   "not": "ipucu: 1399-10-19 lordluk (egemenlik değil); ölçüt sorusu: 's: ingiltere' için egemenlik İngiltere'de mi? Akademik okunamadı."
+   "not": "KARAR EMRELİC (gece-71): 1765 Revestment ipucu → ONERI (Manx kaynakları robots yasaklı). | ipucu: 1399-10-19 lordluk (egemenlik değil); ölçüt sorusu: 's: ingiltere' için egemenlik İngiltere'de mi? Akademik okunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:108",
@@ -465,7 +469,7 @@
    "kaynak": "Bakılan: Manx Note Book revest.htm (robots yasağı), imuseum (Request Rejected); WebSearch özeti",
    "alinti": "",
    "oneri": {},
-   "not": "ipucu (arama özeti, Manx Note Book/MNH): Isle of Man Purchase Act 1765-05-10 yasalaştı, Kraliyet 21 Haziran 1765'te devraldı (proclamation 1765-06-21). TEK ÖLÇÜ: devralan fiilen yönetmiyordu -> teslim günü 1765-06-21 olabilir; okunamadığı için öneri yazılmadı."
+   "not": "KARAR EMRELİC (gece-71): 1765 Revestment ipucu → ONERI (Manx kaynakları robots yasaklı). | ipucu (arama özeti, Manx Note Book/MNH): Isle of Man Purchase Act 1765-05-10 yasalaştı, Kraliyet 21 Haziran 1765'te devraldı (proclamation 1765-06-21). TEK ÖLÇÜ: devralan fiilen yönetmiyordu -> teslim günü 1765-06-21 olabilir; okunamadığı için öneri yazılmadı."
   }
  ],
  "Elmina (São Jorge da Mina)": [
@@ -603,7 +607,7 @@
    "kaynak": "Bakılan: NY State Museum (exhibitions.nysm.nysed.gov = kurum portalı, ipucu: 'erected in 1624'), WebSearch",
    "alinti": "",
    "oneri": {},
-   "not": "ipucu: Fort Orange 1624. Akademik okunamadı (NPS NHL metni indirildi, ilgili cümle bulunamadı)."
+   "not": "KARAR EMRELİC (gece-71): 1664-09-24 teslim (New Amsterdam 09-08 değil); 1673-08 Hollanda geri alışı isg → Westminster 1674-02-19 imza → İngiliz teslim alışı 1674-11-10 (kaynakla). İpucu düzeyi → ONERI. | ipucu: Fort Orange 1624. Akademik okunamadı (NPS NHL metni indirildi, ilgili cümle bulunamadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:920",
@@ -618,7 +622,7 @@
    "oneri": {
     "f": "1664-09-24"
    },
-   "not": "ipucu: 1664-09-08 New Amsterdam teslim günü; Fort Orange 1664-09-24'te teslim oldu (de Montagne). ÇOK ÖNEMLİ: Hollanda 1673-08-03'te Albany'yi geri aldı (Willemstadt/Fort Nassau), Westminster 1674-02-19 ile İngiltere'ye döndü -> 1673-08-03..1674-02-19 s: hollanda ara dönemi eksik olabilir (akademik okunmadı)."
+   "not": "KARAR EMRELİC (gece-71): 1664-09-24 teslim (New Amsterdam 09-08 değil); 1673-08 Hollanda geri alışı isg → Westminster 1674-02-19 imza → İngiliz teslim alışı 1674-11-10 (kaynakla). İpucu düzeyi → ONERI. | ipucu: 1664-09-08 New Amsterdam teslim günü; Fort Orange 1664-09-24'te teslim oldu (de Montagne). ÇOK ÖNEMLİ: Hollanda 1673-08-03'te Albany'yi geri aldı (Willemstadt/Fort Nassau), Westminster 1674-02-19 ile İngiltere'ye döndü -> 1673-08-03..1674-02-19 s: hollanda ara dönemi eksik olabilir (akademik okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:920",
@@ -631,7 +635,7 @@
    "kaynak": "Bakılan: WebSearch (Albany tarihçesi), akademik okunmadı",
    "alinti": "",
    "oneri": {},
-   "not": "1776-07-04 ABD künye günü; New York'un Albany'yi fiilen kontrol günü ayrı sorgulanmadı."
+   "not": "KARAR EMRELİC (gece-71): 1664-09-24 teslim (New Amsterdam 09-08 değil); 1673-08 Hollanda geri alışı isg → Westminster 1674-02-19 imza → İngiliz teslim alışı 1674-11-10 (kaynakla). İpucu düzeyi → ONERI. | 1776-07-04 ABD künye günü; New York'un Albany'yi fiilen kontrol günü ayrı sorgulanmadı."
   }
  ]
 }
