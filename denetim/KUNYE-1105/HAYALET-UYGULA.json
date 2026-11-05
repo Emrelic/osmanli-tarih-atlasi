@@ -570,5 +570,16 @@
   "islem": "devletler.js mehdi (:2861) t → 1899-11-24. ic_not_t: '1898-09-02 Ümmüdürman (Kerreri); 1899-11-24 Umm Diwaykarat, Halife Abdullahi öldürüldü [çift kaynak: Daly 1983, Warburg 2005; JSTOR tam metin dizini birebir, makale gövdesi açılmadı]; TDV SUDAN yalnız 1899'. Yerleşimler: Nil boyu 1898-09-02 → 1899-01-18 isg (İngiliz-Mısır) s: mehdi, 1899-01-19'dan ingiliz-sudani (Kondominyum — ayrı olay); Kordofan (Bâra, El-Ubeyyid …) 1899-11-24'e dek s: mehdi (mevcut 1899-11-22 uçları → 11-24), 1899-11-24'ten ingiliz-sudani. AYNI COMMIT'te kronoloji_sinir'e madde: {t:'1899-11-24', devlet:'ingiliz-sudani', taraflar:['mehdi','ingiliz-sudani'], odak_yer:['Bâra'], tur:'savas', b:'Umm Diwaykarat: Halife Abdullahi öldürüldü, Mehdî Devleti sona erdi', kaynak:'Daly, BRISMES Bulletin 10/1 (1983); Warburg, MES 41/6 (2005) — JSTOR tam metin dizini'}.",
   "dayanak": "M. W. Daly, 'Omdurman and Fashoda, 1898', BRISMES Bulletin 10/1 (1983) — jstor.org/stable/194557: «The Khalifa 'Ali wad Hilu died at Umm Diwaykarat with the Khalifa 'Abdallahi on 24 November 1899» · G. Warburg, 'From Mahdism to Neo-Mahdism in the Sudan', MES 41/6 (2005): «…lost their lives in the battle of Umm Diwaykarat, on 24 November 1899 (Holt…» — sınıf: JSTOR dizini birebir (iki bağımsız isabet = KAYNAKLI, tam okuma yok, beyanlı). jstor.org/stable/194557 LAB tarayıcısında yalnız önizleme (giriş yok, şifre girilmedi)",
   "onay": "EMRELİC 6 Kasım gece-76"
+ },
+ {
+  "d": "napoli künye aşımı (1281-1282)",
+  "tur": "YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ÖLÇÜM",
+  "kunye": "künye değişmez — sicilya-kralligi t 1282-03-30 / napoli f 1282-03-30 bitişik",
+  "gun": "1282-03-30",
+  "islem": "napoli dönemi f 1281-01-01 olan yerleşimler (LAB PAZAR taraması 7acb10c1e): 1281-01-01 → 1282-03-29 s: sicilya-kralligi, 1282-03-30'dan s: napoli — yerlesimler.js: Otranto, Brindisi, Taranto, Lecce, Napoli · yerlesimler_avrupa.js: L'Aquila, Bari, Foggia, Cosenza, Reggio Calabria. İYON ADALARI AYRI (EMRELİC'e ayrıca soruldu): yerlesimler.js Ayamavra (Lefkada), Kefalonya, İthaki, Zaklise — 1281'de Orsini Kefalonya kontluğu, Anjou vasalı → künye VAR: kefalonya-palatin 'Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)' 1194 → 1479 (LAB ölçümü) → LAB önerisi s: kefalonya-palatin + v: sicilya-kralligi/napoli (napoli DEĞİL); Lefkada'nın kontluğa katılışı (1294/1300 civarı?) kaynakla — o tarihe dek Epir despotluğu olabilir. Himara (EMRELİC gece-80, künyesiz çözüm): 1279-06 → 1282-03-29 s: sicilya-kralligi, 1282-03-30 → 1283-04 s: napoli (Kiesewetter); arnavutluk-anjou-kralligi aday listesinde (Emre). Değişmez 2: 1282-03-30 maddesi (Sicilya Vesperleri) ölçülmeli.",
+  "dayanak": "LAB PAZAR napoli aşım taraması; LAB ölçümü devletler.js (sicilya-kralligi :13538, kefalonya-palatin)",
+  "onay": "EMRELİC 6 Kasım gece-80 (İyon adaları hariç)"
  }
 ]
