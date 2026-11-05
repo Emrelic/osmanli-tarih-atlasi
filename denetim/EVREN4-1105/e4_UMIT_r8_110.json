@@ -1,0 +1,208 @@
+{
+ "Abbeville (Louisiana)": [
+  {
+   "sira": 4210,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1850-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "HMDB.org, Louisiana tarihi isaret levhasi 'Pere Antoine Desire Megret', https://www.hmdb.org/m.asp?m=106263 (ham metin sayfa.py ile okundu)",
+   "alinti": "In 1843 he purchased from Joseph LeBlanc one hundred sixty arpents of land",
+   "uc": "f",
+   "oneri": {
+    "f": "1843-01-01"
+   },
+   "not": "Yerlesim Megret'nin 1843 arazi alimiyla kuruldu (kilise 1844); 1850 inkorporasyon yilidir (WebSearch ozeti, ham metinde okunmadi). Atlas f=1850 iken 1843-1850 delik kalir (Degismez 1). Kaynak resmi levha = hakemli degil, ONERI-guclu; gun bilinmiyor -> YIL. Louisiana'nin ABD'ye devri 1803-12-20 (NPS makalesi ham: 'On Tuesday, December 20, 1803 ... the Louisiana Territory was officially transferred from France to the United States'); BOLGE DUZEYI; 1843'te bu bolge ABD oldugundan f=1843 zincirle celismez. OLCUT: idareye katma - Louisiana devri 1803-12-20 (ic_not: 1803-11-30 Ispanya->Fransa toreni). t=2000-12-31 pencere ucu."
+  }
+ ],
+ "Mazapil": [
+  {
+   "sira": 4211,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1837-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Salas Hernandez (HALAC) ve Panico/Garibay Orozco (Fronteras de la Historia 2010) - YALNIZ WebSearch ozeti; ham metin alinamadi (redalyc PDF'de Mazapil gecmedi, oteki siteler zaman asimi)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1821-09-27 (ONCE f=1837 nedeni arastirilmali)"
+   },
+   "not": "Arama ozeti: San Gregorio de Mazapil real de minas 1568'de kuruldu, Nueva Galicia/Nueva Vizcaya siniri. Yer 1821'de vardi; f=1837 Meksika kunyesinden (1821-09-27) 16 yil sonradir -> aradaki dilim baska kayitla kapali degilse delik; o zaman f=1821-09-27 (ULKE DUZEYI). 1837 icin kaynak bulunamadi. Ham alinti yok -> KAYNAKLI verilemez. Bakilan: WebSearch, redalyc PDF ham okuma (Mazapil yok), inafed (ag hatasi)."
+  }
+ ],
+ "El Rosario (Baja California)": [
+  {
+   "sira": 4212,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1900-12-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Viva Baja (David Kier), Mission Basic Facts, https://vivabaja.com/mission-basic-facts-names-dates-founders/ (ham okundu; hakemsiz blog)",
+   "alinti": "Nuestra Senora del Rosario de Vinadaco July 24, 1774 (relocated 2 miles west in 1802)",
+   "uc": "f",
+   "oneri": {
+    "f": "1821-09-27 (ULKE DUZEYI) - varsa; 1900-12-01 icin kaynak yok"
+   },
+   "not": "Yer 24 Temmuz 1774'te Dominiken misyonu olarak var (blog; akademik teyit bulunamadi). Atlas f=1900-12-01 hicbir kaynakta cikmadi (belki sonraki belediye/yerlesim kurulusu). 1821-1900 arasi Meksika sahipligi bos birakilirsa delik. Kaynak sinifi yasak (blog) -> KAYNAKLI degil. Akademik kaynak (Baja California misyon tarihi) aranmadi: BAKILMADI."
+  }
+ ],
+ "Tonosí": [
+  {
+   "sira": 4213,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "panama-cumhuriyeti",
+   "f": "1914-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "WebSearch (Tonosi District, Panama Justicia Ley 61/2003, MiAmbiente EsIA PDF'leri); sayfa.py ile ham okuma yapilmadi",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Arama sonuclarinda Tonosi icin kurulus/1914 tarihi yok ('origenes se pierden en la lejania'). Panama kunyesi 1903-11-03'te baslar; yer 1903-1914 arasi sahipsiz kaliyorsa delik; 1914 icin dayanak bulunamadi. Bakilan: 17 sonuclu arama; akademik kaynak (Panama arsivleri, IGNTG) BAKILMADI."
+  }
+ ],
+ "Gobernador Gregores": [
+  {
+   "sira": 4214,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1922-03-23",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "InterPatagonia, Gobernador Gregores/Historia, https://www.interpatagonia.com/gobernadorgregores/historia.html (ham okundu; turizm portali = ONERI-guclu)",
+   "alinti": "La poblacion fue creada en marzo de 1922 por el Austriaco Jose Kuney Posne",
+   "uc": "f",
+   "oneri": {
+    "f": "1922-03-01 (yalniz ay) - gun teyitsiz"
+   },
+   "not": "Yerlesim 'mart 1922'de kuruldu; atlas gunu 1922-03-23 hicbir kaynakta yok. Kurulus oncesi dilim yok -> kirpma gerekmiyor. Ad: 1925-01-02 Canadon Leon; Gobernador Gregores 1958/59 (kaynaklar ayrisiyor). Hispanopedia (Vikipedi aynasi) ayni mart 1922'yi veriyor, ayri dayanak degil. Arjantin sahipligi ULKE DUZEYI, akademik teyit aranmadi."
+  }
+ ],
+ "Sion (Sitten)": [
+  {
+   "sira": 4216,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "isvicre",
+   "f": "1417-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Historisches Lexikon der Schweiz, 'Sitten (Bezirk)' hls-dhs-dss.ch/de/articles/008404 - sayfa.py ve WebFetch 403; YALNIZ WebSearch ozeti okunabildi (ham alinti yok)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "d": "isvicre",
+    "f": "1815-08-04",
+    "onceki": "1417-1798 Wallis, 1798 Helvetik, 1802 Rhone Cumhuriyeti, 1810-11-12 Fransa (Simplon) - kunye adayi LAB'a"
+   },
+   "not": "CELISKI: HLS ozeti: Sitten 1798'e dek Wallis'in Zenden'i, 1802'den Wallis Cumhuriyeti'nde Zenden, 1815-1848 yine Zenden; Wallis 1815'te Konfederasyona katildi (Vereinigungsakte Zurih 1815-08-04 imza; federal antlasma 1815-08-07 - vs.ch/1815.ch ozetinden). Yani isvicre 1417'den itibaren Sion'a sahip DEGIL. isvicre kunyesi 1291'de; Valais/Rhone kunyesi depoda grep ile bulunamadi (valais/wallis/rodan yok) -> LAB'a kunye adayi. TEK OLCU: Wallis zaten fiilen yonettigi icin s: imza gunu (1815-08-04); 08-07 ic_not. OLCUT: idareye katma - Vereinigungsakte. HLS ham metni alinirsa KAYNAKLI'ya cevrilebilir."
+  }
+ ],
+ "Fakfak": [
+  {
+   "sira": 4217,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1898-12-01",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "van der Heijden, History of Netherlands New Guinea, https://vanderheijden.org/ng/history.html + Pacific Wrecks, https://pacificwrecks.com/location/irian_fakfak.html (ham okundu; ikisi de akademik degil)",
+   "alinti": "The first permanent administrative posts, at Fakfak and Manokwari, were not set up until 1898.",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1898-01-01 (YIL; gun teyitsiz)",
+    "t": "s: hollanda 1942-03-09'da kapanmamali; 1942-04-01 -> isg japonya eklenmeli"
+   },
+   "not": "f: Fakfak idari postu 1898'de kuruldu (YIL; atlas 1898-12-01 gunu yok). t=1942-03-09 Cava teslimi (ULKE DUZEYI); Fakfak'a Japon cikarmasi 1942-04-01 (Pacific Wrecks ham: 'On April 1, 1942 a Japanese landing force ... landed at Fakfak'). TEK KURAL: savas isgali isg'dir -> isg japonya 1942-04-01 -> (bitis kaynaksiz, aranmadi); s: hollanda hukuki devre dek surer. 1949-12-27 Endonezya devri Yeni Gine'yi KAPSAMADI -> kunye hollanda-dogu-hint t=1949-12-27 yetmez; 1962-10-01 UNTEA, 1963-05-01 Endonezya (vanderheijden ham: 'From October 1, 1962 till May 1, 1963 ... UNTEA'; 'On May 1, 1963, Indonesia became the new colonial power') icin donem/kunye LAB'a. OLCUT: gecici/askeri - Japon isgali, Hollanda iddiasi suruyor."
+  }
+ ],
+ "Garapan (Saipan)": [
+  {
+   "sira": 4219,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1668-06-16",
+   "t": "1899-11-17",
+   "hukum": "ONERI",
+   "kaynak": "Guampedia (Guam Univ. MARC), Micronesia Milestones https://www.guampedia.com/timeline/ ve 'Partition of the Marianas' https://www.guampedia.com/partition-of-the-marianas/ (ham okundu; universite ansiklopedisi, ulusal ansiklopedi sinifi degil -> ONERI-guclu)",
+   "alinti": "The islands were colonized by Spain beginning in 1668",
+   "uc": "f",
+   "oneri": {
+    "t": "1899-02-10 imza (satis anlasmasi); teslim gunu bulunamadi"
+   },
+   "not": "f: Guampedia 1668'i veriyor (YIL), 06-16 gunu metinde yok (ADA/ULKE DUZEYI). t=1899-11-17 ham metinde yok. Partition makalesi: Almanya-Ispanya anlasmasi 10 Subat 1899'da tamamlandi (25 milyon peseta; Marianalar Guam haric). TEK OLCU: Almanya yonetmiyorsa s: TESLIM gunu; Alman devralis gunu bulunamadi -> 1899-11-17 teyitsiz. Bakilan: Guampedia timeline + Partition."
+  },
+  {
+   "sira": 4220,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1899-11-17",
+   "t": "1914-10-01",
+   "hukum": "ONERI",
+   "kaynak": "Guampedia (Guam Univ. MARC), Micronesia Milestones https://www.guampedia.com/timeline/ ve 'Partition of the Marianas' https://www.guampedia.com/partition-of-the-marianas/ (ham okundu; universite ansiklopedisi, ulusal ansiklopedi sinifi degil -> ONERI-guclu)",
+   "alinti": "Japan takes control of German and Spanish possessions in Micronesia",
+   "uc": "f+t",
+   "oneri": {
+    "f": "teslim gunu (aranacak; imza 1899-02-10)",
+    "t": "1914-10 -> isg japonya; s: almanya Versay imzasi 1919-06-28'e dek"
+   },
+   "not": "Guampedia: Japonya 1914'te Alman/Ispanyol mulklerini (Guam haric) ele gecirdi (YIL; ay/gun yok). TEK KURAL: isgal isg'dir; Alman egemenligi Versay feragatiyle biter (1919-06-28, kaynakta okunmadi, atlas kurali); mandat Guampedia '1919'. Bu yuzden t=1914-10-01 yerine isg japonya 1914-10 baslatilmali, s: almanya t=1919-06-28. OLCUT: gecici/askeri - fetih, mandat oncesi. Gun 1914-10-01 teyitsiz."
+  },
+  {
+   "sira": 4221,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1914-10-01",
+   "t": "1947-07-18",
+   "hukum": "ONERI",
+   "kaynak": "Guampedia (Guam Univ. MARC), Micronesia Milestones https://www.guampedia.com/timeline/ ve 'Partition of the Marianas' https://www.guampedia.com/partition-of-the-marianas/ (ham okundu; universite ansiklopedisi, ulusal ansiklopedi sinifi degil -> ONERI-guclu)",
+   "alinti": "League of Nations awards all of Germany's possessions in the Pacific located north of the equator under mandate to Japan",
+   "uc": "f",
+   "oneri": {
+    "f": "s: meiji-japonya mandat gunu (Guampedia YIL 1919; 1920-12-17 ham metinde yok, bakilmadi); 1914-10 -> isg japonya"
+   },
+   "not": "f=1914-10-01 askeri isgal gunudur -> isg (TEK KURAL). Garapan Japon bolgesel baskenti. t=1947-07-18 BM vesayet: Guampedia yalniz YIL 1947 ('The United Nations forms the Trust Territory ... 1947'); mevcut_kaynak ayni gunu veriyor, t ucu YIL duzeyinde uyumlu."
+  },
+  {
+   "sira": 4222,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "pasifik-adalari-vesayet-toprak",
+   "f": "1947-07-18",
+   "t": "1986-11-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Guampedia timeline https://www.guampedia.com/timeline/ + mevcut kaynak (BM vesayet anlasmasi 1947-07-18)",
+   "alinti": "The United Nations forms the Trust Territory of the Pacific Islands to be administered by the US.",
+   "uc": "f",
+   "oneri": {},
+   "not": "Guampedia f ucunu YIL (1947) duzeyinde teyit eder; gun 1947-07-18 mevcut kaynakta. Guampedia sinifi nedeniyle KAYNAKLI yalniz YIL duzeyi. t=1986-11-03 bu turda aranmadi: BAKILMADI. Kunye t=1994-11-10; dilim 1986'da biter, Palau 1994'e dek TTPI suruyor - LAB'a not."
+  },
+  {
+   "sira": 4223,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1986-11-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Guampedia timeline, Partition of the Marianas (ham okundu: 1986 Covenant gunu gecmiyor)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "1986-11-03 Covenant yururlugu bu turda ham metinle teyit edilemedi (mevcut kaynak US Code Title 48; ona dokunulmadi). BULUNAMADI: Guampedia timeline ve Partition sayfalari arandi."
+  }
+ ]
+}

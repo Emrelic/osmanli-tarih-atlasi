@@ -1,0 +1,77 @@
+{
+ "Valcheta": [
+  {"sira": 4187, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1884-03-01", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: WebSearch ozetleri (Lambertucci UNAM/UNSJ makaleleri: Valcheta 'campo de concentracion' 1883-1890, 'colonia pastoril' kurulusu) ve sayfa.py ile Lambertucci PDF + redalyc 84581614 (PDF ham metni anahtar kelimeleri vermedi). Ham metinde 1884-03-01 gunu ya da Valcheta'nin Arjantin idaresine katildigi gun bulunamadi. Arama ozetine gore kamp 1883'te var => f=1884-03-01 sonrasi olabilir, 1883 adayi (OZETTEN, teyitsiz). Mapuche/Tehuelche bolgesi: fiili idare TEK OLCU (Conquista del Desierto 1878-85); onceki dilim YOK_O_DEVIRDE/kirpma adayi."}
+ ],
+ "Tandil": [
+  {"sira": 4188, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1823-01-01", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Fuerte Independencia (Tandil) kurulus 1823-04-04, Gov. Martin Rodriguez — yalniz WebSearch ozeti (hcdiputados-ba.gov.ar yasama projeleri, Hispanopedia, turizm sayfalari); ham metin okunamadi (welcomeargentina robots yasagi, UNICEN PDF anahtar vermedi)",
+   "alinti": "",
+   "oneri": {"f": "1823-04-04"},
+   "not": "ONERI-guclu, KAYNAKLI degil: akademik ham metin yok, ozetten. Atlas f=1823-01-01 kurulus gunu (04-04) oncesi; kurulustan once yer yerli sınır bolgesiydi (Buenos Aires Eyaleti iddiasi, fiili idare yok) => 01-01..04-03 dilimi YOK_O_DEVIRDE/kirpma adayi. Fuerte idareye katma belgesi (askeri karakol + sinir). 1895-10-23 sehir ilani ic_not. Yil dogru (1823)."}
+ ],
+ "Taltal": [
+  {"sira": 4189, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1872-12-01", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: WebSearch (Hispanopedia/Wikipedia/Godoy Historia UC ozetleri: liman tanimasi 1858-07-12 Decreto N.91, 'puerto mayor' 1877, sehir plani/iskan Pinto hukumeti 1877; departamento 1884 Atacama'ya bagli, 1888 Antofagasta ilinde) ve redalyc 33449573005 (Godoy 2016, PDF ham metin anahtar vermedi). 1872-12-01 gunu hicbir kaynakta yok. Memoria Chilena ham metni Taltal'i 1888-07-12 Antofagasta ili departmani olarak anar (w3-article-96443) — sahiplik degisimi degil. Taltal 25 derece GB: 1866 antlasmasindan beri Sili tarafi; Sili sahipligi sorun degil, yalniz f gunu teyitsiz. Aday f: 1858-07-12 (ozetten) ya da 1877."}
+ ],
+ "Puerto Montt": [
+  {"sira": 4190, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1853-02-12", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'Puerto Montt 1853-2002', https://www.memoriachilena.gob.cl/602/w3-article-783.html",
+   "alinti": "El 12 de febrero de 1853, Vicente Pérez Rosales (1807-1886) fundó ... la villa de Puerto Montt",
+   "not": "Ham metin sayfa.py ile. Alinti satirin f'sini (villa kurulusu) tarihler. Yer (Melipulli) zaten Sili Cumhuriyeti'nin Calbuco bolgesindeydi; 12 Subat 1853 villa kurulus = idareye katma. NOT: Wikipedia/Memoria Chilena resmi kurulusun 1853-06-27'de Llanquihue Colonizacion Bolgesi kararnameleriyle oldugunu soyluyor (es.wikipedia ham metni); Memoria Chilena 12 Subat'i kurulus olarak verir => f=1853-02-12 korunur, 06-27 ic_not. t=2000-12-31 pencere ucu (kanit gerekmez)."}
+ ],
+ "Cushamen": [
+  {"sira": 4191, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1899-07-05", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: WebSearch ozetleri (Finkelstein/Arias: 'Colonia Pastoril Cushamen' 1877-85 askeri harekatindan sonra kuruldu; kurulus kararname gunu dondurulmedi), redalyc 84581614 (ham metin Cushamen anahtarini vermedi). 1899-07-05 gunu ham metinde bulunamadi. Mapuche/Tehuelche bolgesi: fiili idare TEK OLCU; Chubut Teritoryosu 1884'te orgutlendi (ozet) => Arjantin sahipligi 1899'dan once baslamis olabilir, f oncesi dilim kirpma/YOK_O_DEVIRDE adayi; ONERI vermeye yeter kanit yok."}
+ ],
+ "Tocopilla": [
+  {"sira": 4192, "dosya_satir": "", "alan": "s", "d": "bolivya-cumhuriyeti", "f": "1871-05-08", "t": "1888-07-13",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "Memoria Chilena, 'Las operaciones militares de la Guerra del Pacifico (1879-1884)', https://www.memoriachilena.gob.cl/602/w3-article-693.html ; Memoria Chilena 'Nuevos territorios' https://www.memoriachilena.gob.cl/602/w3-article-96443.html",
+   "alinti": "27 de marzo: La Escuadra Nacional ... ocupa, sin resistencia, Cobija y Tocopilla.",
+   "oneri": {"t": "1879-03-27", "ek": "isg sili-cumhuriyeti 1879-03-27 -> 1888-07-12 (TEK KURAL: ilhak/devre kadar isg); s sili 1888-07-12'den, alternatif: de jure devir 1904-10-20"},
+   "not": "ONERI. Bolivya t=1888-07-13 yanlis: Tocopilla'yi Sili 1879-03-27'de ham askeri isgal etti (MC ham metin). Bolivya s: bu gune dek, ardindan isg sili. Sahiplik secenegi: (a) ÖLÇÜT idareye katma — MC ham metni 'La provincia de Antofagasta ... se creo el 12 de julio de 1888 ... departamentos: Tocopilla, Antofagasta y Taltal' => s sili 1888-07-12; (b) geçici/askeri — 1884 Pacto de Tregua (MC kronoloji, yalniz yil) Sili idaresini surdurdu, de jure devir Tratado de Paz 1904-10-20 (MC kronoloji yalniz yil 1904; 10-20 gunu brifte). Karar KASA/EMRELIC: Sili 1884-1888 arasi Territorio de Antofagasta olarak yonetiyordu ('Territorio' ozet bilgisi) — idareye katma 1884 de olabilir. 22-mart ile 27-mart farki: bir kronoloji 22 Mart verir (ozet), MC 27 Mart. f=1871-05-08 icin bkz. sonraki not."},
+  {"sira": 4193, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1888-07-13", "t": "2000-12-31",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Memoria Chilena, 'Nuevos territorios' (Norte Grande), https://www.memoriachilena.gob.cl/602/w3-article-96443.html",
+   "alinti": "La provincia de Antofagasta, en tanto, se creó el 12 de julio de 1888, y estaba dividida en tres departamentos: Tocopilla, Antofagasta y Taltal.",
+   "oneri": {"f": "1888-07-12", "ek": "ya da 1904-10-20 (de jure devir) — ONERI karari KASA"},
+   "not": "Alinti ham metinden, f ucunu (idareye katma = il kurulusu) tarihler ama gun atlasin 07-13'unden 1 gun once (12 Temmuz). 07-13 Diario Oficial/promulgasyon farki olabilir (Diario Oficial 1888-08-04 ozet). ÖLÇÜT: idareye katma — il ve departman kurulusu. Cift secenek: TEK KURAL de jure devir 1904-10-20 (Tratado de Paz y Amistad; MC kronoloji yalniz 1904 yili). Bolivya f=1871-05-08: Tocopilla 'Puerto Menor' 1871 (es.wikipedia ham metni; Vikipedi tek dayanak olamaz) — egemenlik 1825'ten beri Bolivya; f BULUNAMADI (f ucu icin akademik yok)."}
+ ],
+ "Moitaco": [
+  {"sira": 4194, "dosya_satir": "", "alan": "s", "d": "venezuela-cumhuriyeti", "f": "1882-02-09", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: WebSearch 'Moitaco Guarico Bolivar fundacion 1882' — tek ilgili sonuc elbibliote.com Bolivar eyaleti tarihi (Moitaco misyoner yerlesimi olarak anilir, tarih yok); 1879-04-30 Congreso Plenipotenciario ve 1881'de 9 eyalet (ozet) ile ilgili olabilir ama Moitaco'yu anmaz. 1882-02-09 gunu bulunamadi. Venezuela'nin Moitaco uzerindeki egemenligi kolonidan beri; f=1882-02-09 muhtemelen eyalet duzeni/plan, kaynak yok. Onceki dilim: Moitaco mission towns (Capuchin Guayana, 18. yy) icin Yeni Granada/Venezuela Generalkapitanlik zinciri atlasta olabilir; bakilmadi."}
+ ],
+ "Arauca": [
+  {"sira": 4195, "dosya_satir": "", "alan": "s", "d": "ispanyol-peru", "f": "1780-12-04", "t": "1819-12-17",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "encolombia.com 'Arauca, Territorio de dos Paises' (hakemsiz portal; ONERI-guclu), https://encolombia.com/educacion-cultura/geografia-colombiana/arauca-territorio-de-dos-paises/",
+   "alinti": "El 4 de diciembre de 1780, el día de Santa Bárbara, decidieron conformar un poblado.",
+   "oneri": {"d": "yeni-granada-valiligi", "f": "1780-12-04", "t": "1810-07-20 (kunye ucu)"},
+   "not": "DEVLET YANLIS: Arauca (Villa de Santa Barbara de Arauca) Yeni Granada Genel Valiligi'ne / Casanare eyaletine bagliydi, Peru Genel Valiligi'ne degil (ispanyol-peru kunyesi 1542-1824; Arauca'nin Lima ile idari bagi yok). Kunye 'yeni-granada-valiligi' mevcut (f 1717-05-27, t 1810-07-20). Casanare'nin Nueva Granada baglantisi yalniz arama ozetinden (ham metinde yok) — ONERI. f=1780-12-04 kurulus gunu ham metinde (Daboin + Useche, ikisi Venezuelali, Morcote'de izin); kurulus oncesi yer Guahibo yerli koyuydu => 1780 oncesi dilim YOK. 1810-07-20 ile 1819 arasi: Casanare yurtsever/royalist elden ele gecti (gun bulunamadi) — arada bosluk; 1819-12-17 Gran Kolombiya kurulus gunu ulke duzeyi, Arauca'ya ozgu teyit yok (BULUNAMADI)."},
+  {"sira": 4196, "dosya_satir": "", "alan": "s", "d": "gran-kolombiya", "f": "1819-12-17", "t": "1831-01-01",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: encolombia Arauca sayfasi (1819'u anmaz), WebSearch ozetleri (Casanare 1819'da Gran Kolombiya Boyaca Departamani'na girdi — ozet). Arauca'ya ozgu ham metin yok. ULKE DUZEYI: Gran Kolombiya 1819-12-17 / 1831-01-01 kunye gunleri; Arauca fiilen 1819 Casanare Ekim-Aralik yurtsever kontrolunde, KASA beyanli yaklasiklik yazabilir."},
+  {"sira": 4197, "dosya_satir": "", "alan": "s", "d": "kolombiya-cumhuriyeti", "f": "1831-01-01", "t": "2000-12-31",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Baktim: encolombia (1911 Arauca Comisaria Especial; Casanare'den ayrildi; Kolombiya-Venezuela sinirlari 1924'e kadar belirsiz — ham metin). ULKE DUZEYI: Kolombiya ardili 1831-01-01 kunye gunu; Arauca'ya ozgu teyit yok. Not: sinir belirsizligi 1924'e kadar surdu (Venezuela iddiasi) — Arauca sahipligi kısmi tartismali, fiili idare Kolombiya."}
+ ]
+}
