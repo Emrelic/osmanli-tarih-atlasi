@@ -1,0 +1,873 @@
+{
+ "Ecdâbiye": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi · TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra | Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3152] YIL düzeyi, BÖLGE DÜZEYİ (Berka). Gün 08-15 Trablus fethinden (kaynakta gün yok). ABİ MERKEZ Bingazi için TDV «Bingazi»: 'kesin olarak Osmanlı yönetimine katıldı (1578)' — ic_not'a; Ecdâbiye'ye özgü giriş günü yok. TDV «Bingazi» Ecdâbiye'yi Bingazi mutasarrıflığının kazası sayar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp · TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi",
+   "alinti": "1835’te tekrar merkeze bağlanan Trablusgarp’ta | 1912’de İtalyanlar’la yapılan Uşi (Ouchy) Antlaşması uyarınca Bingazi İtalyanlar’a geçti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3153] YIL düzeyi, ÜLKE DÜZEYİ; 05-26 ve 10-18 günleri kaynakta yok (teyitsiz). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3154] YIL düzeyi, ÜLKE DÜZEYİ; günler teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi · TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Bingazi İtalyanlar’a geçti ve 1942’ye kadar onların idaresinde kaldı. | 24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti.",
+   "uc": "t",
+   "oneri": {
+    "f": "1942 (Kasım; gün kaynakla bulunacak)"
+   },
+   "not": "[sira 3155] ABİ MERKEZ: Bingazi (Berka/Sirenayka). TDV «Bingazi» İtalyan idaresini 1942'de bitirir; 1943-01-23 Trablus'a giriş günüdür, Sirenayka için değil (TDV «Bingazi»: şehir savaşta 'beş defa el değiştirdi'). t KAYNAKLI (TDV «Libya»). 🔴 HAYALET: künye libya-ingiliz-askeri-idaresi f 1943-01-01 — 1942 dilimi künyeye sığmaz → LAB SALI (künye f GENİŞLET adayı ya da Sirenayka için ayrı dilim). Ecdâbiye İPUCU (okunmadı): İngilizlerin Sirenayka'ya son girişi Kasım 1942. TEK KURAL notu: 1947-02-10 Paris Antlaşması'na kadar İtalya'nın hukukî iddiası sürdü — askerî idare künyesi fiilen isg niteliğinde; ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti. | 1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3156] ÜLKE DÜZEYİ; iki uç gün düzeyinde TDV «Libya». [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:511",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3157] ÜLKE DÜZEYİ; t teyitsiz (2000-12-31 pencere ucu). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tobruk": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1556-01-01",
+   "t": "1711-07-29",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Derne», https://islamansiklopedisi.org.tr/derne · TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3158] Tobruk'un alınış yılı kaynakta yok. TDV «Derne»: 'beylerbeyi unvanı ile buraya yerleşen Turgut Reis (Paşa) sınırlarını genişleterek doğuda Tobruk ve Derne’yi almıştı'; TDV «Trablusgarp»: Turgut 1556'da beylerbeyi olarak geldi → alınış 1556 ile Turgut'un ölümü (1565) arasında; 1556-01-01 alt sınırdır, olay günü değil. t 1711 TDV «Trablusgarp» 'Karamanlılar döneminde (1711-1835)' ile YIL düzeyinde uyumlu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp · TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi",
+   "alinti": "1835’te tekrar merkeze bağlanan Trablusgarp’ta | 1912’de İtalyanlar’la yapılan Uşi (Ouchy) Antlaşması uyarınca Bingazi İtalyanlar’a geçti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3159] YIL, ÜLKE DÜZEYİ (ABİ MERKEZ Bingazi; TDV «Derne»: Tobruk Derne kazasının nahiyesi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3160] YIL, ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bingazi», https://islamansiklopedisi.org.tr/bingazi · TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Bingazi İtalyanlar’a geçti ve 1942’ye kadar onların idaresinde kaldı. | 24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti.",
+   "uc": "t",
+   "oneri": {
+    "f": "1942 (Kasım; gün kaynakla bulunacak)"
+   },
+   "not": "[sira 3161] ABİ MERKEZ: Bingazi (Berka/Sirenayka). TDV «Bingazi» İtalyan idaresini 1942'de bitirir; 1943-01-23 Trablus'a giriş günüdür, Sirenayka için değil (TDV «Bingazi»: şehir savaşta 'beş defa el değiştirdi'). t KAYNAKLI (TDV «Libya»). 🔴 HAYALET: künye libya-ingiliz-askeri-idaresi f 1943-01-01 — 1942 dilimi künyeye sığmaz → LAB SALI (künye f GENİŞLET adayı ya da Sirenayka için ayrı dilim). Tobruk İPUCU (okunmadı): İngilizlerin Sirenayka'ya son girişi Kasım 1942. TEK KURAL notu: 1947-02-10 Paris Antlaşması'na kadar İtalya'nın hukukî iddiası sürdü — askerî idare künyesi fiilen isg niteliğinde; ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti. | 1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3162] ÜLKE DÜZEYİ; iki uç gün düzeyinde TDV «Libya». [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:539",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3163] ÜLKE DÜZEYİ; t teyitsiz (2000-12-31 pencere ucu). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sikikde": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:615",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "Hafsîler’e geçen Kostantîne’nin idaresi hânedandan bir emîre verildi. | ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar.",
+   "uc": "t",
+   "oneri": {
+    "d": "hafsi",
+    "t": "1533-07-23"
+   },
+   "not": "[sira 3164] ABİ MERKEZ: Kostantîne — TDV «Cezayir»: Doğu sancağının 'merkezi Kostantîne'; BEYANLI YAKLAŞIKLIK. Hanşele (P027 sira 2095) emsali. Bölge Zeyyânî (Tilimsân) değil Hafsî idaresindeydi (1229'dan; XIV. yy'da Merînî işgalleri). Osmanlı tam hâkimiyeti 940/1533-34; Mercier'ye göre 1519/20 ilk zapt, 1526 Hafsî geri alışı, 1527 yeniden Osmanlı — ara dilimler ic_not'a. Hicrî 940 başı ≈ 1533-07-23 (Hanşele emsaliyle aynı gün; kesişimin ilk günü). hafsi künyesi 1228→1574-09-13, hayalet yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:615",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar. | ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1533-07-23"
+   },
+   "not": "[sira 3165] ABİ MERKEZ: Kostantîne — TDV «Cezayir»: Doğu sancağının 'merkezi Kostantîne'; BEYANLI YAKLAŞIKLIK. Hanşele (P027 sira 2095) emsali. f: 1519-09-01 ilk zapt dalgasıdır, kalıcı idare 940/1533-34 (bkz. önceki satır). t 1671 TDV «Cezayir» dayılar devri başı (YIL, ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:615",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3166] ÜLKE DÜZEYİ, YIL; 1830-07-05 günü TDV «Cezayir» 'Fransızlar … 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' (atlas kaydındaki alıntı; bu turda yalnız yıl cümlesi okundu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:615",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1838-10-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "1830’da Fransızlar’ın Cezayir’i işgalinin ardından ... burada bağımsız bir beylik kurmaya çalıştı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3167] f YIL (1830, Cezayir'in işgali). t teyitsiz: Fransız girişi (Philippeville kuruluşu) için akademik kaynak okunamadı; İPUCU (geneawiki, akademik değil): Valée 7 Ekim 1838'de Rusicade harabelerine geldi; ad 17 Kasım 1838. TARAYICI: Persée'de Philippeville 1838 makaleleri. 1837-10-13'ten sonra kıyı şeridinin Ahmed Bey'e tâbi sayılması ayrıca sorgulanmalı. TDV «Kostantîne»: Kostantîne 13 Ekim 1837'de düştü; Ahmed Bey 'on bir yıl süreyle' savaştı (≈1848) — konstantin-beyligi künye t 1844-03-04 ile çelişki ic_not'a/LAB. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sûk Ahrâs": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:627",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "Hafsîler’e geçen Kostantîne’nin idaresi hânedandan bir emîre verildi. | ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar.",
+   "uc": "t",
+   "oneri": {
+    "d": "hafsi",
+    "t": "1533-07-23"
+   },
+   "not": "[sira 3168] ABİ MERKEZ: Kostantîne — TDV «Cezayir»: Doğu sancağının 'merkezi Kostantîne'; BEYANLI YAKLAŞIKLIK. Hanşele (P027 sira 2095) emsali. Bölge Zeyyânî (Tilimsân) değil Hafsî idaresindeydi (1229'dan; XIV. yy'da Merînî işgalleri). Osmanlı tam hâkimiyeti 940/1533-34; Mercier'ye göre 1519/20 ilk zapt, 1526 Hafsî geri alışı, 1527 yeniden Osmanlı — ara dilimler ic_not'a. Hicrî 940 başı ≈ 1533-07-23 (Hanşele emsaliyle aynı gün; kesişimin ilk günü). hafsi künyesi 1228→1574-09-13, hayalet yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:627",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar. | ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1533-07-23"
+   },
+   "not": "[sira 3169] ABİ MERKEZ: Kostantîne — TDV «Cezayir»: Doğu sancağının 'merkezi Kostantîne'; BEYANLI YAKLAŞIKLIK. Hanşele (P027 sira 2095) emsali. f: 1519-09-01 ilk zapt dalgasıdır, kalıcı idare 940/1533-34 (bkz. önceki satır). t 1671 TDV «Cezayir» dayılar devri başı (YIL, ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:627",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3170] ÜLKE DÜZEYİ, YIL; 1830-07-05 günü TDV «Cezayir» 'Fransızlar … 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' (atlas kaydındaki alıntı; bu turda yalnız yıl cümlesi okundu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:627",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "1830’da Fransızlar’ın Cezayir’i işgalinin ardından ... burada bağımsız bir beylik kurmaya çalıştı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3171] f YIL (1830, Cezayir'in işgali). t teyitsiz: Fransız giriş günü TDV «Kostantîne» ve «Cezayir»de yok (Sûk Ahrâs geçmiyor). TDV «Kostantîne»: Kostantîne 13 Ekim 1837'de düştü; Ahmed Bey 'on bir yıl süreyle' savaştı (≈1848) — konstantin-beyligi künye t 1844-03-04 ile çelişki ic_not'a/LAB. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Berc Bû Areric": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:639",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kabîliye», https://islamansiklopedisi.org.tr/kabiliye",
+   "alinti": "Muvahhid, Hammâdî ve Hafsî idarelerinde kaldı. | Kabîliye, 1534’te ... Osmanlı toprağı oldu",
+   "uc": "t",
+   "oneri": {
+    "d": "hafsi",
+    "t": "1534-01-01"
+   },
+   "not": "[sira 3172] ABİ MERKEZ: Kal‘atü Benî Abbâs (TDV «Kabîliye» şehirleri arasında; Berc Bû Areric Mecâne ovasında, Kal‘a'nın güneyi) — BEYANLI YAKLAŞIKLIK; Tîzî Vezzû (P027 sira 2086) emsali. Zeyyânî değil Hafsî. TDV: XVI. yy ilk yarısında Benî Abbas emirliği ortaya çıktı — künye yok, dilim BEYANLI ya da hafsi içinde (LAB sorusu). Alternatif abi merkez Kostantîne (940/1533-34) — Mecâne'nin Kostantîne beyliğine bağlılığı bu turda kaynakla okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:639",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kabîliye», https://islamansiklopedisi.org.tr/kabiliye · TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Kabîliye, 1534’te ... Osmanlı toprağı oldu | ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1534-01-01"
+   },
+   "not": "[sira 3173] ABİ MERKEZ Kal‘atü Benî Abbâs/Kabîliye; YIL. Benî Abbas emirliğinin Osmanlı'ya fiilî tâbiliği tartışmalı — v: olabilir (TAHRİR sınavı: kaynak susuyor). t 1671 ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:639",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3174] ÜLKE DÜZEYİ, YIL. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:639",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1838-10-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kostantîne», https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "1830’da Fransızlar’ın Cezayir’i işgalinin ardından ... burada bağımsız bir beylik kurmaya çalıştı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3175] f YIL. t teyitsiz: Fransız giriş günü bulunamadı (TDV «Kostantîne», «Cezayir», «Kabîliye»de Berc Bû Areric yok). Mecâne'nin Ahmed Bey beyliğinde olup olmadığı kaynakla okunmadı (İPUCU: Mokrânî ailesi 1838'de Fransızlarla anlaştı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Şire": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:715",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3176] ÜLKE DÜZEYİ, t YIL (gün 06-01 AOİ kuruluşu, teyitsiz). f 1281 pencere ucu (TDV: Süleyman sülâlesi 1270'ten). TEK KURAL notu: şehrin İtalyan eline geçişi ile 1936-05-09 ilhak arası isg italya olmalı; şehir giriş günleri bu turda bulunamadı (ic_not adayı). İPUCU: Şire Muharebesi Şubat-Mart 1936. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:715",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3177] [KÜME K17]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:715",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3178] [KÜME K15]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:715",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3179] [KÜME K18]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:715",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3180] [KÜME K19]"
+  }
+ ],
+ "Lalibela": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3181] ÜLKE DÜZEYİ, t YIL (gün 06-01 AOİ kuruluşu, teyitsiz). f 1281 pencere ucu (TDV: Süleyman sülâlesi 1270'ten). TEK KURAL notu: şehrin İtalyan eline geçişi ile 1936-05-09 ilhak arası isg italya olmalı; şehir giriş günleri bu turda bulunamadı (ic_not adayı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "zagve",
+   "f": "1137-01-01",
+   "t": "1270-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Etiyopya Krallığı’nı 1137’den 1270’e kadar Zague, bu tarihten XVI. yüzyıla kadar da",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3182] ÜLKE DÜZEYİ, YIL; Lalibela (Roha) Zague başkenti (künye baskent). Mevcut kaynak alanındaki TDV alıntısı ham metinle aynı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1270-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Etiyopya Krallığı’nı 1137’den 1270’e kadar Zague, bu tarihten XVI. yüzyıla kadar da",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3183] ÜLKE DÜZEYİ, YIL; t 1281 pencere ucu (t teyitsiz, olay değil). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3184] [KÜME K17]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3185] [KÜME K15]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3186] [KÜME K18]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:730",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3187] [KÜME K19]"
+  }
+ ],
+ "Bahır Dar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:740",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3188] ÜLKE DÜZEYİ, t YIL (gün 06-01 AOİ kuruluşu, teyitsiz). f 1281 pencere ucu (TDV: Süleyman sülâlesi 1270'ten). TEK KURAL notu: şehrin İtalyan eline geçişi ile 1936-05-09 ilhak arası isg italya olmalı; şehir giriş günleri bu turda bulunamadı (ic_not adayı). Yerleşimin 1281'de var olup olmadığı okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:740",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3189] [KÜME K17]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:740",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3190] [KÜME K15]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:740",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3191] [KÜME K18]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:740",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3192] [KÜME K19]"
+  }
+ ],
+ "Debre Berhan": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:750",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3193] ÜLKE DÜZEYİ, t YIL (gün 06-01 AOİ kuruluşu, teyitsiz). f 1281 pencere ucu (TDV: Süleyman sülâlesi 1270'ten). TEK KURAL notu: şehrin İtalyan eline geçişi ile 1936-05-09 ilhak arası isg italya olmalı; şehir giriş günleri bu turda bulunamadı (ic_not adayı). 🔴 f ŞÜPHELİ: İPUCU (Vikipedi, dayanak değil): şehri Zera Yakub 1456'da kurdu (Halley kuyrukluyıldızı) — 1281-1456 yerleşim yok olabilir; f kur günü/1456 olmalı. Treccani EI «Debra Berhan» slug'ı açılmadı. TARAYICI: Encyclopaedia Aethiopica, «Däbrä Bərhan» (Harrassowitz). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:750",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3194] [KÜME K17]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:750",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3195] [KÜME K15]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:750",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3196] [KÜME K18]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:750",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3197] [KÜME K19]"
+  }
+ ],
+ "Galkayo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:819",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3198] YIL düzeyi (Obbia/Hobyo emirliği toprağı). f teyitsiz; 🔴 HAYALET: somali künyesi f 1500-01-01 → 1281-1500 künye dışı (LAB SALI gece-50 sorusu 3'te zaten var: beyanlı). TEK KURAL notu: 1889 İtalyan himayesi ile 1927 işgali arası v: italya sorusu ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:819",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3199] ÜLKE DÜZEYİ; t gün düzeyinde. f teyitsiz (1941-02-25 Mogadişu'ya giriş; TDV'de gün yok, şehre özgü giriş günü yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:819",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi. | On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3200] ÜLKE DÜZEYİ; f cümlesi vesayet kararının uygulamaya konuluşunu tarihler. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:819",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3201] [KÜME K27]"
+  }
+ ],
+ "Bender Kāsım (Bosaso)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:829",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3202] TDV «Somali» Bosaso/Bari kıyısı için Adal hâkimiyetinden söz etmez; yalnız 'Mâcerteyn Sultanlığı XIX. yüzyılda bağımsız hale geldi' der. 🔴 HAYALET: adal künyesi f 1415-01-01 (1281-1415 evfat 1285'ten; LAB SALI gece-50 sorusu 2). 1577 ucu kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:829",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1927-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3203] YIL; Mâcerteyn emirliği. f 1577 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:829",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3204] ÜLKE DÜZEYİ; t gün düzeyinde. f teyitsiz (1941-02-25 Mogadişu'ya giriş; TDV'de gün yok, şehre özgü giriş günü yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:829",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi. | On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3205] ÜLKE DÜZEYİ; f cümlesi vesayet kararının uygulamaya konuluşunu tarihler. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:829",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3206] [KÜME K27]"
+  }
+ ],
+ "Cağbûb": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:968",
+   "alan": "s",
+   "d": "italya",
+   "f": "1912-10-18",
+   "t": "1943-01-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Senûsiyye», https://islamansiklopedisi.org.tr/senusiyye",
+   "alinti": "faşist idare 1926 yılı Şubat ayında Cağbûb’u, 1931 yılı Ocak ayında Kufra’yı ele geçirdi.",
+   "uc": "f",
+   "oneri": {
+    "f": "1926-02 (ay hassasiyeti; gün kaynakla bulunacak)",
+    "bolunme": "1912-10-18 → 1926-02 BEYANLI dilim (Senûsî fiilî idaresi; Mısır iddiası) — künye yok"
+   },
+   "not": "[sira 3207] Uşi 1912 Libya'yı devretti ama İtalya Cağbûb'u 1926 Şubat'a kadar yönetmedi (TEK ÖLÇÜ: devralan yönetmiyordu → s: teslim/fiilî idare günü). İPUCU (okunmadı): Cağbûb 1925-12-06 İtalya-Mısır antlaşmasıyla Mısır'dan Libya'ya bırakıldı — Mısır iddiası ic_not; Mısır künyesiyle 1912-1925 dilimi ayrıca sorgulanmalı. t 1943-01-23 teyitsiz (İPUCU: Avustralya birlikleri Mart 1941'de aldı). ÖLÇÜT: idareye katma — fiilî ele geçirme 1926. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:968",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1856-01-01",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cağbûb» (Mustafa L. Bilge, 1993), https://islamansiklopedisi.org.tr/cagbub",
+   "alinti": "1856’da Sultan Abdülmecid’in fermanıyla tarikat mensuplarına ait emlâkin vergiden muaf tutulması",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3208] f YIL; ÖLÇÜT: idareye katma — Osmanlı fermanı vergi muafiyeti tanıyor (devletin vergi yetkisi). Yerleşim TDV'ye göre 1855'te kuruldu ('1855’te bölgeye yerleşerek vahaya hâkim kayalıkta bir zâviye yaptıran Şeyh Senûsî') — kur: 1856-01-01 → 1855-01-01 ic_not adayı; 1855 yılı için sahiplik kaynakta yok. t teyitsiz (bkz. sira 3207). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:968",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 3209] ÜLKE DÜZEYİ; t gün düzeyinde. f teyitsiz: TDV «Bingazi» Berka'da İtalyan idaresini 1942'de bitirir; Cağbûb'un düşüş günü bulunamadı (İPUCU Mart 1941). Ecdâbiye/Tobruk ONERI'sine bak. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:968",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti. | 1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3210] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:968",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3211] ÜLKE DÜZEYİ; t teyitsiz (pencere ucu). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Norwich": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:71",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Norwich», https://www.treccani.it/enciclopedia/norwich/",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3212] Treccani maddesinde tarih bölümü yok ('Città dell’Inghilterrra … capoluogo della contea di Norfolk'). Çelişki yok; iki uç pencere ucudur, tarihlenecek olay yok (P013 Orléans emsali). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bristol": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:72",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Bristol», https://www.treccani.it/enciclopedia/bristol/",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3213] Treccani İngiliz sürekliliğini destekler ('nel 1373 fu la seconda città, dopo Londra, a essere eretta in contea indipendente'); yabancı egemenlik yok. Uçlar pencere ucu, olay yok. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Plymouth": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:74",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Plymouth», https://www.treccani.it/enciclopedia/plymouth/",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3214] Treccani maddesi yalnız coğrafya ve Plymouth Company'yi anlatır; ortaçağ tarihi yok. Çelişki yok; uçlar pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}
