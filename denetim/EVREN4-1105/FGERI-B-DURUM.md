@@ -79,6 +79,10 @@ Dosya: `FGERI-ONERI-B.json`. 102 kayıt, 50 künye grubu; Mapimí ve Marcapata d
   - 1917 sonrası Beyaz, Çin/Moğol ve Kızıl dilimleri `isg` zinciridir. 1921-08-14 `tannu-tuva` (künye VAR: 1921-08-14 → 1944-10-11).
   - ⚠️ KASA ölçümü: `rusya` künyesi t **1917-03-15**'te bitiyor. Ardından `rusya-gecici-hukumet` (1917-03-15 → 1917-11-07) ve `sovyet-rusya` (1917-11-07 →) geliyor. Rus dilimi 1917-03-15'te `rusya-gecici-hukumet`'e geçmeli, yoksa hayalet olur.
 - **Onaylananlar:** Malolos f 1898-06-12 GENİŞLET; Vukovar RSK t 1996-01-15 GENİŞLET; 1991 SAO dilimi `yugoslavya-federal` BEYANLI.
+- **gece-126 (EMRELİC):**
+  - Kabile önerileri BEKLETİLİR; tavan bu gece artırılmaz. Emre'ye giden soru: "belgeli kabile boşluğu için tavan açılabilir mi, ya da kapı ölçütü 1c'ye mi taşınsın?"
+  - Benkovac: `shs-devleti` aynı commit'te açılır, öncelikli. Dalmaçya'da SHS'nin fiilî denetimi 10-29'dan başlar. `habsburg` t ülke düzeyidir; yerel dilimde SHS f esas, t = ardıl f.
+  - Tuva: `v: rusya` → 1917-03-15 → `v: rusya-gecici-hukumet` → 1917-11-07 → `isg` zinciri → 1921-08-14 `tannu-tuva`.
 
 ## Öneri: ikinci tur
 
