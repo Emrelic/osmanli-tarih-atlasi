@@ -248,7 +248,7 @@
   "guc": "GÜÇLÜ",
   "kunye": "norvec-1814 f 1814-05-17 → 1814-02-19",
   "gun": "1814-02-19",
-  "islem": "devletler.js norvec-1814 f → 1814-02-19 (Christian Frederik'in 19 Şubat bildirileriyle naip olarak iktidarı alması). ic_not_f: '1814-01-14 Kiel antlaşması (Danimarka Norveç'i İsveç'e bıraktı); 1814-02-16 Eidsvoll ileri gelenler toplantısı; 1814-05-17 anayasa ve kral seçimi'. Norveç yerleşimleri: 1814-01-14 → 02-18 s: danimarka (Christian Frederik Danimarka valisi), 02-19'dan norvec-1814. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1814-02 Norveç maddesi YOK (yalnız 01-14 Kiel, olaylar_ek16.js:150) → kronoloji_sinir'e madde önerisi: 1814-02-19 'Christian Frederik naip olarak Norveç'te iktidarı aldı (Kiel'i tanımama)', taraflar [norvec-1814, danimarka]; Kiel 01-14 maddesi Danimarka→İsveç devri için kalır.",
+  "islem": "devletler.js norvec-1814 f → 1814-02-19 (Christian Frederik'in 19 Şubat bildirileriyle naip olarak iktidarı alması). 🔴 ATOMİK (KASA/EMRELİC gece-119): 20 Norveç yerleşiminin dönemleriyle AYNI commit (yoksa 02-19 → 05-17 hayalet); ham SNL alıntıları denetim/EVREN4-1105/NORVEC-1814-ONERI.json (kasa-1104-kronoloji). Künye özetine: 'Christian Frederik 1814-10-10'da tahttan çekildi (SNL); 1814-11-04 Storting İsveç birliğini kabul etti (künye t)'. ic_not_f: '1814-01-14 Kiel antlaşması (Danimarka Norveç'i İsveç'e bıraktı); 1814-02-16 Eidsvoll ileri gelenler toplantısı; 1814-05-17 anayasa ve kral seçimi'. Norveç yerleşimleri: 1814-01-14 → 02-18 s: danimarka (Christian Frederik Danimarka valisi), 02-19'dan norvec-1814. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1814-02 Norveç maddesi YOK (yalnız 01-14 Kiel, olaylar_ek16.js:150) → kronoloji_sinir'e madde önerisi: 1814-02-19 'Christian Frederik naip olarak Norveç'te iktidarı aldı (Kiel'i tanımama)', taraflar [norvec-1814, danimarka]; Kiel 01-14 maddesi Danimarka→İsveç devri için kalır.",
   "dayanak": "Store norske leksikon 'Christian Frederik': «Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt»; SNL 'stormannsmøtet': «holdt på Eidsvoll 16. februar 1814»",
   "onay": "EMRELİC 5 Kasım (GENİŞLET; gün snl.no'dan — H4B)"
  },
@@ -845,5 +845,16 @@
   "islem": "Nascopie (Labrador): 1867-07-01 kanada KALKAR. Zincir: 1809 (Labrador'un Newfoundland'a bağlanışı — gün kaynakla) → 1854-12-31 s: ingiltere (koloni künyeleri Emre'nin sabah listesinde; o güne dek kolonilerde metropol künyesi); 1855-01-01 newfoundland-dominyonu; 1934-02-16 newfoundland-komisyon-hukumeti; 1949-03-31 kanada. ic_not: 'iç Labrador sınırı 1927 JCPC (Privy Council) kararına dek tartışmalı'. 1809 öncesi (1774-1809 Quebec'e bağlı) kaynakla.",
   "dayanak": "EMRELİC gece-126 (LAB PAZAR iletimi)",
   "onay": "EMRELİC 6 Kasım gece-126"
+ },
+ {
+  "d": "kanal-adalari (f)",
+  "tur": "KUNYE",
+  "karar": "TARIH_DUZELT",
+  "guc": "ORTA",
+  "kunye": "kanal-adalari f 1204-01-01 → 1204-06-24",
+  "gun": "1204-06-24",
+  "islem": "LAB ölçümü: kanal-adalari 'Kanal Adaları (Jersey ve Guernsey Bailiwick'leri)' f 1204-01-01 (:16339) ↔ normandiya 'Normandiya Dükalığı' t 1204-06-24 (:13375) → 1204-01-01 → 06-23 ÖRTÜŞME (~6 ay). Adalar Normandiya dükalığının parçasıydı; ayrı birim anakara Normandiya'nın Fransa'ya kaybıyla (Rouen'in teslimi 1204-06-24) doğdu → kanal-adalari f → 1204-06-24 (bitişik). Kanal Adaları yerleşimlerinde 1204-01-01 kırılmaları varsa 06-24'e hizalanır.",
+  "dayanak": "LAB ölçümü; EMRELİC gece-118 (KASA ON5 iletimi)",
+  "onay": "EMRELİC gece-118 (yönlendirme) — LAB önerisi"
  }
 ]
