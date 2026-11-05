@@ -498,7 +498,7 @@
   "d": "Sivas (fetret-mehmed)",
   "tur": "KUNYE/YERLESIM",
   "karar": "EMRELİC",
-  "islem": "Sivas yerleşimi: Çelebi Mehmed'e geçiş kırılması → 1407-06-07 (1 Muharrem 810, tabular Jülyen, BRİF EPOCH'U Perşembe varyantı: 1 Rebîülevvel 923 = 1517-03-23; 810 H = 1407-06-07 → 1408-05-25; Cuma varyantı 06-08). Atlastaki 1408-06-01 kırılması 810 H aralığının DIŞINDA → 1407-06-07'ye düzelir. ic_not: '810 H (1407-1408) TDV SİVAS; tabular hesap ±1-2 gün'. DEĞİŞMEZ 2 — LAB ölçümü: olaylar_ek5.js:57 t:'1408-06-01' «Çelebi Mehmed Sivas'ı Timurlu …» maddesi VAR → AYNI COMMIT'te 1407-06-07'ye taşınır (gun: '810 H').",
+  "islem": "Sivas yerleşimi: Çelebi Mehmed'e geçiş kırılması → 1407-06-07 (1 Muharrem 810, tabular Jülyen, BRİF EPOCH'U Perşembe varyantı: 1 Rebîülevvel 923 = 1517-03-23; 810 H = 1407-06-07 → 1408-05-25; Cuma varyantı 06-08). Atlastaki 1408-06-01 kırılması 810 H aralığının DIŞINDA → 1407-06-07'ye düzelir. ic_not: '810 H (1407-1408) TDV SİVAS; tabular hesap ±1-2 gün (rü'yet)'. DEĞİŞMEZ 2 — LAB ölçümü: olaylar_ek5.js:57 t:'1408-06-01' «Çelebi Mehmed Sivas'ı Timurlu …» maddesi VAR → AYNI COMMIT'te 1407-06-07'ye taşınır (gun: '810 H').",
   "kunye": "künye değişmez (fetret-mehmed f 1402-07-28)",
   "gun": "1407-06-07",
   "guc": "ORTA",
