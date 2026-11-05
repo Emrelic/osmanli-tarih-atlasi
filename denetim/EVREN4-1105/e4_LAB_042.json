@@ -152,7 +152,7 @@
     "f": "1713-04-11",
     "not": "öncesi 1702 → 1713 isg ingiltere, altında s: fransa"
    },
-   "not": "KARAR EMRELİC (gece-118): TEK ÖLÇÜ: İngiltere Fransız kesimini 1702'den işgal edip idare ediyordu → s: ingiltere 1713-04-11 (Utrecht imzası); 1702 → 1713 isg ingiltere, altında s: fransa; 07-13 ic_not. | BULUNAMADI. İPUCU (kaynaksız, arama özeti): Basseterre Fransız tarafındaydı; Utrecht'te Fransız payı 1713-04-11 (ya da 03-31) Britanya'ya devredildi — atlasın 1713-07-13 gününü kaynak desteklemiyor olabilir; 1713-07-13 Anglo-İspanyol Utrecht gününe benziyor. Akademik kaynakla okunmadı."
+   "not": "LAB SALI (UYGULA 75, origin/main ölçümü): UYGULA: 1702 → 1713-04-10 isg ingiltere (s: fransa), 1713-04-11 ingiltere (Utrecht imzası); evrende 1713-04-11 maddesi ayrıca ölçülecek. | KARAR EMRELİC (gece-118): TEK ÖLÇÜ: İngiltere Fransız kesimini 1702'den işgal edip idare ediyordu → s: ingiltere 1713-04-11 (Utrecht imzası); 1702 → 1713 isg ingiltere, altında s: fransa; 07-13 ic_not. | BULUNAMADI. İPUCU (kaynaksız, arama özeti): Basseterre Fransız tarafındaydı; Utrecht'te Fransız payı 1713-04-11 (ya da 03-31) Britanya'ya devredildi — atlasın 1713-07-13 gününü kaynak desteklemiyor olabilir; 1713-07-13 Anglo-İspanyol Utrecht gününe benziyor. Akademik kaynakla okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_halef_1946.js:116",
@@ -165,7 +165,7 @@
    "kaynak": "U.S. Office of the Historian, Saint Kitts and Nevis — https://history.state.gov/countries/saint-kitts-nevis",
    "alinti": "on September 19, 1983, the same day that country declared independence",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-118): TEK ÖLÇÜ: İngiltere Fransız kesimini 1702'den işgal edip idare ediyordu → s: ingiltere 1713-04-11 (Utrecht imzası); 1702 → 1713 isg ingiltere, altında s: fransa; 07-13 ic_not. | ÜLKE DÜZEYİ; devletin resmî yayını: ABD tanıma günü = bağımsızlık ilanı günü (metin açıkça belirtiyor). Gün düzeyinde."
+   "not": "LAB SALI (UYGULA 75, origin/main ölçümü): UYGULA: 1702 → 1713-04-10 isg ingiltere (s: fransa), 1713-04-11 ingiltere (Utrecht imzası); evrende 1713-04-11 maddesi ayrıca ölçülecek. | KARAR EMRELİC (gece-118): TEK ÖLÇÜ: İngiltere Fransız kesimini 1702'den işgal edip idare ediyordu → s: ingiltere 1713-04-11 (Utrecht imzası); 1702 → 1713 isg ingiltere, altında s: fransa; 07-13 ic_not. | ÜLKE DÜZEYİ; devletin resmî yayını: ABD tanıma günü = bağımsızlık ilanı günü (metin açıkça belirtiyor). Gün düzeyinde."
   }
  ],
  "Belize Town": [
@@ -442,10 +442,11 @@
    "kaynak": "https://vestnik.vogu35.ru/docs/2022/istor_filolog/4/7.pdf (açılamadı, zaman aşımı); WebSearch",
    "alinti": "",
    "oneri": {
-    "d": "beloozero-knezligi (künye adayı)",
-    "not": "v: moskova, günler kaynakla"
+    "d": "beloozero-knezligi",
+    "t": "1389-01-01",
+    "not": "v: altinorda; 1389'dan s: moskova"
    },
-   "not": "KARAR EMRELİC (gece-118): novgorod kalkar → Beloozero knezliği (künye adayı, LAB SALI) + Moskova bağımlılığı v:, günler kaynakla; ONERI. PDF (vogu35) EMRELİC'te de açılmadı → tarayıcı listesi. | BULUNAMADI ama ÖNEMLİ ŞÜPHE: arama özetleri Belozersk'in Novgorod değil ayrı Belozersk (Beloozero) knezliği olduğunu, 14. yy'dan fiilen Moskova'ya bağımlı, 1485/86'da Moskova'ya katıldığını gösteriyor — atlasın 'novgorod 1281-1478' sahipliği yanlış olabilir. Akademik kaynakla okunmadı (booksite.ru 'Белозерское княжество' https://booksite.ru/fulltext/1/001/007/010/10295.htm okunmadı)."
+   "not": "LAB SALI (UYGULA 75, origin/main ölçümü): beloozero-knezligi künyesi VAR (1238 → 1389-01-01), aday gerekmez. Zincir: 1281 → 1388 s: beloozero-knezligi + v: altinorda (Moskova bağımlılığı başlangıcı kaynakla); 1389'dan (Donskoy'un vasiyeti, gün kaynakla) s: moskova; 1389–1486 Mojaysk-Beloozero apanajı ic_not. | KARAR EMRELİC (gece-118): novgorod kalkar → Beloozero knezliği (künye adayı, LAB SALI) + Moskova bağımlılığı v:, günler kaynakla; ONERI. PDF (vogu35) EMRELİC'te de açılmadı → tarayıcı listesi. | BULUNAMADI ama ÖNEMLİ ŞÜPHE: arama özetleri Belozersk'in Novgorod değil ayrı Belozersk (Beloozero) knezliği olduğunu, 14. yy'dan fiilen Moskova'ya bağımlı, 1485/86'da Moskova'ya katıldığını gösteriyor — atlasın 'novgorod 1281-1478' sahipliği yanlış olabilir. Akademik kaynakla okunmadı (booksite.ru 'Белозерское княжество' https://booksite.ru/fulltext/1/001/007/010/10295.htm okunmadı)."
   }
  ],
  "Belém": [
@@ -661,7 +662,7 @@
     "t": "1920-07-10",
     "isg": "ingiltere 1919 (yıl) → fransa; 1920-07-10'a dek"
    },
-   "not": "KARAR EMRELİC (gece-118): ONAY Mersin emsali; Urfa 1920-04-11 başka şehir, çelişki yok. D2 ÖLÇÜMÜ (LAB PAZAR, origin/main): olaylar*/kronoloji_sinir* içinde Birecik 1920-07-10 (ya da 1919 İngiliz/Fransız işgali) maddesi YOK → KASA'ya not. | ÖNCEKİ KURAL (DA-BRIEF TBMM, Mersin emsali): işgal boyunca d: osmanli + isg (İngiliz → Fransız, kaynakla) → s: tbmm fiilî kurtuluştan 1920-07-10 (TDV); 1920-04-23 bu yere uygulanmaz. | t: işgal altında d: osmanli + isg işgalci yazılır; s: tbmm şehrin fiilen teslim alındığı günden (TDV: 1920-07-10, işgal güçlerinin çekilişi) başlar, 1920-04-23 değil. f ucu: TDV 'Osmanlı idaresine girdi (1516)... Urfa sancağının merkezi olarak teşkilâtlandırıldı' = YIL (1516) teyit, gün 08-24 (Mercidâbık günü) teyitsiz; tahrir ölçütü: sancak merkezi teşkilatı var. Çelişki: kronoloji maddesi Urfa kurtuluşu 1920-04-11, TDV Birecik 1920-07-10 (Birecik'in kendi maddesi esas); işgal başlangıcı 1919 yalnız yıl."
+   "not": "LAB SALI (UYGULA 75, origin/main ölçümü): DİKKAT id 'tbmm-turkiye' (TBMM Hükûmeti, 1920-04-23 → 1923-10-29), 'tbmm' değil; D2 madde önerileri (1919 İngiliz işgali, Fransız devri, 1920-07-10) kalemde. | KARAR EMRELİC (gece-118): ONAY Mersin emsali; Urfa 1920-04-11 başka şehir, çelişki yok. D2 ÖLÇÜMÜ (LAB PAZAR, origin/main): olaylar*/kronoloji_sinir* içinde Birecik 1920-07-10 (ya da 1919 İngiliz/Fransız işgali) maddesi YOK → KASA'ya not. | ÖNCEKİ KURAL (DA-BRIEF TBMM, Mersin emsali): işgal boyunca d: osmanli + isg (İngiliz → Fransız, kaynakla) → s: tbmm fiilî kurtuluştan 1920-07-10 (TDV); 1920-04-23 bu yere uygulanmaz. | t: işgal altında d: osmanli + isg işgalci yazılır; s: tbmm şehrin fiilen teslim alındığı günden (TDV: 1920-07-10, işgal güçlerinin çekilişi) başlar, 1920-04-23 değil. f ucu: TDV 'Osmanlı idaresine girdi (1516)... Urfa sancağının merkezi olarak teşkilâtlandırıldı' = YIL (1516) teyit, gün 08-24 (Mercidâbık günü) teyitsiz; tahrir ölçütü: sancak merkezi teşkilatı var. Çelişki: kronoloji maddesi Urfa kurtuluşu 1920-04-11, TDV Birecik 1920-07-10 (Birecik'in kendi maddesi esas); işgal başlangıcı 1919 yalnız yıl."
   }
  ]
 }
