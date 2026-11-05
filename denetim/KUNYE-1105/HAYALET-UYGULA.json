@@ -647,5 +647,16 @@
   "islem": "BÜTÜN Doğu Timor yerleşimleri (Dili, Baucau, Viqueque, Maucatar, Lifau …): portekiz-timor → 1975-11-27; 1975-11-28 → 1975-12-06 BEYANLI (FRETILIN Doğu Timor Demokratik Cumhuriyeti ilanı, künye yok — __BOSLUK__ + beyan ya da portekiz-timor t ile bitişik beyan); 1975-12-07 → 1999-10-24 s: endonezya-dogu-timor (tur:isgal künye, :15607) + ic_not 'ilhak 1976-07-17, BM tanımadı; Portekiz yönetici devlet sayıldı'; 1999-10-25 → 2002-05-19 s: untaet (:21843); 2002-05-20'den BEYANLI (Timor-Leste künye adayı). LAB PAZAR Viqueque ve Maucatar'ı işledi (79cea5059). Değişmez 2: 1975-11-28, 1975-12-07, 1999-10-25, 2002-05-20 maddeleri ölçülmeli (1975-11-28 portekiz-timor künye içinde VAR, :18419).",
   "dayanak": "EMRELİC gece-93 (sadeleşen model)",
   "onay": "EMRELİC 6 Kasım gece-93"
+ },
+ {
+  "d": "funj",
+  "tur": "KUNYE + YERLESIM + MADDE (atomik)",
+  "karar": "TARIH_DUZELT",
+  "guc": "KAYNAKLI-çekinceli (JSTOR dizini tek isabet)",
+  "kunye": "funj t 1821-06-14 → 1821-06-13",
+  "gun": "1821-06-13",
+  "islem": "devletler.js funj (:1927) t → 1821-06-13; ic_not_t: '12 Ramazan 1236 / 13 Haziran 1821 (Holt 1988); ±1-2 gün (rü'yet), tabular JDN 1821-06-12; TDV FUNC yalnız Haziran 1821'. AYNI COMMIT: olaylar_ek4.js:115 (t 1821-06-14 'Sennâr (Fûnc) Sultanlığı teslim oldu') → 1821-06-13; Sennar ve Funj yerleşimlerinin 1821-06-14 kırılmaları → 06-13; Kabûşiyye v: misir-kavalali f → 1821-06-13 (LAB PAZAR e4_LAB_032).",
+  "dayanak": "P. M. Holt, 'Mansfield Parkyns's Manuscript of the Funj Chronicle', Die Welt des Islams NS 28/1-4 (1988), s. 244-263 (JSTOR tam metin dizini): «Badi VI, the last Funj ruler, submitted to the invaders, who entered his capital, Sinnar, on 12 Ramadan 1236/ 13 June 1821» — makale gövdesi açılmadı",
+  "onay": "EMRELİC 6 Kasım gece-103"
  }
 ]
