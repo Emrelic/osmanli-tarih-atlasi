@@ -325,7 +325,7 @@
   "guc": "ORTA",
   "kunye": "ispanyol-kuba t 1898-12-10 → 1899-01-01 · kuba-cumhuriyeti f 1902-05-19 → 1902-05-20",
   "gun": "1899-01-01 / 1902-05-20",
-  "islem": "ispanyol-kuba t → 1899-01-01 (Havana teslimi, fiilî idare); ic_not_t: 'Paris Antlaşması feragati 1898-12-10'. kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ: ABD idareyi 20 Mayıs öğlen devretti); ic_not_f aynen: history.state.gov/countries/cuba «formally installed May 19 / On May 20 …» (LAB PAZAR sayfa.py ile okudu). Küba yerleşimleri 1899-01-01 → 1902-05-19 s: abd + BEYAN ('ABD Askerî Hükûmeti; künye adayı kuba-abd-askeri-hukumeti') — künye açılınca d: o id. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1898-12-10, 1899-01-01, 1902-05-19/20 tarihli KÜBA maddesi YOK (1899-01-01'de yalnız Nairobi maddesi) → iki kırılma için madde önerisi: 1899-01-01 'Havana'da İspanyol idaresi ABD'ye devredildi' (taraflar ispanyol-kuba, abd) ve 1902-05-20 'Küba Cumhuriyeti kuruldu; ABD askerî idaresi sona erdi' (taraflar abd, kuba-cumhuriyeti), yer_id Havana. (LAB PAZAR da KASA'ya yazıyor — mükerrer madde açılmasın.)",
+  "islem": "ispanyol-kuba t → 1899-01-01 (Havana teslimi, fiilî idare); ic_not_t: 'Paris Antlaşması feragati 1898-12-10'. kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ: ABD idareyi 20 Mayıs öğlen devretti); ic_not_f aynen: history.state.gov/countries/cuba «formally installed May 19 / On May 20 …» (LAB PAZAR sayfa.py ile okudu). Küba yerleşimleri 1899-01-01 → 1902-05-19 s: abd + BEYAN ('ABD Askerî Hükûmeti; künye adayı kuba-abd-askeri-hukumeti') — künye açılınca d: o id. YERLEŞİM LİSTESİ (UMIT worktree ölçümü, EMRELİC r8_091): Baracoa, Santiago de Cuba, Havana, Camagüey bölgesi (Taino) (yerlesimler_amerika.js); Bayamo, Trinidad (Küba), Matanzas (Küba), Cienfuegos (yerlesimler_ek_karayip_adalar.js); Santa Clara (Küba), Sancti Spíritus (yerlesimler_kamerika.js) — 10 yerleşim; bugün 'ispanya → 1898-12-10 → abd → 1902-05-20 → kuba-cumhuriyeti'; isg YOK (ABD askerî hükûmeti sahip). DİKKAT (LAB ölçümü): bu yerleşimlerde İspanyol dönemi d:'ispanya' (İspanya künyesi) yazıyor — ispanyol-kuba künyesi (1511 → 1898-12-10, :18861) kullanılmıyor; d:'ispanyol-kuba' yapılması renk değiştirebilir (BOYALAR ölçülmeli — D-ANAHTAR benzeri). DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1898-12-10, 1899-01-01, 1902-05-19/20 tarihli KÜBA maddesi YOK (1899-01-01'de yalnız Nairobi maddesi) → iki kırılma için madde önerisi: 1899-01-01 'Havana'da İspanyol idaresi ABD'ye devredildi' (taraflar ispanyol-kuba, abd) ve 1902-05-20 'Küba Cumhuriyeti kuruldu; ABD askerî idaresi sona erdi' (taraflar abd, kuba-cumhuriyeti), yer_id Havana. (LAB PAZAR da KASA'ya yazıyor — mükerrer madde açılmasın.)",
   "dayanak": "history.state.gov/countries/cuba, 'U.S. Recognition of Cuban Independence, 1902' (LAB PAZAR ham metin): «…until the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States relinquished its occupation authority over Cuba…» — f 05-20 ikinci cümleye (işgal yetkisinin bırakılması) dayanır; 19 Mayıs cümlesi ic_not'a; EMRELİC kararı",
   "onay": "EMRELİC 6 Kasım gece-31"
  },
@@ -724,5 +724,16 @@
   "guc": "ORTA",
   "dayanak": "EMRELİC (LAB PAZAR iletimi, gece-107 sonrası)",
   "onay": "EMRELİC 6 Kasım gece-107"
+ },
+ {
+  "d": "teksas-cumhuriyeti",
+  "tur": "KUNYE + YERLESIM + MADDE",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA",
+  "kunye": "teksas-cumhuriyeti t 1845-12-29 → 1846-02-19",
+  "gun": "1846-02-19",
+  "islem": "devletler.js teksas-cumhuriyeti 'Teksas Cumhuriyeti' (:8698) t → 1846-02-19 (yetki devri töreni — TSHA); ic_not_t: '1845-12-29 ABD Kongresi kabul yasası (ilhak)'. abd s: 1846-02-19'dan. 4 yerleşim: San Antonio (Misyon San Antonio de Valero) (yerlesimler_amerika.js); Nacogdoches, San Felipe de Austin, Houston (yerlesimler_kamerika.js) — kırılma 1845-12-29 → 1846-02-19. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1845-12-29 ve 1846-02-19 maddesi YOK → madde önerisi 1846-02-19 'Teksas Cumhuriyeti yetkileri ABD'ye devretti (Austin töreni)', taraflar [teksas-cumhuriyeti, abd], odak Austin/San Antonio.",
+  "dayanak": "Texas State Historical Association (TSHA, Handbook of Texas — UMIT); EMRELİC r8_091",
+  "onay": "EMRELİC r8_091 (UMIT iletimi)"
  }
 ]
