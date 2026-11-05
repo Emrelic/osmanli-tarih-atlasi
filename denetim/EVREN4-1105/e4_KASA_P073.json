@@ -1,0 +1,423 @@
+{
+ "Copiapó": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1134",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1744-12-08",
+   "t": "1818-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Archivo Nacional de Chile, «Fundación de Copiapó», https://www.archivonacional.gob.cl/fundacion-de-copiapo ; Memoria Chilena (Biblioteca Nacional de Chile), «Proclamación de la Independencia de Chile el 12 de febrero de 1818», https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "mandató a Francisco Cortés y Cartabio para que fundara Copiapó un 8 de diciembre de 1744 | O´Higgins decidió realizar dicho acto público el día 12 de febrero de 1818",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4179] t ÜLKE DÜZEYİ (Acta 1 Ocak'ta imzalandı, 2 Şubat'ta onaylandı, 12 Şubat'ta ilan — ic_not). Patriot idaresi Norte Chico'da Chacabuco (1817-02-12) sonrası başladı; künye sili-cumhuriyeti f 1818-02-12 olduğundan erken gün ic_not'a (hayalet kontrolü). Künye inceliği: sili-kaptanligi (1541-02-12→1818-02-12) var, d: ispanya yerine kullanılabilir. Resmî devlet kurumu sayfaları. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1134",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Proclamación de la Independencia de Chile el 12 de febrero de 1818», https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "O´Higgins decidió realizar dicho acto público el día 12 de febrero de 1818",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4180] ÜLKE DÜZEYİ; t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "San Pedro de Atacama": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1165",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1557-01-01",
+   "t": "1825-08-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika",
+   "alinti": "1825’te Bolivya, 1828’de Uruguay bağımsızlıklarını kazandılar",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 4181] ÜLKE DÜZEYİ, YIL düzeyi (1825); 08-06 günü TDV'de yok. f 1557 teyitsiz: tek dayanak munispa.cl (belediye) «En el año 1557 Pedro de Valdivia mandó a construir su casa» — Valdivia 1553'te öldü, tutarsız; akademik kaynak okunmadı. Künye inceliği: Atacama Charcas/Potosí'ye bağlıydı (ispanyol-peru / rio-de-la-plata-valiligi 1776 sonrası). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1165",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "1888-07-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika ; González Pizarro, «La provincia de Antofagasta. Creación y consolidación de un territorio nuevo en el Estado chileno: 1888-1933», Revista de Indias LXX/249 (2010) 345-380, s. 359, https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/715/785/1206",
+   "alinti": "1825’te Bolivya, 1828’de Uruguay bağımsızlıklarını kazandılar | El 13 de julio de 1888, se promulgaba ... la ley 3.346, que creaba la provincia de Antofagasta",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4182] f YIL düzeyi ÜLKE DÜZEYİ (TDV). t: Şili'nin 23°G kuzeyini kendi vilayet teşkilatına katması (ÖLÇÜT: idareye katma — Ley 3.346, Antofagasta provinciası). Aynı makalede Dışişleri Bakanı kuzey için «no tenemos sino el mero imperio» der. Kayıttaki öneri isg sili-cumhuriyeti 1879 (Calama 03-23 / Río Grande 09-10) → 1888-07-13 ayrıca bekliyor; 1884 Tregua ve 1904-10-20 Barış Antlaşması ic_not. Kanun yürürlüğü (yayından +30 gün) okunmadı. [alıntı ham metinden, pypdf]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1165",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1888-07-13",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "González Pizarro, «La provincia de Antofagasta. Creación y consolidación de un territorio nuevo en el Estado chileno: 1888-1933», Revista de Indias LXX/249 (2010) 345-380, s. 359, https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/715/785/1206",
+   "alinti": "El 13 de julio de 1888, se promulgaba ... la ley 3.346, que creaba la provincia de Antofagasta",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4183] Promulgasyon günü; yürürlük ic_not. [alıntı ham metinden, pypdf]"
+  }
+ ],
+ "Quines": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1227",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1763-12-01",
+   "t": "1810-05-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Agencia de Noticias San Luis (Gobierno de San Luis), 2024-11-27, https://agenciasanluis.com/2024/11/27/1007491-quines-conmemora-los-261-anos-de-su-fundacion/ ; Argentina.gob.ar, «25 de mayo de 1810: Día de la Revolución de Mayo y primer gobierno patrio», https://www.argentina.gob.ar/noticias/25-de-mayo-de-1810-dia-de-la-revolucion-de-mayo-y-primer-gobierno-patrio",
+   "alinti": "lograron establecer la fecha de creación, el 1° de diciembre, que data de 1763 | El 25 de mayo de 1810 ... se obtiene en Buenos Aires la dimisión del Virrey Cisneros",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4184] f resmî ama 'fecha aproximada' (2010 tarihçi komisyonu) — hassasiyet yıl önerilebilir. t ÜLKE DÜZEYİ. TDV «Arjantin» bağımsızlık ilanını 9 Temmuz 1816 verir (ic_not); atlas Primera Junta'nın fiilî idaresini esas alır (rakip hükûmet kuralı; künye arjantin-cumhuriyeti f 1810-05-25). Yerel cabildo'nun Junta'ya katılış günü okunmadı. Künye inceliği: rio-de-la-plata-valiligi (1776→1810-05-25) var. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1227",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Argentina.gob.ar, «25 de mayo de 1810: Día de la Revolución de Mayo y primer gobierno patrio», https://www.argentina.gob.ar/noticias/25-de-mayo-de-1810-dia-de-la-revolucion-de-mayo-y-primer-gobierno-patrio",
+   "alinti": "El 25 de mayo de 1810 ... se obtiene en Buenos Aires la dimisión del Virrey Cisneros",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4185] ÜLKE DÜZEYİ. TDV «Arjantin» bağımsızlık ilanını 9 Temmuz 1816 verir (ic_not); atlas Primera Junta'nın fiilî idaresini esas alır (rakip hükûmet kuralı; künye arjantin-cumhuriyeti f 1810-05-25). Yerel cabildo'nun Junta'ya katılış günü okunmadı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Lonquimay": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1269",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1897-01-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ilustre Municipalidad de Lonquimay, «Historia de Lonquimay», https://www.mlonquimay.cl/web/historia-de-lonquimay/",
+   "alinti": "Fue fundada como fortaleza el 25 de enero de 1897, por el coronel Gregorio Urrutia",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4186] Resmî belediye sayfası (akademik değil). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Rivadavia (Salta)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1289",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1862-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4187] Bütçe: kaydın kaynağı (salta.gob.ar video sayfası) açılmadı."
+  }
+ ],
+ "Ushuaia": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1311",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1884-10-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Argentina.gob.ar, «Fundación de Ushuaia: sentando las bases de nuestra soberanía nacional», https://www.argentina.gob.ar/noticias/fundacion-de-ushuaia-sentando-las-bases-de-nuestra-soberania-nacional",
+   "alinti": "el 12 de octubre de 1884 se arrió la bandera británica y se izó la argentina",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4188] KARARLAR-EMRELIC (Tierra del Fuego 1884-10-12) ile uyumlu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Esquina": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1342",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1806-02-10",
+   "t": "1810-05-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gobierno de Corrientes, MunRed «Municipio de Esquina», https://munired.mcypcorrientes.gob.ar/municipios-de-corrientes/esquina ; Argentina.gob.ar, «25 de mayo de 1810: Día de la Revolución de Mayo y primer gobierno patrio», https://www.argentina.gob.ar/noticias/25-de-mayo-de-1810-dia-de-la-revolucion-de-mayo-y-primer-gobierno-patrio",
+   "alinti": "se fundó la ciudad Santa Rita de la Esquina del río Corriente, el 10 de febrero de 1806 | El 25 de mayo de 1810 ... se obtiene en Buenos Aires la dimisión del Virrey Cisneros",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4189] t ÜLKE DÜZEYİ. TDV «Arjantin» bağımsızlık ilanını 9 Temmuz 1816 verir (ic_not); atlas Primera Junta'nın fiilî idaresini esas alır (rakip hükûmet kuralı; künye arjantin-cumhuriyeti f 1810-05-25). Yerel cabildo'nun Junta'ya katılış günü okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1342",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Argentina.gob.ar, «25 de mayo de 1810: Día de la Revolución de Mayo y primer gobierno patrio», https://www.argentina.gob.ar/noticias/25-de-mayo-de-1810-dia-de-la-revolucion-de-mayo-y-primer-gobierno-patrio",
+   "alinti": "El 25 de mayo de 1810 ... se obtiene en Buenos Aires la dimisión del Virrey Cisneros",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4190] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "La Serena": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1393",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1549-08-26",
+   "t": "1818-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena, «La Serena colonial», https://www.memoriachilena.gob.cl/602/w3-article-709.html ; Memoria Chilena (Biblioteca Nacional de Chile), «Proclamación de la Independencia de Chile el 12 de febrero de 1818», https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "1549 ... 26 de agosto. Francisco de Aguirre refunda la ciudad de La Serena | O´Higgins decidió realizar dicho acto público el día 12 de febrero de 1818",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 4191] f: kronoloji tablosunda yıl başlıkta (yıl bağlamdan). t ÜLKE DÜZEYİ; patriot idaresi 1817 Chacabuco sonrası (ic_not, künye sili-cumhuriyeti f 1818-02-12). Künye inceliği: sili-kaptanligi var. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1393",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), «Proclamación de la Independencia de Chile el 12 de febrero de 1818», https://www.memoriachilena.gob.cl/602/w3-article-96486.html",
+   "alinti": "O´Higgins decidió realizar dicho acto público el día 12 de febrero de 1818",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4192] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ituango": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1433",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1844-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Alcaldía de Ituango, «Pasado, Presente y Futuro», https://www.ituango-antioquia.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx",
+   "alinti": "Fecha de Fundación 1844",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4193] YIL düzeyi; resmî belediye sayfası. Aynı sayfa kurucu olarak 16. yy fatihlerini (Andrés de Valdivia, Gaspar de Rodas) anıyor — kuruluşun 1844 mü yoksa sömürge dönemi mi olduğu tutarsız; kur ölçülmedi. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Orocué": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1466",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1895-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Alcaldía de Orocué, «Pasado, Presente y Futuro», https://www.orocue-casanare.gov.co/MiMunicipio/Paginas/Pasado-Presente-y-Futuro.aspx",
+   "alinti": "creación de una aduana nacional, primero en 1867, y luego ... desde 1895 hasta 1928",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4194] YIL düzeyi; resmî belediye sayfası. Devlet gümrüğü 1867'de de var (kesintili) — kur 1867'ye çekilebilir (koordinatör). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Guasipati": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1497",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1881-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela, «Yuruary, territorio federal», https://bibliofep.fundacionempresaspolar.org/dhv/entradas/y/yuruary-territorio-federal/",
+   "alinti": "Creado por resolución del Congreso Nacional, el 3 de septiembre de 1881 ... La capital fue Guasipati",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4195] Akademik başvuru eseri (DHV). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Valledupar": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1517",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1550-01-06",
+   "t": "1819-12-17",
+   "hukum": "ONERI",
+   "kaynak": "Memoria Chilena, «Nueva Granada», https://www.memoriachilena.gob.cl/602/w3-article-94510.html ; TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika",
+   "alinti": "crear el Virreynato de Nueva Granada en 1717 ... Suprimido en 1723, el virreynato fue restablecido en 1740",
+   "uc": "",
+   "oneri": {
+    "d": "bölünme",
+    "bolunme": "ispanyol-peru f→1717 (künye yeni-granada-valiligi f 1717-05-27) · yeni-granada-valiligi 1717→1723 · ispanyol-peru 1723→1740 · yeni-granada-valiligi 1740→1810-07-20 (künye t); 1810-1819 dilimi künye GENİŞLET sorusu (KARARLAR gece-50 #6) — günler kaynakla"
+   },
+   "not": "[sira 4196] SİSTEMİK: Yeni Granada (Santa Fe audiencia'sı) şehirleri 1717/1740 sonrası Peru Genel Valiliği değil, Yeni Granada Genel Valiliği'dir; künye yeni-granada-valiligi (1717-05-27 → 1810-07-20) var ama zincirde kullanılmamış (Simití, Arauca, Barbacoas, Riohacha, Honda, Montería aynı). 1723-1740 askıya alınış künyede yok (LAB). Ölçüt: idarî birim — kraliyet valiliği. f 1550-01-06 teyitsiz (alcaldía sayfası 404). t: TDV yıl «1819'da kurulmuş olan Büyük Kolombiya»; Valledupar'ın kralcı/patriot fiilî devri (1813 ilan, 1815 Morillo, 1820 geri alınış?) kaynakla okunmadı — rakip hükûmet kuralı gereği şehir günü aranmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1517",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika",
+   "alinti": "1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da da Ekvador ayrılınca",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4197] f ÜLKE DÜZEYİ, YIL düzeyi (Angostura Ley Fundamental 1819-12-17 günü okunmadı). t 1831-01-01 teyitsiz: TDV yalnız 1830 (Ekvador ayrılışı) sonrası 'Yeni Granada' der; Ley Fundamental del Estado de la Nueva Granada 17 Kasım 1831 (ilan 21 Kasım) adayı okunamadı — TARAYICI: funcionpublica.gov.co norma_pdf.php?i=13693 (SSL), cervantesvirtual (403). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1517",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4198] Bakılan: TDV «Amerika» (yalnız 1830 sonrası 'Yeni Granada', 1831 günü yok), funcionpublica.gov.co Ley 1 de 1831 (SSL hatası), cervantesvirtual (403). Aday: Ley Fundamental 1831-11-17 (künye düzeyi, LAB). TARAYICI: https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=13693"
+  }
+ ],
+ "Cartago (Valle del Cauca)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1560",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1691-04-21",
+   "t": "1819-12-17",
+   "hukum": "ONERI",
+   "kaynak": "Alcaldía de Cartago, «Historia», https://municipio.cartago.gov.co/historia/ ; Memoria Chilena, «Nueva Granada», https://www.memoriachilena.gob.cl/602/w3-article-94510.html",
+   "alinti": "La protocolización del traslado se llevo a cabo el 21 de abril de 1691 | crear el Virreynato de Nueva Granada en 1717 ... Suprimido en 1723, el virreynato fue restablecido en 1740",
+   "uc": "f",
+   "oneri": {
+    "d": "bölünme",
+    "bolunme": "ispanyol-peru f→1717 (künye yeni-granada-valiligi f 1717-05-27) · yeni-granada-valiligi 1717→1723 · ispanyol-peru 1723→1740 · yeni-granada-valiligi 1740→1810-07-20 (künye t); 1810-1819 dilimi künye GENİŞLET sorusu (KARARLAR gece-50 #6) — günler kaynakla"
+   },
+   "not": "[sira 4199] f teyitli (resmî belediye). SİSTEMİK: Yeni Granada (Santa Fe audiencia'sı) şehirleri 1717/1740 sonrası Peru Genel Valiliği değil, Yeni Granada Genel Valiliği'dir; künye yeni-granada-valiligi (1717-05-27 → 1810-07-20) var ama zincirde kullanılmamış (Simití, Arauca, Barbacoas, Riohacha, Honda, Montería aynı). 1723-1740 askıya alınış künyede yok (LAB). Ölçüt: idarî birim — kraliyet valiliği. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1560",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika",
+   "alinti": "1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da da Ekvador ayrılınca",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4200] ÜLKE DÜZEYİ, YIL. Cauca Boyacá (1819-08) sonrası patriot — künye f 1819-12-17 alt sınır. t 1831-01-01 teyitsiz: TDV yalnız 1830 (Ekvador ayrılışı) sonrası 'Yeni Granada' der; Ley Fundamental del Estado de la Nueva Granada 17 Kasım 1831 (ilan 21 Kasım) adayı okunamadı — TARAYICI: funcionpublica.gov.co norma_pdf.php?i=13693 (SSL), cervantesvirtual (403). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1560",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4201] Bakılan: TDV «Amerika» (yalnız 1830 sonrası 'Yeni Granada', 1831 günü yok), funcionpublica.gov.co Ley 1 de 1831 (SSL hatası), cervantesvirtual (403). Aday: Ley Fundamental 1831-11-17 (künye düzeyi, LAB). TARAYICI: https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=13693"
+  }
+ ],
+ "San Martín (Meta)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1590",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1641-04-10",
+   "t": "1819-12-17",
+   "hukum": "ONERI",
+   "kaynak": "Alcaldía de San Martín, «Pasado, presente y futuro», https://www.sanmartin-meta.gov.co/MiMunicipio/Paginas/Pasado,-Presente-y-Futuro.aspx ; Memoria Chilena, «Nueva Granada», https://www.memoriachilena.gob.cl/602/w3-article-94510.html",
+   "alinti": "fue reconstruida el 10 de abril de 1641 por el gobernador Juan de Zárate | crear el Virreynato de Nueva Granada en 1717 ... Suprimido en 1723, el virreynato fue restablecido en 1740",
+   "uc": "f",
+   "oneri": {
+    "d": "bölünme",
+    "bolunme": "ispanyol-peru f→1717 (künye yeni-granada-valiligi f 1717-05-27) · yeni-granada-valiligi 1717→1723 · ispanyol-peru 1723→1740 · yeni-granada-valiligi 1740→1810-07-20 (künye t); 1810-1819 dilimi künye GENİŞLET sorusu (KARARLAR gece-50 #6) — günler kaynakla"
+   },
+   "not": "[sira 4202] f teyitli (resmî belediye). Aynı sayfa: «Durante la época de la colonia el territorio de San Martín perteneció al virreinato de Sa[nta Fe]». SİSTEMİK: Yeni Granada (Santa Fe audiencia'sı) şehirleri 1717/1740 sonrası Peru Genel Valiliği değil, Yeni Granada Genel Valiliği'dir; künye yeni-granada-valiligi (1717-05-27 → 1810-07-20) var ama zincirde kullanılmamış (Simití, Arauca, Barbacoas, Riohacha, Honda, Montería aynı). 1723-1740 askıya alınış künyede yok (LAB). Ölçüt: idarî birim — kraliyet valiliği. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1590",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amerika», https://islamansiklopedisi.org.tr/amerika",
+   "alinti": "1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da da Ekvador ayrılınca",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4203] ÜLKE DÜZEYİ, YIL. Llanos 1819 öncesi patriot elinde (Casanare) — künye f alt sınır. t 1831-01-01 teyitsiz: TDV yalnız 1830 (Ekvador ayrılışı) sonrası 'Yeni Granada' der; Ley Fundamental del Estado de la Nueva Granada 17 Kasım 1831 (ilan 21 Kasım) adayı okunamadı — TARAYICI: funcionpublica.gov.co norma_pdf.php?i=13693 (SSL), cervantesvirtual (403). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1590",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 4204] Bakılan: TDV «Amerika» (yalnız 1830 sonrası 'Yeni Granada', 1831 günü yok), funcionpublica.gov.co Ley 1 de 1831 (SSL hatası), cervantesvirtual (403). Aday: Ley Fundamental 1831-11-17 (künye düzeyi, LAB). TARAYICI: https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=13693"
+  }
+ ],
+ "San Cristóbal (Táchira)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1620",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1561-03-31",
+   "t": "1821-06-24",
+   "hukum": "ONERI",
+   "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela, «San Cristóbal», https://bibliofep.fundacionempresaspolar.org/dhv/entradas/s/san-cristobal/ ; Memoria Chilena, «Nueva Granada», https://www.memoriachilena.gob.cl/602/w3-article-94510.html",
+   "alinti": "Fundada el 31 de marzo de 1561 ... por disposición expresa del Cabildo de la ciudad de Pamplona | en 1820, se aprestan allí las tropas que se dirigen al campo de Carabobo",
+   "uc": "f",
+   "oneri": {
+    "t": "≤1820 — patriot (Gran Kolombiya) idaresinin başladığı gün kaynakla; künye gran-kolombiya f 1819-12-17 alt sınır",
+    "bolunme": "ispanyol-peru →1717 · yeni-granada-valiligi 1717/1740 → 1777 · venezuela-genel-kaptanligi 1777-09-08 → 1810 (Maracaibo/Mérida'ya bağlılık; künye günleri, kaynakla teyit edilmeli) · 1810 sonu Mérida Cuntası'na katılış (DHV) — 1810-1820 rakip hükûmet dilimi künye sorusu"
+   },
+   "not": "[sira 4205] f teyitli. t 1821-06-24 (Carabobo) şehir için geç: DHV 1820'de Bolívar birliklerinin San Cristóbal'da toplandığını yazar (yıl düzeyi; gün yok). DHV ayrıca «A fines de 1810, La Grita, San Cristóbal y San Antonio se unen ... a la Junta de Gobierno de Mérida». SİSTEMİK: Yeni Granada (Santa Fe audiencia'sı) şehirleri 1717/1740 sonrası Peru Genel Valiliği değil, Yeni Granada Genel Valiliği'dir; künye yeni-granada-valiligi (1717-05-27 → 1810-07-20) var ama zincirde kullanılmamış (Simití, Arauca, Barbacoas, Riohacha, Honda, Montería aynı). 1723-1740 askıya alınış künyede yok (LAB). Ölçüt: idarî birim — kraliyet valiliği. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1620",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "ONERI",
+   "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela, «San Cristóbal», https://bibliofep.fundacionempresaspolar.org/dhv/entradas/s/san-cristobal/ ; Fundación Empresas Polar, Diccionario de Historia de Venezuela, «Páez, José Antonio», https://bibliofep.fundacionempresaspolar.org/dhv/entradas/p/paez-jose-antonio/",
+   "alinti": "en 1820, se aprestan allí las tropas que se dirigen al campo de Carabobo | El 13 de enero de 1830 establece un gobierno provisional",
+   "uc": "t",
+   "oneri": {
+    "f": "≤1820 (gün kaynakla; künye f 1819-12-17 alt sınır)"
+   },
+   "not": "[sira 4206] t KAYNAKLI düzeyinde (DHV Páez: 13 Ocak 1830 geçici hükûmet; fiilî ayrılış Kasım 1829 San Francisco meclisi — ic_not; TDV «Amerika» 1829). f geç (yukarı bkz). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1620",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Fundación Empresas Polar, Diccionario de Historia de Venezuela, «Páez, José Antonio», https://bibliofep.fundacionempresaspolar.org/dhv/entradas/p/paez-jose-antonio/",
+   "alinti": "El 13 de enero de 1830 establece un gobierno provisional",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 4207] ÜLKE DÜZEYİ. Fiilî ayrılış Kasım 1829 (DHV, aynı paragraf) ve TDV «Amerika» 1829 ic_not. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}
