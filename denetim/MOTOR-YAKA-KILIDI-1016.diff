@@ -1,0 +1,161 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index e0d9d3a..d16b923 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -1640,6 +1640,98 @@ def _nehir_kenar_kur(parcalar, siniflar, gecitler, tablo):
+     return bedel, bayrak, olcum
+ 
+ 
++# ═══ 🔒 TOHUM YAKA KİLİDİ — MOTOR3-1016 (#7 Zimnicea/Ziştovi · Emre geliştirici notu) ═══
++# İKİ KUSUR, TEK BAYRAK: `MOTOR_YAKA_KILIDI=1`. Bayrak yoksa aşağıdaki
++# blokların HİÇBİRİ çalışmaz ⇒ çıktı bit bit aynı (sınav: ARAC-MOTOR3-BIRIM-1016.py).
++#  (A) ALT-HÜCRE YAKASI — nehir bedeli KENARA yazılır ve kenar hücre MERKEZİNDEN
++#      merkeze ölçülür. Tohum nehre bir hücreden yakınsa hücre merkezi KARŞI yakaya
++#      düşebilir: tohumun ilk adımı nehri bedelsiz geçer, kendi yakasına adım ise
++#      yanlışlıkla bedel öder. Kilit: TOHUM HÜCRESİNDEN ÇIKAN kenarlarda geçiş,
++#      merkezden değil TOHUMUN GERÇEK KOORDİNATINDAN ölçülür (aynı hatlar, aynı
++#      sınıf, aynı geçit indirimi). Yalnız geçiş VAR/YOK hükmü değişen kenar
++#      yeniden yazılır — iki ölçü de "geçiyor" diyorsa eski bedel KALIR.
++#  (B) ÇOK NOKTALI YÜZ BÖLMESİ — yaslama (nehir 0,30°) iki komşu tohumun ortak
++#      kenarını bozup ikisini TEK yüze koyduğunda yüz mini-Voronoi ile, yani DÜZ
++#      AÇIORTAYLA bölünüyordu; açıortay nehri tanımaz. ÖLÇÜLDÜ (KOŞU 25
++#      `petek_govde.js`): Zimnicea'nın Tuna güneyindeki 599 km²'lik payı
++#      Zimnicea–Ziştovi açıortayıyla sınırlı bir üçgen (25,80°D'de açıortay
++#      43,447°K, ölçülen 43,45°K). Hücre düzeyinde Zimnicea'nın tohum hücresi
++#      ZATEN kuzey yakada (güneye 3 adım da Tuna'yı kesiyor) ⇒ #7'yi (A) değil
++#      (B) üretiyor. Kilit açıkken bölme HAM petek (nehir bedelli yürüyüş
++#      ızgarası) sınırlarıyla yapılır; tohumsuz alt yüz yetim kuralına (ham
++#      hücre örtüşmesi) düşer.
++YAKA_KILIDI = os.environ.get("MOTOR_YAKA_KILIDI") == "1"
++_YAKA_SAYAC = {"tohum_hucre": 0, "aday_kenar": 0, "kilit_eklenen": 0,
++               "kilit_kaldirilan": 0, "bolunen_yuz": 0, "bolme_hat": 0}
++
++
++def _yaka_kilidi_kenar(tohum, yerler, parcalar, siniflar, gecitler, tablo, bedel):
++    """(A) Tohum hücresinden çıkan adımların nehir geçişini TOHUMUN GERÇEK
++    KOORDİNATINDAN yeniden ölçer. Döner {anahtar: km-eşdeğeri} — yalnız geçiş
++    hükmü (var/yok) merkez ölçüsünden FARKLI olan kenarlar; 0.0 = bedel kalkar.
++    `bedel`i DEĞİŞTİRMEZ. Kaydırılmış tohum (deniz hücresinden en yakın karaya)
++    kilide girmez: gerçek koordinatı hücresinin içinde değildir."""
++    import numpy as _npy
++    _hatlar, _hs = [], []
++    for g, s in zip(parcalar, siniflar):
++        for ln in shapely.get_parts(g):
++            if ln.geom_type in ("LineString", "LinearRing") and not ln.is_empty:
++                _hatlar.append(ln); _hs.append(s)
++    _anah, _segP, _segC = [], [], []
++    for h in sorted(tohum):
++        y = yerler[tohum[h][0]]
++        j, i = divmod(h, _kvnx)
++        if (int((y["lon"] - _kvx0) / KV_ADIM) != i
++                or int((y["lat"] - _kvy0) / KV_ADIM) != j):
++            continue
++        _YAKA_SAYAC["tohum_hucre"] += 1
++        cx = _kvx0 + (i + 0.5) * KV_ADIM
++        cy = _kvy0 + (j + 0.5) * KV_ADIM
++        for yi, (di, dj) in enumerate(_KV_YON):
++            a, b = i + di, j + dj
++            if not (0 <= a < _kvnx and 0 <= b < _kvny) or not _kvkara[b * _kvnx + a]:
++                continue
++            if YURUYUS_16 and not _kv_ara_kara(i, j, di, dj):
++                continue
++            _anah.append(h * _KV_YS + yi)
++            _segP.append(((y["lon"], y["lat"]), (cx + di * KV_ADIM, cy + dj * KV_ADIM)))
++            _segC.append(((cx, cy), (cx + di * KV_ADIM, cy + dj * KV_ADIM)))
++    _YAKA_SAYAC["aday_kenar"] = len(_anah)
++    out = {}
++    if not _anah or not _hatlar:
++        return out
++    _ag = STRtree(_hatlar)
++    _kesP, _kesC = {}, set()
++    _si, _hi = _ag.query(shapely.linestrings(_npy.array(_segP, dtype=float)),
++                         predicate="intersects")
++    for s_, h_ in zip(_si.tolist(), _hi.tolist()):
++        _kesP[s_] = min(_hs[h_], _kesP.get(s_, 9))
++    _si, _ = _ag.query(shapely.linestrings(_npy.array(_segC, dtype=float)),
++                       predicate="intersects")
++    _kesC = set(_si.tolist())
++    _gag = (STRtree(shapely.points([g[0] for g in gecitler], [g[1] for g in gecitler]))
++            if gecitler else None)
++    for s_, k in enumerate(_anah):
++        p_kes, c_kes = s_ in _kesP, s_ in _kesC
++        if p_kes == c_kes:
++            continue                    # yaka hükmü aynı ⇒ eski bedel KALIR
++        if not p_kes:
++            out[k] = 0.0                # tohum bu kenarın yakasında: geçiş YOK
++            continue
++        saat = tablo["gecitsiz"][_kesP[s_]]
++        if _gag is not None:
++            (x0, y0), (x1, y1) = _segP[s_]
++            mx, my = (x0 + x1) / 2.0, (y0 + y1) / 2.0
++            for g_ in _gag.query(shapely.points(mx, my), predicate="dwithin",
++                                 distance=0.5).tolist():
++                glo, gla, tur, etki, _ = gecitler[g_]
++                tb = tablo.get(tur)
++                if tb is not None and tb < saat and girdi.km(my, mx, gla, glo) <= etki:
++                    saat = tb
++        out[k] = saat * NEHIR_KM_SAAT if saat > 0.0 else 0.0
++    return out
++
++
+ _KVNEHIR = None
+ if not NEHIR_KAPALI:
+     asama("Kara-kısıtlı sahiplik: nehir geçiş bedeli (kenar)")
+@@ -1658,6 +1750,24 @@ else:
+           f"{os.environ.get('MOTOR_NEHIR_KAPALI')} · sınıf listesi "
+           f"{'YOK' if NEHIR_SINIFI is None else 'var'}) — nehir bedeli 0")
+ 
++if YAKA_KILIDI and _KVNEHIR is not None:
++    asama("Kara-kısıtlı sahiplik: tohum yaka kilidi (MOTOR_YAKA_KILIDI)")
++    _yk_t = time.time()
++    _yk_d = _yaka_kilidi_kenar(_kvtohum, YERLER, NEHIRLER, NEHIR_SINIFI,
++                               GECIT_KAYIT, _nb_tablo, _nb_bedel)
++    for _yk_k in sorted(_yk_d):
++        if _yk_d[_yk_k] > 0.0:
++            _nb_bedel[_yk_k] = _yk_d[_yk_k]
++            _nb_bayrak[_yk_k // _KV_YS] = 1
++            _YAKA_SAYAC["kilit_eklenen"] += 1
++        elif _nb_bedel.pop(_yk_k, None) is not None:
++            _YAKA_SAYAC["kilit_kaldirilan"] += 1
++    print(f"  🔒 yaka kilidi (A): {_YAKA_SAYAC['tohum_hucre']:,} tohum hücresi · "
++          f"{_YAKA_SAYAC['aday_kenar']:,} çıkış kenarı · yaka hükmü değişen "
++          f"{len(_yk_d):,} (bedel EKLENEN {_YAKA_SAYAC['kilit_eklenen']:,} · "
++          f"KALKAN {_YAKA_SAYAC['kilit_kaldirilan']:,}) · {time.time() - _yk_t:.1f} sn")
++    del _yk_d
++
+ # Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
+ # km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
+ # Baltık/Norveç vakaları yanlış tarafa düşer.
+@@ -3600,15 +3710,32 @@ _yuzler = _yuzler_kur(_puruzsuz)
+ # Çok noktalı yüzler (yaslama bir kenarı noktaların üzerinden geçirmiş): yüzün
+ # içine mini-Voronoi bölme çizgileri eklenir ve HER ŞEY birlikte yeniden
+ # polygonize edilir — böylece bölme kenarları da ortak düğümlemeden geçer.
++def _yaka_bolme_hatlari(f, ic, ham):
++    """(B) çok noktalı yüzü HAM peteklerin (yürüyüş ızgarası) sınırlarıyla böl."""
++    return _cizgiler(unary_union([ham[i].boundary for i in ic
++                                  if ham[i] is not None and not ham[i].is_empty]
++                                 ).intersection(f))
++
++
+ _ek_hat = []
+ for f in _yuzler:
+     ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
+     if len(ic) > 1:
++        if YAKA_KILIDI:
++            _yb = _yaka_bolme_hatlari(f, ic, PETEK)
++            if _yb:
++                _ek_hat += _yb
++                _YAKA_SAYAC["bolunen_yuz"] += 1
++                _YAKA_SAYAC["bolme_hat"] += len(_yb)
++                continue
+         alt = voronoi_diagram(MultiPoint([noktalar[i] for i in ic]), envelope=f)
+         _ek_hat += _cizgiler(unary_union([c.boundary for c in alt.geoms]).intersection(f))
+ if _ek_hat:
+     _yuzler = _yuzler_kur(_puruzsuz + _ek_hat)
+ print(f"  {len(_yuzler)} yüz ({len(_ek_hat)} mini-Voronoi bölme çizgisi)")
++if YAKA_KILIDI:
++    print(f"  🔒 yaka kilidi (B): {_YAKA_SAYAC['bolunen_yuz']} çok noktalı yüz HAM petek "
++          f"sınırıyla bölündü ({_YAKA_SAYAC['bolme_hat']} hat) — açıortay YOK")
+ 
+ _kume = [[] for _ in YERLER]                     # hücre başına yüz listesi
+ _yetim = []
