@@ -275,5 +275,17 @@
   "1778-12-17 (Vincennes)",
   "1779-02-25 (Vincennes)",
   "1796-09-01 (Jay teslimleri)"
- ]
+ ],
+ "kimlik_dogrulama": {
+  "not": "EMRELİC ACİL sorusu (5 Kasım 2026) — UMIT ölçümü origin/main = worktree: iki kimlik DOĞRU; öneri dosyası, atlasta uygulanan veri yok.",
+  "Occaneechi (Hillsborough)": "data/yerlesimler_kamerika.js:1267, lat 36.075 lon -79.100 → Hillsborough NC (Carriacou değil)",
+  "Fort Duquesne (Pittsburgh)": "data/yerlesimler_kamerika.js:1123, lat 40.441 lon -80.010 → Pittsburgh PA",
+  "Pemaquid": "43.876 -69.513",
+  "Falmouth (Portland, Maine)": "43.659 -70.257",
+  "Portsmouth (New Hampshire)": "43.071 -70.763",
+  "Providence": "41.824 -71.413",
+  "Hartford": "41.764 -72.674",
+  "Norfolk (Virginia)": "36.851 -76.286",
+  "Wilmington (Kuzey Karolayna)": "34.226 -77.945"
+ }
 }

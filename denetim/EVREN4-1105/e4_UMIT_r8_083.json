@@ -1,0 +1,78 @@
+{
+ "Reducción de la Concepción (Salado)": [
+  {"sira": 3723, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1740-01-01", "t": "1810-05-25", "uc": "f", "hukum": "ONERI",
+   "kaynak": "HSAI c.1 (atlasın kendi kaydındaki alıntı: 'established in 1740'); Cizvit reduksiyonu literatürü (Dialnet/Redalyc makaleleri) arama özetinde: Strobel ve Querini 1740-05, terk 1753-02",
+   "alinti": "", "oneri": {"f": "1740-01-01 (yalnız yıl/ay; 1740-05 arama özeti)", "t": "1753-02-01 [yalnız ay; arama özeti]", "d": "ispanya"},
+   "not": "ÖLÇÜT: idareye katma değil, varoluş. f YIL düzeyinde HSAI ile uyumlu ama ham metin okunamadı (redalyc/dialnet PDF'lerinde anahtar kelime bulunamadı; arama özeti dayanak olamaz) => KAYNAKLI değil. BULGU: arama özetleri reduksiyonun 1753'te terk edildiğini söylüyor; öyleyse yerleşim 1753'ten sonra YOK. Merdiven ④: var mıydı? Hayır => dönem 1753'te kırpılmalı, toprak komşu peteklere kalır. Ham metinle teyit edilmeli (Pedrotta; Castelli partidosu). Ayrıca 1776-1810 için künye 'rio-de-la-plata-valiligi' (tur gecici-isgal) var; s: ispanya mı valilik mi kararı LAB'a. Aranan: redalyc 83375485011, dialnet 5576238 (anahtar bulunamadı)."},
+  {"sira": 3724, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1810-05-25", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Yerleşimin 1753'te terk edildiği arama özetinde; ham kaynak yok",
+   "alinti": "", "oneri": {"f": "dilim kaldırılmalı (yerleşim 1753'te yok) ya da ABİ MERKEZ Buenos Aires zinciriyle BEYANLI YAKLAŞIKLIK", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "Yerleşim 1753'ten sonra mevcut değilse 1810-2000 Arjantin dilimi hayalet yerleşime sahiplik yazar. Karar: 1753'te kırp (merdiven ④) VEYA bölgeyi beyanlı yaklaşıklıkla tut. 1810-05-25 künye f'si (arjantin-cumhuriyeti f 1810-05-25) ile uyumlu; ham tarihleme bakılmadı."}
+ ],
+ "Beyan G37.5 B68.5": [
+  {"sira": 3725, "dosya_satir": "", "alan": "s", "d": "mapuche-araukanya", "f": "1725-01-01", "t": "1883-01-01", "uc": "t", "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Conquest of the Desert' (Gale, Encyclopedia of Latin American History and Culture) — ONERI-güçlü sınıf; https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/conquest-desert",
+   "alinti": "In 1879 troops under the command of General Roca ... occupied Choele-Choel. Other divisions took and held La Pampa",
+   "oneri": {"f": "", "t": "1879-01-01 [yalnız yıl; kampanya 1879]", "d": "mapuche-araukanya"},
+   "not": "Nokta (-37.5,-68.5) Arjantin tarafında (La Pampa güneybatısı). 1883-01-01 Şili'nin Villarrica yeniden kuruluşudur (Memoria Chilena, 'Urrutia procedió a refundar Villarrica el 1 de enero de 1883'), Arjantin Pampa'sı için olay değildir. Arjantin fiilî idaresi: Roca 1879 seferi (Gale, yıl). Günler (Choele Choel 1879-05-25) yalnız arama özetinde. KURAL: künye mapuche-araukanya t 1883 > dilim t 1879 sorun değil (kısaltma); arjantin f 1879 künyesi (1810) kapsar. f 1725: Cooper HSAI 'approximate date' atlas kaydında; ham HSAI okunmadı => f BAKILMADI. 'ranquel' künyesi (t 1883) bu hücreye daha uygun olabilir (atlas notu). öteki uç teyitsiz."},
+  {"sira": 3726, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1883-01-01", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Conquest of the Desert' (Gale) — ONERI-güçlü",
+   "alinti": "Other divisions took and held La Pampa and the confluence of the Lima and Neuquén rivers.",
+   "oneri": {"f": "1879-01-01 [yalnız yıl]", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "ÖLÇÜT: idareye katma (Roca seferi toprağı ulusal hükûmet denetimine soktu, Gale). Önceki dilimin t'siyle birlikte taşınır. 1883 bu nokta için kaynaksız."}
+ ],
+ "Beyan G38.5 B62.5": [
+  {"sira": 3727, "dosya_satir": "", "alan": "s", "d": "mapuche-araukanya", "f": "1725-01-01", "t": "1883-01-01", "uc": "t", "hukum": "BULUNAMADI",
+   "kaynak": "bakılan: Encyclopedia.com Gale 'Conquest of the Desert', Memoria Chilena Villarrica maddesi",
+   "alinti": "", "oneri": {"f": "", "t": "", "d": ""},
+   "not": "Nokta (-38.5,-62.5) Bahía Blanca'nın hemen kuzeyi/çevresi (Buenos Aires eyaleti güneyi). Mapuche egemenliğinin bu noktada 1883'e dek sürdüğüne dair kaynak yok; 1876-77 Alsina siperi ve 1879 sefer sınır hattını Río Negro'ya taşıdı (Gale: yıl 1879). Şüphe: bu hücre 1879'dan önce Arjantin sınır bölgesi olabilir. Aranan yer: Gale, Memoria Chilena; nokta-özgü kaynak (Bahía Blanca, Zanja de Alsina) BAKILMADI. Öneri: 1883 yerine 1879 ('yalnız yıl', ÜLKE/BÖLGE DÜZEYİ) beyanlı ya da ranquel/pampa kabilesi bos:kabile."},
+  {"sira": 3728, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1883-01-01", "t": "2000-12-31", "uc": "f", "hukum": "BULUNAMADI",
+   "kaynak": "bakılan: Gale 'Conquest of the Desert'",
+   "alinti": "", "oneri": {"f": "1879-01-01 [yalnız yıl; BÖLGE DÜZEYİ]", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "Nokta-özgü tarihleme yok; bölge düzeyi 1879 (Gale). ÖLÇÜT: idareye katma."}
+ ],
+ "Beyan G40.5 B68.5": [
+  {"sira": 3729, "dosya_satir": "", "alan": "s", "d": "mapuche-araukanya", "f": "1725-01-01", "t": "1883-01-01", "uc": "t", "hukum": "ONERI",
+   "kaynak": "Gale 'Conquest of the Desert' (ONERI-güçlü); Pérez Clavero, 'De amigos a reducidos', Revista TEFROS 19/1 (2021) — Sayhueque Jan 1885 teslimi (arama özeti; ham okunamadı)",
+   "alinti": "In 1879 troops under the command of General Roca ... occupied Choele-Choel.",
+   "oneri": {"f": "", "t": "1885-01-01 [yalnız yıl/ay; Sayhueque 1885-01, özet]", "d": "mapuche-araukanya"},
+   "not": "Nokta Río Negro eyaleti, Río Negro nehrinin güneyi: 1879'da Roca nehre ulaştı (kuzey bankı), güney Patagonya/Manzanera toprağı 1881-85 Villegas 'And seferleri' ile alındı; son direnen Sayhueque 1885 başında Junín de los Andes'te teslim (TEFROS özeti). Dolayısıyla 1883 bu hücre için erken olabilir. Ham metin okunamadı (dialnet/TEFROS PDF'leri anahtar bulamadı/zaman aşımı) => ONERI, KAYNAKLI değil. f 1725 BAKILMADI."},
+  {"sira": 3730, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1883-01-01", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Pérez Clavero 2021 TEFROS (özet); Gale",
+   "alinti": "", "oneri": {"f": "1885-01-01 [yalnız yıl/ay; arama özeti]", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "Önceki dilimin t'siyle birlikte taşınır. De jure: Şili 1881-07-23 antlaşmasıyla Atlantik Patagonya'dan feragat etti (Memoria Chilena tarihi 28 Temmuz 1881 verir; öteki kaynaklar 23 Temmuz => çelişki not). ÖLÇÜT: idareye katma. Çift değerlendirme: 1881 de jure vs 1885 fiilî; Beyan hücresi için fiilî yönetim = TEK ÖLÇÜ ('yönetmiyorsa teslim')."}
+ ],
+ "Castro (Chiloé)": [
+  {"sira": 3731, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1567-02-01", "t": "1826-01-14", "uc": "f", "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (BN Chile), 'En el borde del mundo conocido' (Chiloé minisitesi, cronoloji), https://www.memoriachilena.gob.cl/602/w3-article-3328.html; ayrıca 'Chiloé colonial (1553-1826)' w3-article-3335",
+   "alinti": "Febrero. El capitán Martín Ruiz de Gamboa funda ... la ciudad de Santiago de Castro",
+   "oneri": {"f": "", "t": "1826-01-19 (bkz. aşağı satır; t ucu ayrı)", "d": ""},
+   "not": "f ucu KAYNAKLI [yalnız ay: 1567-02-01 ay hassasiyetidir; 12 Şubat günü yalnız arama özeti/Hispanopedia, alınmadı]. ÖLÇÜT: varoluş/kuruluş. t ucu bu satırda KAYNAKLI DEĞİL: Memoria Chilena yalnız yıl veriyor ('En 1826 ... Tratado de Tantauco ... anexión definitiva'); Tantauco metni (es.wikisource, antlaşma metni, birincil neşir): 'Puente de San Antonio a 13 de enero de 1826' imza, 'Tantauco, enero 19 de 1826' onay. Atlas 1826-01-14 hiçbir kaynakta yok (14 Ocak Bellavista muharebesi). Öneri t = 1826-01-19 (onay/devir; teslim günü kaynaksız), imza 01-13 ve 01-18/19 farkı ic_not (search özeti: tarih 15-19 arası çelişkili). Şili f 1818-02-12 künyesi Chiloé'yi kapsar; hayalet yok. f_geri YOK."},
+  {"sira": 3732, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1826-01-14", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Tratado de Tantauco metni, https://es.wikisource.org/wiki/Tratado_de_Tantauco (birincil neşir); Memoria Chilena 'Chiloé colonial' w3-article-3335",
+   "alinti": "Apruebo este tratado en los trece artículos que contiene.- Tantauco, enero 19 de 1826.",
+   "oneri": {"f": "1826-01-19", "t": "", "d": "sili-cumhuriyeti"},
+   "not": "ÖLÇÜT: idareye katma; TEK ÖLÇÜ: Şili toprağı henüz yönetmiyordu => teslim/onay günü. İmza günü metinde 13 Ocak; onay 19 Ocak; Memoria Chilena yalnız yıl ('1826 ... anexión definitiva'). Dönem ucu ispanya t ile birlikte 1826-01-19'a taşınmalı; kronoloji maddesi aynı commit'te (Değişmez 2). Wikisource transkripsiyon, hakemli değil: birincil metin, yine de ONERI; Chile BN tam metni ya da Barros Arana, Las campañas de Chiloé (1856) ile teyit edilmeli."}
+ ],
+ "Beyan G44.5 B65.5": [
+  {"sira": 3733, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1883-01-01", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Memoria Chilena, 'Tratado de límites con Argentina' w3-article-92197 / 'conflicto limítrofe' 93860; Gale 'Conquest of the Desert'",
+   "alinti": "el 28 de julio de 1881, Chile se vio obligado a llegar a un acuerdo con Argentina y firmar un tratado de limites",
+   "oneri": {"f": "1881-07-23 (de jure, Şili feragati; imza) ya da fiilî teslim günü", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "Nokta Chubut kıyı gerisi, Argentine Patagonya. ÖLÇÜT: idareye katma. Memoria Chilena 1881-07-28 yazar, yaygın tarih 1881-07-23 (Irigoyen-Echeverría) => iki kaynak çelişkisi, karar verilmedi. 1883-01-01 hiçbir kaynakla bağlanamadı (Roca-Villegas 1879-83 HSAI atlas notunda). Bu hücrede Tehuelche (devletsiz bos:kabile) kaldığı için fiilî yönetim tarihi: Gale ve Memoria Chilena nokta-özgü değil; BÖLGE DÜZEYİ. Chubut'ta Galler kolonisi 1865 (kaynak bakılmadı). Öteki uç (t) 2000-12-31 pencere ucu."}
+ ],
+ "Beyan G46.5 B71.5": [
+  {"sira": 3734, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1883-01-01", "t": "2000-12-31", "uc": "f", "hukum": "ONERI",
+   "kaynak": "Memoria Chilena, 'Tratado de límites con Argentina' w3-article-92197",
+   "alinti": "la línea que divide las aguas de las dos cuencas de la Cordillera de los Andes o divortium aquarium hasta el paralelo 52º",
+   "oneri": {"f": "1881-07-23 (de jure) ya da fiilî yönetim günü", "t": "", "d": "arjantin-cumhuriyeti"},
+   "not": "Nokta (-46.576,-71.493) Los Antiguos/Lago Buenos Aires doğusu, And suayrımının Arjantin yakası: 1881 antlaşması bu hattı belirler (alıntı). Boylam eşiği (-72) atlas notunda 'ölçülmedi': Chile Chico (-71.73) göl kıyısı Şili'de, bu nokta ise 20+ km doğuda => Arjantin tarafı doğru görünüyor, ölçülmedi. Ancak 1881 hattı bu bölgede 1902 hakem kararına dek tartışmalı (Memoria Chilena 93860); 1883 tarihi kaynaksız."}
+ ],
+ "Beyan G49.5 B72.5": [
+  {"sira": 3735, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1883-01-01", "t": "1923-10-29", "uc": "f+t", "hukum": "ONERI",
+   "kaynak": "Memoria Chilena, 'Tratado de límites con Argentina' w3-article-92197; 'conflicto limítrofe' w3-article-93860 (1881 antlaşması divortium aquarum / 1896 protokol / 1902 hakem)",
+   "alinti": "la línea que divide las aguas de las dos cuencas de la Cordillera de los Andes o divortium aquarium hasta el paralelo 52º",
+   "oneri": {"f": "belirsiz: nokta Arjantin/Şili sınırının neresinde olduğu ölçülmeli", "t": "BULUNAMADI (1923-10-29 kaynaksız)", "d": "sili-cumhuriyeti ya da arjantin-cumhuriyeti"},
+   "not": "ŞÜPHE: (-49.5,-72.5) Viedma gölü çevresi (Lago Viedma ~72.6 B) olabilir; And buzul sahası sınırı ~73.0-73.1 B'dedir => nokta ARJANTİN yakasında olabilir ve Şili dilimi hatalı (atlas notu 'boylam eşiği yaklaşık, ölçülmedi'). Ölçülmedi: gerçek sınır poligonuyla koordinat testi bu ajanda yok; EMRELİC/KASA ölçsün. 1923-10-29 tarihi için hiçbir kaynak bulunamadı (bakılan: Memoria Chilena 92197/93860); 1881 ve 1902 hakem kararı ile ilgisi yok. Sınır işlemleri: 1881-07 antlaşma, 1896 protokol, 1902 hakem (bilgi atlas kaydının Britannica notu). f 1883 kaynaksız. BEYAN kabile 1281-1883 için LAB."}
+ ]
+}
