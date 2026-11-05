@@ -1,0 +1,98 @@
+{
+ "Muila (Mouila)": [
+  {
+   "sira": 2769, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1899-01-01", "t": "1960-08-17",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "US Dept of State, Office of the Historian, 'Gabon' (Guide to U.S. Recognition... since 1776), https://history.state.gov/countries/gabon (sayfa.py ile ham okundu)",
+   "alinti": "On that date, Gabon's independence from French Equatorial Africa was proclaimed.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (t ucu): Gabon'un bağımsızlık ilanı 1960-08-17 (alıntıdaki 'that date' = August 17, 1960). TDV ÇELİŞKİSİ: TDV 'gabon' maddesi '17 Ağustos 1961' yazıyor (sayfa.py ile ham okundu; 1961 yazım/tarih hatası görünümünde, ama kural gereği TDV esas olduğundan KARAR EMRE'NİN; ic_not'ta iki kaynak beyan edilmeli). Öteki uç (f=1899-01-01) teyitsiz: BULUNAMADI. Mouila'da f için baktığım yerler: UNESCO GHA VII yerel kopya (Grep: Mouila YOK), Hertslet 'Map of Africa by Treaty' 01/02 (Mouila YOK), Gardiner Historical Dictionary of Gabon (archive.org tam metin 401 verdi, OCR kopyada Mouila YOK), EHESS/OpenEdition Coquery-Vidrovitch 'Le Congo au temps des grandes compagnies concessionnaires' ch.XIV (Mouila'da Haute-N'Gounié şirketinin bir factorerie'si anılıyor, yıl/poste kuruluşu yok), fr.wikipedia Mouila (kuruluş yok). Poste kuruluş günü kaynakta bulunamadı; f=1899-01-01 (6g: varoluş günü) kaynaksız, 'Fransa 1899' yıl seçimi dayanaksız. Cairn/Persée sayfaları robots yasağı (zorlanmadı)."
+  }
+ ],
+ "Cibanga": [
+  {
+   "sira": 2770, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1899-01-01", "t": "1960-08-17",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "US Dept of State, Office of the Historian, 'Gabon', https://history.state.gov/countries/gabon (ham okundu); çelişen kaynak: TDV 'gabon'",
+   "alinti": "On that date, Gabon's independence from French Equatorial Africa was proclaimed.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (t ucu), Mouila ile aynı gerekçe: bağımsızlık ilanı 1960-08-17; TDV 'gabon' 17 Ağustos 1961 diyor, çelişki Emre'nin kararına (ic_not'ta iki kaynak). f ucu teyitsiz. Tchibanga/Cibanga için baktıklarım: UNESCO GHA VII (Grep YOK), Hertslet (YOK), fr.wikipedia Tchibanga (kuruluş yok), WebSearch: tek ipucu turizm sitesi (amazinggabon.com) 'sömürge postasının açılışı 1904' — YALNIZ İPUCU, kaynak sayılmaz. Bu ipucu doğruysa atlas f=1899-01-01 beş yıl erken olur; teyit edilene kadar ONERI yazılmadı. Postenin kuruluşu Punu bölgesi/Nyanga için akademik kaynak (Koumba-Manfoumbi 'Les Punu du Gabon, des origines à 1899'; Cairn 'Territoriality and Colonial Enclosure in Southern Gabon') robots nedeniyle okunamadı."
+  }
+ ],
+ "Kindu": [
+  {
+   "sira": 2772, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1893-01-01", "t": "1908-11-15",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kindu'ya özgü kaynak bulunamadı. Baktığım yerler: Hinde, The Fall of the Congo Arabs (1897; archive.org fallcongoarabs01hindgoog ve fallofcongoarabs00hind; Kindu YOK), Hertslet cilt 1-2 (YOK), UNESCO GHA VII (YOK), Antiquity 2020 Maniema makalesi (Kindu yalnız teşekkürde), kaowarsom BCB Chaltin PDF'i taranmış görüntü (okunamadı), RMCA Maniema monografisi PDF'i metin çıkmadı, fr/en Wikipedia (kuruluş yılı yok). Çıkarım (hüküm DEĞİL): Hinde'ye göre Ponthier/Lothaire/Chaltin 1893 yazı-sonbaharında Lualaba'yı Stanley Falls'tan Nyangwe'ye kadar Araplardan temizledi (Kindu bu hat üzerinde), yani 1893 yıl düzeyi makul, ama Kindu adı kaynakta geçmediği için KAYNAKLI sayılmadı. Vikipedi (ipucu): Kindu 1860'tan beri Arap-Swahili üssü; Stanley 5 Aralık 1876'da uğradı. Önerilen yol: Marechal 1992 'De Arabische campagne in het Maniema-gebied (1892-1894)' veya Ceulemans 1959 (erişilemedi)."
+  }
+ ],
+ "Uvira": [
+  {
+   "sira": 2774, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1892-01-01", "t": "1908-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "YALNIZ İPUCU: en.wikipedia.org/wiki/Uvira (sayfa.py ile ham okundu; dayanak olarak Kakozi/Loons/Depelchin kaynaklarına atıf yapıyor, ben o kaynaklara ulaşamadım). Akademik kaynağa bağlanamadı.",
+   "alinti": "On 17 March 1894, the allied forces arrived at Uvira",
+   "oneri": {"f": "1894-03-17", "t": "1908-11-15", "d": "kongo-serbest-devleti"},
+   "not": "ÖLÇÜT: idareye katma — Vikipedi'ye göre ilk resmî idarî görev Temmuz 1894'te Uvira'dan çıktı (Lange/Long), 1895'te Kibanga postu komutanı Lange yeni istasyonlar kurdu, 1900 Ruzizi-Kivu Territoire merkezi. 1892 başlangıcı atlas kaydı: Kongo-Arap Savaşı 1892'de başladı, Uvira ise 1894-03-17'ye kadar Arap-Swahili (Rumaliza/Bwana Soro) üssüydü; Hinde (1897) Uvira'yı anmıyor (YOK). KAYNAKLI DEĞİL: tek dayanak Vikipedi + akademik kaynakça ulaşılamadı; teyit için Wauters 1899 / Marechal 1992 / Kakozi gerek. 17 Mart askerî varış; idareye katma günü (Temmuz 1894 misyonu) ayrı. f ileri giderse 1892-01-01 → 1894-03-17 arası sahipsiz dilim kalır (Arap-Swahili üssü, künye yok) — KASA/Emre kararı: beyanlı boşluk. t=1908-11-15 künye uçtur, teyitsiz."
+  }
+ ],
+ "Nyangve (Nyangwe)": [
+  {
+   "sira": 2776, "dosya_satir": "", "alan": "s", "d": "umman-zengibar", "f": "1860-01-01", "t": "1893-03-04",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "S. L. Hinde, The Fall of the Congo Arabs (London 1897), archive.org fallcongoarabs01hindgoog (ham metin, sayfa.py ia-oku); katılımcı anlatısı [19. yy kaynağı]. f ucu için: Livingstone Online (Wisnicki, 'Livingstone in 1871') yalnız WebSearch özetinden: 1871'de Nyangwe yaklaşık on yıldır Arap deposu [özetten].",
+   "alinti": "During the morning of the 4th March we struck camp and immediately formed on the river bank.",
+   "oneri": {"d": "SAHİP SORUNU: umman-zengibar kaynakla desteklenmiyor; Nyangwe Tippu Tip'in Swahili-Arap egemenliğindeydi, künye yok", "f": "yıl düzeyi ~1860-61 (yerleşim kuruluşu, devlet sahipliği değil)", "t": "1893-03-04"},
+   "not": "t ucu (1893-03-04) Hinde ile tutuyor: 4 Mart sabahı Dhanis kuvvetleri nehri geçip 'kasabanın büyük kısmını' aldı (alıntıyı izleyen cümle: landing and taking the greater part of the town; 9 Mart ayaklanması bastırıldı, kasaba yakıldı, de Wouters kasabada komutan kaldı). Yıl 1893 Hinde'nin kendi kronolojisinden (Aralık 1892 kampı → Mart; kitapta bu pasajda yıl yazılı değil) — beyan. SORUN SAHİPLİKTE: 1860-1893 'umman-zengibar' sahipliğini destekleyen kaynak bulamadım. Hinde: 'Congo Free State and the Arab dominion at Kasongo' (rakip güç), Tippu Tip Stanley tarafından Stanley Falls valisi yapıldı; Antiquity 2020 (Champion/Arazi): Tippu Tip Kasongo'yu 1875'te ticaret alanının başkenti yaptı, Leopold altında Stanley Falls valisi oldu. Hinde'nin ifadesi: Zanzibar Arapları ticareti Zanzibar'a toplamak istedi, ama iç bölge 'Arab trade-centres controlled by well-known Arab chiefs'. Zengibar Sultanlığı egemenliği kaynakta yok (Sefu 'an officer of the State' ve 'Treaty of Zanzibar' ifadeleri de CFS ile Arap rejimi arasında antlaşma gösterir). ÖLÇÜT notu: Nyangwe 4 Mart'ta CFS idaresine katıldı (garnizon, istasyon) → idareye katma. KARAR Emre/KASA: sahip = beyanlı yaklaşıklık veya boşluk. Yerleşim kuruluşu ~1860 (Livingstone Online özetinden dolaylı; 1871'de 'yaklaşık on yıl'), kesin yıl teyitsiz."
+  },
+  {
+   "sira": 2777, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1893-03-04", "t": "1908-11-15",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "S. L. Hinde, The Fall of the Congo Arabs (1897), archive.org fallcongoarabs01hindgoog, ch. X 'Account of the Fall of Nyangwe' (ham metin) [19. yy kaynağı, katılımcı]",
+   "alinti": "During the morning of the 4th March we struck camp and immediately formed on the river bank.",
+   "oneri": {},
+   "not": "f ucu: 4 Mart (alıntıyı izleyen cümlede kasabanın büyük kısmı alındı, akşam 22:00'ye kadar üst kısımda tahkim edildi; 9 Mart'ta ayaklanma bastırıldı, kasabanın çoğu yakıldı; 17 Nisan'da de Wouters 50 askerle Nyangwe komutanı bırakıldı → kalıcı CFS varlığı). Yıl 1893 kitabın iç kronolojisinden (pasajda yıl yok). Gün KAYNAKLI; ÖLÇÜT: idareye katma (garnizon + komutan). İkinci bağımsız teyit bulamadım (Vikipedi: ~Mart 1893, ipucu). Öteki uç (t=1908-11-15) künye ucu, teyitsiz."
+  }
+ ],
+ "Kasongo": [
+  {
+   "sira": 2779, "dosya_satir": "", "alan": "s", "d": "umman-zengibar", "f": "1860-01-01", "t": "1893-01-01",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "S. L. Hinde, The Fall of the Congo Arabs (1897), archive.org fallcongoarabs01hindgoog, ch. XI (ham metin) [19. yy kaynağı]; Antiquity 2020 (cambridge.org, Maniema, Project Gallery) ham okundu",
+   "alinti": "it was not until the morning of the 22nd that we came in sight of Kasongo.",
+   "oneri": {"d": "SAHİP SORUNU (umman-zengibar kaynaksız)", "f": "kuruluş yılı bulunamadı (Tippu Tip başkent yapışı 1875)", "t": "1893-04-22"},
+   "not": "t ucu: atlas 1893-01-01, kaynak 22 Nisan (Hinde: 17 Nisan'da Nyangwe'den yürüyüş, 22'sinde Kasongo görüldü, Doorme Said-ben-a-Bedi kalesini 'ilk hamlede' aldı, kasaba aynı gün düştü; 'Kasongo düşüşü Nisan 1893' Vikipedi ipucuyla uyumlu). Yıl 1893 bağlamdan (Hinde pasajında yıl yok) — beyan. 1893-01-01 tamamen gerçek dışı (Ocak 1893'te CFS Nyangwe'nin karşı yakasına bile varmamıştı). f=1860: kaynakta yok; Antiquity 2020: Tippu Tip Kasongo'yu 1875'te başkent yaptı (Renault 1987'ye atıfla); Hinde: Tippu Tib 1874'te Nyangwe'ye, sonra Kasongo'ya geçti ve vali seçildi → kasaba 1860'ta var mıydı kaynaksız, f yıl düzeyinde bile teyitsiz. SAHİPLİK: Kasongo 1860-1893 'umman-zengibar' değil, Tippu Tip/Sefu'nun fiilen bağımsız Arap egemenliği (Hinde: 'the Arab dominion at Kasongo'; Sefu Stanley Falls'ta CFS yetkilisiydi); Zengibar Sultanlığı sahipliğini destekleyen kaynak yok. KARAR Emre/KASA."
+  },
+  {
+   "sira": 2780, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1893-01-01", "t": "1908-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "S. L. Hinde, The Fall of the Congo Arabs (1897), archive.org fallcongoarabs01hindgoog, ch. XI-XII (ham metin) [19. yy kaynağı]",
+   "alinti": "it was not until the morning of the 22nd that we came in sight of Kasongo.",
+   "oneri": {"f": "1893-04-22", "t": "1908-11-15", "d": "kongo-serbest-devleti"},
+   "not": "ÖLÇÜT: idareye katma — Hinde ch. XII 'The State Forces settle down at Kasongo' (Dhanis karargahı Kasongo'ya yerleşti; Cerckel/Lothaire komutası sürdü, 25 Nisan sonrası istasyon). Fetih günü = idareye katma başlangıcı (Habsburg Macaristan emsali, fetihten itibaren s:). Gün 22 Nisan; yıl 1893 bağlamdan. Künye kongo-serbest-devleti f=1885-01-01, kapsar. t=1908-11-15 künye ucu, teyitsiz."
+  }
+ ],
+ "Luebo": [
+  {
+   "sira": 2782, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1885-01-01", "t": "1908-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Musée royal de l'Afrique centrale (RMCA) arşivleri, 'Wolf, Ludwig' (Coosemans, Biographie Coloniale Belge t. III'e dayanır), https://archives.africamuseum.be/agents/people/255 (sayfa.py ile ham okundu)",
+   "alinti": "chargé de fonder le poste de Luebo. C'est chose faite en novembre.",
+   "oneri": {"f": "1885-11-01", "t": "1908-11-15", "d": "kongo-serbest-devleti"},
+   "not": "Pasaj: 'En septembre 1885, Wolf est désigné pour commander une nouvelle expédition chargé de fonder le poste de Luebo. C'est chose faite en novembre.' → Luebo postu Kasım 1885'te kuruldu; atlas f=1885-01-01 yerleşimin var olmadığı döneme denk geliyor (6g: f ileri → ONERI ile kırp). Gün: ay hassasiyeti (1885-11-01 yer tutucu; BEYANLI: gün bilinmiyor). 7 Kasım 1885 günü kaowarsom BCB Wolff girdisinin WebSearch özetinde geçti ('7 novembre = Luebo yerinde') ama PDF taranmış görüntü (JBIG2), ham metin okunamadı → [özetten, teyitsiz]. Ücret/ele geçiş: Vikipedi (ipucu) 1886'da Sanford Exploring Exp.'e, 1888'de SAKCH'a satıldığını, 1891'de Sheppard/Lapsley misyonunu yazıyor; bunlar sahiplik değişimi değil. ÖLÇÜT: idareye katma — AIA/CFS postu. Önceki sahip: yok (künye Kasım 1885'ten önce yer yok). t=1908-11-15 künye ucu, teyitsiz."
+  }
+ ],
+ "Kabalo": [
+  {
+   "sira": 2784, "dosya_satir": "", "alan": "s", "d": "kongo-serbest-devleti", "f": "1900-01-01", "t": "1908-11-15",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabalo'ya özgü kaynak bulunamadı. Baktıklarım: Hinde 1897 (Kabalo YOK), Hertslet cilt 1-2 (YOK), UNESCO GHA VII (YOK), en/fr Wikipedia (kuruluş yok), WebSearch: yalnız Kabalo-Albertville demiryolu 1911-1915 (EB 1922 'Belgian Congo' wikisource özeti, ipucu) ve Comité Spécial du Katanga 1900 (Vikipedi ipucu). Atlas f=1900-01-01'in dayanağı görünmüyor (6g: varoluş günü). Teyit için Kabalo posta kuruluşu için BCB (kaowarsom) veya Katanga Comité Spécial raporları gerek; kaowarsom PDF'leri taranmış görüntü olduğu için ham okunamadı. Hüküm uydurulmadı."
+  }
+ ]
+}

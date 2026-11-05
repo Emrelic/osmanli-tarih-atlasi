@@ -1,0 +1,115 @@
+{
+ "Alcobaça (Tucuruí)": [
+  {
+   "sira": 2905, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1870-10-31", "t": "1889-11-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: IBGE, Diretoria de Geociências, Divisão Territorial Brasileira (DTB), Tucuruí/PA 'Formação Administrativa', https://biblioteca.ibge.gov.br/visualizacao/dtb/para/tucurui.pdf (PDF pdfmini ile çözüldü, ham metin). t: Decreto nº 1, de 15 de novembro de 1889, Câmara dos Deputados (Legislação Informatizada), https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-publicacaooriginal-14906-pe.html (sayfa.py oku, ham metin).",
+   "alinti": "f: «Distrito criado com a denominação de Alcobaça, pela lei provincial nº 661, de 31-10-1870» · t: «Art. 1º. Fica proclamada provisoriamente e decretada como a fórma de governo da nação brazileira»",
+   "oneri": {},
+   "not": "f ucu: IBGE'ye göre Alcobaça 31-10-1870'te Baião municipio'suna bağlı DISTRITO olarak kuruldu (idari statü günü) → 6g gereği BEYANLI ALT SINIR (yerleşimin fiilî varoluş günü değil, statü günü; öncesine ait belge aranmadı). ÇELİŞKİ ipucu (Vikipedi-sınıfı, tek başına dayanak değil): cidadesdomeubrasil.com.br 1870 olayını 'São Pedro freguesia' diye anlatıyor; kurumsal IBGE metni 'distrito' diyor, IBGE esas alındı. t ucu: ÜLKE DÜZEYİ — Decreto nº 1 cumhuriyeti ilan eden ülke düzeyi metin (Alcobaça'ya özgü bir olay değil); Alcobaça Brezilya içinde kalıyor, yalnız devlet kimliği imparatorluk → cumhuriyet değişiyor; 15-11-1889 aynı gün yürürlük (Decreto 1 tarihi = proklamasyon günü). İlk dilim sahibi kaynaklı: Pará eyaleti, Brezilya İmparatorluğu."
+  }
+ ],
+ "Itacoatiara (Serpa)": [
+  {
+   "sira": 2907, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1759-01-01", "t": "1822-09-07",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "IBGE, DTB, Itacoatiara/AM 'Histórico' ve 'Formação Administrativa', https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/itacoatiara.pdf (indirilip pdftotext ile okundu — sayfa.py/pdfmini bu PDF'in yazı tipi kodlamasını çözemedi, ham metin pdftotext çıktısı; ASCII dışı karakterler bozuk geldi, alıntıda yerine konuldu). t için: Senado Federal haberi, https://www12.senado.leg.br/noticias/materias/2019/09/04/senado-vai-comemorar-independencia-do-brasil-com-sessao-nesta-quinta-feira (sayfa.py oku).",
+   "alinti": "f: «Elevada à categoria de vila e distrito com a denominação de Serpa, em 1759.» · t: «Em 7 de setembro de 1822, Dom Pedro I proclamou, às margens do Rio Ipiranga»",
+   "oneri": {},
+   "not": "f ucu YIL düzeyi (gün yok): 1759 'vila ve distrito' statü yılı; atlas f=1759-01-01 yıl hassasiyetiyle uyumlu (kesinlik:'yil' beyanı gerekir). 6g: statü yılı BEYANLI ALT SINIR — IBGE aynı metinde aldeia'nın (Abacaxis aldeiası, Mendonça Furtado'nun 1755 gezisi ve 1758 mektubu) vilaya yükseltilmeden önce de var olduğunu söylüyor ve 1655 Vieira 'Aroaquis' misyonunu tartışmalı veriyor; varoluş günü/yılı kaynaksız → f_geri ÖNERİLMEDİ (açılacak dilim sahibi kaynaksız). T ucu: ÖTEKİ UÇ TEYİTSİZ — 7 Eylül 1822 ÜLKE DÜZEYİ (Senado haberi, ticari değil ama akademik de değil: Ipiranga ilanı). Yerel gerçek farklı olabilir: Grão-Pará'nın (Rio Negro kaptanlığı onun içinde) Brezilya'ya katılışı 15 Ağustos 1823 (gazete düzeyi ipucu: diariodopara/oliberal; Rio Negro/Barra'nın kendi katılış günü bulunamadı) — yani 1822-09-07 yerel egemenlik devri değil, ülke ilanı; ONERI değil BEYANLI yaklaşıklık olarak not edildi. 1833 vilanın kaldırılması, 1857-12-10 (lei prov. nº 74) restorasyon bu dönem satırının dışında."
+  }
+ ],
+ "San Luis de la Paz": [
+  {
+   "sira": 2910, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1595-10-10", "t": "1821-09-27",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Cronistas de Guanajuato, San Luis de la Paz monografisi (yerel kronist efemeridi; Fulgencio Vargas, Pequeña Geografía del Estado de Guanajuato, 1939'a atıf), https://www.cronistasdeguanajuato.com/assets/monografias/san-luis-de-la-paz_opt.pdf (WebFetch ile indirildi, pdftotext ile ham metin okundu) · Universidad de Guanajuato PLADI, https://www.ugto.mx/images/pdf/pladi/SAN_LUIS_DE_LA_PAZ.pdf · t için: Watanabe-O'Kelly, H., OUPblog 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (sayfa.py oku, ham).",
+   "alinti": "«1595.- (10 de Octubre) Fundación Legal de San Luis de la Paz» · «1552.- (25 de Agosto) Original fundación de San Luis de la Paz» · «On 27 September 1821, Iturbide entered Mexico City.»",
+   "oneri": {"f": "1590-11-07 (BEYANLI ALT SINIR, f_geri adayı; yerel kaynak)", "t": "", "d": "yeni-ispanya"},
+   "f_geri": {"eski_f": "1595-10-10", "yeni_f": "1590-11-07", "sahip": "yeni-ispanya", "kaynak": "Cronistas de Guanajuato monografisi: Gonzalo de Tapia 'bautizó a su primer chichimeca el 7 de noviembre de 1590' (San Luis de la Paz parroquia bautizo defteri); yeni-ispanya künyesi f=1535-04-17 t=1821-09-27 aralığı kapsar (devletler.js:6325-6326 grep ile ölçüldü); açılan 1590-11-07 → 1595-10-10 dilimin sahibi aynı yeni-ispanya, sahipsiz/hayalet dilim yok; KAYNAK AKADEMİK DEĞİL (yerel kronist), onay Emre'nin"},
+   "not": "f ucu: atlas 1595-10-10'u kayıtlı 'Fundación Legal' günü olarak yazıyor ve yerel monografi bu günü aynen veriyor (kaynağı 1939 tarihli Vargas coğrafyası; akademik/ulusal ansiklopedi DEĞİL, birincil belge görülmedi) → tek başına KAYNAKLI sayılmadı. AYNI KAYNAK ÇELİŞKİLİ: aynı monografi 25-08-1552'yi 'Original fundación' (Donasi, Chupitantegua; barış antlaşması geleneği) diye, UGTO belgesi ise 1522 diye veriyor (kendi içinde çelişkili: ayrıca 'Jesuita misyonu 1590'). Bunlar gelenek/efsane düzeyi, hiçbiri birincil belge değil; 1590-11-07 (Cizvit Gonzalo de Tapia'nın San Luis parroquia kayıt defterine dayanan ilk vaftiz günü) belgeye en yakın erken tarih. 6g gereği varoluş günü f olmalı, yasal kuruluş günü (1595-10-10) statü gününe benzer → BEYANLI ALT SINIR ve f_geri ADAYI (Emre onayı). ÇİFT-TEYİT YOK. T ucu: 27 Eylül 1821 ÜLKE DÜZEYİ (OUPblog: Iturbide Mexico City'ye girdi; Act of Independence ertesi gün); San Luis de la Paz'a özgü devir günü bulunamadı. Bakılan: cronistas monografisi, UGTO PLADI, dialnet/UNAM sonuçları (açılmadı)."
+  }
+ ],
+ "Tonalá (Chiapas)": [
+  {
+   "sira": 2912, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1813-10-29", "t": "1821-09-27",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Lastra Lacroix, Francisco, «La incorporación de Chiapas y El Soconusco a México durante el siglo XIX», INAH dergisi, https://www.revistas.inah.gob.mx/index.php/lakamha/article/download/18771/20111/40429 (WebFetch ile indirildi, pdftotext ile okundu; çok sütunlu metin, kelimeler birleştirilerek alıntılandı) · INEGI, Evolución histórica de los municipios de México: Chiapas (2023) (atlas kaydında zaten alıntılı: Cortes de Cádiz 29-10-1813 villa kararı; açılmadı) · devletler.js künye ölçümü.",
+   "alinti": "«Chiapas, entonces provincia de la Capitanía General de Guatemala» · «14 de septiembre de 1824 se declaró unida la provincia de Chiapas a México»",
+   "oneri": {"d": "guatemala-kaptanligi", "f": "1813-10-29", "t": "1821-09-15"},
+   "not": "DEVLET KİMLİĞİ ÇELİŞKİSİ (asıl bulgu): Lastra Lacroix (INAH) Chiapas'ı Guatemala Genel Kaptanlığı'nın eyaleti olarak anıyor; yeni-ispanya (Mexico City valiliği) değil. Tonalá 1813-1821 arasında Guatemala Genel Kaptanlığı / Ciudad Real de Chiapas intendansı idi (Hispanopedia, ipucu: 'Real Audiencia de Guatemala... Intendencia de Ciudad Real de Chiapas'). Künye guatemala-kaptanligi f=1609-01-01 t=1821-09-15 (devletler.js:18868, grep ile ölçüldü) 1813-10-29..1821-09-15 aralığını KAPSAR → hayalet devlet yok. Atlasın kendi 'not'u da aynı sorunu SORUN olarak anıyor. Sonrası: Lastra Lacroix'e göre Chiapas 15 Eylül 1821'den önce Iguala Planı'na katılmıştı, 1821 sonu İturbide'nin Orta Amerika ilhakı, 4-06-1823'te junta Chiapas'ı Meksika'dan bağımsız ilan etti, 14-09-1824'te Meksika'ya katıldı; Tonalá'ya özgü gün BULUNAMADI (1821-09-15 → 1824-09-14 arası dilimin sahibi/günü bu partide çözülmedi, ayrı iş). f ucu 29-10-1813: Cádiz Cortes'in Tonalá'yı villa yapma kararı (INEGI, atlas kaydından aktarıldı, ham okuma yapılmadı) = STATÜ günü → 6g BEYANLI ALT SINIR; Tonalá Hispanik öncesi kökenli (Hispanopedia, ipucu), varoluş günü kaynaksız. 1813 La Chincúa savaşı (19-04..28-05-1813, Matamoros-Dambrini; Vikipedi/Hispanopedia ipucu) bölgenin kısa süreli insurgent kontrolü sorusunu açar; bu satır için kullanılmadı. t=1821-09-27 Meksika ülke olayı; Tonalá için GEÇERSİZ (kendi sahibi Guatemala Kaptanlığı, künye t 1821-09-15)."
+  }
+ ],
+ "Namkham": [
+  {
+   "sira": 2914, "dosya_satir": "", "alan": "s", "d": "ingiliz-burma", "f": "1923-10-29", "t": "1948-01-04",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "Scott & Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol I (1900), archive.org in.ernet.dli.2015.281438 (sayfa.py ia-oku, ham metin) · US Office of the Historian, Burma, https://history.state.gov/countries/burma (sayfa.py oku, ham).",
+   "alinti": "«The Namhkam post was established in the beginning of December» · «recognized the Union of Burma as an “independent sovereign state” on January 4, 1948»",
+   "oneri": {"f": "1886-01-01 (YIL düzeyi, ÜLKE DÜZEYİ; Namkham'a özgü gün yok)", "t": "1948-01-04", "d": "ingiliz-burma (tâbi katmanı, v:)"},
+   "not": "f=1923-10-29 KAYNAKSIZ: bu gün san-devletleri künyesinin t'sidir (devletler.js:7463-7464), Namkham'da o güne ait bir olay bulunamadı; Gazetteer'de Namhkam'da İngiliz karakolu Aralık 1892'de kuruldu (Kaptan Marrett, 1892-93 kış programı, [19. yy kaynağı], yıl düzeyi) ve Üst Burma 'ist January 1886'dan itibaren İngiliz Hükûmeti'ne' bağlı sayıldı (aynı eser). Yani İngiliz denetimi 1923'ten çok önce: 1886 (ülke düzeyi) / 1892 (Namhkam karakolu). Ancak Şan beylikleri doğrudan ingiliz-burma değil, Sawbwa'lar aracılığıyla yönetilen tâbi devletlerdi (kuzey Hsenwi'ye bağlı); sahiplik zinciri v:/s: ayrımı Emre kararına bağlı (TAHRİR ölçütü: vergi/defter bilgisi bulunamadı). Gün BULUNAMADI. t ucu 1948-01-04: US Office of the Historian ABD'nin tanıma gününü verir (bağımsızlık günüyle örtüşür; Burma Independence Act 1947 metni okunmadı) — ÜLKE DÜZEYİ. Bakılan: IGI Part I Vol I (Hsenwi/Namhkam, 8+ eşleşme), Part II vol III, gazetteerupperb04-06 (Namkham yazımı bulunamadı), web araması (Vikipedi North Hsenwi açılmadı). Namwan kiralık arazisi 1897 Pekin Anlaşması mevcut kaynakta yazılı."
+  },
+  {
+   "sira": 2915, "dosya_satir": "", "alan": "s", "d": "san-devletleri", "f": "1281-01-01", "t": "1923-10-29",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "Scott & Hardiman, Gazetteer of Upper Burma and the Shan States, Part I Vol I (1900), archive.org in.ernet.dli.2015.281438 (sayfa.py ia-oku, ham metin; sayfa kimliği ia-oku çıktısı).",
+   "alinti": "«The Namhkam post was established in the beginning of December» · «from 1st January 1886, to the British Government»",
+   "oneri": {"f": "", "t": "1886-01-01 (s: san-devletleri biter/ingiliz-burma tâbiliği başlar; YIL düzeyi ülke olayı, Namkham'a özgü gün yok)", "d": "san-devletleri → v: ingiliz-burma"},
+   "not": "t=1923-10-29 KAYNAKSIZ (san-devletleri künye t'si; 1923 başında bile bir Şan-özel olayı bulunamadı). Gazetteer: Namhkam 'Kuzey Şan Devletleri'nde' (Northern Shan States) ve Mong Mao Sawbwa'sının vadisinde; 1891-92 Sinkan sütunu Namhkam'a gelip İngiliz Siyasi Subayı Kaptan Gastrell Mong Mao ile görüştü; karakol Aralık 1892'de kuruldu. Bu Britanya'nın fiilî denetimini gösterir; Şan Sawbwa'ları ise İngiliz himayesinde kendi yönetimini sürdürdü. TAHRİR/İDARİ KATMA ölçütü için Namkham'a özgü belge (vergi, defter, idarî birim) BULUNAMADI. Ayrıca f=1281-01-01 san-devletleri künye f'sidir (ic_not_f: ONCE1281, Hsenwi kronikleri efsanevî); Namkham'ın 1281'de var olup olmadığı BULUNAMADI. Mevcut kaynakta 'Kuzey Hsenwi'ye bağlı (Lt. Daly, ~1888)': IGI aynı eserde Daly'nin 1888 harekâtını anar. Bakılan yerler: IGI Part I Vol I, Part II Vol III, gazetteerupperb04/05/06."
+  },
+  {
+   "sira": 2916, "dosya_satir": "", "alan": "s", "d": "myanmar-birmanya", "f": "1948-01-04", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "US Office of the Historian, Burma, https://history.state.gov/countries/burma (sayfa.py oku, ham metin).",
+   "alinti": "«recognized the Union of Burma as an “independent sovereign state” on January 4, 1948»",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f ucu: kaynak tanıma gününü verir; bağımsızlık ilan günüyle aynı (Burma Independence Act 1947 metni okunmadı, bu nedenle yalnız tanıma günü kaynaklı). Namkham'ın Şan Eyaleti içinde Birlik'e katılımı için Panglong Anlaşması 12-02-1947 (Vikipedi/arama ipucu, açılmadı). t=2000-12-31 pencere ucu (ufuk), tarihleme değil; ÖTEKİ UÇ TEYİTSİZ."
+  }
+ ],
+ "Tawau kıyısı (bölge)": [
+  {
+   "sira": 2917, "dosya_satir": "", "alan": "s", "d": "kuzey-borneo", "f": "1881-11-01", "t": "1946-07-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "The North Borneo Cession Order in Council 1946 (10 Temmuz 1946, Buckingham Sarayı), Sabah State Attorney-General's Chambers, https://sagc.sabah.gov.my/sites/default/files/law/NorthBorneoCessionOrderInCouncil1946.pdf (indirilip pdftotext ile okundu; birincil belge neşri).",
+   "alinti": "«incorporated by Royal Charter dated the first day of November, 1881» · «with effect from the fifteenth day of July, 1946»",
+   "oneri": {},
+   "not": "Her iki uç da aynı resmî belgenin metninde: şirket 1-11-1881 Royal Charter ile kuruldu; 26-06-1946 anlaşmasıyla tüm hak ve yetkiler 15-07-1946'dan geçerli olarak Tâc'a devredildi ('full sovereign rights over, and title to, the territory of the State of North Borneo'). Aynı belge 12 Mayıs (metinde '1988' baskı hatası, 1888 olmalı) Anlaşması ile devletin Kraliçe Victoria himayesine alındığını söyler — bu 1888 himayesi s: kuzey-borneo'yu değiştirmez, ic_not. BÖLGE düzeyi: Tawau kıyısının Şirket bölgesine dahil olduğu: Sulu 1878 hibesi güney sınırı Sibuco/Sebuku ırmağı (Hatton 1881 [19. yy kaynağı], 'from the Kimanis River ... to the Sibuco River'), 1891 İngiliz-Hollanda Sözleşmesi'nin 20-01-1891'de Sebatik Adası boyunca sınırı çözdüğü (etawau.com, yerel site, ipucu) ve sınırın 4°10'K olduğu mevcut kayıtta. Tawau şehir/kıyısına özgü ayrı bir devir belgesi aranmadı (ÜLKE/BÖLGE DÜZEYİ). Not: devletler.js künye kuzey-borneo f=1881-11-01 t=1946-07-15 (grep ile ölçüldü), uçlar künyeyle birebir."
+  },
+  {
+   "sira": 2919, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1878-01-22", "t": "1881-11-01",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "t: The North Borneo Cession Order in Council 1946 (Sabah AG Chambers) — Royal Charter 1-11-1881. f: Hatton, Joseph, The New Ceylon: British North Borneo (1881), archive.org thenewceylonbein00hatt (sayfa.py ia-oku, ham metin; teşvik amaçlı çağdaş kitap, [19. yy kaynağı], ONERI-güçlü sınıfı).",
+   "alinti": "f: «one grant of territory, dated 22nd January, 1878» · t: «incorporated by Royal Charter dated the first day of November, 1881»",
+   "oneri": {"d": "özel Dent/Overbeck derneği (künye yok) — Sulu hibesi: sulu-sultanligi (bölge Sulu egemenliğinde sayılırsa); BEYANLI", "f": "1878-01-22", "t": "1881-11-01"},
+   "not": "DEVLET KİMLİĞİ SORUNU: Hatton'a göre 22-01-1878 hibesi Sulu Sultanı'ndan 'the British Company, cojointly, their heirs, associates' (Dent ve ortakları, Overbeck) lehine yapılmıştır — hibe alan özel şirket/dernektir, Britanya devleti değil; İngiliz Hükûmeti ancak 1-11-1881 Royal Charter'ı ve 12-05-1888 himayesi ile devreye girer (Cession Order). Dolayısıyla d:'ingiltere' 1878-1881 için kaynakla çelişir; 'KİMLİK GEÇİCİ (M-5141)' mevcut kayıt notu bunu zaten sezmiş. Seçenek: (a) künye kuzey-borneo f=1881-11-01'e bağlı olduğundan 1878-1881 arası künyesiz kalır → s: sulu-sultanligi (devletler.js:5969 'Sulu Sultanlığı' var; hibe/kira (padjak) hukukî niteliği Malezya-Filipinler arasında çelişkili, ÇELİŞKİ ic_not'ta beyan) ya da (b) kuzey-borneo künye f'sini 1878-01-22'ye çekmek (Emre kararı). Ben karar vermedim. f ucu Hatton ham alıntı (22-01-1878) hibe günüdür, fiilî idare devri günü değil — TEK ÖLÇÜ gereği fiilî yönetim başlangıcı gün BULUNAMADI (Dent'in Overbeck ile Sandakan'da yönetim kurması 1878 yılı, gün kaynaksız). Tawau kıyısının hibe sınırı içinde olduğu (Sibuco ırmağı güney sınır) Hatton ve 1891 sözleşme ipuçlarından; kıyıya özgü tanıklık yok (BÖLGE DÜZEYİ). t ucu birincil belgeyle KAYNAKLI."
+  },
+  {
+   "sira": 2920, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1946-07-15", "t": "1963-09-16",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: The North Borneo Cession Order in Council 1946, https://sagc.sabah.gov.my/sites/default/files/law/NorthBorneoCessionOrderInCouncil1946.pdf (pdftotext, ham). t: Interpretation and General Clauses Enactment 1963 (Sabah), https://sagc.sabah.gov.my/sites/default/files/law/InterpretationAndGeneralClausesEnactment1963.pdf (indirilip pdftotext ile okundu, ham).",
+   "alinti": "f: «full sovereign rights over, and title to, the territory of the State of North Borneo» · t: «Malaysia Day means the sixteenth day of September, 1963»",
+   "oneri": {},
+   "not": "f: Tâc egemenliği 15-07-1946'dan geçerli (Cession Order metni, devir 26-06-1946 anlaşması, emir 10-07-1946'da çıkarıldı; yürürlük/devir günü = 15-07-1946; TEK ÖLÇÜ: devralan fiilen yönetiyordu (askerî idare 1945'ten beri, bkz. Hansard 19-06-1946 ipucu) → imza yerine devir günü seçilmedi, belge kendisi 15-07 diyor). t: Sabah mevzuatı Malaysia Day'i 16-09-1963 olarak tanımlar. ÇELİŞKİ ic_not: UK Malaysia Act 1963 (c.35) yürürlük maddesi 31-08-1963'ü verir; antlaşma metninde 16-09-1963'e kaydırma dipnotu var (legislation.gov.uk/UN Treaty Series 10760, açılmadı, arama özeti); 31-08-1963 Sabah'ın öz-yönetim günü. Esas alınan: 16-09-1963 (Malaysia Day). ÜLKE/EYALET DÜZEYİ: Tawau'ya özgü devir belgesi yok."
+  }
+ ],
+ "Freistadt": [
+  {
+   "sira": 2921, "dosya_satir": "", "alan": "s", "d": "avusturya-cumhuriyet", "f": "1918-11-12", "t": "1938-03-13",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Parlament Österreich, «12. November 1918: Die Ausrufung der Republik», https://www.parlament.gv.at/verstehen/historisches/1918-1945/ausrufung-republik/index.html (sayfa.py oku, ham). t: Bundeskanzleramt, Gang der Geschichte 1938, https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/1938.html (sayfa.py oku, ham).",
+   "alinti": "f: «proklamierte die Provisorische Nationalversammlung am 12. November 1918 die Republik» · t: «Am 13. März beschloss die Regierung Seyß-Inquart das Bundesverfassungsgesetz über die Wiedervereinigung Österreichs»",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: iki uç da Avusturya'nın ülke düzeyi olaylarını tarihler; Freistadt'a özgü belge yok. Freistadt'ın Yukarı Avusturya'ya ait olduğu (1918'den beri Bundesland OÖ; 1938-45 Gau Oberdonau, Bezirk Freistadt) yalnız Vikipedi/Austria-Forum özeti düzeyinde ipucu (açılmadı). Künye avusturya-cumhuriyet f=1918-11-12 t=1938-03-13 (devletler.js:5236-5237) uçlarla birebir; künye ic_not_t'si AVALON/USHMM'e dayanıyor. 1938-03-13: Avusturya federal kanunu (Seyß-Inquart hükûmeti) ve aynı gün Reich kanunu; Hitler 12 Mart'ta Linz'de; 10-04-1938 plebisit. Bakılan: parlament.gv.at, bundeskanzleramt.gv.at, land-oberoesterreich.gv.at kronolojisi (13784/13804), arama sonuçları. Mühlviertel'in 1918-1919'da Bohemya sınırında oluşu (Slapnicka, ipucu) sahiplik değiştirmez."
+  }
+ ],
+ "Linz": [
+  {
+   "sira": 2922, "dosya_satir": "", "alan": "s", "d": "avusturya-cumhuriyet", "f": "1918-11-12", "t": "1938-03-13",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Parlament Österreich, «12. November 1918: Die Ausrufung der Republik», https://www.parlament.gv.at/verstehen/historisches/1918-1945/ausrufung-republik/index.html (sayfa.py oku, ham). t: Bundeskanzleramt, Gang der Geschichte 1938, https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/1938.html (sayfa.py oku, ham). Linz'e özgü: Land Oberösterreich, Chronik 1918, https://www.land-oberoesterreich.gv.at/13804.htm (sayfa.py oku, ham).",
+   "alinti": "f: «proklamierte die Provisorische Nationalversammlung am 12. November 1918 die Republik» · t: «Am 13. März beschloss die Regierung Seyß-Inquart das Bundesverfassungsgesetz über die Wiedervereinigung Österreichs» · Linz: «Konstituierung der Provisorischen Landesversammlung für Oberösterreich in Linz»",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Linz'e özgü tanıklık: Land OÖ kronolojisi 18-11-1918'de Linz'de Yukarı Avusturya Geçici Eyalet Meclisi'nin (101 üye, Landeshauptmann Johann Nepomuk Hauser) toplandığını gösterir — Linz, Deutschösterreich'in bir eyaletinin merkezi olarak 12-11-1918 devletinin içindedir (eyalet meclisi cumhuriyetin ilanından 6 gün sonra, kendi gününü f'ye çekmez). Yerel üst bağ (Hitler 12-03-1938'de Linz'de Anschluss'u ilan etti) Vikipedi/arama özeti düzeyi, açılmadı. Künye uçları 1918-11-12 / 1938-03-13 ile birebir (devletler.js:5236-5237). Linz'in 12-13 Mart arası fiilî Alman işgali (12-03 askerî giriş) vs 13-03 hukukî katılma: TEK KURAL gereği hukukî ilhak 13-03; ham işgal günü ic_not (12-03-1938 kaynaksız, açılmadı)."
+  }
+ ]
+}

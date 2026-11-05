@@ -61,6 +61,9 @@ HAVVA'ya özgü FARKLAR (bunlar ana brifin önündedir):
    - Ticari / genel ansiklopedi en çok ONERI-güçlü verir, KAYNAKLI VERMEZ: Gale / encyclopedia.com (Columbia
      Encyclopedia dahil), Larousse, Britannica, EBSCO Research Starters, World History Encyclopedia.
      Bunlarla bulduğun ucu ONERI yaz, `not`a "ticari ansiklopedi — ONERI-güçlü" de.
+   - Japon kaynakları (EMRELİC, UMIT aktardı): Kotobank yalnız TAŞIYICIDIR, sınıfı içindeki sözlük belirler.
+     Nipponica (日本大百科全書) ve Heibonsha Sekai Daihyakka (世界大百科事典) → ONERI-güçlü;
+     Yamakawa Nihonshi Shōjiten (山川日本史小辞典) → KAYNAKLI-çekinceli (`not`a "çekinceli").
 6g. 🔴 f = VAROLUŞ GÜNÜ (EMRELİC, 5 Kasım gece; bütün EVREN4 partilerinde geçerli, kalıcı karar sabah Emre'nin):
    - Yerleşimin İLK dönem f'si, yerleşimin var olduğu ilk gündür (kuruluş / ilk anılış / karakolun açılışı).
      İlçe/belediye/şehir STATÜSÜ günü f değildir; `not`a ic_not olarak yazılır.
@@ -74,7 +77,10 @@ HAVVA'ya özgü FARKLAR (bunlar ana brifin önündedir):
    - Yerleşim dönem başında yoksa (f ileri gider) eski kural geçerli: ONERI ile kırp.
 6f. Bölge kaynak ipuçları (5 Kasım gece, HAVVA ve UMIT turlarından):
    - Brezilya: cidades.ibge 403; ama `biblioteca.ibge.gov.br/visualizacao/dtb/<eyalet>/<belediye>.pdf`
-     belediye tarihçesi PDF'leri açılır (UMIT r8_106'da 8/8 KAYNAKLI). PDF'i sayfa.py oku ile çek.
+     belediye tarihçesi PDF'leri açılır (UMIT r8_106'da 8/8 KAYNAKLI). Ad kalıbı BİTİŞİK küçük harf, aksansız:
+     ör. `.../dtb/riograndedosul/lavrasdosul.pdf` (tireli ad 404 verir). sayfa.py sıkıştırılmış PDF'i çözmez:
+     PDF'i (küçük, <100 KB) scratchpad'e indirip `py -X utf8 "<scratchpad>\e4\pdfmini.py" <pdf-yolu>` ile oku
+     (HAVVA r8_056 ajanının yazdığı zlib çıkarıcı).
    - Meksika: INAH Ollin, UNAM-IIH (historicas.unam.mx). And: Revista del AGN Perú.
    - Kanada: DCB (biographi.ca), Justice Canada Order in Council metinleri, Parks Canada.
    - Kapalı: Te Ara / NZ History / DNZB / ADB (robots), banrepcultural (bot kalkanı), Florida Memory (robots),
