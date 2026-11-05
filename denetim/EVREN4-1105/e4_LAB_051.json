@@ -11,7 +11,7 @@
    "kaynak": "Bakilan: TDV 'Eritre' (islamansiklopedisi.org.tr/eritre); TDV 'Etiyopya' (zincirde kayitli)",
    "alinti": "",
    "oneri": {},
-   "not": "TDV Eritre yalniz ULKE/bolge duzeyinde yil verir: Italyanlar 1885'te Masavva ve Beylul'u, 1889'da Asmara ve Keren'i aldi (yerlesim Nakfa degil). Nakfa'nin (Sahel) 1281-1889 arasinda Habesistan'a ait oldugunu gosteren kaynak bulunamadi; Sahel kuzeyi Habes imparatorlugu degil Masavva/Mısır/Beja cevresindeydi (ZAYIF_ATLAS: sahip supheli, f ve d teyitsiz). t 1889 ancak Keren/Asmara yil duzeyi; Nakfa'ya ozgu degil. Boslug merdiveni (4)(5): abi merkez Keren/Masavva kaynagi bu butcede aranmadi."
+   "not": "KARAR EMRELİC (gece-136): Uç kuralı: Keren 1941-03-27, Asmara 04-01, Massawa 04-08; TDV 03-28 hangi olayı tarihliyor bakılacak (Asmara ise ikinci kaynakla sına, TDV esas + beyan); Nakfa'ya özgü gün yoksa bölge düzeyi Asmara 04-01; ONERI. | TDV Eritre yalniz ULKE/bolge duzeyinde yil verir: Italyanlar 1885'te Masavva ve Beylul'u, 1889'da Asmara ve Keren'i aldi (yerlesim Nakfa degil). Nakfa'nin (Sahel) 1281-1889 arasinda Habesistan'a ait oldugunu gosteren kaynak bulunamadi; Sahel kuzeyi Habes imparatorlugu degil Masavva/Mısır/Beja cevresindeydi (ZAYIF_ATLAS: sahip supheli, f ve d teyitsiz). t 1889 ancak Keren/Asmara yil duzeyi; Nakfa'ya ozgu degil. Boslug merdiveni (4)(5): abi merkez Keren/Masavva kaynagi bu butcede aranmadi."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
@@ -26,7 +26,7 @@
    "oneri": {
     "t": "1941-03-28"
    },
-   "not": "ÇELİŞKİ: TDV Asmara/Masavva 1941-03-28 alınış vs atlas 1941-04-01 — EMRELİC'e soruldu. | ULKE DUZEYI. TDV 'Eritre': Ingilizler Keren'de Italyan ordusunu yenip Asmara ve Masavva'yi ele gecirdi (28 Mart 1941). Atlas t 1941-04-01 (Asmara teslimi; kaynak zincirde Britannica = ipucu). TDV esas: cakisma ic_not'ta iki kaynakla beyan edilmeli (TDV 28 Mart 1941 / atlas 1 Nisan 1941). f 1936-06-01 (IDA kurulusu) bu kaynakta yok. Nakfa'ya ozgu tanik yok."
+   "not": "KARAR EMRELİC (gece-136): Uç kuralı: Keren 1941-03-27, Asmara 04-01, Massawa 04-08; TDV 03-28 hangi olayı tarihliyor bakılacak (Asmara ise ikinci kaynakla sına, TDV esas + beyan); Nakfa'ya özgü gün yoksa bölge düzeyi Asmara 04-01; ONERI. | ÇELİŞKİ: TDV Asmara/Masavva 1941-03-28 alınış vs atlas 1941-04-01 — EMRELİC'e soruldu. | ULKE DUZEYI. TDV 'Eritre': Ingilizler Keren'de Italyan ordusunu yenip Asmara ve Masavva'yi ele gecirdi (28 Mart 1941). Atlas t 1941-04-01 (Asmara teslimi; kaynak zincirde Britannica = ipucu). TDV esas: cakisma ic_not'ta iki kaynakla beyan edilmeli (TDV 28 Mart 1941 / atlas 1 Nisan 1941). f 1936-06-01 (IDA kurulusu) bu kaynakta yok. Nakfa'ya ozgu tanik yok."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
@@ -39,7 +39,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/eritre",
    "alinti": "Etiyopya yönetimi 14 Kasım 1962’de ... Eritre’nin özerk statüsünü kaldırarak bölgeyi eyalet haline getirdi",
    "oneri": {},
-   "not": "ULKE DUZEYI (Eritre federasyonunun feshi, eyalete donusturme = idareye katma; TAHRIR olcutu: s). f ucu GUN duzeyinde TDV ile teyitli. t 1974-09-12 bu kaynakta yok. Yerlesim ayrica el degistirmemis (Nakfa'nin EPLF denetimine gecisi 1970 sonu-1977 sonrasi kaynaksiz hatirlatma: rakip denetim icin ayri kaynak aranmadi)."
+   "not": "KARAR EMRELİC (gece-136): Uç kuralı: Keren 1941-03-27, Asmara 04-01, Massawa 04-08; TDV 03-28 hangi olayı tarihliyor bakılacak (Asmara ise ikinci kaynakla sına, TDV esas + beyan); Nakfa'ya özgü gün yoksa bölge düzeyi Asmara 04-01; ONERI. | ULKE DUZEYI (Eritre federasyonunun feshi, eyalete donusturme = idareye katma; TAHRIR olcutu: s). f ucu GUN duzeyinde TDV ile teyitli. t 1974-09-12 bu kaynakta yok. Yerlesim ayrica el degistirmemis (Nakfa'nin EPLF denetimine gecisi 1970 sonu-1977 sonrasi kaynaksiz hatirlatma: rakip denetim icin ayri kaynak aranmadi)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
@@ -52,7 +52,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/eritre",
    "alinti": "24 Mayıs’ta ülkenin bağımsızlığı ilân edildi",
    "oneri": {},
-   "not": "TDV 'Eritre': Etiyopya'da Mayis 1991'de hukumet degisimi Eritre'yi fiilen ozerk kildi; halk oylamasi 28 Nisan 1993, bagimsizlik ilani 24 Mayis (1993). Atlas f 1991-05-24 kunyede 'fiili' olarak beyanli; TDV'de yalniz AY (Mayis 1991) var, 24 gunu 1991 icin TDV'de yok -> KAYNAKLI verilmedi, oneri yok. Nakfa EPLF'nin 1978-91 fiili denetimindeydi (rakip hukumet = fiili kontrol); Derg donemi (1974-1991) Nakfa icin ayri sorgulanmali (kaynak aranmadi)."
+   "not": "KARAR EMRELİC (gece-136): Uç kuralı: Keren 1941-03-27, Asmara 04-01, Massawa 04-08; TDV 03-28 hangi olayı tarihliyor bakılacak (Asmara ise ikinci kaynakla sına, TDV esas + beyan); Nakfa'ya özgü gün yoksa bölge düzeyi Asmara 04-01; ONERI. | TDV 'Eritre': Etiyopya'da Mayis 1991'de hukumet degisimi Eritre'yi fiilen ozerk kildi; halk oylamasi 28 Nisan 1993, bagimsizlik ilani 24 Mayis (1993). Atlas f 1991-05-24 kunyede 'fiili' olarak beyanli; TDV'de yalniz AY (Mayis 1991) var, 24 gunu 1991 icin TDV'de yok -> KAYNAKLI verilmedi, oneri yok. Nakfa EPLF'nin 1978-91 fiili denetimindeydi (rakip hukumet = fiili kontrol); Derg donemi (1974-1991) Nakfa icin ayri sorgulanmali (kaynak aranmadi)."
   }
  ],
  "Mukalla": [
@@ -71,7 +71,7 @@
     "d": "ingiltere",
     "ek": "s: kuayti-sultanligi (kunye mevcut) 1888-05-01 oncesinden 1967'ye"
    },
-   "not": "Himaye kuralı: 1888 İngiliz koruma antlaşması → s: kuayti-sultanligi + v: ingiltere (Hadramut gece-128 emsali); gün kaynakla. | HIMAYE KURALI: 1888-05-01 antlasmasi (Protectorate Treaty No. LXXI, Qu'aiti Jemadar Abdulla bin Umar ile; Vikipedi ipucu, metin okunmadi) himayedir -> yerli monarsi s: sürer, Ingiltere v:. Mukalla'nin Qu'aiti baskenti oldugu 1866/1858 oncesi (zincirde yok): f 1888 yer tutucu degil ama 1888 oncesi bos. TDV 'Yemen' Guney Yemen'in 'himaye yonetimi' oldugunu soyler (tarih yok). Kunye kuayti-sultanligi f/t kontrol edilmeli (hayalet devlet)."
+   "not": "KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | Himaye kuralı: 1888 İngiliz koruma antlaşması → s: kuayti-sultanligi + v: ingiltere (Hadramut gece-128 emsali); gün kaynakla. | HIMAYE KURALI: 1888-05-01 antlasmasi (Protectorate Treaty No. LXXI, Qu'aiti Jemadar Abdulla bin Umar ile; Vikipedi ipucu, metin okunmadi) himayedir -> yerli monarsi s: sürer, Ingiltere v:. Mukalla'nin Qu'aiti baskenti oldugu 1866/1858 oncesi (zincirde yok): f 1888 yer tutucu degil ama 1888 oncesi bos. TDV 'Yemen' Guney Yemen'in 'himaye yonetimi' oldugunu soyler (tarih yok). Kunye kuayti-sultanligi f/t kontrol edilmeli (hayalet devlet)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1381",
@@ -84,7 +84,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/yemen",
    "alinti": "Güney Yemen ile Aden’in 1967’de bağımsızlığına kavuşmasıyla sonuçlandı",
    "oneri": {},
-   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV 'Yemen' (Halil Kurt). Gun 1967-11-30 TDV'de yok. Mukalla ayrica Qu'aiti sultanliginin 1967 Eylul'de devrilmesiyle el degistirdi (kaynak okunmadi)."
+   "not": "KARAR EMRELİC (gece-136): ONAY: s: kuayti + v: ingiltere 1888. | [yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV 'Yemen' (Halil Kurt). Gun 1967-11-30 TDV'de yok. Mukalla ayrica Qu'aiti sultanliginin 1967 Eylul'de devrilmesiyle el degistirdi (kaynak okunmadi)."
   }
  ],
  "Nassau (New Providence)": [
@@ -175,7 +175,7 @@
     "t": "1919-06-28",
     "isg": "ingiltere 1916-07-14 -> 1922-07-20 eklenmeli"
    },
-   "not": "ÖNCEKİ KARAR (Tanganika zinciri): isg ingiltere 1916-07-14 (kaynakla) → s: ingiltere 1919-06-28 (Versay) → ingiliz-tanganika-mandasi 1922-07-20. | IPUCU (okunmus akademik kaynak yok). TEK KURAL: savas isgali ilhak/devre dek isg: Alman Doguafrika'si s: 1919-06-28 Versay'a dek, Mwanza'da 14 Temmuz 1916'dan isg ingiltere; s: ingiliz-tanganika-mandasi 1922-07-20 (karar listesi). Atlas 1916-09-01 hangi olaya dayaniyor belli degil. f 1892 Mwanza Alman istasyonu: kaynak bulunamadi (arama 1892'yi dogrulamadi; 'Bismarck-Burg' Kasanga'dir)."
+   "not": "KARAR EMRELİC (gece-136): ONAY: Tanganika zinciri. | ÖNCEKİ KARAR (Tanganika zinciri): isg ingiltere 1916-07-14 (kaynakla) → s: ingiltere 1919-06-28 (Versay) → ingiliz-tanganika-mandasi 1922-07-20. | IPUCU (okunmus akademik kaynak yok). TEK KURAL: savas isgali ilhak/devre dek isg: Alman Doguafrika'si s: 1919-06-28 Versay'a dek, Mwanza'da 14 Temmuz 1916'dan isg ingiltere; s: ingiliz-tanganika-mandasi 1922-07-20 (karar listesi). Atlas 1916-09-01 hangi olaya dayaniyor belli degil. f 1892 Mwanza Alman istasyonu: kaynak bulunamadi (arama 1892'yi dogrulamadi; 'Bismarck-Burg' Kasanga'dir)."
   }
  ],
  "Mvembe (Mataka)": [
@@ -210,7 +210,7 @@
     "d": "yeni-granada-valiligi (1558-1777), sonra 1777-09-08'den Venezuela Genel Kaptanligi",
     "f": "yerlesim yeri farkli: 1558-10-09 San Juan de Lagunillas'ta kuruldu, bugunku yere tasindi (tarih kaynaksiz)"
    },
-   "not": "SAHIP HATASI: kunye ispanyol-peru = Peru Genel Valiligi (1542-1824); Mérida (Pamplona/Tunja) Yeni Granada Valiligi/Santa Fe Audiencia'sina bagli, 1777-09-08 Real Cedula ile Venezuela Genel Kaptanligina gecti (ipucu seviyesi, sayfa okunmadi). Peru ile hicbir idari bag yok -> d degismeli. MERDIVEN 4: atlas koordinati (8.5933,-71.1739) bugunku Mérida'dir; 1558-10-09'da kurulan sehir ilk yerinde (Lagunillas) idi, tasima 1560 (kaynaksiz) -> f yeni yer icin 1558-10-09 degil olabilir. t 1821-06-24 (Carabobo) icin kaynak yok; Mérida 1810-09-16'da cuntayla Ispanya'dan ayrildi (kaynaksiz hatirlatma). Kunye kontrolu: yeni-granada-valiligi f/t denetlenmeli."
+   "not": "KARAR EMRELİC (gece-136): KASA'nın Yeni Granada listesinde var → KASA esas, LAB yazmaz; 1558 Lagunillas merdiveni notu KASA'ya iletildi. | SAHIP HATASI: kunye ispanyol-peru = Peru Genel Valiligi (1542-1824); Mérida (Pamplona/Tunja) Yeni Granada Valiligi/Santa Fe Audiencia'sina bagli, 1777-09-08 Real Cedula ile Venezuela Genel Kaptanligina gecti (ipucu seviyesi, sayfa okunmadi). Peru ile hicbir idari bag yok -> d degismeli. MERDIVEN 4: atlas koordinati (8.5933,-71.1739) bugunku Mérida'dir; 1558-10-09'da kurulan sehir ilk yerinde (Lagunillas) idi, tasima 1560 (kaynaksiz) -> f yeni yer icin 1558-10-09 degil olabilir. t 1821-06-24 (Carabobo) icin kaynak yok; Mérida 1810-09-16'da cuntayla Ispanya'dan ayrildi (kaynaksiz hatirlatma). Kunye kontrolu: yeni-granada-valiligi f/t denetlenmeli."
   }
  ],
  "Münster": [
@@ -289,7 +289,7 @@
    "oneri": {
     "t": "1870-07-15"
    },
-   "not": "ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara/Yukon → 1870-07-15 Rupert's Land/North-Western Territory ülke düzeyi BEYANLI. | ULKE DUZEYI, BEYANLI (karar: Rupert's Land 1870-07-15, anakara Arktik dahil). Rupert's Land and North-Western Territory Order (Konsey karari 23 Haziran 1870, Justice Canada Enactment No. 3): 15 Temmuz 1870'ten itibaren Kanada'ya katildi. Naujaat Hudson Korfezi anakarasinda (Rupert's Land); 1880-09-01 yalniz Arktik ADALAR (British Arctic Territories) icin gecerli. Bu yerlesim Kanada idaresi fiilen yok ama hukukî devir; TAHRIR olcutu: yasa ile idareye katma. Kunye inuit t 1880-09-01 ayrica tashih edilmeli; ruperts-land kunyesi de mevcut (HBC)."
+   "not": "KARAR EMRELİC (gece-136): ONAY: 1870-07-15 BEYANLI. | ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara/Yukon → 1870-07-15 Rupert's Land/North-Western Territory ülke düzeyi BEYANLI. | ULKE DUZEYI, BEYANLI (karar: Rupert's Land 1870-07-15, anakara Arktik dahil). Rupert's Land and North-Western Territory Order (Konsey karari 23 Haziran 1870, Justice Canada Enactment No. 3): 15 Temmuz 1870'ten itibaren Kanada'ya katildi. Naujaat Hudson Korfezi anakarasinda (Rupert's Land); 1880-09-01 yalniz Arktik ADALAR (British Arctic Territories) icin gecerli. Bu yerlesim Kanada idaresi fiilen yok ama hukukî devir; TAHRIR olcutu: yasa ile idareye katma. Kunye inuit t 1880-09-01 ayrica tashih edilmeli; ruperts-land kunyesi de mevcut (HBC)."
   }
  ],
  "Newcastle": [
@@ -334,9 +334,9 @@
    "kaynak": "Arama ozeti: History Nebraska (history.nebraska.gov doc_1730am B1F1 Chapter 1; doc_Fort-McPherson-Nebraska-RG503.pdf; acilmadi) ve Vikipedi 'Fort McPherson, Nebraska' (ipucu)",
    "alinti": "",
    "oneri": {
-    "f": "yer baska konuma ait: Fort McPherson (Cantonment McKean/Fort Cottonwood) 1863 Eylul-Kasim, Maxwell yakininda (North Platte kentinde degil); North Platte kenti kurulusu icin kaynak aranmadi"
+    "f": "1866 (demiryolu kasabası, kaynakla)"
    },
-   "not": "MERDIVEN 4: atlas koordinati (41.124,-100.765) North Platte KENTINE aittir; 1863'te kurulan Fort McPherson Platte nehrinin guneyinde, Maxwell yakinindadir (kaynaklar Eylul/Ekim/Kasim 1863 ayrilir; 27 Eylul 1863 bir kaynak). Ad 'Fort McPherson' 1866'da (26 Subat 1866 / 20 Ocak 1866 farkli kaynaklar) verildi. f 1863 bu koordinat icin dogru degil olabilir -> kent kurulus tarihi (Union Pacific, 1866 civari, kaynaksiz) incelenmeli. ULKE DUZEYI: Nebraska 1803 Louisiana Purchase'ten beri ABD, 1867 eyalet; Sioux/Cheyenne baski altinda ama ABD toprağı. Okunmus akademik kaynak yok (arama ozeti)."
+   "not": "KARAR EMRELİC (gece-136): Fort McPherson ayrı yer; f 1866 (demiryolu kasabası, kaynakla) ONERI. | MERDIVEN 4: atlas koordinati (41.124,-100.765) North Platte KENTINE aittir; 1863'te kurulan Fort McPherson Platte nehrinin guneyinde, Maxwell yakinindadir (kaynaklar Eylul/Ekim/Kasim 1863 ayrilir; 27 Eylul 1863 bir kaynak). Ad 'Fort McPherson' 1866'da (26 Subat 1866 / 20 Ocak 1866 farkli kaynaklar) verildi. f 1863 bu koordinat icin dogru degil olabilir -> kent kurulus tarihi (Union Pacific, 1866 civari, kaynaksiz) incelenmeli. ULKE DUZEYI: Nebraska 1803 Louisiana Purchase'ten beri ABD, 1867 eyalet; Sioux/Cheyenne baski altinda ama ABD toprağı. Okunmus akademik kaynak yok (arama ozeti)."
   }
  ],
  "Nikolskoye (Bering Adası, Komandor)": [
@@ -353,7 +353,7 @@
    "oneri": {
     "f": "1826-01-01 (yalniz yıl; Ruslar 1825'te Attu Aleutlari yerlestirdi, Nikolskoye 1826 — kaynaklar farkli)"
    },
-   "not": "MERDIVEN 4: atlas koordinati Nikolskoye koyudur; Komandor Adalari 1825'e dek KALICI YERLESIM YOKTU (RAC av partileri). 1741 Bering'in gemi kazasi/adayi bulusu (Rusya iddiasi, yil teyitli, gun teyitsiz) ada duzeyidir, yerlesimin f'si degil: f 1825/1826. Tum kaynaklar ipucu (Vikipedi, kupi, rbth); akademik okunmadi. t 1917-03-15 (II. Nikolay'in tahtan feragati, 2 Mart O.S. = 15 Mart Gregoryen): Office of the Historian sayfasi bulunamadi, akademik gövde okunmadi."
+   "not": "KARAR EMRELİC (gece-136): 1826 ONAY (öncesi kırp). | MERDIVEN 4: atlas koordinati Nikolskoye koyudur; Komandor Adalari 1825'e dek KALICI YERLESIM YOKTU (RAC av partileri). 1741 Bering'in gemi kazasi/adayi bulusu (Rusya iddiasi, yil teyitli, gun teyitsiz) ada duzeyidir, yerlesimin f'si degil: f 1825/1826. Tum kaynaklar ipucu (Vikipedi, kupi, rbth); akademik okunmadi. t 1917-03-15 (II. Nikolay'in tahtan feragati, 2 Mart O.S. = 15 Mart Gregoryen): Office of the Historian sayfasi bulunamadi, akademik gövde okunmadi."
   }
  ],
  "Nome": [
@@ -430,7 +430,7 @@
    "oneri": {
     "t": "1792-09-21"
    },
-   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale KAYNAKLI); TDV 22 Eylül ic_not. | ULKE DUZEYI. TDV 'Fransa': 10 Agustos 1792'de kral tahttan indirildi ve '22 Eylül’de de cumhuriyet ilân edildi' -> atlas t ile ayni. Alıntı yalnız t ucunu tarihliyor (Convention'un krallığı kaldırması 21 Eylül, kaynak okunmadı); f 1281: Languedoc 1229 Meaux-Paris (kayitlı KUTU kaynagi), Nîmes seneschal merkezi — okunmadi."
+   "not": "KARAR EMRELİC (gece-136): ONAY: 1792-09-21. | ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale KAYNAKLI); TDV 22 Eylül ic_not. | ULKE DUZEYI. TDV 'Fransa': 10 Agustos 1792'de kral tahttan indirildi ve '22 Eylül’de de cumhuriyet ilân edildi' -> atlas t ile ayni. Alıntı yalnız t ucunu tarihliyor (Convention'un krallığı kaldırması 21 Eylül, kaynak okunmadı); f 1281: Languedoc 1229 Meaux-Paris (kayitlı KUTU kaynagi), Nîmes seneschal merkezi — okunmadi."
   }
  ],
  "Norway House": [
@@ -492,7 +492,7 @@
    "oneri": {
     "t": "1751-01-01 (reduccion terk; Cangapol baskısı; yıl)"
    },
-   "not": "MERDIVEN 4: reduccion 1746-1747'de kuruldu (kaynaklar 1746/1747 arasında ayrılıyor), 1751'de terk edildi (yerel gazete, ipucu); atlas ise 1810-05-25'e dek Ispanya yazıyor — yer terk sonrası yok; kırp önerisi. Kesin yer bilinmiyor (Laguna de los Padres civarı). Ulke duzeyi Mayıs Devrimi 1810-05-25 icin kaynak yok. Sayfa acilamadigi icin KAYNAKLI yok."
+   "not": "KARAR EMRELİC (gece-136): t 1751 terk ONAY (sonrası kırp). | MERDIVEN 4: reduccion 1746-1747'de kuruldu (kaynaklar 1746/1747 arasında ayrılıyor), 1751'de terk edildi (yerel gazete, ipucu); atlas ise 1810-05-25'e dek Ispanya yazıyor — yer terk sonrası yok; kırp önerisi. Kesin yer bilinmiyor (Laguna de los Padres civarı). Ulke duzeyi Mayıs Devrimi 1810-05-25 icin kaynak yok. Sayfa acilamadigi icin KAYNAKLI yok."
   }
  ],
  "Old Crow (Vuntut Gwitchin)": [
@@ -509,7 +509,7 @@
    "oneri": {
     "t": "1870-07-15"
    },
-   "not": "ULKE DUZEYI, BEYANLI. Yukon, Kuzeybati Bolgesi (North-Western Territory) icindeydi (Yukon Bolgesi 1898'de ayrildi); Konsey karari (23 Haziran 1870) bolgeyi 15 Temmuz 1870'ten Kanada'ya katti. Dene kunyesi t=1899-06-21 Antlasma 8 (imza 1899-06-21) ile alakali; Old Crow Antlasma 8 alani degil -> t'yi 1870-07-15 yapin, kanada f 1870-07-15. Bolgenin Kanada tarafindan fiilen yonetilmesi onemli oranda sonra (Klondike 1898 Yukon Field Force); TEK OLCU teslim gunu: Kanada fiilen yonetmiyor olabilir; hukuki devir esas (karar gece listesi)."
+   "not": "KARAR EMRELİC (gece-136): ONAY: 1870-07-15 BEYANLI. | ULKE DUZEYI, BEYANLI. Yukon, Kuzeybati Bolgesi (North-Western Territory) icindeydi (Yukon Bolgesi 1898'de ayrildi); Konsey karari (23 Haziran 1870) bolgeyi 15 Temmuz 1870'ten Kanada'ya katti. Dene kunyesi t=1899-06-21 Antlasma 8 (imza 1899-06-21) ile alakali; Old Crow Antlasma 8 alani degil -> t'yi 1870-07-15 yapin, kanada f 1870-07-15. Bolgenin Kanada tarafindan fiilen yonetilmesi onemli oranda sonra (Klondike 1898 Yukon Field Force); TEK OLCU teslim gunu: Kanada fiilen yonetmiyor olabilir; hukuki devir esas (karar gece listesi)."
   }
  ],
  "Olonets": [

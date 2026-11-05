@@ -15,6 +15,8 @@ EMRELİC "gece-NN" kararlarının ajanlara verilen özeti. Ayrıntı ve gerekçe
 - Hicrî: tek tabular Perşembe varyantı (1 Rebîülevvel 923 = 1517-03-23 J), JDN; kesişimin ilk günü yalnız günlü kaynak yoksa yedek.
 - Takvim: 1582 öncesi Jülyen kalır; Britanya 1752, Rusya 1918, Romanya 1919'a dek O.S. → Gregoryen (O.S. ic_not).
 
+- Yarı açık aralık (denetle [f, t)): bir künyenin/dönemin t'si ardılının f günüdür; "son gün" yazılmaz (EMRELİC, Ming/Savoya düzeltmesi).
+
 ## Günler
 Londra 1913-05-30 · Tunus v: fransa 1881-05-12 → 1956-03-20 · Doğu Cezayir Hafsî · Fizan 1551 / fiilî 1838-42 ·
 Trablusgarp Karamanlı 1711 / merkeze bağlanma 1835 · Musul → 1921-08-23 · iç Suriye 1918-10 → 1920-07-25 ·
