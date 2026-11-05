@@ -1,0 +1,520 @@
+{
+ "Fülek (Fiľakovo)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:188",
+   "alan": "v",
+   "d": "orta-macar-kralligi",
+   "f": "1682-09-16",
+   "t": "1685-10-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi arama sonucu 'fulek' (madde içi parça, TÖKÖLİ, İmre) — https://islamansiklopedisi.org.tr/arama/fulek",
+   "alinti": "İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde İmre Tököli'ye",
+   "oneri": {},
+   "not": "TDV arama parçası 16 Eylül'de Fülek Kalesi önünde Tököli ile buluşmayı gösteriyor (yıl 1682 parçada yok); Tököli maddesinin gövdesi açılamadı (slug tahmini arama sayfasına döndü), SLOVAKYA maddesi parçası yalnız 'Filek Kalesi'ni ele…' diyor. f=1682-09-16 için gövde okunup yıl ve olay (teslim mi, buluşma mı) teyit edilmeli. 'v:' (himaye/tabi) tahrir ölçütü: kaynak susuyor. Madde gövdesi açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:188",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1945-04-04",
+   "t": "1993-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Çekoslovakya' (T. Sabri Erdil / Davut Dursun) — https://islamansiklopedisi.org.tr/cekoslovakya",
+   "alinti": "Çekoslovakya’nın bölünmesi, 1 Ocak 1993 tarihinde tamamlandı",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ, 1993-01-01 TDV + history.state.gov/countries/slovakia teyitli). f=1945-04-04 (Fiľakovo'nun Macar idaresinden dönüşü) için kaynak bulunamadı: arama (Slovak/İngilizce) Fiľakovo'ya özgü 1945 günü vermedi; atlas f günü 'komşudan' (Komárom). Yalnız t teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:188",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/slovakia",
+   "alinti": "on January 1, 1993, Slovakia and the Czech Republic became two separate autonomous countries",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f=1993-01-01 teyitli (Office of the Historian, devletin resmî tarih yayını, birebir cümle). TDV Çekoslovakya da 1 Ocak 1993'ü verir. Fiľakovo o tarihte ayrıca el değiştirmedi. Slovakya bağımsızlık ilanı Temmuz 1992 (aynı sayfa) — atlas künyesi f=1993-01-01 (hukukî ayrılık günü)."
+  }
+ ],
+ "Galway": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:140",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV 'irlanda' (arama: madde içi eşleşme yok), history.state.gov/countries/ireland (yalnız 1924 tanıma), irlanda maddesi Galway'e özgü f vermedi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Galway için Anglo-Norman/İngiliz hâkimiyet başlangıcı (de Burgh 1230'lar) ve 1281 f ucu kabul edilen kaynakta bulunamadı; f=1281-01-01 ufuk işaretidir. t ucu 1922-12-06 için zincirde kayıtlı Irish Free State Act kaynağı mevcut (yerleşim tanıklığı değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:140",
+   "alan": "s",
+   "d": "irlanda-cumhuriyeti",
+   "f": "1937-12-29",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Constitution of Ireland, Irish Statute Book (Attorney General) — https://www.irishstatutebook.ie/eli/cons/en/",
+   "alinti": "In operation as from 29th December, 1937",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-124 Donegal): 1937-12-29 künye geçişi (Serbest Devlet → Éire), zincir bitişik. | ÜLKE DÜZEYİ: Anayasa 29 Aralık 1937'de yürürlüğe girdi (md.4: devletin adı Éire/Ireland). Devletin kendi resmî yayını, birebir. Cumhuriyet ilanı 1949-04-18 ayrı olay (Republic of Ireland Act 1948); atlas künyesi 1937-12-29. Galway'in o tarihte ayrıca el değiştirmesi yok."
+  }
+ ],
+ "Gangtok": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:40",
+   "alan": "s",
+   "d": "sikkim-krallik",
+   "f": "1642-01-01",
+   "t": "1975-05-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: TDV 'sikkim' (arama: yalnız Hindistan maddesi parçası), constitution.org 36. Değişiklik metni",
+   "alinti": "",
+   "oneri": {},
+   "not": "Namgyal hanedanı/1642 (Phuntsog Namgyal) ve Gangtok'un başkentliği için kabul edilen akademik kaynak bulunamadı (TDV Sikkim maddesi yok). Britannica atlandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:40",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1975-05-16",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Constitution (Thirty-sixth Amendment) Act, 1975, md.1(2) — https://www.constitution.org/cons/india/tamnd36.htm",
+   "alinti": "deemed to have come into force on the date on which the Bill",
+   "oneri": {},
+   "not": "Kanun md.1(2): yürürlük, Tasarının Rajya Sabha'da (Council of States) kabul edildiği gündür (metin günü vermiyor); arama özetlerinde 26 Nisan 1975 ve 16 Mayıs 1975 (Gazete/yürürlük) çelişiyor, seçmiyorum. TEK ÖLÇÜ: Hindistan Mayıs 1975'te zaten fiilen yönetiyorsa imza/geçiş günü; 16 Mayıs günü kaynakta doğrulanamadı. Kanun metni birincil belge, gün bakımından çözümsüz."
+  }
+ ],
+ "Garbahârey": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:682",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Bakılan: TDV 'somali' (Benadir Şirketi tasfiyesi/1905 doğrudan yönetim geçmiyor), Treccani 'Somalia' (sayfa boş döndü)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-116/124 Alula/Hobyo emsali): s: somali + v: italya (koruma antlaşması) → 1925–27 fetihle doğrudan idare s: italyan-somali (isg değil); Oltregiuba 1925-06-30 devri (Ceel Waaq kararı) Garbahârey için ölçülecek. | 1905-01-01 İtalyan Somalisi doğrudan idare geçişi TDV'de yok; Garbahârey (Oltre Giuba) ayrıca 1925'te Britanya'dan İtalya'ya geçti (Londra 1924 anlaşması, Oltregiuba; kaynaksız bilgi, bu oturumda doğrulanmadı) — zincirdeki 1905-1936 İtalya dönemi bu yer için sorunlu olabilir, Oltregiuba 1925 kaynağı bu bütçede bulunamadı. f 1281 ufuk işaretidir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:682",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-02-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani, Dizionario di Storia (2011), 'Africa orientale italiana' — https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01. | ÖNCEKİ KARAR (gece-116/124 Alula/Hobyo emsali): s: somali + v: italya (koruma antlaşması) → 1925–27 fetihle doğrudan idare s: italyan-somali (isg değil); Oltregiuba 1925-06-30 devri (Ceel Waaq kararı) Garbahârey için ölçülecek. | ÜLKE DÜZEYİ: AOI 1 Haziran 1936 kraliyet kararnamesiyle (Somali + Eritre + Habeş) oluşturuldu; Treccani Dizionario di Storia güncel madde. Yerleşim o tarihte ayrıca el değiştirmedi. t=1941-02-25 bu bütçede ayrıca bakılmadı."
+  }
+ ],
+ "Garove": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:822",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Somali' — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-116/124 Alula/Hobyo emsali): s: somali + v: italya (koruma antlaşması) → 1925–27 fetihle doğrudan idare s: italyan-somali (isg değil); Oltregiuba 1925-06-30 devri (Ceel Waaq kararı) Garbahârey için ölçülecek. | Alıntı yalnız t ucunu (1927) tarihliyor; f=1281 ufuk işaretidir. TDV 'işgal' diyor: idareye katma belgesi (vergi/defter/birim) kaynakta yok — tahrir ölçütü: kaynak susuyor; s: mı isg: mi seçmiyorum. Garove (Garowe) Mudug/Nugaal, Majerteen-Obbia sultanlıkları alanı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:822",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Somali' — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-116/124 Alula/Hobyo emsali): s: somali + v: italya (koruma antlaşması) → 1925–27 fetihle doğrudan idare s: italyan-somali (isg değil); Oltregiuba 1925-06-30 devri (Ceel Waaq kararı) Garbahârey için ölçülecek. | f=1927 yıl düzeyinde TDV ile uyumlu, ama TDV olayı 'işgal' olarak anlatıyor (savaş işgali s: yazılmışsa isg önerilir kuralı); tahrir ölçütü: kaynak susuyor (idareye katma günü/belgesi bulunamadı). Aynı yerel sultanlıklar 1889 İtalyan himayesi altındaydı (bilgi, bu oturumda kaynaklanmadı). İtalyan Somalisi künyesi f=1905-03-19; hayalet devlet yok."
+  }
+ ],
+ "Gizo": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:49",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1893-01-01",
+   "t": "1978-07-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Solomon Islands Historical Encyclopaedia 1893-1978 (ANU), 'British Solomon Islands Protectorate, Proclamation of' — https://solomonencyclopaedia.net/biogs/E000042b.htm ; 'Gizo' — https://solomonencyclopaedia.net/biogs/E000120b.htm",
+   "alinti": "The Pacific Order in Council 1893, proclaimed on 15 March 1893, declared a Protectorate over the Solomon Islands",
+   "oneri": {},
+   "not": "ÜÇ TARİH ÇELİŞİYOR, seçmiyorum: Pacific Order in Council 15 Mart 1893 (hukukî), naval ilan Haziran-Temmuz 1893 (ilk okunuş Mono 11 Haziran), Gizo'ya özgü idare: 1899'da ikinci hükûmet istasyonu kuruldu, yer temizliği Kasım 1899 ('no-man's land' — Batı Solomon 1893'te fiilî idare dışı olabilir). f=1893-01-01 yıl düzeyinde ortak yıl; gün için kaynak 1893-03-15 öneriyor ama Gizo özgü f 1899 olabilir (tahrir ölçütü: ayrıca sorulmalı). Himaye = v:/protektora, s: ingiltere; Solomon yerel polity yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:49",
+   "alan": "s",
+   "d": "solomon-adalari",
+   "f": "1978-07-07",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, Solomon Islands — https://history.state.gov/countries/solomon-islands",
+   "alinti": "The United States recognized the Solomon Islands on July 7, 1978",
+   "oneri": {},
+   "not": "history.state.gov yalnız 'tanıma' cümlesi veriyor (bağımsızlık yılı 1978 aynı sayfada; gün tanıma günü) — KAYNAKLI verilmedi. Bağımsızlık günü 1978-07-07 için bağımsız ikinci kaynak bu bütçede bulunamadı."
+  }
+ ],
+ "Hadramut": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1410",
+   "alan": "s",
+   "d": "kuayti-sultanligi",
+   "f": "1881-01-01",
+   "t": "1967-11-30",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hadramut' — https://islamansiklopedisi.org.tr/hadramut",
+   "alinti": "iç bölgeleri Kesîrîler’e bıraktılar",
+   "oneri": {
+    "d": "kesiri-sultanligi",
+    "not": "iç vadi (Şibâm/Sayvan/Terîm) Kesîrî; Kuaytî yalnız sahil (TDV)"
+   },
+   "not": "LAB SALI ölçümü: kesiri-sultanligi künyesi VAR (1450–1967). TDV: Kuaytîler 1881 sonunda yalnız sahili aldı, iç bölgeler Kesîrî'de → nokta 15.5K 48.5D iç vadide → s: kesiri-sultanligi (+ İngiliz himayesi v:, kaynakla). | TDV: Kuaytîler İngilizler desteğiyle 1881 sonunda Şihr ve Mükellâ dahil Hadramut SAHİLİNİ ele geçirdi (f yıl düzeyinde doğrulanır); ama iç bölgeler Kesîrîler'de kaldı (Şibâm, Sayvan, Terîm; 'Hadramut' noktası 15.5N 48.5E iç Vadi). Nokta iç bölgede ise kuayti-sultanligi sahibi yanlış olabilir: Kesîrî (Kathiri) sultanlığı künyesi için depo grep'lenmedi (bu ajan depoya dokunmaz) — künye sorusu LAB'a. 1888 İngiliz himayesi (Yâfiî sahil) v:. t=1967-11-30 için history.state.gov bağımsızlık günü (Güney Yemen) var; Kuaytî sultanlığı kendi sonu ayrıca kaynaklanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1410",
+   "alan": "s",
+   "d": "guney-yemen",
+   "f": "1967-11-30",
+   "t": "1990-05-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, Yemen — https://history.state.gov/countries/yemen",
+   "alinti": "People’s Republic of Southern Yemen gained independence on November 30, 1967",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f=1967-11-30 teyitli (devletin resmî tarih yayını, 'gained independence' cümlesi, tanıma değil). TDV Yemen de 1967 bağımsızlığını yıl düzeyinde verir. Hadramut'un o günde NLF/Güney Yemen'e katılımı ayrıca kaynaklanmadı (iç sultanlıklar Eylül 1967'de devrildi — kaynaksız bilgi)."
+  }
+ ],
+ "Fort Resolution (Deninu Kų́ę́)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:331",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1786-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, 'Fort Resolution National Historic Site of Canada' — https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=326",
+   "alinti": "built in 1819 by the Hudson’s Bay Company, this is the oldest continuously occupied place",
+   "oneri": {
+    "f": "1819-01-01"
+   },
+   "not": "Kaynakta 1786 yok: Fort Resolution 1819'da HBC (Aualay McAulay) tarafından kuruldu; öncülü Grant's Slave Fort 1791'de Slave Nehri ağzı yakınına yerleşti (aynı sayfa). Yer adı Fort Resolution olduğu için 1819 öneriliyor; alternatif 1791 (Grant's post). Yalnız yıl. t=1870-07-15 (Rupert's Land devri) zincirdeki Kanada Konsey Kararı ile hizalı."
+  }
+ ],
+ "Fort Riley (Kansas Irmağı)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1161",
+   "alan": "s",
+   "d": "abd",
+   "f": "1853-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Kansas Historical Society (devlet kurumu), Kansapedia 'Fort Riley' — https://www.kansashistory.gov/kansapedia/fort-riley/16801",
+   "alinti": "Fort Riley was established in 1852 along the Santa Fe Trail",
+   "oneri": {
+    "f": "1852-01-01"
+   },
+   "not": "Kansapedia kuruluşu 1852 veriyor (atlas 1853). Kurum/dernek sınıfı olduğundan KAYNAKLI verilmedi; Ordu kaynakları 1852 (Camp Center) / 1853 (Fort Riley adı) ayrımı yapabilir — çelişki seçilmedi, yalnız yıl. ABD egemenliği Louisiana Satın Alması 1803 (bu oturumda kaynaklanmadı)."
+  }
+ ],
+ "Fort Snelling (Bdote)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:977",
+   "alan": "s",
+   "d": "abd",
+   "f": "1819-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Minnesota Historical Society, 'Fort Snelling in the Expansionist Era' — https://www.mnhs.org/fortsnelling/learn/military-history/expansionist-era",
+   "alinti": "The first troops arrived in 1819 under the command of Lieutenant Colonel Henry Leavenworth",
+   "oneri": {},
+   "not": "f=1819 teyit (ilk birlikler 1819; taş kale inşaatı 1820; 1825 tamam) ama kaynak eyalet tarih derneği (İPUCU sınıfı) — KAYNAKLI verilmedi. Alan 1783 Paris (Mississippi doğusu) ABD'ye ait."
+  }
+ ],
+ "Fort St. James": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:558",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1806-01-01",
+   "t": "1871-07-20",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, 'Fort St. James National Historic Site of Canada' — https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=52",
+   "alinti": "Simon Fraser and John Stuart established Fort St. James among the Carrier Indians in 1806",
+   "oneri": {},
+   "not": "f=1806 YIL düzeyinde teyitli (devletin resmî tarih yayını, birebir). Kuruluş tarihi yer kuruluşudur; Britanya egemenliği iddiası (Nootka/1846 Oregon öncesi iç BC) ayrıca kaynaklanmadı. t=1871-07-20 bu bütçede ayrıca bakılmadı (zincirde BC Terms of Union kaynağı var)."
+  }
+ ],
+ "Fort Témiscamingue": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:876",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1679-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, 'Obadjiwan–Fort Témiscamingue NHS' — https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=729",
+   "alinti": "The first fort on this lake was built by the government of New France about 1685",
+   "oneri": {
+    "f": "1685-01-01"
+   },
+   "not": "Kaynakta 1679 yok: ilk kale Yeni Fransa hükûmetince 'yaklaşık 1685'te yapıldı, 1690'larda kapandı, 1720'de yeniden kuruldu (Parks Canada kültür sayfası: 'in 1720, the authorities of New France allowed the establishment of the first trading post on the current site'). Merdiven ④: 1690'lar-1720 arası yer yok olabilir. Yalnız yıl, 'yaklaşık'. Seçim: 1685 (ilk kale) vs 1720 (mevcut mevki)."
+  }
+ ],
+ "Fort Union Trading Post": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:834",
+   "alan": "s",
+   "d": "abd",
+   "f": "1828-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "National Park Service, Fort Union Trading Post NHS, History & Culture — https://www.nps.gov/fous/learn/historyculture/index.htm",
+   "alinti": "Astor's company built Fort Union near the Missouri and Yellowstone Rivers' confluence in 1828",
+   "oneri": {},
+   "not": "f=1828 YIL düzeyinde teyitli (devletin resmî tarih yayını, birebir). Kuruluş tarihi; ABD egemenliği Louisiana Satın Alması (1803) ayrıca kaynaklanmadı."
+  }
+ ],
+ "Fort Vermilion": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:429",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1788-01-01",
+   "t": "1870-07-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Parks Canada, Directory of Federal Heritage Designations, 'Fort Vermilion National Historic Site of Canada' — https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=25",
+   "alinti": "In 1788 Charles Boyer built the first post in this area",
+   "oneri": {},
+   "not": "f=1788 YIL düzeyinde teyitli (ilk Boyer's Post; kaynak: bugünkü yer 1828-31'de 90 km taşındı). BEYAN: bugünkü Fort Vermilion yeri 1828-1831'den, 1788 postunun yeri Peace Nehri yakınında (kalıntı yok). t=1870-07-15 zincirde Rupert's Land kaynaklı."
+  }
+ ],
+ "Fort Washakie (Wind River)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1053",
+   "alan": "s",
+   "d": "abd",
+   "f": "1869-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: NPS NRHP asset (npgallery, Camp Augur/Washakie) metni 1869'u vermedi; wyohistory.org (404); arama özetleri (Wikipedia, county10, legendsofamerica) İPUCU: Camp Augur 28 Haziran 1869",
+   "alinti": "",
+   "oneri": {},
+   "not": "1869 (Camp Augur, sonra Camp Brown 1870, Fort Washakie 1878) yalnız ipucu sınıfı kaynaklarda; akademik/resmî okunmuş sayfa bulunamadı. Nokta Camp Brown'ın 1871 taşınma yeri olabilir."
+  }
+ ],
+ "French Lick (Nashville)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1260",
+   "alan": "s",
+   "d": "abd",
+   "f": "1779-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Tennessee Encyclopedia (Tennessee Historical Society), 'French Lick' — https://tennesseeencyclopedia.net/entries/french-lick/",
+   "alinti": "arrived to claim land in 1779",
+   "oneri": {},
+   "not": "f=1779 yıl: Robertson grubu 1779'da gelip toprak talep etti (reportedly, hedgeli). Tarih derneği ansiklopedisi İPUCU sınıfı; ayrıca 1779'da bölge Kuzey Karolina eyaletiydi (ABD'nin parçası), 1776 sonrası. KAYNAKLI verilmedi."
+  }
+ ],
+ "Fuerte Bulnes": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:162",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1843-10-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), Colonización de Magallanes, Cronología — https://www.memoriachilena.gob.cl/602/w3-article-598975.html",
+   "alinti": "30 de octubre. El gobierno funda el Fuerte Bulnes en punta Santa Ana",
+   "oneri": {},
+   "not": "f=1843-10-30 teyitli (kronoloji 1843). ÇELİŞKİ BEYANI: aynı kurumun w3-article-784 sayfası '21 de octubre' diyor (atlas notunda); bu sayfada 1843-09-21 ise 'toma de posesión del Estrecho'. 21 Eylül = Boğaz'ın sahiplenilmesi, 30 Ekim = kale kuruluşu."
+  }
+ ],
+ "Fukui": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3228",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1575-01-01",
+   "t": "1603-03-24",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama (Shibata Katsuie / Kitanosho): yalnız Vikipedi-sınıfı ve turizm sayfaları (Echizen 1573 mü 1575 mi çelişkili, Kitanosho 1575); TDV 'Japonya' Fukui'yi kapsamıyor",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fukui'nin (Kitanosho) 1575 f ucu akademik kaynakta okunamadı; ipucu: Katsuie Echizen'e 1573/1575. t=1603-03-24 zincirde TDV Japonya yıl teyidi 1603 (gün teyitsiz)."
+  }
+ ],
+ "Galiç (Kostroma)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:234",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Bakılan: Galich-Mersky/Galich Kostroma arama özetleri (yalnız Vikipedi aynaları, rusmania): 1334 Galiç-Dmitrov ayrılığı, 1363 Moskova ilhakı, 1450 kesin katılım — hepsi İPUCU",
+   "alinti": "",
+   "oneri": {},
+   "not": "Galiç, Altın Orda'ya tâbi yerel Rus knezliğiydi (Galiç-Merski); atlas 1325'te 'moskova' s: yazıyor, ipucuna göre Moskova ilhakı 1363/1450 — olası ÇELİŞKİ (1325 metropolit taşıması sahiplik değiştirmez) ama akademik kaynak okunamadı. Ölçüt: v: (haraç) mı s: mı — kaynak susuyor."
+  }
+ ],
+ "Gaspé": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:786",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1534-07-24",
+   "t": "1763-02-10",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: DCB 'Cartier, Jacques' (biographi.ca, sayfa kısa, 24 Temmuz/Gaspé geçmiyor), arama (Vikipedi, HMdb, QAHN: Cartier haçı 24 Temmuz 1534, tarih Jülyen)",
+   "alinti": "",
+   "oneri": {},
+   "not": "24 Temmuz 1534 Cartier'nin Gaspé'ye haç dikmesi yalnız ipucu sınıfı sayfalarda; kaynak Jülyen takvimi (1582 öncesi Jülyen kalır). Haç dikmek idareye katma değil sahiplenme (tahrir ölçütü: kaynak susuyor); kalıcı Fransız idaresi sonraki."
+  }
+ ],
+ "Georgetown (Ascension)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:123",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1815-10-22",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: kayıt zincirindeki kaynak beyanı (ascension.gov.ac: 1815, gün yok; 22 Ekim yalnız forum aktarımı) — yeni akademik/resmî sayfa bu oturumda bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Gün 1815-10-22 teyitsiz; yıl 1815 kurum sitesinde. Ek arama yapılmadı (zincir beyanı aynı sonuca varmıştı)."
+  }
+ ],
+ "Gisborne": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:200",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1870-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: Te Ara 'East Coast places' (teara.govt.nz) robots.txt yasağı, sayfa açılamadı; arama özeti 'laid out in 1870' İPUCU sayılır",
+   "alinti": "",
+   "oneri": {},
+   "not": "Açılamayan kaynak: https://teara.govt.nz/en/east-coast-places/page-6 (başka makinede okunacak; atlas kaydı zaten bu kaynağı gösteriyor). nzhistory atlandı. YIL hassasiyeti."
+  }
+ ],
+ "Glazov": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:270",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1678-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama özetleri (Vikipedi, znanierussia, cyclowiki): 1678 hane sayımında anılma, şehir statüsü 1780; Britannica 'founded 1780' (atlandı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1678 'ilk anılma' (sayımda) — kuruluş/Rus idaresi tarihi olarak kabul edilen akademik kaynakta okunamadı; 1678 ve 1780 farklı olaylar. Merdiven ④: yerleşim 1678'de var mıydı sorusu açık."
+  }
+ ],
+ "Grutfontein": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1896",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1893-01-01",
+   "t": "1915-07-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama özetleri (Vikipedi aynaları, gondwana-collection, info-namibia): 1885 Upingtonia, 1893 SWA Company merkezi, 1896 Schutztruppe kalesi — İPUCU; sahistory atlandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1893 (SWA Company'nin Grootfontein'a yerleşmesi/merkezi) ve 1896 (Alman askerî karakol) çelişkili ipuçları; Alman idaresinin Grootfontein'a fiilen genişlediği gün için akademik kaynak okunamadı. Upingtonia/Lijdensrust 1885-87 ayrı polity. t=1915-07-09 zincirde SAHO (ipucu)."
+  }
+ ],
+ "Hamilton (Bermuda)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:144",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1815-01-16",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Parliament of Bermuda, 'History of the Legislature' — https://parliament.bm/about/view/12 ; The Royal Gazette (gazete) 16 Ocak 1815",
+   "alinti": "The first gathering of the Assembly took place in the Town Hall on Front Street on the 13th January 1815",
+   "oneri": {},
+   "not": "ÇELİŞKİ, seçmiyorum: Parlamento sitesi Hamilton'ın 1815'te başkent olduğunu ve Meclis'in ilk toplantısının 13 Ocak 1815'te Hamilton Town Hall'da olduğunu söylüyor; zincirdeki Royal Gazette 16 Ocak 1815; BlackPast 23 Ocak. f yıl 1815 teyitli. Dönem f'si başkentlik günüdür (Bermuda İngiliz egemenliğinde 1612'den beri; nokta kuruluşu 1790/1793)."
+  }
+ ],
+ "Hartford": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1079",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1636-01-01",
+   "t": "1783-09-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treaty of Paris (1783), tam metin, Encyclopedia Virginia (Virginia Humanities) — https://encyclopediavirginia.org/primary-documents/treaty-of-paris-1783/",
+   "alinti": "Done at Paris, this third day of September in the year of our Lord",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor: Kesin Paris Antlaşması 1783-09-03 imza (TEK ÖLÇÜ: ABD toprağı zaten fiilen yönetiyorsa imza günü; yürürlük 1784-05-12 ic_not). f=1636 (Hartford'un kuruluşu) için arama yalnız Vikipedi/HMdb/derneklerde çıktı; okunmuş akademik sayfa yok. Ayrıca 1783-09-03 ülke düzeyi; Connecticut 1776-07-04'ten beri bağımsızlık ilan etmişti (abd künyesi f 1776-07-04, ingiltere t 1783 ile iç çelişki yok)."
+  }
+ ],
+ "Hay": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:324",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1840-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama özetleri (Britannica 'coach station 1840' — atlandı/erişilemez; Vikipedi: posta 16 Nisan 1859, kasaba 1859 gazetelendi, demirci Aralık 1857)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1840 yalnız Britannica (ipucu sınıfı); 1857-59 çelişkisi: 'Lang's Crossing Place' ilk yerleşim 1840 mı 1857-59 mu belirsiz; Merdiven ④ ('yerleşim o dönemde var mıydı') açık. NSW t=1901-01-01 Federasyon zincirde."
+  }
+ ]
+}
