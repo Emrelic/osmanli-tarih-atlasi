@@ -1,74 +1,175 @@
 {
  "Punta Arenas": [
-  {"sira": 3736, "dosya_satir": "", "alan": "s", "d": "sili-cumhuriyeti", "f": "1848-12-18", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+  {
+   "sira": 3736,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1848-12-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), 'El fuerte Bulnes' cronolojisi, https://www.memoriachilena.gob.cl/602/w3-article-714.html ; 'Punta Arenas y la economía magallánica (1848-1950): Fundación', https://www.memoriachilena.gob.cl/602/w3-article-97200.html",
    "alinti": "1848 Descripción Se funda Punta Arenas",
    "oneri": {},
-   "not": "[yalnız yıl teyitli; gün teyitsiz] 1848-12-18 günü bulunamadı (Memoria Chilena yıl veriyor; aynı sitenin 'Fundación' sayfası 'en 1849 se resolvió trasladar' diyor, yani 1848/1849 iç çelişkisi ic_not'a). Sahip: Şili Boğaz'ı 1843-09-21'de (goleta Ancud, 'Toma de posesión del Estrecho de Magallanes') ve Fuerte Bulnes'i 1843-10-30'da kurdu; Punta Arenas Fuerte Bulnes'in kolonisinin taşındığı yerdir, sahip şüphesi yok. Fuerte Bulnes ayrı yerleşimdir (F-GERI sayılmaz). t=2000-12-31 açık uçlu sentineldir, tarihlenecek olay yok."}
+   "not": "[yalnız yıl teyitli; gün teyitsiz] 1848-12-18 günü bulunamadı (Memoria Chilena yıl veriyor; aynı sitenin 'Fundación' sayfası 'en 1849 se resolvió trasladar' diyor, yani 1848/1849 iç çelişkisi ic_not'a). Sahip: Şili Boğaz'ı 1843-09-21'de (goleta Ancud, 'Toma de posesión del Estrecho de Magallanes') ve Fuerte Bulnes'i 1843-10-30'da kurdu; Punta Arenas Fuerte Bulnes'in kolonisinin taşındığı yerdir, sahip şüphesi yok. Fuerte Bulnes ayrı yerleşimdir (F-GERI sayılmaz). t=2000-12-31 açık uçlu sentineldir, tarihlenecek olay yok."
+  }
  ],
  "Güney Georgia (Grytviken)": [
-  {"sira": 3737, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1904-11-16", "t": "2000-12-31",
-   "hukum": "KAYNAKLI", "uc": "f",
+  {
+   "sira": 3737,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1904-11-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
    "kaynak": "GSGSSI (South Georgia Government), 'About SGSSI', https://gov.gs/about-sgssi/ ; 'Whaling stations' (R.K. Headland), https://gov.gs/whaling-stations/",
    "alinti": "established the first land-based whaling station and first permanent habitation at Grytviken in 1904",
    "oneri": {},
-   "not": "[yalnız yıl teyitli; gün (11-16) teyitsiz]. Resmî devlet sitesi (hükûmet kaynağı, hakemli akademik değil; Headland metni polar tarihçi). Sahip: aynı sayfa 'claimed for Great Britain by Cook 1775, government arrangements by Letter Patent 1843' ve 'under UK administration since 1908' diyor; 21 Temmuz 1908 Letters Patent (laws.gov.gs PDF) Bağımlılıkları Falkland valisine bağladı. Yani 1904-1908 arasında idare belgesi bu sayfada yok; Larsen'in kira belgesi Falkland Hükûmeti'nden (gov.gs: 'whaling leases issued by the Falkland Islands Government'). Arjantin iddiası 1927'den (gov.gs). ÇELİŞKİ-İHTİMALİ: f=1904 ile 'since 1908' farkı ic_not'a."},
-  {"sira": 3737, "dosya_satir": "", "alan": "isg", "d": "arjantin", "f": "1982-04-03", "t": "1982-04-25",
-   "hukum": "ONERI", "uc": "",
+   "not": "[yalnız yıl teyitli; gün (11-16) teyitsiz]. Resmî devlet sitesi (hükûmet kaynağı, hakemli akademik değil; Headland metni polar tarihçi). Sahip: aynı sayfa 'claimed for Great Britain by Cook 1775, government arrangements by Letter Patent 1843' ve 'under UK administration since 1908' diyor; 21 Temmuz 1908 Letters Patent (laws.gov.gs PDF) Bağımlılıkları Falkland valisine bağladı. Yani 1904-1908 arasında idare belgesi bu sayfada yok; Larsen'in kira belgesi Falkland Hükûmeti'nden (gov.gs: 'whaling leases issued by the Falkland Islands Government'). Arjantin iddiası 1927'den (gov.gs). ÇELİŞKİ-İHTİMALİ: f=1904 ile 'since 1908' farkı ic_not'a."
+  },
+  {
+   "sira": 3737,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "arjantin",
+   "f": "1982-04-03",
+   "t": "1982-04-25",
+   "hukum": "ONERI",
+   "uc": "",
    "kaynak": "https://gov.gs/about-sgssi/",
    "alinti": "briefly occupied by Argentinean forces in 1982",
-   "oneri": {"alan": "isg", "d": "arjantin", "f": "1982 (gün teyitsiz)", "t": "1982 (gün teyitsiz)"},
-   "not": "Eksik katman: gov.gs 1982'de kısa Arjantin işgalini söylüyor ama gün vermiyor; 04-03/04-25 günlerini ben ham metinde okumadım, bu yüzden günler önerilmiyor. Ölçüt: ÖLÇÜT: geçici/askerî. Grytviken'in 1982'de fiilen işgal edildiğine dair yerleşime özgü belge BAKILMADI (Falkland örneği: falkland-arjantin-isgali künyesi var, Güney Georgia için ayrı künye ya da isg d: arjantin yeterli)."}
+   "oneri": {
+    "alan": "isg",
+    "d": "arjantin",
+    "f": "1982 (gün teyitsiz)",
+    "t": "1982 (gün teyitsiz)"
+   },
+   "not": "Eksik katman: gov.gs 1982'de kısa Arjantin işgalini söylüyor ama gün vermiyor; 04-03/04-25 günlerini ben ham metinde okumadım, bu yüzden günler önerilmiyor. Ölçüt: ÖLÇÜT: geçici/askerî. Grytviken'in 1982'de fiilen işgal edildiğine dair yerleşime özgü belge BAKILMADI (Falkland örneği: falkland-arjantin-isgali künyesi var, Güney Georgia için ayrı künye ya da isg d: arjantin yeterli)."
+  }
  ],
  "Utqiaġvik (Nuvuk / Barrow)": [
-  {"sira": 3739, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3739,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "U.S. Department of State, Office of the Historian, 'Purchase of Alaska, 1867', https://history.state.gov/milestones/1866-1898/alaska-purchase ; North Slope Borough, 'Utqiagvik', https://www.north-slope.org/our-communities/utqiagvik/",
    "alinti": "Alaska was formally transferred to the United States on October 18, 1867",
-   "oneri": {"alan": "s", "d": "abd", "f": "1884 (sivil hükûmet; gün teyitsiz)", "t": "2000-12-31"},
-   "not": "ÜLKE DÜZEYİ: 1867-10-18 devir Rusya-ABD hukukî devridir (Office of the Historian: tekrar tekrar 'Alaska was formally transferred'); aynı sayfa 'ilk otuz yıl ABD Alaska'ya az ilgi gösterdi; askerî, deniz ya da Hazine idaresi ya da bazen hiç görünür idare yok' ve 'sivil hükûmet 1884'te kuruldu' diyor. Rus Amerikası kuzey Alaska'da fiilî idare kurmamıştı; Utqiaġvik'te ilk ABD varlığı Ray seferi (Signal Corps, 1881; SNAC/Smithsonian arşiv kaydı, ham metin okunmadı). ÖNERİ: 1867-10-18 ucu ya BEYANLI YAKLAŞIKLIK (ÜLKE DÜZEYİ) ya da önceki dilim inuit künyesi (f 1000, t 1880-09-01 dış zarf!) ile 1884'e kadar; inuit künyesinin t'si 1880-09-01 olduğundan 1880-1884 aralığı boş kalır, künye kararı LAB'a. Yerleşimin varoluşu: NSB 'Birnirk sit alanı 500-900 AD' (ayrı bir ikinci kaynakta Nuvuk), yani F-GERI adayı (bkz. f_geri). ÖLÇÜT (varsa s: önerisi): idareye katma — Alaska Organic Act/sivil hükûmet 1884 (günü ben okumadım)."}
+   "oneri": {
+    "alan": "s",
+    "d": "abd",
+    "f": "1884 (sivil hükûmet; gün teyitsiz)",
+    "t": "2000-12-31"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_081/084/088): Alaska kuzeyi (Rus idaresi ulaşmadı): sistemik, Emre listesinde ('yerli s: fiilî idareye kadar mı?'). Bu gece zincir korunur; inuit t 1880-09-01 sonrası abd — boşluk varsa abd inuit t'ye bitişir, BEYANLI. · ÜLKE DÜZEYİ: 1867-10-18 devir Rusya-ABD hukukî devridir (Office of the Historian: tekrar tekrar 'Alaska was formally transferred'); aynı sayfa 'ilk otuz yıl ABD Alaska'ya az ilgi gösterdi; askerî, deniz ya da Hazine idaresi ya da bazen hiç görünür idare yok' ve 'sivil hükûmet 1884'te kuruldu' diyor. Rus Amerikası kuzey Alaska'da fiilî idare kurmamıştı; Utqiaġvik'te ilk ABD varlığı Ray seferi (Signal Corps, 1881; SNAC/Smithsonian arşiv kaydı, ham metin okunmadı). ÖNERİ: 1867-10-18 ucu ya BEYANLI YAKLAŞIKLIK (ÜLKE DÜZEYİ) ya da önceki dilim inuit künyesi (f 1000, t 1880-09-01 dış zarf!) ile 1884'e kadar; inuit künyesinin t'si 1880-09-01 olduğundan 1880-1884 aralığı boş kalır, künye kararı LAB'a. Yerleşimin varoluşu: NSB 'Birnirk sit alanı 500-900 AD' (ayrı bir ikinci kaynakta Nuvuk), yani F-GERI adayı (bkz. f_geri). ÖLÇÜT (varsa s: önerisi): idareye katma — Alaska Organic Act/sivil hükûmet 1884 (günü ben okumadım).",
+   "karar": "EMRELİC"
+  }
  ],
  "Nuiqsut (Kuukpikmiut, Colville deltası)": [
-  {"sira": 3741, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3741,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "North Slope Borough, 'Nuiqsut', https://www.north-slope.org/our-communities/nuiqsut/ ; Office of the Historian, https://history.state.gov/milestones/1866-1898/alaska-purchase",
    "alinti": "After 27 Utqiagvik families moved overland to the area, the Arctic Slope Regional Corporation funded construction of the village in 1974",
-   "oneri": {"alan": "s", "d": "abd", "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)", "t": "2000-12-31"},
-   "not": "Nuiqsut köyü 1974'te kuruldu (NSB), 1975'te second-class city; Colville deltası 'geleneksel toplanma ve ticaret yeri' (NSB). 1867-1974 arası köy yok: yerleşimin f'si köyün kuruluşuysa 1867 ucu kendiliğinden çelişir (sahipsizlik değil, yerleşimin yokluğu). 'Colville deltası' yeriyse ÜLKE DÜZEYİ 1867 devri + Utqiaġvik ile aynı 1884 notu geçerli. Alıntı 1974 inşaatını tarihliyor, satırın 1867 ucunu değil → ONERI. Köy f=1974 (yıl), 1973 gün/yıl başka kaynakta aranacak, BAKILMADI."}
+   "oneri": {
+    "alan": "s",
+    "d": "abd",
+    "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)",
+    "t": "2000-12-31"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_081/084/088): 1867–1974 YOK_O_DEVIRDE kırp (köy 1974, North Slope Borough). · Nuiqsut köyü 1974'te kuruldu (NSB), 1975'te second-class city; Colville deltası 'geleneksel toplanma ve ticaret yeri' (NSB). 1867-1974 arası köy yok: yerleşimin f'si köyün kuruluşuysa 1867 ucu kendiliğinden çelişir (sahipsizlik değil, yerleşimin yokluğu). 'Colville deltası' yeriyse ÜLKE DÜZEYİ 1867 devri + Utqiaġvik ile aynı 1884 notu geçerli. Alıntı 1974 inşaatını tarihliyor, satırın 1867 ucunu değil → ONERI. Köy f=1974 (yıl), 1973 gün/yıl başka kaynakta aranacak, BAKILMADI.",
+   "karar": "EMRELİC"
+  }
  ],
  "Qeqertarsuaq (Godhavn)": [
-  {"sira": 3744, "dosya_satir": "", "alan": "s", "d": "danimarka", "f": "1773-01-01", "t": "1814-01-14",
-   "hukum": "KAYNAKLI", "uc": "f+t",
+  {
+   "sira": 3744,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1773-01-01",
+   "t": "1814-01-14",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
    "kaynak": "Den Store Danske / Lex (lex.dk), K. Hendriksen (Aalborg Üniv.), 'Qeqertarsuaq (by)', https://lex.dk/Qeqertarsuaq_-_by ; Lex, 'Freden i Kiel 14. januar 1814', https://lex.dk/Freden_i_Kiel_14._januar_1814",
    "alinti": "I 1773 blev der etableret en dansk hvalfangerloge ved Qeqertarsuaq.",
    "alinti2": "Grønland, Færøerne og Island ikke deri indbegrebne (§ 4)",
    "oneri": {},
-   "not": "f: lex.dk 'Qeqertarsuaq... fik status af koloni' + 1773 Danimarka balina loncası kuruldu [yalnız yıl teyitli; gün teyitsiz]. t: Kiel 14 Ocak 1814 Grönland'ı Danimarka'da bıraktı; yani sahip DEĞİŞMEZ, 14 Ocak yalnız Danimarka-Norveç künyesinden gronland-dan künyesine geçiş ucudur (KASA/LAB: dönem kopmasın). Sahiplik teyidi: Danimarka-Norveç → Danimarka sürekliliği. F-GERI adayı: aynı lex sayfası 'arkeolojik buluntular ilk göçlere kadar' diyor (yıl yok), BAKILMADI-yıl."}
+   "not": "f: lex.dk 'Qeqertarsuaq... fik status af koloni' + 1773 Danimarka balina loncası kuruldu [yalnız yıl teyitli; gün teyitsiz]. t: Kiel 14 Ocak 1814 Grönland'ı Danimarka'da bıraktı; yani sahip DEĞİŞMEZ, 14 Ocak yalnız Danimarka-Norveç künyesinden gronland-dan künyesine geçiş ucudur (KASA/LAB: dönem kopmasın). Sahiplik teyidi: Danimarka-Norveç → Danimarka sürekliliği. F-GERI adayı: aynı lex sayfası 'arkeolojik buluntular ilk göçlere kadar' diyor (yıl yok), BAKILMADI-yıl."
+  }
  ],
  "Tikiġaq (Point Hope)": [
-  {"sira": 3748, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3748,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "North Slope Borough, 'Point Hope', https://www.north-slope.org/our-communities/point-hope/ ; Office of the Historian, https://history.state.gov/milestones/1866-1898/alaska-purchase",
    "alinti": "This peninsula is one of the longest continually inhabited areas in North America.",
-   "oneri": {"alan": "s", "d": "abd", "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)", "t": "2000-12-31"},
-   "not": "Aynı Utqiaġvik gerekçesi: 1867-10-18 ÜLKE DÜZEYİ devir; sivil hükûmet 1884; Point Hope'a özgü ABD idaresi belgesi bulunamadı (NSB 1966 şehir kuruluşunu, 1970'ler yer değiştirmeyi veriyor). Alıntı yerleşimin sürekliliğini söylüyor, 1867 ucunu tarihlemiyor. F-GERI adayı: NSB 'Ipiutak ~500 BC - 100 AD'; ikinci akademik kaynakta ~2.500 yıl (arcticslope.org, ham okunmadı)."}
+   "oneri": {
+    "alan": "s",
+    "d": "abd",
+    "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)",
+    "t": "2000-12-31"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_081/084/088): Alaska kuzeyi: Utqiaġvik ile aynı (Emre listesi; inuit t 1880-09-01'e abd bitişik BEYANLI). · Aynı Utqiaġvik gerekçesi: 1867-10-18 ÜLKE DÜZEYİ devir; sivil hükûmet 1884; Point Hope'a özgü ABD idaresi belgesi bulunamadı (NSB 1966 şehir kuruluşunu, 1970'ler yer değiştirmeyi veriyor). Alıntı yerleşimin sürekliliğini söylüyor, 1867 ucunu tarihlemiyor. F-GERI adayı: NSB 'Ipiutak ~500 BC - 100 AD'; ikinci akademik kaynakta ~2.500 yıl (arcticslope.org, ham okunmadı).",
+   "karar": "EMRELİC"
+  }
  ],
  "Sisimiut (Holsteinsborg)": [
-  {"sira": 3753, "dosya_satir": "", "alan": "s", "d": "danimarka", "f": "1756-01-01", "t": "1814-01-14",
-   "hukum": "KAYNAKLI", "uc": "f+t",
+  {
+   "sira": 3753,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1756-01-01",
+   "t": "1814-01-14",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
    "kaynak": "Lex (Den Store Danske), 'Sisimiut', https://lex.dk/Sisimiut ; Lex, 'Freden i Kiel 14. januar 1814', https://lex.dk/Freden_i_Kiel_14._januar_1814",
    "alinti": "I 1756 blev kolonien Holsteinsborg etableret på øen Ukiivik (Sydbay)",
    "alinti2": "Grønland, Færøerne og Island ikke deri indbegrebne (§ 4)",
    "oneri": {},
-   "not": "[yalnız yıl teyitli; gün teyitsiz] Koloni 1756'da Ukiivik adasında kuruldu, 1764'te bugünkü yere taşındı (aynı cümle). Kullanıcıya not: f=1756 yeri bugünkü Sisimiut'tan kuzeye; 1764 taşınma ic_not'a. t için Kiel yorumu Qeqertarsuaq ile aynı (sahip değişmez, künye geçişi). F-GERI adayı: lex.dk 'Saqqaq kültürü ca. 2400-500 MÖ, sonra Dorset ~yıl 0'a dek; ondan sonra bölge boş, inuit gelene kadar' (yıl 0 ile 1756 arası sahip belirsiz, inuit künyesi f 1000 ucu)."}
+   "not": "[yalnız yıl teyitli; gün teyitsiz] Koloni 1756'da Ukiivik adasında kuruldu, 1764'te bugünkü yere taşındı (aynı cümle). Kullanıcıya not: f=1756 yeri bugünkü Sisimiut'tan kuzeye; 1764 taşınma ic_not'a. t için Kiel yorumu Qeqertarsuaq ile aynı (sahip değişmez, künye geçişi). F-GERI adayı: lex.dk 'Saqqaq kültürü ca. 2400-500 MÖ, sonra Dorset ~yıl 0'a dek; ondan sonra bölge boş, inuit gelene kadar' (yıl 0 ile 1756 arası sahip belirsiz, inuit künyesi f 1000 ucu)."
+  }
  ],
  "Qikiqtaġruk (Kotzebue)": [
-  {"sira": 3755, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1867-10-18", "t": "2000-12-31",
-   "hukum": "ONERI", "uc": "f",
+  {
+   "sira": 3755,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
    "kaynak": "Office of the Historian, https://history.state.gov/milestones/1866-1898/alaska-purchase",
    "alinti": "For three decades after its purchase the United States paid little attention to Alaska",
-   "oneri": {"alan": "s", "d": "abd", "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)", "t": "2000-12-31"},
-   "not": "Kotzebue'ye özgü kaynak: yalnız arama özetleri (kikiktagruk.com '600 yıl iskân', Maniilaq, Vikipedi aynaları) görüldü, ham sayfa okunmadı ve bunlar zayıf sınıf; Kotzebue için 1867 sonrası ABD idaresi belgesi BAKILMADI. Hüküm Utqiaġvik ile aynı ülke düzeyi mantığına dayanır."}
+   "oneri": {
+    "alan": "s",
+    "d": "abd",
+    "f": "1884 (ÜLKE DÜZEYİ beyanı ya da inuit künyesi)",
+    "t": "2000-12-31"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_081/084/088): Alaska kuzeyi: Utqiaġvik ile aynı (Emre listesi; inuit t 1880-09-01'e abd bitişik BEYANLI). · Kotzebue'ye özgü kaynak: yalnız arama özetleri (kikiktagruk.com '600 yıl iskân', Maniilaq, Vikipedi aynaları) görüldü, ham sayfa okunmadı ve bunlar zayıf sınıf; Kotzebue için 1867 sonrası ABD idaresi belgesi BAKILMADI. Hüküm Utqiaġvik ile aynı ülke düzeyi mantığına dayanır.",
+   "karar": "EMRELİC"
+  }
  ]
 }

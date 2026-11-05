@@ -1,0 +1,220 @@
+{
+ "Fort Yukon": [
+  {
+   "sira": 3756,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1847-01-01",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Dictionary of Canadian Biography, 'Murray, Alexander Hunter' (K. L. Holmes), vol. 10, http://www.biographi.ca/en/bio/murray_alexander_hunter_10E.html ; ikinci: Orth, Dictionary of Alaska Place Names, USGS Prof. Paper 567 (1967), 'Fort Yukon' (archive.org bub_gb_0y48AQAAMAAJ)",
+   "alinti": "seem to have known that the fort was inside Russian territory",
+   "alinti2": "the British trading post was on United States territory",
+   "oneri": {
+    "d": "rusya",
+    "f": "1847-01-01",
+    "t": "1867-10-18"
+   },
+   "not": "SAHİP YANLIŞ: Fort Yukon'u Hudson's Bay Company kurdu (DCB: Murray 1847-06-11'de yola çıktı, 25 Haziran'da Yukon'a ulaştı ve 'soon began construction'; Orth: 'Founded as a Hudson's Bay Company trading post ... in 1847'). Yer, 1825 sınırına göre RUS Amerikası içindeydi; DCB: HBC 'where they had no right to be'. Şirket kendi toprağı saymıyordu, İngiliz devleti de egemenlik iddia etmedi; 1869'da ABD HBC'yi çıkardı (Capt. C. W. Raymond ölçümü: Orth). Bu yüzden s: ingiliz-kuzey-amerika (gecici-isgal, f=1763) uygun değil; 1847-1867-10-18 s: rusya (künye 1547-1917 kapsar). f 1847: DCB yıl düzeyi; 25 Haziran Yukon'a varış günüdür (kuruluş günü değil) -> ic_not; f yalnız yıl teyitli, 1847-01-01 kalır. HBC'nin 1867-10-18 ile 1869 arası fiilî varlığı ic_not (şirket, devlet değil; isg yazılmaz). ÖLÇÜT: egemenlik 1867 devrine kadar Rus (idareye katma belgesi: Alaska devir töreni, bkz. sonraki satır). Orth OCR: 'ter-ritory' birleştirildi."
+  },
+  {
+   "sira": 3757,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Alaska DNR Office of History and Archaeology, 'Castle Hill Archaeological Project' (Bancroft ve Pierce 1989'a dayanır), https://dnr.alaska.gov/parks/oha/projects/castlehill.htm ; yerel teyit: DCB Murray (HBC 1869'da çıkarıldı)",
+   "alinti": "the transfer ceremony through which the United States acquired Alaska on October 18, 1867",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Alaska'nın devri; Fort Yukon'a özgü tanıklık değil). Gün Gregoryen: Rus Jülyen takvimiyle 6 Ekim 1867 (bu çeviri kaynağın değil, standart +12 gün farkıdır; atlas zaten 10-18 kullanıyor). Fiilî durum: HBC 1869'a kadar kaldı (DCB: 'until 1869 when the HBC was peremptorily ejected from Fort Yukon by the United States'), ic_not'a yazılır; devlet işgali değil. t=2000-12-31 pencere ucu, ölçüm değil. Öteki uç (t) teyit istemez."
+  }
+ ],
+ "Circle City": [
+  {
+   "sira": 3758,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1893-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Orth, Dictionary of Alaska Place Names, USGS Prof. Paper 567 (1967), 'Circle' (archive.org bub_gb_0y48AQAAMAAJ; Orth, Kitchener 1954 'Flag over the North' s.187'e dayanır)",
+   "alinti": "Mining supply town established in 1887 when L. N. McQuesten located a trading post",
+   "oneri": {
+    "f": "1887-01-01"
+   },
+   "not": "SAHİP (abd, 1867-10-18'den) doğru ve künye f=1776 kapsar. ÇELİŞKİ: Orth 1887 (McQuesten'in ticaret karakolu) der; atlasın 1893'ü altın hücumu kampıdır (Birch Creek keşfi 1892-93; arama özeti, ham sayfa okunamadı: NPS Golden Places chap2 yönlendirdi). Postane 1896 (Orth: 'post office was established in 1896'). İkinci bağımsız kaynak bulunamadı, bu yüzden f=1887 yalnız KOŞULLU öneridir; uygulanırsa F-GERI (aşağıda). Yıl düzeyi; gün yok. Alıntı satırın f ucunu yıl düzeyinde tarihler. Sahip zinciri sorunsuz: 1887'de ABD egemenliği altında (Alaska 1867'den)."
+  }
+ ],
+ "Tetlit Gwich'in (Peel havzası)": [
+  {
+   "sira": 3759,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 23 Haziran 1870, Justice Canada, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html ; Treaty No. 11 metni (Dominion/RCAANC), https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {
+    "t": "1870-07-15",
+    "d": "dene"
+   },
+   "not": "UMIT (Rupert's Land emsali, EMRELİC 5 Kasım 2026): EMRELİC kararı (r8_086): s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden; 1870-07-15 egemenlik ic_not → seçenek (b) Antlaşma 11: Tetlit/McPherson 1921-07-28, Tulít'a/Norman 1921-07-15 (RCAANC ham); dene künye t 1899 → aşılır, LAB GENİŞLET. · 1899-06-21 = 8 Numaralı Antlaşma günü; Peel havzası (Fort McPherson) Antlaşma 8 kapsamında DEĞİL. Antlaşma 11 metni kendi sınırını 'northwesterly corner of the territory ceded under ... Treaty Number Eight' noktasından kuzeye çizer; Teetł'it Gwich'in / McPherson imzası 1921-07-28 ('SIGNED at McPherson on the twenty-eighth day of July, 1921'). Hukukî devir: Peel havzası North-Western Territory'dedir; bu bölge 1870-07-15'te Kanada'ya katıldı (Order in Council: 'shall be admitted into and become part of the Dominion of Canada'). SEÇENEKLER (karar KASA/EMRELİC): (a) t=1870-07-15 hukukî devir (ÜLKE DÜZEYİ, HBC/Birleşik Krallık -> Kanada) ; (b) t=1921-07-28 antlaşma ('TEK ÖLÇÜ': Kanada o güne dek fiilen yönetmiyorsa teslim/fiilî idare günü; NWMP/idare başlangıcı bu partide bulunamadı, BAKILMADI). Kaynak 1899'u HİÇ desteklemiyor. Künye dene (t=1899-06-21; ozet 'Antlaşma 8') bu iki yer için yanlış gerekçeli: LAB'a künye sorusu. dene f=1281 ATLAS UFKU; Gwich'in halkının varlığına dair f teyidi yapılmadı. Antlaşma günü ölçüt değil (arazi vazgeçişi); egemenlik değişimi değil."
+  },
+  {
+   "sira": 3760,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 1870, Justice Canada, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html ; Treaty No. 11 metni, https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {
+    "f": "1870-07-15",
+    "d": "kanada"
+   },
+   "not": "UMIT (Rupert's Land emsali, EMRELİC 5 Kasım 2026): EMRELİC kararı (r8_086): s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden; 1870-07-15 egemenlik ic_not → seçenek (b) Antlaşma 11: Tetlit/McPherson 1921-07-28, Tulít'a/Norman 1921-07-15 (RCAANC ham); dene künye t 1899 → aşılır, LAB GENİŞLET. · Önceki satırın sağ yüzü: f, öncül satırın t'siyle aynı gün olmak zorunda (sıfır uzunluk/çakışma yok). Öneri (a) 1870-07-15 ise iki satır birlikte taşınır; (b) 1921-07-28 ise ('SIGNED at McPherson on the twenty-eighth day of July, 1921') ikisi birlikte 1921-07-28'e taşınır, ama o zaman künye dene t=1899-06-21 aşılır (künye t genişletilmeli ya da dilim sahipsiz kalır: hayalet dilim kuralı) -> (a) künye ile uyumludur. kanada künye f=1867-07-01 1870'i kapsar. 1899-06-21 tanıksız."
+  }
+ ],
+ "Fairbanks": [
+  {
+   "sira": 3761,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Orth, Dictionary of Alaska Place Names, USGS Prof. Paper 567 (1967), 'Fairbanks' (archive.org bub_gb_0y48AQAAMAAJ); ikinci: University of Alaska 'UA Journey', https://www.alaska.edu/uajourney/notable-people/fairbanks/",
+   "alinti": "Founded in 1901 when a trading post was established here by E. T. Barnette",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] Orth ve UA sayfası yalnız 1901 der. Kuruluş günü 1901-08-26 yalnız arama özetinde göründü, ham sayfada okunmadı -> yazılmaz. Fairbanks'ın bulunduğu yer 1867-10-18'den beri ABD (Alaska devri); ilçe/şehir 1903 (incorporated) ic_not. Sahip: abd, künye f=1776 kapsar. Ayrıca UA sayfası 'Fairbanks in 1901' ve ilk-sıra altın keşfi 1902."
+  }
+ ],
+ "Nulato": [
+  {
+   "sira": 3762,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1838-01-01",
+   "t": "1867-10-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "f: Orth, Dictionary of Alaska Place Names, USGS Prof. Paper 567 (1967), 'Nulato' (archive.org bub_gb_0y48AQAAMAAJ); ikinci [19. yy kaynağı]: W. H. Dall, Alaska and its Resources (1870), archive.org 1870alaskaitsres00dalluoft. t: Alaska DNR OHA Castle Hill, https://dnr.alaska.gov/parks/oha/projects/castlehill.htm",
+   "alinti": "founded in 1838 by the \"Russian Creole\" Malakhov",
+   "alinti2": "the transfer ceremony through which the United States acquired Alaska on October 18, 1867",
+   "oneri": {},
+   "not": "f yıl düzeyinde teyitli: Orth 1838 (Malakhov küçük karakol); Dall: 1838'de kuruldu, Kızılderililer yaktı, 1839'da yine yakıldı, 1841'de Derabin (Derzhavin) yeniden kurdu ('In 1841, according to Tikhmenief ... Derabin was sent to Nulato and rebuilt the fort'). Yani 1838 ilk karakol, KALICI Rus karakolu 1841; atlas 1838 kullanıyor, kaynaklarla uyumlu (karar: 1838 kalır, 1841 ic_not). Nulato'nun Koyukon köyü (Noolaaghe Doh) olarak daha eski varlığı kaynakta tarihlenmedi; f 'varoluş günü' kuralı için BAKILMADI (Koyukon yer adı kaynağı/Tanana Chiefs planı hakemli değil). t: ÜLKE DÜZEYİ Alaska devri, Gregoryen 1867-10-18 (Jülyen 6 Ekim). Rus egemenliği iç Yukon'da incecik; 1851-02-16 Koyukon baskını (Dall/Orth: Derzhavin ve İngiliz Lt. Barnard öldü) ic_not. [alıntı 1 OCR: 'Russian Creole' tırnaklı]"
+  },
+  {
+   "sira": 3763,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Alaska DNR Office of History and Archaeology, 'Castle Hill Archaeological Project', https://dnr.alaska.gov/parks/oha/projects/castlehill.htm",
+   "alinti": "the transfer ceremony through which the United States acquired Alaska on October 18, 1867",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Nulato'ya özgü tanıklık yok). Jülyen 6 Ekim 1867 = Gregoryen 18 Ekim (atlas Gregoryen kullanır). t pencere ucu."
+  }
+ ],
+ "Tulít'a Dağ Denesi (Nahanni)": [
+  {
+   "sira": 3766,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 1870, Justice Canada, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html ; Treaty No. 11 metni (Norman imzası), https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {
+    "t": "1870-07-15",
+    "d": "dene"
+   },
+   "not": "UMIT (Rupert's Land emsali, EMRELİC 5 Kasım 2026): EMRELİC kararı (r8_086): s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden; 1870-07-15 egemenlik ic_not → seçenek (b) Antlaşma 11: Tetlit/McPherson 1921-07-28, Tulít'a/Norman 1921-07-15 (RCAANC ham); dene künye t 1899 → aşılır, LAB GENİŞLET. · Tetlit satırıyla aynı: 1899-06-21 Antlaşma 8'dir, Tulít'a (Fort Norman, Mackenzie ırmağı) onun dışındadır. Antlaşma 11'in Norman imzası 'SIGNED at Norman on the fifteenth day of July, 1921' (1921-07-15). SEÇENEKLER: (a) t=1870-07-15 hukukî devir (North-Western Territory, ÜLKE DÜZEYİ); (b) t=1921-07-15 antlaşma/idare. Fiilî Kanada idaresinin başlangıcı (NWMP, vb.) bu partide BAKILMADI. Künye dene t=1899 yanlış gerekçeli (LAB'a soru). Nahanni (Dağ Denesi / Sahtu) halkı ile Tulít'a eşlemesi için ayrıca f teyidi yapılmadı; f=1281 ATLAS UFKU."
+  },
+  {
+   "sira": 3767,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Rupert's Land and North-Western Territory Order, 1870, Justice Canada, https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html ; Treaty No. 11 metni, https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {
+    "f": "1870-07-15",
+    "d": "kanada"
+   },
+   "not": "UMIT (Rupert's Land emsali, EMRELİC 5 Kasım 2026): EMRELİC kararı (r8_086): s: kanada her yerde ilgili antlaşmanın imza/adhezyon gününden; 1870-07-15 egemenlik ic_not → seçenek (b) Antlaşma 11: Tetlit/McPherson 1921-07-28, Tulít'a/Norman 1921-07-15 (RCAANC ham); dene künye t 1899 → aşılır, LAB GENİŞLET. · Önceki satırın sağ yüzü; iki satır birlikte taşınır (f=öncül t). (b) seçilirse 1921-07-15 ve künye dene t=1899-06-21 aşılır; (a) künye ile uyumlu. Ayrıca bakınız Tetlit satırı notu."
+  }
+ ],
+ "Hooper Bay (Naparyarmiut)": [
+  {
+   "sira": 3774,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yupik",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Orth, Dictionary of Alaska Place Names, USGS Prof. Paper 567 (1967), 'Hooper Bay' (archive.org bub_gb_0y48AQAAMAAJ); Alaska DNR OHA Castle Hill",
+   "alinti": "first reported by E. W. Nelson, U.S. Signal Service, in December 1878",
+   "oneri": {},
+   "not": "BULUNAMADI. f=1281 ATLAS UFKU, yerleşimin varlığına dair 1878'den eski yazılı tanık bulunmadı (Orth: köy 'Askinuk', Nelson Aralık 1878; 1880 sayımı 'Askinak' 175 Eskimo, 1890 'Askinaghamiut' 138). Baktığım yerler: Orth (USGS 1967), Dall 1870 (indeks), DNR. t=1867-10-18: yalnız ÜLKE DÜZEYİ Alaska devridir ('the transfer ceremony through which the United States acquired Alaska on October 18, 1867'); Yup'ik deltasında Rus idaresinin fiilî varlığı kaynakla gösterilmedi. Künye yupik kaynak alanı da 'bulunamadı' diyor ve devrin 'idarî devir, fetih değil' olduğunu belirtiyor. Rus/Yup'ik sahipliği için ABİ MERKEZ ya da Rus Amerikası Kuskokwim/Nushagak karakolu zinciri BAKILMADI. Hükmü KASA beyanlı yaklaşıklık olarak yazabilir."
+  },
+  {
+   "sira": 3775,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Alaska DNR Office of History and Archaeology, 'Castle Hill Archaeological Project', https://dnr.alaska.gov/parks/oha/projects/castlehill.htm",
+   "alinti": "the transfer ceremony through which the United States acquired Alaska on October 18, 1867",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: kaynak Alaska'nın toptan devrini tarihler, Hooper Bay'e özgü tanıklık yoktur; KASA beyanlı yaklaşıklık olarak yazar. Jülyen 6 Ekim = Gregoryen 18 Ekim. Hooper Bay postanesi 1934 (Orth) ic_not."
+  }
+ ],
+ "Killiniq (Port Burwell)": [
+  {
+   "sira": 3778,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1904-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Baktığım yerler: The Canadian Encyclopedia 'Killiniq Island' (robots.txt sayfa çekiciyi engelledi, ham okunamadı); Newfoundland and Labrador Studies 37(1) 2022 PDF (journals.lib.unb.ca; ham metinde Port Burwell/Killinek/1904/1916 bulunmadı); heritage.nf.ca (zaman aşımı); c-and-e-museum.org (hakemsiz, yalnız 1928 tasviri)",
+   "alinti": "",
+   "oneri": {},
+   "not": "BULUNAMADI (ham metinle teyit edilemedi). Yalnız ARAMA ÖZETİNDE (teyit sayılmaz): Moravya misyonu Killinek 1904 (Can. Encycl.: misyon 1904-23; başka kaynaklar 1902/1903), HBC 1916, RCMP 1920, Port Burwell Dominion meteoroloji istasyonu 1884; il sınırı bugün adanın içinden geçer (doğu parça Newfoundland ve Labrador, kalan Nunavut). SAHİP RİSKİ: Labrador-Québec sınır kararı 1927 (Privy Council) ve Newfoundland'ın 1949'a kadar ayrı dominyon olması nedeniyle ada/Cape Chidley çevresinde Kanada dışı (Newfoundland) parça olabilir; 1927 sonrası bölünme bu partide ölçülemedi (BAKILMADI). f=1904 yalnız arama özetine dayanır -> ONERI bile değildir. Takip: Can. Encycl. ham metni, Privy Council 1927 kararı (Labrador Boundary), Moravian Periodical Accounts 1904-05."
+  }
+ ]
+}
