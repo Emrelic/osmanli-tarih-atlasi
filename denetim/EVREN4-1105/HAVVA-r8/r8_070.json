@@ -1,0 +1,297 @@
+{
+ "İvranye (Vranje)": [
+  {
+   "sira": 3372,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1882-03-06",
+   "t": "1918-12-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3373,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-12-01",
+   "t": "1941-08-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3374,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "sirbistan-nedic",
+   "f": "1941-08-29",
+   "t": "1944-10-06",
+   "mevcut_kaynak": "ZİNCİR Niş'den devralındı (DUNYA-1102, 4 Kasım 2026; 1923-10-29 eski ufuk izi, UMIT EK-1923-ufuk): abi merkez Niş — kaynağı: Belgrad Şehir Arşivi, 'Collaboratio"
+  },
+  {
+   "sira": 3375,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1944-10-06",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "ZİNCİR Niş'den devralındı (DUNYA-1102, 4 Kasım 2026; 1923-10-29 eski ufuk izi, UMIT EK-1923-ufuk): abi merkez Niş — kaynağı: merkez kaydında kaynak yok · BEYANL"
+  },
+  {
+   "sira": 3376,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "mevcut_kaynak": "ZİNCİR Niş'den devralındı (DUNYA-1102, 4 Kasım 2026; 1923-10-29 eski ufuk izi, UMIT EK-1923-ufuk): abi merkez Niş — kaynağı: Britannica 'Yugoslavia'; Office of "
+  },
+  {
+   "sira": 3377,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "ZİNCİR Niş'den devralındı (DUNYA-1102, 4 Kasım 2026; 1923-10-29 eski ufuk izi, UMIT EK-1923-ufuk): abi merkez Niş — kaynağı: DEVRALMA (DUNYA-1102 D adımı, 2 Kas"
+  }
+ ],
+ "Kule (Turnu Măgurele)": [
+  {
+   "sira": 3378,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3379,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3380,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3381,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Zimnicea": [
+  {
+   "sira": 3382,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3383,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3384,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3385,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25"
+  },
+  {
+   "sira": 3386,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3387,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Călărași": [
+  {
+   "sira": 3388,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3389,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3390,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3391,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25"
+  },
+  {
+   "sira": 3392,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3393,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Utatlán (Q'umarkaj)": [
+  {
+   "sira": 3394,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1400-01-01",
+   "t": "1524-03-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Iximché": [
+  {
+   "sira": 3395,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1470-01-01",
+   "t": "1524-07-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3396,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1524-07-25",
+   "t": "1527-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Potosí": [
+  {
+   "sira": 3397,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1545-04-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3398,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3399,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1824-12-09",
+   "t": "1825-08-06",
+   "mevcut_kaynak": "Charcas/Yukarı Peru: Ayacucho (1824-12-09) Peru Genel Valiliği'ni bitirdi (künye t); Olañeta'nın kralcı kuvvetleri Yukarı Peru'da 1825-04-01 Tumusla'ya dek dire"
+  }
+ ],
+ "Caracas (Santiago de León de Caracas)": [
+  {
+   "sira": 3400,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1567-07-25",
+   "t": "1821-06-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3401,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3402,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "St. Augustine": [
+  {
+   "sira": 3424,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1565-09-08",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3425,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3426,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1783-09-03",
+   "t": "1821-07-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3427,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1821-07-10",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Higüey (Taino cacicazgosu)": [
+  {
+   "sira": 3428,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1504-01-01",
+   "t": "1795-07-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3429,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1795-07-22",
+   "t": "1809-07-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3430,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1809-07-09",
+   "t": "1822-02-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3431,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haiti",
+   "f": "1822-02-09",
+   "t": "1844-02-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3432,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1844-02-27",
+   "t": "1861-03-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3433,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1861-03-18",
+   "t": "1865-03-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3434,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1865-03-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Camagüey bölgesi (Taino)": [
+  {
+   "sira": 3435,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1514-01-01",
+   "t": "1898-12-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3436,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3437,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Santa Fe (Arjantin)": [
+  {
+   "sira": 3438,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1573-11-15",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3439,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Antofagasta": [
+  {
+   "sira": 3440,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1868-01-01",
+   "t": "1879-02-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3441,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1879-02-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pisco": [
+  {
+   "sira": 3442,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1576-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3443,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ciudad Bolívar (Angostura)": [
+  {
+   "sira": 3444,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1764-01-01",
+   "t": "1821-06-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3445,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3446,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kortî": [
+  {
+   "sira": 3450,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

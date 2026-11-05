@@ -1,0 +1,297 @@
+{
+ "Miyâne": [
+  {
+   "sira": 3039,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3040,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3041,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3042,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3046,
+   "sinif": "DIGER",
+   "alan": "d",
+   "d": "",
+   "f": "1725-09-09",
+   "t": "1730-08-12",
+   "mevcut_kaynak": "Bilgili 2016 (Ermeni Araştırmaları 53) s.111 (TD 902 Germ-rûd kazası Miyane) · gün Erdebil ile aynı (K11 B)"
+  }
+ ],
+ "Bîcâr": [
+  {
+   "sira": 3047,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1801-01-01",
+   "t": "1925-10-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nâsıriye": [
+  {
+   "sira": 3048,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "irak-kralligi",
+   "f": "1921-08-23",
+   "t": "1958-07-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3049,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1869-01-01",
+   "t": "1915-07-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3050,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1915-07-25",
+   "t": "1921-08-23",
+   "mevcut_kaynak": "KUTU-A-1014 (0077/H-0004): Moberly, The Campaign in Mesopotamia I (HMSO 1923), bölüm XI 'Occupation of Nasiriya, 25th July' (1915) — eski 1914-11-22 Basra'nın t"
+  },
+  {
+   "sira": 3051,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "irak-cumhuriyeti",
+   "f": "1958-07-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Library of Congress Iraq Country Study"
+  }
+ ],
+ "Kâin": [
+  {
+   "sira": 3053,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3054,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3055,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3056,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Turbet-i Haydariye": [
+  {
+   "sira": 3061,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3062,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3063,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3064,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kûçân": [
+  {
+   "sira": 3069,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3070,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3071,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3072,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Uneyze": [
+  {
+   "sira": 3076,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1744-01-01",
+   "t": "1818-09-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3077,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1824-06-01",
+   "t": "1891-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3078,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sammar",
+   "f": "1891-01-01",
+   "t": "1902-01-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3079,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1902-01-15",
+   "t": "1932-09-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3080,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1818-09-09",
+   "t": "1824-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3081,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau"
+  }
+ ],
+ "Sûr": [
+  {
+   "sira": 3082,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1507-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3083,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1507-01-01",
+   "t": "1650-01-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3084,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1650-01-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

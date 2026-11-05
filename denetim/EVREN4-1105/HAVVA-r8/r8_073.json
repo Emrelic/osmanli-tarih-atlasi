@@ -1,0 +1,162 @@
+{
+ "Bender Beyla": [
+  {
+   "sira": 3455,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3456,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S"
+  },
+  {
+   "sira": 3457,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt"
+  }
+ ],
+ "Mirbât": [
+  {
+   "sira": 3459,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3460,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Hâsik": [
+  {
+   "sira": 3461,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3462,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Muhût": [
+  {
+   "sira": 3463,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3464,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Şereyk": [
+  {
+   "sira": 3468,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1821-01-04",
+   "t": "1885-01-26",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ceel Dheere": [
+  {
+   "sira": 3469,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3470,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S"
+  },
+  {
+   "sira": 3471,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt"
+  }
+ ],
+ "Rahbût": [
+  {
+   "sira": 3473,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3474,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tulmeyse": [
+  {
+   "sira": 3490,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "mevcut_kaynak": ""
+  }
+ ]
+}
