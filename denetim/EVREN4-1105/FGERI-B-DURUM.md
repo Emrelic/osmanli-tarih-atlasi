@@ -32,6 +32,19 @@ Dosya: `FGERI-ONERI-B.json`. 102 kayıt, 50 künye grubu; Mapimí ve Marcapata d
 - **Limón:** 1838'de yerleşim yok; kur ileri gitmeli (merdiven ④).
 - **Adelaide:** "kur DOĞRU" dendi ama kaynaksız.
 
+## EMRELİC kararları (gece-124)
+
+- **Sıra:** önce madde kuyruğu (Kafkas, UC103, Norveç, Batı Yeni Gine). B ikinci turu ondan sonra yapılır: Sonnet, 10–15 kayıtlık partiler, ülke kaynağı önceden belirlenmiş, sayfa.py ham zorunlu, "kaynaksız bilgi" yasak.
+- **Vatikan:** `italya` t 1929-02-11 = `vatikan` f 1929-02-11 (t = ardıl f). 06-07 `ic_not`a.
+- **Fiume:** köprü tek "italya" değildir. Sıra: Müttefik/İtalyan işgali 1918-11-17 → Carnaro 1919-09-12 → 1920-12-29 → Fiume Serbest Devleti (Rapallo 1920-11-12; fiilen 1921) → 1924-03-16 İtalya ilhakı. Künye soruları LAB SALI'ya gönderildi; gelene kadar BEYANLI.
+- **Benkovac, Malolos, Vukovar 1991–96, Tannu-Tuva 1917–21:** künye soruları listesi LAB SALI'ya gönderildi. Vukovar'da `sirp-krajina-cumhuriyeti` künyesi var; Krajina 1995-08-07 ve UNTAES 1998-01-15 kararlarıyla hizalanacak.
+- **Wellington:** UMIT'in Wellington notuyla birleştirilir (Māori künye sorusu). 15 günlük boşluk D1 kuralıyla kapatılır: önceki dilim uzatılır ya da kur ilk dilime hizalanır, BEYANLI.
+- **Limón:** merdiven ④ ile f ileri, kaynakla.
+- **"Beyan G31.5 B56.5" (KASA ölçümü):** başıboş bir kayıt değildir. `data/yerlesimler_gamerika.js:131`'deki kayıt KASITLI bir boşluk beyan noktasıdır: `kasitli_bosluk:true`, `bos:"kabile"` (Charrúa / Minuan / Guenoa; HSAI c.1, Serrano), `s: uruguay-cumhuriyeti` 1828-08-27 → 2000-12-31.
+  - Eşi `data/bos_alanlar.js:206`'da (p: 1281 → 1828-08-27). Ayrıca `yer_yama_1923_1945.js:4139` ve paket dosyalarında geçiyor.
+  - Aynı dosyada 46 "Beyan …" noktası var; bu bir tasarım.
+  - F-GERİ'ye girmemeli: 1828 öncesi kaynaklı kasıtlı boşluk, kur = künye f yapıtı DEĞİL. Bu, KUR-KUNYE taramasının bir yanlış pozitifidir. 198'in içinde bu tek Beyan kaydı var.
+
 ## Öneri: ikinci tur
 
 - 79 BULUNAMADI ve 22 kaynaksız kayıt için daha dar partiler gerekiyor: künye grubu başına 10–15 kayıt, ülke kaynağı önceden belirlenmiş.

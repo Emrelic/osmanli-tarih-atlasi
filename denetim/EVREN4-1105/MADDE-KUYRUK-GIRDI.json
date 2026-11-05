@@ -1,0 +1,602 @@
+{
+ "kafkas": [
+  {
+   "t": "1747-06-20",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Tarki (Tarku)",
+    "Tebriz",
+    "Nahçıvan",
+    "Revan",
+    "Gence",
+    "Şamahı",
+    "Bakü",
+    "Derbend",
+    "Kabala",
+    "Ereş",
+    "Şâbüran",
+    "Mahmudâbâd",
+    "Erdebil",
+    "Urmiye",
+    "Hoy",
+    "Selmâs (Dilman)",
+    "Merend",
+    "Culfa",
+    "Ahar (Karadağ)",
+    "Sarâb",
+    "Mâku",
+    "Halhâl",
+    "Astara",
+    "Lenkeran",
+    "Salyan",
+    "Kuba",
+    "Şeki (Nuha)",
+    "Berde (Karabağ)",
+    "Ordubad",
+    "Norapat",
+    "Beri",
+    "Kliçatak (Suser)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
+    "https://islamansiklopedisi.org.tr/baku | https://www.iranicaonline.org/articles/baku-pers (Baku i. General) | ru.wikipedia (İPUCU, kaynak değil): Бакинское ханство",
+    "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Дербентское ханство",
+    "https://islamansiklopedisi.org.tr/gence",
+    "https://islamansiklopedisi.org.tr/karabag | https://islamansiklopedisi.org.tr/karabag",
+    "https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+    "https://islamansiklopedisi.org.tr/kumuklar | ru.wikipedia (İPUCU, kaynak değil): Тарковское шамхальство | https://islamansiklopedisi.org.tr/kumuklar",
+    "https://islamansiklopedisi.org.tr/maku | https://islamansiklopedisi.org.tr/maku",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | https://islamansiklopedisi.org.tr/nahcivan",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
+    "https://islamansiklopedisi.org.tr/revan",
+    "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
+    "https://islamansiklopedisi.org.tr/revan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+    "https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki",
+    "https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki",
+    "https://islamansiklopedisi.org.tr/sirvan | https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/sirvan",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813) | https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi",
+    "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.i"
+   ]
+  },
+  {
+   "t": "1813-10-24",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Tarki (Tarku)"
+   ],
+   "kaynak_ipucu": [
+    "ru.wikipedia (İPUCU, kaynak değil): Тарковское шамхальство"
+   ]
+  },
+  {
+   "t": "1763-02-01",
+   "b_taslak": "Kerim Han Zend Tebriz ve Urmiye'yi aldı",
+   "yerlesimler": [
+    "Tebriz",
+    "Erdebil",
+    "Urmiye",
+    "Hoy",
+    "Selmâs (Dilman)",
+    "Merend",
+    "Ahar (Karadağ)",
+    "Sarâb",
+    "Mâku",
+    "Halhâl"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/azad-khan-afgan-d",
+    "https://islamansiklopedisi.org.tr/maku | https://islamansiklopedisi.org.tr/maku",
+    "https://islamansiklopedisi.org.tr/tebriz | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.iranicaonline.org/articles/karim-khan-zand",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://www.iranicaonline.org/articles/azad-khan-afgan-d | https://islamansiklopedisi.org.tr/aga-muhammed-sah | https://www.i",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/azerbaijan-iv",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/khoy-ḵoy"
+   ]
+  },
+  {
+   "t": "1779-03-01",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Tebriz",
+    "Erdebil",
+    "Urmiye",
+    "Hoy",
+    "Selmâs (Dilman)",
+    "Merend",
+    "Ahar (Karadağ)",
+    "Sarâb",
+    "Mâku",
+    "Halhâl"
+   ],
+   "kaynak_ipucu": [
+    "https://www.iranicaonline.org/articles/azerbaijan-iv",
+    "https://www.iranicaonline.org/articles/azerbaijan-iv | https://islamansiklopedisi.org.tr/erdebil",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/azerbaijan-iv",
+    "https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/karim-khan-zand | https://www.iranicaonline.org/articles/khoy-ḵoy",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/aga-muhammed-sah"
+   ]
+  },
+  {
+   "t": "1790-01-01",
+   "b_taslak": "Ağa Muhammed Han Tebriz'i Kaçar hâkimiyetine aldı",
+   "yerlesimler": [
+    "Tebriz",
+    "Merend"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/tebriz",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/aga-muhammed-sah"
+   ]
+  },
+  {
+   "t": "1827-10-25",
+   "b_taslak": "Rus kuvvetleri Tebriz'e girdi",
+   "yerlesimler": [
+    "Tebriz"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/tebriz"
+   ]
+  },
+  {
+   "t": "1828-02-22",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Tebriz",
+    "Nahçıvan",
+    "Revan",
+    "Erdebil",
+    "Hoy",
+    "Culfa",
+    "Ordubad",
+    "Norapat",
+    "Beri"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/erdebil",
+    "https://islamansiklopedisi.org.tr/nahcivan",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | https://islamansiklopedisi.org.tr/nahcivan",
+    "https://islamansiklopedisi.org.tr/nahcivan | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство | ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство",
+    "https://islamansiklopedisi.org.tr/revan",
+    "https://islamansiklopedisi.org.tr/revan | https://islamansiklopedisi.org.tr/revan",
+    "https://islamansiklopedisi.org.tr/tebriz",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/hoy",
+    "ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство"
+   ]
+  },
+  {
+   "t": "1797-01-01",
+   "b_taslak": "Nahçıvan Hanlığı İran'a (Kaçar) bağlandı",
+   "yerlesimler": [
+    "Nahçıvan",
+    "Culfa",
+    "Ordubad"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/nahcivan"
+   ]
+  },
+  {
+   "t": "1827-07-08",
+   "b_taslak": "Paskeviç Nahçıvan'a girdi",
+   "yerlesimler": [
+    "Nahçıvan",
+    "Culfa",
+    "Ordubad"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/nahcivan",
+    "ru.wikipedia (İPUCU, kaynak değil): Нахичеванское ханство"
+   ]
+  },
+  {
+   "t": "1751-01-01",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Revan",
+    "Norapat",
+    "Beri"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/revan"
+   ]
+  },
+  {
+   "t": "1795-01-01",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Revan",
+    "Norapat",
+    "Beri"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/revan"
+   ]
+  },
+  {
+   "t": "1827-10-13",
+   "b_taslak": null,
+   "yerlesimler": [
+    "Revan",
+    "Norapat",
+    "Beri"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/revan"
+   ]
+  },
+  {
+   "t": "1796-12-24",
+   "b_taslak": "Rimski-Korsakov Gence'yi işgal etti",
+   "yerlesimler": [
+    "Gence"
+   ],
+   "kaynak_ipucu": [
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1797-02-16",
+   "b_taslak": "I. Pavlus'un emriyle Rus kuvvetleri Kafkasya'dan çekildi",
+   "yerlesimler": [
+    "Gence",
+    "Şamahı",
+    "Bakü",
+    "Derbend",
+    "Şâbüran",
+    "Kuba"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/sirvan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)",
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1804-01-15",
+   "b_taslak": "TASLAK YOK — elle yaz",
+   "yerlesimler": [
+    "Gence"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/gence"
+   ]
+  },
+  {
+   "t": "1768-06-01",
+   "b_taslak": "Şamahı Hanlığı Kuba ve Şeki arasında paylaşıldı; Şemâhî Kuba'ya geçti",
+   "yerlesimler": [
+    "Şamahı"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/sirvan | https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/sirvan",
+    "https://islamansiklopedisi.org.tr/sirvan | https://islamansiklopedisi.org.tr/sirvan"
+   ]
+  },
+  {
+   "t": "1789-01-01",
+   "b_taslak": "Kuba Hanı Feth Ali Han öldü; Şirvan'da Mustafa Han dönemi",
+   "yerlesimler": [
+    "Şamahı",
+    "Mahmudâbâd",
+    "Salyan"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство",
+    "https://islamansiklopedisi.org.tr/sirvan",
+    "https://islamansiklopedisi.org.tr/sirvan | https://islamansiklopedisi.org.tr/sirvan",
+    "ru.wikipedia (İPUCU, kaynak değil): Талышское ханство"
+   ]
+  },
+  {
+   "t": "1796-10-18",
+   "b_taslak": "Zubov Yeni Şemâhî'ye ulaştı",
+   "yerlesimler": [
+    "Şamahı"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/sirvan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1806-01-06",
+   "b_taslak": "Şirvanlı Mustafa Han Rus tâbiliğini kabul etti",
+   "yerlesimler": [
+    "Şamahı"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/sirvan"
+   ]
+  },
+  {
+   "t": "1820-08-31",
+   "b_taslak": "Ermolov baskısıyla Şirvan Hanı Mustafa Han İran'a kaçtı; hanlık ilga",
+   "yerlesimler": [
+    "Şamahı"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/sirvan"
+   ]
+  },
+  {
+   "t": "1796-06-26",
+   "b_taslak": "Zubov seferi: Bakü Ruslara teslim oldu",
+   "yerlesimler": [
+    "Bakü"
+   ],
+   "kaynak_ipucu": [
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1806-10-15",
+   "b_taslak": "Bulgakov Bakü'yü aldı; Bakü Hanlığı ilga, ardından Kuba alındı",
+   "yerlesimler": [
+    "Bakü",
+    "Şâbüran",
+    "Mahmudâbâd",
+    "Salyan",
+    "Kuba"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/baku | https://www.iranicaonline.org/articles/baku-pers (Baku i. General) | ru.wikipedia (İPUCU, kaynak değil): Бакинское ханство",
+    "https://islamansiklopedisi.org.tr/kuba--azerbaycan",
+    "https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+    "https://www.iranicaonline.org/articles/baku-pers (Baku i. General) | https://islamansiklopedisi.org.tr/baku",
+    "ru.wikipedia (İPUCU, kaynak değil): Талышское ханство"
+   ]
+  },
+  {
+   "t": "1759-09-01",
+   "b_taslak": "Kuba Hanı Feth Ali Han Derbend'i aldı",
+   "yerlesimler": [
+    "Derbend"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Дербентское ханство",
+    "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)"
+   ]
+  },
+  {
+   "t": "1796-05-21",
+   "b_taslak": "Zubov Derbend'i aldı (1796 Rus İran seferi)",
+   "yerlesimler": [
+    "Derbend"
+   ],
+   "kaynak_ipucu": [
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1806-07-01",
+   "b_taslak": "Gudoviç Derbend'i aldı (yaz 1806; gün teyitsiz)",
+   "yerlesimler": [
+    "Derbend"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/derbend--dagistan",
+    "https://islamansiklopedisi.org.tr/derbend--dagistan | https://islamansiklopedisi.org.tr/kuba--azerbaycan | https://islamansiklopedisi.org.tr/derbend--dagistan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)"
+   ]
+  },
+  {
+   "t": "1805-06-02",
+   "b_taslak": "Şeki Hanı Selim Han Kürekçay'da Rus tâbiliğini kabul etti",
+   "yerlesimler": [
+    "Kabala",
+    "Ereş",
+    "Şeki (Nuha)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/seki"
+   ]
+  },
+  {
+   "t": "1819-01-01",
+   "b_taslak": "Şeki Hanlığı Rusya'ya ilhak edildi",
+   "yerlesimler": [
+    "Kabala",
+    "Ereş",
+    "Şeki (Nuha)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/seki",
+    "https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki",
+    "https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki | https://islamansiklopedisi.org.tr/seki"
+   ]
+  },
+  {
+   "t": "1796-06-27",
+   "b_taslak": "Zubov seferi: Rus kuvvetleri Kuba'ya girdi",
+   "yerlesimler": [
+    "Şâbüran",
+    "Kuba"
+   ],
+   "kaynak_ipucu": [
+    "ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796) | https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Персидский поход (1796)"
+   ]
+  },
+  {
+   "t": "1759-01-01",
+   "b_taslak": "Kuba Hanı Feth Ali Han Salyan'ı aldı",
+   "yerlesimler": [
+    "Mahmudâbâd",
+    "Salyan"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/kuba--azerbaycan | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Кубинское ханство"
+   ]
+  },
+  {
+   "t": "1791-01-01",
+   "b_taslak": "Ağa Muhammed Han Azerbaycan'da Kaçar hâkimiyetini kurdu",
+   "yerlesimler": [
+    "Erdebil",
+    "Urmiye",
+    "Hoy",
+    "Selmâs (Dilman)",
+    "Ahar (Karadağ)",
+    "Sarâb",
+    "Mâku",
+    "Halhâl"
+   ],
+   "kaynak_ipucu": [
+    "https://www.iranicaonline.org/articles/azerbaijan-iv",
+    "https://www.iranicaonline.org/articles/azerbaijan-iv | https://islamansiklopedisi.org.tr/erdebil",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy",
+    "https://www.iranicaonline.org/articles/khoy-ḵoy | https://www.iranicaonline.org/articles/azerbaijan-iv"
+   ]
+  },
+  {
+   "t": "1828-02-01",
+   "b_taslak": "Ruslar Erdebil'i işgal etti",
+   "yerlesimler": [
+    "Erdebil"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/erdebil"
+   ]
+  },
+  {
+   "t": "1827-10-01",
+   "b_taslak": "Rus kuvvetleri Hoy'u aldı",
+   "yerlesimler": [
+    "Hoy"
+   ],
+   "kaynak_ipucu": [
+    "https://www.iranicaonline.org/articles/khoy-ḵoy | https://islamansiklopedisi.org.tr/hoy"
+   ]
+  },
+  {
+   "t": "1803-01-07",
+   "b_taslak": "Talış Hanlığı Rus himayesine girdi",
+   "yerlesimler": [
+    "Astara",
+    "Lenkeran"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/talis-hanligi"
+   ]
+  },
+  {
+   "t": "1812-08-21",
+   "b_taslak": "İran ordusu Lenkeran'ı aldı",
+   "yerlesimler": [
+    "Astara",
+    "Lenkeran"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/talis-hanligi",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)"
+   ]
+  },
+  {
+   "t": "1813-01-13",
+   "b_taslak": "Kotlyarevski Lenkeran'ı fırtınayla aldı",
+   "yerlesimler": [
+    "Astara",
+    "Lenkeran"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/talis-hanligi",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)"
+   ]
+  },
+  {
+   "t": "1826-01-01",
+   "b_taslak": "Talış Hanlığı ilga edildi",
+   "yerlesimler": [
+    "Astara",
+    "Lenkeran"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/talis-hanligi",
+    "https://islamansiklopedisi.org.tr/talis-hanligi | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813) | https://islamansiklopedisi.org.tr/talis-hanligi | https://islamansiklopedisi.org.tr/talis-hanligi"
+   ]
+  },
+  {
+   "t": "1805-05-26",
+   "b_taslak": "Kürekçay Antlaşması: Karabağ Hanlığı Rus tâbiliğine girdi",
+   "yerlesimler": [
+    "Berde (Karabağ)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/karabag | ru.wikipedia (İPUCU, kaynak değil): Кюрекчайский договор"
+   ]
+  },
+  {
+   "t": "1822-01-01",
+   "b_taslak": "Karabağ Hanlığı çar fermanıyla lağvedildi",
+   "yerlesimler": [
+    "Berde (Karabağ)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/karabag",
+    "https://islamansiklopedisi.org.tr/karabag | https://islamansiklopedisi.org.tr/karabag",
+    "https://islamansiklopedisi.org.tr/karabag | ru.wikipedia (İPUCU, kaynak değil): Кюрекчайский договор"
+   ]
+  },
+  {
+   "t": "1805-01-01",
+   "b_taslak": "Şuregel sultanlığı Rusya'ya katıldı",
+   "yerlesimler": [
+    "Kliçatak (Suser)"
+   ],
+   "kaynak_ipucu": [
+    "https://islamansiklopedisi.org.tr/revan | ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)",
+    "ru.wikipedia (İPUCU, kaynak değil): Русско-персидская война (1804—1813)"
+   ]
+  }
+ ],
+ "uc103": [
+  {
+   "ad": "Bahlâ",
+   "b_taslak": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12].",
+   "dilimler": [
+    [
+     "umman",
+     "1955-12-01"
+    ]
+   ]
+  },
+  {
+   "ad": "Gudermes",
+   "b_taslak": "Rus kuvvetleri Gudermes'i ele geçirdi; Çeçenistan'ın ikinci büyük şehri federal denetime girdi (1999-11-12, gün teyitsiz).",
+   "dilimler": [
+    [
+     "rusya-federasyonu",
+     "1999-11-12"
+    ]
+   ]
+  },
+  {
+   "ad": "Izkî",
+   "b_taslak": "Aralık 1955'te Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine (Bahlâ, İzkî, Nizvâ) girdi; İbâzî imamlığı fiilen sona erdi [yalnız ay: 1955-12].",
+   "dilimler": [
+    [
+     "umman",
+     "1955-12-01"
+    ]
+   ]
+  }
+ ],
+ "bati_yeni_gine": [
+  {
+   "t": "1962-10-01",
+   "b_taslak": "Batı Yeni Gine Hollanda'dan BM Geçici İdaresi'ne (UNTEA) devredildi",
+   "kunye": "untea (1962-10-01 → 1963-05-01)"
+  },
+  {
+   "t": "1963-05-01",
+   "b_taslak": "UNTEA Batı Yeni Gine'yi Endonezya'ya devretti",
+   "kunye": "untea t / endonezya"
+  }
+ ]
+}
