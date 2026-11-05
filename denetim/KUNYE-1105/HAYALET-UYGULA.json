@@ -988,5 +988,38 @@
   "guc": "ORTA",
   "dayanak": "KASA SALI FGERI-B-DURUM.md (kaynak turu sonradan)",
   "onay": "EMRELİC gece-125"
+ },
+ {
+  "d": "akrotiri-dekelya / kibris-ingiliz-ussler (mükerrer)",
+  "tur": "KUNYE BİRLEŞTİR + YERLESIM",
+  "karar": "EMRELİC (LAB'a devredildi)",
+  "islem": "LAB ölçümü origin/main: iki künye de f 1960-08-16, t yok, baskent Episkopi, kronolojileri aynı 4 madde (1960-08-16, 1962-01-01, 1964-03-04, 1974-07-20). İKİSİ DE BOYALAR'da, FARKLI renk: akrotiri-dekelya #cc6024 (renkler.py:4681), kibris-ingiliz-ussler #726012 (:4746) → aynı üs iki renkte boyanıyor. ANA ID akrotiri-dekelya (gerekçe: 3 yerleşimin 2'si — Akrotiri, Episkopi — onu kullanıyor; kronoloji_sinir_halef_1923_2000.js:162 maddesinin devlet: alanı o; kaynağı birincil antlaşma; ikincisi countryreports.org = zayıf). İşlem (KASA PAZAR): (1) Dikelya yerleşimi d: kibris-ingiliz-ussler → akrotiri-dekelya; (2) devletler.js kibris-ingiliz-ussler kaydı SİLİNİR (kronolojisi mükerrer; tur:'bagimlilik' ana kayda alınır — 'devlet' yanlış); (3) ana kaydın ad'ı 'Akrotiri ve Dikelya Egemen Üs Bölgeleri' (Türkçe yaygın yazım; 'Dekelya' ic_not) — id DEĞİŞMEZ; (4) kronoloji_sinir_halef_1923_2000.js:162 taraflar'dan kibris-ingiliz-ussler çıkar (Değişmez 2: madde kalır, devlet aynı); (5) renkler.py BOYALAR'daki 'kibris-ingiliz-ussler' girdisi BU commit'te SİLİNMEZ (motor tuzu — 7-8 saat yeniden inşa); ölü girdi olarak kalır, bir sonraki motor değişikliğinde temizlenir (beyan). Üretilmiş devlet_harita_ust.js / ufuk_bantlari_ust.js / paket_05.js koşudan sonra kendiliğinden düzelir. [UYGULAYICI: KASA PAZAR]",
+  "kunye": "ANA: akrotiri-dekelya (:15425) · KALKAR: kibris-ingiliz-ussler (:16272)",
+  "gun": "1960-08-16",
+  "guc": "ÖLÇÜM",
+  "dayanak": "KASA SALI iletimi; LAB ölçümü origin/main; TDV 'ZİMBABVE'; Britannica 'Changamire dynasty' (devletler.js'teki alıntı)",
+  "onay": "EMRELİC gece-127 (karar LAB'da)"
+ },
+ {
+  "d": "torva (t) / rozvi (f)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC (LAB'a devredildi)",
+  "islem": "Bitişiklik: torva t → 1684-01-01 = rozvi f (t = ardıl f; aynı olay — Changamire Dombo'nun Butua/Khami'yi alışı). Gerekçe: rozvi f 1684 Britannica 'Changamire dynasty' alıntısına dayanıyor ('Changamire Dombo I (1684–95)'), torva t 1683 kaynaksız ('bulunamadı'); kaynaklı uç esas. TDV ölçümü (LAB, 'ZİMBABVE' md., 2013, c. 44): Torva/Khami geçmiyor; yalnız 'XVII. yüzyılın sonlarında ... Rozvi hânedanının yükselişi' → yıl çelişkisi yok. ic_not_t: '[yalnız yıl — 1683 geleneksel; Rozvi'nin Butua'yı alış yılı Dombo'nun saltanat başı 1684'e hizalandı]'. Khami 1683-01-01 → 1684-01-01 'ingiltere' dilimi → s: torva (dönem torva t'ye uzar). Rozvi kronolojisi 1684-01-01'de iki madde (kuruluş + toprak-kazanç) — Değişmez 2 VAR. [UYGULAYICI: KASA PAZAR]",
+  "kunye": "torva t 1683-01-01 → 1684-01-01 [yalnız yıl]",
+  "gun": "1684-01-01",
+  "guc": "ZAYIF (yıl; Britannica)",
+  "dayanak": "KASA SALI iletimi; LAB ölçümü origin/main; TDV 'ZİMBABVE'; Britannica 'Changamire dynasty' (devletler.js'teki alıntı)",
+  "onay": "EMRELİC gece-127 (karar LAB'da)"
+ },
+ {
+  "d": "rozvi (t) / matabele (f)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC (LAB'a devredildi)",
+  "islem": "Bitişiklik: rozvi t → 1840-01-01 = matabele f. Gerekçe: Ngoni (Zwangendaba) akınları 1830'larda Rozvi merkezini yıktı ama Rozvi mamboluğu küçülmüş hâlde sürdü (aynı polity; ardıl yapı yok) — Mzilikazi'nin yerleşmesine dek bölgede başka devlet kurulmadı. Ayrı 'Nguni geçişi' dilimi AÇILMAZ: Ngoni grupları geçici akıncıydı (yerleşik devlet değil), kabile/__BOSLUK__ dilimi BEKLENEN_SAHIPSIZ'ı artırır (Değişmez 1; Emre 'kabile toprağı' sınıfı bekliyor) → önceki sahip sürer + beyan. TDV ölçümü: '1830'larda ... Ngoni halkı' (yalnız on yıl), Mzilikazi/Ndebele için yıl yok. ic_not_t: '[yalnız yıl; BEYANLI — 1834 Ngoni akınlarıyla merkez dağıldı, Rozvi kalıntısı 1840'a (Ndebele yerleşimi) dek sahip sayıldı; ayrıntılı gün için Beach, The Shona and Zimbabwe 900-1850 (1980) taranmalı]'. Danangombe 1834-01-01 → 1840-01-01 'ingiltere' dilimi → s: rozvi. Değişmez 2: 1834-01-01 'Ngoni akınlarıyla dağıldı' maddesi künye içinde KALIR (tur: 'son' → 'savas'); 1840-01-01 matabele kuruluş maddesi VAR. [UYGULAYICI: KASA PAZAR]",
+  "kunye": "rozvi t 1834-01-01 → 1840-01-01 [yalnız yıl] GENİŞLET",
+  "gun": "1840-01-01",
+  "guc": "ZAYIF (yıl; beyanlı)",
+  "dayanak": "KASA SALI iletimi; LAB ölçümü origin/main; TDV 'ZİMBABVE'; Britannica 'Changamire dynasty' (devletler.js'teki alıntı)",
+  "onay": "EMRELİC gece-127 (karar LAB'da)"
  }
 ]
