@@ -243,3 +243,14 @@ Bu bir eczane bilgisayarı ve CPU sınırlı. Ağır döngü kurma, büyük dosy
 **Hakemli olmayan portallar da ONERI-güçlü olur:** resmî tarih portalları (e-history.kz), yerel kütüphane ya da kraevedeniye siteleri, haber siteleri (VOA, AP, yerel haber).
 
 **İpucu sınıfı:** EB1911, IGI, Enciclopedia Italiana 1929-37 ve ESBE İPUCU ya da İPUCU-ARTI'dır; değişmez.
+
+
+## F = VAROLUŞ GÜNÜ (EMRELİC, 5 Kasım 2026; bu gece için çalışma kuralı, kalıcı kararı sabah Emre verecek)
+- Atlas f = yerleşimin kaynakla VAR OLDUĞU ilk gün: kuruluş, misyon ya da ilk iskân.
+- İlçe, belediye, distrito ve villa günü ic_not'a yazılır.
+- Kuruluş kaynaksızsa ilçe günü BEYANLI alt sınır olur.
+
+**Şartlar:**
+1. f geri çekilince açılan yeni ilk dilimin SAHİBİ de kaynaklı olmalı ya da ABİ MERKEZ zinciriyle beyanlı olmalı. Sahipsiz ya da hayalet dilim bırakılmaz.
+2. Yeni dilimdeki künyenin f/t'si o aralığı kapsamalı.
+3. Değişiklik başka yerleşimlerin peteğini de değiştirir. Partinin sonunda bu satırları ayrı bir `f_geri` listesine yaz: `"F-GERI: <yer> eski f → yeni f, sahip"`.

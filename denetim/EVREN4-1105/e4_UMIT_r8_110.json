@@ -104,7 +104,37 @@
     "f": "1815-08-04",
     "onceki": "1417-1798 Wallis, 1798 Helvetik, 1802 Rhone Cumhuriyeti, 1810-11-12 Fransa (Simplon) - kunye adayi LAB'a"
    },
-   "not": "CELISKI: HLS ozeti: Sitten 1798'e dek Wallis'in Zenden'i, 1802'den Wallis Cumhuriyeti'nde Zenden, 1815-1848 yine Zenden; Wallis 1815'te Konfederasyona katildi (Vereinigungsakte Zurih 1815-08-04 imza; federal antlasma 1815-08-07 - vs.ch/1815.ch ozetinden). Yani isvicre 1417'den itibaren Sion'a sahip DEGIL. isvicre kunyesi 1291'de; Valais/Rhone kunyesi depoda grep ile bulunamadi (valais/wallis/rodan yok) -> LAB'a kunye adayi. TEK OLCU: Wallis zaten fiilen yonettigi icin s: imza gunu (1815-08-04); 08-07 ic_not. OLCUT: idareye katma - Vereinigungsakte. HLS ham metni alinirsa KAYNAKLI'ya cevrilebilir."
+   "not": "EMRELİC (5 Kasım 2026, r8_105–110): isvicre 1417 YANLIŞ. Valais/Wallis (Zenden + piskoposluk) ve Rhodanik Cumhuriyet künye adayı LAB'a; 1798–1802 Helvetik dilimi atlanmaz. 1802 günü ve 1815 günü kaynakla. · CELISKI: HLS ozeti: Sitten 1798'e dek Wallis'in Zenden'i, 1802'den Wallis Cumhuriyeti'nde Zenden, 1815-1848 yine Zenden; Wallis 1815'te Konfederasyona katildi (Vereinigungsakte Zurih 1815-08-04 imza; federal antlasma 1815-08-07 - vs.ch/1815.ch ozetinden). Yani isvicre 1417'den itibaren Sion'a sahip DEGIL. isvicre kunyesi 1291'de; Valais/Rhone kunyesi depoda grep ile bulunamadi (valais/wallis/rodan yok) -> LAB'a kunye adayi. TEK OLCU: Wallis zaten fiilen yonettigi icin s: imza gunu (1815-08-04); 08-07 ic_not. OLCUT: idareye katma - Vereinigungsakte. HLS ham metni alinirsa KAYNAKLI'ya cevrilebilir.",
+   "oneri_son": [
+    {
+     "d": "valais-wallis (künye adayı LAB)",
+     "f": "1417-01-01",
+     "t": "1798-04-12"
+    },
+    {
+     "d": "helvetik-cumhuriyeti",
+     "f": "1798-04-12",
+     "t": "1802-08-30",
+     "not": "künye var (devletler.js:16955, 1798-04-12 → 1803-02-19); 1802 Rhodanik ayrılışı günü kaynakla"
+    },
+    {
+     "d": "rhodanik-cumhuriyet (künye adayı LAB)",
+     "f": "1802-08-30",
+     "t": "1810-11-12"
+    },
+    {
+     "d": "fransa (Simplon dept.)",
+     "f": "1810-11-12",
+     "t": "1813-12-?",
+     "not": "1813 sonu işgal dilimi kaynakla"
+    },
+    {
+     "d": "isvicre",
+     "f": "1815-08-04",
+     "not": "Konfederasyona katılış günü kaynakla (Vereinigungsakte 08-04 / federal antlaşma 08-07)"
+    }
+   ],
+   "karar": "EMRELİC"
   }
  ],
  "Fakfak": [
@@ -123,7 +153,20 @@
     "f": "1898-01-01 (YIL; gun teyitsiz)",
     "t": "s: hollanda 1942-03-09'da kapanmamali; 1942-04-01 -> isg japonya eklenmeli"
    },
-   "not": "f: Fakfak idari postu 1898'de kuruldu (YIL; atlas 1898-12-01 gunu yok). t=1942-03-09 Cava teslimi (ULKE DUZEYI); Fakfak'a Japon cikarmasi 1942-04-01 (Pacific Wrecks ham: 'On April 1, 1942 a Japanese landing force ... landed at Fakfak'). TEK KURAL: savas isgali isg'dir -> isg japonya 1942-04-01 -> (bitis kaynaksiz, aranmadi); s: hollanda hukuki devre dek surer. 1949-12-27 Endonezya devri Yeni Gine'yi KAPSAMADI -> kunye hollanda-dogu-hint t=1949-12-27 yetmez; 1962-10-01 UNTEA, 1963-05-01 Endonezya (vanderheijden ham: 'From October 1, 1962 till May 1, 1963 ... UNTEA'; 'On May 1, 1963, Indonesia became the new colonial power') icin donem/kunye LAB'a. OLCUT: gecici/askeri - Japon isgali, Hollanda iddiasi suruyor."
+   "not": "EMRELİC (5 Kasım 2026, r8_105–110): Fakfak onay: isg japonya 1942-04-01 ONERI-güçlü; bitiş yerel teslim günü. · f: Fakfak idari postu 1898'de kuruldu (YIL; atlas 1898-12-01 gunu yok). t=1942-03-09 Cava teslimi (ULKE DUZEYI); Fakfak'a Japon cikarmasi 1942-04-01 (Pacific Wrecks ham: 'On April 1, 1942 a Japanese landing force ... landed at Fakfak'). TEK KURAL: savas isgali isg'dir -> isg japonya 1942-04-01 -> (bitis kaynaksiz, aranmadi); s: hollanda hukuki devre dek surer. 1949-12-27 Endonezya devri Yeni Gine'yi KAPSAMADI -> kunye hollanda-dogu-hint t=1949-12-27 yetmez; 1962-10-01 UNTEA, 1963-05-01 Endonezya (vanderheijden ham: 'From October 1, 1962 till May 1, 1963 ... UNTEA'; 'On May 1, 1963, Indonesia became the new colonial power') icin donem/kunye LAB'a. OLCUT: gecici/askeri - Japon isgali, Hollanda iddiasi suruyor.",
+   "oneri_son": {
+    "d": "hollanda-dogu-hint",
+    "f": "1898-12-01",
+    "t": "1942-04-01",
+    "isg_ek": {
+     "alan": "isg",
+     "d": "japonya",
+     "f": "1942-04-01",
+     "t": "? (yerel Japon teslimi, kaynakla)",
+     "not": "ONERI-güçlü (Pacific Wrecks hakemsiz); gün AWM / Japon resmî savaş tarihinde aranacak"
+    }
+   },
+   "karar": "EMRELİC"
   }
  ],
  "Garapan (Saipan)": [
@@ -158,7 +201,14 @@
     "f": "teslim gunu (aranacak; imza 1899-02-10)",
     "t": "1914-10 -> isg japonya; s: almanya Versay imzasi 1919-06-28'e dek"
    },
-   "not": "Guampedia: Japonya 1914'te Alman/Ispanyol mulklerini (Guam haric) ele gecirdi (YIL; ay/gun yok). TEK KURAL: isgal isg'dir; Alman egemenligi Versay feragatiyle biter (1919-06-28, kaynakta okunmadi, atlas kurali); mandat Guampedia '1919'. Bu yuzden t=1914-10-01 yerine isg japonya 1914-10 baslatilmali, s: almanya t=1919-06-28. OLCUT: gecici/askeri - fetih, mandat oncesi. Gun 1914-10-01 teyitsiz."
+   "not": "EMRELİC (5 Kasım 2026, r8_105–110): Almanya Marianaları önceden idare etmiyordu → teslim günü (devir töreni). · Guampedia: Japonya 1914'te Alman/Ispanyol mulklerini (Guam haric) ele gecirdi (YIL; ay/gun yok). TEK KURAL: isgal isg'dir; Alman egemenligi Versay feragatiyle biter (1919-06-28, kaynakta okunmadi, atlas kurali); mandat Guampedia '1919'. Bu yuzden t=1914-10-01 yerine isg japonya 1914-10 baslatilmali, s: almanya t=1919-06-28. OLCUT: gecici/askeri - fetih, mandat oncesi. Gun 1914-10-01 teyitsiz.",
+   "oneri_son": {
+    "d": "almanya",
+    "f": "1899-11-17",
+    "t": "1914-10-01",
+    "not": "TEK ÖLÇÜ teslim günü: 1899-11-17 devir töreni kaynakla teyit edilmeli; 1899-02 anlaşması ve 1899-06-30 antlaşma ic_not"
+   },
+   "karar": "EMRELİC"
   },
   {
    "sira": 4221,
@@ -174,7 +224,22 @@
    "oneri": {
     "f": "s: meiji-japonya mandat gunu (Guampedia YIL 1919; 1920-12-17 ham metinde yok, bakilmadi); 1914-10 -> isg japonya"
    },
-   "not": "f=1914-10-01 askeri isgal gunudur -> isg (TEK KURAL). Garapan Japon bolgesel baskenti. t=1947-07-18 BM vesayet: Guampedia yalniz YIL 1947 ('The United Nations forms the Trust Territory ... 1947'); mevcut_kaynak ayni gunu veriyor, t ucu YIL duzeyinde uyumlu."
+   "not": "EMRELİC (5 Kasım 2026, r8_105–110): Versay md. 119 adaları Japonya'ya DEĞİL Başlıca Müttefik Devletler'e bırakır; Japonya'ya veren C mandası 1920-12-17. isg japonya 1914-10 → 1920-12-17, sonra s: Japon mandası künyesi (devletler.js'te yok → aday). meiji-japonya kimliği de dönemle uyuşmuyor (Taishō/Shōwa) — künye kontrol. Versay ic_not. · f=1914-10-01 askeri isgal gunudur -> isg (TEK KURAL). Garapan Japon bolgesel baskenti. t=1947-07-18 BM vesayet: Guampedia yalniz YIL 1947 ('The United Nations forms the Trust Territory ... 1947'); mevcut_kaynak ayni gunu veriyor, t ucu YIL duzeyinde uyumlu.",
+   "oneri_son": [
+    {
+     "alan": "isg",
+     "d": "japonya",
+     "f": "1914-10-01",
+     "t": "1920-12-17"
+    },
+    {
+     "alan": "s",
+     "d": "japon-guney-denizleri-mandasi (künye yok → aday LAB)",
+     "f": "1920-12-17",
+     "t": "1947-07-18"
+    }
+   ],
+   "karar": "EMRELİC"
   },
   {
    "sira": 4222,
