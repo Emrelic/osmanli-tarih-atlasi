@@ -636,5 +636,16 @@
   "islem": "devletler.js yogyakarta 'Yogyakarta Sultanlığı' f 1755-02-13 (Giyanti) t 1923-10-29 (:7197) → 1945-09-05 (Amanat: sultanlığın Endonezya Cumhuriyeti'ne katılışı) — dolaylı idare sınıfı (EMRELİC gece-92). Yogyakarta yerleşimleri: s: yogyakarta 1755-02-13 → 1945-09-04; v: VOC (hollanda-dogu-hint) 1755'ten; 1942-03 → 1945-08 isg japonya (gün kaynakla); 1945-09-05'ten endonezya-cumhuriyeti; mevcut 1945-09-02 → 09-05 'hollanda' dilimi KALKAR. ic_not: 'Yogyakarta Özel Bölgesi olarak sultanlık kurumu sürer (Endonezya içinde)'. Değişmez 2: 1945-09-05 maddesi ölçülmeli.",
   "dayanak": "EMRELİC gece-92 (LAB PAZAR parti 027, af12878ac)",
   "onay": "EMRELİC 6 Kasım gece-92"
+ },
+ {
+  "d": "Doğu Timor (zincir)",
+  "tur": "YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "künye değişmez (portekiz-timor t 1975-11-28 KALIR; endonezya-dogu-timor dönem sahibi)",
+  "gun": "1975-12-07",
+  "islem": "BÜTÜN Doğu Timor yerleşimleri (Dili, Baucau, Viqueque, Maucatar, Lifau …): portekiz-timor → 1975-11-27; 1975-11-28 → 1975-12-06 BEYANLI (FRETILIN Doğu Timor Demokratik Cumhuriyeti ilanı, künye yok — __BOSLUK__ + beyan ya da portekiz-timor t ile bitişik beyan); 1975-12-07 → 1999-10-24 s: endonezya-dogu-timor (tur:isgal künye, :15607) + ic_not 'ilhak 1976-07-17, BM tanımadı; Portekiz yönetici devlet sayıldı'; 1999-10-25 → 2002-05-19 s: untaet (:21843); 2002-05-20'den BEYANLI (Timor-Leste künye adayı). LAB PAZAR Viqueque ve Maucatar'ı işledi (79cea5059). Değişmez 2: 1975-11-28, 1975-12-07, 1999-10-25, 2002-05-20 maddeleri ölçülmeli (1975-11-28 portekiz-timor künye içinde VAR, :18419).",
+  "dayanak": "EMRELİC gece-93 (sadeleşen model)",
+  "onay": "EMRELİC 6 Kasım gece-93"
  }
 ]
