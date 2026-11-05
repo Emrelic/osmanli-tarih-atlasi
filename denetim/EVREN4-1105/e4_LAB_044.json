@@ -1,0 +1,688 @@
+{
+ "Ceel Barde": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1116",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV somali (yalnız 'Mâcerteyn ve Obbia ... 1927’de İtalyanlar tarafından işgal'; Banâdir/Benadir ve 1905 doğrudan yönetim geçmiyor), Treccani somalia (kısa taslak, tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "somali t 1905-01-01 (İtalyan Somalisi doğrudan yönetimi) ve f 1281 teyitsiz; Ceel Barde iç Bakool'dadır, Banadir şirketi dönemi yerleşimle ilişkisi okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1116",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-02-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | ÜLKE DÜZEYİ: Treccani Dizionario di Storia 'Africa orientale italiana': AOI 1 Haziran 1936 kraliyet kararnamesiyle kuruldu (f ucu GÜN). Ayrıca ayni maddede 'Addis Abeba il 5 maggio 1936; pochi giorni dopo fu proclamato l'impero' (fiilî giriş/ilhak Mayıs, atlasın bilinen kararı AOI 1936-06-01). t ucu (İngiliz/Müttefik kontrolü) bu sayfada okunmadı. Yerleşim ayrıca el değiştirmemiş varsayıldı."
+  }
+ ],
+ "Ceel Vaak": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1123",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/oltre-giuba/",
+   "alinti": "fu ceduto all’Italia (protocollo italo-britannico del 30 giugno 1925)",
+   "oneri": {
+    "t": "1925-06-30"
+   },
+   "not": "Ceel Vaak (El Wak) Oltregiuba (Jubaland) kıyısındadır: Treccani 'Oltre Giuba': İngiliz Kenya'sına bağlı bölge İtalya'ya protokolle devredildi (30 Haziran 1925); 30 Haziran 1926'da İtalyan Somalisi'ne birleştirildi. Atlas somali t 1927-01-01 (Obbia/Mijertein işgali yılı, TDV somali) Ceel Vaak için uygun değil. Koşullu: yerleşim 41.15°E, Oltregiuba sınırı 41. meridyen; Oltregiuba içinde olduğu doğrulanmadı. TEK ÖLÇÜ: protokol imza 30 Haziran 1925; İtalya'nın fiilî teslim alışı (Kismayo 29 Haziran/1 Temmuz 1925) kaynaklarda değişir, okunmadı. Alıntı yalnız bu ucu tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1123",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/oltre-giuba/",
+   "alinti": "fu ceduto all’Italia (protocollo italo-britannico del 30 giugno 1925)",
+   "oneri": {
+    "f": "1925-06-30"
+   },
+   "not": "italyan-somali f 1927-01-01 yerine Oltregiuba devri 1925-06-30 (Treccani 'Oltre Giuba'); künye italyan-somali f 1905-03-19 olduğundan KÜNYE AŞIMI yok. Oltregiuba 1925-26 ayrı yüksek komiserlikti, 30 Haziran 1926'da Somali İtalyana katıldı. Koşullu (41.15°E sınır). t 1941-02-25 okunmadı."
+  }
+ ],
+ "Cinka": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1029",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | Alıntı yalnız AOI'nin kuruluşunu (Habeşistan t ucu = AOI f ucu) tarihliyor; f ucu (1281 atlas başlangıcı) okunmadı. Treccani AOI maddesi: Addis Abeba 5 Mayıs 1936'da alındı, birkaç gün sonra imparatorluk ilan edildi; atlasın bilinen kararı 1936-06-01 (AOI kuruluş kararnamesi). Alıntı yalnız öteki ucu tarihliyor: ONERI (uc t)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1029",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | ÜLKE DÜZEYİ: Treccani Dizionario di Storia 'Africa orientale italiana': AOI 1 Haziran 1936 kraliyet kararnamesiyle kuruldu (f ucu GÜN). Ayrıca ayni maddede 'Addis Abeba il 5 maggio 1936; pochi giorni dopo fu proclamato l'impero' (fiilî giriş/ilhak Mayıs, atlasın bilinen kararı AOI 1936-06-01). t ucu (İngiliz/Müttefik kontrolü) bu sayfada okunmadı. Yerleşim ayrıca el değiştirmemiş varsayıldı."
+  }
+ ],
+ "Daloa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:725",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "Odienne’i de işgal ederek (1898)",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor ve ÜLKE DÜZEYİ: TDV Fildişi Sahili: Fransızlar 1895 Kong, 1898 Odienne ile bugünkü sınırlar içindeki yerlerin hepsini denetimleri altına aldı; sömürge 1893'te kuruldu, kesin otorite 1918'e dek tam olmadı. Daloa'ya özgü tanıklık yok; dan-guro f 1281 teyitsiz. Atlas t 1898-01-01 yıl düzeyi uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:725",
+   "alan": "s",
+   "d": "fildisi-sahili",
+   "f": "1960-08-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "7 Ağustos 1960 tarihinde de tam bağımsızlığını elde ederek Birleşmiş Milletler Teşkilâtı’na üye oldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f ucu GÜN 1960-08-07 (TDV Fildişi Sahili); BM üyeliği 20 Eylül 1960 ayrı olay. Yerleşim ayrıca el değiştirmemiş."
+  }
+ ],
+ "Debârek": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:441",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | Alıntı yalnız AOI'nin kuruluşunu (Habeşistan t ucu = AOI f ucu) tarihliyor; f ucu (1281 atlas başlangıcı) okunmadı. Treccani AOI maddesi: Addis Abeba 5 Mayıs 1936'da alındı, birkaç gün sonra imparatorluk ilan edildi; atlasın bilinen kararı 1936-06-01 (AOI kuruluş kararnamesi). Alıntı yalnız öteki ucu tarihliyor: ONERI (uc t)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:441",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | ÜLKE DÜZEYİ: Treccani Dizionario di Storia 'Africa orientale italiana': AOI 1 Haziran 1936 kraliyet kararnamesiyle kuruldu (f ucu GÜN). Ayrıca ayni maddede 'Addis Abeba il 5 maggio 1936; pochi giorni dopo fu proclamato l'impero' (fiilî giriş/ilhak Mayıs, atlasın bilinen kararı AOI 1936-06-01). t ucu (İngiliz/Müttefik kontrolü) bu sayfada okunmadı. Yerleşim ayrıca el değiştirmemiş varsayıldı."
+  }
+ ],
+ "Dire Dava": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:488",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1902-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | Alıntı yalnız AOI'nin kuruluşunu (Habeşistan t ucu = AOI f ucu) tarihliyor; f ucu (1902-01-01 kuruluş (demiryolu)) okunmadı. Treccani AOI maddesi: Addis Abeba 5 Mayıs 1936'da alındı, birkaç gün sonra imparatorluk ilan edildi; atlasın bilinen kararı 1936-06-01 (AOI kuruluş kararnamesi). Alıntı yalnız öteki ucu tarihliyor: ONERI (uc t)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:488",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/africa-orientale-italiana_(Dizionario-di-Storia)/",
+   "alinti": "con regio decreto 1° giugno 1936, il complesso dei territori costituito dagli antichi possedimenti coloniali italiani",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: AOI 1936-06-01; Addis Abeba 1936-05-05 alınışı ic_not. | ÜLKE DÜZEYİ: Treccani Dizionario di Storia 'Africa orientale italiana': AOI 1 Haziran 1936 kraliyet kararnamesiyle kuruldu (f ucu GÜN). Ayrıca ayni maddede 'Addis Abeba il 5 maggio 1936; pochi giorni dopo fu proclamato l'impero' (fiilî giriş/ilhak Mayıs, atlasın bilinen kararı AOI 1936-06-01). t ucu (İngiliz/Müttefik kontrolü) bu sayfada okunmadı. Yerleşim ayrıca el değiştirmemiş varsayıldı."
+  }
+ ],
+ "Cartago (Kosta Rika)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:6",
+   "alan": "s",
+   "d": "kosta-rika-cumhuriyeti",
+   "f": "1838-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Treccani 'Costa Rica' (1838 anahtarı YOK; 1821 Meksika, 1823 Orta Amerika Federasyonu), Treccani 'Cartago' (fino al 1823 capitale della Repubblica)",
+   "alinti": "",
+   "oneri": {},
+   "not": "kosta-rika-cumhuriyeti f 1838-01-01 (Federasyondan ayrılış) teyitsiz; Treccani Cartago'yu 1823'e dek başkent sayıyor. Cartago 1838 öncesi Federasyon/İspanyol Kosta Rika zinciri atlasta yok (tek dönem): zincir boşluğu olabilir."
+  }
+ ],
+ "Caxias do Sul (Colônia de Caxias)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:53",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1875-01-01",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=4305108"
+  }
+ ],
+ "Coari": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:871",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1874-05-01",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130120"
+  }
+ ],
+ "Correntina": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:578",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1866-05-15",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=2909307"
+  }
+ ],
+ "Dianópolis (São José do Duro)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:418",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1854-10-14",
+   "t": "1889-11-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=1707009"
+  }
+ ],
+ "Cotegipe (Campo Largo)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:448",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1820-03-03",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2909406&aspas=3"
+  }
+ ],
+ "Cuiabá": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:279",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1719-04-08",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: Treccani 'Cuiabá' yalnız 'Fondata all’inizio del 18° sec. dai Paulisti' (dönem düzeyi); atlas 1719-04-08 gün teyitsiz."
+  }
+ ],
+ "Diamantina (Arraial do Tijuco)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:11",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1734-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=3121605; Treccani 'Diamantina' sayfası açılmadı."
+  }
+ ],
+ "Diamantino": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:378",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1811-08-09",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
+   "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5103502&aspas=3"
+  }
+ ],
+ "Conceição do Araguaia": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:881",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1908-11-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Açılamayan kaynak: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150270 (IBGE API zaman aşımı); Treccani ilgili sayfa yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "brezilya-cumhuriyeti f 1908-11-03 (yerel vila ilanı, Lei Estadual 1.091) kayıttaki IBGE kaynağıyla yazılı; bu oturumda okunamadı."
+  }
+ ],
+ "Ceduna": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:224",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1901-06-20",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: yok (kayıttaki SA Memory sayfa URL'si zincirde yok; 'Ceduna was proclaimed on 20 June 1901' yer_kaynak'ta)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe/erişim. Federasyon f 1901-01-01 künye; Ceduna 1901-06-20 yerel ilan. SA Memory kütüphane sergisi olduğundan kurum portalı sınıfı olurdu."
+  }
+ ],
+ "Chihuahua (San Felipe el Real)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:130",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1709-10-12",
+   "t": "1821-09-27",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/chihuahua/",
+   "alinti": "Fondata nel 1639 (secondo altri nel 1707, dai francescani)",
+   "oneri": {},
+   "not": "f ucu ÇELİŞKİ: Treccani 1639 / 1707 der; atlas 1709-10-12 (Gerhard 1982, yer_kaynak). Seçilmedi. t 1821-09-27: Treccani 'Messico' Iturbide'nin 24 Şubat 1821'de bağımsızlık ilanını verir (Iguala planı), 27 Eylül girişi yok; atlasın bilinen kararı 1821-09-27 korunur."
+  }
+ ],
+ "Cienfuegos": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:38",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1819-01-01",
+   "t": "1898-12-10",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "the U.S. and Spanish governments signed the Treaty of Paris on December 10, 1898",
+   "oneri": {
+    "t": "1899-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-29/30): ispanyol-kuba t 1899-01-01 (Havana teslimi); Paris 1898-12-10 ic_not. | t: BİLİNEN KARAR: İspanyol dönemi 1899-01-01'de (Havana teslimi) biter; Paris 10 Aralık 1898 imza (history.state.gov okundu: 'guaranteeing the independence of Cuba'), 1899-01-01 teslim günü bu oturumda okunmadı. TEK ÖLÇÜ: ABD yönetmiyor, teslim günü. f: UNESCO WHC 1202 'founded in 1819 in the Spanish territory' (YIL; kurum portalı sınıfı)."
+  }
+ ],
+ "Cincinnati (Losantiville)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1153",
+   "alan": "s",
+   "d": "abd",
+   "f": "1788-12-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/cincinnati/",
+   "alinti": "Il primo nucleo abitato risale al 1788.",
+   "oneri": {},
+   "not": "f ucu YIL (1788); gün 12-28 teyitsiz [yalnız yıl teyitli; gün teyitsiz]. ABD egemenliği (Kuzeybatı Bölgesi) ayrıca okunmadı."
+  }
+ ],
+ "Ciudad Acuña (Las Vacas)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1732",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1912-02-19",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Açılamayan PDF: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909446.pdf (sayfa.py metin çıkaramadı; 4,4 MB, 'Las Vacas' anahtarı YOK)",
+   "alinti": "",
+   "oneri": {},
+   "not": "meksika f 1912-02-19 (Las Vacas villa ilanı, INEGI) kayıttaki kaynağa dayanır; başka makinede okunmalı."
+  }
+ ],
+ "Clermont-Ferrand": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:201",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+   "alinti": "Elle abolit la royauté à l’unanimité le 21 septembre.",
+   "oneri": {
+    "t": "1792-09-21"
+   },
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale KAYNAKLI); TDV 22 Eylül ic_not. | BİLİNEN KARAR: Fransa Cumhuriyeti 1792-09-21 (künye 22 -> 21); Assemblée nationale: Convention 21 Eylül'de krallığı kaldırdı, 22'sinde 'an premier' tarihlemesi; TDV Fransa 22 Eylül der (iki kaynak çelişir, ic_not). ÜLKE DÜZEYİ, t ucu. f 1281: Treccani 'Clermont-Ferrand' yalnız 'nel 15° fu riunita alla corona' der (kent piskoposluk/kont egemenliğindeydi); f teyitsiz."
+  }
+ ],
+ "Cochabamba (Villa de Oropesa)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:79",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1571-08-15",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/cochabamba/",
+   "alinti": "Fondata forse nel 1574 per ordine del viceré Francisco de Toledo, fu denominata Oropesa",
+   "oneri": {},
+   "not": "f ucu ÇELİŞKİ: Treccani 1574 ('forse'), atlas 1571-08-15 (Oporto 2011, yer_kaynak). Seçilmedi. t 1824-12-09: Treccani 'Perù' 'battaglia di Ayacucho del 1824' (yıl; alıntı yalnız t ucunu yıl düzeyinde tarihliyor)."
+  }
+ ],
+ "Colcha K": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:13",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1885-12-04",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/bolivia/",
+   "alinti": "Il 6 agosto 1825 un’assemblea generale dell’Alto Perù proclamò l’indipendenza",
+   "oneri": {
+    "f": "1825-08-06"
+   },
+   "not": "ÜLKE DÜZEYİ: Bolivya bağımsızlığı 1825-08-06 (Treccani). Atlas f 1885-12-04 = Nor Lípez eyaletinin yasayla kuruluşu (Cámara de Senadores, web.archive.org kopyası okundu: 'El 4 de diciembre de 1885 ... se crea la Provincia Nor Lipez', başkent San Cristóbal, Colcha K sonradan başkent); ama Colcha Toledo reducción'ı olarak 16. yy'dan beri var -> 1825-08-06 öncesi İspanyol zinciri ve 1825-1885 Bolivya dönemi atlasta eksik olabilir. Koşullu öneri; kaynak ayrı yerleşim tanıklığı değil."
+  }
+ ],
+ "Colville Lake (K'áhbamı̨túé)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:141",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
+   "alinti": "Treaty No. 11 (June 27, 1921) and Adhesion (July 17, 1922) with Reports, etc.",
+   "oneri": {},
+   "not": "Colville Lake Sahtu bölgesidir: Kanada hükûmeti resmî metni Treaty No. 11'i (1921-06-27, katılım 1922-07-17; Mackenzie nehri boyu, 60. paralel kuzeyi) verir. Atlas t 1899-06-21 Treaty 8 günüdür; Treaty 8 bu yeri kapsamıyor olmalı (kanaat, okunmadı). Antlaşma yerli ülkenin devri değil, kullanım hakkı uzlaşmasıdır; Kanada egemenliği (1870 Rupert's Land devri) bu oturumda okunmadı. Karar Emre'nin; öneri değeri yazılmadı."
+  }
+ ],
+ "Compostela": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:456",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1531-01-01",
+   "t": "1535-04-17",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: yok (Treccani 'Compostela' İspanyolca Nayarit şehri değil, Santiago de Compostela'dır; ayrı kaynak aranmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "yeni-ispanya-ilk-donem 1531-01-01 -> 1535-04-17 (Nuño de Guzmán dönemi); Culiacán satırındaki Treccani çelişkisine bakın."
+  }
+ ],
+ "Culiacán (San Miguel de Culiacán)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika3.js:151",
+   "alan": "s",
+   "d": "yeni-ispanya-ilk-donem",
+   "f": "1531-01-01",
+   "t": "1535-04-17",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/culiacan/",
+   "alinti": "È stata fondata nel 1599 (con il nome di San Miguel ) da Nuño de Guzmán",
+   "oneri": {},
+   "not": "f ucu ÇELİŞKİ: Treccani 1599 (açık hata, Guzmán 1530'larda; yıl-adam çelişkisi) vs atlas 1531 (Gerhard). Kaynak YIL düzeyinde bile uyuşmuyor, seçilmedi. t 1535-04-17 (Yeni İspanya genel valiliği künyesi) bu oturumda okunmadı."
+  }
+ ],
+ "Concepción de Xéveros (Jeberos)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:84",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1640-01-01",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/peru/",
+   "alinti": "definitivamente impostesi dopo la battaglia di Ayacucho del 1824",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu YIL düzeyinde tarihliyor (Ayacucho 1824; atlas 1824-12-09). ÜLKE DÜZEYİ. f 1640 (HSAI/Chantre y Herrera 1901) bu oturumda okunmadı."
+  }
+ ],
+ "Corabia": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:943",
+   "alan": "v",
+   "d": "romanya",
+   "f": "1871-01-01",
+   "t": "1877-05-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "Romanya 1877-05-09 O.S. = 05-21 Gregoryen; atlas uyumlu. | alıntı yalnız t ucunu tarihliyor. ÜLKE DÜZEYİ. Rumen Jülyen 9 Mayıs 1877 = Gregoryen 21 Mayıs 1877 (atlas 1877-05-21 ile uyumlu; TDV Jülyen/Gregoryen belirtmiyor, çevrim beyanlı). f 1871 (cjolt.ro kasaba kuruluş yasası) kayıttaki kaynak; TDV 'Romanya' 1871 anahtarı YOK."
+  }
+ ],
+ "Cotagaita (Santiago de Cotagaita)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:124",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1570-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://www.treccani.it/enciclopedia/bolivia/",
+   "alinti": "Il 6 agosto 1825 un’assemblea generale dell’Alto Perù proclamò l’indipendenza",
+   "oneri": {},
+   "not": "t ucu GÜN 1825-08-06 (Treccani 'Bolivia') ÜLKE DÜZEYİ; alıntı yalnız t ucunu tarihliyor. f 1570: Cámara de Senadores haberi (web.archive.org kopyası, 24 Mart 2021) başlığı 'Cotagaita en sus 451 años de fundación' = 1570 YIL; senato basın bülteni kurum portalı sınıfı olduğundan KAYNAKLI verilmedi."
+  }
+ ],
+ "Croydon": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:129",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1885-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://getting-it-together.moadoph.gov.au/teacher-guide/federation-timeline.html",
+   "alinti": "Inauguration of the Commonwealth in Sydney (1 January).",
+   "oneri": {},
+   "not": "t ucu 1901-01-01 (Federasyon ilanı) MoAD (müze, kurum sınıfı) ile uyumlu; ÜLKE DÜZEYİ. alıntı yalnız t ucunu tarihliyor. f: Queensland Places sunucusu zaman aşımı (https://queenslandplaces.com.au/croydon); kayıtta ilan günü yok."
+  }
+ ],
+ "Cunnamulla": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:114",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1865-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://getting-it-together.moadoph.gov.au/teacher-guide/federation-timeline.html",
+   "alinti": "Inauguration of the Commonwealth in Sydney (1 January).",
+   "oneri": {},
+   "not": "t ucu 1901-01-01 (Federasyon ilanı) MoAD (müze, kurum sınıfı) ile uyumlu; ÜLKE DÜZEYİ. alıntı yalnız t ucunu tarihliyor. f: Queensland Places sunucusu zaman aşımı (https://queenslandplaces.com.au/cunnamulla); kayıtta ilan günü yok."
+  }
+ ],
+ "Daly Waters Telgraf İstasyonu": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:374",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1872-01-01",
+   "t": "1911-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://getting-it-together.moadoph.gov.au/teacher-guide/federation-timeline.html",
+   "alinti": "Commonwealth Parliament assumes control of the Northern Territory from South Australia (January).",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu AY düzeyinde tarihliyor (1911 Ocak; gün 01-01 teyitsiz). f 1872 Overland Telegraph: aranmadı (nt.gov.au yer_kaynak)."
+  }
+ ],
+ "Dakar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:262",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1857-05-25",
+   "t": "1960-06-20",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/mali",
+   "alinti": "attained independence from French sovereignty",
+   "oneri": {},
+   "not": "devletin resmî yayını: 'On that date [June 20, 1960], the Federation of Mali (composed of the Republic of Senegal and the Soudanese Republic) attained independence from French sovereignty' -> t ucu GÜN 1960-06-20, ÜLKE DÜZEYİ; alıntı yalnız t ucunu tarihliyor. f 1857-05-25 (Dakar kalesi): TDV Senegal (Faidherbe 1857 genel; Dakar kuruluşu yok), Treccani 'Dakar' (1857 YOK) bulamadı."
+  }
+ ],
+ "Dalmatovo": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:18",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1644-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya ('15 Mart 1917', 'Mart 1917', 'tahttan' anahtarları YOK); Mazaev 2014 cyberleninka yer_kaynak (URL kayıtta yok, açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "rusya f 1644 (manastır sloboda) ve t 1917-03-15 (Nikola II feragati, Jülyen 2 Mart = Gregoryen 15 Mart) teyitsiz."
+  }
+ ],
+ "Deadwood (Kara Tepeler)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1002",
+   "alan": "s",
+   "d": "abd",
+   "f": "1876-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
+   "alinti": "the United States recognized the Black Hills as part of the Great Sioux Reservation",
+   "oneri": {},
+   "not": "devletin resmî yayını (NARA): Black Hills 1868 Fort Laramie'de Büyük Sioux Rezervi'ne, Sioux'nun 'exclusive use'una ayrıldı; 1874 Custer seferi sonrası altın. Atlas abd f 1876-01-01: ELE GEÇİREN yeri kendi toprağı saymıyor / yerli iddiası sürüyor (ÖLÇÜT: geçici/askerî-hukuki iddia), 1877-02-28 Black Hills yasası (19 Stat. 254) alıntılanamadı (Supreme Court PDF anahtarı bulunamadı). Karar Emre'nin: 1876 -> 1877-02-28 mı, yoksa isg/yerli iddia mı. Deadwood kuruluş günü kaynağı bulunamadı."
+  }
+ ],
+ "Debdû": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:144",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/vattasiler",
+   "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549)",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor ve çelişir: TDV Vattâsîler: Vattâsî hânedanı 1471-1554, Fas şehri Sa‘dîler'e 31 Ocak 1549'da geçti, son Vattâsî Ebû Hassûn 22 Eylül 1554'te öldü. Atlas 'merini' 1549'a dek: Merînî sonrası (1471) Vattâsî olmalı, Debdû'nun fiilî Sa‘dî'ye geçişi (1549-1554 arası) yerleşime özgü okunmadı. Hicrî tarih aynen: 2 Muharrem 956. d önerisi (vattasi künyesi) ölçülmedi."
+  }
+ ],
+ "Derry": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:164",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV irlanda (arama sayfası; 1603, Ulster, Derry YOK), Treccani 'Londonderry' (kısa taslak; 1600/1603/1613 YOK)",
+   "alinti": "",
+   "oneri": {},
+   "not": "irlanda t 1603-03-30 (Mellifont/Tyrone teslimi) ve Derry'nin 1600 Dowcra işgali sonrası İngiliz denetimi teyitsiz."
+  }
+ ],
+ "Cartagena": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:267",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0476-08-28",
+   "t": "1243-04-02",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/mursiye",
+   "alinti": "yapılan bir antlaşma çerçevesinde teslim oldu (10 Şevval 640 / 2 Nisan 1243)",
+   "oneri": {},
+   "not": "ABİ MERKEZ: Mürsiye (Murcia) -- TDV Mürsiye: Kastilyalılar 1241'de kuşattı, antlaşmayla teslim 2 Nisan 1243 (hicrî 10 Şevval 640); 1244'te isyan, 19 Nisan 1244'te (9 Zilkade 641) yeniden Kastilya. TDV Cartagena'yı adıyla anmıyor ('Cartagena', 'Kartaca' YOK): BEYANLI YAKLAŞIKLIK, abi merkez zinciri; Cartagena'nın kendi fethi (yaygın kanaat 1245) okunmadı. alıntı yalnız t ucunu tarihliyor; f 0476 (Batı Roma sonu) ve Bizans/Vizigot/Emevî sahipleri aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:267",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV ispanya ('1479' anahtarı YOK; Aragon-Kastilya birliği 1469/1492 genel), TDV mursiye, Treccani (kayıttaki Cartagena maddesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "kastilya f 1281 (atlas başlangıcı) ve t 1479-01-19 (künye; Juan II ölümü, DBE) bu oturumda yerleşime özgü tanıklıkla teyit edilemedi."
+  }
+ ]
+}
