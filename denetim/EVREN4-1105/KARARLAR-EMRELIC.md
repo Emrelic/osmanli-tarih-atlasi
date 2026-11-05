@@ -160,7 +160,12 @@ Kararlar:
 - **Hepsine beyan:** "hukukî devir; fiilî Kanada idaresi Arktik'te RCMP karakollarıyla (1903 sonrası) kuruldu".
   - TAHRİR'e göre bu ara `isg` değil `s:`'dir: devralan tek iddia eden egemendi ve önceki sahip (HBC / İngiliz tacı) toprağı devretti.
   - Inuit dönemi bu tarihlerde biter.
-- **Açık okuma:** Kuzey Kutbu anakara kıyısının (Kugluktuk, Bathurst Inlet, Paulatuk vb.) North-Western Territory kapsamında olduğu kaynakla teyit edilecek. Kaynak: 1870 Order ekindeki sınır tarifi ya da Nicholson, *The Arctic Islands* / Dorion-Robitaille.
+- **Açık okuma (yapıldı, KASA, 5 Kasım):** Kuzey Kutbu anakara kıyısının (Kugluktuk, Bathurst Inlet, Paulatuk vb.) North-Western Territory kapsamında olup olmadığı soruldu.
+  - Kaynak: *Territorial Evolution of Canada / Évolution territoriale du Canada* (1967, Kanada hükûmeti harita dizisi), archive.org WCWdb_6344, djvu ham metni.
+  - Okunan cümleler: «The North-West Territories (Rupert's Land and the North-Western Territory) are acquired by Canada» (1870) ve «British rights to the arctic islands pass to Canada (1880)».
+  - Sonuç: 1880 devri yalnız adalar içindir. Anakara 1870 devrine girer; sınıflama kaynakla uyumlu.
+  - Kaynak harita metnidir, OCR kirli. Kıyı şeridinin tek tek 1870 tarifinde geçtiği okunmadı, bu yüzden hüküm ÜLKE/BÖLGE DÜZEYİ.
+  - solon.org'daki 1870 Order metni bağlantı zaman aşımına uğradı.
 - **Labrador (Kangiva):** Newfoundland'da kalır, 1949-03-31'de Kanada'ya geçer. Künyeler: `newfoundland-dominyonu`, `newfoundland-komisyon-hukumeti`. Newfoundland iç sınırını belirleyen 1927 Privy Council kararı `ic_not`a. Uygun.
 - **Tierra del Fuego:** Arjantin 1884-10-12'den başlar (Ushuaia alt valiliği, resmî belge). Uygun.
 - **Sarp:** nokta Gürcü yakasında, kayıt ise Türk Sarp'ını anlatıyor.
