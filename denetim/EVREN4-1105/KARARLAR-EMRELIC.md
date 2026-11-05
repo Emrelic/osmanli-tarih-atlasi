@@ -151,6 +151,29 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## LAB SALI: gece-101..105 soruları (HAYALET-KARAR; ölçüm origin/main)
+
+1. **orta-afrika-imparatorlugu** t 1979-09-20 → 09-21, DÜZELT adayı. Bangassu birleşmesiyle aynı commit'te uygulanır. EMRELİC bunu gece-101 (c)'de zaten onayladı; LAB'a bildirildi.
+2. **fas-ispanyol-himayesi** t 04-07 / TDV 04-05: LAB bildiri metninin tarihinin (BOE) okunmasını istiyor. EMRELİC gece-106 (4)'te TDV 04-05'i onayladı; 04-07 iki kaynağıyla `ic_not`a gider.
+3. **Angostura:** künye yok. Açılan iki aday:
+   - `venezuela-ucuncu-cumhuriyet` 1817-07-17 → 1819-12-16;
+   - `gran-kolombiya` 1819-12-17 → 1831. Ölçüldü: atlasta "Büyük Kolombiya" künyesi de YOK.
+4. **Tuareg/Akil:** Tuareg künyeleri var (`air`, `adag`, `ivellemmedan`, `ahaggar`, `accer`).
+   - Akil'in grubu (Maghsharen / Kel Antessar) bunlardan hangisine denk geliyor, kaynakla eşleştirilmeli. Uymazsa yeni bir aday ya da kabile künyesi açılır.
+   - Kongo özerk cumhuriyeti UMIT'in Communauté sistemik sorusuyla aynıdır. LAB'ın önerisi f 1958-11-28 + `v: fransa`; karar Emre'de.
+5. **Bhangi misl:** künye yok; `sih-misller` adayıyla birleşir. SINIF sorusu: konfederasyon tek künye mi, misl'ler ayrı ayrı mı?
+6. **merina:** künye t 1897-02-28 (Gallieni kararnamesi), TDV 01-27. TDV'nin 01-27'sinin neyi tarihlediği cümleden okunmalı (Sambava ve Antsirabe önerileri buna bağlı).
+7. **triyeste-serbest-toprak** (1947-09-15 → 1954-10-26):
+   - LAB'ın önerisi: künye t 1954-10-05 (Londra Memorandumu imzası, TEK ÖLÇÜ).
+   - Künye BÖLÜNMEZ. A bölgesinin İtalya'ya fiilî devri (10-26) yerleşim düzeyinde beyanlı ya da `ic_not` olarak yazılır.
+   - Karar EMRELİC'te.
+8. **haudenosaunee:** t 1777 → GENİŞLET adayı. Bölgedeki son imza kuralıyla Cayuga 1789 (gün kaynakla bulunacak). Halk künyesidir.
+9. **Küba ve Malay sultanlıkları:**
+   - `kuba-cumhuriyeti` f 05-20 zaten UYGULA'da.
+   - `malay-sultanliklari` künyesinin t'si 1909-07-10; "07-15" künyede yok.
+   - Bangkok Antlaşması 1909-03-10'da imzalandı. TEK ÖLÇÜ imza günü alınırsa t 1909-03-10 olur ve `federe-olmayan-malay-devletleri` f 1909-03-10 ile bitişir.
+   - LAB'ın önerisi bu. Yerleşimlerdeki 07-10 buna hizalanır, onay günü `ic_not`a.
+
 ## 5 Kasım 2026 gece-106 — Yeni Granada uygulama listesi (e4_KASA_YG.json) üzerine
 
 - **Kronoloji maddeleri:** 1802-07-15 (Maynas Real Cédula) ve 1803-07-07 (Guayaquil'in Peru'ya bağlanışı) madde ajanına ek olarak verildi. Guayaquil ONERI'dir; maddesi de "gün teyitsiz" kaynak notunu taşır.
