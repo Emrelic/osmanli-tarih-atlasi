@@ -108,7 +108,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/zistovi-antlasmasi",
    "alinti": "1787’de başlayan Osmanlı-Rus-Avusturya savaşı sonunda 4 Ağustos 1791’de Avusturya ile yapılan barış antlaşması.",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu (Ziştovi imza) tarihliyor; Novi'nin iade/teslim günü ve f 1788-10-03 (Laudon fethi: yalnız arama sonucu/RCT harita notu, okunmadı) kaynakta teyitsiz. TEK ÖLÇÜ: iade teslim günü bilinmiyor; HE 'Novi Grad' fiilî 1788–95 diyor (kayıtta) — t belirsiz."
+   "not": "KARAR EMRELİC (gece-120): Ülke düzeyinde BiH bağımsızlığı 1992-03-03 (ilan; tanıma 04-06/07 ic_not). Ama Bosanski Novi 1992 baharında Bosnalı Sırp kontrolüne geçti → rakip hükûmet kuralıyla yerel gün (Sırp ele geçirişi, kaynakla) → bosna-sirp-cumhuriyeti → 1995-12-14 Dayton (KASA ardılsız kararı). state.gov 'Mayıs' tanıma/ilişki ise ic_not. ONERI. | Alıntı yalnız t ucunu (Ziştovi imza) tarihliyor; Novi'nin iade/teslim günü ve f 1788-10-03 (Laudon fethi: yalnız arama sonucu/RCT harita notu, okunmadı) kaynakta teyitsiz. TEK ÖLÇÜ: iade teslim günü bilinmiyor; HE 'Novi Grad' fiilî 1788–95 diyor (kayıtta) — t belirsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:302",
@@ -121,7 +121,7 @@
    "kaynak": "Bakılan: TDV yugoslavya, history.state.gov breakup-yugoslavia",
    "alinti": "",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR (gece-96): FNRJ 1945-11-29 (AVNOJ 1943 ic_not); BiH bağımsızlığı 1992-03-03 (referandum) vs state.gov 'Mayıs 1992' — ÇELİŞKİ, kaynakla. | f: TDV '29 Kasım 1943’te ... Federatif Yugoslavya Halk Cumhuriyeti ilân edildi' (yıl tutarsız, seçilmedi). t 1992-03-03: history.state.gov 'declared its independence from Yugoslavia in May 1992' (3 Mart yok; UN üyeliği 22 Mayıs 1992); iki kaynak birbirini tutmuyor, seçme."
+   "not": "KARAR EMRELİC (gece-120): Ülke düzeyinde BiH bağımsızlığı 1992-03-03 (ilan; tanıma 04-06/07 ic_not). Ama Bosanski Novi 1992 baharında Bosnalı Sırp kontrolüne geçti → rakip hükûmet kuralıyla yerel gün (Sırp ele geçirişi, kaynakla) → bosna-sirp-cumhuriyeti → 1995-12-14 Dayton (KASA ardılsız kararı). state.gov 'Mayıs' tanıma/ilişki ise ic_not. ONERI. | ÖNCEKİ KARAR (gece-96): FNRJ 1945-11-29 (AVNOJ 1943 ic_not); BiH bağımsızlığı 1992-03-03 (referandum) vs state.gov 'Mayıs 1992' — ÇELİŞKİ, kaynakla. | f: TDV '29 Kasım 1943’te ... Federatif Yugoslavya Halk Cumhuriyeti ilân edildi' (yıl tutarsız, seçilmedi). t 1992-03-03: history.state.gov 'declared its independence from Yugoslavia in May 1992' (3 Mart yok; UN üyeliği 22 Mayıs 1992); iki kaynak birbirini tutmuyor, seçme."
   }
  ],
  "Bridgetown": [
@@ -220,7 +220,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Bu turda aranmadı (Kastilya t 1479-01-19: DBE Juan II Aragón 19.I.1479 zincirdeki not; çıkarım)."
+   "not": "KARAR EMRELİC (gece-120): Rakip hükûmet kuralı fiilî kontrole bakar: Burgos garnizonunun ayaklanması ve şehrin denetimi 1936-07-19 ise o gün; 07-18 Fas'taki başlangıç ic_not; kaynakla seç. | Bu turda aranmadı (Kastilya t 1479-01-19: DBE Juan II Aragón 19.I.1479 zincirdeki not; çıkarım)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:255",
@@ -233,7 +233,7 @@
    "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol",
    "alinti": "El 18 tingueren lloc els de Canàries, Sevilla / Valladolid i Burgos; el 19, els de Saragossa",
    "oneri": {},
-   "not": "Rakip hükûmet: Burgos'ta ayaklanma 1936-07-18/19 (fiilî milliyetçi kontrol); gün Gran Enciclopèdia Catalana 07-18 — beyanlı yaklaşıklık. | Kaynak AYAKLANMA günüdür (Burgos 18 Temmuz 1936); Milliyetçi eline geçiş günü olarak beyanlı yaklaşıklık. Kaynak sayfa.py ham çıktısı."
+   "not": "KARAR EMRELİC (gece-120): Rakip hükûmet kuralı fiilî kontrole bakar: Burgos garnizonunun ayaklanması ve şehrin denetimi 1936-07-19 ise o gün; 07-18 Fas'taki başlangıç ic_not; kaynakla seç. | Rakip hükûmet: Burgos'ta ayaklanma 1936-07-18/19 (fiilî milliyetçi kontrol); gün Gran Enciclopèdia Catalana 07-18 — beyanlı yaklaşıklık. | Kaynak AYAKLANMA günüdür (Burgos 18 Temmuz 1936); Milliyetçi eline geçiş günü olarak beyanlı yaklaşıklık. Kaynak sayfa.py ham çıktısı."
   }
  ],
  "Bâtî": [
@@ -306,7 +306,7 @@
    "kaynak": "INEGI PDF https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909477.pdf (denenmedi)",
    "alinti": "",
    "oneri": {},
-   "not": "e-local.gob.mx DNS hatası."
+   "not": "KARAR EMRELİC (gece-120): INEGI PDF → tarayıcı listesi. | e-local.gob.mx DNS hatası."
   }
  ],
  "Bolşeretsk": [
@@ -502,8 +502,11 @@
    "uc": "f",
    "kaynak": "http://www.biographi.ca/en/bio/by_john_7E.html",
    "alinti": "Late in September 1826 By arrived at the mouth of the Rideau River",
-   "oneri": {},
-   "not": "DCB 'By, John': Eylül sonu 1826 varış, kamp sonra Bytown; yerleşimin kendisi 1827 Nisan'dan; atlas f 1826-01-01 (yıl) tam desteklenmiyor. t 1867-07-01: Parks Canada (HSMBC) 'On July 1st 1867 this act ... created the Dominion of Canada' (https://parks.canada.ca/culture/designation/evenement-event/conferences-charlottetown-quebec)."
+   "oneri": {
+    "f": "1826-09-01",
+    "not": "[ay] BEYANLI"
+   },
+   "not": "KARAR EMRELİC (gece-120): f 1826-09-01 [ay] BEYANLI (DCB: By Eylül 1826 sonunda geldi); 1827 yerleşim ic_not. | DCB 'By, John': Eylül sonu 1826 varış, kamp sonra Bytown; yerleşimin kendisi 1827 Nisan'dan; atlas f 1826-01-01 (yıl) tam desteklenmiyor. t 1867-07-01: Parks Canada (HSMBC) 'On July 1st 1867 this act ... created the Dominion of Canada' (https://parks.canada.ca/culture/designation/evenement-event/conferences-charlottetown-quebec)."
   }
  ],
  "Caetité (Vila Nova do Príncipe)": [
@@ -610,7 +613,7 @@
    "kaynak": "legislation.gov.uk Laws in Wales Act URL 404",
    "alinti": "",
    "oneri": {},
-   "not": "İpucu: 1281'de Glamorgan Marş senyörlüğü; Galler İngiltere'ye 1536/1542 katıldı — 'ingiltere' f 1281 sorunlu olabilir (kaynakla). | İPUCU (okunmadı): Cardiff 1281'de Glamorgan Marş senyörlüğü; Galler 1536/1542 kanunlarıyla İngiltere'ye katıldı — f 1281 'ingiltere' sorunlu olabilir."
+   "not": "KARAR EMRELİC (gece-120): ingiltere 1281 KALIR: Glamorgan Norman fethinden beri İngiliz tacına bağlı Marş senyörlüğü; 1536/1542 Galler Yasaları idarî birleşme, egemen değişmez → ic_not. | İpucu: 1281'de Glamorgan Marş senyörlüğü; Galler İngiltere'ye 1536/1542 katıldı — 'ingiltere' f 1281 sorunlu olabilir (kaynakla). | İPUCU (okunmadı): Cardiff 1281'de Glamorgan Marş senyörlüğü; Galler 1536/1542 kanunlarıyla İngiltere'ye katıldı — f 1281 'ingiltere' sorunlu olabilir."
   }
  ],
  "Carlsbad (Eddy)": [
@@ -655,7 +658,7 @@
    "kaynak": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/carora/",
    "alinti": "lo cual hizo el 19 de junio de 1572, con el nombre de San Juan Bautista del Portillo de Carora",
    "oneri": {},
-   "not": "Diccionario de Historia de Venezuela: 19 Haziran 1572 REFUNDACIÓN (yeniden kuruluş); ilk kuruluş daha eski olabilir. t 1821-06-24 teyitsiz."
+   "not": "KARAR EMRELİC (gece-120): Merdiven ④: 1569 kuruluşu aynı yerdeyse F-GERİ 1569; 1572 refundación farklı yerdeyse 1572 kalır, 1569 ic_not. | Diccionario de Historia de Venezuela: 19 Haziran 1572 REFUNDACIÓN (yeniden kuruluş); ilk kuruluş daha eski olabilir. t 1821-06-24 teyitsiz."
   }
  ]
 }
