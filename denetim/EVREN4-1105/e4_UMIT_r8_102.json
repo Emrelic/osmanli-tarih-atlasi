@@ -121,7 +121,30 @@
     "f": "1890-06-27",
     "t": "1964-10-24"
    },
-   "not": "TDV 1894'te bölgenin İngiltere'ye ait olduğunun kabul edildiğini, 1911'de şirket idaresinde sınırların belirlendiğini, 1923'te Sömürge Ofisi idaresine geçtiğini yazıyor. Künye ingiliz-kuzey-rodezya (f 1890-01-01, t 1964-10-24) VAR; genel 'ingiltere' yerine bu kullanılmalı. s: lozi'nin 1964'e kadar sürdüğü (Barotseland Agreement) kaynak OKUNMADI, ONERI. t 1964-10-24 TDV ile teyitli: 'Kaunda 24 Ekim 1964’te ... bağımsızlığını ilân etti'. Karar KASA/EMRELİC'te."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Barotseland BEKLET: iki model ONERI, sabah Emre karar verir — (a) atlas s: ingiltere; (b) s: lozi + v: ingiliz-kuzey-rodezya. Künye ölçümü (UMIT): ingiliz-kuzey-rodezya f 1890-01-01 → t 1964-10-24 (devletler.js:10287; BSAC şirket idaresi 1890–1911 dahil, 1911-08-17 birleşme ozette) — 1890'dan yazmak hayalet YAPMAZ; ayrı BSAC künyesi gerekmez. · TDV 1894'te bölgenin İngiltere'ye ait olduğunun kabul edildiğini, 1911'de şirket idaresinde sınırların belirlendiğini, 1923'te Sömürge Ofisi idaresine geçtiğini yazıyor. Künye ingiliz-kuzey-rodezya (f 1890-01-01, t 1964-10-24) VAR; genel 'ingiltere' yerine bu kullanılmalı. s: lozi'nin 1964'e kadar sürdüğü (Barotseland Agreement) kaynak OKUNMADI, ONERI. t 1964-10-24 TDV ile teyitli: 'Kaunda 24 Ekim 1964’te ... bağımsızlığını ilân etti'. Karar KASA/EMRELİC'te.",
+   "oneri_son": {
+    "BEKLET": "dolaylı idare krallıkları sınıfı (Emre'de; Lozi listede)",
+    "model_a": {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1890-06-27",
+     "t": "1964-10-24",
+     "not": "EMRELİC: (a) modelinin künyesi ingiliz-kuzey-rodezya (1890–1964, BSAC dahil)"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "lozi",
+      "t": "1964-10-24"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-kuzey-rodezya",
+      "f": "1890-06-27",
+      "t": "1964-10-24"
+     }
+    ]
+   }
   },
   {
    "sira": 4107,
@@ -153,7 +176,7 @@
    "oneri": {
     "d": "merina (şüpheli; yerel kanıt yok)"
    },
-   "not": "EB1911: Radama ve babası Sakalava hakimiyetini kırıp 'nominal allegiance' aldı, Hòva otoritesi 1895'e kadar sürdü ama batı yakasında yalnız nominal. TDV Madagaskar Sakalava'yı yalnız etnik grup olarak anıyor, Boina/Maevatanana geçmiyor. Künye sakalava-boina kendi notu: 'Merina 1824'te aldı'. Yani 1824-1895 arası sahip Merina olabilir; KAYNAKLI değil, karar vermedim. t 1897-02-28 ayrıca TDV ile çelişir, bkz. 4109. f 1690 kaynaksız."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · EB1911: Radama ve babası Sakalava hakimiyetini kırıp 'nominal allegiance' aldı, Hòva otoritesi 1895'e kadar sürdü ama batı yakasında yalnız nominal. TDV Madagaskar Sakalava'yı yalnız etnik grup olarak anıyor, Boina/Maevatanana geçmiyor. Künye sakalava-boina kendi notu: 'Merina 1824'te aldı'. Yani 1824-1895 arası sahip Merina olabilir; KAYNAKLI değil, karar vermedim. t 1897-02-28 ayrıca TDV ile çelişir, bkz. 4109. f 1690 kaynaksız."
   },
   {
    "sira": 4109,
@@ -169,7 +192,7 @@
    "oneri": {
     "f": "1897-01-27 (TDV, Merina düzeyi)"
    },
-   "not": "ÇELİŞKİ: TDV Madagaskar Merina hükûmetine el koyuşu 27 Ocak 1897 verir; atlas ve künye merina t 1897-02-28 (kaynak bu turda okunmadı). EB1911 ve Worldmark sömürgeleşmeyi YIL 1896 olarak verir ('colony in 1896'; ilhak yasası 1896-08-06 brif ipucu, okunmadı). TDV esas kuralı: 1897-01-27 ama bu Merina'ya aittir; Maevatanana'nın kendi geçişi için gün YOK (ÜLKE DÜZEYİ). Künye merina t ve fransa dilimi etkilenir; karar EMRELİC'te."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · ÇELİŞKİ: TDV Madagaskar Merina hükûmetine el koyuşu 27 Ocak 1897 verir; atlas ve künye merina t 1897-02-28 (kaynak bu turda okunmadı). EB1911 ve Worldmark sömürgeleşmeyi YIL 1896 olarak verir ('colony in 1896'; ilhak yasası 1896-08-06 brif ipucu, okunmadı). TDV esas kuralı: 1897-01-27 ama bu Merina'ya aittir; Maevatanana'nın kendi geçişi için gün YOK (ÜLKE DÜZEYİ). Künye merina t ve fransa dilimi etkilenir; karar EMRELİC'te."
   },
   {
    "sira": 4110,
@@ -218,7 +241,30 @@
     "f": "1890-06-27",
     "t": "1964-10-24"
    },
-   "not": "4106 ile aynı hüküm: künye ingiliz-kuzey-rodezya var; Barotseland himayesi v: + s: lozi. t 1964-10-24 TDV ile teyitli."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Barotseland BEKLET: iki model ONERI, sabah Emre karar verir — (a) atlas s: ingiltere; (b) s: lozi + v: ingiliz-kuzey-rodezya. Künye ölçümü (UMIT): ingiliz-kuzey-rodezya f 1890-01-01 → t 1964-10-24 (devletler.js:10287; BSAC şirket idaresi 1890–1911 dahil, 1911-08-17 birleşme ozette) — 1890'dan yazmak hayalet YAPMAZ; ayrı BSAC künyesi gerekmez. · 4106 ile aynı hüküm: künye ingiliz-kuzey-rodezya var; Barotseland himayesi v: + s: lozi. t 1964-10-24 TDV ile teyitli.",
+   "oneri_son": {
+    "BEKLET": "dolaylı idare krallıkları sınıfı (Emre'de; Lozi listede)",
+    "model_a": {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1890-06-27",
+     "t": "1964-10-24",
+     "not": "EMRELİC: (a) modelinin künyesi ingiliz-kuzey-rodezya (1890–1964, BSAC dahil)"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "lozi",
+      "t": "1964-10-24"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-kuzey-rodezya",
+      "f": "1890-06-27",
+      "t": "1964-10-24"
+     }
+    ]
+   }
   },
   {
    "sira": 4113,
@@ -264,7 +310,7 @@
    "oneri": {
     "f": "1897-01-27 (TDV, Merina düzeyi)"
    },
-   "not": "4109 ile aynı çelişki; Maintirano/Menabe'nin Fransız idaresine geçiş günü bulunamadı (Menabe direnişi sürmüş olabilir, kaynak okunmadı)."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · 4109 ile aynı çelişki; Maintirano/Menabe'nin Fransız idaresine geçiş günü bulunamadı (Menabe direnişi sürmüş olabilir, kaynak okunmadı)."
   },
   {
    "sira": 4116,
@@ -324,7 +370,7 @@
    "oneri": {
     "f": "1897-01-27 (TDV, Merina düzeyi)"
    },
-   "not": "Merina çekirdeğine yakın bölge olduğundan TDV 27 Ocak 1897 daha uygun; 4109 notuna bak."
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · Merina çekirdeğine yakın bölge olduğundan TDV 27 Ocak 1897 daha uygun; 4109 notuna bak."
   },
   {
    "sira": 4121,
