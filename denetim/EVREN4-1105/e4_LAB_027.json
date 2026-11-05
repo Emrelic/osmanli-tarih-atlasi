@@ -533,9 +533,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi «NİĞDE» https://islamansiklopedisi.org.tr/nigde (sayfa.py oku, bu oturumda)",
    "alinti": "Karamanoğlu Alâeddin Bey 768’de (1366-67) Niğde ve Aksaray’ı kendi topraklarına kattı",
    "oneri": {
-    "f": "1366-09-05"
+    "f": "1366-09-06"
    },
-   "not": "KARAR EMRELİC (gece-92): 768 H ∩ 1366 = 1366-09-05 (Perşembe varyantı) ONAY, ABİ MERKEZ Niğde. | LAB PAZAR hicrî denetimi: tabular Perşembe varyantında 1 Muharrem 768 = 1366-09-05 (Jülyen); ajanın 09-06'sı bir gün kaymış. Aynı hesap 1 Muharrem 810 = 1407-06-07 ve 884 ∩ 1479 = 1479-03-24 çapalarını veriyor. ±1-2 gün (rü'yet) ic_not. ABİ MERKEZ Niğde. | ABİ MERKEZ: Niğde (Ulukışla Niğde'nin güneyi; mevcut kayıt da Niğde'ye eşler). HİCRÎ kural: 768 Muharrem 1 (tabular Perşembe epoch) = 1366-09-06 Jülyen (±1-2 gün, rü'yet); atlas f 1366-01-01 hicrî 768'den ÖNCE kalıyor → kesişimin ilk günü 1366-09-06. Ulukışla'nın kendisi: TDV «KARAMANOĞULLARI» 782 (1380) Karamanlı ülkesi sayımında adıyla geçer: «Bozkır, Ereğli, Ulukışla, Niğde, Karahisar, Aksaray» (1380 sahiplik teyidi, uç değil). Eretna t 1366-01-01 de aynı güne çekilmeli."
+   "not": "LAB PAZAR DÜZELTME: önceki '1366-09-05' hesabım hatalıydı (yaklaşık formül). JDN ile Perşembe varyantı: 1 Muharrem 768 = 1366-09-06 Jülyen; aynı yöntem çapaları tutturuyor (810 → 1407-06-07, 884 → 1479-03-24). Ajanın 09-06'sı doğru. ±1-2 gün (rü'yet) ic_not. | KARAR EMRELİC (gece-92): 768 H ∩ 1366 = 1366-09-05 (Perşembe varyantı) ONAY, ABİ MERKEZ Niğde. | LAB PAZAR hicrî denetimi: tabular Perşembe varyantında 1 Muharrem 768 = 1366-09-05 (Jülyen); ajanın 09-06'sı bir gün kaymış. Aynı hesap 1 Muharrem 810 = 1407-06-07 ve 884 ∩ 1479 = 1479-03-24 çapalarını veriyor. ±1-2 gün (rü'yet) ic_not. ABİ MERKEZ Niğde. | ABİ MERKEZ: Niğde (Ulukışla Niğde'nin güneyi; mevcut kayıt da Niğde'ye eşler). HİCRÎ kural: 768 Muharrem 1 (tabular Perşembe epoch) = 1366-09-06 Jülyen (±1-2 gün, rü'yet); atlas f 1366-01-01 hicrî 768'den ÖNCE kalıyor → kesişimin ilk günü 1366-09-06. Ulukışla'nın kendisi: TDV «KARAMANOĞULLARI» 782 (1380) Karamanlı ülkesi sayımında adıyla geçer: «Bozkır, Ereğli, Ulukışla, Niğde, Karahisar, Aksaray» (1380 sahiplik teyidi, uç değil). Eretna t 1366-01-01 de aynı güne çekilmeli."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:399",

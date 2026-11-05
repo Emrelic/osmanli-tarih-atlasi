@@ -104,7 +104,7 @@
    "kaynak": "TDV mali; history.state.gov/countries/mali",
    "alinti": "",
    "oneri": {},
-   "not": "1861-03-10 Ségou'nun el-Hâc Ömer'e düşüş günüdür (arama özeti, okunmuş kaynak değil), Kangaba'ya özgü değil; Kangaba'nın Segu'ya bağlılığı da kaynaksız. SORUN: bambara t=fransa f=1861 Kangaba için Fransız egemenliği anlamına gelemez (TDV Mali: Fransız işgali 1878-1890)."
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | 1861-03-10 Ségou'nun el-Hâc Ömer'e düşüş günüdür (arama özeti, okunmuş kaynak değil), Kangaba'ya özgü değil; Kangaba'nın Segu'ya bağlılığı da kaynaksız. SORUN: bambara t=fransa f=1861 Kangaba için Fransız egemenliği anlamına gelemez (TDV Mali: Fransız işgali 1878-1890)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:425",
@@ -117,7 +117,7 @@
    "kaynak": "https://history.state.gov/countries/mali",
    "alinti": "the Federation of Mali (composed of the Republic of Senegal and the Soudanese Republic) attained independence",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (1960-06-20). f=1861 hatalı görünüyor: TDV Mali 'Nijer nehriyle Senegal nehri arasındaki topraklar 1878-1890 yılları arasında Fransa tarafından ele geçirildi'; Segu 1890; Kangaba'ya özgü tanık yok. Arada Tukulor/Samori dönemi olabilir (kaynaksız). Fransız f ucu yeniden araştırılmalı."
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | alıntı yalnız t ucunu tarihliyor (1960-06-20). f=1861 hatalı görünüyor: TDV Mali 'Nijer nehriyle Senegal nehri arasındaki topraklar 1878-1890 yılları arasında Fransa tarafından ele geçirildi'; Segu 1890; Kangaba'ya özgü tanık yok. Arada Tukulor/Samori dönemi olabilir (kaynaksız). Fransız f ucu yeniden araştırılmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:425",
@@ -130,7 +130,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/mali",
    "alinti": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
    "oneri": {},
-   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ. t (1960-09-22): TDV 'iki ay sonra Senegal de federasyondan çekilme kararı aldı' (ay düzeyi), Mali Devleti 22 Eylül."
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | f ucu gün düzeyinde; ÜLKE DÜZEYİ. t (1960-09-22): TDV 'iki ay sonra Senegal de federasyondan çekilme kararı aldı' (ay düzeyi), Mali Devleti 22 Eylül."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:425",
@@ -143,7 +143,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/mali",
    "alinti": "22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti’nin",
    "oneri": {},
-   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ; künye mali f aynı gün."
+   "not": "KARAR EMRELİC (gece-100): Tukulor dilimi: künye tekrur (Toucouleur Devleti, Umarî/Segu) VAR; Samori: vasulu. Fransız f kaynaksızsa BULUNAMADI; TDV 1878–1890 ic_not. | f ucu gün düzeyinde; ÜLKE DÜZEYİ; künye mali f aynı gün."
   }
  ],
  "Kapuas Hulu (bölge)": [
@@ -256,7 +256,7 @@
    "kaynak": "https://www.iranicaonline.org/articles/darvaz/",
    "alinti": "which ultimately led to the partition of Darvāz in 1310/1893 and again in 1313/1895",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu (Rōšān'ın Rusya ve vassalı Buhara'ya geçişi, hicrî 1310/1893 ve 1313/1895) tarihliyor; gün yok. Atlas t=1895-03-11 (Pamir sınır anlaşması) kaynakla okunmadı. 1893 mi 1895 mi: Iranica iki bölüşme yazar. f=1883 kaynaksız (Iloliev 2021 okunamadı)."
+   "not": "KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | alıntı yalnız t ucunu (Rōšān'ın Rusya ve vassalı Buhara'ya geçişi, hicrî 1310/1893 ve 1313/1895) tarihliyor; gün yok. Atlas t=1895-03-11 (Pamir sınır anlaşması) kaynakla okunmadı. 1893 mi 1895 mi: Iranica iki bölüşme yazar. f=1883 kaynaksız (Iloliev 2021 okunamadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:179",
@@ -269,7 +269,7 @@
    "kaynak": "Iranica darvaz (Rusya doğrudan değil 'Russia and its vassal Bukhara' der)",
    "alinti": "",
    "oneri": {},
-   "not": "Rusya doğrudan egemenliği 1905-01-01 (Morrison CUP 2020) okunamadı; Iranica Rōšān'ın Buhara'ya (vassal) gittiğini söyler, doğrudan Rus egemenliği tarihi yok."
+   "not": "KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | Rusya doğrudan egemenliği 1905-01-01 (Morrison CUP 2020) okunamadı; Iranica Rōšān'ın Buhara'ya (vassal) gittiğini söyler, doğrudan Rus egemenliği tarihi yok."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:179",
@@ -282,7 +282,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/tacikistan",
    "alinti": "9 Eylül 1991’de Tacikistan Yukarı Parlamentosu bir deklarasyon yayımlayarak",
    "oneri": {},
-   "not": "f ucu gün düzeyinde; ÜLKE DÜZEYİ; bağımsızlık ilanı günü (Sovyet ardılı kuralı: SSCB sonu 1991-12-26, tanınma Aralık 1991)."
+   "not": "KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | f ucu gün düzeyinde; ÜLKE DÜZEYİ; bağımsızlık ilanı günü (Sovyet ardılı kuralı: SSCB sonu 1991-12-26, tanınma Aralık 1991)."
   }
  ],
  "Kaşev (Cacheu)": [
@@ -379,7 +379,7 @@
    "kaynak": "Iranica darvaz (Vahan yok); Iranica wakhan 404; Iloliev 2021 erişilemedi",
    "alinti": "",
    "oneri": {},
-   "not": "Vahan mîrliği 1775-1883 sahipsizliği kaynaksız."
+   "not": "KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | Vahan mîrliği 1775-1883 sahipsizliği kaynaksız."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:196",
@@ -392,7 +392,7 @@
    "kaynak": "Iranica darvaz; TDV afganistan (Vahan yalnız coğrafya); Iloliev 2021 (Putyata 1884) erişilemedi",
    "alinti": "",
    "oneri": {},
-   "not": "1883-08-15 Afgan garnizonu kayıtlı kaynakta; okunamadı. Iranica Darvāz: 1893/1895 bölüşmeleri Wakhan'ı anmaz."
+   "not": "KARAR EMRELİC (gece-100): s: buhara + v: rusya (himaye kuralı). Hicrî (Perşembe, JDN): 1 Muharrem 1310 = 1892-07-25 → 1310 ∩ 1893 = 1893-01-01; 1 Muharrem 1313 = 1895-06-23 → 1313 ∩ 1895 = 1895-06-23. Pamir mutabakatı ile fiilî teslim ayrıysa TEK ÖLÇÜ teslim. | 1883-08-15 Afgan garnizonu kayıtlı kaynakta; okunamadı. Iranica Darvāz: 1893/1895 bölüşmeleri Wakhan'ı anmaz."
   }
  ],
  "Kalaw": [
@@ -465,7 +465,7 @@
    "oneri": {
     "t": "1843"
    },
-   "not": "alıntı yalnız t ucunu tarihliyor ve çelişki var: TDV Karaçi 'Manora 1795 Talpur kalesi; 1839’da şehre İngilizler hâkim oldular' (yıl); TDV Sind 'Bombay eyaletine bağlandı 1843' (BÖLGE DÜZEYİ). TAHRİR ÖLÇÜTÜ: idareye katma = 1843; 1839-1843 isg ingiltere olabilir — Emre kararı gerek. İki TDV maddesi: Karaçi→1839, Sind→1843; seçilmedi."
+   "not": "KARAR EMRELİC (gece-100): TAHRİR: isg ingiltere 1839-02 (donanmanın alışı; gün kaynakla, yoksa ay beyanı), altında s: sind (Talpur) 1843 ilhakına dek; sonra s: ingiltere (zincirdeki kimlik). İlhak 1843 ile Bombay'a bağlanma (yaygın 1847) ayrı; TDV '1843 Bombay' cümlesinin neyi tarihlediği okunacak. | alıntı yalnız t ucunu tarihliyor ve çelişki var: TDV Karaçi 'Manora 1795 Talpur kalesi; 1839’da şehre İngilizler hâkim oldular' (yıl); TDV Sind 'Bombay eyaletine bağlandı 1843' (BÖLGE DÜZEYİ). TAHRİR ÖLÇÜTÜ: idareye katma = 1843; 1839-1843 isg ingiltere olabilir — Emre kararı gerek. İki TDV maddesi: Karaçi→1839, Sind→1843; seçilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:664",
@@ -478,7 +478,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/karaci",
    "alinti": "1839’da şehre İngilizler hâkim oldular",
    "oneri": {},
-   "not": "f ucu YIL düzeyinde (atlas 1839-02-03 gün teyitsiz); hâkimiyet=askerî; ÖLÇÜT: idareye katma belgesi yok (bkz. Sind 1843 çelişkisi). t=1947-08-15: history.state.gov/countries/pakistan 'recognized the Dominion of Pakistan ... on August 15, 1947' ve 'formerly part of British India' (tanıma, kaynak ipucu)."
+   "not": "KARAR EMRELİC (gece-100): TAHRİR: isg ingiltere 1839-02 (donanmanın alışı; gün kaynakla, yoksa ay beyanı), altında s: sind (Talpur) 1843 ilhakına dek; sonra s: ingiltere (zincirdeki kimlik). İlhak 1843 ile Bombay'a bağlanma (yaygın 1847) ayrı; TDV '1843 Bombay' cümlesinin neyi tarihlediği okunacak. | f ucu YIL düzeyinde (atlas 1839-02-03 gün teyitsiz); hâkimiyet=askerî; ÖLÇÜT: idareye katma belgesi yok (bkz. Sind 1843 çelişkisi). t=1947-08-15: history.state.gov/countries/pakistan 'recognized the Dominion of Pakistan ... on August 15, 1947' ve 'formerly part of British India' (tanıma, kaynak ipucu)."
   }
  ],
  "Karonga": [
@@ -488,12 +488,14 @@
    "d": "umman-zengibar",
    "f": "1880-01-01",
    "t": "1895-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "kaynak": "web arama (Britannica 403, Vikipedi)",
    "alinti": "",
-   "oneri": {},
-   "not": "Umman-Zengibar egemenliği 1880-1895 dayanaksız görünüyor: arama özeti Karonga'yı ~1880'den Mlozi'nin (Swahili-Arap tüccar) üssü ve African Lakes Co. rekabeti olarak verir, Zengibar iddiası geçmez. KÜNYE/SAHİP sorusu: d yerel (Mlozi) olabilir."
+   "oneri": {
+    "d": "BEYANLI Mlozi (künye adayı)"
+   },
+   "not": "KARAR EMRELİC (gece-100): umman-zengibar kalkar (dayanak yok); Mlozi dilimi BEYANLI (künye yok → aday); İngiliz himayesi 1891-05-14 ülke düzeyi; fiilî İngiliz kontrolü Mlozi'nin yenilgisiyle (1895 sonu) — TAHRİR ONERI, günler kaynakla. | Umman-Zengibar egemenliği 1880-1895 dayanaksız görünüyor: arama özeti Karonga'yı ~1880'den Mlozi'nin (Swahili-Arap tüccar) üssü ve African Lakes Co. rekabeti olarak verir, Zengibar iddiası geçmez. KÜNYE/SAHİP sorusu: d yerel (Mlozi) olabilir."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1469",
@@ -506,7 +508,7 @@
    "kaynak": "https://history.state.gov/countries/malawi",
    "alinti": "Malawi’s attainment of independence on the same date",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (1964-07-06, ÜLKE DÜZEYİ: 'Malawi previously had been under British sovereignty as Nyasaland'). f=1895 kaynaksız; arama özeti: Nyasaland koruyuculuğu 1891-05 (FO onayı) / 1893-02-22 ilanı — okunmuş kaynak değil."
+   "not": "KARAR EMRELİC (gece-100): umman-zengibar kalkar (dayanak yok); Mlozi dilimi BEYANLI (künye yok → aday); İngiliz himayesi 1891-05-14 ülke düzeyi; fiilî İngiliz kontrolü Mlozi'nin yenilgisiyle (1895 sonu) — TAHRİR ONERI, günler kaynakla. | alıntı yalnız t ucunu tarihliyor (1964-07-06, ÜLKE DÜZEYİ: 'Malawi previously had been under British sovereignty as Nyasaland'). f=1895 kaynaksız; arama özeti: Nyasaland koruyuculuğu 1891-05 (FO onayı) / 1893-02-22 ilanı — okunmuş kaynak değil."
   }
  ],
  "Kasance (Kasanje)": [
@@ -544,12 +546,14 @@
    "d": "hollanda",
    "f": "1866-01-01",
    "t": "1884-08-07",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "kaynak": "web arama (Vikipedi, SAHO ipucu)",
    "alinti": "",
-   "oneri": {},
-   "not": "SORUN: d=hollanda 1866-1884 dayanaksız. Arama özeti: 1866 Rhenish Misyon istasyonu (Nama topraklarında, Johann Keetman adına); Hollanda egemenliği yok. Önerilen: __BOSLUK__ ya da Nama beyliği (künye yok). Kaynak okunmadı."
+   "oneri": {
+    "d": "nama-orlam"
+   },
+   "not": "KARAR EMRELİC (gece-100): hollanda 1866–1884 kalkar (Hollanda orada olmadı); künye nama-orlam (Nama ve Orlam Kaptanlıkları) — Keetmanshoop Nama grubunu kapsıyorsa s: nama-orlam; 1884 sonrası s: nama + v: almanya (koruma antlaşması günü kaynakla). | SORUN: d=hollanda 1866-1884 dayanaksız. Arama özeti: 1866 Rhenish Misyon istasyonu (Nama topraklarında, Johann Keetman adına); Hollanda egemenliği yok. Önerilen: __BOSLUK__ ya da Nama beyliği (künye yok). Kaynak okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2170",
@@ -562,7 +566,7 @@
    "kaynak": "web arama (SAHO ipucu)",
    "alinti": "",
    "oneri": {},
-   "not": "Alman Güneybatı Afrikası 1884-08-07 ülke düzeyi; Keetmanshoop'un Alman idaresine geçişi (Nama bölgesi 1890'lar) yer-özgü teyit yok; 1915-07-09 Khorab teslimi zincirde SAHO ipucu."
+   "not": "KARAR EMRELİC (gece-100): hollanda 1866–1884 kalkar (Hollanda orada olmadı); künye nama-orlam (Nama ve Orlam Kaptanlıkları) — Keetmanshoop Nama grubunu kapsıyorsa s: nama-orlam; 1884 sonrası s: nama + v: almanya (koruma antlaşması günü kaynakla). | Alman Güneybatı Afrikası 1884-08-07 ülke düzeyi; Keetmanshoop'un Alman idaresine geçişi (Nama bölgesi 1890'lar) yer-özgü teyit yok; 1915-07-09 Khorab teslimi zincirde SAHO ipucu."
   }
  ],
  "Kerulen (Çoybalsan)": [
@@ -576,8 +580,10 @@
    "uc": "t",
    "kaynak": "https://islamansiklopedisi.org.tr/mogollar",
    "alinti": "Togan-Temür’ün 10 Eylül 1368’de Hanbalık’ı terkederek Moğolistan’a çekilmesiyle son buldu",
-   "oneri": {},
-   "not": "ÖNCEKİ KARAR: Yuan t 1368; TDV 1368-09-10 Hanbalık'ın terki vs atlas 09-14 — kaynak bulunamadı, ÇELİŞKİ ic_not. | alıntı yalnız t ucunu tarihliyor ve GÜN FARKI: TDV 10 Eylül 1368 (Yuan sonu), atlas 1368-09-14. Takvim kuralı gereği Çin günü çevrilmedi; 14 Eylül için kaynak bulunamadı; seçilmedi. f=1281: Yuan künye f 1260. Yerleşime özgü değil (ÜLKE DÜZEYİ)."
+   "oneri": {
+    "t": "1368-09-10"
+   },
+   "not": "KARAR EMRELİC (gece-100): Kerulen'de Yuan bitmez, kuzey-yuan sürer (künye geçişi); TDV esas 1368-09-10 (Toghon Temür'ün Dadu'dan kaçışı, 丙寅). 09-14 (庚午, Ming'in Dadu'ya girişi) iki kaynağıyla ic_not; Ming shilu / 明史 ile teyit. | ÖNCEKİ KARAR: Yuan t 1368; TDV 1368-09-10 Hanbalık'ın terki vs atlas 09-14 — kaynak bulunamadı, ÇELİŞKİ ic_not. | alıntı yalnız t ucunu tarihliyor ve GÜN FARKI: TDV 10 Eylül 1368 (Yuan sonu), atlas 1368-09-14. Takvim kuralı gereği Çin günü çevrilmedi; 14 Eylül için kaynak bulunamadı; seçilmedi. f=1281: Yuan künye f 1260. Yerleşime özgü değil (ÜLKE DÜZEYİ)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek19.js:135",
