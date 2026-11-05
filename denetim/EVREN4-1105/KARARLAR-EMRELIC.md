@@ -804,3 +804,15 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - **Salyan hanlığı:** künye adayı oldu (aday listesi 70), ~1747/50 → 1768. 1768'den sonra Salyan `s: kuba-hanligi` (devletler.js:10180, 1735 → 1813-10-24).
     - Bağlanışın ilhak mı vasallık mı olduğu kaynakla belirlenecek. Vasallıksa `s: salyan` + `v: kuba`.
     - Mahmudâbâd'a da aynı zincir uygulanır; Kura yakası sorusu yine sınanacak (Reşt 1732 dilimi).
+
+## 5 Kasım 2026 gece-112 — LAB v2 KASA dilimi 008-020 kararları (EMRELİC)
+
+- **Vatikan:** f **1929-02-11** (Laterano imzası; Kutsal Makam sarayı zaten fiilen yönetiyordu → TEK ÖLÇÜ, imza günü). 06-07 onay belgelerinin değişimi `ic_not`a.
+- **Udaipur:** `racput` künyesi t GENİŞLET **1948-04-18** (Mewar; birleşme günü) + `v: hindistan` 1947-08-15 → 1948-04-18 (accession). Künye sorusu LAB'a.
+- **avusturya:** künye id'si değil, D-ANAHTAR'dır (LAB PAZAR). Villach ve Wiener Neustadt avusturya → habsburg kararına bağlanır (Emre'de). Bu gece dokunulmaz.
+- **Onaylananlar:** Zufâr (Resûlî/Kesîrî), Verder/Ogaden İngiliz askerî idaresi, Vis `isg ingiltere` 1811–15, Vize 1368 ilk fethi ve geri dönüşü, Teymâ, Sığnak 1446, Solikamsk 1472, Tunduru (Alman Doğu Afrikası zinciri), Mitroviça (fiilî Yugoslavya).
+  - **LAB SALI ölçümü:**
+    - `kesiri-sultanligi` VAR (devletler.js:9383, 1450 → 1967-11-30). Bağlamadan önce Kesîrî denetiminin Zufâr'a uzandığı kaynakla doğrulanmalı (Umman modeli, gece-49).
+    - Teymâ için ayrı Rummân künyesi açılmaz. Reşîdî / Cebel-i Şemmer Emirliği (1836 → 1921-11-02, TDV Reşîdîler) künyesi YOK, aday listesinde. Aday açılırsa `s: residi-emirligi` (yerel şeyh `ic_not`a); açılmazsa `bos:"kabile"` + neden.
+- **Boş uc:** 4 ONERI satırı dolduruldu: Tunduru t, Hsinking f+t, Ishigaki f+t, Naha f+t.
+- **CIN 6 satır:** ifadeler `LAB-v2/CIN-TAKVIM-IFADE-v2.tsv`te, EMRELİC çevirecek.

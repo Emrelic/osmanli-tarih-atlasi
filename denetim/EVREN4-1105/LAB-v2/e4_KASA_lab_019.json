@@ -162,14 +162,14 @@
    "f": "1945-08-17",
    "t": "1949-10-01",
    "hukum": "ONERI",
-   "uc": "",
+   "uc": "f+t",
    "kaynak": "KARARLAR-EMRELIC gece-20 (4) — kural uygulaması; şehir günleri kaynaksız",
    "alinti": "",
    "oneri": {
     "ek_katman": "isg sovyet (1945-08 Kızıl Ordu girişi → 1946 Nisan çekiliş; günler kaynakla)",
     "not_t": "Changchun'un ÇKP'ye geçişi 1948-10 (kuşatma sonu) — rakip hükûmet kuralıyla t 1949-10-01 değil, kaynakla"
    },
-   "not": "Kural: Mançukuo bitişinden sonra Sovyet isg (gece-20 (4)). Zincirde Sovyet isg katmanı ve 1946 Nisan-Mayıs ÇKP/ÇC el değiştirmeleri ile 1948 ÇKP alışı yok. Günler akademik kaynakla aranmalı; uç kuralı gereği bu satırda tarih önerisi yok."
+   "not": "Kural: Mançukuo bitişinden sonra Sovyet isg (gece-20 (4)). Zincirde Sovyet isg katmanı ve 1946 Nisan-Mayıs ÇKP/ÇC el değiştirmeleri ile 1948 ÇKP alışı yok. Günler akademik kaynakla aranmalı; uç kuralı gereği bu satırda tarih önerisi yok. | KASA SALI: uc: ek isg sovyet katmanı f'den (1945-08-17) başlar, ÇKP alışı t'yi değiştirir"
   }
  ],
  "Iksan": [
@@ -197,13 +197,13 @@
    "f": "1945-04-01",
    "t": "1972-05-15",
    "hukum": "ONERI",
-   "uc": "",
+   "uc": "f+t",
    "kaynak": "KARARLAR-EMRELIC 5 Kasım P003/P004 — Şuri (Naha): 'isg ryukyu-abd-idaresi 1945-04 → 1972-05-15 eklenir' (künye 1945-04-01 → 1972-05-15 ölçüldü). Kural uygulaması: ABD idaresi `s:` değil `isg:` katmanıdır; altındaki s: Japonya (1972'ye kadar 'artık egemenlik'). Bu nokta halef_1946 katmanı; 1945 öncesi zincir yok (ana kayıtla birleşme sorusu, gece-101).",
    "alinti": "",
    "oneri": {
     "alan": "isg"
    },
-   "not": "Ishigaki için ayrıca: ABD 1945-04-01'de yalnız Okinawa ana adasına çıktı; Yaeyama'da ABD askerî idaresi teslimden sonra (1945 sonu) kuruldu — f günü kaynakla. Kaynak okunmadı."
+   "not": "Ishigaki için ayrıca: ABD 1945-04-01'de yalnız Okinawa ana adasına çıktı; Yaeyama'da ABD askerî idaresi teslimden sonra (1945 sonu) kuruldu — f günü kaynakla. Kaynak okunmadı. | KASA SALI: uc: alan s→isg bütün dönemi değiştirir; f günü ayrıca şüpheli"
   },
   {
    "sira": 2182,
@@ -229,13 +229,13 @@
    "f": "1945-04-01",
    "t": "1972-05-15",
    "hukum": "ONERI",
-   "uc": "",
+   "uc": "f+t",
    "kaynak": "KARARLAR-EMRELIC 5 Kasım P003/P004 — Şuri (Naha): 'isg ryukyu-abd-idaresi 1945-04 → 1972-05-15 eklenir' (künye 1945-04-01 → 1972-05-15 ölçüldü). Kural uygulaması: ABD idaresi `s:` değil `isg:` katmanıdır; altındaki s: Japonya (1972'ye kadar 'artık egemenlik'). Bu nokta halef_1946 katmanı; 1945 öncesi zincir yok (ana kayıtla birleşme sorusu, gece-101).",
    "alinti": "",
    "oneri": {
     "alan": "isg"
    },
-   "not": "Şuri/Naha kararı doğrudan bu yer için. Kaynak okunmadı; kural uygulaması."
+   "not": "Şuri/Naha kararı doğrudan bu yer için. Kaynak okunmadı; kural uygulaması. | KASA SALI: uc: alan s→isg bütün dönemi değiştirir"
   },
   {
    "sira": 2205,
