@@ -198,7 +198,7 @@
    "kaynak": "Encyclopaedia Judaica «Pinsk» (Mordekhai Nadav; Gale/encyclopedia.com) https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/pinsk",
    "alinti": "came to an end in 1521 and Pinsk was incorporated into Lithuania",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Zincir: 1915-09 isg almanya (s: rusya) → 1918 Brest sonrası Ukrayna HC/BNR (rakip hükûmet, fiilî kontrol) → 1919-03 isg polonya → 1920-07 Sovyet geri alışı → 1920-09 Polonya → Riga 1921-03-18 imza (Polonya yönetiyordu) s: polonya. Günler kaynakla; EJ '1919' ic_not. Atlastaki sovyet-rusya 1917-11-07 → 1921-03-18 kesintisiz kayıt YANLIŞ. ONERI. | Alıntı f ucunu tarihliyor: Pinsk 1521'e kadar yarı bağımsız prenslikti (EJ: 'capital of a semi-independent principality'), 1521'de Litvanya'ya katıldı -> 1281-1521 dönemi litvanya-buyuk-dukalik olarak yazılmamalı (prenslik künyesi yok: LAB'a künye sorusu). t 1569-07-01: Lublin 1569 Pinsk'i Polonya Tacı'na GEÇİRMEDİ (EoU Lublin maddesi Podlachia/Volhynia/Kiev/Bratslav'ı sayar); Pinsk Litvanya'da kaldı, 1793'te Rusya'ya geçti (EJ). Atlas lehistan (Birlik) künyesi 1569-1793'ü kapsıyor; Britannica 'Pinsk' arama özeti 'Polish (1569-1793)' (okunmadı, 403). Değişiklik yok, beyan."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Pinsk prensliği için künye açılmaz: LDK apanajı (Gediminoğlu), aynı polity → s: litvanya-buyuk-dukalik + ic_not 'yarı bağımsız apanaj 1521'e dek (EJ)'. 1569'da Litvanya'da kalması LDK t 1569 SINIF-ŞÜPHE (1795 GENİŞLET) adayını destekler. | KARAR EMRELİC (gece-86): Zincir: 1915-09 isg almanya (s: rusya) → 1918 Brest sonrası Ukrayna HC/BNR (rakip hükûmet, fiilî kontrol) → 1919-03 isg polonya → 1920-07 Sovyet geri alışı → 1920-09 Polonya → Riga 1921-03-18 imza (Polonya yönetiyordu) s: polonya. Günler kaynakla; EJ '1919' ic_not. Atlastaki sovyet-rusya 1917-11-07 → 1921-03-18 kesintisiz kayıt YANLIŞ. ONERI. | Alıntı f ucunu tarihliyor: Pinsk 1521'e kadar yarı bağımsız prenslikti (EJ: 'capital of a semi-independent principality'), 1521'de Litvanya'ya katıldı -> 1281-1521 dönemi litvanya-buyuk-dukalik olarak yazılmamalı (prenslik künyesi yok: LAB'a künye sorusu). t 1569-07-01: Lublin 1569 Pinsk'i Polonya Tacı'na GEÇİRMEDİ (EoU Lublin maddesi Podlachia/Volhynia/Kiev/Bratslav'ı sayar); Pinsk Litvanya'da kaldı, 1793'te Rusya'ya geçti (EJ). Atlas lehistan (Birlik) künyesi 1569-1793'ü kapsıyor; Britannica 'Pinsk' arama özeti 'Polish (1569-1793)' (okunmadı, 403). Değişiklik yok, beyan."
   },
   {
    "dosya_satir": "data/yerlesimler_p0037.js:102",
@@ -338,7 +338,7 @@
    "oneri": {
     "t": "1916-05-19"
    },
-   "not": "KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | YERLEŞİME ÖZGÜ gün: Belçika Brigade Sud, Musinga'nın başkenti Nyanza'yı 19 Mayıs 1916'da işgal etti (Ruanda geneli 21 Mayıs). Aynı makale: 'Belgium claimed the territory from the start and managed it as an integral part of the Congo; military residents installed 27 June 1916'. TAHRİR/TEK KURAL TARTIŞMASI: s: belcika mı isg belcika mı (hukukî devir Versailles 1919 / manda 1922; askerî rezidentler 1916-06-27) -> LAB/EMRELİC kararı; ÖLÇÜT adayı: geçici/askerî (isg) çünkü Belçika toprağı Kongo'ya hukuken katmadı, ama 'idareye katma' belgesi de var. Atlas 05-06 hiçbir yerde teyitli değil."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Namibya emsali: 1916-05-19 → 1919-06-27 isg belcika (s: alman-dogu-afrikasi, t 1919-06-28 gece-63) → 1919-06-28 → 1922-07-19 s: belcika → 1922-07-20 ruanda-urundi-mandasi. SINIF SORUSU (EMRELİC/Emre'de): ruanda (Nyiginya) künye t 1916-05-06, mwami monarşisi dolaylı idarede 1961'e dek sürdü → GENİŞLET adayı 1961, s: ruanda + v: belçika; ayrıca t 05-06 ile isg 05-19 arası 13 gün uyumsuz. | KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | YERLEŞİME ÖZGÜ gün: Belçika Brigade Sud, Musinga'nın başkenti Nyanza'yı 19 Mayıs 1916'da işgal etti (Ruanda geneli 21 Mayıs). Aynı makale: 'Belgium claimed the territory from the start and managed it as an integral part of the Congo; military residents installed 27 June 1916'. TAHRİR/TEK KURAL TARTIŞMASI: s: belcika mı isg belcika mı (hukukî devir Versailles 1919 / manda 1922; askerî rezidentler 1916-06-27) -> LAB/EMRELİC kararı; ÖLÇÜT adayı: geçici/askerî (isg) çünkü Belçika toprağı Kongo'ya hukuken katmadı, ama 'idareye katma' belgesi de var. Atlas 05-06 hiçbir yerde teyitli değil."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1177",
@@ -356,7 +356,7 @@
     "t": "1919-06-28",
     "not": "ardından s: belcika 1919-06-28 → 1922-07-20 (manda künyesi)"
    },
-   "not": "KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | TEK KURAL (savaş işgali ilhaka kadar isg): 1916-05-19 isg belcika önerilir; s: hangi gün (Orts-Milner 1919-05-30 / Versay 1919-06-28 / manda 1922-07-20) EMRELİC'e soruldu. | f ucu 1916-05-06 -> 1916-05-19 (yerleşim-özel işgal günü). Aynı makalede t ucu YIL düzeyi: 'in 1922, the territories became mandates' (gün 07-20 teyitsiz). Savaş işgali isg kuralı için önceki satıra bak (karar bekliyor)."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Namibya emsali: 1916-05-19 → 1919-06-27 isg belcika (s: alman-dogu-afrikasi, t 1919-06-28 gece-63) → 1919-06-28 → 1922-07-19 s: belcika → 1922-07-20 ruanda-urundi-mandasi. SINIF SORUSU (EMRELİC/Emre'de): ruanda (Nyiginya) künye t 1916-05-06, mwami monarşisi dolaylı idarede 1961'e dek sürdü → GENİŞLET adayı 1961, s: ruanda + v: belçika; ayrıca t 05-06 ile isg 05-19 arası 13 gün uyumsuz. | KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | TEK KURAL (savaş işgali ilhaka kadar isg): 1916-05-19 isg belcika önerilir; s: hangi gün (Orts-Milner 1919-05-30 / Versay 1919-06-28 / manda 1922-07-20) EMRELİC'e soruldu. | f ucu 1916-05-06 -> 1916-05-19 (yerleşim-özel işgal günü). Aynı makalede t ucu YIL düzeyi: 'in 1922, the territories became mandates' (gün 07-20 teyitsiz). Savaş işgali isg kuralı için önceki satıra bak (karar bekliyor)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1177",
@@ -369,7 +369,7 @@
    "kaynak": "Anne Samson, «Ruanda and Urundi», 1914-1918-online International Encyclopedia of the First World War (2016) https://encyclopedia.1914-1918-online.net/article/ruanda-and-urundi/ (sayfa.py oku)",
    "alinti": "confirmed Belgian occupation and in 1922, the territories became mandates",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | f ucu YIL düzeyi [yalnız yıl teyitli; gün 1922-07-20 teyitsiz]; ÜLKE DÜZEYİ (Ruanda-Urundi). Yürürlük/manda onayı günü zincirde TDV kamerun komşu gününe dayanıyor (gün komşudan)."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Namibya emsali: 1916-05-19 → 1919-06-27 isg belcika (s: alman-dogu-afrikasi, t 1919-06-28 gece-63) → 1919-06-28 → 1922-07-19 s: belcika → 1922-07-20 ruanda-urundi-mandasi. SINIF SORUSU (EMRELİC/Emre'de): ruanda (Nyiginya) künye t 1916-05-06, mwami monarşisi dolaylı idarede 1961'e dek sürdü → GENİŞLET adayı 1961, s: ruanda + v: belçika; ayrıca t 05-06 ile isg 05-19 arası 13 gün uyumsuz. | KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | f ucu YIL düzeyi [yalnız yıl teyitli; gün 1922-07-20 teyitsiz]; ÜLKE DÜZEYİ (Ruanda-Urundi). Yürürlük/manda onayı günü zincirde TDV kamerun komşu gününe dayanıyor (gün komşudan)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1177",
@@ -382,7 +382,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi «RUANDA» https://islamansiklopedisi.org.tr/ruanda (sayfa.py oku)",
    "alinti": "Burundi’den ayrılan Ruanda 1 Temmuz 1962’de bağımsızlığını ilân etti",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | f ucu GÜN düzeyinde teyitli (ÜLKE DÜZEYİ)."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Namibya emsali: 1916-05-19 → 1919-06-27 isg belcika (s: alman-dogu-afrikasi, t 1919-06-28 gece-63) → 1919-06-28 → 1922-07-19 s: belcika → 1922-07-20 ruanda-urundi-mandasi. SINIF SORUSU (EMRELİC/Emre'de): ruanda (Nyiginya) künye t 1916-05-06, mwami monarşisi dolaylı idarede 1961'e dek sürdü → GENİŞLET adayı 1961, s: ruanda + v: belçika; ayrıca t 05-06 ile isg 05-19 arası 13 gün uyumsuz. | KARAR EMRELİC (gece-86): Urundi emsali (gece-63): isg belcika 1916-05-19 (Samson; atlas 05-06 kalkar) → s: belcika 1919-06-28 Versay imzası (Belçika yönetiyordu) → manda künyesi 1922-07-20. Orts-Milner 1919-05-30 paylaşım, egemenlik devri değil → ic_not. | f ucu GÜN düzeyinde teyitli (ÜLKE DÜZEYİ)."
   }
  ],
  "Ocmulgee": [
@@ -606,7 +606,7 @@
    "kaynak": "Bakılan (hepsi İPUCU/arama özeti, okunmadı): Archaeology Magazine 'Pucará de Tilcara', WMF, encyclopedia.com 'Omaguaca', Wikipedia",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | SAHİP SORUSU: arama özetleri Tilcara'yı Omaguaca (Humahuaca) halkına bağlıyor (Viltipoco/Tilcara kuzeyi Tuluy ile Humahuaca); Diaguita-Calchaquí konfederasyonu değil. Quilmes emsali (Calchaquí Vadisi, 1667 Savaşları sonu) buraya uygulanamayabilir; Inka (Tupac Inca Yupanqui, 15. yy sonu) hâkimiyeti ayrı bir dönem olabilir. Okunmuş akademik kaynak YOK -> oneri boş; KÜNYE sorusu LAB'a (omaguaca / tawantinsuyu)."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Omaguaca künyesi yok, açılmaz; diaguita-calchaqui (1281-1667) Omaguaca'yı kapsamaz. İnka öncesi bos:'kabile' + 'Omaguaca halkı'; ~1480-1535 s: inka-imparatorlugu (künye var). | KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | SAHİP SORUSU: arama özetleri Tilcara'yı Omaguaca (Humahuaca) halkına bağlıyor (Viltipoco/Tilcara kuzeyi Tuluy ile Humahuaca); Diaguita-Calchaquí konfederasyonu değil. Quilmes emsali (Calchaquí Vadisi, 1667 Savaşları sonu) buraya uygulanamayabilir; Inka (Tupac Inca Yupanqui, 15. yy sonu) hâkimiyeti ayrı bir dönem olabilir. Okunmuş akademik kaynak YOK -> oneri boş; KÜNYE sorusu LAB'a (omaguaca / tawantinsuyu)."
   },
   {
    "dosya_satir": "data/yerlesimler_gamerika.js:121",
@@ -619,7 +619,7 @@
    "kaynak": "Bakılan: WebSearch özetleri (Jujuy 3. kuruluş Nisan 1593, Francisco de Argañarás Humahuaca alanını aldı — ipucu); Zanolli 2005 'Tierra, encomienda e identidad: Omaguaca (1540-1638)' yalnız künye alıntısı",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | Omaguaca'da İspanyol hâkimiyetinin başlangıcı (1593 civarı ipucu) 1667 ile örtüşmüyor; 1667-01-02 Calchaquí Savaşları sonu bu yerleşim için tanıklı değil. Zanolli 2005 gövdesi açılamadı. KÜNYE: Río de la Plata Genel Valiliği (1776) Peru Genel Valiliği'nden ayrıldı — ispanyol-peru künyesi (t 1824) 1776 sonrası Jujuy'u kapsamıyor olabilir."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Omaguaca künyesi yok, açılmaz; diaguita-calchaqui (1281-1667) Omaguaca'yı kapsamaz. İnka öncesi bos:'kabile' + 'Omaguaca halkı'; ~1480-1535 s: inka-imparatorlugu (künye var). | KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | Omaguaca'da İspanyol hâkimiyetinin başlangıcı (1593 civarı ipucu) 1667 ile örtüşmüyor; 1667-01-02 Calchaquí Savaşları sonu bu yerleşim için tanıklı değil. Zanolli 2005 gövdesi açılamadı. KÜNYE: Río de la Plata Genel Valiliği (1776) Peru Genel Valiliği'nden ayrıldı — ispanyol-peru künyesi (t 1824) 1776 sonrası Jujuy'u kapsamıyor olabilir."
   },
   {
    "dosya_satir": "data/yerlesimler_gamerika.js:121",
@@ -632,7 +632,7 @@
    "kaynak": "Bakılan: arama özetleri (ipucu); Tucumán Kongresi 1816-07-09 bağımsızlık ilânı gövdesi okunmadı",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | Jujuy/Humahuaca'nın fiilen Arjantin yönetiminde olduğu gün okunmuş kaynakta yok (Yukarı Peru savaşları nedeniyle 1810-1825 arası Kraliyetçi/Patriot el değiştirme beklenir)."
+   "not": "LAB SALI 773f69625 (origin/main ölçümü): Omaguaca künyesi yok, açılmaz; diaguita-calchaqui (1281-1667) Omaguaca'yı kapsamaz. İnka öncesi bos:'kabile' + 'Omaguaca halkı'; ~1480-1535 s: inka-imparatorlugu (künye var). | KARAR EMRELİC (gece-86): Omaguaca künye sorusu LAB SALI'da. | Jujuy/Humahuaca'nın fiilen Arjantin yönetiminde olduğu gün okunmuş kaynakta yok (Yukarı Peru savaşları nedeniyle 1810-1825 arası Kraliyetçi/Patriot el değiştirme beklenir)."
   }
  ]
 }
