@@ -757,5 +757,27 @@
   "islem": "devletler.js damagaram 'Damagaram Sultanlığı (Zinder)' (:3461) t → fetih günü (Joalland-Meynier seferi, 1899 — kaynakla; bulunamazsa 1899-01-01 [yalnız yıl] kalır). Zinder (yer_yama_1923_1945.js, yerlesimler_ok107.js): 1281 → 1730 mevcut kanem-bornu (öncül — kaynakla; değilse beyanlı), 1731 → fetih s: damagaram + v: kanem-bornu (haraç; süresi kaynakla), fetihten s: fransa-cumhuriyet. Dayanaksız '1902-01-01' kırılması KALKAR. Değişmez 2: 1899 fetih maddesi ölçülmeli.",
   "dayanak": "EMRELİC gece-113/114 (LAB PAZAR iletimi); LAB ölçümü",
   "onay": "EMRELİC 6 Kasım gece-113/114"
+ },
+ {
+  "d": "orta-afrika-imparatorlugu",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js orta-afrika-imparatorlugu (:15267) t → 1979-09-21 (Barracuda gecesi 20/21; Dacko 09-21'de cumhuriyeti ilan etti — TDV esas); ardıl Orta Afrika Cumhuriyeti dilimi 09-21'den. AYNI COMMIT: Bangassu birleşmesi (HALEF1946-UYGULA.md, kasa-1104-kronoloji dalı — KASA). Değişmez 2: 1979-09-20/21 maddesi ölçülüp birlikte taşınır.",
+  "kunye": "orta-afrika-imparatorlugu t 1979-09-20 → 1979-09-21",
+  "gun": "1979-09-21",
+  "guc": "ORTA",
+  "dayanak": "TDV (EMRELİC gece-101 (c))",
+  "onay": "EMRELİC gece-101"
+ },
+ {
+  "d": "fas-ispanyol-himayesi",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "TARIH_DUZELT",
+  "islem": "devletler.js fas-ispanyol-himayesi (:14412) t → 1956-04-05 (TDV «himayesini kaldırdı (5 Nisan 1956)» — aynı hukukî işlem; TDV esas). ic_not_t: '1956-04-07 İspanya-Fas ortak bildirisi (Madrid) — iki kaynakla'. Nador ve kuzey bölgesi yerleşimlerinde 1956-04-07 kırılmaları → 04-05; Değişmez 2 maddesi birlikte.",
+  "kunye": "fas-ispanyol-himayesi t 1956-04-07 → 1956-04-05",
+  "gun": "1956-04-05",
+  "guc": "ORTA",
+  "dayanak": "TDV (EMRELİC gece-106 (4))",
+  "onay": "EMRELİC gece-106"
  }
 ]
