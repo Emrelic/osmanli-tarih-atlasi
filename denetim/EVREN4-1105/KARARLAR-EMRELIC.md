@@ -796,3 +796,11 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - 🔴 Hayalet hemen düzelir: 1747-06-20 → 1751-01-01 dilimleri `zend`den çıkar ve kaynak bulunana kadar BEYANLI yazılır.
 - **Tarki:** `kumuk-samhalligi` aynı polity olarak sürdüyse t GENİŞLETİLİR (Şamhallık 1867'ye kadar; kaynakla); ardıl künye açılmaz. LAB SALI'ya.
 - **Salyan hanlığı:** künye adayı, LAB SALI'ya.
+- **LAB SALI cevabı (gece-111, HAYALET-KARAR):**
+  - **Tarki:** `kumuk-samhalligi` (devletler.js:9594, 1578-11-01 → 1726-01-01) için t GENİŞLETME adayı 1867 (Rus idaresince ilga); gün kaynakla bulunacak. Aynı polity, ardıl künye açılmaz.
+    - Tarki'deki `zend` (1747-94) ve `kacar` (1794-1813) yanlıştır: Zend'in Dağıstan'da egemenliği yoktu, Kaçar'ınki nominal iddiaydı.
+    - Zincir: … → `kumuk-samhalligi` → 1813-10-24 (Gülistan) `v:` Rus İmparatorluğu (dolaylı idare, gece-88; künye id'si öneri satırında ölçülecek) → 1867 `s:` Rus.
+    - 1726-01-01'in dayanağı okunacak. 1725 Rus himayesiyse bu bir vasallıktır, son değildir.
+  - **Salyan hanlığı:** künye adayı oldu (aday listesi 70), ~1747/50 → 1768. 1768'den sonra Salyan `s: kuba-hanligi` (devletler.js:10180, 1735 → 1813-10-24).
+    - Bağlanışın ilhak mı vasallık mı olduğu kaynakla belirlenecek. Vasallıksa `s: salyan` + `v: kuba`.
+    - Mahmudâbâd'a da aynı zincir uygulanır; Kura yakası sorusu yine sınanacak (Reşt 1732 dilimi).
