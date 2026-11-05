@@ -1,0 +1,149 @@
+{
+ "Cue": [
+  {
+   "sira": 3653,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1892-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Shire of Cue, History (yerel yönetim sitesi, HAM): https://www.cue.wa.gov.au/our-shire/history.aspx",
+   "alinti": "On New Year's Day 1892, Michael Fitzgerald and his party found gold at what became known as the Kintore Blow",
+   "uc": "f",
+   "oneri": {},
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. Alıntı altın buluşunu 1892-01-01'e tarihler (yerleşimin tohumu); yerleşim sonradan 'rapidly' büyüdü; 'officially established as a town in 1893' (townsite günü, ic_not'a). Akademik değil yerel yönetim sitesi => ONERI-güçlü. f=1892-01-01 korunabilir, BEYANLI: buluş günü, iskân sonrası. Sahip bati-avustralya (künye 1829-1901 kapsar).",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Leonora": [
+  {
+   "sira": 3655,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1897-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Eastern Goldfields Historical Society, Goldfields History: Leonora (yerel tarih derneği, HAM): https://www.kalgoorliehistory.org.au/towns/Leonora",
+   "alinti": "In 1896 South African prospector Edward Sullivan and his partner Harry Widdick pegged the first gold lease in the Mt Leonora area",
+   "uc": "f",
+   "oneri": {
+    "f": "1896-12-01",
+    "d": "bati-avustralya"
+   },
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. F-GERI: sayfa 1896'da ilk maden kiralamasını, hızla büyüyen barakalar yerleşimini ve 'in December 1896 Warden Owen approved the establishment of the Leonora townsite' der; yerleşim Aralık 1896'da var. Atlas f=1897-01-01 bir ay geç. Öneri f=1896-12-01 [yalnız ay; gün teyitsiz]. 'Leonora was gazetted in 1898' (ilçe günü, ic_not'a). Yerel dernek sitesi => ONERI-güçlü. Yeni dilimin sahibi aynı bati-avustralya (künye 1829-1901 kapsar).",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Kalgoorlie": [
+  {
+   "sira": 3657,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1893-06-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Eastern Goldfields Historical Society, Goldfields History: Kalgoorlie (yerel tarih derneği, HAM): https://www.kalgoorliehistory.org.au/towns/Kalgoorlie",
+   "alinti": "In June 1893, two Irish prospectors chasing rumours of a gold find at Mt Yuille pitched camp near a low hill",
+   "uc": "f",
+   "oneri": {},
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. Haziran 1893 buluş/kamp; Hannan 17 Haziran'da Coolgardie'ye döndü, bir hafta sonra 1.400 kişi çalışıyordu: f=1893-06-01 'yalnız ay' olarak tutarlı. 'the town was gazetted on 4 September 1894' (townsite günü, ic_not'a; aynı gün inHerit Hannans Club/Park Buildings kayıtlarında arama özetinde göründü, ham metin okunmadı). Wikipedia 'WA gold rushes' 1893 gazette diyor => çelişki, kullanılmadı. Yerel dernek => ONERI-güçlü.",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Broome": [
+  {
+   "sira": 3659,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1883-01-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "inHerit (WA State Heritage Office), Broome Pioneer Cemetery kaydı (resmî, HAM): https://inherit.dplh.wa.gov.au/public/inventory/details/b6a4dcff-b355-4b4e-a731-473121bc8b12",
+   "alinti": "The first burial took place in 1883, the same year that Broome was gazetted as a town.",
+   "uc": "f",
+   "oneri": {},
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. [YALNIZ YIL teyitli; gün teyitsiz]. Gazette günü: 27 Kasım 1883 (Monument Australia plaket metni, HAM; sivil anıt sitesi); Broome Shire sayfası 21 Kasım diyor (sayfaya erişilemedi, yalnız arama özeti) => çelişki ic_not'ta iki günüyle beyan edilmeli. Gazette = townsite günü; asıl iskân (Roebuck Bay inci avcılığı) öncesi olabilir, aranmadı: BAKILMADI."
+  }
+ ],
+ "Goulburn": [
+  {
+   "sira": 3661,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1818-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Aussie Towns, Goulburn NSW (popüler turizm sitesi, HAM): https://www.aussietowns.com.au/town/goulburn-nsw",
+   "alinti": "a town plan was drawn up in 1828 and a few allotments were taken up by discharged soldiers",
+   "uc": "f",
+   "oneri": {
+    "f": "1828-01-01",
+    "d": "yeni-guney-galler"
+   },
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. F-ILERI olabilir: atlas f=1818 bakılan hiçbir sayfada yok. Kaynak: kasaba planı 1828 (ilk yer, Goulburn North), 1832'de yüksek zemine ikinci townsite etüdü, 'The new site was gazetted in 1833'; municipality 1859; city 1863 (ilçe günleri ic_not'a). yeni-guney-galler künyesi 1788-1901, her iki yılı kapsar. Popüler site => ONERI-güçlü; akademik teyit (NSW State Archives, GNB, ADB) erişilemedi. 1818 (Throsby/Goulburn Plains keşfi) araştırılmadı: BAKILMADI. Öneri f=1828-01-01 [yalnız yıl].",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Geraldton": [
+  {
+   "sira": 3663,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1850-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Freotopia, Champion Bay (Wikipedia alıntı + dipnotlu derleme, HAM): https://freotopia.org/places/championbay.html",
+   "alinti": "The town of Geraldton, named after Governor FitzGerald, was surveyed in 1850 and land sales began in 1851.",
+   "uc": "f",
+   "oneri": {},
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. f=1850 etüt yılı olarak tutarlı; arazi satışı 1851 (Aussie Towns: 'gazetted in 1851', ham). Gün yok (yalnız yıl). Wikipedia kökenli, tek dayanak olamaz; resmî inHerit/CGG PDF'lerinde '1850' ham aramada YOK döndü (belge uzun, yıl farklı yerde olabilir) => ONERI-güçlü. 1849-50 Murchison kurşun madenleri ilk iskân olarak aranmadı: BAKILMADI.",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Burketown": [
+  {
+   "sira": 3665,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1865-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Wikipedia, Burketown (tek dayanak olamaz; HAM): https://en.wikipedia.org/wiki/Burketown",
+   "alinti": "Burketown was formally established in 1865 by Robert Towns",
+   "uc": "f",
+   "oneri": {
+    "f": "1865-06-12",
+    "d": "queensland"
+   },
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. Wikipedia: Towns'ın kiraladığı Jacmel Packet 12 Haziran 1865'te Albert River ağzına vardı, mallar bugünkü Burketown yerine indi; Eylül 1865'te nüfus ~40. Yerleşim 1865 ortasında doğdu; atlas f=1865-01-01 yarım yıl erken (F-ILERI, küçük). Öneri f=1865-06-12 [yalnız Wikipedia; ONERI-güçlü]. Queensland Heritage Register 'Burke trail' sayfası 1865 verir (yalnız arama özeti; ham metin okunamadı). İlk arazi satışı 14 Ağustos 1867 (ic_not). Queensland künyesi f=1859 kapsar.",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ],
+ "Cobar": [
+  {
+   "sira": 3667,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1869-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Visit Cobar Shire, Our Heritage (belediye turizm sitesi, HAM): https://visitcobarshire.com.au/ourheritage",
+   "alinti": "were present when the first discovery of copper was made in 1870.",
+   "uc": "f",
+   "oneri": {
+    "f": "1870-01-01",
+    "d": "yeni-guney-galler"
+   },
+   "not": "öteki uç (t 1901-01-01 Federasyon) yerleşime özgü kaynakla teyit edilmedi; künye ic_not_t (NAA/aph.gov.au) ülke düzeyi geçerli. F-ILERI: bakılan sayfada bakır buluşu 1870 (Campbell, Hartman, Gibb); 1869 hiçbir yerde yok. Arama özetinde: Eylül 1870 buluş (J. Australasian Mining History), kasaba etüdü 1871; PDF'lerin ham metninde Cobar YOK (okunamadı). Atlas 1869 desteksiz => f=1870-01-01 [yalnız yıl; buluş Eylül 1870 olabilir]. Yerel turizm sitesi => ONERI-güçlü.",
+   "kaynak_sinifi": "ONERI-güçlü"
+  }
+ ]
+}
