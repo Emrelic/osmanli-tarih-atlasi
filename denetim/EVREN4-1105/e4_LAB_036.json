@@ -11,7 +11,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "karşı koruma karşılığında 1785’te Penang adasını aldı",
    "oneri": {},
-   "not": "TDV Malezya md.: Penang 1785'te alındı (yıl); atlas 1786-08-11 (Light'ın fiilî tasarruf günü; Project MUSE 507689 dizini 'occupied ... 11 August 1786' arama özeti, gövde açılmadı -> ipucu). İki kaynak yıl düzeyinde çelişir, seçmedim; TDV esastır kuralı Emre'de. ÖLÇÜT: idareye katma — Light'ın Prince of Wales Island adıyla tasarrufu (okunmadı). t ucu: bkz. sonraki satır."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | TDV Malezya md.: Penang 1785'te alındı (yıl); atlas 1786-08-11 (Light'ın fiilî tasarruf günü; Project MUSE 507689 dizini 'occupied ... 11 August 1786' arama özeti, gövde açılmadı -> ipucu). İki kaynak yıl düzeyinde çelişir, seçmedim; TDV esastır kuralı Emre'de. ÖLÇÜT: idareye katma — Light'ın Prince of Wales Island adıyla tasarrufu (okunmadı). t ucu: bkz. sonraki satır."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -24,7 +24,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "İngilizler 1826’da Singapur, Malaka ve Penang adası ile yarımada üzerindeki Wellesley bölgesini Straits Settlements",
    "oneri": {},
-   "not": "f ucu YIL düzeyinde 1826 (Straits Settlements); gün 1826-11-27 teyitsiz [yalnız yıl teyitli; gün teyitsiz]. TDV 1867'de doğrudan Sömürge Bakanlığı'na bağlandığını da verir. Künye ingiliz-malaya f-t ölçülmedi. ÜLKE/EYALET DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | f ucu YIL düzeyinde 1826 (Straits Settlements); gün 1826-11-27 teyitsiz [yalnız yıl teyitli; gün teyitsiz]. TDV 1867'de doğrudan Sömürge Bakanlığı'na bağlandığını da verir. Künye ingiliz-malaya f-t ölçülmedi. ÜLKE/EYALET DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -38,9 +38,9 @@
    "alinti": "Aralık 1941’de Malay yarımadası, Şubat 1942’de Singapur Japonlar’ın eline geçti",
    "oneri": {
     "alan": "isg",
-    "f": "1941-12"
+    "f": "1941-12 (Penang'ın alınışı; yaygın 1941-12-19, kaynakla)"
    },
-   "not": "ÖNCEKİ KARAR: Malaya Japon dönemi isg; Penang'a özgü giriş günü (1941-12) kaynakla. | TEK KURAL: Japon dönemi isg (Malaya dahil). TDV: yarımada Aralık 1941'de (ay düzeyi), Singapur Şubat 1942'de Japonların eline geçti -> atlas f 1942-02-15 Singapur garnizonu teslimidir, Penang için değil; noktaya özgü gün teyitsiz (BÖLGE DÜZEYİ ay). ÖLÇÜT: geçici/askerî — Japonlar toprağı ilhak etmedi, İngiliz iddiası sürdü (TDV 'işgal altında kaldı'). t 1945-09-02 teyitsiz."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | ÖNCEKİ KARAR: Malaya Japon dönemi isg; Penang'a özgü giriş günü (1941-12) kaynakla. | TEK KURAL: Japon dönemi isg (Malaya dahil). TDV: yarımada Aralık 1941'de (ay düzeyi), Singapur Şubat 1942'de Japonların eline geçti -> atlas f 1942-02-15 Singapur garnizonu teslimidir, Penang için değil; noktaya özgü gün teyitsiz (BÖLGE DÜZEYİ ay). ÖLÇÜT: geçici/askerî — Japonlar toprağı ilhak etmedi, İngiliz iddiası sürdü (TDV 'işgal altında kaldı'). t 1945-09-02 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -53,7 +53,7 @@
    "kaynak": "TDV malezya (Japon teslimi sonrası günü yok; 'İngilizler ülkeyi tekrar ele geçirdi' gün vermez)",
    "alinti": "",
    "oneri": {},
-   "not": "1945-09-02 -> 1946-04-01 geçişi için TDV'de gün yok; British Military Administration okunmadı."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | 1945-09-02 -> 1946-04-01 geçişi için TDV'de gün yok; British Military Administration okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -66,7 +66,7 @@
    "kaynak": "TDV malezya: Malay Birliği yalnız 'Ocak 1946'da plan' olarak anılır; 1 Nisan 1946 kuruluş günü yok",
    "alinti": "",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | Penang Malay Birliği'ne dahildi (Singapur hariç) ama kuruluş günü kaynakta yok; legislation.gov.uk S.I. 1948/108 denenmedi bu partide."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | Penang Malay Birliği'ne dahildi (Singapur hariç) ama kuruluş günü kaynakta yok; legislation.gov.uk S.I. 1948/108 denenmedi bu partide."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -81,7 +81,7 @@
    "oneri": {
     "f": "1948-02-01"
    },
-   "not": "ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | TDV 1 Şubat 1948 verir; atlas 1948-01-31. Alıntı anlaşma/karar günüdür ('kurulması kararlaştırıldı'), yürürlük günü değil; karar sizde (Klang emsali). Künye malaya-birligi t ile bitişik, birlikte değişmeli. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | TDV 1 Şubat 1948 verir; atlas 1948-01-31. Alıntı anlaşma/karar günüdür ('kurulması kararlaştırıldı'), yürürlük günü değil; karar sizde (Klang emsali). Künye malaya-birligi t ile bitişik, birlikte değişmeli. ÜLKE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4006",
@@ -94,7 +94,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "31 Ağustos 1957’de bağımsızlık ilân edilerek Malay Federasyonu’nun kuruluşu gerçekleştirildi",
    "oneri": {},
-   "not": "f ucu gün düzeyinde 1957-08-31 bağımsızlık ilanı (TDV Malezya md.). ÜLKE DÜZEYİ. history.state.gov yalnız ABD tanıma günüdür, kullanılmadı."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ teslim → 1786-08-11 (bayrak çekme) kalır; TDV 1785 muhtemelen Kedah anlaşması, ayrı olay, ic_not. Japon isg: 1942-02-15 Singapur'u tarihler, Penang'ı değil (uç kuralı) → Aralık 1941 (yaygın 1941-12-19, kaynakla; yoksa 1941-12-01 + ay beyanı, TDV). | f ucu gün düzeyinde 1957-08-31 bağımsızlık ilanı (TDV Malezya md.). ÜLKE DÜZEYİ. history.state.gov yalnız ABD tanıma günüdür, kullanılmadı."
   }
  ],
  "Oudong": [
@@ -109,7 +109,7 @@
    "kaynak": "TDV kambocya (Oudong 1640'larda saray yeri olarak geçer; 1618 kuruluş/başkent günü yok); TDV cibuti/zengibar bu yerleşimi anmaz",
    "alinti": "",
    "oneri": {},
-   "not": "Oudong'un 1618'de başkent oluşu okunmadı. TDV: 'İslâm’ın etkili biçimde ortaya çıkışı, 1640’lı yılların başlarında Oudong’daki Kamboçya sarayında' (Oudong o devirde saray yeri)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | Oudong'un 1618'de başkent oluşu okunmadı. TDV: 'İslâm’ın etkili biçimde ortaya çıkışı, 1640’lı yılların başlarında Oudong’daki Kamboçya sarayında' (Oudong o devirde saray yeri)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -124,7 +124,7 @@
    "oneri": {
     "alan": "v"
    },
-   "not": "ÖNCEKİ KARAR (gece-11/49): Kamboçya v: fransa 1863-08-11 → 1945-03-09. | Bilinen karar: Kamboçya himaye -> v: fransa 1863-08-11, s: kamboc-kralligi sürer. TDV yalnız YIL verir (1863) ve 'sömürge' der (kaynağın kendi sözcüğü); gün 1863-08-11 bu kaynakta yok. ÖLÇÜT: himaye — yerli monarşi s: sürer. t 1953-11-09: TDV 'bağımsızlığını 9 Kasım 1953' (sonraki satır)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | ÖNCEKİ KARAR (gece-11/49): Kamboçya v: fransa 1863-08-11 → 1945-03-09. | Bilinen karar: Kamboçya himaye -> v: fransa 1863-08-11, s: kamboc-kralligi sürer. TDV yalnız YIL verir (1863) ve 'sömürge' der (kaynağın kendi sözcüğü); gün 1863-08-11 bu kaynakta yok. ÖLÇÜT: himaye — yerli monarşi s: sürer. t 1953-11-09: TDV 'bağımsızlığını 9 Kasım 1953' (sonraki satır)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -137,7 +137,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kambocya",
    "alinti": "9 Kasım 1953’te bağımsızlığını kazanan Kamboçya yönetiminde bulunan Norodom Sihanouk",
    "oneri": {},
-   "not": "f ucu gün düzeyinde 1953-11-09 bağımsızlık (TDV Kamboçya md.). ÜLKE DÜZEYİ. t 1970-10-09: TDV yalnız '1970’te' der."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | f ucu gün düzeyinde 1953-11-09 bağımsızlık (TDV Kamboçya md.). ÜLKE DÜZEYİ. t 1970-10-09: TDV yalnız '1970’te' der."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -150,7 +150,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kambocya",
    "alinti": "17 Nisan 1975’te başşehir Phnom Penh’in Kızıl Kimerler’in eline geçmesiyle",
    "oneri": {},
-   "not": "t ucu 1975-04-17 TDV'de gün düzeyinde ama Phnom Penh içindir: Oudong'un kendisi Kızıl Kimerler'e bundan önce düşmüştür (Mart 1974, ipucu, okunmadı) -> ALT-BÖLGE İSTİSNASI, ÜLKE DÜZEYİ KAYNAKLI verilmedi. f: TDV '1970’te ... Kimer Cumhuriyeti’nin kurulması' yalnız yıl (gün 1970-10-09 teyitsiz)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | t ucu 1975-04-17 TDV'de gün düzeyinde ama Phnom Penh içindir: Oudong'un kendisi Kızıl Kimerler'e bundan önce düşmüştür (Mart 1974, ipucu, okunmadı) -> ALT-BÖLGE İSTİSNASI, ÜLKE DÜZEYİ KAYNAKLI verilmedi. f: TDV '1970’te ... Kimer Cumhuriyeti’nin kurulması' yalnız yıl (gün 1970-10-09 teyitsiz)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -163,7 +163,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kambocya",
    "alinti": "Ocak 1979’da Kamboçya Halk Cumhuriyeti adıyla Vietnam güdümünde yeni bir hükümet kuruldu",
    "oneri": {},
-   "not": "f ucu AY düzeyinde (1979-01); gün 1979-01-07 teyitsiz [yalnız ay teyitli]. ÜLKE DÜZEYİ. t 1993-09-24: TDV '1993’te' yıl."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | f ucu AY düzeyinde (1979-01); gün 1979-01-07 teyitsiz [yalnız ay teyitli]. ÜLKE DÜZEYİ. t 1993-09-24: TDV '1993’te' yıl."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -176,7 +176,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/kambocya",
    "alinti": "1993’te Birleşmiş Milletler gözetiminde kurulan anayasal monarşik rejim altında çok partili demokrasiye geçildi",
    "oneri": {},
-   "not": "f ucu YIL düzeyinde 1993 (BM gözetiminde anayasal monarşi); gün 1993-09-24 teyitsiz [yalnız yıl teyitli]. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: fransa 1863-08-11. | f ucu YIL düzeyinde 1993 (BM gözetiminde anayasal monarşi); gün 1993-09-24 teyitsiz [yalnız yıl teyitli]. ÜLKE DÜZEYİ."
   }
  ],
  "Pahang (Pekan)": [
@@ -191,7 +191,7 @@
    "kaynak": "TDV malezya (Pahang 15. yy'da Malaka'ya katıldı; İngiliz öncesi sahiplik günü yok)",
    "alinti": "",
    "oneri": {},
-   "not": "TDV: 'Pahang ve Riau-Lingga takımadaları ... Sultan Alâeddin Riâyet Şah tarafından ülke topraklarına katıldı' (Malaka, 15. yy) — atlas malay-sultanliklari 1281 f ucu ve 1888 t ucu için gün yok. t: İngiliz himaye anlaşması 1887-10-08 / Resident Ekim 1888 yalnız Vikipedi-türevi arama özetinde (ipucu, okunmadı)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: ingiltere 1887-10-08 (koruma antlaşması); 1888 Resident ic_not; ipucu → ONERI. | TDV: 'Pahang ve Riau-Lingga takımadaları ... Sultan Alâeddin Riâyet Şah tarafından ülke topraklarına katıldı' (Malaka, 15. yy) — atlas malay-sultanliklari 1281 f ucu ve 1888 t ucu için gün yok. t: İngiliz himaye anlaşması 1887-10-08 / Resident Ekim 1888 yalnız Vikipedi-türevi arama özetinde (ipucu, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:101",
@@ -206,7 +206,7 @@
    "oneri": {
     "alan": "v"
    },
-   "not": "Himaye kuralı (gece-88/98): yerli polity s: sürer, koruyucu v:. | Bilinen karar: dolaylı idare/himaye -> yerli monarşi s: sürer, İngiltere v:. TDV (ÜLKE DÜZEYİ) Residency sistemini anlatır ama Pahang'ı adıyla anmaz; Pahang'a özgü gün okunmadı (arama özeti: antlaşma 1887-10-08, ilk Resident J. P. Rodger Ekim 1888 — Vikipedi-türevi, ipucu). Atlas f 1888-01-01 teyitsiz. t 1896-07: TDV 'Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti' (ay düzeyi, alıntı yalnız t ucunu tarihliyor)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: ingiltere 1887-10-08 (koruma antlaşması); 1888 Resident ic_not; ipucu → ONERI. | Himaye kuralı (gece-88/98): yerli polity s: sürer, koruyucu v:. | Bilinen karar: dolaylı idare/himaye -> yerli monarşi s: sürer, İngiltere v:. TDV (ÜLKE DÜZEYİ) Residency sistemini anlatır ama Pahang'ı adıyla anmaz; Pahang'a özgü gün okunmadı (arama özeti: antlaşma 1887-10-08, ilk Resident J. P. Rodger Ekim 1888 — Vikipedi-türevi, ipucu). Atlas f 1888-01-01 teyitsiz. t 1896-07: TDV 'Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti' (ay düzeyi, alıntı yalnız t ucunu tarihliyor)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:101",
@@ -219,7 +219,7 @@
    "kaynak": "TDV malezya (Malay Birliği yalnız 'Ocak 1946 plan')",
    "alinti": "",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | 1946-04-01 kuruluş günü kaynakta yok. Pahang Malay Birliği'ne dahildi (ipucu)."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: ingiltere 1887-10-08 (koruma antlaşması); 1888 Resident ic_not; ipucu → ONERI. | ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | 1946-04-01 kuruluş günü kaynakta yok. Pahang Malay Birliği'ne dahildi (ipucu)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:101",
@@ -234,7 +234,7 @@
    "oneri": {
     "f": "1948-02-01"
    },
-   "not": "ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | TDV 1 Şubat 1948 (karar günü); atlas 1948-01-31. Pahang ayrıca dokuz sultanlıktan biridir (himaye/federasyon). Karar sizde. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: ingiltere 1887-10-08 (koruma antlaşması); 1888 Resident ic_not; ipucu → ONERI. | ÖNCEKİ KARAR (gece-103 Klang): Malaya Federasyonu f 1948-02-01 (TDV); Birlik t / Federasyon f eşik kuralına göre hizalanacak. | TDV 1 Şubat 1948 (karar günü); atlas 1948-01-31. Pahang ayrıca dokuz sultanlıktan biridir (himaye/federasyon). Karar sizde. ÜLKE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:101",
@@ -247,7 +247,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/malezya",
    "alinti": "31 Ağustos 1957’de bağımsızlık ilân edilerek Malay Federasyonu’nun kuruluşu gerçekleştirildi",
    "oneri": {},
-   "not": "f ucu gün düzeyinde 1957-08-31 (TDV Malezya md.). ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): Himaye ONAY: v: ingiltere 1887-10-08 (koruma antlaşması); 1888 Resident ic_not; ipucu → ONERI. | f ucu gün düzeyinde 1957-08-31 (TDV Malezya md.). ÜLKE DÜZEYİ."
   }
  ],
  "Niangara (Mangbetu)": [
@@ -305,7 +305,7 @@
    "oneri": {
     "t": "1862-03-11"
    },
-   "not": "TDV Cibuti md.: Tâcûre Sultanı Ahmed Ebû Bekir Ubûk'u (Obok) 11 Mart 1862 antlaşmasıyla Fransa'ya bıraktı (Fransa 1859'da zaten iskele kurmuştu) -> TEK ÖLÇÜ: devralan fiilen yönetiyor, imza günü. Atlas t 1884 TDV'de ülke düzeyinde 'himayeye aldı (1884)' olarak geçer ama Obok için 1862 daha özgüldür. Önceki sahip 'adal' yerine Tâcûre Sultanlığı olabilir (künye var mı ölç). f 1281 BOŞLUK."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ: Fransa 1862'de idare etmiyordu → s: fransa f = fiilî işgal günü (Lagarde 1884, kaynakla); 1862-03-11 devir imzası ic_not; 1884-01-01 gün değilse BEYANLI. Önceki sahip Tâcûre Sultanlığı (künye LAB SALI, yoksa aday). | TDV Cibuti md.: Tâcûre Sultanı Ahmed Ebû Bekir Ubûk'u (Obok) 11 Mart 1862 antlaşmasıyla Fransa'ya bıraktı (Fransa 1859'da zaten iskele kurmuştu) -> TEK ÖLÇÜ: devralan fiilen yönetiyor, imza günü. Atlas t 1884 TDV'de ülke düzeyinde 'himayeye aldı (1884)' olarak geçer ama Obok için 1862 daha özgüldür. Önceki sahip 'adal' yerine Tâcûre Sultanlığı olabilir (künye var mı ölç). f 1281 BOŞLUK."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:423",
@@ -318,9 +318,9 @@
    "kaynak": "https://islamansiklopedisi.org.tr/cibuti",
    "alinti": "11 Mart 1862 tarihli bir dostluk ve yardım anlaşması ile 52.000 frank karşılığında Ubûk’u Fransızlar’a",
    "oneri": {
-    "f": "1862-03-11"
+    "f": "fiilî işgal günü (1884, Lagarde; kaynakla)"
    },
-   "not": "Bkz. önceki satır: Obok'a özgü f 1862-03-11 (TDV). ÖLÇÜT: idareye katma — satın alma antlaşması + iskele (1859). t 1977-06-27 TDV'de gün (bkz. sonraki satır)."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ: Fransa 1862'de idare etmiyordu → s: fransa f = fiilî işgal günü (Lagarde 1884, kaynakla); 1862-03-11 devir imzası ic_not; 1884-01-01 gün değilse BEYANLI. Önceki sahip Tâcûre Sultanlığı (künye LAB SALI, yoksa aday). | Bkz. önceki satır: Obok'a özgü f 1862-03-11 (TDV). ÖLÇÜT: idareye katma — satın alma antlaşması + iskele (1859). t 1977-06-27 TDV'de gün (bkz. sonraki satır)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:423",
@@ -333,7 +333,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/cibuti",
    "alinti": "ülke 27 Haziran 1977’de Cibuti Cumhuriyeti adıyla bağımsızlığını kazandı",
    "oneri": {},
-   "not": "f ucu gün düzeyinde 1977-06-27 (TDV Cibuti md.). ÜLKE DÜZEYİ; Obok bu tarihte ayrıca el değiştirmedi."
+   "not": "KARAR EMRELİC (gece-106): TEK ÖLÇÜ: Fransa 1862'de idare etmiyordu → s: fransa f = fiilî işgal günü (Lagarde 1884, kaynakla); 1862-03-11 devir imzası ic_not; 1884-01-01 gün değilse BEYANLI. Önceki sahip Tâcûre Sultanlığı (künye LAB SALI, yoksa aday). | f ucu gün düzeyinde 1977-06-27 (TDV Cibuti md.). ÜLKE DÜZEYİ; Obok bu tarihte ayrıca el değiştirmedi."
   }
  ],
  "Ondjiva (Ovambo)": [
@@ -348,7 +348,7 @@
    "kaynak": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/namibia-german-south-west-africa-and-south-west-africa",
    "alinti": "Union forces defeated and killed Mandume, the Kwanyama king in 1917",
    "oneri": {},
-   "not": "Gale (encyclopedia.com 'Namibia') Kwanyama kralı Mandume'nin 1917'de öldürüldüğünü YIL düzeyinde verir ve faili Güney Afrika Birliği kuvvetleri yazar; Portekiz kaynakları ve arama özetleri Portekiz-İngiliz ortak harekâtı/Ondjiva'da 6 Şubat 1917 der (özetler, Vikipedi-türevi; okunmadı). Kaynaklar failde çelişir, seçmedim. f 1600 BOŞLUK."
+   "not": "KARAR EMRELİC (gece-106): Çelişki değil: Portekiz Ondjiva'yı 1915'te aldı (Mongua sonrası, gün kaynakla) → Portekiz f 1915; Mandume güneye çekildi, 1917 ölümü ic_not. | Gale (encyclopedia.com 'Namibia') Kwanyama kralı Mandume'nin 1917'de öldürüldüğünü YIL düzeyinde verir ve faili Güney Afrika Birliği kuvvetleri yazar; Portekiz kaynakları ve arama özetleri Portekiz-İngiliz ortak harekâtı/Ondjiva'da 6 Şubat 1917 der (özetler, Vikipedi-türevi; okunmadı). Kaynaklar failde çelişir, seçmedim. f 1600 BOŞLUK."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1785",
@@ -360,8 +360,10 @@
    "uc": "f",
    "kaynak": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/namibia-german-south-west-africa-and-south-west-africa",
    "alinti": "Union forces defeated and killed Mandume, the Kwanyama king in 1917",
-   "oneri": {},
-   "not": "f ucu yalnız YIL (1917) tarihlenebiliyor; Portekiz'in Ondjiva'yı fiilen ele geçirişi 1915-16'ya (Ovambo Uprising / Pereira d'Eça seferi) gidebilir (ipucu, okunmadı) -> TEK ÖLÇÜ: devralan fiilen yönetiyorsa imza/fiilî gün; gün teyitsiz. t 1975-01-31 bkz. sonraki satır (Alvor)."
+   "oneri": {
+    "f": "1915 (Mongua sonrası Ondjiva'nın alınışı, gün kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-106): Çelişki değil: Portekiz Ondjiva'yı 1915'te aldı (Mongua sonrası, gün kaynakla) → Portekiz f 1915; Mandume güneye çekildi, 1917 ölümü ic_not. | f ucu yalnız YIL (1917) tarihlenebiliyor; Portekiz'in Ondjiva'yı fiilen ele geçirişi 1915-16'ya (Ovambo Uprising / Pereira d'Eça seferi) gidebilir (ipucu, okunmadı) -> TEK ÖLÇÜ: devralan fiilen yönetiyorsa imza/fiilî gün; gün teyitsiz. t 1975-01-31 bkz. sonraki satır (Alvor)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1785",
@@ -374,7 +376,7 @@
    "kaynak": "https://history.state.gov/historicaldocuments/frus1969-76v28/d101",
    "alinti": "transition government that would take office on January 31, 1975",
    "oneri": {},
-   "not": "FRUS d101 'would take office' = planlanan gün; Alvor geçiş hükûmetinin fiilî göreve başlaması 1975-01-31 ile örtüşüyor — çekince notu. | f ucu gün düzeyinde 1975-01-31: Alvor Antlaşması (15 Ocak 1975) geçiş hükûmetinin göreve başlayacağı gün (FRUS 1969-76 c.28 d101, ABD Dışişleri resmî yayını; 'would take office' planlanan gün). t 1975-11-11: history.state.gov/countries/angola 'Portugal granted Angola independence on November 11, 1975'. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-106): Çelişki değil: Portekiz Ondjiva'yı 1915'te aldı (Mongua sonrası, gün kaynakla) → Portekiz f 1915; Mandume güneye çekildi, 1917 ölümü ic_not. | FRUS d101 'would take office' = planlanan gün; Alvor geçiş hükûmetinin fiilî göreve başlaması 1975-01-31 ile örtüşüyor — çekince notu. | f ucu gün düzeyinde 1975-01-31: Alvor Antlaşması (15 Ocak 1975) geçiş hükûmetinin göreve başlayacağı gün (FRUS 1969-76 c.28 d101, ABD Dışişleri resmî yayını; 'would take office' planlanan gün). t 1975-11-11: history.state.gov/countries/angola 'Portugal granted Angola independence on November 11, 1975'. ÜLKE DÜZEYİ."
   }
  ],
  "Nikolayevsk (Amur ağzı)": [
@@ -445,7 +447,7 @@
    "kaynak": "Vikipedi Oatlands (1821 Macquarie adlandırması, ipucu); southernmidlands.tas.gov.au miras PDF'inde '1821' bulunamadı",
    "alinti": "",
    "oneri": {},
-   "not": "f 1821-06-03: arama özetleri Macquarie'nin günlüğünde 3 Haziran 1821 adlandırma verir (ipucu, okunmadı); garnizon 1825-26. NSW egemenliği Van Diemen's Land'de 1788/1803'ten beri (yerleşim kuruluş günü ≠ egemenlik günü). t 1825-12-03 bkz. sonraki satır."
+   "not": "KARAR EMRELİC (gece-106): LoC blogu kurum personelinin yazısı, resmî yayın/hakemli değil → ONERI-güçlü. | f 1821-06-03: arama özetleri Macquarie'nin günlüğünde 3 Haziran 1821 adlandırma verir (ipucu, okunmadı); garnizon 1825-26. NSW egemenliği Van Diemen's Land'de 1788/1803'ten beri (yerleşim kuruluş günü ≠ egemenlik günü). t 1825-12-03 bkz. sonraki satır."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:269",
@@ -458,7 +460,7 @@
    "kaynak": "https://blogs.loc.gov/law/2015/12/on-this-day-an-independent-van-diemens-land/",
    "alinti": "proclaimed in Hobart by New South Wales Governor Ralph Darling on December 3, 1825",
    "oneri": {},
-   "not": "LoC Hukuk Kütüphanesi blogu: devlet kurumu ama resmî tarih yayını değil, hakemsiz blog → çekinceli ONERI; sınıf EMRELİC'e soruldu. | f ucu gün düzeyinde 1825-12-03 (Order in Council 1825-06-14, Hobart'ta ilanı). Kaynak: ABD Kongre Kütüphanesi Hukuk Kütüphanesi blogu (kurum yayını, hakemsiz; sınıf kararı sizde). Australian National Archives foundingdocs.gov.au/item-did-73.html yalnız 14 Haziran 1825 emrini verir, ilan gününü vermez. ÜLKE/KOLONİ DÜZEYİ. t 1901-01-01 okunmadı."
+   "not": "KARAR EMRELİC (gece-106): LoC blogu kurum personelinin yazısı, resmî yayın/hakemli değil → ONERI-güçlü. | LoC Hukuk Kütüphanesi blogu: devlet kurumu ama resmî tarih yayını değil, hakemsiz blog → çekinceli ONERI; sınıf EMRELİC'e soruldu. | f ucu gün düzeyinde 1825-12-03 (Order in Council 1825-06-14, Hobart'ta ilanı). Kaynak: ABD Kongre Kütüphanesi Hukuk Kütüphanesi blogu (kurum yayını, hakemsiz; sınıf kararı sizde). Australian National Archives foundingdocs.gov.au/item-did-73.html yalnız 14 Haziran 1825 emrini verir, ilan gününü vermez. ÜLKE/KOLONİ DÜZEYİ. t 1901-01-01 okunmadı."
   }
  ],
  "Occaneechi (Hillsborough)": [
@@ -475,7 +477,7 @@
    "oneri": {
     "t": "1712"
    },
-   "not": "NCpedia (Encyclopedia of North Carolina, UNC Press): Occaneechi 1676 Bacon saldırısından sonra Roanoke adasından Hillsborough'daki Eno Nehri'ne taşındı (Lawson 1701'de gördü), 1712'ye dek vadiyi terk etti -> Hillsborough'da Occaneechi s: ~1676-sonrası -> 1712; öncesi (1281-1676) bu noktada Occaneechi tanıklığı yok. Yıl düzeyi."
+   "not": "KARAR EMRELİC (gece-106): t 1712 [yıl] ONERI ONAY; merdiven ④: Eno köyü 1712 sonrası boşsa ve Hillsborough 1754'te kurulduysa 1712–1754 kırpılır ya da BEYANLI; İngiliz f kaynaksız yazılmaz. | NCpedia (Encyclopedia of North Carolina, UNC Press): Occaneechi 1676 Bacon saldırısından sonra Roanoke adasından Hillsborough'daki Eno Nehri'ne taşındı (Lawson 1701'de gördü), 1712'ye dek vadiyi terk etti -> Hillsborough'da Occaneechi s: ~1676-sonrası -> 1712; öncesi (1281-1676) bu noktada Occaneechi tanıklığı yok. Yıl düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1267",
@@ -490,7 +492,7 @@
    "oneri": {
     "f": "1712"
    },
-   "not": "İngiliz egemenliğinin bu noktada başlangıcı kaynakta yok; Occaneechi'nin ayrılışı 1712 (yıl). 1676 Occaneechi'nin Roanoke'den çıkışıdır, Hillsborough'ya gelişidir; İngiliz idaresi (Orange County 1752, ipucu) okunmadı. Tahrir ölçütü: kaynak susuyor. Alıntı f ucunu doğrudan tarihlemiyor."
+   "not": "KARAR EMRELİC (gece-106): t 1712 [yıl] ONERI ONAY; merdiven ④: Eno köyü 1712 sonrası boşsa ve Hillsborough 1754'te kurulduysa 1712–1754 kırpılır ya da BEYANLI; İngiliz f kaynaksız yazılmaz. | İngiliz egemenliğinin bu noktada başlangıcı kaynakta yok; Occaneechi'nin ayrılışı 1712 (yıl). 1676 Occaneechi'nin Roanoke'den çıkışıdır, Hillsborough'ya gelişidir; İngiliz idaresi (Orange County 1752, ipucu) okunmadı. Tahrir ölçütü: kaynak susuyor. Alıntı f ucunu doğrudan tarihlemiyor."
   }
  ],
  "Odanak (Abenaki)": [
@@ -533,7 +535,7 @@
    "kaynak": "ndstudies.gov/gr8/node/173 (ND Eyalet Eğitim): 1851 Fort Laramie 'Arikaras, Hidatsas, and Mandans were guaranteed a large area'; web araması (Kappler c.2 s.594-596)",
    "alinti": "",
    "oneri": {},
-   "not": "1851-09-17 Fort Laramie toprak GÜVENCESİDİR, devir değildir; ND Eyaleti kaynağı rezervasyonun 1851 sınırlarına dayandığını söyler. Köy 1781 çiçek salgınında terk edilmiş olabilir (NPS, okunmadı)."
+   "not": "KARAR EMRELİC (gece-106): s: abd 1851 kalkar; önce merdiven ④: Mandan köyü ~1781 çiçek salgınıyla terk → yerleşim sonra yoksa dönem kırpılır; terk yılı kaynakla. | 1851-09-17 Fort Laramie toprak GÜVENCESİDİR, devir değildir; ND Eyaleti kaynağı rezervasyonun 1851 sınırlarına dayandığını söyler. Köy 1781 çiçek salgınında terk edilmiş olabilir (NPS, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:892",
@@ -541,12 +543,15 @@
    "d": "abd",
    "f": "1851-09-17",
    "t": "2000-12-31",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "ndstudies.gov/gr8/node/173; web araması",
    "alinti": "",
-   "oneri": {},
-   "not": "ABD s: 1851-09-17 için okunmuş devir belgesi yok: antlaşma Mandan-Hidatsa-Arikara toprağını tanır (ÜLKE/ALT-BÖLGE: egemenlik 1803 Louisiana Purchase ile ABD'ye, rezerv 1866-1880 antlaşmalarıyla daralır). Seçmedim."
+   "oneri": {
+    "sil": true,
+    "not": "önce terk yılı (~1781) ile dönem kırpma"
+   },
+   "not": "KARAR EMRELİC (gece-106): s: abd 1851 kalkar; önce merdiven ④: Mandan köyü ~1781 çiçek salgınıyla terk → yerleşim sonra yoksa dönem kırpılır; terk yılı kaynakla. | ABD s: 1851-09-17 için okunmuş devir belgesi yok: antlaşma Mandan-Hidatsa-Arikara toprağını tanır (ÜLKE/ALT-BÖLGE: egemenlik 1803 Louisiana Purchase ile ABD'ye, rezerv 1866-1880 antlaşmalarıyla daralır). Seçmedim."
   }
  ],
  "Otjimbingve": [
@@ -561,7 +566,7 @@
    "kaynak": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/namibia-german-south-west-africa-and-south-west-africa",
    "alinti": "In early 1904, following a series of misunderstandings, war broke out.",
    "oneri": {},
-   "not": "Gale 'Namibia' md.: 1904 başı Herero savaşı (ay/yıl); 1904-01-12 gün düzeyinde teyitsiz. Aynı maddeye göre Almanya 1884'te kıyıyı ilhak etti, Herero 1885'te koruma antlaşması imzaladı, 1888'de feshetti: Herero egemenliği 1904'e dek sürdü diyen atlas modeli kısmen savunulabilir (himaye). f 1281 BOŞLUK. Alıntı yalnız t ucunu tarihliyor."
+   "not": "KARAR EMRELİC (gece-106): v: almanya 1885-10-21 (Maharero antlaşması) → 1888-10-30 fesih (v: düşer) → 1890 yeniden tanıma (gün kaynakla) → 1904–05 Herero savaşı sonrası doğrudan idare s: alman-gba (TAHRİR). Herero künyesi LAB SALI. | Gale 'Namibia' md.: 1904 başı Herero savaşı (ay/yıl); 1904-01-12 gün düzeyinde teyitsiz. Aynı maddeye göre Almanya 1884'te kıyıyı ilhak etti, Herero 1885'te koruma antlaşması imzaladı, 1888'de feshetti: Herero egemenliği 1904'e dek sürdü diyen atlas modeli kısmen savunulabilir (himaye). f 1281 BOŞLUK. Alıntı yalnız t ucunu tarihliyor."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1994",
@@ -577,7 +582,7 @@
     "alan": "v",
     "f": "1885"
    },
-   "not": "Himaye kuralı (gece-88/98): yerli polity s: sürer, koruyucu v:. | Gale: Herero (Maharero Tjamuaha) 1885'te Almanya ile koruma antlaşması imzaladı, 1888'de feshetti (Herero Alman memurlarını kovdu). Bilinen karar: himaye -> yerli polity s: sürer, Avrupa gücü v:. Alman Reich Komiserliği Otjimbingwe'ydi (arama özeti, okunmadı). Gün teyitsiz (yıl); 1885-10-21 Vikipedi-türevi ipucu. t 1915-07-09: Gale 'Union ... invaded Namibia in 1915' yıl düzeyi (SAHO ipucu)."
+   "not": "KARAR EMRELİC (gece-106): v: almanya 1885-10-21 (Maharero antlaşması) → 1888-10-30 fesih (v: düşer) → 1890 yeniden tanıma (gün kaynakla) → 1904–05 Herero savaşı sonrası doğrudan idare s: alman-gba (TAHRİR). Herero künyesi LAB SALI. | Himaye kuralı (gece-88/98): yerli polity s: sürer, koruyucu v:. | Gale: Herero (Maharero Tjamuaha) 1885'te Almanya ile koruma antlaşması imzaladı, 1888'de feshetti (Herero Alman memurlarını kovdu). Bilinen karar: himaye -> yerli polity s: sürer, Avrupa gücü v:. Alman Reich Komiserliği Otjimbingwe'ydi (arama özeti, okunmadı). Gün teyitsiz (yıl); 1885-10-21 Vikipedi-türevi ipucu. t 1915-07-09: Gale 'Union ... invaded Namibia in 1915' yıl düzeyi (SAHO ipucu)."
   }
  ],
  "Pangani": [
@@ -620,7 +625,7 @@
    "kaynak": "oms.library.okstate.edu item 19121 (11 Stat. 729 kayıt künyesi); govinfo STATUTE-11-Pg729.pdf (metin katmanı yok); web araması",
    "alinti": "",
    "oneri": {},
-   "not": "Antlaşma 1857-09-24 Table Creek'te imzalandı (OSU künyesi). Ama köy 30x15 millik Loup rezervi içindedir (ALT-BÖLGE İSTİSNASI, arama özeti, govinfo PDF'inden okunamadı): Pawnee 1875'e dek orada kaldı. f 1281 BOŞLUK. AÇILAMAYAN PDF: https://www.govinfo.gov/content/pkg/STATUTE-11/pdf/STATUTE-11-Pg729.pdf"
+   "not": "KARAR EMRELİC (gece-106): govinfo PDF metinsiz → Kappler, Indian Affairs: Laws and Treaties (OSU dijital) aynı antlaşmayı verir; oradan alıntılanacak. | Antlaşma 1857-09-24 Table Creek'te imzalandı (OSU künyesi). Ama köy 30x15 millik Loup rezervi içindedir (ALT-BÖLGE İSTİSNASI, arama özeti, govinfo PDF'inden okunamadı): Pawnee 1875'e dek orada kaldı. f 1281 BOŞLUK. AÇILAMAYAN PDF: https://www.govinfo.gov/content/pkg/STATUTE-11/pdf/STATUTE-11-Pg729.pdf"
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1094",
@@ -633,7 +638,7 @@
    "kaynak": "https://oms.library.okstate.edu/s/indigenous-architecture-of-oklahoma/item/19121",
    "alinti": "Date Created September 24, 1857 Where or How Concluded Table creek, Nebraska territory",
    "oneri": {},
-   "not": "OSU (Kappler/Statutes at Large künyesi) yalnız antlaşma gününü verir (imza 1857-09-24). Antlaşma çoğu toprağı devretti ama köyün bulunduğu Loup rezervini Pawnee'ye bıraktı (arama özeti, okunmadı): ÜLKE DÜZEYİ KAYNAKLI verilmedi (alt-bölge istisnası). ÖLÇÜT: rezerv = ABD toprağı sayıldı mı, kaynak susuyor."
+   "not": "KARAR EMRELİC (gece-106): govinfo PDF metinsiz → Kappler, Indian Affairs: Laws and Treaties (OSU dijital) aynı antlaşmayı verir; oradan alıntılanacak. | OSU (Kappler/Statutes at Large künyesi) yalnız antlaşma gününü verir (imza 1857-09-24). Antlaşma çoğu toprağı devretti ama köyün bulunduğu Loup rezervini Pawnee'ye bıraktı (arama özeti, okunmadı): ÜLKE DÜZEYİ KAYNAKLI verilmedi (alt-bölge istisnası). ÖLÇÜT: rezerv = ABD toprağı sayıldı mı, kaynak susuyor."
   }
  ]
 }
