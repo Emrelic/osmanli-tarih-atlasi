@@ -1,0 +1,1070 @@
+{
+ "Şakrâ": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1744-01-01",
+   "t": "1818-09-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "1744’te Dir‘iye Emîri Muhammed b. Suûd ile dinî-siyasî birlik oluşturup | İbrâhim Paşa’nın 1818’de Necid’e yaptığı askerî seferle Dir‘iye tahrip edilerek",
+   "oneri": {},
+   "not": "[sira 3077] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. Yıl düzeyi: 1744-01-01 yıl beyanı; 1818-09-09 günü (Dir‘iye teslimi) TDV'de yok, teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1824-06-01",
+   "t": "1891-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "Türkî b. Abdullah, 1824’te geri gelerek … Riyad’ı merkez edindi | Reşîdîler … Suûdîler’i 1891’de Riyad’dan çıkarıp Küveyt’e çekilmek zorunda bıraktılar",
+   "oneri": {},
+   "not": "[sira 3078] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. Yıl düzeyi; f gün 06-01 teyitsiz. 🔴 Tutarlılık: suud-ikinci künye t 1891-01-24, veri t 1891-01-01 — KASA eşitlesin (TDV gün vermiyor).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "s",
+   "d": "sammar",
+   "f": "1891-01-01",
+   "t": "1902-01-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid ; TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Reşîdîler … Suûdîler’i 1891’de Riyad’dan çıkarıp Küveyt’e çekilmek zorunda bıraktılar | Abdülazîz’in 15 Ocak 1902’de şehri ele geçirmesiyle sonuçlandı",
+   "oneri": {},
+   "not": "[sira 3079] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. f yıl, t gün (Riyad'ın alınışı). sammar künye f 1835 (ölçüldü), kapsıyor.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1902-01-15",
+   "t": "1932-09-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Abdülazîz’in 15 Ocak 1902’de şehri ele geçirmesiyle sonuçlandı | Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3080] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. f gün; t yıl (1932-09-18 günü mevcut OH kaynağında).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1818-09-09",
+   "t": "1824-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad ; TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "bölge 1818’de Osmanlı denetimine girdi | Türkî b. Abdullah, 1824’te geri gelerek … Riyad’ı merkez edindi",
+   "oneri": {},
+   "not": "[sira 3081] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. v: Mısır (İbrâhim Paşa) — TDV «Necid»: «Necid, Cidde ve Habeş İbrâhim Paşa’nın idaresine verildi» (yıl aynı paragrafta: 1818, yıl bağlamdan); İbrâhim 1819'da döndü, idare zayıfladı (ic_not). Yıl düzeyi.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2288",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3082] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad) — Şakrâ'ya (Vaşm) özgü tanıklık yok. ÜLKE DÜZEYİ; yıl (gün mevcut OH kaynağında). t pencere ucu.",
+   "uc": "f"
+  }
+ ],
+ "Buraymî": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2297",
+   "alan": "s",
+   "d": "umman",
+   "f": "1624-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Büreymî», https://islamansiklopedisi.org.tr/bureymi (Mustafa L. Bilge)",
+   "alinti": "1625’te Büreymî’de vali olarak, Uman’da hüküm süren Ya‘rubî hânedanından İmam Mürşid b. Nâsır’ın valisi",
+   "oneri": {
+    "f": "1625-01-01",
+    "bolunme": "suud-birinci ~1800 → 1818 (Vehhâbî kalesi; gün kaynakla) · 1952-09-01 → 1955-10 isg suud/suudi-arabistan (Suûdî valisi)"
+   },
+   "not": "[sira 3083] [alıntı ham metinden, sayfa.py] f: 1625 ilk tanıklık yılı (terminus ante quem; umman künye f 1624). Bölünme: TDV «1800 yıllarında … Vehhâbîler Ahsâ ve Katîf’i ele geçirdiler ve Büreymî’ye ulaştılar» (Harîk'in kalesi) — tek blok umman bunu yok sayıyor; TDV «1 Eylül 1952’de Türkî b. Abdullah b. Utayşân … yeni Büreymî valisi tayin edildi», Ekim 1955 Uman-Ebûzabî kuvvetleri bölgeye yürüdü (TAHRİR: Suûdî iddiası sürdü, Uman/Ebûzabî iddiası da → isg). TDV ayrıca «seksen yılı aşkın bir süredir Uman ve Ebûzabî tarafından idare edilen» der (Ebûzabî payı ic_not).",
+   "uc": "f"
+  }
+ ],
+ "Kanina": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2471",
+   "alan": "s",
+   "d": "arnavutluk-bagimsiz",
+   "f": "1912-11-28",
+   "t": "1939-04-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Arnavutluk», https://islamansiklopedisi.org.tr/arnavutluk (Mustafa L. Bilge)",
+   "alinti": "28 Kasım 1912’de İsmâil Kemali, Avlonya’da Arnavutluk’un istiklâlini ilân etti | İtalyanlar’ı 24 Aralık 1914’ten beri işgal altında tuttukları Avlonya’dan çıkardılar",
+   "oneri": {
+    "isg_ekle": "italya 1914-12-24 → 1920-08-03"
+   },
+   "not": "[sira 3084] [alıntı ham metinden, sayfa.py] f KAYNAKLI (Draç emsali, Avlonya). ABİ MERKEZ Avlonya (TDV «Avlonya»: Kanina Kalesi Avlonya'nın hemen yakınında, kaderi ortak). Öneri: isg italya 1914-12-24 → 1920-08-03 (TDV: «İtalya, 3 Ağustos 1920’de imzalanan Tiran Antlaşması ile Arnavutluk’un istiklâlini kabul etti»; fiilî tahliye günü ic_not — TEK ÖLÇÜ teslim günü kaynakla). t 1939-04-07: TDV «1939-1944 yılları arasında Arnavutluk İtalyanlar ve Almanlar tarafından idare edildi» (yıl).",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2471",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1417-01-01",
+   "t": "1912-11-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Avlonya», https://islamansiklopedisi.org.tr/avlonya ; TDV İslâm Ansiklopedisi, «Arnavutluk», https://islamansiklopedisi.org.tr/arnavutluk (Mustafa L. Bilge)",
+   "alinti": "Nihayet 1417’de Osmanlılar … Berat şehri ve Kanina Kalesi ile birlikte burayı hâkimiyetleri altına aldılar | 28 Kasım 1912’de İsmâil Kemali, Avlonya’da Arnavutluk’un istiklâlini ilân etti",
+   "oneri": {},
+   "not": "[sira 3085] [alıntı ham metinden, sayfa.py] f yıl (Kanina adıyla anılıyor); t gün (Draç emsali, Avlonya ilanı).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2471",
+   "alan": "s",
+   "d": "sicilya-kralligi",
+   "f": "1281-01-01",
+   "t": "1282-03-30",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3086] DIGER — mevcut POSTIT-3 kaynağı; sınanmadı. (TDV Avlonya: Hohenstaufen, ardından Bizans/Sırp, 1378'den sonra Balşalar — çelişki görülmedi.)",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2471",
+   "alan": "s",
+   "d": "arnavutluk-halk-cumhuriyeti",
+   "f": "1944-11-29",
+   "t": "1991-04-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Arnavutluk», https://islamansiklopedisi.org.tr/arnavutluk (Mustafa L. Bilge)",
+   "alinti": "Bugünkü Arnavutluk’un resmî kuruluş tarihi, işgalden kurtulduğu gün olan 29 Kasım 1944’tür",
+   "oneri": {},
+   "not": "[sira 3087] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t 1991-04-29 teyitsiz.",
+   "uc": "f"
+  }
+ ],
+ "Slatina": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Macarlar’ı 1330 yılında Posada mevkiinde yenerek istiklâlini ilân etti | Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti",
+   "oneri": {
+    "t": "1417-01-01",
+    "v_f": "1417-01-01"
+   },
+   "not": "[sira 3088] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f KAYNAKLI (1330). t: TDV Osmanlı hükümranlığını 1417'de (Mircea) verir; veri s: eflak'ı 1462'ye uzatıp v'yi 1462'den başlatıyor. TDV 1462 için: «Radu (1462-1474) … tam anlamıyla İstanbul’a tâbi oldu» — 1417-1462 arası ikili hükümranlık ve Vlad Tepeş (1456-1462) ayaklanması ic_not. Hangi günün esas alınacağı KASA/EMRELİC kararı; TDV cümlesi 1417 der.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi | Ruslar, Romanya’da monarşi idaresine son verdiler (1947)",
+   "oneri": {},
+   "not": "[sira 3089] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). Yıl düzeyi. f: Jülyen 1881-03-14 = Gregoryen 1881-03-26 (atlas günü Gregoryen; TDV gün vermiyor, gün teyitsiz). t 1947-12-30 günü teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti | Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti",
+   "oneri": {
+    "f": "1417-01-01"
+   },
+   "not": "[sira 3090] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f → 1417 (yukarıdaki satırla birlikte). t KAYNAKLI yıl: Jülyen 1859-01-24 (Bükreş seçimi) = Gregoryen 1859-02-05; TDV gün vermiyor, gün teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak ; TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti | Romanya Prensliği … 9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 3091] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f yıl. t: TDV «9 Mayıs 1877» — Romanya 1919'a dek Jülyen kullanırdı: Jülyen 1877-05-09 = Gregoryen 1877-05-21 (TDV takvim belirtmiyor; veri 05-21 Gregoryen ile uyumlu). Berlin 1878 tanıması ic_not.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3092] DIGER — mevcut TAKVİM-1015 (ESBE) kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3093] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2506",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3094] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Rimnik-i Sârat (Râmnicu Sărat)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Macarlar’ı 1330 yılında Posada mevkiinde yenerek istiklâlini ilân etti | Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti",
+   "oneri": {
+    "t": "1417-01-01",
+    "v_f": "1417-01-01"
+   },
+   "not": "[sira 3095] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f KAYNAKLI (1330). t: TDV Osmanlı hükümranlığını 1417'de (Mircea) verir; veri s: eflak'ı 1462'ye uzatıp v'yi 1462'den başlatıyor. TDV 1462 için: «Radu (1462-1474) … tam anlamıyla İstanbul’a tâbi oldu» — 1417-1462 arası ikili hükümranlık ve Vlad Tepeş (1456-1462) ayaklanması ic_not. Hangi günün esas alınacağı KASA/EMRELİC kararı; TDV cümlesi 1417 der.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi | Ruslar, Romanya’da monarşi idaresine son verdiler (1947)",
+   "oneri": {},
+   "not": "[sira 3096] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). Yıl düzeyi. f: Jülyen 1881-03-14 = Gregoryen 1881-03-26 (atlas günü Gregoryen; TDV gün vermiyor, gün teyitsiz). t 1947-12-30 günü teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti | Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti",
+   "oneri": {
+    "f": "1417-01-01"
+   },
+   "not": "[sira 3097] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f → 1417 (yukarıdaki satırla birlikte). t KAYNAKLI yıl: Jülyen 1859-01-24 (Bükreş seçimi) = Gregoryen 1859-02-05; TDV gün vermiyor, gün teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak ; TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti | Romanya Prensliği … 9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 3098] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f yıl. t: TDV «9 Mayıs 1877» — Romanya 1919'a dek Jülyen kullanırdı: Jülyen 1877-05-09 = Gregoryen 1877-05-21 (TDV takvim belirtmiyor; veri 05-21 Gregoryen ile uyumlu). Berlin 1878 tanıması ic_not.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3099] DIGER — mevcut TAKVİM-1015 (ESBE) kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3100] DIGER — mevcut TAKVİM-1015 (ESBE) kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3101] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2508",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3102] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Turnu Severin": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Macarlar’ı 1330 yılında Posada mevkiinde yenerek istiklâlini ilân etti | Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti",
+   "oneri": {
+    "t": "1417-01-01",
+    "v_f": "1417-01-01"
+   },
+   "not": "[sira 3103] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f KAYNAKLI (1330). t: TDV Osmanlı hükümranlığını 1417'de (Mircea) verir; veri s: eflak'ı 1462'ye uzatıp v'yi 1462'den başlatıyor. TDV 1462 için: «Radu (1462-1474) … tam anlamıyla İstanbul’a tâbi oldu» — 1417-1462 arası ikili hükümranlık ve Vlad Tepeş (1456-1462) ayaklanması ic_not. Hangi günün esas alınacağı KASA/EMRELİC kararı; TDV cümlesi 1417 der.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1718-07-21",
+   "t": "1739-09-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Pasarofça Antlaşması», https://islamansiklopedisi.org.tr/pasarofca-antlasmasi",
+   "alinti": "22 Şâban 1130 (21 Temmuz 1718) tarihinde tamamlanarak … imzalandı | Eflak’ın Oltu ırmağına kadar uzanan … Küçük Eflak … Avusturya’ya bırakılmıştır",
+   "oneri": {},
+   "not": "[sira 3104] [alıntı ham metinden, sayfa.py] f gün. t teyitsiz: «18 Eylül 1739» yalnız TDV arama önizlemesinde (madde «Fıtnat Hanım»; belgrad-antlasmasi slugu açılmadı) — [t alıntısı arama önizlemesinden]. TAHRİR notu: Habsburg Küçük Eflak'ı 1716-17 seferinden beri yönetiyordu → EMRELİC düzeltmesine göre s: fetih/idare gününden başlayabilir; gün kaynakta yok, ic_not. Künye sorusu: Küçük Eflak Macar tacına değil doğrudan Habsburg'a bağlı idare edildi (ipucu) — macaristan-habsburg seçimi LAB'a.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "1881’de Romanya Prensliği krallık haline getirildi | Ruslar, Romanya’da monarşi idaresine son verdiler (1947)",
+   "oneri": {},
+   "not": "[sira 3105] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). Yıl düzeyi. f: Jülyen 1881-03-14 = Gregoryen 1881-03-26 (atlas günü Gregoryen; TDV gün vermiyor, gün teyitsiz). t 1947-12-30 günü teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1462-06-01",
+   "t": "1718-07-21",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak ; TDV İslâm Ansiklopedisi, «Pasarofça Antlaşması», https://islamansiklopedisi.org.tr/pasarofca-antlasmasi",
+   "alinti": "Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında … Osmanlı hükümranlığını kabul etti | (21 Temmuz 1718) … imzalandı",
+   "oneri": {
+    "f": "1417-01-01"
+   },
+   "not": "[sira 3106] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f → 1417 (eflak satırıyla birlikte). t KAYNAKLI gün (Pasarofça).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1739-09-18",
+   "t": "1859-02-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti",
+   "oneri": {},
+   "not": "[sira 3107] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). t yıl (Jülyen 1859-01-24 = Gregoryen 1859-02-05, gün teyitsiz). f 1739-09-18 yalnız TDV arama önizlemesinde: (18 Eylül 1739) imzalanan Belgrad sulh antlaşması (madde açılmadı).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Eflak», https://islamansiklopedisi.org.tr/eflak ; TDV İslâm Ansiklopedisi, «Romanya», https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti | Romanya Prensliği … 9 Mayıs 1877 tarihinde bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "[sira 3108] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Eflak/Romanya). f yıl. t: TDV «9 Mayıs 1877» — Romanya 1919'a dek Jülyen kullanırdı: Jülyen 1877-05-09 = Gregoryen 1877-05-21 (TDV takvim belirtmiyor; veri 05-21 Gregoryen ile uyumlu). Berlin 1878 tanıması ic_not.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3109] DIGER — mevcut TAKVİM-1015 (ESBE) kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3110] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2512",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3111] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Dûmetülcendel (Cevf)": [
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:100",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1921-11-02",
+   "t": "1932-09-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dûmetülcendel», https://islamansiklopedisi.org.tr/dumetulcendel ; TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Ancak 1921 yılında Abdülazîz b. Suûd Dûmetülcendel’i topraklarına kattı | Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3112] [alıntı ham metinden, sayfa.py] f yıl (gün 11-02 = Hâil'in düşüşü / sammar künye t — teyitsiz); t yıl ÜLKE DÜZEYİ (TDV Riyad).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:100",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3113] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, yıl. t pencere ucu.",
+   "uc": "f"
+  }
+ ],
+ "Kırcaali": [
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:244",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1482-01-01",
+   "t": "1913-09-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kırcaali», https://islamansiklopedisi.org.tr/kircaali (Mariya Kiprovska, Machiel Kiel)",
+   "alinti": "Kırcaali adı ilk defa 1482 tarihli Osmanlı vergi kay[dında] | 1913 Ağustosunda … Garbî Trakya Hükûmet-i Müstakillesi içinde kalan Kırcaali",
+   "oneri": {
+    "bolunme": "garbi-trakya dilimi (künye garbi-trakya 1913-08-31 → 1913-10-25; Kırcaali'ye giriş/çıkış günü kaynakla)",
+    "t_soru": "1913-05-30 (Londra emsali, Enez-Midye batısı) — kural kararı"
+   },
+   "not": "[sira 3114] [alıntı ham metinden, sayfa.py] f KAYNAKLI (1482 ilk kayıt; kur alanıyla aynı). t: TDV Kırcaali'nin 1913 Ağustosunda Garbî Trakya Hükûmeti içinde kaldığını yazar — veride isg bulgaristan-kralligi 1913-07-14 → 09-29 bu dilimle çelişiyor (1913-07-14 kaynaksız, kaydın kendi notu da söylüyor). Ayrıca Londra 1913-05-30 emsali (KARARLAR: Ege Makedonyası/Trakya devirleri) d: osmanli'nin 1913-05-30'da bitmesini gerektirebilir; mevcut isg 1912-10-20 → 1913-05-30 ile birlikte KASA/EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:244",
+   "alan": "s",
+   "d": "bulgaristan-halk",
+   "f": "1946-09-15",
+   "t": "1990-11-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3115] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:244",
+   "alan": "s",
+   "d": "bulgaristan-cumhuriyeti",
+   "f": "1990-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3116] DIGER — mevcut LoC kaynağı; sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Mersa'l-Kebîr": [
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:63",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1509-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "İspanyollar’ın 1505’te Mersalkebîr, 1509’da Vehrân (Oran), 1510’da Bicâye … ele geçirdikleri",
+   "oneri": {
+    "t": "1505-01-01"
+   },
+   "not": "[sira 3117] [alıntı ham metinden, sayfa.py] Mersalkebîr'in kendi yılı: 1505 (Vehrân'ın 1509'u değil). Veri t 1509-05-17 Oran'ın günüdür. Gün kaynakta yok → 1505-01-01 [yalnız yıl]; gerçek gün kaynakla bulunmalı.",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:63",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1509-05-17",
+   "t": "1708-04-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir ; TDV İslâm Ansiklopedisi, «Vehrân», https://islamansiklopedisi.org.tr/vehran",
+   "alinti": "İspanyollar’ın 1505’te Mersalkebîr, 1509’da Vehrân (Oran), 1510’da Bicâye … ele geçirdikleri | Mustafa b. Yûsuf Bey’in kuvvetleri uzun bir kuşatmanın ardından 1708’de Vehrân’ı Osmanlılar adına teslim aldı",
+   "oneri": {
+    "f": "1505-01-01"
+   },
+   "not": "[sira 3118] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Vehrân (Oran) — bağ: TDV «Garp Ocakları» (arama önizlemesi) «Vehrân (1792’ye kadar) ve Mersalkebîr gibi birkaç liman» ve TDV «Cezayir» 1505/1509 ikilisi; Mersalkebîr Vehrân'ın limanı. TDV mersalkebir slugu yok. f → 1505 (yukarıya bkz.). t 1708 KAYNAKLI yıl (ABİ MERKEZ); 04-04 günü teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:63",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1732-07-01",
+   "t": "1792-09-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vehrân», https://islamansiklopedisi.org.tr/vehran",
+   "alinti": "şehir İspanyollar tarafından 1732’de geri alındı | 12 Eylül 1792 tarihinde … Kuloğlu Mehmed b. Osman, Vehrân’ı İspanyollar’dan geri almayı başardı",
+   "oneri": {},
+   "not": "[sira 3119] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Vehrân (Oran) — bağ: TDV «Garp Ocakları» (arama önizlemesi) «Vehrân (1792’ye kadar) ve Mersalkebîr gibi birkaç liman» ve TDV «Cezayir» 1505/1509 ikilisi; Mersalkebîr Vehrân'ın limanı. TDV mersalkebir slugu yok. f yıl (07-01 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:63",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1708-04-04",
+   "t": "1732-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vehrân», https://islamansiklopedisi.org.tr/vehran",
+   "alinti": "Mustafa b. Yûsuf Bey’in kuvvetleri uzun bir kuşatmanın ardından 1708’de Vehrân’ı Osmanlılar adına teslim aldı | şehir İspanyollar tarafından 1732’de geri alındı",
+   "oneri": {},
+   "not": "[sira 3120] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Vehrân (Oran) — bağ: TDV «Garp Ocakları» (arama önizlemesi) «Vehrân (1792’ye kadar) ve Mersalkebîr gibi birkaç liman» ve TDV «Cezayir» 1505/1509 ikilisi; Mersalkebîr Vehrân'ın limanı. TDV mersalkebir slugu yok. Yıl düzeyi; 04-04 ve 07-01 günleri teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:63",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1792-09-12",
+   "t": "1831-01-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Vehrân», https://islamansiklopedisi.org.tr/vehran",
+   "alinti": "12 Eylül 1792 tarihinde … Kuloğlu Mehmed b. Osman, Vehrân’ı İspanyollar’dan geri almayı başardı | 4 Ocak 1831’de Fransızlar tarafından işgal edilen Vehrân",
+   "oneri": {},
+   "not": "[sira 3121] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Vehrân (Oran) — bağ: TDV «Garp Ocakları» (arama önizlemesi) «Vehrân (1792’ye kadar) ve Mersalkebîr gibi birkaç liman» ve TDV «Cezayir» 1505/1509 ikilisi; Mersalkebîr Vehrân'ın limanı. TDV mersalkebir slugu yok. f+t gün. ÖLÇÜT: idareye katma — Fransız işgali; Mersalkebîr'e Fransızların daha önce (1830 sonu) girdiği ipucu ic_not adayı (kaynaksız).",
+   "uc": "f+t"
+  }
+ ],
+ "Benzert (Bizerte)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:350",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1557-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Benzert», https://islamansiklopedisi.org.tr/benzert",
+   "alinti": "ilk defa Barbaros Hayreddin Paşa tarafından fethedilmiş (1534), bir ara İspanyollar’ın eline geçmişse",
+   "oneri": {
+    "bolunme": "Osmanlı 1534 dilimi + İspanyol/Hafsî dilimi 1535 → 1557 (günler kaynakla)"
+   },
+   "not": "[sira 3122] [alıntı ham metinden, sayfa.py] [KÜME K30] istisnası: yerleşime özgü çelişkili tanıklık — hafsi tek blok 1281-1557 Barbaros'un 1534 fethini ve sonraki İspanyol dönemini yok sayıyor.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:350",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1557-01-01",
+   "t": "1705-07-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Benzert», https://islamansiklopedisi.org.tr/benzert ; TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "1557’de Kaptanıderyâ Piyâle Paşa tarafından tekrar Osmanlı hâkimiyetine dahil edilmiştir | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "[sira 3123] [alıntı ham metinden, sayfa.py] f yıl (Benzert'in kendi maddesi); t yıl ÜLKE DÜZEYİ, 07-12 günü teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:350",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3124] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:350",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3125] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:350",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Benzert», https://islamansiklopedisi.org.tr/benzert",
+   "alinti": "işgal edilen merkezlerin başında Benzert geliyordu (1881)",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3126] [alıntı ham metinden, sayfa.py] f KAYNAKLI yıl (Benzert'in fiilî işgali Bardo'dan önce olabilir — gün teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü («eyâlet-i mümtâze», TDV Tunus). t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ],
+ "Cendûbe": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:374",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3127] [KÜME K30] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:374",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3128] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor (Halkulvâdî'nin ertesi günü); Cendûbe'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; hafsi künye t 1574-09-13 ve öncül hafsi satırının t'si (K30) birlikte taşınmalı. t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). TDV «Münestîr» vb. şehir maddesi okunmadı.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:374",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3129] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:374",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3130] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:374",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3131] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl/gün ülke düzeyi (TDV: «1881 yılı Mart ayında buraya asker sevkettiler» — şehre fiilî giriş günü teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ],
+ "Kelîbiye": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:388",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3132] [KÜME K30] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:388",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3133] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor (Halkulvâdî'nin ertesi günü); Kelîbiye'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; hafsi künye t 1574-09-13 ve öncül hafsi satırının t'si (K30) birlikte taşınmalı. t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). TDV «Münestîr» vb. şehir maddesi okunmadı.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:388",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3134] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:388",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3135] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:388",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3136] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl/gün ülke düzeyi (TDV: «1881 yılı Mart ayında buraya asker sevkettiler» — şehre fiilî giriş günü teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ],
+ "Munastır": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:400",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3137] [KÜME K30] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:400",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3138] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor (Halkulvâdî'nin ertesi günü); Munastır'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; hafsi künye t 1574-09-13 ve öncül hafsi satırının t'si (K30) birlikte taşınmalı. t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). TDV «Münestîr» vb. şehir maddesi okunmadı.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:400",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3139] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:400",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3140] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:400",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3141] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl/gün ülke düzeyi (TDV: «1881 yılı Mart ayında buraya asker sevkettiler» — şehre fiilî giriş günü teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ],
+ "Nefta": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:422",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3142] [KÜME K30] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:422",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3143] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor (Halkulvâdî'nin ertesi günü); Nefta'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; hafsi künye t 1574-09-13 ve öncül hafsi satırının t'si (K30) birlikte taşınmalı. t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). TDV «Münestîr» vb. şehir maddesi okunmadı.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:422",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3144] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:422",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3145] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:422",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3146] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl/gün ülke düzeyi (TDV: «1881 yılı Mart ayında buraya asker sevkettiler» — şehre fiilî giriş günü teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ],
+ "Cerciş (Zarzis)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:434",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3147] [KÜME K30] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:434",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı | Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "[sira 3148] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Tunus (TDV «Tunus»: Halkulvâdî 24 Ağustos 1574, Tunus 12 Eylül 1574). Veri f 1574-08-25 iki günle de tutmuyor (Halkulvâdî'nin ertesi günü); Cerciş'e özgü gün bulunmadı → Hafsî sultanının düştüğü Tunus günü önerilir; hafsi künye t 1574-09-13 ve öncül hafsi satırının t'si (K30) birlikte taşınmalı. t KAYNAKLI yıl ÜLKE DÜZEYİ (07-12 teyitsiz). TDV «Münestîr» vb. şehir maddesi okunmadı.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:434",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca | 12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {},
+   "not": "[sira 3149] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl (07-12 teyitsiz), t gün.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:434",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3150] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f KAYNAKLI gün. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:434",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1923-07-24"
+   },
+   "not": "[sira 3151] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (TDV Tunus). f yıl/gün ülke düzeyi (TDV: «1881 yılı Mart ayında buraya asker sevkettiler» — şehre fiilî giriş günü teyitsiz). ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürdü. t → 1923-07-24: Osmanlı iddiasının sonu Lozan imzasıdır (DA-BRIEF: Rodos isg 1912-05-17 → 1923-07-24 emsali; TEK ÖLÇÜ Lozan imza). Veri 1923-10-29 yazıyor (Tunus şehir kaydı da aynı — sistemik). Ayrıca kural sorusu: Fransız Çinhindi emsalinde himaye = v: fransa; Tunus'ta tunus-beyligi-fransiz künyesinin tabi alanı (fransa-cumhuriyet) bunu zaten taşıyor — ayrıca isg katmanı gerekip gerekmediği EMRELİC kararı.",
+   "uc": "f"
+  }
+ ]
+}

@@ -1,5 +1,7 @@
 # EVREN 4 — EMRELİC kararları (KASA kovası)
 
+> 🔴 **Uygulayana not (KASA SALI, 5 Kasım):** JSON'lardaki `dosya_satir` satır numarası kova kurulduğu andaki numaradır (a8bf0ed14). main 7acb10c1e'den sonra bazı dosyalarda satırlar kaydı; örneğin `yerlesimler.js`'te bazı yerleşimler 8 satır yukarıda. Bu yüzden kaydı satır numarasıyla değil, `ad:"<yerleşim>"` ile bul. P053 ve sonrasının girdi satırları yeni main'e göre tazelendi.
+
 KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
 
 ## 5 Kasım 2026 — P003/P004 üzerine

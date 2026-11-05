@@ -1,0 +1,1008 @@
+{
+ "Agadez": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1208",
+   "alan": "s",
+   "d": "agadez-sultanligi",
+   "f": "1405-01-01",
+   "t": "1906-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nijer», https://islamansiklopedisi.org.tr/nijer (Aydoğan Köksal)",
+   "alinti": "Fransızlar, Agâdes’i işgal edip halkın Osmanlı Devleti ile irtibata geçmesini engelledi (1906)",
+   "oneri": {},
+   "not": "[sira 3004] [alıntı ham metinden, sayfa.py] t yıl düzeyi (1906-01-01 = yıl beyanı); f 1405 teyitsiz: TDV «Nijer» yalnız «XV ve XVI. yüzyıllarda Agâdes önemli bir kültür merkezi oldu» der, kuruluş yılı yok; `agadez`/`agades` slugları ölü (arama sayfasına düşüyor). ÖLÇÜT: idareye katma — Fransız işgali; sultanlık Fransız idaresi altında sürdü (TDV «Senûsiyye»: Agâdes 1 Aralık 1916 - 3 Mart 1917 kuşatması) — ic_not adayı.",
+   "uc": "t"
+  }
+ ],
+ "Glatz (Kłodzko)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1275",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-10-23",
+   "t": "1742-06-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3005] f 1526-10-23 (I. Ferdinand Bohemya seçimi) önceki satırın kaynağıyla (Habsburger.net) tutarlı ama Glatz/Kłodzko için okunmadı. Bakılan: encyklopedia.pwn.pl ('Serwis nieaktywny'), um.klodzko.pl tarih sayfası (anahtar yok), WebSearch (yalnız Vikipedi ve kopyaları — dayanak değil). Not: `avusturya` devletler.js'te künye değil, BOYALAR anahtarı (renkler.py:1745). TARAYICI: PWN «Kłodzko» (encyklopedia.pwn.pl).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1275",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1742-06-11",
+   "t": "1871-01-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3006] Bakılan: yukarıdaki kaynaklar. 1742-06-11 Breslau ön barışı toprak devri içerir (TEK ÖLÇÜ: Petsamo emsali sayılır); Prusya Glatz'ı 1742 baharında fethedip yönetiyordu → TAHRİR sorusu: s: prusya fetih gününden mi başlamalı (EMRELİC düzeltmesi, Habsburg Macaristan emsali)? Kesin Berlin Barışı 1742-07-28 ic_not adayı. Gün kaynakla bulunamadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1275",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3007] 1871-01-18 Alman İmparatorluğu ilanı — ülke düzeyi, bütçe yüzünden okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1275",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-06-05",
+   "t": "1989-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3008] Mevcut DEVRALMA yalnız t (1989-12-31, Dziennik Ustaw) içindir; f 1945-06-05 Berlin Deklarasyonu kuralı. Polonya idaresinin Kłodzko'da fiilen başlaması (1945 Mayıs) ve Potsdam 1945-08-02 ic_not adayı — okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1275",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3009] Mevcut DEVRALMA künye kaynağı; okunmadı.",
+   "uc": ""
+  }
+ ],
+ "Broumov (Braunau)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1278",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-10-23",
+   "t": "1918-11-11",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3010] t 1918-11-11: Broumov Südet bölgesinde; Deutschböhmen/Sudetenland eyaletlerinin 1918-10 ilanı ve Çekoslovak ordusunun bölgeye girişi (1918 sonu) rakip hükûmet kuralı sorusu — okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1278",
+   "alan": "s",
+   "d": "cekoslovakya",
+   "f": "1918-11-11",
+   "t": "1938-10-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3011] f 1918-11-11 (yukarıya bkz.); cekoslovakya künye f 1918-10-28. Okunmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1278",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-10-01",
+   "t": "1945-05-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3012] DIGER — mevcut kaynak (Münih, Avalon); sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Salala": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1388",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zafâr», https://islamansiklopedisi.org.tr/zafar",
+   "alinti": "şehir 678’de (1279) Resûlî topraklarına katıldı | Resûlîler’in IX. (XV.) yüzyılda yıkılmasının ardından şehir … Kesîrîler’in eline geçti",
+   "oneri": {
+    "d": "resuli",
+    "f": "1281-01-01",
+    "t": "1454-01-01",
+    "bolunme": "kesiri-sultanligi 1454-01-01 → 1879-01-01 (BEYANLI, yıl)"
+   },
+   "not": "[sira 3013] [alıntı ham metinden, sayfa.py] Salâle Zafâr eyaletinin merkezidir (TDV). Zafâr 1279'dan Resûlî; 1330-1366 yarı müstakil / bağımsız Resûlî kolu (TDV: «730 (1330) yılından itibaren … tam bağımsız», «767'den (1366) sonra tekrar Taiz'deki Resûlîler'in hâkimiyeti») — ayrı künye yok, resuli içinde BEYANLI. Nebhânî (Uman iç bölgesi) ile Zafâr bağı kaynakta YOK. resuli künye t 1454 = TDV «IX. (XV.) yüzyıl» (yıl beyanı). kesiri-sultanligi künye f 1450 (ölçüldü).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1388",
+   "alan": "s",
+   "d": "umman",
+   "f": "1515-04-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman",
+   "alinti": "1879’da … o bölgenin Uman’a bağlı olduğu ortaya çıkınca",
+   "oneri": {
+    "d": "umman",
+    "f": "1879-01-01"
+   },
+   "not": "[sira 3014] [alıntı ham metinden, sayfa.py] 🔴 HAYALET: umman künyesi f 1624-01-01 (ölçüldü), veri 1515-04-01'den yazıyor. TDV «Uman» Zafâr'ın 1879'da Uman'a bağlı olduğunu kaydeder (terminus ante quem — Bû Saîd'in Zafâr'ı alış yılı daha erken olabilir; kaynaklı gün yok) → f 1879 BEYANLI; 1454-1879 kesiri-sultanligi. TARAYICI: EI2 «Ẓafār» (Brill).",
+   "uc": "f"
+  }
+ ],
+ "Necid içi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1744-01-01",
+   "t": "1818-09-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "1744’te Dir‘iye Emîri Muhammed b. Suûd ile dinî-siyasî birlik oluşturup | İbrâhim Paşa’nın 1818’de Necid’e yaptığı askerî seferle Dir‘iye tahrip edilerek",
+   "oneri": {},
+   "not": "[sira 3015] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). Yıl düzeyi: 1744-01-01 yıl beyanı; 1818-09-09 günü (Dir‘iye teslimi) TDV'de yok, teyitsiz.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1824-06-01",
+   "t": "1891-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "Türkî b. Abdullah, 1824’te geri gelerek … Riyad’ı merkez edindi | Reşîdîler … Suûdîler’i 1891’de Riyad’dan çıkarıp Küveyt’e çekilmek zorunda bıraktılar",
+   "oneri": {},
+   "not": "[sira 3016] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). Yıl düzeyi; f gün 06-01 teyitsiz. 🔴 Tutarlılık: suud-ikinci künye t 1891-01-24, veri t 1891-01-01 — KASA eşitlesin (TDV gün vermiyor).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "s",
+   "d": "sammar",
+   "f": "1891-01-01",
+   "t": "1902-01-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid ; TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Reşîdîler … Suûdîler’i 1891’de Riyad’dan çıkarıp Küveyt’e çekilmek zorunda bıraktılar | Abdülazîz’in 15 Ocak 1902’de şehri ele geçirmesiyle sonuçlandı",
+   "oneri": {},
+   "not": "[sira 3017] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). f yıl, t gün (Riyad'ın alınışı). sammar künye f 1835 (ölçüldü), kapsıyor.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1902-01-15",
+   "t": "1932-09-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Abdülazîz’in 15 Ocak 1902’de şehri ele geçirmesiyle sonuçlandı | Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3018] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). f gün; t yıl (1932-09-18 günü mevcut OH kaynağında).",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1818-09-09",
+   "t": "1824-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad ; TDV İslâm Ansiklopedisi, «Necid», https://islamansiklopedisi.org.tr/necid",
+   "alinti": "bölge 1818’de Osmanlı denetimine girdi | Türkî b. Abdullah, 1824’te geri gelerek … Riyad’ı merkez edindi",
+   "oneri": {},
+   "not": "[sira 3019] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). v: Mısır (İbrâhim Paşa) — TDV «Necid»: «Necid, Cidde ve Habeş İbrâhim Paşa’nın idaresine verildi» (yıl aynı paragrafta: 1818, yıl bağlamdan); İbrâhim 1819'da döndü, idare zayıfladı (ic_not). Yıl düzeyi.",
+   "uc": "f+t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1417",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Riyad», https://islamansiklopedisi.org.tr/riyad",
+   "alinti": "Abdülazîz 1932’de Suudi Arabistan Krallığı’nı kurduğunda Riyad’ı başşehir yaptı",
+   "oneri": {},
+   "not": "[sira 3020] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (TDV Necid / Riyad, Necid merkezi). ÜLKE DÜZEYİ; yıl (gün mevcut OH kaynağında). t pencere ucu.",
+   "uc": "f"
+  }
+ ],
+ "Rumeli Hisarı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1735",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3021] [KÜME K05] küme ajanı ülke düzeyinde teyit eder (TBMM K05 ASKIDA).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1735",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1452-08-31",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Rumelihisarı», https://islamansiklopedisi.org.tr/rumelihisari",
+   "alinti": "yapının Receb 856 (Temmuz-Ağustos 1452) tarihinde tamamlandığı belirtilmektedir",
+   "oneri": {
+    "f": "1452-07-18"
+   },
+   "not": "[sira 3022] [alıntı ham metinden, sayfa.py] Kitâbe Receb 856'yı verir; 1452-08-31 bu aralığın DIŞINDA (Receb 856 ≈ 18 Temmuz – 16 Ağustos 1452; hicrî kural: kesişimin ilk günü, tablo denetimi gerekli). 31 Ağustos kronik geleneğidir (Dukas inşa başlangıcını Mart 1452 sonu verir — TDV) → ic_not. t 1920-04-23: İstanbul 1918-11-13 → 1923-10-06 İtilaf işgalinde; Mersin emsali d: osmanli + isg itilaf, TBMM teslimi 1923-10-06 — K05 ASKIDA, öneri yazılmadı.",
+   "uc": "f"
+  }
+ ],
+ "Solnok (Szolnok)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1946-02-01",
+   "hukum": "ONERI",
+   "kaynak": "atlas künyeleri (devletler.js) — kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "bolunme": "macaristan-halk-cumhuriyeti 1918-11-16 → 1919-03-21 · macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 · sonra macaristan-naiplik; 1919 Rumen işgali (isg romanya) günleri kaynakla"
+   },
+   "not": "[sira 3023] Künye tutarlılığı önerisi: macaristan-halk-cumhuriyeti (f 1918-11-16, t 1919-03-21) ve macar-sovyet-cumhuriyeti (f 1919-03-21, t 1919-08-01) künyeleri VAR (ölçüldü), Solnok zinciri ikisini atlıyor; Szolnok 1919'da Tisza cephesindeydi (Rumen işgali — gün kaynakla bulunmalı). Kaynak turu yapılmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1552-09-04",
+   "t": "1685-10-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Macaristan Savunma Bakanlığı resmî sitesi, «The Unsuccessful Ottoman Siege of Eger – September 4–October 18, 1552», https://honvedelem.hu/hirek/the-unsuccessful-ottoman-siege-of-eger-september-4-october-18-1552-1552.html",
+   "alinti": "after a brief siege captured (on 4 September) the castle of Szolnok",
+   "oneri": {},
+   "not": "[sira 3024] [alıntı ham metinden, sayfa.py] yıl bağlamdan (başlık ve paragraf 1552 seferi). Resmî devlet sayfası, akademik değil — zayıf; akademik ikinci kaynak önerilir (TARAYICI: Andrási Gyula, «A szolnoki vár 1552. évi ostroma», SZTE tez, diploma.bibl.u-szeged.hu/id/eprint/111414). t 1685-10-12 teyitsiz burada — gün komşu satırın kaynağından: Bánlaky MEK 09477 0017/1402. TDV szolnok/solnok slugları yok.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1550-09-15",
+   "t": "1552-09-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3025] DIGER — mevcut kaynak Bánlaky (MEK 09477); sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1685-10-12",
+   "t": "1918-11-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3026] DIGER — mevcut kaynak Bánlaky (MEK 09477); sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1526-11-10",
+   "t": "1541-08-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3027] DIGER — mevcut kaynak MTA History of Transylvania; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1541-08-29",
+   "t": "1550-09-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3028] DIGER — mevcut kaynak MTA / Bánlaky; sınanmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "1946. évi I. törvénycikk Magyarország államformájáról, https://net.jogtar.hu/ezer-ev-torveny?docid=94600001.TV",
+   "alinti": "2. § (1) Magyarország köztársaság.",
+   "oneri": {},
+   "not": "[sira 3029] [alıntı ham metinden, sayfa.py] yıl bağlamdan (kanun başlığı 1946. évi I. törvénycikk). ÜLKE DÜZEYİ; gün 02-01 sayfada okunmadı (teyitsiz). t teyitsiz.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1784",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3030] doha.mfa.gov.hu çekilemedi (SSL sertifika hatası) — çekilemedi ≠ yok.",
+   "uc": ""
+  }
+ ],
+ "Fornoz (Fourni)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1823",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1521-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sakız Adası», https://islamansiklopedisi.org.tr/sakiz-adasi",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3031] TDV `fornoz` slugu yok; Fornoz yalnız TDV «Sakız Adası»nda ada listesinde («Koyun adaları, Sisam … Fornoz, Kalari ile … Saruhan adaları»), tarih yok. Sakız'da Ceneviz Maona 1346-1566 (TDV); Fornoz'un Sakız'a mı Nikarya'ya mı bağlı olduğu ve 1521 kaynakta yok. ABİ MERKEZ adayı Sakız ise t 1566-04-14 olur (TDV: «24 Ramazan 973 / 14 Nisan 1566») — bağı gösteren kaynak bulunamadı, öneri yazılmadı.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1823",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1923-07-24",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "kural uygulaması: Ege adaları emsali (DA-BRIEF Sisam; KARARLAR gece-17 (c) ve gece-25 Nikarya) — Fornoz'a özgü kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "f": "1914-02-13"
+   },
+   "not": "[sira 3032] Londra 1913 Ege adalarını devretmedi; s: yunanistan 1914-02-13 Büyük Devletler notasından (Yunanistan adayı yönetiyordu). Lozan 1923-07-24 ic_not. Güçlü olmayan ONERI: kural uygulaması.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1823",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1521-01-01",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "kural uygulaması: Ege adaları emsali (DA-BRIEF Sisam; KARARLAR gece-17 (c) ve gece-25 Nikarya) — Fornoz'a özgü kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 3033] d: osmanli 1914-02-13'te biter (isg yunanistan katmanı altında). f 1521 teyitsiz (BULUNAMADI kısmı: TDV'de Fornoz fetih yılı yok).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1823",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1912-07-17",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "kural uygulaması: Ege adaları emsali (DA-BRIEF Sisam; KARARLAR gece-17 (c) ve gece-25 Nikarya) — Fornoz'a özgü kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 3034] isg t → 1914-02-13. f 1912-07-17 Serbest Nikarya ilanı günüdür; Fornoz'un bu harekete katıldığına dair kaynak YOK (KARARLAR: Nikarya'da 1912-07-17 → Serbest Nikarya, künye yok; Yunan donanması isg 1912-11) — f kaynaksız.",
+   "uc": ""
+  }
+ ],
+ "Sokotra": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1919",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1507-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3035] TDV `sokotra`, `sukutra`, `mehre` slugları yok. Nebhânî (Uman iç bölgesi hanedanı) ile Sokotra bağı hiçbir kaynakta görülmedi — ŞÜPHELİ; ada Kışn Mehrî sultanlığına (Âl-i Afrar; künye mahra-sultanligi f 1511) bağlıydı (ipucu, kaynaksız). TARAYICI: EI2 «Suḳuṭra» (Brill).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1919",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1507-01-01",
+   "t": "1511-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3036] Bakılan: yukarıdaki TDV slugları. Portekiz 1507 işgali / 1511 terki için akademik kaynak okunmadı. TARAYICI: EI2 «Suḳuṭra».",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1919",
+   "alan": "s",
+   "d": "guney-yemen",
+   "f": "1967-11-30",
+   "t": "1990-05-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "1967-1969 yıllarında Aden ve Güney Yemen … Millî Kurtuluş Cephesi tarafından yönetildi",
+   "oneri": {},
+   "not": "[sira 3037] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ, yıl; gün 11-30 teyitsiz. t teyitsiz (aşağıdaki satır).",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1919",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "Güney Yemen, Sovyetler Birliği’nin de desteklemesiyle 22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "[sira 3038] [alıntı ham metinde «22 Mayıs 1990» eşleşmesiyle doğrulandı, sayfa.py; cümlenin tamamı mevcut kaynak alanından] ÜLKE DÜZEYİ. t pencere ucu.",
+   "uc": "f"
+  }
+ ],
+ "Mîyandoab": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3039] [KÜME K20] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tebriz», https://islamansiklopedisi.org.tr/tebriz",
+   "alinti": "İlhanlılar’ın ardından Çobanlı, Altın Orda, Muzafferîler ve Celâyirliler’in hâkimiyetine girdi | 1386’da Tebriz’i savaşsız ele geçiren Timur",
+   "oneri": {
+    "bolunme": "cobaniler 1340-01-01 → 1357-01-01 (künye cobaniler f 1335-11-30, t 1357-01-01) · celayirli ~1360 → 1386 (gün kaynakla)"
+   },
+   "not": "[sira 3040] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Tebriz/Merâga (TDV «Merâga»: Merâga sırasıyla Celâyirli, Timurlu, Karakoyunlu, Akkoyunlu, Safevî hâkimiyetine girdi — Mîyandoab Merâga'ya bağlı nahiye; mevcut kaynak satırı da «gün komşudan: Merâga»). TDV `miyandoab` slugu yok. celayirli 1340'tan yazılmış; TDV Celâyirli'den önce Çobanlı (ve kısa Altın Orda/Muzafferî) dönemi verir; yıl yok. t 1386 KAYNAKLI (yıl).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tebriz», https://islamansiklopedisi.org.tr/tebriz",
+   "alinti": "1386’da Tebriz’i savaşsız ele geçiren Timur şehrin idaresini ertesi yıl oğlu Mîrân Şah’a",
+   "oneri": {},
+   "not": "[sira 3041] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Tebriz/Merâga (TDV «Merâga»: Merâga sırasıyla Celâyirli, Timurlu, Karakoyunlu, Akkoyunlu, Safevî hâkimiyetine girdi — Mîyandoab Merâga'ya bağlı nahiye; mevcut kaynak satırı da «gün komşudan: Merâga»). TDV `miyandoab` slugu yok. f yıl. t teyitsiz: TDV «Şehir, 1408’de Timurlu Ebû Bekir Mirza’nın ve 1410’da Ahmed Celâyir’i yenen Karakoyunlu Yûsuf’un eline geçti» — 1408-04-13 (Serdrûd) TDV ile birebir değil, ic_not.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tebriz», https://islamansiklopedisi.org.tr/tebriz",
+   "alinti": "1469’da Uzun Hasan, Tebriz’i Akkoyunlular’ın başşehri yaptı",
+   "oneri": {},
+   "not": "[sira 3042] [alıntı ham metinden, sayfa.py] ABİ MERKEZ: Tebriz/Merâga (TDV «Merâga»: Merâga sırasıyla Celâyirli, Timurlu, Karakoyunlu, Akkoyunlu, Safevî hâkimiyetine girdi — Mîyandoab Merâga'ya bağlı nahiye; mevcut kaynak satırı da «gün komşudan: Merâga»). TDV `miyandoab` slugu yok. f yıl (04-01 teyitsiz). t teyitsiz: TDV «1502’de Şah İsmâil tarafından Safevî başşehri yapılan Tebriz» — safevi künye f 1501-07-01 ile 1 yıl fark, ic_not (başşehir yapılış ≠ fetih).",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tebriz», https://islamansiklopedisi.org.tr/tebriz ; TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3043] ABİ MERKEZ: Tebriz/Merâga (TDV «Merâga»: Merâga sırasıyla Celâyirli, Timurlu, Karakoyunlu, Akkoyunlu, Safevî hâkimiyetine girdi — Mîyandoab Merâga'ya bağlı nahiye; mevcut kaynak satırı da «gün komşudan: Merâga»). TDV `miyandoab` slugu yok. TDV Tebriz Safevî için yalnız «1502’de … başşehri yapılan» der (fetih günü değil); Merâga sırayı verir, tarih yok. f 1501-07-01 teyitsiz. t K25 kümesinde.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3044] [KÜME K25] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3045] [KÜME K26] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3046] [KÜME K24] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1585-09-25",
+   "t": "1603-10-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "941 (1534) ve 993 (1585) yıllarında iki defa Osmanlılar’ın eline geçen şehir",
+   "oneri": {},
+   "not": "[sira 3047] [alıntı ham metinden, sayfa.py] ABİ MERKEZ Merâga, yıl; gün 09-25 teyitsiz. t teyitsiz (TDV: «I. Abbas zamanında (1587-1629) tekrar Safevîler’e bağlanan Merâga» — yıl yok). Not: TDV 941/1534 ilk Osmanlı dönemini de verir; Mîyandoab zincirinde 1534 dilimi yok — kısa Irakeyn dilimi, ONERI adayı (gün kaynakla).",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2054",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1725-07-28",
+   "t": "1730-08-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3048] DIGER — mevcut kaynak Bilgili 2016 (TD 909); sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Ammâre": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2118",
+   "alan": "s",
+   "d": "irak-kralligi",
+   "f": "1921-08-23",
+   "t": "1958-07-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Faysal I», https://islamansiklopedisi.org.tr/faysal-i",
+   "alinti": "Faysal 23 Ağustos 1921 tarihinde tahta çıktı",
+   "oneri": {},
+   "not": "[sira 3049] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ (Musul vilayeti kararı ile aynı gün). t 1958-07-14 teyitsiz. TDV «Amâre»: «1915-1932 yıllarında İngiliz manda yönetiminde kaldı» ic_not.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2118",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1700-01-01",
+   "t": "1915-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Amâre», https://islamansiklopedisi.org.tr/amare (İdris Bostan)",
+   "alinti": "Amâre, İngiltere’nin Irak harekâtından sonra 1915-1932 yıllarında İngiliz manda yönetiminde kaldı",
+   "oneri": {
+    "t": "1921-08-23",
+    "isg_ekle": "ingiltere 1915-01-01 [yalnız yıl] → 1921-08-23"
+   },
+   "not": "[sira 3050] [alıntı ham metinden, sayfa.py] Levant/Irak kuralı (DA-BRIEF Musul vilayeti; Levant 1917-1921): işgal boyunca d: osmanli + isg ingiltere, s: irak-kralligi 1921-08-23. Veri d'yi 1915-01-01'de kesip 1915-1921 arasını boş bırakıyor. İşgal günü TDV'de yok (yalnız yıl; Basra 22 Kasım 1914 — TDV «Basra»). f 1700 yıl beyanı TDV ile uyumlu: «XVII. yüzyılda bir köy görünümünde olan Amâre»; sancak merkezi XIX. yy sonu, 1862 Nâmık Paşa ordugâhı (ic_not).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2118",
+   "alan": "s",
+   "d": "irak-cumhuriyeti",
+   "f": "1958-07-14",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3051] DIGER — mevcut kaynak LoC Iraq Country Study; sınanmadı.",
+   "uc": ""
+  }
+ ],
+ "Muhammere": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2160",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1812-01-01",
+   "t": "1925-10-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Haz‘al Han», https://islamansiklopedisi.org.tr/hazal-han",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3052] f 1812 kaynakta yok: TDV `muhammere` slugu yok; TDV «Haz‘al Han»: «Nisan 1898’de İran Devleti onun şeyhliğini onayladı», «19 Nisan 1925’te … tutuklandı … Muhammere de İran’da merkezî idarenin yönetimine girmiş oldu». Muhammere Şeyhliği (Benî Kâ‘b/Muhaysın) yarı özerk; Osmanlı iddiası 1847 Erzurum'a kadar (ipucu, okunmadı). t ülke düzeyi Kaçar sonu (K24 kümesi kapsamı dışında, okunmadı).",
+   "uc": ""
+  }
+ ],
+ "Bîrcend": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1337-09-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3053] [KÜME K20] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3054] TDV `bircend` slugu yok. TDV «Serbedârîler»: 1337-09-09 Sebzevâr'ın alınış günüdür («12 Safer 738 / 9 Eylül 1337»); 745/1344'te Serbedâr sahası «Câm’dan Damgan’a, Habişan’dan Türşiz’e» — Kûhistan/Bîrcend anılmıyor. Bîrcend'in 14. yy sahibi (Kert? yerel Kûhistan melikleri?) kaynakta yok. TARAYICI: Encyclopaedia Iranica «Birjand» (iranicaonline.org/articles/birjand — denenmedi).",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "Timur 783’te (1381) Serbedârîler’in başşehri Sebzevâr üzerine yürüdüğünde Hâce Ali onun hizmetine girerek",
+   "oneri": {},
+   "not": "[sira 3055] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (Horasan/Sebzevâr) — Bîrcend'e özgü tanıklık yok. f yıl; Serbedâr Timur'a tâbi olarak 788 (1386)'ya dek sürdü (TDV) — ic_not. t 1507-05-24 teyitsiz.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3056] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. t yıl (12-02 Merv günü teyitsiz). f teyitsiz: TDV «Bölge toprakları önce Şeybânî Han’a bağlı Özbek göçebeleri tarafından işgal edildi» (yıl yok).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3057] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. f yıl. t K25 kümesinde.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3058] [KÜME K25] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3059] [KÜME K26] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2163",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3060] [KÜME K24] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  }
+ ],
+ "Turbet-i Câm": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1337-09-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3061] [KÜME K20] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "Bu esnada Câm’dan Damgan’a, Habişan’dan Türşiz’e geniş bir saha Serbedârîler’in hâkimiyeti altındaydı",
+   "oneri": {
+    "f": "1344-05-15"
+   },
+   "not": "[sira 3062] [alıntı ham metinden, sayfa.py] «Bu esnada» = Mes‘ûd'un ölümü (745/1344, aynı paragraf — yıl bağlamdan). f 1337-09-09 Sebzevâr'ın günüdür, Câm'ın değil. Hicrî 745 ∩ 1344 kesişiminin ilk günü ≈ 1344-05-15 (tablo denetimi gerekli). 1337-1344 arası: Câm Herat Kertlerine komşu, Kert–Serbedâr savaşını «Kert Emîri Muizzüddin Hüseyin kazandı» (TDV) — kert künyesi (1244-1389) adayı, kaynaksız → BEYANLI. Zayıf öneri.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "Timur 783’te (1381) Serbedârîler’in başşehri Sebzevâr üzerine yürüdüğünde Hâce Ali onun hizmetine girerek",
+   "oneri": {},
+   "not": "[sira 3063] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (Horasan/Sebzevâr) — Türbet-i Câm'e özgü tanıklık yok. f yıl; Serbedâr Timur'a tâbi olarak 788 (1386)'ya dek sürdü (TDV) — ic_not. t 1507-05-24 teyitsiz.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3064] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. t yıl (12-02 Merv günü teyitsiz). f teyitsiz: TDV «Bölge toprakları önce Şeybânî Han’a bağlı Özbek göçebeleri tarafından işgal edildi» (yıl yok).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3065] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. f yıl. t K25 kümesinde.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3066] [KÜME K25] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3067] [KÜME K26] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2224",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3068] [KÜME K24] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  }
+ ],
+ "Bocnûrd": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1337-09-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3069] [KÜME K20] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1381-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "Togay Timur bozguna uğradı … (23 Şâban 742 / 1 Şubat 1342). Câcerm, Damgan",
+   "oneri": {
+    "f": "1342-02-01"
+   },
+   "not": "[sira 3070] [alıntı ham metinden, sayfa.py] TDV: Gürgân zaferinden sonra «Câcerm, Damgan, Simnân ile Togay Timur’un başşehri Gürgân’ı ele geçiren Serbedârîler». Bocnûrd Câcerm'e komşu (ABİ MERKEZ adayı Câcerm — bağı gösteren kaynak yok, BEYANLI). 1337-1342 bölge Togay Timur elinde (künyesi ölçülmedi). f 1337-09-09 Sebzevâr'ın günüdür. Zayıf öneri.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1381-01-01",
+   "t": "1507-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Serbedârîler», https://islamansiklopedisi.org.tr/serbedariler",
+   "alinti": "Timur 783’te (1381) Serbedârîler’in başşehri Sebzevâr üzerine yürüdüğünde Hâce Ali onun hizmetine girerek",
+   "oneri": {},
+   "not": "[sira 3071] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ (Horasan/Sebzevâr) — Bocnûrd'e özgü tanıklık yok. f yıl; Serbedâr Timur'a tâbi olarak 788 (1386)'ya dek sürdü (TDV) — ic_not. t 1507-05-24 teyitsiz.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3072] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. t yıl (12-02 Merv günü teyitsiz). f teyitsiz: TDV «Bölge toprakları önce Şeybânî Han’a bağlı Özbek göçebeleri tarafından işgal edildi» (yıl yok).",
+   "uc": "t"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan», https://islamansiklopedisi.org.tr/horasan",
+   "alinti": "Şah İsmâil 916’da (1510) Şeybânî Han’ı öldürdü ve Horasan’ı ele geçirdi",
+   "oneri": {},
+   "not": "[sira 3073] [alıntı ham metinden, sayfa.py] BÖLGE DÜZEYİ. f yıl. t K25 kümesinde.",
+   "uc": "f"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3074] [KÜME K25] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3075] [KÜME K26] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2228",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 3076] [KÜME K24] küme ajanı ülke düzeyinde teyit eder.",
+   "uc": ""
+  }
+ ]
+}
