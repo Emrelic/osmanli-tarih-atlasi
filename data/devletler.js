@@ -3353,7 +3353,7 @@ window.DEVLETLER = [
 },
 // HAYALET-KUNYE-1008-K · f 1281 → 1401: TDV `gana` «XV. yüzyılda kuzeydeki Dagomba ve Mamprusîler’in kurduğu devletler takip etti». ⚠️ Britannica 'Dagomba' XIV. yy der (Z3) — ÇELİŞKİ, TDV esas (§4). Kronolojinin 1281 «teşekkül» maddesi kaynaksızdı.
 { id:"dagbon", ad:"Dagbon Krallığı (Dagomba)", tur:"krallik", bolge:"bati-afrika",
-  f:"1401-01-01", t:"1899-01-01", kesinlik:{f:"yuzyil"}, baskent:"Yendi",
+  f:"1401-01-01", t:"1899-11-14", ic_not_t:"Anglo-Alman antlaşması 1899-11-14; Hertslet, 3. basım 1909; Yendi adı geçmiyor, doğu yarı çıkarım · BEYANLI (gece-128, KASA PAZAR 6 Kasım 2026)", kesinlik:{f:"yuzyil"}, baskent:"Yendi",
   ozet:"Dagomba halkının Ya Naa unvanlı hükümdarlarca yönetilen krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Yendi.",
   kronoloji:[
@@ -4068,7 +4068,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"torva", ad:"Torva Krallığı (Khami)", tur:"krallik", bolge:"guney-afrika",
-  f:"1450-01-01", t:"1683-01-01", baskent:"Khami",
+  f:"1450-01-01", t:"1684-01-01", ic_not_t:"[yalnız yıl] LAB 89dc439b1 (KASA PAZAR 6 Kasım 2026)", baskent:"Khami",
   ozet:"Büyük Zimbabve'nin ardılı olarak Butua'da kurulan, Khami taş yapılarıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Büyük Zimbabve ardılı; başkenti Khami; Rozvi 1683'te yıktı.",
   kronoloji:[
@@ -4079,7 +4079,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"rozvi", ad:"Rozvi İmparatorluğu (Changamire)", tur:"imparatorluk", bolge:"guney-afrika",
-  f:"1684-01-01", t:"1834-01-01", baskent:"Danangombe",
+  f:"1684-01-01", t:"1840-01-01", ic_not_t:"GENİŞLET [yalnız yıl] LAB 89dc439b1; BEYANLI YAKLAŞIKLIK: TDV 1830'lar; Ndebele'nin Limpopo kuzeyine yerleşmesi ~1838–40; Beach 1980 okunmadı (gece-128, KASA PAZAR 6 Kasım 2026)", baskent:"Danangombe",
   ozet:"Changamire Dombo'nun Portekizlileri Zimbabve platosundan atarak kurduğu imparatorluk. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Changamire Dombo'nun devleti; merkezi Danangombe; Ngoni akınları 1834.",
   kronoloji:[
@@ -18635,7 +18635,7 @@ window.DEVLETLER = [
     { odak_yer:["Vindhuk"], t:"1915-07-01", tur:"savas", b:"Otavi Muharebesi: Botha'nın Güney Afrika kuvvetleri kuzeydeki Alman direnişini kırdı.", kaynak:"https://en.wikipedia.org/wiki/South_West_Africa_campaign (ikincil); National Army Museum https://www.nam.ac.uk/explore/south-west-african-campaign" },
     { odak_yer:["Vindhuk"], t:"1915-07-09", tur:"son", b:"Khorab Antlaşması: Alman Schutztruppe Güney Afrika'ya şartsız teslim oldu.", kaynak:"SA History Online https://sahistory.org.za/node/65543 ; National Army Museum https://www.nam.ac.uk/explore/south-west-african-campaign" }
   ] },
-{ id:"alman-togo", ad:"Alman Togolandı", tur:"somurge", bolge:"bati-afrika", f:"1884-07-05", t:"1914-08-26", baskent:"Lome (Klein-Popo/Zébé'den)", ozet:"Nachtigal 5 Temmuz 1884'te Mlapa III ile antlaşma yaptı; Britanya-Fransa 7 Ağustos 1914'te işgale başladı, Almanlar 26 Ağustos 1914'te teslim oldu.", kaynak:"TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo) — «Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı»", ic_not:"DUNYA-1102 hücre 18 (KASA, 2 Kasım 2026): teyit tek kaynak (yıl). Önceki kaynak (Wikipedia Togoland/Togoland campaign (ikincil); Britannica, history of Togo; Grü) dayanak olamaz, değiştirildi. f yıl teyit, gün okunmadı; t: TDV 1914, gün okunmadı.", kronoloji:[
+{ id:"alman-togo", ad:"Alman Togolandı", tur:"somurge", bolge:"bati-afrika", f:"1884-07-05", t:"1919-06-28", ic_not_t:"Versay md. 119; TEK KURAL: Alman egemenliği hukuken 1919-06-28'de bitti, 1914-08-26'dan itibaren işgal (LAB UYGULA; KASA PAZAR 6 Kasım 2026)", baskent:"Lome (Klein-Popo/Zébé'den)", ozet:"Nachtigal 5 Temmuz 1884'te Mlapa III ile antlaşma yaptı; Britanya-Fransa 7 Ağustos 1914'te işgale başladı, Almanlar 26 Ağustos 1914'te teslim oldu.", kaynak:"TDV İslâm Ansiklopedisi, 'Togo' (islamansiklopedisi.org.tr/togo) — «Almanya, 1884 yılında Togo gölü civarındaki kabile reislerinden III. Mlapa ile bir himaye anlaşması imzaladı»", ic_not:"DUNYA-1102 hücre 18 (KASA, 2 Kasım 2026): teyit tek kaynak (yıl). Önceki kaynak (Wikipedia Togoland/Togoland campaign (ikincil); Britannica, history of Togo; Grü) dayanak olamaz, değiştirildi. f yıl teyit, gün okunmadı; t: TDV 1914, gün okunmadı.", kronoloji:[
     { odak_yer:["Lomé"], t:"1884-07-05", tur:"kurulus", b:"Nachtigal Mlapa III ile koruma antlasmasi imzaladi; Alman himayesi basladi.", kaynak:"Wikipedia Togoland (ikincil)" },
     { odak_yer:["Lomé"], t:"1897-01-01", tur:"antlasma", b:"Togo'nun Fransız Dahomeyi ile sınırı Almanya–Fransa anlaşmasıyla belirlendi (yıl; gün bulunamadı).", kaynak:"https://www.encyclopedia.com/places/africa/togo-political-geography/togo" },
     { odak_yer:["Lomé"], t:"1904-01-01", tur:"antlasma", b:"Togo'nun Britanya Altın Sahili ile sınırı Almanya–Britanya anlaşmasıyla kesinleştirildi (yıl; gün bulunamadı).", kaynak:"https://www.encyclopedia.com/places/africa/togo-political-geography/togo" },
