@@ -165,8 +165,8 @@
    "kaynak": [
     {
      "yol": "data/devirler.js",
-     "sha": "d2932e24f37ae6f3",
-     "bayt": 191217
+     "sha": "6b83b4e9a951fa61",
+     "bayt": 202784
     },
     {
      "yol": "data/devletler.js",
@@ -174,7 +174,7 @@
      "bayt": 6154842
     }
    ],
-   "bayt": 6346369
+   "bayt": 6357936
   },
   {
    "paket": "data/paket_06.js",
