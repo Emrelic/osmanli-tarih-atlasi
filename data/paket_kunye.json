@@ -113,11 +113,11 @@
     },
     {
      "yol": "data/olaylar_ek16.js",
-     "sha": "792cbeef7778e3c3",
-     "bayt": 134298
+     "sha": "b5af6fabb03d9702",
+     "bayt": 134971
     }
    ],
-   "bayt": 214558
+   "bayt": 215231
   },
   {
    "paket": "data/paket_04.js",
@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "3fc7b5a08cfebd2b",
-     "bayt": 6154842
+     "sha": "fc44c8ebfc7f9702",
+     "bayt": 6155149
     }
    ],
-   "bayt": 6357936
+   "bayt": 6358243
   },
   {
    "paket": "data/paket_06.js",
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "394afe80d6f5b23b",
-     "bayt": 2511469
+     "sha": "39384655a2e92100",
+     "bayt": 2512710
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -568,8 +568,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "68ff41bcf5fa2f75",
-     "bayt": 830555
+     "sha": "38159f006544749d",
+     "bayt": 836790
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -622,20 +622,20 @@
      "bayt": 22778
     }
    ],
-   "bayt": 5463523
+   "bayt": 5470999
   },
   {
    "paket": "data/paket_14.js",
    "kaynak": [
     {
      "yol": "data/yerlesimler_ek7.js",
-     "sha": "a02d21ed004a9aa7",
-     "bayt": 103636
+     "sha": "4a61844c1c4fe207",
+     "bayt": 114859
     },
     {
      "yol": "data/yerlesimler_ek8.js",
-     "sha": "af74add764ae3338",
-     "bayt": 103820
+     "sha": "a2229807b7745d53",
+     "bayt": 110055
     },
     {
      "yol": "data/yerlesimler_ek9.js",
@@ -778,7 +778,7 @@
      "bayt": 351735
     }
    ],
-   "bayt": 2299276
+   "bayt": 2316734
   },
   {
    "paket": "data/paket_15.js",
