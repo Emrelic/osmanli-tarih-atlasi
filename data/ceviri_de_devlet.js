@@ -1824,6 +1824,7 @@ Ceviri.ekle("de","devlet",{
 "shangshan":["Shangshan-Kultur", "de5e7b20"],
 "shewa":["Königreich Schoa (vor Menelik)", "48e034f3"],
 "shimao-kultur":["Shimao-Kultur (Shaanxi)", "811606ef"],
+"shs-devleti":["Staat der Slowenen, Kroaten und Serben (Država SHS)", "0aaa4cb5"],
 "shu-han":["Shu Han", "e624e7ba"],
 "sibir-hanligi":["Khanat Sibir", "ee49c3d2"],
 "sican":["Staat Sicán (Lambayeque)", "7e70337a"],

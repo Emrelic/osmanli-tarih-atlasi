@@ -1824,6 +1824,7 @@ Ceviri.ekle("es","devlet",{
 "shangshan":["Cultura de Shangshan", "de5e7b20"],
 "shewa":["Reino de Shewa (anterior a Menelik)", "48e034f3"],
 "shimao-kultur":["Cultura de Shimao (Shaanxi)", "811606ef"],
+"shs-devleti":["Estado de Eslovenos, Croatas y Serbios (Država SHS)", "0aaa4cb5"],
 "shu-han":["Shu Han", "e624e7ba"],
 "sibir-hanligi":["Janato de Siberia", "ee49c3d2"],
 "sican":["Estado de Sicán (Lambayeque)", "7e70337a"],
