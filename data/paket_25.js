@@ -40,7 +40,7 @@ window.OLAYLAR_OK104 = [
 //    `§4`in kuralı "gün bilinmiyorsa YYYY-01-01" — ama burada AY biliniyor,
 //    ve Ocak yazmak bilineni de silerdi. Ayın ilk günü seçildi ve seçim
 //    burada AÇIKÇA yazıldı; yıl ve ay TDV'den, gün bizim.
-{ t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
+{ kapsam:"ic", t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   b:"Leş'in (Alessio) Dukagjinler tarafından Venedik'e bırakılması",
   gun:"1393", yer:"Leş (Alessio)", yer_id:"Leş (Alessio)",
   kisiler:"Paul Dukagjin, Lek Dukagjin",
@@ -49,19 +49,19 @@ window.OLAYLAR_OK104 = [
 
 // ── POST-IT #4 · Kruja (Akçahisar) 1284 · 1344 · 1443 — KAYNAK: TDV `kruya`
 // Tarihler yalnız YIL veriyor ("1284", "1344", "1443") → YYYY-01-01 (gün teyitsiz).
-{ t:"1284-01-01", k:"siyaset", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"dis", bolge:2, t:"1284-01-01", k:"siyaset", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
   b:"Bizans, Anjou'dan Kruja'yı (Akçahisar), Draç'ı ve Avlonya'yı geri aldı",
   gun:"1284", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"II. Andronikos",
   d:"1271-1272'de Anjou'lu Charles'ın aldığı Draç ve Kruja, Charles'ın ölümünün ardından Bizans İmparatoru II. Andronikos tarafından yeniden alındı (TDV Kruya: 'Avlonya, Draç ve Kruya'yı yeniden aldı'). Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"kruya", duygu:["😐"] },
-{ t:"1344-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"dis", bolge:2, t:"1344-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
   b:"Sırplar Kruja'yı (Akçahisar), Berat'ı ve Avlonya'yı ele geçirdi",
   gun:"1344", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"Stefan Duşan",
   d:"TDV Kruya: '1344'te Sırplar Kruya, Berat ve Avlonya'yı ele geçirdi'. TDV Arnavutluk, Duşan'ın Arnavutluk'u 1343-1346 arasında işgal ettiğini, 1355'te imparatorluğunun çöküşüyle yerel beylerin güçlendiğini söyler. Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"kruya", duygu:["😐"] },
-{ t:"1443-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"ic", t:"1443-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
   b:"İskender Bey Kruja'yı (Akçahisar) ele geçirdi — Arnavut direnişi başlıyor",
   gun:"1443 (847)", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"İskender Bey",
@@ -70,7 +70,7 @@ window.OLAYLAR_OK104 = [
 
 // ── POST-IT #4 · Draç 1392 — Venedik. Yıl: Sufflay (Medieval Albania) + Men of Empire (Venedik tarafı);
 // TDV drac yılsız. Gün teyitsiz → 1392-01-01.
-{ t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
+{ kapsam:"dis", bolge:3, t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
   b:"Draç (Durrës) Thopia'dan Venedik'e geçti",
   gun:"1392", yer:"Draç", yer_id:"Draç",
   kisiler:"George Thopia",
@@ -79,7 +79,7 @@ window.OLAYLAR_OK104 = [
 
 // ── DRAC-1018 · Draç 1304 — Anjou'ya dönüş. TDV drac/arnavutluk bu aralığı anlatmaz;
 // yıl: Europange / Angevin Studies 'Albania presentation'. Gün teyitsiz → 1304-01-01.
-{ t:"1304-01-01", k:"siyaset", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ bolge:1, t:"1304-01-01", k:"siyaset", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Taranto'lu Philip Draç'ı (Durrës) yeniden Anjou yönetimine aldı",
   gun:"1304", yer:"Draç", yer_id:"Draç",
   kisiler:"Taranto'lu Philip (I. Philippe d'Anjou-Tarente)",
@@ -104,39 +104,39 @@ window.OLAYLAR_OK104 = [
 // ============================================================================
 window.OLAYLAR_P0036 = [
 
-{ t:"1463-01-01", kesinlik:"yil", k:"kurulus", etiket:["askeri","konu-askeri","konu-siyasi","konu-imar"], b:"Kilitbahir Kalesi'nin inşası — Çanakkale Boğazı'nın kontrolü", gun:"867 (1463) inşa görevi, 869 (1464-65) tamamlanma (Kritovulos, TDV) · Evliya Çelebi 856/1452 der", yer:"Kilitbahir, Çanakkale Boğazı", yer_id:"Kilitbahir", kisiler:"II. Mehmed (Fâtih)",
+{ kapsam:"ic", t:"1463-01-01", kesinlik:"yil", k:"kurulus", etiket:["askeri","konu-askeri","konu-siyasi","konu-imar"], b:"Kilitbahir Kalesi'nin inşası — Çanakkale Boğazı'nın kontrolü", gun:"867 (1463) inşa görevi, 869 (1464-65) tamamlanma (Kritovulos, TDV) · Evliya Çelebi 856/1452 der", yer:"Kilitbahir, Çanakkale Boğazı", yer_id:"Kilitbahir", kisiler:"II. Mehmed (Fâtih)",
   d:"Fâtih Sultan Mehmed, Çanakkale Boğazı'nın deniz geçişini denetim altında tutmak için Rumeli yakasında Kilitbahir Kalesi'ni yaptırdı; karşı (Anadolu) yakadaki Kal'a-i Sultâniyye ile birlikte boğazın en dar yerini topla tutan bir çift oluşturdu. Kalenin ne zaman yapıldığı konusunda iki rivayet vardır. Evliya Çelebi kalenin İstanbul'un fethinden önce, 856 (1452) yılında inşa edildiğini yazar. TDV İslâm Ansiklopedisi ise kaleyi fetihten sonra yapılmış kabul eder: dönemin tarihçisi Tursun Bey iki kalenin İstanbul'un fethinin ardından yapıldığını anlatır, Kritovulos da Gelibolu ve Bolayır valisi Yâkub Bey'in 867 (1463) yılında bu işle görevlendirildiğini ve inşaatın 869'da (1464-65) tamamlandığını bildirir. Kale, Kanûnî Sultan Süleyman döneminde tamir edilip bir kule eklenerek genişletildi (948/1541 tarihli kitâbe).", ic_not_d:"13 Eylül 2026 · KART-MADDE-CELISKI-0913: eski d 'henüz İstanbul'u almadan önce … inşa ettirdi' diyerek YALNIZ Evliya rivayetini veriyordu; eski ic_not_d 'fark madde metninde açıkça belirtilir' diyordu ama metinde yoktu. merak.js `canakkale-hisar-ve-zincir` kartıyla zıt düşüyordu. TDV `kilitbahir-kalesi` (200, gövde okundu) tanımı: 'Çanakkale Boğazı'nın Rumeli yakasında İstanbul'un fethinden sonra yapılmış kale.' Gövde: 'Evliya Çelebi, İstanbul'un fethinden hemen sonra yapıldığı tahmin edilen kalenin fetihten önce 856'da (1452) inşa edildiğini belirtir' · Kritovulos '867 (1463) … görevlendirildiğini, 869 (1464-65) … tamamlanmış olduğunu'. ⇒ TDV'nin tercihi fetih SONRASI; madde iki rivayeti okuyucuya söyler, TDV'ninkini ağırlıklı verir. 17 Eyl 2026: yerleşimle BİRLİKTE 1463'e alındı (KOSU10-SONRASI §5-0 · YAMA-0052B-DEVIR #1-2 · KOSU13-YAMA). Eski not: 't 1452-01-01 korundu, 1463'e taşımak kırılmayı maddesiz bırakır' — yerleşim de taşındığı için geçersiz. İZ (koşu sonrası, yerleşim): kur/d 1452 Evliya rivayetine dayanıyor, TDV'nin tercihiyle 1463/1465 olmalı; madde onunla birlikte taşınır. Ayrıca olaylar_ek.js 1366-08-01 ve 1376-09-01 maddeleri 'aynı tarihte elden çıkan/katılan yerleşimler: Kilitbahir' diyor — kur:1452 ile çelişik, o maddelerin metni ayrıca bakılmalı.",
   kaynak:"kilitbahir-kalesi", duygu:["🏛"] },
 
-{ t:"1884-05-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Berber'in Mehdî kuvvetlerinin eline geçmesi — Nil yolunun kesilmesi", gun:"Mayıs 1884", yer:"Berber, Sudan (Nil kıyısı)", yer_id:"Berber", kisiler:"Muhammed Ahmed el-Mehdî",
+{ kapsam:"ic", t:"1884-05-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"], b:"Berber'in Mehdî kuvvetlerinin eline geçmesi — Nil yolunun kesilmesi", gun:"Mayıs 1884", yer:"Berber, Sudan (Nil kıyısı)", yer_id:"Berber", kisiler:"Muhammed Ahmed el-Mehdî",
   d:"Sudan'da Mehdî hareketinin yayılması sürerken, Nil kıyısındaki Berber kasabası ve çevresi Mayıs 1884'te Mehdî'ye bağlı kuvvetlerin eline geçti.", ic_not_d:"TDV'nin `mehdiler--sudan` maddesine göre bu, Nil boyunca kuzeye giden ana yolun kesilmesine yol açtı — Hartum'daki General Gordon'un kuzeyle bağlantısını koparan kritik bir dönüm noktasıydı. Berber o güne kadar Mısır (Kavalalı hânedanı) tâbiliğinde bir sancaktı; TDV yalnız ay veriyor, gün belirtmiyor.",
   kaynak:"mehdiler--sudan", duygu:["😔"] },
 
 // UYGULA-OLAYLAR-0930 · UYGULA-YERLESIM-0930 M-5608 B4: Doha + Katar dolgusu 1868'den s:katar — maddesizdi.
-{ t:"1868-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"], b:"Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi", gun:"1868 sonbaharı", yer:"Doha, Katar", yer_id:"Doha (Katar)", kisiler:"Muhammed b. Sânî",
+{ t:"1868-01-01", kesinlik:"yil", k:"siyaset", kapsam:"ic", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"], b:"Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi", gun:"1868 sonbaharı", yer:"Doha, Katar", yer_id:"Doha (Katar)", kisiler:"Muhammed b. Sânî",
   d:"Bahreyn Şeyhliği ile Suud Emirliği adına bölgede vergi tahsildarlığı yapan Âl-i Sânî 1860'lardan itibaren Katar siyasetinde belirleyici oldu. Necid'deki Suud ailesi ile Bahreyn'deki Halîfe ailesi içindeki çekişmeler Katar'ı İngilizler için önemli kılınca İngiltere 1868 sonbaharında Katar'a gemi gönderdi ve Muhammed b. Sânî'yi Bahreyn emîrlerine vergi ödemeye mecbur bıraktı. Bu müdahale, Bağdat valisi Midhat Paşa'nın 1871 Lahsâ seferine giden süreci başlattı. Bu olayla Katar yarımadası Âl-i Sânî (Muhammed b. Sânî) yönetiminde ayrı bir birim olarak öne çıktı.",
   ic_not_t:"TDV katar: 'İngilizler … 1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar' — mevsim verir, ay/gün vermez ⇒ 1868-01-01 + kesinlik:yil (sonbahar metinde). ⚠️ TDV cümlesi Katar'ın BAHREYN nüfuzunda tutulduğunu söyler; yerleşim tarafının s:katar kararı bu cümleye değil Âl-i Sânî'nin 1860'lardaki yükselişine dayanıyorsa kimlik tartışması UYGULA-YERLESIM-0930'ındır.",
   kaynak:"katar · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Katar' (islamansiklopedisi.org.tr/katar) — açıldı, okundu", duygu:["⚓"] },
 
-{ t:"1913-07-29", k:"antlasma", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi","konu-diplomasi"], b:"Katar'dan Osmanlı feragati — Londra Sözleşmesi", gun:"29 Temmuz 1913", yer:"Londra, Katar (Doha)", yer_id:"Doha (Katar)", kisiler:"Şeyh Kāsım b. Sânî",
+{ kapsam:"ic", t:"1913-07-29", k:"antlasma", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi","konu-diplomasi"], b:"Katar'dan Osmanlı feragati — Londra Sözleşmesi", gun:"29 Temmuz 1913", yer:"Londra, Katar (Doha)", yer_id:"Doha (Katar)", kisiler:"Şeyh Kāsım b. Sânî",
   d:"29 Temmuz 1913'te Londra'da imzalanan İngiliz-Osmanlı sözleşmesiyle Osmanlı Devleti, Katar yarımadası üzerindeki bütün taleplerinden feragat etti; yarımadanın Şeyh Kāsım b. Sânî ve haleflerince yönetilmesi kabul edildi.", ic_not_d:"TDV'nin `katar` maddesine göre sözleşme resmen yürürlüğe girmedi ama fiilî durumu tescil etti — Osmanlı garnizonunun bölgeden tam çekilişi I. Dünya Savaşı ile tamamlandı. Doha (Bida) kaydında bu tarih zaten bir `v:` döneminin bitişi olarak duruyordu; bu madde o kırılmanın kaynağını taşır.",
   kaynak:"katar", duygu:["😔"] },
 
 // UYGULA-OLAYLAR-0930 (0081/H-0040): yukarıdaki başlık notunun "Gyula (Göle) 1566 için
 // TDV/akademik kaynak BULUNAMADI" hükmü AŞILDI — TDV `gyula`/`gole` slug'ları ölü (302) ama
 // olay YERİN değil KİŞİNİN maddesinde duruyor (CLAUDE.md §4, D217): TDV `pertev-pasa`.
-{ t:"1566-09-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Gyula (Göle) Kalesi'nin teslimi — Pertev Paşa'nın Tımışvar serhaddi seferi", gun:"15 Safer 974 (1 Eylül 1566)", yer:"Gyula (Göle), Tımışvar serhaddi", yer_id:"Gyula (Göle)", kisiler:"Pertev Paşa",
+{ kapsam:"ic", t:"1566-09-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Gyula (Göle) Kalesi'nin teslimi — Pertev Paşa'nın Tımışvar serhaddi seferi", gun:"15 Safer 974 (1 Eylül 1566)", yer:"Gyula (Göle), Tımışvar serhaddi", yer_id:"Gyula (Göle)", kisiler:"Pertev Paşa",
   d:"Kanûnî Sultan Süleyman'ın Zigetvar seferi sırasında Pertev Paşa, Tımışvar vilâyeti sınırındaki kalelerden Göle'yi (Gyula) almak üzere serdar tayin edildi; Tımışvar beylerbeyi ile Belgrad sancakbeyinin bütün kuvvetleri emrine verildi. Mayıs 1566'da yeniçeri, silâhdar ve topçularla İstanbul'dan ayrılan Pertev Paşa, bir aydan uzun süren kuşatmanın ardından Göle'yi ve çevresindeki birkaç kaleyi 1 Eylül 1566'da ele geçirdi. Savaşta yararlılık gösterenlerin tımar ve zeametleri artırıldı.",
   ic_not_t:"TDV pertev-pasa: '15 Safer 974'te (1 Eylül 1566) Göle ve civarındaki birkaç kaleyi bir aydan fazla süren kuşatmanın ardından ele geçirdi'. ⚠️ Harita kırılması Gyula d:1566-09-02 (yerlesimler_ek5.js, kaynaksız) — TDV günü 09-01; UYGULA-YERLESIM-0930'a bildirildi.",
   kaynak:"pertev-pasa", duygu:["⚔️"] },
 
 // POSTIT-86: Yanova (Ineu) 1566 fethi ve 1595 kaybı — maddesizdi, harita kırılmaları Değişmez 2 için.
-{ t:"1566-07-25", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Yanova (Ineu) Kalesi'nin alınması — Zigetvar seferi", gun:"25 Temmuz 1566", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"Pertev Paşa",
+{ kapsam:"ic", t:"1566-07-25", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"], b:"Yanova (Ineu) Kalesi'nin alınması — Zigetvar seferi", gun:"25 Temmuz 1566", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"Pertev Paşa",
   d:"Kanûnî Sultan Süleyman'ın Zigetvar seferi sırasında ikinci vezir Pertev Paşa Yanova Kalesi'ni ele geçirdi. Osmanlılar yere Yanova adını verdi; kale Yanova-Pankota sancağının merkezi oldu ve sonradan Tımışvar beylerbeyliğine bağlandı.",
   ic_not_t:"TDV yanova: '25 Temmuz'da ele geçirildi' (1566). Yıl Sigetvar seferi bağlamından gelir.",
   kaynak:"yanova", duygu:["⚔️"] },
 
-{ t:"1595-10-22", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Yanova (Ineu)'nın Erdel birliklerince işgali", gun:"22 Ekim 1595", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"György Borbély",
+{ kapsam:"ic", t:"1595-10-22", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Yanova (Ineu)'nın Erdel birliklerince işgali", gun:"22 Ekim 1595", yer:"Yanova (Ineu), Banat", yer_id:"Yanova (Ineu)", kisiler:"György Borbély",
   d:"Uzun Savaş'ta Habsburg'ların müttefiki Erdel birlikleri György Borbély komutasında Yanova kasabasını ve Erdöç palankasını işgal etti; kale Osmanlı elinden çıktı.",
   ic_not_t:"TDV yanova: '22 Ekim 1595'te işgal edildi'.",
   kaynak:"yanova", duygu:["😔"] },
@@ -267,7 +267,7 @@ window.OLAYLAR_SH110 = [
 // =====================================================================
 window.OLAYLAR_CUKUROVA_0907 = [
 
-  {
+  { kapsam:"ic",
     t: "1919-02-22",
     k: "kayip",
     etiket: ["isgal","konu-askeri"],
@@ -279,7 +279,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Mondros Mütarekesi'nin ardından İngiliz kuvvetleri Maraş'a girdi. İşgal sekiz ay sürdü; İngiltere ile Fransa arasındaki anlaşma gereği şehir 29 Ekim 1919'da Fransızlara devredildi.", ic_not_d:"TDV `kahramanmaras`: \\\"Mondros Mütarekesi'nin ardından İngilizler 22 Şubat 1919'da şehri işgal ettiler.\\\" ve \\\"İngiltere ile Fransa arasında yapılan antlaşma neticesinde Maraş ve çevresi Fransa'ya devredilince 29 Ekim 1919'da Fransızlar Maraş'a girdiler.\\\" ⚠️ Bu bir İŞGAL kaydıdır, egemenlik devri DEĞİL: Mondros bir mütarekedir, Sevr onaylanmamıştır."
   },
 
-  {
+  { kapsam:"ic",
     t: "1921-12-23",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -291,7 +291,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Ankara İtilâfnâmesi'nin (20 Ekim 1921) öngördüğü tahliye takvimi uyarınca Fransız kuvvetleri Kilis'ten çekildi. Şehir üç yıl önce, 6 Aralık 1918'de İngilizlerce işgal edilmiş, 29 Ekim 1919'da Fransızlara devredilmişti.", ic_not_d:"TDV `kilis`: \\\"Kilis, Mondros Mütarekesi'nin ardından 6 Aralık 1918 tarihinde İngilizler tarafından işgal edildi.\\\" · \\\"Bir yıldan fazla bir süre devam eden bu işgalden sonra İngilizler burayı 29 Ekim 1919'da Fransız kuvvetlerine terkettiler.\\\" · \\\"Nihayet 23 Aralık 1921'de Kilis'in kurtuluşu gerçekleşmiş oldu.\\\""
   },
 
-  {
+  { kapsam:"ic",
     t: "1921-12-25",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -303,7 +303,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasında Fransız kuvvetlerine karşı uzun bir savunma vermişti.", ic_not_d:"TDV `gaziantep`: \\\"17 Aralık 1918'de İngilizler şehre girdiler\\\" · \\\"Yaklaşık bir yıl süren işgalinin ardından Fransızlar ile yaptıkları anlaşma gereği burayı onlara terkettiler (5 Kasım 1919)\\\" · \\\"Antep halkı 1 Nisan 1920'den 7 Şubat 1921'e kadar Fransız kuvvetlerine karşı büyük bir mücadele verdi\\\" · \\\"Fransızlar Ankara Antlaşması'nın ardından 25 Aralık 1921'de şehri boşalttılar.\\\""
   },
 
-  {
+  { kapsam:"ic",
     t: "1921-12-27",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -315,7 +315,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı.", ic_not_d:"TDV `tarsus`: \"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed Ali Paşa, 17 Aralık 1918'de Fransız işgaline ve Ermeni çetelerinin zulmüne uğradı. Fransızlar, Ankara Antlaşması'yla 27 Aralık 1921'de şehri boşalttılar.\""
   },
 
-  {
+  { kapsam:"ic",
     t: "1922-01-03",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -327,7 +327,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Millî kuvvetler Mersin'e girdi; son Fransız birlikleri ertesi gün şehri terketti. Fransız çıkarması 17 Aralık 1918'de denizden yapılmıştı.", ic_not_d:"TDV `mersin`: \\\"17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı.\\\" · \\\"3 Ocak 1922'de millî kuvvetler Mersin'e girerek şehri kurtardı ve son Fransız kuvvetleri ertesi gün şehri terketti.\\\" ⚠️ TDV kurtuluşu 3 Ocak, son birliklerin ayrılışını 4 Ocak veriyor; atlas gövdeyi kurtuluş gününde çeviriyor ve fark burada BEYAN ediliyor."
   },
 
-  {
+  { kapsam:"ic",
     t: "1922-01-05",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],

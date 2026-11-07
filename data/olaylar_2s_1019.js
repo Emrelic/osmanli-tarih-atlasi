@@ -24,7 +24,7 @@
 // =====================================================================
 
 window.OLAYLAR_2S1019 = [
-{ t:"0330-05-11",
+{ bolge:1, t:"0330-05-11",
   k:"siyaset",
   onem:2,
   dunya:3,
@@ -38,7 +38,7 @@ window.OLAYLAR_2S1019 = [
   d:"Constantinus'un yeniden kurdurduğu Byzantion, günlerce süren törenlerle imparatorluğun yeni başşehri olarak açıldı. Atlasın Bizans (Doğu Roma) kaydı İstanbul'da bu günle başlar.",
   kaynak:"TDV `istanbul` — AYNEN: \"Meydanlar imparatorluğun çeşitli yerlerinden getirilen sanat eserleriyle süslendi ve nihayet 11 Mayıs 330’da günlerce süren eğlenceler içinde şehrin resmî açılış töreni yapıldı.\" · hassasiyet: GÜN" },
 
-{ t:"0969-07-01",
+{ bolge:1, t:"0969-07-01",
   k:"fetih",
   onem:2,
   dunya:2,
@@ -52,7 +52,7 @@ window.OLAYLAR_2S1019 = [
   d:"Fâtımî kumandanı Cevher es-Sıkıllî Mısır'daki İhşîdî hâkimiyetine son verip Fustat'a girdi ve kuzeydeki Menâh'ta yeni başşehrin, Kahire'nin, sarayını ve surlarını kurdurdu.",
   kaynak:"TDV `kahire` — AYNEN: \"Fâtımî Halifesi Muiz-Lidînillâh döneminde Mısır’daki İhşîdî hâkimiyetine son veren kumandan Cevher es-Sıkıllî Şâban 358’de (Temmuz 969) Fustat’a girdi\" · hicrî Şâban 358 (969-06-20..969-07-18, tablo) ∩ Temmuz 969 → kesişimin ilk günü · hassasiyet: AY" },
 
-{ t:"0990-03-31",
+{ bolge:1, t:"0990-03-31",
   k:"fetih",
   onem:1,
   dunya:1,
@@ -66,7 +66,7 @@ window.OLAYLAR_2S1019 = [
   d:"Ebü'z-Zevvâd, Ebû Tâhir İbrâhim ile oğlunu öldürüp Musul'u aldı; şehirde Büveyhîlere bağlı Ukaylî hânedanı kuruldu.",
   kaynak:"TDV `ukayliler` — AYNEN: \"Ebü’z-Zevvâd, Ebû Tâhir İbrâhim ve oğlunu öldürüp Musul’u ele geçirdi (380/990)\" · hicrî 380 ∩ 990 → kesişimin ilk günü 990-03-31 (tablo) · hassasiyet: YIL" },
 
-{ t:"1084-12-12",
+{ bolge:1, t:"1084-12-12",
   k:"fetih",
   onem:2,
   dunya:2,
@@ -80,7 +80,7 @@ window.OLAYLAR_2S1019 = [
   d:"Bir asırdan fazla Bizans elinde kalan Antakya'yı Anadolu Selçuklu hükümdarı Süleyman Şah aldı; direnen iç kale 12 Ocak 1085'te teslim oldu.",
   kaynak:"TDV `antakya` — AYNEN: \"Ancak kısa bir süre sonra 12 Aralık 1084’te Kutalmışoğlu Süleyman Şah şehri ele geçirdi, bir müddet direnen kale ise 12 Ocak 1085’te düştü.\" · hassasiyet: GÜN" },
 
-{ t:"1098-06-03",
+{ bolge:1, t:"1098-06-03",
   k:"kayip",
   onem:2,
   dunya:3,
@@ -94,7 +94,7 @@ window.OLAYLAR_2S1019 = [
   d:"Uzun kuşatmaya dayanan Antakya, Yağısıyan'ın kumandanı Fîruz'un ihanetiyle Haçlıların eline geçti. Kurulan Antakya Prinkepsliği İskenderun'u da içine aldı.",
   kaynak:"TDV `antakya` — AYNEN: \"Şehir Haçlılar’a 3 Haziran 1098’e kadar direndiyse de Yağısıyan’ın kumandanlarından Fîruz’un ihaneti sonucu zaptedildi\" · TDV `iskenderun` — AYNEN: \"Bu dönemde kurulan Antakya Prinkepsliği’nin sınırları içinde kalan İskenderun\" · hassasiyet: GÜN" },
 
-{ t:"1207-03-05",
+{ bolge:1, t:"1207-03-05",
   k:"fetih",
   onem:2,
   dunya:1,
@@ -108,7 +108,7 @@ window.OLAYLAR_2S1019 = [
   d:"Latinlerin İstanbul'u almasından sonra İtalyan Aldobrandini'nin eline geçen Antalya'yı, Latin idaresinden memnun olmayan Rumların da desteğiyle Anadolu Selçuklu sultanı I. Gıyâseddin Keyhusrev aldı.",
   kaynak:"TDV `antalya` — AYNEN: \"Nihayet 5 Mart 1207’de Latin idaresinden memnun olmayan Rumlar’ın da desteği ile fethi gerçekleştirdi.\" · hassasiyet: GÜN" },
 
-{ t:"1216-01-22",
+{ bolge:1, t:"1216-01-22",
   k:"fetih",
   onem:1,
   dunya:1,
@@ -122,7 +122,7 @@ window.OLAYLAR_2S1019 = [
   d:"1212'de Kıbrıs kralının desteğiyle yapılan isyan sonucu elden çıkan Antalya'yı I. İzzeddin Keykâvus yeniden fethetti ve valiliğini tekrar Mübârizüddin Ertokuş'a verdi.",
   kaynak:"TDV `antalya` — AYNEN: \"fakat 22 Ocak 1216’da İzzeddin Keykâvus tarafından yeniden fethedilerek valiliği tekrar Mübârizüddin Ertokuş’a verildi\" · hassasiyet: GÜN" },
 
-{ t:"1268-03-08",
+{ bolge:1, t:"1268-03-08",
   k:"fetih",
   onem:1,
   dunya:1,
@@ -136,7 +136,7 @@ window.OLAYLAR_2S1019 = [
   d:"Memlük sultanı I. Baybars Yafa'daki Haçlı hâkimiyetine son verdi, şehri tahrip ettirdi; iç kalenin ahşap ve mermerini Kahire'deki camisinin inşasına gönderdi.",
   kaynak:"TDV `yafa` — AYNEN: \"Nihayet 20 Cemâziyelâhir 666’da (8 Mart 1268) Memlük Sultanı I. Baybars, Yafa’daki Haçlı hâkimiyetine son verdi\" · hassasiyet: GÜN" },
 
-{ t:"1268-05-18",
+{ bolge:1, t:"1268-05-18",
   k:"fetih",
   onem:2,
   dunya:2,
@@ -150,7 +150,7 @@ window.OLAYLAR_2S1019 = [
   d:"Memlük ordusu genel hücumla Antakya surlarını aştı; 170 yıllık Haçlı prinkepsliği sona erdi ve İskenderun da yeniden İslâm topraklarına katıldı.",
   kaynak:"TDV `antakya` — AYNEN: \"18 Mayıs 1268’de yapılan bir genel hücum sonunda surlardan içeri girildi\" · TDV `iskenderun` — AYNEN: \"1268’de Memlükler’in Antakya Prinkepsliği’ne son vermesi üzerine yeniden İslâm topraklarına katılmıştır\" · hassasiyet: GÜN" },
 
-{ t:"1328-11-05",
+{ bolge:2, t:"1328-11-05",
   k:"siyaset",
   onem:2,
   dunya:1,
@@ -164,7 +164,7 @@ window.OLAYLAR_2S1019 = [
   d:"İlhanlı Anadolu valisi Demirtaş'ın Mısır'a kaçmasından sonra Konya yeniden Karamanoğullarının eline geçti. Şehir 1350'de Eretna'ya geçecekti.",
   kaynak:"TDV `konya` — AYNEN: \"Demirtaş’ın Mısır’a ilticasından sonra Konya tekrar Karamanoğulları’nın eline geçti (729/1328-29).\" · hicrî 729 ∩ 1328-29 → kesişimin ilk günü 1328-11-05 (tablo) · hassasiyet: YIL" },
 
-{ t:"1345-01-01",
+{ bolge:2, t:"1345-01-01",
   k:"fetih",
   onem:2,
   dunya:1,
@@ -182,7 +182,7 @@ window.OLAYLAR_2S1019 = [
   k:"fetih",
   onem:1,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Balçık (Balchik)",
   b:"Balçık ve Dobruca kıyısı Osmanlı idaresine girdi",
   gun:"Temmuz 1389'dan sonra",
@@ -192,7 +192,7 @@ window.OLAYLAR_2S1019 = [
   d:"Kosova zaferinin ardından Dobruca kıyısındaki Balçık Osmanlı idaresine girdi. Bölgeyi hemen ardından Eflak voyvodası Mircea işgal edecek, Osmanlı hâkimiyeti 1393'te yeniden kurulacaktı.",
   kaynak:"TDV `balcik` — AYNEN: \"Balçık bütün Dobruca ile birlikte Temmuz 1389’dan sonra Osmanlılar’ın idaresi altına girdi.\" · hassasiyet: AY (alt sınır)" },
 
-{ t:"1392-10-26",
+{ bolge:1, t:"1392-10-26",
   k:"fetih",
   onem:1,
   dunya:1,
@@ -206,7 +206,7 @@ window.OLAYLAR_2S1019 = [
   d:"Beş yıllık seferinde Mâzenderan'a giren Timur, Karatogân'da karşısına çıkan Mar'aşîleri Mâhâneser kalesine sıkıştırdı ve teslim aldı. Sârî ile Âmül'de büyük katliam yapıldı; Sârî Kiyâ Efrâsiyâb'ın oğlu İskender Şeyhî'ye verildi.",
   kaynak:"TDV `marasiler` — AYNEN: \"Mâhâneser Kalesi’ne çekilmek ve 8 Zilhicce 794 (26 Ekim 1392) tarihinde teslim olmak zorunda kaldılar\" · hassasiyet: GÜN" },
 
-{ t:"1412-01-01",
+{ bolge:1, t:"1412-01-01",
   kesinlik:"yil",
   k:"siyaset",
   onem:1,
@@ -236,7 +236,7 @@ window.OLAYLAR_2S1019 = [
   d:"Şeyh Bedreddin'in Eflak'a geçmesine yardım eden Candaroğlu İsfendiyar Bey'e karşı yürüyen Çelebi Mehmed Kastamonu'ya ilerledi ve İsfendiyar'ın çekildiği Sinop'u kuşattı. İsfendiyar Osmanlı hükümranlığını tanıdı; Ilgaz dağı sınır kabul edilerek Osmanlı'ya sığınmış oğlu Kasım Bey'e Çankırı ve çevresi verildi.",
   kaynak:"TDV `mehmed-i` — AYNEN: \"Mehmed önce şeyhin Eflak’e geçmesine yardım eden İsfendiyar Bey’e karşı yürüdü (820’nin [1417] başları).\" · TDV `candarogullari` — AYNEN: \"Ilgaz dağı sınır kabul edilerek Osmanlı himayesindeki Kasım Bey’e istediği yerler verildi.\" · TDV `cankiri` — AYNEN: \"Bu sırada İsfendiyaroğlu Kasım Bey Osmanlılar’a sığınınca Çelebi Mehmed Çankırı’yı kendisine verdi.\" · hassasiyet: hicrî yıl başı" },
 
-{ t:"1500-01-01",
+{ bolge:1, t:"1500-01-01",
   kesinlik:"yil",
   k:"fetih",
   onem:1,
@@ -255,7 +255,7 @@ window.OLAYLAR_2S1019 = [
   k:"fetih",
   onem:2,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Musul",
   b:"Bıyıklı Mehmed Paşa Musul, Sincar ve İmâdiye'yi Safevî'den aldı",
   gun:"1516 yazı (Mayıs 1516 Koçhisar zaferinden sonra, Mercidâbık'tan önce) — t ÜST SINIRDIR",
@@ -266,7 +266,7 @@ window.OLAYLAR_2S1019 = [
   d:"Koçhisar'da Kara Han'ı yenen Bıyıklı Mehmed Paşa Mardin'i kuşatırken çevredeki kaleleri Safevîlerden aldı: Musul, Ruha, Birecik ve Sincar ele geçirildi, İmâdiye ve öteki Kürt hâkimleri Osmanlı tâbiiyetini kabul etti. Mardin kalesi ise Paşa'nın Mercidâbık'tan dönüşünden sonra teslim alınacaktı.",
   kaynak:"TDV `biyikli-mehmed-pasa` — AYNEN: \"Bu arada Mardin muhasarası sürerken civardaki kalelerden Musul, Ruha, Birecik, Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi.\" · \"Ayrıca İmadiye, Suran, Çapakçur, Palu, Atak, Sason hâkimleri de Osmanlı tâbiiyetini kabul ettiler.\" · hassasiyet: aralık, t üst sınır" },
 
-{ t:"1523-06-06",
+{ bolge:1, t:"1523-06-06",
   k:"siyaset",
   onem:2,
   dunya:2,
@@ -280,7 +280,7 @@ window.OLAYLAR_2S1019 = [
   d:"Stockholm Kan Banyosu'ndan (1520) sonra Danimarka kralı II. Christian'a karşı ayaklanan Gustav Eriksson Vasa, Mayıs 1523'te Strängnäs'te toplanan İsveç Riksdag'ında 6 Haziran 1523'te kral seçildi. İsveç ve ona bağlı Finlandiya böylece 1397'den beri süren Kalmar Birliği'nden kesin olarak çıktı ve bağımsız İsveç Krallığı'nın Vasa dönemi başladı.",
   kaynak:"Encyclopedia of World Biography (Gale) 'Gustavus I' — AYNEN: \"On June 6 it elected Gustavus Vasa king.\" · hassasiyet: GÜN" },
 
-{ t:"1500-04-12",
+{ bolge:1, t:"1500-04-12",
   k:"siyaset",
   onem:1,
   dunya:1,
@@ -294,7 +294,7 @@ window.OLAYLAR_2S1019 = [
   d:"Görz (Gorizia) kontlarının son temsilcisi Leonhard 12 Nisan 1500'de Lienz'de öldü. Önceden yapılan veraset anlaşması gereği Lienz ve Puster vadisini içine alan ön kontluk Maximilian I'e geçerek Tirol'e katıldı.",
   kaynak:"Tiroler Landesarchiv 'Görzer Archivinventar' + NDB 'Leonhard, Graf von Görz' — birebir alıntı alınamadı, YENİDEN OKUNMALI · hassasiyet: GÜN" },
 
-{ t:"1375-01-01",
+{ bolge:1, t:"1375-01-01",
   k:"siyaset",
   onem:1,
   dunya:1,
@@ -308,7 +308,7 @@ window.OLAYLAR_2S1019 = [
   d:"Montfort-Feldkirch kolunun son kontu Rudolf, 1375'te bütün mülkünü Avusturya dükleri Habsburglara sattı; fiilî devir onun ölümüyle (1390) tamamlandı. Feldkirch, Vorarlberg'in Habsburg eline geçen ilk büyük parçası oldu.",
   kaynak:"HLS 'Montfort' — AYNEN: \"veräusserte der Letzte seines Geschlechts, Rudolf, 1375 den gesamten Besitz des Zweiges an die Herzöge von Österreich\" · hassasiyet: YIL" },
 
-{ t:"1451-01-01",
+{ bolge:1, t:"1451-01-01",
   k:"siyaset",
   onem:1,
   dunya:1,
@@ -322,7 +322,7 @@ window.OLAYLAR_2S1019 = [
   d:"Montfort-Bregenz mirasçısı Hochberglu Elisabeth 1451'de Bregenz kontluğunun yarısını Habsburglara sattı; kalan yarı 1523'te alındı. Bregenz böylece Habsburg Vorarlberg'inin parçası oldu.",
   kaynak:"Britannica 1911 'Bregenz' — 'acquired in 1451 and 1523' · hassasiyet: YIL (yeniden doğrulanmalı)" },
 
-{ t:"1526-12-05",
+{ bolge:2, t:"1526-12-05",
   k:"siyaset",
   onem:1,
   dunya:2,
@@ -336,7 +336,7 @@ window.OLAYLAR_2S1019 = [
   d:"Mohaç'ta II. Lajos'un ölümüyle boşalan Bohemya tacına Ekim 1526'da seçilen Habsburg Ferdinand'ı, Yukarı ve Aşağı Silezya zümreleri genel toplantıda imtiyazlarının teyidi kaydıyla 5 Aralık 1526'da kral, karısı Anna'yı kraliçe tanıdı. Silezya dükalıkları böylece Bohemya tacıyla birlikte Habsburg idaresine girdi.",
   kaynak:"Sněmy české I, belge 55 — AYNEN: \"v středu po sv. Barboře léta Páně 1526 … při obecném shromáždění\" · hassasiyet: GÜN" },
 
-{ t:"1550-06-12",
+{ bolge:1, t:"1550-06-12",
   k:"kurulus",
   onem:1,
   dunya:1,
@@ -350,7 +350,7 @@ window.OLAYLAR_2S1019 = [
   d:"İsveç kralı Gustav Vasa 1550'de Vantaa ırmağının ağzında, Reval (Tallinn) ile Baltık ticaretinde rekabet etmesi için yeni bir ticaret şehri olarak Helsinki'yi kurdurdu. Şehir 1640'ta bugünkü yerine, denize doğru taşındı.",
   kaynak:"historia.hel.fi '1550 – Founding Helsinki' — AYNEN: \"In 1550, the Swedish Crown founded a new city\" · hassasiyet: YIL" },
 
-{ t:"1633-01-01",
+{ bolge:1, t:"1633-01-01",
   k:"fetih",
   onem:1,
   dunya:1,
@@ -368,7 +368,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:1,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Sin (Sinj)",
   b:"Sin (Sinj) Kalesi'nin Venedik'e kaybı — Dalmaçya iç kesimi",
   gun:"Eylül 1686 [yalnız yıl teyitli; gün teyitsiz]",
@@ -382,7 +382,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:1,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Varadin (Petrovaradin)",
   b:"Varadin ve Baç'ın Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Harşan sonrası Bačka'dan çekiliş",
   gun:"Eylül 1687 (1 Eylül'den sonra) [gün teyitsiz]",
@@ -396,7 +396,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:1,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Ösek (Osijek)",
   b:"Ösek'in Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Slavonya'nın kaybı başladı",
   gun:"26 Eylül 1687",
@@ -410,7 +410,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:1,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Herseknovi (Herceg Novi)",
   b:"Herseknovi'nin Venedik'e kaybı — Kotor körfezinin ağzı",
   gun:"Eylül 1687 [yalnız yıl teyitli; gün teyitsiz]",
@@ -420,7 +420,7 @@ window.OLAYLAR_2S1019 = [
   d:"Mora Savaşı sırasında Venedik donanması ve müttefikleri 1687'de Kotor körfezinin ağzındaki Herseknovi kalesini kuşatıp aldı; şehir 1797'de Venedik Cumhuriyeti yıkılana dek Venedik'te kaldı.",
   kaynak:"Hrvatska enciklopedija 'Herceg Novi' — AYNEN: \"a 1687. opet je došao u mletački posjed\" · hassasiyet: YIL" },
 
-{ t:"1794-06-15",
+{ bolge:1, t:"1794-06-15",
   k:"siyaset",
   onem:1,
   dunya:2,
@@ -434,7 +434,7 @@ window.OLAYLAR_2S1019 = [
   d:"İhtilal Fransası'na karşı ayaklanan Paoli, İngiliz donanmasının desteğiyle adayı Fransız garnizonlarından temizledi; Corte'de toplanan konsülta Korsika'yı İngiliz kralına bağlayan bir anayasa kabul etti. Ada iki yıl Anglo-Korsika Krallığı olarak İngiliz genel valisi Gilbert Elliot'ın idaresinde kaldı.",
   kaynak:"TDV `korsika` — AYNEN: \"Ancak bu defa ada İngilizler’in eline geçmiş ve 1796’da tekrar Fransa’ya iade edilmiştir.\" · gün: Collectivité de Corse 'juin 1794' · hassasiyet: AY" },
 
-{ t:"1796-10-01",
+{ bolge:1, t:"1796-10-01",
   kesinlik:"ay",
   k:"siyaset",
   onem:1,
@@ -449,7 +449,7 @@ window.OLAYLAR_2S1019 = [
   d:"Bonapart'ın İtalya zaferleri ve İspanya'nın Fransa safına geçmesiyle Akdeniz'de sıkışan İngiltere, Korsika'yı tahliye etti. Anglo-Korsika Krallığı sona erdi ve ada yeniden Fransa'ya bağlandı.",
   kaynak:"TDV `korsika` — AYNEN: \"... 1796’da tekrar Fransa’ya iade edilmiştir.\" · hassasiyet: AY (ikincil kaynak), TDV YIL" },
 
-{ t:"1906-04-13",
+{ bolge:3, t:"1906-04-13",
   k:"fetih",
   onem:3,
   dunya:1,
@@ -463,7 +463,7 @@ window.OLAYLAR_2S1019 = [
   d:"Riyad'ı 1902'de geri alan Abdülazîz b. Suûd, 13 Nisan 1906'da Reşîdî emîri Abdülazîz b. Müt'ib'i yenip öldürdü. Bu savaşın ardından Kasîm bölgesini (Buraydâ, Uneyze) ele geçirdi; Reşîdîler bundan sonra yalnız Hâil ve çevresinde hüküm sürdü.",
   kaynak:"TDV `abdulaziz-b-suud` — AYNEN: \"13 Nisan 1906’da amansız düşmanı İbnü’r-Reşîd’in emîrini mağlûp ederek öldürdü\" · TDV `residiler` (Kasîm 1906) · hassasiyet: GÜN" },
 
-{ t:"1903-03-15",
+{ bolge:1, t:"1903-03-15",
   k:"fetih",
   onem:2,
   dunya:2,
@@ -481,7 +481,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:3,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Kemeran (Kamaran)",
   b:"Kemeran Adası İngilizlerce işgal edildi",
   gun:"1915 [yalnız yıl teyitli; gün teyitsiz]",
@@ -523,7 +523,7 @@ window.OLAYLAR_2S1019 = [
   k:"kayip",
   onem:2,
   dunya:1,
-  kapsam:"dis",
+  kapsam:"ic",
   yer_id:"Bihaç (Bihać)",
   b:"Avusturya-Macaristan ordusu direnişi kırarak Bihaç'ı aldı",
   gun:"18 Eylül 1878",

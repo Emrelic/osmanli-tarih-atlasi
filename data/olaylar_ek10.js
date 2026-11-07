@@ -89,7 +89,7 @@ window.OLAYLAR_EK10 = [
 // donanma harekâtıyla alındı. İki ayrı olay tek güne bindirilmiş.
 // Yerleşim tarihi düzeltmesi `yerlesimler.js`'e ait → `OTURUM-11-BALKAN.md §2`.
 
-{ t:"1479-08-01", k:"fetih", etiket:["toprak-kazanc","denizcilik","konu-askeri"],
+{ kapsam:"ic", t:"1479-08-01", k:"fetih", etiket:["toprak-kazanc","denizcilik","konu-askeri"],
   b:"İyon adalarının fethi — Tocco düklüğünün sonu: Ayamavra, Kefalonya, Zaklise, İthaki",
   gun:"Ağustos 1479", yer:"Ayamavra (Lefkada), Kefalonya, Zaklise (Zakynthos), İthaki — İyon Denizi", yer_id:"Ayamavra (Lefkada)",
   kisiler:"Fatih Sultan Mehmed, Gedik Ahmed Paşa, Leonardo III Tocco",
@@ -110,7 +110,7 @@ window.OLAYLAR_EK10 = [
 // beliriyor. O gün kronolojideki tek madde Zaklise'nin Venedik'e bırakılması —
 // değişim alakasız bir maddenin altında görünüyor.
 
-{ t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
+{ kapsam:"ic", t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
   b:"Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
   gun:"1482", yer:"Cetinje, Lovçen eteği, Karadağ", yer_id:"Cetinje",
   kisiler:"II. Bayezid, İvan Crnojeviç",
@@ -132,7 +132,7 @@ window.OLAYLAR_EK10 = [
 // oturumdan istendi — `OTURUM-11-BALKAN.md §7`. Kaldırılana kadar mükerrer
 // denetimi bu ikisini komşu gösterecek; beklenen davranış budur.
 
-{ t:"1484-07-15", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ kapsam:"ic", t:"1484-07-15", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Kili Kalesi'nin fethi — Tuna ağzının kilidi",
   gun:"15 Temmuz 1484 (20 Cemâziyelâhir 889)", yer:"Kili (Chilia), Tuna deltası, Boğdan sahili", yer_id:"Kili",
   kisiler:"II. Bayezid, Kırım Hanı Mengli Giray, Boğdan Voyvodası Büyük Ştefan",
@@ -145,7 +145,7 @@ window.OLAYLAR_EK10 = [
 // B-2) 1484 AKKİRMAN — yirmi gün sonraki ikinci kuşatma
 // ---------------------------------------------------------------------------
 
-{ t:"1484-08-04", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ kapsam:"ic", t:"1484-08-04", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Akkirman'ın fethi — Dinyester ağzı ve Boğdan'ın Karadeniz kapısının kapanışı",
   gun:"4 Ağustos 1484", yer:"Akkirman (Cetatea Albă), Dinyester haliç ağzı, Boğdan sahili", yer_id:"Akkirman",
   kisiler:"II. Bayezid, Boğdan Voyvodası Büyük Ştefan",
@@ -167,7 +167,7 @@ window.OLAYLAR_EK10 = [
 // maddesinden ayrılmak üzere yazıldı: deniz savaşı ile kalenin teslimi iki ayrı
 // olaydır ve TDV teslim gününü 26 Ağustos veriyor.
 
-{ t:"1499-08-26", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ kapsam:"ic", t:"1499-08-26", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"İnebahtı'nın teslimi — Korint körfezinin ağzı Venedik'ten alınıyor",
   gun:"26 Ağustos 1499", yer:"İnebahtı (Lepanto / Naupaktos), Korint körfezi ağzı, Mora", yer_id:"İnebahtı",
   kisiler:"II. Bayezid, Küçük Davud Paşa, Kemal Reis",
@@ -245,7 +245,7 @@ window.OLAYLAR_EK10 = [
 // Ölçüldü: yer ALMIYOR. Kronolojide 1593-07-01 (Uzun Savaş'ın başlaması) ile
 // 1596-06-20 arasında üç voyvodalığa dair tek madde yok.
 
-{ t:"1594-08-28", k:"siyaset", etiket:["isyan","diplomasi","konu-siyasi","konu-diplomasi","konu-isyan"],
+{ kapsam:"ic", t:"1594-08-28", k:"siyaset", etiket:["isyan","diplomasi","konu-siyasi","konu-diplomasi","konu-isyan"],
   b:"Üç voyvodalığın ayaklanması başlıyor — Erdel Kutsal İttifak'a geçti, Osmanlı yanlısı beyler tutuklandı",
   gun:"28 Ağustos 1594", yer:"Erdel, Eflak ve Boğdan voyvodalıkları",
   ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-10-05 ve gun '5 Ekim 1594' KAYNAKSIZDI — PAKET-ISYAN'ın okuduğu TDV eflak/bogdan/erdel ve History of Transylvania I (HoT) s.118'de bu gün yok; bu paket de akademik kaynakta bulamadı (5 Ekim yalnız Vikipedi 'Holy League (1594)' maddesinde geçiyor — KAYNAKSIZ, SİLİNDİ). Madde artık kendi gününü taşıyan olayı, ERDEL'İN KOPUŞUNU anlatır: HoT s.118 — 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı muhalefet tutuklandı (gün). Boğdan'ın resmî geçişi A.-M. Crăciun, 'Tratatele lui Sigismund Báthory cu Țara Românească și Moldova (1595)', Crisia LIII (2023): 16 Ağustos 1594 belgesi; Eflak'ın Liga'ya katılışı aynı eserde 'sonbahar', HoT'de Kasım — Eflak/Boğdan'ın açık ayaklanması bir sonraki maddededir (1594-11-01, kesinlik ay). TDV bogdan yalnız '1594'. '28 Ocak 1595 Prag' cümlesi bu pakette SINANMADI.",
@@ -257,7 +257,7 @@ window.OLAYLAR_EK10 = [
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
 // ---------------------------------------------------------------------------
 
-{ t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ kapsam:"ic", t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Bükreş ayaklanması ve Tuna kalelerine saldırı",
   gun:"Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
   ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-11-13 ve gun '13 Kasım 1594' akademik kaynakta BULUNAMADI. History of Transylvania I (HoT) s.118 yalnız 'November' (PAKET-ISYAN okudu); TDV bogdan '1594 yılı sonlarında Yaş ve Bükreş'te … bütün Türk ve Rumlar öldürüldü'; Crăciun, Crisia LIII (2023) Eflak'ın Liga'ya sonbaharda katıldığını yazar, gün vermez. 13 Kasım yalnız Vikipedi ve popüler tarih sitelerinde (historia.ro vb.) geçiyor — KAYNAKSIZ, SİLİNDİ (§4). ⇒ t:1594-11-01 + kesinlik:'ay' (p0037 emsali). §4 pencere şartı: YYYY-01-01 maddeyi isyan taramasının Eflak/Boğdan penceresinden (isy-eflak-1594 · isy-bogdan-1594 f:1594-11-01, kesinlik ay) önceye atardı. data/savaslar.js'in iki ayaklanma kaydı da aynı güne çekildi.",
@@ -269,7 +269,7 @@ window.OLAYLAR_EK10 = [
 // C-3) 1595 KALÛGERÂN — bastırma seferi
 // ---------------------------------------------------------------------------
 
-{ t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
+{ kapsam:"ic", t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
   b:"Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
   gun:"23 Ağustos 1595", yer:"Kalûgerân (Călugăreni), Neajlov bataklığı, Eflak",
   kisiler:"III. Mehmed, Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail",
@@ -280,7 +280,7 @@ window.OLAYLAR_EK10 = [
 // C-4) 1595 EKİM — geri çekilme ve Yergöğü baskını
 // ---------------------------------------------------------------------------
 
-{ t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
+{ kapsam:"ic", t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
   b:"Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
   gun:"Ekim 1595", kesinlik:"ay", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail, Erdel Prensi Zsigmond Báthory",
@@ -301,7 +301,7 @@ window.OLAYLAR_EK10 = [
 // olarak o boşluğu doldurur. "Tek başına" görünmesi de doğrudur: Hotin 1713-1812
 // arasında tâbi Boğdan'ın ortasında ayrı bir doğrudan Osmanlı sancağıdır.
 
-{ t:"1713-06-24", k:"idari", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
+{ kapsam:"ic", t:"1713-06-24", k:"idari", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
   b:"Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
   gun:"24 Haziran 1713", yer:"Hotin Kalesi, Dinyester'in sağ yakası, kuzey Boğdan",
   kisiler:"III. Ahmed, Boğdan Voyvodası Dimitrie Cantemir (1711'de Rusya'ya geçen voyvoda), Demirbaş Şarl",
@@ -341,44 +341,44 @@ window.OLAYLAR_EK10 = [
 
 // --- md.38·39 — 93 Harbi'ne giden yol ve safhaları ------------------------
 
-{ t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ kapsam:"ic", t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
   gun:"24 Nisan 1877", yer:"Tuna ve Doğu Anadolu cepheleri",
   kisiler:"II. Abdülhamid, Serdârıekrem Abdülkerim Nâdir Paşa, Ahmed Muhtar Paşa, Grandük Nikola",
   d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti ve ordusu, kendi tarafına çektiği Romanya Prensliği topraklarına girdi (harita Eflak-Boğdan'ı bu andan Edirne Mütarekesi'ne dek Rus ilerleyişinin taralı örtüsüyle gösterir). Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
   kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true, yer_kon:[47.0105,28.8638] },
 
-{ t:"1877-08-23", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Lofça Rus ordusunca işgal edildi", gun:"23 Ağustos 1877", yer:"Lofça (Loveč)", yer_id:"Lofça (Loveč)", kisiler:"Rifat Paşa", d:"93 Harbi'nde Lofça 5 Haziran 1877'de Ruslar tarafından işgal edilmiş, Rifat Paşa komutasındaki Osmanlı kuvvetleri 15 Haziran'da Rusları geri püskürtmüştü; şehir 23 Ağustos'ta Osmanlılarca terk edilerek yeniden Rus işgaline girdi. Harita Lofça'yı bu günden Berlin Antlaşması'na kadar Rus işgali altında (taralı) gösterir; hukuken Osmanlı toprağı olmaya devam eder.", ic_not_gun:"TDV lofca takvim belirtmiyor; gün TDV'den olduğu gibi alındı (AVRUPA-YER 13 Ekim 2026, Berlin 1878 B sınıfı). İlk işgal 5-15 Haziran 1877 şüpheli/kısa — yazılmadı.", kaynak:"lofca", duygu:["😔"] },
-{ t:"1433-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"], b:"Toplice bölgesi (Kurşunlu, Ürküp) Osmanlı hâkimiyetine girdi", gun:"1433 (YIL; TDV «muhtemel»)", yer:"Kurşunlu (Kuršumlija), Ürküp (Prokuplje), Toplice", yer_id:"Kurşunlu (Kuršumlija)", kisiler:"II. Murad, Mara Brankoviç", d:"II. Murad'ın Mara Brankoviç ile nişanlanması sırasında, Dubočica ve Toplice bölgesinin (Leskofça, Kurşunlu ve Ürküp çevresi) Osmanlı hâkimiyetine geçtiği muhtemel görülmektedir; 1445-1447 tahrir kaydı bölgenin Osmanlı sipahilerine timar olarak verildiğini gösterir. Haritada Kurşunlu ve Ürküp bu yıldan itibaren Osmanlı idaresindedir.", ic_not_gun:"TDV leskofca: «nişanlandığı yıl (1433) içerisinde Osmanlı hâkimiyetine girdi» — yıl, «muhtemel»; gün/ay YOK. Aynı madde Dubočica için 1428 de verir (Leskofça kaydı 1428'i izler, Kurşunlu/Ürküp 1433'ü). Kurşunlu/Ürküp için bağımsız bir yer-düzeyi tanıklık bulunamadı (AVRUPA-YER 13 Ekim 2026).", kaynak:"leskofca", duygu:["⚔️"] },
-{ t:"1877-05-21", ic_not_t:"eski gün 1877-05-09 = Jülyen (9 Mayıs O.S.; TDV romanya Rumen takvimiyle verir) → Gregoryen 21 Mayıs; devletler.js romanya maddesi ve yerleşim zincirleri 1877-05-21 (kron-balkan, 28 Eki 2026)", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
+{ kapsam:"ic", t:"1877-08-23", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"], b:"Lofça Rus ordusunca işgal edildi", gun:"23 Ağustos 1877", yer:"Lofça (Loveč)", yer_id:"Lofça (Loveč)", kisiler:"Rifat Paşa", d:"93 Harbi'nde Lofça 5 Haziran 1877'de Ruslar tarafından işgal edilmiş, Rifat Paşa komutasındaki Osmanlı kuvvetleri 15 Haziran'da Rusları geri püskürtmüştü; şehir 23 Ağustos'ta Osmanlılarca terk edilerek yeniden Rus işgaline girdi. Harita Lofça'yı bu günden Berlin Antlaşması'na kadar Rus işgali altında (taralı) gösterir; hukuken Osmanlı toprağı olmaya devam eder.", ic_not_gun:"TDV lofca takvim belirtmiyor; gün TDV'den olduğu gibi alındı (AVRUPA-YER 13 Ekim 2026, Berlin 1878 B sınıfı). İlk işgal 5-15 Haziran 1877 şüpheli/kısa — yazılmadı.", kaynak:"lofca", duygu:["😔"] },
+{ kapsam:"ic", t:"1433-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"], b:"Toplice bölgesi (Kurşunlu, Ürküp) Osmanlı hâkimiyetine girdi", gun:"1433 (YIL; TDV «muhtemel»)", yer:"Kurşunlu (Kuršumlija), Ürküp (Prokuplje), Toplice", yer_id:"Kurşunlu (Kuršumlija)", kisiler:"II. Murad, Mara Brankoviç", d:"II. Murad'ın Mara Brankoviç ile nişanlanması sırasında, Dubočica ve Toplice bölgesinin (Leskofça, Kurşunlu ve Ürküp çevresi) Osmanlı hâkimiyetine geçtiği muhtemel görülmektedir; 1445-1447 tahrir kaydı bölgenin Osmanlı sipahilerine timar olarak verildiğini gösterir. Haritada Kurşunlu ve Ürküp bu yıldan itibaren Osmanlı idaresindedir.", ic_not_gun:"TDV leskofca: «nişanlandığı yıl (1433) içerisinde Osmanlı hâkimiyetine girdi» — yıl, «muhtemel»; gün/ay YOK. Aynı madde Dubočica için 1428 de verir (Leskofça kaydı 1428'i izler, Kurşunlu/Ürküp 1433'ü). Kurşunlu/Ürküp için bağımsız bir yer-düzeyi tanıklık bulunamadı (AVRUPA-YER 13 Ekim 2026).", kaynak:"leskofca", duygu:["⚔️"] },
+{ kapsam:"ic", t:"1877-05-21", ic_not_t:"eski gün 1877-05-09 = Jülyen (9 Mayıs O.S.; TDV romanya Rumen takvimiyle verir) → Gregoryen 21 Mayıs; devletler.js romanya maddesi ve yerleşim zincirleri 1877-05-21 (kron-balkan, 28 Eki 2026)", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
   b:"Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
   gun:"21 Mayıs 1877 (9 Mayıs O.S.)", yer:"Bükreş", yer_id:"Bükreş", kisiler:"Prens I. Carol",
   d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir. Bağımsızlık ilanıyla Eflak ve Boğdan'ın tamamı (Yaş, Kalas, İbrail, Yergöğü, Calafat, Botoşani vd.) bağımsız Romanya oldu.",
   kaynak:"romanya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Romanya', https://islamansiklopedisi.org.tr/romanya", duygu:["😔"] },
   // PAKET-0076-BITIR-1004 · 0076/H-0037 — TDV romanya: "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti" (taslak: denetim/SINIR-CIZGI-0076-YAMA-olaylar.js ①)
 
-{ t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],
+{ kapsam:"ic", t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],
   b:"İzdin (Lamia) Yunanistan sınırları içinde kaldı — Arta-Volos hattı",
   gun:"1832", yer:"İzdin (Lamia)", yer_id:"İzdin (Lamia)",
   d:"Bağımsız Yunan devletinin kuzey sınırı 1832'de Arta körfezinden Volos körfezine uzanan hatta çizildi. Osmanlı döneminde (1424-1832) Eğriboz sancağına bağlı bir kaza merkezi olan İzdin, bu hattın güneyinde kaldığı için Yunanistan'a geçti; Tesalya'nın geri kalanı (Yenişehir, Tırhala) 1881'e kadar Osmanlı'da kaldı.",
   kaynak:"izdin", duygu:["😔"] },
   // PAKET-0076-BITIR-1004 · 0076/H-0045 — TDV izdin (M. Kiel): "Osmanlılar zamanında (1424-1832)" · "1832'de Yunanlılar bağımsız bir devlet olarak ortaya çıktıktan sonra İzdin bu devletin sınırları içinde kaldı". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
 
-{ t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ kapsam:"ic", t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
   gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
   kisiler:"Grandük Nikola, Abdülkerim Nâdir Paşa",
   d:"Savaşın başlamasıyla Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar, biri Dobruca diğeri Bükreş istikametinde olmak üzere iki koldan ilerledi. Tuna, Rusçuk ile Niğbolu arasından geçildi ve 27 Haziran'da Ziştovi, 1 Temmuz'da eski Bulgar başşehri Tırnova ele geçirildi. Tahliyesi emredildiği halde bu hususa itina gösterilmediği için Niğbolu da bir müddet direndikten sonra teslim oldu. Birinci savunma hattının bir hafta içinde yarılması İstanbul'da büyük paniğe yol açtı; saltanat merkezinin Bursa'ya nakledileceğine dair haberler bile yayıldı ve savaşın idaresi başşehirde kurulan bir askerî meclise devredildi.",
   kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[43.62,25.35] },
 
-{ t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ kapsam:"ic", t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması",
   gun:"19 Temmuz 1877", yer:"Şıpka Geçidi, Balkan (Stara Planina) dağları",
   kisiler:"General Gurko, Süleyman Paşa",
   d:"Balkan dağlarını aşan geçitlerin en stratejiği olan Şıpka'daki Osmanlı kuvvetleri Rus saldırılarına şiddetle karşı koydular; ancak yenileceklerine kanaat getirince 19 Temmuz'da geçidi gizlice tahliye ettiler. Böylece ikinci savunma hattı da açıldı ve General Gurko 22 Temmuz'da Eski Zağra'yı ele geçirdi. Karadağ tarafından yetişen Süleyman Paşa Gurko'yu yenilgiye uğratıp Balkanların güneyindeki işgal altındaki yerleri geri aldıysa da 21 Ağustos'tan itibaren aylarca süren taarruzlara rağmen Şıpka'yı geri alamadı. Haritada bu, Balkan sıradağlarının kuzeyi ile güneyi arasındaki savunma bütünlüğünün bir daha kurulamamasıdır: Tuna cephesindeki mücadele bundan sonra Plevne'de düğümlenecektir.",
   kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[42.75,25.33] },
 
-{ t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ kapsam:"ic", t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları",
   gun:"18 Kasım 1877", yer:"Kars Kalesi ve Erzurum-Aziziye tabyaları",
   kisiler:"Ahmed Muhtar Paşa, General Melikof, General Lazarof, Nene Hatun",
@@ -389,14 +389,14 @@ window.OLAYLAR_EK10 = [
 
 // --- md.57·58 — Balkan savaşları -----------------------------------------
 
-{ t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
+{ kapsam:"ic", t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı",
   gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
   kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
   d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Sırbistan-Bulgaristan, 29 Mayıs'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.", ic_not_d:"13 Eylül 2026 · KART-MADDE-CELISKI-0913 — BİRLEŞTİRME: olaylar.js'teki ay hassasiyetli `1912-10` 'Balkan Savaşları başladı' maddesi AYNI olayın mükerreriydi (kendi gun'u '8 Ekim 1912 (Karadağ'ın savaş ilanı)' diyordu; denetle.py önek ölçütü de bu çifti gerçek mükerrer diye listelemişti). O madde SİLİNDİ, bu madde tek kayıt. TAŞINAN: etiket `toprak-kayip`; son cümle — TDV `balkan-savasi`: 'Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.' Çatalca çekilişi 1912-10-23 maddesinde, Edirne'nin geri alınışı olaylar_ek.js 1913-07-21 maddesinde zaten var. TAŞINMAYAN — bulunamadı: eski maddenin kaynağı `balkan` ÖLÜ slug (302); 'seferberliğini tamamlayamayan ordu', 'yüz binlerce muhacir İstanbul'a aktı', kisiler 'Nâzım Paşa' `balkan-savasi` gövdesinde geçmiyor. Kaybolmasın diye eski metin aynen: «Karadağ'ın savaş ilanını Bulgaristan, Sırbistan ve Yunanistan izledi; seferberliğini tamamlayamayan ve siyasî çekişmelerle bölünmüş Osmanlı ordusu birkaç hafta içinde Rumeli'yi kaybetti, ordu Çatalca hattına çekildi ve yüz binlerce muhacir İstanbul'a aktı. Müttefiklerin ganimet kavgasına dönüşen II. Balkan Savaşı'nda (Temmuz 1913) Edirne ve Doğu Trakya geri alındı; ama beş asırlık Rumeli, birkaç ayda elden çıkmıştı.» Eski maddede `kapsam_genis:true` vardı; bu madde yer_yama ile Yenipazar'a bağlı, bayrak taşınmadı. İZ: yer_yama.js'teki {dosya:olaylar.js, t:1912-10} kaydı artık karşılıksız.",
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
-{ t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ kapsam:"ic", t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı", odak_yer:["Çatalca","Selanik"],
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
@@ -407,7 +407,7 @@ window.OLAYLAR_EK10 = [
 // günü olan şehre yazıldı; günü bulunamayanlar (Lüleburgaz, Serez, Drama, Kavala, Dedeağaç,
 // Dimetoka, Kesriye, Görice, Taşlıca) yazılmadı. Tablo: K1R2 (KUTU-K1-1014) + bu oturumun doğrulaması.
 
-{ t:"1912-10-20", k:"kayip", onem:3, dunya:2, yer_id:"Kırcaali",
+{ kapsam:"ic", t:"1912-10-20", k:"kayip", onem:3, dunya:2, yer_id:"Kırcaali",
   b:"Rodoplar'da Kırcaali Müfrezesi bozuldu, Kırcaali düştü",
   gun:"20 Ekim 1912", yer:"Kırcaali, Rodoplar", kisiler:"Mehmed Yaver Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -415,21 +415,21 @@ window.OLAYLAR_EK10 = [
   kaynak:"Sinan Koçak, 'Bulgar Yazar İvan Lesiçkof'un Gözünden Balkan Harbinde Kırcaali Müfrezesi', JUHIS 2(1), 2019, s.9 (dergipark 741217): '20 Ekim’de Bulgar askerinin Osmanlı ordusunu mağlup ederek Kırcaali’ye girdiği bilinmektedir'",
   ic_not_d:"ÇELİŞKİ: aynı makale s.10'da Lesiçkof'tan '22 Kasım 1912’de Bulgar askeri Kırcaali’yi ele geçirdi' aktarır. Anlatı sırası (Kırcaali → Gümülcine, Gümülcine 21 Kasım teslim) 20 Ekim'i destekler. KUTU-H6-1015." },
 
-{ t:"1912-10-23", k:"kayip", onem:3, dunya:2, yer_id:"Yenipazar (Novi Pazar)",
+{ kapsam:"ic", t:"1912-10-23", k:"kayip", onem:3, dunya:2, yer_id:"Yenipazar (Novi Pazar)",
   b:"Yenipazar sancağının merkezine Prens Aleksandar girdi",
   gun:"23 Ekim 1912", yer:"Yenipazar (Novi Pazar), Yenipazar sancağı", kisiler:"Prens Aleksandar",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"Sırp kuvvetleri savaşın ilk haftasında Yenipazar'ı aldı ve batıdan gelen Karadağ kuvvetleriyle birleşti. Sırbistan ile Karadağ'ı yüz yıldır ayıran Yenipazar sancağı böylece iki müttefik arasında köprüye dönüştü.",
   kaynak:"Sinan Koçak, JUHIS 2(1), 2019, s.5 (dergipark 741217), Çalık 2015'e atıfla: '23 Ekimde Prens Aleksandr Yenipazarı ele geçirdikten sonra batıdan gelen Karadağ ve doğudan gelen Bulgar kuvvetleriyle birleşti'" },
 
-{ t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
+{ kapsam:"ic", t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
   b:"Kırkkilise muharebesinin ardından Kırklareli elden çıktı",
   gun:"24 Ekim 1912", yer:"Kırklareli (Kırkkilise)", kisiler:"Kölemen Abdullah Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"Doğu Trakya'da Şark Ordusu'nun Kırkkilise muharebesinde yenilmesi üzerine Kölemen Abdullah Paşa'nın savunduğu şehir Bulgar kuvvetlerine bırakıldı. Şehir dokuz ay süren işgalden ancak II. Balkan Savaşı'nda, 21 Temmuz 1913'te kurtarıldı.",
   kaynak:"kirklareli — gövde okundu: 'Kırkkilise, Balkan Savaşı’nın başlarında 24 Ekim 1912 tarihinde Bulgar kuvvetlerince işgal edildi. Şehir dokuz ay kadar süren bu işgalden 21 Temmuz 1913’te kurtarıldı.'" },
 
-{ t:"1912-10-26", k:"kayip", onem:4, dunya:3, yer_id:"Üsküp",
+{ kapsam:"ic", t:"1912-10-26", k:"kayip", onem:4, dunya:3, yer_id:"Üsküp",
   b:"Kosova vilâyetinin merkezi Üsküp direnişsiz bırakıldı",
   gun:"26 Ekim 1912", yer:"Üsküp (Skopje)", kisiler:"Prens Aleksandar",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -437,21 +437,21 @@ window.OLAYLAR_EK10 = [
   kaynak:"Yakup Ahbab, 'Kuzey Makedonya 1912', İÜ Tarih Dergisi (dergipark 353908) s.11: '26 Ekim akşamı … Kumanova’dan gelen Prens Aleksandr komutasındaki Sırp kuvvetleri hiçbir direnişle karşılaşmadan … ' · Ayşe Özkan, Tarihin Peşinde 15, s.12: '26 Ekim akşamı Üsküp Sırplara teslim olurken'",
   ic_not_d:"TDV uskup '23-24 Ekim' verir — bu Kumanova muharebesinin günüdür, şehrin teslimi değil. KUTU-H6-1015." },
 
-{ t:"1912-10-28", k:"kayip", onem:3, dunya:2, yer_id:"Köprülü (Veles)",
+{ kapsam:"ic", t:"1912-10-28", k:"kayip", onem:3, dunya:2, yer_id:"Köprülü (Veles)",
   b:"Vardar boyunda Köprülü (Veles) kaybedildi",
   gun:"28 Ekim 1912", yer:"Köprülü (Veles), Vardar vadisi", kisiler:"Sırp ordusu",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"Üsküp'ün düşüşünden iki gün sonra Vardar boyunca güneye inen Sırp ordusu Köprülü'yü aldı. Vardar vadisinin Selanik'e açılan kapısı böylece Sırpların eline geçti.",
   kaynak:"Ayşe Özkan, 'Balkan Savaşları'nda Sırpların Müslümanlara Yönelik Gayri İnsanî Uygulamaları', Tarihin Peşinde 15, s.12: '28 Ekim’de Köprülü, 29 Ekim’de İştip … arka arkaya Sırp işgaline uğramıştır' · TDV koprulu: '1912 yılının sonbaharında Sırp ordusu Köprülü’yü ele geçirdi'" },
 
-{ t:"1912-10-29", k:"kayip", onem:3, dunya:2, yer_id:"İştip (Štip)",
+{ kapsam:"ic", t:"1912-10-29", k:"kayip", onem:3, dunya:2, yer_id:"İştip (Štip)",
   b:"Bregalnitsa havzası: General Stefanoviç İştip'e girdi",
   gun:"29 Ekim 1912", yer:"İştip (Štip)", kisiler:"General Stefanoviç",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"General Stefanoviç komutasındaki Sırp birlikleri İştip'i direnişle karşılaşmadan aldı; şehre önce düzensiz çeteler girdi. Kumanova'nın ardından doğu Makedonya'nın Bregalnitsa havzası Sırp denetimine geçti.",
   kaynak:"Özkan, Tarihin Peşinde 15, s.12 ve s.16: '29 Ekim’de İştip’i ele geçiren General Stefanoviç komutasındaki Sırp birlikleri hiçbir direnişle karşılaşmamışlardır' · TDV istip: '1912 Ekimi sonunda … Sırp ordusu şehri işgal etti'" },
 
-{ t:"1912-10-29", k:"kayip", onem:3, dunya:2, yer_id:"Karaferye (Veria)", gs:20,
+{ kapsam:"ic", t:"1912-10-29", k:"kayip", onem:3, dunya:2, yer_id:"Karaferye (Veria)", gs:20,
   b:"Sarantaporo geçidinden sonra Karaferye Yunan hâkimiyetine geçti",
   gun:"29 Ekim 1912 (TDV: 16 Ekim — eski takvim)", yer:"Karaferye (Veria)", kisiler:"Yunan ordusu",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -459,7 +459,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"karaferye — gövde okundu: 'Balkan savaşları sırasında Yunan ordusu şehre hâkim oldu (16 Ekim 1912)'",
   ic_not_gun:"TAKVİM ÇEVRİLDİ (VERI-YAPISI TAKVİM: çevirme yapıldıysa yazılır): TDV'nin 16 Ekim'i Gregoryen olamaz — Yunan savaş ilânı 18 Ekim (G), ve TDV alasonya Alasonya'yı Yunanlıların aldığı İLK şehir sayar. TDV selanik de Jülyen yazar (26 Ekim = 8 Kasım G). Atlasın 1912 Balkan günleri Gregoryen ⇒ 16 Ekim J = 29 Ekim G. KUTU-H6-1015." },
 
-{ t:"1912-10-31", k:"kayip", onem:3, dunya:2, yer_id:"Vodina (Edessa)",
+{ kapsam:"ic", t:"1912-10-31", k:"kayip", onem:3, dunya:2, yer_id:"Vodina (Edessa)",
   b:"Selanik-Manastır demiryolu üzerindeki Vodina kaybedildi",
   gun:"31 Ekim 1912 (TDV: 18 Ekim — eski takvim)", yer:"Vodina (Edessa)", kisiler:"Yunan ordusu",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -467,7 +467,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"vodina — gövde okundu: '18 Ekim 1912’de Vodina, Yunan ordusu tarafından ele geçirildi'",
   ic_not_gun:"TAKVİM ÇEVRİLDİ: TDV 18 Ekim'i Jülyen'dir (bkz. Karaferye maddesi; Yunan savaş ilânı 18 Ekim G'dir, aynı gün Vodina'ya varılamaz) ⇒ 31 Ekim G. KUTU-H6-1015." },
 
-{ t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
+{ kapsam:"ic", t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
   b:"Yenice Muharebesi — Yenice-i Vardar'ın Yunanlılara geçmesi",
   gun:"1-2 Kasım 1912", yer:"Yenice-i Vardar (Giannitsa)", kisiler:"Hasan Tahsin Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -475,7 +475,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"Salim Aydın, Türk Kültürü İncelemeleri Dergisi 38 (2018) (dergipark 3173273) s.27: 'Yenice Muharebesi … (1-2 Kasım 1912). Bu muharebeden sonra Selânik bölgesine çekilmiştir' · TDV yenice-i-vardar: 'Yannitsa savaşı esnasında … Yenice-i Vardar’ın büyük bölümü yakılmış'",
   ic_not_d:"Kasabanın kendi giriş günü bulunamadı; harita kırılması muharebenin son gününe (2 Kasım) yazıldı. TDV'nin '11 Kasım 1912' günü ne Gregoryen ne Jülyen olarak muharebeyle tutuyor (Selanik 8 Kasım'da düştü) — kullanılmadı. KUTU-H6-1015." },
 
-{ t:"1912-11-03", k:"kayip", onem:3, dunya:2, yer_id:"Prizren",
+{ kapsam:"ic", t:"1912-11-03", k:"kayip", onem:3, dunya:2, yer_id:"Prizren",
   b:"Prizren Kosova'nın güneybatısında teslim oldu",
   gun:"3 Kasım 1912", yer:"Prizren", kisiler:"Sırp ordusu",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -483,21 +483,21 @@ window.OLAYLAR_EK10 = [
   kaynak:"Özkan, Tarihin Peşinde 15, s.12: '3 Kasım’da Prizren Sırplara teslim olmuştur' (s.16 aynı gün)",
   ic_not_d:"ÇELİŞKİ: Ahbab (dergipark 353908) s.22 ve dergipark 1519426 31 Ekim der (3 gün; bu oturumda yeniden okunmadı). KUTU-H6-1015." },
 
-{ t:"1912-11-05", k:"kayip", onem:3, dunya:2, yer_id:"Ustrumca (Strumica)",
+{ kapsam:"ic", t:"1912-11-05", k:"kayip", onem:3, dunya:2, yer_id:"Ustrumca (Strumica)",
   b:"Albay Mitov Ustrumca'da sıkıyönetim ilân etti",
   gun:"5 Kasım 1912", yer:"Ustrumca (Strumica)", kisiler:"Albay Mitov",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"Bulgar Albay Mitov Ustrumca'ya girerek sıkıyönetim ilân etti; ertesi gün ayrılırken kasabayı bir Bulgar kaymakama ve bir Sırp komutana bıraktı. Ustrumca savaş boyunca müttefikler arasında el değiştirdi ve 1913'te Bulgaristan'a bağlandı.",
   kaynak:"Özkan, Tarihin Peşinde 15, s.20: '5 Kasım’da Bulgar Albay Mitov Ustrumca’ya girince sıkıyönetim ilan etmiş' · TDV ustrumca: 'önce Bulgarlar, daha sonra Sırplar … tarafından işgal edildi'; '1913’ten 1919 yılına kadar … Bulgaristan Devleti’ne katıldı'" },
 
-{ t:"1912-11-08", k:"kayip", onem:4, dunya:3, yer_id:"Selanik",
+{ kapsam:"ic", t:"1912-11-08", k:"kayip", onem:4, dunya:3, yer_id:"Selanik",
   b:"Hasan Tahsin Paşa Selanik'i Yunanlılara bıraktı",
   gun:"8 Kasım 1912 (TDV: 26 Ekim — eski takvim)", yer:"Selanik", kisiler:"Hasan Tahsin Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
   d:"Yenice yenilgisinden sonra Selanik'e çekilen Hasan Tahsin Paşa, Bulgar ordusu kuzeyden yaklaşırken şehri Yunanlılara bıraktı; Yunan ordusu 8 Kasım öğle saatlerinde şehre girdi. Osmanlı Rumeli'sinin en büyük liman şehri ve İttihat ve Terakkî'nin doğduğu Selanik böylece elden çıktı.",
   kaynak:"Mahmut Akkor, ABAD 8(15), 2025 (dergipark 4696099) s.6: 'Yunan ordusu, Bulgaristan’dan hızlı davranarak 8 Kasım 1912 günü öğle saatlerinde Selanik’e girdi' · TDV selanik: 'Vali Hasan Tahsin Paşa şehri 26 Ekim 1912’de Yunanlılar’a bıraktı' (Jülyen = 8 Kasım)" },
 
-{ t:"1912-11-21", k:"kayip", onem:3, dunya:2, yer_id:"Gümülcine",
+{ kapsam:"ic", t:"1912-11-21", k:"kayip", onem:3, dunya:2, yer_id:"Gümülcine",
   b:"Batı Trakya'nın merkezi Gümülcine Bulgarlara açıldı",
   gun:"21 Kasım 1912", yer:"Gümülcine, Batı Trakya", kisiler:"Mehmed Yaver Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -505,7 +505,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"Sinan Koçak, JUHIS 2(1), 2019 (dergipark 741217) s.11: 'Gümülcine, 21 Kasım günü teslim oldu'",
   ic_not_d:"Suzan Ertürk (dergipark 406839) '9 Kasım 1912' der — Bulgar kaynaklı, Jülyen ise 22 Kasım G (1 gün fark; bu oturumda yeniden okunmadı). KUTU-H6-1015." },
 
-{ t:"1912-11-28", k:"kayip", onem:3, dunya:2, yer_id:"Debre (Dibra)",
+{ kapsam:"ic", t:"1912-11-28", k:"kayip", onem:3, dunya:2, yer_id:"Debre (Dibra)",
   b:"İlbasan'a varan Sırplar aynı gün Debre'ye girdi",
   gun:"28 Kasım 1912", yer:"Debre (Dibra)", kisiler:"Sırp ordusu",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -526,7 +526,7 @@ window.OLAYLAR_EK10 = [
 //    ADIMDA yapıştırıldı (kaynak: oturumlar/OTURUM-11-BALKAN.md §19.5).
 // ===========================================================================
 
-{ t:"1476-02-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ kapsam:"ic", t:"1476-02-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
   gun:"Şubat 1476", yer:"Böğürdelen (Šabac), Sava nehri kıyısı", yer_id:"Böğürdelen (Šabac)",
   kisiler:"Fatih Sultan Mehmed, Macar Kralı Mátyás Corvin",
@@ -534,7 +534,7 @@ window.OLAYLAR_EK10 = [
   kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["😔"] },
 
-{ t:"1521-07-07", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ kapsam:"ic", t:"1521-07-07", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Böğürdelen'in fethi — Kanûnî'nin aldığı ilk kale ve Belgrad kararının verildiği yer",
   gun:"7 Temmuz 1521", yer:"Böğürdelen (Šabac), Sava nehri kıyısı", yer_id:"Böğürdelen (Šabac)",
   kisiler:"Kanûnî Sultan Süleyman, Rumeli Beylerbeyi Ahmed Paşa",
@@ -542,7 +542,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["🎉"] },
 
-{ t:"1788-04-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ kapsam:"ic", t:"1788-04-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması",
   gun:"24 Nisan 1788", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
@@ -550,7 +550,7 @@ window.OLAYLAR_EK10 = [
   kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
-{ t:"1806-01-26", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
+{ kapsam:"ic", t:"1806-01-26", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
   b:"Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
   gun:"26 Ocak 1806", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
@@ -558,7 +558,7 @@ window.OLAYLAR_EK10 = [
   kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
-{ t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
+{ kapsam:"ic", t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
   b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
   gun:"1457", yer:"Podgorica (Ribnica), Morača ile Ribnica'nın kavuştuğu yer, Zeta ovası", yer_id:"Podgorica",
   kisiler:"Fatih Sultan Mehmed",
@@ -566,7 +566,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Podgorica"],
   kaynak:"podgorica", duygu:["🎉"] },
 
-{ t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari","konu-imar"],
+{ kapsam:"ic", t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari","konu-imar"],
   b:"Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması",
   gun:"1448", yer:"Hodidjed, Saray ovası (Vrhbosna), orta Bosna",
   kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
@@ -574,7 +574,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Saraybosna"],
   kaynak:"saraybosna", duygu:["🎉"], yer_id:"Saraybosna" },
 
-{ t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
+{ kapsam:"ic", t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
   b:"Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
   gun:"1465", yer:"Foça (Foča), Drina vadisi, Hersek", yer_id:"Foça (Foča)",
   kisiler:"Fatih Sultan Mehmed, Hersek Dükü Stjepan Vukçiç-Kosaça",
@@ -582,7 +582,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Foça (Foča)"],
   kaynak:"foca", duygu:["🎉"] },
 
-{ t:"1469-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ kapsam:"ic", t:"1469-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması",
   gun:"1468-1469", ic_not_gun:"(TDV kesin gün vermiyor)", yer:"Livno (İhlevne), Livno ovası, batı Bosna", yer_id:"Livno (İhlevne)",
   kisiler:"Fatih Sultan Mehmed, Ivaniš Vlatković",
@@ -590,7 +590,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Livno (İhlevne)"],
   kaynak:"livno", duygu:["🎉"] },
 
-{ t:"1512-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ kapsam:"ic", t:"1512-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması",
   gun:"1512", yer:"Srebrenik, kuzeydoğu Bosna", yer_id:"Srebrenik",
   kisiler:"II. Bayezid",
@@ -598,7 +598,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Srebrenik"],
   kaynak:"bosna-hersek", duygu:["🎉"] },
 
-{ t:"1402-07-28", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ kapsam:"ic", t:"1402-07-28", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Ankara bozgununun ardından Eflak Voyvodası Mircea Dobruca'yı yeniden aldı — Silistre, Köstence, Babadağı, İshakçı",
   gun:"1402 (Ankara Savaşı'nın ardından; gün kaynakta yok)", yer:"Dobruca (Silistre, Köstence, Babadağı, İshakçı)", yer_id:"Silistre",
   kisiler:"Eflak Voyvodası I. Mircea",
@@ -606,7 +606,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"silistre", duygu:["😔"] },
   // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "Ankara Savaşı'nda (1402) … Mircea Silistre'yi tekrar aldı ve 1418'de ölümüne kadar elinde tuttu" · TDV kostence: "1402'de Mircea buraya hâkim olmuşsa da" · TDV dobruca: "Mircea Ankara Savaşı'ndan sonraki karışıklıklar sırasında tekrar Dobruca'ya girmiş". Gün = Ankara günü (TDV olayı Ankara'ya bağlıyor; Mircea'nın giriş günü BULUNAMADI).
 
-{ t:"1416-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ kapsam:"ic", t:"1416-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi",
   gun:"819 (1416)", yer:"Babadağı (Babadag)", yer_id:"Babadağı (Babadag)",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea, Mihail",
@@ -615,7 +615,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"babadagi", duygu:["🎉"] },
   // PAKET-0076-DOBRUCA-1004 (A) — TDV babadagi: "Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)". Gün kaynakta YOK ⇒ YYYY-01-01 (D210).
 
-{ t:"1419-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ kapsam:"ic", t:"1419-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra",
   gun:"822 (1419) ilkbaharı", yer:"Silistre, Köstence, İshakçı, Dobruca", yer_id:"Silistre",
   kisiler:"Çelebi Sultan Mehmed",
@@ -623,7 +623,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"silistre", duygu:["🎉"] },
   // PAKET-0076-DOBRUCA-1004 (A) — TDV silistre: "822 (1419) ilkbaharında Çelebi Sultan Mehmed'in Silistre'yi ve bütün Dobruca'yı tekrar almasına fırsat tanıdı" · TDV kostence: "Osmanlılar 1419'da Constanta ile beraber" · TDV tulca: "1419'da Dobruca Osmanlı toprakları içine alındı". Mevsim ⇒ YIL (D210). · İsakçı (PAKET-0076-ISHAKCI-1004): Stănică 2016 s. 4 — Enisala ve Isaccea 'become serhat … repaired and fortified by order of Sultan Mehmed I' (1419 ya da 1420 ilkbaharı okuması).
 
-{ t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
+{ kapsam:"ic", t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idari","konu-askeri","konu-idari"],
   b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu ve Orşova'nın ilhakı",
   gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm)", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea (ö. 1418)",

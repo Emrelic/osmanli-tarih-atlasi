@@ -25,7 +25,7 @@
 // YENİDEN YAZMASIN — `olaylar_ek8.js`de zaten var.
 // ---------------------------------------------------------------------------
 window.OLAYLAR_EK22 = [
-  {
+  { bolge:4,
     t: "1794-01-01",
     b: "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti", yer_kon:[30.28,57.08],
     k: "siyaset",

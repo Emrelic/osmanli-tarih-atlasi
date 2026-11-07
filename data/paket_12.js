@@ -9328,122 +9328,122 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 window.OLAYLAR_2S_0918 = [
 
 // ── 1. LUBLİN BİRLİĞİ — Polonya-Litvanya birleşmesi ──────────────────
-{ t:"1569-07-01", b:"Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya geçti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Bar (Podolya)",
+{ bolge:4, t:"1569-07-01", b:"Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya geçti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Bar (Podolya)",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"1 Temmuz 1569'da imzalanan Lublin Birliği, Litvanya Büyük Dükalığı ile Polonya Krallığı'nı tek bir devlette (Rzeczpospolita) birleştirdi. Anlaşmanın şartı gereği Podolya, Volhynia ve Kiev bölgesi (Bar, Berdiçev, Białystok, Braslav dahil) idarî olarak Litvanya'dan doğrudan Polonya Krallığı'na devredildi.",
   kaynak:"Encyclopedia of Ukraine, 'Lublin, Union of' (encyclopediaofukraine.com) — «signed on 1 July 1569 at a joint assembly of Lithuanian and Polish deputies in Lublin | Under the treaty Poland (the Polish crown) obtained the Ukrainian territories of Podlachia, Volhynia»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (standart akademik/ansiklopedik (Union of Lublin, 1 Temmuz 1569 — Davies, God's P) dayanak olamaz, değiştirildi. 1 Temmuz 1569 birliğin imza günüdür; Encyclopedia of Ukraine toprak devrini antlaşmaya bağlar, ayrı gün vermez (History of Ukraine maddesi arama özetinde ilhakların Temmuz öncesi olduğunu söyler; sayfa okunmadı). Gün 'imza günü' beyanıyla kalmalı." },
 
 // ── 2. HÜRMÜZ'ÜN PORTEKİZ'E DÜŞÜŞÜ ────────────────────────────────────
-{ t:"1515-04-01", b:"Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Hürmüz Adası",
+{ bolge:3, t:"1515-04-01", b:"Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Hürmüz Adası",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Afonso de Albuquerque'nin 1507'de başlattığı Basra Körfezi seferi, 1515'te Hürmüz Adası ve karşı kıyıdaki Kişm ile Buraymî'yi kapsayacak şekilde tamamlandı; İran'a tâbi Hürmüz Krallığı fiilen Portekiz himayesine girdi, Portekiz körfez ticaretinin denetimini ele geçirdi.",
   kaynak:"künyenin kendi kaynak alanı (TDV hurmuz--iran/uman) — D-KUNYE'nin round-1 çalışmasıyla tutarlı; standart akademik kaynakla (Boxer, The Portuguese Seaborne Empire) çapraz doğrulandı" },
 
 // ── 3. AHSÂ (LAHSA) BÖLGESİNİN MISIR İŞGALİNDEN ÇIKIŞI ────────────────
-{ t:"1841-10-01", b:"Mısır kuvvetleri Ahsâ (Lahsa) bölgesinden çekildi", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Lahsa",
+{ t:"1841-10-01", b:"Mısır kuvvetleri Ahsâ (Lahsa) bölgesinden çekildi", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Lahsa",
   etiket:["askeri","toprak-kayip","konu-siyasi"],
   d:"Mehmed Ali Paşa'nın Mısır kuvvetleri 1836'da Necid ve doğu Arabistan'ı (Ahsâ, Katîf, Ukayr, Cübeyl dahil) işgal etmişti; 1840 Londra Boğazlar Sözleşmesi'nin Mısır'ı Arap yarımadasındaki fetihlerinden vazgeçirmesiyle kuvvetler 1841'de bölgeden çekildi, idare yeniden yerel güçlere (Suûdî/Âl-i Halîfe nüfuzu) döndü.",
   kaynak:"standart akademik/ansiklopedik (Egyptian withdrawal from Najd/Hasa after 1840 London Straits Convention; J.B. Kelly, Britain and the Persian Gulf) — TDV kapsam dışı; kaynak yalnız YIL veriyor (1841), AY/GÜN kaynaksız — veri kaydının kendi günü (1841-10-01) devralındı, yeni hassasiyet üretilmedi" },
 
 // ── 4. ROMANYA KRALLIĞI'NIN İLANI ─────────────────────────────────────
-{ t:"1881-03-26", b:"Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
+{ bolge:3, t:"1881-03-26", b:"Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
   etiket:["antlasma","konu-siyasi"],
   d:"1877-78 Osmanlı-Rus Savaşı sonrası Berlin Kongresi'nde bağımsızlığı tanınan Romanya Prensliği, 26 Mart 1881'de (Jülyen takvimiyle 14 Mart) Kral I. Carol'un taç giymesiyle Krallığa dönüştürüldü; Babadağı, Birlad, Buzău ve başşehir Bükreş dahil bütün ülke idarî olarak yeni krallığın parçası oldu. Krallık ilanıyla Romanya'nın tamamı (Yaş, Kalas, İbrail, Köstence, Tulça, Calafat ve öteki şehirler) Romanya Krallığı oldu.",
   kaynak:"standart akademik/ansiklopedik (Kingdom of Romania proclamation, 26 Mart 1881 — Hitchins, Rumania 1866-1947) — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Romania polity (Romania Official Gazette No. 60, 15/27 Mar 1881, p. 1809), https://archontology.org/nations/romania/01_polity.php ; TDV 'Romanya', https://islamansiklopedisi.org.tr/romanya" },
 
 // ── 5. ADAMAVA'NIN ALMAN-İNGİLİZ PAYLAŞIMI ───────────────────────────
-{ t:"1901-09-02", b:"Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Garua (Garoua)",
+{ bolge:1, t:"1901-09-02", b:"Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Garua (Garoua)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Sokoto Halifeliği'ne tâbi Adamava (Fombina) Emirliği, Alman ve İngiliz sömürge kuvvetlerinin 1899-1901 seferleri sonunda ikiye bölündü: doğu kesimi (Garua, Banyo, Marua, Ngaunder dahil) Alman Kamerun'a, batı kesimi (başşehir Yola) İngiliz Kuzey Nijerya'ya katıldı; Emir Zübeyr sürgüne gönderildi. Bu olayla Rey Buba (Adamava (Alman payı)) Alman Kamerunu idaresine geçti.",
   kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/kamerun; https://islamansiklopedisi.org.tr/adamava · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Adamawa Wars 1899-1907, Anglo-German partition 1901; Emir Zübeyr'in Kasım 1901'de Garua yakınında bozguna uğraması — Wikipedia 'Adamawa Emirate'/'Adamawa Wars') — TDV k" },
 
 // ── 6. UBANGİ-ŞARİ'NİN FRANSIZ İSTİLASI ──────────────────────────────
-{ t:"1903-01-01", b:"Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Bambari",
+{ bolge:1, t:"1903-01-01", b:"Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Bambari",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Fransız Kongo'sunun kuzey seferleri, 1900'lerin başında Bambari, Batangafo, Bossangoa ve Bria'yı kapsayan Ubangi-Şari iç bölgesini fiilen denetim altına aldı; bölge 29 Aralık 1903'te resmen Ubangi-Şari kolonisi olarak örgütlendi (Fransız Ekvator Afrikası'nın parçası).",
   kaynak:"TDV, orta-afrika-cumhuriyeti (tarih bölümü: Ahmet Kavas; gövde okundu, KAYNAK-DOGRULA 19 Eyl 2026) — AYNEN: «Fransa 29 Aralık 1903'te Ubangi-Şari sömürgesini kurduğunu ilân ederek Fort-de-Possel'i yönetim merkezi yaptı» (TDV kapsamıyor değil — önceki 'kapsam dışı' notu YANLIŞTI). Dikkat: Bambari-Bria hattının fiilen ele geçirildiği tarih TDV'de YOK, BULUNAMADI; t: yalnız YIL (1903). Coquery-Vidrovitch, Le Congo au temps des grandes compagnies concessionnaires adı geçiyor ama bu turda OKUNMADI. Wikipedia dayanak olarak KALDIRILDI." },
 
 // ── 7. KENYA KUZEYDOĞUSUNUN İNGİLİZ İDARESİNE GİRİŞİ ─────────────────
-{ t:"1895-07-01", b:"Kenya'nın kuzeydoğu bölgesi (Garissa-Marsabit hattı) İngiliz Doğu Afrika Protektorası'na katıldı", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Garissa",
+{ bolge:1, t:"1895-07-01", b:"Kenya'nın kuzeydoğu bölgesi (Garissa-Marsabit hattı) İngiliz Doğu Afrika Protektorası'na katıldı", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Garissa",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İngiliz Doğu Afrika Şirketi'nin imtiyazının 1895'te Krallık'a devredilmesiyle kurulan İngiliz Doğu Afrika Protektorası, Garissa, Kitui, Marsabit ve Vacir (Wajir) gibi kuzeydoğu bölgelerini de kapsayacak şekilde genişledi; bu iç bölgelerin fiilî idareye alınması 1890'ların ikinci yarısına yayıldı.",
   kaynak:"standart akademik/ansiklopedik (Imperial British East Africa Company'nin 1895'te Krallığa devri; Britannica 'British East Africa Protectorate') — TDV kapsam dışı; kaynak yalnız 1895 YILINI doğruluyor, bu iç bölgelerin fiilî idareye alınma günü kaynaksız — veri kaydının kendi günü (1895-07-01) devralındı" },
 
 // ── 8. AHAL TEKKE / TÜRKMEN BÖLGESİNİN RUSYA'YA DÜŞÜŞÜ ───────────────
-{ t:"1881-01-24", b:"Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Dihistan ovası (Meşhed-i Misriyân)",
+{ bolge:2, t:"1881-01-24", b:"Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Dihistan ovası (Meşhed-i Misriyân)",
   etiket:["askeri","savas","konu-askeri"],
   d:"General Mihail Skobelev komutasındaki Rus kuvvetleri, 24 Ocak 1881'de Göktepe (Geok Tepe) kalesini düşürerek Ahal Tekke Türkmenlerinin direnişini kırdı; Dihistan ovası, Ebîverd ve Nesâ dahil Hazar ötesi Türkmen bölgesi Rus İmparatorluğu'na katılma sürecine girdi (Transhazar Bölgesi 1881'de kuruldu). Bu olayla Kızılarvat ve Aşkabad (Ahal Türkmen toprakları) Rusya'ya geçti.",
   kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Türkmenistan', tarih bölümü (islamansiklopedisi.org.tr/turkmenistan) — açıldı, okundu ('24 Ocak'ta genel taarruza geçtiler') · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FA" },
 
 // ── 9. DÂRÜ'L-KÛTÎ'NİN FRANSIZLARA DÜŞÜŞÜ ─────────────────────────────
-{ t:"1911-01-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",
+{ bolge:1, t:"1911-01-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"1897'de Fransız himayesine giren, başşehri Ndele olan köle ticareti temelli Dâru'l-Kûtî Sultanlığı, Sultan Mohammed es-Senûsî'nin Fransız otoritesine direnmeyi sürdürmesi üzerine 1911'de düzenlenen bir seferle fiilen ortadan kaldırıldı; Senûsî savaşta öldürüldü, sultanlık 1912'de resmen kaldırıldı.",
   kaynak:"standart akademik/ansiklopedik (Dar al-Kuti, Fransız protektorası 1897, es-Senûsî'nin 1911'de öldürülmesi — Wikipedia 'Dar al Kuti', Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade) — TDV kapsam dışı · gün: IRD (Institut de recherche pour le développement), 'Jean Julien Vincent Modat' biyografi notu: Senoussi «fut tué le 12 janvier 1911» (https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers16-10/010056752.pdf)",
   ic_not_t:"gün 14 Ekim 2026 Emre kararıyla IRD Modat notuna göre düzeltildi (eski: 1911-04-12, dayanaksız — eski kaynak 'GÜN KABA' diyordu); bağlı yerleşim kırılmaları (darul-kuti→fransa-cumhuriyet: Birao, Uanda-Calle, Ndele) birlikte kaydırıldı. Cordell 1985 okunamadı" },
 
 // ── 10. ERİTRE'NİN İTALYANLARA DÜŞÜŞÜ ─────────────────────────────────
-{ t:"1889-01-01", b:"İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Asmara",
+{ bolge:2, t:"1889-01-01", b:"İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Asmara",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Habeşistan İmparatoru II. Yohannes'in 1889'da ölümüyle doğan güç boşluğundan yararlanan İtalya, Uccialli (Wuchale) Antlaşması'nın (2 Mayıs 1889) ardından Asmara ve Keren dahil Eritre yaylasını fiilen ilhak etti; 1 Ocak 1890'da resmen 'Eritre' adıyla koloni ilan edildi. Bu olayla Kerene İtalya idaresine geçti.",
   kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/eritre · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Treaty of Wuchale 2 Mayıs 1889, Eritrea colony proclaimed 1 Ocak 1890 — Britannica 'Eritrea/History') — TDV kapsam dışı, GÜN KABA (veri 1889-01-01 taşıyor, gerçek ilhak" },
 
 // ── 11. HISNIKEYFÂ EYYÛBÎLERİ'NİN AKKOYUNLULARA DÜŞÜŞÜ ────────────────
-{ t:"1462-01-01", b:"Akkoyunlu Uzun Hasan, Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hasankeyf",
+{ bolge:4, t:"1462-01-01", b:"Akkoyunlu Uzun Hasan, Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hasankeyf",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Yukarı Dicle'de Hama ile birlikte Eyyûbî hânedanının ayakta kalan son iki kolundan biri olan Hısnıkeyfâ (Hasankeyf) ve Siirt, 1462'de Akkoyunlu hükümdarı Uzun Hasan tarafından ilhak edilerek Eyyûbî hâkimiyetine son verildi.",
   kaynak:"TDV `eyyubiler` — AYNEN: \"Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan tarafından ortadan kaldırıldı.\" — D-KUNYE'nin round-1 çalışmasıyla (eyyubi-hisnikeyfa künyesi) tutarlı, GÜN YOK ⇒ YYYY-01-01" },
 
 // ── 12. BUNYORO'NUN İNGİLİZLERE DÜŞÜŞÜ ────────────────────────────────
-{ t:"1899-04-09", b:"Bunyoro Kralı Kabalega esir alındı, krallık İngiliz Uganda Protektorası'na bağlandı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Hoima (Bunyoro)",
+{ bolge:1, t:"1899-04-09", b:"Bunyoro Kralı Kabalega esir alındı, krallık İngiliz Uganda Protektorası'na bağlandı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Hoima (Bunyoro)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"1894'ten beri İngiliz kuvvetlerine direnen Bunyoro Kralı Kabalega, 9 Nisan 1899'da Lango bölgesinde (Dokolo yakını) yakalanıp Seyşeller'e sürgüne gönderildi; başşehir Hoima ve Masindi dahil krallık toprakları İngiliz Uganda Protektorası'na katıldı.",
   kaynak:"standart akademik/ansiklopedik (Kabalega's capture, 9 Nisan 1899 — Britannica 'Kabarega', Uzoigwe, Britain and the Conquest of Africa) — TDV kapsam dışı; veri 1899-04-09 taşıyor, kaynakla BİREBİR örtüşüyor" },
 
 // ── 13. AHAGGAR TUAREGİ'NİN FRANSIZLARA DÜŞÜŞÜ ────────────────────────
-{ t:"1902-05-07", b:"Tit Muharebesi — Ahaggar Tuaregi Fransız kuvvetlerine yenildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Abalessa",
+{ bolge:1, t:"1902-05-07", b:"Tit Muharebesi — Ahaggar Tuaregi Fransız kuvvetlerine yenildi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Abalessa",
   etiket:["askeri","savas","konu-askeri"],
   d:"Cottenest seferi sırasında 7 Mayıs 1902'de Tit vahası yakınında yapılan muharebede Fransız kuvvetleri Kel Ahaggar Tuaregini kesin biçimde yendi; Ahaggar'ın merkezi Abalessa ve İdeles dahil Sahra'nın bu iç bölgesi Fransız Cezayir'inin denetimine girdi.",
   kaynak:"standart akademik/ansiklopedik (Battle of Tit / Cottenest Expedition, 7 Mayıs 1902 — Omniatlas 'Cottenest Expedition', Keenan, The Tuareg) — TDV kapsam dışı; veri 1902-05-07 taşıyor, kaynakla BİREBİR örtüşüyor" },
 
 // ── 14. ERZURUM BÖLGESİNDE TİMURLU-KARAKOYUNLU EL DEĞİŞTİRMESİ ────────
-{ t:"1408-01-01", b:"Erzurum ve Aşkale bölgesi Karakoyunlu-Timurlu çekişmesinde el değiştirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Erzurum",
+{ bolge:4, t:"1408-01-01", b:"Erzurum ve Aşkale bölgesi Karakoyunlu-Timurlu çekişmesinde el değiştirdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Erzurum",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Timur'un 1405'teki ölümünün ardından doğan güç boşluğunda, Karakoyunlu hükümdarı Kara Yûsuf 1406-1408 arasında doğu Anadolu'daki Timurlu valilerine karşı harekete geçti; Erzurum ve çevresindeki Aşkale bu mücadelede Timurlu denetiminden çıkarak Karakoyunlu nüfuzuna girdi.",
   kaynak:"standart akademik/ansiklopedik (Kara Yusuf'un Timurlu-sonrası doğu Anadolu seferleri, 1406-1410 — Woods, The Aqquyunlu; Roemer, The Türkmen Dynasties) — TDV kapsam dışı bu ayrıntı için, GÜN KABA, kesinlik düşük" },
 
 // ── 15. TORO KRALLIĞI'NIN İNGİLİZLERE BAĞLANMASI ──────────────────────
-{ t:"1900-06-26", b:"Toro Antlaşması — Toro Krallığı İngiliz Uganda Protektorası'nın özerk bir parçası oldu", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Fort Portal (Toro)",
+{ bolge:1, t:"1900-06-26", b:"Toro Antlaşması — Toro Krallığı İngiliz Uganda Protektorası'nın özerk bir parçası oldu", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Fort Portal (Toro)",
   etiket:["antlasma","konu-siyasi"],
   d:"Bunyoro'nun 1899'da düşüşünün ardından komşu Toro Krallığı, 1896'dan beri süren İngiliz himayesini 1900 Uganda Antlaşması çerçevesinde resmîleştirdi; başşehir Fort Portal dahil krallık, İngiliz Uganda Protektorası içinde özerk bir yerel idare statüsü kazandı.",
   kaynak:"standart akademik/ansiklopedik (1900 Uganda Agreement ve Toro'nun protektora içi statüsü — Britannica 'Uganda/History', Low, Buganda in Modern History) — TDV kapsam dışı; veri 1900-06-26 taşıyor, gün ayrıca doğrulanmadı (Uganda Antlaşması'nın genel çerçevesiyle uyumlu)" },
 
 // ── 16. İLORİN'İN KRALİYET NİJER ŞİRKETİ'NE DÜŞÜŞÜ ───────────────────
-{ t:"1897-02-16", b:"İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"İlorin",
+{ bolge:1, t:"1897-02-16", b:"İlorin Emirliği, Kraliyet Nijer Şirketi kuvvetlerince ele geçirildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"İlorin",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Sokoto Halifeliği'ne tâbi İlorin Emirliği, Sir George Goldie komutasındaki Kraliyet Nijer Şirketi kuvvetlerinin Şubat 1897 seferinde ele geçirildi; emirliğin askerî gücü kırıldı ve bölge fiilen İngiliz nüfuzuna girdi (resmî ilhak Kuzey Nijerya Protektorası'nın 1900'de kuruluşuyla tamamlandı).",
   kaynak:"standart akademik/ansiklopedik (Royal Niger Company'nin İlorin seferi, Şubat 1897 — Britannica 'Ilorin', Flint, Sir George Goldie and the Making of Nigeria) — TDV kapsam dışı, GÜN KABA (veri 1897-02-16 taşıyor, ay/yıl kaynakla uyumlu)" },
 
 // ── 17. AK-MEÇİT'İN RUSYA'YA DÜŞÜŞÜ ───────────────────────────────────
-{ t:"1853-07-28", b:"Ak-Meçit Kalesi Rus kuvvetlerince alındı — Hokand Hanlığı'nın Sirderya hattı çöktü", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ak-Meçit (Perovsk)",
+{ bolge:1, t:"1853-07-28", b:"Ak-Meçit Kalesi Rus kuvvetlerince alındı — Hokand Hanlığı'nın Sirderya hattı çöktü", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ak-Meçit (Perovsk)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"General Vasili Perovski komutasındaki Rus kuvvetleri, Hokand Hanlığı'na ait Sirderya kıyısındaki Ak-Meçit Kalesi'ni Temmuz 1853'te uzun bir kuşatmanın ardından ele geçirdi; kale sonradan Perovsk adıyla Rus Türkistanı'nın ileri karakolu oldu.",
   kaynak:"e-history.kz (Kazakistan devlet tarih portalı) — Ak-Mechet 28 Temmuz 1853 — «on July 28, 1853 Orenburg Governor-General V. Perovsky with Russian troops»", ic_not_d:"DUNYA-1102 hücre 12 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (standart akademik/ansiklopedik (Fall of Ak-Mechet/Perovsk, Temmuz 1853 — Britann) dayanak olamaz, değiştirildi. Tarih kaynakta var ama takvim (Jülyen mi Gregoryen mi) belirtilmemiş; Rus kaynakları Jülyen kullanır, öyleyse Gregoryen karşılığı 9 Ağustos 1853 olur. Takvim çözülmeden günü değiştirme." },
 
 // ── 18. DUBROVNIK'İN MACARİSTAN'A BAĞLANMASI ──────────────────────────
-{ t:"1358-02-18", b:"Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Dubrovnik",
+{ bolge:2, t:"1358-02-18", b:"Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Dubrovnik",
   etiket:["antlasma","konu-siyasi"],
   d:"18 Şubat 1358'de imzalanan Zadar Antlaşması, Venedik'in Dalmaçya üzerindeki 150 yıllık hâkimiyetine son verdi; Dubrovnik (Ragusa) böylece Venedik idaresinden çıkıp Macar Kralı I. Layoş'un himayesi altına giren yarı özerk bir cumhuriyet statüsü kazandı.",
   kaynak:"standart akademik/ansiklopedik (Peace of Zadar, 18 Şubat 1358 — Encyclopaedia Britannica 'Dubrovnik/History', Fine, The Late Medieval Balkans) — TDV kapsam dışı; veri 1358-01-01 taşıyor (yıl doğru, GÜN farklı — kaynak 18 Şubat diyor, bildiriliyor) · 19 Eyl 2026 KRONO-2S-3: madde ve Dubrovnik/Zadar kırılması 18 Şubat'a çekildi — Hrvatska enciklopedija 'Zadarski mir' AYNEN: \"mirovni ugovor … dana 18. II. 1358.\" / \"Mlečani su se odrekli »prava na Dalmaciju od polovice Kvarnera do područja Drača« uključujući gradove … Dubrovnik\"" },
 
 // ── 19. SİNOP'UN CANDAROĞULLARI'NA GEÇİŞİ ─────────────────────────────
-{ t:"1322-01-01", b:"Sinop, Gazi Çelebi tarafından ele geçirilip Candaroğulları nüfuzuna girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sinop",
+{ bolge:2, t:"1322-01-01", b:"Sinop, Gazi Çelebi tarafından ele geçirilip Candaroğulları nüfuzuna girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Sinop",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"İlhanlı hâkimiyetinin zayıflamasıyla Kastamonu ve Sinop bölgesinde güçlenen Candaroğlu (İsfendiyaroğlu) beyliğinin kurucu ailesinden Gazi Çelebi, 1322 civarında Sinop'u ele geçirerek şehri beyliğin bir liman merkezi hâline getirdi.",
   kaynak:"standart akademik/ansiklopedik (Candaroğulları'nın Sinop'u ele geçirmesi, ~1322 — Uzunçarşılı, Anadolu Beylikleri; TDV kapsam dışı bu ayrıntı için — bilinen 'candar-ogullari' slug'ı ölçülmedi), GÜN KABA, kesinlik düşük" },
 
 // ── 20. ALANYA'NIN ANADOLU BEYLİKLERİ ARASINDA EL DEĞİŞTİRMESİ ────────
-{ t:"1293-01-01", b:"Alanya (Alâiye), Selçuklu sonrası dönemde yerel bir beyliğin denetimine girdi", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Alanya",
+{ bolge:1, t:"1293-01-01", b:"Alanya (Alâiye), Selçuklu sonrası dönemde yerel bir beyliğin denetimine girdi", tur:"toprak-kazanc", onem:1, dunya:1, kapsam:"dis", yer_id:"Alanya",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Anadolu Selçuklu Devleti'nin 1290'larda fiilen çözülmesiyle, Akdeniz kıyısındaki Alâiye (Alanya) limanı merkezi otoriteden bağımsızlaşarak bölgedeki beyliklerin (bu dönemde Karamanoğulları etki alanında) denetimine girdi; kesin tarih ve hangi beyliğin doğrudan hâkim olduğu kaynaklarda net değildir.",
   kaynak:"standart akademik/ansiklopedik (Anadolu Selçuklu çözülüşü sonrası Alâiye'nin durumu — Cahen, Pre-Ottoman Turkey) — TDV kapsam dışı bu ayrıntı için, DÜŞÜK GÜVEN: kesin devir olayı ve tarihi BULUNAMADI, veri kaydıyla (1293) hizalandı, ayrıca araştırılmalı" },
@@ -9476,21 +9476,21 @@ window.OLAYLAR_2S_0918 = [
 window.OLAYLAR_ORTADOGU_0919 = [
 
 // ── 1. TÂİF ÇEVRESİ VEHHÂBÎ NÜFUZUNA GİRDİ (1801) ─────────────────────
-{ t:"1801-01-01", kesinlik:"yil", b:"Tâif çevresi kabileleri Vehhâbî nüfuzuna girdi — Türabe ve Hurma Mekke Şerifliği'nden koptu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Türabe",
+{ t:"1801-01-01", kesinlik:"yil", b:"Tâif çevresi kabileleri Vehhâbî nüfuzuna girdi — Türabe ve Hurma Mekke Şerifliği'nden koptu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Türabe",
   gun:"1801 (kaynak yalnız yıl veriyor)", yer:"Tâif çevresi (Türabe, Hurma)",
   etiket:["toprak-kayip","konu-siyasi","konu-din"],
   d:"Mekke Şerifi Gālib'e bağlı Tâif çevresindeki kabileler 1801'de Vehhâbî nüfuzuna girdi; Dir'iye emîri onları Şerif'in eniştesi ve düşmanı olan bedevî şeyhi Osman el-Mudâyifî'nin idaresine verdi. Doğudaki Türabe ve Hurma vahaları da bu kuşakta Suûdî tarafına geçti. Bu, Vehhâbîlerin Şubat 1803'te Tâif'i ve ardından Mekke'yi almasının öncülüydü.",
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1055: 'In 1801 the tribes in the vicinity of Taif fell under the influence of the Wahhabis and were placed by the Amir in charge of … Othman-al-Madhaifah' · taif (TDV: 'Şubat 1803'te Tâif'i ele geçirerek yağmaladı') — Türabe/Hurma adıyla anılmıyor, 'Tâif çevresi' hükmü 82 km doğuya taşındı (🟡 bölgeden yere hüküm)" },
 
 // ── 2. MISIR GARNİZONLARI GÜNEY HİCAZ'DAN ÇEKİLDİ (1816) ──────────────
-{ t:"1816-01-01", kesinlik:"yil", b:"Mısır garnizonları güney Hicaz'da Türabe, Bîşe ve Rânye'den çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Türabe",
+{ t:"1816-01-01", kesinlik:"yil", b:"Mısır garnizonları güney Hicaz'da Türabe, Bîşe ve Rânye'den çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Türabe",
   gun:"1816 (Kasım 1815 ile Ağustos 1816 arası)", ic_not_gun:"1816 (Kasım 1815 ile Ağustos 1816 arası; gün bulunamadı)", yer:"Türabe, Bîşe, Rânye",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Tosun Paşa'nın Vehhâbîlerle barışıp Kasım 1815'te Kahire'ye dönmesinden sonraki aylarda güney Hicaz'da karışıklık çıktı; Kavalalı Mehmed Ali Paşa'nın garnizonları Bîşe, Rânye ve Türabe'den geri çekilmek zorunda kaldı. İbrâhim Paşa'nın yeni sefer için Ağustos 1816'da Kahire'den ayrılması bu çekilişin ardından geldi. Türabe'yi Dir'iye'nin düşüşüne (1818) kadar kimin yönettiği kaynakta yazılı değil.",
   kaynak:"Lorimer, Gazetteer I/1 (1915) s.1085 (D4-ORTADOGU '1086' yazmıştı; tam metinde sayfa başlığı 1085): 'the Egyptian garrisons had been obliged to retire from Bishah, Ranyah and Turabah. In August 1816 Ibrahim Pasha … left Cairo' — çekilişin yılı çıkarımla 1816 (Tosun'un 7 Kasım 1815 dönüşü ile Ağustos 1816 arası); kaynak yıl yazmıyor, sıralama veriyor" },
 
 // ── 3. MISIR GARNİZONU HARC'TAN ÇEKİLDİ (13 AĞUSTOS 1819) ─────────────
-{ t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dilem (Harc)",
+{ t:"1819-08-13", b:"Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'ya ulaştı — Necid'in güneyi başsız kaldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Dilem (Harc)",
   gun:"13 Ağustos 1819", yer:"Harc (Süleymiye, Dilem), Menfûha, Eflâc, Leylâ, Havta",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Dir'iye'nin yıkılışından sonra İbrâhim Paşa'nın Harc'taki Süleymiye'ye koyduğu Mısır karakolu, Paşa'nın geri çekilme emriyle yola çıkmadan önce Dilem'in dört şeyhini bir ziyafette öldürttü ve bedevîlerce kuşatıldı. Kurtarılan garnizon 13 Ağustos 1819'da Menfûha'ya ulaştı ve Kasîm'e yürüyüş başladı. Necid'in güneyinde merkezî bir otorite kalmadı; Suûd ailesinin girişimleri 1824'e kadar sonuç vermedi.",
@@ -9526,364 +9526,364 @@ window.OLAYLAR_ORTADOGU_0919 = [
 window.OLAYLAR_2S_0919 = [
 
 // ── 1328 ─────────────────────────────────────────────────────────────
-{ t:"1328-01-01", kesinlik:"yil", b:"Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Klaipėda (Memel)",
+{ bolge:1, t:"1328-01-01", kesinlik:"yil", b:"Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Klaipėda (Memel)",
   etiket:["toprak-kazanc","konu-siyasi"],
   d:"Livonya Tarikatı, Neman ağzındaki Klaipėda (Memel) kalesi ve çevresindeki topraklarını Töton Tarikatı'nın Prusya koluna bıraktı; Kurland piskoposu da kendi payını 1392'de aynı kola devretti. Klaipėda 1411 Toruń ve 1422 Melno barışlarıyla Tarikat'ta kaldı, 1525'te Prusya Dükalığı'na geçti.",
   kaynak:"Visuotinė lietuvių enciklopedija — 'Klaipėdos istorija' (https://www.vle.lt/straipsnis/klaipedos-istorija/) — AYNEN: \"1328 Livonijos ordinas, 1392 Kuršo vyskupas perleido savo Klaipėdos valdas Vokiečių ordino Prūsijos šakai.\" · hassasiyet: YIL (gün kaynakta yok) · KUTU-VERI-1015 (0025/H-0004)" },
 
 // ── 1329 ─────────────────────────────────────────────────────────────
-{ t:"1329-01-01", b:"Umur Bey İzmir'in liman kalesini Cenevizlilerden aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İzmir",
+{ bolge:3, t:"1329-01-01", b:"Umur Bey İzmir'in liman kalesini Cenevizlilerden aldı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"İzmir",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Aydınoğlu Umur Bey, İzmir'in Latinlerin elinde kalan liman kalesini iki buçuk yıl kuşattı. Kalenin Cenevizli idarecisi Martino Zaccaria kaleyi teslim edip Sakız'a gitti.",
   kaynak:"TDV `umur-bey` — AYNEN: \"İki buçuk yıl süren kuşatmanın ardından kalenin Cenovalı idarecisi Martino Zaccaria burayı teslim edip Sakız'a gitti (1329 başı).\" · hassasiyet: YIL (\"1329 başı\") · TDV `aydinogullari` \"(1328 veya 1329)\" der · NOT: veride önceki sahip `bizans`, kaynağa göre liman kalesi Ceneviz (Zaccaria) elindeydi" },
 
 // ── 1348 ─────────────────────────────────────────────────────────────
-{ t:"1348-01-01", b:"Abdülvâdîler (Zeyyânîler) Tilimsan'da Merînî hâkimiyetinden kurtuldu", tur:"toprak-kazanc", onem:2, dunya:3, kapsam:"dis", yer_id:"Tilimsan",
+{ bolge:1, t:"1348-01-01", b:"Abdülvâdîler (Zeyyânîler) Tilimsan'da Merînî hâkimiyetinden kurtuldu", tur:"toprak-kazanc", onem:2, dunya:3, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["askeri","toprak-kazanc","konu-siyasi"],
   d:"Tilimsan'daki Abdülvâdîler, II. Osman ve kardeşi Ebû Sâbit önderliğinde Merînîlerin hâkimiyetinden kurtuldu. Bu bağımsızlık kısa sürdü.",
   kaynak:"TDV `abdulvadiler` (`zeyyaniler` buraya yönlenir) — AYNEN: \"Abdülvâdîler II. Osman (1348-1352) ve kardeşi Ebû Sâbit vasıtasıyla Merînîler'in hâkimiyetinden kurtuldular (1348); ancak bu bağımsızlık çok kısa sürdü.\" · hassasiyet: YIL" },
 
 // ── 1351 ─────────────────────────────────────────────────────────────
-{ t:"1351-01-01", b:"Bayram Hoca bağımsızlığını kazandı — Karakoyunlu Beyliği'nin doğuşu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Erciş",
+{ bolge:3, t:"1351-01-01", b:"Bayram Hoca bağımsızlığını kazandı — Karakoyunlu Beyliği'nin doğuşu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Erciş",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Karakoyunluların ilk beyi sayılan Bayram Hoca, Sutaylar hükümdarı Akçasakal Hüseyin Bey'i öldürerek bağımsızlığını kazandı. Musul'u aldı ve idaresini kardeşi Birdi Hoca'ya verdi.",
   kaynak:"TDV `karakoyunlular` — AYNEN: \"Karakoyunlular'ın ilk beyi sayılan Bayram Hoca Sutaylar Hükümdarı Akçasakal Hüseyin Bey'i 1351'de öldürerek bağımsızlığını kazandı ve Musul'u alarak buranın idaresini kardeşi Birdi Hoca'ya verdi.\" · hassasiyet: YIL · NOT: kaynak Van-Erciş çevresinin bu yıl TOPLUCA el değiştirdiğini söylemez; geçiş 'bağımsızlık' anlamında" },
 
 // ── 1356 ─────────────────────────────────────────────────────────────
-{ t:"1356-01-01", b:"Litvanya Büyük Dükü Algirdas (Olgerd) Bryansk'ı aldı", tur:"fetih", onem:2, dunya:3, kapsam:"dis", yer_id:"Bryansk",
+{ bolge:1, t:"1356-01-01", b:"Litvanya Büyük Dükü Algirdas (Olgerd) Bryansk'ı aldı", tur:"fetih", onem:2, dunya:3, kapsam:"dis", yer_id:"Bryansk",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Litvanya Büyük Dükü Algirdas'ın ordusu Bryansk'ı aldı. Şehir 1500'e kadar Litvanya Büyük Dükalığı'na bağlı kaldı.",
   kaynak:"Visuotinė lietuvių enciklopedija (Litvanya devlet ansiklopedisi), 'Brianskas', https://www.vle.lt/straipsnis/briansk/ — AYNEN: \"1356 miestą užėmė Lietuvos didžiojo kunigaikščio Algirdo kariuomenė, iki 1500 Brianskas priklausė Lietuvos Didžiajai Kunigaikštystei.\" · hassasiyet: YIL · NOT: veride önceki sahip `altinorda`; kaynak Bryansk'ı bir Rus prensliği olarak anlatır" },
 
 // ── 1362 ─────────────────────────────────────────────────────────────
-{ t:"1362-01-01", b:"Kiev Prensliği Litvanya egemenliğine geçti", tur:"toprak-kazanc", onem:3, dunya:4, kapsam:"dis", yer_id:"Kiev",
+{ bolge:2, t:"1362-01-01", b:"Kiev Prensliği Litvanya egemenliğine geçti", tur:"toprak-kazanc", onem:3, dunya:4, kapsam:"dis", yer_id:"Kiev",
   etiket:["askeri","toprak-kazanc","konu-siyasi"],
   d:"Kiev Prensliği Litvanya egemenliğine girdi ve Litvanya-Rus devletinde Gediminas soyundan prenslerin yönettiği bir tâbi prenslik oldu.",
   kaynak:"Internet Encyclopedia of Ukraine (CIUS), 'Kyiv principality' — «In 1362 it fell under the rule of Lithuania and became an appanage principality in the Lithuanian-Ruthenian state.» · Internet Encyclopedia of Ukraine (CIUS), 'Kyiv principality', https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyivprincipality.htm — AYNEN: \"In 1362 it fell under the rule of Lithuania and became an appanage principality in the Lithuanian-Ruthenian state, ruled by princes of the Gediminas family.\" · hassasiyet: YIL · ÇELİŞKİ: aynı ansiklopedinin 'Algirdas' maddesi Kiev ilhakını 1363'e (Sinie Vody) ve Çernigov/Novgorod-Seversk'i 'about 1355'e koyar — kümenin Çernigov kolu bu maddeyle DESTEKLENMEZ", ic_not_d:"DUNYA-1102 hücre 4 (KASA, 2 Kasım 2026): teyit tek kaynak. Sayfa açıldı, 1362 teyitli. Aynı ansiklopedinin Algirdas maddesi 1363 (Sinie Vody) diyormuş (önceki ajan beyanı, bu turda okunmadı); iki görüş, karar verilmedi. Hakemli ikinci kaynak önerilir." },
 
 // ── 1368 ─────────────────────────────────────────────────────────────
-{ t:"1368-01-01", b:"İnançoğulları Germiyanoğullarının hâkimiyetini tanıdı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", yer_id:"Denizli",
+{ bolge:2, t:"1368-01-01", b:"İnançoğulları Germiyanoğullarının hâkimiyetini tanıdı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", yer_id:"Denizli",
   etiket:["siyasi","toprak-kayip","konu-siyasi"],
   d:"Denizli çevresinde hüküm süren İnançoğulları Beyliği muhtemelen 1368'de Germiyanoğullarının hâkimiyetini tanıdı.",
   kaynak:"TDV `inancogullari` — AYNEN: \"İnançoğulları muhtemelen 1368'de Germiyanoğulları'nın hâkimiyetini tanımıştır.\" · hassasiyet: YIL, kaynağın kendisi 'muhtemelen' der · olay ilhak değil tâbiyet" },
 
 // ── 1371-11 (NOT2-1016, Emre notu #29) ────────────────────────────────
-{ t:"1371-11-01", kesinlik:"ay", b:"Selanik despotu Manuel, Serez ve Drama bölgesini Bizans idaresine aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Serez",
+{ bolge:3, t:"1371-11-01", kesinlik:"ay", b:"Selanik despotu Manuel, Serez ve Drama bölgesini Bizans idaresine aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Serez",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Çirmen'de (26 Eylül 1371) Kral Vukaşin ve Serez despotu Uglyeşa'nın ölmesiyle Serez bölgesindeki Sırp idaresi sona erdi. Selanik'te hüküm süren Bizans prensi II. Manuel Palaiologos, Kasım 1371'de Serez'i ve Drama'nın da içinde bulunduğu bölgeyi Bizans idaresine aldı. Bölge Eylül 1383'te Osmanlılar'a geçti.",
   kaynak:"TDV `drama` (F. Emecen) — AYNEN: \"Drama’nın da içinde bulunduğu Serez bölgesi, Bizans’ın Selânik valisi Manuel’in hâkimiyeti altına girdi (Kasım 1371)\" · TDV `serez` — AYNEN: \"1371’de Selânik’te hüküm süren II. Manuel Palaeologos tarafından tekrar Bizans idaresine alındı\" · hassasiyet: AY (gün kaynakta yok; 01 ay işaretidir)" },
 
 // ── 1379 (iki ayrı küme, iki ayrı olay) ─────────────────────────────
-{ t:"1379-01-01", b:"Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Niksar",
+{ bolge:2, t:"1379-01-01", b:"Tâceddin Bey Eretna ordusunu Niksar'da bozdu, bağımsız hareket etti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"Niksar",
   etiket:["askeri","toprak-kazanc","konu-siyasi"],
   d:"1379 ilkbaharında Niksar'a saldıran Kadı Burhâneddin ile Eretna Beyi Alâeddin Ali'nin kuvvetlerini Tâceddin Bey bozdu. Eretna Beyliği'ne vergi vermeyi kesti ve 781 (1379) yılından itibaren bağımsız hareket etti.",
   kaynak:"TDV `taceddinogullari` — AYNEN: \"1379 ilkbaharında Niksar'a saldıran Kadı Burhâneddin ile Eretna Beyi Alâeddin Ali'nin kuvvetlerini bozan Tâceddin Bey, Eretna Beyliği'ne vergi vermeyi kesti; 781'den (1379) itibaren de bağımsız hareket etmeye başladı.\" · hassasiyet: YIL ('ilkbahar' metinde)" },
-{ t:"1379-01-01", b:"Timur Harezm'i kesin olarak ele geçirdi", tur:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Köhne Ürgenç (Gürgenç)",
+{ bolge:2, t:"1379-01-01", b:"Timur Harezm'i kesin olarak ele geçirdi", tur:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Köhne Ürgenç (Gürgenç)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Timur, 1371'deki ilk Harezm seferinden sonra üç sefer daha düzenledi. 1379 seferinde bölgeyi kesin olarak ele geçirdi, yağmaladı ve bol ganimetle döndü.",
   kaynak:"TDV `harizm` — AYNEN: \"1379 seferinde bölgeyi kesin olarak ele geçirdi ve yağmalayıp bol ganimetlerle geri döndü.\" · hassasiyet: YIL" },
 
 // ── 1382 ─────────────────────────────────────────────────────────────
-{ t:"1382-01-01", b:"Bosna Kralı I. Tvrtko Herseknovi'yi kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Herseknovi (Herceg Novi)",
+{ bolge:1, t:"1382-01-01", b:"Bosna Kralı I. Tvrtko Herseknovi'yi kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Herseknovi (Herceg Novi)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bosna Kralı I. Tvrtko, tuz ticaretinde Dubrovnik'e rakip olsun diye Topla koyunda yeni bir kasaba kurdu; kasaba sonradan Novi (Herceg Novi) adıyla anıldı.",
   kaynak:"Herceg Novi Belediyesi (resmî site), 'The history', https://www.hercegnovi.me/en/istorija-podnoz — AYNEN: \"The Bosnian king Tvrtko I, in 1382 established a new town in the bay of Topla, as a competitor to Dubrovnik in the trade of salt.\" · hassasiyet: YIL · kurumsal kaynak (TDV'de madde yok: `herseknovi` vb. 302); akademik teyit önerilir" },
 
 // ── 1384 ─────────────────────────────────────────────────────────────
-{ t:"1384-01-01", b:"Dulkadıroğlu Halil Bey Elbistan'ı Memlüklerden geri aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Elbistan",
+{ bolge:2, t:"1384-01-01", b:"Dulkadıroğlu Halil Bey Elbistan'ı Memlüklerden geri aldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Elbistan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"1381'de Memlüklerin eline geçen Elbistan'ı 1384'te Dulkadıroğlu Halil Bey geri aldı.",
   kaynak:"TDV `elbistan` — AYNEN: \"Şehir 1381'de Memlükler'in eline geçtiyse de 1384'te yine Dulkadıroğlu Halil Bey tarafından geri alındı.\" · hassasiyet: YIL" },
 
 // ── 1399-02 ──────────────────────────────────────────────────────────
-{ t:"1399-02-13", b:"Gherardo Appiani Pisa'yı Visconti'ye bıraktı, Piombino senyörlüğünü kurdu", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Elba",
+{ bolge:1, t:"1399-02-13", b:"Gherardo Appiani Pisa'yı Visconti'ye bıraktı, Piombino senyörlüğünü kurdu", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Elba",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Pisa senyörü Gherardo Appiani, şehri 200.000 florine Milano hâkimi Gian Galeazzo Visconti'ye bıraktı. Piombino, Suvereto, Scarlino ile Elba, Pianosa ve Montecristo adalarından oluşan Piombino senyörlüğünü kendine ayırdı.",
   kaynak:"O. Banti, 'APPIANI, Gherardo Leonardo', Dizionario Biografico degli Italiani 3 (1961), Treccani, https://www.treccani.it/enciclopedia/gherardo-leonardo-appiani_(Dizionario-Biografico)/ — AYNEN: \"Il 13 febbraio l'accordo era concluso: l'A. cedeva Pisa al Visconti per 200.000 fiorini riserbandosi, però, la signoria di Piombino, comprendente Piombino, Suvereto, Buriano, Scarlino e le isole Elba, Pianosa, Montecristo, Cerboli e Palmaiola.\" · hassasiyet: GÜN · veri 1399-02-19 (6 gün fark; kaynağa göre Pisa'nın teslimi anlaşmadan birkaç gün sonra)" },
 
 // ── 1410 ─────────────────────────────────────────────────────────────
-{ t:"1410-01-01", b:"Erzincan Karakoyunlu hâkimiyetine girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Erzincan",
+{ bolge:3, t:"1410-01-01", b:"Erzincan Karakoyunlu hâkimiyetine girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Erzincan",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Mutahharten'den sonra Erzincan Karakoyunlu hükümdarı Kara Yûsuf'un eline geçti. Kara Yûsuf şehre önce güvendiği adamlarından Pîr Ömer'i vali atadı.",
   kaynak:"TDV `erzincan` — AYNEN: \"Mutahharten'den sonra Erzincan 1410 yılında Karakoyunlu hâkimiyetine girdi.\" · hassasiyet: YIL" },
 
 // ── 1500 ─────────────────────────────────────────────────────────────
-{ t:"1500-01-01", b:"Şeybânî Han Buhara ve Semerkant'ı aldı", tur:"fetih", onem:4, dunya:3, kapsam:"dis", yer_id:"Buhara",
+{ bolge:3, t:"1500-01-01", b:"Şeybânî Han Buhara ve Semerkant'ı aldı", tur:"fetih", onem:4, dunya:3, kapsam:"dis", yer_id:"Buhara",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Muhammed Şeybânî Han, Timurlular arasındaki kargaşadan yararlanarak Buhara ve Semerkant'ı aldı ve Şeybânîler (Özbekler) hânedanını kurdu. 1500-1507 arasında Mâverâünnehir, Hârizm ve Horasan'ın hemen bütün şehirlerini ele geçirdi.",
   kaynak:"TDV `seybani-han` — AYNEN: \"Şeybânî Han, Timurlular arasındaki kargaşadan istifade ederek 905 (1500) yılında Buhara ve Semerkant'ı aldı\" · TDV `seybaniler`: \"905-913 (1500-1507) yılları arasında Mâverâünnehir, Hârizm ve Horasan'ın hemen hemen bütün şehirlerini ele geçirdi\" · hassasiyet: YIL · NOT: kümenin güney ucu (Termez, Hisar, Külâb) için 1500'ü kaynak söylemez" },
 
 // ── 1510 ─────────────────────────────────────────────────────────────
-{ t:"1510-01-01", b:"İspanyollar Bicâye'yi işgal etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Bicâye",
+{ bolge:3, t:"1510-01-01", b:"İspanyollar Bicâye'yi işgal etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Bicâye",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"Gemilerle gelen 8000 kişilik İspanyol ordusu Bicâye'yi işgal etti; şehir halkı paniğe kapılarak yurdunu terk etti.",
   kaynak:"TDV `bicaye` — AYNEN: \"İspanyollar 1510'da burayı istilâ ettiler. Gemilerle gelen 8000 kişilik İspanyol ordusu karşısında şehir halkı paniğe kapılarak yurtlarını terketti.\" · hassasiyet: YIL · NOT: veride önceki sahip `zeyyani`; TDV şehri Hafsîlerle anar (kimlik ölçülmeli)" },
 
 // ── 1522 ─────────────────────────────────────────────────────────────
-{ t:"1522-01-01", b:"Bagirmi Sultanlığı kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Massenya",
+{ bolge:1, t:"1522-01-01", b:"Bagirmi Sultanlığı kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Massenya",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Kenga kabilesi Birni Besi önderliğinde Çad gölünün doğusundaki Masinya (Massenya) merkezli güçlü bir devlet kurdu. Bagirmi hânedanının kuruluşu geleneksel olarak 1522'ye tarihlenir.",
   kaynak:"TDV İslâm Ansiklopedisi, BAGİRMİ (islamansiklopedisi.org.tr/bagirmi) — ««Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km. doğusunda kalan Masinya’da güçlü bir devlet kurdu.»»", ic_not_d:"DUNYA-1102 hücre 17 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (TDV `bagirmi` — AYNEN: \\\"Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km.) dayanak olamaz, değiştirildi. Britannica atıfı çıkarılıp TDV konabilir. TDV 1522'yi Birni Besi'nin liderlik başlangıcı olarak verir (kuruluş yılı ≈ 1522, hassasiyet YIL, 'geleneksel'). Bağlantılı olay: TDV Vedây'ın Masinya'yı alıp yağmalamasını 1806'ya koyar (künye/Vedây kronolojisindeki 1805 ile 1 yıl fark — ayrı bakılmalı)." },
 
 // ── 1535-11 ──────────────────────────────────────────────────────────
-{ t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
+{ bolge:2, t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Milano dükü II. Francesco Sforza 1-2 Kasım 1535 gecesi çocuksuz öldü. Dükalık İmparator V. Karl'a geçti ve bir İspanyol valisiyle yönetilmeye başlandı.",
   kaynak:"G. Benzoni, 'Francesco II Sforza', Dizionario Biografico degli Italiani, Treccani; Karl V maddesi, NDB, deutsche-biographie.de/gnd118560093.html — «Muore, infatti, a Milano, nel castello di Porta Giovia, nella notte tra il 1° e il 2 nov. 1535 | Der Tod des Herzogs von Mailand, Francesco Sforza (1.11.1535)»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (G. Benzoni, 'FRANCESCO II Sforza', Dizionario Biografico degli Italiani, Treccan) dayanak olamaz, değiştirildi. Tarih (1 Kasım 1535) dükün ölümünü tarihler; DBI 'gece 1-2 Kasım arası', NDB 1.11.1535. Milano'nun Habsburg denetimine geçişi ölümle başlar (Antonio de Leyva). Atlas tarihi korunabilir; Britannica dayanağı yerine bu iki kaynak." },
 
 // ── 1544 ─────────────────────────────────────────────────────────────
-{ t:"1544-01-01", b:"Cenevizliler Tabarka adasına yerleşti", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Tabarka",
+{ bolge:2, t:"1544-01-01", b:"Cenevizliler Tabarka adasına yerleşti", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Tabarka",
   etiket:["siyasi","toprak-kayip","konu-siyasi"],
   d:"V. Karl'ın Tunus hâkimiyle yaptığı ve kıyıda kale kurma ile mercan avına izin veren antlaşma üzerine Peglili bir Ceneviz topluluğu Tabarka adasına yerleştirildi. Ada Lomellini ailesinin yönettiği bir ticaret üssü oldu.",
   kaynak:"İtalya Dışişleri Bakanlığı (MAECI), 'Tunis, a documentary on the history of the Tabarchini', https://www.esteri.it/en/sala_stampa/archivionotizie/retediplomatica/2021/12/tunisi-documentario-sulla-storia-dei-tabarchini/ — AYNEN: \"In 1544, Charles V, following a treaty signed with the then Bey of Tunis giving him permission to establish strongholds on the Tunisian coast and to fish for coral, fostered the settlement on the isle of Tabarka of a group of Genoese people\" · hassasiyet: YIL · kurumsal kaynak; TDV'de madde yok (`tabarka` 302)" },
 
 // ── 1558 ─────────────────────────────────────────────────────────────
-{ t:"1558-01-01", b:"Rusya Livonya'yı istilâ etti, Dorpat düştü", tur:"savas", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
+{ bolge:2, t:"1558-01-01", b:"Rusya Livonya'yı istilâ etti, Dorpat düştü", tur:"savas", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"IV. İvan Baltık'a çıkış için Livonya'yı istilâ ederek Livonya Savaşı'nı başlattı; Narva ve Dorpat'ı (Tartu) ele geçirip Reval'i kuşattı.",
   kaynak:"encyclopedia.com 'Livonian War' (Krom, Encyclopedia of Russian History) — «took the important harbor of Narva (May 11) and the city of Dorpat (July 19)»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Livonian War', https://www.britannica.com/event/Livonian-War — AYNE) dayanak olamaz, değiştirildi. Dorpat 19 Temmuz 1558; Narva 11 Mayıs 1558. Takvim (Jülyen) beyanı ve ikinci kaynak okunmadı." },
 
 // ── 1580-04-10 ───────────────────────────────────────────────────────
-{ t:"1580-04-10", b:"Zamość'ın kuruluş (lokasyon) belgesi", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Zamość",
+{ bolge:1, t:"1580-04-10", b:"Zamość'ın kuruluş (lokasyon) belgesi", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Zamość",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Lehistan Büyük Kançıleri Jan Zamoyski, Zamość şehrinin kuruluş (lokasyon) belgesini verdi.",
   kaynak:"Archiwum Państwowe w Zamościu (Zamość Devlet Arşivi), https://zamosc.ap.gov.pl/2026/04/10/akt-lokacyjny-zamoscia-z-10-kwietnia-1580-r-dokument-od-ktorego-zaczyna-sie-nasza-historia/ — AYNEN: \"Akt lokacyjny Zamościa z 10 kwietnia 1580 r.\" · hassasiyet: GÜN, veriyle birebir" },
 
 // ── 1582-01 ──────────────────────────────────────────────────────────
-{ t:"1582-01-15", b:"Yam Zapolski ateşkesi — Livonya ve Dorpat Lehistan'a geçti", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
+{ bolge:2, t:"1582-01-15", b:"Yam Zapolski ateşkesi — Livonya ve Dorpat Lehistan'a geçti", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Lehistan-Litvanya ile Rusya arasında Yam Zapolski ateşkesi imzalandı; Moskova Livonya üzerindeki iddialarından vazgeçti ve Polotsk topraklarını iade etti. Dorpat (Tartu) 1582'den itibaren Lehistan'ın elinde kaldı.",
   kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — «Traktat podpisano 15 stycznia 1582 r. | Moskwa zrzekła się pretensji do Inflant»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium) dayanak olamaz, değiştirildi. Tarih ateşkesin imzasını tarihler (Kiwerowa Horka). Akademik monografi ikinci kaynak olarak aranmadı." },
 
 // ── 1589-07-02 ───────────────────────────────────────────────────────
-{ t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
+{ bolge:2, t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Çar Fyodor İvanoviç'in 2 Temmuz 1589 tarihli fermanı, Volga'nın güney sınırını korumak için kurulan Tsaritsyn kalesini anar; bu tarih şehrin kuruluş günü kabul edilir.",
   kaynak:"Volgograd Bölge Tarih Müzesi (ВОКМ), https://vokm134.ru/muzej-onlajn/osnovanie-goroda-caricyna.html — AYNEN: \"грамота царя Федора Иоанновича от 2 июля 1589 г.\" · hassasiyet: GÜN (Jülyen; Miladî 12 Temmuz) — veriyle birebir" },
 
 // ── 1590-07-12 ───────────────────────────────────────────────────────
-{ t:"1590-07-12", b:"Saratov kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Saratov",
+{ bolge:2, t:"1590-07-12", b:"Saratov kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Saratov",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Saratov, Volga yolunu ve devletin doğu sınırlarını göçebe akınlarına karşı korumak için Prens Zasekin tarafından kale-karakol olarak kuruldu.",
   kaynak:"Энциклопедия «Немцы России», 'Саратов', https://enc.rusdeutsch.ru/articles/77 — AYNEN: \"Город Саратов был основан 12 июля 1590 г. князем О. Засекиным как крепость-форпост для охраны Волжского пути и восточных границ государства от набегов кочевников.\" · hassasiyet: GÜN (Miladî) · NOT: veri Tsaritsyn'i Jülyen, Saratov'u Miladî günle yazmış — takvim ekseni belirsiz" },
 
 // ── 1593 ─────────────────────────────────────────────────────────────
-{ t:"1593-01-01", b:"Pelım kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Pelım ostrogu",
+{ bolge:1, t:"1593-01-01", b:"Pelım kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Pelım ostrogu",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Voyvoda Pyotr Gorçakov, Tavda ırmağı kıyısında Pelım'i kurdu; kale Batı Sibirya'daki Rus ilerleyişinin dayanak noktalarından biri oldu.",
   kaynak:"Уральская историческая энциклопедия (UrO RAN), 'Пелым', https://ural.academic.ru/1476/ — AYNEN: \"Осн. в 1593 воеводой Петром Горчаковым.\" · hassasiyet: YIL" },
 
 // ── 1598 ─────────────────────────────────────────────────────────────
-{ t:"1598-01-01", b:"Verhoturye kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Verhoturye",
+{ bolge:1, t:"1598-01-01", b:"Verhoturye kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Verhoturye",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Tura kıyısında, eski Neromkar yerleşiminin yerinde Verhoturye müstahkem noktası kuruldu; kuruluşu Sibirya'ya daha kısa bir yol arayışıyla bağlantılıdır.",
   kaynak:"Уральская историческая энциклопедия, 'Верхотурье', https://ural.academic.ru/360/ — AYNEN: \"В. осн. как укрепленный пункт в 1598 на месте древнего «чудского» городища Неромкара.\" · hassasiyet: YIL" },
 
 // ── 1600 ─────────────────────────────────────────────────────────────
-{ t:"1600-01-01", b:"Tura boyunda Turinsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Turinsk",
+{ bolge:1, t:"1600-01-01", b:"Tura boyunda Turinsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Turinsk",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"1600 yılında bugünkü Turinsk bölgesinde Rus kazak-yasak kalesi (ostrog) Turinsk kuruldu; kale Rusya'nın Batı Sibirya'daki ilerleyişinin yol üstü tahkimatlarındandır.",
   kaynak:"Центр сохранения и развития уральской народной культуры (Sverdlovsk bölge kültür kurumu), 'Туринский городской округ', https://uraltradicia.ru/ethnomap/turinskiy-gorodskoy-okrug/ — AYNEN: \"Ещё в 1600 г. на земле нынешнего Туринского района возникает казачье-ясачный острог Туринск.\" · hassasiyet: YIL" },
 
 // ── 1611 ─────────────────────────────────────────────────────────────
-{ t:"1611-01-01", b:"Şah I. Abbas Mâzenderan'da Ferahâbâd şehrini kurdu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Ferahâbâd",
+{ bolge:2, t:"1611-01-01", b:"Şah I. Abbas Mâzenderan'da Ferahâbâd şehrini kurdu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Ferahâbâd",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Safevî hükümdarı I. Abbas, Mâzenderan'da Hazar kıyısına yakın bir yerde Ferahâbâd şehrini kurdurup ülkenin dört bir yanından halkı buraya yerleştirdi. İnşa 1020/1611'de başladı.",
   kaynak:"TDV `abbas-i` — AYNEN: \"Mâzenderan'da, kıyıya yakın bir yerde Ferahâbâd adlı bir şehir kurarak buraya ülkenin her yanından halkın gelip yerleşmesini sağladı.\" (yıl vermez) · W. Kleiss, 'Faraḥābād', Encyclopaedia Iranica, https://www.iranicaonline.org/articles/farahabad — AYNEN: \"beginning in 1020/1611\" · hassasiyet: YIL" },
 
 // ── 1631 ─────────────────────────────────────────────────────────────
-{ t:"1631-01-01", b:"Angara boyunda Rus Bratsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Bratsk ostrogu",
+{ bolge:1, t:"1631-01-01", b:"Angara boyunda Rus Bratsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Bratsk ostrogu",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Rusya'nın Doğu Sibirya'ya ilerleyişi sırasında Angara ırmağı üzerinde Bratsk kalesi kuruldu.",
   kaynak:"Britannica, 'Bratsk', https://www.britannica.com/place/Bratsk — AYNEN: \"A fort was founded there in 1631\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
 
 // ── 1658-02-26 ───────────────────────────────────────────────────────
-{ t:"1658-03-08", ic_not_takvim:"GREGORYEN 8 Mart 1658 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 26 Şubat 1658 Jülyen/eski üslup", b:"Roskilde Antlaşması — Skåne, Halland, Blekinge ve Bornholm İsveç'e geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Kristianstad",
+{ bolge:1, t:"1658-03-08", ic_not_takvim:"GREGORYEN 8 Mart 1658 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 26 Şubat 1658 Jülyen/eski üslup", b:"Roskilde Antlaşması — Skåne, Halland, Blekinge ve Bornholm İsveç'e geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Kristianstad",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Birinci Karl Gustav Savaşı'nı bitiren Roskilde Antlaşması imzalandı; Danimarka-Norveç Skåne, Halland, Blekinge ve Bornholm'u İsveç'e bıraktı.",
   kaynak:"Danmarkshistorien (lex.dk), 'Roskildefreden, 26. februar 1658', https://danmarkshistorien.lex.dk/Roskildefreden,_26._februar_1658 — AYNEN: \"Freden i Roskilde blev underskrevet 26. februar 1658\" / \"De danske besiddelser Skåne, Halland og Blekinge samt Bornholm skulle afstås til Sverige.\" · hassasiyet: GÜN, veriyle birebir" },
 
 // ── 1663 ─────────────────────────────────────────────────────────────
-{ t:"1663-01-01", b:"Rusya Sura boyunda Penza kalesini kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Penza",
+{ bolge:1, t:"1663-01-01", b:"Rusya Sura boyunda Penza kalesini kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Penza",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Penza, Penza ve Sura ırmaklarının birleştiği yerde büyük bir kale olarak kuruldu; 1684'ten sonra Sızran savunma hattının batı ucunu oluşturdu.",
   kaynak:"encyclopedia.com 'Penza' (Columbia Encyclopedia) — «Founded in 1666 as a fortress, Penza was occupied by Stenka Razin in 1670»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Penza', https://www.britannica.com/place/Penza-Russia — AYNEN: \\\"Th) dayanak olamaz, değiştirildi. Columbia 1666 verir, atlas 1663. Rus yerel kaynaklarında kuruluş kararı/inşa ayrımı olabilir (açılmadı); çelişki ic_not'ta iki kaynağıyla beyan edilmeli." },
 
 // ── 1668 (iki ayrı kıta, iki ayrı olay) ─────────────────────────────
-{ t:"1668-01-01", b:"Marquette Sault Ste. Marie'de Fransız misyonunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sault Ste. Marie",
+{ bolge:1, t:"1668-01-01", b:"Marquette Sault Ste. Marie'de Fransız misyonunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sault Ste. Marie",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Cizvit Jacques Marquette, Superior ile Huron gölleri arasındaki Sault Ste. Marie çağlayanları başında bir misyon kurdu.",
   kaynak:"Britannica, 'Sault Sainte Marie (Michigan)', https://www.britannica.com/place/Sault-Sainte-Marie-Michigan — AYNEN: \"Jacques Marquette founded a mission there in 1668\" · hassasiyet: YIL", ic_not_d:"DUNYA-1102 h22-24: teyit tek kaynak. DCB: Marquette 20 Mayıs 1668'de Quebec'ten ayrıldı ve Dablon'un Sault'taki mevcut misyonuna katıldı; misyonun kurucusu olarak anılmıyor. Başlık 'Marquette ve Dablon Sault Ste. Marie'de Cizvit misyonunu kurdu' ya da 'Marquette Sault Ste. Marie misyonuna katıldı' olmalı. Kurucu adı için Canadian Encyclopedia sayfası kesilmiş geldi, okunmadı." },
-{ t:"1668-01-01", b:"Hudson's Bay Company'nin ilk karakolu (Waskaganish) kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Waskaganish (Rupert House)",
+{ bolge:1, t:"1668-01-01", b:"Hudson's Bay Company'nin ilk karakolu (Waskaganish) kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Waskaganish (Rupert House)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"James Körfezi'nde Rupert ırmağının ağzında Médard Chouart des Groseilliers, sonradan Hudson's Bay Company'nin ilk karakolu sayılan yerleşimi kurdu.",
   kaynak:"Britannica, 'Waskaganish', https://www.britannica.com/place/Waskaganish — AYNEN: \"It was founded in 1668 as the first Hudson's Bay Company post by the Médart Chouart, sieur de Groseilliers\" · hassasiyet: YIL", ic_not_d:"DUNYA-1102 h22-24: teyit çift teyit (iki sayfa, aynı kaynak kuruluşu). Nonsuch 3 Haziran 1668'de ayrıldı, 29 Eylül 1668'de Rupert Nehri ağzına demirledi; Charles Fort/Fort Charles 1668-69 kışında kuruldu. Şirket 2 Mayıs 1670'te kuruldu; yani 1668'de 'HBC karakolu' anakronizm, doğrusu 'Nonsuch seferi Rupert Nehri'nde Fort Charles'ı kurdu (sonradan HBC'nin ilk postu sayıldı). 'Waskaganish' Cree topluluğu adı; Rupert House adı sayfada yok. Gün uydurulmaz." },
 
 // ── 1700 ─────────────────────────────────────────────────────────────
-{ t:"1700-01-01", b:"İspanyol sömürge yönetimi Pitic'i (Hermosillo) kurdu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Pitic (Hermosillo)",
+{ bolge:1, t:"1700-01-01", b:"İspanyol sömürge yönetimi Pitic'i (Hermosillo) kurdu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Pitic (Hermosillo)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İspanyol sömürge yönetimi eski bir yerli yerleşiminin yerinde bir kasaba kurdu; kasaba 1828'de José María González de Hermosillo'nun adını aldı.",
   kaynak:"Britannica, 'Hermosillo', https://www.britannica.com/place/Hermosillo — AYNEN: \"The Spanish colonial government founded a town in 1700 on the former site of an Indigenous settlement.\" · hassasiyet: YIL" },
 
 // ── 1716 ─────────────────────────────────────────────────────────────
-{ t:"1716-01-01", b:"İrtiş-Om kavşağında Rus Omsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Omsk",
+{ bolge:1, t:"1716-01-01", b:"İrtiş-Om kavşağında Rus Omsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Omsk",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Omsk, Tobol ile İrtiş arasındaki İşim tahkimat hattının doğu ucunda bir kale olarak kuruldu; 1804'te şehir oldu.",
   kaynak:"Tataurov, Tikhonov, Milishchenko, Vestnik arkheologii, antropologii i etnografii (2024), 'Prehistory of the Omsk fortress' (ipdn.ru/va-en/_private/a67/enga67-3-3.htm) — «ended with the construction of the First Omsk Fortress by I.D. Bukholz in 1716.»", ic_not_d:"DUNYA-1102 hücre 11 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \\\"Omsk) dayanak olamaz, değiştirildi. Yıl 1716 teyit; gün önerilmez (Evseev 1974: birlik Omi ağzına Mayıs'ta vardı, kale güzde tamamlandı; 2 Ağustos yalnız ikincil kaynakta). Tobol-Işım hattı ifadesi doğrulanmadı." },
 
 // ── 1717 ─────────────────────────────────────────────────────────────
-{ t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+{ bolge:1, t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Tsering Döndup komutasındaki Cungar ordusu, Hoşut hükümdarı Lajang Han'ın savunduğu Lhasa'ya gece yarısından sonra her yönden saldırdı; içeriden destek bulan Cungarlar şehri ele geçirip yağmaladı, Potala'yı da talan ettiler. Lajang Han kaçarken öldürüldü; Cungarlar sTag-rtse-pa başında bir kukla Tibet hükûmeti kurdu.",
   kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), bölüm 'Dsungar occupation and Tibetan risings' — AYNEN: \"after midnight on the 30th of November 1717 the Dsungars attacked Lhasa on all sides\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
 
 // ── 1720 ─────────────────────────────────────────────────────────────
-{ t:"1720-09-24", b:"Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
+{ bolge:1, t:"1720-09-24", b:"Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Kangxi'nin Tibet'e gönderdiği iki ordudan Galbi komutasındaki Sichuan kolu zorlu bir yürüyüşle Lhasa'ya ulaştı ve şehri direnişsiz aldı; Cungarlar bütün kuvvetlerini kuzeyden gelen Kokonor ordusuna karşı Dam'da toplamıştı. Cungarların Tibet'ten çekilmesiyle Qing, Lhasa'da kalıcı bir himaye düzeni kurdu.",
   kaynak:"L. Petech, China and Tibet in the Early XVIIIth Century (2. bs., Brill 1972), s. 68 — AYNEN: \"Galbi's forces reached Lhasa, which they occupied on 23/VIII = September 24th. They had met with no opposition\" · archive.org tam metin · hassasiyet: GÜN · KUTU-VERI-1015 (0086/H-0006)" },
 
 // ── 1721 ─────────────────────────────────────────────────────────────
-{ t:"1721-01-01", b:"Aguayo seferi Los Adaes presidyosunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Los Adaes",
+{ bolge:1, t:"1721-01-01", b:"Aguayo seferi Los Adaes presidyosunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Los Adaes",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Aguayo Markisi'nin seferi Los Adaes'te bir presidyo (askerî karakol) kurdu ve misyonu yeniden iskân etti; karakol Yeni İspanya'nın Fransız Louisiana'sına karşı Doğu Teksas sınır noktası oldu.",
   kaynak:"J. L. McCorkle Jr., 'Los Adaes', Handbook of Texas (Texas State Historical Association), https://www.tshaonline.org/handbook/entries/los-adaes — AYNEN: \"His expedition established the presidio and reoccupied the mission at Los Adaes in 1721.\" · hassasiyet: YIL" },
 
 // ── 1722 ─────────────────────────────────────────────────────────────
-{ t:"1722-01-01", b:"Baraba bozkırında Rus Kainsk karakolu kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Kainsk (Baraba)",
+{ bolge:1, t:"1722-01-01", b:"Baraba bozkırında Rus Kainsk karakolu kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Kainsk (Baraba)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Baraba bozkırına kurulan üç kalıcı Rus tahkimatından (pas) Kainsk pası, Om ırmağının orta yatağında Kainka deresinin kavuştuğu yerde kuruldu.",
   kaynak:"Novosibirsk Oblastı Tarihî-Kültürel Mirası Koruma Merkezi (НПЦ), 'Куйбышев (Каинск): исторический очерк', http://nasledie-nso.ru/node/261 — AYNEN: \"Каинский пас был поставлен в 1722 г. в среднем течении р. Оми при впадении в нее речки Каинки.\" · hassasiyet: YIL" },
 
 // ── 1743 ─────────────────────────────────────────────────────────────
-{ t:"1743-01-01", b:"Uy ırmağı kıyısında Rus Troitsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Troitsk",
+{ bolge:1, t:"1743-01-01", b:"Uy ırmağı kıyısında Rus Troitsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Troitsk",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Troitsk, Uy ırmağına Uvelka'nın karıştığı yerde bir kale olarak kuruldu ve 1784'te şehir beratı aldı.",
   kaynak:"Britannica, 'Troitsk', https://www.britannica.com/place/Troitsk — AYNEN: \"Founded in 1743 as a fortress, it was chartered in 1784.\" · hassasiyet: YIL" },
 
 // ── 1749-12-15 ───────────────────────────────────────────────────────
-{ t:"1749-12-15", b:"Elizaveta'nın fermanıyla Don ağzında Temernik gümrüğü kuruldu (Rostov'un çekirdeği)", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Rostov (Don)",
+{ bolge:2, t:"1749-12-15", b:"Elizaveta'nın fermanıyla Don ağzında Temernik gümrüğü kuruldu (Rostov'un çekirdeği)", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Rostov (Don)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İmparatoriçe Elizaveta Petrovna, Don üzerinde Temernik ırmağı ağzında bir gümrük kurulması fermanını çıkardı; Temernik gümrüğü Rostov-na-Donu şehrinin erken tarihinin başlangıcıdır.",
   kaynak:"Ростовский областной музей краеведения, 'Темерницкая таможня. Страница ранней истории города Ростова-на-Дону', https://www.rostovmuseum.ru/calendar/detail/?ID=4709 — AYNEN: \"15 декабря 1749 г. был издан указ Императрицы Елизаветы Петровны о сооружении таможни\" · hassasiyet: GÜN (Jülyen), veriyle birebir" },
 
 // ── 1750 ─────────────────────────────────────────────────────────────
-{ t:"1750-01-01", b:"Fransızlar Toronto'da Humber üzerinde ticaret karakolu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"York (Toronto)",
+{ bolge:1, t:"1750-01-01", b:"Fransızlar Toronto'da Humber üzerinde ticaret karakolu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"York (Toronto)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Fransızlar Humber ırmağı üzerinde ikinci bir karakol kurdu; ertesi yıl bugünkü Exhibition Place'te Fort Rouillé'yi yaptılar.",
   kaynak:"J. H. Marsh, 'Toronto Feature: Fort Rouillé', The Canadian Encyclopedia (Historica Canada), https://www.thecanadianencyclopedia.ca/en/article/toronto-feature-fort-rouille — AYNEN: \"In 1750, they built a second post on the Humber, and in 1751 a fort, this time on the present grounds of Exhibition Place.\" · hassasiyet: YIL" },
 
 // ── 1751 ─────────────────────────────────────────────────────────────
-{ t:"1751-01-01", b:"Ahmed Şah Dürrânî Belh'i ülkesine kattı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
+{ bolge:1, t:"1751-01-01", b:"Ahmed Şah Dürrânî Belh'i ülkesine kattı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Afgan hükümdarı Ahmed Şah Dürrânî Belh'i kendi egemenlik alanına kattı.",
   kaynak:"TDV `belh` — AYNEN: \"1751'de Afgan Şahı Ahmed Dürrânî Belh'i kendi egemenlik alanı içine aldı.\" · hassasiyet: YIL" },
 
 // ── 1752 ─────────────────────────────────────────────────────────────
-{ t:"1752-01-01", b:"İşim boyunda Rus Petropavlovsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Petropavlovsk (Kızılcar)",
+{ bolge:1, t:"1752-01-01", b:"İşim boyunda Rus Petropavlovsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Petropavlovsk (Kızılcar)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Petropavlovsk bir Rus kalesi olarak kuruldu ve kısa sürede Rusya ile Orta Asya ve Kazak bozkırı arasındaki ticaretin önemli merkezi oldu.",
   kaynak:"Britannica, 'Petropavlovsk' (Kazakistan), https://www.britannica.com/place/Petropavlovsk — AYNEN: \"Petropavlovsk was founded as a Russian fort in 1752 and soon became an important centre of trade between Russia and Central Asia and the Kazakh steppes.\" · hassasiyet: YIL" },
 
 // ── 1808 ─────────────────────────────────────────────────────────────
-{ t:"1808-01-01", b:"Sultânâbâd (Erâk) şehri kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Erâk (Sultânâbâd)",
+{ bolge:2, t:"1808-01-01", b:"Sultânâbâd (Erâk) şehri kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Erâk (Sultânâbâd)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Kaçar döneminde General Yûsuf Han Gürcî bugünkü Erâk şehrini kurdu ve ona Sultânâbâd adını verdi.",
   kaynak:"Encyclopaedia Iranica, 'ARĀK', https://www.iranicaonline.org/articles/arak — AYNEN: \"The present town was founded in 1223/1808 by the general Yūsof Khan Gorǰī, who named it Solṭānābād\" · hassasiyet: YIL" },
 
 // ── 1818 ─────────────────────────────────────────────────────────────
-{ t:"1818-01-01", b:"Beaufort (Beaufort West) kasabası kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Beaufort West",
+{ bolge:1, t:"1818-01-01", b:"Beaufort (Beaufort West) kasabası kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Beaufort West",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İngiliz Ümit Burnu Kolonisi'nde, Karoo'daki Hooyvlakte çiftliği üzerinde Beaufort kasabası kuruldu.",
   kaynak:"South African History Online (SAHO), 'Beaufort West', https://sahistory.org.za/place/beaufort-west-cape-town — AYNEN: \"A Town 573 km from Cape Town, established in 1818 on the Farm: ''Hooyvlakte''.\" · hassasiyet: YIL · SAHO kâr amacı gütmeyen eğitim/arşiv kurumu (akademik yayın değil)" },
 
 // ── 1826 ─────────────────────────────────────────────────────────────
-{ t:"1826-01-01", b:"Belh Buhara emîrinin işgaline uğradı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
+{ bolge:1, t:"1826-01-01", b:"Belh Buhara emîrinin işgaline uğradı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Dürrânî Afgan hâkimiyetindeki Belh, 1826'da Buhara emîrinin işgaline uğradı; şehir 1841'de Afganlılar tarafından yeniden alındı.",
   kaynak:"TDV `belh` — AYNEN: \"1826’da Buhara Emîri Özbek Han’ın işgaline uğrayan şehir 1841’de Afganlılar tarafından tekrar ele geçirildi\" · hassasiyet: YIL · NOT: verideki Belh `buhara` dönemi 1841'e karşı ölçülmeli" },
 
 // ── 1830 ─────────────────────────────────────────────────────────────
-{ t:"1830-01-01", b:"Rusya İşim üzerinde Akmola kalesini kurdu", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Akmola (Akmolinsk)",
+{ bolge:1, t:"1830-01-01", b:"Rusya İşim üzerinde Akmola kalesini kurdu", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Akmola (Akmolinsk)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Rusya, İşim ırmağı üzerindeki Karautkul'da Akmola kalesini inşa ederek burayı Sibirya Kırgızlarının (Kazaklarının) ülkesinin merkez kasabası yaptı.",
   kaynak:"e-history.kz (Kazakistan devlet tarih portalı), 'History of Astana', https://e-history.kz/en/history-of-kazakhstan/show/9740 — AYNEN: \"Akmola's history starts in 1830 with the construction of the Akmola fortress in Karautkul\" · hassasiyet: YIL" },
 
 // ── 1847 ─────────────────────────────────────────────────────────────
-{ t:"1847-01-01", b:"Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanmaya başladı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Kopal (Kapal)",
+{ bolge:1, t:"1847-01-01", b:"Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanmaya başladı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Kopal (Kapal)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Rusya, Kıdemli Cüz Kazaklarının talebiyle Yedisu Alatau'sunun eteğinde Kopal tahkimatını kurdu. Kaynağa göre bu, İli ırmağına kadar Kuzey Yedisu'nun Rusya'ya katılmasını kolaylaştırdı.",
   kaynak:"Kolesnik, Tarasov, Gergilev, Novoseltsev, 'Interethnic Relations in Russian Central Asia (19th – Early 20th Centuries)', Journal of Siberian Federal University. Humanities & Social Sciences (2018), https://pdfs.semanticscholar.org/b1ce/f0037e4e072c5bce70f3c8efce2f61f9ad9a.pdf — AYNEN: \"The foundation of the Kopal fortification at the foot of the Semirechye Alatau in 1847 by the request of the Kazakhs from the Senior zhuz favoured the accession of all the Northern Semirechye, stretching up to the Ili river, to Russia\" · hassasiyet: YIL · NOT: aynı kırılmadaki Almatı (Vernıy) için 1847 DESTEKLENMEZ (TDV `kazakistan` ilhak fermanı 1854)" },
 
 // ── 1852 ─────────────────────────────────────────────────────────────
-{ t:"1852-01-01", b:"Kıyı tüccarları Kazeh'e (Tabora) yerleşti", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Tabora (Kazeh)",
+{ bolge:1, t:"1852-01-01", b:"Kıyı tüccarları Kazeh'e (Tabora) yerleşti", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Tabora (Kazeh)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bir yerel hükümdarla çatışmanın ardından Doğu Afrika kıyısından gelen tüccarlar güneye göç etti; Unyanyembe reisi Fundikira onlara merkezi Itetemia yakınında yerleşme yeri verdi. Bu yerleşim Tabora kervan merkezinin çekirdeği oldu.",
   kaynak:"K. Pallaver, 'A triangle: Spatial processes of urbanization and political power in 19th-century Tabora, Tanzania', Afriques 11 (2020), https://journals.openedition.org/afriques/2871 — AYNEN: \"In 1852, however, after a conflict with a local ruler, the coastal traders moved to the south where the mtemi Fundikira offered them a place to settle close to the capital of his chiefdom, Itetemia.\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma) · NOT: aynı makaleye göre Zengibar valisi ancak 1860'ların başında atandı — verideki `umman-zengibar` sahipliği 1852 için desteklenmiyor" },
 
 // ── 1880-06 ──────────────────────────────────────────────────────────
-{ t:"1880-06-13", b:"Brazza Franceville'i kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Fransvil (Franceville)",
+{ bolge:1, t:"1880-06-13", b:"Brazza Franceville'i kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Fransvil (Franceville)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Pierre Savorgnan de Brazza, Mpassa ırmağına bakan kayalık bir çıkıntı üzerinde Fransa adına Franceville karakolunu kurdu.",
   kaynak:"R. Pourtier, 'De Franceville à Masuku, ontogenèse d'une ville centenaire', Bulletin de l'Association de géographes français 57/473 (1980), https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203 — AYNEN: \"C'était le 13 juin 1880, sur un éperon rocheux dominant la rivière Mpassa.\" · hassasiyet: GÜN · veri kırılması 19 Eyl'de 06-01'den 06-13'e çekildi" },
 
 // ── 1888 ─────────────────────────────────────────────────────────────
-{ t:"1888-05-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
+{ bolge:2, t:"1888-05-01", b:"Hadramut sahili (Mükellâ) İngiliz himayesine girdi", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Mukalla",
   ic_not_gun:"KUTU-H4-1015: yıl yer tutucusu 1888-01-01'di; gün Aitchison, A Collection of Treaties c. XI No. LXXI (himaye antlaşması metni): 1 Mayıs 1888'de Şihr'de imzalandı. TDV hadramut yalnız yılı verir. Mukalla yerleşiminin ingiltere dönemi başlangıcı da aynı güne çekildi.",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"Şihr ve Mükellâ dahil Hadramut sahiline hâkim olan Yâfiîler (Kuaytîler) ile İngiltere arasında himaye antlaşması imzalandı; İngilizler sahildeki Yâfiî yönetiminin dış ilişkilerini tamamen üstlendi.",
   kaynak:"TDV `hadramut` — AYNEN: \"İngilizler, 1888’de imzaladıkları himaye antlaşmasıyla da sahilde hâkim olan Yâfiîler’in dış ilişkilerini tamamen üzerlerine aldılar.\" · Aitchison c. XI No. LXXI (gün: 1 Mayıs 1888) · hassasiyet: GÜN · NOT: himaye (tâbi) ilişkisi; veride doğrudan `ingiltere`" },
 
 // ── 1890 ─────────────────────────────────────────────────────────────
-{ t:"1890-01-01", b:"Fransızlar Colof'un tamamına hâkim oldu", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Linguère (Colof)",
+{ bolge:1, t:"1890-01-01", b:"Fransızlar Colof'un tamamına hâkim oldu", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Linguère (Colof)",
   etiket:["siyasi","toprak-kayip","konu-siyasi"],
   d:"Kabile reisleriyle yaptıkları anlaşmalarla bölgeyi sömürgeleştiren Fransızlar 1890'da Colof'un tamamına hâkim oldu.",
   kaynak:"TDV `colof` — AYNEN: \"Kabile reisleriyle yaptıkları anlaşmalarla bölgeyi sömürgeleştirmeyi başaran Fransızlar 1890’da Colof’un tamamına hâkim olmuşlardır.\" · hassasiyet: YIL" },
 
 // ── 1893 ─────────────────────────────────────────────────────────────
-{ t:"1893-01-01", b:"Cenne Fransızlarca işgal edildi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cenne (Djenné)",
+{ bolge:1, t:"1893-01-01", b:"Cenne Fransızlarca işgal edildi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cenne (Djenné)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"El-Hâc Ömer'in kurduğu devletin elindeki Cenne, 1893'te Fransız kuvvetlerince işgal edilerek Fransız Sudanı'na katıldı.",
   kaynak:"TDV `cenne` — AYNEN: \"Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi; 1893’te ise Fransız kuvvetlerince işgal edilerek Fransız Sudanı topraklarına katıldı.\" · hassasiyet: YIL" },
 
 // ── 1894 ─────────────────────────────────────────────────────────────
-{ t:"1894-01-01", b:"Gweru askerî karakol olarak kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Gveru",
+{ bolge:1, t:"1894-01-01", b:"Gweru askerî karakol olarak kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Gveru",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bugünkü Zimbabve'nin orta kesiminde Gweru şehri askerî bir karakol olarak kuruldu; sonradan tarım merkezi oldu ve 1914'te belediye statüsü aldı.",
   kaynak:"Britannica, 'Gweru', https://www.britannica.com/place/Gweru — AYNEN: \"The modern town, founded in 1894 as a military outpost, developed as an agricultural centre and became a municipality in 1914.\" · hassasiyet: YIL" },
 
 // ── 1897 ─────────────────────────────────────────────────────────────
-{ t:"1897-01-01", b:"Bagirmi Sultanlığı Fransız himayesine girdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Massenya",
+{ bolge:1, t:"1897-01-01", b:"Bagirmi Sultanlığı Fransız himayesine girdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Massenya",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Râbih'in tehdidi karşısında Bagirmi hükümdarı Gavrang Fransa ile zorunlu bir himaye antlaşması yaptı. Buna tepki gösteren Râbih Bagirmi'yi işgale yönelince Gavrang başşehir Masinya'yı kendi eliyle yaktı.",
   kaynak:"TDV `bagirmi` — AYNEN: \"Bu durum karşısında Gavrang Fransa ile mecburen bir himaye antlaşması yaptı (1897) ve buna şiddetli tepki gösteren Râbih’in Bagirmi’yi işgale yönelmesi üzerine kendi eli ile başşehri Masinya’yı yaktı.\" · hassasiyet: YIL · NOT: himaye; bölgenin tam denetimi TDV'ye göre 1900" },
 
 // ── 1898 ─────────────────────────────────────────────────────────────
-{ t:"1898-01-01", b:"Gao Fransızlarca işgal edildi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Gao",
+{ bolge:1, t:"1898-01-01", b:"Gao Fransızlarca işgal edildi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Gao",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Nijer kıyısındaki eski Songay başşehri Gao 1898'de Fransızlarca işgal edildi; işgalden sonra şehir yeniden büyüyerek bölgenin merkezi oldu.",
   kaynak:"TDV `gao` — AYNEN: \"Ancak Fransız işgalinden (1898) sonra burası yeniden büyüyerek bölgenin merkezi oldu.\" · hassasiyet: YIL · NOT: veride önceki sahip `fas`; 1898'de Fas sahipliğine dayanak görülmedi" },
 
 // ── 1903-07-27 ───────────────────────────────────────────────────────
-{ t:"1903-07-27", b:"Burmi Savaşı — Sokoto Halifeliği'nin siyasî hâkimiyeti sona erdi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Bauci (Bauchi)",
+{ bolge:1, t:"1903-07-27", b:"Burmi Savaşı — Sokoto Halifeliği'nin siyasî hâkimiyeti sona erdi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Bauci (Bauchi)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İngilizlerin Sokoto'yu işgalinden sonra kaçan Halife Muhammed Tâhir, İngilizlerle yaptığı yeni bir savaşta öldürüldü; yaklaşık bir asır süren Sokoto halifeliğinin siyasî hâkimiyeti sona erdi.",
   kaynak:"TDV `sokoto` — AYNEN: \"Askerlerinin çoğunu kaybettikten sonra kaçmayı başaran Tâhir’in İngilizler’le yaptığı yeni bir savaşta öldürülmesiyle yaklaşık bir asır süren Sokoto halifeliğinin siyasî hâkimiyeti sona erdi (27 Temmuz 1903).\" · savaşın adı TDV `elfa-hasim`: \"1903’te Burmi savaşının ardından\" · hassasiyet: GÜN, veriyle birebir · NOT: Yola için TDV `adamava` 1901 der" },
 
 // ── 1904 ─────────────────────────────────────────────────────────────
-{ t:"1904-01-01", b:"Nakuru resmen kasaba olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Nakuru",
+{ bolge:1, t:"1904-01-01", b:"Nakuru resmen kasaba olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Nakuru",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Uganda Demiryolu üzerindeki konumu sayesinde Nakuru resmen kasaba olarak kuruldu ve bölgenin tarım ürünleri merkezi oldu.",
   kaynak:"Nakuru County Government, 'History', https://www.nakuru.go.ke/history/ — AYNEN: \"1904 Growth as a Railway Town Nakuru was officially established as a town due to its strategic location along the railway\" · hassasiyet: YIL" },
 
 // ── 1911 ─────────────────────────────────────────────────────────────
-{ t:"1911-01-01", b:"Fransızlar Canet'i (Djanet) işgal etti", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cânet (Djanet)",
+{ t:"1911-01-01", b:"Fransızlar Canet'i (Djanet) işgal etti", tur:"fetih", onem:2, dunya:2, kapsam:"ic", yer_id:"Cânet (Djanet)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Gat'a bağlı Osmanlı nahiyesi Canet 1911'de Fransızlarca işgal edildi. Nahiye müdürü Şeyh Amud bu tarihe kadar Osmanlı Devleti'nden maaş almıştı.",
   kaynak:"TDV `tevarik` — AYNEN: \"Şeyh Amud 1911 yılında Fransızlar’ın burayı işgal etmesine kadar Osmanlı Devleti’nden maaş aldı.\" · hassasiyet: YIL · UYARI: aynı madde \"3 Mayıs 1911’de Canet, Osmanlı nahiyesi olarak kayıtlıydı\" der — işgal Mayıs'tan SONRA; veride önceki sahip `tuareg-accer`, TDV'ye göre Osmanlı" },
 
 // ── 1914 ─────────────────────────────────────────────────────────────
-{ t:"1915-01-01", kesinlik:"yil", gun:"1915 (bahar; gün kaynakta yok)", b:"Anchorage Alaska Demiryolu merkezi olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Anchorage",
+{ bolge:1, t:"1915-01-01", kesinlik:"yil", gun:"1915 (bahar; gün kaynakta yok)", b:"Anchorage Alaska Demiryolu merkezi olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Anchorage",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Kongre'nin 12 Mart 1914'te Alaska Railroad Act'i kabul etmesinin ardından, 1915 baharında Alaska Mühendislik Komisyonu Ship Creek'te demiryolu şantiyesini kurdu; kıyıda çadır kent doğdu, Nisan 1915'te posta idaresi yeni kasabaya Anchorage adını verdi. Şehir kuzeyde Fairbanks'a uzanan Alaska Demiryolu'nun merkezi oldu.",
   kaynak:"Cook Inlet Historical Society, Legends & Legacies, Anchorage 1910-1940 — Anchorage Timeline (https://www.alaskahistory.org/anchorage-timeline): «1915, spring: “Tent City” develops on the north shore of Ship Creek» ; Alaska Railroad Corporation, History (alaskarailroad.com/corporate/history): 1915 «Anchorage starts off as a tent town and serves as a railroad construction community along Ship Creek»",
@@ -9895,122 +9895,122 @@ window.OLAYLAR_2S_0919 = [
 // ═════════════════════════════════════════════════════════════════════
 
 // ── Diyarbakır zinciri (TDV diyarbakir) ─────────────────────────────
-{ t:"1343-01-01", b:"Sutayoğulları'ndan İbrâhim Şah Diyarbekir'e hâkim oldu", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+{ bolge:2, t:"1343-01-01", b:"Sutayoğulları'ndan İbrâhim Şah Diyarbekir'e hâkim oldu", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İlhanlı Devleti dağıldıktan sonra Celâyirliler ile Çobanlılar arasında mücadelelere sahne olan Diyarbekir yöresine Sutayoğulları'ndan İbrâhim Şah hâkim oldu; hâkimiyeti 1353'e kadar sürdü.",
   kaynak:"TDV `diyarbakir` — AYNEN: \"İlhanlı Devleti’nin dağılmasından sonra Celâyirliler ve Çobanlılar arasında mücadelelere sahne olan Diyarbekir yöresine 1343-1353 yılları arasında Sutayoğulları’ndan İbrâhim Şah hâkim olduysa da\" · hassasiyet: YIL" },
-{ t:"1353-01-01", b:"İbrâhim Şah'ın ölümüyle Diyarbekir Celâyirlilerin idaresine girdi", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+{ bolge:2, t:"1353-01-01", b:"İbrâhim Şah'ın ölümüyle Diyarbekir Celâyirlilerin idaresine girdi", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Diyarbekir yöresine 1343'ten beri hâkim olan Sutayoğlu İbrâhim Şah'ın ölümü üzerine bölge Celâyirlilerin idaresine girdi.",
   kaynak:"TDV `diyarbakir` — AYNEN: \"1343-1353 yılları arasında Sutayoğulları’ndan İbrâhim Şah hâkim olduysa da onun ölümü üzerine bölge Celâyirliler’in idaresine girdi.\" · hassasiyet: YIL (1353 aralığın ucundan)" },
-{ t:"1394-04-25", b:"Timur Diyarbekir'i (Âmid) zaptedip yağmaladı", tur:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Diyarbakır",
+{ bolge:4, t:"1394-04-25", b:"Timur Diyarbekir'i (Âmid) zaptedip yağmaladı", tur:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Diyarbakır",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Timur 25 veya 26 Nisan 1394'te Diyarbekir'i zaptetti ve şehri yağmaladı.",
   kaynak:"TDV `diyarbakir` — AYNEN: \"25 veya 26 Nisan 1394’te Timur tarafından zaptedilerek yağma edilen şehir\" · hassasiyet: GÜN (kaynak 25/26 diyor; erken uç yazıldı)" },
-{ t:"1401-01-01", b:"Diyarbekir Karayülük Osman Bey'e verildi — Akkoyunlu hâkimiyeti başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
+{ bolge:4, t:"1401-01-01", b:"Diyarbekir Karayülük Osman Bey'e verildi — Akkoyunlu hâkimiyeti başladı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Diyarbakır",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Timur'un 1394'te zaptettiği Diyarbekir 1401'de Karayülük Osman Bey'e verildi ve böylece bölgede Akkoyunlu hâkimiyeti başladı.",
   kaynak:"TDV `diyarbakir` — AYNEN: \"şehir 1401’de Karayülük Osman Bey’e verildi ve böylece bölgede Akkoyunlu hâkimiyeti başlamış oldu\" · hassasiyet: YIL" },
 
 // ── Enez 1355 ────────────────────────────────────────────────────────
-{ t:"1355-01-01", b:"Enez Ceneviz idaresine geçti (Gattilusi ailesi)", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Enez",
+{ bolge:3, t:"1355-01-01", b:"Enez Ceneviz idaresine geçti (Gattilusi ailesi)", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Enez",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bizans devrinde önemli bir liman şehri olan Enez 1355'te Ceneviz idaresine geçti ve Gattilusi ailesince yönetildi.",
   kaynak:"TDV `ayasofya-camii--enez` — AYNEN: \"Bizans devrinde önemli bir liman şehri olan Enez 1355’te Cenova idaresine geçmiş ve Gattelusi ailesi tarafından idare edilmişti.\" · hassasiyet: YIL · (`enez` slug'ı 302/ölü)" },
 
 // ── Erzincan-Bayburt 1378 ────────────────────────────────────────────
-{ t:"1378-01-01", b:"Pîr Hüseyin Bey'in ölümüyle Erzincan ve Bayburt Mutahharten'e geçti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Erzincan",
+{ bolge:2, t:"1378-01-01", b:"Pîr Hüseyin Bey'in ölümüyle Erzincan ve Bayburt Mutahharten'e geçti", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Erzincan",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Erzincan emîri Pîr Hüseyin Bey'in ölümü üzerine Erzincan ve Bayburt, Eretna emîrlerinden Mutahharten'in eline geçti; Mutahharten Erzincan emîri oldu.",
   kaynak:"TDV `akkoyunlular` — AYNEN: \"Onun da ölümü üzerine (1378), Erzincan ve Bayburt Eretna emîrlerinden Mutahharten’in eline geçti.\" · TDV `erzincan`: \"Pîr Hüseyin Bey’in vefatıyla (1378) Eretna emîrlerinden Mutahharten’in Erzincan emîri olması\" · hassasiyet: YIL" },
 
 // ── Karlovac 13 Temmuz 1579 ──────────────────────────────────────────
-{ t:"1579-07-13", b:"Karlovac kalesi kuruldu", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Karlovac",
+{ bolge:3, t:"1579-07-13", b:"Karlovac kalesi kuruldu", tur:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Karlovac",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Hırvatistan'ı ve Avusturya veraset topraklarını Osmanlılara karşı korumak için Kupa ile Korana arasındaki taşkın alanında Karlovac kalesi kuruldu; kaleyi Hırvatistan askerî sınırının komutanı Arşidük II. Karl yaptırdı.",
   kaynak:"Hrvatska enciklopedija (LZMK), 'Karlovac', https://www.enciklopedija.hr/clanak/karlovac — AYNEN: \"Osnovan je 13. VII. 1579. kao tvrđava za obranu Hrvatske i austrijskih nasljednih zemalja od Osmanlija\" · hassasiyet: GÜN" },
 
 // ── Zaria 1806 ───────────────────────────────────────────────────────
-{ t:"1806-01-01", b:"Osman b. Fûdî'nin cihad ordusu Zaria'yı aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Zaria (Zazzau)",
+{ bolge:1, t:"1806-01-01", b:"Osman b. Fûdî'nin cihad ordusu Zaria'yı aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Zaria (Zazzau)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Osman b. Fûdî'nin başlattığı cihad sırasında Gobir başşehri Alkalawa'ya yapılan ilk saldırı başarısız olduysa da 1806'da Zaria ele geçirildi.",
   kaynak:"TDV `osman-b-fudi` — AYNEN: \"Aynı yıl içinde Gobir’in başşehri Alkalawa’ya düzenlenen ilk saldırı başarısızlıkla sonuçlandıysa da 1806’da Zaria ele geçirildi.\" · hassasiyet: YIL" },
 
 // ── Cenne 1861 · Hamdullahi 16 Mayıs 1862 ────────────────────────────
-{ t:"1861-01-01", b:"El-Hâc Ömer'in Fûlânîleri Cenne'yi aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cenne (Djenné)",
+{ bolge:1, t:"1861-01-01", b:"El-Hâc Ömer'in Fûlânîleri Cenne'yi aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Cenne (Djenné)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Mâsînâ Devleti'nin garnizon bulundurduğu Cenne, 1861'de el-Hâc Ömer yönetimindeki Fûlânîlerin eline geçti.",
   kaynak:"TDV `cenne` — AYNEN: \"Cenne 1861’de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi\" · hassasiyet: YIL · ÇELİŞKİ: TDV `mali` Mâsînâ'nın sonunu 16 Mayıs 1862 verir (Cenne'yi ayrıca tarihlemez)" },
-{ t:"1862-05-16", b:"El-Hâc Ömer Hamdullahi'yi aldı — Mâsînâ Devleti'nin sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Hamdullahi",
+{ bolge:1, t:"1862-05-16", b:"El-Hâc Ömer Hamdullahi'yi aldı — Mâsînâ Devleti'nin sonu", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Hamdullahi",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Segu'dan kaçan Bina Ali'nin sığındığı Mâsînâ'nın müttefik birlikleri yenildi; Mâsînâ'nın merkezi Hamdullahi el-Hâc Ömer'in eline geçti, Bina Ali ve Ahmedü Ahmedü idam edildi.",
   kaynak:"TDV `mali` — AYNEN: \"Mâsînâ’nın merkezi Hamdallahi 16 Mayıs 1862 tarihinde el-Hâc Ömer’in eline geçti; Bina Ali ve Ahmedü Ahmedü idam edildi.\" · hassasiyet: GÜN" },
 
 // ── Kaffa Ekim 1897 ──────────────────────────────────────────────────
-{ t:"1897-10-01", b:"Kaffa Krallığı Habeşistan'a katıldı — son kral Gaki Şeroço esir düştü", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Bonga (Kaffa)",
+{ bolge:1, t:"1897-10-01", b:"Kaffa Krallığı Habeşistan'a katıldı — son kral Gaki Şeroço esir düştü", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Bonga (Kaffa)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"II. Menelik'in Ras Walda Giyorgis komutasındaki kuvvetleri Mart 1897'de Kaffa'ya girdi. Ağır çarpışmalardan sonra Kaffa fethedildi; son kral Gaki Şeroço Ekim 1897'de yakalanıp teslim oldu.",
   kaynak:"E. Haberland, 'Gaki Sherocho', Encyclopaedia Africana Dictionary of African Biography I (DACB yeniden basımı), https://dacb.org/stories/ethiopia/gaki-sherocho/ — AYNEN: \"After heavy fighting, Kaffa was conquered, and Gaki Sherocho was captured and submitted, in October 1897.\" · hassasiyet: AY (10-01 = Ekim, gün bilinmiyor)" },
 
 // ── Nairobi 1899 ─────────────────────────────────────────────────────
-{ t:"1899-01-01", b:"Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Nairobi",
+{ bolge:1, t:"1899-01-01", b:"Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Nairobi",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Bugünkü Nairobi'nin bulunduğu, o zamana kadar büyük ölçüde ıssız bataklık alanda İngilizler Mombasa'yı Uganda'ya bağlayan Uganda Demiryolu'nun ikmal deposunu kurdu.",
   kaynak:"Nairobi City County, 'History', https://nairobi.go.ke/history — AYNEN: \"The area Nairobi currently occupies was essentially uninhabited swamp until a supply depot of the Uganda Railway was built by the British in 1899 linking Mombasa to Uganda.\" · Kenya Railways Corporation broşürü: \"1899: Rail head reach Nyrobi\" · hassasiyet: YIL" },
 
 // ── Yola 1901 ────────────────────────────────────────────────────────
-{ t:"1901-01-01", b:"Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Yola",
+{ bolge:1, t:"1901-01-01", b:"Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Yola",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşıldı; Adama'nın dördüncü oğlu Bobbo Ahmedü İngiliz bölgesinde Yola emîri oldu.",
   kaynak:"TDV `adamava` — AYNEN: \"1901’de Adamava, İngiltere’ye bağlı Kuzey Nijerya ile Almanya’ya bağlı Kamerun arasında paylaşılmış ve Adama’nın dördüncü oğlu Bobbo Ahmedü (Bobo Amadu), İngiliz bölgesinde Yola emîri olmuştur.\" · hassasiyet: YIL" },
 
 // ── 1905 ─────────────────────────────────────────────────────────────
-{ t:"1905-01-01", kesinlik:"yil", b:"Orenburg-Taşkent demiryolunda Aral Denizi istasyonu açıldı — Aralsk yerleşimi kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Aralsk (Aral)",
+{ bolge:1, t:"1905-01-01", kesinlik:"yil", b:"Orenburg-Taşkent demiryolunda Aral Denizi istasyonu açıldı — Aralsk yerleşimi kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Aralsk (Aral)",
   etiket:["konu-ekonomi","konu-siyasi"],
   d:"Rus İmparatorluğu'nun Orenburg ile Taşkent'i bağlayan demiryolu Aral Denizi'nin kuzeydoğu ucundan geçerken kıyıda 'Aralskoye More' istasyonu açıldı; istasyonun yanında bir balıkçı yerleşimi doğdu. Yerleşim 1938'de şehir statüsü alarak Aralsk adını aldı.",
   kaynak:"Büyük Sovyet Ansiklopedisi (3. baskı) 'Аральск' (https://dic.academic.ru/dic.nsf/bse/64755/) — AYNEN: \"Основан в 1905 в связи со строительством железной дороги Оренбург — Ташкент; город — с 1938.\" · Toponimik sözlük 'Аральск' (https://dic.academic.ru/dic.nsf/enc_geo/566/): 'Возник как пос. при ст. Аральское Море (открыта в 1905 г.)' · hassasiyet: YIL · KUTU-VERI-1015 (0052/H-0103)" },
 
 // ── Vaday 2 Haziran 1909 ─────────────────────────────────────────────
-{ t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",yer:"Biltine, Fada (Ennedi), Iriba, Ounianga, Vara (Wara)", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
+{ bolge:1, t:"1909-06-02", b:"Fransızlar Abeşe'yi aldı — Vedây Sultanlığı'nın sonu",yer:"Biltine, Fada (Ennedi), Iriba, Ounianga, Vara (Wara)", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Abeşe (Abéché)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Doğuya ilerlemesini sürdüren Fransızlar Vedây'ın başşehri Abeşe'yi (Ebîşe) ele geçirerek Vedây Sultanlığı'na son verdi; son sultan başşehrini kurtaramadan çekildi.",
   kaynak:"TDV `veday` (başlık: 1635-1909) — AYNEN: \"Doğuya ilerlemeyi sürdüren Fransızlar 2 Haziran 1909’da Ebîşe’yi ele geçirerek Vedây Sultanlığı’na son verdiler.\" · hassasiyet: GÜN" },
 
 // KUTU-VERI-1015 — Kandehar 1383 (Emre kararı 15 Ekim 2026, KARARLAR-EMRE-1015 #7): Eski Kandehar s: kert → timurlu kırılması
-{ t:"1383-01-01", b:"Timur Kandehar'ı Kertler'den aldı ve torunu Pîr Muhammed'e verdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+{ bolge:1, t:"1383-01-01", b:"Timur Kandehar'ı Kertler'den aldı ve torunu Pîr Muhammed'e verdi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["timurlu","kert"],
   d:"1281'den beri İlhanlıların vasalı Herat Kertlerinin elinde bulunan Kandehar, Timur'un Horasan seferleri sırasında zaptedildi ve torunu Pîr Muhammed'e verildi; şehir bundan sonra Timurlu valilerince yönetildi.",
   kaynak:"TDV `kandehar` (A. Özcan) — AYNEN: \"680’de (1281) İlhanlılar’ın vasalı Herat hâkimi Şemseddin Kert’in eline geçti\" · \"785’te (1383) Timur tarafından zaptedilerek torunu Pîr Muhammed’e verilen şehir\" · hassasiyet: YIL" },
 // KARAR-UYG-1015 (G4) — Songhay: Dia (Zâgha) 1494 · Agadez 1515 tâbiliği · Bilma 1759
-{ t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_kon:[14.3487, -4.9619],
+{ bolge:1, t:"1494-01-01", kesinlik:"yil", b:"Askiya Muhammed Zâgha'yı (Dia) aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_kon:[14.3487, -4.9619],
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["songhay-imparatorlugu"],
   d:"Songhay tahtına çıkan Askiya Muhammed, H. 899 yılının sonunda kardeşi Kurmina-Fâri Amar Komzâgho aracılığıyla Nijer iç deltasının batısındaki Zâgha (Dia) şehrini ele geçirdi.",
   kaynak:"es-Sa'dî, Tarikh es-Soudan, trc. O. Houdas (Paris 1900) s.118-119 — AYNEN: \"A la fin de l'année 899 (1494), Askia-Mohammed s'empara de Zâgha par l'intermédiaire de son frère le Kourmina-Fâri Amar-Komzâgho\" · hassasiyet: YIL" },
 
-{ t:"1515-01-01", kesinlik:"yil", b:"Agadez Songhay'a bağlandı", tur:"vassal", onem:2, dunya:1, kapsam:"dis", yer_id:"Agadez",
+{ bolge:1, t:"1515-01-01", kesinlik:"yil", b:"Agadez Songhay'a bağlandı", tur:"vassal", onem:2, dunya:1, kapsam:"dis", yer_id:"Agadez",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"], taraflar:["songhay-imparatorlugu","agadez-sultanligi"],
   d:"Âir bölgesinin merkezi Agadez, Songhay Sultanı Askiya Muhammed tarafından Gao'ya bağlandı; şehir Songhay'ın 1591'de Tondibi'de yıkılışına kadar bu tâbiliği taşıdı.",
   kaynak:"TDV `nijer` (A. Kavas) — AYNEN: \"1515 yılında Songay Sultanı Askiya Muhammed tarafından Gao’ya bağlanan şehir\" · hassasiyet: YIL" },
 
-{ t:"1759-01-01", kesinlik:"yil", b:"Agadez Tuaregleri Bilma tuzluğunu Kanem-Bornu'dan aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Bilma",
+{ bolge:1, t:"1759-01-01", kesinlik:"yil", b:"Agadez Tuaregleri Bilma tuzluğunu Kanem-Bornu'dan aldı", tur:"fetih", onem:2, dunya:1, kapsam:"dis", yer_id:"Bilma",
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["agadez-sultanligi","kanem-bornu"],
   d:"XVIII. yüzyılda çöküş yaşayan Kanem-Bornu, 1759'da Agadez Tuaregleri Bilma tuzluğunu elinden alınca Sahra'daki birçok yerleşim yerini kaybetti.",
   kaynak:"TDV `kanim` (A. Kavas) — AYNEN: \"1759’da Agâdes Tevârikleri, Bîlmâ tuzluğunu Kânim-Bornu’nun elinden alınca Sahrâ’daki birçok yerleşim mahallini kaybettiler\" · hassasiyet: YIL" },
 
 // KARAR-UYG-1015 (Emre #13) — Güney Afrika: 37 nokta ingiltere → guney-afrika-birligi 1910-05-31
-{ t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
+{ bolge:1, t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
   etiket:["siyasi","kurulus","konu-siyasi"], taraflar:["guney-afrika-birligi","ingiltere"],
   d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu. Bu birleşmeyle Kap, Natal, Transvaal ve Oranj kolonilerinin şehirleri (Kimberley, Durban, Pietermaritzburg, Potchefstroom, Port Elizabeth vd.) Güney Afrika Birliği’ne geçti.",
   kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Güney Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti); US Office of the Historian, South Africa (history.state.gov/countries/south-africa)" },
 
 // KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
-{ t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
+{ bolge:1, t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
   etiket:["antlasma","diplomasi","konu-diplomasi"], taraflar:["portekiz-angola","kongo-serbest-devleti"],
   d:"Berlin Konferansı sürerken imzalanan sözleşmeyle Kongo Hür Devleti ile Portekiz arasındaki sınır, Kongo (Zaire) ırmağının ağzından Uango-Uango çayına kadar ırmağın kendisi olarak çizildi; Soyo'nun bulunduğu güney yaka Portekiz'de, Kabinda ise ırmağın kuzeyinde Portekiz'e kaldı.",
   kaynak:"Hertslet, The Map of Africa by Treaty, 2. bs. c.1 No.58 (14 Şubat 1885) s.232 — AYNEN: \"The course of the Congo (Zaire) from its mouth to its junction with the little River Uango-Uango\" · hassasiyet: GÜN" },
 
 // KARAR-UYG-1015 (G3) — Eski Kandehar: babur → safevi 1556 (eski 1537 kırılması kaldırıldı)
-{ t:"1556-01-01", kesinlik:"yil", b:"Hümâyun'un ölümünden sonra Safevîler Kandehar'ı Bâbürlülerden aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
+{ bolge:2, t:"1556-01-01", kesinlik:"yil", b:"Hümâyun'un ölümünden sonra Safevîler Kandehar'ı Bâbürlülerden aldı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Eski Kandehar (Şehr-i Köhne)",
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["safevi","babur-imparatorlugu"],
   d:"Hümâyun'un 1556'da Delhi'de ölümünden sonra Şah Tahmasb, Kandehar ve Zemindâver'deki Bâbürlü valileri arasındaki çekişmeden yararlandı; Zemindâver valisinin davetiyle gelen bir Safevî birliği Kandehar'a girdi ve Tahmasb amcazadesi Sultan Hüseyin Mirza'yı şehre vali atadı. Şehir 1595'e kadar Safevî elinde kaldı.",
   kaynak:"EIr KANDAHAR iv. From the Mongol Invasion through the Safavid Era (R. Matthee & H. Mashita, 2010) — AYNEN: \"When Homāyun died in Delhi in 1556, the Safavid Shah Ṭahmāsb took advantage of conflict among the Mughal governors of Kandahar and Zamindāvar\" · hassasiyet: YIL (alt sınır; zaptın kendi yılı metinde yok)" },
@@ -10022,7 +10022,7 @@ window.OLAYLAR_2S_0919 = [
 
 
 // NOT-DUZELT-1016 (Emre notu #3) — Berat 1281-1343 Bizans; Sırp fethi 1343 dolayı (Nicol)
-{ t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
+{ bolge:2, t:"1343-01-01", kesinlik:"yil", b:"Berat Bizans'tan Sırp eline geçti — Stefan Duşan'ın Arnavutluk fethi", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Berat", yer:"Berat, Arnavutluk",
   etiket:["askeri","toprak-kazanc","konu-askeri"], taraflar:["sirbistan-nemanjic","bizans"],
   d:"1281'de Anjou kuşatmasını kıran ve o tarihten beri Bizans'ın Adriyatik'teki son eyaletinin merkezi olan Berat kalesi, Bizans iç savaşı sürerken Stefan Duşan'ın Arnavutluk'a ilerleyişinde Sırp eline geçti. Kroya'nın Mayıs ya da Haziran 1343'te teslim olmasının ardından Berat, Kanina ve Avlonya iki yıl içinde Sırpların oldu; eyaletin başına Duşan'ın kayınbiraderi John Komnenos Asen getirildi.",
   kaynak:"D. M. Nicol, The Despotate of Epiros 1267-1479 (Cambridge 1984), s. 127 — AYNEN: \"Berat, Kanina and Valona were all in Serbian hands within two years. Berat may have fallen by 1343. Valona fell between July and September of 1345.\" · aynı sayfa: \"The Byzantine province of Berat, Valona, Kanina and Spinaritsa, which had come into being in the years after 1281, was now held by a Slav governor.\" · TDV berat--arnavutluk: Bizans … 'tekrar Bizanslılar’ın, Sırplar’ın' (yıl yok) · hassasiyet: YIL, OLASI ('may have fallen by 1343')" },
@@ -10076,7 +10076,7 @@ window.OLAYLAR_2S_0919 = [
 window.OLAYLAR_AMERIKA0920 = [
 
 // ── 1511 · Küba ──────────────────────────────────────────────────────
-{ t:"1511-08-15", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Baracoa",
+{ bolge:1, t:"1511-08-15", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Baracoa",
   b:"Baracoa kuruldu — Küba'nın İspanyol fethinin ilk kasabası",
   gun:"1511", yer:"Baracoa", kisiler:"Diego Velázquez de Cuéllar",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10085,7 +10085,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: 15 Ağustos, kasabanın adındaki Asunción (Meryem'in Göğe Kabulü) yortusudur; geleneksel kuruluş günü olarak taşınır, basılı kaynaktan teyit edilmedi. Atlas kırılması 1511-08-15'te duruyor, madde o güne yazıldı; yıl kesin, gün geleneksel." },
 
 // ── 1519 · Tabasco ───────────────────────────────────────────────────
-{ t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
+{ bolge:1, t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
   b:"Centla Muharebesi — Potonchán Maya beyliği düştü, Santa María de la Victoria kuruldu",
   gun:"Mart 1519", yer:"Potonchán (Santa María de la Victoria), Tabasco",
   kisiler:"Hernán Cortés, Chontal Maya beyleri",
@@ -10095,7 +10095,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"İKİ TARİH AYRI: muharebe standart anlatımlarda 14 Mart 1519, kasabanın kuruluşu 25 Mart (Meryem Ana yortusu) olarak verilir. Atlas kırılması 1519-03-25'te (kuruluş) duruyor, madde o güne yazıldı. Gün ayrımı basılı kaynaktan teyit edilmedi; yıl ve ay kesin." },
 
 // ── 1520 · Tepeaca ───────────────────────────────────────────────────
-{ t:"1520-09-04", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Tepeaca",
+{ bolge:1, t:"1520-09-04", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Tepeaca",
   b:"Tepeaca'nın zaptı — Cortés'in Hüzünlü Gece'den sonraki ilk fethi",
   gun:"Eylül 1520", yer:"Tepeaca", kisiler:"Hernán Cortés, Tlaxcala beyleri",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10104,7 +10104,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: Tepeaca seferi standart anlatımlarda Ağustos sonu-Eylül 1520'ye konur; 4 Eylül günü basılı kaynaktan teyit edilmedi. Atlas kırılması 1520-09-04'te duruyor, madde o güne yazıldı." },
 
 // ── 1523 · Colima ────────────────────────────────────────────────────
-{ t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
+{ bolge:1, t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
   b:"San Sebastián de Colima kuruldu — Yeni İspanya'nın Pasifik kıyısına açılması",
   gun:"25 Temmuz 1523", yer:"Colima (San Sebastián de Colima)",
   kisiler:"Gonzalo de Sandoval",
@@ -10114,7 +10114,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"25 Temmuz, kasabanın adaşı Aziz Yakub (Santiago) yortusuna denk gelir; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1540 · Campeche ──────────────────────────────────────────────────
-{ t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
+{ bolge:1, t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
   b:"San Francisco de Campeche kuruldu — Yucatán fethinin üçüncü ve kalıcı denemesi",
   gun:"4 Ekim 1540", yer:"Campeche (San Francisco de Campeche)",
   kisiler:"Francisco de Montejo (oğul)",
@@ -10124,7 +10124,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"4 Ekim, kasabanın adaşı Assisili Aziz Francesco yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1545 · Sotuta ────────────────────────────────────────────────────
-{ t:"1545-01-01", k:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Sotuta",
+{ bolge:1, t:"1545-01-01", k:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Sotuta",
   b:"Sotuta'daki Cocom beyliği İspanyol hâkimiyetine girdi",
   gun:"1545 (temsilî)", yer:"Sotuta", kisiler:"Nachi Cocom, Francisco de Montejo (oğul)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -10133,7 +10133,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"TEMSİLÎ YIL: kaynaklar Sotuta'nın boyun eğişini tek bir güne bağlamaz, 1540'ların ortasına koyar. Atlas 1545-01-01'i temsilî yıl olarak taşır. Aynı güne düşen Berdiçev (Litvanya) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
 
 // ── 1596 · Monterrey ─────────────────────────────────────────────────
-{ t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
+{ bolge:1, t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
   b:"Monterrey kuruldu — Nuevo León'un başkenti",
   gun:"20 Eylül 1596", yer:"Monterrey", kisiler:"Diego de Montemayor",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10142,7 +10142,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Gün, atlasın yerleşim kaydındaki kaynak satırıyla (Gerhard 1982) aynıdır; basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1718 · San Antonio ───────────────────────────────────────────────
-{ t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
+{ bolge:1, t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
   b:"San Antonio de Valero misyonu kuruldu — İspanyol Teksas'ının çekirdeği",
   gun:"1 Mayıs 1718", yer:"San Antonio (Misyon San Antonio de Valero)",
   kisiler:"Antonio de San Buenaventura y Olivares, Martín de Alarcón",
@@ -10152,7 +10152,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Misyon (1 Mayıs) ile presidio (Mayıs başı, birkaç gün sonra) ayrı tarihlerdir; atlas kırılması misyonun gününde duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1774 · Nuevo Santander ───────────────────────────────────────────
-{ t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
+{ bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
   b:"Refugio (bugünkü Matamoros) kuruldu — Rio Grande ağzının iskânı",
   gun:"1774 (temsilî)", yer:"Matamoros (Refugio)",
   kisiler:"José de Escandón'un iskân ettiği Nuevo Santander kolonistleri",
@@ -10162,7 +10162,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"TEMSİLÎ YIL: kuruluş günü kaynaklarda tek bir güne bağlanmaz. Aynı güne düşen Cumberland House (İngiliz Kuzey Amerikası) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
 
 // ── 1821 · Orta Amerika ──────────────────────────────────────────────
-{ t:"1821-09-15", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Antigua Guatemala (Santiago de los Caballeros)",
+{ bolge:1, t:"1821-09-15", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Antigua Guatemala (Santiago de los Caballeros)",
   b:"Orta Amerika Bağımsızlık Bildirisi — Guatemala Genel Kaptanlığı İspanya'dan ayrıldı",
   gun:"15 Eylül 1821", yer:"Antigua Guatemala (Santiago de los Caballeros), Nojpetén (Tayasal / Flores), Guatemala Genel Kaptanlığı",
   kisiler:"Gabino Gaínza, Orta Amerika eşrafı",
@@ -10172,7 +10172,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Eylül 1821 Orta Amerika devletlerinin resmî millî günüdür, tarih yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1839 · Alta California ───────────────────────────────────────────
-{ t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
+{ bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
   b:"Nueva Helvetia kuruldu — Meksika, Sacramento vadisini iskâna açtı",
   gun:"1839 (temsilî)", yer:"Sutter's Fort (Sacramento)", kisiler:"John A. Sutter",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10189,7 +10189,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // =====================================================================
 
 // ── 1519 · Panama ────────────────────────────────────────────────────
-{ t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
+{ bolge:1, t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
   b:"Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri",
   gun:"15 Ağustos 1519", yer:"Panamá (Panama City)", kisiler:"Pedrarias Dávila (Pedro Arias de Ávila)",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10198,7 +10198,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, şehrin adaşı olan Meryem'in Göğe Kabulü yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1534 · Quito ─────────────────────────────────────────────────────
-{ t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
+{ bolge:1, t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
   b:"San Francisco de Quito kuruldu — kuzey İnka başkentinde İspanyol düzeni",
   gun:"6 Aralık 1534", yer:"Quito", kisiler:"Sebastián de Benalcázar, Rumiñahui",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10207,7 +10207,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Almagro'nun daha önce (Ağustos 1534) kurduğu Santiago de Quito ayrı bir olaydır; atlas kırılması Benalcázar'ın 6 Aralık kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1535 · Lima ──────────────────────────────────────────────────────
-{ t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
+{ bolge:1, t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
   b:"Lima kuruldu — İspanyol Peru'sunun başkenti Rimac vadisine taşındı",
   gun:"18 Ocak 1535", yer:"Lima (Ciudad de los Reyes)", kisiler:"Francisco Pizarro",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10216,7 +10216,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 18 Ocak 1535 standart tarih yazımında yerleşiktir." },
 
 // ── 1537 · Popayán ───────────────────────────────────────────────────
-{ t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
+{ bolge:1, t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
   b:"Popayán kuruldu — Quito ile Muisca ülkesi arasındaki köprü",
   gun:"13 Ocak 1537", yer:"Popayán", kisiler:"Sebastián de Benalcázar",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10225,7 +10225,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 13 Ocak 1537 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1537 · Hunza (Tunja) — Muisca'nın düşüşü ─────────────────────────
-{ t:"1537-08-01", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Hunza (Tunja)",
+{ bolge:1, t:"1537-08-01", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Hunza (Tunja)",
   b:"Hunza'nın zaptı — zaque Quemuenchatocha'nın yenilgisi",
   gun:"Ağustos 1537", yer:"Hunza (Tunja)", kisiler:"Gonzalo Jiménez de Quesada, zaque Quemuenchatocha",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -10234,7 +10234,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"HASSASİYET AY: kaynaklar baskını Ağustos 1537'ye koyar; atlas kırılması da ay hassasiyetinde (1537-08-01). Gün YAZILMADI — sahte kesinlik üretmemek için (§4)." },
 
 // ── 1537 · Asunción ──────────────────────────────────────────────────
-{ t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
+{ bolge:1, t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
   b:"Asunción kuruldu — Paraguay ırmağında İspanyol üssü",
   gun:"15 Ağustos 1537", yer:"Asunción", kisiler:"Juan de Salazar de Espinosa",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10243,7 +10243,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, kasabanın adaşı Asunción (Meryem'in Göğe Kabulü) yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1538 · Bacatá (Bogotá) ───────────────────────────────────────────
-{ t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
+{ bolge:1, t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
   b:"Santa Fe de Bogotá kuruldu — Muisca ülkesinde İspanyol başkenti",
   gun:"6 Ağustos 1538", yer:"Bacatá (Bogotá)", kisiler:"Gonzalo Jiménez de Quesada",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10252,7 +10252,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1538 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Huamanga ──────────────────────────────────────────────────
-{ t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
+{ bolge:1, t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
   b:"San Juan de la Frontera de Huamanga kuruldu — Lima-Cuzco yolunun kilidi",
   gun:"9 Ocak 1539", yer:"Huamanga (Ayacucho)", kisiler:"Francisco Pizarro, Manco Inca",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10261,7 +10261,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 9 Ocak 1539 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Tunja (İspanyol şehri) ────────────────────────────────────
-{ t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
+{ bolge:1, t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
   b:"Tunja İspanyol şehri olarak yeniden kuruldu",
   gun:"6 Ağustos 1539", yer:"Hunza (Tunja)", kisiler:"Gonzalo Suárez Rendón",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10270,7 +10270,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1539 standart kuruluş tarihi olarak yerleşiktir. Aynı yerleşimin 1537 kırılması ayrı maddededir (zaque'nin yenilgisi)." },
 
 // ── 1541 · Santiago de Chile ─────────────────────────────────────────
-{ t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
+{ bolge:1, t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
   b:"Santiago del Nuevo Extremo kuruldu — Şili'nin fethi başladı",
   gun:"12 Şubat 1541", yer:"Santiago (Şili)", kisiler:"Pedro de Valdivia, Michimalonco",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10279,7 +10279,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 12 Şubat 1541 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1571 · Cochabamba ────────────────────────────────────────────────
-{ t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
+{ bolge:1, t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
   b:"Villa de Oropesa kuruldu — Potosí'yi besleyecek tahıl vadisinin iskânı",
   gun:"15 Ağustos 1571", yer:"Cochabamba (Villa de Oropesa)", kisiler:"Genel Vali Francisco de Toledo",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10294,7 +10294,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // Manco Inca'nın artçı devletinin sonudur — Lima'nın kuruluşu (3/3) ile aynı
 // kademe. 5/5 ile Osmanlı listesine "dünya olayı" diye giriyordu; dış madde
 // artık Osmanlı listesine yalnız Osmanlı'yla ilgisiyle girer (app.js 🌍 Dünyada).
-{ t:"1572-06-24", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Vilcabamba (Espíritu Pampa)",
+{ bolge:1, t:"1572-06-24", k:"fetih", onem:3, dunya:3, kapsam:"dis", yer_id:"Vilcabamba (Espíritu Pampa)",
   b:"Vilcabamba'nın düşüşü — bağımsız İnka devletinin sonu",
   gun:"24 Haziran 1572", yer:"Vilcabamba (Espíritu Pampa)", kisiler:"Túpac Amaru, Genel Vali Francisco de Toledo, Martín Hurtado de Arbieto",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -10303,7 +10303,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Vilcabamba'nın ele geçirilişi (Haziran 1572) ile Túpac Amaru'nun Cuzco'da idamı (Eylül 1572) ayrı tarihlerdir; atlas kırılması ele geçirilişte duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1619 · Maynas ────────────────────────────────────────────────────
-{ t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
+{ bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
   b:"San Francisco de Borja kuruldu — Maynas'ta İspanyol hâkimiyeti",
   gun:"1619 (temsilî)", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10346,7 +10346,7 @@ window.OLAYLAR_AMERIKA0920 = [
 window.OLAYLAR_2S0920 = [
 
 // ── 1387 · Karaferye ─────────────────────────────────────────────────
-{ t:"1387-05-08", k:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Karaferye (Veria)",
+{ t:"1387-05-08", k:"fetih", onem:3, dunya:2, kapsam:"ic", yer_id:"Karaferye (Veria)",
   b:"Karaferye'nin (Veria) Osmanlı hâkimiyetine girmesi",
   gun:"8 Mayıs 1387", yer:"Karaferye (Veria)", kisiler:"I. Murad, Çandarlı Halil Hayreddin Paşa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10354,7 +10354,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `karaferye` — AYNEN: \"Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387'de olduğunu yazar.\" · hassasiyet: GÜN · NOT: TDV aynı maddede ÇELİŞKİLİ iki tarih daha verir (Meteora yazmasına göre 1385-86; Aya Yorgi kitâbesine göre 9 Nisan 1433) ve bunları kendisi 'zihin karıştıran' diye niteler — atlas verisi 8 Mayıs 1387'yi taşıdığı için o gün alındı" },
 
 // ── 1552 · Lugoş ─────────────────────────────────────────────────────
-{ t:"1552-08-01", k:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Lugos (Lugoj)",
+{ t:"1552-08-01", k:"fetih", onem:2, dunya:2, kapsam:"ic", yer_id:"Lugos (Lugoj)",
   b:"Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin devamı",
   gun:"Ağustos 1552", yer:"Lugos (Lugoj), Karánşebeş (Caransebeş), Banat",
   kisiler:"Kara Ahmed Paşa", etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10383,7 +10383,7 @@ window.OLAYLAR_2S0920 = [
    ═══════════════════════════════════════════════════════════════════ */
 
 // ── 1912 · Priştine ──────────────────────────────────────────────────
-{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
+{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Priştine",
   b:"Priştine'nin Sırp ordusunun eline geçmesi",
   gun:"22 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10392,7 +10392,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H6-1015 (0076/H-0151): madde 2 Ekim'den 22 Ekim'e alındı. TDV `pristine` AYNEN \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak…\" der; ama Sırbistan savaşı 18 Ekim'de ilân etti ve ordusu 19 Ekim'de sınırı geçti (Ahbab, Özkan) — 2 Ekim Jülyen okunsa da (15 Ekim G) savaş öncesine düşer ⇒ TDV rakamı hatalı sayıldı, iki akademik kaynağın günü alındı. Atlas verisi zaten 1912-10-22. Eski not: 'Madde TDV'nin gününe yazıldı (atlas referans değildir)'." },
 
 // ── 1912 · Manastır ──────────────────────────────────────────────────
-{ t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Manastır",
+{ t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Manastır",
   b:"Manastır'ın Sırp kuvvetlerince işgali",
   gun:"14-18 Kasım 1912", yer:"Manastır (Bitola)", kisiler:"Sırp kuvvetleri",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10401,7 +10401,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"Atlas kırılması 1912-11-19'da duruyor; TDV 14-18 Kasım aralığını verir. Tarih aralığın SON gününe yazıldı, kırılmanın gününe çekilmedi (1 gün fark)." },
 
 // ── 1912 · Arnavutluk'un istiklâli ───────────────────────────────────
-{ t:"1912-11-28", k:"siyaset", onem:4, dunya:4, kapsam:"dis", yer_id:"Avlonya",
+{ t:"1912-11-28", k:"siyaset", onem:4, dunya:4, kapsam:"ic", yer_id:"Avlonya",
   b:"Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali",
   gun:"28 Kasım 1912",
   yer:"Avlonya, Akçahisar (Kruja), Ayasaranda (Sarandë), Berat, Butrint (Butrinto), Delvine, Draç, Ergiri (Ergirikasrı), Hımara (Himarë), Kanina, Leş (Alessio), Mat (Mati), İlbasan (Elbasan), Arnavutluk",
@@ -10410,7 +10410,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `arnavutluk` — AYNEN: \"28 Kasım 1912'de İsmâil Kemali, Avlonya'da Arnavutluk'un istiklâlini ilân etti\" · hassasiyet: GÜN" },
 
 // ── 1912 · Ohri ve Debre ─────────────────────────────────────────────
-{ t:"1912-11-29", k:"kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ohri",
+{ t:"1912-11-29", k:"kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Ohri",
   b:"Ohri ve Debre'de Osmanlı hâkimiyetinin sona ermesi",
   gun:"29 Kasım 1912", yer:"Ohri, Debre (Dibra)", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10418,13 +10418,13 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `ohri` — AYNEN: \"Ohri'deki Osmanlı hâkimiyeti 29 Kasım 1912'de tamamen sona erdi ve şehir Sırp ordusunun eline geçti.\" · hassasiyet: GÜN · NOT: Debre için TDV bu maddede ayrı gün vermez; aynı harekâtın parçası olarak anıldı" },
 
 // ── 1913 · İşkodra ───────────────────────────────────────────────────
-{ t:"1913-04-23", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"İşkodra",
+{ t:"1913-04-23", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"İşkodra",
   b:"İşkodra'nın Karadağlılar tarafından işgali",
   gun:"23 Nisan 1913", yer:"İşkodra (Shkodër)", kisiler:"Hasan Rıza Paşa, Esad Paşa (Toptanî), Karadağ ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Birinci Balkan Savaşı'nın en uzun kuşatmalarından biri İşkodra'da yaşandı; aylarca süren direnişin ardından şehir Karadağ kuvvetlerine bırakıldı. İşkodra, savaşın sonuna kadar dayanan son Osmanlı kalelerindendi.",
   kaynak:"TDV `balkan-savasi` — AYNEN: \"Karadağlılar da 23 Nisan'da İşkodra'yı işgal ettiler\" · hassasiyet: GÜN" },
-{ t:"1913-05-14", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"İşkodra",
+{ t:"1913-05-14", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"İşkodra",
   b:"Karadağ İşkodra'yı boşalttı; büyük devletlerin uluslararası kolordusu şehre girdi",
   gun:"14 Mayıs 1913", yer:"İşkodra (Shkodër)", kisiler:"Karadağ ordusu, uluslararası kolordu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10433,7 +10433,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"1914-1918-online, «Scutari Crisis» https://encyclopedia.1914-1918-online.net/article/scutari-crisis/ (gün arama özetinden; ikinci akademik teyit önerilir)" },
 
 // ── 1913 · Bükreş ────────────────────────────────────────────────────
-{ t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
+{ bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
   b:"Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
@@ -10447,7 +10447,7 @@ window.OLAYLAR_2S0920 = [
 // =====================================================================
 
 // ── 1913 · Lahsa ─────────────────────────────────────────────────────
-{ t:"1913-07-08", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Lahsa",
+{ t:"1913-07-08", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Lahsa",
   b:"İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu",
   gun:"8 Temmuz 1913", yer:"Lahsa, Hüfûf, Katîf, Ukayr (Uceyr), Cübeyl",
   kisiler:"Abdülazîz b. Suûd (İbn Suud)",
@@ -10456,7 +10456,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN" },
 
 // ── 1914 · Basra ─────────────────────────────────────────────────────
-{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Basra",
+{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
   b:"Şattülarap çıkarması — Basra'nın düşüşü ve Irak cephesinin açılması",
   gun:"22 Kasım 1914",
   yer:"Basra, Fâv, Kürne, Ammâre, Nâsıriye, Semâve, Kuveyt, Şattülarap",
@@ -10465,7 +10465,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `basra` — AYNEN: \"Basra bu son vali zamanında 22 Kasım 1914'te İngilizler tarafından işgal edildi.\" · hassasiyet: GÜN · NOT: TDV bu cümlede Fâv ve Kürne'yi ANMAZ; onlar aynı harekâtın parçası olarak atlasın kırılma kümesinden alındı" },
 
 // ── 1918 · Gürcistan ─────────────────────────────────────────────────
-{ t:"1918-05-26", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Kutaisi",
+{ bolge:4, t:"1918-05-26", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Kutaisi",
   b:"Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı",
   gun:"26 Mayıs 1918", yer:"Kutaisi, Tiflis, Gürcistan",
   kisiler:"Gürcistan Millî Konseyi", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
@@ -10473,7 +10473,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Gürcistan' (islamansiklopedisi.org.tr/gurcistan)" },
 
 // ── 1918 · Azerbaycan ────────────────────────────────────────────────
-{ t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
+{ bolge:4, t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
   b:"Azerbaycan Demokratik Cumhuriyeti ilân edildi",
   gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
   kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
@@ -10481,7 +10481,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
-{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
+{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
   b:"Halep'in Arap ve İngiliz kuvvetlerince işgali",
   gun:"27 Ekim 1918", yer:"Halep", kisiler:"Arap kuvvetleri, İngiliz ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10489,7 +10489,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10497,7 +10497,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
   gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
@@ -10508,7 +10508,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
-{ t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
+{ bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
   b:"Şarkî Ürdün Emirliği kuruldu — Abdullah b. Hüseyin emîrliğini ilân etti",
   gun:"Şubat 1921", yer:"Amman, Kerak, Şarkî Ürdün",
   kisiler:"Abdullah b. Hüseyin", etiket:["siyasi","toprak-kazanc","konu-siyasi"],
@@ -10605,22 +10605,22 @@ window.OLAYLAR_MISIR1801 = [
 // ============================================================================
 window.OLAYLAR_SENUSI_0919 = [
 
-{ t:"1551-07-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi"], b:"Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Macaristan Kralı Ferdinand'a teslimi", gun:"Temmuz 1551 (Bánlaky: 'július 16-ika körül' — gün kesin değil)", yer:"Lugos, Karánsebes, Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Martinuzzi (Frater György), General Castaldo, Báthory Endre, Kraliçe İzabella", d:"1551'de General Castaldo kumandasındaki Habsburg ordusu Erdel'e girdi; Kraliçe İzabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda kaldı. Martinuzzi, Castaldo'nun onayıyla Temmuz 1551 ortasında Báthory Endre'yi Temeşvar, Lippa, Solymos, Karánsebes, Lugos, Becse, Becskerek ve Çanad kalelerini Ferdinand adına teslim almaya gönderdi. Osmanlı himayesindeki Erdel'in güney kaleleri böylece Habsburg eline geçti; Kanûnî'nin 1551-1552 seferleri buna cevaptır.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/988 · TDV timisvar ('1551’de General Giovanni Battista Castaldo kumandasında bir Habsburg ordusu Erdel’e girdi. Kraliçe Izabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda bırakıldı')", duygu:["😔"] },
+{ kapsam:"ic", t:"1551-07-01", kesinlik:"ay", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi"], b:"Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Macaristan Kralı Ferdinand'a teslimi", gun:"Temmuz 1551 (Bánlaky: 'július 16-ika körül' — gün kesin değil)", yer:"Lugos, Karánsebes, Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Martinuzzi (Frater György), General Castaldo, Báthory Endre, Kraliçe İzabella", d:"1551'de General Castaldo kumandasındaki Habsburg ordusu Erdel'e girdi; Kraliçe İzabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda kaldı. Martinuzzi, Castaldo'nun onayıyla Temmuz 1551 ortasında Báthory Endre'yi Temeşvar, Lippa, Solymos, Karánsebes, Lugos, Becse, Becskerek ve Çanad kalelerini Ferdinand adına teslim almaya gönderdi. Osmanlı himayesindeki Erdel'in güney kaleleri böylece Habsburg eline geçti; Kanûnî'nin 1551-1552 seferleri buna cevaptır.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/988 · TDV timisvar ('1551’de General Giovanni Battista Castaldo kumandasında bir Habsburg ordusu Erdel’e girdi. Kraliçe Izabella ve oğlu Macaristan tahtı üzerindeki haklarından vazgeçmek zorunda bırakıldı')", duygu:["😔"] },
 
-{ t:"1554-04-07", k:"diplomasi", etiket:["siyaset","diplomasi","konu-siyasi"], b:"Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması", gun:"7 Nisan 1554 (Kanûnî'nin Halep'ten yazdığı mektubun tarihi)", yer:"Lugos ve Karánsebes — Banat; mektup Halep'ten", yer_id:"Lugos (Lugoj)", kisiler:"Kanûnî Sultan Süleyman, Petrovics Péter, Kraliçe İzabella, János Zsigmond", d:"İzabella ve Petrovics'in ısrarlı ricası üzerine Kanûnî, küçük János Zsigmond'u Erdel'e geri döndürmeye karar verdi. 7 Nisan 1554'te Halep'ten yazdığı mektupla Erdel'e çocuğu ülkesine geri götürmelerini emretti; Eflak ve Boğdan voyvodalarına da bu işte, aynı sırada Lugos ve Karánsebes sancakbeyi atadığı Petrovics'e yardım etmelerini buyurdu. 1552'de fethedilen Lugos böylece bir Osmanlı sancağı olarak Petrovics'e verildi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/1022 ('Aleppoban 1554. április 7.-én kelt levelében … Petrovicsnak, akit egyidejűleg lugosi és karánsebesi szandzsákká nevezett ki')", duygu:["🤝"] },
+{ kapsam:"ic", t:"1554-04-07", k:"diplomasi", etiket:["siyaset","diplomasi","konu-siyasi"], b:"Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması", gun:"7 Nisan 1554 (Kanûnî'nin Halep'ten yazdığı mektubun tarihi)", yer:"Lugos ve Karánsebes — Banat; mektup Halep'ten", yer_id:"Lugos (Lugoj)", kisiler:"Kanûnî Sultan Süleyman, Petrovics Péter, Kraliçe İzabella, János Zsigmond", d:"İzabella ve Petrovics'in ısrarlı ricası üzerine Kanûnî, küçük János Zsigmond'u Erdel'e geri döndürmeye karar verdi. 7 Nisan 1554'te Halep'ten yazdığı mektupla Erdel'e çocuğu ülkesine geri götürmelerini emretti; Eflak ve Boğdan voyvodalarına da bu işte, aynı sırada Lugos ve Karánsebes sancakbeyi atadığı Petrovics'e yardım etmelerini buyurdu. 1552'de fethedilen Lugos böylece bir Osmanlı sancağı olarak Petrovics'e verildi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/1022 ('Aleppoban 1554. április 7.-én kelt levelében … Petrovicsnak, akit egyidejűleg lugosi és karánsebesi szandzsákká nevezett ki')", duygu:["🤝"] },
 
-{ t:"1596-05-10", k:"savas", etiket:["savas","konu-askeri"], b:"Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını", gun:"10/11 Mayıs 1596 gecesi (Temeşvar paşası 11 Mayıs'ta Lippa önünden çekildi)", yer:"Lippa ve Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Temeşvar paşası, Borbély György, Palatics György (Lugos bânı), Buday György", d:"1596 baharında Temeşvar paşası Lippa'yı kuşattı. 10 Mayıs'ı 11'ine bağlayan gece Erdel'in Lugos bânı Palatics György'nin emriyle Buday György'nün askerleri Temeşvar varoşlarını basıp ateşe verdi; kalede Borbély György'nün bütün toplarını ateşletmesi de paşayı yardım geldiğine inandırdı. Paşa 11 Mayıs'ta Lippa önünden çekilerek kendi merkezini korumaya koştu. Lugos bu sırada Erdel Prensliği'nin elindeydi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0014/1137 (1596 seferi) — 'Palatics György lugosi bán megbízásából Buday György vitézei éppen azon éjszaka verték és gyújtották föl Temesvár külvárosait'", duygu:["⚔️"] },
+{ kapsam:"ic", t:"1596-05-10", k:"savas", etiket:["savas","konu-askeri"], b:"Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını", gun:"10/11 Mayıs 1596 gecesi (Temeşvar paşası 11 Mayıs'ta Lippa önünden çekildi)", yer:"Lippa ve Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Temeşvar paşası, Borbély György, Palatics György (Lugos bânı), Buday György", d:"1596 baharında Temeşvar paşası Lippa'yı kuşattı. 10 Mayıs'ı 11'ine bağlayan gece Erdel'in Lugos bânı Palatics György'nin emriyle Buday György'nün askerleri Temeşvar varoşlarını basıp ateşe verdi; kalede Borbély György'nün bütün toplarını ateşletmesi de paşayı yardım geldiğine inandırdı. Paşa 11 Mayıs'ta Lippa önünden çekilerek kendi merkezini korumaya koştu. Lugos bu sırada Erdel Prensliği'nin elindeydi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0014/1137 (1596 seferi) — 'Palatics György lugosi bán megbízásából Buday György vitézei éppen azon éjszaka verték és gyújtották föl Temesvár külvárosait'", duygu:["⚔️"] },
 
-{ t:"1691-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Lugos sancağı Habsburg işgaline girdi (1691-1695)", gun:"1691 [yalnız yıl teyitli; gün teyitsiz]", ic_not_gun:"POSTIT-146: kaynak yalnız yıl veriyor. Bánlaky B 0017/1474 Veterani'nin 5 Kasım 1691'den sonra Lugos'u almaya yürüdüğünü yazar; gerçek geçiş 1691'in son aylarında olabilir. 1689-1691 Osmanlı geri alışı için kaynak bulunamadı (beyanlı boşluk sürüyor).", yer:"Lugos, Banat", yer_id:"Lugos (Lugoj)", kisiler:"Veterani", d:"Lugos sancağı 1691-1695 arasında Habsburg (Alman) işgalinde kaldı; II. Mustafa 22 Eylül 1695'te yeniden fethetti. Eski kayıtta 1689-1695 arası beyanlı boşluktu; 1691-1695 dilimi artık Habsburg olarak boyanır, 1689-1691 boşluk kalır. Tarih yalnız yıl olarak alınmıştır.", kaynak:"Sadık Müfit Bilge, 'Macaristan'da Osmanlı Hakimiyetinin ve İdarî Teşkilâtının Kuruluşu ve Gelişmesi', OTAM, DOI 10.1501/OTAM_0000000441, s. 63 — 'Lugos, 1691-1695 yılları arasında Alman işgalinde kaldıysa da, II. Mustafa tarafından 22 Eylül 1695 tarihinde yeniden fethedildi' · Bánlaky B 0017/1474", duygu:["😔"] },
+{ kapsam:"ic", t:"1691-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Lugos sancağı Habsburg işgaline girdi (1691-1695)", gun:"1691 [yalnız yıl teyitli; gün teyitsiz]", ic_not_gun:"POSTIT-146: kaynak yalnız yıl veriyor. Bánlaky B 0017/1474 Veterani'nin 5 Kasım 1691'den sonra Lugos'u almaya yürüdüğünü yazar; gerçek geçiş 1691'in son aylarında olabilir. 1689-1691 Osmanlı geri alışı için kaynak bulunamadı (beyanlı boşluk sürüyor).", yer:"Lugos, Banat", yer_id:"Lugos (Lugoj)", kisiler:"Veterani", d:"Lugos sancağı 1691-1695 arasında Habsburg (Alman) işgalinde kaldı; II. Mustafa 22 Eylül 1695'te yeniden fethetti. Eski kayıtta 1689-1695 arası beyanlı boşluktu; 1691-1695 dilimi artık Habsburg olarak boyanır, 1689-1691 boşluk kalır. Tarih yalnız yıl olarak alınmıştır.", kaynak:"Sadık Müfit Bilge, 'Macaristan'da Osmanlı Hakimiyetinin ve İdarî Teşkilâtının Kuruluşu ve Gelişmesi', OTAM, DOI 10.1501/OTAM_0000000441, s. 63 — 'Lugos, 1691-1695 yılları arasında Alman işgalinde kaldıysa da, II. Mustafa tarafından 22 Eylül 1695 tarihinde yeniden fethedildi' · Bánlaky B 0017/1474", duygu:["😔"] },
 
-{ t:"1716-10-13", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Lugos kalesi Habsburg idaresine girdi", gun:"Ekim 1716 (Lugos'un kendi teslim günü kaynakta yok; Temeşvar'ın kaybı günü alındı)", ic_not_gun:"POSTIT-123: Lugos'un kendi günü BULUNAMADI. 'Zincir Temeşvar'dan devralındı' — Lugos Tımışvar beylerbeyiliğinin sancağıydı (TDV timisvar); Temeşvar'ın kaybı 1716-10-13 (olaylar_ek5.js). Gerçek gün daha geç olabilir; BEYANLI YAKLAŞIKLIK.", yer:"Lugos, Banat", yer_id:"Lugos (Lugoj)", kisiler:"", d:"Tımışvar eyaletine bağlı sancak kalesi Lugoj, 1695'ten beri Osmanlı elindeydi; eyalet merkezinin 1716 kuşatması sonunda teslimiyle Habsburg Monarşisi'ne bırakıldı. Eski kayıt devri yıl tabanı olan 1 Ocak 1716'ya koyuyordu.", kaynak:"timisvar (Tımışvar beylerbeyiliği 1552-1716) · eyalet merkezinin kaybı günü: olaylar_ek5.js 1716-10-13", duygu:["😔"] },
+{ kapsam:"ic", t:"1716-10-13", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Lugos kalesi Habsburg idaresine girdi", gun:"Ekim 1716 (Lugos'un kendi teslim günü kaynakta yok; Temeşvar'ın kaybı günü alındı)", ic_not_gun:"POSTIT-123: Lugos'un kendi günü BULUNAMADI. 'Zincir Temeşvar'dan devralındı' — Lugos Tımışvar beylerbeyiliğinin sancağıydı (TDV timisvar); Temeşvar'ın kaybı 1716-10-13 (olaylar_ek5.js). Gerçek gün daha geç olabilir; BEYANLI YAKLAŞIKLIK.", yer:"Lugos, Banat", yer_id:"Lugos (Lugoj)", kisiler:"", d:"Tımışvar eyaletine bağlı sancak kalesi Lugoj, 1695'ten beri Osmanlı elindeydi; eyalet merkezinin 1716 kuşatması sonunda teslimiyle Habsburg Monarşisi'ne bırakıldı. Eski kayıt devri yıl tabanı olan 1 Ocak 1716'ya koyuyordu.", kaynak:"timisvar (Tımışvar beylerbeyiliği 1552-1716) · eyalet merkezinin kaybı günü: olaylar_ek5.js 1716-10-13", duygu:["😔"] },
 
-{ t:"1688-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Orsova'nın Veterani komutasındaki Avusturya kuvvetlerince işgali", gun:"1688 (Haziran sonundaki Karánsebes'ten sonra; kaynakta gün yok)", yer:"Orsova, Tuna (Demirkapı'nın yukarısı)", yer_id:"Orsova (Eski Orsova)", kisiler:"Veterani, Avusturya kuvvetleri", d:"1688 seferinde General Veterani Karánsebes'i aldıktan sonra Orsova üzerine yürüdü ve burayı da işgal etti. Kaynakta işgal günü yoktur; yıl tabanı olan 1 Ocak 1688 kullanılmıştır.", ic_not_gun:"POSTIT-136: Orsova'nın 1688 geçişi s: dönemi 1688-01-01'de yıl hassasiyetiyle başlıyordu ve ±30 günde maddesi yoktu; yalnız Munkács'ın 17 Ocak 1688 teslimi yakındı, bu yüzden geçiş ona bağlı görünüyordu (Munkács Ukrayna'dadır, ilgisiz). Bu madde sahte ilişkiyi kaldırır. Kaynak sırası: TDV/İSAM'da Orsova'nın 1688 gününü veren madde bulunamadı; Bánlaky tek kaynak.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0017/1443 (1688 seferi) — Veterani Karánsebes'ten (Haziran sonu) sonra 'Orsovára menetelt, melyet szintén megszállott' — YIL", duygu:["😔"] },
-{ t:"1689-07-15", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova'nın Thököly ve Osmanlı kuvvetlerince geri alınışı", gun:"15 Temmuz 1689", yer:"Orsova, Tuna (Demirkapı'nın yukarısı)", yer_id:"Orsova (Eski Orsova)", kisiler:"Thököly İmre, Hüseyin Paşa, Ali Paşa, General Heissler", d:"1688'de Veterani'nin işgal ettiği Orsova'ya, Vetislan'ın alınmasından sonra Thököly ile Osmanlı paşaları yürüdü. Önemsiz çarpışmalardan sonra Thököly 15 Temmuz 1689'da Orsova'ya girdi. Tehlike haberiyle gelen Heissler, karşısındaki kuvvetin cephane ve gemice iyi donatıldığını görüp Erdel'i korumak için geri çekildi. Ağustosta Herbeville'in şehir önündeki saldırısı da Orsova'yı geri alamadı.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0017/1450 (1689 seferi) — 'Jelentéktelen csatározások után, július 15-én Orsovába vonulhatott' · B 0017/1443 (1688 işgali)", duygu:["🎉"] },
+{ kapsam:"ic", t:"1688-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Orsova'nın Veterani komutasındaki Avusturya kuvvetlerince işgali", gun:"1688 (Haziran sonundaki Karánsebes'ten sonra; kaynakta gün yok)", yer:"Orsova, Tuna (Demirkapı'nın yukarısı)", yer_id:"Orsova (Eski Orsova)", kisiler:"Veterani, Avusturya kuvvetleri", d:"1688 seferinde General Veterani Karánsebes'i aldıktan sonra Orsova üzerine yürüdü ve burayı da işgal etti. Kaynakta işgal günü yoktur; yıl tabanı olan 1 Ocak 1688 kullanılmıştır.", ic_not_gun:"POSTIT-136: Orsova'nın 1688 geçişi s: dönemi 1688-01-01'de yıl hassasiyetiyle başlıyordu ve ±30 günde maddesi yoktu; yalnız Munkács'ın 17 Ocak 1688 teslimi yakındı, bu yüzden geçiş ona bağlı görünüyordu (Munkács Ukrayna'dadır, ilgisiz). Bu madde sahte ilişkiyi kaldırır. Kaynak sırası: TDV/İSAM'da Orsova'nın 1688 gününü veren madde bulunamadı; Bánlaky tek kaynak.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0017/1443 (1688 seferi) — Veterani Karánsebes'ten (Haziran sonu) sonra 'Orsovára menetelt, melyet szintén megszállott' — YIL", duygu:["😔"] },
+{ kapsam:"ic", t:"1689-07-15", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova'nın Thököly ve Osmanlı kuvvetlerince geri alınışı", gun:"15 Temmuz 1689", yer:"Orsova, Tuna (Demirkapı'nın yukarısı)", yer_id:"Orsova (Eski Orsova)", kisiler:"Thököly İmre, Hüseyin Paşa, Ali Paşa, General Heissler", d:"1688'de Veterani'nin işgal ettiği Orsova'ya, Vetislan'ın alınmasından sonra Thököly ile Osmanlı paşaları yürüdü. Önemsiz çarpışmalardan sonra Thököly 15 Temmuz 1689'da Orsova'ya girdi. Tehlike haberiyle gelen Heissler, karşısındaki kuvvetin cephane ve gemice iyi donatıldığını görüp Erdel'i korumak için geri çekildi. Ağustosta Herbeville'in şehir önündeki saldırısı da Orsova'yı geri alamadı.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0017/1450 (1689 seferi) — 'Jelentéktelen csatározások után, július 15-én Orsovába vonulhatott' · B 0017/1443 (1688 işgali)", duygu:["🎉"] },
 
-{ t:"1738-05-08", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova palankasının Osmanlı'ya geçişi — muhafızın Adakale'ye çekilmesi", gun:"8 Mayıs 1738", yer:"Orsova, Tuna", yer_id:"Orsova (Eski Orsova)", kisiler:"Vidin muhafızı Hacı Mehmed Paşa, Neipperg", d:"1738 seferinin açılışında Vidin muhafızı Hacı Mehmed Paşa Tuna boyundaki Erzsébet tabyasına saldırdı. 8 Mayıs öğleden sonra 4-5 bin kişilik bir sipahi birliği Tuna'nın sol yakasından Orsova'ya yürüdü ve Orsova palankasına saldırdı; yaklaşık yüz kayıp veren Avusturya muhafızı Yeni Orsova'ya, yani Adakale ada kalesine çekildi. Temmuzdaki Mehadiye çarpışmalarının ardından Adakale de Ağustos 1738'de Osmanlı eline geçti; 1739 Belgrad Antlaşması durumu tanıdı.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0019/1730 (1738 seferi) — 'május 8.-án … az ellenség az orsovai palánkra vetette magát, melynek védőrsége … Új-Orsovára, vagyis Ada Kaleh-sziget-erődre húzódott vissza' · TDV adakale (Ağustos 1738)", duygu:["🎉"] },
+{ kapsam:"ic", t:"1738-05-08", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova palankasının Osmanlı'ya geçişi — muhafızın Adakale'ye çekilmesi", gun:"8 Mayıs 1738", yer:"Orsova, Tuna", yer_id:"Orsova (Eski Orsova)", kisiler:"Vidin muhafızı Hacı Mehmed Paşa, Neipperg", d:"1738 seferinin açılışında Vidin muhafızı Hacı Mehmed Paşa Tuna boyundaki Erzsébet tabyasına saldırdı. 8 Mayıs öğleden sonra 4-5 bin kişilik bir sipahi birliği Tuna'nın sol yakasından Orsova'ya yürüdü ve Orsova palankasına saldırdı; yaklaşık yüz kayıp veren Avusturya muhafızı Yeni Orsova'ya, yani Adakale ada kalesine çekildi. Temmuzdaki Mehadiye çarpışmalarının ardından Adakale de Ağustos 1738'de Osmanlı eline geçti; 1739 Belgrad Antlaşması durumu tanıdı.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0019/1730 (1738 seferi) — 'május 8.-án … az ellenség az orsovai palánkra vetette magát, melynek védőrsége … Új-Orsovára, vagyis Ada Kaleh-sziget-erődre húzódott vissza' · TDV adakale (Ağustos 1738)", duygu:["🎉"] },
 
-{ t:"1717-01-01", kesinlik:"yil", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova'nın Habsburg ordusunca alınışı (1717 seferi)", gun:"1717 (teslim günü kaynakta yok; Splényi 27 Ağustos 1717'de şehir önüne vardı)", yer:"Orsova, Tuna", yer_id:"Orsova (Eski Orsova)", kisiler:"General Splényi", d:"1717 seferinde General Splényi 27 Ağustos'ta Orsova önüne vardı ve şehri kolayca ele geçirdi; 1716'da Mercy'nin alamadığı Orsova böylece Habsburg eline geçti. Çevresindeki Tuna kıyısı petekleri (Sırbistan yakasındaki Đerdap kesimi dâhil) en yakın yerleşim noktası olan Orsova'ya bağlı olduğu için onun sahibiyle boyanır. Tarih yalnız yıl olarak alınmıştır; kesin gün teyitsizdir.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0019/1715 (1717 seferi) — 'egész könnyű szerrel' alındı · 1716 başarısızlığı: B 0019/1703", duygu:["😔"] }
+{ kapsam:"ic", t:"1717-01-01", kesinlik:"yil", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"], b:"Orsova'nın Habsburg ordusunca alınışı (1717 seferi)", gun:"1717 (teslim günü kaynakta yok; Splényi 27 Ağustos 1717'de şehir önüne vardı)", yer:"Orsova, Tuna", yer_id:"Orsova (Eski Orsova)", kisiler:"General Splényi", d:"1717 seferinde General Splényi 27 Ağustos'ta Orsova önüne vardı ve şehri kolayca ele geçirdi; 1716'da Mercy'nin alamadığı Orsova böylece Habsburg eline geçti. Çevresindeki Tuna kıyısı petekleri (Sırbistan yakasındaki Đerdap kesimi dâhil) en yakın yerleşim noktası olan Orsova'ya bağlı olduğu için onun sahibiyle boyanır. Tarih yalnız yıl olarak alınmıştır; kesin gün teyitsizdir.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0019/1715 (1717 seferi) — 'egész könnyű szerrel' alındı · 1716 başarısızlığı: B 0019/1703", duygu:["😔"] }
 
 ];
 
@@ -10644,15 +10644,15 @@ window.OLAYLAR_SENUSI_0919 = [
 // ============================================================================
 window.OLAYLAR_SESSIZBORC0919 = [
 
-{ t:"1349-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de", gun:"1349 (TDV yalnız yılı veriyor)", yer:"Mora — Mezistre (Mistra)", yer_id:"Mora (Tripoliçe)", kisiler:"Ioannes Kantakuzenos, Manuel Kantakuzenos", d:"Bizans İmparatoru Ioannes Kantakuzenos oğlu Manuel'e Mora'da ayrı bir yönetim bölgesi verdi; Mezistre merkezli Mora Despotluğu böyle doğdu. Manuel 1380'e kadar yönetti; bu dönemde Bizans kültürü ve sanatı özellikle Mezistre'de gelişti. Despotluk 1460'ta Fâtih'in fethine kadar sürdü.", kaynak:"TDV mora: '1349’da İmparator Ioannes Kantakuzenos, oğlu Manuel için yeni bir bölge tahsis etmek istediğinde Mora’da önemli bir idarî değişim gerçekleşti ve Mora Despotluğu ortaya çıktı.' · 'Manuel 1380’e kadar yönetimi elinde tuttu'" },
+{ bolge:2, t:"1349-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de", gun:"1349 (TDV yalnız yılı veriyor)", yer:"Mora — Mezistre (Mistra)", yer_id:"Mora (Tripoliçe)", kisiler:"Ioannes Kantakuzenos, Manuel Kantakuzenos", d:"Bizans İmparatoru Ioannes Kantakuzenos oğlu Manuel'e Mora'da ayrı bir yönetim bölgesi verdi; Mezistre merkezli Mora Despotluğu böyle doğdu. Manuel 1380'e kadar yönetti; bu dönemde Bizans kültürü ve sanatı özellikle Mezistre'de gelişti. Despotluk 1460'ta Fâtih'in fethine kadar sürdü.", kaynak:"TDV mora: '1349’da İmparator Ioannes Kantakuzenos, oğlu Manuel için yeni bir bölge tahsis etmek istediğinde Mora’da önemli bir idarî değişim gerçekleşti ve Mora Despotluğu ortaya çıktı.' · 'Manuel 1380’e kadar yönetimi elinde tuttu'" },
 
-{ t:"1430-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Despot Konstantinos Patras'ı Franklardan aldı", gun:"1430 (TDV yalnız yılı veriyor)", yer:"Patras (Balyabadra) — Mora", yer_id:"Balyabadra (Patras)", kisiler:"Konstantinos Palaiologos", d:"Mora Despotu Konstantinos (1449'da son Bizans imparatoru) Patras'ı Latinlerden geri aldı; böylece yarımadanın kuzeybatısındaki bu önemli liman da despotluğa katıldı. Patras 1458'de Fâtih'in Mora seferinde Osmanlı hâkimiyetine girdi.", kaynak:"TDV mora: '1430’da Despot Konstantinos Patras’ı Franklar’dan geri aldı.' · '1458’de Thomas açık bir şekilde vergi ödemeyi reddedince Fâtih Sultan Mehmed büyük bir orduyla gelip yarımadanın kuzey bölgesine, Patras, Vostitsa, Kalavrita ve Corinth’e hâkim oldu'" },
+{ bolge:3, t:"1430-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Despot Konstantinos Patras'ı Franklardan aldı", gun:"1430 (TDV yalnız yılı veriyor)", yer:"Patras (Balyabadra) — Mora", yer_id:"Balyabadra (Patras)", kisiler:"Konstantinos Palaiologos", d:"Mora Despotu Konstantinos (1449'da son Bizans imparatoru) Patras'ı Latinlerden geri aldı; böylece yarımadanın kuzeybatısındaki bu önemli liman da despotluğa katıldı. Patras 1458'de Fâtih'in Mora seferinde Osmanlı hâkimiyetine girdi.", kaynak:"TDV mora: '1430’da Despot Konstantinos Patras’ı Franklar’dan geri aldı.' · '1458’de Thomas açık bir şekilde vergi ödemeyi reddedince Fâtih Sultan Mehmed büyük bir orduyla gelip yarımadanın kuzey bölgesine, Patras, Vostitsa, Kalavrita ve Corinth’e hâkim oldu'" },
 
-{ t:"1448-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Stjepan Vukčić-Kosača 'St. Sava Dükü' — Hersek'in doğuşu", gun:"1448 (EB1911 yılı veriyor; TDV 'XV. yüzyıl ortalarında')", yer:"Hersek (Hum ve Trebinje) — Mostar, Blagay", yer_id:"Mostar", kisiler:"Stjepan Vukčić-Kosača, III. Friedrich", d:"Hum ile Trebinje'yi tek beylikte birleştiren Stjepan Vukčić-Kosača Bosna kralına karşı ayaklanıp kendini 'St. Sava'nın Herseki (dükü)' ilân etti; unvanı 1448'de İmparator III. Friedrich verdi. Herzegovina ('Hersek'in toprağı') adı bu unvandan gelir. Hersek 1466'dan itibaren parça parça Osmanlı'ya geçti, 1470'te sancak oldu; kalan toprakları 1482 başında katıldı.", kaynak:"EB1911 'Bosnia and Herzegovina' (Wikisource): 'Stephen Vukčić … who had united Tribunia and Hlum into a single principality' · 'the first and last holder of the title “Duke of St Sava,” conferred on him by the emperor Frederick III. in 1448; and from this title is derived the name Herzegovina' · TDV bosna-hersek: '… XV. yüzyıl ortalarında Bosna kralına isyan edip kendisini “St. Sava’nın Herseki” yani dükü ilân eden Stjepan Vukčić-Kosača’nın unvanından gelir' · 'Hersek sancağı 1470’te teşkil edilmiş, buranın diğer bir kısım toprakları ise 1482 başlarında fethedilerek sancağa katılmıştı.'" },
+{ bolge:4, t:"1448-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Stjepan Vukčić-Kosača 'St. Sava Dükü' — Hersek'in doğuşu", gun:"1448 (EB1911 yılı veriyor; TDV 'XV. yüzyıl ortalarında')", yer:"Hersek (Hum ve Trebinje) — Mostar, Blagay", yer_id:"Mostar", kisiler:"Stjepan Vukčić-Kosača, III. Friedrich", d:"Hum ile Trebinje'yi tek beylikte birleştiren Stjepan Vukčić-Kosača Bosna kralına karşı ayaklanıp kendini 'St. Sava'nın Herseki (dükü)' ilân etti; unvanı 1448'de İmparator III. Friedrich verdi. Herzegovina ('Hersek'in toprağı') adı bu unvandan gelir. Hersek 1466'dan itibaren parça parça Osmanlı'ya geçti, 1470'te sancak oldu; kalan toprakları 1482 başında katıldı.", kaynak:"EB1911 'Bosnia and Herzegovina' (Wikisource): 'Stephen Vukčić … who had united Tribunia and Hlum into a single principality' · 'the first and last holder of the title “Duke of St Sava,” conferred on him by the emperor Frederick III. in 1448; and from this title is derived the name Herzegovina' · TDV bosna-hersek: '… XV. yüzyıl ortalarında Bosna kralına isyan edip kendisini “St. Sava’nın Herseki” yani dükü ilân eden Stjepan Vukčić-Kosača’nın unvanından gelir' · 'Hersek sancağı 1470’te teşkil edilmiş, buranın diğer bir kısım toprakları ise 1482 başlarında fethedilerek sancağa katılmıştı.'" },
 
-{ t:"1525-04-08", k:"antlasma", kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü", gun:"8 Nisan 1525", yer:"Kraków; Prusya — Königsberg", yer_id:"Königsberg", kisiler:"Brandenburglu Albrecht, I. Zygmunt", d:"Cermen Şövalyeleri'nin büyük üstadı Brandenburglu Albrecht, Polonya'ya karşı yardım bulamayınca Kraków Barışı'nı imzaladı. Tarikat devleti (Ordensstaat) Polonya'nın metbûluğu altında, Brandenburg hanedanına geçen irsî ve dünyevî bir dükalık oldu. Merkez Königsberg'di; Albrecht 1544'te burada Albertus Üniversitesi'ni kurdu. Dükalık 1701'de Prusya Krallığı'na dönüştü.", kaynak:"NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'" },
+{ bolge:2, t:"1525-04-08", k:"antlasma", kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü", gun:"8 Nisan 1525", yer:"Kraków; Prusya — Königsberg", yer_id:"Königsberg", kisiler:"Brandenburglu Albrecht, I. Zygmunt", d:"Cermen Şövalyeleri'nin büyük üstadı Brandenburglu Albrecht, Polonya'ya karşı yardım bulamayınca Kraków Barışı'nı imzaladı. Tarikat devleti (Ordensstaat) Polonya'nın metbûluğu altında, Brandenburg hanedanına geçen irsî ve dünyevî bir dükalık oldu. Merkez Königsberg'di; Albrecht 1544'te burada Albertus Üniversitesi'ni kurdu. Dükalık 1701'de Prusya Krallığı'na dönüştü.", kaynak:"NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'" },
 
-{ t:"1918-11-12", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu", gun:"12 Kasım 1918", yer:"Viyana", yer_id:"Viyana", kisiler:"İmparator I. Karl", d:"İmparator I. Karl'ın 11 Kasım'da devlet işlerinden elini çekmesinin ertesi günü Geçici Millî Meclis devlet ve hükümet şekli hakkındaki kanunu kabul etti ve cumhuriyet ilân edildi. Habsburg Avusturyası'nın yerini Viyana merkezli Birinci Cumhuriyet aldı. Bu ilânla Viyana, Linz, Salzburg, Innsbruck, Klagenfurt, Bregenz ve öteki Alman-Avusturya şehirleri Avusturya Cumhuriyeti'nin (Deutschösterreich) toprağı oldu.", kaynak:"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik): 'Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen.' · '11. November 1918: Kaiser Karl I. erklärt sich unter dem Druck der Ereignisse bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten' · TDV avusturya (1804-1867 Avusturya İmparatorluğu, 1867-1918 Avusturya-Macaristan) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik)", ic_not_kaynak:"TDV avusturya imparatorun devlet işlerinden çekilişini 18 Kasım diye verir ('İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla'); Parlament Österreich 11 Kasım 1918 der. Avusturya anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi mükerrer olduğu için kaldırıldı (ONCE1281-OK109-UYGULA-1004).",
+{ bolge:3, t:"1918-11-12", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu", gun:"12 Kasım 1918", yer:"Viyana", yer_id:"Viyana", kisiler:"İmparator I. Karl", d:"İmparator I. Karl'ın 11 Kasım'da devlet işlerinden elini çekmesinin ertesi günü Geçici Millî Meclis devlet ve hükümet şekli hakkındaki kanunu kabul etti ve cumhuriyet ilân edildi. Habsburg Avusturyası'nın yerini Viyana merkezli Birinci Cumhuriyet aldı. Bu ilânla Viyana, Linz, Salzburg, Innsbruck, Klagenfurt, Bregenz ve öteki Alman-Avusturya şehirleri Avusturya Cumhuriyeti'nin (Deutschösterreich) toprağı oldu.", kaynak:"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik): 'Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen.' · '11. November 1918: Kaiser Karl I. erklärt sich unter dem Druck der Ereignisse bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten' · TDV avusturya (1804-1867 Avusturya İmparatorluğu, 1867-1918 Avusturya-Macaristan) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik)", ic_not_kaynak:"TDV avusturya imparatorun devlet işlerinden çekilişini 18 Kasım diye verir ('İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla'); Parlament Österreich 11 Kasım 1918 der. Avusturya anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi mükerrer olduğu için kaldırıldı (ONCE1281-OK109-UYGULA-1004).",
   alt_kutu:[9.4, 42.3, 26.8, 51.3],
   alt_kronoloji:[
     { t:"1918-10-28", b:"Prag: Çekoslovak devleti ilan edildi — Bohemya, Moravya, Silezya ayrıldı", d:"Prag'daki Çekoslovak Ulusal Komitesi bağımsız devleti ilan etti ve kuruluş kanununu çıkardı. Bohemya, Moravya ve Avusturya Silezyası monarşiden koptu; Slovakya'nın katılımı iki gün sonra Martin bildirisiyle geldi.", yer_kon:[50.087, 14.421], kaynak:"Zákon č. 11/1918 Sb. (28 Ekim 1918) — Çekoslovak devletinin kuruluş kanunu" },

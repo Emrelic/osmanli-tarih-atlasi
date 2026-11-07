@@ -29,7 +29,7 @@
 window.OLAYLAR_2S0920 = [
 
 // ── 1387 · Karaferye ─────────────────────────────────────────────────
-{ t:"1387-05-08", k:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Karaferye (Veria)",
+{ t:"1387-05-08", k:"fetih", onem:3, dunya:2, kapsam:"ic", yer_id:"Karaferye (Veria)",
   b:"Karaferye'nin (Veria) Osmanlı hâkimiyetine girmesi",
   gun:"8 Mayıs 1387", yer:"Karaferye (Veria)", kisiler:"I. Murad, Çandarlı Halil Hayreddin Paşa",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -37,7 +37,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `karaferye` — AYNEN: \"Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387'de olduğunu yazar.\" · hassasiyet: GÜN · NOT: TDV aynı maddede ÇELİŞKİLİ iki tarih daha verir (Meteora yazmasına göre 1385-86; Aya Yorgi kitâbesine göre 9 Nisan 1433) ve bunları kendisi 'zihin karıştıran' diye niteler — atlas verisi 8 Mayıs 1387'yi taşıdığı için o gün alındı" },
 
 // ── 1552 · Lugoş ─────────────────────────────────────────────────────
-{ t:"1552-08-01", k:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Lugos (Lugoj)",
+{ t:"1552-08-01", k:"fetih", onem:2, dunya:2, kapsam:"ic", yer_id:"Lugos (Lugoj)",
   b:"Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin devamı",
   gun:"Ağustos 1552", yer:"Lugos (Lugoj), Karánşebeş (Caransebeş), Banat",
   kisiler:"Kara Ahmed Paşa", etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -66,7 +66,7 @@ window.OLAYLAR_2S0920 = [
    ═══════════════════════════════════════════════════════════════════ */
 
 // ── 1912 · Priştine ──────────────────────────────────────────────────
-{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Priştine",
+{ t:"1912-10-22", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Priştine",
   b:"Priştine'nin Sırp ordusunun eline geçmesi",
   gun:"22 Ekim 1912", yer:"Priştine, Kosova", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -75,7 +75,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H6-1015 (0076/H-0151): madde 2 Ekim'den 22 Ekim'e alındı. TDV `pristine` AYNEN \"2 Ekim 1912 tarihinde Sırp ordusu Priştine'yi alarak…\" der; ama Sırbistan savaşı 18 Ekim'de ilân etti ve ordusu 19 Ekim'de sınırı geçti (Ahbab, Özkan) — 2 Ekim Jülyen okunsa da (15 Ekim G) savaş öncesine düşer ⇒ TDV rakamı hatalı sayıldı, iki akademik kaynağın günü alındı. Atlas verisi zaten 1912-10-22. Eski not: 'Madde TDV'nin gününe yazıldı (atlas referans değildir)'." },
 
 // ── 1912 · Manastır ──────────────────────────────────────────────────
-{ t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Manastır",
+{ t:"1912-11-18", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Manastır",
   b:"Manastır'ın Sırp kuvvetlerince işgali",
   gun:"14-18 Kasım 1912", yer:"Manastır (Bitola)", kisiler:"Sırp kuvvetleri",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -84,7 +84,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"Atlas kırılması 1912-11-19'da duruyor; TDV 14-18 Kasım aralığını verir. Tarih aralığın SON gününe yazıldı, kırılmanın gününe çekilmedi (1 gün fark)." },
 
 // ── 1912 · Arnavutluk'un istiklâli ───────────────────────────────────
-{ t:"1912-11-28", k:"siyaset", onem:4, dunya:4, kapsam:"dis", yer_id:"Avlonya",
+{ t:"1912-11-28", k:"siyaset", onem:4, dunya:4, kapsam:"ic", yer_id:"Avlonya",
   b:"Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali",
   gun:"28 Kasım 1912",
   yer:"Avlonya, Akçahisar (Kruja), Ayasaranda (Sarandë), Berat, Butrint (Butrinto), Delvine, Draç, Ergiri (Ergirikasrı), Hımara (Himarë), Kanina, Leş (Alessio), Mat (Mati), İlbasan (Elbasan), Arnavutluk",
@@ -93,7 +93,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `arnavutluk` — AYNEN: \"28 Kasım 1912'de İsmâil Kemali, Avlonya'da Arnavutluk'un istiklâlini ilân etti\" · hassasiyet: GÜN" },
 
 // ── 1912 · Ohri ve Debre ─────────────────────────────────────────────
-{ t:"1912-11-29", k:"kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ohri",
+{ t:"1912-11-29", k:"kayip", onem:3, dunya:2, kapsam:"ic", yer_id:"Ohri",
   b:"Ohri ve Debre'de Osmanlı hâkimiyetinin sona ermesi",
   gun:"29 Kasım 1912", yer:"Ohri, Debre (Dibra)", kisiler:"Sırp ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -101,13 +101,13 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `ohri` — AYNEN: \"Ohri'deki Osmanlı hâkimiyeti 29 Kasım 1912'de tamamen sona erdi ve şehir Sırp ordusunun eline geçti.\" · hassasiyet: GÜN · NOT: Debre için TDV bu maddede ayrı gün vermez; aynı harekâtın parçası olarak anıldı" },
 
 // ── 1913 · İşkodra ───────────────────────────────────────────────────
-{ t:"1913-04-23", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"İşkodra",
+{ t:"1913-04-23", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"İşkodra",
   b:"İşkodra'nın Karadağlılar tarafından işgali",
   gun:"23 Nisan 1913", yer:"İşkodra (Shkodër)", kisiler:"Hasan Rıza Paşa, Esad Paşa (Toptanî), Karadağ ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
   d:"Birinci Balkan Savaşı'nın en uzun kuşatmalarından biri İşkodra'da yaşandı; aylarca süren direnişin ardından şehir Karadağ kuvvetlerine bırakıldı. İşkodra, savaşın sonuna kadar dayanan son Osmanlı kalelerindendi.",
   kaynak:"TDV `balkan-savasi` — AYNEN: \"Karadağlılar da 23 Nisan'da İşkodra'yı işgal ettiler\" · hassasiyet: GÜN" },
-{ t:"1913-05-14", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"İşkodra",
+{ t:"1913-05-14", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"İşkodra",
   b:"Karadağ İşkodra'yı boşalttı; büyük devletlerin uluslararası kolordusu şehre girdi",
   gun:"14 Mayıs 1913", yer:"İşkodra (Shkodër)", kisiler:"Karadağ ordusu, uluslararası kolordu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -116,7 +116,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"1914-1918-online, «Scutari Crisis» https://encyclopedia.1914-1918-online.net/article/scutari-crisis/ (gün arama özetinden; ikinci akademik teyit önerilir)" },
 
 // ── 1913 · Bükreş ────────────────────────────────────────────────────
-{ t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
+{ bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
   b:"Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
@@ -130,7 +130,7 @@ window.OLAYLAR_2S0920 = [
 // =====================================================================
 
 // ── 1913 · Lahsa ─────────────────────────────────────────────────────
-{ t:"1913-07-08", k:"kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Lahsa",
+{ t:"1913-07-08", k:"kayip", onem:3, dunya:3, kapsam:"ic", yer_id:"Lahsa",
   b:"İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu",
   gun:"8 Temmuz 1913", yer:"Lahsa, Hüfûf, Katîf, Ukayr (Uceyr), Cübeyl",
   kisiler:"Abdülazîz b. Suûd (İbn Suud)",
@@ -139,7 +139,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN" },
 
 // ── 1914 · Basra ─────────────────────────────────────────────────────
-{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Basra",
+{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
   b:"Şattülarap çıkarması — Basra'nın düşüşü ve Irak cephesinin açılması",
   gun:"22 Kasım 1914",
   yer:"Basra, Fâv, Kürne, Ammâre, Nâsıriye, Semâve, Kuveyt, Şattülarap",
@@ -148,7 +148,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `basra` — AYNEN: \"Basra bu son vali zamanında 22 Kasım 1914'te İngilizler tarafından işgal edildi.\" · hassasiyet: GÜN · NOT: TDV bu cümlede Fâv ve Kürne'yi ANMAZ; onlar aynı harekâtın parçası olarak atlasın kırılma kümesinden alındı" },
 
 // ── 1918 · Gürcistan ─────────────────────────────────────────────────
-{ t:"1918-05-26", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Kutaisi",
+{ bolge:4, t:"1918-05-26", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Kutaisi",
   b:"Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı",
   gun:"26 Mayıs 1918", yer:"Kutaisi, Tiflis, Gürcistan",
   kisiler:"Gürcistan Millî Konseyi", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
@@ -156,7 +156,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Gürcistan' (islamansiklopedisi.org.tr/gurcistan)" },
 
 // ── 1918 · Azerbaycan ────────────────────────────────────────────────
-{ t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
+{ bolge:4, t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
   b:"Azerbaycan Demokratik Cumhuriyeti ilân edildi",
   gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
   kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
@@ -164,7 +164,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
-{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
+{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
   b:"Halep'in Arap ve İngiliz kuvvetlerince işgali",
   gun:"27 Ekim 1918", yer:"Halep", kisiler:"Arap kuvvetleri, İngiliz ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -172,7 +172,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -180,7 +180,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
   gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
@@ -191,7 +191,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
-{ t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
+{ bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
   b:"Şarkî Ürdün Emirliği kuruldu — Abdullah b. Hüseyin emîrliğini ilân etti",
   gun:"Şubat 1921", yer:"Amman, Kerak, Şarkî Ürdün",
   kisiler:"Abdullah b. Hüseyin", etiket:["siyasi","toprak-kazanc","konu-siyasi"],

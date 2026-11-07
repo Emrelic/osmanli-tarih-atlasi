@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Misir/Nubya, Sahra-alti Afrika, Amerikalar (MO 10000 - MS 1) - 2. dalga (d2-afrika-amerika) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-afrika-amerika.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
- { "odak_yer":["Monte Albán"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Monte Albán"], 
   "t": "-0374-01-01",
   "k": "fetih",
   "b": "San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: meydan yakılır (Monte Albán saldırısı)",
@@ -22,7 +22,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 400–350 (kaynağın verdiği uçlar); orta nokta MÖ 375 = astronomik -0374. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: ~95 (2 sigma, dendrokalibre). Kaynaktan okunan: «Tilcajete was attacked by Monte Albán and its plaza was burned». Ayni makalede San Jose Mogote Yapi 28 (yanmis tapinak) 820-500 MO (b-177624); Yapi 37 840-400 MO; Ozellik 18/19 (Anit 3 terminus ante quem) 790-500/820-760 MO; Ev 19 (en eski yanmis ev) 2020-1620 MO; Ozellik 21 palisad uc tarihle 1680-1410/1720-1060/1700-1390 MO; Quiotepec kalesi 50 MO-MS 250; La Coyotera kafatasi rafi 190 MO-MS 255. Faz tarihleri (Erken MA I 2450-2250 BP vb.) HAM BP olarak verilmis - YAZILMADI. 'Alan Tilcajete'nin tahmini bu makalede 25 ha -> 52.8 ha'."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-0659-01-01", "yer_id":"San José Mogote",
   "k": "kurulus",
   "b": "San Jose Mogote: yanmis tapinak (Yapi 28): Yapı 28 tapınağı yanar",
@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 820–500 (kaynağın verdiği uçlar); orta nokta MÖ 660 = astronomik -0659. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: ~95 (2 sigma). Kaynaktan okunan: «reduced to vitrified cinders». Olay tarihi araligi genis (320 yil) - tek tarihlenmis kömür. Monte Alban kurulusunu bu makaleden dogrudan tarihleyen kalibre aralik YOK (Erken MA I faz tarihleri ham BP: 2450-2250 BP)."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-0999-01-01", "yer_id":"Ceibal",
   "k": "kurulus",
   "b": "Ceibal (Seibal, Pasion, Guatemala): Real 1 evresi: ilk yerleşik topluluk",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1000–850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Real 1 (1000–850 B.C.), Real 2 (850–800 B.C.), and Real 3 (800–700 B.C.)». Nature 2013 (Inomata vd., 'Emergence of the Maya', Archaeology dergisi ozeti: MO ~1000) orijinal Nature makalesi OKUNMADI. Arama ozeti: 2022'de Pasion bolgesi tatli su rezervuar etkisi bulundu, Ceibal insan kemiklerinde Orta Preklasik tarihleri 92-179 yil degistirdi - METIN OKUNMADI, uyari olarak not. 'Pre-Klasik cokus MS 150-300', 'savasin yogunlasmasi MO 75/MS 735'."
  },
- { "odak_yer":["Kerma"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Kerma"], 
   "t": "-2549-01-01",
   "k": "kurulus",
   "b": "Eski Kerma (Kerma Ancien): Eski Kerma başlar",
@@ -79,7 +79,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2550 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «between 2550 and 2050 BC». FARKLI KAYNAKLAR: (1) Honegger 2014: Eski Kerma 2550-2050 MO (okudum). (2) Le Moyne vd. 2023, PLoS ONE 18(2):e0280347 (Kadruka, Orta Nil): 'Kerma period (2500-1450 BCE)' (Ozet; PMC9894462) - tum Kerma kulturu (Ancien+Moyen+Classique), Eski Kerma degil. (3) Bonnet/Honegger/Genava (arama ozeti; sayfa AÇILMADI): Bonnet'ye gore Kerma Ancien 2400-2050, Moyen 2050-1750 MO; Honegger 2550'ye geri ceker; CE27 sektorunden iki 14C tarihi 2500-2400 MO. Bu uc deger arama motoru ozetidir, KAYNAK OKUNMADI - atlasa yazma, Genava/Kerma raporu bulunmadan kullanma. Kerma Moyen/Classique iki ucu icin kaynaklı sayisal aralik BULUNAMADI."
  },
- { "odak_yer":["Kotosh"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Kotosh"], 
   "t": "-2799-01-01",
   "k": "gelisme",
   "b": "Kotosh Dini Gelenegi (Kotosh, Peru): Kotosh Dini Geleneği başlar",
@@ -94,7 +94,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «which dominated the central Andes during the Late Archaic and Formative periods (2800–550 BC)». Kotosh sitesi (Mito/Wairajirca/Kotosh fazlari) icin kalibre aralik BULUNAMADI: Izumi/Matsumoto raporlari acilmadi; Wikipedia 'Wairajirca MO 1750-1150' yalnizca arama ozeti (kullanma). Mesia-Montenegro 2025 'Time, Ritual, and Bayesian Reasoning' (Research Square onbaski 10.21203/rs.3.rs-6896121/v1) acilamadi (zaman asimi), hakemsiz onbasi. 2800-550 donem toplamidir, tek-olay degil."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-2834-01-01", "yer_id":"Gobero",
   "k": "kayip",
   "b": "Gobero (Tenere cemberi, Nijer): en genç Tenerean mezarı",
@@ -115,7 +115,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2910–2760 (kaynağın verdiği uçlar); orta nokta MÖ 2835 = astronomik -2834. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «2910–2760 B.C.E., midpoint 2835 B.C.E.». Kaynak ic tutarsizligi: Sonuc bolumu Faz 2 sonunu 6300, ana metin 6200 veriyor (her ikisi kaynakta). Faz 3 'Orta Holosen' 5200-2500 MO donem toplami, en genc gomu 2910-2760 MO; geç Tenerean cömlek/ocak 390-190 cal MO (Faz 4 malzemesi). Hiatus 6200-5200 MO 'olasi bir bin yil'. En eski gomu 7730-7580 (orta 7655); en genc Kiffian gomu 6380-6210. OSL tarihleri BP-2000 ile yaklasik MO'ya cevrilmis - kalibre degildir."
  },
- { "odak_yer":["Lothagam North"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Lothagam North"], 
   "t": "-3001-01-01",
   "k": "kurulus",
   "b": "Lothagam North Pillar Site (Turkana Gölü, Kenya): anıtsal mezarlık platformu kullanımı başlar",
@@ -136,7 +136,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3083–2921 (kaynağın verdiği uçlar); orta nokta MÖ 3002 = astronomik -3001. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «The minimum period of platform use is 4,871–4,154 cal. BP». Tablo 14C+cal BP+cal BCE (95.4%) sutunlari makalede; ben cal BP'den cevirdim (BP-1950); en genc ornek ISGS-A2649 gibi tekil tarihler 2906-2777 cal BCE gibi. Makale giris metni 'pillar sites ~5000-4000 cal BP'. Aliel (Wilshaw 2019) ikincil: Lothagam North 5033-4870, Jarigole 5270-4857 cal BP (arama ozeti, okunmadi)."
  },
- {"odak_yer":["Tepeaca"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Tepeaca"],
   "t": "-3184-01-01",
   "k": "ilk_anilis",
   "b": "Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır (San Marcos, Tehuacán)",
@@ -157,7 +157,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3350–3020 (kaynağın verdiği uçlar); orta nokta MÖ 3185 = astronomik -3184. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz ('calibrated y B.P.' ozet; 95% belirtilmemis). Kaynaktan okunan: «dating at a similar age of 5,300–4,970 calibrated y B.P.». Guilá Naquitz (Oaxaca) mısır koçanları daha eski: Piperno & Flannery 2001, PNAS 98(4):2101-2103: 5,400 14C BP ('about 6,250 calendar years ago'); Benz 2001, PNAS 98(4):2104-2106: 'about 4,200 dendrocalibrated years B.C.' - TEK DEGER, 95% araligi okunmadi. Coxcatlan/Piperno-Smith Tehuacan AMS 'MO 5000' iddiasi: bu oturumda Piperno-Smith'in kendi tablosu BULUNAMADI. Tehuacan'daki en eski mısır MO 3350-3020 (San Marcos) - Guilá Naquitz'den ~700-850 yil genc (Benz: 'at least 700 years')."
  },
- { "odak_yer":["Trujillo"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Trujillo"], 
   "t": "-3749-01-01",
   "k": "kurulus",
   "b": "Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Amerika'nın en eski kerpiç anıtsal mimarisi",
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D2_AFRIKA_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3750–3450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «5,700 to 5,400 cal y B.P.». Tablo 1 satir sirasi ve faz adlari tam okunmadi (metin alintilari: Faz II-1 5,700-5,400 ve Faz II-2 sonrasi). Ham bas-son atamasi: bas_mo 3750 = 5700 cal BP, son_mo 3450 = 5400 cal BP; bit blogu 'oda kullanimi' 3550-3150 (5500-5100) ile ÇAKISIR (iki ayri faz). SHCal20 kullanildi (guney yarimküre). Sechin Alto/Casma, Paracas, Ancon, Real Alto: BULUNAMADI."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-7699-01-01", "yer_id":"Gobero",
   "k": "gelisme",
   "b": "Gobero (Tenere cemberi, Nijer): Erken Holosen (Kiffian) iskânı başlar",

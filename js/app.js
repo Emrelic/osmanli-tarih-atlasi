@@ -8429,6 +8429,70 @@ function olaylarAnahtarSiraNo(k) {
 // "TOPLAM" olarak `olaylar.length`i varsayıyor; ayar değişince sayfa
 // yenilenir (aşağıda `dunya-ac` dinleyicisi), yarı yolda süzülmez.
 var dunyaAcik = localStorage.getItem("dunyaAc") === "1";
+// 🆕 DÜNYA OLAYLARI EŞİĞİ — Emre (8 Kasım 2026): *"dünya çapında önemli olayları
+// (Fransız İhtilali, Amerika'nın keşfi, Japonya'da restorasyon…) dünya çapında
+// önemine göre gösterelim; bunu ayarlayabilmeliyiz."* Devlet kronolojilerindeki
+// (`window.KRONOLOJI_*`) `dunya` puanı eşiği geçen maddeler Osmanlı listesine
+// BAĞLANIR — veri kopyalanmaz, Değişmez 2 evrenine girmez (o `data/*.js`i ölçer).
+// Bu maddeler `kapsam:"dunya"` taşır: dış eşiği (`dis-esik`) onları gizlemez,
+// yalnız bu eşik yönetir. `OLAYLAR*` içindeki dış maddelerden `dunya` puanı eşiği
+// geçenler de dış eşiğe takılmaz (`suzgecUygula`). Aynı olay birden çok devlet
+// kronolojisinde durur (İstanbul'un fethi 5 kez): tam günlü maddede GÜN, yıl
+// hassasiyetli (`-01-01`) maddede gün + başlık öneki tekilleştirir; Osmanlı
+// listesinde aynı anahtarlı madde varsa dünya maddesi eklenmez.
+// Değer "0" kapalı · "5" · "4" · "3". Değişince sayfa yenilenir (`olaylar` sabit dizi).
+// Adres `?dunya=` · localStorage `dunyaEsik`.
+var DUNYA_ESIK_DEGERLER = ["0", "5", "4", "3"];
+var DUNYA_ESIK_VARSAYILAN = "5";
+var dunyaEsik = (function () {
+  var u = new URL(window.location.href).searchParams.get("dunya");
+  if (u !== null && DUNYA_ESIK_DEGERLER.indexOf(u) >= 0) return u;
+  try {
+    var s = localStorage.getItem("dunyaEsik");
+    if (s !== null && DUNYA_ESIK_DEGERLER.indexOf(s) >= 0) return s;
+  } catch (e) { /* depolama kapalı — varsayılan */ }
+  return DUNYA_ESIK_VARSAYILAN;
+})();
+var dunyaEsikSayi = +dunyaEsik;           // 0 = kapalı
+function dunyaPuanGecer(o) {
+  return dunyaEsikSayi > 0 && o && typeof o.dunya === "number" && o.dunya >= dunyaEsikSayi;
+}
+function _dunyaAnahtar(o) {
+  var t = String(o.t || "");
+  return /-01-01$/.test(t)
+    ? t + "|" + String(o.b || "").toLocaleLowerCase("tr").replace(/[^a-zçğıöşüâîû0-9]+/g, "").slice(0, 14)
+    : t;
+}
+function dunyaMaddeleriTopla(osmanliMaddeleri) {
+  if (!dunyaEsikSayi) return [];
+  var osm = {};
+  osmanliMaddeleri.forEach(function (o) { if (o && o.t) osm[_dunyaAnahtar(o)] = true; });
+  var adIx = {};
+  (window.DEVLETLER || []).forEach(function (d) { adIx[d.id] = d.ad; });
+  // Rozetteki ad: önce maddenin kendi taraf kimlikleri (çok taraflı dosyalar), sonra
+  // dosya adından künye; ikisi de yoksa "Dünya" — dosya adı ("Ms1 1000 Ortadogu") okura gösterilmez.
+  function kronoAdi(k, m) {
+    var ids = m.taraflar || m.devletler || (m.devlet ? [m.devlet] : []);
+    for (var j = 0; j < ids.length; j++) if (adIx[ids[j]]) return adIx[ids[j]];
+    return adIx[k.slice(10).toLowerCase().replace(/_/g, "-")] || "Dünya";
+  }
+  var gor = {}, out = [];
+  Object.keys(window).filter(function (k) {
+    return /^KRONOLOJI_[A-Z0-9_]+$/.test(k) && Array.isArray(window[k]);
+  }).sort().forEach(function (k) {
+    window[k].forEach(function (m) {
+      if (!m || !m.t || !m.b || !dunyaPuanGecer(m)) return;
+      if (!/^[+-]?\d+-\d{2}-\d{2}$/.test(m.t)) return;      // gün okunamayan: senkron bozulmasın
+      var a = _dunyaAnahtar(m);
+      if (osm[a]) return;                                   // Osmanlı listesinde zaten var
+      var ad = kronoAdi(k, m);
+      if (gor[a]) { if (gor[a]._dunyaKaynak.indexOf(ad) < 0) gor[a]._dunyaKaynak.push(ad); return; }
+      gor[a] = Object.assign({}, m, { kapsam: "dunya", _dunyaKaynak: [ad] });
+      out.push(gor[a]);
+    });
+  });
+  return out;
+}
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = Object.keys(window)
@@ -8439,6 +8503,9 @@ var olaylar = Object.keys(window)
   })
   .reduce(function (acc, k) { return acc.concat(window[k] || []); }, [])
   .filter(function (o) { return dunyaAcik || o.kapsam !== "konu"; })
+  .reduce(function (acc, _x, i, dizi) {               // 🌍 dünya maddeleri — yalnız bir kez
+    return i === dizi.length - 1 ? dizi.concat(dunyaMaddeleriTopla(dizi)) : acc;
+  }, [])
   // KAYNAK-ARAYUZ-1014 (Emre, 14 Ekim 2026): yalnız güvensiz kaynağa (Vikipedi vb.) dayanan
   // madde KULLANILMAZ. Damga js/kaynak_damga.js'ten (arac/kaynak_guven.py ile birebir;
   // denetim/KAYNAK-ARAYUZ-1014/esit_sina.py). Tablo yüklenmediyse hiçbir madde gizlenmez.
@@ -8653,6 +8720,17 @@ olaylar.forEach(function (o, i) {
     arkRozet.textContent = "🏺 Arkeolojik";
     arkRozet.style.cssText = "font-size:.72em;opacity:.75;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
     div.lastChild.appendChild(arkRozet);
+  }
+  // 🌍 Dünya maddesi (devlet kronolojisinden bağlandı, `dunyaMaddeleriTopla`) ya da
+  // Osmanlı listesindeki dış maddenin dünya eşiğini geçmesi: rozet kaynağını söyler.
+  if (o.kapsam === "dunya" || (o.kapsam === "dis" && dunyaPuanGecer(o))) {
+    var dRozet = document.createElement("span");
+    dRozet.className = "o-dunya-rozet";
+    dRozet.textContent = "🌍 " + (o._dunyaKaynak ? o._dunyaKaynak[0] + (o._dunyaKaynak.length > 1 ? " +" + (o._dunyaKaynak.length - 1) : "") : "Dünya");
+    dRozet.title = "Dünya önemi " + o.dunya + " — ⚙ Ayarlar › Dünya olayları eşiği" +
+      (o._dunyaKaynak ? " · kronoloji: " + o._dunyaKaynak.join(", ") : "");
+    dRozet.style.cssText = "font-size:.72em;opacity:.8;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
+    div.lastChild.appendChild(dRozet);
   }
   var duyguSpan = duyguSpanUret(o);
   if (duyguSpan) div.lastChild.appendChild(duyguSpan);
@@ -8923,7 +9001,9 @@ function sehirKronAyarla(gizli) {
 // 🔴 İSTİSNA (DIS_ISTISNA_ACIK): gizli dış madde bir Osmanlı kırılmasını (donemler fi,
 //   ±30 gün — Değişmez 2 penceresi) görünür maddesiz bırakıyorsa görünür kalır ve
 //   `.dis-istisna` ile işaretlenir. Ölçüm (eşik 4): 1 madde — 1891-01-01 Müleydâ ↔ Şırnak.
-var DIS_ESIK_DEGERLER = ["0", "5", "4", "hepsi"];
+// "3" (8 Kasım 2026): `bolge` puanı veride artık var — komşu beylik/Memlük/İran olayları
+// çoğunlukla 3 aldı; "4 ve üstü" ile "hepsi" arasında ara basamak.
+var DIS_ESIK_DEGERLER = ["0", "5", "4", "3", "hepsi"];
 var DIS_ESIK_VARSAYILAN = "4";
 var DIS_ISTISNA_ACIK = true;
 var disEsik = DIS_ESIK_VARSAYILAN;
@@ -9028,7 +9108,8 @@ function suzgecUygula() {
   var baslikVar = baslikSecim && baslikSecim.length && window.SUZGEC.baslikGecer;
   var ds = disSonuc(), disGizliSay = 0;           // PAKET-UI3 İŞ 2
   for (var i = 0; i < olaylar.length; i++) {
-    var disGizli = !!(ds && ds.gizli[i]);
+    // 🌍 dış eşiğe takılan madde, dünya eşiğini geçiyorsa görünür kalır
+    var disGizli = !!(ds && ds.gizli[i]) && !dunyaPuanGecer(olaylar[i]);
     if (disGizli) disGizliSay++;
     var gorunur = (!suzgecSecim ||
                    suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0) &&
@@ -14630,11 +14711,33 @@ var dunyaAcEl = document.getElementById("dunya-ac");
   });
 })();
 
+// 🆕 🌍 Dünya olayları eşiği (8 Kasım 2026) — `dunyaEsik` yukarıda, `olaylar`
+// kurulmadan önce okunur; değişince sayfa yenilenir (dizi sabit). Adresteki
+// `?dunya=` de yeni değerle yazılır, yoksa eski adres değeri seçimi ezerdi.
+(function () {
+  var el = document.getElementById("dunya-esik");
+  if (!el) return;
+  el.value = dunyaEsik;
+  var bilgi = document.getElementById("dunya-esik-bilgi");
+  if (bilgi && dunyaEsikSayi) {
+    var n = 0, m = 0;
+    olaylar.forEach(function (o) { if (o.kapsam === "dunya") n++; else if (o.kapsam === "dis" && dunyaPuanGecer(o)) m++; });
+    bilgi.textContent = " — şu an " + n + " dünya maddesi bağlı" + (m ? " · " + m + " dış madde dünya puanıyla görünür" : "");
+  }
+  el.addEventListener("change", function () {
+    if (DUNYA_ESIK_DEGERLER.indexOf(el.value) < 0) return;
+    try { localStorage.setItem("dunyaEsik", el.value); } catch (e) { /* depolama kapalı */ }
+    var u = new URL(window.location.href);
+    if (u.searchParams.has("dunya")) u.searchParams.set("dunya", el.value);
+    location.replace(u.toString());
+  });
+})();
+
 // 🆕 PAKET-UI3 · İŞ 2 — "Dış olaylar" eşiği (⚙ Ayarlar, `dunya-ac`ın altında).
 // `dunya-ac`ın TERSİNE sayfa YENİLENMEZ: süzme `.suzuldu` sınıfıyla yapılıyor,
 // `olaylar` dizisi ve indeksler değişmiyor (konu süzgeciyle aynı yol).
 function disEsikAdi(e) {
-  return e === "0" ? "gösterme" : e === "5" ? "yalnız 5" : e === "4" ? "4 ve üstü" : "hepsi";
+  return e === "0" ? "gösterme" : e === "5" ? "yalnız 5" : e === "4" ? "4 ve üstü" : e === "3" ? "3 ve üstü" : "hepsi";
 }
 function disEsikBilgiYaz(ds, gizliSay) {
   var el = document.getElementById("dis-esik-bilgi");
@@ -18365,7 +18468,8 @@ function kronoTemsilEdiliyor(k, derin) {
   dunyaSatirEl.className = "dunyada-satir gizli";
   if (liste.parentNode) liste.parentNode.insertBefore(dunyaSatirEl, liste);
   function dunyadaGuncelle(t) {
-    if (ODAK || EK_SECILI.length) { dunyaSatirEl.classList.add("gizli"); _dunyaImza = null; return; }
+    // 🌍 Dünya eşiği açıkken dünya olayları LİSTENİN İÇİNDE — şerit tekrar olurdu.
+    if (ODAK || EK_SECILI.length || dunyaEsikSayi) { dunyaSatirEl.classList.add("gizli"); _dunyaImza = null; return; }
     if (!_dunyaHavuz) _dunyaHavuz = _dunyaHavuzKur();
     var sec = [];
     for (var i = _dunyaHavuz.length - 1; i >= 0 && sec.length < DUNYA_SATIR_EN_COK; i--) {

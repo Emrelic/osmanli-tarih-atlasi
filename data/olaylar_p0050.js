@@ -27,7 +27,7 @@
 window.OLAYLAR_P0050 = [
 
 // ── Bihaç 1527 · ① Cetin seçimi ─────────────────────────────────────
-{ t:"1527-01-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
+{ bolge:4, t:"1527-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   b:"Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı seçti", yer_id:"Cetin (Cetingrad)",
   gun:"1 Ocak 1527",
   yer:"Cetin (Cetingrad), Hırvatistan Krallığı ve Una-Kupa serhaddi",
@@ -49,7 +49,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"bihac · bosna-hersek" },
 
 // ── Dubrovnik 1814 ────────────────────────────────────────────────
-{ t:"1814-01-28", k:"siyaset", kapsam:"ic", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
+{ bolge:2, t:"1814-01-28", k:"siyaset", kapsam:"dis", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
   b:"Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre Avusturya kuvvetleri girdi",
   gun:"28 Ocak 1814",
   yer:"Dubrovnik (Ragusa), Gruž", yer_id:"Dubrovnik",
@@ -59,7 +59,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"dubrovnik + F. Bona, Kolo 2/2008 (Matica hrvatska) + Državni arhiv u Dubrovniku HR-DADU-310" },
 
 // ── Sırbistan Krallığı 1882 ───────────────────────────────────────
-{ t:"1882-03-06", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ bolge:4, t:"1882-03-06", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   b:"Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü",
   gun:"6 Mart 1882 (Sırp takvimiyle 22 Şubat)",
   yer:"Belgrad, Niş, Semendire, Kragujevac", yer_id:"Belgrad",

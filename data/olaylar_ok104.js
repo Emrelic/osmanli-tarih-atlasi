@@ -35,7 +35,7 @@ window.OLAYLAR_OK104 = [
 //    `§4`in kuralı "gün bilinmiyorsa YYYY-01-01" — ama burada AY biliniyor,
 //    ve Ocak yazmak bilineni de silerdi. Ayın ilk günü seçildi ve seçim
 //    burada AÇIKÇA yazıldı; yıl ve ay TDV'den, gün bizim.
-{ t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
+{ kapsam:"ic", t:"1393-05-01", k:"siyaset", etiket:["toprak-kayip","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   b:"Leş'in (Alessio) Dukagjinler tarafından Venedik'e bırakılması",
   gun:"1393", yer:"Leş (Alessio)", yer_id:"Leş (Alessio)",
   kisiler:"Paul Dukagjin, Lek Dukagjin",
@@ -44,19 +44,19 @@ window.OLAYLAR_OK104 = [
 
 // ── POST-IT #4 · Kruja (Akçahisar) 1284 · 1344 · 1443 — KAYNAK: TDV `kruya`
 // Tarihler yalnız YIL veriyor ("1284", "1344", "1443") → YYYY-01-01 (gün teyitsiz).
-{ t:"1284-01-01", k:"siyaset", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"dis", bolge:2, t:"1284-01-01", k:"siyaset", etiket:["toprak-kayip","savas","konu-askeri","konu-siyasi"],
   b:"Bizans, Anjou'dan Kruja'yı (Akçahisar), Draç'ı ve Avlonya'yı geri aldı",
   gun:"1284", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"II. Andronikos",
   d:"1271-1272'de Anjou'lu Charles'ın aldığı Draç ve Kruja, Charles'ın ölümünün ardından Bizans İmparatoru II. Andronikos tarafından yeniden alındı (TDV Kruya: 'Avlonya, Draç ve Kruya'yı yeniden aldı'). Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"kruya", duygu:["😐"] },
-{ t:"1344-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"dis", bolge:2, t:"1344-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
   b:"Sırplar Kruja'yı (Akçahisar), Berat'ı ve Avlonya'yı ele geçirdi",
   gun:"1344", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"Stefan Duşan",
   d:"TDV Kruya: '1344'te Sırplar Kruya, Berat ve Avlonya'yı ele geçirdi'. TDV Arnavutluk, Duşan'ın Arnavutluk'u 1343-1346 arasında işgal ettiğini, 1355'te imparatorluğunun çöküşüyle yerel beylerin güçlendiğini söyler. Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"kruya", duygu:["😐"] },
-{ t:"1443-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
+{ kapsam:"ic", t:"1443-01-01", k:"siyaset", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"],
   b:"İskender Bey Kruja'yı (Akçahisar) ele geçirdi — Arnavut direnişi başlıyor",
   gun:"1443 (847)", yer:"Akçahisar (Kruja)", yer_id:"Akçahisar (Kruja)",
   kisiler:"İskender Bey",
@@ -65,7 +65,7 @@ window.OLAYLAR_OK104 = [
 
 // ── POST-IT #4 · Draç 1392 — Venedik. Yıl: Sufflay (Medieval Albania) + Men of Empire (Venedik tarafı);
 // TDV drac yılsız. Gün teyitsiz → 1392-01-01.
-{ t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
+{ kapsam:"dis", bolge:3, t:"1392-01-01", k:"siyaset", etiket:["toprak-kazanc","diplomasi","konu-siyasi"],
   b:"Draç (Durrës) Thopia'dan Venedik'e geçti",
   gun:"1392", yer:"Draç", yer_id:"Draç",
   kisiler:"George Thopia",
@@ -74,7 +74,7 @@ window.OLAYLAR_OK104 = [
 
 // ── DRAC-1018 · Draç 1304 — Anjou'ya dönüş. TDV drac/arnavutluk bu aralığı anlatmaz;
 // yıl: Europange / Angevin Studies 'Albania presentation'. Gün teyitsiz → 1304-01-01.
-{ t:"1304-01-01", k:"siyaset", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ bolge:1, t:"1304-01-01", k:"siyaset", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Taranto'lu Philip Draç'ı (Durrës) yeniden Anjou yönetimine aldı",
   gun:"1304", yer:"Draç", yer_id:"Draç",
   kisiler:"Taranto'lu Philip (I. Philippe d'Anjou-Tarente)",

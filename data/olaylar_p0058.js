@@ -14,7 +14,7 @@
 window.OLAYLAR_P0058 = [
 
 // ── 1339 · Eretna Kayseri yöresini bağladı (Zamantı'nın eretna başlangıcı) ──
-{ t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ bolge:3, t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Eretna, Tokat, Kayseri ve Samsun yörelerini kendisine bağladı",
   gun:"1339 (ay ve gün kaynakta yok)",
   yer:"Kayseri, Tokat, Samsun yöreleri; Zamantı (Pınarbaşı)",
@@ -25,7 +25,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"Abdullah Kaya, 'Dulkadirli Beyliği'nin Eratnalılar ile Münasebetleri', MKÜ SBE Dergisi 11(25), 2014, s. 89 · eretnaogullari" },
 
 // ── 1360 · Dulkadirli Halil Bey Zamantı'ya kadar genişledi ──────────────
-{ t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ bolge:3, t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Dulkadirli Halil Bey sınırlarını Zamantı'ya kadar genişletti",
   gun:"1360 (ay ve gün kaynakta yok)",
   yer:"Zamantı (Pınarbaşı), Kayseri'nin doğusu",

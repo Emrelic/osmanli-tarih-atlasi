@@ -29,10 +29,10 @@ window.OLAYLAR_EK20 = [
 
 // ① 1326-10-09 — veri: Beyşehir · Seydişehir  esrefogullari → hamid
 //    TDV `esrefogullari` GÜNÜ BİREBİR VERİYOR: "(9 Ekim 1326)"
-{ t:"1326-10-09",
+{ bolge:2, t:"1326-10-09",
   b:"Eşrefoğulları Beyliği'nin sonu — Beyşehir ve Seydişehir Hamîdoğulları'na geçti",
   tur:"fetih",
-  onem:2, dunya:1, kapsam:"ic",
+  onem:2, dunya:1, kapsam:"dis",
   etiket:["toprak-kayip","beylik","konu-askeri"],
   yer:"Beyşehir",
   yer_id:"Beyşehir",
@@ -42,7 +42,7 @@ window.OLAYLAR_EK20 = [
 
 // ② 1344-10-28 — veri: Aydın · Çeşme · İzmir  aydin → sovalye
 //    TDV `aydinogullari` GÜNÜ BİREBİR VERİYOR: "(28 Ekim 1344)"
-{ t:"1344-10-28",
+{ bolge:3, t:"1344-10-28",
   b:"İzmir Limanı'nın Haçlı donanmasına kaybı — Aydınoğulları'nın deniz gücü kırıldı",
   tur:"savas",
   onem:4, dunya:2, kapsam:"dis",
@@ -56,10 +56,10 @@ window.OLAYLAR_EK20 = [
 // ③ 1366-01-01 — veri: Konya · Aksaray · Niğde · Ilgın · Ulukışla  → karaman
 //    TDV `karamanogullari` YILI VERİYOR, GÜNÜ VERMİYOR ⇒ `YYYY-01-01`
 //    (CLAUDE.md §4: "gün bilinmiyorsa YYYY-01-01 yaz" — kabul edilmiş yol)
-{ t:"1366-01-01",
+{ bolge:3, t:"1366-01-01",
   b:"Karamanoğlu Alâeddin Bey Konya, Aksaray ve Niğde'yi Karaman topraklarına kattı",
   tur:"fetih",
-  onem:2, dunya:1, kapsam:"ic",
+  onem:2, dunya:1, kapsam:"dis",
   etiket:["toprak-kazanc","beylik","konu-askeri"],
   yer:"Konya",
   yer_id:"Konya",
@@ -69,7 +69,7 @@ window.OLAYLAR_EK20 = [
 
 // ④ 1467-01-01 — veri: Van · Bitlis · Bargiri · Hoşap · Kotur  karakoyunlu → akkoyunlu
 //    TDV `akkoyunlular` YILI VERİYOR, GÜNÜ VERMİYOR ⇒ `YYYY-01-01`
-{ t:"1467-01-01",
+{ bolge:4, t:"1467-01-01",
   b:"Uzun Hasan Karakoyunlu Devleti'ne son verdi — Van gölü havzası Akkoyunlu'ya geçti",
   tur:"savas",
   onem:4, dunya:2, kapsam:"dis",
@@ -92,7 +92,7 @@ window.OLAYLAR_EK20 = [
 //    ⚠️ TDV bölünmenin YILINI VERMİYOR — `CLAUDE.md §4`in TANECİKLİK
 //    boşluğu: TDV Gürcistan'ı görüyor ama bu tanecikte konuşmuyor. Yıl
 //    standart akademik anlatıdan; gün bilinmediği için `YYYY-01-01`.
-{ t:"1490-01-01",
+{ bolge:3, t:"1490-01-01",
   b:"Gürcistan Krallığı üçe bölündü — Kartli, Kaheti ve merkezi Kutaisi olan İmereti",
   tur:"siyasi",
   onem:4, dunya:2, kapsam:"dis",
@@ -111,7 +111,7 @@ window.OLAYLAR_EK20 = [
 //      "Memlük ordusu 22 Muharrem 715'te (28 Nisan 1315) şehre girdi."
 //    🔴 Bu, `Değişmez 2s`nin en keskin vakası: TDV TAM GÜN veriyor, harita o
 //    günü çiziyor, ve kronoloji SUSUYOR — en yakın madde 847 GÜN ötedeydi.
-{ t:"1315-04-28",
+{ bolge:2, t:"1315-04-28",
   b:"Memlük ordusu Malatya'ya girdi — şehir İlhanlı'dan Memlük idaresine geçti",
   tur:"fetih",
   onem:3, dunya:2, kapsam:"dis",
@@ -130,7 +130,7 @@ window.OLAYLAR_EK20 = [
 //    Niçin (b) değil: külliyattaki en yakın gün 114 gün ötede ("Serbedârîler
 //    Sebzevâr'ı aldı", Horasan) ve konusu bu olayla ilgisiz. Kırılmayı oraya
 //    çekmek, `§11`in "yanlış maddeye yapışma" kusurunu ELLE üretmek olurdu.
-{ t:"1338-01-01",
+{ bolge:2, t:"1338-01-01",
   b:"Malatya yeniden Memlük hâkimiyetine girdi — Eretnaoğulları idaresinin sonu",
   tur:"fetih",
   onem:3, dunya:1, kapsam:"dis",
@@ -149,7 +149,7 @@ window.OLAYLAR_EK20 = [
 //       İspanyollar tarafından işgal edildi."
 //    ⇒ Verideki gün (25 Temmuz) TDV ile ÇELİŞMİYOR, standart akademik
 //    anlatıdan geliyor. TDV'nin sustuğu tanecik AÇIKÇA belirtildi (§4).
-{ t:"1510-07-25",
+{ bolge:3, t:"1510-07-25",
   b:"Trablusgarp'ın İspanyollar'ca işgali — Hafsî hâkimiyetinin sonu",
   tur:"savas",
   onem:4, dunya:2, kapsam:"dis",
@@ -164,7 +164,7 @@ window.OLAYLAR_EK20 = [
 //    TDV `malta` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
 //      "Kanûnî Sultan Süleyman'ın Rodos'tan çıkardığı (928/1522) Saint Jean
 //       şövalyelerini İspanya-Almanya Kralı V. Carlos Malta'ya yerleştirdi (1530)."
-{ t:"1530-03-24",
+{ bolge:4, t:"1530-03-24",
   b:"Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
   tur:"siyasi",
   onem:4, dunya:2, kapsam:"dis",
@@ -183,7 +183,7 @@ window.OLAYLAR_EK20 = [
 //    ⇒ Madde TDV'nin verdiği güne yazıldı (§4: TDV esastır). Kırılma günü
 //    1887-01-06'da duruyor ve ±30 içinde olduğu için `2s` yine kapanır;
 //    ama VERİNİN GÜNÜ DE 01-07'ye çekilmeli — koordinatöre bildirildi.
-{ t:"1887-01-07",
+{ bolge:1, t:"1887-01-07",
   b:"Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
   tur:"savas",
   onem:2, dunya:2, kapsam:"dis",
@@ -198,7 +198,7 @@ window.OLAYLAR_EK20 = [
 //    TDV `korsika` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
 //      "Nihayet 1768'de Ceneviz pek fazla sahiplenemediği bu adayı
 //       Fransa'ya satmıştır."
-{ t:"1768-05-15",
+{ bolge:1, t:"1768-05-15",
   b:"Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
   tur:"antlasma",
   onem:2, dunya:2, kapsam:"dis",
@@ -215,7 +215,7 @@ window.OLAYLAR_EK20 = [
 //       girince papa Vatikan'a çekildi."
 //      "1870'te Roma'yı da birliğe katan İtalya Krallığı, böylece siyasî bir
 //       güç olarak yeniden Avrupa ve dünya sahnesine çıkmış oluyordu."
-{ t:"1870-09-20",
+{ bolge:2, t:"1870-09-20",
   b:"İtalyan birlikleri Roma'ya girdi — Papalık Devleti'nin sonu ve İtalyan birliğinin tamamlanması",
   tur:"savas",
   onem:3, dunya:3, kapsam:"dis",
@@ -236,7 +236,7 @@ window.OLAYLAR_EK20 = [
 //    ⇒ `CLAUDE.md §4`ün COĞRAFÎ boşluğu: Batı Avrupa'nın iç hânedan tarihi
 //    TDV'de %0 ölçülmüş. Dayanak standart akademik anlatı (Utrecht-Rastatt
 //    sonrası düzenlemeler, 1720 Lahey Antlaşması).
-{ t:"1720-09-02", ic_not_t:"Treccani Dizionario di Storia 'Sardegna': 'Vittorio Amedeo II di Savoia, che prese possesso dell'isola il 2 sett. 1720' · Enc. Italiana 'Sardegna': 'preso appena possesso della Sardegna (2 settembre 1720)'; Britannica 24 Ağustos 1720 'formally took possession' (9 gün fark, ic_not); eski 1720-02-24 hiçbir kaynakta yok (KASA SALI kuyruğu 44-ek, koordinatör kararı, KASA 4 Kasım 2026)",
+{ bolge:1, t:"1720-09-02", ic_not_t:"Treccani Dizionario di Storia 'Sardegna': 'Vittorio Amedeo II di Savoia, che prese possesso dell'isola il 2 sett. 1720' · Enc. Italiana 'Sardegna': 'preso appena possesso della Sardegna (2 settembre 1720)'; Britannica 24 Ağustos 1720 'formally took possession' (9 gün fark, ic_not); eski 1720-02-24 hiçbir kaynakta yok (KASA SALI kuyruğu 44-ek, koordinatör kararı, KASA 4 Kasım 2026)",
   b:"Sardinya İspanya'dan Savoy hânedanına geçti — Sardinya Krallığı doğdu",
   tur:"antlasma",
   onem:1, dunya:2, kapsam:"dis",
@@ -318,7 +318,7 @@ window.OLAYLAR_EK20 = [
   kaynak:"cem-sultan" },
 
 
-{ t:"1701-01-18",
+{ bolge:2, t:"1701-01-18",
   b:"Prusya Krallığı ilan edildi — I. Friedrich Königsberg'de taç giydi",
   tur:"kurulus",
   onem:3, dunya:4, kapsam:"dis",
@@ -329,7 +329,7 @@ window.OLAYLAR_EK20 = [
   d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı.", ic_not_d:"Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren `prusya` kimliğiyle boyanır.",
   kaynak:"prusya" },
 
-{ t:"1807-07-09",
+{ bolge:4, t:"1807-07-09",
   b:"Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu", yer_kon:[55.0864, 21.8892],
   tur:"antlasma",
   onem:3, dunya:4, kapsam:"dis",
@@ -340,7 +340,7 @@ window.OLAYLAR_EK20 = [
   kaynak:"prusya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Fransa–Rusya Tilsit Antlaşması 7 Temmuz 1807, md. 5-6 — Digithèque MJP https://mjp.univ-perp.fr/traites/1807tilsit.htm" },
 
 
-{ t:"1648-10-24",
+{ bolge:2, t:"1648-10-24",
   b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü", yer_id:"Münster", kapsam_genis:true,
   tur:"antlasma",
   onem:2, dunya:5, kapsam:"dis",

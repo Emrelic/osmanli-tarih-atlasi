@@ -48,7 +48,7 @@ window.OLAYLAR_P0044 = [
 //    değişimi anlatan madde yoktu (kuyrukta vardı: kronoloji_rusya · kronoloji_kirim).
 //    Aşağıdaki madde o değişimi çekirdekte adıyla anlatır ve Osmanlı bağını kurar.
 // ─────────────────────────────────────────────────────────────────────
-{ t:"1556-01-01", b:"Moskova Çarlığı Astarhan'ı aldı — Aşağı Volga Rus denetimine girdi", tur:"diger",
+{ bolge:4, t:"1556-01-01", b:"Moskova Çarlığı Astarhan'ı aldı — Aşağı Volga Rus denetimine girdi", tur:"diger",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak","konu-askeri"],
   gun:"1556", ic_not_gun:"TDV yıl verir, gün vermez", yer:"Astarhan · Aşağı Volga",
   yer_id:"Astrahan",

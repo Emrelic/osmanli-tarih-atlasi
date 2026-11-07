@@ -77,7 +77,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
 
 // ── İRAN CEPHESİ ────────────────────────────────────────────────────────────
 
-{ t:"1821-01-01", gs:10, k:"savas", etiket:["toprak-kayip","savas","konu-askeri"],
+{ kapsam:"ic", t:"1821-01-01", gs:10, k:"savas", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Osmanlı-İran savaşı başladı — Kars ve Bayazıt'ın kaybı, Erzurum'un kuşatılması",
   gun:"1821 sonbaharı", yer:"Kars, Bayazıt, Erzurum",
   yer_id:"Erzurum", kisiler:"Veliaht Abbas Mirza, II. Mahmud",
@@ -87,7 +87,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   kaynak:"iran (TDV) · abbas-mirza (TDV) · kars (TDV, bu yıllar hakkında sessiz — teyit için okundu)",
   duygu:["😔"] },
 
-{ t:"1821-01-01", gs:20, k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ kapsam:"ic", t:"1821-01-01", gs:20, k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Süleymaniye ve Bağdat'ın İran işgali — Kerkük muhasarası",
   gun:"1821", yer:"Bağdat, Süleymaniye, Kerkük, Kuzey Irak",
   yer_id:"Bağdat", kisiler:"Kölemen Dâvud Paşa",
@@ -97,7 +97,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   kaynak:"iran (TDV) · bagdat (TDV — savaşı doğruluyor, işgali anmıyor) · kerkuk (TDV, bu yıllar hakkında sessiz)",
   duygu:["😔"] },
 
-{ t:"1823-07-28", k:"antlasma", etiket:["antlasma","konu-diplomasi"],
+{ kapsam:"ic", t:"1823-07-28", k:"antlasma", etiket:["antlasma","konu-diplomasi"],
   b:"Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
   gun:"28 Temmuz 1823", yer:"Erzurum", yer_id:"Erzurum",
   kisiler:"II. Mahmud, Feth Ali Şah",
@@ -109,7 +109,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
 
 // ── YANYA CEPHESİ ───────────────────────────────────────────────────────────
 
-{ t:"1820-03-01", k:"siyaset", etiket:["siyaset","ayaklanma","konu-siyasi","konu-askeri"],
+{ kapsam:"ic", t:"1820-03-01", k:"siyaset", etiket:["siyaset","ayaklanma","konu-siyasi","konu-askeri"],
   b:"Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması",
   gun:"Mart 1820", yer:"Yanya (Epir), Tepedelen", yer_id:"Yanya",
   kisiler:"Tepedelenli Ali Paşa, Hurşid Ahmed Paşa, Hâlet Efendi, II. Mahmud",
@@ -119,7 +119,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   kaynak:"tepedelenli-ali-pasa (TDV, Kemal Beydilli) · hursid-ahmed-pasa (TDV, Cevdet Küçük) · yunanistan (TDV, Mehmet Hacısalihoğlu)",
   duygu:["🏛"] },
 
-{ t:"1822-02-14", k:"isyan", etiket:["ayaklanma","konu-askeri","konu-isyan","konu-kisiler"],
+{ kapsam:"ic", t:"1822-02-14", k:"isyan", etiket:["ayaklanma","konu-askeri","konu-isyan","konu-kisiler"],
   b:"Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu",
   gun:"14 Şubat 1822", yer:"Yanya gölü, Pandeleimon Manastırı", yer_id:"Yanya",
   kisiler:"Tepedelenli Ali Paşa, Hurşid Ahmed Paşa, Köse Mehmed Paşa",

@@ -27,7 +27,7 @@
 
 window.OLAYLAR_KRONOEKSIK0921 = [
 
-{ t:"1603-06-07", kesinlik:"gun", k:"siyaset",
+{ kapsam:"ic", t:"1603-06-07", kesinlik:"gun", k:"siyaset",
   etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   b:"Şehzade Mahmud'un boğdurulması",
   gun:"27 Zilhicce 1011 / 7 Haziran 1603",
@@ -36,7 +36,7 @@ window.OLAYLAR_KRONOEKSIK0921 = [
   d:"III. Mehmed, büyük oğlu Şehzade Mahmud'un tahta göz diktiğinden ve kendisini tahttan indirebileceğinden şüphelenerek onu boğdurttu; şehzadenin annesi ve otuz kadar hizmetçisi denize atıldı. Celâlî isyanlarının ve Anadolu'daki huzursuzluğun ortasında padişah, askerin şehzadeye meylettiğini görmüştü; vâlide sultanın da şehzadenin annesinden rahatsız olduğu kaydedilir. Bu infaz, altı ay sonra III. Mehmed'in ölümüyle tahta yalnız on üç yaşındaki I. Ahmed'in kalmasına ve kardeş katli geleneğinin fiilen sona ermesine giden yolun son halkalarındandır.",
   kaynak:"mehmed-iii", duygu:["😢"] },
 
-{ t:"1621-01-01", kesinlik:"yil", k:"diger",
+{ kapsam:"ic", t:"1621-01-01", kesinlik:"yil", k:"diger",
   etiket:["siyaset","konu-siyasi","konu-iktisadi"],
   b:"Görülmemiş kış — İstanbul Boğazı'nın donması",
   gun:"1621 kışı (TDV gün/ay vermez)",
@@ -46,7 +46,7 @@ window.OLAYLAR_KRONOEKSIK0921 = [
   ic_not_gun:"🔴 ŞARTNAMEDEKİ ADAY GÜN 1621-01-24 KAYNAKSIZ ÇIKTI. TDV `osman-ii` donmayı anlatır (\"Sefer hazırlıkları sürerken görülmemiş bir kış yaşanmış, boğaz donmuş, yiyecek içecek bulunamaz olmuştu.\") ama ne gün ne ay verir; `bogazici` maddesinde don/buz hiç geçmez (gövde okundu). ⇒ D210: gün yok → YYYY-01-01. YIL ise kaynaktan çıkar, tahmin değil: aynı paragrafta Ali Paşa'nın ölümü 15 Rebîülâhir (9 Mart) ve otağın kuruluşu 7 Cemâziyelâhir (29 Nisan) veriliyor; 15 Rebîülâhir 1030 = 9 Mart 1621, sefer de 1621 Hotin seferidir ⇒ kış 1620-21 kışıdır. `kesinlik:\"yil\"` bu yüzden.",
   kaynak:"osman-ii", duygu:["🥶"] },
 
-{ t:"1826-04-08", kesinlik:"gun", k:"kultur",
+{ kapsam:"ic", t:"1826-04-08", kesinlik:"gun", k:"kultur",
   etiket:["kultur-sanat","konu-imar","konu-din"],
   b:"Nusretiye Camii inşaatının tamamlanması",
   gun:"8 Nisan 1826",
@@ -56,7 +56,7 @@ window.OLAYLAR_KRONOEKSIK0921 = [
   ic_not_b:"🔴 ŞARTNAME bu maddeyi \"Nusretiye Camii'nin açılışı\" diye istiyordu ve aday gün 1826-04-08'di. TDV `nusretiye-camii` gövdesinde 1826 geçen cümleler: \"inşaat 8 Nisan 1826'da bitirilmiştir\" ve \"14 Mayıs 1826 tarihinde minareler alt şerefeye kadar yıktırılıp yeniden inşa edilmiş\". ⇒ Gün DOĞRU ama AÇILIŞI değil İNŞAATIN BİTİŞİNİ tarihliyor (D211 tuzak ⑧: rakamı taşıyan cümlenin neyi tarihlediği okunur). Madde başlığı kaynağın dediğine çevrildi; küşâd/açılış töreni günü TDV'de BULUNAMADI.",
   kaynak:"nusretiye-camii", duygu:["🕌"] },
 
-{ t:"1883-11-03", kesinlik:"gun", k:"bilim",
+{ kapsam:"ic", t:"1883-11-03", kesinlik:"gun", k:"bilim",
   etiket:["bilim","konu-bilim","konu-egitim"],
   b:"Hendese-i Mülkiyye Mektebi'nin kuruluşu",
   gun:"3 Kasım 1883",

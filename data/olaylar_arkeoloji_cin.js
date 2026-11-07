@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Çin (+ Japonya Jomon-Yayoi geçişi) MÖ 12000-MÖ 200 (cin) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/cin.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_CIN = [
- {"odak_yer":["Hakata (Fukuoka)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Hakata (Fukuoka)"],
   "t": "-1009-01-01",
   "k": "ilk_anilis",
   "b": "Kuzey Kyushu (Uki-Kunden Kabuk Höyüğü), pirinç tarımının gelişi: başlar",
@@ -22,7 +22,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1176–845 (kaynağın verdiği uçlar); orta nokta MÖ 1010 = astronomik -1009. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 90 (HPDI). Kaynaktan okunan: «estimated arrival date of rice farming in northern Kyushu (Area I) is between 1176 and 845 BC (90% HPDI)». Aralık Alan I (kuzey Kyushu) bölgesel VARIŞ tahminidir, Uki-Kunden'e özgü değil; oluş-zamanı belirsizliğidir (%90 HPDI), dönem toplamı değil. Diğer alanlar (90% HPDI, MÖ): Chugoku-Shikoku-Kansai 1061-779 (III) ve 946-703 (IV); güney-orta Kyushu 735-430; Chubu 754-560; Kanto 471-124; kuzey Tohoku 709-203. Geleneksel Yayoi başlangıcıyla ilişki bu makalede kurulmadı; Hashiguchi 2003 (AMS ~1000 MÖ; arama özeti) okunmadı."
  },
- { "odak_yer":["Anyang","Yinxu"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Anyang","Yinxu"], 
   "t": "-1080-01-01",
   "k": "kayip",
   "b": "Yinxu (Anyang, Geç Shang başkenti): Di Yi/Di Xin evresi: Shang hanedanının sonu (Yinxu son evre)",
@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1121–1041 (kaynağın verdiği uçlar); orta nokta MÖ 1081 = astronomik -1080. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68. Kaynaktan okunan: «the Shang Dynasty terminated around 1041 BC». Bu yerleşimin KURULUŞ/TERK tarihi DEĞİL; kral evrelerinin kehanet kemiği 14C kalibrasyonudur (tür: hükümdarlık evresi, %68). Evreler: Wu Ding 1254-1197; Zu Geng/Zu Jia 1206-1177; Lin Xin/Kang Ding 1187-1135; Wu Yi/Wen Ding 1157-1110; Di Yi/Di Xin 1121-1041. Kaynak belirsizlik: tek evre için ~10 yıl, sınırda en çok 20 yıl. Eski astronomik/eclipse tarihleme: Zhang Peiyu (Wu Ding), Li Xueqin (son iki kral) — makalenin giriş atfı. Yinxu'nun kuruluşu (Pan Geng) bulunamadı."
  },
- { "odak_yer":["Anyang","Yinxu"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Anyang","Yinxu"], 
   "t": "-1224-01-01",
   "k": "gelisme",
   "b": "Yinxu (Anyang, Geç Shang başkenti): Wu Ding evresi (kehanet kemiği 14C): Yinxu'nun tarihli ilk kral evresi",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1254–1197 (kaynağın verdiği uçlar); orta nokta MÖ 1225 = astronomik -1224. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68. Kaynaktan okunan: «King Wu Ding ... reigned during 1254 BC to 1197 BC». Bu yerleşimin KURULUŞ/TERK tarihi DEĞİL; kral evrelerinin kehanet kemiği 14C kalibrasyonudur (tür: hükümdarlık evresi, %68). Evreler: Wu Ding 1254-1197; Zu Geng/Zu Jia 1206-1177; Lin Xin/Kang Ding 1187-1135; Wu Yi/Wen Ding 1157-1110; Di Yi/Di Xin 1121-1041. Kaynak belirsizlik: tek evre için ~10 yıl, sınırda en çok 20 yıl. Eski astronomik/eclipse tarihleme: Zhang Peiyu (Wu Ding), Li Xueqin (son iki kral) — makalenin giriş atfı. Yinxu'nun kuruluşu (Pan Geng) bulunamadı."
  },
- {"odak_yer":["Guilin"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Guilin"],
   "t": "-14914-01-01",
   "k": "ilk_anilis",
   "b": "Yuchanyan Mağarası: başlar",
@@ -85,7 +85,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 16350–13480 (kaynağın verdiği uçlar); orta nokta MÖ 14915 = astronomik -1491. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (kaynak düzey belirtmiyor). UFUK DIŞI: MÖ 14915, ufuk MÖ 12000'den 2915 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «the age of the ancient pottery ranges between 18,300 and 15,430 cal BP». Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Aralık çanak çömlek parçalarının yaşıdır; tabaka dizisi toplamı ~21.000-13.800 cal BP (MÖ ~19050-11850). Brif aralığının (MÖ 12000) dışında: yalnız en eski çanak çömlek tanığı olarak. Kaynak, önceki çalışmaların bölge çanak çömleğini ~16.000-10.000 cal BP verdiğini de belirtir."
  },
- {"odak_yer":["Nanchang"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Nanchang"],
   "t": "-17549-01-01",
   "k": "ilk_anilis",
   "b": "Xianrendong Mağarası: başlar",
@@ -106,7 +106,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 18050–17050 (kaynağın verdiği uçlar); orta nokta MÖ 17550 = astronomik -1754. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. UFUK DIŞI: MÖ 17550, ufuk MÖ 12000'den 5550 yıl önce; tarih aynen tutuldu (harita f'i ufka kenetlenir, varsayılan — Emre değiştirebilir). Kaynaktan okunan: «The radiocarbon ages of the archaeological contexts of the earliest sherds are 20,000 to 19,000 calendar years before the present». Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yalnız özet okundu (Science tam metni açık değil). Brif aralığı dışında; yalnız en eski çanak çömlek için."
  },
- { "odak_yer":["Liangzhu"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Liangzhu"], 
   "t": "-3549-01-01",
   "k": "gelisme",
   "b": "Liangzhu Kültürü: başlar",
@@ -127,7 +127,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3550–2050) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Liangzhu: c. 5500-4000 (cal BP)». Alıntı özetten PARAFRAZ (kayıt sayfasının özeti okundu; ScienceDirect 403 verdi, birebir özet alınamadı). Kültür aralıkları cal BP: Shangshan 10800-8600, Kuahuqiao 7900-7200, Hemudu 7100-5200, Majiabang 7200-5200, Songze 5700-5200, Liangzhu 5500-4000, Maqiao 3700-3200. Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yazarlar kültürlerin birbirini değiştirmediğini, bir arada var olduğunu savunuyor (çakışma gerçek). Alt sınır tartışmalı. UNESCO çerçevesi 3300-2300 MÖ ve Bianjiashan iskelesi (en geç cal BC 2470, %95) arama özetinde geçti; kaynak sayfaları AÇILMADI, kullanılmadı."
  },
- { "odak_yer":["Banpo"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Banpo"], 
   "t": "-4999-01-01",
   "k": "gelisme",
   "b": "Yangshao Kültürü: başlar",
@@ -148,7 +148,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5000–2900) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «existed extensively along the middle Yellow River ... from approximately 5000 to 2900 BCE». İKİ KAYNAK ÇELİŞİR: Sun vd. 2025 (BMC Biol) 5000-2900 BCE; Xiong vd. 2025 (Cell Genomics 5, doi:10.1016/j.xgen.2025.100976, PMC12791001) 'Yangshao culture (5,000-2,700 BCE)'. Birincisi seçildi (kültürü konu alan makale); ortası alınmadı. İkisi de aDNA makalesi, arkeolojik monografi değil."
  },
- { "odak_yer":["Hemudu"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Hemudu"], 
   "t": "-5149-01-01",
   "k": "gelisme",
   "b": "Hemudu Kültürü: başlar",
@@ -169,7 +169,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5150–3250) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Hemudu: c. 7100-5200 (cal BP)». Alıntı özetten PARAFRAZ (kayıt sayfasının özeti okundu; ScienceDirect 403 verdi, birebir özet alınamadı). Kültür aralıkları cal BP: Shangshan 10800-8600, Kuahuqiao 7900-7200, Hemudu 7100-5200, Majiabang 7200-5200, Songze 5700-5200, Liangzhu 5500-4000, Maqiao 3700-3200. Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yazarlar kültürlerin birbirini değiştirmediğini, bir arada var olduğunu savunuyor (çakışma gerçek). Ayrıca Fuller vd. 2009 (Science 323:1607) Tianluoshan pirinç evcilleşme penceresi 6900-6600 yıl önce (arama özeti; sayfa açılmadı, kullanılmadı)."
  },
- { "odak_yer":["Kuahuqiao"], 
+ {"kapsam": "dis", "bolge": 1,  "odak_yer":["Kuahuqiao"], 
   "t": "-5949-01-01",
   "k": "gelisme",
   "b": "Kuahuqiao Kültürü: başlar",
@@ -190,7 +190,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5950–5250) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Kuahuqiao: c. 7900-7200 (cal BP)». Alıntı özetten PARAFRAZ (kayıt sayfasının özeti okundu; ScienceDirect 403 verdi, birebir özet alınamadı). Kültür aralıkları cal BP: Shangshan 10800-8600, Kuahuqiao 7900-7200, Hemudu 7100-5200, Majiabang 7200-5200, Songze 5700-5200, Liangzhu 5500-4000, Maqiao 3700-3200. Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. Yazarlar kültürlerin birbirini değiştirmediğini, bir arada var olduğunu savunuyor (çakışma gerçek)."
  },
- {"odak_yer":["Peiligang yerleşimi (Xinzheng)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Peiligang yerleşimi (Xinzheng)"],
   "t": "-7049-01-01",
   "k": "gelisme",
   "b": "Peiligang Kültürü: başlar",
@@ -211,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 7050–5050) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «The Peiligang Culture (9000-7000 cal. yr BP) in the Middle Yellow River region, North China». Kaynak cal BP verir; MÖ = BP - 1950 ile çevrildi (yuvarlama payı birkaç yıl); kaynak sayıları alıntıda. '9000-7000 cal yr BP' dönem toplamıdır (makalede 'c.'); Geç Peiligang 8000-7000. Wikidata Q100594754 (Peiligang-Cishan) ~6000-4800 BCE diyor; bu Vikipedi-türevidir, dayanak değildir ve makaleyle ÇELİŞİR (makale esas alındı)."
  },
- {"odak_yer":["Shangshan yerleşimi (Pujiang)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Shangshan yerleşimi (Pujiang)"],
   "t": "-8849-01-01",
   "k": "gelisme",
   "b": "Shangshan Kültürü: başlar",

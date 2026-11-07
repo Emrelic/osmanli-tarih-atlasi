@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Hint alt kıtası + Çin/Doğu Asya (3. dalga) (d3-hint-cin) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d3-hint-cin.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
- {"odak_yer":["Patna (Azîmâbâd)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0183-01-01",
   "k": "kayip",
   "b": "Maurya İmparatorluğu: Maurya hanedanı sona erer",
@@ -13,7 +13,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Maurya dynasty lasted for 137 years ; that is to say, it is supposed to have come to an end c. 184 B.C.». kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-0201-01-01",
   "k": "kurulus",
   "b": "Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202): Batı Han hanedanı kurulur",
@@ -28,7 +28,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
    "Xi'an (Chang'an)"
   ]
  },
- {"odak_yer":["Patna (Azîmâbâd)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0236-01-01",
   "k": "kayip",
   "b": "Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka ölür",
@@ -40,7 +40,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «death 237 or 236 b.c. ?». Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997)."
  },
- {"odak_yer":["Patna (Azîmâbâd)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0273-01-01",
   "k": "gelisme",
   "b": "Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka tahta çıkar",
@@ -52,7 +52,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Accession 274 b.c. at latest; coronation 270 B.c. at latest; conquest of Kaliiiga 262 b.c. at latest». Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997)."
  },
- {"odak_yer":["Patna (Azîmâbâd)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0320-01-01",
   "k": "kurulus",
   "b": "Maurya İmparatorluğu: Maurya İmparatorluğu: Chandragupta dönemi başlar",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Chandragupta (c. 321-297 b.C.) the low-born son of Mura and the founder of the Maurya empire». kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı."
  },
- {"odak_yer":["Patna (Azîmâbâd)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0325-01-01",
   "k": "gelisme",
   "b": "Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da (İskender çağı)",
@@ -76,7 +76,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «was on the throne in 326 b.o., when Alexander the Great was obliged by the unwillingness of his army». 'bas_mo' bir kuruluş değil, 'MÖ 326'da tahtta olduğu' tanıklık tarihidir; kuruluş için dönem yazılmaz. Jain geleneği Chandragupta'nın iktidarını 313 (312) MÖ'ya koyar (CHI: 'The Jains put the date of Chandragupta's accession in 313 (312) B.C.'), Budist gelenekten 8 yıl geç; yani Nanda sonu için 321 ile 313/312 arasında iki gelenek vardır. Charpentier 1931 (BSOS 6:2, 303-321) ise Aşoka'yı geriden hesaplayıp Chandragupta'yı 327/325-303/301'e çıkarır (hipotez; ana akım dışı). Bhattasali 1932 (JRAS) 322-321'i 'sorgulanan çapa tarih' sayar (önceki dalga). Çift teyit YOK."
  },
- {"odak_yer":["Qufu"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Qufu"],
   "t": "-0480-01-01",
   "k": "kayip",
   "b": "Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi sona erer",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «from 722 B .C. to 481 B.C.». 722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Cambridge"
   ],
@@ -106,7 +106,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 483 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The date 483 B.C. which is adopted in this History must still be regarded as provisional.». Tartışmalı tarih. 'Uzun/düzeltilmiş uzun' kronoloji (486/483) ile 'kısa' kronoloji (~MÖ 400 ve sonrası; Bechert ed. 1991-97 'Die Datierung des historischen Buddha') çatışır; bu oturumda Bechert cildi, Gombrich, Norman, Cousins metinleri OKUNAMADI (JIABS Heidelberg indirmesi Anubis/HTML döndü, OpenLearn 403). Turriff 2009 (Concordia MA tezi, ikincil) Sarao'nun 397 MÖ önerisini aktarır. Maurya/Magadha tarihlerinin bu yüzden iki seçenekli olduğu not edilmeli."
  },
- {"odak_yer":["Rajagriha (Rājgīr)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Rajagriha (Rājgīr)"],
   "t": "-0542-01-01",
   "k": "gelisme",
   "b": "Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar",
@@ -118,7 +118,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «accession . . . 543 death ... 491 Ajata9atru's accession ... 491 ,, death ... 459». Kaynak içi tutarsızlık: aynı eser Anga fethini 'Bimbisara, c. 600 b.c.' (alıntı: 'The expansion began with the conquest of Anga (Monghyr and Bhagalpur in Bengal) by Bimbisara, c. 600 b.c.' - OCR 'Ahga') diye verir, tablo ise iktidar başlangıcını 543'e koyar. Kaynak, Brahman/Budist/Jain üç geleneğin uyuşmadığını ve Puranik reign süreleri (Bimbisara 28/38, Ajatashatru 25/27/28 yıl) metninin bozuk olduğunu belirtir; Geiger tablosunu 'en iyi çalışma hipotezi' sayar. Bu tablo Buda ölümünü 483'e bağlayan UZUN kronolojiye dayanır (aşağıdaki Buda kaydına bak); kısa kronoloji (Bechert) Bimbisara/Ajatashatru'yu ~60-100 yıl geç çeker, kaynağı okunamadı (Heidelberg JIABS Anubis, OpenLearn 403). Modern tek tarih verisi okunmadığından haritaya 'yaklaşık' beyanıyla girebilir."
  },
- {"odak_yer":["Qufu"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Qufu"],
   "t": "-0721-01-01",
   "k": "ilk_anilis",
   "b": "Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi başlar",
@@ -130,7 +130,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «鲁隐公元年（前722）». 722 SİYASİ BİR GEÇİŞ DEĞİL, Chunqiu METNİNİN başlangıcıdır; Doğu Zhou (770) ile 48 yıl fark vardır (Ning 2023: 722'de 'tianxia wudao' safhasına gerçek giriş). Milburn 2016 ve Tong 2025 Bahar-Güz dönemini 771/770'den başlatır (Tong 2025: 'Spring and Autumn period (c. 770-481 BCE)'). Bitiş için 481 dışında 464/476/475/453 aday dönem-sonları kaynaklarda dolaşır (arama özeti, dayanak değil). Hakemli İngilizce dergi makalesi bulunamadı; Eno ders metnidir (zayıf ikincil). Çift teyit: Ning 2023 (zh) + Eno (en) bağımsız iki kaynak ama ikisi de ikincil."
  },
- {"odak_yer":["Haojing (Fenghao, Xi'an yakını)","Qi İlçesi (Zhaoge)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Haojing (Fenghao, Xi'an yakını)","Qi İlçesi (Zhaoge)"],
   "t": "-1045-01-01",
   "k": "fetih",
   "b": "Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi: Zhou Shang'ı yener (1046; kaynaklar 1045/1044/1040/1050 diyor)",
@@ -142,7 +142,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Zhou 4th month in the year of the Conquest (April 26, 1046 B.C.». ÇELİŞKİ, ORTALANMADI. (a) Pankenier 1992: fetih yılı 1046 (4. ay yeni ay günü gengzi = 26 Nisan 1046, Yi Zhou shu 'Shi fu' ile). (b) Shaughnessy 1985/1991: 1045. (c) Nivison: 1040 (+ astronomik 'yuexiang' verilerine göre yalnız 1045 veya 1040 mümkün diyor). (d) Zhang P. 2023: sefer 1046, fetih 1044 (aynı Zhang 2023, 1045 ve 1027'yi anmaz). (e) BA geleneksel metin 1050. Atlas XSZ tek değer kullanacaksa 1046 (Pankenier+Proje) seçilip diğerleri ic_not'ta beyan edilmeli. 1027: bu oturumda KAYNAKTA FETİH TARİHİ olarak bulunamadı; Nivison 2011 yalnız BA'daki bir 'sui zai jiayin [1027]' not-etiketini anar (silinmesi gereken sonradan eklenti) - fetih adayı değildir. 1122 (geleneksel) bu oturumda okunan kaynakta yok."
  },
- {"odak_yer":["Seul (Hanyang)","Pusan"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
   "t": "-1299-01-01",
   "k": "kurulus",
   "b": "Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma: Mumun dönemi başlar (Kore)",
@@ -163,7 +163,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1300–400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Mumun Period (1300–400 BCE) began». KALİBRE ALTERNATİF 1: Craig O. vd. 2025, PNAS 122(30):e2504414122 (doi:10.1073/pnas.2504414122, PMC12318219): pirinç Kore'de 'Early Mumun'da %90 HPDI 1677-1161 cal BCE ('although earlier dates have been proposed'). ALTERNATİF 2 (ham BP uyarılı): Kim & Bae 2010 geçiş ~2300 BC. Kim & Park 2020'nin 1300 değeri periyotlandırmadır; Hudson & Robbeets 2020 (önceki dalga) aynı 1300-400'ü verir - çift teyit sayılmaz (aynı gelenek, aynı alan). Korece kaynak (KCI/DBpia/earticle) tam metni bu oturumda alınamadı; bkz. kutuphane_gerekli."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-1499-01-01",
   "yer_id": "Dholavira",
   "k": "kayip",
@@ -185,7 +185,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1500–1450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Stage VII (c. 1500-1450 BCE) shows the arrival of a new settler after 300 years of vacancy». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Yinxu"
   ],
@@ -203,7 +203,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Shang period (ca. 1500–1046 BC)». ÇELİŞKİ: başlangıç 1600 (proje, önceki dalga kayıtları) vs ~1500 (Sci Rep 2018, Fang 2022 Zhengzhou 1509). Tek seçmedim. Li X.Q. 2002 J. East Asian Archaeol. 4:1-4 (doi:10.1163/156852302322454585) ve Qiu S.H. 2002 Chinese Archaeology 2:6 (doi:10.1515/char.2002.2.1.6) açık değil -> kutuphane_gerekli. Bitiş: 1046 (Li 2002) ile 1041 (Liu K. vd. 2020, %68) arası ~5 yıl - çift teyit değil, farklı yöntemler; ikisi de Liu K. vd.'nin metninden okundu (Li 2002 ikinci elden)."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-1999-01-01",
   "yer_id": "Lothal",
   "k": "kayip",
@@ -219,7 +219,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «by 2000 BCE, the prosperity of Lothal was waning». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-2449-01-01",
   "yer_id": "Lothal",
   "k": "kurulus",
@@ -235,7 +235,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Average: 2452, 2427, 2395, 2374 and 2366 BC». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "t": "-2999-01-01",
   "yer_id": "Dholavira",
   "k": "kurulus",
@@ -251,7 +251,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 3000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The occupation of the site spans 1,500 years beginning in c. 3000 BCE, and is divided into 7 stages.». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
  },
- {"odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
   "t": "-2999-01-01",
   "k": "kayip",
   "b": "Hongshan kültürü / Niuheliang: Niuheliang dönemi sona erer",
@@ -266,7 +266,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 3000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"
   ],
@@ -284,7 +284,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Jiangzhai 24 A Shaanxi Yangshao 4900–4000». ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Banpo (Yangshao, Banpo evresi)"
   ],
@@ -302,7 +302,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Banpo 20 A Shaanxi Yangshao 4800–4300». ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli)."
  },
- {"odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Longcheng (Chaoyang)","Chifeng (Ulanhad)"],
   "t": "-4499-01-01",
   "k": "gelisme",
   "b": "Hongshan kültürü / Niuheliang: Hongshan (Niuheliang) dönemi başlar",
@@ -317,7 +317,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «7, Niuheliang (4500–3000 BCE)». ZAYIF: site/kültür dönem aralığıdır (derleme şekil altyazısı), kalibre 14C tablosu DEĞİL. Başka akademik değer: Jeong (Korece dergi, Barun Academy of History, J. Korean History & Culture 2024, doi:10.55793/jkhc.2024.19.191, özet) Hongshan '4700 BCE - 3000 BCE' - makale Hongshan'ı Kore tarihine bağlayan yorum içerir, yalnız aralık değeri not edilir, dayanak sayılmadı. Hongshan Baiyinchanghan sitesi 4300-3900 (Liu & Reid 2020, Tablo 1). Niuheliang kalibre 14C tablosu (Drennan vd. Antiquity 2017; Zhang vd. J World Prehist 2013) açık erişimde değil -> kutuphane_gerekli."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Banpo (Yangshao, Banpo evresi)"
   ],
@@ -335,7 +335,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4800 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Banpo 20 A Shaanxi Yangshao 4800–4300». ZAYIF/İKİNCİL. Değer, bir beslenme-izotopu derlemesinin tablosundaki 'tahmini tarih'tir (alt kaynak [42], bu oturumda açılmadı); Banpo'ya özgü kalibre 14C tablosu DEĞİLDİR. Önceki dalganın Frontiers Earth Sci 2021 'erken Yangshao 5000-4200' değeriyle çelişmez ama çift teyit sayılmaz. Aynı derlemede Jiangzhai (Yangshao) 4900-4000. Doğrulama için Banpo kazı raporu 14C tablosu gerekir (kutuphane_gerekli)."
  },
- {
+ {"kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Jiangzhai (Yangshao, Banpo evresi halka hendekli köy)"
   ],
@@ -353,7 +353,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4900 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Jiangzhai 24 A Shaanxi Yangshao 4900–4000». ZAYIF/İKİNCİL (Banpo ile aynı uyarı): derleme tablosundaki tahmini tarih; Jiangzhai kazı raporunun kalibre 14C tablosu bu oturumda okunamadı. Aynı sütunda PLOS ONE kümesinde Banpo 4800-4300. Gedachuan (Frontiers Plant Sci 2022, PMC9362993) 'Banpo evresi batı Les Platosu'nda ~5600 BP'ye dek sürdü' der - Banpo/Jiangzhai değil, ayrı alan; yazılmadı."
  },
- {"odak_yer":["Seul (Hanyang)","Pusan"],
+ {"kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
   "t": "-5999-01-01",
   "k": "gelisme",
   "b": "Chulmun dönemi (Kore Neolitiği): Chulmun dönemi başlar (Kore)",
