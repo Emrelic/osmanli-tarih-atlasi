@@ -21,8 +21,14 @@ const ctx = vm.createContext(win);
 const hatalar = [];
 for (const s of srcs) { try { vm.runInContext(oku(s), ctx, { filename: s }); } catch (e) { hatalar.push(s + ": " + e.message); } }
 
+// KRONOLOJI_* dizileri (150 dizi · 13.272 madde) KADEMELİ çeviriye alınır: js/ceviri.js hepsini okur
+// (çevirisi yoksa Türkçe kalır), ama çıkarıcı yalnız bu listedekileri sayar — yoksa çeviri tavanı
+// bir anda 13.272 × 7 dil eksik gösterir. Yeni dizi = buraya ekle + ceviri.py kuyruk/yaz/uygula.
+// (KASA CUMA, 7 Kasım 2026, Adım 8 pilotu)
+const KRONO_CEVIRI = new Set(["KRONOLOJI_COK_ARABISTAN2"]);
+const olayDizisi = k => (/^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) || KRONO_CEVIRI.has(k)) && Array.isArray(win[k]);
 const olay = [];
-for (const ad of Object.keys(win).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(win[k]))) {
+for (const ad of Object.keys(win).filter(olayDizisi)) {
   const say = {};
   for (const o of win[ad]) {
     if (!o || typeof o !== "object") continue;

@@ -59,7 +59,7 @@
   // yine de özet dizininden doğru çeviri bulunur (aşağıda `ozetIndeks`).
   function olayDizileri() {
     return Object.keys(window)
-      .filter(function (k) { return /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(window[k]); });
+      .filter(function (k) { return /^(OLAYLAR(_[A-Za-z0-9_]+)?|KRONOLOJI_[A-Za-z0-9_]+)$/.test(k) && Array.isArray(window[k]); });
   }
   function kimlikle(dizi, ad, fn) {
     var say = {};
