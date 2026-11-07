@@ -1,0 +1,486 @@
+[
+ {
+  "t": "1644-04-25",
+  "b": "Ming Hanedanı egemenliği sona erdi; yerin sahibi belirsiz (beyanlı boşluk) — Leshou",
+  "birimler": [
+   {
+    "yer": "Chenzhou (Hunan)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 25.77,
+    "lon": 113.01
+   },
+   {
+    "yer": "Chuxiong",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 25.03,
+    "lon": 101.54
+   },
+   {
+    "yer": "Ganzhou",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 25.85,
+    "lon": 114.93
+   },
+   {
+    "yer": "Hengyang (Hengzhou)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 26.89,
+    "lon": 112.57
+   },
+   {
+    "yer": "Ji'an (Jizhou)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 27.11,
+    "lon": 114.98
+   },
+   {
+    "yer": "Jingdong",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 24.45,
+    "lon": 100.83
+   },
+   {
+    "yer": "Kaihua (Wenshan)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 23.37,
+    "lon": 104.25
+   },
+   {
+    "yer": "Lijiang",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 26.87,
+    "lon": 100.23
+   },
+   {
+    "yer": "Lin'an (Jianshui)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 23.62,
+    "lon": 102.83
+   },
+   {
+    "yer": "Mengzi",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 23.37,
+    "lon": 103.38
+   },
+   {
+    "yer": "Mianning (Lincang)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 23.88,
+    "lon": 100.09
+   },
+   {
+    "yer": "Shunning (Fengqing)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 24.58,
+    "lon": 99.93
+   },
+   {
+    "yer": "Tengyue (Tengchong)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 25.02,
+    "lon": 98.49
+   },
+   {
+    "yer": "Tonghai",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 24.11,
+    "lon": 102.76
+   },
+   {
+    "yer": "Xinyang",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "__BOSLUK__",
+    "lat": 32.13,
+    "lon": 114.07
+   },
+   {
+    "yer": "Yongchang (Baoshan)",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 25.11,
+    "lon": 99.16
+   },
+   {
+    "yer": "Yuanjiang",
+    "gun": "1644-04-25",
+    "eski": "ming-hanedani",
+    "yeni": "guney-ming",
+    "lat": 23.6,
+    "lon": 101.99
+   }
+  ]
+ },
+ {
+  "t": "1500-01-01",
+  "b": "Şeybânî Han Buhara ve Semerkant'ı aldı",
+  "birimler": [
+   {
+    "yer": "Cizzah",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 40.115,
+    "lon": 67.842
+   },
+   {
+    "yer": "Hisar",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 38.52,
+    "lon": 68.55
+   },
+   {
+    "yer": "Karşi (Nahşeb)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 38.86,
+    "lon": 65.795
+   },
+   {
+    "yer": "Külâb (Kulob)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 37.91,
+    "lon": 69.78
+   },
+   {
+    "yer": "Sayram (İsficâb)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 42.303,
+    "lon": 69.786
+   },
+   {
+    "yer": "Taraz (Evliya-Ata)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 42.9,
+    "lon": 71.367
+   },
+   {
+    "yer": "Termez",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 37.224,
+    "lon": 67.278
+   },
+   {
+    "yer": "Türkistan (Yesi)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 43.302,
+    "lon": 68.253
+   },
+   {
+    "yer": "Çimkent",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 42.317,
+    "lon": 69.596
+   },
+   {
+    "yer": "Şehrisebz (Kiş)",
+    "gun": "1500-01-01",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 39.058,
+    "lon": 66.833
+   }
+  ]
+ },
+ {
+  "t": "1507-05-01",
+  "b": "Zünnûn Argun'un ölümüyle Timurlu Kandehar valiliği sona erdi: Kandehar (Şehr-i Köhne) Argun idaresine geçti",
+  "birimler": [
+   {
+    "yer": "Bârfurûş (Bâbil)",
+    "gun": "1507-05-01",
+    "eski": "timurlu",
+    "yeni": "mazenderan-marasi",
+    "lat": 36.5461,
+    "lon": 52.6789
+   },
+   {
+    "yer": "Esterâbâd (Gürgân)",
+    "gun": "1507-05-01",
+    "eski": "timurlu",
+    "yeni": "mazenderan-marasi",
+    "lat": 36.8381,
+    "lon": 54.4342
+   },
+   {
+    "yer": "Eşref (Behşehr)",
+    "gun": "1507-05-01",
+    "eski": "timurlu",
+    "yeni": "mazenderan-marasi",
+    "lat": 36.6942,
+    "lon": 53.5522
+   },
+   {
+    "yer": "Sârî",
+    "gun": "1507-05-01",
+    "eski": "timurlu",
+    "yeni": "mazenderan-marasi",
+    "lat": 36.5633,
+    "lon": 53.0601
+   },
+   {
+    "yer": "Âmül",
+    "gun": "1507-05-01",
+    "eski": "timurlu",
+    "yeni": "mazenderan-marasi",
+    "lat": 36.4697,
+    "lon": 52.3508
+   },
+   {
+    "yer": "Dihistan ovası (Meşhed-i Misriyân)",
+    "gun": "1507-05-24",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 38.1667,
+    "lon": 54.6333
+   },
+   {
+    "yer": "Tebbes",
+    "gun": "1507-05-24",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 33.6,
+    "lon": 56.9
+   },
+   {
+    "yer": "Zerenc (Sîstan)",
+    "gun": "1507-05-24",
+    "eski": "timurlu",
+    "yeni": "buhara",
+    "lat": 30.9583,
+    "lon": 61.8611
+   }
+  ]
+ },
+ {
+  "t": "1670-01-01",
+  "b": "Lahsa'nın Benî Hâlid Emirliği'ne kaybı",
+  "birimler": [
+   {
+    "yer": "Cübeyl",
+    "gun": "1670-01-01",
+    "eski": "",
+    "yeni": "benihalid",
+    "lat": 26.9979,
+    "lon": 49.6406
+   },
+   {
+    "yer": "Katar Yarımadası (iç, dolgu)",
+    "gun": "1670-01-01",
+    "eski": "",
+    "yeni": "benihalid",
+    "lat": 25.4,
+    "lon": 50.95
+   },
+   {
+    "yer": "Katîf",
+    "gun": "1670-01-01",
+    "eski": "",
+    "yeni": "benihalid",
+    "lat": 26.557,
+    "lon": 49.9873
+   },
+   {
+    "yer": "Ukayr (Uceyr)",
+    "gun": "1670-01-01",
+    "eski": "",
+    "yeni": "benihalid",
+    "lat": 25.65,
+    "lon": 50.2131
+   }
+  ]
+ },
+ {
+  "t": "1500-01-01",
+  "b": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu",
+  "birimler": [
+   {
+    "yer": "Merka",
+    "gun": "1500-01-01",
+    "eski": "makdisu-sultanligi",
+    "yeni": "somali",
+    "lat": 1.716,
+    "lon": 44.772
+   },
+   {
+    "yer": "Mogadişu",
+    "gun": "1500-01-01",
+    "eski": "makdisu-sultanligi",
+    "yeni": "somali",
+    "lat": 2.037,
+    "lon": 45.342
+   }
+  ]
+ },
+ {
+  "t": "1503-01-01",
+  "b": "Albuquerque Koçin'de Asya'daki ilk Portekiz kalesini kurdu, raca Portekiz himayesine girdi",
+  "birimler": [
+   {
+    "yer": "Çake Çake (Pemba)",
+    "gun": "1503-01-01",
+    "eski": "svahili-sehirleri",
+    "yeni": "portekiz",
+    "lat": -5.2442,
+    "lon": 39.7663
+   }
+  ]
+ },
+ {
+  "t": "1505-01-01",
+  "b": "Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
+  "birimler": [
+   {
+    "yer": "Kilindoni (Mafia Adası)",
+    "gun": "1505-01-01",
+    "eski": "kilva-sultanligi",
+    "yeni": "portekiz",
+    "lat": -7.9167,
+    "lon": 39.6667
+   }
+  ]
+ },
+ {
+  "t": "1515-04-01",
+  "b": "Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı",
+  "birimler": [
+   {
+    "yer": "Ras el-Hayme (Cülfâr)",
+    "gun": "1515-04-01",
+    "eski": "nebhani",
+    "yeni": "portekiz",
+    "lat": 25.7896,
+    "lon": 55.9417
+   }
+  ]
+ },
+ {
+  "t": "1527-01-01",
+  "b": "Sind hâkimi Hüseyin Şah Argun Mültan'daki Lengâh hânedanına son verdi",
+  "birimler": [
+   {
+    "yer": "Dera Gazi Han",
+    "gun": "1527-01-01",
+    "eski": "multan-langah",
+    "yeni": "__BOSLUK__",
+    "lat": 30.05,
+    "lon": 70.63
+   }
+  ]
+ },
+ {
+  "t": "1600-01-01",
+  "b": "Ngonde krallığı teşekkül etti",
+  "birimler": [
+   {
+    "yer": "Mbande (Ngonde)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "ngonde",
+    "lat": -9.98,
+    "lon": 33.85
+   }
+  ]
+ },
+ {
+  "t": "1603-03-24",
+  "b": "Tokugawa Ieyasu şogun ilan edildi, Edo Bakufu kuruldu (Azuchi-Momoyama düzeninin sonu)",
+  "birimler": [
+   {
+    "yer": "Hiraizumi (Ōshū Fujiwara başkenti)",
+    "gun": "1603-03-24",
+    "eski": "azuchi-momoyama",
+    "yeni": "edo-bakufu",
+    "lat": 38.987,
+    "lon": 141.114
+   }
+  ]
+ },
+ {
+  "t": "1713-06-24",
+  "b": "Rusya ile Edirne Antlaşması",
+  "birimler": [
+   {
+    "yer": "Kolıvan (Çaus)",
+    "gun": "1713-06-29",
+    "eski": "",
+    "yeni": "rusya",
+    "lat": 55.31,
+    "lon": 82.74
+   }
+  ]
+ },
+ {
+  "t": "1724-06-24",
+  "b": "İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması",
+  "birimler": [
+   {
+    "yer": "Şâbüran",
+    "gun": "1724-06-24",
+    "eski": "safevi",
+    "yeni": "rusya",
+    "lat": 41.21,
+    "lon": 48.98
+   }
+  ]
+ },
+ {
+  "t": "1752-01-01",
+  "b": "Konbaung Hanedanı (Birmanya) egemenliğine geçti — Halin",
+  "birimler": [
+   {
+    "yer": "Lamphun (Haripuñjaya)",
+    "gun": "1752-01-01",
+    "eski": "toungoo",
+    "yeni": "konbaung",
+    "lat": 18.574,
+    "lon": 99.009
+   }
+  ]
+ }
+]

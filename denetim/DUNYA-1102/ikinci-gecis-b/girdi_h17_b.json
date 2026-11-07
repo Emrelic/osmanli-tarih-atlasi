@@ -1,0 +1,126 @@
+[
+ {
+  "t": "1600-01-01",
+  "b": "Menabe Sakalava krallığı kuruldu",
+  "birimler": [
+   {
+    "yer": "Mahabo (Menabe)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "sakalava-menabe",
+    "lat": -20.38,
+    "lon": 44.67
+   },
+   {
+    "yer": "Maintirano",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "sakalava-menabe",
+    "lat": -18.06,
+    "lon": 44.03
+   },
+   {
+    "yer": "Toliara (Tuléar)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "sakalava-menabe",
+    "lat": -23.35,
+    "lon": 43.67
+   }
+  ]
+ },
+ {
+  "t": "1500-01-01",
+  "b": "Antemoro krallığı kuruldu",
+  "birimler": [
+   {
+    "yer": "Mananjary",
+    "gun": "1500-01-01",
+    "eski": "",
+    "yeni": "antemoro",
+    "lat": -21.23,
+    "lon": 48.34
+   },
+   {
+    "yer": "Vohipeno (Antemoro)",
+    "gun": "1500-01-01",
+    "eski": "",
+    "yeni": "antemoro",
+    "lat": -22.36,
+    "lon": 47.83
+   }
+  ]
+ },
+ {
+  "t": "1522-01-01",
+  "b": "Bagirmi Sultanlığı kuruldu",
+  "birimler": [
+   {
+    "yer": "Am Timan",
+    "gun": "1522-01-01",
+    "eski": "",
+    "yeni": "bagirmi",
+    "lat": 11.03,
+    "lon": 20.28
+   },
+   {
+    "yer": "Mongo",
+    "gun": "1522-01-01",
+    "eski": "",
+    "yeni": "bagirmi",
+    "lat": 12.18,
+    "lon": 18.7
+   }
+  ]
+ },
+ {
+  "t": "1695-01-01",
+  "b": "Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleyman Solonc",
+  "birimler": [
+   {
+    "yer": "Cenîne",
+    "gun": "1695-01-01",
+    "eski": "tunciler",
+    "yeni": "darfur",
+    "lat": 13.452,
+    "lon": 22.445
+   },
+   {
+    "yer": "Nyala",
+    "gun": "1695-01-01",
+    "eski": "tunciler",
+    "yeni": "darfur",
+    "lat": 12.048,
+    "lon": 24.882
+   }
+  ]
+ },
+ {
+  "t": "1540-01-01",
+  "b": "Yatenga krallığı Vagadugu'dan ayrıldı",
+  "birimler": [
+   {
+    "yer": "Vahiguya (Yatenga)",
+    "gun": "1540-01-01",
+    "eski": "",
+    "yeni": "yatenga",
+    "lat": 13.58,
+    "lon": -2.42
+   }
+  ]
+ },
+ {
+  "t": "1795-01-19",
+  "b": "Batav Cumhuriyeti ilan edildi, Hollanda Eyaletleri Cumhuriyeti sona erdi (Haarlem, Dordrecht)",
+  "birimler": [
+   {
+    "yer": "Kap (Cape Town)",
+    "gun": "1795-01-01",
+    "eski": "hollanda",
+    "yeni": "ingiltere",
+    "lat": -33.925,
+    "lon": 18.424
+   }
+  ]
+ }
+]

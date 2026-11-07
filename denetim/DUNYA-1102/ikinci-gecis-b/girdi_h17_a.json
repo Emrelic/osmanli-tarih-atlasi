@@ -1,0 +1,114 @@
+[
+ {
+  "t": "1600-01-01",
+  "b": "Luyi (Lozi) krallığı teşekkül etti",
+  "birimler": [
+   {
+    "yer": "Kabompo",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -13.6,
+    "lon": 24.2
+   },
+   {
+    "yer": "Kalabo",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -14.97,
+    "lon": 22.68
+   },
+   {
+    "yer": "Kaoma (Mankoya)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -14.8,
+    "lon": 24.8
+   },
+   {
+    "yer": "Lealui (Lozi)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -15.2,
+    "lon": 23.1
+   },
+   {
+    "yer": "Senanga",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -16.12,
+    "lon": 23.27
+   },
+   {
+    "yer": "Seşeke (Sesheke)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -17.48,
+    "lon": 24.3
+   },
+   {
+    "yer": "Zambezi (Balovale)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "lozi",
+    "lat": -13.55,
+    "lon": 23.1
+   }
+  ]
+ },
+ {
+  "t": "1600-01-01",
+  "b": "Ovambo krallıkları teşekkül etti",
+  "birimler": [
+   {
+    "yer": "Ondangva (Ondonga)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "ovambo",
+    "lat": -17.92,
+    "lon": 15.95
+   },
+   {
+    "yer": "Ondjiva (Ovambo)",
+    "gun": "1600-01-01",
+    "eski": "",
+    "yeni": "ovambo",
+    "lat": -17.07,
+    "lon": 15.71
+   }
+  ]
+ },
+ {
+  "t": "1534-01-01",
+  "b": "Portekiz Thane'yi Gucerat Sultanlığı'dan devraldı — Thane",
+  "birimler": [
+   {
+    "yer": "İnhambane",
+    "gun": "1534-01-01",
+    "eski": "",
+    "yeni": "portekiz-mozambik",
+    "lat": -23.87,
+    "lon": 35.38
+   }
+  ]
+ },
+ {
+  "t": "1684-01-01",
+  "b": "Changamire Dombo'nun Rozvi devleti kuruldu — Zimbabve platosunda Torva'nın yerini Rozvi aldı",
+  "birimler": [
+   {
+    "yer": "Danangombe (Rozvi)",
+    "gun": "1684-01-01",
+    "eski": "",
+    "yeni": "rozvi",
+    "lat": -19.6,
+    "lon": 29.3
+   }
+  ]
+ }
+]

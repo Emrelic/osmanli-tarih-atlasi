@@ -1,0 +1,4178 @@
+{
+ "aralik": [
+  "1500-01-01",
+  "1800-01-01"
+ ],
+ "kutu": "afrika",
+ "sayac": {
+  "yer": 465,
+  "yalniz_taraf": 217,
+  "madde_yok": 277
+ },
+ "maddeler": [
+  {
+   "t": "1736-03-08",
+   "b": "Nadir Şah'ın Mugan Sahrası'nda tahta çıkışı: Safevî hanedanının fiilen sonu",
+   "birimler": [
+    {
+     "yer": "Abâdân",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 30.3392,
+     "lon": 48.3042
+    },
+    {
+     "yer": "Ahvaz",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 31.32,
+     "lon": 48.6692
+    },
+    {
+     "yer": "Behbehân",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 30.5956,
+     "lon": 50.2417
+    },
+    {
+     "yer": "Bender Enzeli",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.4728,
+     "lon": 49.4622
+    },
+    {
+     "yer": "Bender Rîg",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 29.4975,
+     "lon": 50.6451
+    },
+    {
+     "yer": "Burûcird",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 33.8972,
+     "lon": 48.7514
+    },
+    {
+     "yer": "Buşehr",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 28.9684,
+     "lon": 50.8385
+    },
+    {
+     "yer": "Dizfûl",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 32.3831,
+     "lon": 48.4014
+    },
+    {
+     "yer": "Gulpâygân",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 33.455,
+     "lon": 50.2881
+    },
+    {
+     "yer": "Halhâl",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.6167,
+     "lon": 48.5333
+    },
+    {
+     "yer": "Havîza",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 31.4572,
+     "lon": 48.075
+    },
+    {
+     "yer": "Hemedan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 34.799,
+     "lon": 48.515
+    },
+    {
+     "yer": "Isfahan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 32.654,
+     "lon": 51.668
+    },
+    {
+     "yer": "Kasr-ı Şîrîn",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 34.515,
+     "lon": 45.5772
+    },
+    {
+     "yer": "Kazvin",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 36.269,
+     "lon": 50.004
+    },
+    {
+     "yer": "Kirmanşah",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 34.314,
+     "lon": 47.065
+    },
+    {
+     "yer": "Kum",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 34.64,
+     "lon": 50.876
+    },
+    {
+     "yer": "Kâzerûn",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 29.6186,
+     "lon": 51.6542
+    },
+    {
+     "yer": "Kâşân",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 33.9831,
+     "lon": 51.41
+    },
+    {
+     "yer": "Luristan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 33.487,
+     "lon": 48.356
+    },
+    {
+     "yer": "Lâhîcan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.2072,
+     "lon": 50.0044
+    },
+    {
+     "yer": "Merâga",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.3894,
+     "lon": 46.2381
+    },
+    {
+     "yer": "Merîvan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 35.5214,
+     "lon": 46.1772
+    },
+    {
+     "yer": "Miyâne",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.4247,
+     "lon": 47.7167
+    },
+    {
+     "yer": "Mîyandoab",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 36.9694,
+     "lon": 46.1028
+    },
+    {
+     "yer": "Nihâvend",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 34.1911,
+     "lon": 48.3767
+    },
+    {
+     "yer": "Reşt",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.281,
+     "lon": 49.583
+    },
+    {
+     "yer": "Râmhürmüz",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 31.2803,
+     "lon": 49.6039
+    },
+    {
+     "yer": "Rāzhān",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.3833,
+     "lon": 44.8667
+    },
+    {
+     "yer": "Sakkız",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 36.2461,
+     "lon": 46.2631
+    },
+    {
+     "yer": "Sarâb",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.9408,
+     "lon": 47.5364
+    },
+    {
+     "yer": "Senendec (Sine)",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 35.3111,
+     "lon": 46.9961
+    },
+    {
+     "yer": "Sero",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.7275,
+     "lon": 44.6427
+    },
+    {
+     "yer": "Sultâniye",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 36.4318,
+     "lon": 48.797
+    },
+    {
+     "yer": "Sâve",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 35.0213,
+     "lon": 50.3566
+    },
+    {
+     "yer": "Tahran",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 35.69,
+     "lon": 51.39
+    },
+    {
+     "yer": "Urmiye",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 37.553,
+     "lon": 45.076
+    },
+    {
+     "yer": "Zagros içi",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 31.5,
+     "lon": 50.5
+    },
+    {
+     "yer": "Zencan",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 36.673,
+     "lon": 48.478
+    },
+    {
+     "yer": "Şüşter",
+     "gun": "1736-03-08",
+     "eski": "safevi",
+     "yeni": "afsar",
+     "lat": 32.045,
+     "lon": 48.8564
+    }
+   ]
+  },
+  {
+   "t": "1747-06-20",
+   "b": "Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+   "birimler": [
+    {
+     "yer": "Abâdân",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 30.3392,
+     "lon": 48.3042
+    },
+    {
+     "yer": "Ahvaz",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 31.32,
+     "lon": 48.6692
+    },
+    {
+     "yer": "Behbehân",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 30.5956,
+     "lon": 50.2417
+    },
+    {
+     "yer": "Bender Enzeli",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.4728,
+     "lon": 49.4622
+    },
+    {
+     "yer": "Bender Rîg",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 29.4975,
+     "lon": 50.6451
+    },
+    {
+     "yer": "Burûcird",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 33.8972,
+     "lon": 48.7514
+    },
+    {
+     "yer": "Buşehr",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 28.9684,
+     "lon": 50.8385
+    },
+    {
+     "yer": "Dizfûl",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 32.3831,
+     "lon": 48.4014
+    },
+    {
+     "yer": "Gulpâygân",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 33.455,
+     "lon": 50.2881
+    },
+    {
+     "yer": "Halhâl",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "afsar",
+     "lat": 37.6167,
+     "lon": 48.5333
+    },
+    {
+     "yer": "Havîza",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 31.4572,
+     "lon": 48.075
+    },
+    {
+     "yer": "Hemedan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 34.799,
+     "lon": 48.515
+    },
+    {
+     "yer": "Isfahan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 32.654,
+     "lon": 51.668
+    },
+    {
+     "yer": "Kasr-ı Şîrîn",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 34.515,
+     "lon": 45.5772
+    },
+    {
+     "yer": "Kazvin",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 36.269,
+     "lon": 50.004
+    },
+    {
+     "yer": "Kirmanşah",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 34.314,
+     "lon": 47.065
+    },
+    {
+     "yer": "Kum",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 34.64,
+     "lon": 50.876
+    },
+    {
+     "yer": "Kâzerûn",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 29.6186,
+     "lon": 51.6542
+    },
+    {
+     "yer": "Kâşân",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 33.9831,
+     "lon": 51.41
+    },
+    {
+     "yer": "Luristan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 33.487,
+     "lon": 48.356
+    },
+    {
+     "yer": "Lâhîcan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.2072,
+     "lon": 50.0044
+    },
+    {
+     "yer": "Merâga",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.3894,
+     "lon": 46.2381
+    },
+    {
+     "yer": "Merîvan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 35.5214,
+     "lon": 46.1772
+    },
+    {
+     "yer": "Miyâne",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.4247,
+     "lon": 47.7167
+    },
+    {
+     "yer": "Mîyandoab",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 36.9694,
+     "lon": 46.1028
+    },
+    {
+     "yer": "Nihâvend",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 34.1911,
+     "lon": 48.3767
+    },
+    {
+     "yer": "Reşt",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.281,
+     "lon": 49.583
+    },
+    {
+     "yer": "Râmhürmüz",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 31.2803,
+     "lon": 49.6039
+    },
+    {
+     "yer": "Rāzhān",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.3833,
+     "lon": 44.8667
+    },
+    {
+     "yer": "Sakkız",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 36.2461,
+     "lon": 46.2631
+    },
+    {
+     "yer": "Sarâb",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "afsar",
+     "lat": 37.9408,
+     "lon": 47.5364
+    },
+    {
+     "yer": "Senendec (Sine)",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 35.3111,
+     "lon": 46.9961
+    },
+    {
+     "yer": "Sero",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 37.7275,
+     "lon": 44.6427
+    },
+    {
+     "yer": "Sultâniye",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 36.4318,
+     "lon": 48.797
+    },
+    {
+     "yer": "Sâve",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 35.0213,
+     "lon": 50.3566
+    },
+    {
+     "yer": "Tahran",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 35.69,
+     "lon": 51.39
+    },
+    {
+     "yer": "Urmiye",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "afsar",
+     "lat": 37.553,
+     "lon": 45.076
+    },
+    {
+     "yer": "Zagros içi",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 31.5,
+     "lon": 50.5
+    },
+    {
+     "yer": "Zencan",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 36.673,
+     "lon": 48.478
+    },
+    {
+     "yer": "Şüşter",
+     "gun": "1747-06-20",
+     "eski": "afsar",
+     "yeni": "zend",
+     "lat": 32.045,
+     "lon": 48.8564
+    }
+   ]
+  },
+  {
+   "t": "1794-01-01",
+   "b": "Zend hânedanının sonu — İran'da Kaçar hâkimiyeti",
+   "birimler": [
+    {
+     "yer": "Abâdân",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 30.3392,
+     "lon": 48.3042
+    },
+    {
+     "yer": "Ahvaz",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 31.32,
+     "lon": 48.6692
+    },
+    {
+     "yer": "Behbehân",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 30.5956,
+     "lon": 50.2417
+    },
+    {
+     "yer": "Bender Enzeli",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.4728,
+     "lon": 49.4622
+    },
+    {
+     "yer": "Bender Rîg",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 29.4975,
+     "lon": 50.6451
+    },
+    {
+     "yer": "Burûcird",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 33.8972,
+     "lon": 48.7514
+    },
+    {
+     "yer": "Buşehr",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 28.9684,
+     "lon": 50.8385
+    },
+    {
+     "yer": "Dizfûl",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 32.3831,
+     "lon": 48.4014
+    },
+    {
+     "yer": "Gulpâygân",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 33.455,
+     "lon": 50.2881
+    },
+    {
+     "yer": "Havîza",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 31.4572,
+     "lon": 48.075
+    },
+    {
+     "yer": "Hemedan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 34.799,
+     "lon": 48.515
+    },
+    {
+     "yer": "Isfahan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 32.654,
+     "lon": 51.668
+    },
+    {
+     "yer": "Kasr-ı Şîrîn",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 34.515,
+     "lon": 45.5772
+    },
+    {
+     "yer": "Kazvin",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 36.269,
+     "lon": 50.004
+    },
+    {
+     "yer": "Kirmanşah",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 34.314,
+     "lon": 47.065
+    },
+    {
+     "yer": "Kum",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 34.64,
+     "lon": 50.876
+    },
+    {
+     "yer": "Kâzerûn",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 29.6186,
+     "lon": 51.6542
+    },
+    {
+     "yer": "Kâşân",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 33.9831,
+     "lon": 51.41
+    },
+    {
+     "yer": "Luristan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 33.487,
+     "lon": 48.356
+    },
+    {
+     "yer": "Lâhîcan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.2072,
+     "lon": 50.0044
+    },
+    {
+     "yer": "Merâga",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.3894,
+     "lon": 46.2381
+    },
+    {
+     "yer": "Merîvan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 35.5214,
+     "lon": 46.1772
+    },
+    {
+     "yer": "Miyâne",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.4247,
+     "lon": 47.7167
+    },
+    {
+     "yer": "Mîyandoab",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 36.9694,
+     "lon": 46.1028
+    },
+    {
+     "yer": "Nihâvend",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 34.1911,
+     "lon": 48.3767
+    },
+    {
+     "yer": "Reşt",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.281,
+     "lon": 49.583
+    },
+    {
+     "yer": "Râmhürmüz",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 31.2803,
+     "lon": 49.6039
+    },
+    {
+     "yer": "Rāzhān",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.3833,
+     "lon": 44.8667
+    },
+    {
+     "yer": "Sakkız",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 36.2461,
+     "lon": 46.2631
+    },
+    {
+     "yer": "Senendec (Sine)",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 35.3111,
+     "lon": 46.9961
+    },
+    {
+     "yer": "Sero",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 37.7275,
+     "lon": 44.6427
+    },
+    {
+     "yer": "Sultâniye",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 36.4318,
+     "lon": 48.797
+    },
+    {
+     "yer": "Sâve",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 35.0213,
+     "lon": 50.3566
+    },
+    {
+     "yer": "Zagros içi",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 31.5,
+     "lon": 50.5
+    },
+    {
+     "yer": "Zencan",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 36.673,
+     "lon": 48.478
+    },
+    {
+     "yer": "Şüşter",
+     "gun": "1794-01-01",
+     "eski": "zend",
+     "yeni": "kacar",
+     "lat": 32.045,
+     "lon": 48.8564
+    }
+   ]
+  },
+  {
+   "t": "1508-01-01",
+   "b": "Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi",
+   "birimler": [
+    {
+     "yer": "Abâdân",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 30.3392,
+     "lon": 48.3042
+    },
+    {
+     "yer": "Ahvaz",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 31.32,
+     "lon": 48.6692
+    },
+    {
+     "yer": "Basra",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 30.508,
+     "lon": 47.783
+    },
+    {
+     "yer": "Behbehân",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 30.5956,
+     "lon": 50.2417
+    },
+    {
+     "yer": "Dizfûl",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 32.3831,
+     "lon": 48.4014
+    },
+    {
+     "yer": "Erbil",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.1911,
+     "lon": 44.0092
+    },
+    {
+     "yer": "Fâv",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 29.9764,
+     "lon": 48.4722
+    },
+    {
+     "yer": "Halepçe",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.1778,
+     "lon": 45.9861
+    },
+    {
+     "yer": "Kerkük",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.468,
+     "lon": 44.392
+    },
+    {
+     "yer": "Kifri",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 34.6883,
+     "lon": 44.9639
+    },
+    {
+     "yer": "Kürne",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 31.01,
+     "lon": 47.4433
+    },
+    {
+     "yer": "Luristan",
+     "gun": "1508-01-01",
+     "eski": "lur-i-kucek",
+     "yeni": "safevi",
+     "lat": 33.487,
+     "lon": 48.356
+    },
+    {
+     "yer": "Râmhürmüz",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 31.2803,
+     "lon": 49.6039
+    },
+    {
+     "yer": "Semâve",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 31.3183,
+     "lon": 45.2811
+    },
+    {
+     "yer": "Tirwānīsh",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.19618,
+     "lon": 43.50366
+    },
+    {
+     "yer": "Tuz Hurmatu",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 34.8828,
+     "lon": 44.6381
+    },
+    {
+     "yer": "Şehrizor",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.56,
+     "lon": 45.43
+    },
+    {
+     "yer": "Şüşter",
+     "gun": "1508-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 32.045,
+     "lon": 48.8564
+    }
+   ]
+  },
+  {
+   "t": "1503-01-01",
+   "b": "Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
+   "birimler": [
+    {
+     "yer": "Bender Rîg",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 29.4975,
+     "lon": 50.6451
+    },
+    {
+     "yer": "Gulpâygân",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 33.455,
+     "lon": 50.2881
+    },
+    {
+     "yer": "Kasr-ı Şîrîn",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 34.515,
+     "lon": 45.5772
+    },
+    {
+     "yer": "Kazvin",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.269,
+     "lon": 50.004
+    },
+    {
+     "yer": "Kum",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 34.64,
+     "lon": 50.876
+    },
+    {
+     "yer": "Kâzerûn",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 29.6186,
+     "lon": 51.6542
+    },
+    {
+     "yer": "Sâve",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.0213,
+     "lon": 50.3566
+    },
+    {
+     "yer": "Tahran",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.69,
+     "lon": 51.39
+    },
+    {
+     "yer": "Zagros içi",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 31.5,
+     "lon": 50.5
+    },
+    {
+     "yer": "Zencan",
+     "gun": "1503-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.673,
+     "lon": 48.478
+    }
+   ]
+  },
+  {
+   "t": "1501-07-01",
+   "b": "Şah İsmail'in Tebriz'i alması: Safevî Devleti'nin kuruluşu",
+   "birimler": [
+    {
+     "yer": "Halhâl",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.6167,
+     "lon": 48.5333
+    },
+    {
+     "yer": "Merâga",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.3894,
+     "lon": 46.2381
+    },
+    {
+     "yer": "Merîvan",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 35.5214,
+     "lon": 46.1772
+    },
+    {
+     "yer": "Mîyandoab",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.9694,
+     "lon": 46.1028
+    },
+    {
+     "yer": "Rāzhān",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.3833,
+     "lon": 44.8667
+    },
+    {
+     "yer": "Sakkız",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.2461,
+     "lon": 46.2631
+    },
+    {
+     "yer": "Sero",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.7275,
+     "lon": 44.6427
+    },
+    {
+     "yer": "Sultâniye",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.4318,
+     "lon": 48.797
+    },
+    {
+     "yer": "Urmiye",
+     "gun": "1501-07-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.553,
+     "lon": 45.076
+    }
+   ]
+  },
+  {
+   "t": "1600-01-01",
+   "b": "Luyi (Lozi) krallığı teşekkül etti",
+   "birimler": [
+    {
+     "yer": "Kabompo",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -13.6,
+     "lon": 24.2
+    },
+    {
+     "yer": "Kalabo",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -14.97,
+     "lon": 22.68
+    },
+    {
+     "yer": "Kaoma (Mankoya)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -14.8,
+     "lon": 24.8
+    },
+    {
+     "yer": "Lealui (Lozi)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -15.2,
+     "lon": 23.1
+    },
+    {
+     "yer": "Senanga",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -16.12,
+     "lon": 23.27
+    },
+    {
+     "yer": "Seşeke (Sesheke)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -17.48,
+     "lon": 24.3
+    },
+    {
+     "yer": "Zambezi (Balovale)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "lozi",
+     "lat": -13.55,
+     "lon": 23.1
+    }
+   ]
+  },
+  {
+   "t": "1502-01-01",
+   "b": "Erzurum ve Van havzası Safevî'ye geçti — Akkoyunlu'nun kuzey kanadı çöktü",
+   "birimler": [
+    {
+     "yer": "Bacirge (Esendere)",
+     "gun": "1502-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.7114,
+     "lon": 44.601
+    },
+    {
+     "yer": "Balıklı",
+     "gun": "1502-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.23157,
+     "lon": 44.65326
+    },
+    {
+     "yer": "Gōrabī",
+     "gun": "1502-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.08333,
+     "lon": 44.7
+    },
+    {
+     "yer": "Kilise",
+     "gun": "1502-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.35426,
+     "lon": 43.55328
+    },
+    {
+     "yer": "Şemdinli (Şemdinni)",
+     "gun": "1502-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.3051,
+     "lon": 44.5742
+    }
+   ]
+  },
+  {
+   "t": "1517-04-13",
+   "b": "Tomanbay'ın Bâbüzüveyle'de idamı ve Memlük Devleti'nin sonu",
+   "birimler": [
+    {
+     "yer": "Akīk",
+     "gun": "1517-04-13",
+     "eski": "memluk",
+     "yeni": "habesistan",
+     "lat": 18.23,
+     "lon": 38.2
+    },
+    {
+     "yer": "Halâib",
+     "gun": "1517-04-13",
+     "eski": "memluk",
+     "yeni": "habesistan",
+     "lat": 22.219,
+     "lon": 36.647
+    },
+    {
+     "yer": "Sevâkin",
+     "gun": "1517-04-13",
+     "eski": "memluk",
+     "yeni": "habesistan",
+     "lat": 19.106,
+     "lon": 37.332
+    },
+    {
+     "yer": "Sinkat",
+     "gun": "1517-04-13",
+     "eski": "memluk",
+     "yeni": "habesistan",
+     "lat": 18.833,
+     "lon": 36.833
+    },
+    {
+     "yer": "Tokar",
+     "gun": "1517-04-13",
+     "eski": "memluk",
+     "yeni": "habesistan",
+     "lat": 18.427,
+     "lon": 37.729
+    }
+   ]
+  },
+  {
+   "t": "1507-01-01",
+   "b": "Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
+   "birimler": [
+    {
+     "yer": "Babū",
+     "gun": "1507-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.99209,
+     "lon": 40.95651
+    },
+    {
+     "yer": "Hasankeyf",
+     "gun": "1507-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.714,
+     "lon": 41.412
+    },
+    {
+     "yer": "Qaţţīnah",
+     "gun": "1507-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 36.80744,
+     "lon": 40.05343
+    },
+    {
+     "yer": "Ḩīmū",
+     "gun": "1507-01-01",
+     "eski": "akkoyunlu",
+     "yeni": "safevi",
+     "lat": 37.04723,
+     "lon": 41.16003
+    }
+   ]
+  },
+  {
+   "t": "1670-01-01",
+   "b": "Lahsa'nın Benî Hâlid Emirliği'ne kaybı",
+   "birimler": [
+    {
+     "yer": "Cübeyl",
+     "gun": "1670-01-01",
+     "eski": "",
+     "yeni": "benihalid",
+     "lat": 26.9979,
+     "lon": 49.6406
+    },
+    {
+     "yer": "Katar Yarımadası (iç, dolgu)",
+     "gun": "1670-01-01",
+     "eski": "",
+     "yeni": "benihalid",
+     "lat": 25.4,
+     "lon": 50.95
+    },
+    {
+     "yer": "Katîf",
+     "gun": "1670-01-01",
+     "eski": "",
+     "yeni": "benihalid",
+     "lat": 26.557,
+     "lon": 49.9873
+    },
+    {
+     "yer": "Ukayr (Uceyr)",
+     "gun": "1670-01-01",
+     "eski": "",
+     "yeni": "benihalid",
+     "lat": 25.65,
+     "lon": 50.2131
+    }
+   ]
+  },
+  {
+   "t": "1686-08-30",
+   "b": "Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
+   "birimler": [
+    {
+     "yer": "Damala (Troizen)",
+     "gun": "1686-08-30",
+     "eski": "",
+     "yeni": "venedik",
+     "lat": 37.508,
+     "lon": 23.339
+    },
+    {
+     "yer": "Ermiyoni (Hermione)",
+     "gun": "1686-08-30",
+     "eski": "",
+     "yeni": "venedik",
+     "lat": 37.3884,
+     "lon": 23.2486
+    },
+    {
+     "yer": "Kranidi",
+     "gun": "1686-08-30",
+     "eski": "",
+     "yeni": "venedik",
+     "lat": 37.364,
+     "lon": 23.147
+    },
+    {
+     "yer": "Methana",
+     "gun": "1686-08-30",
+     "eski": "",
+     "yeni": "venedik",
+     "lat": 37.588,
+     "lon": 23.38
+    }
+   ]
+  },
+  {
+   "t": "1792-09-22",
+   "b": "Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu",
+   "birimler": [
+    {
+     "yer": "Assinie",
+     "gun": "1792-09-22",
+     "eski": "fransa",
+     "yeni": "fransa-cumhuriyet",
+     "lat": 5.128,
+     "lon": -3.273
+    },
+    {
+     "yer": "Gore (Gorée)",
+     "gun": "1792-09-22",
+     "eski": "fransa",
+     "yeni": "fransa-cumhuriyet",
+     "lat": 14.675,
+     "lon": -17.4273
+    },
+    {
+     "yer": "Saint-Louis (Ndar)",
+     "gun": "1792-09-22",
+     "eski": "fransa",
+     "yeni": "fransa-cumhuriyet",
+     "lat": 16.03,
+     "lon": -16.51
+    },
+    {
+     "yer": "Tolanaro (Fort Dauphin)",
+     "gun": "1792-09-22",
+     "eski": "fransa",
+     "yeni": "fransa-cumhuriyet",
+     "lat": -25.03,
+     "lon": 46.99
+    }
+   ]
+  },
+  {
+   "t": "1600-01-01",
+   "b": "Menabe Sakalava krallığı kuruldu",
+   "birimler": [
+    {
+     "yer": "Mahabo (Menabe)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "sakalava-menabe",
+     "lat": -20.38,
+     "lon": 44.67
+    },
+    {
+     "yer": "Maintirano",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "sakalava-menabe",
+     "lat": -18.06,
+     "lon": 44.03
+    },
+    {
+     "yer": "Toliara (Tuléar)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "sakalava-menabe",
+     "lat": -23.35,
+     "lon": 43.67
+    }
+   ]
+  },
+  {
+   "t": "1500-01-01",
+   "b": "Antemoro krallığı kuruldu",
+   "birimler": [
+    {
+     "yer": "Mananjary",
+     "gun": "1500-01-01",
+     "eski": "",
+     "yeni": "antemoro",
+     "lat": -21.23,
+     "lon": 48.34
+    },
+    {
+     "yer": "Vohipeno (Antemoro)",
+     "gun": "1500-01-01",
+     "eski": "",
+     "yeni": "antemoro",
+     "lat": -22.36,
+     "lon": 47.83
+    }
+   ]
+  },
+  {
+   "t": "1500-01-01",
+   "b": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu",
+   "birimler": [
+    {
+     "yer": "Merka",
+     "gun": "1500-01-01",
+     "eski": "makdisu-sultanligi",
+     "yeni": "somali",
+     "lat": 1.716,
+     "lon": 44.772
+    },
+    {
+     "yer": "Mogadişu",
+     "gun": "1500-01-01",
+     "eski": "makdisu-sultanligi",
+     "yeni": "somali",
+     "lat": 2.037,
+     "lon": 45.342
+    }
+   ]
+  },
+  {
+   "t": "1517-05-01",
+   "b": "Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
+   "birimler": [
+    {
+     "yer": "Hasankeyf",
+     "gun": "1517-05-01",
+     "eski": "safevi",
+     "yeni": "",
+     "lat": 37.714,
+     "lon": 41.412
+    },
+    {
+     "yer": "Urfa",
+     "gun": "1517-05-01",
+     "eski": "safevi",
+     "yeni": "",
+     "lat": 37.159,
+     "lon": 38.796
+    }
+   ]
+  },
+  {
+   "t": "1522-01-01",
+   "b": "Bagirmi Sultanlığı kuruldu",
+   "birimler": [
+    {
+     "yer": "Am Timan",
+     "gun": "1522-01-01",
+     "eski": "",
+     "yeni": "bagirmi",
+     "lat": 11.03,
+     "lon": 20.28
+    },
+    {
+     "yer": "Mongo",
+     "gun": "1522-01-01",
+     "eski": "",
+     "yeni": "bagirmi",
+     "lat": 12.18,
+     "lon": 18.7
+    }
+   ]
+  },
+  {
+   "t": "1600-01-01",
+   "b": "Ovambo krallıkları teşekkül etti",
+   "birimler": [
+    {
+     "yer": "Ondangva (Ondonga)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "ovambo",
+     "lat": -17.92,
+     "lon": 15.95
+    },
+    {
+     "yer": "Ondjiva (Ovambo)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "ovambo",
+     "lat": -17.07,
+     "lon": 15.71
+    }
+   ]
+  },
+  {
+   "t": "1695-01-01",
+   "b": "Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleyman Solonc",
+   "birimler": [
+    {
+     "yer": "Cenîne",
+     "gun": "1695-01-01",
+     "eski": "tunciler",
+     "yeni": "darfur",
+     "lat": 13.452,
+     "lon": 22.445
+    },
+    {
+     "yer": "Nyala",
+     "gun": "1695-01-01",
+     "eski": "tunciler",
+     "yeni": "darfur",
+     "lat": 12.048,
+     "lon": 24.882
+    }
+   ]
+  },
+  {
+   "t": "1779-03-01",
+   "b": "Kerim Han Zend öldü — Azerbaycan hanlıkları Zend'den fiilen ayrıldı",
+   "birimler": [
+    {
+     "yer": "Halhâl",
+     "gun": "1779-03-01",
+     "eski": "zend",
+     "yeni": "afsar",
+     "lat": 37.6167,
+     "lon": 48.5333
+    },
+    {
+     "yer": "Urmiye",
+     "gun": "1779-03-01",
+     "eski": "zend",
+     "yeni": "afsar",
+     "lat": 37.553,
+     "lon": 45.076
+    }
+   ]
+  },
+  {
+   "t": "1503-01-01",
+   "b": "Albuquerque Koçin'de Asya'daki ilk Portekiz kalesini kurdu, raca Portekiz himayesine girdi",
+   "birimler": [
+    {
+     "yer": "Çake Çake (Pemba)",
+     "gun": "1503-01-01",
+     "eski": "svahili-sehirleri",
+     "yeni": "portekiz",
+     "lat": -5.2442,
+     "lon": 39.7663
+    }
+   ]
+  },
+  {
+   "t": "1505-01-01",
+   "b": "Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
+   "birimler": [
+    {
+     "yer": "Kilindoni (Mafia Adası)",
+     "gun": "1505-01-01",
+     "eski": "kilva-sultanligi",
+     "yeni": "portekiz",
+     "lat": -7.9167,
+     "lon": 39.6667
+    }
+   ]
+  },
+  {
+   "t": "1516-10-10",
+   "b": "Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
+   "birimler": [
+    {
+     "yer": "Deyrülkamer (Dayr al-Kamer)",
+     "gun": "1516-10-01",
+     "eski": "memluk",
+     "yeni": "",
+     "lat": 33.6989,
+     "lon": 35.5619
+    }
+   ]
+  },
+  {
+   "t": "1534-01-01",
+   "b": "Portekiz Thane'yi Gucerat Sultanlığı'dan devraldı — Thane",
+   "birimler": [
+    {
+     "yer": "İnhambane",
+     "gun": "1534-01-01",
+     "eski": "",
+     "yeni": "portekiz-mozambik",
+     "lat": -23.87,
+     "lon": 35.38
+    }
+   ]
+  },
+  {
+   "t": "1537-10-01",
+   "b": "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması",
+   "birimler": [
+    {
+     "yer": "İstanbulya (Astipalya)",
+     "gun": "1537-10-01",
+     "eski": "venedik",
+     "yeni": "",
+     "lat": 36.572,
+     "lon": 26.35
+    }
+   ]
+  },
+  {
+   "t": "1540-01-01",
+   "b": "Yatenga krallığı Vagadugu'dan ayrıldı",
+   "birimler": [
+    {
+     "yer": "Vahiguya (Yatenga)",
+     "gun": "1540-01-01",
+     "eski": "",
+     "yeni": "yatenga",
+     "lat": 13.58,
+     "lon": -2.42
+    }
+   ]
+  },
+  {
+   "t": "1581-04-16",
+   "b": "İberya Birliği: Portekiz tacı İspanya kralına geçti",
+   "birimler": [
+    {
+     "yer": "Sebte (Ceuta)",
+     "gun": "1581-04-16",
+     "eski": "portekiz",
+     "yeni": "ispanya",
+     "lat": 35.889,
+     "lon": -5.318
+    }
+   ]
+  },
+  {
+   "t": "1600-01-01",
+   "b": "Ngonde krallığı teşekkül etti",
+   "birimler": [
+    {
+     "yer": "Mbande (Ngonde)",
+     "gun": "1600-01-01",
+     "eski": "",
+     "yeni": "ngonde",
+     "lat": -9.98,
+     "lon": 33.85
+    }
+   ]
+  },
+  {
+   "t": "1624-01-01",
+   "b": "Musul ve Kerkük'ün Safevî eline geçmesi — Bağdat'ın düşüşünün ardından",
+   "birimler": [
+    {
+     "yer": "Erbil",
+     "gun": "1624-01-01",
+     "eski": "",
+     "yeni": "safevi",
+     "lat": 36.1911,
+     "lon": 44.0092
+    }
+   ]
+  },
+  {
+   "t": "1635-01-01",
+   "b": "Yemen'in kaybı — Kāsımî imamlarının hâkimiyeti",
+   "birimler": [
+    {
+     "yer": "Lahic (el-Havta)",
+     "gun": "1635-01-01",
+     "eski": "",
+     "yeni": "yemen",
+     "lat": 13.05,
+     "lon": 44.883
+    }
+   ]
+  },
+  {
+   "t": "1684-01-01",
+   "b": "Changamire Dombo'nun Rozvi devleti kuruldu — Zimbabve platosunda Torva'nın yerini Rozvi aldı",
+   "birimler": [
+    {
+     "yer": "Danangombe (Rozvi)",
+     "gun": "1684-01-01",
+     "eski": "",
+     "yeni": "rozvi",
+     "lat": -19.6,
+     "lon": 29.3
+    }
+   ]
+  },
+  {
+   "t": "1687-08-01",
+   "b": "Gördüs'ün (Korint) Venedik'e bırakılması",
+   "birimler": [
+    {
+     "yer": "Elafonisos (Cervi)",
+     "gun": "1687-08-01",
+     "eski": "",
+     "yeni": "venedik",
+     "lat": 36.4936,
+     "lon": 22.9756
+    }
+   ]
+  },
+  {
+   "t": "1795-01-19",
+   "b": "Batav Cumhuriyeti ilan edildi, Hollanda Eyaletleri Cumhuriyeti sona erdi (Haarlem, Dordrecht)",
+   "birimler": [
+    {
+     "yer": "Kap (Cape Town)",
+     "gun": "1795-01-01",
+     "eski": "hollanda",
+     "yeni": "ingiltere",
+     "lat": -33.925,
+     "lon": 18.424
+    }
+   ]
+  },
+  {
+   "t": "1797-10-17",
+   "b": "Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması",
+   "birimler": [
+    {
+     "yer": "Çuha Adası (Kythira)",
+     "gun": "1797-10-17",
+     "eski": "venedik",
+     "yeni": "fransa-cumhuriyet",
+     "lat": 36.24,
+     "lon": 22.99
+    }
+   ]
+  }
+ ],
+ "madde_yok": [
+  {
+   "yer": "Benî Süveyf",
+   "gun": "1500-01-01",
+   "eski": "",
+   "yeni": "memluk",
+   "lat": 29.074,
+   "lon": 31.098
+  },
+  {
+   "yer": "Hoima (Bunyoro)",
+   "gun": "1501-01-01",
+   "eski": "__BOSLUK__",
+   "yeni": "bunyoro",
+   "lat": 1.43,
+   "lon": 31.35
+  },
+  {
+   "yer": "Masindi",
+   "gun": "1501-01-01",
+   "eski": "__BOSLUK__",
+   "yeni": "bunyoro",
+   "lat": 1.68,
+   "lon": 31.72
+  },
+  {
+   "yer": "Berber",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 18.017,
+   "lon": 33.983
+  },
+  {
+   "yer": "Bâra",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 13.7,
+   "lon": 30.367
+  },
+  {
+   "yer": "Debbe",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 18.056,
+   "lon": 30.951
+  },
+  {
+   "yer": "Dongola",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 19.169,
+   "lon": 30.474
+  },
+  {
+   "yer": "Ebû Hamed",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 19.535,
+   "lon": 33.319
+  },
+  {
+   "yer": "Ed-Düveym",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 13.995,
+   "lon": 32.334
+  },
+  {
+   "yer": "Fâzûğlî",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 11.267,
+   "lon": 34.783
+  },
+  {
+   "yer": "Kadârif",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 14.036,
+   "lon": 35.383
+  },
+  {
+   "yer": "Kerma",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 19.6,
+   "lon": 30.41
+  },
+  {
+   "yer": "Kordofan",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 13.0,
+   "lon": 29.5
+  },
+  {
+   "yer": "Kosti",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 13.17,
+   "lon": 32.663
+  },
+  {
+   "yer": "Merevî",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 18.55,
+   "lon": 31.85
+  },
+  {
+   "yer": "Nühûd",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 12.7,
+   "lon": 28.433
+  },
+  {
+   "yer": "Rusayris",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 11.861,
+   "lon": 34.386
+  },
+  {
+   "yer": "Sennar",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 13.551,
+   "lon": 33.616
+  },
+  {
+   "yer": "Vad Medenî",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 14.401,
+   "lon": 33.519
+  },
+  {
+   "yer": "Şendî",
+   "gun": "1504-01-01",
+   "eski": "nube",
+   "yeni": "funj",
+   "lat": 16.691,
+   "lon": 33.433
+  },
+  {
+   "yer": "Cibri (Güçlü)",
+   "gun": "1508-01-01",
+   "eski": "akkoyunlu",
+   "yeni": "cizre-botan",
+   "lat": 37.27593,
+   "lon": 42.09814
+  },
+  {
+   "yer": "Cizre",
+   "gun": "1508-01-01",
+   "eski": "akkoyunlu",
+   "yeni": "cizre-botan",
+   "lat": 37.33,
+   "lon": 42.19
+  },
+  {
+   "yer": "Cumai (Birlikköy)",
+   "gun": "1508-01-01",
+   "eski": "akkoyunlu",
+   "yeni": "cizre-botan",
+   "lat": 37.24622,
+   "lon": 42.52018
+  },
+  {
+   "yer": "Silopi",
+   "gun": "1508-01-01",
+   "eski": "akkoyunlu",
+   "yeni": "cizre-botan",
+   "lat": 37.246,
+   "lon": 42.47
+  },
+  {
+   "yer": "Babū",
+   "gun": "1515-09-19",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 36.99209,
+   "lon": 40.95651
+  },
+  {
+   "yer": "Cibri (Güçlü)",
+   "gun": "1515-09-19",
+   "eski": "cizre-botan",
+   "yeni": "",
+   "lat": 37.27593,
+   "lon": 42.09814
+  },
+  {
+   "yer": "Cumai (Birlikköy)",
+   "gun": "1515-09-19",
+   "eski": "cizre-botan",
+   "yeni": "",
+   "lat": 37.24622,
+   "lon": 42.52018
+  },
+  {
+   "yer": "Ḩīmū",
+   "gun": "1515-09-19",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.04723,
+   "lon": 41.16003
+  },
+  {
+   "yer": "Behisni (Besni)",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 37.693,
+   "lon": 37.86
+  },
+  {
+   "yer": "Harran",
+   "gun": "1516-08-24",
+   "eski": "__BOSLUK__",
+   "yeni": "",
+   "lat": 36.864,
+   "lon": 39.031
+  },
+  {
+   "yer": "Hısn-ı Mansûr (Adıyaman)",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 37.764,
+   "lon": 38.278
+  },
+  {
+   "yer": "Jadlā’",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 36.65715,
+   "lon": 38.94703
+  },
+  {
+   "yer": "Kâhta",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 37.783,
+   "lon": 38.622
+  },
+  {
+   "yer": "Mercihamis (Yurtbağı)",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 36.86293,
+   "lon": 38.00361
+  },
+  {
+   "yer": "Sincan",
+   "gun": "1516-08-24",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 36.72065,
+   "lon": 36.2277
+  },
+  {
+   "yer": "Refah",
+   "gun": "1516-12-21",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 31.2972,
+   "lon": 34.2436
+  },
+  {
+   "yer": "Aden",
+   "gun": "1517-01-01",
+   "eski": "tahiri",
+   "yeni": "tahiri",
+   "lat": 12.786,
+   "lon": 45.019
+  },
+  {
+   "yer": "Taiz",
+   "gun": "1517-04-15",
+   "eski": "tahiri",
+   "yeni": "yemen-zeydi",
+   "lat": 13.579,
+   "lon": 44.022
+  },
+  {
+   "yer": "Bedir",
+   "gun": "1517-07-06",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 23.78,
+   "lon": 38.79
+  },
+  {
+   "yer": "Hurma (Tâif doğusu)",
+   "gun": "1517-07-06",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 21.911,
+   "lon": 42.031
+  },
+  {
+   "yer": "Râbiğ",
+   "gun": "1517-07-06",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 22.799,
+   "lon": 39.035
+  },
+  {
+   "yer": "Türabe",
+   "gun": "1517-07-06",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 21.214,
+   "lon": 41.633
+  },
+  {
+   "yer": "Zebîd",
+   "gun": "1517-07-06",
+   "eski": "memluk",
+   "yeni": "",
+   "lat": 14.195,
+   "lon": 43.317
+  },
+  {
+   "yer": "Fornoz (Fourni)",
+   "gun": "1521-01-01",
+   "eski": "cenova",
+   "yeni": "",
+   "lat": 37.5795,
+   "lon": 26.4764
+  },
+  {
+   "yer": "Cübeyl",
+   "gun": "1524-01-01",
+   "eski": "cebri",
+   "yeni": "safevi",
+   "lat": 26.9979,
+   "lon": 49.6406
+  },
+  {
+   "yer": "Katîf",
+   "gun": "1524-01-01",
+   "eski": "cebri",
+   "yeni": "safevi",
+   "lat": 26.557,
+   "lon": 49.9873
+  },
+  {
+   "yer": "Lahsa",
+   "gun": "1524-01-01",
+   "eski": "cebri",
+   "yeni": "safevi",
+   "lat": 25.383,
+   "lon": 49.588
+  },
+  {
+   "yer": "Ukayr (Uceyr)",
+   "gun": "1524-01-01",
+   "eski": "cebri",
+   "yeni": "safevi",
+   "lat": 25.65,
+   "lon": 50.2131
+  },
+  {
+   "yer": "Konstantin",
+   "gun": "1526-01-01",
+   "eski": "",
+   "yeni": "hafsi",
+   "lat": 36.365,
+   "lon": 6.615
+  },
+  {
+   "yer": "Konstantin",
+   "gun": "1527-01-01",
+   "eski": "hafsi",
+   "yeni": "",
+   "lat": 36.365,
+   "lon": 6.615
+  },
+  {
+   "yer": "Sena",
+   "gun": "1530-01-01",
+   "eski": "",
+   "yeni": "portekiz-mozambik",
+   "lat": -17.45,
+   "lon": 35.03
+  },
+  {
+   "yer": "Tete",
+   "gun": "1531-01-01",
+   "eski": "",
+   "yeni": "portekiz-mozambik",
+   "lat": -16.16,
+   "lon": 33.59
+  },
+  {
+   "yer": "Annaba",
+   "gun": "1534-09-22",
+   "eski": "hafsi",
+   "yeni": "",
+   "lat": 36.9,
+   "lon": 7.766
+  },
+  {
+   "yer": "Kasr-ı Şîrîn",
+   "gun": "1534-12-04",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.515,
+   "lon": 45.5772
+  },
+  {
+   "yer": "Kifri",
+   "gun": "1534-12-04",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.6883,
+   "lon": 44.9639
+  },
+  {
+   "yer": "Tuz Hurmatu",
+   "gun": "1534-12-04",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.8828,
+   "lon": 44.6381
+  },
+  {
+   "yer": "Annaba",
+   "gun": "1535-01-01",
+   "eski": "",
+   "yeni": "ispanya",
+   "lat": 36.9,
+   "lon": 7.766
+  },
+  {
+   "yer": "Lahic (el-Havta)",
+   "gun": "1538-08-03",
+   "eski": "tahiri",
+   "yeni": "",
+   "lat": 13.05,
+   "lon": 44.883
+  },
+  {
+   "yer": "Annaba",
+   "gun": "1540-01-01",
+   "eski": "ispanya",
+   "yeni": "",
+   "lat": 36.9,
+   "lon": 7.766
+  },
+  {
+   "yer": "Azemmûr",
+   "gun": "1541-01-01",
+   "eski": "portekiz",
+   "yeni": "sadi",
+   "lat": 33.289,
+   "lon": -8.342
+  },
+  {
+   "yer": "Safi (Asfi)",
+   "gun": "1541-01-01",
+   "eski": "portekiz",
+   "yeni": "sadi",
+   "lat": 32.299,
+   "lon": -9.237
+  },
+  {
+   "yer": "Bacirge (Esendere)",
+   "gun": "1548-08-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.7114,
+   "lon": 44.601
+  },
+  {
+   "yer": "Balıklı",
+   "gun": "1548-08-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.23157,
+   "lon": 44.65326
+  },
+  {
+   "yer": "Gōrabī",
+   "gun": "1548-08-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.08333,
+   "lon": 44.7
+  },
+  {
+   "yer": "Kilise",
+   "gun": "1548-08-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.35426,
+   "lon": 43.55328
+  },
+  {
+   "yer": "Şemdinli (Şemdinni)",
+   "gun": "1548-08-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 37.3051,
+   "lon": 44.5742
+  },
+  {
+   "yer": "Azemmûr",
+   "gun": "1549-01-01",
+   "eski": "sadi",
+   "yeni": "sadi",
+   "lat": 33.289,
+   "lon": -8.342
+  },
+  {
+   "yer": "Mbul (Kayor)",
+   "gun": "1549-01-01",
+   "eski": "",
+   "yeni": "kayor",
+   "lat": 15.16,
+   "lon": -16.38
+  },
+  {
+   "yer": "Merakeş",
+   "gun": "1549-01-01",
+   "eski": "merini",
+   "yeni": "sadi",
+   "lat": 31.63,
+   "lon": -7.981
+  },
+  {
+   "yer": "Rabat",
+   "gun": "1549-01-01",
+   "eski": "merini",
+   "yeni": "sadi",
+   "lat": 34.021,
+   "lon": -6.841
+  },
+  {
+   "yer": "Rufisque",
+   "gun": "1549-01-01",
+   "eski": "",
+   "yeni": "kayor",
+   "lat": 14.72,
+   "lon": -17.27
+  },
+  {
+   "yer": "Safi (Asfi)",
+   "gun": "1549-01-01",
+   "eski": "sadi",
+   "yeni": "sadi",
+   "lat": 32.299,
+   "lon": -9.237
+  },
+  {
+   "yer": "Begho (Bighu)",
+   "gun": "1550-01-01",
+   "eski": "",
+   "yeni": "gonja",
+   "lat": 7.75,
+   "lon": -2.35
+  },
+  {
+   "yer": "Bole",
+   "gun": "1550-01-01",
+   "eski": "",
+   "yeni": "gonja",
+   "lat": 9.03,
+   "lon": -2.48
+  },
+  {
+   "yer": "Cübeyl",
+   "gun": "1550-01-01",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 26.9979,
+   "lon": 49.6406
+  },
+  {
+   "yer": "Salaga (Gonja)",
+   "gun": "1550-01-01",
+   "eski": "",
+   "yeni": "gonja",
+   "lat": 8.55,
+   "lon": -0.52
+  },
+  {
+   "yer": "Ukayr (Uceyr)",
+   "gun": "1550-01-01",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 25.65,
+   "lon": 50.2131
+  },
+  {
+   "yer": "Benzert (Bizerte)",
+   "gun": "1557-01-01",
+   "eski": "hafsi",
+   "yeni": "",
+   "lat": 37.276,
+   "lon": 9.858
+  },
+  {
+   "yer": "Akrotiri",
+   "gun": "1570-07-02",
+   "eski": "venedik",
+   "yeni": "",
+   "lat": 34.585,
+   "lon": 32.958
+  },
+  {
+   "yer": "Episkopi",
+   "gun": "1570-07-02",
+   "eski": "venedik",
+   "yeni": "",
+   "lat": 34.664,
+   "lon": 32.903
+  },
+  {
+   "yer": "Dikelya (Dhekelia)",
+   "gun": "1570-09-09",
+   "eski": "venedik",
+   "yeni": "",
+   "lat": 34.991,
+   "lon": 33.733
+  },
+  {
+   "yer": "Güzelyurt (Morphou)",
+   "gun": "1570-09-09",
+   "eski": "venedik",
+   "yeni": "",
+   "lat": 35.199,
+   "lon": 32.993
+  },
+  {
+   "yer": "Alula",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 11.968,
+   "lon": 50.75
+  },
+  {
+   "yer": "Bender Kāsım (Bosaso)",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 11.284,
+   "lon": 49.183
+  },
+  {
+   "yer": "Berbera",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 10.44,
+   "lon": 45.014
+  },
+  {
+   "yer": "Bulhar",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 10.401,
+   "lon": 44.458
+  },
+  {
+   "yer": "Burao",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 9.522,
+   "lon": 45.534
+  },
+  {
+   "yer": "Erigavo",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 10.616,
+   "lon": 47.368
+  },
+  {
+   "yer": "Hafun",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 10.437,
+   "lon": 51.259
+  },
+  {
+   "yer": "Hargeysa",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 9.56,
+   "lon": 44.065
+  },
+  {
+   "yer": "Lasanod",
+   "gun": "1577-01-01",
+   "eski": "adal",
+   "yeni": "somali",
+   "lat": 8.477,
+   "lon": 47.361
+  },
+  {
+   "yer": "Massangano",
+   "gun": "1583-01-01",
+   "eski": "",
+   "yeni": "portekiz-angola",
+   "lat": -9.54,
+   "lon": 14.2
+  },
+  {
+   "yer": "Kaşev (Cacheu)",
+   "gun": "1588-01-01",
+   "eski": "",
+   "yeni": "portekiz",
+   "lat": 12.27,
+   "lon": -16.17
+  },
+  {
+   "yer": "Bender Enzeli",
+   "gun": "1592-01-01",
+   "eski": "gilan-kiya",
+   "yeni": "safevi",
+   "lat": 37.4728,
+   "lon": 49.4622
+  },
+  {
+   "yer": "Lâhîcan",
+   "gun": "1592-01-01",
+   "eski": "gilan-kiya",
+   "yeni": "safevi",
+   "lat": 37.2072,
+   "lon": 50.0044
+  },
+  {
+   "yer": "Reşt",
+   "gun": "1592-01-01",
+   "eski": "gilan-kiya",
+   "yeni": "safevi",
+   "lat": 37.281,
+   "lon": 49.583
+  },
+  {
+   "yer": "Cenne (Djenné)",
+   "gun": "1596-01-01",
+   "eski": "",
+   "yeni": "fas",
+   "lat": 13.906,
+   "lon": -4.555
+  },
+  {
+   "yer": "Aravan",
+   "gun": "1600-01-01",
+   "eski": "",
+   "yeni": "berabis",
+   "lat": 18.9,
+   "lon": -3.53
+  },
+  {
+   "yer": "İbo (Kerimba)",
+   "gun": "1600-01-01",
+   "eski": "",
+   "yeni": "portekiz-mozambik",
+   "lat": -12.3875,
+   "lon": 40.5607
+  },
+  {
+   "yer": "Kambambe (Cambambe)",
+   "gun": "1604-01-01",
+   "eski": "",
+   "yeni": "portekiz-angola",
+   "lat": -9.75,
+   "lon": 14.48
+  },
+  {
+   "yer": "Benguela",
+   "gun": "1617-05-17",
+   "eski": "",
+   "yeni": "portekiz-angola",
+   "lat": -12.58,
+   "lon": 13.41
+  },
+  {
+   "yer": "Kasance (Kasanje)",
+   "gun": "1620-01-01",
+   "eski": "",
+   "yeni": "kasance",
+   "lat": -9.36,
+   "lon": 18.14
+  },
+  {
+   "yer": "Halepçe",
+   "gun": "1623-11-28",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 35.1778,
+   "lon": 45.9861
+  },
+  {
+   "yer": "Kasr-ı Şîrîn",
+   "gun": "1623-11-28",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 34.515,
+   "lon": 45.5772
+  },
+  {
+   "yer": "Kifri",
+   "gun": "1623-11-28",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 34.6883,
+   "lon": 44.9639
+  },
+  {
+   "yer": "Tuz Hurmatu",
+   "gun": "1623-11-28",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 34.8828,
+   "lon": 44.6381
+  },
+  {
+   "yer": "Şehrizor",
+   "gun": "1623-11-28",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 35.56,
+   "lon": 45.43
+  },
+  {
+   "yer": "Abomey",
+   "gun": "1625-01-01",
+   "eski": "",
+   "yeni": "dahomey",
+   "lat": 7.186,
+   "lon": 1.991
+  },
+  {
+   "yer": "Antananarivo",
+   "gun": "1625-01-01",
+   "eski": "",
+   "yeni": "merina-oncesi",
+   "lat": -18.9333,
+   "lon": 47.5167
+  },
+  {
+   "yer": "Erbil",
+   "gun": "1625-01-01",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 36.1911,
+   "lon": 44.0092
+  },
+  {
+   "yer": "Gore (Gorée)",
+   "gun": "1627-01-01",
+   "eski": "portekiz",
+   "yeni": "hollanda",
+   "lat": 14.675,
+   "lon": -17.4273
+  },
+  {
+   "yer": "Abeşe (Abéché)",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 13.83,
+   "lon": 20.83
+  },
+  {
+   "yer": "Biltine",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 14.53,
+   "lon": 20.92
+  },
+  {
+   "yer": "Fada (Ennedi)",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 17.18,
+   "lon": 21.58
+  },
+  {
+   "yer": "Iriba",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 15.13,
+   "lon": 22.25
+  },
+  {
+   "yer": "Ounianga",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 19.07,
+   "lon": 20.51
+  },
+  {
+   "yer": "Vara (Wara)",
+   "gun": "1635-01-01",
+   "eski": "",
+   "yeni": "vaday",
+   "lat": 14.05,
+   "lon": 21.0
+  },
+  {
+   "yer": "Seyûn (Sayvan)",
+   "gun": "1635-10-22",
+   "eski": "",
+   "yeni": "kesiri-sultanligi",
+   "lat": 15.9433,
+   "lon": 48.7933
+  },
+  {
+   "yer": "Senendec (Sine)",
+   "gun": "1636-01-01",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 35.3111,
+   "lon": 46.9961
+  },
+  {
+   "yer": "Elmina (São Jorge da Mina)",
+   "gun": "1637-01-01",
+   "eski": "portekiz",
+   "yeni": "hollanda",
+   "lat": 5.085,
+   "lon": -1.349
+  },
+  {
+   "yer": "Halepçe",
+   "gun": "1638-12-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 35.1778,
+   "lon": 45.9861
+  },
+  {
+   "yer": "Kifri",
+   "gun": "1638-12-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.6883,
+   "lon": 44.9639
+  },
+  {
+   "yer": "Tuz Hurmatu",
+   "gun": "1638-12-24",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.8828,
+   "lon": 44.6381
+  },
+  {
+   "yer": "Butilimit",
+   "gun": "1640-01-01",
+   "eski": "",
+   "yeni": "moritanya-emirlikleri",
+   "lat": 17.55,
+   "lon": -14.7
+  },
+  {
+   "yer": "Kiffa",
+   "gun": "1640-01-01",
+   "eski": "",
+   "yeni": "moritanya-emirlikleri",
+   "lat": 16.62,
+   "lon": -11.4
+  },
+  {
+   "yer": "Nema (Néma)",
+   "gun": "1640-01-01",
+   "eski": "",
+   "yeni": "moritanya-emirlikleri",
+   "lat": 16.62,
+   "lon": -7.26
+  },
+  {
+   "yer": "Râşid (Tagant)",
+   "gun": "1640-01-01",
+   "eski": "",
+   "yeni": "moritanya-emirlikleri",
+   "lat": 18.83,
+   "lon": -11.6
+  },
+  {
+   "yer": "Tişît (Tichitt)",
+   "gun": "1640-01-01",
+   "eski": "",
+   "yeni": "moritanya-emirlikleri",
+   "lat": 18.45,
+   "lon": -9.51
+  },
+  {
+   "yer": "São Tomé",
+   "gun": "1641-01-01",
+   "eski": "portekiz",
+   "yeni": "hollanda",
+   "lat": 0.3365,
+   "lon": 6.7273
+  },
+  {
+   "yer": "Tolanaro (Fort Dauphin)",
+   "gun": "1643-01-01",
+   "eski": "",
+   "yeni": "fransa",
+   "lat": -25.03,
+   "lon": 46.99
+  },
+  {
+   "yer": "São Tomé",
+   "gun": "1648-01-01",
+   "eski": "hollanda",
+   "yeni": "portekiz",
+   "lat": 0.3365,
+   "lon": 6.7273
+  },
+  {
+   "yer": "Akra (Accra)",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": 5.55,
+   "lon": -0.2
+  },
+  {
+   "yer": "Bamako",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 12.65,
+   "lon": -8.0
+  },
+  {
+   "yer": "Kangaba",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 11.94,
+   "lon": -8.42
+  },
+  {
+   "yer": "Kankan",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bate",
+   "lat": 10.39,
+   "lon": -9.31
+  },
+  {
+   "yer": "Kayes",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 14.45,
+   "lon": -11.44
+  },
+  {
+   "yer": "Mopti",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 14.49,
+   "lon": -4.19
+  },
+  {
+   "yer": "Nioro (Kaarta)",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 15.23,
+   "lon": -9.59
+  },
+  {
+   "yer": "Sikasso (Kenedugu)",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "kenedugu",
+   "lat": 11.32,
+   "lon": -5.67
+  },
+  {
+   "yer": "Tjate (Pedi)",
+   "gun": "1650-01-01",
+   "eski": "",
+   "yeni": "pedi",
+   "lat": -24.7,
+   "lon": 30.05
+  },
+  {
+   "yer": "Kap (Cape Town)",
+   "gun": "1652-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": -33.925,
+   "lon": 18.424
+  },
+  {
+   "yer": "Cape Coast",
+   "gun": "1653-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": 5.11,
+   "lon": -1.25
+  },
+  {
+   "yer": "Agadir",
+   "gun": "1659-01-01",
+   "eski": "sadi",
+   "yeni": "fas",
+   "lat": 30.428,
+   "lon": -9.598
+  },
+  {
+   "yer": "Arzila (Asilah)",
+   "gun": "1659-01-01",
+   "eski": "sadi",
+   "yeni": "fas",
+   "lat": 35.466,
+   "lon": -6.036
+  },
+  {
+   "yer": "Azemmûr",
+   "gun": "1659-01-01",
+   "eski": "sadi",
+   "yeni": "fas",
+   "lat": 33.289,
+   "lon": -8.342
+  },
+  {
+   "yer": "Jamestown (Saint Helena)",
+   "gun": "1659-01-01",
+   "eski": "__BOSLUK__",
+   "yeni": "ingiltere",
+   "lat": -15.9244,
+   "lon": -5.7181
+  },
+  {
+   "yer": "Rabat",
+   "gun": "1659-01-01",
+   "eski": "sadi",
+   "yeni": "fas",
+   "lat": 34.021,
+   "lon": -6.841
+  },
+  {
+   "yer": "Safi (Asfi)",
+   "gun": "1659-01-01",
+   "eski": "sadi",
+   "yeni": "fas",
+   "lat": 32.299,
+   "lon": -9.237
+  },
+  {
+   "yer": "Saint-Louis (Ndar)",
+   "gun": "1659-01-01",
+   "eski": "",
+   "yeni": "fransa",
+   "lat": 16.03,
+   "lon": -16.51
+  },
+  {
+   "yer": "Seyûn (Sayvan)",
+   "gun": "1659-01-01",
+   "eski": "kesiri-sultanligi",
+   "yeni": "yemen-zeydi",
+   "lat": 15.9433,
+   "lon": 48.7933
+  },
+  {
+   "yer": "Cape Coast",
+   "gun": "1664-05-01",
+   "eski": "hollanda",
+   "yeni": "ingiltere",
+   "lat": 5.11,
+   "lon": -1.25
+  },
+  {
+   "yer": "Dundo",
+   "gun": "1665-01-01",
+   "eski": "",
+   "yeni": "lunda-imparatorlugu",
+   "lat": -7.37,
+   "lon": 20.83
+  },
+  {
+   "yer": "Fesi (Feshi)",
+   "gun": "1665-01-01",
+   "eski": "",
+   "yeni": "lunda-imparatorlugu",
+   "lat": -6.11,
+   "lon": 18.17
+  },
+  {
+   "yer": "Kahemba",
+   "gun": "1665-01-01",
+   "eski": "",
+   "yeni": "lunda-imparatorlugu",
+   "lat": -7.28,
+   "lon": 18.99
+  },
+  {
+   "yer": "Sandoa",
+   "gun": "1665-01-01",
+   "eski": "",
+   "yeni": "lunda-imparatorlugu",
+   "lat": -9.66,
+   "lon": 22.87
+  },
+  {
+   "yer": "Saurimo",
+   "gun": "1665-01-01",
+   "eski": "",
+   "yeni": "lunda-imparatorlugu",
+   "lat": -9.66,
+   "lon": 20.39
+  },
+  {
+   "yer": "Niani",
+   "gun": "1670-01-01",
+   "eski": "mali-imparatorlugu",
+   "yeni": "",
+   "lat": 11.383,
+   "lon": -8.667
+  },
+  {
+   "yer": "Pungo Andongo",
+   "gun": "1671-01-01",
+   "eski": "",
+   "yeni": "portekiz-angola",
+   "lat": -9.67,
+   "lon": 15.57
+  },
+  {
+   "yer": "Jamestown (Saint Helena)",
+   "gun": "1673-01-01",
+   "eski": "ingiltere",
+   "yeni": "hollanda",
+   "lat": -15.9244,
+   "lon": -5.7181
+  },
+  {
+   "yer": "Jamestown (Saint Helena)",
+   "gun": "1673-05-15",
+   "eski": "hollanda",
+   "yeni": "ingiltere",
+   "lat": -15.9244,
+   "lon": -5.7181
+  },
+  {
+   "yer": "Tolanaro (Fort Dauphin)",
+   "gun": "1674-01-01",
+   "eski": "fransa",
+   "yeni": "fransa",
+   "lat": -25.03,
+   "lon": 46.99
+  },
+  {
+   "yer": "Gore (Gorée)",
+   "gun": "1677-11-01",
+   "eski": "hollanda",
+   "yeni": "fransa",
+   "lat": 14.675,
+   "lon": -17.4273
+  },
+  {
+   "yer": "Stellenbosch",
+   "gun": "1679-11-08",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": -33.93,
+   "lon": 18.86
+  },
+  {
+   "yer": "Gitega (Burundi)",
+   "gun": "1680-01-01",
+   "eski": "",
+   "yeni": "burundi",
+   "lat": -3.43,
+   "lon": 29.92
+  },
+  {
+   "yer": "Kakonda (Caconda)",
+   "gun": "1682-01-01",
+   "eski": "",
+   "yeni": "portekiz-angola",
+   "lat": -13.73,
+   "lon": 15.07
+  },
+  {
+   "yer": "Khami",
+   "gun": "1683-01-01",
+   "eski": "torva",
+   "yeni": "torva",
+   "lat": -20.15,
+   "lon": 28.38
+  },
+  {
+   "yer": "Tanca",
+   "gun": "1684-01-01",
+   "eski": "ingiltere",
+   "yeni": "fas",
+   "lat": 35.777,
+   "lon": -5.804
+  },
+  {
+   "yer": "Modon",
+   "gun": "1686-06-01",
+   "eski": "",
+   "yeni": "venedik",
+   "lat": 36.8207,
+   "lon": 21.7075
+  },
+  {
+   "yer": "Assinie",
+   "gun": "1687-01-01",
+   "eski": "",
+   "yeni": "fransa",
+   "lat": 5.128,
+   "lon": -3.273
+  },
+  {
+   "yer": "Bissav (Bissau)",
+   "gun": "1687-01-01",
+   "eski": "",
+   "yeni": "portekiz",
+   "lat": 11.86,
+   "lon": -15.6
+  },
+  {
+   "yer": "Aroçukvu",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "aro-konfederasyonu",
+   "lat": 5.38,
+   "lon": 7.35
+  },
+  {
+   "yer": "Besalampy",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "sakalava-boina",
+   "lat": -16.75,
+   "lon": 44.48
+  },
+  {
+   "yer": "Bondugu (Gyaaman)",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "gyaaman",
+   "lat": 8.04,
+   "lon": -2.8
+  },
+  {
+   "yer": "Bulebane (Bundu)",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "bundu",
+   "lat": 14.32,
+   "lon": -12.7
+  },
+  {
+   "yer": "Buna (Bouna)",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "buna",
+   "lat": 9.27,
+   "lon": -3.0
+  },
+  {
+   "yer": "Maevatanana",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "sakalava-boina",
+   "lat": -16.95,
+   "lon": 46.83
+  },
+  {
+   "yer": "Mahacanga (Majunga)",
+   "gun": "1690-01-01",
+   "eski": "",
+   "yeni": "sakalava-boina",
+   "lat": -15.717,
+   "lon": 46.3199
+  },
+  {
+   "yer": "Büyük Zimbabve",
+   "gun": "1695-01-01",
+   "eski": "mutapa",
+   "yeni": "rozvi",
+   "lat": -20.267,
+   "lon": 30.933
+  },
+  {
+   "yer": "Kilindoni (Mafia Adası)",
+   "gun": "1698-12-13",
+   "eski": "portekiz",
+   "yeni": "umman-zengibar",
+   "lat": -7.9167,
+   "lon": 39.6667
+  },
+  {
+   "yer": "Lindi",
+   "gun": "1698-12-13",
+   "eski": "svahili-sehirleri",
+   "yeni": "umman-zengibar",
+   "lat": -10.0,
+   "lon": 39.72
+  },
+  {
+   "yer": "Mikindani",
+   "gun": "1698-12-13",
+   "eski": "svahili-sehirleri",
+   "yeni": "umman-zengibar",
+   "lat": -10.28,
+   "lon": 40.12
+  },
+  {
+   "yer": "Pangani",
+   "gun": "1698-12-13",
+   "eski": "svahili-sehirleri",
+   "yeni": "umman-zengibar",
+   "lat": -5.4296,
+   "lon": 38.9781
+  },
+  {
+   "yer": "Çake Çake (Pemba)",
+   "gun": "1698-12-13",
+   "eski": "portekiz",
+   "yeni": "umman-zengibar",
+   "lat": -5.2442,
+   "lon": 39.7663
+  },
+  {
+   "yer": "Bailundo",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -12.19,
+   "lon": 15.83
+  },
+  {
+   "yer": "Cenne (Djenné)",
+   "gun": "1700-01-01",
+   "eski": "fas",
+   "yeni": "",
+   "lat": 13.906,
+   "lon": -4.555
+  },
+  {
+   "yer": "Dzata (Venda)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "venda",
+   "lat": -22.96,
+   "lon": 30.15
+  },
+  {
+   "yer": "Ganzi (Ghanzi)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -21.7,
+   "lon": 21.65
+  },
+  {
+   "yer": "Gao",
+   "gun": "1700-01-01",
+   "eski": "fas",
+   "yeni": "",
+   "lat": 16.272,
+   "lon": -0.04
+  },
+  {
+   "yer": "Hartum",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "funj",
+   "lat": 15.5,
+   "lon": 32.559
+  },
+  {
+   "yer": "Huambo (Wambu)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -12.78,
+   "lon": 15.74
+  },
+  {
+   "yer": "Kang",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -23.67,
+   "lon": 22.8
+  },
+  {
+   "yer": "Kangamba",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -13.7,
+   "lon": 19.87
+  },
+  {
+   "yer": "Kanye (Ngvaketse)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -24.98,
+   "lon": 25.34
+  },
+  {
+   "yer": "Kasama (Bemba)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "bemba",
+   "lat": -10.21,
+   "lon": 31.18
+  },
+  {
+   "yer": "Kazombo",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -11.9,
+   "lon": 22.92
+  },
+  {
+   "yer": "Kuangar",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -17.58,
+   "lon": 18.61
+  },
+  {
+   "yer": "Kuito (Bié)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -12.38,
+   "lon": 16.94
+  },
+  {
+   "yer": "Kuito Kuanavale",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -15.17,
+   "lon": 19.17
+  },
+  {
+   "yer": "Kuruman",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -27.45,
+   "lon": 23.43
+  },
+  {
+   "yer": "Lubango",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -14.92,
+   "lon": 13.49
+  },
+  {
+   "yer": "Luena (Moxico)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -11.78,
+   "lon": 19.92
+  },
+  {
+   "yer": "Luis Trichardt",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "venda",
+   "lat": -23.05,
+   "lon": 29.9
+  },
+  {
+   "yer": "Malanje",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -9.54,
+   "lon": 16.34
+  },
+  {
+   "yer": "Maun (Tavana)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -19.99,
+   "lon": 23.42
+  },
+  {
+   "yer": "Mavinga",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -15.83,
+   "lon": 20.36
+  },
+  {
+   "yer": "Menongue",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "ovimbundu",
+   "lat": -14.66,
+   "lon": 17.69
+  },
+  {
+   "yer": "Molepolole (Kvena)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -24.41,
+   "lon": 25.5
+  },
+  {
+   "yer": "Moçudi (Kgatla)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -24.42,
+   "lon": 26.15
+  },
+  {
+   "yer": "Mpika",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "bemba",
+   "lat": -11.83,
+   "lon": 31.45
+  },
+  {
+   "yer": "Ndola",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "bemba",
+   "lat": -12.97,
+   "lon": 28.64
+  },
+  {
+   "yer": "Palapye",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -22.55,
+   "lon": 27.13
+  },
+  {
+   "yer": "Serence (Serenje)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "bemba",
+   "lat": -13.24,
+   "lon": 30.24
+  },
+  {
+   "yer": "Serove (Serowe)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -22.39,
+   "lon": 26.71
+  },
+  {
+   "yer": "Seyûn (Sayvan)",
+   "gun": "1700-01-01",
+   "eski": "yemen-zeydi",
+   "yeni": "kesiri-sultanligi",
+   "lat": 15.9433,
+   "lon": 48.7933
+  },
+  {
+   "yer": "Solwezi",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "bemba",
+   "lat": -12.17,
+   "lon": 26.38
+  },
+  {
+   "yer": "Toteng",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -20.35,
+   "lon": 22.97
+  },
+  {
+   "yer": "Tsabong",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -26.02,
+   "lon": 22.4
+  },
+  {
+   "yer": "Tshane",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -24.02,
+   "lon": 21.87
+  },
+  {
+   "yer": "Şoşong (Shoshong)",
+   "gun": "1700-01-01",
+   "eski": "",
+   "yeni": "tsvana",
+   "lat": -23.03,
+   "lon": 26.5
+  },
+  {
+   "yer": "Akra (Accra)",
+   "gun": "1701-01-01",
+   "eski": "hollanda",
+   "yeni": "asanti",
+   "lat": 5.55,
+   "lon": -0.2
+  },
+  {
+   "yer": "Kumasi",
+   "gun": "1701-01-01",
+   "eski": "",
+   "yeni": "asanti",
+   "lat": 6.689,
+   "lon": -1.624
+  },
+  {
+   "yer": "Kong",
+   "gun": "1710-01-01",
+   "eski": "",
+   "yeni": "kong-vattara",
+   "lat": 9.15,
+   "lon": -4.61
+  },
+  {
+   "yer": "Maroantsetra",
+   "gun": "1712-01-01",
+   "eski": "",
+   "yeni": "betsimisaraka",
+   "lat": -15.43,
+   "lon": 49.74
+  },
+  {
+   "yer": "Sambava",
+   "gun": "1712-01-01",
+   "eski": "",
+   "yeni": "betsimisaraka",
+   "lat": -14.27,
+   "lon": 50.17
+  },
+  {
+   "yer": "Segu (Ségou)",
+   "gun": "1712-01-01",
+   "eski": "",
+   "yeni": "bambara",
+   "lat": 13.432,
+   "lon": -6.216
+  },
+  {
+   "yer": "Toamasina (Tamatave)",
+   "gun": "1712-01-01",
+   "eski": "__BOSLUK__",
+   "yeni": "betsimisaraka",
+   "lat": -18.15,
+   "lon": 49.4
+  },
+  {
+   "yer": "Kuveyt",
+   "gun": "1716-01-01",
+   "eski": "",
+   "yeni": "benihalid",
+   "lat": 29.376,
+   "lon": 47.977
+  },
+  {
+   "yer": "Çuha Adası (Kythira)",
+   "gun": "1718-07-21",
+   "eski": "",
+   "yeni": "venedik",
+   "lat": 36.24,
+   "lon": 22.99
+  },
+  {
+   "yer": "Falaba",
+   "gun": "1720-01-01",
+   "eski": "",
+   "yeni": "solima-yalunka",
+   "lat": 9.85,
+   "lon": -11.3
+  },
+  {
+   "yer": "Zumbo",
+   "gun": "1720-01-01",
+   "eski": "",
+   "yeni": "portekiz-mozambik",
+   "lat": -15.61,
+   "lon": 30.45
+  },
+  {
+   "yer": "Kasr-ı Şîrîn",
+   "gun": "1723-10-01",
+   "eski": "safevi",
+   "yeni": "",
+   "lat": 34.515,
+   "lon": 45.5772
+  },
+  {
+   "yer": "Lahic (el-Havta)",
+   "gun": "1729-01-01",
+   "eski": "yemen",
+   "yeni": "lahic-sultanligi",
+   "lat": 13.05,
+   "lon": 44.883
+  },
+  {
+   "yer": "Goure",
+   "gun": "1731-01-01",
+   "eski": "",
+   "yeni": "damagaram",
+   "lat": 13.98,
+   "lon": 10.27
+  },
+  {
+   "yer": "Buşehr",
+   "gun": "1734-01-01",
+   "eski": "",
+   "yeni": "safevi",
+   "lat": 28.9684,
+   "lon": 50.8385
+  },
+  {
+   "yer": "Mvansabombve (Kazembe)",
+   "gun": "1740-01-01",
+   "eski": "",
+   "yeni": "kazembe",
+   "lat": -9.85,
+   "lon": 28.75
+  },
+  {
+   "yer": "Buraydâ (Kasîm)",
+   "gun": "1744-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 26.3594,
+   "lon": 43.9814
+  },
+  {
+   "yer": "Matamba",
+   "gun": "1744-01-01",
+   "eski": "matamba",
+   "yeni": "portekiz-angola",
+   "lat": -9.3,
+   "lon": 16.0
+  },
+  {
+   "yer": "Necid içi",
+   "gun": "1744-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 25.5,
+   "lon": 44.5
+  },
+  {
+   "yer": "Riyad",
+   "gun": "1744-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 24.713,
+   "lon": 46.675
+  },
+  {
+   "yer": "Uneyze",
+   "gun": "1744-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 26.0878,
+   "lon": 43.9939
+  },
+  {
+   "yer": "Şakrâ",
+   "gun": "1744-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 25.2394,
+   "lon": 45.2531
+  },
+  {
+   "yer": "Svellendam",
+   "gun": "1745-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": -34.02,
+   "lon": 20.44
+  },
+  {
+   "yer": "Tiberya (Tabariyye / Tiberias)",
+   "gun": "1746-01-01",
+   "eski": "",
+   "yeni": "zahir-el-omer-seyhligi",
+   "lat": 32.792,
+   "lon": 35.531
+  },
+  {
+   "yer": "Labe",
+   "gun": "1747-01-01",
+   "eski": "",
+   "yeni": "futa-callon",
+   "lat": 11.32,
+   "lon": -12.28
+  },
+  {
+   "yer": "Timbo",
+   "gun": "1747-01-01",
+   "eski": "",
+   "yeni": "futa-callon",
+   "lat": 10.65,
+   "lon": -11.85
+  },
+  {
+   "yer": "Bangassu",
+   "gun": "1750-01-01",
+   "eski": "",
+   "yeni": "zende",
+   "lat": 4.74,
+   "lon": 22.82
+  },
+  {
+   "yer": "Obo",
+   "gun": "1750-01-01",
+   "eski": "",
+   "yeni": "zende",
+   "lat": 5.4,
+   "lon": 26.49
+  },
+  {
+   "yer": "Rafai",
+   "gun": "1750-01-01",
+   "eski": "",
+   "yeni": "zende",
+   "lat": 4.95,
+   "lon": 23.92
+  },
+  {
+   "yer": "Timbuktu",
+   "gun": "1750-01-01",
+   "eski": "fas",
+   "yeni": "arma",
+   "lat": 16.775,
+   "lon": -3.009
+  },
+  {
+   "yer": "Zemio",
+   "gun": "1750-01-01",
+   "eski": "",
+   "yeni": "zende",
+   "lat": 5.03,
+   "lon": 25.14
+  },
+  {
+   "yer": "Timbuktu",
+   "gun": "1760-01-01",
+   "eski": "arma",
+   "yeni": "tuareg-ivellemmedan",
+   "lat": 16.775,
+   "lon": -3.009
+  },
+  {
+   "yer": "Kunfüze (el-Kunfüze)",
+   "gun": "1763-01-01",
+   "eski": "",
+   "yeni": "__BOSLUK__",
+   "lat": 19.128,
+   "lon": 41.079
+  },
+  {
+   "yer": "Mazagan (El Jadida)",
+   "gun": "1769-01-01",
+   "eski": "portekiz",
+   "yeni": "fas",
+   "lat": 33.256,
+   "lon": -8.506
+  },
+  {
+   "yer": "Timbuktu",
+   "gun": "1770-01-01",
+   "eski": "tuareg-ivellemmedan",
+   "yeni": "bambara",
+   "lat": 16.775,
+   "lon": -3.009
+  },
+  {
+   "yer": "Kaedi",
+   "gun": "1776-01-01",
+   "eski": "",
+   "yeni": "futa-toro",
+   "lat": 16.15,
+   "lon": -13.5
+  },
+  {
+   "yer": "Podor",
+   "gun": "1776-01-01",
+   "eski": "",
+   "yeni": "futa-toro",
+   "lat": 16.65,
+   "lon": -14.96
+  },
+  {
+   "yer": "Malabo (Santa Isabel)",
+   "gun": "1778-03-11",
+   "eski": "portekiz",
+   "yeni": "ispanya",
+   "lat": 3.75,
+   "lon": 8.783
+  },
+  {
+   "yer": "Nefud çölü",
+   "gun": "1779-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 28.3,
+   "lon": 41.0
+  },
+  {
+   "yer": "Lourenço Marques",
+   "gun": "1781-01-01",
+   "eski": "",
+   "yeni": "portekiz-mozambik",
+   "lat": -25.9693,
+   "lon": 32.58
+  },
+  {
+   "yer": "Nühûd",
+   "gun": "1785-01-01",
+   "eski": "funj",
+   "yeni": "darfur",
+   "lat": 12.7,
+   "lon": 28.433
+  },
+  {
+   "yer": "Graaff-Reinet",
+   "gun": "1786-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": -32.25,
+   "lon": 24.53
+  },
+  {
+   "yer": "Ambohimanga",
+   "gun": "1787-01-01",
+   "eski": "merina-oncesi",
+   "yeni": "merina",
+   "lat": -18.76,
+   "lon": 47.56
+  },
+  {
+   "yer": "Antananarivo",
+   "gun": "1787-01-01",
+   "eski": "merina-oncesi",
+   "yeni": "merina",
+   "lat": -18.9333,
+   "lon": 47.5167
+  },
+  {
+   "yer": "Tsiroanomandidy",
+   "gun": "1787-01-01",
+   "eski": "merina-oncesi",
+   "yeni": "merina",
+   "lat": -18.77,
+   "lon": 46.05
+  },
+  {
+   "yer": "Dilem (Harc)",
+   "gun": "1792-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 23.991,
+   "lon": 47.162
+  },
+  {
+   "yer": "El-Fâşir",
+   "gun": "1792-01-01",
+   "eski": "",
+   "yeni": "darfur",
+   "lat": 13.63,
+   "lon": 25.349
+  },
+  {
+   "yer": "Timbuktu",
+   "gun": "1792-01-01",
+   "eski": "bambara",
+   "yeni": "tuareg-ivellemmedan",
+   "lat": 16.775,
+   "lon": -3.009
+  },
+  {
+   "yer": "Freetown",
+   "gun": "1792-03-11",
+   "eski": "",
+   "yeni": "ingiltere",
+   "lat": 8.48,
+   "lon": -13.23
+  },
+  {
+   "yer": "Mersa'l-Kebîr",
+   "gun": "1792-09-12",
+   "eski": "ispanya",
+   "yeni": "",
+   "lat": 35.728,
+   "lon": -0.709
+  },
+  {
+   "yer": "Oran",
+   "gun": "1792-09-12",
+   "eski": "ispanya",
+   "yeni": "",
+   "lat": 35.699,
+   "lon": -0.634
+  },
+  {
+   "yer": "Valvis Körfezi",
+   "gun": "1793-01-01",
+   "eski": "",
+   "yeni": "hollanda",
+   "lat": -22.96,
+   "lon": 14.51
+  },
+  {
+   "yer": "Havta (Havtat Benî Temîm)",
+   "gun": "1795-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 23.496,
+   "lon": 46.878
+  },
+  {
+   "yer": "Leylâ (Eflâc)",
+   "gun": "1795-01-01",
+   "eski": "",
+   "yeni": "suud-birinci",
+   "lat": 22.292,
+   "lon": 46.724
+  },
+  {
+   "yer": "Cübeyl",
+   "gun": "1795-04-01",
+   "eski": "benihalid",
+   "yeni": "suud-birinci",
+   "lat": 26.9979,
+   "lon": 49.6406
+  },
+  {
+   "yer": "Katar Yarımadası (iç, dolgu)",
+   "gun": "1795-04-01",
+   "eski": "benihalid",
+   "yeni": "",
+   "lat": 25.4,
+   "lon": 50.95
+  },
+  {
+   "yer": "Katîf",
+   "gun": "1795-04-01",
+   "eski": "benihalid",
+   "yeni": "suud-birinci",
+   "lat": 26.557,
+   "lon": 49.9873
+  },
+  {
+   "yer": "Ukayr (Uceyr)",
+   "gun": "1795-04-01",
+   "eski": "benihalid",
+   "yeni": "suud-birinci",
+   "lat": 25.65,
+   "lon": 50.2131
+  }
+ ]
+}

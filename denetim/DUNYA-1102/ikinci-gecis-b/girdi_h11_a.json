@@ -1,0 +1,482 @@
+[
+ {
+  "t": "1503-01-01",
+  "b": "Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
+  "birimler": [
+   {
+    "yer": "Bem",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 29.1061,
+    "lon": 58.3572
+   },
+   {
+    "yer": "Bempûr",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 27.1975,
+    "lon": 60.4586
+   },
+   {
+    "yer": "Bender Lengeh",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 26.5578,
+    "lon": 54.8811
+   },
+   {
+    "yer": "Bender Rîg",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 29.4975,
+    "lon": 50.6451
+   },
+   {
+    "yer": "Bistâm",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.4831,
+    "lon": 55.01
+   },
+   {
+    "yer": "Cehrom",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.5,
+    "lon": 53.56
+   },
+   {
+    "yer": "Câsk",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 25.645,
+    "lon": 57.7742
+   },
+   {
+    "yer": "Cîruft",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.675,
+    "lon": 57.7372
+   },
+   {
+    "yer": "Dâmgan",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.1683,
+    "lon": 54.3481
+   },
+   {
+    "yer": "Dârâb",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.7519,
+    "lon": 54.5444
+   },
+   {
+    "yer": "Ebrekûh",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 31.1281,
+    "lon": 53.2814
+   },
+   {
+    "yer": "Erdekân",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 32.31,
+    "lon": 54.0169
+   },
+   {
+    "yer": "Erdistan",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 33.3769,
+    "lon": 52.3697
+   },
+   {
+    "yer": "Fesâ",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.9383,
+    "lon": 53.6483
+   },
+   {
+    "yer": "Firûzâbâd",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.8438,
+    "lon": 52.5713
+   },
+   {
+    "yer": "Gulpâygân",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 33.455,
+    "lon": 50.2881
+   },
+   {
+    "yer": "Hâş",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 28.2211,
+    "lon": 61.2158
+   },
+   {
+    "yer": "Kasr-ı Şîrîn",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 34.515,
+    "lon": 45.5772
+   },
+   {
+    "yer": "Kazvin",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.269,
+    "lon": 50.004
+   },
+   {
+    "yer": "Kum",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 34.64,
+    "lon": 50.876
+   },
+   {
+    "yer": "Kâzerûn",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 29.6186,
+    "lon": 51.6542
+   },
+   {
+    "yer": "Lâr",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 27.6811,
+    "lon": 54.3175
+   },
+   {
+    "yer": "Mînâb",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 27.1467,
+    "lon": 57.08
+   },
+   {
+    "yer": "Nâin",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 32.8597,
+    "lon": 53.085
+   },
+   {
+    "yer": "Rafsencân",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 30.4078,
+    "lon": 55.9944
+   },
+   {
+    "yer": "Simnân",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 35.5769,
+    "lon": 53.3972
+   },
+   {
+    "yer": "Sircân",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 29.45,
+    "lon": 55.68
+   },
+   {
+    "yer": "Sâve",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 35.0213,
+    "lon": 50.3566
+   },
+   {
+    "yer": "Tahran",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 35.69,
+    "lon": 51.39
+   },
+   {
+    "yer": "Zagros içi",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 31.5,
+    "lon": 50.5
+   },
+   {
+    "yer": "Zencan",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.673,
+    "lon": 48.478
+   },
+   {
+    "yer": "Çâhbahâr",
+    "gun": "1503-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 25.2919,
+    "lon": 60.6431
+   }
+  ]
+ },
+ {
+  "t": "1517-04-13",
+  "b": "Tomanbay'ın Bâbüzüveyle'de idamı ve Memlük Devleti'nin sonu",
+  "birimler": [
+   {
+    "yer": "Akīk",
+    "gun": "1517-04-13",
+    "eski": "memluk",
+    "yeni": "habesistan",
+    "lat": 18.23,
+    "lon": 38.2
+   },
+   {
+    "yer": "Halâib",
+    "gun": "1517-04-13",
+    "eski": "memluk",
+    "yeni": "habesistan",
+    "lat": 22.219,
+    "lon": 36.647
+   },
+   {
+    "yer": "Sevâkin",
+    "gun": "1517-04-13",
+    "eski": "memluk",
+    "yeni": "habesistan",
+    "lat": 19.106,
+    "lon": 37.332
+   },
+   {
+    "yer": "Sinkat",
+    "gun": "1517-04-13",
+    "eski": "memluk",
+    "yeni": "habesistan",
+    "lat": 18.833,
+    "lon": 36.833
+   },
+   {
+    "yer": "Tokar",
+    "gun": "1517-04-13",
+    "eski": "memluk",
+    "yeni": "habesistan",
+    "lat": 18.427,
+    "lon": 37.729
+   }
+  ]
+ },
+ {
+  "t": "1796-01-01",
+  "b": "Kaçar hânedanının İran'a hâkim oluşu",
+  "birimler": [
+   {
+    "yer": "Meşhed",
+    "gun": "1796-01-01",
+    "eski": "afsar",
+    "yeni": "kacar",
+    "lat": 36.297,
+    "lon": 59.606
+   },
+   {
+    "yer": "Nîşâbur",
+    "gun": "1796-01-01",
+    "eski": "afsar",
+    "yeni": "kacar",
+    "lat": 36.2133,
+    "lon": 58.7958
+   },
+   {
+    "yer": "Sebzevâr",
+    "gun": "1796-01-01",
+    "eski": "afsar",
+    "yeni": "kacar",
+    "lat": 36.2133,
+    "lon": 57.6792
+   },
+   {
+    "yer": "Tûs",
+    "gun": "1796-01-01",
+    "eski": "afsar",
+    "yeni": "kacar",
+    "lat": 36.4869,
+    "lon": 59.5222
+   }
+  ]
+ },
+ {
+  "t": "1723-09-23",
+  "b": "Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı",
+  "birimler": [
+   {
+    "yer": "Mahmudâbâd",
+    "gun": "1723-09-23",
+    "eski": "safevi",
+    "yeni": "rusya",
+    "lat": 39.38,
+    "lon": 49.24
+   },
+   {
+    "yer": "Salyan",
+    "gun": "1723-09-23",
+    "eski": "safevi",
+    "yeni": "rusya",
+    "lat": 39.5958,
+    "lon": 48.98
+   }
+  ]
+ },
+ {
+  "t": "1509-01-01",
+  "b": "Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı",
+  "birimler": [
+   {
+    "yer": "Belh",
+    "gun": "1509-01-01",
+    "eski": "buhara",
+    "yeni": "safevi",
+    "lat": 36.758,
+    "lon": 66.897
+   }
+  ]
+ },
+ {
+  "t": "1516-10-10",
+  "b": "Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
+  "birimler": [
+   {
+    "yer": "Deyrülkamer (Dayr al-Kamer)",
+    "gun": "1516-10-01",
+    "eski": "memluk",
+    "yeni": "",
+    "lat": 33.6989,
+    "lon": 35.5619
+   }
+  ]
+ },
+ {
+  "t": "1556-01-01",
+  "b": "Moskova Çarlığı Astarhan'ı aldı — Aşağı Volga Rus denetimine girdi",
+  "birimler": [
+   {
+    "yer": "Petrovsk (Saratov)",
+    "gun": "1556-01-01",
+    "eski": "astarhan",
+    "yeni": "rusya",
+    "lat": 52.3167,
+    "lon": 45.3833
+   }
+  ]
+ },
+ {
+  "t": "1601-01-01",
+  "b": "Ekber Şah Asîrgarh'ı aldı, Handeş Bâbürlü eyaleti oldu ve Fârûkîler sona erdi",
+  "birimler": [
+   {
+    "yer": "Burhânpûr",
+    "gun": "1601-01-01",
+    "eski": "farukiler",
+    "yeni": "babur-imparatorlugu",
+    "lat": 21.3,
+    "lon": 76.23
+   }
+  ]
+ },
+ {
+  "t": "1635-01-01",
+  "b": "Yemen'in kaybı — Kāsımî imamlarının hâkimiyeti",
+  "birimler": [
+   {
+    "yer": "Lahic (el-Havta)",
+    "gun": "1635-01-01",
+    "eski": "",
+    "yeni": "yemen",
+    "lat": 13.05,
+    "lon": 44.883
+   }
+  ]
+ },
+ {
+  "t": "1720-09-24",
+  "b": "Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing himayesi başladı",
+  "birimler": [
+   {
+    "yer": "Sakya Manastırı (Sakya)",
+    "gun": "1720-09-24",
+    "eski": "tibet-ganden-phodrang",
+    "yeni": "qing-hanedani",
+    "lat": 28.905,
+    "lon": 88.018
+   }
+  ]
+ },
+ {
+  "t": "1741-01-01",
+  "b": "Bâbürlü İmparatorluğu Dholka'yi Maratha'dan devraldı — Dholka",
+  "birimler": [
+   {
+    "yer": "Ratanpur",
+    "gun": "1741-01-01",
+    "eski": "kalacuri-ratnapura",
+    "yeni": "maratha",
+    "lat": 22.29,
+    "lon": 82.17
+   }
+  ]
+ },
+ {
+  "t": "1754-01-01",
+  "b": "Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması",
+  "birimler": [
+   {
+    "yer": "Zlatoust",
+    "gun": "1754-01-01",
+    "eski": "",
+    "yeni": "rusya",
+    "lat": 55.17,
+    "lon": 59.67
+   }
+  ]
+ }
+]

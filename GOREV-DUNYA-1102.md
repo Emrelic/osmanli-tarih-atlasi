@@ -286,6 +286,19 @@ G — Renk ve bölge (senin işin değil)
    `eski` sahip (Fizan, Dârfûr) · Komorlar __BOSLUK__ eski sahip. Ayrıntı `dokum_h18.md`.
    **(b) ilk tur toplamı (hücre 6+12+18, 1800–2000):** 359 madde tarandı · 249 maddeye yer cümlesi · 3 yeni madde ·
    2sk yalnız-taraf görünür+maskeli 6 081 → 5 253 (−828); YER anılarak kapanan 6 365 → 7 010. Sırada: aynı kıtaların 1500–1800 hücreleri (5, 11, 17), sonra Amerika.
+   **(b) 1500–1800 hücreleri 5 / 11 / 17** (6–7 Kasım, KASA CUMA, `arac/d_envanter.py` + 5 Sonnet ajan): envanter hücre 5 Avrupa
+   865 yer · 343 yalnız taraf (59 madde) · 170 madde yok; hücre 11 Asya 707 · 636 · 542 (56 madde, 30'u hücre 5'te işlenmişti → 26 madde, 101 birim);
+   hücre 17 Afrika 465 · 217 · 277 (35 madde, 25'i önceden işlenmiş → 10 madde, 22 birim). Sonuç: **teyit 40 · çelişki 16 · okunmadı ~400**.
+   Okunmadı'nın sebebi: DergiPark/İSAM/TTK/YÖK tam metinlerine ajan aracıyla inilemedi; genel arama yalnız Vikipedi/Britannica getirdi
+   (hepsi yasak). Tek kaynak TDV; çift teyit YOK. Uygulanan: hücre 5'te 7 madde (Erzurum 1502/1518, Bukovina 1775, Kırım 1783, Nâdir Şah 1747,
+   Polonya II. Paylaşım 1793, Korsika 1768), hücre 11'de 4 madde (Meşhed 1796, Petersburg 1723 Salyan, Yemen 1635 Lahic, İstanbul Mukāsemenâmesi 1724
+   Şâbüran); hücre 17'de 0. Kaynaksız "yanlış madde" etiketleri (Savoya, Fransa) YAZILMADI; madde-yer uyumsuz Belh (Derbend maddesi) YAZILMADI.
+   Her uygulanan madde 7 dile (en ar es fr ru pt de) çevirildi, çeviri tavanı aşılmadı. Kapanan: 2sk YER 7160 → 7184, YALNIZ TARAF 4889 → 4865 (yalnız hücre 5).
+   **Çelişkiler (uygulanmadı, `sonuc_h5_*.json` / `sonuc_h11_*.json` / `sonuc_h17.json`):** Revan 1735-06 (TDV) ↔ atlas 1736-03-08 · Hasankeyf 1507 Akkoyunlu→Safevî
+   yok (Kurdiname 5, 2021) · Niş 1688 ↔ 1689 · Tebriz Şah İsmâil 1502 ↔ atlas 1501-07-01 · Hisar 1504-05 ↔ 1500 · Sevâkin 1517 yeni sahip habesistan değil
+   Osmanlı Habeş Eyaleti 1555 · Kap 1795-09 (Theal) ↔ 1795-01-01 · Mültan 1526 (TDV) ↔ 1527 · Bağdat 28 Kasım 1623 (TDV) ↔ atlas 1624.
+   **Sonraki tur için kaynak önerisi:** Lublin Birliği 1569 (44 birim), Macaristan 1526-27 (35), Campo Formio, Mora 1686-87 ve Ming/Güney Ming (17) tam metin ister —
+   DergiPark/İSAM/JSTOR'a doğrudan erişebilen bir oturum ya da elle PDF.
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
