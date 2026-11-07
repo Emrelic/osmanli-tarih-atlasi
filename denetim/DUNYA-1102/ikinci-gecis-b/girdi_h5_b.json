@@ -1,0 +1,1544 @@
+[
+ {
+  "t": "1526-12-17",
+  "b": "I. Ferdinand Macar kralı ilân edildi — Batı ve Kuzey Macaristan Habsburg tacına",
+  "birimler": [
+   {
+    "yer": "Eisenstadt (Kismarton)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.8457,
+    "lon": 16.5233
+   },
+   {
+    "yer": "Eperjes (Prešov)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.999,
+    "lon": 21.236
+   },
+   {
+    "yer": "Eğri",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.902,
+    "lon": 20.377
+   },
+   {
+    "yer": "Fülek (Fiľakovo)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.2702,
+    "lon": 19.8223
+   },
+   {
+    "yer": "Gyula (Göle)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.65,
+    "lon": 21.277
+   },
+   {
+    "yer": "Kanije",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.454,
+    "lon": 16.989
+   },
+   {
+    "yer": "Kassa (Košice)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.714,
+    "lon": 21.258
+   },
+   {
+    "yer": "Komárom (Komárno)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.7625,
+    "lon": 18.125
+   },
+   {
+    "yer": "Lendava (Alsólendva)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.563,
+    "lon": 16.452
+   },
+   {
+    "yer": "Léva (Levice)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.2172,
+    "lon": 18.6069
+   },
+   {
+    "yer": "Munkács (Mukacheve)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.4421,
+    "lon": 22.7185
+   },
+   {
+    "yer": "Murska Sobota",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.662,
+    "lon": 16.166
+   },
+   {
+    "yer": "Nitra (Nyitra)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.3069,
+    "lon": 18.0864
+   },
+   {
+    "yer": "Somorja (Šamorín)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.0306,
+    "lon": 17.3097
+   },
+   {
+    "yer": "Sopron",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.685,
+    "lon": 16.59
+   },
+   {
+    "yer": "Szombathely (Steinamanger)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.2309,
+    "lon": 16.6216
+   },
+   {
+    "yer": "Tokaj",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.117,
+    "lon": 21.409
+   },
+   {
+    "yer": "Trencsén (Trenčín)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.8945,
+    "lon": 18.0444
+   },
+   {
+    "yer": "Ungvár (Uzhhorod)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 48.6224,
+    "lon": 22.3023
+   },
+   {
+    "yer": "Uyvar",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.986,
+    "lon": 18.162
+   },
+   {
+    "yer": "Yanıkkale (Győr)",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 47.685,
+    "lon": 17.635
+   },
+   {
+    "yer": "Zigetvar",
+    "gun": "1526-12-17",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.049,
+    "lon": 17.804
+   },
+   {
+    "yer": "Bosna Brod'u (Bosanski Brod)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.138,
+    "lon": 17.988
+   },
+   {
+    "yer": "Bosna Dubiçası (Bosanska Dubica)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.174,
+    "lon": 16.81
+   },
+   {
+    "yer": "Bosna Novi'si (Bosanski Novi)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.048,
+    "lon": 16.377
+   },
+   {
+    "yer": "Drežnik (Drežnik Grad)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 44.943,
+    "lon": 15.669
+   },
+   {
+    "yer": "Gospić",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "avusturya",
+    "lat": 44.546,
+    "lon": 15.375
+   },
+   {
+    "yer": "Jasenovaç (Jasenovac)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.281,
+    "lon": 16.917
+   },
+   {
+    "yer": "Kostayniçe (Kostajnica)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.232,
+    "lon": 16.539
+   },
+   {
+    "yer": "Krupa (Bosanska Krupa)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 44.882,
+    "lon": 16.158
+   },
+   {
+    "yer": "Peçuy",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.073,
+    "lon": 18.233
+   },
+   {
+    "yer": "Sisak",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.4658,
+    "lon": 16.3783
+   },
+   {
+    "yer": "Udbina",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 44.532,
+    "lon": 15.767
+   },
+   {
+    "yer": "Varasd (Varaždin)",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 46.3057,
+    "lon": 16.3366
+   },
+   {
+    "yer": "Zagreb",
+    "gun": "1527-01-01",
+    "eski": "macaristan",
+    "yeni": "macaristan-habsburg",
+    "lat": 45.815,
+    "lon": 15.982
+   }
+  ]
+ },
+ {
+  "t": "1783-04-19",
+  "b": "Kırım'ın Rusya'ya ilhakı",
+  "birimler": [
+   {
+    "yer": "Aluşta",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.6764,
+    "lon": 34.4103
+   },
+   {
+    "yer": "Arabat",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.297,
+    "lon": 35.461
+   },
+   {
+    "yer": "Aşağı Dinyeper bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 46.95,
+    "lon": 32.8
+   },
+   {
+    "yer": "Balaklava (Cembalo)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.5,
+    "lon": 33.5997
+   },
+   {
+    "yer": "Balta",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "",
+    "lat": 47.938,
+    "lon": 29.621
+   },
+   {
+    "yer": "Camboyluk bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 47.1,
+    "lon": 36.8
+   },
+   {
+    "yer": "Kefe",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.032,
+    "lon": 35.382
+   },
+   {
+    "yer": "Kerç",
+    "gun": "1783-04-19",
+    "eski": "rusya",
+    "yeni": "rusya",
+    "lat": 45.356,
+    "lon": 36.467
+   },
+   {
+    "yer": "Kuban (Yekaterinodar)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.035,
+    "lon": 38.975
+   },
+   {
+    "yer": "Kuban Nogay bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.2,
+    "lon": 41.0
+   },
+   {
+    "yer": "Kuban deltası bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.5,
+    "lon": 37.8
+   },
+   {
+    "yer": "Mankup",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.5942,
+    "lon": 33.8044
+   },
+   {
+    "yer": "Maykop (Çerkezya)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "",
+    "lat": 44.609,
+    "lon": 40.101
+   },
+   {
+    "yer": "Soçi (Sâşe)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "",
+    "lat": 43.585,
+    "lon": 39.723
+   },
+   {
+    "yer": "Stavropol–Kuma bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.85,
+    "lon": 42.6
+   },
+   {
+    "yer": "Sudak (Suğdak)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.8494,
+    "lon": 34.9747
+   },
+   {
+    "yer": "Taman",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.2029,
+    "lon": 36.7172
+   },
+   {
+    "yer": "Temrük (Temryuk)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 45.2717,
+    "lon": 37.3833
+   },
+   {
+    "yer": "Tuapse",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "",
+    "lat": 44.103,
+    "lon": 39.08
+   },
+   {
+    "yer": "Yalta",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.4952,
+    "lon": 34.1663
+   },
+   {
+    "yer": "Yedisan bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "",
+    "lat": 47.6,
+    "lon": 30.9
+   },
+   {
+    "yer": "Yediçkul bozkırı",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 46.9,
+    "lon": 34.6
+   },
+   {
+    "yer": "Yenikale",
+    "gun": "1783-04-19",
+    "eski": "rusya",
+    "yeni": "rusya",
+    "lat": 45.3521,
+    "lon": 36.6004
+   },
+   {
+    "yer": "İnkirman (Kalamita)",
+    "gun": "1783-04-19",
+    "eski": "kirim",
+    "yeni": "rusya",
+    "lat": 44.6072,
+    "lon": 33.6061
+   }
+  ]
+ },
+ {
+  "t": "1774-07-21",
+  "b": "Küçük Kaynarca: Kırım Hanlığı Osmanlı'dan bağımsız sayıldı (Aluşta, Arabat, Anapa, Taman); Kerç, Yenikale, Kılburun Rusya'ya",
+  "birimler": [
+   {
+    "yer": "Balaklava (Cembalo)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.5,
+    "lon": 33.5997
+   },
+   {
+    "yer": "Balta",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 47.938,
+    "lon": 29.621
+   },
+   {
+    "yer": "Camboyluk bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 47.1,
+    "lon": 36.8
+   },
+   {
+    "yer": "Kabartay (Nalçik)",
+    "gun": "1774-07-21",
+    "eski": "kabartay",
+    "yeni": "rusya",
+    "lat": 43.498,
+    "lon": 43.618
+   },
+   {
+    "yer": "Kefe",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 45.032,
+    "lon": 35.382
+   },
+   {
+    "yer": "Kuban (Yekaterinodar)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 45.035,
+    "lon": 38.975
+   },
+   {
+    "yer": "Kuban Nogay bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 45.2,
+    "lon": 41.0
+   },
+   {
+    "yer": "Kuban deltası bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 45.5,
+    "lon": 37.8
+   },
+   {
+    "yer": "Kızıkermen (Gazi Kerman)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "rusya",
+    "lat": 46.84,
+    "lon": 33.42
+   },
+   {
+    "yer": "Mankup",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.5942,
+    "lon": 33.8044
+   },
+   {
+    "yer": "Maykop (Çerkezya)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.609,
+    "lon": 40.101
+   },
+   {
+    "yer": "Soçi (Sâşe)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 43.585,
+    "lon": 39.723
+   },
+   {
+    "yer": "Stavropol–Kuma bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.85,
+    "lon": 42.6
+   },
+   {
+    "yer": "Sudak (Suğdak)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.8494,
+    "lon": 34.9747
+   },
+   {
+    "yer": "Temrük (Temryuk)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 45.2717,
+    "lon": 37.3833
+   },
+   {
+    "yer": "Tuapse",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.103,
+    "lon": 39.08
+   },
+   {
+    "yer": "Yalta",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.4952,
+    "lon": 34.1663
+   },
+   {
+    "yer": "Yedisan bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 47.6,
+    "lon": 30.9
+   },
+   {
+    "yer": "Yediçkul bozkırı",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 46.9,
+    "lon": 34.6
+   },
+   {
+    "yer": "İnkirman (Kalamita)",
+    "gun": "1774-07-21",
+    "eski": "",
+    "yeni": "kirim",
+    "lat": 44.6072,
+    "lon": 33.6061
+   }
+  ]
+ },
+ {
+  "t": "1502-03-01",
+  "b": "Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi",
+  "birimler": [
+   {
+    "yer": "Aşağı Dinyeper bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 46.95,
+    "lon": 32.8
+   },
+   {
+    "yer": "Balta",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 47.938,
+    "lon": 29.621
+   },
+   {
+    "yer": "Bozkır (Deşt-i Kıpçak)",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "__BOSLUK__",
+    "lat": 48.5,
+    "lon": 42.0
+   },
+   {
+    "yer": "Camboyluk bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 47.1,
+    "lon": 36.8
+   },
+   {
+    "yer": "Don bozkırı (Sal)",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 47.0,
+    "lon": 42.3
+   },
+   {
+    "yer": "Donets bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "__BOSLUK__",
+    "lat": 48.8,
+    "lon": 39.0
+   },
+   {
+    "yer": "Kuban (Yekaterinodar)",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 45.035,
+    "lon": 38.975
+   },
+   {
+    "yer": "Kuban Nogay bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 45.2,
+    "lon": 41.0
+   },
+   {
+    "yer": "Kuban deltası bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 45.5,
+    "lon": 37.8
+   },
+   {
+    "yer": "Stavropol–Kuma bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 44.85,
+    "lon": 42.6
+   },
+   {
+    "yer": "Yedisan bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 47.6,
+    "lon": 30.9
+   },
+   {
+    "yer": "Yediçkul bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 46.9,
+    "lon": 34.6
+   },
+   {
+    "yer": "Zaporojye Seçi",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "",
+    "lat": 47.75,
+    "lon": 34.8
+   },
+   {
+    "yer": "Zaporojye bozkırı",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "__BOSLUK__",
+    "lat": 48.3,
+    "lon": 35.8
+   },
+   {
+    "yer": "Çerkask (Razdory)",
+    "gun": "1502-03-01",
+    "eski": "altinorda",
+    "yeni": "__BOSLUK__",
+    "lat": 47.24,
+    "lon": 40.05
+   }
+  ]
+ },
+ {
+  "t": "1747-06-20",
+  "b": "Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+  "birimler": [
+   {
+    "yer": "Beri",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "revan-hanligi",
+    "lat": 39.91667,
+    "lon": 44.25
+   },
+   {
+    "yer": "Eçmiyadzin",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 40.162,
+    "lon": 44.293
+   },
+   {
+    "yer": "Gümrü (Aleksandropol)",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 40.789,
+    "lon": 43.847
+   },
+   {
+    "yer": "Hoy",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "afsar",
+    "lat": 38.5503,
+    "lon": 44.9521
+   },
+   {
+    "yer": "Iğdır",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 39.92,
+    "lon": 44.045
+   },
+   {
+    "yer": "Kliçatak (Suser)",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 40.46393,
+    "lon": 43.73328
+   },
+   {
+    "yer": "Kotur",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 38.475,
+    "lon": 44.3958
+   },
+   {
+    "yer": "Mâku",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "afsar",
+    "lat": 39.2942,
+    "lon": 44.5142
+   },
+   {
+    "yer": "Norapat",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "revan-hanligi",
+    "lat": 40.14172,
+    "lon": 44.03332
+   },
+   {
+    "yer": "Revan",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "revan-hanligi",
+    "lat": 40.183,
+    "lon": 44.515
+   },
+   {
+    "yer": "Rāzhān",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 37.3833,
+    "lon": 44.8667
+   },
+   {
+    "yer": "Selmâs (Dilman)",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "afsar",
+    "lat": 38.1983,
+    "lon": 44.7654
+   },
+   {
+    "yer": "Sero",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 37.7275,
+    "lon": 44.6427
+   },
+   {
+    "yer": "Tiflis",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "kartli-kralligi",
+    "lat": 41.716,
+    "lon": 44.783
+   },
+   {
+    "yer": "Şeyh Salû-yi Ulyâ",
+    "gun": "1747-06-20",
+    "eski": "afsar",
+    "yeni": "zend",
+    "lat": 38.9926,
+    "lon": 44.2001
+   }
+  ]
+ },
+ {
+  "t": "1793-01-23",
+  "b": "Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı",
+  "birimler": [
+   {
+    "yer": "Berdiçev (Berdychiv)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 49.894,
+    "lon": 28.582
+   },
+   {
+    "yer": "Bobruysk (Babruysk)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 53.1384,
+    "lon": 29.2214
+   },
+   {
+    "yer": "Fastov (Fastiv)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 50.078,
+    "lon": 29.917
+   },
+   {
+    "yer": "Jitomir (Zhytomyr)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 50.262,
+    "lon": 28.679
+   },
+   {
+    "yer": "Kaniv (Kanev)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 49.75,
+    "lon": 31.47
+   },
+   {
+    "yer": "Kostantinov (Starokostiantyniv)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 49.755,
+    "lon": 27.212
+   },
+   {
+    "yer": "Mozır (Mazyr)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 52.0495,
+    "lon": 29.2456
+   },
+   {
+    "yer": "Uman",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 48.7484,
+    "lon": 30.2219
+   },
+   {
+    "yer": "Çerkasi (Cherkasy)",
+    "gun": "1793-01-23",
+    "eski": "lehistan",
+    "yeni": "rusya",
+    "lat": 49.444,
+    "lon": 32.06
+   }
+  ]
+ },
+ {
+  "t": "1516-01-23",
+  "b": "Alçak Ülkeler'in İspanya tacına bağlanması — Ferdinand'ın ölümü, Şarlken'in tahta çıkışı",
+  "birimler": [
+   {
+    "yer": "Arlon",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 49.683,
+    "lon": 5.817
+   },
+   {
+    "yer": "Bastogne",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 50.0,
+    "lon": 5.717
+   },
+   {
+    "yer": "Leuven",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 50.883333,
+    "lon": 4.7
+   },
+   {
+    "yer": "Neufchâteau (Belçika)",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 49.841,
+    "lon": 5.435
+   },
+   {
+    "yer": "St. Vith (Sankt Vith)",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 50.283,
+    "lon": 6.127
+   },
+   {
+    "yer": "Virton",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 49.568,
+    "lon": 5.533
+   },
+   {
+    "yer": "Wiltz",
+    "gun": "1516-01-23",
+    "eski": "habsburg-hollandasi",
+    "yeni": "ispanya",
+    "lat": 49.966,
+    "lon": 5.933
+   }
+  ]
+ },
+ {
+  "t": "1795-10-01",
+  "b": "Avusturya Hollandası'nın Fransa'ya ilhakı",
+  "birimler": [
+   {
+    "yer": "Arlon",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 49.683,
+    "lon": 5.817
+   },
+   {
+    "yer": "Bastogne",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 50.0,
+    "lon": 5.717
+   },
+   {
+    "yer": "Leuven",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 50.883333,
+    "lon": 4.7
+   },
+   {
+    "yer": "Neufchâteau (Belçika)",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 49.841,
+    "lon": 5.435
+   },
+   {
+    "yer": "Virton",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 49.568,
+    "lon": 5.533
+   },
+   {
+    "yer": "Wiltz",
+    "gun": "1795-10-01",
+    "eski": "avusturya-hollandasi",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 49.966,
+    "lon": 5.933
+   }
+  ]
+ },
+ {
+  "t": "1742-06-11",
+  "b": "Breslau ön barışı: Silezya Prusya'ya bırakıldı",
+  "birimler": [
+   {
+    "yer": "Glatz (Kłodzko)",
+    "gun": "1742-06-11",
+    "eski": "avusturya",
+    "yeni": "prusya",
+    "lat": 50.437,
+    "lon": 16.657
+   },
+   {
+    "yer": "Gleiwitz (Gliwice)",
+    "gun": "1742-06-11",
+    "eski": "avusturya",
+    "yeni": "prusya",
+    "lat": 50.294,
+    "lon": 18.666
+   },
+   {
+    "yer": "Kattowitz (Katowice)",
+    "gun": "1742-06-11",
+    "eski": "avusturya",
+    "yeni": "prusya",
+    "lat": 50.259,
+    "lon": 19.02
+   },
+   {
+    "yer": "Liegnitz (Legnica)",
+    "gun": "1742-06-11",
+    "eski": "avusturya",
+    "yeni": "prusya",
+    "lat": 51.211,
+    "lon": 16.161
+   },
+   {
+    "yer": "Oppeln (Opole)",
+    "gun": "1742-06-11",
+    "eski": "avusturya",
+    "yeni": "prusya",
+    "lat": 50.672,
+    "lon": 17.926
+   }
+  ]
+ },
+ {
+  "t": "1507-01-01",
+  "b": "Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
+  "birimler": [
+   {
+    "yer": "Babū",
+    "gun": "1507-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.99209,
+    "lon": 40.95651
+   },
+   {
+    "yer": "Hasankeyf",
+    "gun": "1507-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 37.714,
+    "lon": 41.412
+   },
+   {
+    "yer": "Qaţţīnah",
+    "gun": "1507-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 36.80744,
+    "lon": 40.05343
+   },
+   {
+    "yer": "Ḩīmū",
+    "gun": "1507-01-01",
+    "eski": "akkoyunlu",
+    "yeni": "safevi",
+    "lat": 37.04723,
+    "lon": 41.16003
+   }
+  ]
+ },
+ {
+  "t": "1686-08-30",
+  "b": "Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
+  "birimler": [
+   {
+    "yer": "Damala (Troizen)",
+    "gun": "1686-08-30",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 37.508,
+    "lon": 23.339
+   },
+   {
+    "yer": "Ermiyoni (Hermione)",
+    "gun": "1686-08-30",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 37.3884,
+    "lon": 23.2486
+   },
+   {
+    "yer": "Kranidi",
+    "gun": "1686-08-30",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 37.364,
+    "lon": 23.147
+   },
+   {
+    "yer": "Methana",
+    "gun": "1686-08-30",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 37.588,
+    "lon": 23.38
+   }
+  ]
+ },
+ {
+  "t": "1687-08-01",
+  "b": "Gördüs'ün (Korint) Venedik'e bırakılması",
+  "birimler": [
+   {
+    "yer": "Elafonisos (Cervi)",
+    "gun": "1687-08-01",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 36.4936,
+    "lon": 22.9756
+   },
+   {
+    "yer": "Kalavrita (Kalavryta)",
+    "gun": "1687-08-01",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 38.0334,
+    "lon": 22.1104
+   },
+   {
+    "yer": "Vostitsa (Aigion)",
+    "gun": "1687-08-01",
+    "eski": "",
+    "yeni": "venedik",
+    "lat": 38.2527,
+    "lon": 22.082
+   }
+  ]
+ },
+ {
+  "t": "1738-08-01",
+  "b": "Semendire'nin Habsburg (Macaristan Krallığı tacı) elinden geri alınışı — 1737-39 Savaşı",
+  "birimler": [
+   {
+    "yer": "Rudnik",
+    "gun": "1738-08-01",
+    "eski": "macaristan-habsburg",
+    "yeni": "",
+    "lat": 44.1398,
+    "lon": 20.494
+   },
+   {
+    "yer": "Valjevo",
+    "gun": "1738-08-01",
+    "eski": "macaristan-habsburg",
+    "yeni": "",
+    "lat": 44.2751,
+    "lon": 19.8982
+   },
+   {
+    "yer": "Ćuprija",
+    "gun": "1738-08-01",
+    "eski": "macaristan-habsburg",
+    "yeni": "",
+    "lat": 43.9275,
+    "lon": 21.37
+   }
+  ]
+ },
+ {
+  "t": "1510-01-13",
+  "b": "Pskov Cumhuriyeti Moskova'ya katıldı",
+  "birimler": [
+   {
+    "yer": "Abrene (Pıtalovo)",
+    "gun": "1510-01-13",
+    "eski": "pskov",
+    "yeni": "moskova",
+    "lat": 57.067,
+    "lon": 27.917
+   },
+   {
+    "yer": "Petseri (Peçori)",
+    "gun": "1510-01-13",
+    "eski": "pskov",
+    "yeni": "moskova",
+    "lat": 57.815,
+    "lon": 27.609
+   }
+  ]
+ },
+ {
+  "t": "1570-01-01",
+  "b": "IV. İvan'ın Don kazaklarına gramotası — Don Kazak Ordası'nın ilk güvenilir kaydı",
+  "birimler": [
+   {
+    "yer": "Bozkır (Deşt-i Kıpçak)",
+    "gun": "1570-01-01",
+    "eski": "__BOSLUK__",
+    "yeni": "don-kazak",
+    "lat": 48.5,
+    "lon": 42.0
+   },
+   {
+    "yer": "Don bozkırı (Sal)",
+    "gun": "1570-01-01",
+    "eski": "",
+    "yeni": "don-kazak",
+    "lat": 47.0,
+    "lon": 42.3
+   }
+  ]
+ },
+ {
+  "t": "1701-01-18",
+  "b": "Prusya Krallığı ilan edildi — I. Friedrich Königsberg'de taç giydi",
+  "birimler": [
+   {
+    "yer": "Berlin",
+    "gun": "1701-01-18",
+    "eski": "brandenburg-prusya",
+    "yeni": "prusya",
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   {
+    "yer": "Klaipėda (Memel)",
+    "gun": "1701-01-18",
+    "eski": "prusya-dukaligi",
+    "yeni": "prusya",
+    "lat": 55.703,
+    "lon": 21.144
+   }
+  ]
+ },
+ {
+  "t": "1779-03-01",
+  "b": "Kerim Han Zend öldü — Azerbaycan hanlıkları Zend'den fiilen ayrıldı",
+  "birimler": [
+   {
+    "yer": "Mâku",
+    "gun": "1779-03-01",
+    "eski": "zend",
+    "yeni": "afsar",
+    "lat": 39.2942,
+    "lon": 44.5142
+   },
+   {
+    "yer": "Selmâs (Dilman)",
+    "gun": "1779-03-01",
+    "eski": "zend",
+    "yeni": "afsar",
+    "lat": 38.1983,
+    "lon": 44.7654
+   }
+  ]
+ },
+ {
+  "t": "1795-03-28",
+  "b": "Kurland ve Semigallia Dükalığı Rusya'ya katıldı — son dük Peter von Biron vazgeçti",
+  "birimler": [
+   {
+    "yer": "Liepāja (Libau)",
+    "gun": "1795-03-28",
+    "eski": "kurland-dukaligi",
+    "yeni": "rusya",
+    "lat": 56.5047,
+    "lon": 21.0108
+   },
+   {
+    "yer": "Ventspils (Windau)",
+    "gun": "1795-03-28",
+    "eski": "kurland-dukaligi",
+    "yeni": "rusya",
+    "lat": 57.3894,
+    "lon": 21.5606
+   }
+  ]
+ },
+ {
+  "t": "1525-04-08",
+  "b": "Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü",
+  "birimler": [
+   {
+    "yer": "Klaipėda (Memel)",
+    "gun": "1525-04-08",
+    "eski": "teuton-devleti",
+    "yeni": "prusya-dukaligi",
+    "lat": 55.703,
+    "lon": 21.144
+   }
+  ]
+ },
+ {
+  "t": "1537-10-01",
+  "b": "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması",
+  "birimler": [
+   {
+    "yer": "İstanbulya (Astipalya)",
+    "gun": "1537-10-01",
+    "eski": "venedik",
+    "yeni": "",
+    "lat": 36.572,
+    "lon": 26.35
+   }
+  ]
+ },
+ {
+  "t": "1552-01-01",
+  "b": "Zaporojye Kazakları Hortiça adasında ilk Seç'i kurdu",
+  "birimler": [
+   {
+    "yer": "Zaporojye bozkırı",
+    "gun": "1552-01-01",
+    "eski": "__BOSLUK__",
+    "yeni": "zaporojye",
+    "lat": 48.3,
+    "lon": 35.8
+   }
+  ]
+ },
+ {
+  "t": "1624-01-01",
+  "b": "Musul ve Kerkük'ün Safevî eline geçmesi — Bağdat'ın düşüşünün ardından",
+  "birimler": [
+   {
+    "yer": "Erbil",
+    "gun": "1624-01-01",
+    "eski": "",
+    "yeni": "safevi",
+    "lat": 36.1911,
+    "lon": 44.0092
+   }
+  ]
+ },
+ {
+  "t": "1645-08-23",
+  "b": "Brömsebro Barışı — Jämtland, Härjedalen, Gotland ve Ösel İsveç'e geçti; Halland 30 yıllığına İsveç'e bırakıldı",
+  "birimler": [
+   {
+    "yer": "Östersund (Jämtland)",
+    "gun": "1645-08-23",
+    "eski": "danimarka",
+    "yeni": "isvec",
+    "lat": 63.25,
+    "lon": 14.9
+   }
+  ]
+ },
+ {
+  "t": "1658-03-08",
+  "b": "Roskilde Antlaşması — Skåne, Halland, Blekinge ve Bornholm İsveç'e geçti",
+  "birimler": [
+   {
+    "yer": "Karlskrona",
+    "gun": "1658-03-08",
+    "eski": "danimarka",
+    "yeni": "isvec",
+    "lat": 56.25,
+    "lon": 15.6
+   }
+  ]
+ },
+ {
+  "t": "1681-01-01",
+  "b": "Fâtıma Sultan Bike'nin ölümüyle Kāsım Hanlığı tarihe karıştı: Kasımov Rusya'ya katıldı",
+  "birimler": [
+   {
+    "yer": "İzyum",
+    "gun": "1681-01-01",
+    "eski": "",
+    "yeni": "rusya",
+    "lat": 49.21,
+    "lon": 37.29
+   }
+  ]
+ },
+ {
+  "t": "1707-05-12",
+  "b": "Birlesme Yasalari yururluge girdi: Iskocya Krallign Ingiltere ile birlesip Buyuk Britanya Krallign'ni kurdu (Dumbarton, Iona dahil butun Iskocya)",
+  "birimler": [
+   {
+    "yer": "Edinburg",
+    "gun": "1707-05-12",
+    "eski": "iskocya",
+    "yeni": "ingiltere",
+    "lat": 55.953,
+    "lon": -3.189
+   }
+  ]
+ },
+ {
+  "t": "1720-09-02",
+  "b": "Sardinya İspanya'dan Savoy hânedanına geçti — Sardinya Krallığı doğdu",
+  "birimler": [
+   {
+    "yer": "Sasari (Sassari)",
+    "gun": "1720-09-02",
+    "eski": "ispanya",
+    "yeni": "sardinya",
+    "lat": 40.73,
+    "lon": 8.56
+   }
+  ]
+ },
+ {
+  "t": "1768-05-15",
+  "b": "Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
+  "birimler": [
+   {
+    "yer": "Bastia (Korsika)",
+    "gun": "1768-05-15",
+    "eski": "cenova",
+    "yeni": "fransa",
+    "lat": 42.7,
+    "lon": 9.45
+   }
+  ]
+ },
+ {
+  "t": "1793-01-03",
+  "b": "Monako, Fort-Hercule adıyla Fransa Cumhuriyeti'ne katıldı",
+  "birimler": [
+   {
+    "yer": "Menton",
+    "gun": "1793-01-03",
+    "eski": "monako",
+    "yeni": "fransa-cumhuriyet",
+    "lat": 43.787,
+    "lon": 7.4911
+   }
+  ]
+ }
+]

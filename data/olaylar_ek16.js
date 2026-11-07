@@ -200,8 +200,8 @@ window.OLAYLAR_EK16 = [
   gun:"23 Ocak 1793",
   yer:"Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Minsk, Çehrin (Çigirin), Gdansk, Poznan",
   yer_id:"Minsk", kisiler:"II. Katerina, II. Friedrich Wilhelm",
-  d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
-  kaynak:"bulunamadı", duygu:["😔"] },
+  d:"1791 anayasa reformlarının Rusya ve Prusya'yı tedirgin etmesi üzerine, iki devlet 23 Ocak 1793'te St. Petersburg'da imzaladıkları antlaşmayla Polonya'yı yeniden paylaştı: Rusya Litvanya-Belarus'un büyük bölümünü ve batı Ukrayna'yı (Kamaniçe, Bar, Minsk dahil) aldı, Prusya ise Gdansk ve Poznan'ı içeren Büyük Polonya'yı ilhak etti — toplam 307.000 km². Baskı altındaki Polonya Seymi antlaşmayı aynı yıl onaylamak zorunda kaldı; bu, Polonya'nın tam ilhakını iki yıl erteleyen kısa ömürlü bir paylaşımdı. Bu gün (23 Ocak 1793) Polonya'nın İkinci Paylaşımı'nda Berdiçev, Fastov, Jitomir, Kaniv, Kostantinov, Uman ve Çerkasi dahil Sağ-yaka Ukrayna Rusya'ya geçti.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Partitions of Poland').",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b) hücre 5): TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/polonya (23 Ocak 1793 Rusya-Prusya anlaşması)", duygu:["😔"] },
 
 { t:"1795-10-24", k:"antlasma", etiket:["toprak-kazanc","toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması",

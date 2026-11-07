@@ -206,8 +206,8 @@ window.OLAYLAR_EK20 = [
   yer:"Ayacyo (Ajaccio)",
   yer_id:"Ayacyo (Ajaccio)",
   kisiler:"",
-  d:"Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır.", ic_not_d:"TDV yılı veriyor, günü vermiyor.",
-  kaynak:"korsika" },
+  d:"Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır. Bu yıl (1768) Korsika, Bastia dahil, Ceneviz'den Fransa'ya satıldı (TDV Korsika; gün teyitsiz).", ic_not_d:"TDV yılı veriyor, günü vermiyor.",
+  kaynak:"korsika | Yer teyidi (DUNYA-1102 D(b) hücre 5): TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/korsika (1768)" },
 
 // ⑫ 1870-09-20 — veri: Roma  papalik → italya
 //    TDV `italya` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:

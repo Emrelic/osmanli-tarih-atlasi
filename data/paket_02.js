@@ -1618,8 +1618,8 @@ window.OLAYLAR_EK11 = [
   b:"Erzurum ve Van havzası Safevî'ye geçti — Akkoyunlu'nun kuzey kanadı çöktü",
   gun:"1502 (ay ve gün kaynakta yok)", yer:"Erzurum, Van, Erciş, Kemah", yer_id:"Erzurum",
   kisiler:"Şah İsmail, Akkoyunlu Elvend Bey",
-  d:"Şerûr'da Elvend Bey'i yenip 1501 yazında Tebriz'e giren Şah İsmâil, ertesi yıl kuzeybatı istikametinde ilerleyerek Erzurum'dan Van gölü havzasına uzanan hattı hâkimiyeti altına aldı. Akkoyunlu Devleti Uzun Hasan'ın ölümünden sonra zaten taht kavgalarıyla ikiye bölünmüştü: Elvend Bey Azerbaycan ve Diyarbekir'i, amcazadesi Murad ise Irâk-ı Acem ve Fars'ı tutuyordu. Bu bölünme Safevî ilerleyişini kolaylaştırdı; bölge on kayıt hâlinde bir yıl içinde el değiştirdi. Erzurum bundan sonra on altı yıl Safevî elinde kaldı ve Osmanlı hâkimiyetine ancak Çaldıran'dan sonra, 1518-19'da girdi.",
-  kaynak:"akkoyunlular", duygu:["🏛"] },
+  d:"Şerûr'da Elvend Bey'i yenip 1501 yazında Tebriz'e giren Şah İsmâil, ertesi yıl kuzeybatı istikametinde ilerleyerek Erzurum'dan Van gölü havzasına uzanan hattı hâkimiyeti altına aldı. Akkoyunlu Devleti Uzun Hasan'ın ölümünden sonra zaten taht kavgalarıyla ikiye bölünmüştü: Elvend Bey Azerbaycan ve Diyarbekir'i, amcazadesi Murad ise Irâk-ı Acem ve Fars'ı tutuyordu. Bu bölünme Safevî ilerleyişini kolaylaştırdı; bölge on kayıt hâlinde bir yıl içinde el değiştirdi. Erzurum bundan sonra on altı yıl Safevî elinde kaldı ve Osmanlı hâkimiyetine ancak Çaldıran'dan sonra, 1518-19'da girdi. Bu yıl (1502) Aşkale ve Pasinler (Hasankale), Erzurum bölgesiyle birlikte Akkoyunlu'dan Safevîlere geçti (gün teyitsiz).",
+  kaynak:"akkoyunlular | Yer teyidi (DUNYA-1102 D(b) hücre 5): TDV Erzurum (islamansiklopedisi.org.tr/erzurum)", duygu:["🏛"] },
 
 { t:"1503-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
   b:"Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
@@ -1712,11 +1712,11 @@ window.OLAYLAR_EK11 = [
 //    Zend, Tahran'da Kacar) ve genel etiketin en mesru oldugu yer orasi.
 //    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
 
-{ t:"1747-06-20", kaynak:"Encyclopaedia Iranica, Afsharids (https://www.iranicaonline.org/articles/afsharids-dynasty/) — «assassinated by his Iranian officers on 11 Jomādā II 1160/20 June 1747» (KASA SALI kuyruğu 20; KASA PAZAR 4 Kasım 2026)", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
+{ t:"1747-06-20", kaynak:"Encyclopaedia Iranica, Afsharids (https://www.iranicaonline.org/articles/afsharids-dynasty/) — «assassinated by his Iranian officers on 11 Jomādā II 1160/20 June 1747» (KASA SALI kuyruğu 20; KASA PAZAR 4 Kasım 2026) | Yer teyidi (DUNYA-1102 D(b) hücre 5): TDV İslâm Ansiklopedisi, islamansiklopedisi.org.tr/nadir-sah--iran ; revan", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
   kapsam:"dis", onem:4, b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",
-  d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı.", duygu:["🏛"], yer_kon:[37.1,58.5] },
+  d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı. Nâdir Şah 20 Haziran 1747'de öldürüldü; TDV'ye göre Revan Hanlığı aynı yıl (1747) kuruldu, gün teyitsiz.", duygu:["🏛"], yer_kon:[37.1,58.5] },
 
 { t:"1796-01-01", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-hanedan"],
   kapsam:"dis", onem:4, b:"Kaçar hânedanının İran'a hâkim oluşu",
