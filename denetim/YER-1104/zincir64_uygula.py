@@ -22,6 +22,11 @@ OZEL = {
 }
 
 
+# Kara maskesi düzeltmesi (denetle "Ek denetim konum", 8 Kasım 2026): denetimin verdiği koordinat aynen yazılır.
+KOORD = {"Nukuʻalofa": (-21.1403, -175.2171), "Somnât (Sûmenât)": (20.8975, 70.4080),
+         "Eleusis (Attika)": (38.0430, 23.5385), "Ayastefanos (Yeşilköy)": (40.9621, 28.8220)}
+
+
 def s(x):
     return json.dumps(x, ensure_ascii=False)
 
@@ -57,7 +62,7 @@ for ad in adlar[:n]:
     if ad in BEYANLI_KUNYE:
         kaynak += (" BEYANLI YAKLAŞIKLIK (KÜNYE ARALIĞI): bir dönemin f/t ucu künyenin f/t ucundan günlerce taşıyor; "
                    "dönem ucu kaynağın günüdür, künye ucu hizalanınca düzelir (ZINCIR.md).")
-    ust = [("ad", ad), ("tur", "sehir"), ("lat", k["lat"]), ("lon", k["lon"]), ("g", 0), ("k", 0)]
+    ust = [("ad", ad), ("tur", "sehir"), ("lat", KOORD.get(ad, (k["lat"], k["lon"]))[0]), ("lon", KOORD.get(ad, (k["lat"], k["lon"]))[1]), ("g", 0), ("k", 0)]
     ust.extend(OZEL.get(ad, []))
     if k.get("kur"):
         ust.append(("kur", k["kur"]))
