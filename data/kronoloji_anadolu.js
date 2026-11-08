@@ -1787,7 +1787,7 @@ window.KRONOLOJI_ANADOLU = [
 
 { taraflar:["kilikya-ermeni"], t:"1322-01-01", b:"Memlükler Malatya'yı ele geçirdi", tur:"toprak-kayip",
   onem:2, dunya:2, kapsam:"dis", etiket:["Malatya", "Memlük", "İlhanlı", "konu-askeri"],
-  yer_id:"Malatya",
+  yer_id:"Eski Malatya (Battalgazi)",
   d:"Memlük Suriye valisi Tengiz'in kumandasındaki kuvvetler, İlhanlı müttefiki bölgesindeki Malatya'yı ele geçirip ilhak etti; bu, Kilikya'nın Moğol ittifakının artık sınırları koruyamadığının işaretiydi.",
   kaynak:"Bournoutian (2006); ikincil özetten derlendi" },
 

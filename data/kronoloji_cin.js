@@ -438,7 +438,7 @@ window.KRONOLOJI_CIN = [
 
 { taraflar:["qing-hanedani"], t:"1662-02-01", b:"Koxinga Tayvan'ı Hollandalılardan aldı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
-  yer_id:"Taipei",
+  yer_id:"Tainan",
   d:"Ming loyalisti Zheng Chenggong (Koxinga), Hollanda Doğu Hindistan Şirketi'nin Tayvan'daki kalesini kuşatıp adayı ele geçirdi. Zheng ailesi, adada 1683'e dek Qing'e karşı bağımsız bir üs sürdürecekti.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
@@ -450,7 +450,7 @@ window.KRONOLOJI_CIN = [
 
 { taraflar:["qing-hanedani"], t:"1683-08-01", b:"Qing, Tayvan'ı fethetti — Zheng hanedanı teslim oldu", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri","konu-hanedan"],
-  yer_id:"Taipei",
+  yer_id:"Tainan",
   d:"Amiral Shi Lang komutasındaki Qing donanması Zheng ailesinin Tayvan direnişini çökertti; ada ilk kez doğrudan Çin imparatorluğu idaresine girdi. Fetih, Kangxi'nin güney sınırlarını tamamen sağlama alan son büyük hamlesiydi.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 

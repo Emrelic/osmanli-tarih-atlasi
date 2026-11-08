@@ -291,7 +291,7 @@ window.KRONOLOJI_HINDISTAN = [
   kaynak:"cihangir (TDV, içerik okundu 2026-08-21)" },
 { taraflar:["babur-imparatorlugu"], t:"1622-06-01", b:"Safevîler Kandehar'ı Bâbürlülerden geri aldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
-  yer_id:"Kandehar",
+  yer_id:"Eski Kandehar (Şehr-i Köhne)",
   d:"[Bâbürlü] Şah Abbas'ın İran ordusu, Ekber döneminde alınan stratejik Kandehar'ı kuşatıp geri aldı; şehir, Hint-İran sınır bölgesinde bir asır boyunca el değiştirmeye devam edecek kalıcı bir çekişme konusu oldu.",
   kaynak:"cihangir (TDV, içerik okundu 2026-08-21)" },
 { taraflar:["babur-imparatorlugu"], t:"1627-11-08", b:"Cihangir öldü, Şah Cihan tahta çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
