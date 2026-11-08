@@ -19,89 +19,104 @@
 (function () {
   var ANAHTAR = "tanitimGosterme";
 
+  // ⚠️ ÇEVİRİ: js/ceviri.js arayüzü METİN DÜĞÜMÜ başına sözlükten çevirir ve
+  // arac/ceviri_cikar.js bu dosyadaki dizgileri etiketlerden BÖLEREK toplar.
+  // Cümlenin ortasına <b>/<i> koymak cümleyi parçalara ayırır ve yabancı dilde
+  // bozuk çeviri üretir. Bu yüzden: `p` = bütün cümleli paragraflar, `m` =
+  // [kalın terim, tam cümle açıklama] maddeleri. Metne etiket YAZMA.
   var ADIMLAR = [
     { baslik: "Tarih Atlası'na hoş geldiniz",
-      metin: "Bu atlas, zaman ilerledikçe <b>devlet sınırlarının nasıl değiştiğini</b> gösterir. " +
-             "Haritanın yanında o günün <b>kronolojisi</b> ve <b>hükümdarı</b> akar: bir madde okuduğunuzda " +
-             "haritada tam o değişimi görürsünüz.<br><br>Kısa bir turla ekrandaki her parçayı tanıtalım — " +
-             "<b>İleri ▶</b> (ya da → tuşu) ile ilerleyin, istediğiniz an <b>Geç</b> diyebilirsiniz." },
+      p: ["Bu atlas, zaman ilerledikçe devlet sınırlarının nasıl değiştiğini gösterir. Haritanın yanında o günün kronolojisi ve hükümdarı akar: bir madde okuduğunuzda haritada tam o değişimi görürsünüz.",
+          "Kısa bir turla ekrandaki her parçayı tanıtalım. İleri düğmesiyle (ya da sağ ok tuşuyla) ilerleyin; istediğiniz an Geç diyebilirsiniz."] },
     { baslik: "Sayfanın düzeni",
-      metin: "Ekran dört parçadır:<br>" +
-             "• <b>Ortada harita</b> — seçili günün siyasî haritası.<br>" +
-             "• <b>Üstte çubuk</b> — o anki tarih, yakınlaştırma, <b>☰ Butonlar</b> menüsü ve panel düğmesi.<br>" +
-             "• <b>Altta zaman çubuğu</b> — oynat, ileri/geri, akış ayarı, sene ve şehir kutuları, zaman kaydırıcısı.<br>" +
-             "• <b>Sağda kronoloji sütunu</b> — devlet seçici, hükümdar kartı ve olay maddeleri." },
+      p: ["Ekran dört parçadır:"],
+      m: [["Ortada harita", "Seçili günün siyasî haritası."],
+          ["Üstte çubuk", "O anki tarih, yakınlaştırma, Butonlar menüsü ve panel düğmesi."],
+          ["Altta zaman çubuğu", "Oynat, ileri/geri, akış ayarı, sene ve şehir kutuları, zaman kaydırıcısı."],
+          ["Sağda kronoloji sütunu", "Devlet seçici, hükümdar kartı ve olay maddeleri."]] },
     { hedef: ["#harita"], baslik: "Harita",
-      metin: "Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın. " +
-             "Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. " +
-             "Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir." },
+      p: ["Sürükleyerek kaydırın, fare tekerleğiyle (ya da iki parmakla) yakınlaşın.",
+          "Renkli alanlar o gündeki devletlerdir; bir yere tıklayınca orası hakkında bilgi açılır. Tarih değiştikçe sınırlar kendiliğinden yeniden çizilir."] },
     { hedef: ["#ustbar-orta"], baslik: "O anki tarih",
-      metin: "Haritanın şu an gösterdiği <b>gün</b>, dönemin adı ve o gün olan değişim burada yazar. " +
-             "Sağ yanında o günkü toprak alanı ve tarihteki zirveye oranı görünür." },
+      p: ["Haritanın şu an gösterdiği gün, dönemin adı ve o gün olan değişim burada yazar. Sağ yanında o günkü toprak alanı ve tarihteki zirveye oranı görünür."] },
     { hedef: ["#yakin-grup"], baslik: "+ / − Yakınlaş, uzaklaş",
-      metin: "Haritayı bir kademe yakınlaştırır ya da uzaklaştırır (fare tekerleğinin düğme hâli)." },
+      p: ["Haritayı bir kademe yakınlaştırır ya da uzaklaştırır (fare tekerleğinin düğme hâli)."] },
     { hedef: ["#btn-menu"], baslik: "☰ Butonlar",
-      metin: "Tıklayınca araç menüsü açılır:<br>" +
-             "• <b>ℹ Siteyi tanı</b> — bu turu yeniden açar.<br>" +
-             "• <b>📚 Dizin</b> — kişi, savaş ve antlaşma dizinleri; birine tıklayınca o güne gidilir.<br>" +
-             "• <b>🗺 Harita işaretleri</b> — haritadaki simgelerin ne anlama geldiği (lejant).<br>" +
-             "• <b>ⓘ Kaynaklar</b> — altlık harita, veri ve lisans atıfları.<br>" +
-             "• <b>Katmanlar</b> — yerleşim yerleri, yollar, harekât okları, siyasî yapılar, küre görünüm… " +
-             "kutucukla açıp kapatılır, birden çoğu seçilebilir.<br>" +
-             "• <b>🔍 Oto</b> — toprak büyüdükçe haritayı kendiliğinden uzaklaştırır.<br>" +
-             "• <b>D sınırı</b> (Hukukî / Fiilî) — sınırların antlaşmaya göre mi, fiilî duruma göre mi çizileceği.<br>" +
-             "• <b>⛶ Tam ekran</b> — tarayıcıyı tam ekran yapar (Esc ile çıkılır).<br>" +
-             "• <b>Bölge seçici</b> — Anadolu, Rumeli, Kafkasya… seçilen bölgeye yakınlaşır." },
+      p: ["Tıklayınca araç menüsü açılır:"],
+      m: [["ℹ Siteyi tanı", "Bu turu yeniden açar."],
+          ["📚 Dizin", "Kişi, savaş ve antlaşma dizinleri; birine tıklayınca o güne gidilir."],
+          ["🗺 Harita işaretleri", "Haritadaki simgelerin ne anlama geldiğini gösterir (lejant)."],
+          ["ⓘ Kaynaklar", "Altlık harita, veri ve lisans atıfları."],
+          ["Katman kutuları", "Yerleşim yerleri, yollar, harekât okları, siyasî yapılar, küre görünüm… Kutucukla açılıp kapatılır, birden çoğu seçilebilir."],
+          ["🔍 Oto", "Toprak büyüdükçe haritayı kendiliğinden uzaklaştırır."],
+          ["D sınırı", "Sınırların antlaşmaya göre mi (Hukukî), fiilî duruma göre mi (Fiilî) çizileceğini seçer."],
+          ["⛶ Tam ekran", "Tarayıcıyı tam ekran yapar (Esc ile çıkılır)."],
+          ["Bölge seçici", "Anadolu, Rumeli, Kafkasya… Seçilen bölgeye yakınlaşır."]] },
     { hedef: ["#btn-panel"], baslik: "⇥ Daralt / Kapat / Genişlet",
-      metin: "Sağdaki kronoloji sütununun genişliğini ayarlar. Her basışta sırayla: " +
-             "<b>geniş → dar → kapalı → geniş</b>. Düğmenin üstünde, basınca <b>gideceği</b> hâl yazar " +
-             "(⇥ Daralt · ⇤ Kapat · ⇥ Genişlet). Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır." },
+      p: ["Sağdaki kronoloji sütununun genişliğini ayarlar. Her basışta sırayla: geniş, dar, kapalı, yeniden geniş.",
+          "Düğmenin üstünde, basınca gideceği hâl yazar: Daralt, Kapat ya da Genişlet. Haritayı büyütmek için sütunu kapatın; aynı düğmeyle geri açılır."] },
     { hedef: ["#btn-oynat"], baslik: "▶ Oynat / ⏸ Duraklat",
-      metin: "Zamanı kendiliğinden ilerletir: harita ve kronoloji birlikte akar. Tekrar basınca durur." },
+      p: ["Zamanı kendiliğinden ilerletir: harita ve kronoloji birlikte akar. Tekrar basınca durur."] },
     { hedef: ["#btn-geri", "#btn-ileri"], baslik: "⏮ Geri · ⏭ İleri",
-      metin: "<b>⏭ İleri</b> kronolojideki <b>bir sonraki olaya</b>, <b>⏮ Geri</b> bir öncekine atlar. " +
-             "Harita o olayın gününe geçer, kronolojide madde vurgulanır. Oynatmadan, adım adım okumak için en rahat yoldur." },
+      p: ["İleri düğmesi kronolojideki bir sonraki olaya, Geri düğmesi bir öncekine atlar.",
+          "Harita o olayın gününe geçer, kronolojide madde vurgulanır. Oynatmadan, adım adım okumak için en rahat yoldur."] },
     { hedef: ["#akis-modu", "#hiz", "#olay-hiz"], baslik: "Oynatma ayarı: olay olay ya da sene sene",
-      metin: "• <b>📜 Olay olay</b> (varsayılan) — oynatınca olaydan olaya geçer; yanındaki kutu " +
-             "<b>her olayda kaç saniye</b> bekleneceğini seçer. Okumak için uygundur.<br>" +
-             "• <b>⏱ Zaman akışı</b> — takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: " +
-             "saniyede 1 aydan saniyede <b>10 yıla</b> kadar. Sınırların değişimini film gibi izlemek için uygundur." },
+      m: [["📜 Olay olay", "Varsayılan. Oynatınca olaydan olaya geçer; yanındaki kutu her olayda kaç saniye bekleneceğini seçer. Okumak için uygundur."],
+          ["⏱ Zaman akışı", "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur."]] },
     { hedef: ["#tarihe-git-giris"], baslik: "Sene yaz git",
-      metin: "<b>tarihe git</b> kutusuna bir tarih yazıp <b>Enter</b>'a basın; harita ve kronoloji o güne atlar. " +
-             "Yazım örnekleri: <i>1453</i> · <i>1453-05-29</i> · <i>29.05.1453</i> · <i>29 Mayıs 1453</i> · <i>Mayıs 1453</i>." },
+      p: ["Bu kutuya bir tarih yazıp Enter tuşuna basın; harita ve kronoloji o güne atlar.",
+          "Yazım örnekleri: 1453 · 1453-05-29 · 29.05.1453 · 29 Mayıs 1453 · Mayıs 1453"] },
     { hedef: ["#yer-ara"], baslik: "Şehir yaz git",
-      metin: "<b>şehir yaz ve git</b> kutusuna bir yer adı yazın: şehir, kale, liman, bölge ya da ülke. " +
-             "Açılan listeden tıklayın (ya da ↑/↓ + Enter); harita oraya uçar, <b>tarih değişmez</b>. " +
-             "Listede yalnız <b>o gün haritada olan</b> yerler çıkar." },
+      p: ["Bu kutuya bir yer adı yazın: şehir, kale, liman, bölge ya da ülke.",
+          "Açılan listeden tıklayın (ya da ok tuşları ve Enter ile seçin); harita oraya uçar, tarih değişmez. Listede yalnız o gün haritada olan yerler çıkar."] },
     { hedef: ["#zaman-sarmal"], baslik: "Zaman kaydırıcısı",
-      metin: "Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir." },
+      p: ["Sürükleyerek zamanda serbestçe gezin; harita bıraktığınız günü gösterir."] },
     { hedef: ["#devlet-secici"], baslik: "Hangi devletin kronolojisi?",
-      metin: "Sütunun tepesindeki seçici, kronolojisini okuyacağınız devleti belirler. " +
-             "<b>İlk işaretlediğiniz devlet odaktır</b> (hükümdar kartı onunkidir), sonra işaretlediğiniz devletlerin " +
-             "maddeleri de <b>ek</b> olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz." },
+      p: ["Sütunun tepesindeki seçici, kronolojisini okuyacağınız devleti belirler.",
+          "İlk işaretlediğiniz devlet odaktır ve hükümdar kartı onunkidir; sonra işaretlediğiniz devletlerin maddeleri de ek olarak listeye katılır. Önem eşikleriyle kaç madde görüneceğini ayarlayabilirsiniz."] },
     { hedef: ["#ucus-grup"], baslik: "Harita olaya nasıl gitsin?",
-      metin: "Sıradaki olaya geçilince haritanın ne yapacağı:<br>" +
-             "• <b>Pasif</b> — harita yerinden kıpırdamaz, siz nerede bıraktıysanız orada kalır.<br>" +
-             "• <b>Ani</b> — olay yerine bir anda atlar.<br>" +
-             "• <b>Uçuş</b> — olay yerine süzülerek uçar.<br>" +
-             "<b>⚙</b> uçuşun irtifa, yakınlık ve hızını, ayrıca kronoloji görünüm ayarlarını açar." },
+      p: ["Sıradaki olaya geçilince haritanın ne yapacağı:"],
+      m: [["Pasif", "Harita yerinden kıpırdamaz, siz nerede bıraktıysanız orada kalır."],
+          ["Ani", "Olay yerine bir anda atlar."],
+          ["Uçuş", "Olay yerine süzülerek uçar."],
+          ["⚙", "Uçuşun irtifa, yakınlık ve hızını, ayrıca kronoloji görünüm ayarlarını açar."]] },
     { hedef: ["#padisah-karti"], baslik: "Hükümdar kartı",
-      metin: "O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir." },
-    { hedef: ["#olay-akisi h2"], baslik: "📜 Kronoloji başlığı",
-      metin: "Sütunun başlığıdır. Yanındaki sayaç <b>şu an kaçıncı maddede</b> olduğunuzu ve listede " +
-             "<b>toplam kaç madde</b> bulunduğunu gösterir (örneğin <i>120 / 2400 başlık</i>)." },
+      p: ["O gün tahtta kimin oturduğunu, portresini ve saltanat yıllarını gösterir; zaman ilerledikçe kendiliğinden değişir."] },
+    { hedef: ["#olay-akisi-baslik"], baslik: "📜 Kronoloji başlığı",
+      p: ["Sütunun başlığıdır. Yanındaki sayaç, şu an kaçıncı maddede olduğunuzu ve listede toplam kaç madde bulunduğunu gösterir."] },
     { hedef: ["#kr-arama-satir"], baslik: "🔍 Kronolojide ara",
-      metin: "Kelimeleri boşlukla ayırarak yazın — <b>hepsi geçen</b> maddeler kalır (<i>Mohaç macar</i>). " +
-             "Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez. " +
-             "<b>⋯</b> gelişmiş aramayı açar: VE / VEYA, içerir / başlar / biter, başlıkta ya da metinde." },
+      p: ["Kelimeleri boşlukla ayırarak yazın; hepsi geçen maddeler kalır. Tırnak içindeki ifade tek parça aranır. Büyük/küçük harf ve şapka farkı gözetilmez.",
+          "Yanındaki düğme gelişmiş aramayı açar: VE / VEYA, içerir / başlar / biter, başlıkta ya da metinde."] },
     { hedef: ["#olay-listesi"], baslik: "Kronoloji sütunu",
-      metin: "Olaylar gün gün sıralanır; o anki madde vurgulanır ve zaman ilerledikçe liste kendiliğinden kayar. " +
-             "Bir maddeye <b>tıklayınca</b> harita o güne gider, değişen yeri gösterir ve <b>ayrıntı penceresi</b> açılır " +
-             "(açıklama, görsel, kaynak). Böylece kronoloji ile harita birbirini doğrular." },
+      p: ["Olaylar gün gün sıralanır; o anki madde vurgulanır ve zaman ilerledikçe liste kendiliğinden kayar.",
+          "Bir maddeye tıklayınca harita o güne gider, değişen yeri gösterir ve ayrıntı penceresi açılır (açıklama, görsel, kaynak). Böylece kronoloji ile harita birbirini doğrular."] },
     { baslik: "Hazırsınız",
-      metin: "<b>▶</b> ile oynatmayı başlatabilir, <b>⏭</b> ile olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.<br><br>" +
-             "Turu yeniden görmek için: <b>☰ Butonlar → ℹ Siteyi tanı</b>." }
+      p: ["Oynat düğmesiyle zamanı akıtabilir, İleri düğmesiyle olay olay ilerleyebilir ya da kronolojiden bir maddeye tıklayabilirsiniz.",
+          "Turu yeniden görmek için Butonlar menüsündeki Siteyi tanı düğmesine basın."] }
   ];
+
+  // Metin düğümleri ayrı ayrı (createTextNode) — innerHTML yok, her cümle tek düğüm.
+  function metinKur(kutu, a) {
+    kutu.textContent = "";
+    (a.p || []).forEach(function (s) {
+      var p = document.createElement("p");
+      p.textContent = s;
+      kutu.appendChild(p);
+    });
+    if (a.m) {
+      var ul = document.createElement("ul");
+      a.m.forEach(function (ik) {
+        var li = document.createElement("li");
+        var b = document.createElement("b");
+        b.textContent = ik[0];
+        var sp = document.createElement("span");
+        sp.textContent = ik[1];
+        li.appendChild(b); li.appendChild(sp);
+        ul.appendChild(li);
+      });
+      kutu.appendChild(ul);
+    }
+  }
 
   var ort = null, halka = null, kart = null, sira = 0;
 
@@ -180,7 +195,7 @@
     var a = ADIMLAR[sira];
     ort.querySelector(".tanitim-sayac").textContent = (sira + 1) + " / " + ADIMLAR.length;
     ort.querySelector(".tanitim-baslik").textContent = a.baslik;
-    ort.querySelector(".tanitim-metin").innerHTML = a.metin;
+    metinKur(ort.querySelector(".tanitim-metin"), a);
     ort.querySelector(".tanitim-geri").disabled = sira === 0;
     ort.querySelector(".tanitim-ileri").textContent = sira === ADIMLAR.length - 1 ? "Bitir ✓" : "İleri ▶";
     ort.querySelector(".tanitim-gec").style.visibility = sira === ADIMLAR.length - 1 ? "hidden" : "";
