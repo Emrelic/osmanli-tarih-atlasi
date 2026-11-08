@@ -46,7 +46,7 @@ Oturum: kunye-nihai · 8 Kasım 2026 · girdi: denetim/KUNYE-1105/YENI-KUNYE-ADA
 | 35 | kubadogullari | **AÇ** | Samsun beyliği 1398→~1419 (TDV SAMSUN), Osmanlı çekirdeği; kendi beyi ve idaresi | 1 |
 | 36 | dunbuli | **AÇ** | Dünbülî Hanlığı (Tebriz/Hoy) 1747-1790; Salyan ile aynı hanlık sınıfı; afsar beyanlı dilim buna bağlanır | 2 |
 | 37 | teselya-sirp-yunan | **AÇ** | Teselya Sırp-Yunan hanedanı 1359→1393 (TDV TIRHALA), Balkan/Osmanlı çekirdeği | 1 |
-| 38 | sadgeldi-amasya | **AÇ** | Şadgeldi/Amasya beyliği ~1360→Osmanlı (TDV AMASYA, ŞADGELDİ); Osmanlı çekirdeği | 1 |
+| 38 | sadgeldi-amasya | **ERTELE** | Şadgeldi/Amasya beyliği ~1360→Osmanlı (TDV AMASYA, ŞADGELDİ); Osmanlı çekirdeği | 1 |
 | 39 | thrace-interalliee | **BAĞLA:garbi-trakya** | İşgal idaresi (Müttefik, 1919-11-27→1920-05-22); otomatik künye değil; isg dilimi | — |
 | 40 | cin-gecis-rejimleri | **ATLA** | Toplu Çin geçiş rejimleri (Sai, Henan, Zhang Han…) otomatik künye değil; yalnız Zhang Shicheng Wu (1363-67) ve Ming Yuzhen Xia (1362-71) ayrıca BEYANLI-DİLİM adayı | — |
 | 41 | cundinamarca | **BAĞLA:birlesik-yeni-granada-eyaletleri** | Cundinamarca Devleti 1811-1814 federasyonun üyesi; ayrı künye değil | — |
@@ -73,7 +73,7 @@ Oturum: kunye-nihai · 8 Kasım 2026 · girdi: denetim/KUNYE-1105/YENI-KUNYE-ADA
 | 62 | britanya-kolumbiyasi-kolonisi | **ERTELE** | Koloni künyesi (1858→1871), renk partisini bekler | renk |
 | 63 | baster | **BEYANLI-DİLİM** | Rehoboth Basterleri 1870→1915, nüfus küçük; Alman himayesi altı | — |
 | 64 | tanjungpura-sukadana | **AÇ** | Tanjungpura/Sukadana/Matan Sultanlığı (Batı Borneo) ~14. yy→1786; pontianak künyesi VAR ama farklı; kaynak turu | 3 |
-| 65 | hakkari-beyligi | **AÇ** | Hakkâri Beyliği 1534/1548→1845/47 (TDV HAKKÂRİ), v:osmanli yarı özerk; Osmanlı çekirdeği, ~300 yıl | 1 |
+| 65 | hakkari-beyligi | **ERTELE** | Hakkâri Beyliği 1534/1548→1845/47 (TDV HAKKÂRİ), v:osmanli yarı özerk; Osmanlı çekirdeği, ~300 yıl | 1 |
 | 66 | venezuela-ucuncu-cumhuriyet | **BEYANLI-DİLİM** | Angostura patriot devleti 1817-07-17→1819-12-17 (2,5 yıl) savaş devleti; Gran Kolombiya ya geçişte kimlik sürekliliği; ayrı künye ağırlığı sınırda | — |
 | 67 | gran-kolombiya | **VAR** | gran-kolombiya mevcut; işlem yok | — |
 | 68 | birlesik-yeni-granada-eyaletleri | **AÇ** | Provincias Unidas de la Nueva Granada 1811-11-27→1816, federasyon; cundinamarca bağlanır | 3 |
