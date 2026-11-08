@@ -1274,7 +1274,10 @@ def degismez1(Y):
     # örneklemiyordu. İnegöl ile Bilecik'in 1281-1299 arası sahipsiz olduğu
     # bu yüzden aylarca görünmedi — Osmanlı çekirdeğinin tam ortasında iki
     # delik. Kuruluş devri seyrek örneklenemez: en hareketli dönem odur.
-    for yil in [1285, 1290, 1295] + list(range(1300, 1921, 20)):
+    # 8 KASIM 2026 (EMRELİC CUMA kararı, KASA CUMA ölçümü): kesitler 1920'de bitiyordu; 1940-2000
+    # eklendi. Ölçüm (5530 yerleşim, ufuk 2000): yeni sahipsiz AD 0 — 311 → 311, tavan DEĞİŞMEDİ.
+    # 2020 gibi ufuk-dışı yıl eklenmez (4690 yerleşimin son dönemi 2000'de biter ⇒ hepsi sahipsiz görünür).
+    for yil in [1285, 1290, 1295] + list(range(1300, 2001, 20)):
         g = f"{yil}-06-15"
         for t in Y:
             kur = t.get("kur")

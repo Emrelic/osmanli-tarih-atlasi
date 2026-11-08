@@ -286,6 +286,11 @@ G — Renk ve bölge (senin işin değil)
    `eski` sahip (Fizan, Dârfûr) · Komorlar __BOSLUK__ eski sahip. Ayrıntı `dokum_h18.md`.
    **(b) ilk tur toplamı (hücre 6+12+18, 1800–2000):** 359 madde tarandı · 249 maddeye yer cümlesi · 3 yeni madde ·
    2sk yalnız-taraf görünür+maskeli 6 081 → 5 253 (−828); YER anılarak kapanan 6 365 → 7 010. Sırada: aynı kıtaların 1500–1800 hücreleri (5, 11, 17), sonra Amerika.
+   **(c) 8 Kasım, KASA CUMA — EMRELİC CUMA kararları:** ① **D1 örneklemesi 2000'e uzatıldı** (`degismez1` kesitleri 1300–2000, 20 yılda bir):
+   5530 yerleşim, ufuk 2000-12-31; **yeni sahipsiz ad 0, tavan 311 aynen** (beklenen ≥414 ölçümle tutmadı; 4690 yerleşimin son dönemi 2000'de bitiyor,
+   2020 gibi ufuk-dışı yıl hepsini sahipsiz gösterir ⇒ eklenmedi). ② **Dalga 15** main'de (0eff564f2); `DURUM-TABLOSU.md` 10e06d288 ağacında yenilendi.
+   ③ **Çeviri durdu** (⑥ kararı): pilot (KRONOLOJI_COK_ARABISTAN2, 3 madde × 7 dil) 57af6004 ile main'de, `KRONO_CEVIRI` listesi büyütülmüyor.
+   ④ **8a 173→269** nedeni `denetle.py` BEKLENEN_D8A notunda: KOŞU 34 tam inşa, 152 yeni birimin 110'u Afrika sömürge hatları; kök neden kayıt bazında ÖLÇÜLMEDİ (girdi farkı: yerlesimler_afrika/afrika2/h2_afrika).
    **(b) 1500–1800 hücreleri 5 / 11 / 17** (6–7 Kasım, KASA CUMA, `arac/d_envanter.py` + 5 Sonnet ajan): envanter hücre 5 Avrupa
    865 yer · 343 yalnız taraf (59 madde) · 170 madde yok; hücre 11 Asya 707 · 636 · 542 (56 madde, 30'u hücre 5'te işlenmişti → 26 madde, 101 birim);
    hücre 17 Afrika 465 · 217 · 277 (35 madde, 25'i önceden işlenmiş → 10 madde, 22 birim). Sonuç: **teyit 40 · çelişki 16 · okunmadı ~400**.
