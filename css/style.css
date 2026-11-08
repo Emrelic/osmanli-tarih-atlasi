@@ -3786,4 +3786,13 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
 .gn-bolge-satir { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
 .gn-bolge-sil { margin-left: auto; border: 0; background: none; color: #a33; cursor: pointer; font-size: 13px; }
 .gn-bolge-ekle { margin-top: 3px; padding: 2px 8px; border-radius: 4px; border: 1px dashed #2bd10f; background: #fff; cursor: pointer; }
+/* Post-it resimleri + düzenleme (GELISTIRICI-DUZENLE-1108) */
+.gn-resimler { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0 2px; white-space: normal; }
+.gn-resim img, .gn-resim-kutu > img { display: block; max-width: 110px; max-height: 80px; border-radius: 3px; border: 1px solid #ccc; object-fit: cover; }
+.gn-resim-kutu { position: relative; display: inline-block; }
+.gn-resim-yeni > img { border: 2px dashed #2bd10f; }
+.gn-resim-sil {
+  position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; padding: 0; border-radius: 9px;
+  border: 1px solid #a33; background: #fff; color: #a33; font-size: 11px; line-height: 16px; cursor: pointer;
+}
 

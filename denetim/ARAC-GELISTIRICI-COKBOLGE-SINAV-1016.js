@@ -57,7 +57,8 @@ class El {
   querySelector() { return null; }
   querySelectorAll() { return []; }
   closest() { return null; }
-  focus() {} setPointerCapture() {} scrollIntoView() {}
+  focus() {} setPointerCapture() {} scrollIntoView() {} click() { if (this.onclick) this.onclick(); }
+  get childNodes() { return this.children; }
   getBoundingClientRect() { return { left: 0, top: 0, right: 100, bottom: 100, width: 100, height: 100 }; }
 }
 function agac(kok, f, l) { l = l || []; if (f(kok)) l.push(kok); kok.children.forEach(c => agac(c, f, l)); return l; }
@@ -120,6 +121,7 @@ function ortam(kaynak) {
   class SabitTarih extends Date { constructor(...a) { a.length ? super(...a) : super("2026-10-16T09:00:00.000Z"); } }
   const document = {
     body, readyState: "complete", createElement: t => new El(t), addEventListener() {},
+    createDocumentFragment: () => new El("#fragment"),
     getElementById: id => agac(body, e => e.id === id)[0] || null,
     querySelector: () => null, querySelectorAll: () => []
   };
@@ -132,7 +134,7 @@ function ortam(kaynak) {
     setTimeout: (f, ms) => { const t = setTimeout(f, ms); if (t.unref) t.unref(); return t; },
     clearTimeout, setInterval: () => 0, confirm: () => true,
     suanki: gunIdx("1600-06-15"), olaylar: [], olayDom: [], suankiOlayI: -1,
-    ZAMAN: { suankiOlay: () => -1 }, GUN: { dizgi }, gunIdx, idxYazi: gi => "Y" + dizgi(gi),
+    ZAMAN: { suankiOlay: () => -1 }, GUN: { dizgi, gun: gunIdx }, gunIdx, idxYazi: gi => "Y" + dizgi(gi),
     gunKonum: gi => gi, ZAMAN_KONUM_MAX: 1e6, tarihAyarla() {}, olayaGit() {},
     DEVLETLER: [{ id: "SAFEVI", ad: "Safevî Devleti" }],
     YERLESIMLER: [
