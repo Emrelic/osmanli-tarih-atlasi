@@ -757,4 +757,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_hint_adalar.js",
     # ADALAR-PASIFIK (28-29 Ekim 2026) - Koror (Palau), Port Vila (beyanli bosluk)
     "yerlesimler_ek_pasifik_adalar.js",
+    # ZINCIR-64 (8 Kasim 2026) - UMIT zincir_hazir.json: 64 yeni yerlesim, tam sahiplik zinciri
+    "yerlesimler_zincir64.js",
 ]
