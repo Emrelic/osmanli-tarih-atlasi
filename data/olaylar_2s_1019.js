@@ -336,7 +336,7 @@ window.OLAYLAR_2S1019 = [
   d:"Mohaç'ta II. Lajos'un ölümüyle boşalan Bohemya tacına Ekim 1526'da seçilen Habsburg Ferdinand'ı, Yukarı ve Aşağı Silezya zümreleri genel toplantıda imtiyazlarının teyidi kaydıyla 5 Aralık 1526'da kral, karısı Anna'yı kraliçe tanıdı. Silezya dükalıkları böylece Bohemya tacıyla birlikte Habsburg idaresine girdi.",
   kaynak:"Sněmy české I, belge 55 — AYNEN: \"v středu po sv. Barboře léta Páně 1526 … při obecném shromáždění\" · hassasiyet: GÜN" },
 
-{ bolge:1, t:"1550-06-12",
+{ tur:"kurulus", bolge:1, t:"1550-06-12",
   k:"kurulus",
   onem:1,
   dunya:1,
@@ -449,7 +449,7 @@ window.OLAYLAR_2S1019 = [
   d:"Bonapart'ın İtalya zaferleri ve İspanya'nın Fransa safına geçmesiyle Akdeniz'de sıkışan İngiltere, Korsika'yı tahliye etti. Anglo-Korsika Krallığı sona erdi ve ada yeniden Fransa'ya bağlandı.",
   kaynak:"TDV `korsika` — AYNEN: \"... 1796’da tekrar Fransa’ya iade edilmiştir.\" · hassasiyet: AY (ikincil kaynak), TDV YIL" },
 
-{ bolge:3, t:"1906-04-13",
+{ tur:"savas", bolge:3, t:"1906-04-13",
   k:"fetih",
   onem:3,
   dunya:1,

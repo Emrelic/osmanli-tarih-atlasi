@@ -3083,7 +3083,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "Sonraki Tang Mingzong Tiancheng 4. yıl (929); gün yok",
   "kesinlik": "yil"
  },
- {
+ { odak_yer:["Dali"],
   "t": "0929-01-01",
   "b": "Yang Ganzhen Da Yining devletini kurdu",
   "tur": "kurulus",
@@ -3556,7 +3556,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "Duangong 2. yıl (989); gün yok",
   "kesinlik": "yil"
  },
- {
+ { odak_yer:["Yinchuan (Ningxia)"],
   "t": "1023-01-01",
   "b": "Li Deming Huaiyuan Garnizonu'nu Xingzhou yapıp merkezini oraya taşıdı",
   "tur": "siyaset",
@@ -5370,7 +5370,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "gun",
   "ic_not": "Hyakurenshō ay-gün verir, ganzhi vermez. Yıl başlığı Yōwa 1; ay, Azuma Kagami j.2'deki 8. ay (13. gün 丁巳 = 1181-09-23) ile aynı kabul edilerek 15. gün = 1181-09-25 hesaplandı (2 gün sapma payı; AK 13., Hyakurenshō 14-15. günler arasında 1-2 günlük kaynak farkı vardır). Çift teyit değil."
  },
- {
+ { odak_yer:["Kamakura"],
   "t": "1180-11-04",
   "b": "Minamoto no Yoritomo Kamakura'daki konutuna girdi",
   "tur": "baskent",
@@ -6675,7 +6675,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Hall/Coedès çift teyit (yıl)."
  },
- {
+ { odak_yer:["Prome (Pyay)"],
   "t": "0849-01-01",
   "b": "Pagan'ın Pyinbya tarafından surla çevrilmesi (849): Pyu merkezinin boşalması Pagan'a yaradı",
   "tur": "siyaset",
@@ -11326,7 +11326,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "f/t künyesi (0960/1310) kaynakta yok; en erken tarih bilgisi Chalukya II. Jayasimha devrine (1015-1043) dayanan Shashthadeva anılışıdır."
  },
- {
+ { odak_yer:["Ratanpur"],
   "t": "1079-01-01",
   "b": "Prithvideva (1079) döneminde Ratanpur ailenin ikinci başkenti oldu",
   "tur": "siyaset",
@@ -12339,7 +12339,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "Pattikera'nın en erken TARİHLİ tanığıdır (kuruluş değil, ilk tanık)."
  },
- {
+ { odak_yer:["Vikramapura"],
   "t": "1026-01-01",
   "b": "Varmanlar Doğu Bengal'de iktidara geldi",
   "tur": "kurulus",
@@ -12690,7 +12690,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yil",
   "ic_not": "TDV aralık verir (1203-1204); aralığın başı yazıldı."
  },
- {
+ { odak_yer:["Gauhâtî (Guwahati)"],
   "t": "1205-01-01",
   "b": "Bakhtiyar Halacî, Hisam-ud-din Iwaz (1227) ve Yuzbak (1257) Kamarupa'ya sefer düzenledi: ilk sefer felaketle bitti",
   "tur": "savas",
@@ -15750,7 +15750,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "gun": "159 (776)",
   "kesinlik": "yil"
  },
- {
+ { odak_yer:["Taşkent"],
   "onem": 2,
   "dunya": 1,
   "kapsam": "dis",
@@ -18175,7 +18175,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   },
   "ic_not": "donem-toplami: sure bildirdigi icin ORTA NOKTA ALINMADI, t = en eski uc (1200)."
  },
- {
+ { odak_yer:["Xochicalco"],
   "t": "0650-01-01",
   "b": "Xochicalco'nun tahkimli siyasi-dinî-ticari merkez evresi (650-900)",
   "tur": "siyaset",
@@ -18233,7 +18233,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   },
   "ic_not": "yerlesim-suresi: ORTA NOKTA ALINMADI, t = alt sinir. CELISKI: ms1 kunyesi (Diehl, FAMSI) iskan 100-1100, cicekleme 10.-11. yy; UNESCO 800-1200. Kunye f=0600."
  },
- {
+ { odak_yer:["El Tajín"],
   "t": "1200-01-01",
   "b": "El Tajín terk edilir ve kısmen tahrip olur (1200 sonrası; UNESCO)",
   "tur": "siyaset",
@@ -18256,7 +18256,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kaynak_turu": "arkeoloji",
   "ic_not": "UNESCO'nun gerekcesi tartisilir: Aztek (Mexica) hakimiyeti 15. yy'dadir; ms1 kunyesi t=1100 (Diehl). 'After 1200' alt sinir; t=1200 yuzyil hassasiyeti. Kunye t (1100) ile CELISKI - rapora yazildi."
  },
- {
+ { odak_yer:["Chichén Itzá"],
   "t": "0501-01-01",
   "b": "Chichén Viejo: Maya üslubunda yapıların inşası (6.-10. yüzyıl)",
   "tur": "siyaset",
@@ -18307,7 +18307,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "yer": "Chichén Itzá",
   "ic_not": "GELENEKSEL ANLATI (kronik/gelenek), arkeolojik tarihleme degil; 'reportedly'. Alt sinir 967 alindi (aralik ORTA NOKTA kurali burada uygulanmadi: kaynak 'between 967 and 987' der, tarihleme araligi degil gelenek tarihidir). Toprak degisimi olarak atlas zincirine YAZILMADI (zincir etkisi kaynakta yok)."
  },
- {
+ { odak_yer:["Uxmal"],
   "t": "0700-01-01",
   "b": "Uxmal kurulur (≈700; UNESCO İspanyolca özeti) — kaynaklar çelişir",
   "tur": "kurulus",
@@ -18357,7 +18357,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "yer": "Dos Pilas",
   "ic_not": "Makale radyokarbon aralik vermez; Klasik donem tarihleri yazitlardan (Inomata). Ceibal atlasta yerlesim degil: toprak degisimi maddesi YAZILMADI."
  },
- {
+ { odak_yer:["Dos Pilas"],
   "t": "0810-01-01",
   "b": "Güneybatı Maya ovalarında siyasi çözülme dalgası: Aguateca terk edilir (≈810)",
   "tur": "siyaset",
@@ -18724,7 +18724,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "onyil",
   "ic_not": "'around 1100' yaklaşık; 'before 1200' üst sınır. Atlasta 1200 'gerileme' maddesi var; bu kaynak başlangıcı daha erkene çeker (1200'den önce)."
  },
- {
+ { odak_yer:["Natchez (Grand Village)"],
   "t": "1200-01-01",
   "b": "Natchez Grand Village yerinde 1200 ya da daha erken insanlar yaşıyordu",
   "tur": "kurulus",
@@ -18788,7 +18788,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "TEK DEĞER: kaynak 'AD 1100 onset' der; aralık verilmedi. aralik yazılmadı, kesinlik onyil.",
   "ic_not": "Kaynak bu olayı Tiwanaku için anlatır; aymara-senyorlukler ms1 künyesi (f=1100) bu çöküşün ardılı olarak seçilmiştir. Señorío'ların tek tek kuruluş yılı elimdeki metinde yok (bölüm 9 açılamadı)."
  },
- {
+ { odak_yer:["Cusco (Qosqo)"],
   "t": "1000-01-01",
   "b": "Inka siyasî gelişimi MS 1000'den kısa süre sonra yavaş bir süreç olarak başlar",
   "tur": "siyaset",
@@ -18840,7 +18840,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not_d": "ARALIK→ORTA NOKTA: kaynak 'around AD 1350-75' (oluş zamanı belirsizliği); orta nokta (1350+1375)/2 = 1362,5 → yarım yıl daha geç yıla: 1363-01-01. Kalibre/ham ayrımı kaynakta yok → güven 'belirsiz'.",
   "ic_not": "Pencere (1281) sonrasıdır; kuzco-krallik zincirinin 1281-1438 diliminin (atlasta inka-imparatorlugu görünüyor) yanlışlığını destekler. 14C'nin kalibre mi ham mı olduğu kaynakta belirsiz."
  },
- {
+ { odak_yer:["Tututepec (Yucu Dzaa)"],
   "t": "1081-01-01",
   "b": "Lord 8 Deer 18 yaşında Tilantongo'dan Pasifik kıyısına, krallık kurmak üzere yola çıkar (≈1081)",
   "tur": "siyaset",
@@ -18926,7 +18926,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kesinlik": "yuzyil",
   "ic_not": "ÇELİŞKİ: ms1 künyesi f=1100 (Nigra ve ark. 2014, 'Late Intermediate Period ca. AD 1100-1470'); bu kaynak 13. yüzyıl. La Centinela zinciri 13. yüzyıldan (1201) başlatıldı."
  },
- {
+ { odak_yer:["Bacatá (Bogotá)"],
   "t": "0750-01-01",
   "b": "Muisca dönemi (kültürel evre) Bogotá Altiplano'sunda başlar (≈1200 yıl önce)",
   "tur": "siyaset",

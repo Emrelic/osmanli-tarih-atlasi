@@ -110,7 +110,7 @@ window.OLAYLAR_EK10 = [
 // beliriyor. O gün kronolojideki tek madde Zaklise'nin Venedik'e bırakılması —
 // değişim alakasız bir maddenin altında görünüyor.
 
-{ kapsam:"ic", t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"vassal", kapsam:"ic", t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
   b:"Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
   gun:"1482", yer:"Cetinje, Lovçen eteği, Karadağ", yer_id:"Cetinje",
   kisiler:"II. Bayezid, İvan Crnojeviç",
@@ -257,7 +257,7 @@ window.OLAYLAR_EK10 = [
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ tur:"savas", kapsam:"ic", t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Bükreş ayaklanması ve Tuna kalelerine saldırı",
   gun:"Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
   ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-11-13 ve gun '13 Kasım 1594' akademik kaynakta BULUNAMADI. History of Transylvania I (HoT) s.118 yalnız 'November' (PAKET-ISYAN okudu); TDV bogdan '1594 yılı sonlarında Yaş ve Bükreş'te … bütün Türk ve Rumlar öldürüldü'; Crăciun, Crisia LIII (2023) Eflak'ın Liga'ya sonbaharda katıldığını yazar, gün vermez. 13 Kasım yalnız Vikipedi ve popüler tarih sitelerinde (historia.ro vb.) geçiyor — KAYNAKSIZ, SİLİNDİ (§4). ⇒ t:1594-11-01 + kesinlik:'ay' (p0037 emsali). §4 pencere şartı: YYYY-01-01 maddeyi isyan taramasının Eflak/Boğdan penceresinden (isy-eflak-1594 · isy-bogdan-1594 f:1594-11-01, kesinlik ay) önceye atardı. data/savaslar.js'in iki ayaklanma kaydı da aynı güne çekildi.",
@@ -269,7 +269,7 @@ window.OLAYLAR_EK10 = [
 // C-3) 1595 KALÛGERÂN — bastırma seferi
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
   b:"Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
   gun:"23 Ağustos 1595", yer:"Kalûgerân (Călugăreni), Neajlov bataklığı, Eflak",
   kisiler:"III. Mehmed, Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail",
@@ -280,7 +280,7 @@ window.OLAYLAR_EK10 = [
 // C-4) 1595 EKİM — geri çekilme ve Yergöğü baskını
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
   b:"Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
   gun:"Ekim 1595", kesinlik:"ay", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail, Erdel Prensi Zsigmond Báthory",
@@ -341,7 +341,7 @@ window.OLAYLAR_EK10 = [
 
 // --- md.38·39 — 93 Harbi'ne giden yol ve safhaları ------------------------
 
-{ kapsam:"ic", t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"savas", kapsam:"ic", t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
   gun:"24 Nisan 1877", yer:"Tuna ve Doğu Anadolu cepheleri",
   kisiler:"II. Abdülhamid, Serdârıekrem Abdülkerim Nâdir Paşa, Ahmed Muhtar Paşa, Grandük Nikola",
@@ -389,14 +389,14 @@ window.OLAYLAR_EK10 = [
 
 // --- md.57·58 — Balkan savaşları -----------------------------------------
 
-{ kapsam:"ic", t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
+{ tur:"savas", kapsam:"ic", t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı",
   gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
   kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
   d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Sırbistan-Bulgaristan, 29 Mayıs'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.", ic_not_d:"13 Eylül 2026 · KART-MADDE-CELISKI-0913 — BİRLEŞTİRME: olaylar.js'teki ay hassasiyetli `1912-10` 'Balkan Savaşları başladı' maddesi AYNI olayın mükerreriydi (kendi gun'u '8 Ekim 1912 (Karadağ'ın savaş ilanı)' diyordu; denetle.py önek ölçütü de bu çifti gerçek mükerrer diye listelemişti). O madde SİLİNDİ, bu madde tek kayıt. TAŞINAN: etiket `toprak-kayip`; son cümle — TDV `balkan-savasi`: 'Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.' Çatalca çekilişi 1912-10-23 maddesinde, Edirne'nin geri alınışı olaylar_ek.js 1913-07-21 maddesinde zaten var. TAŞINMAYAN — bulunamadı: eski maddenin kaynağı `balkan` ÖLÜ slug (302); 'seferberliğini tamamlayamayan ordu', 'yüz binlerce muhacir İstanbul'a aktı', kisiler 'Nâzım Paşa' `balkan-savasi` gövdesinde geçmiyor. Kaybolmasın diye eski metin aynen: «Karadağ'ın savaş ilanını Bulgaristan, Sırbistan ve Yunanistan izledi; seferberliğini tamamlayamayan ve siyasî çekişmelerle bölünmüş Osmanlı ordusu birkaç hafta içinde Rumeli'yi kaybetti, ordu Çatalca hattına çekildi ve yüz binlerce muhacir İstanbul'a aktı. Müttefiklerin ganimet kavgasına dönüşen II. Balkan Savaşı'nda (Temmuz 1913) Edirne ve Doğu Trakya geri alındı; ama beş asırlık Rumeli, birkaç ayda elden çıkmıştı.» Eski maddede `kapsam_genis:true` vardı; bu madde yer_yama ile Yenipazar'a bağlı, bayrak taşınmadı. İZ: yer_yama.js'teki {dosya:olaylar.js, t:1912-10} kaydı artık karşılıksız.",
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
-{ kapsam:"ic", t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı", odak_yer:["Çatalca","Selanik"],
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
@@ -422,7 +422,7 @@ window.OLAYLAR_EK10 = [
   d:"Sırp kuvvetleri savaşın ilk haftasında Yenipazar'ı aldı ve batıdan gelen Karadağ kuvvetleriyle birleşti. Sırbistan ile Karadağ'ı yüz yıldır ayıran Yenipazar sancağı böylece iki müttefik arasında köprüye dönüştü.",
   kaynak:"Sinan Koçak, JUHIS 2(1), 2019, s.5 (dergipark 741217), Çalık 2015'e atıfla: '23 Ekimde Prens Aleksandr Yenipazarı ele geçirdikten sonra batıdan gelen Karadağ ve doğudan gelen Bulgar kuvvetleriyle birleşti'" },
 
-{ kapsam:"ic", t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
+{ tur:"savas", kapsam:"ic", t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
   b:"Kırkkilise muharebesinin ardından Kırklareli elden çıktı",
   gun:"24 Ekim 1912", yer:"Kırklareli (Kırkkilise)", kisiler:"Kölemen Abdullah Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -467,7 +467,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"vodina — gövde okundu: '18 Ekim 1912’de Vodina, Yunan ordusu tarafından ele geçirildi'",
   ic_not_gun:"TAKVİM ÇEVRİLDİ: TDV 18 Ekim'i Jülyen'dir (bkz. Karaferye maddesi; Yunan savaş ilânı 18 Ekim G'dir, aynı gün Vodina'ya varılamaz) ⇒ 31 Ekim G. KUTU-H6-1015." },
 
-{ kapsam:"ic", t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
+{ tur:"savas", kapsam:"ic", t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
   b:"Yenice Muharebesi — Yenice-i Vardar'ın Yunanlılara geçmesi",
   gun:"1-2 Kasım 1912", yer:"Yenice-i Vardar (Giannitsa)", kisiler:"Hasan Tahsin Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],

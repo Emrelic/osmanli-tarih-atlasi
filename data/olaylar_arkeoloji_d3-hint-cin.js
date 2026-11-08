@@ -13,7 +13,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Maurya dynasty lasted for 137 years ; that is to say, it is supposed to have come to an end c. 184 B.C.». kur.son_mo = Chandragupta'nın iktidarının sonu (297), hanedanın değil; hanedan sonu 'bit' içinde (184). Bu kaynak 1922 tarihli; modern literatürde (Thapar, Falk) Chandragupta ~321/317 aralığı, Aşoka ~268-232 kullanılıyor ama bu oturumda hakemli modern kaynağın tam metni OKUNAMADI. Aynı 321'e ikinci tanık: Bhattasali 1932 JRAS 64(2) '322-321' (önceki dalgada özet okundu) - ikisi de aynı geleneksel hesaba dayandığı için 'bağımsız çift teyit' sayılmaz. Jain tarihi 313/312, Charpentier hipotezi 325 başlangıç; çelişki beyan edildi. Histos 2015 (Fauconnier, 'Ex Occidente Imperium') açık erişimli PDF indirildi ama rakamlar yazı tipi nedeniyle metinde kayıp (yılların hiçbiri okunamadı), dayanak yapılmadı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0201-01-01",
   "k": "kurulus",
   "b": "Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202): Batı Han hanedanı kurulur",
@@ -52,7 +52,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Accession 274 b.c. at latest; coronation 270 B.c. at latest; conquest of Kaliiiga 262 b.c. at latest». Senkronizma: CHI ferman XIII'ü '258-7 geçici tarih' ve 14. yıl varsayımıyla taç giymeyi en geç 270'e çeker. ÇELİŞKİ (kaynak 2): Charpentier J. 1931, 'Antiochus, King of the Yavanas', Bulletin of the School of Oriental Studies 6(2):303-321 (buddhism.lib.ntu.edu.tw tam metin okundu) Amtiyoka'yı Antiochos I (281-262/61) sayar ve fermanın yayın tarihi için 'en geç 261/260 MÖ' sınırını verir; alıntı 'Antiochus I (281-262/61 B.C.) and not Antiochus II (262/61-246 B.C.) is the Yavana king Amtiyoka'. Bu varsayımla Aşoka'nın katılımı 278-276'ya düşer (hipotez, 'working hypothesis' denir). Büyük çoğunluk Antiochos II'yi (261-246) kabul eder (Charpentier'in kendi aktardığı literatür). Modern 268/260 değerleri bu oturumda hakemli metinden okunamadı: kutuphane_gerekli (Falk 2006; Thapar 1997)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Patna (Azîmâbâd)"],
   "t": "-0320-01-01",
   "k": "kurulus",
   "b": "Maurya İmparatorluğu: Maurya İmparatorluğu: Chandragupta dönemi başlar",
@@ -142,7 +142,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «the Zhou 4th month in the year of the Conquest (April 26, 1046 B.C.». ÇELİŞKİ, ORTALANMADI. (a) Pankenier 1992: fetih yılı 1046 (4. ay yeni ay günü gengzi = 26 Nisan 1046, Yi Zhou shu 'Shi fu' ile). (b) Shaughnessy 1985/1991: 1045. (c) Nivison: 1040 (+ astronomik 'yuexiang' verilerine göre yalnız 1045 veya 1040 mümkün diyor). (d) Zhang P. 2023: sefer 1046, fetih 1044 (aynı Zhang 2023, 1045 ve 1027'yi anmaz). (e) BA geleneksel metin 1050. Atlas XSZ tek değer kullanacaksa 1046 (Pankenier+Proje) seçilip diğerleri ic_not'ta beyan edilmeli. 1027: bu oturumda KAYNAKTA FETİH TARİHİ olarak bulunamadı; Nivison 2011 yalnız BA'daki bir 'sui zai jiayin [1027]' not-etiketini anar (silinmesi gereken sonradan eklenti) - fetih adayı değildir. 1122 (geleneksel) bu oturumda okunan kaynakta yok."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Seul (Hanyang)","Pusan"],
   "t": "-1299-01-01",
   "k": "kurulus",
   "b": "Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma: Mumun dönemi başlar (Kore)",
@@ -185,7 +185,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1500–1450) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Stage VII (c. 1500-1450 BCE) shows the arrival of a new settler after 300 years of vacancy». AŞAMA TABLOSU (ICOMOS/UNESCO, ASI kaynaklı): I-III 3000-2500 (I: ~3000-2900, II: ~2900-2800, III: ~2800-2500); IV 2500-2100; V 2100-2000 (deprem, kısa terk); VI 1950-1800; VII 1500-1450; boşluklar 2000-1950 ve 1800-1500 MÖ. ÇELİŞKİ 1: Sengupta vd. (JQS, doi:10.1002/jqs.3178, Crossref özeti okundu, TAM METİN kapalı) yedi kültürel aşamadan arkeolojik karbonatların 14C tarihlemesiyle iskânın başlangıcını '~5500 yıl BP (pre-Harappan)', devamını '~3800 yıl BP'ye (Geç Harappa başı)' kadar verir: alıntı 'suggests the beginning of occupation at ~5500 years BP (pre-Harappan), continuation until ~3800 years BP'. Özette kalibre mi ham mı belirtilmemiş; kalibre varsayılırsa BP-1950 ile ~MÖ 3550 ve ~MÖ 1850 (bu oturumda hesap, onaylı değil). Bu, UNESCO c.3000'den ~550 yıl eski bir başlangıçtır ve haritaya yazılmadan tam metinle (Tablo) çözülmelidir. ÇELİŞKİ 2: Bisht'in orijinal ASI tablosu (Aşama I 2650-2550 ... VII 1650-1450) ve 'Aşama I 3500-3200' yeniden tarihlemesi yalnız Vikipedi/arama özeti aktarımıyla görüldü, dayanak yapılmadı. Çift teyit YOK: UNESCO dosyası ile Sengupta özeti uyuşmuyor."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Yinxu"
   ],
@@ -219,7 +219,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «by 2000 BCE, the prosperity of Lothal was waning». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2449-01-01",
   "yer_id": "Lothal",
   "k": "kurulus",
@@ -235,7 +235,7 @@ window.OLAYLAR_ARKEOLOJI_D3_HINT_CIN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2450 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Average: 2452, 2427, 2395, 2374 and 2366 BC». Kanungo vd. 2024 Tablo 1 (Possehl 1989'dan, 'kalibre tarihler orijinal yayınlardaki gibi, yeniden hesaplanmadı'): Lothal B TF-19 3759±135 BP = 2315-1865 BC; TF-23 3816±105 BP = 2320-1959 BC (ortalamalar 2275, 2210, 2307 BC). Lothal A TF-22 vd.: 3850-4032 BP = 2340-1980 .. 2655-2185 BC (TF-136 en eski, 2655-2185); TF-135 3507±125 = 1950-1570 BC (aykırı). Tablo düzeni metin çıkarımında bozuk, A/B etiket eşleşmesi kesin değil; bu nedenle kayıt tek bir kalibre uç yerine Rao beyanı + ortalama olarak verildi. Rao'nun sel kuramı sonradan terk edilmiş (Herman 1996). Orijinal ASI Memoir 78 (Rao 1979/1984) OKUNAMADI; kalibre kaynak Possehl 1989 de okunamadı (kutuphane_gerekli). Khadkikar vd. 2004 (Antiquity 78) yalnız paleocoğrafya."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2999-01-01",
   "yer_id": "Dholavira",
   "k": "kurulus",

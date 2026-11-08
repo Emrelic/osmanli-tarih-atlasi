@@ -61,7 +61,7 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1200 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «prior to apparent abandonment ca. 1200 cal. BC». kur aralığı bir EVRE (tepe köyü genişlemesi) aralığıdır, yerleşimin kuruluş tarihi DEĞİL: Sanganakallu-Kupgal'da Neolitik iskan daha erkendir (bkz. 'guney-hint-neolitigi' kaydı). Güney Hint kronolojisinde bölgesel süreklilik (Tungabhadra-Krishna) Demir Çağı'na ~MÖ 1200'de devam eder, 'terk' yalnız bu tepe kompleksi içindir. Makalenin tam metni/tabloları (bireysel kalibre aralıklar) okunamadı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Sanganakallu-Kupgal"
   ],
@@ -169,7 +169,7 @@ window.OLAYLAR_ARKEOLOJI_D2_HINT_GUNEYDOGU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1956–1573) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Man Bac site dating to 3,906-3,523 cal BP was occupied during the agricultural transition of Southeast Asia». cal BP->MÖ: BP-1950, bu oturumda (3906->1956, 3523->1573). Higham vd. 2019 (JIPA) Man Bac için 'ilk Neolitik yaklaşık MÖ 1900-1500' der (Vlok vd. 2019'a atıfla; Vlok 2019 doğrudan okunamadı): aynı ekip, bağımsız çift teyit sayılmaz. Vlok 2021 aralığı birincil radyokarbon yayını değil, atıf; Man Bac'ın birincil 14C yayını bulunamadı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Khok Phanom Di"
   ],

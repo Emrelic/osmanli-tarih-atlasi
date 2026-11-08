@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Çin, Kore, Japonya, Moğolistan — MÖ 8000–MÖ 200 (2. dalga, çok dilli: zh / ja / en / ko) (d2-cin-dogu-asya) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d2-cin-dogu-asya.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Orhun Vadisi (Ötüken bölgesi)","Urga (Ulan Batur)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Orhun Vadisi (Ötüken bölgesi)","Urga (Ulan Batur)"],
   "t": "-0208-01-01",
   "k": "kurulus",
   "b": "Xiongnu (Hunnu) imparatorluğu: Xiongnu İmparatorluğu kurulur (Han kaynakları)",
@@ -30,7 +30,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Luoyang","Haojing (Fenghao, Xi'an yakını)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Luoyang","Haojing (Fenghao, Xi'an yakını)"],
   "t": "-0769-01-01",
   "k": "kurulus",
   "b": "Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşınması): Doğu Zhou: Ping Wang Luoyi'ye taşınır (gelenek 770)",
@@ -84,7 +84,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1201–1012 (kaynağın verdiği uçlar); orta nokta MÖ 1106 = astronomik -1105. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «埋藏年代有95.4%的概率处于公元前1201年至公元前1012年». ÇİFT ANLAMLI TEYİT YOK: Pekin Üniv. Fizik Okulu Ağır İyon Fiziği Enstitüsü AMS'iyle 6 çukurdan 73 kömür örneği (haber 25.03.2021): K4 'en olası' 1199–1017 MÖ (https://sklnpt.pku.edu.cn/info/1120/2167.htm) — aynı veri tabanı, bağımsız değil. Zhu Naicheng 2022: K4 için 6 14C örneği Bayes kalibrasyonu → %68.3 olasılıkla 3072–3003 BP (≈1122–1053 MÖ; BP−1950 çevirisi aracın hesabı); tüm çukur gömülmesi 'MÖ ~1300–1046' (Shang sonu). Kaynaklarda örnek sayısı çelişiyor (73 / 14; Sixth Tone ~200) → belirsiz. K1 ve diğer eski çukurlar ayrı olabilir."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Hakata (Fukuoka)","Edo (Tokyo)","Hirosaki"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Hakata (Fukuoka)","Edo (Tokyo)","Hirosaki"],
   "t": "-13749-01-01",
   "k": "kurulus",
   "b": "Jōmon başlangıcı: Sōsōki (Incipient) dönemi: Sōsōki (Jomon başlangıç evresi) başlar",
@@ -154,7 +154,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
    "Rakhigarhi"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Sanxingdui"
   ],
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1600–1500) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «可以推定三星堆文明的形成年代大致在公元前1600—前1500年之间». Zhu'nun 'oluşum' tarihi Erlitou/Qijia buluntularıyla çapraz tarihlemeye dayanır (14C ham sayısı değil); I. evre (Neolitik, Baodun benzeri) için 'üst sınır ~4800 BP' iddiası Xu Hong'un tarihçesine göre ayrı kültürlere ait olduğundan 4800 BP 'erken olanı seçerek' verilmiştir, kalibre veriler 4600–4500 BP'ye yakındır (arama özetinde, PDF okunamadı → bulunamadı listesinde)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Erlitou"
   ],
@@ -244,7 +244,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «夏为公元前2070年至公元前1600年». YAZILI GELENEK ≠ ARKEOLOJİ (ayrı yazıldı). Arkeolojik tarafta Xia'yı doğrudan tarihleyen yazıt yoktur. Erlitou I'in 14C tarihi 1750 MÖ'den eski değildir (bkz. erlitou kaydı); CASS'tan Dong Xiaolei (CSSN 16.08.2024) bunu şöyle özetler: 'Erlitou I'in 14C tarihlerinin en erkeni ancak MÖ 18. yy başında; Xia başlangıcı ile arada belirgin boşluk'. Chen Minzhen'e göre Erlitou kültürü 200 küsur yıl sürer ve 471 yıllık Xia'yı dolduramaz. Lee vd. 2007 (PNAS) Xia'yı 'ca. 2100–1600 B.C.' diye yazar (gelenek). Bu iki değer birbirinden bağımsız doğrulama DEĞİLDİR; ikisi de proje kronolojisine dayanır. Projenin kendisi yöntem olarak yazılı kral yıllarını referans çerçeve almış olduğundan eleştirilir (Nanjing Üniv. Zhou Xiaolu, 2014 konferansı; 1046 MÖ vb. sonuçlar yurtiçi/yurtdışı eleştirmişti)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Taosi"
   ],
@@ -262,7 +262,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «遗址绝对年代为公元前2300年至公元前1900年». Kaynak 14C tablosu vermez, 'sistematik tarih verisi'ne atıf yapar; faz sınırları (erken/orta/geç) sayfada yok. ÇİFT TEYİT sayılmadı: Gao Jiangtao (高江涛, CASS), Guangming Daily/CSSN 10.03.2025: Taosi 'distance to present ≈ 4300–3900 yıl' (BP−1950 ile ≈ 2350–1950 MÖ; çeviri bu oturumda; kalibre durumu belirtilmemiş) — https://cssn.cn/kgxc/kgxc_kgdz/202503/t20250310_5856614.shtml. Medya düzeyi faz değerleri (erken 4300–4100, orta 4100–4000, geç 4000–3900 BP; Thepaper.cn/He Nu) kayda alınmadı. Taosi erken evresinin Shimao A segmentinden hafif eski olduğu belirtilir (Shao Jing)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Shimao"
   ],
@@ -304,7 +304,7 @@ window.OLAYLAR_ARKEOLOJI_D2_CIN_DOGU_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 2950–2850) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase V (4,900-4,800 cal BP, Changshan culture)». cal BP→MÖ: BP−1950, bu oturumda. ÇİFT TEYİT (bağımsızlık belirsiz): Leipe C. vd. 2019, Science Advances 5:eaax6225 (PMC6760930): Dadiwan 'occupation phase 1 (5800 to 5300 BCE)' (en). Her iki kaynak da aynı Dadiwan kazı raporlarına dayanıyor olabilir. Eski Çince değer (Dili Xuebao / Acta Geographica Sinica 1985): Dadiwan I 7800–7355 BP — kalibre edilmemiş ham tarih, KAYIT DIŞI. Leipe'nin notu: Dadiwan I'deki 8 darı tanesi tek bir çukurdan, daha genç tabakadan karışma ihtimali yüksek (tarih tartışmalı)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Dadiwan"
   ],

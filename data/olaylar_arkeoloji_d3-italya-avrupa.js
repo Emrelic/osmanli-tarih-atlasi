@@ -37,7 +37,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 685–655 (kaynağın verdiği uçlar); orta nokta MÖ 670 = astronomik -0669. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.3 (kaynak 95.4 için 'kesinlikle 650'den önce' der). Kaynaktan okunan: «the HaC-HaD transition almost certainly occurred before 650 cal BC, and most likely between 685 and 655 cal BC (68.3% probability)». ÇELİŞKİ (iki okul): geleneksel ~616 BC (Villingen-Schwenningen 'Magdalenenberg' Ha D1 dendro kesim tarihi; Friedrich & Hennig 1996, Parzinger 1989) vs 14C 685-655. Makale ayrıca 'Hallstatt dönemi c.800-450 BC' çerçevesini verir (Ha D3 / La Tène A sınırı olarak ~450 çerçeve bitişi). Bu çerçeve AYNI makalenin giriş ifadesidir; Ha D3/La Tène A sınırı için ayrı, dendro/14C'li bir kaynak BULUNAMADI. Kalibrasyon platosu 750-400 cal BC nedeniyle model yerel (Dietfurt) bir sonuçtur; coğrafi gecikme olasılığı makalede belirtilir."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Roma"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Roma"],
   "t": "-0751-01-01",
   "k": "kurulus",
   "b": "Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios)",
@@ -49,7 +49,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ITALYA_AVRUPA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «founded Rome, in the beginning of the first year of the seventh Olympiad». GELENEK beyanı: bu kayıt arkeolojik başlangıç DEĞİLDİR. Arkeolojik başlangıç için bkz. wave-2 'latium-vetus-roma-colli-albani', 'roma-forum-nekropolu', 'fidene-kulubesi'. Palatino kulübeleri / Carandini (2. çeyrek 8. yy duvar iddiası) yalnız popüler/ikincil sayfalarda görüldü ve ALINMADI; Carandini 'La nascita di Roma' ve Cornell 1995 kütüphane_gerekli'de."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Karthago",
    "Kartaca"

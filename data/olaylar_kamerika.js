@@ -35,7 +35,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Britanya Kraliyet Meclisi'nin kararıyla, Kuzey Amerika'nın kuzeyindeki bütün adalar ve hakları Kanada Dominyonu'na devredildi. Karar, 1870'te Rupert's Land'in devrini tamamlayan son adımdı ve Kanada'nın bugünkü kuzey sınırlarını kâğıt üzerinde kurdu. Devir, o topraklarda yaşayan İnuit topluluklarına danışılmadan yapıldı ve fiilî idare on yıllarca kurulmadı.", "ic_not_d": "Bu gün, atlasta otuz üç İnuit yerleşiminin bağlı olduğu kimliğin değiştiği gündür. TDV bu coğrafyayı kapsamamaktadır; Historical Atlas of Canada (University of Toronto Press) esas alındı."
   },
 
-  {"bolge": 1, 
+  { tur:"antlasma","bolge": 1, 
     "t": "1868-07-03",
     "k": "antlasma",
     "etiket": [
@@ -81,7 +81,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "İspanya kralı V. Karl, fethedilen Meksika topraklarını doğrudan kraliyet idaresine bağlayarak Yeni İspanya Genel Valiliği'ni kurdu ve ilk genel valiliğe Antonio de Mendoza'yı atadı. Bu düzenleme, fâtihlerin şahsî tasarrufuna dayanan düzeni sona erdirdi. Merkezi Meksika'da olan genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu."
   },
 
-  {"bolge": 1, 
+  { tur:"antlasma","bolge": 1, 
     "t": "1762-11-03",
     "k": "antlasma",
     "etiket": [
@@ -104,7 +104,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Yedi Yıl Savaşı'nın sonuna doğru Fransa, Mississippi'nin batısındaki Luizyana'yı ve New Orleans'ı gizli bir antlaşmayla İspanya'ya bıraktı. Böylece Fransa'nın Kuzey Amerika'daki varlığı fiilen sona erdi: ertesi yıl Paris Antlaşması ırmağın doğusunu Britanya'ya verecekti.", "ic_not_d": "Atlasta bu ayrım önemlidir — Luizyana İspanya'ya, İllinois ülkesi Britanya'ya gitti ve iki bölge o günden sonra farklı kimlikler taşır. TDV bu coğrafyayı kapsamamaktadır."
   },
 
-  {"bolge": 1, 
+  { tur:"antlasma","bolge": 1, 
     "t": "1851-09-17",
     "k": "antlasma",
     "etiket": [
@@ -126,7 +126,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "ABD ile Kuzey Ovalar halkları arasında imzalanan antlaşma, Lakota, Karga, Mandan, Hidatsa, Arikara, Şayen, Arapaho ve Assiniboine topraklarının sınırlarını ilk kez yazılı olarak tanımladı ve göçmen yollarının güvenliğini karşılığında bağladı. Sınırlar kısa sürede aşıldı.", "ic_not_d": "ama atlasta bu gün Missouri kıyısındaki köy halklarının kimliğinin tanımlandığı gündür. TDV bu coğrafyayı kapsamamaktadır; Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1829-01-01",
     "k": "kurulus",
     "etiket": [
@@ -150,7 +150,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Hudson's Bay Company, Liard Irmağı üzerinde Fort Halkett'i kurarak Mackenzie havzasından Kayalıklar'ın batısına uzanan kürk hattını uzattı. Karakol, Kaska Dene topraklarında şirketin en batıdaki ileri mevkilerinden biriydi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Historical Atlas of Canada esas alındı."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1829-01-01",
     "k": "kurulus",
     "etiket": [
@@ -174,7 +174,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Hudson's Bay Company, Fort Carlton ile Fort Edmonton arasındaki boşluğu kapatmak için Kuzey Saskatchewan kıyısında Fort Pitt'i kurdu. Karakol pemmican tedarikinin ana merkezlerinden biri oldu ve Ova Krileri ile şirket arasındaki ticaretin düğüm noktası hâline geldi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1829-01-01",
     "k": "kurulus",
     "etiket": [
@@ -196,7 +196,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Missouri'nin güneybatısında, Osage topraklarının doğu ucundaki Ozark yaylasında Springfield kuruldu. Yerleşim, Osage'ın 1825'te bölgeyi bırakmasından sonra açılan araziye yönelen göçün merkezi oldu ve güneybatı Missouri'nin ana kasabası hâline geldi.", "ic_not_d": "Kaynak kuruluş yılını verir, gününü vermez; §4 gereği YYYY-01-01 yazılmıştır. Handbook of North American Indians c.13 (Smithsonian) esas alındı."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1803-01-01", "kaynak": "The Canadian Encyclopedia, 'Fort William' (https://www.thecanadianencyclopedia.ca/en/article/fort-william) — «In 1803 the North West Company (NWC) constructed a new fort at its Lake Superior headquarters, replacing Grand Portage» (KASA SALI kuyruğu 58; KASA PAZAR 4 Kasım 2026)",
     "k": "kurulus",
     "etiket": [
@@ -218,7 +218,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "Kuzeybatı Şirketi, Grand Portage'ın ABD toprağında kalması üzerine iç merkezini Superior Gölü'nün kuzeyine taşıdı ve Fort William'ı kurdu. Karakol, Montreal'den gelen kanolarla iç bölgeden gelen kürklerin buluştuğu yıllık toplantı yeriydi ve şirketin kıta ölçeğindeki ağının kalbi oldu.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1803-01-01",
     "k": "kurulus",
     "etiket": [
@@ -242,7 +242,7 @@ window.OLAYLAR_KAMERIKA = [
     "d": "ABD ordusu, Michigan Gölü ile Mississippi havzasını birleştiren Chicago geçidinde Fort Dearborn'u kurdu. Geçit 1670'lerden beri biliniyor ve kullanılıyordu; kale, Kuzeybatı Toprakları'nda ABD denetiminin batıya uzanışını işaretledi.", "ic_not_d": "Kaynak yıl verir, gün vermez; §4 gereği YYYY-01-01."
   },
 
-  {"bolge": 1, 
+  { tur:"kurulus","bolge": 1, 
     "t": "1803-01-01",
     "k": "kurulus",
     "etiket": [

@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
    "Sart"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Gordion"
   ],
@@ -128,7 +128,7 @@ window.OLAYLAR_ARKEOLOJI_D2_ANADOLU_EGE = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8300–8100) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «early settlement phase of approximately 8300–8100 cal BC and a later phase of approximately 8100–7800 cal BC». Bu iki blok 'tabaka/dönem' türüdür (iki evrenin toplamı 8300–7800), tek olay kalibre aralığı değildir. Wikipedia 8300–7800 BCE, BIAA programı 9300–7600 cal BC der — ikincil/çelişik; Baird 2018 esas alındı. Çatalhöyük Doğu ve Aşıklı bu dalgada tekrarlanmadı. Aşıklı sonrası Orta Anadolu / Canhasan III'ün model tarihi (Fairbairn vd. 2020 Antiquity 94(374):342, doi:10.15184/aqy.2020.13) tam metinde, açılamadı; Baird 2018 yalnız Canhasan III için ~7400–7100 cal BC'yi başka çalışmadan (ref 27) alıntılar."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Karaman",
    "Konya"

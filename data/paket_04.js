@@ -176,7 +176,7 @@ window.OLAYLAR_EK17 = [
 // aitmiş gibi görünüyor — bu şüpheler madde METNİNDE açıkça işaretlendi,
 // veri (t:) DEĞİŞTİRİLMEDİ (§7, yerlesimler*.js benim dosyam değil).
 
-{ kapsam:"ic", t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
+{ tur:"vassal", kapsam:"ic", t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   b:"Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, Tilimsan'ın kesin fethi",
   gun:"1552-53", ic_not_gun:"TDV ve akademik kaynak yıl verir, gün vermez",
   yer:"Tilimsan, Biskra, Tuggurt, Mustagānim, Muaskar, Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye, Tâhert (Tiaret), Vargla (Ouargla), el-Vâdî (Sûf)",
@@ -184,7 +184,7 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. Mustagānim önündeki büyük muharebe ise bu yıl değil, 1558'de oldu: Hasan Paşa orada İspanyol Kontu Alcaudete'yi yenerek Kuzey Afrika'daki İspanyol taarruzlarını bitirdi.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı. · TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım · eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri… · eski: ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: … asıl muharebe 1558'dedir.",
   kaynak:"tilimsan — Tuggurt/Ouargla/Biskra için TDV kapsamıyor, dayanak: standart akademik Kuzey Afrika tarihçiliği", duygu:["🎌","⚔️"] },
 
-{ kapsam:"ic", t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-idari","konu-diplomasi"],
+{ tur:"kurulus", kapsam:"ic", t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-idari","konu-diplomasi"],
   b:"Habeş Eyaleti'nin kuruluşu — Kızıldeniz kıyısının Osmanlı idaresine girişi",
   gun:"15 Şâban 962 (5 Temmuz 1555) kuruluş, 2 Nisan 1557 Masavva'nın alınışı",
   yer:"Sevâkin, Masavva, Dahlak, Ebû Ramâd (Şalâtîn), Arkîko, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât, Muhammed Kol, Derûdeb",
@@ -208,7 +208,7 @@ window.OLAYLAR_EK17 = [
   d:"Irakeyn Seferi sırasında Pasin, Şüregel ve Oltu kaleleri Osmanlılar'ın eline geçti; Kars Kalesi'nin de bu sırada bağlandığı kuvvetle muhtemeldir. Kars'ın kuzey ve doğusundaki Arpaçay ve Digor yöresi aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"🆕 DOGU-1533-0087 (9 Ekim 2026): IĞDIR ÇIKARILDI — TDV igdir--sehir: Iğdır ve Sürmeli Çukur 1583'te Revan'ın fethiyle kesin Osmanlı oldu, 1736'da Revan eyaletiyle İran'a kaldı, 1828-1917 Rus; 1534'te Osmanlı DEĞİL. Şüregel TDV kars'ta ADIYLA geçer (Küçükperveli Şüregel/Akyaka'ya 7,5 km — W6-DALGA2); Arpaçay (Zaruşad) ve Digor için 1534 hâlâ ÇIKARIMDIR. Kars'ın kendisi TDV'de 'kuvvetle muhtemel'dir. ⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
   kaynak:"kars (Şüregel · 940/1534 adıyla; Arpaçay/Digor çıkarım) + irakeyn-seferi (ay) + igdir--sehir (Iğdır'ın çıkarılması)", duygu:["🎉"] },
 
-{ kapsam:"ic", t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
   gun:"Ağustos 1686 (yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)", ic_not_gun:"TDV yalnız yıl verir; gün ve ayrıntı akademik kaynağa göre",
   yer:"Anabolu (Nauplion), Mora", yer_id:"Anabolu (Nauplion)",
@@ -216,7 +216,7 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Anabolu maddesine göre kuşatma sırasında şehirdeki müslüman halktan sağ kalabilenler civar adalara ve Anadolu'ya kaçtı (1686). Standart akademik kaynağa göre (Setton, Venice, Austria, and the Turks in the Seventeenth Century) Königsmarck'ın kuvvetleri iki hafta boyunca Osmanlı yardım ordusunun saldırılarını püskürttü; 29 Ağustos'ta İsmail Paşa'nın taarruzu ağır yenilgiyle sonuçlanınca kale birkaç gün içinde teslim oldu. Anabolu, 1540'ta antlaşmayla devralınmış Osmanlı toprağıydı; kaybıyla Mora yarımadasının Venedik'e geçişi hızlandı.", ic_not_d:"⚠️ Budin'in kaybıyla (1686-09-02) KARIŞTIRILMASIN — ayrı cephe, ayrı olay, yalnızca birkaç gün arayla üst üste düşüyor.",
   kaynak:"anabolu", duygu:["😔"] },
 
-{ kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Semendire'nin Habsburg (Macaristan Krallığı tacı) elinden geri alınışı — 1737-39 Savaşı",
   gun:"Ağustos 1738", ic_not_gun:"TDV ay verir, gün vermez",
   yer:"Semendire", yer_id:"Semendire",
@@ -232,7 +232,7 @@ window.OLAYLAR_EK17 = [
   d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
-{ kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları",
   gun:"21 Mart 1800",
   yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
@@ -240,7 +240,7 @@ window.OLAYLAR_EK17 = [
   d:"1799'da Rus-Osmanlı müşterek donanması Fransızları İyon adalarından çıkarmış (Korfu kalesi 5 Mart 1799'da düştü); 21 Mart 1800 tarihli on iki maddelik sözleşmeyle adalar, iç işlerinde özerk, dış işlerde Osmanlı'ya bağlı Cezâyir-i Seb'a-i Müctemia Cumhuru (Yedi Ada Cumhuriyeti) olarak kuruldu. 1799-03-05 ile bu gün arası müşterek işgal dönemidir.", ic_not_d:"TDV korfu kuruluşu 'Korfu Antlaşması, 3 Nisan 1800' diye anar; TDV yedi-ada-cumhuriyeti 21 Mart 1800 (on iki maddelik sözleşme). Konuyu kapsayan madde yedi-ada olduğundan 21 Mart esas; çelişki iki kaynağıyla beyan edilir.",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
-{ kapsam:"ic", t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
   b:"Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus hakları Fransa'ya devredildi",
   gun:"7 Temmuz 1807 (TDV: 9 Temmuz 1807)",
   yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
@@ -248,7 +248,7 @@ window.OLAYLAR_EK17 = [
   d:"Tilsit'te Rusya ile Fransa arasında varılan anlaşmayla Rusya, Yedi Ada üzerindeki haklarını Fransa'ya bıraktı; Fransız birlikleri 1807 yazında adalara yerleşti ve Yedi Ada Cumhuriyeti ortadan kalktı.", ic_not_d:"Gün çelişkisi: atlas künyesi (septinsular t) 7 Temmuz; TDV yedi-ada-cumhuriyeti '9 Temmuz 1807 tarihinde Rusya ile Fransa arasında Tilsitt Antlaşması imzalandığında' der. Dönem ucu künye ucuyla eş (07-07) bırakıldı; ③ D3'te TDV'ye çekme önerilir. Fiilî Fransız inişi 1807 Ağustos (ikincil kaynak; okunmadı).",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["⚔️","😔"] },
 
-{ kapsam:"dis", bolge:3, t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"dis", bolge:3, t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
@@ -696,7 +696,7 @@ window.OLAYLAR_EK20 = [
 // Üçünün de dayanağı TDV gövdesi — okundu, alıntılandı, uydurulmadı.
 window.OLAYLAR_EK21 = [
 
-  { t: "1811-04-01",
+  { tur:"savas", t: "1811-04-01",
     b: "Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi",
     k: "savas",
     onem: 2,
@@ -710,7 +710,7 @@ window.OLAYLAR_EK21 = [
     gun: "Nisan 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "nigbolu", duygu: ["⚔️"] },
 
-  { t: "1811-05-01",
+  { tur:"savas", t: "1811-05-01",
     b: "Silistre'nin tahliyesi — Tuna'nın orta kalesi surları yıkılarak bırakıldı",
     k: "savas",
     onem: 2,
@@ -754,7 +754,7 @@ window.OLAYLAR_EK21 = [
   // ⇒ Kutaisi'nin (madde ①'in vakası) aksine bu build KIRMIYOR; §10'un
   //   "eğer doğru ise ayrı madde ile gösterilmeli, ismi ile zikredilmeli"
   //   kuralına giriyor. Gün DEĞİŞMEDİ — yalnız kendi maddesi yazıldı.
-  { kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
+  { tur:"fetih", kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
     b:"Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
     gun:"1537", ic_not_gun:"(944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Kars", yer_id:"Kars",
@@ -896,7 +896,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `besni` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Bu arada 1398’de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da 1400’de Timur’un Sivas ve Malatya’yı zaptı sırasında Memlükler’in eline geçti. Ancak Timur 27 Eylül 1400’de şiddetli bir muhasaradan sonra burayı zaptetti. Onun bu yöreden çekilmesinden sonra tekrar Memlükler’in hâkimiyetine girdi.\"",
   ic_not_d:"Timur'un 27 Eylül 1400 zaptı haritaya YAZILMADI: çekilişin günü kaynakta yok. Kırılma günü 1400-08-01 yalnız yıl+komşu günüdür." },
 
-{ kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Memlük Sultanı Şeyh, Antep ile Darende'yi Dulkadırlılar'dan geri aldı",
   gun:"1414 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Antep", yer_id:"Darende",
@@ -905,7 +905,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"dulkadirogullari", duygu:["⚔️"],
   ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Dulkadırlılar’ın Osmanlılar’la dostluk münasebetleri Memlükler’i endişelendirmeye başladı. Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende’yi Dulkadırlılar’dan geri aldı.\"" },
 
-{ kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Dulkadıroğlu Mehmed Bey Darende'yi geri aldı, Besni'yi de topraklarına kattı",
   gun:"1418 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Besni", yer_id:"Darende",
@@ -1026,7 +1026,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"Bánlaky (MEK 09477) 0015/1291: 'a szatmári német őrség szintén Rákóczyék zsoldjába szegődött' · 0015/1292: 'a diplomát Linzben írta alá 1645 december 16-án' · MTA History of Transylvania (195.html)" },
 
 // ── KUTU-B-1014 (2) — Bizans haraçgüzarlığı · Çehrin 1676 ──
-{ kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
+{ tur:"vassal", kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
   b:"Bizans İmparatorluğu Osmanlı'nın haraçgüzârı oldu",
   gun:"1372 kışı",
   yer:"İstanbul, Selanik, Gelibolu, Silivri", yer_id:"İstanbul", kisiler:"V. Ioannes Palaiologos, I. Murad",

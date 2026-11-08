@@ -37,7 +37,7 @@
 
 window.OLAYLAR_P0048 = [
 
-{ kapsam:"ic", t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
+{ tur:"isyan", kapsam:"ic", t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
   b:"Luristan hâkimi Şâhverdi'nin Şah Abbas'a bağlılık bildirmesi",
   gun:"1000 (1591-92) — kaynak yalnız yılı veriyor",
   yer:"Luristan (Hürremâbâd)", yer_id:"Luristan",

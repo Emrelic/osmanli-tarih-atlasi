@@ -29,7 +29,7 @@
 window.OLAYLAR_P0055 = [
 
 // ── ① 1371 · Dejanoviç Prensliği Osmanlı vasalı ─────────────────────────
-{ t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ tur:"vassal", t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu",
   gun:"1371 — Meriç (Çirmen) Savaşı'nın ardından; kaynak gün vermiyor",
   yer:"Köstendil (Velbujd), Ustrumca, İştip, Doyran, Köprülü (Veles)", yer_id:"Ustrumca (Strumica)",
@@ -87,7 +87,7 @@ window.OLAYLAR_P0055 = [
 //    maddeler bu dosyaya yazıldı (başka madde dosyası yetkisi yok).
 //    Kaynak yama: denetim/YAMA-ARAP-0914.json ARAP-N1 (M4 · M4b).
 // ═════════════════════════════════════════════════════════════════════
-{ t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+{ tur:"savas", t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Desaix'nin Yukarı Mısır seferi — Fransız tümeni Minye, Asyut ve Girga'ya ulaştı",
   gun:"21 Aralık (Minye) · 25 Aralık (Asyut) · 29 Aralık 1798 (Girga)",
   yer:"Minye, Asyut, Girga", yer_id:"Asyut",
@@ -104,7 +104,7 @@ window.OLAYLAR_P0055 = [
   d:"Mısır'ı işgal eden Fransız ordusu Suriye'ye yürürken Sina kıyısındaki Arîş'i ele geçirdi.",
   kaynak:"aris", duygu:["😔"] },
 
-{ t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
+{ tur:"savas", t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
   b:"Arîş'in Fransızlardan geri alınması",
   gun:"28 Aralık 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",

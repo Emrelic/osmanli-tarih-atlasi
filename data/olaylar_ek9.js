@@ -136,7 +136,7 @@ window.OLAYLAR_EK9 = [
   d:"Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"hidiv", duygu:["🎉"], yer_id:"Kerene" },
 
-{ t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-diplomasi"],
   kapsam:"ic", onem:3, b:"Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
   gun:"3 Haziran 1884", yer:"Adua, Habeşistan", kisiler:"Amiral William Hewett, Yohannes IV, Hidiv Tevfik",
   d:"Mehdî ayaklanması Sudan'daki Mısır garnizonlarını kuşatınca İngiltere, Habeşistan'ın yardımını almak için 3 Haziran 1884'te Adua'da Yohannes IV ile antlaşma imzaladı. Antlaşmanın ikinci maddesi Bogos'u Habeşistan'a geri veriyor, karşılığında Habeşistan kuşatılmış garnizonların Masavva üzerinden tahliyesine yol açıyordu. Kerene böylece on iki yıllık Mısır idaresinden çıktı; beş yıl sonra bölge İtalyan Eritresi'ne katılacaktı.",
@@ -248,7 +248,7 @@ window.OLAYLAR_EK9 = [
   d:"Urâbî Paşa'nın önderliğindeki subay hareketi hidivi denetim altına alınca İngiltere Süveyş yolunun güvenliğini bahane ederek müdahale etti. Amiral Seymour'un filosu 11-12 Temmuz 1882'de İskenderiye'nin sahil tabyalarını bombaladı; şehirde çıkan yangın ve yağmadan sonra 15 Temmuzda İngiliz birlikleri karaya çıktı. Osmanlı Devleti hukuken hükümran olduğu bir vilâyetinde bu harekâta engel olamadı ve müdahaleye katılma çağrısını da cevapsız bıraktı. Böylece otuz iki yıl sürecek işgalin ilk adımı atılmış oldu.",
   kaynak:"urabi-pasa", duygu:["😔"] },
 
-{ kapsam:"ic", t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
   gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
   d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü.", ic_not_d:"Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
@@ -298,7 +298,7 @@ window.OLAYLAR_EK9 = [
 // Mehdî devleti tek hamlede doğup tek hamlede yıkılıyor gibi görünüyor.
 // Aşağıdaki dört madde arasını doldurur.
 
-{ kapsam:"ic", t:"1883-11-05", k:"kayip", etiket:["toprak-kayip","savas","isyan","konu-askeri","konu-isyan"],
+{ tur:"savas", kapsam:"ic", t:"1883-11-05", k:"kayip", etiket:["toprak-kayip","savas","isyan","konu-askeri","konu-isyan"],
   b:"Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi",
   gun:"5 Kasım 1883", yer:"Şeykan, Kordofan", kisiler:"William Hicks Paşa, Muhammed Ahmed el-Mehdî",
   d:"Kahire'den gönderilen ve yaklaşık on bin kişilik Mısır kuvvetine kumanda eden emekli İngiliz subayı Hicks Paşa, Kordofan çölünde susuz ve kılavuzsuz ilerlerken 5 Kasım 1883'te Şeykan'da Mehdî kuvvetlerince kuşatıldı ve ordu neredeyse tamamen imha edildi. Bu bozgun Sudan'daki Mısır idaresinin belkemiğini kırdı: bir ay içinde Darfur ve Bahrülgazâl teslim oldu, Kordofan'ın tamamı Mehdî'ye geçti. Hartum'un düşüşüne giden yol buradan başlar.",
@@ -310,13 +310,13 @@ window.OLAYLAR_EK9 = [
   d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı.", ic_not_d:"Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
   kaynak:"sudan", duygu:["🎉"], yer_id:"Dongola" },
 
-{ kapsam:"ic", t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
   gun:"2 Eylül 1898", yer:"Ümmüdurman (Omdurman), Hartum karşısı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
   d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır. Mehdî devletinin bu yenilgisiyle Dârfûr (El-Fâşir, Nyala, Cenîne, Kutum vd.) Ali Dinar’ın yeniden kurduğu Dârfûr Sultanlığı’na geçti.",
   kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' ve 'Dârfûr' (islamansiklopedisi.org.tr/sudan, /darfur)", duygu:["🎉","😔"], yer_id:"Hartum" },
 
-{ kapsam:"ic", t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
   gun:"19 Ocak 1899", yer:"Kahire · Sudan", kisiler:"Lord Cromer, Butros Gali Paşa",
   d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı. Bu antlaşmayla 22. paralelin güneyindeki Sudan toprakları (Dongola, Hartum, Sennar, Kordofan, Sevakin kıyısı vd.) İngiliz-Mısır ortak idaresine (İngiliz-Mısır Sudanı) geçti.",
@@ -342,7 +342,7 @@ window.OLAYLAR_EK9 = [
 // ayrı bir madde de var (1881-12-20). Birleşik maddenin düzeltilmesi merkez
 // oturumda; bu madde işgalin tamamlanışını ekler.
 
-{ kapsam:"ic", t:"1883-06-08", k:"kayip", etiket:["antlasma","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1883-06-08", k:"kayip", etiket:["antlasma","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
   gun:"8 Haziran 1883", yer:"Mersâ (La Marsa), Tunus", kisiler:"Ali Bey, Paul Cambon",
   d:"12 Mayıs 1881 tarihli Bardo (Kasrüssaîd) Antlaşması Tunus'un dış işlerini Fransa'ya bırakmış ama iç idareyi beye bırakmıştı; iki yıl sonra 8 Haziran 1883'te imzalanan Mersâ Sözleşmesi malî ve idarî reformları da Fransız denetimine verdi ve himayeyi tamamladı. Osmanlı Devleti Tunus üzerindeki hükümranlık iddiasını sürdürdü ve işgali hiçbir zaman tanımadı, ama fiilî bir karşı adım atamadı. Böylece 1574'ten beri Osmanlı ocaklığı olan Tunus resmen Fransız himayesine girdi.",
@@ -383,7 +383,7 @@ window.OLAYLAR_EK9 = [
 // Yalnız Akkâ kuşatmasının günü TDV'de kesin: 18 Mart 1799 (`akka`).
 // Piramitler'in günü standart kayıttan alındı ve maddede işaretlendi.
 
-{ kapsam:"ic", t:"1798-07-21", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1798-07-21", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
   gun:"21 Temmuz 1798 (gün standart kayıttan)", yer:"Îmbâbe, Giza, Kahire", kisiler:"Napolyon Bonapart, Murad Bey, İbrâhim Bey",
   d:"Napolyon İskenderiye'den Nil boyunca güneye yürüdü ve 21 Temmuz 1798'de Giza karşısındaki Îmbâbe'de Murad Bey'in Kölemen süvarisini karşıladı. Kare düzenindeki Fransız piyadesi süvari hücumlarını kırdı; Kölemen ordusu dağıldı ve Kahire iki gün sonra direnişsiz teslim oldu. Murad Bey Yukarı Mısır'a, İbrâhim Bey Suriye'ye çekildi. Fransızlar Kahire'de bir dîvân kurup idareyi ulemâ eliyle yürütmeye çalıştılar; 1798 Ekiminde ve 1800 Martında iki büyük Kahire ayaklanması çıktı.",

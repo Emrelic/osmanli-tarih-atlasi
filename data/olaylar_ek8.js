@@ -102,7 +102,7 @@ window.OLAYLAR_EK8 = [
    "🎉"
   ]
  },
- {"kapsam": "ic", 
+ { tur:"vassal","kapsam": "ic", 
   "t": "1577-01-01",
   "k": "vassal",
   "etiket": [
@@ -238,7 +238,7 @@ window.OLAYLAR_EK8 = [
   ],
   "yer_id": "Basra"
  },
- {"kapsam": "ic", 
+ { tur:"antlasma","kapsam": "ic", 
   "t": "1830-02-03",
   "k": "antlasma",
   "etiket": [
@@ -275,7 +275,7 @@ window.OLAYLAR_EK8 = [
   "d": "1818'de Mehmed Ali Paşa kuvvetlerinin Dir'iyye'yi düşürmesiyle Cebelişemmer bölgesi Suûdî hâkimiyetinden çıktı ve emirlik İbn Ali ailesinin elinde kaldı. Osmanlı hâkimiyetinin yeniden tesisini destekleyen Abdullah b. Reşîd, kardeşi Ubeyd ile birlikte İbn Ali ailesine karşı giriştiği mücadeleyi 1835'te kazanarak Hâil emirliğini ele geçirdi ve Reşîdî hânedanının hâkimiyetini kurdu.", "ic_not_d": "TDV kaynağı yalnız yılı veriyor, gün belirtmiyor.  VERİ NOTU: data/yerlesimler.js'teki Hâil kaydı bu değişimi 1836-01-01 olarak taşıyor (1 yıl fark) — Değişmez 2 senkronu için yerleşim tarihinin 1835-01-01'e çekilmesi gerekir; bu düzeltme Yerleşim/Entegrasyon oturumuna aittir, benim yetkim dışında.",
   "kaynak": "residiler"
  },
- {"kapsam": "ic", 
+ { tur:"antlasma","kapsam": "ic", 
   "t": "1920-08-10",
   "k": "antlasma",
   "etiket": [

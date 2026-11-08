@@ -81,7 +81,7 @@ window.OLAYLAR_7A4170 = [
 
 { kapsam:"ic", t:"1856-01-01", k:"idari", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi","konu-idari"], b:"Senûsiyye'nin çöl merkezi Cağbûb'un Osmanlı düzenine bağlanması — Abdülmecid'in muafiyet fermanı", gun:"1856", yer:"Cağbûb, Bingazi, Sirenayka", yer_id:"Cağbûb", kisiler:"Sultan Abdülmecid, Muhammed b. Ali es-Senûsî", d:"Uzun yıllar Mekke'de kalan Muhammed b. Ali es-Senûsî Trablusgarp'a döndükten sonra Mısır sınırındaki Cağbûb vahasına yerleşerek hâkim kayalık üzerinde büyük bir zâviye yaptırdı; birkaç barakadan ibaret olan yer kısa sürede şehre dönüştü. 1856'da Sultan Abdülmecid'in fermanıyla tarikat mensuplarına ait emlâk vergiden muaf tutuldu ve müridlere zekât toplama yetkisi verildi. Bu ferman, Batı Afrika ve Sudan'ı Kahire'ye bağlayan kervan yolu üzerindeki vahayı Osmanlı malî ve idarî düzeninin bir parçası hâline getirdi ve Cağbûb'u ticaret merkezi olarak güçlendirdi. Bölge halkının halifeye bağlılığı, 1884 ve 1893'te burayı gezen miralay Sâdık el-Müeyyed'in seyahatnâmesiyle de doğrulanır.", kaynak:"cagbub", duygu:["🕌"] },
 
-{ kapsam:"ic", t:"1859-04-25", k:"kurulus", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi","konu-ulastirma"], b:"Süveyş Kanalı kazısının başlaması ve Portsaid'in kuruluşu", gun:"25 Nisan 1859", yer:"Portsaid (Bûr Saîd), Menzile gölü, Süveyş berzahı", yer_id:"Portsaid", kisiler:"Ferdinand de Lesseps, Said Paşa, Sultan Abdülmecid", d:"Bâbıâli'nin 5 Ocak 1856'da onay verdiği Lesseps projesinin kazı çalışmaları 25 Nisan 1859'da başladı; kanal on yıl sonra, 16 Kasım 1869'da tamamlanacaktı. Kazının Akdeniz ucunda, Menzile gölü ile deniz arasındaki kıyı kordonunda işçiler için kurulan beş evlik baraka köyü Portsaid'in çekirdeğini oluşturdu. Şehre, kanal şirketinin yetkilileri tarafından dönemin Mısır valisi Said Paşa'ya ithafen 1860'ta 'Said limanı' anlamında bu ad verildi. Böylece Osmanlı haritasında, daha önce hiçbir yerleşimin bulunmadığı bir kıyı şeridinde yeni bir liman doğmuş oldu.", kaynak:"suveys", duygu:["🏛"] },
+{ tur:"kurulus", kapsam:"ic", t:"1859-04-25", k:"kurulus", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi","konu-ulastirma"], b:"Süveyş Kanalı kazısının başlaması ve Portsaid'in kuruluşu", gun:"25 Nisan 1859", yer:"Portsaid (Bûr Saîd), Menzile gölü, Süveyş berzahı", yer_id:"Portsaid", kisiler:"Ferdinand de Lesseps, Said Paşa, Sultan Abdülmecid", d:"Bâbıâli'nin 5 Ocak 1856'da onay verdiği Lesseps projesinin kazı çalışmaları 25 Nisan 1859'da başladı; kanal on yıl sonra, 16 Kasım 1869'da tamamlanacaktı. Kazının Akdeniz ucunda, Menzile gölü ile deniz arasındaki kıyı kordonunda işçiler için kurulan beş evlik baraka köyü Portsaid'in çekirdeğini oluşturdu. Şehre, kanal şirketinin yetkilileri tarafından dönemin Mısır valisi Said Paşa'ya ithafen 1860'ta 'Said limanı' anlamında bu ad verildi. Böylece Osmanlı haritasında, daha önce hiçbir yerleşimin bulunmadığı bir kıyı şeridinde yeni bir liman doğmuş oldu.", kaynak:"suveys", duygu:["🏛"] },
 
 { kapsam:"ic", t:"1863-04-03", k:"siyaset", etiket:["siyaset","toprak-kazanc","konu-askeri","konu-siyasi"], b:"Sultan Abdülaziz'in Mısır ziyareti ve Süveyş berzahında İsmâiliye'nin kuruluşu", gun:"3 Nisan 1863", yer:"İsmâiliye, Timsah gölü, Kahire, İskenderiye", yer_id:"İsmâiliye", kisiler:"Sultan Abdülaziz, Hidiv İsmâil Paşa, Yûsuf Kâmil Paşa", d:"Sultan Abdülaziz, Sadrazam Yûsuf Kâmil Paşa'nın teşvikiyle 3 Nisan 1863'te Mısır'a gitti ve büyük bir tezahüratla karşılandı; amaç, Kavalalı Mehmed Ali Paşa isyanından beri fiilen ayrı bir devlet hâlini almaya başlayan vilâyetin merkeze bağlılığını kuvvetlendirmekti. Aynı yıl berzahta, Timsah gölü kıyısındaki Tilâlülcisr tepelerinde kanal şirketinin idare merkezi kuruldu: önce mühendisler için Karyetüttimsah, ardından işçiler için Karyetülarab köyleri oturtuldu. Hidiv İsmâil Paşa'nın tatlı su kanalıyla yakından ilgilenip bu tepede kendisine bir köşk yaptırması üzerine yerleşim onun adıyla İsmâiliye diye anıldı. Şehrin kuruluşu 1863 yılına tarihlenir; kesin günü bilinmez.", ic_not_d:"eski: TDV şehrin kuruluşunu 1863'e koyar, gününü vermez; bu madde bu yüzden gününü kaynağın verdiği ziyaret tarihine bağlamıştır.", kaynak:"abdulaziz", duygu:["🏛"] },
 
@@ -195,7 +195,7 @@ window.OLAYLAR_EK8 = [
    "🎉"
   ]
  },
- {"kapsam": "ic", 
+ { tur:"vassal","kapsam": "ic", 
   "t": "1577-01-01",
   "k": "vassal",
   "etiket": [
@@ -331,7 +331,7 @@ window.OLAYLAR_EK8 = [
   ],
   "yer_id": "Basra"
  },
- {"kapsam": "ic", 
+ { tur:"antlasma","kapsam": "ic", 
   "t": "1830-02-03",
   "k": "antlasma",
   "etiket": [
@@ -368,7 +368,7 @@ window.OLAYLAR_EK8 = [
   "d": "1818'de Mehmed Ali Paşa kuvvetlerinin Dir'iyye'yi düşürmesiyle Cebelişemmer bölgesi Suûdî hâkimiyetinden çıktı ve emirlik İbn Ali ailesinin elinde kaldı. Osmanlı hâkimiyetinin yeniden tesisini destekleyen Abdullah b. Reşîd, kardeşi Ubeyd ile birlikte İbn Ali ailesine karşı giriştiği mücadeleyi 1835'te kazanarak Hâil emirliğini ele geçirdi ve Reşîdî hânedanının hâkimiyetini kurdu.", "ic_not_d": "TDV kaynağı yalnız yılı veriyor, gün belirtmiyor.  VERİ NOTU: data/yerlesimler.js'teki Hâil kaydı bu değişimi 1836-01-01 olarak taşıyor (1 yıl fark) — Değişmez 2 senkronu için yerleşim tarihinin 1835-01-01'e çekilmesi gerekir; bu düzeltme Yerleşim/Entegrasyon oturumuna aittir, benim yetkim dışında.",
   "kaynak": "residiler"
  },
- {"kapsam": "ic", 
+ { tur:"antlasma","kapsam": "ic", 
   "t": "1920-08-10",
   "k": "antlasma",
   "etiket": [
@@ -573,7 +573,7 @@ window.OLAYLAR_EK9 = [
   d:"Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı.", ic_not_d:"Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"hidiv", duygu:["🎉"], yer_id:"Kerene" },
 
-{ t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi","konu-askeri","konu-diplomasi"],
   kapsam:"ic", onem:3, b:"Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
   gun:"3 Haziran 1884", yer:"Adua, Habeşistan", kisiler:"Amiral William Hewett, Yohannes IV, Hidiv Tevfik",
   d:"Mehdî ayaklanması Sudan'daki Mısır garnizonlarını kuşatınca İngiltere, Habeşistan'ın yardımını almak için 3 Haziran 1884'te Adua'da Yohannes IV ile antlaşma imzaladı. Antlaşmanın ikinci maddesi Bogos'u Habeşistan'a geri veriyor, karşılığında Habeşistan kuşatılmış garnizonların Masavva üzerinden tahliyesine yol açıyordu. Kerene böylece on iki yıllık Mısır idaresinden çıktı; beş yıl sonra bölge İtalyan Eritresi'ne katılacaktı.",
@@ -685,7 +685,7 @@ window.OLAYLAR_EK9 = [
   d:"Urâbî Paşa'nın önderliğindeki subay hareketi hidivi denetim altına alınca İngiltere Süveyş yolunun güvenliğini bahane ederek müdahale etti. Amiral Seymour'un filosu 11-12 Temmuz 1882'de İskenderiye'nin sahil tabyalarını bombaladı; şehirde çıkan yangın ve yağmadan sonra 15 Temmuzda İngiliz birlikleri karaya çıktı. Osmanlı Devleti hukuken hükümran olduğu bir vilâyetinde bu harekâta engel olamadı ve müdahaleye katılma çağrısını da cevapsız bıraktı. Böylece otuz iki yıl sürecek işgalin ilk adımı atılmış oldu.",
   kaynak:"urabi-pasa", duygu:["😔"] },
 
-{ kapsam:"ic", t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
   gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
   d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü.", ic_not_d:"Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
@@ -735,7 +735,7 @@ window.OLAYLAR_EK9 = [
 // Mehdî devleti tek hamlede doğup tek hamlede yıkılıyor gibi görünüyor.
 // Aşağıdaki dört madde arasını doldurur.
 
-{ kapsam:"ic", t:"1883-11-05", k:"kayip", etiket:["toprak-kayip","savas","isyan","konu-askeri","konu-isyan"],
+{ tur:"savas", kapsam:"ic", t:"1883-11-05", k:"kayip", etiket:["toprak-kayip","savas","isyan","konu-askeri","konu-isyan"],
   b:"Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi",
   gun:"5 Kasım 1883", yer:"Şeykan, Kordofan", kisiler:"William Hicks Paşa, Muhammed Ahmed el-Mehdî",
   d:"Kahire'den gönderilen ve yaklaşık on bin kişilik Mısır kuvvetine kumanda eden emekli İngiliz subayı Hicks Paşa, Kordofan çölünde susuz ve kılavuzsuz ilerlerken 5 Kasım 1883'te Şeykan'da Mehdî kuvvetlerince kuşatıldı ve ordu neredeyse tamamen imha edildi. Bu bozgun Sudan'daki Mısır idaresinin belkemiğini kırdı: bir ay içinde Darfur ve Bahrülgazâl teslim oldu, Kordofan'ın tamamı Mehdî'ye geçti. Hartum'un düşüşüne giden yol buradan başlar.",
@@ -747,13 +747,13 @@ window.OLAYLAR_EK9 = [
   d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı.", ic_not_d:"Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
   kaynak:"sudan", duygu:["🎉"], yer_id:"Dongola" },
 
-{ kapsam:"ic", t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
   gun:"2 Eylül 1898", yer:"Ümmüdurman (Omdurman), Hartum karşısı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
   d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır. Mehdî devletinin bu yenilgisiyle Dârfûr (El-Fâşir, Nyala, Cenîne, Kutum vd.) Ali Dinar’ın yeniden kurduğu Dârfûr Sultanlığı’na geçti.",
   kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' ve 'Dârfûr' (islamansiklopedisi.org.tr/sudan, /darfur)", duygu:["🎉","😔"], yer_id:"Hartum" },
 
-{ kapsam:"ic", t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
   gun:"19 Ocak 1899", yer:"Kahire · Sudan", kisiler:"Lord Cromer, Butros Gali Paşa",
   d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı. Bu antlaşmayla 22. paralelin güneyindeki Sudan toprakları (Dongola, Hartum, Sennar, Kordofan, Sevakin kıyısı vd.) İngiliz-Mısır ortak idaresine (İngiliz-Mısır Sudanı) geçti.",
@@ -779,7 +779,7 @@ window.OLAYLAR_EK9 = [
 // ayrı bir madde de var (1881-12-20). Birleşik maddenin düzeltilmesi merkez
 // oturumda; bu madde işgalin tamamlanışını ekler.
 
-{ kapsam:"ic", t:"1883-06-08", k:"kayip", etiket:["antlasma","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1883-06-08", k:"kayip", etiket:["antlasma","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
   gun:"8 Haziran 1883", yer:"Mersâ (La Marsa), Tunus", kisiler:"Ali Bey, Paul Cambon",
   d:"12 Mayıs 1881 tarihli Bardo (Kasrüssaîd) Antlaşması Tunus'un dış işlerini Fransa'ya bırakmış ama iç idareyi beye bırakmıştı; iki yıl sonra 8 Haziran 1883'te imzalanan Mersâ Sözleşmesi malî ve idarî reformları da Fransız denetimine verdi ve himayeyi tamamladı. Osmanlı Devleti Tunus üzerindeki hükümranlık iddiasını sürdürdü ve işgali hiçbir zaman tanımadı, ama fiilî bir karşı adım atamadı. Böylece 1574'ten beri Osmanlı ocaklığı olan Tunus resmen Fransız himayesine girdi.",
@@ -820,7 +820,7 @@ window.OLAYLAR_EK9 = [
 // Yalnız Akkâ kuşatmasının günü TDV'de kesin: 18 Mart 1799 (`akka`).
 // Piramitler'in günü standart kayıttan alındı ve maddede işaretlendi.
 
-{ kapsam:"ic", t:"1798-07-21", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1798-07-21", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
   gun:"21 Temmuz 1798 (gün standart kayıttan)", yer:"Îmbâbe, Giza, Kahire", kisiler:"Napolyon Bonapart, Murad Bey, İbrâhim Bey",
   d:"Napolyon İskenderiye'den Nil boyunca güneye yürüdü ve 21 Temmuz 1798'de Giza karşısındaki Îmbâbe'de Murad Bey'in Kölemen süvarisini karşıladı. Kare düzenindeki Fransız piyadesi süvari hücumlarını kırdı; Kölemen ordusu dağıldı ve Kahire iki gün sonra direnişsiz teslim oldu. Murad Bey Yukarı Mısır'a, İbrâhim Bey Suriye'ye çekildi. Fransızlar Kahire'de bir dîvân kurup idareyi ulemâ eliyle yürütmeye çalıştılar; 1798 Ekiminde ve 1800 Martında iki büyük Kahire ayaklanması çıktı.",
@@ -977,7 +977,7 @@ window.OLAYLAR_EK10 = [
 // beliriyor. O gün kronolojideki tek madde Zaklise'nin Venedik'e bırakılması —
 // değişim alakasız bir maddenin altında görünüyor.
 
-{ kapsam:"ic", t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"vassal", kapsam:"ic", t:"1482-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
   b:"Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu",
   gun:"1482", yer:"Cetinje, Lovçen eteği, Karadağ", yer_id:"Cetinje",
   kisiler:"II. Bayezid, İvan Crnojeviç",
@@ -1124,7 +1124,7 @@ window.OLAYLAR_EK10 = [
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ tur:"savas", kapsam:"ic", t:"1594-11-01", kesinlik:"ay", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Bükreş ayaklanması ve Tuna kalelerine saldırı",
   gun:"Kasım 1594", yer:"Bükreş, Yergöğü, İbrail, Hırsova, Silistre ve Bender", yer_id:"Bükreş",
   ic_not_gun:"PAKET-KRON3 13 Eylül 2026 (1.MURAT M-3870 hükmü): eski t 1594-11-13 ve gun '13 Kasım 1594' akademik kaynakta BULUNAMADI. History of Transylvania I (HoT) s.118 yalnız 'November' (PAKET-ISYAN okudu); TDV bogdan '1594 yılı sonlarında Yaş ve Bükreş'te … bütün Türk ve Rumlar öldürüldü'; Crăciun, Crisia LIII (2023) Eflak'ın Liga'ya sonbaharda katıldığını yazar, gün vermez. 13 Kasım yalnız Vikipedi ve popüler tarih sitelerinde (historia.ro vb.) geçiyor — KAYNAKSIZ, SİLİNDİ (§4). ⇒ t:1594-11-01 + kesinlik:'ay' (p0037 emsali). §4 pencere şartı: YYYY-01-01 maddeyi isyan taramasının Eflak/Boğdan penceresinden (isy-eflak-1594 · isy-bogdan-1594 f:1594-11-01, kesinlik ay) önceye atardı. data/savaslar.js'in iki ayaklanma kaydı da aynı güne çekildi.",
@@ -1136,7 +1136,7 @@ window.OLAYLAR_EK10 = [
 // C-3) 1595 KALÛGERÂN — bastırma seferi
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1595-08-23", k:"savas", etiket:["savas","konu-askeri"],
   b:"Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi",
   gun:"23 Ağustos 1595", yer:"Kalûgerân (Călugăreni), Neajlov bataklığı, Eflak",
   kisiler:"III. Mehmed, Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail",
@@ -1147,7 +1147,7 @@ window.OLAYLAR_EK10 = [
 // C-4) 1595 EKİM — geri çekilme ve Yergöğü baskını
 // ---------------------------------------------------------------------------
 
-{ kapsam:"ic", t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1595-10-01", k:"savas", etiket:["savas","konu-askeri"],
   b:"Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
   gun:"Ekim 1595", kesinlik:"ay", yer:"Yergöğü (Giurgiu), Tuna'nın Eflak yakası", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail, Erdel Prensi Zsigmond Báthory",
@@ -1208,7 +1208,7 @@ window.OLAYLAR_EK10 = [
 
 // --- md.38·39 — 93 Harbi'ne giden yol ve safhaları ------------------------
 
-{ kapsam:"ic", t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ tur:"savas", kapsam:"ic", t:"1877-04-24", k:"savas", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
   gun:"24 Nisan 1877", yer:"Tuna ve Doğu Anadolu cepheleri",
   kisiler:"II. Abdülhamid, Serdârıekrem Abdülkerim Nâdir Paşa, Ahmed Muhtar Paşa, Grandük Nikola",
@@ -1256,14 +1256,14 @@ window.OLAYLAR_EK10 = [
 
 // --- md.57·58 — Balkan savaşları -----------------------------------------
 
-{ kapsam:"ic", t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
+{ tur:"savas", kapsam:"ic", t:"1912-10-08", k:"savas", etiket:["savas","ittifak","toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı",
   gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
   kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
   d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Sırbistan-Bulgaristan, 29 Mayıs'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.", ic_not_d:"13 Eylül 2026 · KART-MADDE-CELISKI-0913 — BİRLEŞTİRME: olaylar.js'teki ay hassasiyetli `1912-10` 'Balkan Savaşları başladı' maddesi AYNI olayın mükerreriydi (kendi gun'u '8 Ekim 1912 (Karadağ'ın savaş ilanı)' diyordu; denetle.py önek ölçütü de bu çifti gerçek mükerrer diye listelemişti). O madde SİLİNDİ, bu madde tek kayıt. TAŞINAN: etiket `toprak-kayip`; son cümle — TDV `balkan-savasi`: 'Savaş sırasında ordu içindeki siyasî görüş ayrılıkları yenilgide büyük rol oynadı.' Çatalca çekilişi 1912-10-23 maddesinde, Edirne'nin geri alınışı olaylar_ek.js 1913-07-21 maddesinde zaten var. TAŞINMAYAN — bulunamadı: eski maddenin kaynağı `balkan` ÖLÜ slug (302); 'seferberliğini tamamlayamayan ordu', 'yüz binlerce muhacir İstanbul'a aktı', kisiler 'Nâzım Paşa' `balkan-savasi` gövdesinde geçmiyor. Kaybolmasın diye eski metin aynen: «Karadağ'ın savaş ilanını Bulgaristan, Sırbistan ve Yunanistan izledi; seferberliğini tamamlayamayan ve siyasî çekişmelerle bölünmüş Osmanlı ordusu birkaç hafta içinde Rumeli'yi kaybetti, ordu Çatalca hattına çekildi ve yüz binlerce muhacir İstanbul'a aktı. Müttefiklerin ganimet kavgasına dönüşen II. Balkan Savaşı'nda (Temmuz 1913) Edirne ve Doğu Trakya geri alındı; ama beş asırlık Rumeli, birkaç ayda elden çıkmıştı.» Eski maddede `kapsam_genis:true` vardı; bu madde yer_yama ile Yenipazar'a bağlı, bayrak taşınmadı. İZ: yer_yama.js'teki {dosya:olaylar.js, t:1912-10} kaydı artık karşılıksız.",
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
-{ kapsam:"ic", t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı", odak_yer:["Çatalca","Selanik"],
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
@@ -1289,7 +1289,7 @@ window.OLAYLAR_EK10 = [
   d:"Sırp kuvvetleri savaşın ilk haftasında Yenipazar'ı aldı ve batıdan gelen Karadağ kuvvetleriyle birleşti. Sırbistan ile Karadağ'ı yüz yıldır ayıran Yenipazar sancağı böylece iki müttefik arasında köprüye dönüştü.",
   kaynak:"Sinan Koçak, JUHIS 2(1), 2019, s.5 (dergipark 741217), Çalık 2015'e atıfla: '23 Ekimde Prens Aleksandr Yenipazarı ele geçirdikten sonra batıdan gelen Karadağ ve doğudan gelen Bulgar kuvvetleriyle birleşti'" },
 
-{ kapsam:"ic", t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
+{ tur:"savas", kapsam:"ic", t:"1912-10-24", k:"kayip", onem:3, dunya:2, yer_id:"Kırklareli",
   b:"Kırkkilise muharebesinin ardından Kırklareli elden çıktı",
   gun:"24 Ekim 1912", yer:"Kırklareli (Kırkkilise)", kisiler:"Kölemen Abdullah Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -1334,7 +1334,7 @@ window.OLAYLAR_EK10 = [
   kaynak:"vodina — gövde okundu: '18 Ekim 1912’de Vodina, Yunan ordusu tarafından ele geçirildi'",
   ic_not_gun:"TAKVİM ÇEVRİLDİ: TDV 18 Ekim'i Jülyen'dir (bkz. Karaferye maddesi; Yunan savaş ilânı 18 Ekim G'dir, aynı gün Vodina'ya varılamaz) ⇒ 31 Ekim G. KUTU-H6-1015." },
 
-{ kapsam:"ic", t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
+{ tur:"savas", kapsam:"ic", t:"1912-11-02", k:"kayip", onem:3, dunya:2, yer_id:"Yenice-i Vardar",
   b:"Yenice Muharebesi — Yenice-i Vardar'ın Yunanlılara geçmesi",
   gun:"1-2 Kasım 1912", yer:"Yenice-i Vardar (Giannitsa)", kisiler:"Hasan Tahsin Paşa",
   etiket:["savas","toprak-kayip","konu-askeri"],
@@ -1550,7 +1550,7 @@ window.OLAYLAR_EK11 = [
 // Timurlu, Karakoyunlu ve Akkoyunlu devirlerinin dördünü birden siliyor.
 // Ölçüm ve önerilen zincir: OTURUM-13-ANADOLU.md §2.
 
-{ kapsam:"dis", bolge:3, t:"1401-01-01", k:"savas", etiket:["yikim","konu-askeri"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1401-01-01", k:"savas", etiket:["yikim","konu-askeri"],
   b:"Timur Bağdat'ı ikinci defa işgal etti — şehrin Abbâsî mahalleleri yıkıldı",
   gun:"1401 (803 h.; ay ve gün kaynakta yok)", yer:"Bağdat, Irâk-ı Arab", yer_id:"Bağdat",
   kisiler:"Timur, Ahmed Celâyir",
@@ -1651,7 +1651,7 @@ window.OLAYLAR_EK11 = [
   d:"Hemedan yenilgisinden sonra Bağdat'a sığınan Akkoyunlu Sultan Murad'ın ardından Şah İsmâil 1508'de Irâk-ı Arab'a girdi ve Bağdat'ı aldı. Kerbelâ ve Necef'teki türbelerin Safevî idaresine geçmesi, hareketin mezhebî iddiası bakımından Tebriz'in alınması kadar önemliydi. Haritada Irâk-ı Arab aynı gün el değiştirir; bu, çözülüşün son ve en geniş coğrafî adımıdır. Bağdat 1534'te Kanûnî'nin Irakeyn Seferi'ne kadar Safevî elinde kaldı.", ic_not_d:"eski: Haritada kırk altı yerleşim aynı gün el değiştirir;",
   kaynak:"safeviler", duygu:["🏛"] },
 
-{ bolge:3, t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"savas", bolge:3, t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
   kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
@@ -1692,7 +1692,7 @@ window.OLAYLAR_EK11 = [
   yer:"Zebîd — Yemen", yer_id:"Zebîd", kisiler:"Hadım Süleyman Paşa",
   d:"Diu kuşatmasını 5 Kasım 1538'de kaldıran donanma dönüş yolunda Yemen kıyısına uğradı ve Zebîd kesin olarak Osmanlı idaresine bağlandı; Hadım Süleyman Paşa şehirden 10 Mart 1539'da ayrılıp 1 Nisan'da Cidde'ye vardı. Şehir 1517'den beri eski Memlûk beylerinin elinde Osmanlı adına yönetiliyordu; bu tarihle doğrudan idareye geçti.", ic_not_d:"⚠️ Atlas bu geçişi uzun süre 3 Ağustos 1538'de gösteriyordu, oysa o gün alınan yer Aden'dir. Düzeltmenin kaynağı: Ertuğrul Önalp, \\\"Hadım Süleyman Paşa'nın 1538 yılındaki Hindistan Seferi\\\", OTAM (Ankara Üniversitesi Osmanlı Tarihi Araştırma ve Uygulama Merkezi Dergisi) — tam metin okundu. · DUNYA-1102 hücre 11 (KASA, 2 Kasım 2026): teyit çift teyit. TDV Zebîd maddesi yalnız 945/1539 verir (Osmanlı Yemeni tek sancak); gün Süleyman Paşa maddesinden. Kevkebân maddesi 946 (1539) der (küçük yıl farkı). Mevcut 'üst sınır 10 Mart 1539' ile uyumlu. Hicrî-miladi eşleşmesi TDV'nin kendi beyanı. Öncül/ardıl çakışma kontrolü uygulayıcıya. · KASA-KIRILMA (2 Kasım 2026): t 1539-01-01 → 1539-02-24 TAŞINDI — TDV Süleyman Paşa cümlesi yeniden okundu, «bölgeyi doğrudan Osmanlı hâkimiyeti altına aldı» = devir günü; Zebîd yerleşiminin v:/d: ucu aynı güne taşındı (1539-01-01'deki öteki 16 kırılma ucu Burma/Peru, ilgisiz, dokunulmadı).", duygu:["🎉"], kaynak:"TDV İslâm Ansiklopedisi, 'Süleyman Paşa, Hadım' (islamansiklopedisi.org.tr/suleyman-pasa-hadim); TDV 'Zebîd' (945/1539) — «Zebîd hâkimi Nâhudâ Ahmed Bey'i 5 Şevval 945'te (24 Şubat 1539) bir divan toplantısı sırasında öldürterek»" },
 
-{ bolge:1, t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", bolge:1, t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   kapsam:"dis", b:"Tanca İngiltere'ye devredildi",
   gun:"30 Ocak 1662", yer:"Tanca — Fas", yer_id:"Tanca",
   kisiler:"II. Charles, Catherine de Braganza, Peterborough Kontu",
@@ -1790,7 +1790,7 @@ window.OLAYLAR_EK12 = [
 //   kırılma üretmez). 1560-01-01 ve 1560-03-12'nin ±30 gün penceresinde
 //   kırılma YOK (ARAC-KITA14-PENCERE-0913.py ile ölçüldü) — taşıma hiçbir
 //   kırılmayı açmıyor, yanlışlıkla da kapatmıyor.
-{ kapsam:"ic", t:"1560-03-12", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1560-03-12", k:"savas", etiket:["savas","konu-askeri"],
   b:"Haçlı donanması Cerbe'yi işgal etti — Turgut Paşa'nın üssü elden çıktı",
   gun:"12 Mart 1560 (14 Cemâziyelâhir 967)", yer:"Cerbe (Djerba), Trablusgarp", yer_id:"Cerbe (Djerba)",
   kisiler:"Turgut Paşa, Piyâle Paşa",
@@ -1825,7 +1825,7 @@ window.OLAYLAR_EK12 = [
   d:"Mohaç'tan sonra Macar tahtında iki kral çıkmıştı: soyluların bir kısmı János Szapolyai'yi, bir kısmı Habsburg Ferdinand'ı seçmişti. Ferdinand 1527'de Budin'i ele geçirip Szapolyai'yi başşehirden çıkardı; Szapolyai Sultan Süleyman'dan yardım istedi. Bu, 1529 Viyana seferinin ilk hedefinin Budin olmasının sebebidir.",
   kaynak:"TDV suleyman-i AYNEN: '23 Eylül 1527'de Ferdinand, Szapolyai'yi Budin'den çıkarınca içerideki ağır krize rağmen Kanûnî Sultan Süleyman ve İbrâhim Paşa bütün dikkatlerini buraya yöneltti.' · TDV budin AYNEN: '1527 Ağustosunda Buda'yı ele geçiren Ferdinand'a karşı János Szapolyai Sultan Süleyman'dan yardım istedi.'" },
 
-{ kapsam:"ic", t:"1537-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"vassal", kapsam:"ic", t:"1537-01-01", k:"vassal", etiket:["toprak-kazanc","siyaset","konu-askeri","konu-siyasi"],
   b:"Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne girdi",
   gun:"944-945 (1537-1538)", ic_not_gun:"Kaynak yalnız hicrî yıl aralığı veriyor; tarih alanı YIL düzeyindedir (§4), ay-gün yok.",
   yer:"Nakşa (Naxos), Paros, Değirmenlik (Milos), Kimolos, Sire (Syros), Nio (İos), Santorini ve çevre adalar", yer_id:"Nakşa", kisiler:"Barbaros Hayreddin Paşa",
@@ -1871,7 +1871,7 @@ window.OLAYLAR_EK12 = [
   d:"Bagirmi ve Vedây'ı sarsan Sudanlı savaş beyi Râbih b. Zübeyr Bornu'yu ele geçirdi; 1896'ya kadar ülkenin tamamını alıp Dikeo'yu merkez edindi.",
   kaynak:"TDV bornu AYNEN: '… Bornu, Bagirmi Sultanı Râbih b. Zübeyir'in hâkimiyetine girdi (1893).' · '1896'ya kadar ülkenin tamamını ele geçiren ve Dikeo'yu merkez edinen Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürülünce yerine oğlu hâkimiyetini devam ettirmek istedi, fakat Fransızlar karşısında tutunamadı.'" },
 
-{ bolge:1, t:"1900-04-22", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
+{ tur:"savas", bolge:1, t:"1900-04-22", k:"savas", kapsam:"dis", etiket:["savas","konu-askeri"],
   b:"Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü",
   gun:"22 Nisan 1900 (Kusseri muharebesi)", ic_not_gun:"TDV yalnız YIL veriyor (bornu, cad). GÜN akademik: Marc Michel, Revue historique des Armées 218 (2000) 'la bataille de Kousséri, le 22 avril 1900' · A. Bangui, Journal des africanistes 74 (2004) 'à Kousseri, le 22 avril 1900'. 🔴 YER ÇELİŞKİSİ: TDV cad 'Dikoa’daki (Dikwa) savaşta esir düştü' der; akademik kaynaklar Kusseri — taraf seçilmedi, başlık yeri anmaz. Eski t 1900-01-01 yıl koduydu. KUTU-H1-1015",
   yer:"Bornu", yer_id:"Dikva (Dikeo)", kisiler:"Râbih b. Zübeyr",
@@ -2009,7 +2009,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // 1488 = Portekiz nüfuzunun/himayesinin kuruluşu · 1508 = fiilî işgal.
 // İkisi de yazıldı; koordinatör kırılmayı hangisine koyacağına karar verir.
-{ bolge:1, t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"vassal", bolge:1, t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Safi'nin Portekiz nüfuzuna girmesi",
   gun:"1488", ic_not_gun:"(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
   yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
@@ -2019,7 +2019,7 @@ window.OLAYLAR_EK13 = [
 // A-5 — Santa Cruz do Cabo de Gué (Agadir)
 // ---------------------------------------------------------------------------
 // 🔴 NOKTA ZATEN VARDI, dönem yoktu — D3'ün "en ucuz düzeltme"si.
-{ bolge:1, t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"kurulus", bolge:1, t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
   gun:"1505 (gün ve ay kaynakta yok; taca devir 1513)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı", yer_id:"Agadir",
@@ -2040,7 +2040,7 @@ window.OLAYLAR_EK13 = [
 // A-7 — Mazagan kalesinin kurulması
 // ---------------------------------------------------------------------------
 // 📌 Bu, Portekiz'in Fas'ta EN UZUN tuttuğu yerdir — 255 yıl (A-10'a bakınız).
-{ bolge:1, t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"kurulus", bolge:1, t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
   gun:"1514 yazı (gün kaynakta yok; kale 1541-42'de yeniden ve çok daha güçlü inşa edildi)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
@@ -2213,7 +2213,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // Manama kaydındaki mevcut dönem: `ingiltere 1861-05-31 → 1923-10-29`.
 // TDV `bahreyn` ise 21 Mayıs 1861 diyor. On günlük fark; İKİSİ DE yazıldı.
-{ bolge:2, t:"1861-05-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", bolge:2, t:"1861-05-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   kapsam:"dis", onem:3, b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
   gun:"21 Mayıs 1861", ic_not_gun:"KUTU-H1-1015: TDV bahreyn '21 Mayıs 1861’de' — TDV birincil, gün buna alındı (eski t 1861-05-31). İngiliz belgelerinde (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861; fark beyan.",
   yer:"Bahreyn (Evâl adaları)",
@@ -2301,7 +2301,7 @@ window.OLAYLAR_EK13 = [
 // ⚠️ GÜN YOK: literatür Mart 1362'de birleşiyor, bir kısmı Nisan 1362 diyor.
 //    `padisahlar.js` `to:"1362-03"` taşıyor ⇒ `t:` onunla hizalandı.
 
-{ kapsam:"ic", t:"1362-03-01", k:"taht", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
+{ tur:"taht", kapsam:"ic", t:"1362-03-01", k:"taht", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   b:"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
   gun:"Mart 1362", ic_not_gun:"(gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
   yer:"Bursa", yer_id:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",

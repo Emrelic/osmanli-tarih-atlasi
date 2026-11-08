@@ -46,7 +46,7 @@ window.OLAYLAR_EK11 = [
 // Timurlu, Karakoyunlu ve Akkoyunlu devirlerinin dördünü birden siliyor.
 // Ölçüm ve önerilen zincir: OTURUM-13-ANADOLU.md §2.
 
-{ kapsam:"dis", bolge:3, t:"1401-01-01", k:"savas", etiket:["yikim","konu-askeri"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1401-01-01", k:"savas", etiket:["yikim","konu-askeri"],
   b:"Timur Bağdat'ı ikinci defa işgal etti — şehrin Abbâsî mahalleleri yıkıldı",
   gun:"1401 (803 h.; ay ve gün kaynakta yok)", yer:"Bağdat, Irâk-ı Arab", yer_id:"Bağdat",
   kisiler:"Timur, Ahmed Celâyir",
@@ -147,7 +147,7 @@ window.OLAYLAR_EK11 = [
   d:"Hemedan yenilgisinden sonra Bağdat'a sığınan Akkoyunlu Sultan Murad'ın ardından Şah İsmâil 1508'de Irâk-ı Arab'a girdi ve Bağdat'ı aldı. Kerbelâ ve Necef'teki türbelerin Safevî idaresine geçmesi, hareketin mezhebî iddiası bakımından Tebriz'in alınması kadar önemliydi. Haritada Irâk-ı Arab aynı gün el değiştirir; bu, çözülüşün son ve en geniş coğrafî adımıdır. Bağdat 1534'te Kanûnî'nin Irakeyn Seferi'ne kadar Safevî elinde kaldı.", ic_not_d:"eski: Haritada kırk altı yerleşim aynı gün el değiştirir;",
   kaynak:"safeviler", duygu:["🏛"] },
 
-{ bolge:3, t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"savas", bolge:3, t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
   kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
@@ -188,7 +188,7 @@ window.OLAYLAR_EK11 = [
   yer:"Zebîd — Yemen", yer_id:"Zebîd", kisiler:"Hadım Süleyman Paşa",
   d:"Diu kuşatmasını 5 Kasım 1538'de kaldıran donanma dönüş yolunda Yemen kıyısına uğradı ve Zebîd kesin olarak Osmanlı idaresine bağlandı; Hadım Süleyman Paşa şehirden 10 Mart 1539'da ayrılıp 1 Nisan'da Cidde'ye vardı. Şehir 1517'den beri eski Memlûk beylerinin elinde Osmanlı adına yönetiliyordu; bu tarihle doğrudan idareye geçti.", ic_not_d:"⚠️ Atlas bu geçişi uzun süre 3 Ağustos 1538'de gösteriyordu, oysa o gün alınan yer Aden'dir. Düzeltmenin kaynağı: Ertuğrul Önalp, \\\"Hadım Süleyman Paşa'nın 1538 yılındaki Hindistan Seferi\\\", OTAM (Ankara Üniversitesi Osmanlı Tarihi Araştırma ve Uygulama Merkezi Dergisi) — tam metin okundu. · DUNYA-1102 hücre 11 (KASA, 2 Kasım 2026): teyit çift teyit. TDV Zebîd maddesi yalnız 945/1539 verir (Osmanlı Yemeni tek sancak); gün Süleyman Paşa maddesinden. Kevkebân maddesi 946 (1539) der (küçük yıl farkı). Mevcut 'üst sınır 10 Mart 1539' ile uyumlu. Hicrî-miladi eşleşmesi TDV'nin kendi beyanı. Öncül/ardıl çakışma kontrolü uygulayıcıya. · KASA-KIRILMA (2 Kasım 2026): t 1539-01-01 → 1539-02-24 TAŞINDI — TDV Süleyman Paşa cümlesi yeniden okundu, «bölgeyi doğrudan Osmanlı hâkimiyeti altına aldı» = devir günü; Zebîd yerleşiminin v:/d: ucu aynı güne taşındı (1539-01-01'deki öteki 16 kırılma ucu Burma/Peru, ilgisiz, dokunulmadı).", duygu:["🎉"], kaynak:"TDV İslâm Ansiklopedisi, 'Süleyman Paşa, Hadım' (islamansiklopedisi.org.tr/suleyman-pasa-hadim); TDV 'Zebîd' (945/1539) — «Zebîd hâkimi Nâhudâ Ahmed Bey'i 5 Şevval 945'te (24 Şubat 1539) bir divan toplantısı sırasında öldürterek»" },
 
-{ bolge:1, t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", bolge:1, t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   kapsam:"dis", b:"Tanca İngiltere'ye devredildi",
   gun:"30 Ocak 1662", yer:"Tanca — Fas", yer_id:"Tanca",
   kisiler:"II. Charles, Catherine de Braganza, Peterborough Kontu",

@@ -36,7 +36,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"dulkadirogullari · Kaya 2014 (MKÜ SBE Dergisi 11/25), s. 90, 92" },
 
 // ── 1394 · İstanbul'un sıkı kuşatması — Bizans tâbiiyeti kopuyor ────────
-{ t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ tur:"savas", t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Yıldırım Bayezid İstanbul'u yeniden sıkı bir kuşatma altına aldı",
   gun:"1394 ilkbaharı (ay ve gün kaynakta yok)",
   yer:"İstanbul",
@@ -47,7 +47,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"bayezid-i · bizans" },
 
 // ── 1424-02-22 · II. Murad–Bizans barışı: Bizans yeniden haraçgüzâr ─────
-{ t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
   gun:"22 Şubat 1424 (21 Rebîülevvel 827)",
   yer:"İstanbul",

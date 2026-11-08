@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Yakın Doğu / Levant / Anadolu, MÖ 12000–MÖ 5500 (levant-anadolu) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/levant-anadolu.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Mureybet"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Mureybet"], 
   "t": "-10149-01-01",
   "k": "kurulus",
   "b": "Mureybet: başlar",
@@ -22,7 +22,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 10150–9250) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase I/II = late Natufian (10150-9250 BC)/Khiamian (9760-9280 BC)». Evrelere gore: Faz I/II gec Natufiyen 10150-9250 / Hiyamiyen 9760-9280; IIIA Mureybetien 9350-8600, IIIB 9150-8500; IVA 8750-7950, IVB 8650-7950 MO. PPND Hiyamiyen basinin 10000 mi (Cauvin) yoksa ~9600 MO mu (Evin & Stordeur 2008) oldugunu belirsiz sayar. Aralik 14C laboratuvar farklari nedeniyle genis. Hasarli/sular altinda (Esad Golu)."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Ebu Hureyre (Abu Hureyra)"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Ebu Hureyre (Abu Hureyra)"], 
   "t": "-11219-01-01",
   "k": "kurulus",
   "b": "Ebu Hureyre (Abu Hureyra): başlar",
@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 11220–10750) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The range of the radiocarbon dates of the Epipalaeolithic layers indicates an occupation of the settlement between 11220 and 10750 BC.». KRONOLOJI CELISKISI/SINIF: Smith vd. 2022 (PLoS One 17(9):e0272947, doi 10.1371/journal.pone.0272947, IntCal20 kalibre) evre tablosu: 1A 13,300-12,800 calBP ... 2C 8,000-7,800 calBP (Gec Neolitik); alinti: 'Epipalaeolithic (ca. 13,300-11,400 calBP) and Neolithic (ca. 10,600-7,800 calBP) occupations'. calBP->MO (BP-1950): Epipaleolitik basi ~11350, Neolitik sonu ~5850 MO. PPND aralik 11220-10750 (Epipaleolitik tabakalarin 14C ozeti) ve 7100 (Faz 2B sonu) -> iki kaynak 2A/2B bitisinde farkli (PPND 14C toplam, Smith evre sinirlari). Ikisi de verilmistir; tek secim yok. PPND 2A basi ~7760 (muhtemelen 7600). Aralarinda Epipaleolitik sonrasi 'Intermediate' (11,400-10,600 calBP ~ 9450-8650 MO) bosluk/yerlesme sorunu vardir."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Ain Mallaha (Eynan)","Eriha (Tell es-Sultan)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Ain Mallaha (Eynan)","Eriha (Tell es-Sultan)"],
   "t": "-12649-01-01",
   "k": "kurulus",
   "b": "Natufiyen Kültürü: başlar",
@@ -157,7 +157,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 7140–6820) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «transitional phase between the cell- and large-room buildings ( 7140-6820 BC )». Kur blogu 'kanalli yapi' evresinin toplami (8630-8245); daha eski YUVARLAK YAPI evresi (PPND: ham 14C 10430+-80 BP, GrN 19482 10230+-200 BP vb.) plato nedeniyle kalibre aralik verilmemis -> yerlesmenin gercek basi 8630'dan daha eski olabilir (tavan degil, alt sinir). Diger evreler: kaldirimli 8250-7880, hucreli 7510-7350, gecis 7140-6820 MO. Ikinci kaynak (genel): Çayönü 'ninth millennium to the end of the seventh millennium cal BC' (Food and social complexity at Çayönü Tepesi, J Anthropol Archaeol 2013, doi 10.1016/j.jaa.2013.01.002, PMC4066944) tutarli."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-7499-01-01", "yer_id":"Ba'ja",
   "k": "kurulus",
   "b": "Ba‘ja: başlar",
@@ -208,7 +208,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 7950 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «Phase IVA/IVB = PPNB ancien/moyen (IVA: 8750-7950 BC; IVB 8650-7950 BC)». Evrelere gore: Faz I/II gec Natufiyen 10150-9250 / Hiyamiyen 9760-9280; IIIA Mureybetien 9350-8600, IIIB 9150-8500; IVA 8750-7950, IVB 8650-7950 MO. PPND Hiyamiyen basinin 10000 mi (Cauvin) yoksa ~9600 MO mu (Evin & Stordeur 2008) oldugunu belirsiz sayar. Aralik 14C laboratuvar farklari nedeniyle genis. Hasarli/sular altinda (Esad Golu)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-8399-01-01", "yer_id":"Aşıklı Höyük",
   "k": "kurulus",
   "b": "Aşıklı Höyük: başlar",
@@ -229,7 +229,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 8400–7350) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «spans 1,000 y of continuous occupation (ca. 8400 to 7350 cal BC)». kur-bit tek aralik: 8400->7350 (kaynak: ardisik 1000 yil). Seviyeler: 5-4: 8400-8000; 3: 8000-7700; 2: 7700-7300 cal BC. Ikinci kaynak: Sandoval-Castellanos vd. 2024 Sci Adv 10(15):eadj0954 'Occupied between ~10,300 and 9300 years ago' -> ~8350-7350 MO (calBP donusumu) tutarli."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Ain Ghazal"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Ain Ghazal"], 
   "t": "-8399-01-01",
   "k": "kurulus",
   "b": "Ayn Gazal (‘Ain Ghazal): başlar",
@@ -250,7 +250,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8400–8000) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The oldest phase dates between 8400 BCE and 8000 BCE.». PPNC ve Gec PPNB 14C ile ayrilamiyor (PPND). 2012 AMS (sigir kemigi) 7607-7531 cal BCE (2σ) -> kesintisiz iskan lehine. ~6600 MO'daki genc tarih 'sapkin'. 'bit' = aseramik evre sonu (Erken Ceramik Neolitik surekliligi bu kaynakta verilmemis)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-8499-01-01", "yer_id":"Nevalı Çori",
   "k": "kurulus",
   "b": "Nevalı Çori: başlar",
@@ -286,7 +286,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 8610 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «their sum clearly points to a more recent time interval between 8800 BC and 8610 BC». Faz sirasi: 1: 9450-9240; 2: 9310-8910; 3: 8800-8610 MO; 'üç faz calisma hipotezidir' (PPND). Ana tarih araligi 9400-8600 MO. Uc tarih (Ly 2600, 2335, 10650) kalibrasyona alinmamis. Barajla sular altinda."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-8629-01-01", "yer_id":"Çayönü Tepesi",
   "k": "kurulus",
   "b": "Çayönü Tepesi: başlar",
@@ -307,7 +307,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8630–8245) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The sum of the dates for the channel-building phase, 8630-8245 BC , covers the whole early period.». Kur blogu 'kanalli yapi' evresinin toplami (8630-8245); daha eski YUVARLAK YAPI evresi (PPND: ham 14C 10430+-80 BP, GrN 19482 10230+-200 BP vb.) plato nedeniyle kalibre aralik verilmemis -> yerlesmenin gercek basi 8630'dan daha eski olabilir (tavan degil, alt sinir). Diger evreler: kaldirimli 8250-7880, hucreli 7510-7350, gecis 7140-6820 MO. Ikinci kaynak (genel): Çayönü 'ninth millennium to the end of the seventh millennium cal BC' (Food and social complexity at Çayönü Tepesi, J Anthropol Archaeol 2013, doi 10.1016/j.jaa.2013.01.002, PMC4066944) tutarli."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Kfar HaHoresh"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Kfar HaHoresh"], 
   "t": "-8649-01-01",
   "k": "kurulus",
   "b": "Kfar HaHoresh: başlar",
@@ -343,7 +343,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 8650–6750) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «PPNA 11,650–10,600 EPPNB 10,600–10,000 MPPNB 10,000–9,500 LPPNB 9,500–8,700 FPPNB (PPNC) 8,700–8,350». EPPNB 10,600-10,000 -> 8650-8050; MPPNB 10,000-9,500 -> 8050-7550; LPPNB 9,500-8,700 -> 7550-6750 MO. Kuzey (Anadolu/Firat) PPNB daha erken baslar: Nevali Cori 8500, Çayönü, Ain Ghazal 8400. Kfar HaHoresh PPND tarihleri bu cerceveden farkli."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-9449-01-01", "yer_id":"Jerf el-Ahmar",
   "k": "kurulus",
   "b": "Cerf el-Ahmer (Jerf el Ahmar): başlar",
@@ -364,7 +364,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 9450–9240) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The dates of the earliest relatively well documented phase concentrate around 9450-9240 BC.». Faz sirasi: 1: 9450-9240; 2: 9310-8910; 3: 8800-8610 MO; 'üç faz calisma hipotezidir' (PPND). Ana tarih araligi 9400-8600 MO. Uc tarih (Ly 2600, 2335, 10650) kalibrasyona alinmamis. Barajla sular altinda."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Hallan Çemi"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Hallan Çemi"], 
   "t": "-9659-01-01",
   "k": "kurulus",
   "b": "Hallan Çemi: başlar",
@@ -385,7 +385,7 @@ window.OLAYLAR_ARKEOLOJI_LEVANT_ANADOLU = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 9660–9320) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The main occupation of the site starts around 9660 BC and lasts until about 9320 BC.». bit blogu yok: kaynak yerlesmenin bittigini ayri bir olay olarak vermiyor; 'ana iskan' kur-bit tek aralik (kur.son_mo=9320). Eski tarihler (11100-9300 MO) yuksek sapma nedeniyle kalibre edilmemis; Natufiyen-oncesi iskan olabilir. Toplam: 9660-9570 (%17.1), 9560-9320 (%51.1)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Eriha (Tell es-Sultan)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Eriha (Tell es-Sultan)"],
   "t": "-9699-01-01",
   "k": "kurulus",
   "b": "PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar",

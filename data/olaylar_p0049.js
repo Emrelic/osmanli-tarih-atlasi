@@ -49,7 +49,7 @@ window.OLAYLAR_P0049 = [
   kaynak:"ahiska · cildir-eyaleti · lala-mustafa-pasa" },
 
 // ── POSTIT-96 — Megrelya (Dadyan) Amasya'da Osmanlı nüfuz bölgesine bırakıldı ──
-{ kapsam:"ic", t:"1555-05-29", k:"antlasma", etiket:["diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1555-05-29", k:"antlasma", etiket:["diplomasi","konu-diplomasi"],
   b:"Megrelya (Dadyan) beyliği Osmanlı nüfuz bölgesine bırakıldı",
   gun:"29 Mayıs 1555 (Amasya Antlaşması günü)",
   ic_not_gun:"Gün Amasya Antlaşması'nın günüdür (olaylar.js); TDV gurcistan Dadyan'ın Amasya ile Osmanlı'ya bırakıldığını söyler, ayrı gün vermez. GÜN KOMŞUDAN değil, aynı belgenin günü.",
@@ -62,7 +62,7 @@ window.OLAYLAR_P0049 = [
 //   Ayaklanmanın başı ZATEN VAR: olaylar_ek10.js 1594-10-05 (üç voyvodalık)
 //   ve 1594-11-13 (Bükreş, Tuna kalelerine saldırı). Eksik olan, kaynakta
 //   ADIYLA geçen kale olaylarıydı.
-{ kapsam:"ic", t:"1595-01-01", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ tur:"savas", kapsam:"ic", t:"1595-01-01", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Cesur Mihail'in Tuna kalelerine akınları — Rusçuk yakıldı, İbrâil alındı, Silistre yağmalandı",
   gun:"Ocak – ilkbahar 1595",
   ic_not_gun:"Kaynaklar ay/mevsim veriyor, gün vermiyor → yıl kodu 1595-01-01 (§4). TDV murad-iii İbrâil kalesinin yakılmasını 'Ocak 1595', TDV ibrail zaptını '1595 Martında' verir — iki TDV maddesi ayrışıyor, bildirildi. TDV ruscuk 'Şubat 1595', TDV silistre '1595 ilkbaharı'. D147: 1595-01-01 ±30 günde maddesiz kırılma YOK (ölçüldü). Yerleşim tarafı: İbrail'in 1595-1601 Mihail idaresi atlasta yok (d 1538→1829) — B önerisi YAMA-A3-0913.json.",
@@ -74,7 +74,7 @@ window.OLAYLAR_P0049 = [
 // ── 0035/H-0090 — savaş başlangıçları, ilk parti ───────────────────
 //   Plan ve mevcut başlangıç maddelerinin dökümü raporda. Bu partide yalnız
 //   TDV'nin GÜNÜYLE verdiği iki başlangıç adımı yazıldı.
-{ kapsam:"ic", t:"1711-04-09", k:"sefer", etiket:["savas","sefer","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1711-04-09", k:"sefer", etiket:["savas","sefer","konu-askeri"],
   b:"Prut Seferi başladı — 1710-1711 Osmanlı-Rus Savaşı'nda ordu İstanbul'dan çıktı",
   gun:"9 Nisan 1711",
   yer:"İstanbul", yer_id:"İstanbul",
@@ -82,7 +82,7 @@ window.OLAYLAR_P0049 = [
   d:"Rusya'nın Osmanlı topraklarına saldırması, Çar Petro'nun 1700 İstanbul Antlaşması'nın hükümlerine uymaması ve Kırım Hanı Devlet Giray'ın teşvikleri III. Ahmed'i Rusya'ya savaş ilan etmeye götürmüştü. TDV'nin III. Ahmed maddesine göre sonradan Prut Seferi adıyla anılacak bu savaş, Osmanlı ordusunun 9 Nisan 1711'de İstanbul'dan hareketiyle fiilen başladı. Baltacı Mehmed Paşa kumandasındaki ordu Kırım kuvvetleriyle birleşerek Prut nehrine doğru ilerledi; sefer Temmuz'da Rus ordusunun Prut kıyısında sıkıştırılmasıyla sonuçlanacaktı.",
   kaynak:"ahmed-iii" },
 
-{ kapsam:"ic", t:"1787-07-27", k:"diplomasi", etiket:["diplomasi","savas","konu-askeri","konu-diplomasi"],
+{ tur:"savas", kapsam:"ic", t:"1787-07-27", k:"diplomasi", etiket:["diplomasi","savas","konu-askeri","konu-diplomasi"],
   b:"Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım",
   gun:"27 Temmuz 1787",
   yer:"İstanbul", yer_id:"İstanbul",
@@ -114,14 +114,14 @@ window.OLAYLAR_P0049 = [
   d:"Mondros Mütarekesi'nin ardından İtilaf devletleri Anadolu'da işgal bölgelerine yerleşirken İtalya güneybatı Anadolu'ya yöneldi. TDV'nin Antalya maddesine göre şehir ve çevresi, mütareke hükümlerine dayanılarak 29 Nisan 1919'da İtalyanlar tarafından işgal edildi. İşgal yaklaşık iki yıl sürecekti.",
   kaynak:"antalya" },
 
-{ kapsam:"ic", t:"1920-02-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1920-02-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
   b:"Maraş'ın kurtuluşu — Fransızlar şehri boşalttı",
   gun:"11-12 Şubat 1920",
   yer:"Maraş", yer_id:"Maraş", kisiler:"Sütçü İmam, Doktor Mustafa Bey, General Queratte",
   d:"İngilizlerin 22 Şubat 1919'da işgal ettiği Maraş, iki devlet arasındaki anlaşmayla 29 Ekim 1919'da Fransızlara bırakılmıştı. Fransız birlikleri içindeki Ermenilerin tutumu ve kaledeki Türk bayrağının indirilmesi halkı ayaklandırdı; şehirde Müdâfaa-i Hukuk Cemiyeti ve Kuvâ-yi Milliye örgütlendi. TDV'nin Kahramanmaraş maddesine göre çatışmaların sonunda Fransızlar 11 Şubat 1920'de şehri boşaltıp İslâhiye yönüne çekilmeye başladı ve Maraş 11-12 Şubat'ta kurtuldu. Şehre 1925'te İstiklâl madalyası verildi.",
   kaynak:"kahramanmaras" },
 
-{ kapsam:"ic", t:"1920-04-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1920-04-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
   b:"Urfa'nın kurtuluşu — Fransız garnizonu şehri terk etti",
   gun:"11 Nisan 1920 (anlaşma 10 Nisan)",
   ic_not_gun:"TDV sanliurfa: Fransızlar 10 Nisan 1920'de anlaşmayla boşaltmayı kabul etti, ertesi gün şehri terk etti. Atlasın isg dönemi 1920-04-10'da bitiyor ve kendi notu 'TÜRETİLDİ — doğrulanmadı' diyor; TDV'ye göre çıkış 11 Nisan — yerleşim tarafı B.",
@@ -129,7 +129,7 @@ window.OLAYLAR_P0049 = [
   d:"Mart 1919'da İngilizlerin, yedi ay kadar sonra da Fransızların işgal ettiği Urfa'da halk 7 Şubat 1920'de işgal kuvvetlerine karşı ayaklandı. TDV'nin Şanlıurfa maddesine göre iki ay süren çarpışmaların ardından Fransızlar 10 Nisan 1920'de anlaşma şartlarıyla Urfa'yı boşaltmayı kabul etti ve ertesi gün şehirden çıktı.",
   kaynak:"sanliurfa" },
 
-{ kapsam:"ic", t:"1920-09-28", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1920-09-28", k:"savas", etiket:["savas","konu-askeri"],
   b:"Doğu Cephesi harekâtı başladı — Kâzım Karabekir Ermenistan'a karşı taarruza geçti",
   gun:"28 Eylül 1920",
   yer:"Soğanlı dağı geçitleri, Sarıkamış", yer_id:"Sarıkamış", kisiler:"Kâzım Karabekir Paşa",
@@ -144,7 +144,7 @@ window.OLAYLAR_P0049 = [
   d:"TDV'nin Kars maddesine göre Kâzım Karabekir Paşa 30 Ekim 1920'de Kars'a girdi ve şehir, İngilizlerin 1919'da denetimini bıraktığı Ermeni idaresinden kurtarıldı. Karabekir maddesi bunun Kars'ın ikinci kurtuluşu olduğunu vurgular: şehir ilk kez Nisan 1918'de Ermenilerden alınmıştı. Doğu Cephesi ilerleyerek 7 Kasım'da Gümrü'yü aldı; savaş 3 Aralık 1920'deki Gümrü Antlaşması ile sona erdi.",
   kaynak:"kars · kazim-karabekir" },
 
-{ kapsam:"ic", t:"1920-11-07", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1920-11-07", k:"savas", etiket:["savas","konu-askeri"],
   b:"Gümrü'nün alınışı — Doğu Cephesi Ermenistan içlerine ilerledi",
   gun:"7 Kasım 1920",
   yer:"Gümrü (Aleksandropol)", yer_id:"Gümrü (Aleksandropol)", kisiler:"Kâzım Karabekir Paşa",
@@ -160,7 +160,7 @@ window.OLAYLAR_P0049 = [
   kaynak:"kazim-karabekir",
   ic_not_d:"KUTU-E-1014. TDV kazim-karabekir birebir: '… 12 Kasım'da Iğdır'ı aldı.' ⚠️ Haritada Iğdır 1920-12-03'te (Gümrü Antlaşması) tbmm-turkiye'ye geçiyor; fiilî alınış 12 Kasım — s: sınırının 1920-11-12'ye çekilmesi ayrı VERI işi (yerlesimler_ek26.js)." },
 
-{ kapsam:"ic", t:"1921-02-09", k:"kayip", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1921-02-09", k:"kayip", etiket:["savas","konu-askeri"],
   b:"Antep savunmasının sonu — şehir on ay direndikten sonra Fransızlara bırakıldı",
   gun:"7-9 Şubat 1921",
   yer:"Antep", yer_id:"Antep", kisiler:"Şâhin Bey",
@@ -175,7 +175,7 @@ window.OLAYLAR_P0049 = [
   d:"Gümrü Antlaşması'ndan sonra Doğu Cephesi, elviye-i selâsenin Gürcistan elindeki kısmına yöneldi. TDV'nin Ardahan maddesine göre Gürcü ve Ermeni çeteleriyle süren mücadelenin sonunda 23 Şubat 1921'de Artvin ile birlikte Ardahan sancağı da kurtarıldı. Kâzım Karabekir maddesi bu hamleyle Çürüksu, Acara ve Batum kazaları dışında kalan elviye-i selâse topraklarının geri alındığını yazar.",
   kaynak:"ardahan · kazim-karabekir" },
 
-{ kapsam:"ic", t:"1921-03-16", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1921-03-16", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
   gun:"16 Mart 1921",
   yer:"Moskova; Kars, Ahıska", yer_id:"Kars", kisiler:"",
@@ -194,7 +194,7 @@ window.OLAYLAR_P0049 = [
 // yerleşim kırılmasını (d:/v:) kronolojiye bağlar (Değişmez 2) ve kaynağı
 // TDV'dir; kaynak dışı ayrıntı yazılmadı.
 // =====================================================================
-{ kapsam:"ic", t:"1538-11-27", k:"vassal", etiket:["toprak-kazanc"],
+{ tur:"vassal", kapsam:"ic", t:"1538-11-27", k:"vassal", etiket:["toprak-kazanc"],
   b:"Hadramut ve Şihr hâkimi Osmanlı hâkimiyetini tanıdı — Hadım Süleyman Paşa'nın Hint seferi dönüşü",
   gun:"27 Kasım 1538",
   ic_not_gun:"TDV suleyman-pasa-hadim: '27 Kasım 1538'de Şihr Limanı'na uğradı' — itaatin kendi günü yok, gün Şihr'e uğramanındır (en erken sınır). Yerleşim: Seyûn v:'Kesîrî reisleri (tâbi)' 1538-11-27 (eski 1538-01-01 seferin çıkışından önceydi). KUTU-A-1014 (0088/H-0048).",
@@ -243,7 +243,7 @@ window.OLAYLAR_P0049 = [
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"1806-1812 Osmanlı-Rus savaşı sırasında Mayıs 1809'daki Rus saldırısı başarısız oldu; ancak kale 27 Kasım 1809'da Ruslara teslim edildi.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1812-12-19", k:"antlasma", etiket:["toprak-kazanc","antlasma"],
+{ tur:"antlasma", kapsam:"ic", t:"1812-12-19", k:"antlasma", etiket:["toprak-kazanc","antlasma"],
   b:"Bükreş Antlaşması gereğince Faş (Poti) Kalesi Osmanlı'ya geri verildi",
   gun:"19 Aralık 1812",
   ic_not_gun:"TDV fas--gurcistan: '1812 Bükreş Antlaşması gereğince Faş Kalesi … Osmanlı Devleti'ne verildi (19 Aralık 1812)' — teslim günü (antlaşmanın imzası değil). KUTU-A-1014 (0074/H-0014).",

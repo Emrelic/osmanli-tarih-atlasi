@@ -116,7 +116,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"1914-1918-online, «Scutari Crisis» https://encyclopedia.1914-1918-online.net/article/scutari-crisis/ (gün arama özetinden; ikinci akademik teyit önerilir)" },
 
 // ── 1913 · Bükreş ────────────────────────────────────────────────────
-{ bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
+{ tur:"antlasma", bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
   b:"Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
@@ -139,7 +139,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN" },
 
 // ── 1914 · Basra ─────────────────────────────────────────────────────
-{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
+{ tur:"isgal", t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
   b:"Şattülarap çıkarması — Basra'nın düşüşü ve Irak cephesinin açılması",
   gun:"22 Kasım 1914",
   yer:"Basra, Fâv, Kürne, Ammâre, Nâsıriye, Semâve, Kuveyt, Şattülarap",
@@ -164,7 +164,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
-{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
+{ tur:"isgal", t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
   b:"Halep'in Arap ve İngiliz kuvvetlerince işgali",
   gun:"27 Ekim 1918", yer:"Halep", kisiler:"Arap kuvvetleri, İngiliz ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -172,7 +172,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ tur:"isgal", bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -180,7 +180,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ tur:"savas", bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
   gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
@@ -191,7 +191,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
-{ bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
+{ tur:"kurulus", bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
   b:"Şarkî Ürdün Emirliği kuruldu — Abdullah b. Hüseyin emîrliğini ilân etti",
   gun:"Şubat 1921", yer:"Amman, Kerak, Şarkî Ürdün",
   kisiler:"Abdullah b. Hüseyin", etiket:["siyasi","toprak-kazanc","konu-siyasi"],

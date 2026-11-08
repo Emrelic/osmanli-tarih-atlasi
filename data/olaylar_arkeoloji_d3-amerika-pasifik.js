@@ -35,7 +35,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 100 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «fechándose para 350 a 100/1 AC». CIFT TEYIT (kismen): 350 BC gecisi iki bagimsiz-degil-ama-ayri yayinda ayni: Arroyo vd. 2020 (EN, ozet) ve Inomata 2015 (ES, tam metin, 'Las Charcas tardia 600 a 350 AC, Providencia 350 a 100/1 AC'). Ikisi ayni grubun (Inomata, Arroyo) urunu; 'bagimsiz' sayilmaz, bu yuzden ic_not'ta 'ayni grup' olarak anildi. UYARI: bit alani iki kaynak arasi: Inomata 2015 'Providencia 350-100/1 AC' vs Arroyo 2020 ozeti 'Providencia-Verbena ~75 BC'; ikisi de yazarlarin kendi Bayes modelinden, aralik degil tek deger. Kaminaljuyu'nun KURULUS/ilk iskan tarihi bu kaynaklarda yok (Erken-Orta Preklasik Las Charcas baslangici okunamadi); 2020 makalesi kapali (Unpaywall closed) - tam metin kutuphane_gerekli. Karsit gorus: Love 2017, Latin American Antiquity (okunmadi): Verbena-Arenal doruk tarihlemesine temkin."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["La Centinela"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["La Centinela"],
   "t": "-0141-01-01",
   "k": "kurulus",
   "b": "Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar",
@@ -141,7 +141,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 753–733 (kaynağın verdiği uçlar); orta nokta MÖ 743 = astronomik -0742. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2. Kaynaktan okunan: «For Tongatapu, the end date is 2703–2683 cal BP at 68.2% probability with the duration of the Lapita phase being 129–158 years.». bit blogu SITENIN bitisi degil, Tongatapu'daki Lapita (dentate seramik) EVRESININ bitisidir ve yalniz iki sitelik modele dayanir (kaynak kendisi bu cekinceyi koyuyor). Bayesci Tongatapu baslangic sinir tahmini %68.2'de 2863-2835 cal BP (MO 913-885) - U/Th tarihiyle neredeyse ayni. Ha'apai ve Va'vau icin %68.2 araliklari 2772-2716 ve 2805-2680 cal BP. Tonga Duz Seramik evresi 2350 cal BP'den sonra sona erer (Burley vd. 2018, PLoS ONE 13(2): e0193166, PMC5825035). cal BP->MO: BP-1950, bu oturumda. U/Th tarihi karbon-14 degil; 'kalibre-14C' etiketi bilerek kullanilmadi."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Tonalá"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Tonalá"], 
   "t": "-0749-01-01",
   "k": "kurulus",
   "b": "Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı",
@@ -441,7 +441,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1430–1265 (kaynağın verdiği uçlar); orta nokta MÖ 1347 = astronomik -1346. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 68.2 (1 sigma). Kaynaktan okunan: «Khirigsuur (1430–1265 cal. BCE, 1 sigma range)». Rakam yalniz HIRIGSUUR baslangic siniridir (1 sigma, %68.2 - %95.4 degil); geyik tasinin (stel) kendisi dogrudan karbon-14 ile tarihlenemez, kaynak 'geyik tasi + hirigsuur' bir kultur ufku olarak ele alinir ('often, though not universally, considered a single cultural horizon'). Ayni kaynakta Sekilli mezar baslangici 1989-1453 cal BCE, Ulaanzuukh 1501-1434, D-sekilli 1732-1031 (1 sigma) ve Baitag baslangici 1145-940 cal BCE. Hirigsuur BITIS siniri sayisal olarak metinde verilmedi (Ek Tablo S2/grafik); bit null. At kemigi tarihlerinin sığ gömüt kirlenmesinden etkilenebilecegi uyarisi kaynakta (Zazzo vd.). Genetik makale Slab Grave'in DSKC'nin yerini aldigini soyler; kesin tarih verilmemis."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Herbertshöhe (Kokopo) — Rabaul","Kavieng (Käwieng)"],
   "t": "-1449-01-01",
   "k": "kurulus",
   "b": "Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya çıkar",
@@ -554,7 +554,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1550–1470) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Sechín Bajo, cuya ocupación formativa termina en el periodo 1550-1470 a.C. (calib.)». ÖNCEKİ DALGA 'bulunamadı'sını çözer. 3400-2950: Bischof'un 10 Sechín Bajo analizinin kapsadığı aralık (alt sınır tahmini; 1σ — dipnot 1). Bischof dipnot 2: kuruluşa dair iki dayanak 'moluscos' (deniz kabuğu) ölçümleri olduğundan rezervuar etkisi sorusu var (dipnotun devamı okunmadı). İKİNCİ KAYNAK (kalitatif çift teyit): Fuchs vd. (Boletín de Arqueología PUCP) batık dairesel plazaya ait üç tarihi 'cuarto milenio a.C.' ve ilk insan varlığını 'quinto milenio a.C.' yerleştirir; tablo (Tabla 1) PDF çıkarımında satır-sütun eşleşmesi bozuk olduğundan sayısal değer alınmadı. Vikipedi (tek dayanak olamaz) ~MÖ 3500 plaza / ~3600 friz diyor: Bischof'la 100-200 yıl fark; Bischof esas alındı (hakemli, kalibre açık). Bit: Formatif işgal sonu; yapıların terk/sonu tarihi değil 'Haldas Punteado'nun yokluğu' ile çıkarılmış sıralama."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-1624-01-01",
   "yer_id": "San José Mogote",
   "k": "kurulus",
@@ -592,7 +592,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1650 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Su límite superior se fijó alrededor de 1650 a.C. (calib.), cuando apareció la primera cerámica en la región de Casma». ÖNCEKİ DALGA 'bulunamadı'sını çözer (Cerro Sechín için). kur: yerleşimin kuruluşu DEĞİL, en eski tarihli iki örnek (Hd-6959 faz 4 öncesi/içi, Hd-6958 faz 1), 1σ; Bischof 'inşa evre 1-4 ve sanatı' tarihler olarak MÖ 3. binyıl sonuna kadar uzandığını söyler. bit=1650 Sechín Dönemi'nin kaynaklı üst sınırı (Casma'da ilk seramik); rölif cephesinin örtülmesi 1σ: Hd-11291 1740-1562, Hd-11290 1682-1531, Hd-11292 1529-1433 (Fuchs 1997 atfı). Fuchs 1997'ye göre Cerro Sechín anıtsal işgali ~3300 BP (ham) dolaylarında biter — ham BP yazılmadı, Bischof'un kalibre değeri esas. Sonraki yeniden yapı ~1300 cal BC (Hd-11312 1502-1317; Hd-11373 1305-1052)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Kotosh"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Kotosh"],
   "t": "-1769-01-01",
   "k": "kurulus",
   "b": "Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği başlar (Jancao)",
@@ -680,7 +680,7 @@ window.OLAYLAR_ARKEOLOJI_D3_AMERIKA_PASIFIK = [
    "Dholavira"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-3399-01-01",
   "yer_id": "Sechín Bajo",
   "k": "kurulus",

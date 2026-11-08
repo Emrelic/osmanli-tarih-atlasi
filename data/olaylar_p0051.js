@@ -30,7 +30,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Encyclopedia of Ukraine (CIUS), 'Odesa', encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CD%5COdesa.htm (+ 'fortified at the beginning of the 15th century by the Lithuanian grand duke Vytautas the Great') — «In 1480 the fortress was captured by the Turks and renamed Hadzhybei or Khadzhybei.» · Internet Encyclopedia of Ukraine (CIUS), maddeler 'Odesa' ve 'Ochakiv' · TDV bucak (1538)" },
 
 // ── Voronej 1585 ─────────────────────────────────────────────────────
-{ bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ tur:"kurulus", bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Voronej'de bozkıra karşı ileri garnizon kurması",
   gun:"1585", kesinlik:"yil",
   yer:"Voronej, Don havzası, vahşi bozkırın kuzey kenarı",
@@ -41,7 +41,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Internet Encyclopedia of Ukraine (CIUS), madde 'Slobidska Ukraine'" },
 
 // ── Belgorod 1596 ────────────────────────────────────────────────────
-{ bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ tur:"kurulus", bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Belgorod, Oskol ve Kursk'u bozkırda ileri garnizon olarak kurması",
   gun:"1596", kesinlik:"yil",
   yer:"Belgorod, Oskol, Kursk — Sloboda Ukrayna bozkırı",

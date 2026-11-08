@@ -2,7 +2,7 @@
 // Üretici: denetim/ARKEOLOJI-PILOT-URETICI-1018.py. DALDA TUT: negatif yıl kapısı (arac/gun.py) bağlanmadan main'e itilmez.
 // index.html'e <script> satırı EKLENMEDİ ⇒ site yüklemez. Her madde kaynak_turu:"arkeoloji" + aralık/orta-nokta beyanı taşır.
 window.OLAYLAR_ARKEOLOJI_PILOT = [
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-12154-01-01",
   "yer_id": "Ain Mallaha (Eynan)",
   "k": "kurulus",
@@ -24,7 +24,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 12240–12070 (kaynağın verdiği uçlar); orta nokta MÖ 12155 = astronomik -1215. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yalnız %68,2 aralığı okundu (%95,4 verilmemiş); birincil rapor okunmadı, aktarım ikincil. UFUK ihlali: MÖ 12155, ufuk olan MÖ 12000'den 155 yıl önce."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-9528-01-01",
   "yer_id": "Göbekli Tepe",
   "k": "kurulus",
@@ -62,7 +62,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER: kaynak «yaklaşık MÖ 8000» der, aralık yok → orta nokta kuralı UYGULANMAZ; uç beyanı yok."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-9299-01-01",
   "yer_id": "Eriha (Tell es-Sultan)",
   "k": "kurulus",
@@ -84,7 +84,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "DÖNEM TOPLAMI aralığı (MÖ 9300–8700) = tabakanın süresini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en erken uç (ALT SINIR) yazıldı. Kule inşasının başlangıcı sayfada YOK («açık soru»); kule kaydı yazılmadı. PPND bir veri tabanıdır, birincil kazı yayını (Kenyon, Bar-Yosef, Nigro) okunmadı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-7099-01-01",
   "yer_id": "Çatalhöyük",
   "k": "kurulus",
@@ -116,7 +116,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): «hemen sonrası» = en erken sınır MÖ 6000 yazıldı (bit için EN ERKEN uç, gerçek bitiş birkaç on yıl geç olabilir)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Jiahu"
   ],
@@ -158,7 +158,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): Bitiş için iki kaynak çelişir (5700 / 5500); Nature 1999 esas alındı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Mehrgarh"
   ],
@@ -182,7 +182,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5200–4900 (kaynağın verdiği uçlar); orta nokta MÖ 5050 = astronomik -5049. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. ÇELİŞKİ: Jarrige-dönemi yayınlarda Dönem I «MÖ 7000 öncesi–5500» (aynı kaynak özeti); 2025 çalışması bunu kök kütlesi bozulmasıyla çarpık sayıyor. Burada yerleşimin kuruluşu değil, mezarlığın tarihli ilk kanıtı yazıldı (yerleşim daha eski olabilir)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Harappa"
   ],
@@ -200,7 +200,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   "kesinlik": "yuzyil",
   "ic_not_d": "TEK DEĞER (aralık yok): KAYNAK ÇELİŞKİSİ: en sık anılan MÖ 3300 yazıldı; alternatifler 3700 / >3500 (aynı site, farklı yayın). Tek değer; orta nokta alınmaz."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Varna"
   ],
@@ -248,7 +248,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4427–4341 (kaynağın verdiği uçlar); orta nokta MÖ 4384 = astronomik -4383. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Bitiş belirsizliği için kaynağın %95,4 aralığı."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
   "t": "-4376-01-01",
   "k": "kurulus",
   "etiket": [
@@ -269,7 +269,7 @@ window.OLAYLAR_ARKEOLOJI_PILOT = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4489–4266 (kaynağın verdiği uçlar); orta nokta MÖ 4377 = astronomik -4376. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Yarım yıl çıktı (4377,5) → daha geç yıla yuvarlandı. TEYİT 20 Ekim 2026: Tablo 1 değerleri (Badarian başlangıç 4489–4266, %95) PMC3780825 tam metninden (Dee vd. 2013, Proc. R. Soc. A 469, Tablo 1) doğrudan okundu; birincil makale okundu."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Mısır"], 
   "t": "-3125-01-01",
   "k": "kurulus",
   "etiket": [

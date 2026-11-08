@@ -69,7 +69,7 @@ window.OLAYLAR_KI117 = [
   d:"Kuşatılan Gyula 21 Aralık 1694'te kapitülasyon imzaladı; 12 Ocak 1695'te garnizon çıktı ve Habsburg birlikleri girdi. Kale Karlofça'ya (1699) kadar Osmanlı değil Habsburg elindeydi.",
   ic_not_d:"Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 0017/1494. TDV'de Gyula maddesi bulunamadı.",
   kaynak:"Bánlaky 0017/1494 (MEK 09477) — TDV'de bulunamadı", duygu:["😔"] },
-{ kapsam:"ic", t:"1699-09-22", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", kapsam:"ic", t:"1699-09-22", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   b:"Kamaniçe'nin Lehistan'a teslimi", gun:"22 Eylül 1699", yer:"Kamaniçe (Podolya)", yer_id:"Kamaniçe", kisiler:"Kahraman Paşa",
   d:"26 Ocak 1699 Karlofça Antlaşması'nın gereği olarak Podolya'nın tahliyesi eylülde tamamlandı; Kamaniçe'nin anahtarları 22 Eylül 1699'da Leh komisyonuna teslim edildi. Sancağın bağlı kaleleri (Bar, Meciboj, Yazlofça) ile birlikte Lehistan'a geçiş fiilen bu günle gerçekleşti.",
   ic_not_d:"Stolicki, 'Powrót Podola do Polski', Balcanica Posnaniensia 13 (2003) s.135-148 (Kołodziejczyk 1994 s.130-131'e dayanır). TDV kamanice yalnız 'Karlofça ile tahliye edildi' der; atlas önceden geçişi imza günü 26 Ocak 1699'a koyuyordu.",

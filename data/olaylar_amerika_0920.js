@@ -48,7 +48,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: 15 Ağustos, kasabanın adındaki Asunción (Meryem'in Göğe Kabulü) yortusudur; geleneksel kuruluş günü olarak taşınır, basılı kaynaktan teyit edilmedi. Atlas kırılması 1511-08-15'te duruyor, madde o güne yazıldı; yıl kesin, gün geleneksel." },
 
 // ── 1519 · Tabasco ───────────────────────────────────────────────────
-{ bolge:1, t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
+{ tur:"savas", bolge:1, t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
   b:"Centla Muharebesi — Potonchán Maya beyliği düştü, Santa María de la Victoria kuruldu",
   gun:"Mart 1519", yer:"Potonchán (Santa María de la Victoria), Tabasco",
   kisiler:"Hernán Cortés, Chontal Maya beyleri",
@@ -67,7 +67,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: Tepeaca seferi standart anlatımlarda Ağustos sonu-Eylül 1520'ye konur; 4 Eylül günü basılı kaynaktan teyit edilmedi. Atlas kırılması 1520-09-04'te duruyor, madde o güne yazıldı." },
 
 // ── 1523 · Colima ────────────────────────────────────────────────────
-{ bolge:1, t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
+{ tur:"kurulus", bolge:1, t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
   b:"San Sebastián de Colima kuruldu — Yeni İspanya'nın Pasifik kıyısına açılması",
   gun:"25 Temmuz 1523", yer:"Colima (San Sebastián de Colima)",
   kisiler:"Gonzalo de Sandoval",
@@ -77,7 +77,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"25 Temmuz, kasabanın adaşı Aziz Yakub (Santiago) yortusuna denk gelir; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1540 · Campeche ──────────────────────────────────────────────────
-{ bolge:1, t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
+{ tur:"kurulus", bolge:1, t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
   b:"San Francisco de Campeche kuruldu — Yucatán fethinin üçüncü ve kalıcı denemesi",
   gun:"4 Ekim 1540", yer:"Campeche (San Francisco de Campeche)",
   kisiler:"Francisco de Montejo (oğul)",
@@ -96,7 +96,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"TEMSİLÎ YIL: kaynaklar Sotuta'nın boyun eğişini tek bir güne bağlamaz, 1540'ların ortasına koyar. Atlas 1545-01-01'i temsilî yıl olarak taşır. Aynı güne düşen Berdiçev (Litvanya) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
 
 // ── 1596 · Monterrey ─────────────────────────────────────────────────
-{ bolge:1, t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
+{ tur:"kurulus", bolge:1, t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
   b:"Monterrey kuruldu — Nuevo León'un başkenti",
   gun:"20 Eylül 1596", yer:"Monterrey", kisiler:"Diego de Montemayor",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -105,7 +105,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Gün, atlasın yerleşim kaydındaki kaynak satırıyla (Gerhard 1982) aynıdır; basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1718 · San Antonio ───────────────────────────────────────────────
-{ bolge:1, t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
+{ tur:"kurulus", bolge:1, t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
   b:"San Antonio de Valero misyonu kuruldu — İspanyol Teksas'ının çekirdeği",
   gun:"1 Mayıs 1718", yer:"San Antonio (Misyon San Antonio de Valero)",
   kisiler:"Antonio de San Buenaventura y Olivares, Martín de Alarcón",
@@ -115,7 +115,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Misyon (1 Mayıs) ile presidio (Mayıs başı, birkaç gün sonra) ayrı tarihlerdir; atlas kırılması misyonun gününde duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1774 · Nuevo Santander ───────────────────────────────────────────
-{ bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
+{ tur:"kurulus", bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
   b:"Refugio (bugünkü Matamoros) kuruldu — Rio Grande ağzının iskânı",
   gun:"1774 (temsilî)", yer:"Matamoros (Refugio)",
   kisiler:"José de Escandón'un iskân ettiği Nuevo Santander kolonistleri",
@@ -135,7 +135,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Eylül 1821 Orta Amerika devletlerinin resmî millî günüdür, tarih yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1839 · Alta California ───────────────────────────────────────────
-{ bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
+{ tur:"kurulus", bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
   b:"Nueva Helvetia kuruldu — Meksika, Sacramento vadisini iskâna açtı",
   gun:"1839 (temsilî)", yer:"Sutter's Fort (Sacramento)", kisiler:"John A. Sutter",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -152,7 +152,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // =====================================================================
 
 // ── 1519 · Panama ────────────────────────────────────────────────────
-{ bolge:1, t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
+{ tur:"kurulus", bolge:1, t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
   b:"Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri",
   gun:"15 Ağustos 1519", yer:"Panamá (Panama City)", kisiler:"Pedrarias Dávila (Pedro Arias de Ávila)",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -161,7 +161,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, şehrin adaşı olan Meryem'in Göğe Kabulü yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1534 · Quito ─────────────────────────────────────────────────────
-{ bolge:1, t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
+{ tur:"kurulus", bolge:1, t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
   b:"San Francisco de Quito kuruldu — kuzey İnka başkentinde İspanyol düzeni",
   gun:"6 Aralık 1534", yer:"Quito", kisiler:"Sebastián de Benalcázar, Rumiñahui",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -170,7 +170,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Almagro'nun daha önce (Ağustos 1534) kurduğu Santiago de Quito ayrı bir olaydır; atlas kırılması Benalcázar'ın 6 Aralık kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1535 · Lima ──────────────────────────────────────────────────────
-{ bolge:1, t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
+{ tur:"kurulus", bolge:1, t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
   b:"Lima kuruldu — İspanyol Peru'sunun başkenti Rimac vadisine taşındı",
   gun:"18 Ocak 1535", yer:"Lima (Ciudad de los Reyes)", kisiler:"Francisco Pizarro",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -179,7 +179,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 18 Ocak 1535 standart tarih yazımında yerleşiktir." },
 
 // ── 1537 · Popayán ───────────────────────────────────────────────────
-{ bolge:1, t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
+{ tur:"kurulus", bolge:1, t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
   b:"Popayán kuruldu — Quito ile Muisca ülkesi arasındaki köprü",
   gun:"13 Ocak 1537", yer:"Popayán", kisiler:"Sebastián de Benalcázar",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -197,7 +197,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"HASSASİYET AY: kaynaklar baskını Ağustos 1537'ye koyar; atlas kırılması da ay hassasiyetinde (1537-08-01). Gün YAZILMADI — sahte kesinlik üretmemek için (§4)." },
 
 // ── 1537 · Asunción ──────────────────────────────────────────────────
-{ bolge:1, t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
+{ tur:"kurulus", bolge:1, t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
   b:"Asunción kuruldu — Paraguay ırmağında İspanyol üssü",
   gun:"15 Ağustos 1537", yer:"Asunción", kisiler:"Juan de Salazar de Espinosa",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -206,7 +206,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, kasabanın adaşı Asunción (Meryem'in Göğe Kabulü) yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1538 · Bacatá (Bogotá) ───────────────────────────────────────────
-{ bolge:1, t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
+{ tur:"kurulus", bolge:1, t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
   b:"Santa Fe de Bogotá kuruldu — Muisca ülkesinde İspanyol başkenti",
   gun:"6 Ağustos 1538", yer:"Bacatá (Bogotá)", kisiler:"Gonzalo Jiménez de Quesada",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -215,7 +215,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1538 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Huamanga ──────────────────────────────────────────────────
-{ bolge:1, t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
+{ tur:"kurulus", bolge:1, t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
   b:"San Juan de la Frontera de Huamanga kuruldu — Lima-Cuzco yolunun kilidi",
   gun:"9 Ocak 1539", yer:"Huamanga (Ayacucho)", kisiler:"Francisco Pizarro, Manco Inca",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -224,7 +224,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 9 Ocak 1539 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Tunja (İspanyol şehri) ────────────────────────────────────
-{ bolge:1, t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
+{ tur:"kurulus", bolge:1, t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
   b:"Tunja İspanyol şehri olarak yeniden kuruldu",
   gun:"6 Ağustos 1539", yer:"Hunza (Tunja)", kisiler:"Gonzalo Suárez Rendón",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -233,7 +233,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1539 standart kuruluş tarihi olarak yerleşiktir. Aynı yerleşimin 1537 kırılması ayrı maddededir (zaque'nin yenilgisi)." },
 
 // ── 1541 · Santiago de Chile ─────────────────────────────────────────
-{ bolge:1, t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
+{ tur:"kurulus", bolge:1, t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
   b:"Santiago del Nuevo Extremo kuruldu — Şili'nin fethi başladı",
   gun:"12 Şubat 1541", yer:"Santiago (Şili)", kisiler:"Pedro de Valdivia, Michimalonco",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -242,7 +242,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 12 Şubat 1541 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1571 · Cochabamba ────────────────────────────────────────────────
-{ bolge:1, t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
+{ tur:"kurulus", bolge:1, t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
   b:"Villa de Oropesa kuruldu — Potosí'yi besleyecek tahıl vadisinin iskânı",
   gun:"15 Ağustos 1571", yer:"Cochabamba (Villa de Oropesa)", kisiler:"Genel Vali Francisco de Toledo",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -266,7 +266,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Vilcabamba'nın ele geçirilişi (Haziran 1572) ile Túpac Amaru'nun Cuzco'da idamı (Eylül 1572) ayrı tarihlerdir; atlas kırılması ele geçirilişte duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1619 · Maynas ────────────────────────────────────────────────────
-{ bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
+{ tur:"kurulus", bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
   b:"San Francisco de Borja kuruldu — Maynas'ta İspanyol hâkimiyeti",
   gun:"1619 (temsilî)", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
   etiket:["askeri","toprak-kazanc","konu-idari"],

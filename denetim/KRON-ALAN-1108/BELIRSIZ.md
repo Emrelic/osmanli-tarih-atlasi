@@ -1,0 +1,3205 @@
+# KRON-ALAN-1108 — Doldurulamayan (belirsiz) alanlar
+
+Ölçüm: tur boş 1784 · onem boş 2833 · dunya boş 2911 (origin/main + bu dal, 8 Kasım 2026).
+
+## Neden yazılmadı
+
+- **tur:** kural (tekil/ikili etiket-k-dosya-başlık özelliği, eğitimde ≥%95 saf, n≥20) holdout'ta (%80 eğit / %20 sına) %95,5 ince, %97,4 ana-tür doğruluk verdi, kapsama %25,7 (tüm etiketli veriyle yeniden kurulunca boş maddelerin 739/2523ü) → kapsadığı 739 madde yazıldı. Kalan maddeler için Sonnet pilotu (100 etiketli madde, kör): ana-tür uyumu %68, ince %51 → ≥%90 değil, YAZILMADI.
+- **onem:** dosya bazında ölçek farklı (her kol kendi kalibrasyonunu kullanmış); kuraldan türetilemedi. Sonnet pilotu tam uyum %45, ±1 %89 → güvenli değil, YAZILMADI.
+- **dunya:** Sonnet pilotu tam uyum %53, ±1 %99 → tek başına güvenli değil, YAZILMADI. (Not: uygulamada dunya yoksa onem vekil okunur, ikisi de yoksa "puansız" sayılır.)
+- Mevcut etiketler gürültülü olduğu için "tam uyum" tavanı gerçek doğruluğun alt sınırıdır; yine de uydurma puan verilmedi.
+
+## Öneri
+onem/dunya için Emre'nin rubrik onayı (RUBRIK ölçütü: 5 çağ açan … 1 ayrıntı) + dosya başına küçük partiler halinde, tek ajan çift okuma (iki bağımsız puan, uyuşanı yaz) denenebilir.
+
+## Maddeler (dosya başına)
+
+### kronoloji_cok_500_1000.js (16)
+- 0637-02-02 · Halep ve Kuzey Suriye şehirleri müslümanlara geçti → onem,dunya
+- 0642-01-01 · Nihâvend Savaşı: Sâsânî ordusu yenildi → onem,dunya
+- 0652-01-01 · Selmân b. Rebîa Derbend'i aşıp Hazar başşehri Belencer'e kadar ilerledi → onem,dunya
+- 0656-12-09 · Cemel Vak'ası: Hz. Ali Basra önünde üstün geldi → onem,dunya
+- 0680-10-10 · Kerbelâ: Hz. Hüseyin ve beraberindekiler katledildi → onem,dunya
+- 0787-01-01 · Rüstemî imamı Abdurrahman b. Rüstem öldü → onem,dunya
+- 0820-01-01 · Ziyâdî emîri İbn Ziyâd Zebîd şehrini kurdu → onem,dunya
+- 0831-09-12 · Palermo Ağlebî kuvvetlerine teslim oldu → onem,dunya
+- 0843-01-01 · Messina Ağlebîler'e teslim oldu → onem,dunya
+- 0870-01-01 · Ahmed b. Tolun Katâi'yi kurup idare merkezini oraya taşıdı → onem,dunya
+- 0896-01-01 · Humâreveyh Dımaşk'ta öldürüldü; yerine oğlu Ceyş geçti → onem,dunya
+- 0911-01-01 · Sâmânîler Zerenc'i aldı; Saffârîler'in Leysî kolu sona erdi → onem,dunya
+- 0946-07-25 · İhşîd Muhammed b. Tuğç Dımaşk'ta öldü → onem,dunya
+- 0958-03-25 · Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı → onem,dunya
+- 0964-01-19 · Musul yeniden Büveyhî işgaline uğradı; yönetim Ebû Tağlib Gazanfer'e verildi → onem,dunya
+- 0963-01-01 · Fâtımî ordusu Sicilmâse'de Semkû'yu devirip Fâtımî nüfuzunu tanıyan el-Mu'tez'i emîr yaptı → onem,dunya
+
+### kronoloji_cok_derin_asya_afrika_1024.js (66)
+- -0208-01-01 · Modun (Maodun) Xiongnu tahtına geçti - konfederasyonu kurdu → onem,dunya
+- -0199-01-01 · Baideng kuşatması - Han Gaozu Xiongnu'ya yenildi, heqin (evlilik ittifakı) dönemi başladı → onem,dunya
+- -0035-01-01 · Han ordusu Zhizhi Şanyü'yü Talas yakınında yendi - Kuzey Xiongnu'nun batıdaki gücü kırıldı → onem,dunya
+- 0048-01-01 · Bi Şanyü kendini ilan etti - Xiongnu Kuzey ve Güney olarak ikiye ayrıldı → onem,dunya
+- 0745-01-01 · Kutlug Bilge Kül Kağan Göktürk'ün son kağanını yenip Ötüken'de Uygur Kağanlığı'nı kurdu → onem,dunya
+- 0762-01-01 · Bögü Kağan Tang ile birlikte Luoyang'ı isyancılardan geri aldı; Maniheizm kabul edildi → onem,dunya
+- 0840-01-01 · Yenisey Kırgızları Ötüken'i basıp Uygur başkentini yıktı - kağanlık sona erdi → onem,dunya
+- -0160-01-01 · Dutugamunu (Dutthagamani) Elara'yı yenip adayı birleştirdi (geleneksel tarih MÖ 161) → onem,dunya
+- 0993-01-01 · Rajaraja Chola Sri Lanka'nın kuzeyini işgal etti; Anuradhapura düştü → onem,dunya
+- 1017-01-01 · I. Rajendra Chola V. Mahinda'yı esir aldı - Anuradhapura krallığı sona erdi → onem,dunya
+- 1070-01-01 · I. Vijayabahu Chola'ları kovup Polonnaruwa'yı aldı, adayı yeniden birleştirdi → onem,dunya
+- 1153-01-01 · I. Parakramabahu Polonnaruwa tahtına geçti - krallığın en parlak dönemi → onem,dunya
+- 1187-01-01 · Nissanka Malla (Kalinga hanedanı) Polonnaruwa tahtına geçti → onem,dunya
+- 1215-01-01 · Kalinga Magha Polonnaruwa'yı işgal etti - krallığın çöküşü başladı → onem,dunya
+- 0778-01-01 · Kalasan yazıtı - Sailendra hanedanı Orta Cava'da Tara tapınağı yaptırdı → onem,dunya
+- 0824-01-01 · Karangtengah yazıtı - Samaratungga döneminde Pramodhawardhani Cinalaya'yı kutsadı (Borobud → onem,dunya
+- 0856-01-01 · Shivagrha yazıtı - Rakai Pikatan Balaputra'yı yendi, Sailendra Cava'da sona erdi → onem,dunya
+- 0450-01-01 · Purnavarman'ın Ciaruteun ve Tugu yazıtları - Batı Cava'da Tarumanagara kralı → onem,dunya
+- 0528-01-01 · To-lo-mo (Taruma) elçisi Liang sarayına gitti - Çin kaynaklarında ilk kayıt → onem,dunya
+- 0669-01-01 · To-lo-mo'nun Tang'a son elçiliği - Tarumanagara kaynaklardan kayboldu → onem,dunya
+- 0644-01-01 · Mo-lo-yu (Melayu) Tang sarayına elçi gönderdi → onem,dunya
+- 0671-01-01 · Yijing Melayu'ya uğradı, ardından Srivijaya'ya gitti → onem,dunya
+- 1275-01-01 · Singhasari'nin Pamalayu seferi - Kertanagara Melayu'yu etkisine aldı → onem,dunya
+- 1347-01-01 · Adityawarman Melayu kralı olarak Amoghapasa yazıtını yazdırdı → onem,dunya
+- 0905-01-01 · Khuc Thua Du Dai La'yı alıp Tang tarafından jiedushi atandı → onem,dunya
+- 0907-01-01 · Khuc Hao babası Thua Du'nun yerine geçti → onem,dunya
+- 0930-01-01 · Güney Han An Nam'ı işgal edip Khuc Thua My'yi esir aldı → onem,dunya
+- 0939-01-01 · Ngo Quyen kral unvanını aldı ve Co Loa'yı başkent yaptı → onem,dunya
+- 0944-01-01 · Ngo Quyen öldü, Duong Tam Kha tahtı gasp etti → onem,dunya
+- 0965-01-01 · Ngo Xuong Van öldü - Ngo hanedanı çöktü, On İki Savaş Ağası dönemi başladı → onem,dunya
+- 1303-01-01 · Alaeddin Hilci Çitor'u aldı - Guhila Mevar'ın başkenti düştü → onem,dunya
+- 1568-01-01 · Ekber Çitor'u kuşatıp aldı - Mevar Udaipur'a taşındı → onem,dunya
+- 1576-01-01 · Haldighati Savaşı - Maharana Pratap Babürlüler'e yenildi → onem,dunya
+- 1615-01-01 · Mevar-Babürlü antlaşması - Amar Singh Cihangir'in üstünlüğünü kabul etti → onem,dunya
+- 1003-01-01 · Sangramaraja Keşmir tahtına geçti - Lohara hanedanı kuruldu → onem,dunya
+- 1015-01-01 · Mahmud Gaznevi Keşmir'e girmeye çalıştı, Loharkot'ta durduruldu → onem,dunya
+- 1089-01-01 · Harsha Keşmir tahtına geçti → onem,dunya
+- 1128-01-01 · Jayasimha Keşmir tahtına geçti → onem,dunya
+- 1521-03-06 · Magellan Guam'a ulaştı - Avrupalılarla ilk temas → onem,dunya
+- 1565-01-01 · Legazpi Guam'a vararak adaların İspanya adına sahiplenildiğini ilan etti → onem,dunya
+- 1668-06-16 · Peder Sanvitores Guam'da Cizvit misyonunu kurdu → onem,dunya
+- 1672-04-02 · Sanvitores Tumon'da öldürüldü - İspanyol-Chamorro savaşları başladı → onem,dunya
+- 0476-01-01 · Tamna Baekje'ye hediye gönderdi - ilk yazılı kayıt → onem,dunya
+- 0498-01-01 · Baekje Dongseong'un Tamna seferi - ada Baekje'ye bağlı kaldı → onem,dunya
+- 1105-01-01 · Goryeo Tamna'yı idarî bölge (gun) yaptı - bağımsız krallık sona erdi → onem,dunya
+- 0400-01-01 · Goguryeo'nun Silla yardımıyla Gaya'ya seferi - Geumgwan Gaya zayıfladı → onem,dunya
+- 0532-01-01 · Geumgwan Gaya Silla'ya teslim oldu → onem,dunya
+- 0562-01-01 · Silla Daegaya'yı fethetti - Gaya Konfederasyonu sona erdi → onem,dunya
+- 1007-01-01 · Kerait hanı ve halkı Nasturî Hristiyanlığa geçti (geleneksel tarih) → onem,dunya
+- 1196-01-01 · Toghril Temüçin'in yardımıyla Kerait tahtını geri aldı → onem,dunya
+- 1203-01-01 · Temüçin Keraitleri yendi - Ong Han öldürüldü → onem,dunya
+- 1199-01-01 · Temüçin ve Toghril Naymanları yendi (Buyruk Han) → onem,dunya
+- 1201-01-01 · Koyiten Savaşı - Cemuka ve Naymanlar Temüçin karşısında → onem,dunya
+- 1204-01-01 · Çakırmaut Savaşı - Tayang Han öldü, Nayman devleti sona erdi → onem,dunya
+- 1285-01-01 · Umar Walasma Ifat Sultanlığı'nı kurdu (Şoa sultanlığı sona erdi) → onem,dunya
+- 1332-01-01 · I. Amda Seyon Ifat'a saldırdı, Hakk ad-Din yenildi → onem,dunya
+- 1415-01-01 · I. Yeşak Sa'd ad-Din'i Zeyla'da yendi - Ifat sona erdi → onem,dunya
+- 1054-01-01 · Murâbıtlar Awdaghust'u aldı - Gane'nin kuzey ticaret şehri kayboldu → onem,dunya
+- 1068-01-01 · el-Bekrî Gane'yi tanımlayan Kitâbü'l-mesâlik'i yazdı → onem,dunya
+- 1076-01-01 · Ebû Bekir b. Ömer Gane'yi fethetti (geleneksel tarih) → onem,dunya
+- 1078-01-01 · Chodagangadeva tahta geçti - Doğu Ganga gücü Kalinga'da zirveye çıktı → onem,dunya
+- 1238-01-01 · I. Narasimhadeva Doğu Ganga tahtına geçti (Konarak dönemi) → onem,dunya
+- 1434-01-01 · Kapilendra Gajapati hanedanını kurdu - Doğu Ganga son buldu → onem,dunya
+- 0562-01-01 · Kaanul-Caracol ittifakı Tikal'i yendi (Yıldız Savaşı) → onem,dunya
+- 0636-01-01 · Yuknoom Ch'een II (Büyük) Kaanul tahtına geçti → onem,dunya
+- 0695-08-05 · Tikal Kaanul'u yendi - Jasaw Chan K'awiil I zaferi → onem,dunya
+
+### kronoloji_cok_ince_avrupa_amerika.js (48)
+- 1170-02-25 · Novgorod, Andrey Bogolyubski'nin Suzdal önderliğindeki koalisyonunu şehir önünde yendi → onem,dunya
+- 1348-08-06 · İsveç Kralı Magnus Eriksson Orekhovets (Oreşek) kalesini aldı → onem,dunya
+- 1428-01-01 · Litvanya Büyük Dükü Vytautas Porhov'a yürüdü; Novgorod ağır fidye ödedi → onem,dunya
+- 1441-01-01 · Moskova Büyük Knezi II. Vasiliy Novgorod'a savaş açtı; barış 8.000 rubleyle satın alındı → onem,dunya
+- 1266-07-02 · Perth Antlaşması: Norveç Batı Adaları'nı (Hebridler) ve Man Adası'nı İskoçya'ya bıraktı → onem,dunya
+- 1296-08-28 · I. Edward Berwick parlamentosunda İskoçya'yı doğrudan İngiliz yönetimine bağladı → onem,dunya
+- 1318-01-01 · Robert Bruce Berwick'i İngilizlerden geri aldı → onem,dunya
+- 1328-01-01 · Northampton Antlaşması: İngiltere İskoçya'nın bağımsızlığını tanıdı → onem,dunya
+- 1333-07-19 · Halidon Hill bozgunu: Naip Archibald Douglas ve altı kont öldü, İskoçya Balliol-Edward'a a → onem,dunya
+- 1334-02-10 · Edward Balliol Edinburgh'da III. Edward'ı metbû tanıdı, Berwick'i ebediyen İngiltere'ye bı → onem,dunya
+- 1468-09-08 · III. James ile Danimarkalı Margaret'in evlilik antlaşması: Orkney Adaları çeyiz rehni olar → onem,dunya
+- 1472-01-01 · Orkney ve Shetland adaları İskoç tacına ilhak edildi → onem,dunya
+- 1367-01-01 · Kilkenny Statüsü: İngiliz 'Pale'i ile dışındaki Gal halkı hukuken ayrıldı → onem,dunya
+- 1494-12-01 · Poynings Kanunları: İrlanda parlamentosu İngiliz kral ve meclisine bağlandı → onem,dunya
+- 1601-10-03 · Don Juan del Águila komutasındaki İspanyol kuvvetleri Kinsale'e çıktı → onem,dunya
+- 1602-01-03 · Kinsale Savaşı: Tyrone ve O'Donnell'in ordusu Mountjoy karşısında bozguna uğradı → onem,dunya
+- 1602-01-12 · Kinsale'deki İspanyol kuvvetleri teslim antlaşmasını imzaladı → onem,dunya
+- 1329-01-01 · Ludovico Gonzaga imparatorluk vekili (vicarius) olarak tanındı → onem,dunya
+- 1432-01-01 · İmparator Sigismund, Gianfrancesco Gonzaga'ya Mantua markisi unvanını verdi → onem,dunya
+- 1536-01-01 · V. Karl, Monferrato veraset davasını Gonzaga lehine karara bağladı → onem,dunya
+- 1627-01-01 · II. Vincenzo'nun ölümüyle Mantua, Fransız Nevers kolundan Charles'a geçti; veraset savaşı  → onem,dunya
+- 1630-01-01 · Mantua Avusturya kuvvetlerince basılıp yağmalandı → onem,dunya
+- 1748-01-01 · Mariya Terezya Parma ve Piacenza'yı İspanya infantı Don Felipe'ye bıraktı → onem,dunya
+- 1796-01-01 · Devrim Fransası Parma dukalığını işgal etti → onem,dunya
+- 1802-01-01 · Dük Ferdinando'nun ölümüyle Parma ve Piacenza Fransa'ya katıldı → onem,dunya
+- 1815-01-01 · Viyana Kongresi Parma, Piacenza ve Guastalla'yı Marie Louise'e verdi → onem,dunya
+- 1849-03-14 · II. Karl tahttan çekildi, dukalık oğlu III. Karl'a geçti → onem,dunya
+- 1858-01-01 · Monagas rejiminin çöküşüyle Federal Savaş başladı → onem,dunya
+- 1870-01-01 · Antonio Guzmán Blanco merkezî otoriteyi yeniden kurdu, 18 yıllık diktatörlüğü başladı → onem,dunya
+- 1899-01-01 · Cipriano Castro özel ordusuyla Caracas'a yürüyüp başkanlığı ele geçirdi → onem,dunya
+- 1902-01-01 · İngiliz, Alman ve İtalyan donanmaları Venezuela'yı abluka altına aldı → onem,dunya
+- 1908-01-01 · Juan Vicente Gómez, Avrupa'daki Castro'yu devirerek iktidarı aldı → onem,dunya
+- 1838-01-01 · Köleliğin tamamen kaldırılmasıyla eski köleler plantasyonları terk etmeye başladı → onem,dunya
+- 1850-01-01 · Britanya ve Venezuela tartışmalı sınır bölgesini işgal etmemeyi kararlaştırdı → onem,dunya
+- 1887-01-01 · Venezuela sınır anlaşmazlığı yüzünden Britanya ile diplomatik ilişkileri kesti → onem,dunya
+- 1905-12-01 · Ruimveldt ayaklanması ('Kara Cuma') İngiliz Guyanası'nı sarstı → onem,dunya
+- 1928-01-01 · İngiliz Guyanası yeni anayasayla taç kolonisi yapıldı → onem,dunya
+- 1852-01-01 · Bir kararnameyle Fransız Guyanası'nda ceza kolonisi kuruldu → onem,dunya
+- 1855-01-01 · Approuague'da altın bulundu, koloniyi altın ateşi sardı → onem,dunya
+- 1846-01-01 · Krakov'da ayaklanma çıktı; şehir Avusturya birliklerince işgal edildi → onem,dunya
+- 1282-01-01 · Dubrovnik anayasası aristokrat cumhuriyeti kurumlaştırdı → onem,dunya
+- 1358-01-01 · Dubrovnik üzerindeki Venedik hâkimiyeti sona erdi → onem,dunya
+- 1442-01-01 · II. Murad'ın fermanı Dubrovnik tüccarlarının Osmanlı ülkesindeki imtiyazlarını belirledi → onem,dunya
+- 1402-08-20 · Emîr Süleyman Anadolu'yu terk edip Gelibolu'ya geçti, Rumeli'ye yerleşti → onem,dunya
+- 1410-02-13 · Mûsâ Çelebi Yanbolu'da Süleyman'ın Rumeli kuvvetlerini yendi, Edirne'yi aldı → onem,dunya
+- 1410-06-15 · Emîr Süleyman Kosmidion'da (Hasköy) Mûsâ Çelebi'yi yendi, Rumeli'yi geri aldı → onem,dunya
+- 1412-01-01 · Mûsâ Çelebi İnceğiz'de Çelebi Mehmed'i geri püskürttü → onem,dunya
+- 1413-01-01 · Mûsâ Çelebi Sırbistan seferine çıktı, Novoberda'yı kuşatıp pek çok kale aldı → onem,dunya
+
+### kronoloji_cok_ince_dg_afrika.js (28)
+- 1534-01-01 · Func tahtına Nâyil b. Amâre geçti → onem,dunya
+- 1604-01-01 · Func sultanı II. Abdülkādir Etiyopya hâkimiyetini kabul ettiği için tahttan indirildi → onem,dunya
+- 1611-01-01 · I. Bâdî Func tahtına geçip Etiyopya'ya karşı ayaklandı → onem,dunya
+- 1804-01-01 · Son Func sultanı VII. Bâdî b. Tabl tahta çıktı → onem,dunya
+- 1286-01-01 · Kalavun'un Nûbe seferleri başladı → onem,dunya
+- 1316-01-01 · Memlükler Müslüman Abdullah Berşembû'yu Nûbe tahtına oturttu → onem,dunya
+- 1726-01-01 · Dârfûr'un 'ikinci kurucusu' Ahmed Bekir tahta çıktı → onem,dunya
+- 1799-01-01 · Muhammed Fadl Dârfûr sultanı oldu → onem,dunya
+- 1839-01-01 · Muhammed Hüseyin Dârfûr tahtına geçti → onem,dunya
+- 1883-01-01 · Mehdî hareketi başladı; Dârfûr'da Osmanlı-Mısır idaresi sarsıldı → onem,dunya
+- 1810-01-01 · I. Radama Merina tahtına çıktı; adanın üçte ikisine hâkim oldu → onem,dunya
+- 1828-01-01 · I. Ranavalona Merina tahtına geçti, yabancılarla ilişkileri kesti → onem,dunya
+- 1861-01-01 · II. Radama limanları Avrupalılara açtı → onem,dunya
+- 1885-01-01 · Fransız-Merina antlaşması: Fransızlar Diégo-Suarez ve Tananarive'ye yerleşti → onem,dunya
+- 1890-01-01 · Merina Krallığı Fransız himayesini kabule zorlandı → onem,dunya
+- 1805-01-01 · Abdülkerîm Sâbûn Vedây tahtına geçti → onem,dunya
+- 1806-01-01 · Vedây Sultanı Sâbûn Bagirmi başşehri Masinya'yı yağmaladı → onem,dunya
+- 1835-01-01 · Muhammed eş-Şerîf Vedây tahtına geçti → onem,dunya
+- 1850-01-01 · Vedây başşehri Vârâ'dan Ebîşe'ye taşındı → onem,dunya
+- 1858-01-01 · Kolak Ali Vaday tahtına geçti → onem,dunya
+- 1874-01-01 · Kolak Yûsuf Vaday tahtına geçti → onem,dunya
+- 1884-01-01 · Portekiz birlikleri Angola'dan Lunda topraklarına girdi → onem,dunya
+- 1805-01-01 · IV. Kazembe (Kibangu Keleka) tahta çıktı; Portekiz ticaretine açıldı → onem,dunya
+- 1850-01-01 · IV. Kazembe'nin ölümüyle taht kavgası iç savaşa dönüştü → onem,dunya
+- 1876-01-01 · Mirambo, Buganda ve Ucici kervan yollarını denetimine aldı → onem,dunya
+- 1880-01-01 · Zengibar Sultanı Bargaş, Mirambo ile ittifakını bozdu → onem,dunya
+- 1884-01-01 · Mirambo öldü; Urambo krallığı hızla dağıldı → onem,dunya
+- 1894-01-01 · İngilizler Bunyoro hükümdarı Kabarega'yı tahttan indirdi → onem,dunya
+
+### kronoloji_cok_ince_gd_asya.js (44)
+- 1615-01-01 · Osaka Kalesi düştü — Toyotomi hanedanı sona erdi, Tokugawa'nın karşısında rakip kalmadı → onem,dunya
+- 1635-01-01 · Sankin-kotai (nöbetleşe Edo ikameti) zorunlu hale geldi — daimyo'lar Edo'ya bağlandı → onem,dunya
+- 1638-01-01 · Shimabara İsyanı bastırıldı — Hıristiyanlık yasağı ve ülkenin kapanması pekişti → onem,dunya
+- 1854-03-31 · Kanagawa Antlaşması — Japonya Amerika'ya Shimoda ve Hakodate limanlarını açtı → onem,dunya
+- 1858-07-29 · Harris Antlaşması — eşitsiz ticaret antlaşmaları dönemi başladı → onem,dunya
+- 1867-01-01 · Tokugawa Yoshinobu yönetimi imparatora geri verdi (Taisei Hōkan) → onem,dunya
+- 1653-01-01 · Hollanda Doğu Hindistan Şirketi Kupang'ı ele geçirdi — Batı Timor'da ikinci sömürge odağı → onem,dunya
+- 1594-01-01 · Siyam kuvvetleri Lovek'i aldı — Kmer başkenti yıkıldı → onem,dunya
+- 1887-10-17 · Hindiçini Birliği kuruldu — Kamboçya Fransız Hindiçini'ne katıldı → onem,dunya
+- 1945-03-13 · Sihanouk Japon baskısıyla Kamboçya'nın bağımsızlığını ilan etti → onem,dunya
+- 1786-08-11 · Francis Light Penang'ı Kedah Sultanı adına aldı — İngiltere'nin yarımadadaki ilk üssü → onem,dunya
+- 1824-03-17 · Anglo-Hollanda Antlaşması — Malay dünyası İngiliz ve Hollanda etki alanlarına bölündü → onem,dunya
+- 1357-01-01 · Bubat Olayı — Majapahit ile Sunda Krallığı arasında kalıcı husumet doğdu → onem,dunya
+- 1389-01-01 · Hayam Wuruk öldü — Majapahit'in altın çağı sona erdi → onem,dunya
+- 1826-02-24 · Yandabo Antlaşması — Birinci Anglo-Birman Savaşı sona erdi, Arakan ve Tenasserim İngiltere → onem,dunya
+- 1852-12-20 · İngiltere Pegu eyaletini ilhak etti — Birmanya denizle bağını yitirdi → onem,dunya
+- 1638-01-01 · Sulinya Vongsa tahta çıktı — Lan Xang'ın son büyük dönemi başladı → onem,dunya
+- 1694-01-01 · Sulinya Vongsa öldü — Lan Xang veraset krizine girdi ve parçalanmaya gitti → onem,dunya
+- 1862-06-05 · Saigon Antlaşması — Fransa Cochinchina'nın üç eyaletini aldı → onem,dunya
+- 1883-08-25 · Harmand Antlaşması — Fransa Annam ve Tonkin üzerinde protektorayı dayattı → onem,dunya
+- 1945-03-11 · Bảo Đại Japon baskısıyla Vietnam'ın bağımsızlığını ilan etti → onem,dunya
+- 1611-01-01 · Nguyễn Hoàng Phú Yên'i aldı — Champa'nın kuzey yakası Vietnam'a geçti → onem,dunya
+- 1849-01-01 · Hollanda Bali'ye seferi — Buleleng ve Jembrana Hollanda denetimine girdi → onem,dunya
+- 1512-01-01 · Portekizliler Ternate'ye ulaştı — baharat adalarında Avrupa ticaret savaşı başladı → onem,dunya
+- 1606-01-01 · İspanya Ternate'yi işgal etti, Sultan Said'i Manila'ya sürdü → onem,dunya
+- 1821-02-10 · Minangkabau soyluları Hollanda ile antlaşma yaptı — Padri Savaşı Hollanda'nın müdahalesine → onem,dunya
+- 1170-01-01 · Subay darbesi — Goryeo'da askerî rejim başladı → onem,dunya
+- 1259-01-01 · Goryeo Moğollarla barış yaptı — Gaegyeong'a dönüş ve vasallık yolu açıldı → onem,dunya
+- 1388-01-01 · Yi Seong-gye Wihwa Adası'ndan geri döndü — Goryeo'yu devirmenin eşiği → onem,dunya
+- 1221-01-01 · Jōkyū Savaşı — emekli imparator Go-Toba'nın şogunluğa karşı ayaklanması bastırıldı → onem,dunya
+- 1274-01-01 · Birinci Moğol (Bun'ei) seferi — Hakata Körfezi'ne çıkarma → onem,dunya
+- 1771-01-01 · Tây Sơn kardeşler ayaklandı — Nguyễn beyliğinin çöküşü başladı → onem,dunya
+- 1785-01-01 · Rạch Gầm–Xoài Mút Savaşı — Tây Sơn Siyam ordusunu bozguna uğrattı → onem,dunya
+- 1789-01-01 · Đống Đa Zaferi — Nguyễn Huệ (Quang Trung) Qing ordusunu Hanoi yakınında bozguna uğrattı → onem,dunya
+- 1778-01-01 · Taksin Vientiane'i aldı — Siyam Laos krallıklarına üstün geldi → onem,dunya
+- 1810-01-01 · Kauai ve Niihau Kamehameha'nın egemenliğini kabul etti — adalar birleşti → onem,dunya
+- 1819-05-08 · Kamehameha I öldü — Kapu sistemi yıkılmaya doğru gitti → onem,dunya
+- 1840-10-08 · Hawaii ilk anayasasını yayımladı — mutlak monarşi sınırlandı → onem,dunya
+- 1893-01-17 · Kraliçe Liliuokalani devrildi — Hawaii Krallığı sona erdi → onem,dunya
+- 1609-01-01 · Satsuma Ryukyu'yu işgal etti — Krallık Japon ve Çin çifte tâbiliğine girdi → onem,dunya
+- 1669-01-01 · Somba Opu düştü — Makassar Savaşı bitti, Gova Hollanda'ya boyun eğdi → onem,dunya
+- 1787-01-01 · Banjar Sultanı VOC ile antlaşma yaptı — sultanlık Hollanda'ya vasal oldu → onem,dunya
+- 1821-01-01 · Hollanda Palembang'ı işgal etti — Sultan Mahmud Badaruddin II sürgüne gönderildi → onem,dunya
+- 1828-01-01 · Siyam Vientiane'i yıktı — Anouvong isyanı bastırıldı, Laos krallıkları Siyam'a bağlandı → onem,dunya
+
+### kronoloji_cok_ince_guney_asya.js (56)
+- 1725-01-01 · Bâbürlü sarayı Nizâmülmülk'ü resmen Dekken valiliğine tayin etti → onem,dunya
+- 1748-05-21 · Nizâmülmülk Âsafcâh öldü, Haydarabad'da taht mücadelesi başladı → onem,dunya
+- 1762-01-01 · Nizam Ali, Salâbet Ceng'i tahttan indirerek Haydarabad tahtına geçti → onem,dunya
+- 1790-01-01 · Haydarabad, Meysûr Sultanı Tîpû'ya karşı İngilizlerle ortak cephe kurdu → onem,dunya
+- 1869-02-27 · Efdalüddevle öldü, üç yaşındaki Mîr Mahbûb Ali Han nizam oldu → onem,dunya
+- 1911-01-01 · Mîr Osman Ali Han Haydarabad'ın yedinci ve son nizamı oldu → onem,dunya
+- 1659-01-01 · Şivâcî, Efdal (Afzal) Han komutasındaki Âdilşâhî ordusunu tuzağa düşürüp yendi → onem,dunya
+- 1665-06-11 · Purandar Antlaşması: Şivâcî kalelerinin çoğunu Bâbürlülere bıraktı → onem,dunya
+- 1713-01-01 · Bâlâjî Vişvanâth peşva oldu, Maratha devletinde peşvalık dönemi başladı → onem,dunya
+- 1802-12-31 · Bassein Antlaşması: Peşva II. Bâcî Rao İngiliz himayesini kabul etti → onem,dunya
+- 1442-01-01 · Devletin asıl kurucusu sayılan I. Ahmed Şah öldü → onem,dunya
+- 1458-01-01 · Mahmud Şah (Begra) Gucerât tahtına çıktı → onem,dunya
+- 1535-01-01 · Bahadır Şah, Portekizlilere Diu'da kale yapma izni verdi → onem,dunya
+- 1554-01-01 · III. Mahmud Şah öldü, Gucerât'ta emîrler arası bölünme derinleşti → onem,dunya
+- 1510-01-01 · Portekizliler Goa'yı Âdilşâhîlerden kesin olarak aldı → onem,dunya
+- 1558-01-01 · Ali Âdilşah Bîcâpûr tahtına çıktı → onem,dunya
+- 1619-01-01 · Bîcâpûr, Berîdşâhî Sultanlığı'nı ortadan kaldırıp Bîdar'ı ilhak etti → onem,dunya
+- 1636-01-01 · Bîcâpûr, Şah Cihan'la antlaşarak Bâbürlü üst hâkimiyetini tanıdı → onem,dunya
+- 1657-01-01 · Şehzade Evrengzîb Bîcâpûr'u kuşattı, babası hastalanınca geri çekildi → onem,dunya
+- 1543-01-01 · Kurucu Kulı Kutbülmülk öldürüldü, oğlu Cemşîd tahta geçti → onem,dunya
+- 1636-01-01 · Golkonda, Şah Cihan'la antlaşarak Bâbürlü üst hâkimiyetini tanıdı → onem,dunya
+- 1656-01-01 · Evrengzîb'in Golkonda seferi: Abdullah Kutubşah kaleye çekildi → onem,dunya
+- 1459-01-01 · Rao Codha, Mârvâr'ın yeni başşehri Codhpur'u kurdu → onem,dunya
+- 1488-01-01 · Rao Bîka, Bîkâner şehrini kurup ayrı bir Rathor devleti oluşturdu → onem,dunya
+- 1740-01-01 · Bopal'in kurucusu Dost Muhammed Han öldü, oğlu Yâr Muhammed Han yerine geçti → onem,dunya
+- 1844-01-01 · İskender Begüm, kocası Cihangir Muhammed'in ölümüyle Bopal'de idareyi üstlendi → onem,dunya
+- 1868-01-01 · İskender Begüm öldü, kızı Şah Cihan Begüm Bopal tahtına geçti → onem,dunya
+- 1811-01-01 · II. Sâdık Muhammed Han Bahâvelpûr nevvâbı oldu, güney toprakları için İngiliz himayesi ist → onem,dunya
+- 1947-01-01 · İngiliz himaye antlaşması sona erdi, Bahâvelpûr Pakistan'a katıldı → onem,dunya
+- 1955-01-01 · Bahâvelpûr Pencap eyaletine katıldı, nevvâblık sona erdi → onem,dunya
+- 1662-01-01 · Bâbürlü valisi Mîr Cümle Assam'ı istila edip Ahom başşehri Garhgaon'u aldı → onem,dunya
+- 1769-01-01 · Moamoria ayaklanması Ahom krallığını sarsmaya başladı → onem,dunya
+- 1792-01-01 · Yüzbaşı Welsh'in seferi Ahom kralı Gaurinath Singha'yı tahtına geri oturttu → onem,dunya
+- 1529-01-01 · Vişvanâtha Nâyak, Vijayanagara adına Madurai nâyaklığını kurdu → onem,dunya
+- 1623-01-01 · Tirumala Nâyak Madurai tahtına çıktı → onem,dunya
+- 1673-01-01 · Madurai nâyakı Çokkanâtha Tancavur'u alıp Tancavur nâyaklığına son verdi → onem,dunya
+- 1754-01-01 · Şücâüddevle, babası Safder Cenk'in ölümüyle Avad nevabı oldu → onem,dunya
+- 1775-01-01 · Âsafüddevle Avad başşehrini Faizâbâd'dan Leknev'e taşıdı → onem,dunya
+- 1801-01-01 · Avad, Şirket'le antlaşmayla topraklarının yaklaşık yarısını bıraktı → onem,dunya
+- 1819-01-01 · Gâziyüddin Haydar padişah unvanı alarak Bâbürlü üst hâkimiyetinden ayrıldı → onem,dunya
+- 1739-01-01 · Sri Vicaya Racasinha ile Kandy'de Nâyak kökenli hanedan başladı → onem,dunya
+- 1766-01-01 · Kandy, Hollandalılarla antlaşmayla bütün kıyı şeridini bıraktı → onem,dunya
+- 1803-01-01 · Birinci Kandy Savaşı: İngilizler başşehri aldı ama geri çekilmek zorunda kaldı → onem,dunya
+- 1744-01-01 · Enverüddin Han, Nizâmülmülk tarafından Karnatik nevabı tayin edildi → onem,dunya
+- 1749-08-03 · Ambur Savaşı: Karnatik nevabı Enverüddin Han öldürüldü → onem,dunya
+- 1731-01-01 · Varna Antlaşması: Kolhapur ile Satara arasında Maratha tahtı bölüşüldü → onem,dunya
+- 1802-01-01 · Baroda'nın Gaikvad hükümdarı İngiliz Şirketi ile tâbi ittifak antlaşması yaptı → onem,dunya
+- 1875-01-01 · Malhar Rao Gaikvad tahttan indirildi, III. Sayacirao Baroda hükümdarı seçildi → onem,dunya
+- 1767-01-01 · Ahilyabai Holkar İndor'un yönetimini üstlendi → onem,dunya
+- 1782-05-17 · Salbai Antlaşması: Mahâdcî Sindiya'nın arabuluculuğuyla Birinci Anglo-Maratha Savaşı bitti → onem,dunya
+- 1843-12-29 · Mahârâcpur ve Panniar savaşları: İngilizler Gvalyar ordusunu yendi → onem,dunya
+- 1947-01-01 · Cunagadh nevabı devletini Pakistan'a bağlama kararı aldı → onem,dunya
+- 1947-11-09 · Hindistan Cunagadh'ın idaresini devraldı → onem,dunya
+- 1831-01-01 · İngilizler Meysûr racalığının yönetimini doğrudan üstlendi → onem,dunya
+- 1740-01-01 · Giria Savaşı: Alîverdi Han, Nevab Serferaz Han'ı öldürüp Bengal nevabı oldu → onem,dunya
+- 1751-01-01 · Alîverdi Han, Maratha akınlarını Orissa'yı bırakıp haraç ödeyerek durdurdu → onem,dunya
+
+### kronoloji_cok_ince_kuzey_amerika.js (12)
+- 1576-01-01 · Frobisher'in seferi Baffin kıyısında İnuit ile karşılaştı — ilk kayıtlı İngiliz-İnuit tema → onem,dunya
+- 1771-01-01 · Moravya misyonerleri Labrador'da Nain'i kurdu → onem,dunya
+- 1771-07-17 · Bloody Falls katliamı — Hearne'ün Dene kılavuzları Coppermine ağzında İnuit'e saldırdı → onem,dunya
+- 1870-07-15 · Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi → onem,dunya
+- 1874-09-15 · 4 Numaralı Antlaşma (Qu'Appelle) — Ova Krileri ve Saulteaux toprak devretti → onem,dunya
+- 1805-08-13 · Lewis ve Clark seferi Şoşoni ile karşılaştı — Sacagawea kardeşi Cameahwait'i buldu → onem,dunya
+- 1863-01-29 · Bear River katliamı — Connor'un birlikleri Şoşoni kampını yok etti → onem,dunya
+- 1790-01-01 · New York Antlaşması — McGillivray Creek'in ulusal önderi olarak ABD ile antlaştı → onem,dunya
+- 1825-01-01 · Indian Springs Antlaşması — McIntosh Georgia'daki bütün Creek topraklarını devretti, mecli → onem,dunya
+- 1774-01-01 · Juan Pérez'in seferi Haida Gwaii açıklarında Hayda ile karşılaştı — ilk Avrupa teması → onem,dunya
+- 1851-09-17 · Horse Creek (Birinci Fort Laramie) Antlaşması — Oglala ve Brulé Lakota imzaladı → onem,dunya
+- 1775-01-01 · Sycamore Shoals'da Transilvanya Alımı — Dragging Canoe satışa karşı çıktı → onem,dunya
+
+### kronoloji_cok_ince_misir_orta_asya.js (35)
+- 1248-01-01 · Muvahhid halifesi Ebü'l-Hasan Ali es-Saîd Tilimsân önünde Yağmurasen'e yenilip öldürüldü → onem,dunya
+- 1348-01-01 · Zeyyânîler Merinî hâkimiyetinden kurtulup Tilimsân'ı yeniden ele aldı → onem,dunya
+- 1352-01-01 · Merinî Ebû İnân Tilimsân'ı yeniden aldı — ikinci fetret → onem,dunya
+- 1359-01-01 · Zeyyânîler bağımsızlıklarını yeniden kazandı (II. Mûsâ) → onem,dunya
+- 1517-01-01 · Oruç Reis Tilimsân'ı zaptetti → onem,dunya
+- 1518-01-01 · Oruç Reis'in şehadetiyle Tilimsân yeniden Zeyyânî Mûsâ'ya geçti → onem,dunya
+- 1529-01-01 · Hızır Reis (Barbaros) Tilimsân'ı zaptedip Zeyyânî emîrini nüfuzuna aldı → onem,dunya
+- 1604-01-01 · Func sultanı II. Abdülkādir Etiyopya hâkimiyetini kabul ettiği için tahttan indirildi → onem,dunya
+- 1726-01-01 · Ahmed Bekir b. Mûsâ Dârfûr tahtına çıktı — sultanlığın 'ikinci kurucusu' → onem,dunya
+- 1883-01-01 · Dârfûr, Mısır valisince Mehdî kuvvetlerine teslim edildi → onem,dunya
+- 1881-08-12 · Ebâ adası baskını: Mehdî, üzerine gönderilen hükümet askerini bozdu → onem,dunya
+- 1881-12-08 · Fâşûdâ valisi Râşid Eymen Kadîr'de Mehdî'ye yenilip öldü → onem,dunya
+- 1882-05-30 · Yûsuf Hasan eş-Şellâlî Paşa'nın ordusu Kadîr'de yok edildi → onem,dunya
+- 1883-01-19 · Ubeyd (el-Obeid) Mehdî'ye teslim oldu, idare merkezi yapıldı → onem,dunya
+- 1883-11-05 · Şeyhân: Hicks Paşa ordusu Mehdî kuvvetlerince yok edildi → onem,dunya
+- 1884-01-01 · Berber ensar eline geçti; Hartum'un Mısır yolu kesildi → onem,dunya
+- 1889-08-03 · Tuşkî: Teâyişî'nin Mısır'a yolladığı ordu Vâdîhalfâ kuzeyinde yok edildi → onem,dunya
+- 1266-01-01 · Kubilay destekli Barak Han, Mübârek Şah'ı indirip Çağatay tahtına çıktı → onem,dunya
+- 1269-01-01 · Talas kurultayı: yerleşik-göçebe çekişmesine geçici çözüm → onem,dunya
+- 1282-01-01 · Tuva Han tahta geçti; Çağatay sülâlesinin Orta Asya hâkimiyeti yeniden kuruldu → onem,dunya
+- 1346-01-01 · Kazan Timur Han öldürüldü; Mâverâünnehir kolunda Emîr Kazgan iktidara geçti → onem,dunya
+- 1538-01-01 · Buhara Özbek hanı Ubeydullah Hârizm'i (Hîve Hanlığı'nı) istila etti → onem,dunya
+- 1593-01-01 · Buhara hanı II. Abdullah Han Hârizm'e girdi → onem,dunya
+- 1645-01-01 · Ebülgazi Bahadır Han bütün Hârizm'e hâkim olup Hîve hanı oldu → onem,dunya
+- 1740-01-01 · Nâdir Şah Hîve'yi işgal etti, İlbars Han'ı idam ettirdi → onem,dunya
+- 1747-01-01 · Nâdir Şah'ın ölümüyle Gāib Han Hîve'nin istiklâlini ilan etti → onem,dunya
+- 1839-12-05 · Perovsky'nin Hîve seferi Üstyurt'ta başarısız oldu → onem,dunya
+- 1445-07-07 · Suzdal savaşı: Kazan kuvvetleri Moskova ordusunu yendi, Kāsım Hanlığı'na izin koparıldı → onem,dunya
+- 1506-05-22 · Muhammed Emin Han'ın Kazan'ı Rus ordularını yendi (22 Mayıs ve 22 Haziran 1506) → onem,dunya
+- 1521-01-01 · Kırımlı Sâhib Giray Kazan tahtına geçti; Moskova adayı Şah Ali düştü → onem,dunya
+- 1552-08-23 · IV. İvan'ın ordusu Kazan'ı kuşattı → onem,dunya
+- 1493-01-01 · İbak Han öldürüldü; Tümen/Sibir tahtı Şeybânîlerden Tayboğa soyuna geçti → onem,dunya
+- 1552-01-01 · Ediger Han Moskova'ya elçi gönderip Rus çarının hâkimiyetini tanımak istedi → onem,dunya
+- 1682-01-01 · Cungar hükümdarı Galdan Han Kâşgar'ı ve ardından Moğolistan'ı fethetti → onem,dunya
+- 1644-01-01 · Kalmuklar Nogayları geri çekmek için Kabarda'ya sefer yaptı → onem,dunya
+
+### kronoloji_cok_once1281_iran.js (170)
+- 1000-01-01 · Müntasır Buhara'yı geri alıp Sâmânî tahtına çıktı → onem,dunya
+- 1001-01-01 · Gazneli-Karahanlı antlaşması: Ceyhun sınır oldu → onem,dunya
+- 1001-01-01 · Revvâdî Memlân öldü, oğlu Ebû Nasr Hüseyin geçti → onem,dunya
+- 1006-01-01 · Bâvendî İspehbed III. Şehriyâr Kābûs'a isyan edip öldürüldü → onem,dunya
+- 1006-01-01 · İdil Bulgarları ile Kiev Rus Knezliği ticaret antlaşması yaptı → onem,dunya
+- 1007-01-01 · Belh Savaşı: Mahmud birleşik Karahanlı ordusunu yendi → onem,dunya
+- 1010-01-01 · Mahmud'un Gur seferi: Muhammed b. Sûrî esir alındı → onem,dunya
+- 1010-01-01 · Ebü'l-Feth öldü; Ebü'ş-Şevk Fâris Annâzî başına geçti → onem,dunya
+- 1012-01-01 · İlig Han Nasr öldü, Arslan İlig Mansûr yerine geçti → onem,dunya
+- 1012-01-01 · Kābûs tahttan indirildi, oğlu Menûçihr Ziyârî tahtına çıktı → onem,dunya
+- 1016-01-01 · Karahanlılar Hıtay ilerleyişini Balasagun'da durdurdu → onem,dunya
+- 1017-05-30 · Mahmud Hârizm'i ilhak etti, Me'mûnîler sona erdi → onem,dunya
+- 1018-12-20 · Kannevc'in fethi → onem,dunya
+- 1023-01-01 · Kâkûyî Alâüddevle Hemedan'ı Büveyhîlerden aldı → onem,dunya
+- 1026-01-01 · Ali Tegin Mâverâünnehir'in müstakil hükümdarı oldu → onem,dunya
+- 1026-01-08 · Gazneli Mahmud Somnat Kalesi'ni fethetti → onem,dunya
+- 1029-01-01 · Gazneli Mahmud Rey'i aldı, Büveyhî Cibâl koluna son verdi → onem,dunya
+- 1029-01-01 · Menûçihr Gazneli Mahmud'a 500.000 dinar ödedi ve öldü → onem,dunya
+- 1029-01-01 · Azerbaycan'a ilk Oğuz göçü; 2000 çadır Vehsûdân'ın ordusuna katıldı → onem,dunya
+- 1029-01-01 · Gazneli Mesud Târum Sellârı İbrâhim'i ele geçirip vergiye bağladı → onem,dunya
+- 1030-01-01 · Kâkûyî Alâüddevle Yezd'i ele geçirip adına para bastırdı → onem,dunya
+- 1030-04-30 · Sultan Mahmud Gazne'de öldü → onem,dunya
+- 1032-01-01 · Yûsuf Kadır Han Kâşgar'da öldü → onem,dunya
+- 1033-01-01 · Gazneli Mesud Alâüddevle'yi vergili İsfahan emîri olarak tanıdı → onem,dunya
+- 1035-01-01 · Hisâr-ı Tâk'ta Gazneli ordusu Selçuklular'a yenildi → onem,dunya
+- 1035-01-01 · Gazneli Mesud'un Hazar seferi: Cürcân ve Taberistan işgal edildi → onem,dunya
+- 1036-01-01 · Alâüddevle Gazneli Mesud'la barıştı, İsfahan'a döndü → onem,dunya
+- 1038-01-01 · Alâüddevle Rey'i geçici olarak ele geçirdi → onem,dunya
+- 1038-01-01 · Ebü'ş-Şevk Karmîsîn, Hulencân ve Erenbe'yi işgal etti → onem,dunya
+- 1041-01-01 · Alâüddevle Muhammed öldü; Ferâmurz İsfahan tahtına geçti → onem,dunya
+- 1041-01-01 · Vehsûdân Oğuz liderlerini ziyafette öldürttü → onem,dunya
+- 1042-01-01 · Târum Sellârı Tuğrul Bey'i metbû tanıdı → onem,dunya
+- 1046-01-01 · Ebü'ş-Şevk Sîrvân Kalesi'nde öldü; Selçuklu baskısı arttı → onem,dunya
+- 1047-01-01 · Kinkever Kalesi Selçuklulara teslim oldu; Gerşâsb bütün topraklarını kaybetti → onem,dunya
+- 1047-01-01 · İbrâhim Yinal Sürhâb'ın Annâzî topraklarını ele geçirdi → onem,dunya
+- 1048-01-01 · Kavurd Kirman'daki Büveyhî hâkimiyetine son verdi → onem,dunya
+- 1049-01-01 · Keykâvus b. İskender Ziyârî tahtına geçti → onem,dunya
+- 1051-01-01 · Tuğrul Bey İsfahan'ı aldı → onem,dunya
+- 1054-01-01 · Revvâdî Vehsûdân Tuğrul Bey'e itaat etti → onem,dunya
+- 1056-01-01 · Arslan Han Süleyman kardeşi Muhammed'e esir düştü → onem,dunya
+- 1056-01-01 · Şebânkâre emîri Fazlûye Fars'taki Büveyhî hâkimiyetine son verdi → onem,dunya
+- 1059-01-01 · Çağrı Bey ile Gazneli İbrâhim arasında barış → onem,dunya
+- 1059-01-01 · İbrâhim b. Muhammed öldürüldü, Tuğrul Karahan Mahmud büyük kağan oldu → onem,dunya
+- 1060-01-01 · Tuğrul Bey Tebriz kuşatmasında başarısız oldu → onem,dunya
+- 1062-01-01 · Şîraz Kavurd Bey'e teslim edildi → onem,dunya
+- 1063-09-04 · Tuğrul Bey öldü; Alparslan tahtı ele geçirdi → onem,dunya
+- 1066-01-01 · Gazneli İbrâhim Emîr Muhammed'i Gur'un başına getirdi → onem,dunya
+- 1067-01-01 · Alparslan Kirman'a yürüdü; Kavurd Bey itaat etti → onem,dunya
+- 1071-08-26 · Malazgirt Savaşı → onem,dunya
+- 1072-01-01 · II. Nasr Alparslan'ın ölümü üzerine Tirmiz ve Belh'i aldı → onem,dunya
+- 1072-11-24 · Alparslan öldürüldü; Melikşah tahta geçti → onem,dunya
+- 1073-01-01 · Kavurd Bey Melikşah'a yenilip öldürüldü → onem,dunya
+- 1074-01-01 · Melikşah ile barış: Mâverâünnehir'de Selçuklu hâkimiyeti tanındı → onem,dunya
+- 1078-01-01 · Kıpçaklar Peçeneklerle birlikte Edirne'yi kuşattı → onem,dunya
+- 1079-01-01 · Melikşah'ın Kirman seferi; Sultan Şah itaat etti → onem,dunya
+- 1091-01-01 · Melikşah'ın Alamut kuşatması sonuçsuz kaldı → onem,dunya
+- 1091-01-01 · Kıpçaklar Macaristan'a, ertesi yıl Lehistan'a girdi → onem,dunya
+- 1092-11-19 · Melikşah öldü; taht kavgaları başladı → onem,dunya
+- 1094-01-01 · Nizârî-Müsta'lî ayrılığı: Hasan Sabbâh Fâtımîlerle ilişkiyi kesti → onem,dunya
+- 1095-02-26 · Tutuş Berkyaruk'a yenilip öldü; Suriye Selçukluları ikiye bölündü → onem,dunya
+- 1095-06-25 · Ahmed b. Hızır zındıklık suçlamasıyla idam edildi → onem,dunya
+- 1097-08-28 · Rıdvân Halep'te Fâtımî halifesi adına hutbe okuttu → onem,dunya
+- 1101-01-01 · Salgurlu Türkmenleri Annâzî ülkesini Dakūkā ve Şehrizor dışında ele geçirdi → onem,dunya
+- 1102-05-22 · Sencer Hârun Tegin'i idam edip Arslan Han Muhammed'i Semerkant'a atadı → onem,dunya
+- 1104-01-01 · Berkyaruk öldü; Muhammed Tapar ülkeyi yeniden birleştirdi → onem,dunya
+- 1104-06-06 · Dımaşk Selçuklu melikliği sona erdi; Börîler dönemi başladı → onem,dunya
+- 1117-01-01 · Muhammed Tapar Gaznelileri tâbi kıldı → onem,dunya
+- 1117-01-01 · Behram Şah Sencer'in desteğiyle Gazne tahtına çıktı → onem,dunya
+- 1117-07-13 · Sultan Muhammed Tapar'ın büyük Alamut kuşatması → onem,dunya
+- 1118-01-01 · Gürcü kralı Kıpçaklardan 40.000 kişilik atlı ordu kurdu → onem,dunya
+- 1119-09-10 · Sâve Savaşı: Sencer yeğeni Mahmud'u yendi → onem,dunya
+- 1120-01-01 · Aksungur el-Ahmedîlî Merâga'ya gönderildi → onem,dunya
+- 1121-01-01 · Gürcüler Selçuklu ordusunu yenip Tiflis'i aldı → onem,dunya
+- 1128-01-01 · Doğu Karahanlı Arslan Han Ahmed ilk Karahıtay akınını yendi → onem,dunya
+- 1130-01-01 · Sencer Semerkant'ı alıp Arslan Han Muhammed'i esir etti → onem,dunya
+- 1132-01-01 · Dînever Savaşı'na Bâvendî kuvvetleri de katıldı → onem,dunya
+- 1132-01-01 · Aksungur Hemedan önünde yenildi; Tuğrul Merâga ve Tebriz'i aldı → onem,dunya
+- 1132-05-25 · Dînever Savaşı: Sencer yeğenlerini yendi, Tuğrul'u tahta çıkardı → onem,dunya
+- 1133-01-01 · Aksungur el-Ahmedîlî Bâtınîlerce öldürüldü → onem,dunya
+- 1134-01-01 · Mesud Irak Selçuklu tahtına geçti → onem,dunya
+- 1137-01-01 · Hucend yenilgisi: Karahıtaylar Batı Karahanlı II. Mahmud'u yendi → onem,dunya
+- 1141-09-09 · Katvân Savaşı → onem,dunya
+- 1142-01-01 · Muhammed Şah babası I. Arslanşah'ı hapsederek tahta geçti → onem,dunya
+- 1150-01-01 · Gurlular Gazne'yi yaktı → onem,dunya
+- 1152-01-01 · Sencer Gurlu Alâeddin Hüseyin'i yenip esir aldı → onem,dunya
+- 1152-10-02 · Sultan Mesud öldü → onem,dunya
+- 1153-01-01 · Sencer Oğuzlara yenilip esir düştü → onem,dunya
+- 1157-01-01 · Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı → onem,dunya
+- 1158-01-01 · II. İbrâhim Karluk isyanında öldü → onem,dunya
+- 1158-01-01 · Bâdüsbânî Şehrîveş öldü, Keykâvus geçti; Bâvendîlerle savaş başladı → onem,dunya
+- 1161-01-01 · Arslanşah tahta çıktı; İldeniz atabegliği başladı → onem,dunya
+- 1161-01-01 · Ahmedîlî Arslanapa Sefîdrûd'da İldenizli Pehlivan'ı bozguna uğrattı → onem,dunya
+- 1164-01-01 · II. Mahmud'un ölümüyle İbrâhim soyu sona erdi, iktidar Ali Tegin ailesine geçti → onem,dunya
+- 1164-08-08 · Hasan Alâ Zikrihisselâm 'kıyamet'i ilân etti → onem,dunya
+- 1168-01-01 · Pehlivan Arslanapa'yı Merâga'da kuşatıp Selçuklu tâbiiyetine aldı → onem,dunya
+- 1169-01-01 · Zengî Fars'ı Afşar Şümle'den geri aldı → onem,dunya
+- 1170-01-01 · Tuğrul Şah öldü; oğulları arasında yedi yıllık taht kavgası → onem,dunya
+- 1173-01-01 · Tekiş Karahıtay yardımıyla Hârizm tahtına çıktı → onem,dunya
+- 1173-01-01 · Bâvendî Alâüddevle Hasan Horasan ordusunu yendi, sonra öldürüldü → onem,dunya
+- 1175-01-01 · Muizzüddin Mültan ve Yukarı Sind'i aldı → onem,dunya
+- 1175-01-01 · Atabeg İldeniz öldü; Pehlivan atabeg oldu, Kızılarslan Azerbaycan'a getirildi → onem,dunya
+- 1177-01-01 · Irak Selçuklu Sultanı Arslanşah öldü; Pehlivan II. Tuğrul'u tahta çıkardı → onem,dunya
+- 1179-01-01 · Oğuzlar Kirman-Fars kuvvetlerini yendi → onem,dunya
+- 1183-01-01 · Vladimir Knezi Vsevolod İdil Bulgar topraklarına ordu gönderdi → onem,dunya
+- 1185-01-01 · Bâvendî Erdeşîr Bâdüsbânî Hezâresb'i yendi; Rûyân'a kendi adayını atadı → onem,dunya
+- 1185-01-01 · Kayalı ırmağında İgor Svyatoslaviç'in ordusu imha edildi → onem,dunya
+- 1186-01-01 · Atabeg Pehlivan öldü; Kızılarslan atabeg oldu → onem,dunya
+- 1190-01-01 · Kızılarslan II. Tuğrul'u hapsetti ve kendini sultan ilân etti → onem,dunya
+- 1191-01-01 · Birinci Tarain Savaşı: Muizzüddin Prithivi Raj'a yenildi → onem,dunya
+- 1191-01-01 · Kızılarslan çadırında öldürüldü; Azerbaycan atabegliği bölündü → onem,dunya
+- 1192-01-01 · İkinci Tarain Savaşı: Prithivi Raj yenilip öldürüldü → onem,dunya
+- 1198-01-01 · Karahıtaylar Belh için Gurlular'a yenildi → onem,dunya
+- 1198-01-01 · Harizmşah Tekiş'in Alamut kuşatması başarısız oldu → onem,dunya
+- 1200-08-03 · Alâeddin Muhammed Gürgenç'te hârizmşah ilân edildi → onem,dunya
+- 1204-01-01 · Endhûd: Karahıtaylar Muizzüddin'i kuşattı → onem,dunya
+- 1204-01-01 · Alâeddin Muhammed Nîşâbur, Merv ve Serahs'ı Gurlular'dan aldı → onem,dunya
+- 1204-01-01 · Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı → onem,dunya
+- 1205-01-01 · Gurlu-Hârizmşah antlaşması: Herat dışında Horasan Hârizmşahlar'a geçti → onem,dunya
+- 1205-01-01 · Doğu Karahanlı Ebü'l-Muzaffer Yûsuf öldü → onem,dunya
+- 1205-01-01 · Ahmedîlî Alâeddin Merâga'yı İldenizli Ebû Bekir'e bıraktı → onem,dunya
+- 1209-01-01 · Uygur İdikut Barçuk Karahıtaylar'dan ayrılıp Cengiz Han'a bağlandı → onem,dunya
+- 1209-01-09 · Atabeg Sa'd Kirman'ın başşehri Berdesîr'de Kavurd'un tahtına oturdu → onem,dunya
+- 1210-01-01 · İldenizli Ebû Bekir öldü; kardeşi Özbek geçti → onem,dunya
+- 1213-01-01 · Kirman Salgurlulardan Harizmşahlara geçti → onem,dunya
+- 1215-01-01 · Alâeddin Muhammed Kıpçaklar'dan Sığnak'ı aldı → onem,dunya
+- 1217-01-01 · Sa'd b. Zengî Rey yakınında Harizmşah'a esir düştü; ağır şartlı antlaşma → onem,dunya
+- 1218-01-01 · Cebe Noyan Güçlüg'ün elindeki Karahıtay topraklarını aldı → onem,dunya
+- 1219-01-01 · Cengiz Han Otrar'ı aldı; Moğol istilâsı başladı → onem,dunya
+- 1220-01-01 · Semerkant düştü; Mâverâünnehir Moğollar'a geçti → onem,dunya
+- 1220-02-10 · Buhara Moğollara teslim oldu → onem,dunya
+- 1221-01-01 · Gürgenç Moğollar'a düştü → onem,dunya
+- 1221-01-01 · Moğollar Merâga'yı zaptetti → onem,dunya
+- 1221-01-01 · Kıpçak-Rus kuvvetleri Selçuklu Suğdak'ını geri alamadı → onem,dunya
+- 1221-11-26 · Sind (İndus) Savaşı: Celâleddin Hindistan'a geçti → onem,dunya
+- 1223-01-01 · Kalka Savaşı — Moğollar Rus-Kıpçak ordusunu bozdu → onem,dunya
+- 1223-01-01 · İdil Bulgarları Kalka dönüşü Moğol ordusunu yendi → onem,dunya
+- 1224-01-01 · Özbek Harizmli kaçakları önce korudu, sonra Moğollara teslim etti → onem,dunya
+- 1224-01-01 · Lür-i Küçek kurucusu Şücâüddin Hurşîd öldü → onem,dunya
+- 1225-01-01 · Celâleddin Tebriz'i alıp Azerbaycan'ı ilhak etti → onem,dunya
+- 1227-01-01 · Cengiz Han Tangut seferinde öldü → onem,dunya
+- 1228-01-01 · Kutluğ Han Barak Gıyâseddin Pîrşah'ı Kirman'a çağırıp annesiyle evlendi → onem,dunya
+- 1229-01-01 · Lür-i Büzürg atabegi Hezâresb öldü → onem,dunya
+- 1229-01-01 · Ögedey Kodege kurultayında büyük han oldu → onem,dunya
+- 1230-01-01 · Yassıçimen Savaşı → onem,dunya
+- 1230-01-01 · Salgurlu Ebû Bekir Kays adasını aldı → onem,dunya
+- 1235-01-01 · Barak öldü; Kutbüddin Muhammed geçti, Moğollar Rükneddin'i tahta çıkardı → onem,dunya
+- 1238-01-01 · Batu Han'ın ordusu Moskova'yı yağmaladı → onem,dunya
+- 1240-01-01 · Kiev Moğollarca zaptedilip tahrip edildi → onem,dunya
+- 1241-01-01 · Tâir Bahadır Herat, Sîstan ve Lahor'u ele geçirdi → onem,dunya
+- 1241-04-09 · Liegnitz yakınında Moğollar Alman-Leh ordusunu yendi → onem,dunya
+- 1241-12-11 · Ögedey Han öldü, batı seferi durdu → onem,dunya
+- 1246-01-01 · Güyük kurultayda büyük han seçildi → onem,dunya
+- 1251-01-01 · Mengü büyük han seçildi — hanlık Tuluy soyuna geçti → onem,dunya
+- 1251-01-01 · Kara Hülâgû Çağatay hanlığına döndü, Ergene Hatun nâibe oldu → onem,dunya
+- 1252-01-01 · Kutbüddin Kirman'a döndü; Rükneddin kaçtı → onem,dunya
+- 1255-01-01 · Hülâgû Şemseddin Kert'in Herat hâkimliğini onayladı → onem,dunya
+- 1256-01-01 · Berke Han Altın Orda tahtına çıktı → onem,dunya
+- 1258-01-01 · Lür-i Büzürg atabegi Tukli Hülâgû'nun katliamından kurtulamadı → onem,dunya
+- 1259-01-01 · Rus şehirlerindeki vergi isyanları bastırıldı → onem,dunya
+- 1259-09-12 · Hülâgû Suriye seferine çıktı — Halep ve Dımaşk düştü → onem,dunya
+- 1260-01-01 · Ebû Bekir b. Sa'd öldü; Salgurlu tahtı taht kavgasına düştü → onem,dunya
+- 1260-01-01 · Yeşmut Meyyâfârikîn'i alıp Eyyûbîlerin bu koluna son verdi → onem,dunya
+- 1263-01-01 · Selçuk Şah Hülâgû'nun emriyle öldürüldü; Fars fiilen Moğol denetimine girdi → onem,dunya
+- 1263-01-01 · Terek Savaşı — Berke Han Hülâgû'yu ağır yenilgiye uğrattı → onem,dunya
+- 1265-01-01 · Abaka ile Berke Kür ırmağında karşı karşıya geldi → onem,dunya
+- 1266-01-01 · Berke Han öldü, Mengü Timur Altın Orda hanı oldu → onem,dunya
+- 1270-01-01 · Herat yakınında Abaka Çağatay Hanı Barak'ı yendi → onem,dunya
+- 1272-01-01 · Bâdüsbânî Şehrâkim öldü → onem,dunya
+- 1274-01-01 · Alp Argun öldü; Abaka Han'ın sarayında yetişen Yûsuf Şah Lür-i Büzürg'ün başına getirildi → onem,dunya
+- 1278-01-01 · Abaka Han Tâceddin'i Lür-i Küçek atabegi tayin etti → onem,dunya
+
+### kronoloji_cok_senkron_0930.js (68)
+- 1917-03-15 · Rusya'da Şubat Devrimi: II. Nikolay tahttan çekilir, Rusya Geçici Hükümeti kurulur → tur,onem,dunya
+- 1917-11-07 · Rusya'da Ekim Devrimi: Bolşevikler Geçici Hükümeti devirir, Sovyet Rusya kurulur → tur,onem,dunya
+- 1410-06-15 · Kosmidion Savaşı: Süleyman Çelebi Musa Çelebi'yi yener → tur,onem,dunya
+- 1411-02-17 · Süleyman Çelebi'nin ölümü: Musa Çelebi Edirne'yi alır, Anadolu'da Mehmed Çelebi Bursa'ya h → tur,onem,dunya
+- 1413-07-05 · Çamurlu Derbent: Musa Çelebi'nin ölümü, Mehmed Çelebi tek hükümdar — Fetret Devri sona ere → tur,onem,dunya
+- 1523-06-06 · Gustav Vasa İsveç kralı seçilir: İsveç Kalmar Birliği'nden ayrılır → tur,onem,dunya
+- 1547-01-16 · IV. İvan çar olarak taç giyer: Moskova Büyük Knezliği Rusya Çarlığı olur → tur,onem,dunya
+- 1478-01-15 · Novgorod Cumhuriyeti Moskova'ya teslim olur → tur,onem,dunya
+- 1526-08-29 · Mohaç Savaşı: II. Layoş'un ölümüyle Macaristan ve Bohemya tahtları Avusturya Habsburgların → tur,onem,dunya
+- 1774-07-26 · Küçük Kaynarca Antlaşması: Kırım Hanlığı bağımsız olur, Kerç ve Yenikale Rusya'ya bırakılı → tur,onem,dunya
+- 1923-07-24 · Lozan Antlaşması: Oniki Ada İtalya'da, Doğu Ege adaları Yunanistan'da kalır → tur,onem,dunya
+- 1918-10-30 · Mondros Mütarekesi: İngiltere ve Fransa'ya işgal hakkı; Yemen ve Asir'de Osmanlı idaresi s → tur,onem,dunya
+- 1878-03-03 · Ayastefanos Antlaşması: Kars, Ardahan, Batum ve Doğubayazıt Rusya'ya bırakılır → tur,onem,dunya
+- 1878-07-13 · Berlin Antlaşması: Romanya bağımsız, Kuzey Dobruca Romanya'ya; Bulgaristan Prensliği kurul → tur,onem,dunya
+- 1699-01-26 · Karlofça Antlaşması: Kamaniçe ve Podolya Lehistan-Litvanya'ya, Mora Venedik'e, Macaristan  → tur,onem,dunya
+- 1718-07-21 · Pasarofça Antlaşması: Belgrad, Banat ve Küçük Eflak Avusturya'ya; Venedik Dalmaçya'da kaza → tur,onem,dunya
+- 1739-09-18 · Belgrad Antlaşması: Avusturya Belgrad, Kuzey Sırbistan ve Küçük Eflak'ı Osmanlı'ya geri ve → tur,onem,dunya
+- 1913-05-30 · Londra Antlaşması: Midye-Enez hattının batısı Bulgaristan'a, Girit Yunanistan'a bırakılır → tur,onem,dunya
+- 1510-12-01 · Merv Savaşı: Safevî Şah İsmail Şeybânî Han'ı yener, Horasan Safevî Devleti'ne geçer → tur,onem,dunya
+- 1453-05-29 · İstanbul'un fethi: Bizans İmparatorluğu sona erer, Kuzey Sporad adaları Venedik'e sığınır → tur,onem,dunya
+- 1460-05-29 · Mora Despotluğu'nun sonu: Mistra II. Mehmed'e teslim olur, Bizans'ın Mora'daki son hâkimiy → tur,onem,dunya
+- 1871-01-18 · Versay'da Alman İmparatorluğu ilân edilir: Prusya kralı I. Wilhelm Alman imparatoru olur → tur,onem,dunya
+- 1795-10-24 · Lehistan'ın Üçüncü Paylaşımı: Lehistan-Litvanya Prusya, Rusya ve Avusturya arasında bölünü → tur,onem,dunya
+- 1552-10-15 · Kazan Hanlığı'nın düşüşü: IV. İvan Kazan'ı alır, Rusya Orta İdil'e yerleşir → tur,onem,dunya
+- 1801-09-12 · Kartli-Kaheti (Gürcistan) krallığı Rusya'ya ilhak edilir → tur,onem,dunya
+- 1913-03-26 · Edirne Bulgaristan ordusunca işgal edilir → tur,onem,dunya
+- 1912-10-23 · Sırbistan Krallığı ordusu Üsküp'ü işgal eder → tur,onem,dunya
+- 1902-01-15 · Abdülaziz İbn Suûd Riyad'ı Şammar (Reşîdî) emirliğinden alır: III. Suûdî Devleti doğar → tur,onem,dunya
+- 1921-11-02 · Hâil İbn Suûd'a teslim olur: Şammar (Reşîdî) emirliği sona erer → tur,onem,dunya
+- 1479-01-19 · II. Fernando Aragon tahtına çıkar: Kastilya ile Aragon'un birleşmesiyle İspanya → tur,onem,dunya
+- 1809-10-14 · Schönbrunn Antlaşması: Avusturya Adriyatik kıyısını Fransa'ya bırakır (İlirya eyaletleri) → tur,onem,dunya
+- 1805-12-26 · Pressburg Antlaşması: Avusturya Tirol ve Vorarlberg'i Bavyera'ya bırakır → tur,onem,dunya
+- 1806-11-28 · Fransız ordusu Varşova'ya girer: Prusya yönetimi sona erer → tur,onem,dunya
+- 1720-08-08 · Savoya dükü II. Vittorio Amedeo Sardinya'yı teslim alır: Savoya Sardinya Krallığı olur → tur,onem,dunya
+- 1860-06-14 · Savoya ve Nice Sardinya Krallığı'ndan Fransa'ya devredilir → tur,onem,dunya
+- 1859-06-04 · Magenta Savaşı: Fransa-Sardinya ordusu Avusturya'yı yener, Lombardiya boşaltılır → tur,onem,dunya
+- 1861-02-13 · Gaeta'nın teslimi: Napoli Krallığı (İki Sicilya) sona erer, İtalya birliğine katılır → tur,onem,dunya
+- 1866-10-03 · Viyana Antlaşması: Avusturya Venedik'i İtalya'ya bırakır → tur,onem,dunya
+- 1918-02-24 · Estonya bağımsızlığını ilân eder: Sovyet Rusya'dan ayrılış → tur,onem,dunya
+- 1920-02-02 · Tartu Antlaşması: Sovyet Rusya Estonya'nın bağımsızlığını tanır → tur,onem,dunya
+- 1918-02-16 · Litvanya bağımsızlık bildirisi: Sovyet Rusya'dan ayrılış → tur,onem,dunya
+- 1920-12-02 · Ermenistan Demokratik Cumhuriyeti Sovyet Rusya'ya teslim olur → tur,onem,dunya
+- 1918-11-11 · Polonya Cumhuriyeti bağımsızlığını kazanır: Alman işgal idaresi çöker → tur,onem,dunya
+- 1918-12-27 · Büyük Polonya (Poznań) ayaklanması: Poznan Almanya'dan Polonya'ya geçer → tur,onem,dunya
+- 1922-06-20 · Doğu Yukarı Silezya Almanya'dan Polonya'ya devredilir → tur,onem,dunya
+- 1621-09-15 · İsveç Kralı II. Gustav Adolf Riga'yı Lehistan-Litvanya'dan alır → tur,onem,dunya
+- 1650-01-26 · Ya'rubî Umman'ı Portekizlileri Maskat'tan çıkarır → tur,onem,dunya
+- 1698-12-13 · Umman Mombasa'daki İsa Kalesi'ni alır: Svahili kıyısı Umman hâkimiyetine girer → tur,onem,dunya
+- 1916-05-23 · İngiliz ordusu El-Fâşir'e girer: Darfur Sultanlığı düşer → tur,onem,dunya
+- 1896-09-01 · Fransa Vagadugu'yu alır: Mossi Krallığı Fransız hâkimiyetine girer → tur,onem,dunya
+- 1868-05-14 · Rusya Semerkant'ı Buhara Emirliği'nden alır → tur,onem,dunya
+- 1890-11-23 · III. Willem'in ölümü: Lüksemburg Hollanda ile şahsî birlikten ayrılır → tur,onem,dunya
+- 1903-02-03 · İngiliz ordusu Kano'yu alır: Sokoto Halifeliği'nin çöküşü başlar → tur,onem,dunya
+- 1514-08-01 · Moskova Smolensk'i Litvanya Büyük Dükalığı'ndan alır → tur,onem,dunya
+- 1772-08-05 · Lehistan'ın Birinci Paylaşımı: Prusya, Rusya ve Avusturya Lehistan-Litvanya'dan toprak alı → tur,onem,dunya
+- 1451-06-30 · Bordeaux Fransa'ya teslim olur: İngiltere Gaskonya'yı kaybeder → tur,onem,dunya
+- 1916-06-10 · Hicaz'da Arap İsyanı: Şerif Hüseyin Mekke'de Osmanlı'ya karşı ayaklanır → tur,onem,dunya
+- 1916-07-27 · Yenbu Hicaz isyancılarına teslim olur → tur,onem,dunya
+- 1917-03-11 · İngiltere Bağdat'ı işgal eder → tur,onem,dunya
+- 1345-09-25 · Sırbistan Kralı Stefan Duşan Serez'i Bizans'tan alır → tur,onem,dunya
+- 1812-05-28 · Bükreş Antlaşması: Prut-Dinyester arası (Besarabya) Rusya'ya bırakılır → tur,onem,dunya
+- 1829-09-14 · Edirne Antlaşması: Anapa ve Poti Rusya'ya bırakılır, Çerkez kıyısında Osmanlı hâkimiyeti s → tur,onem,dunya
+- 1864-06-02 · İngiltere İyon Adaları'nı Yunanistan'a devreder → tur,onem,dunya
+- 1443-11-22 · İyi Philippe Lüksemburg'u alır: Lüksemburg Burgonya Dükalığı'na geçer → tur,onem,dunya
+- 1482-03-27 · Burgonya Düşesi Maria'nın ölümü: Burgonya Hollandası ve Lüksemburg Habsburg Maximilian'a k → tur,onem,dunya
+- 1775-06-15 · Zaporojye Siçi Rus ordusunca dağıtılır: Zaporojye Kazak Hetmanlığı sona erer → tur,onem,dunya
+- 1500-07-14 · Vedroşa Savaşı: Moskova Litvanya Büyük Dükalığı'nı yener → tur,onem,dunya
+- 1526-10-23 · Bohemya zümreleri Avusturya arşidükü Ferdinand'ı kral seçer → tur,onem,dunya
+
+### olaylar.js (79)
+- 1299-01 · Osmanlı Beyliği'nin kuruluşu → onem,dunya
+- 1326-04-06 · Bursa'nın fethi → tur,onem,dunya
+- 1331-03-02 · İznik'in fethi → tur,onem,dunya
+- 1337-01-01 · İzmit'in fethi → tur,onem,dunya
+- 1352-03-01 · Çimpe Kalesi — Rumeli'ye geçiş → tur,onem,dunya
+- 1362-03 · I. Murad tahta çıktı → onem,dunya
+- 1361-05-05 · Edirne'nin fethi → tur,onem,dunya
+- 1389-06-15 · I. Kosova Savaşı — I. Murad'ın şehadeti → onem,dunya
+- 1396-09-25 · Niğbolu Zaferi → onem,dunya
+- 1402-07-28 · Ankara Savaşı — Fetret Devri başladı → onem,dunya
+- 1413-07 · Çelebi Mehmed birliği yeniden kurdu → onem,dunya
+- 1416-05-01 · Şeyh Bedreddin isyanı → onem,dunya
+- 1444-11-10 · Varna Zaferi → onem,dunya
+- 1448-10-17 · II. Kosova Savaşı → onem,dunya
+- 1453-05-29 · İstanbul'un Fethi → tur,onem,dunya
+- 1461-08-15 · Trabzon'un fethi → tur,onem,dunya
+- 1473-08-11 · Otlukbeli Savaşı → onem,dunya
+- 1473-01-01 · Silifke'nin kesin fethi — Karamanoğulları'nın son direnişinin kırılması → tur,onem,dunya
+- 1475-06-06 · Kırım'ın Osmanlı himayesine girişi → tur,onem,dunya
+- 1481-05-03 · Fatih'in ölümü — Cem Sultan olayı → onem,dunya
+- 1514-08 · Çaldıran Zaferi → onem,dunya
+- 1516-08-24 · Mercidabık Zaferi → onem,dunya
+- 1517-01-22 · Ridaniye — Mısır'ın fethi ve hilâfet → tur,onem,dunya
+- 1520-09-30 · Kanunî Sultan Süleyman tahta çıktı → onem,dunya
+- 1521-08-29 · Belgrad'ın fethi → tur,onem,dunya
+- 1522-12-21 · Rodos'un fethi → tur,onem,dunya
+- 1526-08-29 · Mohaç Meydan Muharebesi → onem,dunya
+- 1529-09 · I. Viyana Kuşatması → onem,dunya
+- 1534-12-04 · Bağdat'ın fethi — Irakeyn Seferi → tur,onem,dunya
+- 1538-09 · Preveze Deniz Zaferi → onem,dunya
+- 1541-08-29 · Budin'in ilhakı — Macaristan Osmanlı eyaleti → tur,onem,dunya
+- 1555-05-29 · Amasya Antlaşması → onem,dunya
+- 1566-09-07 · Zigetvar — Kanunî'nin vefatı → onem,dunya
+- 1571-08 · Kıbrıs'ın fethi → tur,onem,dunya
+- 1571-10-07 · İnebahtı (Lepanto) yenilgisi → onem,dunya
+- 1596-10-26 · Haçova Meydan Muharebesi → onem,dunya
+- 1606-11-11 · Zitvatorok Antlaşması → onem,dunya
+- 1639-05-17 · Kasr-ı Şirin Antlaşması → onem,dunya
+- 1669-09-06 · Girit'in fethi tamamlandı → tur,onem,dunya
+- 1692-01-01 · Granbosa Kalesi'nin fethi — Girit'in Venedik'te kalan kayalık kalelerinden biri → tur,onem,dunya
+- 1715-01-01 · Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi → tur,onem,dunya
+- 1672-10-18 · Bucaş Antlaşması — en geniş sınırlar → onem,dunya
+- 1683-09-12 · II. Viyana Kuşatması bozgunu → onem,dunya
+- 1699-01-26 · Karlofça Antlaşması — ilk büyük toprak kaybı → onem,dunya
+- 1711-07-19 · Prut Zaferi → onem,dunya
+- 1730-09-25 · Patrona Halil İsyanı → onem,dunya
+- 1739-09-18 · Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı → onem,dunya
+- 1770-07-06 · Çeşme baskını → onem,dunya
+- 1774-07-21 · Küçük Kaynarca Antlaşması → onem,dunya
+- 1783-04-19 · Kırım'ın Rusya'ya ilhakı → tur,onem,dunya
+- 1789-04 · III. Selim ve Nizâm-ı Cedîd → tur,onem,dunya
+- 1798-06-12 · Malta şövalyelerinin tasfiyesi — Fransız donanmasının yoldaki durağı → dunya
+- 1798-07-01 · Napolyon'un Mısır'ı işgali → onem,dunya
+- 1808-10-07 · Sened-i İttifak → onem,dunya
+- 1821-03-25 · Yunan İsyanı başladı → onem,dunya
+- 1826-06-15 · Vak'a-i Hayriyye — Yeniçeri Ocağı kaldırıldı → tur,onem,dunya
+- 1827-10-20 · Navarin baskını → onem,dunya
+- 1839-11-03 · Tanzimat Fermanı → tur,onem,dunya
+- 1853-10-04 · Kırım Savaşı başladı → onem,dunya
+- 1856-02-18 · Islahat Fermanı → tur,onem,dunya
+- 1876-12-23 · Kanûn-ı Esâsî — I. Meşrutiyet → tur,onem,dunya
+- 1877-04 · 93 Harbi (1877–78 Osmanlı-Rus Savaşı) → onem,dunya
+- 1878-07-13 · Berlin Antlaşması → onem,dunya
+- 1881-05-12 · Tunus'un işgali ve Düyûn-ı Umûmiyye → onem,dunya
+- 1882-09 · Mısır'ın İngiliz işgali → onem,dunya
+- 1908-07-23 · II. Meşrutiyet'in ilanı → tur,onem,dunya
+- 1911-09-29 · Trablusgarp Savaşı → onem,dunya
+- 1913-05-30 · Londra Antlaşması — Rumeli'nin kaybı → tur,onem,dunya
+- 1914-11-01 · I. Dünya Savaşı'na giriş → onem,dunya
+- 1915-03-18 · Çanakkale Zaferi → onem,dunya
+- 1916-06-10 · Şerif Hüseyin isyanı → onem,dunya
+- 1918-10-30 · Mondros Mütarekesi → onem,dunya
+- 1919-05-19 · Mustafa Kemal Samsun'da — Millî Mücadele → tur,onem,dunya
+- 1920-04 · TBMM'nin açılışı ve Sevr → tur,onem,dunya
+- 1921-09-13 · Sakarya Meydan Muharebesi → onem,dunya
+- 1922-09-09 · Büyük Taarruz ve İzmir'in kurtuluşu → onem,dunya
+- 1922-11-01 · Saltanatın kaldırılması → onem,dunya
+- 1923-07-24 · Lozan Antlaşması → onem,dunya
+- 1923-10 · Cumhuriyet'in ilanı → onem,dunya
+
+### olaylar_0073_iran_yanya.js (5)
+- 1821-01-01 · Osmanlı-İran savaşı başladı — Kars ve Bayazıt'ın kaybı, Erzurum'un kuşatılması → onem,dunya
+- 1821-01-01 · Süleymaniye ve Bağdat'ın İran işgali — Kerkük muhasarası → tur,onem,dunya
+- 1823-07-28 · Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi → onem,dunya
+- 1820-03-01 · Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması → tur,onem,dunya
+- 1822-02-14 · Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu → onem,dunya
+
+### olaylar_2s_0920.js (11)
+- 1387-05-08 · Karaferye'nin (Veria) Osmanlı hâkimiyetine girmesi → tur
+- 1552-08-01 · Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin devamı → tur
+- 1912-10-22 · Priştine'nin Sırp ordusunun eline geçmesi → tur
+- 1912-11-18 · Manastır'ın Sırp kuvvetlerince işgali → tur
+- 1912-11-28 · Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali → tur
+- 1912-11-29 · Ohri ve Debre'de Osmanlı hâkimiyetinin sona ermesi → tur
+- 1913-04-23 · İşkodra'nın Karadağlılar tarafından işgali → tur
+- 1913-05-14 · Karadağ İşkodra'yı boşalttı; büyük devletlerin uluslararası kolordusu şehre girdi → tur
+- 1913-07-08 · İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu → tur
+- 1918-05-26 · Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı → tur
+- 1918-05-28 · Azerbaycan Demokratik Cumhuriyeti ilân edildi → tur
+
+### olaylar_2s_1019.js (34)
+- 0330-05-11 · Konstantinopolis Bizans (Doğu Roma) başşehri olarak açıldı → tur
+- 0969-07-01 · Fâtımîler Mısır'ı aldı: Cevher es-Sıkıllî Fustat'a girdi, Kahire'nin temeli atıldı → tur
+- 0990-03-31 · Ukaylîler Musul'u ele geçirdi — Musul Ukaylî hânedanının kuruluşu → tur
+- 1084-12-12 · Kutalmışoğlu Süleyman Şah Antakya'yı Bizans'tan aldı → tur
+- 1098-06-03 · Haçlılar Antakya'yı aldı — Antakya Prinkepsliği kuruldu → tur
+- 1207-03-05 · Gıyâseddin Keyhusrev Antalya'yı fethetti — Selçuklular Akdeniz'e ulaştı → tur
+- 1216-01-22 · İzzeddin Keykâvus Antalya'yı Kıbrıslılardan geri aldı → tur
+- 1268-03-08 · Baybars Yafa'yı Haçlılardan aldı — Kudüs Krallığı'nın Yafa'daki hâkimiyeti sona erdi → tur
+- 1268-05-18 · Baybars Antakya'yı aldı — Antakya Prinkepsliği'nin sonu → tur
+- 1328-11-05 · Karamanoğulları Konya'yı İlhanlılardan geri aldı → tur
+- 1345-01-01 · Stefan Duşan Serez'i Bizans'tan aldı → tur
+- 1389-07-01 · Balçık ve Dobruca kıyısı Osmanlı idaresine girdi → tur
+- 1392-10-26 · Mar'aşî Seyyidleri Mâhâneser'de Timur'a teslim oldu — Mâzenderan Timurlulara geçti → tur
+- 1412-01-01 · Şibenik yeniden Venedik Cumhuriyeti'nin idaresine girdi → tur
+- 1417-02-18 · Çelebi Mehmed'in Candaroğulları seferi: Çankırı Osmanlı himayesindeki Kasım Bey'e verildi → tur
+- 1500-01-01 · Moskova Bryansk'ı Litvanya Büyük Dükalığı'ndan aldı → tur
+- 1516-08-24 · Bıyıklı Mehmed Paşa Musul, Sincar ve İmâdiye'yi Safevî'den aldı → tur
+- 1523-06-06 · Gustav Vasa Strängnäs'te kral seçildi — İsveç Krallığı Kalmar Birliği'nden ayrıldı → tur
+- 1500-04-12 · Son Görz kontu Leonhard öldü — Lienz ve Puster vadisi Habsburg Avusturya'sına (Tirol) geçt → tur
+- 1375-01-01 · Feldkirch kontluğu Habsburg Avusturya'sına satıldı → tur
+- 1451-01-01 · Bregenz kontluğunun ilk yarısı Habsburg Avusturya'sına satıldı → tur
+- 1526-12-05 · Silezya zümreleri I. Ferdinand'ı kral tanıdı — Silezya Habsburg Avusturya'sına geçti → tur
+- 1633-01-01 · Umman Ya'rubî imamı Nâsır b. Mürşid Cülfâr'ı Portekiz'den aldı → tur
+- 1686-09-30 · Sin (Sinj) Kalesi'nin Venedik'e kaybı — Dalmaçya iç kesimi → tur
+- 1687-09-06 · Varadin ve Baç'ın Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Harşan sonrası Bačka → tur
+- 1687-09-26 · Ösek'in Macaristan Krallığı (Habsburg Tacı) eline geçmesi — Slavonya'nın kaybı başladı → tur
+- 1687-09-30 · Herseknovi'nin Venedik'e kaybı — Kotor körfezinin ağzı → tur
+- 1794-06-15 · Korsika'nın İngiliz tacına bağlanması — Anglo-Korsika Krallığı → tur
+- 1796-10-01 · İngilizlerin Korsika'yı boşaltması — ada yeniden Fransa'nın → tur
+- 1903-03-15 · İngilizler Sokoto'yu işgal etti — Sokoto Halifeliği başşehrini kaybetti → tur
+- 1915-06-10 · Kemeran Adası İngilizlerce işgal edildi → tur
+- 1918-09-21 · Nablus'un İngilizlerce işgali — Filistin cephesinin çöküşü → tur
+- 1918-11-08 · İngilizlerin Musul'a girişi — Musul vilâyetinin mütarekeye aykırı işgali → tur
+- 1878-09-18 · Avusturya-Macaristan ordusu direnişi kırarak Bihaç'ı aldı → tur
+
+### olaylar_7a4170.js (4)
+- 1856-01-01 · Senûsiyye'nin çöl merkezi Cağbûb'un Osmanlı düzenine bağlanması — Abdülmecid'in muafiyet f → tur,onem,dunya
+- 1859-04-25 · Süveyş Kanalı kazısının başlaması ve Portsaid'in kuruluşu → onem,dunya
+- 1863-04-03 · Sultan Abdülaziz'in Mısır ziyareti ve Süveyş berzahında İsmâiliye'nin kuruluşu → tur,onem,dunya
+- 1869-01-01 · Midhat Paşa'nın Bağdat valiliği ve aşiret iskânı — Ramâdi ile Nâsıriye'nin kuruluşu → tur,onem,dunya
+
+### olaylar_amerika_0920.js (6)
+- 1511-08-15 · Baracoa kuruldu — Küba'nın İspanyol fethinin ilk kasabası → tur
+- 1520-09-04 · Tepeaca'nın zaptı — Cortés'in Hüzünlü Gece'den sonraki ilk fethi → tur
+- 1545-01-01 · Sotuta'daki Cocom beyliği İspanyol hâkimiyetine girdi → tur
+- 1821-09-15 · Orta Amerika Bağımsızlık Bildirisi — Guatemala Genel Kaptanlığı İspanya'dan ayrıldı → tur
+- 1537-08-01 · Hunza'nın zaptı — zaque Quemuenchatocha'nın yenilgisi → tur
+- 1572-06-24 · Vilcabamba'nın düşüşü — bağımsız İnka devletinin sonu → tur
+
+### olaylar_arkeoloji_afrika-iran.js (6)
+- -0299-01-01 · Cenne-Ceno (Jenne-jeno): başlar → onem,dunya
+- -0538-01-01 · Babil'in Kyros'a geçişi: başlar → tur,onem,dunya
+- -0549-01-01 · Ekbatana (Hamedan): Kyros'un Med başkentini alması: başlar → tur,onem,dunya
+- -0944-01-01 · Teouma (Lapita mezarligi), Efate: başlar → onem,dunya
+- -4744-01-01 · Kuk: hoyuk (mound) tarimi, Evre 2: başlar → onem,dunya
+- -8114-01-01 · Kuk Bataklığı (erken tarım alanı): başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_amerika.js (13)
+- -0099-01-01 · Teotihuacan: başlar → onem,dunya
+- -0499-01-01 · Chavín de Huántar: sona erer → tur,onem,dunya
+- -0799-01-01 · La Venta (Olmek): başlar → tur,onem,dunya
+- -0799-01-01 · El Mirador: başlar → tur,onem,dunya
+- -0899-01-01 · Aguada Fénix: başlar → onem,dunya
+- -0999-01-01 · Nakbe: başlar → onem,dunya
+- -1199-01-01 · Chavín de Huántar: başlar → tur,onem,dunya
+- -12599-01-01 · Monte Verde II: başlar → onem,dunya
+- -1399-01-01 · San Lorenzo Tenochtitlan (Olmek): başlar → tur,onem,dunya
+- -1649-01-01 · Poverty Point: başlar → onem,dunya
+- -2301-01-01 · Caral: başlar → onem,dunya
+- -2999-01-01 · Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar → onem,dunya
+- -4499-01-01 · Valdivia kültürü (Loma Alta / Real Alto): başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_avrupa.js (12)
+- -2491-01-01 · Skara Brae: sona erer → tur,onem,dunya
+- -2526-01-01 · Stonehenge sarsen halkası ve trilitonlar (Aşama 2): başlar → tur,onem,dunya
+- -2871-01-01 · Stonehenge (Aşama 1: hendek ve set): başlar → onem,dunya
+- -2901-01-01 · Skara Brae: başlar → onem,dunya
+- -4514-01-01 · Vinča-Belo Brdo: sona erer → tur,onem,dunya
+- -4586-01-01 · Vinča-Belo Brdo: başlar → onem,dunya
+- -4790-01-01 · Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar → onem,dunya
+- -5779-01-01 · Lepenski Vir: sona erer → tur,onem,dunya
+- -5974-01-01 · Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): sona erer → tur,onem,dunya
+- -6119-01-01 · Lepenski Vir trapez yapılı yerleşim evresi (Mezolitik-Neolitik geçiş, LV I-II): başlar → tur,onem,dunya
+- -6699-01-01 · Knossos (Neolitik yerleşme): başlar → onem,dunya
+- -9589-01-01 · Lepenski Vir: başlar → onem,dunya
+
+### olaylar_arkeoloji_cin.js (11)
+- -1009-01-01 · Kuzey Kyushu (Uki-Kunden Kabuk Höyüğü), pirinç tarımının gelişi: başlar → tur,onem,dunya
+- -1080-01-01 · Yinxu (Anyang, Geç Shang başkenti): Di Yi/Di Xin evresi: Shang hanedanının sonu (Yinxu son → tur,onem,dunya
+- -1224-01-01 · Yinxu (Anyang, Geç Shang başkenti): Wu Ding evresi (kehanet kemiği 14C): Yinxu'nun tarihli → tur,onem,dunya
+- -14914-01-01 · Yuchanyan Mağarası: başlar → tur,onem,dunya
+- -17549-01-01 · Xianrendong Mağarası: başlar → tur,onem,dunya
+- -3549-01-01 · Liangzhu Kültürü: başlar → tur,onem,dunya
+- -4999-01-01 · Yangshao Kültürü: başlar → tur,onem,dunya
+- -5149-01-01 · Hemudu Kültürü: başlar → tur,onem,dunya
+- -5949-01-01 · Kuahuqiao Kültürü: başlar → tur,onem,dunya
+- -7049-01-01 · Peiligang Kültürü: başlar → tur,onem,dunya
+- -8849-01-01 · Shangshan Kültürü: başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_d2-afrika-amerika.js (10)
+- -0374-01-01 · San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: meydan yakılır (Mont → tur,onem,dunya
+- -0659-01-01 · San Jose Mogote: yanmis tapinak (Yapi 28): Yapı 28 tapınağı yanar → onem,dunya
+- -0999-01-01 · Ceibal (Seibal, Pasion, Guatemala): Real 1 evresi: ilk yerleşik topluluk → onem,dunya
+- -2549-01-01 · Eski Kerma (Kerma Ancien): Eski Kerma başlar → onem,dunya
+- -2799-01-01 · Kotosh Dini Gelenegi (Kotosh, Peru): Kotosh Dini Geleneği başlar → tur,onem,dunya
+- -2834-01-01 · Gobero (Tenere cemberi, Nijer): en genç Tenerean mezarı → tur,onem,dunya
+- -3001-01-01 · Lothagam North Pillar Site (Turkana Gölü, Kenya): anıtsal mezarlık platformu kullanımı baş → onem,dunya
+- -3184-01-01 · Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır ( → tur,onem,dunya
+- -3749-01-01 · Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Amerika'nın en eski kerpi → onem,dunya
+- -7699-01-01 · Gobero (Tenere cemberi, Nijer): Erken Holosen (Kiffian) iskânı başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_d2-anadolu-ege.js (7)
+- -0546-01-01 · Sardes — Pers'in ele geçirmesi: Pers kralı Kyros Sardes'i alır (Lidya'nın sonu) → tur,onem,dunya
+- -0739-01-01 · Gordion — Tümülüs MM (Midas Höyüğü): Midas Tümülüsü (MM): mezar odası ağaçlarının kesim yı → onem,dunya
+- -1612-01-01 · Akrotiri (Thera/Santorini) — Minos patlaması: Thera (Santorini) volkanik patlaması → tur,onem,dunya
+- -7999-01-01 · Pınarbaşı (Konya havzası, Karaman): iskân sona erer → tur,onem,dunya
+- -8099-01-01 · Boncuklu Höyük (Konya havzası, Çumra): iskân sona erer (geç evre) → tur,onem,dunya
+- -8299-01-01 · Boncuklu Höyük (Konya havzası, Çumra): Neolitik iskân başlar (erken evre) → tur,onem,dunya
+- -9599-01-01 · Pınarbaşı (Konya havzası, Karaman): Neolitik iskân başlar (ilk kanıtlı evre) → onem,dunya
+
+### olaylar_arkeoloji_d2-cin-dogu-asya.js (19)
+- -0208-01-01 · Xiongnu (Hunnu) imparatorluğu: Xiongnu İmparatorluğu kurulur (Han kaynakları) → onem,dunya
+- -0220-01-01 · Qin'in Çin'i birleştirmesi (Qin Shi Huangdi): Qin altı devleti birleştirir (gelenek 221) → tur,onem,dunya
+- -0769-01-01 · Doğu Zhou'nun başlangıcı (Ping Kralı'nın doğuya taşınması): Doğu Zhou: Ping Wang Luoyi'ye  → onem,dunya
+- -1049-01-01 · Sanxingdui (Guanghan, Sichuan) medeniyeti: Sanxingdui uygarlığı sona erer → tur,onem,dunya
+- -1105-01-01 · Sanxingdui kurban çukurları (K3, K4, K6, K8) — gömülme olayı: kurban çukurları (K3/K4/K6/K → tur,onem,dunya
+- -13749-01-01 · Jōmon başlangıcı: Sōsōki (Incipient) dönemi: Sōsōki (Jomon başlangıç evresi) başlar → onem,dunya
+- -13799-01-01 · Ōdai Yamamoto I (Aomori) — Japonya'nın en eski çanak-çömlek yerleşimlerinden: en eski çana → tur,onem,dunya
+- -1519-01-01 · Erlitou (Erlitou kültürü, Yanshi): IV. faz sona erer → tur,onem,dunya
+- -1599-01-01 · Xia hanedanı (yazılı gelenek / Dönemlendirme Projesi kronolojisi — arkeolojik tarih DEĞİL) → tur,onem,dunya
+- -1599-01-01 · Sanxingdui (Guanghan, Sichuan) medeniyeti: Sanxingdui uygarlığı oluşur (çapraz tarihleme) → onem,dunya
+- -1749-01-01 · Erlitou (Erlitou kültürü, Yanshi): Erlitou kültürü I. faz başlar → onem,dunya
+- -1799-01-01 · Shimao (Shenmu, Shaanxi): terk edilir → tur,onem,dunya
+- -1899-01-01 · Taosi (Longshan sonu, Xiangfen): yerleşim sona erer → tur,onem,dunya
+- -2069-01-01 · Xia hanedanı (yazılı gelenek / Dönemlendirme Projesi kronolojisi — arkeolojik tarih DEĞİL) → tur,onem,dunya
+- -2299-01-01 · Taosi (Longshan sonu, Xiangfen): yerleşim başlar → onem,dunya
+- -2299-01-01 · Shimao (Shenmu, Shaanxi): kent kurulur → onem,dunya
+- -2949-01-01 · Dadiwan (Qin'an, Gansu): Faz V (Changshan) sona erer → tur,onem,dunya
+- -5849-01-01 · Dadiwan (Qin'an, Gansu): Faz I başlar → onem,dunya
+- -9649-01-01 · Jōmon başlangıcı: Sōsōki (Incipient) dönemi: Sōsōki sona erer → tur,onem,dunya
+
+### olaylar_arkeoloji_d2-hint-guneydogu.js (10)
+- -0399-01-01 · Anuradhapura - en erken tarihli Brahmi yazısı: Brahmi yazılı çanak çömleğin en erken tarih → tur,onem,dunya
+- -0999-01-01 · Non Nok Tha: Tunç Çağı evresi (kısa kronoloji) → tur,onem,dunya
+- -1199-01-01 · Sanganakallu-Kupgal: terk edilir (yaklaşık) → tur,onem,dunya
+- -1399-01-01 · Sanganakallu-Kupgal: tepe köyü genişlemesi (Geç Neolitik–Megalitik geçiş) → onem,dunya
+- -1499-01-01 · Khok Phanom Di: iskân sona erer → tur,onem,dunya
+- -1509-01-01 · Ban Chiang: ilk tarihli gömü (kemik kolajeni, kısa kronoloji) → tur,onem,dunya
+- -1799-01-01 · Ban Non Wat: Neolitik 1 evresi: pirinç çiftçileri yerleşir → tur,onem,dunya
+- -1955-01-01 · Man Bac: tarım dönemi iskânı → tur,onem,dunya
+- -1999-01-01 · Khok Phanom Di: Neolitik iskân başlar → onem,dunya
+- -2999-01-01 · Güney Hint Neolitiği (Ashmound geleneği, Deccan): Güney Hint: Kodekal'da en eski iskân tab → tur,onem,dunya
+
+### olaylar_arkeoloji_d2-iran-orta-asya.js (15)
+- -0199-01-01 · Tepe Yahya: Dönem I (son iskân evresi) sona erer → tur,onem,dunya
+- -0329-01-01 · Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Ahameniş Devleti sona erer (III. Da → tur,onem,dunya
+- -0538-01-01 · Elam (Eski Elam - Yeni Elam): Yeni Elam dönemi sona erer → tur,onem,dunya
+- -0558-01-01 · Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers tahtına çıkar (559) → onem,dunya
+- -0699-01-01 · Med Devleti (Hegmatana merkezli): Med devleti: Deioces dönemi başlar (Herodotos geleneği) → onem,dunya
+- -2169-01-01 · Tepe Hissar: IIIC evresi sona erer → tur,onem,dunya
+- -2399-01-01 · Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar → onem,dunya
+- -3199-01-01 · Proto-Elam yazı sistemi (Susa): Proto-Elam yazısı ortaya çıkar → tur,onem,dunya
+- -3921-01-01 · Tepe Hissar: IC/IIA evresi (en eski 14C'li evre) başlar → tur,onem,dunya
+- -3999-01-01 · Susa: kent kurulur (yaklaşık, Iranica) → onem,dunya
+- -4299-01-01 · Anau IA ve Meana Ufku (Kopet Dağ, İlk Kalkolitik): Anau Ia evresi (en alt tabakalar) → onem,dunya
+- -5499-01-01 · Tepe Yahya: Dönem VII başlar (Iranica; geçici tablo) → onem,dunya
+- -5919-01-01 · Gadaçrili Gora: Şulaveri-Şomu: höyüğün ilk katmanları → onem,dunya
+- -5926-01-01 · Jeitun: Jeitun yerleşimi sona erer (Bayes) → tur,onem,dunya
+- -6098-01-01 · Jeitun: Jeitun yerleşimi başlar (Bayes) → onem,dunya
+
+### olaylar_arkeoloji_d2-italya-avrupa.js (10)
+- -1549-01-01 · El Argar (Argar kültürü, Antas): kültür sona erer (yaklaşık) → tur,onem,dunya
+- -2166-01-01 · Los Millares: yerleşim sona erer → tur,onem,dunya
+- -2199-01-01 · El Argar (Argar kültürü, Antas): kültür başlar (yaklaşık) → onem,dunya
+- -2419-01-01 · Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler → tur,onem,dunya
+- -3139-01-01 · Los Millares: yerleşim ve kaleler başlar → onem,dunya
+- -3511-01-01 · Xağra Brochtorff Çemberi (Gozo, Malta): kayaya oyulmuş mezarda gömüler başlar → tur,onem,dunya
+- -4648-01-01 · Erken Trypillia (Cucuteni-Trypillia, A1-2 evresi): Erken Trypillia genişlemesi (A1-2) başl → onem,dunya
+- -5186-01-01 · Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşim sona erer → tur,onem,dunya
+- -5331-01-01 · Szederkény-Kukorica-dűlő (Vinča/LBK sınır yerleşimi): Neolitik yerleşim başlar → onem,dunya
+- -5499-01-01 · Formatif Linearbandkeramik (Transdanubia): Transdanubia'da Formatif LBK ortaya çıkar → onem,dunya
+
+### olaylar_arkeoloji_d3-amerika-pasifik.js (37)
+- -0039-01-01 · Paracas kültürü (Paracas/Ica alt bölgesi): Geç Paracas sona erer → tur,onem,dunya
+- -0099-01-01 · Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Providencia evr → tur,onem,dunya
+- -0141-01-01 · Topará geleneği (Jahuay, Chincha): Topará: Jahuay iskânı başlar → onem,dunya
+- -0340-01-01 · Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave gömüleri sona erer (medyan) → tur,onem,dunya
+- -0349-01-01 · Kaminaljuyu (Guatemala Vadisi): Providencia fazi / Gec Preklasik yukselis: Kaminaljuyú: Pr → tur,onem,dunya
+- -0499-01-01 · San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: Rosario evresi s → tur,onem,dunya
+- -0599-01-01 · La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Bla → tur,onem,dunya
+- -0742-01-01 · Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi sona erer → tur,onem,dunya
+- -0749-01-01 · Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Format → onem,dunya
+- -0789-01-01 · Paracas kültürü (Paracas/Ica alt bölgesi): Paracas kültürü (Ica) yerleşik düzeyine ulaşır → tur,onem,dunya
+- -0799-01-01 · Tikal: Eb seramik kompleksi (en erken iskan izi): Tikal: Eb seramik kompleksi (ilk iskân) → tur,onem,dunya
+- -0799-01-01 · Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edi → tur,onem,dunya
+- -0849-01-01 · Ajalpan evresi (Tehuacán Vadisi): sona erer → tur,onem,dunya
+- -0864-01-01 · Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı → tur,onem,dunya
+- -0887-01-01 · Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Nukuleka: Tonga'nın ilk Lapita iskânı → tur,onem,dunya
+- -0999-01-01 · La Blanca (San Marcos, Pasifik Guatemala): Orta Preklasik bolgesel merkez, Mound 1: La Bla → tur,onem,dunya
+- -1009-01-01 · Sechín Alto: Sechín Alto: en geç Haldas tarihi → tur,onem,dunya
+- -1099-01-01 · Levha Mezar (Slab Grave) kulturu, Mogolistan: Slab Grave kültürü başlar → tur,onem,dunya
+- -1129-01-01 · Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği sona erer → tur,onem,dunya
+- -1284-01-01 · Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı → tur,onem,dunya
+- -1299-01-01 · Ajalpan evresi (Tehuacán Vadisi): Tehuacán: Ajalpan evresi → tur,onem,dunya
+- -1324-01-01 · Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita i → tur,onem,dunya
+- -1346-01-01 · Geyik Tasi-Hirigsuur Kompleksi (Deer Stone-Khirigsuur Complex), Mogolistan: Hirigsuur (Gey → tur,onem,dunya
+- -1449-01-01 · Lapita kulturu - Bismarck Takimadalari baslangici: Lapita Bismarck Takımadaları'nda ortaya → onem,dunya
+- -14961-01-01 · Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibir → tur,onem,dunya
+- -1499-01-01 · Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Hamacas evresi başlar (Je → tur,onem,dunya
+- -1509-01-01 · Sechín Alto: Sechín Alto: Haldas öncesi iskân → tur,onem,dunya
+- -1549-01-01 · Sechín Bajo: Sechín Bajo'da Formatif iskân sona erer → tur,onem,dunya
+- -1624-01-01 · San Jose Mogote: koy yerlesimi ve Rosario sonrasi toren merkezinin terki: San José Mogote  → onem,dunya
+- -1649-01-01 · Cerro Sechín: Cerro Sechín dönemi sona erer → tur,onem,dunya
+- -1769-01-01 · Waira-jirca seramik evresi (Huánuco havzası, Jancao): Wairajirca seramiği başlar (Jancao) → onem,dunya
+- -22206-01-01 · Mal'ta (Belaya Nehri, Baykal yakini) - MA-1 bireyi: Mal'ta (MA-1): Üst Paleolitik Sibirya  → tur,onem,dunya
+- -2269-01-01 · Cerro Sechín: Cerro Sechín: en eski kalibre tarihler → tur,onem,dunya
+- -2599-01-01 · Purrón evresi (Tehuacán Vadisi): Tehuacán: Purrón evresi → tur,onem,dunya
+- -3399-01-01 · Sechín Bajo: Sechín Bajo: Geç Arkaik iskân başlar → onem,dunya
+- -4349-01-01 · Coxcatlán evresi (Tehuacán Vadisi): sona erer → tur,onem,dunya
+- -5949-01-01 · Coxcatlán evresi (Tehuacán Vadisi): Tehuacán: Coxcatlán evresi → tur,onem,dunya
+
+### olaylar_arkeoloji_d3-anadolu-ege.js (14)
+- -0899-01-01 · Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy) → onem,dunya
+- -1190-01-01 · Ugarit krallığı (Gibala/Tell Tweini) — Deniz Kavimleri yıkımı: Ugarit/Tell Tweini yıkılır  → tur,onem,dunya
+- -1199-01-01 · Hattuşa'nın boşaltılması — 3. dalga okuma notu: Hattuşa terk edilir; Hitit İmparatorluğu ç → tur,onem,dunya
+- -1206-01-01 · II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (s → onem,dunya
+- -1583-01-01 · Thera (Santorini) Minos patlaması — güncel Bayes modelleri: Thera (Santorini) patlaması —  → tur,onem,dunya
+- -1649-01-01 · Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna): I. Hattusili dönemi (hMC gelenekse → onem,dunya
+- -1749-01-01 · Troya V ve Troya VI başı (VIa): Troya V sonu / VI başı (uzlaşı değeri) → tur,onem,dunya
+- -1915-01-01 · Troya V ve Troya VI başı (VIa): Troya Va evresi (tek örnek) → tur,onem,dunya
+- -1929-01-01 · Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi sona erer (veya daha geç) → tur,onem,dunya
+- -2059-01-01 · Troya 'Proto-IV' (varsayım) ve Troya IV: Troya IV evresi başlar → tur,onem,dunya
+- -2169-01-01 · Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi sona erer → tur,onem,dunya
+- -2266-01-01 · Troya II sonu / Troya III (Erken Tunç Çağı): Troya III evresi başlar → tur,onem,dunya
+- -2919-01-01 · Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995) → onem,dunya
+- -9149-01-01 · Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyl → tur,onem,dunya
+
+### olaylar_arkeoloji_d3-hint-cin.js (24)
+- -0183-01-01 · Maurya İmparatorluğu: Maurya hanedanı sona erer → tur,onem,dunya
+- -0201-01-01 · Han hanedanının kuruluşu - Liu Bang'ın imparator ilanı (MÖ 202): Batı Han hanedanı kurulur → onem,dunya
+- -0236-01-01 · Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka ölür → tur,onem,dunya
+- -0273-01-01 · Aşoka'nın saltanatı ve XIII. Kaya Fermanı senkronizması: Aşoka tahta çıkar → tur,onem,dunya
+- -0320-01-01 · Maurya İmparatorluğu: Maurya İmparatorluğu: Chandragupta dönemi başlar → onem,dunya
+- -0325-01-01 · Nanda hanedanı (Magadha): Dhana-Nanda Magadha'da (İskender çağı) → tur,onem,dunya
+- -0480-01-01 · Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi sona erer → tur,onem,dunya
+- -0482-01-01 · Buda'nın parinirvana tarihi (kronoloji dayanağı): Buda'nın parinirvanası (Cambridge Histor → tur,onem,dunya
+- -0542-01-01 · Magadha yükselişi (Bimbisara ve Ajatashatru): Bimbisara Magadha tahtına çıkar → tur,onem,dunya
+- -0721-01-01 · Chunqiu (Bahar ve Güz Yıllıkları) kaydının başlangıcı: Chunqiu dönemi başlar → tur,onem,dunya
+- -1045-01-01 · Zhou'nun Shang'ı fethi (Muye) - tarih çelişkisi: Zhou Shang'ı yener (1046; kaynaklar 1045/ → tur,onem,dunya
+- -1299-01-01 · Mumun dönemi başlangıcı (pirinç/Bronz Çağı) - kalibre karşılaştırma: Mumun dönemi başlar ( → onem,dunya
+- -1499-01-01 · Dholavira: Dholavira Aşama VII sona erer → tur,onem,dunya
+- -1499-01-01 · Shang hanedan/dönem sınırları (Erligang-Yinxu çerçevesi): Shang dönemi başlar (14C modeli) → onem,dunya
+- -1999-01-01 · Lothal: Lothal'in gerilemesi → tur,onem,dunya
+- -2449-01-01 · Lothal: Lothal iskânı başlar → onem,dunya
+- -2999-01-01 · Dholavira: Dholavira iskânı başlar → onem,dunya
+- -2999-01-01 · Hongshan kültürü / Niuheliang: Niuheliang dönemi sona erer → tur,onem,dunya
+- -3999-01-01 · Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): sona erer → tur,onem,dunya
+- -4299-01-01 · Banpo (Yangshao, Banpo evresi): sona erer → tur,onem,dunya
+- -4499-01-01 · Hongshan kültürü / Niuheliang: Hongshan (Niuheliang) dönemi başlar → tur,onem,dunya
+- -4799-01-01 · Banpo (Yangshao, Banpo evresi): Banpo yerleşimi (Yangshao) → tur,onem,dunya
+- -4899-01-01 · Jiangzhai (Yangshao, Banpo evresi halka hendekli köy): Jiangzhai yerleşimi (Yangshao) → tur,onem,dunya
+- -5999-01-01 · Chulmun dönemi (Kore Neolitiği): Chulmun dönemi başlar (Kore) → tur,onem,dunya
+
+### olaylar_arkeoloji_d3-italya-avrupa.js (6)
+- -0507-01-01 · Roma: Krallık -> Cumhuriyet (ilk konsüller) - YAZILI GELENEK: Roma: Krallık sona erer, Cum → tur,onem,dunya
+- -0669-01-01 · Hallstatt C -> D geçişi (Dietfurt Bayes modeli; geleneksel 616): Hallstatt C → D geçişi (1 → tur,onem,dunya
+- -0751-01-01 · Roma'nın kuruluşu (YAZILI GELENEK tarihleri): Roma'nın kuruluşu (yazılı gelenek, Dionysios → onem,dunya
+- -0759-01-01 · Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı ( → onem,dunya
+- -0836-01-01 · Latium Vetus: Latial II -> III geçişi (geleneksel ~770 vs 14C yüksek kronoloji 850-825): L → tur,onem,dunya
+- -0929-01-01 · Yunan Geometrik dönemi (14C ile yükseltilmiş mutlak tarihler): Orta Geometrik II başlar (S → tur,onem,dunya
+
+### olaylar_arkeoloji_d3-misir-afrika.js (11)
+- -0029-01-01 · Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian) → tur,onem,dunya
+- -0331-01-01 · Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek) → onem,dunya
+- -1079-01-01 · Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da M → tur,onem,dunya
+- -1479-01-01 · Nubya'nin Yeni Krallik Misir'i tarafindan fethi / Misir isgali (Kerma sonrasi): Nubya'da M → tur,onem,dunya
+- -1499-01-01 · Nok Kulturu (Orta Nijerya): Nok Kültürü başlar → tur,onem,dunya
+- -1531-01-01 · Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos s → tur,onem,dunya
+- -1749-01-01 · Klasik Kerma (Kerma Classique): Klasik Kerma başlar → tur,onem,dunya
+- -3463-01-01 · Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC) → tur,onem,dunya
+- -3639-01-01 · Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı (Naqada IB/IC) → tur,onem,dunya
+- -9249-01-01 · Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'nın en erken çanak çö → tur,onem,dunya
+- 0000-01-01 · Nok Kulturu (Orta Nijerya): Nok Kültürü sona erer → tur,onem,dunya
+
+### olaylar_arkeoloji_gecis.js (14)
+- -2049-01-01 · Liangzhu: sahip dönemi sona erer — Liangzhu Kültürü → tur,onem,dunya
+- -2203-01-01 · Lothagam North: sahip dönemi sona erer — Turkana Pastoral Neolitiği ('pillar sites' gelene → tur,onem,dunya
+- -3249-01-01 · Hemudu: sahip dönemi sona erer — Hemudu Kültürü → tur,onem,dunya
+- -3819-01-01 · Anau: sahip dönemi sona erer — Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ) → tur,onem,dunya
+- -4199-01-01 · Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Sudan) → tur,onem,dunya
+- -4723-01-01 · Mehrgarh: sahip dönemi sona erer — Mehrgarh Neolitiği (Kaççi Ovası, Belucistan) → tur,onem,dunya
+- -5249-01-01 · Kuahuqiao: sahip dönemi sona erer — Kuahuqiao Kültürü → tur,onem,dunya
+- -6899-01-01 · Ba'ja: sahip dönemi sona erer — PPNB — Çanak Öncesi Neolitik B (Güney Levant) → tur,onem,dunya
+- -9319-01-01 · Hallan Çemi: sahip dönemi sona erer — Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Ku → tur,onem,dunya
+- -9549-01-01 · Ain Mallaha (Eynan): sahip dönemi sona erer — Natufiyen Kültürü (Levant) → tur,onem,dunya
+- 0001-01-01 · Ban Chiang: sahip dönemi sona erer — Ban Chiang Kültürü (Kuzeydoğu Tayland) → tur,onem,dunya
+- 0349-01-01 · Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı → tur,onem,dunya
+- 0550-01-01 · Teotihuacan: sahip dönemi sona erer — Teotihuacan Şehir Devleti → tur,onem,dunya
+- 0700-01-01 · Monte Albán: sahip dönemi sona erer — Zapotek Devleti (Monte Alban) → tur,onem,dunya
+
+### olaylar_arkeoloji_hint.js (7)
+- -1599-01-01 · Geç Harappa dönemi: sona erer → tur,onem,dunya
+- -1899-01-01 · Geç Harappa dönemi: başlar → tur,onem,dunya
+- -2549-01-01 · Rakhigarhi: başlar → tur,onem,dunya
+- -2599-01-01 · Olgun Harappa (İndus Uygarlığı kent dönemi): başlar → tur,onem,dunya
+- -2899-01-01 · Burzahom: başlar → tur,onem,dunya
+- -3199-01-01 · Erken Harappa dönemi (Pre-urban / Early Harappan): başlar → tur,onem,dunya
+- -6433-01-01 · Bhirrana: başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_levant-anadolu.js (21)
+- -10149-01-01 · Mureybet: başlar → onem,dunya
+- -11219-01-01 · Ebu Hureyre (Abu Hureyra): başlar → onem,dunya
+- -12649-01-01 · Natufiyen Kültürü: başlar → onem,dunya
+- -6699-01-01 · Ayn Gazal (‘Ain Ghazal): sona erer → tur,onem,dunya
+- -6749-01-01 · Kfar HaHoresh: sona erer → tur,onem,dunya
+- -6749-01-01 · PPNC (Son PPNB) — Güney Levant: başlar → tur,onem,dunya
+- -7099-01-01 · Ebu Hureyre (Abu Hureyra): sona erer → tur,onem,dunya
+- -7139-01-01 · Çayönü Tepesi: sona erer → tur,onem,dunya
+- -7499-01-01 · Ba‘ja: başlar → onem,dunya
+- -7599-01-01 · Nevalı Çori: sona erer → tur,onem,dunya
+- -7949-01-01 · Mureybet: sona erer → tur,onem,dunya
+- -8399-01-01 · Aşıklı Höyük: başlar → onem,dunya
+- -8399-01-01 · Ayn Gazal (‘Ain Ghazal): başlar → onem,dunya
+- -8499-01-01 · Nevalı Çori: başlar → onem,dunya
+- -8609-01-01 · Cerf el-Ahmer (Jerf el Ahmar): sona erer → tur,onem,dunya
+- -8629-01-01 · Çayönü Tepesi: başlar → onem,dunya
+- -8649-01-01 · Kfar HaHoresh: başlar → onem,dunya
+- -8649-01-01 · PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: başlar → tur,onem,dunya
+- -9449-01-01 · Cerf el-Ahmer (Jerf el Ahmar): başlar → onem,dunya
+- -9659-01-01 · Hallan Çemi: başlar → onem,dunya
+- -9699-01-01 · PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar → onem,dunya
+
+### olaylar_arkeoloji_mezopotamya.js (16)
+- -0611-01-01 · Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu) → tur,onem,dunya
+- -0613-01-01 · Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler  → tur,onem,dunya
+- -0625-01-01 · Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar → onem,dunya
+- -1594-01-01 · Eski Babil (Babil I Hanedanı, Hammurabi): Babil I Hanedanı sona erer (Samsuditana) → tur,onem,dunya
+- -1791-01-01 · Eski Babil (Babil I Hanedanı, Hammurabi): Eski Babil (Babil I): Hammurabi'nin saltanatı ba → tur,onem,dunya
+- -1971-01-01 · Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Eski Asur eponim listes → tur,onem,dunya
+- -2002-01-01 · Ur III Hanedanı (Ur): Ur III Hanedanı sona erer (Ibbi-Suen'in son yılı) → tur,onem,dunya
+- -2109-01-01 · Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı → onem,dunya
+- -2141-01-01 · Akad İmparatorluğu (Sargon): Akad İmparatorluğu: son kral Şudurul'un saltanatı sona erer → tur,onem,dunya
+- -2323-01-01 · Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı başlar (Orta Kronoloj → onem,dunya
+- -3199-01-01 · Uruk IV–III (yazının ortaya çıkışı): Uruk III evresi sona erer → tur,onem,dunya
+- -3349-01-01 · Uruk IV–III (yazının ortaya çıkışı): Uruk IVa evresi: yazının ortaya çıktığı tabakalar (Ur → onem,dunya
+- -3799-01-01 · Ubaid kültürü (güney Mezopotamya): Ubaid dönemi sona erer (Carter & Philip 2010; Egberts v → tur,onem,dunya
+- -5499-01-01 · Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır) → tur,onem,dunya
+- -5899-01-01 · Halaf kültürü: Halaf kültürü: yükseliş başlar (tarihli en erken uç) → tur,onem,dunya
+- -6499-01-01 · Ubaid kültürü (güney Mezopotamya): Ubaid kültürü: güney Mezopotamya'da ilk tarihli Ubaid e → onem,dunya
+
+### olaylar_arkeoloji_misir-nil-sahra.js (22)
+- -0299-01-01 · Kush krallığı — Meroe dönemi: başlar → tur,onem,dunya
+- -1069-01-01 · Kush krallığı — Napata dönemi: başlar → onem,dunya
+- -1449-01-01 · Kerma (Kush) krallığı/kültürü: sona erer → tur,onem,dunya
+- -1499-01-01 · Napata (Cebel Barkal): başlar → onem,dunya
+- -1556-01-01 · Yeni Krallık (XVIII. Hanedan başı: I. Ahmose): başlar → onem,dunya
+- -1811-01-01 · Orta Krallık: sona erer → tur,onem,dunya
+- -2050-01-01 · Birinci Ara Dönem: sona erer → tur,onem,dunya
+- -2050-01-01 · Orta Krallık: başlar → onem,dunya
+- -2242-01-01 · Eski Krallık (Piramit Çağı): sona erer → tur,onem,dunya
+- -2242-01-01 · Birinci Ara Dönem: başlar → onem,dunya
+- -2499-01-01 · Kerma (Kush) krallığı/kültürü: başlar → onem,dunya
+- -2662-01-01 · Eski Krallık (Piramit Çağı): başlar → onem,dunya
+- -3125-01-01 · Nakade (Naqada) kültürü: sona erer → tur,onem,dunya
+- -3499-01-01 · Ön-Kerma (Pre-Kerma) kültürü: başlar → tur,onem,dunya
+- -3755-01-01 · Nakade (Naqada) kültürü: başlar → onem,dunya
+- -3949-01-01 · Takarkori kaya sığınağı (Tadrart Acacus): sona erer → tur,onem,dunya
+- -4699-01-01 · Eş-Şeheynab (Shaheinab) Neolitiği: başlar → tur,onem,dunya
+- -4849-01-01 · Fayum (Karun Gölü çevresi) Holosen iskânı: sona erer → tur,onem,dunya
+- -4999-01-01 · Erken Hartum (Khartoum Mezolitik): sona erer → tur,onem,dunya
+- -7349-01-01 · Fayum (Karun Gölü çevresi) Holosen iskânı: başlar → tur,onem,dunya
+- -8219-01-01 · Takarkori kaya sığınağı (Tadrart Acacus): başlar → onem,dunya
+- -8799-01-01 · Erken Hartum (Khartoum Mezolitik): başlar → tur,onem,dunya
+
+### olaylar_arkeoloji_pilot.js (14)
+- -12154-01-01 · Ain Mallaha (Eynan): Erken Natufiyen yerleşiminin ilk tarihli kanıtı → onem,dunya
+- -9528-01-01 · Göbekli Tepe: Çevre D'nin (Tabaka III) duvar sıvası tarihi — anıtsal yapılaşmanın tarihli  → onem,dunya
+- -7999-01-01 · Göbekli Tepe terk edilir (orta PPNB sonrası) → tur,onem,dunya
+- -9299-01-01 · Eriha (Tell es-Sultan): en erken PPN tabakasının (Stage IV/IVA) radyokarbon tarihleri başl → onem,dunya
+- -7099-01-01 · Çatalhöyük Doğu Höyük'te yerleşim başlar → onem,dunya
+- -5999-01-01 · Çatalhöyük Doğu Höyük'te yerleşim faaliyeti sona erer → tur,onem,dunya
+- -6999-01-01 · Jiahu (Henan): yerleşim başlar → onem,dunya
+- -5699-01-01 · Jiahu yerleşiminin sonu → tur,onem,dunya
+- -5049-01-01 · Mehrgarh (Belucistan): aseramik Neolitik mezarlık dizisi başlar → onem,dunya
+- -3299-01-01 · Harappa: Ravi evresi (Dönem 1) başlar — Hint vadisi öncesi dönem → onem,dunya
+- -4555-01-01 · Varna nekropolü (Bulgaristan): altın buluntulu mezarlık başlar → onem,dunya
+- -4383-01-01 · Varna nekropolünde mezar faaliyeti sona erer → tur,onem,dunya
+- -4376-01-01 · Mısır: Badari kültürü başlar (Nil Vadisi, Yukarı Mısır) → onem,dunya
+- -3125-01-01 · Mısır birleşir: Aha'nın tahta çıkışı (arkeolojik-radyokarbon tarihleme) → onem,dunya
+
+### olaylar_arkeoloji_zincir.js (121)
+- -0026-01-01 · Roma, İskenderiye: Roma Cumhuriyeti → sahipsiz aralık → tur,onem,dunya
+- -0048-01-01 · Marsilya, Massalia: Massalia (Marsilya) → Roma Cumhuriyeti → tur,onem,dunya
+- -0112-01-01 · Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu → tur,onem,dunya
+- -0132-01-01 · Bergama, Pergamon: Bergama (Attalos) Krallığı → Roma Cumhuriyeti → tur,onem,dunya
+- -0140-01-01 · Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorlugu → Part (Arsakid) Imparator → tur,onem,dunya
+- -0147-01-01 · Ekbatana, Hemedan: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu → tur,onem,dunya
+- -0206-01-01 · Xi'an (Chang'an): Qin Hanedanı (birleşik İmparatorluk) → sahipsiz aralık → tur,onem,dunya
+- -0211-01-01 · Sirakuza, Syrakusai: Sirakuza (Syrakousai) → Roma Cumhuriyeti → tur,onem,dunya
+- -0310-01-01 · Babil, Uruk: sahipsiz aralık → Selevkos Imparatorlugu → tur,onem,dunya
+- -0311-01-01 · Ekbatana, Hemedan, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle) → tur,onem,dunya
+- -0322-06-10 · Babil, Ekbatana, Hemedan, Pasargad, Uruk: Buyuk Iskender Imparatorlugu → sahipsiz aralık → tur,onem,dunya
+- -0327-01-01 · Ekbatana, Hemedan: sahipsiz aralık → Buyuk Iskender Imparatorlugu → tur,onem,dunya
+- -0329-01-01 · Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → sahipsiz aralık → tur,onem,dunya
+- -0330-01-01 · Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu → tur,onem,dunya
+- -0395-01-01 · Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti → tur,onem,dunya
+- -0403-01-01 · Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) → sah → tur,onem,dunya
+- -0677-01-01 · Ekbatana, Hemedan: sahipsiz aralık → Medya (Med) Krallığı → tur,onem,dunya
+- -0709-01-01 · Babil: sahipsiz aralık → Yeni Asur Imparatorlugu → tur,onem,dunya
+- -0721-01-01 · Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) → Yeni Asur Imparatorlugu → tur,onem,dunya
+- -0731-01-01 · Şam: Aram-Sam (Dimask) Krallığı → Yeni Asur Imparatorlugu → tur,onem,dunya
+- -0910-01-01 · Aşşur: sahipsiz aralık → Yeni Asur Imparatorlugu → tur,onem,dunya
+- -1099-01-01 · Susa: Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) → Yeni Elam Krallığı → tur,onem,dunya
+- -1154-01-01 · Nippur, Uruk, Ur: Kassit Babil Krallığı → sahipsiz aralık → tur,onem,dunya
+- -1209-01-01 · Babil: Orta Asur Imparatorlugu → sahipsiz aralık → tur,onem,dunya
+- -1219-01-01 · Babil: Kassit Babil Krallığı → Orta Asur Imparatorlugu → tur,onem,dunya
+- -1464-01-01 · Uruk, Ur: sahipsiz aralık → Kassit Babil Krallığı → tur,onem,dunya
+- -1474-01-01 · Uruk: Birinci Deniz Ulkesi Hanedani → sahipsiz aralık → tur,onem,dunya
+- -1499-01-01 · Kerma (Kerma / Doukki Gel): Kerma Krallığı (Klasik Kerma) → sahipsiz aralık → tur,onem,dunya
+- -1731-01-01 · Uruk: sahipsiz aralık → Birinci Deniz Ulkesi Hanedani → tur,onem,dunya
+- -1760-01-01 · Mari: sahipsiz aralık → Eski Babil (Amorit) Krallığı → tur,onem,dunya
+- -1762-01-01 · Ur: sahipsiz aralık → Eski Babil (Amorit) Krallığı → tur,onem,dunya
+- -1801-01-01 · Uruk: sahipsiz aralık → Larsa Krallığı → tur,onem,dunya
+- -1807-01-01 · Aşşur: Eski Asur Devleti (Assur sehir devleti) → Ust Mezopotamya Krallığı (Samsi-Adad I) → tur,onem,dunya
+- -1899-01-01 · Susa: Elam — Simaski Hanedani → Elam — Sukkalmah (Eparti) Hanedani → tur,onem,dunya
+- -2003-01-01 · Uruk, Ur: Larsa Krallığı → sahipsiz aralık → tur,onem,dunya
+- -2023-01-01 · Susa: Ur III (Ucuncu Ur Hanedani) → Elam — Simaski Hanedani → tur,onem,dunya
+- -2024-01-01 · Uruk, Ur: Ur III (Ucuncu Ur Hanedani) → Larsa Krallığı → tur,onem,dunya
+- -2111-01-01 · Uruk: Gutium (Gutiler) Hakimiyeti → sahipsiz aralık → tur,onem,dunya
+- -2143-01-01 · Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-N → tur,onem,dunya
+- -2153-01-01 · Uruk: sahipsiz aralık → Gutium (Gutiler) Hakimiyeti → tur,onem,dunya
+- -2299-01-01 · Umma, Ur: sahipsiz aralık → Akad Imparatorlugu → tur,onem,dunya
+- -2349-01-01 · Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → sahipsiz aralık → tur,onem,dunya
+- 0009-01-10 · Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou) Batı Han'dan sahipsiz aralığa geçti → tur,onem,dunya
+- 0023-01-01 · Luoyang, Xi'an (Chang'an): sahipsiz aralık → Gengshi Rejimi (Xuan Han / Lulin) → tur,onem,dunya
+- 0025-01-01 · Çengdu (Chengdu): sahipsiz aralık → Chengjia (成家, Gongsun Shu) → tur,onem,dunya
+- 0027-01-01 · Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) → sahipsiz aralık → tur,onem,dunya
+- 0036-01-01 · Çengdu (Chengdu): Chengjia (成家, Gongsun Shu) → sahipsiz aralık → tur,onem,dunya
+- 0106-01-01 · Petra: Nabatiye Krallığı → Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → tur,onem,dunya
+- 0221-01-01 · Çengdu (Chengdu): sahipsiz aralık → Shu Han → tur,onem,dunya
+- 0263-01-01 · Çengdu (Chengdu): Shu Han → Cao Wei → tur,onem,dunya
+- 0304-01-01 · Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢) → tur,onem,dunya
+- 0351-01-01 · Xi'an (Chang'an): sahipsiz aralık → Önceki Qin (前秦) → tur,onem,dunya
+- 0356-01-01 · Köln (Colonia Claudia Ara Agrippinensium): sahipsiz aralık → Roma İmparatorluğu (Prinkipat → tur,onem,dunya
+- 0395-01-01 · Roma: Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → sahipsiz aralık → tur,onem,dunya
+- 0397-01-01 · Dunhuang, Zhangye (Ganzhou): sahipsiz aralık → Kuzey Liang (北涼) → tur,onem,dunya
+- 0400-01-01 · Dunhuang: Kuzey Liang (北涼) → sahipsiz aralık → tur,onem,dunya
+- -0085-01-01 · Atina: Roma Cumhuriyeti dönemi başlar → tur,onem,dunya
+- -0110-01-01 · Dunhuang: Bati Han Hanedani dönemi başlar → tur,onem,dunya
+- -0120-01-01 · Zhangye (Ganzhou): Bati Han Hanedani dönemi başlar → tur,onem,dunya
+- -0131-01-01 · Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi başlar → tur,onem,dunya
+- -0145-01-01 · Korint: Korint dönemi sona erer → tur,onem,dunya
+- -0167-01-01 · Petra: Nabatiye Krallığı dönemi başlar → tur,onem,dunya
+- -0183-01-01 · Patna (Azîmâbâd): sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -0255-01-01 · Luoyang: Qin Devleti dönemi başlar → tur,onem,dunya
+- -0279-01-01 · Pasargad: sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -0281-01-01 · Bergama, Pergamon: Bergama (Attalos) Krallığı dönemi başlar → tur,onem,dunya
+- -0302-01-01 · Dura-Europos: Selevkos Imparatorlugu dönemi başlar → tur,onem,dunya
+- -0315-01-01 · Çengdu (Chengdu): Qin Devleti dönemi başlar → tur,onem,dunya
+- -0320-01-01 · Patna (Azîmâbâd): sahipsiz aralık dönemi başlar → tur,onem,dunya
+- -0322-06-10 · İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar → tur,onem,dunya
+- -0337-01-01 · Capua: Roma Cumhuriyeti dönemi başlar → tur,onem,dunya
+- -0349-01-01 · Xi'an (Chang'an): Qin Devleti dönemi başlar → tur,onem,dunya
+- -0401-01-01 · Memphis (Men-nefer / Mit Rahina): sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -0517-01-01 · Persepolis: Ahamenis (Pers) Imparatorlugu dönemi başlar → tur,onem,dunya
+- -0524-01-01 · Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) dönem → tur,onem,dunya
+- -0538-01-01 · Ur: Ahamenis (Pers) Imparatorlugu dönemi başlar → tur,onem,dunya
+- -0545-01-01 · Pasargad: Ahamenis (Pers) Imparatorlugu dönemi başlar → tur,onem,dunya
+- -0574-01-01 · Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar → tur,onem,dunya
+- -0585-01-01 · Kudüs: Yahuda Krallığı dönemi sona erer → tur,onem,dunya
+- -0589-01-01 · Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi sona erer → tur,onem,dunya
+- -0599-01-01 · Marsilya, Massalia: Massalia (Marsilya) dönemi başlar → tur,onem,dunya
+- -0608-01-01 · Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam: Yeni Asur Imparatorlugu dö → tur,onem,dunya
+- -0626-01-01 · Babil: Yeni Asur Imparatorlugu dönemi sona erer → tur,onem,dunya
+- -0699-01-01 · Hemedan: sahipsiz aralık dönemi başlar → tur,onem,dunya
+- -0716-01-01 · Cerablus, Karkamış: Yeni Asur Imparatorlugu dönemi başlar → tur,onem,dunya
+- -0733-01-01 · Sirakuza, Syrakusai: Sirakuza (Syrakousai) dönemi başlar → tur,onem,dunya
+- -0752-01-01 · Roma: Roma Krallığı dönemi başlar → tur,onem,dunya
+- -0799-01-01 · Korint: Korint dönemi başlar → tur,onem,dunya
+- -0813-01-01 · Karthago: Kartaca (Pön) Devleti dönemi başlar → tur,onem,dunya
+- -0859-01-01 · Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi başlar → tur,onem,dunya
+- -0929-01-01 · Kudüs: Yahuda Krallığı dönemi başlar → tur,onem,dunya
+- -0939-01-01 · Şam: Aram-Sam (Dimask) Krallığı dönemi başlar → tur,onem,dunya
+- -1149-01-01 · Nippur: sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -1189-01-01 · Ugarit (Ras Şamra): Ugarit Krallığı dönemi sona erer → tur,onem,dunya
+- -1196-01-01 · Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -1253-01-01 · Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi başlar → tur,onem,dunya
+- -1349-01-01 · Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar → tur,onem,dunya
+- -1739-01-01 · Uruk: Eski Babil (Amorit) Krallığı dönemi sona erer → tur,onem,dunya
+- -1775-01-01 · Aşşur: Ust Mezopotamya Krallığı (Samsi-Adad I) dönemi sona erer → tur,onem,dunya
+- -1893-01-01 · Babil: Eski Babil (Amorit) Krallığı dönemi başlar → tur,onem,dunya
+- -2018-01-01 · Nippur: Ur III (Ucuncu Ur Hanedani) dönemi sona erer → tur,onem,dunya
+- -2021-01-01 · Girsu (Lagaş devletinin merkezi), Umma: Ur III (Ucuncu Ur Hanedani) dönemi sona erer → tur,onem,dunya
+- -2153-01-01 · Kiş, Ur: Akad Imparatorlugu dönemi sona erer → tur,onem,dunya
+- -2294-01-01 · Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi sona erer → tur,onem,dunya
+- -2299-01-01 · Eridu, Ur: sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- -2309-01-01 · Ebla: Ebla Birinci Krallığı dönemi sona erer → tur,onem,dunya
+- -2323-01-01 · Eridu, Umma, Uruk, Ur: sahipsiz aralık dönemi başlar → tur,onem,dunya
+- -2399-01-01 · Ebla: Ebla Birinci Krallığı dönemi başlar → tur,onem,dunya
+- -2449-01-01 · Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi başlar → tur,onem,dunya
+- -2474-01-01 · Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar → tur,onem,dunya
+- -2549-01-01 · Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi başlar → tur,onem,dunya
+- 0025-01-01 · Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) dönemi başlar → tur,onem,dunya
+- 0220-01-01 · Luoyang: Dogu Han Hanedani dönemi sona erer → tur,onem,dunya
+- 0224-04-28 · Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk: Part  → tur,onem,dunya
+- 0242-01-01 · Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi sona erer → tur,onem,dunya
+- 0265-01-01 · Çengdu (Chengdu): Cao Wei dönemi sona erer → tur,onem,dunya
+- 0347-01-01 · Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer → tur,onem,dunya
+- 0386-01-01 · Xi'an (Chang'an): Önceki Qin (前秦) dönemi sona erer → tur,onem,dunya
+- 0423-01-01 · Dunhuang: sahipsiz aralık dönemi sona erer → tur,onem,dunya
+- 0439-01-01 · Zhangye (Ganzhou): Kuzey Liang (北涼) dönemi sona erer → tur,onem,dunya
+- 0476-01-01 · Roma: Batı Roma İmparatorluğu dönemi sona erer → tur,onem,dunya
+
+### olaylar_avmac_b_1029.js (21)
+- 1363-01-26 · Tirol Kontluğu Habsburglara geçti → tur,onem,dunya
+- 1526-10-23 · I. Ferdinand Bohemya kralı seçildi — Habsburg Bohemya tacını aldı → onem,dunya
+- 1527-11-03 · I. Ferdinand İstolni Belgrad'da Macar kralı olarak taç giydi → onem,dunya
+- 1540-07-22 · Szapolyai János'un ölümü — Budin sorunu ve Macaristan'ın bölünmesinin kapısı → onem,dunya
+- 1555-01-01 · Ptuj (Pettau) Salzburg'dan geri alınıp Habsburg Steiermark'ına katıldı → tur,onem,dunya
+- 1606-06-23 · Viyana Barışı — Bocskai ayaklanması sona erdi, Erdel prensi tanındı → onem,dunya
+- 1711-04-29 · Szatmár Barışı — Rákóczi hürriyet savaşı sona erdi, Erdel Habsburg idaresine geçti → onem,dunya
+- 1803-02-25 · Reichsdeputationshauptschluss: Brixen ve Trient Avusturya'ya, Salzburg Toskana Dükü Ferdin → tur,onem,dunya
+- 1804-08-11 · II. Franz Avusturya İmparatorluğu'nu ilân etti — kalıtsal Avusturya imparatorluğu → onem,dunya
+- 1805-12-26 · Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Trient, Tirol ve Vorarl → onem,dunya
+- 1806-08-06 · II. Franz Kutsal Roma tacını bıraktı — İmparatorluk sona erdi → tur,onem,dunya
+- 1809-10-14 · Schönbrunn Barışı'nın yer ayrıntısı: Salzburg ve Yukarı Karintiya (Villach, Tarvis, Lienz) → onem,dunya
+- 1848-03-15 · Pest'te Mart Devrimi başladı — Macar Devrimi 1848-49 → tur,onem,dunya
+- 1848-04-11 · Nisan Kanunları onaylandı — Macaristan'a sorumlu hükûmet ve bağımsız bakanlıklar → tur,onem,dunya
+- 1848-09-11 · Jelačić'in Hırvat ordusu Drava'yı geçti — Macar bağımsızlık savaşı başladı → onem,dunya
+- 1849-04-14 · Debrecen Bağımsızlık Bildirgesi — Habsburg hanedanı tahttan indirildi, Kossuth devlet başk → tur,onem,dunya
+- 1849-08-13 · Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı → tur,onem,dunya
+- 1849-10-06 · Arad'da 13 Macar general idam edildi, Peşte'de Batthyány Lajos kurşuna dizildi → tur,onem,dunya
+- 1867-02-17 · Macar anayasal hükûmeti yeniden kuruldu — Andrássy Gyula başbakan → tur,onem,dunya
+- 1867-05-29 · Ausgleich (Uzlaşma): Macar Diyeti 1867:XII sayılı kanunu kabul etti — Avusturya-Macaristan → onem,dunya
+- 1867-06-08 · Franz Joseph ve Elisabeth Buda'da Macaristan kralı ve kraliçesi olarak taç giydi → onem,dunya
+
+### olaylar_cukurova_0907.js (6)
+- 1919-02-22 · Maraş'ın İngilizler tarafından işgali → tur,onem,dunya
+- 1921-12-23 · Kilis'in kurtuluşu — Fransızların tahliyesi → tur,onem,dunya
+- 1921-12-25 · Antep'in kurtuluşu — Fransızların şehri boşaltması → tur,onem,dunya
+- 1921-12-27 · Tarsus'un kurtuluşu — Fransızların şehri boşaltması → tur,onem,dunya
+- 1922-01-03 · Mersin'in kurtuluşu — millî kuvvetlerin şehre girişi → tur,onem,dunya
+- 1922-01-05 · Adana'nın kurtuluşu — Fransızların şehri terketmesi → tur,onem,dunya
+
+### olaylar_ebukir_0919.js (2)
+- 1798-08-01 · Ebukır (Nil) deniz muharebesi — Napolyon'un donanmasının imhası → dunya
+- 1799-07-25 · Ebukır kara muharebesi — Köse Mustafa Paşa'nın yenilgisi → dunya
+
+### olaylar_ek.js (115)
+- 1300-01-01 · Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık → tur,onem,dunya
+- 1302-08-01 · İznik'in ilk kuşatması ve Marmaracık'ın fethi → onem,dunya
+- 1313-01-01 · Köse Mihal'in Müslüman olup Osmanlı'ya katılışı → tur,onem,dunya
+- 1320-01-01 · Orhan Bey'in fiilî yönetimi devralması → onem,dunya
+- 1324-01-01 · Akyazı ve İmralı Adası'nın fethi → tur,onem,dunya
+- 1330-01-01 · Osmanlı-Aydın-Saruhan ittifakı → tur,onem,dunya
+- 1326-01-01 · Akça Koca Kandıra'yı ve civarını zaptetti → tur,onem,dunya
+- 1328-01-01 · Akça Koca Aydos'u ve Samandıra hisarını aldı → tur,onem,dunya
+- 1321-01-01 · Mudanya limanının abluka altına alınışı → onem,dunya
+- 1301-01-01 · Yenişehir'in kuruluşu → tur,onem,dunya
+- 1323-01-01 · Yalova ve Karamürsel'in katılışı → tur,onem,dunya
+- 1324-03-01 · Gemlik (Kios) ve Armutlu'nun fethi → tur,onem,dunya
+- 1354-08-01 · Ankara'nın alınışı → tur,onem,dunya
+- 1360-01-01 · Edirne'nin yardım yollarının kesilmesi: Çorlu, Lüleburgaz, Babaeski ve Keşan kaleleri → tur,onem,dunya
+- 1371-09-26 · Çirmen Savaşı — Meriç vadisinin denetimi → onem,dunya
+- 1372-06-01 · Filibe ve Eski Zağra'nın fethi → tur,onem,dunya
+- 1388-01-01 · Çandarlı Ali Paşa'nın Bulgaristan seferi: Şumnu ve Rusçuk'un alınışı → tur,onem,dunya
+- 1383-09-19 · Serez'in fethi → tur,onem,dunya
+- 1385-09-01 · Sofya'nın fethi → tur,onem,dunya
+- 1386-01-01 · Niş'in fethi → tur,onem,dunya
+- 1387-04-09 · Selanik'in ilk teslimi → tur,onem,dunya
+- 1387-06-08 · Osmanlı-Ceneviz ahidnâmesi — 1352 antlaşmasının yenilenmesi → onem,dunya
+- 1381-01-01 · Germiyan çeyizi: Kütahya'nın katılışı → tur,onem,dunya
+- 1381-06-01 · Hamîd ilinin satın alınışı: Isparta'nın katılışı → tur,onem,dunya
+- 1390-01-01 · Batı Anadolu beyliklerinin ilhakı: Saruhan, Aydın, Menteşe → tur,onem,dunya
+- 1395-01-01 · Niğbolu'nun fethi → tur,onem,dunya
+- 1392-01-01 · Teke ilinin ilhakı: Antalya'nın katılışı → tur,onem,dunya
+- 1392-11-01 · Kastamonu'nun ilhakı → tur,onem,dunya
+- 1392-01-06 · Üsküp'ün fethi → tur,onem,dunya
+- 1393-06-17 · Tırnova'nın düşüşü — Bulgaristan'ın ilhakı → tur,onem,dunya
+- 1393-06-17 · Lofça (Loveç) kalesi Osmanlı'ya geçti → tur,onem,dunya
+- 1393-09-01 · Dobruca'nın katılışı → tur,onem,dunya
+- 1394-01-01 · Teselya'ya iniş → tur,onem,dunya
+- 1396-10-01 · Vidin'in ilhakı → tur,onem,dunya
+- 1397-07-01 · Karaman'ın ilk ilhakı → tur,onem,dunya
+- 1398-07-01 · Canik kıyılarının katılışı: Samsun → tur,onem,dunya
+- 1399-09-01 · Malatya'nın alınışı → tur,onem,dunya
+- 1400-01-01 · Timur Malatya'yı aldı, Karayülük Osman'a bıraktı — Timur çekilince Dulkadıroğulları geri a → tur,onem,dunya
+- 1425-06-01 · Batı Anadolu beyliklerinin yeniden ilhakı: Menteşe ve Aydın → tur,onem,dunya
+- 1430-03-29 · Selanik'in kesin fethi → tur,onem,dunya
+- 1430-10-09 · Yanya'nın teslimi → tur,onem,dunya
+- 1456-06-04 · Atina'nın fethi → tur,onem,dunya
+- 1459-06-20 · Sırbistan'ın ilhakı (Semendire'nin düşüşü) → tur,onem,dunya
+- 1460-05-29 · Mora'nın fethi → tur,onem,dunya
+- 1461-06-01 · Sinop'un katılışı → tur,onem,dunya
+- 1463-06-01 · Bosna Krallığı'nın yıkılışı — Fâtih'in Bosna seferi → tur,onem,dunya
+- 1468-01-01 · Karaman'ın kesin ilhakı → tur,onem,dunya
+- 1471-01-01 · Alanya, Anamur ve Silifke'nin (İçel) ilhakı → tur,onem,dunya
+- 1470-07-12 · Eğriboz'un fethi → tur,onem,dunya
+- 1479-01-25 · İstanbul Antlaşması — Arnavutluk ve İşkodra → onem,dunya
+- 1480-08-11 · Otranto çıkarması → onem,dunya
+- 1481-09-10 · Otranto'nun tahliyesi → tur,onem,dunya
+- 1500-08-09 · Modon ve Koron'un fethi → tur,onem,dunya
+- 1501-08-17 · Draç'ın fethi → tur,onem,dunya
+- 1515-09-15 · Doğu Anadolu'nun katılışı → tur,onem,dunya
+- 1526-07-27 · Varadin (Petervaradin) Kalesi'nin fethi → tur,onem,dunya
+- 1526-09-01 · Mohaç sonrası Budin'in teslimi — Macar tahtına iki kral → tur,onem,dunya
+- 1526-11-10 · János Szapolyai Macar kralı seçildi — Osmanlı, krallığını tâbi olması kaydıyla tanıdı → tur,onem,dunya
+- 1526-12-17 · I. Ferdinand Macar kralı ilân edildi — Batı ve Kuzey Macaristan Habsburg tacına → tur,onem,dunya
+- 1530-01-01 · İki kral çekişmesi: Estergon Habsburg himayesine, Segedin Szapolyai'ye → tur,onem,dunya
+- 1532-01-01 · Peçuy halkı Szapolyai tarafına geçti → tur,onem,dunya
+- 1551-08-15 · Trablusgarp'ın fethi → tur,onem,dunya
+- 1552-07-27 · Temeşvar'ın fethi → tur,onem,dunya
+- 1574-08-25 · Tunus'un kesin fethi → tur,onem,dunya
+- 1600-10-20 · Kanije'nin fethi → tur,onem,dunya
+- 1663-04-13 · Uyvar seferi başladı — Fâzıl Ahmed Paşa Edirne'den Avusturya üzerine yürüdü → tur,onem,dunya
+- 1663-09-24 · Uyvar'ın fethi → tur,onem,dunya
+- 1715-07-01 · Mora'nın geri alınışı → tur,onem,dunya
+- 1717-08-18 · Belgrad'ın ikinci kez kaybı — Prens Eugen'in kuşatması → tur,onem,dunya
+- 1788-12-17 · Özi'nin düşüşü → tur,onem,dunya
+- 1812-05-28 · Bükreş Antlaşması — Besarabya'nın kaybı → onem,dunya
+- 1829-09-14 · Edirne Antlaşması → onem,dunya
+- 1830-10-17 · Sırbistan'a özerklik fermanı — irsî knezlik ve garnizon şartı → tur,onem,dunya
+- 1878-06-04 · Kıbrıs'ın İngiliz idaresine bırakılması → tur,onem,dunya
+- 1881-07-02 · Teselya'nın Yunanistan'a bırakılması → tur,onem,dunya
+- 1885-09-18 · Doğu Rumeli'nin Bulgaristan'a katılması → tur,onem,dunya
+- 1897-05-17 · Dömeke Meydan Muharebesi → onem,dunya
+- 1898-12-22 · Girit'e özerklik → tur,onem,dunya
+- 1908-10-05 · Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı → tur,onem,dunya
+- 1913-07-21 · Edirne'nin geri alınışı → tur,onem,dunya
+- 1916-04-29 · Kûtülamâre Zaferi → onem,dunya
+- 1917-03-11 · Bağdat'ın kaybı → tur,onem,dunya
+- 1917-12-09 · Kudüs'ün kaybı → tur,onem,dunya
+- 1918-10-01 · Şam'ın kaybı → tur,onem,dunya
+- 1919-01-10 · Medine'nin teslimi → tur,onem,dunya
+- 1919-05-15 · İzmir'in işgali → onem,dunya
+- 1920-03-16 · İstanbul'un resmî işgali → onem,dunya
+- 1921-10-13 · Kars Antlaşması → onem,dunya
+- 1305-06-01 · Katalan birliklerinin Anadolu seferi → onem,dunya
+- 1321-04-01 · Mudanya'nın alınışı → tur,onem,dunya
+- 1346-06-01 · Orhan Gazi – Teodora evliliği: Bizans ittifakı → tur,onem,dunya
+- 1357-08-01 · Şehzade Halil'in kaçırılması → tur,onem,dunya
+- 1361-01-01 · Dimetoka'nın alınışı — Meriç vadisinin açılması → tur,onem,dunya
+- 1357-01-01 · Süleyman Paşa döneminde Trakya ilerleyişi: Malkara, İpsala ve Tekirdağ → tur,onem,dunya
+- 1366-08-01 · Gelibolu'nun kaybı (Savoy Haçlı seferi) → tur,onem,dunya
+- 1376-09-01 · Gelibolu'nun geri alınışı → tur,onem,dunya
+- 1373-05-01 · Vasal Bizans: V. Yoannis I. Murad'ın ordusunda (1371 Çirmen zaferinin sonucu) → tur,onem,dunya
+- 1388-08-27 · Bileća yenilgisi → onem,dunya
+- 1391-10-01 · İstanbul'un ilk ablukası başladı → onem,dunya
+- 1395-05-17 · Rovine Savaşı — Eflak seferi → onem,dunya
+- 1395-08-01 · Anadolu Hisarı'nın yapımı → tur,onem,dunya
+- 1403-06-01 · Süleyman Çelebi – Bizans antlaşması: Selanik'in iadesi → onem,dunya
+- 1416-05-29 · Gelibolu deniz yenilgisi (Venedik) → onem,dunya
+- 1421-08-15 · Düzmece Mustafa ayaklanması → onem,dunya
+- 1422-06-10 · II. Murad'ın İstanbul kuşatması → onem,dunya
+- 1423-09-14 · Selanik'in Venedik'e devri → tur,onem,dunya
+- 1429-01-01 · Germiyan'ın vasiyetle ilhakı → tur,onem,dunya
+- 1439-08-27 · Semendire'nin ilk alınışı → tur,onem,dunya
+- 1440-04-01 · Belgrad kuşatması (başarısız) → onem,dunya
+- 1443-11-24 · İzladi bozgunu — 'Uzun Sefer' → onem,dunya
+- 1444-06-12 · Edirne-Segedin Antlaşması → onem,dunya
+- 1444-08-15 · Semendire ve Sırp kalelerinin Sırbistan'a iadesi → tur,onem,dunya
+- 1452-08-31 · Rumeli Hisarı tamamlandı — 'Boğazkesen' → tur,onem,dunya
+- 1453-04-06 · İstanbul kuşatması başladı → onem,dunya
+- 1453-04-22 · Gemiler karadan Haliç'e indirildi → tur,onem,dunya
+
+### olaylar_ek10.js (45)
+- 1479-08-01 · İyon adalarının fethi — Tocco düklüğünün sonu: Ayamavra, Kefalonya, Zaklise, İthaki → tur,onem,dunya
+- 1482-01-01 · Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu → onem,dunya
+- 1484-07-15 · Kili Kalesi'nin fethi — Tuna ağzının kilidi → tur,onem,dunya
+- 1484-08-04 · Akkirman'ın fethi — Dinyester ağzı ve Boğdan'ın Karadeniz kapısının kapanışı → tur,onem,dunya
+- 1499-08-26 · İnebahtı'nın teslimi — Korint körfezinin ağzı Venedik'ten alınıyor → tur,onem,dunya
+- 1594-08-28 · Üç voyvodalığın ayaklanması başlıyor — Erdel Kutsal İttifak'a geçti, Osmanlı yanlısı beyle → tur,onem,dunya
+- 1594-11-01 · Bükreş ayaklanması ve Tuna kalelerine saldırı → onem,dunya
+- 1595-08-23 · Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi → onem,dunya
+- 1595-10-01 · Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı → onem,dunya
+- 1713-06-24 · Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı → tur,onem,dunya
+- 1877-04-24 · Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması → onem,dunya
+- 1877-08-23 · Lofça Rus ordusunca işgal edildi → tur,onem,dunya
+- 1433-01-01 · Toplice bölgesi (Kurşunlu, Ürküp) Osmanlı hâkimiyetine girdi → tur,onem,dunya
+- 1877-05-21 · Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu → tur,onem,dunya
+- 1832-01-01 · İzdin (Lamia) Yunanistan sınırları içinde kaldı — Arta-Volos hattı → tur,onem,dunya
+- 1877-06-27 · Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü → tur,onem,dunya
+- 1877-07-19 · Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması → tur,onem,dunya
+- 1877-11-18 · Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları → tur,onem,dunya
+- 1912-10-08 · I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı → onem,dunya
+- 1912-10-23 · Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı → onem,dunya
+- 1912-10-20 · Rodoplar'da Kırcaali Müfrezesi bozuldu, Kırcaali düştü → tur
+- 1912-10-23 · Yenipazar sancağının merkezine Prens Aleksandar girdi → tur
+- 1912-10-26 · Kosova vilâyetinin merkezi Üsküp direnişsiz bırakıldı → tur
+- 1912-10-28 · Vardar boyunda Köprülü (Veles) kaybedildi → tur
+- 1912-10-29 · Bregalnitsa havzası: General Stefanoviç İştip'e girdi → tur
+- 1912-10-29 · Sarantaporo geçidinden sonra Karaferye Yunan hâkimiyetine geçti → tur
+- 1912-10-31 · Selanik-Manastır demiryolu üzerindeki Vodina kaybedildi → tur
+- 1912-11-03 · Prizren Kosova'nın güneybatısında teslim oldu → tur
+- 1912-11-05 · Albay Mitov Ustrumca'da sıkıyönetim ilân etti → tur
+- 1912-11-08 · Hasan Tahsin Paşa Selanik'i Yunanlılara bıraktı → tur
+- 1912-11-21 · Batı Trakya'nın merkezi Gümülcine Bulgarlara açıldı → tur
+- 1912-11-28 · İlbasan'a varan Sırplar aynı gün Debre'ye girdi → tur
+- 1476-02-01 · Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik → tur,onem,dunya
+- 1521-07-07 · Böğürdelen'in fethi — Kanûnî'nin aldığı ilk kale ve Belgrad kararının verildiği yer → tur,onem,dunya
+- 1788-04-24 · Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması → tur,onem,dunya
+- 1806-01-26 · Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale → tur,onem,dunya
+- 1457-01-01 · Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması → tur,onem,dunya
+- 1448-01-01 · Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması → tur,onem,dunya
+- 1465-01-01 · Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması → tur,onem,dunya
+- 1469-01-01 · Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması → tur,onem,dunya
+- 1512-01-01 · Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması → tur,onem,dunya
+- 1402-07-28 · Ankara bozgununun ardından Eflak Voyvodası Mircea Dobruca'yı yeniden aldı — Silistre, Köst → tur,onem,dunya
+- 1416-01-01 · Babadağı ve çevresinin Osmanlı'ya geçişi — Mircea ile oğlu Mihail yenildi → tur,onem,dunya
+- 1419-01-01 · Silistre ve Dobruca'nın geri alınışı — Mircea'nın ölümünden sonra → tur,onem,dunya
+- 1420-01-01 · Aşağı Tuna'nın kapanması — Yergöğü, Turnu ve Orşova'nın ilhakı → tur,onem,dunya
+
+### olaylar_ek11.js (15)
+- 1401-01-01 · Timur Bağdat'ı ikinci defa işgal etti — şehrin Abbâsî mahalleleri yıkıldı → onem,dunya
+- 1422-01-01 · Cüneyd Bey Aydın-ili'nin başına döndü — Aydınoğulları yeniden müstakil → tur,onem,dunya
+- 1426-01-01 · Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu → tur,onem,dunya
+- 1502-01-01 · Erzurum ve Van havzası Safevî'ye geçti — Akkoyunlu'nun kuzey kanadı çöktü → tur,onem,dunya
+- 1503-01-01 · Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti → tur,onem,dunya
+- 1504-12-06 · Şah İsmail Yezd'e girdi: Akkoyunlu artığının merkezî İran'daki son kalesi düştü → tur,onem,dunya
+- 1507-01-01 · Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü → tur,onem,dunya
+- 1508-01-01 · Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi → tur,onem,dunya
+- 1510-12-02 · Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı → dunya
+- 1581-04-16 · İberya Birliği: Portekiz tacı İspanya kralına geçti → tur,onem,dunya
+- 1640-12-01 · Restauração: Portekiz bağımsızlığını geri aldı → tur,onem,dunya
+- 1539-02-24 · Zebîd'in Osmanlı hâkimiyetine kesin girişi → tur,onem,dunya
+- 1662-01-30 · Tanca İngiltere'ye devredildi → onem,dunya
+- 1747-06-20 · Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı → tur,dunya
+- 1796-01-01 · Kaçar hânedanının İran'a hâkim oluşu → tur,dunya
+
+### olaylar_ek12.js (11)
+- 1560-03-12 · Haçlı donanması Cerbe'yi işgal etti — Turgut Paşa'nın üssü elden çıktı → onem,dunya
+- 1560-07-30 · Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi → tur,onem,dunya
+- 1527-09-23 · Ferdinand Budin'i ele geçirdi — Szapolyai başşehirden çıkarıldı → tur,onem,dunya
+- 1537-01-01 · Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne girdi → onem,dunya
+- 1913-08-31 · Gümülcine merkezli Garbî Trakya Hükûmet-i Muvakkatesi ilân edildi → tur,onem,dunya
+- 1814-02-04 · Danzig'de Rus-Prusya ikili iktidarı sona erdi — Napolyon'un serbest şehri Prusya'ya döndü → tur,onem,dunya
+- 1920-11-15 · Danzig Serbest Şehri Milletler Cemiyeti koruması altında kuruldu → tur,onem,dunya
+- 1815-05-03 · Viyana'da Krakov serbest, bağımsız ve tarafsız şehir ilân edildi → tur,onem,dunya
+- 1846-11-11 · Krakov Serbest Şehri kaldırıldı, Avusturya'ya katıldı → tur,onem,dunya
+- 1893-01-01 · Bornu, Râbih b. Zübeyr'in hâkimiyetine girdi → tur,onem,dunya
+- 1900-04-22 · Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü → onem,dunya
+
+### olaylar_ek13.js (21)
+- 1569-01-01 · Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin sonu → tur,onem,dunya
+- 1573-10-10 · Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı → tur,onem,dunya
+- 1471-08-24 · Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı → tur,onem,dunya
+- 1488-01-01 · Safi'nin Portekiz nüfuzuna girmesi → onem,dunya
+- 1505-01-01 · Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi → onem,dunya
+- 1513-09-03 · Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi → tur,onem,dunya
+- 1514-01-01 · Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii → onem,dunya
+- 1541-03-12 · Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor → tur,onem,dunya
+- 1541-10-01 · Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor → tur,onem,dunya
+- 1549-01-01 · Arzila'nın boşaltılması — Portekiz kuzey kıyısını daraltıyor → tur,onem,dunya
+- 1769-03-11 · Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü → tur,onem,dunya
+- 1417-01-01 · Bahreyn adalarının Cebrîler'in eline geçmesi → tur,dunya
+- 1521-01-01 · Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu → tur,dunya
+- 1559-01-01 · Osmanlı'nın Bahreyn seferi — körfezde Portekiz'e karşı son büyük hamle → tur,onem,dunya
+- 1602-01-01 · Safevîler'in Bahreyn'i Portekiz'den alması → tur,onem,dunya
+- 1717-01-01 · Ummanlılar'ın Bahreyn'i istilâsı — Safevî hâkimiyetinin sonu → tur,onem,dunya
+- 1753-01-01 · Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi → tur,onem,dunya
+- 1783-01-01 · Âl-i Halîfe'nin Bahreyn'i fethi — bugüne kadar süren hanedanın kuruluşu → tur,onem,dunya
+- 1861-05-21 · Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş → dunya
+- 1517-05-01 · Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu → tur,onem,dunya
+- 1362-03-01 · Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu → onem,dunya
+
+### olaylar_ek14.js (94)
+- 1538-01-01 · Mimar Sinan'ın hassa mimarbaşılığına atanması → tur,onem,dunya
+- 1543-06-01 · Şehzade Camii ve Külliyesi'nin inşaatının başlaması → tur,onem,dunya
+- 1548-08-01 · Şehzade Camii'nin ibadete açılması → tur,onem,dunya
+- 1447-01-01 · Üç Şerefeli Cami ve Külliyesi'nin tamamlanması → tur,onem,dunya
+- 1402-01-01 · Edirne Eski Cami'nin (Ulu Cami) inşaatının başlaması → tur,onem,dunya
+- 1554-01-01 · Kırkçeşme Suları isale hattının inşaatının başlaması → tur,onem,dunya
+- 1567-01-01 · Büyükçekmece Köprüsü'nün tamamlanması → tur,onem,dunya
+- 1577-01-01 · Drina (Sokullu Mehmed Paşa) Köprüsü'nün tamamlanması → tur,onem,dunya
+- 1566-01-01 · Mostar Köprüsü'nün tamamlanması → tur,onem,dunya
+- 1505-10-13 · Beyazıt Camii ve Külliyesi'nin tamamlanması → tur,onem,dunya
+- 1414-01-01 · Bursa Yeşil Cami Külliyesi'nin inşaatının başlaması → tur,onem,dunya
+- 1419-12-01 · Bursa Yeşil Cami Külliyesi'nin tamamlanması → tur,onem,dunya
+- 1592-01-01 · Dâvud Ağa'nın hassa mimarbaşı olması → tur,onem,dunya
+- 1598-04-09 · Yeni Cami'nin (Eminönü) temelinin atılması → tur,onem,dunya
+- 1598-09-01 · Dâvud Ağa'nın vebadan ölümü ve Yeni Cami inşaatının yarım kalması → tur,onem,dunya
+- 1603-12-20 · Yeni Cami inşaatının III. Mehmed'in ölümü üzerine durması → tur,onem,dunya
+- 1665-10-30 · Yeni Cami'nin tamamlanıp ibadete açılması → tur,onem,dunya
+- 1566-01-01 · Edirnekapı (Mihrimah Sultan) Camii'nin tamamlanması → tur,onem,dunya
+- 1547-01-01 · Üsküdar İskele (Mihrimah Sultan) Külliyesi'nin tamamlanması → tur,onem,dunya
+- 1577-01-01 · Azapkapı (Sokullu Mehmed Paşa) Camii'nin yaptırılması → tur,onem,dunya
+- 1573-01-01 · Piyâle Paşa Külliyesi'nin yaptırılması → tur,onem,dunya
+- 1580-01-01 · Zal Mahmud Paşa Camii'nin tamamlanması → tur,onem,dunya
+- 1561-01-01 · Rüstem Paşa Külliyesi'nin (Camii) yapımı → tur,onem,dunya
+- 1568-01-01 · Selimiye Camii'nin (Edirne) inşaatının başlaması → tur,onem,dunya
+- 1749-01-19 · Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması → tur,onem,dunya
+- 1755-12-05 · Nuruosmaniye Camii ve Külliyesi'nin açılışı → tur,onem,dunya
+- 1521-01-01 · Pîrî Reis'in Kitâb-ı Bahriye'nin ilk versiyonunu tamamlaması → tur,onem,dunya
+- 1526-01-01 · Pîrî Reis'in Kitâb-ı Bahriye'yi genişletip Kanûnî Sultan Süleyman'a sunması → tur,onem,dunya
+- 1557-01-01 · Seydi Ali Reis'in Mir'âtü'l-Memâlik'i İstanbul'da tamamlaması → tur,onem,dunya
+- 1534-01-01 · Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmetmesi → tur,onem,dunya
+- 1648-01-01 · Kâtib Çelebi'nin Cihannümâ'yı ilk kez yazmaya başlaması → tur,onem,dunya
+- 1654-12-01 · Kâtib Çelebi'nin Cihannümâ'yı yeni baştan yazmaya girişmesi → tur,onem,dunya
+- 1633-01-01 · Kâtib Çelebi'nin Keşfü'z-Zünûn için Halep'te araştırmaya başlaması → tur,onem,dunya
+- 1640-01-01 · Evliya Çelebi'nin ilk seyahatine çıkması — Seyahatnâme'nin başlangıcı → tur,onem,dunya
+- 1775-04-29 · Mühendishâne-i Bahrî-i Hümâyun'un açılışı → tur,onem,dunya
+- 1793-07-14 · Mühendishâne-i Berrî-i Hümâyun'un inşaatına başlanması → tur,onem,dunya
+- 1839-05-14 · Tıp okulunun Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne adını alması → tur,onem,dunya
+- 1900-08-31 · Dârülfünûn-ı Şâhâne'nin kalıcı kurum olarak yeniden kurulması → tur,onem,dunya
+- 1520-01-01 · Şeyh Hamdullah'ın vefatı ve hat ekolünün mirası → tur,onem,dunya
+- 1679-01-01 · Hâfız Osman'ın kendine özgü hat üslûbunu geliştirmesi → tur,onem,dunya
+- 1695-01-01 · Hâfız Osman'ın II. Mustafa'ya hat hocası tayin edilmesi → tur,onem,dunya
+- 1578-01-02 · III. Murad'ın Hünernâme'nin yazılması için ferman vermesi → tur,onem,dunya
+- 1588-01-01 · Hünernâme'nin II. cildinin tamamlanması → tur,onem,dunya
+- 1720-01-01 · Levnî'nin Surnâme-i Vehbî'yi resimlemesi → onem,dunya
+- 1732-01-01 · Levnî'nin vefatı → tur,onem,dunya
+- 1711-01-01 · Itrî'nin vefatı → tur,onem,dunya
+- 1778-01-09 · Hammâmîzâde İsmail Dede Efendi'nin doğumu → tur,onem,dunya
+- 1812-01-01 · Dede Efendi'nin musâhib-i şehriyârî olarak saraya alınması → tur,onem,dunya
+- 1846-11-29 · Dede Efendi'nin hac sırasında Mina'da vefatı → tur,onem,dunya
+- 1566-09-08 · Bâkî'nin Kanunî Sultan Süleyman için mersiye yazması → tur,onem,dunya
+- 1566-09-30 · Bâkî'nin II. Selim'e cülûsiye sunması → tur,onem,dunya
+- 1534-12-04 · Fuzûlî'nin Bağdat'ın fethi sonrası Kanuni'ye kaside sunması → tur,onem,dunya
+- 1535-01-01 · Fuzûlî'nin Leylâ vü Mecnûn mesnevisini tamamlaması → tur,onem,dunya
+- 1718-01-01 · Nedîm'in Lâle Devri şiirinin öncüsü olarak öne çıkması → tur,onem,dunya
+- 1730-10-28 · Nedîm'in Patrona Halil isyanı sırasında ölümü → tur,onem,dunya
+- 1635-01-01 · Nef'î'nin hicivleri yüzünden idam edilmesi → tur,onem,dunya
+- 1730-09-25 · Sâdâbâd'ın Patrona Halil isyanında tahrip edilmesi → tur,onem,dunya
+- 1453-06-01 · Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tahsis etmesi → tur,onem,dunya
+- 1504-01-01 · II. Bayezid'in Kırkpınar güreşçilerine büyük ödül vermesi → tur,onem,dunya
+- 1357-06-01 · Kırkpınar güreşlerinin rivayet edilen başlangıcı → tur,onem,dunya
+- 1330-06-01 · Orhan Gazi'nin Bursa fethi sonrası cirit oyunları için alan vakfetmesi → tur,onem,dunya
+- 1675-01-01 · IV. Mehmed'in Edirne'deki sünnet düğününde günlerce cirit oynatması → tur,onem,dunya
+- 1281-01-01 · Ahî Evran — ahîlik teşkilatının kurucu piri → tur,onem,dunya
+- 1326-01-01 · Şeyh Edebâli — ahîlik ile Osmanlı hânedanı arasındaki kuruluş bağı → tur,onem,dunya
+- 1362-06-01 · Yeniçeri Ocağı'nın kuruluşu → tur,onem,dunya
+- 1432-06-01 · Tımar sisteminin kurumsallaşması → tur,onem,dunya
+- 1421-06-01 · Devşirme sisteminin fiilen uygulanmaya başlaması → tur,onem,dunya
+- 1451-06-01 · Divan-ı Hümayun'un Fâtih kanunuyla kurumsallaşması → tur,onem,dunya
+- 1425-01-01 · Şeyhülislamlık makamının ihdası — Molla Fenârî'nin Bursa müftülüğü → tur,onem,dunya
+- 1515-01-01 · Tersâne-i Âmire'nin İstanbul'a (Kasımpaşa/Haliç) taşınması → tur,onem,dunya
+- 1794-06-01 · III. Selim'in bazı esnaf loncalarının tekelini kaldırmaya başlaması → tur,onem,dunya
+- 1650-01-01 · İltizam sisteminin askerî zümrenin tekeline girerek olgunlaşması → tur,onem,dunya
+- 1640-06-01 · Kapsamlı narh defterinin düzenlenmesi → tur,onem,dunya
+- 1502-06-01 · Bursa'nın İran ipeği ticaretinde zirveye ulaşması → tur,onem,dunya
+- 1599-06-01 · Ankara sofunun Avrupa'ya yoğun ihracı → tur,onem,dunya
+- 1548-06-01 · Venedik'in Halep'te konsolosluk açması → tur,onem,dunya
+- 1775-06-01 · Esham sisteminin ihdası → tur,onem,dunya
+- 1863-06-01 · Bank-ı Osmanî'nin Bank-ı Osmanî-i Şâhâne (Osmanlı Bankası) olarak yeniden yapılanması → tur,onem,dunya
+- 1833-06-01 · Feshâne-i Âmire'nin kuruluşu → tur,onem,dunya
+- 1850-06-01 · 1850 Ticaret Kanunnâmesi'nin kabulü → tur,onem,dunya
+- 1554-06-01 · İstanbul'da ilk kahvehanelerin açılması → tur,onem,dunya
+- 1830-12-01 · Osmanlı'da ilk düzenli nüfus sayımının yapılması → tur,onem,dunya
+- 1864-06-01 · 1864 Vilâyet Nizamnâmesi ile muhtarlık ve ihtiyar meclisi sisteminin düzenlenmesi → tur,onem,dunya
+- 1860-01-16 · Muhâcirîn Komisyonu'nun kurulması → tur,onem,dunya
+- 1859-06-01 · Kırım Tatarları ve Kafkas halklarının Osmanlı topraklarına büyük göç dalgasının başlaması → tur,onem,dunya
+- 1864-07-01 · Büyük Çerkes Sürgünü'nün doruk noktası → tur,onem,dunya
+- 1869-09-01 · 1869 Maârif-i Umûmiyye Nizamnâmesi'nin yayımlanması → tur,onem,dunya
+- 1555-06-01 · Ebüssuûd Efendi'nin gedik (esnaf tekel hakkı) meselesini hukuken tetkik etmesi → tur,onem,dunya
+- 1727-06-01 · Gedik sisteminin tekel esaslı esnaf düzeni olarak resmen yerleşmesi → tur,onem,dunya
+- 1864-03-30 · Cem'iyyet-i Tedrîsiyye-i İslâmiyye'nin kurulması → tur,onem,dunya
+- 1873-06-28 · Darüşşafaka okulunun eğitime başlaması → tur,onem,dunya
+- 1896-02-02 · Dârülaceze'nin açılması → tur,onem,dunya
+- 1894-07-10 · 1894 İstanbul depremi → tur,onem,dunya
+- 1572-01-22 · Kınalızâde Ali Çelebi'nin vefatı — Osmanlı ahlâk felsefesinin klasik metni Ahlâk-ı Alâî'ni → tur,onem,dunya
+
+### olaylar_ek15.js (14)
+- 1400-01-01 · Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi → tur,onem,dunya
+- 1695-01-01 · Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleyman Solonc → tur,dunya
+- 1564-01-01 · İspanya'nın Bâdis (Peñón de Vélez) kayalığını geri alışı → tur,dunya
+- 1610-01-01 · el-Arâiş'in (Larache) İspanya'ya terki → tur,onem,dunya
+- 1614-01-01 · Mamûra'nın (Mehdiye) İspanyolların eline geçişi → tur,onem,dunya
+- 1673-01-01 · İspanya'nın el-Hüseyme (Alhucemas) adalarını işgali → onem,dunya
+- 1689-01-01 · Mevlây İsmâil'in el-Arâiş'i İspanyollardan geri alışı → tur,onem,dunya
+- 1857-07-11 · Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti → tur,dunya
+- 1899-12-29 · Aynı Sâlih'in (Tîdîkelt) Fransızlarca işgali → onem,dunya
+- 1901-02-21 · Tuvât · Gûrâre · Tîdîkelt vahalarının Fransa'ya ilhakı → tur,onem,dunya
+- 1903-11-11 · Beşşâr'da (Colomb-Béchar) Fransız karakolunun kurulması → tur,onem,dunya
+- 1792-09-22 · Fransa'da Birinci Cumhuriyet'in ilânı — krallığın sonu → tur,dunya
+- 1659-01-01 · Sa’dî hânedanının sonu — Fas’ta Alevî (Filâlî) devrinin başlaması → tur,dunya
+- 1337-09-09 · Serbedârîler Sebzevâr'ı aldı — Horasan'da İlhanlı sonrası ilk devlet → onem,dunya
+
+### olaylar_ek16.js (147)
+- 1297-01-01 · Karesi ve Hamîdoğulları beyliklerinin kuruluşu → onem,dunya
+- 1308-01-01 · Aydınoğulları Beyliği'nin kuruluşu — İzmir, Ayasuluk, Tire'nin alınışı → onem,dunya
+- 1308-01-01 · Anadolu Selçuklu Devleti'nin fiilen sona ermesi — İlhanlı'nın doğrudan idaresi → tur,onem,dunya
+- 1309-01-01 · Candaroğulları Beyliği'nin Kastamonu-Çankırı-Bartın-Safranbolu'ya yayılması → onem,dunya
+- 1315-01-01 · İstanköy'ün (Kos) Saint Jean şövalyelerince alınması → tur,onem,dunya
+- 1310-08-15 · Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi → tur,onem,dunya
+- 1335-01-01 · Eretna Beyliği'nin kuruluşu — İlhanlı sonrası Orta Anadolu → onem,dunya
+- 1340-01-01 · Celayirli Devleti'nin kuruluşu — İlhanlı sonrası Azerbaycan → dunya
+- 1422-01-01 · Erzincan ve Kemah Akkoyunlu'ya geçti — Karayülük Osman Bey → tur,dunya
+- 1450-01-01 · Cihan Şah Erzincan'ı aldı — Karakoyunlu hâkimiyeti → tur,dunya
+- 1457-01-01 · Uzun Hasan Erzincan'ı geri aldı — yeniden Akkoyunlu → tur,dunya
+- 1411-01-01 · Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi → tur,dunya
+- 1438-01-01 · Kazan Hanlığı'nın kuruluşu — Uluğ Muhammed Han'ın Altınorda'dan ayrılışı → onem,dunya
+- 1441-01-01 · Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan bağımsızlaşması → dunya
+- 1452-01-01 · Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan, Fars, Kirman) ele geçirmesi → tur,dunya
+- 1537-01-01 · Norveç'in Danimarka tacına bağlı bir eyalete indirgenmesi → tur,onem,dunya
+- 1797-10-17 · Campo Formio Antlaşması — Venedik'in Avusturya ve Fransa arasında paylaşılması → dunya
+- 1809-09-17 · Fredrikshamn (Hamina) Antlaşması — İsveç'in Finlandiya'yı Rusya'ya bırakışı → onem,dunya
+- 1814-01-14 · Kiel Antlaşması — Danimarka'nın Norveç'i İsveç'e bırakışı → onem,dunya
+- 1861-02-13 · Gaeta Kuşatması'nın sonu — İki Sicilya Krallığı'nın çöküşü → tur,dunya
+- 1861-03-17 · İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi → onem,dunya
+- 1905-06-07 · Norveç-İsveç Birliği'nin feshi — Storting'in tek taraflı bağımsızlık ilânı → tur,onem,dunya
+- 1516-01-23 · Alçak Ülkeler'in İspanya tacına bağlanması — Ferdinand'ın ölümü, Şarlken'in tahta çıkışı → tur,onem,dunya
+- 1772-08-05 · Polonya'nın Birinci Paylaşımı — Rusya ve Avusturya'ya toprak kaybı → dunya
+- 1793-01-23 · Polonya'nın İkinci Paylaşımı — Rusya ve Prusya'ya toprak kaybı → dunya
+- 1795-10-24 · Polonya'nın Üçüncü Paylaşımı — devletin tamamen ortadan kalkması → onem,dunya
+- 1507-05-24 · Şeybânî Han'ın Herat'ı ve Horasan'ı Timurlulardan alışı → tur,onem,dunya
+- 1527-01-01 · Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması → tur,onem,dunya
+- 1884-07-14 · Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı → onem,dunya
+- 1905-01-01 · İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi → tur,onem,dunya
+- 1489-02-26 · Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu → onem,dunya
+- 1503-04-02 · Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti → onem,dunya
+- 1797-05-12 · Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini feshetti → tur,onem,dunya
+- 1561-11-28 · Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Kurland ve Livonya Lehistan-Litvanya' → onem,dunya
+- 1581-07-26 · Feragat Bildirgesi (Plakkaat van Verlatinghe) — Hollanda İspanya'dan bağımsızlığını ilan e → onem,dunya
+- 1714-03-07 · Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi, İspanyol Hollandası ve Milano Avus → onem,dunya
+- 1721-09-10 · Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti → onem,dunya
+- 1815-06-09 · Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi → onem,dunya
+- 1509-05-17 · Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika seferi → tur,dunya
+- 1611-06-13 · Smolensk'in Lehistan-Litvanya'ya düşüşü — 20 aylık kuşatmanın sonu → tur,onem,dunya
+- 1617-02-27 · Stolbova Antlaşması — Rusya Baltık kıyısını (İngriya) İsveç'e kaybetti → onem,dunya
+- 1618-12-11 · Deulino Mütarekesi — Smolensk, Çernigov ve Novgorod-Seversk Lehistan'a bırakıldı → onem,dunya
+- 1654-01-18 · Pereyaslav Radası — Zaporojye Kazakları Rus çarına bağlılık yemini etti → onem,dunya
+- 1654-10-03 · Smolensk'in Rusya tarafından geri alınışı → tur,onem,dunya
+- 1667-02-09 · Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti → onem,dunya
+- 1703-05-27 · St. Petersburg'un kuruluşu — Rusya'nın Batı'ya açılan penceresi → onem,dunya
+- 1802-03-25 · Amiens Antlaşması — Menorka İspanya'ya geri verildi → onem,dunya
+- 1820-01-08 · Genel Deniz Antlaşması — Kavâsım ve öteki Körfez şeyhlikleri İngiltere'yle antlaşmaya bağl → onem,dunya
+- 1891-01-01 · Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti → dunya
+- 1492-01-02 · Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu → tur,onem,dunya
+- 1466-10-19 · İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı → onem,dunya
+- 1797-06-14 · Cenova Cumhuriyeti'nin sonu — Napolyon Ligurya Cumhuriyeti'ni kurdu → tur,onem,dunya
+- 1800-09-05 · Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu → tur,onem,dunya
+- 1810-03-04 · İmereti Krallığı'nın ilhakı — Kral II. Solomon tahttan indirildi → tur,onem,dunya
+- 1452-10-23 · Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi → tur,onem,dunya
+- 1453-10-19 · Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu → tur,onem,dunya
+- 1708-09-29 · Menorka'nın İngiltere-Hollanda kuvvetlerince ele geçirilişi → tur,onem,dunya
+- 1866-10-18 · Cizzah'ın (Jizzakh) Rusya'ya düşüşü — Buhara Emirliği'nin Sirderya hattındaki son kalesi → tur,onem,dunya
+- 1882-03-10 · Assab'ın İtalyan devlet mülkiyetine geçişi — İtalya'nın ilk sömürgesinin temeli → tur,onem,dunya
+- 1916-11-03 · İngiliz-Katar Antlaşması — Katar İngiliz himayesine girdi → dunya
+- 1335-05-01 · Habsburgların Karniyola ve Karintiya'ya (Ljubljana) el koyması → tur,onem,dunya
+- 1884-02-08 · Sinkat garnizonunun imhası — Sinkat Mehdî kuvvetlerine geçti → tur,dunya
+- 1891-03-03 · Grenfell kolunun Sinkat'tan geçişi — Sinkat Mehdî idaresinden çıkıp İngiliz-Mısır idaresin → tur,dunya
+- 1884-02-09 · Sevâkin'de sıkıyönetim — şehir İngiliz komutasına geçti → dunya
+- 1884-02-20 · Tokar'ın Mehdî kuvvetlerine teslimi → tur,dunya
+- 1891-02-19 · Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi → dunya
+- 1313-01-01 · Livonya şövalyeleri Dünaburg kalesini Litvanya'dan geri aldı → tur,onem,dunya
+- 1330-01-01 · Livonya Tarikatı Riga şehrinin süzereni oldu → tur,onem,dunya
+- 1346-01-01 · Danimarka Kuzey Estonya'yı (Reval ve Narva) Livonya Tarikatı'na sattı → onem,dunya
+- 1581-01-01 · İsveç Narva'yı Rusya'dan aldı → tur,onem,dunya
+- 1581-01-01 · Hür şehir Riga Lehistan-Litvanya'ya bağlandı → tur,onem,dunya
+- 1514-08-01 · Smolensk Moskova'ya teslim oldu — III. Vasili şehre girdi → tur,onem,dunya
+- 1941-07-09 · Pskov Alman Ordusu'nca alındı — Rus topraklarının işgali başladı → tur,onem,dunya
+- 1944-01-20 · Novgorod Kızıl Ordu'ca kurtarıldı → tur,onem,dunya
+- 1941-10-03 · Orel Alman Ordusu'nca alındı → tur,onem,dunya
+- 1943-08-05 · Orel Kızıl Ordu'ca geri alındı — Kursk'tan sonra ilk Sovyet selamı → tur,onem,dunya
+- 1941-10-06 · Bryansk Alman Ordusu'nca alındı → tur,onem,dunya
+- 1941-07-16 · Smolensk Alman Ordusu'nca alındı → tur,onem,dunya
+- 1341-01-01 · Nijni Novgorod-Suzdal Büyük Knezliği kuruldu — Han, Konstantin Vasilyeviç'e yarlık verdi → onem,dunya
+- 1474-01-01 · III. İvan Rostov Knezliği'nin kalan yarısını satın aldı → tur,onem,dunya
+- 1485-09-12 · Tver Büyük Knezliği Moskova'ya katıldı — III. İvan şehri aldı → tur,onem,dunya
+- 1941-07-28 · Reichskommissariat Ostland kuruldu — Baltık ülkeleri ve Belarus Alman sivil idaresine gird → onem,dunya
+- 1918-11-18 · Letonya Halk Konseyi bağımsızlığını ilan etti → onem,dunya
+- 1919-01-05 · Kızıl Ordu Vilnius'a girdi — Litvanya hükûmeti şehri boşalttı → tur,onem,dunya
+- 1939-09-19 · Kızıl Ordu Vilnius'u işgal etti → tur,onem,dunya
+- 1944-07-03 · Kızıl Ordu Minsk'i geri aldı — Bagration Harekâtı → tur,onem,dunya
+- 1944-07-13 · Kızıl Ordu Vilnius'u aldı → tur,onem,dunya
+- 1944-07-26 · Kızıl Ordu Narva'yı aldı → tur,onem,dunya
+- 1944-09-22 · Kızıl Ordu Tallinn'e girdi — Alman kuvvetleri şehri terk etti → tur,onem,dunya
+- 1945-01-28 · Kızıl Ordu Memel'i (Klaipėda) aldı → tur,onem,dunya
+- 1944-07-23 · Pskov Kızıl Ordu'ca geri alındı → tur,onem,dunya
+- 1941-08-19 · Novgorod Alman Ordusu'nca alındı → tur,onem,dunya
+- 1943-09-17 · Bryansk Kızıl Ordu'ca geri alındı → tur,onem,dunya
+- 1941-08-17 · Narva Alman-Eston kuvvetlerince alındı → tur,onem,dunya
+- 1941-08-28 · Tallinn Alman 18. Ordusu'nca alındı → tur,onem,dunya
+- 1795-03-28 · Kurland ve Semigallia Dükalığı Rusya'ya katıldı — son dük Peter von Biron vazgeçti → tur,onem,dunya
+- 1945-05-08 · Kurland Cebi teslim oldu — Courland Army Group Govorov'a teslimiyet imzaladı → onem,dunya
+- 1943-09-25 · Smolensk Kızıl Ordu'ca kurtarıldı → tur,onem,dunya
+- 1919-04-21 · Polonya kuvvetleri Vilnius'u (Wilno) Sovyetlerden aldı → tur,onem,dunya
+- 1920-10-12 · Żeligowski Orta Litvanya'yı ilan etti — Vilnius Polonya destekli kukla devletin başkenti o → onem,dunya
+- 1922-03-24 · Orta Litvanya Polonya'ya katıldı — Vilnius Polonya'nın oldu → tur,onem,dunya
+- 1939-03-22 · Litvanya Alman ültimatomunu kabul etti — Memel Bölgesi Almanya'ya devredildi → tur,onem,dunya
+- 1939-10-28 · Litvanya Vilnius'u devraldı — Sovyet-Litvanya karşılıklı yardım paktının bedeli → tur,onem,dunya
+- 1283-01-01 · Moskova Knezliği'nin kuruluşu — I. Daniil → onem,dunya
+- 1325-01-01 · Metropolitlik makamı Moskova'ya taşındı → onem,dunya
+- 1500-07-14 · Vedroşa Muharebesi — Moskova, Litvanya ordusunu yendi; Bryansk ve Seversk toprakları Mosko → onem,dunya
+- 1307-01-01 · Polotsk Knezliği Litvanya Büyük Dükalığı'na geçti → tur,onem,dunya
+- 1392-01-01 · I. Vasili Nijni Novgorod-Suzdal Knezliği'ni Moskova'ya kattı → tur,onem,dunya
+- 1404-01-01 · Vytautas Smolensk'i aldı — Smolensk Knezliği Litvanya'ya katıldı → tur,onem,dunya
+- 1941-07-11 · Vitebsk Alman Ordusu'nca alındı → tur,onem,dunya
+- 1944-06-26 · Vitebsk Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı → tur,onem,dunya
+- 1941-07-26 · Mogilev Alman Ordusu'nca alındı → tur,onem,dunya
+- 1944-06-28 · Mogilev Kızıl Ordu'ca kurtarıldı — Bagration Harekâtı → tur,onem,dunya
+- 1558-05-01 · Narva Ruslarca alındı — Livonya Savaşı'nın ilk büyük şehri → tur,onem,dunya
+- 1558-07-01 · Dorpat (Tartu) Ruslarca alındı → tur,onem,dunya
+- 1561-06-01 · Reval (Tallinn) İsveç'in himayesine girdi — Kuzey Estonya İsveç'e geçti → tur,onem,dunya
+- 1941-08-19 · Gomel Alman Ordusu'nca alındı → tur,onem,dunya
+- 1943-11-26 · Gomel Kızıl Ordu'ca kurtarıldı → tur,onem,dunya
+- 1941-11-03 · Kursk Alman Ordusu'nca alındı → tur,onem,dunya
+- 1943-02-08 · Kursk Kızıl Ordu'ca kurtarıldı → tur,onem,dunya
+- 1301-01-01 · Moskova Knezi Daniil Kolomna ve Serpuhov'u Moskova'ya kattı → tur,onem,dunya
+- 1304-01-01 · Mozhaysk Smolensk Knezliği'nden alınarak Moskova'ya katıldı → tur,onem,dunya
+- 1944-07-27 · Rēzekne Kızıl Ordu'ca alındı — Letonya'nın doğusu kurtuldu → tur,onem,dunya
+- 1944-08-01 · Kaunas Kızıl Ordu'ca alındı — Litvanya'nın geçici başkenti Alman idaresinden çıktı → tur,onem,dunya
+- 1944-07-27 · Daugavpils Kızıl Ordu'ca kurtarıldı → tur,onem,dunya
+- 1944-08-25 · Tartu Kızıl Ordu'ca alındı — Tartu harekâtı → tur,onem,dunya
+- 1348-01-01 · Bolotovo Antlaşması — Novgorod Pskov'un bağımsızlığını tanıdı → onem,dunya
+- 1702-10-22 · Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaşı'nın ilk Neva kalesi → tur,onem,dunya
+- 1944-07-27 · Šiauliai Kızıl Ordu'ca alındı — Šiauliai harekâtı → tur,onem,dunya
+- 1915-05-08 · Libau (Liepāja) Alman kuvvetlerince alındı — Kurland işgali başladı → tur,onem,dunya
+- 1915-08-01 · Mitau (Jelgava) Alman kuvvetlerince alındı → tur,onem,dunya
+- 1915-08-18 · Kovno (Kaunas) kalesi Almanlarca alındı — Litvanya işgal altına girdi → tur,onem,dunya
+- 1915-09-18 · Vilna (Vilnius) Alman kuvvetlerince alındı → tur,onem,dunya
+- 1917-09-03 · Riga Alman 8. Ordusu'nca alındı → tur,onem,dunya
+- 1611-07-16 · Novgorod İsveç ordusunca alındı — Sıkıntılar Dönemi'nde Kuzeybatı Rusya İsveç denetimine g → tur,onem,dunya
+- 1617-02-27 · Stolbovo Antlaşması — Rusya İngermanland'ı İsveç'e bıraktı, Novgorod geri verildi → onem,dunya
+- 1625-01-01 · İsveç Tartu'yu (Dorpat) Lehistan'dan aldı — Livonya Seferi'nin ikinci aşaması → tur,onem,dunya
+- 1941-06-23 · Almanya Grodno'yu isgal etti → tur,onem,dunya
+- 1941-06-23 · Almanya Brest-Litovsk'u isgal etti → tur,onem,dunya
+- 1944-07-16 · Kizil Ordu Grodno'yu Alman isgalinden kurtardi → tur,onem,dunya
+- 1944-07-28 · Kizil Ordu Brest-Litovsk'u Alman isgalinden kurtardi → tur,onem,dunya
+- 1870-09-28 · Strazburg'un teslimi: Alman birlikleri şehri işgal etti → tur,dunya
+- 1870-10-29 · Metz'in teslimi: Bazaine ordusu silah bıraktı, Alman birlikleri kaleyi aldı → tur,dunya
+- 1922-02-28 · İngiltere Mısır üzerindeki himayeyi kaldırıp Mısır'ı bağımsız ilân etti → tur,dunya
+- 1961-06-19 · Kuveyt İngiliz himayesinden çıkıp tam bağımsızlığa kavuştu → tur,dunya
+- 1971-09-03 · Katar İngiltere ile antlaşmaların sona ermesiyle bağımsızlığını ilân etti → tur,dunya
+- 1955-12-01 · Umman Sultanı'nın kuvvetleri iç Umman'ın başlıca merkezlerine girdi; İbâzî imamlığı fiilen → tur,dunya
+
+### olaylar_ek17.js (14)
+- 1552-01-01 · Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, T → onem,dunya
+- 1557-01-01 · Habeş Eyaleti'nin kuruluşu — Kızıldeniz kıyısının Osmanlı idaresine girişi → onem,dunya
+- 1369-01-01 · Istıranca kaleleri: Pınarhisar, Kırkkilise (Kırklareli) ve Vize'nin fethi → tur,onem,dunya
+- 1534-06-01 · Kars çevresinin bütünleşmesi: Şüregel, Arpaçay ve Digor'un Osmanlı idaresine girmesi → tur,onem,dunya
+- 1686-08-30 · Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası → onem,dunya
+- 1738-08-01 · Semendire'nin Habsburg (Macaristan Krallığı tacı) elinden geri alınışı — 1737-39 Savaşı → onem,dunya
+- 1738-08-01 · Morava vadisinin Osmanlı idaresine dönüşü — Yagodina, Kragujevac ve Çaçak → tur,onem,dunya
+- 1800-03-21 · Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları → onem,dunya
+- 1807-07-07 · Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus hakları Fransa'ya devredildi → onem,dunya
+- 1815-11-05 · Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen → onem,dunya
+- 1688-01-17 · Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avusturya'ya teslimi → tur,onem,dunya
+- 1485-01-01 · Taşkent Moğulistan hanı Yûnus Han'ın idaresine geçti → tur,onem,dunya
+- 1504-01-01 · Bâbür Fergana'yı Özbekler'e bırakıp Kâbil'e gitti → tur,onem,dunya
+- 1538-10-01 · Şirvanşahlar'ın sonu: Elkas Mirza Şâhruh'u esir aldı, Şirvan Safevî vilâyeti oldu → tur,onem,dunya
+
+### olaylar_ek2.js (65)
+- 1327-01-01 · İlk Osmanlı akçesinin basılması → tur,onem,dunya
+- 1478-06-01 · İlk Osmanlı altını (sultanî) basıldı → tur,onem,dunya
+- 1536-02-18 · Fransa'ya ilk kapsamlı kapitülasyonlar → tur,onem,dunya
+- 1585-01-01 · Büyük tağşiş — akçe krizi → tur,onem,dunya
+- 1740-05-30 · Kapitülasyonlar sürekli hâle getirildi → tur,onem,dunya
+- 1838-08-16 · Balta Limanı Ticaret Antlaşması → tur,onem,dunya
+- 1844-01-01 · Tashîh-i sikke: Mecidiye düzeni → tur,onem,dunya
+- 1854-08-24 · İlk dış borç sözleşmesi → tur,onem,dunya
+- 1884-01-01 · Reji İdaresi kuruldu (tütün tekeli) → tur,onem,dunya
+- 1399-06-01 · Bursa Ulu Camii tamamlandı → tur,onem,dunya
+- 1470-12-01 · Fatih Külliyesi açıldı → tur,onem,dunya
+- 1478-09-01 · Topkapı Sarayı'na taşınıldı → tur,onem,dunya
+- 1557-10-16 · Süleymaniye Külliyesi açıldı → tur,onem,dunya
+- 1575-03-01 · Selimiye Camii tamamlandı → tur,onem,dunya
+- 1616-06-09 · Sultan Ahmed Camii açıldı → tur,onem,dunya
+- 1727-07-05 · İlk Osmanlı matbaası kuruldu → tur,onem,dunya
+- 1773-01-01 · Mühendishâne-i Bahrî-i Hümâyun kuruldu → tur,onem,dunya
+- 1831-11-01 · İlk resmî gazete: Takvîm-i Vekāyi → tur,onem,dunya
+- 1851-01-01 · Şirket-i Hayriyye kuruldu → tur,onem,dunya
+- 1863-01-13 · Dârülfünun'da ilk dersler → tur,onem,dunya
+- 1868-09-01 · Galatasaray Mekteb-i Sultânîsi açıldı → tur,onem,dunya
+- 1362-09-01 · Rumeli Beylerbeyliği kuruldu → tur,onem,dunya
+- 1393-01-01 · Anadolu Beylerbeyliği kuruldu → tur,onem,dunya
+- 1477-01-01 · Fâtih Kanunnâmesi → tur,onem,dunya
+- 1858-06-06 · Arazi Kanunnâmesi → tur,onem,dunya
+- 1869-04-01 · Mecelle'nin ilk kitabı yürürlükte → tur,onem,dunya
+- 1864-11-08 · Vilâyet Nizamnâmesi → tur,onem,dunya
+- 1472-01-01 · Ali Kuşçu İstanbul'da → tur,onem,dunya
+- 1554-01-01 · Pîrî Reis'in idamı → tur,onem,dunya
+- 1577-01-01 · İstanbul Rasathanesi kuruldu → tur,onem,dunya
+- 1611-03-25 · Evliya Çelebi doğdu → tur,onem,dunya
+- 1657-10-06 · Kâtib Çelebi'nin ölümü → tur,onem,dunya
+- 1538-06-13 · Hint Okyanusu seferi: Diu kuşatması → tur,onem,dunya
+- 1553-12-07 · Seydi Ali Reis'in Hint yolculuğu → tur,onem,dunya
+- 1565-05-18 · Malta Kuşatması → onem,dunya
+- 1912-10-26 · Edirne kuşatması başladı → onem,dunya
+- 1390-01-15 · Yıldırım Bayezid – Despina Hatun evliliği → tur,onem,dunya
+- 1534-01-01 · Kanunî – Hürrem Sultan nikâhı → tur,onem,dunya
+- 1456-06-01 · Boğdan'ın haraca bağlanışı → onem,dunya
+- 1459-03-07 · Dubrovnik (Raguza) haracı → onem,dunya
+- 1462-06-01 · Eflak seferi: Kazıklı Voyvoda → tur,onem,dunya
+- 1720-10-08 · Paris'e büyükelçi: Yirmisekiz Mehmed Çelebi → tur,onem,dunya
+- 1793-06-01 · Londra'da ilk daimî elçilik → tur,onem,dunya
+- 1867-06-21 · Abdülaziz'in Avrupa seyahati → tur,onem,dunya
+- 1898-10-18 · Kayzer II. Wilhelm'in İstanbul ve Kudüs ziyareti → tur,onem,dunya
+- 1453-06-01 · Çandarlı Halil Paşa'nın azli ve idamı → tur,onem,dunya
+- 1808-11-16 · Alemdar Mustafa Paşa'nın ölümü → tur,onem,dunya
+- 1648-08-18 · Sultan İbrahim'in katli → tur,onem,dunya
+- 1703-08-22 · Edirne Vakası — II. Mustafa'nın hal'i → tur,onem,dunya
+- 1876-05-30 · Abdülaziz'in hal'i → tur,onem,dunya
+- 1878-05-20 · Çırağan Baskını (Ali Suâvi olayı) → tur,onem,dunya
+- 1909-04-13 · 31 Mart Vakası → onem,dunya
+- 1913-01-23 · Bâb-ı Âli Baskını → tur,onem,dunya
+- 1855-09-14 · Telgraf hattı İstanbul'da → tur,onem,dunya
+- 1908-09-01 · Hicaz Demiryolu Medine'de → tur,onem,dunya
+- 1578-08-09 · Çıldır Zaferi — doğu savaşı başladı → onem,dunya
+- 1583-05-09 · Meşaleler Savaşı — Şirvan kesin olarak Osmanlı'da → onem,dunya
+- 1585-09-25 · Tebriz'in fethi → tur,onem,dunya
+- 1590-03-21 · Ferhad Paşa Antlaşması — doğuda en geniş sınırlar → onem,dunya
+- 1603-10-21 · Osmanlı-Safevî Savaşı (1603-1612) başladı — Şah Abbas'ın karşı taarruzu, Tebriz'in kaybı → tur,onem,dunya
+- 1612-11-20 · Nasuh Paşa Antlaşması → onem,dunya
+- 1842-01-01 · Lübnan Emirliği'nin sonu — III. Beşîr Şihâb'ın görevden alınması → tur,onem,dunya
+- 1850-01-01 · Ba'lebek'te Harfûş ailesinin yerel hâkimiyetinin sonu → tur,onem,dunya
+- 1915-07-11 · Cebel-i Lübnan Mutasarrıflığı'nın kaldırılması → tur,onem,dunya
+- 1532-04-27 · Floransa Cumhuriyeti dükalığa dönüştü — Alessandro de' Medici → tur,onem,dunya
+
+### olaylar_ek21.js (2)
+- 1509-01-01 · Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı → tur,onem,dunya
+- 1537-01-01 · Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi → onem,dunya
+
+### olaylar_ek22.js (1)
+- 1794-01-01 · Zend hânedanının sonu — İran'da Kaçar hâkimiyeti → tur
+
+### olaylar_ek3.js (40)
+- 1402-08-01 · Şehzadeler arasında ülkenin bölünmesi → onem,dunya
+- 1403-03-09 · Yıldırım Bayezid'in esarette ölümü → onem,dunya
+- 1403-02-01 · Gelibolu Antlaşması: Misivri'ye kadar Karadeniz kıyısı Bizans'a bırakıldı → onem,dunya
+- 1403-06-15 · Gelibolu Antlaşması — Bizans'a tavizler → onem,dunya
+- 1403-09-01 · Ulubat çarpışması — İsa Çelebi'nin yenilgisi → onem,dunya
+- 1406-06-01 · İsa Çelebi'nin ortadan kalkması → onem,dunya
+- 1406-06-18 · Musa Çelebi Eflak'a geçti → onem,dunya
+- 1410-05-06 · Çelebi Mehmed Bursa ve Ankara'yı yeniden aldı — Anadolu payı Süleyman Çelebi'den çıktı → onem,dunya
+- 1410-06-15 · Kosmidion Savaşı → onem,dunya
+- 1411-02-17 · Emîr Süleyman'ın ölümü — Musa Rumeli'ye hâkim → onem,dunya
+- 1411-01-01 · Musa Çelebi'nin İstanbul kuşatması → onem,dunya
+- 1413-07-05 · Çamurlu Savaşı — birliğin yeniden kurulması → onem,dunya
+- 1683-01-01 · Viyana seferi kararı — Vasvár barışı yenilenmedi, hedef Yanıkkale'den Viyana'ya çevrildi → tur,onem,dunya
+- 1683-07-14 · II. Viyana Kuşatması başladı — ordu Viyana önlerinde → onem,dunya
+- 1683-10-09 · Parkan bozgunu ve Estergon'un kaybı → onem,dunya
+- 1683-12-25 · Merzifonlu Kara Mustafa Paşa'nın idamı → tur,onem,dunya
+- 1684-03-05 · Kutsal İttifak kuruldu → tur,onem,dunya
+- 1684-07-14 · Birinci Budin savunması → onem,dunya
+- 1685-08-19 · Uyvar'ın kaybı → tur,onem,dunya
+- 1685-10-15 · Tököli'nin Varad'da tutuklanması — Orta Macar Krallığı dağıldı, Yukarı Macaristan kaleleri → tur,onem,dunya
+- 1686-09-02 · Budin'in kaybı — 145 yıllık Macar başkenti → tur,onem,dunya
+- 1687-08-12 · İkinci Mohaç (Harşan) bozgunu — Erdel'in ve Mohaç'ın kaybı → onem,dunya
+- 1687-09-26 · Atina'nın kaybı ve Parthenon patlaması → tur,onem,dunya
+- 1687-11-08 · IV. Mehmed'in hal'i ve II. Süleyman'ın cülûsu → tur,onem,dunya
+- 1688-09-06 · Belgrad'ın ilk kez kaybı — Kutsal İttifak kuşatması → tur,onem,dunya
+- 1689-09-24 · Niş'in kaybı — Habsburg (Macaristan Krallığı tacı) ilerleyişi, en kritik yıl → tur,onem,dunya
+- 1689-08-01 · Baden Pasarofça önünde Morava'yı geçti — Pasarofça Avusturya'ya düştü → tur,onem,dunya
+- 1689-10-25 · Orsova ve Fethülislâm Avusturya garnizonuna alındı → tur,onem,dunya
+- 1690-09-27 · Niş yeniden Osmanlı'da → tur,onem,dunya
+- 1690-10-01 · Semendire'de Avusturya birlikleri teslim oldu → tur,onem,dunya
+- 1690-10-08 · Belgrad geri alındı → tur,onem,dunya
+- 1691-08-19 · Salankamen bozgunu — Fâzıl Mustafa Paşa şehit → onem,dunya
+- 1694-09-21 · Sakız adasının kaybı → tur,onem,dunya
+- 1695-02-11 · II. Mustafa'nın sefere bizzat çıkma kararı → onem,dunya
+- 1695-02-22 · Sakız'ın geri alınışı → tur,onem,dunya
+- 1695-09-22 · Lugoş zaferi — II. Mustafa'nın birinci Avusturya seferi → onem,dunya
+- 1696-07-19 · Azak Kalesi'nin kaybı → tur,onem,dunya
+- 1696-08-27 · Ulaş (Olaşin) zaferi → onem,dunya
+- 1697-09-11 · Zenta bozgunu — savaşın kaderi belirlendi → onem,dunya
+- 1698-11-13 · Karlofça barış görüşmeleri başladı → tur,onem,dunya
+
+### olaylar_ek4.js (70)
+- 1801-03-08 · Kavalalı Mehmed Ali Mısır'a çıktı → tur,onem,dunya
+- 1803-05-01 · Arnavut askerleri Mısır valisini devirdi → onem,dunya
+- 1805-05 · Kahire ulemâsı Mehmed Ali'yi vali ilan etti → onem,dunya
+- 1805-07-03 · Bâbıâli oldubittiyi kabul etti: Mısır valiliği fermanı → tur,onem,dunya
+- 1807-03-17 · İngiliz Fraser seferi İskenderiye'ye çıktı → onem,dunya
+- 1807-04-21 · Reşid (Rosetta) bozgunu — İngilizler püskürtüldü → onem,dunya
+- 1811-03-01 · Kal'a Vakası: Kölemen beylerinin tasfiyesi → tur,onem,dunya
+- 1811-09-03 · Hicaz seferi başladı — ordu Süveyş'ten denizden ve hac yolundan karadan Yenbu'ya yürüdü → tur,onem,dunya
+- 1811-10-01 · Yenbu teslim alındı — Hicaz seferinin ilk kıyı üssü → tur,onem,dunya
+- 1812-01-01 · Safra-Cedîde boğazında ilk bozgun → onem,dunya
+- 1812-12-03 · Medine geri alındı → tur,onem,dunya
+- 1813-01-23 · Mekke geri alındı — hac yolu açıldı → tur,onem,dunya
+- 1813-05-02 · Tâif'in geri alınması — Hicaz seferinin tamamlanışı → tur,onem,dunya
+- 1813-08-28 · Mehmed Ali bizzat Hicaz'a geçti → tur,onem,dunya
+- 1815-01-20 · Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı → onem,dunya
+- 1816-09-01 · İbrâhim Paşa Necid seferine çıktı → tur,onem,dunya
+- 1818-09-09 · Dir'iye düştü — ilk Suûdî Devleti sona erdi → tur,onem,dunya
+- 1820-07-20 · Sudan seferi başladı → tur,onem,dunya
+- 1821-01-04 · Dongola alındı — Kölemen bakiyesi dağıtıldı → tur,onem,dunya
+- 1821-06-14 · Sennâr (Fûnc) Sultanlığı teslim oldu → tur,onem,dunya
+- 1821-08-19 · Kordofan ele geçirildi → tur,onem,dunya
+- 1822-10-24 · Şendî'de İsmâil Paşa'nın öldürülmesi → onem,dunya
+- 1822-06-28 · Girit'e Mısır kuvvetleri çıktı → tur,onem,dunya
+- 1824-07-19 · II. Mahmud Mora için Mehmed Ali'den yardım istedi → tur,onem,dunya
+- 1825-02-24 · İbrâhim Paşa Modon'a çıktı → tur,onem,dunya
+- 1825-06-22 · Tripoliçe geri alındı — Mora'nın merkezi düştü → tur,onem,dunya
+- 1826-04-22 · Missolonghi (Mesolongi) düştü → onem,dunya
+- 1827-06-05 · Atina Akropolü teslim alındı → tur,onem,dunya
+- 1827-07-06 · Londra Antlaşması: üç devlet Yunan özerkliğini dayattı → tur,onem,dunya
+- 1828-08-06 · İskenderiye Sözleşmesi: Mısır Mora'dan çekilme kararı → onem,dunya
+- 1828-10-05 · Mısır kuvvetleri Mora'yı boşalttı → tur,onem,dunya
+- 1830-11-01 · Girit'in idaresi Mehmed Ali'ye bırakıldı → tur,onem,dunya
+- 1831-10-31 · İbrâhim Paşa Suriye'ye girdi — birinci kriz başladı → onem,dunya
+- 1831-11-26 · Akkâ kuşatması başladı → onem,dunya
+- 1832-05-27 · Akkâ düştü → tur,onem,dunya
+- 1832-06-16 · Şam teslim oldu → tur,onem,dunya
+- 1832-07-15 · Halep ele geçirildi → tur,onem,dunya
+- 1832-07-08 · Humus Muharebesi → onem,dunya
+- 1832-07-29 · Belen (Beylan) Geçidi bozgunu — Çukurova açıldı → onem,dunya
+- 1832-09-13 · Gülek Boğazı düştü — İçil sahili (Mersin, Silifke) Mısır denetimine girdi → onem,dunya
+- 1833-01-01 · Maraş Mısır işgaline uğradı → tur,onem,dunya
+- 1833-01-01 · Karahisâr-ı Sâhib (Afyon) Mısır işgaline uğradı — Konya–Kütahya yolu → tur,onem,dunya
+- 1832-09-13 · Konya Ereğlisi Mısır işgalinde — Konya–Adana yolunun Toros ağzı → tur,onem,dunya
+- 1834-08-01 · Maraş'ın Mısır idaresinin sonu (yaklaşık) → tur,onem,dunya
+- 1833-06-15 · Mısır ordusunun Anadolu'dan çekilişi Gülek'ten tamamlandı → tur,onem,dunya
+- 1832-11-21 · Mısır ordusu Konya'ya girdi → onem,dunya
+- 1832-12-21 · Konya Meydan Muharebesi: sadrazam esir düştü → onem,dunya
+- 1833-02-20 · Rus donanması Büyükdere önlerinde → tur,onem,dunya
+- 1833-02-02 · Mısır ordusu Kütahya'ya ulaştı → onem,dunya
+- 1833-05-06 · Kütahya Sözleşmesi — Suriye ve Adana Kavalalı'ya → onem,dunya
+- 1833-07-08 · Hünkâr İskelesi Antlaşması → onem,dunya
+- 1834-05-19 · Filistin-Nablus isyanı Mısır idaresine karşı → onem,dunya
+- 1837-10-15 · Cebel-i Dürûz ayaklanması → onem,dunya
+- 1838-05-25 · Mehmed Ali bağımsızlık niyetini bildirdi → tur,onem,dunya
+- 1839-04-21 · Osmanlı ordusu Fırat'ı geçti → tur,onem,dunya
+- 1839-06-24 · Nizip Muharebesi — Osmanlı ordusu dağıldı → onem,dunya
+- 1839-06-28 · II. Mahmud'un ölümü → onem,dunya
+- 1839-07-01 · Abdülmecid'in cülûsu ve II. Mahmud'un cenazesi → onem,dunya
+- 1839-07-14 · Donanmanın İskenderiye'ye teslimi → tur,onem,dunya
+- 1839-07-27 · Büyük devletlerin ortak notası → tur,onem,dunya
+- 1840-07-15 · Londra Antlaşması: dört devlet Osmanlı'nın yanında → onem,dunya
+- 1840-09-10 · Beyrut bombardımanı ve müttefik çıkarması → onem,dunya
+- 1840-10-10 · Beyrut ve sahil şehirleri elden çıktı → tur,onem,dunya
+- 1840-11-03 · Akkâ iki saatte düştü → onem,dunya
+- 1840-11-27 · İskenderiye Konvansiyonu → onem,dunya
+- 1841-02-25 · Mısır ordusu Suriye ve Çukurova'yı boşalttı → tur,onem,dunya
+- 1841-05-24 · Ferman: Mısır valiliği Kavalalı ailesine irsî bırakıldı → tur,onem,dunya
+- 1841-07-13 · Londra Boğazlar Sözleşmesi → onem,dunya
+- 1848-09-01 · İbrâhim Paşa fiilen Mısır valisi oldu → tur,onem,dunya
+- 1849-08-02 · Kavalalı Mehmed Ali Paşa'nın ölümü → tur,onem,dunya
+
+### olaylar_ek5.js (499)
+- 1381-04-01 · Timur Herat'ı aldı: Kert hânedanının sonu ve Horasan'ın Timurlu'ya geçişi → tur,dunya
+- 1386-01-01 · Timur'un 'üç yıllık sefer'i: Azerbaycan ve Kuzey İran'ın alınması → tur,dunya
+- 1393-01-01 · Muzafferî hânedanının sonu: Şah Mansûr'un Şîraz önünde yenilmesi → tur,dunya
+- 1671-01-01 · Cezayir'de dayı idaresinin başlaması → tur,onem,dunya
+- 1281-01-01 · Ertuğrul Gazi'nin ölümü ve Osman Bey'in beyliğe geçişi — Söğüt ve Domaniç mirası → tur,onem,dunya
+- 1285-01-01 · Kulacahisar baskını — Osman Bey'in ilk askerî harekâtı → onem,dunya
+- 1288-01-01 · Karacahisar'ın fethi — ilk şehir kazanımı ve Eskişehir'e hâkimiyet → tur,onem,dunya
+- 1299-01-01 · Bilecik ve Yarhisar'ın gece baskınıyla fethi → tur,onem,dunya
+- 1302-07-27 · Koyunhisar (Bapheus) Savaşı — Bizans ordusuna karşı ilk büyük zafer → onem,dunya
+- 1303-01-01 · Dimbos zaferi ve ardından Kite ile Ulubat'ın alınması → onem,dunya
+- 1304-01-01 · Sakarya seferi: Leblebicihisar, Lefke, Mekece ve Geyve'nin alınması → tur,onem,dunya
+- 1305-01-01 · Geyve Boğazı kalelerinin fethi: Karaçepüş, Karatigin ve Absu → tur,onem,dunya
+- 1323-09-01 · Adranos (Orhaneli) seferi — Osman Bey'in son seferi → onem,dunya
+- 1329-06-01 · Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması → onem,dunya
+- 1333-08-01 · Bizans'ın haraca bağlanması — İzmit kuşatması ve antlaşma → onem,dunya
+- 1345-01-01 · Karesi Beyliği'nin ilhakı: Balıkesir, Bergama, Biga, Edremit ve Erdek → tur,onem,dunya
+- 1393-08-29 · Timur Bağdat'ı zaptetti — Celâyirliler Anadolu'ya kaçtı → onem,dunya
+- 1399-11-01 · Timur'un restleşmesi: kaçakların iadesi reddedildi → tur,onem,dunya
+- 1400-08-01 · Timur Sivas'ı yerle bir etti → tur,onem,dunya
+- 1401-02-01 · Yıldırım Bayezid Erzincan ve Kemah'ı geri aldı → tur,onem,dunya
+- 1402-03-13 · Timur'un Tebriz'den gönderdiği ültimatom — dört şart → tur,onem,dunya
+- 1402-08-17 · Saruhanoğulları yeniden kuruldu — Manisa Osmanlı'dan çıktı → tur,onem,dunya
+- 1402-08-20 · Emîr Süleyman devlet hazinesiyle Rumeli'ye kaçtı → tur,onem,dunya
+- 1402-09-15 · Timur Anadolu beyliklerini yeniden kurdu — Türk birliği dağıldı → tur,onem,dunya
+- 1402-12-14 · Timur İzmir'i Saint Jean şövalyelerinden aldı → onem,dunya
+- 1402-12-20 · Îsâ Çelebi Bursa'yı ele geçirdi — Anadolu payı doğdu → tur,onem,dunya
+- 1403-03-15 · Timur'un Anadolu'dan çekilmesi → tur,onem,dunya
+- 1404-03-01 · Emîr Süleyman Anadolu'ya geçti: Bursa onun eline geçti → onem,dunya
+- 1405-01-01 · Yenişehir Ovası savaşı — Çelebi Mehmed Amasya'ya çekildi → onem,dunya
+- 1406-01-01 · Emîr Süleyman Ankara'yı Çelebi Mehmed'den aldı → tur,onem,dunya
+- 1408-06-01 · Çelebi Mehmed Sivas'ı Timurlu Mezid Bey'den geri aldı → tur,onem,dunya
+- 1410-02-13 · Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye girdi → onem,dunya
+- 1412-10-01 · İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli yenilgisi → onem,dunya
+- 1415-06-01 · İzmir'in Aydınoğlu Cüneyd Bey'den alınışı → tur,onem,dunya
+- 1416-01-01 · Torlak Kemal'in idamı — Saruhan kesin olarak Osmanlı'nın → onem,dunya
+- 1363-01-01 · Batı Trakya'ya iniş: Gümülcine'nin fethi → tur,onem,dunya
+- 1373-01-01 · Filibe'nin batısı: Tatarpazarcığı ve İhtiman'ın katılışı → tur,onem,dunya
+- 1374-01-01 · Struma ve Mesta vadileri: Köstendil, Petriç, Nevrokop ve Drama'nın katılışı → tur,onem,dunya
+- 1385-01-01 · Makedonya'nın içine ilerleyiş: Manastır ve Ohri'nin fethi → tur,onem,dunya
+- 1369-01-01 · Varna Dobruca Prensliği'ne geçti ve başşehir oldu → tur,onem,dunya
+- 1391-01-01 · Hamîd-ili Osmanlı'ya katıldı: Isparta, Burdur, Uluborlu, Eğirdir → tur,onem,dunya
+- 1393-09-01 · Karadeniz kıyısında Varna'nın alınışı → tur,onem,dunya
+- 1419-01-28 · Memlükler Kayseri'yi Dulkadırlı Nâsırüddin Muhammed'e verdi → tur,onem,dunya
+- 1435-01-01 · Karamanoğulları Kayseri'yi Dulkadırlılar'dan aldı → tur,onem,dunya
+- 1419-01-01 · Orta Anadolu'nun geri alınışı: Kayseri ve Kırşehir → tur,onem,dunya
+- 1423-01-01 · Tekeoğulları'nın kesin tasfiyesi: Antalya'nın alınışı → tur,onem,dunya
+- 1424-01-01 · Aynaroz (Athos) manastırlarının Osmanlı himayesine girişi → tur,onem,dunya
+- 1427-01-01 · Tâceddinoğulları Beyliği'nin ilhakı: Niksar → tur,onem,dunya
+- 1449-01-01 · Epir kıyısının katılışı: Arta ve Preveze → tur,onem,dunya
+- 1458-05-01 · Kuzey Mora'nın fethi: Balyabadra (Patras) → tur,onem,dunya
+- 1459-06-20 · Batı Karadeniz kıyısının alınışı: Amasra → tur,onem,dunya
+- 1479-01-01 · Taman yarımadasının katılışı → tur,onem,dunya
+- 1516-09-26 · Trablusşam ve Hama'nın Osmanlı idaresine girişi → tur,onem,dunya
+- 1516-12-28 · Şeria'nın doğusu: Amman'ın Osmanlı idaresine girişi → tur,onem,dunya
+- 1517-01-24 · Süveyş'in alınışı — Kızıldeniz'e açılan kapı → tur,onem,dunya
+- 1282-03-30 · Sicilya Akşamı — Anjou hânedanı Sicilya adasını kaybetti → onem,dunya
+- 1291-05-18 · Akkâ'nın Memlüklere düşüşü — Haçlıların Suriye kıyısından tasfiyesi: Sayda ve Beyrut → onem,dunya
+- 1381-10-01 · Eretna Beyliği'nin sona ermesi ve Kadı Burhâneddin Devleti'nin kuruluşu → tur,onem,dunya
+- 1398-07-15 · Kadı Burhâneddin Devleti'nin yıkılışı → tur,onem,dunya
+- 1409-01-01 · Artuklu hanedanının sonu: Mardin'in Karakoyunlulara teslimi → tur,onem,dunya
+- 1432-01-01 · Mardin Karakoyunlu muhafızından Akkoyunlu Karayülük Osman Bey'e geçti → tur,dunya
+- 1467-11-10 · Karakoyunlu Devleti'nin çöküşü: Cihan Şah'ın öldürülmesi → dunya
+- 1516-08-24 · Ramazanoğulları Beyliği'nin Osmanlı'ya bağlanması → tur,onem,dunya
+- 1324-01-01 · Osman Gazi'nin vefatı ve Orhan Bey'in beyliğe geçişi → tur,onem,dunya
+- 1331-03-03 · İznik'te ilk Osmanlı medresesinin kurulması → tur,onem,dunya
+- 1352-01-01 · Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu → onem,dunya
+- 1354-03-02 · Gelibolu'nun alınışı — Rumeli'de kalıcı köprübaşı → tur,onem,dunya
+- 1357-09-01 · Rumeli fâtihi Süleyman Paşa'nın ölümü → tur,onem,dunya
+- 1361-01-01 · Pençik Kanunu — Yeniçeri Ocağı'nın temelinin atılması → tur,onem,dunya
+- 1373-05-15 · Savcı Bey isyanı — şehzade ile Bizans veliahdinin ortak başkaldırısı → onem,dunya
+- 1385-09-18 · Savra Savaşı — Arnavutluk kapılarının açılması → onem,dunya
+- 1386-06-01 · Frenkyazısı Savaşı ve Konya kuşatması — ilk Karaman seferi → onem,dunya
+- 1390-06-01 · Gelibolu Tersanesi'nin kurulması — Osmanlı donanmasının doğuşu → tur,onem,dunya
+- 1393-06-01 · Amasya'nın Osmanlı topraklarına katılması → tur,onem,dunya
+- 1400-01-01 · Bursa'da Yıldırım Darüşşifası — ilk Osmanlı hastanesi → tur,onem,dunya
+- 1415-03-01 · Konya kuşatması ve Karamanoğulları ile antlaşma — Hamîd-ili, Said-ili, Beyşehir, Seydişehi → onem,dunya
+- 1417-01-01 · Avlonya, Berat ve Kanina'nın fethi → tur,onem,dunya
+- 1423-05-01 · Turahan Bey'in Mora seferi ve Hexamilion Suru'nun yıkılışı → onem,dunya
+- 1446-05-05 · Buçuktepe Vak'ası — ilk yeniçeri ayaklanması ve II. Murad'ın tahta dönüşü → onem,dunya
+- 1451-02-18 · II. Murad'ın vefatı ve II. Mehmed'in ikinci cülûsu → tur,onem,dunya
+- 1454-07-14 · Osmanlı-Kırım müşterek kuvvetlerinin ilk Kefe muhasarası → onem,dunya
+- 1455-01-01 · Kuzey Ege adalarının alınışı: Bozcaada, İmroz ve Taşoz → tur,onem,dunya
+- 1455-06-01 · Kosova'nın fethi: Priştine ve Yenipazar'ın alınması → tur,onem,dunya
+- 1456-01-01 · İpek (Peç) Osmanlı idaresine girdi — Dukakin sancağının merkezlerinden → tur,onem,dunya
+- 1456-01-24 · Enez'in ve Semadirek'in fethi — Batı Trakya kıyısının tamamlanması → tur,onem,dunya
+- 1456-07-22 · Belgrad kuşatmasının başarısızlığı → onem,dunya
+- 1462-09-17 · Midilli adasının fethi → tur,onem,dunya
+- 1463-07-28 · On altı yıllık Osmanlı-Venedik Savaşı'nın başlaması → onem,dunya
+- 1466-01-01 · Hersek'in büyük kısmının fethi: Trebinye ve Mostar → tur,onem,dunya
+- 1466-06-01 · II. Arnavutluk seferi — Fatih'in İskender Bey üzerine bizzat yürüyüşü → onem,dunya
+- 1468-01-17 · İskender Bey'in ölümü — Arnavut direnişinin sönmesi → tur,onem,dunya
+- 1475-01-10 · Boğdan'da Racova (Vaslui) bozgunu → onem,dunya
+- 1476-07-26 · Akdere (Valea Albă) zaferi — Boğdan seferi → onem,dunya
+- 1478-06-15 · Akçahisar'ın (Kruja) fethi ve Arnavutluk'un tamamlanması → tur,onem,dunya
+- 1480-07-28 · Rodos kuşatmasının başarısızlığı → onem,dunya
+- 1481-06-22 · Yenişehir Muharebesi — Cem Sultan'ın yenilgisi → onem,dunya
+- 1482-07-29 · Cem Sultan'ın Rodos'a sığınması → tur,onem,dunya
+- 1482-01-01 · Hersek'in ilhakı → tur,onem,dunya
+- 1485-01-01 · Osmanlı-Memlük Savaşı'nın başlaması (Çukurova cephesi) → onem,dunya
+- 1491-05-01 · Osmanlı-Memlük barışı — Tunus arabuluculuğu → onem,dunya
+- 1492-08-01 · İspanya'dan sürülen Sefarad Yahudilerinin Osmanlı'ya kabulü → tur,onem,dunya
+- 1495-02-25 · Cem Sultan'ın ölümü — on dört yıllık rehinenin sonu → tur,onem,dunya
+- 1499-08-28 · Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarısı → onem,dunya
+- 1502-03-01 · Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi → tur,onem,dunya
+- 1502-12-14 · Osmanlı-Venedik Savaşı'nın sona ermesi ve barış → onem,dunya
+- 1511-07-02 · Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş ayaklanması → onem,dunya
+- 1512-04-24 · II. Bayezid'in tahttan çekilişi ve Yavuz Sultan Selim'in cülûsu → tur,onem,dunya
+- 1515-05-19 · Kemah Kalesi'nin Safevîler'den fethi → tur,onem,dunya
+- 1515-09-19 · Âmid'in (Diyarbekir) fethi ve Diyarbekir beylerbeyiliğinin kuruluşu → tur,onem,dunya
+- 1516-05-01 · Koçhisar (Kızıltepe) Savaşı — Kara Han'ın yenilgisi → onem,dunya
+- 1516-03-26 · Harput'un fethi — Diyarbekir yolunun açılması → tur,onem,dunya
+- 1516-06-05 · Yavuz Sultan Selim'in Mısır seferi için İstanbul'dan hareketi → tur,onem,dunya
+- 1516-06-20 · Zebîd'in alınması: Osmanlı denizcilerinin Kızıldeniz'e ilk girişi → tur,onem,dunya
+- 1516-07-30 · Seferin hedefinin Memlükler ve Halep olarak resmen ilânı → tur,onem,dunya
+- 1516-08-02 · Aden kuşatmasının başarısızlığı: Portekiz'e karşı ilk Kızıldeniz teşebbüsü → onem,dunya
+- 1516-08-28 · Halep, Rakka ve Deyrizor'un Osmanlı hâkimiyetine girişi → tur,onem,dunya
+- 1516-08-29 · Halep Gökmeydan'da Abbâsî Halifesi III. Mütevekkil ile görüşme → tur,onem,dunya
+- 1516-09-27 · Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi → tur,onem,dunya
+- 1516-10-10 · Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi → tur,onem,dunya
+- 1516-12-21 · Gazze (Han Yûnus) Muharebesi: Canbirdi Gazâlî'nin yenilmesi → onem,dunya
+- 1516-12-29 · Yavuz Sultan Selim'in Kudüs'e gelişi → tur,onem,dunya
+- 1517-01-02 · Yavuz Sultan Selim'in Gazze'ye girişi ve Sina çölüne yönelmesi → onem,dunya
+- 1517-01-24 · Osmanlı birliklerinin Kahire'ye ilk girişi → tur,onem,dunya
+- 1517-01-27 · Tomanbay'ın Kahire baskını ve üç gün süren sokak savaşları → onem,dunya
+- 1517-02-08 · Canbirdi Gazâlî'nin Osmanlı hizmetine girmesi → tur,onem,dunya
+- 1517-02-15 · Yavuz Sultan Selim'in Kahire'ye merasimle girişi ve hutbenin okunması → tur,onem,dunya
+- 1517-03-30 · Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması → onem,dunya
+- 1517-04-13 · Tomanbay'ın Bâbüzüveyle'de idamı ve Memlük Devleti'nin sonu → onem,dunya
+- 1517-04-18 · Portekiz donanmasının Cidde'ye saldırısı ve Selman Reis'in savunması → onem,dunya
+- 1517-05-19 · İskenderiye'nin donanmayla teslim alınması — Mısır fethinin tamamlanması → tur,onem,dunya
+- 1517-07-06 · Hicaz'ın savaşsız katılışı: Mekke Şerifi'nin oğlu Ebû Nümeyy'in bîatı → tur,onem,dunya
+- 1517-07-12 · Hâdimü'l-Haremeyn unvanının kabulü ve Medine'de hutbe → tur,onem,dunya
+- 1517-08-28 · Selman Reis'in Osmanlı hizmetine girmesi ve Kızıldeniz siyasetinin devri → tur,onem,dunya
+- 1517-09-10 · Yavuz Sultan Selim'in Kahire'den ayrılışı ve Hayır Bey'in beylerbeyiliği → tur,onem,dunya
+- 1517-09-11 · Kahire Abbâsî hilâfetinin sona ermesi — 'devir töreni' rivayeti → tur,onem,dunya
+- 1513-04-01 · Yenişehir Muharebesi ve Şehzade Ahmed'in bertarafı → tur,onem,dunya
+- 1514-09-06 · Yavuz Sultan Selim'in Tebriz'e girişi → tur,onem,dunya
+- 1515-06-13 · Turnadağ Zaferi — Dulkadir Beyliği Osmanlı'ya tâbi oldu → onem,dunya
+- 1518-01-01 · Erzurum Osmanlı idaresine katıldı — Doğu Anadolu'da Safevî nüfuzu kırıldı → onem,dunya
+- 1519-03-01 · Celâlî isyanlarının başlangıcı: Bozoklu Şeyh Celâl ayaklanması → onem,dunya
+- 1519-09-01 · Cezayir'in Osmanlı Devleti'ne bağlanması → tur,onem,dunya
+- 1520-09-21 · Yavuz Sultan Selim'in Çorlu'da vefatı → tur,onem,dunya
+- 1524-01-01 · Mısır'da Hain Ahmed Paşa isyanı → onem,dunya
+- 1529-09-08 · Budin'in alınıp Zapolya'ya verilmesi → tur,onem,dunya
+- 1532-04-25 · Kanunî Alman seferine çıktı — Şarlken'e meydan okuma → onem,dunya
+- 1532-08-05 · Alman Seferi ve Güns (Kőszeg) kuşatması → onem,dunya
+- 1533-01-01 · İstanbul Antlaşması — Habsburglarla ilk barış → onem,dunya
+- 1534-09-22 · Barbaros'un Tunus'u fethi → tur,onem,dunya
+- 1535-07-21 · Tunus'un Şarlken'e kaybı → tur,onem,dunya
+- 1536-03-15 · Makbul İbrahim Paşa'nın idamı → tur,onem,dunya
+- 1537-03-12 · Klis Kalesi'nin fethi ve Dalmaçya sancağının kuruluşu → tur,onem,dunya
+- 1537-08-25 · Korfu kuşatması ve Venedik'le savaş → onem,dunya
+- 1538-09-01 · Boğdan Seferi ve Bucak (Bender) bölgesinin ilhakı → tur,onem,dunya
+- 1543-08-10 · Estergon ve İstolni Belgrad'ın fethi → tur,onem,dunya
+- 1547-06-18 · İstanbul Antlaşması — Habsburglarla beş yıllık barış → onem,dunya
+- 1553-02-01 · Osmanlı-Fransız ittifakı — Fransız donanmasının Osmanlı emrine girmesi → onem,dunya
+- 1553-10-05 · Şehzade Mustafa'nın Konya Ereğlisi'nde idamı → tur,onem,dunya
+- 1559-05-30 · Konya Şehzâdeler Muharebesi → onem,dunya
+- 1560-05-14 · Cerbe Deniz Zaferi → onem,dunya
+- 1562-07-23 · Şehzade Bayezid'in Kazvin'de idamı → tur,onem,dunya
+- 1567-04-01 · Yemen isyanı ve Koca Sinan Paşa'nın Yemen seferi → onem,dunya
+- 1567-10-01 · Açe Sultanlığı'yla savunma ittifakı ve Hint Okyanusu yardımı → tur,onem,dunya
+- 1570-09-09 · Lefkoşa'nın fethi → tur,onem,dunya
+- 1572-06-01 · İnebahtı sonrası donanmanın yeniden inşası → onem,dunya
+- 1573-03-07 · Venedik'le İstanbul Antlaşması — Kıbrıs'ın tanınması → onem,dunya
+- 1574-12-13 · II. Selim'in vefatı → tur,onem,dunya
+- 1574-12-22 · II. Selim'in ölümünün ilânı ve III. Murad'ın cülûsu → tur,onem,dunya
+- 1578-08-04 · Vâdisseyl (Kasrılkebir) Savaşı — Osmanlı desteğindeki Abdülmelik Portekiz ordusunu imha et → onem,dunya
+- 1592-06-19 · Bihaç'ın fethi → tur,onem,dunya
+- 1593-07-01 · Osmanlı-Avusturya 'Uzun Savaş'ının başlaması → onem,dunya
+- 1593-07-19 · Koca Sinan Paşa Avusturya seferine çıktı — Uzun Savaş'ın ilk seferi → onem,dunya
+- 1594-09-27 · Yanıkkale'nin (Győr) fethi → tur,onem,dunya
+- 1595-01-17 · III. Murad'ın vefatı → tur,onem,dunya
+- 1595-09-02 · Estergon'un Avusturya'ya kaybı → tur,onem,dunya
+- 1596-10-12 · Eğri Kalesi'nin fethi → tur,onem,dunya
+- 1598-03-29 · Yanıkkale'nin (Győr) kaybı → tur,onem,dunya
+- 1599-01-01 · Karayazıcı Abdülhalim ayaklanması → onem,dunya
+- 1601-09-10 · Tiryaki Hasan Paşa'nın Kanije savunması → onem,dunya
+- 1603-12-20 · III. Mehmed'in vefatı ve I. Ahmed'in cülûsu → tur,onem,dunya
+- 1605-10-03 · Estergon'un geri alınışı → tur,onem,dunya
+- 1607-10-24 · Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması → onem,dunya
+- 1608-08-09 · Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması → onem,dunya
+- 1612-07-06 · Hollanda'ya ilk ahidnâme verilmesi → onem,dunya
+- 1617-11-22 · I. Ahmed'in ölümü ve I. Mustafa'nın cülûsu — ekberiyet usulü → tur,onem,dunya
+- 1618-02-26 · I. Mustafa'nın hal'i ve Genç Osman'ın (II. Osman) cülûsu → tur,onem,dunya
+- 1618-09-26 · Serav Antlaşması — İran'la barışın yenilenmesi → onem,dunya
+- 1621-10-09 · Hotin Seferi ve Hotin Antlaşması → onem,dunya
+- 1623-09-10 · I. Mustafa'nın ikinci hal'i ve IV. Murad'ın cülûsu → tur,onem,dunya
+- 1623-11-28 · Bağdat'ın Safevîlere kaybı → tur,onem,dunya
+- 1628-09-22 · Abaza Mehmed Paşa'nın Erzurum merkezli isyanının bastırılması → onem,dunya
+- 1634-01-08 · İlk şeyhülislâm idamı: Ahîzâde Hüseyin Efendi → tur,onem,dunya
+- 1635-08-08 · IV. Murad'ın Revan'ı fethi → tur,onem,dunya
+- 1636-04-01 · Revan'ın Safevîlere kaybı → tur,onem,dunya
+- 1638-12-24 · Bağdat'ın geri fethi → tur,onem,dunya
+- 1640-02-09 · IV. Murad'ın ölümü ve Sultan İbrahim'in cülûsu → tur,onem,dunya
+- 1642-02-26 · Azak Kalesi'nin Kazaklardan geri alınışı → tur,onem,dunya
+- 1645-08-22 · Girit seferinin başlaması ve Hanya'nın fethi → tur,onem,dunya
+- 1648-03-31 · Klis'in Venedik'e kaybı → tur,onem,dunya
+- 1648-05-01 · Kandiye kuşatmasının başlaması → onem,dunya
+- 1651-09-02 · Büyük Vâlide Kösem Sultan'ın öldürülmesi → tur,onem,dunya
+- 1656-07-13 · Çanakkale bozgunu ve Bozcaada ile Limni'nin kaybı → onem,dunya
+- 1657-08-25 · Çanakkale zaferi ve Bozcaada'nın geri alınışı → onem,dunya
+- 1658-08-27 · Yanova'nın (Ineu) fethi ve Erdel seferi → tur,onem,dunya
+- 1659-02-16 · Abaza Hasan Paşa isyanının bastırılması → onem,dunya
+- 1660-08-27 · Varad'ın (Oradea) fethi → tur,onem,dunya
+- 1664-08-01 · Sen Gotar (St. Gotthard) Muharebesi → onem,dunya
+- 1664-08-09 · Vasvar Antlaşması → onem,dunya
+- 1672-06-04 · Lehistan seferi başladı — IV. Mehmed ve Fâzıl Ahmed Paşa ordunun başında → tur,onem,dunya
+- 1672-08-27 · Kamaniçe'nin fethi ve Podolya Eyaleti'nin kurulması → tur,onem,dunya
+- 1674-08-03 · Kara Mustafa Paşa Uman'ı Lehistan'dan teslim aldı → tur,onem,dunya
+- 1678-08-21 · Çehrin Kalesi'nin fethi → tur,onem,dunya
+- 1681-02-13 · Bahçesaray Antlaşması — Rusya ile ilk resmî barış → onem,dunya
+- 1682-09-16 · Tököli İmre'ye Orta Macar krallığı beratının verilmesi → tur,onem,dunya
+- 1684-08-06 · Ayamavra'nın (Lefkada) Venedik'e kaybı → tur,onem,dunya
+- 1685-08-11 · Koron'un Venedik'e kaybı → tur,onem,dunya
+- 1688-10-20 · Venedik'in Eğriboz kuşatmasının püskürtülmesi → onem,dunya
+- 1690-04-23 · Kanije Kalesi'nin Avusturya'ya kaybı → tur,onem,dunya
+- 1691-06-23 · II. Ahmed'in tahta çıkışı → tur,onem,dunya
+- 1700-07-14 · İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması → onem,dunya
+- 1704-01-01 · Bağdat'ta Kölemen (Memlûk) idaresinin başlaması → tur,onem,dunya
+- 1705-07-12 · Tunus'ta Hüseynî hanedanının kurulması → tur,onem,dunya
+- 1708-04-04 · Vahran (Oran) ve Mersalkebîr'in İspanyollardan alınışı → tur,onem,dunya
+- 1711-07-29 · Trablusgarp'ta Karamanlı hanedanının kurulması → tur,onem,dunya
+- 1711-07-21 · Prut Antlaşması — Azak ve Taygan'ın geri alınması → onem,dunya
+- 1713-06-24 · Rusya ile Edirne Antlaşması → onem,dunya
+- 1714-12-08 · Venedik'e savaş ilanı — Mora seferinin hazırlığı → onem,dunya
+- 1716-04-13 · Avusturya ile Venedik ittifak kurdu — 1716-1718 Osmanlı-Avusturya Savaşı'nın kapısı → onem,dunya
+- 1716-04-24 · Sadrazam Ali Paşa Avusturya seferine çıktı → onem,dunya
+- 1716-08-05 · Varadin (Petrovaradin) Bozgunu — Damad Ali Paşa'nın şehâdeti → onem,dunya
+- 1716-08-20 · Korfu Kuşatması'nın başarısızlıkla sonuçlanması → onem,dunya
+- 1716-10-13 · Temeşvar'ın (Timişvar) Avusturya'ya kaybı → tur,onem,dunya
+- 1552-07-27 · Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması — Versec, Haram, Kev → tur,onem,dunya
+- 1716-11-16 · Haram (Yeni Palanka) kalesinin Avusturya'ya teslimi — Banat'ın Tuna kıyısı elden çıktı → tur,onem,dunya
+- 1723-06-15 · Doğu seferi: Tiflis'in alınışı ve İran savaşının başlaması → onem,dunya
+- 1724-06-24 · İstanbul Mukāsemenâmesi — İran'ın Rusya ile paylaşılması → onem,dunya
+- 1725-07-28 · Tebriz'in zaptı — Azerbaycan'ın ele geçirilmesi → tur,onem,dunya
+- 1727-10-04 · Hemedan Antlaşması — Batı İran'ın Osmanlı'ya katılması → onem,dunya
+- 1732-01-08 · Ahmed Paşa Antlaşması — Batı İran'ın büyük bölümünün iadesi → onem,dunya
+- 1732-07-01 · Vahran'ın (Oran) yeniden İspanya'ya kaybı → tur,onem,dunya
+- 1733-05-01 · Humbaracı Ocağı'nın Avrupa usulünde ıslahı ve Humbarahâne'nin kurulması → tur,onem,dunya
+- 1736-09-01 · İstanbul Antlaşması — Güney Kafkasya'nın İran'a terki → onem,dunya
+- 1737-07-11 · Özi (Ochakov) Kalesi'nin Ruslara düşüşü → tur,onem,dunya
+- 1737-08-04 · Banaluka Zaferi — Bosna'nın kurtarılması → onem,dunya
+- 1739-12-12 · Özi Rus işgalinden döndü: 1739 barışıyla kale yıkıldıktan sonra teslim edildi → tur,onem,dunya
+- 1739-07-22 · Hisarcık (Grocka) Zaferi — Belgrad yolunun açılması → onem,dunya
+- 1739-10-03 · Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdur → onem,dunya
+- 1743-10-23 · Musul Savunması — Nâdir Şah'ın püskürtülmesi → onem,dunya
+- 1744-01-01 · Dir'iye İttifakı — Necid'de ilk Suûdî Emirliği'nin kuruluşu → tur,onem,dunya
+- 1746-09-04 · Kerden Antlaşması — Osmanlı-İran savaşlarının sonu → onem,dunya
+- 1754-12-13 · I. Mahmud'un ölümü ve III. Osman'ın cülûsu → tur,onem,dunya
+- 1757-10-30 · III. Osman'ın ölümü ve III. Mustafa'nın cülûsu → tur,onem,dunya
+- 1768-10-08 · Rusya'ya savaş ilanı — Balta olayı ve 1768-1774 savaşının başlaması → onem,dunya
+- 1769-09-20 · Hotin Kalesi'nin Ruslara kaybı → tur,onem,dunya
+- 1770-08-01 · Kartal (Kagul) Ovası Bozgunu → onem,dunya
+- 1771-07-01 · Kırım yarımadasının Rus işgali → onem,dunya
+- 1774-01-21 · III. Mustafa'nın ölümü ve I. Abdülhamid'in cülûsu → tur,onem,dunya
+- 1774-06-25 · Kozluca Bozgunu — Küçük Kaynarca'ya giden yenilgi → onem,dunya
+- 1775-05-07 · Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki → tur,onem,dunya
+- 1776-04-16 · Basra'nın İran işgaline uğraması → onem,dunya
+- 1779-03-10 · Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma → onem,dunya
+- 1787-08-16 · Rusya'ya savaş ilanı — 1787-1792 Osmanlı-Rus Savaşı başladı → onem,dunya
+- 1788-02-09 · Avusturya'nın savaşa girmesi — iki cepheli mücadele → onem,dunya
+- 1790-01-31 · Osmanlı-Prusya İttifakı → onem,dunya
+- 1790-12-22 · İsmail Kalesi'nin düşüşü ve katliamı → tur,onem,dunya
+- 1791-08-04 · Ziştovi Antlaşması — Avusturya cephesinin kapanması → onem,dunya
+- 1792-01-10 · Yaş Antlaşması — Kırım'ın kesin kaybı ve Turla sınırı → onem,dunya
+- 1795-03-01 · Pazvandoğlu Osman'ın Vidin'de fiilî hükümdarlığı → onem,dunya
+- 1795-09-01 · Mühendishâne-i Berrî-i Hümâyun'un açılışı → tur,onem,dunya
+- 1798-09-09 · Fransa'ya savaş ilanı ve Rusya-İngiltere ile ittifak → onem,dunya
+- 1799-05-20 · Akkâ Savunması — Napolyon'un püskürtülmesi → onem,dunya
+- 1801-04-01 · Vehhâbîlerin Kerbelâ baskını → onem,dunya
+- 1801-10-09 · Mısır'ın Fransızlardan tahliyesi → onem,dunya
+- 1802-06-25 · Paris Antlaşması — Fransa ile barışın yeniden kurulması → onem,dunya
+- 1803-02-01 · Vehhâbîlerin Tâif'i ele geçirmesi → tur,onem,dunya
+- 1803-04-30 · Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi → tur,onem,dunya
+- 1803-08-06 · Şerif Gālib'in Mekke'yi geri alması → tur,onem,dunya
+- 1804-02-14 · Birinci Sırp İsyanı'nın başlaması → onem,dunya
+- 1805-06-01 · Vehhâbîlerin Medine'yi işgali → onem,dunya
+- 1806-12-22 · Rusya ile savaşın başlaması (1806-1812 Osmanlı-Rus Savaşı) ve Boğazların kapatılması → onem,dunya
+- 1807-02-20 · İngiliz donanmasının İstanbul önlerine gelmesi (Duckworth harekâtı) → onem,dunya
+- 1809-01-05 · Kal'a-i Sultâniyye Antlaşması — İngiltere ile barış ve Boğazlar kaidesi → onem,dunya
+- 1811-10-14 · Slobozia Bozgunu — Tuna ordusunun kuşatılması → onem,dunya
+- 1813-10-05 · Belgrad'ın geri alınışı ve Birinci Sırp İsyanı'nın bastırılması → tur,onem,dunya
+- 1815-04-23 · İkinci Sırp İsyanı ve Miloš Obrenović'in başknezliği → onem,dunya
+- 1821-02-22 · Eflak İsyanı — Ypsilanti'nin Prut'u geçmesi ve Vladimirescu ayaklanması → onem,dunya
+- 1824-06-01 · İkinci Suûdî Devleti'nin Riyad'da kurulması → onem,dunya
+- 1826-10-07 · Akkirman Antlaşması — Sırbistan ve prensliklere tavizler → onem,dunya
+- 1827-02-01 · Tımar sisteminin tasfiyesi → tur,onem,dunya
+- 1827-03-14 · Tıphâne-i Âmire'nin kurulması — modern tıp eğitiminin başlangıcı → tur,onem,dunya
+- 1828-04-26 · 1828-1829 Osmanlı-Rus Savaşı'nın başlaması → onem,dunya
+- 1830-05-07 · Amerika Birleşik Devletleri ile ilk antlaşma → onem,dunya
+- 1831-09-14 · Bağdat'ta Kölemen idaresine son verilmesi → tur,onem,dunya
+- 1834-07-01 · Mekteb-i Harbiye'nin Maçka Kışlası'nda kurulması → tur,onem,dunya
+- 1835-05-26 · Trablusgarp'ın doğrudan merkeze bağlanması — Karamanlı hanedanının sonu → tur,onem,dunya
+- 1838-02-28 · Defterdarlığın kaldırılıp Maliye Nezâreti'nin kurulması → tur,onem,dunya
+- 1839-01-19 · İngilizlerin Aden'e yerleşmesi → tur,onem,dunya
+- 1849-01-01 · Tihâme sahiline dönüş: Hudeyde, Zebîd ve Moha'nın alınması → tur,onem,dunya
+- 1849-08-16 · Macar mültecileri meselesi: Kossuth ve arkadaşlarının Osmanlı'ya sığınması → tur,onem,dunya
+- 1849-05-01 · Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi → onem,dunya
+- 1851-02-11 · Encümen-i Dâniş'in kuruluşu: İstanbul'da ilk Osmanlı akademisi → tur,onem,dunya
+- 1853-11-11 · Oltenitsa Zaferi: Tuna cephesinde ilk Osmanlı başarısı → onem,dunya
+- 1854-03-12 · İstanbul'da İngiltere ve Fransa ile ittifak antlaşması → onem,dunya
+- 1855-08-16 · İstanbul Şehremaneti'nin kurulması: ilk modern belediye teşkilatı → tur,onem,dunya
+- 1856-03-30 · Paris Antlaşması: Kırım Savaşı'nın sonu ve Osmanlı'nın Avrupa devletler sistemine kabulü → onem,dunya
+- 1856-06-07 · Dolmabahçe Sarayı'nın açılışı: idare merkezinin Topkapı'dan taşınması → tur,onem,dunya
+- 1859-02-05 · Eflak ve Boğdan'ın Cuza yönetiminde birleşmesi: Romanya'nın doğuşu → tur,onem,dunya
+- 1859-09-14 · Kuleli Vak'ası: İstanbul'da Abdülmecid'e karşı ilk darbe girişimi → onem,dunya
+- 1860-05-30 · Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları → onem,dunya
+- 1860-10-22 · Tercümân-ı Ahvâl'in yayına başlaması: İstanbul'da ilk özel Türkçe gazete → tur,onem,dunya
+- 1861-06-09 · Cebel-i Lübnan Nizamnâmesi: Lübnan'a imtiyazlı mutasarrıflık statüsü → tur,onem,dunya
+- 1861-06-25 · Abdülmecid'in vefatı ve Sultan Abdülaziz'in cülûsu → tur,onem,dunya
+- 1862-02-21 · Birleşik prensliklerin Romanya adını alması → tur,onem,dunya
+- 1865-01-01 · Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması → tur,onem,dunya
+- 1866-08-21 · Girit İsyanı'nın başlaması (1866-1869) → onem,dunya
+- 1867-04-18 · Belgrad ve Sırbistan kalelerindeki son Osmanlı garnizonlarının çekilmesi → tur,onem,dunya
+- 1867-06-08 · Mısır valilerine hidiv unvanının verilmesi → tur,onem,dunya
+- 1868-01-04 · Girit Nizamnâmesi: adaya geniş idarî imtiyazlar → tur,onem,dunya
+- 1868-05-10 · Şûrâ-yı Devlet'in açılışı: Osmanlı Danıştayı'nın kuruluşu → tur,onem,dunya
+- 1869-11-17 · Süveyş Kanalı'nın açılışı: Mısır üzerinden Hint yolunun kısalması → tur,onem,dunya
+- 1870-03-11 · Bulgar Eksarhlığı'nın kurulması: Bulgar kilisesinin Fener'den ayrılması → tur,onem,dunya
+- 1871-04-20 · Midhat Paşa'nın Necid seferi: Lahsâ'da Osmanlı hâkimiyetinin yeniden kurulması → tur,onem,dunya
+- 1871-09-20 · Katar'da Osmanlı kontrolünün kurulması → tur,onem,dunya
+- 1871-09-07 · Sadrazam Âlî Paşa'nın vefatı: Tanzimat kadrosunun sonu → tur,onem,dunya
+- 1872-04-01 · San'a'nın alınışı: Yemen'de Osmanlı otoritesinin yeniden kurulması → tur,onem,dunya
+- 1875-10-06 · Osmanlı maliyesinin iflası: dış borç ödemelerinin yarıya indirilmesi → tur,onem,dunya
+- 1875-06-19 · Hersek İsyanı'nın başlaması: Şark Meselesi'nin yeniden alevlenmesi → onem,dunya
+- 1876-08-31 · V. Murad'ın hal'i ve II. Abdülhamid'in cülûsu → tur,onem,dunya
+- 1876-12-23 · Tersane Konferansı: büyük devletlerin Balkan reform dayatması → tur,onem,dunya
+- 1877-03-19 · İlk Meclis-i Meb'ûsan'ın Dolmabahçe'de açılışı → tur,onem,dunya
+- 1877-07-19 · Plevne savunmasının başlaması: Gazi Osman Paşa'nın direnişi → onem,dunya
+- 1877-12-10 · Plevne'nin düşüşü: Tuna cephesinin çöküşü → tur,onem,dunya
+- 1878-01-04 · Sofya'nın Rus kuvvetlerince işgali → onem,dunya
+- 1878-01-31 · Edirne Mütarekesi: 93 Harbi'nde silahların susması → onem,dunya
+- 1878-02-13 · II. Abdülhamid'in Meclis-i Meb'ûsan'ı süresiz tatil etmesi → tur,onem,dunya
+- 1878-03-03 · Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı → onem,dunya
+- 1878-07-29 · Bosna-Hersek ve Yenipazar'ın Avusturya-Macaristan tarafından işgali → onem,dunya
+- 1881-12-20 · Muharrem Kararnâmesi ve Düyûn-ı Umûmiyye İdaresi'nin kuruluşu → tur,onem,dunya
+- 1884-02-01 · Sevâkin — Mehdî'ye düşmeyen tek liman → tur,onem,dunya
+- 1884-05-08 · Midhat Paşa'nın Tâif zindanında öldürülmesi → tur,onem,dunya
+- 1888-09-24 · Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi → tur,onem,dunya
+- 1889-06-02 · İttihâd-ı Osmânî Cemiyeti'nin İstanbul'da kuruluşu → tur,onem,dunya
+- 1896-08-26 · Osmanlı Bankası Baskını: Taşnak eylemcilerinin Galata eylemi → onem,dunya
+- 1897-04-17 · 1897 Osmanlı-Yunan Savaşı'nın başlaması: Teselya cephesi → onem,dunya
+- 1899-11-27 · Konya-Bağdat hattı imtiyazının Almanlara verilmesi → tur,onem,dunya
+- 1900-09-01 · Hicaz Demiryolu inşaatının Şam'da başlaması → tur,onem,dunya
+- 1903-10-02 · Mürzsteg Programı: Makedonya'da uluslararası reform denetimi → tur,onem,dunya
+- 1905-04-01 · San'a'nın İmam Yahyâ'ya kaybı → tur,onem,dunya
+- 1905-07-21 · Yıldız Suikastı: II. Abdülhamid'e bombalı saldırı → tur,onem,dunya
+- 1905-09-01 · San'a'nın geri alınması: İmam Yahyâ isyanının bastırılması → onem,dunya
+- 1908-12-17 · II. Meşrutiyet'in ilk Meclis-i Meb'ûsan'ının toplanması → tur,onem,dunya
+- 1909-04-27 · Hareket Ordusu ve II. Abdülhamid'in hal'i: V. Mehmed Reşad'ın cülûsu → tur,onem,dunya
+- 1910-04-01 · Arnavutluk İsyanı: Kosova ve İşkodra'da silahlı direniş → onem,dunya
+- 1912-10-18 · Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki → tur,onem,dunya
+- 1913-06-11 · Sadrazam Mahmud Şevket Paşa'nın İstanbul'da suikastle öldürülmesi → tur,onem,dunya
+- 1913-06-29 · II. Balkan Savaşı'nın başlaması: müttefiklerin paylaşım kavgası → onem,dunya
+- 1913-09-29 · İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tescili → onem,dunya
+- 1913-11-14 · Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri → onem,dunya
+- 1914-08-02 · İstanbul'da Osmanlı-Alman gizli ittifak antlaşmasının imzalanması → onem,dunya
+- 1914-09-09 · Kapitülasyonların tek taraflı olarak kaldırılması → tur,onem,dunya
+- 1914-10-29 · Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması → onem,dunya
+- 1914-11-14 · Cihâd-ı Ekber ilanı: Fatih Camii'nde cihad fetvasının okunması → tur,onem,dunya
+- 1914-12-18 · Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilmesi → tur,onem,dunya
+- 1914-12-22 · Sarıkamış Harekâtı: Kafkas cephesinde felaket → onem,dunya
+- 1915-01-14 · Birinci Kanal Harekâtı: Süveyş'e Sina çölü üzerinden taarruz → onem,dunya
+- 1915-05-27 · Sevk ve İskân (Tehcir) Kanunu'nun çıkarılması → tur,onem,dunya
+- 1918-02-10 · II. Abdülhamid'in Beylerbeyi Sarayı'nda vefatı → tur,onem,dunya
+- 1918-03-03 · Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması → onem,dunya
+- 1918-07-03 · V. Mehmed Reşad'ın vefatı ve VI. Mehmed Vahdeddin'in cülûsu → tur,onem,dunya
+- 1918-11-13 · İtilâf donanmasının İstanbul önlerine gelişi ve şehrin fiilî işgali → onem,dunya
+- 1919-07-23 · Erzurum Kongresi: Doğu vilâyetlerinin millî direniş kararı → tur,onem,dunya
+- 1919-09-04 · Sivas Kongresi: millî direnişin tek çatı altında birleşmesi → tur,onem,dunya
+- 1919-10-22 · Amasya Protokolü: İstanbul hükümetiyle Heyet-i Temsîliyye görüşmesi → tur,onem,dunya
+- 1920-01-28 · Misâk-ı Millî'nin son Osmanlı Meclisi'nde kabulü → tur,onem,dunya
+- 1920-12-03 · Gümrü Antlaşması: TBMM hükümetinin ilk uluslararası antlaşması → onem,dunya
+- 1921-01-10 · Birinci İnönü Muharebesi: düzenli ordunun ilk zaferi → onem,dunya
+- 1921-04-01 · İkinci İnönü Muharebesi: Yunan taarruzunun ikinci kez kırılması → onem,dunya
+- 1921-10-20 · Ankara İtilâfnâmesi: Fransa ile barış ve güney cephesinin kapanması → onem,dunya
+- 1922-10-11 · Mudanya Mütarekesi: İstanbul ve Boğazlar'ın savaşsız devri → onem,dunya
+- 1922-11-17 · VI. Mehmed Vahdeddin'in İstanbul'dan ayrılışı ve Abdülmecid Efendi'nin halife seçilmesi → tur,onem,dunya
+- 1534-06-01 · Kars'ın alınması ve kuzeydoğu sınırının açılması → tur,onem,dunya
+- 1534-07-13 · Tebriz'e ilk giriş — Irakeyn Seferi'nin açılışı → tur,onem,dunya
+- 1538-08-03 · Aden'in zaptı ve Yemen sahilinin ilhakı → tur,onem,dunya
+- 1540-11-01 · Anabolu'nun (Nauplion) antlaşmayla devralınması → tur,onem,dunya
+- 1543-07-21 · Valpo, Şikloş ve Peçuy'un fethi → tur,onem,dunya
+- 1544-09-01 · Budin'in kuzey ve batı savunma kuşağı: Vaç, Hatvan ve Şimontorna → tur,onem,dunya
+- 1545-12-26 · Basra'nın ilhakı ve Basra Körfezi'ne çıkış → tur,onem,dunya
+- 1696-01-01 · Basra'nın İranlılarca ele geçirilmesi → tur,onem,dunya
+- 1701-01-01 · Daltaban Mustafa Paşa'nın Kürne ve Basra'yı geri alması → tur,onem,dunya
+- 1914-11-06 · İngiliz-Hint kuvvetlerinin Fâv'ı ele geçirmesi — Irak cephesinin açılışı → tur,onem,dunya
+- 1914-12-09 · Kürne'nin İngilizlere teslim olması → tur,onem,dunya
+- 1547-02-01 · Taiz'in fethi → tur,onem,dunya
+- 1547-01-01 · Sana ve Yemen içlerinin fethi → tur,onem,dunya
+- 1548-07-27 · İkinci İran Seferi ve Tebriz'in yeniden alınması → tur,onem,dunya
+- 1548-08-24 · Van'ın fethi ve doğu sınırının sabitlenmesi → tur,onem,dunya
+- 1550-01-01 · Lahsa ve Katîf'in ilhakı — Körfez'in Arabistan kıyısı → tur,onem,dunya
+- 1551-01-01 · Ardahan ve Çıldır havzasının alınması → tur,onem,dunya
+- 1550-01-01 · Şehrizor'un elden çıkışı — Erdelân beyi Sührâb Safevîlere meyletti → tur,onem,dunya
+- 1551-09-07 · Sokullu Mehmed Paşa Tuna'yı geçti — Erdel savaşının başlaması → onem,dunya
+- 1552-09-04 · Solnok'un fethi ve Eğri kuşatmasının başarısızlığı → tur,onem,dunya
+- 1555-01-01 · İbrim ve Nübye sınırının güneye taşınması → tur,onem,dunya
+- 1555-09-27 · Bicâye'nin (Bougie) İspanyollardan alınması → tur,onem,dunya
+- 1559-01-01 · Zeyla'nın Habeş Eyaleti'ne katılması → tur,onem,dunya
+- 1521-01-01 · Nikarya (İkarya) adasının Osmanlı idaresine girmesi → tur,onem,dunya
+- 1538-08-01 · Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın alınması → tur,onem,dunya
+- 1482-01-01 · Zaklise'nin (Zakynthos) yıllık haraç karşılığı Venedik'e bırakılması → tur,onem,dunya
+- 1500-12-24 · Kefalonya ve İthaki'nin kaybı → tur,onem,dunya
+- 1537-10-01 · Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması → tur,onem,dunya
+- 1715-06-05 · İstendil (Tinos): Venedik'in Ege'deki son adasının teslimi → tur,onem,dunya
+- 1427-01-01 · Belgrad'ın Macaristan'a bırakılması — Tata Antlaşması → tur,onem,dunya
+- 1523-01-05 · Şövalyelerin çekilişi: Bodrum, İstanköy ve Onikiada'nın devri → tur,onem,dunya
+- 1513-01-01 · Sin (Sinj) Kalesi'nin fethi → tur,onem,dunya
+- 1522-01-01 · Dulkadir ülkesinin ilhakı — Maraş merkezli Dulkadır eyaleti → tur,onem,dunya
+- 1522-05-29 · Knin'in fethi → tur,onem,dunya
+- 1528-01-01 · Kuzey Bosna'nın ilhakı: Yayça ve Banaluka → tur,onem,dunya
+- 1536-01-01 · Gazi Hüsrev Bey'in Sava boyu harekâtı: Bosna Brodu ve Jasenovaç → tur,onem,dunya
+- 1543-01-01 · Segedin'in Osmanlı idaresine girmesi ve Segedin livâsının teşkili → tur,onem,dunya
+- 1566-04-14 · Sakız'ın Cenevizlilerden alınışı → tur,onem,dunya
+- 1566-04-15 · Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı → tur,onem,dunya
+- 1570-07-02 · Kıbrıs çıkarması: Limasol'un alınışı → tur,onem,dunya
+- 1570-09-17 · Girne'nin teslimi — Kıbrıs'ın kuzey kıyısı → tur,onem,dunya
+- 1578-11-01 · Şirvan'ın fethi: Şamahı'nın alınışı → tur,onem,dunya
+- 1578-10-05 · Derbend halkının Lala Mustafa Paşa'ya bağlılık arzı — Demirkapı Osmanlı idaresinde → tur,onem,dunya
+- 1583-09-13 · Revan'ın (Erivan) fethi ve kale inşası → tur,onem,dunya
+- 1583-08-01 · Bakü'nün alınışı — Hazar kıyısına çıkış → tur,onem,dunya
+- 1588-09-01 · Karabağ ve Gence'nin ilhakı → tur,onem,dunya
+- 1646-11-13 · Resmo'nun fethi — Girit'in ikiye bölünmesi → tur,onem,dunya
+- 1688-04-08 · Atina'nın geri alınışı — Venedik'in çekilişi → tur,onem,dunya
+- 1715-07-20 · Anabolu'nun fethi — Mora'nın kilit kalesi → tur,onem,dunya
+- 1715-08-01 · Modon'un teslimi → tur,onem,dunya
+- 1715-08-16 · Koron'un teslimi — Mora seferinin tamamlanması → tur,onem,dunya
+- 1715-09-07 · Çuha Adası'nın (Kythira) alınışı → tur,onem,dunya
+- 1718-07-21 · Pasarofça Antlaşması — Mora kazanıldı, Belgrad ve Banat kaybedildi → onem,dunya
+- 1723-08-01 · 1723 İran Seferi: Şirvan ve Gürcistan'a giriş → tur,onem,dunya
+- 1723-10-01 · Kirmanşah'ın alınışı — Zağros kapısı → tur,onem,dunya
+- 1724-08-31 · Hemedan'ın fethi → tur,onem,dunya
+- 1724-10-03 · Revan'ın yeniden fethi → tur,onem,dunya
+- 1724-08-11 · Nahçıvan'ın alınışı → tur,onem,dunya
+- 1725-09-04 · Gence'nin fethi — Kafkasya seferinin sonu → tur,onem,dunya
+- 1781-01-01 · Anapa Kalesi'nin inşası — Kafkas savunma hattı → tur,onem,dunya
+- 1792-02-12 · Vehrân'ın (Oran) İspanyollarca boşaltılması ve Cezayir'e devri → tur,onem,dunya
+- 1798-10-23 · Preveze'nin Fransızlardan alınışı — Nikopolis Muharebesi → onem,dunya
+- 1871-01-01 · Asîr'in doğrudan idareye alınması → tur,onem,dunya
+- 1913-11-01 · Bozcaada ve İmroz'un geri alınışı — Atina Antlaşması → tur,onem,dunya
+- 1918-04-14 · Batum'un geri alınışı → tur,onem,dunya
+- 1918-04-25 · Elviye-i Selâse: Kars Osmanlı idaresine girdi → tur,onem,dunya
+- 1918-03-28 · Osmanlı birlikleri Artvin'e girdi → tur,onem,dunya
+- 1918-04-03 · Ardahan Türk ordusunun eline geçti → tur,onem,dunya
+- 1918-05-20 · Iğdır zapt edildi — Aras vadisinde ilerleyiş → tur,onem,dunya
+- 1918-12-04 · Aras bölgesinde geri çekiliş: Iğdır boşaltıldı → tur,onem,dunya
+- 1918-12-17 · İngilizler Artvin'e yerleşti → tur,onem,dunya
+- 1919-04-20 · Ardahan Gürcü hâkimiyetine geçti → tur,onem,dunya
+- 1919-04-30 · Preston Kars'ın idaresini Ermeni valisine teslim etti → tur,onem,dunya
+- 1920-04-01 · İngilizler çekilirken Artvin Gürcistan'da kaldı → tur,onem,dunya
+- 1920-07-07 · Batum Gürcü yönetimine devredildi → tur,onem,dunya
+- 1918-12-24 · Mondros sonrası Batum'da Britanya idaresi → tur,onem,dunya
+- 1731-01-01 · Hekimoğlu Ali Paşa Rûmiye'yi aldı → tur,onem,dunya
+- 1421-06-25 · I. Mehmed'in vefatı ve II. Murad'ın cülûsu → tur,onem,dunya
+- 1691-06-22 · II. Süleyman'ın vefatı → tur,onem,dunya
+- 1785-04-27 · Sadrazam Halil Hamîd Paşa'nın azli ve idamı → tur,onem,dunya
+- 1801-09-24 · Kartli-Kaheti (Doğu Gürcistan) Rusya'ya ilhak edildi → tur,dunya
+- 1871-10-24 · Tunus'a veraset fermanı — beylik Mehmed Sâdık Paşa ailesine → tur,onem,dunya
+- 1878-07-13 · Kars, Ardahan ve Batum Rusya'ya bırakıldı — elviye-i selâse → tur,onem,dunya
+- 1926-05-16 · Son padişah VI. Mehmed Vahdeddin'in San Remo'da vefatı → tur,onem,dunya
+- 1693-01-06 · IV. Mehmed'in Edirne'de vefatı → tur,onem,dunya
+- 1695-02-06 · II. Ahmed'in Edirne'de vefatı → tur,onem,dunya
+- 1703-12-29 · II. Mustafa'nın vefatı → tur,onem,dunya
+- 1736-06-24 · III. Ahmed'in vefatı → tur,onem,dunya
+- 1808-11-17 · IV. Mustafa'nın boğularak öldürülmesi → tur,onem,dunya
+- 1904-08-29 · V. Murad'ın vefatı → tur,onem,dunya
+- 1551-11-06 · Lipova (Lippa) şehri Castaldo'nun Avusturya ordusunun eline geçti — kale 5 Aralık'ta tesli → tur,onem,dunya
+- 1688-06-22 · Lipova (Lippa) Caraffa'ya teslim oldu — Avusturya eline geçti → tur,onem,dunya
+- 1474-01-01 · Kayseri'de Osmanlı idaresi kuruldu: Gedik Ahmed Paşa Karamanoğulları'nı sona erdirdi → tur,onem,dunya
+- 1398-01-01 · Nevşehir ve Ürgüp yöresi Karamanoğulları'ndan Osmanlı eline geçti → tur,onem,dunya
+- 1515-02-25 · Muş ve Bingöl (Çapakçur) Safevilerden Osmanlı idaresine geçti → tur,onem,dunya
+- 1086-06-04 · Süleyman b. Kutalmış Aynüseylem'de yenilip öldü; Antakya Anadolu Selçuklularından çıktı → onem,dunya
+- 1092-11-20 · Melikşah öldü; Antakya Yağısıyan'la birlikte Suriye Selçuklusu Tutuş'a bağlandı → onem,dunya
+- 1180-05-28 · II. Kılıcarslan Dorylaion (Eskişehir) ve Kütahya'yı Bizans'tan aldı → tur,onem,dunya
+- 1097-06-19 · İznik Haçlılara teslim oldu; Selçuklu merkezi Konya'ya çekildi, Bizans batı Anadolu'yu ger → tur,onem,dunya
+- 1916-08-07 · Osmanlı birlikleri Muş'u Rus işgalinden geri aldı → tur,onem,dunya
+- 1916-08-25 · Muş yeniden Rus eline geçti → tur,onem,dunya
+- 1917-05-01 · Muş Rus işgalinden kesin olarak kurtarıldı → tur,onem,dunya
+- 1912-11-25 · Sakız'a Yunan çıkarması → tur,onem,dunya
+- 1304-01-01 · Sakız, Cenevizli Zaccaria ailesinin kontrolüne geçti → tur,onem,dunya
+- 1329-01-01 · Sakız'ın Zaccaria'dan alınıp Bizans'a bağlanması → tur,onem,dunya
+- 1304-01-01 · Sisam, Sakız'daki Cenevizlilerin (Zaccaria) mülkiyetine girdi → tur,onem,dunya
+- 1329-01-01 · Sisam, Zaccaria'dan Bizans'a döndü (Sakız zinciri) → tur,onem,dunya
+- 1346-06-15 · Sisam, Sakız Maona'sının mülkiyetine girdi → tur,onem,dunya
+- 1475-01-01 · Sisam terk edildi: Ceneviz (Maona) mülkiyeti sona erdi → tur,onem,dunya
+- 1479-01-01 · Sisam'ın Osmanlı idaresine girişi (Fatih) → tur,onem,dunya
+- 1335-01-01 · Semadirek Venedikliler'den Cenevizli Gattilusio ailesine geçti → tur,onem,dunya
+- 1481-01-01 · Nikarya (İkarya), Rodos Saint Jean Şövalyeleri'nin idaresine girdi → tur,onem,dunya
+- 1657-11-15 · Limni'nin Venedik'ten geri alınışı → tur,onem,dunya
+- 1912-10-21 · Limni'nin Yunanistan'ca işgali → tur,onem,dunya
+- 1912-10-30 · Taşoz'un Yunanistan'ca işgali → tur,onem,dunya
+- 1912-11-01 · Semadirek'in Yunanistan'ca işgali → tur,onem,dunya
+- 1912-11-21 · Midilli'nin Yunanistan'ca işgali → tur,onem,dunya
+- 1276-06-15 · Karamanoğlu Mehmed Bey Ermenek subaşılığına getirildi, İç İl'i idaresine aldı → tur,dunya
+- 1467-10-01 · Akkoyunlu öncü kuvvetleri Bingöl kalesini Karakoyunlular'dan aldı → tur,dunya
+- 1622-04-23 · Hürmüz'ün Portekizlilerden alınması → tur,dunya
+
+### olaylar_ek6.js (65)
+- 1730-08-12 · Nâdir'in taarruzu: Tebriz, Nahçıvan, Hemedan, Kirmanşah, Merâga ve Kasr-ı Şîrîn'in kaybı → tur,onem,dunya
+- 1325-01-01 · Konuralp'in Bolu yöresini fethi — Mudurnu, Konurapa ve Bolu → tur,onem,dunya
+- 1334-01-01 · Marmara'nın güneyindeki Bizans kasabalarının alınışı — Mihaliç, Kirmasti, Gölyazı → tur,onem,dunya
+- 1427-06-01 · Hacıemîroğulları Beyliği'nin ilhakı — Ordu ve Ünye → tur,onem,dunya
+- 1499-01-01 · Karadağ'ın Osmanlı idaresine bağlanması — Cetinje → tur,onem,dunya
+- 1535-06-01 · Tebriz'in yeniden Safevîlere geçmesi — Irakeyn dönüşü → tur,onem,dunya
+- 1534-06-23 · Bayezid Kalesi'nin Irakeyn Seferi'nde Osmanlı hâkimiyetini kabulü → tur,onem,dunya
+- 1535-09-22 · Van ve Erciş'in Tahmasb'ın eline düşmesi (Osmanlı tutumu 1534-35'te sona erdi) → tur,onem,dunya
+- 1547-01-01 · Bayezid sancağının Safevî hâkimiyetine geçmesi (Van ve Erciş 1535'te zaten Safevîydi) → tur,onem,dunya
+- 1553-08-01 · Bayezid sancağının Nahcıvan Seferi sırasında yeniden Osmanlı'ya geçmesi → tur,onem,dunya
+- 1604-06-08 · Revan'ın Şah Abbas'a kaybı → tur,onem,dunya
+- 1606-01-01 · Tiflis ve Gence'nin kaybı → tur,onem,dunya
+- 1607-01-01 · Şirvan'ın kaybı — Şamahı, Bakü ve Derbend → tur,onem,dunya
+- 1629-01-01 · Taiz'in kaybı → tur,onem,dunya
+- 1635-01-01 · Yemen'in kaybı — Kāsımî imamlarının hâkimiyeti → tur,onem,dunya
+- 1635-10-22 · Moha'nın tahliyesi → tur,onem,dunya
+- 1670-01-01 · Lahsa'nın Benî Hâlid Emirliği'ne kaybı → tur,onem,dunya
+- 1684-09-29 · Preveze ve Vonitsa'nın Venedik'e kaybı — Epir kıyısının açılışı → tur,onem,dunya
+- 1685-10-12 · Solnok'un kaybı — Tisa hattının çözülmesi → tur,onem,dunya
+- 1686-07-10 · Modon'un Venedik'e kaybı → tur,onem,dunya
+- 1686-10-20 · Peçuy'un kaybı → tur,onem,dunya
+- 1686-10-23 · Segedin'in kaybı → tur,onem,dunya
+- 1687-08-01 · Balyabadra'nın (Patras) kaybı — Mora'nın kuzey kapısı → tur,onem,dunya
+- 1687-12-17 · Eğri'nin kaybı → tur,onem,dunya
+- 1688-05-19 · İstolni Belgrad'ın kaybı — Macar krallarının taç şehri → tur,onem,dunya
+- 1689-02-03 · Zigetvar'ın kaybı → tur,onem,dunya
+- 1692-06-05 · Varad'ın kaybı → tur,onem,dunya
+- 1693-05-27 · Yanova'nın kaybı — Erdel yolunun kapanması → tur,onem,dunya
+- 1697-01-01 · Karadağ'da vladika idaresinin kurulması — Cetinje'nin fiilî kopuşu → tur,onem,dunya
+- 1735-06-19 · Baghavard (Arpaçay) bozgunu — Kafkasya'nın Nâdir Han'a kaybı → onem,dunya
+- 1770-09-27 · Bender'in Ruslara kaybı → tur,onem,dunya
+- 1806-01-01 · Mekke'nin Vehhâbîlere kaybı → tur,onem,dunya
+- 1806-05-27 · Dubrovnik Cumhuriyeti'nin sonu — Fransız işgali → tur,onem,dunya
+- 1795-04-01 · Kuveyt'te Sabah emirliğinin Osmanlı himayesine girmesi → tur,onem,dunya
+- 1810-07-11 · Sohum'un Ruslara kaybı — Doğu Karadeniz kıyısının açılması → tur,onem,dunya
+- 1819-05-10 · Parga'nın Osmanlı idaresine bırakılması → tur,onem,dunya
+- 1822-12-12 · Anabolu'nun (Nauplion) isyancılara kaybı → tur,onem,dunya
+- 1829-04-01 · İnebahtı'nın Yunan idaresine geçmesi → tur,onem,dunya
+- 1831-01-01 · Eğriboz'un Yunanistan'a verilmesi — ada (Karistos, Oreoi) ile birlikte → tur,onem,dunya
+- 1830-07-05 · Cezayir'in Fransız işgali — üç yüz yıllık ocağın sonu → onem,dunya
+- 1831-01-04 · Vehrân'ın (Oran) Fransızlarca işgali → onem,dunya
+- 1832-03-01 · Annaba'nın (Bône) işgali → onem,dunya
+- 1833-03-31 · Atina'nın yeni Yunan devletine bırakılması → tur,onem,dunya
+- 1833-09-29 · Bicâye'nin (Bougie) işgali → onem,dunya
+- 1838-10-13 · Setif'in işgali → onem,dunya
+- 1844-03-04 · Biskra'nın işgali — Sahra kapısının kaybı → onem,dunya
+- 1854-12-02 · Tuggurt'un işgali — Cezayir'in tamamının elden çıkışı → onem,dunya
+- 1883-01-19 · Ubeyyid'in düşüşü — Kordofan'ın Mehdî kuvvetlerine geçişi → tur,onem,dunya
+- 1885-01-26 · Hartum'un düşüşü — Sudan'ın tamamının kaybı → tur,onem,dunya
+- 1885-02-05 · Masavva'nın İtalyan işgali — Kızıldeniz'in batı kıyısının kaybı → onem,dunya
+- 1912-11-11 · Sisam'ın Osmanlı idaresinden çıkışı → tur,onem,dunya
+- 1912-05-04 · Rodos'un İtalyan işgali → onem,dunya
+- 1912-05-12 · Onikiada'nın İtalyan işgali → onem,dunya
+- 1912-05-20 · İstanköy'ün işgali → onem,dunya
+- 1912-07-17 · Nikarya'nın bağımsızlık ilanı → tur,onem,dunya
+- 1913-03-06 · Yanya'nın düşüşü — Epir'in ve Parga'nın kaybı → tur,onem,dunya
+- 1913-03-26 · Edirne'nin Bulgarlara düşüşü → tur,onem,dunya
+- 1916-07-27 · Yenbu'nun Şerif Hüseyin kuvvetlerine kaybı → tur,onem,dunya
+- 1917-11-07 · Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı → onem,dunya
+- 1920-05-27 · Gümülcine'nin işgali — Batı Trakya'nın kaybı → onem,dunya
+- 1395-01-01 · Gördüs (Korint) Mora Despotluğu'na geçti → tur,onem,dunya
+- 1458-08-06 · Gördüs'ün (Korint) fethi → tur,onem,dunya
+- 1687-08-01 · Gördüs'ün (Korint) Venedik'e bırakılması → tur,onem,dunya
+- 1715-06-01 · Gördüs'ün (Korint) geri alınışı → tur,onem,dunya
+- 1822-01-01 · Gördüs'ün (Korint) Yunan isyancılara geçmesi → tur,onem,dunya
+
+### olaylar_ek7.js (131)
+- 1466-01-01 · İstanbul'da veba salgını ve sarayın Edirne'ye taşınması → tur,onem,dunya
+- 1470-06-01 · Sahn-ı Semân medreselerinin öğretime açılması → tur,onem,dunya
+- 1478-01-01 · Topkapı Sarayı'nın (Saray-ı Cedîd) tamamlanması → tur,onem,dunya
+- 1481-05-22 · II. Bayezid'in İstanbul'da cülûsu → tur,onem,dunya
+- 1481-05-28 · Cem Sultan'ın Bursa'da kendini sultan ilan etmesi → tur,onem,dunya
+- 1482-11-18 · Gedik Ahmed Paşa'nın idamı → tur,onem,dunya
+- 1493-01-01 · İstanbul'da ilk matbaanın kurulması → tur,onem,dunya
+- 1509-09-14 · İstanbul'da 'Küçük Kıyamet' depremi → tur,onem,dunya
+- 1511-04-01 · Şahkulu isyanının başlaması → onem,dunya
+- 1512-06-10 · II. Bayezid'in Dimetoka yolunda ölümü → tur,onem,dunya
+- 1513-04-24 · Şehzade Ahmed'in Yavuz Selim'in emriyle idamı → tur,onem,dunya
+- 1523-06-27 · İbrahim Paşa sadrazamlığa atandı → tur,onem,dunya
+- 1534-04-06 · Barbaros Hayreddin Paşa kaptan-ı deryalığa atandı → tur,onem,dunya
+- 1544-12-02 · Rüstem Paşa ilk kez sadrazam oldu → tur,onem,dunya
+- 1545-10-01 · Ebüssuûd Efendi şeyhülislam oldu → tur,onem,dunya
+- 1546-07-05 · Barbaros Hayreddin Paşa öldü → tur,onem,dunya
+- 1550-06-01 · Süleymaniye Camii ve külliyesinin inşaatı başladı → tur,onem,dunya
+- 1552-06-01 · İstanbul ve çevresinde yeni bir veba dalgası başladı → tur,onem,dunya
+- 1553-10-05 · Kara Ahmed Paşa sadrazamlığa atandı → tur,onem,dunya
+- 1553-12-01 · Kaptan-ı derya Pîrî Reis idam edildi → tur,onem,dunya
+- 1555-09-29 · Kara Ahmed Paşa idam edildi, Rüstem Paşa yeniden sadrazam oldu → tur,onem,dunya
+- 1558-04-15 · Hürrem Sultan öldü → tur,onem,dunya
+- 1565-06-29 · Sokullu Mehmed Paşa sadrazamlığa yükseldi → tur,onem,dunya
+- 1566-09-24 · II. Selim İstanbul'a ulaşıp cülus etti → tur,onem,dunya
+- 1572-06-13 · Kılıç Ali Paşa'nın yeniden kurduğu donanma denize indi → onem,dunya
+- 1579-10-12 · Sokullu Mehmed Paşa suikaste uğrayıp öldürüldü → tur,onem,dunya
+- 1580-01-22 · İstanbul Rasathanesi hatt-ı hümâyunla yıktırıldı → tur,onem,dunya
+- 1580-01-01 · İngiltere ile ilk ticaret ahidnâmesi — İngilizlere kapitülasyon verildi → tur,onem,dunya
+- 1582-05-29 · Şehzade Mehmed'in Atmeydanı'ndaki sünnet düğünü başladı → tur,onem,dunya
+- 1583-12-07 · Nurbânû Vâlide Sultan vefat etti → tur,onem,dunya
+- 1589-06-01 · Tağşiş edilmiş akçe yüzünden Beylerbeyi Vakası patlak verdi → onem,dunya
+- 1595-01-27 · III. Mehmed tahta çıktı, on dokuz şehzade boğduruldu → tur,onem,dunya
+- 1595-02-01 · Safiye Sultan vâlide sultan olarak nüfuz kazandı → tur,onem,dunya
+- 1596-06-20 · III. Mehmed yeniçeri baskısıyla bizzat sefere çıktı → tur,onem,dunya
+- 1600-06-01 · 1570'lerde başlayan tâun salgını İstanbul'u etkilemeyi sürdürüyordu → tur,onem,dunya
+- 1602-02-15 · Karayazıcı Abdülhalim öldü, isyan hareketi zayıfladı → onem,dunya
+- 1603-12-23 · Kardeş katli geleneğinin fiilen sona ermesi → tur,onem,dunya
+- 1609-08-09 · Sultanahmet Camii'nin temeli atıldı → tur,onem,dunya
+- 1622-05-20 · Genç Osman'ın yeniçeriler tarafından katledilmesi (Hâile-i Osmâniye) → onem,dunya
+- 1622-05-20 · I. Mustafa'nın ikinci kez tahta çıkarılması → tur,onem,dunya
+- 1633-09-01 · Cibali Yangını → tur,onem,dunya
+- 1633-10-01 · IV. Murad'ın tütün ve kahvehane yasağı → tur,onem,dunya
+- 1637-01-01 · İstanbul'da veba salgını → tur,onem,dunya
+- 1638-06-01 · Hezarfen Ahmed Çelebi'nin kanatlı uçuşu (rivayet) → tur,onem,dunya
+- 1642-01-01 · Cinci Hoca Hüseyin Efendi'nin sarayda nüfuz kazanması → tur,onem,dunya
+- 1644-01-31 · Kemankeş Mustafa Paşa'nın idamı → tur,onem,dunya
+- 1645-04-01 · Girit Seferi'nin divanda kararlaştırılması ve donanmanın yola çıkışı → onem,dunya
+- 1648-08-08 · IV. Mehmed'in yedi yaşında cülusu → tur,onem,dunya
+- 1652-06-20 · Tarhuncu Ahmed Paşa'nın denk bütçe reformu → tur,onem,dunya
+- 1656-03-04 · Çınar Vak'ası (Vak'a-i Vakvakiye) → onem,dunya
+- 1656-09-15 · Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması → tur,onem,dunya
+- 1656-10-01 · Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması → tur,onem,dunya
+- 1660-07-15 · İstanbul'da büyük yangın: Ağakapısı'nın yanması → tur,onem,dunya
+- 1661-11-01 · Köprülüzâde Fâzıl Ahmed Paşa'nın sadrazamlığa atanması → tur,onem,dunya
+- 1665-06-01 · Vânî Mehmed Efendi'nin Yeni Cami vâizliğine ve pâdişah hocalığına atanması → tur,onem,dunya
+- 1676-11-05 · Merzifonlu Kara Mustafa Paşa'nın sadrazamlığa atanması → tur,onem,dunya
+- 1685-10-12 · Vânî Mehmed Efendi'nin sürgünde vefatı → tur,onem,dunya
+- 1689-10-25 · Köprülüzâde Fâzıl Mustafa Paşa'nın sadrazamlığa atanması ve mali ıslahatları → tur,onem,dunya
+- 1695-01-01 · Malikâne sisteminin yürürlüğe girmesi → tur,onem,dunya
+- 1695-02-06 · II. Mustafa'nın cülusu → tur,onem,dunya
+- 1695-05-25 · Feyzullah Efendi'nin ikinci kez şeyhülislâmlığa atanması → tur,onem,dunya
+- 1703-03-01 · Feyzullah Efendi'nin oğullarını üst görevlere getirmesi ve biriken tepki → tur,onem,dunya
+- 1703-07-17 · Edirne Vak'ası'nın başlaması → onem,dunya
+- 1718-05-09 · Nevşehirli Damad İbrahim Paşa'nın sadrazamlığı → tur,onem,dunya
+- 1720-06-01 · Tulumbacı Ocağı'nın kuruluşu → tur,onem,dunya
+- 1721-03-21 · Mehmed Efendi'nin XV. Louis tarafından kabulü → tur,onem,dunya
+- 1721-10-08 · Mehmed Efendi'nin İstanbul'a dönüşü → tur,onem,dunya
+- 1722-06-01 · Sâdâbâd Kasrı'nın yapımı → tur,onem,dunya
+- 1727-07-01 · İbrahim Müteferrika'ya matbaa kurma izni → tur,onem,dunya
+- 1729-02-01 · İlk basılı kitap Vankulu Lügati'nin tamamlanması → tur,onem,dunya
+- 1730-10-01 · Nevşehirli Damad İbrahim Paşa'nın idamı → tur,onem,dunya
+- 1730-10-02 · III. Ahmed'in tahttan çekilmesi, I. Mahmud'un cülusu → tur,onem,dunya
+- 1733-06-01 · Humbaracı Ahmed Paşa'nın topçu ocağını ıslahı → tur,onem,dunya
+- 1734-06-01 · Hendesehâne'nin (mühendislik okulunun ilk örneği) kuruluşu → tur,onem,dunya
+- 1739-06-01 · İstanbul'da veba salgınının başlaması → tur,onem,dunya
+- 1755-09-29 · Hocapaşa yangını → tur,onem,dunya
+- 1757-02-28 · Koca Ragıp Mehmed Paşa'nın sadrazamlığı → tur,onem,dunya
+- 1763-04-08 · Ragıp Paşa'nın vefatı → tur,onem,dunya
+- 1766-05-01 · Büyük İstanbul depremi ve Fâtih Camii'nin yıkılması → tur,onem,dunya
+- 1772-10-01 · Baron de Tott öncülüğünde kısa ömürlü topçuluk okulu denemesi → tur,onem,dunya
+- 1789-04-07 · III. Selim tahta çıktı → tur,onem,dunya
+- 1792-06-01 · Nizâm-ı Cedîd ıslahat programı hazırlanmaya başlandı → tur,onem,dunya
+- 1793-03-01 · Avrupa başkentlerine daimi elçilikler kuruldu → tur,onem,dunya
+- 1793-06-01 · İrad-ı Cedîd hazinesi kuruldu → tur,onem,dunya
+- 1807-05-25 · Kabakçı Mustafa isyanı başladı → onem,dunya
+- 1807-05-29 · III. Selim tahttan indirildi → tur,onem,dunya
+- 1807-05-29 · IV. Mustafa tahta çıktı → tur,onem,dunya
+- 1808-07-19 · Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi → tur,onem,dunya
+- 1808-07-28 · III. Selim öldürüldü → tur,onem,dunya
+- 1808-07-28 · II. Mahmud tahta çıktı → tur,onem,dunya
+- 1808-08-15 · Sekbân-ı Cedîd ordusu kuruldu → tur,onem,dunya
+- 1809-12-02 · İbrâil'in düşüşü — Tuna hattında ilk büyük gedik → onem,dunya
+- 1810-09-26 · Rusçuk'un teslimi — Tuna'nın güney kıyısı da elden çıkıyor → onem,dunya
+- 1826-05-15 · Eşkinci Ocağı kuruldu → tur,onem,dunya
+- 1826-06-18 · Asâkir-i Mansûre-i Muhammediyye kuruldu → tur,onem,dunya
+- 1826-06-19 · Bektaşî tarikatı kapatıldı → tur,onem,dunya
+- 1827-04-29 · Yelpaze hadisesi — işgalin bahanesi → tur,onem,dunya
+- 1827-06-16 · Cezayir kıyısının Fransız ablukası — üç yıl süren kuşatma → onem,dunya
+- 1828-06-23 · İbrâil'in ikinci düşüşü — Çar Nikola kalenin önünde → tur,onem,dunya
+- 1829-06-01 · Fesin resmî serpuş ilan edilmesi → tur,onem,dunya
+- 1829-09-14 · Ahıska'nın Rusya'ya terki — Çıldır eyaletinin merkezi elden çıkıyor → tur,onem,dunya
+- 1830-06-14 · Sîdî Ferruc çıkarması — Fransız ordusu Cezayir toprağında → onem,dunya
+- 1830-08-09 · Dayı Hüseyin'in sürgünü — Cezayir ocağının fiilen sonu → tur,onem,dunya
+- 1834-07-08 · Redif-i Asâkir-i Mansûre teşkilatı kuruldu → tur,onem,dunya
+- 1836-06-01 · Hariciye Nezareti kuruldu → tur,onem,dunya
+- 1838-03-24 · Meclis-i Vâlâ-yı Ahkâm-ı Adliyye kuruldu → tur,onem,dunya
+- 1853-11-30 · Sinop Baskını → onem,dunya
+- 1862-06-27 · Tasvir-i Efkâr yayımlandı → tur,onem,dunya
+- 1867-08-30 · Yeni Osmanlılar Cemiyeti kuruldu → tur,onem,dunya
+- 1868-03-05 · Şûrâ-yı Devlet kuruldu → tur,onem,dunya
+- 1869-04-08 · Darülfünun'un kuruluş iradesi çıktı → tur,onem,dunya
+- 1869-06-01 · Mecelle-i Ahkâm-ı Adliyye çalışmaları başladı → tur,onem,dunya
+- 1873-04-01 · "Vatan yahut Silistre" sahnelendi, Nâmık Kemal sürgüne gönderildi → tur,onem,dunya
+- 1876-06-04 · Abdülaziz şüpheli şekilde öldü → tur,onem,dunya
+- 1877-02-05 · Midhat Paşa'nın sadrazamlıktan azli ve sürgünü → tur,onem,dunya
+- 1909-04-24 · Hareket Ordusu'nun İstanbul'a girişi → tur,onem,dunya
+- 1920-04-11 · Son Osmanlı Meclis-i Mebusanı'nın dağıtılması → tur,onem,dunya
+- 1920-04-23 · Türkiye Büyük Millet Meclisi'nin açılışı → tur,onem,dunya
+- 1335-12-01 · İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ölümü → tur,dunya
+- 1387-11-01 · Timur'un İran'ın büyük bölümünü hakimiyeti altına alması → dunya
+- 1406-10-15 · Aras zaferi: Kara Yûsuf, Timurlu Ebû Bekir Mirza'yı yendi → dunya
+- 1408-04-13 · Serdrûd zaferi: Tebriz ve Azerbaycan Karakoyunlu'ya geçti → dunya
+- 1469-04-01 · Uzun Hasan'ın Karakoyunlu Devleti'ne son vermesi → dunya
+- 1501-07-01 · Şah İsmail'in Tebriz'i alması: Safevî Devleti'nin kuruluşu → dunya
+- 1722-09-03 · Rus kuvvetlerinin Derbend'i alması: I. Petro'nun Hazar seferi → onem,dunya
+- 1726-01-01 · Tarku şamhallığının kaldırılması: Rus doğrudan idaresi → tur,dunya
+- 1735-03-21 · Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi → onem,dunya
+- 1736-03-08 · Nadir Şah'ın Mugan Sahrası'nda tahta çıkışı: Safevî hanedanının fiilen sonu → tur,dunya
+- 1828-02-22 · Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi → dunya
+- 1902-01-15 · Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması → dunya
+- 1834-01-01 · Rus ordusunun Eflak ve Boğdan'dan çekilmesi — altı yıllık işgalin sonu → tur,onem,dunya
+
+### olaylar_ek8.js (29)
+- 1554-08-22 · Şehrizor'un fethi — Zalm Kalesi'nin alınışı → tur,onem,dunya
+- 1577-01-01 · Fizan sancağının Trablusgarp'a bağlanışı — Murzuk ve Sahra kervan kavşağı → onem,dunya
+- 1586-01-01 · Nahçıvan ve Ordubad'ın Osmanlı idaresine girmesi → tur,onem,dunya
+- 1637-06-18 · Azak Kalesi'nin Don Kazaklarına kaybı → tur,onem,dunya
+- 1657-11-15 · Limni ve Semadirek'in geri alınışı → tur,onem,dunya
+- 1779-04-01 · Basra'nın İran işgalinden geri alınışı → tur,onem,dunya
+- 1830-02-03 · Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması → onem,dunya
+- 1920-08-10 · Sevr Antlaşması — imparatorluğun paylaşım metni → onem,dunya
+- 1819-11-01 · ʻAi Noa — Hawaii'de geleneksel kapu sisteminin sona erdirilmesi → onem,dunya
+- 1840-10-08 · Hawaii'nin ilk yazılı anayasası ilan edildi → onem,dunya
+- 1887-07-06 · Süngü Anayasası — Kral Kalākaua'nın yetkileri budandı → onem,dunya
+- 1894-07-04 · Hawaii Cumhuriyeti ilan edildi → onem,dunya
+- 1893-02-18 · I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga) → onem,dunya
+- 1918-04-05 · II. George Tupou'nun ölümü, Sālote Tupou III'ün tahta çıkışı (Tonga) → onem,dunya
+- 1893-09-19 · Yeni Zelanda kadınlara oy hakkı tanıyan ilk kendi kendini yöneten ülke oldu → onem,dunya
+- 1901-06-11 · Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak şekilde genişledi → onem,dunya
+- 1468-01-01 · Kâsım Han'ın ölümü, Danyal Han'ın tahta çıkışı (Kasım Hanlığı) → onem,dunya
+- 1573-01-01 · Kasım Hanlığı hükümdarının Hıristiyanlığa geçişi ve hanlıktan alınması → onem,dunya
+- 1609-01-01 · Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han → onem,dunya
+- 1921-08-14 · Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti → onem,dunya
+- 1922-03-03 · Tannu Tuva hükûmeti fiilen göreve başladı → onem,dunya
+- 1923-10-12 · Tannu Tuva'nın ilk Büyük Kurultayı toplandı → onem,dunya
+- 1793-01-01 · Timur Şah'ın ölümü, Zaman Şah'ın cülûsu (Dürrânî Devleti) → onem,dunya
+- 1920-04-26 · Hârizm Halk Cumhuriyeti ilan edildi → onem,dunya
+- 1921-09-05 · Hârizm Sovyet Sosyalist Cumhuriyeti'ne dönüşüm → onem,dunya
+- 1920-09-02 · Kızıl Ordu Buhara şehrine girdi — son emir Âlim Han tahttan uzaklaştırıldı → onem,dunya
+- 1920-10-08 · Buhara Halk Sovyet Cumhuriyeti ilan edildi → onem,dunya
+- 1921-09-01 · Buhara Halk Sovyet Cumhuriyeti yeni anayasası kabul edildi → onem,dunya
+- 1924-01-01 · Hârizm SSC ve Buhara Halk Sovyet Cumhuriyeti'nin millî sınırlandırmayla sona ermesi — Özbe → onem,dunya
+
+### olaylar_ek9.js (31)
+- 1841-01-01 · Muaskar'ın (Mascara) Fransız işgali — Abdülkādir'in başkentinin kaybı → tur,onem,dunya
+- 1843-01-01 · Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması → tur,onem,dunya
+- 1843-06-12 · Sîdî Bel Abbès müstahkem kampının kurulması → tur,onem,dunya
+- 1844-01-01 · Nedrûme ve Fas sınır kuşağının Fransız denetimine geçişi → tur,onem,dunya
+- 1852-12-04 · Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması → tur,onem,dunya
+- 1882-01-01 · Mîzâb vahalarının (Gardâye) ilhakı → tur,onem,dunya
+- 1874-11-02 · Darfur Sultanlığı'nın Mısır'a ilhakı — Zübeyr Paşa El-Fâşir'e girdi → tur,onem,dunya
+- 1883-12-23 · Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi → tur,onem,dunya
+- 1884-01-15 · Fâşir garnizonunun Mehdîcilere teslimi → tur,onem,dunya
+- 1741-06-12 · Tabarka'nın Cenevizlilerden alınması — Lomellini mercan imtiyazının sonu → tur,onem,dunya
+- 1872-01-01 · Bogos (Kerene) bölgesinin Mısır'a ilhakı → tur,onem,dunya
+- 1884-06-03 · Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması → dunya
+- 1840-01-01 · Taka bölgesinin fethi ve Kesela'nın kurulması → tur,onem,dunya
+- 1837-10-13 · Konstantin'in düşüşü — doğu Cezayir beyliğinin sonu → tur,onem,dunya
+- 1832-11-22 · Emîr Abdülkādir'in devletinin kuruluşu — batı Cezayir'de direnişin merkezîleşmesi → tur,onem,dunya
+- 1882-07-11 · İskenderiye'nin bombardımanı ve İngiliz çıkarması → tur,onem,dunya
+- 1882-09-13 · Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması → onem,dunya
+- 1911-10-08 · Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal → tur,onem,dunya
+- 1911-10-09 · Trablus şehrinin İtalyanlara teslim olması → tur,onem,dunya
+- 1911-10-16 · Derne'nin İtalyan çıkarmasıyla elden çıkışı → tur,onem,dunya
+- 1911-10-21 · Bingazi'ye İtalyan çıkarması — Berka sancağının merkezinin kaybı → tur,onem,dunya
+- 1911-11-05 · İtalya'nın tek taraflı ilhak kararnâmesi → tur,onem,dunya
+- 1883-11-05 · Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi → onem,dunya
+- 1896-09-23 · Dongola'nın geri alınışı — Nil boyu seferinin başlaması → tur,onem,dunya
+- 1898-09-02 · Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı → onem,dunya
+- 1899-01-19 · Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi → onem,dunya
+- 1884-01-01 · Zeyla ve Somali sahilinin İngiliz idaresine geçişi → tur,onem,dunya
+- 1883-06-08 · Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması → onem,dunya
+- 1798-07-21 · Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması → onem,dunya
+- 1799-03-18 · Napolyon'un Akkâ kuşatması — Suriye seferinin durdurulması → tur,onem,dunya
+- 1427-01-01 · Alâiye'nin Memlük Sultanı Barsbay'a satılması → tur,onem,dunya
+
+### olaylar_h7_asama.js (18)
+- 1562-05-05 · Habsburglarla barışın yenilenmesi — Erdel ve Temeşvar savaşının sonu → onem,dunya
+- 1566-05-01 · Kanunî'nin son seferi — Sigetvar ve Eğri hedefiyle İstanbul'dan çıkış → tur,onem,dunya
+- 1568-02-17 · Edirne Antlaşması — Habsburglarla savaş durumunun sonu → onem,dunya
+- 1604-06-15 · Cigalazâde Sinan Paşa İran seferine çıktı → tur,onem,dunya
+- 1605-11-06 · Cigalazâde Sinan Paşa'nın Urmiye gölü yakınında (Sûfiyân) bozgunu → onem,dunya
+- 1610-03-26 · Kuyucu Murad Paşa'nın Tebriz seferi — Acıçay'da karşılaşma olmadı → tur,onem,dunya
+- 1615-04-23 · Osmanlı-Safevî savaşı yeniden başladı — Sadrazam Öküz Mehmed Paşa Şark seferine çıktı → onem,dunya
+- 1616-09-12 · Revan kuşatması — elli beş gün sonra sonuçsuz kaldırıldı → onem,dunya
+- 1618-09-10 · Serav (Pul-i Şikeste) bozgunu — Halil Paşa'nın İran seferi → onem,dunya
+- 1733-07-19 · Topal Osman Paşa Nâdir'i Dücum'da yendi — Bağdat kuşatması kalktı → onem,dunya
+- 1743-02-25 · Nâdir Şah'ın Irak seferi — son Osmanlı-İran savaşı başladı, Kerkük düştü → onem,dunya
+- 1744-07-29 · Nâdir Şah'ın Kars kuşatması — iki ay sürdü, sonuç alamadı → onem,dunya
+- 1745-08-21 · Kağaverd bozgunu — Yeğen Mehmed Paşa'nın ordusu dağıldı → onem,dunya
+- 1700-01-01 · İnebahtı Karlofça gereği Osmanlı'ya geri verildi → tur,onem,dunya
+- 1529-05-10 · Kanunî'nin Viyana seferine çıkışı — Habsburg savaşı yeniden başladı → onem,dunya
+- 1578-01-02 · İran seferine karar — Tahmasb'ın ölümüyle sarsılan Safevîlere karşı iki serdar tayin edild → tur,onem,dunya
+- 1625-11-13 · Hâfız Ahmed Paşa'nın Bağdat kuşatması — yedi ay yirmi gün sürdü, sonuçsuz kaldı → onem,dunya
+- 1630-10-06 · Hüsrev Paşa'nın Bağdat kuşatması — otuz dokuz gün sonra kaldırıldı → onem,dunya
+
+### olaylar_ilirya_0072.js (1)
+- 1779-01-01 · Suûdî-Vehhâbî güçlerinin Hâil emirliğini ele geçirmesi — yönetim Abde aşiretinden İbn Ali  → tur
+
+### olaylar_kamerika.js (11)
+- 1880-09-01 · Britanya, Arktik Takımadalar'ı Kanada'ya devretti → tur,onem
+- 1868-07-03 · Fort Bridger Antlaşması — Wind River Rezervasyonu kuruldu → onem
+- 1535-04-17 · Yeni İspanya Genel Valiliği kuruldu → tur,onem
+- 1762-11-03 · Fontainebleau Antlaşması — Luizyana İspanya'ya bırakıldı → onem
+- 1851-09-17 · Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi → onem
+- 1829-01-01 · Fort Halkett kuruldu — Liard boyunca kürk hattı → onem
+- 1829-01-01 · Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi → onem
+- 1829-01-01 · Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim → onem
+- 1803-01-01 · Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi → onem
+- 1803-01-01 · Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu → onem
+- 1803-01-01 · Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı → onem
+
+### olaylar_ki117.js (14)
+- 1684-08-24 · Yazlofça'nın Leh eline geçişi → tur,onem,dunya
+- 1684-11-03 · Peşte'nin Osmanlı'ya geri dönüşü → tur,onem,dunya
+- 1686-01-01 · Meciboj Kalesi'nin Osmanlılarca tahliyesi → tur,onem,dunya
+- 1686-10-01 · Mohaç'ın Habsburg denetimine geçişi → tur,onem,dunya
+- 1689-09-11 · Baden Yagodina'ya vardı — Morava koridoru Avusturya hattına girdi → tur,onem,dunya
+- 1690-09-01 · Rumeli paşası Orsova Kalesi'ne girdi → tur,onem,dunya
+- 1686-06-17 · Peşte'ye Habsburg süvarisi girdi — Budin kuşatmasının ön hazırlığı → tur,onem,dunya
+- 1687-07-01 · İnebahtı'nın (Lepanto) Venedik'e geçişi → tur,onem,dunya
+- 1690-09-17 · Avlonya ve Kanina kaleleri Venedik'in eline düştü → tur,onem,dunya
+- 1690-08-29 · Dursun Mehmed Paşa Vidin'e girdi — Tuna kıyısı yeniden Osmanlı'da → tur,onem,dunya
+- 1691-03-15 · Venedik, Arnavutluk'ta aldığı kaleleri yıkıp çekildi → tur,onem,dunya
+- 1695-01-01 · Kızıkermen'in Rus eline geçişi → tur,onem,dunya
+- 1695-01-12 · Gyula'nın Habsburg'a teslimi → tur,onem,dunya
+- 1699-09-22 · Kamaniçe'nin Lehistan'a teslimi → onem,dunya
+
+### olaylar_kronoeksik_0921.js (4)
+- 1603-06-07 · Şehzade Mahmud'un boğdurulması → tur,onem,dunya
+- 1621-01-01 · Görülmemiş kış — İstanbul Boğazı'nın donması → tur,onem,dunya
+- 1826-04-08 · Nusretiye Camii inşaatının tamamlanması → tur,onem,dunya
+- 1883-11-03 · Hendese-i Mülkiyye Mektebi'nin kuruluşu → tur,onem,dunya
+
+### olaylar_kunfuze_1016.js (7)
+- 1814-03-01 · Mehmed Ali'nin kuvvetleri Kunfüze'yi Vehhâbîler'den aldı → tur,onem,dunya
+- 1814-05-01 · Tâmî'nin baskını — Mısır garnizonu gemilere çekildi → tur,onem,dunya
+- 1815-03-01 · Mehmed Ali Bîsel zaferinden sonra Kunfüze'ye girdi → onem,dunya
+- 1840-05-09 · Mısır ordusu Tihâme'den çekildi → tur,onem,dunya
+- 1871-03-01 · Redif Paşa'nın fırkası Kunfüze'ye çıktı → tur,onem,dunya
+- 1916-07-18 · Kunfüze'nin İngiliz gemilerine teslimi → tur,onem,dunya
+- 1919-05-01 · Hicaz Kralı Hüseyin Kunfüze'yi yeniden işgal etti → tur,onem,dunya
+
+### olaylar_misir1801.js (3)
+- 1801-05-14 · Dimyat'ın Fransızlardan alınması — Lesbe kalesinin boşaltılması → dunya
+- 1801-06-27 · Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu → dunya
+- 1801-08-31 · İskenderiye'nin Fransızlardan teslim alınması — Menou'nun kapitülasyonu → dunya
+
+### olaylar_ok104.js (6)
+- 1393-05-01 · Leş'in (Alessio) Dukagjinler tarafından Venedik'e bırakılması → tur,onem,dunya
+- 1284-01-01 · Bizans, Anjou'dan Kruja'yı (Akçahisar), Draç'ı ve Avlonya'yı geri aldı → tur,onem,dunya
+- 1344-01-01 · Sırplar Kruja'yı (Akçahisar), Berat'ı ve Avlonya'yı ele geçirdi → tur,onem,dunya
+- 1443-01-01 · İskender Bey Kruja'yı (Akçahisar) ele geçirdi — Arnavut direnişi başlıyor → tur,onem,dunya
+- 1392-01-01 · Draç (Durrës) Thopia'dan Venedik'e geçti → tur,onem,dunya
+- 1304-01-01 · Taranto'lu Philip Draç'ı (Durrës) yeniden Anjou yönetimine aldı → tur,onem,dunya
+
+### olaylar_ok106.js (7)
+- 1847-05-31 · II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması → onem,dunya
+- 1703-05-17 · Yenikale'nin inşası — Kerç Boğazı'nın kilitlenmesi → tur,onem,dunya
+- 1571-01-01 · Lehistan'ın Dinyeper hattını ileri sürmesi — Kremençuk'un kurulması → tur,dunya
+- 1616-01-01 · Lehistan'ın Yedisan uç hattında Uman'ın belirmesi → tur,dunya
+- 1638-01-01 · Moskova'nın bozkır savunma hattının ileri sürülmesi — Çuguyev → tur,dunya
+- 1652-01-01 · Slobodskaya Ukrayna'nın kuruluşu — Sumı ve bozkır yerleşim kuşağı → tur,dunya
+- 1754-01-01 · Aziz Yelizaveta Kalesi — Rusya'nın güney sınırının Osmanlı-Kırım akın hattına dayanması → tur,onem,dunya
+
+### olaylar_ok107.js (2)
+- 1515-09-19 · Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması — Diyarbekir'in güney kolu → tur,onem,dunya
+- 1514-09-15 · Tebriz'den çekiliş — bir haftalık işgalin sonu ve Kars-Bayburt üzerinden dönüş → tur,onem,dunya
+
+### olaylar_ok109.js (27)
+- 1918-10-28 · Çekoslovakya'nın bağımsızlık ilânı — Habsburg mirasından ilk ardıl devlet → dunya
+- 1918-10-29 · Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Saboru Habsburg bağlarını kopardı → dunya
+- 1918-10-30 · Avusturya Cumhuriyeti'nin kuruluşu — Habsburg mirasının Alman çekirdeği → dunya
+- 1918-10-31 · Pat Çiçeği Devrimi — Károlyi başbakan oldu, Macaristan'da monarşi çözülmeye başladı (halk  → tur,onem,dunya
+- 1918-11-03 · Villa Giusti Mütarekesi — Avusturya-Macaristan silâh bıraktı, Trento ve Trieste İtalya'ya  → onem,dunya
+- 1918-12-01 · Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu — aynı gün, iki devlet → dunya
+- 1919-09-10 · Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti → onem,dunya
+- 1920-06-04 · Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti → onem,dunya
+- 1920-06-04 · Banat bölüşüldü, Temeşvar Romanya'ya bırakıldı (Trianon md. 27/3 ve 45) → dunya
+- 1919-06-28 · Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi hukuka geçti → dunya
+- 1919-11-27 · Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti → dunya
+- 1921-11-13 · Avusturya Bundesheer'i Burgenland'a girdi — Trianon'un Avusturya'ya bıraktığı toprak fiile → dunya
+- 1918-11-19 · Sırp birlikleri Szigetvár'a girdi — Güney Somogy'un işgali → dunya
+- 1921-08-20 · Sırp birlikleri Szigetvár'dan çekildi — Macar jandarması şehri devraldı → dunya
+- 1918-11-11 · Polonya'nın bağımsızlığı — Naiplik Konseyi ordunun komutasını Piłsudski'ye verdi → dunya
+- 1918-11-14 · Sırp ordusu Pécs'i (Peçuy) işgal etti — Baranya'nın Sırp işgali başladı → dunya
+- 1918-11-14 · Sırp ordusu Timișoara'yı (Temeşvar) işgal etti — Banat'ın Sırp askerî idaresi başladı → dunya
+- 1918-12-01 · Romen ordusu Brașov'a (Brassó) girdi ve törenle karşılandı → dunya
+- 1918-12-19 · İtalyan ordusu Knin'i işgal etti → dunya
+- 1918-12-29 · Çekoslovak birlikleri Košice'yi (Kassa) aldı → dunya
+- 1919-04-20 · Romen ordusu Szatmár'a (19 Nisan) ve Oradea'ya (Varad, 20 Nisan) girdi → dunya
+- 1919-07-22 · Romen birlikleri Lugoj'a (Lugos) ulaştı — Banat'ın doğusunda Romen idaresi → dunya
+- 1919-08-03 · Romen ordusu Timișoara'ya (Temeşvar) girdi — şehirde Romen idaresi kuruldu → dunya
+- 1919-08-12 · SHS ordusu Prekmurje'ye girdi — Murska Sobota ve Lendava Macar idaresinden çıktı → dunya
+- 1921-04-04 · İtalyan ordusu Knin'den çekildi → dunya
+- 1921-06-12 · İtalya Şibenik'i SHS Krallığı'na teslim etti → dunya
+- 1921-08-22 · Pécs'in (Peçuy) Sırp işgali sona erdi — Macar Millî Ordusu şehre girdi → dunya
+
+### olaylar_p0036.js (7)
+- 1463-01-01 · Kilitbahir Kalesi'nin inşası — Çanakkale Boğazı'nın kontrolü → onem,dunya
+- 1884-05-01 · Berber'in Mehdî kuvvetlerinin eline geçmesi — Nil yolunun kesilmesi → tur,onem,dunya
+- 1868-01-01 · Katar'da Âl-i Sânî öne çıktı — İngiliz müdahalesi ve Bahreyn'e vergi → tur,onem,dunya
+- 1913-07-29 · Katar'dan Osmanlı feragati — Londra Sözleşmesi → onem,dunya
+- 1566-09-01 · Gyula (Göle) Kalesi'nin teslimi — Pertev Paşa'nın Tımışvar serhaddi seferi → tur,onem,dunya
+- 1566-07-25 · Yanova (Ineu) Kalesi'nin alınması — Zigetvar seferi → tur,onem,dunya
+- 1595-10-22 · Yanova (Ineu)'nın Erdel birliklerince işgali → tur,onem,dunya
+
+### olaylar_p0037.js (1)
+- 1689-10-01 · Vidin'in Avusturya'ya düşüşü — Ekim 1689 → tur,onem,dunya
+
+### olaylar_p0043kirim.js (4)
+- 1526-01-01 · Kızıkermen (Gazi Kerman) ve Dinyeper'in sağ kıyısının doğrudan Osmanlı denetimine girmesi → tur,onem,dunya
+- 1791-07-26 · Anapa'nın Ruslar tarafından işgali (üçüncü kuşatma) → tur,onem,dunya
+- 1828-06-24 · Anapa'nın Osman Paşa tarafından Ruslara teslimi → tur,onem,dunya
+- 1776-12-03 · Prozorovski Or Kapı'yı işgal etti — Rus kuvvetleri ilhaka kadar Orkapı'da kaldı → tur,onem,dunya
+
+### olaylar_p0047.js (1)
+- 1511-08-10 · Malaka'nın Portekizlilerce alınması → tur,onem,dunya
+
+### olaylar_p0048.js (2)
+- 1592-01-01 · Luristan hâkimi Şâhverdi'nin Şah Abbas'a bağlılık bildirmesi → onem,dunya
+- 1603-01-01 · Luristan'ın Safevîlere kesin olarak geçmesi → tur,onem,dunya
+
+### olaylar_p0049.js (30)
+- 1303-09-01 · Katalan Kumpanyası Bizans hizmetine girdi — Anadolu seferinin başlangıcı → tur,onem,dunya
+- 1578-08-09 · Ahıska atabegliğinin Osmanlı idaresine girmesi — Altunkale, Hırtıs ve Ahılkelek → tur,onem,dunya
+- 1555-05-29 · Megrelya (Dadyan) beyliği Osmanlı nüfuz bölgesine bırakıldı → onem,dunya
+- 1595-01-01 · Cesur Mihail'in Tuna kalelerine akınları — Rusçuk yakıldı, İbrâil alındı, Silistre yağmala → onem,dunya
+- 1711-04-09 · Prut Seferi başladı — 1710-1711 Osmanlı-Rus Savaşı'nda ordu İstanbul'dan çıktı → onem,dunya
+- 1787-07-27 · Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım → onem,dunya
+- 1919-04-12 · Kars'ın İngiliz işgali — Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı → tur,onem,dunya
+- 1919-04-29 · Antalya'nın İtalyan işgali → tur,onem,dunya
+- 1920-02-11 · Maraş'ın kurtuluşu — Fransızlar şehri boşalttı → onem,dunya
+- 1920-04-11 · Urfa'nın kurtuluşu — Fransız garnizonu şehri terk etti → onem,dunya
+- 1920-09-28 · Doğu Cephesi harekâtı başladı — Kâzım Karabekir Ermenistan'a karşı taarruza geçti → onem,dunya
+- 1920-10-30 · Kars'ın kurtuluşu — Doğu Cephesi Kars'a girdi → tur,onem,dunya
+- 1920-11-07 · Gümrü'nün alınışı — Doğu Cephesi Ermenistan içlerine ilerledi → onem,dunya
+- 1920-11-12 · Iğdır'ın alınışı → tur,onem,dunya
+- 1921-02-09 · Antep savunmasının sonu — şehir on ay direndikten sonra Fransızlara bırakıldı → onem,dunya
+- 1921-02-23 · Ardahan ve Artvin'in kurtuluşu → tur,onem,dunya
+- 1921-03-16 · Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi → onem,dunya
+- 1921-06-01 · İtalyanlar Antalya'yı boşaltmaya başladı → tur,onem,dunya
+- 1538-11-27 · Hadramut ve Şihr hâkimi Osmanlı hâkimiyetini tanıdı — Hadım Süleyman Paşa'nın Hint seferi  → onem,dunya
+- 1603-01-01 · Şah Abbas Tiflis'i geri aldı — Kartli ve Kaheti'de Osmanlı idaresinin sonu → tur,onem,dunya
+- 1587-01-01 · Gori eyaleti kuruldu — Kartli'nin batısında doğrudan Osmanlı idaresi → tur,onem,dunya
+- 1579-07-26 · Kılıç Ali Paşa Faş (Poti) Kalesi'ni inşa etti — Rioni ağzında Osmanlı üssü → tur,onem,dunya
+- 1640-01-01 · Faş (Poti) Kalesi İmereti, Guria ve Megrelya birliklerince yıkıldı → tur,onem,dunya
+- 1724-03-01 · Faş (Poti) Kalesi'nin yeniden inşasına başlandı → tur,onem,dunya
+- 1809-11-27 · Rus kuvvetleri Faş (Poti) Kalesi'ni aldı — Rioni ağzı elden çıktı → tur,onem,dunya
+- 1812-12-19 · Bükreş Antlaşması gereğince Faş (Poti) Kalesi Osmanlı'ya geri verildi → onem,dunya
+- 1828-06-26 · Faş (Poti) Kalesi ikinci kez Rus eline geçti — Edirne Antlaşması'yla Rusya'da kaldı → tur,onem,dunya
+- 1733-08-17 · Nâdir Şemâhî'ye girdi — Şirvan'ın merkezi Osmanlı'dan çıktı → tur,onem,dunya
+- 1915-07-25 · İngilizler Nâsıriye'yi işgal etti — Fırat cephesi → tur,onem,dunya
+- 1724-05-06 · Hoy, Kapan ve Karadağ yöresi yeniden Osmanlı idaresine geçti → tur,onem,dunya
+
+### olaylar_p0050.js (6)
+- 1527-01-01 · Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı se → tur,onem,dunya
+- 1527-01-01 · Bihaç'ın kısa süreli Osmanlı idaresi — Mohaç ve Yayça'nın düşüşünün ardından → tur,onem,dunya
+- 1814-01-28 · Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre Avusturya kuvvetleri → tur,onem,dunya
+- 1882-03-06 · Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü → tur,onem,dunya
+- 1920-07-01 · Filistin'de İngiliz sivil manda idaresi kuruldu — Osmanlı'dan alınan topraklarda askerî yö → tur,onem,dunya
+- 1922-03-15 · Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvanını aldı → tur,onem,dunya
+
+### olaylar_p0051.js (4)
+- 1480-01-01 · Hacıbey (Kaçibey) kalesinin Litvanya'nın elinden çıkması → tur,onem,dunya
+- 1585-01-01 · Moskova'nın Voronej'de bozkıra karşı ileri garnizon kurması → onem,dunya
+- 1596-01-01 · Moskova'nın Belgorod, Oskol ve Kursk'u bozkırda ileri garnizon olarak kurması → onem,dunya
+- 1570-01-01 · IV. İvan'ın Don kazaklarına gramotası — Don Kazak Ordası'nın ilk güvenilir kaydı → tur,onem,dunya
+
+### olaylar_p0052.js (1)
+- 1884-01-01 · Siirt sancağı Diyarbekir'den Bitlis vilâyetine nakledildi — Eruh kazası ve Şırnak köyü de  → tur,onem,dunya
+
+### olaylar_p0053.js (3)
+- 1624-01-01 · Musul ve Kerkük'ün Safevî eline geçmesi — Bağdat'ın düşüşünün ardından → tur,onem,dunya
+- 1625-01-01 · Musul'un Safevîlerden kurtarılması — Hâfız Ahmed Paşa'nın Bağdat seferi → tur,onem,dunya
+- 1630-03-16 · Hüsrev Paşa'nın Şehrizor'da Gülanber Kalesi'ni yeniden kurması — Şehrizor beylerbeyiliği → tur,onem,dunya
+
+### olaylar_p0055.js (8)
+- 1371-09-26 · Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu → onem,dunya
+- 1412-01-01 · Sırp Despotu Stefan Lazareviç Şehirköy'ü (Pirot) aldı → tur,onem,dunya
+- 1538-01-01 · Herseknovi (Castelnuovo) Andrea Doria tarafından zaptedildi → tur,onem,dunya
+- 1539-08-10 · Herseknovi'nin (Castelnuovo) Barbaros Hayreddin Paşa tarafından geri alınması → tur,onem,dunya
+- 1369-01-01 · Timurtaş Bey Tunca vadisinde Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı → tur,onem,dunya
+- 1798-12-25 · Desaix'nin Yukarı Mısır seferi — Fransız tümeni Minye, Asyut ve Girga'ya ulaştı → onem,dunya
+- 1799-02-18 · Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı → tur,onem,dunya
+- 1799-12-28 · Arîş'in Fransızlardan geri alınması → onem,dunya
+
+### olaylar_p0056.js (13)
+- 1739-08-28 · Stavuçani yenilgisi ve Hotin'in Ruslara teslimi (1736-1739 Osmanlı-Rus Savaşı) → onem,dunya
+- 1769-01-01 · Rus ordusunun Dinyester'i geçerek Boğdan'a girmesi (1768-1774 Osmanlı-Rus Savaşı) → onem,dunya
+- 1788-01-01 · Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a girmesi (1787-1792 Osmanlı-Rus → onem,dunya
+- 1806-11-23 · Rus ordusunun savaş ilan edilmeden Dinyester'i geçip Memleketeyn'i işgale başlaması (1806- → onem,dunya
+- 1806-11-30 · Akkirman'ın Ruslar tarafından ele geçirilmesi (1806) → tur,onem,dunya
+- 1806-12-25 · Miloradoviç'in Bükreş'e girmesi — Eflak'ın Rus işgali → tur,onem,dunya
+- 1810-06-10 · Silistre'nin Ruslara teslimi → tur,onem,dunya
+- 1810-10-01 · Niğbolu ve Kule'nin (Turnu) direnmeden Ruslara teslimi → tur,onem,dunya
+- 1811-07-04 · Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi → onem,dunya
+- 1828-05-07 · Rus 6. Piyade Kolordusunun Prut'u geçip Memleketeyn'e girmesi (1828-1829 Osmanlı-Rus Savaş → onem,dunya
+- 1829-06-30 · Silistre'nin Dibiç'e teslimi — 1836'ya kadar sürecek Rus işgali → tur,onem,dunya
+- 1836-01-01 · Rusların Silistre'yi boşaltması → tur,onem,dunya
+- 1853-07-03 · Rus ordusunun Prut'u geçip Memleketeyn'i (Eflak-Boğdan) işgale başlaması — Kırım Savaşı'na → onem,dunya
+
+### olaylar_p0057.js (38)
+- 1919-01-23 · Eskişehir'in İngilizlerce işgali → tur,onem,dunya
+- 1919-05-11 · İtalyanların Güneybatı Anadolu kıyılarına çıkışı — Marmaris, Bodrum, Kuşadası → tur,onem,dunya
+- 1919-05-26 · Yunan kuvvetlerinin Manisa ve Aydın'a girişi → tur,onem,dunya
+- 1919-06-28 · Burdur'un İtalyan işgali — Isparta'ya yönelen bölüğün geri çekilişi → tur,onem,dunya
+- 1919-06-30 · Aydın'ın kısa süreli kurtarılışı ve 4 Temmuz'da yeniden işgali → onem,dunya
+- 1919-07-23 · Muğla'nın İtalyan işgali → tur,onem,dunya
+- 1920-03-20 · İngilizlerin Eskişehir'i boşaltması → tur,onem,dunya
+- 1920-06-22 · Yunan yaz taarruzu — Akhisar, Soma, Balıkesir ve Alaşehir'in işgali → onem,dunya
+- 1920-07-08 · Bursa'nın Yunan işgali → tur,onem,dunya
+- 1920-07-20 · Yunan ordusunun Doğu Trakya'yı işgali — Edirne ve Kırklareli → tur,onem,dunya
+- 1920-07-28 · Kızılordu'nun Nahçıvan'a girişi → tur,onem,dunya
+- 1920-08-29 · Uşak'ın Yunan işgali → tur,onem,dunya
+- 1920-10-25 · İnegöl ve Yenişehir'in Yunan işgali → tur,onem,dunya
+- 1921-03-23 · Yunan ordusunun ikinci taarruzu — Bilecik, Afyon ve Adapazarı'nın işgali → onem,dunya
+- 1921-03-28 · Türk kuvvetlerinin Batum'u boşaltması → tur,onem,dunya
+- 1921-04-07 · Afyon'un geri alınışı — Aslıhanlar muharebeleri → onem,dunya
+- 1921-06-28 · İzmit'in kurtuluşu — Adapazarı'nın ardından → tur,onem,dunya
+- 1921-07-05 · Muğla'nın İtalyan işgalinden kurtuluşu → tur,onem,dunya
+- 1921-07-20 · Eskişehir'in boşaltılması — Yunan ordusu Eskişehir, Kütahya ve Bilecik'e girdi → tur,onem,dunya
+- 1922-08-26 · Büyük Taarruz başladı → onem,dunya
+- 1922-08-27 · Afyon'un kurtuluşu → tur,onem,dunya
+- 1922-08-30 · Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu → onem,dunya
+- 1922-09-01 · Uşak'ın kurtuluşu → tur,onem,dunya
+- 1922-09-02 · Eskişehir'in kurtuluşu → tur,onem,dunya
+- 1922-09-06 · Bilecik'in kurtuluşu → tur,onem,dunya
+- 1922-09-07 · Aydın'ın kurtuluşu → tur,onem,dunya
+- 1922-09-11 · Bursa'nın geri alınışı → tur,onem,dunya
+- 1922-11-10 · Doğu Trakya'nın teslim alınması — Kırklareli ve Tekirdağ → tur,onem,dunya
+- 1919-10-15 · Garbî Trakya'da Fransız askerî idaresinin başlaması → onem,dunya
+- 1921-01-01 · Burdur'un İtalyan işgalinin sona ermesi (yıl) → tur,onem,dunya
+- 1557-04-02 · Özdemir Paşa'nın Masavva' limanını alması → tur,onem,dunya
+- 1793-01-31 · Nice Kontluğu'nun Fransa'ya katılması → tur,onem,dunya
+- 1922-04-29 · İtalyan birliklerinin Marmaris ve Kuşadası'ndan çekilişi → tur,onem,dunya
+- 1442-01-16 · Müşa'şa'îler Havîza'ya yerleşti — Huzistan'da Müşa'şa' idaresi başladı → tur,onem,dunya
+- 1508-05-02 · Şah İsmâil Havîza'yı bağladı — Müşa'şa'îler Safevî'ye tâbi valiler oldu → tur,onem,dunya
+- 1534-01-01 · Pasin, Şüregel ve Oltu kaleleri Safevîlerden alındı — Erzurum-Kars arası → tur,onem,dunya
+- 1918-03-12 · Kâzım Karabekir'in kış harekâtı: Erzurum ile birlikte Hasankale (Pasinler) geri alındı → tur,onem,dunya
+- 1917-01-09 · Refah çarpışması — İngiliz-Anzak süvarisi Mağrunteyn mevzilerini ve Refah'ı aldı → tur,onem,dunya
+
+### olaylar_p0057b.js (7)
+- 1431-01-01 · Bugüne ulaşan en eski tahrir defteri — Arvanid Sancağı Defteri → tur,onem,dunya
+- 1520-01-01 · Tarihçi Neşrî'nin ölümü → tur,onem,dunya
+- 1574-01-01 · Darüssaade ağalığı Bâbüssaâde ağalığından ayrılıp müstakil makam oldu → tur,onem,dunya
+- 1648-01-01 · Evliya Çelebi İznik'te çini imalathanesi sayısının dokuza düştüğünü kaydetti → tur,onem,dunya
+- 1702-01-01 · Naîmâ vakanüvis olarak tarihini Amcazâde Hüseyin Paşa'ya sundu → tur,onem,dunya
+- 1734-01-01 · Naîmâ Tarihi (Ravzatü'l-Hüseyn) Müteferrika Matbaası'nda basıldı → tur,onem,dunya
+- 1756-12-22 · Veliaht Şehzade Mehmed'in ölümü — zehirlenme iddiası tartışmalı → tur,onem,dunya
+
+### olaylar_p0058.js (6)
+- 1339-01-01 · Eretna, Tokat, Kayseri ve Samsun yörelerini kendisine bağladı → tur,onem,dunya
+- 1360-01-01 · Dulkadirli Halil Bey sınırlarını Zamantı'ya kadar genişletti → tur,onem,dunya
+- 1394-01-01 · Yıldırım Bayezid İstanbul'u yeniden sıkı bir kuşatma altına aldı → onem,dunya
+- 1424-02-22 · II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti → onem,dunya
+- 1514-10-23 · Bayburt ve Kiğı kaleleri Safevîlerden teslim alındı — Erzincan ile Bayburt Bıyıklı Mehmed  → tur,onem,dunya
+- 1514-11-24 · Yavuz Sultan Selim Tebriz seferinden Amasya'ya döndü ve kışı orada geçirdi → tur,onem,dunya
+
+### olaylar_p0059.js (1)
+- 1594-11-13 · Eflak, Boğdan ve Erdel Osmanlı'ya karşı birlikte ayaklandı → onem,dunya
+
+### olaylar_p0060.js (5)
+- 1723-01-01 · Rus kuvvetlerinin Enzeli'ye çıkıp Reşt'e yerleşmesi — Gîlân işgalinin başlangıcı → onem,dunya
+- 1723-09-23 · Petersburg Antlaşması — Tahmasb'ın elçisi Hazar kıyısı eyaletlerini Rusya'ya bıraktı → onem,dunya
+- 1725-01-01 · Rus kuvvetlerinin Lâhîcân'ı işgali — Gîlân'da en doğu nokta → onem,dunya
+- 1732-01-01 · Reşt Antlaşması — Rusya Gîlân, Mâzenderân ve Esterâbâd'ı İran'a iade etti → onem,dunya
+- 1732-09-02 · Rus kuvvetlerinin Gîlân ve Tâliş'i boşaltması — Levaşov Kura'yı geçti → tur,onem,dunya
+
+### olaylar_p0063.js (19)
+- 1724-09-11 · Salyan'da Rus taburunun yok edilmesi — Tahmasb'ın birlikleri Kura ağzına girdi → onem,dunya
+- 1734-05-31 · Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend verilmezse Osmanlı ile → tur,onem,dunya
+- 1734-11-09 · Rus çekilme buyruğu — Bakü, Nizovaya ve Kura'dan Derbend'e kadar bütün mevziler boşaltılac → tur,onem,dunya
+- 1735-05-01 · Bakü'nün İran'a teslimi → tur,onem,dunya
+- 1735-05-08 · Derbend'in İran'a teslimi — on üç yıllık Rus işgalinin sonu → tur,onem,dunya
+- 1735-08-23 · Kutsal Haç kalesinin yıkılması — Rus sınırı Terek'e çekildi, Kızlar kalesi kuruldu → tur,onem,dunya
+- 1735-01-01 · Kırım kuvvetlerinin Kabartay üzerinden İran'a sevki — Rusya'nın protestosu ve savaşın baha → tur,onem,dunya
+- 1736-05-02 · Rusya ile savaş kararı — Azak'a Rus saldırısı üzerine → onem,dunya
+- 1736-07-13 · Azak'ın Ruslara düşüşü → tur,onem,dunya
+- 1737-07-14 · Avusturya Osmanlı'ya savaş ilan etti — Rusya'nın yanında ikinci cephe → onem,dunya
+- 1737-07-27 · Niş'in Avusturya'ya düşüşü — Seckendorf'un Sırbistan harekâtı → tur,onem,dunya
+- 1737-10-16 · Niş'in Avusturya'dan geri alınışı → tur,onem,dunya
+- 1738-08-17 · Adakale'nin Avusturya'dan alınışı → tur,onem,dunya
+- 1735-07-09 · Gence'nin Nâdir'e teslimi → tur,onem,dunya
+- 1735-08-12 · Tiflis'in İran birliklerine geçişi → tur,onem,dunya
+- 1736-06-01 · Or Kapı'nın Münnich'e teslimi — Rus ordusu Kırım'a girdi → tur,onem,dunya
+- 1736-06-19 · Kılburun Kalesi'nin Leontiev'e teslimi → onem,dunya
+- 1736-08-27 · Münnich Or Kapı hattını yıkarak Kırım'dan çekildi → tur,onem,dunya
+- 1737-07-25 · Lacy'nin öncüsü Karasubazar'ı aldı ve yaktı → tur,onem,dunya
+
+### olaylar_p0065.js (3)
+- 1770-08-12 · Yedisan ve Bucak Nogaylarının Rus himayesine geçmesi → tur,onem,dunya
+- 1771-06-26 · Orkapı hattının Ruslara geçmesi → tur,onem,dunya
+- 1771-06-29 · Arabat Kalesi'nin düşmesi; Kerç, Yenikale ve Taman'ın Rus eline geçmesi → tur,onem,dunya
+
+### olaylar_p0067.js (1)
+- 1788-09-21 · Sebeş (Karansebeş) muharebesi — Avusturya ordusunun gece çekilişi → onem,dunya
+
+### olaylar_p0068.js (6)
+- 1789-10-13 · Belgrad ve Semendire'nin Avusturya'nın eline geçmesi → tur,onem,dunya
+- 1427-01-01 · Prens Yinal'in Kabartayları tek yönetimde birleştirmesi → tur,onem,dunya
+- 1563-01-01 · Rusya'nın Kafkasya'daki ilk kalesi: Terek → tur,onem,dunya
+- 1763-01-01 · Rusya'nın Kabartay'da Mozdok Kalesi'ni yapması → tur,onem,dunya
+- 1475-01-01 · Çerkez kıyısının Osmanlı hâkimiyetini tanıması → tur,onem,dunya
+- 1861-06-13 · Çerkezlerin Soçi'de toplanıp Osmanlı, İngiltere ve Fransa'dan yardım istemesi → tur,onem,dunya
+
+### olaylar_p0068b.js (36)
+- 1788-01-25 · Melek Mehmed Paşa'nın vezirlikten azli — barış yanlılarının tasfiyesi → tur,onem,dunya
+- 1788-02-22 · Serdâr-ı ekrem Koca Yûsuf Paşa'nın mutlak yetkiyle sefere çıkışı → tur,onem,dunya
+- 1788-05-10 · Cezayirli Gazi Hasan Paşa'nın donanmayla Karadeniz'e açılması → onem,dunya
+- 1788-08-01 · Yılan Adası (Fidonisi) deniz muharebesi → onem,dunya
+- 1789-05-01 · Kalas bozgunu → onem,dunya
+- 1789-06-07 · Koca Yûsuf Paşa'nın sadâretten azli → tur,onem,dunya
+- 1789-08-01 · Fokşani bozgunu → onem,dunya
+- 1789-09-22 · Rimnik (Boze) bozgunu → onem,dunya
+- 1789-12-03 · Cezayirli Gazi Hasan Paşa'nın sadrazam ve serdâr-ı ekrem tayini → tur,onem,dunya
+- 1790-03-30 · Serdâr-ı ekremin Şumnu ordugâhında vefatı — dört aylık sadâretin sonu → tur,onem,dunya
+- 1790-04-16 · Eski Hırsova'nın düşüşü — kış boyu süren muhasaranın sonu → tur,onem,dunya
+- 1790-01-01 · Kalafat çıkarması ve püskürtülmesi → onem,dunya
+- 1790-06-08 · Avusturya kuvvetlerinin Yergöğü'ye inişi ve püskürtülmesi → onem,dunya
+- 1789-01-01 · Akkirman'ın Ruslar tarafından ele geçirilmesi → tur,onem,dunya
+- 1791-01-01 · Rusların İbrâil kuşatması — kale alınamadı → onem,dunya
+- 1791-02-27 · Koca Yûsuf Paşa'nın ikinci sadâreti — Şumnu ordugâhında göreve başlaması → tur,onem,dunya
+- 1791-07-09 · Maçin bozgunu — barışı getiren yenilgi → onem,dunya
+- 1790-09-06 · İstanbul meşveret meclisinin mütareke kararı — ön şartlardan vazgeçilmesi → tur,onem,dunya
+- 1790-09-18 · Yergöğü Mütarekesi — Avusturya cephesinde silahların susması → onem,dunya
+- 1790-09-21 · Yergöğü Mütarekesi'nin Coburg tarafından imzalanması ve metinlerin mübadelesi → tur,onem,dunya
+- 1791-06-11 · Yergöğü Mütarekesi'nin sona ermesi — barışın aynı yaza sıkışması → onem,dunya
+- 1791-08-08 · Kalas'ta Vâsıf Efendi ile Prens Repnin arasında mütareke mutabakatı → tur,onem,dunya
+- 1791-08-11 · Kalas (Galaç) Mütarekesi — Rusya ile sekiz aylık ateşkes → onem,dunya
+- 1790-12-30 · Ziştovi barış konferansının açılışı → tur,onem,dunya
+- 1791-06-10 · Ziştovi görüşmelerinin kesilmesi — Avusturya heyetinin Bükreş'e çekilmesi → tur,onem,dunya
+- 1791-07-18 · Barış müzakerelerinin yeniden başlaması — Herbert'in Ziştovi'ye dönüşü → tur,onem,dunya
+- 1791-08-12 · Ziştovi Antlaşması'nın padişah tarafından onaylanması → onem,dunya
+- 1791-08-31 · Ziştovi tasdiknâmelerinin merasimle mübadelesi → onem,dunya
+- 1791-10-16 · Potemkin'in ölümü — Yaş görüşmelerinin Rus tarafında el değiştirmesi → tur,onem,dunya
+- 1791-11-10 · Yaş'ta Osmanlı-Rus müzakerelerinin başlaması → tur,onem,dunya
+- 1792-01-07 · Yaş'ta on dördüncü oturum — Rusya'nın tazminat talebinden vazgeçmesi → tur,onem,dunya
+- 1792-01-18 · Yaş Antlaşması'nın sadrazam senediyle onaylanması → onem,dunya
+- 1792-01-27 · Yaş'ta on altıncı oturum — teyidnâmelerin mübadelesi → onem,dunya
+- 1792-02-10 · Yaş tasdiknâmelerinin mübadelesi — barışın devletler hukukunda kesinleşmesi → onem,dunya
+- 1792-05-03 · Koca Yûsuf Paşa'nın azli ve Trabzon valiliğine tayini → tur,onem,dunya
+- 1792-05-04 · Melek Mehmed Paşa'nın sadârete tayini — ıslahat kadrosunun kurulması → tur,onem,dunya
+
+### olaylar_p0069.js (9)
+- 1523-01-01 · Una vadisinde Ostrovica Kalesi'nin fethi → tur,onem,dunya
+- 1527-05-01 · Udbina ve Krbava kalelerinin fethi — Lika Osmanlı idaresine giriyor → tur,onem,dunya
+- 1592-01-01 · Drežnik ve Drežnik županiyasının kesin olarak Osmanlı idaresine geçişi → tur,onem,dunya
+- 1636-01-01 · Cetin Kalesi'nin Osmanlılarca alınması → tur,onem,dunya
+- 1638-01-01 · Cetin Kalesi'nin Habsburg tarafına geri geçmesi → tur,onem,dunya
+- 1670-01-01 · Cetin'in yeniden Osmanlı kalesi olması → tur,onem,dunya
+- 1689-01-01 · Lika ve Krbava'nın kaybı — Udbina ve Gospić Habsburg sınır kuvvetlerinin eline geçti → tur,onem,dunya
+- 1788-01-01 · Drežnik'in Avusturya'ca zaptı — Dubica Savaşı'nın batı cephesi → tur,onem,dunya
+- 1790-01-01 · Cetin Kalesi'nin Avusturya'ca zaptı → tur,onem,dunya
+
+### olaylar_p0917dunya.js (26)
+- 1915-09-26 · Kûtülamâre'nin İngiliz işgali → onem,dunya
+- 1916-02-16 · Erzurum'un Rus işgaline düşmesi → onem,dunya
+- 1916-03-01 · Bitlis'in Rus işgali → onem,dunya
+- 1916-04-18 · Trabzon'un Rus işgali → onem,dunya
+- 1916-07-24 · Erzincan'ın Rus işgali → onem,dunya
+- 1916-08-08 · Bitlis'in Rus işgalinden kurtarılması → tur,onem,dunya
+- 1916-11-06 · Ali Dînâr'ın öldürülmesi — Dârfûr Sultanlığı sona erdi, Darfur İngiliz Sudanı'na bağlandı → tur,onem,dunya
+- 1916-09-17 · Tâif'in Şerif Hüseyin kuvvetlerine geçmesi → tur,onem,dunya
+- 1918-02-24 · Trabzon'un Rus işgalinden kurtuluşu → tur,onem,dunya
+- 1918-02-26 · Erzincan'ın kurtuluşu → tur,onem,dunya
+- 1918-03-12 · Erzurum'un kurtuluşu → tur,onem,dunya
+- 1918-09-15 · Kafkas İslâm Ordusu'nun Bakü'yü alması → onem,dunya
+- 1916-03-08 · Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü → onem,dunya
+- 1916-07-16 · Bayburt ve Gümüşhane'nin Rus işgali → onem,dunya
+- 1918-02-19 · Bayburt ve Gümüşhane'nin kurtuluşu → tur,onem,dunya
+- 1918-03-02 · Rize'nin kurtuluşu: Doğu Karadeniz kıyısının geri alınışı → tur,onem,dunya
+- 1915-02-23 · Hopa'nın Rus işgali → onem,dunya
+- 1916-02-24 · Aşkale'nin Rus işgali → onem,dunya
+- 1918-04-01 · Tuz Hurmatu bozgunu — Osmanlı birlikleri Kerkük'e çekildi → onem,dunya
+- 1917-03-07 · Necef'in İngiliz işgali → onem,dunya
+- 1918-05-07 · Kerkük'ün İngiliz işgali → onem,dunya
+- 1918-05-27 · Kerkük'ün geri alınışı → tur,onem,dunya
+- 1921-02-25 · Kızıl Ordu'nun Tiflis'e girişi: Gürcistan Demokratik Cumhuriyeti'nin düşüşü → onem,dunya
+- 1917-12-06 · Hânekîn İngiliz hattına girdi → onem,dunya
+- 1918-04-28 · Güney Kürdistan harekâtı: C kolu Kifri'ye girdi → onem,dunya
+- 1918-07-12 · Sâmerrâ demiryolunun ucu: Tikrit'e İngiliz müfrezesi yerleşti → onem,dunya
+
+### olaylar_p0917kosu13.js (32)
+- 1723-08-06 · Rus kuvvetlerinin Bakü'yü alması → onem,dunya
+- 1723-11-10 · Erdelan'ın merkezi Senendec'in (Sine) teslimi → tur,onem,dunya
+- 1724-01-01 · Urmiye ve Selmâs'ın Osmanlı idaresine geçişi → tur,onem,dunya
+- 1725-09-09 · Erdebil'in alınışı → tur,onem,dunya
+- 1735-10-03 · Revan'ın Nâdir Han'a teslimi → tur,onem,dunya
+- 1387-01-01 · Vodina'nın fethi (1386-1387 kışı) → tur,onem,dunya
+- 1415-01-01 · Manisa'nın Çelebi Mehmed idaresine girişi — Saruhanoğulları Manisa kolunun sonu → tur,onem,dunya
+- 1427-01-01 · Yergöğü'nün Eflak'a geçişi → tur,onem,dunya
+- 1450-01-01 · Yergöğü'nün yeniden Osmanlı kontrolüne girişi (853/1449-50) → tur,onem,dunya
+- 1516-10-01 · Kudüs ve Filistin şehirlerinin Osmanlı yönetimine girişi → tur,onem,dunya
+- 1532-01-01 · Bitlis Safevî himayesine geçti — Ulama ve Fil Paşa kuşatmayı kaldırdı → tur,onem,dunya
+- 1534-01-01 · Bitlis Ulama Paşa eliyle kesin olarak Osmanlı'ya katıldı → tur,onem,dunya
+- 1578-08-24 · Tiflis'in savaşsız ele geçirilmesi — Kahet ve İmeret'in itaati → tur,onem,dunya
+- 1588-09-01 · Karacadağ (Ahar) hâkimi Şâhverdi Han'ın Cafer Paşa'ya itaati — Merend'in Osmanlı idaresine → tur,onem,dunya
+- 1589-01-01 · Cığalazâde Sinan Paşa'nın Nihâvend'i alıp kale kurması — Luristan'ın itaati → tur,onem,dunya
+- 1722-11-01 · Hacı Dâvud'un Şirvan hâkimiyetinin Osmanlı'ca tanınması → tur,onem,dunya
+- 1731-11-15 · Hekimoğlu Ali Paşa'nın Tebriz'i geri alması → tur,onem,dunya
+- 1770-10-09 · Dinyester ağzında Akkirman Kalesi düştü → tur,onem,dunya
+- 1770-09-01 · Kili Kalesi'nin Repnin'e teslimi → tur,onem,dunya
+- 1788-09-01 · Hotin'in Avusturya-Rus kuvvetlerince zaptı → tur,onem,dunya
+- 1789-11-01 · Avusturya ordusunun (Coburg) Bükreş'i işgali → onem,dunya
+- 1789-11-14 · Bender Kalesi'nin Potemkin'e teslimi → tur,onem,dunya
+- 1790-10-24 · Kili Kalesi'nin Ruslara teslimi → tur,onem,dunya
+- 1809-09-26 · İsmail Kalesi'nin General Zass'a teslimi → tur,onem,dunya
+- 1565-01-01 · Krupa Kalesi'nin Osmanlılarca alınması → tur,onem,dunya
+- 1736-03-24 · Rusya Azak ve Kırım üzerine yürüdü — Osmanlı-Rus Savaşı fiilen başladı → onem,dunya
+- 1739-12-12 · Rusya ile barışın ahidnamesi: Kabartay tarafsız, Azak yıkılacak → onem,dunya
+- 1788-08-26 · Dubica'nın Avusturya'ya düşüşü → tur,onem,dunya
+- 1788-10-03 · Laudon Una üzerindeki Novi kalesini aldı → tur,onem,dunya
+- 1838-01-01 · Ruslar Çerkez kıyısında Soçi ve Tuapse limanlarını aldı → tur,onem,dunya
+- 1854-01-01 · Ruslar Kırım Savaşı'nda Tuapse'deki Velyaminovski kalesini boşaltıp havaya uçurdu → onem,dunya
+- 1864-02-01 · Ruslar Tuapse'deki eski Velyaminovski kalesini yeniden aldı → tur,onem,dunya
+
+### olaylar_p0917taraf.js (7)
+- 1909-04-19 · İstanbul'da Türk-Bulgar Protokolü — Osmanlı Bulgaristan'ın bağımsızlığını tanıdı → onem,dunya
+- 1913-11-17 · İstanbul Protokolü — Türk-İran sınırının tahdidi → onem,dunya
+- 1915-09-06 · Sofya Sözleşmesi — Osmanlı-Bulgar sınırının düzeltilmesi → onem,dunya
+- 1886-01-01 · Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi → onem,dunya
+- 1892-01-01 · İkinci Fransız-Osmanlı düzenlemesi — Tunus-Trablusgarp sınırı Gadames'e kadar uzatıldı → onem,dunya
+- 1906-10-01 · Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi → onem,dunya
+- 1910-05-19 · Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır Ras Ecdir'den Gadames → onem,dunya
+
+### olaylar_sehir_ilk.js (34)
+- 1284-03-20 · Bilecik ilk kez anılır — Bizans ile sınır Bilecik'te başlıyordu → tur,onem,dunya
+- 1299-09-28 · Burdur'da Gāzân Han adına sikke — şehrin bilinen ilk tanığı → tur,onem,dunya
+- 1352-03-01 · Çorum Eretna'nın ülkesinde anılır — şehrin bilinen ilk tanığı → tur,onem,dunya
+- 1452-04-03 · Mostar'ın adı ilk kez bir Dubrovnik belgesinde geçer → tur,onem,dunya
+- 1472-06-08 · Tatarpazarcığı ilk kez akıncı defterinde kayıtlıdır → tur,onem,dunya
+- 1494-02-06 · Banaluka ilk kez Kral II. Vladislav'ın bir talimatında anılır → tur,onem,dunya
+- 1813-03-06 · Vâdî Halfâ Burckhardt'ın Nubia yolculuğunda kaydedilir → tur,onem,dunya
+- 1458-01-01 · Saraybosna'da Hünkâr Camii — yerleşimin en erken tarihli tanığı → tur,onem,dunya
+- 1494-10-02 · Basra halkı bugünkü sahaya taşınmayı tamamlar — eski Basra terk edilir → onem,dunya
+- 1738-03-24 · Nâdir Şah Kandehar'ı alır ve eski şehri yıktırır → tur,onem,dunya
+- 1838-01-01 · Malatya halkı Aspuzu bağlarında kalır — modern Malatya'nın çekirdeği → tur,onem,dunya
+- 1918-04-02 · Van yeni yerinde kurulur — harap eski şehir bırakılır → onem,dunya
+- 1503-01-01 · Mengli Giray Han Çürüksu kenarında Han Sarayı'nı yaptırdı — Bahçesaray'ın temeli → onem,dunya
+- 1778-01-01 · Dinyeper ağzında Herson tersanesi kuruldu → onem,dunya
+- 1779-01-01 · Kırım'dan gelen Rumlar Azak kıyısında Mariupol'ü kurdu → onem,dunya
+- 1783-01-01 · Yekaterinoslav Dinyeper kıyısındaki bugünkü yerine taşındı → onem,dunya
+- 1805-01-01 · Don Kazak Ordusu'nun yeni merkezi Novoçerkask kuruldu → onem,dunya
+- 1784-01-01 · Ahtiar koyunda Rus donanma limanı Sivastopol kuruldu → onem,dunya
+- 1827-01-01 · Azak kıyısında Berdyansk iskelesi kuruldu → onem,dunya
+- 1784-01-01 · Bug ağzında Nikolayev tahkimatı kuruldu → onem,dunya
+- 1784-01-01 · Molochna kıyısında Melitopol'ün çekirdeği olan sınır yerleşimi kuruldu → onem,dunya
+- 1777-01-01 · Azak-Mozdok hattında Stavropol kalesi kuruldu → onem,dunya
+- 1420-01-01 · Kişinev ilk kez Boğdan voyvodasının fermanında anıldı → tur,onem,dunya
+- 1654-01-01 · Harkov Kazak göçmenlerince kuruldu → onem,dunya
+- 1738-01-01 · Volga kıyısında Stavropol kalesi kuruldu → onem,dunya
+- 1462-02-01 · İshak Bey vakfiyesi — Saraybosna'nın şehir çekirdeği vakfedildi → onem,dunya
+- 1368-01-20 · İbrail ilk kez anılır — Vlaicu Vodă'nın Braşovlu tüccarlara imtiyaz belgesi → tur,onem,dunya
+- 1445-01-01 · Kalas ilk kez bir Boğdan voyvodası belgesinde anılır → tur,onem,dunya
+- 1552-01-01 · Zaporojye Kazakları Hortiça adasında ilk Seç'i kurdu → onem,dunya
+- 1593-01-01 · Bazavluk Seçi kuruldu → onem,dunya
+- 1628-01-01 · Mıkıtın Rog Seçi ilk kez anılır → tur,onem,dunya
+- 1652-01-01 · Çortomlık Seçi kuruldu → onem,dunya
+- 1711-01-01 · Zaporojye Kazakları Kırım hanının izniyle Aleşki Seçi'ni kurdu → onem,dunya
+- 1728-01-01 · Aleşki Seçi yağmalandı ve terk edildi → tur,onem,dunya
+
+### olaylar_senkron_0930.js (23)
+- 1399-09-01 · Yıldırım Bayezid Berkuk'un ölümünün ardından Besni, Darende ve Divriği'yi Osmanlı toprakla → tur,onem,dunya
+- 1401-01-01 · Divriği, Timur tehlikesi yüzünden yeniden Memlükler'e verildi → tur,onem,dunya
+- 1400-08-01 · Besni, Timur'un Sivas ve Malatya seferi sırasında Memlükler'e geçti → tur,onem,dunya
+- 1414-01-01 · Memlük Sultanı Şeyh, Antep ile Darende'yi Dulkadırlılar'dan geri aldı → onem,dunya
+- 1418-01-01 · Dulkadıroğlu Mehmed Bey Darende'yi geri aldı, Besni'yi de topraklarına kattı → onem,dunya
+- 1436-01-01 · Memlükler Antep'te Dulkadırlılar'ı yendi; Besni Memlük idaresine döndü (yaklaşık) → tur,onem,dunya
+- 1467-01-01 · Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık) → tur,onem,dunya
+- 1471-01-01 · Emîr Yeşbek Şehsuvar Bey'i yendi; Besni Memlük idaresine döndü (yaklaşık) → tur,onem,dunya
+- 1551-07-26 · Erdel Habsburg idaresine geçti: Kolozsvár meclisi İzabella'nın feragatini tanıdı → tur,onem,dunya
+- 1556-03-12 · Habsburg idaresi Erdel'de sona erdi: Erdel yeniden Osmanlı'ya bağlı voyvodalık oldu → tur,onem,dunya
+- 1550-09-15 · Ferdinand'ın kuvvetleri Solnok'u tuttu ve tahkim etti → tur,onem,dunya
+- 1565-02-01 · Schwendi Szatmár'ı aldı — Erdel'in kuzey ucu Habsburg'a geçti → tur,onem,dunya
+- 1605-01-21 · Bocskai'nin kuvvetleri Szatmár'ı aldı → tur,onem,dunya
+- 1619-11-01 · Bethlen Gábor Szatmár ilini denetimine aldı → tur,onem,dunya
+- 1664-05-03 · Nitra'nın kaybı — De Souches kaleyi geri aldı → tur,onem,dunya
+- 1664-06-14 · Léva'nın kaybı → tur,onem,dunya
+- 1606-12-29 · Bocskai István'ın ölümü — Szatmár ili krallığa döndü → tur,onem,dunya
+- 1630-03-30 · Bethlen Gábor'un yedi ilinin krallığa iadesi tamamlandı → tur,onem,dunya
+- 1644-02-01 · I. Rákóczi György Szatmár'ı teslim aldı → tur,onem,dunya
+- 1372-01-01 · Bizans İmparatorluğu Osmanlı'nın haraçgüzârı oldu → onem,dunya
+- 1676-09-19 · Doroşenko Çehrin'i Samoyloviç'e teslim etti → tur,onem,dunya
+- 1557-01-01 · Várad, Huszt ve Tokaj Szapolyai tarafına geçti → tur,onem,dunya
+- 1298-01-01 · Maraş Memlüklere geçti — Halep nâibi Bilbân et-Tabahî Ermenilerden geri aldı → tur,onem,dunya
+
+### olaylar_senusi_0919.js (9)
+- 1551-07-01 · Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Macaristan Kralı Ferdinand → tur,onem,dunya
+- 1554-04-07 · Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması → tur,onem,dunya
+- 1596-05-10 · Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını → onem,dunya
+- 1691-01-01 · Lugos sancağı Habsburg işgaline girdi (1691-1695) → tur,onem,dunya
+- 1716-10-13 · Lugos kalesi Habsburg idaresine girdi → tur,onem,dunya
+- 1688-01-01 · Orsova'nın Veterani komutasındaki Avusturya kuvvetlerince işgali → tur,onem,dunya
+- 1689-07-15 · Orsova'nın Thököly ve Osmanlı kuvvetlerince geri alınışı → tur,onem,dunya
+- 1738-05-08 · Orsova palankasının Osmanlı'ya geçişi — muhafızın Adakale'ye çekilmesi → tur,onem,dunya
+- 1717-01-01 · Orsova'nın Habsburg ordusunca alınışı (1717 seferi) → tur,onem,dunya
+
+### olaylar_sessiz_borc_0919.js (5)
+- 1349-01-01 · Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de → tur,onem,dunya
+- 1430-01-01 · Despot Konstantinos Patras'ı Franklardan aldı → tur,onem,dunya
+- 1448-01-01 · Stjepan Vukčić-Kosača 'St. Sava Dükü' — Hersek'in doğuşu → tur,onem,dunya
+- 1525-04-08 · Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü → onem,dunya
+- 1918-11-12 · Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu → tur,onem,dunya
+

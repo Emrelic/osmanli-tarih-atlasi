@@ -65,7 +65,7 @@ window.OLAYLAR_P0057 = [
   d:"Antalya'yı işgal eden İtalyanlar iç bölgelere doğru ilerledi. TDV'nin Isparta maddesine göre İtalyan birlikleri 28 Haziran'da Burdur'u işgal etti ve 15 Ağustos'ta bir bölük askerle Isparta'ya yöneldi. Isparta halkının silahları teslim teklifini reddedip direneceğini bildirmesi üzerine İtalyanlar ertesi gün geri çekildi.",
   kaynak:"isparta · burdur" },
 
-{ kapsam:"ic", t:"1919-06-30", k:"savas", etiket:["savas","kurtulus","isgal","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1919-06-30", k:"savas", etiket:["savas","kurtulus","isgal","konu-askeri"],
   b:"Aydın'ın kısa süreli kurtarılışı ve 4 Temmuz'da yeniden işgali",
   gun:"30 Haziran – 4 Temmuz 1919",
   yer:"Aydın", yer_id:"Aydın", kisiler:"",
@@ -87,7 +87,7 @@ window.OLAYLAR_P0057 = [
   d:"Ocak 1919'dan beri İngiliz işgalinde bulunan Eskişehir, TDV'nin Eskişehir maddesine göre 20 Mart 1920'de İngilizler tarafından boşaltıldı. Şehir birkaç ay sonra, Haziran 1920'de, TBMM'nin kurduğu Garp Cephesi'nin merkezi oldu.",
   kaynak:"eskisehir" },
 
-{ kapsam:"ic", t:"1920-06-22", k:"savas", etiket:["savas","isgal","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1920-06-22", k:"savas", etiket:["savas","isgal","konu-askeri"],
   b:"Yunan yaz taarruzu — Akhisar, Soma, Balıkesir ve Alaşehir'in işgali",
   gun:"22 Haziran – 3 Temmuz 1920",
   ic_not_gun:"Taarruzun başlangıç günü ve Alaşehir (26 Haziran) · Nazilli (3 Temmuz) günleri TDV milli-mucadele; Alaşehir'in 26 Haziran 1920 günü TDV alasehir ile de örtüşüyor. Akhisar, Kırkağaç, Soma ve Balıkesir'in tek tek işgal günleri TDV'de YOK (yalnız sıra veriliyor).",
@@ -132,7 +132,7 @@ window.OLAYLAR_P0057 = [
   kaynak:"milli-mucadele" },
 
 // ── 1921 ───────────────────────────────────────────────────────────
-{ kapsam:"ic", t:"1921-03-23", k:"savas", etiket:["savas","isgal","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1921-03-23", k:"savas", etiket:["savas","isgal","konu-askeri"],
   b:"Yunan ordusunun ikinci taarruzu — Bilecik, Afyon ve Adapazarı'nın işgali",
   gun:"23-25 Mart 1921",
   ic_not_gun:"23 Mart TDV milli-mucadele (Bilecik ve Afyon); Adapazarı 25 Mart 1921 TDV adapazari. 🔴 TDV bilecik bu Mart işgalini SAYMIYOR (8 Ocak · 13 Temmuz · 22 Temmuz 1921) — iki madde ayrışıyor, Bilecik'in 1921 ilk yarısı yerleşime yazılmadı.",
@@ -147,7 +147,7 @@ window.OLAYLAR_P0057 = [
   d:"İngilizler Temmuz 1920'de Kafkasya'dan çekilirken Batum'u boşaltmış, şehre Gürcistan hükümeti el koymuştu. TDV'nin Batum maddesine göre 16 Mart 1921'de Sovyet Rusya ile imzalanan Moskova Antlaşması Batum'u Gürcistan'a bıraktı. Türk kuvvetleri şehri 28 Mart 1921'de boşalttı ve Batum, Gürcistan içinde kurulan Özerk Acara Cumhuriyeti'nin merkezi oldu.",
   kaynak:"batum" },
 
-{ kapsam:"ic", t:"1921-04-07", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1921-04-07", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
   b:"Afyon'un geri alınışı — Aslıhanlar muharebeleri",
   gun:"7 Nisan 1921",
   yer:"Afyon, Aslıhanlar", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"",
@@ -179,7 +179,7 @@ window.OLAYLAR_P0057 = [
   kaynak:"eskisehir · kutahya · bilecik · milli-mucadele" },
 
 // ── 1922 — BÜYÜK TAARRUZ GÜN GÜN ───────────────────────────────────
-{ kapsam:"ic", t:"1922-08-26", k:"savas", etiket:["savas","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1922-08-26", k:"savas", etiket:["savas","konu-askeri"],
   b:"Büyük Taarruz başladı",
   gun:"26 Ağustos 1922",
   yer:"Afyon, Kocatepe", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"Mustafa Kemal Paşa",
@@ -193,7 +193,7 @@ window.OLAYLAR_P0057 = [
   d:"Taarruzun ikinci gününde Yunan cephesi Afyon önlerinde yarıldı. TDV'nin Afyonkarahisar maddesine göre bizzat Atatürk'ün kumanda ettiği Büyük Taarruz sonunda Yunan kuvvetleri bozguna uğratıldı ve şehir 27 Ağustos 1922'de kurtarıldı. Bu gün Afyon'un kurtuluş günü olarak kutlanır.",
   kaynak:"afyonkarahisar" },
 
-{ kapsam:"ic", t:"1922-08-30", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
+{ tur:"savas", kapsam:"ic", t:"1922-08-30", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
   b:"Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu",
   gun:"30 Ağustos 1922",
   yer:"Dumlupınar, Kütahya", yer_id:"Kütahya", kisiler:"Mustafa Kemal Paşa",
@@ -244,7 +244,7 @@ window.OLAYLAR_P0057 = [
   d:"Mudanya Mütarekesi Doğu Trakya'nın Yunan ordusunca boşaltılıp Türkiye'ye teslimini öngörüyordu; Trakya'yı teslim almakla görevli Refet Paşa 19 Ekim'de İstanbul'a geldi. TDV'ye göre 26 Temmuz 1920'den beri işgal altındaki Kırklareli 10 Kasım 1922'de geri alındı, Tekirdağ da mütareke uyarınca 13 Kasım'da Türklere iade edildi. Böylece Doğu Trakya savaşılmadan Türk topraklarına katıldı.",
   kaynak:"kirklareli · tekirdag · milli-mucadele" },
 
-{ kapsam:"ic", t:"1919-10-15", k:"isgal", etiket:["isgal","konu-askeri"],
+{ tur:"isgal", kapsam:"ic", t:"1919-10-15", k:"isgal", etiket:["isgal","konu-askeri"],
   b:"Garbî Trakya'da Fransız askerî idaresinin başlaması",
   gun:"15 Ekim 1919",
   ic_not_gun:"Gün TDV bati-trakya ('Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)'). Yunan devri TDV'de 22 Mayıs 1920; atlasta Dedeağaç/Sofulu 14 Mayıs, Gümülcine/İskeçe/Ferecik 27 Mayıs — yerleşim uçları değiştirilmedi, kaynakları ayrı ölçülecek. KUTU-C-1014.",

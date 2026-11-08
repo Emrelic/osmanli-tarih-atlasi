@@ -16,7 +16,7 @@
 // Üçünün de dayanağı TDV gövdesi — okundu, alıntılandı, uydurulmadı.
 window.OLAYLAR_EK21 = [
 
-  { t: "1811-04-01",
+  { tur:"savas", t: "1811-04-01",
     b: "Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi",
     k: "savas",
     onem: 2,
@@ -30,7 +30,7 @@ window.OLAYLAR_EK21 = [
     gun: "Nisan 1811", ic_not_gun:"TDV yalnız ayı veriyor, gün kaynakta yok",
     kaynak: "nigbolu", duygu: ["⚔️"] },
 
-  { t: "1811-05-01",
+  { tur:"savas", t: "1811-05-01",
     b: "Silistre'nin tahliyesi — Tuna'nın orta kalesi surları yıkılarak bırakıldı",
     k: "savas",
     onem: 2,
@@ -74,7 +74,7 @@ window.OLAYLAR_EK21 = [
   // ⇒ Kutaisi'nin (madde ①'in vakası) aksine bu build KIRMIYOR; §10'un
   //   "eğer doğru ise ayrı madde ile gösterilmeli, ismi ile zikredilmeli"
   //   kuralına giriyor. Gün DEĞİŞMEDİ — yalnız kendi maddesi yazıldı.
-  { kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
+  { tur:"fetih", kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
     b:"Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
     gun:"1537", ic_not_gun:"(944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Kars", yer_id:"Kars",

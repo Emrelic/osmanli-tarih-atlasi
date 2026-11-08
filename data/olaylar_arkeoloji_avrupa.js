@@ -43,7 +43,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2580–2475 (kaynağın verdiği uçlar); orta nokta MÖ 2527 = astronomik -2526. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «best estimate for the date of construction of the sarsen circle, from an antler pick (UB-3821) in the socket around stone 1 is 2580–2475 cal BC». Tek örnek (boynuz kazma) ile tek olay tarihidir; güven düzeyi makalede yazılmamış ('belirsiz'). Trilitonlar için 2585–2400 cal BC (93%, OxA-4840). Aşama 2 sınırları 2760–2510 ile 2470–2300: iki senaryo (zaman zaman uzar). Aralıklar tek olay mı tabaka toplamı mı karıştırılmasın: bu kayıt tek-olay tarihidir."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Edington"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Edington"],
   "t": "-2871-01-01",
   "k": "kurulus",
   "b": "Stonehenge (Aşama 1: hendek ve set): başlar",
@@ -64,7 +64,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2990–2755 (kaynağın verdiği uçlar); orta nokta MÖ 2872 = astronomik -2871. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «initial construction of the Stonehenge ditch is estimated to have been completed in 2990–2755 cal BC». 2990–2755 yüzdesi metinde açık yazılmamış (olasılık 'probably 2955–2830 (68%)' ile birlikte verildiğinden 95 sayıldı, Marshall vd. 2012 şekil 6). Makalenin Tablo 3'ünde aşamalar: 1: 3000–2620, 2: 2620–2480, 3: 2480–2280, 4: 2280–2020, 5: 2020–1520 cal BC (yuvarlak, makale özeti). 'Bit' yok: anıt tarih öncesi boyunca kullanımdadır."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2901-01-01", "yer_id":"Skara Brae",
   "k": "kurulus",
   "b": "Skara Brae: başlar",
@@ -106,7 +106,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4545–4485 (kaynağın verdiği uçlar); orta nokta MÖ 4515 = astronomik -4514. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Vinca culture occupation at Belo Brdo ended in 4545–4485 cal BC (95% probability; end Belo Brdo». DİKKAT: bu rakamlar yazarların 'duyarlılık analizi' (alternatif) modelindendir (Şekil S1); yazarlar bitiş tarihinin tercih edilen modelle (ana metin Şekil 8) neredeyse aynı olduğunu söyler, ama ana metin okunmadı. Başlangıç yalnız SEKTÖR II dizisinin başıdır, bütün tell'in kuruluşu DEĞİLDİR (Vinča yerleşmesi daha erken olabilir). Dönem/tabaka sınırı türüdür."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Vinča-Belo Brdo"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Vinča-Belo Brdo"], 
   "t": "-4586-01-01",
   "k": "kurulus",
   "b": "Vinča-Belo Brdo: başlar",
@@ -127,7 +127,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 4625–4550 (kaynağın verdiği uçlar); orta nokta MÖ 4587 = astronomik -4586. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «the dated sequence in sector II began in 4625–4550 cal BC (95% probability; start sector II». DİKKAT: bu rakamlar yazarların 'duyarlılık analizi' (alternatif) modelindendir (Şekil S1); yazarlar bitiş tarihinin tercih edilen modelle (ana metin Şekil 8) neredeyse aynı olduğunu söyler, ama ana metin okunmadı. Başlangıç yalnız SEKTÖR II dizisinin başıdır, bütün tell'in kuruluşu DEĞİLDİR (Vinča yerleşmesi daha erken olabilir). Dönem/tabaka sınırı türüdür."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Vannes"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Vannes"],
   "t": "-4790-01-01",
   "k": "kurulus",
   "b": "Carnac megalitik kompleksi, Le Plasker bölümü (Plouharnel): başlar",
@@ -211,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6170–6070 (kaynağın verdiği uçlar); orta nokta MÖ 6120 = astronomik -6119. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «starting in 6,170–6,070 cal BC (95% probability; Start Transition_LV_I-II )». Tür: dönem/evre sınırları (model sınırı), tek olay değil. Süre tahmini Model 2: 80–210 yıl (95). Geçiş evresini Neolitik başlangıç (LV III) izler; Erken Neolitik başlangıcı 5990–5900 (Model 2)."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Knossos"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Knossos"], 
   "t": "-6699-01-01",
   "k": "kurulus",
   "b": "Knossos (Neolitik yerleşme): başlar",
@@ -232,7 +232,7 @@ window.OLAYLAR_ARKEOLOJI_AVRUPA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6810–6590 (kaynağın verdiği uçlar); orta nokta MÖ 6700 = astronomik -6699. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «weighted mean of c. 6800–6600 BC (6710–6610 BC at 68.2%, or 6810–6590 BC at 95.4% probability)». Tek seçilen: iki bağımsız dizinin (Evans kazıları Merkez Avlu, 1997 kazısı seviye 39) birleşik başlangıcı 6810–6590. Ayrı ayrı: seviye 39 başlangıcı 6970–6590 (95.4); Merkez Avlu 6910–6480. Makalenin özet cümlesi 6900–6600 (95.4) yuvarlar. Aseramik evre sonu verilmedi; makale 1000–1500 yıllık boşluk (yeniden iskân EN I başlangıcı 5500–5080 BC, 95.4, seviye 37, 1997 kazısı; Evans dizisi 6240–5030 ve 5890–4860 gibi daha geniş). Minos SARAYI (Tunç Çağı) tarihleri bu kayıtta YOK, bulunamadı listesine bakınız. Örnek ham 14C: IntCal13 ile kalibre."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Lepenski Vir"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Lepenski Vir"], 
   "t": "-9589-01-01",
   "k": "kurulus",
   "b": "Lepenski Vir: başlar",

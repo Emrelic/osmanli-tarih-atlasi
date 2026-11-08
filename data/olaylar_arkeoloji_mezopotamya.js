@@ -29,7 +29,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «They did battle against the city and destroyed it.». kur 'Aşşur'un kuruluşu' DEĞİL: REL, kayıtlı eponimlerin başlangıcı (belge). Şehir daha eskidir (Ur III kaynaklarında 'eyalet', kitapta Barjamovic 2011'e atıf; açılmadı). bit: Livius sayfası kroniği çeviriyor; kitap-basımı Grayson'a erişemedim, çeviri ikincil. 'Abu' ayı tarihi sayfada gün olarak yok; takvime çevirisi yapılmadı (Abu ~Temmuz/Ağustos, doğrulanmadı) ⇒ yıl hassasiyeti. 12. yıl notu sayfada '614-613 BCE'. Şamşi-Adad'ın ölümü MC 1775 (Hammurabi 18. yıl) aynı kaynakta, s.7. Orta Asur/Yeni Asur imparatorluğunun kuruluş tarihleri bu oturumda kaynaklanmadı. · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 3 (Fall of Nineveh ) dayanak olamaz, değiştirildi. Nabopolassar 12. yıl (=614), ay Abu, gün yok. Atlas -0613 = MÖ 614 uyumlu. b alanı iki ayrı olayı karıştırıyor ('Eski Asur dönemi belge başlangıcı' ile 'MÖ 614 düşüşü'); sadeleştirilmeli."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0625-01-01",
   "k": "kurulus",
   "b": "Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar",
@@ -95,7 +95,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Ibbisuen 24 years 2026-2003». Orta Kronoloji. MC: Urnamma 2110-2093, Şulgi 2092-2045, Amarsuena 2044-2036, Şusuen 2035-2027, Ibbi-Suen 2026-2003. MC II (rMC8): hepsi 8 yıl aşağı (Urnamma 2102-2085 ... Ibbi-Suen 2018-1995). Yazarlar Urnamma yıl1'den Babil I sonuna kadar göreli kronolojiyi ±1 yıl sağlam bulur (s.5). Egberts 2023 Tablo 1'de Ur III = '2100–2000 BC' (yuvarlak). Atlas dosyasında Ur için bit: MÖ 317 (-0316) (Brinkman) ayrı bir olgudur (yerleşimin yerel belge sonu)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2109-01-01",
   "k": "kurulus",
   "b": "Ur III Hanedanı (Ur): Ur III Hanedanı: Ur-Nammu'nun 1. yılı",
@@ -120,7 +120,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Shudurul 15 years 2156-2142±30». KRONOLOJİ: Orta Kronoloji (MC). ARCANE'in MC sütunu: Sargon 2324-2285±30, Rimush+Manishtushu 2284-2262, Naram-Suen 2261-2206, Shar-kali-sharri 2205-2181, Dudu 2177-2157, Shudurul 2156-2142 (hepsi ±30). MC II (rMC8) sütunu 8 yıl aşağı: Sargon 2316-2277, Shudurul 2148-2134; yazarlar MC II'yi 'daha makul' sayar (s.135). Aynı kitap RIME 2 başlığı olarak 'Sargonic and Gutian Periods (2334-2113 BC)' (Frayne 1993) anıyor: geleneksel 2334 başlangıcı ARCANE'in 2324'ünden 10 yıl yukarıdadır; iki ayrı konvansiyon, ortası alınmadı. Gutium dönemi (70 yıl, -10/+30) Akad'ı Ur III'e bağlar (MC 2180±30–2111). Sargonic dönem sonu 'MC 2142' bir yönetici-sonu, yer-terk tarihi değil. Bu satırdaki 'Sargon of Akkad 40 years 2324-2285' düz metin çıkarımıdır (pdftotext -raw s.152); sütun karışmaması için iki sütunlu tablo satır satır doğrulandı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2323-01-01",
   "k": "kurulus",
   "b": "Akad İmparatorluğu (Sargon): Akad İmparatorluğu: Sargon'un saltanatı başlar (Orta Kronoloji)",
@@ -155,7 +155,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 3200–3000) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Uruk IVa 3350-3200». kur = Uruk IVa evresi (3350-3200), bit = Uruk III evresi (3200-3000); ikisi de 'tabaka-dönem' aralığıdır, tablet yazımının tek olay tarihi DEĞİL. Alt sınır çelişkisi: Egberts vd. 2023 (Radiocarbon 65(4), Tablo 1) Geç Uruk 3400-3100, Jemdet Nasr 3100-2900 verir; sınırlar Englund'dan ~50-100 yıl farklı. Englund: tabletler dolgu tabakalarından geldiği için kesin bağlam yok (CDLI wiki, açılmadı; bu cümle web arama özetinden). Uruk'un çok daha eski varlığı: Egberts Tablo 1'de Erken Uruk 4200-3900."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-3349-01-01",
   "yer_id": "Uruk (Warka)",
   "k": "kurulus",
@@ -235,7 +235,7 @@ window.OLAYLAR_ARKEOLOJI_MEZOPOTAMYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5900–5400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the rise of the Halaf culture, ca. 5900 - 5400 cal. BC». İki ayrı tür birleşik: başlangıç = Nieuwenhuyse'nin 'rise' aralığı (5900-5400 cal BC, kitap özetinden), bitiş = Campbell & Fletcher'ın en geç tarihli Halaf için üst sınırı (≤5500-5400); aynı kültürün başı ve sonu farklı yazarlardan. Pre-Halaf → Erken Halaf geçişi Sabi Abyad'da 6100-5900 cal BC (Nieuwenhuyse özetinden, makale açılmadı). Kuzey Ubaid'in en erken kesin tarihi 5100-5000 (calibrated) b.c. civarı: 'Halaf-Ubaid arası 400-500 yıl' boşluk (aynı s.78). Eski kitaplar (Akkermans 1993) ham 14C ile 5200-4500 verir; kullanılmadı. Yarım Tepe tarihlerinin 200-300 yıl geç çıktığı s.78'de belirtiliyor."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-6499-01-01",
   "yer_id": "Tell al-Ubaid",
   "k": "kurulus",

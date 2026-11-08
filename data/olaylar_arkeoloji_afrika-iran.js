@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Sahra-alti Afrika, Okyanusya/Avustralya, Orta Asya/Iran platosu, MO 12000-MS 1 (afrika-iran) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/afrika-iran.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Cenne"
   ],
@@ -45,7 +45,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Cyrus <marched> to Ecbatana, the royal city.». Livius.org tek basina dayanak olamaz: burada yalniz Grayson ceviri metninin tasiyicisi; ABC 7 birincil neşir (Grayson 1975) ve BM 35382 numarasi SAYFADA YOK, dogrulanmadi. Vakayiname metninde 'Astyages' adi gecmiyor olabilir (kirik satir) - ozet okuyucunun cikarimi, dogrulanmadi. 'Med devletinin kurulusu (MO 678?)' ve 'Kyros 550 Pers imparatorlugu kuruldu' iddialari icin akademik kaynak bulunamadi (bulunamadi listesinde). · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col) dayanak olamaz, değiştirildi. Kayıt Nabonid'in 6. yılında (550/549). Atlas -0549 = MÖ 550 uyumlu. DİKKAT: envanter 'yer' alanında alakasız 'Kotosh Dini Geleneği (Kotosh, Peru)' kalıntısı var — temizlenmeli. TDV Hemedan: Ekbatana'yı Deiokes (m.ö. 728-673) kurmuş, Kyros sonradan yazlık başşehir seçti (550 alınışı TDV'de yok)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0944-01-01",
   "k": "kurulus",
   "b": "Teouma (Lapita mezarligi), Efate: başlar",
@@ -66,7 +66,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 970–920 (kaynağın verdiği uçlar); orta nokta MÖ 945 = astronomik -0944. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (Bayes modeli 'en olasi baslangic' araligi). Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Bayesian chronological framework proposed by Petchey et al. indicates 2870–2920 BP as the most likely start date of occupation of the site». Birincil makale (Petchey vd. 2015) acilamadi; deger Camperio 2024'ten alintidir (ikincil). 2870-2920 'BP' - kalibre mi belirtilmemis; 2739-2879 BP ise tortu cekirdeginin ilk izi. Bismarck Takimadalari'ndaki erken Lapita Kamgot 3300-3000 BP (Horrocks vd. 2024, Parasitology/J Helminthol doi:10.1017/S0022149X23000998 ozeti) ve GB Yeni Gine'de Lapita-getirilmis hayvan/obsidyen 3480-3060 yil once (Shaw vd. 2022, Nat Ecol Evol 6:802-812, doi:10.1038/s41559-022-01735-w ozeti) - bunlar BP'dir, kalibre oldugu ozetten anlasilmiyor; MO'ya cevrilmedi."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
   "t": "-4744-01-01",
   "k": "kurulus",
   "b": "Kuk: hoyuk (mound) tarimi, Evre 2: başlar",

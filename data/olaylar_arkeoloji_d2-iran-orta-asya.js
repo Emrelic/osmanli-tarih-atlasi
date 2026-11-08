@@ -50,7 +50,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
    "Susa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Pasargad","Anşan"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Pasargad","Anşan"],
   "t": "-0558-01-01",
   "k": "kurulus",
   "b": "Ahameniş İmparatorluğu / Kyros II'nin Persis krallığı: Kyros II Pers tahtına çıkar (559)",
@@ -62,7 +62,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «the spacious capital and last resting place of Cyrus the Great (559-530 BCE)». 559 = Iranica Pasargadae makalesindeki Kyros saltanat tarihi 'Cyrus the Great (559-530 BCE)' (Stronach/Gopnik); 'Persler Kralı' olusun gunu ve Pers krallik kurulus tartismasi (Anshan-Parsa) bu makalede ayrintilanmaz. Schmitt (Iranica 'Achaemenid Dynasty i'): Kyros II Med'e bagli bir vasal devlet olarak Pers krallıgini birlestirdi (Nabonid kroniginde 'king of Anshan' ve 'king of Parsu'); '550 B.C. Cyrus overthrew the Median empire under Astyages'. 539 Babil zaten onceki dalgada. Briant 1996 (Fr.), Farsca kaynaklar ve Iranica 'Cyrus II' makalesi (slug bulunamadi) erisilemedi. Medvedskaya & Dandamayev: Med-Pers savasi 553-550 (Iranica 'Media'): 'this war lasted from 553 to 550 BCE'. Iki bagimsiz akademik kaynak 550 icin uyumlu (Schmitt + Medvedskaya/Dandamayev): cift teyit."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0699-01-01",
   "k": "kurulus",
   "b": "Med Devleti (Hegmatana merkezli): Med devleti: Deioces dönemi başlar (Herodotos geleneği)",
@@ -99,7 +99,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 2170–1900) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «IIIC 2170-1900 cal. BCE». 'kur' = en eski 14C ile tarihli evre (IC/IIA), yerlesimin gercek baslangici degil; Dyson: Hissar IA 'sometime after 5000 BCE' (tahmin, Cheshmi Ali-Sialk II boyali seramik ufkuna gore), IB ~4000 ve oncesi. 'bit' = IIIC'nin tarihli ucu; yerlesimin terki sonrasi dilimleri vardir. Bu uc sayilar donem toplamidir, tek olay degildir. Hissar'da Proto-Elam yazili tablet yok (Matthews vd. 2025)."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Elam"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Elam"], 
   "t": "-2399-01-01",
   "k": "kurulus",
   "b": "Elam (Eski Elam - Yeni Elam): Awan hanedanı (ilk Elam hanedanı) başlar",
@@ -154,7 +154,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3980–3865 (kaynağın verdiği uçlar); orta nokta MÖ 3922 = astronomik -3921. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «IC/IIA: about 3980-3865 cal. BCE, IIB: c. 3365-3030 cal BCE, IIIB: ca. 2400-2170 cal. BCE; and IIIC 2170-1900 cal. BCE». 'kur' = en eski 14C ile tarihli evre (IC/IIA), yerlesimin gercek baslangici degil; Dyson: Hissar IA 'sometime after 5000 BCE' (tahmin, Cheshmi Ali-Sialk II boyali seramik ufkuna gore), IB ~4000 ve oncesi. 'bit' = IIIC'nin tarihli ucu; yerlesimin terki sonrasi dilimleri vardir. Bu uc sayilar donem toplamidir, tek olay degildir. Hissar'da Proto-Elam yazili tablet yok (Matthews vd. 2025)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Susa"
   ],
@@ -172,7 +172,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 4000 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «a city that, from its foundation ca. 4000 B.C.E., alternated between subjection to Mesopotamian and Elamite power». Susa I-IV tabaka sinirlari icin dogrudan sayi bulunamadi (Iranica 'Susa i. Prehistoric periods' slug'i 404). Matthews vd. 2025'e gore Gec Susa II = c. MO 3500-3100 (Acropole I 19-18 katmanlari), Proto-Elam tabletleri c. 3200-2900; Susa IIIB-C ~MO 2800 sonrasi Sumer-Akad etkisi; Susa IVB Akad (Naram-Sin) donemi; Susa VB Ur III. Bu alt donem sayilari Matthews vd. 2025 icindedir (url altta)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Anau"
   ],
@@ -196,7 +196,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 4300–3820) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «Anau Ia is dated 4300-3820 cal BCE, as represented by the lowermost layers at Anau North.». Iki sayi kendi icinde celiskili: kitabin ayni bolumunde Anau Ia icin 'ca. 4500-4000' (Hiebert 2002), '4500-3800' (Hiebert & Kurbansakhatov 2003 Tab. 5.1), '4400-3800' (baska bolum, Bayes) ve '4300-3820' (Chap.3 modeli) var; en yeni Bayes modeli secildi. Meana Ufku: monjukli.net (Heit modeli) 4650-4340 cal BCE, Neolitik ile arasi hiatus 5600-4650 (guven duzeyi sitede belirtilmemis); Monjukli Depe Neolitik son 5731-5616 (95%, 'End MD-Neolithic'). Namazga I-VI / Altyn-Depe icin kalibre kaynak ACILAMADI (bulunamadi)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Tepe Yahya"
   ],
@@ -220,7 +220,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 5500–4500) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: ansiklopedi (birincil kazı yayını okunmadı). Kaynaktan okunan: «Period VII 5500-4500 BCE Period VI-VC 4500-3600 BCE Period VA-B 3600-3200 BCE Period IVC2 3100-2800 BCE». Iranica donem tablosunu 'tentative' (ozellikle IVA-I) olarak bildirir ve kalibre/ham ayrimi acik degil; sayilar 'donem-toplami' gibi okundu. Ham BP verisi yazilmadi. Period VII baslangici icin bagimsiz kalibre 14C tablosu bu oturumda bulunamadi (Beale 1986 erisilemedi). Matthews vd. 2025: Period VII 'late sixth and early fifth millennium BC' (uyumlu)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Tiflis"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Tiflis"],
   "t": "-5919-01-01",
   "k": "kurulus",
   "b": "Gadaçrili Gora: Şulaveri-Şomu: höyüğün ilk katmanları",
@@ -263,7 +263,7 @@ window.OLAYLAR_ARKEOLOJI_D2_IRAN_ORTA_ASYA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 6016–5839 (kaynağın verdiği uçlar); orta nokta MÖ 5927 = astronomik -5926. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «The settlement ended 6016-5839 cal BCE (95% probability; End Jeitun).». TURLER: Heit bas/bit = OxCal modelinin 'Start/End' sinir tahminleri (oluş-zamanı belirsizliği), donem toplami degil. Diger yayinlar: Harris, Gosden & Charles 1996 PPS 62:423-442: 'first occupied at c. 6000 cal. BC and may only have remained in use for a few centuries' (tek deger ~6000); Harris vd. 2010 (Heit'in kitabinda alinti): erken Jeitun 'ca. 6400-5700 cal BCE' (Tab. 9.1); ayni kitabin baska yerinde 'ca. 6300-5600' ve '6200-5500' (Harris 2010). Kaynaklar arasi ~200-400 yil yayilim vardir; Bayesci model en dar ve en yeni oldugu icin secildi, ortasi alinmadi. Rusca birincil (Masson, Sarianidi 1972) kaynaklar erisilemedi: Jeitun'a 14C verilmeden cagdas Rus kronolojisi goreli idi (arama ozeti). Antiquity 67 (1993) Harris vd. tam metni paywall."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-6098-01-01",
   "yer_id": "Jeitun",
   "k": "kurulus",

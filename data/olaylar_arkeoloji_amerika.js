@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Amerika kıtaları MÖ 13000–MS 1 (amerika) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/amerika.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AMERIKA = [
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0099-01-01", "yer_id":"Teotihuacan",
   "k": "kurulus",
   "b": "Teotihuacan: başlar",
@@ -79,7 +79,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 800–400) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «primary deposits with seriated stratigraphy dating to the Middle Preclassic period (800-400 BC)». Başlangıç değeri 'kurulus' değil, Trogón tabakasının tarihlenmesidir (ilk_anilis). Danta tarihi (350 MÖ–MS 250): Inomata T., Triadan D., Pinzón F., Aoyama K. 2019, 'Artificial plateau construction during the Preclassic period at the Maya site of Ceibal, Guatemala', PLoS ONE 14(8):e0221943, doi:10.1371/journal.pone.0221943 (okundu; atıf olarak veriyor, kendi ölçümleri değil). Terk ~MS 150 iddiası için kaynak bulunamadı."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0899-01-01", "yer_id":"Aguada Fénix",
   "k": "kurulus",
   "b": "Aguada Fénix: başlar",
@@ -100,7 +100,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1000–800 (kaynağın verdiği uçlar); orta nokta MÖ 900 = astronomik -0899. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «We dated this construction to between 1000 and 800 BC using a Bayesian analysis of radiocarbon dates». Yazarlar 'dates are calibrated throughout' der (özet). San Lorenzo'ya benzerlik belirtilir ama güçlü eşitsizlik izi yok. Aynı özet Orta Preklasik dönemin 1000–350 MÖ olduğunu söyler. Ceibal (Guatemala) için Science 2013 (340:467, doi:10.1126/science.1234493) 'early Middle Preclassic (1000 to 700 BCE)' plaza-piramit kompleksleri yayılışını verir (özet); Ceibal koordinatı için yeterli tanık bulunamadı (yalnız OSM)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0999-01-01", "yer_id":"Nakbé",
   "k": "kurulus",
   "b": "Nakbe: başlar",
@@ -142,7 +142,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1200–800) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «los fechados obtenidos en esta zona apuntan a considerar una ocupación antigua, quizás en el rango de 1200-800 a.n.e.». ÇELİŞKİ/UYARI: kronoloji kendi içinde tartışmalıdır (yazarlar 'cronología todavía debatida e insegura' der). Janabarroide seramik: 'alrededor de 800-500 a.C. (calib.)'. Genel Chavín iskânı için eski tarihler 1500–400 a.n.e. aralığını verir ama bunlar yalnız Ofrendas Galerisi'ne bağlanabilir (zayıf). Burger (1981) Urabarriu 850–460 a.n.e.; Rick vd. bu beş tarihin bu aralığın dışında kaldığını gösterir. Kazılarda Geç Prekeramik (~2850–2600 a.n.e. örnekleri, La Banda) altta bulunur; Chavín tapınak yapısının başlangıcı için kesin kalibre ucu okunamadı. 1200 MÖ ucu 'quizás' ile verilmiş bir tahmindir (güven: belirsiz/orta)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Puerto Montt"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Puerto Montt"],
   "t": "-12599-01-01",
   "k": "kurulus",
   "b": "Monte Verde II: başlar",
@@ -184,7 +184,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "donem-toplami aralığı (MÖ 1400–1000) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynaktan okunan: «San Lorenzo phase (1200–900 b.c., radiocarbon years; 1400–1000 b.c.)». ÇELİŞKİ: Wendt özeti San Lorenzo EVRESİ için 1200–900 ham 14C yılı = 1400–1000 MÖ (kalibre, 'calibrated' sözcüğü özette açık yazılmamış, parantez bunu ima ediyor) verir. Šprajc, Inomata & Aveni 2023 (Sci. Adv. 9(1):eabq7675, doi:10.1126/sciadv.abq7675) 'heyday between 1400 and 1100 BCE' der. İkisi uyumsuz değil ama bit ucu 1100 mü 1000 mi? Evre toplamı için Wendt, doruk için Šprajc vd. Ben 1400–1000 (evre) esas aldım; Berger vd. 1967 (beş güvenilir nehir yatağı atığı örneği ortalaması 1074 MÖ, kalibresiz) eski. Bir ikincil özet (okunmamış, yalnız arama sonucu) plato inşaatını 1800–1400 MÖ koyar; kaynağı doğrulanmadığından KULLANILMADI. 'Bit' kaydı verilmedi çünkü 1000 MÖ evre sonudur, yerleşimin terki değildir (La Venta'ya geçiş yorumu ikincil, okunmadı)."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-1649-01-01", "yer_id":"Poverty Point",
   "k": "kurulus",
   "b": "Poverty Point: başlar",
@@ -205,7 +205,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "yerlesim-suresi aralığı (MÖ 1650–1150) sürenin kendisini gösterir, oluş-zamanı belirsizliği DEĞİL → orta nokta ALINMADI; en eski uç (ALT SINIR) yazıldı. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the site was occupied from roughly 3600–3100 cal years BP». UYARI: alıntı bozuk PDF metninden çözüldü (bozuk karakter eşlemesi 3→b, 6→z, 0→k, 1→':' ile tutarlı); 3600–3100 cal BP ifadesi yazar özetiyle de uyumlu (bir ikincil özet 3615–3165 cal BP'yi Kidder vd. 2009'a atfeder, doğrulanmadı). Eski çerçeve (Connolly) MÖ ~1700–1100 verir. Ward, Grooms, Schroll, Kidder 2022 (American Antiquity, doi:10.1017/aaq.2022.32, okundu) Jaketown'un Poverty Point eşyalarını 4525–4100 cal BP'den, höyük yapımını 3445–3270 cal BP'de (95.4%) başlatarak Poverty Point'ten ÖNCE gösterir: 'Poverty Point kültürü' tek merkezli dağılım değildir. Başlangıç ucu bu nedenle tartışmalıdır."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-2301-01-01", "yer_id":"Caral",
   "k": "kurulus",
   "b": "Caral: başlar",
@@ -226,7 +226,7 @@ window.OLAYLAR_ARKEOLOJI_AMERIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 2627–1977 (kaynağın verdiği uçlar); orta nokta MÖ 2302 = astronomik -2301. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «began in the Americas by 4090 years before the present (2627 calibrated years B.C.) to 3640 years before the present (1977 calibrated years B.C.)». UYARI: Özet, anıtsal mimarinin/kentleşmenin '4090 BP'den (2627 cal BC) 3640 BP'ye (1977 cal BC) kadar' başladığını söyler; bu, Caral'daki tarihlenmiş örnek kümesinin (özete göre alan örnekleri; bir ikincil kaynak 18 örnek der, doğrulanmadı) kapsadığı aralıktır, tek bir kuruluş-yıkılış çifti değildir. Uçlar kaynakta cal BC olarak verilir, çeviri yok. Bit yok. Güven düzeyi özette belirtilmemiş."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Caral"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Caral"], 
   "t": "-2999-01-01",
   "k": "kurulus",
   "b": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar",

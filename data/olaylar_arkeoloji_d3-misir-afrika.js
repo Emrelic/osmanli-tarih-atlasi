@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
    "İskenderiye"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "İskenderiye"
   ],

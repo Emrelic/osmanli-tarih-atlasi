@@ -60,7 +60,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `besni` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Bu arada 1398’de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da 1400’de Timur’un Sivas ve Malatya’yı zaptı sırasında Memlükler’in eline geçti. Ancak Timur 27 Eylül 1400’de şiddetli bir muhasaradan sonra burayı zaptetti. Onun bu yöreden çekilmesinden sonra tekrar Memlükler’in hâkimiyetine girdi.\"",
   ic_not_d:"Timur'un 27 Eylül 1400 zaptı haritaya YAZILMADI: çekilişin günü kaynakta yok. Kırılma günü 1400-08-01 yalnız yıl+komşu günüdür." },
 
-{ kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Memlük Sultanı Şeyh, Antep ile Darende'yi Dulkadırlılar'dan geri aldı",
   gun:"1414 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Antep", yer_id:"Darende",
@@ -69,7 +69,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"dulkadirogullari", duygu:["⚔️"],
   ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Dulkadırlılar’ın Osmanlılar’la dostluk münasebetleri Memlükler’i endişelendirmeye başladı. Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende’yi Dulkadırlılar’dan geri aldı.\"" },
 
-{ kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ tur:"savas", kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Dulkadıroğlu Mehmed Bey Darende'yi geri aldı, Besni'yi de topraklarına kattı",
   gun:"1418 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Besni", yer_id:"Darende",
@@ -190,7 +190,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"Bánlaky (MEK 09477) 0015/1291: 'a szatmári német őrség szintén Rákóczyék zsoldjába szegődött' · 0015/1292: 'a diplomát Linzben írta alá 1645 december 16-án' · MTA History of Transylvania (195.html)" },
 
 // ── KUTU-B-1014 (2) — Bizans haraçgüzarlığı · Çehrin 1676 ──
-{ kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
+{ tur:"vassal", kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
   b:"Bizans İmparatorluğu Osmanlı'nın haraçgüzârı oldu",
   gun:"1372 kışı",
   yer:"İstanbul, Selanik, Gelibolu, Silivri", yer_id:"İstanbul", kisiler:"V. Ioannes Palaiologos, I. Murad",

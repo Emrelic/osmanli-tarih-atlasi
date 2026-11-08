@@ -10085,7 +10085,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: 15 Ağustos, kasabanın adındaki Asunción (Meryem'in Göğe Kabulü) yortusudur; geleneksel kuruluş günü olarak taşınır, basılı kaynaktan teyit edilmedi. Atlas kırılması 1511-08-15'te duruyor, madde o güne yazıldı; yıl kesin, gün geleneksel." },
 
 // ── 1519 · Tabasco ───────────────────────────────────────────────────
-{ bolge:1, t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
+{ tur:"savas", bolge:1, t:"1519-03-25", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Potonchán (Santa María de la Victoria)",
   b:"Centla Muharebesi — Potonchán Maya beyliği düştü, Santa María de la Victoria kuruldu",
   gun:"Mart 1519", yer:"Potonchán (Santa María de la Victoria), Tabasco",
   kisiler:"Hernán Cortés, Chontal Maya beyleri",
@@ -10104,7 +10104,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"GÜN DOĞRULANAMADI: Tepeaca seferi standart anlatımlarda Ağustos sonu-Eylül 1520'ye konur; 4 Eylül günü basılı kaynaktan teyit edilmedi. Atlas kırılması 1520-09-04'te duruyor, madde o güne yazıldı." },
 
 // ── 1523 · Colima ────────────────────────────────────────────────────
-{ bolge:1, t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
+{ tur:"kurulus", bolge:1, t:"1523-07-25", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Colima (San Sebastián de Colima)",
   b:"San Sebastián de Colima kuruldu — Yeni İspanya'nın Pasifik kıyısına açılması",
   gun:"25 Temmuz 1523", yer:"Colima (San Sebastián de Colima)",
   kisiler:"Gonzalo de Sandoval",
@@ -10114,7 +10114,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"25 Temmuz, kasabanın adaşı Aziz Yakub (Santiago) yortusuna denk gelir; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1540 · Campeche ──────────────────────────────────────────────────
-{ bolge:1, t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
+{ tur:"kurulus", bolge:1, t:"1540-10-04", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Campeche (San Francisco de Campeche)",
   b:"San Francisco de Campeche kuruldu — Yucatán fethinin üçüncü ve kalıcı denemesi",
   gun:"4 Ekim 1540", yer:"Campeche (San Francisco de Campeche)",
   kisiler:"Francisco de Montejo (oğul)",
@@ -10133,7 +10133,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"TEMSİLÎ YIL: kaynaklar Sotuta'nın boyun eğişini tek bir güne bağlamaz, 1540'ların ortasına koyar. Atlas 1545-01-01'i temsilî yıl olarak taşır. Aynı güne düşen Berdiçev (Litvanya) kırılmasıyla İLGİSİ YOKTUR — yalnız yıl yuvarlaması ikisini aynı tarihe düşürmüştür." },
 
 // ── 1596 · Monterrey ─────────────────────────────────────────────────
-{ bolge:1, t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
+{ tur:"kurulus", bolge:1, t:"1596-09-20", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Monterrey",
   b:"Monterrey kuruldu — Nuevo León'un başkenti",
   gun:"20 Eylül 1596", yer:"Monterrey", kisiler:"Diego de Montemayor",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10142,7 +10142,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Gün, atlasın yerleşim kaydındaki kaynak satırıyla (Gerhard 1982) aynıdır; basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1718 · San Antonio ───────────────────────────────────────────────
-{ bolge:1, t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
+{ tur:"kurulus", bolge:1, t:"1718-05-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"San Antonio (Misyon San Antonio de Valero)",
   b:"San Antonio de Valero misyonu kuruldu — İspanyol Teksas'ının çekirdeği",
   gun:"1 Mayıs 1718", yer:"San Antonio (Misyon San Antonio de Valero)",
   kisiler:"Antonio de San Buenaventura y Olivares, Martín de Alarcón",
@@ -10152,7 +10152,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Misyon (1 Mayıs) ile presidio (Mayıs başı, birkaç gün sonra) ayrı tarihlerdir; atlas kırılması misyonun gününde duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1774 · Nuevo Santander ───────────────────────────────────────────
-{ bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
+{ tur:"kurulus", bolge:1, t:"1774-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Matamoros (Refugio)",
   b:"Refugio (bugünkü Matamoros) kuruldu — Rio Grande ağzının iskânı",
   gun:"1774 (temsilî)", yer:"Matamoros (Refugio)",
   kisiler:"José de Escandón'un iskân ettiği Nuevo Santander kolonistleri",
@@ -10172,7 +10172,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Eylül 1821 Orta Amerika devletlerinin resmî millî günüdür, tarih yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1839 · Alta California ───────────────────────────────────────────
-{ bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
+{ tur:"kurulus", bolge:1, t:"1839-01-01", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sutter's Fort (Sacramento)",
   b:"Nueva Helvetia kuruldu — Meksika, Sacramento vadisini iskâna açtı",
   gun:"1839 (temsilî)", yer:"Sutter's Fort (Sacramento)", kisiler:"John A. Sutter",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10189,7 +10189,7 @@ window.OLAYLAR_AMERIKA0920 = [
 // =====================================================================
 
 // ── 1519 · Panama ────────────────────────────────────────────────────
-{ bolge:1, t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
+{ tur:"kurulus", bolge:1, t:"1519-08-15", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Panamá (Panama City)",
   b:"Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri",
   gun:"15 Ağustos 1519", yer:"Panamá (Panama City)", kisiler:"Pedrarias Dávila (Pedro Arias de Ávila)",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10198,7 +10198,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, şehrin adaşı olan Meryem'in Göğe Kabulü yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1534 · Quito ─────────────────────────────────────────────────────
-{ bolge:1, t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
+{ tur:"kurulus", bolge:1, t:"1534-12-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Quito",
   b:"San Francisco de Quito kuruldu — kuzey İnka başkentinde İspanyol düzeni",
   gun:"6 Aralık 1534", yer:"Quito", kisiler:"Sebastián de Benalcázar, Rumiñahui",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10207,7 +10207,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Almagro'nun daha önce (Ağustos 1534) kurduğu Santiago de Quito ayrı bir olaydır; atlas kırılması Benalcázar'ın 6 Aralık kuruluşunda duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1535 · Lima ──────────────────────────────────────────────────────
-{ bolge:1, t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
+{ tur:"kurulus", bolge:1, t:"1535-01-18", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Lima (Ciudad de los Reyes)",
   b:"Lima kuruldu — İspanyol Peru'sunun başkenti Rimac vadisine taşındı",
   gun:"18 Ocak 1535", yer:"Lima (Ciudad de los Reyes)", kisiler:"Francisco Pizarro",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10216,7 +10216,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 18 Ocak 1535 standart tarih yazımında yerleşiktir." },
 
 // ── 1537 · Popayán ───────────────────────────────────────────────────
-{ bolge:1, t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
+{ tur:"kurulus", bolge:1, t:"1537-01-13", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Popayán",
   b:"Popayán kuruldu — Quito ile Muisca ülkesi arasındaki köprü",
   gun:"13 Ocak 1537", yer:"Popayán", kisiler:"Sebastián de Benalcázar",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10234,7 +10234,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"HASSASİYET AY: kaynaklar baskını Ağustos 1537'ye koyar; atlas kırılması da ay hassasiyetinde (1537-08-01). Gün YAZILMADI — sahte kesinlik üretmemek için (§4)." },
 
 // ── 1537 · Asunción ──────────────────────────────────────────────────
-{ bolge:1, t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
+{ tur:"kurulus", bolge:1, t:"1537-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Asunción",
   b:"Asunción kuruldu — Paraguay ırmağında İspanyol üssü",
   gun:"15 Ağustos 1537", yer:"Asunción", kisiler:"Juan de Salazar de Espinosa",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10243,7 +10243,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"15 Ağustos, kasabanın adaşı Asunción (Meryem'in Göğe Kabulü) yortusudur; standart kuruluş tarihi olarak yerleşiktir. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1538 · Bacatá (Bogotá) ───────────────────────────────────────────
-{ bolge:1, t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
+{ tur:"kurulus", bolge:1, t:"1538-08-06", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Bacatá (Bogotá)",
   b:"Santa Fe de Bogotá kuruldu — Muisca ülkesinde İspanyol başkenti",
   gun:"6 Ağustos 1538", yer:"Bacatá (Bogotá)", kisiler:"Gonzalo Jiménez de Quesada",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10252,7 +10252,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1538 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Huamanga ──────────────────────────────────────────────────
-{ bolge:1, t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
+{ tur:"kurulus", bolge:1, t:"1539-01-09", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Huamanga (Ayacucho)",
   b:"San Juan de la Frontera de Huamanga kuruldu — Lima-Cuzco yolunun kilidi",
   gun:"9 Ocak 1539", yer:"Huamanga (Ayacucho)", kisiler:"Francisco Pizarro, Manco Inca",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -10261,7 +10261,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 9 Ocak 1539 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1539 · Tunja (İspanyol şehri) ────────────────────────────────────
-{ bolge:1, t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
+{ tur:"kurulus", bolge:1, t:"1539-08-06", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Hunza (Tunja)",
   b:"Tunja İspanyol şehri olarak yeniden kuruldu",
   gun:"6 Ağustos 1539", yer:"Hunza (Tunja)", kisiler:"Gonzalo Suárez Rendón",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10270,7 +10270,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 6 Ağustos 1539 standart kuruluş tarihi olarak yerleşiktir. Aynı yerleşimin 1537 kırılması ayrı maddededir (zaque'nin yenilgisi)." },
 
 // ── 1541 · Santiago de Chile ─────────────────────────────────────────
-{ bolge:1, t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
+{ tur:"kurulus", bolge:1, t:"1541-02-12", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Santiago (Şili)",
   b:"Santiago del Nuevo Extremo kuruldu — Şili'nin fethi başladı",
   gun:"12 Şubat 1541", yer:"Santiago (Şili)", kisiler:"Pedro de Valdivia, Michimalonco",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10279,7 +10279,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Basılı sayfadan aynen alıntı yapılmadı; 12 Şubat 1541 standart kuruluş tarihi olarak yerleşiktir." },
 
 // ── 1571 · Cochabamba ────────────────────────────────────────────────
-{ bolge:1, t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
+{ tur:"kurulus", bolge:1, t:"1571-08-15", k:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Cochabamba (Villa de Oropesa)",
   b:"Villa de Oropesa kuruldu — Potosí'yi besleyecek tahıl vadisinin iskânı",
   gun:"15 Ağustos 1571", yer:"Cochabamba (Villa de Oropesa)", kisiler:"Genel Vali Francisco de Toledo",
   etiket:["siyasi","toprak-kazanc","konu-idari"],
@@ -10303,7 +10303,7 @@ window.OLAYLAR_AMERIKA0920 = [
   ic_not_d:"Vilcabamba'nın ele geçirilişi (Haziran 1572) ile Túpac Amaru'nun Cuzco'da idamı (Eylül 1572) ayrı tarihlerdir; atlas kırılması ele geçirilişte duruyor. Basılı sayfadan aynen alıntı yapılmadı." },
 
 // ── 1619 · Maynas ────────────────────────────────────────────────────
-{ bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
+{ tur:"kurulus", bolge:1, t:"1619-01-01", k:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Borja (Maynas)",
   b:"San Francisco de Borja kuruldu — Maynas'ta İspanyol hâkimiyeti",
   gun:"1619 (temsilî)", yer:"Borja (Maynas)", kisiler:"Diego Vaca de Vega",
   etiket:["askeri","toprak-kazanc","konu-idari"],
@@ -10433,7 +10433,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"1914-1918-online, «Scutari Crisis» https://encyclopedia.1914-1918-online.net/article/scutari-crisis/ (gün arama özetinden; ikinci akademik teyit önerilir)" },
 
 // ── 1913 · Bükreş ────────────────────────────────────────────────────
-{ bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
+{ tur:"antlasma", bolge:4, t:"1913-08-10", k:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Kavala",
   b:"Bükreş Antlaşması — Batı Trakya ve Kavala havzası Bulgaristan'dan Yunanistan'a geçti",
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
@@ -10456,7 +10456,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN" },
 
 // ── 1914 · Basra ─────────────────────────────────────────────────────
-{ t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
+{ tur:"isgal", t:"1914-11-22", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Basra",
   b:"Şattülarap çıkarması — Basra'nın düşüşü ve Irak cephesinin açılması",
   gun:"22 Kasım 1914",
   yer:"Basra, Fâv, Kürne, Ammâre, Nâsıriye, Semâve, Kuveyt, Şattülarap",
@@ -10481,7 +10481,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
-{ t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
+{ tur:"isgal", t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"ic", yer_id:"Halep",
   b:"Halep'in Arap ve İngiliz kuvvetlerince işgali",
   gun:"27 Ekim 1918", yer:"Halep", kisiler:"Arap kuvvetleri, İngiliz ordusu",
   etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10489,7 +10489,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ tur:"isgal", bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
@@ -10497,7 +10497,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
-{ bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
+{ tur:"savas", bolge:3, t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
   b:"Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti",
   gun:"24 Temmuz 1920",
   yer:"Şam, Halep, Beyrut, Humus, Hama, Antakya, İskenderun, Deyrizor, Rakka, Münbiç, Cerablus, Azez (A'zâz), Ayn el-Arab (Kobani), Malikiye (Derik), Tedmür (Palmyra), Trablusşam, Sayda, Sûr (Tyre), Ba'lebek (Baalbek), Deyrülkamer (Dayr al-Kamer)",
@@ -10508,7 +10508,7 @@ window.OLAYLAR_2S0920 = [
   ic_not_d:"KUTU-H1-1015: GÜN TDV hasimiler--hasan'dan (24 Temmuz); eski t 1920-07-01 TDV suriye'nin ay hassasiyetiydi. Atlas kırılması zaten 1920-07-24 — artık madde ile aynı gün. `yer` alanındaki kasaba adları atlasın kırılma kümesinden; TDV bunları tek tek saymaz." },
 
 // ── 1921 · Şarkî Ürdün ───────────────────────────────────────────────
-{ bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
+{ tur:"kurulus", bolge:2, t:"1921-02-01", k:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Amman",
   b:"Şarkî Ürdün Emirliği kuruldu — Abdullah b. Hüseyin emîrliğini ilân etti",
   gun:"Şubat 1921", yer:"Amman, Kerak, Şarkî Ürdün",
   kisiler:"Abdullah b. Hüseyin", etiket:["siyasi","toprak-kazanc","konu-siyasi"],
@@ -10553,7 +10553,7 @@ window.OLAYLAR_2S0920 = [
 
 window.OLAYLAR_MISIR1801 = [
 
-{ t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
+{ tur:"savas", t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Dimyat'ın Fransızlardan alınması — Lesbe kalesinin boşaltılması",
   gun:"14 Mayıs 1801",
@@ -10562,7 +10562,7 @@ window.OLAYLAR_MISIR1801 = [
   kaynak:"London Gazette sayı 15388 (21 Temmuz 1801) s. 889-890 — Grand Vezir ordugâhından 20 Mayıs 1801 tarihli İngiliz raporu: 'the Capture of Fort Lesbie at Damietta, and two smaller Forts depending on it, by a Detachment from the Vizier's Army' · İbrahim Paşa'nın raporuna göre hücum 'on the Morning of the 14th Instant' hazırlanmışken kale boşaltılmış bulundu · üst sınır teyidi: London Gazette 15385 (15 Temmuz 1801), Lord Keith'in 22 Mayıs mektubu 'After the surrendering of Damietta' · TDV'DE KARŞILIĞI YOK (misir/kahire maddeleri gün vermiyor) — §4 gereği birincil belge künyesiyle yazıldı · KUTU-HATALI-1015 (0082/H-0061)",
   duygu:["🎉"] },
 
-{ t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
+{ tur:"savas", t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu",
   gun:"27 Haziran 1801",
@@ -10572,7 +10572,7 @@ window.OLAYLAR_MISIR1801 = [
   kaynak:"Fondation Napoléon, \"Chronologie de la Correspondance générale de Napoléon Bonaparte, tome 3 — Pacifications, 1800-1802\" (napoleon.org) — 27 juin (8 messidor): « Le général Belliard signe la capitulation des troupes françaises en Égypte. » · TDV'DE KARŞILIĞI YOK (ölçüldü: 'misir' maddesinin gövdesinde 1801 geçmiyor; 'kahire' maddesi Fransız işgaline gün vermiyor) — §4 gereği akademik kaynak künyesiyle yazıldı. Süveyş'in aynı güne bağlanması: denetim/YAMA-NAPOLYON-MISIR-0070.json (gün komşudan: Kahire kapitülasyonu)",
   duygu:["🎉"] },
 
-{ t:"1801-08-31", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
+{ tur:"savas", t:"1801-08-31", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"İskenderiye'nin Fransızlardan teslim alınması — Menou'nun kapitülasyonu",
   gun:"31 Ağustos 1801",
@@ -10609,7 +10609,7 @@ window.OLAYLAR_SENUSI_0919 = [
 
 { kapsam:"ic", t:"1554-04-07", k:"diplomasi", etiket:["siyaset","diplomasi","konu-siyasi"], b:"Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması", gun:"7 Nisan 1554 (Kanûnî'nin Halep'ten yazdığı mektubun tarihi)", yer:"Lugos ve Karánsebes — Banat; mektup Halep'ten", yer_id:"Lugos (Lugoj)", kisiler:"Kanûnî Sultan Süleyman, Petrovics Péter, Kraliçe İzabella, János Zsigmond", d:"İzabella ve Petrovics'in ısrarlı ricası üzerine Kanûnî, küçük János Zsigmond'u Erdel'e geri döndürmeye karar verdi. 7 Nisan 1554'te Halep'ten yazdığı mektupla Erdel'e çocuğu ülkesine geri götürmelerini emretti; Eflak ve Boğdan voyvodalarına da bu işte, aynı sırada Lugos ve Karánsebes sancakbeyi atadığı Petrovics'e yardım etmelerini buyurdu. 1552'de fethedilen Lugos böylece bir Osmanlı sancağı olarak Petrovics'e verildi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0013/1022 ('Aleppoban 1554. április 7.-én kelt levelében … Petrovicsnak, akit egyidejűleg lugosi és karánsebesi szandzsákká nevezett ki')", duygu:["🤝"] },
 
-{ kapsam:"ic", t:"1596-05-10", k:"savas", etiket:["savas","konu-askeri"], b:"Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını", gun:"10/11 Mayıs 1596 gecesi (Temeşvar paşası 11 Mayıs'ta Lippa önünden çekildi)", yer:"Lippa ve Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Temeşvar paşası, Borbély György, Palatics György (Lugos bânı), Buday György", d:"1596 baharında Temeşvar paşası Lippa'yı kuşattı. 10 Mayıs'ı 11'ine bağlayan gece Erdel'in Lugos bânı Palatics György'nin emriyle Buday György'nün askerleri Temeşvar varoşlarını basıp ateşe verdi; kalede Borbély György'nün bütün toplarını ateşletmesi de paşayı yardım geldiğine inandırdı. Paşa 11 Mayıs'ta Lippa önünden çekilerek kendi merkezini korumaya koştu. Lugos bu sırada Erdel Prensliği'nin elindeydi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0014/1137 (1596 seferi) — 'Palatics György lugosi bán megbízásából Buday György vitézei éppen azon éjszaka verték és gyújtották föl Temesvár külvárosait'", duygu:["⚔️"] },
+{ tur:"savas", kapsam:"ic", t:"1596-05-10", k:"savas", etiket:["savas","konu-askeri"], b:"Lippa kuşatmasının kalkması — Lugos bânının Temeşvar baskını", gun:"10/11 Mayıs 1596 gecesi (Temeşvar paşası 11 Mayıs'ta Lippa önünden çekildi)", yer:"Lippa ve Temeşvar — Banat", yer_id:"Lugos (Lugoj)", kisiler:"Temeşvar paşası, Borbély György, Palatics György (Lugos bânı), Buday György", d:"1596 baharında Temeşvar paşası Lippa'yı kuşattı. 10 Mayıs'ı 11'ine bağlayan gece Erdel'in Lugos bânı Palatics György'nin emriyle Buday György'nün askerleri Temeşvar varoşlarını basıp ateşe verdi; kalede Borbély György'nün bütün toplarını ateşletmesi de paşayı yardım geldiğine inandırdı. Paşa 11 Mayıs'ta Lippa önünden çekilerek kendi merkezini korumaya koştu. Lugos bu sırada Erdel Prensliği'nin elindeydi.", kaynak:"Bánlaky, A magyar nemzet hadtörténelme, B 0014/1137 (1596 seferi) — 'Palatics György lugosi bán megbízásából Buday György vitézei éppen azon éjszaka verték és gyújtották föl Temesvár külvárosait'", duygu:["⚔️"] },
 
 { kapsam:"ic", t:"1691-01-01", kesinlik:"yil", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Lugos sancağı Habsburg işgaline girdi (1691-1695)", gun:"1691 [yalnız yıl teyitli; gün teyitsiz]", ic_not_gun:"POSTIT-146: kaynak yalnız yıl veriyor. Bánlaky B 0017/1474 Veterani'nin 5 Kasım 1691'den sonra Lugos'u almaya yürüdüğünü yazar; gerçek geçiş 1691'in son aylarında olabilir. 1689-1691 Osmanlı geri alışı için kaynak bulunamadı (beyanlı boşluk sürüyor).", yer:"Lugos, Banat", yer_id:"Lugos (Lugoj)", kisiler:"Veterani", d:"Lugos sancağı 1691-1695 arasında Habsburg (Alman) işgalinde kaldı; II. Mustafa 22 Eylül 1695'te yeniden fethetti. Eski kayıtta 1689-1695 arası beyanlı boşluktu; 1691-1695 dilimi artık Habsburg olarak boyanır, 1689-1691 boşluk kalır. Tarih yalnız yıl olarak alınmıştır.", kaynak:"Sadık Müfit Bilge, 'Macaristan'da Osmanlı Hakimiyetinin ve İdarî Teşkilâtının Kuruluşu ve Gelişmesi', OTAM, DOI 10.1501/OTAM_0000000441, s. 63 — 'Lugos, 1691-1695 yılları arasında Alman işgalinde kaldıysa da, II. Mustafa tarafından 22 Eylül 1695 tarihinde yeniden fethedildi' · Bánlaky B 0017/1474", duygu:["😔"] },
 
@@ -10650,7 +10650,7 @@ window.OLAYLAR_SESSIZBORC0919 = [
 
 { bolge:4, t:"1448-01-01", kesinlik:"yil", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Stjepan Vukčić-Kosača 'St. Sava Dükü' — Hersek'in doğuşu", gun:"1448 (EB1911 yılı veriyor; TDV 'XV. yüzyıl ortalarında')", yer:"Hersek (Hum ve Trebinje) — Mostar, Blagay", yer_id:"Mostar", kisiler:"Stjepan Vukčić-Kosača, III. Friedrich", d:"Hum ile Trebinje'yi tek beylikte birleştiren Stjepan Vukčić-Kosača Bosna kralına karşı ayaklanıp kendini 'St. Sava'nın Herseki (dükü)' ilân etti; unvanı 1448'de İmparator III. Friedrich verdi. Herzegovina ('Hersek'in toprağı') adı bu unvandan gelir. Hersek 1466'dan itibaren parça parça Osmanlı'ya geçti, 1470'te sancak oldu; kalan toprakları 1482 başında katıldı.", kaynak:"EB1911 'Bosnia and Herzegovina' (Wikisource): 'Stephen Vukčić … who had united Tribunia and Hlum into a single principality' · 'the first and last holder of the title “Duke of St Sava,” conferred on him by the emperor Frederick III. in 1448; and from this title is derived the name Herzegovina' · TDV bosna-hersek: '… XV. yüzyıl ortalarında Bosna kralına isyan edip kendisini “St. Sava’nın Herseki” yani dükü ilân eden Stjepan Vukčić-Kosača’nın unvanından gelir' · 'Hersek sancağı 1470’te teşkil edilmiş, buranın diğer bir kısım toprakları ise 1482 başlarında fethedilerek sancağa katılmıştı.'" },
 
-{ bolge:2, t:"1525-04-08", k:"antlasma", kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü", gun:"8 Nisan 1525", yer:"Kraków; Prusya — Königsberg", yer_id:"Königsberg", kisiler:"Brandenburglu Albrecht, I. Zygmunt", d:"Cermen Şövalyeleri'nin büyük üstadı Brandenburglu Albrecht, Polonya'ya karşı yardım bulamayınca Kraków Barışı'nı imzaladı. Tarikat devleti (Ordensstaat) Polonya'nın metbûluğu altında, Brandenburg hanedanına geçen irsî ve dünyevî bir dükalık oldu. Merkez Königsberg'di; Albrecht 1544'te burada Albertus Üniversitesi'ni kurdu. Dükalık 1701'de Prusya Krallığı'na dönüştü.", kaynak:"NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'" },
+{ tur:"antlasma", bolge:2, t:"1525-04-08", k:"antlasma", kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü", gun:"8 Nisan 1525", yer:"Kraków; Prusya — Königsberg", yer_id:"Königsberg", kisiler:"Brandenburglu Albrecht, I. Zygmunt", d:"Cermen Şövalyeleri'nin büyük üstadı Brandenburglu Albrecht, Polonya'ya karşı yardım bulamayınca Kraków Barışı'nı imzaladı. Tarikat devleti (Ordensstaat) Polonya'nın metbûluğu altında, Brandenburg hanedanına geçen irsî ve dünyevî bir dükalık oldu. Merkez Königsberg'di; Albrecht 1544'te burada Albertus Üniversitesi'ni kurdu. Dükalık 1701'de Prusya Krallığı'na dönüştü.", kaynak:"NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'" },
 
 { bolge:3, t:"1918-11-12", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu", gun:"12 Kasım 1918", yer:"Viyana", yer_id:"Viyana", kisiler:"İmparator I. Karl", d:"İmparator I. Karl'ın 11 Kasım'da devlet işlerinden elini çekmesinin ertesi günü Geçici Millî Meclis devlet ve hükümet şekli hakkındaki kanunu kabul etti ve cumhuriyet ilân edildi. Habsburg Avusturyası'nın yerini Viyana merkezli Birinci Cumhuriyet aldı. Bu ilânla Viyana, Linz, Salzburg, Innsbruck, Klagenfurt, Bregenz ve öteki Alman-Avusturya şehirleri Avusturya Cumhuriyeti'nin (Deutschösterreich) toprağı oldu.", kaynak:"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik): 'Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen.' · '11. November 1918: Kaiser Karl I. erklärt sich unter dem Druck der Ereignisse bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten' · TDV avusturya (1804-1867 Avusturya İmparatorluğu, 1867-1918 Avusturya-Macaristan) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik)", ic_not_kaynak:"TDV avusturya imparatorun devlet işlerinden çekilişini 18 Kasım diye verir ('İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla'); Parlament Österreich 11 Kasım 1918 der. Avusturya anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi mükerrer olduğu için kaldırıldı (ONCE1281-OK109-UYGULA-1004).",
   alt_kutu:[9.4, 42.3, 26.8, 51.3],
@@ -10810,7 +10810,7 @@ window.OLAYLAR_P0069 = [
 
 window.OLAYLAR_EBUKIR0919 = [
 
-{ t:"1798-08-01", kesinlik:"gun", k:"savas", kapsam:"ic", onem:4, etiket:["savas","konu-askeri"],
+{ tur:"savas", t:"1798-08-01", kesinlik:"gun", k:"savas", kapsam:"ic", onem:4, etiket:["savas","konu-askeri"],
   b:"Ebukır (Nil) deniz muharebesi — Napolyon'un donanmasının imhası",
   gun:"1 Ağustos 1798",
   yer:"Ebukır koyu, İskenderiye yakını (Mısır)", yer_id:"Ebûkîr",
@@ -10818,7 +10818,7 @@ window.OLAYLAR_EBUKIR0919 = [
   d:"Napolyon'un ordusunu Mısır'a taşıyan Fransız donanması Ebukır koyunda demirli beklerken İngiliz Amirali Nelson'ın filosu tarafından yakalandı ve bir gece süren muharebede imha edildi; amiral gemisi L'Orient infilak etti. Nelson böylece Fransa'nın Mısır'daki kara ordusunu deniz desteğinden mahrum bıraktı: ordu ne takviye alabiliyor ne de geri dönebiliyordu. Beş hafta sonra Osmanlı Devleti de Fransa'ya savaş ilan etti.",
   kaynak:"ebukir", duygu:["⚔️"] },
 
-{ t:"1799-07-25", kesinlik:"gun", k:"savas", kapsam:"ic", onem:3, etiket:["savas","konu-askeri"],
+{ tur:"savas", t:"1799-07-25", kesinlik:"gun", k:"savas", kapsam:"ic", onem:3, etiket:["savas","konu-askeri"],
   b:"Ebukır kara muharebesi — Köse Mustafa Paşa'nın yenilgisi",
   gun:"25 Temmuz 1799",
   yer:"Ebukır, İskenderiye yakını (Mısır)", yer_id:"Ebûkîr",

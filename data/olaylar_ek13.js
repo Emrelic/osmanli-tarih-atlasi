@@ -125,7 +125,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // 1488 = Portekiz nüfuzunun/himayesinin kuruluşu · 1508 = fiilî işgal.
 // İkisi de yazıldı; koordinatör kırılmayı hangisine koyacağına karar verir.
-{ bolge:1, t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"vassal", bolge:1, t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Safi'nin Portekiz nüfuzuna girmesi",
   gun:"1488", ic_not_gun:"(kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
   yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
@@ -135,7 +135,7 @@ window.OLAYLAR_EK13 = [
 // A-5 — Santa Cruz do Cabo de Gué (Agadir)
 // ---------------------------------------------------------------------------
 // 🔴 NOKTA ZATEN VARDI, dönem yoktu — D3'ün "en ucuz düzeltme"si.
-{ bolge:1, t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"kurulus", bolge:1, t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
   gun:"1505 (gün ve ay kaynakta yok; taca devir 1513)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı", yer_id:"Agadir",
@@ -156,7 +156,7 @@ window.OLAYLAR_EK13 = [
 // A-7 — Mazagan kalesinin kurulması
 // ---------------------------------------------------------------------------
 // 📌 Bu, Portekiz'in Fas'ta EN UZUN tuttuğu yerdir — 255 yıl (A-10'a bakınız).
-{ bolge:1, t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
+{ tur:"kurulus", bolge:1, t:"1514-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri","konu-siyasi"],
   kapsam:"dis", b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
   gun:"1514 yazı (gün kaynakta yok; kale 1541-42'de yeniden ve çok daha güçlü inşa edildi)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
@@ -329,7 +329,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // Manama kaydındaki mevcut dönem: `ingiltere 1861-05-31 → 1923-10-29`.
 // TDV `bahreyn` ise 21 Mayıs 1861 diyor. On günlük fark; İKİSİ DE yazıldı.
-{ bolge:2, t:"1861-05-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ tur:"antlasma", bolge:2, t:"1861-05-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   kapsam:"dis", onem:3, b:"Bahreyn'in İngiltere ile antlaşması — körfezde himaye düzenine giriş",
   gun:"21 Mayıs 1861", ic_not_gun:"KUTU-H1-1015: TDV bahreyn '21 Mayıs 1861’de' — TDV birincil, gün buna alındı (eski t 1861-05-31). İngiliz belgelerinde (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861; fark beyan.",
   yer:"Bahreyn (Evâl adaları)",
@@ -417,7 +417,7 @@ window.OLAYLAR_EK13 = [
 // ⚠️ GÜN YOK: literatür Mart 1362'de birleşiyor, bir kısmı Nisan 1362 diyor.
 //    `padisahlar.js` `to:"1362-03"` taşıyor ⇒ `t:` onunla hizalandı.
 
-{ kapsam:"ic", t:"1362-03-01", k:"taht", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
+{ tur:"taht", kapsam:"ic", t:"1362-03-01", k:"taht", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
   b:"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
   gun:"Mart 1362", ic_not_gun:"(gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
   yer:"Bursa", yer_id:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",

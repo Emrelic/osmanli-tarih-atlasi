@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Anadolu / Ege / Kıbrıs / Levant-Hitit dünyası (3. dalga) (d3-anadolu-ege) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d3-anadolu-ege.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Eski Van"], 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1,  "odak_yer":["Eski Van"], 
   "t": "-0899-01-01",
   "k": "kurulus",
   "b": "Urartu Krallığı (Tuşpa / Van): Urartu devleti oluşur (9. yy)",
@@ -57,7 +57,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynaktan okunan: «Around or shortly after 1200 bc, the Hittite Empire and central administrative system collapsed.». 1. dalga kaydı 'hattusa-cokus' (1198-1196) KURAKLIK penceresidir, terk tarihi DEĞİLDİR; bu okuma onu doğrular ve netleştirir: atlas bitişi için ≈1200 (kaynağın ifadesi) kullanılmalı, 1198-1196 'kuraklık' diye etiketlenmeli. Aynı makale ('Discussion') nedensellik için 'lack the evidence' der. Terk tarihi yılı Seeher/Schachner'in DAI Boğazköy 14C veri setinde (repo.dainst.org) ve AA/MDOG'da — okunamadı (kutuphane_gerekli)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Hattuşa"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Hattuşa"],
   "t": "-1206-01-01",
   "k": "kurulus",
   "b": "II. Şuppiluliuma (son bilinen Hitit kralı) — tahta çıkışı: II. Şuppiluliuma tahta çıkar (son Hitit kralı)",
@@ -93,7 +93,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 1609–1560 (kaynağın verdiği uçlar); orta nokta MÖ 1584 = astronomik -1583. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95.4. Kaynaktan okunan: «1606-1589 BCE (68.3%) and 1609-1560 BCE (95.4%)». ÇELİŞKİ: Manning (Hyksos/İkinci Ara Dönem, 16. yy başı) vs. Pearson vd. (16. yy MÖ, Ahmose ile bağlantı; Bruins-van der Plicht reddeder) vs. geleneksel Mısır-bağlı 1530-1500. 1. dalga kaydı 1627-1600 kullandı; üç model arasında 17. yy sonu/16. yy başı fark var. Girit için: Manning 2022 'LM IB yıkımları (Hanya, Myrtos-Pyrgos, Mochlos) 15. yy ortası, hem arkeoloji hem 14C' der — Knossos'un kendi yıkım tarihi bu makalede YOK."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-1649-01-01",
   "k": "kurulus",
   "b": "Hitit Eski Krallığı — I. Hattusili saltanatı (Labarna): I. Hattusili dönemi (hMC geleneksel değer)",
@@ -205,7 +205,7 @@ window.OLAYLAR_ARKEOLOJI_D3_ANADOLU_EGE = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 2267 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Troy III begins 2267±10 cal BC». Tübingen şemasında Troya III başlangıcı c. 2340 cal BC'dir (aynı makale); fark yazarlarca belirtilir. 2170'in Tübingen/Blum 2012 ve Pernicka 2014 ile uyumlu olduğu yazılıdır. Hata değerleri ±10 yıla YUVARLANMIŞTIR (kaynak notu 2)."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
+ { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Truva yöresi (Tevfikiye)"],
   "t": "-2919-01-01",
   "k": "kurulus",
   "b": "Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)",
