@@ -1,0 +1,28 @@
+  UYARI alan: 'ic_not' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Abâdân). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'karar_notu' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Aquincum-Óbuda-Pest). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'kaynak_kur' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_ek24.js:Uzunköprü). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'konum_kesinlik' BILINEN_ALANLAR'da yok — 126 kayıtta (yerlesimler_once1281_yt_ortadogu.js:Elam, yerlesimler_once1281_yt_ortadogu.js:Media, yerlesimler_once1281_yt_ortadogu.js:Elymais…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 's.eksklav' BILINEN_ALANLAR'da yok — 247 kayıtta (yerlesimler.js:Mora (Tripoliçe), yerlesimler.js:Modon, yerlesimler.js:Balyabadra (Patras)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  i 20 nokta çifti 3.0 km'den yakın ve BEYANSIZ:
+      0.00 km  Karthago <-> Kartaca (Carthage)
+      0.00 km  Lusitania <-> Baetica
+      0.00 km  Port Vila <-> Port Vila (Efate)
+      0.00 km  Kalavrita (Kalavryta) <-> Kalavryta
+      0.00 km  Vostitsa (Aigion) <-> Aigion
+      0.03 km  Erbil <-> Adiabene
+      0.19 km  Filistin <-> Remle (Ramla)
+      0.24 km  Kurtuba (Córdoba) <-> Endülüs
+      0.36 km  Dimitrofça (Sremska Mitrovica) <-> Sirmium (Sremska Mitrovica)
+      0.42 km  Kayrevan <-> İfrîkıye
+  i ikiz beyanı: 4 çift — 3 km altı AMA beyanlı, ihlal DEĞİL (gözden geçirme kovası):
+      0.82 km  Belgrad <-> Belgrad Kalesi (Kalemegdan)
+      1.41 km  Sault Ste. Marie <-> Sault Ste. Marie (Ontario)
+      1.54 km  Anadolu Hisarı <-> Rumeli Hisarı
+      1.57 km  Aquincum-Óbuda-Pest <-> Peşte
+  Y=5593 O=7415 (30 sn)
+  D2: kirilma dv=757 (acik 0) s=3600 (acik 1550) isg=337 (acik 0) · D2t kırılmasız=222
+  ölçüm 1: 400 örnek · node koşuyor (yükleme ~3 dk)...
+tamam 400
+ 
+  ölçüm 2: D2 dışı kronoloji dosyası maddesi = 10589
+yazıldı: C:\atlas\.claude\worktrees\f-adimi-kosu35\denetim\F-ADIMI-1108\sonuc-kosu35.json

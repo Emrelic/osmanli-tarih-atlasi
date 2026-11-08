@@ -14,13 +14,9 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 -0117-01-01	Narbo Martius kuruldu: Güney Galya (Gallia Transalpina) Roma eyaleti oldu	toprak-kazanc	toprak-kazanc,konu-siyasi	Narbo (Narbonne)	dis	kuruluş/ilan
 -0128-01-01	Aristonikos yenildi; Bergama topraklarından Asia eyaleti kuruldu	toprak-kayip	toprak-kayip,konu-siyasi	Bergama	dis	kuruluş/ilan
 -0137-01-01	Part, II. Demetrios Nikator’u esir aldı; Selevkos Babil ve Mezopotamya’yı kesin olarak yitirdi	toprak-kayip	toprak-kayip,konu-siyasi	Mezopotamya	dis	diğer
--0166-01-01	Epir Roma'ca yağmalandı: yetmiş kent yıkıldı	toprak-kayip	toprak-kayip,konu-siyasi	Epir (Molossis, Kassopia)	dis	diğer
--0166-01-01	Makedonya Roma tarafından dört özerk bölgeye (merides) ayrıldı	toprak-kayip	toprak-kayip,konu-siyasi	Selanik	dis	diğer
--0166-01-01	Roma Lykia ve Karia'yı Rodos'tan aldı; Delos serbest liman ilan edildi	toprak-kayip	toprak-kayip,konu-siyasi	Rodos	dis	kuruluş/ilan
 -0185-01-01	Teb isyanı bastırıldı: Komanos Yukarı Mısır'ı Ptolemaios hâkimiyetine geri aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Uksur (Luksor)	dis	isyan/harekât
 -0187-01-01	Apameia Barışı: Eumenes II Bergama'ya Trakya Khersonesos'u, Frigya, Lidya ve Mysia'nın büyük kısmını kazandı	toprak-kazanc	toprak-kazanc,konu-siyasi	Bergama	dis	antlaşma/statüko
 -0187-01-01	Apameia Barışı: Rodos Likya ve Karia'nın güneyini aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Rodos	dis	antlaşma/statüko
--0188-01-01	Aitolia Roma ile barış yaptı: Ambrakia ve Oiniadai'yi yitirdi, Roma'nın egemenliğini tanıdı	toprak-kayip	toprak-kayip,konu-siyasi	Ambrakia, Aitolia	dis	antlaşma/statüko
 -0196-01-01	Hispania'da iki Roma eyaleti kuruldu: Citerior ve Ulterior	toprak-kazanc	toprak-kazanc,konu-siyasi	Hispania (Ebro vadisi, Baetica)	dis	kuruluş/ilan
 -0200-01-01	Roma Masinissa'yı Syphax'ın krallığıyla ödüllendirdi	toprak-kazanc	toprak-kazanc,konu-siyasi	Numidia (Cirta)	dis	diğer
 -0202-01-01	Syphax yenilip tutsak edildi; Masinissa Numidia'yı birleştirdi	toprak-kazanc	toprak-kazanc,konu-siyasi	Cirta ve Büyük Ovalar (Numidia)	dis	diğer
@@ -33,7 +29,6 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 -0240-01-01	Aegates Adaları: Kartaca filosu yok edildi; Sicilya ilk Roma eyaleti oldu	toprak-kazanc	toprak-kazanc,konu-siyasi	Aegates (Egadi Adaları), Sicilya	dis	diğer
 -0242-01-01	Aratos Akrokorinth'i bastı: Korint Makedonya'dan Akhaia Birliği'ne geçti	toprak-kayip	toprak-kayip,konu-siyasi	Korint (Akrokorinth)	dis	diğer
 -0245-01-01	III. Ptolemaios Laodike Savaşı'nda Suriye'yi ve Mezopotamya'yı işgal etti; Seleukeia Pieria Ptolemaios eline geçti	toprak-kazanc	toprak-kazanc,konu-siyasi	Seleukeia Pieria, Antakya, Babil	dis	diğer
--0250-01-01	Aratos Sikyon'u Akhaia Birliği'ne kattı	toprak-kazanc	toprak-kazanc,konu-siyasi	Sikyon	dis	diğer
 -0263-01-01	Volsinii düştü: Etruria'nın son bağımsız büyük kenti Roma'ya geçti	toprak-kayip	toprak-kayip,konu-siyasi	Volsinii (Orvieto/Bolsena)	dis	diğer
 -0284-01-01	Lysimakhos Pyrrhos'u Makedonya'dan çıkardı ve Makedonya'nın tek kralı oldu	toprak-kazanc	toprak-kazanc,konu-siyasi	Makedonya	dis	diğer
 -0286-01-01	Pyrrhos ve Lysimakhos Makedonya'yı böldü; Demetrios Poliorketes devrildi	toprak-kazanc	toprak-kazanc,konu-siyasi	Makedonya	dis	diğer
@@ -70,8 +65,6 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 -0644-01-01	Asurbanipal Susa'yı yıktı; Yeni Elam Krallığı çöktü	toprak-kayip	toprak-kayip,konu-siyasi	Susa	dis	diğer
 -0655-01-01	Psamtik I kızı Nitokris'i Teb'in Tanrının Eşi'ne evlat edindirerek Yukarı Mısır'ı denetimine aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Uksur (Luksor)	dis	diğer
 -0662-01-01	Asur ordusu Teb'i yağmaladı; Tantamani güneye çekildi, Kush'un Mısır'daki hâkimiyeti çöktü	toprak-kayip	toprak-kayip,konu-siyasi	Uksur (Luksor)	dis	diğer
--0663-01-01	Asurbanipal Teb'i (Thebes) yağmaladı	toprak-kazanc	toprak-kazanc,konu-siyasi	Teb (Waset), Yukarı Mısır	dis	diğer
--0663-01-01	Tantamani Kush'tan inip Teb ve Memphis'i yeniden aldı; Asur vasallarını kuşattı	toprak-kazanc	toprak-kazanc,konu-siyasi	Uksur (Luksor)	dis	diğer
 -0670-01-01	Asarhaddon Mısır'a girip Memphis'i aldı; Taharka güneye çekildi	toprak-kayip	toprak-kayip,konu-siyasi	Memphis ve Delta	dis	diğer
 -0676-01-01	Esarhaddon Sayda'yı yıkıp Kar-Esarhaddon adıyla yeniden kurdu	toprak-kayip	toprak-kayip,konu-siyasi	Sayda	dis	diğer
 -0700-01-01	Sennacherib Sayda'yı aldı; Kral Luli Kıbrıs'a kaçtı	toprak-kazanc	toprak-kazanc,konu-siyasi	Sayda	dis	diğer
@@ -83,7 +76,6 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 -0839-01-01	Moab Kralı Meşa İsrail'den bağımsızlığını ilan etti (Meşa Steli)	toprak-kayip	toprak-kayip,konu-siyasi	Moab, Dibon	dis	kuruluş/ilan
 -0876-01-01	II. Aşşurnasirpal Fırat'ı geçip Karkemiş'ten ve Yeni Hitit/Arami devletlerinden haraç aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Karkemiş ve Fırat	dis	diğer
 -0879-01-01	Omri Samiriye'yi başkent yaptı, Moab'ı aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Samiriye (Samaria), Moab	dis	diğer
--1068-01-01	Yeni Krallık sona erdi: Ramses XI'in son yıllarında Delta'da Smendes (Tanis), Teb'de Amon başrahibi fiilen bağımsız	toprak-kayip	toprak-kayip,konu-siyasi	Uksur (Luksor)	dis	diğer
 -1157-01-01	Şutruk-Nahhunte Babil ülkesini yağmaladı; Hammurabi ve Naram-Sin stellerini Susa'ya götürdü	toprak-kayip	toprak-kayip,konu-siyasi	Sippar (Tell Abu Habbah)	dis	diğer
 -1179-01-01	Hattuşa yandı, terk edildi; Hitit İmparatorluğu çöktü	toprak-kayip	toprak-kayip,konu-siyasi	Hattuşa (Boğazkale)	dis	diğer
 -1269-01-01	I. Şalmaneser Hanigalbat'ı ilhak etti; Mitanni ortadan kalktı	toprak-kazanc	toprak-kazanc,konu-siyasi	Habur-Fırat	dis	diğer
@@ -93,7 +85,6 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 -1339-01-01	Amarna çağında Mısır'ın Kuzey Suriye'deki hâkimiyeti çözüldü; Amurru ve Kadeş Hitit nüfuz alanına kaydı	toprak-kayip	toprak-kayip,konu-siyasi	Amurru ve Kadeş (Orta Suriye, Orontes vadisi)	dis	diğer
 -1344-01-01	Şuppiluliuma I Mitanni'yi (Tuşratta) yenip Halep ve Karkemiş'i aldı; kuzey Suriye Hitit'e geçti	toprak-kazanc	toprak-kazanc,konu-siyasi	Halep	dis	diğer
 -1424-01-01	II. Amenhotep Nubya'da Napata'ya ulaştı ve güney sınır steli dikti: Mısır'ın en güney noktası	toprak-kazanc	toprak-kazanc,konu-siyasi	Elefantin, Amada ve Napata (Cebel Barkal, Dördüncü Şelale)	dis	diğer
--1449-01-01	Girit'te Minos saraylarının tahribi; Knossos'ta Miken denetimi başladı	toprak-kayip	toprak-kayip,konu-siyasi	Knossos ve Girit sarayları	dis	diğer
 -1524-01-01	Ahmose Aşağı Nubya'ya sefer çıkarıp Nubya yaylacılarını bastırdı	toprak-kazanc	toprak-kazanc,konu-siyasi	Aşağı Nubya (Khent-hen-nefer)	dis	diğer
 -1529-01-01	Ahmose Hiksos'un başkenti Avaris'i aldı ve Şaruhen'i kuşatıp düşürdü	toprak-kazanc	toprak-kazanc,konu-siyasi	Avaris (Doğu Delta) ve Şaruhen (Güney Kenan) — Atlas'ta yok	dis	diğer
 -1629-01-01	Hattuşili I Toros'u aşıp Kizzuvatna'yı (Kilikya) kendi sınırına kattı, Halep krallığıyla savaştı	toprak-kazanc	toprak-kazanc,konu-siyasi	Tarsus	dis	diğer
@@ -129,7 +120,6 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 0714-01-01	Mesleme b. Abdülmelik Derbend Geçidi'ni ele geçirdi	toprak-kayip	toprak-kayip,konu-siyasi	Derbend	dis	diğer
 0747-10-11	Hâricî Ebû Hamza Medine'yi ele geçirdi	toprak-kayip	toprak-kayip,konu-siyasi	Medine	dis	diğer
 0764-01-01	Hazar ordusu Tiflis'i ele geçirdi	toprak-kazanc	toprak-kazanc,konu-siyasi	Tiflis	dis	diğer
-0775-01-01	Ligor (Nakhon Si Thammarat) steli: Sriwijaya kralı Malay Yarımadası'nda Ligor'a yerleşip Budist tapınaklar yaptırdı (775)	toprak-kazanc	toprak-kazanc,konu-siyasi	Nakhon Si Thammarat	dis	diğer
 0809-01-01	Han Krum Sofya’yı (Serdika) aldı	toprak-kazanc	toprak-kazanc,konu-siyasi	Sofya	dis	diğer
 0813-01-01	Han Krum Dimetoka’yı (Didymoteichon) aldı	toprak-kayip	toprak-kayip,konu-siyasi	Dimetoka	dis	diğer
 0813-01-01	Han Krum Edirne’yi aldı	toprak-kayip	toprak-kayip,konu-siyasi	Edirne	dis	diğer
@@ -218,7 +208,7 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 1684-11-03	Peşte'nin Osmanlı'ya geri dönüşü		toprak-kazanc,konu-askeri	Peşte	ic	diğer
 1686-07-10	Modon'un Venedik'e kaybı		toprak-kayip,savas,konu-askeri	Modon	ic	diğer
 1693-05-27	Yanova'nın kaybı — Erdel yolunun kapanması		toprak-kayip,savas,konu-askeri	Yanova (Ineu)	ic	diğer
-1699-09-22	Kamaniçe'nin Lehistan'a teslimi		toprak-kayip,konu-askeri,konu-diplomasi	Kamaniçe	ic	diğer
+1699-09-22	Kamaniçe'nin Lehistan'a teslimi	antlasma	toprak-kayip,konu-askeri,konu-diplomasi	Kamaniçe	ic	diğer
 1702-10-22	Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaşı'nın ilk Neva kalesi		toprak-kazanc,konu-askeri	Oreşek (Nöteborg)	dis	diğer
 1717-11-30	Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi	fetih	askeri,toprak-kazanc,konu-askeri	Lhasa	dis	diğer
 1769-03-11	Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü		toprak-kayip,konu-askeri	Mazagan (El Jadida)	dis	diğer
@@ -227,7 +217,7 @@ tarih	baslik	tur	etiket	yer	kapsam	oto_sinif
 1808-04-02	Napolyon Marche'yi İtalya Krallığı'na kattı: Ancona Metauro departmanının merkezi oldu	toprak-kayip	toprak-kayip,konu-siyasi,napolyon-italya	Ancona	dis	diğer
 1811-10-01	Yenbu teslim alındı — Hicaz seferinin ilk kıyı üssü		toprak-kazanc,savas,konu-askeri	Yenbu	ic	diğer
 1830-08-09	Dayı Hüseyin'in sürgünü — Cezayir ocağının fiilen sonu		siyaset,toprak-kayip,konu-askeri,konu-siyasi,konu-demografi	Cezayir	ic	diğer
-1883-11-05	Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi		toprak-kayip,savas,isyan,konu-askeri,konu-isyan	Kordofan (Ubeyyid)	ic	diğer
+1883-11-05	Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi	savas	toprak-kayip,savas,isyan,konu-askeri,konu-isyan	Kordofan (Ubeyyid)	ic	diğer
 1903-03-15	İngilizler Sokoto'yu işgal etti — Sokoto Halifeliği başşehrini kaybetti		askeri,toprak-kazanc	Sokoto	dis	diğer
-1906-04-13	İbn Suûd Reşîdî emîrini yendi — Kasîm Şammar Emirliği'nden Suûdîler'e geçti		askeri,toprak-kazanc	Buraydâ (Kasîm)	dis	diğer
+1906-04-13	İbn Suûd Reşîdî emîrini yendi — Kasîm Şammar Emirliği'nden Suûdîler'e geçti	savas	askeri,toprak-kazanc	Buraydâ (Kasîm)	dis	diğer
 1929-08-28	Tacna, Şili'den Peru'ya fiilen teslim edildi	toprak-kazanc	sinir,toprak-kazanc,konu-siyasi,peru-cumhuriyeti,sili-cumhuriyeti	Arica	dis	diğer

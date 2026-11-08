@@ -1,52 +1,52 @@
 # F-ADIMI-1108 — toprak-değişimi maddeleri haritada gösteriliyor mu? (SALT ÖLÇÜM)
 
-Taban commit: `cf3aa1f39` · tohum 1108 · 2026-11-08 14:51
-- data/donemler.js: 78.2 MB · sha256 `350fde0c97922237`
-- data/devletler_harita.js: 389.8 MB · sha256 `f4453f595112f2f0`
+Taban commit: `e95b52fee` · tohum 1108 · 2026-11-08 20:38
+- data/donemler.js: 79.2 MB · sha256 `faa39100eb564d19`
+- data/devletler_harita.js: 391.9 MB · sha256 `90af2bca8e38cf67`
 
 Yöntem: Değişmez 2 kırılma↔madde çiftleri (denetle.py `degismez2`, yalnız MADDESİ OLAN/kapalı kırılmalar) → bir yerleşim + ±30 günde yer-eşleşen en yakın madde → üretilmiş haritada (Osmanlı `o/v/h` gövdesi + `devletler_harita` gövdeleri) yerleşimin KOORDİNATI için nokta-içinde-poligon ile sahip kümesi, madde gününün -4..+3 komşuluğunda. EVET = sahip kümesi madde gün-1 ile gün arasında değişiyor; KAYMA = ±3 gün içinde başka bir günde; YOK = ±3 günde değişmiyor. Gövde dışı noktalar için 4 km yakınlık yedeği.
 
 ## ÖLÇÜM 1 — kırılma↔madde çiftinin haritadaki karşılığı
 
-Evren (kapalı kırılma sayısı): dv: 746 (örnek 100) · s: 2083 (örnek 200) · isg: 333 (örnek 100)
+Evren (kapalı kırılma sayısı): dv: 757 (örnek 100) · s: 2050 (örnek 200) · isg: 337 (örnek 100)
 
 | tabaka | n | EVET | ±3g KAYMA | YOK | ÖLÇÜLEMEDİ |
 |---|---|---|---|---|---|
-| Osmanlı d/v | 100 | 84 (%84) | 1 (%1) | 15 (%15) | 0 (%0) |
-| yabancı s | 200 | 169 (%84) | 3 (%2) | 28 (%14) | 0 (%0) |
-| işgal | 100 | 4 (%4) | 3 (%3) | 93 (%93) | 0 (%0) |
-| TOPLAM | 400 | 257 (%64) | 7 (%2) | 136 (%34) | 0 (%0) |
+| Osmanlı d/v | 100 | 76 (%76) | 6 (%6) | 18 (%18) | 0 (%0) |
+| yabancı s | 200 | 170 (%85) | 3 (%2) | 27 (%14) | 0 (%0) |
+| işgal | 100 | 3 (%3) | 2 (%2) | 95 (%95) | 0 (%0) |
+| TOPLAM | 400 | 249 (%62) | 11 (%3) | 140 (%35) | 0 (%0) |
 
-Kırılma GÜNÜNDE (veri→harita sadakati, madde değil): Osmanlı d/v %91 · yabancı s %88 · işgal %5 örnekte harita sahibi kırılma gününde değişiyor.
-Yıl-temsili (YYYY-01-01) kırılma payı: Osmanlı d/v %21, yabancı s %30, işgal %3
-Madde yeri adıyla eşleşmeyen (yalnız yakınlık) çift payı: %10
+Kırılma GÜNÜNDE (veri→harita sadakati, madde değil): Osmanlı d/v %88 · yabancı s %88 · işgal %3 örnekte harita sahibi kırılma gününde değişiyor.
+Yıl-temsili (YYYY-01-01) kırılma payı: Osmanlı d/v %18, yabancı s %29, işgal %3
+Madde yeri adıyla eşleşmeyen (yalnız yakınlık) çift payı: %11
 
 ### YOK ve KAYMA nedenleri
 
-- YOK · motor farklı sahip veriyor: 103
+- YOK · motor farklı sahip veriyor: 102
+- KAYMA · kayma: 11
+- YOK · yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde: 11
 - YOK · madde-kırılma günü farkı: 11
-- YOK · noktasız/gövde dışı: 9
-- KAYMA · kayma: 7
-- YOK · yeni sahip kırılmadan ÖNCE de görünüyor (motor/dönem erken): 7
-- YOK · yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde: 6
-  - Osmanlı d/v YOK (15): motor farklı sahip veriyor 8; madde-kırılma günü farkı 6; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 1
-  - yabancı s YOK (28): noktasız/gövde dışı 9; yeni sahip kırılmadan ÖNCE de görünüyor (motor/dönem erken) 7; madde-kırılma günü farkı 5; motor farklı sahip veriyor 5; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 2
-  - işgal YOK (93): motor farklı sahip veriyor 90; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 3
+- YOK · noktasız/gövde dışı: 8
+- YOK · yeni sahip kırılmadan ÖNCE de görünüyor (motor/dönem erken): 8
+  - Osmanlı d/v YOK (18): motor farklı sahip veriyor 9; madde-kırılma günü farkı 6; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 3
+  - yabancı s YOK (27): noktasız/gövde dışı 8; yeni sahip kırılmadan ÖNCE de görünüyor (motor/dönem erken) 7; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 5; madde-kırılma günü farkı 4; motor farklı sahip veriyor 3
+  - işgal YOK (95): motor farklı sahip veriyor 90; yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde 3; madde-kırılma günü farkı 1; yeni sahip kırılmadan ÖNCE de görünüyor (motor/dönem erken) 1
 
 ### Örnek vakalar (her sınıftan; madde / gün / yerleşim / sonuç)
 
 | id | madde günü | madde | yerleşim | kırılma günü (fark) | harita (gün-1 → gün) | sonuç |
 |---|---|---|---|---|---|---|
 | dv000 | 1300-01-01 | Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık | Köprühisar (Yenişehir) | 1300-01-01 (+0g) | bizans → osmanli | EVET  |
-| dv072 | 1822-01-01 | Gördüs'ün (Korint) Yunan isyancılara geçmesi | Gördüs (Korint) | 1822-01-01 (+0g) | osmanli → yunanistan | EVET  |
-| s153 | 1114-01-01 | Ratanpur: kalacuri-ratnapura egemenliği başladı | Ratanpur | 1114-01-01 (+0g) |  → kalacuri-ratnapura | EVET  |
-| s222 | 1720-09-24 | Qing ordusu Lhasa'ya girdi — Cungar işgali sona erdi, Qing h | Sakya Manastırı (Sakya) | 1720-09-24 (+0g) | tibet-ganden-phodrang → qing-hanedani | EVET  |
-| dv048 | 1658-08-27 | Yanova'nın (Ineu) fethi ve Erdel seferi | Lugos (Lugoj) | 1658-08-30 (-3g) | osmanli-tabi → osmanli | KAYMA harita değişimi madde gününden +3 gün |
-| s260 | 1918-12-29 | Çekoslovak birlikleri Košice'yi (Kassa) aldı | Poznan | 1918-12-27 (+2g) | almanya → polonya | KAYMA harita değişimi madde gününden -2 gün |
-| dv017 | 1465-01-01 | Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması | Kili | 1465-01-24 (-23g) | osmanli-tabi → osmanli-tabi | YOK motor farklı sahip veriyor: kırılmada harita sahibi değişmiyor (osmanli-tabi) |
-| s250 | 1913-09-29 | İstanbul Antlaşması: Bulgaristan ile barış ve Edirne'nin tes | Gümülcine | 1913-10-25 (-26g) | garbi-trakya → bulgaristan-kralligi | YOK madde-kırılma günü farkı: harita kırılma gününde (1913-10-25) değişiyor, madde -26 gün ötede |
-| isg327 | 1799-05-20 | Akkâ Savunması — Napolyon'un püskürtülmesi | Kusayr | 1799-05-29 (-9g) | osmanli → osmanli | YOK motor farklı sahip veriyor: kırılmada harita sahibi değişmiyor (osmanli) |
-| isg365 | 1918-10-30 | Mondros Mütarekesi | Nusaybin | 1918-10-30 (+0g) | osmanli → osmanli | YOK motor farklı sahip veriyor: kırılmada harita sahibi değişmiyor (osmanli) |
+| dv073 | 1830-11-01 | Girit'in idaresi Mehmed Ali'ye bırakıldı | Kandiye (Girit) | 1830-11-01 (+0g) | osmanli → osmanli-tabi | EVET  |
+| s161 | 1186-01-01 | Şeyzer: eyyûbî sultanlığı → halep eyyûbîleri | Şeyzer | 1186-01-01 (+0g) | eyyubi → eyyubi-halep | EVET  |
+| s231 | 1806-01-26 | Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nd | Böğürdelen (Šabac) | 1806-01-26 (+0g) | osmanli → sirbistan-prensligi | EVET  |
+| dv021 | 1500-08-09 | Modon ve Koron'un fethi | Modon | 1500-08-10 (-1g) | venedik → osmanli | KAYMA harita değişimi madde gününden +1 gün |
+| dv086 | 1912-10-08 | I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı | Bozcaada | 1912-10-07 (+1g) | osmanli → yunanistan | KAYMA harita değişimi madde gününden -1 gün |
+| dv028 | 1533-01-01 | İstanbul Antlaşması — Habsburglarla ilk barış | Bijeljina | 1533-01-01 (+0g) | osmanli → osmanli | YOK yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde |
+| s214 | 1681-01-01 | Fâtıma Sultan Bike'nin ölümüyle Kāsım Hanlığı tarihe karıştı | İzyum | 1681-01-01 (+0g) | rusya → rusya | YOK yıl-temsili kırılma (YYYY-01-01) — harita değişimi başka günde/yıl içinde |
+| isg325 | 1799-01-23 | Partenopa Cumhuriyeti ilan edildi: Fransız ordusu Napoli'ye  | Kına | 1799-01-22 (+1g) | osmanli → osmanli | YOK motor farklı sahip veriyor: kırılmada harita sahibi değişmiyor (osmanli) |
+| isg363 | 1918-02-26 | Erzincan'ın kurtuluşu | Erzincan | 1918-02-26 (+0g) | osmanli → osmanli | YOK motor farklı sahip veriyor: kırılmada harita sahibi değişmiyor (osmanli) |
 
 Tüm 400 satır: `sonuc.json` → `olcum1.ornek`.
 
@@ -55,17 +55,17 @@ Tüm 400 satır: `sonuc.json` → `olcum1.ornek`.
 Madde: 10589 · toprak-etiketli (`toprak-kazanc/kayip/degisimi`): 1500 · yalnız `tur` toprak (etiketsiz): 488
 - UFUK dışı (harita verisi/kırılma tanımsız): 0 · tarih bozuk: 0
 - ÖLÇÜLEN: 1500
-- ±30 günde HERHANGİ bir kırılma var (gevşek): 1174 (%78)
-- ±30 günde madde yeri/adıyla EŞLEŞEN kırılma var: 511 (%34)
-- ±3 günde yer-eşleşen kırılma: 463 (%31)
-- Eşleşmeyen (yer-eşleşen kırılması yok): 989 (%66)
+- ±30 günde HERHANGİ bir kırılma var (gevşek): 1187 (%79)
+- ±30 günde madde yeri/adıyla EŞLEŞEN kırılma var: 518 (%35)
+- ±3 günde yer-eşleşen kırılma: 469 (%31)
+- Eşleşmeyen (yer-eşleşen kırılması yok): 982 (%65)
 
 ### Dosya bazında (eşleşmeyen sayısına göre ilk 40)
 
 | kronoloji dosyası | etiketli | ölçülen | yer-eşleşen | eşleşmeyen | %eşleşmeyen |
 |---|---|---|---|---|---|
 | kronoloji_cok_ms1_1000_ortadogu.js | 150 | 150 | 14 | 136 | %91 |
-| kronoloji_cok_once1281_avrupa.js | 105 | 105 | 34 | 71 | %68 |
+| kronoloji_cok_once1281_avrupa.js | 105 | 105 | 38 | 67 | %64 |
 | kronoloji_cok_once1281_ortadogu.js | 73 | 73 | 22 | 51 | %70 |
 | kronoloji_cok_1923_1945.js | 68 | 68 | 20 | 48 | %71 |
 | kronoloji_cok_once1281_iran.js | 59 | 59 | 17 | 42 | %71 |
@@ -78,9 +78,9 @@ Madde: 10589 · toprak-etiketli (`toprak-kazanc/kayip/degisimi`): 1500 · yalnı
 | kronoloji_fransa.js | 27 | 27 | 8 | 19 | %70 |
 | kronoloji_anadolu.js | 24 | 24 | 6 | 18 | %75 |
 | kronoloji_balkan.js | 31 | 31 | 13 | 18 | %58 |
-| kronoloji_cin.js | 26 | 26 | 8 | 18 | %69 |
 | kronoloji_ingiltere.js | 34 | 34 | 16 | 18 | %53 |
 | kronoloji_ispanya.js | 36 | 36 | 18 | 18 | %50 |
+| kronoloji_cin.js | 26 | 26 | 9 | 17 | %65 |
 | kronoloji_cok_once1281_avrupa2.js | 18 | 18 | 1 | 17 | %94 |
 | kronoloji_ozbek.js | 23 | 23 | 6 | 17 | %74 |
 | kronoloji_venedik.js | 32 | 32 | 15 | 17 | %53 |
@@ -89,11 +89,11 @@ Madde: 10589 · toprak-etiketli (`toprak-kazanc/kayip/degisimi`): 1500 · yalnı
 | kronoloji_kuzeyafrika.js | 35 | 35 | 20 | 15 | %43 |
 | kronoloji_cok_ms1_1000_ortaavrupa_italya.js | 17 | 17 | 3 | 14 | %82 |
 | kronoloji_bizans.js | 25 | 25 | 12 | 13 | %52 |
-| kronoloji_cok_ispanya.js | 25 | 25 | 13 | 12 | %48 |
+| kronoloji_cok_ispanya.js | 25 | 25 | 14 | 11 | %44 |
 | kronoloji_cok_once1281_dogu_asya.js | 16 | 16 | 5 | 11 | %69 |
 | kronoloji_habsburg.js | 24 | 24 | 13 | 11 | %46 |
-| kronoloji_hindistan.js | 21 | 21 | 10 | 11 | %52 |
 | kronoloji_italya.js | 19 | 19 | 8 | 11 | %58 |
+| kronoloji_hindistan.js | 21 | 21 | 11 | 10 | %48 |
 | kronoloji_lehistan.js | 14 | 14 | 4 | 10 | %71 |
 | kronoloji_cok_fas.js | 13 | 13 | 4 | 9 | %69 |
 | kronoloji_cok_ms1_1000_akdeniz.js | 10 | 10 | 1 | 9 | %90 |
@@ -109,9 +109,9 @@ Madde: 10589 · toprak-etiketli (`toprak-kazanc/kayip/degisimi`): 1500 · yalnı
 
 ## ÖLÇÜM 3 — D2t 'kırılmasız madde' dökümü
 
-Toplam: 232
+Toplam: 222
 
-Otomatik başlık sınıfı: diğer 203 · kuruluş/ilan 10 · kuşatma 8 · antlaşma/statüko 7 · isyan/harekât 4
+Otomatik başlık sınıfı: diğer 195 · kuruluş/ilan 9 · kuşatma 8 · antlaşma/statüko 6 · isyan/harekât 4
 
 Tam döküm: `kirilmasiz.tsv`. Elle bakış (ilk 50) aşağıda `EL-BAKIS.md` içindedir.
 
