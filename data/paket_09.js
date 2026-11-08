@@ -5072,7 +5072,7 @@ window.KRONOLOJI_CIN = [
 
 { taraflar:["qing-hanedani"], t:"1662-02-01", b:"Koxinga Tayvan'ı Hollandalılardan aldı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
-  yer_id:"Taipei",
+  yer_id:"Tainan",
   d:"Ming loyalisti Zheng Chenggong (Koxinga), Hollanda Doğu Hindistan Şirketi'nin Tayvan'daki kalesini kuşatıp adayı ele geçirdi. Zheng ailesi, adada 1683'e dek Qing'e karşı bağımsız bir üs sürdürecekti.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
@@ -5084,7 +5084,7 @@ window.KRONOLOJI_CIN = [
 
 { taraflar:["qing-hanedani"], t:"1683-08-01", b:"Qing, Tayvan'ı fethetti — Zheng hanedanı teslim oldu", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri","konu-hanedan"],
-  yer_id:"Taipei",
+  yer_id:"Tainan",
   d:"Amiral Shi Lang komutasındaki Qing donanması Zheng ailesinin Tayvan direnişini çökertti; ada ilk kez doğrudan Çin imparatorluğu idaresine girdi. Fetih, Kangxi'nin güney sınırlarını tamamen sağlama alan son büyük hamlesiydi.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
@@ -5823,7 +5823,7 @@ window.KRONOLOJI_HINDISTAN = [
   kaynak:"cihangir (TDV, içerik okundu 2026-08-21)" },
 { taraflar:["babur-imparatorlugu"], t:"1622-06-01", b:"Safevîler Kandehar'ı Bâbürlülerden geri aldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","konu-askeri"],
-  yer_id:"Kandehar",
+  yer_id:"Eski Kandehar (Şehr-i Köhne)",
   d:"[Bâbürlü] Şah Abbas'ın İran ordusu, Ekber döneminde alınan stratejik Kandehar'ı kuşatıp geri aldı; şehir, Hint-İran sınır bölgesinde bir asır boyunca el değiştirmeye devam edecek kalıcı bir çekişme konusu oldu.",
   kaynak:"cihangir (TDV, içerik okundu 2026-08-21)" },
 { taraflar:["babur-imparatorlugu"], t:"1627-11-08", b:"Cihangir öldü, Şah Cihan tahta çıktı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",

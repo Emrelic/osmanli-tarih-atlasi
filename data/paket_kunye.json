@@ -16,8 +16,8 @@
     },
     {
      "yol": "data/olaylar_ek.js",
-     "sha": "804cd8099e4ba2d0",
-     "bayt": 78779
+     "sha": "f8d8349627be6c7e",
+     "bayt": 78815
     },
     {
      "yol": "data/olaylar_ek2.js",
@@ -36,8 +36,8 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "1ffde7a2629b30da",
-     "bayt": 455672
+     "sha": "f180d8a18c94df3e",
+     "bayt": 455686
     },
     {
      "yol": "data/olaylar_ek6.js",
@@ -55,7 +55,7 @@
      "bayt": 114792
     }
    ],
-   "bayt": 1008148
+   "bayt": 1008198
   },
   {
    "paket": "data/paket_02.js",
@@ -134,8 +134,8 @@
     },
     {
      "yol": "data/olaylar_ek20.js",
-     "sha": "88823e95c78578e1",
-     "bayt": 30041
+     "sha": "31f4884d83b69bf2",
+     "bayt": 30091
     },
     {
      "yol": "data/olaylar_ek21.js",
@@ -158,7 +158,7 @@
      "bayt": 31828
     }
    ],
-   "bayt": 118693
+   "bayt": 118743
   },
   {
    "paket": "data/paket_05.js",
@@ -201,8 +201,8 @@
     },
     {
      "yol": "data/kronoloji_iran.js",
-     "sha": "a21cf7800df6fc19",
-     "bayt": 80444
+     "sha": "81a04cc02198e2d1",
+     "bayt": 80524
     },
     {
      "yol": "data/kronoloji_bizans.js",
@@ -210,15 +210,15 @@
      "bayt": 72741
     }
    ],
-   "bayt": 458769
+   "bayt": 458849
   },
   {
    "paket": "data/paket_07.js",
    "kaynak": [
     {
      "yol": "data/kronoloji_memluk.js",
-     "sha": "9345c93446ab158f",
-     "bayt": 126716
+     "sha": "1d128a838a172245",
+     "bayt": 126734
     },
     {
      "yol": "data/kronoloji_kirim.js",
@@ -231,7 +231,7 @@
      "bayt": 94889
     }
    ],
-   "bayt": 279073
+   "bayt": 279091
   },
   {
    "paket": "data/paket_08.js",
@@ -334,13 +334,13 @@
     },
     {
      "yol": "data/kronoloji_cin.js",
-     "sha": "41c7700eeeadd7f4",
+     "sha": "a16b2779940a2ab8",
      "bayt": 87151
     },
     {
      "yol": "data/kronoloji_hindistan.js",
-     "sha": "e93a33d929420152",
-     "bayt": 90173
+     "sha": "6e5813ebd3bacb65",
+     "bayt": 90195
     },
     {
      "yol": "data/kronoloji_sinir_polonya_1915.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1196541
+   "bayt": 1196563
   },
   {
    "paket": "data/paket_10.js",
@@ -360,11 +360,11 @@
     },
     {
      "yol": "data/kronoloji_karakoyunlu.js",
-     "sha": "02afeb8a908b5f67",
-     "bayt": 58579
+     "sha": "23f78cb2e9f6a6f9",
+     "bayt": 58593
     }
    ],
-   "bayt": 123613
+   "bayt": 123627
   },
   {
    "paket": "data/paket_11.js",
@@ -412,8 +412,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_anadolu.js",
-     "sha": "fa9e7f2c0464c9f4",
-     "bayt": 161355
+     "sha": "3b27626364c4b4b9",
+     "bayt": 161373
     },
     {
      "yol": "data/kronoloji_arabistan.js",
@@ -532,8 +532,8 @@
     },
     {
      "yol": "data/kronoloji_safevi.js",
-     "sha": "e634d9b14f7502a0",
-     "bayt": 68573
+     "sha": "e73302b5f440aed9",
+     "bayt": 68675
     },
     {
      "yol": "data/kronoloji_sirbistan.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2136740
+   "bayt": 2136860
   },
   {
    "paket": "data/paket_13.js",

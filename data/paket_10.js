@@ -916,7 +916,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 
 { t:"1425-01-01", b:"İskender Van'ı aldı", gun:"H. 828 / 1425", ic_not_gun:"H. 828 / 1425 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak","fetih","konu-askeri"],
-  yer_id:"Van",
+  yer_id:"Eski Van (Tuşpa)",
   d:"828 (1425) yılında İskender Van'ı ele geçirdi. Hanedanın çıkış bölgesi olan Van gölü havzasının merkezî kalesinin alınması, Timurlu yenilgisinden sonra Karakoyunlu'nun kendi çekirdek toprağını yeniden toparladığını gösterir.",
   kaynak:"karakoyunlular" },
 
