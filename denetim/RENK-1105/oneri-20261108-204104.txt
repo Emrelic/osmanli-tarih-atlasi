@@ -1,0 +1,6 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20261108-204104.txt
+hollanda-yeni-gine #242ad8
+becuanaland-kraliyet-kolonisi #24c6d8
+alman-yeni-gine #24d824
+britanya-kolumbiyasi-kolonisi #24d85a
