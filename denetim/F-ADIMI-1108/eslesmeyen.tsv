@@ -1,0 +1,990 @@
+dosya	tarih	baslik	yer_id	kapsam	gevsek_kirilma_var
+kronoloji_akkoyunlu.js	1461-01-01	Fâtih Trabzon'u fethetti — Uzun Hasan engel olamadı, Despina ile evlendi	Trabzon	dis	True
+kronoloji_akkoyunlu.js	1501-01-01	Şah İsmâil Tebriz'e girdi — Safevî Devleti kuruldu	Tebriz	dis	True
+kronoloji_akkoyunlu.js	1508-05-02	Murad Bağdat'tan kaçtı — Irak da elden çıktı	Bağdat	dis	True
+kronoloji_akkoyunlu.js	1514-01-01	Murad öldürüldü — Akkoyunlu Devleti tarih sahnesinden silindi		dis	True
+kronoloji_almanya.js	1742-07-28	Berlin Antlaşması — Birinci Silezya Savaşı'nın sonu	Berlin	dis	False
+kronoloji_almanya.js	1745-12-25	Dresden Barışı — Silezya'nın Prusya'da kesinleşmesi	Dresden	dis	True
+kronoloji_almanya.js	1864-02-01	İkinci Schleswig Savaşı'nın başlaması	Kiel	dis	True
+kronoloji_almanya.js	1919-06-28	Versay Antlaşması'nın imzalanması	Metz	dis	True
+kronoloji_almanya.js	1623-02-25	Pfalz Elektörlüğü unvanının Bavyera'ya devri	Regensburg	ic	False
+kronoloji_almanya.js	1803-02-25	Reichsdeputationshauptschluss — dinî elektörlüklerin sekülerleşmesi	Mainz	ic	True
+kronoloji_altinorda.js	1380-09-08	Kulikovo Muharebesi — Mamay'ın ordusu Moskova Knezi Dmitri Donskoy'a yenildi		dis	False
+kronoloji_altinorda.js	1382-08-26	Toktamış Moskova'yı hile ile alıp yaktı — haraç yeniden dayatıldı	Moskova	dis	False
+kronoloji_altinorda.js	1391-06-01	Kunduzca (Kondurça) Savaşı — Timur, Toktamış'ı ilk kez ağır yenilgiye uğrattı		dis	False
+kronoloji_altinorda.js	1395-04-15	Terek Savaşı — Timur ikinci kez yendi, Altın Orda bir daha toparlanamadı	Terek deltası (Kızlar)	dis	True
+kronoloji_altinorda.js	1437-01-01	Kazan Hanlığı ayrıldı — Uluğ Muhammed Saray'dan kopup İdil boyunda kendi hanlığını kurdu	Kazan	ic	False
+kronoloji_altinorda.js	1466-01-01	Astarhan (Ejderhan) Hanlığı ayrıldı — Hazar'ın kuzey kapısı koptu	Astrahan	ic	True
+kronoloji_altinorda.js	1480-11-11	Ugra Nehri karşılaşması — Rus knezliklerinin haraç ödemesi sona erdi		dis	False
+kronoloji_altinorda.js	1502-01-01	Büyük Orda sona erdi — Mengli Giray Saray'ı yıkarak Altın Orda mirasını kapattı	Saray (Selitrennoye)	dis	True
+kronoloji_anadolu.js	1277-05-13	Mehmed Bey Konya'yı ele geçirip Türkçeyi resmî dil ilan etti	Konya	dis	False
+kronoloji_anadolu.js	1286-01-01	Güneri Bey, Lârende'yi (Karaman şehri) ele geçirdi	Karaman	ic	False
+kronoloji_anadolu.js	1314-12-01	Yahşi Bey Konya'yı ele geçirdi, İlhanlı kuvvetlerince yakalandı	Konya	dis	False
+kronoloji_anadolu.js	1328-01-01	Karamanlılar Konya, Gevele Kalesi ve Beyşehir'i yeniden aldı	Konya	dis	True
+kronoloji_anadolu.js	1375-01-01	Ermeni Krallığı'nın Memlüklere düşmesiyle Çukurova'ya doğru genişledi	Tarsus	dis	True
+kronoloji_anadolu.js	1389-07-01	I. Kosova sonrası zayıflayan Osmanlı'dan Beyşehir geri alındı	Beyşehir	ic	True
+kronoloji_anadolu.js	1391-01-01	Yıldırım Bayezid ile barış; batı toprakları bırakıldı		dis	True
+kronoloji_anadolu.js	1397-01-01	Akçay'da yenilgi; Konya kuşatılıp alındı	Konya	dis	True
+kronoloji_anadolu.js	1398-01-01	Alâeddin Bey idam edildi; beyliğin çoğu Osmanlı'ya katıldı	Konya	dis	True
+kronoloji_anadolu.js	1413-01-01	II. Mehmed Bey Bursa'yı kuşattı, Memlüklerden Tarsus'u aldı	Tarsus	dis	True
+kronoloji_anadolu.js	1414-06-01	Beyşehir, Seydişehir ve Akşehir Çelebi Mehmed'e bırakıldı	Beyşehir	dis	False
+kronoloji_anadolu.js	1433-01-01	İbrâhim Bey, Hamîdoğulları'ndan Eğirdir ve Isparta'yı aldı	Eğirdir	dis	True
+kronoloji_anadolu.js	1448-01-01	İbrâhim Bey Kıbrıs'tan Körkes Kalesi'ni aldı, Konya'yı yeniden başkent yaptı	Konya	dis	True
+kronoloji_anadolu.js	1468-04-01	Osmanlılar Gevele ve Konya'yı aldı, Pîr Ahmed dağlara çekildi	Konya	dis	False
+kronoloji_anadolu.js	1474-01-01	Osmanlı seferi dağlık ve kıyı bölgeleri de tam denetime aldı		dis	True
+kronoloji_anadolu.js	1487-01-01	Mahmud Bey Halep'e kaçtı; Karamanoğulları tarihe karıştı	Halep	dis	True
+kronoloji_anadolu.js	1150-01-01	Kara Arslan Harput ve Gerger'i Artuklu topraklarına kattı	Harput (Elazığ)	ic	True
+kronoloji_anadolu.js	1183-01-01	Âmid, Selâhaddin tarafından fethedilip Hasankeyf koluna verildi	Diyarbakır	dis	True
+kronoloji_arabistan.js	0901-01-01	İmam Hâdî San'a'yı ilk kez ele geçirdi	Sana	ic	True
+kronoloji_arabistan.js	1837-01-01	Mombasa, Mazrui hanedanından alındı	Mombasa	dis	True
+kronoloji_arabistan.js	1795-01-01	Abdülazîz b. Suûd, Lahsa'yı alıp emirliği ilk kez tasfiye etti	Lahsa	dis	True
+kronoloji_arabistan.js	1818-01-01	İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu	Lahsa	dis	True
+kronoloji_atina_dukaligi.js	1311-03-15	Katalanlar Atina Düklüğü'nü ele geçirdi	Livadya	dis	True
+kronoloji_atina_dukaligi.js	1379-01-01	Navarra Kumpanyası'nın Tebai'yi alması	İstefe (Tebai)	dis	True
+kronoloji_atina_dukaligi.js	1388-05-02	Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması	Atina	dis	True
+kronoloji_atina_dukaligi.js	1402-01-01	Antonio I Acciaiuoli'nin Atina'yı Venedik'ten geri alması	Atina	dis	True
+kronoloji_atina_dukaligi.js	1458-06-04	Akropolis'in teslimi — Atina Dukalığı'nın sonu	Atina	dis	False
+kronoloji_balkan.js	1499-01-01	Zeta İşkodra Sancağı'na bağlandı	İşkodra	dis	True
+kronoloji_balkan.js	1795-01-01	Kara Mahmud Paşa Kruse Savaşı'nda öldü, doğu Zeta kabileleri Karadağ'a katıldı		dis	True
+kronoloji_balkan.js	1859-01-01	İstanbul'da Grahova'nın Karadağ'a bırakılması kabul edildi		dis	True
+kronoloji_balkan.js	1877-09-01	Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi	Podgorica	dis	True
+kronoloji_balkan.js	1230-03-09	Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı		dis	True
+kronoloji_balkan.js	1913-08-10	Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi		dis	True
+kronoloji_balkan.js	1919-11-27	Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi		dis	True
+kronoloji_balkan.js	1390-06-01	Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı		dis	True
+kronoloji_balkan.js	1435-01-01	Stjepan Vukčić Kosača'nın fiilî özerkliği — krallığın parçalanması hızlanıyor		ic	True
+kronoloji_balkan.js	1448-01-20	Stjepan Vukčić Kosača'nın 'Herceg' unvanı — Hersek Dukalığı'nın doğuşu		ic	True
+kronoloji_balkan.js	1463-05-01	Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı	Yayça (Jajce)	dis	False
+kronoloji_balkan.js	1832-07-21	İstanbul Antlaşması — Arta-Volos sınırının çizilmesi		dis	True
+kronoloji_balkan.js	1881-05-24	Tesalya'nın Yunanistan'a devri		dis	True
+kronoloji_balkan.js	1908-10-06	Girit Millî Meclisi'nin Yunanistan'a katılımı (enosis) ilanı	Kandiye (Girit)	dis	True
+kronoloji_balkan.js	1920-08-10	Sevr Antlaşması		dis	True
+kronoloji_balkan.js	1922-08-26	Büyük Taarruz'un başlaması		dis	True
+kronoloji_balkan.js	1923-01-30	Nüfus mübadelesi sözleşmesinin imzalanması		dis	True
+kronoloji_balkan.js	1923-07-24	Lozan Antlaşması'nın imzalanması		dis	True
+kronoloji_bizans.js	1290-01-01	Anadolu sınırı çözüldü — akritai düzeninin sonu		ic	False
+kronoloji_bizans.js	1302-07-27	Koyunhisar (Bapheus) — Osman Gazi'nin ilk zaferi		dis	True
+kronoloji_bizans.js	1311-03-15	Katalanlar Atina Düklüğü'nü ele geçirdi	Atina	dis	True
+kronoloji_bizans.js	1346-01-01	Stefan Dušan 'Sırpların ve Rumların imparatoru' ilan edildi	Üsküp	dis	True
+kronoloji_bizans.js	1352-01-01	Çimpe Kalesi — Türkler Rumeli'de ilk kaleyi aldı	Çimpe	dis	True
+kronoloji_bizans.js	1363-01-01	Filibe (Plovdiv) düştü — Meriç vadisi Osmanlı'ya geçti	Filibe	dis	True
+kronoloji_bizans.js	1366-01-01	Savoy'lu Amadeo Gelibolu'yu geri aldı — tek Batı yardımı	Gelibolu	dis	True
+kronoloji_bizans.js	1369-01-01	Edirne Osmanlı başşehri oldu — Bizans kuşatıldı	Edirne	dis	True
+kronoloji_bizans.js	1373-01-01	Bizans Osmanlı'ya tâbi oldu — haraç ve asker yükümlülüğü	İstanbul	dis	True
+kronoloji_bizans.js	1381-08-08	Torino Barışı — Tenedos boşaltıldı	Bozcaada	dis	False
+kronoloji_bizans.js	1403-01-01	Gelibolu Antlaşması — Selanik geri alındı, haraç kalktı	Gelibolu	dis	True
+kronoloji_bizans.js	1430-01-01	Mora'da son Latin toprakları geri alındı		dis	True
+kronoloji_bizans.js	1446-12-10	Hexamilion duvarı yıkıldı — Mora savunmasız kaldı		dis	False
+kronoloji_cin.js	1281-06-23	İkinci Japonya seferi tayfunla dağıldı ("kamikaze")		dis	False
+kronoloji_cin.js	1287-01-01	Pagan Krallığı'na (Birmanya) Yuan seferi		dis	True
+kronoloji_cin.js	1356-04-10	Zhu Yuanzhang Nanjing'i ele geçirdi	Nanking (Nanjing)	ic	False
+kronoloji_cin.js	1406-01-01	Ming, Đại Ngu'yu (Vietnam) işgal etti		dis	True
+kronoloji_cin.js	1427-01-01	Ming, Vietnam'dan çekildi — Lê hanedanı kuruldu		dis	True
+kronoloji_cin.js	1662-02-01	Koxinga Tayvan'ı Hollandalılardan aldı	Taipei	dis	True
+kronoloji_cin.js	1683-08-01	Qing, Tayvan'ı fethetti — Zheng hanedanı teslim oldu	Taipei	dis	True
+kronoloji_cin.js	1691-05-30	Halha Moğolları Dolonnor'da Qing'e tâbi oldu		dis	True
+kronoloji_cin.js	1755-01-01	Qianlong'un Cungar seferleri başladı		dis	True
+kronoloji_cin.js	1840-06-01	Birinci Afyon Savaşı başladı	Kanton (Guangzhou)	dis	True
+kronoloji_cin.js	1860-10-24	Pekin Sözleşmesi — Kowloon devredildi, afyon meşrulaştı	Pekin (Hanbalık)	dis	True
+kronoloji_cin.js	1871-01-01	İli Krizi — Rusya bölgeyi işgal etti	Gulca (Yining)	dis	True
+kronoloji_cin.js	1878-03-16	Zuo Zongtang Doğu Türkistan'ı yeniden fethetti	Kaşgar	dis	True
+kronoloji_cin.js	1884-08-23	Çin-Fransız Savaşı — Fuzhou donanması imha edildi	Fuzhou	dis	True
+kronoloji_cin.js	1894-07-25	Birinci Çin-Japon Savaşı başladı		dis	True
+kronoloji_cin.js	1895-04-17	Şimonoseki Antlaşması imzalandı		dis	True
+kronoloji_cin.js	1901-09-07	Boksör Protokolü imzalandı	Pekin (Hanbalık)	dis	True
+kronoloji_cin.js	1912-11-01	Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilan etti	Lhasa	dis	True
+kronoloji_cok_1923_1945.js	1924-05-08	Klaipeda Sözleşmesi: Memel bölgesi üzerinde Litvanya egemenliği tanındı	Paris	dis	False
+kronoloji_cok_1923_1945.js	1924-09-08	Suudi kuvvetleri Tâif'i baskınla ele geçirdi	Tâif	dis	True
+kronoloji_cok_1923_1945.js	1924-10-27	Orta Asya'da millî sınır ayrımı tamamlandı; Özbek ve Türkmen SSC'leri kuruldu	Taşkent	ic	True
+kronoloji_cok_1923_1945.js	1925-01-01	İmam Yahyâ Hudeyde'yi ele geçirdi	Hudeyde	dis	True
+kronoloji_cok_1923_1945.js	1925-07-30	Saint Naum ve sınır toprakları Yugoslavya'ya bırakıldı		dis	False
+kronoloji_cok_1923_1945.js	1925-08-14	Svalbard Yasası yürürlüğe girdi: Svalbard Norveç Krallığı'na katıldı		dis	False
+kronoloji_cok_1923_1945.js	1925-09-01	Şili, Tarata bölgesini Peru'ya teslim etti		dis	False
+kronoloji_cok_1923_1945.js	1926-01-01	İtalyanlar Senûsî merkezi Cağbûb'u ele geçirdi	Cağbûb	dis	True
+kronoloji_cok_1923_1945.js	1926-06-05	Ankara Antlaşması: Musul Irak'a bırakıldı	Ankara	dis	True
+kronoloji_cok_1923_1945.js	1928-01-01	Milliyetçiler Pekin'i aldı; başkent Nanking'e taşındı, Kuzey Seferi tamamlandı	Pekin (Hanbalık)	ic	False
+kronoloji_cok_1923_1945.js	1929-01-01	Fizan'daki son direniş kırıldı		dis	False
+kronoloji_cok_1923_1945.js	1929-08-28	Tacna, Şili'den Peru'ya fiilen teslim edildi		dis	False
+kronoloji_cok_1923_1945.js	1931-01-01	İtalyanlar Kufra vahasını ele geçirdi		dis	False
+kronoloji_cok_1923_1945.js	1931-07-10	Norveç Doğu Grönland'da 'Eirik Raudes Land'i işgal ettiğini ilan etti	Oslo	dis	False
+kronoloji_cok_1923_1945.js	1932-09-01	Leticia bunalımı: Perulu silahlı grup Kolombiya'nın Leticia kasabasını ele geçirdi		dis	True
+kronoloji_cok_1923_1945.js	1933-03-04	Japon ordusu Rehe (Jehol) başkenti Chengde'yi aldı; Rehe Mançukuo'ya katıldı		dis	False
+kronoloji_cok_1923_1945.js	1933-04-05	Uluslararası Daimî Adalet Divanı Doğu Grönland'ı Danimarka'ya verdi		dis	False
+kronoloji_cok_1923_1945.js	1934-05-20	Tâif Antlaşması: Suudi-Yemen savaşı bitti, Necran ve Cîzân Suudi kaldı	Tâif	dis	False
+kronoloji_cok_1923_1945.js	1934-06-19	Leticia, Milletler Cemiyeti'nden Kolombiya'ya teslim edildi		dis	False
+kronoloji_cok_1923_1945.js	1938-04-25	İngiliz-İrlanda anlaşmaları: 'antlaşma limanları' Éire'ye devredildi	Londra	dis	True
+kronoloji_cok_1923_1945.js	1938-09-29	Münih Anlaşması: Südet bölgesinin Almanya'ya devri kararlaştırıldı	Münih	dis	True
+kronoloji_cok_1923_1945.js	1938-10-01	Alman birlikleri Münih kararıyla Südet bölgesini işgal etti		dis	True
+kronoloji_cok_1923_1945.js	1938-10-10	Chaco hakem kararı: Chaco Boreal'in büyük kısmı Paraguay'a verildi	Buenos Aires	dis	True
+kronoloji_cok_1923_1945.js	1939-01-01	İngiltere Hawar Adaları'nın Bahreyn'e ait olduğuna hükmetti		dis	True
+kronoloji_cok_1923_1945.js	1939-01-01	Macaristan Karpat-Ukrayna'yı (Karpat-Rusya) ilhak etti	Ungvár (Uzhhorod)	dis	True
+kronoloji_cok_1923_1945.js	1939-01-14	Norveç Antarktika'da Kraliçe Maud Toprağı'nı ilhak etti	Oslo	dis	True
+kronoloji_cok_1923_1945.js	1940-09-07	Craiova Antlaşması: Güney Dobruca Bulgaristan'a geçti		dis	True
+kronoloji_cok_1923_1945.js	1940-06-22	Compiègne Ateşkesi: Fransa'nın kuzeyi ve Atlantik kıyısı Alman işgaline bırakıldı		dis	True
+kronoloji_cok_1923_1945.js	1940-08-19	İtalya İngiliz Somalisi'ni ele geçirdi, İngilizler Berbera'dan çekildi	Berbera	dis	True
+kronoloji_cok_1923_1945.js	1940-11-03	İspanya Tanca'nın uluslararası yönetim organlarını kaldırdı	Tanca	dis	False
+kronoloji_cok_1923_1945.js	1941-01-01	Bulgaristan Batı Trakya ve Yugoslav Makedonyası'nı işgal etti	Üsküp	dis	False
+kronoloji_cok_1923_1945.js	1941-01-01	İngilizler Aden'den çıkarmayla İngiliz Somalisi'ni geri aldı	Berbera	dis	False
+kronoloji_cok_1923_1945.js	1941-01-01	Macaristan Bačka ve Baranja'yı ilhak etti		dis	False
+kronoloji_cok_1923_1945.js	1941-04-08	Massava limanı İngilizlere teslim oldu		dis	True
+kronoloji_cok_1923_1945.js	1941-05-01	Echandi-Fernández Antlaşması: Kosta Rika-Panama sınırı kesinleşti		dis	True
+kronoloji_cok_1923_1945.js	1941-05-09	Tokyo Barış Sözleşmesi: Fransa Laos ve Kamboçya'dan toprakları Tayland'a bıraktı		dis	True
+kronoloji_cok_1923_1945.js	1941-05-18	Roma Antlaşmaları: Dalmaçya kıyısının büyük kısmı İtalya'ya bırakıldı	Split (Spalato)	dis	True
+kronoloji_cok_1923_1945.js	1942-01-23	Japonya, Avustralya mandası Yeni Gine'nin başkenti Rabaul'u işgal etti		dis	True
+kronoloji_cok_1923_1945.js	1942-01-29	Rio Protokolü: Ekvador tartışmalı Amazon topraklarının büyük kısmını Peru'ya bıraktı	Rio de Janeiro	dis	True
+kronoloji_cok_1923_1945.js	1942-08-30	Almanya Lüksemburg'u zorla Reich'a kattı	Lüksemburg	dis	False
+kronoloji_cok_1923_1945.js	1942-11-08	Müttefiklerin Kuzey Afrika çıkarması; Vichy ABD ile ilişkilerini kesti	Cezayir	dis	False
+kronoloji_cok_1923_1945.js	1943-08-20	Japonya dört Malay eyaletini ve iki Şan eyaletini Tayland'a devretti	Bangkok (Tonburi)	dis	True
+kronoloji_cok_1923_1945.js	1944-02-15	Romanya Transnistria valiliğini kaldırdı		dis	True
+kronoloji_cok_1923_1945.js	1944-09-12	Moskova mütarekesi: Besarabya-K. Bukovina SSCB'ye, Viyana Hakemliği geçersiz	Moskova	dis	True
+kronoloji_cok_1923_1945.js	1945-01-01	Geçici hükümet Kosova'nın Yugoslavya'ya iadesini kabul etti	Priştine	dis	True
+kronoloji_cok_1923_1945.js	1945-01-20	Moskova mütarekesi: Macaristan 1937 sınırlarına döndü	Moskova	dis	True
+kronoloji_cok_1923_1945.js	1945-03-09	Kuzey Erdel'de Romen egemenliği yeniden kuruldu		dis	True
+kronoloji_cok_1923_1945.js	1945-08-16	Tayland barış bildirisi: savaş ilanı geçersiz sayıldı, Malay ve Şan eyaletleri iade edilecek	Bangkok (Tonburi)	dis	True
+kronoloji_cok_500_1000.js	0637-02-02	Halep ve Kuzey Suriye şehirleri müslümanlara geçti	Halep		False
+kronoloji_cok_500_1000.js	0642-01-01	Nihâvend Savaşı: Sâsânî ordusu yenildi	Nihâvend		True
+kronoloji_cok_500_1000.js	0911-01-01	Sâmânîler Zerenc'i aldı; Saffârîler'in Leysî kolu sona erdi	Zerenc (Sîstan)		True
+kronoloji_cok_500_1000.js	0958-03-25	Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı	Musul		True
+kronoloji_cok_arnavut.js	1913-12-17	Floransa Protokolü: Güney Arnavutluk (Korçë, Ergiri, Ayasaranda) Arnavutluk'a bırakıldı	Görice (Korçë)	dis	True
+kronoloji_cok_bosna.js	1463-12-16	Macar Kralı Mátyás Yayça'yı aldı — kuzey Bosna'da Macar banlığı		dis	True
+kronoloji_cok_bosna.js	1470-01-01	Hersek sancağı kuruldu	Foça (Foča)	dis	True
+kronoloji_cok_bosna.js	1909-02-26	Osmanlı-Avusturya protokolü — ilhak tazminat karşılığı tanındı		dis	False
+kronoloji_cok_dogu_500_1281.js	1010-01-01	Gazneli Mahmud Sind'i tamamen ele geçirdi; Habbârî Emirliği bitti		ic	True
+kronoloji_cok_dogu_asya.js	1890-03-17	Rajah Charles Brooke Limbang'ı Sarawak'a kattı	Limbang	dis	False
+kronoloji_cok_fas.js	1468-01-01	Portekiz donanması Enfâ'yı (Dârülbeyzâ) yağmalayıp yıktı	Dârülbeyzâ (Anfa)	dis	True
+kronoloji_cok_fas.js	1581-01-01	Ahmed el-Mansûr Sahra üzerine ordu gönderip bölgeyi hâkimiyetine aldı		ic	True
+kronoloji_cok_fas.js	1640-01-01	Filâlî Mevlây Muhammed Sicilmâse'yi Ebû Hassûn es-Simlâlî'den aldı	Sicilmâse (Tâfilelt)	ic	True
+kronoloji_cok_fas.js	1666-06-06	Mevlây Reşîd Fas şehrine girdi	Fas (Fez)	ic	False
+kronoloji_cok_fas.js	1667-01-01	Kasrülkütâme, Miknâs ve Tıtvân Filâlî hâkimiyetine girdi	Tıtvân (Tetuan)	ic	True
+kronoloji_cok_fas.js	1669-01-01	Mevlây Reşîd Merakeş'i Şebbâne kabilesinden aldı	Merakeş	ic	True
+kronoloji_cok_fas.js	1670-01-01	Sûs'un alınmasıyla bütün Mağrib-i Aksâ Mevlây Reşîd'in elinde birleşti		ic	True
+kronoloji_cok_fas.js	1691-01-01	Mevlây İsmâil Asîlâ'yı (Arzila) yabancılardan geri aldı	Arzila (Asilah)	dis	True
+kronoloji_cok_fas.js	1797-01-01	Mevlây Süleyman Türklerin eline geçen Vecde'yi geri aldı	Vecde (Oujda)	dis	True
+kronoloji_cok_fransa.js	1384-01-01	Louis de Male öldü — Flandre ve Artois Burgonya'ya geçti		dis	True
+kronoloji_cok_fransa.js	1469-05-09	Saint-Omer Antlaşması — Habsburg Yukarı Alsace'ı Burgonya'ya rehin verdi		dis	False
+kronoloji_cok_gurcistan.js	1413-01-01	I. Alexandre Tiflis'teki Timurlu hâkimiyetine son verdi	Tiflis	dis	True
+kronoloji_cok_gurcistan.js	1535-01-01	Acara Osmanlı'ya geçti	Hulo (Acara)	dis	True
+kronoloji_cok_gurcistan.js	1549-01-01	Kara Ahmed Paşa seferi — Samçhe atabekliğinin büyük kısmı Osmanlı'ya geçti	Artvin	dis	True
+kronoloji_cok_gurcistan.js	1803-01-01	Megrelya (Dadyan beyliği) Rusya ile birleşti		dis	True
+kronoloji_cok_gurcistan.js	1810-02-17	Rusya Abhazya'nın kendisine bağlandığını ilan etti	Sohum	dis	True
+kronoloji_cok_gurcistan.js	1856-01-01	Svaneti Rusya ile birleşti		dis	True
+kronoloji_cok_gurcistan.js	1856-07-10	Ruslar Sohum'u yeniden işgal etti	Sohum	dis	False
+kronoloji_cok_gurcistan.js	1877-08-12	Osmanlı kuvvetleri Sohum'u boşalttı	Sohum	dis	True
+kronoloji_cok_habsburg.js	1363-01-26	Margarete Maultasch Tirol'ü Habsburglara devretti		ic	True
+kronoloji_cok_habsburg.js	1687-10-27	Balázsfalva Antlaşması — Erdel'e Habsburg kışlakları ve garnizonları		dis	True
+kronoloji_cok_habsburg.js	1688-05-09	Erdel zümreleri Caraffa ile anlaşarak I. Leopold'ün egemenliğini tanıdı		dis	True
+kronoloji_cok_ince_anadolu_iran.js	1379-01-01	Mar'aşîler Emîr Velî'yi yenip Esterâbâd'ı aldı	Esterâbâd (Gürgân)	dis	True
+kronoloji_cok_ince_avrupa_amerika.js	1266-07-02	Perth Antlaşması: Norveç Batı Adaları'nı (Hebridler) ve Man Adası'nı İskoçya'ya bıraktı	Perth (İskoçya)		True
+kronoloji_cok_ince_avrupa_amerika.js	1318-01-01	Robert Bruce Berwick'i İngilizlerden geri aldı			True
+kronoloji_cok_ince_avrupa_amerika.js	1334-02-10	Edward Balliol Edinburgh'da III. Edward'ı metbû tanıdı, Berwick'i ebediyen İngiltere'ye bıraktı			False
+kronoloji_cok_ince_avrupa_amerika.js	1468-09-08	III. James ile Danimarkalı Margaret'in evlilik antlaşması: Orkney Adaları çeyiz rehni olarak İskoçya'ya geçti	Kirkwall (Orkney)		False
+kronoloji_cok_ince_avrupa_amerika.js	1472-01-01	Orkney ve Shetland adaları İskoç tacına ilhak edildi	Kirkwall (Orkney)		True
+kronoloji_cok_ince_avrupa_amerika.js	1536-01-01	V. Karl, Monferrato veraset davasını Gonzaga lehine karara bağladı	Mantova		True
+kronoloji_cok_ince_avrupa_amerika.js	1802-01-01	Dük Ferdinando'nun ölümüyle Parma ve Piacenza Fransa'ya katıldı	Parma		True
+kronoloji_cok_ispanya.js	1292-01-01	IV. Sancho Tarîf'i (Tarifa) aldı		dis	True
+kronoloji_cok_ispanya.js	1306-01-01	Nasrîler Merînîlere ait Sebte'yi ele geçirdi	Sebte (Ceuta)	dis	True
+kronoloji_cok_ispanya.js	1323-07-04	Sassari Aragon tacına bağlılık sundu	Sasari (Sassari)	dis	False
+kronoloji_cok_ispanya.js	1326-06-09	Pisa Cagliari'yi teslim edip Sardinya'dan tamamen çekildi	Kalyari (Cagliari)	dis	False
+kronoloji_cok_ispanya.js	1369-01-01	Cezîretülhadrâ, Merînî donanması desteğiyle Kastilya'dan geri alındı	Granada	dis	True
+kronoloji_cok_ispanya.js	1402-01-01	Béthencourt seferi — Kanarya Adaları'nın fethi başladı		dis	True
+kronoloji_cok_ispanya.js	1410-01-01	Naip Fernando Entekīre'yi (Antequera) aldı		dis	True
+kronoloji_cok_ispanya.js	1462-01-01	Cebelitârık Kastilya'ya düştü, Kuzey Afrika bağlantısı koptu	Cebelitarık (Gibraltar)	dis	True
+kronoloji_cok_ispanya.js	1475-01-01	Perpignan Fransızlara teslim oldu — Rusiyon kaybedildi		dis	True
+kronoloji_cok_ispanya.js	1486-05-29	Levşe (Loja) teslim oldu, Ebû Abdullah ikinci kez esir düştü	Loja	dis	False
+kronoloji_cok_ispanya.js	1489-12-04	Besta (Baza) teslim oldu, Zagal bütün topraklarını bıraktı	Granada	dis	True
+kronoloji_cok_ispanya.js	1527-01-01	Aşağı Navarra (Ultrapuertos) Albret yönetimine döndü	Pamplona	dis	True
+kronoloji_cok_karadag.js	1879-12-04	Novşiçe çatışması — Plav ve Gusinye'nin teslimine Arnavut direnişi		dis	True
+kronoloji_cok_karadag.js	1880-11-27	Ülgün (Ulcinj) Karadağ'a teslim edildi		dis	False
+kronoloji_cok_lehistan.js	1410-07-15	Grunwald (Tannenberg) Muharebesi		dis	True
+kronoloji_cok_lehistan.js	1444-11-10	Varna Muharebesi — Kral III. Władysław savaş alanında öldü	Varna	dis	True
+kronoloji_cok_lehistan.js	1454-01-01	Prusya'nın krallığa katılma fermanı — On Üç Yıl Savaşı başladı	Krakov	dis	True
+kronoloji_cok_ms1_1000_akdeniz.js	0429-05-01	Gaiseric Vandalları Kuzey Afrika'ya geçirdi		ic	False
+kronoloji_cok_ms1_1000_akdeniz.js	0439-10-19	Gaiseric Kartaca'yı ele geçirdi		ic	False
+kronoloji_cok_ms1_1000_akdeniz.js	0480-01-01	Odoacer Dalmaçya'yı işgal edip iki yılda fethetti		ic	False
+kronoloji_cok_ms1_1000_akdeniz.js	0496-01-01	Clovis Alamanlar'ın topraklarını Frank egemenliğine kattı		ic	False
+kronoloji_cok_ms1_1000_akdeniz.js	0500-01-01	Clovis'in egemenliği Burgundlar'a uzandı		ic	True
+kronoloji_cok_ms1_1000_akdeniz.js	0533-01-01	Belisarius Vandal Krallığı'na karşı Afrika'ya sefer; krallık birkaç ayda yıkıldı		ic	False
+kronoloji_cok_ms1_1000_akdeniz.js	0756-01-01	Pippin Bağışı: Papalık Devleti'nin temeli atıldı		ic	True
+kronoloji_cok_ms1_1000_akdeniz.js	0774-01-01	Karl (Charlemagne) Lombard kralı oldu; Lombard Krallığı sona erdi		ic	True
+kronoloji_cok_ms1_1000_akdeniz.js	0843-08-01	Verdun Antlaşması: Karolenj İmparatorluğu üç oğul arasında paylaşıldı		ic	True
+kronoloji_cok_ms1_1000_asya.js	0577-01-01	Kuzey Zhou Kuzey Qi’yi fethedip kuzeyi birleştirdi		ic	False
+kronoloji_cok_ms1_1000_asya.js	0587-01-01	Sui, Sonraki Liang imparatorunu tahttan indirdi		ic	False
+kronoloji_cok_ms1_1000_asya.js	0621-01-01	Li Shimin Dou Jiande’yi yenip yakaladı; Wang Shichong teslim oldu		ic	False
+kronoloji_cok_ms1_1000_asya.js	0621-01-01	Xiao Xian Tang’a teslim oldu; orta Yangtze ve uzak güney Tang’a geçti		ic	False
+kronoloji_cok_ms1_1000_asya.js	0659-01-01	Batı Türkler yenildi; Amu Derya’ya dek Tang himayesi		dis	True
+kronoloji_cok_ms1_1000_asya.js	0668-01-01	Tang Pyongyang’ı aldı; Koguryo himayeye alındı		dis	False
+kronoloji_cok_ms1_1000_asya.js	0676-01-01	Tang Kore’den Güney Mançurya’ya çekildi; Silla yükseldi		dis	False
+kronoloji_cok_ms1_1000_asya.js	0763-01-01	Tibetliler Gansu’yu işgal edip başkenti yağmaladı		ic	True
+kronoloji_cok_ms1_1000_asya.js	0965-01-01	Song, Sichuan’daki Sonraki Shu’yu aldı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0293-01-01	Constantius Chlorus Boulogne donanma üssünü aldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0296-01-01	Constantius Britanya'ya çıktı; Allectus Silchester yakınında öldürüldü		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0534-01-01	Burgund Krallığı Frank egemenliğine girdi		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0577-01-01	Deorham Savaşı: Gloucester, Cirencester ve Bath Wessex'in eline geçti		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0595-01-01	Aethelberht Humber'in güneyindeki krallıkların hâkimi oldu		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0628-01-01	Penda Cirencester'da Hwicce'yi yenip topraklarını kattı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0657-01-01	Mercialılar Oswiu üstünlüğünü attı; Wulfhere kral oldu		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0674-01-01	Ecgfrith güney İngiliz koalisyonunu yendi, Lindsey'i ilhak etti		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0676-01-01	Mercia kralı Aethelred Kent'i yağmaladı, Rochester'ı aldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0678-01-01	Trent Savaşı: Aethelred Northumbria'yı yendi, Lindsey Mercia'da kaldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0685-01-01	Caedwalla Sussex'e acımasız bir akın yaptı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0685-05-20	Nechtanesmere: Ecgfrith Piktlere yenilip öldü		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0716-01-01	Aethelbald Mercia kralı oldu; Humber-Manş arası krallıkların baskın hükümdarı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0736-01-01	Piktler Dál Riata'nın Dunadd kalesini ele geçirdi		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0757-01-01	Offa Mercia tahtına çıktı; Kent Mercia'nın tâbisi oldu		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0757-01-01	Offa döneminde Sussex'in kralları ealdorman düzeyine indi		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0757-01-01	Offa Aethelbald'in öldürülmesinin ardından Mercia'da iktidarı aldı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0779-01-01	Offa Cynewulf'u yenip Bensington'ı aldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0825-01-01	Ellendune: Egbert Mercia'yı yendi; Kent, Sussex, Surrey ve Essex Wessex'i kral tanıdı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0825-01-01	Egbert'in Ellendune zaferiyle Sussex Wessex'in eline geçti		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0825-01-01	Ellendune Savaşı: Wessex İngiliz krallıklarının en güçlüsü oldu		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0825-01-01	Doğu Anglialılar Mercia boyunduruğunu atıp Beornwulf'u öldürdü		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0829-01-01	Egbert Mercia'yı fethetti, bir yıl sonra Wiglaf geri aldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0865-01-01	Büyük Danimarka ordusu Doğu Anglia'ya çıktı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0866-01-01	Danimarka 'büyük ordusu' York'u aldı	York	ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0869-11-20	Kral Edmund öldü (azizleşen şehit); Doğu Anglia Danimarka egemenliğine girdi		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0877-01-01	Mercia İngiliz ve Danimarkalı bölgelere ayrıldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0879-01-01	II. Baudouin (879-918) Flandre Kontluğu'nu fiilen kurdu: Escaut, Boulonnais, Artois		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0911-01-01	Saint-Clair-sur-Epte: Charles le Simple Rollon'a Seine ağzı topraklarını verdi		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0918-06-12	Aethelflaed öldü; Edward Mercia'yı Wessex'e kattı		ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0923-01-01	III. Raimond (923-950 dolayı) Gothie markizliğini Toulouse'a kattı	Toulouse	ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0927-01-01	Athelstan York Viking krallığını ilhak etti; krallıklar birleşti	York	ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0927-01-01	Athelstan York krallığını ilhak etti	York	ic	True
+kronoloji_cok_ms1_1000_batiavrupa.js	0932-01-01	Hugues d'Arles Provence haklarını II. Rodolphe'a bıraktı: iki Burgonya birleşti		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0944-01-01	Edmund Northumbria'yı yeniden aldı		ic	False
+kronoloji_cok_ms1_1000_batiavrupa.js	0954-01-01	Erik Kanlı Balta kovuldu ve öldürüldü; Northumbria Eadred'e boyun eğdi	York	ic	True
+kronoloji_cok_ms1_1000_dunya.js	0665-01-01	Hazarlar Büyük Bulgaristan'ı yıktı; Hazar toprağı yaklaşık iki katına çıktı		ic	True
+kronoloji_cok_ms1_1000_dunya.js	0714-01-01	Mesleme b. Abdülmelik Derbend geçidini aldı	Derbend	ic	False
+kronoloji_cok_ms1_1000_dunya.js	0764-01-01	Hazar kuvvetleri (Es-Tarhan'ın ordusu) Tiflis'i ele geçirdi	Tiflis	ic	False
+kronoloji_cok_ms1_1000_dunya.js	0968-01-01	Rus seferleri Hazar şehri Semender'i yıktı (968'den sonra)		ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0017-01-01	Roma Kommagene'yi ilhak etti		ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0447-01-01	Kral Rechila döneminde Suebler Lusitania ve Baetica'ya yayıldı		ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0569-01-01	Leovigild Suebler'den León ve Zamora'yı aldı	León	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0666-03-13	Ukbe b. Nâfi Fizan'ı (Garamant ülkesini) fethetti	Murzuk (Fizan)	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0741-01-01	Endülüs'te Berberî isyanı (741): I. Alfonso Galiçya'yı krallığına kattı		ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0805-01-01	Han Krum Avar topraklarına ve madenlerine el koydu		ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0809-01-01	Krum Sredets'i (Sofya) aldı	Sofya	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0909-08-26	Ebû Abdullah eş-Şiî Sicilmâse'yi aldı, Ubeydullah el-Mehdî'yi kurtardı; Midrârîler Fâtımî egemenliğine girdi	Sicilmâse (Tâfilelt)	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0921-05-12	Fâtımî valisi Mesâle Sicilmâse'ye tekrar hâkim oldu; Ahmed b. Meymûn öldürüldü	Sicilmâse (Tâfilelt)	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0929-02-14	Muhammed b. Hazer Zâb bölgesinin tamamına hâkim oldu		ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0931-01-01	III. Abdurrahman Sebte'yi (Ceuta) alıp Mağrib'de deniz üssü kurdu	Sebte (Ceuta)	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0932-08-02	III. Abdurrahman Toledo'ya girdi; Tuleytula direnişi bitti	Toledo	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0958-03-25	Cevher es-Sıkıllî Sicilmâse'yi aldı; İbn Vâsûl yakalanıp Rakkāde'ye götürüldü	Sicilmâse (Tâfilelt)	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0960-03-03	Fâtımîler Fas ve Sicilmâse'yi zaptetti	Fas (Fez)	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0978-01-01	Bâd Erciş'i ele geçirdi	Erciş	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0979-01-01	Bulukkîn Zenâte'ye karşı seferlerle Fas ve Sicilmâse'yi aldı (979-984)	Fas (Fez)	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0984-01-01	Bâd Musul'a hâkim oldu; Samsâmüddevle'yle antlaşmayla Diyarbekir'in tamamı onun oldu	Musul	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0985-01-01	el-Mansûr Barselona'yı aldı (985); 987'de Kont I. Borrell geri aldı	Barselona	ic	True
+kronoloji_cok_ms1_1000_iber_balkan.js	0987-01-01	Barselona Kontu I. Borrell şehri Müslümanlar'dan geri aldı	Barselona	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	0993-02-26	Zîrî b. Atıyye Fas'ı Fâtımî valisinden geri aldı; Vecde şehrini kurmaya başladı	Fas (Fez)	ic	False
+kronoloji_cok_ms1_1000_iber_balkan.js	1000-01-01	Vânüdîn Sicilmâse'yi geri aldı	Sicilmâse (Tâfilelt)	ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0260-01-01	Alamanlar Agri Decumates bölgesini işgal etti		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0496-01-01	Clovis Alamanları fethedip Frank topraklarına kattı (Tolbiacum)		ic	False
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0641-01-01	Bizans'ın Oderzo kenti Lombardlar'a geçti		ic	False
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0796-01-01	Şarlman Avar imparatorluğunu yıktı; Moravyalılara bir kısmını verdi		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0827-04-02	Ağlebî donanması Mazara'yı aldı: Sicilya fethi başladı		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0870-01-01	Alman Louis'in topraklarının Almanya'nın ortaçağ sınırına ulaşması		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0871-01-01	II. Louis'in koalisyonu Bari'yi Araplar'dan aldı	Bari	ic	False
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0876-01-01	Alman Louis'in ölümünden sonra Svatopluk geniş topraklar kattı (Büyük Moravya)		ic	False
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0895-01-01	Macarlar Árpád önderliğinde Karpatları aşıp Karpat havzasına yerleşti		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0902-01-01	Taormina'nın alınmasıyla Sicilya'nın fethi tamamlandı		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0906-01-01	Macarlar Moravya devletini yok etti		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0907-01-01	Macarlar Alman ordusunu yenip Pannonia'yı işgal etti		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0925-01-01	I. Henry Lotharingia'yı yeniden Alman egemenliğine kattı		ic	True
+kronoloji_cok_ms1_1000_ortaavrupa_italya.js	0962-02-09	Ahmed b. Hasan Taormina Kalesi'ni 7 aylık kuşatmayla aldı, adını Muizziye koydu		ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0053-01-01	II. Agrippa Chalcis yerine Tetrarkes Philippos'un eski topraklarını aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0114-01-01	Traianus Ermenistan'a girdi; Osroes'un atadığı Parthamasiris öldürüldü, Ermenistan Roma'ya katıldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0115-01-01	Traianus Kuzey Mezopotamya'yı (Edessa, Nisibis) ele geçirdi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0116-01-01	Traianus Babil, Seleukeia ve Ktesifon'u aldı, Basra Körfezi'ne ulaştı; Parthamaspates Part kralı atandı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0117-01-01	Hadrianus Ermenistan, Mezopotamya ve Asur'dan vazgeçti; Fırat yeniden Roma-Part sınırı oldu		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0163-01-01	Roma karşı saldırıyla Ermenistan'ı geri aldı; Sohaemus Roma'nın kralı olarak taç giydi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0164-01-01	Roma Partları Suriye'den çıkardı; Avidius Cassius Mezopotamya'ya yürüdü		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0199-01-01	Severus Osrhoene ve Mezopotamya eyaletlerini kurarak Part sınırını güvenceye aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0216-01-01	Caracalla Edessa'yı işgal edip Osrhoene krallığını kaldırdı	Vodina (Edessa)	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0226-01-01	Sâsânî I. Ardeşir Kuşan topraklarına saldırdı; batı eyaletleri Sâsânîler'e geçti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0240-01-01	Sâsânîler Hatra'yı aldı; şehir sonra terk edildi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0270-01-01	Zeyneb 70.000 kişilik orduyla Mısır'a girip Roma kuvvetlerini yendi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0283-01-01	Romalılar Sâsânî başşehri Medâin'i ele geçirdi	Ktesiphon	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0293-01-01	Nirsih tahta çıktı; Dicle'nin batısını Romalılar'a bırakmak zorunda kaldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0298-01-01	Galerius Narseh'i yendi; Nisibis Antlaşması: Roma Dicle'nin doğusunda toprak kazandı	Nusaybin	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0359-01-01	II. Şâpûr Amid'i (Diyarbekir) aldı	Diyarbakır	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0363-01-01	Iulianos'un Sâsânî seferi ve ölümü; Iovianos'la barış, Şâpûr kayıp toprakları geri aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0387-01-01	Roma ve Sâsânî Ermenistan’ı bölüştü: batı Roma’ya, doğu (Pers-Ermenistan) İran’a bağlı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0390-01-01	III. Arşak öldü; batı Ermenistan krallığı Roma İmparatorluğu’na katıldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0467-01-01	Kidaritler başkentleri Balkh'tan sürüldü; Tohâristan Eftalitler'e geçti	Belh	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0484-01-01	Sâsânîler Eftalitler karşısında ağır yenilgiye uğradı; vergi ödemeye başladı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0484-01-01	Eftalitler Sâsânî ordusunu Ceyhun kıyısında yendi; Herat Eftalitler'e geçti, Sâsânîler vergiye bağlandı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0510-01-01	Eftalit hükümdarı Toramâna Kuzey ve Batı Hindistan'da hâkimiyet kurdu		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0525-01-01	Habeş Kralı Kaleb Himyer'i yendi; Himyerî Devleti sona erdi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0525-01-01	Aksum Kralı Kaleb'in ordusu Yemen'e çıktı; Zûnüvâs Zâtülaber'de yenildi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0525-01-01	Himyer Krallığı sona erdi; Yemen Aksum'a bağlandı		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0540-01-01	Enûşirvân Suriye'ye girdi, Antakya'yı yağmalayıp yaktı		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0557-01-01	Enûşirvân Eftalit topraklarının bir kısmını ilhak etti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0557-01-01	Göktürkler ile Sâsânîler Eftalit (Akhun) devletini yıktı, toprakları paylaştı		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0565-01-01	Maveraünnehir Batı Göktürk (İstemi) hâkimiyetine bağlandı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0570-01-01	Sâsânî komutanı Vehriz San'a'yı aldı; Güney Arabistan Sâsânî hâkimiyetine girdi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0573-01-01	Seyf b. Zûyezen Sâsânî desteğiyle Habeş hâkimiyetine son verdi; Yemen'de Sâsânî dönemi başladı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0613-01-01	Sâsânîler Dımaşk'ı işgal etti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0613-01-01	Sâsânî Suriye seferi Gassânî hâkimiyetini yıktı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0614-01-01	Sâsânîler Kudüs'ü zaptedip Kutsal Haç'ı Medâin'e götürdü	Kudüs	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0619-01-01	Sâsânîler Mısır'ı işgal etti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0623-01-01	Bizans ordusu Sâsânîlerin kutsal şehri Gence'yi aldı	Gence	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0627-01-01	Herakleios’un müttefiki Hazarlar Derbend’i (Çor) zapteti	Derbend	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0628-01-01	Herakleios Suriye'yi geri aldı; Sâsânîler Suriye, Filistin ve Mısır'ı iade etmeyi kabul etti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0628-01-01	Bizans Mısır'ı Sâsânîler'den geri aldı		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0628-01-02	Hayber Gazvesi: Yahudi vahası Hayber Müslümanların eline geçti	Hayber	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0630-01-05	Tebük Seferi: Hz. Muhammed 30 bin kişilik orduyla Bizans sınırına yürüdü	Tebük	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0634-07-30	Ecnâdeyn Savaşı: Müslümanlar Theodoros'un Bizans ordusunu yendi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0635-09-01	Dımaşk Müslümanlar tarafından fethedildi	Şam	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0635-01-23	Fihl Savaşı: Müslümanlar Bizans kuvvetlerine ağır kayıp verdirdi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0636-02-14	Kâdisiye Savaşı: Müslümanlar Sâsânî ordusunu yendi, Rüstem öldü		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0636-08-20	Yermük Savaşı: Müslümanlar Bizans ordusunu ezici yenilgiye uğrattı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0637-03-04	Müslümanlar Sâsânî başkenti Medâin'i (Ktesifon) aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0637-02-02	Celûlâ Savaşı: Sâsânî ordusu bir kez daha yenildi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0638-01-23	Halife Ömer Kudüs'ü Patrik Sophronios'tan teslim aldı	Kudüs	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0640-01-01	Amr b. Âs Mısır'a girdi ve Feremâ'yı aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0640-01-01	Tang orduları Gaochang (Turfan) krallığını yıktı	Turfan	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0640-01-02	Amr b. Âs Mısır seferine çıktı; sınır kasabası Feremâ alındı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0641-01-01	Babilon Kalesi fethedildi; deltanın güneyle bağlantısı kesildi	Kahire	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0641-04-09	Babilon (Bâbliyûn) kalesi yedi aylık kuşatmadan sonra düştü		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0642-09-02	İskenderiye müslümanlara teslim oldu; Mısır'ın fethi tamamlandı	İskenderiye	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0645-01-01	Selmân b. Rebîa ve Habîb b. Mesleme Arrân’ın başşehri Berdea’yı fethetti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0645-01-01	Bizans donanması İskenderiye'yi geri aldı	İskenderiye	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0646-01-01	Amr b. Âs İskenderiye'yi yeniden aldı ve surlarını yıktı	İskenderiye	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0658-06-09	Amr b. Âs Muâviye adına Mısır'ı Hz. Ali'nin valisinden aldı	Kahire	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0659-01-01	Tang Batı Göktürkleri'ni kendine bağladı		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0661-01-01	Tohâristan'da 25 yerel hükümet kurularak Tang idaresi kuruldu		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0684-12-14	I. Mervân Fustat'a girip Mısır'da Emevî hâkimiyetini yeniden kurdu	Kahire	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0691-10-01	Abdülmelik Irak'ı aldı; Zübeyrî yönetimindeki Mus‘ab b. Zübeyr öldürüldü		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0692-01-01	Tang askerleri Turfan bölgesine yerleşti	Turfan	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0705-01-02	Sâlih b. Müslim Kâşân ve Fergana'yı fethetti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0706-01-01	Mûsâ b. Nusayr Mağrib-i Aksâ'yı fethetmeye başladı; Kuzey Afrika İslâm egemenliğine girdi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0706-01-01	Kuteybe, anlaşmayı bozan Beykend'i bir aylık kuşatmadan sonra zorla aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0707-01-01	Nûmişkes ve Râmîsen barış yoluyla alındı; Türk-Soğd ordusu yenildi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0708-11-20	Buhara şartlı teslimle Emevî hâkimiyetine girdi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0708-11-20	Kuteybe Buhara'yı kuşatıp teslim aldı; Maveraünnehir fetihlerinde dönüm noktası		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0710-01-01	Eftalit prensi Tarhan Nîzek Belh'te isyanda yenilip Kuteybe'nin emriyle öldürüldü		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0710-10-29	Sîstan seferi: Türk hükümdarı Rutbîl barış isteyip bölge Emevî hâkimiyetine alındı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0711-01-01	Târık b. Ziyâd Endülüs'e (İspanya) geçti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0711-10-19	Semerkant kuşatıldı; Soğd hükümdarı Emevî hâkimiyetini ve vergiyi kabul etti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0711-10-19	Kuteybe Hârezm'i vergiye bağladı, Semerkant'ı kuşatıp aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0712-01-01	Muhammed b. Kāsım Deybül'ü alarak Sind fethini başlattı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0714-01-01	Mesleme Derbend Geçidi’ni ele geçirdi	Derbend	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0715-01-01	Kuteybe'nin son seferi: Kâşgar yönünde Çin sınırına ilerleyiş		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0715-01-01	Kuteybe son seferinde Kâşgar'a yürüdü, Çin sınırına dayandı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0732-01-01	Mervân b. Muhammed Derbend’i aşıp Belencer’e girdi; Hazarlarla İslâm şartlı barış yapıldı	Derbend	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0748-01-01	Çin komutanı Kao Hsien-chih Tokmok'u alarak Batı Türkistan'a ilerledi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0748-01-15	Nasr b. Seyyâr Merv'i terk etti; Horasan Abbâsî ihtilâlcilerinin eline geçti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0748-01-15	Ebû Müslim Horasan'ın merkezi Merv'i aldı; son Emevî valisi Nasr b. Seyyâr çekildi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0750-04-26	Dımaşk Abbâsî kuvvetlerinin eline geçti	Şam	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0751-01-01	Abbâsî ordusu Uman'da Cülendâ b. Mes‘ûd'un imamlığına son verdi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0756-01-01	Endülüs Abbâsî hilâfetinden fiilen koptu: Abdurrahman b. Muâviye bağımsız davrandı		ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0758-05-14	Abbâsî komutanları Ebü'l-Hâsib ve Ömer b. Alâ dağlık Deylem'i istilâ etti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0797-03-05	Hârûnürreşîd bizzat sefere çıkıp Safsâf Kalesi'ni aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0806-01-01	Hârûnürreşîd büyük orduyla Bizans'a girdi: Herakleia, Iconium ve Tyana alındı	Ereğli (Konya)	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0815-01-01	Alî soyundan İbrâhim b. Mûsâ Yemen'i ve San‘a'yı ele geçirdi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0827-04-02	Endülüslü muhacirler Girit'i fethetti: Girit Emirliği kuruldu		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0838-08-12	Amorion (Ammûriye) Abbâsîler'e geçti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0840-01-01	Yenisey Kırgızları Ötüken'de hâkimiyet kurdu		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0873-01-01	Hasan b. Zeyd Elburz'u aşıp Kūmis'i işgal etti		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0878-01-01	Ahmed b. Tolun Suriye'ye yürüdü: Fırat'ın batısındaki vilâyetler Tolunoğulları'na geçti		ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0886-12-02	Abbâsîler Tolunoğulları'nın Mısır hâkimiyetini tanıdı: Suriye, Sugūr, Cezîre otuz yıl Humâreveyh'e verildi	Bağdat	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0893-01-01	Abbâsî valisi Muhammed b. Nûr Nizvâ'yı ele geçirdi; Uman imamlığı sona erdi	Nizva	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0893-03-23	Sâmânî emîri İsmâil b. Ahmed Talas'ı alıp esir aldı; Karahanlılar başşehri Kâşgar'a taşıdı	Taraz (Evliya-Ata)	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0894-03-13	I. Smbat Duvîn (Dvin) şehrini ele geçirdi	Dvin	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0898-01-28	Muhammed b. Ebü’s-Sâc Kars’ı ele geçirdi; halife Azerbaycan-İrmîniye hâkimiyetini tanıdı	Kars	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0899-01-01	Ebû Saîd el-Cennâbî önderliğindeki Karmatîler Katîf'i ve Bahreyn bölgesini zaptetti	Katîf	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0900-01-07	Taberistan Sâmânîler'e bağlandı; Muhammed b. Zeyd el-Alevî öldürüldü		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0901-01-01	İmam Hâdî-İlelhak San‘a'yı ele geçirdi; Ya‘furîler ertesi yıl geri aldı	Sana	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0905-01-11	Tolunoğulları sona erdi: Abbâsî ordusu Fustat'a girdi, Mısır yeniden Abbâsî hâkimiyetine geçti	Kahire	ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0920-01-01	Hıtaylar (Kitan) Kırgızları Ötüken'den çıkarıp eski yurtlarına sürdü		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0924-03-18	Yûsuf b. Ebü’s-Sâc Ebher-Zencan arasında Sâmânî valisini yenip Rey’e hâkim oldu		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0926-03-19	II. Nasr Rey'i yeniden ele geçirdi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0930-01-01	Karmatîler hac mevsiminde Mekke'ye baskın yaptı; Hacerülesved Bahreyn'deki Hecer'e götürüldü	Mekke	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0930-01-02	Ebû Tâhir el-Cennâbî Uman'ı ele geçirdi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0934-01-01	Merdâvîc'in ordusu Ahvaz'ı aldı; Ali b. Büveyh onun metbûluğunu tanıyıp kardeşi Hasan'ı rehin verdi	Ahvaz	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0934-01-01	Ali b. Büveyh Fars'ı alıp Şîraz'a girdi	Şiraz	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0942-01-01	Merzübân Deysem'i yenip Azerbaycan, Arrân ve İrmîniye'ye hâkim oldu		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0942-01-01	Müslüman olmayan Türkler Balasagun'u ele geçirdi; Satuk Buğra Han sonradan geri aldı	Balasagun (Ak-Beşim)	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0944-01-01	Rus ordusu Arrân'ın merkezi Berdea'yı işgal etti		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0945-05-01	Seyfüddevle Dımaşk'ı aldı, kısa sürede kaybetti: Kuzey Suriye Hamdânîler'de, güney İhşîdîler'de kaldı	Şam	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0947-11-01	İhşîdîler Kuzey Suriye'yi Hamdânîler'e bıraktı		ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0953-01-01	Seyfüddevle Bizans'tan Maraş'ı geri aldı	Maraş	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0955-04-27	Gence Sâlârîler (Müsâfirîler) hânedanı topraklarına katıldı; Arrân valisinin merkezi oldu	Gence	ic	False
+kronoloji_cok_ms1_1000_ortadogu.js	0958-03-25	Muiz, Cevher es-Sıkıllî'yi büyük orduyla Mağrib'e gönderdi		ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0965-01-07	Nikephoros Phokas Misis ve Tarsus'u aldı: Çukurova Bizans'a geçti	Tarsus	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0967-01-01	Adudüddevle Umân'a hâkim oldu; sonra Kirman'ı ve Mekrân'ı da aldı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0971-01-01	Hasan el-A'sam önderliğindeki Karmatîler Dımaşk ve Remle'yi yeniden aldı, Kahire'yi kuşattı	Şam	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0971-01-01	Fazl b. Muhammed Gence’yi ele geçirdi; Müsâfirîler Şeddâdîler’i tanımak zorunda kaldı	Gence	ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0975-09-10	Hamdânîler Halep'i Bizans'tan geri aldı	Halep	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0977-01-01	Sebük Tegin Büst'i alıp Togan Tegin'i yendi		dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0979-01-01	Adudüddevle Irak, Diyârırebîa, Diyârımudar ve el-Cezîre'ye hâkim oldu; halife taç giydirdi	Bağdat	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0979-01-01	Revvâdîler Azerbaycan'ı Müsâfirîler'den aldı; İbrâhim tahttan indirilip hapsedildi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0981-01-01	Adudüddevle Ziyârîler'in elindeki Taberistan ve Cürcân'ı Büveyhî topraklarına kattı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0981-01-01	Büveyhî Adudüddevle Taberistan ve Cürcân'ı topraklarına kattı; sınır Hazar'a ulaştı		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0982-06-26	Şeddâdî Merzübân Şirvanşah’a yenilip Berdea’yı kaybetti		ic	True
+kronoloji_cok_ms1_1000_ortadogu.js	0987-05-03	Ebü'l-Heycâ Duvîn'i Ebû Dülef eş-Şeybânî'den aldı; Ani Kralı II. Smbat vergi ödedi		dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0990-01-01	Hârun Buğra Han İsfîcâb'ı zaptetti (Sâmânî topraklarına ilk Karahanlı fethi)	Sayram (İsficâb)	dis	True
+kronoloji_cok_ms1_1000_ortadogu.js	0992-01-01	Karahanlı Hârun Buğra Han Buhara'yı ele geçirdi	Buhara	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0996-01-25	İlig Han Nasr Sâmânî topraklarına yürüdü; Sebük Tegin aracılığıyla Seyhun-Katvân'a kadar Karahanlılara bırakıldı	Semerkant	dis	False
+kronoloji_cok_ms1_1000_ortadogu.js	0997-01-01	Ebü'l-Feth Muhammed b. Annâz Dakūkā'yı ele geçirdi		dis	False
+kronoloji_cok_okyanusya.js	1863-07-12	Yeni Zelanda ordusu Mangatawhiri'yi geçip Waikato'yu işgal etti		ic	True
+kronoloji_cok_okyanusya.js	1770-08-22	Cook Possession Island'da doğu Avustralya kıyısını Britanya adına sahiplendi (New South Wales)		ic	True
+kronoloji_cok_okyanusya.js	1884-11-02	Almanya Yeni Gine'nin kuzeydoğusunda (Matupi, Blanche Körfezi) bayrak çekti — Alman Yeni Gine himayesi başladı		ic	True
+kronoloji_cok_okyanusya.js	1888-09-09	Şili Rapa Nui'yi (Paskalya Adası) ilhak etti		ic	True
+kronoloji_cok_okyanusya.js	1863-07-06	Kuzey Bölgesi Yeni Güney Galler'den Güney Avustralya'ya bağlandı	Darwin (Palmerston)	ic	False
+kronoloji_cok_once1281_afrika.js	1077-01-01	Yûsuf b. Tâşfîn, Mağrib-i Aksâ'nın sahil şehri Tanca'yı ele geçirdi	Tanca	ic	True
+kronoloji_cok_once1281_afrika.js	1084-01-01	Murâbıtlar Sebte'yi (Ceuta) ele geçirdi	Sebte (Ceuta)	ic	True
+kronoloji_cok_once1281_afrika.js	1087-01-01	Ebû Bekir b. Ömer öldü; Murâbıtlar'ın Batı Sudan'daki nüfuzu zayıfladı		ic	True
+kronoloji_cok_once1281_afrika.js	1144-01-01	Abdülmü'min el-Kûmî komutasındaki Muvahhidler Murâbıtlar'a ağır bir darbe vurdu		ic	True
+kronoloji_cok_once1281_afrika.js	1184-01-01	Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti	Bicâye	ic	True
+kronoloji_cok_once1281_afrika.js	1187-01-01	Ebû Yûsuf el-Mansûr Tunus'u Benî Gāniye'den geri aldı	Tunus	ic	True
+kronoloji_cok_once1281_afrika.js	1228-06-29	Ebû Zekeriyyâ Yahyâ el-Hafsî Muvahhidler adına Tunus'a girip İfrîkıye'nin tamamına hâkim oldu	Tunus	ic	False
+kronoloji_cok_once1281_afrika.js	1223-01-01	Merînîler Fâzâz bölgesini ele geçirdi		ic	False
+kronoloji_cok_once1281_afrika.js	1262-01-01	Ebû Yûsuf Ya'kūb Muvahhidler'i yenip Tâmesnâ ve Rif'i Merînî topraklarına kattı		ic	True
+kronoloji_cok_once1281_afrika.js	1230-01-01	Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti		ic	True
+kronoloji_cok_once1281_afrika.js	1233-01-01	Hafsîler Benî Gāniye'nin Kosantîne güneyindeki topraklarını alıp İfrîkıye'nin tek hâkimi oldu	Konstantin	ic	True
+kronoloji_cok_once1281_afrika.js	1052-04-14	Hayderan Savaşı — Muiz b. Bâdîs Benî Hilâl karşısında ağır yenilgiye uğradı		ic	False
+kronoloji_cok_once1281_afrika.js	1062-01-01	Hammâdî hükümdarı Bulukkîn b. Muhammed Fas şehrini ele geçirdi	Fas (Fez)	ic	True
+kronoloji_cok_once1281_afrika.js	1240-01-01	Mali İmparatorluğu Gāne'nin son bakiyelerini ele geçirdi		ic	True
+kronoloji_cok_once1281_afrika.js	1210-01-01	Dûneme Diabalami Kânim tahtına geçti; Fizan'dan Nijer'e uzanan genişleme başladı		ic	True
+kronoloji_cok_once1281_anadolu.js	1003-01-01	Şeddâdî Fazl, Parisos prensi Filip'i zincire vurup Şaşvaş ve Sotk'u topraklarına kattı		dis	True
+kronoloji_cok_once1281_anadolu.js	1014-01-01	II. Basileios Bulgar Devleti'ni yıkıp topraklarını Bizans'a kattı		dis	True
+kronoloji_cok_once1281_anadolu.js	1022-01-01	Şeddâdî Fazl, Dvin'i Ermenilerden alıp oğlu Ebü'l-Esvâr Şâvur'a verdi	Dvin	dis	True
+kronoloji_cok_once1281_anadolu.js	1027-01-01	Nasrüddevle Urfa'yı ele geçirdi	Urfa	dis	True
+kronoloji_cok_once1281_anadolu.js	1031-01-01	Bizans Urfa'ya yerleşti, Mervânî kuşatması sonuçsuz kaldı	Urfa	dis	True
+kronoloji_cok_once1281_anadolu.js	1045-01-01	Ani (Ermeni Bagratlı) toprakları Bizans'a ilhak edildi		dis	False
+kronoloji_cok_once1281_anadolu.js	1053-01-01	Ebü'l-Esvâr Gürcülere ait bazı sınır kalelerini ele geçirdi		dis	True
+kronoloji_cok_once1281_anadolu.js	1068-01-01	Alparslan'ın ikinci Gürcistan seferi: Şekkî alındı, Bagrat'tan bazı yerler fethedildi		dis	True
+kronoloji_cok_once1281_anadolu.js	1082-01-01	Kutalmışoğlu Süleyman Şah Tarsus'u fethetti	Tarsus	dis	False
+kronoloji_cok_once1281_anadolu.js	1106-09-02	I. Kılıcarslan Malatya'yı Dânişmendlilerden aldı	Malatya	dis	True
+kronoloji_cok_once1281_anadolu.js	1109-01-01	Sökmen el-Kutbî Meyyâfârikīn'ı aldı; Âmid'in İnaloğulları ona tâbi oldu		dis	True
+kronoloji_cok_once1281_anadolu.js	1110-01-01	Dilmaçoğlu Togan Arslan Silvan'a bağlı köyleri aldı, sonra bağımsızlığını ilan etti		dis	True
+kronoloji_cok_once1281_anadolu.js	1110-01-01	Musul Valisi Mevdûd'un seferleri Urfa kontluğunun Fırat doğusunu tahrip etti	Urfa	dis	True
+kronoloji_cok_once1281_anadolu.js	1118-01-01	Artuklu İlgazi Halep'e hâkim oldu	Halep	dis	True
+kronoloji_cok_once1281_anadolu.js	1118-01-01	Togan Arslan Dvin'e saldırıp Menûçihr'i öldürdü ve şehri aldı; Ani'de II. Şâvur başa geçti	Dvin	dis	True
+kronoloji_cok_once1281_anadolu.js	1121-01-01	Irak Selçuklu Sultanı Mahmud Meyyâfârikīn'ı Artuklu İlgazi'ye iktâ etti		ic	False
+kronoloji_cok_once1281_anadolu.js	1123-01-01	Gürcü Kralı IV. David Şirvan'ı ilhak etti	Şamahı	dis	True
+kronoloji_cok_once1281_anadolu.js	1124-06-13	Dânişmendli Emîr Gazi Malatya'yı kuşatıp aldı	Malatya	dis	False
+kronoloji_cok_once1281_anadolu.js	1126-01-01	IV. Fazl Ani'yi Gürcülerden geri aldı		dis	True
+kronoloji_cok_once1281_anadolu.js	1135-01-01	Bizans Dânişmendli Kastamonu ve Çankırı'yı işgal etti, Melik Muhammed geri aldı	Kastamonu	dis	True
+kronoloji_cok_once1281_anadolu.js	1144-01-01	Zengî İnaloğullarından Ergani, Hâlâr, Tulhum ve Çermük'ü aldı		dis	True
+kronoloji_cok_once1281_anadolu.js	1150-01-01	Artuklu Kara Arslan Gerger ve Harput'u aldı; Dânişmendli Aynüddevle Gerger-Kâhta-Palu'ya saldırdı	Harput (Elazığ)	dis	True
+kronoloji_cok_once1281_anadolu.js	1174-08-11	Ahlatşah II. Sökmen Sasun kalelerini üç yıllık kuşatmadan sonra aldı		ic	True
+kronoloji_cok_once1281_anadolu.js	1188-01-01	Selâhaddin'in seferleriyle Antakya prinkepsliği başşehirle birkaç kasabaya indi	Antakya	dis	False
+kronoloji_cok_once1281_anadolu.js	1207-01-01	I. Keyhusrev Denizli ve Antalya yörelerini fethetti	Antalya	dis	True
+kronoloji_cok_once1281_anadolu.js	1214-01-01	I. Keykâvus Sinop'u fethetti	Sinop	dis	True
+kronoloji_cok_once1281_anadolu.js	1214-01-01	Theodoros Laskaris Trabzon Rum İmparatorluğu'nun batı topraklarının çoğunu ilhak etti		dis	True
+kronoloji_cok_once1281_anadolu.js	1225-01-01	Celâleddin Hârizmşah Dvin'i zaptetti	Dvin	dis	True
+kronoloji_cok_once1281_anadolu.js	1227-01-01	Celâleddin Hârizmşah Tiflis'i fethetti	Tiflis	dis	True
+kronoloji_cok_once1281_anadolu.js	1259-01-01	Epir'in büyük kısmı İznik denetimine geçti		dis	True
+kronoloji_cok_once1281_anadolu.js	1265-01-01	VIII. Mihail Yanya'yı alarak Epir'e Bizans üstünlüğünü tanıttı	Yanya	dis	False
+kronoloji_cok_once1281_avrupa.js	1016-01-01	Carham Muharebesi: II. Malcolm Northumbria ordusunu yener, Lothian İskoçya'ya bağlanır		dis	True
+kronoloji_cok_once1281_avrupa.js	1018-01-01	Bautzen Barışı: Lusatia ve Meissen sınır bölgeleri Polonya'ya bırakıldı		dis	True
+kronoloji_cok_once1281_avrupa.js	1028-01-01	Knut Olav Haraldsson'u Norveç'ten kovdu, Norveç'e hâkim oldu		dis	True
+kronoloji_cok_once1281_avrupa.js	1029-01-01	Moravya Přemysl Bohemya'sına bağlandı		dis	True
+kronoloji_cok_once1281_avrupa.js	1034-08-01	Burgonya prensleri Zürih'te II. Konrad'a biat eder	Zürih	ic	False
+kronoloji_cok_once1281_avrupa.js	1036-01-01	Mstislav'ın ölümüyle Yaroslav Kiev Rus'unu yeniden birleştirdi	Çernigov	ic	True
+kronoloji_cok_once1281_avrupa.js	1055-01-01	Gruffudd ap Llywelyn bütün Galler'in kralı olur		ic	True
+kronoloji_cok_once1281_avrupa.js	1081-01-01	Bosna Duklja kralı Bodin'in yönetimine girdi	Tuzla (Bosna)	dis	True
+kronoloji_cok_once1281_avrupa.js	1091-01-01	Slavonya Macaristan'a bağlandı		dis	True
+kronoloji_cok_once1281_avrupa.js	1097-01-01	Gvozd Savaşı: Kálmán son Hırvat kralı Petar'ı yendi		dis	True
+kronoloji_cok_once1281_avrupa.js	1098-01-01	Magnus Berrføtt Orkney ve Hebrid adalarını Norveç'e bağladı		dis	True
+kronoloji_cok_once1281_avrupa.js	1102-01-01	Murâbıtlar Belensiye'yi (Valencia) aldı	Valensiya	dis	True
+kronoloji_cok_once1281_avrupa.js	1105-01-01	Zadar ve Dalmaçya şehirleri Koloman'ın hâkimiyetini tanıdı	Zadar (Zara)	dis	True
+kronoloji_cok_once1281_avrupa.js	1106-09-28	Tinchebrai Muharebesi: İngiltere kralı I. Henry Normandiya'yı alır		ic	True
+kronoloji_cok_once1281_avrupa.js	1111-01-01	Besalú kontluğu Barselona'ya katıldı		ic	True
+kronoloji_cok_once1281_avrupa.js	1112-01-01	III. Ramon Berenguer, Provence varisi Dolça ile evlendi; Provence hakları Barselona'ya geçti		dis	True
+kronoloji_cok_once1281_avrupa.js	1118-01-01	Cerdanya kontluğu Barselona'ya katıldı		ic	True
+kronoloji_cok_once1281_avrupa.js	1127-01-01	Milano Como'yu yıkar	Como	dis	True
+kronoloji_cok_once1281_avrupa.js	1144-01-01	Anjou kontu Geoffroi Plantagenet Normandiya'yı fetheder		dis	True
+kronoloji_cok_once1281_avrupa.js	1146-01-01	Sicilya Krallığı Trablusgarp'ı alır	Trablus	dis	True
+kronoloji_cok_once1281_avrupa.js	1147-01-01	Sicilya Krallığı Bizans'tan Korfu'yu alır	Korfu	dis	True
+kronoloji_cok_once1281_avrupa.js	1148-01-01	Barselona kontu Turtûşe'yi (Tortosa) aldı	Tortosa	dis	True
+kronoloji_cok_once1281_avrupa.js	1152-01-01	Henry Plantagenet, Akitanya düşesi Aliénor ile evlenir; Akitanya Angevin elinde	Poitiers	dis	True
+kronoloji_cok_once1281_avrupa.js	1162-01-01	Barbarossa Milano'yu alır ve yıkar	Milano	dis	False
+kronoloji_cok_once1281_avrupa.js	1166-01-01	Bosna kısa süreli Bizans hâkimiyetine girdi	Tuzla (Bosna)	dis	False
+kronoloji_cok_once1281_avrupa.js	1166-01-01	Bretanya dükü IV. Conan düklüğü II. Henry'ye (oğlu Geoffroi adına) bırakmak zorunda kalır		dis	False
+kronoloji_cok_once1281_avrupa.js	1168-06-15	Arkona fethedildi — Rügen adası Danimarka'ya bağlandı		dis	False
+kronoloji_cok_once1281_avrupa.js	1170-08-23	Strongbow Waterford yakınına çıkar; iki gün sonra Waterford'u alır	Waterford	dis	True
+kronoloji_cok_once1281_avrupa.js	1175-01-01	Windsor Antlaşması: Ruaidrí Ua Conchobair II. Henry'yi senyör tanır, yüksek kral olarak kalır		dis	True
+kronoloji_cok_once1281_avrupa.js	1177-01-01	II. Henry oğlu John'u 'İrlanda Lordu' yapar; Windsor düzeni terk edilir	Oxford	dis	True
+kronoloji_cok_once1281_avrupa.js	1183-01-01	Nemanja Macaristan'la ittifakla Bizans topraklarına saldırdı		dis	True
+kronoloji_cok_once1281_avrupa.js	1187-01-01	Bizans barışla İkinci Bulgar Devleti'ni tanıdı; I. Asen başa geçti	Tırnova	dis	True
+kronoloji_cok_once1281_avrupa.js	1190-01-01	Bizans ordusu Nemanja'yı Morava ırmağında yendi		dis	True
+kronoloji_cok_once1281_avrupa.js	1191-01-01	VIII. Baudouin Artois ve güney toprakları Fransa'ya kaptırır		dis	True
+kronoloji_cok_once1281_avrupa.js	1192-01-01	Steiermark Babenberg Avusturya'sına katıldı	Graz	dis	True
+kronoloji_cok_once1281_avrupa.js	1195-01-01	Cenova Korsika'da Bonifacio'yu işgal eder	Bastia (Korsika)	dis	True
+kronoloji_cok_once1281_avrupa.js	1204-01-01	Bizans'ın paylaşılmasıyla Dubrovnik üzerinde Venedik hâkimiyeti güçlendi	Dubrovnik	dis	True
+kronoloji_cok_once1281_avrupa.js	1204-01-01	Galiçya-Volhinya knezi Roman Mstislaviç Kiev'i ele geçirdi	Kiev	ic	True
+kronoloji_cok_once1281_avrupa.js	1204-01-01	Philippe Auguste Normandiya'yı fetheder ve Fransa'ya ilhak eder	Rouen	dis	True
+kronoloji_cok_once1281_avrupa.js	1210-01-01	Papa III. Innocentius Livonya'nın paylaşımını onayladı — Kılıç Kardeşleri'ne üçte bir	Riga	ic	True
+kronoloji_cok_once1281_avrupa.js	1213-09-12	Muret Muharebesi: Simon de Montfort, Aragon kralı II. Pedro ile VI. Raymond'u yener		dis	False
+kronoloji_cok_once1281_avrupa.js	1214-01-01	Macar kralı II. Andras ve Leszek Peremışl ile Haliç'i işgal etti		dis	True
+kronoloji_cok_once1281_avrupa.js	1217-01-01	Viljandi (Fellin) Savaşı: Eston önderi Lembitu öldürüldü		dis	False
+kronoloji_cok_once1281_avrupa.js	1218-06-25	Simon de Montfort Toulouse kuşatmasında öldürülür; VI. Raymond topraklarını geri alır	Toulouse	ic	False
+kronoloji_cok_once1281_avrupa.js	1219-06-15	Lyndanise (Tallinn) Savaşı: II. Valdemar Kuzey Estonya'yı fethetti	Tallinn (Reval)	dis	False
+kronoloji_cok_once1281_avrupa.js	1221-01-01	Mstislav Udaloy Macarları Haliç'ten çıkardı		dis	True
+kronoloji_cok_once1281_avrupa.js	1223-01-01	II. Valdemar Lyø'de Schwerin kontu tarafından esir alındı		dis	False
+kronoloji_cok_once1281_avrupa.js	1227-07-22	Bornhöved Savaşı: Danimarka'nın Baltık hâkimiyeti sona erdi		dis	False
+kronoloji_cok_once1281_avrupa.js	1229-01-01	IX. Alfonso Cáceres'i aldı: León'un Extremadura ilerleyişi		dis	True
+kronoloji_cok_once1281_avrupa.js	1229-01-01	Paris (Meaux) Antlaşması: Albigens seferi biter, Toulouse mirası Capet'lere bağlanır	Paris	dis	True
+kronoloji_cok_once1281_avrupa.js	1231-01-01	Töton Tarikatı Prusya fethine başladı		dis	True
+kronoloji_cok_once1281_avrupa.js	1236-09-22	Saule (Šiauliai) Savaşı: Kılıç Kardeşleri Samogitlere yenildi		dis	False
+kronoloji_cok_once1281_avrupa.js	1238-06-07	Stensby Antlaşması: Kuzey Estonya Danimarka'ya iade edildi		dis	True
+kronoloji_cok_once1281_avrupa.js	1239-01-01	Kıpçak, Bulgar, Başkurt ve Alanların son direnişi kırıldı		dis	True
+kronoloji_cok_once1281_avrupa.js	1241-01-01	Muhi (Şayó ırmağı) Savaşı: Moğollar IV. Béla'yı bozguna uğrattı		dis	True
+kronoloji_cok_once1281_avrupa.js	1245-08-17	Yaroslav Muharebesi: Danilo, Çernigov-Macar-Polonya koalisyonunu yendi		dis	False
+kronoloji_cok_once1281_avrupa.js	1249-01-01	Birger Jarl'ın Finlandiya seferi: Häme (Tavastland) İsveç'e bağlandı		dis	True
+kronoloji_cok_once1281_avrupa.js	1249-01-01	III. Afonso Algarve'nin fethini tamamladı: Portekiz'in güney sınırı çizildi	Faro	dis	True
+kronoloji_cok_once1281_avrupa.js	1250-01-01	Livonya Tarikatı Zemgale'yi (Semigallia) fethetti		dis	True
+kronoloji_cok_once1281_avrupa.js	1253-01-01	IV. Béla Bosna'yı boyun eğdirip böldü; Usora ve Soli ayrı banlık oldu	Tuzla (Bosna)	dis	True
+kronoloji_cok_once1281_avrupa.js	1259-01-01	Paris Antlaşması: III. Henry Normandiya, Anjou, Maine, Touraine ve Poitou'dan vazgeçer, Guyenne için IX. Louis'nin vassalı olur	Paris	dis	True
+kronoloji_cok_once1281_avrupa.js	1260-01-01	Kressenbrunn Savaşı: II. Ottokar Macarları yendi, Steiermark'ı aldı		dis	True
+kronoloji_cok_once1281_avrupa.js	1260-07-13	Durbe Savaşı: Samogitler Töton ve Livonya tarikatlarını bozguna uğrattı		dis	True
+kronoloji_cok_once1281_avrupa.js	1260-09-20	Büyük Prusya Ayaklanması başladı (1260-1274)		ic	True
+kronoloji_cok_once1281_avrupa.js	1261-01-01	Grönland Norse yerleşimleri Norveç krallığına bağlandı		dis	True
+kronoloji_cok_once1281_avrupa.js	1266-07-02	Perth Antlaşması: Hebridler ve Man adası İskoçya'ya bırakıldı	Perth (İskoçya)	dis	True
+kronoloji_cok_once1281_avrupa.js	1267-09-29	Montgomery Antlaşması: III. Henry, Llywelyn ap Gruffudd'u Galler Prensi tanır		dis	False
+kronoloji_cok_once1281_avrupa.js	1269-01-01	II. Ottokar Karintiya ve Kraina'yı miras yoluyla aldı		dis	True
+kronoloji_cok_once1281_avrupa.js	1277-01-01	I. Edward'ın Galler seferi; Aberconwy barışıyla Llywelyn Conwy'nin batısına sıkıştırılır		dis	True
+kronoloji_cok_once1281_avrupa.js	1278-08-26	Dürnkrut (Marchfeld) Savaşı: II. Ottokar yenilip öldürüldü		dis	True
+kronoloji_cok_once1281_avrupa.js	1280-01-01	Lev Daniloviç Macarlardan Mukaçevo dahil Karpat-ötesinin bir kısmını aldı		dis	True
+kronoloji_cok_once1281_avrupa2.js	1123-01-01	Dük Lothar von Süpplingenburg Meißen Markgraflığı'nı Wettin'den Konrad'a verdi		ic	True
+kronoloji_cok_once1281_avrupa2.js	1127-08-27	Como Milanlılarca alındı; Onyıl Savaşı Como'nun yenilgisiyle bitti	Como	ic	False
+kronoloji_cok_once1281_avrupa2.js	1136-01-01	Konrad Meißen'e ek olarak Lausitz Markgraflığı ve Chemnitz manastır avukatlığını aldı		ic	True
+kronoloji_cok_once1281_avrupa2.js	1195-01-01	Albrecht öldü; İmparator VI. Heinrich Meißen Markgraflığı'nı 'boşalmış' sayıp el koydu		ic	True
+kronoloji_cok_once1281_avrupa2.js	1204-01-01	Bonifacio'ya hakem kararıyla Selânik Krallığı verildi	Selanik	dis	True
+kronoloji_cok_once1281_avrupa2.js	1210-01-01	Groitzsch kolunun sönmesiyle Ostmark (Aşağı Lausitz) Dietrich'e geçti		ic	True
+kronoloji_cok_once1281_avrupa2.js	1213-01-01	II. Friedrich Lungau'daki Reich haklarını Eberhard'a verdi		ic	True
+kronoloji_cok_once1281_avrupa2.js	1219-01-01	Kral II. Friedrich Lauffen gibi Staufer şehirlerini V. Hermann'a devretti		ic	True
+kronoloji_cok_once1281_avrupa2.js	1228-01-01	Kral VII. Heinrich Eberhard'a Pinzgau kontluğunu tevdi etti		ic	True
+kronoloji_cok_once1281_avrupa2.js	1230-01-01	Hermann Balke, beş şövalyeyle Prusya'ya girdi; Tarikat'ın Prusya'daki ilk üssü Vogelsang		ic	True
+kronoloji_cok_once1281_avrupa2.js	1231-01-01	Balke Vistula'yı Thorn'da geçti; Kulm, Marienwerder, Rheden ve Elbing kaleleri kuruldu	Torun (Toruń)	ic	True
+kronoloji_cok_once1281_avrupa2.js	1237-01-01	Kılıç Kardeşleri Töton Tarikatı'na katıldı; Livonya ve Kurland tarikat topraklarına eklendi	Maribor (Marburg)	ic	True
+kronoloji_cok_once1281_avrupa2.js	1243-01-01	Pleißen Reichsland'ı Meißen Markgrafı Heinrich'e rehin verildi		ic	True
+kronoloji_cok_once1281_avrupa2.js	1247-02-16	Landgraf Heinrich Raspe çocuksuz öldü: Ludowinger hanedanı Thüringen'de sona erdi		ic	True
+kronoloji_cok_once1281_avrupa2.js	1249-01-01	Thüringen ileri gelenleri Heinrich der Erlauchte'yi Landgraf olarak onayladı (Weißenfels Antlaşması dönemi)		ic	True
+kronoloji_cok_once1281_avrupa2.js	1264-01-01	Heinrich-Sophie von Brabant antlaşması: Thüringen Wettin'de, Hessen Brabant'a kaldı		ic	True
+kronoloji_cok_once1281_avrupa2.js	1278-05-02	Alessandria komünü VII. Guglielmo'ya şehrin kaptanlığını önermek üzere müzakereye girdi		ic	False
+kronoloji_cok_once1281_dogu_asya.js	1122-01-01	Jin, Liao'nun orta ve güney başkentlerini aldı	Pekin (Hanbalık)	ic	False
+kronoloji_cok_once1281_dogu_asya.js	1141-01-01	Shaoxing Antlaşması — Song, Huai nehri sınırını ve Jin'e haraç ödemeyi kabul etti	Lin'an (Jianshui)	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1214-01-01	Jin sarayı Zhongdu'yu bırakıp Kaifeng'e çekildi	Kaifeng	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1215-01-01	Zhongdu (Pekin) Moğollara düştü	Pekin (Hanbalık)	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1233-01-01	Kaifeng Moğollara düştü — Jin imparatoru Caizhou'ya kaçtı	Kaifeng	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1253-01-01	Kubilay'ın Yunnan seferi — Dali Krallığı Moğollara teslim oldu	Dali	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1273-01-01	Xiangyang beş yıllık kuşatmadan sonra Moğollara teslim oldu	Xiangyang	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1276-01-01	Güney Song başkenti Lin'an Yuan'a teslim oldu	Hangzhou	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1069-01-01	Champa kralı III. Rudravarman esir düştü — üç kuzey vilayet Đại Việt'e bırakıldı		ic	False
+kronoloji_cok_once1281_dogu_asya.js	1190-01-01	VII. Jayavarman Vijaya'yı aldı — Champa ikiye bölündü	Vijaya (Quy Nhơn)	ic	True
+kronoloji_cok_once1281_dogu_asya.js	1037-01-01	Airlangga Doğu Cava'yı yeniden birleştirdi		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1010-01-01	Gazneli Mahmud Mültan'ı yeniden aldı ve Sind'i tamamen ele geçirdi	Multan	ic	True
+kronoloji_cok_once1281_hint_amerika.js	1017-01-01	Çolalar Seylan'ın güney eyaletini de alarak adanın fethini tamamladı		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1017-01-01	Vidyadhara Çandela tahtına çıktı; krallık Çambal ve Narmada nehirlerine kadar genişledi		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1018-01-01	Gazneli Mahmud son önemli Pratihara kralı Racyapala'yı Kannauj'dan çıkardı		dis	True
+kronoloji_cok_once1281_hint_amerika.js	1023-01-01	Çandelalar Kâlincar kalesini kaybetti		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1028-01-01	Doğu Ganga kralı III. Vajrahasta 'üç Kalinga'nın hükümdarı' unvanını aldı		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1070-01-01	I. Vijayabahu Seylan'ı Çola işgalinden kurtardı, başkenti Polonnaruva'ya taşıdı		dis	True
+kronoloji_cok_once1281_hint_amerika.js	1077-01-01	Ramapala Pâla tahtına çıktı; hanedanı Bengal'de güçlendirip Assam ve Orissa'ya yaydı		ic	True
+kronoloji_cok_once1281_hint_amerika.js	1182-01-01	III. Pritvirac Çandela ülkesini istilâ edip Mahoba'yı yağmaladı		dis	True
+kronoloji_cok_once1281_hint_amerika.js	1189-01-01	Batı Çalukya imparatorluğu Yâdava, Hoysala ve Kâkatiyalar arasında paylaşıldı	Haydarâbâd (Dekken)	dis	True
+kronoloji_cok_once1281_hint_amerika.js	1194-01-01	Çandavar Savaşı: Gurlu Muizzüddin Muhammed Gâhadavâla kralı Cayçandra'yı yendi ve öldürdü	Etâve (Etawah)	dis	True
+kronoloji_cok_once1281_hint_amerika.js	1210-01-01	Simhana Yâdava tahtına çıktı; Hoysala, Kâkatiya, Paramâra ve Çaulukyalara seferler düzenledi	Devagiri (Devletâbâd)	ic	True
+kronoloji_cok_once1281_hint_amerika.js	1216-01-01	Hoysala kralları Çola ülkesinde toprak edinmeye başladı; Çola tâbileri bağlılıktan çıktı		dis	True
+kronoloji_cok_once1281_hint_amerika.js	1257-01-01	Pandyalar Çola ülkesini fethetti		dis	True
+kronoloji_cok_once1281_hint_amerika.js	1250-01-01	Chaco Kanyonu'nun Ata Pueblo idarî ve tören merkezi olarak dönemi sona erdi		ic	True
+kronoloji_cok_once1281_iran.js	1018-12-20	Kannevc'in fethi			True
+kronoloji_cok_once1281_iran.js	1023-01-01	Kâkûyî Alâüddevle Hemedan'ı Büveyhîlerden aldı	Hemedan		True
+kronoloji_cok_once1281_iran.js	1029-01-01	Gazneli Mahmud Rey'i aldı, Büveyhî Cibâl koluna son verdi			True
+kronoloji_cok_once1281_iran.js	1029-01-01	Gazneli Mesud Târum Sellârı İbrâhim'i ele geçirip vergiye bağladı	Kazvin		True
+kronoloji_cok_once1281_iran.js	1030-01-01	Kâkûyî Alâüddevle Yezd'i ele geçirip adına para bastırdı	Yezd		True
+kronoloji_cok_once1281_iran.js	1035-01-01	Hisâr-ı Tâk'ta Gazneli ordusu Selçuklular'a yenildi			True
+kronoloji_cok_once1281_iran.js	1036-01-01	Alâüddevle Gazneli Mesud'la barıştı, İsfahan'a döndü	Isfahan		True
+kronoloji_cok_once1281_iran.js	1038-01-01	Alâüddevle Rey'i geçici olarak ele geçirdi			True
+kronoloji_cok_once1281_iran.js	1038-01-01	Ebü'ş-Şevk Karmîsîn, Hulencân ve Erenbe'yi işgal etti	Kirmanşah		True
+kronoloji_cok_once1281_iran.js	1041-01-01	Alâüddevle Muhammed öldü; Ferâmurz İsfahan tahtına geçti	Isfahan		True
+kronoloji_cok_once1281_iran.js	1046-01-01	Ebü'ş-Şevk Sîrvân Kalesi'nde öldü; Selçuklu baskısı arttı			True
+kronoloji_cok_once1281_iran.js	1047-01-01	Kinkever Kalesi Selçuklulara teslim oldu; Gerşâsb bütün topraklarını kaybetti			False
+kronoloji_cok_once1281_iran.js	1047-01-01	İbrâhim Yinal Sürhâb'ın Annâzî topraklarını ele geçirdi			False
+kronoloji_cok_once1281_iran.js	1056-01-01	Şebânkâre emîri Fazlûye Fars'taki Büveyhî hâkimiyetine son verdi	Şiraz		True
+kronoloji_cok_once1281_iran.js	1059-01-01	Çağrı Bey ile Gazneli İbrâhim arasında barış			True
+kronoloji_cok_once1281_iran.js	1059-01-01	İbrâhim b. Muhammed öldürüldü, Tuğrul Karahan Mahmud büyük kağan oldu			True
+kronoloji_cok_once1281_iran.js	1062-01-01	Şîraz Kavurd Bey'e teslim edildi	Şiraz		True
+kronoloji_cok_once1281_iran.js	1071-08-26	Malazgirt Savaşı			True
+kronoloji_cok_once1281_iran.js	1072-01-01	II. Nasr Alparslan'ın ölümü üzerine Tirmiz ve Belh'i aldı	Termez		True
+kronoloji_cok_once1281_iran.js	1095-02-26	Tutuş Berkyaruk'a yenilip öldü; Suriye Selçukluları ikiye bölündü			False
+kronoloji_cok_once1281_iran.js	1101-01-01	Salgurlu Türkmenleri Annâzî ülkesini Dakūkā ve Şehrizor dışında ele geçirdi			True
+kronoloji_cok_once1281_iran.js	1119-09-10	Sâve Savaşı: Sencer yeğeni Mahmud'u yendi	Sâve		False
+kronoloji_cok_once1281_iran.js	1121-01-01	Gürcüler Selçuklu ordusunu yenip Tiflis'i aldı	Tiflis		False
+kronoloji_cok_once1281_iran.js	1132-01-01	Aksungur Hemedan önünde yenildi; Tuğrul Merâga ve Tebriz'i aldı	Hemedan		True
+kronoloji_cok_once1281_iran.js	1141-09-09	Katvân Savaşı			True
+kronoloji_cok_once1281_iran.js	1157-01-01	Şah Gazi Rüstem Alamut'u tahrip etti, Cürcân ve Kūmis'i aldı			True
+kronoloji_cok_once1281_iran.js	1169-01-01	Zengî Fars'ı Afşar Şümle'den geri aldı			True
+kronoloji_cok_once1281_iran.js	1179-01-01	Oğuzlar Kirman-Fars kuvvetlerini yendi	Kirman		False
+kronoloji_cok_once1281_iran.js	1192-01-01	İkinci Tarain Savaşı: Prithivi Raj yenilip öldürüldü			True
+kronoloji_cok_once1281_iran.js	1204-01-01	Salgurlu Sa'd Kirman'da hâkimiyet kurdu ve İsfahan'ı aldı			True
+kronoloji_cok_once1281_iran.js	1205-01-01	Gurlu-Hârizmşah antlaşması: Herat dışında Horasan Hârizmşahlar'a geçti			True
+kronoloji_cok_once1281_iran.js	1217-01-01	Sa'd b. Zengî Rey yakınında Harizmşah'a esir düştü; ağır şartlı antlaşma			False
+kronoloji_cok_once1281_iran.js	1219-01-01	Cengiz Han Otrar'ı aldı; Moğol istilâsı başladı			True
+kronoloji_cok_once1281_iran.js	1221-01-01	Moğollar Merâga'yı zaptetti	Merâga		True
+kronoloji_cok_once1281_iran.js	1221-01-01	Kıpçak-Rus kuvvetleri Selçuklu Suğdak'ını geri alamadı	Sudak (Suğdak)		True
+kronoloji_cok_once1281_iran.js	1221-11-26	Sind (İndus) Savaşı: Celâleddin Hindistan'a geçti			True
+kronoloji_cok_once1281_iran.js	1225-01-01	Celâleddin Tebriz'i alıp Azerbaycan'ı ilhak etti	Tebriz		True
+kronoloji_cok_once1281_iran.js	1230-01-01	Yassıçimen Savaşı			True
+kronoloji_cok_once1281_iran.js	1240-01-01	Kiev Moğollarca zaptedilip tahrip edildi	Kiev		True
+kronoloji_cok_once1281_iran.js	1241-01-01	Tâir Bahadır Herat, Sîstan ve Lahor'u ele geçirdi	Herat		True
+kronoloji_cok_once1281_iran.js	1259-09-12	Hülâgû Suriye seferine çıktı — Halep ve Dımaşk düştü	Tebriz		False
+kronoloji_cok_once1281_iran.js	1260-01-01	Yeşmut Meyyâfârikîn'i alıp Eyyûbîlerin bu koluna son verdi			True
+kronoloji_cok_once1281_ortadogu.js	1029-01-01	Gazneli Mahmud Rey'i aldı; Büveyhîler'in Cibâl kolu sona erdi		dis	True
+kronoloji_cok_once1281_ortadogu.js	1030-01-09	Büveyhî Celâlüddevle Mezyedî topraklarına saldırdı; Dübeys ülkesini terketti		dis	True
+kronoloji_cok_once1281_ortadogu.js	1038-05-09	Nasr b. Sâlih öldürüldü; Fâtımî ordusu Halep'e girdi	Halep	dis	True
+kronoloji_cok_once1281_ortadogu.js	1042-01-01	Anuş Tegin'in ölümüyle Halep halkı kapıları Simâl'e açtı	Halep	dis	True
+kronoloji_cok_once1281_ortadogu.js	1044-04-21	Karvâş ve müttefikleri Musul'u yağmalayan Oğuzlar'ı yendi	Musul	dis	False
+kronoloji_cok_once1281_ortadogu.js	1048-01-01	Suleyhîler San‘a'yı ele geçirip başkent yaptı	Sana	ic	True
+kronoloji_cok_once1281_ortadogu.js	1057-01-01	Simâl Halep'i Fâtımîlere teslim edip Akkâ'ya çekildi	Halep	dis	True
+kronoloji_cok_once1281_ortadogu.js	1060-01-08	Tuğrul Bey Besâsîrî işgalini sona erdirdi; Halife Kāim-Biemrillâh makamına döndü		dis	True
+kronoloji_cok_once1281_ortadogu.js	1060-01-01	Mirdâsîler Funeydik'te Fâtımîleri yendi; Mahmûd Halep'i aldı	Halep	dis	True
+kronoloji_cok_once1281_ortadogu.js	1060-01-01	Suleyhî, Necâh'ı zehirletip Zebîd'i ele geçirdi	Zebîd	dis	True
+kronoloji_cok_once1281_ortadogu.js	1063-11-30	Suleyhî Ali b. Muhammed Mekke'ye girdi; emirlik Hevâşim'e geçti	Mekke	dis	False
+kronoloji_cok_once1281_ortadogu.js	1067-01-01	Karmatîler yerel isyanlarla Bahreyn adasını, ardından Katîf'i kaybetti	Katîf	ic	True
+kronoloji_cok_once1281_ortadogu.js	1068-01-01	Mükerrem Ahmed Zebîd yakınında Necâhîler'i yenip şehri geri aldı	Zebîd	dis	True
+kronoloji_cok_once1281_ortadogu.js	1075-08-16	Fâtımîler Suriye'deki yerlerini Selçuklulara kaptırdı; Bedr el-Cemâlî Mısır'da düzeni kurdu		dis	False
+kronoloji_cok_once1281_ortadogu.js	1075-09-24	Celâlüddevle Menbic'i Bizans'tan geri aldı		dis	False
+kronoloji_cok_once1281_ortadogu.js	1084-05-10	Melikşah Musul'a sefer düzenleyip Ukaylî topraklarını başkasına iktâ etti	Musul	dis	False
+kronoloji_cok_once1281_ortadogu.js	1086-06-16	I. Sadaka Mezyedî emîri oldu; Dicle'nin batısına kadar merkezî Irak Mezyedîler'e geçti		dis	True
+kronoloji_cok_once1281_ortadogu.js	1086-07-11	Tutuş Halep şehrini ele geçirdi	Halep	dis	True
+kronoloji_cok_once1281_ortadogu.js	1089-01-01	Ceyyâş b. Necâh Zebîd'i son kez alıp Necâhî hâkimiyetini yeniden kurdu	Zebîd	dis	False
+kronoloji_cok_once1281_ortadogu.js	1094-05-27	Tutuş Nehriseb'în'de Aksungur'u yendi, Halep ve Urfa'yı aldı		dis	True
+kronoloji_cok_once1281_ortadogu.js	1098-07-04	Fâtımî veziri Efdal Kudüs'ü Artuklu Sökmen ve İlgazi'den aldı	Kudüs	dis	False
+kronoloji_cok_once1281_ortadogu.js	1101-07-30	Tuğtegin Ammâroğulları'nın Cebele'sini teslim aldı		dis	False
+kronoloji_cok_once1281_ortadogu.js	1104-07-01	Mezyedîler Vâsıt ve Hît'i, ardından Basra (1106) ve Tikrît'i (1106) aldı	Vâsıt	dis	True
+kronoloji_cok_once1281_ortadogu.js	1124-07-07	Kudüs Krallığı Venedik donanmasıyla Sûr'u aldı	Sûr (Tyre) — Lübnan	dis	False
+kronoloji_cok_once1281_ortadogu.js	1130-09-07	Zengî, Böri'nin oğlu Sevinç'i tutuklayıp Hama'yı aldı	Hama	dis	False
+kronoloji_cok_once1281_ortadogu.js	1133-08-05	Şemsülmülûk İsmâil Banyas ve Hama'yı geri aldı	Hama	dis	False
+kronoloji_cok_once1281_ortadogu.js	1138-05-13	Humus, Zümrüd Hatun'un çeyizi olarak Zengî'ye bırakıldı	Humus	dis	False
+kronoloji_cok_once1281_ortadogu.js	1138-01-01	Mütevekkil-Alellah Ahmed b. Süleyman imâmetini ilân etti; Zeydî devleti yeniden canlandı	Sa'de	ic	True
+kronoloji_cok_once1281_ortadogu.js	1146-10-01	II. Josselin'in Urfa'yı geri alma girişimini Nûreddin Mahmud bastırdı	Urfa	dis	False
+kronoloji_cok_once1281_ortadogu.js	1150-01-01	Hemdânî Hâtim b. Ahmed Sa‘de dışındaki kuzey Yemen'e hâkim oldu		dis	True
+kronoloji_cok_once1281_ortadogu.js	1153-08-19	III. Baudouin Askalân'ı aldı; Fâtımîlerin Suriye'deki son kalesi düştü	Askalân	dis	False
+kronoloji_cok_once1281_ortadogu.js	1164-01-01	Abdünnebî b. Ali Mehdî yönetimini ele aldı	Zebîd	ic	True
+kronoloji_cok_once1281_ortadogu.js	1164-08-10	Nûreddin Mahmud, Musul ve Artuklu kuvvetleriyle Hârim'i Haçlılar'dan geri aldı		dis	False
+kronoloji_cok_once1281_ortadogu.js	1166-01-01	Abdünnebî Taiz ve İb'i alıp Zürey‘î Aden'ini kuşattı	Taiz	dis	False
+kronoloji_cok_once1281_ortadogu.js	1171-01-22	Nûreddin Mahmud Musul'a girdi; Musul Atabegliği ona tâbi oldu	Musul	dis	True
+kronoloji_cok_once1281_ortadogu.js	1174-01-01	II. Seyfeddin Gazi el-Cezîre'deki eski Musul topraklarını geri aldı; Halep'e tâbiliği kopardı		dis	True
+kronoloji_cok_once1281_ortadogu.js	1174-10-12	Selâhaddin Suriye'ye yürüdü; Dımaşk, Humus ve Hama'yı aldı	Şam	dis	False
+kronoloji_cok_once1281_ortadogu.js	1186-03-03	Musul Atabegliği Selâhaddin'e tâbi oldu; el-Cezîre'de Selçuklu egemenliği hukuken bitti	Musul	dis	False
+kronoloji_cok_once1281_ortadogu.js	1187-10-02	Selâhaddin Kudüs'e girdi	Kudüs	dis	False
+kronoloji_cok_once1281_ortadogu.js	1195-01-01	Irak Selçukluları'nın çöküşünden sonra halife Hûzistan'ı ve bazı İran eyaletlerini aldı		dis	True
+kronoloji_cok_once1281_ortadogu.js	1220-01-01	el-Melikü'l-Eşref Sincar'ı aldı; Zengîler'in Sincar kolu sona erdi	Sincar	dis	True
+kronoloji_cok_once1281_ortadogu.js	1229-01-01	Lahsâ Uyûnîler'den Usfûr b. Râşid'in Ukaylî bedevîlerine geçti (yaklaşık)	Lahsa	dis	True
+kronoloji_cok_once1281_ortadogu.js	1229-02-24	Kâmil-II. Friedrich antlaşması: Kudüs Haçlılara bırakıldı	Yafa	dis	True
+kronoloji_cok_once1281_ortadogu.js	1233-01-01	Uyûnîler Katîf'i Ukaylîler'e kaybetti (yaklaşık)	Katîf	dis	True
+kronoloji_cok_once1281_ortadogu.js	1236-01-01	Fars Atabegi Ebû Bekir Uvâl'i (Bahreyn) aldı; Uyûnî emirliği sona erdi		dis	True
+kronoloji_cok_once1281_ortadogu.js	1244-01-01	Salgurlu Atabegi Ebû Bekir Katîf'i alıp Ukaylî emîrini öldürdü	Katîf	dis	False
+kronoloji_cok_once1281_ortadogu.js	1244-07-11	Hârizmliler Kudüs'e girdi; şehir Haçlıların elinden kesin olarak çıktı	Kudüs	dis	False
+kronoloji_cok_once1281_ortadogu.js	1256-01-01	Salgurlu atabegi Katîf'in yönetimini Usfûr b. Râşid'e bıraktı	Katîf	dis	True
+kronoloji_cok_once1281_ortadogu.js	1260-01-01	Hülâgû Meyyâfârikîn'i aldı; el-Cezîre Eyyûbî kolu sona erdi		dis	True
+kronoloji_cok_once1281_ortadogu.js	1263-01-01	Baybars Kerek ve Humus'taki Eyyûbî hâkimiyetine son verdi	Humus	dis	False
+kronoloji_cok_once1281_ortadogu.js	1279-01-01	Resûlîler Zafâr'ı aldı (ertesi yıl Şibâm ve Hadramut)		dis	True
+kronoloji_cok_orta_amerika.js	1655-01-01	İngiliz seferi Jamaika'yı İspanya'dan aldı		dis	True
+kronoloji_cok_orta_asya2.js	1503-06-01	Şeybânî Muhammed Han Aksı'da Moğul Mahmud Han'ı yendi — Fergana ve Taşkent Özbek eline geçti	Taşkent	dis	False
+kronoloji_cok_orta_asya2.js	1584-01-01	II. Abdullah Han Bedahşan'ı Buhara Hanlığı'na kattı	Feyzâbâd (Bedahşan)	dis	True
+kronoloji_cok_orta_asya2.js	1816-01-01	Hokand Hanı Ömer Türkistan şehrini Buhara'dan aldı — Hokand Sirderya boyuna yerleşti	Türkistan (Yesi)	dis	True
+kronoloji_cok_orta_asya2.js	1859-05-01	Dost Muhammed Han Kunduz ve Bedahşan'ı Afgan idaresine kattı	Feyzâbâd (Bedahşan)	dis	True
+kronoloji_cok_sirbistan.js	1458-01-01	Resava, Bela Stena ve Avala kaleleri Osmanlılara geçti — despotluk ikiye bölündü	Semendire	dis	True
+kronoloji_cok_sirbistan.js	1718-07-21	Pasarofça Antlaşması — Belgrad ve Kuzey Sırbistan Avusturya'ya bırakıldı	Belgrad	dis	True
+kronoloji_cok_sirbistan.js	1833-01-01	Altı nahiye özerk Sırbistan'a katıldı		dis	True
+kronoloji_cok_sirbistan.js	1876-10-29	Cuniş (Đunis) bozgunu — Rus ültimatomuyla ateşkes		dis	False
+kronoloji_cok_venedik.js	1684-01-01	Venedikliler Dalmaçya cephesinde pek çok kaleyi zaptetti	Zadar (Zara)	dis	True
+kronoloji_dogu_afrika.js	1328-01-01	Evfât sultanı Habeş kralına yenildi ve esir düştü		dis	True
+kronoloji_dogu_afrika.js	1332-01-01	Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı	Zeyla	dis	False
+kronoloji_dogu_afrika.js	1397-01-01	Dehlek adasının Habeşistan'a bağlanması	Dahlak	dis	True
+kronoloji_dogu_afrika.js	1543-02-21	Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü		dis	True
+kronoloji_dogu_afrika.js	1543-02-22	Adal Sultanlığı'nın dağılması, müslüman varlığının sahile çekilmesi	Harar	ic	True
+kronoloji_dogu_afrika.js	1579-01-01	Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı		dis	False
+kronoloji_dogu_afrika.js	1886-01-01	Dehlek adalarının İtalya tarafından işgali	Dahlak	dis	True
+kronoloji_dogu_afrika.js	1889-05-02	Wichale (Uccialli) Antlaşması — Menelik'in İtalya ile anlaşması		dis	False
+kronoloji_dogu_afrika.js	1505-07-24	Francisco d'Almeida'nın Kilve'yi işgali ve yağmalaması	Kilwa Kisiwani (Kilve)	dis	False
+kronoloji_dogu_afrika.js	1505-08-14	Mombasa'nın top ateşiyle yağmalanması	Mombasa	dis	False
+kronoloji_dogu_afrika.js	1589-03-05	Portekiz donanmasının Mombasa'da Osmanlı filosunu yakması	Mombasa	dis	False
+kronoloji_dogu_afrika.js	1859-01-01	Fransa'nın Ubûk'u (Obock) sömürge ilân etmesi	Tacûra	dis	True
+kronoloji_dogu_afrika.js	1887-01-02	Berberâ merkezli İngiliz Somalisi himaye idaresinin kurulması	Berbera	dis	True
+kronoloji_dogu_afrika.js	1888-01-01	Fransa'nın Zeyla' yöresini işgali ve Osmanlı idaresinin sona ermesi	Zeyla	dis	True
+kronoloji_dogu_afrika.js	1891-03-02	İngiliz-İtalyan antlaşması — Berâve ve Merkâ'nın İtalya'da kalması	Berâve	dis	True
+kronoloji_dogu_afrika.js	1892-01-01	Makdişu'nun 160.000 rupi karşılığında İtalya'ya kiralanması	Mogadişu	dis	True
+kronoloji_dogu_afrika.js	1902-01-02	Zengibar Sultanlığı'nın İtalya'nın Benâdir hâkimiyetini kabulü	Mogadişu	dis	True
+kronoloji_dogu_afrika.js	1911-01-02	İtalya'nın Somali'yi sömürge ilân etmesi ve Makdişu'yu başşehir yapması	Mogadişu	dis	True
+kronoloji_dogu_afrika.js	1916-01-01	Osmanlı'nın Zeyla'daki hâkimiyetinin fiilen sona ermesi	Zeyla	dis	True
+kronoloji_dogu_afrika.js	1894-06-18	İngiltere ile himaye antlaşmasının imzalanması	Mengo (Buganda)	dis	True
+kronoloji_fransa.js	1360-05-08	Brétigny Antlaşması		dis	False
+kronoloji_fransa.js	1453-07-17	Castillon Savaşı — Yüzyıl Savaşları'nın fiilen sona ermesi		dis	False
+kronoloji_fransa.js	1477-01-05	Nancy Savaşı — Cesur Charles'ın ölümü ve Burgonya'nın parçalanması	Nancy	dis	True
+kronoloji_fransa.js	1491-12-06	VIII. Charles - Anne de Bretagne evliliği — Bretanya'nın birleşmesi	Nantes	ic	True
+kronoloji_fransa.js	1526-01-14	Madrid Antlaşması — I. François'nın serbest bırakılması	Madrid	dis	True
+kronoloji_fransa.js	1559-04-03	Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi		dis	False
+kronoloji_fransa.js	1648-10-24	Vestfalya Barışı'nın imzalanması	Münster	dis	True
+kronoloji_fransa.js	1659-11-07	Pireneler Antlaşması		dis	True
+kronoloji_fransa.js	1667-01-01	Devrolma Savaşı'nın başlaması		dis	True
+kronoloji_fransa.js	1756-01-01	Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş		dis	True
+kronoloji_fransa.js	1763-02-10	Paris Antlaşması — Yeni Fransa'nın kaybı	Paris	dis	True
+kronoloji_fransa.js	1815-06-09	Viyana Kongresi Nihaî Senedi'nin imzalanması	Viyana	dis	True
+kronoloji_fransa.js	1869-11-17	Süveyş Kanalı'nın açılışı		dis	True
+kronoloji_fransa.js	1871-05-10	Frankfurt Antlaşması — Alsace-Lorraine'in kaybı	Frankfurt	dis	True
+kronoloji_fransa.js	1911-11-04	İkinci Fas Krizi — Agadir Krizi'nin çözümü	Berlin	dis	True
+kronoloji_fransa.js	1916-05-16	Sykes-Picot Antlaşması'nın imzalanması	Londra	dis	True
+kronoloji_fransa.js	1919-06-28	Versay Antlaşması'nın imzalanması		dis	True
+kronoloji_fransa.js	1920-08-10	Sevr Antlaşması'nın imzalanması		dis	True
+kronoloji_fransa.js	1921-10-20	Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona erdirmesi	Ankara	dis	True
+kronoloji_guney_asya.js	1816-03-04	Sugauli Antlaşması onaylandı; Terai'nin büyük kısmı İngilizler'e geçti	Katmandu	dis	False
+kronoloji_guney_asya.js	1301-01-01	Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü		dis	True
+kronoloji_guney_asya.js	1311-01-01	Calor'un düşmesiyle Racputana'nın batı direnişi kırıldı		dis	True
+kronoloji_guney_asya.js	1326-01-01	Hammîr Singh Çitor'u geri alarak Sisodiya hânedanını kurdu	Çitor (Chittorgarh)	ic	True
+kronoloji_guney_asya.js	1707-01-01	Acît Singh Codhpûr'u geri aldı	Codhpûr (Jodhpur)	ic	True
+kronoloji_guney_asya.js	1299-01-01	Ravi Varma Kulaşekhara Venâd tahtına çıktı	Kolam (Quilon)	ic	True
+kronoloji_guney_asya.js	1467-01-01	Kyamba tahta çıktı	İmphâl (Manipûr)	ic	True
+kronoloji_guney_asya.js	1834-01-01	Kabav vadisi İngiliz hakemliğiyle Burma'ya bırakıldı		dis	True
+kronoloji_gurcistan.js	1122-01-01	Tiflis'in alınıp başkent yapılması	Tiflis	dis	False
+kronoloji_gurcistan.js	1479-01-01	Acaristan (Batum ve çevresi) Osmanlı tarafından fethedildi	Batum	dis	True
+kronoloji_gurcistan.js	1590-03-21	Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı		dis	True
+kronoloji_gurcistan.js	1635-01-01	Ahıska'nın Osmanlı tarafından Safevîlerden geri alınması	Ahıska	dis	True
+kronoloji_gurcistan.js	1724-06-24	İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması		dis	True
+kronoloji_habsburg.js	1538-02-24	Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı	Varad (Oradea)	dis	False
+kronoloji_habsburg.js	1699-01-26	Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi	Varadin (Petrovaradin)	dis	True
+kronoloji_habsburg.js	1718-07-21	Pasarofça Antlaşması — imparatorluğun en geniş sınırı		dis	True
+kronoloji_habsburg.js	1740-12-16	Prusya'nın Silezya'yı işgali		dis	True
+kronoloji_habsburg.js	1748-10-01	Aachen Barışı — Maria Theresia'nın tanınması, Silezya'nın kaybı	Aachen	dis	False
+kronoloji_habsburg.js	1763-02-15	Hubertusburg Barışı — Silezya'dan kesin vazgeçiş		dis	True
+kronoloji_habsburg.js	1772-01-01	Lehistan'ın birinci paylaşımı — Galiçya'nın ilhakı	Lvov	dis	True
+kronoloji_habsburg.js	1809-07-06	Wagram bozgunu		dis	True
+kronoloji_habsburg.js	1815-06-09	Viyana Kongresi Nihaî Senedi	Viyana	dis	True
+kronoloji_habsburg.js	1859-06-24	Solferino bozgunu ve Lombardiya'nın kaybı		dis	True
+kronoloji_habsburg.js	1866-07-03	Königgrätz — Almanya'daki üstünlüğün kaybı		dis	False
+kronoloji_hindistan.js	1298-01-01	Alâeddin Halacî Gucerât'ı fethetti	Patan (Anhilvâda)	dis	True
+kronoloji_hindistan.js	1310-02-26	Malik Kâfûr Dekken'de Varangal'ı (Kakatiya) kuşatıp haraca bağladı	Varangal (Warangal)	dis	False
+kronoloji_hindistan.js	1527-03-16	Bâbür, Khanwa'da Racput ittifakını yendi	Ecmîr (Ajmer)	dis	False
+kronoloji_hindistan.js	1573-08-20	Ekber Şah Gucerât'ı fethetti	Ahmedâbâd	dis	True
+kronoloji_hindistan.js	1576-04-03	Ekber Şah Bengal Sultanlığı'na son verdi	Gaur (Lakhnautî)	dis	False
+kronoloji_hindistan.js	1586-01-01	Ekber Şah Keşmir'i ilhak etti	Srinagar (Keşmir)	dis	True
+kronoloji_hindistan.js	1622-06-01	Safevîler Kandehar'ı Bâbürlülerden geri aldı	Kandehar	dis	True
+kronoloji_hindistan.js	1764-10-23	Buksar Savaşı: İngilizler, Bâbürlü-Avad-Bengal ittifakını yendi		dis	True
+kronoloji_hindistan.js	1792-03-18	Üçüncü Anglo-Mysore Savaşı, Seringapatam Antlaşması'yla sona erdi	Seringapatam (Şrirangapatnam)	dis	True
+kronoloji_hindistan.js	1761-01-14	Marathalar Üçüncü Pânipat'ta ağır yenilgi aldı	Pânipat	dis	True
+kronoloji_hindistan.js	1846-03-09	Birinci Anglo-Sih Savaşı, Lahor Antlaşması'yla sona erdi	Lahor	dis	True
+kronoloji_hollanda.js	1652-04-06	Kap kolonisinin kurulması	Kap (Cape Town)	dis	False
+kronoloji_hollanda.js	1830-08-25	Brüksel ayaklanması — Belçika Devrimi'nin başlaması	Brüksel	dis	False
+kronoloji_hollanda.js	1839-04-19	Belçika bağımsızlığının tanınması	Londra	dis	True
+kronoloji_ingiltere.js	1284-01-01	Rhuddlan Statüsü — Galler İngiliz hukuk sistemine bağlandı		dis	True
+kronoloji_ingiltere.js	1314-06-24	Bannockburn Savaşı — İskoç zaferi		dis	False
+kronoloji_ingiltere.js	1328-05-04	Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı	Edinburg	dis	False
+kronoloji_ingiltere.js	1337-01-01	III. Edward Fransız tahtı üzerinde hak iddia etti — Yüzyıl Savaşları başladı		dis	True
+kronoloji_ingiltere.js	1360-01-01	Brétigny Antlaşması		dis	True
+kronoloji_ingiltere.js	1453-07-17	Castillon Savaşı — Yüzyıl Savaşları sona erdi, Gaskonya kaybedildi		dis	False
+kronoloji_ingiltere.js	1757-06-23	Plassey Savaşı — Doğu Hindistan Şirketi Bengal'i ele geçirdi		dis	True
+kronoloji_ingiltere.js	1759-09-13	Québec Savaşı — Fransız Kanadası düştü	Quebec	dis	True
+kronoloji_ingiltere.js	1763-02-10	Paris Antlaşması — Britanya Kanada ve Hindistan'da üstünlüğü aldı	Paris	dis	True
+kronoloji_ingiltere.js	1783-09-03	Paris Antlaşması — Amerikan bağımsızlığı tanındı	Paris	dis	True
+kronoloji_ingiltere.js	1884-01-01	Berlin Konferansı başladı — Afrika'nın paylaşılması	Berlin	dis	True
+kronoloji_ingiltere.js	1914-11-05	Britanya Kıbrıs'ı ilhak etti, Osmanlı'ya savaş ilan etti	Lefkoşa	dis	True
+kronoloji_ingiltere.js	1920-08-10	Sevr Antlaşması Osmanlı Devleti ile imzalandı		dis	True
+kronoloji_ingiltere.js	1609-01-01	Ulster Plantasyonu başladı		dis	True
+kronoloji_ingiltere.js	1652-08-22	İrlanda İçin Yerleşim Yasası — toprak müsaderesi	Londra	ic	True
+kronoloji_ingiltere.js	1318-01-01	Berwick İskoçlarca geri alındı		dis	True
+kronoloji_ingiltere.js	1461-01-01	Berwick, Anjoulu Margaret tarafından İskoçya'ya devredildi		dis	True
+kronoloji_ingiltere.js	1482-01-01	Berwick son kez İngilizlerce alındı (Gloucester Dükü Richard)		dis	True
+kronoloji_iran_ardillari.js	1303-04-20	Dımaşk yenilgisi — Suriye ümidi kesin olarak bitti		dis	False
+kronoloji_iran_ardillari.js	1338-01-01	Hasan-ı Büzürg Azerbaycan'ı terk etti — Bağdat'a çekiliş	Bağdat	ic	True
+kronoloji_iran_ardillari.js	1355-01-01	Melik Eşref dönemi kapandı — Çobanlıların Azerbaycan hâkimiyeti sona erdi	Tebriz	dis	True
+kronoloji_iran_ardillari.js	1400-01-01	Ahmed ve Kara Yûsuf Timur'a yenilip Mısır'a kaçtı	Bağdat	dis	True
+kronoloji_iran_ardillari.js	1358-01-01	Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı	Tebriz	dis	False
+kronoloji_iran_ardillari.js	1358-01-01	Emîr Velî Esterâbâd'da kendi adına para bastırdı	Esterâbâd (Gürgân)	dis	False
+kronoloji_iran_ardillari.js	1376-01-01	Rükneddin Muzafferî desteğiyle Sebzevâr'ı ele geçirdi	Sebzevâr	dis	False
+kronoloji_iran_ardillari.js	1381-01-01	Timur Herat'ı işgal etti — Kert hânedanı vasal oldu	Herat	dis	True
+kronoloji_ispanya.js	1340-10-30	Río Salado Savaşı — Merînî-Nasrî ittifakının kesin yenilgisi		dis	False
+kronoloji_ispanya.js	1538-09-28	Preveze Deniz Savaşı — Osmanlı'nın Akdeniz'de üstünlüğü	Preveze	dis	True
+kronoloji_ispanya.js	1588-08-08	İspanyol Armadası'nın bozgunu		dis	True
+kronoloji_ispanya.js	1621-04-09	Hollanda ile On İki Yıllık Ateşkes sona erdi, savaş yeniden başladı	Amsterdam	dis	False
+kronoloji_ispanya.js	1639-10-21	Downs Deniz Savaşı — Hollanda İspanyol donanmasını imha etti		dis	False
+kronoloji_ispanya.js	1643-05-19	Rocroi Savaşı — İspanyol piyadesinin efsanesi kırıldı		dis	False
+kronoloji_ispanya.js	1648-01-30	Münster Antlaşması — Hollanda'nın bağımsızlığı tanındı	Amsterdam	dis	True
+kronoloji_ispanya.js	1668-02-13	Lizbon Antlaşması — Portekiz bağımsızlığı resmen tanındı	Lizbon	dis	False
+kronoloji_ispanya.js	1713-07-13	Utrecht Antlaşması — İspanya imparatorluğunun Avrupa'daki mirası bölündü	Utrecht	dis	True
+kronoloji_ispanya.js	1714-09-11	Barselona'nın düşüşü — Katalan direnişinin sonu	Barselona	ic	False
+kronoloji_ispanya.js	1734-05-25	Bitonto Savaşı — Napoli ve Sicilya yeniden kazanıldı		dis	False
+kronoloji_ispanya.js	1782-02-05	Menorca'nın İngilizlerden geri alınması	Menorka (Mahon)	dis	False
+kronoloji_ispanya.js	1783-09-03	Paris/Versailles Antlaşması — Amerikan Bağımsızlık Savaşı sona erdi		dis	True
+kronoloji_ispanya.js	1800-01-01	Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi		dis	True
+kronoloji_ispanya.js	1805-10-21	Trafalgar Deniz Savaşı — Fransız-İspanyol donanmasının imhası		dis	False
+kronoloji_ispanya.js	1898-04-25	İspanyol-Amerikan Savaşı'nın başlaması		dis	True
+kronoloji_ispanya.js	1898-12-10	1898 Paris Antlaşması — Küba, Porto Riko ve Filipinler kaybedildi	Manila	dis	True
+kronoloji_ispanya.js	1912-11-27	Fas Protektorası'nın kurulması	Fas (Fez)	dis	True
+kronoloji_italya.js	1302-08-31	Caltabellotta Antlaşması — bölünmenin resmileşmesi		dis	True
+kronoloji_italya.js	1442-06-02	Alfonso V'in Napoli'yi fethedip iki tacı birleştirmesi	Napoli	dis	False
+kronoloji_italya.js	1503-12-29	Garigliano Savaşı — İspanya'nın Napoli'yi kesin ele geçirmesi		dis	True
+kronoloji_italya.js	1713-04-11	Utrecht Antlaşması — Napoli'nin Avusturya'ya geçmesi	Utrecht	dis	True
+kronoloji_italya.js	1346-01-01	Kefe kolonisinin kurulması	Kefe	dis	True
+kronoloji_italya.js	1768-05-15	Korsika'nın Fransa'ya satılması		dis	True
+kronoloji_italya.js	1515-09-13	Marignano Savaşı — Fransa'nın Milano'yu geri alması		dis	True
+kronoloji_italya.js	1525-02-24	Pavia Savaşı — Fransa Kralı'nın esir düşmesi		dis	False
+kronoloji_italya.js	1714-01-01	Milano'nun resmen Avusturya Habsburglarına geçmesi	Milano	dis	True
+kronoloji_italya.js	1815-04-07	Lombardiya-Venedik Krallığı'nın Avusturya'ya bağlanması	Milano	dis	True
+kronoloji_italya.js	1860-03-24	Torino Antlaşması — Nice ve Savoy'un Fransa'ya devri	Torino	dis	True
+kronoloji_italya_sehir.js	1455-12-01	Eski ve Yeni Foça'nın kaybedilmesi — şap tekelinin sonu	Sakız	dis	False
+kronoloji_italya_sehir.js	1464-01-13	Magosa'nın Kıbrıs'a iadesi ve şehrin Milano'ya teslimi	Magosa	dis	True
+kronoloji_italya_sehir.js	1713-01-02	Finale Ligure'nin satın alınması — cumhuriyetin son toprak kazancı	Cenova	dis	True
+kronoloji_italya_sehir.js	1288-06-01	Modena'nın Este hâkimiyetine girmesi — iki başlı devletin doğuşu	Modena	dis	True
+kronoloji_italya_sehir.js	1484-08-07	Bagnolo Barışı — Polesine'nin Venedik'e bırakılması	Ferrara	dis	True
+kronoloji_japonya.js	1894-07-25	Birinci Çin-Japon Savaşı başladı		dis	True
+kronoloji_japonya.js	1895-04-17	Şimonoseki Antlaşması imzalandı — Tayvan Japonya'ya geçti		dis	True
+kronoloji_japonya.js	1905-09-05	Portsmouth Antlaşması Rus-Japon Savaşı'nı sona erdirdi		dis	True
+kronoloji_karakoyunlu.js	1366-01-01	Celâyirli Sultan Üveys Musul'u geri aldı	Musul	dis	True
+kronoloji_karakoyunlu.js	1394-07-31	Timur Avnik Kalesi'ni 43 günlük kuşatmadan sonra aldı		dis	False
+kronoloji_karakoyunlu.js	1421-07-30	Eleşkirt'te Şâhruh'a yenilgi		dis	False
+kronoloji_karakoyunlu.js	1469-12-19	Son Hille valisi idam edildi — Irak'ta Akkoyunlu düzeni kuruldu	Hille	dis	True
+kronoloji_katalan.js	1311-03-15	Katalanlar Atina Düklüğü'nü ele geçirdi	Livadya	dis	True
+kronoloji_katalan.js	1379-01-01	Navarra Kumpanyası'nın Tebai'yi alması — çöküşün başlaması	İstefe (Tebai)	dis	True
+kronoloji_katalan.js	1388-05-02	Nerio Acciaiuoli'nin Akropolis'i alması — Katalan devrinin sonu	Atina	dis	True
+kronoloji_kirim.js	1549-01-01	Sâhib Giray, Osmanlı topçularının desteğiyle Astarhan'ı zaptetti	Astrahan	dis	True
+kronoloji_kirim.js	1552-01-01	Rus Çarı IV. İvan Kazan Hanlığı'nı işgal etti	Kazan	dis	True
+kronoloji_kuzeyafrika.js	1270-01-01	Merakeş alınarak Muvahhidler Devleti sona erdirildi	Merakeş	dis	True
+kronoloji_kuzeyafrika.js	1274-01-01	Tanca ve Sebte zaptedildi	Tanca	dis	True
+kronoloji_kuzeyafrika.js	1340-10-30	Rio Salado'da (Tarîf) Kastilya-Portekiz ittifakına yenilgi		dis	False
+kronoloji_kuzeyafrika.js	1270-01-01	Abdülvâdîler (Zeyyânîler) bağımsızlaşarak Tilimsan'ı kurdu	Tilimsan	dis	True
+kronoloji_kuzeyafrika.js	1347-01-01	Tunus'a girilip Hafsî toprakları alındı	Tunus	dis	True
+kronoloji_kuzeyafrika.js	1409-01-01	Hafsî sultanının Fas'a yürüyüşü, Merînîler istiklâlini kaybetti	Fas (Fez)	dis	True
+kronoloji_kuzeyafrika.js	1458-01-01	Kasrüssagīr Portekizlilerin eline geçti		dis	True
+kronoloji_kuzeyafrika.js	1465-01-01	Tanca Portekiz'e düştü, son Merînî sultanı öldürülerek hanedan sona erdi	Fas (Fez)	dis	True
+kronoloji_kuzeyafrika.js	1524-01-01	Merakeş'e girilip başşehir yapıldı	Merakeş	dis	True
+kronoloji_kuzeyafrika.js	1554-01-01	Osmanlı ordusu Sâdîleri Fas'tan çıkardı, Ebû Hassûn'u tahta oturttu	Fas (Fez)	dis	True
+kronoloji_kuzeyafrika.js	1578-08-04	Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi		dis	True
+kronoloji_kuzeyafrika.js	1610-01-01	Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü		ic	True
+kronoloji_kuzeyafrika.js	1534-08-16	Barbaros Hayreddin Paşa Tunus'u fethetti	Tunus	dis	True
+kronoloji_kuzeyafrika.js	1360-01-01	Merînî harekâtı başarısız kaldı, Abdülvâdîler kalıcı bağımsızlığını kazandı	Tilimsan	dis	True
+kronoloji_kuzeyafrika.js	1511-01-01	Şehir İspanyollar tarafından ele geçirildi	Tilimsan	dis	True
+kronoloji_lehistan.js	1582-01-15	Jam Zapolski Mütarekesi — Livonya kazanıldı		dis	True
+kronoloji_lehistan.js	1610-07-04	Kluşino Muharebesi — Moskova yolu açıldı		dis	False
+kronoloji_lehistan.js	1654-01-18	Pereyaslav Andı — Kazaklar Moskova himayesine geçti		dis	True
+kronoloji_lehistan.js	1655-07-21	Potop — İsveç Tufanı başladı		dis	False
+kronoloji_lehistan.js	1657-09-19	Wehlau Antlaşması — Prusya Düklüğü tâbiyetten çıktı		dis	True
+kronoloji_lehistan.js	1672-10-18	Bucaş Antlaşması — haraç şartı ve Podolya'nın terki		dis	True
+kronoloji_lehistan.js	1772-08-05	Birinci taksim — Rusya, Prusya ve Avusturya toprak aldı	St. Petersburg	dis	True
+kronoloji_lehistan.js	1793-01-23	İkinci taksim — Rusya ve Prusya yeniden böldü		dis	True
+kronoloji_lehistan.js	1794-11-04	Praga katliamı — Varşova'nın düşüşü	Varşova	ic	True
+kronoloji_lehistan.js	1795-10-24	Üçüncü taksim — Polonya devleti haritadan silindi	St. Petersburg	dis	True
+kronoloji_macaristan.js	1312-06-15	Rozgony Muharebesi — Csák Máté'nin gücünün kırılması		ic	False
+kronoloji_macaristan.js	1396-09-25	Niğbolu Savaşı — Haçlı ordusunun bozgunu	Niğbolu	dis	True
+kronoloji_macaristan.js	1444-11-10	Varna Savaşı — Macar-Leh Kralı I. Ulászló'nun ölümü	Varna	dis	True
+kronoloji_macaristan.js	1448-10-17	İkinci Kosova Savaşı		dis	False
+kronoloji_macaristan.js	1485-06-01	Mátyás'ın Viyana'yı ele geçirmesi	Viyana	dis	True
+kronoloji_macaristan.js	1699-01-26	Karlofça Antlaşması — Macaristan'ın Habsburg tacında bütünleşmesi	Varadin (Petrovaradin)	dis	True
+kronoloji_memluk.js	1299-12-22	Vâdilhâzindâr yenilgisi — Moğollar Şam'ı ele geçirdi	Humus	dis	True
+kronoloji_memluk.js	1400-10-01	Timur'un Halep'i yakıp yıkması	Halep	dis	False
+kronoloji_memluk.js	1401-01-01	Timur'un Şam kuşatması ve İbn Haldun'un ordugâhta görüşmesi	Şam	dis	True
+kronoloji_memluk.js	1426-06-01	Barsbay'ın üçüncü Kıbrıs seferi — Lefkoşa'nın düşüşü, Kral Janus'un esareti	Lefkoşa	dis	False
+kronoloji_memluk.js	1485-01-01	Osmanlı-Memlük Savaşı'nın başlaması	Tarsus	dis	True
+kronoloji_memluk.js	1509-02-03	Diu Deniz Savaşı — Memlük'ün Portekiz'e yenilgisi	Diu	dis	False
+kronoloji_memluk.js	1515-06-13	Alâüddevle Bozkurt Bey'in Yavuz Selim'e yenilerek öldürülmesi		dis	True
+kronoloji_memluk.js	1517-04-13	Tomanbay'ın idamı — Memlük Sultanlığı'nın sonu	Kahire	dis	True
+kronoloji_misir.js	1827-10-20	Navarin Baskını — Mısır donanmasının yakılması		dis	True
+kronoloji_misir.js	1833-05-06	Kütahya Sözleşmesi — Suriye ve Adana Mehmed Ali'ye bırakıldı	Kütahya	dis	False
+kronoloji_misir.js	1840-11-27	İskenderiye Konvansiyonu — Mehmed Ali'nin geri adımı	İskenderiye	dis	True
+kronoloji_misir.js	1841-02-25	Mısır ordusunun Suriye ve Çukurova'yı boşaltması		dis	True
+kronoloji_misir.js	1882-07-11	İskenderiye'nin bombardımanı — İngiliz işgalinin ilk adımı	İskenderiye	dis	True
+kronoloji_misir.js	1883-11-05	Şeykan bozgunu — Sudan'daki Mısır idaresinin çöküşünün başlangıcı	Kordofan (Ubeyyid)	dis	False
+kronoloji_naksa_dukaligi.js	1205-01-01	Marco Sanudo'nun sekiz gemiyle Nakşa'yı fethi	Nakşa	dis	True
+kronoloji_naksa_dukaligi.js	1262-01-01	Bizans donanmasının Kikladlar'a saldırısı	Nakşa	dis	True
+kronoloji_orta_asya.js	1445-07-07	Suzdal Savaşı — Büyük Knez II. Vasili esir düştü	Suzdal	dis	False
+kronoloji_orta_asya.js	1487-07-09	Kazan ilk defa Rus işgaline uğradı — başşehir düştü	Kazan	dis	False
+kronoloji_orta_asya.js	1586-01-01	Moskova, Nogayları kuşatmak için Samara ve Ufa'yı kurdu	Samara	dis	True
+kronoloji_orta_asya.js	1581-10-23	Çuaş Burnu Savaşı — Küçüm'ün ordusu dağıldı	Tobolsk (İsker)	dis	False
+kronoloji_orta_asya.js	1581-12-22	Yermak Moskova'ya heyet gönderip Sibirya'yı çara sundu	Tobolsk (İsker)	dis	True
+kronoloji_orta_asya.js	1586-07-29	Ruslar Tara yakınına yerleşti; Tümen ve Tobolsk kuruldu	Tümen (Çimgi-Tura)	dis	False
+kronoloji_orta_asya.js	1595-03-17	Baraba bozkırı işgal edildi	Baraba bozkırı	dis	False
+kronoloji_orta_asya.js	1604-01-01	Sibirya'nın zaptı tamamlandı — çarın unvanına yeni bir ibare eklendi	Mangazeya	dis	True
+kronoloji_orta_asya.js	1594-01-01	Tevekkel Han Taşkent, Yesi ve Semerkant'ı ele geçirdi	Semerkant	dis	True
+kronoloji_orta_asya.js	1598-01-02	Tevekkel Han Buhara önünde II. Abdullah'a yenildi	Buhara	dis	True
+kronoloji_orta_asya.js	1710-01-02	Cungarlar Doğu Türkistan ve Taşkent'i alarak Kazakların üzerine döndü	Taşkent	dis	True
+kronoloji_orta_asya.js	1723-01-01	Büyük cüz Kalmuklara boyun eğdi — Aktaban Şubırındı yılları	Almatı (Vernıy)	dis	True
+kronoloji_orta_asya.js	1735-01-01	Orenburg Kalesi tamamlandı — ve amaç dışı kullanıldı	Orenburg	dis	True
+kronoloji_orta_asya.js	1775-01-01	Abılay Han Sayram, Çimkent ve Suzak'ı yönetimine aldı	Çimkent	dis	True
+kronoloji_orta_asya.js	1838-01-02	Kenasarı Irgız ve Turgay bölgelerini Ruslardan geri aldı	Kazak bozkırı (Turgay)	dis	True
+kronoloji_orta_asya.js	1845-09-01	Kenasarı Karatav'ı boşaltmak zorunda kaldı	Kazak bozkırı (Sarısu)	dis	False
+kronoloji_orta_asya.js	1854-06-22	I. Nikola fermanı — bütün Kazak toprakları Rusya'ya bağlandı	Orenburg	dis	True
+kronoloji_orta_asya.js	1864-01-01	Kırgızlar Rus hâkimiyetine girdi		dis	True
+kronoloji_orta_asya.js	1399-01-01	Mirza İskender Kâşgar, Yârkend ve Aksu'yu zaptetti	Kaşgar	dis	True
+kronoloji_orta_asya.js	1682-01-01	Galdan Han Kâşgar'ı ve bütün Moğolistan'ı fethetti	Kaşgar	dis	True
+kronoloji_orta_asya.js	1759-06-01	Çin Tarım havzasını işgal etti, merkezi Yârkend olan yönetim kuruldu	Yarkent (Şaçe)	dis	False
+kronoloji_orta_asya.js	1866-01-01	Yenihisar, Yârkend ve Hoten ele geçirildi	Hotan	dis	True
+kronoloji_orta_asya.js	1871-06-01	Ruslar Kulca'yı işgal etti — Yâkub Beg dışında kalan tek bölge	Gulca (Yining)	dis	True
+kronoloji_orta_asya.js	1877-05-16	Çin ordusu Turfan'ı ele geçirdi	Turfan	dis	True
+kronoloji_orta_asya.js	1418-01-01	Togan Han Çağatay Hanı Muhammed Veys'i üç defa yendi	Gulca (Yining)	dis	True
+kronoloji_orta_asya.js	1447-01-01	Esen Tayşi Özbek Hanı Ebülhayr'ı vergiye bağladı, İli Kazaklarını sürdü	Almatı (Vernıy)	dis	False
+kronoloji_orta_asya.js	1697-01-01	Sevang Rabdan tahta çıktı — Taşkent dahil bütün Orta Asya	Cungarya havzası	ic	True
+kronoloji_orta_asya.js	1724-01-01	İdil Kalmukları Rusya'ya bağlandı	Kalmuk bozkırı	dis	True
+kronoloji_orta_asya.js	1824-01-02	Teke ve Salurlar Hîve hanlarından yeni Merv'i aldı	Merv (Mari)	dis	True
+kronoloji_ozbek.js	1501-01-01	Semerkant'ın fethi — Bâbür Mirza'nın kovulması	Semerkant	dis	True
+kronoloji_ozbek.js	1525-01-01	Ubeydullah Han Merv'i fethetti	Merv (Mari)	dis	True
+kronoloji_ozbek.js	1529-01-01	Ubeydullah Han Herat'ı fethetti	Herat	dis	True
+kronoloji_ozbek.js	1538-01-01	Ubeydullah Han Harzem (Hîve) topraklarını işgal etti		dis	True
+kronoloji_ozbek.js	1574-01-01	Belh'in fethi	Belh	dis	True
+kronoloji_ozbek.js	1578-01-01	Semerkant'ın ele geçirilmesi	Semerkant	ic	True
+kronoloji_ozbek.js	1582-01-01	Taşkent ve kuzey Seyhun bölgesinin fethi	Taşkent	dis	True
+kronoloji_ozbek.js	1588-01-01	Taşkent isyanının bastırılması ve Herat'ın yeniden fethi	Herat	dis	True
+kronoloji_ozbek.js	1596-01-01	Harzem'in (Hîve) yeniden fethi		dis	True
+kronoloji_ozbek.js	1611-01-01	İmam Kulı Han döneminde hanlık zirveye ulaştı	Buhara	ic	True
+kronoloji_ozbek.js	1842-01-01	Nasrullah Han'ın Hokand'ı geçici olarak ilhakı	Hokand	dis	True
+kronoloji_ozbek.js	1855-01-01	Serahs'ta Türkmenlere yenilgi, Muhammed Emin Han'ın ölümü	Serahs	dis	True
+kronoloji_ozbek.js	1873-08-12	Hîve Hanlığı Rus himayesine girdi		dis	True
+kronoloji_ozbek.js	1758-01-01	Erdene Bey döneminde sınırların genişlemesi	Hokand	ic	True
+kronoloji_ozbek.js	1808-01-01	Âlim Han, Taşkent'i fethetti	Taşkent	dis	True
+kronoloji_ozbek.js	1864-01-01	Rus ilerleyişi — Evliyaata ve Çimkent'in kaybı	Çimkent	dis	True
+kronoloji_ozbek.js	1868-01-01	Hudayâr Han, Rusya ile antlaşma imzaladı	Hokand	dis	True
+kronoloji_portekiz.js	1385-08-14	Aljubarrota Savaşı — Aviz hanedanı ve bağımsızlık kesinleşti		dis	True
+kronoloji_portekiz.js	1415-08-21	Ceuta'nın fethi — sömürge çağının açılışı	Sebte (Ceuta)	dis	False
+kronoloji_portekiz.js	1434-01-01	Gil Eannes, Bojador Burnu'nu aştı		dis	True
+kronoloji_portekiz.js	1483-04-01	Diogo Cão, Kongo Nehri ağzına ulaştı	Mbanza-Kongo (São Salvador)	dis	False
+kronoloji_portekiz.js	1488-01-01	Bartolomeu Dias, Ümit Burnu'nu dolaştı		dis	True
+kronoloji_portekiz.js	1494-06-07	Tordesillas Antlaşması — dünya iki devlet arasında bölüşüldü		dis	False
+kronoloji_portekiz.js	1498-05-20	Vasco da Gama, Kalikut'a ulaştı — Hindistan'a deniz yolu açıldı	Kalikut (Kozhikode)	dis	False
+kronoloji_portekiz.js	1500-04-22	Cabral filosu Hindistan yolunda Brezilya kıyısına ulaştı (Monte Pascoal)		dis	True
+kronoloji_portekiz.js	1505-07-24	Kilve'nin yağmalanması — Doğu Afrika kıyısında ilk üs zinciri	Kilwa Kisiwani (Kilve)	dis	False
+kronoloji_portekiz.js	1508-03-01	Chaul Deniz Savaşı — Hint Okyanusu'nda ilk Portekiz yenilgisi	Çaul (Chaul)	dis	False
+kronoloji_portekiz.js	1509-02-03	Diu Deniz Savaşı — Hint Okyanusu'nda Portekiz üstünlüğü kesinleşti	Diu	dis	False
+kronoloji_portekiz.js	1517-01-01	Selman Reis, Portekiz filosunu Cidde önünde geri püskürttü	Cidde	dis	True
+kronoloji_portekiz.js	1517-01-01	Seylan'a ulaşıldı — tarçın adası		dis	True
+kronoloji_portekiz.js	1534-01-01	Brezilya on beş kaptanlığa bölündü		dis	True
+kronoloji_portekiz.js	1549-02-12	Aden'de Portekiz nüfuzunun sonu — Pîrî Reis'in seferi	Aden	dis	True
+kronoloji_portekiz.js	1549-01-01	Tomé de Sousa, Salvador'ı kurdu — Brezilya Genel Valiliği	Salvador (Bahia)	dis	True
+kronoloji_portekiz.js	1554-08-25	Seydi Ali Reis'in Umman açıklarında yenilgisi	Maskat	dis	True
+kronoloji_portekiz.js	1578-08-04	Vâdisseyl (Alcácer Quibir) Savaşı — Kral Sebastião öldü, hanedan çöktü		dis	True
+kronoloji_portekiz.js	1662-05-21	Catherine of Braganza'nın İngiltere kralıyla evliliği — Tanca ve Bombay çeyiz olarak verildi		dis	False
+kronoloji_portekiz.js	1665-06-17	Montes Claros Savaşı — Restorasyon Savaşı'nın kesin zaferi		dis	False
+kronoloji_portekiz.js	1825-08-29	Rio de Janeiro Antlaşması — Portekiz Brezilya'yı tanıdı	Rio de Janeiro	dis	True
+kronoloji_portekiz.js	1886-02-20	'Pembe Harita' — Angola-Mozambik kıtasal iddiası ilan edildi		dis	False
+kronoloji_portekiz.js	1890-01-11	İngiliz Ültimatomu — sömürge hayali çöktü	Lizbon	dis	True
+kronoloji_rodos_sovalyeleri.js	1306-06-27	Foulques de Villaret'nin Rodos'a çıkarması	Rodos	dis	False
+kronoloji_sirbistan.js	1806-01-01	Belgrad'ın Sırp isyancılarca ele geçirilmesi	Belgrad	dis	True
+kronoloji_sirbistan.js	1813-01-01	Ayaklanmanın bastırılması, Belgrad'ın geri alınışı	Belgrad	dis	True
+kronoloji_sirbistan.js	1867-01-01	Osmanlı garnizonları Sırp kalelerinden çekildi	Belgrad	dis	True
+kronoloji_sirbistan.js	1913-08-10	Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti		dis	True
+kronoloji_timurlu.js	1391-06-18	Kunduzca Savaşı — Toktamış'ın ilk yenilgisi		dis	False
+kronoloji_timurlu.js	1395-04-15	Terek Savaşı — Altın Orda'nın ekonomik belkemiği kırıldı		dis	True
+kronoloji_timurlu.js	1400-10-30	Halep'in düşüşü — Memlük ordusu bozguna uğradı	Halep	dis	False
+kronoloji_timurlu.js	1401-06-01	Bağdat'ın ikinci yağması	Bağdat	dis	False
+kronoloji_timurlu.js	1469-04-01	Ebû Said Mirza, Akkoyunlu Uzun Hasan'a yenilip öldürüldü		dis	True
+kronoloji_timurlu.js	1507-05-24	Şeybânî Han, Herat'ı aldı — Timurlu Devleti sona erdi	Herat	dis	True
+kronoloji_venedik.js	1281-01-01	Levant imparatorluğu — XIII. yüzyıl sonunda Venedik'in elindekiler		dis	False
+kronoloji_venedik.js	1339-01-24	Treviso'nun alınması — ilk Terraferma tecrübesi		dis	True
+kronoloji_venedik.js	1405-01-01	Padova, Verona ve Vicenza'nın alınması — Terraferma siyaseti	Padova	dis	True
+kronoloji_venedik.js	1409-07-09	Dalmaçya'nın satın alınması	Zadar (Zara)	dis	False
+kronoloji_venedik.js	1420-10-01	Friuli'nin fethi — Aquileia patrikliğinin sonu	Udine	dis	False
+kronoloji_venedik.js	1423-01-01	Selânik'in Bizans'tan devralınması	Selanik	dis	True
+kronoloji_venedik.js	1441-11-20	Cremona Barışı — Milano ile sınırın çizilmesi		dis	False
+kronoloji_venedik.js	1482-05-03	Ferrara Savaşı ve Polesine'in alınması	Ferrara	dis	False
+kronoloji_venedik.js	1509-05-14	Agnadello bozgunu — Terraferma'nın bir günde kaybı		dis	True
+kronoloji_venedik.js	1509-07-17	Padova'nın geri alınması — çöküşün durdurulması	Padova	dis	False
+kronoloji_venedik.js	1516-10-01	Brescia'nın geri alınması — Terraferma'nın toparlanması	Brescia	dis	True
+kronoloji_venedik.js	1540-10-02	Üçüncü savaşın sonu — Ege mevzilerinin bırakılması	İstanbul	dis	True
+kronoloji_venedik.js	1573-03-07	Osmanlı-Venedik Antlaşması — Kıbrıs'ın terki	İstanbul	dis	True
+kronoloji_venedik.js	1685-06-01	Mora seferinin başlaması — Morosini'nin taarruzu	Koron	dis	False
+kronoloji_venedik.js	1692-01-01	Granbosa Kalesi'nin kaybı		dis	True
+kronoloji_venedik.js	1699-01-26	Karlofça Antlaşması — Mora'nın Venedik'e bırakılması		dis	True
+kronoloji_venedik.js	1715-09-07	Mora'nın kaybı — Damad Ali Paşa harekâtı	Anabolu (Nauplion)	dis	True
