@@ -1,0 +1,552 @@
+id	ad	tur	bolge	f	t	sure_gun	baskent	ufuk_disi(f>1923-10-29)
+ubaid-kultur	Ubaid Kültürü (Güney Mezopotamya)	kultur	mezopotamya	-6499-01-01	-3799-01-01	986155	yok (kültür; merkez tanımsız)	false
+fayum-neolitik	Fayum Neolitiği ve Erken Holosen İskânı	kultur	misir-sudan	-7349-01-01	-4849-01-01	913106	yok (kültür; merkez tanımsız)	false
+shangshan	Shangshan Kültürü	kultur	dogu-asya	-8849-01-01	-6649-01-01	803534	yok (kültür; merkez tanımsız)	false
+gojoseon	Gojoseon (Eski Joseon)	krallik	dogu-asya	-2332-01-01	-0193-01-01	781254	Asadal / Wanggeom (gelenek)	false
+peiligang	Peiligang Kültürü	kultur	dogu-asya	-7049-01-01	-5049-01-01	730485	yok (kültür; merkez tanımsız)	false
+anuradhapura	Anuradhapura Krallığı (Sri Lanka)	krallik	guney-asya	-0250-01-01	1017-01-01	459346	Anuradhapura	false
+kutai-martapura	Kutai Martapura (Mulavarman)	krallik	guneydogu-asya	0400-01-01	1635-01-01	451074	Muara Kaman (Martapura)	false
+dubrovnik	Dubrovnik (Ragusa) Cumhuriyeti	cumhuriyet	balkanlar	0700-01-01	1808-01-31	404719	Dubrovnik	false
+pre-kerma	Pre-Kerma Kültürü (Nubya)	kultur	misir-sudan	-3499-01-01	-2499-01-01	365243	yok (kültür; merkez tanımsız)	false
+dogu-ganga	Doğu Ganga Hanedanı (Kalinga)	hanedanlik	guney-asya	0496-01-01	1434-01-01	342597	Kalinganagara (Mukhalingam) → (Orissa genişlemesinden sonra Utkala/Kalinga)	false
+badusbani	Bâdüsbânîler (Rûyân üstândârları)	hanedanlik	iran	0665-01-01	1598-01-01	340771	Rûyân · (sonra) Kucur ve Nur	false
+iberya-kartli	İberya (Kartli) Krallığı	krallik	kafkasya	-0301-01-01	0580-01-01	318363	Mtsketa	false
+fenike-sehirleri	Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad)	devlet	suriye-filistin	-1199-01-01	-0331-01-01	317030	Sur / Sayda	false
+halin	Halin (Pyu)	sehir-devleti	guneydogu-asya	0001-01-01	0832-01-01	303517	Halin	false
+kamarupa	Kamarupa Krallığı (Varman, Mleccha, Pala hanedanları)	krallik	guney-asya	0350-01-01	1150-01-01	292194	Pragjyotishapura (Guwahati)	false
+bosporos-krallik	Bosporos (Kırım) Krallığı	krallik	dogu-avrupa	-0437-01-01	0370-01-01	291335	Pantikapaion	false
+trento-piskoposlugu	Trento Prens-Piskoposluğu	kilise-devleti	italya	1027-05-31	1803-01-01	283276	Trento	false
+hadramavt	Hadramavt Krallığı	krallik	arabistan	-0449-01-01	0300-01-01	270151	Sabva	false
+moravya-markgraflik	Moravya Markgraflığı	markgraflik	orta-avrupa	1182-01-01	1918-10-28	269119	Olomouc / Brno	false
+moab	Moab Krallığı	krallik	suriye-filistin	-1299-01-01	-0581-01-01	262244	Dibon / Kir-Moab	false
+lubeck-sehri	Lübeck Özgür İmparatorluk Şehri	devlet	orta-avrupa	1226-01-01	1937-04-01	259779	Lübeck	false
+montferrat-markizligi	Montferrat Markizliği	markizlik	italya	1000-01-01	1708-01-01	258592	Casale	false
+ebla-orta-tunc	Ebla (II.-III. Krallık, Orta Tunç)	krallik	suriye-filistin	-2299-01-01	-1599-01-01	255670	Ebla	false
+hivite-afrigid	Hârezm Afrigîleri	hanedanlik	orta-asya	0305-01-01	0995-02-05	252052	Kâs (Kath)	false
+saba	Saba Krallığı	krallik	arabistan	-0799-01-01	-0114-01-01	250191	Marib	false
+franche-comte	Burgonya Kontluğu (Franche-Comté)	kontluk	bati-avrupa	1000-01-01	1678-09-17	247894	Dole / Besançon	false
+tripura-manikya	Tripura (Hill Tippera) Manikya Krallığı	krallik	guney-asya	1279-01-01	1949-10-15	245000	Udaipur → Agartala	false
+sakiz-polis	Sakız (Khios) Şehir Devleti	devlet	anadolu	-0599-01-01	0079-06-23	244393	Khios	false
+maya-klasik	Klasik Maya Sehir Devletleri (genel cati)	devlet	orta-amerika	0250-01-01	0900-01-01	237408	cok merkezli	false
+tiwanaku	Tiwanaku Devleti	krallik	guney-amerika	0500-01-01	1150-01-01	237408	Tiwanaku	false
+rarotonga	Rarotonga ve Cook Adaları Şeflikleri/Krallığı	seflikler	okyanusya	1250-01-01	1888-01-01	233025	Avarua	false
+pyu-sehir-devletleri	Pyu Şehir Devletleri	konfederasyon	guneydogu-asya	0201-01-01	0832-01-01	230468	Halin → Sri Ksetra (Thayekhittaya)	false
+guge	Guge Krallığı (Batı Tibet)	krallik	dogu-asya	1000-01-01	1630-01-01	230103	Tsaparang · Tholing	false
+hawaii-seflikleri	Hawaii Şeflikleri (Birleşme Öncesi)	devlet	okyanusya	1190-01-01	1795-01-01	220972	—	false
+kataban	Kataban Krallığı	krallik	arabistan	-0399-01-01	0199-01-01	214999	Timna	false
+empuries	Empuries (Ampurias) Kontlugu	kontluk	iberya	0819-01-01	1402-01-01	212936	Castello d'Empuries	false
+bern-cumhuriyeti	Bern Cumhuriyeti (Şehir-Devleti)	devlet	orta-avrupa	1218-01-01	1798-03-05	211906	Bern	false
+filistin-pentapolis	Filisti Sehir Devletleri	devlet	suriye-filistin	-1174-01-01	-0603-01-01	208553	Askelon/Ekron/Gat/Asdod/Gazze	false
+arua	Aruã (Marajó)	devlet	guney-amerika	1281-01-01	1836-01-01	202710	—	false
+karniola-dukaligi	Karniola Dükalığı	dukalik-habsburg	balkanlar	1364-01-01	1918-10-29	202646	Ljubljana	false
+piktler	Pikt (Fortriu) Krallığı	krallik	bati-avrupa	0297-01-01	0843-01-01	199422	Fortriu / Forteviot	false
+atropatene	Atropatene (Med Atropatene) Krallığı	krallik	kafkasya	-0320-01-01	0226-01-01	196006	Gazaka (Ganzak)	false
+kyrene	Kyrene (Kirene) Devleti	devlet	kuzey-afrika	-0630-01-01	-0095-01-01	195405	Kyrene	false
+avignon-venaissin	Avignon-Comtat Venaissin (Papalık eksklavı)	eksklav	bati-avrupa	1274-01-01	1791-09-14	189087	Carpentras (Comtat; 1320'den) / Avignon	false
+pomeranya-dukaligi	Pomeranya Dükalığı	dukalik	orta-avrupa	1121-01-01	1637-03-10	188535	Stettin (Szczecin)	false
+urgell	Urgell Kontlugu	kontluk	iberya	0798-01-01	1314-01-01	188465	Seu d'Urgell	false
+odris	Odris (Trakya) Krallığı	krallik	balkanlar	-0479-01-01	0046-01-01	188336	Seuthopolis / Kabyle	false
+misir-eski-krallik	Misir Eski Krallik (3.-6. Hanedan)	krallik	misir-sudan	-2685-01-01	-2180-01-01	184447	Memfis	false
+midilli-polis	Midilli (Mytilene) Şehir Devleti	devlet	anadolu	-0584-01-01	-0079-01-01	184447	Mytilene	false
+saksonya-eski	Eski Saksonya (Sakson Kabile Birliği)	konfederasyon	orta-avrupa	0300-01-01	0804-01-01	184082	belirsiz (Marklo, Weser)	false
+aleut	Aleut (Unangax̂)	devlet	kuzey-amerika	1281-01-01	1784-08-14	183943	Unalaska (Iliuliuk)	false
+skit-krallik	İskit (Pontus Bozkırı) Devletleri	gocebe-konfederasyon	dogu-avrupa	-0699-01-01	-0199-01-01	182621	belirsiz / İskit Neapolis	false
+halaf-kultur	Halaf Kültürü	kultur	mezopotamya	-5899-01-01	-5399-01-01	182621	yok (kültür; merkez tanımsız)	false
+silahara	Silahara (Konkan) Hanedanı	hanedanlik	guney-asya	0765-01-01	1265-01-01	182621	Thane	false
+tatar	Tatar Konfederasyonu (Otuz/Dokuz Tatar)	konfederasyon	orta-asya	0716-01-01	1202-01-01	177508	yok (Tula ırmağı doğusu, Buyur Gölü çevresi)	false
+misir-yeni-krallik	Misir Yeni Krallik (18.-20. Hanedan)	imparatorluk	misir-sudan	-1549-01-01	-1068-01-01	175682	Tebai / Pi-Ramesses	false
+odessos-polis	Odessos (Varna) Şehir Devleti	devlet	balkanlar	-0549-01-01	-0070-01-01	174951	Odessos	false
+ceibal	Ceibal (Seibal) Krallığı	krallik	orta-amerika	0411-01-01	0889-01-01	174586	Ceibal	false
+rodos-polis	Rodos Şehir Devleti	devlet	balkanlar	-0406-01-01	0079-06-23	173901	Rodos	false
+tiflis-emirligi	Tiflis Emirliği	emirlik	kafkasya	0650-01-01	1122-01-01	172394	Tiflis	false
+yeni-hitit	Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, H	devlet	anadolu	-1179-01-01	-0707-01-01	172394	Karkamis	false
+nebhani-umman	Nebhânîler (Umman Meliklikleri)	hanedanlik	arabistan	1154-01-01	1624-01-01	171664	Behlâ	false
+valensiya-kralligi	Valensiya Krallığı (Aragon Tacı)	krallik	iberya	1238-09-28	1707-06-29	171208	Valensiya	false
+mecklenburg-dukaligi	Mecklenburg Dükalığı (1348-1815)	dukalik	orta-avrupa	1348-01-01	1815-01-01	170568	Schwerin	false
+girit-venedik	Girit (Candia) Krallığı - Venedik	somurge	balkanlar	1204-08-12	1669-09-27	169883	Candia (Kandiye)	false
+perlak	Perlak (Peureulak) Sultanligi	emirlik	guneydogu-asya	0840-01-01	1292-01-01	165090	Bandar Khalifah	false
+minos	Minos (Minos Saray) Uygarlığı	uygarlik-saray-devletleri-siyasi-birlik-tartismali	balkanlar	-1899-01-01	-1449-01-01	164359	Knossos	false
+dogu-calukya	Doğu Çalukya (Vengi Çalukyaları)	hanedanlik	guney-asya	0624-01-01	1070-01-01	162898	Vengi	false
+touggourt	Tuggurt Sultanlığı (Benî Celleb)	sultanlik	kuzey-afrika	1414-01-01	1854-12-01	161042	Tuggurt	false
+misir-erken-hanedan	Misir Erken Hanedan Donemi (1.-2. Hanedan)	krallik	misir-sudan	-3125-01-01	-2685-01-01	160707	Thinis → Memfis	false
+gassani	Gassaniler	krallik-filarkhlik	suriye-filistin	0200-01-01	0636-08-20	159478	belirsiz (Cabiye)	false
+moriori	Moriori (Chatham Adaları)	topluluk	okyanusya	1400-01-01	1835-11-01	159185	—	false
+koch-bihar	Koch Krallığı / Koch Bihar (Biswa Singha–Naranarayan hanedan	krallik	guney-asya	1515-01-01	1949-01-01	158515	Chikangram → Koch Bihar (Guriahati)	false
+powys	Powys Krallığı	krallik	bati-avrupa	0850-01-01	1283-01-01	158150	Mathrafal	false
+zheng-devleti	Zheng Devleti	krallik	dogu-asya	-0805-01-01	-0374-01-01	157420	Xinzheng	false
+tenuh	Tenûh (Tanûh) Konfederasyonu	konfederasyon	suriye-filistin	0200-01-01	0630-01-01	157054	belirsiz	false
+hamburg-sehri	Hamburg Özgür ve Hanse Şehri	devlet	orta-avrupa	1510-01-01	1937-04-01	156050	Hamburg	false
+tomara	Tomara (Delhi) Hanedanı	hanedanlik	guney-asya	0736-01-01	1152-01-01	151941	Dhillika (Delhi)	false
+bosna-eyaleti	Osmanlı Bosna'sı (sancak → 1580 eyalet → 1866 vilâyet)	eyalet	balkanlar	1463-06-01	1878-07-29	151634		false
+mari-sakkanakku	Mari Şakkanakku Hanedanı	hanedanlik	suriye-filistin	-2219-01-01	-1809-01-01	149749	Mari	false
+katyuri	Katyuri / Nimbara Hanedanı (Kartikeyapura, Kumaon-Garhwal)	krallik	guney-asya	0790-01-01	1200-01-01	149749	Baijnath	false
+berqavata	Bergavata Devleti	devlet	kuzey-afrika	0744-01-01	1149-01-01	147923	Tamesna	false
+misir-orta-krallik	Misir Orta Krallik (11.-13. Hanedan)	krallik	misir-sudan	-2054-01-01	-1649-01-01	147923	Itj-tawy / Tebai	false
+misir-3-ara	Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus)	krallik-lar	misir-sudan	-1068-01-01	-0663-01-01	147923	Tanis / Bubastis	false
+abhazya-prensligi	Abhazya (Şervaşidze / Çaçba) Prensliği	prenslik	kafkasya	1463-01-01	1864-01-01	146462		false
+ermenistan-yervantuni	Yervandit (Orontid) Ermenistan	krallik	kafkasya	-0599-01-01	-0199-01-01	146097	Armavir -> Yervandaşat	false
+awan	Awan Krallığı (Elam, Erken Elam)	krallik	iran	-2499-01-01	-2099-01-01	146097	Awan (yeri bilinmiyor)	false
+svaneti	Svaneti Prensliği	prenslik	kafkasya	1463-01-01	1858-01-01	144271	Mestia	false
+sardinya-aragon	Sardinya Krallığı (Aragon/İspanyol)	krallik	italya	1326-01-01	1720-08-24	144142	Cagliari	false
+suve-emirligi	Şüve (Shoa) Mahzûmî Emirliği	beylik	dogu-afrika	0896-01-01	1285-01-01	142079	Doğu Şüve (kaynakta şehir adı yok)	false
+ispanyol-kuba	İspanyol Küba	somurge	orta-amerika-karayip	1511-01-01	1898-12-10	141693	Havana	false
+ba-devleti	Ba Devleti (巴)	krallik	dogu-asya	-0702-01-01	-0315-01-01	141349	Jiangzhou (Chongqing)	false
+bremen-sehri	Bremen Özgür Hanse Şehri	devlet	orta-avrupa	1646-01-01	2026-12-31	139157	Bremen	false
+taranto-prensligi	Taranto Prensliği	prenslik	italya	1088-01-01	1465-03-30	137786	Taranto	false
+wagadu-gane-erken	Wagadu (Gāne) — Erken Dönem	krallik	bati-afrika	0701-01-01	1076-01-01	136966	Gāne (Kumbî Sâlih)	false
+pala	Pâla Hanedanı (Bengal-Bihar)	hanedanlik	guney-asya	0750-01-01	1120-01-01	135140	Mudgagiri (Munger)	false
+mogadisu-erken	Makdişu Erken Dönem Birliği (Mukri/Kahtânî öncesi sultanlık)	konfederasyon	dogu-afrika	0900-01-01	1269-01-01	134774	Makdişu	false
+arsakuni-ermenistan	Arşakuni Ermenistan (Part dalı)	krallik	kafkasya	0063-01-01	0428-01-01	133314	Artaksata -> Vagarşapat	false
+trablusgarp-ocagi	Trablusgarp Ocağı (Karamanlı Hanedanı)	ocaklik	kuzey-afrika	1551-01-01	1911-10-09	131769	Trablus	false
+elymais	Elymais Krallığı	vasal-krallik	iran	-0146-01-01	0224-01-01	131724	Susa	false
+hunnu-xiongnu	Xiongnu (Hunnu) Konfederasyonu	konfederasyon	orta-asya	-0208-01-01	0155-01-01	129167	Longcheng / Ötüken	false
+karakene	Karakene (Mesene) Krallığı	vasal-krallik	mezopotamya	-0140-01-01	0222-01-01	128802	Charax Spasinou	false
+tuyuhun	Tuyuhun (Tuguhun) Hanlığı	hanlik	dogu-asya	0313-01-01	0663-01-01	127835	Fuqi / Qinghai Gölü çevresi	false
+kadamba-goa	Goa Kadambaları	hanedanlik	guney-asya	0960-01-01	1310-01-01	127835	Goa	false
+sirbistan-eyaleti	Osmanlı Sırbistan'ı (Doğrudan İdare Dönemi)	eyalet	balkanlar	1459-06-20	1804-02-14	125881		false
+aquileia-patrikligi	Aquileia Patrikhanesi (Friuli)	kilise-devleti	italya	1077-04-03	1420-01-01	125185	Udine / Cividale	false
+barbados-ingiliz	Barbados Kolonisi	somurge	orta-amerika-karayip	1627-02-17	1966-11-30	124104	Bridgetown	false
+gdansk-kral-sehri	Gdańsk (Danzig) Kraliyet Şehri	ozerk-sehir	dogu-avrupa	1454-01-01	1793-01-01	123817	Gdańsk	false
+karintiya-dukaligi	Karintiya Dükalığı	dukalik	orta-avrupa	1000-01-01	1335-01-01	122356	Klagenfurt / St. Veit	false
+ispanyol-filipinler	İspanyol Filipinleri (Manila Genel Valiliği)	somurge	guneydogu-asya	1565-01-01	1898-12-10	121970	Cebu → Manila (1571)	false
+kaabu	Kaabu (Gabu) İmparatorluğu	imparatorluk	bati-afrika	1537-01-01	1867-05-24	120675	Kansala	false
+harfusogullari	Harfûşoğulları (Baalbek Emirliği)	emirlik	arabistan	1521-01-01	1850-01-01	120165		false
+ispanyol-santo-domingo	İspanyol Santo Domingo	somurge	orta-amerika-karayip	1496-01-01	1821-12-01	119039	Santo Domingo	false
+lubnan-emirligi	Lübnan Emirliği (Ma'noğulları · Şihaboğulları)	emirlik	arabistan	1516-10-01	1842-01-01	118795	Dayr al-Kamer (Deyrülkamer) → Beyteddin	false
+kamata	Kamata Krallığı	krallik	guney-asya	1257-01-01	1581-01-01	118339	Kamatapur	false
+guria-prensligi	Guria (Güryel) Prensliği	prenslik	kafkasya	1508-01-01	1829-01-01	117243		false
+sumra	Sumra Hanedanı (Sind)	hanedanlik	guney-asya	1030-01-01	1351-01-01	117243	Thatta	false
+hazar	Hazar Kağanlığı	kaganlik	dogu-avrupa	0650-01-01	0965-01-01	115051	Belencer → İtil (İdil ağzı)	false
+cezayir-ocagi	Cezayir Ocağı	ocaklik	kuzey-afrika	1516-01-01	1830-07-05	114873	Cezayir	false
+chutiya	Chutiya Krallığı	krallik	guney-asya	1187-01-01	1501-01-01	114686	Sadiya	false
+hanse-birligi	Hanse Birliği (Lübeck önderliğinde)	sehirler-ligi	orta-avrupa	1356-02-02	1669-01-01	114289	Lübeck	false
+dendi	Dendi Krallığı	krallik	bati-afrika	1591-01-01	1901-01-01	113225	Kandi (önce Lulami)	false
+ispanyol-florida	İspanyol Florida	somurge	kuzey-amerika	1513-04-02	1821-07-10	112594	St Augustine	false
+lihtenstayn	Lihtenştayn Prensliği	prenslik	orta-avrupa	1719-01-23	2026-12-31	112472	Vaduz	false
+kafkas-arnavutlugu-krallik	Kafkas Arnavutluğu (Albania) Krallığı	krallik	kafkasya	-0065-01-01	0252-01-01	112366	Kabalaka (Kabala); 4. yy sonunda Partaw/Berdea'ya taşındı (dönem II'de)	false
+jamaika-ingiliz	Jamaika Kolonisi (İngiliz)	somurge	orta-amerika-karayip	1655-01-01	1962-08-06	112348	Spanish Town	false
+sistan-mihribani	Mihribânîler (Sistan Melikleri)	emirlik	iran	1236-07-19	1543-01-01	111929	bulunamadı (TDV başkent belirtmiyor; Sistan, Zerenc/Kûh-ı Hâce çevresi)	false
+kraliyet-prusyasi	Kraliyet (Polonya) Prusyası	polonya-eyaleti	dogu-avrupa	1466-10-19	1772-09-13	111728	Malbork / Gdańsk	false
+nekor-emirligi	Nekor (Nekkûr) Emirliği	emirlik	kuzey-afrika	0710-01-01	1015-01-01	111399	Nekor (Temsaman)	false
+hessen-landgrafligi	Hessen Landgraflığı	landgraflik	orta-avrupa	1264-01-01	1567-01-01	110668	Kassel	false
+kulasekhara-cera	Kulasekhara (İkinci Çera / Çera Perumallar) Krallığı	krallik	guney-asya	0800-01-01	1102-01-01	110303	Mahodayapuram (Kodungallur)	false
+ma-in	Ma'in Krallığı (Minai)	krallik	arabistan	-0399-01-01	-0099-01-01	109573	Karna	false
+miken	Miken (Mykene) Saray Devletleri	saray-devletleri	balkanlar	-1399-01-01	-1099-01-01	109573	Miken / Pylos / Tiryns / Teb	false
+hayasa-azzi	Hayaşa-Azzi Konfederasyonu	kabile-konfederasyonu	anadolu	-1499-01-01	-1199-01-01	109573		false
+erken-hartum	Erken Hartum Mezolitiği (Orta Sudan)	kultur	misir-sudan	-8799-01-01	-8499-01-01	109573	yok (kültür; merkez tanımsız)	false
+taino-seflikleri	Taíno Şeflikleri (Cacicazgos)	seflik	orta-amerika	1200-01-01	1500-01-01	109573	yok (yayılmış cacicazgo'lar; tek merkez kaynakta yok)	false
+essex	Essex (Dogu Sakson) Kralligi	krallik	bati-avrupa	0527-01-01	0825-01-01	108842	London	false
+kebbi	Kebbi Krallığı	krallik	bati-afrika	1516-01-01	1805-04-13	105658	Surame (Birnin Kebbi)	false
+misir-eyaleti	Osmanlı Mısır Eyaleti	eyalet	misir-sudan	1517-04-13	1805-07-03	105271		false
+kefalonya-palatin	Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco)	kontluk	balkanlar	1194-01-01	1479-01-01	104094	Kefalonya	false
+vakataka	Vakataka Hanedanı	hanedanlik	guney-asya	0255-01-01	0540-01-01	104094	Nandivardhana / Vatsagulma	false
+alamanlar	Alamanlar (Alemanni) Konfederasyonu	kabile-devleti	orta-avrupa	0213-01-01	0496-01-01	103364	belirsiz	false
+tekrur-kralligi	Tekrûr Krallığı (Senegal vadisi)	krallik	bati-afrika	1000-01-01	1281-01-01	102633	Tekrûr	false
+fransiz-hindistani	Fransız Hindistanı	somurge	guney-asya	1674-01-01	1954-11-01	102572	Pondicherry	false
+hamat	Hamat Krallığı	krallik	suriye-filistin	-0999-01-01	-0719-01-01	102268	Hamat (Hama)	false
+deheubarth	Deheubarth Krallığı (Güney Galler)	krallik	bati-avrupa	0920-01-01	1197-04-28	101290	Dinefwr	false
+sili-kaptanligi	Şili Genel Kaptanlığı	somurge	guney-amerika	1541-02-12	1818-02-12	101172	Santiago	false
+bati-zhou	Batı Zhou	krallik	dogu-asya	-1045-01-01	-0770-01-01	100442	Haojing	false
+vedday-sultanligi	Vedây (Wadai/Ouaddaï) Sultanlığı	sultanlik	orta-afrika	1635-01-01	1909-06-02	100230	Vârâ -> Ebîşe (Abéché, 1850)	false
+kis-egemenlik	Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III)	devlet	mezopotamya	-2599-01-01	-2333-01-01	97155	Kiş	false
+uruk-erken-hanedan	Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'	devlet	mezopotamya	-2599-01-01	-2333-01-01	97155	Uruk	false
+ur-1-hanedan	Ur I. Hanedanı (Kraliyet Mezarlığı dönemi)	hanedanlik	mezopotamya	-2599-01-01	-2333-01-01	97155	Ur	false
+denyanke	Denyanke (Denianke) Krallığı — Futa Toro	krallik	bati-afrika	1512-01-01	1776-01-01	96424	Anyam Godo / Tumbere-Jiinde	false
+ingiltere-irlanda-krallik	İrlanda Krallığı (İngiliz Tacı)	krallik	bati-avrupa	1541-06-18	1801-01-01	94794	Dublin	false
+pavia-komunu	Pavia Komünü	sehir-devleti	italya	1100-01-01	1359-01-01	94598	Pavia	false
+sealand-1	Birinci Deniz Ulkesi Hanedani	krallik	mezopotamya	-1731-01-01	-1474-01-01	93867	belirsiz (guney bataklik)	false
+qiuchi	Qiuchi (Chouchi, 仇池) / Wuxing Yang krallığı	krallik	dogu-asya	0296-01-01	0553-01-01	93867	Qiuchi (Gansu güneyi) → Wuxing	false
+lamuri	Lamuri (Ilamuridesam / Lan-wu-li)	krallik	guneydogu-asya	1025-01-01	1281-01-01	93502	Lamuri (Aceh Büyük kıyısı; yeri kesin değil)	false
+cac-tudun	Çaç (Taşkent) Tudunluğu	sehir-devleti	orta-asya	0500-01-01	0751-01-01	91676	Çaç (Binkes, Taşkent)	false
+yaroslavl-knezligi	Yaroslavl Knezliği	knezlik	dogu-avrupa	1218-01-01	1463-01-01	89484	Yaroslavl	false
+phayao	Phayao	krallik	guneydogu-asya	1096-01-01	1338-01-01	88389	Phayao	false
+trinh-lordlari	Trịnh Lordları (Đàng Ngoài)	beylik	guneydogu-asya	1545-01-01	1786-01-01	88023	Thăng Long (Đông Kinh)	false
+mitanni	Mitanni (Hanigalbat) Krallığı	krallik	mezopotamya	-1499-01-01	-1259-01-01	87658	Vassukanni (konum belirsiz)	false
+alania-krallik	Alan (Alania) Krallığı (Kuzey Kafkasya)	krallik	kafkasya	0850-01-01	1090-01-01	87658	bilinmiyor	false
+esnunna	Esnunna Krallığı	krallik	mezopotamya	-1999-01-01	-1761-01-01	86928	Esnunna (Tell Asmar)	false
+capua-prensligi	Capua Prensliği (Lombard ve Norman)	prenslik	italya	0900-01-01	1135-01-01	85832	Capua	false
+pecenek-konfederasyonu	Peçenek Konfederasyonu	bozkir-konfederasyonu	dogu-avrupa	0889-01-01	1122-01-01	85102		false
+besalu	Besalu Kontlugu	kontluk	iberya	0878-01-01	1111-01-01	85102	Besalu	false
+manna	Manna (Mannea) Krallığı	krallik	iran	-0828-01-01	-0599-01-01	83641	Izirtu (Zirta)	false
+yeni-fransa	Yeni Fransa (Nouvelle-France)	somurge	kuzey-amerika	1534-07-24	1763-02-10	83474	Quebec	false
+oguz-yabgu	Oğuz Yabgu Devleti	devlet	orta-asya	0775-01-01	1003-01-01	83275	Yenikent (Seyhun ağzı yakını)	false
+karnata-mithila	Karnata (Simraungarh) Hanedanı	hanedanlik	guney-asya	1097-01-01	1324-01-01	82910	Simraungarh	false
+isin	Isin Krallığı (I. Hanedan)	devlet	mezopotamya	-2016-01-01	-1793-01-01	81449	Isin	false
+gupta	Gupta Imparatorlugu	imparatorluk	guney-asya	0320-01-01	0540-01-01	80353	Pataliputra	false
+chalandritsa-baronluk	Chalandritsa Baronluğu	baronluk	balkanlar	1209-01-01	1429-01-01	80353	Chalandritsa	false
+tarumanagara	Tarumanagara	krallik	guneydogu-asya	0450-01-01	0669-01-01	79988	bilinmiyor (Batı Cava)	false
+auris-masties	Aurès Krallığı (Masties, Iabdas, Dihya/Kâhine)	krallik	kuzey-afrika	0484-01-01	0702-01-01	79623	Evrâs (Aurès) dağlığı — kesin merkez kaynakta yok	false
+umma-erken-hanedan	Umma Şehir Devleti (Erken Hanedan; Lugalzagesi)	devlet	mezopotamya	-2549-01-01	-2333-01-01	78892	Umma	false
+usrusana-afsin	Üsrûşana Afşinleri	beylik	orta-asya	0680-01-01	0893-01-01	77797	Bunjikat (Bencikes/Bûncikes)	false
+pan-pan	Pan Pan	krallik	guneydogu-asya	0424-01-01	0635-01-01	77066	bilinmiyor (Bandon Körfezi yöresi — Coedès)	false
+kefe-gazaria	Ceneviz Gazaria (Kefe)	ceneviz-kolonisi	sibirya-bozkir	1266-01-01	1475-06-06	76493	Kefe	false
+kevkev-erken	Kevkev (Gao) — Erken Dönem	krallik	bati-afrika	0801-01-01	1009-08-25	76208	Gao	false
+friuli-dukaligi-lombard	Friuli Lombard Dukalığı	dukalik	italya	0568-01-01	0776-01-01	75970	Cividale (Forum Iulii)	false
+midrari	Midrârîler (Sicilmâse)	hanedanlik	kuzey-afrika	0772-01-01	0976-08-30	74752	Sicilmâse	false
+ruperts-land	Rupert Toprakları (Hudson Körfezi Şirketi)	sirket-idaresi	kuzey-amerika	1670-01-01	1870-07-15	73245	York Factory	false
+yamhad	Yamhad (Halep) Krallığı	krallik	suriye-filistin	-1799-01-01	-1599-01-01	73049	Halep (Halab)	false
+sonraki-gupta	Sonraki Gupta (Magadha) Hanedanı	hanedanlik	guney-asya	0550-01-01	0750-01-01	73049	Pataliputra / Malwa	false
+bhauma-kara	Bhauma-Kara Hanedanı	hanedanlik	guney-asya	0750-01-01	0950-01-01	73049	Guhadeva-pataka	false
+sunik-kralligi	Sünik (Bağk) Krallığı	krallik	kafkasya	0970-01-01	1170-01-01	73049	Kapan	false
+likya-birligi	Likya Birligi (Roma himayesinde)	birlik	anadolu	-0166-01-01	0043-01-01	72920	Patara	false
+tekrur-erken	Tekrûr Krallığı — Erken Dönem	krallik	bati-afrika	0801-01-01	1000-01-01	72683	Tekrûr şehri (Aşağı Senegal)	false
+ispanyol-oran-1	İspanyol Oran (I. dönem) ve Mers el-Kebir	somurge	kuzey-afrika	1509-05-17	1708-01-01	72545	Oran (Vehrân)	false
+azcapotzalco-tepanek	Azcapotzalco (Tepanekler)	sehir-devleti	orta-amerika	1230-01-01	1428-01-01	72318	Azcapotzalco	false
+pecenek	Peçenek Konfederasyonu	bozkir-konfederasyonu	dogu-avrupa	0895-03-02	1091-04-29	71645	yok (sekiz boylu konfederasyon; boy beyleri; başşehir kaynakta yok)	false
+derbent-hasimi-emirligi	Derbend (Bâbülebvâb) Hâşimî Emirliği	emirlik	kafkasya	0869-01-01	1065-01-01	71588	Derbend (Bâbülebvâb)	false
+kerait	Kerâyitler (Kereyid, Ong Han ülkesi)	hanlik	orta-asya	1007-01-01	1203-01-01	71588	yok (Tola-Orhon-Ongin havzası yurtları; sabit başkent kaynakta yok)	false
+vercelli-komunu	Vercelli Komünü	sehir-devleti	italya	1141-01-01	1335-01-01	70857	Vercelli	false
+mihranid-gardman	Mihranidler (Gardman/Arran)	hanedanlik	kafkasya	0630-01-01	0822-01-01	70127	Gardman	false
+nordmark	Kuzey Mark (Nordmark / Sakson Doğu Markı)	markgraflik	orta-avrupa	0965-01-01	1157-01-01	70127	Salzwedel / Stendal	false
+artaksiad	Artaksiad Ermenistan	krallik	kafkasya	-0188-01-01	0012-01-01	69633	Artaksata	false
+sailodbhava	Sailodbhava Hanedanı	hanedanlik	guney-asya	0590-01-01	0780-01-01	69396	Kongoda	false
+urbino-dukaligi	Urbino Dükalığı	dukalik	italya	1443-04-25	1631-04-28	68669	Urbino	false
+galata-pera	Galata (Pera) Ceneviz Kolonisi	ceneviz-kolonisi	balkanlar	1267-01-01	1453-05-29	68085	Galata	false
+pereyaslavl-knezligi	Pereyaslavl (Güney) Knezliği	knezlik	dogu-avrupa	1054-01-01	1239-03-03	67633	Pereyaslavl	false
+hollanda-malaka	Hollanda Malakası	koloni-voc	guneydogu-asya	1641-01-01	1825-03-01	67266	Malaka	false
+peloponnes-birligi	Peloponnes Birliği	ittifak	balkanlar	-0549-01-01	-0365-01-01	67205	Sparta	false
+baban-emirligi	Bâbân Emirliği (Babanzâdeler)	emirlik	mezopotamya	1669-01-01	1850-01-01	66109	Kalaçolan (Karacuvalan / Qala Çolan); 1784'ten Süleymaniye	false
+indo-grek	Hint-Grek (Indo-Greek) Krallıkları	krallik	guney-asya	-0179-01-01	0010-01-01	65615	Taksila → Sagala (Sialkot)	false
+aitolia-birligi	Aitolia Birliği	konfederasyon	balkanlar	-0366-01-01	-0188-01-01	65013	Thermon	false
+insubres-kabile-devleti	Insubres Kelt Birliği	kabile-konfederasyon	italya	-0399-01-01	-0221-01-01	65013	Mediolanum	false
+kalingga-holing	Kalingga (Holing)	krallik	guneydogu-asya	0640-01-01	0818-01-01	65013	bilinmiyor (Cepara-Pekalongan yoresi)	false
+dakya	Dakya (Burebista-Decebalus) Krallığı	krallik	balkanlar	-0081-01-01	0106-01-01	64884	Sarmizegetusa	false
+vasconia	Vasconia Dukaligi	dukalik	bati-avrupa	0602-01-01	0778-01-01	64283	Auch / Pamplona yakini	false
+dian	Dian Krallığı (Yunnan)	krallik	dogu-asya	-0278-01-01	-0108-01-01	62091	Dian golu cevresi (Shizhaishan / Kunming)	false
+atina-demokrasisi	Atina (bagimsiz demokratik polis)	devlet	balkanlar	-0507-01-01	-0337-01-01	62091	Atina	false
+erdel	Erdel Prensliği (Transilvanya)	prenslik	orta-avrupa	1541-08-29	1711-04-29	61969	Gyulafehérvár	false
+on-uc-koloni	On Üç İngiliz Kolonisi	koloniler	kuzey-amerika	1607-01-01	1776-07-04	61912	—	false
+vesali-chandra	Vesali (Chandra Hanedani, Arakan)	krallik	guneydogu-asya	0788-01-01	0957-01-01	61726	Vesali	false
+lohara	Lohara Hanedanı (Keşmir)	hanedanlik	guney-asya	1003-01-01	1172-01-01	61726	Srinagar	false
+guney-xiongnu	Güney Xiongnu (Han vasalı)	vasal-krallik	dogu-asya	0048-01-01	0216-01-01	61361	Meiji (Xihe) → Pingyang	false
+sahra-sanhaca	Sahra Sanhâceleri / Evdeguşt Emirliği	konfederasyon	bati-afrika	0889-01-01	1054-01-01	60265	Awdaghust?	false
+malta-kolonisi	Malta (İngiliz Koruması / Taç Kolonisi)	somurge	italya	1800-01-01	1964-09-21	60163	Valletta	false
+malta-ingiliz	Malta (İngiliz himayesi 1800 → Taç Kolonisi 1813)	somurge	italya	1800-09-05	1964-09-21	59916	Valletta	false
+sobrarbe-ribagorza	Sobrarbe-Ribagorza Kontluklari	kontluk	iberya	0872-01-01	1035-01-01	59535	bulunamadı	false
+uyuni	Uyûnîler	emirlik	arabistan	1076-01-01	1236-01-01	58439	Lahsâ (Ahsâ); son dönemde Katîf ve Uvâl (Bahreyn adası)	false
+somavamsi	Somavamsi Hanedanı (Kosala-Utkala)	hanedanlik	guney-asya	0950-01-01	1110-01-01	58439	Suvarnapura / Yayatinagara	false
+ani-bagratli-kralligi	Ani Bagratlı Ermeni Krallığı	krallik	kafkasya	0885-06-18	1045-01-01	58270	Ani (962'den; önce Bagaran, Kars)	false
+susu-kralligi	Susu (Sosso) Krallığı	krallik	bati-afrika	1076-01-01	1235-01-01	58074	Susu (yeri kaynakta yok)	false
+guarani-misyonlari	Guaraní Cizvit Misyonları (Otuz Pueblo)	devlet	guney-amerika	1609-01-01	1767-01-01	57708	—	false
+numidia	Numidya Krallığı (Massyli-Masaesyli birlesik)	krallik	kuzey-afrika	-0200-01-01	-0045-01-01	56613	Cirta	false
+ingiliz-siyera-leon	İngiliz Sierra Leone'si (Koloni ve Protektora)		bati-afrika	1808-01-01	1961-04-27	55999	Freetown	false
+bruttii-birligi	Brettii Birliği	konfederasyon	italya	-0355-01-01	-0202-01-01	55882	Consentia	false
+torino-markizligi	Torino (Arduinik) Markizliği	markizlik	italya	0940-01-01	1091-12-19	55504	Torino	false
+beloozero-knezligi	Beloozero Knezliği	knezlik	dogu-avrupa	1238-01-01	1389-01-01	55152	Beloozero	false
+rouran	Rouran Kağanlığı	kaganlik	orta-asya	0402-01-01	0552-01-01	54786	Mumo	false
+uruk-gec-kultur	Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı)	kultur	mezopotamya	-3349-01-01	-3199-01-01	54786	yok (kültür; merkez tanımsız)	false
+habbari	Habbârî (Hebbârî) Emirliği — Mansûre / Sind	emirlik	guney-asya	0861-01-01	1010-01-01	54421	Mansura	false
+gambiya-kolonisi	İngiliz Gambiyası	somurge	bati-afrika	1816-08-23	1965-02-18	54233	Bathurst (Banjul)	false
+delmatai-federasyon	Delmatai (Dalmatlar) Federasyonu	konfederasyon	balkanlar	-0180-01-01	-0032-01-01	54056	Delminium → Soetovio (Klis)	false
+danimarka-erken	Danimarka Krallari (Godfred donemi, Erken Dani Krallik)	krallik	kuzey-avrupa	0804-01-01	0950-01-01	53325	Hedeby/Sliesthorp (Guney Jutland)	false
+trablus-benihazrun	Benî Hazrun (Trablus) Emirliği	emirlik	kuzey-afrika	1001-01-01	1146-01-01	52960	Trablus	false
+lepenski-vir-trapez	Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi	kultur	balkanlar	-6119-01-01	-5974-01-01	52960	yok (kültür; merkez tanımsız)	false
+cape-hollanda	Hollanda Kap Kolonisi	koloni-voc	guney-afrika	1652-04-06	1795-09-16	52392	Cape Town	false
+saffari	Saffârîler	hanedanlik	iran	0861-01-01	1003-01-01	51864	Zerenc	false
+septimania-gotia	Septimania / Gotia Markizligi	markizlik	bati-avrupa	0759-01-01	0900-01-01	51499	Narbonne	false
+rai-sind	Rai Hanedanı (Sind)	hanedanlik	guney-asya	0500-01-01	0640-01-01	51134	Aror (Alor)	false
+mauretania-krallik	Mauretania Krallığı (Mauri)	krallik	kuzey-afrika	-0109-01-01	0040-01-01	51005	Volubilis / Iol	false
+kalmuk-hanligi	Kalmuk Hanlığı (Volga)	han-devleti	sibirya-bozkir	1632-01-01	1771-01-05	50773	Astrahan çevresi (Hoşut)	false
+sait-26-hanedan	Sait (26.) Hanedan	krallik	misir-sudan	-0663-01-01	-0524-01-01	50769	Sais	false
+epir	Epir (Molossia) Krallığı	krallik	balkanlar	-0369-01-01	-0230-01-01	50769	Dodona -> Ambrakia	false
+friz-krallik	Frizya Kralligi (Radbod)	krallik	bati-avrupa	0600-01-01	0734-01-01	48942	Utrecht / Dorestad	false
+rustemi	Rüstemîler	hanedanlik	kuzey-afrika	0777-01-01	0909-07-01	48395	Tâhert	false
+cezayir-fransiz	Fransız Cezayir İşgali	gecici-isgal	kuzey-afrika	1830-07-05	1962-07-05	48212	Cezayir	false
+amalfi-cumhuriyeti	Amalfi Cumhuriyeti/Dükalığı	denizci-cumhuriyet	italya	1000-01-01	1131-01-01	47847	Amalfi	false
+akwamu	Akwamu Devleti	devlet	bati-afrika	1600-01-01	1731-01-01	47847	Nyanoase	false
+vishnukundina	Vişnukundina Hanedanı	hanedanlik	guney-asya	0500-01-01	0631-01-01	47847	Denduluru / Amaravati	false
+evfat	Evfât (İfat) Emirliği	devlet	dogu-afrika	1285-01-01	1415-01-01	47482	— (TDV'de şehir adı belirtilmemiş)	false
+kusan-sasani	Kuşano-Sasani Krallığı (Kuşanşahlar)	vasal-krallik	orta-asya	0230-01-01	0360-01-01	47482	Balh	false
+portekiz-malaka	Portekiz Malakası	somurge	guneydogu-asya	1511-08-15	1641-01-01	47254	Malaka	false
+isin-2	Isin II. Hanedan (Babil, Nabukudurusur I)	krallik	mezopotamya	-1154-01-01	-1025-01-01	47116	Babil	false
+pallars	Pallars Kontluklari	kontluk	iberya	0872-01-01	1000-01-01	46751	bulunamadı	false
+bagdat-memlukleri	Bağdat Memlükleri (Eyüplü–Kölemen Hanedanı)	hanedanlik	mezopotamya	1704-01-01	1831-09-01	46629	Bağdat	false
+verona-scaliger	Verona (Della Scala) Signoria'sı	signoria	italya	1262-01-01	1387-10-19	45947	Verona	false
+teispid-pers	Teispid Pers Krallığı	krallik	iran	-0674-01-01	-0549-01-01	45655	Anşan	false
+seddadiler-gence	Şeddâdîler (Gence/Arrân kolu)	emirlik	kafkasya	0951-01-01	1075-01-01	45290	Dvin, 971'den Gence	false
+misir-21-hanedan	21. Hanedan (Tanis)	hanedanlik	misir-sudan	-1068-01-01	-0944-01-01	45290	Tanis	false
+verona-komunu	Verona Komünü	sehir-devleti	italya	1136-01-01	1259-01-01	44925	Verona	false
+arvanid-sancagi	Arvanid Sancağı (Arnavut-ili)		balkanlar	1415-01-01	1537-08-25	44797		false
+louisiana	Louisiana (Fransız/İspanyol)	somurge	kuzey-amerika	1682-04-09	1803-12-20	44449	New Orleans	false
+orta-gurcistan-bagrati	Orta Gürcistan (Kartli) Bagratlı Krallığı (Kuropalat Bagratl	krallik	kafkasya	0888-01-01	1008-01-01	43829	bilinmiyor	false
+ingiliz-hondurasi	İngiliz Hondurası (Belize)		orta-amerika-karayip	1862-01-01	1981-09-21	43727	Belize	false
+herodes-krallik	Herodes Hanedani Krallığı (Roma vasali)	vasal-krallik	suriye-filistin	-0036-01-01	0093-01-01	43700	Kudus	false
+sabah-emirligi	Sabah Emirliği (Kuveyt)		arabistan	1795-04-01	1914-11-22	43698		false
+lori-kralligi	Taşir-Dzoraget (Lori) Ermeni Krallığı	krallik	kafkasya	0982-01-01	1101-01-01	43464	Lori	false
+cizre-emirligi	Cizre Emirliği (Cizre beyleri)	emirlik	mezopotamya	1508-01-01	1627-01-01	43464	Cizre	false
+mecklenburg-schwerin	Mecklenburg-Schwerin (Büyük Dükalık)	buyuk-dukalik	orta-avrupa	1815-06-17	1934-01-01	43296	Schwerin	false
+mecklenburg-strelitz	Mecklenburg-Strelitz (Büyük Dükalık)	buyuk-dukalik	orta-avrupa	1815-06-17	1934-01-01	43296	Neustrelitz	false
+visconti-signoria	Visconti Signoria'sı (Milano)	signoria	italya	1277-01-01	1395-05-11	43230	Milano	false
+budjak-ordasi	Bucak (Budjak) Tatar Ordası	osmanli-t-bi-horda	dogu-avrupa	1697-01-01	1812-01-01	42003	Akkirman civarı	false
+cape-ingiliz	İngiliz Kap Kolonisi	somurge	guney-afrika	1795-09-16	1910-05-31	41896	Cape Town	false
+magrave-fas	Mağrâve Emirliği (Fes)	emirlik	kuzey-afrika	0955-04-27	1070-01-01	41886	Fes	false
+vaspurakan-kralligi	Vaspurakan Ermeni Krallığı (Artsruni)	krallik	kafkasya	0908-01-01	1021-01-01	41272	Van / Akdamar	false
+wu-devleti	Wu Devleti (吳, Gou Wu)	krallik	dogu-asya	-0584-01-01	-0472-01-01	40907	Gusu (Suzhou)	false
+seddadiler-ani	Şeddâdîler (Ani kolu)	emirlik	kafkasya	1064-01-01	1175-01-01	40542	Ani	false
+ranthambore-cauhan	Ranthambore Çauhanları (Ranastambhapura)	hanedanlik	guney-asya	1192-01-01	1301-07-11	40004	Ranthambore (Ranastambhapura)	false
+misir-kavalali	Mısır Kavalalı Hanedanı	hanedanlik	misir-sudan	1805-07-03	1914-12-18	39979	Kahire	false
+celili-musul	Celîlîler (Musul Paşalığı Yerli Hanedanı)	hanedanlik	mezopotamya	1726-01-01	1834-01-01	39446	Musul	false
+hirvat-dukalik	Hırvat Dükalığı (Dalmaçya, Trpimirović öncesi ve Trpimirović	dukalik	balkanlar	0818-01-01	0925-01-01	39081	Nin · Klis/Solin (kaynak sabit başkent vermez)	false
+hasmoni	Hasmoni Devleti (Yahudiye)	krallik	suriye-filistin	-0142-01-01	-0036-01-01	38716	Kudus	false
+saksonya-weimar	Saxe-Weimar-Eisenach (Büyük Dükalık)	buyuk-dukalik	orta-avrupa	1815-01-01	1920-05-01	38472	Weimar	false
+herakleopolis	Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem)	krallik	misir-sudan	-2159-01-01	-2054-01-01	38350	Herakleopolis (Ehnasya)	false
+hiksos-15	Hiksos (15. Hanedan)	krallik	misir-sudan	-1649-01-01	-1549-01-01	36524	Avaris	false
+tebai-17-hanedan	Tebai 17. Hanedan	krallik	misir-sudan	-1649-01-01	-1549-01-01	36524	Tebai	false
+kizzuwatna	Kizzuwatna Krallığı	krallik	anadolu	-1499-01-01	-1399-01-01	36524	Kummanni / Adaniya	false
+ingiliz-basutoland	Basutoland (İngiliz himayesi/kolonisi)	himaye	guney-afrika	1868-03-12	1966-10-04	35999	Maseru	false
+basutoland	Basutoland (İngiliz Himayesi)	himaye	guney-afrika	1868-03-12	1966-10-04	35999	Maseru	false
+fiji-kolonisi	Fiji Kolonisi	somurge	okyanusya	1874-10-10	1970-10-10	35063	Suva	false
+sofene	Sofene (Tsopk) Krallığı	krallik	anadolu	-0188-01-01	-0092-01-01	35063	belirsiz	false
+chenla-su	Su Chenla (Water Chenla)	krallik	guneydogu-asya	0706-01-01	0802-01-01	35063	Sambhupura (Sambor, Mekong; Çince kaynaklarda Baladityapura/P'o-lo-t'i-po)	false
+chenla-toprak	Toprak Chenla (Land Chenla)	krallik	guneydogu-asya	0706-01-01	0802-01-01	35063	bilinmiyor (8. yy sonu: Chia Tan güzergâhına göre erken Chenla'nın merkezi çevresi)	false
+janggala	Janggala	krallik	guneydogu-asya	1042-01-01	1136-01-01	34333	Kahuripan / Janggala	false
+kaheti-hereti-kralligi	Kaheti-Hereti Krallığı	krallik	kafkasya	1010-01-01	1104-01-01	34333	Telavi	false
+fransiz-somali	Fransız Somali Sahili / Afarlar ve Issalar Fransız Bölgesi (	somurge	dogu-afrika	1884-01-01	1977-06-27	34146	Obock (1888/92'ye dek), Cibuti	false
+limerick-norse	Limerick (Norse) Kralligi	krallik	bati-avrupa	0922-01-01	1014-01-01	33602	Limerick	false
+cerrahi	Cerrâhîler (Tay, Remle Emirliği)	emirlik	suriye-filistin	0979-01-01	1071-01-01	33602	Remle	false
+parsua	Parsua (Parsumaş) Krallığı	krallik	iran	-0833-01-01	-0743-01-01	32872	Belirsiz	false
+kalabhra	Kalabhra Hanedanı (Tamil ülkesi)	hanedanlik	guney-asya	0500-01-01	0590-01-01	32872	Kaveripattinam (Puhar) — Acyutavikranta döneminde	false
+jorvik	Jorvik (Viking York) Krallığı	krallik	bati-avrupa	0866-01-01	0954-01-01	32141	York	false
+padova-carrara	Padova (Carrara) Signoria'sı	signoria	italya	1318-01-01	1405-11-22	32101	Padova	false
+tarsus-emirlik	Tarsus Tuğur Emirliği	emirlik	anadolu	0878-01-01	0965-01-01	31776	Tarsus	false
+wiman-joseon	Wiman Joseon	krallik	dogu-asya	-0193-01-01	-0107-01-01	31411	Wanggeom	false
+lombard-birligi	Lombard Birliği (Lega Lombarda)	konfederasyon	italya	1167-01-01	1250-12-13	30662	yok (Pontida, Cremona kurucu toplantılar)	false
+gilbert-ellice-kolonisi	Gilbert ve Ellice Adaları (Koruma Bölgesi -> Koloni 1916-01-	somurge	okyanusya	1892-05-27	1976-01-01	30533	Tarawa	false
+seminole	Seminole	konfederasyon	kuzey-amerika	1775-01-01	1858-01-01	30315	—	false
+kibris-venedik	Kıbrıs - Venedik İdaresi	somurge	anadolu	1489-02-26	1571-08-01	30108	Magusa/Lefkoşa	false
+ingiliz-becuanaland	Becuanaland Protektorası		guney-afrika	1885-09-30	1966-09-30	29585	Mafeking (protektora toprakları dışında)	false
+xianbei	Xianbei Konfederasyonu (Tanşihuai)	konfederasyon	orta-asya	0155-01-01	0235-01-01	29219	belirsiz	false
+kirgiz-yenisey	Yenisey Kırgız Kağanlığı	kaganlik	orta-asya	0840-01-01	0920-01-01	29219	Ötüken	false
+khadga	Khadga Hanedanı (Samatata)	hanedanlik	guney-asya	0625-01-01	0705-01-01	29219	Karmanta	false
+onogur	Onogur Konfederasyonu	konfederasyon	dogu-avrupa	0555-01-01	0635-01-01	29219	yok (Kuzey Kafkasya–Azak; girdideki Phanagoria doğrulanamadı)	false
+samos-prensligi	Samos Prensliği	ozerk-osmanli-prensligi	balkanlar	1832-12-10	1912-11-11	29190	Vathy	false
+sailendra	Sailendra Hanedanı	hanedanlik	guneydogu-asya	0778-01-01	0856-01-01	28489	Orta Cava (Kedu-Prambanan ovası; kraton yeri belirsiz)	false
+ingiliz-gambiya	Gambiya Kolonisi ve Himayesi	somurge	bati-afrika	1888-01-01	1965-02-18	28171	Bathurst (Banjul)	false
+kidarit	Kidarit Hunlar	krallik	orta-asya	0390-01-01	0467-01-01	28124	Balh -> Peşaver	false
+utigur	Utigurlar (Utigur Hun-Bulgar Birliği)	konfederasyon	dogu-avrupa	0482-01-01	0559-01-01	28124	yok (Kuban–Azak/Tanais yöresi)	false
+somali-ingiliz-himayesi	İngiliz Somalilandı Himayesi	himaye	dogu-afrika	1884-01-01	1960-06-26	27936	Hargeysa	false
+magrave-sicilmase	Mağrâve Emirliği (Sicilmâse)	beylik	kuzey-afrika	0976-08-30	1053-01-01	27882	Sicilmâse	false
+shewa	Şewa Krallığı (Menelik öncesi)	krallik	dogu-afrika	1813-01-01	1889-03-10	27828	Ankober, sonra Entoto	false
+gane	Gāne (Gana) Devleti	devlet	bati-afrika	1000-01-01	1076-01-01	27758	Gāne (Kumbîsâlih harabeleri sanılıyor)	false
+kamag-mogol	Kamag Moğol (Cengiz öncesi Moğol Hanlığı)	hanlik	orta-asya	1130-01-01	1206-01-01	27758	yok	false
+munkizogullari	Şeyzer Münkızoğulları Emirliği	emirlik	suriye-filistin	1081-12-05	1157-08-09	27641	Şeyzer	false
+iskodra-pasaligi	İşkodra Paşalığı (Buşatlılar)	eyalet	balkanlar	1756-01-01	1831-04-21	27505		false
+eyyubi-meyyafarikin	Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu)	hanedanlik	anadolu	1185-01-01	1260-01-01	27393	Meyyâfârikîn (Silvan)	false
+raska-buyuk-prensligi	Raşka Büyük Prensliği (Vukanoviç)	prenslik	balkanlar	1091-01-01	1166-01-01	27393	Ras	false
+ammarogullari	Ammâroğulları (Trablusgarp)	beylik	kuzey-afrika	1327-01-01	1401-01-01	27028	Trablus	false
+delos-birligi	Delos (Atina Deniz) Birliği	ittifak	balkanlar	-0477-01-01	-0403-01-01	27028	Delos -> Atina	false
+ingiliz-nyasaland	Nyasaland Protektorası (İngiliz Orta Afrikası)		dogu-afrika	1891-05-14	1964-07-06	26716	Zomba	false
+cac-sind	Brahman (Çaç) Hanedanı — Sind	hanedanlik	guney-asya	0640-01-01	0712-06-20	26469	Aror	false
+kush-25-hanedan	Kusi 25. Hanedan (Misir)	krallik	misir-sudan	-0724-01-01	-0652-01-01	26297	Napata / Memfis	false
+dulefi	Dülefîler (Delefîler / Dulafidler)	emirlik	iran	0825-01-01	0897-01-01	26297	Kerec	false
+tebai-11-hanedan	Tebai 11. Hanedan (birlesme oncesi)	krallik	misir-sudan	-2124-01-01	-2054-01-01	25567	Tebai (Teb)	false
+altava-mauro-roma	Altava (Mauro-Roma) Krallığı	krallik	kuzey-afrika	0508-01-01	0578-01-01	25567	Altava (Ouled Mimoun)	false
+rus-amerikasi	Rus Amerikası (Rus-Amerikan Şirketi)	somurge	kuzey-amerika	1799-01-01	1867-10-18	25127	Sitka	false
+ingiliz-kenya-kolonisi	İngiliz Kenyası (Doğu Afrika Protektorası → Kenya Kolonisi v		dogu-afrika	1895-07-01	1963-12-12	25000	Mombasa → Nairobi (1907)	false
+uganda-protektorasi	Uganda Protektorası	himaye	dogu-afrika	1894-06-18	1962-10-09	24949	Entebbe	false
+natal-kolonisi	Natal Kolonisi	somurge	guney-afrika	1843-05-12	1910-05-31	24490	Pietermaritzburg	false
+khayaravala-japila	Khayaravala Hanedanı (Japila, Shahabad)	hanedanlik	guney-asya	1158-01-01	1223-01-01	23741	Japila (Rohtas çevresi)	false
+turk-misir-sudani	Türk-Mısır Sudanı (Türkiyye)	idare	misir-sudan	1821-01-01	1885-01-26	23401	Hartum	false
+madagaskar-fransiz	Fransız Madagaskarı	somurge	dogu-afrika	1896-08-06	1960-06-26	23335	Antananarivo	false
+denia	Daniye Taifesi (Mucahid)	taifa-emirligi	iberya	1014-07-02	1076-08-05	22678	Daniye	false
+misir-28-30-hanedan	Misir 28.-30. Hanedan (son yerli firavunlar)	krallik	misir-sudan	-0403-01-01	-0342-01-01	22280	Sais / Mendes / Sebennytos	false
+ispanyol-oran-2	İspanyol Oran (II. dönem)	somurge	kuzey-afrika	1732-01-01	1792-09-12	22169	Oran (Vehrân)	false
+nassau	Nassau Dükalığı	dukalik	orta-avrupa	1806-08-30	1866-10-03	21948	Wiesbaden	false
+izmir-haclisi	İzmir Haçlı İttifakı (Hospitaller İzmir)	sovalye-kalesi-devleti	anadolu	1344-10-28	1402-12-01	21218	İzmir	false
+guney-saray-nanbokucho	Güney Saray (Yoshino, Nanboku-chō)	hanedanlik	dogu-asya	1336-01-01	1392-01-01	20454	Yoshino	false
+hasanveyhiler	Hasanveyhîler (Berzikânî Kürt emirliği)	hanedanlik	iran	0959-01-01	1015-01-01	20454	Dînever · Hemedan	false
+afrasiyabiler	Afrâsiyâblar (Afrâsiyâboğulları, Basra)	hanedan	mezopotamya	1612-03-04	1668-02-25	20444	Basra	false
+bonacolsi	Bonacolsi Senyörlüğü (Mantova)	devlet	italya	1273-01-01	1328-08-16	20316	Mantova	false
+anhalt-dukaligi	Anhalt Dükalığı	dukalik	orta-avrupa	1863-08-19	1918-11-12	20173	Dessau	false
+cebel-i-lubnan-mutasarrifligi	Cebel-i Lübnan Mutasarrıflığı	mutasarriflik	arabistan	1861-06-09	1915-07-11	19756	Beyteddin	false
+kaqchikel-kralligi	Kaqchikel (Cakchiquel) Krallığı	krallik	orta-amerika	1470-01-01	1524-01-01	19723	Iximche	false
+dingan-guo	Dingan Devleti (Jeongan)	krallik	dogu-asya	0938-01-01	0991-01-01	19358	Fuyu?	false
+tahiri-horasan	Tâhirîler (Horasan)	hanedanlik	iran	0821-05-06	0873-01-01	18866	Merv → Nîşâbur	false
+italyan-eritre	İtalyan Eritresi	somurge	dogu-afrika	1890-01-01	1941-05-19	18767	Asmara	false
+lombardiya-venedik	Lombardiya-Venedik Krallığı	habsburg-kralligi	italya	1815-06-09	1866-10-12	18752	Milano / Venedik	false
+frankfurt-serbest-sehri	Frankfurt Serbest Şehri	serbest-sehir	orta-avrupa	1815-07-09	1866-10-08	18718	Frankfurt	false
+alman-konfederasyonu	Alman Konfederasyonu (Deutscher Bund)	devlet	orta-avrupa	1815-06-08	1866-08-24	18704	Frankfurt (Bundesversammlung)	false
+yeni-hollanda	Yeni Hollanda	somurge	kuzey-amerika	1614-01-01	1664-09-08	18513	New Amsterdam	false
+kirgiz-erken	Kırgızlar (müstakil evre, Göktürk fetret devri)	kabile-devleti	sibirya-bozkir	0630-01-01	0680-01-01	18262	belirsiz (Yenisey havzası; şehir adı bulunamadı)	false
+mari-lim	Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim)	krallik	suriye-filistin	-1809-01-01	-1760-01-01	17897	Mari (Tell Hariri)	false
+turges	Türgiş Kağanlığı	kaganlik	orta-asya	0717-01-01	0766-01-01	17897	Suyab	false
+kinde	Kinde Krallığı	kabile-kralligi	arabistan	0480-01-01	0528-01-01	17532	Kariyat el-Fav	false
+elsass-lothringen	Alsas-Loren İmparatorluk Bölgesi (Reichsland)	imparatorluk-topragi	bati-avrupa	1871-05-10	1918-11-11	17350	Strasbourg	false
+bati-qin-qifu	Batı Qin (Qifu Xianbei)	krallik	dogu-asya	0385-01-01	0431-01-01	16801	Yuanchuan	false
+kibris-ingiliz-kolonisi	Kıbrıs (İngiliz ilhakı 1914 → Taç Kolonisi 1925)	somurge	anadolu	1914-11-05	1960-08-16	16721	Lefkoşa	false
+cabo-juby-ispanyol	Cabo Juby (Tarfaya) İspanyol Bölgesi	himaye	kuzey-afrika	1912-11-27	1958-04-01	16562	Villa Bens (Tarfaya)	false
+buyuk-bulgaristan	Büyük Bulgaristan (Kubrat)	kabile-devleti	dogu-avrupa	0635-01-01	0680-01-01	16436	Phanagoria	false
+cebu-racaligi	Cebu Racalığı	beylik	guneydogu-asya	1521-01-01	1565-01-01	16071	Cebu (Singhapala)	false
+ogedey-ulusu	Ögedey Ulusu (Ögedeyîler)	hanlik	orta-asya	1267-01-01	1309-01-01	15340	Tarbagatay-Kara Irtış çevresi (şehir adı bulunamadı)	false
+sani-emirligi	Âl-i Sânî Emirliği (Katar)		arabistan	1871-09-20	1913-07-29	15288		false
+boiotia-birligi	Boiotia (Teb) Birliği	birlik	balkanlar	-0378-01-01	-0337-01-01	14975	Teb (Thebai)	false
+sacogullari	Sâcoğulları (Azerbaycan)	hanedanlik	kafkasya	0889-01-01	0929-09-09	14861	Merâga → Erdebîl	false
+sacilar	Sâcîler (Ebü's-Sâcoğulları)	hanedanlik	iran	0889-05-06	0929-09-09	14734	Merâga · Erdebil	false
+ispanyol-halkulvad	İspanyol Halkulvâd (La Goulette) ve Tunus himayesi	somurge	kuzey-afrika	1535-07-01	1574-08-24	14298	Halkulvâd (La Goulette)	false
+balear-tavaif	Mayurka Taifesi (Murtada)	taifa-emirligi	iberya	1076-08-05	1115-01-01	14027	Medina Mayurka	false
+tulunoglu	Tolunoğulları (Mısır-Suriye)	hanedanlik	misir-sudan	0868-01-01	0905-01-01	13514	Fustat → el-Katâi	false
+kibris-ingiliz	Kıbrıs'ın İngiliz İdaresi	gecici-isgal	anadolu	1878-06-04	1914-11-05	13302	Lefkoşa	false
+taberistan-zeydi	Taberistan Zeydileri (Aleviler) — I. donem	emirlik	iran	0864-02-13	0900-01-07	13112	Amul	false
+ifni-ispanyol	İspanyol Ifni	somurge	kuzey-afrika	1934-01-01	1969-06-30	12965	Sidi Ifni	true
+samo-devleti	Samo'nun Slav Krallığı	krallik	orta-avrupa	0623-01-01	0658-01-01	12783	bilinmiyor	false
+rio-de-la-plata-valiligi	Río de la Plata Genel Valiliği	gecici-isgal	guney-amerika	1776-01-01	1810-05-25	12564		false
+tanca-uluslararasi-bolge	Tanca Uluslararası Bölgesi	uluslararasi-idare	kuzey-afrika	1923-12-18	1956-10-29	12003	Tanca	true
+tanca-bolgesi	Tanca Uluslararası Bölgesi	statu-bolgesi	kuzey-afrika	1924-05-14	1956-10-29	11855	Tanca	true
+kafkas-imamligi	Kafkas (Dağıstan-Çeçenistan) İmamlığı	imamlik	kafkasya	1828-01-01	1859-09-06	11571	Gimry → Dargo → Veden	false
+italyan-libya	İtalyan Libya	somurge	kuzey-afrika	1911-10-05	1943-01-23	11432	Trablus	false
+bosna-isgal	Bosna-Hersek (Avusturya İşgali)	gecici-isgal	balkanlar	1878-07-13	1908-10-06	11042	Saraybosna	false
+mi-chen	Mi-ch'en (Pegu Körfezi krallığı)	krallik	guneydogu-asya	0805-01-01	0835-01-01	10957	bilinmiyor (Martaban Körfezi kıyısı, belki eski Pegu)	false
+muayyed-ay-aba-emirligi	Müeyyed Ay-aba ve Halefleri Emirliği (Nîşâbur-Tûs)	beylik	orta-asya	1157-04-26	1187-03-13	10914	Nîşâbur	false
+tigran-imp	Büyük Tigran'ın İmparatorluğu	imparatorluk	anadolu	-0094-01-01	-0065-01-01	10592	Tigranokerta	false
+gazneli-lahor	Gaznelilerin Lahor Kolu	sultanlik	guney-asya	1157-01-01	1186-01-01	10592	Lahor	false
+semerkant-ihsid	Semerkant Soğd İhşîdleri (Gûrek)	sehir-devleti	orta-asya	0710-01-01	0738-01-01	10227	Semerkant (Afrasiyab)	false
+horasan-oguz-hakimiyeti	Horasan ve Gazne Oğuz Hâkimiyeti (Sencer’in esareti sonrası)	devlet	orta-asya	1153-03-29	1181-01-01	10138	yok (göçebe Oğuz beyleri; Merv ve Herat’ta emîrler adına hutbe)	false
+kore-gecici-hukumeti	Kore Cumhuriyeti Geçici Hükûmeti	surgun-huk-meti	dogu-asya	1919-04-11	1945-11-23	9721	Şanghay (1932'ye dek), sonra Çongçing	false
+bohtan-emirligi	Bohtan Emirliği (Hükûmet-i Cezîre, Bedirhan Bey)	emirlik	mezopotamya	1821-01-01	1847-07-29	9707	Cizre	false
+sur-kadilari	Sûr (Tire) Kadıları Emirliği (İbn Ebî Akīl)	emirlik	suriye-filistin	1063-01-04	1089-03-16	9569	Sûr	false
+ngo-hanedani	Ngo Hanedani (Ngo Quyen)	krallik	guneydogu-asya	0939-01-01	0965-01-01	9496	Cổ Loa	false
+aden-kolonisi	Aden Kolonisi	somurge	arabistan	1937-04-01	1963-01-18	9422	Aden	true
+lizimakhos	Lizimakhos (Trakya) Krallığı	krallik	balkanlar	-0305-01-01	-0280-01-01	9131	Lysimacheia	false
+sabir	Sabirler (Sabir Hun Birliği)	konfederasyon	dogu-avrupa	0530-01-01	0555-01-01	9131	yok (Kafkasya, Hazar Kapıları ötesi)	false
+prilep-mrnjavcevic	Prilep Krallığı (Mrnjavčević / Kral Marko)	beylik	balkanlar	1371-01-01	1395-05-17	8904	Prilep	false
+bari-emirligi	Bari Emirliği	emirlik	italya	0847-01-01	0871-02-01	8796	Bari	false
+dejanovic-prensligi	Dejanović Prensliği (Kostadin-ili)		balkanlar	1371-09-26	1395-05-17	8635		false
+ingiliz-tanca	İngiliz Tanca	somurge	kuzey-afrika	1661-01-01	1684-02-01	8431	Tanca	false
+ikinci-atina-birligi	İkinci Atina Birliği	ittifak	balkanlar	-0377-01-01	-0354-01-01	8401	Atina	false
+antigonos-krallik	Antigonos ve Demetrios Krallığı (Antigonos Monophthalmos – D	krallik	anadolu	-0305-01-01	-0282-01-01	8401	Kelainai → Antigoneia (Orontes)	false
+qi-li-maozhen	Qi (Li Maozhen, 岐)	prenslik	dogu-asya	0901-01-01	0924-01-01	8401	Fengxiang	false
+ezzelino-signoria	Ezzelino da Romano Signoria'sı	signoria	italya	1236-11-01	1259-10-01	8370	Verona / Padova	false
+memuni-harezm	Me'mûnîler (Gürgenç Hârezmşahları)	hanedanlik	orta-asya	0995-02-05	1017-05-30	8152	Gürgenç (Köhne Ürgenç)	false
+babek-hurremi	Bâbek'in Hürremî isyanı (Bezz, Azerbaycan)	isyan	kafkasya	0816-01-01	0838-01-04	8038	Bezz	false
+kosova-brankovic	Brankoviç Toprakları (Kosova)	beylik	balkanlar	1373-01-01	1395-01-01	8035	Priştine	false
+tefrike	Tefrike Pavlikan Devleti	devlet	anadolu	0850-01-01	0872-01-01	8035	Tefrike (Divriği)	false
+dervis-devleti	Derviş Devleti (Muhammed Abdullah Hasan)	devlet	dogu-afrika	1899-01-01	1920-02-04	7704	Taleh	false
+cobaniler	Çobânîler (Çûbânîler)	hanedan	iran	1335-11-30	1357-01-01	7702	Tebriz	false
+xi-liang-li-gao	Batı Liang (Li Gao, 西涼)	krallik	dogu-asya	0400-01-01	0421-01-01	7670	Dunhuang → Jiuquan → Dunhuang	false
+selanik-imparatorlugu	Selânik İmparatorluğu (Komnenos Dukas kolu)	imparatorluk	balkanlar	1225-01-01	1246-01-01	7670	Selânik	false
+cebele-kadilari	Cebele (Jabala) Kadıları Emirliği	emirlik	suriye-filistin	1080-01-01	1101-01-01	7670	Cebele	false
+eyyubi-kerek	Kerek Eyyûbîleri (en-Nâsır Dâvûd)	emirlik	suriye-filistin	1229-01-01	1249-04-16	7411	Kerek	false
+selanik-kralligi	Latin Selânik Krallığı	krallik	balkanlar	1205-01-01	1225-01-01	7305	Selânik	false
+memel-bolgesi	Memel (Klaipėda) Bölgesi	mandater-bolge	dogu-avrupa	1920-02-10	1939-03-23	6983	Memel	false
+makedon-merisleri	Makedon Merisleri (Dört Makedon Cumhuriyeti)	cumhuriyet	balkanlar	-0166-01-01	-0147-01-01	6940	Amphipolis · Thessalonike · Pella · Pelagonia (Herakleia Lynkestis)	false
+lubnan-kaymakamliklari	Cebel-i Lübnan Çifte Kaymakamlığı (Hristiyan ve Dürzî Kaymak	prenslik	suriye-filistin	1843-01-01	1861-06-09	6735	Deyrülkamer	false
+misir-gazze-idaresi	Gazze Şeridi (Mısır idaresi)	isgal-idaresi	suriye-filistin	1949-02-24	1967-06-05	6677	Gazze	true
+yeni-isvec	Yeni İsveç	somurge	kuzey-amerika	1638-03-29	1655-09-15	6378	Fort Christina	false
+hou-liang-lu-guang	Sonraki Liang (Lü Guang, 後涼)	krallik	dogu-asya	0386-01-01	0403-01-01	6209	Guzang (Wuwei)	false
+crnojevic-zetasi	Crnojević Zetası		balkanlar	1482-01-01	1499-01-01	6209		false
+della-torre-signoria	Della Torre (Torriani) Signoria'sı (Milano)	signoria	italya	1260-01-01	1277-01-01	6209	Milano	false
+iskenderun-sancagi-ozel-idare	İskenderun Sancağı (Fransız mandasında özel idare)	ozerk-birim	suriye-filistin	1921-10-20	1938-09-02	6161	Antakya	false
+apulya-kontlugu-melfi	Apulya Kontluğu (Melfi)	kontluk	italya	1043-01-01	1059-01-01	5844	Melfi	false
+alevi-devleti-lazkiye	Alevîler Devleti / Lazkiye Hükümeti (Fransız mandası)	devlet	suriye-filistin	1920-08-31	1936-01-01	5601	Lazkiye	false
+dogu-macar-kralligi	Doğu Macar Krallığı (Szapolyai / Zapolya)	krallik	orta-avrupa	1526-08-29	1541-08-29	5479	Buda → Gyulafehérvár	false
+korint-birligi	Korint (Hellen) Birliği	ittifak	balkanlar	-0336-01-01	-0321-01-01	5479	Korint	false
+taberistan-zeydi-ii	Taberistan Zeydîleri (Hüseynî kolu) — II. dönem	emirlik	iran	0914-01-01	0928-11-10	5427	Âmül	false
+cebel-durzi-devleti	Cebel Dürzî Devleti (Fransız mandası)	devlet	suriye-filistin	1922-04-05	1937-01-01	5383	Süveyde	false
+girit-devleti	Girit Devleti (Özerk)	gecici-isgal	balkanlar	1898-12-22	1913-05-30	5274	Kandiye → Hanya	false
+galya-imp	Galya İmparatorluğu (Postumus)	ayrilikci-imparatorluk	bati-avrupa	0260-01-01	0274-01-01	5113	Augusta Treverorum (Trier)	false
+korsika-cumhuriyeti	Korsika (Paoli) Cumhuriyeti	cumhuriyet	italya	1755-07-15	1769-05-09	5047	Corte	false
+konstantin-beyligi	Konstantin Beyliği (Ahmed Bey)		kuzey-afrika	1830-07-05	1844-03-04	4991		false
+sultan-sah-emirligi	Sultan Şah Emirliği (Merv-Serahs-Tûs)	beylik	orta-asya	1181-01-01	1193-01-07	4389	Merv	false
+merkit	Merkitler	konfederasyon	sibirya-bozkir	1197-01-01	1209-01-01	4383	yok (göçebe; Selenga-Baykal bozkırı)	false
+fransiz-birligi	Fransız Birliği (Union française)	birlik	bati-afrika	1946-10-27	1958-10-04	4360	Paris	true
+sui-liang-liang-shidu	Liang (Liang Shidu, 梁)	krallik	dogu-asya	0617-01-01	0628-05-28	4166	Shuofang (Xiazhou)	false
+sirp-voyvodaligi	Sırp Voyvodalığı ve Tamiş Banatı	habsburg-topragi	balkanlar	1849-11-18	1860-12-27	4057	Temeşvar	false
+ahamenis-misir-2	Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi)	eyalet	misir-sudan	-0342-01-01	-0331-01-01	4018	Memfis	false
+dinh	Dinh Hanedani (Dai Co Viet)	krallik	guneydogu-asya	0968-01-01	0979-01-01	4018	Hoa Lu	false
+abe-mutsu	Abe Klanı Mutsu Yönetimi (Oku no Rokugun)	hanedanlik	dogu-asya	1051-01-01	1062-01-01	4018	Koromo-gawa (Koromo-gawa no saku)	false
+britanya-imparatorlugu-carausius	Britanya Galya Ayrılıkçı Devleti (Carausius ve Allectus)	imparatorluk	bati-avrupa	0286-01-01	0296-01-01	3652	Londinium / Gesoriacum	false
+afar-issa-fransiz-bolgesi	Afarlar ve İssalar Fransız Bölgesi	somurge	dogu-afrika	1967-07-03	1977-06-27	3646	Cibuti	true
+mengjiang	Mengjiang (Moğol Askerî Hükûmeti → Moğol Birleşik Özerk Hükû	vasal-devlet	dogu-asya	1936-01-01	1945-08-19	3518	Kalgan (Zhangjiakou), Hohhot	true
+filaretos-devleti	Filaretos Brakamios Devleti	devlet	anadolu	1077-01-01	1085-01-12	2933	bulunamadı (kaynak merkez vermiyor)	false
+oranj-nehri-kolonisi	Orange Nehri Kolonisi	somurge	guney-afrika	1902-05-31	1910-05-31	2922	Bloemfontein	false
+kosova-golge-cumhuriyeti	Kosova Cumhuriyeti (gölge devlet, Rugova)	taninmamis-devlet	balkanlar	1991-09-22	1999-06-10	2819	Priştine	true
+senegambiya	Senegambiya Konfederasyonu	konfederasyon	bati-afrika	1982-02-01	1989-09-30	2799	Dakar	true
+berg-buyuk-dukaligi	Berg Büyük Dükalığı	vasal-buyuk-dukalik	orta-avrupa	1806-03-15	1813-11-01	2786	Düsseldorf	false
+ren-konfederasyonu	Ren Konfederasyonu	konfederasyon	orta-avrupa	1806-07-12	1813-10-19	2655	Frankfurt	false
+sarki-rumeli	Şarkî Rumeli Vilayeti (Özerk)	gecici-isgal	balkanlar	1878-07-13	1885-09-18	2623	Filibe (Plovdiv)	false
+kilkenny-konfederasyonu	İrlanda Katolik Konfederasyonu (Kilkenny)	de-facto-devlet	bati-avrupa	1642-01-01	1649-01-01	2557	Kilkenny	false
+ingiliz-mezopotamya-idaresi	İngiliz Mezopotamya İşgal İdaresi (askerî yönetim → geçici A	isgal-idaresi	mezopotamya	1914-11-06	1921-08-23	2482	Basra (1914-1917) / Bağdat (1917-1921)	false
+westfalya-krallik	Westfalya Krallığı	vasal-krallik	orta-avrupa	1807-08-18	1813-10-26	2260	Kassel	false
+duong-dinh-nghe	Dương Đình Nghệ Özerkliği	emirlik	guneydogu-asya	0931-01-01	0937-01-01	2191	Dai La	false
+arap-cumhuriyetleri-federasyonu	Arap Cumhuriyetleri Federasyonu (Mısır-Libya-Suriye, nominal	federasyon	misir-sudan	1972-01-01	1977-11-19	2149	Kahire	true
+buyuk-lubnan-devleti	Büyük Lübnan Devleti (Fransız Mandası altında)	devlet	suriye-filistin	1920-09-01	1926-05-23	2092	Beyrut	false
+nanjing-wang-jingwei	Çin Cumhuriyeti Yeniden Düzenlenmiş Millî Hükûmeti (Wang Jin	devlet	dogu-asya	1940-03-30	1945-08-16	1964	Nanjing	true
+orta-macar-kralligi	Orta Macar Krallığı (Tököli İmre)		orta-avrupa	1682-09-16	1688-01-17	1949		false
+nayman	Naymanlar	hanlik	orta-asya	1199-01-01	1204-01-01	1826	bulunamadı	false
+fante	Fante Konfederasyonu	konfederasyon	bati-afrika	1868-01-01	1873-01-01	1826	Mankessim	false
+antigonos	Antigonos Monophthalmos Krallığı (Asya)	krallik	anadolu	-0305-01-01	-0300-01-01	1826	Antigoneia	false
+naiman	Naymanlar	hanlik	orta-asya	1199-01-01	1204-01-01	1826	yok (Altay-Kara İrtiş bozkırı; merkez TDV’de verilmiyor)	false
+irak-sam-islam-devleti	Irak ve Şam İslam Devleti (IŞİD / DEAŞ, "hilafet")	fiili-yonetim	mezopotamya	2014-06-29	2019-03-23	1729	Rakka (fiilî)	true
+natalia	Natalia (Boer) Cumhuriyeti	cumhuriyet	guney-afrika	1839-01-01	1843-05-12	1594	Pietermaritzburg	false
+sam-devleti	Şam Devleti (Fransız mandası alt devleti)	devlet	suriye-filistin	1920-09-01	1925-01-01	1583	Şam	false
+halep-devleti	Halep Devleti (Fransız mandası alt devleti)	devlet	suriye-filistin	1920-09-01	1925-01-01	1583	Halep	false
+lao-issara-hukumeti	Lao Issara Hükûmeti	hukumet	guneydogu-asya	1945-10-12	1949-10-24	1473	Vientiane	true
+cezayir-gpra	Cezayir Cumhuriyeti Geçici Hükümeti (GPRA)	gecici-hukumet	kuzey-afrika	1958-09-19	1962-09-25	1467	Kahire → Tunus	true
+kerayit	Kerâyitler (Ong Han ülkesi)	hanlik	orta-asya	1199-01-01	1203-01-01	1461	bulunamadı	false
+irlanda-dail-cumhuriyeti	İrlanda Cumhuriyeti (Dáil Éireann)	cumhuriyet-ilan	bati-avrupa	1919-01-21	1922-12-06	1416	Dublin	false
+birlesik-arap-devletleri	Birleşik Arap Devletleri (BAC + Yemen Mütevekkilî Krallığı)	devlet	arabistan	1958-03-08	1961-12-26	1388	Kahire	true
+fiji-cakobau	Fiji Krallığı (Cakobau)	krallik	okyanusya	1871-01-01	1874-10-10	1379	Levuka	false
+namibya-gecici-ulusal-birlik-hukumeti	Güneybatı Afrika Geçici Ulusal Birlik Hükümeti	gecici-hukumet	guney-afrika	1985-06-17	1989-02-28	1350	Windhoek	true
+yunan-izmir-bolgesi	İzmir Yunan İşgal Bölgesi	isgal-idaresi	anadolu	1919-05-15	1922-09-09	1211	İzmir	false
+fransiz-misir-seferi	Napolyon'un Mısır Seferi	gecici-isgal	misir-sudan	1798-07-01	1801-10-02	1188	Kahire	false
+ikinci-meksika-imparatorlugu	İkinci Meksika İmparatorluğu (Maximilian)	imparatorluk	orta-amerika	1864-04-10	1867-06-19	1166	Meksiko	false
+urfa-toros-beyligi	Urfa Ermeni Beyliği (Kuropalat Toros)	beylik	mezopotamya	1095-02-26	1098-03-10	1110	Urfa	false
+somali-ulusal-gecis-hukumeti	Somali Geçici Ulusal Hükümeti (Arta/Cibuti)	gecici-hukumet	dogu-afrika	2000-01-01	2003-01-01	1096	Mogadişu	true
+bar-kohba	Bar Kohba Devleti (İsrail Hürriyeti)	devlet	suriye-filistin	0132-01-01	0135-01-01	1096	Betar	false
+sfaks-firyani-emirligi	Sfaks Emirliği — Ömer b. Ebü'l-Hüseyin el-Firyânî (Norman so	emirlik	kuzey-afrika	1156-01-01	1159-01-01	1096	Sfaks	false
+basmil	Basmıl Kağanlığı	konfederasyon	orta-asya	0742-01-01	0745-01-01	1096	—	false
+muntefik-basra	Müntefik (Âl-i Sa'dûn) Basra hâkimiyeti	seyhlik	mezopotamya	1694-08-22	1697-07-20	1063	Basra	false
+bingazi-emirligi	Sirenayka (Bingazi) Emirliği (İdris es-Senûsî)	ozerk-emirlik	kuzey-afrika	1949-03-01	1951-12-24	1027	Bingazi	true
+schleswig-holstein-1848	Schleswig-Holstein Geçici Hükûmeti	ayaklanma-devleti	kuzey-avrupa	1848-03-24	1851-01-15	1026	Kiel	false
+anglo-korsika-krallik	Anglo-Korsika Krallığı	koruma-kralligi	italya	1794-01-01	1796-10-01	1004	Corte → Bastia	false
+oeta-guney	Düşman İşgal Toprakları İdaresi — Güney (OETA South, İngiliz	isgal-idaresi	suriye-filistin	1917-10-31	1920-07-01	974	Kudüs	false
+cad-gunt	Çad Ulusal Birlik Geçiş Hükümeti (GUNT)	gecici-hukumet	orta-afrika	1979-11-10	1982-06-07	941	N'Djamena → Bardaï	true
+malta-fransiz	Malta Fransız İşgali	gecici-isgal	italya	1798-06-12	1800-09-04	814	Valletta	false
+peru-bolivya-konfederasyonu	Peru–Bolivya Konfederasyonu	konfederasyon	guney-amerika	1836-10-28	1839-01-20	814	Tacna/Lima	false
+doguhebei-ozerk	Doğu Hebei Komünizm Karşıtı Özerk Hükûmeti	vasal	dogu-asya	1935-11-25	1938-02-01	798	Tongzhou (Ağustos 1937'den Tangshan)	true
+antalya-italyan	Antalya-Konya İtalyan İşgal Bölgesi	isgal-idaresi	anadolu	1919-03-28	1921-06-01	795	Antalya	false
+kilikya-fransiz	Kilikya Fransız İşgal Bölgesi	isgal-idaresi	anadolu	1919-11-01	1921-12-23	783	Adana	false
+alas-ozerkligi	Alaş Özerkliği (Alaş Orda)	ozerk-hukumet	sibirya-bozkir	1917-12-01	1920-01-01	761	Semey (Semipalatinsk)	false
+polonya-naiplik-kralligi	Polonya Naiplik Krallığı (Regency Kingdom, Alman-Avusturya h	krallik	dogu-avrupa	1916-11-05	1918-11-11	736	Varşova	false
+yemame-museylime	Yemâme (Müseylime / Benî Hanîfe)	kabile-kralligi	arabistan	0631-01-01	0633-01-01	730	Hecr (Yemâme)	false
+ongut	Öngütler (Ongut)	hanlik	dogu-asya	1204-01-01	1206-01-01	730	yok (Çin Seddi yakını, İç Moğolistan)	false
+italyan-karadag	Karadağ İtalyan Valiliği	isgal-idaresi	balkanlar	1941-10-03	1943-09-12	709	Cetinje	true
+oeta-bati-fransiz	Düşman İşgal Toprakları İdaresi — Batı/Kuzey (OETA West/Nort	isgal-idaresi	suriye-filistin	1918-10-08	1920-09-01	693	Beyrut	false
+taira-rejimi	Taira Rejimi (Antoku Sarayı — Batı Denizi dönemi)	hanedanlik	dogu-asya	1183-08-01	1185-04-25	633	bilinmiyor (gezici saray, Batı Denizi/Saikai; Yashima, Dazaifu vb. ayrıntı okunmadı)	false
+gilan-sovyet-cumhuriyeti	İran Sosyalist Sovyet Cumhuriyeti (Gîlân Cumhuriyeti, Kuçek 	cumhuriyet	iran	1920-06-05	1921-11-01	513	Reşt	false
+alman-isgali-karadag	Alman İşgali Altındaki Karadağ	isgal-idaresi	balkanlar	1943-09-12	1944-12-15	460	bulunamadı	true
+kolcak-omsk-hukumeti	Kolçak Hükûmeti (Omsk, Rusya Yüce Hükümdarlığı)	beyaz-hareket-devleti	sibirya-bozkir	1918-11-18	1920-01-04	412	Omsk → Nijneudinsk	false
+azerbaycan-milli-hukumeti	Azerbaycan Millî Hükûmeti (Pişeverî — Muhtar Azerbaycan Cumh	cumhuriyet	iran	1945-12-12	1946-12-12	365	Tebriz	true
+untac	UNTAC (BM Kamboçya Geçiş İdaresi)	vesayet	guneydogu-asya	1992-02-28	1993-01-01	308	Phnom Penh	true
+belarus-halk-cumhuriyeti	Belarus Halk Cumhuriyeti	cumhuriyet-ilan	dogu-avrupa	1918-03-25	1919-01-05	284	Minsk	false
+untea	UNTEA (BM Geçici İdaresi, Batı Yeni Gine)	vesayet	okyanusya	1962-10-01	1963-05-01	213	Hollandia	true
+vietnam-imparatorlugu-1945	Vietnam İmparatorluğu (Bảo Đại, Japon himayesi)	vasal-devlet	guneydogu-asya	1945-03-01	1945-08-25	176	Huế	true
+arap-birligi-irak-urdun	Arap Birliği (Irak-Ürdün Federasyonu)	federasyon	arabistan	1958-02-14	1958-08-01	170	Bağdat	true
+esved-ansi-yemen	Esved el-Ansî Yemen Yönetimi	devlet	arabistan	0632-01-01	0632-06-03	154	San'a	false
+macar-sovyet-cumhuriyeti	Macar Sovyet Cumhuriyeti	devrim-devleti	orta-avrupa	1919-03-21	1919-08-01	132	Budapeşte	false
+macaristan-halk-cumhuriyeti	Macaristan Halk Cumhuriyeti (Károlyi)	cumhuriyet	orta-avrupa	1918-11-16	1919-03-21	127	Budapeşte	false
+angola-unita-fnla	Angola Demokratik Halk Cumhuriyeti (UNITA–FNLA, Huambo)	fiili-hukumet	orta-afrika	1975-11-11	1976-02-11	91	Huambo	true
+falkland-arjantin-isgali	Falkland/Malvinas — Arjantin yönetimi	gecici-isgal	guney-amerika	1982-04-02	1982-06-14	73	Puerto Argentino	true
+masakado-shinno	Taira no Masakado'nun Yeni İmparatorluğu (Shinnō)	krallik	dogu-asya	0940-01-01	0940-03-01	61	Shimosa Ishii	false
+da-chu-zhang-bangchang	Da Chu (Zhang Bangchang, 大楚)	imparatorluk	dogu-asya	1127-03-01	1127-04-01	30	Kaifeng	false
+bavyera-konsey-cumhuriyeti	Bavyera Konsey (Sovyet) Cumhuriyeti	devrim-devleti	orta-avrupa	1919-04-07	1919-05-03	26	Münih	false
+karpat-ukrayna	Karpat Ukraynası	kisa-omurlu-devlet	orta-avrupa	1939-03-15	1939-03-18	3	Hust	true
+puntland	Puntland Devleti (özerk)	ozerk-devlet	dogu-afrika	1998-01-01			Garoowe	true
+butan	Butan (Druk Yul; Wangchuck monarşisi)	krallik	guney-asya	1907-12-17			Thimphu	false
+kibris-ingiliz-ussler	Akrotiri ve Dikelya Egemen Üs Bölgeleri	bagimlilik	anadolu	1960-08-16			Episkopi	true
+cebelitarik-ingiliz	Cebelitarık (İngiliz Denizaşırı Toprağı)	bagimlilik	iberya	1713-07-13			Cebelitarık	false
+svalbard	Svalbard (Norveç egemenliği)	bagimlilik	kuzey-avrupa	1925-08-14			Longyearbyen	true
+falkland-ingiliz	Falkland (Malvinas) Adaları (İngiliz)	bagimlilik	guney-amerika	1833-01-03			Stanley	false
+transkaspi-hukumeti	Sosyal Devrimci Transhazar (Transkaspiya) Geçici Hükûmeti	hukumet	orta-asya	1918-01-01			Aşkabat	false
+ukaydir	Ukaydirîler (Yemâme)	hanedan	arabistan	0866-01-01			Hadarim / Ukhaydir (Yemâme)	false
+bima-sultanligi	Bima Sultanlığı	sultanlik	guneydogu-asya	1620-01-01			Bima	false
+mangkunegaran	Mangkunegaran Prensliği (Surakarta)	prenslik	guneydogu-asya	1757-01-01			Surakarta	false
+dilmun	Dilmun	krallik-ticaret-devleti	arabistan	-1999-01-01			Kala'at al-Bahrain	false
+uman-ibadi	Uman Ibadi Imamligi (I. imamlik)	imamlik	arabistan	0750-01-01			Nezva	false
+luwu	Luwu Krallığı (Güney Sulawesi)	krallik	guneydogu-asya	1281-01-01			Malangke, ~1620'den Palopo	false
+buton	Buton (Wolio) Sultanlığı	sultanlik	guneydogu-asya	1281-01-01			Wolio (Bau-Bau)	false
+nevers-kontlugu	Nevers Kontluğu (Nivernais)	kontluk	bati-avrupa	0987-01-01			Nevers	false
+kimek	Kimek Kağanlığı (İrtiş)	kaganlik	sibirya-bozkir	0850-01-01			Yemekiye (yazlık)	false
+chitu	Chitu (Kızıl Toprak)	krallik	guneydogu-asya	0450-01-01			Singora? (Songkhla)	false
+pattikera	Pattikera Krallığı (Doğu Bengal–Tripura)	krallik	guney-asya	1202-01-01			Pattikera (Mainamati)	false
+beja-krallik	Beja Krallıkları (Hadariba/Baqlin vb.)	krallik	misir-sudan	0800-01-01			belirsiz (birimler arası farklı)	false

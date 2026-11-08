@@ -1,0 +1,54 @@
+{
+ "maddeToplam": 18004,
+ "yerIdDolu": 12368,
+ "yerKonDolu": 1226,
+ "odakYerDolu": 4773,
+ "herhangiYerBilgisi": 17685,
+ "yerMetinDolu": 8374,
+ "yerMetniAmaYerIdBos": 3317,
+ "yerBilgisiHicYok": 319,
+ "yerId": {
+  "eslesen": 12336,
+  "eslesmeyen": 32,
+  "eslesmeyenAmaNormalizeKarsilikVar": 0,
+  "belirsizAd_birdenCokKayit": 0
+ },
+ "odakYer": {
+  "ok": 6334,
+  "yok": 2
+ },
+ "yerMetinJeton": {
+  "benzersiz": 2434,
+  "atlastaVar": 719,
+  "atlastaYok": 1715
+ },
+ "sahne": {
+  "degerlendirilen": 12336,
+  "tarihYok": 0,
+  "dagilim": {
+   "ok": 11085,
+   "ilk_donem_oncesi": 547,
+   "bosluk_sahipsiz": 416,
+   "kur_oncesi": 115,
+   "donemler_arasi_bosluk": 2,
+   "son_donem_sonrasi": 17,
+   "donemsiz": 66,
+   "son_donem_bitis_gunu(sinir)": 88
+  }
+ },
+ "yerlesim": {
+  "toplam": 5515,
+  "kurDolu": 1998,
+  "donemsiz": 576,
+  "donemsizTur": {
+   "sehir": 239,
+   "bolge": 194,
+   "koy": 1,
+   "kale": 19,
+   "?": 21,
+   "liman": 4,
+   "kasaba": 14,
+   "harabe": 84
+  }
+ }
+}

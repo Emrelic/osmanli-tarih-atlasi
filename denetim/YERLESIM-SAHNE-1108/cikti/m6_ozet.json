@@ -1,0 +1,137 @@
+{
+ "yerlesim": 5515,
+ "km1_cift": 12,
+ "km3_cift": 24,
+ "km1_sinif": {
+  "paren_ic=diger": 2,
+  "farkli_ad+DONEM_CAKISIR": 1,
+  "farkli_ad": 8,
+  "norm_esit+DONEM_CAKISIR": 1
+ },
+ "km1_ornek": {
+  "paren_ic=diger": [
+   "Vostitsa (Aigion) ⇄ Aigion (0.00 km)",
+   "Kalavrita (Kalavryta) ⇄ Kalavryta (0.00 km)"
+  ],
+  "farkli_ad+DONEM_CAKISIR": [
+   "Belgrad ⇄ Belgrad Kalesi (Kalemegdan) (0.82 km)"
+  ],
+  "farkli_ad": [
+   "Kayrevan ⇄ İfrîkıye (0.42 km)",
+   "Erbil ⇄ Adiabene (0.03 km)",
+   "Kurtuba (Córdoba) ⇄ Endülüs (0.24 km)",
+   "Dimitrofça (Sremska Mitrovica) ⇄ Sirmium (Sremska Mitrovica) (0.36 km)",
+   "Filistin ⇄ Remle (Ramla) (0.19 km)",
+   "Lusitania ⇄ Baetica (0.00 km)"
+  ],
+  "norm_esit+DONEM_CAKISIR": [
+   "Port Vila ⇄ Port Vila (Efate) (0.00 km)"
+  ]
+ },
+ "parenliAd": 1902,
+ "cokluAdliParen": 87,
+ "cokluAdOrnek": [
+  "Gozo (Cittadella, Rabat)",
+  "Kaohsiung (Takao / Dagou)",
+  "Yilan (Kavalan / Gamalan)",
+  "Taitung (Beinan / Pi-lam)",
+  "Kinmen (Jincheng / Quemoy)",
+  "Kunashiri (Furukamappu / Yuzhno-Kurilsk)",
+  "Etorofu (Shana / Kurilsk)",
+  "Nikolskoye (Bering Adası, Komandor)"
+ ],
+ "ayniAdTekrar": 0,
+ "ayniAdTekrarOrnek": [],
+ "preParenBaskaKayitlaCakisan": 67,
+ "preParenCakisanOrnek": [
+  "Yenişehir → Yenişehir (Bursa) | Yenişehir (Larissa)",
+  "Akhisar → Akhisar (Pamukova) | Akhisar (Manisa)",
+  "Mora → Mora (Tripoliçe)",
+  "Kordofan → Kordofan (Ubeyyid)",
+  "Radom → Radom (Polonya)",
+  "Bar → Bar (Podolya) | Bar (Antivari)",
+  "Kiş → Kiş (Kish) | Kiş (Tell Uhaimir)",
+  "Tuzla → Tuzla (Larnaka) | Tuzla (Bosna)"
+ ],
+ "ayniNormaAdFarkliUzakYer": 61,
+ "ayniNormOrnek": [
+  "Yenişehir (Bursa)@40.3,29.6 | Yenişehir (Larissa)@39.6,22.4",
+  "Akhisar (Pamukova)@40.5,30.1 | Akhisar (Manisa)@38.9,27.8",
+  "Mora (Tripoliçe)@37.5,22.4 | Mora@61.0,14.5",
+  "Kudüs@31.8,35.2 | Kudus@-6.8,110.8",
+  "Kordofan (Ubeyyid)@13.2,30.2 | Kordofan@13.0,29.5",
+  "Roma@41.9,12.5 | Roma (Queensland)@-26.6,148.8",
+  "Granada@37.2,-3.6 | Granada (Nikaragua)@11.9,-86.0",
+  "Frankfurt@50.1,8.7 | Frankfurt (Oder)@52.3,14.6"
+ ],
+ "aliasAlani": [],
+ "alanDoluluk": {
+  "ad": 5515,
+  "lat": 5515,
+  "lon": 5515,
+  "_dosya": 5515,
+  "s": 5430,
+  "tur": 5401,
+  "g": 5312,
+  "k": 4766,
+  "d": 3323,
+  "kaynak": 3081,
+  "kur": 1998,
+  "not": 1588,
+  "m": 1190,
+  "neden": 938,
+  "bos": 829,
+  "v": 770,
+  "bit": 693,
+  "kd": 434,
+  "isg": 432,
+  "kasitli_bosluk": 334,
+  "kesinlik": 312,
+  "konum_kesinlik": 126,
+  "sinir": 34,
+  "go": 13,
+  "ikiz": 8
+ },
+ "yerIdBaglanma": {
+  "tamEsles": 12279,
+  "preParenEsles": 57
+ },
+ "referansiOlanYerlesim": 2605,
+ "ref10plus": 436,
+ "parenliYerlesimeReferans": {
+  "yerlesim": 878,
+  "kisaAdlaBagliBaglanti": 615,
+  "tamAdlaBagliBaglanti": 3408
+ },
+ "enCokReferansAlan20": [
+  "İstanbul: 610 (yer_id 568, odak 30, m 12)",
+  "Kahire: 289 (yer_id 183, odak 49, m 57)",
+  "Paris: 195 (yer_id 141, odak 54, m 0)",
+  "Tebriz: 184 (yer_id 114, odak 66, m 4)",
+  "Londra: 181 (yer_id 150, odak 31, m 0)",
+  "Xi'an (Chang'an): 171 (yer_id 50, odak 121, m 0)",
+  "Bağdat: 154 (yer_id 124, odak 16, m 14)",
+  "Tunus: 146 (yer_id 99, odak 12, m 35)",
+  "Viyana: 140 (yer_id 105, odak 35, m 0)",
+  "Kûfe: 122 (yer_id 11, odak 111, m 0)",
+  "Edirne: 120 (yer_id 66, odak 14, m 40)",
+  "Halep: 117 (yer_id 83, odak 22, m 12)",
+  "Tiflis: 112 (yer_id 79, odak 32, m 1)",
+  "Moskova: 109 (yer_id 94, odak 15, m 0)",
+  "Roma: 107 (yer_id 91, odak 16, m 0)",
+  "Şam: 105 (yer_id 79, odak 19, m 7)",
+  "Konya: 103 (yer_id 76, odak 15, m 12)",
+  "Cenova: 99 (yer_id 97, odak 2, m 0)",
+  "Buhara: 96 (yer_id 58, odak 38, m 0)",
+  "Atina: 92 (yer_id 63, odak 25, m 4)"
+ ],
+ "yerIdYerKon": {
+  "ikisiDe": 341,
+  "uyumlu50km": 338,
+  "uyumsuzOrnek": [
+   "1266-02-28 Benevento ↔ yer_kon 462 km",
+   "1914-07-28 Viyana ↔ yer_kon 212 km",
+   "1814-08-14 Oslo ↔ yer_kon 53 km"
+  ]
+ }
+}

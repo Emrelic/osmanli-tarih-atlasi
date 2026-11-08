@@ -1,0 +1,13 @@
+ad_a	ad_b	km	sinif	donem_cakisir	dosya_a	dosya_b	tur_a	tur_b
+Vostitsa (Aigion)	Aigion	0.00	paren_ic=diger	false	yerlesimler.js	yerlesimler_once1281_yt_avrupa.js	kasaba	sehir
+Kalavrita (Kalavryta)	Kalavryta	0.00	paren_ic=diger	false	yerlesimler.js	yerlesimler_once1281_yt_avrupa.js	kasaba	sehir
+Belgrad	Belgrad Kalesi (Kalemegdan)	0.82	farkli_ad	true	yerlesimler.js	yerlesimler.js	sehir	kale
+Kayrevan	İfrîkıye	0.42	farkli_ad	false	yerlesimler.js	yerlesimler_once1281_yt_avrupa.js	sehir	bolge
+Erbil	Adiabene	0.03	farkli_ad	false	yerlesimler.js	yerlesimler_once1281_yt_anadolu_kafkas.js	sehir	bolge
+Kurtuba (Córdoba)	Endülüs	0.24	farkli_ad	false	yerlesimler_avrupa.js	yerlesimler_once1281_yt_avrupa.js	sehir	bolge
+Dimitrofça (Sremska Mitrovica)	Sirmium (Sremska Mitrovica)	0.36	farkli_ad	false	yerlesimler_ek_bosluk.js	yerlesimler_once1281_yt_avrupa.js	sehir	harabe
+Port Vila	Port Vila (Efate)	0.00	norm_esit	true	yerlesimler_a78_okyanusya.js	yerlesimler_ek_pasifik_adalar.js	liman	liman
+Filistin	Remle (Ramla)	0.19	farkli_ad	false	yerlesimler_once1281_yt_ortadogu.js	yerlesimler_ms1_1281_yeni.js	bolge	sehir
+Lusitania	Baetica	0.00	farkli_ad	false	yerlesimler_once1281_yt_avrupa.js	yerlesimler_once1281_yt_avrupa.js	bolge	bolge
+Mısır	Eski Kahire (Babilon Kalesi)	0.69	farkli_ad	false	yerlesimler_once1281_yt_afrika_levant.js	yerlesimler_once1281_yt_afrika_levant.js	bolge	sehir
+Karthago	Kartaca (Carthage)	0.00	farkli_ad	false	yerlesimler_mo_zincir.js	yerlesimler_dogu_500_1281.js	sehir	sehir

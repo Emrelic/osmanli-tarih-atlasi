@@ -1,0 +1,601 @@
+{
+ "hucre": "2.0x2.0 derece",
+ "toplam_hucre": 16200,
+ "kara_hucresi(>=%50 kara)": 5367,
+ "kesitler": {
+  "1000": {
+   "sahnede_yerlesim": 428,
+   "var_ama_sahnesiz": 2977,
+   "kara_hucresi_bos(0)": 5141,
+   "bos_oran": 95.8,
+   "bos_oran_enlem_-58_70": 93.6,
+   "anlamsiz_seyreklik_hucre": 1,
+   "ilk30": [
+    {
+     "lat0": 52.0,
+     "lon0": 6.0,
+     "bu": 0,
+     "var": 2,
+     "komsu_ort": 4.4,
+     "n_komsu": 5,
+     "kara": 0.75,
+     "ulke": "Netherlands"
+    }
+   ]
+  },
+  "1500": {
+   "sahnede_yerlesim": 2772,
+   "var_ama_sahnesiz": 803,
+   "kara_hucresi_bos(0)": 4487,
+   "bos_oran": 83.6,
+   "bos_oran_enlem_-58_70": 75.1,
+   "anlamsiz_seyreklik_hucre": 12,
+   "ilk30": [
+    {
+     "lat0": 12.0,
+     "lon0": 40.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 5.0,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Ethiopia"
+    },
+    {
+     "lat0": 28.0,
+     "lon0": 28.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 4.3,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Egypt"
+    },
+    {
+     "lat0": 16.0,
+     "lon0": -100.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 4.2,
+     "n_komsu": 4,
+     "kara": 0.72,
+     "ulke": "Mexico"
+    },
+    {
+     "lat0": 36.0,
+     "lon0": 128.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.7,
+     "n_komsu": 3,
+     "kara": 0.61,
+     "ulke": "South Korea"
+    },
+    {
+     "lat0": 12.0,
+     "lon0": 34.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.4,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 32.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.4,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Morocco"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.0,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Spain"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": 32.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 8.2,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Turkey"
+    },
+    {
+     "lat0": 16.0,
+     "lon0": 38.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.5,
+     "n_komsu": 4,
+     "kara": 0.53,
+     "ulke": "Eritrea"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 4.0,
+     "bu": 1,
+     "var": 2,
+     "komsu_ort": 5.4,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "France"
+    },
+    {
+     "lat0": 34.0,
+     "lon0": 40.0,
+     "bu": 1,
+     "var": 5,
+     "komsu_ort": 5.1,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Syria"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 24.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Romania"
+    }
+   ]
+  },
+  "1800": {
+   "sahnede_yerlesim": 3627,
+   "var_ama_sahnesiz": 751,
+   "kara_hucresi_bos(0)": 4019,
+   "bos_oran": 74.9,
+   "bos_oran_enlem_-58_70": 62.0,
+   "anlamsiz_seyreklik_hucre": 16,
+   "ilk30": [
+    {
+     "lat0": 12.0,
+     "lon0": 40.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 5.0,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Ethiopia"
+    },
+    {
+     "lat0": 28.0,
+     "lon0": 28.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 4.3,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Egypt"
+    },
+    {
+     "lat0": 36.0,
+     "lon0": 128.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.7,
+     "n_komsu": 3,
+     "kara": 0.61,
+     "ulke": "South Korea"
+    },
+    {
+     "lat0": 12.0,
+     "lon0": 34.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.5,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 32.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.4,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Morocco"
+    },
+    {
+     "lat0": 10.0,
+     "lon0": 76.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.2,
+     "n_komsu": 5,
+     "kara": 0.97,
+     "ulke": "India"
+    },
+    {
+     "lat0": 20.0,
+     "lon0": -100.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.2,
+     "n_komsu": 6,
+     "kara": 1.0,
+     "ulke": "Mexico"
+    },
+    {
+     "lat0": 14.0,
+     "lon0": 30.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 20.0,
+     "lon0": 74.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "India"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.0,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Spain"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": 32.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 8.6,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Turkey"
+    },
+    {
+     "lat0": 16.0,
+     "lon0": 38.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.5,
+     "n_komsu": 4,
+     "kara": 0.53,
+     "ulke": "Eritrea"
+    },
+    {
+     "lat0": 34.0,
+     "lon0": 40.0,
+     "bu": 1,
+     "var": 5,
+     "komsu_ort": 5.2,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Syria"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 4.0,
+     "bu": 1,
+     "var": 2,
+     "komsu_ort": 5.2,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "France"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 24.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.1,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Romania"
+    },
+    {
+     "lat0": 42.0,
+     "lon0": 42.0,
+     "bu": 1,
+     "var": 2,
+     "komsu_ort": 5.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Georgia"
+    }
+   ]
+  },
+  "1900": {
+   "sahnede_yerlesim": 4377,
+   "var_ama_sahnesiz": 648,
+   "kara_hucresi_bos(0)": 3622,
+   "bos_oran": 67.5,
+   "bos_oran_enlem_-58_70": 50.7,
+   "anlamsiz_seyreklik_hucre": 16,
+   "ilk30": [
+    {
+     "lat0": 12.0,
+     "lon0": 40.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 5.1,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Ethiopia"
+    },
+    {
+     "lat0": 28.0,
+     "lon0": 28.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 4.3,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Egypt"
+    },
+    {
+     "lat0": 12.0,
+     "lon0": 34.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 4.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 36.0,
+     "lon0": 128.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.7,
+     "n_komsu": 3,
+     "kara": 0.61,
+     "ulke": "South Korea"
+    },
+    {
+     "lat0": 32.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.5,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Morocco"
+    },
+    {
+     "lat0": 10.0,
+     "lon0": 76.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.2,
+     "n_komsu": 5,
+     "kara": 0.97,
+     "ulke": "India"
+    },
+    {
+     "lat0": 20.0,
+     "lon0": -100.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.2,
+     "n_komsu": 6,
+     "kara": 1.0,
+     "ulke": "Mexico"
+    },
+    {
+     "lat0": 14.0,
+     "lon0": 30.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.1,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 16.0,
+     "lon0": 34.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Sudan"
+    },
+    {
+     "lat0": 20.0,
+     "lon0": 74.0,
+     "bu": 0,
+     "var": 0,
+     "komsu_ort": 3.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "India"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": -4.0,
+     "bu": 0,
+     "var": 1,
+     "komsu_ort": 3.0,
+     "n_komsu": 7,
+     "kara": 1.0,
+     "ulke": "Spain"
+    },
+    {
+     "lat0": 38.0,
+     "lon0": 32.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 8.9,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Turkey"
+    },
+    {
+     "lat0": 16.0,
+     "lon0": 38.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.8,
+     "n_komsu": 4,
+     "kara": 0.53,
+     "ulke": "Eritrea"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 4.0,
+     "bu": 1,
+     "var": 2,
+     "komsu_ort": 5.4,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "France"
+    },
+    {
+     "lat0": 46.0,
+     "lon0": 24.0,
+     "bu": 1,
+     "var": 1,
+     "komsu_ort": 5.1,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Romania"
+    },
+    {
+     "lat0": 42.0,
+     "lon0": 42.0,
+     "bu": 1,
+     "var": 2,
+     "komsu_ort": 5.0,
+     "n_komsu": 8,
+     "kara": 1.0,
+     "ulke": "Georgia"
+    }
+   ]
+  }
+ },
+ "kronik_3+_kesitte": 10,
+ "kronik_4_kesitte": 0,
+ "kronik_ilk30": [
+  {
+   "lat0": 12.0,
+   "lon0": 40.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Ethiopia"
+  },
+  {
+   "lat0": 28.0,
+   "lon0": 28.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Egypt"
+  },
+  {
+   "lat0": 36.0,
+   "lon0": 128.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "South Korea"
+  },
+  {
+   "lat0": 12.0,
+   "lon0": 34.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Sudan"
+  },
+  {
+   "lat0": 32.0,
+   "lon0": -4.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Morocco"
+  },
+  {
+   "lat0": 38.0,
+   "lon0": -4.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Spain"
+  },
+  {
+   "lat0": 38.0,
+   "lon0": 32.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Turkey"
+  },
+  {
+   "lat0": 16.0,
+   "lon0": 38.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Eritrea"
+  },
+  {
+   "lat0": 46.0,
+   "lon0": 4.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "France"
+  },
+  {
+   "lat0": 46.0,
+   "lon0": 24.0,
+   "kesit": [
+    1500,
+    1800,
+    1900
+   ],
+   "ulke": "Romania"
+  }
+ ]
+}
