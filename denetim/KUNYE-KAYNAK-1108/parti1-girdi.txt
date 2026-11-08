@@ -1,0 +1,42 @@
+## hollanda-guyanasi Hollanda Guyanası (Surinam) 1667-01-01 -> 1975-11-25
+KAYNAK: standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi
+IC_NOT: None
+## fransiz-guyanasi Fransız Guyanası 1817-01-01 -> None
+KAYNAK: standart akademik/ansiklopedik — TEK kaynaklı
+IC_NOT: None
+## bophuthatswana Bophuthatswana (Bantustan) 1977-12-06 -> 1994-04-27
+KAYNAK: https://worldstatesmen.org/South_African_homelands.html ; https://simple.wikipedia.com/wiki/Bantustan (ipucu)
+IC_NOT: None
+## venda-bantustan Venda (Bantustan) 1979-09-13 -> 1994-04-27
+KAYNAK: https://worldstatesmen.org/South_African_homelands.html
+IC_NOT: None
+## ciskei Ciskei (Bantustan) 1981-12-04 -> 1994-04-27
+KAYNAK: https://worldstatesmen.org/South_African_homelands.html
+IC_NOT: None
+## federe-olmayan-malay-devletleri Federe Olmayan Malay Devletleri (Johor, Kedah, Kelantan, Perlis, Terengganu) 1909-03-10 -> 1946-04-01
+KAYNAK: worldstatesmen.org/Malaysia.htm (Malayan Union kapsamı)
+IC_NOT: None
+## grenada Grenada 1974-02-07 -> None
+KAYNAK: https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK, resmî teyit önerilir
+IC_NOT: None
+## dominika Dominika Milletler Topluluğu 1978-11-03 -> None
+KAYNAK: https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK
+IC_NOT: None
+## saint-lucia Saint Lucia 1979-02-22 -> None
+KAYNAK: https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK
+IC_NOT: None
+## antigua-barbuda Antigua ve Barbuda 1981-11-01 -> None
+KAYNAK: https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK
+IC_NOT: None
+## saint-kitts-nevis Saint Kitts ve Nevis Federasyonu 1983-09-19 -> None
+KAYNAK: https://campusgroups.rit.edu/csa/caribbean-independence-days/ ; ZAYIF KAYNAK
+IC_NOT: None
+## rupeniler Rupenî (Ermeni) Prensliği 1092-01-01 -> 1199-01-06
+KAYNAK: Der Nersessian, S., 'The Kingdom of Cilician Armenia' (attalus.org/armenian/KCA2.htm, Setton, History of the Crusades II) — «Leon II was crowned with great solemnity in the cathedral church of Tarsus, on January 6, 1198»
+IC_NOT: DUNYA-1102 2. geçiş D: teyit tek kaynak. Önceki kaynak (Britannica 'Rubenid dynasty', 'Levon I') dayanak olamaz, değiştirildi. DEGISIKLIK ONERISI: tac giyme 6 Ocak 1198 (atlas 1199; Britannica'ya dayanip 1198'i yanlis saymisti, Britannica yasak kaynak). Arama ozeti bazi yazarlarin 1196-1198 araligi verdigini soyler. Ardil kunye kilikya-ermeni f'si ayni siniri paylasir (listemde yok, birlikte karar verilmeli); ucuncu bagimsiz akademik kaynak (Boase, TIB) onerilir. f=1092 okunmadi.
+## asturias Asturias Krallığı 0718-01-01 -> 0910-01-01
+KAYNAK: Foundation for Medieval Genealogy, 'Asturias & León, Kings' (fmg.ac/Projects/MedLands/ASTURIAS, LEON.htm)
+IC_NOT: None
+## alman-isgali-karadag Alman İşgali Altındaki Karadağ 1943-09-12 -> 1944-12-15
+KAYNAK: https://en.wikipedia.org/wiki/German-occupied_territory_of_Montenegro (Tomasevich, War and Revolution in Yugoslavia, 2001; ikincil)
+IC_NOT: None
