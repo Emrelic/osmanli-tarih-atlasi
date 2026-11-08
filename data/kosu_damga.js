@@ -33,12 +33,12 @@ window.KOSU_DAMGA = {
   // KOŞU 25 ELLE yazıldı (HAVVA, 15 Ekim 2026). KOŞU 22-24 çıktıları da yayına indi ama bu dosya
   // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler atlas-kosu25/kosu25-20261015-002715
   // -bayraklar.log ve aynı koşunun logundan birebir okundu. Çıktı commit'i: e2ca9be62 (yayın r12414).
-  no: 34,                         // koşu numarası — arayüzde "KOŞU 34" diye görünür
-  tarih: "2026-11-06",             // çıktının main'e alındığı gün
+  no: 35,                         // koşu numarası — arayüzde "KOŞU 35" diye görünür
+  tarih: "2026-11-08",             // çıktının main'e alındığı gün
   makine: "HAVVA",                 // koşuyu KOŞTURAN makine
-  commit: "7acb10c1",              // KOŞU 34 girdi commit'i = origin/main (5 Kasım 02:05), tuz ef3d49e7c2d9 (renkler.py değişti: RENK-1105 partisi)
-  temel: "7acb10c1",               // koşunun girdi temeli · bayraklar KOŞU 33 ile aynı
-  sure: "22 sa 11 dk",             // 2026-11-05 02:36:59 → 11-06 00:48:32, kesintisiz (mesai 09-19 eczane kısıtıyla Idle, tüm çekirdek)
+  commit: "57af6004",              // KOŞU 35 girdi commit'i = origin/main (8 Kasım 02:45), tuz ef3d49e7c2d9 (KOŞU 34 ile aynı ⇒ önbellek isabeti)
+  temel: "57af6004",               // koşunun girdi temeli · bayraklar KOŞU 34 ile aynı
+  sure: "16 sa 34 dk",             // 2026-11-08 02:46:14 → 11-08 19:20:37, kesintisiz (hafta sonu: tam işlemci, RAM tavanı 24 GB)
   bayraklar: {
     yuruyus: true,                 // MOTOR_YURUYUS=1  ← sahiplik prensibi
     yuruyus_saat: 40,              // MOTOR_YURUYUS_SAAT=40 (bütçe 40 saat = 5 gün)
@@ -52,7 +52,7 @@ window.KOSU_DAMGA = {
     komsu_kur_bol: true,           // MOTOR_KOMSU_KUR_BOL=1 (başlatıcı bayrak logundan, KOŞU 30)
     kur_devir: true,               // MOTOR_KUR_DEVIR=1 (KOŞU 31)
     kusatma_bilesen: true,         // MOTOR_KUSATMA_BILESEN=1 (KOŞU 31)
-    tohum_yaka: true               // MOTOR_TOHUM_YAKA=1 (KOŞU 31; KOŞU 34 bayrak logu kosu34-20261105-023659-bayraklar.log)
+    tohum_yaka: true               // MOTOR_TOHUM_YAKA=1 (KOŞU 31; KOŞU 35 bayrak logu kosu35-20261108-024614-bayraklar.log)
   },
   // Koşunun KENDİ denetim kaydı yok (koşu 30 denetle'si iniş zincirinde koşuldu); 8k körlük defteri:
   //   ÇIKIŞ 0 (iniş) · 7e 1985 · 8a 180/180 (tavan Emre onayıyla 154→180) · 8b 0/0 · 8k defter 96

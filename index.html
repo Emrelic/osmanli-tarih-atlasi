@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
-<script>window.SURUM="r14913";</script>
+<script>window.SURUM="r0";</script>
 <link rel="stylesheet" href="css/style.css?v=r146378380">
 </head>
 <body>
@@ -17,7 +17,7 @@
 <!-- 🏷️ KOŞU DAMGASI — app.js'ten ÖNCE yüklenmeli (app.js onu okuyup yazıyor).
      Dosya birkaç yüz bayt; pakete girmesine gerek yok, ve pakete GİRMEMELİ:
      paket bir koşuda değişmeyebilir, damga HER koşuda değişir. -->
-<script src="data/kosu_damga.js?v=r141366064"></script>
+<script src="data/kosu_damga.js?v=r118465021"></script>
 <!-- 🔴 PERDE KORUMASI (UFUK-DUGME-0930): perdeyi kaldıran çağrı app.js'te
      (`window.acilisBitir()`, atlas-hazir anında). app.js o çağrıyı taşımayan bir
      sürümse (yarım yayın) perde SONSUZA kadar kalırdı. Bu gözcü aynı işi
@@ -1219,7 +1219,7 @@
      (tazeliği yayın kapısı sınar). İçindekiler:
        data/devirler.js
        data/devletler.js -->
-<script src="data/paket_05.js?v=r41158555"></script>
+<script src="data/paket_05.js?v=r175309090"></script>
 <!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
      DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
@@ -1967,9 +1967,9 @@
 
 
 </script>
-<script src="data/bolgeler.js?v=r178850492"></script>
+<script src="data/bolgeler.js?v=r214951460"></script>
 <!-- bolge_pencere.js — bölge sınırı × o günün Osmanlı gövdesi (arac/uret_bolge_pencere.py, iniş adımı · Emre 17 Ekim 2026) -->
-<script src="data/bolge_pencere.js?v=r164974205"></script>
+<script src="data/bolge_pencere.js?v=r202108675"></script>
 <!-- ═══ GEOMETRİ: KODLANMIŞ KOORDİNAT HAVUZU (Emre kararı, 28 Eylül 2026) ═══
      Koşu 17b'de sürtünmeli yürüyüş İLK KEZ açıldı ve devletler_harita.js
      85,3 → 169,1 MB oldu — GitHub'ın 100 MB/dosya sert sınırının ÜSTÜ,
@@ -1990,7 +1990,7 @@
         için base64 + senkron çözme yolu seçildi (Emre: "app.js'e dokunma").
      📌 devletler_harita.js artık DEPODA DURMUYOR (.gitignore). Araçlar için
         yerelde üretilir: `py arac/kodla.py coz-c data data/devletler_harita.js` -->
-<script src="data/devlet_harita_ust.js?v=r205575536"></script>
+<script src="data/devlet_harita_ust.js?v=r262452406"></script>
 <!-- ▼ TEMBEL YÜKLEME (29 Eylül 2026) — Emre: "tembel yüklemeyi de yapalım,
      app.js'e dokunmak gerekse de."
      ÖLÇÜLDÜ: devlet_parcalar.js 17,69 MB telde ve açılışta EŞZAMANLI
@@ -2034,15 +2034,15 @@
         (İlk hedefte havuz dosyanın EN BAŞINDAYDI, bu yüzden hiç görünmemişti.)
      📌 donemler.js artık DEPODA DURMUYOR (.gitignore). Araçlar için yerelde:
         py arac/kodla.py coz-c data data/donemler.js donem -->
-<script src="data/donemler_on.js?v=r8066976"></script>
-<script src="data/donemler_ust.js?v=r94559799"></script>
+<script src="data/donemler_on.js?v=r197111242"></script>
+<script src="data/donemler_ust.js?v=r122358028"></script>
 <!-- 🔴 DÖNEM KATMAN 1 (25 Ekim 2026): donem_parcalar.js (13,5 MB) artık BURADA
      YÜKLENMEZ — engelleyici <script> idi. Yerine açılış gününün halkalarını
      taşıyan donem_parca_on.js (0,7 KB) var; tam havuz js/geo_coz.js tarafından
      `load`dan SONRA arka planda getirilir ve window.__donemYenile() çağrılır.
      Üretim: py arac/kodla.py on-dilim-donem data  (havuz değişince YENİDEN
      koşturulmalı; `kodla.py kapi` bayatlığı yakalar). -->
-<script src="data/donem_parca_on.js?v=r247150465"></script>
+<script src="data/donem_parca_on.js?v=r10164981"></script>
 <script src="js/geo_coz.js?v=r56615683"></script>
 <script src="data/sehirler.js?v=r176551662"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
