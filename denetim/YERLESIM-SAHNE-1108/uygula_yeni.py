@@ -30,7 +30,7 @@ ids = set(re.findall(r'\bid:\s*"([^"]+)"', dev))
 ren = open(os.path.join(KOK, 'arac', 'renkler.py'), encoding='utf-8').read()
 boya = ren[ren.index('BOYALAR = {'):]
 boya = set(re.findall(r'^\s*"([^"]+)"\s*:', boya, re.M))
-Y = json.load(open(VERI, encoding='utf-8'))['Y']
+Y = [y for y in json.load(open(VERI, encoding='utf-8'))['Y'] if y.get('_dosya') != 'yerlesimler_sahne1108.js']   # kendi çıktısını mükerrer saymasın
 idx = {}
 for y in Y:
     for p in [y['ad'].split(' (')[0]] + re.findall(r'\(([^)]+)\)', y['ad']):
@@ -72,8 +72,9 @@ for f in sorted(glob.glob(os.path.join(ARA, 'arastirma_*.json'))):
 def js(v): return json.dumps(v, ensure_ascii=False)
 satir = []
 for e, _ in kabul:
-    s = ',\n   '.join('{f:%s,t:%s,d:%s,kaynak:%s}' % (js(r['f']), 'undefined' if r.get('t') in (None, 'null', '') else js(r['t']), js(r['d']), js(r['kaynak'] + ' [KAYNAK OKUNMADI/teyit bekliyor — YERLESIM-SAHNE-1108]')) for r in e['s'])
-    s = s.replace('t:undefined,', '')
+    # denetle.py her dönemde 't' bekler; atlas sözleşmesi: açık uç = "2000-01-01" (bkz. Ankara 1923→2000)
+    bit = lambda r: '2000-01-01' if r.get('t') in (None, 'null', '') or gk(r['t']) > 20000101 else r['t']
+    s = ',\n   '.join('{f:%s,t:%s,d:%s,kaynak:%s}' % (js(r['f']), js(bit(r)), js(r['d']), js(r['kaynak'] + ' [KAYNAK OKUNMADI/teyit bekliyor — YERLESIM-SAHNE-1108]')) for r in e['s'])
     satir.append('{ ad:%s, tur:"sehir", lat:%s, lon:%s, g:0, k:3,%s\n s:[%s],\n kaynak:%s },' % (
         js(e['ad']), e['lat'], e['lon'], '' if e.get('_kur_at') else ' kur:%s,' % js(e['kur']), s,
         js('Koordinat: ' + (e.get('koord_kaynak') or '?') + ' [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: ' + (e.get('guven') or '?') + ' güven]')))
