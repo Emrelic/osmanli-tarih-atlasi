@@ -854,7 +854,8 @@ window.DEVLETLER = [
 { id:"cenova", ad:"Cenova Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
   f:"1099-01-01", t:"1797-06-14", baskent:"Cenova", harita:"ceneviz",
   ozet:"Kefe, Sakız ve Sinop'ta kolonileri olan İtalyan deniz cumhuriyeti; kolonilerini sırayla Osmanlı'ya kaptırdı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Aldo Gallotta, «Ceneviz», TDV İslâm Ansiklopedisi, c.7 (İstanbul 1993), s.363-365 (islamansiklopedisi.org.tr/ceneviz) — «Bağımsızlığına 1099'da kavuştuktan sonra…»",
+  ic_not:"KUNYE-KAYNAK-1108 (9 Kasım 2026): f yılı (1099) TDV «Ceneviz» maddesinde okunarak teyit edildi; gün yok, f=YYYY-01-01 yıl düzeyidir [yalnız yıl teyitli; gün teyitsiz]. TEK KAYNAK. t (1797-06-14) bu işte teyit edilmedi, dokunulmadı.",
   kronoloji:[
     { odak_yer:["Cenova"], t:"1099-01-01", tur:"kurulus", b:"Konsüllük yönetimiyle özerk deniz cumhuriyeti hâline geldi" },
     { odak_yer:["Cenova"], t:"1261-03-13", tur:"antlasma", b:"Nymphaeum Antlaşması ile Bizans'tan Karadeniz'de ticaret ayrıcalığı aldı — Kırım kolonizasyonunun önünü açtı" },
@@ -2637,7 +2638,8 @@ window.DEVLETLER = [
 { id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran", harita:"zend",
   f:"1751-01-01", t:"1794-01-01", baskent:"Şiraz",
   ozet:"Nadir Şah'ın ölümü sonrası kargaşada Kerim Han'ın kurduğu, şah unvanı yerine \"Vekilü'r-Reâyâ\" sanını kullandığı İran hanedanı; Kaçarlar tarafından ortadan kaldırıldı (bkz. [[kacar]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir. ⚠️ VERİ DEVLET (7 Ağustos 2026): `harita:\"zend\"` eklendi (RENK 2 oturumu rengini hazırlıyor). Haritada bu künyeye bağlanması beklenen pencere 1747-06-20→1796-01-01 (123 nokta, koordinatör ölçtü) — künyenin kendi f/t'siyle (1751-1794) ~4 yıl baş, ~2 yıl son farkı var; 1747-1751 arası Nadir Şah sonrası çok taraflı kargaşa (Âzâd Han Afgan, Muhammed Hasan Han Kaçar ile rekabet) olduğu için TDV/standart kaynak Zend'in konsolidasyonunu 1751'e koyuyor. Fark künyenin kusuru değil, iki farklı sorunun (\"devlet ne zaman kuruldu\" vs \"harita hangi güne kadar iran'ı taşıyor\") cevabı — bkz. CLAUDE.md kimlikler.js §74 emsali.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Rıza Kurtuluş, «Zendler», TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr/zendler) — Kerim Han'ın 1751'in ilk aylarında İran'da iktidara gelip son Safevî III. İsmâil adına vekil olduğu",
+  ic_not:"KUNYE-KAYNAK-1108 (9 Kasım 2026): f yılı (1751) TDV «Zendler» maddesinde okunarak teyit edildi; gün verilmiyor, f=YYYY-01-01 yıl düzeyidir [yalnız yıl teyitli; gün teyitsiz]. TEK KAYNAK. t (1794) bu işte teyit edilmedi, dokunulmadı.",
   kronoloji:[
     { odak_yer:["Şiraz"], t:"1751-01-01", tur:"kurulus", b:"Kerim Han Zend, Nadir Şah sonrası kargaşada İran'ın büyük bölümünü ele geçirdi" },
     { odak_yer:["Basra","Şiraz"], t:"1765-01-01", tur:"hukumdar", b:"Şiraz'ı başkent yaparak imar etti, Basra ile ticareti geliştirdi" },
