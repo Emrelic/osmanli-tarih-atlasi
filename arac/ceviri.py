@@ -49,14 +49,20 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # metin düzeltmeleri), 4 arayüz tarih kalıbı ("# (YIL)" vb.), 1 devlet adı (burgonya →
 # "Burgonya Dükalığı"). fr/ru/pt eksik İNDİ (birleşen çeviriler). Eski değerler: eksik en/ar/es/de
 # olay 2, pt 1119, ru 3518, fr 4718, arayüz/devlet 0; bayat olay 53/53/53/53/41/17/0.
+# 10 Kasım 2026 (KRON-DUNYA-BOLGE-1109, oturum-fa12c6): tavan AÇILDI — 22 yeni dış olay
+# (data/olaylar_dunya_bolge_1109.js: Timur'un ölümü, Floransa, Mátyás, Alhambra, Şarlken, Şah İsmail/
+# Tahmasb/Abbas, Kazan, Astrahan, Poltava, Mahmud Hotakî, II. Katerina, Georgievsk, Gülistan, İran
+# Meşrutiyeti, 1907, II. Nikolay, Balfour, Ekim Devrimi) + 2 arayüz gün kalıbı (Poltava Gregoryen/
+# Jülyen, Şah Abbas 'Ekim # — ay hassasiyeti'). Çeviri işleri Emre'nin 4 Kasım kararıyla bekliyor.
+# Eski değerler: eksik arayüz 4, olay en/ar/es/de 14, pt 1131, ru 3228, fr 4128.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 4, "devlet": 0, "olay": 14},
-    "ar": {"arayuz": 4, "devlet": 0, "olay": 14},
-    "es": {"arayuz": 4, "devlet": 0, "olay": 14},
-    "de": {"arayuz": 4, "devlet": 0, "olay": 14},
-    "pt": {"arayuz": 4, "devlet": 0, "olay": 1131},
-    "ru": {"arayuz": 4, "devlet": 0, "olay": 3228},
-    "fr": {"arayuz": 4, "devlet": 0, "olay": 4128},
+    "en": {"arayuz": 6, "devlet": 0, "olay": 36},
+    "ar": {"arayuz": 6, "devlet": 0, "olay": 36},
+    "es": {"arayuz": 6, "devlet": 0, "olay": 36},
+    "de": {"arayuz": 6, "devlet": 0, "olay": 36},
+    "pt": {"arayuz": 6, "devlet": 0, "olay": 1153},
+    "ru": {"arayuz": 6, "devlet": 0, "olay": 3250},
+    "fr": {"arayuz": 6, "devlet": 0, "olay": 4150},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
