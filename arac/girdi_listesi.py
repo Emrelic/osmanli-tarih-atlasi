@@ -759,4 +759,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek_pasifik_adalar.js",
     # ZINCIR-64 (8 Kasim 2026) - UMIT zincir_hazir.json: 64 yeni yerlesim, tam sahiplik zinciri
     "yerlesimler_zincir64.js",
+    # YERLESIM-SAHNE-1108 (9 Kasim 2026): kronolojide anilip atlasta olmayan yerlesimler (mukerrer taramali)
+    "yerlesimler_sahne1108.js",
 ]

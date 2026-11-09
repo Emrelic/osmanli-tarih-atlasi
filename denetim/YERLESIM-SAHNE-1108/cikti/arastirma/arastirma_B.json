@@ -1,0 +1,41 @@
+{
+"yeni_kayit": [
+{"ad":"Charaideo","tur":"sehir","lat":26.97,"lon":94.73,"koord_kaynak":"UNESCO WHL 1672 Moidams of Charaideo (Sivasagar, Assam) - koordinat bellekten, kaynak sayfasi acilmadi","kur":"1253-01-01",
+ "s":[{"f":"1253-01-01","t":"1281-01-01","d":"__BOSLUK__","kaynak":"Ahom devleti kunyesi f=1281; atlas maddesi (kronoloji_cok_dogu_500_1281.js) 'Ahomlar Charaideo'ya yerlesti' 1253."},{"f":"1281-01-01","t":"1826-02-24","d":"ahom","kaynak":"Ahom kunyesi; Charaideo Ahom ilk baskenti ve kraliyet mezarligi (UNESCO)."}],
+ "guven":"orta","notlar":"1253-1281 BOSLUK: ahom kunyesi f'si 1253'e cekilirse d:ahom yazilabilir (ayni polity surer -> kunyeyi GENISLET). Koordinat yaklasik (~5 km). 1826 sonrasi yapilmadi."},
+{"ad":"Yapahuwa (Yapahuva)","tur":"sehir","lat":7.8167,"lon":80.3,"koord_kaynak":"Wikipedia/GeoNames (yalniz koordinat teyidi) 7.82N 80.30E; bellekten","kur":"1273-01-01",
+ "s":[{"f":"1273-01-01","t":"1284-01-01","d":"seylan-sinhala","kaynak":"Codrington 1926 (atlas dambadeniya kaydinda kaynakli): I. Bhuvanaikabahu 1271'den birkac yil sonra baskenti Yapahuva'ya tasidi; atlas maddesi 1284: Pandya generali Yapahu'yu aldi."}],
+ "guven":"dusuk","notlar":"Tasinma yili kaynakta 'birkac yil sonra' (kesin yil yok); 1273 yaklasik, kesinlik:'onyil' yazilmali. 1284 sonrasi Pandya eline gecti; Pandya elinde kalis suresi dogrulanmadi -> yapilmadi."},
+{"ad":"Dingan (Jeongan)","tur":"sehir","lat":42.0,"lon":126.5,"koord_kaynak":"YOK - Dingan'in konumu belirsiz (atlas maddesi 'Dingan (Fuyu?)')","kur":"0938-01-01",
+ "s":[{"f":"0938-01-01","t":"0991-01-01","d":"dingan-guo","kaynak":"devletler.js dingan-guo kunyesi 0938-0991; maddeler 970/981/989 Dingan kralini Song'a elci gonderen olarak anar."}],
+ "guven":"dusuk","notlar":"lat/lon YER TUTUCUDUR (Balhae kalintisi; baskent Yalu/Liaodong/Jilin arasi kaynakta kesin degil). Akademik kaynak bulunana dek kayit acma ya da BEYANLI YAKLASIKLIK ile ac."},
+{"ad":"Prambanan (Loro Jonggrang)","tur":"sehir","lat":-7.752,"lon":110.4914,"koord_kaynak":"UNESCO WHL 642 Prambanan Temple Compounds","kur":"0850-01-01",
+ "s":[{"f":"0850-01-01","t":"0929-01-01","d":"medang","kaynak":"Atlas maddesi 0850 (Prambanan insaati); Coedes 1968 (atlas yerlesim kaydinda kaynakli): Sindok 929'da baskenti Dogu Cava'ya tasidi."}],
+ "guven":"orta","notlar":"Yogyakarta'ya 14 km: ayri nokta. 0850-0856 Sailendra (kunye 0778-0856) ile Medang ortusmesi belirsiz; Medang secildi. 929 sonrasi sahiplik belgelenmedi -> devami yapilmadi."},
+{"ad":"Kahuripan (Doğu Cava)","tur":"sehir","lat":-7.5,"lon":112.7,"koord_kaynak":"YOK - Airlangga baskentinin yeri tartismali; yaklasik","kur":"1037-01-01",
+ "s":[{"f":"1037-01-01","t":"1042-01-01","d":"kahuripan","kaynak":"Atlas maddesi 1037 Airlangga Kahuripan'a yerlesti; kahuripan kunyesi 1019-1042."},{"f":"1042-01-01","t":"1136-01-01","d":"janggala","kaynak":"Madde 1042: krallik Janggala ve Panjalu'ya bolundu; Kahuripan'in Janggala merkezi oldugu gelenek - DOGRULANMADI."}],
+ "guven":"dusuk","notlar":"Atlasta Surabaya ve Malang kayitlari zaten d:kahuripan tasiyor. Koordinat yer tutucu. Janggala dilimi dusuk guven."},
+{"ad":"Aghata (Ahar) [Medapata]","tur":"sehir","lat":24.5919,"lon":73.7313,"koord_kaynak":"Ahar, Udaipur - bellekten, yaklasik","kur":"0943-01-01",
+ "s":[{"f":"0943-01-01","t":"1000-01-01","d":"guhila-mevar","kaynak":"Atlas madde 943 Bhartripatta II Ahar yazitı: Aghata Medapata baskenti; guhila-mevar kunyesi 0550-1948."}],
+ "guven":"dusuk","notlar":"Medapata BOLGE adi (Mevar), sehir degil (maddeler 646/753/951 bolgeyi anar). Atlasta Nagahrada (15 km) ve Udeypur (1559+) var. Oneri: Ahar adiyla ac. 1000 sonrasi racput kunyesi ile ortusme cozulmedi."},
+{"ad":"Japila (Japla?)","tur":"sehir","lat":24.53,"lon":84.0,"koord_kaynak":"YOK - Japila'nin Japla (Palamu) ile esitlenmesi dogrulanmadi","kur":"1158-01-01",
+ "s":[{"f":"1158-01-01","t":"1223-01-01","d":"khayaravala-japila","kaynak":"Atlas maddeleri 1158/1197/1223 (Shahabad yazitlari); khayaravala-japila kunyesi 1158-1223."}],
+ "guven":"dusuk","notlar":"Koordinat dogrulanmadi; kayit acmadan once akademik koordinat (Epigraphia Indica) sart. 1158-1197 Gahadavala vassali (ayri iliski)."},
+{"ad":"Kamatapur (Gosanimari)","tur":"sehir","lat":26.39,"lon":89.4,"koord_kaynak":"Gosanimari kalintilari, Koch Bihar - bellekten, yaklasik","kur":"1290-01-01",
+ "s":[{"f":"1290-01-01","t":"1498-01-01","d":"kamata","kaynak":"Atlas maddeleri 1290/1293: Kamata Racasi Durlabh Narayan, baskent Kamatapur; madde 1498: Huseyin Sah Kamata'yi ortadan kaldirdi. kamata kunyesi 1257-1581."}],
+ "guven":"orta","notlar":"Koc Bihar kaydi 9 km, s:[] bos. Koordinat +-10 km belirsiz. 1498 sonrasi devami yapilmadi."},
+{"ad":"Samye (Bsam-yas)","tur":"manastir","lat":29.3167,"lon":91.5167,"koord_kaynak":"Wikipedia/Britannica (yalniz koordinat) 29.32N 91.52E - bellekten","kur":"0779-01-01",
+ "s":[{"f":"0779-01-01","t":"0842-01-01","d":"tibet-imparatorlugu","kaynak":"Atlas maddesi 779 (Trisong Detsen Samye'yi kurdu, yaklasik); tibet-imparatorlugu kunyesi 0629-0842."},{"f":"0842-01-01","t":"1264-01-01","d":"__BOSLUK__","kaynak":"842 sonrasi parcalanma: Orta Tibet icin atlasta uygun kimlik yok (guge bati, sakya 1264+)."},{"f":"1264-01-01","t":"1354-01-01","d":"sakya","kaynak":"Sakya kunyesi 1264-1354; Samye'nin Sakya yonetiminde oldugu varsayimi dogrulanmadi."}],
+ "guven":"orta","notlar":"tur manastir. Yarlung (Nedong) kaydi 27 km: ayri. Maddeler 747/749 daha erken (rivayet); kur 779. 1354 sonrasi tibet devami yapilmadi."}
+],
+"zaten_var": [
+ {"ad":"Kannauj","atlasta":"Kannauc (27.055,79.916) 1 km"},
+ {"ad":"Seogyeong","atlasta":"Pyongyang (39.019,125.738) 1 km; madde 'Pyongyang (Seogyeong)' - ayni yer"},
+ {"ad":"Youzhou","atlasta":"Pekin (Hanbalik) 1 km; kayit metni Youzhou/Yanjing'i anar"},
+ {"ad":"Weizhou","atlasta":"Daming (36.3097,115.2184); madde 'Weizhou (Daming)'"},
+ {"ad":"Shuofang","atlasta":"Xiazhou (Tongwancheng) 37.999,108.849; kayit Shuofang'i anar. Shuofang/Yanlu = Tongwancheng (Baichengzi) bellek bilgisi, dogrulanmadi."},
+ {"ad":"Suvarnapura","atlasta":"Sonepur (Subarnapur) 20.833,83.917, 'Eski ad: Suvarnapura'; s:[] BOS - somavamsi (0950-1110) dilimi doldurulabilir"},
+ {"ad":"Vyadhapura","atlasta":"Angkor Borei 10.996,104.976 vekil nokta 'Eski ad: Vyadhapura'; madde Ba Phnom diyor (Takeo 24 km); ayri Ba Phnom noktasi onerilir, koordinat teyit edilmedi"}
+],
+"ozet":["9 yeni kayit; 7 zaten var.","Yuksek guven 0; orta 4 (Charaideo, Prambanan, Kamatapur, Samye); dusuk 5.","Web acilmadi: koordinatlar bellekten, hepsi dogrulama ister.","Bulunamayan: Dingan ve Japila konumu, Kahuripan baskent yeri, Yapahuwa tasinma yili.","d kimlikleri devletler.js ve renkler.py'de kontrol edildi."]
+}

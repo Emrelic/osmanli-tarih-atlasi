@@ -1,0 +1,380 @@
+[
+ {
+  "ad": "Ekbatana (Hemedan)",
+  "tur": "sehir",
+  "lat": 34.799,
+  "lon": 48.515,
+  "koord_kaynak": "Hemedan, data/yerlesimler.js mevcut kayıt; Brown, Encyclopaedia Iranica 'Ecbatana'",
+  "kur": "-0677-01-01",
+  "s": [
+   {
+    "f": "-0677-01-01",
+    "t": "-0549-01-01",
+    "d": "medya",
+    "kaynak": "Herodotos geleneği; Iranica 'Ecbatana'"
+   },
+   {
+    "f": "-0549-01-01",
+    "t": "-0329-01-01",
+    "d": "ahamenis",
+    "kaynak": "Nabonidus Vakayinamesi: Kyros Ekbatana'yı aldı (Iranica)"
+   }
+  ],
+  "guven": "yuksek",
+  "notlar": "MEVCUT: data/yerlesimler.js satır 842 'Hemedan' (zincir -0677'den Part/İlhanlı'ya dolu). Eksik değil, ad eşleşmesi: yer_id 'Ekbatana' yerine 'Hemedan' kullanılmalı. Yeni kayıt AÇMA (mükerrer)."
+ },
+ {
+  "ad": "Pelusium (Feremâ)",
+  "tur": "kale",
+  "lat": 31.0426,
+  "lon": 32.5471,
+  "koord_kaynak": "Pleiades 727192 (Pelusium), mevcut Feremâ kaydından",
+  "kur": "-0700-01-01",
+  "s": [
+   {
+    "f": "-0700-01-01",
+    "t": "-0663-01-01",
+    "d": "misir-3-ara",
+    "kaynak": "künye misir-3-ara (25. Hanedan, Kuşî dönemi); Eltekeh -701"
+   },
+   {
+    "f": "-0663-01-01",
+    "t": "-0524-01-01",
+    "d": "sait-26-hanedan",
+    "kaynak": "künye sait-26-hanedan (Shaw)"
+   },
+   {
+    "f": "-0524-01-01",
+    "t": "-0403-01-01",
+    "d": "ahamenis-misir",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0403-01-01",
+    "t": "-0342-01-01",
+    "d": "misir-28-30-hanedan",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0342-01-01",
+    "t": "-0331-01-01",
+    "d": "ahamenis-misir-2",
+    "kaynak": "künye; Pelusium 343'te Artakserkses'e düştü"
+   },
+   {
+    "f": "-0331-01-01",
+    "t": "-0322-06-10",
+    "d": "iskender-imparatorlugu",
+    "kaynak": "Iskender Mısır'a Pelusium'dan girdi (madde -0331)"
+   },
+   {
+    "f": "-0322-06-10",
+    "t": "-0029-08-01",
+    "d": "ptolemai",
+    "kaynak": "künye"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "MEVCUT: data/yerlesimler_once1281_yt_afrika_levant.js satır 34 'Feremâ' (s:[] boş, bos:veri-yok). Eksik olan zincir; dilimler oraya yazılmalı. Devamı yapılmadı (Roma -0029, Bizans, 639 Arap fethi...). Dilimler künye sınırlarına dayanır, Pelusium'a özgü kaynak okunmadı."
+ },
+ {
+  "ad": "Sardes (Sart)",
+  "tur": "sehir",
+  "lat": 38.488314,
+  "lon": 28.040286,
+  "koord_kaynak": "mevcut Sart kaydı",
+  "kur": "-0651-01-01",
+  "s": [
+   {
+    "f": "-0679-01-01",
+    "t": "-0545-01-01",
+    "d": "lidya",
+    "kaynak": "künye lidya (Gyges c. -680; Sardes başkent)"
+   },
+   {
+    "f": "-0545-01-01",
+    "t": "-0329-01-01",
+    "d": "ahamenis",
+    "kaynak": "Kyros Kroisos'u yendi (-546)"
+   }
+  ],
+  "guven": "yuksek",
+  "notlar": "MEVCUT: data/yerlesimler_ms1_1281_yeni.js satır 303 'Sart' (kur -0651, zincir dolu). Madde -0684 < kur -0651 ve lidya f -0679: kur -0679'a çekilmeli. Mükerrer açma."
+ },
+ {
+  "ad": "Ktesifon (Ctesiphon)",
+  "tur": "sehir",
+  "lat": 33.0947,
+  "lon": 44.5812,
+  "koord_kaynak": "mevcut Ktesiphon kaydı",
+  "kur": "-0140-01-01",
+  "s": [
+   {
+    "f": "-0140-01-01",
+    "t": "0224-04-28",
+    "d": "part",
+    "kaynak": "mevcut"
+   }
+  ],
+  "guven": "yuksek",
+  "notlar": "MEVCUT: data/yerlesimler_mo_zincir.js satır 9 'Ktesiphon' (-0140→0224 part). Madde 0010 bu aralıkta; sorun ad eşleşmesi (Ktesifon/Ktesiphon). Sasani dilimi (0224-04-28→~0637 sasani, sonra hulefa-yi-rasidin) yapılmadı."
+ },
+ {
+  "ad": "Karkemiş (Carchemish)",
+  "tur": "sehir",
+  "lat": 36.8269,
+  "lon": 38.0151,
+  "koord_kaynak": "Cerablus kaydı; Pleiades Carchemish",
+  "kur": "-1344-01-01",
+  "s": [
+   {
+    "f": "-1344-01-01",
+    "t": "-1179-01-01",
+    "d": "hitit",
+    "kaynak": "Şuppiluliuma Karkemiş'i aldı (kronoloji -1344); künye hitit"
+   },
+   {
+    "f": "-1179-01-01",
+    "t": "-0716-01-01",
+    "d": "yeni-hitit",
+    "kaynak": "künye yeni-hitit (başkent Karkemiş); Kuzi-Teşub -1174"
+   },
+   {
+    "f": "-0716-01-01",
+    "t": "-0608-01-01",
+    "d": "yeni-asur",
+    "kaynak": "mevcut Cerablus kaydı; II. Sargon -717"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "MEVCUT: data/yerlesimler_ek25.js satır 77 'Cerablus' zinciri -0716'dan başlıyor, -0608→1281 __BOSLUK__. Eksik: -1344→-0716 dilimi. Sonrası (Yeni Babil, Ahamenis, Selevkos...) yapılmadı. Kur=-1344 madde tarihi; yerleşim çok daha eski."
+ },
+ {
+  "ad": "Kaneş (Kültepe)",
+  "tur": "sehir",
+  "lat": 38.8517,
+  "lon": 35.6317,
+  "koord_kaynak": "Kültepe höyüğü, Kayseri (TDV 'Kültepe'; GeoNames) - sayı belleğe dayalı, teyit edilmeli",
+  "kur": "-1899-01-01",
+  "s": [
+   {
+    "f": "-1899-01-01",
+    "t": "-1649-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "Kaneş yerel şehir devleti + Asur ticaret kolonisi (karum); Eski Asur (Assur) sahibi DEĞİL; atlasta karşılığı yok"
+   },
+   {
+    "f": "-1649-01-01",
+    "t": "-1179-01-01",
+    "d": "hitit",
+    "kaynak": "Neša/Kaneš Hitit sahası; tahmin, dusuk güven"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "MEVCUT DEĞİL (Kültepe kaydı yok; Kayseri 20 km uzak). Anitta/Kuşşara (-1749) atlasta devlet olarak yok -> boşluk beyanı. Hitit dilimi tahmini; Kültepe Kaneş IB sonrası fiilen terk. Kaynak okunmadı (TDV/Veenhof/Özgüç doğrulaması gerek). Devamı yapılmadı."
+ },
+ {
+  "ad": "Massalia (Marsilya)",
+  "tur": "liman",
+  "lat": 43.297,
+  "lon": 5.37,
+  "koord_kaynak": "mevcut Marsilya kaydı",
+  "kur": "-0599-01-01",
+  "s": [
+   {
+    "f": "-0599-01-01",
+    "t": "-0048-01-01",
+    "d": "massalia",
+    "kaynak": "mevcut"
+   },
+   {
+    "f": "-0048-01-01",
+    "t": "-0026-01-01",
+    "d": "roma-cumhuriyeti",
+    "kaynak": "mevcut"
+   }
+  ],
+  "guven": "yuksek",
+  "notlar": "MEVCUT: data/yerlesimler.js satır 1212 'Marsilya' (-0599 massalia ile başlıyor). Ad eşleşmesi. Mükerrer açma."
+ },
+ {
+  "ad": "Pergamon (Bergama)",
+  "tur": "sehir",
+  "lat": 39.121,
+  "lon": 27.18,
+  "koord_kaynak": "mevcut Bergama kaydı",
+  "kur": "-0281-01-01",
+  "s": [
+   {
+    "f": "-0281-01-01",
+    "t": "-0132-01-01",
+    "d": "bergama",
+    "kaynak": "mevcut"
+   }
+  ],
+  "guven": "yuksek",
+  "notlar": "MEVCUT: data/yerlesimler.js satır 163 'Bergama' (-0281 bergama ile başlıyor). Ad eşleşmesi. Mükerrer açma."
+ },
+ {
+  "ad": "Efes (Ephesos)",
+  "tur": "sehir",
+  "lat": 37.9396,
+  "lon": 27.3414,
+  "koord_kaynak": "Efes antik kenti, Selçuk (Pleiades Ephesus; GeoNames) - sayı belleğe dayalı",
+  "kur": "-0559-01-01",
+  "s": [
+   {
+    "f": "-0559-01-01",
+    "t": "-0545-01-01",
+    "d": "lidya",
+    "kaynak": "Herodotos 1.26: Kroisos Efes'i aldı; madde -0559; künye lidya"
+   },
+   {
+    "f": "-0545-01-01",
+    "t": "-0333-01-01",
+    "d": "ahamenis",
+    "kaynak": "Kyros Lidya'yı yendi; İskender 334'te aldı (madde -0333)"
+   },
+   {
+    "f": "-0333-01-01",
+    "t": "-0322-06-10",
+    "d": "iskender-imparatorlugu",
+    "kaynak": "madde -0333 'Efes İskender'e geçti'"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Ortaçağ karşılığı 'Ayasuluk (Selçuk)' (37.951,27.368, data/yerlesimler.js 1944) zinciri 1000'den başlar; ~3 km fark, birleştirme kararı verilmeli. Diadokh, Bergama -188, Roma -133 ve Bizans dilimleri yapılmadı."
+ },
+ {
+  "ad": "Teb (Waset; Luksor-Karnak)",
+  "tur": "sehir",
+  "lat": 25.7188,
+  "lon": 32.6573,
+  "koord_kaynak": "Karnak-Luksor (Pleiades Thebes); mevcut Uksur 25.687,32.640",
+  "kur": "-0724-01-01",
+  "s": [
+   {
+    "f": "-0724-01-01",
+    "t": "-0663-01-01",
+    "d": "kush-25-hanedan",
+    "kaynak": "Piye Teb'e indi (madde -0724); künye kush-25-hanedan"
+   },
+   {
+    "f": "-0663-01-01",
+    "t": "-0524-01-01",
+    "d": "sait-26-hanedan",
+    "kaynak": "Asur yağması -0663 sonrası; Psamtik I -0655'te kontrol aldı (madde); künye"
+   },
+   {
+    "f": "-0524-01-01",
+    "t": "-0403-01-01",
+    "d": "ahamenis-misir",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0403-01-01",
+    "t": "-0342-01-01",
+    "d": "misir-28-30-hanedan",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0342-01-01",
+    "t": "-0331-01-01",
+    "d": "ahamenis-misir-2",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0331-01-01",
+    "t": "-0322-06-10",
+    "d": "iskender-imparatorlugu",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0322-06-10",
+    "t": "-0204-01-01",
+    "d": "ptolemai",
+    "kaynak": "künye"
+   },
+   {
+    "f": "-0204-01-01",
+    "t": "-0185-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "ayrılıkçı yerli firavunlar (madde -0204/-0185); atlasta devlet yok"
+   },
+   {
+    "f": "-0185-01-01",
+    "t": "-0029-08-01",
+    "d": "ptolemai",
+    "kaynak": "madde -0185: isyan bastırıldı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Teb = MEVCUT 'Uksur (Luksor)' (data/yerlesimler_afrika.js 280), ama zinciri yalnız 1799+. Madde -0663 'Tantamani Teb'i aldı' vs Sait f -0663 çakışması: Teb -0663'te Asur yağması sonrası Sait'e yazıldı, ince nokta. -0724 öncesi (Kush -0749, Yeni Krallık, Orta Krallık) ve Roma sonrası yapılmadı."
+ },
+ {
+  "ad": "Berdea (Partav, Barda)",
+  "tur": "sehir",
+  "lat": 40.3744,
+  "lon": 47.1264,
+  "koord_kaynak": "Barda, Azerbaycan (GeoNames; belleğe dayalı)",
+  "kur": "0645-01-01",
+  "s": [
+   {
+    "f": "0645-01-01",
+    "t": "0661-07-29",
+    "d": "hulefa-yi-rasidin",
+    "kaynak": "TDV 'Arrân': Selmân b. Rebîa ve Habîb b. Mesleme Berdea'yı fethetti (24/645)"
+   },
+   {
+    "f": "0661-07-29",
+    "t": "0750-08-05",
+    "d": "emevi",
+    "kaynak": "TDV 'Arrân': Muâviye döneminde İslâm hâkimiyeti; Hazarlar geçici, Mervân b. Muhammed geri aldı"
+   },
+   {
+    "f": "0750-08-05",
+    "t": "0889-05-06",
+    "d": "abbasi",
+    "kaynak": "TDV 'Arrân': Abbâsîler; 861-62'de Aşot Bagratuni'nin yetkisini tanıdılar (bölge düzeyi)"
+   },
+   {
+    "f": "0889-05-06",
+    "t": "0929-09-09",
+    "d": "sacilar",
+    "kaynak": "TDV 'Arrân': Abbâsî sonrası bölge Sâcîlere geçti (tarih verilmiyor; künye aralığı)"
+   },
+   {
+    "f": "0929-09-09",
+    "t": "0942-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "sahibi bulunamadı"
+   },
+   {
+    "f": "0942-01-01",
+    "t": "0944-01-01",
+    "d": "musafiri",
+    "kaynak": "TDV 'Arrân': Müsâfirîler X. yy Arrân'da; Ruslar 943-44'te Berdea'yı yağmaladı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "MEVCUT DEĞİL. Dilimler TDV 'Arrân' bölge anlatısından çıkarıldı, Berdea'ya özgü sahiplik değil -> BEYANLI YAKLAŞIKLIK; Sâcîlerin Berdea'yı fiilen tutup tutmadığı teyitsiz. 944 sonrası (Şeddâdîler/Selçuklu) yapılmadı."
+ },
+ {
+  "ad": "Tel İfrîn (Tell Afrin)",
+  "tur": "kale",
+  "lat": 36.2,
+  "lon": 36.72,
+  "koord_kaynak": "BULUNAMADI; Halep batısı (TDV İlgazi: 'Halep bölgesi'), koordinat yaklaşık tahmin",
+  "kur": "1119-01-01",
+  "s": [
+   {
+    "f": "1119-01-01",
+    "t": "1119-06-28",
+    "d": "antakya-prinkipsligi",
+    "kaynak": "Roger de Salerno Antakya naibi Tel İfrîn'de savaştı; yer sahibi teyitsiz"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "MEVCUT DEĞİL. TDV ilgazi-necmeddin yerin konumunu ve sahibini vermiyor. Koordinat uydurma riski yüksek (Ager Sanguinis/Sarmada çevresi tahmini). Savaş sonrası sahip belirlenemedi. Öneri: yerleşim açılmasın, madde yer_id 'Antakya'da kalsın."
+ }
+]
