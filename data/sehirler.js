@@ -407,7 +407,7 @@ window.SEHIRLER = [
   yapilar:"Hünkâr, Fâtih İbrâhim ve Îsâ Ağa camileri, bir medrese, hanlar ve dükkânlar.",
   kaynak:"kanije" },
 { ad:"Kamaniçe",   tur:"kale",  lat:48.674, lon:26.574,
-  k:[{f:"1672-10-18",t:"1699-01-26",d:1,y:"kusatma"}],
+  k:[{f:"1672-10-18",t:"1699-09-22",d:1,y:"kusatma"}],
   koken:"Lehçe 'Kamieniec Podolski', Ukraynaca 'Kamjanec Podilskyj', Rusça 'Kamenets-Podolski'; Smotriç Nehri üzerine kuruldu.",
   onem:"İtalya ve Kuzey Almanya'dan Kırım üzerinden Hindistan ve Çin'e uzanan büyük ticaret yolu üzerinde bir merkez; 16. yüzyılda 'Hıristiyanlığın doğu savunma hattı' sayılırdı.",
   tarihce:"IV. Mehmed döneminde dokuz günlük kuşatma sonrası 1672'de Osmanlı'ya bağlandı; 1699 Karlofça Antlaşması'yla boşaltıldı.",
