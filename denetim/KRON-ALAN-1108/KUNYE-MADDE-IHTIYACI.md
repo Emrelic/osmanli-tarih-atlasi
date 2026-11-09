@@ -1,0 +1,766 @@
+# KRON-ALAN-1108 — Kronoloji maddesi olmayan künyeler (madde ihtiyacı listesi)
+
+Ölçüm (9 Kasım 2026, origin/main): künye 2266 · maddesiz 696 · 1-2 maddeli 371.
+"Maddesiz" = hiçbir olaylar*/kronoloji* maddesinin taraflar/devlet/devletler/devlet2 alanında kimliği geçmeyen künye. Künyenin kendi gömülü `kronoloji:[]` dizisi sayılmadı.
+Her künye için asgari madde ihtiyacı: kuruluş + son (ya da bugüne süreklilik) = 2 madde; kaynaklı gün gerekir (CLAUDE.md kaynak sırası). Sütunlar: kimlik · ad · tür · başlangıç→bitiş · gömülü kronoloji maddesi sayısı.
+
+## balkanlar (48)
+- dobruca-despotlugu · Dobruca Prensliği (Dobrotiç Devleti) · prenslik · 1359-01-01→1393-09-01 · gömülü 3
+- atina-dukaligi · Atina Dukalığı · dukalik · 1204-01-01→1458-06-04 · gömülü 11
+- katalan · Katalan Dukalığı (Atina-Neopatras Kumpanyası) · dukalik · 1311-03-15→1388-05-02 · gömülü 5
+- sarki-rumeli · Şarkî Rumeli Vilayeti (Özerk) · gecici-isgal · 1878-07-13→1885-09-18 · gömülü 5
+- garbi-trakya · Garbî Trakya Hükûmet-i Müstakillesi · gecici-hukumet · 1913-08-31→1913-10-25 · gömülü 6
+- shs-devleti · Slovenler, Hırvatlar ve Sırplar Devleti (Država SHS) · devlet · 1918-10-29→1918-12-01 · gömülü 0
+- dukagin · Dukagin (Dukagjini) Prensliği · prenslik · 1387-01-01→1479-01-25 · gömülü 5
+- crnojevic-zetasi · Crnojević Zetası · - · 1482-01-01→1499-01-01 · gömülü 6
+- dejanovic-prensligi · Dejanović Prensliği (Kostadin-ili) · - · 1371-09-26→1395-05-17 · gömülü 5
+- raska-buyuk-prensligi · Raşka Büyük Prensliği (Vukanoviç) · prenslik · 1091-01-01→1166-01-01 · gömülü 4
+- prilep-mrnjavcevic · Prilep Krallığı (Mrnjavčević / Kral Marko) · beylik · 1371-01-01→1395-05-17 · gömülü 3
+- kosova-brankovic · Brankoviç Toprakları (Kosova) · beylik · 1373-01-01→1395-01-01 · gömülü 2
+- kefalonya-palatin · Kefalonya-Zakintos Palatin Kontluğu (Orsini→Tocco) · kontluk · 1194-01-01→1479-01-01 · gömülü 9
+- gattilusio · Gattilusio Lordluğu (Midilli, Limni, Taşoz, Enez) · ceneviz-lordlugu · 1355-01-01→1462-09-17 · gömülü 5
+- sakiz-maona · Sakız Maona'sı (Giustiniani) · ceneviz-sirket-lordlugu · 1346-06-15→1566-04-14 · gömülü 8
+- galata-pera · Galata (Pera) Ceneviz Kolonisi · ceneviz-kolonisi · 1267-01-01→1453-05-29 · gömülü 4
+- girit-venedik · Girit (Candia) Krallığı - Venedik · somurge · 1204-08-12→1669-09-27 · gömülü 11
+- samos-prensligi · Samos Prensliği · ozerk-osmanli-prensligi · 1832-12-10→1912-11-11 · gömülü 4
+- septinsular · Yedi Ada Cumhuriyeti · cumhuriyet-rus-osmanli-himaye · 1800-03-21→1807-07-07 · gömülü 7
+- birlesik-iyon-adalari · Birleşik Iyon Adaları Devleti · i-ngiliz-himayesi · 1815-11-05→1864-06-02 · gömülü 4
+- sirp-voyvodaligi · Sırp Voyvodalığı ve Tamiş Banatı · habsburg-topragi · 1849-11-18→1860-12-27 · gömülü 4
+- karniola-dukaligi · Karniola Dükalığı · dukalik-habsburg · 1364-01-01→1918-10-29 · gömülü 8
+- sirbistan-nedic · Sırbistan Millî Kurtuluş Hükûmeti (Nedić) · kukla-yonetim · 1941-08-29→1944-10-06 · gömülü 5
+- italyan-karadag · Karadağ İtalyan Valiliği · isgal-idaresi · 1941-10-03→1943-09-12 · gömülü 4
+- ljubljana-ili · Ljubljana İli (İtalyan) · ilhak-bolgesi · 1941-05-03→1943-09-08 · gömülü 4
+- minos · Minos (Minos Saray) Uygarlığı · uygarlik-saray-devletleri-siyasi-birlik-tartismali · -1899-01-01→-1449-01-01 · gömülü 5
+- miken · Miken (Mykene) Saray Devletleri · saray-devletleri · -1399-01-01→-1099-01-01 · gömülü 4
+- korint · Korint · devlet · -0799-01-01→-0145-01-01 · gömülü 4
+- delos-birligi · Delos (Atina Deniz) Birliği · ittifak · -0477-01-01→-0403-01-01 · gömülü 6
+- peloponnes-birligi · Peloponnes Birliği · ittifak · -0549-01-01→-0365-01-01 · gömülü 12
+- ikinci-atina-birligi · İkinci Atina Birliği · ittifak · -0377-01-01→-0354-01-01 · gömülü 8
+- korint-birligi · Korint (Hellen) Birliği · ittifak · -0336-01-01→-0321-01-01 · gömülü 4
+- aitolia-birligi · Aitolia Birliği · konfederasyon · -0366-01-01→-0188-01-01 · gömülü 4
+- epir · Epir (Molossia) Krallığı · krallik · -0369-01-01→-0230-01-01 · gömülü 5
+- lizimakhos · Lizimakhos (Trakya) Krallığı · krallik · -0305-01-01→-0280-01-01 · gömülü 4
+- odris · Odris (Trakya) Krallığı · krallik · -0479-01-01→0046-01-01 · gömülü 12
+- boiotia-birligi · Boiotia (Teb) Birliği · birlik · -0378-01-01→-0337-01-01 · gömülü 4
+- atina-demokrasisi · Atina (bagimsiz demokratik polis) · devlet · -0507-01-01→-0337-01-01 · gömülü 7
+- alman-isgali-karadag · Alman İşgali Altındaki Karadağ · isgal-idaresi · 1943-09-12→1944-12-15 · gömülü 7
+- ozak · Adriyatik Kıyı Harekât Bölgesi (OZAK) · isgal-idaresi · 1943-09-10→1945-05-09 · gömülü 6
+- rodos-polis · Rodos Şehir Devleti · devlet · -0406-01-01→0079-06-23 · gömülü 6
+- odessos-polis · Odessos (Varna) Şehir Devleti · devlet · -0549-01-01→-0070-01-01 · gömülü 4
+- makedon-merisleri · Makedon Merisleri (Dört Makedon Cumhuriyeti) · cumhuriyet · -0166-01-01→-0147-01-01 · gömülü 2
+- lepenski-vir-trapez · Lepenski Vir — trapez yapılı Mezolitik-Neolitik geçiş evresi · kultur · -6119-01-01→-5974-01-01 · gömülü 2
+- lepenski-vir-kultur · Lepenski Vir (Proto-LV → Mezolitik-Neolitik geçiş → Erken Neolitik, Demir Kapılar) · kultur · -9589-01-01→-5779-01-01 · gömülü 2
+- vinca-kultur · Vinča Kültürü (Belo Brdo dizisi) · kultur · -4586-01-01→-4514-01-01 · gömülü 2
+- chalandritsa-baronluk · Chalandritsa Baronluğu · baronluk · 1209-01-01→1429-01-01 · gömülü 2
+- delmatai-federasyon · Delmatai (Dalmatlar) Federasyonu · konfederasyon · -0180-01-01→-0032-01-01 · gömülü 2
+
+## kuzey-amerika (45)
+- ojibwe · Ojibwe (Anişinabe) · devlet · 1281-01-01→1850-09-07 · gömülü 9
+- navaho · Navaho (Diné) · devlet · 1281-01-01→1868-08-12 · gömülü 4
+- nez-perce · Nez Perce (Nimíipuu) · devlet · 1281-01-01→1877-10-05 · gömülü 9
+- tlingit · Tlingit · devlet · 1281-01-01→1867-10-18 · gömülü 4
+- vendat · Vendat (Huron) Konfederasyonu · devlet · 1281-01-01→1649-03-16 · gömülü 4
+- beothuk · Beothuk · devlet · 1281-01-01→1829-06-06 · gömülü 8
+- sauk · Sauk (Asakiwaki) · devlet · 1281-01-01→1833-02-13 · gömülü 8
+- abenaki · Abenaki (Wabanaki) · devlet · 1281-01-01→1725-12-15 · gömülü 8
+- mikmak · Mikmak (Mi'kmaq) · devlet · 1281-01-01→1761-01-01 · gömülü 9
+- maliseet · Maliseet (Wolastoqiyik) · devlet · 1281-01-01→1761-01-01 · gömülü 7
+- cikasav · Çikasav (Chickasaw) · devlet · 1281-01-01→1907-11-16 · gömülü 4
+- ute · Ute (Núuchiu) · devlet · 1281-01-01→1880-06-15 · gömülü 13
+- mandan · Mandan · devlet · 1281-01-01→1851-09-17 · gömülü 4
+- hidatsa · Hidatsa · devlet · 1281-01-01→1851-09-17 · gömülü 7
+- karga · Karga (Apsáalooke) · devlet · 1281-01-01→1851-09-17 · gömülü 7
+- pavni · Pavni (Pawnee) · devlet · 1281-01-01→1858-05-26 · gömülü 9
+- aleut · Aleut (Unangax̂) · devlet · 1281-01-01→1784-08-14 · gömülü 7
+- alutiiq · Alutiiq (Sugpiaq) · devlet · 1281-01-01→1784-08-14 · gömülü 4
+- yupik · Yupik · devlet · 1281-01-01→1867-10-18 · gömülü 4
+- nuxalk · Nuxalk (Bella Coola) · devlet · 1281-01-01→1858-08-02 · gömülü 5
+- secwepemc · Secwépemc (Shuswap) · devlet · 1281-01-01→1858-08-02 · gömülü 7
+- nuu-cah-nulth · Nuu-chah-nulth (Mowachaht) · devlet · 1281-01-01→1858-08-02 · gömülü 4
+- mohave · Mohave (Aha Macav) · devlet · 1281-01-01→1865-01-01 · gömülü 7
+- klamath · Klamath (Maklaks) · devlet · 1281-01-01→1870-02-17 · gömülü 5
+- sahaptin · Sahaptin (Orta Columbia halkları) · devlet · 1281-01-01→1859-04-18 · gömülü 4
+- ponka · Ponka (Ponca) · devlet · 1281-01-01→1859-04-11 · gömülü 4
+- occaneechi · Occaneechi · devlet · 1281-01-01→1676-01-01 · gömülü 5
+- payut · Payut (Paiute) · devlet · 1281-01-01→1872-01-01 · gömülü 10
+- yavapai · Yavapai · devlet · 1281-01-01→1873-01-01 · gömülü 6
+- meskalero-apaci · Meskalero Apaçileri · devlet · 1281-01-01→1873-01-01 · gömülü 4
+- choctaw · Choctaw Konfederasyonu · devlet · 1281-01-01→1907-11-16 · gömülü 11
+- powhatan · Powhatan Konfederasyonu (Tsenacomoco) · devlet · 1501-01-01→1646-10-05 · gömülü 4
+- pueblo-bagimsizligi · Pueblo Bağımsızlığı · devlet · 1680-08-10→1692-08-01 · gömülü 4
+- apaci-ovalar · Ovalar Apaçileri (Plains Apache) · devlet · 1281-01-01→1750-01-01 · gömülü 6
+- komanci · Komançi (Comanchería) · devlet · 1750-01-01→1875-01-01 · gömülü 9
+- gronland-dan · Grönland (Danimarka'ya bağlı; 1953 anayasa; 1979 Home Rule) · bagimlilik · 1814-01-14→? · gömülü 9
+- louisiana · Louisiana (Fransız/İspanyol) · somurge · 1682-04-09→1803-12-20 · gömülü 6
+- ispanyol-florida · İspanyol Florida · somurge · 1513-04-02→1821-07-10 · gömülü 5
+- yeni-hollanda · Yeni Hollanda · somurge · 1614-01-01→1664-09-08 · gömülü 8
+- yeni-isvec · Yeni İsveç · somurge · 1638-03-29→1655-09-15 · gömülü 5
+- rus-amerikasi · Rus Amerikası (Rus-Amerikan Şirketi) · somurge · 1799-01-01→1867-10-18 · gömülü 5
+- ruperts-land · Rupert Toprakları (Hudson Körfezi Şirketi) · sirket-idaresi · 1670-01-01→1870-07-15 · gömülü 10
+- hohokam · Hohokam Kültürü (son evre) · kultur · 0300-01-01→1450-01-01 · gömülü 5
+- seminole · Seminole · konfederasyon · 1775-01-01→1858-01-01 · gömülü 8
+- poverty-point-kultur · Poverty Point Kültürü (Geç Arkaik, Louisiana) · kultur · -1649-01-01→-1149-01-01 · gömülü 2
+
+## italya (41)
+- modena · Modena ve Reggio Dükalığı (Este) · dukalik · 1598-01-29→1859-01-01 · gömülü 0
+- bonacolsi · Bonacolsi Senyörlüğü (Mantova) · devlet · 1273-01-01→1328-08-16 · gömülü 8
+- malta-ingiliz · Malta (İngiliz himayesi 1800 → Taç Kolonisi 1813) · somurge · 1800-09-05→1964-09-21 · gömülü 5
+- anglo-korsika-krallik · Anglo-Korsika Krallığı · koruma-kralligi · 1794-01-01→1796-10-01 · gömülü 6
+- amalfi-cumhuriyeti · Amalfi Cumhuriyeti/Dükalığı · denizci-cumhuriyet · 1000-01-01→1131-01-01 · gömülü 8
+- napoli-dukaligi · Napoli Dükalığı · dukalik · 0763-01-01→1137-01-01 · gömülü 7
+- sardinya-aragon · Sardinya Krallığı (Aragon/İspanyol) · krallik · 1326-01-01→1720-08-24 · gömülü 11
+- lombardiya-venedik · Lombardiya-Venedik Krallığı · habsburg-kralligi · 1815-06-09→1866-10-12 · gömülü 5
+- verona-scaliger · Verona (Della Scala) Signoria'sı · signoria · 1262-01-01→1387-10-19 · gömülü 8
+- aquileia-patrikligi · Aquileia Patrikhanesi (Friuli) · kilise-devleti · 1077-04-03→1420-01-01 · gömülü 8
+- san-marino · San Marino Cumhuriyeti · cumhuriyet · 1000-01-01→? · gömülü 7
+- malta-fransiz · Malta Fransız İşgali · gecici-isgal · 1798-06-12→1800-09-04 · gömülü 4
+- roma-cumhuriyeti-1798 · Roma Cumhuriyeti (Fransız himayesi) · kardes-cumhuriyet · 1798-02-15→1799-09-30 · gömülü 8
+- roma-cumhuriyeti-1849 · Roma Cumhuriyeti (Mazzini) · cumhuriyet · 1849-02-09→1849-07-03 · gömülü 5
+- partenopea-cumhuriyeti · Partenopa Cumhuriyeti · kardes-cumhuriyet · 1799-01-23→1799-06-13 · gömülü 4
+- ligurya-cumhuriyeti · Ligurya Cumhuriyeti · kardes-cumhuriyet · 1797-06-15→1805-06-04 · gömülü 6
+- korsika-cumhuriyeti · Korsika (Paoli) Cumhuriyeti · cumhuriyet · 1755-07-15→1769-05-09 · gömülü 9
+- taranto-prensligi · Taranto Prensliği · prenslik · 1088-01-01→1465-03-30 · gömülü 8
+- urbino-dukaligi · Urbino Dükalığı · dukalik · 1443-04-25→1631-04-28 · gömülü 11
+- padova-carrara · Padova (Carrara) Signoria'sı · signoria · 1318-01-01→1405-11-22 · gömülü 7
+- trento-piskoposlugu · Trento Prens-Piskoposluğu · kilise-devleti · 1027-05-31→1803-01-01 · gömülü 10
+- venedik-1848 · San Marco (Venedik) Cumhuriyeti 1848 · devrim-cumhuriyeti · 1848-03-22→1849-08-22 · gömülü 5
+- malta-kolonisi · Malta (İngiliz Koruması / Taç Kolonisi) · somurge · 1800-01-01→1964-09-21 · gömülü 5
+- sirakuza · Sirakuza (Syrakousai) · devlet · -0733-01-01→-0211-01-01 · gömülü 11
+- roma-kralligi · Roma Krallığı · krallik · -0752-01-01→-0508-01-01 · gömülü 8
+- etrusk-sehir-devletleri · Etrüsk Şehir Devletleri (Oniki Şehir Birliği) · devlet · -0574-01-01→-0088-01-01 · gömülü 9
+- malta-gantija-tarxien · Malta Neolitiği: Ġgantija ve Tarxien evreleri · kultur · -3511-01-01→-2419-01-01 · gömülü 2
+- insubres-kabile-devleti · Insubres Kelt Birliği · kabile-konfederasyon · -0399-01-01→-0221-01-01 · gömülü 2
+- friuli-dukaligi-lombard · Friuli Lombard Dukalığı · dukalik · 0568-01-01→0776-01-01 · gömülü 2
+- capua-prensligi · Capua Prensliği (Lombard ve Norman) · prenslik · 0900-01-01→1135-01-01 · gömülü 2
+- bari-emirligi · Bari Emirliği · emirlik · 0847-01-01→0871-02-01 · gömülü 2
+- toskana-markizligi · Toskana Markizliği · markizlik · 0812-01-01→1197-11-11 · gömülü 2
+- torino-markizligi · Torino (Arduinik) Markizliği · markizlik · 0940-01-01→1091-12-19 · gömülü 2
+- apulya-kontlugu-melfi · Apulya Kontluğu (Melfi) · kontluk · 1043-01-01→1059-01-01 · gömülü 2
+- lombard-birligi · Lombard Birliği (Lega Lombarda) · konfederasyon · 1167-01-01→1250-12-13 · gömülü 2
+- bologna-komunu · Bologna Komünü · sehir-devleti · 1114-01-01→1506-11-11 · gömülü 2
+- padova-komunu · Padova Komünü · sehir-devleti · 1138-01-01→1318-07-25 · gömülü 2
+- verona-komunu · Verona Komünü · sehir-devleti · 1136-01-01→1259-01-01 · gömülü 2
+- pavia-komunu · Pavia Komünü · sehir-devleti · 1100-01-01→1359-01-01 · gömülü 2
+- vercelli-komunu · Vercelli Komünü · sehir-devleti · 1141-01-01→1335-01-01 · gömülü 2
+- bruttii-birligi · Brettii Birliği · konfederasyon · -0355-01-01→-0202-01-01 · gömülü 2
+
+## bati-afrika (40)
+- futa-toro · Futa Toro Almamiliği · devlet · 1776-01-01→1881-01-01 · gömülü 4
+- bundu · Bundu Emirliği · emirlik · 1690-01-01→1858-01-01 · gömülü 6
+- gambiya-mandinka · Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli) · devlet · 1281-01-01→1894-01-01 · gömülü 5
+- solima-yalunka · Solima Yalunka Krallığı · krallik · 1720-01-01→1884-01-01 · gömülü 4
+- kenedugu · Kenedugu Krallığı (Sikasso) · krallik · 1650-01-01→1898-05-01 · gömülü 4
+- gurma · Gurma Krallığı · krallik · 1281-01-01→1897-01-01 · gömülü 3
+- liptako · Liptako Emirliği (Dori) · emirlik · 1810-01-01→1897-01-01 · gömülü 4
+- zerma · Zerma (Djerma) Devletçikleri · devlet · 1281-01-01→1898-01-01 · gömülü 3
+- gyaaman · Gyaaman Krallığı · krallik · 1690-01-01→1895-01-01 · gömülü 4
+- buna · Buna Krallığı (Kulango) · krallik · 1690-01-01→1897-01-01 · gömülü 3
+- eve-notse · Eve (Ewe) Notse Birliği · devlet · 1281-01-01→1884-07-05 · gömülü 3
+- borgu · Borgu Bariba Krallıkları (Nikki · Busa) · krallik · 1281-01-01→1898-01-01 · gömülü 4
+- ibadan · İbadan Devleti · devlet · 1829-01-01→1893-08-15 · gömülü 4
+- aro-konfederasyonu · Aro Konfederasyonu · devlet · 1690-01-01→1902-03-01 · gömülü 4
+- jukun-kvararafa · Kvararafa (Jukun) Krallığı · krallik · 1281-01-01→1900-01-01 · gömülü 4
+- tiv · Tiv Halkı · devlet · 1281-01-01→1900-01-01 · gömülü 3
+- birom-plato · Jos Platosu Halkları (Birom · Jarava) · devlet · 1281-01-01→1903-01-01 · gömülü 2
+- damagaram · Damagaram Sultanlığı (Zinder) · sultanlik · 1731-01-01→1899-01-01 · gömülü 7
+- adar · Adar Hausa Sahası (Tahoua · Konni · Madaova) · devlet · 1281-01-01→1899-01-01 · gömülü 3
+- tuareg-adag · Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas) · devlet · 1281-01-01→1899-01-01 · gömülü 3
+- tuareg-ivellemmedan · İvellemmedan Tuareg Konfederasyonu · devlet · 1281-01-01→1899-01-01 · gömülü 5
+- kru-grebo · Kru ve Grebo Halkları · devlet · 1281-01-01→1822-04-25 · gömülü 3
+- bate · Baté Mandinka Devleti (Kankan) · devlet · 1650-01-01→1879-01-01 · gömülü 3
+- dahomey · Dahomey Krallığı · krallik · 1625-01-01→1894-01-01 · gömülü 9
+- tekrur · Toucouleur Devleti (Umarî / Segu Tukulor) · devlet · 1852-09-01→1893-01-01 · gömülü 7
+- arma · Arma Paşalığı (Tinbüktü) · beylik · 1750-01-01→1760-01-01 · gömülü 2
+- ingiliz-siyera-leon · İngiliz Sierra Leone'si (Koloni ve Protektora) · - · 1808-01-01→1961-04-27 · gömülü 8
+- gane · Gāne (Gana) Devleti · devlet · 1000-01-01→1076-01-01 · gömülü 3
+- susu-kralligi · Susu (Sosso) Krallığı · krallik · 1076-01-01→1235-01-01 · gömülü 4
+- fransiz-birligi · Fransız Birliği (Union française) · birlik · 1946-10-27→1958-10-04 · gömülü 5
+- senegambiya · Senegambiya Konfederasyonu · konfederasyon · 1982-02-01→1989-09-30 · gömülü 5
+- ingiliz-gambiya · Gambiya Kolonisi ve Himayesi · somurge · 1888-01-01→1965-02-18 · gömülü 9
+- gambiya-kolonisi · İngiliz Gambiyası · somurge · 1816-08-23→1965-02-18 · gömülü 4
+- kaabu · Kaabu (Gabu) İmparatorluğu · imparatorluk · 1537-01-01→1867-05-24 · gömülü 2
+- denyanke · Denyanke (Denianke) Krallığı — Futa Toro · krallik · 1512-01-01→1776-01-01 · gömülü 8
+- akwamu · Akwamu Devleti · devlet · 1600-01-01→1731-01-01 · gömülü 4
+- fante · Fante Konfederasyonu · konfederasyon · 1868-01-01→1873-01-01 · gömülü 7
+- dendi · Dendi Krallığı · krallik · 1591-01-01→1901-01-01 · gömülü 5
+- kebbi · Kebbi Krallığı · krallik · 1516-01-01→1805-04-13 · gömülü 4
+- tekrur-erken · Tekrûr Krallığı — Erken Dönem · krallik · 0801-01-01→1000-01-01 · gömülü 2
+
+## anadolu (38)
+- saruhan · Saruhanoğulları · beylik · 1313-01-01→1416-09-01 · gömülü 5
+- ramazanoglu · Ramazanoğulları · beylik · 1352-01-01→1608-01-01 · gömülü 11
+- kibris-krallik · Kıbrıs Krallığı (Lüzinyan) · krallik · 1192-01-01→1489-02-26 · gömülü 12
+- kibris-ingiliz · Kıbrıs'ın İngiliz İdaresi · gecici-isgal · 1878-06-04→1914-11-05 · gömülü 5
+- ahiler · Ahi Birliği (Ankara) · devlet · 1290-01-01→1354-01-01 · gömülü 4
+- alaiye · Alâiye Beyliği (Alanya) · beylik · 1293-01-01→1471-01-01 · gömülü 7
+- teke · Tekeoğulları · beylik · 1321-01-01→1423-01-01 · gömülü 9
+- sebinkarahisar-emirligi · Şebinkarahisar Emirliği (Melik Ahmed–Hasan Bey) · beylik · 1398-01-01→1408-01-01 · gömülü 1
+- gozleroglu · Gözleroğlu (Şebinkarahisar) · beylik · 1408-01-01→1418-01-01 · gömülü 2
+- mutahharten · Erzincan-Kemah Beyliği (Mutahharten) · beylik · 1378-01-01→1410-01-01 · gömülü 10
+- fetret-isa · İsa Çelebi Saltanatı (Bursa) · sehzadelik · 1403-01-01→1403-09-01 · gömülü 5
+- sutayogullari · Sutayogullari · beylik · 1343-01-01→1353-01-01 · gömülü 7
+- cemisgezek-beyligi · Cemisgezek Beyligi (Melkisi) · beylik · 1281-01-01→1420-01-01 · gömülü 4
+- eyyubi-meyyafarikin · Meyyâfârikîn Eyyûbîleri (Cebel ve Sincar kolu) · hanedanlik · 1185-01-01→1260-01-01 · gömülü 9
+- kibris-venedik · Kıbrıs - Venedik İdaresi · somurge · 1489-02-26→1571-08-01 · gömülü 4
+- izmir-haclisi · İzmir Haçlı İttifakı (Hospitaller İzmir) · sovalye-kalesi-devleti · 1344-10-28→1402-12-01 · gömülü 4
+- cizre-botan · Cizre-Botan Emirliği · kurt-emirligi · 1300-01-01→1847-07-29 · gömülü 4
+- yunan-izmir-bolgesi · İzmir Yunan İşgal Bölgesi · isgal-idaresi · 1919-05-15→1922-09-09 · gömülü 4
+- kilikya-fransiz · Kilikya Fransız İşgal Bölgesi · isgal-idaresi · 1919-11-01→1921-12-23 · gömülü 12
+- antalya-italyan · Antalya-Konya İtalyan İşgal Bölgesi · isgal-idaresi · 1919-03-28→1921-06-01 · gömülü 12
+- kizzuwatna · Kizzuwatna Krallığı · krallik · -1499-01-01→-1399-01-01 · gömülü 3
+- yeni-hitit · Yeni Hitit (Luvi-Arami) Sehir Devletleri (Karkamis, Melid, Hamat, Gurgum, Kummuh, Tabal vb.) · devlet · -1179-01-01→-0707-01-01 · gömülü 4
+- lidya · Lidya Krallığı · krallik · -0679-01-01→-0545-01-01 · gömülü 4
+- frigya · Frigya Krallığı (Gordion, Midas) · krallik · -0737-01-01→-0624-01-01 · gömülü 0
+- urartu · Urartu Krallığı · krallik · -0859-01-01→-0589-01-01 · gömülü 5
+- antigonos · Antigonos Monophthalmos Krallığı (Asya) · krallik · -0305-01-01→-0300-01-01 · gömülü 6
+- bergama · Bergama (Attalos) Krallığı · krallik · -0281-01-01→-0132-01-01 · gömülü 5
+- galatya-keltleri · Galatia (Kelt) Tetrarşileri · kabile-devletleri · -0277-01-01→-0024-01-01 · gömülü 6
+- tigran-imp · Büyük Tigran'ın İmparatorluğu · imparatorluk · -0094-01-01→-0065-01-01 · gömülü 4
+- hayasa-azzi · Hayaşa-Azzi Konfederasyonu · kabile-konfederasyonu · -1499-01-01→-1199-01-01 · gömülü 4
+- hitit · Hitit Krallığı ve İmparatorluğu (Hatti) · imparatorluk · -1649-01-01→-1179-01-01 · gömülü 15
+- sofene · Sofene (Tsopk) Krallığı · krallik · -0188-01-01→-0092-01-01 · gömülü 4
+- karya-hekatomnid · Karya Hekatomnid Satrap-Hanedanlığı · hanedanlik · -0390-01-01→-0333-01-01 · gömülü 7
+- sakiz-polis · Sakız (Khios) Şehir Devleti · devlet · -0599-01-01→0079-06-23 · gömülü 4
+- midilli-polis · Midilli (Mytilene) Şehir Devleti · devlet · -0584-01-01→-0079-01-01 · gömülü 3
+- orta-anadolu-neolitik · Orta Anadolu Aseramik–Seramik Neolitik toplulukları (Konya Ovası, Kapadokya) · kultur · -8399-01-01→-5999-01-01 · gömülü 2
+- tarsus-emirlik · Tarsus Tuğur Emirliği · emirlik · 0878-01-01→0965-01-01 · gömülü 2
+- tefrike · Tefrike Pavlikan Devleti · devlet · 0850-01-01→0872-01-01 · gömülü 2
+
+## dogu-afrika (35)
+- sidamo-kralliklari · Sidamo Krallıkları · devlet · 1281-01-01→1897-01-01 · gömülü 3
+- vollayta-kralligi · Vollayta (Wolaita) Krallığı · krallik · 1281-01-01→1894-01-17 · gömülü 4
+- burundi · Burundi Krallığı · krallik · 1680-01-01→1916-06-06 · gömülü 4
+- toro · Toro Krallığı · krallik · 1830-01-01→1900-06-26 · gömülü 5
+- hehe · Hehe Krallığı · krallik · 1850-01-01→1898-07-19 · gömülü 4
+- ngoni · Ngoni Devletleri · devlet · 1835-01-01→1898-01-01 · gömülü 6
+- yao · Yao Sultanlıkları · sultanlik · 1800-01-01→1899-01-01 · gömülü 6
+- fipa-nyakyusa · Fipa ve Nyakyusa Halkları · devlet · 1281-01-01→1890-11-04 · gömülü 4
+- bemba · Bemba Krallığı (Citimukulu) · krallik · 1700-01-01→1899-01-01 · gömülü 9
+- kaonde-ila · Kaonde ve İla Halkları · devlet · 1281-01-01→1900-01-01 · gömülü 4
+- kenya-kuzey-halklari · Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları) · devlet · 1281-01-01→1895-07-01 · gömülü 8
+- kamba · Kamba Halkı · devlet · 1281-01-01→1895-07-01 · gömülü 5
+- sakalava-boina · Boina Sakalava Krallığı · krallik · 1690-01-01→1897-02-28 · gömülü 4
+- betsileo · Betsileo Krallıkları · krallik · 1281-01-01→1830-01-01 · gömülü 5
+- antandroy · Antandroy ve Bara Halkları · devlet · 1281-01-01→1900-01-01 · gömülü 10
+- betsimisaraka · Betsimisaraka Konfederasyonu · devlet · 1712-01-01→1817-01-01 · gömülü 7
+- merina-oncesi · İmerina Krallıkları (Merina birleşmesi öncesi) · krallik · 1401-01-01→1787-01-01 · gömülü 9
+- ingiliz-nyasaland · Nyasaland Protektorası (İngiliz Orta Afrikası) · - · 1891-05-14→1964-07-06 · gömülü 13
+- suve-emirligi · Şüve (Shoa) Mahzûmî Emirliği · beylik · 0896-01-01→1285-01-01 · gömülü 4
+- somali-ingiliz-himayesi · İngiliz Somalilandı Himayesi · himaye · 1884-01-01→1960-06-26 · gömülü 5
+- puntland · Puntland Devleti (özerk) · ozerk-devlet · 1998-01-01→? · gömülü 6
+- somali-ulusal-gecis-hukumeti · Somali Geçici Ulusal Hükümeti (Arta/Cibuti) · gecici-hukumet · 2000-01-01→2003-01-01 · gömülü 9
+- afar-issa-fransiz-bolgesi · Afarlar ve İssalar Fransız Bölgesi · somurge · 1967-07-03→1977-06-27 · gömülü 8
+- zengibar-halk-cumhuriyeti · Zengibar ve Pemba Halk Cumhuriyeti · cumhuriyet · 1964-01-12→1964-04-26 · gömülü 8
+- madagaskar-fransiz · Fransız Madagaskarı · somurge · 1896-08-06→1960-06-26 · gömülü 4
+- fransiz-komorlari · Fransız Komorları (himaye → sömürge → TOM) · somurge · 1886-01-01→1975-07-06 · gömülü 5
+- ingiliz-mauritius · İngiliz Mauritiusu (Rodrigues dahil) · somurge · 1810-12-03→1968-03-12 · gömülü 5
+- italyan-eritre · İtalyan Eritresi · somurge · 1890-01-01→1941-05-19 · gömülü 4
+- fransiz-somali · Fransız Somali Sahili / Afarlar ve Issalar Fransız Bölgesi (Cibuti) · somurge · 1884-01-01→1977-06-27 · gömülü 14
+- dervis-devleti · Derviş Devleti (Muhammed Abdullah Hasan) · devlet · 1899-01-01→1920-02-04 · gömülü 6
+- uganda-protektorasi · Uganda Protektorası · himaye · 1894-06-18→1962-10-09 · gömülü 5
+- shewa · Şewa Krallığı (Menelik öncesi) · krallik · 1813-01-01→1889-03-10 · gömülü 6
+- kilva-sultanligi · Kilve (Kilwa Kisiwani) Sultanlığı · sultanlik · 0975-01-01→1505-01-01 · gömülü 5
+- turkana-pastoral-neolitik · Turkana Pastoral Neolitiği ('pillar sites' geleneği) · kultur · -3001-01-01→-2203-01-01 · gömülü 2
+- mogadisu-erken · Makdişu Erken Dönem Birliği (Mukri/Kahtânî öncesi sultanlık) · konfederasyon · 0900-01-01→1269-01-01 · gömülü 2
+
+## mezopotamya (34)
+- sumer-lagas-1 · Lagas I. Hanedan (sehir devleti) · devlet · -2499-01-01→-2349-01-01 · gömülü 3
+- akad · Akad Imparatorlugu · imparatorluk · -2333-01-01→-2153-01-01 · gömülü 8
+- gutium · Gutium (Gutiler) Hakimiyeti · kabile-hakimiyeti · -2153-01-01→-2111-01-01 · gömülü 2
+- ur-3 · Ur III (Ucuncu Ur Hanedani) · imparatorluk · -2111-01-01→-2003-01-01 · gömülü 6
+- isin · Isin Krallığı (I. Hanedan) · devlet · -2016-01-01→-1793-01-01 · gömülü 8
+- larsa · Larsa Krallığı · devlet · -2024-01-01→-1762-01-01 · gömülü 4
+- esnunna · Esnunna Krallığı · krallik · -1999-01-01→-1761-01-01 · gömülü 5
+- eski-asur · Eski Asur Devleti (Assur sehir devleti) · sehir-devleti-krallik · -2024-01-01→-1749-01-01 · gömülü 4
+- samsi-adad · Ust Mezopotamya Krallığı (Samsi-Adad I) · krallik · -1807-01-01→-1775-01-01 · gömülü 4
+- babil-eski · Eski Babil (Amorit) Krallığı · krallik · -1893-01-01→-1594-01-01 · gömülü 4
+- sealand-1 · Birinci Deniz Ulkesi Hanedani · krallik · -1731-01-01→-1474-01-01 · gömülü 5
+- kassit-babil · Kassit Babil Krallığı · krallik · -1594-01-01→-1154-01-01 · gömülü 4
+- isin-2 · Isin II. Hanedan (Babil, Nabukudurusur I) · krallik · -1154-01-01→-1025-01-01 · gömülü 8
+- orta-asur · Orta Asur Imparatorlugu · imparatorluk · -1362-01-01→-0910-01-01 · gömülü 7
+- mitanni · Mitanni (Hanigalbat) Krallığı · krallik · -1499-01-01→-1259-01-01 · gömülü 5
+- kis-egemenlik · Kiş Şehir Devleti ve Egemenliği (Erken Hanedan III) · devlet · -2599-01-01→-2333-01-01 · gömülü 5
+- uruk-erken-hanedan · Uruk Şehir Devleti (Erken Hanedan; Gılgameş'ten Lugalzagesi'ye) · devlet · -2599-01-01→-2333-01-01 · gömülü 3
+- ur-1-hanedan · Ur I. Hanedanı (Kraliyet Mezarlığı dönemi) · hanedanlik · -2599-01-01→-2333-01-01 · gömülü 2
+- umma-erken-hanedan · Umma Şehir Devleti (Erken Hanedan; Lugalzagesi) · devlet · -2549-01-01→-2333-01-01 · gömülü 3
+- lagas-2 · Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu) · devlet · -2143-01-01→-2111-01-01 · gömülü 6
+- bagdat-memlukleri · Bağdat Memlükleri (Eyüplü–Kölemen Hanedanı) · hanedanlik · 1704-01-01→1831-09-01 · gömülü 8
+- celili-musul · Celîlîler (Musul Paşalığı Yerli Hanedanı) · hanedanlik · 1726-01-01→1834-01-01 · gömülü 6
+- urfa-toros-beyligi · Urfa Ermeni Beyliği (Kuropalat Toros) · beylik · 1095-02-26→1098-03-10 · gömülü 2
+- ubaid-kultur · Ubaid Kültürü (Güney Mezopotamya) · kultur · -6499-01-01→-3799-01-01 · gömülü 2
+- halaf-kultur · Halaf Kültürü · kultur · -5899-01-01→-5399-01-01 · gömülü 2
+- uruk-gec-kultur · Geç Uruk Kültürü (Uruk IV–III, yazının ortaya çıkışı) · kultur · -3349-01-01→-3199-01-01 · gömülü 2
+- osrhoene · Osrhoene (Edessa) Krallığı · krallik · -0131-01-01→0242-01-01 · gömülü 2
+- baban-emirligi · Bâbân Emirliği (Babanzâdeler) · emirlik · 1669-01-01→1850-01-01 · gömülü 11
+- cizre-emirligi · Cizre Emirliği (Cizre beyleri) · emirlik · 1508-01-01→1627-01-01 · gömülü 2
+- bohtan-emirligi · Bohtan Emirliği (Hükûmet-i Cezîre, Bedirhan Bey) · emirlik · 1821-01-01→1847-07-29 · gömülü 8
+- muntefik-basra · Müntefik (Âl-i Sa'dûn) Basra hâkimiyeti · seyhlik · 1694-08-22→1697-07-20 · gömülü 8
+- afrasiyabiler · Afrâsiyâblar (Afrâsiyâboğulları, Basra) · hanedan · 1612-03-04→1668-02-25 · gömülü 9
+- ingiliz-mezopotamya-idaresi · İngiliz Mezopotamya İşgal İdaresi (askerî yönetim → geçici Arap hükümeti) · isgal-idaresi · 1914-11-06→1921-08-23 · gömülü 11
+- irak-sam-islam-devleti · Irak ve Şam İslam Devleti (IŞİD / DEAŞ, "hilafet") · fiili-yonetim · 2014-06-29→2019-03-23 · gömülü 14
+
+## suriye-filistin (34)
+- mari-lim · Mari Lim Hanedani (Yahdun-Lim–Zimri-Lim) · krallik · -1809-01-01→-1760-01-01 · gömülü 7
+- ebla-1 · Ebla Birinci Krallığı · krallik · -2399-01-01→-2299-01-01 · gömülü 2
+- aram-sam · Aram-Sam (Dimask) Krallığı · krallik · -0939-01-01→-0731-01-01 · gömülü 8
+- fenike-sehirleri · Fenike Sehir Devletleri (Sur, Sayda, Cubeyl, Arvad) · devlet · -1199-01-01→-0331-01-01 · gömülü 8
+- filistin-pentapolis · Filisti Sehir Devletleri · devlet · -1174-01-01→-0603-01-01 · gömülü 6
+- israil-krallik · Israil Krallığı (Samiriye) · krallik · -0929-01-01→-0721-01-01 · gömülü 4
+- yahuda · Yahuda Krallığı · krallik · -0929-01-01→-0585-01-01 · gömülü 5
+- hasmoni · Hasmoni Devleti (Yahudiye) · krallik · -0142-01-01→-0036-01-01 · gömülü 5
+- mari-erken · Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) · krallik · -2549-01-01→-2219-01-01 · gömülü 4
+- mari-sakkanakku · Mari Şakkanakku Hanedanı · hanedanlik · -2219-01-01→-1809-01-01 · gömülü 3
+- ebla-orta-tunc · Ebla (II.-III. Krallık, Orta Tunç) · krallik · -2299-01-01→-1599-01-01 · gömülü 2
+- yamhad · Yamhad (Halep) Krallığı · krallik · -1799-01-01→-1599-01-01 · gömülü 2
+- ugarit · Ugarit Krallığı · krallik · -1349-01-01→-1189-01-01 · gömülü 6
+- buyuk-lubnan-devleti · Büyük Lübnan Devleti (Fransız Mandası altında) · devlet · 1920-09-01→1926-05-23 · gömülü 6
+- lubnan-kaymakamliklari · Cebel-i Lübnan Çifte Kaymakamlığı (Hristiyan ve Dürzî Kaymakamlıkları) · prenslik · 1843-01-01→1861-06-09 · gömülü 5
+- atsiz-beyligi · Atsız b. Uvak Beyliği (Filistin - Dımaşk) · beylik · 1071-01-01→1079-01-01 · gömülü 5
+- natufiyen · Natufiyen Kültürü (Levant) · kultur · -12649-01-01→-9549-01-01 · gömülü 2
+- ppna-guney-levant · PPNA — Çanak Öncesi Neolitik A (Güney Levant) · kultur · -9699-01-01→-8649-01-01 · gömülü 2
+- ppnb-guney-levant · PPNB — Çanak Öncesi Neolitik B (Güney Levant) · kultur · -8649-01-01→-6749-01-01 · gömülü 2
+- ppnc-guney-levant · PPNC — Çanak Öncesi Neolitik C (Güney Levant) · kultur · -6749-01-01→-6399-01-01 · gömülü 2
+- aseramik-kuzey-levant-anadolu · Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu) · kultur · -11219-01-01→-7099-01-01 · gömülü 2
+- hamat · Hamat Krallığı · krallik · -0999-01-01→-0719-01-01 · gömülü 2
+- moab · Moab Krallığı · krallik · -1299-01-01→-0581-01-01 · gömülü 2
+- bar-kohba · Bar Kohba Devleti (İsrail Hürriyeti) · devlet · 0132-01-01→0135-01-01 · gömülü 2
+- tenuh · Tenûh (Tanûh) Konfederasyonu · konfederasyon · 0200-01-01→0630-01-01 · gömülü 2
+- sur-kadilari · Sûr (Tire) Kadıları Emirliği (İbn Ebî Akīl) · emirlik · 1063-01-04→1089-03-16 · gömülü 2
+- sam-devleti · Şam Devleti (Fransız mandası alt devleti) · devlet · 1920-09-01→1925-01-01 · gömülü 6
+- halep-devleti · Halep Devleti (Fransız mandası alt devleti) · devlet · 1920-09-01→1925-01-01 · gömülü 6
+- alevi-devleti-lazkiye · Alevîler Devleti / Lazkiye Hükümeti (Fransız mandası) · devlet · 1920-08-31→1936-01-01 · gömülü 7
+- cebel-durzi-devleti · Cebel Dürzî Devleti (Fransız mandası) · devlet · 1922-04-05→1937-01-01 · gömülü 7
+- iskenderun-sancagi-ozel-idare · İskenderun Sancağı (Fransız mandasında özel idare) · ozerk-birim · 1921-10-20→1938-09-02 · gömülü 9
+- oeta-guney · Düşman İşgal Toprakları İdaresi — Güney (OETA South, İngiliz askerî idaresi, Filistin) · isgal-idaresi · 1917-10-31→1920-07-01 · gömülü 7
+- oeta-bati-fransiz · Düşman İşgal Toprakları İdaresi — Batı/Kuzey (OETA West/North, Fransız askerî idaresi, Lübnan-Suriye sahili) · isgal-idaresi · 1918-10-08→1920-09-01 · gömülü 7
+- misir-gazze-idaresi · Gazze Şeridi (Mısır idaresi) · isgal-idaresi · 1949-02-24→1967-06-05 · gömülü 6
+
+## orta-avrupa (32)
+- prusya-dukaligi · Prusya Dükalığı · dukalik · 1525-04-08→1701-01-18 · gömülü 9
+- pomeranya-dukaligi · Pomeranya Dükalığı · dukalik · 1121-01-01→1637-03-10 · gömülü 7
+- mecklenburg-schwerin · Mecklenburg-Schwerin (Büyük Dükalık) · buyuk-dukalik · 1815-06-17→1934-01-01 · gömülü 11
+- mecklenburg-strelitz · Mecklenburg-Strelitz (Büyük Dükalık) · buyuk-dukalik · 1815-06-17→1934-01-01 · gömülü 11
+- nassau · Nassau Dükalığı · dukalik · 1806-08-30→1866-10-03 · gömülü 11
+- saksonya-weimar · Saxe-Weimar-Eisenach (Büyük Dükalık) · buyuk-dukalik · 1815-01-01→1920-05-01 · gömülü 11
+- anhalt-dukaligi · Anhalt Dükalığı · dukalik · 1863-08-19→1918-11-12 · gömülü 8
+- ren-konfederasyonu · Ren Konfederasyonu · konfederasyon · 1806-07-12→1813-10-19 · gömülü 11
+- westfalya-krallik · Westfalya Krallığı · vasal-krallik · 1807-08-18→1813-10-26 · gömülü 7
+- berg-buyuk-dukaligi · Berg Büyük Dükalığı · vasal-buyuk-dukalik · 1806-03-15→1813-11-01 · gömülü 8
+- frankfurt-serbest-sehri · Frankfurt Serbest Şehri · serbest-sehir · 1815-07-09→1866-10-08 · gömülü 5
+- hanse-birligi · Hanse Birliği (Lübeck önderliğinde) · sehirler-ligi · 1356-02-02→1669-01-01 · gömülü 5
+- lubeck-sehri · Lübeck Özgür İmparatorluk Şehri · devlet · 1226-01-01→1937-04-01 · gömülü 8
+- hamburg-sehri · Hamburg Özgür ve Hanse Şehri · devlet · 1510-01-01→1937-04-01 · gömülü 8
+- bremen-sehri · Bremen Özgür Hanse Şehri · devlet · 1646-01-01→2026-12-31 · gömülü 8
+- bavyera-konsey-cumhuriyeti · Bavyera Konsey (Sovyet) Cumhuriyeti · devrim-devleti · 1919-04-07→1919-05-03 · gömülü 5
+- karpat-ukrayna · Karpat Ukraynası · kisa-omurlu-devlet · 1939-03-15→1939-03-18 · gömülü 4
+- macar-sovyet-cumhuriyeti · Macar Sovyet Cumhuriyeti · devrim-devleti · 1919-03-21→1919-08-01 · gömülü 4
+- macaristan-halk-cumhuriyeti · Macaristan Halk Cumhuriyeti (Károlyi) · cumhuriyet · 1918-11-16→1919-03-21 · gömülü 5
+- lihtenstayn · Lihtenştayn Prensliği · prenslik · 1719-01-23→2026-12-31 · gömülü 8
+- magdeburg-basepiskoposlugu · Magdeburg Başpiskoposluğu · kilise-devleti · 0968-01-01→1680-01-01 · gömülü 4
+- moravya-markgraflik · Moravya Markgraflığı · markgraflik · 1182-01-01→1918-10-28 · gömülü 4
+- cenevre-cumhuriyeti · Cenevre Cumhuriyeti · sehir-cumhuriyeti · 1536-05-21→1798-04-26 · gömülü 6
+- nitra-prensligi · Nitra Prensliği (bağımsız dönem) · prenslik · 0805-01-01→0833-01-01 · gömülü 3
+- hessen-landgrafligi · Hessen Landgraflığı · landgraflik · 1264-01-01→1567-01-01 · gömülü 7
+- bern-cumhuriyeti · Bern Cumhuriyeti (Şehir-Devleti) · devlet · 1218-01-01→1798-03-05 · gömülü 7
+- mecklenburg-dukaligi · Mecklenburg Dükalığı (1348-1815) · dukalik · 1348-01-01→1815-01-01 · gömülü 8
+- lbk-szederkeny · Formatif/Erken LBK ve Vinča-Ražište karışık Neolitik (Transdanubia) · kultur · -5331-01-01→-5186-01-01 · gömülü 2
+- bavyera-agilolfing · Bavyera Dükalığı (Agilolfinger) · dukalik · 0555-01-01→0788-01-01 · gömülü 2
+- saksonya-eski · Eski Saksonya (Sakson Kabile Birliği) · konfederasyon · 0300-01-01→0804-01-01 · gömülü 2
+- nordmark · Kuzey Mark (Nordmark / Sakson Doğu Markı) · markgraflik · 0965-01-01→1157-01-01 · gömülü 2
+- bohemya-dukaligi · Bohemya Dükalığı (Přemyslid) · dukalik · 0873-01-01→1198-01-01 · gömülü 5
+
+## dogu-asya (31)
+- xi-liang-li-gao · Batı Liang (Li Gao, 西涼) · krallik · 0400-01-01→0421-01-01 · gömülü 2
+- hou-liang-lu-guang · Sonraki Liang (Lü Guang, 後涼) · krallik · 0386-01-01→0403-01-01 · gömülü 2
+- hosut · Hoşut (Kokonor) Hanlığı · hanlik · 1636-01-01→1724-01-01 · gömülü 4
+- taiping · Taiping Cennetsel Krallığı · isyan · 1851-01-11→1864-07-19 · gömülü 11
+- mengjiang · Mengjiang (Moğol Askerî Hükûmeti → Moğol Birleşik Özerk Hükûmeti) · vasal-devlet · 1936-01-01→1945-08-19 · gömülü 5
+- kore-gecici-hukumeti · Kore Cumhuriyeti Geçici Hükûmeti · surgun-huk-meti · 1919-04-11→1945-11-23 · gömülü 4
+- ezo-cumhuriyeti · Ezo Cumhuriyeti (Hakodate) · cumhuriyet · 1869-01-27→1869-06-27 · gömülü 6
+- doguhebei-ozerk · Doğu Hebei Komünizm Karşıtı Özerk Hükûmeti · vasal · 1935-11-25→1938-02-01 · gömülü 4
+- shang · Shang Hanedanı · krallik · -1599-01-01→-1045-01-01 · gömülü 4
+- shu-han · Shu Han · krallik · 0221-01-01→0263-01-01 · gömülü 6
+- gojoseon · Gojoseon (Eski Joseon) · krallik · -2332-01-01→-0193-01-01 · gömülü 2
+- wiman-joseon · Wiman Joseon · krallik · -0193-01-01→-0107-01-01 · gömülü 5
+- dian · Dian Krallığı (Yunnan) · krallik · -0278-01-01→-0108-01-01 · gömülü 4
+- guney-saray-nanbokucho · Güney Saray (Yoshino, Nanboku-chō) · hanedanlik · 1336-01-01→1392-01-01 · gömülü 5
+- peiligang · Peiligang Kültürü · kultur · -7049-01-01→-5049-01-01 · gömülü 2
+- yangshao · Yangshao Kültürü · kultur · -4999-01-01→-2899-01-01 · gömülü 2
+- shangshan · Shangshan Kültürü · kultur · -8849-01-01→-6649-01-01 · gömülü 2
+- kuahuqiao · Kuahuqiao Kültürü · kultur · -5949-01-01→-5249-01-01 · gömülü 2
+- hemudu · Hemudu Kültürü · kultur · -5149-01-01→-3249-01-01 · gömülü 2
+- liangzhu · Liangzhu Kültürü · kultur · -3549-01-01→-2049-01-01 · gömülü 2
+- jiahu-kultur · Jiahu Kültürü (Henan) · kultur · -6999-01-01→-5699-01-01 · gömülü 2
+- dadiwan-laoguantai · Dadiwan I / Laoguantai (Gansu, Yangshao öncesi) · kultur · -5849-01-01→-2949-01-01 · gömülü 2
+- taosi-kultur · Taosi Kültürü (Longshan sonu, Shanxi) · kultur · -2299-01-01→-1899-01-01 · gömülü 2
+- shimao-kultur · Shimao Kültürü (Shaanxi) · kultur · -2299-01-01→-1799-01-01 · gömülü 2
+- erlitou-kultur · Erlitou Kültürü (Henan) · kultur · -1749-01-01→-1519-01-01 · gömülü 2
+- sanxingdui-kultur · Sanxingdui Kültürü (Sichuan) · kultur · -1599-01-01→-1049-01-01 · gömülü 2
+- cheng-han · Cheng-Han (成漢) · krallik · 0304-01-01→0347-01-01 · gömülü 2
+- wu-devleti · Wu Devleti (吳, Gou Wu) · krallik · -0584-01-01→-0472-01-01 · gömülü 2
+- chimei-jianshi · Kızıl Kaşlılar Rejimi (Jianshi) · krallik · 0025-01-01→0027-01-01 · gömülü 2
+- chengjia-gongsun-shu · Chengjia (成家, Gongsun Shu) · krallik · 0025-01-01→0036-01-01 · gömülü 2
+- kuzey-liang · Kuzey Liang (北涼) · krallik · 0397-01-01→0439-01-01 · gömülü 2
+
+## arabistan (28)
+- suud-birinci · I. Suûdî Devleti (Vehhâbî Emirliği) · devlet · 1744-01-01→1818-09-09 · gömülü 5
+- suud-ikinci · II. Suûdî Devleti (Necid Emirliği) · devlet · 1824-06-01→1891-01-24 · gömülü 8
+- cebri · Cebrîler (Benî Cebr) · devlet · 1417-01-01→1524-01-01 · gömülü 5
+- nebhani · Nebhânîler (Uman) · devlet · 1281-01-01→1624-01-01 · gömülü 3
+- benihalid · Benî Hâlid Emirliği (Lahsa) · devlet · 1670-01-01→1830-01-01 · gömülü 7
+- sani-emirligi · Âl-i Sânî Emirliği (Katar) · - · 1871-09-20→1913-07-29 · gömülü 7
+- sabah-emirligi · Sabah Emirliği (Kuveyt) · - · 1795-04-01→1914-11-22 · gömülü 4
+- lubnan-emirligi · Lübnan Emirliği (Ma'noğulları · Şihaboğulları) · emirlik · 1516-10-01→1842-01-01 · gömülü 15
+- cebel-i-lubnan-mutasarrifligi · Cebel-i Lübnan Mutasarrıflığı · mutasarriflik · 1861-06-09→1915-07-11 · gömülü 11
+- harfusogullari · Harfûşoğulları (Baalbek Emirliği) · emirlik · 1521-01-01→1850-01-01 · gömülü 10
+- birlesik-arap-devletleri · Birleşik Arap Devletleri (BAC + Yemen Mütevekkilî Krallığı) · devlet · 1958-03-08→1961-12-26 · gömülü 3
+- aden-kolonisi · Aden Kolonisi · somurge · 1937-04-01→1963-01-18 · gömülü 5
+- trucial-states · Muahede (Trucial) Sahili Şeyhlikleri · himaye · 1820-01-01→1971-12-02 · gömülü 4
+- umman-ic-imamlik · İç Umman İbâdî İmamlığı · imamlik · 1913-01-01→1955-12-01 · gömülü 4
+- lahic-sultanligi · Abdâlî (Lahic) Sultanlığı · sultanlik · 1729-01-01→1967-11-30 · gömülü 5
+- ukaydir · Ukaydirîler (Yemâme) · hanedan · 0866-01-01→? · gömülü 5
+- dilmun · Dilmun · krallik-ticaret-devleti · -1999-01-01→? · gömülü 1
+- saba · Saba Krallığı · krallik · -0799-01-01→-0114-01-01 · gömülü 4
+- hadramavt · Hadramavt Krallığı · krallik · -0449-01-01→0300-01-01 · gömülü 2
+- ma-in · Ma'in Krallığı (Minai) · krallik · -0399-01-01→-0099-01-01 · gömülü 0
+- kataban · Kataban Krallığı · krallik · -0399-01-01→0199-01-01 · gömülü 0
+- arap-birligi-irak-urdun · Arap Birliği (Irak-Ürdün Federasyonu) · federasyon · 1958-02-14→1958-08-01 · gömülü 4
+- idrisi-asir · Idrisi Asir Emirliği · emirlik · 1908-01-01→1934-06-14 · gömülü 8
+- mekke-kureys · Mekke Kureyş Şehir Yönetimi · sehir-devleti · 0450-01-01→0630-01-11 · gömülü 2
+- yemame-museylime · Yemâme (Müseylime / Benî Hanîfe) · kabile-kralligi · 0631-01-01→0633-01-01 · gömülü 2
+- esved-ansi-yemen · Esved el-Ansî Yemen Yönetimi · devlet · 0632-01-01→0632-06-03 · gömülü 2
+- abna-yemen · Ebnâ (Sasani Yemen Valiliği) · valilik · 0575-01-01→0628-01-01 · gömülü 2
+- nebhani-umman · Nebhânîler (Umman Meliklikleri) · hanedanlik · 1154-01-01→1624-01-01 · gömülü 2
+
+## bati-avrupa (27)
+- glyndwr-galler · Galler Prensliği (Owain Glyndŵr ayaklanması) · prenslik · 1400-09-16→1415-01-01 · gömülü 3
+- kanal-adalari · Kanal Adaları (Jersey ve Guernsey Bailiwick'leri) · bagimlilik · 1204-01-01→? · gömülü 4
+- akitanya-dukaligi · Akitanya (Guyenne) Dükalığı · dukalik · 1000-01-01→1453-10-19 · gömülü 11
+- lorraine-dukaligi · Lorraine Dükalığı · dukalik · 1000-01-01→1766-02-23 · gömülü 12
+- ingiltere-irlanda-krallik · İrlanda Krallığı (İngiliz Tacı) · krallik · 1541-06-18→1801-01-01 · gömülü 5
+- elsass-lothringen · Alsas-Loren İmparatorluk Bölgesi (Reichsland) · imparatorluk-topragi · 1871-05-10→1918-11-11 · gömülü 7
+- kilkenny-konfederasyonu · İrlanda Katolik Konfederasyonu (Kilkenny) · de-facto-devlet · 1642-01-01→1649-01-01 · gömülü 7
+- irlanda-dail-cumhuriyeti · İrlanda Cumhuriyeti (Dáil Éireann) · cumhuriyet-ilan · 1919-01-21→1922-12-06 · gömülü 4
+- avignon-venaissin · Avignon-Comtat Venaissin (Papalık eksklavı) · eksklav · 1274-01-01→1791-09-14 · gömülü 5
+- deheubarth · Deheubarth Krallığı (Güney Galler) · krallik · 0920-01-01→1197-04-28 · gömülü 9
+- powys · Powys Krallığı · krallik · 0850-01-01→1283-01-01 · gömülü 6
+- massalia · Massalia (Marsilya) · devlet · -0599-01-01→-0048-01-01 · gömülü 6
+- jorvik · Jorvik (Viking York) Krallığı · krallik · 0866-01-01→0954-01-01 · gömülü 6
+- dublin-krallik · Dublin (Norse) Krallığı · krallik · 0841-01-01→1171-01-01 · gömülü 5
+- danelaw · Danelaw (Guthrum'un Doğu Anglia'sı ve Danimarkalı Bölge) · krallik · 0878-01-01→0918-01-01 · gömülü 5
+- catuvellauni-krallik · Catuvellauni-Trinovantes Krallığı (Cunobelinus) · krallik · 0005-01-01→0043-01-01 · gömülü 4
+- champagne-kontlugu · Champagne Kontluğu · kontluk · 1125-01-01→1314-01-01 · gömülü 7
+- dauphine-viennois · Dauphiné (Viennois Dofenliği) · prenslik · 1133-01-01→1349-07-16 · gömülü 6
+- orkney-gec-neolitik · Orkney Geç Neolitik / Grooved Ware (Skara Brae) · kultur · -2901-01-01→-2491-01-01 · gömülü 2
+- britanya-imparatorlugu-carausius · Britanya Galya Ayrılıkçı Devleti (Carausius ve Allectus) · imparatorluk · 0286-01-01→0296-01-01 · gömülü 7
+- vasconia · Vasconia Dukaligi · dukalik · 0602-01-01→0778-01-01 · gömülü 2
+- friz-krallik · Frizya Kralligi (Radbod) · krallik · 0600-01-01→0734-01-01 · gömülü 2
+- essex · Essex (Dogu Sakson) Kralligi · krallik · 0527-01-01→0825-01-01 · gömülü 2
+- waterford-norse · Waterford (Norse) Kralligi · krallik · 0914-01-01→1171-01-01 · gömülü 2
+- limerick-norse · Limerick (Norse) Kralligi · krallik · 0922-01-01→1014-01-01 · gömülü 2
+- septimania-gotia · Septimania / Gotia Markizligi · markizlik · 0759-01-01→0900-01-01 · gömülü 2
+- nevers-kontlugu · Nevers Kontluğu (Nivernais) · kontluk · 0987-01-01→? · gömülü 1
+
+## kuzey-afrika (26)
+- tuareg-ahaggar · Kel Ahaggar Tuareg Konfederasyonu · devlet · 1281-01-01→1902-05-07 · gömülü 2
+- tuareg-accer · Kel Accer Tuareg Konfederasyonu · devlet · 1281-01-01→1911-01-01 · gömülü 2
+- rif-cumhuriyeti · Rif Cumhuriyeti (Abdülkerim el-Hattâbî) · - · 1921-09-19→1926-05-25 · gömülü 4
+- ammarogullari · Ammâroğulları (Trablusgarp) · beylik · 1327-01-01→1401-01-01 · gömülü 6
+- konstantin-beyligi · Konstantin Beyliği (Ahmed Bey) · - · 1830-07-05→1844-03-04 · gömülü 4
+- tanca-uluslararasi-bolge · Tanca Uluslararası Bölgesi · uluslararasi-idare · 1923-12-18→1956-10-29 · gömülü 5
+- ifni-ispanyol · İspanyol Ifni · somurge · 1934-01-01→1969-06-30 · gömülü 10
+- cabo-juby-ispanyol · Cabo Juby (Tarfaya) İspanyol Bölgesi · himaye · 1912-11-27→1958-04-01 · gömülü 7
+- sahra-arap-demokratik-cumhuriyeti · Sahra Arap Demokratik Cumhuriyeti (Polisario) · fiili-devlet · 1976-02-27→? · gömülü 4
+- cezayir-gpra · Cezayir Cumhuriyeti Geçici Hükümeti (GPRA) · gecici-hukumet · 1958-09-19→1962-09-25 · gömülü 5
+- libya-fransiz-fizan · Fizan-Gadames Fransız Askerî İdaresi · askeri-idare · 1943-01-01→1951-12-24 · gömülü 6
+- bingazi-emirligi · Sirenayka (Bingazi) Emirliği (İdris es-Senûsî) · ozerk-emirlik · 1949-03-01→1951-12-24 · gömülü 7
+- touggourt · Tuggurt Sultanlığı (Benî Celleb) · sultanlik · 1414-01-01→1854-12-01 · gömülü 2
+- berqavata · Bergavata Devleti · devlet · 0744-01-01→1149-01-01 · gömülü 4
+- trablus-benihazrun · Benî Hazrun (Trablus) Emirliği · emirlik · 1001-01-01→1146-01-01 · gömülü 5
+- italyan-libya · İtalyan Libya · somurge · 1911-10-05→1943-01-23 · gömülü 5
+- tanca-bolgesi · Tanca Uluslararası Bölgesi · statu-bolgesi · 1924-05-14→1956-10-29 · gömülü 4
+- numidia · Numidya Krallığı (Massyli-Masaesyli birlesik) · krallik · -0200-01-01→-0045-01-01 · gömülü 5
+- kyrene · Kyrene (Kirene) Devleti · devlet · -0630-01-01→-0095-01-01 · gömülü 16
+- sfaks-firyani-emirligi · Sfaks Emirliği — Ömer b. Ebü'l-Hüseyin el-Firyânî (Norman sonrası) · emirlik · 1156-01-01→1159-01-01 · gömülü 2
+- altava-mauro-roma · Altava (Mauro-Roma) Krallığı · krallik · 0508-01-01→0578-01-01 · gömülü 2
+- guanche-politileri · Kanarya Adaları yerli politileri (Guanche menceyatları ve guanartemelikleri) · devlet · 1000-01-01→1496-01-01 · gömülü 1
+- ispanyol-oran-1 · İspanyol Oran (I. dönem) ve Mers el-Kebir · somurge · 1509-05-17→1708-01-01 · gömülü 0
+- ispanyol-oran-2 · İspanyol Oran (II. dönem) · somurge · 1732-01-01→1792-09-12 · gömülü 0
+- ispanyol-halkulvad · İspanyol Halkulvâd (La Goulette) ve Tunus himayesi · somurge · 1535-07-01→1574-08-24 · gömülü 0
+- ingiliz-tanca · İngiliz Tanca · somurge · 1661-01-01→1684-02-01 · gömülü 0
+
+## misir-sudan (25)
+- fransiz-misir-seferi · Napolyon'un Mısır Seferi · gecici-isgal · 1798-07-01→1801-10-02 · gömülü 4
+- dacu · Dâcû (Daju) Hanedanlığı · hanedanlik · 1200-01-01→1400-01-01 · gömülü 2
+- tunciler · Tunciler (Tunjur) Hanedanlığı · hanedanlik · 1400-01-01→1695-01-01 · gömülü 3
+- arap-cumhuriyetleri-federasyonu · Arap Cumhuriyetleri Federasyonu (Mısır-Libya-Suriye, nominal) · federasyon · 1972-01-01→1977-11-19 · gömülü 4
+- turk-misir-sudani · Türk-Mısır Sudanı (Türkiyye) · idare · 1821-01-01→1885-01-26 · gömülü 11
+- misir-erken-hanedan · Misir Erken Hanedan Donemi (1.-2. Hanedan) · krallik · -3125-01-01→-2685-01-01 · gömülü 4
+- herakleopolis · Herakleopolis Krallığı (9.-10. Hanedan, 1. Ara Donem) · krallik · -2159-01-01→-2054-01-01 · gömülü 3
+- tebai-11-hanedan · Tebai 11. Hanedan (birlesme oncesi) · krallik · -2124-01-01→-2054-01-01 · gömülü 5
+- hiksos-15 · Hiksos (15. Hanedan) · krallik · -1649-01-01→-1549-01-01 · gömülü 3
+- tebai-17-hanedan · Tebai 17. Hanedan · krallik · -1649-01-01→-1549-01-01 · gömülü 4
+- misir-3-ara · Misir 3. Ara Donem (21.-25. Hanedan: Tanis, Libya, Kus) · krallik-lar · -1068-01-01→-0663-01-01 · gömülü 9
+- kush-25-hanedan · Kusi 25. Hanedan (Misir) · krallik · -0724-01-01→-0652-01-01 · gömülü 5
+- sait-26-hanedan · Sait (26.) Hanedan · krallik · -0663-01-01→-0524-01-01 · gömülü 12
+- ahamenis-misir · Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) · eyalet · -0524-01-01→-0403-01-01 · gömülü 6
+- misir-28-30-hanedan · Misir 28.-30. Hanedan (son yerli firavunlar) · krallik · -0403-01-01→-0342-01-01 · gömülü 8
+- ahamenis-misir-2 · Ahamenis Misir'i (31. Hanedan, 2. Pers egemenligi) · eyalet · -0342-01-01→-0331-01-01 · gömülü 6
+- kerma · Kerma Krallığı (Klasik Kerma) · krallik · -1749-01-01→-1499-01-01 · gömülü 2
+- kush-krallik · Kus (Napata–Meroe) Krallığı · krallik · -0749-01-01→0349-01-01 · gömülü 7
+- naqada-kultur · Naqada Kültürü (Yukarı Mısır) · kultur · -3755-01-01→-3125-01-01 · gömülü 2
+- pre-kerma · Pre-Kerma Kültürü (Nubya) · kultur · -3499-01-01→-2499-01-01 · gömülü 2
+- erken-hartum · Erken Hartum Mezolitiği (Orta Sudan) · kultur · -8799-01-01→-8499-01-01 · gömülü 2
+- fayum-neolitik · Fayum Neolitiği ve Erken Holosen İskânı · kultur · -7349-01-01→-4849-01-01 · gömülü 2
+- shaheinab-neolitik · Shaheinab Neolitiği (Orta Sudan) · kultur · -4699-01-01→-4199-01-01 · gömülü 2
+- kerma-erken · Erken ve Orta Kerma Krallığı · krallik · -2449-01-01→-1749-01-01 · gömülü 2
+- beja-krallik · Beja Krallıkları (Hadariba/Baqlin vb.) · krallik · 0800-01-01→? · gömülü 1
+
+## guneydogu-asya (25)
+- yogyakarta · Yogyakarta Sultanlığı · sultanlik · 1755-02-13→1923-10-29 · gömülü 4
+- arakan · Arakan (Mrauk U) Krallığı · krallik · 1281-01-01→1785-01-02 · gömülü 5
+- gova-makassar · Gova (Makassar) Sultanlığı · sultanlik · 1281-01-01→1667-11-18 · gömülü 4
+- tidore-sultanligi · Tidore Sultanlığı (Moluk) · sultanlik · 1281-01-01→1923-10-29 · gömülü 4
+- banda-adalari · Banda Adaları (Orang Kaya Meclisleri) · devlet · 1281-01-01→1621-03-08 · gömülü 4
+- magindanao-sultanligi · Magindanao Sultanlığı · sultanlik · 1515-01-01→1888-01-01 · gömülü 5
+- dogu-sumatra-sultanliklari · Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri) · devlet · 1615-01-01→1858-01-01 · gömülü 6
+- pontianak · Pontianak Sultanlığı (Borneo) · devlet · 1772-01-01→1855-01-01 · gömülü 8
+- kutai · Kutai Sultanlığı (Doğu Borneo) · devlet · 1575-01-01→1908-01-01 · gömülü 6
+- bali-kralliklari-pejeng · Bali Pejeng Krallığı · krallik · 1292-01-01→1343-01-01 · gömülü 2
+- lao-issara-hukumeti · Lao Issara Hükûmeti · hukumet · 1945-10-12→1949-10-24 · gömülü 4
+- untac · UNTAC (BM Kamboçya Geçiş İdaresi) · vesayet · 1992-02-28→1993-01-01 · gömülü 10
+- vietnam-imparatorlugu-1945 · Vietnam İmparatorluğu (Bảo Đại, Japon himayesi) · vasal-devlet · 1945-03-01→1945-08-25 · gömülü 6
+- bima-sultanligi · Bima Sultanlığı · sultanlik · 1620-01-01→? · gömülü 5
+- mangkunegaran · Mangkunegaran Prensliği (Surakarta) · prenslik · 1757-01-01→? · gömülü 8
+- hollanda-malaka · Hollanda Malakası · koloni-voc · 1641-01-01→1825-03-01 · gömülü 4
+- portekiz-malaka · Portekiz Malakası · somurge · 1511-08-15→1641-01-01 · gömülü 6
+- luwu · Luwu Krallığı (Güney Sulawesi) · krallik · 1281-01-01→? · gömülü 0
+- buton · Buton (Wolio) Sultanlığı · sultanlik · 1281-01-01→? · gömülü 0
+- khok-phanom-di-neolitik · Khok Phanom Di Neolitiği (Orta Tayland kıyısı) · kultur · -1999-01-01→-1499-01-01 · gömülü 2
+- ban-chiang-kultur · Ban Chiang Kültürü (Kuzeydoğu Tayland) · kultur · -1509-01-01→0001-01-01 · gömülü 2
+- vesali-chandra · Vesali (Chandra Hanedani, Arakan) · krallik · 0788-01-01→0957-01-01 · gömülü 2
+- chenla-su · Su Chenla (Water Chenla) · krallik · 0706-01-01→0802-01-01 · gömülü 2
+- chenla-toprak · Toprak Chenla (Land Chenla) · krallik · 0706-01-01→0802-01-01 · gömülü 3
+- trinh-lordlari · Trịnh Lordları (Đàng Ngoài) · beylik · 1545-01-01→1786-01-01 · gömülü 5
+
+## iran (21)
+- galzay · Galzaylar (Hotakî Afgan Devleti) · devlet · 1709-04-21→1738-01-01 · gömülü 10
+- yezd-atabegligi · Yezd Atabegleri · atabeglik · 1141-01-01→1318-01-01 · gömülü 7
+- gilan-sovyet-cumhuriyeti · İran Sosyalist Sovyet Cumhuriyeti (Gîlân Cumhuriyeti, Kuçek Han) · cumhuriyet · 1920-06-05→1921-11-01 · gömülü 6
+- cobaniler · Çobânîler (Çûbânîler) · hanedan · 1335-11-30→1357-01-01 · gömülü 4
+- musasa · Müşa'şa'îler (Hüveyze, Arabistan/Huzistan) · emirlik · 1442-01-16→? · gömülü 12
+- elam-simaski · Elam — Simaski Hanedani · krallik · -2099-01-01→-1899-01-01 · gömülü 2
+- elam-sukkalmah · Elam — Sukkalmah (Eparti) Hanedani · krallik · -1899-01-01→-1499-01-01 · gömülü 2
+- elam-orta · Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) · krallik · -1499-01-01→-1099-01-01 · gömülü 5
+- elam-yeni · Yeni Elam Krallığı · krallik · -1099-01-01→-0538-01-01 · gömülü 10
+- iskender-imparatorlugu · Buyuk Iskender Imparatorlugu · imparatorluk · -0335-01-01→-0322-06-10 · gömülü 8
+- awan · Awan Krallığı (Elam, Erken Elam) · krallik · -2499-01-01→-2099-01-01 · gömülü 3
+- medya · Medya (Med) Krallığı · krallik · -0677-01-01→-0549-01-01 · gömülü 7
+- manna · Manna (Mannea) Krallığı · krallik · -0828-01-01→-0599-01-01 · gömülü 4
+- hissar-kultur · Hissar I–III (Damghan, İran platosu) · kultur · -3921-01-01→-2169-01-01 · gömülü 2
+- yahya-donemleri · Tepe Yahya Dönemleri VII–I (Kirman) · kultur · -5499-01-01→-0199-01-01 · gömülü 2
+- parsua · Parsua (Parsumaş) Krallığı · krallik · -0833-01-01→-0743-01-01 · gömülü 2
+- teispid-pers · Teispid Pers Krallığı · krallik · -0674-01-01→-0549-01-01 · gömülü 2
+- sacilar · Sâcîler (Ebü's-Sâcoğulları) · hanedanlik · 0889-05-06→0929-09-09 · gömülü 2
+- hasanveyhiler · Hasanveyhîler (Berzikânî Kürt emirliği) · hanedanlik · 0959-01-01→1015-01-01 · gömülü 2
+- azerbaycan-milli-hukumeti · Azerbaycan Millî Hükûmeti (Pişeverî — Muhtar Azerbaycan Cumhuriyeti) · cumhuriyet · 1945-12-12→1946-12-12 · gömülü 4
+- sistan-mihribani · Mihribânîler (Sistan Melikleri) · emirlik · 1236-07-19→1543-01-01 · gömülü 5
+
+## dogu-avrupa (19)
+- polonya-naiplik-kralligi · Polonya Naiplik Krallığı (Regency Kingdom, Alman-Avusturya himayesi) · krallik · 1916-11-05→1918-11-11 · gömülü 3
+- danzig-serbest-sehri-1807 · Danzig Serbest Şehri (Napolyon Dönemi) · cumhuriyet · 1807-07-09→1814-02-04 · gömülü 4
+- riga-hur-sehri · Riga Hür Şehri · sehir-devleti · 1561-11-28→1581-01-01 · gömülü 2
+- belarus-halk-cumhuriyeti · Belarus Halk Cumhuriyeti · cumhuriyet-ilan · 1918-03-25→1919-01-05 · gömülü 3
+- memel-bolgesi · Memel (Klaipėda) Bölgesi · mandater-bolge · 1920-02-10→1939-03-23 · gömülü 6
+- ostland · Reichskommissariat Ostland · isgal-idaresi · 1941-07-28→1944-10-13 · gömülü 6
+- kraliyet-prusyasi · Kraliyet (Polonya) Prusyası · polonya-eyaleti · 1466-10-19→1772-09-13 · gömülü 4
+- kurland-dukaligi · Kurland ve Semigallia Dükalığı · dukalik-polonya-litvanya-vasali · 1561-11-28→1795-03-28 · gömülü 11
+- pecenek-konfederasyonu · Peçenek Konfederasyonu · bozkir-konfederasyonu · 0889-01-01→1122-01-01 · gömülü 6
+- gdansk-kral-sehri · Gdańsk (Danzig) Kraliyet Şehri · ozerk-sehir · 1454-01-01→1793-01-01 · gömülü 4
+- polotsk-knezligi · Polotsk Knezliği · knezlik · 0978-01-01→1307-01-01 · gömülü 9
+- pereyaslavl-knezligi · Pereyaslavl (Güney) Knezliği · knezlik · 1054-01-01→1239-03-03 · gömülü 4
+- rostov-knezligi · Rostov Knezliği (Vladimir bağlısı) · knezlik · 1207-01-01→1474-01-01 · gömülü 5
+- yaroslavl-knezligi · Yaroslavl Knezliği · knezlik · 1218-01-01→1463-01-01 · gömülü 9
+- nijni-novgorod-suzdal · Suzdal-Nijni Novgorod Büyük Knezliği · knezlik · 1341-01-01→1391-01-01 · gömülü 9
+- beloozero-knezligi · Beloozero Knezliği · knezlik · 1238-01-01→1389-01-01 · gömülü 8
+- budjak-ordasi · Bucak (Budjak) Tatar Ordası · osmanli-t-bi-horda · 1697-01-01→1812-01-01 · gömülü 8
+- bosporos-krallik · Bosporos (Kırım) Krallığı · krallik · -0437-01-01→0370-01-01 · gömülü 4
+- skit-krallik · İskit (Pontus Bozkırı) Devletleri · gocebe-konfederasyon · -0699-01-01→-0199-01-01 · gömülü 5
+
+## guney-afrika (19)
+- manica · Manica Krallığı · krallik · 1281-01-01→1891-01-01 · gömülü 4
+- pedi · Pedi Krallığı · krallik · 1650-01-01→1879-12-02 · gömülü 5
+- venda · Venda Krallığı · krallik · 1700-01-01→1898-01-01 · gömülü 4
+- svazi · Svazi Krallığı · krallik · 1815-01-01→1903-01-01 · gömülü 5
+- basuto · Basuto (Basotho) Krallığı · krallik · 1822-01-01→1868-03-12 · gömülü 5
+- griqua · Griqua Devletleri (Griqualand Batı ve Doğu) · devlet · 1804-01-01→1878-01-01 · gömülü 8
+- tsvana · Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana) · krallik · 1700-01-01→1885-03-31 · gömülü 5
+- herero · Herero Halkı · devlet · 1281-01-01→1904-01-12 · gömülü 8
+- nama-orlam · Nama ve Orlam Kaptanlıkları · devlet · 1281-01-01→1904-10-03 · gömülü 8
+- xhosa · Xhosa Krallıkları · krallik · 1281-01-01→1878-01-01 · gömülü 9
+- namibya-gecici-ulusal-birlik-hukumeti · Güneybatı Afrika Geçici Ulusal Birlik Hükümeti · gecici-hukumet · 1985-06-17→1989-02-28 · gömülü 8
+- ingiliz-basutoland · Basutoland (İngiliz himayesi/kolonisi) · himaye · 1868-03-12→1966-10-04 · gömülü 6
+- ingiliz-svaziland · Svaziland Himayesi (İngiliz) · himaye · 1903-01-01→1968-09-06 · gömülü 5
+- cape-hollanda · Hollanda Kap Kolonisi · koloni-voc · 1652-04-06→1795-09-16 · gömülü 9
+- cape-ingiliz · İngiliz Kap Kolonisi · somurge · 1795-09-16→1910-05-31 · gömülü 5
+- natal-kolonisi · Natal Kolonisi · somurge · 1843-05-12→1910-05-31 · gömülü 7
+- natalia · Natalia (Boer) Cumhuriyeti · cumhuriyet · 1839-01-01→1843-05-12 · gömülü 4
+- oranj-nehri-kolonisi · Orange Nehri Kolonisi · somurge · 1902-05-31→1910-05-31 · gömülü 4
+- basutoland · Basutoland (İngiliz Himayesi) · himaye · 1868-03-12→1966-10-04 · gömülü 7
+
+## orta-afrika (18)
+- rabih · Râbih b. Zübeyr Devleti · devlet · 1893-01-01→1900-04-22 · gömülü 8
+- kanem-tubu · Kanem Tubu Sahası (Teda-Daza) · devlet · 1281-01-01→1913-01-01 · gömülü 8
+- darul-kuti · Dârü'l-Kûtî Sultanlığı (Senûsî) · sultanlik · 1890-01-01→1911-01-12 · gömülü 6
+- zende · Zende (Azande) Sultanlıkları · sultanlik · 1750-01-01→1912-01-01 · gömülü 7
+- mangbetu · Mangbetu Krallığı · krallik · 1815-01-01→1895-01-01 · gömülü 8
+- banda-gbaya · Banda ve Gbaya Halkları · devlet · 1281-01-01→1903-01-01 · gömülü 7
+- kasance · Kasance (Kasanje) Krallığı · krallik · 1620-01-01→1910-01-01 · gömülü 12
+- matamba · Matamba Krallığı · krallik · 1281-01-01→1744-01-01 · gömülü 5
+- ovimbundu · Ovimbundu Krallıkları (Bailundu · Viye · Vambu) · krallik · 1700-01-01→1902-01-01 · gömülü 8
+- yeke · Yeke Krallığı (Msiri) · devlet · 1856-01-01→1891-12-20 · gömülü 6
+- tubu-tibesti · Tibesti Teda (Tubu) Konfederasyonu · devlet · 1281-01-01→1914-01-01 · gömülü 8
+- kuba · Kuba Krallığı · krallik · 1625-01-01→1900-01-01 · gömülü 4
+- fransiz-ekvator-afrikasi · Fransız Ekvator Afrikası (AEF) · - · 1910-01-15→1958-01-01 · gömülü 10
+- ingiliz-kamerun · İngiliz Kamerunu (Mandat → Vesayet) · vesayet · 1922-07-20→1961-10-01 · gömülü 4
+- cad-gunt · Çad Ulusal Birlik Geçiş Hükümeti (GUNT) · gecici-hukumet · 1979-11-10→1982-06-07 · gömülü 8
+- angola-unita-fnla · Angola Demokratik Halk Cumhuriyeti (UNITA–FNLA, Huambo) · fiili-hukumet · 1975-11-11→1976-02-11 · gömülü 4
+- vedday-sultanligi · Vedây (Wadai/Ouaddaï) Sultanlığı · sultanlik · 1635-01-01→1909-06-02 · gömülü 8
+- sao-tome-ve-principe · São Tomé ve Príncipe Cumhuriyeti · devlet · 1975-07-12→? · gömülü 1
+
+## iberya (16)
+- andorra · Andorra Eş-Prensliği · prenslik · 1278-09-08→? · gömülü 14
+- cebelitarik-ingiliz · Cebelitarık (İngiliz Denizaşırı Toprağı) · bagimlilik · 1713-07-13→? · gömülü 8
+- toledo-zunnunler · Zünnûnîler (Toledo Taifası) · taifa-emirligi · 1036-01-01→1085-05-08 · gömülü 6
+- cid-valensiya · Valensiya (El Cid) Prensliği · prenslik · 1094-06-15→1102-05-05 · gömülü 4
+- valensiya-kralligi · Valensiya Krallığı (Aragon Tacı) · krallik · 1238-09-28→1707-06-29 · gömülü 7
+- los-millares-kultur · Los Millares Bakır Çağı topluluğu (Almería) · kultur · -3139-01-01→-2166-01-01 · gömülü 2
+- el-argar-kultur · El Argar Kültürü (Güneydoğu İberya) · kultur · -2199-01-01→-1549-01-01 · gömülü 2
+- sobrarbe-ribagorza · Sobrarbe-Ribagorza Kontluklari · kontluk · 0872-01-01→1035-01-01 · gömülü 2
+- pallars · Pallars Kontluklari · kontluk · 0872-01-01→1000-01-01 · gömülü 2
+- urgell · Urgell Kontlugu · kontluk · 0798-01-01→1314-01-01 · gömülü 2
+- empuries · Empuries (Ampurias) Kontlugu · kontluk · 0819-01-01→1402-01-01 · gömülü 2
+- besalu · Besalu Kontlugu · kontluk · 0878-01-01→1111-01-01 · gömülü 2
+- almeria-tavaif · Elmeriyye Taifesi · taifa-emirligi · 1009-01-01→1091-01-01 · gömülü 2
+- valensiya-amiriler · Amiriler (Belensiye Taifesi) · taifa-emirligi · 1021-01-01→1065-11-10 · gömülü 2
+- tortosa-lleida · Turtusa-Larida Taifeleri · taifa-emirligi · 1012-01-01→1060-01-01 · gömülü 2
+- balear-tavaif · Mayurka Taifesi (Murtada) · taifa-emirligi · 1076-08-05→1115-01-01 · gömülü 2
+
+## orta-amerika (16)
+- ikinci-meksika-imparatorlugu · İkinci Meksika İmparatorluğu (Maximilian) · imparatorluk · 1864-04-10→1867-06-19 · gömülü 4
+- guatemala-kaptanligi · Guatemala Genel Kaptanlığı · somurge · 1609-01-01→1821-09-15 · gömülü 8
+- olmek · Olmek Kulturu (San Lorenzo-La Venta) · kultur · -1199-01-01→-0399-01-01 · gömülü 4
+- maya-klasik · Klasik Maya Sehir Devletleri (genel cati) · devlet · 0250-01-01→0900-01-01 · gömülü 6
+- teotihuacan · Teotihuacan Şehir Devleti · devlet · -0099-01-01→0550-01-01 · gömülü 6
+- kaqchikel-kralligi · Kaqchikel (Cakchiquel) Krallığı · krallik · 1470-01-01→1524-01-01 · gömülü 7
+- zapotek-monte-alban · Monte Albán Zapotek Devleti · devlet · -0499-01-01→0700-01-01 · gömülü 8
+- maya-orta-preklasik · Orta Preklasik Maya (Mirador Havzası ve Petén) · kultur · -0999-01-01→-0399-01-01 · gömülü 2
+- oaxaca-formatif · Oaxaca Vadisi Formatif köyleri (San José Mogote, Rosario evresine dek) · kultur · -1624-01-01→-0499-01-01 · gömülü 2
+- la-blanca-formatif · La Blanca (Pasifik kıyısı Guatemala) Orta Formatif anıtsal merkez · kultur · -0999-01-01→-0599-01-01 · gömülü 2
+- kaminaljuyu-providencia · Kaminaljuyú Providencia evresi · kultur · -0349-01-01→-0099-01-01 · gömülü 2
+- ek-balam · Ek' Balam Krallığı · krallik · 0770-01-01→0840-01-01 · gömülü 2
+- naranjo-saal · Naranjo (Saal / Wak Kab'nal) Krallığı · krallik · 0546-01-01→0810-01-01 · gömülü 7
+- ceibal · Ceibal (Seibal) Krallığı · krallik · 0411-01-01→0889-01-01 · gömülü 5
+- cacaxtla · Cacaxtla-Xochitécatl (Olmeca-Xicalanca) · sehir-devleti · 0650-01-01→0950-01-01 · gömülü 2
+- azcapotzalco-tepanek · Azcapotzalco (Tepanekler) · sehir-devleti · 1230-01-01→1428-01-01 · gömülü 2
+
+## guney-asya (15)
+- gond-kralliklari · Gond Krallıkları (Garha-Mandla, Deogarh) · krallik · 1301-01-01→1781-01-01 · gömülü 4
+- butan · Butan (Druk Yul; Wangchuck monarşisi) · krallik · 1907-12-17→? · gömülü 6
+- bhutan · Bhutan (Drukyul, Şabdrung Devleti → Wangchuck Krallığı) · devlet · 1616-01-01→2026-01-01 · gömülü 6
+- fransiz-hindistani · Fransız Hindistanı · somurge · 1674-01-01→1954-11-01 · gömülü 5
+- danimarka-hindistani · Danimarka Hindistanı (Tranquebar-Serampore) · somurge · 1620-11-19→1868-10-16 · gömülü 13
+- tancur-maratha · Tancur Maratha Krallığı · krallik · 1676-01-01→1855-01-01 · gömülü 4
+- harappa · Harappa (Indus) Uygarlığı (Olgun evre) · uygarlik-devlet-duzeyi-tartismali · -2599-01-01→-1899-01-01 · gömülü 3
+- indo-grek · Hint-Grek (Indo-Greek) Krallıkları · krallik · -0179-01-01→0010-01-01 · gömülü 9
+- erken-harappa · Erken Harappa Dönemi · kultur · -3199-01-01→-2599-01-01 · gömülü 2
+- gec-harappa · Geç Harappa Dönemi · kultur · -1899-01-01→-1599-01-01 · gömülü 2
+- mehrgarh-neolitik · Mehrgarh Neolitiği (Kaççi Ovası, Belucistan) · kultur · -5049-01-01→-4723-01-01 · gömülü 2
+- guney-hint-neolitik-megalitik · Güney Hint Neolitiği → Megalitik geçiş (Sanganakallu-Kupgal) · kultur · -1399-01-01→-1199-01-01 · gömülü 2
+- koch-bihar · Koch Krallığı / Koch Bihar (Biswa Singha–Naranarayan hanedanı) · krallik · 1515-01-01→1949-01-01 · gömülü 7
+- tripura-manikya · Tripura (Hill Tippera) Manikya Krallığı · krallik · 1279-01-01→1949-10-15 · gömülü 8
+- vakataka · Vakataka Hanedanı · hanedanlik · 0255-01-01→0540-01-01 · gömülü 4
+
+## guney-amerika (12)
+- arua · Aruã (Marajó) · devlet · 1281-01-01→1836-01-01 · gömülü 10
+- falkland-ingiliz · Falkland (Malvinas) Adaları (İngiliz) · bagimlilik · 1833-01-03→? · gömülü 5
+- falkland-arjantin-isgali · Falkland/Malvinas — Arjantin yönetimi · gecici-isgal · 1982-04-02→1982-06-14 · gömülü 5
+- sili-kaptanligi · Şili Genel Kaptanlığı · somurge · 1541-02-12→1818-02-12 · gömülü 8
+- peru-bolivya-konfederasyonu · Peru–Bolivya Konfederasyonu · konfederasyon · 1836-10-28→1839-01-20 · gömülü 9
+- caral-norte-chico · Norte Chico (Caral-Supe) Uygarligi · uygarlik · -2999-01-01→-1999-01-01 · gömülü 3
+- chavin · Chavin Kulturu · kultur · -0949-01-01→-0399-01-01 · gömülü 5
+- nazca · Nazca Kulturu · kultur · -0199-01-01→0599-01-01 · gömülü 4
+- moche · Moche (Mochica) Devletleri · devlet · 0001-01-01→0799-12-31 · gömülü 7
+- casma-sechin · Casma Vadisi Geç Arkaik–Formatif toplulukları (Sechín Bajo, Cerro Sechín, Sechín Alto) · kultur · -3399-01-01→-1009-01-01 · gömülü 2
+- paracas-kultur · Paracas Kültürü (Ica, Güney Peru kıyısı) · kultur · -0789-01-01→-0039-01-01 · gömülü 2
+- kotosh-dini-gelenek · Kotosh Dini Geleneği (Orta And) · kultur · -2799-01-01→-0549-01-01 · gömülü 2
+
+## okyanusya (12)
+- hawaii-cumhuriyeti · Hawaii Geçici Hükümeti ve Cumhuriyeti · cumhuriyet · 1893-01-17→1898-08-12 · gömülü 3
+- tonga-kralligi · Tonga Krallığı · krallik · 1845-12-04→? · gömülü 6
+- tui-tonga-imparatorlugu · Tuʻi Tonga İmparatorluğu · imparatorluk · 1000-01-01→1845-12-04 · gömülü 12
+- untea · UNTEA (BM Geçici İdaresi, Batı Yeni Gine) · vesayet · 1962-10-01→1963-05-01 · gömülü 8
+- gilbert-ellice-kolonisi · Gilbert ve Ellice Adaları (Koruma Bölgesi -> Koloni 1916-01-12) · somurge · 1892-05-27→1976-01-01 · gömülü 7
+- palau · Palau Cumhuriyeti · devlet · 1981-01-01→? · gömülü 4
+- fiji-cakobau · Fiji Krallığı (Cakobau) · krallik · 1871-01-01→1874-10-10 · gömülü 4
+- maori-kingitanga · Maori Krallığı (Kīngitanga) · krallik · 1858-01-01→? · gömülü 4
+- moriori · Moriori (Chatham Adaları) · topluluk · 1400-01-01→1835-11-01 · gömülü 3
+- rarotonga · Rarotonga ve Cook Adaları Şeflikleri/Krallığı · seflikler · 1250-01-01→1888-01-01 · gömülü 6
+- saudeleur · Saudeleur Hanedanı (Nan Madol) · hanedanlik · 1100-01-01→1628-01-01 · gömülü 5
+- tonga-lapita · Tonga Lapita iskânı (Nukuleka) · kultur · -0887-01-01→-0742-01-01 · gömülü 2
+
+## kafkasya (12)
+- kumuk-samhalligi · Kumuk Şamhallığı (Tarki) · - · 1578-11-01→1726-01-01 · gömülü 4
+- kaheti-kralligi · Kaheti Krallığı · - · 1492-01-01→1762-01-01 · gömülü 12
+- kafkas-imamligi · Kafkas (Dağıstan-Çeçenistan) İmamlığı · imamlik · 1828-01-01→1859-09-06 · gömülü 8
+- svaneti · Svaneti Prensliği · prenslik · 1463-01-01→1858-01-01 · gömülü 5
+- ermenistan-yervantuni · Yervandit (Orontid) Ermenistan · krallik · -0599-01-01→-0199-01-01 · gömülü 4
+- artaksiad · Artaksiad Ermenistan · krallik · -0188-01-01→0012-01-01 · gömülü 6
+- alania-krallik · Alan (Alania) Krallığı (Kuzey Kafkasya) · krallik · 0850-01-01→1090-01-01 · gömülü 5
+- iberya-kartli · İberya (Kartli) Krallığı · krallik · -0301-01-01→0580-01-01 · gömülü 2
+- mihranid-gardman · Mihranidler (Gardman/Arran) · hanedanlik · 0630-01-01→0822-01-01 · gömülü 2
+- kafkas-arnavutlugu-krallik · Kafkas Arnavutluğu (Albania) Krallığı · krallik · -0065-01-01→0252-01-01 · gömülü 3
+- sunik-kralligi · Sünik (Bağk) Krallığı · krallik · 0970-01-01→1170-01-01 · gömülü 4
+- kaheti-hereti-kralligi · Kaheti-Hereti Krallığı · krallik · 1010-01-01→1104-01-01 · gömülü 4
+
+## orta-amerika-karayip (9)
+- purepecha-imparatorlugu · Purépecha (Tarasko) İmparatorluğu · imparatorluk · 1300-01-01→1530-02-14 · gömülü 6
+- tututepec-krallik · Tututepec Krallığı (Yucu Dzaa) · krallik · 1281-01-01→1522-01-01 · gömülü 1
+- zapotek-krallik · Zapotek Krallığı · krallik · 1281-01-01→1523-01-01 · gömülü 4
+- barbados-ingiliz · Barbados Kolonisi · somurge · 1627-02-17→1966-11-30 · gömülü 4
+- bahama-ingiliz · Bahama Adaları Kolonisi · somurge · 1718-01-01→1973-07-10 · gömülü 7
+- aruba-ozerk · Aruba (ayrı ülke statüsü) · ozerk-ulke · 1986-01-01→? · gömülü 6
+- puerto-riko · Porto Riko (ABD yönetimi → Commonwealth 1952-07-25) · bagimlilik · 1899-04-11→? · gömülü 8
+- guadeloupe · Guadeloupe (Fransız koloni → DOM 1946-03-19) · bagimlilik · 1635-01-01→? · gömülü 5
+- martinik · Martinik (Fransız koloni → DOM 1946-03-19) · bagimlilik · 1635-01-01→? · gömülü 4
+
+## sibirya-bozkir (7)
+- don-kazak · Don Kazak Ordası · devlet · 1570-01-01→1721-01-01 · gömülü 6
+- kalmuk-hanligi · Kalmuk Hanlığı (Volga) · han-devleti · 1632-01-01→1771-01-05 · gömülü 4
+- kefe-gazaria · Ceneviz Gazaria (Kefe) · ceneviz-kolonisi · 1266-01-01→1475-06-06 · gömülü 7
+- kolcak-omsk-hukumeti · Kolçak Hükûmeti (Omsk, Rusya Yüce Hükümdarlığı) · beyaz-hareket-devleti · 1918-11-18→1920-01-04 · gömülü 2
+- ebulhayr-ozbek-ulusu · Ebü'l-Hayr Hanlığı (Özbek Ulusu, Ebü'l-Hayrîler) · hanlik · 1429-01-01→1468-01-01 · gömülü 8
+- alas-ozerkligi · Alaş Özerkliği (Alaş Orda) · ozerk-hukumet · 1917-12-01→1920-01-01 · gömülü 4
+- kimek · Kimek Kağanlığı (İrtiş) · kaganlik · 0850-01-01→? · gömülü 1
+
+## orta-asya (6)
+- buhara-halk-cumhuriyeti · Buhara Halk Sovyet Cumhuriyeti · - · 1920-10-08→1924-10-27 · gömülü 6
+- transkaspi-hukumeti · Sosyal Devrimci Transhazar (Transkaspiya) Geçici Hükûmeti · hukumet · 1918-01-01→? · gömülü 8
+- kusan-sasani · Kuşano-Sasani Krallığı (Kuşanşahlar) · vasal-krallik · 0230-01-01→0360-01-01 · gömülü 5
+- xianbei · Xianbei Konfederasyonu (Tanşihuai) · konfederasyon · 0155-01-01→0235-01-01 · gömülü 6
+- jeitun-kultur · Jeitun Kültürü (Kopet Dağ, Türkmenistan) · kultur · -6098-01-01→-5926-01-01 · gömülü 2
+- anau-ia-kultur · Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ) · kultur · -4299-01-01→-3819-01-01 · gömülü 2
+
+## kuzey-avrupa (4)
+- norvec-isvec-birligi · Norveç Krallığı (İsveç ile Birlik) · krallik · 1814-11-04→1905-06-07 · gömülü 9
+- svalbard · Svalbard (Norveç egemenliği) · bagimlilik · 1925-08-14→? · gömülü 4
+- orkney-kontlugu · Orkney Kontluğu · kontluk · 1000-01-01→1472-02-20 · gömülü 4
+- schleswig-holstein-1848 · Schleswig-Holstein Geçici Hükûmeti · ayaklanma-devleti · 1848-03-24→1851-01-15 · gömülü 8
+
+## sahra (1)
+- gobero-kultur · Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré) · kultur · -7699-01-01→-2834-01-01 · gömülü 2
+
+
+## ÖZET: gerçek ihtiyaç
+
+696 maddesiz künyenin 685'inin künyesinde gömülü kronoloji[] dizisi VAR (kronoloji sekmesine ve Değişmez 2'ye girmeyen öteki kronolojiler). Hiçbir yerde maddesi olmayan künye: 11 (shs-devleti, modena, frigya, ma-in, kataban, ispanyol-oran-1, ispanyol-oran-2, ispanyol-halkulvad, ingiliz-tanca, luwu, buton). Önce bu 11'ine kuruluş+son maddesi; ardından gömülü maddeleri olaylar*/kronoloji_* biçimine taşıma ya da taraflar alanıyla bağlama ayrı iştir (VERI-YAPISI "kronoloji[]" bölümü).

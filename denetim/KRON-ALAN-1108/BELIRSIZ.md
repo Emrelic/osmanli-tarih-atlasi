@@ -3203,3 +3203,6 @@ onem/dunya için Emre'nin rubrik onayı (RUBRIK ölçütü: 5 çağ açan … 1 
 - 1525-04-08 · Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü → onem,dunya
 - 1918-11-12 · Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu → tur,onem,dunya
 
+
+## EK (9 Kasım) — çift puanlayıcı denemesi
+Aynı 100 etiketli madde iki bağımsız Sonnet puanlayıcıyla kör puanlandı (ikincisi sondan başa). Puanlayıcılar birbiriyle uyuştu: onem 79/100, dunya 86/100. Ama UYUŞTUKLARI maddelerde etiketli gerçek değerle tam uyum onem %44, dunya %55 (±1: %89 / %100) — iki puanlayıcının uyuşması doğruluğu artırmıyor. Yani hata puanlayıcı gürültüsü değil, mevcut etiketlerin dosya başına farklı ölçek kullanması. ≥%90 koşulu sağlanmadığı için onem/dunya YAZILMADI; yaklaşık 6M token harcayıp 3.020 maddeyi puanlamak kanıtlanmış biçimde fayda getirmiyor. Çıkış yolu: Emre'nin tek ölçek kararı (ör. dosya başı kalibrasyon tablosu) ya da boş maddelerin "puansız" kalması (uygulama zaten puansız kutusuyla gösteriyor).
