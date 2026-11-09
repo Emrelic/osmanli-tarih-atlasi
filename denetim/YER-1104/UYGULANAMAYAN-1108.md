@@ -5,7 +5,8 @@ ZINCIR-64 oturumu · 8 Kasım 2026. Uygulayıcı: `zincir64_uygula.py` (çıktı
 | Nokta / dilim | Sebep | Çare |
 |---|---|---|
 | **Novigrad** (bütün nokta) | `d:` kırılmaları 1594-01-01 (kayıp) ve 1685-01-01 (kayıp) ±30 günde kronoloji maddesi taşımıyor (Değişmez 2: en yakın madde 166 ve 59 gün; ikisi de yıl-temsilî uç). Maddesiz kırılma uygulanmaz. | Önce iki gerçek gün kaynaklanmalı (1594 Nógrád'ın Habsburg'a geçişi; 1685 Nógrád'ın düşüşü — Ersekújvár 1685-08-19 komşusu) ve maddeleri yazılmalı; sonra `ATLA` kümesinden çıkarılır. |
-| **Selâ** — yalnız 2 `isg:` dönemi (Fransız işgali 1911-07-19 → 1912-03-30) | Değişmez 2i: iki ucun ±30 gününde madde yok (en yakın 72 ve 35 gün). Selâ'nın `s:` zinciri (muvahhidler → … → fas-fransiz-himayesi 1912-03-30) uygulandı; yalnız işgal örtüsü yok. | 19 Temmuz 1911 Rabat–Selâ işgali (TDV rabat) ve 30 Mart 1912 Fes Antlaşması maddeleri yazılınca `ISG_ATLA`dan çıkarılır. |
+| ~~**Selâ** — 2 `isg:` dönemi~~ | **ÇÖZÜLDÜ 9 Kasım 2026:** `kronoloji_sinir_afrika.js`e 1911-07-19 (TDV rabat) ve 1912-03-30 (Britannica «Treaty of Fès» + encyclopedia.com, çift teyit) maddeleri yazıldı; `ISG_ATLA` boşaltıldı, isg dönemleri veride. | — |
+| **Novigrad** gün araması (9 Kasım) | 1594 Nógrád'ın Habsburg'a geçişi: Pálffy 7 Mart 1594'te kale önüne geldi (hungarianottomanwars.com, ikincil, alınış günü okunamadı); 1663 ve 1685 için yalnız yıl/mevsim bulundu (Pálmány 1986 PDF'i indirilemedi, "stream aborted"). Gün uydurulmaz. | Pálmány Béla, *Nógrád megyei évkönyv* 1986 (real-j.mtak.hu/29019) elle okunmalı; 3 günü bulununca madde + `ATLA`dan çıkar. |
 
 ## Uygulananlarda özel kararlar
 - **Oskol:** `kur:"1593-01-01"` (`kesinlik:"yil"`, neden: ilk yazılı tanık, alt sınır — kuruluş değil). Aksi hâlde 1281-1593 sahipsiz delik (Değişmez 1c yeni delik).

@@ -13,7 +13,7 @@ BEYANLI_KUNYE = {"Tepedelen", "Drivasto", "Tellülkebîr", "Cezîretülhadrâ (A
 
 
 # Selâ isg 1911-07-19 / 1912-03-30: ±30 gün kronoloji maddesi yok (Değişmez 2i) → uygulanmadı, UYGULANAMAYAN-1108.md
-ISG_ATLA = {"Selâ"}
+ISG_ATLA = set()  # 9 Kasım 2026: Selâ isg uçlarına kronoloji_sinir_afrika.js'te 1911-07-19 ve 1912-03-30 maddeleri yazıldı
 OZEL = {
     "Oskol": [("kesinlik", "yil"), ("kur", "1593-01-01"),
               ("neden", "kur: KURULUŞ DEĞİL, İLK YAZILI TANIK (Nikon Letopisi 1593, YIL) — görünme için ALT SINIR; 1593 öncesi şehir yok (Yabanıl Saha). Kuruluş 1593/1596 tartışmalı, ikinci akademik kaynak bulunamadı (kaynak: alanı).")],

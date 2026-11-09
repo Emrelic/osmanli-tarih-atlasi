@@ -289,8 +289,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_afrika.js",
-     "sha": "c6eef006c1baf3c9",
-     "bayt": 38936
+     "sha": "37323090dac27b7e",
+     "bayt": 40946
     },
     {
      "yol": "data/kronoloji_sinir_asya.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1197750
+   "bayt": 1199760
   },
   {
    "paket": "data/paket_10.js",
