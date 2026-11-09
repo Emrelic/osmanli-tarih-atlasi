@@ -926,7 +926,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan` bu krizi yalnız dolaylı anıyor ('1895'te finans krizlerinin etkisiyle Trikoupis hükümetten çekilmek zorunda kaldı'); dayanak: standart akademik kaynak (Trikoupis'in meclis konuşması, 10 Aralık 1893)." },
 
 { taraflar:["yunanistan"], t:"1896-04-06", b:"İlk modern Olimpiyat Oyunları'nın Atina'da açılması", tur:"kultur",
-  onem:5, dunya:5, kapsam:"ic", etiket:["kultur","spor","konu-kultur","konu-spor"], yer_id:"Atina",
+  onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — spor — önemli ama çağ açan 5 değil", kapsam:"ic", etiket:["kultur","spor","konu-kultur","konu-spor"], yer_id:"Atina",
   d:"Panathinaiko Stadyumu'nda Kral I. Georgios'un açılışını yaptığı oyunlar, antik Yunan mirasını modern ulus kimliğiyle birleştiren en görünür uluslararası vitrin oldu ve kalıcı bir dünya kurumunun (modern Olimpiyatlar) başlangıcı sayılır.",
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/resmî kaynak (Uluslararası Olimpiyat Komitesi resmî sitesi olympics.com, Britannica)." },
 

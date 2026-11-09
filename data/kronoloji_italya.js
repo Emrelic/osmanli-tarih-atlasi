@@ -161,7 +161,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Michelangelo dört yıllık çalışmanın ardından şapel tavanındaki fresk döngüsünü tamamladı; Yaratılış sahneleri, Batı sanat tarihinin en çok tanınan imgeleri arasına girdi. Papa II. Julius eseri Azizler Yortusu arifesinde açtırdı.",
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs" },
 
-{ devlet:"papalik", t:"1521-01-03", b:"Luther'in aforoz edilmesi (Decet Romanum Pontificem)", tur:"din", onem:4, dunya:5, kapsam:"dis", yer_id:"Roma",
+{ devlet:"papalik", t:"1521-01-03", b:"Luther'in aforoz edilmesi (Decet Romanum Pontificem)", tur:"din", onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Reform'un çağ açan maddesi 1517-10-31 (5); aforoz onun devamı", kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","din","reform","konu-din","konu-islahat"],
   d:"X. Leo, tezlerinden vazgeçmeyen Martin Luther'i kilise topluluğundan resmen dışladı. Kararın pratik sonucu sınırlıydı — Luther Almanya'da güçlü prenslerin korumasındaydı — ama sembolik olarak Katolik Avrupa'nın dinî birliğinin artık geri döndürülemez biçimde çatladığının ilanıydı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (ferman tarihi olarak yaygın kabul)" },
@@ -355,7 +355,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Kutsal İttifak adına harekete geçen Avusturya orduları, Rieti-Antrodoco'da anayasacı kuvvetleri yenip anayasayı iptal ettirdi; Metternich sisteminin İtalya'daki liberal hareketleri bastırma kararlılığının ilk somut örneğiydi.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; ikincil doğrulama yapılmadı", yer_kon:[42.404,12.863] },
 
-{ devlet:"napoli", t:"1860-05-11", b:"Garibaldi'nin Bin'i Marsala'ya çıkar", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"",
+{ devlet:"napoli", t:"1860-05-11", b:"Garibaldi'nin Bin'i Marsala'ya çıkar", tur:"isgal", onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — İtalyan birliği için çağ açan madde 1861-03-17 (5); sefer adımları 4", kapsam:"dis", yer_id:"",
   etiket:["napoli","milliyetcilik","askeri","konu-askeri","konu-siyasi"],
   d:"Giuseppe Garibaldi, Cenova'dan yola çıkan yaklaşık bin gönüllü kızıl gömlekliyle Sicilya'nın batı kıyısındaki Marsala'ya çıkarma yaptı; bu küçük sefer, İki Sicilya Krallığı'nı birkaç ay içinde çökertip İtalyan birleşmesini geri döndürülemez hâle getirecekti — Risorgimento'nun en simgesel askeri harekâtıdır.", ic_not_d:"Marsala yerleşim veri tabanında kayıtlı değil.",
   kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"sbarcarono a Marsala l'11 maggio 1860\"", yer_kon:[37.799,12.436] },
@@ -375,7 +375,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Messina yakınındaki Milazzo'da Garibaldi'nin kuvvetleri son büyük Bourbon direnişini de kırdı; Sicilya'nın tamamı birkaç hafta içinde Garibaldi'nin kontrolüne geçti.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; ikincil doğrulama yapılmadı", yer_kon:[38.221,15.241] },
 
-{ devlet:"napoli", t:"1860-09-07", b:"Garibaldi'nin Napoli'ye girmesi", tur:"isgal", onem:4, dunya:5, kapsam:"dis", yer_id:"Napoli",
+{ devlet:"napoli", t:"1860-09-07", b:"Garibaldi'nin Napoli'ye girmesi", tur:"isgal", onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — İtalyan birliği için çağ açan madde 1861-03-17 (5); sefer adımları 4", kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","milliyetcilik","askeri","konu-askeri","konu-siyasi"],
   d:"Bourbon Kralı II. Francesco şehri savunmadan terk edince Garibaldi trenle Napoli'ye girdi; halk onu kurtarıcı olarak karşıladı. Krallığın başkenti bir tek kurşun atılmadan düşmüştü — Risorgimento'nun en simgesel anlarından biri.",
   kaynak:"bulunamadı — gün YAYGIN KABUL (7 Eylül), standart akademik konsensüs; ikincil doğrulama yapılmadı" },
@@ -419,7 +419,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Cenova, Kırım'ın güney kıyısında Kefe (Caffa) kolonisini kurdu; koloni bir buçuk asır boyunca cumhuriyetin Karadeniz-İpek Yolu ticaretindeki en kârlı üssü ve Doğu Avrupa köle ticaretinin ana limanı olacaktı.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe kolonisi kuruldu (Kırım kıyısı)\"", yer_id:"Kefe" },
 
-{ devlet:"cenova", t:"1347-01-01", b:"Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması", tur:"salgin", onem:3, dunya:5, kapsam:"dis", yer_id:"",
+{ devlet:"cenova", t:"1347-01-01", b:"Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması", tur:"salgin", onem:3, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kara Ölüm 1346 Altın Orda maddesinde 5; aynı salgının tekrarları 4", kapsam:"dis", yer_id:"",
   etiket:["ceneviz","kriz","salgin","konu-siyasi","afet","afet-salgin"],
   d:"Altın Orda kuvvetlerinin Kefe'yi kuşatması sırasında, kuşatmacıların vebadan ölen cesetleri mancınıkla surların içine atmasıyla salgının kente sıçradığı anlatılır; kaçan Cenevizli tüccar gemileri hastalığı 1347 sonunda Sicilya'ya, oradan bütün Avrupa'ya taşıdı. Kara Ölüm'ün Avrupa'ya girişinin en çok anılan öyküsü, tek bir Ceneviz kolonisinden başlar ve kıtanın nüfusunun üçte birini silecek bir felakete dönüşür.",
   kaynak:"bulunamadı — bu anlatı (Gabriele de' Mussi'nin çağdaş tanıklığına dayanır) standart akademik salgın tarihi literatüründe yaygın kabul görür; birincil metin OKUNMADI, kesin mekanizma tarihçiler arasında hâlâ tartışmalıdır", yer_id:"Kefe" },
@@ -523,7 +523,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Zalim yönetimiyle tanınan dük, Aziz İstefanos Kilisesi'nde üç genç soylu tarafından bıçaklanarak öldürüldü; suikastçılar kısa sürede yakalanıp idam edildi ama olay, tahta genç bir çocuğun (Gian Galeazzo Sforza) geçmesine ve amcası Ludovico'nun fiilî iktidarı ele geçirmesine yol açtı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
-{ devlet:"milano-dukaligi", t:"1494-10-22", b:"Ludovico 'il Moro'nun fiilen dük olması — Fransızları davet etmesi", tur:"hukumdar", onem:5, dunya:5, kapsam:"dis", yer_id:"Milano",
+{ devlet:"milano-dukaligi", t:"1494-10-22", b:"Ludovico 'il Moro'nun fiilen dük olması — Fransızları davet etmesi", tur:"hukumdar", onem:5, dunya:3, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→3 — İtalyan Savaşları'nın açılışı 1495-02-22 maddesinde (5); bu bir dük değişimi", kapsam:"dis", yer_id:"Milano",
   etiket:["milano","hanedan","diplomasi","konu-diplomasi","konu-hanedan"],
   d:"Yeğeni Gian Galeazzo'nun şüpheli ölümüyle Ludovico Sforza fiilen dük oldu; Napoli krallığının kendisine düşman olmasından çekinerek Fransa Kralı VIII. Charles'ı İtalya'ya davet etti. Bu davet, altmış beş yıl sürecek İtalyan Savaşları'nın doğrudan fitili oldu — Ludovico'nun kendisi de bu savaşların kurbanı olacaktı.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; ikincil doğrulama yapılmadı" },

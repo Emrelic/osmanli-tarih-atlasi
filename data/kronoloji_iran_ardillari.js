@@ -583,7 +583,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1347-01-01", b:"Kara Ölüm İran'a ulaştı — Tebriz ve Bağdat'ta veba", gun:"1347", ic_not_gun:"1347 — yıl hassasiyeti · TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"salgin",
-  onem:4, dunya:5, kapsam:"ic", etiket:["salgin","demografi","sosyal","konu-sosyal","konu-demografi","afet","afet-salgin"],
+  onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kara Ölüm 1346 Altın Orda maddesinde 5; aynı salgının tekrarları 4", kapsam:"ic", etiket:["salgin","demografi","sosyal","konu-sosyal","konu-demografi","afet","afet-salgin"],
   yer_id:"Tebriz",
   d:"Orta Asya'dan Kırım'a ve Akdeniz'e yayılan veba salgını 1340'ların ortasında İran ve Irak şehirlerini de vurdu; Tebriz, Sultâniye ve Bağdat gibi ticaret şehirleri nüfuslarının önemli bir bölümünü kaybetti. Salgının İlhanlı ardılları üzerindeki etkisi doğrudan ölçülmüştür: Serbedârîler'in doğu komşusu Toğa Timur'un ordusu 1350'lerin başında veba yüzünden zayıflamış ve bu zayıflık onun öldürülmesinin önünü açmıştır.", ic_not_d:"⚠️ TARİH HAKKINDA: salgının İran'a varış günü kaynaklarda yoktur; madde Avrupa ve Yakındoğu için kabul edilen 1347 yılına bağlandı — bir yıl beyanıdır.",
   kaynak:"serbedariler" },

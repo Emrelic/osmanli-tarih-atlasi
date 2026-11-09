@@ -139,7 +139,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 { t:"1347-01-01",
   b:"Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
-  tur:"salgin", onem:5, dunya:5, kapsam:"dis",
+  tur:"salgin", onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kara Ölüm 1346 Altın Orda maddesinde 5; aynı salgının tekrarları 4", kapsam:"dis",
   etiket:["salgin","ticaret","demografi","konu-ekonomi","konu-demografi","afet","afet-salgin"],
   yer_id:"Cenova",
   d:"Altın Orda ordusunun kuşattığı Kefe'den kaçan Ceneviz kadırgaları vebayı önce Messina'ya, ardından Cenova'ya taşıdı. Şehir nüfusunun yarıya yakınını kaybetti; koloni ağını ayakta tutan denizci ve tüccar kuşağı silindi. Cenova'nın Karadeniz ticaretinden kazandığı üstünlük, aynı yoldan gelen salgınla ödendi.",
@@ -1425,7 +1425,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 { taraflar:["siena"], t:"1348-06-01",
   b:"Kara Ölüm'ün Siena'yı vurması — Dokuzlar rejiminin can damarının kesilmesi",
-  tur:"salgin", onem:5, dunya:5, kapsam:"ic",
+  tur:"salgin", onem:5, dunya:3, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→3 — tek şehrin rejim krizi; salgın 1346 maddesinde 5", kapsam:"ic",
   etiket:["salgin","demografi","kriz","konu-siyasi","konu-demografi","afet","afet-salgin"],
   yer_id:"Siena",
   d:"Salgın birkaç ay içinde şehir nüfusunun yarısından fazlasını öldürdü; vakanüvis Agnolo di Tura kendi beş çocuğunu eliyle gömdüğünü yazdı. Katedral genişletmesi durdu, vergi tabanı çöktü, Dokuzlar'ı ayakta tutan orta tabaka eridi. Siena, Kara Ölüm'ün Avrupa'da en ağır vurduğu büyük şehirdir ve ortaçağdaki nüfusuna bir daha hiç ulaşmadı.",

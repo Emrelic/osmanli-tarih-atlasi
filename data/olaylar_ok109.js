@@ -207,7 +207,7 @@ window.OLAYLAR_OK109 = [
   //   YAZMIYORUM — geçen sefer "2t 17 → 22" dedim, ölçüm 17 dedi, modelim
   //   yanlıştı. Yazdıktan SONRA ölçüp bildireceğim.
 
-  { tur:"antlasma", bolge:2,
+  { tur:"antlasma", bolge:2, dunya:5, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: dunya:5 eklendi — aynı günün dünya-5 maddeleri (Fransa/İngiltere/Almanya kronolojileri) bu maddeyle gün çakışmasında düşüyordu; bölge 2'de varsayılan ayarda Versay hiç görünmüyordu.",
     t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     kapsam:"dis", onem:4, b: "Versailles Antlaşması — Alsas-Loren'in Fransa'ya iadesi hukuka geçti", odak_yer:["Strazburg","Metz","Colmar","Mulhouse"], kapsam_genis:true,
     gun: "28 Haziran 1919",
@@ -218,7 +218,7 @@ window.OLAYLAR_OK109 = [
     kaynak: "Versailles Antlaşması md. 51 (Yale Law School, Avalon Project, avalon.law.yale.edu/imt/partiii.asp): 'The territories which were ceded to Germany … are restored to French sovereignty as from the date of the Armistice of November 11, 1918.' · birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". Dikkat: TANECİKLİK BOŞLUĞU: TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
   },
 
-  { tur:"antlasma", bolge:3,
+  { tur:"antlasma", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — Batı Trakya Osmanlı'nın 1913 sonrası komşu toprağı; Misak-ı Millî'nin Batı Trakya maddesi bu devre bağlanır.",
     t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "konu-askeri", "konu-diplomasi"],
     ic_not_etiket: "toprak-kaybi KALDIRILDI (GEMINI-DOGRULA 0919): maddenin kendi metni haritadaki devrin Mayıs 1920'de olduğunu söylüyor (Dedeağaç 14, Gümülcine 27 Mayıs) — toprak kaybı o günlerin maddelerinde.",
     kapsam:"dis", onem:4, b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti", odak_yer:["Gümülcine","İskeçe","Dedeağaç (Alexandroupoli)","Sofya"], kapsam_genis:true,

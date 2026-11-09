@@ -301,7 +301,7 @@ window.OLAYLAR_EK16 = [
   d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 10 Eylül 1721'de (Jülyen 30 Ağustos) Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
   kaynak:"TDV İslâm Ansiklopedisi, 'İsveç', islamansiklopedisi.org.tr/isvec ; 'Avrupa' (30 Ağustos 1721 Jülyen) — «Nystad [Niştat] Antlaşması, 10 Eylül 1721»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (isvec · rusya · Store norske leksikon 'freden i Nystad' · Britannica 'Peace of N) dayanak olamaz, değiştirildi. İsveç maddesi açılıp okundu (10 Eylül 1721 Gregoryen). Avrupa maddesi 30 Ağustos verir (arama özeti, sayfa açılmadı); iki tarih aynı gün. Atlasın takvim beyanı TDV ile uyumlu.", duygu:["😔"] },
 
-{ tur:"antlasma", bolge:3, t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", bolge:3, dunya:5, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: dunya:5 eklendi — aynı günün dünya-5 maddeleri bu maddeyle gün çakışmasında düşüyordu; bölge 3'te varsayılan ayarda Viyana Kongresi hiç görünmüyordu.", t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi",
   gun:"9 Haziran 1815",
   yer:"Brüksel, Anvers (Antwerpen), Gent, Brüj (Brugge), Namur, Mons, Tournai, Liège, Lüksemburg, Cenova, Varşova, Stralsund, Ypres, Elba",
@@ -398,7 +398,7 @@ window.OLAYLAR_EK16 = [
   d:"Zekât anlaşmazlığı ve bir Reşîdî elçisinin tutuklanması üzerine bozulan ilişkiler sonunda, Cebel Şammar emîri Muhammed bin Reşîd'in ordusu, 21 Ocak 1891'de Kasîm bölgesindeki Müleydâ'da Abdurrahman bin Faysal liderliğindeki Suud kuvvetlerini ve müttefiklerini ağır bir yenilgiye uğrattı; bu, İkinci Suud Devleti'nin fiilî sonu oldu, Al Suud ailesi Küveyt'e sürgüne gitti ve Necid'in tamamı Râşidî hâkimiyetine girdi. Hâkimiyet 1902'de genç Abdülaziz bin Suud'un Riyad'ı geri almasına kadar (Riyad Baskını, 16 Ocak 1902) sürecekti.",
   kaynak:"bulunamadı — TDV bu savaşı müstakil ele almıyor, dayanak: standart akademik kaynak (Battle of Mulayda tarihyazımı)", duygu:["⚔️"] },
 
-{ bolge:3, t:"1492-01-02", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
+{ bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — Endülüs'ün son Müslüman devletinin sonu; Endülüs'ten Osmanlı'ya yardım çağrısı, Kemal Reis'in Endülüs seferi ve Sefarad göçü buna bağlanır.", t:"1492-01-02", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Granada'nın düşüşü — İber Yarımadası'nda son Müslüman devletin sonu",
   gun:"2 Ocak 1492",
   yer:"Granada",

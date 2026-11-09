@@ -105,6 +105,11 @@ window.KRONOLOJI_ALMANYA = [
   etiket:["bilim","hansa","konu-bilim","konu-egitim"],
   d:"Kuzey Almanya'nın ilk üniversitesi olan Rostock, Mecklenburg dükleri ve şehir meclisinin ortak girişimiyle kuruldu. Baltık ticaret ağının (Hansa) kültürel omurgasını güçlendiren kurumlardan biri oldu.",
   kaynak:"bulunamadı — standart akademik eserde müstakil doğrulama yapılmadı, kuruluş yılı (1419) genel kabul görmüş bilgidir, gün DOĞRULANMADI" },
+{ odak_yer:["Mainz"], t:"1440-01-01", gun:"1440", devlet:"almanya", b:"Gutenberg Mainz'da hareketli harfle basımı gerçekleştirdi — matbaa çağının başlangıcı", tur:"bilim", onem:5, dunya:5, kapsam:"ic", yer_id:"",
+  etiket:["bilim","teknoloji","kultur","konu-bilim","konu-kultur"],
+  d:"Johann Gutenberg'in Mainz'da müteharrik (hareketli) harfle basımı ilk kez gerçekleştirdiği kabul edilir; 1454-1455'te aynı şehirde madenî harflerle basılmış ilk kitapların örnekleri bugüne ulaşmıştır. Kitabın elle çoğaltılmasından seri basıma geçiş, Reform'dan bilimsel devrime uzanan bilgi yayılımının altyapısı oldu.",
+  ic_not_d:"KRON-DUNYA-BOLGE-1109 (Emre, 9 Kasım 2026: dünya çapında çok önemli olaylar dunya 5) — atlasta Gutenberg maddesi HİÇ yoktu. Yıl TDV'den; gün yok ⇒ YYYY-01-01 (yalnız yıl). Britannica 403 verdi, okunamadı.",
+  kaynak:"TDV İslâm Ansiklopedisi, «Matbaa» (Kemal Beydilli, c. 28, 2003) https://islamansiklopedisi.org.tr/matbaa — «Müteharrik basımın ilk olarak Almanya’da Mainz şehrinde Johann Gutenberg tarafından 1440 yılında gerçekleştirildiği kabul edilir.» · «1454-1455 yıllarında Mainz’de madenî harflerle baskı yapan matbaada basılan ilk kitaplara ait örnekler bugüne ulaşmıştır.»" },
 
 { t:"1460-04-04", devlet:"almanya", b:"Basel Üniversitesi'nin kurulması", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Basel",
   etiket:["bilim","kutsal-roma","konu-bilim","konu-egitim"],

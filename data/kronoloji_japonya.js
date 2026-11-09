@@ -292,7 +292,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"Kyoto",
   d:"[Edo Şogunluğu] Askerî yenilginin kaçınılmaz göründüğünü fark eden son şogun Tokugawa Yoshinobu, iktidarı resmen imparatora devretmeyi teklif etti; bu barışçıl teslimiyet girişimi, iki ay sonra ilan edilecek Meiji Restorasyonu'na (bkz. altta) giden son adımdı, ama Boşin İç Savaşı yine de 1869'a kadar sürecekti.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: W. G. Beasley, The Meiji Restoration (1972)" },
-{ t:"1868-01-03", b:"Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic",
+{ t:"1868-01-03", b:"Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı", tur:"kurulus", onem:5, dunya:5, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 4→5 — Japonya'nın modernleşmesi — çağ açan dünya olayı; Emre 8 Kasım örneklerinden (\"Japonya'da restorasyon\")", kapsam:"ic",
   etiket:["kurulus","siyaset","reform","konu-siyasi","konu-islahat"],
   yer_id:"Kyoto",
   d:"[Meiji dönemi] Genç İmparator Meiji adına Satsuma-Chōshū koalisyonunun yayımladığı ferman, 675 yıllık şogunluk sistemine son verip imparatorluk otoritesini 'restore' etti; Boşin Savaşı'nın (1868-1869) ardından kesinleşen bu değişim, Japonya'yı bir nesil içinde sanayileşmiş bir dünya gücüne dönüştürecek reform dalgasının başlangıcıydı.",

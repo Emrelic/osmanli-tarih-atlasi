@@ -3406,7 +3406,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan` bu krizi yalnız dolaylı anıyor ('1895'te finans krizlerinin etkisiyle Trikoupis hükümetten çekilmek zorunda kaldı'); dayanak: standart akademik kaynak (Trikoupis'in meclis konuşması, 10 Aralık 1893)." },
 
 { taraflar:["yunanistan"], t:"1896-04-06", b:"İlk modern Olimpiyat Oyunları'nın Atina'da açılması", tur:"kultur",
-  onem:5, dunya:5, kapsam:"ic", etiket:["kultur","spor","konu-kultur","konu-spor"], yer_id:"Atina",
+  onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — spor — önemli ama çağ açan 5 değil", kapsam:"ic", etiket:["kultur","spor","konu-kultur","konu-spor"], yer_id:"Atina",
   d:"Panathinaiko Stadyumu'nda Kral I. Georgios'un açılışını yaptığı oyunlar, antik Yunan mirasını modern ulus kimliğiyle birleştiren en görünür uluslararası vitrin oldu ve kalıcı bir dünya kurumunun (modern Olimpiyatlar) başlangıcı sayılır.",
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/resmî kaynak (Uluslararası Olimpiyat Komitesi resmî sitesi olympics.com, Britannica)." },
 
@@ -6545,7 +6545,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1347-01-01", b:"Kara Ölüm İran'a ulaştı — Tebriz ve Bağdat'ta veba", gun:"1347", ic_not_gun:"1347 — yıl hassasiyeti · TDV `serbedariler`, `ilhanlilar`, `celayirliler`, `muzafferiler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"salgin",
-  onem:4, dunya:5, kapsam:"ic", etiket:["salgin","demografi","sosyal","konu-sosyal","konu-demografi","afet","afet-salgin"],
+  onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kara Ölüm 1346 Altın Orda maddesinde 5; aynı salgının tekrarları 4", kapsam:"ic", etiket:["salgin","demografi","sosyal","konu-sosyal","konu-demografi","afet","afet-salgin"],
   yer_id:"Tebriz",
   d:"Orta Asya'dan Kırım'a ve Akdeniz'e yayılan veba salgını 1340'ların ortasında İran ve Irak şehirlerini de vurdu; Tebriz, Sultâniye ve Bağdat gibi ticaret şehirleri nüfuslarının önemli bir bölümünü kaybetti. Salgının İlhanlı ardılları üzerindeki etkisi doğrudan ölçülmüştür: Serbedârîler'in doğu komşusu Toğa Timur'un ordusu 1350'lerin başında veba yüzünden zayıflamış ve bu zayıflık onun öldürülmesinin önünü açmıştır.", ic_not_d:"⚠️ TARİH HAKKINDA: salgının İran'a varış günü kaynaklarda yoktur; madde Avrupa ve Yakındoğu için kabul edilen 1347 yılına bağlandı — bir yıl beyanıdır.",
   kaynak:"serbedariler" },
@@ -7296,7 +7296,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 { t:"1347-01-01",
   b:"Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
-  tur:"salgin", onem:5, dunya:5, kapsam:"dis",
+  tur:"salgin", onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kara Ölüm 1346 Altın Orda maddesinde 5; aynı salgının tekrarları 4", kapsam:"dis",
   etiket:["salgin","ticaret","demografi","konu-ekonomi","konu-demografi","afet","afet-salgin"],
   yer_id:"Cenova",
   d:"Altın Orda ordusunun kuşattığı Kefe'den kaçan Ceneviz kadırgaları vebayı önce Messina'ya, ardından Cenova'ya taşıdı. Şehir nüfusunun yarıya yakınını kaybetti; koloni ağını ayakta tutan denizci ve tüccar kuşağı silindi. Cenova'nın Karadeniz ticaretinden kazandığı üstünlük, aynı yoldan gelen salgınla ödendi.",
@@ -8582,7 +8582,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
 
 { taraflar:["siena"], t:"1348-06-01",
   b:"Kara Ölüm'ün Siena'yı vurması — Dokuzlar rejiminin can damarının kesilmesi",
-  tur:"salgin", onem:5, dunya:5, kapsam:"ic",
+  tur:"salgin", onem:5, dunya:3, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→3 — tek şehrin rejim krizi; salgın 1346 maddesinde 5", kapsam:"ic",
   etiket:["salgin","demografi","kriz","konu-siyasi","konu-demografi","afet","afet-salgin"],
   yer_id:"Siena",
   d:"Salgın birkaç ay içinde şehir nüfusunun yarısından fazlasını öldürdü; vakanüvis Agnolo di Tura kendi beş çocuğunu eliyle gömdüğünü yazdı. Katedral genişletmesi durdu, vergi tabanı çöktü, Dokuzlar'ı ayakta tutan orta tabaka eridi. Siena, Kara Ölüm'ün Avrupa'da en ağır vurduğu büyük şehirdir ve ortaçağdaki nüfusuna bir daha hiç ulaşmadı.",
@@ -10489,7 +10489,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ tur:"isgal", bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ tur:"isgal", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — doğrudan komşunun yıkılışı (ölçüt 4); Ankara-Moskova kara bağlantısını açtı.", t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],

@@ -8455,7 +8455,34 @@ var dunyaEsik = (function () {
 })();
 var dunyaEsikSayi = +dunyaEsik;           // 0 = kapalı
 function dunyaPuanGecer(o) {
-  return dunyaEsikSayi > 0 && o && typeof o.dunya === "number" && o.dunya >= dunyaEsikSayi;
+  if (!(dunyaEsikSayi > 0 && o)) return false;
+  var p = Math.max(typeof o.dunya === "number" ? o.dunya : 0, o._dunyaDevir || 0);
+  return p >= dunyaEsikSayi;
+}
+// 🔴 KRON-DUNYA-BOLGE-1109 (9 Kasım 2026, ölçüldü): tekilleştirme eskiden YALNIZ
+// GÜNE bakıyordu — Osmanlı listesinde aynı güne düşen HERHANGİ bir madde dünya
+// maddesini düşürüyordu. Ölçüm (eşik 5): 86 düşüş; Ekim Devrimi (1917-11-07) Üçüncü
+// Gazze yüzünden, Compiègne (1918-11-11) ve Milletler Cemiyeti'nin ilk toplantısı
+// (1920-11-15) alakasız dış maddeler yüzünden kayboluyordu. Ve aynı olay Osmanlı
+// listesinde bölge puanı düşük bir DIŞ madde olarak durunca (Versay b2, Viyana
+// Kongresi b3) dünya-5 olay varsayılan ayarda HİÇ görünmüyordu.
+// Şimdi: aynı gün + başlıkta ortak bir kök (≥5 harf, ilk 5 harf) ⇒ aynı olay; o
+// zaman dünya maddesi eklenmez ama puanı Osmanlı maddesine DEVREDİLİR (`_dunyaDevir`)
+// — dış eşik onu gizlese bile dünya eşiği gösterir. Ortak kök yoksa ayrı olaydır, eklenir.
+var _DUNYA_KOK_DIS = { osman: 1, devle: 1, basla: 1, edild: 1, olmas: 1, sonra: 1, ilani: 1 };
+function _dunyaKokler(b) {
+  var k = {};
+  String(b || "").toLocaleLowerCase("tr")
+    .replace(/[âà]/g, "a").replace(/[îì]/g, "i").replace(/[ûù]/g, "u").replace(/ş/g, "s").replace(/ç/g, "c")
+    .split(/[^a-zçğıöşüé0-9]+/).forEach(function (w) {
+      if (w.length >= 5 && !_DUNYA_KOK_DIS[w.slice(0, 5)]) k[w.slice(0, 5)] = true;
+    });
+  return k;
+}
+function _dunyaAyniOlay(a, b) {
+  var ka = _dunyaKokler(a.b), kb = _dunyaKokler(b.b);
+  for (var x in ka) if (kb[x]) return true;
+  return false;
 }
 function _dunyaAnahtar(o) {
   var t = String(o.t || "");
@@ -8466,7 +8493,11 @@ function _dunyaAnahtar(o) {
 function dunyaMaddeleriTopla(osmanliMaddeleri) {
   if (!dunyaEsikSayi) return [];
   var osm = {};
-  osmanliMaddeleri.forEach(function (o) { if (o && o.t) osm[_dunyaAnahtar(o)] = true; });
+  osmanliMaddeleri.forEach(function (o) {
+    if (!o || !o.t) return;
+    var a = _dunyaAnahtar(o);
+    (osm[a] || (osm[a] = [])).push(o);
+  });
   var adIx = {};
   (window.DEVLETLER || []).forEach(function (d) { adIx[d.id] = d.ad; });
   // Rozetteki ad: önce maddenin kendi taraf kimlikleri (çok taraflı dosyalar), sonra
@@ -8484,7 +8515,13 @@ function dunyaMaddeleriTopla(osmanliMaddeleri) {
       if (!m || !m.t || !m.b || !dunyaPuanGecer(m)) return;
       if (!/^[+-]?\d+-\d{2}-\d{2}$/.test(m.t)) return;      // gün okunamayan: senkron bozulmasın
       var a = _dunyaAnahtar(m);
-      if (osm[a]) return;                                   // Osmanlı listesinde zaten var
+      if (osm[a]) {                                         // aynı gün: aynı olay mı?
+        var ayni = osm[a].filter(function (o) { return _dunyaAyniOlay(o, m); });
+        if (ayni.length) {                                  // evet — puanı devret, ekleme
+          ayni.forEach(function (o) { o._dunyaDevir = Math.max(o._dunyaDevir || 0, m.dunya); });
+          return;
+        }
+      }
       var ad = kronoAdi(k, m);
       if (gor[a]) { if (gor[a]._dunyaKaynak.indexOf(ad) < 0) gor[a]._dunyaKaynak.push(ad); return; }
       gor[a] = Object.assign({}, m, { kapsam: "dunya", _dunyaKaynak: [ad] });

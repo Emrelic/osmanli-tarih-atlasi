@@ -847,7 +847,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"University of St Andrews, University Collections blog, «William Creech and a new first edition of Adam Smith’s Wealth of Nations» https://university-collections.wp.st-andrews.ac.uk/2015/12/15/where-we-find-new-old-books-chapter-4-william-creech-and-a-new-first-edition-of-adam-smiths-wealth-of-nations/ — «published on 9 March 1776 in London in two quarto volumes» ; el-kitabi" },
 
 { t:"1776-07-04", b:"Amerikan kolonileri bağımsızlığını ilan etti", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","toprak-kayip","buyuk-britanya","konu-askeri","konu-siyasi"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 4→5 — ABD'nin doğuşu — çağ açan dünya olayı; Emre 8 Kasım örneklerinden", kapsam:"dis", etiket:["siyaset","toprak-kayip","buyuk-britanya","konu-askeri","konu-siyasi"],
   d:"On üç Britanya kolonisi, vergilendirme ve temsil anlaşmazlıklarının silahlı çatışmaya dönüşmesinin ardından bağımsızlığını ilan etti. İlan, yedi yıl sürecek bir savaşın ve İngiliz İmparatorluğu'nun Kuzey Amerika'daki en büyük kaybının başlangıcıydı.",
   kaynak:"A Dictionary of British History (OUP), «Declaration of Independence» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1029 — «Congress on 4 July 1776 adopted the Declaration of Independence» ; el-kitabi", yer_id:"Philadelphia" },
 
@@ -2904,7 +2904,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Yazar Émile Zola, gazete manşetinde yayımladığı açık mektupla ordu komuta kademesini Dreyfus davasında kanıt uydurmakla ve adaleti çarpıtmakla suçladı. Mektup, aydınların siyasî bir davada kamuoyunu doğrudan seferber ettiği modern 'entelektüel angajman'ın kurucu örneği sayılır.",
   kaynak:"Larousse, Encyclopédie, «J'accuse… !» https://www.larousse.fr/encyclopedie/oeuvre/Jaccuse_/103400 — «Lettre ouverte d'Émile Zola (13 janvier 1898)» ; standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1898-12-26", b:"Curie çiftinin polonyum ve radyumu keşfi", tur:"bilim", onem:4, dunya:5, kapsam:"ic", yer_id:"Paris",
+{ t:"1898-12-26", b:"Curie çiftinin polonyum ve radyumu keşfi", tur:"bilim", onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — bilimsel keşif — 4", kapsam:"ic", yer_id:"Paris",
   etiket:["bilim","konu-bilim","konu-kesif"],
   d:"Marie ve Pierre Curie, Paris'teki laboratuvarlarında tükenmiş uranyum cevherini işleyerek iki yeni radyoaktif elementi (polonyum ve radyum) tespit etti. Keşif, radyoaktivite biliminin ve modern nükleer fiziğin temellerinden birini kurdu; Marie Curie bu çalışmayla iki ayrı dalda Nobel Ödülü kazanan ilk kişi olacaktı (1903, 1911).",
   kaynak:"Larousse, Encyclopédie, «radium» https://www.larousse.fr/encyclopedie/divers/radium/85361 — «1898 Les Français Pierre et Marie Curie découvrent le polonium et le radium» [yalnız yıl teyitli; gün teyitsiz] ; standart ders kitabı bilgisi — dunya:5, modern fiziğin temel taşlarından biri olması nedeniyle" },
@@ -3115,6 +3115,11 @@ window.KRONOLOJI_ALMANYA = [
   etiket:["bilim","hansa","konu-bilim","konu-egitim"],
   d:"Kuzey Almanya'nın ilk üniversitesi olan Rostock, Mecklenburg dükleri ve şehir meclisinin ortak girişimiyle kuruldu. Baltık ticaret ağının (Hansa) kültürel omurgasını güçlendiren kurumlardan biri oldu.",
   kaynak:"bulunamadı — standart akademik eserde müstakil doğrulama yapılmadı, kuruluş yılı (1419) genel kabul görmüş bilgidir, gün DOĞRULANMADI" },
+{ odak_yer:["Mainz"], t:"1440-01-01", gun:"1440", devlet:"almanya", b:"Gutenberg Mainz'da hareketli harfle basımı gerçekleştirdi — matbaa çağının başlangıcı", tur:"bilim", onem:5, dunya:5, kapsam:"ic", yer_id:"",
+  etiket:["bilim","teknoloji","kultur","konu-bilim","konu-kultur"],
+  d:"Johann Gutenberg'in Mainz'da müteharrik (hareketli) harfle basımı ilk kez gerçekleştirdiği kabul edilir; 1454-1455'te aynı şehirde madenî harflerle basılmış ilk kitapların örnekleri bugüne ulaşmıştır. Kitabın elle çoğaltılmasından seri basıma geçiş, Reform'dan bilimsel devrime uzanan bilgi yayılımının altyapısı oldu.",
+  ic_not_d:"KRON-DUNYA-BOLGE-1109 (Emre, 9 Kasım 2026: dünya çapında çok önemli olaylar dunya 5) — atlasta Gutenberg maddesi HİÇ yoktu. Yıl TDV'den; gün yok ⇒ YYYY-01-01 (yalnız yıl). Britannica 403 verdi, okunamadı.",
+  kaynak:"TDV İslâm Ansiklopedisi, «Matbaa» (Kemal Beydilli, c. 28, 2003) https://islamansiklopedisi.org.tr/matbaa — «Müteharrik basımın ilk olarak Almanya’da Mainz şehrinde Johann Gutenberg tarafından 1440 yılında gerçekleştirildiği kabul edilir.» · «1454-1455 yıllarında Mainz’de madenî harflerle baskı yapan matbaada basılan ilk kitaplara ait örnekler bugüne ulaşmıştır.»" },
 
 { t:"1460-04-04", devlet:"almanya", b:"Basel Üniversitesi'nin kurulması", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Basel",
   etiket:["bilim","kutsal-roma","konu-bilim","konu-egitim"],

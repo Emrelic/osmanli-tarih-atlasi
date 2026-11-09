@@ -135,12 +135,12 @@ window.KRONOLOJI_ISPANYA = [
   d:"İsabel ve Fernando, hıristiyanlığa dönmeyen bütün Yahudilerin dört ay içinde ülkeyi terk etmesini emretti; 40.000-100.000 arası kişi (tahminler değişir) Portekiz, Kuzey Afrika ve Osmanlı topraklarına göç etti. Sultan II. Bayezid'in donanma göndererek göçmenleri taşıttığı rivayeti bu olayla aynı dalgaya aittir.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714) — imparatorluk çapında ferman, tek bir yerleşime bağlanamaz" },
 
-{ t:"1492-04-17", b:"Santa Fe Kapitülasyonları — Kolomb'un seferi için kraliyet onayı", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
+{ t:"1492-04-17", b:"Santa Fe Kapitülasyonları — Kolomb'un seferi için kraliyet onayı", tur:"antlasma", onem:4, dunya:3, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→3 — Kolomb'un 12 Ekim 1492 maddesi (5) olayın kendisi; hazırlık adımı 3", kapsam:"dis", yer_id:"",
   etiket:["antlasma","kesif","konu-diplomasi","konu-ekonomi","konu-kesif"],
   d:"İsabel ve Fernando, Cristóbal Colón ile Gırnata yakınındaki Santa Fe karargâhında bir sözleşme imzaladı: Colón'a amiral unvanı, keşfedeceği toprakların valiliği ve gelirin onda biri vaat edildi. Belge, birkaç ay sonraki seferin hukukî temelini oluşturdu.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New 1492-1650)", yer_kon:[37.1901,-3.7524] },
 
-{ t:"1492-08-03", b:"Kolomb, Palos limanından Atlas Okyanusu'na açıldı", tur:"kesif", onem:5, dunya:5, kapsam:"dis", yer_id:"",
+{ t:"1492-08-03", b:"Kolomb, Palos limanından Atlas Okyanusu'na açıldı", tur:"kesif", onem:5, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — Kolomb'un 12 Ekim 1492 maddesi (5) olayın kendisi; yola çıkış 4", kapsam:"dis", yer_id:"",
   etiket:["kesif","konu-kesif"],
   d:"Cristóbal Colón, Santa María, Pinta ve Niña gemileriyle Palos de la Frontera'dan yola çıktı; Hindistan'a batı yönünden ulaşmayı hedefliyordu. Sefer, Avrupa'nın Amerika kıtasıyla kalıcı temasını başlatacaktı.",
   kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_kon:[37.2338,-6.8925] },

@@ -842,7 +842,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"University of St Andrews, University Collections blog, «William Creech and a new first edition of Adam Smith’s Wealth of Nations» https://university-collections.wp.st-andrews.ac.uk/2015/12/15/where-we-find-new-old-books-chapter-4-william-creech-and-a-new-first-edition-of-adam-smiths-wealth-of-nations/ — «published on 9 March 1776 in London in two quarto volumes» ; el-kitabi" },
 
 { t:"1776-07-04", b:"Amerikan kolonileri bağımsızlığını ilan etti", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","toprak-kayip","buyuk-britanya","konu-askeri","konu-siyasi"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 4→5 — ABD'nin doğuşu — çağ açan dünya olayı; Emre 8 Kasım örneklerinden", kapsam:"dis", etiket:["siyaset","toprak-kayip","buyuk-britanya","konu-askeri","konu-siyasi"],
   d:"On üç Britanya kolonisi, vergilendirme ve temsil anlaşmazlıklarının silahlı çatışmaya dönüşmesinin ardından bağımsızlığını ilan etti. İlan, yedi yıl sürecek bir savaşın ve İngiliz İmparatorluğu'nun Kuzey Amerika'daki en büyük kaybının başlangıcıydı.",
   kaynak:"A Dictionary of British History (OUP), «Declaration of Independence» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1029 — «Congress on 4 July 1776 adopted the Declaration of Independence» ; el-kitabi", yer_id:"Philadelphia" },
 

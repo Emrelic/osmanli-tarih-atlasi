@@ -102,7 +102,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   ic_not_d:"en.wikipedia «Hungarian Declaration of Independence» (14 Nisan kabul; Kossuth'un okuması 19 Nisan diye de anılır — çelişki kaynakta) + visitdebrecen.com. Haritada kırılma yok. · DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (bulunamadı (TDV) — en.wikipedia «Hungarian Declaration of Independence» · visitd) dayanak olamaz, değiştirildi. ÇELİŞKİ (karar verilmedi): 14 Nisan 1849 Büyük Kilise'deki halk-meclisi oturumudur (az országgyűlés népgyűléssé bővült ülését 1849. április 14-én); aynı yazar belgenin fiilen 19 Nisan'da kabul edildiğini, oylamanın sayılmadığını yazar ('máig nem tudni, hogy végződött a szavazás'). Atlas 14 Nisan'ı alıyor = oturum/ilan günü; 19 Nisan metnin kabulü. Bildirgenin hangi olayı tarihlediği ikili; ikinci bağımsız akademik kaynak okunmadı.",
   kaynak:"Hermann Róbert, 'Habsburg-trónfosztás – szavazatszámlálás nélkül', HVG 2011-04-14 (hvg.hu/velemeny/20110414_kurcz_hermann_robert) — tarihçi görüşü, hakemli değil; esas akademik kaynak: Hermann Róbert, 1848-49 alkotmányozás yazıları (tte.hu) — «A döntést tartalmazó okmányt, a Függetlenségi Nyilatkozatot ténylegesen csak április 19-én fogadták el»", duygu:["🏛️"] },
 
-{ kapsam:"dis", bolge:3, t:"1849-08-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ kapsam:"dis", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — teslimin ardından Kossuth ve Macar mültecileri Osmanlı'ya sığındı (1849 mülteci krizi, Rusya ve Avusturya'nın iade talebi).", t:"1849-08-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı", gun:"13 Ağustos 1849", yer:"Világos (Şiria), Arad", kisiler:"Görgei Artúr, Kossuth Lajos",
   d:"Rus müdahalesiyle çevrilen Görgei, Kossuth'un yetkiyi ona devretmesinin (11 Ağustos) ardından Világos'ta Rus kuvvetlerine teslim oldu; bu, devrimin fiilî sonu sayılır. Kossuth ve yoldaşları Osmanlı'ya sığındı (bkz. 16 Ağustos 1849).",
   ic_not_d:"honvedelem.hu «Surrender at Világos – August 13, 1849» + en.wikipedia «Surrender at Világos». Haritada kırılma yok.",
@@ -114,7 +114,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   ic_not_d:"honvedelem.hu + en.wikipedia «The 13 Martyrs of Arad»: 6 Ekim 1849. Haritada kırılma yok.",
   kaynak:"bulunamadı (TDV) — honvedelem.hu «The Execution of Lajos Batthyány and the Martyrs of Arad» · en.wikipedia «The 13 Martyrs of Arad»", duygu:["🕯️"] },
 
-{ kapsam:"dis", bolge:2, t:"1867-02-17", k:"siyaset", etiket:["siyaset","konu-siyasi"],
+{ kapsam:"dis", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 2→4 — Avusturya-Macaristan ikili monarşisinin kuruluşu; Osmanlı'nın doğrudan komşusunun yeniden kuruluşu (ölçüt 4).", t:"1867-02-17", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Macar anayasal hükûmeti yeniden kuruldu — Andrássy Gyula başbakan", gun:"17 Şubat 1867", yer:"Peşte, Buda", yer_id:"Peşte", kisiler:"Franz Joseph, Andrássy Gyula, Deák Ferenc",
   d:"Franz Joseph, Deák Ferenc'in önerisiyle Andrássy Gyula'yı Macaristan başbakanlığına atayarak 1848 öncesi Macar anayasal düzenini yeniden işletti; hükûmet 20 Şubat'ta yemin etti. Bu adım Ausgleich'in kabulüne giden yolu açtı.",
   ic_not_d:"hu.wikipedia «Kiegyezés»: «február 17-én az uralkodó Deák javaslatára idősebb Andrássy Gyulát kérte fel Magyarország miniszterelnökének», yemin 20 Şubat. Bu güne dair devletler.js'te daha önce 1867-02-08 yazılıydı (kaynaksız); bu oturumda 8 Şubat için dayanak bulunamadı.",

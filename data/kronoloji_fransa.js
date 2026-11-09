@@ -914,7 +914,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Yazar Émile Zola, gazete manşetinde yayımladığı açık mektupla ordu komuta kademesini Dreyfus davasında kanıt uydurmakla ve adaleti çarpıtmakla suçladı. Mektup, aydınların siyasî bir davada kamuoyunu doğrudan seferber ettiği modern 'entelektüel angajman'ın kurucu örneği sayılır.",
   kaynak:"Larousse, Encyclopédie, «J'accuse… !» https://www.larousse.fr/encyclopedie/oeuvre/Jaccuse_/103400 — «Lettre ouverte d'Émile Zola (13 janvier 1898)» ; standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1898-12-26", b:"Curie çiftinin polonyum ve radyumu keşfi", tur:"bilim", onem:4, dunya:5, kapsam:"ic", yer_id:"Paris",
+{ t:"1898-12-26", b:"Curie çiftinin polonyum ve radyumu keşfi", tur:"bilim", onem:4, dunya:4, ic_not_dunya:"KRON-DUNYA-BOLGE-1109: 5→4 — bilimsel keşif — 4", kapsam:"ic", yer_id:"Paris",
   etiket:["bilim","konu-bilim","konu-kesif"],
   d:"Marie ve Pierre Curie, Paris'teki laboratuvarlarında tükenmiş uranyum cevherini işleyerek iki yeni radyoaktif elementi (polonyum ve radyum) tespit etti. Keşif, radyoaktivite biliminin ve modern nükleer fiziğin temellerinden birini kurdu; Marie Curie bu çalışmayla iki ayrı dalda Nobel Ödülü kazanan ilk kişi olacaktı (1903, 1911).",
   kaynak:"Larousse, Encyclopédie, «radium» https://www.larousse.fr/encyclopedie/divers/radium/85361 — «1898 Les Français Pierre et Marie Curie découvrent le polonium et le radium» [yalnız yıl teyitli; gün teyitsiz] ; standart ders kitabı bilgisi — dunya:5, modern fiziğin temel taşlarından biri olması nedeniyle" },

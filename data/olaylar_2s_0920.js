@@ -172,7 +172,7 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `halep` — AYNEN: \"şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)\" · hassasiyet: GÜN" },
 
 // ── 1920 · Bakü ──────────────────────────────────────────────────────
-{ tur:"isgal", bolge:3, t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
+{ tur:"isgal", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — doğrudan komşunun yıkılışı (ölçüt 4); Ankara-Moskova kara bağlantısını açtı.", t:"1920-04-27", k:"isgal", onem:3, dunya:3, kapsam:"dis", yer_id:"Bakü",
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
