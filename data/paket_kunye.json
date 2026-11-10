@@ -67,8 +67,8 @@
     },
     {
      "yol": "data/olaylar_ek8.js",
-     "sha": "724f4aa60b405d48",
-     "bayt": 37358
+     "sha": "c0b71d2716b9031a",
+     "bayt": 37380
     },
     {
      "yol": "data/olaylar_ek9.js",
@@ -96,7 +96,7 @@
      "bayt": 45020
     }
    ],
-   "bayt": 259603
+   "bayt": 259625
   },
   {
    "paket": "data/paket_03.js",
@@ -269,8 +269,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_guney_g8.js",
-     "sha": "124d9fd369c6d044",
-     "bayt": 62584
+     "sha": "46c142670e1ab5f8",
+     "bayt": 62616
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1199760
+   "bayt": 1199792
   },
   {
    "paket": "data/paket_10.js",
@@ -427,8 +427,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "bf422c04dd361f8b",
-     "bayt": 143162
+     "sha": "796a5d96c068525f",
+     "bayt": 143202
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -437,8 +437,8 @@
     },
     {
      "yol": "data/kronoloji_guney_asya.js",
-     "sha": "cad7c4e1e9e2deec",
-     "bayt": 112989
+     "sha": "ec222dd2e0b33e97",
+     "bayt": 113019
     },
     {
      "yol": "data/kronoloji_gurcistan.js",
@@ -522,8 +522,8 @@
     },
     {
      "yol": "data/kronoloji_orta_asya.js",
-     "sha": "4808113f275fd50c",
-     "bayt": 145727
+     "sha": "a0afa257b86dd04c",
+     "bayt": 145769
     },
     {
      "yol": "data/kronoloji_rodos_sovalyeleri.js",
@@ -537,8 +537,8 @@
     },
     {
      "yol": "data/kronoloji_sirbistan.js",
-     "sha": "8726720dcde15fe9",
-     "bayt": 33082
+     "sha": "70e3bdefd67f44fa",
+     "bayt": 33180
     },
     {
      "yol": "data/kisiler.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2137589
+   "bayt": 2137799
   },
   {
    "paket": "data/paket_13.js",
@@ -1605,8 +1605,8 @@
     },
     {
      "yol": "data/kronoloji_cok_hollanda.js",
-     "sha": "f93cd84f35d5ae63",
-     "bayt": 47624
+     "sha": "9e4e156e0d1ad49a",
+     "bayt": 47750
     },
     {
      "yol": "data/kronoloji_cok_ispanya.js",
@@ -1634,7 +1634,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 1096545
+   "bayt": 1096671
   }
  ]
 }

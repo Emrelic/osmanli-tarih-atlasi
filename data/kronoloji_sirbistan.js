@@ -127,7 +127,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Parçalanmış Sırp beylikleri Vukašin ve Uglješa kardeşlerin ordusu, Meriç nehri kıyısında Osmanlı akıncı kuvvetlerine ağır bir yenilgiye uğradı; Makedonya'daki Sırp direnişinin belkemiği burada kırıldı ve Kosova'ya giden yol açıldı.",
   kaynak:"TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan Sırplar...' Gün akademik kaynaktan (26 Eylül 1371, standart tarih)." },
 
-{ t:"1389-06-15", b:"I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi", tur:"savas",
+{yer_id:"Kosova Ovası (Kosovo Polje)",  t:"1389-06-15", b:"I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"Knez Lazar önderliğindeki Balkan ittifakı Kosova Ovası'nda I. Murad karşısında yenildi; I. Murad savaş meydanında öldürüldü, Lazar da esir düşüp idam edildi.", ic_not_d:"Yenilgiyle Sırp Krallığı Osmanlı'ya haraca bağlandı ve bu tarih Sırp millî hafızasında (Kosova destanı, Vidovdan/Aziz Vitus günü anması) merkezi bir yer tutar. dunya puanı kronoloji_bizans.js'teki aynı olayla eşleştirildi.",
@@ -205,7 +205,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 // ───────────────────────── SIRBİSTAN PRENSLİĞİ (1804-1882) — ulusal hareket, özerklik, bağımsızlık
 
-{ t:"1804-02-14", b:"Birinci Sırp Ayaklanması başladı (Kara Yorgi)", tur:"isyan",
+{yer_id:"Orašac (Aranđelovac)",  t:"1804-02-14", b:"Birinci Sırp Ayaklanması başladı (Kara Yorgi)", tur:"isyan",
   onem:5, dunya:3, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Belgrad sancağındaki yeniçeri (dahi) zorbalığına ve 'knezlerin katliamı'na (Seča knezova, Ocak 1804) tepki olarak Georgije Petrović (Kara Yorgi/Karadjordje) önderliğinde Orašac meclisinde ayaklanma ilan edildi.", ic_not_d:"Bu tarih devletler.js `sirbistan-prensligi` künyesinin f: tarihidir ve modern Sırp devlet sürekliliğinin başlangıcı sayılır.",
@@ -223,7 +223,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Bükreş Antlaşması'yla (1812) Rusya ile barışan Osmanlı Devleti, ayaklanmayı bastırmak için serbest kalan gücünü Sırbistan'a yöneltti; Belgrad yeniden ele geçirildi ve Kara Yorgi Avusturya'ya kaçtı. Doğrudan Osmanlı idaresi kısa süreliğine yeniden kuruldu; iki yıl içinde İkinci Ayaklanma patlak verecektir.",
   kaynak:"TDV `sirbistan`: '1813'te tamamıyla bastırılarak Belgrad ele geçirildi.'" },
 
-{ t:"1815-04-23", b:"İkinci Sırp Ayaklanması (Miloš Obrenović)", tur:"isyan",
+{yer_id:"Takova (Takovo)",  t:"1815-04-23", b:"İkinci Sırp Ayaklanması (Miloš Obrenović)", tur:"isyan",
   onem:5, dunya:3, kapsam:"dis", etiket:["isyan","konu-isyan"],
   yer_id:"",
   d:"Knez Miloš Obrenović önderliğinde Takovo meclisinde ikinci ayaklanma ilan edildi. Birincinin aksine Miloš, tam bağımsızlık yerine müzakere yoluyla özerklik hedefledi; bu pragmatik çizgi 1830 fermanına giden yolu açtı ve Obrenović hanedanının temelini attı.",

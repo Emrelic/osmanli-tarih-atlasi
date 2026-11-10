@@ -14,8 +14,8 @@ function girdiListesi() {
   const blok = s.slice(s.indexOf('GIRDI_DOSYALARI = ['));
   const out = [];
   for (const satir of blok.split('\n')) {
-    const m = satir.match(/^\s*"([^"]+\.js)"\s*,/);
-    if (m) out.push(m[1]);
+    if (/^\s*#/.test(satir)) continue;            // yorum satırı
+    for (const m of satir.matchAll(/"([^"]+\.js)"\s*,?/g)) out.push(m[1]);   // aynı satırda birden çok dosya olabilir (ör. "…_0914.js", "…_p0037.js")
     if (/^\]/.test(satir)) break;
   }
   return out;

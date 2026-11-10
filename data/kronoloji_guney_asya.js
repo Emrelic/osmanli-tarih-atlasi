@@ -553,7 +553,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Travankur] Feodal beylerin (Ettuveettil Pillamar) vesayetini kanlı biçimde kıran genç hükümdar, dağınık Venâd'ı merkezî bir krallığa dönüştürdü ve modern Travankur'un kurucusu sayıldı. Düzenli ordu, düzenli vergi ve tek merkez — üçü de onun eseridir.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Cambridge History of India, V" },
 
-{ t:"1741-08-10", b:"Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{yer_id:"Kolaçel (Colachel)",  t:"1741-08-10", b:"Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","zafer","somurge","konu-askeri","konu-siyasi"], yer_id:"",
   d:"[Travankur] Marthanda Varma'nın ordusu, Hollanda çıkarma kuvvetini sahilde bozguna uğrattı ve kumandan De Lannoy dahil çok sayıda esir aldı. Bir Asya devletinin bir Avrupa sömürge şirketini açık muharebede yenmesi nâdirdi; Hollanda'nın Malabar'daki yayılması bu günden sonra durdu.", ic_not_d:"yer_id boş: Kolaçel atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, a.g.e.; Cambridge History of India, V" },

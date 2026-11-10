@@ -6104,7 +6104,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"25 Ekim 1555'te Brüksel'deki törende V. Karl Alçak Ülkeler'in hükümdarlığını oğlu Felipe'ye devretti (Ocak 1556'da İspanya tacını da bıraktı). Böylece on yedi eyalet İspanyol Habsburg hanedanının mülkü oldu; Seksen Yıl Savaşları'na giden merkezîleşme siyaseti bu devirle başlar.",
   kaynak:"Britannica «Charles V (Holy Roman emperor)»; Wikipedia «Abdication of Charles V» · ikincil kaynak" },
 
-{ t:"1566-08-10", b:"İkon kırma (Beeldenstorm) Steenvoorde'de başladı", tur:"isyan",
+{yer_id:"Steenvoorde",  t:"1566-08-10", b:"İkon kırma (Beeldenstorm) Steenvoorde'de başladı", tur:"isyan",
   onem:3, dunya:2, kapsam:"dis", etiket:["isyan","konu-siyasi","benelux"],
   devlet:"habsburg-hollandasi", devletler:["habsburg-hollandasi","ispanya"], yer_id:"",
   gun:"10 Ağustos 1566",
@@ -6132,7 +6132,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"Artois, Hainaut ve Douai (Walloon eyaletleri) 6 Ocak 1579'da Arras Birliği'ni kurup Katolik inanç ve Kral Felipe'ye bağlılığı yeniden onayladı. Bu, kuzey eyaletlerinin 23 Ocak 1579'da Utrecht Birliği'ni kurmasına yol açan bölünmenin ilk adımıdır.",
   kaynak:"Britannica «Union of Arras»; Parker, The Dutch Revolt (1977) · ikincil kaynak" },
 
-{ t:"1600-07-02", b:"Nieuwpoort Muharebesi", tur:"savas",
+{yer_id:"Nieuwpoort",  t:"1600-07-02", b:"Nieuwpoort Muharebesi", tur:"savas",
   onem:2, dunya:1, kapsam:"dis", etiket:["savas","konu-siyasi","benelux"],
   devlet:"hollanda", devletler:["hollanda","habsburg-hollandasi"], yer_id:"",
   gun:"2 Temmuz 1600",
@@ -6153,7 +6153,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"15 Kasım 1715'te Anvers'te imzalanan Üçüncü Bariyer Antlaşması, Avusturya Hollandası'ndaki Namur, Tournai, Ypres, Menen, Veurne, Warneton ve Dendermonde'de Hollanda garnizonlarını güvenceye aldı ve masrafını Avusturya Hollandası'na yükledi.",
   kaynak:"Britannica «Barrier Treaty»; Wikipedia «Barrier Treaties» · ikincil kaynak" },
 
-{ t:"1789-10-24", b:"Brabant Devrimi başladı — Avusturya Hollandası'nda ayaklanma", tur:"isyan",
+{yer_id:"Hoogstraten",  t:"1789-10-24", b:"Brabant Devrimi başladı — Avusturya Hollandası'nda ayaklanma", tur:"isyan",
   onem:3, dunya:2, kapsam:"dis", etiket:["isyan","konu-siyasi","benelux"],
   devlet:"avusturya-hollandasi", devletler:["avusturya-hollandasi","avusturya"], yer_id:"",
   gun:"24 Ekim 1789",
@@ -6223,7 +6223,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"16 Aralık 1944'te Almanya Belçika ve Lüksemburg'daki Ardenler'de karşı saldırıya geçti (Bulge Muharebesi); Bastogne kuşatıldı. Ocak 1945 ortasında taarruz geri püskürtüldü.",
   kaynak:"Britannica «Battle of the Bulge»; Wikipedia «Battle of the Bulge» · ikincil kaynak" },
 
-{ t:"1945-05-05", b:"Hollanda'daki Alman kuvvetleri Wageningen'de teslim oldu", tur:"isgal",
+{yer_id:"Wageningen",  t:"1945-05-05", b:"Hollanda'daki Alman kuvvetleri Wageningen'de teslim oldu", tur:"isgal",
   onem:4, dunya:2, kapsam:"dis", etiket:["isgal","konu-siyasi","benelux"],
   devlet:"hollanda", devletler:["hollanda","almanya"], yer_id:"",
   gun:"5 Mayıs 1945",
@@ -6267,7 +6267,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"Anglo-Sakson misyoner Willibrord 22 Kasım 695'te Roma'da Papa I. Sergius tarafından Frizyalıların başpiskoposu atandı; Utrecht'teki kilisesi Hollanda'nın Hıristiyanlaşmasının ve sonraki Utrecht piskoposluğunun çekirdeği oldu.",
   kaynak:"Britannica «Saint Willibrord»; Wikipedia «Willibrord» · ikincil" },
 
-{ t:"0834-01-01", b:"Vikinglerin Dorestad baskınları başladı", tur:"isgal",
+{yer_id:"Dorestad (Wijk bij Duurstede)",  t:"0834-01-01", b:"Vikinglerin Dorestad baskınları başladı", tur:"isgal",
   onem:3, dunya:2, kapsam:"dis", etiket:["isgal","konu-siyasi","benelux"],
   devlet:"frank", devletler:["frank"], yer_id:"",
   gun:"834 (yıl)",

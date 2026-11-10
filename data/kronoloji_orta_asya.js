@@ -1323,7 +1323,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Türkmen boyları, Hîve ile Buhara ile İran arasındaki boşlukta hareket serbestliği bulmuşlardı; 1873'te Rusların Hîve Hanlığı'nı egemenlikleri altına alması bu dengeyi bozdu. Bundan sonra Türkmenlerin karşısında bölgesel hanlıklar değil doğrudan bir imparatorluk ordusu vardı.",
   kaynak:"turkmenler (TDV) — gün YAKLAŞIK; Hîve'nin düşüşü Rus/Özbek dosyalarının konusudur" },
 
-{ t:"1879-09-01", b:"Birinci Göktepe — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{yer_id:"Göktepe (Gökdepe / Geok Tepe)",  t:"1879-09-01", b:"Birinci Göktepe — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
   d:"Türkmenlerin çarın hâkimiyetini kabul etme teklifini şiddetle reddetmesi üzerine 1879'da harekete geçen Ruslar, Göktepe'de ağır bir yenilgiye uğradı (Eylül 1879). Bu, XIX. yüzyılda bir Rus ordusunun Orta Asya'da aldığı en ağır yenilgidir.", ic_not_d:"⚠️ Göktepe için proje yerleşim kümesinde nokta YOK; yer_id boş bırakıldı, uydurulmadı.",

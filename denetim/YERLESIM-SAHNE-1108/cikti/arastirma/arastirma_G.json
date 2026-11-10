@@ -1,0 +1,2094 @@
+[
+ {
+  "ad": "Grahova (Grahovo)",
+  "tur": "sehir",
+  "lat": 42.65144722,
+  "lon": 18.67300278,
+  "koord_kaynak": "Wikidata Q247339 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_balkan.js:243 (1838-01-01), :273 (1858-05-13 Grahova Savaşı), :278 (1859-01-01)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1448-01-01",
+    "d": "bosna",
+    "kaynak": "ABİ MERKEZ: Trebinye — atlas zinciri (yerlesimler_seyrek.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1448-01-01",
+    "t": "1466-01-01",
+    "d": "hersek",
+    "kaynak": "ABİ MERKEZ: Trebinye — atlas zinciri (yerlesimler_seyrek.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1859-01-01",
+    "t": "1918-11-26",
+    "d": "karadag",
+    "kaynak": "kronoloji_balkan.js:278 madde; TDV karadag alıntısı o maddede; ABİ MERKEZ Cetinje (karadag 1697-1918-11-26)"
+   },
+   {
+    "f": "1918-11-26",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Cetinje — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "kaynak": "ABİ MERKEZ: Cetinje — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Cetinje — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Grahovo, Nikšić belediyesi (Karadağ). Zincir ELLE kuruldu: 1281-1466 Trebinye (ABİ MERKEZ, 27.7 km: bosna/hersek) devralındı; 1466-1859 Osmanlı (d:); 1859-01-01 Karadağ (kronoloji_balkan.js:278 — TDV karadag: Grahova Karadağ prensliğine verildi; madde günü 1859-01-01 yıl hassasiyeti); sonrası Cetinje zinciri. 1281-1466 Bosna/Hersek tahsisi Grahovo için DOĞRULANMADI (Zeta/Raşka/Hum sınır bölgesi; TDV karadag/hersek bu turda okunmadı) — BEYANLI YAKLAŞIKLIK.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Trebinye 27.7 km, Herseknovi 24.7 km)",
+  "d": [
+   {
+    "f": "1466-01-01",
+    "t": "1859-01-01",
+    "kaynak": "Trebinye ABİ MERKEZ Osmanlı dönemi (1466 sonrası); bitiş: kronoloji_balkan.js:278 (TDV karadag: 1859 Grahova Karadağ’a bırakıldı). Kaynak okunmadı."
+   }
+  ]
+ },
+ {
+  "ad": "Klokotnitsa",
+  "tur": "sehir",
+  "lat": 41.992578,
+  "lon": 25.495366,
+  "koord_kaynak": "Wikidata Q2467790 P625 (Haskovo oblastı köyü)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_balkan.js:366 (1230-03-09 Klokotnitsa Zaferi — atlas ufku öncesi); olaylar_ortacag_bizans_balkan.js; kronoloji_cok_once1281_anadolu.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1372-06-01",
+    "d": "bulgar-carligi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-07-28",
+    "t": "1410-02-13",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-02-13",
+    "t": "1410-06-15",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-06-15",
+    "t": "1411-02-17",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1885-09-18",
+    "t": "1908-10-05",
+    "d": "bulgaristan-prensligi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "d": "bulgaristan-kralligi",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "d": "bulgaristan-halk",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "d": "bulgaristan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1372-06-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1413-07-05",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1878-07-13",
+    "t": "1885-09-18",
+    "k": "Şarkî Rumeli vilâyeti",
+    "statu": "vassal",
+    "kid": "sarki-rumeli",
+    "kaynak": "ABİ MERKEZ: Hasköy (Haskovo) — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Madde 1230 (<1281) olduğundan zincir 1281’den. ABİ MERKEZ: Hasköy (Haskovo) 8,2 km — TDV haskoy zinciri (atlasta yerleşim kaydı TDV haskoy’a dayalı). Savaş yeri, Haskovo yakını köy; koordinat köy yerleşimidir, savaş alanının tam yeri değil. Not: bölge 1372/1402 kopyası Hasköy künyesindendir.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Hasköy (Haskovo) 8.2 km)"
+ },
+ {
+  "ad": "Kiprovça (Chiprovtsi)",
+  "tur": "sehir",
+  "lat": 43.384551,
+  "lon": 22.882484,
+  "koord_kaynak": "Wikidata Q405361 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_balkan.js:446 (1688-09-01 Kiprovça İsyanı)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1360-01-01",
+    "d": "bulgar-carligi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1360-01-01",
+    "t": "1365-01-01",
+    "d": "vidin-carligi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1365-01-01",
+    "t": "1369-01-01",
+    "d": "macaristan",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1369-01-01",
+    "t": "1396-10-01",
+    "d": "vidin-carligi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-07-28",
+    "t": "1410-02-13",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-02-13",
+    "t": "1410-06-15",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-06-15",
+    "t": "1411-02-17",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1689-10-01",
+    "t": "1690-08-29",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "d": "bulgaristan-kralligi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "d": "bulgaristan-halk",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "d": "bulgaristan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1396-10-01",
+    "t": "1402-07-28",
+    "y": "ilhak",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1413-07-05",
+    "t": "1689-10-01",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1690-08-29",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "k": "Bulgaristan Prensliği",
+    "statu": "vassal",
+    "kid": "bulgaristan-prensligi",
+    "kaynak": "ABİ MERKEZ: Vidin — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "ABİ MERKEZ: Vidin (67 km, idarî merkez varsayımı: Osmanlıda Vidin sancağı — KAYNAK OKUNMADI, TDV vidin/kiprovça bu turda çekilmedi). 1281-1360 Vidin zinciri “bulgar-carligi”dir; Kiprovça 14. yy. ortasında Sırp/Vidin çarlığı sınırında olabilir — doğrulanmadı. Vidin zincirinde 1689-10-01/1690-08-29 Habsburg dilimi Kiprovça için de olabilir (1688 isyanı ve Habsburg ilerleyişi) ama doğrulanmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Şehirköy (Pirot) 35 km)"
+ },
+ {
+  "ad": "Gabrovo",
+  "tur": "sehir",
+  "lat": 42.874242,
+  "lon": 25.31784,
+  "koord_kaynak": "Wikidata Q180131 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_balkan.js:458-461 (1835-01-02 Aprilov Mektebi)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1393-06-17",
+    "d": "bulgar-carligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-07-28",
+    "t": "1410-02-13",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-02-13",
+    "t": "1410-06-15",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-06-15",
+    "t": "1411-02-17",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "d": "bulgaristan-kralligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "d": "bulgaristan-halk",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "d": "bulgaristan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1393-06-17",
+    "t": "1402-07-28",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1413-07-05",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "k": "Bulgaristan Prensliği",
+    "statu": "vassal",
+    "kid": "bulgaristan-prensligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "ABİ MERKEZ: Tırnova (34 km; Gabrovo ve çevresi Tırnova Çarlığı → Osmanlı Tırnova sancağı). Kaynak (TDV tirnova/gabrovo) bu turda okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Bulgaristan(bölge girdisi) 14.3 km; Tırnova 34 km)"
+ },
+ {
+  "ad": "Şıpka Geçidi (Shipka)",
+  "tur": "sehir",
+  "lat": 42.766667,
+  "lon": 25.316667,
+  "koord_kaynak": "Wikidata Q1333807 P625 (geçit)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_balkan.js:501 (1877-08-21 Şıpka Geçidi Savunması); olaylar_ek10.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1393-06-17",
+    "d": "bulgar-carligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-07-28",
+    "t": "1410-02-13",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-02-13",
+    "t": "1410-06-15",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1410-06-15",
+    "t": "1411-02-17",
+    "d": "suleyman-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "d": "musa-celebi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "d": "bulgaristan-kralligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "d": "bulgaristan-halk",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "d": "bulgaristan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1393-06-17",
+    "t": "1402-07-28",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1413-07-05",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "k": "Bulgaristan Prensliği",
+    "statu": "vassal",
+    "kid": "bulgaristan-prensligi",
+    "kaynak": "ABİ MERKEZ: Tırnova — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "tur: geçit (sehir olarak yazıldı, yerleşim değil — Şıpka köyü/kasabası 1881 sonrası. Haritada nokta-geçit; petek yerleşimi gerektirmiyorsa kaydetmeyin). ABİ MERKEZ: Tırnova (43 km). Kaynak okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Bulgaristan(bölge girdisi) 8.1 km)"
+ },
+ {
+  "ad": "Steenvoorde",
+  "tur": "sehir",
+  "lat": 50.809444,
+  "lon": 2.582778,
+  "koord_kaynak": "Wikidata Q6603 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:241 (1566-08-10 Beeldenstorm Steenvoorde’de başladı)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1384-01-30",
+    "d": "flandre",
+    "kaynak": "ABİ MERKEZ: Ypres — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "kaynak": "ABİ MERKEZ: Ypres — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Ypres — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1678-09-17",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Ypres — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1678-09-17",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "kaynak": "Ypres ABİ MERKEZ ile ayrışma: Nijmegen 1678 sonrası Cassel kastelaniği Fransa; kaynak okunmadı"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "Lille/Ypres Fransa zinciri sonu; atlas zinciri"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Fransız Flandrası (Cassel kastelaniği). ABİ MERKEZ: Ypres (21.8 km) 1678-09-17’ye dek; sonra Fransa’da KALIR (Nijmegen 1678: Cassel/Bailleul/Ypres Fransa’ya; Ypres 1697’de İspanya’ya dönerken Cassel kastelaniği Fransa’da kaldı — KAYNAK OKUNMADI, hafızadan değil Ypres zincirine ek beyan; doğrulama gerekir). Bu yüzden Ypres’in 1697-1792 İspanya/Avusturya dilimleri alınmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Cassel 6.8 km (girdisi s:[] boş, yt_avrupa)"
+ },
+ {
+  "ad": "Nieuwpoort",
+  "tur": "sehir",
+  "lat": 51.129444,
+  "lon": 2.751389,
+  "koord_kaynak": "Wikidata Q623310 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:269 (1600-07-02 Nieuwpoort Muharebesi)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1384-01-30",
+    "d": "flandre",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-02-02",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-28",
+    "t": "1944-09-12",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "ABİ MERKEZ: Brugge (34 km; Flandre kontluğu → Burgonya → Habsburg → İspanya Hollandası). Nieuwpoort 1678-1697 Fransız işgali Ypres’i etkiledi, Nieuwpoort’u etkilemedi (kaynak okunmadı), bu yüzden Ypres yerine Brugge alındı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Ypres 32 km)"
+ },
+ {
+  "ad": "Hoogstraten",
+  "tur": "sehir",
+  "lat": 51.40215,
+  "lon": 4.7618,
+  "koord_kaynak": "Wikidata Q31824034 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:294-295 (1789-10-24 / 1790-01-11 Brabant Devrimi)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1430-08-04",
+    "d": "brabant-dukaligi",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1430-08-04",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-05-04",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-05-04",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1914-10-10",
+    "t": "1918-11-23",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1940-05-18",
+    "t": "1944-09-04",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Anvers (Antwerpen) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Brabant Dükalığı toprağı (Hoogstraten Baronluğu). ABİ MERKEZ: Anvers (32 km) — Breda (19 km) değil, çünkü Breda 1590/1637 Hollanda Cumhuriyeti’ne geçti, Hoogstraten İspanya Hollandası’nda kaldı (kaynak okunmadı).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Breda 18.9 km)"
+ },
+ {
+  "ad": "Fleurus",
+  "tur": "sehir",
+  "lat": 50.48427,
+  "lon": 4.55177,
+  "koord_kaynak": "Wikidata Q31583129 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:304 (1794-06-26 Fleurus Muharebesi)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1421-03-01",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1421-03-01",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1692-06-30",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1692-06-30",
+    "t": "1695-09-05",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1695-09-05",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-02-02",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-28",
+    "t": "1944-09-06",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Namur — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Fleurus tarihî Namur Kontluğu / Brabant sınırında (kesin bağlılık doğrulanmadı). ABİ MERKEZ: Namur (23.7 km). Kaynak okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Namur 23.7 km)"
+ },
+ {
+  "ad": "Wageningen",
+  "tur": "sehir",
+  "lat": 51.964444,
+  "lon": 5.663056,
+  "koord_kaynak": "Wikidata Q1305 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:360 (1945-05-05 Alman teslimi)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1339-03-19",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1339-03-19",
+    "t": "1543-09-07",
+    "d": "gelre-dukaligi",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1543-09-07",
+    "t": "1581-07-26",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-01-19",
+    "t": "1810-07-09",
+    "d": "batav-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1810-07-09",
+    "t": "1813-11-30",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-15",
+    "t": "1945-04-14",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Arnhem — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Nederbetuwe (Gelre Dükalığı). ABİ MERKEZ: Arnhem (16.3 km). Kaynak okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Arnhem 16.3 km)"
+ },
+ {
+  "ad": "Dorestad (Wijk bij Duurstede)",
+  "tur": "sehir",
+  "lat": 51.975,
+  "lon": 5.34,
+  "koord_kaynak": "Wikidata Q739353 P625 (Dorestad); Wikidata Q33516912 Wijk bij Duurstede 51.97417,5.34167",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:404 (0834-01-01 Viking baskınları başladı)",
+  "s": [
+   {
+    "f": "0834-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0855-09-29",
+    "d": "orta-francia",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0855-09-29",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1000-01-01",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1024-01-01",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1024-01-01",
+    "t": "1528-10-20",
+    "d": "utrecht-piskoposlugu",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1528-10-20",
+    "t": "1581-07-26",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-01-19",
+    "t": "1810-07-09",
+    "d": "batav-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1810-07-09",
+    "t": "1813-11-30",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-15",
+    "t": "1945-05-05",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Utrecht — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Antik/erken ortaçağ emporium; yaşayan yer Wijk bij Duurstede. ABİ MERKEZ: Utrecht (19.8 km). Utrecht zinciri 0834’ten kırpıldı. “Dorestad” 9. yy’da terk edilir; kaynakta yıl okunmadı, bit yazılmadı çünkü Wijk bij Duurstede sürer.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Utrecht 19.8 km)"
+ },
+ {
+  "ad": "Kosova Ovası (Kosovo Polje)",
+  "tur": "sehir",
+  "lat": 42.7175,
+  "lon": 21.085,
+  "koord_kaynak": "Wikidata Q20988473 P625 (Kosovo Field karstik ova)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar.js:38 (1448-10-17 II. Kosova); kronoloji_sirbistan.js:133 (1389-06-15); kronoloji_balkan.js:690; kronoloji_cok_once1281_avrupa.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1342-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ Priştine öncesi: Kosova bölgesi Nemanjić Sırbistan’ı; kaynak okunmadı"
+   },
+   {
+    "f": "1342-01-01",
+    "t": "1402-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-01-01",
+    "t": "1455-06-01",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1913-05-30",
+    "t": "1918-12-01",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-12-01",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "1999-06-10",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1999-06-10",
+    "t": "2000-12-31",
+    "d": "unmik-kosova",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1455-06-01",
+    "t": "1913-05-30",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1912-10-22",
+    "t": "1913-05-30",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Savaş alanı Gazimestan/Kosova Ovası; koordinat ovanın merkezidir. ABİ MERKEZ: Priştine (≈6 km); Priştine zinciri kur=1342’den başlar, 1281-1342 arası Sırp Nemanjić (sirbistan-nemanjic) eklendi (kaynak okunmadı).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Priştine ~6 km; Kosovo Polje kasabası (Q786124, 42.638,21.0975) Priştine’nin 5.9 km’sinde)"
+ },
+ {
+  "ad": "Orašac (Aranđelovac)",
+  "tur": "sehir",
+  "lat": 44.32888889,
+  "lon": 20.58527778,
+  "koord_kaynak": "Wikidata Q3175095 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_sirbistan.js:211 (1804-02-14 Birinci Sırp Ayaklanması başladı)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1402-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-01-01",
+    "t": "1439-08-27",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1444-08-15",
+    "t": "1459-06-20",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1717-08-18",
+    "t": "1738-08-01",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1878-07-13",
+    "t": "1882-03-06",
+    "d": "sirbistan-prensligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1882-03-06",
+    "t": "1918-12-01",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-12-01",
+    "t": "1941-08-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1941-08-29",
+    "t": "1944-10-06",
+    "d": "sirbistan-nedic",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1944-10-06",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1439-08-27",
+    "t": "1444-08-15",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1459-06-20",
+    "t": "1717-08-18",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1738-08-01",
+    "t": "1830-10-17",
+    "y": "antlasma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1830-10-17",
+    "t": "1878-07-13",
+    "k": "Sırbistan Prensliği",
+    "statu": "vassal",
+    "kid": "sirbistan-prensligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Tür: köy. ABİ MERKEZ: Rudnik (22 km; Şumadija zinciri: Rudnik/Kragujevac aynı). Zincir kaynağı okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Rudnik 22.2 km)"
+ },
+ {
+  "ad": "Takova (Takovo)",
+  "tur": "sehir",
+  "lat": 44.04277778,
+  "lon": 20.3875,
+  "koord_kaynak": "Wikidata Q1018639 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_sirbistan.js:229 (1815-04-23 İkinci Sırp Ayaklanması)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1402-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-01-01",
+    "t": "1439-08-27",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1444-08-15",
+    "t": "1459-06-20",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1717-08-18",
+    "t": "1738-08-01",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1878-07-13",
+    "t": "1882-03-06",
+    "d": "sirbistan-prensligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1882-03-06",
+    "t": "1918-12-01",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-12-01",
+    "t": "1941-08-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1941-08-29",
+    "t": "1944-10-06",
+    "d": "sirbistan-nedic",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1944-10-06",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1439-08-27",
+    "t": "1444-08-15",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1459-06-20",
+    "t": "1717-08-18",
+    "y": "kusatma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1738-08-01",
+    "t": "1830-10-17",
+    "y": "antlasma",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1830-10-17",
+    "t": "1878-07-13",
+    "k": "Sırbistan Prensliği",
+    "statu": "vassal",
+    "kid": "sirbistan-prensligi",
+    "kaynak": "ABİ MERKEZ: Rudnik — atlas zinciri (yerlesimler_ek29.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Tür: köy (Gornji Milanovac). ABİ MERKEZ: Rudnik (13.7 km). Zincir kaynağı okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Rudnik 13.7 km)"
+ },
+ {
+  "ad": "Noyon",
+  "tur": "sehir",
+  "lat": 49.581111,
+  "lon": 2.998889,
+  "koord_kaynak": "Wikidata Q49831 P625; Pleiades 109218",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_sinir_once1281_zincir_bati.js:18 (0987-07-03 Hugues Capet Noyon’da kral seçilip taçlandı) — atlas ufku öncesi",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1331-01-01",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Laon — atlas zinciri (yerlesimler_ms1_1281_yeni.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1331-01-01",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Laon — atlas zinciri (yerlesimler_ms1_1281_yeni.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Laon — atlas zinciri (yerlesimler_ms1_1281_yeni.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Madde 987 (<1281) → zincir 1281’den. Noyon piskoposluk şehri, Fransa kraliyet alanı. ABİ MERKEZ: Laon (45 km). 1914-1917 Alman işgali (isg) yazılmadı, kaynak okunmadı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Soissons 32.5 km)"
+ },
+ {
+  "ad": "Formigny",
+  "tur": "sehir",
+  "lat": 49.336667,
+  "lon": -0.898889,
+  "koord_kaynak": "Wikidata Q326274 P625",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_fransa_kontrol_1027.js:31 (1450-04-15 Formigny Savaşı)",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1417-09-04",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Caen — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1417-09-04",
+    "t": "1450-06-24",
+    "d": "ingiltere",
+    "kaynak": "ABİ MERKEZ: Caen — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1450-06-24",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Caen — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Caen — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "ABİ MERKEZ: Caen (42 km) — İngiliz hâkimiyeti 1417-09-04→1450-06-24. Formigny/Bayeux çevresi için bitiş 1450-05-16 (Bayeux teslimi) olabilir: KAYNAK OKUNMADI; Caen bitişi alındı, BEYANLI YAKLAŞIKLIK. Madde günü 1450-04-15 İngiliz yenilgisi, dönem sınırı değil.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Caen 42 km)"
+ },
+ {
+  "ad": "Világos (Şiria)",
+  "tur": "sehir",
+  "lat": 46.261132,
+  "lon": 21.595591,
+  "koord_kaynak": "Wikidata Q12712948 P625 (Șiria komünü)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_macaristan.js:750 ve olaylar_avmac_b_1029.js:106 (1849-08-13 Világos’ta teslim); olaylar_senkron_0930.js",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "d": "macaristan",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1551-07-01",
+    "t": "1551-10-01",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1688-06-22",
+    "t": "1918-11-16",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "d": "macaristan-naiplik",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "d": "romanya-kralligi",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "d": "romanya-halk",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "d": "romanya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1551-10-01",
+    "t": "1688-06-22",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "k": "Erdel Prensliği",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Adlar: Világos (Mac.), Șiria (Rom.), Şiria. Not: yerlesimler_ek5.js içindeki “Siria/Şiria” araması başka şeyleri yakaladı; yerleşim yok. ABİ MERKEZ: Arad (24.5 km; Osmanlı Temeşvar eyaleti dilimi d: 1551-10-01→1688-06-22 — Lipova sancağı bağı kaynak okunmadı).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Arad 24.5 km, Lippa 18.6 km)"
+ },
+ {
+  "ad": "Aricia (Ariccia)",
+  "tur": "sehir",
+  "lat": 41.721399649999995,
+  "lon": 12.673347150000001,
+  "koord_kaynak": "Pleiades 422844 reprPoint; Wikidata Q18043236",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:5 (-0504 Aricia Savaşı)",
+  "s": [
+   {
+    "f": "-0504-01-01",
+    "t": "-0338-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Latin Birliği atlasta devlet kimliği yok; Aricia Latin Birliği üyesi (Pleiades 422844). Boşluk=kaynak sessiz değil, kimlik yok"
+   },
+   {
+    "f": "-0338-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-23",
+    "d": "bati-roma",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "d": "odoakar",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0493-03-05",
+    "t": "0536-12-09",
+    "d": "dogu-got",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0536-12-09",
+    "t": "0756-01-01",
+    "d": "bizans",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0756-01-01",
+    "t": "1143-01-01",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1143-01-01",
+    "t": "1155-01-01",
+    "d": "roma-komunu",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1155-01-01",
+    "t": "1281-01-01",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1798-02-15",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1798-02-15",
+    "t": "1799-09-30",
+    "d": "roma-cumhuriyeti-1798",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1799-09-30",
+    "t": "1809-05-17",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1809-05-17",
+    "t": "1814-05-24",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-05-24",
+    "t": "1849-02-09",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1849-02-09",
+    "t": "1849-07-03",
+    "d": "roma-cumhuriyeti-1849",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1849-07-03",
+    "t": "1870-09-20",
+    "d": "papalik",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1870-09-20",
+    "t": "1946-06-18",
+    "d": "italya",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "d": "italya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Roma — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Latin Birliği üyesi (Pleiades 422844). Latin Birliği atlasta devlet kimliği yok → -0504→-0338 __BOSLUK__ (beyan). -0338’den (Latin Savaşı sonu, Roma’ya katılım; kaynak okunmadı, tarih hafızadan değil Roma zincirine hizalama) ABİ MERKEZ Roma (25 km) zinciri devralındı. Not: Pleiades yerleşim süresi -750..640.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Lavinium 17.1 km; Roma 25 km)"
+ },
+ {
+  "ad": "Elea (Velia)",
+  "tur": "sehir",
+  "lat": 40.16050073721131,
+  "lon": 15.156156847539265,
+  "koord_kaynak": "Pleiades 452488 reprPoint; Wikidata Q272968",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:7 (-0544 Fokaialılar Elea kurdu)",
+  "s": [
+   {
+    "f": "-0544-01-01",
+    "t": "-0026-01-16",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Elea polisi atlasta devlet yok; Pleiades 452488 Roma müttefiki 3. yy"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "Roma zinciri hizası (Reggio Calabria/Roma atlas dilimi)"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-23",
+    "d": "bati-roma",
+    "kaynak": "Roma zinciri hizası"
+   },
+   {
+    "f": "0476-08-23",
+    "t": "1000-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: 476-1000 arası bu yerde doğrulanmış sahip yok (Bizans/Lombard/Benevento hâkimiyeti okunmadı)"
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1076-12-13",
+    "d": "salerno-prensligi",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1076-12-13",
+    "t": "1128-01-01",
+    "d": "apulya-dukaligi",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1282-03-30",
+    "d": "sicilya-kralligi",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1282-03-30",
+    "t": "1860-10-21",
+    "d": "napoli",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1860-10-21",
+    "t": "1861-03-17",
+    "d": "sardinya-piyemonte",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1861-03-17",
+    "t": "1946-06-18",
+    "d": "italya",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "d": "italya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Salerno — atlas zinciri (yerlesimler_nokta2.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Adlar: Elea, Velia, Hyele, Castellammare di Velia (Pleiades 452488). Yunan polisi Elea Pleiades’e göre -3. yy’da Roma müttefiki; atlasta Elea devleti yok → -0544→-0026-01-16 __BOSLUK__. -0026-01-16→0476-08-23 Roma zinciri (Reggio/Roma ile uyumlu), 0476-1000 arası __BOSLUK__ (Lombard/Bizans devletleri bu yerde doğrulanmadı), 1000’den Salerno (65 km) ABİ MERKEZ. Bit yok.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Poseidonia 31.7 km, Salerno 65 km)"
+ },
+ {
+  "ad": "Thyrea (Thyreatis)",
+  "tur": "sehir",
+  "lat": 37.37637,
+  "lon": 22.681426,
+  "koord_kaynak": "Wikidata Q3036391 P625; Pleiades 570736 (Thyreatis, reprPoint 37.25,22.75: polis yeri belirlenmemiş)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:9 (-0545 Thyrea Savaşı)",
+  "s": [
+   {
+    "f": "-0545-01-01",
+    "t": "-0338-01-01",
+    "d": "sparta",
+    "kaynak": "olaylar_dunya_avrupa_mo.js:9 maddesine dayalı çıkarım; Sparta’nın Thyreatis’i elinde tutması -4. yy’a dek kaynak okunmadı"
+   },
+   {
+    "f": "-0338-01-01",
+    "t": "-0271-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Argos devleti atlasta kimliksiz; Argos zinciri -0271’de başlıyor"
+   },
+   {
+    "f": "-0271-01-01",
+    "t": "-0228-01-01",
+    "d": "antigonid-makedonya",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "-0228-01-01",
+    "t": "-0145-01-01",
+    "d": "akhaia-birligi",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "1204-01-01",
+    "d": "bizans",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1204-01-01",
+    "t": "1389-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1389-01-01",
+    "t": "1540-11-01",
+    "d": "venedik",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1686-08-30",
+    "t": "1715-07-20",
+    "d": "venedik",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1822-12-12",
+    "t": "1973-06-01",
+    "d": "yunanistan",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "d": "yunanistan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1540-11-01",
+    "t": "1686-08-30",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1715-07-20",
+    "t": "1822-12-12",
+    "kaynak": "ABİ MERKEZ: Argos — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Pleiades: “polis Thyrea’nın yeri belirlenmedi” → koordinat bölge düzeyi, güven düşük. Sparta -0545 sonrası Thyreatis’i elinde tutar (savaş maddesi); -0338’e dek Sparta (Philip II sonrası Argos’a geçişi) — KAYNAK OKUNMADI, BEYANLI. -0338→-0271 __BOSLUK__, -0271’den Argos (28.5 km) ABİ MERKEZ.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Argos 28.5 km, Anabolu 23.7 km)"
+ },
+ {
+  "ad": "Kamarina (Camarina)",
+  "tur": "sehir",
+  "lat": 36.87187848744483,
+  "lon": 14.448323419479632,
+  "koord_kaynak": "Pleiades 462126 reprPoint; Wikidata Q854843",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:15 (-0597 Kamarina, Sirakuza tarafından kuruldu)",
+  "s": [
+   {
+    "f": "-0597-01-01",
+    "t": "-0552-01-01",
+    "d": "sirakuza",
+    "kaynak": "Pleiades 462126"
+   },
+   {
+    "f": "-0552-01-01",
+    "t": "-0339-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Pleiades 462126: -552 yıkım, -461 Gela, -405 Kartaca; ilgili devletler atlasta kimliksiz"
+   },
+   {
+    "f": "-0339-01-01",
+    "t": "-0258-01-01",
+    "d": "sirakuza",
+    "kaynak": "Pleiades 462126 (Timoleon -339); bitiş -0258 okunmadı, Pleiades “geç 3. yy”"
+   },
+   {
+    "f": "-0258-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kaynak": "Pleiades 462126: geç 3. yy’dan Roma; -0258 okunmadı"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "Roma zinciri hizası"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-23",
+    "d": "bati-roma",
+    "kaynak": "Roma zinciri hizası"
+   },
+   {
+    "f": "0476-08-23",
+    "t": "0843-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Messina zincirinde 288-843 BOSLUK; doğrulanmadı"
+   },
+   {
+    "f": "0843-01-01",
+    "t": "0909-03-18",
+    "d": "aglebi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0909-03-18",
+    "t": "0947-01-01",
+    "d": "fatimi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0947-01-01",
+    "t": "1061-01-01",
+    "d": "sicilya-emirligi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1061-01-01",
+    "t": "1072-01-01",
+    "d": "apulya-dukaligi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1072-01-01",
+    "t": "1281-01-01",
+    "d": "sicilya-kralligi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1282-03-30",
+    "d": "sicilya-kralligi",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1282-03-30",
+    "t": "1282-08-30",
+    "d": "__BOSLUK__",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1282-08-30",
+    "t": "1816-12-01",
+    "d": "sicilya-aragon",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1816-12-01",
+    "t": "1861-02-13",
+    "d": "napoli",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1861-02-13",
+    "t": "1946-06-18",
+    "d": "italya",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "d": "italya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Messina — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Pleiades 462126 açıklaması: Sirakuza -599’da kurdu, -552’de yıkıldı, -461’de Gela yeniden kurdu, -405 Kartaca yıktı, -339 Timoleon, geç 3. yy’dan Roma yönetimi. Atlas madde yılı -0597 esas alındı (Pleiades -599; fark 2 yıl, onyıl hassasiyeti). Gela/Kartaca’ya sahiplik atlas kimliği olmadığı için BOSLUK. Roma devri başlangıcı (-0258) Pleiades’te yalnız “geç 3. yy”: -0258 kaynak okunmadı. 0476-0843 BOSLUK ve 0843’ten Messina (ABİ MERKEZ, ada zinciri).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Gela 27.1 km (girdisi s:[] boş))"
+ },
+ {
+  "ad": "Olbia (Berezan)",
+  "tur": "sehir",
+  "lat": 46.59861111,
+  "lon": 31.41027778,
+  "koord_kaynak": "Wikidata Q11214098 P625 (Borysthenes/Berezan); Olbia Pontica ayrı: Pleiades 226546 (46.6924,31.9059)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:18 (-0646 Olbia/Berezan, Miletos kolonisi)",
+  "s": [
+   {
+    "f": "-0646-01-01",
+    "t": "1281-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Olbia/Milet polisi atlasta kimliksiz; 1281 öncesi sahip okunmadı"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1441-01-01",
+    "d": "altinorda",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1441-01-01",
+    "t": "1475-06-06",
+    "d": "kirim",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1792-01-09",
+    "t": "1917-03-15",
+    "d": "rusya",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "d": "rusya-gecici-hukumet",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1917-11-07",
+    "t": "1991-08-24",
+    "d": "sovyet-rusya",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1991-08-24",
+    "t": "2000-12-31",
+    "d": "ukrayna",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1538-09-01",
+    "t": "1792-01-09",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "v": [
+   {
+    "f": "1475-06-06",
+    "t": "1538-09-01",
+    "k": "Kırım Hanlığı",
+    "kid": "kirim",
+    "statu": "gevsek",
+    "himaye": true,
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1737-07-11",
+    "t": "1739-12-12",
+    "d": "rusya",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1788-12-17",
+    "t": "1792-01-09",
+    "d": "rusya",
+    "kaynak": "ABİ MERKEZ: Özi — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Madde “Olbia/Berezan” -0646: Berezan adası (Milet kolonisi). Olbia Pontica’nın kendisi (Pleiades 226546, Parutyne) AYRI nokta: ~46.692,31.906 — öncelik madde Berezan’a göre. Milet/Olbia polisi atlasta devlet kimliksiz → -0646→1281 __BOSLUK__ (arası Roma/Bizans/Hazar vb. okunmadı). 1281’den Özi (Özü/Ochakiv, 10.5 km) ABİ MERKEZ. Berezan adası ıssız; harita yerleşimi olarak tartışmalı.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Kılburun 9.1 km, Özi 10.5 km)"
+ },
+ {
+  "ad": "Lokroi Epizephyrioi (Locri)",
+  "tur": "sehir",
+  "lat": 38.2262955,
+  "lon": 16.2443395,
+  "koord_kaynak": "Pleiades 452369 reprPoint; Wikidata Q3836325",
+  "kur": null,
+  "bit": null,
+  "anildigi": "olaylar_dunya_avrupa_mo.js:21 (-0672 Lokroi Epizephyrioi, Güney İtalya)",
+  "s": [
+   {
+    "f": "-0672-01-01",
+    "t": "-0026-01-16",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Lokroi polisi atlasta devlet kimliksiz; Roma ilhak yılı okunmadı"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-23",
+    "d": "bati-roma",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "d": "odoakar",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "d": "dogu-got",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0553-01-01",
+    "t": "1059-01-01",
+    "d": "bizans",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1059-01-01",
+    "t": "1128-01-01",
+    "d": "apulya-dukaligi",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1128-01-01",
+    "t": "1281-01-01",
+    "d": "sicilya-kralligi",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "d": "napoli",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1861-02-13",
+    "t": "1946-06-18",
+    "d": "italya",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "d": "italya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Reggio Calabria — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Pleiades 452369: Locri ~-680 kuruldu, Locrian kolonisi. Lokroi polisi atlasta devlet kimliksiz → -0672→-0026-01-16 __BOSLUK__; -0026-01-16’dan Reggio Calabria (52.7 km) ABİ MERKEZ. Ortaçağda terk (Gerace) kaynak okunmadı → bit yazılmadı. Madde yılı -0672 (Pleiades ~-680, onyıl hassasiyeti).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Reggio Calabria 52.7 km)"
+ },
+ {
+  "ad": "Hysiai (Argolis)",
+  "tur": "sehir",
+  "lat": 37.5200016,
+  "lon": 22.5862423,
+  "koord_kaynak": "Pleiades 570306 reprPoint (Achladokampos güneyi)",
+  "kur": null,
+  "bit": "-0417-01-01",
+  "anildigi": "olaylar_dunya_avrupa_mo.js:20 (-0668 Hysiai Savaşı)",
+  "s": [
+   {
+    "f": "-0668-01-01",
+    "t": "-0417-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "BEYAN: Argos devleti atlasta kimliksiz; Pleiades 570306: Argos sınır kalesi, -417’de Lakedaimonlular yıktı"
+   }
+  ],
+  "guven": "orta",
+  "notlar": "Pleiades 570306 (Barrington Atlas 58): Argos sınır kalesi, -417’de Lakedaimonlular tarafından yıkıldı → bit -0417-01-01 (Pausanias gördüğünde harabe). Başka Hysiai: Pleiades 540831 (Boiotia, 38.217,23.344) — bu kayıt değil. Madde -0668 Argos/Pheidon: Hysiai Argolis. Zincir: tek dilim __BOSLUK__ (Argos Pleiades’te devlet kimliği yok; atlasta Argos zinciri -0271’de başlıyor).",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Argos 15.8 km, Anabolu 15.2 km)"
+ },
+ {
+  "ad": "Sabis (Selle Nehri Savaşı yeri)",
+  "tur": "sehir",
+  "lat": 50.055556,
+  "lon": 3.531667,
+  "koord_kaynak": "Wikidata Q681510 P625 (Saint-Souplet, savaş yeri adaylarından biri; kesin yer tartışmalı)",
+  "kur": null,
+  "bit": null,
+  "anildigi": "kronoloji_cok_hollanda.js:374 (-0057 Caesar Sabis’te Belgae’yi yendi)",
+  "s": [
+   {
+    "f": "-0057-01-01",
+    "t": "-0026-01-16",
+    "d": "roma-cumhuriyeti",
+    "kaynak": "kronoloji_cok_hollanda.js:374 madde etiketi; fetih sonrası idare, kaynak okunmadı"
+   },
+   {
+    "f": "-0026-01-16",
+    "t": "0001-01-01",
+    "d": "roma-imp",
+    "kaynak": "Roma zinciri hizası (Roma/Reggio dilimi)"
+   },
+   {
+    "f": "0001-01-01",
+    "t": "0395-01-17",
+    "d": "roma-imp",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0395-01-17",
+    "t": "0476-08-28",
+    "d": "bati-roma",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0476-08-28",
+    "t": "0481-01-01",
+    "d": "__BOSLUK__",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0481-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0862-01-01",
+    "d": "bati-francia",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "0862-01-01",
+    "t": "1000-01-01",
+    "d": "flandre",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1191-01-01",
+    "d": "flandre",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1191-01-01",
+    "t": "1281-01-01",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1281-01-01",
+    "t": "1521-11-30",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1521-11-30",
+    "t": "1668-05-02",
+    "d": "ispanya",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1668-05-02",
+    "t": "1709-09-03",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1709-09-03",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "eksklav": true,
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-02-02",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-28",
+    "t": "1944-09-02",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Tournai — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "guven": "dusuk",
+  "notlar": "Savaş alanı kesin yer tartışmalıdır (Selle/Sabis); Saint-Souplet, Selle vadisi adaylarından — Pleiades/akademik yer teyidi bu turda okunmadı → lat/lon güveni düşük, KAYDETMEMEK de makul. Zincir: -0057 Caesar fethi (madde etiketi “Gallia Belgica’nın fethi”) roma-cumhuriyeti; -0026-01-16’dan roma-imp; ABİ MERKEZ: Tournai (62 km) zinciri 0001’den.",
+  "mukerrer_kontrol": "yerlesimler*.js ad taramasi: eslesme yok; 3 km icinde komsu yok (en yakin: Mons 53 km)"
+ }
+]

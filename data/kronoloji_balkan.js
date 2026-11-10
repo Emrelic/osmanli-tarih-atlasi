@@ -363,7 +363,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Kaloyan (1197-1207) Kıpçak müttefikleriyle birlikte İstanbul'u 1204'te ele geçiren IV. Haçlı Seferi'nin Latin İmparatorluğu ordusunu Edirne yakınlarında ağır bir bozguna uğrattı; İmparator I. Baldwin esir düştü ve Tırnova'da hapiste öldü. Zafer, henüz yeni kurulmuş Latin İmparatorluğu'nun Balkanlar'daki genişlemesini durdurdu ve Bulgar Çarlığı'nı bölgenin en güçlü devleti hâline getirdi.",
   kaynak:"TDV `bulgaristan` genel anlatısı Kaloyan'ın 'eski toprakları geri aldığını' belirtiyor, ayrıntı vermiyor; tam tarih ve olay akademik kaynaktan: J.V.A. Fine, The Late Medieval Balkans, University of Michigan Press, 1994." },
 
-{ t:"1230-03-09", b:"Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı", tur:"toprak-kazanc",
+{yer_id:"Klokotnitsa",  t:"1230-03-09", b:"Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"II. İvan Asen (1218-1241), Epir Despotu Theodoros Angelos'un ordusunu Klokotnitsa'da yenilgiye uğratarak Makedonya ve Trakya'nın büyük bölümünü ele geçirdi; Bulgar Çarlığı Adriyatik'ten Karadeniz'e, Tuna'dan Ege'ye uzanan en geniş sınırlarına ulaştı.", ic_not_d:"Bu tarih devletler.js `bulgar-carligi` künyesinde zaten kayıtlı.",
@@ -455,7 +455,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Athos'taki Hilandar Manastırı keşişi Paisiy, 'İstoriya Slavyanobolgarskaya' adlı eserinde Bulgar halkına kendi tarihini ve dilini hatırlatarak Yunan kültürel asimilasyonuna karşı millî bilinci uyandırdı; bu eser modern Bulgar Millî Uyanışı'nın (Bılgarsko vızrazhdane) sembolik başlangıcı sayılır.", ic_not_d:"Gün belirtilmiyor, YYYY-01-01.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — 'Millî Uyanış'ın başlangıcı bölümü)." },
 
-{ t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",
+{yer_id:"Gabrovo",  t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["bilim","sosyal","islahat","konu-siyasi","konu-bilim","konu-egitim","konu-islahat","konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Tüccar Vasil Aprilov'un girişimiyle Gabrovo'da açılan bu okul, Bulgar dilinde ve Batı tarzı müfredatla eğitim veren ilk modern Bulgar okuludur; Millî Uyanış döneminin eğitim seferberliğinin başlangıç noktası kabul edilir ve model kısa sürede diğer Bulgar kasabalarına yayıldı.",

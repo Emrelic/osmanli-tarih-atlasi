@@ -220,7 +220,7 @@ window.KRONOLOJI_COK_DERIN_ASYA_AFRIKA_1024 = [
   kaynak:"G. N. Sharma, Mewar and the Mughal Emperors (Agra, 1962) · John F. Richards, The Mughal Empire (Cambridge UP, 1993). Sayfa verilmedi.",
   taraflar:["guhila-mevar"], etiket:["konu-askeri"],
   ic_not_kaynak:"Hafızadan; sayfa sınanmadı."},
-{ t:"1576-01-01", k:"askeri", tur:"savas", b:"Haldighati Savaşı - Maharana Pratap Babürlüler'e yenildi",
+{yer_id:"Haldighati",  t:"1576-01-01", k:"askeri", tur:"savas", b:"Haldighati Savaşı - Maharana Pratap Babürlüler'e yenildi",
   gun:"1576 (Haziran; gün sınanmadı)", kisiler:"Maharana Pratap, Man Singh",
   d:"Maharana Pratap'ın ordusu Man Singh komutasındaki Babürlü kuvvetlerle Haldighati'de çarpıştı; sonuç kesin zafer olmadı, ancak Pratap dağlık bölgeye çekilip direnişi sürdürdü.",
   kaynak:"Sharma, Mewar and the Mughal Emperors (1962) · Richards, The Mughal Empire (1993). Sayfa verilmedi.",

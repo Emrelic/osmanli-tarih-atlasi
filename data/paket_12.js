@@ -2843,7 +2843,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Kaloyan (1197-1207) Kıpçak müttefikleriyle birlikte İstanbul'u 1204'te ele geçiren IV. Haçlı Seferi'nin Latin İmparatorluğu ordusunu Edirne yakınlarında ağır bir bozguna uğrattı; İmparator I. Baldwin esir düştü ve Tırnova'da hapiste öldü. Zafer, henüz yeni kurulmuş Latin İmparatorluğu'nun Balkanlar'daki genişlemesini durdurdu ve Bulgar Çarlığı'nı bölgenin en güçlü devleti hâline getirdi.",
   kaynak:"TDV `bulgaristan` genel anlatısı Kaloyan'ın 'eski toprakları geri aldığını' belirtiyor, ayrıntı vermiyor; tam tarih ve olay akademik kaynaktan: J.V.A. Fine, The Late Medieval Balkans, University of Michigan Press, 1994." },
 
-{ t:"1230-03-09", b:"Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı", tur:"toprak-kazanc",
+{yer_id:"Klokotnitsa",  t:"1230-03-09", b:"Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıldı", tur:"toprak-kazanc",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"II. İvan Asen (1218-1241), Epir Despotu Theodoros Angelos'un ordusunu Klokotnitsa'da yenilgiye uğratarak Makedonya ve Trakya'nın büyük bölümünü ele geçirdi; Bulgar Çarlığı Adriyatik'ten Karadeniz'e, Tuna'dan Ege'ye uzanan en geniş sınırlarına ulaştı.", ic_not_d:"Bu tarih devletler.js `bulgar-carligi` künyesinde zaten kayıtlı.",
@@ -2935,7 +2935,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Athos'taki Hilandar Manastırı keşişi Paisiy, 'İstoriya Slavyanobolgarskaya' adlı eserinde Bulgar halkına kendi tarihini ve dilini hatırlatarak Yunan kültürel asimilasyonuna karşı millî bilinci uyandırdı; bu eser modern Bulgar Millî Uyanışı'nın (Bılgarsko vızrazhdane) sembolik başlangıcı sayılır.", ic_not_d:"Gün belirtilmiyor, YYYY-01-01.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — 'Millî Uyanış'ın başlangıcı bölümü)." },
 
-{ t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",
+{yer_id:"Gabrovo",  t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["bilim","sosyal","islahat","konu-siyasi","konu-bilim","konu-egitim","konu-islahat","konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Tüccar Vasil Aprilov'un girişimiyle Gabrovo'da açılan bu okul, Bulgar dilinde ve Batı tarzı müfredatla eğitim veren ilk modern Bulgar okuludur; Millî Uyanış döneminin eğitim seferberliğinin başlangıç noktası kabul edilir ve model kısa sürede diğer Bulgar kasabalarına yayıldı.",
@@ -5330,7 +5330,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Travankur] Feodal beylerin (Ettuveettil Pillamar) vesayetini kanlı biçimde kıran genç hükümdar, dağınık Venâd'ı merkezî bir krallığa dönüştürdü ve modern Travankur'un kurucusu sayıldı. Düzenli ordu, düzenli vergi ve tek merkez — üçü de onun eseridir.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Cambridge History of India, V" },
 
-{ t:"1741-08-10", b:"Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{yer_id:"Kolaçel (Colachel)",  t:"1741-08-10", b:"Kolaçel Muharebesi: Travankur, Hollanda Doğu Hindistan Şirketi'ni yendi", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","zafer","somurge","konu-askeri","konu-siyasi"], yer_id:"",
   d:"[Travankur] Marthanda Varma'nın ordusu, Hollanda çıkarma kuvvetini sahilde bozguna uğrattı ve kumandan De Lannoy dahil çok sayıda esir aldı. Bir Asya devletinin bir Avrupa sömürge şirketini açık muharebede yenmesi nâdirdi; Hollanda'nın Malabar'daki yayılması bu günden sonra durdu.", ic_not_d:"yer_id boş: Kolaçel atlasın kayıtlarında yok.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, a.g.e.; Cambridge History of India, V" },
@@ -12295,7 +12295,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Türkmen boyları, Hîve ile Buhara ile İran arasındaki boşlukta hareket serbestliği bulmuşlardı; 1873'te Rusların Hîve Hanlığı'nı egemenlikleri altına alması bu dengeyi bozdu. Bundan sonra Türkmenlerin karşısında bölgesel hanlıklar değil doğrudan bir imparatorluk ordusu vardı.",
   kaynak:"turkmenler (TDV) — gün YAKLAŞIK; Hîve'nin düşüşü Rus/Özbek dosyalarının konusudur" },
 
-{ t:"1879-09-01", b:"Birinci Göktepe — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{yer_id:"Göktepe (Gökdepe / Geok Tepe)",  t:"1879-09-01", b:"Birinci Göktepe — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
   d:"Türkmenlerin çarın hâkimiyetini kabul etme teklifini şiddetle reddetmesi üzerine 1879'da harekete geçen Ruslar, Göktepe'de ağır bir yenilgiye uğradı (Eylül 1879). Bu, XIX. yüzyılda bir Rus ordusunun Orta Asya'da aldığı en ağır yenilgidir.", ic_not_d:"⚠️ Göktepe için proje yerleşim kümesinde nokta YOK; yer_id boş bırakıldı, uydurulmadı.",
@@ -13489,7 +13489,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Parçalanmış Sırp beylikleri Vukašin ve Uglješa kardeşlerin ordusu, Meriç nehri kıyısında Osmanlı akıncı kuvvetlerine ağır bir yenilgiye uğradı; Makedonya'daki Sırp direnişinin belkemiği burada kırıldı ve Kosova'ya giden yol açıldı.",
   kaynak:"TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan Sırplar...' Gün akademik kaynaktan (26 Eylül 1371, standart tarih)." },
 
-{ t:"1389-06-15", b:"I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi", tur:"savas",
+{yer_id:"Kosova Ovası (Kosovo Polje)",  t:"1389-06-15", b:"I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["savas","ittifak","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"Knez Lazar önderliğindeki Balkan ittifakı Kosova Ovası'nda I. Murad karşısında yenildi; I. Murad savaş meydanında öldürüldü, Lazar da esir düşüp idam edildi.", ic_not_d:"Yenilgiyle Sırp Krallığı Osmanlı'ya haraca bağlandı ve bu tarih Sırp millî hafızasında (Kosova destanı, Vidovdan/Aziz Vitus günü anması) merkezi bir yer tutar. dunya puanı kronoloji_bizans.js'teki aynı olayla eşleştirildi.",
@@ -13567,7 +13567,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 // ───────────────────────── SIRBİSTAN PRENSLİĞİ (1804-1882) — ulusal hareket, özerklik, bağımsızlık
 
-{ t:"1804-02-14", b:"Birinci Sırp Ayaklanması başladı (Kara Yorgi)", tur:"isyan",
+{yer_id:"Orašac (Aranđelovac)",  t:"1804-02-14", b:"Birinci Sırp Ayaklanması başladı (Kara Yorgi)", tur:"isyan",
   onem:5, dunya:3, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
   yer_id:"",
   d:"Belgrad sancağındaki yeniçeri (dahi) zorbalığına ve 'knezlerin katliamı'na (Seča knezova, Ocak 1804) tepki olarak Georgije Petrović (Kara Yorgi/Karadjordje) önderliğinde Orašac meclisinde ayaklanma ilan edildi.", ic_not_d:"Bu tarih devletler.js `sirbistan-prensligi` künyesinin f: tarihidir ve modern Sırp devlet sürekliliğinin başlangıcı sayılır.",
@@ -13585,7 +13585,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Bükreş Antlaşması'yla (1812) Rusya ile barışan Osmanlı Devleti, ayaklanmayı bastırmak için serbest kalan gücünü Sırbistan'a yöneltti; Belgrad yeniden ele geçirildi ve Kara Yorgi Avusturya'ya kaçtı. Doğrudan Osmanlı idaresi kısa süreliğine yeniden kuruldu; iki yıl içinde İkinci Ayaklanma patlak verecektir.",
   kaynak:"TDV `sirbistan`: '1813'te tamamıyla bastırılarak Belgrad ele geçirildi.'" },
 
-{ t:"1815-04-23", b:"İkinci Sırp Ayaklanması (Miloš Obrenović)", tur:"isyan",
+{yer_id:"Takova (Takovo)",  t:"1815-04-23", b:"İkinci Sırp Ayaklanması (Miloš Obrenović)", tur:"isyan",
   onem:5, dunya:3, kapsam:"dis", etiket:["isyan","konu-isyan"],
   yer_id:"",
   d:"Knez Miloš Obrenović önderliğinde Takovo meclisinde ikinci ayaklanma ilan edildi. Birincinin aksine Miloš, tam bağımsızlık yerine müzakere yoluyla özerklik hedefledi; bu pragmatik çizgi 1830 fermanına giden yolu açtı ve Obrenović hanedanının temelini attı.",
