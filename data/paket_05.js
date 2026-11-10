@@ -324,7 +324,7 @@ window.DEVLETLER = [
     { odak_yer:["Moskova"], t:"1485-09-12", tur:"son", b:"III. İvan'ın kuşatması üzerine son büyük knez Mihail Borisoviç Litvanya'ya kaçtı, knezlik Moskova'ya katıldı" }
   ]
 },
-{ id:"moskova", ad:"Moskova Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+{ id:"moskova", harita:"rusya", ad:"Moskova Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
   f:"1283-01-01", t:"1547-01-16", baskent:"Moskova",
   ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
@@ -972,7 +972,7 @@ window.DEVLETLER = [
 // 17 kayıt "1281→1809") kullanılıyordu. Kalmar-öncesi kesin kuruluş tarihi
 // TDV özetinde net değil; atlasın pencere-başlangıcı konvansiyonuyla
 // f:"1281-01-01" kullanıldı (emsal: `kirim` ve çeşitli beylikler).
-{ id:"isvec-birlik-oncesi", ad:"İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
+{ id:"isvec-birlik-oncesi", harita:"isvec", ad:"İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
   f:"1000-01-01", t:"1523-06-06", ic_not_t:"t değişmedi.", ic_not_f:"pencere ucu, ölçüm değil (D210): kaynak yalnız ON YIL verir ('990-årene'); görevlendirmedeki '~995' kaynakta YOK, yıl uydurulmadı ⇒ f kuşak başına (1000-01-01) çekildi. snl aynı maddede 'Olof var visstnok den første konge over både svear og gøter' (visstnok = 'rivayete göre'). ÇELİŞKİ riski: snl 'Sveriges historie' 'De svenske kjerneområdene – Svealand og Götaland – ble samlet under en felles konge på 1100-tallet' — yani kalıcı birlik 1100'lerde; 1000-1100 arası haritada Götaland'ın ayrı boyanıp boyanmayacağı koordinatörün kararı (bu turda ÖLÇÜLMEDİ).", baskent:"Stockholm",
   ozet:"Kalmar Birliği (1397-1523) öncesi bağımsız İsveç Krallığı ve birlik dönemi (Danimarka-Norveç-İsveç birleşik krallığı); Gustav Vasa'nın Danimarkalıları yenip bağımsızlığı yeniden kurmasıyla sona erdi (bkz. [[isvec]]). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır. (kaynak: TDV, madde: isvec)",
   kaynak:"isvec",
@@ -2533,7 +2533,7 @@ window.DEVLETLER = [
 // dönemi. `toskana`nın kendi ozeti zaten "Floransa Cumhuriyeti'nden Medici
 // hanedanı eliyle doğan dükalık" diyordu — buradan doğrulandı. TDV'de
 // `floransa` maddesi yok (302), §4 gereği standart akademik kaynak.
-{ id:"floransa", ad:"Floransa Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
+{ id:"floransa", harita:"toskana", ad:"Floransa Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
   f:"1115-01-01", t:"1532-05-01", baskent:"Floransa",
   ozet:"Kontes Matilda'nın ölümüyle özerk bir komün/cumhuriyet olarak örgütlenen, yün ve bankacılık zenginliğiyle Rönesans'ın merkezlerinden biri olan şehir cumhuriyeti; Medici hanedanının fiilî iktidara gelmesiyle 1 Mayıs 1532'de dükalığa dönüştü (bkz. [[toskana]]).",
   kaynak:"Treccani, Dizionario Biografico, 'Alessandro de' Medici, primo duca di Firenze'; Treccani Dizionario di Storia 'Firenze' — «Nel 1532, infine, procurò un rimaneggiamento della costituzione ... A. subentrava al gonfaloniere, col titolo ereditario di \"duca della Repubblica Fiorentina\"»", ic_not:"DUNYA-1102 hücre 4 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (🟢 DÜZELTİLDİ (KITA 4'ün bulduğu gün, KITA 1 uyguladı) — eski 'bulunamadı' hükmü ) dayanak olamaz, değiştirildi. t yalniz YIL teyitli (1532); 1 Mayis gunu akademik sayfada yok (DBI yalniz yil verir). f: Treccani 'Firenze' Matilde'nin 1115 olumunde komun ozerkligi der; 1115 yil duzeyinde (Matilde olumu 24 Temmuz 1115 Enc. Dantesca, yalniz arama ozetinden, sayfa acilmadi).",
@@ -2559,7 +2559,7 @@ window.DEVLETLER = [
 // İberya kalemi): `sardinya` harita kimliği künyenin ömrünün (1720-1861)
 // ÖNCESİNDE de kullanılıyordu; Savoya hanedanının kontluk/dükalık dönemi.
 // TDV'de `savoya` maddesi yok (302), §4 gereği standart akademik kaynak.
-{ id:"savoya", ad:"Savoya Kontluğu / Dükalığı", tur:"dukalik", bolge:"italya",
+{ id:"savoya", harita:"sardinya", ad:"Savoya Kontluğu / Dükalığı", tur:"dukalik", bolge:"italya",
   f:"1032-01-01", t:"1720-08-02", baskent:"Chambéry → Torino",
   ozet:"Umberto I Biancamano'nun kurduğu, önce kontluk (1032-1416) sonra dükalık (1416-1720) unvanıyla Alp geçitlerini denetleyen hanedanlık; Sicilya'yı Avusturya'ya devredip Sardinya Krallığı unvanını almasıyla Sardinya-Piyemonte'ye dönüştü (bkz. [[sardinya-piyemonte]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
@@ -6963,7 +6963,7 @@ window.DEVLETLER = [
 // dükalıktan ÖNCEKİ dönem (1311-1395); 1395-05-11'den sonrası `milano-dukaligi`dir. `harita:`sız künye (della-scala/bonacolsi emsali):
 // BOYALAR'a girene kadar Bergamo/Brescia/Parma `s:` dönemleri `__BOSLUK__` kalır; boya + dönem geçişi
 // denetim/AVRUPA-2-VISCONTI-RENK-1013.diff (renkler.py motor dosyası olduğu için BEKLİYOR).
-{ id:"visconti", ad:"Visconti Senyörlüğü (Milano)", tur:"devlet", bolge:"italya",
+{ id:"visconti", harita:"milanoduka", ad:"Visconti Senyörlüğü (Milano)", tur:"devlet", bolge:"italya",
   f:"1311-07-13", t:"1395-05-11", baskent:"Milano", kesinlik:{ f:"gun", t:"yil" },
   ozet:"Milano'da Visconti ailesinin dükalık öncesi senyörlüğü: Matteo I 1311'de imperial vikar sıfatıyla fiilen şehrin efendisi oldu; Azzone Bergamo'yu (1333), Cremona'yı (1334) ve Brescia'yı (1337), Luchino Parma'yı (1346) kattı; Gian Galeazzo 1385'te tek hükümdar oldu ve 1395'te dük unvanı alarak devleti Milano Dükalığı'na dönüştürdü. TDV'de ayrı maddesi yok.",
   kaynak:"Dizionario Biografico (Treccani) «Visconti, Matteo»: 13 Temmuz 1311 imperial vikar (VII. Henri), sonra fiilî sürekli vikar; 1287 capitano del popolo (1310 «definitif» ayrımı: Enciclopedia dell'Arte Medievale «Visconti» — YIL) · «Visconti, Azzone»: Bergamo 20 Eylül 1333, Cremona 15 Temmuz 1334, Brescia şehri 10 Ekim 1337 (kale bir ay sonra) · «Visconti, Luchino»: Parma 1346'da Obizzo d'Este'den 70.000 florinle (GÜN YOK) · Enciclopedia Italiana (Treccani) «Visconti»: Gian Galeazzo 1378'de Galeazzo II'ye halef, 1385'te Bernabò'nun yakalanmasıyla tek hükümdar, 1395'te Wenzel tarafından Milano dükü (YIL) · ⚠️ BİTİŞ GÜNÜ 1395-05-11 `milano-dukaligi` künyesinden ALINDI (gün atlastan, Treccani yalnız 1395 yılını verir; iki künyenin bitişik kalması için) · 1277 Desio galibiyeti DBI Ottone'de «signoria kuruluşu» olarak okunmaz (yeni çalışmalar teleolojik bulur) ⇒ künye 1277'den başlatılmadı · TDV'de yok (bulunamadı)",
@@ -7765,7 +7765,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"nguyen-beyligi", ad:"Nguyễn Beyleri (Đàng Trong)", tur:"beylik", bolge:"guneydogu-asya",
-  f:"1558-01-01", t:"1802-06-01", baskent:"Phú Xuân (Huế)", harita:"nguyen-beyligi",
+  f:"1558-01-01", t:"1802-06-01", baskent:"Phú Xuân (Huế)", harita:"nguyen-hanedani",
   ozet:"Lê tahtı adına güneyi yöneten, Trịnh'lerle ülkeyi Gianh ırmağından ikiye bölen bey ailesi; Tây Sơn'a yıkıldı, Nguyễn Ánh'ın geri dönüşüyle hânedana dönüştü (bkz. [[nguyen-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"encyclopedia.com 'Indochina' — «Marching north, he overthrew the Tay Son in 1802.»",
   ic_not:"GDA-OKYANUSYA 1 Kasım 2026: Britannica savaşı 1627’den 1673’e kadar verir; künye kronolojisi 1627 başlangıcını taşır (uyumlu), 1673 sonu kronolojide yok. Künye t 1802-06-01 Gia Long’un ardıl yapısına bağlıdır (Tây Sơn 1777’de lordluğu ortadan kaldırmıştı; 1777-1788 arası künye boşluğu beyanlıdır). · DUNYA-1102 hücre 11 (KASA, 2 Kasım 2026): teyit beyanlı yaklaşıklık. Önceki kaynak (Britannica, ‘Vietnam’ ve ‘Nguyen dynasty’ (Nguyễn’ler güneyi Huế’den yönetti; Tr) dayanak olamaz, değiştirildi. t yıl teyitli (1802, Gia Long); 1558 okunmadı (arama özeti 'Nine Nguyen Lords 1558–1777' Tandfonline makalesi, açılmadı).",
@@ -10121,7 +10121,7 @@ window.DEVLETLER = [
     { odak_yer:["Königsberg"], t:"1660-05-03", tur:"antlasma", b:"Oliva Barışı: Brandenburg'un Prusya Dükalığı üzerindeki egemenliği kesin biçimde tanındı.", kaynak:"https://www.britannica.com/topic/Treaty-of-Oliva ; https://www.historyofwar.org/articles/peace_oliva.html" },
     { odak_yer:["Königsberg"], t:"1701-01-18", tur:"son", b:"III. Friedrich Königsberg'de taç giydi, Prusya Krallığı kuruldu", kaynak:"TDV: prusya" }
   ] },
-{ id:"norvec-isvec-birligi", ad:"Norveç Krallığı (İsveç ile Birlik)", tur:"krallik", bolge:"kuzey-avrupa", f:"1814-11-04", t:"1905-06-07",
+{ id:"norvec-isvec-birligi", harita:"norvec", ad:"Norveç Krallığı (İsveç ile Birlik)", tur:"krallik", bolge:"kuzey-avrupa", f:"1814-11-04", t:"1905-06-07",
   baskent:"Christiania",
   ozet:"Danimarka'nın Kiel Antlaşması'yla Norveç'i devretmesinden sonra kendi Eidsvold anayasasını koruyarak İsveç'e şahsî birlikle bağlanan krallık; birlik 7 Haziran 1905'te Storting kararıyla çözüldü.",
   kaynak:"Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store norske leksikon, 'Unionsoppløsningen i 1905' (snl.no) — «En revidert utgave av Grunnloven ble underskrevet 4. november, og samme dag ble Carl 13. valgt til norsk konge. | Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.»", ic_not:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Encyclopædia Britannica 1911 (Wikisource) — Kiel «January 14, 1814» · Eidsvold a) dayanak olamaz, değiştirildi. f: stortinget.no (parlamento yayını). t: snl.no 7 Haziran 1905 Storting kararı; İsveç tarafında birliğin sonu 26 Ekim 1905 (Oscar II'nin Norveç tacından feragati: 'I Sverige regnes 26. oktober som dagen for unionsoppløsningen'). Atlas Norveç tarafı ölçütünü kullanıyor; iki gün beyan edilmeli.",
@@ -13584,7 +13584,7 @@ window.DEVLETLER = [
     { odak_yer:["Palermo"], t:"1282-03-30", tur:"son", b:"Sicilya Vesperleri: ada Anjou yönetiminden kopar" }
   ]
 },
-{ id:"avusturya-dukaligi", ad:"Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)", tur:"dukalik", bolge:"orta-avrupa",
+{ id:"avusturya-dukaligi", harita:"avusturya", ad:"Avusturya Dükalığı (Babenberg ve II. Ottokar dönemi)", tur:"dukalik", bolge:"orta-avrupa",
   f:"1156-09-17", t:"1276-11-21", baskent:"Viyana", boya_gerekli:true,
   alinti_f:"erst auf dem Reichstage zu Regensburg (17. September 1156) beendigt.",
   alinti_t:"Im Frieden von Wien (21.11.1276), zu dem er auch durch einen Adelsaufstand in Böhmen (angeführt v. Riesenburgern u. Witigonen) gezwungen war, mußte er auf Österreich, Steiermark",
@@ -13966,7 +13966,7 @@ window.DEVLETLER = [
   ]
 },
 // ── ONCE1281-KUNYE-1945-0930-BOSLUK15B (birleştiren KUNYE-1945-0930, 30 Eylül 2026) ──
-{ id:"brandenburg-prusya", ad:"Brandenburg Elektörlüğü (Hohenzollern)", tur:"prenslik", bolge:"orta-avrupa",
+{ id:"brandenburg-prusya", harita:"prusya", ad:"Brandenburg Elektörlüğü (Hohenzollern)", tur:"prenslik", bolge:"orta-avrupa",
   f:"1415-01-01", t:"1701-01-18", baskent:"Berlin-Cölln",
   ic_not_f:"YIL hassasiyeti: HLB 1415 devri YILLA verir; resmî tımar 18 Nisan 1417 (NDB). Kronolojideki 1415-04-30 günü kronoloji_almanya.js'in kendi kaydıdır, dayanak DEĞİL. Brandenburg markı 1415'ten ÇOK eskidir (Askanî 1157) — bu künye yalnız Hohenzollern elektörlüğüdür; 1281-1415 arası ayrı künye ister (ölçülmedi).",
   ic_not_t:"DHM gün verir. Ardıl [[prusya]] f: 1701-01-18 — pencere tutuyor (§3.5 ③). 1701 SONRASI kronoloji maddeleri 'prusya'ya aittir (KRONO-BOSLUK-OLC-0930'a M-5596 ile yazıldı).",
@@ -17627,7 +17627,7 @@ window.DEVLETLER = [
     { odak_yer:["Cizre"], t:"1843-01-01", tur:"felaket", b:"Hakkâri Nasturî (Asurî) Hristiyanlarına yönelik saldırılar (1843; 1846'da tekrar), uluslararası tepki doğurdu.", kaynak:"Wikipedia 'Bedir Khan Beg'; Encyclopaedia Iranica 'Bedir Khan' (okunamadı)" },
     { odak_yer:["İstanbul","Girit"], t:"1847-07-04", tur:"son", b:"Bedirhan Bey Eruh (Evreh) Kalesi'nde teslim oldu, İstanbul'a, sonra Girit'e sürüldü; emirlik eyalet sistemine katıldı.", kaynak:"Wikipedia 'Bedir Khan Beg'; bianet (A. Yılmaz) üç gün direniş" }
   ] },
-{ id:"norvec-1814", ad:"Norveç Krallığı (Eidsvoll)", tur:"kisa-omurlu-krallik", bolge:"kuzey-avrupa", f:"1814-02-19", ic_not_f:"SNL «Christian Frederik»: «Med proklamasjonene av 19. februar tok han enevoldsmakten» — 19 Şubat naiplik, 17 Mayıs Eidsvoll anayasası ve kral seçimi; Christian Frederik 1814-10-10'da tahttan çekildi, 1814-11-04'te Storting birliği kabul etti (gece-116/119, KASA PAZAR 6 Kasım 2026)", t:"1814-11-04", baskent:"Christiania", ozet:"17 Mayıs 1814 Eidsvoll anayasası, Christian Frederik kral; Moss Sözleşmesi 14 Ağustos; Kasım 1814'te İsveç ile birlik (Britannica). t günü (4 Kasım) [g?]. Mevcut norvec-isvec-birligi 1814'te başlar; ikincil.", kaynak:"Store norske leksikon, 'Mossekonvensjonen' ve 'Eidsvollsforsamlingen' (snl.no) — «Avtalen ble inngått 14. august 1814. / Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november»", ic_not:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (Britannica 'Eidsvoll constitution of 1814', 'Convention of Moss') dayanak olamaz, değiştirildi. Eidsvoll anayasası 17 Mayıs 1814; Moss Sözleşmesi 14 Ağustos 1814; Storting İsveç kralını 4 Kasım 1814'te seçti. Uçlar uyumlu (Christian Frederik'in tahtan çekilişi sayfada tarihsiz).", kronoloji:[
+{ id:"norvec-1814", harita:"norvec", ad:"Norveç Krallığı (Eidsvoll)", tur:"kisa-omurlu-krallik", bolge:"kuzey-avrupa", f:"1814-02-19", ic_not_f:"SNL «Christian Frederik»: «Med proklamasjonene av 19. februar tok han enevoldsmakten» — 19 Şubat naiplik, 17 Mayıs Eidsvoll anayasası ve kral seçimi; Christian Frederik 1814-10-10'da tahttan çekildi, 1814-11-04'te Storting birliği kabul etti (gece-116/119, KASA PAZAR 6 Kasım 2026)", t:"1814-11-04", baskent:"Christiania", ozet:"17 Mayıs 1814 Eidsvoll anayasası, Christian Frederik kral; Moss Sözleşmesi 14 Ağustos; Kasım 1814'te İsveç ile birlik (Britannica). t günü (4 Kasım) [g?]. Mevcut norvec-isvec-birligi 1814'te başlar; ikincil.", kaynak:"Store norske leksikon, 'Mossekonvensjonen' ve 'Eidsvollsforsamlingen' (snl.no) — «Avtalen ble inngått 14. august 1814. / Det var dette stortinget som valgte Karl 13 til norsk konge den 4. november»", ic_not:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (Britannica 'Eidsvoll constitution of 1814', 'Convention of Moss') dayanak olamaz, değiştirildi. Eidsvoll anayasası 17 Mayıs 1814; Moss Sözleşmesi 14 Ağustos 1814; Storting İsveç kralını 4 Kasım 1814'te seçti. Uçlar uyumlu (Christian Frederik'in tahtan çekilişi sayfada tarihsiz).", kronoloji:[
     { odak_yer:["Norveç"], t:"1814-05-17", tur:"kurulus", b:"Eidsvoll'da Norveç anayasası kabul edildi; bağımsız Norveç Krallığı ilan edildi.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Norway_(1814) ; https://www.royalcourt.no/artikkel.html?tid=30100" },
     { odak_yer:["Norveç"], t:"1814-05-17", tur:"hukumdar", b:"Prens Christian Frederik Norveç kralı seçildi.", kaynak:"https://en.wikipedia.org/wiki/Kingdom_of_Norway_(1814) ; https://www.royalcourt.no/artikkel.html?tid=30100" },
     { odak_yer:["Norveç"], t:"1814-07-26", tur:"savas", b:"İsveç Kralı XIII. Karl Norveç'e karşı sefer başlattı (Fredriksten, Kjølberg Köprüsü çatışmaları).", kaynak:"Store norske leksikon, «krigen i 1814» https://snl.no/krigen_i_1814 — «Det svenske angrepet blei sett i verk om morgonen 26. juli» ; https://en.wikipedia.org/wiki/Kingdom_of_Norway_(1814) ; https://en.wikipedia.org/wiki/Convention_of_Moss", ic_not_t:"eski gün 1814-07-27; SNL: savaş 26 Temmuz – 14 Ağustos 1814. SNL'ye göre seferi XIII. Karl değil veliaht Karl Johan yönetti — başlık düzeltilmedi (talimat dışı), beyan edildi. 14 Ekim 2026 Emre kararı (TEYIT-KARAR-1014)" },
@@ -21526,7 +21526,7 @@ window.DEVLETLER = [
     { odak_yer:["Grenoble"], t:"1349-03-30", tur:"antlasma", b:"Romans antlaşması: Humbert II Dauphiné'yi Fransa kralının torunu Charles'a (sonra V. Charles) devretmeyi kabul eder; ülke ayrı varlık kalacak", kaynak:"Hérodote.net https://www.herodote.net/30_mars_1349-evenement-13490330.php ; areq.net https://areq.net/lang/fr/1349.html" },
     { odak_yer:["Lyon"], t:"1349-07-16", tur:"son", b:"Lyon'da 'Transport du Dauphiné à la France' senedi imzalanır; Humbert II toprak ve unvanlarını Charles'a bırakır", kaynak:"FOTW Flags of the World 'Dauphiné' https://www.crwflags.com/fotw/flags/fr-dauph.html ; Wikipedia 'Humbert II of Viennois' (ikincil)" }
   ] },
-{ id:"luksemburg-kontlugu", ad:"Lüksemburg Kontluğu", tur:"kontluk", bolge:"bati-avrupa", f:"0963-01-01", t:"1354-03-13", baskent:"Lüksemburg", ozet:"Ardennes kontu Siegfried'in 963'te Trier'deki Saint Maximin manastırından Lucilinburhuc kalesini alması ile kuruldu; kont unvanını ilk alan Conrad (~1060); IV. Karl 1354'te kontluğu üvey kardeşi Wenceslaus'a dükalık olarak yükseltti.", kaynak:"Enciclopedia Italiana, 'Lussemburgo' (treccani.it/enciclopedia/lussemburgo_(Enciclopedia-Italiana)/) — «che egli aveva acquistato nel 963 dall'abbazia di S. Massimino di Treviri. / Questa fu innalzata a ducato nel 1354 da suo figlio, l'imperatore Carlo IV»", ic_not:"DUNYA-1102 hücre 3 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica 'History of Luxembourg' (britannica.com/topic/history-of-Luxembourg);) dayanak olamaz, değiştirildi. Yıllar teyitli (963, 1354); 13 Mart günü kaynakta yok — gün teyitsiz, yıl düzeyinde.", kronoloji:[
+{ id:"luksemburg-kontlugu", harita:"luksemburg-dukaligi", ad:"Lüksemburg Kontluğu", tur:"kontluk", bolge:"bati-avrupa", f:"0963-01-01", t:"1354-03-13", baskent:"Lüksemburg", ozet:"Ardennes kontu Siegfried'in 963'te Trier'deki Saint Maximin manastırından Lucilinburhuc kalesini alması ile kuruldu; kont unvanını ilk alan Conrad (~1060); IV. Karl 1354'te kontluğu üvey kardeşi Wenceslaus'a dükalık olarak yükseltti.", kaynak:"Enciclopedia Italiana, 'Lussemburgo' (treccani.it/enciclopedia/lussemburgo_(Enciclopedia-Italiana)/) — «che egli aveva acquistato nel 963 dall'abbazia di S. Massimino di Treviri. / Questa fu innalzata a ducato nel 1354 da suo figlio, l'imperatore Carlo IV»", ic_not:"DUNYA-1102 hücre 3 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica 'History of Luxembourg' (britannica.com/topic/history-of-Luxembourg);) dayanak olamaz, değiştirildi. Yıllar teyitli (963, 1354); 13 Mart günü kaynakta yok — gün teyitsiz, yıl düzeyinde.", kronoloji:[
     { odak_yer:["Lüksemburg","Trier"], t:"0963-01-01", tur:"kurulus", b:"Kont Siegfried, Trier'deki St Maximin manastırından Lucilinburhuc kalesini alır; Lüksemburg'un çekirdeği", kaynak:"Lüksemburg hükûmeti tarih broşürü (sip.gouvernement.lu, metin okunamadı); Lüksemburg şehri tarihi https://www.luxembourg-city.com/en/plan-your-stay/presentation/history ; vdl.lu https://vdl.lu/en/node/2666" },
     { odak_yer:["Lüksemburg","Frankfurt"], t:"1308-11-27", tur:"hukumdar", b:"Lüksemburg Kontu VII. Henri Frankfurt'ta Alman kralı seçilir", kaynak:"Luxembourg.public.lu 'At the helm of the Holy Roman Empire' https://luxembourg.public.lu/en/society-and-culture/history/helm-holy-roman-empire.html ; Balduineum seçim çizimi kaydı (Wikipedia Commons açıklaması, ikincil)" },
     { odak_yer:["Prag"], t:"1310-08-31", tur:"hukumdar", b:"Kont VII. Henri'nin oğlu Johann Bohemya kralı olur (Elisabeth Přemyslid ile evlilik); hanedan merkezi Prag'a kayar", kaynak:"Medievalists.net 'Wedding of John of Luxembourg and Elisabeth of Premyslides' https://www.medievalists.net/?p=26593 ; lex.dk 'Luxembourgs historie' https://lex.dk/Luxembourgs_historie" },
@@ -24911,7 +24911,7 @@ window.DEVLETLER = [
   boya_gerekli:true,
   ic_not:"VERI-MS1-1281 · DEVLET-LISTESI devri · doğrulama: kismen-okundu · 965 Gero'nun ölümü ve mark bölünmesi (Widukind, Thietmar). [Hafizadan yazildi; doğrulanmadi. Aday kaynak: Lexikon des Mittelalters 'Nordmark'] || TUR2: NDB Albrecht der Bär: 1134 Lothar III Nordmark'ı (Altmark) Albrecht'e lehen verdi -> Nordmark Markgrafı Albrecht; 1134 sonrası Nordmark Askanier eline geçti, Brandenburg'a evrildi. f=965 (Nordmark kuruluşu, Gero ölümünden sonra) ve t=1157 okunmadı.",
   kronoloji:[{ odak_yer:["Salzwedel"], t:"0965-01-01", tur:"kurulus", b:"Kuzey Mark (Nordmark / Sakson Doğu Markı) kuruldu / ilk kaynaklı tanık (kesinlik: {\"f\": \"yil\", \"t\": \"yil\"})", kaynak:"Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html" }, { odak_yer:["Salzwedel"], t:"1157-01-01", tur:"son", b:"Kuzey Mark (Nordmark / Sakson Doğu Markı) sona erdi (kesinlik: {\"f\": \"yil\", \"t\": \"yil\"})", kaynak:"Neue Deutsche Biographie, «Albrecht der Bär», https://www.deutsche-biographie.de/sfz69314.html" }] },
-{ id:"brandenburg-markgrafligi",
+{ id:"brandenburg-markgrafligi", harita:"prusya",
   ad:"Brandenburg Markgraflığı (Askanier, Elektörlük)",
   tur:"markgraflik",
   bolge:"orta-avrupa",
@@ -28809,7 +28809,7 @@ window.DEVLETLER = [
     { odak_yer:["Nagpûr","Elicpûr (Achalpur)"], t:"0540-01-01", b:"Vakataka imparatorluğu dağılır; toprakları Kadamba, Kalachuri ve Nala'ya geçer (c. 540).", tur:"son", onem:3, dunya:2, kapsam:"ic", etiket:["konu-siyasi"], yer:"Vidarbha", taraflar:["vakataka"], d:"Altekar'a göre Harishena'nın zayıf halef(ler)i döneminde Kadambalar, Kalachuriler ve Nalalar imparatorluğun çoğu topraklarını emdi; c. 550'ye gelindiğinde Chalukyalar büyük kısmı işgal etmişti.", kaynak:"Altekar, The Vakataka-Gupta Age, s. 125: 'The Vakataka empire thus disappeared by c. 540, because the Kadambas of Karnataka, the Kalachuris of Northern Maharashtra and the Nalas of Bastar state managed to absorb most of its territories during the weak rule of the successor (or successors) of Hari-shena.'", gun:"c. 540 (yaklaşık; 'by c. 540')", kesinlik:"onyil", ic_not:"Altekar 'by c. 540' der (en geç); s. 123 'By c. 550 A.D. the Chalukyas occupied the greater part of it'." }
   ] },
 // ===== AVRUPA2 KÜNYE BLOĞU (24 Ekim 2026): avusturya-marki, hirvat-dukalik, bohemya-dukaligi, orta-francia =====
-{ id:"avusturya-marki", ad:"Avusturya Markı (Babenberg Doğu Markı, Ostarrichi)", tur:"mark", bolge:"orta-avrupa", f:"0976-01-01", t:"1156-09-17", baskent:"Melk",
+{ id:"avusturya-marki", harita:"avusturya", ad:"Avusturya Markı (Babenberg Doğu Markı, Ostarrichi)", tur:"mark", bolge:"orta-avrupa", f:"0976-01-01", t:"1156-09-17", baskent:"Melk",
   ozet:"Otto II'nin 976'da Babenberg'li Leopold'u Doğu Mark'a atamasıyla başlayan, Melk merkezli sınır markı; 17 Eylül 1156'da Regensburg Reichstag'ında dükalığa yükseltilince Avusturya Dükalığı'na dönüştü.",
   kaynak:"Neue Deutsche Biographie 14 (1985), 'Leopold I.' (W. Koch) ve ADB 18 (1883) (deutsche-biographie.de/sfz50430.html); Enciclopedia Italiana 'Austria' — «Gegenwärtig gilt als der Zeitpunkt, zu welchem L. in den Besitz der Ostmark gelangte, das J. 976 (ADB) / divenne ducato dipendente solo dal regno nel 1156 (Treccani)»",
   kesinlik:{f:"yil",t:"gun"}, boya_gerekli:true,
@@ -28831,7 +28831,7 @@ window.DEVLETLER = [
     { odak_yer:["Zadar (Zara)","Klis"], t:"0879-01-01", b:"Branimir, Bizans yanlısı Zdeslav'ı devirerek Hırvat dükü oldu", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic", etiket:["konu-siyasi"], yer:"Dalmaçya", taraflar:["hirvat-dukalik"], d:"Branimir Mayıs 879'da Zdeslav'ı devirdi; papaya bağlılık bildirdi, Hırvatistan'ın bağımsız devlet olarak tanınmasını sağladı. Ay kaynaklı, gün yok; yalnız yıl yazıldı.", kaynak:"Hrvatska enciklopedija, 'Branimir': 'svrgnuo probizantskog kneza Zdeslava u svibnju 879.' Gün yok." },
     { odak_yer:["Klis","Solin"], t:"0914-01-01", b:"Tomislav Hırvat dükü (dux) olarak anıldı", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic", etiket:["konu-siyasi"], yer:"Dalmaçya", taraflar:["hirvat-dukalik"], d:"Toma Arhiđakon, Tomislav'ı 914'te dux diye anar; Hrvatska enciklopedija bunu hakkındaki tek tam güvenilir veri sayar. Krallık unvanı 925 Split sinoduyla bağlantılıdır (taç giyme tezi reddedilmiştir).", kaynak:"Hrvatska enciklopedija, 'Tomislav': knez (dux) 914. Yalnız yıl." }
   ] },
-{ id:"bohemya-dukaligi", ad:"Bohemya Dükalığı (Přemyslid)", tur:"dukalik", bolge:"orta-avrupa", f:"0873-01-01", t:"1198-01-01", baskent:"Prag",
+{ id:"bohemya-dukaligi", harita:"bohemya", ad:"Bohemya Dükalığı (Přemyslid)", tur:"dukalik", bolge:"orta-avrupa", f:"0873-01-01", t:"1198-01-01", baskent:"Prag",
   ozet:"Přemyslid hanedanının yönettiği, Kutsal Roma'ya bağlı Bohemya Dükalığı; Prag merkezli. Bořivoj'un vaftizinin anıldığı c. 873'ten, I. Přemysl Ottokar'ın 1198'de kral tacı giymesine dek.",
   kaynak:"Enciclopedia Italiana, 'Boemia' (treccani.it/enciclopedia/boemia_(Enciclopedia-Italiana)/) — «la corona regia ereditaria (1198) / dopo l'880 fu battezzato da Metodio insieme con sua moglie Ludmila»",
   kesinlik:{f:"onyil",t:"yil"}, boya_gerekli:true,
