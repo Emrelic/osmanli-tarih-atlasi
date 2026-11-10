@@ -72,8 +72,8 @@ for f in sorted(glob.glob(os.path.join(ARA, 'arastirma_*.json'))):
 def js(v): return json.dumps(v, ensure_ascii=False)
 satir = []
 for e, _ in kabul:
-    # denetle.py her dönemde 't' bekler; atlas sözleşmesi: açık uç = "2000-01-01" (bkz. Ankara 1923→2000)
-    bit = lambda r: '2000-01-01' if r.get('t') in (None, 'null', '') or gk(r['t']) > 20000101 else r['t']
+    # denetle.py her dönemde 't' bekler; atlas sözleşmesi: açık uç = "2000-12-31" (degismez1 2000-06-15 kesitini de örnekler; zincir64 ile aynı)
+    bit = lambda r: '2000-12-31' if r.get('t') in (None, 'null', '') or gk(r['t']) > 20000101 else r['t']
     s = ',\n   '.join('{f:%s,t:%s,d:%s,kaynak:%s}' % (js(r['f']), js(bit(r)), js(r['d']), js(r['kaynak'] + ' [KAYNAK OKUNMADI/teyit bekliyor — YERLESIM-SAHNE-1108]')) for r in e['s'])
     satir.append('{ ad:%s, tur:"sehir", lat:%s, lon:%s, g:0, k:3,%s\n s:[%s],\n kaynak:%s },' % (
         js(e['ad']), e['lat'], e['lon'], '' if e.get('_kur_at') else ' kur:%s,' % js(e['kur']), s,
