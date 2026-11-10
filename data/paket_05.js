@@ -2910,7 +2910,7 @@ window.DEVLETLER = [
 // künyenin ömrünün (1500-1923) ÖNCESİNDE de (1281-1500, Mogadişu noktası)
 // kullanılıyordu. ⚠️ `mogadisu` slug'ı TDV'de CANLI ama İÇERİĞİ BOŞ/yönlendirme
 // — asıl madde `makdisu` slug'ındadır, oradan alındı.
-{ id:"makdisu-sultanligi", ad:"Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)", tur:"sultanlik", bolge:"dogu-afrika",
+{ id:"makdisu-sultanligi", harita:"somali", ad:"Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)", tur:"sultanlik", bolge:"dogu-afrika",
   f:"1269-01-01", t:"1500-01-01", baskent:"Makdişu (Mogadişu)",
   ic_not_f:"1281 → 1269 GENİŞLETME (ONCE1281 yeniden deneme, 18 Ekim 2026). Kanıt: Fahreddin Camii (Hamar Weyne) kitabesi 1269 tarihli; N. Chittick, 'Mediaeval Mogadishu' (Paideuma 1976; JSTOR 41409873): cami bu hanedan döneminde kurulmuş sayılır, hanedan 'Yâkūt (~1230) ile 1269 arasında' kurulmuş olmalıdır; IRCICA İslâm Mimari Mirası envanteri (no. 252-1-1, XIII. yy ikinci yarısı) ve Britannica 'Mogadishu' (kentin kökeni X. yy) uyumlu. f=1269-01-01 EN GEÇ sınırdır (kitabe yılı; ay/gün kaynakta yok; 667 H ∩ 1269 ⇒ kesişimin ilk günü). Gerçek kuruluş yılı BULUNAMADI. Şartnamedeki '1238 kitabesi' DOĞRULANAMADI: erişilen kaynaklar Arba'a Rukun ve Fahreddin kitabelerini 667 H/1268-69 verir, 1238 yok. Yerlesimler s: dönemi (Mogadişu 1281'den) bu turda DEĞİŞMEDİ; 1269-1281 arası motor ufku dışındadır.",
   ozet:"Ebû Bekir b. Fahreddin'in VII. (XIII.) yüzyılda Makdişu'da kurduğu küçük sultanlık; İbn Battûta 1331'de (Sultan Ebû Bekir b. Ömer döneminde) şehri ziyaret etti. XVI. yüzyılda yönetim Muzaffer sülâlesinin eline geçti (bkz. [[somali]] — Ecuran/Ajuran'ın yükselişiyle örtüşür). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır — TDV yalnız \"XIII. yüzyıl\" diyor, kesin yıl yok. (kaynak: TDV, madde: makdisu)",
@@ -7164,7 +7164,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"tibet", ad:"Tibet (Phagmodrupa · Rinpungpa · Tsangpa)", tur:"devlet", bolge:"dogu-asya",
-  f:"1354-01-01", t:"1642-01-01", baskent:"Nêdong → Şigatse", harita:"tibet",
+  f:"1354-01-01", t:"1642-01-01", baskent:"Nêdong → Şigatse", harita:"tibet-ganden-phodrang",
   ozet:"Yuan vesâyetinin çözülmesinden sonra Tibet'i sırayla yöneten üç yerli hânedanın dönemi; Gûşi Han'ın müdahalesiyle iktidar Dalai Lama hükûmetine geçti (bkz. [[tibet-ganden-phodrang]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7518,7 +7518,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"angkor-kmer", ad:"Kmer (Angkor) İmparatorluğu", tur:"imparatorluk", bolge:"guneydogu-asya",
-  f:"0802-01-01", t:"1431-01-01", ic_not_t:"t 1431: Coedès (The Indianized States of Southeast Asia, Bölüm XIV §1: 1431'de başkentin terki kararı) · karşı kaynak TDV «Kamboçya»: Kimer İmparatorluğu'nun komşu devletlerce 1432'de ortadan kaldırılması (islamansiklopedisi.org.tr/kambocya) · Nhim, Factors that Led to the Change of the Khmer Capitals, Sophia Univ. Bulletin 2015: 1431 yalnız Ayutthaya Yıllıkları'na dayanır, Khmer yıllıkları anmaz. HÜKÜM: Khmer İslâm dünyası dışındadır, TDV-esas kuralı uygulanmaz; akademik kaynak belirler → t 1431-01-01 (kesinlik yıl) kalır; Vickery 1977 ile üçüncü teyit bekliyor (UMIT TOP100-1103 78-angkor-kmer.md, KASA 4 Kasım 2026)", ic_not_f:"802 = II. Jayavarman'ın Kulen dağında cakravartin olarak kutsanması (Sdok Kak Thom yazıtına dayanan standart tarih; Coedès, Chandler). Gün yok. f:'1281-01-01' eski değer motor penceresinin alt ucuydu (sınıf ②: aynı polity sürüyor → GENİŞLET). ⚠️ TDV kambocya yıkılışı 1432 der, künye t:1431 — küçük fark, t'ye dokunulmadı (kuşak dışı).", baskent:"Angkor (Yasodharapura)", harita:"angkor-kmer",
+  f:"0802-01-01", t:"1431-01-01", ic_not_t:"t 1431: Coedès (The Indianized States of Southeast Asia, Bölüm XIV §1: 1431'de başkentin terki kararı) · karşı kaynak TDV «Kamboçya»: Kimer İmparatorluğu'nun komşu devletlerce 1432'de ortadan kaldırılması (islamansiklopedisi.org.tr/kambocya) · Nhim, Factors that Led to the Change of the Khmer Capitals, Sophia Univ. Bulletin 2015: 1431 yalnız Ayutthaya Yıllıkları'na dayanır, Khmer yıllıkları anmaz. HÜKÜM: Khmer İslâm dünyası dışındadır, TDV-esas kuralı uygulanmaz; akademik kaynak belirler → t 1431-01-01 (kesinlik yıl) kalır; Vickery 1977 ile üçüncü teyit bekliyor (UMIT TOP100-1103 78-angkor-kmer.md, KASA 4 Kasım 2026)", ic_not_f:"802 = II. Jayavarman'ın Kulen dağında cakravartin olarak kutsanması (Sdok Kak Thom yazıtına dayanan standart tarih; Coedès, Chandler). Gün yok. f:'1281-01-01' eski değer motor penceresinin alt ucuydu (sınıf ②: aynı polity sürüyor → GENİŞLET). ⚠️ TDV kambocya yıkılışı 1432 der, künye t:1431 — küçük fark, t'ye dokunulmadı (kuşak dışı).", baskent:"Angkor (Yasodharapura)", harita:"kamboc-kralligi",
   ozet:"Anıtsal tapınakları ve su mühendisliğiyle Güneydoğu Asya'nın en büyük klasik devleti; Ayutthaya baskısıyla Angkor terk edilince ardılı Kamboçya Krallığı'na dönüştü (bkz. [[kamboc-kralligi]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
