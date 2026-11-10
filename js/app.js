@@ -8547,7 +8547,10 @@ var dunyaAcik = localStorage.getItem("dunyaAc") === "1";
 // Değer "0" kapalı · "5" · "4" · "3". Değişince sayfa yenilenir (`olaylar` sabit dizi).
 // Adres `?dunya=` · localStorage `dunyaEsik`.
 var DUNYA_ESIK_DEGERLER = ["0", "5", "4", "3"];
-var DUNYA_ESIK_VARSAYILAN = "5";
+// 🆕 10 Kasım 2026 (Emre): VARSAYILAN KAPALI — Osmanlı listesi açılışta yalnız Osmanlı'nın
+// kendi maddelerini gösterir; dünya/bölgesel olaylar ⚙ Ayarlar'dan açılınca araya dağılır.
+// Aynı eşikler seçili HER devletin listesine de uygulanır (`yabanciMaddeler`).
+var DUNYA_ESIK_VARSAYILAN = "0";
 var dunyaEsik = (function () {
   var u = new URL(window.location.href).searchParams.get("dunya");
   if (u !== null && DUNYA_ESIK_DEGERLER.indexOf(u) >= 0) return u;
@@ -8873,6 +8876,14 @@ olaylar.forEach(function (o, i) {
     dRozet.style.cssText = "font-size:.72em;opacity:.8;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
     div.lastChild.appendChild(dRozet);
   }
+  if (o._bolgeKaynak) {                          // seçili devletin bölgesindeki komşu künyeden (⚙ Bölgesel olaylar)
+    var bRozet = document.createElement("span");
+    bRozet.className = "o-dunya-rozet";
+    bRozet.textContent = "🧭 " + o._bolgeKaynak[0] + (o._bolgeKaynak.length > 1 ? " +" + (o._bolgeKaynak.length - 1) : "");
+    bRozet.title = "Bölgesel olay — ⚙ Ayarlar › Bölgesel olaylar · kronoloji: " + o._bolgeKaynak.join(", ");
+    bRozet.style.cssText = "font-size:.72em;opacity:.8;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
+    div.lastChild.appendChild(bRozet);
+  }
   var duyguSpan = duyguSpanUret(o);
   if (duyguSpan) div.lastChild.appendChild(duyguSpan);
   // hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA
@@ -9145,7 +9156,7 @@ function sehirKronAyarla(gizli) {
 // "3" (8 Kasım 2026): `bolge` puanı veride artık var — komşu beylik/Memlük/İran olayları
 // çoğunlukla 3 aldı; "4 ve üstü" ile "hepsi" arasında ara basamak.
 var DIS_ESIK_DEGERLER = ["0", "5", "4", "3", "hepsi"];
-var DIS_ESIK_VARSAYILAN = "4";
+var DIS_ESIK_VARSAYILAN = "0";   // 10 Kasım 2026 (Emre): açılışta kapalı; bkz. DUNYA_ESIK_VARSAYILAN
 var DIS_ISTISNA_ACIK = true;
 var disEsik = DIS_ESIK_VARSAYILAN;
 var _disOnbellek = null;
@@ -18080,6 +18091,82 @@ function kronoTemsilEdiliyor(k, derin) {
     return cikti;
   }
 
+  // 🆕 10 Kasım 2026 (Emre): "bölgesel 5 / dünya 5 ayarı yapıldığında … 5 önemdeki olaylar
+  // [seçili devletle] beraber araya dağıtılmış şekilde gösterime girecek; tüm dünya için geçerli."
+  // ⚙ Ayarlar'daki iki eşik (Bölgesel `dis-esik` · Dünya `dunya-esik`, varsayılan KAPALI)
+  // Osmanlı listesine olduğu gibi, seçili HER künyenin listesine de başka künyelerden madde
+  // katar: ① dünya — `dunya` puanı ≥ dünya eşiği (tüm KRONOLOJI_* + OLAYLAR dış maddeleri),
+  // ② bölgesel — AYNI `bolge`deki öteki künyelerin maddeleri, `bolge`/`onem` puanı ≥ bölgesel
+  // eşik ("hepsi" burada 3 sayılır: binlerce madde listeyi boğardı). Yalnız seçili künyenin
+  // [f,t] penceresine düşenler; künyenin kendi maddesiyle aynı olay (`_dunyaAyniOlay`) eklenmez.
+  var _yabanciOnbellek = {};
+  function yabanciMaddeler(d) {
+    if (!d || d.id === "arkeoloji") return [];
+    var bolgeEsik = (disEsik === "hepsi") ? 3 : +disEsik;
+    if (!dunyaEsikSayi && !(bolgeEsik > 0)) return [];
+    var anahtar = d.id + "|" + dunyaEsikSayi + "|" + bolgeEsik;
+    if (_yabanciOnbellek[anahtar]) return _yabanciOnbellek[anahtar];
+    var f = d.f ? gunIdx(d.f) : -Infinity, t = d.t ? gunIdx(d.t) : Infinity;
+    var kendi = {};
+    (d.kronoloji || []).forEach(function (m) {
+      if (!m || !m.t) return;
+      var a = _dunyaAnahtar(m);
+      (kendi[a] || (kendi[a] = [])).push(m);
+    });
+    var adIx = {};
+    (window.DEVLETLER || []).forEach(function (x) { adIx[x.id] = x.ad; });
+    var gor = {}, out = [];
+    function al(m, kapsam, ad, alan) {
+      if (!m || !m.t || !m.b) return;
+      if (!/^[+-]?\d+-\d{2}-\d{2}$/.test(m.t)) return;
+      var g = gunIdx(m.t);
+      if (g < f || g > t) return;
+      if (window.KaynakDamga && window.KaynakDamga.gizli(m)) return;
+      var a = _dunyaAnahtar(m);
+      if (kendi[a] && kendi[a].some(function (o) { return _dunyaAyniOlay(o, m); })) return;
+      if (gor[a]) {
+        if (gor[a][alan].indexOf(ad) < 0) gor[a][alan].push(ad);
+        return;
+      }
+      var c = Object.assign({}, m, { kapsam: kapsam, gi: g });
+      c[alan] = [ad];
+      gor[a] = c; out.push(c);
+    }
+    if (dunyaEsikSayi) {
+      Object.keys(window).filter(function (k) {
+        return /^KRONOLOJI_[A-Z0-9_]+$/.test(k) && Array.isArray(window[k]);
+      }).sort().forEach(function (k) {
+        window[k].forEach(function (m) {
+          if (!m || !dunyaPuanGecer(m)) return;
+          var ids = m.taraflar || m.devletler || (m.devlet ? [m.devlet] : []), ad = "Dünya";
+          for (var j = 0; j < ids.length; j++) if (adIx[ids[j]]) { ad = adIx[ids[j]]; break; }
+          if (ad === "Dünya") ad = adIx[k.slice(10).toLowerCase().replace(/_/g, "-")] || "Dünya";
+          al(m, "dunya", ad, "_dunyaKaynak");
+        });
+      });
+      olaylar.forEach(function (m) {
+        if (m.kapsam === "dis" && dunyaPuanGecer(m)) al(m, "dunya", "Dünya", "_dunyaKaynak");
+      });
+    }
+    if (bolgeEsik > 0 && d.bolge) {
+      (window.DEVLETLER || []).forEach(function (x) {
+        if (x.id === d.id || x.bolge !== d.bolge || !x.kronoloji) return;
+        var xf = x.f ? gunIdx(x.f) : -Infinity, xt = x.t ? gunIdx(x.t) : Infinity;
+        if (xt < f || xf > t) return;                       // yaşam pencereleri hiç kesişmiyor
+        x.kronoloji.forEach(function (m) {
+          var p = (typeof m.bolge === "number") ? m.bolge : (typeof m.onem === "number" ? m.onem : null);
+          if (p === null || p < bolgeEsik) return;
+          al(m, "dis", x.ad, "_bolgeKaynak");
+        });
+      });
+    }
+    _yabanciOnbellek[anahtar] = out;
+    return out;
+  }
+  disEsikEl && disEsikEl.addEventListener("change", function () {
+    if (ODAK) { render(); odakOzetYaz(); }
+  });
+
   function birlesikTopla() {
     var out = [];
     var odakKaynak = ODAK ? ODAK.kronoloji : olaylar;   // `olaylar`: Osmanlı'nın 821 maddesi
@@ -18088,6 +18175,9 @@ function kronoTemsilEdiliyor(k, derin) {
     odakKaynak.forEach(function (m) {
       var gi = m.gi !== undefined ? m.gi : gunIdx(m.t);
       out.push({ gi: gi, t: m.t, b: m.b, d: odakSahibi, m: m, odak: true });
+    });
+    if (ODAK) yabanciMaddeler(ODAK).forEach(function (m) {   // global Bölgesel/Dünya eşikleri
+      out.push({ gi: m.gi, t: m.t, b: m.b, d: odakSahibi, m: m, odak: true });
     });
     EK_SECILI.forEach(function (id) {
       if (id === "osmanli") {
@@ -18297,7 +18387,7 @@ function kronoTemsilEdiliyor(k, derin) {
     //   `onem` 1317 maddenin 53'ünde var (ölçüldü) ve orada zaten AYRI bir
     //   konu süzgeci çalışıyor (`suzgecSecim`). İki süzgeci aynı listeye
     //   bağlamak, hangisinin elediği sorulamaz hâle getirirdi.
-    var kaynak = odakSuz(d.kronoloji);
+    var kaynak = odakSuz(d.kronoloji).concat(yabanciMaddeler(d));   // + global Bölgesel/Dünya eşikleri
     // `odakSirali` ÇİZİLENİN KENDİSİ (süzülmüş + sıralı) — ⏭/⏮ ve "geçmiş"
     // vurgusu bunu okur. Eski sarmalayıcı SÜZÜLMEMİŞ listeyi DOM'la indeks
     // indeks eşliyordu ⇒ süzgeç açıkken vurgu kayıyordu.
@@ -18315,7 +18405,9 @@ function kronoTemsilEdiliyor(k, derin) {
       ufukDisiIsaretle(el, o.gi);
       el.innerHTML = '<span class="olay-tarih">' + kisaTarihYazi(m).replace(/</g, "&lt;")
         + '</span> <span class="olay-baslik">' + (m.b || "").replace(/</g, "&lt;")
-        + "</span>";
+        + "</span>"
+        + (m._dunyaKaynak ? ' <span class="o-dunya-rozet" title="Dünya olayı — ⚙ Ayarlar › Dünya olayları eşiği" style="font-size:.72em;opacity:.8;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap">🌍 ' + m._dunyaKaynak[0].replace(/</g, "&lt;") + (m._dunyaKaynak.length > 1 ? " +" + (m._dunyaKaynak.length - 1) : "") + "</span>"
+          : m._bolgeKaynak ? ' <span class="o-dunya-rozet" title="Bölgesel olay — ⚙ Ayarlar › Bölgesel olaylar" style="font-size:.72em;opacity:.8;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap">🧭 ' + m._bolgeKaynak[0].replace(/</g, "&lt;") + (m._bolgeKaynak.length > 1 ? " +" + (m._bolgeKaynak.length - 1) : "") + "</span>" : "");
       el.addEventListener("click", function () { gezGit(o); });
       // H-79:14 — sağ tık kopyala menüsü devlet kronolojisinde HİÇ bağlı değildi
       // (ölçüldü: Moskova satırında menü YOK); Osmanlı satırlarının AYNI menüsü.
