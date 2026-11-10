@@ -64,14 +64,17 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # Timur Halep, Ugra, Şarlken'in çekilmesi, Romanov, Sarı Sular, Austerlitz, Kanlı Pazar, Rıza Han, Kutsal
 # İttifak, Zweibund) + 1 arayüz gün kalıbı. Çeviri işleri Emre'nin 4 Kasım kararıyla bekliyor.
 # Eski değerler: eksik arayüz 12, olay en/ar/es/de 285, pt 1402, ru 3499, fr 4399.
+# 11 Kasım 2026 (OSMANLI-LISTE-ONEM): tavan AÇILDI — arayüz eksik 13 -> 17: ⚙ Ayarlar'da iki etiket
+# yeniden yazıldı (Bölgesel olaylar · Dünya olayları eşiği; 4 dizge). Çeviri işleri Emre'nin 4 Kasım
+# kararıyla bekliyor. Eski değer: eksik arayüz 13.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 13, "devlet": 1, "olay": 296},
-    "ar": {"arayuz": 13, "devlet": 1, "olay": 296},
-    "es": {"arayuz": 13, "devlet": 1, "olay": 296},
-    "de": {"arayuz": 13, "devlet": 1, "olay": 296},
-    "pt": {"arayuz": 13, "devlet": 1, "olay": 1413},
-    "ru": {"arayuz": 13, "devlet": 1, "olay": 3510},
-    "fr": {"arayuz": 13, "devlet": 1, "olay": 4410},
+    "en": {"arayuz": 17, "devlet": 1, "olay": 296},
+    "ar": {"arayuz": 17, "devlet": 1, "olay": 296},
+    "es": {"arayuz": 17, "devlet": 1, "olay": 296},
+    "de": {"arayuz": 17, "devlet": 1, "olay": 296},
+    "pt": {"arayuz": 17, "devlet": 1, "olay": 1413},
+    "ru": {"arayuz": 17, "devlet": 1, "olay": 3510},
+    "fr": {"arayuz": 17, "devlet": 1, "olay": 4410},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
