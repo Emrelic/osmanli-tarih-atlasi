@@ -17401,6 +17401,36 @@ function kronoTemsilEdiliyor(k, derin) {
       if (indi && yonlenen[anahtar]) yonIndi[anahtar]++;
     });
   });
+  // 🆕 Emre (10 Kasım 2026): "ortamda künyesi olmayan kronoloji maddesi kalmasın." `OLAYLAR*`taki
+  // dış (kapsam:"dis") maddeler Osmanlı listesinde durur ama sahibi olan künyede YOKTU
+  // (3109 dış maddenin 2637'si hiçbir künyede görünmüyordu). Eşleme `window.OLAY_TARAF`
+  // (data/olay_taraf.js): { "<t>|<b>": ["künye-id", …] } — madde dosyalarına dokunulmaz.
+  // Aynı pencere sınavı ve aynı mükerrer kuralı (t+b) uygulanır; aşağıdaki sayaçlar BASILIR.
+  var olayTaraf = window.OLAY_TARAF || {}, olayEklenen = 0, olayEslesen = 0;
+  if (window.OLAY_TARAF) olaylar.forEach(function (m) {
+    if (m.kapsam !== "dis") return;
+    var ids = olayTaraf[m.t + "|" + m.b];
+    if (!ids) return;
+    olayEslesen++;
+    var mg = kronoGun(m.t);
+    ids.forEach(function (id) {
+      var d = ix[id];
+      if (!d) { eslenmeyen[id] = (eslenmeyen[id] || 0) + 1; return; }
+      // `t` yok = devlet ufuktan sonra da sürüyor (açık uç): `mg > null` tuzağı pencereyi yanlış kapatırdı.
+      var fg = kronoGun(d.f), tg = kronoGun(d.t);
+      if (mg === null) olculemedi++;
+      else if ((fg !== null && mg < fg) || (tg !== null && mg > tg)) {
+        pencereDisi.push("OLAY_TARAF " + m.t + " → " + id + " [" + d.f + ", " + d.t + "]");
+        return;
+      }
+      if (!dokunulan[id]) { d.kronoloji = (d.kronoloji || []).slice(); dokunulan[id] = true; }
+      if (d.kronoloji.some(function (o) { return o.t === m.t && o.b === m.b; })) return;
+      d.kronoloji.push(m); eklenen++; olayEklenen++;
+    });
+  });
+  if (window.OLAY_TARAF)
+    console.log("Atlas: OLAY_TARAF — " + olayEslesen + " dış madde eşlendi, " + olayEklenen +
+                " madde × künye çifti künye kronolojisine indi");
   Object.keys(dokunulan).forEach(function (id) {
     ix[id].kronoloji.sort(function (a, b) { return String(a.t) < String(b.t) ? -1 : String(a.t) > String(b.t) ? 1 : 0; });
   });
