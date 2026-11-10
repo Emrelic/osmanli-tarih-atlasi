@@ -17795,6 +17795,26 @@ function kronoTemsilEdiliyor(k, derin) {
     nasil.className = "dss-nasil";
     nasil.textContent = "Satıra tıkla → ODAK yap · “+ ek” → kronolojisini havuza kat (birden çok seçilebilir)";
     secListe.appendChild(nasil);
+    // 🌍 TÜM DÜNYA — ACILIS-MADDESI-1110 (Emre, 10 Kasım 2026): "harita açıldıktan
+    // sonra tüm dünya kronolojisini seçmek isterse tüm dünya kronolojisi seçeneği
+    // açılsın, tüm dünya maddeleri sıralansın." Yeni bir mekanizma DEĞİL: aramayı
+    // boşaltıp "Tümünü seç"i koşturur (bütün kronolojiler EK; dünya önemi eşiği
+    // `#ek-dunya-esik`ten, varsayılan 4 — süzgeçsiz 1771 kronoloji bir seldir).
+    // Ölçülen bedel ~1 sn (content-visibility ölçümü, style.css) ⇒ ağır adım göstergesiyle.
+    var dunyaSatir = document.createElement("div");
+    var dunyaHepsi = (function () {
+      var odakId = ODAK ? ODAK.id : "osmanli";
+      var ids = tumSatirlar().filter(function (d) { return d.id !== "osmanli" && d.id !== odakId; });
+      return ids.length && ids.every(function (d) { return EK_SECILI.indexOf(d.id) >= 0; });
+    })();
+    dunyaSatir.className = "devlet-secici-satir dss-dunya" + (dunyaHepsi ? " secili-ek" : "");
+    dunyaSatir.textContent = dunyaHepsi ? "🌍 Tüm dünya seçili — kaldırmak için tıklayın" : "🌍 Tüm dünya kronolojisi";
+    dunyaSatir.setAttribute("data-ipucu", "Bütün devletlerin kronolojilerini listeye katar; ek devletlerde yalnız aşağıdaki dünya önemi eşiğini geçen maddeler görünür.");
+    dunyaSatir.addEventListener("click", function (ev) {
+      if (secAra && secAra.value) secAra.value = "";
+      if (typeof agirAdim === "function") agirAdim(ev, tumunuSec); else tumunuSec();
+    });
+    secListe.appendChild(dunyaSatir);
     if (ODAK || EK_SECILI.length) {
       var sif = document.createElement("div");
       sif.className = "devlet-secici-satir dss-sifirla";
@@ -18121,8 +18141,14 @@ function kronoTemsilEdiliyor(k, derin) {
       }
       return en;
     },
-    git: function (o) { gezGit(o); }
+    git: function (o) { gezGit(o); },
+    // ACILIS-MADDESI-1110 — açılış maddesi aynı gündeki maddeler arasından seçer (js/acilis.js).
+    liste: function () { return gezListesi() || []; }
   };
+  // ACILIS-MADDESI-1110 — açılışta odak devleti kullanıcının tıklamasıyla AYNI
+  // yoldan kurulur (satırTikla: panel, kart, vurgu, liste birlikte); ikinci bir
+  // odak mekanizması yok. "osmanli" = ana kronoloji.
+  window.ODAK_AYARLA = function (id) { satirTikla(id); };
   function birlesikCiz() {
     birlesikListe = birlesikTopla();
     gezI = -1;                                  // liste yeniden kuruldu: eski indeks bayat

@@ -6,7 +6,7 @@
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r14990";</script>
-<link rel="stylesheet" href="css/style.css?v=r14539992">
+<link rel="stylesheet" href="css/style.css?v=r23574490">
 </head>
 <body>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
@@ -2262,9 +2262,9 @@
      app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
      data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
-<script src="data/ceviri_dizin.js?v=r264830521"></script>
+<script src="data/ceviri_dizin.js?v=r191567816"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r168430194"></script>
+<script src="js/app.js?v=r147662471"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2312,5 +2312,7 @@
 <script src="data/tur_siniflari.js?v=r197039638"></script>  <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
 <script src="js/tanitim.js?v=r124987837"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="data/acilis_tablosu.js?v=r58526148"></script>  <!-- AÇILIŞ TABLOSU — ülke → devlet + gün + gerekçe (js/acilis.js okur) -->
+<script src="js/acilis.js?v=r148365896"></script>  <!-- AÇILIŞ MADDESİ (ACILIS-MADDESI-1110) — ülkeye göre odak + gün; ?acilis=XX dener, ?acilis=yok kapatır; app.js SONRASI -->
 </body>
 </html>

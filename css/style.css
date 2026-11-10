@@ -128,6 +128,8 @@
 #ob-kaynakca .kc-c { color: #c62828; }
 /* ARAYUZ-0077-B · H-79:16 — devlet seçicide "↺ Yalnız Osmanlı" sıfırlama satırı */
 .devlet-secici-satir.dss-sifirla { font-style: italic; border-bottom: 1px solid var(--altin); }
+/* ACILIS-MADDESI-1110 — "🌍 Tüm dünya kronolojisi" satırı: seçicinin en üstünde, belirgin. */
+.devlet-secici-satir.dss-dunya { font-weight: 600; border-bottom: 1px solid var(--altin); }
 /* Emre 27 Eyl: "ek devlet ilan edemiyorum" — rol artık görünür düğmeden */
 .dss-havuz {
   position: sticky; top: 0; z-index: 1;
