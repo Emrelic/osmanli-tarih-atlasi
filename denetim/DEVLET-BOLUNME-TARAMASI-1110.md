@@ -35,3 +35,13 @@ Tartışmalı: Eyyûbî ana künye + Halep/Hama/Hısnıkeyfa/Yemen kolları ayr�
 ## 4. Künye ömrü aşımı (bilinen borç, `BEKLENEN_ASAN`)
 40 künye, 286 dönem künye f/t dışına taşıyor. En büyükleri: zend (102, künye f 1751 / dönem 1747), adal (36), somali (21), napoli (14), umman (14).
 Yeni sayı değil, mevcut tavanın içeriği; yalnız `fransa`/Monako kapatıldı.
+
+## 5. Bölge bölge tarama (2. tur) ve UYGULANAN birleştirmeler
+Bölgeler: Britanya, İber, Fransa, İtalya, İskandinavya, Almanya+Avusturya+Macaristan+Polonya, Polonya-Ukrayna-Belarus-Baltık,
+Anadolu, Arabistan+Levant+Irak, İran, Hindistan (`denetim/bolge_zaman.py`; `d:`/`v:` Osmanlı dahil).
+Sonuç: aynı anda "tek devlet çok renk" gerçek hatası yok. Gereksiz ad-atlaması 14 künye `harita:` ortak anahtarına bağlandı
+(`denetim/birlestir_harita_1110.py`): isvec-birlik-oncesi→isvec, moskova→rusya, floransa→toskana, savoya→sardinya,
+brandenburg-markgrafligi/brandenburg-prusya→prusya, nguyen-beyligi→nguyen-hanedani, luksemburg-kontlugu→luksemburg-dukaligi,
+visconti→milanoduka, avusturya-marki/avusturya-dukaligi→avusturya, bohemya-dukaligi→bohemya, norvec-1814/norvec-isvec-birligi→norvec.
+Bilerek birleştirilmeyen: makdisu→somali, tibet, angkor→kamboç, Eyyûbî kolları, Tuareg, kiev-knezligi-litvanya, Portekiz (İber birliği).
+Harita değişimi HAVVA koşusundan sonra görünür. Ölçülemeyenler: ad kökü ortak olmayan çiftler, üretilmiş haritanın gözle kontrolü.
