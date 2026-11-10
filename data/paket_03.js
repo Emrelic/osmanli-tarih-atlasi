@@ -515,7 +515,7 @@ window.OLAYLAR_EK16 = [
   d:"İspanyol Veraset Savaşı'nı Fransa ile Avusturya arasında sona erdiren Rastatt Antlaşması 7 Mart 1714'te imzalandı (Utrecht 1713'te İngiltere-Fransa arasını düzenlemişti); antlaşmayla Avusturya Habsburgları, İspanyol Hollandası'nı (bugünkü Belçika) ve İtalya'daki Napoli, Milano ve Sardunya'yı devraldı. Bu, Avusturya'nın tarihindeki en geniş toprak genişlemesiydi ve Habsburg hanedanının Orta Avrupa'daki ağırlığına Batı ve Güney Avrupa'da yeni bir cephe ekledi.",
   kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)", duygu:["⚔️"] },
 
-{ tur:"antlasma", bolge:3, t:"1721-09-10", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
+{ tur:"antlasma", bolge:4, ic_not_bolge:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 3→4 — Nystad Rusya'yı Baltık'tan serbest bıraktı; Petro'nun 1722-1723 İran seferine ve 1724 Osmanlı-Rus paylaşımına giden yol", t:"1721-09-10", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıyıları Rusya'ya geçti",
   gun:"10 Eylül 1721 (Gregoryen takvim, TDV isvec; Jülyen takvimle 30 Ağustos)",
   ic_not_gun:"KUTU-H4-1015: madde 30 Ağustos'tu — bu, Rusya'nın ve 1712 sonrası İsveç'in kullandığı Jülyen takvimin günüdür (SNL, lex.dk). TDV isvec 10 Eylül 1721 der; Britannica '10 Eylül [30 Ağustos Eski Takvim]'. Kural: kaynağın günü, çevirme yok — birincil kaynak TDV'nin günü yazıldı, takvim beyan edildi. Yerleşimlerdeki 1721-08-30 kırılmaları (Riga vb.) 11 gün fark ile ±30 gün içinde kalıyor; onlara dokunulmadı.",

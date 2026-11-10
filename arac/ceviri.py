@@ -60,14 +60,18 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # [Polo, İbn Battûta, Rubruck, Evliya, Kolomb, Gama, Macellan, Cook…] + 124 yoldan taşınan yolculuk) ve
 # 6 yeni arayüz gün kalıbı ("<Ay> # (ay hassasiyeti)": Ocak/Mayıs/Temmuz/Ağustos/Ekim/Aralık).
 # Eski değerler: eksik arayüz 6, olay en/ar/es/de 36, pt 1153, ru 3250, fr 4150. Her dilde olay +249, arayüz +6.
+# 10 Kasım 2026 (KRON-BOLGE-1110): tavan AÇILDI — 11 yeni dış olay (olaylar_dunya_bolge_1109.js: Krewo,
+# Timur Halep, Ugra, Şarlken'in çekilmesi, Romanov, Sarı Sular, Austerlitz, Kanlı Pazar, Rıza Han, Kutsal
+# İttifak, Zweibund) + 1 arayüz gün kalıbı. Çeviri işleri Emre'nin 4 Kasım kararıyla bekliyor.
+# Eski değerler: eksik arayüz 12, olay en/ar/es/de 285, pt 1402, ru 3499, fr 4399.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 12, "devlet": 1, "olay": 285},
-    "ar": {"arayuz": 12, "devlet": 1, "olay": 285},
-    "es": {"arayuz": 12, "devlet": 1, "olay": 285},
-    "de": {"arayuz": 12, "devlet": 1, "olay": 285},
-    "pt": {"arayuz": 12, "devlet": 1, "olay": 1402},
-    "ru": {"arayuz": 12, "devlet": 1, "olay": 3499},
-    "fr": {"arayuz": 12, "devlet": 1, "olay": 4399},
+    "en": {"arayuz": 13, "devlet": 1, "olay": 296},
+    "ar": {"arayuz": 13, "devlet": 1, "olay": 296},
+    "es": {"arayuz": 13, "devlet": 1, "olay": 296},
+    "de": {"arayuz": 13, "devlet": 1, "olay": 296},
+    "pt": {"arayuz": 13, "devlet": 1, "olay": 1413},
+    "ru": {"arayuz": 13, "devlet": 1, "olay": 3510},
+    "fr": {"arayuz": 13, "devlet": 1, "olay": 4410},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},

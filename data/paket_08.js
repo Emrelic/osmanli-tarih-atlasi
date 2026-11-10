@@ -524,14 +524,14 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"The Oxford Companion to British History (OUP), «Mary», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/mary-queen-scots — «her execution at Fotheringhay on 8 February 1587» ; el-kitabi", yer_kon:[52.542,-0.419] },
 
 { t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Armada — Atlantik deniz gücünün İspanya'dan İngiltere/Hollanda'ya kayışı", kapsam:"dis", etiket:["askeri","savas","ingiltere","konu-askeri"],
   yer_id:"",
   gun:"8 Ağustos 1588 GREGORYEN (Gravelines; İngiliz takviminde 29 Temmuz) — Dikkat: dosyanın öteki 1582-1752 günleri Jülyen",
   d:"II. Felipe'nin İngiltere'yi istila etmek üzere gönderdiği 130 gemilik büyük donanma, İngiliz filosunun taktikleri ve ardından gelen fırtınalarla ağır kayıplar vererek dağıldı; Gravelines açıklarındaki çarpışma dönüm noktası oldu. Zafer, İngiltere'nin bağımsızlığını pekiştirdi ve deniz gücü olarak yükselişinin sembolü hâline geldi.",
   kaynak:"The Oxford Companion to British History (OUP), «Armada, Spanish» https://www.oxfordreference.com/display/10.1093/acref/9780199677832.001.0001/acref-9780199677832-e-208 — «fireship attack on the night of 7 August, and on the following day» ; el-kitabi", yer_kon:[51.009,2.098] },
 
 { t:"1601-01-10", b:"Doğu Hindistan Şirketi'ne kraliyet fermanı verildi", tur:"kurulus",
-  onem:5, dunya:3, kapsam:"dis", etiket:["ekonomi","kurulus","ingiltere","konu-siyasi","konu-ekonomi"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 3→5 — İngiliz Doğu Hindistan Şirketi — sömürge çağının kurucu kuruluşu", kapsam:"dis", etiket:["ekonomi","kurulus","ingiltere","konu-siyasi","konu-ekonomi"],
   yer_id:"Londra",
   gun:"GREGORYEN 10 Ocak 1601 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 31 Aralık 1600 Jülyen/eski üslup · eski not: 31 Aralık 1600 JÜLYEN (İngiliz eski takvimi; Gregoryen 10 Ocak 1601)",
   d:"Elizabeth, Asya ile ticareti tekelinde toplayan Doğu Hindistan Şirketi'ne on beş yıllık bir ferman verdi. Şirket, sonraki iki buçuk yüzyılda salt bir ticaret kuruluşundan Hindistan'ın fiilî hükümdarına dönüşecek bir yapının temelini attı.",
@@ -1140,7 +1140,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"Government of India Act 1858 (21 & 22 Vict. c. 106), legislation.gov.uk https://www.legislation.gov.uk/ukpga/Vict/21-22/106 — «The Government of India Act 1858» (onay: 2 August 1858) ; el-kitabi" },
 
 { t:"1859-11-24", b:"Darwin'in Türlerin Kökeni'i yayımlandı", tur:"bilim",
-  onem:5, dunya:4, kapsam:"ic", etiket:["bilim","birlesik-krallik","konu-bilim"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Türlerin Kökeni — bilim tarihinde çağ açan eser", kapsam:"ic", etiket:["bilim","birlesik-krallik","konu-bilim"],
   yer_id:"Londra",
   d:"Charles Darwin, doğal seçilim yoluyla evrim kuramını sistematik biçimde ortaya koyan On the Origin of Species'i yayımladı; ilk baskı aynı gün tükendi. Eser, biyoloji bilimini kökten dönüştürdü ve din, felsefe ile toplum üzerine tartışmaları derinden etkiledi.",
   kaynak:"Darwin Correspondence Project (Cambridge University Library), «The \"wicked book\": Origin at 157» https://www.darwinproject.ac.uk/wicked-book-origin-157 — «the most famous book in science was published on 24 November 1859» ; el-kitabi" },
@@ -2764,7 +2764,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Fransa'nın dışlandığı bu antlaşmayla İngiltere, Avusturya, Prusya ve Rusya, Osmanlı'nın toprak bütünlüğünü Mısır Valisi Mehmed Ali Paşa'ya karşı güvence altına aldı. Fransa'nın Mehmed Ali'yi desteklediği bu kriz, ülkeyi kısa süreliğine Avrupa'da yalnız bıraktı.",
   kaynak:"TDV `fransa` maddesi (canlı) — \"Bu arada 15 Temmuz 1840’ta, Fransa dışındaki Avrupa devletleri Mısır meselesini çözmek için Londra Antlaşması’nı imzalayarak Osmanlı Devleti’nin toprak bütünlüğünü korumaya, bunun için gerekirse askerî müdahaleye karar verdiler.\"" },
 
-{ t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
+{ t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — 1848 Devrimleri dalgasının kıvılcımı", kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kurulus","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"Paris'teki halk ayaklanması Louis Philippe'i tahttan indirdi; geçici hükümet Cumhuriyet'i ilan etti ve erkekler için genel oy hakkını tanıdı. Devrim, aynı yıl bütün Avrupa'yı saracak devrimci dalganın (1848 Devrimleri) kıvılcımı oldu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) · standart ders kitabı bilgisi — dunya:4, Avrupa çapındaki tetikleyici etkisi nedeniyle" },

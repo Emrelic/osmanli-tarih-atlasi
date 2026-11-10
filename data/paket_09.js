@@ -3564,7 +3564,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Yirmi bir yıllık inşaatın ardından El Escorial tamamlandı; kompleks bir manastır, saray, kütüphane, akademi ve kraliyet türbesini bir arada barındırıyordu ve Habsburg İspanyası'nın hem dinî hem siyasî iddialarının taş hâlini aldı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
-{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Armada — Atlantik deniz gücünün İspanya'dan İngiltere/Hollanda'ya kayışı", kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İngiltere'yi işgal etmek üzere yola çıkan 130 gemilik Armada, Gravelines açıklarında İngiliz donanmasınca dağıtıldı ve dönüş yolunda fırtınalarla büyük kayıplar verdi. Yenilgi, İspanya'nın deniz üstünlüğü efsanesini kırdı ve İngiltere ile Hollanda'nın yükselişine kapı araladı — İspanya'nın 17. yüzyıl gerilemesinin sembolik başlangıcı sayılır.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[50.987,2.0958] },
@@ -5457,7 +5457,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Çengdu (Chengdu)" },
 
 { t:"1911-10-10", b:"Wuchang Ayaklanması — Xinhai Devrimi başladı", tur:"isyan",
-  onem:5, dunya:4, kapsam:"ic", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Xinhai Devrimi — iki bin yıllık Çin imparatorluk düzeninin sonu", kapsam:"ic", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
   yer_id:"Wuchang (Wuhan)",
   d:"Devrimci subayların Wuchang garnizonundaki plansız bir bomba kazasının ardından harekete geçmesi, hızla bütün eyaletlere yayılan bir isyan zincirine dönüştü. Wuchang Ayaklanması, iki bin yıllık imparatorluk sistemini üç ay içinde çökertecek Xinhai Devrimi'nin fitilini ateşledi.",
   kaynak:"cin--ulke" },
@@ -5803,7 +5803,7 @@ window.KRONOLOJI_HINDISTAN = [
   yer_id:"Srinagar (Keşmir)",
   d:"[Bâbürlü] İki buçuk asırdır bağımsız yaşayan Şah Mîr hanedanının Keşmir Sultanlığı'na son verildi; vadinin serin yaylaları Bâbürlü hükümdarları için yazlık bahçe kompleksleriyle (Şalimar Bağı, Nişat Bağı) ünlü bir yaz sarayına dönüşecekti.",
   kaynak:"kesmir (TDV)" },
-{ taraflar:["babur-imparatorlugu"], t:"1601-01-10", ic_not_takvim:"GREGORYEN 10 Ocak 1601 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 31 Aralık 1600 Jülyen/eski üslup", b:"İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu", tur:"kurulus", onem:3, dunya:4, kapsam:"dis",
+{ taraflar:["babur-imparatorlugu"], t:"1601-01-10", ic_not_takvim:"GREGORYEN 10 Ocak 1601 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 31 Aralık 1600 Jülyen/eski üslup", b:"İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu", tur:"kurulus", onem:3, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — İngiliz Doğu Hindistan Şirketi — sömürge çağının kurucu kuruluşu", kapsam:"dis",
   etiket:["ekonomi","kurulus","konu-siyasi","konu-ekonomi"],
   yer_id:"Londra",
   d:"[Bâbürlü — dış] Kraliçe I. Elizabeth'in imtiyaz fermanıyla kurulan şirket henüz Hindistan'da tek bir ticaret istasyonuna sahip değildi; iki buçuk asır sonra aynı şirket bütün alt kıtayı fiilen yönetecek bir gücе dönüşecekti — bu tohum, İngiliz Hindistanı'nın uzak başlangıç noktasıdır.",
