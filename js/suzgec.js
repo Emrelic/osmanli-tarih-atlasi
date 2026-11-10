@@ -898,7 +898,16 @@ function maddeDegisimleri(o, gs, Y, ix, kardesler) {
 //   OSMANLI kırılması (kirilmaGunleri) ±pencere içinde GÖRÜNÜR maddesiz kalıyorsa,
 //   tam listede o kırılmaya en yakın günün maddeleri görünür bırakılır
 //   (`toprakIndeksleri`nin eşleşme kuralıyla aynı: en yakın gün, beraberlikte hepsi).
+// 🏺 Emre (9 Kasım 2026): "site açılınca sağda arkeoloji maddeleri de görünüyor — Osmanlı
+// seçiliyse Osmanlı arkeolojisi gelmeli; öteki arkeolojik maddeler kendi künyesi seçilince."
+// Dış (kapsam:"dis") arkeolojik madde, eşik "hepsi" olsa bile Osmanlı zaman çizgisinde
+// GÖRÜNMEZ; yeri "🏺 Arkeoloji" künyesidir (app.js `ARKEOLOJI_SYNTH`). İç (Osmanlı) arkeolojik
+// madde bu kurala girmez.
+function disArkeolojikMi(m) {
+  return kapsamOf(m) === "dis" && !!(m && m.etiket && m.etiket.indexOf("arkeoloji") >= 0);
+}
 function disOnemGizliMi(m, esik) {
+  if (disArkeolojikMi(m)) return true;
   if (kapsamOf(m) !== "dis" || esik === "hepsi") return false;
   if (esik === "0" || esik === 0) return true;
   return !onemGecer(m, { ic: 0, bolge: +esik, dunya: 0, puansiz: false });

@@ -17452,7 +17452,7 @@ function kronoTemsilEdiliyor(k, derin) {
     var m = olaylar.filter(function (o) { return o.etiket && o.etiket.indexOf("arkeoloji") >= 0; })
       .sort(function (a, b) { return a.gi - b.gi; });
     if (!m.length) return null;
-    return { id: "arkeoloji", ad: "🏺 Arkeoloji (devletsiz)", harita: "__arkeoloji__",
+    return { id: "arkeoloji", ad: "🏺 Arkeoloji", harita: "__arkeoloji__",
              f: m[0].t, t: m[m.length - 1].t, kronoloji: m };
   })();
   if (ARKEOLOJI_SYNTH) kunye = kunye.concat([ARKEOLOJI_SYNTH]);
@@ -17910,7 +17910,10 @@ function kronoTemsilEdiliyor(k, derin) {
   // SÜZMEZ. (Ters tercih 4838 maddeyi yok ederdi.)
   function odakSuz(maddeler) {
     if (!window.SUZGEC || !window.SUZGEC.onemSuz) return maddeler;
-    var cikti = window.SUZGEC.onemSuz(maddeler, odakAyar());
+    // 🏺 Arkeoloji künyesinin maddeleri hep `kapsam:"dis"` + `bolge:1`: bölge eşiği (varsayılan 4)
+    // hepsini silerdi. Bu künyede önem süzgeci uygulanmaz.
+    var cikti = (ODAK && ODAK.id === "arkeoloji") ? maddeler.slice()
+                : window.SUZGEC.onemSuz(maddeler, odakAyar());
     if (sehirKronGizli) cikti = cikti.filter(function (m) { return !sehirKronMadde(m); });
     if (ODAK_KONU && ODAK_KONU.length)
       cikti = cikti.filter(function (m) {
