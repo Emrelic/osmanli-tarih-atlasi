@@ -35,6 +35,8 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   `run_in_background`); Emre cevap yazınca betik biter, uygulama oturumu uyandırır. Bu, yasak
   olan eski **bekçi değildir**: merkezi izleyici yok, model beklerken çalışmaz, her oturum yalnız
   kendi notunu bekler. (Yalnız Claude uygulaması açıkken çalışır.)
+  Bekleme düşerse not uyur: **`/postit-denetim`** (`py arac/postit_denetim.py`) Emre çağırınca bir
+  kez bakar, uyuyan sahibi uyandırır, takılı/sahipsiz/Emre'de bekleyen notları listeler.
 - Paralel iş gerekirse **alt ajan** (Agent aracı) kullan; aynı dosyaya yazacak paralel ajanları
   ayrı worktree'de çalıştır. Ayrı oturum yalnız başka makinede, saatler süren ya da Emre'yle
   konuşması gereken iş için gerekir — o zaman Emre'den iste.
