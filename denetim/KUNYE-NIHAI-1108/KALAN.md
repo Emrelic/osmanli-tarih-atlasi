@@ -31,3 +31,9 @@ Yeni künye: `data/devletler.js` sonuna (`];` öncesi) eklenir; `harita:` yalnı
 - **Çeviri tavanı açıldı:** `arac/ceviri.py` BEKLENEN_CEVIRI_EKSIK devlet 0 → 1 (7 dil); aşan kayıt timor-leste; çeviri gelince indirilir.
 - **KAYNAK GEREK (açılmadı):** kubadogullari (f yok) · teselya-sirp-yunan (TDV'de doğrulanmadı) · arnavutluk-anjou-kralligi (t çelişkili) · jumbe-sultanligi (t çelişkili) · gwiriko (yalnız yıl, tek kaynak) · valais-cumhuriyeti (f çelişkili) · chen-han (gün teyitsiz). Sonraki kaynak yukarıdaki tabloda; öncelik 2-4 adaylarına kaynak turu yapılmadı.
 - BAĞLA `s:` taşımaları (11) yapılmadı.
+
+## Kaynak turu 2 (10 Kasım 2026, öncelik-2, 23 aday, 2 Sonnet ajan) — SONUÇ: HİÇBİRİ AÇILMADI
+Ham bulgular: `KAYNAK-TURU-P2-A.md` ve `KAYNAK-TURU-P2-B.md`. **Engel (araç):** WebFetch Britannica, Iranica, HLS, TDV'ye 403 veriyor; ajanlar yalnız WebSearch özetlerini (çoğu Vikipedi yansısı) okuyabildi, antik birincil kaynak yer numaraları bellekten ([BİRİNCİL-AT]). "Vikipedi tek dayanak olamaz" ve "tarih uydurma" gereği hiçbir künye açılmadı.
+- Kaynak yok / doğrulanamadı: pajang · pate-sultanligi · persis-fratarakalar · asur-sehir-ara · dunbuli · takali · angoche · soyo · lagos-kralligi (f) · argos · tartessos
+- Aday günler var ama hakemli kaynakla DOĞRULANMADI (tarayıcıyla/yerinde okuma gerek): sih-misller (t 1799-07-07 ya da 1801-04-12) · kizil-finlandiya (f 1918-01-28; t 1918-05 gün çelişkili) · rodanik-cumhuriyet (f 08-28/30/31; t 1810-11-12 — HLS) · karenni (f 1875-06-21; t 1892-01-23) · sayen-arapaho (f 1851-09-17; t 1861-02-18) · blois-kontlugu · atina-arkaik (-0508) · pylos-miken · thebai-boiotia · gadir · latin-birligi (-0493/-0338) · illyria-kabileleri
+- Sonraki adım: HLS/Iranica/TDV/Perseus sayfalarını tarayıcı panelinden (WebFetch değil) okuyarak teyit; sonra künye + 3 madde.
