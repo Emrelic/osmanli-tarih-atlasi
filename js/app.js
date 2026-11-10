@@ -8674,12 +8674,88 @@ function dunyaMaddeleriTopla(osmanliMaddeleri) {
         }
       }
       var ad = kronoAdi(k, m);
-      if (gor[a]) { if (gor[a]._dunyaKaynak.indexOf(ad) < 0) gor[a]._dunyaKaynak.push(ad); return; }
-      gor[a] = Object.assign({}, m, { kapsam: "dunya", _dunyaKaynak: [ad] });
+      // Sahip künyeler (çip): maddenin taraf alanı, yoksa dosyanın künyesi.
+      var sah = maddeSahipleri(m);
+      if (!sah.length) { var dk = kunyeBul(k.slice(10).toLowerCase().replace(/_/g, "-")); if (dk) sah = [dk]; }
+      if (gor[a]) {
+        if (gor[a]._dunyaKaynak.indexOf(ad) < 0) gor[a]._dunyaKaynak.push(ad);
+        sah.forEach(function (d) { if (gor[a]._dunyaSahip.indexOf(d) < 0) gor[a]._dunyaSahip.push(d); });
+        return;
+      }
+      gor[a] = Object.assign({}, m, { kapsam: "dunya", _dunyaKaynak: [ad], _dunyaSahip: sah });
       out.push(gor[a]);
     });
   });
   return out;
+}
+// 🏷 ETİKET ÇİPLERİ — Emre (10 Kasım 2026): *"devlete ait olması gereken kronolojileri o
+// devletin etiketi ile gösterirken bunlara ek olarak dünya etiketi de vuralım, hatta bazılarına
+// bölge etiketi."* Eski rozet "🌍 Sâsânî İmparatorluğu" diyordu — devlet DÜNYA gibi okunuyordu,
+// sahibi yazılmamış 10 madde de çıplak "🌍 Dünya" taşıyordu. Şimdi her madde üç ayrı çip:
+//   [Sahip devlet] (künye rengiyle)  ·  [🌍 Dünya] (dünya önemi ≥ eşik)  ·  [Bölge] (sahibin bölgesi)
+// Madde sahibinin kronolojisinde durur (`derinKronolojiBindir` / `cokTarafliKronolojiEkle`);
+// "Dünya" etiketi onu ayrıca bu listeye getirir — ⚙ "Devletlerin dünya kronolojilerini göster".
+// Bölge çipi yalnız dünya maddesinde ve sahibin bölgesi Osmanlı çevresi DIŞINDAysa çıkar
+// (Balkan/Anadolu maddesine "Balkanlar" yazmak gürültüdür; Japonya'ya "Doğu Asya" bilgidir).
+var EK_RENK_SABIT = { osmanli: "#8e0b22", habsburg: "#c9932b", rusya: "#2e7d32", lehistan: "#a1272e" };
+function kunyeRenk(id) {
+  if (EK_RENK_SABIT[id]) return EK_RENK_SABIT[id];
+  var h = 0;
+  for (var i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + ",52%,38%)";
+}
+var DUNYA_ETIKET_ESIK = dunyaEsikSayi || 5;     // eşik "gösterme"yken de etiket 5'te vurulur
+var BOLGE_ADI = {
+  "balkanlar": "Balkanlar", "misir-sudan": "Mısır-Sudan", "iran": "İran", "sibirya-bozkir": "Sibirya-Bozkır",
+  "orta-avrupa": "Orta Avrupa", "dogu-avrupa": "Doğu Avrupa", "italya": "İtalya", "anadolu": "Anadolu",
+  "bati-avrupa": "Batı Avrupa", "kuzey-avrupa": "Kuzey Avrupa", "kafkasya": "Kafkasya", "arabistan": "Arabistan",
+  "kuzey-afrika": "Kuzey Afrika", "iberya": "İberya", "dogu-afrika": "Doğu Afrika", "orta-asya": "Orta Asya",
+  "guney-amerika": "Güney Amerika", "bati-afrika": "Batı Afrika", "orta-afrika": "Orta Afrika",
+  "guney-afrika": "Güney Afrika", "kuzey-amerika": "Kuzey Amerika", "guney-asya": "Güney Asya",
+  "dogu-asya": "Doğu Asya", "guneydogu-asya": "Güneydoğu Asya", "orta-amerika": "Orta Amerika",
+  "okyanusya": "Okyanusya", "orta-amerika-karayip": "Karayipler", "suriye-filistin": "Suriye-Filistin",
+  "mezopotamya": "Mezopotamya", "sahra": "Sahra"
+};
+var BOLGE_CEVRE = { "balkanlar": 1, "anadolu": 1, "arabistan": 1, "suriye-filistin": 1, "mezopotamya": 1,
+                    "misir-sudan": 1, "kafkasya": 1 };
+var _kunyeIx = null;
+function kunyeBul(id) {
+  if (!_kunyeIx) { _kunyeIx = {}; (window.DEVLETLER || []).forEach(function (d) { _kunyeIx[d.id] = d; }); }
+  return _kunyeIx[id] || null;
+}
+// Maddenin sahip künyeleri: kendi taraf alanı, yoksa (Osmanlı listesindeki dış madde) OLAY_TARAF eşlemesi.
+function maddeSahipleri(o) {
+  var ids = o.taraflar || o.devletler || (o.devlet ? [o.devlet] : null);
+  if (!ids && window.OLAY_TARAF) ids = window.OLAY_TARAF[o.t + "|" + o.b];
+  return (ids || []).map(kunyeBul).filter(Boolean);
+}
+function dunyaEtiketli(o) {
+  var p = Math.max(typeof o.dunya === "number" ? o.dunya : 0, o._dunyaDevir || 0);
+  return p >= DUNYA_ETIKET_ESIK;
+}
+function etiketCip(metin, sinif, title, renk) {
+  var s = document.createElement("span");
+  s.className = "o-cip " + sinif;
+  s.textContent = metin;
+  if (title) s.title = title;
+  if (renk) s.style.background = renk;
+  return s;
+}
+// Ana (Osmanlı) listedeki dünya maddesine çipler. Sahip yoksa devlet çipi çıkmaz —
+// "Dünya" sahibin yerine geçmez (eski rozetin kusuru buydu).
+function dunyaCipleriEkle(kap, o) {
+  var sahipler = o._dunyaSahip || maddeSahipleri(o);
+  if (sahipler.length) {
+    var d0 = sahipler[0];
+    kap.appendChild(etiketCip(d0.ad + (sahipler.length > 1 ? " +" + (sahipler.length - 1) : ""), "o-cip-devlet",
+      "Bu madde " + sahipler.map(function (d) { return d.ad; }).join(", ") + " kronolojisindedir", kunyeRenk(d0.id)));
+  }
+  kap.appendChild(etiketCip("🌍 Dünya", "o-cip-dunya",
+    "Dünya önemi " + Math.max(o.dunya || 0, o._dunyaDevir || 0) +
+    " — ⚙ Ayarlar › Devletlerin dünya kronolojilerini göster"));
+  var bolge = sahipler.length && sahipler[0].bolge;
+  if (bolge && !BOLGE_CEVRE[bolge] && BOLGE_ADI[bolge])
+    kap.appendChild(etiketCip(BOLGE_ADI[bolge], "o-cip-bolge", "Bölge: " + BOLGE_ADI[bolge]));
 }
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
@@ -8911,15 +8987,8 @@ olaylar.forEach(function (o, i) {
   }
   // 🌍 Dünya maddesi (devlet kronolojisinden bağlandı, `dunyaMaddeleriTopla`) ya da
   // Osmanlı listesindeki dış maddenin dünya eşiğini geçmesi: rozet kaynağını söyler.
-  if (o.kapsam === "dunya" || (o.kapsam === "dis" && dunyaPuanGecer(o))) {
-    var dRozet = document.createElement("span");
-    dRozet.className = "o-dunya-rozet";
-    dRozet.textContent = "🌍 " + (o._dunyaKaynak ? o._dunyaKaynak[0] + (o._dunyaKaynak.length > 1 ? " +" + (o._dunyaKaynak.length - 1) : "") : "Dünya");
-    dRozet.title = "Dünya önemi " + o.dunya + " — ⚙ Ayarlar › Dünya olayları eşiği" +
-      (o._dunyaKaynak ? " · kronoloji: " + o._dunyaKaynak.join(", ") : "");
-    dRozet.style.cssText = "font-size:.72em;opacity:.8;margin-left:.5em;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap";
-    div.lastChild.appendChild(dRozet);
-  }
+  // 🏷 10 Kasım 2026: tek "🌍 <devlet>" rozeti yerine [devlet] · [🌍 Dünya] · [bölge] çipleri.
+  if (o.kapsam === "dunya" || (o.kapsam === "dis" && dunyaPuanGecer(o))) dunyaCipleriEkle(div.lastChild, o);
   if (o._bolgeKaynak) {                          // seçili devletin bölgesindeki komşu künyeden (⚙ Bölgesel olaylar)
     var bRozet = document.createElement("span");
     bRozet.className = "o-dunya-rozet";
@@ -17762,13 +17831,8 @@ function kronoTemsilEdiliyor(k, derin) {
 
   // Sabit bir renk seti + bilinmeyen id için deterministik üretim (hash→HSL);
   // yeni bir devlet eklenince elle renk atamak GEREKMEZ.
-  var EK_RENK_SABIT = { osmanli: "#8e0b22", habsburg: "#c9932b", rusya: "#2e7d32", lehistan: "#a1272e" };
-  function ekRenk(id) {
-    if (EK_RENK_SABIT[id]) return EK_RENK_SABIT[id];
-    var h = 0;
-    for (var i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
-    return "hsl(" + (h % 360) + ",52%,38%)";
-  }
+  // Renk tek yerde: `kunyeRenk` (Osmanlı ana listesindeki devlet çipi de aynı rengi taşır).
+  function ekRenk(id) { return kunyeRenk(id); }
 
   // =======================================================================
   // 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji seçme
@@ -18430,6 +18494,9 @@ function kronoTemsilEdiliyor(k, derin) {
       baslik.className = "o-baslik";
       baslik.textContent = o.b || "";
       el.appendChild(rozet); el.appendChild(tarih); el.appendChild(document.createTextNode(" ")); el.appendChild(baslik);
+      // 🏷 Devlet maddesi dünya etiketliyse (Emre, 10 Kasım 2026) — kendi kronolojisinde de görünür.
+      if (o.m && dunyaEtiketli(o.m))
+        baslik.appendChild(etiketCip("🌍 Dünya", "o-cip-dunya", "Dünya önemi " + o.m.dunya + " — dünya kronolojisinde de görünür"));
       el.addEventListener("click", function () { gezGit(o); });
       el.addEventListener("contextmenu", function (e) { kopyaMenusuAc(e, kopyaMaddesi(o.d, o.m), el); });
       liste.appendChild(el);
@@ -18530,8 +18597,12 @@ function kronoTemsilEdiliyor(k, derin) {
       el.innerHTML = '<span class="olay-tarih">' + kisaTarihYazi(m).replace(/</g, "&lt;")
         + '</span> <span class="olay-baslik">' + (m.b || "").replace(/</g, "&lt;")
         + "</span>"
-        + (m._dunyaKaynak ? ' <span class="o-dunya-rozet" title="Dünya olayı — ⚙ Ayarlar › Dünya olayları eşiği" style="font-size:.72em;opacity:.8;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap">🌍 ' + m._dunyaKaynak[0].replace(/</g, "&lt;") + (m._dunyaKaynak.length > 1 ? " +" + (m._dunyaKaynak.length - 1) : "") + "</span>"
-          : m._bolgeKaynak ? ' <span class="o-dunya-rozet" title="Bölgesel olay — ⚙ Ayarlar › Bölgesel olaylar" style="font-size:.72em;opacity:.8;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap">🧭 ' + m._bolgeKaynak[0].replace(/</g, "&lt;") + (m._bolgeKaynak.length > 1 ? " +" + (m._bolgeKaynak.length - 1) : "") + "</span>" : "");
+        + (!m._dunyaKaynak && m._bolgeKaynak ? ' <span class="o-dunya-rozet" title="Bölgesel olay — ⚙ Ayarlar › Bölgesel olaylar" style="font-size:.72em;opacity:.8;padding:0 .4em;border:1px solid currentColor;border-radius:.6em;white-space:nowrap">🧭 ' + m._bolgeKaynak[0].replace(/</g, "&lt;") + (m._bolgeKaynak.length > 1 ? " +" + (m._bolgeKaynak.length - 1) : "") + "</span>" : "");
+      // 🏷 (Emre, 10 Kasım 2026) Başka devletten gelen dünya maddesi: [devlet] · [🌍 Dünya] · [bölge];
+      // odak devletin KENDİ dünya etiketli maddesi: yalnız [🌍 Dünya].
+      if (m._dunyaKaynak) dunyaCipleriEkle(el.querySelector(".olay-baslik"), m);
+      else if (dunyaEtiketli(m))
+        el.querySelector(".olay-baslik").appendChild(etiketCip("🌍 Dünya", "o-cip-dunya", "Dünya önemi " + m.dunya + " — dünya kronolojisinde de görünür"));
       el.addEventListener("click", function () { gezGit(o); });
       // H-79:14 — sağ tık kopyala menüsü devlet kronolojisinde HİÇ bağlı değildi
       // (ölçüldü: Moskova satırında menü YOK); Osmanlı satırlarının AYNI menüsü.

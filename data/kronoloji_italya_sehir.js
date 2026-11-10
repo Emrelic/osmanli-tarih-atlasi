@@ -349,7 +349,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cristoforo Colombo bir yün dokumacısının oğlu olarak Cenova'da doğdu; gençliğinde Sakız'a giden Ceneviz gemilerinde çalıştı ve Atlantik seferlerini bu okulda öğrendi. Tasarısını Cenova'ya değil Kastilya'ya sundu, çünkü cumhuriyetin ne parası ne siyasî iradesi kalmıştı. Cenova, kendi yetiştirdiği denizciyi finanse edememenin bedelini Atlantik çağının dışında kalarak ödedi.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'ceneviz'" },
 
-{ t:"1453-05-29",
+{ taraflar:["galata-pera","cenova"], t:"1453-05-29",
   b:"Galata'nın anahtarlarının teslim edilmesi — koloninin sonu, ticaretin devamı",
   tur:"toprak-kayip", onem:5, dunya:5, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi","konu-ekonomi"],

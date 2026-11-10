@@ -832,7 +832,7 @@ window.KRONOLOJI_CIN = [
   d:"Ayaklanan eyaletlerin temsilcileri Nanjing'de toplanıp sürgündeki devrimci önder Sun Yat-sen'i Çin Cumhuriyeti'nin geçici cumhurbaşkanı seçti. Sun, birkaç hafta sonra ülke birliğini sağlamak amacıyla makamı Yuan Shikai'ye devredecekti.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ t:"1912-02-12", b:"Puyi tahttan feragat etti — Qing hanedanı sona erdi", tur:"son",
+{ taraflar:["qing-hanedani"], t:"1912-02-12", b:"Puyi tahttan feragat etti — Qing hanedanı sona erdi", tur:"son",
   onem:5, dunya:5, kapsam:"ic", etiket:["son","siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"Pekin (Hanbalık)",
   d:"Altı yaşındaki son imparator Puyi adına nâibesi, feragat fermanını imzalayıp iki bin yüz yıllık Çin imparatorluk sistemine ve iki yüz altmış sekiz yıllık Qing hanedanına son verdi. Yönetim, Yuan Shikai önderliğinde birleşik bir cumhuriyete devredildi.",

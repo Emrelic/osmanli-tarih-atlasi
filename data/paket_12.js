@@ -443,7 +443,7 @@ window.KRONOLOJI_ANADOLU = [
 
 // ═══════════════════ ANADOLU (TÜRKİYE) SELÇUKLU DEVLETİ (1075-1308) ═══════════════════
 
-{ t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
+{ taraflar:["buyuk-selcuklu","bizans"], t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["Malazgirt", "Büyük Selçuklu", "Bizans", "konu-askeri"],
   yer_id:"",
   d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı.", ic_not_d:"(TDV `selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",
@@ -2971,7 +2971,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Bulgar İç Devrimci Örgütü'nün örgütlediği ayaklanma özellikle Filibe vilâyeti kırsalında patlak verdi; Türk köyleri yakıldı, isyan yaklaşık 18.000 kişilik bir kuvvetle bastırılırken Batak kasabasında sivillerin katledilmesi Avrupa basınında büyük yankı uyandırdı ('Bulgarian Horrors'). Bu tepki, bir yıl sonra Rusya'nın savaş ilanının uluslararası zeminini hazırladı. Gün Julian takvimine göre 20 Nisan'dır, Gregoryen'e çevrildi.",
   kaynak:"TDV `bulgaristan`: 'Nisan 1876'da büyük bir isyanın çıkmasına sebep oldu ... 18.000 kişilik bir askerî kuvvet gönderilerek isyan bastırıldı.' Gün: akademik (Crampton, 2005)." },
 
-{ t:"1877-04-24", b:"93 Harbi başladı — Rusya Osmanlı'ya savaş ilan etti", tur:"savas",
+{ taraflar:["rusya"], t:"1877-04-24", b:"93 Harbi başladı — Rusya Osmanlı'ya savaş ilan etti", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"", kapsam_genis:true,
   odak_yer:["Bender","Bükreş","Rusçuk"],   // PAKET-0083-D (H-0001·H-0011)
@@ -3305,7 +3305,7 @@ window.KRONOLOJI_BALKAN = [
   d:"1827-1829 Osmanlı-Rus Savaşı, Rus ordularının Edirne'ye kadar ilerlemesiyle sona erdi. İmzalanan antlaşmayla Osmanlı Devleti, Yunan bağımsızlığını öngören Londra düzenlemelerini fiilen kabul etmek zorunda kaldı.",
   kaynak:"TDV `yunanistan`: 'Rusya, Osmanlı Devleti'ne karşı savaş açtı ve 1827-1829 savaşında Rus orduları Edirne'ye kadar ilerleyerek bu şehri ele geçirdi.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Treaty of Adrianople')." },
 
-{ t:"1830-02-03", b:"Bağımsızlığın Londra Protokolü ile tanınması", tur:"kurulus",
+{ taraflar:["yunanistan"], t:"1830-02-03", b:"Bağımsızlığın Londra Protokolü ile tanınması", tur:"kurulus",
   onem:5, dunya:5, kapsam:"dis", etiket:["diplomasi","kurulus","konu-siyasi","konu-diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Osmanlı yenilgisi üzerine büyük güçler, Mora ve Attika'dan Tesalya'ya uzanan toprakları kapsayan bir Yunan Devleti'nin tam bağımsızlığını Londra Protokolü ile ilan etti. Yeni devlet, Osmanlı idaresindeki yaklaşık iki milyonluk Rum nüfusun yarısından azını içeriyordu.",
   kaynak:"TDV `yunanistan`: 'Osmanlı yenilgisi üzerine Mora yarımadasında ve Atina'yı da içine alan, Attika'dan Tesalya'ya kadar uzanan bir Yunan Devleti kuruldu (1829). Osmanlı Devleti 1830'da bu devleti tanımak zorunda kaldı.' + data/devletler.js embedded kronolojisi." },
@@ -3530,7 +3530,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 
-{yer_id:"Lozan",  t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
+{ taraflar:["tbmm-turkiye","yunanistan"], yer_id:"Lozan",  t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
   onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Sevr'in öngördüğü bütün kazanımları geçersiz kılan Lozan Antlaşması, Yunanistan'ın kuruluşundan beri sürdürdüğü toprak genişlemesini kesin olarak durdurdu. Venizelos, Yunanistan'ın Anadolu bozgunundan en az kayıpla çıkması için görüşmelerde bizzat yer aldı.",
   kaynak:"TDV `yunanistan`: 'Lozan Antlaşması, Sevr Antlaşması'nın Yunanistan'a sağladığı kazanımları ortadan kaldırdığından Yunanistan'ın kurulduğu tarihten beri sürdürdüğü genişlemeyi durduran bir antlaşma oldu.' dunya:5 değeri data/kronoloji_fransa.js:1012 ile birebir çapraz doğrulandı." },
@@ -7506,7 +7506,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Cristoforo Colombo bir yün dokumacısının oğlu olarak Cenova'da doğdu; gençliğinde Sakız'a giden Ceneviz gemilerinde çalıştı ve Atlantik seferlerini bu okulda öğrendi. Tasarısını Cenova'ya değil Kastilya'ya sundu, çünkü cumhuriyetin ne parası ne siyasî iradesi kalmıştı. Cenova, kendi yetiştirdiği denizciyi finanse edememenin bedelini Atlantik çağının dışında kalarak ödedi.",
   kaynak:"Epstein, Genoa and the Genoese; TDV 'ceneviz'" },
 
-{ t:"1453-05-29",
+{ taraflar:["galata-pera","cenova"], t:"1453-05-29",
   b:"Galata'nın anahtarlarının teslim edilmesi — koloninin sonu, ticaretin devamı",
   tur:"toprak-kayip", onem:5, dunya:5, kapsam:"dis",
   etiket:["osmanli","koloni","toprak-kayip","konu-askeri","konu-siyasi","konu-ekonomi"],

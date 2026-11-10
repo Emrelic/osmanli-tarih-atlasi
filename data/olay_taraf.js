@@ -2493,5 +2493,17 @@ window.OLAY_TARAF = {
  "1961-06-19|Kuveyt İngiliz himayesinden çıkıp tam bağımsızlığa kavuştu": ["kuveyt","ingiltere"],
  "1971-09-03|Katar İngiltere ile antlaşmaların sona ermesiyle bağımsızlığını ilân etti": ["katar","ingiltere"],
  "1995-01-01|Avusturya Avrupa Birliği'ne katıldı": ["avusturya-ikinci-cumhuriyet"],
- "536-12-09|Belisarios Roma'ya girdi: Roma Ostrogot yönetiminden Bizans'a geçti": ["bizans","dogu-got"]
+ "536-12-09|Belisarios Roma'ya girdi: Roma Ostrogot yönetiminden Bizans'a geçti": ["bizans","dogu-got"],
+ // 🏷 10 Kasım 2026 (KRON-ETIKET): dünya eşiğini geçip sahibi yazılmamış 10 dış madde — ana listede
+ // çıplak "🌍 Dünya" çipi taşıyor ve hiçbir künye kronolojisine inmiyordu. Sahip künye, pencere içinde.
+ "0330-05-11|Konstantinopolis törenle açıldı; imparatorluğun merkezi fiilen doğuya kaydı": ["roma-imp"],
+ "0749-11-28|Kûfe'de Ebü'l-Abbas'a biat edildi; Abbâsî hilâfeti kuruldu": ["abbasi"],
+ "0911-01-01|Saint-Clair-sur-Epte Antlaşması: Basit Charles Normanlara bugünkü Normandiya'yı bırakır": ["normandiya"],
+ "0945-12-19|Büveyhî Ahmed (Muizzüddevle) Bağdat'a girdi; şehir Büveyhî hâkimiyetine geçti": ["buveyhi","abbasi"],
+ "0969-07-06|Kumandan Cevher es-Sıkıllî Fustat'a girerek Mısır'ı fethetti; İhşîdîler sona erdi": ["fatimi","ihsidi"],
+ "1187-07-04|Selâhaddin Hıttîn'de Haçlı ordusunu yok etti (savaş 3-4 Temmuz 1187; sonuç günü 4 Temmuz).": ["eyyubi","kudus-kralligi"],
+ "1492-10-12|Kolomb Yeni Dünya'da Guanahani'ye çıkıyor": ["ispanya"],
+ "1498-05-20|Gama Hindistan'a, Kalküta açığına demirliyor": ["portekiz"],
+ "1522-09-06|Victoria dünyayı dolaşıp Sanlúcar'a dönüyor": ["ispanya"],
+ "1917-11-07|Ekim Devrimi — Bolşevikler Rusya Geçici Hükûmeti'ni devirdi": ["rusya-gecici-hukumet","sovyet-rusya"]
 };

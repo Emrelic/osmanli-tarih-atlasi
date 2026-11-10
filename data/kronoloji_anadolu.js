@@ -438,7 +438,7 @@ window.KRONOLOJI_ANADOLU = [
 
 // ═══════════════════ ANADOLU (TÜRKİYE) SELÇUKLU DEVLETİ (1075-1308) ═══════════════════
 
-{ t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
+{ taraflar:["buyuk-selcuklu","bizans"], t:"1071-08-26", b:"Malazgirt zaferi Anadolu'nun kapısını açtı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["Malazgirt", "Büyük Selçuklu", "Bizans", "konu-askeri"],
   yer_id:"",
   d:"Büyük Selçuklu Sultanı Alparslan, Bizans İmparatoru IV. Romanos Diogenes'i Malazgirt'te ağır bir yenilgiye uğrattı; bu zafer Türkmen boylarının önündeki son büyük engeli kaldırarak Anadolu'nun kapılarını açtı. Anadolu Selçuklu Devleti'ni kuracak olan I. Süleyman Şah da bu fetih dalgasının içinde yer aldı.", ic_not_d:"(TDV `selcuklular` maddesinin taşıdığı baştaki bağlam; devletin kendisi 1075'te kurulacaktır.)",

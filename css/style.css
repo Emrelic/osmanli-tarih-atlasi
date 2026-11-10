@@ -934,6 +934,12 @@ body {
   flex: 0 0 auto;
   white-space: nowrap;
 }
+/* 🏷 Etiket çipleri (Emre, 10 Kasım 2026): sahip devlet (künye rengi) · 🌍 Dünya · bölge. */
+.o-cip { font-size: .72em; margin-left: .45em; padding: 0 .45em; border-radius: .6em;
+  white-space: nowrap; display: inline-block; line-height: 1.5; vertical-align: baseline; }
+.o-cip-devlet { color: #fff; font-weight: bold; }
+.o-cip-dunya { border: 1px solid currentColor; opacity: .85; }
+.o-cip-bolge { border: 1px dashed currentColor; opacity: .7; }
 /* ODAK'ın kendi maddeleri (`ek-odak`) Osmanlı kırmızısıyla ayırt edilir —
    ekrandaki "bu ANA kronoloji, ötekiler EK" ayrımının görsel karşılığı. */
 .olay.ek-odak { border-left-color: var(--osmanli-kirmizi); }
