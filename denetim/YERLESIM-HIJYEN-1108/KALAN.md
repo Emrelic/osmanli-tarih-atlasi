@@ -1,13 +1,22 @@
-# YERLEŞİM-HİJYEN 1108 — KALAN İŞ
+# YERLEŞİM-HİJYEN 1108 — KALAN İŞ (9 Kasım güncel)
 
-1. **`bosluk_sahipsiz` 39 + `donemler_arasi_bosluk` 2 + `donemsiz` 2 (1281–1923):** her biri için Boşluk merdiveni
-   (TDV → İSAM/TTK/DergiPark → komşu/yabancı akademik → yerleşim o devirde var mıydı → abi merkez). Sonnet alt ajan, aynı anda 1–2.
-2. **`ilk_donem_oncesi` 547** (çoğu antik/ortaçağ; ilk `s:` dönemi madde gününden sonra başlıyor) ve `kur_sonrasi` kalanı.
-   Önce `m2_ihlaller.tsv` içinde `ms1_1000_ortadogu` (124), `olaylar_ortacag_bekleyen_acik` (72) kaynaklı olanlar.
-3. **Başkent→künye, `baska_devlete_bagli` 197** (`m4b_*.tsv`): yalnız künyenin f–t aralığında sahipsiz (`__BOSLUK__`, 29) dilimi
-   künye id'sine çevir; başka devletli (ingiltere 14, almanya 13, roma-imp 10, bizans 8 …) çakışanı ATLANAN'a yaz.
-4. **Başkent→künye, kalan DONEMSIZ 30:** ATLANAN.md listesi (başkent birden çok → hangi dilimde hangisi; f/t madde yok → önce künye
-   kuruluş/yıkılış maddesi yaz).
-5. **Bulunan yan bulgular:** `Loja` yer_id'si Ekvador'a gidiyor (1486 Granada Loja'sı atlasta yok → yeni yerleşim ya da yer_id kaldır);
-   Bahçesaray 1441–1501 maddeleri için Kırk Yer (Çufut Kale) yerleşimi eklenmeli; Berezov madde yılı (1592) ↔ kur 1593; Malaka 1396 ↔ 1400.
-6. 517 yerleşimsiz ufuk-içi künyeden başkenti atlasta OLMAYAN ~194: yeni yerleşim işi (bu oturumun kapsamı dışındaydı).
+## Yapıldı
+- 21 madde `yer_id` → eski şehir (Malatya/Van/Kandehar/Taipei).
+- 47 künyeye başkent yerleşimi bağlandı (dönemsiz yerleşimler).
+- `__BOSLUK__` dilimi künyeye çevrildi: Selanik (2 künye), Dînever (hasanveyhiler), Ani (ani-bagratli, seddadiler-ani).
+
+## Emre kararı (karar gerektiriyor, kaynaksız tahmin yazılmaz)
+- **Loja** (1486 Levşe): `yer_id:"Loja"` Ekvador Loja'sına gidiyor; İspanyol Loja atlasta yok → yeni yerleşim mi, yer_id mi kalksın?
+- **Bahçesaray** 1441–1501 (5 madde): Kırk Yer/Salacık atlasta yok (14 Ekim kararı toprağı komşu peteğe bırakmış). Yeni yerleşim mi?
+- **Berezov** madde yılı 1592 ↔ `kur` 1593; **Malaka** madde 1396 ↔ `kur` 1400: kaynak yeniden bakılmalı.
+- **Atina** (atina-demokrasisi −507…−337; ikinci-atina-birligi −377…−354 aynı aralığı kapsar): atlasta ilk dilim −26; iki künye çakışık → hangisi Atina'ya yazılacak?
+- **Lazkiye/Süveyde** (künye 1936/37'de biter, şehir sürer): künye sonrası dilimi kim sahiplenecek (Suriye)? Bu kaynak ister.
+
+## Sonraki (mekanik/araştırma, kaynak ister)
+1. `baska_devlete_bagli` kalan: `__BOSLUK__` 29'dan Selanik/Dînever/Ani dışı: halin/pyu (Halin 0001–0832 BOSLUK, ufuk işareti), silahara/Thane, chutiya/Sadiya, phayao, kevkev-erken/Gao, taberistan-zeydi(-ii)/Âmül (dilim yok, 1000 öncesi), midrari+magrave/Sicilmâse, tiflis, hasanveyhiler tamam; Sümer dörtlüsü (kis/uruk/ur/umma, −2599…−2333, `t` yakınında madde YOK).
+   Hepsi için önce o yerleşimin dilimleri künye f–t ile ölçülür (`bosluk_an.js` yöntemi): yalnız sahipsiz/boş kısım künyeye çevrilir.
+2. Başka devlete bağlı 168 künye (ingiltere 14, almanya 13, roma-imp 10, bizans 8, …) — çakışanlar ATLANAN'a.
+3. Kalan DONEMSIZ 30 (ATLANAN.md): başkent birden çok → hangi dilimde hangisi; f/t madde yok → önce künye kuruluş/yıkılış maddesi.
+4. 1281–1923 `bosluk_sahipsiz` 39 + `donemler_arasi` 2 + `donemsiz` 2: Boşluk merdiveni (TDV→İSAM/TTK→komşu→abi merkez), Sonnet alt ajan.
+5. `ilk_donem_oncesi` 547, `kur_sonrasi` kalanı (çoğu antik/ortaçağ).
+6. Başkenti atlasta olmayan ~194 künye için yeni yerleşim (bu oturumun kapsamı dışı).
