@@ -774,7 +774,7 @@ window.KRONOLOJI_FRANSA = [
   d:"Fransa'nın dışlandığı bu antlaşmayla İngiltere, Avusturya, Prusya ve Rusya, Osmanlı'nın toprak bütünlüğünü Mısır Valisi Mehmed Ali Paşa'ya karşı güvence altına aldı. Fransa'nın Mehmed Ali'yi desteklediği bu kriz, ülkeyi kısa süreliğine Avrupa'da yalnız bıraktı.",
   kaynak:"TDV `fransa` maddesi (canlı) — \"Bu arada 15 Temmuz 1840’ta, Fransa dışındaki Avrupa devletleri Mısır meselesini çözmek için Londra Antlaşması’nı imzalayarak Osmanlı Devleti’nin toprak bütünlüğünü korumaya, bunun için gerekirse askerî müdahaleye karar verdiler.\"" },
 
-{ t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
+{ t:"1848-02-24", b:"Şubat Devrimi — II. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — 1848 Devrimleri dalgasının kıvılcımı", kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kurulus","anayasa","konu-siyasi","konu-isyan","konu-islahat","konu-hukuk"],
   d:"Paris'teki halk ayaklanması Louis Philippe'i tahttan indirdi; geçici hükümet Cumhuriyet'i ilan etti ve erkekler için genel oy hakkını tanıdı. Devrim, aynı yıl bütün Avrupa'yı saracak devrimci dalganın (1848 Devrimleri) kıvılcımı oldu.",
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) · standart ders kitabı bilgisi — dunya:4, Avrupa çapındaki tetikleyici etkisi nedeniyle" },

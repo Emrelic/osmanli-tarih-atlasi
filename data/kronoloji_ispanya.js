@@ -381,7 +381,7 @@ window.KRONOLOJI_ISPANYA = [
   d:"Yirmi bir yıllık inşaatın ardından El Escorial tamamlandı; kompleks bir manastır, saray, kütüphane, akademi ve kraliyet türbesini bir arada barındırıyordu ve Habsburg İspanyası'nın hem dinî hem siyasî iddialarının taş hâlini aldı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
-{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Armada — Atlantik deniz gücünün İspanya'dan İngiltere/Hollanda'ya kayışı", kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"İngiltere'yi işgal etmek üzere yola çıkan 130 gemilik Armada, Gravelines açıklarında İngiliz donanmasınca dağıtıldı ve dönüş yolunda fırtınalarla büyük kayıplar verdi. Yenilgi, İspanya'nın deniz üstünlüğü efsanesini kırdı ve İngiltere ile Hollanda'nın yükselişine kapı araladı — İspanya'nın 17. yüzyıl gerilemesinin sembolik başlangıcı sayılır.",
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[50.987,2.0958] },

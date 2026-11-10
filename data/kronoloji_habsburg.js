@@ -218,7 +218,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"II. Rudolf, Bohemya meclisinin baskısıyla Protestanlara ibadet ve kilise inşa hakkı tanıyan bir berat verdi. Beratın sonraki yıllarda çiğnendiği iddiası, 1618 isyanının doğrudan gerekçesi oldu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ t:"1618-05-23", b:"Prag Pencereden Atılma Vakası", tur:"isyan", onem:4, dunya:4, kapsam:"ic", yer_id:"Prag",
+{ t:"1618-05-23", b:"Prag Pencereden Atılma Vakası", tur:"isyan", onem:4, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Otuz Yıl Savaşları'nın başlangıcı — Avrupa çapında savaş, Vestfalya düzenine giden yol", kapsam:"ic", yer_id:"Prag",
   etiket:["isyan","din","konu-isyan","konu-din"],
   d:"Silahlı Bohemya soyluları Prag Kalesi'ndeki şansölyeliği bastı ve imparatorun temsilcileri Martinic ile Slavata'yı, kâtip Fabricius'la birlikte pencereden attı. Olay, Protestan Bohemya meclislerinin ayaklanmasının fitili sayılır ve Otuz Yıl Savaşları'nı başlatır.",
   kaynak:"Die Welt der Habsburger, 'Prager Fenstersturz 1618': 23 Mayıs 1618, silahlı soylular şansölyeliği bastı, üç kişi pencereden atıldı; ayaklanmanın tetikleyicisi sayılır" },
@@ -423,7 +423,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Kaunitz'in yürüttüğü siyaset, iki yüz elli yıllık Habsburg-Fransa düşmanlığını sona erdirip Prusya'ya karşı ittifaka çevirdi. Avrupa'nın ittifak sisteminin tersine dönmesi, Yedi Yıl Savaşı'nın zeminini kurdu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ odak_yer:["Dresden","Prag","Breslau (Wrocław)"], t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Dresden","Prag","Breslau (Wrocław)"], t:"1756-08-29", b:"Yedi Yıl Savaşı'nın başlaması", tur:"savas", onem:4, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Yedi Yıl Savaşları — kıtalar arası ilk büyük savaş", kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["askeri","konu-askeri"],
   d:"Savaş, Maria Theresia'nın Silezya'yı geri alma isteği üzerine yürüdü ve Avrupa dışına taşarak bir dünya savaşına dönüştü. Avusturya yedi yıl boyunca büyük insan ve para kaybetti.",
   kaynak:"Die Welt der Habsburger, 'Der Siebenjährige Krieg: Ein Weltkrieg' ve 'Siebenjähriger Krieg 1756-1763': savaş Silezya için yürütüldü · Dikkat: gün DOĞRULANMADI" },

@@ -147,7 +147,7 @@ window.OLAYLAR_EK11 = [
   d:"Hemedan yenilgisinden sonra Bağdat'a sığınan Akkoyunlu Sultan Murad'ın ardından Şah İsmâil 1508'de Irâk-ı Arab'a girdi ve Bağdat'ı aldı. Kerbelâ ve Necef'teki türbelerin Safevî idaresine geçmesi, hareketin mezhebî iddiası bakımından Tebriz'in alınması kadar önemliydi. Haritada Irâk-ı Arab aynı gün el değiştirir; bu, çözülüşün son ve en geniş coğrafî adımıdır. Bağdat 1534'te Kanûnî'nin Irakeyn Seferi'ne kadar Safevî elinde kaldı.", ic_not_d:"eski: Haritada kırk altı yerleşim aynı gün el değiştirir;",
   kaynak:"safeviler", duygu:["🏛"] },
 
-{ tur:"savas", bolge:3, t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
+{ tur:"savas", bolge:4, ic_not_bolge:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 3→4 — Merv'de Şeybânî'nin yenilgisiyle Safevî Horasan'ı alıp sırtını güvenceye aldı; Çaldıran öncesi Safevî gücünün zirvesi", t:"1510-12-02", k:"savas", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
   kapsam:"dis", onem:4, b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
   gun:"1510 sonu", ic_not_gun:"(916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", yer_id:"Merv (Mari)", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",

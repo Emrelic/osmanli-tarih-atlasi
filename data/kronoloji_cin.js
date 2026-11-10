@@ -821,7 +821,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Çengdu (Chengdu)" },
 
 { t:"1911-10-10", b:"Wuchang Ayaklanması — Xinhai Devrimi başladı", tur:"isyan",
-  onem:5, dunya:4, kapsam:"ic", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
+  onem:5, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Xinhai Devrimi — iki bin yıllık Çin imparatorluk düzeninin sonu", kapsam:"ic", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"],
   yer_id:"Wuchang (Wuhan)",
   d:"Devrimci subayların Wuchang garnizonundaki plansız bir bomba kazasının ardından harekete geçmesi, hızla bütün eyaletlere yayılan bir isyan zincirine dönüştü. Wuchang Ayaklanması, iki bin yıllık imparatorluk sistemini üç ay içinde çökertecek Xinhai Devrimi'nin fitilini ateşledi.",
   kaynak:"cin--ulke" },

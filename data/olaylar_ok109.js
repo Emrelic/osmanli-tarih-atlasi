@@ -137,7 +137,7 @@ window.OLAYLAR_OK109 = [
     kaynak: "yugoslavya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Yugoslavya', https://islamansiklopedisi.org.tr/yugoslavya"
   },
 
-  { tur:"antlasma", bolge:2,
+  { tur:"antlasma", bolge:4, ic_not_bolge:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 2→4 — Osmanlı'nın 1914-1918 müttefiki Avusturya-Macaristan'ın tasfiyesi; Sevr'in kardeş antlaşması",
     t: "1919-09-10", k: "antlasma", etiket: ["antlasma","konu-diplomasi","konu-hukuk"],
     kapsam:"dis", b: "Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti", kapsam_genis:true,
     gun: "10 Eylül 1919",
@@ -147,7 +147,7 @@ window.OLAYLAR_OK109 = [
     kaynak: "avusturya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Saint-Germain-en-Laye (10.9.1919), Partie III — Digithèque MJP, Université de Perpignan, https://mjp.univ-perp.fr/traites/1919saintgermain2.htm"
   },
 
-  { tur:"antlasma", bolge:2, odak_yer:["Peşte"],
+  { tur:"antlasma", bolge:4, ic_not_bolge:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 2→4 — Osmanlı'nın 1914-1918 müttefiki Macaristan'ın tasfiyesi; Sevr'den iki ay önceki kardeş antlaşma", odak_yer:["Peşte"],
     t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     kapsam:"dis", b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
     gun: "4 Haziran 1920",

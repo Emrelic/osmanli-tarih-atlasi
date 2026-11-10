@@ -83,7 +83,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"İspanyol ordusu Anvers'i geri aldı ve Schelde nehri kapatıldı. Şehrin tüccarları, zanaatkârları ve sermayesi kuzeye — özellikle Amsterdam'a — göç etti; Altın Çağ'ın sermaye birikimi büyük ölçüde bu göçle kuruldu. Güneyin kaybı, kuzeyin zenginliğinin sebebidir.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
 
-{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:4, dunya:4, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", odak_yer:["Calais","Dover"],
+{ t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:4, dunya:5, ic_not_dunya:"KRON-BOLGE-1110 (Emre, 10 Kasım 2026, öneri listesi onayı): 4→5 — Armada — Atlantik deniz gücünün İspanya'dan İngiltere/Hollanda'ya kayışı", kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", odak_yer:["Calais","Dover"],
   gun:"8 Ağustos 1588 Gregoryen (Gravelines; İngiliz takviminde 29 Temmuz)",
   d:"Manş'ta dağıtılan Armada, İspanya'nın Hollanda isyanını denizden boğma planını sona erdirdi. Cumhuriyet için bu, hayatta kalma ile yok olma arasındaki eşiktir.",
   kaynak:"depo `data/kronoloji_ispanya.js:375` (İSPANYA KRONOLOJİ oturumu) — `dunya:4` oradan devralındı, mükerrer değil Hollanda tarafı" },
