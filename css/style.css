@@ -848,8 +848,9 @@ body {
 }
 #yanpanel-ust #devlet-secici { position: static; margin-top: 0; flex: 1 1 40%; min-width: 0; }
 #yanpanel-ust #devlet-secici-panel { left: 8px; right: 8px; }
-#yanpanel-ust #konu-suzgec { position: static; flex: 0 1 auto; }
-#yanpanel-ust #konu-suzgec .suzgec-govde { left: 8px; right: 8px; }
+/* KONTROL-YERLESIMI-1110 — üst satırda artık seçici + kronoloji başlığı/sayacı.
+   Süzgeç arama satırına (`#kr-arama-satir`), uçuş footer'a geçti. */
+#yanpanel-ust #olay-akisi-baslik { margin-left: auto; align-items: flex-end; font-size: 12px; font-weight: 600; }
 
 /* ⚡ UZUN LİSTE HIZI — Emre (25 Ekim 2026): "Tümünü seç" 1771 kronolojide
    ~17 bin satır çiziyor ve sayfa donuyordu. ÖLÇÜLDÜ (yayın, 1400×900):
@@ -1217,6 +1218,12 @@ body {
 }
 /* ZAMAN-GENİŞ-1008 — esneklik `#zaman`dan sarmala geçti (çubuk + çağ ekseni). */
 #zaman-sarmal { flex: 1 1 auto; min-width: 90px; display: flex; flex-direction: column; }
+/* KONTROL-YERLESIMI-1110 — çubuk footer'ın ilk satırı, TAM genişlik (video
+   oynatıcı düzeni); daraltılmadı çünkü hassas sürükleme aracıdır (Fitts).
+   Uçuş grubu ikinci satırın en sağına yaslı. */
+#zamanbar > #zaman-sarmal { flex: 1 1 100%; padding: 0 4px; }
+#zamanbar > #ucus-grup { margin-left: auto; }
+#zamanbar #ucus-kip { max-width: 90px; }
 #zaman { width: 100%; margin: 0; accent-color: var(--osmanli-kirmizi); height: 5px; }
 /* Çağ ekseni — ana çubuk ve yerleşim çubuğu ortak (js/app.js `zamanEksenDoldur`).
    Yazılar `left:%` ile ölçekteki GERÇEK konumda; ilk/son kenara yaslanır. */
@@ -3587,7 +3594,13 @@ html.atlas-hazir #acilis { opacity: 0; transition: opacity .3s; }
   gap: 4px;
   align-items: center;
   padding: 3px 6px 0;
+  position: relative;            /* KONTROL-YERLESIMI-1110: süzgeç gövdesi satıra göre açılır */
+  z-index: 15;
 }
+/* Süzgeç arama kutusunun yanında; gövdesi satırın TAM genişliğinde açılır
+   (düğme sağda dar — kendi kenarından açılsa panelden taşardı). */
+#kr-arama-satir #konu-suzgec { position: static; flex: 0 0 auto; }
+#kr-arama-satir #konu-suzgec .suzgec-govde { left: 6px; right: 6px; }
 #kr-ara {
   flex: 1 1 auto;
   min-width: 0;                 /* flex çocuğu taşmasın (yan panel 280 px) */

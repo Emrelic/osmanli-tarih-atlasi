@@ -6,7 +6,7 @@
 <title>Tarih Atlası</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <script>window.SURUM="r14960";</script>
-<link rel="stylesheet" href="css/style.css?v=r57038991">
+<link rel="stylesheet" href="css/style.css?v=r14539992">
 </head>
 <body>
 <!-- ACILIS-ANIM-0929 — serpilen haritalar perdesi. <body>'nin HEMEN ardından,
@@ -361,6 +361,17 @@
   </div>
 
   <footer id="zamanbar">
+    <!-- 🆕 KONTROL-YERLESIMI-1110 — Emre, 10 Kasım 2026: kontrolleri ETKİLEDİKLERİ
+         şeyin yanına topladık. ① Zaman çubuğu footer'ın EN ÜSTÜNDE, TAM GENİŞLİK
+         (video oynatıcı düzeni): çubuk hassas bir sürükleme aracıdır, daraldıkça
+         bir piksel daha çok yıla düşer (Fitts) — o yüzden daraltılmadı, kendi
+         satırına alındı. ② Altında: oynatma (sol) · tarihe git + şehir (orta) ·
+         uçuş kipi + ⚙ (sağ, `#ucus-grup`). Uçuş KAMERAYI yönetir, listeyi değil;
+         o yüzden kronoloji sütunundan haritanın altına indi. id'ler aynı. -->
+    <span id="zaman-sarmal">
+    <input type="range" id="zaman" min="0" max="0" step="1">
+    <span id="zaman-eksen" class="zaman-eksen" aria-hidden="true"></span>
+    </span>
     <button id="btn-geri" title="Önceki olaya git">⏮</button>
     <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
     <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
@@ -446,10 +457,25 @@
          / `konumGun`). Altındaki eksen çağ sınırlarını (1281 · 1923) ve ara
          yılları gösterir; doğrusal olmayan ölçeğin GÖRÜNÜR olması şart —
          yoksa kullanıcı çubukta 1000–1281'in neden dar olduğunu bilemez.
-         id AYNI kaldı; sarmal yalnız ekseni çubuğun altına koymak için. -->
-    <span id="zaman-sarmal">
-    <input type="range" id="zaman" min="0" max="0" step="1">
-    <span id="zaman-eksen" class="zaman-eksen" aria-hidden="true"></span>
+         id AYNI kaldı; sarmal yalnız ekseni çubuğun altına koymak için.
+         📌 KONTROL-YERLESIMI-1110: sarmal footer'ın başına taşındı (yukarıda). -->
+    <!-- 🛩 UÇUŞ GRUBU — KONTROL-YERLESIMI-1110 ile `#yanpanel-ust`ten BURAYA indi,
+         satırın en sağına yaslı. Aşağıdaki 24 Ağustos notu kipin kendisini anlatır. -->
+    <span id="ucus-grup">
+        <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
+             seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
+             kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
+             checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
+             getirdi ve hangi zoomda bıraktı ise harita o şekilde
+             kalacaktır."*
+             ⚠️ `pasif` kipte ELLE TIKLAMA da haritayı oynatmaz ("harita o
+             şekilde kalacaktır"); panelde SEBEBİ yazılır. -->
+        <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
+          <option value="pasif">Pasif</option>
+          <option value="ani">Ani</option>
+          <option value="ucus" selected>Uçuş</option>
+        </select>
+        <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
     </span>
     <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
          kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
@@ -593,34 +619,13 @@
           </details>
         </div>
       </div>
-      <span id="ucus-grup">
-        <!-- 🔴🔴 24 Ağustos 2026 — `ucus-ac` ONAY KUTUSU KALDIRILDI, üçüncü
-             seçenek olarak KİP KUTUSUNA katıldı. Emre: *"checkbox
-             kaldırılabilir, ve comboboxda PASİF seçeneği olur … eğer
-             checkbox işaretli değil ise kullanıcı haritayı hangi çerçeveye
-             getirdi ve hangi zoomda bıraktı ise harita o şekilde
-             kalacaktır."*
-
-             NİÇİN GÜVENLİYDİ — değiştirmeden önce ölçüldü: `ucusAcEl`
-             kodun tamamında yedi yerde geçiyordu ve dördü anlamlıydı
-             (bir kapı + üç `essential`). Yani kutu TEK BİR kararı
-             besliyordu: "harita kıpırdasın mı". O karar buraya taşındı.
-
-             ⚠️ Ve bir davranış BİLEREK değişti: `pasif` kipte artık ELLE
-             TIKLAMA da haritayı oynatmıyor. Eskiden `zorla` bayrağı kutuyu
-             atlıyordu ("tıklamak zaten 'beni oraya götür' demektir" — o
-             gerekçe kendi bağlamında doğruydu). Ama Emre'nin tanımı
-             *"harita o şekilde kalacaktır"* diyor; tıklamada kıpırdayan
-             bir harita "o şekilde" kalmış olmaz. ⇒ `pasif` gerçekten
-             pasif, yoksa adı yalan olurdu.
-             📌 Sessiz kalmıyor: pasif kipte tıklanınca panelde SEBEBİ
-             yazılıyor — hiçbir şey yapmamak, kusurdan ayırt edilemez. -->
-        <select id="ucus-kip" title="Sıradaki olaya geçilince harita ne yapsın">
-          <option value="pasif">Pasif</option>
-          <option value="ani">Ani</option>
-          <option value="ucus" selected>Uçuş</option>
-        </select>
-        <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
+      <!-- KONTROL-YERLESIMI-1110 — `#ucus-grup` buradan footer'a indi (kamera
+           kontrolü). Yerine kronoloji başlığı ve sayacı geldi: eskiden ayrı bir
+           `<h2>` satırıydı; şimdi seçicinin yanında, listeye bir satır kaldı.
+           Konu süzgeci arama kutusunun yanına geçti (js/app.js `suzgecKur`). -->
+      <span id="olay-akisi-baslik">
+        <span>📜 Kronoloji</span>
+        <span id="olay-sayac"></span>
       </span>
     </div>
     <section id="padisah-karti">
@@ -655,12 +660,7 @@
            kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor).
            📌 25 Ekim 2026: uçuş grubu ve konu süzgeci `#yanpanel-ust`e taşındı;
            başlıkta yalnız "📜 Kronoloji" ve sayaç kaldı. -->
-      <h2>
-        <span id="olay-akisi-baslik">
-          <span>📜 Kronoloji</span>
-          <span id="olay-sayac"></span>
-        </span>
-      </h2>
+      <!-- KONTROL-YERLESIMI-1110: başlık + sayaç `#yanpanel-ust`e taşındı. -->
       <!-- ZAMAN-ATLAMA-1021 — seyrek devir (veri penceresinden önce) bilgi satırı;
            js/app.js devirBilgiGuncelle() doldurur, 1281+ gizli. -->
       <div id="devir-bilgi" class="gizli" role="status"></div>
@@ -2260,7 +2260,7 @@
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
 <script src="data/ceviri_dizin.js?v=r264830521"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r148083749"></script>
+<script src="js/app.js?v=r77416142"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).
@@ -2307,6 +2307,6 @@
 <script src="js/gelistirici.js?v=r72703999"></script>  <!-- GELİŞTİRİCİ NOTLARI — GitHub Issues `harita-notu`; Claude tarafı arac/not.py -->
 <script src="data/tur_siniflari.js?v=r197039638"></script>  <!-- TUR SINIFLARI: tur -> ana tur (KRON-ALAN-1108) -->
 <script src="js/album.js?v=r82959085"></script>  <!-- ALBÜM düğmesi (DALGA-0059 H-0001) — obGoster sarmalar, app.js SONRASI -->
-<script src="js/tanitim.js?v=r79794304"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
+<script src="js/tanitim.js?v=r124987837"></script>  <!-- TANITIM TURU — açılışta + ☰ Butonlar → ℹ Siteyi tanı; app.js SONRASI -->
 </body>
 </html>

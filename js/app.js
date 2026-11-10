@@ -9422,8 +9422,11 @@ function suzgecUrlOku() {
   // üstüne biniyor (css/style.css #konu-suzgec).
   // 📌 25 Ekim 2026 — Emre: "konu süzgeci ve uçuş butonu yan yana en tepede."
   // #ucus-grup artık `#yanpanel-ust`te; kutu nerede olursa onun ÖNÜNE girer.
-  var _ucus = document.getElementById("ucus-grup");
-  if (_ucus) _ucus.parentNode.insertBefore(kutu, _ucus);
+  // 📌 KONTROL-YERLESIMI-1110 (Emre, 10 Kasım 2026): uçuş grubu haritanın
+  // altına indi (kamerayı yönetir). Süzgeç LİSTEYİ süzdüğü için sütunda kaldı,
+  // arama kutusunun YANINA geçti — ikisi aynı soruyu sorar: "hangi maddeler?".
+  var _araSatir = document.getElementById("kr-arama-satir");
+  if (_araSatir) _araSatir.appendChild(kutu);
   else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
   if (suzgecSecim || toprakSecim || baslikSecim || sehirKronGizli) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
