@@ -2963,6 +2963,28 @@ span.ob-madde-gorsel-kaynak { color: #6b5a33; border-bottom: none; font-style: i
 .bosluk-kutu.sade .bosluk-ad { display: none; }
 #harita.cok-uzak .bosluk-halka { width: 9px; height: 9px; }
 
+/* post-it #180: araştırılıp doğrulanmış boşluk etiketi — küçük, soluk, italik. */
+.bosluk-dogr {
+  font-size: 10px;
+  font-style: italic;
+  color: #6b5a3a;
+  background: rgba(247, 241, 227, 0.72);
+  border: 1px dashed rgba(107, 90, 58, 0.55);
+  border-radius: 8px;
+  padding: 0 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  pointer-events: auto;
+}
+#harita.cok-uzak .bosluk-dogr { display: none; }
+.lejant i.bosluk-dogr-ornek {
+  width: 14px; height: 14px; border-radius: 50%;
+  background: rgba(247, 241, 227, 0.9);
+  border: 1.5px dashed rgba(107, 90, 58, 0.7);
+  font: italic 700 9px/11px system-ui, sans-serif;
+  color: #6b5a3a; text-align: center; display: inline-block;
+}
+
 .bosluk-soru {
   width: 18px;
   height: 18px;

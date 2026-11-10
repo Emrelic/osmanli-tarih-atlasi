@@ -88,6 +88,16 @@ CINSLER = {
                   "gosterim": "soru"},
     "hata":      {"ad": "hata kaydı", "aciklama": "düzeltme bekliyor",
                   "gosterim": "bos"},
+    # 🔴 10 Kasım 2026 — Emre, post-it #180: kaynak merdiveniyle araştırılıp
+    # "bu dilimde sahip kaynaklarda yok" diye KARARLAŞTIRILMIŞ boşluklar
+    # haritada küçük bir devletsiz etiketiyle görünsün; boşluk kalkana kadar.
+    # Böylece sonradan bakan, sebebin araştırılıp doğrulandığını anlar.
+    # veri-yok'tan farkı: o "bilmiyoruz, bakılmadı"; bu "baktık, kaynak da bilmiyor".
+    # Veri: yerleşimde dogrulanmis_bosluk:[{f,t,etiket,ozet}] (elle, kaynaklı).
+    "dogrulanmis": {"ad": "devletsiz — araştırıldı, kaynaklarda sahibi yok",
+                    "aciklama": "bu dilimin sahibi kaynak merdiveniyle "
+                                "araştırıldı ve kaynaklarda bulunamadı",
+                    "gosterim": "etiket"},
 }
 
 
@@ -96,6 +106,20 @@ def main():
     Y = girdi.yukle(sessiz=True)
     kayit = []
     for y in Y:
+        # Doğrulanmış boşluk etiketleri: pencere kaydın KENDİ f/t'sidir
+        # (yerleşimin s: dönemi __BOSLUK__ olduğundan _bos_pencereler
+        # o aralığı "dolu" sayar; bu cins ondan bağımsız yazılır).
+        for dg in (y.get("dogrulanmis_bosluk") or []):
+            if not (isinstance(dg, dict) and dg.get("f") and dg.get("t")
+                    and dg.get("etiket")):
+                continue
+            kayit.append({
+                "ad": str(dg["etiket"]), "lat": y["lat"], "lon": y["lon"],
+                "cins": "dogrulanmis",
+                "neden": _okura(dg.get("ozet") or ""),
+                "yaricap_km": None,
+                "p": [(str(dg["f"]), str(dg["t"]))],
+            })
         c = y.get("bos")
         if not c:
             continue
@@ -159,7 +183,7 @@ def main():
             "[%s,%s]" % (_s(a) if a else "null", _s(b) if b else "null") for a, b in p)
         g.write("{ad:%s, lat:%.4f, lon:%.4f, cins:%s, yaricap_km:null, neden:%s%s},\n"
                 % (_s(k["ad"]), k["lat"], k["lon"], _s(k["cins"]),
-                   _s(k["neden"][:300]), ps))
+                   _s(k["neden"][:(900 if k["cins"] == "dogrulanmis" else 300)]), ps))
     g.write("];\n")
     io.open(CIKTI, "w", encoding="utf-8", newline="\n").write(g.getvalue())
     print("🟢 %s yazıldı · %d kayıt" % (os.path.relpath(CIKTI, KOK), len(kayit)))

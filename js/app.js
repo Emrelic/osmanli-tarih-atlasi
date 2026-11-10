@@ -3618,8 +3618,28 @@ harita.on("load", function () {
       //   benek  "aşiret denetimi var, sınırı geçirgen"
       //   soru   "kaynak susuyor, BİLMİYORUZ"
       //   halka  "yerleşim var, devlete bağlı değil, hakkı saklı"
-      if (gosterim !== "benek" && gosterim !== "soru" && gosterim !== "halka")
+      if (gosterim !== "benek" && gosterim !== "soru" && gosterim !== "halka" && gosterim !== "etiket")
         return;                                        // "bos" -> hiç çizilmez
+      // 10 Kasım 2026 (post-it #180, Emre): kaynak merdiveniyle araştırılıp sahibi
+      // bulunamayan dilimler, boşluk sürdüğü sürece küçük bir "devletsiz" etiketiyle
+      // görünür. Zaman penceresi kaydın kendi f/t'sidir (_pencereKaydet).
+      if (gosterim === "etiket") {
+        var ek = document.createElement("div");
+        ek.className = "bosluk-dogr";
+        ek.textContent = k.ad;
+        ek.title = k.ad + " — " + (c ? c.ad : k.cins);
+        ek.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var gv = "<b>" + k.ad.replace(/</g, "&lt;") + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
+            "<p>" + (k.neden || "").replace(/</g, "&lt;") + "</p>";
+          boslukPopup.setLngLat([k.lon, k.lat]).setHTML(gv).addTo(harita);
+        });
+        // Yerleşim adının altına yaslanır; nokta etiketiyle çakışmasın.
+        new maplibregl.Marker({ element: ek, anchor: "top", offset: [0, 10] })
+          .setLngLat([k.lon, k.lat]).addTo(harita);
+        _pencereKaydet(ek, k);
+        return;
+      }
       // 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de şehir
       // devletlerinin yanına yazalım." `halka` glifi bugüne kadar yalnız
       // hover'da (`title`) ad taşıyordu; `.sehir .s-ad` deseniyle AYNI
@@ -3756,6 +3776,8 @@ harita.on("load", function () {
     '<span><i class="bosluk-soru-ornek"></i> ' +
       ((window.BOS_CINSLER && window.BOS_CINSLER["veri-yok"]) ? window.BOS_CINSLER["veri-yok"].ad : "veri yok") +
       ' — kaynak SUSUYOR, "boş" değil "bilmiyoruz"</span>' +
+    ((window.BOS_CINSLER && window.BOS_CINSLER.dogrulanmis)
+      ? '<span><i class="bosluk-dogr-ornek">D</i> ' + window.BOS_CINSLER.dogrulanmis.ad + '</span>' : '') +
     // 🔴 `#alan-goster` BURADAN ÇIKARILDI — zaman çubuğuna taşındı (index.html).
     // Sebebi ölçüldü: bu kutunun bir gizle düğmesi var ve tercih
     // `localStorage`'da SAKLANIYOR (kullanıcı isteğiydi: "her açılışta yeniden
