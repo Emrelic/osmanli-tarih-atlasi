@@ -3357,7 +3357,8 @@ window.DEVLETLER = [
 { id:"dagbon", ad:"Dagbon Krallığı (Dagomba)", tur:"krallik", bolge:"bati-afrika",
   f:"1401-01-01", t:"1899-11-14", ic_not_t:"Anglo-Alman antlaşması 1899-11-14; Hertslet, 3. basım 1909; Yendi adı geçmiyor, doğu yarı çıkarım · BEYANLI (gece-128, KASA PAZAR 6 Kasım 2026)", kesinlik:{f:"yuzyil"}, baskent:"Yendi",
   ozet:"Dagomba halkının Ya Naa unvanlı hükümdarlarca yönetilen krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Yendi.",
+  kaynak:"Martin Staniland, «Dagomba divided and united, 1899-1930», The Lions of Dagbon: Political Change in Northern Ghana (Cambridge University Press, 1975), s.57-77, DOI 10.1017/CBO9780511759543.006 — bölüm özeti okundu",
+  ic_not:"KUNYE-AFRIKA-1110: t YILI (1899, İngiltere-Almanya sözleşmesiyle bölünme) bölüm özetinde teyit edildi; t'deki gün (14 Kasım) bu kaynakta yok [yalnız yıl teyitli; gün teyitsiz]. f için kaynak bulunamadı. TEK KAYNAK, kısmi teyit.",
   kronoloji:[
     { odak_yer:["Yendi"], t:"1401-01-01", tur:"kurulus", b:"Dagbon krallığı teşekkül etti" },
     { odak_yer:["Yendi"], t:"1416-01-01", tur:"hukumdar", b:"Naa Nyagsi tahta çıkıp Yani Dabari'de (Diyali/Tamale yakını) merkezî bir siyasi teşkilat kurarak Dagbon devletini istikrara kavuşturdu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Naa Nyagsi, 1416-1432) doğrulandı." },
@@ -4152,7 +4153,8 @@ window.DEVLETLER = [
 { id:"basuto", ad:"Basuto (Basotho) Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1822-01-01", t:"1868-03-12", baskent:"Thaba Bosiu",
   ozet:"Moshoeshoe'nin dağ kalesi Thaba Bosiu çevresinde topladığı Sotho topluluklarından doğan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Moshoeshoe'nin devleti; Thaba Bosiu; İngiliz himayesi 1868.",
+  kaynak:"South African History Online, «The three Basotho Wars (1858-68) and the formation of Lesotho» (sahistory.org.za/article/basotho-wars-1858-1868) — «Basutoland was then annexed on 12 March 1868»",
+  ic_not:"KUNYE-AFRIKA-1110: t günü (1868-03-12) SAHO sayfasında okunarak teyit edildi (TEK KAYNAK; editörlü ansiklopedik, hakemli dergi değil). f=1822 teyitsiz: sayfa «1820'de Moshoeshoe daha geniş bir birimin şefi oldu» diyor (1820/1822 farkı olası; f değişmedi).",
   kronoloji:[
     { odak_yer:["Thaba Bosiu"], t:"1822-01-01", tur:"kurulus", b:"Moshoeshoe Basuto birliğini kurdu" },
     { odak_yer:["Thaba Bosiu"], t:"1858-03-19", tur:"savas", b:"Oranj Hür Devleti'nin savaş ilânıyla Birinci Basotho (Senekal) Savaşı başladı", kaynak:"South African History Online, 'Basotho Wars 1858-1868'. (Aynı kaynak ikinci bir gün olarak 22 Mart 1858'i de anıyor.)" },
@@ -6253,7 +6255,8 @@ window.DEVLETLER = [
 { id:"merina", ad:"Merina Krallığı (Madagaskar)", tur:"krallik", bolge:"dogu-afrika",
   f:"1787-01-01", t:"1897-02-28", baskent:"Antananarivo",
   ozet:"Andrianampoinimerina'nın Imerina platosunu birleştirip kurduğu, kısa sürede Madagaskar adasının büyük bölümüne hâkim olan krallık; Fransız istilasıyla sona erdi, Kraliçe III. Ranavalona sürgüne gönderildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"EBSCO Research Starters, «Merina Kingdom» (ebsco.com/research-starters/politics-and-government/merina-kingdom) — Ralambo (1575-1610), Andrianampoinimerina (1787-1810), Fransız kolonileşmesi 28 Şubat 1897",
+  ic_not:"KUNYE-AFRIKA-1110: t günü (1897-02-28) teyit edildi. f=1787 ÇELİŞKİLİ: sayfa krallığın kurucusu olarak Ralambo'yu (hük. 1575-1610) gösterir; 1787 Andrianampoinimerina'nın birleştirmesidir (f değişmedi, künye sahibine bildirildi). TEK, ikincil kaynak; hakemli teyit (Britannica/Campbell) gerek.",
   kronoloji:[
     { odak_yer:["Antananarivo"], t:"1787-01-01", tur:"kurulus", b:"Andrianampoinimerina, İmerina platosunu birleştirdi" },
     { odak_yer:["Antananarivo"], t:"1817-01-01", tur:"antlasma", b:"İngiltere ile antlaşma imzalayıp modernleşme sürecine girdi" },
@@ -6276,7 +6279,8 @@ window.DEVLETLER = [
 { id:"umman-zengibar", ad:"Umman-Zengibar Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
   f:"1698-01-01", t:"1964-01-12", ic_not_t:"pencere ucu, ölçüm değil (D210): 1945 ufkundan sonra bitti — sultanlığın sonu 1964 (TDV zengibar — ajan özetinde 12 Ocak 1964, kelimesi kelimesine teyit EDİLEMEDİ)", baskent:"Maskat → Zengibar (Stone Town)",
   ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"TDV İslâm Ansiklopedisi, «Zengibar» (islamansiklopedisi.org.tr/zengibar) — 12 Ocak 1964 ihtilâli, Zengibar Halk Cumhuriyeti'nin ilânı",
+  ic_not:"KUNYE-AFRIKA-1110: t günü (1964-01-12) TDV «Zengibar» maddesinde okunarak teyit edildi. f=1698 ÇELİŞKİLİ: TDV 1698'de yalnız Portekiz işgalinin bittiğini söyler; Said b. Sultan 1837'de Mombasa'yı alıp 1840'ta başkenti Zengibar'a taşıdı, Umman'dan ayrılış 1861 (1862 İngiliz-Fransız bildirisi). Künye 1698-1861 birlikte ve 1861 sonrası ayrı ele alınmalı (künye sahibine bildirildi, f/t değişmedi). TEK KAYNAK.",
   kronoloji:[
     { odak_yer:["Maskat"], t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı", ic_not_b:"eski b: Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
     { odak_yer:["Maskat"], t:"1832-01-01", tur:"hukumdar", b:"Said bin Sultan başkentini Zengibar'a taşıdı" },
