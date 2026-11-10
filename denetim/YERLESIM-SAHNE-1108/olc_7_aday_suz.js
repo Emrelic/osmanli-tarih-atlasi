@@ -12,6 +12,19 @@ for (const y of Y) {
   if (p) for (const a of p[1].split(/[\/,;]/)) ekle(a, y);
   ekle(y.ad, y);
 }
+// Alias VERİDEN (data/ad_esanlam.js, ALIAS-VERI 10 Kasım 2026): atlas adı -> eşanlamlar; eşanlam da o yerleşimi bulur.
+// 4. argüman: sözlük dosyası yolu ('-' = sözlüğü kullanma, taşıma-öncesi taban çizgisi).
+const SOZ = process.argv[4] === '-' ? null : (process.argv[4] || path.join(__dirname, '..', '..', 'data', 'ad_esanlam.js'));
+let aliasEklenen = 0;
+if (SOZ) {
+  const w = o.yukleYol ? o.yukleYol(SOZ) : (() => { const sb = { window: {} }; require('vm').runInNewContext(fs.readFileSync(SOZ, 'utf8'), sb); return sb.window; })();
+  const es = (w.AD_ESANLAM && w.AD_ESANLAM.esanlam) || {};
+  const adIdx = new Map(Y.map(y => [y.ad, y]));
+  for (const [atlasAd, liste] of Object.entries(es)) {
+    const y = adIdx.get(atlasAd); if (!y) continue;
+    for (const e of liste) { ekle(e, y); aliasEklenen++; }
+  }
+}
 const rows = fs.readFileSync(path.join(CIK, 'm1_EKSIK_YERLESIM_ADAY.tsv'), 'utf8').split('\n').slice(1).filter(Boolean).map(l => l.split('\t'));
 const var_ = [], yok = [];
 for (const r of rows) {
@@ -21,4 +34,4 @@ for (const r of rows) {
 }
 fs.writeFileSync(path.join(CIK, 'm7_aday_zaten_var.tsv'), 'aday\tmadde\tilk\tatlas_ad\tkonum\n' + var_.join('\n'));
 fs.writeFileSync(path.join(CIK, 'm7_aday_gercekten_yok.tsv'), 'aday\tmadde\tilk\tdosyalar\n' + yok.join('\n'));
-console.log(JSON.stringify({ aday: rows.length, zatenVar: var_.length, gercektenYok: yok.length }));
+console.log(JSON.stringify({ aliasEklenen, aday: rows.length, zatenVar: var_.length, gercektenYok: yok.length }));

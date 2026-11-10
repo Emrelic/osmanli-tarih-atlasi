@@ -198,9 +198,9 @@ def _sinav():
     cikis = 0
     print("=== C13 ① GECME YOLU — kusursuz girdi sessiz mi ===")
     s = yukle()
-    atlas = {"Budin", "Eğirdir", "Üsküp", "Haydarâbâd (Sind)",
+    atlas = {"Aquincum-Óbuda-Pest", "Eğirdir", "Üsküp", "Haydarâbâd (Sind)",
              "Haydarâbâd (Dekken)", "Kudüs", "Kudus"}
-    bekle = [("Budin", "birebir"), ("Buda", "esanlam"),
+    bekle = [("Aquincum-Óbuda-Pest", "birebir"), ("Buda", "esanlam"),
              ("Eğridir", "esanlam"), ("Skopje", "esanlam"),
              ("Üsküp", "birebir")]
     for ad, d in bekle:
@@ -231,7 +231,7 @@ def _sinav():
         print("      🟢 carpisma gercek; sozlukte KAYITLI")
 
     print("   dal C: sozluk kendi icinde cakisirsa DURMALI (zorlanmis girdi)")
-    sahte = {"esanlam": {"Budin": ["Buda"], "Peşte": ["Buda"]}, "belirsiz": {}}
+    sahte = {"esanlam": {"Aquincum-Óbuda-Pest": ["Buda"], "Peşte": ["Buda"]}, "belirsiz": {}}
     try:
         ters_dizin(sahte)
         print("      🔴 DAL OTMEDI — cakisma sessizce gecti")

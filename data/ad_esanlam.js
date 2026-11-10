@@ -66,7 +66,44 @@ window.AD_ESANLAM = {
     "Sultâniye":              ["Sultaniye"],
     "Bîdar":                  ["Bidar"],
     "Isfahan":                ["İsfahan"],
-    "Suçava (Suceava)":       ["Suceava"]
+    "Suçava (Suceava)":       ["Suceava"],
+
+    // ─── YERLESIM-SAHNE-1108 (9-10 Kasım 2026, Emre kararı: alias VERİDE, diger_ad alanı YOK) ───
+    // Her çift için atlas adı atlasta VAR (ölçüldü), eşanlam atlasta AYRI ad olarak YOK. Dayanak: aşağıda "kaynak".
+    "Hemedan":                ["Ekbatana", "Ecbatana"],
+    "Bergama":                ["Pergamon"],
+    "Marsilya":               ["Massalia"],
+    "Sart":                   ["Sardes"],
+    "Ktesiphon":              ["Ktesifon"],
+    "Cerablus":               ["Karkemiş"],
+    "Feremâ":                 ["Pelusium"],
+    "Uksur (Luksor)":         ["Teb"],
+    "Ayasuluk (Selçuk)":      ["Efes"],
+    "Berde (Karabağ)":        ["Berdea"],
+    "Kannauc":                ["Kannauj"],
+    "Pyongyang":              ["Seogyeong"],
+    "Pekin (Hanbalık)":       ["Youzhou"],
+    "Daming":                 ["Weizhou"],
+    "Xiazhou (Tongwancheng)": ["Shuofang"],
+    "Sonepur (Subarnapur)":   ["Suvarnapura"],
+    "Angkor Borei":           ["Vyadhapura"],
+    "Meyyâfârikīn":           ["Silvan"],
+    "Kyoto":                  ["Heian-kyō"],
+    "Yangzhou":               ["Jiangdu"],
+    "Addis":                  ["Addis Ababa"],
+    "Urga (Ulan Batur)":      ["Ulanbator"],
+    "Polonnaruwa":            ["Polonnaruva"]
+  },
+
+  // ─── DAYANAK: yeni çiftlerin kaynağı (anahtar = atlas adı) ─────────
+  // denetim/YERLESIM-SAHNE-1108/cikti/arastirma/arastirma_A,B,C.json ("notlar": mevcut kayıt, ad eşleşmesi).
+  // 🔴 TDV TEYİDİ BEKLİYOR: araştırma ajanları TDV'yi okumadı; çiftler atlasın kendi kaydıyla KOORDİNAT
+  //    eşleşmesiyle ölçüldü (yer aynı), ad-tarih dayanağı tek tek TDV/akademik teyit ister (kaynak sırası ①).
+  "kaynak": {
+    "_genel": "YERLESIM-SAHNE-1108 UYGULAMA-0911 §1: araştırma ajanı A/B/C bulgusu; atlas kaydıyla koordinat eşleşmesi ölçüldü; TDV/akademik ad teyidi bekliyor",
+    "Hemedan": "Encyclopaedia Iranica 'Ecbatana' (arastirma_A.json) — TDV teyidi bekliyor",
+    "Ayasuluk (Selçuk)": "Efes≈Ayasuluk: aynı yerleşme alanı, antik Efes ile ortaçağ Ayasuluk tam örtüşmez — YAKLAŞIK; TDV 'Efes' teyidi bekliyor",
+    "Uksur (Luksor)": "Teb = Thebai (Mısır); Yunan Thebai için ayrı kayıt İstefe (Tebai) — çakışmaz"
   },
 
   // ─── ÇÖZÜLMEZ: çıplak ad birden çok yere düşüyor ───────────────────

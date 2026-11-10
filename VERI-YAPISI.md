@@ -687,6 +687,9 @@ başkentken** yıldıza dönüşecek — bunun için zaman penceresi şart.
    ikincisi yanlış reddetti). Tesadüf değil, **işaret.**
    🔜 Çare bir eşanlamlı sözlüğü (`data/ad_esanlam.js`) — üç aleti birden
    düzeltir. Ayrı kalem, **kaydedildi**, açılmadı.
+   ✅ **Yazıldı (10 Kasım 2026, Emre kararı):** alias VERİDE tutulur — `data/ad_esanlam.js` `esanlam`
+   (anahtar = atlas adı, değer = öteki yazımlar; `kaynak` bölümü dayanağı). Yerleşime `diger_ad` alanı AÇILMAZ.
+   Okuyanlar: `arac/ad_esanlam.py` (tek otorite) · `silsile_olc.py` · `once1281_envanter.py` · `_bk_nobetci.py`.
 ⑤ Dönemler çakışmaz, ters olmaz, sıfır uzunlukta olmaz — `d:`/`s:` ile
    aynı disiplin.
 ```
