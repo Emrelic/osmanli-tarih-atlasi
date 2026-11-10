@@ -25,3 +25,9 @@
 
 ## Uygulama kuralları (yeni oturum için)
 Yeni künye: `data/devletler.js` sonuna (`];` öncesi) eklenir; `harita:` yalnız `arac/renkler.py BOYALAR`da olan bir anahtar (renkler.py'ye DOKUNMA; yeni renk → `denetim/DUNYA-1102/renk_bekleyen.md`); gün yoksa `YYYY-01-01` + `ic_not` "yalnız yıl teyitli"; en az 3 günlü kaynaklı kronoloji maddesi `data/kronoloji_<kisaltma>.js` (yeni dosya → index.html script satırı); sonra `py arac/denetle.py`, `paketle.py yenile`, `surum_damgala.py`, push kapısı.
+
+## FAZ 2 durumu (10 Kasım 2026, KUNYE-NIHAI)
+- **UYGULANDI:** timor-leste (f 2002-05-20) — künye + 3 günlü madde (`data/kronoloji_timor_leste.js`), main'de (push kapısı, origin/main 9fa72fb5). 2002-04-14 seçim günü bellekten, bağımsız teyitsiz → akademik teyit gerek. Boya: `harita:"untaet"` (kendi rengi `denetim/DUNYA-1102/renk_bekleyen.md`).
+- **Çeviri tavanı açıldı:** `arac/ceviri.py` BEKLENEN_CEVIRI_EKSIK devlet 0 → 1 (7 dil); aşan kayıt timor-leste; çeviri gelince indirilir.
+- **KAYNAK GEREK (açılmadı):** kubadogullari (f yok) · teselya-sirp-yunan (TDV'de doğrulanmadı) · arnavutluk-anjou-kralligi (t çelişkili) · jumbe-sultanligi (t çelişkili) · gwiriko (yalnız yıl, tek kaynak) · valais-cumhuriyeti (f çelişkili) · chen-han (gün teyitsiz). Sonraki kaynak yukarıdaki tabloda; öncelik 2-4 adaylarına kaynak turu yapılmadı.
+- BAĞLA `s:` taşımaları (11) yapılmadı.
