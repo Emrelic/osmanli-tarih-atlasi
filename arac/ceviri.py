@@ -56,13 +56,13 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # Jülyen, Şah Abbas 'Ekim # — ay hassasiyeti'). Çeviri işleri Emre'nin 4 Kasım kararıyla bekliyor.
 # Eski değerler: eksik arayüz 4, olay en/ar/es/de 14, pt 1131, ru 3228, fr 4128.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 6, "devlet": 0, "olay": 36},
-    "ar": {"arayuz": 6, "devlet": 0, "olay": 36},
-    "es": {"arayuz": 6, "devlet": 0, "olay": 36},
-    "de": {"arayuz": 6, "devlet": 0, "olay": 36},
-    "pt": {"arayuz": 6, "devlet": 0, "olay": 1153},
-    "ru": {"arayuz": 6, "devlet": 0, "olay": 3250},
-    "fr": {"arayuz": 6, "devlet": 0, "olay": 4150},
+    "en": {"arayuz": 6, "devlet": 1, "olay": 36},
+    "ar": {"arayuz": 6, "devlet": 1, "olay": 36},
+    "es": {"arayuz": 6, "devlet": 1, "olay": 36},
+    "de": {"arayuz": 6, "devlet": 1, "olay": 36},
+    "pt": {"arayuz": 6, "devlet": 1, "olay": 1153},
+    "ru": {"arayuz": 6, "devlet": 1, "olay": 3250},
+    "fr": {"arayuz": 6, "devlet": 1, "olay": 4150},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
