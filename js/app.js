@@ -17407,7 +17407,7 @@ function kronoTemsilEdiliyor(k, derin) {
   // (data/olay_taraf.js): { "<t>|<b>": ["künye-id", …] } — madde dosyalarına dokunulmaz.
   // Aynı pencere sınavı ve aynı mükerrer kuralı (t+b) uygulanır; aşağıdaki sayaçlar BASILIR.
   var olayTaraf = window.OLAY_TARAF || {}, olayEklenen = 0, olayEslesen = 0;
-  if (window.OLAY_TARAF) olaylar.forEach(function (m) {
+  if (window.OLAY_TARAF && typeof olaylar !== "undefined") olaylar.forEach(function (m) {
     if (m.kapsam !== "dis") return;
     var ids = olayTaraf[m.t + "|" + m.b];
     if (!ids) return;
