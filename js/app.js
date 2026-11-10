@@ -5957,7 +5957,8 @@ function isyanGuncelle(t) {
 //   peteği tâbi kümesinden düşürdüyse (köprü, rötuş) hat dolgudan sapabilir.
 // 🔴 BÜTÇE: kare başına yalnız imza karşılaştırması; kenar hesabı imza (etkin
 //   petek×grup kümesi) değişince. Havuz (~2,2 MB) ilk tâbi günde BİR KEZ iner.
-var VIC = { imza: null, liste: null, yukleniyor: false, sahip: [] };
+var VIC = { imza: null, liste: null, yukleniyor: false, sahip: [], nokta: {},
+  icDonem: null, icSonuc: {}, icHalka: null };
 function _vicListe() {
   if (VIC.liste) return VIC.liste;
   var petAd = {}, L = [];
@@ -5976,6 +5977,7 @@ function _vicListe() {
       (y[a] || []).forEach(function (p) { if (p.f && p.t) aral.push([gunIdx(p.f), gunIdx(p.t)]); });
     });
     VIC.sahip.push({ j: j, aral: aral });
+    if (typeof y.lon === "number" && typeof y.lat === "number") VIC.nokta[j] = [y.lon, y.lat];
   });
   VIC.liste = L;
   return L;
@@ -5992,6 +5994,39 @@ function _vicSahipsiz(t) {
   });
   return r;
 }
+// Postit #183 (1676-09-19, Bahmut): #135 kuralı sahipsiz peteği tâbi grubuna YALNIZ KOMŞULUKLA
+// katıyordu; Bahmut 86 kenarının 1'ini Kırım'la paylaştığı için Kırım hattını aldı, oysa boyada
+// Don Kazak/Rus yeşiline emilmişti → yeşil toprağın ortasında koyu kırmızı halka. Şimdi sahipsiz
+// petek ancak yerleşim noktası o günün tâbi DOLGUSUNUN (`vassal` kaynağı, rötuşlu) içindeyse
+// katılır. Sonuç dönem başına önbellekte (dolgu yalnız dönem değişince değişir).
+function _vicTabiIcinde(j) {
+  if (VIC.icDonem !== aktifDonem) {
+    VIC.icDonem = aktifDonem; VIC.icSonuc = {}; VIC.icHalka = [];
+    ((window._VAS_VERI && window._VAS_VERI.features) || []).forEach(function (f) {
+      var g = f.geometry; if (!g) return;
+      var P = g.type === "Polygon" ? [g.coordinates] : g.type === "MultiPolygon" ? g.coordinates : [];
+      P.forEach(function (pol) {
+        if (!pol || !pol[0] || !pol[0].length) return;
+        var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+        pol[0].forEach(function (c) {
+          if (c[0] < x0) x0 = c[0]; if (c[0] > x1) x1 = c[0];
+          if (c[1] < y0) y0 = c[1]; if (c[1] > y1) y1 = c[1];
+        });
+        VIC.icHalka.push({ pol: pol, k: [x0, y0, x1, y1] });
+      });
+    });
+  }
+  if (j in VIC.icSonuc) return VIC.icSonuc[j];
+  var p = VIC.nokta[j], ic = false;
+  if (p) for (var i = 0; i < VIC.icHalka.length && !ic; i++) {
+    var H = VIC.icHalka[i], k = H.k;
+    if (p[0] < k[0] || p[0] > k[2] || p[1] < k[1] || p[1] > k[3]) continue;
+    if (!noktaIcinde(p, H.pol[0])) continue;
+    ic = true;
+    for (var d = 1; d < H.pol.length; d++) if (noktaIcinde(p, H.pol[d])) { ic = false; break; }
+  }
+  return (VIC.icSonuc[j] = ic);
+}
 function vassalIcSinirGuncelle(t) {
   if (!haritaHazir || !harita.getSource("vassal-ic")) return;
   var etkin = [];
@@ -6001,7 +6036,7 @@ function vassalIcSinirGuncelle(t) {
       if (t >= L[i].fi && t < L[i].ti) etkin.push(L[i]);
     }
   }
-  var sahipsiz = etkin.length ? _vicSahipsiz(t) : [];
+  var sahipsiz = etkin.length ? _vicSahipsiz(t).filter(_vicTabiIcinde) : [];
   var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";") + "|" + sahipsiz.join(",");
   if (imza === VIC.imza) return;
   if (imza && !window.PETEK_GOVDE) {
@@ -11509,6 +11544,7 @@ function guncelle() {
     vasVeri = rotusUygula(vasVeri, suanki, function () { return "OSM-TABI"; }, "vassal");
     harita.getSource("osmanli").setData(osmVeri);
     harita.getSource("vassal").setData(vasVeri);
+    window._VAS_VERI = vasVeri;   // Postit #183 — tâbi hattı sahipsiz petek testi (`_vicTabiIcinde`)
     // Himaye şeridi: `d.h` her öğesi ayrı bir gövde (kendi rengiyle) — bkz.
     // şema sözleşmesi ve GEÇME notu `donemler` kurulumunda. `d.h` boşsa
     // (bugün 462/462) himVeri boş kalır, katman hiç dolmaz.
