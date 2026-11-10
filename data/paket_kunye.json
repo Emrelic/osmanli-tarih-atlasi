@@ -269,8 +269,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_guney_g8.js",
-     "sha": "fa3869fb04830aa6",
-     "bayt": 62292
+     "sha": "124d9fd369c6d044",
+     "bayt": 62584
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
@@ -314,8 +314,8 @@
     },
     {
      "yol": "data/kronoloji_cok_1dunya_B.js",
-     "sha": "7a1d3318194362b3",
-     "bayt": 75806
+     "sha": "6c40944c6451838a",
+     "bayt": 75833
     },
     {
      "yol": "data/kronoloji_italya.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1197431
+   "bayt": 1197750
   },
   {
    "paket": "data/paket_10.js",
@@ -412,13 +412,13 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_anadolu.js",
-     "sha": "3b27626364c4b4b9",
-     "bayt": 161373
+     "sha": "78fb1f6fd9a30fdb",
+     "bayt": 161390
     },
     {
      "yol": "data/kronoloji_arabistan.js",
-     "sha": "786c3d92140b8983",
-     "bayt": 49478
+     "sha": "ceeab95ba81d6d02",
+     "bayt": 49494
     },
     {
      "yol": "data/kronoloji_atina_dukaligi.js",
@@ -427,8 +427,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "a1ab0b29fbc6d24c",
-     "bayt": 143082
+     "sha": "bf422c04dd361f8b",
+     "bayt": 143162
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -537,8 +537,8 @@
     },
     {
      "yol": "data/kronoloji_sirbistan.js",
-     "sha": "6f31ec5c559fb0b6",
-     "bayt": 33045
+     "sha": "8726720dcde15fe9",
+     "bayt": 33082
     },
     {
      "yol": "data/kisiler.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2137439
+   "bayt": 2137589
   },
   {
    "paket": "data/paket_13.js",
@@ -1605,8 +1605,8 @@
     },
     {
      "yol": "data/kronoloji_cok_hollanda.js",
-     "sha": "45bb58650a95977f",
-     "bayt": 47580
+     "sha": "f93cd84f35d5ae63",
+     "bayt": 47624
     },
     {
      "yol": "data/kronoloji_cok_ispanya.js",
@@ -1634,7 +1634,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 1096501
+   "bayt": 1096545
   }
  ]
 }

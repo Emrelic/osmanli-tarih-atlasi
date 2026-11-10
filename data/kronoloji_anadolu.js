@@ -1833,7 +1833,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Sis'in düşüşünün ardından soylular, din adamları ve halktan pek çok Ermeni, akraba Lusignan hanedanının yönettiği Kıbrıs Krallığı'na sığındı; ada üzerinde kalıcı bir Ermeni cemaati oluştu ve krallığın kültürel mirası (el yazmaları, zanaatlar) oraya taşındı.",
   kaynak:"Bournoutian (2006); genel Kıbrıs-Ermeni tarihi literatürü — kesin rakamlar doğrulanamadı, ikincil özetten derlendi" },
 
-{ t:"1382-10-01", b:"VI. Levon Kahire esaretinden fidyeyle kurtuldu", tur:"sosyal",
+{yer_id:"Kahire",  t:"1382-10-01", b:"VI. Levon Kahire esaretinden fidyeyle kurtuldu", tur:"sosyal",
   onem:3, dunya:2, kapsam:"dis", etiket:["esaret", "fidye", "Kastilya", "konu-kisiler", "konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Krallığın son kralı VI. Levon, Sis'in düşüşünden sonra ailesiyle Kahire'de yedi yıl esir tutuldu; Kastilya Kralı I. Juan'ın ödediği fidyeyle 1382'de serbest bırakıldı ve Fransa'ya sığınarak ömrünün geri kalanını Avrupa saraylarında Haçlı seferi çağrısı yaparak geçirdi; 1393'te Paris'te öldü, Saint-Denis yakınındaki Célestins kilisesine gömüldü.",

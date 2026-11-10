@@ -1,0 +1,20 @@
+{
+ "madde": 18004,
+ "konumlu_yer_kon": 1226,
+ "konumlu_yer_id": 11995,
+ "konumlu_odak_yer": 4457,
+ "konumsuz": 316,
+ "yer_id_cozulmez": 32,
+ "odak_yer_cozulmez_madde": 2,
+ "odak_yer_ad_cozulmez_top": [
+  [
+   "Chełm",
+   1
+  ],
+  [
+   "Brest-Litovsk",
+   1
+  ]
+ ],
+ "odak_yer_ad_cozulmez_benzersiz": 2
+}

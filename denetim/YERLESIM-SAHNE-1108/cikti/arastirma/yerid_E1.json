@@ -1,0 +1,1235 @@
+[
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1356-01-01",
+  "baslik": "Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1385-01-01",
+  "baslik": "Osmanlı ile ilk çarpışma",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Osmanlı ile ilk çarpışma"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1421-01-01",
+  "baslik": "Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1451-01-01",
+  "baslik": "Crnojević ailesi Zeta'nın başına geçti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Crnojević ailesi Zeta'nın başına geçti"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1514-01-01",
+  "baslik": "İskender Bey yönetiminde Karadağ ayrı bir sancak olarak kuruldu — Zeta",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "İskender Bey yönetiminde Karadağ ayrı bir sancak olarak kuruldu — Zeta"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1858-05-13",
+  "baslik": "Grahova Savaşı — Osmanlı kuvvetleri yenildi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Grahovo (Grahova)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Hüseyin Paşa'nın ordusunu Grahova'da ağır yenilgiye uğrattı"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1230-03-09",
+  "baslik": "Klokotnitsa Zaferi — II. İvan Asen döneminde en geniş sınırlara ulaşıl",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Klokotnitsa",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Theodoros Angelos'un ordusunu Klokotnitsa'da yenilgiye uğratarak"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1688-09-01",
+  "baslik": "Chiprovtsi (Kiprovça) İsyanı — Katolik Bulgarların ayaklanması",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Chiprovtsi (Kiprovça)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Chiprovtsi merkezli olarak, Habsburg'un Belgrad'ı ele geçirmesinin"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1762-01-01",
+  "baslik": "Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başla",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başla"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1835-01-02",
+  "baslik": "Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Gabrovo",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Vasil Aprilov'un girişimiyle Gabrovo'da açılan bu okul"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1876-05-02",
+  "baslik": "Nisan İsyanı — Batak katliamı ve Avrupa kamuoyunun tepkisi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Nisan İsyanı — Batak katliamı ve Avrupa kamuoyunun tepkisi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1877-08-21",
+  "baslik": "Şıpka Geçidi Savunması — Bulgar gönüllüleri ve Rus ordusu geçidi tuttu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Şıpka Geçidi (Shipka)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Süleyman Paşa komutasındaki Osmanlı kuvvetleri Şıpka Geçidi'ni geri almak için"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1878-07-13",
+  "baslik": "Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu",
+  "yer_id": "Berlin",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1912-10-08",
+  "baslik": "Birinci Balkan Savaşı'na giriş",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Birinci Balkan Savaşı'na giriş"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1913-06-29",
+  "baslik": "İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırd",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "İkinci Balkan Savaşı başladı — Bulgaristan eski müttefiklerine saldırd"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1913-08-10",
+  "baslik": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kayb",
+  "yer_id": "Bükreş",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1915-10-14",
+  "baslik": "Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1919-11-27",
+  "baslik": "Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi",
+  "yer_id": "Neuilly-sur-Seine",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1391-01-01",
+  "baslik": "Tvrtko I'in ölümü — taht kavgalarının başlaması",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Tvrtko I'in ölümü — taht kavgalarının başlaması"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1414-01-01",
+  "baslik": "Osmanlı'ya ilk haraç kabulü",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Osmanlı'ya ilk haraç kabulü"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1461-11-01",
+  "baslik": "Stjepan Tomašević'in tahta çıkışı — haracı reddedip Papalık'tan yardım",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Stjepan Tomašević'in tahta çıkışı — haracı reddedip Papalık'tan yardım"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1821-02-22",
+  "baslik": "İpsilantis'in Eflak-Boğdan'a girişi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "İpsilantis'in Eflak-Boğdan'a girişi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1827-10-20",
+  "baslik": "Navarin Deniz Savaşı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Navarin (Pylos)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Navarin limanındaki Osmanlı-Mısır donanmasına resmî bir savaş hâli olmaksızın"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1830-02-03",
+  "baslik": "Bağımsızlığın Londra Protokolü ile tanınması",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Bağımsızlığın Londra Protokolü ile tanınması"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1912-10-08",
+  "baslik": "Balkan Savaşları'na giriş",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Balkan Savaşları'na giriş"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1913-08-10",
+  "baslik": "Bükreş Antlaşması",
+  "yer_id": "Bükreş",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi"
+ },
+ {
+  "dosya": "kronoloji_balkan.js",
+  "t": "1923-07-24",
+  "baslik": "Lozan Antlaşması'nın imzalanması",
+  "yer_id": "Lozan",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Lozan Antlaşması'nın imzalanması"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1566-08-10",
+  "baslik": "İkon kırma (Beeldenstorm) Steenvoorde'de başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Steenvoorde",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "10 Ağustos 1566'da Steenvoorde yakınlarında Kalvinist kalabalıklar kilise ve manastırları"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1574-10-03",
+  "baslik": "Leiden kuşatması kaldırıldı",
+  "yer_id": "Leiden",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Su Dilencileri 3 Ekim 1574'te Leiden'e ulaştı ve aylardır süren İspanyol kuşatmasını"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1579-01-06",
+  "baslik": "Arras Birliği — Katolik güney eyaletleri İspanya'ya sadık kaldı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Arras Birliği — Katolik güney eyaletleri İspanya'ya sadık kaldı"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1600-07-02",
+  "baslik": "Nieuwpoort Muharebesi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Nieuwpoort",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Flandre kıyısında Nieuwpoort'ta Arşidük Albert'in ordusunu yenmesi"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1789-10-24",
+  "baslik": "Brabant Devrimi başladı — Avusturya Hollandası'nda ayaklanma",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Hoogstraten",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Brabant Halkı Manifestosu'yla Hoogstraten'de yayımlanan"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1794-06-26",
+  "baslik": "Fleurus Muharebesi — Fransa Belçika'yı Avusturya'dan aldı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Fleurus",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "26 Haziran 1794'te Fleurus'ta Koburg Prensi'nin ordusunu yendi"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1940-05-15",
+  "baslik": "Hollanda ordusu teslim oldu — Alman işgali başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Hollanda ordusu teslim oldu — Alman işgali başladı"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1940-05-28",
+  "baslik": "Belçika ordusu teslim oldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Belçika ordusu teslim oldu"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1944-09-17",
+  "baslik": "Market Garden Harekâtı başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Market Garden Harekâtı başladı"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1944-12-16",
+  "baslik": "Ardenler Taarruzu başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Ardenler Taarruzu başladı"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1945-05-05",
+  "baslik": "Hollanda'daki Alman kuvvetleri Wageningen'de teslim oldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Wageningen",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "5 Mayıs 1945'te Wageningen'de Alman komutan Blaskowitz"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "-0057-01-01",
+  "baslik": "Caesar Sabis'te Belgae'yi yendi — Gallia Belgica'nın fethi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Sabis (Selle)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Sabis (Selle) Muharebesi'nde Nervii öncülüğündeki Belga kabileler koalisyonunu yendi"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "0406-12-31",
+  "baslik": "Vandal, Alan ve Süevler Ren'i geçti — Galya (Belgica dâhil) çöktü",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Vandal, Alan ve Süevler Ren'i geçti — Galya (Belgica dâhil) çöktü"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "0834-01-01",
+  "baslik": "Vikinglerin Dorestad baskınları başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Dorestad (Wijk bij Duurstede)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Vikingler Frizya'nın en büyük ticaret limanı Dorestad'ı bastı"
+ },
+ {
+  "dosya": "kronoloji_cok_hollanda.js",
+  "t": "1629-09-14",
+  "baslik": "'s-Hertogenbosch Frederik Hendrik'e teslim oldu",
+  "yer_id": "'s-Hertogenbosch",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "14 Eylül 1629'da 's-Hertogenbosch'un teslimiyle bitti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1285-01-01",
+  "baslik": "Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1287-01-01",
+  "baslik": "Volof krallığı olarak teşkilatlandı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Volof krallığı olarak teşkilatlandı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "baslik": "Teke(Tio) halkına ait küçük siyasi birimler 14.yy'da birleşip Anziku(T",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Teke(Tio) halkına ait küçük siyasi birimler 14.yy'da birleşip Anziku(T"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "baslik": "Nyiginya hânedanı krallığı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Nyiginya hânedanı krallığı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "baslik": "Kintu hanedanı Buganda Krallığı'nı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Kintu hanedanı Buganda Krallığı'nı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1300-01-01",
+  "baslik": "14.yy'da Büyük Zimbabve, altın bakımından zengin platoya yayılan büyük",
+  "yer_id": "Büyük Zimbabve",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "14.yy'da Büyük Zimbabve, altın bakımından zengin platoya yayılan büyük bir devletin başkenti oldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1332-01-01",
+  "baslik": "Habeş İmparatoru Amda Sion, Zeyla' ve Evfât topraklarının büyük kısmın",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Habeş İmparatoru Amda Sion, Zeyla' ve Evfât topraklarının büyük kısmın"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "baslik": "Njajaan Njaay geleneğine dayanan Volof birliği kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Njajaan Njaay geleneğine dayanan Volof birliği kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "baslik": "Gelvar hânedanı altında Serer krallıkları kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Gelvar hânedanı altında Serer krallıkları kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "baslik": "Cahokia terk edildi",
+  "yer_id": "Cahokia",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Cahokia terk edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1350-01-01",
+  "baslik": "Batı Yerleşimi gizemli biçimde terk edildi (radyokarbon verilerine gör",
+  "yer_id": "Sandnes (Vestribygð)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Batı Yerleşimi gizemli biçimde terk edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1360-01-01",
+  "baslik": "Vestribygð (Batı Yerleşimi) terk edildi",
+  "yer_id": "Sandnes (Vestribygð)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Vestribygð (Batı Yerleşimi) terk edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1370-01-01",
+  "baslik": "Chimu hükümdarı Nancinpinco, Chimor vadisinin yukarı kesimini ve komşu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Chimu hükümdarı Nancinpinco, Chimor vadisinin yukarı kesimini ve komşu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1390-01-01",
+  "baslik": "Minjo hanedanı tarafından kuruldu (gelenek)",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Minjo hanedanı tarafından kuruldu (gelenek)"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1390-01-01",
+  "baslik": "Lukeni lua Nimi, Kongo Krallığı'nı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Lukeni lua Nimi, Kongo Krallığı'nı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1394-01-01",
+  "baslik": "Nşare Bamum krallığını kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Nşare Bamum krallığını kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1400-01-01",
+  "baslik": "Oyo-Ile'de Yoruba krallığı kuruldu",
+  "yer_id": "Oyo-İle (Eski Oyo)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Oyo-Ile'de Yoruba krallığı kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1405-01-01",
+  "baslik": "Agadez sultanlığı kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Agadez sultanlığı kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1415-01-01",
+  "baslik": "Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü;",
+  "yer_id": "Zeyla",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1428-01-01",
+  "baslik": "Tenochtitlan, Texcoco ve Tlacopan Üçlü İttifak'ı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Tenochtitlan, Texcoco ve Tlacopan Üçlü İttifak'ı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1438-01-01",
+  "baslik": "Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başla",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başla"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1441-01-01",
+  "baslik": "Mayapán terk edildi, bölge küçük rakip şehir devletlerine bölündü",
+  "yer_id": "Mayapán",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Mayapán terk edildi, bölge küçük rakip şehir devletlerine bölündü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Hinda hânedanı Nkore'yi kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Hinda hânedanı Nkore'yi kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Karagve krallığı kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Karagve krallığı kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Torva krallığı Khami'de kuruldu",
+  "yer_id": "Khami",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Torva krallığı Khami'de kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Tören merkezi kullanımdan düştü",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Tören merkezi kullanımdan düştü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Altı Millet Konfederasyonu'nun kuruluşu — akademik çoğunluğun verdiği ",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Altı Millet Konfederasyonu'nun kuruluşu — akademik çoğunluğun verdiği"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Büyük Zimbabve'nin başşehri terk edildi ve krallık dağıldı",
+  "yer_id": "Büyük Zimbabve",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Büyük Zimbabve'nin başşehri terk edildi ve krallık dağıldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1450-01-01",
+  "baslik": "Eystribygð (Doğu Yerleşimi) terk edildi, Grönland'daki İskandinav varl",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Eystribygð",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Eystribygð (Doğu Yerleşimi) terk edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1464-01-01",
+  "baslik": "Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1470-01-01",
+  "baslik": "Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1473-01-01",
+  "baslik": "Sünnî Ali, yedi yıl süren kuşatmanın ardından Cenne'yi (Jenne) açlığa ",
+  "yer_id": "Cenne (Djenné)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "yedi yıl süren kuşatmanın ardından Cenne'yi (Jenne) açlığa mahkûm ederek"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1480-01-01",
+  "baslik": "Maravi konfederasyonu kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Maravi konfederasyonu kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1490-01-01",
+  "baslik": "Bacata (Bogota) zipasi Saguamanchica'nin guney Muisca gucleri ile Hunz",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Chocontá",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Hunza zaquesi Michua'nin kuzey Muisca gucleri Choconta'da carpisti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1498-01-01",
+  "baslik": "Vasco da Gama'nın gelişiyle Portekiz baskısı başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Vasco da Gama'nın gelişiyle Portekiz baskısı başladı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "baslik": "Yönetim Muzaffer sülâlesinin eline geçti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Yönetim Muzaffer sülâlesinin eline geçti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "baslik": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisind",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisind"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "baslik": "Antemoro krallığı kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Antemoro krallığı kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1500-01-01",
+  "baslik": "Ngola hanedanı Ndongo Krallığı'nı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ngola hanedanı Ndongo Krallığı'nı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1519-11-08",
+  "baslik": "Hernán Cortés, Tenochtitlan'a girdi",
+  "yer_id": "Tenochtitlan (Mexico City)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Hernán Cortés, Tenochtitlan'a girdi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1521-01-01",
+  "baslik": "Ponce de León'un ikinci seferi püskürtüldü",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ponce de León'un ikinci seferi püskürtüldü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1521-08-13",
+  "baslik": "Uzun kuşatma sonunda Tenochtitlan düştü, son imparator Cuauhtémoc esir",
+  "yer_id": "Tenochtitlan (Mexico City)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Uzun kuşatma sonunda Tenochtitlan düştü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1522-01-01",
+  "baslik": "Kenkâ halkı Bagirmi sultanlığını kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Kenkâ halkı Bagirmi sultanlığını kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1530-01-01",
+  "baslik": "Portekizli Rui Lourenço Ravasco, Zengibar'ı abluka altına alıp bombala",
+  "yer_id": "Zanzibar (Zengibar)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Rui Lourenço Ravasco, Zengibar'ı abluka altına alıp bombaladı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1532-11-16",
+  "baslik": "Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp ",
+  "yer_id": "Cajamarca",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1533-07-26",
+  "baslik": "Atahualpa Cajamarca'da idam edildi",
+  "yer_id": "Cajamarca",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Atahualpa Cajamarca'da idam edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1535-04-17",
+  "baslik": "İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1536-01-01",
+  "baslik": "Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1537-01-01",
+  "baslik": "Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1539-01-01",
+  "baslik": "İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınır",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınır"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-01-01",
+  "baslik": "Yatenga krallığı Vagadugu'dan ayrıldı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Yatenga krallığı Vagadugu'dan ayrıldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-01-01",
+  "baslik": "De Soto seferi bölgeden geçti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "De Soto seferi bölgeden geçti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1540-07-07",
+  "baslik": "Coronado Hawikuh'u aldı; Cíbola arayışı sona erdi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Hawikuh",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Coronado Hawikuh'u aldı; Cíbola arayışı sona erdi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1541-01-01",
+  "baslik": "Coronado Quivira'ya ulaştı",
+  "yer_id": "Quivira (Wiçita, Büyük Bükülme)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Coronado Quivira'ya ulaştı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1542-01-01",
+  "baslik": "İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-",
+  "yer_id": "Mérida",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "İspanyollar Tiho'yu (Mérida) alarak"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1542-11-20",
+  "baslik": "Peru Genel Valiliği resmen kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Peru Genel Valiliği resmen kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "baslik": "Danki Muharebesi'nde Buurba Leele Fuli Fak öldürüldü; Cayor başta olma",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Danki",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Danki Muharebesi'nde Buurba Leele Fuli Fak öldürüldü"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "baslik": "Danki'de Colof'tan ayrılarak bağımsız oldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Danki",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Danki'de Colof'tan ayrılarak bağımsız oldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1549-01-01",
+  "baslik": "İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "baslik": "Ndewura Jakpa krallığı kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ndewura Jakpa krallığı kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "baslik": "Merkez terk edildi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Merkez terk edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1550-01-01",
+  "baslik": "Vili hanedanı Loango Krallığı'nı kurdu; Buali başkent oldu",
+  "yer_id": "Loango (Buali)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Loango Krallığı'nı kurdu; Buali başkent oldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1553-01-01",
+  "baslik": "Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1558-01-01",
+  "baslik": "Sef Caupolican'in idamindan sonra Ispanyollar Mapuche'yi Biobio'nun gu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Sef Caupolican'in idamindan sonra Ispanyollar Mapuche'yi Biobio'nun gu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1569-01-01",
+  "baslik": "Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine se",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine se"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1572-09-24",
+  "baslik": "Vilcabamba düştükten (Haziran 1572) sonra Túpac Amaru Cusco'da idam ed",
+  "yer_id": "Cusco (Qosqo)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Túpac Amaru Cusco'da idam edildi"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1577-01-01",
+  "baslik": "Devlet dağıldı, Harar emirliği ardıl kaldı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Devlet dağıldı, Harar emirliği ardıl kaldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1585-01-01",
+  "baslik": "Kongolo Mukulu, Luba devletini kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Kongolo Mukulu, Luba devletini kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1591-04-13",
+  "baslik": "Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Tondibi",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "baslik": "Tuz yolu üzerinde hâkimiyet kurdu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Tuz yolu üzerinde hâkimiyet kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "baslik": "Ovambo krallıkları teşekkül etti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ovambo krallıkları teşekkül etti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "baslik": "Ngonde krallığı teşekkül etti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Ngonde krallığı teşekkül etti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "baslik": "Luyi (Lozi) krallığı teşekkül etti",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Luyi (Lozi) krallığı teşekkül etti"
+ },
+ {
+  "dosya": "kronoloji_sinir_guney_g8.js",
+  "t": "1600-01-01",
+  "baslik": "Menabe Sakalava krallığı kuruldu",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Menabe Sakalava krallığı kuruldu"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1939-09-01",
+  "baslik": "Sovyet kuvvetleri Białystok'a girdi",
+  "yer_id": "Białystok",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Sovyet kuvvetleri Eylül 1939'da Białystok'a girdi"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1941-06-01",
+  "baslik": "Alman ordusu Białystok'u işgal etti (Bezirk Bialystok, Doğu Prusya'ya ",
+  "yer_id": "Białystok",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Alman ordusu Haziran 1941'de Białystok'u işgal etti"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1944-07-01",
+  "baslik": "Sovyet ordusu Almanları Białystok'tan çıkardı",
+  "yer_id": "Białystok",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Almanları Białystok'tan çıkardı"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1919-05-01",
+  "baslik": "Polonya ordusu Lutsk'u Ukrayna Kholm Tümeni'nden aldı",
+  "yer_id": "Lutsk (Łuck)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Mayıs 1919'da Polonya ordusu Lutsk'u Ukrayna Kholm Tümeni'nden aldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1085-01-01",
+  "baslik": "Lutsk ilk kez Hypatian Vakayinamesi'nde anıldı (1154'te bağımsız knezl",
+  "yer_id": "Lutsk (Łuck)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Lutsk 1085'te Hypatian Vakayinamesi'nde ilk kez anıldı"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "0988-01-01",
+  "baslik": "Büyük Knez Volodymyr Volodymyr-Volynskyi'yi kurdu ve oğlu Vsevolod'a v",
+  "yer_id": "Volodymyr-Volynskyi (Włodzimierz)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Volodymyr 988'de Volhynia'da Volodymyr-Volynskyi şehrini kurdu"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1199-01-01",
+  "baslik": "Roman Mstyslavyç Galiçya ile Volhinya'yı birleştirdi: Galiçya-Volhinya",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Roman Mstyslavyç Galiçya ile Volhinya'yı birleştirdi: Galiçya-Volhinya"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1793-01-23",
+  "baslik": "İkinci Taksim: Rusya Rivne, Minsk, Kamaniçe, Bar, Vinnitsa, Braslav, B",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "İkinci Taksim: Rusya Rivne, Minsk, Kamaniçe, Bar, Vinnitsa, Braslav, B"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1237-01-01",
+  "baslik": "Knez Danylo Romanoviç Kholm'da (Chełm) kale kurdu",
+  "yer_id": "Chełm (Kholm)",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Danylo Romanoviç 1237'de Kholm'da (Chełm) kale kurup şehri surlarla güçlendirdi"
+ },
+ {
+  "dosya": "kronoloji_sinir_lehistan_ukrayna_1028.js",
+  "t": "1915-08-01",
+  "baslik": "Lublin Avusturya-Macaristan Askerî Genel Valiliği (MGG Lublin) idaresi",
+  "yer_id": "Lublin",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Lublin Rus idaresinden çıktı ve 1918 sonuna dek bu askerî rejimde kaldı"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1217-01-01",
+  "baslik": "Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1331-01-01",
+  "baslik": "Stefan Duşan tahta çıktı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Stefan Duşan tahta çıktı"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1355-12-20",
+  "baslik": "Duşan'ın ani ölümü, imparatorluğun parçalanması başladı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "yer-belirtilmemis",
+  "kanit": "Duşan'ın ani ölümü, imparatorluğun parçalanması başladı"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1389-06-15",
+  "baslik": "I. Kosova Savaşı — Sırp Krallığı Osmanlı tâbiiyetine girdi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Kosova Ovası (Kosovo Polje)",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Knez Lazar önderliğindeki Balkan ittifakı Kosova Ovası'nda I. Murad karşısında yenildi"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1402-01-01",
+  "baslik": "Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)",
+  "yer_id": "Belgrad",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Stefan Lazareviç despotluğu kurdu; başkent önce Belgrad oldu"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1804-02-14",
+  "baslik": "Birinci Sırp Ayaklanması başladı (Kara Yorgi)",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Orašac",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Karadjordje önderliğinde Orašac meclisinde ayaklanma ilan edildi"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1815-04-23",
+  "baslik": "İkinci Sırp Ayaklanması (Miloš Obrenović)",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": "Takovo",
+  "neden": "yer metinde acik, atlasta yok",
+  "kanit": "Knez Miloš Obrenović önderliğinde Takovo meclisinde ikinci ayaklanma ilan edildi"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1830-10-17",
+  "baslik": "Özerklik fermanı (Hatt-ı Şerif) yayımlandı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Özerklik fermanı (Hatt-ı Şerif) yayımlandı"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1908-10-06",
+  "baslik": "Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Bosna-Hersek'in ilhakı — Sırbistan'ın savaş tehdidi"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1912-10-08",
+  "baslik": "Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı",
+  "yer_id": null,
+  "yeni_yerlesim_gerekli": null,
+  "neden": "bolgesel",
+  "kanit": "Birinci Balkan Savaşı'na giriş — Kosova ve Vardar Makedonyası alındı"
+ },
+ {
+  "dosya": "kronoloji_sirbistan.js",
+  "t": "1913-08-10",
+  "baslik": "Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları ",
+  "yer_id": "Bükreş",
+  "yeni_yerlesim_gerekli": null,
+  "neden": "olay metinde acik tek yerlesim",
+  "kanit": "Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi"
+ }
+]

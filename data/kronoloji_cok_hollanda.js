@@ -252,7 +252,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"Alba Dükü'nün Kanlı Divan'ı (Raad van Beroerten) Egmont ve Hoorn kontlarını 5 Haziran 1568'de Brüksel Grand-Place'ta idam ettirdi. Soylu muhalefetin liderlerinin ölümü Willem van Oranje'nin silâhlı isyanını (Heiligerlee, 23 Mayıs 1568'den sonra) geri dönülmez kıldı.",
   kaynak:"Britannica «Lamoral, count of Egmond»; Parker, The Dutch Revolt (1977) · ikincil kaynak" },
 
-{ t:"1574-10-03", b:"Leiden kuşatması kaldırıldı", tur:"savas",
+{yer_id:"Leiden",  t:"1574-10-03", b:"Leiden kuşatması kaldırıldı", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["savas","konu-siyasi","benelux"],
   devlet:"hollanda", devletler:["hollanda","ispanya"], yer_id:"",
   gun:"3 Ekim 1574",
@@ -444,7 +444,7 @@ window.KRONOLOJI_COK_HOLLANDA = [
   d:"Maaşsız İspanyol askerleri 4 Kasım 1576'da Anvers'i yağmaladı (yaklaşık 7-8 bin ölü); olay dört gün sonra Gent Uzlaşması'na yol açan birliğin en güçlü nedeniydi.",
   kaynak:"Britannica «Spanish Fury»; Wikipedia «Spanish Fury» · ikincil" },
 
-{ t:"1629-09-14", b:"'s-Hertogenbosch Frederik Hendrik'e teslim oldu", tur:"kusatma",
+{yer_id:"'s-Hertogenbosch",  t:"1629-09-14", b:"'s-Hertogenbosch Frederik Hendrik'e teslim oldu", tur:"kusatma",
   onem:3, dunya:2, kapsam:"dis", etiket:["kusatma","konu-siyasi","benelux"],
   devlet:"hollanda", devletler:["hollanda","ispanya"], yer_id:"",
   gun:"14 Eylül 1629",

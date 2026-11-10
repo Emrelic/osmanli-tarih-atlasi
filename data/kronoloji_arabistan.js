@@ -472,7 +472,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın I. Suûdî Devleti'ni yıkan büyük seferi sonrası Suûdî liderleri idam edilince, Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okutarak Benî Hâlid emirliğini geçici olarak yeniden kurdu.",
   kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: 1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.", yer_id:"Lahsa" },
 
-{ t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
+{yer_id:"Lahsa",  t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","son","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Mâcid el-Ureyyir'in Aklâ savaşında ölmesiyle Lahsa, II. Suûdî Devleti'nin (Necid Emirliği) denetimine geçti ve Benî Hâlid emirliği 160 yıllık varlığının ardından kesin olarak sona erdi.",

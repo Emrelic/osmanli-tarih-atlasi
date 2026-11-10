@@ -135,7 +135,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 // ───────────────────────── SIRP DESPOTLUĞU (1402-1459)
 
-{ t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
+{yer_id:"Belgrad",  t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset","konu-siyasi"],
   yer_id:"",
   d:"Ankara Savaşı'nda (1402) Osmanlı yenilgisinin doğurduğu Fetret Devri'nden yararlanan Stefan Lazareviç, Bizans'tan 'despot' unvanını aldı ve Sırp Despotluğu'nu kurdu; başkent önce Belgrad oldu. Bu, Nemanjiç krallığının Osmanlı vasallığı altında dönüşmüş devamıdır.", ic_not_d:"(devletler.js `sirp-despotlugu` künyesi)",
@@ -303,7 +303,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Balkan İttifakı'nın (Sırbistan, Bulgaristan, Yunanistan, Karadağ) bir parçası olarak Sırbistan Osmanlı Devleti'ne savaş ilan etti; birkaç hafta içinde Kosova ile Üsküp ve Manastır'ı içine alan Vardar Makedonyası'nı ele geçirdi. 1389'dan beri Sırp millî hafızasının merkezinde duran Kosova, beş asır sonra Sırbistan'a geri döndü.", ic_not_d:"Tarih devletler.js `sirbistan-kralligi` künyesiyle eşleşiyor.",
   kaynak:"TDV `sirbistan`: Sırbistan '...Kosova'yı ve Üsküp ile Manastır'ı da içine alan Vardar Makedonyası'nı topraklarına kattı.'" },
 
-{ t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti", tur:"antlasma",
+{yer_id:"Bükreş",  t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"Eski müttefiki Bulgaristan'a karşı savaşan Sırbistan, Bükreş Antlaşması'yla Birinci Balkan Savaşı'nda kazandığı Vardar Makedonyası topraklarını kalıcı olarak güvence altına aldı; Sırbistan'ın yüzölçümü ve nüfusu neredeyse iki katına çıktı. Bu kazanım, bir yıl sonra patlak verecek I. Dünya Savaşı'nda Avusturya-Macaristan'ın Sırbistan'ı büyüyen bir tehdit olarak görmesine katkıda bulundu.",

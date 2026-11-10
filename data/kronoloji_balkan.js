@@ -527,7 +527,7 @@ window.KRONOLOJI_BALKAN = [
   d:"93 Harbi'ni bitiren Ayastefanos Antlaşması, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan çok geniş, Osmanlı'ya bağlı özerk bir Bulgaristan Prensliği öngördü; bu 'Büyük Bulgaristan' Panslavizm'in zirve noktasıydı ve Avrupa güçlerinin (özellikle İngiltere'nin) sert tepkisiyle dört ay sonra Berlin'de küçültülecekti.", ic_not_d:"dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `ayastefanos-antlasmasi`: 'Bulgaristan, Osmanlı Devleti'ne bağlı özerk bir prenslik haline getirilecek ... Sınırları Tuna'dan Ege denizine, Arnavutluk'tan Karadeniz'e kadar uzanacaktı.' — kronoloji_rusya.js (1878-03-03, dunya:3)." },
 
-{ t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
+{yer_id:"Berlin",  t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
@@ -628,7 +628,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Bulgaristan'ın diğer cephelerde ağır yenilgiler alması üzerine Enver Bey komutasındaki Osmanlı kuvvetleri, İkinci Balkan Savaşı'nın kargaşasından yararlanarak Edirne'yi neredeyse hiç direnişle karşılaşmadan geri aldı; bu, Balkan Savaşları'nda Osmanlı'nın kazandığı tek önemli toprak parçasıydı.", ic_not_d:"Tarih yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan biter 1913-07-21) birebir eşleşiyor.",
   kaynak:"yerlesimler.js Edirne kaydı (1913-07-21) + akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
-{ t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi", tur:"antlasma",
+{yer_id:"Bükreş",  t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Bulgaristan, İkinci Balkan Savaşı'ndaki yenilgisinin bedelini ağır ödedi: Makedonya'nın büyük bölümünü Sırbistan ve Yunanistan'a, Güney Dobruca'yı Romanya'ya kaybetti.", ic_not_d:"Bu 'millî felaket' (natsionalna katastrofa), Bulgar siyasetinde iki yıl sonra Bulgaristan'ı I. Dünya Savaşı'nda Merkezi Devletler'in yanına itecek revanşist duyguların kaynağı oldu. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
@@ -652,7 +652,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Selanik Mütarekesi'nin doğurduğu iç kriz ve halk ayaklanması tehdidi karşısında Ferdinand, oğlu Boris lehine tahttan çekilip sürgüne gitti; III. Boris, ağır barış koşullarını devralan yeni çar oldu.", ic_not_d:"TDV `bulgaristan` maddesi bu olayı mütareke ile aynı cümlede, 29 Eylül tarihiyle veriyor; akademik kaynaklar çekilmeyi birkaç gün sonrasına (3 Ekim) tarihlendiriyor.",
   kaynak:"TDV `bulgaristan` (mütarekeyle birlikte anıyor) + akademik (Crampton, A Concise History of Bulgaria, 2005 — tahttan çekilmenin 3 Ekim 1918 olduğu)." },
 
-{ t:"1919-11-27", b:"Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi", tur:"antlasma",
+{yer_id:"Neuilly-sur-Seine",  t:"1919-11-27", b:"Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
@@ -1050,7 +1050,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 
-{ t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
+{yer_id:"Lozan",  t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
   onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Sevr'in öngördüğü bütün kazanımları geçersiz kılan Lozan Antlaşması, Yunanistan'ın kuruluşundan beri sürdürdüğü toprak genişlemesini kesin olarak durdurdu. Venizelos, Yunanistan'ın Anadolu bozgunundan en az kayıpla çıkması için görüşmelerde bizzat yer aldı.",
   kaynak:"TDV `yunanistan`: 'Lozan Antlaşması, Sevr Antlaşması'nın Yunanistan'a sağladığı kazanımları ortadan kaldırdığından Yunanistan'ın kurulduğu tarihten beri sürdürdüğü genişlemeyi durduran bir antlaşma oldu.' dunya:5 değeri data/kronoloji_fransa.js:1012 ile birebir çapraz doğrulandı." },

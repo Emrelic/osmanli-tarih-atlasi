@@ -1838,7 +1838,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Sis'in düşüşünün ardından soylular, din adamları ve halktan pek çok Ermeni, akraba Lusignan hanedanının yönettiği Kıbrıs Krallığı'na sığındı; ada üzerinde kalıcı bir Ermeni cemaati oluştu ve krallığın kültürel mirası (el yazmaları, zanaatlar) oraya taşındı.",
   kaynak:"Bournoutian (2006); genel Kıbrıs-Ermeni tarihi literatürü — kesin rakamlar doğrulanamadı, ikincil özetten derlendi" },
 
-{ t:"1382-10-01", b:"VI. Levon Kahire esaretinden fidyeyle kurtuldu", tur:"sosyal",
+{yer_id:"Kahire",  t:"1382-10-01", b:"VI. Levon Kahire esaretinden fidyeyle kurtuldu", tur:"sosyal",
   onem:3, dunya:2, kapsam:"dis", etiket:["esaret", "fidye", "Kastilya", "konu-kisiler", "konu-sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Krallığın son kralı VI. Levon, Sis'in düşüşünden sonra ailesiyle Kahire'de yedi yıl esir tutuldu; Kastilya Kralı I. Juan'ın ödediği fidyeyle 1382'de serbest bırakıldı ve Fransa'ya sığınarak ömrünün geri kalanını Avrupa saraylarında Haçlı seferi çağrısı yaparak geçirdi; 1393'te Paris'te öldü, Saint-Denis yakınındaki Célestins kilisesine gömüldü.",
@@ -2323,7 +2323,7 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın I. Suûdî Devleti'ni yıkan büyük seferi sonrası Suûdî liderleri idam edilince, Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okutarak Benî Hâlid emirliğini geçici olarak yeniden kurdu.",
   kaynak:"devletler.js `benihalid` künyesi: '1818: İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu.' · TDV `lahsa`: 1818: Kavalalı Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın harekâtı; Suudi liderleri idam edildi.", yer_id:"Lahsa" },
 
-{ t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
+{yer_id:"Lahsa",  t:"1830-01-01", b:"Mâcid el-Ureyyir'in ölümü — emirlik kesin olarak sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["olum","son","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Mâcid el-Ureyyir'in Aklâ savaşında ölmesiyle Lahsa, II. Suûdî Devleti'nin (Necid Emirliği) denetimine geçti ve Benî Hâlid emirliği 160 yıllık varlığının ardından kesin olarak sona erdi.",
@@ -3007,7 +3007,7 @@ window.KRONOLOJI_BALKAN = [
   d:"93 Harbi'ni bitiren Ayastefanos Antlaşması, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan çok geniş, Osmanlı'ya bağlı özerk bir Bulgaristan Prensliği öngördü; bu 'Büyük Bulgaristan' Panslavizm'in zirve noktasıydı ve Avrupa güçlerinin (özellikle İngiltere'nin) sert tepkisiyle dört ay sonra Berlin'de küçültülecekti.", ic_not_d:"dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `ayastefanos-antlasmasi`: 'Bulgaristan, Osmanlı Devleti'ne bağlı özerk bir prenslik haline getirilecek ... Sınırları Tuna'dan Ege denizine, Arnavutluk'tan Karadeniz'e kadar uzanacaktı.' — kronoloji_rusya.js (1878-03-03, dunya:3)." },
 
-{ t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
+{yer_id:"Berlin",  t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
@@ -3108,7 +3108,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Bulgaristan'ın diğer cephelerde ağır yenilgiler alması üzerine Enver Bey komutasındaki Osmanlı kuvvetleri, İkinci Balkan Savaşı'nın kargaşasından yararlanarak Edirne'yi neredeyse hiç direnişle karşılaşmadan geri aldı; bu, Balkan Savaşları'nda Osmanlı'nın kazandığı tek önemli toprak parçasıydı.", ic_not_d:"Tarih yerlesimler.js'teki Edirne kaydıyla (s: bulgaristan biter 1913-07-21) birebir eşleşiyor.",
   kaynak:"yerlesimler.js Edirne kaydı (1913-07-21) + akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
-{ t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi", tur:"antlasma",
+{yer_id:"Bükreş",  t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı sona erdi, Güney Dobruca kaybedildi", tur:"antlasma",
   onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Bulgaristan, İkinci Balkan Savaşı'ndaki yenilgisinin bedelini ağır ödedi: Makedonya'nın büyük bölümünü Sırbistan ve Yunanistan'a, Güney Dobruca'yı Romanya'ya kaybetti.", ic_not_d:"Bu 'millî felaket' (natsionalna katastrofa), Bulgar siyasetinde iki yıl sonra Bulgaristan'ı I. Dünya Savaşı'nda Merkezi Devletler'in yanına itecek revanşist duyguların kaynağı oldu. dunya puanı kronoloji_sirbistan.js'teki aynı olayla eşleştirildi.",
@@ -3132,7 +3132,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Selanik Mütarekesi'nin doğurduğu iç kriz ve halk ayaklanması tehdidi karşısında Ferdinand, oğlu Boris lehine tahttan çekilip sürgüne gitti; III. Boris, ağır barış koşullarını devralan yeni çar oldu.", ic_not_d:"TDV `bulgaristan` maddesi bu olayı mütareke ile aynı cümlede, 29 Eylül tarihiyle veriyor; akademik kaynaklar çekilmeyi birkaç gün sonrasına (3 Ekim) tarihlendiriyor.",
   kaynak:"TDV `bulgaristan` (mütarekeyle birlikte anıyor) + akademik (Crampton, A Concise History of Bulgaria, 2005 — tahttan çekilmenin 3 Ekim 1918 olduğu)." },
 
-{ t:"1919-11-27", b:"Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi", tur:"antlasma",
+{yer_id:"Neuilly-sur-Seine",  t:"1919-11-27", b:"Neuilly Antlaşması — Batı Trakya ve Ege kıyısı kaybedildi", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
@@ -3530,7 +3530,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 
-{ t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
+{yer_id:"Lozan",  t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
   onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Sevr'in öngördüğü bütün kazanımları geçersiz kılan Lozan Antlaşması, Yunanistan'ın kuruluşundan beri sürdürdüğü toprak genişlemesini kesin olarak durdurdu. Venizelos, Yunanistan'ın Anadolu bozgunundan en az kayıpla çıkması için görüşmelerde bizzat yer aldı.",
   kaynak:"TDV `yunanistan`: 'Lozan Antlaşması, Sevr Antlaşması'nın Yunanistan'a sağladığı kazanımları ortadan kaldırdığından Yunanistan'ın kurulduğu tarihten beri sürdürdüğü genişlemeyi durduran bir antlaşma oldu.' dunya:5 değeri data/kronoloji_fransa.js:1012 ile birebir çapraz doğrulandı." },
@@ -13497,7 +13497,7 @@ window.KRONOLOJI_SIRBISTAN = [
 
 // ───────────────────────── SIRP DESPOTLUĞU (1402-1459)
 
-{ t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
+{yer_id:"Belgrad",  t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset","konu-siyasi"],
   yer_id:"",
   d:"Ankara Savaşı'nda (1402) Osmanlı yenilgisinin doğurduğu Fetret Devri'nden yararlanan Stefan Lazareviç, Bizans'tan 'despot' unvanını aldı ve Sırp Despotluğu'nu kurdu; başkent önce Belgrad oldu. Bu, Nemanjiç krallığının Osmanlı vasallığı altında dönüşmüş devamıdır.", ic_not_d:"(devletler.js `sirp-despotlugu` künyesi)",
@@ -13665,7 +13665,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Balkan İttifakı'nın (Sırbistan, Bulgaristan, Yunanistan, Karadağ) bir parçası olarak Sırbistan Osmanlı Devleti'ne savaş ilan etti; birkaç hafta içinde Kosova ile Üsküp ve Manastır'ı içine alan Vardar Makedonyası'nı ele geçirdi. 1389'dan beri Sırp millî hafızasının merkezinde duran Kosova, beş asır sonra Sırbistan'a geri döndü.", ic_not_d:"Tarih devletler.js `sirbistan-kralligi` künyesiyle eşleşiyor.",
   kaynak:"TDV `sirbistan`: Sırbistan '...Kosova'yı ve Üsküp ile Manastır'ı da içine alan Vardar Makedonyası'nı topraklarına kattı.'" },
 
-{ t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti", tur:"antlasma",
+{yer_id:"Bükreş",  t:"1913-08-10", b:"Bükreş Antlaşması — İkinci Balkan Savaşı'nın sonu, toprak kazanımları kesinleşti", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"Eski müttefiki Bulgaristan'a karşı savaşan Sırbistan, Bükreş Antlaşması'yla Birinci Balkan Savaşı'nda kazandığı Vardar Makedonyası topraklarını kalıcı olarak güvence altına aldı; Sırbistan'ın yüzölçümü ve nüfusu neredeyse iki katına çıktı. Bu kazanım, bir yıl sonra patlak verecek I. Dünya Savaşı'nda Avusturya-Macaristan'ın Sırbistan'ı büyüyen bir tehdit olarak görmesine katkıda bulundu.",
