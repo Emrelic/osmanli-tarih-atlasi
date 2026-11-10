@@ -429,6 +429,12 @@ def _kos(a):
                 "PYTHONPATH": os.path.join(ag, "arac"), "PYTHONIOENCODING": "utf-8"})
     if a.paralel:
         env.pop("MOTOR_PARALEL_KAPALI")
+    for kv in (a.bayrak or "").split(","):   # --bayrak MOTOR_X=1,MOTOR_Y=1: üretim bayrakları (post-it #113)
+        if kv.strip():
+            k, _, v = kv.strip().partition("=")
+            if not k.startswith("MOTOR_"):
+                raise SystemExit(f"--bayrak yalnız MOTOR_* kabul eder: {k!r}")
+            env[k] = v or "1"
     meta = {"ad": a.ad, "kutu": a.kutu, "senaryo": (json.load(open(a.senaryo, encoding="utf-8"))
                                                    if a.senaryo else None),
             "motor_sha256": sha(motor), "ag_head": subprocess.run(
@@ -621,6 +627,7 @@ def main():
     o.add_argument("--kutu", required=True); o.add_argument("--ad", required=True)
     o.add_argument("--senaryo"); o.add_argument("--ag", default="C:/atlas-sinav")
     o.add_argument("--paralel", type=int, default=0)
+    o.add_argument("--bayrak", default="", help="virgüllü MOTOR_X=1,... — varsayılan: hepsi kapalı")
     e = alt.add_parser("etki"); e.add_argument("A"); e.add_argument("B")
     e.add_argument("--nokta", required=True); e.add_argument("--json")
     a = ap.parse_args()
