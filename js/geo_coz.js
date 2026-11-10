@@ -266,10 +266,16 @@
                      halka: "__PR_TAM_HALKA", hata: "__PR_TAM_HATA",
                      kanca: "__donemYenile", ad: "dönem" };
 
-  function tamHavuzuGetir(c) {
+  // 🔴 YENİDEN DENEME (10 Kasım 2026): devlet_parcalar.js telde 40 MB; yavaş
+  // hatta (ölçüldü: 62 KB/sn → 11 dk) tarayıcı indirmeyi yarıda kesip `onerror`
+  // verdi ve sayfa ömür boyu katman 1'le kaldı — 1281 dışındaki her tarihte
+  // Osmanlı dışı devletler BOŞ göründü. Artık 3 kez, artan arayla yeniden istenir.
+  var DENEME_ARA_MS = [5000, 20000, 60000];
+  function tamHavuzuGetir(c, deneme) {
     c = c || TAM_DEVLET;
+    deneme = deneme || 0;
     var s = kok.document.createElement("script");
-    s.src = c.dosya + surumEki();
+    s.src = c.dosya + surumEki() + (deneme ? (kok.SURUM ? "&" : "?") + "d=" + deneme : "");
     s.async = true;
     s.onload = function () {
       var t = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
@@ -303,8 +309,12 @@
       } catch (e) { hata(e); }
     };
     s.onerror = function () {
-      kok[c.hata] = c.dosya.split("/").pop() + " İNDİRİLEMEDİ";
+      kok[c.hata] = c.dosya.split("/").pop() + " İNDİRİLEMEDİ (deneme " + (deneme + 1) + ")";
       if (kok.console) console.error("🔴 " + kok[c.hata]);
+      if (s.parentNode) s.parentNode.removeChild(s);
+      if (deneme < DENEME_ARA_MS.length) {
+        setTimeout(function () { tamHavuzuGetir(c, deneme + 1); }, DENEME_ARA_MS[deneme]);
+      }
     };
     kok.document.head.appendChild(s);
   }

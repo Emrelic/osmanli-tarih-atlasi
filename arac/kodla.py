@@ -536,6 +536,13 @@ HEDEFLER = {
         "sha": "window.__DP_SHA", "parca": "devlet_parcalar.js",
         "ust": "devlet_harita_ust.js", "on": "devlet_harita_on.js",
         "ne": "Devlet gövdelerinin",
+        # KATMAN 1 (10 Kasım 2026'dan beri kapıda): 19 Ekim'den (KOŞU 28) beri
+        # yeniden üretilmemişti; havuz 7 koşuda değişti ve açılış günü 5.193
+        # halkanın yalnız 295'ini (ve onları da YANLIŞ indeksle) taşıyordu ⇒
+        # sitede Osmanlı dışı bütün devletler boş göründü. Artık havuz damgası
+        # (`__DP_ON_SHA`) yazılır ve `kapi()` kıyaslar.
+        "kat1": "devlet_parca_on.js", "kat1_sha": "__DP_ON_SHA",
+        "kat1_komut": "on-dilim",
     },
     "donem": {
         "kaynak": "donemler.js", "havuz": "window.PARCALAR = ",
@@ -545,7 +552,8 @@ HEDEFLER = {
         "ne": "Dönem peteklerinin",
         # KATMAN 1 (25 Ekim 2026): `on` bir ÖNEK dosyasıdır (havuzdan önce
         # çalışan küreseller), katman 1 DEĞİL — katman 1 bu adla yazılır.
-        "kat1": "donem_parca_on.js",
+        "kat1": "donem_parca_on.js", "kat1_sha": "__PR_ON_SHA",
+        "kat1_komut": "on-dilim-donem",
     },
     # 🔴 ÜÇÜNCÜ HEDEF — ve ilk ikisinden BİR DÜZEY DERİN (29 Eylül 2026).
     # Ölçüldü: petek_govde.js 11,06 MB · en çok 3 ondalık hane (OLCEK=1000
@@ -708,6 +716,9 @@ def on_dilim(dizin, gun="1281-01-01"):
     t = time.perf_counter()
     idx, donem, etkin = _acilis_halkalari(dizin, gun)
     onek, havuz_b, sonek, sha = _oku_c(dizin)
+    if not sha:
+        print("🔴 %s içinde %s YOK — katman 1 havuza bağlanamaz" % (DP_JS, SHA_ADI))
+        return 1
     havuz = _coz_havuz(havuz_b)
     alt = [havuz[i] for i in idx]
 
@@ -719,7 +730,7 @@ def on_dilim(dizin, gun="1281-01-01"):
         onc = i
     govde = bytes(out) + _kodla_havuz(alt)
 
-    ad = "devlet_parca_on.js"
+    ad = HEDEFLER["devlet"]["kat1"]
     yol = os.path.join(dizin, ad)
     with open(yol, "w", encoding="utf-8", newline="") as f:
         f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/kodla.py on-dilim\n")
@@ -727,6 +738,7 @@ def on_dilim(dizin, gun="1281-01-01"):
         f.write("// Tam havuz (data/devlet_parcalar.js) ilk boyamadan SONRA arka planda iner.\n")
         f.write("// Biçim: varint N · N delta indeks · sonra normal halka akışı.\n")
         f.write("window.__DP_ON_GUN=\"%s\";\n" % gun)
+        f.write("window.__DP_ON_SHA=\"%s\";\n" % sha)
         f.write("window.__DP_ON_B64=\"%s\";\n" % base64.b64encode(govde).decode())
 
     # 🔴 GİDİŞ-DÖNÜŞ: alt kümedeki her halka tam havuzdakiyle AYNI mı?
@@ -1112,13 +1124,15 @@ def kapi(dizin, hedef=None):
             # halkalarla boyanırdı (sha sınavı bunu görmez).
             k1 = HEDEFLER[HEDEF].get("kat1")
             if k1 and os.path.isfile(os.path.join(dizin, k1)):
+                k1_sha = HEDEFLER[HEDEF].get("kat1_sha", "__PR_ON_SHA")
                 with open(os.path.join(dizin, k1), encoding="utf-8") as f:
-                    m = re.search(r'window\.__PR_ON_SHA="([0-9a-f]{64})"', f.read())
+                    m = re.search(r'window\.' + k1_sha + r'="([0-9a-f]{64})"', f.read())
                 if not m or m.group(1) != sha:
                     s.append("✗  KODLAMA KAPISI — %s BAYAT: havuz damgası %s, "
                              "katman 1 damgası %s"
                              % (k1, sha[:12], m.group(1)[:12] if m else "YOK"))
-                    s.append("     ⇒ py arac/kodla.py on-dilim-donem data  ile yeniden üret.")
+                    s.append("     ⇒ py arac/kodla.py %s data  ile yeniden üret."
+                             % HEDEFLER[HEDEF].get("kat1_komut", "on-dilim-donem"))
                     return True, s
                 s.append("✓  katman 1: %s havuzla AYNI damga (%s)" % (k1, sha[:12]))
             return False, s
@@ -1167,6 +1181,22 @@ def yay(girdi, dizin):
         print("  %.1f MB → %.2f MB   ×%.3f"
               % (os.path.getsize(girdi) / 1048576, pm + um,
                  (pm + um) / (os.path.getsize(girdi) / 1048576)))
+        # KATMAN 1 havuz indekslerine bağlıdır ⇒ havuz yeni yazıldıysa katman 1
+        # de BURADA yenilenir. (KOŞU 29–35: devlet katmanı unutuldu, site
+        # Osmanlı dışında boş açıldı; KOŞU 31: dönemde kapı bayat katman 1
+        # yüzünden `yay`ın kendi çıktısını sildi.)
+        k1_komut = HEDEFLER[HEDEF].get("kat1_komut")
+        if k1_komut:
+            hedef_ad = HEDEF
+            print("  → katman 1 yenileniyor (%s)" % k1_komut)
+            k1_kod = (on_dilim if k1_komut == "on-dilim" else on_dilim_donem)(dizin)
+            hedef_sec(hedef_ad)
+            if k1_kod != 0:
+                print("  🔴 KATMAN 1 ÜRETİLEMEDİ — yazılanlar SİLİNİYOR.")
+                for y in (p_yol, u_yol):
+                    os.remove(y)
+                _ek_temizle(dizin, 1)
+                return 1
         # Kapı ölçümü de BURADA koşar: yayın günü değil, ÜRETİM günü sınanır.
         ihlal, satirlar = kapi(dizin)
         for s in satirlar:

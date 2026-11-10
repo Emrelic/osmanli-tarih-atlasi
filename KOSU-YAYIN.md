@@ -113,6 +113,12 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   → `denetle_yayin`. Hedefler (`py arac/kodla.py hedefler`): `devlet`
   (`devletler_harita.js`) · `donem` (`donemler.js`) · `govde` (`petek_govde.js`) ·
   `bant` (`ufuk_bantlari.js`).
+  🆕 🔴 **Katman 1 (10 Kasım 2026):** `yay devlet` / `yay donem` artık açılış katmanını
+  (`devlet_parca_on.js` · `donem_parca_on.js`) KENDİSİ yeniler (`on-dilim` / `on-dilim-donem`)
+  ve kapı her ikisinin havuz damgasını (`__DP_ON_SHA` · `__PR_ON_SHA`) kıyaslar. Sebep:
+  `devlet_parca_on.js` KOŞU 28'den (19 Ekim) beri yenilenmemişti; KOŞU 29–35 havuzu değiştirdi,
+  açılış günü 5.193 halkanın 295'ini yanlış indeksle taşıdı ⇒ site Osmanlı dışında boş açıldı.
+  `yay` dışında havuza dokunan bir yol varsa katmanı elle yenile: `py arac/kodla.py on-dilim data`.
   🆕 🔴 **`uret_bolge_pencere.py` (Emre, 17 Ekim 2026)** — bölge sınırını o günün Osmanlı
   gövdesiyle kırpar → `data/bolge_pencere.js` (~3 MB, ~5 dk). `coz-c donemler.js`den
   SONRA (gövdeyi okur, kimliğini sınar), `denetle`den ÖNCE (8b pencereyi ölçer). Atlanırsa
