@@ -40,6 +40,11 @@
 //   `once_kademe` ile sayılır. Tarih ISO dizge karşılaştırmasıyla sorulur
 //   (yıl 4 haneye tamamlanır; negatif yıl daima "önce"). Örnek: HABER
 //   1946-01-01 ve sonrasında B, öncesinde C (Emre onayı 14 Ekim 2026).
+//
+// ESER KOŞULU — girdide `eser_desen` varsa (WIKISOURCE, Emre 10 Kasım 2026): parçadan `eser_sil`
+//   eşleşmeleri (Wikisource ibaresi/URL'si, "metni/tam/üzerinden" gibi dolgu) silinir; kalan metin
+//   `eser_desen`e uymuyorsa (eser adı/baskısı yazılı değil) girdi `eser_yok_kademe` ile sayılır.
+//   Wikisource kaynak değil, adı yazılı birincil esere ULAŞMA YOLUdur. Vikipedi tek dayanak olamaz.
 window.KAYNAK_GUVEN = {
 "surum": "KAYNAK-GUVEN-1014",
 "kademeler": {
@@ -199,7 +204,8 @@ window.KAYNAK_GUVEN = {
   {"kod": "GOOGLE-BOOKS", "ad": "Google Books", "kademe": "K", "desen": ["books\\.google", "google\\.com/books"]},
   {"kod": "GUTENBERG", "ad": "Project Gutenberg / runeberg / ibiblio (kamu malı metin)", "kademe": "K", "desen": ["gutenberg\\.org", "runeberg\\.org", "ibiblio\\.org", "sourcebooks\\.web\\.fordham\\.edu", "mek\\.oszk\\.hu"]},
   {"kod": "PDF-KAYNAK", "ad": "Adresi verilmemiş PDF / dosya", "kademe": "K", "desen": ["\\.pdf\\b"]},
-  {"kod": "VIKIPEDI", "ad": "Vikipedi (bütün dilleri) ve vikiler", "kademe": "C", "desen": ["wikipedia", "vikipedi", "wikip[ée]dia", "wikipedii", "википеди", "wikiwand", "fandom\\.com", "wikisource", "wikidata", "wiki\\.[a-z]+\\.(org|net)", "geneawiki", "fortwiki", "armeniapedia", "irkipedia", "hispanopedia", "liquisearch", "ecured\\.cu"]},
+  {"kod": "VIKIPEDI", "ad": "Vikipedi (bütün dilleri) ve vikiler", "kademe": "C", "desen": ["wikipedia", "vikipedi", "wikip[ée]dia", "wikipedii", "википеди", "wikiwand", "fandom\\.com", "wikidata", "wiki\\.[a-z]+\\.(org|net)", "geneawiki", "fortwiki", "armeniapedia", "irkipedia", "hispanopedia", "liquisearch", "ecured\\.cu"]},
+  {"kod": "WIKISOURCE", "ad": "Wikisource — YALNIZ adı/baskısı yazılı birincil esere ulaşma yolu", "kademe": "B", "eser_yok_kademe": "C", "eser_sil": "(?:https?://)?(?:[a-z-]+\\.)?wikisource(?:\\.org)?(?:/wiki/(?:Main_Page|Special:\\S*)?|/w/\\S*)?|(?:^|[\\s(,;—–-])(?:üzerinden|üzerinde|metni|metin|tam|dizini|dizin|kaynağı|kaynak|neşirleri|nesirleri|standart|text|via|from|on|the|and|ve|ile)(?=$|[\\s),;.—–-])|/wiki/", "eser_desen": "[A-Za-zÀ-ɏͰ-ϿЀ-ӿ぀-ヿ一-鿿가-힯]{3,}[^A-Za-zÀ-ɏͰ-ϿЀ-ӿ぀-ヿ一-鿿가-힯]+[A-Za-zÀ-ɏͰ-ϿЀ-ӿ぀-ヿ一-鿿가-힯]{3,}|[぀-ヿ一-鿿가-힯]{2,}|[A-Za-z]{2,}\\s?[0-9]{3,4}", "desen": ["wikisource"], "not": "Emre 10 Kasım 2026: Wikisource kaynak değil, adı/baskısı kaynakta yazılı bir birincil esere ULAŞMA YOLUdur. Parçada (Wikisource ibaresi/URL'si silinince) eser adı kalıyorsa B, kalmıyorsa C (güvensiz). Vikipedi tek dayanak olamaz kuralı değişmez."},
   {"kod": "WORLDHISTORY", "ad": "World History Encyclopedia (worldhistory.org / ancient.eu)", "kademe": "C", "desen": ["worldhistory\\.org", "ancient\\.eu", "World History Encyclop(a|ae)dia", "WorldHistory\\.org", "Ancient History Encyclop(a|ae)dia"]},
   {"kod": "NEWWORLDENC", "ad": "New World Encyclopedia (Vikipedi türevi)", "kademe": "C", "desen": ["newworldencyclopedia", "New World Encyclop(a|ae)dia"]},
   {"kod": "KUREANS", "ad": "Küre Ansiklopedi", "kademe": "C", "desen": ["kureansiklopedi", "K[üu]re Ansiklopedi"]},

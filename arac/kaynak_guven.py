@@ -78,8 +78,12 @@ class Siniflayici:
         for e in T["kaynaklar"]:
             rx = [re.compile(p, re.I) for p in e.get("desen", [])]
             rx += [re.compile(p) for p in e.get("desen_duyarli", [])]
+            eser = None
+            if e.get("eser_desen"):
+                eser = (re.compile(e["eser_sil"], re.I), re.compile(e["eser_desen"], re.I),
+                        e["eser_yok_kademe"])
             self.girdiler.append((e["kod"], e["kademe"], bool(e.get("genel")), rx,
-                                  e.get("yalniz_sonra"), e.get("once_kademe")))
+                                  e.get("yalniz_sonra"), e.get("once_kademe"), eser))
         self.tdv_kademe = next(e["kademe"] for e in T["kaynaklar"] if e["kod"] == "TDV")
 
     @staticmethod
@@ -106,10 +110,12 @@ class Siniflayici:
         """tarih: ISO dizge ya da None. `yalniz_sonra` girdisi tarih ondan önceyse
         ya da tarih yoksa `once_kademe` ile sayılır (tablo başındaki TARİH KOŞULU)."""
         ozel, genel = [], []
-        for kod, kad, gen, rx, sonra, once in self.girdiler:
+        for kod, kad, gen, rx, sonra, once, eser in self.girdiler:
             if any(r.search(metin) for r in rx):
                 if sonra and (tarih is None or tarih < sonra):
                     kad = once
+                if eser and not eser[1].search(eser[0].sub(" ", metin)):
+                    kad = eser[2]   # ESER KOŞULU (Wikisource, Emre 10 Kasım 2026): eser adı yok
                 (genel if gen else ozel).append((kod, kad))
         return ozel or genel
 
@@ -364,6 +370,18 @@ SINAV = [
     ("Qwzx Plorb, Bilinmeyen Eser", "taninmayan"),
     ("https://archive.org/details/x", "taninmayan"),
     ("Un traité de paix", "taninmayan"),
+    # Wikisource (Emre 10 Kasım 2026): yalnız adı yazılı eserin ulaşma yolu
+    ("Ming shi j.24 «Zhuanglie 2» (zh.wikisource.org/wiki/明史/卷24)", "ikincil"),
+    ("Treaty of Mandsaur (1818) özgün antlaşma metni — Wikisource", "ikincil"),
+    ("Saint-Germain Antlaşması (Wikisource dizini", "ikincil"),
+    ("https://en.wikisource.org/wiki/Indian_Independence_Act_1947", "ikincil"),
+    ("Wikisource", "guvensiz"),
+    ("Wikisource metni", "guvensiz"),
+    ("https://en.wikisource.org/wiki/Main_Page", "guvensiz"),
+    ("en.wikisource.org", "guvensiz"),
+    ("(Wikisource üzerinden tam metin)", "guvensiz"),
+    ("en.wikipedia.org/wiki/X · Wikisource", "guvensiz"),
+    ("Wikisource + islamansiklopedisi.org.tr/osman-gazi", "guvenli"),
 ]
 
 
@@ -604,7 +622,10 @@ EMRE_KARARLARI = [
     "livius.org, chinaknowledge.de → B kalır.",
     "Haber kuruluşları (HABER) → B, AMA yalnız olay tarihi ≥ 1946-01-01 olan maddede; daha eski "
     "(ya da tarihi okunamayan) maddede C. Tabloda `yalniz_sonra`/`once_kademe` alanı.",
-    "archontology, FMG/MedLands, kureansiklopedi, erenow, Wikisource üzerinden Britannica 1911 → C kalır.",
+    "archontology, FMG/MedLands, kureansiklopedi, erenow → C kalır.",
+    "WIKISOURCE (Emre 10 Kasım 2026): kaynak değil, adı/baskısı yazılı birincil esere ULAŞMA YOLU; eser adı varsa B, "
+    "yoksa C. Önceki \"Wikisource üzerinden Britannica 1911 → C\" kararının yerini alır (eser adı = Britannica 1911). "
+    "Vikipedi tek dayanak olamaz kuralı değişmez.",
     "KARIŞIK kuralı (aynı parçada C ile A/B → C) onaylandı.",
     "`adsiz` (eser adı vermeyen beyan: \"standart akademik kaynak\", \"el-kitabi\") → `guvensiz` damgasına "
     "katıldı (gizlenir, teyide gider); alt neden `adsiz` ayrı sayılır.",

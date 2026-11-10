@@ -48,7 +48,10 @@
     if (e.kod === "TDV") tdvKademe = e.kademe;
     var rx = birlesik(e.desen || [], "i").concat(birlesik(e.desen_duyarli || [], ""));
     return { kod: e.kod, kademe: e.kademe, genel: !!e.genel, rx: rx,
-             sonra: e.yalniz_sonra || null, once: e.once_kademe || null };
+             sonra: e.yalniz_sonra || null, once: e.once_kademe || null,
+             eserSil: e.eser_desen ? new RegExp(e.eser_sil, "ig") : null,
+             eserDesen: e.eser_desen ? new RegExp(e.eser_desen, "i") : null,
+             eserYok: e.eser_yok_kademe || null };
   });
 
   function metin(k) {
@@ -81,6 +84,8 @@
     tutanlar(s).forEach(function (g) {
       var kad = g.kademe;
       if (g.sonra && (tarih === null || tarih < g.sonra)) kad = g.once;
+      // ESER KOŞULU (Wikisource, Emre 10 Kasım 2026): eser adı yoksa eserYok kademesi
+      if (g.eserDesen && !g.eserDesen.test(s.replace(g.eserSil, " "))) kad = g.eserYok;
       (g.genel ? genel : ozel).push([g.kod, kad]);
     });
     return ozel.length ? ozel : genel;
