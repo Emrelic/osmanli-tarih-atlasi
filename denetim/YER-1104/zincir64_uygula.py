@@ -6,7 +6,9 @@ BURA = os.path.dirname(os.path.abspath(__file__))
 KOK = os.path.dirname(os.path.dirname(BURA))
 Z = json.load(open(os.path.join(BURA, "zincir_hazir.json"), encoding="utf-8"))
 # Novigrad: d: kırılmaları 1594-01-01 ve 1685-01-01 (yıl-temsilî) ±30 günde madde taşımıyor (Değişmez 2: 166 / 59 gün) → uygulanmadı.
-ATLA = {"Novigrad"}
+ATLA = set()  # 11 Kasım 2026: Novigrad uygulandı — kronoloji_sinir_avrupa_orta.js'e 1594 (yıl) / 1663 (yıl) / 1685-08-19 (gün, Pálmány 1986) maddeleri yazıldı
+NOVIGRAD_1685 = ("Pálmány Béla, A Nógrád megyei Múzeumok Évkönyve XII (1986), s. 35 ve 101: Nógrád vára elfoglalásának pontos napja 1685. augusztus 19.; "
+                 "MKL yalnız '1685' demişti, gün Pálmány'dan")
 adlar = [a for a in Z if not a.startswith("_") and a not in ATLA]
 n = int(sys.argv[1]) if len(sys.argv) > 1 else len(adlar)
 BEYANLI_KUNYE = {"Tepedelen", "Drivasto", "Tellülkebîr", "Cezîretülhadrâ (Algeciras)", "Somnât (Sûmenât)", "Misilmeri"}
@@ -55,6 +57,15 @@ for ad in adlar[:n]:
     k = Z[ad]
     z = k["zincir"]
     z = [p for p in z if not (p["alan"] == "isg" and ad in ISG_ATLA)]
+    if ad == "Novigrad":
+        z = [dict(p) for p in z]
+        for p in z:
+            if p["t"] == "1685-01-01":
+                p["t"] = "1685-08-19"
+                p["kaynak"] += " · t: " + NOVIGRAD_1685
+            if p["f"] == "1685-01-01":
+                p["f"] = "1685-08-19"
+                p["kaynak"] += " · f: " + NOVIGRAD_1685
     kat = {a: [p for p in z if p["alan"] == a] for a in ("s", "d", "v", "isg")}
     kaynak = "Koordinat/zincir: denetim/YER-1104/KASA-YER.md ② + ZINCIR.md (UMIT, 4 Kasım 2026); dönem kaynakları dönemlerin kendi kaynak: alanında."
     if k.get("not"):

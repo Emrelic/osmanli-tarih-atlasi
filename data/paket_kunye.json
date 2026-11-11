@@ -274,8 +274,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_orta.js",
-     "sha": "6e79b0f446fc87c9",
-     "bayt": 76139
+     "sha": "819a7d8a032def1c",
+     "bayt": 80209
     },
     {
      "yol": "data/kronoloji_sinir_avrupa_bati.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1200289
+   "bayt": 1204359
   },
   {
    "paket": "data/paket_10.js",
