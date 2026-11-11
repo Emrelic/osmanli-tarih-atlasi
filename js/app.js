@@ -6427,6 +6427,19 @@ function isyanYayilmaUret() {
 //    hatası: `SEFERLERX`, `SEFERLER-X`) da sessizce geçmiyor, ayrıca
 //    bildiriliyor. Bir harflik hata yüzünden bütün bir dosyanın kaybolması
 //    bu projede ölçülmüş bir zarardır.
+// 🔴 ÇİZİM HATTI SEÇİMİ — post-it #185 (Emre, 11 Kasım 2026): *"denizden gelen
+// gemi kara üzerinden geçmez ... dağların üzerinden uçakla gidiyor gibi gitmez."*
+// Sıra: ① elle yazılmış `rota` (0075) ② `data/rota_cizim.js`teki ÜRETİLMİŞ hat
+// (arac/rota_cizim_uret.py: deniz/kara/eğim maliyetinin en ucuz yolu; kaynaklı
+// duraklar hattın üzerinde aynen durur) ③ `yol` (duraktan durağa düz).
+// `kademe`li kayıtta ② KULLANILMAZ: kademe indeksi `yol` noktasını sayar,
+// üretilmiş hatta aynı indeks başka bir ara noktaya düşerdi.
+function seferCizimHatti(s) {
+  if (Array.isArray(s.rota) && s.rota.length >= 2) return s.rota;
+  var R = window.ROTA_CIZIM;
+  if (!s.kademe && s.id && R && Array.isArray(R[s.id]) && R[s.id].length >= 2) return R[s.id];
+  return s.yol;
+}
 function seferKayitlariniTopla() {
   var out = [], kaynaklar = [], tanimsiz = [], bozukYol = [], benzeyen = [];
   Object.keys(window).forEach(function (k) {
@@ -6478,7 +6491,7 @@ function seferKayitlariniTopla() {
 }
 
 var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (s) {
-  var _hat0 = (Array.isArray(s.rota) && s.rota.length >= 2) ? s.rota : s.yol;   // 0075: rota çizim hattıdır
+  var _hat0 = seferCizimHatti(s);   // 0075: rota çizim hattıdır · #185: üretilmiş hat
   var son = _hat0[_hat0.length - 1], onceki = _hat0[_hat0.length - 2];
   // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
   var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
@@ -6568,7 +6581,7 @@ var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (
   // ne_10m_land'e karşı doğrulanmış). Ara noktalar bir İDDİA değil çizimdir;
   // uçları `yol`un uçlarıyla aynı olmalıdır. Çizim, animasyon, mükerrer ve yer
   // eşleştirmesi hepsi bu hattı okur.
-  var _cizYol = (Array.isArray(s.rota) && s.rota.length >= 2) ? s.rota : s.yol;
+  var _cizYol = _hat0;
   // 🆕 VURUŞ İŞARETİ — ARAYUZ-0077 × SEFER-OK-0077 (M-5210/M-5212, 27 Eylül
   // 2026). Emre (paket 0077 H-0016, Karadeniz Baskını): *"donanmanın
   // güzergâhını ve baskın verdiği yerleri işaretleyelim, bombalama etkisi için
