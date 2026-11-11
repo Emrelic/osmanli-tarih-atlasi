@@ -403,7 +403,14 @@ def iz_kapsami():
             if not os.path.exists(kyol):
                 fark.append(ad + " (girdi diskte YOK)")
                 continue
-            simdi = hashlib.sha256(open(kyol, "rb").read()).hexdigest()
+            _b = open(kyol, "rb").read()
+            simdi = hashlib.sha256(_b).hexdigest()
+            # 🔴 12 Kasım 2026 (KRON-ETIKET, ölçüldü): iz özeti HAM BAYTtır; LF makinede yazılan iz
+            #   (e6e71892c) CRLF çalışma kopyalı makinede (EMRELİC, core.autocrlf) bütün girdileri
+            #   "değişmiş" sayıyordu — içerik aynı, yalnız satır sonu. Site dosyası değiştiren her push
+            #   bu yüzden düşüyordu. Ham tutmazsa CRLF→LF özeti de denenir; içerik değiştiyse yine bayat.
+            if simdi != ozet and b"\r\n" in _b:
+                simdi = hashlib.sha256(_b.replace(b"\r\n", b"\n")).hexdigest()
             if simdi != ozet:
                 fark.append(ad)
         # ─── ÜÇ KOVA (Emre onayı, 1 Ekim 2026) — eskiden hepsi "BAYAT"tı ──────
