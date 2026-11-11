@@ -309,7 +309,8 @@
       } catch (e) { hata(e); }
     };
     s.onerror = function () {
-      kok[c.hata] = c.dosya.split("/").pop() + " İNDİRİLEMEDİ (deneme " + (deneme + 1) + ")";
+      kok[c.hata] = c.dosya.split("/").pop() + " İNDİRİLEMEDİ";
+      kok[c.hata + "_DENEME"] = deneme + 1;   // sayı ayrı alanda: yeni arayüz dizgisi doğmasın
       if (kok.console) console.error("🔴 " + kok[c.hata]);
       if (s.parentNode) s.parentNode.removeChild(s);
       if (deneme < DENEME_ARA_MS.length) {
