@@ -1241,6 +1241,7 @@ Ceviri.ekle("fr","arayuz",{
 "TDV'nin menzil maddesi ana kolları sayar,":["L'article « menzil » du TDV énumère les branches principales,", "141d24df"],
 "Tahta çıkış:":["Avènement :", "14f32276"],
 "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur.":["Le temps s'écoule régulièrement (année par année) ; le champ à côté règle la vitesse : d'un mois par seconde à dix ans par seconde. Idéal pour regarder les frontières changer comme dans un film.", "de25815d"],
+"Takvimde böyle bir gün yok (“":["Ce jour n'existe pas dans le calendrier (“", "420d84af"],
 "Tam ekran (F#)":["Plein écran (F#)", "d1328d06"],
 "Tam ekrandan çıkmak için istediğiniz an":["Pour quitter le plein écran, à tout moment", "5c499dc6"],
 "Tarayıcıyı tam ekran yapar (Esc ile çıkılır).":["Met le navigateur en plein écran (quitter avec Esc).", "306ee39f"],

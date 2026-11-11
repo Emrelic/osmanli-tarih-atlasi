@@ -1241,6 +1241,7 @@ Ceviri.ekle("ar","arayuz",{
 "TDV'nin menzil maddesi ana kolları sayar,":["مادة المنزل في TDV تعدّد الفروع الرئيسية،", "141d24df"],
 "Tahta çıkış:":["اعتلاء العرش:", "14f32276"],
 "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur.":["يجري التقويم بسلاسة (سنة سنة)؛ ويختار المربع المجاور السرعة: من شهر في الثانية إلى عشر سنوات في الثانية. مناسب لمشاهدة تغيّر الحدود كفيلم.", "de25815d"],
+"Takvimde böyle bir gün yok (“":["لا يوجد يوم كهذا في التقويم (“", "420d84af"],
 "Tam ekran (F#)":["ملء الشاشة (F#)", "d1328d06"],
 "Tam ekrandan çıkmak için istediğiniz an":["للخروج من ملء الشاشة في أي وقت", "5c499dc6"],
 "Tarayıcıyı tam ekran yapar (Esc ile çıkılır).":["يجعل المتصفح بملء الشاشة (للخروج اضغط Esc).", "306ee39f"],

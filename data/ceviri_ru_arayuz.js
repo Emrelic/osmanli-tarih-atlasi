@@ -1177,6 +1177,7 @@ Ceviri.ekle("ru","arayuz",{
 "TDV'nin menzil maddesi ana kolları sayar,":["В статье TDV о menzil перечисляются основные ветви,", "141d24df"],
 "Tahta çıkış:":["Восшествие на престол:", "14f32276"],
 "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur.":["Календарь идёт плавно (год за годом); поле рядом выбирает скорость: от одного месяца в секунду до десяти лет в секунду. Удобно, чтобы смотреть изменение границ как фильм.", "de25815d"],
+"Takvimde böyle bir gün yok (“":["Такого дня в календаре нет (“", "420d84af"],
 "Tam ekran (F#)":["Полный экран (F#)", "d1328d06"],
 "Tam ekrandan çıkmak için istediğiniz an":["Чтобы выйти из полноэкранного режима, в любой момент", "5c499dc6"],
 "Tarayıcıyı tam ekran yapar (Esc ile çıkılır).":["Включает полноэкранный режим браузера (выход — Esc).", "306ee39f"],

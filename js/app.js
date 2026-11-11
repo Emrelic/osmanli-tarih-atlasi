@@ -17259,7 +17259,7 @@ function tarihMetniAyristir(ham) {
   var d = new Date(Date.UTC(2000, 0, 1));
   d.setUTCFullYear(yil, ay - 1, gun);
   if (d.getUTCMonth() !== ay - 1 || d.getUTCDate() !== gun) {
-    return { hata: "Bu ayda " + gun + ". gün yok (“" + s + "”)" };
+    return { hata: "Takvimde böyle bir gün yok (“" + s + "”)" };
   }
   return { gi: Math.round(d.getTime() / 864e5) };
 }

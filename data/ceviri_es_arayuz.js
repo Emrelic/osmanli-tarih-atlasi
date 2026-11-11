@@ -1222,6 +1222,7 @@ Ceviri.ekle("es","arayuz",{
 "TDV'nin menzil maddesi ana kolları sayar,":["La entrada «menzil» de la TDV enumera las rutas principales,", "141d24df"],
 "Tahta çıkış:":["Ascenso al trono:", "14f32276"],
 "Takvim düzgün akar (sene sene); yanındaki kutu hızı seçer: saniyede bir aydan saniyede on yıla kadar. Sınırların değişimini film gibi izlemek için uygundur.":["El tiempo fluye de manera uniforme (año por año); el cuadro de al lado elige la velocidad: de un mes por segundo a diez años por segundo. Ideal para ver cambiar las fronteras como en una película.", "de25815d"],
+"Takvimde böyle bir gün yok (“":["Ese día no existe en el calendario (“", "420d84af"],
 "Tam ekran (F#)":["Pantalla completa (F#)", "d1328d06"],
 "Tam ekrandan çıkmak için istediğiniz an":["Para salir de la pantalla completa, en cualquier momento", "5c499dc6"],
 "Tarayıcıyı tam ekran yapar (Esc ile çıkılır).":["Pone el navegador en pantalla completa (se sale con Esc).", "306ee39f"],
