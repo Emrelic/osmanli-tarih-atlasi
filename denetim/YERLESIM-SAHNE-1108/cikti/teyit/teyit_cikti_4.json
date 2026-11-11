@@ -1,0 +1,136 @@
+[
+ {
+  "ad": "Andong (Andong, 安東)",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 36.5592, "lon": 128.7289, "kaynak": "Yalniz Vikipedi (en Andong; 36°33'33''K 128°43'44''D) - tek dayanak degil, tutarlilik. Britannica 403 verdi, ulusal ansiklopedi (Encyclopedia of Korean Culture) acilamadi. bulunamadi."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1392-08-05", "d": "goryeo", "durum": "teyitli", "kaynak": "Arama sonucu (WebSearch; sayfalar tam acilmadi): Korece kaynak (v.daum.net/v/P8FtAeVZw0) 930 Gochang Muharebesi'nden sonra Gochang-gun'un Andong-bu adini aldigini; itwiki.kr Goryeosa'dan Wang Geon'un Gochang'da Hubaekje'yi yendigini yazar. Goryeo'nun 1392'ye kadar surdugu genel olgu; Andong'a ozgu 1281-1392 belgesi okunmadi. Bitis gunu (1392-08-05) bu turda dogrulanmadi: yalniz yil duzeyinde teyitli."},
+   {"f": "1392-08-05", "t": "1910-08-29", "d": "joseon", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi. Joseon'un 1392'de kuruldugu ve Andong'un Joseon'da Confucian merkez oldugu bilinen genel olgu ama bu turda kaynak acilmadi; gun teyitsiz."},
+   {"f": "1910-08-29", "t": "1945-09-09", "d": "japon-kore", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi (bu turda kaynak acilmadi)."},
+   {"f": "1945-09-09", "t": "1948-08-15", "d": "abd-ordu-askeri-hukumeti-kore", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1948-08-15", "t": "2000-12-31", "d": "guney-kore", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Goryeo dönemi (930'dan itibaren Andong-bu) arama sonucundaki Korece kaynaklarla yıl düzeyinde destekleniyor; Joseon/Japon/ABD/Güney Kore dilimlerinin gün sınırları ve koordinat için birincil/ulusal kaynak okunamadı (Britannica 403)."
+ },
+ {
+  "ad": "Autun",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 46.952, "lon": 4.299, "kaynak": "Britannica 403 verdi; Universalis sayfasi acilmadi. Koordinat icin okunmus bagimsiz kaynak yok. bulunamadi."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1477-01-05", "d": "burgonya", "durum": "teyitli", "kaynak": "Encyclopaedia Universalis (https://www.universalis.fr/encyclopedie/duche-de-bourgogne/, arama ozeti): Autun Eduenlerin kenti, Burgonya Dukaligi cekirdegi (dukaligi Autun kontu Richard le Justicier kurdu). Duklugun 1281'de iç sinirleri ayrica okunmadi. Yalniz yil duzeyi; 'devlet' etiketi burgonya = Burgonya Dukaligi."},
+   {"f": "1477-01-05", "t": "1792-09-22", "d": "fransa", "durum": "teyitli", "kaynak": "Universalis (https://www.universalis.fr/encyclopedie/duche-de-bourgogne/4-la-reunion-du-duche-au-royaume-de-france/, arama ozeti): «En 1477, a la mort de Charles le Temeraire, Louis XI fit entrer ses troupes en Bourgogne»; Herodote.net: Louis XI dukaligi (duche proprement dit) kraliyet domainine katti. 1477 yili teyitli; 5 Ocak Nancy'de Karl'in olum gunu, fiili ilhak gunu degil - gun teyitsiz (yalniz yil teyitli)."},
+   {"f": "1792-09-22", "t": "2000-12-31", "d": "fransa-cumhuriyet", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / bu turda okunmadi (Birinci Cumhuriyet ilani genel olgu)."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Autun'un Burgonya Dükalığı çekirdeğinde olduğu ve 1477'de Fransa'ya geçtiği Universalis/Hérodote özetleriyle yıl düzeyinde teyitli; koordinat ve gün sınırları okunmuş kaynakla doğrulanamadı."
+ },
+ {
+  "ad": "Klokotnitsa",
+  "koordinat": {"durum": "teyitli", "lat": 41.992578, "lon": 25.495366, "kaynak": "Vikipedi (en Klokotnitsa, Haskovo Province; arama ozeti) 41°59'N 25°30'E (41.983, 25.500) - yalniz tutarlilik, ~1 km fark, ayni koy; Haskovo-online (https://haskovo-online.com/en/?p=37, arama ozeti): Klokotnitsa Nehri, Haskovo'nun 10 km batisi. Ulusal/akademik koordinat kaynagi okunmadi."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1372-06-01", "d": "bulgar-carligi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi. 1230 savasi Ivan Asen II zaferi (arama sonucu); 1281-1372 idaresi okunmadi."},
+   {"f": "1402-07-28", "t": "1410-02-13", "d": "suleyman-celebi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1410-02-13", "t": "1410-06-15", "d": "musa-celebi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1410-06-15", "t": "1411-02-17", "d": "suleyman-celebi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1411-02-17", "t": "1413-07-05", "d": "musa-celebi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1885-09-18", "t": "1908-10-05", "d": "bulgaristan-prensligi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1908-10-05", "t": "1946-09-15", "d": "bulgaristan-kralligi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1946-09-15", "t": "1990-11-15", "d": "bulgaristan-halk", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1990-11-15", "t": "2000-12-31", "d": "bulgaristan-cumhuriyeti", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Yerin varlığı (1230 savaşı, Haskovo yakını) ve koordinat tutarlılığı doğrulandı; hiçbir siyasî dilim için okunmuş kaynak bulunamadı (Osmanlı d:/Doğu Rumeli v: kayıtları dahil)."
+ },
+ {
+  "ad": "Hoogstraten",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 51.40215, "lon": 4.7618, "kaynak": "bulunamadi: hoogstraten.be PDF baglanti hatasi (ECONNREFUSED), koordinat icin okunmus kaynak yok."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1430-08-04", "d": "brabant-dukaligi", "durum": "teyitli", "kaynak": "Antwerpen sehir arsivi bulma yardimcisi (https://search.arch.be/ead/pdf/BE-A0511_106694_106976_DUT.ead.pdf, arama ozeti): Hoogstraten heerlijkheid (Van Kuik 1295, Van Borselen 1428, Van Culemborg 1470, Lalaing, Salm-Salm); 1210'da Brabant dukunden hurriyet haklari; ancien regime boyunca Antwerpen Markgraafschap'inin (Brabant Dukaligi) parcasi. Bitis gunu (1430-08-04) okunmadi - yalniz yil duzeyi."},
+   {"f": "1430-08-04", "t": "1482-03-27", "d": "burgonya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi (Brabant'in 1430'da Burgonya'ya gecisi genel olgu; bu turda kaynak acilmadi)."},
+   {"f": "1482-03-27", "t": "1516-01-23", "d": "habsburg-hollandasi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1516-01-23", "t": "1714-03-07", "d": "ispanya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi. NOT: Hoogstraten 1518'de graafschap, 1740'ta dukalik (arsiv ozeti); Hollanda Cumhuriyeti ile sinir (1648) sorusu okunmadi."},
+   {"f": "1714-03-07", "t": "1795-10-01", "d": "avusturya-hollandasi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1795-10-01", "t": "1814-05-04", "d": "fransa-cumhuriyet", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1814-05-04", "t": "1830-10-04", "d": "hollanda", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1830-10-04", "t": "2000-12-31", "d": "belcika", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Hoogstraten'in Brabant Dükalığı'nın Antwerpen Markgraflığı içinde bir heerlijkheid olduğu Antwerpen şehir arşivi özetiyle doğrulandı; sonraki dilimler ve koordinat okunmuş kaynakla teyit edilemedi."
+ },
+ {
+  "ad": "Orašac (Aranđelovac)",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 44.32888889, "lon": 20.58527778, "kaynak": "Muze kaynagi nmar.rs (https://nmar.rs/history-of-orasac/, acildi) yer tarifi verir (Mladenovac-Arandjelovac yolu uzerinde, Vrbljak ve Misaca arasi) ama sayisal koordinat yok; Vikipedi yalniz ipucu. bulunamadi."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1402-01-01", "d": "sirbistan-nemanjic", "durum": "hatali", "dogru_f": null, "dogru_t": null, "dogru_d": null, "kaynak": "nmar.rs (acildi): «Orasac was founded in the first half of the 18th century» (Avusturya isgali sirasinda Sirplar yerlesti). Yani 1281-1459 donemi icin KOY YOKTU; bu dilimler ya kirpilmali ya da bolgesel (Sumadija) abi-merkez yaklasikligi olarak beyanla kalmali. Dilim sahibi ayrica okunmadi."},
+   {"f": "1402-01-01", "t": "1439-08-27", "d": "sirp-despotlugu", "durum": "hatali", "dogru_f": null, "dogru_t": null, "dogru_d": null, "kaynak": "Ayni: koy 18. yy ilk yarisinda kurulmus (nmar.rs). Erken dilimler icin yer yoktu."},
+   {"f": "1444-08-15", "t": "1459-06-20", "d": "sirp-despotlugu", "durum": "hatali", "dogru_f": null, "dogru_t": null, "dogru_d": null, "kaynak": "Ayni: koy 18. yy ilk yarisinda kurulmus (nmar.rs)."},
+   {"f": "1717-08-18", "t": "1738-08-01", "d": "macaristan-habsburg", "durum": "teyit_edilemedi", "kaynak": "nmar.rs (acildi): Pozarevac Antlasmasi ile kuzey Sirbistan Avusturya'ya verildi; isgal 1718-1739 (Osmanlilar 1739'da dondu). Atlas dilimi 1717-08-18 -> 1738-08-01: kaynakla yil duzeyinde yaklasik uyum ama bitis 1739 (Belgrad Antlasmasi) ile 1 yil farkli; kaynak gun vermedi. Kismi."},
+   {"f": "1878-07-13", "t": "1882-03-06", "d": "sirbistan-prensligi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1882-03-06", "t": "1918-12-01", "d": "sirbistan-kralligi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1918-12-01", "t": "1941-08-29", "d": "yugoslavya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1941-08-29", "t": "1944-10-06", "d": "sirbistan-nedic", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1944-10-06", "t": "1945-11-29", "d": "yugoslavya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1945-11-29", "t": "1992-04-27", "d": "yugoslavya-federal", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1992-04-27", "t": "2000-12-31", "d": "yugoslavya-federal-cumhuriyeti", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Müze sitesi nmar.rs köyün 18. yy ilk yarısında kurulduğunu söylüyor: 1281-1459 Sırp dilimleri 'köy yoktu' bulgusuyla çelişiyor (kırpma önerilir, yaklaşıklık beyanı kalırsa bölge/abi merkez olarak). Habsburg dönemi (1718-1739) ve Osmanlı Smederevo sancağı/Belgrad paşalığı teyitli."
+ },
+ {
+  "ad": "Aricia (Ariccia)",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 41.721399649999995, "lon": 12.673347150000001, "kaynak": "Pleiades 422844 / Wikidata acilmadi; yalniz arama sonucu: Britannica Latin League (https://www.britannica.com/topic/Latin-League, arama ozeti) Aricia'yi birligin merkezi olarak anar; Pleiades 174457453 ozeti Aricia'da Diana tapinagini anar. Sayisal koordinat okunmadi. bulunamadi."},
+  "s_dilimleri": [
+   {"f": "-0504-01-01", "t": "-0338-01-01", "d": "__BOSLUK__", "durum": "teyitli", "kaynak": "Britannica Latin League (arama ozeti): Latin Birligi Aricia merkezli; 338 MO'da Roma galip, birlik dagitildi. Baslangic -0504 okunmadi (yalniz yil). Bitis -338 yil duzeyinde teyitli."},
+   {"f": "-0338-01-01", "t": "-0026-01-16", "d": "roma-cumhuriyeti", "durum": "teyit_edilemedi", "kaynak": "Arama sonucu: Aricia'nin 338'de ne statu aldigi (civitas sine suffragio / municipium) okunmus kaynakta acik degil; Humbert 1978 onerildi, acilmadi. Roma altina girisi yil duzeyinde makul ama Aricia'ya ozgu kaynak yok."},
+   {"f": "-0026-01-16", "t": "0395-01-17", "d": "roma-imp", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "0395-01-17", "t": "0476-08-23", "d": "bati-roma", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "0476-08-23", "t": "0493-03-05", "d": "odoakar", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "0493-03-05", "t": "0536-12-09", "d": "dogu-got", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "0536-12-09", "t": "0756-01-01", "d": "bizans", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "0756-01-01", "t": "1143-01-01", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1143-01-01", "t": "1155-01-01", "d": "roma-komunu", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1155-01-01", "t": "1281-01-01", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1281-01-01", "t": "1798-02-15", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1798-02-15", "t": "1799-09-30", "d": "roma-cumhuriyeti-1798", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1799-09-30", "t": "1809-05-17", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1809-05-17", "t": "1814-05-24", "d": "fransa-cumhuriyet", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1814-05-24", "t": "1849-02-09", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1849-02-09", "t": "1849-07-03", "d": "roma-cumhuriyeti-1849", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1849-07-03", "t": "1870-09-20", "d": "papalik", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1870-09-20", "t": "1946-06-18", "d": "italya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1946-06-18", "t": "2000-12-31", "d": "italya-cumhuriyeti", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Aricia'nın Latin Birliği merkezi/üyesi olduğu ve 338 MÖ'da birliğin dağıtıldığı Britannica özetiyle yıl düzeyinde destekleniyor; Roma sonrası dilimlerin hiçbiri ve koordinat okunmuş kaynakla teyit edilemedi."
+ },
+ {
+  "ad": "Haldighati",
+  "koordinat": {"durum": "teyit_edilemedi", "lat": 24.8921711, "lon": 73.6978065, "kaynak": "Arama ozetleri (Vikipedi turevi, hotel/seyahat siteleri): Haldighati, Khamnor ile Balicha arasinda Aravalli gecidi, Rajsamand ile Udaipur ilcelerini baglar, Udaipur'dan ~43-44 km (yol). Koordinat tutarli (Udaipur'un ~34 km kuzeyi, kus ucusu) ama sayisal kaynak okunmadi. Britannica 403."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1948-04-18", "d": "racput", "durum": "teyit_edilemedi", "kaynak": "Britannica Battle of Gogunda (https://www.britannica.com/event/Battle-of-Gogunda, arama sonucu; acilmadi): Haldighati savasi 18 Haziran 1576, Gogunda yakini gecit, Rajsamand ilcesi (arama ozetleri). Mewar'in 1281-1948 surekli sahipligi ve 1948-04-18 (Rajasthan Birligi) okunmadi. NOT: girdideki 'Haldighati 1576 Mewar-Babur savasi' hatali; savas Mewar - Ekber (Man Singh komutasinda Babur degil)."},
+   {"f": "1948-04-18", "t": "2000-12-31", "d": "hindistan-cumhuriyeti", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Yerin kimliği (Haldighati geçidi, 1576 savaşı, Mewar bölgesi) arama özetleriyle doğrulandı; dilim tarihleri ve koordinat okunmuş birincil/ulusal kaynakla teyit edilemedi. Girdideki 'Babur' ifadesi hatalı (Ekber)."
+ },
+ {
+  "ad": "Göktepe (Gökdepe / Geok Tepe)",
+  "koordinat": {"durum": "teyitli", "lat": 38.15778, "lon": 57.96639, "kaynak": "Vikipedi (en Battle of Geok Tepe, WebFetch acildi): kale 38°09'28''K 57°57'59''D = 38.15778, 57.96639 - yalniz Vikipedi, tutarlilik; ulusal/akademik koordinat kaynagi okunmadi."},
+  "s_dilimleri": [
+   {"f": "1281-01-01", "t": "1337-09-09", "d": "ilhanli", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1337-09-09", "t": "1381-01-01", "d": "serbedariler", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1381-01-01", "t": "1507-05-24", "d": "timurlu", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1507-05-24", "t": "1510-12-02", "d": "buhara", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1510-12-02", "t": "1736-03-08", "d": "safevi", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1736-03-08", "t": "1747-06-20", "d": "afsar", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1747-06-20", "t": "1794-01-01", "d": "zend", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1794-01-01", "t": "1860-01-01", "d": "kacar", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1860-01-01", "t": "1881-01-24", "d": "turkmen", "durum": "teyitli", "kaynak": "Vikipedi (en Battle of Geok Tepe, acildi): son hucum 24 Ocak 1881 07:00; calendar belirtilmemis; makalede dipnot yok (kaynakca: 'An Indian Officer' 1894, Skobelev raporu 1881). WebSearch sonuclari baska sitelerde Julian 12 Ocak 1881 verir = Gregoryen 24 Ocak (uyumlu). Bitis gunu teyit: ikincil kaynak; birincil Skobelev raporu okunmadi. Baslangic 1860 okunmadi."},
+   {"f": "1881-01-24", "t": "1917-03-15", "d": "rusya", "durum": "teyit_edilemedi", "kaynak": "Ayni Vikipedi/arama: Rus zaferi, Orta Asya fethinin tamamlanmasina yakin. Akhal bolgesinin resmi ilhaki ve 1917-03-15 okunmadi; kismi dayanak."},
+   {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."},
+   {"f": "1917-11-07", "t": "1991-10-27", "d": "sovyet-rusya", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi. NOT: 1922-12-30 SSCB kurulusu sonrasi d: 'sovyet-rusya' etiketi gozden gecirilmeli (okunmadi)."},
+   {"f": "1991-10-27", "t": "2000-12-31", "d": "turkmenistan", "durum": "teyit_edilemedi", "kaynak": "bulunamadi / okunmadi."}
+  ],
+  "genel": "kismi",
+  "gerekce": "Koordinat (kale) ve 24 Ocak 1881 Rus fethi (Jülyen 12 Ocak ile uyumlu) ikincil kaynaklarla desteklendi; birincil/akademik kaynak (Skobelev raporu, DergiPark makalesi) açılmadı, ve diğer dilimler okunmadı."
+ }
+]

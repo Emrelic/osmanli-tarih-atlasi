@@ -1,0 +1,379 @@
+[
+ {
+  "ad": "Managua",
+  "lat": 12.1364,
+  "lon": -86.2514,
+  "kur": "1933-01-01",
+  "bit": null,
+  "s": [
+   {
+    "f": "1933-01-01",
+    "t": "2000-12-31",
+    "d": "nikaragua-cumhuriyeti",
+    "kaynak": "devletler.js nikaragua-cumhuriyeti: f=1838-04-30, baskent 'León → Managua', t yok. 1933-01-02 maddesi bu dilime düşer."
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [],
+  "koordinat_notu": "Koordinat: GeoNames/Vikipedi Managua (bilinen değer, ölçülmedi) [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Consuegra",
+  "lat": 39.4619,
+  "lon": -3.6064,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1479-01-19",
+    "d": "kastilya",
+    "kaynak": "ABİ MERKEZ: Toledo — Kastilya Tacı'nın ülke çapı sahipliği (atlas Toledo: kastilya 1085-05-25→1479-01-19, ispanya 1479-01-19→2000-12-31); BEYANLI YAKLAŞIKLIK. es.wikipedia Consuegra (okundu; ikincil): 1183'te şehir ve alfoz'u San Juan (Malta) Tarikatı'na bağışlandı, Papa Lucio III onayıyla Gran Priorato merkezi oldu; Cuenca fuero'sunun bir kopyası verildi; Castillo de la Muela. Kaynaklar arası çelişki: bağışçı VIII. Alfonso (madde) / IX. Alfonso (Madoz 1847). Karlos I döneminde Castilla priorato merkezi."
+   },
+   {
+    "f": "1479-01-19",
+    "t": "2000-12-31",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Toledo — Kastilya Tacı'nın ülke çapı sahipliği (atlas Toledo: kastilya 1085-05-25→1479-01-19, ispanya 1479-01-19→2000-12-31); BEYANLI YAKLAŞIKLIK. Yerel sahipliği ayrıca tanıklayan kaynak okunmadı; Aragon-Kastilya birliği günü atlas Toledo kaydından."
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [],
+  "koordinat_notu": "Koordinat: es.wikipedia Consuegra maddesi 39°27′43″N 3°36′23″O; bu oturumda okundu [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Mâcon",
+  "lat": 46.3069,
+  "lon": 4.8286,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1435-09-21",
+    "d": "fransa",
+    "kaynak": "fr.wikipedia Comté de Mâcon (okundu): «vendent en 1239 le comté au roi de France, Saint Louis»; «Rendu au duché de Bourgogne en 1435 dans le cadre du traité d'Arras»; «définitivement annexé au royaume» 1477 sonrası (Louis XI). | 1239-1435 arası Mâcon kontluğu Fransa kraliyet domain'idir (Saint Louis 1239 satın aldı; fr.wikipedia Comté de Mâcon, okundu; kaynak Roussot 1971 dolaylı, okunmadı). BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "f": "1435-09-21",
+    "t": "1477-01-05",
+    "d": "burgonya",
+    "kaynak": "Arras Antlaşması (21 Eylül 1435; fr.wikipedia Traité d'Arras (1435), okundu): Charles VII «le comté de Mâcon, la vicomté de Bar-sur-Seine et le comté d'Auxerre» Philippe le Bon'a devretti; 1477'ye dek Burgonya. t: atlas Dijon günü (Charles le Téméraire'in ölümü, 1477-01-05). BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "f": "1477-01-05",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "kaynak": "ABİ MERKEZ: Dijon — Fransa'ya geçiş: Devrim; atlas Dijon kaydı (fransa 1477-01-05→1792-09-22, fransa-cumhuriyet 1792-09-22→) (DEVRALMA zinciri: Dijon kaydı). Kralın Burgonya'yı ilhakı 1477 (Nancy 5 Ocak). BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Dijon — Fransa'da Birinci Cumhuriyet ilanı (atlas Dijon kaydı; kaynak TDV fransa, bu oturumda okunmadı). BEYANLI YAKLAŞIKLIK"
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [],
+  "koordinat_notu": "Koordinat: Hafızadan (GeoNames/Vikipedi); bu oturumda okunmadı; doğrulanmadı. (fr.wikipedia Comté de Mâcon yalnız Mâconnais bölgesi 46°20′24″N 4°44′24″E verir.) [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Nieuwpoort",
+  "lat": 51.129444,
+  "lon": 2.751389,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1384-01-30",
+    "d": "flandre",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "d": "fransa-cumhuriyet",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1814-02-02",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [
+   {
+    "f": "1940-05-28",
+    "t": "1944-09-12",
+    "d": "almanya",
+    "kaynak": "ABİ MERKEZ: Brüj (Brugge) — atlas zinciri (yerlesimler_avrupa.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "koordinat_notu": "Koordinat: Wikidata Q623310 P625 [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Kosova Ovası (Kosovo Polje)",
+  "lat": 42.7175,
+  "lon": 21.085,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1342-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ Priştine öncesi: Kosova bölgesi Nemanjić Sırbistan’ı; kaynak okunmadı"
+   },
+   {
+    "f": "1342-01-01",
+    "t": "1402-01-01",
+    "d": "sirbistan-nemanjic",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1402-01-01",
+    "t": "1455-06-01",
+    "d": "sirp-despotlugu",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1913-05-30",
+    "t": "1918-12-01",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-12-01",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "1999-06-10",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1999-06-10",
+    "t": "2000-12-31",
+    "d": "unmik-kosova",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1455-06-01",
+    "t": "1913-05-30"
+   }
+  ],
+  "v": [],
+  "isg": [
+   {
+    "f": "1912-10-22",
+    "t": "1913-05-30",
+    "d": "sirbistan-kralligi",
+    "kaynak": "ABİ MERKEZ: Priştine — atlas zinciri (yerlesimler.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "koordinat_notu": "Koordinat: Wikidata Q20988473 P625 (Kosovo Field karstik ova) [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Világos (Şiria)",
+  "lat": 46.261132,
+  "lon": 21.595591,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "d": "macaristan",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1551-07-01",
+    "t": "1551-10-01",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1688-06-22",
+    "t": "1918-11-16",
+    "d": "macaristan-habsburg",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "d": "macaristan-naiplik",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "d": "romanya-kralligi",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "d": "romanya-halk",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   },
+   {
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "d": "romanya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Arad — atlas zinciri (yerlesimler_zincir64.js); BEYANLI YAKLAŞIKLIK; zincir kaynağı bu turda okunmadı"
+   }
+  ],
+  "d": [
+   {
+    "f": "1551-10-01",
+    "t": "1688-06-22"
+   }
+  ],
+  "v": [
+   {
+    "f": "1526-11-10",
+    "t": "1541-08-29"
+   },
+   {
+    "f": "1541-08-29",
+    "t": "1551-07-01"
+   }
+  ],
+  "isg": [],
+  "koordinat_notu": "Koordinat: Wikidata Q12712948 P625 (Șiria komünü) [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Chocontá",
+  "lat": 5.14667,
+  "lon": -73.6825,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1537-04-20",
+    "d": "muisca-konfederasyonu",
+    "kaynak": "ABİ MERKEZ: Bacatá (Bogotá) (~65 km; atlas zinciri) - BEYANLI YAKLASIKLIK; Chocontá Muisca'da zipa (Bacatá) toprağinin kuzey siniri; savasin kendisi Bacatá zipasi Saguamanchica x Hunza zaquesi Michua Choconta'da (kronoloji maddesi)"
+   },
+   {
+    "f": "1537-04-20",
+    "t": "1538-08-06",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1538-08-06",
+    "t": "1542-11-20",
+    "d": "ispanya",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1542-11-20",
+    "t": "1717-05-27",
+    "d": "ispanyol-peru",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1717-05-27",
+    "t": "1810-07-20",
+    "d": "yeni-granada-valiligi",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1810-07-20",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "2000-12-31",
+    "d": "kolombiya-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Bacatá zinciri"
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [],
+  "koordinat_notu": "Koordinat: https://en.wikipedia.org/wiki/Chocontá (Wikidata Q1525247) - Vikipedi yalniz koordinat [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ },
+ {
+  "ad": "Kolaçel (Colachel)",
+  "lat": 8.1786,
+  "lon": 77.2561,
+  "kur": null,
+  "bit": null,
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1949-07-01",
+    "d": "travankur",
+    "kaynak": "ABİ MERKEZ: Trivandrum (52 km; atlas zinciri travankur 1281-1949) - BEYANLI YAKLASIKLIK; Kolaçel 1741 Travankur x VOC"
+   },
+   {
+    "f": "1949-07-01",
+    "t": "2000-12-31",
+    "d": "hindistan-cumhuriyeti",
+    "kaynak": "ABİ MERKEZ: Trivandrum"
+   }
+  ],
+  "d": [],
+  "v": [],
+  "isg": [],
+  "koordinat_notu": "Koordinat: https://en.wikipedia.org/wiki/Colachel (Wikidata Q727731) - Vikipedi yalniz koordinat [YERLESIM-SAHNE-1108; kaynak okunmadı beyanı: orta güven]"
+ }
+]

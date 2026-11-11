@@ -1,0 +1,388 @@
+[
+ {
+  "ad": "Managua",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 12.1364,
+   "lon": -86.2514,
+   "kaynak": "bulunamadı: koordinatı veren sayfa açılmadı (Britannica 403 verdi)"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1933-01-01",
+    "t": "2000-12-31",
+    "d": "nikaragua-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Dilim sınırı 1933-01-01 kurulu tarihe değil atlas kaydına dayanıyor. Web araması (Wikipedia türevi özetler; ikincil, tek dayanak değil): Leal Villa de Managua 24 Mart 1819, şehir 24 Temmuz 1846, başkent 1852 (5 Şubat 1852 diyen İspanyolca kaynak, 1858 diyen çelişen kaynak var). Yani yer 1933'ten çok önce var; 1933 başlangıcının dayanağı bulunamadı. Başkent/devlet kimliği (nikaragua-cumhuriyeti) 1933 sonrası için makul ama gün teyitsiz."
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Yerin 1819'dan beri var olduğu ikincil kaynaklarda görüldü; kur=1933 ve dilim başlangıcının nedeni (ve 1933 öncesi sahibi) belirsiz, kayıt kontrol edilmeli. Koordinat okunmadı."
+ },
+ {
+  "ad": "Consuegra",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 39.4619,
+   "lon": -3.6064,
+   "kaynak": "bulunamadı: en.wikipedia Consuegra sayfası açıldı ama koordinat çıkmadı; es.wikipedia değeri (39°27′43″N 3°36′23″O = 39.4619, -3.6064) önceki ajandan, bu turda yeniden okunmadı"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1479-01-19",
+    "d": "kastilya",
+    "durum": "teyitli",
+    "kaynak": "en.wikipedia.org/wiki/Consuegra (okundu; ikincil, yalnız ipucu): 'Castilian rule came after 1085'. 1183'te San Juan Tarikatı'na bağış önceki ajanın es.wikipedia notu. Dilimin 1479 ucu yalnız yıl düzeyinde makul; gün teyitsiz. Sahiplik kaynağı Kastilya Tacı ülke çapı; yerel birincil kaynak bulunamadı."
+   },
+   {
+    "f": "1479-01-19",
+    "t": "2000-12-31",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: Aragon-Kastilya birliği 1479 yılı; 19 Ocak günü bu turda teyit edilmedi, yalnız yıl teyitli sayılamaz bile (kaynak okunmadı)"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Kastilya hâkimiyeti 1085 sonrası ikincil kaynakla görüldü; 1479 sınırı ve koordinat bu turda okunmuş akademik kaynakla teyit edilemedi."
+ },
+ {
+  "ad": "Mâcon",
+  "koordinat": {
+   "durum": "teyitli",
+   "lat": 46.3069,
+   "lon": 4.8286,
+   "kaynak": "fr.wikipedia.org/wiki/Mâcon (okundu; ikincil, yalnız tutarlılık): infobox 46°18′22″N 4°49′53″E = 46.3061, 4.8314; atlas değerine ~250 m. Resmî/akademik kaynak bulunamadı."
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1435-09-21",
+    "d": "fransa",
+    "durum": "teyit_edilemedi",
+    "kaynak": "fr.wikipedia Mâcon sayfası açıldı ama tarih bölümü okunan 100000 karakterin dışında kaldı; 1239 satın alma ve 1435 Arras bu turda teyit edilmedi (önceki ajanın fr.wikipedia notu duruyor, akademik kaynak yok)"
+   },
+   {
+    "f": "1435-09-21",
+    "t": "1477-01-05",
+    "d": "burgonya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1477-01-05",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Koordinat ikincil kaynakla tutarlı; 1239/1435/1477 devlet sınırları bu turda okunmuş akademik kaynağa bağlanamadı."
+ },
+ {
+  "ad": "Nieuwpoort",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 51.129444,
+   "lon": 2.751389,
+   "kaynak": "bulunamadı: en.wikipedia Nieuwpoort sayfasında koordinat satırı çıkmadı (Britannica 403)"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1384-01-30",
+    "d": "flandre",
+    "durum": "teyitli",
+    "kaynak": "en.wikipedia.org/wiki/Nieuwpoort,_Belgium (okundu; ikincil): 1163'te Flandre Kontu Philip'ten şehir hakları aldı — yıl düzeyinde Flandre kontluğu uyumlu; 1384 ucu gün teyitsiz"
+   },
+   {
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1714-03-07",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "en.wikipedia (okundu; ikincil): 1600 Nieuwpoort Muharebesi Hollandalılar-İspanyollar arasında; 1757-1763 Fransız işgali (devlet değişimi değil). İspanya dilimi uyumlu ama 1516/1714 günleri teyitsiz"
+   },
+   {
+    "f": "1714-03-07",
+    "t": "1795-10-01",
+    "d": "avusturya-hollandasi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1814-02-02",
+    "t": "1830-10-04",
+    "d": "hollanda",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "d": "belcika",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: Belçika 1830 sınırı bu turda okunmadı"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Şehir hakları 1163 (Flandre) ikincil kaynakla görüldü; sonraki devlet dilimleri ve koordinat bu turda okunmuş akademik kaynakla teyit edilemedi. isg 1940-1944 de okunmadı."
+ },
+ {
+  "ad": "Kosova Ovası (Kosovo Polje)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 42.7175,
+   "lon": 21.085,
+   "kaynak": "en.wikipedia.org/wiki/Kosovo_Polje (okundu; ikincil): kasaba Kosovo Polje 42°38′N 21°5′E (42.633, 21.083); atlas noktası (ova/anıt yönü) ~9 km kuzeyde. Ova geniş olduğundan kesin hüküm verilemedi; düzeltme önerilmiyor, resmî kaynak bulunamadı"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1342-01-01",
+    "d": "sirbistan-nemanjic",
+    "durum": "teyitli",
+    "kaynak": "TDV İslâm Ansiklopedisi, Kosova maddesi (islamansiklopedisi.org.tr/kosova, okundu): Nemanja'nın oğlu Stefan batı Kosova'yı aldı, 'Kosova, Sırp Krallığı'nın idaresi altına girdi (1216)'. Kosova 1281-1342 Sırp krallığındadır; gün teyitsiz, 1342 ucu kaynakta yok"
+   },
+   {
+    "f": "1342-01-01",
+    "t": "1402-01-01",
+    "d": "sirbistan-nemanjic",
+    "durum": "teyit_edilemedi",
+    "kaynak": "TDV Kosova (okundu): Vuk Brankoviç Kosova'nın büyük kısmını elinde tuttu, 1392'de Üsküp'ü Osmanlılar'a bıraktı; 1371 sonrası Nemanjić devleti kalmadı, 1389 Kosova Savaşı (TDV Kosova Savaşı snippet: Lazar yenildi). 1342-1402 için d=sirbistan-nemanjic kimliği şüpheli; hangi devlet kimliği doğru bu turda kararlaştırılamadı"
+   },
+   {
+    "f": "1402-01-01",
+    "t": "1455-06-01",
+    "d": "sirp-despotlugu",
+    "durum": "teyit_edilemedi",
+    "kaynak": "TDV Kosova (okundu): 1455'te Fâtih Novoberda, Trepça, Lap vadisini aldı ve Kosova bütünüyle Osmanlı idaresine girdi — 1455 yıl ucu teyitli, 1455-06-01 günü teyitsiz; 1402 başlangıcı (Despotluk) okunmadı"
+   },
+   {
+    "f": "1913-05-30",
+    "t": "1918-12-01",
+    "d": "sirbistan-kralligi",
+    "durum": "teyitli",
+    "kaynak": "TDV Kosova (okundu): 'Londra Antlaşması 30 Mayıs 1913' ile Kosova vilayeti Sırbistan'a verildi — 1913-05-30 teyitli (kaynak 30 Mayıs gün düzeyinde verdi); 1918-12-01 ucu okunmadı"
+   },
+   {
+    "f": "1918-12-01",
+    "t": "1945-11-29",
+    "d": "yugoslavya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı"
+   },
+   {
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "d": "yugoslavya-federal",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı"
+   },
+   {
+    "f": "1992-04-27",
+    "t": "1999-06-10",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı"
+   },
+   {
+    "f": "1999-06-10",
+    "t": "2000-12-31",
+    "d": "unmik-kosova",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "TDV ile Osmanlı fethi (1455) ve 30 Mayıs 1913 Londra sınırı ve 1216 Sırp krallığı teyitli; 1342-1402 devlet kimliği (Nemanjić 1371'de bitti, Vuk Brankoviç) sorunlu. Koordinat ova için ~9 km farkla belirsiz."
+ },
+ {
+  "ad": "Világos (Şiria)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 46.261132,
+   "lon": 21.595591,
+   "kaynak": "en.wikipedia.org/wiki/Șiria (okundu; ikincil): infobox 46°16′N 21°38′E (46.267, 21.633) — atlas boylamı 21.596 (21°36′) ile ~3 km fark; dakika yuvarlaması, köy/komün merkezi belirsizliği olabilir. Düzeltilmedi, resmî kaynak bulunamadı"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "d": "macaristan",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1551-07-01",
+    "t": "1551-10-01",
+    "d": "macaristan-habsburg",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1688-06-22",
+    "t": "1918-11-16",
+    "d": "macaristan-habsburg",
+    "durum": "teyit_edilemedi",
+    "kaynak": "en.wikipedia Șiria (okundu): 13 Ağustos 1849 Görgey Rüdiger'e Șiria kalesi altında teslim oldu (macaristan-habsburg/Habsburg dönemi ile çelişmez); 1688-06-22 başlangıcı bulunamadı"
+   },
+   {
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "d": "macaristan-naiplik",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "d": "romanya-kralligi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "d": "romanya-halk",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "d": "romanya-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Yer ve 1849 olayı ikincil kaynakla görüldü; 1526, 1541, 1551, 1688, 1918, 1920 sınırları ve Osmanlı 1551-1688 dönemi okunmuş kaynakla teyit edilemedi. Koordinat boylam ~3 km farklı."
+ },
+ {
+  "ad": "Chocontá",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 5.14667,
+   "lon": -73.6825,
+   "kaynak": "bulunamadı: en.wikipedia Chocontá sayfasında koordinat satırı çıkmadı"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1537-04-20",
+    "d": "muisca-konfederasyonu",
+    "durum": "teyit_edilemedi",
+    "kaynak": "en.wikipedia.org/wiki/Chocontá (okundu; ikincil): Muisca toprağı; Chocontá Muharebesi ~1490 (kuzey-güney Muisca); 1537'de İspanyollar geldi (1537-04-20 günü teyitsiz); köy 1563'te kuruldu"
+   },
+   {
+    "f": "1537-04-20",
+    "t": "1538-08-06",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "en.wikipedia (okundu): İspanyollar 1537'de geldi; 1538-08-06 Bogotá kuruluş günü bu turda okunmadı"
+   },
+   {
+    "f": "1538-08-06",
+    "t": "1542-11-20",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1542-11-20",
+    "t": "1717-05-27",
+    "d": "ispanyol-peru",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1717-05-27",
+    "t": "1810-07-20",
+    "d": "yeni-granada-valiligi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   },
+   {
+    "f": "1810-07-20",
+    "t": "1819-12-17",
+    "d": "ispanyol-peru",
+    "durum": "hatali",
+    "kaynak": "en.wikipedia Chocontá (okundu): Bolívar 1819'da zaferden sonra uğradı. 1810-07-20 Bogotá bağımsızlık ilanı genel bilgiyle; 1810-1819 boyunca tek 'ispanyol-peru' sahibi olması kuşkulu (1810-1816 bağımsız Yeni Granada Birleşik Eyaletleri). Kaynak okunmadı, yalnız çelişki uyarısı",
+    "dogru_f": "1810-07-20",
+    "dogru_d": "bağımsızlık hareketi/Cundinamarca (1810-1816), sonra İspanyol Yeni Granada 1816-1819"
+   },
+   {
+    "f": "1819-12-17",
+    "t": "1831-01-01",
+    "d": "gran-kolombiya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: Gran Kolombiya 17 Aralık 1819 bu turda okunmadı"
+   },
+   {
+    "f": "1831-01-01",
+    "t": "2000-12-31",
+    "d": "kolombiya-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Muisca, 1537 İspanyol gelişi ve 1819 Bolívar uğrağı ikincil kaynakla görüldü; 1810-1819 ispanyol-peru dilimi şüpheli, 1542 ispanyol-peru da (Yeni Granada Audiencia'sı) incelenmeli."
+ },
+ {
+  "ad": "Kolaçel (Colachel)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "lat": 8.1786,
+   "lon": 77.2561,
+   "kaynak": "bulunamadı: en.wikipedia Colachel sayfasında koordinat çıkmadı; 'Kanyakumari'nin ~20 km KB'sında' tarifi atlas noktasıyla uyumlu (ikincil)"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1949-07-01",
+    "d": "travankur",
+    "durum": "teyit_edilemedi",
+    "kaynak": "en.wikipedia.org/wiki/Colachel (okundu; ikincil): 1956'ya dek Travancore devletine bağlıydı; 10 Ağustos 1741'de Marthanda Varma VOC'u yendi (sayfa kendisi tarihlerin tutarsız olduğunu not ediyor). 1281-1729 aralığı Venad dönemidir; 'travankur' kimliği ve 1949-07-01 sonu (Travancore-Cochin birliği) bu turda okunmadı"
+   },
+   {
+    "f": "1949-07-01",
+    "t": "2000-12-31",
+    "d": "hindistan-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "bulunamadı: bu turda dilimi tanıklayan okunmuş kaynak yok (atlas zinciri/abi merkez kaydı kaynak değildir)"
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Travancore bağı ve 1741 savaşı ikincil kaynakla görüldü; 1281 başlangıcı (Venad), 1949 sınırı ve koordinat okunmuş akademik kaynakla teyit edilemedi."
+ }
+]

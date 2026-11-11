@@ -1,0 +1,413 @@
+[
+ {
+  "ad": "Leticia",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: okunmus resmi/akademik kaynakta koordinat yok (encyclopedia.com 'Leticia Dispute' koordinat icermiyor; Britannica 403 verdi)"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1922-03-24",
+    "t": "1932-09-01",
+    "d": "kolombiya-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/leticia-dispute (acildi): Salomon-Lozano antlasmasi 1922; makalede 1930 fiili devri gecmiyor. Antlasma yili 1922 teyitli (yalniz yil); 1922-03-24 gunu ve fiili devir tarihi (1930?) bu turda teyit edilemedi."
+   },
+   {
+    "f": "1932-09-01",
+    "t": "1933-06-23",
+    "d": "peru-cumhuriyeti",
+    "durum": "teyitli",
+    "kaynak": "encyclopedia.com Leticia Dispute (acildi): 'On September 1, 1932 an armed force of about two hundred Peruvian civilians and soldiers seized Leticia'. Not: ayni kaynak Peru hukumetinin eylemi yetkilendirmedigini soyluyor (d=peru-cumhuriyeti yorum meselesi); gun teyitli."
+   },
+   {
+    "f": "1933-06-23",
+    "t": "1934-06-19",
+    "d": "__BOSLUK__",
+    "durum": "teyit_edilemedi",
+    "kaynak": "FRUS 1934 v04 d409 (history.state.gov/historicaldocuments/frus1934v04/d409, acildi): Komisyon 'constituted at Tefe' 19 Haziran (1933); Milletler Cemiyeti Komisyonu en cok 1 yil idare (FRUS 1934 v04 d425, acildi: 'maximum period of one year'). Atlasin f=1933-06-23 ile kaynaktaki 06-19 arasinda 4 gun fark: idareyi fiilen devralma gunu bulunamadi.",
+    "dogru_f": "1933-06-19 (Komisyon'un Tefe'de kurulusu; devralma gunu ayri teyit gerektirir)"
+   },
+   {
+    "f": "1934-06-19",
+    "t": "2000-12-31",
+    "d": "kolombiya-cumhuriyeti",
+    "durum": "teyitli",
+    "kaynak": "encyclopedia.com Leticia Dispute (acildi): iade 'June 19, 1934' (Melo Franco arabuluculugu); FRUS 1934 v04 d409: mandat 19 Haziran'da bitmeli."
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "1932-09-01 ve 1934-06-19 acik kaynakta teyitli; 1922/1930 ve 1933-06 gunleri teyit edilemedi; koordinat bulunamadi."
+ },
+ {
+  "ad": "Uljin (Uljin, 蔚珍)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: bu turda ulusal ansiklopedi/akademik koordinat okunmadi"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1392-08-05",
+    "d": "goryeo",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Goryeosa alintisi bu turda yeniden acilmadi. WebSearch (kupi.com, Wikipedia Uljin County; ikincil) Goryeo'da hyeon statusunu soyluyor (1018, dogrulanmadi)."
+   },
+   {
+    "f": "1392-08-05",
+    "t": "1910-08-29",
+    "d": "joseon",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Bu turda okunmadi. Ikincil: Wikipedia Uljin County 1963'e dek Gangwon'a bagli."
+   },
+   {
+    "f": "1910-08-29",
+    "t": "1945-09-09",
+    "d": "japon-kore",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1945-09-09",
+    "t": "1948-08-15",
+    "d": "abd-ordu-askeri-hukumeti-kore",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi). Not: Uljin 1963'e kadar Gangwon'daydi; Gangwon'un 38. paralel guneyi kismindaki konumu USAMGIK/Kuzey ayrimi icin ek teyit ister."
+   },
+   {
+    "f": "1948-08-15",
+    "t": "2000-12-31",
+    "d": "guney-kore",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "teyit_edilemedi",
+  "gerekce": "Yalniz 1963'e kadar Gangwon'a bagliligi ve 1018/1466 idari statu iddialari (ikincil) goruldu; dilimler kaynakla okunamadi."
+ },
+ {
+  "ad": "Beaune",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: okunmus akademik/ulusal kaynak yok (Britannica 403; yalniz fr.wikipedia)"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1477-01-05",
+    "d": "burgonya",
+    "durum": "teyitli",
+    "kaynak": "Universalis 'Bourgogne, duche de' (universalis.fr/encyclopedie/duche-de-bourgogne/4-la-reunion-du-duche-au-royaume-de-france/; yalniz arama ozeti okundu): Cesur Charles 5 Ocak 1477'de Nancy onunde oldu; Beaune bir dukluk sehri, baskent Dijon."
+   },
+   {
+    "f": "1477-01-05",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "durum": "kismi",
+    "kaynak": "Universalis arama ozeti: Burgonya Etatlari dukaligi 29 Ocak 1477'de krala devretmeyi kabul etti; Beaune 1478'de isyan etti, Louis XI kusatti, 2 Temmuz 1478'de teslim oldu (baska kaynak: 1479); Arras Baris'i 23 Aralik 1482 dukaligi Fransa'ya verdi.",
+    "dogru_f": "1477-01-29 (Etatlar karari) ya da 1478-07-02 (Beaune'un teslimi); 1477-01-05 yalniz Charles'in olum gunu"
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "1477 devri yil olarak teyitli ama Beaune fiilen 1478-07-02'de teslim oldu; koordinat teyit edilemedi."
+ },
+ {
+  "ad": "Steenvoorde",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: kaynak bulunamadi"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1384-01-30",
+    "d": "flandre",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1482-03-27",
+    "t": "1516-01-23",
+    "d": "habsburg-hollandasi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1516-01-23",
+    "t": "1678-09-17",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1678-09-17",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi). WebSearch: Nijmegen antlasmasi Ispanya-Fransa Eylul 1678 (Cassel dahil, mirror kaynak); Steenvoorde'ye ozgu kaynak bulunamadi."
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "teyit_edilemedi",
+  "gerekce": "Steenvoorde'ye ozgu hicbir kaynak bulunamadi; yalniz Nijmegen 1678 genel baglami goruldu."
+ },
+ {
+  "ad": "Dorestad (Wijk bij Duurstede)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: WebSearch sonuclari koordinat icermedi; Britannica ve Willemsen PDF 403"
+  },
+  "s_dilimleri": [
+   {
+    "f": "0834-01-01",
+    "t": "0843-08-10",
+    "d": "frank",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "0843-08-10",
+    "t": "0855-09-29",
+    "d": "orta-francia",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "0855-09-29",
+    "t": "0925-01-01",
+    "d": "orta-francia-lotharingia",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "0925-01-01",
+    "t": "0962-02-02",
+    "d": "dogu-francia",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "0962-02-02",
+    "t": "1000-01-01",
+    "d": "almanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1000-01-01",
+    "t": "1024-01-01",
+    "d": "almanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1024-01-01",
+    "t": "1528-10-20",
+    "d": "utrecht-piskoposlugu",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1528-10-20",
+    "t": "1581-07-26",
+    "d": "ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "d": "hollanda",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1795-01-19",
+    "t": "1810-07-09",
+    "d": "batav-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1810-07-09",
+    "t": "1813-11-30",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "d": "hollanda",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "isg": [
+   {
+    "f": "1940-05-15",
+    "t": "1945-05-05",
+    "d": "almanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "teyit_edilemedi",
+  "gerekce": "Aramada yalniz 834 baskini ve 863 son kayitli baskin (Jaarboek voor Munten en Penningkunde 1988, arama ozeti) goruldu; Dorestad 9. yy'da cokmustur, atlasin 834-2000 surekli kaydi kismen Wijk bij Duurstede'nin zinciridir; hicbir dilim kaynakla okunamadi."
+ },
+ {
+  "ad": "Noyon",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: bulunamadi"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1331-01-01",
+    "d": "fransa",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi). Arama ozeti: Noyon prevotesi 1190'dan beri Vermandois buyuk bailliage'i icinde (inventaire.hautsdefrance.fr); Noyon piskoposu pairie-comte (12. yy) - Fransa krali ile uyumlu, ama dilim sinirlari dayanaksiz."
+   },
+   {
+    "f": "1331-01-01",
+    "t": "1792-09-22",
+    "d": "fransa",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "d": "fransa-cumhuriyet",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "1281 oncesi Fransa kral idaresi arama ozetiyle uyumlu; 1331 siniri ve koordinat dayanaksiz."
+ },
+ {
+  "ad": "Hawikuh (Hawikku, Zuni)",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "NPS Mission La Purisima Concepcion at Hawikuh (nps.gov/subjects/travelspanishmissions/mission-la-purisima-concepcion-at-hawikuh.htm, acildi): 'about 12 miles southwest of the city of Zuni' (~19.3 km; atlasin Halona:wa mesafesi 19.6 km ile tutarli). Ayni sayfanin verdigi koordinat 31.567472,-111.051842 Arizona'ya dusuyor -> sayfa hatali; atlas koordinati (34.93,-108.98) kaynakla dogrulanamadi."
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1680-01-01",
+    "d": "zuni",
+    "durum": "kismi",
+    "kaynak": "NPS Hawikuh and Zuni-Cibola Complex (nps.gov/places/hawikuh-and-zuni-cibola-complex-nm.htm, acildi): arkeolojik kanit 1200'lerde yerlesim, Coronado 1540, misyon 1629, 1680 Pueblo Ayaklanmasi'nda 'Zuni and Spanish then abandoned Hawikuh completely'. Terk yili 1680 teyitli (yalniz yil -> 1680-01-01). Ancak 1540-1680 arasi Ispanyol misyon/kolonisi baskisi: d=zuni sahiplik kaydi ayrica yorum gerektirir."
+   }
+  ],
+  "genel": "kismi",
+  "gerekce": "Terk yili 1680 NPS ile teyitli; 1281 baslangici 'en erken 1200'ler'; koordinat kaynak sayfasinda hatali, dogrulanamadi."
+ },
+ {
+  "ad": "Chapultepec",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "bulunamadi: bulunamadi"
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1428-01-01",
+    "d": "nahua-sehir-devletleri",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi). WebSearch ozeti (ikincil): Mexica Chapultepec'e Culhuacan izniyle yerlesti, Tepanekler tarafindan surulup Tizaapan'a gitti (1299); mexicocity.cdmx.gob.mx tarih cizelgesi tarih vermiyor."
+   },
+   {
+    "f": "1428-01-01",
+    "t": "1521-08-13",
+    "d": "aztek-imparatorlugu",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Uclu Ittifak 1428 yalniz Wikipedia ozeti; Chapultepec su kanali tarihi celiskili (1418/1449 vs 1465: Pro Bosque Chapultepec); akademik kaynak (UNAM) acilmadi."
+   },
+   {
+    "f": "1521-08-13",
+    "t": "1535-04-17",
+    "d": "yeni-ispanya-ilk-donem",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1535-04-17",
+    "t": "1821-09-27",
+    "d": "yeni-ispanya",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1821-09-27",
+    "t": "2000-12-31",
+    "d": "meksika",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "teyit_edilemedi",
+  "gerekce": "Yalniz ikincil ipuclari; akademik kaynak (UNAM Historicas PDF'leri) acilmadi."
+ },
+ {
+  "ad": "Kailua-Kona",
+  "koordinat": {
+   "durum": "teyit_edilemedi",
+   "kaynak": "HMDB hmdb.org/m.asp?m=110592 (arama ozeti, tek basina yetersiz): Kamakahonu 19 38.395N 155 59.856W = 19.6399,-155.9976; atlas 19.65,-155.99417 ile ~1.2 km fark, tutarli. NPS Kamakahonu sayfasi (acildi) koordinat vermiyor."
+  },
+  "s_dilimleri": [
+   {
+    "f": "1281-01-01",
+    "t": "1795-01-01",
+    "d": "__BOSLUK__",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1795-01-01",
+    "t": "1893-01-17",
+    "d": "hawaii-kralligi",
+    "durum": "teyit_edilemedi",
+    "kaynak": "NPS Kamakahonu (nps.gov/places/kamakahonu.htm, acildi): Kamehameha 1813'te baskenti Honolulu'dan Kona'ya tasidi, 1819'da orada oldu; sayfada 1795 gecmiyor. Kona'nin 1795'te Kamehameha'ya baglandigina dair kaynak bulunamadi."
+   },
+   {
+    "f": "1893-01-17",
+    "t": "1898-08-12",
+    "d": "hawaii-cumhuriyeti",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   },
+   {
+    "f": "1898-08-12",
+    "t": "2000-12-31",
+    "d": "abd",
+    "durum": "teyit_edilemedi",
+    "kaynak": "Girdi dilimi; bu turda kaynakla dogrulanamadi (bulunamadi)."
+   }
+  ],
+  "genel": "teyit_edilemedi",
+  "gerekce": "Yalniz 1813-1819 Kona'da yasadigi (NPS) ve koordinat tutarliligi bulundu; dilim gunleri dogrulanmadi."
+ }
+]
