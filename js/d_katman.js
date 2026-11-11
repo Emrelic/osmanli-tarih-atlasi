@@ -999,7 +999,7 @@ function _dSadelestir(h, tolKm) {              // Douglas–Peucker, yerel km iz
 // MultiPolygon koordinatının kutusu [minx, miny, maxx, maxy] ve iki kutunun değmesi.
 function _dKutu(mp) {
   var k = [Infinity, Infinity, -Infinity, -Infinity];
-  mp.forEach(function (p) { p[0].forEach(function (c) {
+  mp.forEach(function (p) { (p && p[0] || []).forEach(function (c) {   // DENETIM-1111: boş poligon
     if (c[0] < k[0]) k[0] = c[0]; if (c[1] < k[1]) k[1] = c[1];
     if (c[0] > k[2]) k[2] = c[0]; if (c[1] > k[3]) k[3] = c[1];
   }); });

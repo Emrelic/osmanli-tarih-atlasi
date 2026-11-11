@@ -99,7 +99,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     kaynak:"TDV: belgrad (BELGRAD) — gövde: \"Belgrad Antlaşması (1739) imzalandı ve şehir Osmanlılar’a teslim edildi\" · Virginia H. Aksan, Ottoman Wars 1700–1870 (Harlow 2007)",
     taraflar:["habsburg"], yer_id:"Belgrad", etiket:["konu-antlasma"],
     ic_not_k:"TDV belgrad gövdesi yalnız YILI veriyor; gün Aksan'dan, sayfa açılmadı. Veride aynı devir 18 ve 28 Eylül'e iki parça olarak yazılmış; madde ikisini de pencere içinde karşılar." },
-  { t:"1913-05-30", k:"siyasi", b:"Londra Antlaşması: Midye-Enez hattının batısı Bulgaristan'a, Girit Yunanistan'a bırakılır",
+  { t:"1913-05-30", k:"siyasi", b:"Londra Antlaşması: Midye-Enez hattının batısı Balkan müttefiklerine, Girit Yunanistan'a bırakılır",
     gun:"30 Mayıs 1913", yer:"Londra", kisiler:"",
     d:"Birinci Balkan Savaşı'nı bitiren antlaşmayla Osmanlı Devleti Midye-Enez hattının batısındaki Rumeli topraklarını Balkan müttefiklerine, Girit'i de Yunanistan'a bıraktı. Batı Trakya kıyısı (Dedeağaç, Gümülcine) ile Doğu Makedonya'nın bir kısmı Bulgaristan'ın eline geçti.",
     kaynak:"Richard C. Hall, The Balkan Wars 1912–1913: Prelude to the First World War (London 2000)",

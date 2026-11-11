@@ -183,12 +183,31 @@ function _ahBolgeleriUret(kayit) {
 
 // ---- ÇİZ / TEMİZLE -------------------------------------------------------------
 var _ahAktifId = null;
+// DENETIM-1111 — ETİKETLER HTML İŞARETİ: harita stilinde `glyphs` (yazı tipi kaynağı)
+// YOK (app.js:1923 — proje dış yazı tipi almıyor); `text-field`li symbol katmanı bu
+// yüzden hiç yazı basamıyordu. Uygulamanın öteki adları gibi DOM işaretiyle çizilir.
+var _ahEtiketIsaretleri = [];
+function _ahEtiketleriKoy(fs) {
+  _ahEtiketIsaretleri.forEach(function (m) { m.remove(); });
+  _ahEtiketIsaretleri = [];
+  (fs || []).forEach(function (ft) {
+    var p = ft.properties || {}, c = ft.geometry && ft.geometry.coordinates;
+    if (!c || !p.etiket) return;
+    var el = document.createElement("div");
+    el.className = "ah-etiket";
+    el.textContent = p.etiket;
+    el.style.cssText = "font:600 13px/1.2 sans-serif;color:#1a1a1a;white-space:nowrap;pointer-events:none;" +
+      "text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 3px #fff;border-bottom:3px solid " + (p.renk || "#8e0b22");
+    _ahEtiketIsaretleri.push(new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat(c).addTo(harita));
+  });
+}
 function _ahTemizle() {
   if (!_ahHazirMi() || !_ahAktifId) return;
-  ["antlasma-harita-dolgu", "antlasma-harita-nokta", "antlasma-harita-etiket"].forEach(function (kaynak) {
+  ["antlasma-harita-dolgu", "antlasma-harita-nokta"].forEach(function (kaynak) {
     var s = harita.getSource(kaynak);
     if (s) s.setData(bosVeri());
   });
+  _ahEtiketleriKoy([]);
   _ahAktifId = null;
 }
 // 🆕 KUTU-G3-1014 (0054/H-0020, Emre: "alınan verilen bölgelerin boyanması
@@ -267,7 +286,7 @@ function _ahGoster(kayit) {
   });
   harita.getSource("antlasma-harita-dolgu").setData({ type: "FeatureCollection", features: f.dolgu });
   harita.getSource("antlasma-harita-nokta").setData({ type: "FeatureCollection", features: f.nokta });
-  harita.getSource("antlasma-harita-etiket").setData({ type: "FeatureCollection", features: f.etiket });
+  _ahEtiketleriKoy(f.etiket);
   _ahAktifId = kayit.id;
 }
 
@@ -296,15 +315,7 @@ function _ahKatmaniKur() {
       id: "antlasma-harita-nokta", type: "circle", source: "antlasma-harita-nokta",
       paint: { "circle-radius": 7, "circle-color": ["get", "renk"], "circle-stroke-width": 2, "circle-stroke-color": "#1a1a1a" }
     });
-    harita.addSource("antlasma-harita-etiket", { type: "geojson", data: bosVeri() });
-    harita.addLayer({
-      id: "antlasma-harita-etiket", type: "symbol", source: "antlasma-harita-etiket",
-      layout: {
-        "text-field": ["get", "etiket"], "text-size": 13, "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
-        "text-allow-overlap": true
-      },
-      paint: { "text-color": "#1a1a1a", "text-halo-color": "#ffffff", "text-halo-width": 2 }
-    });
+    // (etiketler: _ahEtiketleriKoy — HTML işareti, symbol katmanı yok; bkz. DENETIM-1111)
     function popupAc(props, lngLat) {
       var satir = "<b>" + ekEsc(props.etiket || "") + "</b>";
       if (props.ad) satir += "<br>" + ekEsc(props.ad);

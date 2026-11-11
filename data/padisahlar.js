@@ -174,7 +174,8 @@ window.PADISAHLAR = [
     + "hükümdar sayar; modern araştırmalar çift-saltanat düzenini erken "
     + "Osmanlı veraset sisteminin esnekliğine örnek gösterir.",
     kaynak:"TDV: murad-ii" },
-  { id: "mehmed2",     ad: "II. Mehmed (1. saltanatı)",    from: "1444-08", to: "1446-09",
+  { id: "mehmed2",     ad: "II. Mehmed (1. saltanatı)",    from: "1444-08", to: "1446-05",
+    ic_not_to:"eski: 1446-09 — dosya içinde 1446-05/08/09 üç ay çelişiyordu. Buçuktepe Vak'ası: II. Murad 8 Safer 850 (5 Mayıs 1446) Manisa'dan yola çıkıp ikinci saltanatına başladı (TDV murad-ii, TDV bucuktepe-vakasi; OLAYLAR_EK5 1446-05-05).",
     dogum:"1432-03-30",
     dogum_yer:"Edirne",
     olum:"1481-05-03",
@@ -215,7 +216,8 @@ window.PADISAHLAR = [
     + "okur — İstanbul'u fethetme ve merkezî otoriteyi (Çandarlı'ya "
     + "karşı) güçlendirme kararı burada oluşmuştur.",
     kaynak:"TDV: mehmed-ii" },
-  { id: "murad2",      ad: "II. Murad (2. saltanatı)",     from: "1446-09", to: "1451-02",
+  { id: "murad2",      ad: "II. Murad (2. saltanatı)",     from: "1446-05", to: "1451-02",
+    ic_not_from:"eski: 1446-09 — TDV murad-ii: 8 Safer 850 (5 Mayıs 1446) Manisa'dan acele yola çıktı (Buçuktepe Vak'ası).",
     dogum:"1404-06 dolayı",
     dogum_yer:"Amasya",
     olum:"1451-02-03",
@@ -223,7 +225,7 @@ window.PADISAHLAR = [
     olum_sebep:"doğal (48 yaşında, oğlu II. Mehmed'in düğününden kısa süre sonra)",
     baba:"I. Mehmed (Çelebi)",
     anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
-    tahta:"1446-08 (Edirne'deki yeniçeri isyanı ve 12 yaşındaki oğlu II. "
+    tahta:"1446-05 (Edirne'deki yeniçeri isyanı ve 12 yaşındaki oğlu II. "
     + "Mehmed'in devleti idare edemediği anlaşılınca, yeniçerilerin "
     + "desteğiyle ikinci kez tahta çıktı)",
     saltanat_yil:5,

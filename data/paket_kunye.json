@@ -6,13 +6,13 @@
    "kaynak": [
     {
      "yol": "data/padisahlar.js",
-     "sha": "efaeb773f8dd3cf8",
-     "bayt": 91440
+     "sha": "092460b872961678",
+     "bayt": 91835
     },
     {
      "yol": "data/olaylar.js",
-     "sha": "97eab4c5231f572f",
-     "bayt": 80405
+     "sha": "8a2d66b8b79c40d6",
+     "bayt": 80435
     },
     {
      "yol": "data/olaylar_ek.js",
@@ -55,7 +55,7 @@
      "bayt": 114792
     }
    ],
-   "bayt": 1008247
+   "bayt": 1008672
   },
   {
    "paket": "data/paket_02.js",
@@ -201,8 +201,8 @@
     },
     {
      "yol": "data/kronoloji_iran.js",
-     "sha": "3ca52b25970f79bb",
-     "bayt": 80645
+     "sha": "a066a4b1e675a539",
+     "bayt": 80660
     },
     {
      "yol": "data/kronoloji_bizans.js",
@@ -210,7 +210,7 @@
      "bayt": 72741
     }
    ],
-   "bayt": 460026
+   "bayt": 460041
   },
   {
    "paket": "data/paket_07.js",

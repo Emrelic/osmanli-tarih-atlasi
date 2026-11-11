@@ -1180,7 +1180,7 @@ function tabiGovdeRengi(id, t, asil) {
 var _CAKISMA_ONBELLEK = {};
 function _gvdBbox(g) {
   var b = [1e9, 1e9, -1e9, -1e9];
-  g.coordinates.forEach(function (p) { p[0].forEach(function (c) {
+  g.coordinates.forEach(function (p) { (p && p[0] || []).forEach(function (c) {   // DENETIM-1111: boş poligon
     if (c[0] < b[0]) b[0] = c[0]; if (c[1] < b[1]) b[1] = c[1];
     if (c[0] > b[2]) b[2] = c[0]; if (c[1] > b[3]) b[3] = c[1];
   }); });
@@ -5897,7 +5897,7 @@ function isyanGuncelle(t) {
   ISYAN.anahtar = anahtar;
   var fs = [], SG = window.SUZGEC;
   ISYAN.eksik = 0;
-  if (anahtar && !window.PETEK_GOVDE && !_PETEK_GOVDE_YUK.hata) {
+  if (anahtar && !(window.PETEK_GOVDE && window.PETEK_GOVDE_PARCA) && !_PETEK_GOVDE_YUK.hata) {   // DENETIM-1111: parça da beklenir
     // Geometri henüz yok: bir kez tembel yükle, gelince O ANKİ günü yeniden çiz.
     // Anahtar zaten kaydedildi ⇒ aynı pencere kümesinde kare başına buraya girilmez;
     // bayrak ⇒ yükleme sürerken kuyruğa ikinci geri çağrı eklenmez.
@@ -6039,7 +6039,10 @@ function vassalIcSinirGuncelle(t) {
   var sahipsiz = etkin.length ? _vicSahipsiz(t).filter(_vicTabiIcinde) : [];
   var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";") + "|" + sahipsiz.join(",");
   if (imza === VIC.imza) return;
-  if (imza && !window.PETEK_GOVDE) {
+  // DENETIM-1111 — PARÇA havuzu da beklenir: `petek_govde_ust.js` inince PETEK_GOVDE
+  // kurulur ama PETEK_GOVDE_PARCA ancak ikinci dosya çözülünce gelir; arada `PP[pi]`
+  // undefined'a çarpıyordu (acilis.js:108 bu yarışı yalnız açılış yolunda bekletiyor).
+  if (imza && !(window.PETEK_GOVDE && window.PETEK_GOVDE_PARCA)) {
     if (_PETEK_GOVDE_YUK.hata) return;
     if (!VIC.yukleniyor) {
       VIC.yukleniyor = true;
@@ -9781,14 +9784,35 @@ function olaylarGuncelle(t) {
         // kodunda da vardı, yalnız ortalama onu gizliyordu.
         // Geometri farkı her durumda doğru: kabın üstü ile maddenin üstü
         // arasındaki mesafe kadar kaydır.
-        _kap.scrollTop += olayDom[vurgu].getBoundingClientRect().top
-                          - _kap.getBoundingClientRect().top;
+        _listeBasaHizala(_kap, olayDom[vurgu]);
       } else {
         olayDom[vurgu].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
       }
     }
   }
   sonVurgulanan = vurgu;
+}
+
+// DENETIM-1111 — LİSTE HİZASI KAYMASIN: madde başa hizalandıktan SONRA süzgeç
+// üstteki maddeleri gizleyince (`suzuldu`, yükseklik 0) liste altından kayıyor,
+// "şimdiki" madde görüş alanının ÜSTÜNDE kalıyordu (ölçüldü, 1915-03-18: −166 px).
+// Hizalama birkaç kez (sonraki kare · 250 ms … 6 sn) TEKRARLANIR; kullanıcı arada
+// listeyi elle kaydırdıysa (scrollTop bizim bıraktığımız değer değilse) dokunulmaz.
+var _hizaIs = 0;
+function _listeBasaHizala(kap, el) {
+  var is = ++_hizaIs, birakilan = null;
+  function hizala() {
+    if (is !== _hizaIs || !el.isConnected || !el.classList.contains("simdiki")) return;
+    if (birakilan !== null && Math.abs(kap.scrollTop - birakilan) > 2) return;   // kullanıcı kaydırdı
+    var fark = el.getBoundingClientRect().top - kap.getBoundingClientRect().top;
+    if (Math.abs(fark) > 1) kap.scrollTop += fark;
+    birakilan = kap.scrollTop;
+  }
+  hizala();
+  requestAnimationFrame(hizala);
+  // açılışta liste tembel dosyalarla saniyelerce büyümeye devam ediyor (ölçüldü:
+  // ilk 40 sn'de 1 sn yetmedi, −88…−173 px) ⇒ kuyruk 6 sn'ye uzatıldı.
+  [250, 1000, 2500, 6000].forEach(function (ms) { setTimeout(hizala, ms); });
 }
 
 // ---------- Olay detay penceresi ----------
@@ -12820,7 +12844,9 @@ function _antlasmaYukle(o, fs) {
 // (kendi başlığı: kur:/bit: devirlerini taşımaz) — vurgu için yeterli, sınır iddiası değil.
 var _PETEK_GOVDE_YUK = { deneniyor: false, bekleyen: [], hata: false };
 function _petekGovdeYukle(cb) {
-  if (window.PETEK_GOVDE) { cb(); return; }
+  // DENETIM-1111: "hazır" = gövde DİZİNİ + çözülmüş PARÇA havuzu; yalnız dizin
+  // varken hemen cb() çağırmak, parçayı bekleyen çağıranı sonsuz döngüye sokardı.
+  if (window.PETEK_GOVDE && window.PETEK_GOVDE_PARCA) { cb(); return; }
   _PETEK_GOVDE_YUK.bekleyen.push(cb);
   if (_PETEK_GOVDE_YUK.deneniyor) return;
   _PETEK_GOVDE_YUK.deneniyor = true;
@@ -14369,10 +14395,16 @@ function olayIndexTazele() {
   }
 }
 
+// DENETIM-1111 — OYNATMA NESLİ: hız/akış değişince `oynatDurdur(); oynatDurdur();`
+// bayrağı null yapıp AYNI senkron adımda yeniden -1 yapıyordu; eski rAF zinciri
+// `if (!zamanlayici)` denetimini geçip YENİSİYLE birlikte koşuyordu (iki tarihAyarla /
+// kare → takvim iki kat hızlı). Her durdurma nesli artırır; zincir kendi neslini taşır.
+var _oynatNesil = 0;
 function oynatDurdur() {
   if (zamanlayici) {
     clearInterval(zamanlayici);
     zamanlayici = null;
+    _oynatNesil++;
     btnOynat.textContent = "▶";
     return;
   }
@@ -14458,8 +14490,9 @@ function oynatDurdur() {
     var _sonAn = performance.now();
     var _artik = 0;                        // birikmiş kesirli gün (aşağıda)
     var _sonHop = 0;                       // seyrek devir sıçrama zamanı (ZAMAN-ATLAMA-1021)
+    var _nesil = _oynatNesil;              // DENETIM-1111 — bu zincirin nesli
     var _tik = function () {
-      if (!zamanlayici) return;            // durduruldu — zinciri KURMA
+      if (!zamanlayici || _nesil !== _oynatNesil) return;   // durduruldu / yerine yenisi kuruldu
       if (suanki >= BITIS) { oynatDurdur(); return; }
       var _simdi = performance.now();
       var _gecen = Math.min(1000, _simdi - _sonAn);
@@ -17220,7 +17253,15 @@ function tarihMetniAyristir(ham) {
   if (ay < 1 || ay > 12) return { hata: "Ay 1-12 arası olmalı (“" + s + "”)" };
   if (gun < 1 || gun > 31) return { hata: "Gün 1-31 arası olmalı (“" + s + "”)" };
   if (yil < 1) return { hata: "Yıl geçersiz (“" + s + "”)" };
-  return { gi: Math.round(Date.UTC(yil, ay - 1, gun) / 864e5) };
+  // DENETIM-1111 — Date.UTC(0-99, …) yılı 1900+'a kaydırır ("50" → 1950) ve taşan
+  // günü sessizce sonraki aya atar ("1453-02-30" → 2 Mart). Yıl setUTCFullYear ile
+  // kurulur; gün takvimde yoksa açık hata döner (SESSİZ KALMA YASAK).
+  var d = new Date(Date.UTC(2000, 0, 1));
+  d.setUTCFullYear(yil, ay - 1, gun);
+  if (d.getUTCMonth() !== ay - 1 || d.getUTCDate() !== gun) {
+    return { hata: "Bu ayda " + gun + ". gün yok (“" + s + "”)" };
+  }
+  return { gi: Math.round(d.getTime() / 864e5) };
 }
 
 // `olaylar[]` `.gi`ye göre ARTAN sırayla (olayIndexTazele'nin kendi
@@ -18347,8 +18388,7 @@ function kronoTemsilEdiliyor(k, derin) {
         sonKaydirmaB = simdi;
         var _kap = birlesikDom[yeni].parentElement;
         if (_kap && _kap.scrollHeight > _kap.clientHeight) {
-          _kap.scrollTop += birlesikDom[yeni].getBoundingClientRect().top
-                            - _kap.getBoundingClientRect().top;
+          _listeBasaHizala(_kap, birlesikDom[yeni]);
         } else {
           birlesikDom[yeni].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
         }

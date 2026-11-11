@@ -461,19 +461,34 @@ function baslikSayilari(olaylar) {
 // `gs` "YYYY-MM-DD" dizgisi; karşılaştırma dizgi — veri de dizgi tutuyor.
 function sahipAnahtari(y, gs) {
   var i, p;
-  for (i = 0; i < (y.d || []).length; i++) if ((p = y.d[i]).f <= gs && gs < p.t) return "osmanli";
-  for (i = 0; i < (y.v || []).length; i++) if ((p = y.v[i]).f <= gs && gs < p.t) return "tabi:" + (p.kid || "");
-  for (i = 0; i < (y.s || []).length; i++) if ((p = y.s[i]).f <= gs && gs < p.t) return "s:" + p.d;
+  for (i = 0; i < (y.d || []).length; i++) if (_sgIcinde(p = y.d[i], gs)) return "osmanli";
+  for (i = 0; i < (y.v || []).length; i++) if (_sgIcinde(p = y.v[i], gs)) return "tabi:" + (p.kid || "");
+  for (i = 0; i < (y.s || []).length; i++) if (_sgIcinde(p = y.s[i], gs)) return "s:" + p.d;
   return "";
 }
 function _sgPad(n, w) { var s = String(n); while (s.length < w) s = "0" + s; return s; }
-// "YYYY-MM-DD" ± gün (yıl < 1000 için de doğru: setUTCFullYear)
+// DENETIM-1111 — MÖ GÜNÜ DİZGİ OLARAK KARŞILAŞTIRILAMAZ: "-0705-01-01" > "-0026-01-01"
+// çıkar (sıra TERS), "-12000" ile "-0705" uzunluk da tutmaz. Veride 100+ MÖ dönemi var.
+// _sgAnahtar sözlük sırası = takvim sırası olan bir anahtar üretir; iki uç da MS ve
+// 4 haneliyse eski hızlı dizgi karşılaştırması aynen kullanılır.
+function _sgAnahtar(s) {
+  var m = /^(-?)(\d+)(.*)$/.exec(String(s));
+  if (!m) return String(s);
+  var y = +m[2];
+  return m[1] ? "0" + _sgPad(99999 - y, 5) + m[3] : "1" + _sgPad(y, 5) + m[3];
+}
+function _sgHizli(a, b) { return a.charAt(0) !== "-" && b.charAt(0) !== "-" && a.indexOf("-") === 4 && b.indexOf("-") === 4; }
+function gunKucukEsit(a, b) { a = String(a); b = String(b); return _sgHizli(a, b) ? a <= b : _sgAnahtar(a) <= _sgAnahtar(b); }
+function gunKucuk(a, b) { a = String(a); b = String(b); return _sgHizli(a, b) ? a < b : _sgAnahtar(a) < _sgAnahtar(b); }
+function _sgIcinde(p, gs) { return gunKucukEsit(p.f, gs) && gunKucuk(gs, p.t); }
+// "YYYY-MM-DD" ± gün (yıl < 1000 için de doğru: setUTCFullYear; MÖ "-YYYY-MM-DD" de)
 function gunKaydir(s, fark) {
-  var p = String(s).split("-");
-  var d = new Date(Date.UTC(2000, (+p[1] || 1) - 1, +p[2] || 1));
-  d.setUTCFullYear(+p[0]);
+  var m = /^(-?\d+)-(\d+)-(\d+)/.exec(String(s)) || [];
+  var d = new Date(Date.UTC(2000, (+m[2] || 1) - 1, +m[3] || 1));
+  d.setUTCFullYear(+m[1] || 0);
   d.setUTCDate(d.getUTCDate() + fark);
-  return _sgPad(d.getUTCFullYear(), 4) + "-" + _sgPad(d.getUTCMonth() + 1, 2) + "-" + _sgPad(d.getUTCDate(), 2);
+  var y = d.getUTCFullYear();
+  return (y < 0 ? "-" + _sgPad(-y, 4) : _sgPad(y, 4)) + "-" + _sgPad(d.getUTCMonth() + 1, 2) + "-" + _sgPad(d.getUTCDate(), 2);
 }
 // Sınır günü → o gün dönemi başlayan/biten yerleşimlerin indeksleri. Bir kez kurulur.
 function sinirIndeksi(Y) {
@@ -489,7 +504,7 @@ function sinirIndeksi(Y) {
       });
     });
   });
-  return { gunler: Object.keys(by).sort(), by: by };
+  return { gunler: Object.keys(by).sort(function (a, b) { return gunKucuk(a, b) ? -1 : gunKucuk(b, a) ? 1 : 0; }), by: by };
 }
 // Türkçe normalleştirici — `lower()`dan ÖNCE eşleme (CLAUDE.md §4: "İ".lower() iki kod noktası)
 function sgNorm(s) {
@@ -558,8 +573,8 @@ function sahipIlgiliMi(key, T) {
 // yerleşimler bakılır — bütün dünya taranmaz (maliyet: sınır sayısı × birkaç kayıt).
 function antlasmaFarki(Y, ix, basGun, sonGun, T) {
   var G = ix.gunler, lo = 0, hi = G.length;
-  while (lo < hi) { var md = (lo + hi) >> 1; if (G[md] < basGun) lo = md + 1; else hi = md; }
-  for (var k = lo; k < G.length && G[k] <= sonGun; k++) {
+  while (lo < hi) { var md = (lo + hi) >> 1; if (gunKucuk(G[md], basGun)) lo = md + 1; else hi = md; }
+  for (var k = lo; k < G.length && gunKucukEsit(G[k], sonGun); k++) {
     var g = G[k], once = gunKaydir(g, -1), liste = [];
     var aday = ix.by[g];
     for (var n = 0; n < aday.length; n++) {
@@ -592,7 +607,7 @@ function antlasmaFarki(Y, ix, basGun, sonGun, T) {
 // Veriyi ölçen alet: denetim/ARAC-ANTLASMA-{KADEME,ZINCIR,AYIRT,KAPSAM}-0074.js
 function isgalAnahtari(y, gs) {
   var L = y.isg || [];
-  for (var i = 0; i < L.length; i++) if (L[i].f <= gs && gs < L[i].t) return L[i].d || "";
+  for (var i = 0; i < L.length; i++) if (_sgIcinde(L[i], gs)) return L[i].d || "";
   return "";
 }
 // `isg:` sınır günleri `sinirIndeksi`de YOKTUR (o yalnız d/v/s okur) — ölçüldü:
@@ -692,7 +707,7 @@ function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun,
     var y = Y[i], g = isgalAnahtari(y, k2gun), ilgili = !!(g && T[g]);
     if (!ilgili) {
       var L = y.isg || [];
-      for (var j = 0; j < L.length; j++) if (L[j].t >= basGun && L[j].t <= sonGun && T[L[j].d]) { ilgili = true; break; }
+      for (var j = 0; j < L.length; j++) if (gunKucukEsit(basGun, L[j].t) && gunKucukEsit(L[j].t, sonGun) && T[L[j].d]) { ilgili = true; break; }
     }
     if (ilgili) al(i);
   });
@@ -725,7 +740,7 @@ function sahipKimlikte(key, vK, ids, kunyeIx) {
 }
 // O gün aktif v: döneminin `k` adı (kid'siz tâbi kayıtlar için)
 function aktifVAdi(y, gs) {
-  for (var i = 0; i < (y.v || []).length; i++) { var p = y.v[i]; if (p.f <= gs && gs < p.t) return p.k || ""; }
+  for (var i = 0; i < (y.v || []).length; i++) { var p = y.v[i]; if (_sgIcinde(p, gs)) return p.k || ""; }
   return "";
 }
 
@@ -740,7 +755,7 @@ function aktifVAdi(y, gs) {
 // gs günü aktif pencereler (f dahil, t hariç — atlasın dönem kuralı)
 function isyanAktif(IT, gs) {
   var P = (IT && IT.pencereler) || [], r = [];
-  for (var i = 0; i < P.length; i++) if (P[i].f <= gs && gs < P[i].t) r.push(P[i]);
+  for (var i = 0; i < P.length; i++) if (_sgIcinde(P[i], gs)) r.push(P[i]);
   return r;
 }
 // → [{ i: yerleşim indeksi, p: pencere, yol: "atlas" | "kaynakli-uye" }] · kunyeIx: { id: künye }
@@ -750,7 +765,7 @@ function isyanAktif(IT, gs) {
 function _isyanKimliksizMi(y, gs) {
   for (var i = 0; i < (y.v || []).length; i++) {
     var p = y.v[i];
-    if (p.f <= gs && gs < p.t) return !p.kid && !p.k;
+    if (_sgIcinde(p, gs)) return !p.kid && !p.k;
   }
   return false;
 }

@@ -2955,7 +2955,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"[Safevî] Şah İsmail, Özbek hükümdarı Şeybânî Han'ı Merv yakınında yenip öldürdü; Horasan ve Herat Safevî topraklarına katıldı. Bu zafer, İsmail'in yenilmezlik efsanesinin zirvesiydi — dört yıl sonra Çaldıran'da kırılacaktı.",
   kaynak:"Encyclopaedia Iranica, madde: ESMĀʿĪL I ṢAFAVĪ", yer_id:"Merv (Mari)" },
-{ t:"1514-08-23", b:"Çaldıran Muharebesi — Osmanlı'ya ağır yenilgi", tur:"kayip", onem:5, dunya:3, kapsam:"dis",
+{ t:"1514-08-23", b:"Çaldıran Muharebesi — Safevî ordusu Osmanlı'ya ağır yenildi", tur:"kayip", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kayip","konu-askeri"],
   d:"[Safevî] Yavuz Sultan Selim'in ateşli silahlarla donanmış ordusu, Şah İsmail'in süvari ağırlıklı kuvvetlerini Çaldıran'da ağır biçimde yendi; Tebriz kısa süreliğine işgal edildi. İran tarihyazımında bu, Şah İsmail'in \"yenilmezlik\" efsanesinin kırıldığı, Safevî-Osmanlı sınırının doğuya doğru kalıcı olarak sabitlendiği ve 400 yıl sürecek Osmanlı-İran rekabetinin başlangıç tarihidir — Rusya'nın 1853 Kırım yenilgisi gibi acı ama devleti dönüştürücü bir travma.",
   kaynak:"caldiran-savasi (TDV, doğrulanmış — data/olaylar*.js kullanıyor)", yer_id:"Çaldıran" },

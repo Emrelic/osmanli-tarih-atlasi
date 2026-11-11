@@ -17,7 +17,7 @@ var ONBELLEK = {};
 
 function bbox(c) {
   var b = [1e9, 1e9, -1e9, -1e9];
-  c.forEach(function (p) { p[0].forEach(function (k) {
+  c.forEach(function (p) { (p && p[0] || []).forEach(function (k) {   // DENETIM-1111: boş poligon ([]) gövdeyi düşürmesin
     if (k[0] < b[0]) b[0] = k[0]; if (k[1] < b[1]) b[1] = k[1];
     if (k[0] > b[2]) b[2] = k[0]; if (k[1] > b[3]) b[3] = k[1];
   }); });
