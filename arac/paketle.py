@@ -158,6 +158,70 @@ def _plan(html):
 # ---------------------------------------------------------------------------
 # PAKET YAZ
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# İNCELTME — yerleşim kaynaklarının YAYINA GİTMEYEN metin alanları pakete girmez
+# ---------------------------------------------------------------------------
+# 🟢 DENETIM-1111 HIZ (11 Kasım 2026) — ÖLÇÜLDÜ, tahmin değil:
+#   açılışta inen 53,6 MB verinin 11,7 MB'ı yerleşim dosyaları; onların JSON
+#   yükünün %78'i `kaynak` alanları (s.kaynak tek başına 6,73 MB) ve sitede
+#   HİÇBİR KOD bu alanı okumuyor — canlı sitede 25.443 alana erişim sayacı
+#   konup tarih atlama · şehir kartı · dönem tıklaması yapıldı: 0 erişim;
+#   `grep` da okuyucu bulmadı. `ic_not*` ise proje kuralıyla okura GİTMEZ
+#   (app.js `_icNotAyikla`). İkisi de yalnız denetim/motor içindir ve onlar
+#   KAYNAK dosyayı okur (girdi.py, denetle.py) — paketi değil.
+# ⇒ Kaynak dosyaya DOKUNULMAZ; yalnız paket gövdesine giden kopya inceltilir.
+#   Künye sha'sı HAM kaynaktan alınmaya devam eder (tazelik sorusu değişmez);
+#   `sina` gövdeyi `_govde_kur`dan kurduğu için aynı inceltmeyi görür.
+# ⚠️ Ayrıştırılamayan / beklenmedik yapıdaki dosya OLDUĞU GİBİ paketlenir
+#   (inceltme bir kazançtır, şart değil — bozuk gövde yayına gitmemeli).
+# ⚠️ Bir gün sitede yerleşim `kaynak`ı gösterilecekse bu liste daraltılmalı
+#   ya da kaynak metni ayrı, tembel bir dosyaya alınmalıdır.
+_INCELT_DOSYA = re.compile(r"^data/yerlesimler[\w\-.]*\.js$")
+_INCELT_ATAMA = re.compile(r"^\s*window\.(YERLESIMLER[A-Za-z0-9_]*)\s*=", re.M)
+
+
+def _atilacak_mi(alan):
+    return alan == "kaynak" or alan == "ic_not" or alan.startswith("ic_not_")
+
+
+def _incelt_kayit(k):
+    if not isinstance(k, dict):
+        return k
+    c = {}
+    for a, v in k.items():
+        if _atilacak_mi(a):
+            continue
+        if isinstance(v, list) and v and all(isinstance(p, dict) for p in v):
+            v = [{pa: pv for pa, pv in p.items() if not _atilacak_mi(pa)} for p in v]
+        c[a] = v
+    return c
+
+
+def _incelt(yol, metin):
+    """Yerleşim dosyasının paketteki inceltilmiş hâli; uymazsa `metin` aynen."""
+    if not _INCELT_DOSYA.match(yol):
+        return metin
+    adlar = _INCELT_ATAMA.findall(metin)
+    if len(adlar) != 1 or len(re.findall(r"^\s*window\.", metin, re.M)) != 1:
+        return metin
+    try:
+        import girdi                       # motorun okuyucusu — aynı katılık
+        veri = girdi._cevir(metin, adlar[0])
+        if not isinstance(veri, list):
+            return metin
+        # Atamanın ARDINDA kod kalmamalı (yalnız `;`, boşluk, yorum).
+        kuyruk = metin[metin.rindex("]") + 1:]
+        kuyruk = re.sub(r"//[^\n]*|/\*[\s\S]*?\*/|[;\s]", "", kuyruk)
+        if kuyruk:
+            return metin
+        govde = json.dumps([_incelt_kayit(k) for k in veri],
+                           ensure_ascii=False, separators=(",", ":"))
+        return ("// %s — paketle.py İNCELTTİ: kaynak · ic_not* alanları yayına "
+                "gitmez (kaynak dosya değişmedi)\nwindow.%s = %s;\n" % (yol, adlar[0], govde))
+    except Exception:                      # noqa: BLE001 — inceltme şart değil
+        return metin
+
+
 def _govde_kur(no, kaynaklar):
     """Paketin gövdesini üret — TEK kaynak, hem yazma hem birebir denetim için.
 
@@ -167,7 +231,7 @@ def _govde_kur(no, kaynaklar):
     parca = []
     for y in kaynaklar:
         parca.append("/* ==== %s ==== */\n" % y)
-        parca.append(_oku_ham(y).decode("utf-8", "replace"))
+        parca.append(_incelt(y, _oku_ham(y).decode("utf-8", "replace")))
         parca.append(AYIRAC)
     return ("/* PAKET %02d — arac/paketle.py ile ÜRETİLDİ, ELLE DÜZENLENMEZ.\n"
             "   %d kaynak dosya, sırası index.html'deki sıradır.\n"
