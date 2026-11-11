@@ -8932,6 +8932,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "0401-01-01",
+  "yer_id": "Kaveripattinam",
   "b": "Kalabhra kralı Acyutavikranta Çola ülkesini Kaveripattinam'dan yönetiyor",
   "tur": "siyaset",
   "onem": 3,
@@ -12321,6 +12322,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "1015-01-01",
+  "yer_id": "Pattikera",
   "b": "Pattikera şehri 1015 tarihli Nepal elyazmasında anılır",
   "tur": "baskent",
   "onem": 2,
@@ -12361,6 +12363,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "1044-01-01",
+  "yer_id": "Pattikera",
   "b": "Burma kroniklerine göre Anoratha'nın krallığının batı sınırı Patikkara idi",
   "tur": "siyaset",
   "onem": 2,
@@ -13024,6 +13027,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "1253-01-01",
+  "yer_id": "Charaideo",
   "b": "Ahomlar Charaideo'ya yerleşti",
   "tur": "baskent",
   "onem": 3,
@@ -13711,6 +13715,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "konu-siyasi"
   ],
   "t": "0551-07-19",
+  "yer_id": "Xi'an (Chang'an)",
   "b": "Western Wei Changle Prensesi’ni Tumen’e gelin verdi",
   "tur": "ittifak",
   "taraflar": [
@@ -14705,6 +14710,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "1210-06-25",
+  "yer_id": "Kaşgar",
   "b": "Doğu Karahanlı son hükümdarı III. Muhammed Kâşgar yolunda öldürüldü; Küçlüğ Kâşgar'ı aldı, Doğu Karahanlılar sona erdi",
   "tur": "son",
   "onem": 3,
@@ -18125,6 +18131,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
  },
  {
   "t": "0650-01-01",
+  "yer_id": "Teyuna",
   "b": "Ciudad Perdida (Teyuna): bilinen en eski konut alanları (≈650)",
   "tur": "kurulus",
   "onem": 2,

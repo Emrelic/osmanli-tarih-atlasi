@@ -25,7 +25,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   kaynak:"ADB, 'Ferdinand I.' (Maurenbrecher 1877), deutsche-biographie.de/sfz56884.html — «F. ergriff im Sommer 1527 die Waffen, drang siegreich vor und erlangte seine Krönung in Stuhlweißenburg am 3. Nov. 1527.»", duygu:["👑"] },
 
 { tur:"taht", kapsam:"ic", t:"1540-07-22", k:"taht", etiket:["siyaset","konu-siyasi"],
-  b:"Szapolyai János'un ölümü — Budin sorunu ve Macaristan'ın bölünmesinin kapısı", gun:"22 Temmuz 1540", yer:"Szászsebes (Sebeş)", kisiler:"Szapolyai János, Izabella, Yanoş Sigismund",
+  yer_id:"Szászsebes (Sebeş)", b:"Szapolyai János'un ölümü — Budin sorunu ve Macaristan'ın bölünmesinin kapısı", gun:"22 Temmuz 1540", yer:"Szászsebes (Sebeş)", kisiler:"Szapolyai János, Izabella, Yanoş Sigismund",
   d:"Doğu Macaristan'ın Osmanlı vasalı kralı Szapolyai, doğumunu kısa süre önce gördüğü oğlunu varis bırakarak öldü. Kanunî'nin 1541'de Budin'e girmesi ve Macaristan'ın üçe bölünmesi (Kraliyet Macaristanı, Budin Eyaleti, Erdel) bu ölümün sonucudur.",
   ic_not_d:"En.wikipedia «John Zápolya»: 22 Temmuz 1540, Szászsebes. TDV doğrulaması yapılmadı (bulunamadı). Haritada kırılma yok; çekirdek kronolojide eksik zincir halkasıdır.",
   kaynak:"bulunamadı (TDV) — en.wikipedia «John Zápolya» · Explore Carpathia «Zápolya House, Sebeș»", duygu:["🕯️"] },
@@ -103,7 +103,7 @@ window.OLAYLAR_AVMAC_B_1029 = [
   kaynak:"Hermann Róbert, 'Habsburg-trónfosztás – szavazatszámlálás nélkül', HVG 2011-04-14 (hvg.hu/velemeny/20110414_kurcz_hermann_robert) — tarihçi görüşü, hakemli değil; esas akademik kaynak: Hermann Róbert, 1848-49 alkotmányozás yazıları (tte.hu) — «A döntést tartalmazó okmányt, a Függetlenségi Nyilatkozatot ténylegesen csak április 19-én fogadták el»", duygu:["🏛️"] },
 
 { kapsam:"dis", bolge:4, ic_not_bolge:"KRON-DUNYA-BOLGE-1109: 3→4 — teslimin ardından Kossuth ve Macar mültecileri Osmanlı'ya sığındı (1849 mülteci krizi, Rusya ve Avusturya'nın iade talebi).", t:"1849-08-13", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
-  b:"Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı", gun:"13 Ağustos 1849", yer:"Világos (Şiria), Arad", kisiler:"Görgei Artúr, Kossuth Lajos",
+  yer_id:"Világos (Şiria)", b:"Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı", gun:"13 Ağustos 1849", yer:"Világos (Şiria), Arad", kisiler:"Görgei Artúr, Kossuth Lajos",
   d:"Rus müdahalesiyle çevrilen Görgei, Kossuth'un yetkiyi ona devretmesinin (11 Ağustos) ardından Világos'ta Rus kuvvetlerine teslim oldu; bu, devrimin fiilî sonu sayılır. Kossuth ve yoldaşları Osmanlı'ya sığındı (bkz. 16 Ağustos 1849).",
   ic_not_d:"honvedelem.hu «Surrender at Világos – August 13, 1849» + en.wikipedia «Surrender at Világos». Haritada kırılma yok.",
   kaynak:"bulunamadı (TDV) — honvedelem.hu «Surrender at Világos» · en.wikipedia «Surrender at Világos»", duygu:["😔"] },

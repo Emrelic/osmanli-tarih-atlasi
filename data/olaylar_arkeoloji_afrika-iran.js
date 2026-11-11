@@ -48,6 +48,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
  { tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0944-01-01",
   "k": "kurulus",
+  "yer_id": "Teouma",
   "b": "Teouma (Lapita mezarligi), Efate: başlar",
   "gun": "MÖ 970–920 arası (orta nokta MÖ 945)",
   "yer": "Teouma, Efate, Vanuatu",
