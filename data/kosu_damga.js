@@ -33,12 +33,12 @@ window.KOSU_DAMGA = {
   // KOŞU 25 ELLE yazıldı (HAVVA, 15 Ekim 2026). KOŞU 22-24 çıktıları da yayına indi ama bu dosya
   // GÜNCELLENMEDİ (Emre sitede "KOŞU 21" gördü, 15 Ekim). Değerler atlas-kosu25/kosu25-20261015-002715
   // -bayraklar.log ve aynı koşunun logundan birebir okundu. Çıktı commit'i: e2ca9be62 (yayın r12414).
-  no: 35,                         // koşu numarası — arayüzde "KOŞU 35" diye görünür
-  tarih: "2026-11-08",             // çıktının main'e alındığı gün
+  no: 36,                         // koşu numarası — arayüzde "KOŞU 36" diye görünür
+  tarih: "2026-11-12",             // çıktının main'e alındığı gün
   makine: "HAVVA",                 // koşuyu KOŞTURAN makine
-  commit: "57af6004",              // KOŞU 35 girdi commit'i = origin/main (8 Kasım 02:45), tuz ef3d49e7c2d9 (KOŞU 34 ile aynı ⇒ önbellek isabeti)
-  temel: "57af6004",               // koşunun girdi temeli · bayraklar KOŞU 34 ile aynı
-  sure: "16 sa 34 dk",             // 2026-11-08 02:46:14 → 11-08 19:20:37, kesintisiz (hafta sonu: tam işlemci, RAM tavanı 24 GB)
+  commit: "27ee40a5",              // KOŞU 36 girdi commit'i = origin/main (8 Kasım 20:44, RENK-1108), genel önbellek ıska ⇒ tam inşa
+  temel: "27ee40a5",               // koşunun girdi temeli · bayraklar KOŞU 35 ile aynı
+  sure: "36 sa 09 dk",             // ETKİN çalışma, 3 parça: 11-08 20:53→11-09 01:17 (kesildi) · 11-10 10:35→11-11 02:59 (bozuk önbellek dosyası s_00483.pkl, ilk kesilişte sıfırla dolu yazılmıştı) · 11-11 08:17→23:38 (MOTOR_DEVAM ile önbellekten devam); duvar saati 74 sa 45 dk
   bayraklar: {
     yuruyus: true,                 // MOTOR_YURUYUS=1  ← sahiplik prensibi
     yuruyus_saat: 40,              // MOTOR_YURUYUS_SAAT=40 (bütçe 40 saat = 5 gün)
