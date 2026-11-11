@@ -83,10 +83,7 @@ window.AD_ESANLAM = {
     "Kannauc":                ["Kannauj"],
     "Pyongyang":              ["Seogyeong"],
     "Pekin (Hanbalık)":       ["Youzhou"],
-    "Daming":                 ["Weizhou"],
-    "Xiazhou (Tongwancheng)": ["Shuofang"],
     "Sonepur (Subarnapur)":   ["Suvarnapura"],
-    "Angkor Borei":           ["Vyadhapura"],
     "Meyyâfârikīn":           ["Silvan"],
     "Kyoto":                  ["Heian-kyō"],
     "Yangzhou":               ["Jiangdu"],
@@ -100,11 +97,29 @@ window.AD_ESANLAM = {
   // 🔴 TDV TEYİDİ BEKLİYOR: araştırma ajanları TDV'yi okumadı; çiftler atlasın kendi kaydıyla KOORDİNAT
   //    eşleşmesiyle ölçüldü (yer aynı), ad-tarih dayanağı tek tek TDV/akademik teyit ister (kaynak sırası ①).
   "kaynak": {
-    "_genel": "YERLESIM-SAHNE-1108 UYGULAMA-0911 §1: araştırma ajanı A/B/C bulgusu; atlas kaydıyla koordinat eşleşmesi ölçüldü; TDV/akademik ad teyidi bekliyor",
-    "Hemedan": "Encyclopaedia Iranica 'Ecbatana' (arastirma_A.json) — TDV teyidi bekliyor",
-    "Ayasuluk (Selçuk)": "Efes≈Ayasuluk: aynı yerleşme alanı, antik Efes ile ortaçağ Ayasuluk tam örtüşmez — YAKLAŞIK; TDV 'Efes' teyidi bekliyor",
-    "Uksur (Luksor)": "Teb = Thebai (Mısır); Yunan Thebai için ayrı kayıt İstefe (Tebai) — çakışmaz"
+    "_genel": "ALIAS-VERI 11 Kasım 2026: 3 araştırma ajanı + TDV okuması. Karar: AYNI ve AYNI-YAKLAŞIK çiftler kaldı; FARKLI/BELİRSİZ olan 3 çift (Weizhou=Daming, Shuofang=Xiazhou, Vyadhapura=Angkor Borei) SÖZLÜKTEN ÇIKARILDI. Zayıf (yalnız ikincil kaynaklı) çiftler aşağıda 'ZAYIF' damgalı.",
+    "Bergama": "TDV bergama: 'Bugünkü adı, antik dönemdeki ismi olan Pergamon'dan gelir.' (okundu)",
+    "Meyyâfârikīn": "TDV meyyafarikin ve silvan (okundu): Meyyâfârikīn Silvan ilçe merkezinin eski adı.",
+    "Berde (Karabağ)": "TDV arran (okundu): 'Arrân'ın eski merkezi Berdea'nın harabeleri bugün Berde köyü yakınlarındadır'; Iranica 'Bardaʿa' (yalnız özet). YAKLAŞIK: harabe ile köy örtüşmüyor.",
+    "Ktesiphon": "TDV medain (okundu): 'genellikle de doğrudan Medâin adıyla zikredilen Ktesiphon'. Ktesifon yalnız yazım farkı. (Medâin = Ktesiphon çevresi şehirler grubu, eş anlam DEĞİL, eklenmedi.)",
+    "Sart": "Sardis Expedition: harabe Sart köyü yanında; TDV anadolu 'Sardes' yazar, Sart-Sardes bağını açıkça kurmaz — ZAYIF.",
+    "Uksur (Luksor)": "TDV misir: 'Teb' Fir'avun şehri; Uksur'u anmıyor. Karnak/Luxor tapınakları Thebai'nin doğu yakası — YAKLAŞIK (antik Thebai Luksor'dan büyüktü). Yunan Thebai için ayrı kayıt İstefe (Tebai) — çakışmaz.",
+    "Feremâ": "TDV misir: Feremâ, Amr b. Âs'ın 640'ta aldığı ilk kent; Pelusium=Tell el-Farama ikincil kaynak — ZAYIF (Brill EI 'Faramā' okunamadı).",
+    "Cerablus": "Karkemiş/Cerablus tek antik höyük, sınırın iki yanında (Land of Carchemish projesi özeti) — YAKLAŞIK, TDV 'Karkamış' aranmadı — ZAYIF.",
+    "Hemedan": "Britannica 'Ecbatana': antik şehrin yeri modern Hamadan'ın bulunduğu yer. TDV hemedan: ilk şehir bugünkü Hemedan'ın güneydoğusunda, Ptolemaios'un adı 'Ekbatana' — YAKLAŞIK (örtüşme tam değil). Iranica okunamadı (403).",
+    "Marsilya": "Massalia=Marsilya yerleşme sürekliliği tartışmasız; TDV'de antik Massalia maddesi yok, Pleiades/Brill okunamadı — ZAYIF.",
+    "Ayasuluk (Selçuk)": "TDV ayasuluk (okundu): ortaçağ yerleşmesi antik Efes'in bulunduğu yerde; 1914'te Selçuk adı. Antik liman kenti ile Ayasuluk tepesi komşu/ardıl, aynı nokta DEĞİL — YAKLAŞIK.",
+    "Kannauc": "Kannauj klasik Kanyakubja'dan; İslâm kaynaklarında Ḳanawj (JRAS 'The History of the City of Kanauj'); atlasın 'Kannauc' yazımı TDV'de bulunamadı (arama 0) — ZAYIF.",
+    "Pyongyang": "Wang Geon Pyongyang'ı Daedohobu yapıp Seogyeong'e yükseltti (KCI hakemli dergi özeti, Kim Chang-hyeon 2005); tam metin okunamadı — ZAYIF. Ad yalnız Goryeo dönemi.",
+    "Pekin (Hanbalık)": "Aynı yerleşme zinciri Youzhou/Ji (Tang) → Nanjing/Yanjing (Liao) → Zhongdu (Jin) → Dadu/Hanbalık (Yuan); Yuan Dadu eski kentin KD'sinde, birebir örtüşmez — YAKLAŞIK; yalnız Vikipedi türevi okundu — ZAYIF.",
+    "Sonepur (Subarnapur)": "Epigraphia Indica / ASI-IGNCA raporu: Suvarnapura, Sonpur'un Sanskritleşmiş biçimi (özet) — ZAYIF.",
+    "Yangzhou": "Jiangdu MÖ 153 ilçe, 616-618 Sui İmparatoru Yang'ın başkenti; Britannica/Vikipedi özeti — YAKLAŞIK (Jiangdu bugün Yangzhou'nun ilçesi) — ZAYIF.",
+    "Urga (Ulan Batur)": "Örgöö 1639, Ikh Khüree 1706-1911, Ulaanbaatar 1924; Khüree gezici manastır kampıydı, bugünkü yere 1778'de yerleşti — YAKLAŞIK, ikincil kaynak — ZAYIF.",
+    "Kyoto": "Heian-kyō 794, Kammu; 11. yy'dan Kyōto — modern yaygın eşitlik, hakemsiz kaynak — ZAYIF.",
+    "Addis": "Addis Ababa kısaltması — modern yaygın eşitlik.",
+    "Polonnaruwa": "Aynı yer, Romanizasyon farkı (UNESCO yazımı Polonnaruwa)."
   },
+
 
   // ─── ÇÖZÜLMEZ: çıplak ad birden çok yere düşüyor ───────────────────
   // Bir arama bu adlardan birine düşerse araç DURUR ve adayları bildirir.

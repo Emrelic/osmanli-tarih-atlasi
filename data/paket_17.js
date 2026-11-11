@@ -322,14 +322,13 @@ window.YERLESIMLER_E9353F = [
 // TDV `bornu`: "May Ali (Gaci) b. Dûneme (1465-1497) kuzeyde Birni
 //   N'gazargamu şehrini kurdu ve burayı devletin merkezi yaptı."
 // 🟢 `kur:` KAYNAKLI ve tam — bu dosyadaki en sağlam `kur:` bu.
-// ⚠️ KOORDİNAT RİSKİ: şehir bir HARABEDİR (Yobe nehri kıyısı, Nijerya-Nijer
-//   sınır kuşağı). Koordinat harabe alanının yaygın kabul gören yeridir,
-//   ±birkaç km belirsizlik taşır. Uydurma değil, ama ölçüm de değil.
+// ⚠️ KOORDİNAT: 11 Kasım 2026'da Getty TGN 6004236'ya (13.047, 12.227) çekildi — bkz. kaydın not:ı.
 // 📌 1902'den sonra İngiltere: TDV Bornu'nun 1902'de üçe bölündüğünü,
 //   sonunda "a British emirate within Nigeria" olduğunu söylüyor ve bu
 //   harabe Nijerya tarafındadır.
-{ ad:"Birni N'gazargamu", tur:"sehir", lat:12.350, lon:10.683, g:0, k:1,
-  kur:"1465-01-01",
+{ ad:"Birni N'gazargamu", tur:"sehir", lat:13.047, lon:12.227, g:0, k:1,
+  kur:"1465-01-01", konum_kesinlik:"yaklasik",
+  not:"KONUM DÜZELTMESİ (ALIAS-VERI, 11 Kasım 2026): eski nokta 12.350/10.683 ölçülmemiş yaklaşıklıktı ve harabeden ~184 km batıda duruyordu; mükerrer boş kayıt «N'Gazargamu» (Getty TGN 6004236: 13.047, 12.227) ile BİRLEŞTİRİLDİ. Harabe Yobe Eyaleti'nde, Geidam yakınında, Komadugu Yobe kıyısında (Frobenius-Institut Kanem-Bornu broşürü; Nijerya basını). TGN ile Vikipedi (13.083/12.367) arasında ~15 km fark var, hakemli kazı koordinatı (Magnavita 2011) okunamadı ⇒ yaklaşık. Kuruluş: TDV 'KÂNİM' 1472 başşehir (Ali b. Dûneme); atlas kur 1465 = TDV 'BORNU' saltanat başı (aralık 1465-1497). Eski adlar: Birnin Gazargamo, Ngazargamu.",
   s:[{f:"1465-01-01", t:"1902-01-01", d:"kanem-bornu", kaynak:"bornu"},
      {f:"1902-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"bornu"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
