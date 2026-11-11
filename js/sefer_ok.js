@@ -144,9 +144,16 @@
     var kon = (typeof olayKonumu === "function") ? olayKonumu(o) : null;
     if (!kon) return null;                           // yer yok → ok YOK
     var en = null, enPuan = Infinity;
+    // 🔴 MADDEYE BAĞLI ROTA — post-it #185: `sefer_id` bağı varsa ok YALNIZ bağlı
+    // maddede oynar; bağlı rota başka bir maddeye tarih/yakınlıkla eşleşmez.
+    var B = window._seferBag && window._seferBag.bagli;
+    var kendi = {};
+    (o && o.sefer_id ? (Array.isArray(o.sefer_id) ? o.sefer_id : [o.sefer_id]) : [])
+      .forEach(function (id) { kendi[id] = true; });
     for (var i = 0; i < seferler.length; i++) {
       var m = seferler[i];
       if (!m.yol || m.yol.length < 2) continue;
+      if (B && B[m.id] && !kendi[m.id]) continue;
       if (g < m.fi - ESLESME_GUN || g > m.ti + ESLESME_GUN) continue;
       // Mesafe GÜZERGÂHIN TAMAMINA: okun ucu seferin en ileri noktasıdır,
       // maddenin anlattığı yer güzergâhın ortasında olabilir.

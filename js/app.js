@@ -6932,6 +6932,31 @@ function _seferKatmanSirasi() {
   } catch (e) { /* stil hazır değilse bir sonraki güncellemede zaten çizilir */ }
 }
 
+// MADDE ↔ SEFER BAĞI (post-it #185). `sefer_id` (dizgi ya da dizi) taşıyan
+// maddelerden kurulur: `bagli[id]` = bu kaydın en az bir maddesi var; `suanki[id]`
+// = o anki madde bu kayda bağlı. O anki madde listedeki vurgunun AYNI kaynağıdır
+// (`ZAMAN.suankiOlay`, süzülmüş madde atlanır — damgaMadde/obTazele ile birebir).
+var _seferBag = { n: -1, bagli: {}, suanki: {} };
+function _seferBagIds(o) {
+  var v = o && o.sefer_id;
+  return !v ? [] : (Array.isArray(v) ? v : [v]);
+}
+function _seferBagTazele(t) {
+  try {
+    if (_seferBag.n !== olaylar.length) {
+      _seferBag.bagli = {};
+      for (var i = 0; i < olaylar.length; i++)
+        _seferBagIds(olaylar[i]).forEach(function (id) { _seferBag.bagli[id] = true; });
+      _seferBag.n = olaylar.length;
+    }
+    _seferBag.suanki = {};
+    if (!window.ZAMAN) return;
+    var k = window.ZAMAN.suankiOlay(olaylar, t, function (j) {
+      return !olayDom[j] || !olayDom[j].classList.contains("suzuldu");
+    }, suankiOlayI);
+    if (k >= 0) _seferBagIds(olaylar[k]).forEach(function (id) { _seferBag.suanki[id] = true; });
+  } catch (e) { /* olaylar hazır değil: bağ yok, eski pencere kuralı */ }
+}
 function seferGuncelle(t) {
   if (!haritaHazir) return;
   _seferKatmanSirasi();
@@ -6975,6 +7000,7 @@ function seferGuncelle(t) {
     }
     return false;
   }
+  _seferBagTazele(t);
   seferler.forEach(function (m) {
     // 🔴 23 Ağustos, 0029/H-0004 — OK KENDİ ÇAPASINDAN ÖNCE BELİRMEZ.
     // Emre: *"katalan birliklerin anadolu seferi oku BİR OLAY ERKEN
@@ -7074,6 +7100,14 @@ function seferGuncelle(t) {
       if (yeni && yeni !== m.renk) { m.renk = yeni; if (m.ic) m.ic.style.color = yeni; }
     }
     var aktif = m._fiKirpik <= t && t < m._tiKirpik;
+    // 🔴 MADDEYE BAĞLI ROTA — post-it #185 (Emre, 11 Kasım 2026): *"bu güzergahlar
+    // o seyahat ile ilgili kronoloji maddesinde mi görünüyor ... alakasız maddelerde
+    // bu güzergahlar görünmemeli."* ÖLÇÜLDÜ: Polo hattı f=1271/t=1295 penceresiyle
+    // 1281'deki "Ahî Evran" maddesinde de çiziliyordu. Bir madde `sefer_id` ile bu
+    // kayda bağlıysa (data/olaylar_gezginler.js) pencere değil MADDE karar verir:
+    // hat yalnız o anki madde (listede vurgulanan, `ZAMAN.suankiOlay`) ona bağlıyken
+    // çizilir. Bağsız kayıtlar eski kuralla sürer.
+    if (_seferBag.bagli[m.id]) aktif = !!_seferBag.suanki[m.id];
     if (aktif && window.SEFER_ANIM_GIZLI[m.id]) {
       // faz "ok" bu oku ŞU ANDA ilerletiyor — durağan kopyasını çizme
       if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }

@@ -125,7 +125,10 @@ def seyahat_kayitlari():
         except Exception:
             continue   # JSON olmayan (elle yazılmış JS) dosya: seyahat kaydı yoksa sorun değil
         for k in dizi:
-            if isinstance(k, dict) and k.get("tur") == "seyahat" and k.get("id") \
+            # seyahat kayıtları + gezgin deniz yolculukları (dünya turları; `gz-` kimlikli)
+            gezgin_deniz = k.get("tur") == "deniz" and str(k.get("id", "")).startswith("gz-") \
+                if isinstance(k, dict) else False
+            if isinstance(k, dict) and (k.get("tur") == "seyahat" or gezgin_deniz) and k.get("id") \
                     and isinstance(k.get("yol"), list) and len(k["yol"]) >= 2 and not k.get("rota"):
                 out.append(k)
     return out
@@ -341,6 +344,8 @@ def kayit_rotasi(Z, k):
         if abs(a[0] - b[0]) < 1e-6 and abs(a[1] - b[1]) < 1e-6:
             continue
         kip = KIP.get((k["id"], i), (None,))[0]
+        if kip is None and k.get("tur") == "deniz":
+            kip = "deniz"      # deniz yolculuğu: bacak karaya çıkmaz (liman uçları hariç)
         p, ort = bacak_yolu(Z, a, b, kip)
         # Tarih değiştirme hattı: bacak kendi içinde kesintisizdir (gerekirse +360);
         # kaydı da kesintisiz tutmak için bacağı önceki bacağın ucuna 360'ın katıyla
