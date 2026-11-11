@@ -476,6 +476,7 @@ Ceviri.ekle("es","arayuz",{
 "(hattın":["(de la línea", "7e1cdc3f"],
 "(hattın hata payı içindeki,":["(dentro del margen de error de la línea,", "110ce41f"],
 "(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle bu listeye de gelir; dünya önemi puanına göre":["(cada entrada pertenece a la cronología de su propio estado; las marcadas \"🌍 Mundo\" — como el descubrimiento de América o la Revolución francesa — también aparecen en esta lista con su etiqueta de estado y región; según la puntuación de importancia mundial", "8c8004b3"],
+"(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle seçili devletin listesine de gelir; dünya önemi puanına göre. Varsayılan: gösterme":["(cada entrada pertenece a la cronología de su propio estado; las marcadas \"🌍 Mundo\" — como el descubrimiento de América o la Revolución francesa — también aparecen en la lista del estado seleccionado con su etiqueta de estado y región; según la puntuación de importancia mundial. Predeterminado: ocultar", "ef6d335e"],
 "(işgal)":["(ocupación)", "d52e4af5"],
 "(k/tur yok)":["(sin k/tur)", "c3ff3a38"],
 "(kapalıyken tek renk: lacivert, tâbi tarafta açık kırmızı)":["(desactivado, un solo color: azul marino, y rojo claro en el lado vasallo)", "8e6ed92e"],

@@ -8718,7 +8718,7 @@ var BOLGE_ADI = {
 };
 var BOLGE_CEVRE = { "balkanlar": 1, "anadolu": 1, "arabistan": 1, "suriye-filistin": 1, "mezopotamya": 1,
                     "misir-sudan": 1, "kafkasya": 1 };
-var _kunyeIx = null;
+var _kunyeIx = null, _kunyeAdIx = null;
 function kunyeBul(id) {
   if (!_kunyeIx) { _kunyeIx = {}; (window.DEVLETLER || []).forEach(function (d) { _kunyeIx[d.id] = d; }); }
   return _kunyeIx[id] || null;
@@ -8745,6 +8745,12 @@ function etiketCip(metin, sinif, title, renk) {
 // "Dünya" sahibin yerine geçmez (eski rozetin kusuru buydu).
 function dunyaCipleriEkle(kap, o) {
   var sahipler = o._dunyaSahip || maddeSahipleri(o);
+  // Taraf yazmayan dosyadan gelen kopya (odak listesine bindirilen dünya maddesi): `_dunyaKaynak`
+  // künye ADINI taşır — adından künyeyi bul.
+  if (!sahipler.length && o._dunyaKaynak) {
+    if (!_kunyeAdIx) { _kunyeAdIx = {}; (window.DEVLETLER || []).forEach(function (d) { _kunyeAdIx[d.ad] = d; }); }
+    sahipler = o._dunyaKaynak.map(function (a) { return _kunyeAdIx[a]; }).filter(Boolean);
+  }
   if (sahipler.length) {
     var d0 = sahipler[0];
     kap.appendChild(etiketCip(d0.ad + (sahipler.length > 1 ? " +" + (sahipler.length - 1) : ""), "o-cip-devlet",

@@ -67,14 +67,16 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 11 Kasım 2026 (OSMANLI-LISTE-ONEM): tavan AÇILDI — arayüz eksik 13 -> 17: ⚙ Ayarlar'da iki etiket
 # yeniden yazıldı (Bölgesel olaylar · Dünya olayları eşiği; 4 dizge). Çeviri işleri Emre'nin 4 Kasım
 # kararıyla bekliyor. Eski değer: eksik arayüz 13.
+# 11 Kasım 2026 (KRON-ETIKET): arayüz eksik 17 -> 16 — "Dünya olayları eşiği" etiketi "Devletlerin dünya
+# kronolojilerini göster" diye birleşti ve 7 dile çevrildi (+ KRON-ETIKET'in 26 bölge/çip dizgesi). İner.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 17, "devlet": 1, "olay": 296},
-    "ar": {"arayuz": 17, "devlet": 1, "olay": 296},
-    "es": {"arayuz": 17, "devlet": 1, "olay": 296},
-    "de": {"arayuz": 17, "devlet": 1, "olay": 296},
-    "pt": {"arayuz": 17, "devlet": 1, "olay": 1413},
-    "ru": {"arayuz": 17, "devlet": 1, "olay": 3510},
-    "fr": {"arayuz": 17, "devlet": 1, "olay": 4410},
+    "en": {"arayuz": 16, "devlet": 1, "olay": 296},
+    "ar": {"arayuz": 16, "devlet": 1, "olay": 296},
+    "es": {"arayuz": 16, "devlet": 1, "olay": 296},
+    "de": {"arayuz": 16, "devlet": 1, "olay": 296},
+    "pt": {"arayuz": 16, "devlet": 1, "olay": 1413},
+    "ru": {"arayuz": 16, "devlet": 1, "olay": 3510},
+    "fr": {"arayuz": 16, "devlet": 1, "olay": 4410},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},

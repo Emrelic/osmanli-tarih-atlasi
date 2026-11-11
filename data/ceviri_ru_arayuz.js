@@ -464,6 +464,7 @@ Ceviri.ekle("ru","arayuz",{
 "(hattın":["(линии", "7e1cdc3f"],
 "(hattın hata payı içindeki,":["(в пределах погрешности линии,", "110ce41f"],
 "(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle bu listeye de gelir; dünya önemi puanına göre":["(каждая запись входит в хронологию своего государства; записи с меткой «🌍 Мир» — например, открытие Америки или Французская революция — также появляются в этом списке с метками государства и региона; по баллу мировой значимости", "8c8004b3"],
+"(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle seçili devletin listesine de gelir; dünya önemi puanına göre. Varsayılan: gösterme":["(каждая запись входит в хронологию своего государства; записи с меткой «🌍 Мир» — например, открытие Америки или Французская революция — также появляются в списке выбранного государства с метками государства и региона; по баллу мировой значимости. По умолчанию: не показывать", "ef6d335e"],
 "(işgal)":["(оккупация)", "d52e4af5"],
 "(k/tur yok)":["(k/tur нет)", "c3ff3a38"],
 "(kapalıyken tek renk: lacivert, tâbi tarafta açık kırmızı)":["(в выключенном виде один цвет: тёмно-синий, у вассала — светло-красный)", "8e6ed92e"],

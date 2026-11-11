@@ -485,6 +485,7 @@ Ceviri.ekle("ar","arayuz",{
 "(hattın":["(الخط", "7e1cdc3f"],
 "(hattın hata payı içindeki,":["(ضمن هامش خطأ الخط،", "110ce41f"],
 "(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle bu listeye de gelir; dünya önemi puanına göre":["(كل بند ينتمي إلى التسلسل الزمني لدولته؛ والبنود الموسومة \"🌍 العالم\" — مثل اكتشاف أمريكا أو الثورة الفرنسية — تظهر أيضًا في هذه القائمة مع وسم الدولة والمنطقة؛ بحسب درجة الأهمية العالمية", "8c8004b3"],
+"(her madde kendi devletinin kronolojisindedir; \"🌍 Dünya\" etiketli olanlar — Amerika'nın keşfi, Fransız İhtilali gibi — devlet ve bölge etiketiyle seçili devletin listesine de gelir; dünya önemi puanına göre. Varsayılan: gösterme":["(كل بند ينتمي إلى التسلسل الزمني لدولته؛ والبنود الموسومة \"🌍 العالم\" — مثل اكتشاف أمريكا أو الثورة الفرنسية — تظهر أيضًا في قائمة الدولة المختارة مع وسم الدولة والمنطقة؛ بحسب درجة الأهمية العالمية. الافتراضي: إخفاء", "ef6d335e"],
 "(işgal)":["(احتلال)", "d52e4af5"],
 "(k/tur yok)":["(لا يوجد k/tur)", "c3ff3a38"],
 "(kapalıyken tek renk: lacivert, tâbi tarafta açık kırmızı)":["(عند الإغلاق لون واحد: كحلي، وأحمر فاتح عند التابع)", "8e6ed92e"],
