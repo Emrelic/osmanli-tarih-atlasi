@@ -22,12 +22,16 @@
   var SAAT_DILIMI = window.ACILIS_SAAT_DILIMI || {};
   var DIL = { tr: "TR", el: "GR", fr: "FR", de: "DE", it: "IT", es: "ES", pt: "PT", ru: "RU",
               hu: "HU", sr: "RS", sq: "AL", fi: "FI", ro: "RO", pl: "PL", ja: "JP", ar: "ARAP" };
+  // KRON-ACILIS-1111: tablo, yalnız TEK ülkeye ait dilleri ekler (bg → BG, ko → KR …).
+  var _ed = window.ACILIS_DIL || {};
+  for (var _d in _ed) if (!DIL[_d]) DIL[_d] = _ed[_d];
   var TABLO = window.ACILIS_TABLOSU || {};
 
   function satir(ulke, yol) {
     if (!ulke) return null;
     ulke = String(ulke).toUpperCase();
-    if (ARAP_ULKELER.indexOf(ulke) >= 0) ulke = "ARAP";
+    // KRON-ACILIS-1111: kendi satırı olan Arap ülkesi (EG, SY …) ortak ARAP satırına düşmez.
+    if (!TABLO[ulke] && ARAP_ULKELER.indexOf(ulke) >= 0) ulke = "ARAP";
     return TABLO[ulke] ? { ulke: ulke, s: TABLO[ulke], yol: yol } : null;
   }
 
