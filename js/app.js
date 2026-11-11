@@ -13201,7 +13201,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     if (ANT_FARK.madde === o || kutuEl.isConnected) ANT_FARK.fs = fsYerel;   // POSTIT-120: geç yüklemede bayat kalmasın
   }
   kutuEl.title = degisim.map(function (d) { return Y[d.i].ad; }).join(", ");
-  if (window.PETEK_GOVDE) {
+  if (window.PETEK_GOVDE && window.PETEK_GOVDE_PARCA) {   // PETEK-GOVDE-YARIS-1111: ikisi birden (DENETIM-1111'in kalan yeri)
     ozellikleriKur();
   } else {
     // H-0012 ⑤: "bölge sınırları yükleniyor…" iç terim + geçici durum; ana
@@ -15717,7 +15717,7 @@ function kardesMaskesiKur(o) {
     _kardesMaskeGun = o.gi;
     console.debug("[kardeş maskesi] " + gs + " · " + fs.length + " petek sonraki kardeş maddeye kadar eski sahibinde gösteriliyor.");
   }
-  if (window.PETEK_GOVDE) ciz(); else _petekGovdeYukle(ciz);
+  if (window.PETEK_GOVDE && window.PETEK_GOVDE_PARCA) ciz(); else _petekGovdeYukle(ciz);   // PETEK-GOVDE-YARIS-1111
 }
 
 function haritayiOlayaGotur(o, zorla) {
