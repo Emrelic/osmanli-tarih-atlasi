@@ -868,13 +868,44 @@ function acikTon(hex, kat) {
 //    yer) · `arac/renk_olc.py` "OSMANLI tâbi". Devir/işgal desenlerindeki tâbi
 //    tonu o yoldan gelir ve motor tarafı hizalanana kadar ESKİ tonda kalır.
 var TABI_RENK = acikTon("#8e0b22");
-var dolgular = (window.DOLGU || []);
-dolgular.forEach(function (r) {
-  r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
-  r.ft = { type: "Feature",
-           properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
-           geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
-});
+// DENETIM-1111 HIZ — DOLGU TEMBEL YÜKLENİR. `data/dolgu_once1281.js` (3,0 MB) açılışta
+// senkron iniyor ve her kaydı çözülüyordu; oysa ④b katmanı VARSAYILAN KAPALI
+// (`dolgu-b-alan` visibility:none) ve açılmadıkça hiç okunmuyordu. Dosya artık
+// index.html'de değil: kutu ilk açıldığında indirilir, sonra `_dolguKur` kayıtları
+// çözer. Veri sözü (`DOLGU_TEMBEL_DOSYA`) varken kutu "veri yok" diye pasifleşmez.
+var DOLGU_TEMBEL_DOSYA = "data/dolgu_once1281.js";
+var _dolguYuk = { durum: window.DOLGU ? "hazir" : "yok", bekleyen: [] };   // yok · iniyor · hazir · hata
+var dolgular = [];
+function _dolguKur() {
+  DOLGU_PARCALAR = window.DOLGU_PARCALAR || [];
+  DOLGU_PARCA_HALKA = window.DOLGU_PARCA_HALKA || [];
+  dolgular = (window.DOLGU || []);
+  dolgular.forEach(function (r) {
+    r.fi = gunIdx(r.f); r.ti = gunIdx(r.t);
+    r.ft = { type: "Feature",
+             properties: { renk: DOLGU_RENK[r.k] || "#8e0b22", kim: r.k, cins: r.c },
+             geometry: parcaCoz(r.p, DOLGU_PARCALAR, DOLGU_PARCA_HALKA) };
+  });
+}
+if (window.DOLGU) _dolguKur();
+function dolguVerisiYukle(cb) {
+  if (_dolguYuk.durum === "hazir") { cb(true); return; }
+  if (_dolguYuk.durum === "hata") { cb(false); return; }
+  _dolguYuk.bekleyen.push(cb);
+  if (_dolguYuk.durum === "iniyor") return;
+  _dolguYuk.durum = "iniyor";
+  var s = document.createElement("script");
+  s.src = DOLGU_TEMBEL_DOSYA + "?v=" + (window.SURUM || "");
+  function bitti(ok) {
+    if (ok) { try { _dolguKur(); } catch (e) { ok = false; console.error("[dolgu] çözülemedi:", e); } }
+    _dolguYuk.durum = ok && dolgular.length ? "hazir" : "hata";
+    var b = _dolguYuk.bekleyen; _dolguYuk.bekleyen = [];
+    b.forEach(function (f) { try { f(_dolguYuk.durum === "hazir"); } catch (e) { console.error(e); } });
+  }
+  s.onload = function () { bitti(true); };
+  s.onerror = function () { console.error("[dolgu] " + DOLGU_TEMBEL_DOSYA + " indirilemedi"); bitti(false); };
+  document.head.appendChild(s);
+}
 // ---------- Devlet etiketleri ----------
 // ⚠️ Eskiden her devlete TEK etiket veriliyor ve üretimden gelen tek bir
 // ağırlık merkezine (p.c) konuyordu. Sonuçları kullanıcı raporladı:
@@ -1619,7 +1650,7 @@ function ufukSeciciKur() {
 function bVeriKapisi() {
   var NOT = "veri henüz üretilmedi";
   var dk = document.querySelector('input[data-katman="dolgu"]');
-  if (dk && !dolgular.length) {
+  if (dk && !dolgular.length && _dolguYuk.durum !== "yok" && _dolguYuk.durum !== "iniyor") {   // "yok" = tembel, henüz istenmedi
     dk.checked = false;
     dk.disabled = true;
     var lb = dk.closest("label");
@@ -4272,12 +4303,22 @@ harita.on("load", function () {
     // `etiketTazele` uçuşta zaten askıya alınıyordu (23 Ağustos), bu dal
     // ALINMAMIŞTI. İşaretler uçuşta `harita-ucusta` ile gizli ⇒ iş borç yazılır,
     // varışta `__etiketBorcuOde` → `etiketTazele` → `sehirGuncelle` BİR KEZ öder.
-    if (e !== sonEsik) {
-      sonEsik = e;
-      if (KAMERA.olayBekliyor) etiketBorcu = true; else sehirGuncelle(suanki);
-    }
-    etiketTazele();
+    // DENETIM-1111 HIZ — KULLANICI ZOOM'U DA ERTELENİR. Eşik dalı eskiden burada
+    // EŞZAMANLI `sehirGuncelle` koşuyordu, `etiketTazele` de her zoom karesinde bir
+    // rAF kurup etiket + şehir yerleşimini (100-700 ms) yapıyordu ⇒ tekerlek/kıstırma
+    // zoom'unda kare başına uzun görev (ölçüldü: easeTo 2,5 kademe, 3 görev, en uzun
+    // 307 ms). Uçuştaki borç deseninin aynısı: zoom DURUNCA (140 ms sessizlik) bir kez.
+    // `etiketTazele` zaten `sehirGuncelle`yi de koşturur; eşik dalı ayrıca çağırmaz.
+    if (e !== sonEsik) sonEsik = e;
+    etiketErtele();
   }
+  var zoomErtele = 0;
+  // Zoom kareleri + `moveend` aynı ertelenmiş çağrıda birleşir (bkz. moveend dinleyicisi).
+  function etiketErtele() {
+    clearTimeout(zoomErtele);
+    zoomErtele = setTimeout(etiketTazele, 140);
+  }
+  window.__etiketErtele = etiketErtele;
   // ⚠️ Etiket yerleşimi bugüne kadar YALNIZ dönem değişince hesaplanıyordu
   // (devletGuncelle → etiketleriYerlestir). İşaretler MapLibre marker'ı olduğu
   // için konumları zoom'da kendiliğinden düzeliyordu, ama PUNTO ve ÇAKIŞMA
@@ -11752,7 +11793,14 @@ function guncelle() {
   // KUTU-D-1014 (0088/H-0051): kardeş maskesi yalnız kendi gününde durur (kırpma
   // sırasındaki geçici gün değişimi onu kaldırmaz).
   if (_kardesMaskeGun != null && suanki !== _kardesMaskeGun && !_kirpmaKilitli) kardesMaskesiKaldir();
-  if (!_kirpmaKilitli) {
+  if (_kaySurukleniyor && !_kirpmaKilitli) {
+    // DENETIM-1111 HIZ — kaydırıcı SÜRÜKLENİRKEN aynı dört iş ertelenir (kırpma
+    // borcuyla aynı desen). Profil (yerel, 4 atlama): sehirGuncelle tek başına
+    // tarihAyarla süresinin ~%60'ı (1232/2011 ms, tepe 371 ms). Sınır ve renk
+    // akmaya devam eder; şehir/savaş/sefer/koridor işaretleri sürükleme DURUNCA
+    // (`_kaySurukleBitti`) bir kez çizilir.
+    _kayBorcu = true;
+  } else if (!_kirpmaKilitli) {
     agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
     agirOlc("seferGuncelle", function () { seferGuncelle(suanki); });
@@ -12002,7 +12050,9 @@ harita.on("moveend", function () {
   //   `moveend`inde tam tarama koşmak, tam da kaçındığımız yükü geri
   //   getirirdi. Uçuş bitince `_varista` zaten tazeliyor.
   if (haritaHazir && !KAMERA.olayBekliyor) {
-    try { sehirGuncelle(suanki); } catch (e) { /* veri hazır değil */ }
+    // DENETIM-1111 HIZ — `sehirGuncelle` burada DOĞRUDAN çağrılmıyor: aşağıdaki
+    // etiket tazelemesi onu zaten koşturuyor (ölçüldü: her `moveend`de İKİ kez,
+    // easeTo gidiş-dönüşünde 6 çağrı / 829 ms). Tek ertelenmiş çağrıya bağlandı.
     // 🔴 23 Agustos, 0027/H-0011 — YAKINSAMA GARANTISI (teshis DEGIL).
     // Emre: "Hacova Meydan Muharebesinin yeri haritada belli degil."
     // Olculdu: savasGuncelle DOGRU tarihle, KILITSIZ cagriliyor ve
@@ -12022,7 +12072,10 @@ harita.on("moveend", function () {
     // etiketleri de artik gorus alanina gore kirpiliyor; `zoom`
     // olayi KAYDIRMADA atesLEMEZ, yani pan sonrasi disarida kalmis
     // etiketler geri gelmezdi. Ustteki sehir dersinin aynisi.
-    try { if (window.__etiketTazele) window.__etiketTazele(); } catch (e2) { }
+    try {
+      if (window.__etiketErtele) window.__etiketErtele();
+      else if (window.__etiketTazele) window.__etiketTazele();
+    } catch (e2) { }
   }
 });
 harita.on("zoomend", baslikDamgala);
@@ -12041,8 +12094,39 @@ kaydirici.addEventListener("keydown", function (e) {
   e.preventDefault();
   tarihAyarla(suanki + yon * (e.shiftKey ? 365 : 1));   // belge geneli kısayolla aynı
 });
+// DENETIM-1111 HIZ — SÜRÜKLEME BİRLEŞTİRİLİR (son değer kazanır). ÖLÇÜLDÜ (yerel
+// önizleme, panel görünür): 1 sn'lik sürükleme = 20 `input` = 20 tam `tarihAyarla`
+// (~700 ms/adet) ⇒ ekran 15 SANİYE kilitli, 70 uzun görev. Kullanıcı yalnız SON
+// konumu görmek istiyor; aradaki her gün kuyrukta birikip sırayla çiziliyordu.
+// Şimdi `input` yalnız değeri yazar; çizim kare başına EN ÇOK BİR kez, o anki son
+// değerle koşar — iş sürerken gelen olaylar tek bir sonraki çizime katlanır.
+var _kayBekleyen = 0;
+var _kaySurukleniyor = false, _kayBorcu = false, _kaySessiz = 0;
+function _kaySurukleBitti() {
+  clearTimeout(_kaySessiz); _kaySessiz = 0;
+  if (!_kaySurukleniyor) return;
+  _kaySurukleniyor = false;                 // ÖNCE kilit kalkar, SONRA borç (kırpmadaki sıra)
+  if (_kayBorcu && !_kirpmaKilitli) {
+    _kayBorcu = false;
+    try { sehirGuncelle(suanki); } catch (e) { }
+    try { savasGuncelle(suanki); } catch (e) { }
+    try { seferGuncelle(suanki); } catch (e) { }
+    try { koridorGuncelle(suanki); } catch (e) { }
+  } else if (_kayBorcu) { _kayBorcu = false; _kirpmaBorcu = true; }
+}
 kaydirici.addEventListener("input", function () {
-  tarihAyarla(konumGun(parseFloat(kaydirici.value)));
+  _kaySurukleniyor = true;
+  clearTimeout(_kaySessiz);
+  _kaySessiz = setTimeout(_kaySurukleBitti, 300);   // bırakmadan duraklayınca da öder
+  if (_kayBekleyen) return;
+  _kayBekleyen = requestAnimationFrame(function () {
+    _kayBekleyen = 0;
+    tarihAyarla(konumGun(parseFloat(kaydirici.value)));
+  });
+});
+kaydirici.addEventListener("change", function () {   // fare bırakıldı: son değer + borç
+  if (_kayBekleyen) { cancelAnimationFrame(_kayBekleyen); _kayBekleyen = 0; tarihAyarla(konumGun(parseFloat(kaydirici.value))); }
+  _kaySurukleBitti();
 });
 
 // ---------- Olay bilgi paneli (olay-olay akışında harita üstünde yüzer) ----------
@@ -19842,7 +19926,15 @@ function katmanSeciciKur() {
       //    GÖRÜNÜR ama BOŞ kalır — ve kullanıcı "B görünümü çalışmıyor" der.
       //    Bu satır o boşluğu kapatıyor; veri yoksa rozet "—" yazar, yani
       //    "katman yok" ile "veri üretilmemiş" ayırt edilebilir kalır.
-      if (a === "dolgu") {
+      if (a === "dolgu" && acik && !dolgular.length && (_dolguYuk.durum === "yok" || _dolguYuk.durum === "iniyor")) {
+        // DENETIM-1111 HIZ — tembel veri: ilk açılışta indir, inince o günü çiz.
+        var rdY = document.getElementById("kat-sayi-dolgu");
+        if (rdY) { rdY.textContent = "…"; rdY.title = "Katman verisi yükleniyor"; }
+        dolguVerisiYukle(function (ok) {
+          if (rdY) { rdY.textContent = ok ? "" : "—"; rdY.title = ok ? "" : "Bu katmanın verisi yüklenemedi"; }
+          if (ok) { try { dolguImza = null; dolguGuncelle(suanki); } catch (e) { /* stil hazır değil */ } }
+        });
+      } else if (a === "dolgu") {
         var rd = document.getElementById("kat-sayi-dolgu");
         if (!dolgular.length) {
           // 🔴 21 Eylül 2026 — DALGA-0074/H-0012 ikinci tur (M-4897): rozetin
