@@ -1,0 +1,3 @@
+
+## EK 2 (10 Kasım) — KARAR VE SONUÇ: onem/dunya/bolge_onem yazıldı
+Emre üç skalayı onayladı (kendi devleti · ilgili devletler ve bölgedeki komşular · dünya) ve "şimdilik boşları yaz, notlanan/notlanmayan ayrımını tut, yeni hafta gözden geçir" dedi. Yukarıdaki "YAZILMADI" hükümleri bu karardan ÖNCEKİ ölçüme aittir. Sonuç: 2.921 madde üç-skala rubriğiyle (iki puanlayıcı + ayrılıkta üçüncünün medyanı) puanlandı; `onem` boş 2.833 → 0, `dunya` boş 2.909 → 0, `bolge_onem` 2.921 maddede yeni. Damga: `puan_s:"v2"`. Ayrıntı ve gözden geçirme planı: `PUAN-GOZDEN-GECIR.md`. `BOLGE-ONEM-ONERI.md` artık öneri değil, uygulanan tanımın ilk taslağıdır (tanım RUBRIK-3-SKALA.md'de). Hâlâ boş: `tur` 1.784 madde (Sonnet ana-tür uyumu %68, ≥%90 olmadığı için yazılmadı).
