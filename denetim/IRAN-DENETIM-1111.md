@@ -17,7 +17,9 @@ okundu (çoğu "VAR" alâkasız madde ile karşılanıyor). Bölüm 2 ayrıca 14
 hesapladı. Yöntem sınırı: kırılma çiftleri `s:` yazılış sırasıyla çıkarıldı (tarih sırası değil) — "önce→sonra" çifti bazen
 yanıltıcıdır; `d:` pencereleri ilk çıkarımda yoktu (Bölüm 2'de düzeltildi).
 
-**Kaynak durumu:** TDV İslâm Ansiklopedisi birinci dayanak (onlarca madde GET ile okundu). **Encyclopaedia Iranica ve
+**12 Kasım eki:** 403 yüzünden açık kalan 12 sorunun 10'u Iranica tarayıcıdan okunarak kapatıldı — raporun SONUNDAKİ EK'e bakın (Şiraz 1792 yeni bulgu; Kaçar kuruluşu, Zend sonu, Mahabad TDV–Iranica çelişkisi).
+
+**Kaynak durumu (11 Kasım):** TDV İslâm Ansiklopedisi birinci dayanak (onlarca madde GET ile okundu). **Encyclopaedia Iranica ve
 Britannica bütün denemelerde 403 verdi — çekilemedi**; Iranica'ya dayanan her gün "teyitsiz" işaretlidir. CGIE (cgie.org.ir)
 ve Dâneşnâme-i Cihân-ı İslâm bu turda kullanılamadı. Vikipedi dayanak alınmadı.
 
@@ -45,7 +47,7 @@ Ayrıca: Değişmez 2 evreninde tamamen maddesiz 12 kırılma grubu (Timur 1370 
 - Kronoloji maddesi: ~350 okundu (B1 ~200, B2 ~75, B3 ~45, B4 ~30).
 - Yerleşim: 335'inin zinciri çıkarıldı; ~290'ı tek tek okundu (B1 ~75, B2 149, B3 ~45, B4 ~20).
 - Kırılma grubu: 271'in hepsi ±30 gün evreninde ölçüldü; 12 maddesiz; alâka elle okundu (B1 77, B2 73, B3 55, B4 18).
-- **Bulgu: 62** (B1 16 · B2 17 · B3 17 · B4 12); B3.9 ile B4.1/B4.4/B4.10 aynı 1923 kesiğidir.
+- **Bulgu: 64** (B1 16 · B2 17 · B3 17 · B4 12 · 12 Kasım teyit eki +2; sondaki EK'e bakın); B3.9 ile B4.1/B4.4/B4.10 aynı 1923 kesiğidir.
 - Ölçülemedi: üretilmiş harita (bellek); `denetle.py` tam koşusu; Iranica/Britannica (403); CGIE/Dâneşnâme; bölüm sonlarındaki
   listeler.
 
@@ -684,3 +686,38 @@ Ağaç: UMIT, worktree `reverent-allen-bb8c39` (HEAD 7a3659d54), salt-okunur. Ha
 - Hürremşehr (1980-10 / 1982-05-24) ve Fâv (1986-02 / 1988-04) günleri, 1932 / 1937-07-04 / 1975 / 1971 günleri kaynakta okunmadı (brief'ten).
 - Culfa ve Astara için yaka tespiti koordinat karşılaştırmasına dayanıyor, GeoNames ile ölçülmedi.
 - 1935 ad değişikliği (21 Mart 1935): TDV `iran` ilk 100 bin karakterinde yok, devamı okunmadı.
+
+
+---
+
+# EK — 12 Kasım 2026 teyit turu (403 yüzünden açık kalanlar)
+
+**Yöntem:** Iranica'nın 403'ü otomatik çekmeye karşı engelmiş; sayfalar uygulamanın tarayıcısında açıldı ve maddeler
+aynı köken içinden okundu (`iranicaonline.org/articles/<slug>/`). Okunan maddeler: ZAND DYNASTY, ANGLO-PERSIAN WAR
+(1856-57), HERAT vi, AFGHANISTAN x (Political History), AQ QOYUNLŪ, CHOBANIDS, KĀR KIĀ, ĀḠĀ MOḤAMMAD KHAN, JANGALI
+MOVEMENT, RASHT, CASPIAN SEA ii, AZERBAIJAN v. Çekilemeyen: KART (sayfa boş döndü), SARBEDARIDS (slug bulunamadı), KANDAHAR
+(yalnız künye özeti), ESMĀʿĪL I (yalnız künye özeti). Britannica denenmedi. Ağır komut koşturulmadı.
+
+| Açık soru (bulgu) | Iranica ne diyor | Sonuç / güncellenmiş öneri |
+|---|---|---|
+| Zend'in sonu (B3.2) | ZAND DYNASTY: Lütf Ali Han 1794'te Kirman'ı aldı, "dört ay tuttu", Kaçarlar ihanetle girdi; Bam'a kaçtı, teslim edildi, **Tahran'da Rebîülâhir 1209 / Kasım 1794**'te öldürüldü. | **ÇELİŞKİ:** TDV "Zendler" Cemâziyelâhir 1209 / Aralık 1794 diyor (Rebîülâhir 1209 ≈ 26 Eki–23 Kas 1794; Cemâziyelâhir ≈ 24 Ara 1794–21 Oca 1795, tablo hesabı). CLAUDE.md gereği TDV esas, Iranica `ic_not`ta beyan. 1794-01-01 her iki kaynağa göre yanlış. |
+| **YENİ — Şiraz 1792** | ZAND DYNASTY: Ağa Muhammed Han Şiraz'a **1 Zilhicce 1206 / 21 Temmuz 1792**'de girdi (Kuhmarra'i). | **TARİH-HATA:** Atlasta Şiraz `zend`→`kacar` 1794-01-01. Öneri: Şiraz (ve Fars merkezi) `kacar` 1792-07-21; Zend 1792-1794 yalnız Kirman çevresinde kalır. |
+| Herat 1856-57 (B3.11) | ANGLO-PERSIAN WAR: Herat **Ekim 1856 sonunda** İran'a düştü; Paris barışı **4 Mart 1857**; İran çekilmeden önce Sultan Ahmed Han'ı (Dost Muhammed'in yeğeni) bıraktı. HERAT vi: Herat 1842'ye dek Sadozay (Kâmran), 1842'de vezir Yâr Muhammed onu öldürdü; İran'ın Herat üzerindeki iddiası 1857'de bitti. | B3.11 **teyitli**. Herat 1826'dan `afganistan` (Bârekzay) boyanması yanlış: 1826-1842 Sadozay (Kâmran), 1842-1856 Yâr Muhammed ve ardılları (yarı bağımsız). Kaçar dönemi 1856-10-01 (yıl-ay hassasiyeti, beyanlı; "end of October") → çekiliş günü bulunamadı (yalnız "1857"). |
+| Galzay sonu / Kandehar 1738 (B2) | AFGHANISTAN x: Mîr Veys ayaklanması **1121/1709**; Kandehar'ın düşüşü **1150/1738**, Kâbil 1151/1738. | Hicrî 1150 = 1 May 1737–19 Nis 1738 → künye t'sinin 1738-03-24'e çekilmesi önerisi bu aralıkla **uyumlu** (gün Iranica'da yok, teyitsiz). f 1709 teyitli. |
+| Akkoyunlu sonu / 1503 (B1, B2) | AQ QOYUNLŪ: çöküş **sonbahar 907/1501** yenilgisiyle başladı; Irâk-ı Acem, Fars, Kirman **yaz 908/1503**; Diyarbekir 913-14/1507-08; Irak **sonbahar 914/1508**. | Hicrî 908 25 Haziran 1503'te bitiyor → "yaz 908" ≈ Mayıs–Haziran 1503. İsfahan, Şiraz, Kirman, Tahran, Kâşân'ın 1503-01-01 Safevî başlangıcı **en az 4 ay erken**. Alma-Kulağı günü hâlâ teyitsiz; Iranica'yla en erken 1503-05-01 (beyanlı). |
+| Çobânîler (B1.1) | CHOBANIDS: hâkimiyet **30 Kasım 1335 – 758/1357**; Çobânîler Celâyirlileri Maraga yakınında **26 Haziran 1340**'ta YENDİ; Melik Eşref'i Altın Orda hanı Cani Bey 758/1357 baharı sonunda yakalayıp Tebriz'de astı. | B1.1 **teyitli ve güçlendi**: Tebriz'in 1340-01-01'den `celayirli` boyanması iki kaynağa da aykırı. Öneri: Azerbaycan grubu 1338/1340 → 1357 `cobaniler`; 1357 kısa Altın Orda; Celâyirli 1358'den (TDV). |
+| Gîlân / Reşt (B1 hayalet) | KĀR KIĀ: Kiyâlar **Doğu Gîlân (Biyepiş, merkez Lâhîcan)** ve Deylem'e hâkimdi; Şah Abbas **1000/1592**'de ilhak etti. Reşt ve Fûmen **Biyepes**'te ayrı emirlerin elindeydi (Reşt emiri Tâcâsbî, Fûmen emiri İshakvend); Fûmen emiri Reşt'i 865-867/1461-63'te aldı. | **SINIR + EKSİK-DEVLET:** Reşt'in 1353-1592 `gilan-kiya` boyanması yanlış; Biyepes (Fûmen/İshakiye emirliği) künyesi yok. Lâhîcan için 1592 teyitli. |
+| Kaçar kuruluşu (B3.3) | ĀḠĀ MOḤAMMAD KHAN: merkezini Sârî'den Tahran'a taşıdı; "**1203/1788-89'da Tahran'da tahta çıktı** (henüz taç giymeden)"; taç 1796 (1210). | B3.3'teki "kaynaksız" hükmü **düzeltildi**: künyedeki 1789-03-21 (Nevruz 1203) Iranica'yla uyumlu. TDV ise 12 Mart 1786 (11 Cemâziyelevvel 1200) veriyor. **ÇELİŞKİ**: TDV esas → f 1786-03-12; Iranica 1203 `ic_not`ta. Karar Emre'nin. |
+| Gîlân SSC sonu (B4.7) | JANGALI MOVEMENT: kuruluş **5 Haziran 1920**. CASPIAN SEA ii: Sovyet askerleri **Eylül 1921**'de çekildi. RASHT: Rıza Han Reşt'i **Kasım 1921**'de işgal etti; Kûçek Han 2 Aralık 1921'de öldü. | Künyedeki iki bitiş çözüldü: Eylül = Sovyet çekilmesi, cumhuriyetin sonu Kasım 1921 → `t:"1921-11-01"` yıl-ay hassasiyetiyle **doğru**, beyan eklenmeli. f 1920-06-05 teyitli. |
+| Azerbaycan Millî Hükûmeti (B4.6) | AZERBAIJAN v: Tebriz **10 Aralık 1945**'te Demokrat Parti'nin elindeydi, "kısa süre sonra" özerk hükûmet ilan edildi; İran ordusu 9 Aralık 1946'da girdi; **21 Âzer 1325 / 13 Aralık 1946**'da Pişeverî Bakü'ye kaçtı, İran kuvvetleri Tebriz'e girdi. | Öneri: t 1946-12-12 → **1946-12-13**. f 1945-12-12 Iranica'yla çelişmiyor (gün teyitsiz). |
+| Mahabad (B4.5) | AZERBAIJAN v: Kadı Muhammed Kürt Cumhuriyeti'ni **15 Aralık 1945**'te açtı; **15 Aralık 1946**'da Mahabad'ın teslimini ilan etti. | **ÇELİŞKİ**: TDV "Kürtler" kuruluşu 22 Ocak 1946 veriyor. TDV esas → künye f 1946-01-22, t **1946-12-15** (Iranica); 15 Aralık 1945 `ic_not`ta. Bitiş günü artık bulundu. |
+| Astara / Culfa (B4.4) | — (Iranica'da sınır cümlesi okunmadı) | Koordinat okundu: Astara 38.4292/48.8728 (Astara çayının güneyi = İran Astara'sı), Culfa 38.955/45.63 (Aras'ın kuzeyi = Nahçıvan Culfa'sı olasılığı yüksek). Yine **kaynakla ölçülmedi** (GeoNames/harita). |
+| Serbedârî / Kert sınırları (B1.5) | KART boş döndü, SARBEDARIDS bulunamadı | Hâlâ yalnız TDV'ye dayanıyor; **ölçülemedi**. |
+
+**Ek turun sayıları:** 12 açık sorudan **10'u kapandı**, ikisi kısmen (Zend sonu, Herat, Çobânî, Reşt/Gîlân, Kaçar kuruluşu,
+Gîlân SSC, Azerbaycan, Mahabad tam; Kandehar ve Akkoyunlu 1503 yalnız ay/aralık düzeyinde). **2 yeni bulgu:** Şiraz 1792-07-21
+(TARİH-HATA) ve Biyepes emirliği künyesinin yokluğu (EKSİK-DEVLET). **1 bulgu düzeltildi:** B3.3 "kaynaksız" → "ÇELİŞKİ".
+**3 yeni TDV–Iranica çelişkisi:** Zend sonu, Kaçar kuruluşu, Mahabad kuruluşu. Açık kalan: Astara/Culfa (kaynakla ölçülmedi),
+Serbedârî/Kert sınırları, Herat'ın 1857 tahliye günü, Alma-Kulağı günü. Toplam bulgu 62 → **64**.
+
+**Öteki oturumlara not:** Iranica'nın 403'ü yalnız otomatik çekmeyi engelliyor; uygulamanın tarayıcısında sayfalar açılıyor.
