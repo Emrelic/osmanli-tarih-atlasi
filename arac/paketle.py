@@ -176,32 +176,47 @@ def _plan(html):
 #   (inceltme bir kazançtır, şart değil — bozuk gövde yayına gitmemeli).
 # ⚠️ Bir gün sitede yerleşim `kaynak`ı gösterilecekse bu liste daraltılmalı
 #   ya da kaynak metni ayrı, tembel bir dosyaya alınmalıdır.
-_INCELT_DOSYA = re.compile(r"^data/yerlesimler[\w\-.]*\.js$")
-_INCELT_ATAMA = re.compile(r"^\s*window\.(YERLESIMLER[A-Za-z0-9_]*)\s*=", re.M)
+# 🆕 12 Kasım 2026 — KRONOLOJİ dosyaları da inceltilir, ama YALNIZ `ic_not*`:
+#   kronoloji `kaynak`ı tarayıcıda OKUNUR (js/kaynak_damga.js güvenilirlik damgası,
+#   madde panelindeki "Kaynak:" satırı) ⇒ kronolojide kaynak KALIR. `ic_not*`
+#   editoryal iç nottur; app.js `_icNotMu` ek okuma kartından ayıklıyor, arama.js
+#   bilerek dışarıda bırakıyor — okura hiçbir yoldan gitmez (12 Kasım, js/ tarandı).
+#   Ölçüldü: kronolojide ic_not* ~1,8 MB.
+_INCELT_KURAL = (
+    # (dosya deseni, atama adı deseni, atılacak alan sınaması, açıklama)
+    (re.compile(r"^data/yerlesimler[\w\-.]*\.js$"),
+     re.compile(r"^\s*window\.(YERLESIMLER[A-Za-z0-9_]*)\s*=", re.M),
+     lambda a: a == "kaynak" or a == "ic_not" or a.startswith("ic_not_"),
+     "kaynak · ic_not*"),
+    (re.compile(r"^data/(olaylar|kronoloji)[\w\-.]*\.js$"),
+     re.compile(r"^\s*window\.((?:OLAYLAR|KRONOLOJI)[A-Za-z0-9_]*)\s*=", re.M),
+     lambda a: a == "ic_not" or a.startswith("ic_not_"),
+     "ic_not*"),
+)
+_atilacak_mi = _INCELT_KURAL[0][2]           # geriye dönük ad
 
 
-def _atilacak_mi(alan):
-    return alan == "kaynak" or alan == "ic_not" or alan.startswith("ic_not_")
-
-
-def _incelt_kayit(k):
+def _incelt_kayit(k, atilacak=None):
+    atilacak = atilacak or _atilacak_mi
     if not isinstance(k, dict):
         return k
     c = {}
     for a, v in k.items():
-        if _atilacak_mi(a):
+        if atilacak(a):
             continue
         if isinstance(v, list) and v and all(isinstance(p, dict) for p in v):
-            v = [{pa: pv for pa, pv in p.items() if not _atilacak_mi(pa)} for p in v]
+            v = [{pa: pv for pa, pv in p.items() if not atilacak(pa)} for p in v]
         c[a] = v
     return c
 
 
 def _incelt(yol, metin):
-    """Yerleşim dosyasının paketteki inceltilmiş hâli; uymazsa `metin` aynen."""
-    if not _INCELT_DOSYA.match(yol):
+    """Yerleşim/kronoloji dosyasının paketteki inceltilmiş hâli; uymazsa `metin` aynen."""
+    kural = next((k for k in _INCELT_KURAL if k[0].match(yol)), None)
+    if not kural:
         return metin
-    adlar = _INCELT_ATAMA.findall(metin)
+    _d, atama, atilacak, aciklama = kural
+    adlar = atama.findall(metin)
     if len(adlar) != 1 or len(re.findall(r"^\s*window\.", metin, re.M)) != 1:
         return metin
     try:
@@ -214,10 +229,11 @@ def _incelt(yol, metin):
         kuyruk = re.sub(r"//[^\n]*|/\*[\s\S]*?\*/|[;\s]", "", kuyruk)
         if kuyruk:
             return metin
-        govde = json.dumps([_incelt_kayit(k) for k in veri],
-                           ensure_ascii=False, separators=(",", ":"))
-        return ("// %s — paketle.py İNCELTTİ: kaynak · ic_not* alanları yayına "
-                "gitmez (kaynak dosya değişmedi)\nwindow.%s = %s;\n" % (yol, adlar[0], govde))
+        inc = [_incelt_kayit(k, atilacak) for k in veri]
+        govde = json.dumps(inc, ensure_ascii=False, separators=(",", ":"))
+        return ("// %s — paketle.py İNCELTTİ: %s alanları yayına "
+                "gitmez (kaynak dosya değişmedi)\nwindow.%s = %s;\n"
+                % (yol, aciklama, adlar[0], govde))
     except Exception:                      # noqa: BLE001 — inceltme şart değil
         return metin
 
