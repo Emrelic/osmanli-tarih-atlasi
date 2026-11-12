@@ -47,9 +47,33 @@
     return u8;
   }
 
+  // ── PAYLAŞIMLI NOKTA (12 Kasım 2026) ──────────────────────────────
+  // ÖLÇÜLDÜ: devlet havuzu 24.001.101 nokta taşıyor ama yalnız 800.009'u
+  // tekil (dönem: 5.147.084 / 50.526) — komşu gövdeler aynı sınırı tekrar
+  // tekrar yazıyor. Her noktaya ayrı `[x, y]` dizisi açmak iki havuzda
+  // ~2,1 GB tutuyordu. Aynı koordinat artık TEK dizi nesnesidir; halkalar
+  // ona başvurur. Değerler AYNI (aynı px/1000 bölmesi) — yalnız kimlik
+  // paylaşılır. 🔴 Şart: hiçbir tüketici koordinat dizisini YERİNDE
+  // değiştirmez (12 Kasım'da js/ tarandı; halkalar zaten dönemler arasında
+  // paylaşılıyordu, bu aynı sözleşmenin nokta düzeyidir).
+  // Anahtar px·2^20 + py: |py| ≤ 90.000 < 2^19 olduğundan çakışmaz ve 2^53
+  // altında tamdır. Sınır dışı (olmaması gereken) değer paylaşılmaz.
+  function noktaTablosu() {
+    var m = new Map();
+    return function (px, py) {
+      if (py >= 524288 || py <= -524288) return [px / 1000, py / 1000];
+      var k = px * 1048576 + py, n = m.get(k);
+      if (n === undefined) {
+        n = [px / 1000, py / 1000];   // 🔴 BÖLME — aşağıdaki gerekçe
+        m.set(k, n);
+      }
+      return n;
+    };
+  }
+
   // ── varint akışı → halka havuzu ────────────────────────────────────
   function havuzCoz(u8) {
-    var i = 0;
+    var i = 0, nokta = noktaTablosu();
 
     function v() {                            // zigzag varint oku
       var z = 0, k = 0, c;
@@ -73,7 +97,7 @@
         // 🔴 BÖLME, ÇARPMA DEĞİL: px/1000 IEEE754'te doğru yuvarlanır ve
         //    metinden `parseFloat("31.114")` ile BİREBİR aynı double'ı verir.
         //    `px * 0.001` vermez (0.001 ikilik tabanda tam değildir).
-        halka[p] = [px / 1000, py / 1000];
+        halka[p] = nokta(px, py);
       }
       havuz[h] = halka;
     }
@@ -166,7 +190,7 @@
       else { s = null; sonraki(havuzBasla); }
     }
     // 2) varint akışı → halka havuzu (havuzCoz ile aynı)
-    var i = 0, nHalka, havuz, h = 0;
+    var i = 0, nHalka, havuz, h = 0, nokta = noktaTablosu();
     function v() {
       var z = 0, k = 0, c;
       do { c = u8[i++]; z |= (c & 0x7F) << k; k += 7; } while (c & 0x80);
@@ -179,7 +203,7 @@
         var nNokta = v(), halka = new Array(nNokta), px = 0, py = 0;
         for (var p = 0; p < nNokta; p++) {
           px += v(); py += v();
-          halka[p] = [px / 1000, py / 1000];   // bölme — havuzCoz'daki gerekçe
+          halka[p] = nokta(px, py);   // paylaşımlı, bölme — havuzCoz'daki gerekçe
         }
         havuz[h++] = halka;
         if ((h & 255) === 0 && simdi() - t0 > BUTCE) { sonraki(havuzAdim); return; }
@@ -190,6 +214,7 @@
         throw new Error("geo_coz: akış sonunda " + (u8.length - i) +
                         " bayt arttı — biçim uyuşmuyor");
       }
+      nokta = null;                            // tablo bırakılır; noktalar halkalarda yaşar
       bitti(havuz);
     }
     sonraki(b64Adim);
