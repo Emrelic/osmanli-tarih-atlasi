@@ -72,14 +72,15 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 11 Kasım 2026 (KRON-UC-OLAY-1111): tavan AÇILDI — 3 yeni dış olay (olaylar_dunya_bolge_1109.js: Petro'nun
 # çar ilanı 1682, Üç İmparator Ligi 1881, Fransız-Rus İttifakı 1894) + 1 arayüz gün kalıbı. Çeviri işleri
 # Emre'nin 4 Kasım kararıyla bekliyor. Eski değerler (arayüz/olay): en 16/296, ar 16/296, es 16/296, de 16/296, pt 16/1413, ru 16/3510, fr 16/4410.
+# 13 Kasım 2026 (POSTIT-156, oturum-397a34): tavan AÇILDI (Emre 1 Kasım kararı: önce ölç, aç, raporla) — Lugos kronoloji maddesinin Türkçe metni değişti (1716-10-13 -> 18, olaylar_senusi_0919.js): çevrilmiş dillerde (en/ar/es/de/pt) eski metin yetim, yeni metin eksik: olay +1. arayüz eksik 17 -> 18 ise taban main'den geliyor (bu dalın değiştirmediği bir dizge). Eski değerler: arayüz 17; olay en/ar/es/de 299, pt 1416.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 17, "devlet": 1, "olay": 299},
-    "ar": {"arayuz": 17, "devlet": 1, "olay": 299},
-    "es": {"arayuz": 17, "devlet": 1, "olay": 299},
-    "de": {"arayuz": 17, "devlet": 1, "olay": 299},
-    "pt": {"arayuz": 17, "devlet": 1, "olay": 1416},
-    "ru": {"arayuz": 17, "devlet": 1, "olay": 3513},
-    "fr": {"arayuz": 17, "devlet": 1, "olay": 4413},
+    "en": {"arayuz": 18, "devlet": 1, "olay": 300},
+    "ar": {"arayuz": 18, "devlet": 1, "olay": 300},
+    "es": {"arayuz": 18, "devlet": 1, "olay": 300},
+    "de": {"arayuz": 18, "devlet": 1, "olay": 300},
+    "pt": {"arayuz": 18, "devlet": 1, "olay": 1417},
+    "ru": {"arayuz": 18, "devlet": 1, "olay": 3513},
+    "fr": {"arayuz": 18, "devlet": 1, "olay": 4413},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
