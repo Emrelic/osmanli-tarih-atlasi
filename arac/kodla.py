@@ -1227,7 +1227,12 @@ def coz_c(dizin, cikti):
     t = time.perf_counter()
     onek, havuz_b, sonek, _sha = _oku_c(dizin)
     with open(cikti, "w", encoding="utf-8", newline="") as f:
-        f.write(onek + _havuz_metinle(havuz_b) + sonek)
+        # Parça parça yaz (12 Kasım 2026, KASA MemoryError — coz-c devletler_harita):
+        # tek dizgi kurmak tepe belleği ikiye katlıyordu; çıktı birebir aynı.
+        f.write(onek)
+        for parca in _havuz_metin_parcalari(havuz_b):
+            f.write(parca)
+        f.write(sonek)
     print("✓ %s → %s  (%.2f MB, %.0f sn)"
           % (dizin, cikti, os.path.getsize(cikti) / 1048576,
              time.perf_counter() - t))
