@@ -190,6 +190,8 @@ def kodla_turevleri(kok):
         tur = [h["parca"], h["ust"], h["on"]] + (on_dilim if ad == "devlet" else [])
         if h.get("kat1"):               # katman 1 dosyası (örn. donem_parca_on.js)
             tur.append(h["kat1"])
+        if h.get("ikili"):              # tarayıcının indirdiği .bin (12 Kasım 2026)
+            tur.append(h["ikili"])
         sonuc[h["kaynak"]] = (h["sha"], h["parca"], tur)
     return sonuc
 
@@ -322,6 +324,23 @@ def turet(kok=KOK):
                              "(kodla yay koşmadı)" % (sha_ad, m[0].group(2)[:12], kaynak, gercek[:12])))
         else:
             yaz("   ✓ türev taze: data/%s damgası = data/%s sha256 %s…" % (parca, kaynak, gercek[:12]))
+        # İkili türev (`kodla.py ikili_yaz`, 12 Kasım 2026): gzip'li başlığın
+        # 8..40. baytı aynı sha256'dır (ham). Tarayıcı bayatı .js'e düşerek
+        # atlatır ama yayına bayat .bin gitmesin.
+        ik = "data/" + parca[:-3] + ".bin"
+        if ik in R["liste"] and os.path.exists(os.path.join(kok, ik)):
+            import gzip as _gz
+            try:
+                with open(os.path.join(kok, ik), "rb") as f:
+                    ib = _gz.GzipFile(fileobj=f).read(40)
+            except Exception as e:                           # noqa: BLE001
+                R["olculemedi"].append((ik, "okunamadı: %s" % e))
+                continue
+            if ib[8:40].hex() != gercek:
+                R["dur"].append((ik, "BAYAT TÜREV — ikili damga %s… ≠ data/%s %s… "
+                                 "(py arac/kodla.py ikili data)" % (ib[8:40].hex()[:12], kaynak, gercek[:12])))
+            else:
+                yaz("   ✓ ikili taze: %s damgası = data/%s sha256 %s…" % (ik, kaynak, gercek[:12]))
     for kaynak in sorted(k for k in paket if k in U):
         ky = os.path.join(kok, kaynak)
         for pk, kisa in paket[kaynak]:

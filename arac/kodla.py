@@ -543,6 +543,8 @@ HEDEFLER = {
         # (`__DP_ON_SHA`) yazılır ve `kapi()` kıyaslar.
         "kat1": "devlet_parca_on.js", "kat1_sha": "__DP_ON_SHA",
         "kat1_komut": "on-dilim",
+        # İKİLİ TÜREV (12 Kasım 2026): tarayıcı bunu indirir (bkz. ikili_yaz).
+        "ikili": "devlet_parcalar.bin",
     },
     "donem": {
         "kaynak": "donemler.js", "havuz": "window.PARCALAR = ",
@@ -554,6 +556,7 @@ HEDEFLER = {
         # çalışan küreseller), katman 1 DEĞİL — katman 1 bu adla yazılır.
         "kat1": "donem_parca_on.js", "kat1_sha": "__PR_ON_SHA",
         "kat1_komut": "on-dilim-donem",
+        "ikili": "donem_parcalar.bin",
     },
     # 🔴 ÜÇÜNCÜ HEDEF — ve ilk ikisinden BİR DÜZEY DERİN (29 Eylül 2026).
     # Ölçüldü: petek_govde.js 11,06 MB · en çok 3 ondalık hane (OLCEK=1000
@@ -1035,6 +1038,172 @@ def _oku_c(dizin):
     return onek, havuz, sonek, sha
 
 
+# ---------------------------------------------------------------------------
+# İKİLİ TÜREV — tarayıcının indirdiği `*_parcalar.bin` (12 Kasım 2026)
+# ---------------------------------------------------------------------------
+# NİÇİN: tarayıcı havuzu base64 JS olarak indiriyordu. Ölçüldü (yayın, gzip'li
+# tel): devlet_parcalar.js 41,2 MB · donem_parcalar.js 8,5 MB. Aynı varint
+# akışı İKİLİ tutulup üç ayrı akışa bölünürse (halka sayıları · x farkları ·
+# y farkları) gzip benzer baytları yan yana görür:
+#     devlet 41,2 → 9,7 MB   ·   dönem 8,5 → 1,2 MB   (KAYIPSIZ)
+# BİÇİM (gzip, mtime=0 ⇒ aynı girdi aynı bayt):
+#     SIHIR_IKILI (8) · sha256 (32, ham — `.js`teki __XX_SHA ile AYNI)
+#     4 × uint32 LE: S · X · Y · E bölüm uzunlukları, sonra bölümler
+#     S = halka sayısı + her halkanın nokta sayısı (özgün varint baytları)
+#     X / Y = her noktanın dx / dy varint baytları (halka sırasıyla)
+#     E = negatif sıfır kuyruğu (özgün baytlar; tarayıcı okur, uygulamaz)
+# S·X·Y·E iç içe geçirilince `.js`teki akış BAYT BAYT geri gelir — `ikili_yaz`
+# bunu yazdıktan sonra DİSKTEN sınar. Tarayıcı (`js/geo_coz.js`) başlıktaki
+# sha'yı katman 1'in damgasıyla kıyaslar; tutmazsa `.js`e döner ⇒ bayat bir
+# `.bin` YANLIŞ harita çizemez, yalnız yavaş iner.
+SIHIR_IKILI = b"ATLGEO2\x00"
+
+
+def _varint_bolumle(havuz_b):
+    """Akışı S·X·Y·E bölümlerine ayır (baytlar kopyalanır, sayı çözülmez)."""
+    try:
+        import numpy as np
+    except ImportError:
+        np = None
+    b = havuz_b
+    if np is not None:
+        a = np.frombuffer(b, dtype=np.uint8)
+        son = np.flatnonzero(a < 128)            # her varint'in son baytı
+        bas = np.empty_like(son)
+        bas[0] = 0
+        bas[1:] = son[:-1] + 1
+        # varint sırası: nH, (n, dx, dy, dx, dy …)×nH, kuyruk…
+        etiket = np.full(len(son), 3, dtype=np.uint8)   # 3 = E (kuyruk)
+        etiket[0] = 0
+        v = 1
+        nh, _ = _oku(b, 0)
+        for _h in range(nh):
+            n, _ = _oku(b, int(bas[v]))
+            etiket[v] = 0
+            etiket[v + 1:v + 1 + 2 * n:2] = 1
+            etiket[v + 2:v + 2 + 2 * n:2] = 2
+            v += 1 + 2 * n
+        if v > len(son):
+            raise ValueError("ikili: akış halka sayılarıyla uyuşmuyor")
+        bayt_etiket = np.repeat(etiket, (son - bas + 1).astype(np.int64))
+        return [a[bayt_etiket == k].tobytes() for k in range(4)]
+    # numpy yoksa: aynı iş düz döngüyle (yavaş ama aynı sonuç)
+    S, X, Y = bytearray(), bytearray(), bytearray()
+
+    def al(i, hedef):
+        j = i
+        while b[j] & 0x80:
+            j += 1
+        hedef += b[i:j + 1]
+        return j + 1
+    i = al(0, S)
+    nh, _ = _oku(b, 0)
+    for _h in range(nh):
+        n, _ = _oku(b, i)
+        i = al(i, S)
+        for _p in range(n):
+            i = al(i, X)
+            i = al(i, Y)
+    return [bytes(S), bytes(X), bytes(Y), bytes(b[i:])]
+
+
+def _ikili_birlestir(S, X, Y, E):
+    """`_varint_bolumle`nin tersi — yalnız S'deki sayılarla, özgün akışa bakmadan."""
+    out = bytearray()
+    i = xi = yi = 0
+
+    def al(kay, j):
+        k = j
+        while kay[k] & 0x80:
+            k += 1
+        out.extend(kay[j:k + 1])
+        return k + 1
+    nh, _ = _oku(S, 0)
+    i = al(S, 0)
+    for _h in range(nh):
+        n, _ = _oku(S, i)
+        i = al(S, i)
+        for _p in range(n):
+            xi = al(X, xi)
+            yi = al(Y, yi)
+    if i != len(S) or xi != len(X) or yi != len(Y):
+        raise ValueError("ikili: bölüm artığı S%d X%d Y%d"
+                         % (len(S) - i, len(X) - xi, len(Y) - yi))
+    out.extend(E)
+    return bytes(out)
+
+
+def _ikili_paketle(sha_hex, bolumler):
+    import struct
+    govde = (SIHIR_IKILI + bytes.fromhex(sha_hex)
+             + struct.pack("<4I", *[len(x) for x in bolumler])
+             + b"".join(bolumler))
+    return gzip.compress(govde, 9, mtime=0)
+
+
+def _ikili_ac(veri):
+    import struct
+    g = gzip.decompress(veri)
+    if g[:8] != SIHIR_IKILI:
+        raise ValueError("ikili: sihir tutmuyor")
+    sha = g[8:40].hex()
+    uz = struct.unpack("<4I", g[40:56])
+    bol, k = [], 56
+    for n in uz:
+        bol.append(g[k:k + n])
+        k += n
+    if k != len(g):
+        raise ValueError("ikili: %d bayt arttı" % (len(g) - k))
+    return sha, bol
+
+
+def ikili_yaz(dizin):
+    """Geçerli hedefin `.js` havuzundan `.bin` türevini yaz; DİSKTEN sına."""
+    ad = HEDEFLER[HEDEF].get("ikili")
+    if not ad:
+        return 0
+    t = time.perf_counter()
+    _onek, havuz_b, _sonek, sha = _oku_c(dizin)
+    if not sha:
+        print("🔴 ikili: %s içinde %s YOK — yazılmadı" % (DP_JS, SHA_ADI))
+        return 1
+    yol = os.path.join(dizin, ad)
+    gecici = yol + ".yeni"
+    with open(gecici, "wb") as f:
+        f.write(_ikili_paketle(sha, _varint_bolumle(havuz_b)))
+    with open(gecici, "rb") as f:
+        sha2, bol = _ikili_ac(f.read())
+    if sha2 != sha or _ikili_birlestir(*bol) != havuz_b:
+        os.remove(gecici)
+        print("🔴 ikili: %s gidiş-dönüş sınavı GEÇMEDİ — yazılmadı" % ad)
+        return 1
+    os.replace(gecici, yol)
+    print("  ✓ ikili: %s %.2f MB (gzip) · akış %s ile BAYT BAYT aynı · sha %s · %.0f sn"
+          % (ad, os.path.getsize(yol) / 1048576, DP_JS, sha[:12],
+             time.perf_counter() - t))
+    return 0
+
+
+def _ikili_kapi(dizin, sha):
+    """kapi() için: `.bin` var mı, damgası havuzla aynı mı. → (ihlal, satır)."""
+    ad = HEDEFLER[HEDEF].get("ikili")
+    if not ad:
+        return False, None
+    yol = os.path.join(dizin, ad)
+    if not os.path.isfile(yol):
+        return True, ("✗  KODLAMA KAPISI — %s YOK ⇒ py arac/kodla.py ikili %s"
+                      % (ad, dizin))
+    with open(yol, "rb") as f:
+        bas = gzip.GzipFile(fileobj=f).read(40)
+    if bas[:8] != SIHIR_IKILI:
+        return True, "✗  KODLAMA KAPISI — %s biçimi tanınmadı" % ad
+    if bas[8:40].hex() != sha:
+        return True, ("✗  KODLAMA KAPISI — %s BAYAT: damga %s, havuz %s "
+                      "⇒ py arac/kodla.py ikili %s"
+                      % (ad, bas[8:40].hex()[:12], sha[:12], dizin))
+    return False, "✓  ikili: %s havuzla AYNI damga (%s)" % (ad, sha[:12])
+
+
 def kapi(dizin, hedef=None):
     """YAYIN KAPISI ÖLÇÜMÜ — iki dosyadan metni kur, sha damgasıyla kıyasla.
 
@@ -1135,6 +1304,13 @@ def kapi(dizin, hedef=None):
                              % HEDEFLER[HEDEF].get("kat1_komut", "on-dilim-donem"))
                     return True, s
                 s.append("✓  katman 1: %s havuzla AYNI damga (%s)" % (k1, sha[:12]))
+            # ── İKİLİ TÜREV BAYATLIĞI — tarayıcı yanlış çizmez (damga tutmazsa
+            # .js'e döner) ama 4 kat büyük dosyayı indirir; kapıda durdurulur.
+            ik_ihlal, ik_satir = _ikili_kapi(dizin, sha)
+            if ik_satir:
+                s.append(ik_satir)
+            if ik_ihlal:
+                return True, s
             return False, s
         s.append("✗  KODLAMA KAPISI: kurulan metin damgayla UYUŞMUYOR")
         s.append("     beklenen %s" % sha[:24])
@@ -1193,6 +1369,17 @@ def yay(girdi, dizin):
             hedef_sec(hedef_ad)
             if k1_kod != 0:
                 print("  🔴 KATMAN 1 ÜRETİLEMEDİ — yazılanlar SİLİNİYOR.")
+                for y in (p_yol, u_yol):
+                    os.remove(y)
+                _ek_temizle(dizin, 1)
+                return 1
+        # İkili türev (tarayıcının indirdiği .bin) de havuzla BİRLİKTE yazılır.
+        if HEDEFLER[HEDEF].get("ikili"):
+            hedef_ad = HEDEF
+            ik_kod = ikili_yaz(dizin)
+            hedef_sec(hedef_ad)
+            if ik_kod != 0:
+                print("  🔴 İKİLİ TÜREV YAZILAMADI — yazılanlar SİLİNİYOR.")
                 for y in (p_yol, u_yol):
                     os.remove(y)
                 _ek_temizle(dizin, 1)
@@ -1262,6 +1449,14 @@ if __name__ == "__main__":
         sys.exit(on_dilim(a[1], a[2] if len(a) == 3 else "1281-01-01"))
     if a[0] == "on-dilim-donem" and len(a) in (2, 3):
         sys.exit(on_dilim_donem(a[1], a[2] if len(a) == 3 else "1281-01-01"))
+    if a[0] == "ikili" and len(a) in (2, 3):
+        # ikili <dizin> [hedef] — hedef verilmezse "ikili" alanı olan hepsi
+        _kod = 0
+        for _ad in ([a[2]] if len(a) == 3 else
+                    [k for k, h in HEDEFLER.items() if h.get("ikili")]):
+            hedef_sec(_ad)
+            _kod = _kod or ikili_yaz(a[1])
+        sys.exit(_kod)
     if a[0] == "kapi" and len(a) == 2:
         _i, _s = kapi(a[1])
         for _x in _s:

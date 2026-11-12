@@ -161,21 +161,25 @@
   // Aynı iki çözücünün BİREBİR eşi, yalnız ~30 ms'lik dilimlerle ve aralarda ana
   // iş parçacığını bırakarak koşar. Biçim, sınavlar (artakalan bayt, eksi
   // kuyruğu) ve çıktı AYNI — b64Coz/havuzCoz değişirse bu da birlikte değişir.
-  function dilimliCoz(s, bitti, hata) {
-    var BUTCE = 30;
-    var simdi = function () { return kok.performance ? kok.performance.now() : Date.now(); };
-    // Dilimler arası geçiş MessageChannel ile: zincirleme setTimeout(0) 5. halkadan sonra
-    // 4 ms'ye, arka plan sekmesinde 1 sn'ye kısılır (ölçüldü: gizli sekmede çözüm bitmedi).
+  var BUTCE = 30;
+  function simdi() { return kok.performance ? kok.performance.now() : Date.now(); }
+  // Dilimler arası geçiş MessageChannel ile: zincirleme setTimeout(0) 5. halkadan sonra
+  // 4 ms'ye, arka plan sekmesinde 1 sn'ye kısılır (ölçüldü: gizli sekmede çözüm bitmedi).
+  function dilimSirasi(hata) {
     var kuyruk = [], kanal = null;
     if (typeof kok.MessageChannel === "function") {
       kanal = new kok.MessageChannel();
       kanal.port1.onmessage = function () { var f = kuyruk.shift(); if (f) f(); };
     }
-    var sonraki = function (f) {
+    return function (f) {
       var g = function () { try { f(); } catch (e) { hata(e); } };
       if (kanal) { kuyruk.push(g); kanal.port2.postMessage(0); }
       else kok.setTimeout(g, 0);
     };
+  }
+
+  function dilimliCoz(s, bitti, hata) {
+    var sonraki = dilimSirasi(hata);
     // 1) base64 → u8 (b64Coz ile aynı 4 MB'lık dilimler; dilim başına bir görev)
     var DILIM = 4 * 1024 * 1024;
     var uzunluk = (s.length / 4) * 3;
@@ -220,7 +224,65 @@
     sonraki(b64Adim);
   }
 
-  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz, yuvaCoz: yuvaCoz, dilimliCoz: dilimliCoz };
+  // ── İKİLİ TÜREV — `data/*_parcalar.bin` (12 Kasım 2026) ─────────────
+  // `arac/kodla.py ikili_yaz`ın BİREBİR karşılığı — biçim değişirse İKİSİ
+  // BİRLİKTE değişir. Aynı varint akışı, üç bölüme ayrılmış (halka sayıları ·
+  // x farkları · y farkları) ve gzip'li: telde devlet 41,2 → 9,7 MB, dönem
+  // 8,5 → 1,2 MB. Çözülen havuz `havuzCoz`unkiyle DEĞER DEĞER aynıdır.
+  //   SIHIR "ATLGEO2\0" (8) · sha256 ham (32) · 4×uint32 LE (S X Y E) · bölümler
+  var SIHIR_IKILI = [65, 84, 76, 71, 69, 79, 50, 0];
+  function ikiliCozucu(g) {
+    for (var m = 0; m < 8; m++) {
+      if (g[m] !== SIHIR_IKILI[m]) throw new Error("geo_coz ikili: sihir tutmuyor");
+    }
+    var sha = "";
+    for (var q = 8; q < 40; q++) sha += (g[q] < 16 ? "0" : "") + g[q].toString(16);
+    var dv = new DataView(g.buffer, g.byteOffset, g.byteLength);
+    var uS = dv.getUint32(40, true), uX = dv.getUint32(44, true),
+        uY = dv.getUint32(48, true), uE = dv.getUint32(52, true);
+    var s = 56, x = s + uS, y = x + uX, e = y + uY, son = e + uE;
+    if (son !== g.length) throw new Error("geo_coz ikili: uzunluk tutmuyor (" + (g.length - son) + ")");
+    var sBit = x, xBit = y, yBit = e;
+    // üç imleç; her biri kendi bölümünde zigzag varint okur (havuzCoz'daki v())
+    function oku(k) {
+      var z = 0, sh = 0, c;
+      do { c = g[ik[k]++]; z |= (c & 0x7F) << sh; sh += 7; } while (c & 0x80);
+      return (z & 1) ? -((z + 1) >>> 1) : (z >>> 1);
+    }
+    var ik = [s, x, y];
+    var nHalka = oku(0), havuz = new Array(nHalka), h = 0, nokta = noktaTablosu();
+    return {
+      sha: sha,
+      havuz: havuz,
+      // butce ms (Infinity = tek seferde) — bitince true
+      adim: function (butce, simdi) {
+        var t0 = simdi ? simdi() : 0;
+        while (h < nHalka) {
+          var n = oku(0), halka = new Array(n), px = 0, py = 0;
+          for (var p = 0; p < n; p++) {
+            px += oku(1); py += oku(2);
+            halka[p] = nokta(px, py);          // paylaşımlı, bölme — havuzCoz'daki gerekçe
+          }
+          havuz[h++] = halka;
+          if (simdi && (h & 255) === 0 && simdi() - t0 > butce) return false;
+        }
+        if (ik[0] !== sBit || ik[1] !== xBit || ik[2] !== yBit) {
+          throw new Error("geo_coz ikili: bölüm artığı S" + (sBit - ik[0]) +
+                          " X" + (xBit - ik[1]) + " Y" + (yBit - ik[2]));
+        }
+        nokta = null;
+        return true;                            // E (negatif sıfır kuyruğu) uygulanmaz — havuzCoz'daki gerekçe
+      }
+    };
+  }
+  function ikiliCoz(g) {                       // eşzamanlı (Node sınavı)
+    var c = ikiliCozucu(g);
+    c.adim(Infinity);
+    return c.havuz;
+  }
+
+  kok.geoCoz = { b64Coz: b64Coz, havuzCoz: havuzCoz, yuvaCoz: yuvaCoz, dilimliCoz: dilimliCoz,
+                 ikiliCozucu: ikiliCozucu, ikiliCoz: ikiliCoz };
 
   // ── OTOMATİK BAĞLAMA ───────────────────────────────────────────────
   // Her hedef bir satırlık base64 atar; bu dosya onu çözer ve app.js'in
@@ -282,23 +344,105 @@
   //   dönem : data/donem_parcalar.js  → PARCALAR        · kanca __donemYenile
   // Dönem katman 1'i (`donem_parca_on.js`, 25 Ekim 2026): açılış günü havuzun
   // %0,01'ini (1 halka) ister; 13,5 MB'lık tam havuz ilk boyamayı BEKLETMEZ.
+  // `ikili` + `damga` (12 Kasım 2026): önce `.bin` (4-7 kat küçük) istenir; başlığındaki
+  // sha katman 1'in damgasıyla (`__DP_ON_SHA` / `__PR_ON_SHA`, açılışta zaten yüklü)
+  // tutmazsa — yani `.bin` bayatsa — ya da tarayıcı gzip açamıyorsa `.js` yolu.
   var TAM_DEVLET = { dosya: "data/devlet_parcalar.js", b64: "__DP_B64",
+                     ikili: "data/devlet_parcalar.bin", damga: "__DP_ON_SHA",
                      kuresel: "DEVLET_PARCALAR", ms: "__DP_TAM_MS",
                      halka: "__DP_TAM_HALKA", hata: "__DP_TAM_HATA",
+                     yol: "__DP_TAM_YOL",
                      kanca: "__govdeYenile", ad: "devlet" };
   var TAM_DONEM  = { dosya: "data/donem_parcalar.js", b64: "__PR_B64",
+                     ikili: "data/donem_parcalar.bin", damga: "__PR_ON_SHA",
                      kuresel: "PARCALAR", ms: "__PR_TAM_MS",
                      halka: "__PR_TAM_HALKA", hata: "__PR_TAM_HATA",
+                     yol: "__PR_TAM_YOL",
                      kanca: "__donemYenile", ad: "dönem" };
+
+  // Tam havuz hazır — iki yolun (ikili / js) ORTAK bitişi.
+  function tamBitti(c, havuz, t, yol) {
+    kok[c.kuresel] = havuz;
+    kok[c.yol] = yol;
+    // *_TAM_MS = çözümün duvar saati (dilimler arası boşluk dâhil); ana iş
+    // parçacığı hiçbir dilimde ~30 ms'den uzun tutulmaz.
+    if (t) kok[c.ms] = Math.round(simdi() - t);
+    kok[c.halka] = havuz.length;
+    if (kok.console) console.log("geo_coz: tam havuz indi [" + c.ad + "] — " +
+        havuz.length + " halka, " + kok[c.ms] + " ms (dilimli, " + yol + ")");
+    // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
+    //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
+    if (typeof kok[c.kanca] === "function") kok[c.kanca]();
+    else {
+      kok[c.hata] = "app.js kancası (" + c.kanca + ") YOK";
+      if (kok.console) console.error("🔴 " + kok[c.hata]);
+    }
+  }
+
+  // gzip → ham (DecompressionStream). Sunucu `Content-Encoding` ekleyip
+  // tarayıcı zaten açtıysa sihir 1f 8b olmaz ⇒ olduğu gibi döner.
+  function gzipAc(u8) {
+    if (!(u8[0] === 0x1f && u8[1] === 0x8b)) return Promise.resolve(u8);
+    var akis = new kok.Blob([u8]).stream().pipeThrough(new kok.DecompressionStream("gzip"));
+    return new kok.Response(akis).arrayBuffer().then(function (b) { return new Uint8Array(b); });
+  }
+
+  function ikiliDestek(c) {
+    return !!(c.ikili && typeof kok[c.damga] === "string" && kok[c.damga].length === 64 &&
+              typeof kok.fetch === "function" && typeof kok.DecompressionStream === "function" &&
+              typeof kok.Response === "function" && typeof kok.Blob === "function");
+  }
+
+  // İKİLİ YOL. Ağ hatası ⇒ aynı aralıklarla yeniden (DENEME_ARA_MS); biçim /
+  // damga / çözüm hatası ⇒ hemen `.js` yolu (orada tekrar denemenin anlamı yok).
+  function ikiliGetir(c, deneme) {
+    var agHatasi = true;
+    kok.fetch(c.ikili + surumEki() + (deneme ? (kok.SURUM ? "&" : "?") + "d=" + deneme : ""))
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.arrayBuffer();
+      })
+      .then(function (buf) { agHatasi = false; return gzipAc(new Uint8Array(buf)); })
+      .then(function (g) {
+        var t = simdi();
+        var coz = ikiliCozucu(g);
+        if (coz.sha !== kok[c.damga]) {
+          throw new Error(c.ikili + " BAYAT: damga " + coz.sha.slice(0, 12) +
+                          " ≠ katman 1 " + String(kok[c.damga]).slice(0, 12));
+        }
+        g = null;
+        var bitti = false;
+        var sonraki = dilimSirasi(function (e) { jsYedek(e); });
+        (function adim() {
+          if (coz.adim(BUTCE, simdi)) { bitti = true; tamBitti(c, coz.havuz, t, "ikili"); }
+          else sonraki(adim);
+        })();
+        return bitti;
+      })
+      .catch(function (e) {
+        if (agHatasi && deneme < DENEME_ARA_MS.length) {
+          kok[c.hata + "_IKILI"] = String(e);
+          setTimeout(function () { ikiliGetir(c, deneme + 1); }, DENEME_ARA_MS[deneme]);
+          return;
+        }
+        jsYedek(e);
+      });
+    function jsYedek(e) {
+      kok[c.hata + "_IKILI"] = String(e);
+      if (kok.console) console.warn("geo_coz: ikili yol kullanılamadı [" + c.ad + "] — .js'e dönülüyor:", e);
+      tamHavuzuGetir(c, 0, true);
+    }
+  }
 
   // 🔴 YENİDEN DENEME (10 Kasım 2026): devlet_parcalar.js telde 40 MB; yavaş
   // hatta (ölçüldü: 62 KB/sn → 11 dk) tarayıcı indirmeyi yarıda kesip `onerror`
   // verdi ve sayfa ömür boyu katman 1'le kaldı — 1281 dışındaki her tarihte
   // Osmanlı dışı devletler BOŞ göründü. Artık 3 kez, artan arayla yeniden istenir.
   var DENEME_ARA_MS = [5000, 20000, 60000];
-  function tamHavuzuGetir(c, deneme) {
+  function tamHavuzuGetir(c, deneme, jsZorla) {
     c = c || TAM_DEVLET;
     deneme = deneme || 0;
+    if (!jsZorla && ikiliDestek(c)) { ikiliGetir(c, 0); return; }
     var s = kok.document.createElement("script");
     s.src = c.dosya + surumEki() + (deneme ? (kok.SURUM ? "&" : "?") + "d=" + deneme : "");
     s.async = true;
@@ -309,22 +453,7 @@
         if (kok.console) console.error("🔴 geo_coz tam havuz BAŞARISIZ [" + c.ad + "]:", e);
       }
       function bitti(havuz) {
-        try {
-          kok[c.kuresel] = havuz;
-          // *_TAM_MS = duvar saati (dilimler arası boşluk dâhil); ana iş parçacığı
-          // hiçbir dilimde ~30 ms'den uzun tutulmaz.
-          if (t) kok[c.ms] = Math.round(kok.performance.now() - t);
-          kok[c.halka] = kok[c.kuresel].length;
-          if (kok.console) console.log("geo_coz: tam havuz indi [" + c.ad + "] — " +
-              kok[c.kuresel].length + " halka, " + kok[c.ms] + " ms (dilimli)");
-          // 🔴 app.js'in kancası. YOKSA sessizce geçilmez: katman 1 ile kalmak
-          //    ileri tarihlerde EKSİK harita demektir, ve bu görünmez bir kusurdur.
-          if (typeof kok[c.kanca] === "function") kok[c.kanca]();
-          else {
-            kok[c.hata] = "app.js kancası (" + c.kanca + ") YOK";
-            if (kok.console) console.error("🔴 " + kok[c.hata]);
-          }
-        } catch (e) { hata(e); }
+        try { tamBitti(c, havuz, t, "js"); } catch (e) { hata(e); }
       }
       try {
         if (!kok[c.b64]) throw new Error(c.b64 + " gelmedi");
