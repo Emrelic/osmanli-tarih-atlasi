@@ -55,7 +55,7 @@
      "bayt": 120476
     }
    ],
-   "bayt": 1055328
+   "bayt": 944620
   },
   {
    "paket": "data/paket_02.js",
@@ -96,7 +96,7 @@
      "bayt": 45920
     }
    ],
-   "bayt": 266130
+   "bayt": 164439
   },
   {
    "paket": "data/paket_03.js",
@@ -117,7 +117,7 @@
      "bayt": 144318
     }
    ],
-   "bayt": 230678
+   "bayt": 200353
   },
   {
    "paket": "data/paket_04.js",
@@ -158,7 +158,7 @@
      "bayt": 32840
     }
    ],
-   "bayt": 120459
+   "bayt": 88047
   },
   {
    "paket": "data/paket_05.js",
@@ -210,7 +210,7 @@
      "bayt": 72741
     }
    ],
-   "bayt": 460041
+   "bayt": 405352
   },
   {
    "paket": "data/paket_07.js",
@@ -231,7 +231,7 @@
      "bayt": 94889
     }
    ],
-   "bayt": 279158
+   "bayt": 240706
   },
   {
    "paket": "data/paket_08.js",
@@ -252,7 +252,7 @@
      "bayt": 102646
     }
    ],
-   "bayt": 508440
+   "bayt": 463939
   },
   {
    "paket": "data/paket_09.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1204913
+   "bayt": 1112187
   },
   {
    "paket": "data/paket_10.js",
@@ -364,7 +364,7 @@
      "bayt": 58593
     }
    ],
-   "bayt": 123627
+   "bayt": 88403
   },
   {
    "paket": "data/paket_11.js",
@@ -405,7 +405,7 @@
      "bayt": 27250
     }
    ],
-   "bayt": 378970
+   "bayt": 325221
   },
   {
    "paket": "data/paket_12.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2139150
+   "bayt": 1935732
   },
   {
    "paket": "data/paket_13.js",
@@ -874,7 +874,7 @@
      "bayt": 29267
     }
    ],
-   "bayt": 240225
+   "bayt": 146063
   },
   {
    "paket": "data/paket_16.js",
@@ -1214,7 +1214,7 @@
      "bayt": 6855
     }
    ],
-   "bayt": 30519
+   "bayt": 17912
   },
   {
    "paket": "data/paket_26.js",
@@ -1345,7 +1345,7 @@
      "bayt": 42345
     }
    ],
-   "bayt": 354854
+   "bayt": 287963
   },
   {
    "paket": "data/paket_27.js",
@@ -1634,7 +1634,7 @@
      "bayt": 13985
     }
    ],
-   "bayt": 1096671
+   "bayt": 949791
   }
  ]
 }
