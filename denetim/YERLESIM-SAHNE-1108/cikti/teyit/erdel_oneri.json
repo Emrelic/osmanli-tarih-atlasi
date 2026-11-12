@@ -1,0 +1,669 @@
+{
+ "uretim": "2026-11-11 · salt araştırma önerisi, repo dosyasına dokunulmadı",
+ "uyari": "Bu dosya ÖNERİDİR. 'okundu/AÇILDI' yazan kaynaklar bu oturumda gerçekten açıldı; 'atlas alıntısı' yazanlar atlasın mevcut kaydından aktarılmıştır ve yeniden açılmadı. Britannica (403) açılamadı. Vikipedi dayanak sayılmadı.",
+ "kimlik_dogrulama": {
+  "devletler_js": {
+   "macaristan": "f 1000-01-01 t 1527-01-01 harita macaristan",
+   "dogu-macar-kralligi": "f 1526-08-29 t 1541-08-29",
+   "erdel": "f 1541-08-29 t 1711-04-29; tabi ust osmanli 1541-08-29→1699-01-26; harita yok (id)",
+   "macaristan-habsburg": "f 1526-12-17 t 1918-11-16 harita macaristan",
+   "habsburg": "f 1282-12-27 t 1918-11-12 harita avusturya",
+   "macaristan-naiplik": "f 1918-11-16 t 1946-02-01",
+   "romanya-kralligi": "f 1881-03-26 t 1947-12-30 harita romanya",
+   "romanya-halk": "f 1947-12-30 t 1989-12-22 harita romanya-kralligi",
+   "romanya-cumhuriyeti": "f 1989-12-22 harita romanya-kralligi",
+   "eflak": "f 1330 t 1859-02-05",
+   "bogdan": "f 1359 t 1859-02-05",
+   "romanya": "f 1859-02-05 t 1881-03-26"
+  },
+  "boyalar_py": "macaristan, dogu-macar-kralligi, erdel, macaristan-habsburg, habsburg, macaristan-naiplik, romanya-kralligi, eflak, bogdan, romanya: HEPSİ BOYALAR'da VAR. romanya-halk/romanya-cumhuriyeti BOYALAR'da yok ama harita:'romanya-kralligi' ile boyanır. romanya-kralligi BOYALAR'da VAR (renkler.py:2631) — görev metnindeki 'YOK' varsayımı yanlış."
+ },
+ "boya_anahtari_gerekli": [],
+ "ek_kimlik_onerisi": [
+  "'erdel-voyvodaligi' (1281-1526, Macar Krallığı içinde voyvodalık) devletler.js'te YOK; yeni künye + BOYALAR (tuz dosyası) gerektirir — ÖNERİLMEZ, macaristan altında kalır.",
+  "Erdel 1711-1867 için ayrı künye YOK: 'habsburg' kullanıldı; istenirse 'erdel-buyuk-prensligi' künyesi (1765 TDV) ayrı karar."
+ ],
+ "sehirler_mevcut": {
+  "Erdel (Kaloşvar)": {
+   "dosya": "data/yerlesimler.js:590",
+   "lat": 46.77,
+   "lon": 23.591,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [
+    {
+     "f": "1918-12-24",
+     "t": "1920-06-04",
+     "d": "romanya-kralligi",
+     "kaynak": "MEVCUT-KORUNUR (Irimieș, JRLS 42/2025; Radyo România 'Istorica'). ÇELİŞKİ: MTA III 439.html (AÇILDI) 'ertesi gün Romanya birlikleri Kolozsvár'a girdi' = 22 Aralık toplantısı + 1 = 23 Aralık 1918 (gün metinde açık değil, çıkarım); idari devir Ocak 1919 ortası, Governing Council ilk kararı 24 Ocak 1919."
+    }
+   ]
+  },
+  "Erdel Belgradı (Gyulafehérvár)": {
+   "dosya": "data/yerlesimler_ek29.js:75",
+   "lat": 46.0678,
+   "lon": 23.58,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [],
+   "isg_not": "Fiilî Romanya girişi günü: bulunamadı (MTA III 438.html yalnız 1 Aralık 1918 meclisi ve 24 Aralık heyeti verir). Alba Iulia 1 Aralık 1918 sahneyi isg için kullanma: şehir fiilen ne zaman devredildi kaynağı yok."
+  },
+  "Brassó (Braşov)": {
+   "dosya": "data/yerlesimler_ek29.js:91",
+   "lat": 45.6427,
+   "lon": 25.5887,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [
+    {
+     "f": "1918-12-01",
+     "t": "1920-06-04",
+     "d": "romanya-kralligi",
+     "kesinlik": {
+      "f": "ay"
+     },
+     "kaynak": "MEVCUT-KORUNUR (ay düzeyi; Adevărul + MVU: 7/10 Aralık 1918 çelişkisi)"
+    }
+   ]
+  },
+  "Segesvár (Sighişoara)": {
+   "dosya": "data/yerlesimler_ek29.js:97",
+   "lat": 46.2197,
+   "lon": 24.7925,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [],
+   "isg_not": "Şehre özgü fiilî devir günü: bulunamadı."
+  },
+  "Szászsebes (Sebeş)": {
+   "dosya": "data/yerlesimler_zincir64.js",
+   "lat": 45.95646,
+   "lon": 23.571,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [],
+   "isg_not": "Şehre özgü fiilî devir günü: bulunamadı. Mevcut kayıt zaten 1541-08-29 / 1551-07-26 / 1556-03-12 / dogu-macar-kralligi dilimlerini doğru kullanıyor; yalnız 1687-08-12→1699/1711 ve 1711→1867 kısmı değişir."
+  },
+  "Zilah (Zalău)": {
+   "dosya": "data/yerlesimler_ek_macaristan.js:346",
+   "lat": 47.1994,
+   "lon": 23.0572,
+   "s_oneri": [
+    {
+     "f": "1281-01-01",
+     "t": "1526-11-10",
+     "d": "macaristan",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Atlasın mevcut kaydı (Zapolya seçimi 10 Kasım 1526 = TDV suleyman-i alıntısı; bu oturumda yeniden açılmadı). TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı): Szapolyai 'Transilvanya Voyvodası' iken kral seçildi. Erdel Voyvodalığı için ayrı künye devletler.js'te YOK -> macaristan altında kalır."
+    },
+    {
+     "f": "1526-11-10",
+     "t": "1541-08-29",
+     "d": "dogu-macar-kralligi",
+     "durum": "DEĞİŞİR (şimdi v:vassal 'Zapolya', s: boş)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1541'de haraçgüzar voyvodalık oldu (öncesi Szapolyai krallığı). Künye dogu-macar-kralligi f=1526-08-29 t=1541-08-29 (devletler.js). Seçim günü 10 Kasım 1526 atlasın TDV suleyman-i alıntısından; bu oturumda tekrar teyit edilmedi. Günlü uç 1541-08-29: TDV yalnız YIL (1541) verir, gün künye/atlas kaydından."
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1551-07-26",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): '1541'de Erdel Osmanlılar'a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi'. Bitiş 26 Temmuz 1551: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html, AÇILDI): 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule' (İzabella feragat mektubu 19 Haziran, Szászsebes)."
+    },
+    {
+     "f": "1551-07-26",
+     "t": "1556-03-12",
+     "d": "macaristan-habsburg",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt I s.102 (102.html): Kolozsvár diyeti 26 Temmuz 1551. Bitiş: aynı sayfada Szászsebes diyeti '12 March' ile János Zsigmond'un seçimi (yıl 1556: atlasın mevcut kaydı + 103.html '1555-56 İzabella'nın dönüşü'); İzabella'nın Kolozsvár'a törenli girişi 22 Ekim (102.html)."
+    },
+    {
+     "f": "1556-03-12",
+     "t": "1711-04-29",
+     "d": "erdel",
+     "durum": "DEĞİŞİR (şimdi v:kid erdel 1556-03-12→1687-08-12 + s: macaristan-habsburg 1687-08-12→)",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 'Sonunda 1699 Karlofça Antlaşması ile Erdel Avusturya'ya terkedildi' (Osmanlı tâbiliği hukuken 26 Ocak 1699'da biter; Karlofça günü 26 Ocak 1699 = TDV karlofca-antlasmasi/amcazade-huseyin-pasa araması, bu oturumda AÇILDI ama Erdel cümlesi o maddede yok). Fiilî Habsburg himayesi: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt II s.247 (247.html, AÇILDI): Balázsfalva anlaşması (güz 1687, gün YOK), Fogaras Beyannamesi 9 Mayıs 1688 (Porte yerine I. Leopold'un üstünlüğü). Künye erdel t=1711-04-29 (devletler.js; Szatmár — bu oturumda teyit edilmedi). Mevcut 1687-08-12 (Mohaç II) Erdel'e özgü bir kaynakla desteklenmiyor. ARA: 1690-09-25 Thököly seçimi (MTA 248.html) modellenmedi."
+    },
+    {
+     "f": "1711-04-29",
+     "t": "1867-06-20",
+     "d": "habsburg",
+     "durum": "DEĞİŞİR (şimdi macaristan-habsburg) — TASARIM KARARI GEREKİR",
+     "kaynak": "TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1765 Maria Theresia 'büyük prenslik', 1849-1860 özel Avusturya idaresi, '1866'da tekrar Macaristan'a bağlandı'. TDV 'Macaristan' (Géza Dávid; islamansiklopedisi.org.tr/macaristan — bu oturumda açıldı) (özetleyiciyle, kısmi): 'Transilvanya ayrı birim olarak yönetildi'. Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.415 (415.html, AÇILDI): 'The 300-year long separate status of Transylvania thus came to an end'; 'On 20 June 1867, the Kolozsvár diet was dissolved by royal decree'; Act XLIII 1868 ile Gubernium görevleri içişleri bakanlığına geçti. ÇELİŞKİ: TDV Erdel 1866, MTA 20 Haziran 1867 -> öneri 1867-06-20 (Erdel'e özgü, gün hassasiyetli); alternatifler: 1867-06-08 (Franz Joseph'in Macar kralı olarak taç giymesi, habsburger.net AÇILDI), 1868 (Act XLIII). 1848-05-30 birleşme oyu (TDV Erdel) ve 1849-1860 modellenmedi."
+    },
+    {
+     "f": "1867-06-20",
+     "t": "1918-11-16",
+     "d": "macaristan-habsburg",
+     "durum": "DEĞİŞİR (şimdi 1687-08-12→1918-11-11/16)",
+     "kaynak": "Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III 415.html: Uzlaşma 1867 'restored the union'; TDV macaristan (atlasta alıntılı): 1867 uzlaşma. Bitiş 1918-11-16 = macaristan-habsburg künye t (devletler.js). Not: Kaloşvar/Zilah kaydında bitiş 1918-11-11 — künye ile 5 günlük fark, TEK değere indirilmesi önerilir."
+    },
+    {
+     "f": "1918-11-16",
+     "t": "1920-06-04",
+     "d": "macaristan-naiplik",
+     "durum": "MEVCUT-KORUNUR (F8: de jure devir antlaşma günü)",
+     "kaynak": "Atlas F8 kararı (Emre 5 Eki 2026). Fiilî Romanya işgali ayrı isg: dilimi (şehre göre). 1 Aralık 1918 Alba Iulia = siyasî ilan, devlet değişimi DEĞİL: Makkai-Szász-vd., History of Transylvania (MTA, mek.oszk.hu/03400/03407) cilt III s.438 (438.html, AÇILDI): '1228 delegates assembled at Gyulafehérvár' 1 Aralık 1918; Romanya fermanı 13 Aralık 1918 (kaynak 13 der; bilinen metin 11 Aralık — çelişki bu oturumda çözülmedi)."
+    },
+    {
+     "f": "1920-06-04",
+     "t": "1947-12-30",
+     "d": "romanya-kralligi",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (atlas alıntısı, bu oturumda açılmadı). TDV İslâm Ansiklopedisi 'Erdel' (Kemal Karpat, c.11, İstanbul 1995, s.280-283; islamansiklopedisi.org.tr/erdel — bu oturumda AÇILDI, gövde okundu): 1920 Trianon barış konferansı Romanya ile birleşmeyi onayladı; 10 Şubat 1947 antlaşması sınırı doğruladı. Britannica Trianon sayfası 403 verdi (AÇILAMADI)."
+    },
+    {
+     "f": "1947-12-30",
+     "t": "1989-12-22",
+     "d": "romanya-halk",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt (LoC Romania Country Study). Boya: harita:'romanya-kralligi'."
+    },
+    {
+     "f": "1989-12-22",
+     "t": "2000-12-31",
+     "d": "romanya-cumhuriyeti",
+     "durum": "MEVCUT-KORUNUR",
+     "kaynak": "Mevcut kayıt. Boya: harita:'romanya-kralligi'."
+    }
+   ],
+   "isg_oneri": [],
+   "isg_not": "Zilah: Partium/Közép-Szolnok kenarı; 1556-03-12 sonrası Erdel'e bağlılığı kaynak Szalai 2023 (Történelmi Szemle) ile 1671-72 için; 1556-1660 arası bağ ABİ MERKEZ Kaloşvar ile yaklaşık (BEYANLI)."
+  }
+ },
+ "eksik_sehirler": [
+  "Nagyszeben (Sibiu) atlasta yok (TDV sibin ölü slug); Banat/Partium şehirleri (Temeşvar, Lugos, Arad, Varad vb.) ayrı zincirlerde, bu önerinin dışında."
+ ],
+ "dusuk_guvenli_adaylar_arastirma_D": {
+  "Marosvásárhely (Târgu Mureş)": {
+   "karar": "girer",
+   "kosul": "Zincir 1281 yerine kuruluş tarihinden başlamalı; kuruluş (1332) kaynağı yalnız en.wikipedia ('citation needed') — AKADEMİK KAYNAK BULUNAMADI, bu oturumda aranmadı. Kuruluş kaynaklanmadan 1281 başlangıcı UYDURMA olur: ya akademik kuruluş kaynağı bulunur ya f=1332-01-01 'yalnız yıl, wiki' beyanıyla yazılır.",
+   "gerekce": "Székely bölgesinin merkezi; atlasta en yakın nokta Segesvár (~40 km) ve Gyulafehérvár; Székely toprağında petek boşluğunu kapatır. Çekirdek zincir aynen uygulanır (ABİ MERKEZ Segesvár; BEYANLI YAKLAŞIKLIK).",
+   "ek": "1940-08-30 Viyana Hakemliği ile Kuzey Erdel Macaristan'a geçti (TDV Erdel: 30 Ağustos 1940; 1944'te Macar kuvvetleri atıldı — GÜN BULUNAMADI): bu uç kaynaklanmadan zincire yazılmamalı."
+  },
+  "Beszterce (Bistriţa)": {
+   "karar": "girer",
+   "kosul": "Kuruluş/kaynak: yalnız en.wikipedia (1241 belge, 1330 kraliyet şehri) — akademik teyit bulunamadı; zincir 1281'de var olan şehir olduğu için başlangıç sorun değil.",
+   "gerekce": "Kuzey Erdel (Nösnerland) merkezi; atlasta komşu nokta yok (Zilah ~80 km, Segesvár ~75 km): büyük boşluk. Çekirdek zincir uygulanır. 1940-44 Macaristan dilimi aynı uyarıyla (gün bulunamadı).",
+   "ek": ""
+  },
+  "Medgyes (Mediaş)": {
+   "karar": "girer",
+   "kosul": "Kaynak: en.wikipedia (ilk belge 3 Haziran 1267) — akademik teyit yok; 1281 öncesi var olduğu için zincir başlangıcı uygun.",
+   "gerekce": "Sakson merkezi; Segesvár'a ~35 km; Nagyszeben (Sibiu) atlasta YOK — önce Sibiu eklenmeli (TDV sibin ölü slug, bkz. yerlesimler_ek_bosluk.js:21), Medgyes onun yanında Târnava boşluğunu kapatır.",
+   "ek": "Güney Erdel: 1940 Viyana Hakemliği dışında (Romanya'da kaldı)."
+  },
+  "Szászrégen (Reghin)": {
+   "karar": "girmez",
+   "kosul": "",
+   "gerekce": "Marosvásárhely'e ~28 km (Beszterce ~43 km); küçük kasaba, kendi başına bölge sahipliği taşımaz; araştırma notunda da 5. aday/düşük öncelik. Marosvásárhely+Beszterce girince petek farkı ihmal edilir. Kaynakları yalnız en.wikipedia (ilk anış 1228).",
+   "ek": ""
+  }
+ },
+ "kritik_tarihler": [
+  {
+   "olay": "Mohaç",
+   "tarih": "1526-08-29",
+   "kaynak": "devletler.js macaristan/dogu-macar-kralligi ic_not (TDV macaristan t); bu oturumda yeniden açılmadı",
+   "teyit": "atlas alıntısı"
+  },
+  {
+   "olay": "Szapolyai seçimi",
+   "tarih": "1526-11-10",
+   "kaynak": "TDV suleyman-i (atlas alıntısı)",
+   "teyit": "yeniden açılmadı"
+  },
+  {
+   "olay": "Erdel haraçgüzar voyvodalık",
+   "tarih": "1541 (gün 08-29 künye/atlas)",
+   "kaynak": "TDV erdel AÇILDI",
+   "teyit": "yıl teyitli, gün atlas kaydı"
+  },
+  {
+   "olay": "İzabella feragati (Kolozsvár diyeti)",
+   "tarih": "1551-07-26",
+   "kaynak": "MTA HoT I 102.html AÇILDI",
+   "teyit": "gün teyitli"
+  },
+  {
+   "olay": "Szászsebes diyeti, János Zsigmond seçimi",
+   "tarih": "1556-03-12",
+   "kaynak": "MTA HoT I 102.html AÇILDI (12 March; yıl bağlamdan)",
+   "teyit": "gün teyitli"
+  },
+  {
+   "olay": "Speyer",
+   "tarih": "1570-08-16 (atlas kronolojisi)",
+   "kaynak": "MTA 104.html AÇILDI: antlaşma var, tarih vermiyor; 103.html: 10 Mart 1571 Maximilian ratifikasyon",
+   "teyit": "BULUNAMADI (gün bağımsız kaynakla teyitsiz); zincire etkisi yok (yalnız unvan: TDV erdel Speyer'i anmaz)"
+  },
+  {
+   "olay": "Balázsfalva / Fogaras",
+   "tarih": "1687 güz (gün yok) / 1688-05-09",
+   "kaynak": "MTA HoT II 247.html AÇILDI",
+   "teyit": "Fogaras gün teyitli"
+  },
+  {
+   "olay": "Karlofça",
+   "tarih": "1699-01-26",
+   "kaynak": "TDV (Amcazade Hüseyin Paşa aracılığıyla; Erdel cümlesi TDV erdel'de)",
+   "teyit": "gün TDV, Erdel terki TDV erdel"
+  },
+  {
+   "olay": "Kolozsvár diyeti feshi / Uzlaşma",
+   "tarih": "1867-06-20",
+   "kaynak": "MTA HoT III 415.html AÇILDI; taç giyme 1867-06-08 habsburger.net AÇILDI",
+   "teyit": "gün teyitli; TDV Erdel 1866 der (çelişki)"
+  },
+  {
+   "olay": "Alba Iulia meclisi",
+   "tarih": "1918-12-01",
+   "kaynak": "MTA HoT III 438.html AÇILDI",
+   "teyit": "gün teyitli; devlet değişimi değil"
+  },
+  {
+   "olay": "Trianon",
+   "tarih": "1920-06-04",
+   "kaynak": "TDV birinci-dunya-savasi (atlas alıntısı) + TDV Erdel: 1920 onay",
+   "teyit": "gün atlas alıntısı; Britannica açılamadı"
+  },
+  {
+   "olay": "Viyana Hakemliği (Kuzey Erdel)",
+   "tarih": "1940-08-30",
+   "kaynak": "TDV erdel AÇILDI",
+   "teyit": "başlangıç günü teyitli; 1944 sonu YIL (gün BULUNAMADI)"
+  }
+ ],
+ "riskler": [
+  "TDV Erdel (1866) ve MTA (1867-06-20) çelişir: gün seçimi iç not ister.",
+  "1711-04-29 künye ucu ve 1699'dan sonra Erdel'in 'prenslik' sayılması bu oturumda ikinci kaynakla teyit edilmedi.",
+  "s: d:'erdel' yazılırsa mevcut v:kid erdel dilimleri çift sayılır; v: dilimleri kaldırılmalı ya da motorun vassal-ic-sinir davranışı sınanmalı (ek29 notu).",
+  "Değişmez 2: 1699-01-26, 1711-04-29, 1867-06-20 için ±30 gün kronoloji maddesi gerekir (bu oturumda taranmadı).",
+  "macaristan-habsburg künye t=1918-11-16 iken Kaloşvar/Zilah 1918-11-11 yazıyor: künye aşımı."
+ ]
+}
