@@ -44,6 +44,27 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   `push_kapisi.py --kuru` → `push_kapisi.py`. Ayrıca elle `denetle`/`denetle_yayin` koşma;
   kapı aynı ağaçta temiz geçmiş denetimi 6 saat önbellekten sayar (kuru → gerçek tur 15-25 dk
   kazanır). Koşu 31: bitiş 05:13 → iniş 12:50 → push ~16:00 (denetim 5 kez koştu).
+  🆕 **TAM İNİŞ SIRASI — Koşu 36'da doğrulandı** (12 Kasım 2026; kapı ilk kuruda `denetle_yayin` 1 verdi,
+  iki adım listede yoktu). Her adım çıkış 0 vermeden sonrakine geçilmez:
+  ① `kodla.py yay data/devletler_harita.js data devlet` · `yay donemler.js data donem` (kapısız yazım,
+  bayat `donem_parca_on.js` kendi çıktısını siler) · `kodla.py on-dilim-donem data` ·
+  `kodla.py on-dilim data` **(devlet katman 1 — `devlet_parca_on.js`; eksikse kapı "KODLAMA KAPISI —
+  devlet_parca_on.js BAYAT" verir)** · `yay petek_govde.js data govde` · `yay ufuk_bantlari.js data bant`
+  ② `coz-c` ×2 (devletler_harita.js, donemler.js `donem`) — yay'ların HEPSİ çıkış 0 verdikten sonra
+  ③ `uret_devirler.py` · `uret_bolge_pencere.py` · `renk_olc.py` · `uret_altlik.py`
+  ④ **`uret_bekleyenler.py`** (`BEKLEYENLER.md` koşudan beri değiştiyse `bekleyenler.js` bayatlar ve
+  kapı "üretim izi ✗" verir; `main`de `e6e71892c` aynı bayatlığı düzeltmişti) · `paketle.py yenile` ·
+  `surum_damgala.py` · `data/kosu_damga.js` (elle: no, tarih, commit/temel, süre)
+  ⑤ dosyaları ADIYLA commit → `push_kapisi.py --kuru --autostash --uretilen-onay "<KOŞU N>"` → gerçek tur.
+  **Rebase çatışması:** koşu taban commit'inden sonra `main` ilerlediyse `altlik.js`, `paket_kunye.json`,
+  `index.html` çatışır (yalnız iz/damga). Kapı çıkış 4 verince: `git rebase --autostash origin/main`,
+  `index.html` + `paket_kunye.json` için `checkout --ours`, `altlik.js` için `checkout --theirs`,
+  `rebase --continue`, sonra `uret_altlik` + `uret_bekleyenler` + `paketle yenile` + `surum_damgala`
+  yeniden koş, `commit --amend`, kuru kapıyı tekrarla.
+  🔴 **Kesilen koşuyu `MOTOR_DEVAM=1` ile sürdürmeden ÖNCE `_petek_devam/<iz>/*.pkl` dosyalarını tek tek
+  yükle** (`pickle.load`): kesilişte yarım yazılan dosya sıfırla dolu kalır ve koşu, gövdeyi bitirip
+  okuma aşamasına gelince `UnpicklingError` ile ölür (Koşu 36: `s_00483.pkl`, 5 saat boşa gitti).
+  Bozuk dosyayı kenara al (silme), koşuyu aynı tabanla yeniden başlat.
 - 🔴 **KOŞU BAYRAKLARI ZORUNLU** (yoksa koşu çıkış 0 ile "biter" ama EKSİKTİR): `MOTOR_YURUYUS=1
   MOTOR_YURUYUS_SAAT=40 MOTOR_UFUK_BANT=40,56,80 MOTOR_COL_UFUK_SAAT=0 MOTOR_SUREC_ISCI=2
   MOTOR_DEVAM=1 MOTOR_SINIR_KISIT=1 MOTOR_COL_GIRINTI_KAPALI=1`
