@@ -4027,8 +4027,6 @@ BILINEN_AYRI = {
      "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
     ("Tacikistan Yüksek Sovyeti bağımsızlığını ilan etti; Hucend, Horog ve Pamir bölgesi Tacikistan Cumhuriyeti adına SSCB'den ayrıldı",
      "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
-    ("SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodno) Sovyet egemenliğinden çıkıp bağımsız Belarus'a kaldı",
-     "SSCB'nin dağılması: Ukrayna (Lvov, Kovel, Lutsk, Rivne, Volodymyr-Volynskyi, Yazlofça) bağımsız Ukrayna'ya kaldı"),
     ("Çekoslovakya'nın dağılması: Moravya (Olomouc, Brno, Jeseník) Çek Cumhuriyeti'ne kaldı",
      "Çekoslovakya'nın dağılması: Bratislava, Kassa (Košice), Eperjes, Nitra, Komárno, Uyvar dahil Slovak toprakları bağımsız Slovakya'ya geçti"),
     # ⭐ "AYNI ŞEHİR / AYNI FİİL / AYNI GÜN" — 5 Ekim 2026, KASA-POLONYA-1005.
