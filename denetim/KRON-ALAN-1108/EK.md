@@ -1,0 +1,3 @@
+
+## EK (9 Kasım) — çift puanlayıcı denemesi
+Aynı 100 etiketli madde iki bağımsız Sonnet puanlayıcıyla kör puanlandı (ikincisi sondan başa). Puanlayıcılar birbiriyle uyuştu: onem 79/100, dunya 86/100. Ama UYUŞTUKLARI maddelerde etiketli gerçek değerle tam uyum onem %44, dunya %55 (±1: %89 / %100) — iki puanlayıcının uyuşması doğruluğu artırmıyor. Yani hata puanlayıcı gürültüsü değil, mevcut etiketlerin dosya başına farklı ölçek kullanması. ≥%90 koşulu sağlanmadığı için onem/dunya YAZILMADI; yaklaşık 6M token harcayıp 3.020 maddeyi puanlamak kanıtlanmış biçimde fayda getirmiyor. Çıkış yolu: Emre'nin tek ölçek kararı (ör. dosya başı kalibrasyon tablosu) ya da boş maddelerin "puansız" kalması (uygulama zaten puansız kutusuyla gösteriyor).
