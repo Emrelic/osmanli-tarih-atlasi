@@ -73,14 +73,15 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # çar ilanı 1682, Üç İmparator Ligi 1881, Fransız-Rus İttifakı 1894) + 1 arayüz gün kalıbı. Çeviri işleri
 # Emre'nin 4 Kasım kararıyla bekliyor. Eski değerler (arayüz/olay): en 16/296, ar 16/296, es 16/296, de 16/296, pt 16/1413, ru 16/3510, fr 16/4410.
 # 13 Kasım 2026 (POSTIT-156, oturum-397a34): tavan AÇILDI (Emre 1 Kasım kararı: önce ölç, aç, raporla) — Lugos kronoloji maddesinin Türkçe metni değişti (1716-10-13 -> 18, olaylar_senusi_0919.js): çevrilmiş dillerde (en/ar/es/de/pt) eski metin yetim, yeni metin eksik: olay +1. arayüz eksik 17 -> 18 ise taban main'den geliyor (bu dalın değiştirmediği bir dizge). Eski değerler: arayüz 17; olay en/ar/es/de 299, pt 1416.
+# 13 Kasım 2026 (KASA UMIT gece partisi, oturum-009bcc): tavan AÇILDI (Emre 1 Kasım kararı) — UMIT B/B2 kronoloji maddeleri: Kırım 1954-02-19, RSFSR 1990-06-12, Alma-Ata 1991-12-21, SSCB sonu 1991-12-25/26 yeniden yazımı, Fransa Troyes/Arras/Pireneler/Basel, Hîve 1740, Estergon 1683, Ryswick 1697: her dilde olay eksik +7. Çeviri işleri Emre'nin 4 Kasım kararıyla bekliyor. Eski değerler: olay en/ar/es/de 300, pt 1417, ru 3513, fr 4413.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 18, "devlet": 1, "olay": 300},
-    "ar": {"arayuz": 18, "devlet": 1, "olay": 300},
-    "es": {"arayuz": 18, "devlet": 1, "olay": 300},
-    "de": {"arayuz": 18, "devlet": 1, "olay": 300},
-    "pt": {"arayuz": 18, "devlet": 1, "olay": 1417},
-    "ru": {"arayuz": 18, "devlet": 1, "olay": 3513},
-    "fr": {"arayuz": 18, "devlet": 1, "olay": 4413},
+    "en": {"arayuz": 18, "devlet": 1, "olay": 307},
+    "ar": {"arayuz": 18, "devlet": 1, "olay": 307},
+    "es": {"arayuz": 18, "devlet": 1, "olay": 307},
+    "de": {"arayuz": 18, "devlet": 1, "olay": 307},
+    "pt": {"arayuz": 18, "devlet": 1, "olay": 1424},
+    "ru": {"arayuz": 18, "devlet": 1, "olay": 3520},
+    "fr": {"arayuz": 18, "devlet": 1, "olay": 4420},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
