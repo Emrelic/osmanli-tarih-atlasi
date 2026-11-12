@@ -29,7 +29,7 @@
 window.OLAYLAR_P0055 = [
 
 // ── ① 1371 · Dejanoviç Prensliği Osmanlı vasalı ─────────────────────────
-{ tur:"vassal", t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"vassal", t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu",
   gun:"1371 — Meriç (Çirmen) Savaşı'nın ardından; kaynak gün vermiyor",
   yer:"Köstendil (Velbujd), Ustrumca, İştip, Doyran, Köprülü (Veles)", yer_id:"Ustrumca (Strumica)",
@@ -40,7 +40,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"kostendil · ustrumca · doyran · koprulu", duygu:["📋"] },
 
 // ── ② 1412 · Şehirköy Sırp Despotluğu'na geçti ──────────────────────────
-{ t:"1412-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1412-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Sırp Despotu Stefan Lazareviç Şehirköy'ü (Pirot) aldı",
   gun:"1412 — kaynak gün vermiyor",
   yer:"Şehirköy (Pirot)", yer_id:"Şehirköy (Pirot)",
@@ -51,7 +51,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"sehirkoy · musa-celebi · nis", duygu:["⚔️"] },
 
 // ── ③a 1538 · Herseknovi (Castelnuovo) zaptedildi ───────────────────────
-{ t:"1538-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1538-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Herseknovi (Castelnuovo) Andrea Doria tarafından zaptedildi",
   gun:"1538 — kaynak ay ve gün vermiyor",
   yer:"Herseknovi (Nova / Castelnuovo, bugünkü Herceg Novi)", yer_id:"Herseknovi (Herceg Novi)",
@@ -62,7 +62,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"dalmacya · barbaros-hayreddin-pasa", duygu:["⚔️"] },
 
 // ── ③b 10 Ağustos 1539 · Herseknovi geri alındı ─────────────────────────
-{ t:"1539-08-10", kesinlik:"gun", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1539-08-10", kesinlik:"gun", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Herseknovi'nin (Castelnuovo) Barbaros Hayreddin Paşa tarafından geri alınması",
   gun:"10 Ağustos 1539",
   yer:"Herseknovi (Nova / Castelnuovo)", yer_id:"Herseknovi (Herceg Novi)",
@@ -72,7 +72,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"barbaros-hayreddin-pasa · dalmacya", duygu:["🎉"] },
 
 // ── ④ YAMA-TRAKYA-0914 MT-6 · 1369 · Timurtaş Tunca vadisi (UYGULA 16 Eylül 2026) ──
-{ t:"1369-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1369-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Timurtaş Bey Tunca vadisinde Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı",
   gun:"1369 — kaynak «herhalde 1369 bahar ve yazı» diyor",
   yer:"Elhova (Kızılcaağaç Yenicesi), Yanbolu", yer_id:"Elhova (Elhovo)",
@@ -87,7 +87,7 @@ window.OLAYLAR_P0055 = [
 //    maddeler bu dosyaya yazıldı (başka madde dosyası yetkisi yok).
 //    Kaynak yama: denetim/YAMA-ARAP-0914.json ARAP-N1 (M4 · M4b).
 // ═════════════════════════════════════════════════════════════════════
-{ tur:"savas", t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Desaix'nin Yukarı Mısır seferi — Fransız tümeni Minye, Asyut ve Girga'ya ulaştı",
   gun:"21 Aralık (Minye) · 25 Aralık (Asyut) · 29 Aralık 1798 (Girga)",
   yer:"Minye, Asyut, Girga", yer_id:"Asyut",
@@ -96,7 +96,7 @@ window.OLAYLAR_P0055 = [
   ic_not_d:"SIRADA-C / AKDENIZ-ARAP-0082 H-0058: Asyut'un işgali haritada 1798-07-01 görünüyordu (kaynaksız); kaynaklı gün Noel 1798. Bu madde Minye (12-21) · Asyut (12-25) · Girga (12-29) isg: kırılmalarının Değişmez 2i bağıdır.",
   kaynak:"Jacques Juillet, Revue du Souvenir Napoléonien 363, s. 2-13 (napoleon.org, Desaix): «Le jour de Noël 1798, la division arrive à Siout» · «Desaix parvient le 29 décembre à Girgeh» · Hourtoulle, napoleon.org «La campagne d'Égypte»: «Le 21 décembre, il atteint Minieh»", duygu:["😔"] },
 
-{ t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı",
   gun:"18 Şubat 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",
@@ -104,7 +104,7 @@ window.OLAYLAR_P0055 = [
   d:"Mısır'ı işgal eden Fransız ordusu Suriye'ye yürürken Sina kıyısındaki Arîş'i ele geçirdi.",
   kaynak:"aris", duygu:["😔"] },
 
-{ tur:"savas", t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
   b:"Arîş'in Fransızlardan geri alınması",
   gun:"28 Aralık 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",

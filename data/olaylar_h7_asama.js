@@ -22,7 +22,7 @@
 window.OLAYLAR_H7_ASAMA = [
 
 // ── 1551-1562 Habsburg savaşı: ⑤ ─────────────────────────────────────────
-{ tur:"antlasma", kapsam:"ic", t:"1562-05-05", kesinlik:"ay", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1562-05-05", kesinlik:"ay", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Habsburglarla barışın yenilenmesi — Erdel ve Temeşvar savaşının sonu",
   gun:"Ramazan 969 (Mayıs 1562) — gün kaynakta yok",
   ic_not_gun:"Hicrî kural: Ramazan 969 = Jülyen 5 Mayıs - 3 Haziran 1562; kaynağın ayı Mayıs 1562; kesişimin ilk günü 1562-05-05 (TDV bu dönemde Jülyen verir: suleyman-i '11 Şevval 973 (1 Mayıs 1566)' Jülyen'dir). Barışın imza günü TDV'de yok.",
@@ -32,7 +32,7 @@ window.OLAYLAR_H7_ASAMA = [
   kaynak:"suleyman-i (TDV)", duygu:["🤝"] },
 
 // ── 1565-1568 Habsburg savaşı: ①+② ve ⑤ ──────────────────────────────────
-{ kapsam:"ic", t:"1566-05-01", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"ic", t:"1566-05-01", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Kanunî'nin son seferi — Sigetvar ve Eğri hedefiyle İstanbul'dan çıkış",
   gun:"11 Şevval 973 (1 Mayıs 1566)",
   yer:"İstanbul → Edirne → Belgrad", yer_id:"İstanbul", kisiler:"Kanunî Sultan Süleyman, Sokullu Mehmed Paşa",
@@ -40,7 +40,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV suleyman-i: 'Hedef Sigetvar ve Eğri kaleleri olacak, ayrıca imparatora gözdağı verilecekti ... 11 Şevval 973’te (1 Mayıs 1566) büyük törenlerle at üzerinde olduğu halde başşehirden ayrıldı. 15 Mayıs’ta Edirne’ye vardı' · '1564’te İmparator Ferdinand ölüp yerine II. Maximilian geçince Erdel olayları arttı'",
   kaynak:"suleyman-i (TDV)", duygu:["⚔️"] },
 
-{ tur:"antlasma", kapsam:"ic", t:"1568-02-17", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1568-02-17", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Edirne Antlaşması — Habsburglarla savaş durumunun sonu",
   gun:"17 Şubat 1568",
   yer:"Edirne", yer_id:"Edirne", kisiler:"II. Selim, Sokullu Mehmed Paşa, II. Maximilian",
@@ -49,7 +49,7 @@ window.OLAYLAR_H7_ASAMA = [
   kaynak:"selim-ii (TDV)", duygu:["🤝"] },
 
 // ── 1603-1612 İran savaşı: ③ ─────────────────────────────────────────────
-{ kapsam:"ic", t:"1604-06-15", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1604-06-15", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Cigalazâde Sinan Paşa İran seferine çıktı",
   gun:"15 Haziran 1604",
   yer:"İstanbul → Kars", yer_id:"Kars", kisiler:"Cigalazâde Sinan Paşa, I. Ahmed, Şah I. Abbas",
@@ -57,7 +57,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV ahmed-i: 'Sinan Paşa 15 Haziran 1604’te İstanbul’dan gecikmiş olarak hareket etti ve 8 Kasım’da Kars önlerine vardı.' · TDV cigalazade-sinan-pasa: '1604’te I. Ahmed tarafından yeniden İran seferiyle görevlendirildi'",
   kaynak:"ahmed-i (TDV) · cigalazade-sinan-pasa (TDV)", duygu:["⚔️"] },
 
-{ tur:"savas", kapsam:"ic", t:"1605-11-06", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1605-11-06", k:"savas", etiket:["savas","konu-askeri"],
   b:"Cigalazâde Sinan Paşa'nın Urmiye gölü yakınında (Sûfiyân) bozgunu",
   gun:"1605 sefer mevsimi — gün komşudan: kronoloji_safevi.js 1605-11-06 'Sufiyan Muharebesi' (kendi kaynağı: Cambridge History of Iran, c. 6)",
   ic_not_gun:"TDV ahmed-i ve cigalazade-sinan-pasa yalnız '1605' der; gün TDV'de yok. Gün, aynı olayı tarihleyen komşu kayıttan (kronoloji_safevi.js, Cambridge History of Iran c.6) alındı — o kaydın günü kendi kaynağına dayanıyor; zincirleme devralma yok. TDV cigalazade-sinan-pasa: kaynaklardaki 'Kasım 1605' ölüm tarihi doğrulanmıyor, ölüm 1606 Şubatı başı.",
@@ -66,7 +66,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV ahmed-i: '1605 sefer mevsiminde tekrar ordunun başında hareket eden Sinan Paşa Tebriz’i geri almak üzere yürüdü. Ancak Erzurum Beylerbeyi Köse Sefer Paşa’nın esas ordudan ayrı hareket edip esir düşmesi ... ordu Şah Abbas’ın âni baskını üzerine mağlûp olarak Van’a, sonra da Diyarbekir’e çekildi.' · TDV cigalazade-sinan-pasa: Urmiye gölü civarında ağır yenilgi.",
   kaynak:"ahmed-i (TDV) · cigalazade-sinan-pasa (TDV)", duygu:["😔"] },
 
-{ kapsam:"ic", t:"1610-03-26", kesinlik:"yil", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1610-03-26", kesinlik:"yil", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Kuyucu Murad Paşa'nın Tebriz seferi — Acıçay'da karşılaşma olmadı",
   gun:"1019 (1610) — ay ve gün kaynakta yok",
   ic_not_gun:"Hicrî kural: 1019 = 26 Mart 1610 - 14 Mart 1611 (Gregoryen); kaynağın mîlâdî yılı 1610; kesişimin ilk günü 1610-03-26. Seferin çıkış ve Tebriz'e varış günü TDV'de yok.",
@@ -76,7 +76,7 @@ window.OLAYLAR_H7_ASAMA = [
   kaynak:"ahmed-i (TDV) · kuyucu-murad-pasa (TDV)", duygu:["⚔️"] },
 
 // ── 1615-1618 İran savaşı: ①+②, ③ ─────────────────────────────────────────
-{ tur:"savas", kapsam:"ic", t:"1615-04-23", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1615-04-23", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Osmanlı-Safevî savaşı yeniden başladı — Sadrazam Öküz Mehmed Paşa Şark seferine çıktı",
   gun:"23 Rebîülevvel 1024 (23 Nisan 1615)",
   yer:"Üsküdar", yer_id:"Üsküdar", kisiler:"Öküz (Damad) Mehmed Paşa, I. Ahmed, Şah I. Abbas",
@@ -84,7 +84,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV mehmed-pasa-damad: 'İran’a elçi olarak gönderilen İncili Mustafa Çavuş’tan bir haber gelmeyince Şark seferine çıkmakla görevlendirilen Mehmed Paşa, gerekli hazırlıkları tamamladıktan sonra 23 Rebîülevvel 1024’te (23 Nisan 1615) Üsküdar’a geçti ... sefer ertelenmedi.'",
   kaynak:"mehmed-pasa-damad (TDV)", duygu:["⚔️"] },
 
-{ tur:"kusatma", kapsam:"ic", t:"1616-09-12", kesinlik:"ay", k:"kusatma", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kusatma", kapsam:"ic", t:"1616-09-12", kesinlik:"ay", k:"kusatma", etiket:["savas","konu-askeri"],
   b:"Revan kuşatması — elli beş gün sonra sonuçsuz kaldırıldı",
   gun:"Ramazan 1025 (Eylül 1616) — orduların Revan önüne varışı; gün kaynakta yok",
   ic_not_gun:"Hicrî kural: Ramazan 1025 = 12 Eylül - 11 Ekim 1616 (Gregoryen); kaynağın ayı Eylül 1616; kesişimin ilk günü 1616-09-12.",
@@ -93,7 +93,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV mehmed-pasa-damad: 'Erzurum-Kars yoluyla Revan önlerine ulaştı (Ramazan 1025 / Eylül 1616)' · 'Elli beş gün süren Revan muhasarası esnasında büyük zorluk çekildi' · TDV ahmed-i: 'Nisan 1616’da Halep’ten büyük bir orduyla hareket eden Mehmed Paşa ... Revan’ı kuşattı'",
   kaynak:"mehmed-pasa-damad (TDV) · ahmed-i (TDV)", duygu:["😔"] },
 
-{ tur:"savas", kapsam:"ic", t:"1618-09-10", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1618-09-10", k:"savas", etiket:["savas","konu-askeri"],
   b:"Serav (Pul-i Şikeste) bozgunu — Halil Paşa'nın İran seferi",
   gun:"10 Eylül 1618",
   yer:"Tebriz-Erdebil arası, Pul-i Şikeste", yer_id:"Erdebil", kisiler:"Halil Paşa, Dilâver Paşa, Şah I. Abbas",
@@ -102,7 +102,7 @@ window.OLAYLAR_H7_ASAMA = [
   kaynak:"dilaver-pasa (TDV)", duygu:["😔"] },
 
 // ── 1730-1736 İran savaşı: ③ ─────────────────────────────────────────────
-{ tur:"savas", kapsam:"ic", t:"1733-07-19", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1733-07-19", k:"savas", etiket:["savas","konu-askeri"],
   b:"Topal Osman Paşa Nâdir'i Dücum'da yendi — Bağdat kuşatması kalktı",
   gun:"19 Temmuz 1733",
   ic_not_gun:"TDV topal-osman-pasa--sadrazam savaşı 19 Temmuz 1733'e koyar; TDV nadir-sah--iran Nâdir'in yaralı olarak Hemedan'a dönüşünü '7 Safer 1146 / 20 Temmuz 1733' diye verir — savaşın günü sadrazamın kendi maddesinden alındı.",
@@ -112,7 +112,7 @@ window.OLAYLAR_H7_ASAMA = [
   kaynak:"topal-osman-pasa--sadrazam (TDV) · nadir-sah--iran (TDV)", duygu:["🎉"] },
 
 // ── 1743-1746 İran savaşı: ①+②, ③ ─────────────────────────────────────────
-{ tur:"savas", kapsam:"ic", t:"1743-02-25", kesinlik:"yil", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1743-02-25", kesinlik:"yil", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Nâdir Şah'ın Irak seferi — son Osmanlı-İran savaşı başladı, Kerkük düştü",
   gun:"1156 (1743) — ay ve gün kaynakta yok",
   ic_not_gun:"Hicrî kural: 1156 = 25 Şubat 1743 - 14 Şubat 1744 (Gregoryen); kaynağın yılı 1743; kesişimin ilk günü 1743-02-25. Kerkük'ün düşüş günü TDV'de yok; Musul kuşatması 8 Şâban 1156 / 27 Eylül 1743 (ayrı madde, olaylar_ek5.js 1743-10-23).",
@@ -121,7 +121,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV nadir-sah--iran: 'on sekiz ay kadar bölgede kaldıktan sonra 1156’da (1743) Osmanlılar’a karşı yeni bir sefer başlatıp 400.000 kadar olduğu rivayet edilen ordusuyla Kerkük’e girdi. Ancak aynı başarıyı Musul’da gösteremedi. 8 Şâban 1156’da (27 Eylül 1743) başlattığı kuşatmayı bir hafta sonra kaldırmak mecburiyetinde kaldı.' · Caferî mezhebi isteği ve reddi aynı maddede.",
   kaynak:"nadir-sah--iran (TDV)", duygu:["⚔️"] },
 
-{ tur:"kusatma", kapsam:"ic", t:"1744-07-29", k:"kusatma", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kusatma", kapsam:"ic", t:"1744-07-29", k:"kusatma", etiket:["savas","konu-askeri"],
   b:"Nâdir Şah'ın Kars kuşatması — iki ay sürdü, sonuç alamadı",
   gun:"18 Cemâziyelâhir 1157 (29 Temmuz 1744)",
   yer:"Kars", yer_id:"Kars", kisiler:"Nâdir Şah, Şehzade Sâfî Mirza",
@@ -129,7 +129,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV nadir-sah--iran: 'Nâdir Şah bu gelişmeler üzerine Kars’a yürüyüp kaleyi kuşattı (18 Cemâziyelâhir 1157 / 29 Temmuz 1744). İki ay süren bu kuşatmadan bir sonuç alamadı.'",
   kaynak:"nadir-sah--iran (TDV)", duygu:["🏰"] },
 
-{ tur:"savas", kapsam:"ic", t:"1745-08-21", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1745-08-21", k:"savas", etiket:["savas","konu-askeri"],
   b:"Kağaverd bozgunu — Yeğen Mehmed Paşa'nın ordusu dağıldı",
   gun:"23 Receb 1158 (21 Ağustos 1745)",
   yer:"Kağaverd mevkii", yer_id:"Kars", ic_not_yer:"TDV mevkiin yerini tarif etmiyor; yer_id kampanyanın merkezi Kars'tır (kuşatma 1744), savaş alanı değildir.", kisiler:"Yeğen Mehmed Paşa, Nâdir Şah",
@@ -140,7 +140,7 @@ window.OLAYLAR_H7_ASAMA = [
 // İnebahtı'nın Venedik dönemi 1715'e uzatılmıştı; TDV inebahti Venediklilerin
 // kaleyi 'Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar' tuttuğunu
 // yazar. Kırılma 1715-07-01'den 1700-01-01'e (yıl) çekildi; bu madde onu taşır.
-{ kapsam:"ic", t:"1700-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1700-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","antlasma","konu-askeri","konu-diplomasi"],
   b:"İnebahtı Karlofça gereği Osmanlı'ya geri verildi",
   gun:"1700 — TDV 'Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar' der; ay ve gün kaynakta yok",
   ic_not_gun:"KUTU-H7-1015: yıl temsilî (YYYY-01-01) yazıldı; teslimin günü TDV'de yok. Önceki kayıt Venedik dönemini 1715-07-01'e (Mora'nın geri alınışı) kadar uzatıyordu — İnebahtı Mora'da değil, körfezin kuzey kıyısındadır.",
@@ -149,7 +149,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV inebahti: '1683-1699 savaşları sırasında İnebahtı, uzun süre saldırılara direndiyse de sonunda yanındaki diğer kalelerle birlikte 1687 Temmuzunda düştü ... Buraya hâkim olan Venedikliler, Karlofça Antlaşması’ndan (1699) bir yıl sonrasına kadar kaleyi ellerinde tuttular.'",
   kaynak:"inebahti (TDV)", duygu:["🤝"] },
 // ── ② TUR 3 DEVAMI (KUTU-H7-1015): EKSİK DÖRT AŞAMA HALKASI ──────────────────
-{ tur:"savas", kapsam:"ic", t:"1529-05-10", k:"sefer", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1529-05-10", k:"sefer", etiket:["savas","konu-askeri"],
   b:"Kanunî'nin Viyana seferine çıkışı — Habsburg savaşı yeniden başladı",
   gun:"2 Ramazan 935 (10 Mayıs 1529)",
   yer:"İstanbul", yer_id:"İstanbul", kisiler:"Kanunî Sultan Süleyman, Pargalı İbrâhim Paşa, János Szapolyai, I. Ferdinand",
@@ -157,7 +157,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV suleyman-i: 'Padişah, 2 Ramazan 935’te (10 Mayıs 1529) dördüncü defa sefere çıkmadan biraz önce çok güvendiği vezîriâzamı İbrâhim Paşa’ya büyük yetkiler verdi (seraskerlik unvanı: 28 Mart 1529, ayrıca Rumeli beylerbeyiliği: 27 Nisan)' · 'Onun doğrudan Viyana’yı hedeflediği ... fikirler tam olarak doğru olmamalıdır' · 'sürekli yağan şiddetli yağmurlar yüzünden çok zaman kaybedildi'",
   kaynak:"suleyman-i (TDV)", duygu:["⚔️"] },
 
-{ kapsam:"ic", t:"1578-01-02", k:"siyaset", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
+{ onem:4, dunya:1, bolge_onem:4, puan_s:"v2", kapsam:"ic", t:"1578-01-02", k:"siyaset", etiket:["savas","siyaset","konu-askeri","konu-siyasi"],
   b:"İran seferine karar — Tahmasb'ın ölümüyle sarsılan Safevîlere karşı iki serdar tayin edildi",
   gun:"22 Şevval 985 (2 Ocak 1578)",
   yer:"İstanbul", yer_id:"İstanbul", kisiler:"III. Murad, Lala Mustafa Paşa, Koca Sinan Paşa, Sokullu Mehmed Paşa",
@@ -165,7 +165,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV murad-iii: 'Şah I. Tahmasb ... zehirlenmiş (984/1576) ve Safevîler büyük bir karışıklık içine sürüklenmişti. Bu durum açılması düşünülen seferin yönünü de belirledi.' · TDV lala-mustafa-pasa: 'Mustafa Paşa Erzurum, Sinan Paşa Bağdat taraflarından İran’a girecekti (22 Şevval 985 / 2 Ocak 1578) ... Sokullu Mehmed Paşa devreye girip Koca Sinan Paşa’yı görevden aldı ve Lala Mustafa Paşa’yı Gürcistan üzerinden Şirvan’ın fethiyle t[evcih etti]'",
   kaynak:"murad-iii (TDV) · lala-mustafa-pasa (TDV)", duygu:["⚔️"] },
 
-{ tur:"kusatma", kapsam:"ic", t:"1625-11-13", k:"kusatma", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kusatma", kapsam:"ic", t:"1625-11-13", k:"kusatma", etiket:["savas","konu-askeri"],
   b:"Hâfız Ahmed Paşa'nın Bağdat kuşatması — yedi ay yirmi gün sürdü, sonuçsuz kaldı",
   gun:"12 Safer 1035 (13 Kasım 1625) — kaldırılış 8 Şevval 1035 (3 Temmuz 1626)",
   yer:"Bağdat", yer_id:"Bağdat", kisiler:"Hâfız Ahmed Paşa, Hüsrev Ağa, Şah I. Abbas",
@@ -173,7 +173,7 @@ window.OLAYLAR_H7_ASAMA = [
   ic_not_kaynak:"TDV hafiz-ahmed-pasa: 'Bunun üzerine 13 Kasım 1625’te Bağdat’ı kuşattı ... Kuşatmanın yetmiş ikinci günü patlatılan bir lağımın açtığı gedikten askerler Bağdat’a girdilerse de ... püskürtüldüler ... şahın ordusunun 7 Haziran’da yaptığı hücumda Osmanlı kuvvetleri büyük kayıplara uğradı' · TDV husrev-pasa: 'Osmanlı ordusu 12 Safer 1035’te (13 Kasım 1625) Bağdat’ı kuşattı. Ertesi yılın mart ayında İran Şahı I. Abbas 30.000 kişilik bir ordu ile ... kuşatma 8 Şevval 1035’te (3 Temmuz 1626) kaldırıldı ... Yedi ay yirmi gün süren Bağdat kuşatması'",
   kaynak:"hafiz-ahmed-pasa (TDV) · husrev-pasa (TDV)", duygu:["🏰"] },
 
-{ tur:"kusatma", kapsam:"ic", t:"1630-10-06", k:"kusatma", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kusatma", kapsam:"ic", t:"1630-10-06", k:"kusatma", etiket:["savas","konu-askeri"],
   b:"Hüsrev Paşa'nın Bağdat kuşatması — otuz dokuz gün sonra kaldırıldı",
   gun:"6 Ekim 1630 — kaldırılış 8 Rebîülâhir 1040 (14 Kasım 1630)",
   yer:"Bağdat", yer_id:"Bağdat", kisiler:"Hüsrev Paşa",

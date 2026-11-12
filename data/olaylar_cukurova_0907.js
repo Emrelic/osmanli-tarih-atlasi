@@ -26,7 +26,7 @@
 // =====================================================================
 window.OLAYLAR_CUKUROVA_0907 = [
 
-  { kapsam:"ic",
+  { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1919-02-22",
     k: "kayip",
     etiket: ["isgal","konu-askeri"],
@@ -38,7 +38,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Mondros Mütarekesi'nin ardından İngiliz kuvvetleri Maraş'a girdi. İşgal sekiz ay sürdü; İngiltere ile Fransa arasındaki anlaşma gereği şehir 29 Ekim 1919'da Fransızlara devredildi.", ic_not_d:"TDV `kahramanmaras`: \\\"Mondros Mütarekesi'nin ardından İngilizler 22 Şubat 1919'da şehri işgal ettiler.\\\" ve \\\"İngiltere ile Fransa arasında yapılan antlaşma neticesinde Maraş ve çevresi Fransa'ya devredilince 29 Ekim 1919'da Fransızlar Maraş'a girdiler.\\\" ⚠️ Bu bir İŞGAL kaydıdır, egemenlik devri DEĞİL: Mondros bir mütarekedir, Sevr onaylanmamıştır."
   },
 
-  { kapsam:"ic",
+  { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1921-12-23",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -50,7 +50,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Ankara İtilâfnâmesi'nin (20 Ekim 1921) öngördüğü tahliye takvimi uyarınca Fransız kuvvetleri Kilis'ten çekildi. Şehir üç yıl önce, 6 Aralık 1918'de İngilizlerce işgal edilmiş, 29 Ekim 1919'da Fransızlara devredilmişti.", ic_not_d:"TDV `kilis`: \\\"Kilis, Mondros Mütarekesi'nin ardından 6 Aralık 1918 tarihinde İngilizler tarafından işgal edildi.\\\" · \\\"Bir yıldan fazla bir süre devam eden bu işgalden sonra İngilizler burayı 29 Ekim 1919'da Fransız kuvvetlerine terkettiler.\\\" · \\\"Nihayet 23 Aralık 1921'de Kilis'in kurtuluşu gerçekleşmiş oldu.\\\""
   },
 
-  { kapsam:"ic",
+  { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1921-12-25",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -62,7 +62,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasında Fransız kuvvetlerine karşı uzun bir savunma vermişti.", ic_not_d:"TDV `gaziantep`: \\\"17 Aralık 1918'de İngilizler şehre girdiler\\\" · \\\"Yaklaşık bir yıl süren işgalinin ardından Fransızlar ile yaptıkları anlaşma gereği burayı onlara terkettiler (5 Kasım 1919)\\\" · \\\"Antep halkı 1 Nisan 1920'den 7 Şubat 1921'e kadar Fransız kuvvetlerine karşı büyük bir mücadele verdi\\\" · \\\"Fransızlar Ankara Antlaşması'nın ardından 25 Aralık 1921'de şehri boşalttılar.\\\""
   },
 
-  { kapsam:"ic",
+  { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1921-12-27",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -74,7 +74,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı.", ic_not_d:"TDV `tarsus`: \"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed Ali Paşa, 17 Aralık 1918'de Fransız işgaline ve Ermeni çetelerinin zulmüne uğradı. Fransızlar, Ankara Antlaşması'yla 27 Aralık 1921'de şehri boşalttılar.\""
   },
 
-  { kapsam:"ic",
+  { onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1922-01-03",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],
@@ -86,7 +86,7 @@ window.OLAYLAR_CUKUROVA_0907 = [
     d:"Millî kuvvetler Mersin'e girdi; son Fransız birlikleri ertesi gün şehri terketti. Fransız çıkarması 17 Aralık 1918'de denizden yapılmıştı.", ic_not_d:"TDV `mersin`: \\\"17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı.\\\" · \\\"3 Ocak 1922'de millî kuvvetler Mersin'e girerek şehri kurtardı ve son Fransız kuvvetleri ertesi gün şehri terketti.\\\" ⚠️ TDV kurtuluşu 3 Ocak, son birliklerin ayrılışını 4 Ocak veriyor; atlas gövdeyi kurtuluş gününde çeviriyor ve fark burada BEYAN ediliyor."
   },
 
-  { kapsam:"ic",
+  { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic",
     t: "1922-01-05",
     k: "kazanc",
     etiket: ["kurtulus","konu-askeri"],

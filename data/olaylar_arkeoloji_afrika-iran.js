@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Sahra-alti Afrika, Okyanusya/Avustralya, Orta Asya/Iran platosu, MO 12000-MS 1 (afrika-iran) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/afrika-iran.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
- { tur:"kurulus","kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Cenne"
   ],
@@ -19,7 +19,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 300 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «iron-using and manufacturing peoples were occupying the site in the third century B.C. (WebFetch ozeti, birebir degil)». 'MO 250 - MS 1400' ikincil aktarimdir (Seshat/HRAF/Wikipedia turevi, SAYFALAR OKUNMADI); 'MO 3. yy' birebir ozetten (WebFetch yorumu; ozet metnin kendisi 'by the 3rd century B.C.' diyor). Ham/kalibre ayrimi ve faz sinirlari birincil makalede (dipnot tablosu) aranmali: 'bulunamadi'. bas_mo 300-201 = '3. yy' icin yuvarlak aralik, kaynagin verdigi sayi degil."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0538-01-01",
   "k": "fetih",
   "b": "Babil'in Kyros'a geçişi: başlar",
@@ -32,7 +32,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «On the third day of the month Arahsamna, Cyrus entered Babylon.». Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332). · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.o) dayanak olamaz, değiştirildi. ABC 7: Nabonid 17. yıl (=539): Sippar 14. gün 'savaşsız' alındı, 16. gün Ugbaru ordusu Babil'e savaşsız girdi (ay adı bu çeviri parçasında okunmadı; Tašritu), Kyros Arahsamna 3'te girdi. TDV Babil: 'Ahamenîler (İran hâkimiyeti, 539-332)'. Yıl doğru; Babil takvimini Jülyen güne çevirmedim (tablo açılmadı), gün önerilmedi.",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0549-01-01",
   "yer_id": "Hemedan",
   "k": "fetih",
@@ -45,7 +45,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Cyrus <marched> to Ecbatana, the royal city.». Livius.org tek basina dayanak olamaz: burada yalniz Grayson ceviri metninin tasiyicisi; ABC 7 birincil neşir (Grayson 1975) ve BM 35382 numarasi SAYFADA YOK, dogrulanmadi. Vakayiname metninde 'Astyages' adi gecmiyor olabilir (kirik satir) - ozet okuyucunun cikarimi, dogrulanmadi. 'Med devletinin kurulusu (MO 678?)' ve 'Kyros 550 Pers imparatorlugu kuruldu' iddialari icin akademik kaynak bulunamadi (bulunamadi listesinde). · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col) dayanak olamaz, değiştirildi. Kayıt Nabonid'in 6. yılında (550/549). Atlas -0549 = MÖ 550 uyumlu. DİKKAT: envanter 'yer' alanında alakasız 'Kotosh Dini Geleneği (Kotosh, Peru)' kalıntısı var — temizlenmeli. TDV Hemedan: Ekbatana'yı Deiokes (m.ö. 728-673) kurmuş, Kyros sonradan yazlık başşehir seçti (550 alınışı TDV'de yok)."
  },
- { tur:"kurulus","kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:2, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "t": "-0944-01-01",
   "k": "kurulus",
   "yer_id": "Teouma",
@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 970–920 (kaynağın verdiği uçlar); orta nokta MÖ 945 = astronomik -0944. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz (Bayes modeli 'en olasi baslangic' araligi). Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «The Bayesian chronological framework proposed by Petchey et al. indicates 2870–2920 BP as the most likely start date of occupation of the site». Birincil makale (Petchey vd. 2015) acilamadi; deger Camperio 2024'ten alintidir (ikincil). 2870-2920 'BP' - kalibre mi belirtilmemis; 2739-2879 BP ise tortu cekirdeginin ilk izi. Bismarck Takimadalari'ndaki erken Lapita Kamgot 3300-3000 BP (Horrocks vd. 2024, Parasitology/J Helminthol doi:10.1017/S0022149X23000998 ozeti) ve GB Yeni Gine'de Lapita-getirilmis hayvan/obsidyen 3480-3060 yil once (Shaw vd. 2022, Nat Ecol Evol 6:802-812, doi:10.1038/s41559-022-01735-w ozeti) - bunlar BP'dir, kalibre oldugu ozetten anlasilmiyor; MO'ya cevrilmedi."
  },
- { tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
   "t": "-4744-01-01",
   "k": "kurulus",
   "b": "Kuk: hoyuk (mound) tarimi, Evre 2: başlar",
@@ -88,7 +88,7 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 5000–4490 (kaynağın verdiği uçlar); orta nokta MÖ 4745 = astronomik -4744. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: belirsiz. Kaynaktan okunan: «mounding cultivation began by 6950 to 6440 cal yr B.P. (phase 2)». 6950-6440 cal BP = 'en gec'; baslangic ucu degil sinir degeri. MO donusumu bizimdir."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
+ { onem:3, dunya:3, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Yeni Gine İç Yaylaları (Merkez — Mount Hagen)"],
   "t": "-8114-01-01",
   "k": "ilk_anilis",
   "b": "Kuk Bataklığı (erken tarım alanı): başlar",

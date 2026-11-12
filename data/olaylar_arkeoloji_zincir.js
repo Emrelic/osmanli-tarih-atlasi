@@ -1,6 +1,6 @@
 // MÖ DEVLET-ŞEHİR ZİNCİRİ — s: dönem uçlarını destekleyen maddeler (Değişmez 2). denetim/arkeoloji_devlet_zincir_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_ZINCIR = [
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0026-01-01",
   "k": "diger",
   "b": "Roma, İskenderiye: Roma Cumhuriyeti → sahipsiz aralık",
@@ -21,7 +21,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Veii"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0048-01-01",
   "k": "diger",
   "b": "Marsilya, Massalia: Massalia (Marsilya) → Roma Cumhuriyeti",
@@ -35,7 +35,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Marsilya"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0112-01-01",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
@@ -49,7 +49,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Dura-Europos"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0132-01-01",
   "k": "diger",
   "b": "Bergama, Pergamon: Bergama (Attalos) Krallığı → Roma Cumhuriyeti",
@@ -63,7 +63,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Bergama"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0140-01-01",
   "k": "diger",
   "b": "Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
@@ -80,7 +80,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ktesiphon"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0147-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan: Selevkos Imparatorlugu → Part (Arsakid) Imparatorlugu",
@@ -94,7 +94,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Hemedan"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0206-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): Qin Hanedanı (birleşik İmparatorluk) → sahipsiz aralık",
@@ -108,7 +108,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0211-01-01",
   "k": "diger",
   "b": "Sirakuza, Syrakusai: Sirakuza (Syrakousai) → Roma Cumhuriyeti",
@@ -122,7 +122,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Sirakuza"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0310-01-01",
   "k": "diger",
   "b": "Babil, Uruk: sahipsiz aralık → Selevkos Imparatorlugu",
@@ -137,7 +137,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0311-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)",
@@ -152,7 +152,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Seleukeia"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0322-06-10",
   "k": "diger",
   "b": "Babil, Ekbatana, Hemedan, Pasargad, Uruk: Buyuk Iskender Imparatorlugu → sahipsiz aralık",
@@ -169,7 +169,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0327-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan: sahipsiz aralık → Buyuk Iskender Imparatorlugu",
@@ -183,7 +183,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Hemedan"
   ]
  },
- { kapsam:"dis", bolge:1, odak_yer:["Ur (Tell al-Muqayyar)","Hemedan"],
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:1, odak_yer:["Ur (Tell al-Muqayyar)","Hemedan"],
   "t": "-0329-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → sahipsiz aralık",
@@ -195,7 +195,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0330-01-01",
   "k": "diger",
   "b": "Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu",
@@ -211,7 +211,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Susa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0395-01-01",
   "k": "diger",
   "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) → Roma Cumhuriyeti",
@@ -225,7 +225,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Veii"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0403-01-01",
   "k": "diger",
   "b": "Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) → sahipsiz aralık",
@@ -239,7 +239,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Memphis"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0677-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan: sahipsiz aralık → Medya (Med) Krallığı",
@@ -253,7 +253,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Hemedan"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0709-01-01",
   "k": "diger",
   "b": "Babil: sahipsiz aralık → Yeni Asur Imparatorlugu",
@@ -267,7 +267,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Babil"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0721-01-01",
   "k": "diger",
   "b": "Samiriye (Samaria / Sebaste): Israil Krallığı (Samiriye) → Yeni Asur Imparatorlugu",
@@ -281,7 +281,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Samiriye"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0731-01-01",
   "k": "diger",
   "b": "Şam: Aram-Sam (Dimask) Krallığı → Yeni Asur Imparatorlugu",
@@ -293,7 +293,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Şam"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0910-01-01",
   "k": "diger",
   "b": "Aşşur: sahipsiz aralık → Yeni Asur Imparatorlugu",
@@ -308,7 +308,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ninova"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1099-01-01",
   "k": "diger",
   "b": "Susa: Orta Elam Krallığı (Kidinuid, Igehalkid, Sutrukid) → Yeni Elam Krallığı",
@@ -322,7 +322,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Susa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1154-01-01",
   "k": "diger",
   "b": "Nippur, Uruk, Ur: Kassit Babil Krallığı → sahipsiz aralık",
@@ -334,7 +334,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1209-01-01",
   "k": "diger",
   "b": "Babil: Orta Asur Imparatorlugu → sahipsiz aralık",
@@ -348,7 +348,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Babil"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1219-01-01",
   "k": "diger",
   "b": "Babil: Kassit Babil Krallığı → Orta Asur Imparatorlugu",
@@ -362,7 +362,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Babil"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1464-01-01",
   "k": "diger",
   "b": "Uruk, Ur: sahipsiz aralık → Kassit Babil Krallığı",
@@ -374,7 +374,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1474-01-01",
   "k": "diger",
   "b": "Uruk: Birinci Deniz Ulkesi Hanedani → sahipsiz aralık",
@@ -388,7 +388,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1499-01-01",
   "k": "diger",
   "b": "Kerma (Kerma / Doukki Gel): Kerma Krallığı (Klasik Kerma) → sahipsiz aralık",
@@ -402,7 +402,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Kerma"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1731-01-01",
   "k": "diger",
   "b": "Uruk: sahipsiz aralık → Birinci Deniz Ulkesi Hanedani",
@@ -416,7 +416,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1760-01-01",
   "k": "diger",
   "b": "Mari: sahipsiz aralık → Eski Babil (Amorit) Krallığı",
@@ -430,7 +430,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Mari"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1762-01-01",
   "k": "diger",
   "b": "Ur: sahipsiz aralık → Eski Babil (Amorit) Krallığı",
@@ -442,7 +442,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1801-01-01",
   "k": "diger",
   "b": "Uruk: sahipsiz aralık → Larsa Krallığı",
@@ -456,7 +456,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1807-01-01",
   "k": "diger",
   "b": "Aşşur: Eski Asur Devleti (Assur sehir devleti) → Ust Mezopotamya Krallığı (Samsi-Adad I)",
@@ -470,7 +470,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Aşşur"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1899-01-01",
   "k": "diger",
   "b": "Susa: Elam — Simaski Hanedani → Elam — Sukkalmah (Eparti) Hanedani",
@@ -484,7 +484,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Susa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2003-01-01",
   "k": "diger",
   "b": "Uruk, Ur: Larsa Krallığı → sahipsiz aralık",
@@ -496,7 +496,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2023-01-01",
   "k": "diger",
   "b": "Susa: Ur III (Ucuncu Ur Hanedani) → Elam — Simaski Hanedani",
@@ -511,7 +511,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Aşşur"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2024-01-01",
   "k": "diger",
   "b": "Uruk, Ur: Ur III (Ucuncu Ur Hanedani) → Larsa Krallığı",
@@ -523,7 +523,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2111-01-01",
   "k": "diger",
   "b": "Uruk: Gutium (Gutiler) Hakimiyeti → sahipsiz aralık",
@@ -540,7 +540,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Susa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2143-01-01",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): sahipsiz aralık → Lagaş II. Dönemi (Ur-Baba, Gudea, Ur-Ningirsu)",
@@ -554,7 +554,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Girsu (Tell Telloh)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2153-01-01",
   "k": "diger",
   "b": "Uruk: sahipsiz aralık → Gutium (Gutiler) Hakimiyeti",
@@ -566,7 +566,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2299-01-01",
   "k": "diger",
   "b": "Umma, Ur: sahipsiz aralık → Akad Imparatorlugu",
@@ -578,7 +578,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "onyil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2349-01-01",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) → sahipsiz aralık",
@@ -592,7 +592,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Girsu (Tell Telloh)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0009-01-10",
   "k": "diger",
   "b": "Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou) Batı Han'dan sahipsiz aralığa geçti",
@@ -608,7 +608,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Zhangye (Ganzhou)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0023-01-01",
   "k": "diger",
   "b": "Luoyang, Xi'an (Chang'an): sahipsiz aralık → Gengshi Rejimi (Xuan Han / Lulin)",
@@ -623,7 +623,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0025-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): sahipsiz aralık → Chengjia (成家, Gongsun Shu)",
@@ -638,7 +638,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0027-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) → sahipsiz aralık",
@@ -652,7 +652,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0036-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): Chengjia (成家, Gongsun Shu) → sahipsiz aralık",
@@ -666,7 +666,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0106-01-01",
   "k": "diger",
   "b": "Petra: Nabatiye Krallığı → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
@@ -680,7 +680,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Petra"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0221-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): sahipsiz aralık → Shu Han",
@@ -694,7 +694,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0263-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): Shu Han → Cao Wei",
@@ -708,7 +708,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0304-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): sahipsiz aralık → Cheng-Han (成漢)",
@@ -722,7 +722,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0351-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): sahipsiz aralık → Önceki Qin (前秦)",
@@ -736,7 +736,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0356-01-01",
   "k": "diger",
   "b": "Köln (Colonia Claudia Ara Agrippinensium): sahipsiz aralık → Roma İmparatorluğu (Prinkipat-Dominat, birleşik)",
@@ -750,7 +750,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Köln"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0395-01-01",
   "k": "diger",
   "b": "Roma: Roma İmparatorluğu (Prinkipat-Dominat, birleşik) → sahipsiz aralık",
@@ -767,7 +767,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Petra"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0397-01-01",
   "k": "diger",
   "b": "Dunhuang, Zhangye (Ganzhou): sahipsiz aralık → Kuzey Liang (北涼)",
@@ -782,7 +782,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Zhangye (Ganzhou)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0400-01-01",
   "k": "diger",
   "b": "Dunhuang: Kuzey Liang (北涼) → sahipsiz aralık",
@@ -796,7 +796,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Dunhuang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0085-01-01",
   "k": "diger",
   "b": "Atina: Roma Cumhuriyeti dönemi başlar",
@@ -810,7 +810,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Atina"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0110-01-01",
   "k": "diger",
   "b": "Dunhuang: Bati Han Hanedani dönemi başlar",
@@ -824,7 +824,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Dunhuang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0120-01-01",
   "k": "diger",
   "b": "Zhangye (Ganzhou): Bati Han Hanedani dönemi başlar",
@@ -838,7 +838,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Zhangye (Ganzhou)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0131-01-01",
   "k": "diger",
   "b": "Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi başlar",
@@ -852,7 +852,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Urfa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0145-01-01",
   "k": "diger",
   "b": "Korint: Korint dönemi sona erer",
@@ -867,7 +867,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Karthago"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0167-01-01",
   "k": "diger",
   "b": "Petra: Nabatiye Krallığı dönemi başlar",
@@ -881,7 +881,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Petra"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0183-01-01",
   "k": "diger",
   "b": "Patna (Azîmâbâd): sahipsiz aralık dönemi sona erer",
@@ -895,7 +895,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Patna (Azîmâbâd)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0255-01-01",
   "k": "diger",
   "b": "Luoyang: Qin Devleti dönemi başlar",
@@ -909,7 +909,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Luoyang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0279-01-01",
   "k": "diger",
   "b": "Pasargad: sahipsiz aralık dönemi sona erer",
@@ -923,7 +923,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Pasargad"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0281-01-01",
   "k": "diger",
   "b": "Bergama, Pergamon: Bergama (Attalos) Krallığı dönemi başlar",
@@ -937,7 +937,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Bergama"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0302-01-01",
   "k": "diger",
   "b": "Dura-Europos: Selevkos Imparatorlugu dönemi başlar",
@@ -951,7 +951,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Dura-Europos"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0315-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): Qin Devleti dönemi başlar",
@@ -965,7 +965,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0320-01-01",
   "k": "diger",
   "b": "Patna (Azîmâbâd): sahipsiz aralık dönemi başlar",
@@ -979,7 +979,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Patna (Azîmâbâd)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0322-06-10",
   "k": "diger",
   "b": "İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar",
@@ -993,7 +993,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "İskenderiye"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0337-01-01",
   "k": "diger",
   "b": "Capua: Roma Cumhuriyeti dönemi başlar",
@@ -1007,7 +1007,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Capua"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0349-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): Qin Devleti dönemi başlar",
@@ -1021,7 +1021,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0401-01-01",
   "k": "diger",
   "b": "Memphis (Men-nefer / Mit Rahina): sahipsiz aralık dönemi sona erer",
@@ -1035,7 +1035,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Memphis"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0517-01-01",
   "k": "diger",
   "b": "Persepolis: Ahamenis (Pers) Imparatorlugu dönemi başlar",
@@ -1049,7 +1049,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Persepolis"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0524-01-01",
   "k": "diger",
   "b": "Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) dönemi başlar",
@@ -1063,7 +1063,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Memphis"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0538-01-01",
   "k": "diger",
   "b": "Ur: Ahamenis (Pers) Imparatorlugu dönemi başlar",
@@ -1075,7 +1075,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0545-01-01",
   "k": "diger",
   "b": "Pasargad: Ahamenis (Pers) Imparatorlugu dönemi başlar",
@@ -1089,7 +1089,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Pasargad"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0574-01-01",
   "k": "diger",
   "b": "Veii: Etrüsk Şehir Devletleri (Oniki Şehir Birliği) dönemi başlar",
@@ -1103,7 +1103,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Veii"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0585-01-01",
   "k": "diger",
   "b": "Kudüs: Yahuda Krallığı dönemi sona erer",
@@ -1117,7 +1117,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Kudüs"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0589-01-01",
   "k": "diger",
   "b": "Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi sona erer",
@@ -1131,7 +1131,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Eski Van (Tuşpa)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0599-01-01",
   "k": "diger",
   "b": "Marsilya, Massalia: Massalia (Marsilya) dönemi başlar",
@@ -1145,7 +1145,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Marsilya"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0608-01-01",
   "k": "diger",
   "b": "Cerablus, Karkamış, Megiddo, Samiriye (Samaria / Sebaste), Şam: Yeni Asur Imparatorlugu dönemi sona erer",
@@ -1157,7 +1157,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Şam"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0626-01-01",
   "k": "diger",
   "b": "Babil: Yeni Asur Imparatorlugu dönemi sona erer",
@@ -1171,7 +1171,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Babil"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0699-01-01",
   "k": "diger",
   "b": "Hemedan: sahipsiz aralık dönemi başlar",
@@ -1185,7 +1185,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Hemedan"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0716-01-01",
   "k": "diger",
   "b": "Cerablus, Karkamış: Yeni Asur Imparatorlugu dönemi başlar",
@@ -1199,7 +1199,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Cerablus"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0733-01-01",
   "k": "diger",
   "b": "Sirakuza, Syrakusai: Sirakuza (Syrakousai) dönemi başlar",
@@ -1213,7 +1213,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Sirakuza"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0752-01-01",
   "k": "diger",
   "b": "Roma: Roma Krallığı dönemi başlar",
@@ -1227,7 +1227,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Roma"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0799-01-01",
   "k": "diger",
   "b": "Korint: Korint dönemi başlar",
@@ -1241,7 +1241,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Korint"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0813-01-01",
   "k": "diger",
   "b": "Karthago: Kartaca (Pön) Devleti dönemi başlar",
@@ -1255,7 +1255,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Karthago"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0859-01-01",
   "k": "diger",
   "b": "Eski Van (Tuşpa), Tuşpa (Van Kalesi): Urartu Krallığı dönemi başlar",
@@ -1269,7 +1269,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Eski Van (Tuşpa)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0929-01-01",
   "k": "diger",
   "b": "Kudüs: Yahuda Krallığı dönemi başlar",
@@ -1283,7 +1283,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Kudüs"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0939-01-01",
   "k": "diger",
   "b": "Şam: Aram-Sam (Dimask) Krallığı dönemi başlar",
@@ -1295,7 +1295,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Şam"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1149-01-01",
   "k": "diger",
   "b": "Nippur: sahipsiz aralık dönemi sona erer",
@@ -1310,7 +1310,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Poverty Point"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1189-01-01",
   "k": "diger",
   "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi sona erer",
@@ -1324,7 +1324,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ugarit"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1196-01-01",
   "k": "diger",
   "b": "Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi sona erer",
@@ -1339,7 +1339,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Yinxu (Anyang)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1253-01-01",
   "k": "diger",
   "b": "Anyang / Yinxu (殷墟), Yinxu (Anyang): sahipsiz aralık dönemi başlar",
@@ -1354,7 +1354,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Yinxu (Anyang)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1349-01-01",
   "k": "diger",
   "b": "Ugarit (Ras Şamra): Ugarit Krallığı dönemi başlar",
@@ -1368,7 +1368,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ugarit"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1739-01-01",
   "k": "diger",
   "b": "Uruk: Eski Babil (Amorit) Krallığı dönemi sona erer",
@@ -1382,7 +1382,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1775-01-01",
   "k": "diger",
   "b": "Aşşur: Ust Mezopotamya Krallığı (Samsi-Adad I) dönemi sona erer",
@@ -1396,7 +1396,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Aşşur"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-1893-01-01",
   "k": "diger",
   "b": "Babil: Eski Babil (Amorit) Krallığı dönemi başlar",
@@ -1410,7 +1410,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Babil"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2018-01-01",
   "k": "diger",
   "b": "Nippur: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
@@ -1424,7 +1424,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Nippur (Nuffar)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2021-01-01",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi), Umma: Ur III (Ucuncu Ur Hanedani) dönemi sona erer",
@@ -1439,7 +1439,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Umma (Tell Jokha)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2153-01-01",
   "k": "diger",
   "b": "Kiş, Ur: Akad Imparatorlugu dönemi sona erer",
@@ -1451,7 +1451,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Kiş (Tell Uhaimir)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2294-01-01",
   "k": "diger",
   "b": "Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi sona erer",
@@ -1465,7 +1465,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Mari"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2299-01-01",
   "k": "diger",
   "b": "Eridu, Ur: sahipsiz aralık dönemi sona erer",
@@ -1477,7 +1477,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2309-01-01",
   "k": "diger",
   "b": "Ebla: Ebla Birinci Krallığı dönemi sona erer",
@@ -1491,7 +1491,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ebla"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2323-01-01",
   "k": "diger",
   "b": "Eridu, Umma, Uruk, Ur: sahipsiz aralık dönemi başlar",
@@ -1503,7 +1503,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2399-01-01",
   "k": "diger",
   "b": "Ebla: Ebla Birinci Krallığı dönemi başlar",
@@ -1517,7 +1517,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Ebla"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2449-01-01",
   "k": "diger",
   "b": "Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi başlar",
@@ -1531,7 +1531,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Kerma"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2474-01-01",
   "k": "diger",
   "b": "Girsu (Lagaş devletinin merkezi): Lagas I. Hanedan (sehir devleti) dönemi başlar",
@@ -1545,7 +1545,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Girsu (Tell Telloh)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2549-01-01",
   "k": "diger",
   "b": "Mari: Mari Şehir Krallığı (Mari II, Erken Hanedan-Akad) dönemi başlar",
@@ -1559,7 +1559,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Mari"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0025-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) dönemi başlar",
@@ -1573,7 +1573,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0220-01-01",
   "k": "diger",
   "b": "Luoyang: Dogu Han Hanedani dönemi sona erer",
@@ -1587,7 +1587,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Luoyang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:3, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0224-04-28",
   "k": "diger",
   "b": "Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk: Part (Arsakid) Imparatorlugu dönemi sona erer",
@@ -1606,7 +1606,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Uruk (Warka)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0242-01-01",
   "k": "diger",
   "b": "Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı dönemi sona erer",
@@ -1620,7 +1620,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Urfa"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0265-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): Cao Wei dönemi sona erer",
@@ -1634,7 +1634,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0347-01-01",
   "k": "diger",
   "b": "Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer",
@@ -1648,7 +1648,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Çengdu (Chengdu)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0386-01-01",
   "k": "diger",
   "b": "Xi'an (Chang'an): Önceki Qin (前秦) dönemi sona erer",
@@ -1662,7 +1662,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Xi'an (Chang'an)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0423-01-01",
   "k": "diger",
   "b": "Dunhuang: sahipsiz aralık dönemi sona erer",
@@ -1676,7 +1676,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Dunhuang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0439-01-01",
   "k": "diger",
   "b": "Zhangye (Ganzhou): Kuzey Liang (北涼) dönemi sona erer",
@@ -1690,7 +1690,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Zhangye (Ganzhou)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0476-01-01",
   "k": "diger",
   "b": "Roma: Batı Roma İmparatorluğu dönemi sona erer",

@@ -18,7 +18,7 @@
 
 window.OLAYLAR_P0069 = [
 
-{ t:"1523-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1523-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Una vadisinde Ostrovica Kalesi'nin fethi",
   gun:"1523",
   yer:"Ostrovica (Kulen Vakuf yakını), Una vadisi", yer_id:"Ostrovica (Stara Ostrovica, Kulen Vakuf)",
@@ -28,7 +28,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"Zavod za zaštitu kulturnog naslijeđa USK, 'Ostrovica – stari grad' · HE kulen-vakuf",
   duygu:["⚔️"] },
 
-{ t:"1527-05-01", kesinlik:"ay", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1527-05-01", kesinlik:"ay", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Udbina ve Krbava kalelerinin fethi — Lika Osmanlı idaresine giriyor",
   gun:"Mayıs 1527 sonu",
   yer:"Udbina, Krbava ovası (Lika)", yer_id:"Udbina",
@@ -38,7 +38,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE udbina · HE gospic · kirka",
   duygu:["⚔️"] },
 
-{ t:"1592-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", t:"1592-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Drežnik ve Drežnik županiyasının kesin olarak Osmanlı idaresine geçişi",
   gun:"1592",
   yer:"Drežnik (Korana vadisi, Bihaç'ın batısı)", yer_id:"Drežnik (Drežnik Grad)",
@@ -48,7 +48,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE dreznik-grad",
   duygu:["⚔️"] },
 
-{ t:"1636-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1636-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Cetin Kalesi'nin Osmanlılarca alınması",
   gun:"1636",
   yer:"Cetin (Cetingrad), Kordun", yer_id:"Cetin (Cetingrad)",
@@ -58,7 +58,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE cetingrad",
   duygu:["⚔️"] },
 
-{ t:"1638-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1638-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Cetin Kalesi'nin Habsburg tarafına geri geçmesi",
   gun:"1638",
   yer:"Cetin (Cetingrad), Kordun", yer_id:"Cetin (Cetingrad)",
@@ -68,7 +68,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE cetingrad",
   duygu:["😔"] },
 
-{ t:"1670-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1670-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Cetin'in yeniden Osmanlı kalesi olması",
   gun:"1670",
   yer:"Cetin (Cetingrad), Kordun", yer_id:"Cetin (Cetingrad)",
@@ -78,7 +78,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE cetingrad",
   duygu:["⚔️"] },
 
-{ t:"1689-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", t:"1689-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Lika ve Krbava'nın kaybı — Udbina ve Gospić Habsburg sınır kuvvetlerinin eline geçti",
   gun:"1689",
   yer:"Udbina, Gospić (Lika)", yer_id:"Udbina",
@@ -88,7 +88,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE udbina · HE gospic",
   duygu:["😔"] },
 
-{ t:"1788-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1788-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Drežnik'in Avusturya'ca zaptı — Dubica Savaşı'nın batı cephesi",
   gun:"1788",
   yer:"Drežnik (Korana vadisi, Bihaç'ın batısı)", yer_id:"Drežnik (Drežnik Grad)",
@@ -98,7 +98,7 @@ window.OLAYLAR_P0069 = [
   kaynak:"HE dreznik-grad · Korić 2016 (Prilozi za orijentalnu filologiju 65)",
   duygu:["😔"] },
 
-{ t:"1790-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1790-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Cetin Kalesi'nin Avusturya'ca zaptı",
   gun:"1790",
   yer:"Cetin (Cetingrad), Kordun", yer_id:"Cetin (Cetingrad)",

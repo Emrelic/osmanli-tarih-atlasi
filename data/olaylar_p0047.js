@@ -26,7 +26,7 @@
 
 window.OLAYLAR_P0047 = [
 
-{ kapsam:"dis", bolge:3, t:"1511-08-10", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ onem:5, dunya:4, bolge_onem:5, puan_s:"v2", kapsam:"dis", bolge:3, t:"1511-08-10", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Malaka'nın Portekizlilerce alınması",
   gun:"10 Ağustos 1511", yer:"Malaka (Malay yarımadası)", yer_id:"Malaka",
   kisiler:"Afonso de Albuquerque",

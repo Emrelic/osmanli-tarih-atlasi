@@ -1,7 +1,7 @@
 // ARKEOLOJİ KATMANI — Misir, Nubya, Sahra, Sahra-alti Afrika (d3-misir-afrika) · ARKEOLOJI-KATMANI-SARTNAME-1018 · üretici denetim/arkeoloji_uret_1020.py · 20 Ekim 2026
 // Girdi: denetim/arastirma/d3-misir-afrika.json. Her tarih kaynaktan; orta nokta/alt sınır/tek değer beyanı ic_not_d'de. Üretilmiştir: elle düzenleme, JSON'u düzelt.
 window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
- {"kapsam": "dis", "bolge": 1, 
+ { onem:5, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0029-01-01",
   "k": "fetih",
   "b": "Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır (Octavian)",
@@ -16,7 +16,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
    "İskenderiye"
   ]
  },
- { tur:"kurulus","kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"kurulus","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "İskenderiye"
   ],
@@ -31,7 +31,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "yazili",
   "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: veri-tabani (birincil kazı yayını okunmadı). Kaynaktan okunan: «The ancient port city in Egypt's Nile Delta, founded by Alexander the Great in 332/331 BCE.». Brif 'MO 331 gelenegi' dedi; Pleiades 332/331 verir. Kuruluşun gunu icin birincil Arrian 3.1.5 / Plutarkhos okunmadi. Sehrin ilk sahibi Iskender (Makedon) -> MO 323 sonrasi Ptolemaios; baslangic MO 305/304 (kral unvani) icin okunmus kaynak yok (Caneva 2019 Aegyptus 99 Cloudflare 403) -> kutuphane_gerekli."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Kerma"
   ],
@@ -49,7 +49,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1080 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C.». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Kerma"
   ],
@@ -67,7 +67,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1480 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Egyptian Occupation, 1480-1080 B.C. 'Conquest of Nubia by the Egyptian pharaohs of the New Kingdom.'». Sayfa kendi iclerinde tutarsiz: Final Kerma 1480-1450 ile Misir isgalinin 1480 baslangici cakisir; I. Thutmosis 1496-1483 isgal basindan once biter. Bronk Ramsey 2010 (95% hpd): III. Thutmosis tahta cikisi 1498-1474 (Shaw/Hornung okullari 1479/1479). Yeni Krallik SONU/Ucuncu Ara Donem basi icin okunmus kaynak yok: Bronk Ramsey 2010 yalnizca XX. Hanedan'in kral cikislarini verir (Ramses XI cikisi 95%: 1116-1090) - dinastinin bitisi DEGIL."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
   "t": "-1499-01-01",
   "k": "gelisme",
   "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü başlar",
@@ -82,7 +82,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1500 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «the Nok culture of central Nigeria (1500-1 cal bc; Breunig and Rupp 2016; Franke 2016a)». Birincil kaynak Franke 2016 (J African Archaeol 14(3):257-289) ve Frankfurt tezi (Potsherds in Time, docId 42210) bot korumasiyla okunamadi -> kutuphane/yerel erisim gerekli. Faz sinirlari (3 faz, 7 seramik grubu) sayisal okunamadi; yalnizca butun kultur ucu ve '900 cal BC' terrakotta esigi. Aynı makale ayni donemde Gajiganna 1800-800, Kintampo 2100-1400, Tichitt ~2000 cal BC verir."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Avaris"], 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Avaris"], 
   "t": "-1531-01-01",
   "k": "kayip",
   "b": "Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmose'ye geçer (Hiksos sonu)",
@@ -97,7 +97,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1532 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Conquest Avaris, ca year 18 ... ca 1532 ... ca 1530 ... ca 1521 ... ca 1506». BIRBIRINE UYMAYAN OKULLAR: Shaw ca 1532; Schneider ca 1530; Hornung vd. ca 1521; Krauss & Warburton ca 1506 (Bruins 2025 tablosu: sutun hizalamasi metin cikarimidir, Wente 1552, Breasted 1562). Bietak 2023 'Hyksos sonu ca. 1530 BC' (Abb.). BASLANGIC (15. Hanedan kurulusu / Hiksos'un Avaris'te gucu alisi) kaynakli bulunamadi: Bietak 2024 (Chronos, Aegis 26, 57-81, 'The Timespan of Hyksos Rule', stratigrafik 105-112 yil, arama ozetinden - OKUNMADI) -> kutuphane_gerekli. Kutschera vd. 2012 (Radiocarbon 54) 14C'si ~120 yil daha yaşli Tell el-Dab'a tarihleri verir (arama ozeti); grafik, sayisal tablo okunamadi."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:3, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Kerma"
   ],
@@ -115,7 +115,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 1750 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynaktan okunan: «Classic Kerma (circa 1750-1480 B.C.)». KRONOLOJI CELISKISI: kerma.ch Early Kerma 2450-2050; Honegger (Neuchatel, arama ozeti, sayfa ACILAMADI) Early 2550-2050 / Middle 2050-1750 / Classic 1750-1500; ucuncu bir yayin Classic 1750-1580 + Final 1580-1500 verir (arama ozeti, kullanilmadi). Hakemli/kalibre tablo (Bonnet 1999; Honegger 2005 Genava 53; Bonnet-Valbelle) icin tam metin okunamadi -> kutuphane_gerekli. Degerler kalibre 14C sınırı DEGIL, seramik donem adlandirma tarihleridir."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Hierakonpolis HK11C (Naqada IC-IIB iskan)"
   ],
@@ -139,7 +139,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3562–3367 (kaynağın verdiği uçlar); orta nokta MÖ 3464 = astronomik -3463. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «IIB/IIC 3498 3413 (68%) 3562 3367 (95%)». UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP."
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "odak_yer": [
    "Hierakonpolis HK11C (Naqada IC-IIB iskan)"
   ],
@@ -163,7 +163,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   },
   "ic_not_d": "ARALIK→ORTA NOKTA: MÖ 3731–3550 (kaynağın verdiği uçlar); orta nokta MÖ 3640 = astronomik -3639. Harita bu tek günü gösterir, aralık kullanıcıya «~» ile açılır. Güven düzeyi: 95. Kaynaktan okunan: «Naqada IB/IC 3690 3605 (68%) 3731 3550 (95%) [Tablo 1 satiri]». UYARI: kur/bit HK11C'ye ozgu bir Bayes modeli DEGIL; Dee 2013 modelinde Hierakonpolis dortluden biridir ama faz sinirlari butun sahalar icin ortaktir; HK11C'nin IC-IIB atamasi gorece kronolojidir (Friedman). Yardimci veri (IntChron, VERI TABANI KALIBRASYONU, ham degil, ortalama +- sigma, 95.4 DEGIL): HK11 Lokalite 11c/11a komur/odun serisi: WIS-1151 -3517+-87 (Mound A Level 14), WIS-1152 -3695+-83 (Level 6), WIS-1153 -3576+-92, WIS-1168 -3486+-97, W-4353 -3480+-110, UW-104 -3488+-113, UW-105 -3485+-114; WIS-1181 odun -3278+-142 (sapma). Yani kaba MO ~3700-3350. Bunlar 1970-80 ham odun/komur dizisidir (eski-odun etkisi olasi) - sinir olarak kullanma. Burleigh 1983 kabuk (BM-1127A/B) HK33 'boyali mezar', ham 5000+-90 BP."
  },
- {"kapsam": "dis", "bolge": 1, "odak_yer":["Mopti"],
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, "odak_yer":["Mopti"],
   "t": "-9249-01-01",
   "k": "ilk_anilis",
   "b": "Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'nın en erken çanak çömleği (Ounjougou)",
@@ -178,7 +178,7 @@ window.OLAYLAR_ARKEOLOJI_D3_MISIR_AFRIKA = [
   "kaynak_turu": "arkeoloji",
   "ic_not_d": "TEK DEĞER MÖ 9250 (kaynak aralık vermiyor) → orta nokta uygulanmaz. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «pottery as early as 11,200 cal BP». IKI DEGER: Antiquity 2009 ozeti 'before 9400 cal BC' (= >11350 cal BP, ozet arama sonucundan, sayfa okunmadi); Rotunno-Crema 2025 'as early as 11,200 cal BP' = MO 9250 (calBP-1950, bu oturumda). Fark ~150 yil; tek seçim: alt sinir olarak 9400 (Huysecom orijinali) tercih edilirse tam metin sart. Ham HA2 tarihleri (9758+-70 / 9510+-70 BP) HAM, kalibre degil -> sinir olarak yazilmadi."
  },
- {"kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
+ { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1,  "odak_yer":["Aba"], 
   "t": "0000-01-01",
   "k": "kayip",
   "b": "Nok Kulturu (Orta Nijerya): Nok Kültürü sona erer",

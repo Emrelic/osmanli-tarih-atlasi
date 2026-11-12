@@ -31,7 +31,7 @@
 
 window.OLAYLAR_MISIR1801 = [
 
-{ tur:"savas", t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
+{ dunya:2, bolge_onem:2, puan_s:"v2", tur:"savas", t:"1801-05-14", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:3,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Dimyat'ın Fransızlardan alınması — Lesbe kalesinin boşaltılması",
   gun:"14 Mayıs 1801",
@@ -40,7 +40,7 @@ window.OLAYLAR_MISIR1801 = [
   kaynak:"London Gazette sayı 15388 (21 Temmuz 1801) s. 889-890 — Grand Vezir ordugâhından 20 Mayıs 1801 tarihli İngiliz raporu: 'the Capture of Fort Lesbie at Damietta, and two smaller Forts depending on it, by a Detachment from the Vizier's Army' · İbrahim Paşa'nın raporuna göre hücum 'on the Morning of the 14th Instant' hazırlanmışken kale boşaltılmış bulundu · üst sınır teyidi: London Gazette 15385 (15 Temmuz 1801), Lord Keith'in 22 Mayıs mektubu 'After the surrendering of Damietta' · TDV'DE KARŞILIĞI YOK (misir/kahire maddeleri gün vermiyor) — §4 gereği birincil belge künyesiyle yazıldı · KUTU-HATALI-1015 (0082/H-0061)",
   duygu:["🎉"] },
 
-{ tur:"savas", t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
+{ dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1801-06-27", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Kahire'nin Fransızlardan teslim alınması — Belliard'ın kapitülasyonu",
   gun:"27 Haziran 1801",
@@ -50,7 +50,7 @@ window.OLAYLAR_MISIR1801 = [
   kaynak:"Fondation Napoléon, \"Chronologie de la Correspondance générale de Napoléon Bonaparte, tome 3 — Pacifications, 1800-1802\" (napoleon.org) — 27 juin (8 messidor): « Le général Belliard signe la capitulation des troupes françaises en Égypte. » · TDV'DE KARŞILIĞI YOK (ölçüldü: 'misir' maddesinin gövdesinde 1801 geçmiyor; 'kahire' maddesi Fransız işgaline gün vermiyor) — §4 gereği akademik kaynak künyesiyle yazıldı. Süveyş'in aynı güne bağlanması: denetim/YAMA-NAPOLYON-MISIR-0070.json (gün komşudan: Kahire kapitülasyonu)",
   duygu:["🎉"] },
 
-{ tur:"savas", t:"1801-08-31", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
+{ dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1801-08-31", kesinlik:"gun", k:"fetih", kapsam:"ic", onem:4,
   etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"İskenderiye'nin Fransızlardan teslim alınması — Menou'nun kapitülasyonu",
   gun:"31 Ağustos 1801",

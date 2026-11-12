@@ -38,7 +38,7 @@
 // ============================================================================
 window.OLAYLAR_P0059 = [
 
-{ tur:"isyan", kapsam:"ic", t:"1594-11-13", k:"isyan", etiket:["isyan","savas","siyaset","konu-isyan","konu-siyasi","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"isyan", kapsam:"ic", t:"1594-11-13", k:"isyan", etiket:["isyan","savas","siyaset","konu-isyan","konu-siyasi","konu-askeri"],
   b:"Eflak, Boğdan ve Erdel Osmanlı'ya karşı birlikte ayaklandı",
   gun:"13 Kasım 1594",
   yer:"Eflak ve Boğdan (Erdel'in desteğiyle)", yer_id:"Bükreş",

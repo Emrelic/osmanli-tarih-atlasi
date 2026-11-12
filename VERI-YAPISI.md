@@ -367,6 +367,12 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 
 `tur` (isteğe bağlı) kronoloji maddesinin ince türüdür; 70'ten fazla dağınık değer taşır (savas, toprak-kazanc, hukumdar, siyaset…). **Ana tür** okuma tablosu `window.TUR_SINIFLARI = {tur: ana_tur}` (+ görünen adlar `window.TUR_ANA_ADLARI`): askeri · toprak-degisimi · siyasi · hanedan-kisi · diplomasi · hukuk-idari · ekonomi · din · bilim-teknoloji · kultur-sanat · mimari · toplumsal · doga-felaket · spor · diger. Maddedeki `tur`/`k`/`etiket` DEĞİŞMEZ; ana tür türetilir. 🔴 Yeni bir `tur` değeri yazan, `data/tur_siniflari.js`e de eşlemesini ekler (yoksa ana türsüz kalır). Boş `tur` doldurma yalnız ≥%95 saflıkta kuralla yapıldı (holdout %95,5 ince / %97,4 ana); geri kalan, `onem`, `dunya` boşlukları güvenilir ölçütle doldurulamadı: `denetim/KRON-ALAN-1108/BELIRSIZ.md`. `bolge_onem` yalnız öneridir: `denetim/KRON-ALAN-1108/BOLGE-ONEM-ONERI.md`.
 
+### 🆕 Üç skala: `onem` · `bolge_onem` · `dunya` ve `puan_s:"v2"` damgası *(Emre, 10 Kasım 2026 · KRON-ALAN-1108)*
+
+Her kronoloji maddesi üç ayrı önem puanı (1-5) taşıyabilir: **`onem`** olayın kendi devleti/bağlamı için ağırlığı · **`bolge_onem`** 🆕 olayın *ilgili devletleri (taraflar) ve bölgedeki komşu/yakın devletler* için ağırlığı (Macaristan'daki olay Polonya/Sırbistan/Avusturya için önemli, Çin için değil) · **`dunya`** bütün dünya için ağırlığı. Rubrik: `denetim/KRON-ALAN-1108/RUBRIK-3-SKALA.md`. Mantık: `dunya ≥ 4` ise `bolge_onem ≥ 4`; `dunya > bolge_onem` olmaz. `bolge_onem` ESKİ `bolge` alanıyla (dis olayların Osmanlı'ya yakınlığı) karışmasın; ikisi ayrı.
+
+**`puan_s:"v2"` = bu maddenin puanı 10 Kasım 2026 üç-skala rubriğiyle verildi:** o parti `bolge_onem`'i ve o anda BOŞ olan `onem`/`dunya`'yı yazdı (iki bağımsız Sonnet puanlayıcı, ayrılıkta üçüncünün medyanı: 2.921 madde). **`puan_s` olmayan maddenin `onem`/`dunya`'sı ESKİ ölçekle yazılmıştır** (dosya başına farklı kalibrasyon; pilotta eski etiketle yeni puanlayıcı tam uyumu %44/%55) ve `bolge_onem`'i yoktur. Yeni hafta gözden geçirme: `denetim/KRON-ALAN-1108/PUAN-GOZDEN-GECIR.md`. 🔴 Yeni madde yazan, rubriğe göre üçünü de yazar; puanlayan `puan_s` değerini rubrik sürümüyle günceller.
+
 ### 🆕 Arkeoloji alanları — `kaynak_turu` · `aralik` *(Emre, 18 Ekim 2026 · tam kural: `denetim/ARKEOLOJI-KATMANI-SARTNAME-1018.md`)*
 
 Arkeolojik tarihlemeyle ortaya çıkan devlet/şehir/olay maddesi `etiket:["arkeoloji"]` (arayüz süzgeci) **ve** `kaynak_turu:"arkeoloji"` (kural tetikleyici) taşır. Alan yoksa `kaynak_turu` = `"yazili"`.

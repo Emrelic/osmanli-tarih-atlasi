@@ -19,7 +19,7 @@
 window.OLAYLAR_P0051 = [
 
 // ── Hacıbey 1480 ─────────────────────────────────────────────────────
-{ t:"1480-01-01", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1480-01-01", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Hacıbey (Kaçibey) kalesinin Litvanya'nın elinden çıkması",
   gun:"1480", kesinlik:"yil",
   yer:"Hacıbey (Odessa), Karadeniz'in kuzeybatı kıyısı",
@@ -30,7 +30,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Encyclopedia of Ukraine (CIUS), 'Odesa', encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CD%5COdesa.htm (+ 'fortified at the beginning of the 15th century by the Lithuanian grand duke Vytautas the Great') — «In 1480 the fortress was captured by the Turks and renamed Hadzhybei or Khadzhybei.» · Internet Encyclopedia of Ukraine (CIUS), maddeler 'Odesa' ve 'Ochakiv' · TDV bucak (1538)" },
 
 // ── Voronej 1585 ─────────────────────────────────────────────────────
-{ tur:"kurulus", bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Voronej'de bozkıra karşı ileri garnizon kurması",
   gun:"1585", kesinlik:"yil",
   yer:"Voronej, Don havzası, vahşi bozkırın kuzey kenarı",
@@ -41,7 +41,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Internet Encyclopedia of Ukraine (CIUS), madde 'Slobidska Ukraine'" },
 
 // ── Belgorod 1596 ────────────────────────────────────────────────────
-{ tur:"kurulus", bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Belgorod, Oskol ve Kursk'u bozkırda ileri garnizon olarak kurması",
   gun:"1596", kesinlik:"yil",
   yer:"Belgorod, Oskol, Kursk — Sloboda Ukrayna bozkırı",
@@ -55,7 +55,7 @@ window.OLAYLAR_P0051 = [
 // 🆕 Sevkte YOKTU: ③ D dönüşümü Don bozkırı (Sal) · Donets bozkırı · Çerkask'ın
 //   kirim→don-kazak geçişini s:→s:'den v: bitişine çevirdi ⇒ Değişmez 2 kırılması
 //   doğdu (1570-01-01, en yakın madde 203 gün). Tahta M-3902'de bildirildi.
-{ bolge:3, t:"1570-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:3, t:"1570-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
   b:"IV. İvan'ın Don kazaklarına gramotası — Don Kazak Ordası'nın ilk güvenilir kaydı",
   gun:"1570", kesinlik:"yil",
   yer:"Don ve Kuzey Donets bozkırı, Razdory, Azak yolu",

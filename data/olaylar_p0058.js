@@ -14,7 +14,7 @@
 window.OLAYLAR_P0058 = [
 
 // ── 1339 · Eretna Kayseri yöresini bağladı (Zamantı'nın eretna başlangıcı) ──
-{ bolge:3, t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:3, t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Eretna, Tokat, Kayseri ve Samsun yörelerini kendisine bağladı",
   gun:"1339 (ay ve gün kaynakta yok)",
   yer:"Kayseri, Tokat, Samsun yöreleri; Zamantı (Pınarbaşı)",
@@ -25,7 +25,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"Abdullah Kaya, 'Dulkadirli Beyliği'nin Eratnalılar ile Münasebetleri', MKÜ SBE Dergisi 11(25), 2014, s. 89 · eretnaogullari" },
 
 // ── 1360 · Dulkadirli Halil Bey Zamantı'ya kadar genişledi ──────────────
-{ bolge:3, t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", bolge:3, t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Dulkadirli Halil Bey sınırlarını Zamantı'ya kadar genişletti",
   gun:"1360 (ay ve gün kaynakta yok)",
   yer:"Zamantı (Pınarbaşı), Kayseri'nin doğusu",
@@ -36,7 +36,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"dulkadirogullari · Kaya 2014 (MKÜ SBE Dergisi 11/25), s. 90, 92" },
 
 // ── 1394 · İstanbul'un sıkı kuşatması — Bizans tâbiiyeti kopuyor ────────
-{ tur:"savas", t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Yıldırım Bayezid İstanbul'u yeniden sıkı bir kuşatma altına aldı",
   gun:"1394 ilkbaharı (ay ve gün kaynakta yok)",
   yer:"İstanbul",
@@ -47,7 +47,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"bayezid-i · bizans" },
 
 // ── 1424-02-22 · II. Murad–Bizans barışı: Bizans yeniden haraçgüzâr ─────
-{ tur:"antlasma", t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
   gun:"22 Şubat 1424 (21 Rebîülevvel 827)",
   yer:"İstanbul",
@@ -58,7 +58,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"murad-ii · bizans" },
 
 // ── 1514-10-23 · Bayburt ve Kiğı teslim alındı ─────────────────────────
-{ t:"1514-10-23", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1514-10-23", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Bayburt ve Kiğı kaleleri Safevîlerden teslim alındı — Erzincan ile Bayburt Bıyıklı Mehmed Bey'e verildi",
   gun:"Ekim 1514 (Bayburt'un alınışı; gün kaynakta yok) · 23 Ekim 1514 (beylerbeyilik tevcihi)",
   yer:"Bayburt, Kiğı, Erzincan",
@@ -69,7 +69,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"selim-i · bayburt · erzincan" },
 
 // ── 1514-11-24 · Yavuz Amasya'ya döndü (0033/H-0018 eksik madde) ────────
-{ t:"1514-11-24", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1514-11-24", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Yavuz Sultan Selim Tebriz seferinden Amasya'ya döndü ve kışı orada geçirdi",
   gun:"24 Kasım 1514 (gün yalnız Remzi Kılıç'ta; TDV yalnız 'Amasya'ya döndü' der)",
   yer:"Amasya, Niksar",

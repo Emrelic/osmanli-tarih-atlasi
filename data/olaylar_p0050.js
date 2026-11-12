@@ -27,7 +27,7 @@
 window.OLAYLAR_P0050 = [
 
 // ── Bihaç 1527 · ① Cetin seçimi ─────────────────────────────────────
-{ bolge:4, t:"1527-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", bolge:4, t:"1527-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   b:"Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı seçti", yer_id:"Cetin (Cetingrad)",
   gun:"1 Ocak 1527",
   yer:"Cetin (Cetingrad), Hırvatistan Krallığı ve Una-Kupa serhaddi",
@@ -38,7 +38,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"hirvatistan · bihac + Hrvatski sabor, 'Sabor u Cetinu 1527. godine' (sabor.hr, resmî)" },
 
 // ── Bihaç 1527 · ② TDV bihac: Yayça sonrası kısa Osmanlı idaresi (M-3866 hükmü) ──
-{ t:"1527-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1527-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Bihaç'ın kısa süreli Osmanlı idaresi — Mohaç ve Yayça'nın düşüşünün ardından",
   gun:"1527 (Yayça'nın alınmasından sonra; süre 'kısa')",
   yer:"Bihaç (Bihke), Yayça (Jajce), Una serhaddi", yer_id:"Bihaç (Bihać)",
@@ -49,7 +49,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"bihac · bosna-hersek" },
 
 // ── Dubrovnik 1814 ────────────────────────────────────────────────
-{ bolge:2, t:"1814-01-28", k:"siyaset", kapsam:"dis", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:2, t:"1814-01-28", k:"siyaset", kapsam:"dis", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
   b:"Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre Avusturya kuvvetleri girdi",
   gun:"28 Ocak 1814",
   yer:"Dubrovnik (Ragusa), Gruž", yer_id:"Dubrovnik",
@@ -59,7 +59,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"dubrovnik + F. Bona, Kolo 2/2008 (Matica hrvatska) + Državni arhiv u Dubrovniku HR-DADU-310" },
 
 // ── Sırbistan Krallığı 1882 ───────────────────────────────────────
-{ bolge:4, t:"1882-03-06", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", bolge:4, t:"1882-03-06", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   b:"Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü",
   gun:"6 Mart 1882 (Sırp takvimiyle 22 Şubat)",
   yer:"Belgrad, Niş, Semendire, Kragujevac", yer_id:"Belgrad",
@@ -69,7 +69,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sırbistan' (islamansiklopedisi.org.tr/sirbistan)" },
 
 // ── Filistin sivil idaresi 1920 ───────────────────────────────────
-{ t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Filistin'de İngiliz sivil manda idaresi kuruldu — Osmanlı'dan alınan topraklarda askerî yönetimin sonu",
   gun:"1 Temmuz 1920",
   yer:"Kudüs, Gazze, Yafa, Akkâ, Nablus", yer_id:"Kudüs",
@@ -79,7 +79,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"filistin · kudus · gazze + Interim Report on the Civil Administration of Palestine, 1st July 1920–30th June 1921 (HMSO 1921) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Filistin' (islamansiklopedisi.org.tr/filistin) — açıldı, okundu" },
 
 // ── Mısır Krallığı 1922 ───────────────────────────────────────────
-{ t:"1922-03-15", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", t:"1922-03-15", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvanını aldı",
   gun:"15 Mart 1922",
   yer:"Kahire, İskenderiye", yer_id:"Kahire",

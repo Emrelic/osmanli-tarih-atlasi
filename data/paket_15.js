@@ -155,7 +155,7 @@ window.OLAYLAR_P0043B = [
 //
 window.OLAYLAR_P0043KIRIM = [
 
-{ kapsam:"ic", t:"1526-01-01", k:"kazanc", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1526-01-01", k:"kazanc", etiket:["toprak-kazanc","konu-askeri"],
   b:"Kızıkermen (Gazi Kerman) ve Dinyeper'in sağ kıyısının doğrudan Osmanlı denetimine girmesi",
   gun:"1526", ic_not_gun:"(IEU: yalnız yıl, gün yok)",
   yer:"Kızıkermen, Dinyeper ağzı", yer_id:"Kızıkermen (Gazi Kerman)",
@@ -164,7 +164,7 @@ window.OLAYLAR_P0043KIRIM = [
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (kizikermen/gazikerman/gazi-kerman 302, kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\": \"in 1526 assumed direct control of the right bank with Kazi-Kermen as its northern outpost.\" (alıntı yerleşim kaydından AYNEN taşındı, data/yerlesimler_ok106.js:167)",
   duygu:["🎉"] },
 
-{ kapsam:"ic", t:"1791-07-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1791-07-26", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anapa'nın Ruslar tarafından işgali (üçüncü kuşatma)",
   gun:"26 Temmuz 1791",
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",
@@ -173,7 +173,7 @@ window.OLAYLAR_P0043KIRIM = [
   kaynak:"TDV `anapa` (200, gövdesi okundu): \"Savaş süresince Ruslar tarafından üç defa kuşatılan Anapa üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi\" · \"[Yaş Antlaşması ile] Kafkasya'da eski sınırlar kabul edildiğinden Osmanlı Devleti'ne geri verildi.\" (alıntı aynen alındı)",
   duygu:["😔"] },
 
-{ kapsam:"ic", t:"1828-06-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1828-06-24", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anapa'nın Osman Paşa tarafından Ruslara teslimi",
   gun:"24 Haziran 1828",
   yer:"Anapa, Kuban kıyısı", yer_id:"Anapa",
@@ -181,7 +181,7 @@ window.OLAYLAR_P0043KIRIM = [
   d:"1828-29 Osmanlı-Rus Savaşı'nın açılış safhasında Anapa kuşatıldı ve kaledeki Osmanlı kuvvetleri Osman Paşa kumandasında 24 Haziran 1828'de Ruslara teslim oldu. Bu kez teslim kalıcı oldu: ertesi yıl imzalanan Edirne Antlaşması'yla (14 Eylül 1829) Anapa ve Kafkasya resmen Osmanlı hâkimiyetinden çıktı.",
   kaynak:"TDV `anapa` (200, gövdesi okundu): \"Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu\" · \"1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı.\" (alıntı aynen alındı)",
   duygu:["😔"] },
-{ kapsam:"ic", t:"1776-12-03", ic_not_takvim:"Jülyen 22 Kasım 1776 (Dubrovin T.1 №91) = Gregoryen 3 Aralık 1776 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Prozorovski Or Kapı'yı işgal etti — Rus kuvvetleri ilhaka kadar Orkapı'da kaldı", gun:"3 Aralık 1776 (Jülyen 22 Kasım)", yer:"Or Kapı (Perekop)", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Aleksandr Prozorovski, Devlet Giray IV, Şâhin Giray", d:"Şâhin Giray'ı Kırım tahtına çıkarmak için yürüyen General Prozorovski Perekop hattına vardığında Devlet Giray, kaymakam ve Tatarlar şehirden çekilmişti; Prozorovski Or kalesini ve Perekop hattını savaşsız işgal etti. Ruslar Or Kapı'ya yerleşti ve Kırım'ın 1783 ilhakına kadar orada kaldı.", kaynak:"Dubrovin N. F., Присоединение Крыма к России T.1 (SPb 1885) №91 (Prozorovski'nin 28 Kasım 1776 raporu) · sahin-giray (TDV: '1776 Kasımında General Prozorovski, Orkapı’yı alıp Kırım’a girdi') · kirim (TDV: 'Ruslar Orkapı’da da yerleştiler')", ic_not_d:"KAYNAK-1015/G1 · KARAR-UYG-1015: Or Kapı isg 1776-12-03→1783-04-19 kırılmasının çekirdek maddesi (kuyruk kronoloji_kirim.js'te aynı olay).", duygu:["😔"] },
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1776-12-03", ic_not_takvim:"Jülyen 22 Kasım 1776 (Dubrovin T.1 №91) = Gregoryen 3 Aralık 1776 · EMRE KARARI #10 (KARARLAR-EMRE-1015): atlas günleri Gregoryen", k:"kayip", etiket:["savas","toprak-kayip","konu-askeri"], b:"Prozorovski Or Kapı'yı işgal etti — Rus kuvvetleri ilhaka kadar Orkapı'da kaldı", gun:"3 Aralık 1776 (Jülyen 22 Kasım)", yer:"Or Kapı (Perekop)", yer_id:"Or Kapı (Ferahkirman)", kisiler:"Aleksandr Prozorovski, Devlet Giray IV, Şâhin Giray", d:"Şâhin Giray'ı Kırım tahtına çıkarmak için yürüyen General Prozorovski Perekop hattına vardığında Devlet Giray, kaymakam ve Tatarlar şehirden çekilmişti; Prozorovski Or kalesini ve Perekop hattını savaşsız işgal etti. Ruslar Or Kapı'ya yerleşti ve Kırım'ın 1783 ilhakına kadar orada kaldı.", kaynak:"Dubrovin N. F., Присоединение Крыма к России T.1 (SPb 1885) №91 (Prozorovski'nin 28 Kasım 1776 raporu) · sahin-giray (TDV: '1776 Kasımında General Prozorovski, Orkapı’yı alıp Kırım’a girdi') · kirim (TDV: 'Ruslar Orkapı’da da yerleştiler')", ic_not_d:"KAYNAK-1015/G1 · KARAR-UYG-1015: Or Kapı isg 1776-12-03→1783-04-19 kırılmasının çekirdek maddesi (kuyruk kronoloji_kirim.js'te aynı olay).", duygu:["😔"] },
 ];
 
 ;
@@ -297,7 +297,7 @@ window.OLAYLAR_P0044 = [
 
 window.OLAYLAR_P0047 = [
 
-{ kapsam:"dis", bolge:3, t:"1511-08-10", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ onem:5, dunya:4, bolge_onem:5, puan_s:"v2", kapsam:"dis", bolge:3, t:"1511-08-10", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Malaka'nın Portekizlilerce alınması",
   gun:"10 Ağustos 1511", yer:"Malaka (Malay yarımadası)", yer_id:"Malaka",
   kisiler:"Afonso de Albuquerque",
@@ -349,7 +349,7 @@ window.OLAYLAR_P0047 = [
 
 window.OLAYLAR_P0048 = [
 
-{ tur:"isyan", kapsam:"ic", t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"isyan", kapsam:"ic", t:"1592-01-01", k:"isyan", etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
   b:"Luristan hâkimi Şâhverdi'nin Şah Abbas'a bağlılık bildirmesi",
   gun:"1000 (1591-92) — kaynak yalnız yılı veriyor",
   yer:"Luristan (Hürremâbâd)", yer_id:"Luristan",
@@ -360,7 +360,7 @@ window.OLAYLAR_P0048 = [
   kaynak:"Eskandar Beg Monshi, History of Shah ʿAbbas the Great, çev. R. M. Savory (Boulder 1978), II s.642-643: 'Sahverdi then became the vassal of the Ottoman governor of Baghdad … In the year 1000/1591-92 … Šāhverdī was forced to declare his allegiance to the Safavid crown' · s.643: 'Šāhverdī began to molest the governors of Hamadan and to make raids on Borüjerd' · s.644: 'the Shah … occupied Korramābād and made Mahdīgolī Khan Šāmlū governor of the city (1002/1593-94)' · Kütükoğlu, Osmanlı-İran Siyâsî Münâsebetleri I (1962) s.183 (Eyvân itaati 997/1589) · luristan (TDV): 'Bir ara 998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603).'",
   duygu:["✊"] },
 
-{ kapsam:"ic", t:"1603-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1603-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Luristan'ın Safevîlere kesin olarak geçmesi",
   gun:"1603 — kaynak yalnız yılı veriyor",
   yer:"Luristan (Hürremâbâd), Nihâvend", yer_id:"Luristan",
@@ -403,7 +403,7 @@ window.OLAYLAR_P0048 = [
 window.OLAYLAR_P0049 = [
 
 // ── 0042/H-0004 — Katalan seferinin başı ───────────────────────────
-{ kapsam:"dis", bolge:2, t:"1303-09-01", kesinlik:"ay", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"dis", bolge:2, t:"1303-09-01", kesinlik:"ay", k:"sefer", etiket:["savas","diplomasi","konu-askeri","konu-diplomasi"],
   b:"Katalan Kumpanyası Bizans hizmetine girdi — Anadolu seferinin başlangıcı",
   gun:"Eylül 1303",
   ic_not_gun:"W52b/1006: AY kaynaklı (GEC + Bilkent tezi, kaynak alanında) → 1303-09-01 + kesinlik:ay; gün bulunamadı. Önceki not: TDV bizans yıl verir, gün vermez; savaslar.js sefer f:1303-09-01 ve kronoloji_katalan.js 1303-09-01 atlas kaydıdır, DAYANAK DEĞİLDİR (bu değişiklik onlara değil yukarıdaki iki kaynağa dayanır). ⚠️ js/app.js sefer kırpması çapayı seferin t'sine (1305-06-01) bağlıyor; bu madde okun görünür başlangıcını tek başına öne çekmez (rapor §0042/H-0004).",
@@ -414,7 +414,7 @@ window.OLAYLAR_P0049 = [
   kaynak:"bizans · alasehir · Gran Enciclopèdia Catalana, \"expedició dels almogàvers a Orient\" (enciclopedia.cat): \"Trenta-sis vaixells partiren del port de Messina a l'estiu del 1303, i arribaren a Constantinoble pel setembre\" · Yunus Doğan, \"The Transformation of an Itinerant Army: From the Catalan Company to the Catalan Duchy of Athens and Neopatras (1303-1388)\", yüksek lisans tezi, İhsan Doğramacı Bilkent Üniv. Tarih Bölümü (danışman Luca Zavagno), 2019: \"The Catalan Company arrived at Constantinople in September 1303\"" },
 
 // ── 0020/H-0013 — Ahıska ───────────────────────────────────────────
-{ kapsam:"ic", t:"1578-08-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1578-08-09", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Ahıska atabegliğinin Osmanlı idaresine girmesi — Altunkale, Hırtıs ve Ahılkelek",
   gun:"Ağustos 1578, Çıldır zaferinin hemen ardından",
   ic_not_b:"denetle.py mükerrer denetimi ilk yazımda bu maddeyi olaylar_ek2.js 'Çıldır Zaferi — doğu savaşı başladı' (aynı gün) ile eşleştirdi: ortak 'Çıldır zaferi' başlık kelimeleri + 'Mustafa' (Lala Mustafa Paşa ↔ Menûçihr'in sonraki adı Mustafa Paşa). İki olay AYRI: biri meydan savaşı, öteki savaşın ardından atabeg ülkesinin itaati (TDV cildir-eyaleti). YALNIZ başlık konuya indirildi ('Çıldır zaferinin ardından' gun alanında duruyor); kişi alanı KORUNDU, çift bu yüzden denetle.py ZAYIF (ihlal olmayan gözden geçirme) listesinde [kişi:mustaf] olarak görünür — bilerek. Ayrılık beyanı (BILINEN_AYRI) arac/denetle.py sahibinin kararı — rapora yazıldı.",
@@ -425,7 +425,7 @@ window.OLAYLAR_P0049 = [
   kaynak:"ahiska · cildir-eyaleti · lala-mustafa-pasa" },
 
 // ── POSTIT-96 — Megrelya (Dadyan) Amasya'da Osmanlı nüfuz bölgesine bırakıldı ──
-{ tur:"antlasma", kapsam:"ic", t:"1555-05-29", k:"antlasma", etiket:["diplomasi","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1555-05-29", k:"antlasma", etiket:["diplomasi","konu-diplomasi"],
   b:"Megrelya (Dadyan) beyliği Osmanlı nüfuz bölgesine bırakıldı",
   gun:"29 Mayıs 1555 (Amasya Antlaşması günü)",
   ic_not_gun:"Gün Amasya Antlaşması'nın günüdür (olaylar.js); TDV gurcistan Dadyan'ın Amasya ile Osmanlı'ya bırakıldığını söyler, ayrı gün vermez. GÜN KOMŞUDAN değil, aynı belgenin günü.",
@@ -438,7 +438,7 @@ window.OLAYLAR_P0049 = [
 //   Ayaklanmanın başı ZATEN VAR: olaylar_ek10.js 1594-10-05 (üç voyvodalık)
 //   ve 1594-11-13 (Bükreş, Tuna kalelerine saldırı). Eksik olan, kaynakta
 //   ADIYLA geçen kale olaylarıydı.
-{ tur:"savas", kapsam:"ic", t:"1595-01-01", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1595-01-01", k:"savas", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   b:"Cesur Mihail'in Tuna kalelerine akınları — Rusçuk yakıldı, İbrâil alındı, Silistre yağmalandı",
   gun:"Ocak – ilkbahar 1595",
   ic_not_gun:"Kaynaklar ay/mevsim veriyor, gün vermiyor → yıl kodu 1595-01-01 (§4). TDV murad-iii İbrâil kalesinin yakılmasını 'Ocak 1595', TDV ibrail zaptını '1595 Martında' verir — iki TDV maddesi ayrışıyor, bildirildi. TDV ruscuk 'Şubat 1595', TDV silistre '1595 ilkbaharı'. D147: 1595-01-01 ±30 günde maddesiz kırılma YOK (ölçüldü). Yerleşim tarafı: İbrail'in 1595-1601 Mihail idaresi atlasta yok (d 1538→1829) — B önerisi YAMA-A3-0913.json.",
@@ -450,7 +450,7 @@ window.OLAYLAR_P0049 = [
 // ── 0035/H-0090 — savaş başlangıçları, ilk parti ───────────────────
 //   Plan ve mevcut başlangıç maddelerinin dökümü raporda. Bu partide yalnız
 //   TDV'nin GÜNÜYLE verdiği iki başlangıç adımı yazıldı.
-{ tur:"savas", kapsam:"ic", t:"1711-04-09", k:"sefer", etiket:["savas","sefer","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1711-04-09", k:"sefer", etiket:["savas","sefer","konu-askeri"],
   b:"Prut Seferi başladı — 1710-1711 Osmanlı-Rus Savaşı'nda ordu İstanbul'dan çıktı",
   gun:"9 Nisan 1711",
   yer:"İstanbul", yer_id:"İstanbul",
@@ -458,7 +458,7 @@ window.OLAYLAR_P0049 = [
   d:"Rusya'nın Osmanlı topraklarına saldırması, Çar Petro'nun 1700 İstanbul Antlaşması'nın hükümlerine uymaması ve Kırım Hanı Devlet Giray'ın teşvikleri III. Ahmed'i Rusya'ya savaş ilan etmeye götürmüştü. TDV'nin III. Ahmed maddesine göre sonradan Prut Seferi adıyla anılacak bu savaş, Osmanlı ordusunun 9 Nisan 1711'de İstanbul'dan hareketiyle fiilen başladı. Baltacı Mehmed Paşa kumandasındaki ordu Kırım kuvvetleriyle birleşerek Prut nehrine doğru ilerledi; sefer Temmuz'da Rus ordusunun Prut kıyısında sıkıştırılmasıyla sonuçlanacaktı.",
   kaynak:"ahmed-iii" },
 
-{ tur:"savas", kapsam:"ic", t:"1787-07-27", k:"diplomasi", etiket:["diplomasi","savas","konu-askeri","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1787-07-27", k:"diplomasi", etiket:["diplomasi","savas","konu-askeri","konu-diplomasi"],
   b:"Rus elçisine ültimatom — 1787-1792 Osmanlı-Rus Savaşı'na giden son adım",
   gun:"27 Temmuz 1787",
   yer:"İstanbul", yer_id:"İstanbul",
@@ -474,7 +474,7 @@ window.OLAYLAR_P0049 = [
 //   ⚠️ Beş maddede harita KIPIRDAMAZ: atlas Kars · Ardahan · Artvin · Antalya
 //   için 1919-1921 işgal/Ermeni dönemini taşımıyor — madde kaynaklı, eksik
 //   olan yerleşim tarafı (B, YAMA-A3-0913.json).
-{ kapsam:"ic", t:"1919-04-12", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1919-04-12", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
   b:"Kars'ın İngiliz işgali — Cenûb-ı Garbî Kafkas Hükûmeti dağıtıldı",
   gun:"12 Nisan 1919",
   ic_not_gun:"TDV kars '12 Nisan 1919', TDV ahiska '13 Nisan 1919' — bir günlük ayrışma, şehir maddesi esas alındı. Yerleşim tarafı 13 Ekim 2026'da indi: Kars grubu Osmanlı d: 1918-04-25→1919-04-30 (Cenûb-ı Garbî Kafkas/İngiliz dönemi künyesiz, d: ile temsil), ardından Ermeni idaresi.",
@@ -482,7 +482,7 @@ window.OLAYLAR_P0049 = [
   d:"Mondros Mütarekesi'nin 1914 sınırlarına çekilme hükmü gereği Osmanlı ordusu Kars'ı boşaltmıştı. Bölge halkı Ermeni ve Gürcü saldırılarına karşı 5 Kasım 1918'de Kars İslâm Şûrası'nı kurdu ve Ocak 1919'daki kongreyle bunu Cenûb-ı Garbî Kafkas Hükûmet-i Muvakkate-i Milliyesi'ne dönüştürdü. TDV'nin Kars maddesine göre İngilizler 12 Nisan 1919'da Kars'ı işgal edip bu hükümeti dağıttı, üyelerini tutuklayarak sürgüne gönderdi ve şehrin denetimini Ermenilere bıraktı.",
   kaynak:"kars · ahiska" },
 
-{ kapsam:"ic", t:"1919-04-29", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1919-04-29", k:"kayip", etiket:["isgal","toprak-kayip","konu-askeri"],
   b:"Antalya'nın İtalyan işgali",
   gun:"29 Nisan 1919",
   ic_not_gun:"Gün TDV antalya. Atlas Antalya'yı 1920-04-23'e kadar OSMANLI gösteriyor, İtalyan işgal dönemi yok — yerleşim tarafı B.",
@@ -490,14 +490,14 @@ window.OLAYLAR_P0049 = [
   d:"Mondros Mütarekesi'nin ardından İtilaf devletleri Anadolu'da işgal bölgelerine yerleşirken İtalya güneybatı Anadolu'ya yöneldi. TDV'nin Antalya maddesine göre şehir ve çevresi, mütareke hükümlerine dayanılarak 29 Nisan 1919'da İtalyanlar tarafından işgal edildi. İşgal yaklaşık iki yıl sürecekti.",
   kaynak:"antalya" },
 
-{ tur:"savas", kapsam:"ic", t:"1920-02-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1920-02-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
   b:"Maraş'ın kurtuluşu — Fransızlar şehri boşalttı",
   gun:"11-12 Şubat 1920",
   yer:"Maraş", yer_id:"Maraş", kisiler:"Sütçü İmam, Doktor Mustafa Bey, General Queratte",
   d:"İngilizlerin 22 Şubat 1919'da işgal ettiği Maraş, iki devlet arasındaki anlaşmayla 29 Ekim 1919'da Fransızlara bırakılmıştı. Fransız birlikleri içindeki Ermenilerin tutumu ve kaledeki Türk bayrağının indirilmesi halkı ayaklandırdı; şehirde Müdâfaa-i Hukuk Cemiyeti ve Kuvâ-yi Milliye örgütlendi. TDV'nin Kahramanmaraş maddesine göre çatışmaların sonunda Fransızlar 11 Şubat 1920'de şehri boşaltıp İslâhiye yönüne çekilmeye başladı ve Maraş 11-12 Şubat'ta kurtuldu. Şehre 1925'te İstiklâl madalyası verildi.",
   kaynak:"kahramanmaras" },
 
-{ tur:"savas", kapsam:"ic", t:"1920-04-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1920-04-11", k:"savas", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
   b:"Urfa'nın kurtuluşu — Fransız garnizonu şehri terk etti",
   gun:"11 Nisan 1920 (anlaşma 10 Nisan)",
   ic_not_gun:"TDV sanliurfa: Fransızlar 10 Nisan 1920'de anlaşmayla boşaltmayı kabul etti, ertesi gün şehri terk etti. Atlasın isg dönemi 1920-04-10'da bitiyor ve kendi notu 'TÜRETİLDİ — doğrulanmadı' diyor; TDV'ye göre çıkış 11 Nisan — yerleşim tarafı B.",
@@ -505,14 +505,14 @@ window.OLAYLAR_P0049 = [
   d:"Mart 1919'da İngilizlerin, yedi ay kadar sonra da Fransızların işgal ettiği Urfa'da halk 7 Şubat 1920'de işgal kuvvetlerine karşı ayaklandı. TDV'nin Şanlıurfa maddesine göre iki ay süren çarpışmaların ardından Fransızlar 10 Nisan 1920'de anlaşma şartlarıyla Urfa'yı boşaltmayı kabul etti ve ertesi gün şehirden çıktı.",
   kaynak:"sanliurfa" },
 
-{ tur:"savas", kapsam:"ic", t:"1920-09-28", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:1, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1920-09-28", k:"savas", etiket:["savas","konu-askeri"],
   b:"Doğu Cephesi harekâtı başladı — Kâzım Karabekir Ermenistan'a karşı taarruza geçti",
   gun:"28 Eylül 1920",
   yer:"Soğanlı dağı geçitleri, Sarıkamış", yer_id:"Sarıkamış", kisiler:"Kâzım Karabekir Paşa",
   d:"Sevr Antlaşması'nın Erzurum, Trabzon, Van, Bitlis ve Bingöl'ü Ermenistan'a bırakması ve bölgedeki Ermeni saldırılarının artması üzerine TBMM hükümeti 20 Eylül 1920'de harekâta izin verdi. TDV'nin Kâzım Karabekir maddesine göre Şark Cephesi Kumandanı Karabekir, Soğanlı dağı geçitlerini tutan birliklerine taarruz emri vererek 28 Eylül'de doğu harekâtını başlattı. Sarıkamış, Göle ve Kağızman alındı; harekât bir ay sonra Kars'ın kurtarılmasıyla sürecekti.",
   kaynak:"kazim-karabekir" },
 
-{ kapsam:"ic", t:"1920-10-30", k:"fetih", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1920-10-30", k:"fetih", etiket:["savas","kurtulus","toprak-kazanc","konu-askeri"],
   b:"Kars'ın kurtuluşu — Doğu Cephesi Kars'a girdi",
   gun:"30 Ekim 1920",
   ic_not_gun:"Gün TDV kars ve kazim-karabekir (iki madde uyuşuyor). Yerleşim tarafı 13 Ekim 2026'da indi: Kars grubu 1919-04-30→1920-10-30 ermenistan-demokratik-cumhuriyeti, 1920-10-30'dan tbmm-turkiye.",
@@ -520,7 +520,7 @@ window.OLAYLAR_P0049 = [
   d:"TDV'nin Kars maddesine göre Kâzım Karabekir Paşa 30 Ekim 1920'de Kars'a girdi ve şehir, İngilizlerin 1919'da denetimini bıraktığı Ermeni idaresinden kurtarıldı. Karabekir maddesi bunun Kars'ın ikinci kurtuluşu olduğunu vurgular: şehir ilk kez Nisan 1918'de Ermenilerden alınmıştı. Doğu Cephesi ilerleyerek 7 Kasım'da Gümrü'yü aldı; savaş 3 Aralık 1920'deki Gümrü Antlaşması ile sona erdi.",
   kaynak:"kars · kazim-karabekir" },
 
-{ tur:"savas", kapsam:"ic", t:"1920-11-07", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1920-11-07", k:"savas", etiket:["savas","konu-askeri"],
   b:"Gümrü'nün alınışı — Doğu Cephesi Ermenistan içlerine ilerledi",
   gun:"7 Kasım 1920",
   yer:"Gümrü (Aleksandropol)", yer_id:"Gümrü (Aleksandropol)", kisiler:"Kâzım Karabekir Paşa",
@@ -528,7 +528,7 @@ window.OLAYLAR_P0049 = [
   kaynak:"kazim-karabekir · kars",
   ic_not_d:"KUTU-E-1014 (Emre 0039/H-0004 ikinci parti). TDV kazim-karabekir birebir: 'Harekâta devam ederek 7 Kasım'da Gümrü'yü ve 12 Kasım'da Iğdır'ı aldı.' ⚠️ Haritada Gümrü (Aleksandropol) 1917-11-07→1991 kesintisiz sovyet-rusya; 1918-1920 Ermenistan ve Kasım 1920 Türk işgali VERİDE YOK (ayrı VERI işi)." },
 
-{ kapsam:"ic", t:"1920-11-12", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1920-11-12", k:"fetih", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Iğdır'ın alınışı",
   gun:"12 Kasım 1920",
   yer:"Iğdır", yer_id:"Iğdır", kisiler:"Kâzım Karabekir Paşa",
@@ -536,14 +536,14 @@ window.OLAYLAR_P0049 = [
   kaynak:"kazim-karabekir",
   ic_not_d:"KUTU-E-1014. TDV kazim-karabekir birebir: '… 12 Kasım'da Iğdır'ı aldı.' ⚠️ Haritada Iğdır 1920-12-03'te (Gümrü Antlaşması) tbmm-turkiye'ye geçiyor; fiilî alınış 12 Kasım — s: sınırının 1920-11-12'ye çekilmesi ayrı VERI işi (yerlesimler_ek26.js)." },
 
-{ tur:"savas", kapsam:"ic", t:"1921-02-09", k:"kayip", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1921-02-09", k:"kayip", etiket:["savas","konu-askeri"],
   b:"Antep savunmasının sonu — şehir on ay direndikten sonra Fransızlara bırakıldı",
   gun:"7-9 Şubat 1921",
   yer:"Antep", yer_id:"Antep", kisiler:"Şâhin Bey",
   d:"İngilizlerin 17 Aralık 1918'de girdiği Antep, 5 Kasım 1919'da Fransızlara bırakılmıştı; Antep-Kilis hattındaki ilk direnişi Şâhin Bey yönetti. TDV'nin Gaziantep maddesine göre şehir halkı 1 Nisan 1920'den 7 Şubat 1921'e kadar Fransız kuvvetlerine karşı direndi; direniş kırılınca savunmadaki kuvvetler geri çekildi ve Fransızlar 9 Şubat'ta şehre hâkim oldu. TBMM, işgale on ay dayanan şehre bundan üç gün önce, 6 Şubat 1921'de gazilik unvanı vermişti. Antep, Ankara Antlaşması'nın ardından 25 Aralık 1921'de boşaltılacaktı.",
   kaynak:"gaziantep" },
 
-{ kapsam:"ic", t:"1921-02-23", k:"fetih", etiket:["kurtulus","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1921-02-23", k:"fetih", etiket:["kurtulus","toprak-kazanc","konu-askeri"],
   b:"Ardahan ve Artvin'in kurtuluşu",
   gun:"23 Şubat 1921",
   ic_not_gun:"Gün TDV ardahan ve kazim-karabekir. Yerleşim tarafı 13 Ekim 2026'da indi: Ardahan grubu gurcistan-demokratik-cumhuriyeti 1919-04-20→1921-02-23, Artvin grubu 1920-04→1921-02-23; ikisi de bu günden tbmm-turkiye.",
@@ -551,14 +551,14 @@ window.OLAYLAR_P0049 = [
   d:"Gümrü Antlaşması'ndan sonra Doğu Cephesi, elviye-i selâsenin Gürcistan elindeki kısmına yöneldi. TDV'nin Ardahan maddesine göre Gürcü ve Ermeni çeteleriyle süren mücadelenin sonunda 23 Şubat 1921'de Artvin ile birlikte Ardahan sancağı da kurtarıldı. Kâzım Karabekir maddesi bu hamleyle Çürüksu, Acara ve Batum kazaları dışında kalan elviye-i selâse topraklarının geri alındığını yazar.",
   kaynak:"ardahan · kazim-karabekir" },
 
-{ tur:"antlasma", kapsam:"ic", t:"1921-03-16", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1921-03-16", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
   gun:"16 Mart 1921",
   yer:"Moskova; Kars, Ahıska", yer_id:"Kars", kisiler:"",
   d:"TBMM hükümeti ile Sovyet Rusya arasında 16 Mart 1921'de Moskova Antlaşması imzalandı. TDV'nin Kars maddesine göre bu antlaşma ile 13 Ekim 1921'deki Kars Antlaşması'nın sınır düzenlemeleri sonucunda Kars yeni Türk devletinin sınırları içinde kaldı. Ahıska maddesine göre ise Ahıska bu antlaşmayla Gürcistan Sovyet Sosyalist Cumhuriyeti'nin Tiflis vilâyetine bağlandı. Doğu sınırı, yedi ay sonra Güney Kafkasya cumhuriyetleriyle imzalanan Kars Antlaşması'yla kesinleşecekti. Bu antlaşmayla Batum ve Acara (Hulo, Sarp, Murvaneti, Makhalak'auri) Sovyet Gürcistanı'na bırakıldı.",
   kaynak:"kars · ahiska · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Batum' ve 'Ahıska'" },
 
-{ kapsam:"ic", t:"1921-06-01", k:"siyaset", etiket:["kurtulus","toprak-kazanc","konu-askeri","konu-siyasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1921-06-01", k:"siyaset", etiket:["kurtulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"İtalyanlar Antalya'yı boşaltmaya başladı",
   gun:"1 Haziran 1921",
   ic_not_gun:"Gün TDV antalya. Yerleşim tarafı yazıldı: yerlesimler.js Antalya isg:italya {1919-04-29→1921-06-01} (TDV antalya, GEMINI-DOGRULA 0919) — harita bu gün kıpırdar; 2t isg havuzu bu maddeyi kapatır (KIRILMASIZ-9, 19 Eyl 2026).",
@@ -570,84 +570,84 @@ window.OLAYLAR_P0049 = [
 // yerleşim kırılmasını (d:/v:) kronolojiye bağlar (Değişmez 2) ve kaynağı
 // TDV'dir; kaynak dışı ayrıntı yazılmadı.
 // =====================================================================
-{ tur:"vassal", kapsam:"ic", t:"1538-11-27", k:"vassal", etiket:["toprak-kazanc"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"vassal", kapsam:"ic", t:"1538-11-27", k:"vassal", etiket:["toprak-kazanc"],
   b:"Hadramut ve Şihr hâkimi Osmanlı hâkimiyetini tanıdı — Hadım Süleyman Paşa'nın Hint seferi dönüşü",
   gun:"27 Kasım 1538",
   ic_not_gun:"TDV suleyman-pasa-hadim: '27 Kasım 1538'de Şihr Limanı'na uğradı' — itaatin kendi günü yok, gün Şihr'e uğramanındır (en erken sınır). Yerleşim: Seyûn v:'Kesîrî reisleri (tâbi)' 1538-11-27 (eski 1538-01-01 seferin çıkışından önceydi). KUTU-A-1014 (0088/H-0048).",
   yer:"Şihr, Hadramut, Seyûn", yer_id:"Seyûn (Sayvan)", kisiler:"Hadım Süleyman Paşa",
   d:"Diu kuşatmasından dönen Hadım Süleyman Paşa 27 Kasım 1538'de Şihr Limanı'na uğradı; Hadramut ve Şihr hâkimi Osmanlı hâkimiyetini kabul edince Aden'e geçti. Hadramut Yemen'e bağlı bir sancak olarak teşkilâtlandırıldı, ama bölgede idareyi Kesîrî kabilesinin reisleri elinde tutmayı sürdürdü. Bu tâbilik, Osmanlıların 1635'te Yemen'den çekilmesine kadar sürdü.",
   kaynak:"suleyman-pasa-hadim" },
-{ kapsam:"ic", t:"1603-01-01", k:"kayip", etiket:["toprak-kayip"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1603-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Şah Abbas Tiflis'i geri aldı — Kartli ve Kaheti'de Osmanlı idaresinin sonu",
   gun:"1603",
   ic_not_gun:"TDV tiflis '1603'te Tiflis Şah Abbas'ın eline geçti' · TDV gurcistan '1603'te Şah I. Abbas Tiflis şehrini Osmanlılar'dan geri alıp Kartli'yi hanlık olarak ilân etti' — YIL, ay/gün yok. ⚠️ YYYY-01-01 kuralı bu maddeyi Abbas'ın 1603 sonbahar seferinden (Tebriz 21 Ekim 1603) önceye düşürür; sıra beyanlıdır. Eski yerleşim ucu 1606, TDV'deki II. Luarsab'ın tahta çıkışı / Lori-Tumanıs yılıydı, Tiflis'in değil. Yerleşim: Tiflis d · Zagem v · Gori d · Telavi v. KUTU-A-1014 (0081/H-0051).",
   yer:"Tiflis, Gori, Zagem (Kaheti), Telavi", yer_id:"Tiflis", kisiler:"I. Abbas",
   d:"Şah I. Abbas 1603'te Tiflis'i Osmanlılar'dan geri aldı ve Kartli'yi hanlık olarak ilân etti; Kahet'te de Safevî idaresi kuruldu. 1578'de Lala Mustafa Paşa'nın seferiyle başlayan Osmanlı'nın Doğu Gürcistan'daki idaresi böylece sona erdi; Tiflis ancak 1723'te yeniden Osmanlı eline geçecekti.",
   kaynak:"tiflis" },
-{ kapsam:"ic", t:"1587-01-01", k:"idari", etiket:["toprak-kazanc"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1587-01-01", k:"idari", etiket:["toprak-kazanc"],
   b:"Gori eyaleti kuruldu — Kartli'nin batısında doğrudan Osmanlı idaresi",
   gun:"1587",
   ic_not_gun:"TDV gurcistan: 'batı bölgesinde Gori eyaletini (1587) kurmuş' — YIL. Yerleşim: Gori v (1578 itaat) → d 1587. KUTU-A-1014 (0080/H-0020).",
   yer:"Gori", yer_id:"Gori", kisiler:"",
   d:"1578'de Gori ve Muhran kesimlerindeki Gürcü beyleri Osmanlılar'a itaat etmişti. 1587'de Kartli'nin batısında Gori eyaleti kuruldu ve bölge doğrudan Osmanlı idaresine bağlandı. Gürcü Simon'un isyanı sırasında elden çıkan Gori Kalesi 1601'de geri alındı; Osmanlı idaresi 1603'te Şah Abbas'ın seferiyle sona erdi.",
   kaynak:"gurcistan" },
-{ kapsam:"ic", t:"1579-07-26", k:"fetih", etiket:["toprak-kazanc"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1579-07-26", k:"fetih", etiket:["toprak-kazanc"],
   b:"Kılıç Ali Paşa Faş (Poti) Kalesi'ni inşa etti — Rioni ağzında Osmanlı üssü",
   gun:"26 Temmuz 1579",
   ic_not_gun:"TDV fas--gurcistan (M. Aydın 2020): '26 Temmuz 1579'da Faş Kalesi'ni inşa etti' · TDV kilic-ali-pasa 987/1579. Yerleşim: Poti (Faş Kalesi) d. KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"Kılıç Ali Paşa",
   d:"Kaptan-ı derya Kılıç Ali Paşa, Rioni (Faş) ırmağının Karadeniz'e döküldüğü yerde 26 Temmuz 1579'da Faş Kalesi'ni inşa etti.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1640-01-01", k:"kayip", etiket:["toprak-kayip"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1640-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Faş (Poti) Kalesi İmereti, Guria ve Megrelya birliklerince yıkıldı",
   gun:"1640",
   ic_not_gun:"TDV fas--gurcistan: '1640'ta Faş Kalesi, Gürya ve Mingrelli prenslerin katılımıyla İmeretiya birlikleri tarafından yerle bir edildi' — YIL. 1640-1724 sahibi ADIYLA yok ⇒ yerleşimde __BOSLUK__. KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"Faş Kalesi 1640'ta Guria ve Megrelya prenslerinin katıldığı İmereti birliklerince yerle bir edildi. Rioni ağzındaki Osmanlı varlığı, kalenin 1724'te yeniden kurulmasına kadar kesildi.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1724-03-01", k:"fetih", etiket:["toprak-kazanc"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1724-03-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Faş (Poti) Kalesi'nin yeniden inşasına başlandı",
   gun:"Mart 1724",
   ic_not_gun:"TDV fas--gurcistan: inşa kararı 23 Aralık 1723 · 'Kalenin inşasına Mart 1724'te başlandı' (AY hassasiyeti; 1724-03-01 ayın ilk günüdür) · inşaat 1729'da bitti. KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"23 Aralık 1723'te alınan kararla yıkık Faş Kalesi'nin yeniden inşasına Mart 1724'te başlandı; inşaat 1729'da tamamlandı.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1809-11-27", k:"kayip", etiket:["toprak-kayip"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1809-11-27", k:"kayip", etiket:["toprak-kayip"],
   b:"Rus kuvvetleri Faş (Poti) Kalesi'ni aldı — Rioni ağzı elden çıktı",
   gun:"27 Kasım 1809",
   ic_not_gun:"TDV fas--gurcistan: Mayıs 1809 saldırısı başarısız; 'Bu defa 27 Kasım 1809'da' kale Ruslara teslim edildi. KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"1806-1812 Osmanlı-Rus savaşı sırasında Mayıs 1809'daki Rus saldırısı başarısız oldu; ancak kale 27 Kasım 1809'da Ruslara teslim edildi.",
   kaynak:"fas--gurcistan" },
-{ tur:"antlasma", kapsam:"ic", t:"1812-12-19", k:"antlasma", etiket:["toprak-kazanc","antlasma"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1812-12-19", k:"antlasma", etiket:["toprak-kazanc","antlasma"],
   b:"Bükreş Antlaşması gereğince Faş (Poti) Kalesi Osmanlı'ya geri verildi",
   gun:"19 Aralık 1812",
   ic_not_gun:"TDV fas--gurcistan: '1812 Bükreş Antlaşması gereğince Faş Kalesi … Osmanlı Devleti'ne verildi (19 Aralık 1812)' — teslim günü (antlaşmanın imzası değil). KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"1812 Bükreş Antlaşması gereğince Faş Kalesi 19 Aralık 1812'de Osmanlı Devleti'ne teslim edildi.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1828-06-26", k:"kayip", etiket:["toprak-kayip"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1828-06-26", k:"kayip", etiket:["toprak-kayip"],
   b:"Faş (Poti) Kalesi ikinci kez Rus eline geçti — Edirne Antlaşması'yla Rusya'da kaldı",
   gun:"26 Haziran 1828",
   ic_not_gun:"TDV fas--gurcistan: '26 Haziran 1828'de Ruslar'a teslim edildi' · TDV edirne-antlasmasi: 'Ahıska, Ahılkelek, Anapa, Poti gibi kalelerle' (14 Eylül 1829). Yerleşim: s:rusya 1828-06-26'dan (Kars deseni). KUTU-A-1014 (0074/H-0014).",
   yer:"Poti (Faş Kalesi)", yer_id:"Poti (Faş Kalesi)", kisiler:"",
   d:"1828-1829 Osmanlı-Rus savaşının başında Faş Kalesi 26 Haziran 1828'de Ruslara teslim edildi. 14 Eylül 1829 Edirne Antlaşması'yla Ahıska, Ahılkelek ve Anapa ile birlikte Poti de Rusya'ya bırakıldı.",
   kaynak:"fas--gurcistan" },
-{ kapsam:"ic", t:"1733-08-17", k:"kayip", etiket:["toprak-kayip"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1733-08-17", k:"kayip", etiket:["toprak-kayip"],
   b:"Nâdir Şemâhî'ye girdi — Şirvan'ın merkezi Osmanlı'dan çıktı",
   gun:"17 Ağustos 1733",
   ic_not_gun:"TDV sirvan: 'Nâdir Şah 17 Ağustos 1733'te Şemâhî'ye girdi'. Yerleşim: Şamahı d 1724-06-24→1733-08-17 (İstanbul Muahedesi'yle Osmanlı payı). KUTU-A-1014 (0063/H-0001).",
   yer:"Şamahı", yer_id:"Şamahı", kisiler:"Nâdir",
   d:"24 Haziran 1724 İstanbul Muahedesi'yle Şirvan'ın merkezî kesimiyle birlikte Osmanlı payına düşen Şemâhî'ye Nâdir 17 Ağustos 1733'te girdi. Kafkasya'daki Osmanlı idaresi bundan sonra hızla çözüldü; Gence ve Tiflis 1735'te elden çıktı.",
   kaynak:"sirvan" },
-{ kapsam:"ic", t:"1915-07-25", k:"kayip", etiket:["toprak-kayip","savas"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1915-07-25", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"İngilizler Nâsıriye'yi işgal etti — Fırat cephesi",
   gun:"25 Temmuz 1915",
   ic_not_gun:"F. J. Moberly, History of the Great War: The Campaign in Mesopotamia 1914-1918, c. I (London: HMSO, 1923), bölüm XI içindekiler: 'Action of 24th July: defeat of the Turks' · 'Occupation of Nasiriya, 25th July'. TDV'de nasiriye maddesi yok. Yerleşim: Nâsıriye d.t/s.f 1914-11-22 (Basra'nın toptan günü) → 1915-07-25. KUTU-A-1014 (0077/H-0004).",
   yer:"Nâsıriye", yer_id:"Nâsıriye", kisiler:"",
   d:"Basra'dan Fırat boyunca ilerleyen İngiliz kuvvetleri 24 Temmuz 1915'te Osmanlı birliklerini yendi ve ertesi gün Nâsıriye'yi işgal etti. Basra 1914 Kasımında düşmüştü; Nâsıriye ise yaklaşık sekiz ay daha Osmanlı elinde kalmıştı.",
   kaynak:"Moberly, The Campaign in Mesopotamia I (1923), bölüm XI" },
-{ kapsam:"ic", t:"1724-05-06", k:"fetih", etiket:["toprak-kazanc"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1724-05-06", k:"fetih", etiket:["toprak-kazanc"],
   b:"Hoy, Kapan ve Karadağ yöresi yeniden Osmanlı idaresine geçti",
   gun:"6 Mayıs 1724",
   ic_not_gun:"Bilgili & Beşe 2009 (Türk Kültürü ve Hacı Bektaş Velî Araştırma Dergisi 50): bölge '6 Mayıs 1724'de tekrar Osmanlı idaresine geçmiştir'; TD 911 (1140/1728) tahriri · TDV hoy '(1724)' YIL. Yerleşim: Hoy d.f 1724-09-28 → 1724-05-06. KUTU-A-1014 (0035/H-0076).",
@@ -688,7 +688,7 @@ window.OLAYLAR_P0049 = [
 window.OLAYLAR_P0050 = [
 
 // ── Bihaç 1527 · ① Cetin seçimi ─────────────────────────────────────
-{ bolge:4, t:"1527-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", bolge:4, t:"1527-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi"],
   b:"Cetin Meclisi — Hırvat soyluları Mohaç'tan sonra Habsburg Ferdinand'ı Hırvatistan kralı seçti", yer_id:"Cetin (Cetingrad)",
   gun:"1 Ocak 1527",
   yer:"Cetin (Cetingrad), Hırvatistan Krallığı ve Una-Kupa serhaddi",
@@ -699,7 +699,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"hirvatistan · bihac + Hrvatski sabor, 'Sabor u Cetinu 1527. godine' (sabor.hr, resmî)" },
 
 // ── Bihaç 1527 · ② TDV bihac: Yayça sonrası kısa Osmanlı idaresi (M-3866 hükmü) ──
-{ t:"1527-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1527-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Bihaç'ın kısa süreli Osmanlı idaresi — Mohaç ve Yayça'nın düşüşünün ardından",
   gun:"1527 (Yayça'nın alınmasından sonra; süre 'kısa')",
   yer:"Bihaç (Bihke), Yayça (Jajce), Una serhaddi", yer_id:"Bihaç (Bihać)",
@@ -710,7 +710,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"bihac · bosna-hersek" },
 
 // ── Dubrovnik 1814 ────────────────────────────────────────────────
-{ bolge:2, t:"1814-01-28", k:"siyaset", kapsam:"dis", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:2, t:"1814-01-28", k:"siyaset", kapsam:"dis", etiket:["siyaset","toprak","konu-siyasi","konu-askeri"],
   b:"Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre Avusturya kuvvetleri girdi",
   gun:"28 Ocak 1814",
   yer:"Dubrovnik (Ragusa), Gruž", yer_id:"Dubrovnik",
@@ -720,7 +720,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"dubrovnik + F. Bona, Kolo 2/2008 (Matica hrvatska) + Državni arhiv u Dubrovniku HR-DADU-310" },
 
 // ── Sırbistan Krallığı 1882 ───────────────────────────────────────
-{ bolge:4, t:"1882-03-06", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", bolge:4, t:"1882-03-06", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   b:"Sırbistan Krallığı'nın ilânı — eski Osmanlı tâbii prenslik krallığa dönüştü",
   gun:"6 Mart 1882 (Sırp takvimiyle 22 Şubat)",
   yer:"Belgrad, Niş, Semendire, Kragujevac", yer_id:"Belgrad",
@@ -730,7 +730,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sırbistan' (islamansiklopedisi.org.tr/sirbistan)" },
 
 // ── Filistin sivil idaresi 1920 ───────────────────────────────────
-{ t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Filistin'de İngiliz sivil manda idaresi kuruldu — Osmanlı'dan alınan topraklarda askerî yönetimin sonu",
   gun:"1 Temmuz 1920",
   yer:"Kudüs, Gazze, Yafa, Akkâ, Nablus", yer_id:"Kudüs",
@@ -740,7 +740,7 @@ window.OLAYLAR_P0050 = [
   kaynak:"filistin · kudus · gazze + Interim Report on the Civil Administration of Palestine, 1st July 1920–30th June 1921 (HMSO 1921) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Filistin' (islamansiklopedisi.org.tr/filistin) — açıldı, okundu" },
 
 // ── Mısır Krallığı 1922 ───────────────────────────────────────────
-{ t:"1922-03-15", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", t:"1922-03-15", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvanını aldı",
   gun:"15 Mart 1922",
   yer:"Kahire, İskenderiye", yer_id:"Kahire",
@@ -774,7 +774,7 @@ window.OLAYLAR_P0050 = [
 window.OLAYLAR_P0051 = [
 
 // ── Hacıbey 1480 ─────────────────────────────────────────────────────
-{ t:"1480-01-01", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1480-01-01", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Hacıbey (Kaçibey) kalesinin Litvanya'nın elinden çıkması",
   gun:"1480", kesinlik:"yil",
   yer:"Hacıbey (Odessa), Karadeniz'in kuzeybatı kıyısı",
@@ -785,7 +785,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Encyclopedia of Ukraine (CIUS), 'Odesa', encyclopediaofukraine.com/display.asp?linkpath=pages%5CO%5CD%5COdesa.htm (+ 'fortified at the beginning of the 15th century by the Lithuanian grand duke Vytautas the Great') — «In 1480 the fortress was captured by the Turks and renamed Hadzhybei or Khadzhybei.» · Internet Encyclopedia of Ukraine (CIUS), maddeler 'Odesa' ve 'Ochakiv' · TDV bucak (1538)" },
 
 // ── Voronej 1585 ─────────────────────────────────────────────────────
-{ tur:"kurulus", bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", bolge:2, t:"1585-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Voronej'de bozkıra karşı ileri garnizon kurması",
   gun:"1585", kesinlik:"yil",
   yer:"Voronej, Don havzası, vahşi bozkırın kuzey kenarı",
@@ -796,7 +796,7 @@ window.OLAYLAR_P0051 = [
   kaynak:"Internet Encyclopedia of Ukraine (CIUS), madde 'Slobidska Ukraine'" },
 
 // ── Belgorod 1596 ────────────────────────────────────────────────────
-{ tur:"kurulus", bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", bolge:2, t:"1596-01-01", k:"kurulus", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"],
   b:"Moskova'nın Belgorod, Oskol ve Kursk'u bozkırda ileri garnizon olarak kurması",
   gun:"1596", kesinlik:"yil",
   yer:"Belgorod, Oskol, Kursk — Sloboda Ukrayna bozkırı",
@@ -810,7 +810,7 @@ window.OLAYLAR_P0051 = [
 // 🆕 Sevkte YOKTU: ③ D dönüşümü Don bozkırı (Sal) · Donets bozkırı · Çerkask'ın
 //   kirim→don-kazak geçişini s:→s:'den v: bitişine çevirdi ⇒ Değişmez 2 kırılması
 //   doğdu (1570-01-01, en yakın madde 203 gün). Tahta M-3902'de bildirildi.
-{ bolge:3, t:"1570-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", bolge:3, t:"1570-01-01", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
   b:"IV. İvan'ın Don kazaklarına gramotası — Don Kazak Ordası'nın ilk güvenilir kaydı",
   gun:"1570", kesinlik:"yil",
   yer:"Don ve Kuzey Donets bozkırı, Razdory, Azak yolu",
@@ -849,7 +849,7 @@ window.OLAYLAR_P0051 = [
 window.OLAYLAR_P0052 = [
 
 // ── Siirt sancağı Bitlis vilâyetine · Şırnak Eruh kazasında ─────────
-{ t:"1884-01-01", kesinlik:"yil", k:"idari", kapsam:"ic", etiket:["idari","konu-idari"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", t:"1884-01-01", kesinlik:"yil", k:"idari", kapsam:"ic", etiket:["idari","konu-idari"],
   b:"Siirt sancağı Diyarbekir'den Bitlis vilâyetine nakledildi — Eruh kazası ve Şırnak köyü de Bitlis'e bağlandı",
   gun:"1884 (ay ve gün kaynakta yok)",
   yer:"Siirt sancağı, Eruh kazası (Şırnak)",
@@ -888,7 +888,7 @@ window.OLAYLAR_P0052 = [
 window.OLAYLAR_P0053 = [
 
 // ── M1 · 1624 · Musul ve Kerkük Safevî eline geçti ─────────────────────
-{ t:"1624-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", t:"1624-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Musul ve Kerkük'ün Safevî eline geçmesi — Bağdat'ın düşüşünün ardından",
   gun:"1033 (1623-24) — kaynak gün vermiyor",
   yer:"Musul, Kerkük", yer_id:"Musul",
@@ -899,7 +899,7 @@ window.OLAYLAR_P0053 = [
   kaynak:"musul--irak · hafiz-ahmed-pasa · kerkuk + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493" },
 
 // ── M2 · 1625 · Hâfız Ahmed Paşa seferi, Musul ve Kerkük havalisi ──────
-{ t:"1625-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1625-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Musul'un Safevîlerden kurtarılması — Hâfız Ahmed Paşa'nın Bağdat seferi",
   gun:"1035 (1625) — ordu eylül başında Musul'a vardı; gün yok",
   yer:"Musul, Kerkük, Altınköprü", yer_id:"Musul",
@@ -910,7 +910,7 @@ window.OLAYLAR_P0053 = [
   kaynak:"musul--irak · hafiz-ahmed-pasa · kerkuk + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001)" },
 
 // ── M3 · 16 Mart 1630 · Şehrizor'da Gülanber'in yeniden kuruluşu ───────
-{ t:"1630-03-16", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1630-03-16", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Hüsrev Paşa'nın Şehrizor'da Gülanber Kalesi'ni yeniden kurması — Şehrizor beylerbeyiliği",
   gun:"16 Mart 1630",
   yer:"Gülanber, Şehrizor", yer_id:"Şehrizor",
@@ -955,7 +955,7 @@ window.OLAYLAR_P0053 = [
 window.OLAYLAR_P0055 = [
 
 // ── ① 1371 · Dejanoviç Prensliği Osmanlı vasalı ─────────────────────────
-{ tur:"vassal", t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"vassal", t:"1371-09-26", kesinlik:"yil", k:"vassal", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   b:"Dejanoviç Prensliği (Kostadin-ili) Osmanlı vasalı oldu",
   gun:"1371 — Meriç (Çirmen) Savaşı'nın ardından; kaynak gün vermiyor",
   yer:"Köstendil (Velbujd), Ustrumca, İştip, Doyran, Köprülü (Veles)", yer_id:"Ustrumca (Strumica)",
@@ -966,7 +966,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"kostendil · ustrumca · doyran · koprulu", duygu:["📋"] },
 
 // ── ② 1412 · Şehirköy Sırp Despotluğu'na geçti ──────────────────────────
-{ t:"1412-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1412-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","konu-askeri"],
   b:"Sırp Despotu Stefan Lazareviç Şehirköy'ü (Pirot) aldı",
   gun:"1412 — kaynak gün vermiyor",
   yer:"Şehirköy (Pirot)", yer_id:"Şehirköy (Pirot)",
@@ -977,7 +977,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"sehirkoy · musa-celebi · nis", duygu:["⚔️"] },
 
 // ── ③a 1538 · Herseknovi (Castelnuovo) zaptedildi ───────────────────────
-{ t:"1538-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1538-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Herseknovi (Castelnuovo) Andrea Doria tarafından zaptedildi",
   gun:"1538 — kaynak ay ve gün vermiyor",
   yer:"Herseknovi (Nova / Castelnuovo, bugünkü Herceg Novi)", yer_id:"Herseknovi (Herceg Novi)",
@@ -988,7 +988,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"dalmacya · barbaros-hayreddin-pasa", duygu:["⚔️"] },
 
 // ── ③b 10 Ağustos 1539 · Herseknovi geri alındı ─────────────────────────
-{ t:"1539-08-10", kesinlik:"gun", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1539-08-10", kesinlik:"gun", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Herseknovi'nin (Castelnuovo) Barbaros Hayreddin Paşa tarafından geri alınması",
   gun:"10 Ağustos 1539",
   yer:"Herseknovi (Nova / Castelnuovo)", yer_id:"Herseknovi (Herceg Novi)",
@@ -998,7 +998,7 @@ window.OLAYLAR_P0055 = [
   kaynak:"barbaros-hayreddin-pasa · dalmacya", duygu:["🎉"] },
 
 // ── ④ YAMA-TRAKYA-0914 MT-6 · 1369 · Timurtaş Tunca vadisi (UYGULA 16 Eylül 2026) ──
-{ t:"1369-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1369-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","konu-askeri"],
   b:"Timurtaş Bey Tunca vadisinde Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı",
   gun:"1369 — kaynak «herhalde 1369 bahar ve yazı» diyor",
   yer:"Elhova (Kızılcaağaç Yenicesi), Yanbolu", yer_id:"Elhova (Elhovo)",
@@ -1013,7 +1013,7 @@ window.OLAYLAR_P0055 = [
 //    maddeler bu dosyaya yazıldı (başka madde dosyası yetkisi yok).
 //    Kaynak yama: denetim/YAMA-ARAP-0914.json ARAP-N1 (M4 · M4b).
 // ═════════════════════════════════════════════════════════════════════
-{ tur:"savas", t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1798-12-25", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Desaix'nin Yukarı Mısır seferi — Fransız tümeni Minye, Asyut ve Girga'ya ulaştı",
   gun:"21 Aralık (Minye) · 25 Aralık (Asyut) · 29 Aralık 1798 (Girga)",
   yer:"Minye, Asyut, Girga", yer_id:"Asyut",
@@ -1022,7 +1022,7 @@ window.OLAYLAR_P0055 = [
   ic_not_d:"SIRADA-C / AKDENIZ-ARAP-0082 H-0058: Asyut'un işgali haritada 1798-07-01 görünüyordu (kaynaksız); kaynaklı gün Noel 1798. Bu madde Minye (12-21) · Asyut (12-25) · Girga (12-29) isg: kırılmalarının Değişmez 2i bağıdır.",
   kaynak:"Jacques Juillet, Revue du Souvenir Napoléonien 363, s. 2-13 (napoleon.org, Desaix): «Le jour de Noël 1798, la division arrive à Siout» · «Desaix parvient le 29 décembre à Girgeh» · Hourtoulle, napoleon.org «La campagne d'Égypte»: «Le 21 décembre, il atteint Minieh»", duygu:["😔"] },
 
-{ t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", t:"1799-02-18", kesinlik:"gun", k:"kayip", kapsam:"ic", etiket:["savas","isgal","konu-askeri"],
   b:"Napolyon Arîş'i işgal etti — Suriye seferinin başlangıcı",
   gun:"18 Şubat 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",
@@ -1030,7 +1030,7 @@ window.OLAYLAR_P0055 = [
   d:"Mısır'ı işgal eden Fransız ordusu Suriye'ye yürürken Sina kıyısındaki Arîş'i ele geçirdi.",
   kaynak:"aris", duygu:["😔"] },
 
-{ tur:"savas", t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", t:"1799-12-28", kesinlik:"gun", k:"kazanc", kapsam:"ic", etiket:["savas","kurtulus","konu-askeri"],
   b:"Arîş'in Fransızlardan geri alınması",
   gun:"28 Aralık 1799",
   yer:"El-Arîş, Sina", yer_id:"El-Arîş",
@@ -1066,7 +1066,7 @@ window.OLAYLAR_P0055 = [
 window.OLAYLAR_P0056 = [
 
 // ── 1739 · Münnich Boğdan'da ─────────────────────────────────────────
-{ tur:"savas", t:"1739-08-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1739-08-17 (Stavuçani; ESBE «Турецкие войны России» '17 августа', eski takvim) = Gregoryen 1739-08-28", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1739-08-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1739-08-17 (Stavuçani; ESBE «Турецкие войны России» '17 августа', eski takvim) = Gregoryen 1739-08-28", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Stavuçani yenilgisi ve Hotin'in Ruslara teslimi (1736-1739 Osmanlı-Rus Savaşı)",
   gun:"28 Ağustos 1739 (Jülyen 17 Ağustos)", ic_not_b:"KUTU-H6-1015: t 1739-08-28 (Gregoryen karşılık) → 1739-08-17, kaynağın Jülyen günü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Stavuçani, Hotin yakını — Boğdan",
@@ -1083,7 +1083,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1769 · Golitsin Dinyester'i geçiyor ──────────────────────────────
-{ tur:"savas", t:"1769-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1769-04-15 (Dinyester geçişi; ESBE «Турецкие войны России» '15 апреля он перешел Днестр', eski takvim) = Gregoryen 1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1769-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1769-04-15 (Dinyester geçişi; ESBE «Турецкие войны России» '15 апреля он перешел Днестр', eski takvim) = Gregoryen 1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Dinyester'i geçerek Boğdan'a girmesi (1768-1774 Osmanlı-Rus Savaşı)",
   gun:"1769", ic_not_b:"KUTU-H6-1015: t 1769-04-26 (Gregoryen karşılık) → 1769-04-15, kaynağın Jülyen günü (m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Dinyester, Hotin önleri — Boğdan",
@@ -1095,7 +1095,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1769-04-26 (gun: «26 Nisan 1769 (Jülyen 15 Nisan)»); güvenilir kaynağın tarihi: 1769; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1788 · Rumyantsev Mogilev'de Dinyester'i geçiyor ─────────────────
-{ tur:"savas", t:"1788-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1788-06-20 (Dinyester geçişi; ESBE «Турецкие войны России» '20 июня', eski takvim) = Gregoryen 1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1788-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1788-06-20 (Dinyester geçişi; ESBE «Турецкие войны России» '20 июня', eski takvim) = Gregoryen 1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a girmesi (1787-1792 Osmanlı-Rus Savaşı)",
   gun:"1788", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Mogilev (Mohyliv-Podilskyi), Dinyester — Boğdan'ın kuzeyi",
@@ -1108,7 +1108,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1788-07-01 (gun: «1 Temmuz 1788 (Jülyen 20 Haziran)»); güvenilir kaynağın tarihi: 1788; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1806 · ilansız işgal ─────────────────────────────────────────────
-{ tur:"savas", t:"1806-11-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-11-11 (Dinyester geçişi; ESBE «Турецкие войны России» '11 ноября', eski takvim) = Gregoryen 1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1806-11-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-11-11 (Dinyester geçişi; ESBE «Турецкие войны России» '11 ноября', eski takvim) = Gregoryen 1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun savaş ilan edilmeden Dinyester'i geçip Memleketeyn'i işgale başlaması (1806-1812 Osmanlı-Rus Savaşı)",
   gun:"23 Kasım 1806 (Jülyen 11 Kasım)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Dinyester hattı — Hotin, Bender, Akkirman, Kili",
@@ -1121,7 +1121,7 @@ window.OLAYLAR_P0056 = [
   ic_not_ozet:"EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.21, 0082/H-0063): 1806 işgallerinde AYRI MADDELER + ÖZET MADDE — bu madde ÖZETtir; günü kaynaklı kaleler ayrı maddededir (Akkirman 30 Kasım · Bükreş 25 Aralık). Hotin, Bender, Kili'nin kendi teslim günleri bulunamadı (ESBE-TV ve TDV akkirman/hotin gün vermiyor) — ayrı madde yazılmadı.",
   duygu:["⚔️"] },
 
-{ t:"1806-11-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", t:"1806-11-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Akkirman'ın Ruslar tarafından ele geçirilmesi (1806)",
   gun:"30 Kasım 1806",
   yer:"Akkirman, Dinyester ağzı",
@@ -1132,7 +1132,7 @@ window.OLAYLAR_P0056 = [
   kaynak:"akkirman (TDV): '30 Kasım 1806 tarihinde Rus Prensi Kantakuzino tarafından ele geçirilmesi üzerine'",
   duygu:["😔"] },
 
-{ t:"1806-12-25", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабря', eski takvim) = Gregoryen 1806-12-25", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1806-12-25", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабря', eski takvim) = Gregoryen 1806-12-25", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Miloradoviç'in Bükreş'e girmesi — Eflak'ın Rus işgali",
   gun:"25 Aralık 1806 (Jülyen 13 Aralık)", ic_not_b:"KUTU-H6-1015: t 1806-12-25 (Gregoryen karşılık) → 1806-12-13, kaynağın Jülyen günü (m.28); Eflak'taki 15 işgal kaydı birlikte. Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Bükreş, Eflak",
@@ -1144,7 +1144,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1810 · Silistre ──────────────────────────────────────────────────
-{ t:"1810-06-10", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1810-05-29 (Silistre'nin teslimi; ESBE «Силистрия» '29-го мая', eski takvim) = Gregoryen 1810-06-10", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1810-06-10", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1810-05-29 (Silistre'nin teslimi; ESBE «Силистрия» '29-го мая', eski takvim) = Gregoryen 1810-06-10", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Ruslara teslimi",
   gun:"10 Haziran 1810 (Jülyen 29 Mayıs)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Silistre, Tuna'nın sağ yakası",
@@ -1157,7 +1157,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1810 · Niğbolu ve Kule ───────────────────────────────────────────
-{ t:"1810-10-01", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", t:"1810-10-01", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Niğbolu ve Kule'nin (Turnu) direnmeden Ruslara teslimi",
   gun:"Ekim 1810",
   kesinlik:"ay",
@@ -1170,7 +1170,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1811 · Rusçuk muharebesi ve boşaltma ─────────────────────────────
-{ tur:"savas", t:"1811-07-04", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1811-06-22 (Rusçuk muharebesi; ESBE «Турецкие войны России» 'а 22 атаковал', eski takvim) = Gregoryen 1811-07-04", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1811-07-04", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1811-06-22 (Rusçuk muharebesi; ESBE «Турецкие войны России» 'а 22 атаковал', eski takvim) = Gregoryen 1811-07-04", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi",
   gun:"4 Temmuz 1811 (Jülyen 22 Haziran) — muharebe; çekilişin günü kaynakta yok", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Rusçuk, Tuna'nın sağ yakası",
@@ -1182,7 +1182,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1828 · Prut geçişi ───────────────────────────────────────────────
-{ tur:"savas", t:"1828-05-07", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25 апр.', eski takvim) = Gregoryen 1828-05-07", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1828-05-07", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25 апр.', eski takvim) = Gregoryen 1828-05-07", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus 6. Piyade Kolordusunun Prut'u geçip Memleketeyn'e girmesi (1828-1829 Osmanlı-Rus Savaşı)",
   gun:"7 Mayıs 1828 (Jülyen 25 Nisan)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Prut — Boğdan ve Eflak",
@@ -1194,7 +1194,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1829 · Silistre ikinci kez ───────────────────────────────────────
-{ t:"1829-06-30", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1829-06-18 (Silistre'nin teslimi; ESBE «Турецкие войны России» '18 июня крепость эта сдалась', eski takvim) = Gregoryen 1829-06-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1829-06-30", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1829-06-18 (Silistre'nin teslimi; ESBE «Турецкие войны России» '18 июня крепость эта сдалась', eski takvim) = Gregoryen 1829-06-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Dibiç'e teslimi — 1836'ya kadar sürecek Rus işgali",
   gun:"30 Haziran 1829 (Jülyen 18 Haziran)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Silistre, Tuna'nın sağ yakası",
@@ -1207,7 +1207,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1836 · Silistre boşaltıldı ───────────────────────────────────────
-{ t:"1836-01-01", k:"siyaset", kapsam:"ic", etiket:["toprak-kazanc","konu-diplomasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1836-01-01", k:"siyaset", kapsam:"ic", etiket:["toprak-kazanc","konu-diplomasi"],
   b:"Rusların Silistre'yi boşaltması",
   gun:"1836", kesinlik:"yil",
   yer:"Silistre",
@@ -1219,7 +1219,7 @@ window.OLAYLAR_P0056 = [
 
 // ── 1853 · Prut geçişi ───────────────────────────────────────────────
 // KUTU-G2-1014 (0035/H-0090): savaş ilanından (1853-10-04) üç ay önce, ilansız işgal.
-{ tur:"savas", t:"1853-07-03", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1853-06-21 (Rus öncü kuvvetinin Prut geçişi; VE (Sytin) «Восточная война 1853—56 гг.» '21 июня', eski takvim) = Gregoryen 1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1853-07-03", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1853-06-21 (Rus öncü kuvvetinin Prut geçişi; VE (Sytin) «Восточная война 1853—56 гг.» '21 июня', eski takvim) = Gregoryen 1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Prut'u geçip Memleketeyn'i (Eflak-Boğdan) işgale başlaması — Kırım Savaşı'na giden yol",
   gun:"3 Temmuz 1853 (Jülyen 21 Haziran)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Prut — Besarabya ile Boğdan arasındaki sınır",
@@ -1359,14 +1359,14 @@ window.ITTIFAKLAR = [
 window.OLAYLAR_P0057 = [
 
 // ── 1919 ───────────────────────────────────────────────────────────
-{ kapsam:"ic", t:"1919-01-23", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1919-01-23", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Eskişehir'in İngilizlerce işgali",
   gun:"23 Ocak 1919",
   yer:"Eskişehir", yer_id:"Eskişehir", kisiler:"",
   d:"Mondros Mütarekesi'nin ardından İtilaf devletleri Anadolu'nun demiryolu kavşaklarını denetim altına almaya başladı. TDV'nin Eskişehir maddesine göre şehir 23 Ocak 1919'da İngilizler tarafından işgal edildi. İngiliz birlikleri Eskişehir'i 20 Mart 1920'de boşalttı.",
   kaynak:"eskisehir" },
 
-{ kapsam:"ic", t:"1919-05-11", k:"kayip", etiket:["isgal","konu-askeri","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1919-05-11", k:"kayip", etiket:["isgal","konu-askeri","konu-diplomasi"],
   b:"İtalyanların Güneybatı Anadolu kıyılarına çıkışı — Marmaris, Bodrum, Kuşadası",
   gun:"5-13 Mayıs 1919",
   ic_not_gun:"Madde günü Bodrum'un işgal günüdür (TDV bodrum: 11 Mayıs 1919). Marmaris 5 Mayıs ve Kuşadası 13 Mayıs günleri TDV sevr-antlasmasi. Üç yerin İtalyan tahliye günü bu kaynaklarda YOK — yerleşim isg dönemleri yazılmadı (YAMA-ISGAL1919 KARAR kovası).",
@@ -1374,7 +1374,7 @@ window.OLAYLAR_P0057 = [
   d:"Paris Barış Konferansı'nda müttefiklerinin Yunan yanlısı tutumunu protesto ederek konferanstan çekilen İtalya, Antalya'dan sonra güneybatı kıyılarına asker çıkardı. TDV'ye göre 5 Mayıs'ta Marmaris, 11 Mayıs'ta Bodrum, 13 Mayıs'ta Kuşadası İtalyan işgaline uğradı. Aynı günlerde Yunanlılar da Fethiye'ye çıktı; iki devletin Batı Anadolu üzerindeki rekabeti İzmir'in işgaline giden yolu hazırladı.",
   kaynak:"bodrum · sevr-antlasmasi" },
 
-{ kapsam:"ic", t:"1919-05-26", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1919-05-26", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Yunan kuvvetlerinin Manisa ve Aydın'a girişi",
   gun:"26-27 Mayıs 1919",
   ic_not_gun:"Manisa 26 Mayıs (TDV manisa), Aydın 27 Mayıs (TDV aydin). Atlas Aydın'ı İzmir'le aynı gün (1919-05-15) Yunan gösteriyordu — yerleşim düzeltmesi YAMA-ISGAL1919'da.",
@@ -1382,7 +1382,7 @@ window.OLAYLAR_P0057 = [
   d:"İzmir'e 15 Mayıs'ta çıkan Yunan ordusu kısa sürede iç kesimlere yayıldı. TDV'nin Manisa maddesine göre Yunan kuvvetleri 26 Mayıs 1919'da şehre girdi; Aydın maddesine göre Aydın ertesi gün, 27 Mayıs'ta işgal edildi. Manisa işgali 1922 Eylülüne kadar sürecekti.",
   kaynak:"manisa · aydin" },
 
-{ kapsam:"ic", t:"1919-06-28", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1919-06-28", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Burdur'un İtalyan işgali — Isparta'ya yönelen bölüğün geri çekilişi",
   gun:"28 Haziran 1919",
   ic_not_gun:"Gün TDV isparta (paragraf 1919 olaylarını anlatıyor: 20 Haziran 1919 mitingi → 28 Haziran Burdur). TDV burdur işgali yalnız '1919-1921' diye yıl aralığıyla veriyor; tahliye günü yok.",
@@ -1390,14 +1390,14 @@ window.OLAYLAR_P0057 = [
   d:"Antalya'yı işgal eden İtalyanlar iç bölgelere doğru ilerledi. TDV'nin Isparta maddesine göre İtalyan birlikleri 28 Haziran'da Burdur'u işgal etti ve 15 Ağustos'ta bir bölük askerle Isparta'ya yöneldi. Isparta halkının silahları teslim teklifini reddedip direneceğini bildirmesi üzerine İtalyanlar ertesi gün geri çekildi.",
   kaynak:"isparta · burdur" },
 
-{ tur:"savas", kapsam:"ic", t:"1919-06-30", k:"savas", etiket:["savas","kurtulus","isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1919-06-30", k:"savas", etiket:["savas","kurtulus","isgal","konu-askeri"],
   b:"Aydın'ın kısa süreli kurtarılışı ve 4 Temmuz'da yeniden işgali",
   gun:"30 Haziran – 4 Temmuz 1919",
   yer:"Aydın", yer_id:"Aydın", kisiler:"",
   d:"Yunan işgaline karşı Ödemiş, Nazilli ve Aydın çevresinde millî kuvvetler teşkilatlandı. TDV'nin Aydın maddesine göre 27 Mayıs 1919'da işgal edilen şehir 30 Haziran'da kısa bir süre için kurtarıldı, ancak 4 Temmuz'da yeniden Yunan işgaline uğradı. Şehir bundan sonra 7 Eylül 1922'ye kadar işgal altında kaldı.",
   kaynak:"aydin · milli-mucadele" },
 
-{ kapsam:"ic", t:"1919-07-23", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1919-07-23", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Muğla'nın İtalyan işgali",
   gun:"23 Temmuz 1919",
   yer:"Muğla", yer_id:"Muğla", kisiler:"",
@@ -1405,14 +1405,14 @@ window.OLAYLAR_P0057 = [
   kaynak:"mugla" },
 
 // ── 1920 ───────────────────────────────────────────────────────────
-{ kapsam:"ic", t:"1920-03-20", k:"siyaset", etiket:["isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1920-03-20", k:"siyaset", etiket:["isgal","konu-askeri"],
   b:"İngilizlerin Eskişehir'i boşaltması",
   gun:"20 Mart 1920",
   yer:"Eskişehir", yer_id:"Eskişehir", kisiler:"",
   d:"Ocak 1919'dan beri İngiliz işgalinde bulunan Eskişehir, TDV'nin Eskişehir maddesine göre 20 Mart 1920'de İngilizler tarafından boşaltıldı. Şehir birkaç ay sonra, Haziran 1920'de, TBMM'nin kurduğu Garp Cephesi'nin merkezi oldu.",
   kaynak:"eskisehir" },
 
-{ tur:"savas", kapsam:"ic", t:"1920-06-22", k:"savas", etiket:["savas","isgal","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1920-06-22", k:"savas", etiket:["savas","isgal","konu-askeri"],
   b:"Yunan yaz taarruzu — Akhisar, Soma, Balıkesir ve Alaşehir'in işgali",
   gun:"22 Haziran – 3 Temmuz 1920",
   ic_not_gun:"Taarruzun başlangıç günü ve Alaşehir (26 Haziran) · Nazilli (3 Temmuz) günleri TDV milli-mucadele; Alaşehir'in 26 Haziran 1920 günü TDV alasehir ile de örtüşüyor. Akhisar, Kırkağaç, Soma ve Balıkesir'in tek tek işgal günleri TDV'de YOK (yalnız sıra veriliyor).",
@@ -1420,14 +1420,14 @@ window.OLAYLAR_P0057 = [
   d:"Müttefiklerin Yunan ordusuna Milne hattını aşarak ilerleme izni vermesiyle Batı Anadolu'da büyük bir Yunan taarruzu başladı. TDV'nin Millî Mücadele maddesine göre 22 Haziran'da üç koldan harekete geçen Yunan birlikleri Akhisar, Kırkağaç, Soma ve Balıkesir'i ele geçirdi. Güneyde 26 Haziran'da Alaşehir, 3 Temmuz'da Nazilli işgal edildi.",
   kaynak:"milli-mucadele · alasehir" },
 
-{ kapsam:"ic", t:"1920-07-08", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1920-07-08", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Bursa'nın Yunan işgali",
   gun:"8 Temmuz 1920",
   yer:"Bursa", yer_id:"Bursa", kisiler:"",
   d:"Yaz taarruzunun kuzey kolu Balıkesir'den sonra Marmara'ya yöneldi. TDV'nin Bursa ve Millî Mücadele maddelerine göre Bursa 8 Temmuz 1920'de Yunan işgaline uğradı. İlk Osmanlı hükümdarlarının türbelerine yapılan saygısızlıklar ülke çapında büyük tepki doğurdu.",
   kaynak:"bursa · milli-mucadele" },
 
-{ kapsam:"ic", t:"1920-07-20", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1920-07-20", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Yunan ordusunun Doğu Trakya'yı işgali — Edirne ve Kırklareli",
   gun:"20-26 Temmuz 1920",
   ic_not_gun:"20 Temmuz TDV milli-mucadele ('bütün Trakya'). Kırklareli 26 Temmuz 1920 TDV kirklareli; Edirne yalnız 'Temmuz 1920' TDV edirne. 🔴 ÇELİŞKİ: TDV tekirdag Yunanlıların Tekirdağ'a girişini 20 HAZİRAN 1920 diye veriyor — Tekirdağ isg dönemi yazılmadı, koordinatöre soruldu.",
@@ -1435,21 +1435,21 @@ window.OLAYLAR_P0057 = [
   d:"Yunanistan, Sevr Antlaşması imzalanmadan önce Doğu Trakya'yı da fiilen ele geçirmeye girişti. TDV'nin Millî Mücadele maddesine göre Yunan ordusu 20 Temmuz'da bütün Trakya'yı ele geçirdi; bu gelişme İstanbul'da padişahı iki gün sonra Saltanat Şûrası'nı toplamaya yöneltti. Kırklareli 26 Temmuz'da işgale uğradı, Edirne de aynı ay Yunan idaresine girdi.",
   kaynak:"milli-mucadele · kirklareli · edirne" },
 
-{ kapsam:"dis", bolge:3, t:"1920-07-28", k:"siyaset", etiket:["isgal","konu-askeri","konu-siyasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:3, t:"1920-07-28", k:"siyaset", etiket:["isgal","konu-askeri","konu-siyasi"],
   b:"Kızılordu'nun Nahçıvan'a girişi",
   gun:"28 Temmuz 1920",
   yer:"Nahçıvan", yer_id:"Nahçıvan", kisiler:"",
   d:"1919 başlarında bölgeye giren İngilizler Aras Cumhuriyeti'ni feshetmiş, aynı yılın yazında Nahçıvan'dan ayrılmıştı. TDV'nin Nahçıvan maddesine göre Kızılordu 28 Temmuz 1920'de Nahçıvan'a girerek yönetimi komünistlere verdi ve Nahçıvan Sovyet Sosyalist Cumhuriyeti kuruldu. Bölgenin statüsü 1921'de Kars'ta imzalanan antlaşmayla Azerbaycan'a bağlı özerk bir birim olarak belirlendi.",
   kaynak:"nahcivan" },
 
-{ kapsam:"ic", t:"1920-08-29", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1920-08-29", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"Uşak'ın Yunan işgali",
   gun:"29 Ağustos 1920",
   yer:"Uşak, Gediz", yer_id:"Uşak", kisiler:"",
   d:"Yunan ordusu, Ankara'nın tanımadığı Sevr Antlaşması'nı kabul ettirmek amacıyla ilerleyişini sürdürdü. TDV'nin Uşak ve Millî Mücadele maddelerine göre Gediz'den sonra 29 Ağustos 1920'de Uşak da işgal edildi. Mustafa Kemal Paşa şehirdeki Kuvâ-yi Milliye birliklerini bu işgalden yaklaşık bir ay önce denetlemişti.",
   kaynak:"usak · milli-mucadele" },
 
-{ kapsam:"ic", t:"1920-10-25", k:"kayip", etiket:["isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1920-10-25", k:"kayip", etiket:["isgal","konu-askeri"],
   b:"İnegöl ve Yenişehir'in Yunan işgali",
   gun:"25 Ekim 1920",
   yer:"İnegöl, Yenişehir", yer_id:"İnegöl", kisiler:"",
@@ -1457,7 +1457,7 @@ window.OLAYLAR_P0057 = [
   kaynak:"milli-mucadele" },
 
 // ── 1921 ───────────────────────────────────────────────────────────
-{ tur:"savas", kapsam:"ic", t:"1921-03-23", k:"savas", etiket:["savas","isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1921-03-23", k:"savas", etiket:["savas","isgal","konu-askeri"],
   b:"Yunan ordusunun ikinci taarruzu — Bilecik, Afyon ve Adapazarı'nın işgali",
   gun:"23-25 Mart 1921",
   ic_not_gun:"23 Mart TDV milli-mucadele (Bilecik ve Afyon); Adapazarı 25 Mart 1921 TDV adapazari. 🔴 TDV bilecik bu Mart işgalini SAYMIYOR (8 Ocak · 13 Temmuz · 22 Temmuz 1921) — iki madde ayrışıyor, Bilecik'in 1921 ilk yarısı yerleşime yazılmadı.",
@@ -1465,21 +1465,21 @@ window.OLAYLAR_P0057 = [
   d:"Birinci İnönü yenilgisinden sonra İzmir'e yeni kuvvetler çıkaran Yunan ordusu, Londra Konferansı'nın tanıdığı süre dolmadan yeniden taarruza geçti. TDV'nin Millî Mücadele maddesine göre Yunanlılar 23 Mart'ta Bilecik ve Afyon'u işgal etti. Kuzeyde Adapazarı da 25 Mart'ta Yunan işgaline uğradı.",
   kaynak:"milli-mucadele · adapazari" },
 
-{ kapsam:"ic", t:"1921-03-28", k:"siyaset", etiket:["diplomasi","konu-askeri","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1921-03-28", k:"siyaset", etiket:["diplomasi","konu-askeri","konu-diplomasi"],
   b:"Türk kuvvetlerinin Batum'u boşaltması",
   gun:"28 Mart 1921",
   yer:"Batum", yer_id:"Batum", kisiler:"",
   d:"İngilizler Temmuz 1920'de Kafkasya'dan çekilirken Batum'u boşaltmış, şehre Gürcistan hükümeti el koymuştu. TDV'nin Batum maddesine göre 16 Mart 1921'de Sovyet Rusya ile imzalanan Moskova Antlaşması Batum'u Gürcistan'a bıraktı. Türk kuvvetleri şehri 28 Mart 1921'de boşalttı ve Batum, Gürcistan içinde kurulan Özerk Acara Cumhuriyeti'nin merkezi oldu.",
   kaynak:"batum" },
 
-{ tur:"savas", kapsam:"ic", t:"1921-04-07", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1921-04-07", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
   b:"Afyon'un geri alınışı — Aslıhanlar muharebeleri",
   gun:"7 Nisan 1921",
   yer:"Afyon, Aslıhanlar", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"",
   d:"İkinci İnönü'de 1 Nisan'da durdurulan Yunan taarruzunun ardından güney cephesinde Afyon 7 Nisan'da geri alındı. TDV'nin Millî Mücadele maddesi bunu 'Aslıhanlar’da ağır yenilgiye uğratılarak 7 Nisan’da Afyon geri alındı' diye özetler; ancak askerî tarih çalışmaları Aslıhanlar-Dumlupınar çarpışmalarını Afyon'un boşaltılmasından sonra, 8-15 Nisan arasına koyar ve taktik üstünlüğün Yunan tarafında kaldığını yazar — iki anlatım birbirini tutmaz, ikisi de verildi. İnönü zaferi başta İstanbul olmak üzere bütün ülkede mitinglerle kutlandı.",
   kaynak:"milli-mucadele (TDV) · Uca (DergiPark article-file/1677265; Türk İstiklal Harbi 1966 s. 534, 574'e dayanarak Aslıhanlar 8-12, Dumlupınar 13-15 Nisan) · Kaya (DergiPark article-file/403536; Afyon tahliyesi, ATASE 1999)", ic_not_d:"KUTU-H1-1015: eski başlık 'Aslıhanlar'da Yunan yenilgisi' TDV'nin nedensellik cümlesini izliyordu; akademik kaynaklarla çelişki (KUTU-G2 tespiti) başlık ve metinde beyan edildi. Gün (7 Nisan, Afyon) TDV ile aynı, değişmedi." },
 
-{ kapsam:"ic", t:"1921-06-28", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1921-06-28", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"İzmit'in kurtuluşu — Adapazarı'nın ardından",
   gun:"28 Haziran 1921",
   ic_not_gun:"İzmit TDV izmit (6 Temmuz 1920'de önce İngiliz, sonra Yunan işgali; İngiliz→Yunan devir günü TDV'de YOK). Adapazarı'nın geri alınışı 21 Haziran 1921 TDV adapazari. D147: ±30 günde 1921-07-11 Moğolistan kırılması (2s KAPSAM DIŞI) bu maddeyle eşleşir.",
@@ -1487,7 +1487,7 @@ window.OLAYLAR_P0057 = [
   d:"Mart 1921'de Yunan işgaline uğrayan Adapazarı, TDV'nin Adapazarı maddesine göre 21 Haziran'da geri alındı. TDV'nin İzmit maddesine göre 6 Temmuz 1920'de önce İngilizler, ardından Yunanlılar tarafından işgal edilen İzmit de 28 Haziran 1921'de kurtarıldı. Yunanlılar şehri terk ederken çarşı kesimini yaktı.",
   kaynak:"izmit · adapazari" },
 
-{ kapsam:"ic", t:"1921-07-05", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1921-07-05", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
   b:"Muğla'nın İtalyan işgalinden kurtuluşu",
   gun:"5 Temmuz 1921",
   ic_not_gun:"D147: ±30 günde 1921-07-11 Moğolistan kırılması (2s KAPSAM DIŞI) bu maddeyle eşleşir.",
@@ -1495,7 +1495,7 @@ window.OLAYLAR_P0057 = [
   d:"İtalya, Anadolu'daki işgal bölgesinden 1921 yazında çekilmeye başladı; Antalya'nın boşaltılması 1 Haziran'da başlamıştı. TDV'nin Muğla maddesine göre 23 Temmuz 1919'dan beri İtalyan işgalinde bulunan Muğla 5 Temmuz 1921'de kurtarıldı.",
   kaynak:"mugla" },
 
-{ kapsam:"ic", t:"1921-07-20", k:"kayip", etiket:["savas","isgal","konu-askeri"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1921-07-20", k:"kayip", etiket:["savas","isgal","konu-askeri"],
   b:"Eskişehir'in boşaltılması — Yunan ordusu Eskişehir, Kütahya ve Bilecik'e girdi",
   gun:"20-22 Temmuz 1921",
   ic_not_gun:"Eskişehir 20 Temmuz TDV eskisehir; Kütahya 21 Temmuz TDV kutahya; Bilecik 22 Temmuz TDV bilecik (üçüncü işgal). Afyon'un bu yazdaki işgal günü okunan TDV maddelerinde YOK. D147: ±30 günde 1921-07-11 Moğolistan kırılması (2s KAPSAM DIŞI) bu maddeyle eşleşir.",
@@ -1504,56 +1504,56 @@ window.OLAYLAR_P0057 = [
   kaynak:"eskisehir · kutahya · bilecik · milli-mucadele" },
 
 // ── 1922 — BÜYÜK TAARRUZ GÜN GÜN ───────────────────────────────────
-{ tur:"savas", kapsam:"ic", t:"1922-08-26", k:"savas", etiket:["savas","konu-askeri"],
+{ onem:5, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1922-08-26", k:"savas", etiket:["savas","konu-askeri"],
   b:"Büyük Taarruz başladı",
   gun:"26 Ağustos 1922",
   yer:"Afyon, Kocatepe", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"Mustafa Kemal Paşa",
   d:"Sakarya'dan sonra bir yıl süren hazırlığın ardından Türk ordusu Afyon cephesinde genel taarruza geçti. TDV'nin Millî Mücadele ve Kütahya maddelerine göre Büyük Taarruz 26 Ağustos 1922 sabahı Afyon'dan başladı ve Yunan ordusunun direnişi kısa sürede kırıldı.",
   kaynak:"milli-mucadele · kutahya · usak" },
 
-{ kapsam:"ic", t:"1922-08-27", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1922-08-27", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Afyon'un kurtuluşu",
   gun:"27 Ağustos 1922",
   yer:"Afyon", yer_id:"Karahisâr-ı Sâhib (Afyon)", kisiler:"Mustafa Kemal Paşa",
   d:"Taarruzun ikinci gününde Yunan cephesi Afyon önlerinde yarıldı. TDV'nin Afyonkarahisar maddesine göre bizzat Atatürk'ün kumanda ettiği Büyük Taarruz sonunda Yunan kuvvetleri bozguna uğratıldı ve şehir 27 Ağustos 1922'de kurtarıldı. Bu gün Afyon'un kurtuluş günü olarak kutlanır.",
   kaynak:"afyonkarahisar" },
 
-{ tur:"savas", kapsam:"ic", t:"1922-08-30", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:5, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1922-08-30", k:"savas", etiket:["savas","kurtulus","konu-askeri"],
   b:"Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu",
   gun:"30 Ağustos 1922",
   yer:"Dumlupınar, Kütahya", yer_id:"Kütahya", kisiler:"Mustafa Kemal Paşa",
   d:"Yunan ordusunun ana kuvvetleri Afyon ile Dumlupınar arasında kuşatıldı. TDV'nin Millî Mücadele maddesine göre kuşatma harekâtı 30 Ağustos'ta Başkumandan Mustafa Kemal Paşa'nın bizzat yönettiği Başkumandanlık Muharebesi ile tamamlandı. TDV'nin Kütahya maddesine göre aynı gün bir süvari tümeni, çekilen Yunan kuvvetlerinin yakıp yıktığı Kütahya'yı kurtardı.",
   kaynak:"milli-mucadele · kutahya" },
 
-{ kapsam:"ic", t:"1922-09-01", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1922-09-01", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Uşak'ın kurtuluşu",
   gun:"1 Eylül 1922",
   yer:"Uşak", yer_id:"Uşak", kisiler:"",
   d:"Başkumandanlık Muharebesi'nden sonra Yunan ordusunun artıkları batıya, İzmir yönüne çekildi. TDV'nin Uşak maddesine göre 29 Ağustos 1920'den beri işgalde bulunan Uşak, millî kuvvetlerin şehre girişiyle 1 Eylül 1922'de kurtuldu. Çekilen işgal kuvvetlerinin çıkardığı yangında şehrin yaklaşık dörtte üçü yandı.",
   kaynak:"usak" },
 
-{ kapsam:"ic", t:"1922-09-02", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1922-09-02", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Eskişehir'in kurtuluşu",
   gun:"2 Eylül 1922",
   yer:"Eskişehir", yer_id:"Eskişehir", kisiler:"",
   d:"Büyük Taarruz'un kuzey kanadında Yunan kuvvetleri Eskişehir'i de bırakmak zorunda kaldı. TDV'nin Eskişehir maddesine göre 20 Temmuz 1921'den beri işgal altındaki şehir 30 Ağustos zaferinin ardından 2 Eylül 1922'de kurtarıldı. On üç aylık işgal sonunda çarşı kesimi yakılmış, şehir yarı yarıya harap olmuştu.",
   kaynak:"eskisehir" },
 
-{ kapsam:"ic", t:"1922-09-06", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1922-09-06", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Bilecik'in kurtuluşu",
   gun:"6 Eylül 1922",
   yer:"Bilecik", yer_id:"Bilecik", kisiler:"",
   d:"TDV'nin Bilecik maddesine göre şehir Millî Mücadele sırasında üç kez Yunan işgaline uğradı; 22 Temmuz 1921'de başlayan üçüncü işgal 6 Eylül 1922'de sona erdi. Yunan kuvvetleri şehri boşaltırken çıkardıkları yangında evlerin, dükkânların ve hükümet konağının büyük kısmı yandı.",
   kaynak:"bilecik" },
 
-{ kapsam:"ic", t:"1922-09-07", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1922-09-07", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Aydın'ın kurtuluşu",
   gun:"7 Eylül 1922",
   yer:"Aydın", yer_id:"Aydın", kisiler:"",
   d:"Türk ordusunun İzmir'e yaklaşmasıyla Menderes vadisindeki Yunan kuvvetleri de çekildi. TDV'nin Aydın maddesine göre şehir 7 Eylül 1922'de kısmen yıkılmış ve nüfusu çok azalmış hâlde Türk kuvvetleri tarafından kurtarıldı. Geri çekilen Yunanlılar şehrin büyük kısmını yakmıştı.",
   kaynak:"aydin" },
 
-{ kapsam:"ic", t:"1922-09-11", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1922-09-11", k:"kazanc", etiket:["savas","kurtulus","konu-askeri"],
   b:"Bursa'nın geri alınışı",
   gun:"10-11 Eylül 1922",
   ic_not_gun:"TDV bursa günü '10-11 Eylül 1922' diye iki günlük aralıkla veriyor; madde aralığın son gününe yazıldı.",
@@ -1561,7 +1561,7 @@ window.OLAYLAR_P0057 = [
   d:"İzmir'in kurtuluşundan sonra Türk ordusu kuzeyde Marmara kıyılarına doğru ilerledi. TDV'nin Bursa maddesine göre 8 Temmuz 1920'den beri Yunan işgalinde bulunan şehir 10-11 Eylül 1922'de geri alındı. Ordunun buradan Çanakkale'ye yürümesi İngilizleri telaşlandırdı ve Mudanya görüşmelerinin yolunu açtı.",
   kaynak:"bursa · milli-mucadele" },
 
-{ kapsam:"ic", t:"1922-11-10", k:"kazanc", etiket:["kurtulus","antlasma","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1922-11-10", k:"kazanc", etiket:["kurtulus","antlasma","konu-askeri"],
   b:"Doğu Trakya'nın teslim alınması — Kırklareli ve Tekirdağ",
   gun:"10-13 Kasım 1922",
   ic_not_gun:"Kırklareli 10 Kasım 1922 TDV kirklareli; Tekirdağ 13 Kasım 1922 TDV tekirdag. Edirne'nin teslim günü TDV edirne'de yok (yalnız '1922').",
@@ -1569,7 +1569,7 @@ window.OLAYLAR_P0057 = [
   d:"Mudanya Mütarekesi Doğu Trakya'nın Yunan ordusunca boşaltılıp Türkiye'ye teslimini öngörüyordu; Trakya'yı teslim almakla görevli Refet Paşa 19 Ekim'de İstanbul'a geldi. TDV'ye göre 26 Temmuz 1920'den beri işgal altındaki Kırklareli 10 Kasım 1922'de geri alındı, Tekirdağ da mütareke uyarınca 13 Kasım'da Türklere iade edildi. Böylece Doğu Trakya savaşılmadan Türk topraklarına katıldı.",
   kaynak:"kirklareli · tekirdag · milli-mucadele" },
 
-{ tur:"isgal", kapsam:"ic", t:"1919-10-15", k:"isgal", etiket:["isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"isgal", kapsam:"ic", t:"1919-10-15", k:"isgal", etiket:["isgal","konu-askeri"],
   b:"Garbî Trakya'da Fransız askerî idaresinin başlaması",
   gun:"15 Ekim 1919",
   ic_not_gun:"Gün TDV bati-trakya ('Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)'). Yunan devri TDV'de 22 Mayıs 1920; atlasta Dedeağaç/Sofulu 14 Mayıs, Gümülcine/İskeçe/Ferecik 27 Mayıs — yerleşim uçları değiştirilmedi, kaynakları ayrı ölçülecek. KUTU-C-1014.",
@@ -1577,7 +1577,7 @@ window.OLAYLAR_P0057 = [
   d:"Birinci Dünya Savaşı'nı kaybeden Bulgaristan'ın elindeki Batı Trakya, barış görüşmeleri sürerken İtilaf devletlerinin denetimine alındı. TDV'nin Batı Trakya maddesine göre bölge 15 Ekim 1919'da Fransız kuvvetlerince işgal edildi; Batı Trakya Müdâfaa-i Hukuk Cemiyeti bu dönemde merkezini Gümülcine'ye taşıdı. Fransız idaresi, San Remo kararıyla bölgenin Mayıs 1920'de Yunanistan'a bırakılmasına kadar sürdü.",
   kaynak:"bati-trakya" },
 
-{ kapsam:"ic", t:"1921-01-01", kesinlik:"yil", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1921-01-01", kesinlik:"yil", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
   b:"Burdur'un İtalyan işgalinin sona ermesi (yıl)",
   gun:"1921 (gün bilinmiyor)",
   ic_not_gun:"TDV burdur işgali yalnız '1919-1921' diye yıl aralığıyla veriyor; tahliye günü kaynakta yok ⇒ 1921-01-01 YIL temsilidir (CLAUDE.md: kaynak yıl der ⇒ yıl yazılır). İtalyan çekilmesinin genel akışı 1921 yazıdır (Antalya 1 Haziran, Muğla 5 Temmuz). KUTU-C-1014.",
@@ -1585,7 +1585,7 @@ window.OLAYLAR_P0057 = [
   d:"28 Haziran 1919'da İtalyanlarca işgal edilen Burdur, TDV'nin Burdur maddesine göre 1919-1921 yılları arasında kısa süreli bir İtalyan işgali yaşadı. Kaynak tahliyenin gününü vermiyor; haritada işgal 1921 yılının başında biter. İtalya Anadolu'daki işgal bölgesinden 1921 yazında tümüyle çekildi.",
   kaynak:"burdur · isparta" },
 
-{ kapsam:"ic", t:"1557-04-02", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1557-04-02", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Özdemir Paşa'nın Masavva' limanını alması",
   gun:"2 Cemâziyelâhir 964 (2 Nisan 1557)",
   ic_not_gun:"Gün TDV masavva (hicrî karşılığıyla) ve TDV habes-eyaleti ('2 Nisan 1557'de Masavva' şehri alındıktan sonra'). TDV harar '12 Nisan' der; hicrî karşılığı veren ihtisas maddesi esas (kronoloji_dogu_afrika.js:82). Dehlek'in alınış günü TDV dehlek'te YOK — KARAR-UYG-1015: Dahlak ve Arkîko uçları Masavva'nın 2 Nisan'ına hizalandı (komşu günü, beyanlı; Dahlak için üst, Arkîko için alt sınır). KUTU-C-1014.",
@@ -1593,7 +1593,7 @@ window.OLAYLAR_P0057 = [
   d:"Habeş Eyaleti'nin beylerbeyi Özdemir Paşa, Dehlek adalarını ele geçirdikten sonra karşı kıyıdaki Masavva' şehrini 2 Nisan 1557'de aldı; ardından Arkîko da Osmanlı idaresine girdi. Böylece Habeşistan'ın Kızıldeniz'e açılan başlıca limanı Osmanlı'nın eline geçti.",
   kaynak:"masavva · habes-eyaleti" },
 
-{ kapsam:"dis", bolge:1, t:"1793-01-31", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:1, t:"1793-01-31", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-diplomasi"],
   b:"Nice Kontluğu'nun Fransa'ya katılması",
   gun:"31 Ocak 1793",
   ic_not_gun:"Gün Digithèque MJP d1793nice (Archives parlementaires): Konvansiyon katılmayı 31 Ocak 1793'te onayladı; Alpes-Maritimes departmanı 4 Şubat 1793 kararnamesiyle kuruldu. Dönüş: I. Paris Antlaşması 30 Mayıs 1814 (MJP traites/1814paris). TDV bu coğrafyayı kapsamıyor. KUTU-C-1014.",
@@ -1601,7 +1601,7 @@ window.OLAYLAR_P0057 = [
   d:"Savoy'un Kasım 1792'de katılmasından sonra Fransız Ulusal Konvansiyonu, Sardinya Krallığı'na ait Nice Kontluğu'nun Fransa'ya katılmasını 31 Ocak 1793'te onayladı; bölge Alpes-Maritimes departmanı oldu. Nice, Napolyon'un yenilgisinden sonra 30 Mayıs 1814 tarihli I. Paris Antlaşması'yla Sardinya'ya geri döndü.",
   kaynak:"Digithèque MJP (d1793nice, traites/1814paris)" },
 
-{ kapsam:"ic", t:"1922-04-29", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1922-04-29", k:"kazanc", etiket:["kurtulus","isgal","konu-askeri"],
   b:"İtalyan birliklerinin Marmaris ve Kuşadası'ndan çekilişi",
   gun:"24-29 Nisan 1922",
   ic_not_gun:"ATAM Dergisi (atamdergi.gov.tr tam-metin/41): Kuşadası'ndaki İtalyan askerleri 24 Nisan'da, Marmaris'tekiler 27 Nisan'da çekilmeye başladı; çekilme 29 Nisan 1922'de tamamlandı. Başlangıçlar Mevlüt Çelebi, Belleten 233 (1998). Kuşadası'na ardından giren Yunan kuvvetlerinin bitiş günü bulunamadı — yazılmadı. KUTU-C-1014.",
@@ -1609,7 +1609,7 @@ window.OLAYLAR_P0057 = [
   d:"Mayıs 1919'dan beri güneybatı Anadolu kıyılarında bulunan İtalyanlar, Ankara Hükümeti ile yakınlaşmanın ardından işgal bölgesini adım adım boşalttı. Antalya ve Bodrum 1921 yazında boşaltılmıştı; son İtalyan birlikleri Nisan 1922'nin sonunda Kuşadası ve Marmaris'ten de ayrıldı.",
   kaynak:"Çelebi, Belleten 233 (1998) · ATAM Dergisi" },
 
-{ kapsam:"dis", bolge:2, t:"1442-01-16", k:"siyaset", etiket:["siyaset","konu-siyasi"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:2, t:"1442-01-16", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Müşa'şa'îler Havîza'ya yerleşti — Huzistan'da Müşa'şa' idaresi başladı",
   gun:"4 Ramazan 845 / 16 Ocak 1442",
   ic_not_gun:"TDV musasalar kendi mîlâdî karşılığını veriyor (çevirme yapılmadı). Yerleşim: Havîza s:musasa. KUTU-F2-1014 (0088/H-0013).",
@@ -1617,7 +1617,7 @@ window.OLAYLAR_P0057 = [
   d:"Mehdîlik iddiasıyla ortaya çıkan Muhammed b. Felâh, Meâdî aşiretleri arasında tutunduktan sonra ertesi yıl Timurlular'ın denetimindeki Havîza'ya yerleşmeyi başardı. Şehir, Huzistan'da hüküm sürecek Müşa'şa'î hânedanının merkezi oldu.",
   kaynak:"musasalar" },
 
-{ kapsam:"dis", bolge:3, t:"1508-05-02", k:"siyaset", etiket:["siyaset","konu-siyasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:3, t:"1508-05-02", k:"siyaset", etiket:["siyaset","konu-siyasi"],
   b:"Şah İsmâil Havîza'yı bağladı — Müşa'şa'îler Safevî'ye tâbi valiler oldu",
   gun:"914 (1508-1509)",
   ic_not_gun:"TDV musasalar: 'bölgeyi kendi idaresine bağladı (914/1508-1509)'. Hicrî 914 = 1508-05-02 → 1509-04-20 (tablolu takvim, Jülyen) ∩ mîlâdî 1508-1509 ⇒ kesişimin ilk günü 1508-05-02; ay kaynakta yok. Yerleşim: Havîza s:musasa → safevi. KUTU-F2-1014 (0088/H-0013).",
@@ -1625,7 +1625,7 @@ window.OLAYLAR_P0057 = [
   d:"Şah İsmâil, zındıklıkla itham ettiği Müşa'şa' hânedanı üyelerinden bazılarını öldürttü ve Havîza bölgesini kendi idaresine bağladı. Müşa'şa' reisleri bundan sonra varlıklarını Safevîler'e tâbi valiler olarak sürdürdüler.",
   kaynak:"musasalar" },
 
-{ kapsam:"ic", t:"1534-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1534-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Pasin, Şüregel ve Oltu kaleleri Safevîlerden alındı — Erzurum-Kars arası",
   gun:"940 (1533-34)",
   ic_not_gun:"TDV kars: 'Kanûnî Sultan Süleyman'ın Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel, Oltu gibi kalelerin Osmanlılar tarafından ele geçirildiği' — hicrî 940 ∩ mîlâdî 1534 ⇒ kesişimin ilk günü 1534-01-01 (CLAUDE.md hicrî kuralı). Yerleşim: Pasinler (Hasankale) d. KUTU-F2-1014 (0088/H-0001).",
@@ -1633,7 +1633,7 @@ window.OLAYLAR_P0057 = [
   d:"Kanûnî Sultan Süleyman'ın Irakeyn Seferi sırasında Erzurum ile Kars arasındaki Pasin, Şüregel ve Oltu kaleleri Safevîlerden alındı.",
   kaynak:"kars" },
 
-{ kapsam:"ic", t:"1918-03-12", k:"kazanc", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1918-03-12", k:"kazanc", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Kâzım Karabekir'in kış harekâtı: Erzurum ile birlikte Hasankale (Pasinler) geri alındı",
   gun:"12 Mart 1918 (Erzurum'un günü)",
   ic_not_gun:"TDV kazim-karabekir: 'Ağır kış şartlarına rağmen Erzincan'ı, Erzurum'u ve Hasankale'yi geri alarak' — Hasankale'nin kendi günü yok; gün komşudan: Erzurum (TDV erzurum 12 Mart 1918); Hasankale Erzurum'un doğusunda olduğundan gerçek gün bundan sonra olabilir (EN ERKEN sınır). Yerleşim: Pasinler (Hasankale) d. KUTU-F2-1014 (0088/H-0001).",
@@ -1641,7 +1641,7 @@ window.OLAYLAR_P0057 = [
   d:"Rus ordusunun çözülmesinden sonra doğuda harekâta geçen Kâzım Karabekir Paşa kumandasındaki Osmanlı kuvvetleri ağır kış şartlarına rağmen Erzincan'ı, Erzurum'u ve Erzurum'un doğusundaki Hasankale'yi geri aldı; ilerleyiş 25 Nisan 1918'de Kars'a uzandı.",
   kaynak:"kazim-karabekir · erzurum" },
 
-{ kapsam:"ic", t:"1917-01-09", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1917-01-09", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Refah çarpışması — İngiliz-Anzak süvarisi Mağrunteyn mevzilerini ve Refah'ı aldı",
   gun:"9 Ocak 1917",
   ic_not_gun:"Australian War Memorial, Nigel Steel, 'Gateway to Palestine' (9 Ocak 2007): 'On the morning of 9 January 1917 …' · 'the position, together with nearby Rafa, was secured'. TDV'de Refah maddesi yok (arama 'refah': başlık eşleşmesi yok). Yerleşim: Refah d sonu / s:ingiltere. KUTU-F2-1014 (0076/H-0103).",
@@ -1669,7 +1669,7 @@ window.OLAYLAR_P0057 = [
 window.OLAYLAR_P0058 = [
 
 // ── 1339 · Eretna Kayseri yöresini bağladı (Zamantı'nın eretna başlangıcı) ──
-{ bolge:3, t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:3, t:"1339-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Eretna, Tokat, Kayseri ve Samsun yörelerini kendisine bağladı",
   gun:"1339 (ay ve gün kaynakta yok)",
   yer:"Kayseri, Tokat, Samsun yöreleri; Zamantı (Pınarbaşı)",
@@ -1680,7 +1680,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"Abdullah Kaya, 'Dulkadirli Beyliği'nin Eratnalılar ile Münasebetleri', MKÜ SBE Dergisi 11(25), 2014, s. 89 · eretnaogullari" },
 
 // ── 1360 · Dulkadirli Halil Bey Zamantı'ya kadar genişledi ──────────────
-{ bolge:3, t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", bolge:3, t:"1360-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
   b:"Dulkadirli Halil Bey sınırlarını Zamantı'ya kadar genişletti",
   gun:"1360 (ay ve gün kaynakta yok)",
   yer:"Zamantı (Pınarbaşı), Kayseri'nin doğusu",
@@ -1691,7 +1691,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"dulkadirogullari · Kaya 2014 (MKÜ SBE Dergisi 11/25), s. 90, 92" },
 
 // ── 1394 · İstanbul'un sıkı kuşatması — Bizans tâbiiyeti kopuyor ────────
-{ tur:"savas", t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1394-01-01", kesinlik:"yil", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Yıldırım Bayezid İstanbul'u yeniden sıkı bir kuşatma altına aldı",
   gun:"1394 ilkbaharı (ay ve gün kaynakta yok)",
   yer:"İstanbul",
@@ -1702,7 +1702,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"bayezid-i · bizans" },
 
 // ── 1424-02-22 · II. Murad–Bizans barışı: Bizans yeniden haraçgüzâr ─────
-{ tur:"antlasma", t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", t:"1424-02-22", k:"antlasma", kapsam:"ic", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"II. Murad ile Bizans barışı — Bizans yeniden haraç ödemeyi kabul etti",
   gun:"22 Şubat 1424 (21 Rebîülevvel 827)",
   yer:"İstanbul",
@@ -1713,7 +1713,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"murad-ii · bizans" },
 
 // ── 1514-10-23 · Bayburt ve Kiğı teslim alındı ─────────────────────────
-{ t:"1514-10-23", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1514-10-23", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Bayburt ve Kiğı kaleleri Safevîlerden teslim alındı — Erzincan ile Bayburt Bıyıklı Mehmed Bey'e verildi",
   gun:"Ekim 1514 (Bayburt'un alınışı; gün kaynakta yok) · 23 Ekim 1514 (beylerbeyilik tevcihi)",
   yer:"Bayburt, Kiğı, Erzincan",
@@ -1724,7 +1724,7 @@ window.OLAYLAR_P0058 = [
   kaynak:"selim-i · bayburt · erzincan" },
 
 // ── 1514-11-24 · Yavuz Amasya'ya döndü (0033/H-0018 eksik madde) ────────
-{ t:"1514-11-24", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1514-11-24", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Yavuz Sultan Selim Tebriz seferinden Amasya'ya döndü ve kışı orada geçirdi",
   gun:"24 Kasım 1514 (gün yalnız Remzi Kılıç'ta; TDV yalnız 'Amasya'ya döndü' der)",
   yer:"Amasya, Niksar",
@@ -1778,7 +1778,7 @@ window.OLAYLAR_P0058 = [
 // ============================================================================
 window.OLAYLAR_P0059 = [
 
-{ tur:"isyan", kapsam:"ic", t:"1594-11-13", k:"isyan", etiket:["isyan","savas","siyaset","konu-isyan","konu-siyasi","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"isyan", kapsam:"ic", t:"1594-11-13", k:"isyan", etiket:["isyan","savas","siyaset","konu-isyan","konu-siyasi","konu-askeri"],
   b:"Eflak, Boğdan ve Erdel Osmanlı'ya karşı birlikte ayaklandı",
   gun:"13 Kasım 1594",
   yer:"Eflak ve Boğdan (Erdel'in desteğiyle)", yer_id:"Bükreş",
@@ -1803,40 +1803,40 @@ window.OLAYLAR_P0059 = [
 // Eski yerin terki (`bit:`) ve yeni yerin ilk tanığı (`kur:`) aynı kırılmayı verir; maddeleri buradadır.
 // ============================================================================
 window.OLAYLAR_SEHIR_ILK = [
-{ kapsam:"ic", t:"1284-03-20", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Bilecik ilk kez anılır — Bizans ile sınır Bilecik'te başlıyordu", gun:"683 (1284)", yer:"Bilecik", yer_id:"Bilecik", d:"Neşrî'nin aktardığı 683 yılı olaylarında Bilecik, Osman Bey'in uç beyliği ile Bizans arasındaki sınırın başladığı yer olarak geçer. Bu, yerleşimin tarihte bilinen ilk anılışıdır; kuruluşu değildir.", kaynak:"osman-i", ic_not_d:"TDV OSMAN I (H. İnalcık), Neşrî I, 64 atfıyla. hicrî 683 ∩ 1284 → 1284-03-20 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün (Şırnak kalıbı). Slug ölçüldü 14 Ekim: osman-i GERÇEK, osman-gazi ölü." },
-{ kapsam:"dis", bolge:2, t:"1299-09-28", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Burdur'da Gāzân Han adına sikke — şehrin bilinen ilk tanığı", gun:"699 (1299-1300)", yer:"Burdur", yer_id:"Burdur", d:"Hamîdoğulları, İlhanlı baskısı altında 699 yılında Burdur'da Gāzân Han adına sikke kestirmek zorunda kaldı. Bu sikke, Burdur'un yazılı/tarihli ilk tanığıdır.", kaynak:"hamidogullari", ic_not_d:"hicrî 699 ∩ 1299-1300 → ilk gün 1299-09-28 (tablo takvimi, Jülyen). Atlas kur: aynı gün." },
-{ kapsam:"dis", bolge:2, t:"1352-03-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Çorum Eretna'nın ülkesinde anılır — şehrin bilinen ilk tanığı", gun:"Muharrem 753 (Mart 1352)", yer:"Çorum", yer_id:"Çorum", d:"Eretna Bey'in Muharrem 753'te ölümünde hâkimiyeti altındaki şehirler arasında Çorum da sayılır. Şehrin kuruluşu bilinmiyor; bu anış bulunabilen en erken tarihli tanıktır.", kaynak:"eretnaogullari", ic_not_d:"Ay hassasiyeti (Muharrem 753 = Mart 1352). Atlas kur: 1352-03-01." },
-{ kapsam:"dis", bolge:2, t:"1452-04-03", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Mostar'ın adı ilk kez bir Dubrovnik belgesinde geçer", gun:"3 Nisan 1452", yer:"Mostar", yer_id:"Mostar", d:"Mostar'ın adı ilk defa 3 Nisan 1452 tarihli bir Dubrovnik belgesinde geçer; yerleşim Hersek Dükalığı topraklarındaydı. Osmanlı fethi 1466-68'dir.", kaynak:"mostar" },
-{ kapsam:"ic", t:"1472-06-08", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Tatarpazarcığı ilk kez akıncı defterinde kayıtlıdır", gun:"877 (1472)", yer:"Tatarpazarcığı", yer_id:"Tatarpazarcığı", d:"Şehir hakkındaki en eski kayıtlar 877 (1472) yılına kadar iner: Sofya Millî Kütüphanesi'ndeki bir akıncı defteri yerleşimi kaydeder.", kaynak:"tatarpazarcigi", ic_not_d:"Sofya Millî Kütüphanesi OAK nr. 94/73, s. 32-33 (TDV aktarımı). hicrî 877 ∩ 1472 → 1472-06-08 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün." },
-{ kapsam:"dis", bolge:2, t:"1494-02-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Banaluka ilk kez Kral II. Vladislav'ın bir talimatında anılır", gun:"6 Şubat 1494", yer:"Banaluka", yer_id:"Banaluka", d:"Banja Luka adı ilk kez Macar-Hırvat kralı II. Vladislav'ın 6 Şubat 1494 tarihli bir talimatında geçer; yöre Yayçe banlığı üzerinden Macar tâcına bağlıydı. Osmanlı fethi 1527-28 kışıdır.", kaynak:"Hrvatska enciklopedija (LZMK), 'Banja Luka'; TDV banaluka", ic_not_d:"Tarih Hrvatska enciklopedija'dan: 'prvi put spominje u uputi … Vladislava II. od 6. II. 1494.' TDV BANALUKA tarihsiz ~1463/64 anışı verir." },
-{ kapsam:"dis", bolge:1, t:"1813-03-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Vâdî Halfâ Burckhardt'ın Nubia yolculuğunda kaydedilir", gun:"6 Mart 1813", yer:"Vâdî Halfâ", yer_id:"Vâdî Halfâ", d:"İsviçreli seyyah J. L. Burckhardt 6 Mart 1813 günlüğünde Vâdî Halfâ'dan geçtiğini ve orada bir miktar ticaret yapıldığını yazar. Bulunabilen ilk tarihli tanıktır.", kaynak:"J. L. Burckhardt, Travels in Nubia (London 1819), 6 Mart 1813 kaydı", ic_not_d:"TDV'de VÂDÎ HALFÂ maddesi YOK (vadi-halfa slug'ı arama sayfasına düşer — ölü slug, ölçüldü 14 Ekim). Atlas kur: aynı gün." },
-{ kapsam:"ic", t:"1458-01-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Saraybosna'da Hünkâr Camii — yerleşimin en erken tarihli tanığı", gun:"862 (1458)", yer:"Saraybosna", yer_id:"Saraybosna", d:"Bosna sancak beyi İshak Bey, Saray ovasındaki ilk müslüman yerleşiminde kendine bir saray, Fâtih Sultan Mehmed adına Hünkâr Camii ve yanında bir hamam yaptırdı. Cami 862 (1458) tarihlidir; Saraybosna'nın bilinen en erken tarihli yapısıdır.", kaynak:"saraybosna", ic_not_d:"TDV SARAYBOSNA (M. Aruçi), ham metin 14 Ekim: '1462 yılından önce burada … ilk müslüman yerleşimi kuruldu … Hünkâr Camii ile (862/1458)'. Hicrî 862 ∩ 1458 → 1458-01-01 (yıl). Atlas kur: aynı gün (Şırnak kalıbı)." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1494-10-02", k:"kurulus", etiket:["toprak-kazanc","toprak-kayip","konu-idari"], b:"Basra halkı bugünkü sahaya taşınmayı tamamlar — eski Basra terk edilir", gun:"900 (1494-95)", yer:"Basra, Eski Basra (Zübeyr)", yer_id:"Basra", d:"Halk, bedevî saldırılarına karşı daha emniyetli bulduğu ve suyunu daha rahat karşılayabildiği bugünkü Basra'ya zamanla yerleşmeye başlamıştı; yeni sahaya geçiş 900 (1494-95) yılında tamamlandı. Hz. Ömer döneminde kurulan eski Basra, bugünkü şehrin yaklaşık 25 km uzağındaydı.", kaynak:"basra", ic_not_d:"TDV BASRA (A. Bakır), ham metin 14 Ekim: 'Bu yeni sahaya intikal 900’de (1494-95) tamamlandı.' hicrî 900 = 1494-10-02 → 1495-09-20; kesişimin ilk günü (tablo takvimi, Jülyen; kesinlik yıl). Atlas: 'Basra' kur: ve 'Eski Basra (Zübeyr)' bit: aynı gün (C grubu, 3 km kuralı)." },
-{ kapsam:"dis", bolge:3, t:"1738-03-24", k:"fetih", etiket:["askeri","konu-askeri"], b:"Nâdir Şah Kandehar'ı alır ve eski şehri yıktırır", gun:"24 Mart 1738", yer:"Eski Kandehar (Şehr-i Köhne)", yer_id:"Eski Kandehar (Şehr-i Köhne)", d:"Afşar hükümdarı Nâdir Şah, Galzay Afganlarının elindeki Kandehar'ı uzun bir kuşatmadan sonra aldı. Şehir tahrip edildi ve halkı eski yerinin güneydoğusunda kurulan Nâdirâbâd'a geçti; eski Kandehar bir daha şehir olmadı.", kaynak:"kandehar", ic_not_d:"TDV KANDEHAR (A. Özcan), ham metin 14 Ekim: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek eski yerinin güneydoğusunda Nâdirâbâd ismiyle yeniden kuruldu'. Gün komşudan: data/kronoloji_iran.js 1738-03-24 maddesi, kendi kaynağı Encyclopaedia Iranica 'NADIR SHAH AFSHAR'. Atlas: 'Eski Kandehar (Şehr-i Köhne)' bit: aynı gün (C grubu). Toprak etiketi YOK — bit: sahiplik kırılması değildir (Değişmez 2t ölçtü 14 Ekim: toprak etiketiyle 'kırılmasız madde' sayıldı)." },
-{ kapsam:"ic", t:"1838-01-01", k:"diger", etiket:["toprak-kazanc","konu-idari"], b:"Malatya halkı Aspuzu bağlarında kalır — modern Malatya'nın çekirdeği", gun:"1838 yazı", yer:"Malatya", yer_id:"Malatya", d:"İbrâhim Paşa'nın Mısır ordusuna karşı Osmanlı umumi karargâhı 1838 yazında Mezraa'dan Malatya'ya taşındı. Aspuzu'daki yazlık evlerinde oturan Malatyalılar, ordunun ayrılışından sonra harap kalan eski şehirdeki kışlık evlerine dönmedi; Aspuzu modern Malatya'nın çekirdeği oldu. Eski Malatya (Battalgazi) küçülerek yaşamayı sürdürdü.", kaynak:"malatya", ic_not_d:"TDV MALATYA (G. Göğebakan), ham metin 14 Ekim. Yıl hassasiyeti (ay 'yaz', gün yok). Atlas: 'Malatya' kur: aynı gün (C grubu, Şırnak kalıbı); 'Eski Malatya (Battalgazi)' sürüyor." },
-{ tur:"kurulus", kapsam:"ic", t:"1918-04-02", k:"kurulus", etiket:["toprak-kazanc","toprak-kayip","konu-idari"], b:"Van yeni yerinde kurulur — harap eski şehir bırakılır", gun:"2 Nisan 1918 sonrası", yer:"Van", yer_id:"Van", d:"Van 2 Nisan 1918'de işgalden kurtarıldı. Geri dönenler, savaş yıllarında harap olan göl kıyısındaki eski Van'ı onarmak yerine, kıyıdan 7 km kadar içeride eski Norşen ve Arak mahallelerinin yerinde yeni bir şehir kurdu. Eski şehir terk edildi.", kaynak:"van", ic_not_d:"TDV VAN (M. Tuncel), ham metin 14 Ekim. Kuruluş günü bilinmiyor: t = kurtuluş günü (terminus post quem), kuruluş 1918-1927 arası (1927 sayımında yeni yerde 6981 nüfus). Atlas: 'Van' kur: ve 'Eski Van (Tuşpa)' bit: aynı gün (C grubu, 3 km kuralı)." },
-{ tur:"kurulus", kapsam:"ic", t:"1503-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Mengli Giray Han Çürüksu kenarında Han Sarayı'nı yaptırdı — Bahçesaray'ın temeli", gun:"1503", yer:"Bahçesaray", yer_id:"Bahçesaray", kisiler:"I. Mengli Giray", d:"Altın Orda valilerinin ve ilk Kırım hanlarının yazlık av ve dinlenme bölgesi olan vadide I. Mengli Giray Han, Çürüksu kenarına bugün Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray'ın temelini attı. Şehir sarayın etrafında ve dar Çürüksu vadisi boyunca gelişerek XVI. yüzyıl sonlarında mâmur hâle geldi ve Kırım Hanlığı'nın merkezi oldu.", kaynak:"bahcesaray — gövde okundu: 'I. Mengli Giray Han, bol sulu küçük bir ırmak olan Çürüksu’nun kenarına, 1503’te şimdi Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray’ın temelini attı'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): atlas noktası 1281'den başlıyordu; kur: 1503 (yıl) yazıldı, bu madde o kırılmanın maddesidir. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:3, t:"1778-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Dinyeper ağzında Herson tersanesi kuruldu", gun:"1778", yer:"Herson", yer_id:"Herson", kisiler:"", d:"Küçük Kaynarca'dan sonra Rusya'ya geçen Dinyeper ağzında, 1737'de yapılıp kısa sürede yıkılan Aleksandr-şanc tahkimatının yakınında bir tersane kuruldu ve Herson adı verildi. Şehir 1784'te kaza, 1803'te gubernia merkezi oldu.", kaynak:"ESBE «Херсон»: 'в 1778 г. устроена верфь, наименованная Х. С 1784 г. Х. был уездн. г. …'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01. TDV'de madde yok." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1779-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Kırım'dan gelen Rumlar Azak kıyısında Mariupol'ü kurdu", gun:"1779", yer:"Mariupol", yer_id:"Mariupol", kisiler:"", d:"Kırım'dan gelen Rumlar, Kalmius'un Azak Denizi'ne döküldüğü yerde Mariupol'ü kurdu. Şehir 1784'te Yekaterinoslav valiliğine bağlı kaza merkezi oldu.", kaynak:"ESBE «Мариуполь»: 'Настоящий г. основан в 1779 г. греками-выходцами из Крыма; назначен в 1784 г. уездн. г. Екатеринославского наместничества'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1783-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Yekaterinoslav Dinyeper kıyısındaki bugünkü yerine taşındı", gun:"1783", yer:"Yekaterinoslav (Dnipro)", yer_id:"Yekaterinoslav (Dnipro)", kisiler:"Potemkin", d:"Potemkin'in 1778'de Kilçen ile Samara ırmaklarının birleştiği yerde kurduğu Yekaterinoslav, sağlıksız konumu yüzünden 1783'te bugünkü yerine nakledildi.", kaynak:"ESBE «Екатеринослав»: 'В 1778 г. Потемкиным был основан уездный город Е. … но уже в 1783 г., вследствие нездорового местоположения, Е. был перенесен на настоящее свое место'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi; 1778 şehri ayrı yerde, nokta açılmadı. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1805-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Don Kazak Ordusu'nun yeni merkezi Novoçerkask kuruldu", gun:"1805", yer:"Novoçerkask", yer_id:"Novoçerkask", kisiler:"", d:"Don Kazak Ordusu'nun idarî merkezi, o zamana kadar merkez olan Çerkask'tan Aksay ve Tuzlov ırmakları arasındaki Biryuçiy Kut mevkiinde kurulan Novoçerkask'a geçti.", kaynak:"ESBE «Новочеркасск»: 'Н. основан в 1805 г. на урочище Бирючий Кут. До того времени административным центром донского войска служил'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:4, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Ahtiar koyunda Rus donanma limanı Sivastopol kuruldu", gun:"1784", yer:"Akyar (Sivastopol)", yer_id:"Akyar (Sivastopol)", kisiler:"", d:"Kırım'ın 1783'te Rusya'ya ilhakından sonra Kırım Tatar köyü Ahtiar'ın (Akyar) bulunduğu koy askerî liman için seçildi; liman ertesi yıl kurularak Sivastopol adını aldı. Şehir 1804'te Rus Karadeniz donanmasının ana limanı oldu.", kaynak:"ESBE «Севастополь»: 'деревенька Ахтиар, местность которой была избрана в 1783 г. … Последний был основан в следующем году и назван Севастополем' · 'В 1804 г. С. назначен главным портом черноморского флота'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1827-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Azak kıyısında Berdyansk iskelesi kuruldu", gun:"1827", yer:"Berdyansk", yer_id:"Berdyansk", kisiler:"M. S. Vorontsov", d:"Knez Mihail Vorontsov'un girişimiyle Berda ırmağının Azak Denizi'ne döküldüğü yerde Berdyansk kuruldu. Yerleşim 1835'te şehir, 1842'de kaza merkezi oldu.", kaynak:"ESBE «Бердянск»: 'Б. возник в 1827 г. стараниями кн. М. С. Воронцова; … в 1835 г. сделан городом, а в 1842 г. назначен уездным'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:3, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Bug ağzında Nikolayev tahkimatı kuruldu", gun:"1784", yer:"Nikolayev", yer_id:"Nikolayev (Mikolayiv)", kisiler:"Knez G. A. Potemkin", d:"Güney Bug ile İngul ırmaklarının birleştiği yerde, Knez Potemkin'in emriyle bir tahkimat kuruldu. 1788'de burada bir tersane açıldı ve yerleşim Karadeniz donanmasının gemi yapım merkezlerinden biri oldu.", kaynak:"ESBE «Николаев, город Херсонской губернии»: 'Основан, в виде укрепления, кн. Потемкиным в 1784 г.' · IEU «Mykolaiv»: 'a fort (1784) and a shipbuilding wharf (1788)'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Molochna kıyısında Melitopol'ün çekirdeği olan sınır yerleşimi kuruldu", gun:"1784", yer:"Melitopol", yer_id:"Melitopol", kisiler:"", d:"Kırım'ın ilhakından sonra Molochna ırmağı kıyısında bir sınır yerleşimi kuruldu. Yerleşim 1816'da Novooleksandrivka adını aldı, 1841'de Melitopol adıyla şehir yapıldı.", kaynak:"IEU «Melitopol»: 'A frontier settlement was established at the site in 1784' · ESBE «Мелитополь»: 'В 1841 г. … переименована в город М.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:3, t:"1777-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri"], b:"Azak-Mozdok hattında Stavropol kalesi kuruldu", gun:"1777", yer:"Stavropol", yer_id:"Stavropol (Kafkas)", kisiler:"", d:"Küçük Kaynarca'dan sonra Kuban ve Terek arasındaki bozkırı denetlemek için kurulan Azak-Mozdok tahkimat hattında on kale yapıldı; bunlardan biri Stavropol'dü. Kale sonradan Kafkasya valiliğinin ve Stavropol guberniyasının merkezi oldu.", kaynak:"ESBE «Ставропольская губерния»: 'В 1777 г. сооружено было 10 крепостей, в том числе Ставропольская'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
-{ kapsam:"dis", bolge:2, t:"1420-01-01", k:"diger", etiket:["konu-idari","sehir-kronolojisi"], b:"Kişinev ilk kez Boğdan voyvodasının fermanında anıldı", gun:"1420", yer:"Kişinev", yer_id:"Kişinev (Chișinău)", kisiler:"Boğdan voyvodası İyi Aleksandru", d:"Kişinev'in adı ilk kez Boğdan voyvodası Aleksandru'nun 1420 tarihli bir fermanında geçer. Şehir uzun süre küçük bir Boğdan kasabası olarak kaldı; 1812'de Besarabya ile birlikte Rusya'ya geçince eyalet merkezi oldu.", kaynak:"ESBE «Кишинев»: 'Впервые о нем упоминается в грамоте молдаванского господаря Александра 1420 г.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kur: ilk anılış (görünme alt sınırı, kuruluş değil). Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:1, t:"1654-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Harkov Kazak göçmenlerince kuruldu", gun:"1654", yer:"Harkov", yer_id:"Harkov", kisiler:"", d:"Vahşi bozkırın kuzey kenarında, Lopan ile Harkov ırmaklarının birleştiği yerde Dinyeper sağ yakasından gelen Kazak göçmenleri bir yerleşim kurdu. Harkov kısa sürede Moskova'ya bağlı Sloboda Ukrayna'nın merkezi oldu.", kaynak:"IEU «Kharkiv» (1654/5 Kazak yerleşimi) · ESBE «Харьков»: 'Год основания X. неизвестен' — Bagaley'e göre 'к 1654—1655 гг.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kur: kırılmasının maddesi; iki kaynak 1654-1655 aralığını veriyor, ilk yıl yazıldı. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"dis", bolge:1, t:"1738-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Volga kıyısında Stavropol kalesi kuruldu", gun:"1738", yer:"Stavropol (Volga)", yer_id:"Stavropol (Volga)", kisiler:"", d:"Orta Volga'da, Hristiyanlığı kabul eden Kalmuklar için Stavropol kalesi kuruldu (bugünkü Tolyatti).", kaynak:"ESBE «Ставрополь»: 'Основан в 1738 г.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kaynaksız kur 1737 → ESBE 1738. Gün yok ⇒ YYYY-01-01." },
-{ tur:"kurulus", kapsam:"ic", t:"1462-02-01", k:"kurulus", etiket:["siyaset","konu-idari"], b:"İshak Bey vakfiyesi — Saraybosna'nın şehir çekirdeği vakfedildi", gun:"Cemâziyelevvel 866 (Şubat 1462)", yer:"Saraybosna", yer_id:"Saraybosna", d:"İshak Bey'in Cemâziyelevvel 866 (Şubat 1462) tarihli vakfiyesinden cami ve hamamın yanı sıra zâviye, mevlevîhâne, imaret, Miljacka üzerinde bir köprü, karşı yakada Kolobara Hanı, bedesten, kervansaray ve dükkânların yapıldığı anlaşılır. Belge şehrin vakıf temelidir; yerleşim ondan önce vardı.", kaynak:"saraybosna", ic_not_d:"TDV SARAYBOSNA (M. Aruçi), ham metin 14 Ekim; Mujezinović I, 17-18. Toprak etiketi YOK — bu gün atlasta kırılma değildir (Değişmez 2t)." },
-{ kapsam:"dis", bolge:2, t:"1368-01-20", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"İbrail ilk kez anılır — Vlaicu Vodă'nın Braşovlu tüccarlara imtiyaz belgesi", gun:"20 Ocak 1368", yer:"İbrail (Brăila)", yer_id:"İbrail", kisiler:"Vladislav I (Vlaicu Vodă)", d:"Eflak voyvodası Vladislav, Braşovlu tüccarlara İbrail yolu üzerinden mal taşırken kolaylık tanıyan bir belge verdi. Bu belge İbrail'in bilinen ilk yazılı tanığıdır; yer burada henüz şehir olarak değil, yolun Tuna'daki ucu olarak geçer. Kuruluş tarihi değildir.", kaynak:"Biblioteca Județeană Brăila, Luceafărul 1/2018 (20 ianuarie 1368 belgesi; birincil belge DRH B I, açılmadı)", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G5 0084/H-0003): İbrail kur: 1368-01-20 (Şırnak kalıbı) bir kazanç kırılmasıdır; bu madde onu anar. 1582 öncesi gün, takvim çevrilmedi." },
-{ kapsam:"dis", bolge:2, t:"1445-01-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Kalas ilk kez bir Boğdan voyvodası belgesinde anılır", gun:"1445", yer:"Kalas (Galați)", yer_id:"Kalas (Galatz)", kisiler:"II. Ştefan (Boğdan voyvodası)", d:"Boğdan voyvodası II. Ştefan, Humor Manastırı'nın Kalas'tan balık getiren iki arabasını gümrük vergisinden muaf tuttu. Bu belge Kalas'ın kesin olarak bilinen ilk yazılı tanığıdır; yerleşim daha önce Tuna kıyısında bir balıkçı köyü olarak var olmuş olabilir.", kaynak:"Universitatea 'Dunărea de Jos' din Galați, 'About Galați' (en.ugal.ro) · Chirtoagă, Dialogica 2/2022 (dialogica.usm.md)", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G5 0084/H-0003): Kalas kur: 1445 (Şırnak kalıbı, YIL) kırılmasını anar. Aynı kurumsal sayfa 1418'i 'olası' tanık sayar — kullanılmadı. Belge metni okunmadı; gün yok." },
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1552-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Zaporojye Kazakları Hortiça adasında ilk Seç'i kurdu", gun:"1552 dolayı (ca 1552)", yer:"Küçük Hortiça adası, Dinyeper", yer_id:"Hortiça Seçi", kisiler:"Dmitro Vişnevetski", d:"Prens Dmitro Vişnevetski Dinyeper'deki Küçük Hortiça adasında ilk Zaporojye Seçi'ni kurdu. Kale 1558'de Kırım Tatarlarınca kuşatılıp yıkıldı; Seç daha sonra güneydeki adalara taşındı. Terim: «Seçi» (Ukraynaca Sich), Zaporojye Kazaklarının Dinyeper adalarındaki kütük ve hendekle tahkim edilmiş merkez kampıdır; karargâh, meclis (Rada) yeri ve seçilmiş ordu başının (koşevoy) merkezidir, devlet başkenti değildir.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Hortiça Seçi kur: 1552 (ca) ve Zaporojye künyesinin başlangıcı."},
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1593-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Bazavluk Seçi kuruldu", gun:"1593", yer:"Bazavluk adası, Dinyeper", yer_id:"Bazavluk Seçi", kisiler:"", d:"Tatarların Tomakivka Seçi'ni yıkmasından sonra Zaporojye Kazakları, Dinyeper'in Çortomlık, Pidpilna ve Skarban kollarıyla birleştiği yerdeki Bazavluk adasında yeni Seç'i kurdu. Seç 1638'de Kazak ayaklanmasının bastırılmasının ardından Lehistan seferiyle yıkıldı. Terim: «Seçi» (Ukraynaca Sich), Zaporojye Kazaklarının Dinyeper adalarındaki kütük ve hendekle tahkim edilmiş merkez kampıdır; karargâh, meclis (Rada) yeri ve seçilmiş ordu başının (koşevoy) merkezidir, devlet başkenti değildir. Bu tarihte «Hetmanlık» henüz yoktur (1648); Zaporojye adı «çağlayanların ötesi» demektir ve Seç'ler Dinyeper çağlayanlarının aşağısındaki bozkır sınırında durur. Kazakistan Kazaklarıyla etnik akrabalığı yoktur: Zaporojye Kazakları Doğu Slav (Ukraynalı), Ortodoks bir topluluktur; ortak olan yalnız Türkçe kökenli «kazak» (serbest savaşçı) sözcüğüdür.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Bazavluk Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Bazavluk Seçi kur: 1593."},
-{ kapsam:"dis", bolge:2, t:"1628-01-01", k:"diger", etiket:["toprak-kazanc","konu-idari","sehir-kronolojisi"], b:"Mıkıtın Rog Seçi ilk kez anılır", gun:"1628", yer:"Mıkıtın Rog (Nikopol), Dinyeper", yer_id:"Mıkıtın Rog Seçi (Nikopol)", kisiler:"", d:"Bugünkü Nikopol'ün yerindeki Mıkıtın Rog'da kurulan dördüncü Seç'in adı ilk kez 1628'de geçer; 1648'de Bogdan Hmelnitski tarafından ele geçirildi. Bu, yerin bilinen ilk tanığıdır, kuruluşu değildir.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Mıkıtın Rog kur: 1628 (Şırnak kalıbı, ilk tanık)."},
-{ tur:"kurulus", kapsam:"dis", bolge:2, t:"1652-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Çortomlık Seçi kuruldu", gun:"1652", yer:"Çortomlık burnu, Dinyeper", yer_id:"Çortomlık Seçi", kisiler:"", d:"Zaporojye Kazakları Dinyeper'in Çortomlık ırmağıyla birleştiği burunda 'Eski Seç' de denen Çortomlık Seçi'ni kurdu. Seç, Mazepa'yı destekledikleri için 25 Mayıs 1709'da Rus ordusunca yıkıldı.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Chortomlyk Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Çortomlık Seçi kur: 1652."},
-{ tur:"kurulus", kapsam:"ic", t:"1711-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Zaporojye Kazakları Kırım hanının izniyle Aleşki Seçi'ni kurdu", gun:"1711", yer:"Aleşki, Dinyeper ağzı", yer_id:"Aleşki Seçi", kisiler:"Yakım Boguş, Kost Gordiyenko", d:"Rus taarruzu Kamenka'daki Seç'i boşalttırınca Zaporojye Kazakları Kırım hanının izniyle hanlık topraklarında, Konka ırmağının sol yakasındaki Aleşki'ye yerleşti. Prut Antlaşması'ndan sonra Gordiyenko'nun Kazakları da onlara katıldı. Han Seç'in sur ve top bulundurmasına izin vermedi.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Oleshky Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Aleşki Seçi kur: 1711 ve v: kirim başlangıcı."},
-{ kapsam:"dis", bolge:2, t:"1728-01-01", k:"diger", etiket:["toprak-kayip","konu-idari"], b:"Aleşki Seçi yağmalandı ve terk edildi", gun:"1728", yer:"Aleşki, Dinyeper ağzı", yer_id:"Aleşki Seçi", kisiler:"Ivan Husak, Kost Gordiyenko", d:"Rus yanlısı Samara Kazakları Aleşki Seçi'ni basıp yağmaladı ve kışlaları ateşe verdi. Seç yeniden kurulmadı; Kazaklar 1730'da Kamenka'ya döndü ve 1734'te Rusya'ya bağlılık yemini ederek Yeni Seç'i kurdu.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Oleshky Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Aleşki Seçi bit: 1728 ve v: kirim sonu."},
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1284-03-20", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Bilecik ilk kez anılır — Bizans ile sınır Bilecik'te başlıyordu", gun:"683 (1284)", yer:"Bilecik", yer_id:"Bilecik", d:"Neşrî'nin aktardığı 683 yılı olaylarında Bilecik, Osman Bey'in uç beyliği ile Bizans arasındaki sınırın başladığı yer olarak geçer. Bu, yerleşimin tarihte bilinen ilk anılışıdır; kuruluşu değildir.", kaynak:"osman-i", ic_not_d:"TDV OSMAN I (H. İnalcık), Neşrî I, 64 atfıyla. hicrî 683 ∩ 1284 → 1284-03-20 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün (Şırnak kalıbı). Slug ölçüldü 14 Ekim: osman-i GERÇEK, osman-gazi ölü." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1299-09-28", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Burdur'da Gāzân Han adına sikke — şehrin bilinen ilk tanığı", gun:"699 (1299-1300)", yer:"Burdur", yer_id:"Burdur", d:"Hamîdoğulları, İlhanlı baskısı altında 699 yılında Burdur'da Gāzân Han adına sikke kestirmek zorunda kaldı. Bu sikke, Burdur'un yazılı/tarihli ilk tanığıdır.", kaynak:"hamidogullari", ic_not_d:"hicrî 699 ∩ 1299-1300 → ilk gün 1299-09-28 (tablo takvimi, Jülyen). Atlas kur: aynı gün." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1352-03-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Çorum Eretna'nın ülkesinde anılır — şehrin bilinen ilk tanığı", gun:"Muharrem 753 (Mart 1352)", yer:"Çorum", yer_id:"Çorum", d:"Eretna Bey'in Muharrem 753'te ölümünde hâkimiyeti altındaki şehirler arasında Çorum da sayılır. Şehrin kuruluşu bilinmiyor; bu anış bulunabilen en erken tarihli tanıktır.", kaynak:"eretnaogullari", ic_not_d:"Ay hassasiyeti (Muharrem 753 = Mart 1352). Atlas kur: 1352-03-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1452-04-03", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Mostar'ın adı ilk kez bir Dubrovnik belgesinde geçer", gun:"3 Nisan 1452", yer:"Mostar", yer_id:"Mostar", d:"Mostar'ın adı ilk defa 3 Nisan 1452 tarihli bir Dubrovnik belgesinde geçer; yerleşim Hersek Dükalığı topraklarındaydı. Osmanlı fethi 1466-68'dir.", kaynak:"mostar" },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1472-06-08", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Tatarpazarcığı ilk kez akıncı defterinde kayıtlıdır", gun:"877 (1472)", yer:"Tatarpazarcığı", yer_id:"Tatarpazarcığı", d:"Şehir hakkındaki en eski kayıtlar 877 (1472) yılına kadar iner: Sofya Millî Kütüphanesi'ndeki bir akıncı defteri yerleşimi kaydeder.", kaynak:"tatarpazarcigi", ic_not_d:"Sofya Millî Kütüphanesi OAK nr. 94/73, s. 32-33 (TDV aktarımı). hicrî 877 ∩ 1472 → 1472-06-08 (tablo takvimi, Jülyen; kesinlik yıl). Atlas kur: aynı gün." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1494-02-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Banaluka ilk kez Kral II. Vladislav'ın bir talimatında anılır", gun:"6 Şubat 1494", yer:"Banaluka", yer_id:"Banaluka", d:"Banja Luka adı ilk kez Macar-Hırvat kralı II. Vladislav'ın 6 Şubat 1494 tarihli bir talimatında geçer; yöre Yayçe banlığı üzerinden Macar tâcına bağlıydı. Osmanlı fethi 1527-28 kışıdır.", kaynak:"Hrvatska enciklopedija (LZMK), 'Banja Luka'; TDV banaluka", ic_not_d:"Tarih Hrvatska enciklopedija'dan: 'prvi put spominje u uputi … Vladislava II. od 6. II. 1494.' TDV BANALUKA tarihsiz ~1463/64 anışı verir." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:1, t:"1813-03-06", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Vâdî Halfâ Burckhardt'ın Nubia yolculuğunda kaydedilir", gun:"6 Mart 1813", yer:"Vâdî Halfâ", yer_id:"Vâdî Halfâ", d:"İsviçreli seyyah J. L. Burckhardt 6 Mart 1813 günlüğünde Vâdî Halfâ'dan geçtiğini ve orada bir miktar ticaret yapıldığını yazar. Bulunabilen ilk tarihli tanıktır.", kaynak:"J. L. Burckhardt, Travels in Nubia (London 1819), 6 Mart 1813 kaydı", ic_not_d:"TDV'de VÂDÎ HALFÂ maddesi YOK (vadi-halfa slug'ı arama sayfasına düşer — ölü slug, ölçüldü 14 Ekim). Atlas kur: aynı gün." },
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1458-01-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Saraybosna'da Hünkâr Camii — yerleşimin en erken tarihli tanığı", gun:"862 (1458)", yer:"Saraybosna", yer_id:"Saraybosna", d:"Bosna sancak beyi İshak Bey, Saray ovasındaki ilk müslüman yerleşiminde kendine bir saray, Fâtih Sultan Mehmed adına Hünkâr Camii ve yanında bir hamam yaptırdı. Cami 862 (1458) tarihlidir; Saraybosna'nın bilinen en erken tarihli yapısıdır.", kaynak:"saraybosna", ic_not_d:"TDV SARAYBOSNA (M. Aruçi), ham metin 14 Ekim: '1462 yılından önce burada … ilk müslüman yerleşimi kuruldu … Hünkâr Camii ile (862/1458)'. Hicrî 862 ∩ 1458 → 1458-01-01 (yıl). Atlas kur: aynı gün (Şırnak kalıbı)." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1494-10-02", k:"kurulus", etiket:["toprak-kazanc","toprak-kayip","konu-idari"], b:"Basra halkı bugünkü sahaya taşınmayı tamamlar — eski Basra terk edilir", gun:"900 (1494-95)", yer:"Basra, Eski Basra (Zübeyr)", yer_id:"Basra", d:"Halk, bedevî saldırılarına karşı daha emniyetli bulduğu ve suyunu daha rahat karşılayabildiği bugünkü Basra'ya zamanla yerleşmeye başlamıştı; yeni sahaya geçiş 900 (1494-95) yılında tamamlandı. Hz. Ömer döneminde kurulan eski Basra, bugünkü şehrin yaklaşık 25 km uzağındaydı.", kaynak:"basra", ic_not_d:"TDV BASRA (A. Bakır), ham metin 14 Ekim: 'Bu yeni sahaya intikal 900’de (1494-95) tamamlandı.' hicrî 900 = 1494-10-02 → 1495-09-20; kesişimin ilk günü (tablo takvimi, Jülyen; kesinlik yıl). Atlas: 'Basra' kur: ve 'Eski Basra (Zübeyr)' bit: aynı gün (C grubu, 3 km kuralı)." },
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"dis", bolge:3, t:"1738-03-24", k:"fetih", etiket:["askeri","konu-askeri"], b:"Nâdir Şah Kandehar'ı alır ve eski şehri yıktırır", gun:"24 Mart 1738", yer:"Eski Kandehar (Şehr-i Köhne)", yer_id:"Eski Kandehar (Şehr-i Köhne)", d:"Afşar hükümdarı Nâdir Şah, Galzay Afganlarının elindeki Kandehar'ı uzun bir kuşatmadan sonra aldı. Şehir tahrip edildi ve halkı eski yerinin güneydoğusunda kurulan Nâdirâbâd'a geçti; eski Kandehar bir daha şehir olmadı.", kaynak:"kandehar", ic_not_d:"TDV KANDEHAR (A. Özcan), ham metin 14 Ekim: 'Şehir 1150’de (1738) Afşarlı Nâdir Şah tarafından ele geçirildikten sonra tahrip edilerek eski yerinin güneydoğusunda Nâdirâbâd ismiyle yeniden kuruldu'. Gün komşudan: data/kronoloji_iran.js 1738-03-24 maddesi, kendi kaynağı Encyclopaedia Iranica 'NADIR SHAH AFSHAR'. Atlas: 'Eski Kandehar (Şehr-i Köhne)' bit: aynı gün (C grubu). Toprak etiketi YOK — bit: sahiplik kırılması değildir (Değişmez 2t ölçtü 14 Ekim: toprak etiketiyle 'kırılmasız madde' sayıldı)." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"ic", t:"1838-01-01", k:"diger", etiket:["toprak-kazanc","konu-idari"], b:"Malatya halkı Aspuzu bağlarında kalır — modern Malatya'nın çekirdeği", gun:"1838 yazı", yer:"Malatya", yer_id:"Malatya", d:"İbrâhim Paşa'nın Mısır ordusuna karşı Osmanlı umumi karargâhı 1838 yazında Mezraa'dan Malatya'ya taşındı. Aspuzu'daki yazlık evlerinde oturan Malatyalılar, ordunun ayrılışından sonra harap kalan eski şehirdeki kışlık evlerine dönmedi; Aspuzu modern Malatya'nın çekirdeği oldu. Eski Malatya (Battalgazi) küçülerek yaşamayı sürdürdü.", kaynak:"malatya", ic_not_d:"TDV MALATYA (G. Göğebakan), ham metin 14 Ekim. Yıl hassasiyeti (ay 'yaz', gün yok). Atlas: 'Malatya' kur: aynı gün (C grubu, Şırnak kalıbı); 'Eski Malatya (Battalgazi)' sürüyor." },
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"ic", t:"1918-04-02", k:"kurulus", etiket:["toprak-kazanc","toprak-kayip","konu-idari"], b:"Van yeni yerinde kurulur — harap eski şehir bırakılır", gun:"2 Nisan 1918 sonrası", yer:"Van", yer_id:"Van", d:"Van 2 Nisan 1918'de işgalden kurtarıldı. Geri dönenler, savaş yıllarında harap olan göl kıyısındaki eski Van'ı onarmak yerine, kıyıdan 7 km kadar içeride eski Norşen ve Arak mahallelerinin yerinde yeni bir şehir kurdu. Eski şehir terk edildi.", kaynak:"van", ic_not_d:"TDV VAN (M. Tuncel), ham metin 14 Ekim. Kuruluş günü bilinmiyor: t = kurtuluş günü (terminus post quem), kuruluş 1918-1927 arası (1927 sayımında yeni yerde 6981 nüfus). Atlas: 'Van' kur: ve 'Eski Van (Tuşpa)' bit: aynı gün (C grubu, 3 km kuralı)." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"ic", t:"1503-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Mengli Giray Han Çürüksu kenarında Han Sarayı'nı yaptırdı — Bahçesaray'ın temeli", gun:"1503", yer:"Bahçesaray", yer_id:"Bahçesaray", kisiler:"I. Mengli Giray", d:"Altın Orda valilerinin ve ilk Kırım hanlarının yazlık av ve dinlenme bölgesi olan vadide I. Mengli Giray Han, Çürüksu kenarına bugün Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray'ın temelini attı. Şehir sarayın etrafında ve dar Çürüksu vadisi boyunca gelişerek XVI. yüzyıl sonlarında mâmur hâle geldi ve Kırım Hanlığı'nın merkezi oldu.", kaynak:"bahcesaray — gövde okundu: 'I. Mengli Giray Han, bol sulu küçük bir ırmak olan Çürüksu’nun kenarına, 1503’te şimdi Han Sarayı adıyla bilinen sarayı yaptırarak Bahçesaray’ın temelini attı'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): atlas noktası 1281'den başlıyordu; kur: 1503 (yıl) yazıldı, bu madde o kırılmanın maddesidir. Gün yok ⇒ YYYY-01-01." },
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:3, t:"1778-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Dinyeper ağzında Herson tersanesi kuruldu", gun:"1778", yer:"Herson", yer_id:"Herson", kisiler:"", d:"Küçük Kaynarca'dan sonra Rusya'ya geçen Dinyeper ağzında, 1737'de yapılıp kısa sürede yıkılan Aleksandr-şanc tahkimatının yakınında bir tersane kuruldu ve Herson adı verildi. Şehir 1784'te kaza, 1803'te gubernia merkezi oldu.", kaynak:"ESBE «Херсон»: 'в 1778 г. устроена верфь, наименованная Х. С 1784 г. Х. был уездн. г. …'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01. TDV'de madde yok." },
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1779-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Kırım'dan gelen Rumlar Azak kıyısında Mariupol'ü kurdu", gun:"1779", yer:"Mariupol", yer_id:"Mariupol", kisiler:"", d:"Kırım'dan gelen Rumlar, Kalmius'un Azak Denizi'ne döküldüğü yerde Mariupol'ü kurdu. Şehir 1784'te Yekaterinoslav valiliğine bağlı kaza merkezi oldu.", kaynak:"ESBE «Мариуполь»: 'Настоящий г. основан в 1779 г. греками-выходцами из Крыма; назначен в 1784 г. уездн. г. Екатеринославского наместничества'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1783-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Yekaterinoslav Dinyeper kıyısındaki bugünkü yerine taşındı", gun:"1783", yer:"Yekaterinoslav (Dnipro)", yer_id:"Yekaterinoslav (Dnipro)", kisiler:"Potemkin", d:"Potemkin'in 1778'de Kilçen ile Samara ırmaklarının birleştiği yerde kurduğu Yekaterinoslav, sağlıksız konumu yüzünden 1783'te bugünkü yerine nakledildi.", kaynak:"ESBE «Екатеринослав»: 'В 1778 г. Потемкиным был основан уездный город Е. … но уже в 1783 г., вследствие нездорового местоположения, Е. был перенесен на настоящее свое место'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi; 1778 şehri ayrı yerde, nokta açılmadı. Gün yok ⇒ YYYY-01-01." },
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1805-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Don Kazak Ordusu'nun yeni merkezi Novoçerkask kuruldu", gun:"1805", yer:"Novoçerkask", yer_id:"Novoçerkask", kisiler:"", d:"Don Kazak Ordusu'nun idarî merkezi, o zamana kadar merkez olan Çerkask'tan Aksay ve Tuzlov ırmakları arasındaki Biryuçiy Kut mevkiinde kurulan Novoçerkask'a geçti.", kaynak:"ESBE «Новочеркасск»: 'Н. основан в 1805 г. на урочище Бирючий Кут. До того времени административным центром донского войска служил'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:4, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Ahtiar koyunda Rus donanma limanı Sivastopol kuruldu", gun:"1784", yer:"Akyar (Sivastopol)", yer_id:"Akyar (Sivastopol)", kisiler:"", d:"Kırım'ın 1783'te Rusya'ya ilhakından sonra Kırım Tatar köyü Ahtiar'ın (Akyar) bulunduğu koy askerî liman için seçildi; liman ertesi yıl kurularak Sivastopol adını aldı. Şehir 1804'te Rus Karadeniz donanmasının ana limanı oldu.", kaynak:"ESBE «Севастополь»: 'деревенька Ахтиар, местность которой была избрана в 1783 г. … Последний был основан в следующем году и назван Севастополем' · 'В 1804 г. С. назначен главным портом черноморского флота'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1827-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Azak kıyısında Berdyansk iskelesi kuruldu", gun:"1827", yer:"Berdyansk", yer_id:"Berdyansk", kisiler:"M. S. Vorontsov", d:"Knez Mihail Vorontsov'un girişimiyle Berda ırmağının Azak Denizi'ne döküldüğü yerde Berdyansk kuruldu. Yerleşim 1835'te şehir, 1842'de kaza merkezi oldu.", kaynak:"ESBE «Бердянск»: 'Б. возник в 1827 г. стараниями кн. М. С. Воронцова; … в 1835 г. сделан городом, а в 1842 г. назначен уездным'", ic_not_d:"KUTU-H6-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:3, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Bug ağzında Nikolayev tahkimatı kuruldu", gun:"1784", yer:"Nikolayev", yer_id:"Nikolayev (Mikolayiv)", kisiler:"Knez G. A. Potemkin", d:"Güney Bug ile İngul ırmaklarının birleştiği yerde, Knez Potemkin'in emriyle bir tahkimat kuruldu. 1788'de burada bir tersane açıldı ve yerleşim Karadeniz donanmasının gemi yapım merkezlerinden biri oldu.", kaynak:"ESBE «Николаев, город Херсонской губернии»: 'Основан, в виде укрепления, кн. Потемкиным в 1784 г.' · IEU «Mykolaiv»: 'a fort (1784) and a shipbuilding wharf (1788)'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1784-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Molochna kıyısında Melitopol'ün çekirdeği olan sınır yerleşimi kuruldu", gun:"1784", yer:"Melitopol", yer_id:"Melitopol", kisiler:"", d:"Kırım'ın ilhakından sonra Molochna ırmağı kıyısında bir sınır yerleşimi kuruldu. Yerleşim 1816'da Novooleksandrivka adını aldı, 1841'de Melitopol adıyla şehir yapıldı.", kaynak:"IEU «Melitopol»: 'A frontier settlement was established at the site in 1784' · ESBE «Мелитополь»: 'В 1841 г. … переименована в город М.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:3, t:"1777-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-askeri"], b:"Azak-Mozdok hattında Stavropol kalesi kuruldu", gun:"1777", yer:"Stavropol", yer_id:"Stavropol (Kafkas)", kisiler:"", d:"Küçük Kaynarca'dan sonra Kuban ve Terek arasındaki bozkırı denetlemek için kurulan Azak-Mozdok tahkimat hattında on kale yapıldı; bunlardan biri Stavropol'dü. Kale sonradan Kafkasya valiliğinin ve Stavropol guberniyasının merkezi oldu.", kaynak:"ESBE «Ставропольская губерния»: 'В 1777 г. сооружено было 10 крепостей, в том числе Ставропольская'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): yeni noktanın kur: kırılmasının maddesi. Gün yok ⇒ YYYY-01-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1420-01-01", k:"diger", etiket:["konu-idari","sehir-kronolojisi"], b:"Kişinev ilk kez Boğdan voyvodasının fermanında anıldı", gun:"1420", yer:"Kişinev", yer_id:"Kişinev (Chișinău)", kisiler:"Boğdan voyvodası İyi Aleksandru", d:"Kişinev'in adı ilk kez Boğdan voyvodası Aleksandru'nun 1420 tarihli bir fermanında geçer. Şehir uzun süre küçük bir Boğdan kasabası olarak kaldı; 1812'de Besarabya ile birlikte Rusya'ya geçince eyalet merkezi oldu.", kaynak:"ESBE «Кишинев»: 'Впервые о нем упоминается в грамоте молдаванского господаря Александра 1420 г.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kur: ilk anılış (görünme alt sınırı, kuruluş değil). Gün yok ⇒ YYYY-01-01." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:1, t:"1654-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Harkov Kazak göçmenlerince kuruldu", gun:"1654", yer:"Harkov", yer_id:"Harkov", kisiler:"", d:"Vahşi bozkırın kuzey kenarında, Lopan ile Harkov ırmaklarının birleştiği yerde Dinyeper sağ yakasından gelen Kazak göçmenleri bir yerleşim kurdu. Harkov kısa sürede Moskova'ya bağlı Sloboda Ukrayna'nın merkezi oldu.", kaynak:"IEU «Kharkiv» (1654/5 Kazak yerleşimi) · ESBE «Харьков»: 'Год основания X. неизвестен' — Bagaley'e göre 'к 1654—1655 гг.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kur: kırılmasının maddesi; iki kaynak 1654-1655 aralığını veriyor, ilk yıl yazıldı. Gün yok ⇒ YYYY-01-01." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:1, t:"1738-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Volga kıyısında Stavropol kalesi kuruldu", gun:"1738", yer:"Stavropol (Volga)", yer_id:"Stavropol (Volga)", kisiler:"", d:"Orta Volga'da, Hristiyanlığı kabul eden Kalmuklar için Stavropol kalesi kuruldu (bugünkü Tolyatti).", kaynak:"ESBE «Ставрополь»: 'Основан в 1738 г.'", ic_not_d:"KUTU-P2-1015 (0082/H-0070): kaynaksız kur 1737 → ESBE 1738. Gün yok ⇒ YYYY-01-01." },
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"ic", t:"1462-02-01", k:"kurulus", etiket:["siyaset","konu-idari"], b:"İshak Bey vakfiyesi — Saraybosna'nın şehir çekirdeği vakfedildi", gun:"Cemâziyelevvel 866 (Şubat 1462)", yer:"Saraybosna", yer_id:"Saraybosna", d:"İshak Bey'in Cemâziyelevvel 866 (Şubat 1462) tarihli vakfiyesinden cami ve hamamın yanı sıra zâviye, mevlevîhâne, imaret, Miljacka üzerinde bir köprü, karşı yakada Kolobara Hanı, bedesten, kervansaray ve dükkânların yapıldığı anlaşılır. Belge şehrin vakıf temelidir; yerleşim ondan önce vardı.", kaynak:"saraybosna", ic_not_d:"TDV SARAYBOSNA (M. Aruçi), ham metin 14 Ekim; Mujezinović I, 17-18. Toprak etiketi YOK — bu gün atlasta kırılma değildir (Değişmez 2t)." },
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1368-01-20", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"İbrail ilk kez anılır — Vlaicu Vodă'nın Braşovlu tüccarlara imtiyaz belgesi", gun:"20 Ocak 1368", yer:"İbrail (Brăila)", yer_id:"İbrail", kisiler:"Vladislav I (Vlaicu Vodă)", d:"Eflak voyvodası Vladislav, Braşovlu tüccarlara İbrail yolu üzerinden mal taşırken kolaylık tanıyan bir belge verdi. Bu belge İbrail'in bilinen ilk yazılı tanığıdır; yer burada henüz şehir olarak değil, yolun Tuna'daki ucu olarak geçer. Kuruluş tarihi değildir.", kaynak:"Biblioteca Județeană Brăila, Luceafărul 1/2018 (20 ianuarie 1368 belgesi; birincil belge DRH B I, açılmadı)", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G5 0084/H-0003): İbrail kur: 1368-01-20 (Şırnak kalıbı) bir kazanç kırılmasıdır; bu madde onu anar. 1582 öncesi gün, takvim çevrilmedi." },
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1445-01-01", k:"diger", etiket:["toprak-kazanc","konu-siyasi","sehir-kronolojisi"], b:"Kalas ilk kez bir Boğdan voyvodası belgesinde anılır", gun:"1445", yer:"Kalas (Galați)", yer_id:"Kalas (Galatz)", kisiler:"II. Ştefan (Boğdan voyvodası)", d:"Boğdan voyvodası II. Ştefan, Humor Manastırı'nın Kalas'tan balık getiren iki arabasını gümrük vergisinden muaf tuttu. Bu belge Kalas'ın kesin olarak bilinen ilk yazılı tanığıdır; yerleşim daha önce Tuna kıyısında bir balıkçı köyü olarak var olmuş olabilir.", kaynak:"Universitatea 'Dunărea de Jos' din Galați, 'About Galați' (en.ugal.ro) · Chirtoagă, Dialogica 2/2022 (dialogica.usm.md)", ic_not_d:"KARAR-UYG-1015 (KAYNAK-1015/G5 0084/H-0003): Kalas kur: 1445 (Şırnak kalıbı, YIL) kırılmasını anar. Aynı kurumsal sayfa 1418'i 'olası' tanık sayar — kullanılmadı. Belge metni okunmadı; gün yok." },
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1552-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Zaporojye Kazakları Hortiça adasında ilk Seç'i kurdu", gun:"1552 dolayı (ca 1552)", yer:"Küçük Hortiça adası, Dinyeper", yer_id:"Hortiça Seçi", kisiler:"Dmitro Vişnevetski", d:"Prens Dmitro Vişnevetski Dinyeper'deki Küçük Hortiça adasında ilk Zaporojye Seçi'ni kurdu. Kale 1558'de Kırım Tatarlarınca kuşatılıp yıkıldı; Seç daha sonra güneydeki adalara taşındı. Terim: «Seçi» (Ukraynaca Sich), Zaporojye Kazaklarının Dinyeper adalarındaki kütük ve hendekle tahkim edilmiş merkez kampıdır; karargâh, meclis (Rada) yeri ve seçilmiş ordu başının (koşevoy) merkezidir, devlet başkenti değildir.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Hortiça Seçi kur: 1552 (ca) ve Zaporojye künyesinin başlangıcı."},
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1593-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Bazavluk Seçi kuruldu", gun:"1593", yer:"Bazavluk adası, Dinyeper", yer_id:"Bazavluk Seçi", kisiler:"", d:"Tatarların Tomakivka Seçi'ni yıkmasından sonra Zaporojye Kazakları, Dinyeper'in Çortomlık, Pidpilna ve Skarban kollarıyla birleştiği yerdeki Bazavluk adasında yeni Seç'i kurdu. Seç 1638'de Kazak ayaklanmasının bastırılmasının ardından Lehistan seferiyle yıkıldı. Terim: «Seçi» (Ukraynaca Sich), Zaporojye Kazaklarının Dinyeper adalarındaki kütük ve hendekle tahkim edilmiş merkez kampıdır; karargâh, meclis (Rada) yeri ve seçilmiş ordu başının (koşevoy) merkezidir, devlet başkenti değildir. Bu tarihte «Hetmanlık» henüz yoktur (1648); Zaporojye adı «çağlayanların ötesi» demektir ve Seç'ler Dinyeper çağlayanlarının aşağısındaki bozkır sınırında durur. Kazakistan Kazaklarıyla etnik akrabalığı yoktur: Zaporojye Kazakları Doğu Slav (Ukraynalı), Ortodoks bir topluluktur; ortak olan yalnız Türkçe kökenli «kazak» (serbest savaşçı) sözcüğüdür.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Bazavluk Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Bazavluk Seçi kur: 1593."},
+{ onem:1, dunya:1, bolge_onem:1, puan_s:"v2", kapsam:"dis", bolge:2, t:"1628-01-01", k:"diger", etiket:["toprak-kazanc","konu-idari","sehir-kronolojisi"], b:"Mıkıtın Rog Seçi ilk kez anılır", gun:"1628", yer:"Mıkıtın Rog (Nikopol), Dinyeper", yer_id:"Mıkıtın Rog Seçi (Nikopol)", kisiler:"", d:"Bugünkü Nikopol'ün yerindeki Mıkıtın Rog'da kurulan dördüncü Seç'in adı ilk kez 1628'de geçer; 1648'de Bogdan Hmelnitski tarafından ele geçirildi. Bu, yerin bilinen ilk tanığıdır, kuruluşu değildir.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Mıkıtın Rog kur: 1628 (Şırnak kalıbı, ilk tanık)."},
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"kurulus", kapsam:"dis", bolge:2, t:"1652-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Çortomlık Seçi kuruldu", gun:"1652", yer:"Çortomlık burnu, Dinyeper", yer_id:"Çortomlık Seçi", kisiler:"", d:"Zaporojye Kazakları Dinyeper'in Çortomlık ırmağıyla birleştiği burunda 'Eski Seç' de denen Çortomlık Seçi'ni kurdu. Seç, Mazepa'yı destekledikleri için 25 Mayıs 1709'da Rus ordusunca yıkıldı.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Chortomlyk Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Çortomlık Seçi kur: 1652."},
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"kurulus", kapsam:"ic", t:"1711-01-01", k:"kurulus", etiket:["toprak-kazanc","konu-idari"], b:"Zaporojye Kazakları Kırım hanının izniyle Aleşki Seçi'ni kurdu", gun:"1711", yer:"Aleşki, Dinyeper ağzı", yer_id:"Aleşki Seçi", kisiler:"Yakım Boguş, Kost Gordiyenko", d:"Rus taarruzu Kamenka'daki Seç'i boşalttırınca Zaporojye Kazakları Kırım hanının izniyle hanlık topraklarında, Konka ırmağının sol yakasındaki Aleşki'ye yerleşti. Prut Antlaşması'ndan sonra Gordiyenko'nun Kazakları da onlara katıldı. Han Seç'in sur ve top bulundurmasına izin vermedi.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Oleshky Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Aleşki Seçi kur: 1711 ve v: kirim başlangıcı."},
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:2, t:"1728-01-01", k:"diger", etiket:["toprak-kayip","konu-idari"], b:"Aleşki Seçi yağmalandı ve terk edildi", gun:"1728", yer:"Aleşki, Dinyeper ağzı", yer_id:"Aleşki Seçi", kisiler:"Ivan Husak, Kost Gordiyenko", d:"Rus yanlısı Samara Kazakları Aleşki Seçi'ni basıp yağmaladı ve kışlaları ateşe verdi. Seç yeniden kurulmadı; Kazaklar 1730'da Kamenka'ya döndü ve 1734'te Rusya'ya bağlılık yemini ederek Yeni Seç'i kurdu.", kaynak:"Internet Encyclopedia of Ukraine (CIUS), «Oleshky Sich»", ic_not_d:"KAYNAK-1015/G1 0088/H-0036 · KARAR-UYG-1015: Aleşki Seçi bit: 1728 ve v: kirim sonu."},
 ];
 
 ;

@@ -1,6 +1,6 @@
 // MÖ KÜNYE GEÇİŞLERİ — s: dönem sınırlarını destekleyen künye-geçişi maddeleri (Değişmez 2). denetim/arkeoloji_yerlesim_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_GECIS = [
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2049-01-01",
   "k": "diger",
   "b": "Liangzhu: sahip dönemi sona erer — Liangzhu Kültürü",
@@ -14,7 +14,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Liangzhu"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-2203-01-01",
   "k": "diger",
   "b": "Lothagam North: sahip dönemi sona erer — Turkana Pastoral Neolitiği ('pillar sites' geleneği)",
@@ -28,7 +28,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Lothagam North"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-3249-01-01",
   "k": "diger",
   "b": "Hemudu: sahip dönemi sona erer — Hemudu Kültürü",
@@ -42,7 +42,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Hemudu"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-3819-01-01",
   "k": "diger",
   "b": "Anau: sahip dönemi sona erer — Anau IA (Namazga öncesi/Meana evresi, Kopet Dağ)",
@@ -56,7 +56,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Anau"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-4199-01-01",
   "k": "diger",
   "b": "Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Sudan)",
@@ -70,7 +70,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Esh-Shaheinab"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:2, dunya:1, bolge_onem:2, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-4723-01-01",
   "k": "diger",
   "b": "Mehrgarh: sahip dönemi sona erer — Mehrgarh Neolitiği (Kaççi Ovası, Belucistan)",
@@ -84,7 +84,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Mehrgarh"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-5249-01-01",
   "k": "diger",
   "b": "Kuahuqiao: sahip dönemi sona erer — Kuahuqiao Kültürü",
@@ -98,7 +98,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Kuahuqiao"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-6899-01-01",
   "k": "diger",
   "b": "Ba'ja: sahip dönemi sona erer — PPNB — Çanak Öncesi Neolitik B (Güney Levant)",
@@ -112,7 +112,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Ba'ja"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-9319-01-01",
   "k": "diger",
   "b": "Hallan Çemi: sahip dönemi sona erer — Epipaleolitik–Çanak Öncesi Neolitik toplulukları (Kuzey Levant, Fırat, Güneydoğu Anadolu)",
@@ -126,7 +126,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Hallan Çemi"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-9549-01-01",
   "k": "diger",
   "b": "Ain Mallaha (Eynan): sahip dönemi sona erer — Natufiyen Kültürü (Levant)",
@@ -140,7 +140,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Ain Mallaha (Eynan)"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:1, dunya:1, bolge_onem:1, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0001-01-01",
   "k": "diger",
   "b": "Ban Chiang: sahip dönemi sona erer — Ban Chiang Kültürü (Kuzeydoğu Tayland)",
@@ -154,7 +154,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Ban Chiang"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0349-01-01",
   "k": "diger",
   "b": "Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı",
@@ -168,7 +168,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Meroe"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:2, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0550-01-01",
   "k": "diger",
   "b": "Teotihuacan: sahip dönemi sona erer — Teotihuacan Şehir Devleti",
@@ -182,7 +182,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
    "Teotihuacan"
   ]
  },
- {"kapsam": "dis", "bolge": 1, 
+ { onem:4, dunya:1, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "0700-01-01",
   "k": "diger",
   "b": "Monte Albán: sahip dönemi sona erer — Zapotek Devleti (Monte Alban)",

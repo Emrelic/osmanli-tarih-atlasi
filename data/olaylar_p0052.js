@@ -22,7 +22,7 @@
 window.OLAYLAR_P0052 = [
 
 // ── Siirt sancağı Bitlis vilâyetine · Şırnak Eruh kazasında ─────────
-{ t:"1884-01-01", kesinlik:"yil", k:"idari", kapsam:"ic", etiket:["idari","konu-idari"],
+{ onem:2, dunya:1, bolge_onem:1, puan_s:"v2", t:"1884-01-01", kesinlik:"yil", k:"idari", kapsam:"ic", etiket:["idari","konu-idari"],
   b:"Siirt sancağı Diyarbekir'den Bitlis vilâyetine nakledildi — Eruh kazası ve Şırnak köyü de Bitlis'e bağlandı",
   gun:"1884 (ay ve gün kaynakta yok)",
   yer:"Siirt sancağı, Eruh kazası (Şırnak)",

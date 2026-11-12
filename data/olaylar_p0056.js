@@ -23,7 +23,7 @@
 window.OLAYLAR_P0056 = [
 
 // ── 1739 · Münnich Boğdan'da ─────────────────────────────────────────
-{ tur:"savas", t:"1739-08-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1739-08-17 (Stavuçani; ESBE «Турецкие войны России» '17 августа', eski takvim) = Gregoryen 1739-08-28", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1739-08-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1739-08-17 (Stavuçani; ESBE «Турецкие войны России» '17 августа', eski takvim) = Gregoryen 1739-08-28", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Stavuçani yenilgisi ve Hotin'in Ruslara teslimi (1736-1739 Osmanlı-Rus Savaşı)",
   gun:"28 Ağustos 1739 (Jülyen 17 Ağustos)", ic_not_b:"KUTU-H6-1015: t 1739-08-28 (Gregoryen karşılık) → 1739-08-17, kaynağın Jülyen günü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Stavuçani, Hotin yakını — Boğdan",
@@ -40,7 +40,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1769 · Golitsin Dinyester'i geçiyor ──────────────────────────────
-{ tur:"savas", t:"1769-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1769-04-15 (Dinyester geçişi; ESBE «Турецкие войны России» '15 апреля он перешел Днестр', eski takvim) = Gregoryen 1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1769-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1769-04-15 (Dinyester geçişi; ESBE «Турецкие войны России» '15 апреля он перешел Днестр', eski takvim) = Gregoryen 1769-04-26", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Dinyester'i geçerek Boğdan'a girmesi (1768-1774 Osmanlı-Rus Savaşı)",
   gun:"1769", ic_not_b:"KUTU-H6-1015: t 1769-04-26 (Gregoryen karşılık) → 1769-04-15, kaynağın Jülyen günü (m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Dinyester, Hotin önleri — Boğdan",
@@ -52,7 +52,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1769-04-26 (gun: «26 Nisan 1769 (Jülyen 15 Nisan)»); güvenilir kaynağın tarihi: 1769; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1788 · Rumyantsev Mogilev'de Dinyester'i geçiyor ─────────────────
-{ tur:"savas", t:"1788-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1788-06-20 (Dinyester geçişi; ESBE «Турецкие войны России» '20 июня', eski takvim) = Gregoryen 1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1788-01-01", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1788-06-20 (Dinyester geçişi; ESBE «Турецкие войны России» '20 июня', eski takvim) = Gregoryen 1788-07-01", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus Ukrayna ordusunun Mogilev'de Dinyester'i geçip Boğdan'a girmesi (1787-1792 Osmanlı-Rus Savaşı)",
   gun:"1788", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Mogilev (Mohyliv-Podilskyi), Dinyester — Boğdan'ın kuzeyi",
@@ -65,7 +65,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"], ic_not_t:"gün yalnız güvensiz kaynakta: 1788-07-01 (gun: «1 Temmuz 1788 (Jülyen 20 Haziran)»); güvenilir kaynağın tarihi: 1788; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 // ── 1806 · ilansız işgal ─────────────────────────────────────────────
-{ tur:"savas", t:"1806-11-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-11-11 (Dinyester geçişi; ESBE «Турецкие войны России» '11 ноября', eski takvim) = Gregoryen 1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1806-11-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-11-11 (Dinyester geçişi; ESBE «Турецкие войны России» '11 ноября', eski takvim) = Gregoryen 1806-11-23", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus ordusunun savaş ilan edilmeden Dinyester'i geçip Memleketeyn'i işgale başlaması (1806-1812 Osmanlı-Rus Savaşı)",
   gun:"23 Kasım 1806 (Jülyen 11 Kasım)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Dinyester hattı — Hotin, Bender, Akkirman, Kili",
@@ -78,7 +78,7 @@ window.OLAYLAR_P0056 = [
   ic_not_ozet:"EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.21, 0082/H-0063): 1806 işgallerinde AYRI MADDELER + ÖZET MADDE — bu madde ÖZETtir; günü kaynaklı kaleler ayrı maddededir (Akkirman 30 Kasım · Bükreş 25 Aralık). Hotin, Bender, Kili'nin kendi teslim günleri bulunamadı (ESBE-TV ve TDV akkirman/hotin gün vermiyor) — ayrı madde yazılmadı.",
   duygu:["⚔️"] },
 
-{ t:"1806-11-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", t:"1806-11-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Akkirman'ın Ruslar tarafından ele geçirilmesi (1806)",
   gun:"30 Kasım 1806",
   yer:"Akkirman, Dinyester ağzı",
@@ -89,7 +89,7 @@ window.OLAYLAR_P0056 = [
   kaynak:"akkirman (TDV): '30 Kasım 1806 tarihinde Rus Prensi Kantakuzino tarafından ele geçirilmesi üzerine'",
   duygu:["😔"] },
 
-{ t:"1806-12-25", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабря', eski takvim) = Gregoryen 1806-12-25", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1806-12-25", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабря', eski takvim) = Gregoryen 1806-12-25", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Miloradoviç'in Bükreş'e girmesi — Eflak'ın Rus işgali",
   gun:"25 Aralık 1806 (Jülyen 13 Aralık)", ic_not_b:"KUTU-H6-1015: t 1806-12-25 (Gregoryen karşılık) → 1806-12-13, kaynağın Jülyen günü (m.28); Eflak'taki 15 işgal kaydı birlikte. Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Bükreş, Eflak",
@@ -101,7 +101,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1810 · Silistre ──────────────────────────────────────────────────
-{ t:"1810-06-10", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1810-05-29 (Silistre'nin teslimi; ESBE «Силистрия» '29-го мая', eski takvim) = Gregoryen 1810-06-10", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1810-06-10", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1810-05-29 (Silistre'nin teslimi; ESBE «Силистрия» '29-го мая', eski takvim) = Gregoryen 1810-06-10", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Ruslara teslimi",
   gun:"10 Haziran 1810 (Jülyen 29 Mayıs)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Silistre, Tuna'nın sağ yakası",
@@ -114,7 +114,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1810 · Niğbolu ve Kule ───────────────────────────────────────────
-{ t:"1810-10-01", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", t:"1810-10-01", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Niğbolu ve Kule'nin (Turnu) direnmeden Ruslara teslimi",
   gun:"Ekim 1810",
   kesinlik:"ay",
@@ -127,7 +127,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1811 · Rusçuk muharebesi ve boşaltma ─────────────────────────────
-{ tur:"savas", t:"1811-07-04", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1811-06-22 (Rusçuk muharebesi; ESBE «Турецкие войны России» 'а 22 атаковал', eski takvim) = Gregoryen 1811-07-04", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1811-07-04", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1811-06-22 (Rusçuk muharebesi; ESBE «Турецкие войны России» 'а 22 атаковал', eski takvim) = Gregoryen 1811-07-04", k:"savas", kapsam:"ic", etiket:["savas","toprak-kazanc","konu-askeri"],
   b:"Rusçuk Muharebesi ve Kutuzov'un Rusçuk'u yıkıp Tuna'nın sol yakasına çekilmesi",
   gun:"4 Temmuz 1811 (Jülyen 22 Haziran) — muharebe; çekilişin günü kaynakta yok", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Rusçuk, Tuna'nın sağ yakası",
@@ -139,7 +139,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1828 · Prut geçişi ───────────────────────────────────────────────
-{ tur:"savas", t:"1828-05-07", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25 апр.', eski takvim) = Gregoryen 1828-05-07", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1828-05-07", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25 апр.', eski takvim) = Gregoryen 1828-05-07", k:"savas", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Rus 6. Piyade Kolordusunun Prut'u geçip Memleketeyn'e girmesi (1828-1829 Osmanlı-Rus Savaşı)",
   gun:"7 Mayıs 1828 (Jülyen 25 Nisan)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Prut — Boğdan ve Eflak",
@@ -151,7 +151,7 @@ window.OLAYLAR_P0056 = [
   duygu:["⚔️"] },
 
 // ── 1829 · Silistre ikinci kez ───────────────────────────────────────
-{ t:"1829-06-30", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1829-06-18 (Silistre'nin teslimi; ESBE «Турецкие войны России» '18 июня крепость эта сдалась', eski takvim) = Gregoryen 1829-06-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1829-06-30", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1829-06-18 (Silistre'nin teslimi; ESBE «Турецкие войны России» '18 июня крепость эта сдалась', eski takvim) = Gregoryen 1829-06-30", k:"kayip", kapsam:"ic", etiket:["savas","toprak-kayip","konu-askeri"],
   b:"Silistre'nin Dibiç'e teslimi — 1836'ya kadar sürecek Rus işgali",
   gun:"30 Haziran 1829 (Jülyen 18 Haziran)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Silistre, Tuna'nın sağ yakası",
@@ -164,7 +164,7 @@ window.OLAYLAR_P0056 = [
   duygu:["😔"] },
 
 // ── 1836 · Silistre boşaltıldı ───────────────────────────────────────
-{ t:"1836-01-01", k:"siyaset", kapsam:"ic", etiket:["toprak-kazanc","konu-diplomasi"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1836-01-01", k:"siyaset", kapsam:"ic", etiket:["toprak-kazanc","konu-diplomasi"],
   b:"Rusların Silistre'yi boşaltması",
   gun:"1836", kesinlik:"yil",
   yer:"Silistre",
@@ -176,7 +176,7 @@ window.OLAYLAR_P0056 = [
 
 // ── 1853 · Prut geçişi ───────────────────────────────────────────────
 // KUTU-G2-1014 (0035/H-0090): savaş ilanından (1853-10-04) üç ay önce, ilansız işgal.
-{ tur:"savas", t:"1853-07-03", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1853-06-21 (Rus öncü kuvvetinin Prut geçişi; VE (Sytin) «Восточная война 1853—56 гг.» '21 июня', eski takvim) = Gregoryen 1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1853-07-03", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1853-06-21 (Rus öncü kuvvetinin Prut geçişi; VE (Sytin) «Восточная война 1853—56 гг.» '21 июня', eski takvim) = Gregoryen 1853-07-03", k:"savas", kapsam:"ic", etiket:["savas","konu-askeri"],
   b:"Rus ordusunun Prut'u geçip Memleketeyn'i (Eflak-Boğdan) işgale başlaması — Kırım Savaşı'na giden yol",
   gun:"3 Temmuz 1853 (Jülyen 21 Haziran)", ic_not_b:"KUTU-H6-1015: t Gregoryen karşılıktan kaynağın Jülyen gününe döndürüldü (VERI-YAPISI TAKVİM; KARARLAR-1014 m.28). Aşağıdaki ic_not_gun ESKİ çeviri gerekçesidir — TAKVİM-1015 (Emre #10) ile bu dönüş geri alındı, ic_not_gun'daki çeviri yeniden GEÇERLİ.",
   yer:"Prut — Besarabya ile Boğdan arasındaki sınır",

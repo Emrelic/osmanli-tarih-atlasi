@@ -176,7 +176,7 @@ window.OLAYLAR_EK17 = [
 // aitmiş gibi görünüyor — bu şüpheler madde METNİNDE açıkça işaretlendi,
 // veri (t:) DEĞİŞTİRİLMEDİ (§7, yerlesimler*.js benim dosyam değil).
 
-{ tur:"vassal", kapsam:"ic", t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"vassal", kapsam:"ic", t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-diplomasi"],
   b:"Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, Tilimsan'ın kesin fethi",
   gun:"1552-53", ic_not_gun:"TDV ve akademik kaynak yıl verir, gün vermez",
   yer:"Tilimsan, Biskra, Tuggurt, Mustagānim, Muaskar, Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye, Tâhert (Tiaret), Vargla (Ouargla), el-Vâdî (Sûf)",
@@ -184,7 +184,7 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Tilimsan maddesine göre 960'ta (1553) Cezayir'den sevkedilen büyük bir ordu, Salih Reis kumandasında şehri kesin biçimde ele geçirdi ve üç asırlık Zeyyânî hânedanına son verdi. Aynı dönemde (1552) Salih Reis bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine bir sefer düzenledi; Osmanlı kuvvetleri Tuggurt'u aldı, Vargla'ya ilerledi, iki sultanlık haraca bağlandı; yol üzerindeki Biskra'ya kalıcı bir Osmanlı garnizonu bırakıldı. Böylece Cezayir Ocaklığı'nın sınırı ilk kez Tell Atlası'nı aşıp Sahra kıyısına dayandı. Mustagānim önündeki büyük muharebe ise bu yıl değil, 1558'de oldu: Hasan Paşa orada İspanyol Kontu Alcaudete'yi yenerek Kuzey Afrika'daki İspanyol taarruzlarını bitirdi.", ic_not_d:"Sîdî Bel Abbès, Ayn Temûşent, Nedrûme, Bû Sa'âde, Ağvât, Gardâye ve el-Vâdî için ne TDV ne standart kaynaklar tek bir fetih günü verir — bulunamadı, aynı genişleme sürecinin parçası sayıldı. · TDV Tuggurt ve Vargla'yı kapsamıyor; bu kısmın dayanağı standart akademik anlatım · eski cümle: Aynı dönemde (1552) Salih Reis'in bağımsız sultanlıklar olan Tuggurt ve Vargla üzerine düzenlediği sefer — TDV bu iki şehri kapsamıyor; standart akademik anlatıma göre Osmanlı kuvvetleri… · eski: ⚠️ Mustagānim'in kendi büyük olayı bu tarihte DEĞİL: … asıl muharebe 1558'dedir.",
   kaynak:"tilimsan — Tuggurt/Ouargla/Biskra için TDV kapsamıyor, dayanak: standart akademik Kuzey Afrika tarihçiliği", duygu:["🎌","⚔️"] },
 
-{ tur:"kurulus", kapsam:"ic", t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-idari","konu-diplomasi"],
+{ onem:4, dunya:2, bolge_onem:3, puan_s:"v2", tur:"kurulus", kapsam:"ic", t:"1557-01-01", k:"kurulus", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-siyasi","konu-idari","konu-diplomasi"],
   b:"Habeş Eyaleti'nin kuruluşu — Kızıldeniz kıyısının Osmanlı idaresine girişi",
   gun:"15 Şâban 962 (5 Temmuz 1555) kuruluş, 2 Nisan 1557 Masavva'nın alınışı",
   yer:"Sevâkin, Masavva, Dahlak, Ebû Ramâd (Şalâtîn), Arkîko, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât, Muhammed Kol, Derûdeb",
@@ -192,7 +192,7 @@ window.OLAYLAR_EK17 = [
   d:"Portekiz'in Habeşistan üzerinden Kızıldeniz'e sızmasını önlemek üzere kurulan eyalet, TDV'nin Habeş Eyaleti maddesine göre 15 Şâban 962'de (5 Temmuz 1555) resmen kuruldu, sancak merkezi Sevâkin oldu. Özdemir Paşa 1555 sonbaharında harekâta başladı; Masavva' Limanı'nı kontrol eden Dehlek adalarını ele geçirdi ve 2 Nisan 1557'de Masavva' şehrini, ardından Arkîko'yu aldı. Fethin devamı Tigre eyaletinin 1558'de, Debârvâ'nın 1559'da Osmanlı hâkimiyetine girmesiyle sürdü.", ic_not_d:"⚠️ TDV Ebû Ramâd, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât ve Muhammed Kol'u AYRICA ADLANDIRMAZ — bunlar Sevâkin sancağına bağlı Kızıldeniz/Sudan kıyısı karakolları olarak coğrafî bütünlüğün parçasıdır; münferit fetih tarihleri bulunamadı, Sevâkin'in idarî şemsiyesi altında aynı dönemde konsolide edildikleri kabul edildi.",
   kaynak:"habes-eyaleti", duygu:["🎌","⛵"] },
 
-{ kapsam:"ic", t:"1369-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1369-01-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Istıranca kaleleri: Pınarhisar, Kırkkilise (Kırklareli) ve Vize'nin fethi",
   gun:"1369 baharı — kaynak gün vermiyor", ic_not_gun:"eski t:1361-01-01, gun:763 (1361-62) — YAMA-TRAKYA-0914 MT-5 ile 1369'a taşındı (TDV murad-i)",
   yer:"Kırklareli, Vize, Kofçaz, Dereköy (Kırklareli), Demirköy, Malko Tırnova",
@@ -200,7 +200,7 @@ window.OLAYLAR_EK17 = [
   d:"1369 kışını Edirne Sarayı'nda geçiren I. Murad, baharda Bizans'a karşı yeniden harekete geçti ve Istıranca dağlarının eteğindeki Pınarhisar, Kırkkilise ve Vize kalelerini ele geçirdi. Bu fetihler İstanbul'da paniğe yol açtı ve İmparator V. Ioannes yardım aramak için papaya gitmeye karar verdi.", ic_not_d:"Kırklareli ve Vize adıyla kaynaklı (TDV murad-i); Kofçaz, Dereköy, Demirköy, Malko Tırnova şartlı komşu günüyle (Kırklareli). İğneada, Ahtopol, Rezovo için fetih yılı BULUNAMADI — 1361-01-01'de BIRAKILDI (Emre sorusu, UYGULA 16 Eyl); Havsa · Orestiada · Lalapaşa Edirne maddesine (1361-05-05), Mustafapaşa T4 bekliyor. TDV kirklareli ayrıca 1366 ve 1368-69 yıllarını anar.",
   kaynak:"murad-i · kirklareli", duygu:["⚔️","🎌"] },
 
-{ kapsam:"ic", t:"1534-06-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1534-06-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Kars çevresinin bütünleşmesi: Şüregel, Arpaçay ve Digor'un Osmanlı idaresine girmesi",
   gun:"Haziran 1534 (ay hassasiyeti; gün kaynakta yok)", ic_not_gun:"DOGU-1533-0087 (koordinatör hükmü): ay TDV irakeyn-seferi'nden — \"Mayıs 1534’te Diyarbekir’e gelerek … Tebriz’e yöneldi\" · \"Üsküdar’dan hareket eden (14 Haziran 1534) padişah da Erzurum’a ulaşmış bulunuyordu\". Kars'ın günü KULLANILMADI (D207). ⚠️ TDV Şüregel'in alınış AYINI ayrıca vermiyor; ay seferin takviminden okunur.",
   yer:"Arpaçay (Akyaka), Digor, Küçükperveli", yer_id:"Kars",
@@ -208,7 +208,7 @@ window.OLAYLAR_EK17 = [
   d:"Irakeyn Seferi sırasında Pasin, Şüregel ve Oltu kaleleri Osmanlılar'ın eline geçti; Kars Kalesi'nin de bu sırada bağlandığı kuvvetle muhtemeldir. Kars'ın kuzey ve doğusundaki Arpaçay ve Digor yöresi aynı harekâtla Osmanlı denetimine girdi.", ic_not_d:"🆕 DOGU-1533-0087 (9 Ekim 2026): IĞDIR ÇIKARILDI — TDV igdir--sehir: Iğdır ve Sürmeli Çukur 1583'te Revan'ın fethiyle kesin Osmanlı oldu, 1736'da Revan eyaletiyle İran'a kaldı, 1828-1917 Rus; 1534'te Osmanlı DEĞİL. Şüregel TDV kars'ta ADIYLA geçer (Küçükperveli Şüregel/Akyaka'ya 7,5 km — W6-DALGA2); Arpaçay (Zaruşad) ve Digor için 1534 hâlâ ÇIKARIMDIR. Kars'ın kendisi TDV'de 'kuvvetle muhtemel'dir. ⚠️ TDV'nin `irakeyn-seferi` ve `kars` maddeleri bu üç yerleşimi ayrı ayrı ANMIYOR; tarih Kars'ın kendi fetih gününe dayanarak ÇIKARIMLA verilmiştir, TDV alıntısı değildir. 🔴 GÖREV TARİFİNDEKİ Gümrü ve Eçmiyadzin BU MADDEYE DAHİL EDİLMEDİ — yerlesimler.js kaydında ikisinin de bu tarihte (hatta hiçbir zaman 1828'e/Rusya'ya kadar) Osmanlı dönemi yok, akkoyunlu→safevi→afşar→zend→kacar zinciri kesintisiz. Bu bir veri çelişkisidir, koordinatöre bekletilmeden bildirildi (M-1368), çözülene kadar yazılmadı.",
   kaynak:"kars (Şüregel · 940/1534 adıyla; Arpaçay/Digor çıkarım) + irakeyn-seferi (ay) + igdir--sehir (Iğdır'ın çıkarılması)", duygu:["🎉"] },
 
-{ tur:"savas", kapsam:"ic", t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1686-08-30", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Anabolu'nun (Nauplion) Venedik'e kaybı — Mora Savaşı'nın dönüm noktası",
   gun:"Ağustos 1686 (yardım ordusu 29 Ağustos'ta bozuldu, şehir birkaç gün içinde teslim oldu)", ic_not_gun:"TDV yalnız yıl verir; gün ve ayrıntı akademik kaynağa göre",
   yer:"Anabolu (Nauplion), Mora", yer_id:"Anabolu (Nauplion)",
@@ -216,7 +216,7 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Anabolu maddesine göre kuşatma sırasında şehirdeki müslüman halktan sağ kalabilenler civar adalara ve Anadolu'ya kaçtı (1686). Standart akademik kaynağa göre (Setton, Venice, Austria, and the Turks in the Seventeenth Century) Königsmarck'ın kuvvetleri iki hafta boyunca Osmanlı yardım ordusunun saldırılarını püskürttü; 29 Ağustos'ta İsmail Paşa'nın taarruzu ağır yenilgiyle sonuçlanınca kale birkaç gün içinde teslim oldu. Anabolu, 1540'ta antlaşmayla devralınmış Osmanlı toprağıydı; kaybıyla Mora yarımadasının Venedik'e geçişi hızlandı.", ic_not_d:"⚠️ Budin'in kaybıyla (1686-09-02) KARIŞTIRILMASIN — ayrı cephe, ayrı olay, yalnızca birkaç gün arayla üst üste düşüyor.",
   kaynak:"anabolu", duygu:["😔"] },
 
-{ tur:"savas", kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Semendire'nin Habsburg (Macaristan Krallığı tacı) elinden geri alınışı — 1737-39 Savaşı",
   gun:"Ağustos 1738", ic_not_gun:"TDV ay verir, gün vermez",
   yer:"Semendire", yer_id:"Semendire",
@@ -224,7 +224,7 @@ window.OLAYLAR_EK17 = [
   d:"TDV'nin Semendire maddesine göre 1717'de Pasarofça'yla Avusturya'ya bırakılan kale, 1737'de başlayan Osmanlı-Avusturya Savaşı'nın Tuna-Sava cephesindeki Osmanlı ilerleyişiyle geri alındı; Habsburg (Macaristan Krallığı tacı) kuvvetleri bölgede Ağustos 1738'e kadar tutunabildi, bu tarihten sonra Semendire yeniden Osmanlı idaresine girdi. Bir yıl sonra imzalanan Belgrad Antlaşması (1739-09-18) bu kazancı — Belgrad ve kuzey Sırbistan ile birlikte — tescil edecekti.", ic_not_d:"⚠️ Aynı gün Kırım'da gerçekleşen 'Özi'nin geri alınışı' maddesiyle KARIŞTIRILMASIN — 1000 km uzakta, ayrı cephe, ayrı olay; yalnızca tarih rastlantısal olarak örtüşüyor.",
   kaynak:"semendire", duygu:["🎉"] },
 
-{ kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1738-08-01", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Morava vadisinin Osmanlı idaresine dönüşü — Yagodina, Kragujevac ve Çaçak",
   gun:"Ağustos 1738", ic_not_gun:"gün komşudan: Semendire (TDV semendire ay verir, gün vermez); bu üç yer için ayrı kaynak kaydı BULUNAMADI — SIRADA-A-1012",
   yer:"Yagodina, Kragujevac, Çaçak (Morava vadisi)", yer_id:"Kragujevac", odak_yer:["Yagodina (Jagodina)","Kragujevac","Çaçak"],
@@ -232,7 +232,7 @@ window.OLAYLAR_EK17 = [
   d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
-{ tur:"antlasma", kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları",
   gun:"21 Mart 1800",
   yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
@@ -240,7 +240,7 @@ window.OLAYLAR_EK17 = [
   d:"1799'da Rus-Osmanlı müşterek donanması Fransızları İyon adalarından çıkarmış (Korfu kalesi 5 Mart 1799'da düştü); 21 Mart 1800 tarihli on iki maddelik sözleşmeyle adalar, iç işlerinde özerk, dış işlerde Osmanlı'ya bağlı Cezâyir-i Seb'a-i Müctemia Cumhuru (Yedi Ada Cumhuriyeti) olarak kuruldu. 1799-03-05 ile bu gün arası müşterek işgal dönemidir.", ic_not_d:"TDV korfu kuruluşu 'Korfu Antlaşması, 3 Nisan 1800' diye anar; TDV yedi-ada-cumhuriyeti 21 Mart 1800 (on iki maddelik sözleşme). Konuyu kapsayan madde yedi-ada olduğundan 21 Mart esas; çelişki iki kaynağıyla beyan edilir.",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
-{ tur:"antlasma", kapsam:"ic", t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
   b:"Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus hakları Fransa'ya devredildi",
   gun:"7 Temmuz 1807 (TDV: 9 Temmuz 1807)",
   yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
@@ -248,7 +248,7 @@ window.OLAYLAR_EK17 = [
   d:"Tilsit'te Rusya ile Fransa arasında varılan anlaşmayla Rusya, Yedi Ada üzerindeki haklarını Fransa'ya bıraktı; Fransız birlikleri 1807 yazında adalara yerleşti ve Yedi Ada Cumhuriyeti ortadan kalktı.", ic_not_d:"Gün çelişkisi: atlas künyesi (septinsular t) 7 Temmuz; TDV yedi-ada-cumhuriyeti '9 Temmuz 1807 tarihinde Rusya ile Fransa arasında Tilsitt Antlaşması imzalandığında' der. Dönem ucu künye ucuyla eş (07-07) bırakıldı; ③ D3'te TDV'ye çekme önerilir. Fiilî Fransız inişi 1807 Ağustos (ikincil kaynak; okunmadı).",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["⚔️","😔"] },
 
-{ tur:"antlasma", kapsam:"dis", bolge:3, t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"dis", bolge:3, t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
@@ -256,7 +256,7 @@ window.OLAYLAR_EK17 = [
   d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan ayrı bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
-{ kapsam:"ic", t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avusturya'ya teslimi",
   gun:"17 Ocak 1688 — DÜZELTİLMİŞ TARİH, bkz. not",
   yer:"Munkács (Mukacheve)", yer_id:"Munkács (Mukacheve)",
@@ -265,14 +265,14 @@ window.OLAYLAR_EK17 = [
   kaynak:"encyclopedia.com 'Zrinyi, Ilona (1643-1703)' (Encyclopedia of Women, Gale) — «forced to surrender to the Habsburg besiegers led by General Caraffa on January 17, 1688»" },
 
 // ── DOGU-SAFEVI-0086 (9 Ekim 2026): üç kırılmanın maddesi — 0086/H-0002 · H-0007 ──
-{ bolge:1, t:"1485-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-siyasi"], kapsam:"dis",
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:1, t:"1485-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","toprak-kayip","konu-siyasi"], kapsam:"dis",
   b:"Taşkent Moğulistan hanı Yûnus Han'ın idaresine geçti",
   gun:"890 (1485) — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Taşkent", yer_id:"Taşkent",
   kisiler:"Yûnus Han, Mahmud Han", taraflar:["timurlu","mogulistan"],
   d:"Timurlu şehzadeleri arasındaki taht mücadelesi sırasında Taşkent ve çevresi Doğu Çağatay (Moğulistan) hanı Yûnus Han'ın eline geçti. İki yıl sonra Yûnus Han ölünce yerine oğlu Mahmud Han geçti; şehir 1503'te Şeybânî Han'ın Özbekleri alana kadar Moğul hanlarında kaldı.",
   kaynak:"TDV taskent: 'Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485).' · 'Yûnus Han iki yıl sonra vefat edince yerine oğlu Mahmud Han geçti.'" },
 
-{ bolge:2, t:"1504-01-01", kesinlik:"yil", k:"kayip", etiket:["toprak-kayip","konu-siyasi","maveraunnehir"], kapsam:"dis",
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", bolge:2, t:"1504-01-01", kesinlik:"yil", k:"kayip", etiket:["toprak-kayip","konu-siyasi","maveraunnehir"], kapsam:"dis",
   b:"Bâbür Fergana'yı Özbekler'e bırakıp Kâbil'e gitti",
   gun:"1504 — yıl hassasiyeti; ay ve gün kaynakta yok", yer:"Fergana (Endican, Oş, Hokand, Hucend)", yer_id:"Andican",
   kisiler:"Bâbür, Muhammed Şeybânî Han", taraflar:["timurlu","buhara"],
@@ -280,7 +280,7 @@ window.OLAYLAR_EK17 = [
   ic_not_d:"Fergana noktaları bu maddeyle 1504'te Buhara (Şeybânî) kimliğine geçer; 1500-01-01 açılışı Semerkant/Buhara şablonundandı ve kaynaksızdı. ⚠️ kronoloji_cok_orta_asya2.js 1503-06-01 Aksı maddesi 'Fergana … Özbek eline geçti' der (Britannica/EI² web özeti); TDV fergana ve babur 1504 der — TDV esas.",
   kaynak:"TDV fergana: 'Ömer Şeyh’in oğlu ve halefi Bâbür, Özbek (Şeybânî) Hükümdarı Muhammed Şeybânî Han’la yaptığı birçok savaştan sonra 1504’te bölgeyi Özbekler’e bırakarak Kâbil’e gitti.' · TDV babur: 'Fergana hâkimiyeti (1494-1504)'" },
 
-{ bolge:4, t:"1538-10-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"], kapsam:"dis",
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", bolge:4, t:"1538-10-01", kesinlik:"ay", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri","konu-siyasi"], kapsam:"dis",
   b:"Şirvanşahlar'ın sonu: Elkas Mirza Şâhruh'u esir aldı, Şirvan Safevî vilâyeti oldu",
   gun:"Ekim 1538 (945 Cemâziyelevveli) — ay hassasiyeti", yer:"Şamahı, Bakü, Şâbüran, Kabala, Ereş, Mahmudâbâd, Salyan, Kuba — Şirvan", yer_id:"Şamahı",
   kisiler:"Şah I. Tahmasb, Elkas Mirza, Şirvanşah Şâhruh", taraflar:["sirvansah","safevi"],
@@ -738,7 +738,7 @@ window.OLAYLAR_EK21 = [
   //   o günü KAPATIYOR: 1509-01-01 bugün külliyatta 33 gün açıkta (en yakın
   //   madde 1509-02-03 Diu Deniz Savaşı) ve veride 4 kırılma taşıyor ⇒ madde
   //   inince Değişmez 2s'de AÇIK bir gün KAPANIR, yenisi doğmaz.
-  { kapsam:"dis", bolge:3, t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
+  { onem:4, dunya:1, bolge_onem:4, puan_s:"v2", kapsam:"dis", bolge:3, t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas","konu-askeri","konu-siyasi"],
     b:"Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı",
     gun:"1509", ic_not_gun:"(915 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Derbend (Demirkapı) — Dağıstan, Hazar kıyısı", yer_id:"Derbend",
@@ -754,7 +754,7 @@ window.OLAYLAR_EK21 = [
   // ⇒ Kutaisi'nin (madde ①'in vakası) aksine bu build KIRMIYOR; §10'un
   //   "eğer doğru ise ayrı madde ile gösterilmeli, ismi ile zikredilmeli"
   //   kuralına giriyor. Gün DEĞİŞMEDİ — yalnız kendi maddesi yazıldı.
-  { tur:"fetih", kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
+  { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"fetih", kapsam:"ic", t:"1537-01-01", k:"fetih", etiket:["fetih","siyaset","konu-askeri","konu-siyasi"],
     b:"Kars'ın Osmanlı topraklarına kesin katılışı — doğu serhaddinin çivisi",
     gun:"1537", ic_not_gun:"(944 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
     yer:"Kars", yer_id:"Kars",
@@ -865,7 +865,7 @@ window.OLAYLAR_EK19 = [
 // ============================================================================
 window.OLAYLAR_SENKRON_0930 = [
 
-{ kapsam:"ic", t:"1399-09-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","memluk"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1399-09-01", kesinlik:"yil", k:"fetih", etiket:["toprak-kazanc","konu-askeri","memluk"],
   b:"Yıldırım Bayezid Berkuk'un ölümünün ardından Besni, Darende ve Divriği'yi Osmanlı topraklarına kattı",
   ic_not_b:"eski b (NOT2-1016 öncesi): Yıldırım Bayezid Sivas, Malatya, Besni, Darende ve Divriği'yi Osmanlı topraklarına kattı — Sivas 1398 Temmuz'da ayrı olaydır (olaylar_ek5 1398-07-15), Malatya'nın kendi maddesi var (olaylar_ek 1399-09-01)",
   gun:"1399 — TDV malatya yıl verir; 1 Eylül yalnız Malatya maddesiyle hizalama işaretidir",
@@ -876,7 +876,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_d:"✅ ÇELİŞKİ ÇÖZÜLDÜ (NOT2-1016, Emre notu #34 «Sivas alınmadan Divriği, Darende, Besni alınmış olabilir mi»): TDV `malatya` AYNEN «Malatya ilk olarak 1399’da Yıldırım Bayezid tarafından Osmanlı hâkimiyeti altına alındıysa da … Berkuk’un ölümü üzerine Memlük nüfuz sahasına inerek Fırat havzası boyunca Malatya, Elbistan, Behisni, Darende ve Divriği’yi ele geçirip» — sıralama ile yıl bu maddede TUTARLI; madde ve üç yerleşimin kırılması 1399'a çekildi. ESKİ NOT: 🔴 KAYNAK KENDİYLE ÇELİŞİYOR, BİLDİRİLİYOR (D211 ⑥): TDV `divrigi` fethi 'Sultan Berkuk'un ölümünden sonra ... Yıldırım Bayezid 1398'de' diye anlatıyor, ama Berkuk Haziran 1399'da öldü (TDV `berkuk`; atlasın kendi kaydı da kronoloji_memluk.js 1399 'Berkuk'un ölümü'). Yani TDV'nin SIRALAMASI ile YILI birbirini tutmuyor. Maddeye YIL yazıldı (1398), çünkü ölçülen toprak kırılması o gündedir ve TDV fethi açıkça 1398'e koyuyor; Berkuk cümlesi maddeye TAŞINMADI. Çelişkinin çözümü (fetih 1398 mi 1399 mu) ayrı kalem — Memlük iç karışıklığı Berkuk'un ölümünden ÖNCE de vardı.",
   ic_not_kaynak:"TDV `divrigi` (Abdülkadir Balgalmış, 1994) gövdesi okundu, birebir: \"Sultan Berkuk'un ölümünden sonra yerine küçük yaştaki oğlu Ferec'in geçmesiyle Memlük Devleti'nin idarî işleri bozulunca Yıldırım Bayezid 1398'de Sivas, Malatya, Besni (Behisni), Darende ve Divriği'yi iki ay muhasaradan sonra Osmanlı topraklarına kattı. Ancak Divriği yaklaşan Timur tehlikesinden dolayı 1401'de tekrar Memlükler'e verildi.\" · 1391 Memlük zaptı aynı gövdede: \"Kadı Burhâneddin ile Amasya Emîri Hacı Şadgeldi Paşa arasındaki mücadelelerden faydalanan Memlükler tarafından zaptedildi (1391).\"" },
 
-{ kapsam:"ic", t:"1401-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-siyasi","memluk"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1401-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-siyasi","memluk"],
   b:"Divriği, Timur tehlikesi yüzünden yeniden Memlükler'e verildi",
   gun:"1401 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Divriği", yer_id:"Divriği",
@@ -886,7 +886,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `divrigi` (Abdülkadir Balgalmış, 1994) gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008), birebir: \"Ancak Divriği yaklaşan Timur tehlikesinden dolayı 1401'de tekrar Memlükler'e verildi.\" · \"Divriği'nin kesin olarak Osmanlı idaresine girişi, Yavuz Sultan Selim'in 24 Ağustos 1516 Mercidâbık Zaferi'nden sonradır.\"",
   ic_not_d:"0085/H-0005 · H-0009 · H-0010 (Emre: 'Timur Sivas'ı yerle bir ettikten sonra neden Divriği Memlük görünmeye başlıyor?'). Kırılma 1401-01-01'de VARDI ama bu yeri anan madde YOKTU: Değişmez 2 yer şartı aramadığı için ±30 gündeki ilgisiz bir madde (Diyarbekir 1401-01-01) kırılmayı kapatıyordu. 'Verildi' fiilinin öznesi kaynakta yok; Bayezid'in bırakması diye okunması TDV cümlesinin yorumu değil, 1398 maddesinin kendi anlatımıyla tutarlıdır." },
 
-{ kapsam:"ic", t:"1400-08-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri","memluk"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1400-08-01", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri","memluk"],
   b:"Besni, Timur'un Sivas ve Malatya seferi sırasında Memlükler'e geçti",
   gun:"1400 (TDV yıl verir) — gün komşudan: Sivas (olaylar_ek5 1400-08-01 'Ağustos 1400', kaynak TDV sivas)",
   yer:"Besni (Behisni)", yer_id:"Behisni (Besni)",
@@ -896,7 +896,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `besni` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Bu arada 1398’de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da 1400’de Timur’un Sivas ve Malatya’yı zaptı sırasında Memlükler’in eline geçti. Ancak Timur 27 Eylül 1400’de şiddetli bir muhasaradan sonra burayı zaptetti. Onun bu yöreden çekilmesinden sonra tekrar Memlükler’in hâkimiyetine girdi.\"",
   ic_not_d:"Timur'un 27 Eylül 1400 zaptı haritaya YAZILMADI: çekilişin günü kaynakta yok. Kırılma günü 1400-08-01 yalnız yıl+komşu günüdür." },
 
-{ tur:"savas", kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"dis", bolge:3, t:"1414-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Memlük Sultanı Şeyh, Antep ile Darende'yi Dulkadırlılar'dan geri aldı",
   gun:"1414 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Antep", yer_id:"Darende",
@@ -905,7 +905,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"dulkadirogullari", duygu:["⚔️"],
   ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026, DIVRIGI-MEMLUK-1008-EK), birebir: \"Dulkadırlılar’ın Osmanlılar’la dostluk münasebetleri Memlükler’i endişelendirmeye başladı. Sultan Şeyh 1414 yılında sefere çıkarak daha önce kendi rızası ile verdiği Antep şehriyle Dârende’yi Dulkadırlılar’dan geri aldı.\"" },
 
-{ tur:"savas", kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"dis", bolge:3, t:"1418-01-01", k:"savas", etiket:["savas","konu-askeri","memluk","dulkadir"],
   b:"Dulkadıroğlu Mehmed Bey Darende'yi geri aldı, Besni'yi de topraklarına kattı",
   gun:"1418 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Darende, Besni", yer_id:"Darende",
@@ -915,7 +915,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `dulkadirogullari` gövdesi okundu (9 Ekim 2026), birebir: \"Fakat Mehmed Bey 1418’de Dârende’yi tekrar aldığı gibi Besni’yi de ülkesine kattı.\"",
   ic_not_d:"POSTIT-64 (Emre notu #64): Besni 1418 Dulkadır dönemi haritaya YAZILDI (yerlesimler.js Behisni). Bitişler TDV'de yıl olarak YOK, abi merkez Antep'in akıbetine bağlı BEYANLI YAKLAŞIKLIK: 1436 (Antep yenilgisi) Memlük · 1467 Şehsuvar Dulkadır'a aldı · 1471 (Yeşbek) Memlük." },
 
-{ kapsam:"dis", bolge:3, t:"1436-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri","memluk","dulkadir"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:3, t:"1436-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri","memluk","dulkadir"],
   b:"Memlükler Antep'te Dulkadırlılar'ı yendi; Besni Memlük idaresine döndü (yaklaşık)",
   gun:"1436 (TDV yıl verir, ay ve gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Antep, Besni", yer_id:"Behisni (Besni)",
@@ -925,7 +925,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `dulkadirogullari`: 'Memlük ordusu 1436’da Antep’te Dulkadırlılar’ı yendi' (Mehmed Bey Akdağ’a çekildi) · Şehsuvar Bey 'Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti'. TDV besni: 'Bir ara Dulkadıroğulları’nın idaresine tâbi oldu' — bitiş yılı yok.",
   ic_not_d:"POSTIT-64: ABİ MERKEZ: Antep — Dulkadır/Memlük sınır merkezi, Besni'ye ~80 km; kaynakta Besni'nin dönüş yılı YOK, 1436 yaklaşık ve beyanlıdır. Emre'nin 'abi merkez ile birlikte hareket ediyordur' önerisi." },
 
-{ kapsam:"dis", bolge:3, t:"1467-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri","memluk","dulkadir"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"dis", bolge:3, t:"1467-01-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri","memluk","dulkadir"],
   b:"Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık)",
   gun:"1467 (yıl yaklaşık; TDV Şehsuvar'ın alış yılını vermez)",
   yer:"Besni, Gerger, Birecik, Rumkale", yer_id:"Behisni (Besni)",
@@ -935,7 +935,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `dulkadirogullari`: Şehsuvar Bey 'Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti' (tarihsiz).",
   ic_not_d:"POSTIT-64: 1467-01-01 BEYANLI YAKLAŞIKLIK — Şehsuvar'ın saltanatı 1465-1472; alış yılı TDV'de yok, ilk tarihli zafer 1467 sonbahar (Turnadağı)." },
 
-{ kapsam:"dis", bolge:3, t:"1471-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri","memluk","dulkadir"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"dis", bolge:3, t:"1471-01-01", k:"kayip", etiket:["toprak-kayip","konu-askeri","memluk","dulkadir"],
   b:"Emîr Yeşbek Şehsuvar Bey'i yendi; Besni Memlük idaresine döndü (yaklaşık)",
   gun:"1471 (TDV yıl/ilkbahar verir, gün vermez — 01-01 yalnız yıl işaretidir)",
   yer:"Besni, Kadirli, Kozan", yer_id:"Behisni (Besni)",
@@ -945,7 +945,7 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `dulkadirogullari`: 1471 ilkbaharında Emîr Yeşbek Şehsuvar Bey'i Savron deresinde yendi; Memlükler Kadirli ve Kozan'ı geri aldı. TDV `besni`: 'XV. yüzyılın sonlarına doğru yeniden Memlükler’in eline geçti'.",
   ic_not_d:"POSTIT-64: 1471 BEYANLI YAKLAŞIKLIK — Besni'nin Memlük'e dönüş yılı TDV'de yok; Şehsuvar'ın yenilgisi (1471) ve Memlük'ün Dulkadır'ı yeniden denetlemesi esas alındı. TDV besni 'XV. yy sonlarına doğru' der, 1471 bununla tam örtüşmeyebilir." },
 
-{ kapsam:"ic", t:"1551-07-26", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","erdel","habsburg"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"ic", t:"1551-07-26", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","erdel","habsburg"],
   b:"Erdel Habsburg idaresine geçti: Kolozsvár meclisi İzabella'nın feragatini tanıdı",
   gun:"26 Temmuz 1551",
   yer:"Kolozsvár (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Szászsebes, Brassó (Braşov), Segesvár (Sighişoara), Szatmár (Satu Mare), Gyula (Göle), Varad (Oradea)",
@@ -956,7 +956,7 @@ window.OLAYLAR_SENKRON_0930 = [
   yer_id:"Erdel (Kaloşvar)", duygu:["😔"],
   ic_not_d:"KUTU-E-1014 (Emre 0088/H-0043): 1551-07-26 Erdel kırılmasının adıyla anılan maddesi yoktu (yalnız 1551-07-01 Banat kaleleri maddesi). Gün HoT I'den birebir: 'On 19 June, at Szászsebes castle, a despairing Isabella signed … the letter of abdication' · 'On 26 July, the diet at Kolozsvár acknowledged the queen's abdication and the restoration of King Ferdinand's rule.' TDV erdel olayı anlatır, tarihlemez. Varad/Partium: aynı sayfa 'Várad's isolated garrison held out until April 1557' der (1556 bölümü) — Varad'ın 1551-1557 Ferdinand garnizonunda olduğuna işaret; yerlesimler.js Varad dönemi ayrı VERI işi." },
 
-{ kapsam:"ic", t:"1556-03-12", k:"fetih", etiket:["toprak-kazanc","konu-siyasi","erdel","habsburg"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"ic", t:"1556-03-12", k:"fetih", etiket:["toprak-kazanc","konu-siyasi","erdel","habsburg"],
   b:"Habsburg idaresi Erdel'de sona erdi: Erdel yeniden Osmanlı'ya bağlı voyvodalık oldu",
   gun:"12 Mart 1556", ic_not_gun:"12 Mart 1556 — gün YERLESIM-BIRLESTIR-0930 kabulünün kaynağından devralındı (History of Transylvania I, MTA, s. 102); TDV `erdel` olayı anlatır ama TARİHLEMEZ",
   yer:"Erdel (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Brassó (Braşov), Segesvár (Sighişoara), Szatmár (Satu Mare)",
@@ -968,57 +968,57 @@ window.OLAYLAR_SENKRON_0930 = [
   ic_not_kaynak:"TDV `erdel` (Kemal Karpat) gövdesi okundu, birebir: \"XVI. yüzyılın ortalarında bu yoldaki en önemli faaliyet, Hırvat asıllı bir papaz olan ve Kral János Zsigmond'un küçük yaşta olması sebebiyle ona vasî tayin edilen Martinuzzi (Fráter György) vasıtasıyla gerçekleştirilmiş, Habsburglar onun gayretleriyle Erdel'e hâkim olmaya çalışmışlarsa da bu durum Osmanlılar tarafından önlenmişti.\" · \"Erdel XVI ve XVII. yüzyıllarda yaklaşık 150 yıl süre ile, iç işlerinde sahip olduğu geniş muhtariyete karşılık dış işlerinde İstanbul'a bağlı olarak hareket etti.\" 🔴 TDV bu geri dönüşe GÜN ya da YIL vermiyor; 1551 ve 1556 günleri kabul listesinin kaynağından gelir." },
 
 // ── KUTU-B-1014 — Macaristan/Erdel senkron maddeleri (0088/H-0008 · 0088/H-0011 · 0053/H-0002 · 0082/H-0002 · 0088/H-0053) ──
-{ kapsam:"ic", t:"1550-09-15", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","habsburg"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1550-09-15", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","habsburg"],
   b:"Ferdinand'ın kuvvetleri Solnok'u tuttu ve tahkim etti",
   gun:"Eylül ortası 1550",
   yer:"Solnok (Szolnok)", yer_id:"Solnok (Szolnok)", kisiler:"I. Ferdinand",
   d:"Osmanlılar Tisza üzerindeki Solnok'ta kale kurmaya hazırlanırken I. Ferdinand'ın kuvvetleri öne geçti: Eylül 1550 ortasında Solnok'u tuttular ve kale Ekim ortasında savunulabilir hâle getirildi. Böylece İzabella'nın ülkesine ait Solnok, Erdel'in Ferdinand'a geçişinden bir yıl önce Habsburg eline geçti; Osmanlılar kaleyi 1552'de aldı.",
   kaynak:"Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 0013/988: 'szeptember közepe táján … meg is szállották Szolnokot … október 16.-án védképes állapotban volt'" },
-{ kapsam:"ic", t:"1565-02-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1565-02-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
   b:"Schwendi Szatmár'ı aldı — Erdel'in kuzey ucu Habsburg'a geçti",
   gun:"Şubat 1565",
   yer:"Szatmár (Satu Mare), Tokaj", yer_id:"Szatmár (Satu Mare)", kisiler:"Lazarus von Schwendi, János Zsigmond, Báthory István",
   d:"1561'de Balassa Menyhért'in taraf değiştirmesiyle Habsburg'a geçen Szatmár'ı Báthory István 1564 sonbaharında baskınla geri almış, Erdel'e katmıştı. Habsburg komutanı Lazarus von Schwendi Şubat 1565'te karşı harekâta geçti: Tokaj 9 Şubat'ta, Szerencs dört gün sonra düştü ve Szatmár hemen hemen direnişsiz imparatorluk kuvvetlerinin eline geçti.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/105.html): 'in 1564, he led a surprise attack to seize Szatmár and Németi' · Bánlaky (MEK 09477) 0013/1049: 'Szatmár úgyszólván ellenállás nélkül került a … császáriak kezébe'" },
-{ kapsam:"ic", t:"1605-01-21", k:"siyaset", etiket:["siyaset","ayaklanma","konu-askeri","erdel"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1605-01-21", k:"siyaset", etiket:["siyaset","ayaklanma","konu-askeri","erdel"],
   b:"Bocskai'nin kuvvetleri Szatmár'ı aldı",
   gun:"21 Ocak 1605",
   yer:"Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)", kisiler:"Bocskai István, Gyulaffy",
   d:"Bocskai ayaklanması kuzeydoğu Macaristan'a yayılırken Gyulaffy kuşattığı Szatmár'ı 21 Ocak 1605'te ele geçirdi. 23 Haziran 1606 Viyana barışı Szatmár ilini ömür boyu Bocskai'ye bıraktı; erkek varis olmadığından Bocskai'nin 29 Aralık 1606'daki ölümüyle il krallığa döndü.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/119.html): 'laid siege … to … Szatmár, and invested it on 21 January' · 120.html: 'He died at Kassa on 29 December 1606' · TDV zitvatorok-antlasmasi: 'Macar heyeti barış şartlarını kabul etti (23 Haziran 1606)'",
   ic_not_d:"Bánlaky 0014/1201 kalenin Aralık 1604'te teslim olduğunu söylüyor; MTA gününü (21 Ocak 1605) aldık — çelişki beyanı." },
-{ kapsam:"ic", t:"1619-11-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1619-11-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel"],
   b:"Bethlen Gábor Szatmár ilini denetimine aldı",
   gun:"Kasım 1619",
   yer:"Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)", kisiler:"Bethlen Gábor",
   d:"Bethlen Gábor'un 1619 sonbaharındaki Macaristan seferiyle Szatmár ili Erdel prensinin denetimine girdi; Kasım 1619'da ile mektupla hitap ediyordu. 23 Ocak 1620 ön antlaşması ve Nikolsburg barışı Szatmár'ı da içine alan yedi ili Bethlen'e ömür boyu bıraktı. Bethlen'in ölümünden (15 Kasım 1629) sonra illerin krallığa iadesi 30 Mart 1630'da tamamlandı.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/183.html): 'Seven counties — Szatmár, … — would remain under his rule' · 188.html: 'by 30 March 1630 they could report success'" },
-{ kapsam:"ic", t:"1664-05-03", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1664-05-03", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Nitra'nın kaybı — De Souches kaleyi geri aldı",
   gun:"3 Mayıs 1664",
   yer:"Nitra (Nyitra)", yer_id:"Nitra (Nyitra)", kisiler:"Jean-Louis Raduit de Souches",
   d:"1663'te Uyvar'ın fethinden sonra kısa direnişle teslim olan Nitra'yı imparatorluk komutanı De Souches 15 Nisan 1664'te kuşattı; kale 3 Mayıs 1664'te teslim oldu. Vasvar Antlaşması ele geçen yerleri bulunduğu hâlde bıraktığından Uyvar Osmanlı'da kalırken Nitra Habsburg elinde kaldı.",
   kaynak:"Bánlaky (MEK 09477) 0016/1325: 'április 15-én Nyitra alá érkezett' · 0016/1322: 'Nyitra május 3-án kénytelen volt magát megadni' · 0016/1341 (Vasvár: Érsekújvár Osmanlı'da)" },
-{ kapsam:"ic", t:"1664-06-14", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1664-06-14", k:"kayip", etiket:["toprak-kayip","konu-askeri"],
   b:"Léva'nın kaybı",
   gun:"14 Haziran 1664",
   yer:"Léva (Levice)", yer_id:"Léva (Levice)", kisiler:"Jean-Louis Raduit de Souches",
   d:"De Souches Nitra'dan sonra 9 Haziran 1664'te Léva'yı kuşattı; 13 Haziran'da kapitülasyon imzalandı ve kale 14 Haziran'da imparatorluk kuvvetlerinin elindeydi. 19 Temmuz 1664'teki Léva (Garamszentbenedek) muharebesi sahipliği değiştirmedi; Habsburg'un Léva ve Nitra'yı elde tutmasıyla sonuçlandı.",
   kaynak:"Bánlaky (MEK 09477) 0016/1331: 'Léva vára másnap, azaz június 14-én a császáriak kezében volt' · 0016/1333: 'Léva és Nyitra várak megtartattak'" },
 
-{ kapsam:"ic", t:"1606-12-29", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-kisiler","erdel","habsburg"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1606-12-29", k:"siyaset", etiket:["siyaset","konu-siyasi","konu-kisiler","erdel","habsburg"],
   b:"Bocskai István'ın ölümü — Szatmár ili krallığa döndü",
   gun:"29 Aralık 1606",
   yer:"Kassa (Košice), Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)", kisiler:"Bocskai István",
   d:"Erdel prensi Bocskai István 29 Aralık 1606'da Kassa'da öldü. Viyana barışı (23 Haziran 1606) Szatmár'ı da içine alan illeri ona ömür boyu, erkek varis olmaması hâlinde krallığa dönmek üzere bırakmıştı; bu hükümle Szatmár ili Habsburg Macar krallığına geri geçti. Erdel yeni bir prens arayışına girdi.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/120.html): 'He died at Kassa on 29 December 1606' · 119.html: Viyana barışı, 'Partium … encompass the counties of Szatmár' · TDV zitvatorok-antlasmasi (23 Haziran 1606)" },
-{ kapsam:"ic", t:"1630-03-30", k:"siyaset", etiket:["siyaset","konu-siyasi","erdel","habsburg"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1630-03-30", k:"siyaset", etiket:["siyaset","konu-siyasi","erdel","habsburg"],
   b:"Bethlen Gábor'un yedi ilinin krallığa iadesi tamamlandı",
   gun:"30 Mart 1630",
   yer:"Szatmár (Satu Mare), Kassa (Košice)", yer_id:"Szatmár (Satu Mare)", kisiler:"Bethlen Gábor, II. Ferdinand",
   d:"Nikolsburg barışı Szatmár dahil yedi Yukarı Macaristan ilini Bethlen Gábor'a ömür boyu bırakmıştı. Bethlen'in 15 Kasım 1629'daki ölümünden sonra illerin krallığa iadesi 30 Kasım 1629 talimatıyla başladı ve 30 Mart 1630'da tamamlandı.",
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/183.html): 'Seven counties — Szatmár, … — would remain under his rule' · 188.html: 'by 30 March 1630 they could report success'" },
-{ kapsam:"ic", t:"1644-02-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1644-02-01", kesinlik:"ay", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
   b:"I. Rákóczi György Szatmár'ı teslim aldı",
   gun:"Şubat-Mart 1644",
   yer:"Szatmár (Satu Mare)", yer_id:"Szatmár (Satu Mare)", kisiler:"I. Rákóczi György",
@@ -1026,14 +1026,14 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"Bánlaky (MEK 09477) 0015/1291: 'a szatmári német őrség szintén Rákóczyék zsoldjába szegődött' · 0015/1292: 'a diplomát Linzben írta alá 1645 december 16-án' · MTA History of Transylvania (195.html)" },
 
 // ── KUTU-B-1014 (2) — Bizans haraçgüzarlığı · Çehrin 1676 ──
-{ tur:"vassal", kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", tur:"vassal", kapsam:"ic", t:"1372-01-01", kesinlik:"yil", k:"vassal", etiket:["siyaset","diplomasi","konu-diplomasi","konu-siyasi"],
   b:"Bizans İmparatorluğu Osmanlı'nın haraçgüzârı oldu",
   gun:"1372 kışı",
   yer:"İstanbul, Selanik, Gelibolu, Silivri", yer_id:"İstanbul", kisiler:"V. Ioannes Palaiologos, I. Murad",
   d:"Çirmen zaferinden (1371) sonra Bizans imparatoru V. Ioannes, 1372 kışında I. Murad'ın haraçgüzârı olmayı kabul etti: yıllık haraç ödeyecek ve sultanın seferlerine asker verecekti. Bizans bu tarihten 1403'e dek Osmanlı'ya bağlı bir vasal devlet olarak kaldı; Yıldırım Bayezid'in 1391 ablukası haracı artırdı. Ankara bozgunundan sonra Süleyman Çelebi ile yapılan Gelibolu antlaşması (1403) Bizans'ı haraçtan kurtardı; 1424'te II. Murad ile yapılan antlaşmayla haraç yeniden başladı.",
   kaynak:"murad-i",
   ic_not_d:"KUTU-B-1014 (0042/H-0022, Emre kararı: Bizans'ın Osmanlı vasallığı açık tonla): TDV murad-i 'I. Murad'ın haraçgüzârı olmayı kabul etti (1372 kışı)' — YIL; TDV bizans (1403 haraçtan kurtulma); TDV murad-ii (22 Şubat 1424, 300.000 akçe). Haritada v: pencereleri 1372-1403-02 ve 1424-02-22→1453-05-29 İstanbul çekirdeğinde (İstanbul, Boğaziçi, Silivri, Çatalca, Marmara Adası) ve 1372'de Bizans'ta olan Selanik, Kavala, Gelibolu yarımadası, Beykoz noktalarında. Mora/Epir/Ege adaları (ayrı despotluk ya da Ceneviz/Latin elinde) KAPSAM DIŞI bırakıldı." },
-{ kapsam:"ic", t:"1676-09-19", k:"kayip", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", kapsam:"ic", t:"1676-09-19", k:"kayip", etiket:["toprak-kayip","siyaset","konu-askeri","konu-siyasi"],
   b:"Doroşenko Çehrin'i Samoyloviç'e teslim etti",
   gun:"19 Eylül 1676",
   yer:"Çehrin (Çigirin)", yer_id:"Çehrin (Çigirin)", kisiler:"Petro Doroşenko, İvan Samoyloviç, Grigoriy Romodanovski",
@@ -1041,7 +1041,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"Encyclopedia of Ukraine (CIUS) «Doroshenko, Petro»: 'surrendered to Samoilovych on 19 September 1676' · TDV cehrin-seferi (1677, 1678)",
   ic_not_d:"KUTU-B-1014 (0052/H-0123): haritada Çehrin isg:rusya 1676-09-19 → 1678-08-21. Doroşenko'nun Osmanlı himayesi (1669-1676) Emre kararıyla (13 Ekim, Hetmanlık künyesi açılmadı) ayrı kimlik olarak çizilmez. EoU takvimi belirtmiyor." },
 
-{ kapsam:"ic", t:"1557-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", kapsam:"ic", t:"1557-01-01", kesinlik:"yil", k:"siyaset", etiket:["siyaset","konu-askeri","erdel","habsburg"],
   b:"Várad, Huszt ve Tokaj Szapolyai tarafına geçti",
   gun:"1557",
   yer:"Varad (Oradea)", yer_id:"Varad (Oradea)", kisiler:"Varkocs Tamás, Patócsy Ferenc, İzabella, János Zsigmond",
@@ -1049,7 +1049,7 @@ window.OLAYLAR_SENKRON_0930 = [
   kaynak:"MTA History of Transylvania (mek.oszk.hu/03400/03407/html/103.html): 'gained control of the most important royal fortresses, those at Várad, Huszt, and Tokaj' · 'Only Gyula and Világos managed to hold out' · Bánlaky (MEK 09477) 0013/1029 (1556 kuşatması)",
   ic_not_d:"KUTU-B-1014 (0088/H-0043): Varad 1551-07-26 → 1557 macaristan-habsburg penceresinin kapanışı. Teslim günü akademik kaynakta okunamadı (ikincil: 13 Haziran 1557) — YIL." },
 
-{ bolge:2, t:"1298-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", taraflar:["memluk","kilikya-ermeni"], etiket:["savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", bolge:2, t:"1298-01-01", kesinlik:"yil", k:"fetih", kapsam:"dis", taraflar:["memluk","kilikya-ermeni"], etiket:["savas","konu-askeri"],
   b:"Maraş Memlüklere geçti — Halep nâibi Bilbân et-Tabahî Ermenilerden geri aldı",
   gun:"697 (1298) — TDV yalnız yılı veriyor",
   yer:"Maraş", yer_id:"Maraş", kisiler:"Bilbân et-Tabahî",

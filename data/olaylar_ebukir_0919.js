@@ -20,7 +20,7 @@
 
 window.OLAYLAR_EBUKIR0919 = [
 
-{ tur:"savas", t:"1798-08-01", kesinlik:"gun", k:"savas", kapsam:"ic", onem:4, etiket:["savas","konu-askeri"],
+{ dunya:3, bolge_onem:4, puan_s:"v2", tur:"savas", t:"1798-08-01", kesinlik:"gun", k:"savas", kapsam:"ic", onem:4, etiket:["savas","konu-askeri"],
   b:"Ebukır (Nil) deniz muharebesi — Napolyon'un donanmasının imhası",
   gun:"1 Ağustos 1798",
   yer:"Ebukır koyu, İskenderiye yakını (Mısır)", yer_id:"Ebûkîr",
@@ -28,7 +28,7 @@ window.OLAYLAR_EBUKIR0919 = [
   d:"Napolyon'un ordusunu Mısır'a taşıyan Fransız donanması Ebukır koyunda demirli beklerken İngiliz Amirali Nelson'ın filosu tarafından yakalandı ve bir gece süren muharebede imha edildi; amiral gemisi L'Orient infilak etti. Nelson böylece Fransa'nın Mısır'daki kara ordusunu deniz desteğinden mahrum bıraktı: ordu ne takviye alabiliyor ne de geri dönebiliyordu. Beş hafta sonra Osmanlı Devleti de Fransa'ya savaş ilan etti.",
   kaynak:"ebukir", duygu:["⚔️"] },
 
-{ tur:"savas", t:"1799-07-25", kesinlik:"gun", k:"savas", kapsam:"ic", onem:3, etiket:["savas","konu-askeri"],
+{ dunya:2, bolge_onem:3, puan_s:"v2", tur:"savas", t:"1799-07-25", kesinlik:"gun", k:"savas", kapsam:"ic", onem:3, etiket:["savas","konu-askeri"],
   b:"Ebukır kara muharebesi — Köse Mustafa Paşa'nın yenilgisi",
   gun:"25 Temmuz 1799",
   yer:"Ebukır, İskenderiye yakını (Mısır)", yer_id:"Ebûkîr",

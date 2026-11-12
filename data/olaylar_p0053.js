@@ -22,7 +22,7 @@
 window.OLAYLAR_P0053 = [
 
 // ── M1 · 1624 · Musul ve Kerkük Safevî eline geçti ─────────────────────
-{ t:"1624-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
+{ onem:4, dunya:1, bolge_onem:3, puan_s:"v2", t:"1624-01-01", kesinlik:"yil", k:"kayip", kapsam:"ic", etiket:["toprak-kayip","savas","konu-askeri"],
   b:"Musul ve Kerkük'ün Safevî eline geçmesi — Bağdat'ın düşüşünün ardından",
   gun:"1033 (1623-24) — kaynak gün vermiyor",
   yer:"Musul, Kerkük", yer_id:"Musul",
@@ -33,7 +33,7 @@ window.OLAYLAR_P0053 = [
   kaynak:"musul--irak · hafiz-ahmed-pasa · kerkuk + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001), ss. 479-493" },
 
 // ── M2 · 1625 · Hâfız Ahmed Paşa seferi, Musul ve Kerkük havalisi ──────
-{ t:"1625-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", t:"1625-01-01", kesinlik:"yil", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Musul'un Safevîlerden kurtarılması — Hâfız Ahmed Paşa'nın Bağdat seferi",
   gun:"1035 (1625) — ordu eylül başında Musul'a vardı; gün yok",
   yer:"Musul, Kerkük, Altınköprü", yer_id:"Musul",
@@ -44,7 +44,7 @@ window.OLAYLAR_P0053 = [
   kaynak:"musul--irak · hafiz-ahmed-pasa · kerkuk + Remzi Kılıç, Türk Kültürü XXXIX/460 (2001)" },
 
 // ── M3 · 16 Mart 1630 · Şehrizor'da Gülanber'in yeniden kuruluşu ───────
-{ t:"1630-03-16", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
+{ onem:2, dunya:1, bolge_onem:2, puan_s:"v2", t:"1630-03-16", k:"fetih", kapsam:"ic", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Hüsrev Paşa'nın Şehrizor'da Gülanber Kalesi'ni yeniden kurması — Şehrizor beylerbeyiliği",
   gun:"16 Mart 1630",
   yer:"Gülanber, Şehrizor", yer_id:"Şehrizor",
