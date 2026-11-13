@@ -91,21 +91,27 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # Orda/Beylikler/Memlûk/Balkan-Halef/İsveç/Timurlu açıklamaları); olay +1 (UMIT ÇELİŞKİ-2'de yeniden yazılan bir madde;
 # EMRELİC'in yeni antik/Roma maddeleri data/kronoloji_sinir_antik_*.js çeviri evreninde değil). Çeviri işleri site
 # bitince tek seferde (Emre, 13 Kasım). Eski değerler: arayüz 28 (her dil); olay en/ar/es/de 312, pt 1429, ru 3525, fr 4425.
+# 13 Kasım 2026 (KASA 13 KASIM, dokuzuncu parti): tavan AÇILDI (Emre 1 Kasım kararı) — arayüz +15: antlaşma
+# oynatıcısı genellemesi (EMRELİC: SAVAŞ ÖNCESİ/ANTLAŞMA ÖNCESİ/SONRA modları, taraf seçici, Farka odaklan, ✕ ve
+# yeni düğme/etiket dizgeleri); olay en/ar/es/de +7 (bayat +5), pt +4 (bayat +4), fr +1, ru +1: UMIT/LAB
+# kaynak ve çelişki çözümlerinde yeniden yazılan olay metinleri (Rovine, Bosna, Mistra, Menteşe/Saruhan/Karaman
+# vb.) ve Roma/Hitit düzeltmeleri. Çeviri işleri site bitince tek seferde (Emre, 13 Kasım). Eski değerler: arayüz 33;
+# eksik olay en/ar/es/de 313, pt 1430, ru 3526, fr 4426; bayat olay en/ar/es/de 65, pt 53.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 33, "devlet": 2, "olay": 313},
-    "ar": {"arayuz": 33, "devlet": 2, "olay": 313},
-    "es": {"arayuz": 33, "devlet": 2, "olay": 313},
-    "de": {"arayuz": 33, "devlet": 2, "olay": 313},
-    "pt": {"arayuz": 33, "devlet": 2, "olay": 1430},
-    "ru": {"arayuz": 33, "devlet": 2, "olay": 3526},
-    "fr": {"arayuz": 33, "devlet": 2, "olay": 4426},
+    "en": {"arayuz": 48, "devlet": 2, "olay": 320},
+    "ar": {"arayuz": 48, "devlet": 2, "olay": 320},
+    "es": {"arayuz": 48, "devlet": 2, "olay": 320},
+    "de": {"arayuz": 48, "devlet": 2, "olay": 320},
+    "pt": {"arayuz": 48, "devlet": 2, "olay": 1434},
+    "ru": {"arayuz": 48, "devlet": 2, "olay": 3527},
+    "fr": {"arayuz": 48, "devlet": 2, "olay": 4427},
 }
 BEKLENEN_CEVIRI_BAYAT = {
-    "en": {"arayuz": 0, "devlet": 1, "olay": 65},
-    "ar": {"arayuz": 0, "devlet": 1, "olay": 65},
-    "es": {"arayuz": 0, "devlet": 1, "olay": 65},
-    "de": {"arayuz": 0, "devlet": 1, "olay": 65},
-    "pt": {"arayuz": 0, "devlet": 1, "olay": 53},
+    "en": {"arayuz": 0, "devlet": 1, "olay": 70},
+    "ar": {"arayuz": 0, "devlet": 1, "olay": 70},
+    "es": {"arayuz": 0, "devlet": 1, "olay": 70},
+    "de": {"arayuz": 0, "devlet": 1, "olay": 70},
+    "pt": {"arayuz": 0, "devlet": 1, "olay": 57},
     "ru": {"arayuz": 0, "devlet": 1, "olay": 31},
     "fr": {"arayuz": 0, "devlet": 1, "olay": 7},
 }
