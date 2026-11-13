@@ -23,6 +23,10 @@ Dal: `emrelic-1113-antik-frig`. Ağır araç (denetle/renk_olc/denetle_yayin/cev
 - Değişmez 2/2s gerçek sonucu, Kelainai/Ankyra Frig-çağı `s:`, ceviri eşitliği (taşınan maddelerin çevirileri b metni aynı olduğundan sürmeli, ölçülmedi) — ölçülmedi.
 - Midas'ın Mita ile özdeşliği, Asur 717/709 maddeleri zaten `cok_antik_frigya`da; Değişmez 2 evreni dışı, `s:` kırılması olmadığı için gerekmiyor.
 
-## Karar soruları (Emre)
+## KASA kararları uygulandı (2. commit)
+- Frigya f -0739 KALDI; künye ic_not'a "daha erken olabilir (Kealhofer vd. 2019: başkent MÖ 9. yy başı)" yazıldı.
+- Lidya dilimi: akademik arama (Penn Gordion kronolojisi, METU Kerkenes, Voigt-Rose saha raporları ikincil özet) başlangıç TARİHİ vermedi; Küçük Höyük'te Lidya çanak çömleği kontrolü gösterir ama tarihsiz. Gordion `s:` -0675..-0545 tek beyanlı `__BOSLUK__` (kesinlik yıl); -0624 sınırı ve Lidya dönemi KALDIRILDI ⇒ -0624 kırılması artık yok, Değişmez 2'de açık kalacak kırılma kalmadı (ölçülmedi). Pers -0545 sınırı Treccani maddesiyle kapalı. Voigt 2009 / Rose 2012 tam metni okunmadı.
+
+## Karar soruları (Emre) — ÇÖZÜLDÜ, aşağısı tarihçe
 1. Lidya -0624..-0545 Gordion dilimi: akademik kaynaksız → `__BOSLUK__`a çevrilsin mi (beyanlı boşluk) yoksa worldhistory beyanıyla kalsın mı?
 2. Frigya f: Kealhofer 2019'a göre MÖ 9. yy başı mı (yüksek kron.) yoksa -0739 (ilk dendro tanık) mı kalsın?
