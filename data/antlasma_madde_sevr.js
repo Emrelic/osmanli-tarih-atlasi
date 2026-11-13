@@ -14,7 +14,7 @@ window.ANTLASMA_MADDELERI.push({
   47,
   43
  ],
- "kaynak": "Ham metin: Sevr Antlaşması İngilizce metni (Wikisource «Treaty of Sèvres» Part II-XIII, BYU Kütüphanesi sürümünden derlenmiş) ve Kısım I Milletler Cemiyeti Misakı (Versay Part 1 ile ortak metin). Özetler ham metinden KENDİ cümlemizle yazıldı; md. 27-139 (sınırlar ve siyasi hükümler) tek tek, öteki kısımlar en çok 6 maddelik adımlarda (adım başlığında madde aralığı). BEYAN: md. 374-414 (Kısım XII Çalışma) Sevr'in kendi sayfasından değil Versay'daki aynı Çalışma Anayasası metninden eşlenerek yazıldı → «İÇERİK DOĞRULANMADI» işaretli; md. 221 OCR bozuk; Ek I (Osmanlı borç listesi) ham metinde yok; askerî tablolar özetlenmedi. TDV «Sevr Antlaşması» ile karşılaştırma yapılmadı (ölçülmedi). `yerler` YAKLAŞIK odak noktalarıdır, sınır çizgisi değildir.",
+ "kaynak": "Ham metin: Sevr Antlaşması İngilizce metni (Wikisource «Treaty of Sèvres» Part II-XIII, BYU Kütüphanesi sürümünden derlenmiş) ve Kısım I Milletler Cemiyeti Misakı (Versay Part 1 ile ortak metin). Özetler ham metinden KENDİ cümlemizle yazıldı; md. 27-139 (sınırlar ve siyasi hükümler) tek tek, öteki kısımlar en çok 6 maddelik adımlarda (adım başlığında madde aralığı). BEYAN: md. 374-414 (Kısım XII Çalışma) Sevr'in kendi sayfasından değil Versay'daki aynı Çalışma Anayasası metninden eşlenerek yazıldı → «İÇERİK DOĞRULANMADI» işaretli; md. 221 OCR bozuk; Ek I (Osmanlı borç listesi) ham metinde yok; askerî tablolar özetlenmedi. TDV «Sevr Antlaşması» sayfasıyla 13 Kasım 2026'da gözle karşılaştırıldı (LAB); madde aralıkları (örn. Sevr md. 94-97 mandalar, 98-100 Hicaz, 101-122 vazgeçme) TDV'ye göre düzeltildi. `yerler` YAKLAŞIK odak noktalarıdır, sınır çizgisi değildir.",
  "yerler": {
   "Yunanistan": [
    22,
