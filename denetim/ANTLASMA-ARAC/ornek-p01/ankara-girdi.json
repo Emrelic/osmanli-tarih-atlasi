@@ -1,0 +1,16 @@
+{"maddeler":[
+{"no":1,"bolum":"Savaşın sona ermesi","ozet":"İki taraf, antlaşmanın imzasından itibaren aralarındaki savaşın sona erdiğini bildirir; ordulara, mülkî memurlara ve halka durum derhal duyurulur.","yer":[],"konu":"ateskes"},
+{"no":2,"bolum":"Esirler","ozet":"İmzadan sonra iki tarafın savaş esirleri ile tutuklu ve mahpus bütün Türk ve Fransız kişiler serbest bırakılır; tutan taraf yol masrafıyla onları en yakın şehre gönderir.","yer":[],"konu":"esirler"},
+{"no":3,"bolum":"Çekilme","ozet":"İmzadan en geç iki ay içinde Fransız birlikleri 8. maddedeki hattın güneyine, Türk birlikleri kuzeyine çekilir.","yer":[],"konu":"askeri"},
+{"no":4,"bolum":"Karma komisyon","ozet":"Üçüncü maddedeki süre içinde seçilecek bir karma komisyon, çekilmenin nasıl uygulanacağını belirler.","yer":[],"konu":"usul"},
+{"no":5,"bolum":"Genel af","ozet":"Her iki taraf, boşaltılan topraklarda işgalin ardından genel af ilan eder.","yer":[],"konu":"siyasi"},
+{"no":6,"bolum":"Azınlıklar","ozet":"TBMM hükûmeti, Misak-ı Millî'de açıkça tanınan azınlık haklarını, müttefikler ile düşmanları arasındaki antlaşmalardaki ilkelere dayanarak kendi adına onaylayacağını bildirir.","yer":[],"konu":"hukuk"},
+{"no":7,"bolum":"İskenderun bölgesi","ozet":"İskenderun bölgesi için özel bir idare usulü kurulur; bölgenin Türk ahalisi kültürünü geliştirmek için her türlü teşkilattan yararlanır ve Türkçe orada resmî dil olur.","yer":["İskenderun"],"konu":"sinir"},
+{"no":8,"bolum":"Sınır hattı","ozet":"Hat, İskenderun Körfezi'nde Payas'tan başlayıp Kilis üzerinden Çobanbeyli istasyonuna, oradan demiryolu Türkiye'de kalmak üzere Nusaybin'e uzanır; Payas ve Çobanbeyli Suriye'de kalır. Hattı karma komisyon belirler.","yer":["İskenderun Körfezi","Payas","Kilis","Nusaybin","Suriye"],"konu":"sinir"},
+{"no":9,"bolum":"Süleyman Şah türbesi","ozet":"Osman Gazi'nin dedesi Süleyman Şah'ın Caber Kalesi'ndeki türbesi müştemilatıyla Türkiye'nin malı olur; Türkiye orada muhafız bulundurur ve bayrağını çeker.","yer":["Caber Kalesi"],"konu":"sinir"},
+{"no":10,"bolum":"Bağdat demiryolu","ozet":"TBMM hükûmeti, Pozantı ile Nusaybin arasındaki Bağdat demiryolu parçasının ve Adana'daki şubelerin işletmesini Fransa'nın göstereceği bir gruba vermeyi kabul eder; Türkiye Suriye arazisinde demiryoluyla askerî nakil yapabilir.","yer":["Pozantı","Nusaybin","Adana","Suriye"],"konu":"ekonomik"},
+{"no":11,"bolum":"Gümrük","ozet":"Yürürlükten sonra seçilecek karma komisyon Türkiye ile Suriye arasındaki gümrük işlerini düzenler; o zamana dek iki hükûmet kendi hareketinde serbesttir.","yer":["Suriye"],"konu":"ekonomik"},
+{"no":12,"bolum":"Su","ozet":"Türkiye ve Suriye, Kırık suyundan hakkaniyetle yararlanır; Suriye, masrafı kendine ait olmak üzere Fırat'ın Türkiye'deki kısmından su alabilir.","yer":["Suriye"],"konu":"ekonomik"},
+{"no":13,"bolum":"Sınır halkı","ozet":"Hattın iki yanındaki yerli ve yarı göçebe halk otlaklardan yararlanır, mülk sahipleri haklarını sürdürür; hayvan, araç ve tohumlarını gümrük ve otlak resmi ödemeden taşır, vergisini oturduğu ülkede öder.","yer":[],"konu":"sinir"}
+]
+}
