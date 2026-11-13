@@ -1,0 +1,14 @@
+{
+ "id": "iskenderiye-1840",
+ "ad": "İskenderiye Konvansiyonu",
+ "anahtarlar": ["İskenderiye Konvansiyonu"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1840-11-27",
+ "t": "1840-11-27",
+ "kadraj": [27, 29, 38, 37],
+ "yerler_ek": {"İskenderiye": [29.92, 31.2]},
+ "kaynak": "Ham metin OKUNDU: Convention between Commodore Napier ... and Boghos Joussouf Bey, specially authorized by the Viceroy of Egypt, signed at Alexandria, 27th November 1840, md. 1-4 + imza + Napier'in aynı günlü açıklama notu (tamamı; İngilizce; Charles Napier, The War in Syria, c. I, London 1842, Ek/bölüm 'Signature of the Convention', Project Gutenberg #53498). Not: metin Napier'in kendi neşri (imzacının yayını, birincil belge); Noradounghian ve Hertslet kayıtlarında bu konvansiyon YOKTUR (Noradounghian c. II kayıt listesi 1840 Temmuz 15 → Eylül 17 → Ekim 22 → 20 Aralık 1840 'Mehmed Ali'nin boyun eğme senedini inceleyen konferans' protokolü olarak geçer; İskenderiye Konvansiyonu ayrı kayıt değil). İKİ TARAFLI AMA Osmanlı taraf DEĞİL: taraflar İngiliz Commodore Napier (yetkisi aşarak) ve Mehmed Ali adına Boğos Yusuf Bey; Bâbıâli ve müttefikler konvansiyona sonradan tepki verdi (bu kısım okunmadı). GÜN: metin başlığı ve Napier'in 28 Kasım tarihli raporu '27th November' der; Napier anlatısında 'On the morning of the 28th, the Treaty being signed, I left Alexandria' cümlesi imzanın 28 Kasım sabahı tamamlandığını düşündürebilir (iç çelişki, metin başlığı 27'yi verir, açıklama notu da 27 Kasım tarihli); TDV 'Kavalalı Mehmed Ali Paşa' maddesi (islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa) '27 Kasım 1840 Napier ile anlaşma' der ('İskenderiye'de yapıldığı belirtilmiyor'); TDV 'İbrâhim Paşa (Kavalalı)' maddesi Mehmed Ali'nin 27 Kasım'da Londra şartını kabul ettiğini yazar. Üç kaynak 27 Kasım'da birleşir; 28 Kasım ifadesi imza sonrası ayrılış günü olarak yorumlandı (varsayım, doğrulanmadı). TDV'de ayrı 'İskenderiye Konvansiyonu' maddesi aranmadı çünkü TDV konvansiyonu Mehmed Ali maddesinde anar; Hurewitz ve Blue Book (Affairs of the Levant 1841) OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_iskenderiye1840.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p06/iskenderiye1840-girdi.json"],
+ "madde_sayisi": 4
+}

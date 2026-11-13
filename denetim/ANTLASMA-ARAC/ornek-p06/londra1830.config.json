@@ -1,0 +1,14 @@
+{
+ "id": "londra-1830",
+ "ad": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
+ "anahtarlar": ["Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1830-02-03",
+ "t": "1830-02-03",
+ "kadraj": [20, 35, 28, 40],
+ "yerler_ek": {"Aspropotamos": [21.07, 38.3], "Zeytun Körfezi": [22.7, 38.85], "Eğriboz": [23.6, 38.5], "Şeytan Adaları": [23.5, 39.15], "İskiros": [24.55, 38.9], "Kiklad Adaları": [25.2, 37.2]},
+ "kaynak": "Ham metin OKUNDU: Protocol No. 1 of the Conference held at the Foreign Office, London, 3 February 1830 (giriş kesiti + § 1-11 + sonuç + imza Aberdeen/Montmorency-Laval/Lieven; İngilizce; Holland (ed.), The European Concert in the Eastern Question, Oxford 1885, Wikisource en 'Chapter 2', Texts No. I; Holland metni girişin ilk paragraflarını '…' ile keser, bu kısım okunmadı). Aynı günlü Protokol No. 3 (Yunanistan'daki Katolikler) okundu, maddelere girmedi. Üç devletli (Britanya, Fransa, Rusya) tek metin; taraf kullanılmadı. Osmanlı imzacı DEĞİL: Bâbıâli protokole sonradan katıldı (Holland: 'the Ottoman Porte has fully acceded to that Protocol'). GÜN: Holland başlığı ve kronoloji '3 February 1830' ve Holland ikinci yerde 'On 3rd February of that year it adopted three Protocols'; Noradounghian Textes n° 77 (1836 protokolü) 'protocole du ... février 1830' ve 'protocoles de Londres du ... février et du 16 juin 1830' atıflarını yapar (OCR'da gün rakamı okunamadı: yalnız ay/yıl doğrulanır, gün Holland'dan); 22 Mart 1829 Protokolü (önceki sınır, Holland 'Protocol of 22nd March, 1829') AYRI belgedir, bu kayda girmedi (§ 2 sınırı onun geri çekilmiş hâlidir). TDV 'Yunanistan' maddesi (islamansiklopedisi.org.tr/yunanistan, WebFetch ile okundu, gövde dolu): 6 Temmuz 1827 Londra Antlaşması/Protokolü'nü ve Osmanlı'nın 1830'da bağımsız Yunan devletini tanımak zorunda kaldığını yazar; 3 Şubat 1830 günü TDV'DE YOK (yalnız yıl) → gün Holland'dan (iki ayrı Holland yeri: protokol başlığı ve Bölüm 2 metni) 3 Şubat 1830; ikinci bağımsız gün teyidi yok. Gregoryen/Jülyen: Rusya eski takvimi 22 Ocak = 3 Şubat; Holland Britanya günüdür. Hurewitz, Martens NRG ve Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_londra1830.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p06/londra1830-girdi.json"],
+ "madde_sayisi": 11
+}
