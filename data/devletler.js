@@ -862,6 +862,7 @@ window.DEVLETLER = [
   f:"1282-03-30", t:"1861-02-13", baskent:"Napoli", harita:"napoli",
   ozet:"Güney İtalya krallığı (ülke sürekliliği, birçok hanedan el değiştirdi: Anjou→Aragon→İspanya→Bourbon→Napolyon→Bourbon); Osmanlı'yla teması 1480 Otranto çıkarmasıyla sınırlı kaldı, 1861'de İtalyan birliğiyle ortadan kalktı. ⚠️ TDV `napoli` maddesi Osmanlı-Napoli diplomatik/ticarî temasına odaklanıyor; 1282 bölünmesi, 1734 Bourbon restorasyonu ve 1806-1815 Napolyon dönemi TDV'de YOK, standart akademik kaynaktan (Encyclopaedia Britannica) alındı.",
   kaynak:"napoli (TDV, 1480/1861) + standart akademik kaynak (1282/1734/1806/1815, TDV'de yok)",
+  ic_not:"P4-KUME2-1113 (D4d): 14 yerleşimin napoli dönemi 1281-01-01'den başlıyordu (künye f=1282-03-30'dan ~1,2 yıl önce) → 1281-01-01→1282-03-30 `sicilya-kralligi` (ardıl künye; Anjou'lu I. Carlo'nun ana kara + ada krallığı, künye t=1282-03-30), napoli 1282-03-30'dan. Kaynak: Treccani Enciclopedia Italiana «Vespri siciliani» + TDV napoli.",
   kronoloji:[
     { odak_yer:["Palermo","Napoli"], t:"1282-03-30", tur:"kurulus", b:"Palermo'da patlak veren Sicilya Akşam Duası isyanı eski Sicilya Krallığı'nı ikiye böldü: ada Aragon hanedanına geçti, anakaradaki Napoli merkezli topraklar Anjou hanedanında kaldı" },
     { odak_yer:["Otranto"], t:"1480-08-11", tur:"isgal", b:"Otranto, Osmanlı çıkarmasıyla kısa süreliğine işgal edildi (1481'de geri alındı)" },
@@ -1851,6 +1852,7 @@ window.DEVLETLER = [
   f:"1624-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Nizva → Maskat", harita:"umman",
   ozet:"Doğu Afrika kıyısına uzanan denizci sultanlık (hanedan ömrü, önce Ya'rubîler sonra Bû Saîdler); Portekizlileri Maskat'tan attı (1923 sonrasında da sürdü, harita kapsamı burada kesiliyor). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"uman",
+  ic_not:"P4-KUME2-1113 (D4d): 13 sahil/ada yerleşiminin umman dönemi 1515-04-01'den başlıyordu (künye f=1624-01-01'den ~108,8 yıl önce); nebhani künyesi zaten 1624'e genişletilmişti (aynı polity) → bu 13 yerin 1515-04-01→1624-01-01 dilimi nebhani'ye (beyanlı yaklaşıklık), umman 1624'ten. Ras el-Hayme (Cülfâr) 1622-05-01→1624-01-01 beyanlı __BOSLUK__ (1622-05-01 Hürmüz'ün düşüşü, Cülfâr tanığı değil). TDV uman: Ya'rubî Nâsır b. Mürşid (1615-1640); künye 1624 (TDV yarubiler 1615/1624 iki tarih verir).",
   kronoloji:[
     { odak_yer:["Nizva"], t:"1624-01-01", tur:"kurulus", b:"Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (kaynaklarda 1615 ya da 1624)", ic_not_b:"eski b: Nâsır b. Mürşid, iç karışıklıklar sürecinde bölge ileri gelenlerinin biatıyla imam seçilip Ya'rubî hânedanını kurdu (TDV yarubiler maddesi; kuruluş için 1615/1624 iki tarih veriyor, atlasın f: alanıyla uyumlu 1624 kullanıldı)" },
     { odak_yer:["Maskat"], t:"1650-01-26", tur:"toprak-kazanc", b:"Maskat, Portekiz'den alındı" },
@@ -5484,7 +5486,7 @@ window.DEVLETLER = [
   f:"1526-04-21", t:"1857-09-21", baskent:"Delhi / Agra", harita:"babur-imparatorlugu",
   ozet:"Bâbür'ün Birinci Panipat zaferiyle kurduğu, Ekber, Cihangir, Şah Cihan ve Evrengzîb dönemlerinde Hindistan'ın büyük bölümüne hâkim olan İslâm imparatorluğu; 1857 Büyük Ayaklanması sonrası İngilizler tarafından resmen kaldırıldı. (kaynak: TDV, madde: babur — yalnız kurucusu için; imparatorluğun devamı standart akademik kaynağa göre)",
   kaynak:"baburluler",
-  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «baburluler» hânedanın sonunu 1858 verir (BÂBÜRLÜLER 1526-1858; Bahadır Şah Aralık 1858'de Rangun'a sürüldü); künye t=1857-09-21 (Delhi'nin İngilizlerce geri alınması, Bahadır Şah'ın teslimi). TDV esastır ⇒ hânedanın hukukî sonu 1858, toprak hâkimiyeti sonu 1857-09; yerleşim dönemleri 1857 sınırında kaldı.",
+  ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «baburluler» hânedanın sonunu 1858 verir (BÂBÜRLÜLER 1526-1858; Bahadır Şah Aralık 1858'de Rangun'a sürüldü); künye t=1857-09-21 (Delhi'nin İngilizlerce geri alınması, Bahadır Şah'ın teslimi). TDV esastır ⇒ hânedanın hukukî sonu 1858, toprak hâkimiyeti sonu 1857-09; yerleşim dönemleri 1857 sınırında kaldı. P4-KUME2-1113 (D4d): Kâbil/Gazne/Peşâver 1504-10-01 ve Eski Kandehar 1522-09-06 dönemleri künye f=1526-04-21'den önce başlıyordu; TDV babur Kâbil'i 1504'te, Kandehar'ı 1522'de aldığını yazar ama TDV baburluler hânedanı Pânîpet 1526'da kurulmuş sayar (TDV esas) → dönemler künye f'ye kısaltıldı, öncesi beyanlı __BOSLUK__ (Bâbür'ün künyesiz Kâbil beyliği).",
   kronoloji:[
     { odak_yer:["Delhi"], t:"1526-04-21", tur:"kurulus", b:"Bâbür, Birinci Panipat Savaşı'nda Lûdî sultanlığını yenerek imparatorluğu kurdu" },
     { odak_yer:["Delhi"], t:"1556-01-01", tur:"hukumdar", b:"Ekber tahta çıktı, imparatorluğu Hindistan'ın büyük bölümüne yaydı" },
@@ -5532,6 +5534,7 @@ window.DEVLETLER = [
   f:"1801-04-12", t:"1849-03-29", baskent:"Lahor", harita:"sih-imparatorlugu",
   ozet:"Rançit Singh'in Pencap'ta birleştirdiği Sih hanedanlığı; iki Anglo-Sih Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ic_not:"P4-KUME2-1113 (D4d): 7 yerleşimin (Lahor, Amritsar, Câlandhar, Ludhiyana, Râvalpindi, Siyâlkot 1765-04-16; Sirhind 1764-01-14) sih-imparatorlugu dönemi künye f=1801-04-12'den ~36-37 yıl önce başlıyordu; ardıl yapı (Sih Konfederasyonu/misl'ler, künyesiz-boyasız) → dönem künye f'ye kısaltıldı, arada beyanlı __BOSLUK__.",
   kronoloji:[
     { odak_yer:["Lahor"], t:"1801-04-12", tur:"kurulus", b:"Rançit Singh, Lahor'da Maharaca olarak taç giydi" },
     { odak_yer:["Lahor"], t:"1839-06-27", tur:"hukumdar", b:"Rançit Singh öldü, ardından taht kavgaları başladı" },
@@ -7108,6 +7111,7 @@ window.DEVLETLER = [
   f:"1540-05-17", t:"1564-01-01", baskent:"Delhi (Sasaram ocağı) → Gaur", harita:"sur-hanedani",
   ozet:"Şîr Şah Sûr'un Hümâyun'u yenip Bâbürlü iktidarını on beş yıl kesintiye uğrattığı Afgan hânedanı; Delhi 1555'te geri alındı, Bengal kolu 1564'e kadar sürdü (kaynak: TDV, madde: suriler).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ic_not:"P4-KUME2-1113 (D4d): 9 Bengal/Bihar yerleşiminin sur-hanedani dönemi 1538-01-01'den başlıyordu (künye f=1540-05-17'den ~2,4 yıl önce); TDV suriler hânedanı yalnız 1540'ta kurulmuş sayar (947/1540) → dönem künye f'ye kısaltıldı, 1538-01-01→1540-05-17 beyanlı __BOSLUK__ (Şîr Şah'ın Bengal'e hâkimiyeti 1538 TDV'de günlenmez; Vikipedi Gaur 6 Nisan 1538 verir, tek dayanak olamaz). Not: TDV suriler Şîr Şah unvanının 941/1535'te alındığını da yazar (künye f 1540 Bilgram günüdür; çelişki beyan, dokunulmadı).",
   kronoloji:[
     { odak_yer:["Kannauc","Delhi"], t:"1540-05-17", tur:"kurulus", b:"Kannauc (Bilgram) Savaşı'nda Hümâyun'u yenen Şîr Şah Sûr Delhi'ye hâkim oldu" },
     { odak_yer:["Delhi"], t:"1545-05-22", tur:"hukumdar", b:"Şîr Şah Kalincar kuşatmasında öldü, yerine oğlu İslâm Şah geçti" },
