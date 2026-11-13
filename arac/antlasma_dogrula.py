@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 import gun as G  # noqa: E402
 
 # Tavanlar: bugünkü ölçüm (sabitle aynı commit'te yazılır, yalnız gerileme bloke eder)
-BEKLENEN_ODAKSIZ = 394  # 13 Kasım 2026 EMRELIC ant18-hepsi birleşik ölçüm: UMIT 315 + Prut/Pasarofça/Belgrad/Kerden/Küçük Kaynarca/Aynalıkavak/Ziştovi/Yaş 79 (genel/çerçeve/yer adı geçmeyen adımlar). ESKİ: 315        # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~83 + Karlofça ~25 + UMIT p01-p03 12 antlaşma ~74; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder; eski değer 211 (KASA 13 KASIM açtı, Emre 1 Kasım kuralı)
+BEKLENEN_ODAKSIZ = 437 # KASA batch 15 ÖLÇÜM 13 Kasım 2026 (42 kayıt: +UMIT p06-p07 12 antlaşma); eski 394 (EMRELİC ant18-hepsi) — # 13 Kasım 2026 EMRELIC ant18-hepsi birleşik ölçüm: UMIT 315 + Prut/Pasarofça/Belgrad/Kerden/Küçük Kaynarca/Aynalıkavak/Ziştovi/Yaş 79 (genel/çerçeve/yer adı geçmeyen adımlar). ESKİ: 315        # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~83 + Karlofça ~25 + UMIT p01-p03 12 antlaşma ~74; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder; eski değer 211 (KASA 13 KASIM açtı, Emre 1 Kasım kuralı)
 BEKLENEN_DOGRULANMADI = 13 # ant18-hepsi: +1 Belgrad Ek 2 (Niş sözleşmesi okundu:false). ESKİ: 12    # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr+Karlofça + Brest-Litovsk/Alman ittifakı `dogrulanmadi:true` adımları); eski değer 9
 
 
