@@ -869,4 +869,28 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Lovćen'in düşmesinin ardından Avusturya-Macaristan birlikleri Karadağ'ın başkenti Cetinje'ye girdi; Karadağ topraklarının işgali Kasım 1918'e dek sürdü.",
   kaynak:"1914-1918-online (International Encyclopedia of the First World War), «Montenegro» maddesi (Cetinje'nin 13 Ocak 1916'da işgali)." },
 
+{ t:"1798-04-12", kesinlik:"yil", devlet:"helvetik-cumhuriyeti", devletler:["helvetik-cumhuriyeti","isvicre"], sinir_id:"",
+  b:"Valais Helvetik Cumhuriyeti'ne katıldı — piskoposluk yönetimi sona erdi", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  etiket:["konu-siyasi","sinir"],
+  d:"Fransız-Helvetik birlikleri Sion'u işgal etti; piskoposluk hükûmeti 1798'de sona erdi ve Valais, Helvetik Cumhuriyeti'nin bir kantonu oldu. Katılış günü kaynakta yok; haritada Helvetik anayasasının yürürlük günü (yıl hassasiyeti) kullanıldı.",
+  kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/) · Treccani «Sion»: «Il governo vescovile durò fino al 1798»" },
+
+{ t:"1802-09-01", kesinlik:"ay", devlet:"isvicre", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"",
+  b:"Valais «bağımsız» cumhuriyet ilan edildi — fiilen Fransız egemenliğinde", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  etiket:["konu-siyasi","sinir"],
+  d:"Helvetik Cumhuriyeti'nden ayrılan Valais, 1802'de nominal bağımsız Rodan (Valais) Cumhuriyeti oldu; fiilen Fransız egemenliğinde kaldı. Gün çelişkisi: vallesiana.ch 5 Eylül, en.wikipedia 28 Ağustos; ay düzeyinde alındı. Bu cumhuriyetin atlas künyesi yoktur; Sion ve Martigny 1810-11-12'ye dek beyanlı boşluktur.",
+  kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
+
+{ t:"1813-12-01", kesinlik:"ay", devlet:"isvicre", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"",
+  b:"Fransız birlikleri Valais'den çekildi — Simplon départementı sona erdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  etiket:["konu-siyasi","sinir"],
+  d:"Valais Aralık 1813'e dek Fransız Simplon départementıydı; Fransız çekilişinin ardından Müttefik/Avusturya işgaline girdi. Çekiliş günü kaynakta yok (ay düzeyi). Valais ancak 4 Ağustos 1815'te Konfederasyon'a katıldığından aradaki dönem beyanlı boşluktur.",
+  kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
+
+{ t:"1815-08-04", kesinlik:"gun", devlet:"isvicre", devletler:["isvicre"], sinir_id:"",
+  b:"Valais Zürih'te imzalanan birleşme senediyle İsviçre Konfederasyonu'na katıldı", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"Sion",
+  etiket:["konu-siyasi","sinir"],
+  d:"Valais 1814 Haziran'da Diyet'e başvurdu; Diyet 12 Eylül 1814'te kabul etti, kanton anayasası 12 Mayıs 1815'te Sion'da kabul edildi. Birleşme senedi (acte de réunion) 4 Ağustos 1815'te Zürih'te imzalandı; 7 Ağustos'ta yenilenen Bundesvertrag üç yeni kantonu da içine aldı.",
+  kaynak:"vs.ch Valais Kantonu sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (vs.ch/de/web/exposition-virtuelle/la-periode-francaise-et-l-acte-de-reunion-du-valais-a-la-confederation1) · Treccani «Vallese» (treccani.it/enciclopedia/vallese/)" },
+
 ];
