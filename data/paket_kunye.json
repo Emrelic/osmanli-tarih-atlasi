@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "0ede1194b539924e",
-     "bayt": 6201827
+     "sha": "3d28700625f3e2e6",
+     "bayt": 6205419
     }
    ],
-   "bayt": 6434576
+   "bayt": 6438168
   },
   {
    "paket": "data/paket_06.js",
@@ -476,9 +476,14 @@
      "yol": "data/yerlesimler_halef_1946.js",
      "sha": "f1e45a5e66df3a88",
      "bayt": 113997
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_hitit.js",
+     "sha": "5a0682e80ca46c84",
+     "bayt": 1821
     }
    ],
-   "bayt": 3443545
+   "bayt": 3444763
   },
   {
    "paket": "data/paket_10.js",
@@ -884,8 +889,8 @@
     },
     {
      "yol": "data/yerlesimler_ek25.js",
-     "sha": "13adde49bdac3490",
-     "bayt": 38739
+     "sha": "d711fb0e7b13be8c",
+     "bayt": 39476
     },
     {
      "yol": "data/yerlesimler_ek26.js",
@@ -908,7 +913,7 @@
      "bayt": 360234
     }
    ],
-   "bayt": 463938
+   "bayt": 464028
   },
   {
    "paket": "data/paket_15.js",
