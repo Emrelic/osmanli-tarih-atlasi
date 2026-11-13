@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "32f0725e40659802",
-     "bayt": 6198895
+     "sha": "189188cdfb04b4e8",
+     "bayt": 6199985
     }
    ],
-   "bayt": 6431644
+   "bayt": 6432734
   },
   {
    "paket": "data/paket_06.js",
@@ -476,9 +476,14 @@
      "yol": "data/yerlesimler_halef_1946.js",
      "sha": "f1e45a5e66df3a88",
      "bayt": 113997
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_roma.js",
+     "sha": "f09f5aabdff98ab9",
+     "bayt": 28166
     }
    ],
-   "bayt": 3443545
+   "bayt": 3464895
   },
   {
    "paket": "data/paket_10.js",
@@ -688,8 +693,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "4b63497a0dc10406",
-     "bayt": 2602442
+     "sha": "e7f0a76f5f0b3515",
+     "bayt": 2617557
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -752,7 +757,7 @@
      "bayt": 22778
     }
    ],
-   "bayt": 1215914
+   "bayt": 1218567
   },
   {
    "paket": "data/paket_14.js",
@@ -2164,8 +2169,8 @@
     },
     {
      "yol": "data/olaylar_once1000_1019.js",
-     "sha": "55543427a0407474",
-     "bayt": 3024
+     "sha": "a20ccfffcb6c77b6",
+     "bayt": 3012
     },
     {
      "yol": "data/olaylar_kurulus_geri_1021.js",
@@ -2258,7 +2263,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1386289
+   "bayt": 1386277
   },
   {
    "paket": "data/paket_34.js",
