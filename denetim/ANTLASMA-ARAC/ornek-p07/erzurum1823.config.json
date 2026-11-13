@@ -1,0 +1,14 @@
+{
+ "id": "erzurum-1823",
+ "ad": "Erzurum Antlaşması",
+ "anahtarlar": ["Erzurum Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1821-10-01",
+ "t": "1823-07-28",
+ "kadraj": [38, 30, 50, 41],
+ "yerler_ek": {"Bağdat": [44.4, 33.3], "Kerbela": [44.03, 32.62], "Necef": [44.31, 32.0]},
+ "kaynak": "Ham metin OKUNDU: Traité de paix avec la Perse, conclu à Erzeroum le 28 juillet 1823 (19 Zilkade 1238) (giriş + Esaslar/Şartlar + md. 1-7 + imza) — Fransızca çeviri, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 32 (archive.org recueildactesin01turkgoog, OCR; madde sayısı 7, 'Art. 1' ilk numaralı madde, önceki iki hüküm blokları numarasız). Fihristte kaynakları: Martens NRG VI s.282, State Papers XI s.836 (okunmadı). İki taraflı (İran-Osmanlı; Fethali Şah/Abbas Mirza adına Mirza Ali). GÜN: Noradounghian 28 Temmuz 1823 = 19 Zilkade 1238 (iç tutarlı) + TDV 'Bitlis' maddesi '28 Temmuz 1823'te de Erzurum'da iki devlet arasında…' (arama özeti) ve 'Kasrışîrin Antlaşması' maddesi I. Erzurum 1823 / II. Erzurum 1847 ayrımını yapar. TDV'de bu antlaşmaya ayrılmış ayrı madde BULUNAMADI (erzurum-antlasmasi slug'ı arama sayfasına düşer); çelişki yok. Not: II. Erzurum 1847 ayrı kayıttır (erzurum-1847). OCR'da aşiret adları 'Haydaranlı ve Sipikli' belirsizdir. Hurewitz, Düstur, Kasrışirin TDV tam metni OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_erzurum1823.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/erzurum1823-girdi.json"],
+ "madde_sayisi": 7
+}

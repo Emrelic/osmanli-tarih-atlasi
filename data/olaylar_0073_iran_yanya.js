@@ -97,7 +97,7 @@ window.OLAYLAR_0073_IRAN_YANYA = [
   kaynak:"iran (TDV) · bagdat (TDV — savaşı doğruluyor, işgali anmıyor) · kerkuk (TDV, bu yıllar hakkında sessiz)",
   duygu:["😔"] },
 
-{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1823-07-28", k:"antlasma", etiket:["antlasma","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1823-07-28", k:"antlasma", etiket:["antlasma","konu-diplomasi"], antlasma_id:"erzurum-1823",
   b:"Erzurum Antlaşması — İran kuvvetlerinin altmış günde çekilmesi",
   gun:"28 Temmuz 1823", yer:"Erzurum", yer_id:"Erzurum",
   kisiler:"II. Mahmud, Feth Ali Şah",
