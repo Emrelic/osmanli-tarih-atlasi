@@ -479,8 +479,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "f966eabf63e42587",
-     "bayt": 331775
+     "sha": "6d7d14806f774244",
+     "bayt": 336199
     },
     {
      "yol": "data/kronoloji_sinir_antik_hitit.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3733519
+   "bayt": 3736498
   },
   {
    "paket": "data/paket_10.js",
@@ -708,8 +708,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "107e22b31a949a8f",
-     "bayt": 2975802
+     "sha": "b4d630674ef6c836",
+     "bayt": 2976848
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -718,8 +718,8 @@
     },
     {
      "yol": "data/yerlesimler_avrupa.js",
-     "sha": "5c2509acebb1bcbc",
-     "bayt": 1307185
+     "sha": "8500170b20466a8f",
+     "bayt": 1308674
     },
     {
      "yol": "data/yerlesimler_asya.js",
@@ -772,7 +772,7 @@
      "bayt": 26238
     }
    ],
-   "bayt": 1306124
+   "bayt": 1306503
   },
   {
    "paket": "data/paket_14.js",
@@ -1319,8 +1319,8 @@
     },
     {
      "yol": "data/yerlesimler_a78_avrupa.js",
-     "sha": "0bde701cc967a3df",
-     "bayt": 171777
+     "sha": "3cb7e3c75974a4af",
+     "bayt": 176295
     },
     {
      "yol": "data/yerlesimler_a78_okyanusya.js",
@@ -1334,8 +1334,8 @@
     },
     {
      "yol": "data/yerlesimler_once1281_avrupa.js",
-     "sha": "66b465ae6c6c8ae4",
-     "bayt": 12774
+     "sha": "cbbc09e18167e161",
+     "bayt": 14282
     },
     {
      "yol": "data/yerlesimler_dogu_500_1281.js",
@@ -1389,8 +1389,8 @@
     },
     {
      "yol": "data/yerlesimler_once1281_yt_avrupa.js",
-     "sha": "2772b02fb7d5fb3a",
-     "bayt": 349351
+     "sha": "861cf6e718455968",
+     "bayt": 363422
     },
     {
      "yol": "data/yerlesimler_once1281_yt_anadolu_kafkas.js",
@@ -1483,7 +1483,7 @@
      "bayt": 10147
     }
    ],
-   "bayt": 737035
+   "bayt": 741675
   },
   {
    "paket": "data/paket_25.js",
