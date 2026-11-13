@@ -1,3 +1,4 @@
+// 🔴 ÜRETİCİ KULLANIM DIŞI (21 Ekim 2026 tek seferlik); ELLE DÜZENLENİR. Başlıktaki 'denetim/arkeoloji_devlet_zincir_1020.py' bugün ÇALIŞMIYOR (denetim/arastirma/3-*.json JSONDecodeError) ve koşu/kapı zincirinde ÇAĞRILMIYOR; çalıştırılırsa bu dosyadaki elle düzeltmeleri ezer. (13 Kasım 2026, ölçüm: EMRELIC)
 // MÖ DEVLET-ŞEHİR ZİNCİRİ — s: dönem uçlarını destekleyen maddeler (Değişmez 2). denetim/arkeoloji_devlet_zincir_1020.py üretir.
 window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  { onem:4, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 

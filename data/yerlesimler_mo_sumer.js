@@ -1,3 +1,4 @@
+// 🔴 ÜRETİCİ KULLANIM DIŞI (21 Ekim 2026 tek seferlik); ELLE DÜZENLENİR. Başlıktaki 'denetim/arkeoloji_devlet_zincir_1020.py' bugün ÇALIŞMIYOR (denetim/arastirma/3-*.json JSONDecodeError) ve koşu/kapı zincirinde ÇAĞRILMIYOR; çalıştırılırsa bu dosyadaki elle düzeltmeleri ezer. (13 Kasım 2026, ölçüm: EMRELIC)
 // ============================================================================
 // yerlesimler_mo_sumer.js — Sümer kutusu (29,5-33,5°K · 44-48,5°D), 21 nokta
 // Kaynak: NOKTA-SUMER-1010 (12 nokta) + NOKTA-SUMER-1010-B10 (9 mevcut aday) — 10 Ekim 2026,
