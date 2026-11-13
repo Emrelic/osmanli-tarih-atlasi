@@ -790,7 +790,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Son Bosna kralı Stjepan Tomašević, babası Tomaš'ın ölümüyle tahta çıktı ve selefinin ikircikli dengesini terk ederek doğrudan Batı'ya (Papalık, Macaristan, Venedik) yaslanmayı seçti — Osmanlı'ya haraç ödemeyi reddetti.",
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1461-11-01') · TDV `bosna-hersek`: '...Tomašević (1461-1463), Batı desteğine güvenerek Osmanlılar'a haraç ödemeyi reddedince...'" },
 
-{ t:"1463-05-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son",
+{ t:"1463-06-01", b:"Bosna Krallığı'nın yıkılışı — Bobovac, Ključ ve Kral Tomašević'in idamı", tur:"son", gun:"1463 (Mayıs sonu–Haziran başı; yalnız yıl teyitli, gün teyitsiz — ÇELİŞKİ-1113 B1)",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","hukumdar","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"], yer_id:"Yayça (Jajce)",
   d:"Fâtih Sultan Mehmed idaresindeki ordu, haracı reddeden Bosna'ya karşı hızlı bir sefer düzenledi; eski kraliyet kalesi Bobovac kısa bir kuşatmadan sonra düştü, kaçan Kral Tomašević Ključ'ta yakalanıp Yayça'da (Jajce) Fâtih'in huzuruna getirildi ve idam edildi. Krallığın yıkılışı ile Bosna'nın tamamının fethi aynı şey değildir: ova zaten on beş yıldır fiilen Osmanlı ucundaydı, buna karşılık kuzeyde Yayça'yı Aralık 1463'te Macar kralı geri aldı ve bölge 1528'e kadar Macar elinde kaldı.",
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1463-05-01'; data/olaylar_ek.js t:'1463-06-01' ile tutarlı) · TDV `bosna-hersek`: ...Fâtih Sultan Mehmed'in ordusunun Bosna'nın fethini tamamladı... · TDV `mehmed-ii`: 'Macar kralı Bosna'nın pâyitahtı Yayça'yı (Jajce) zaptetti (4 Rebîülâhir 868 / 16 Aralık 1463).' Bobovac/Ključ günleri (19-22 Mayıs 1463) yalnızca ikincil kaynaklarda bulundu, akademik birincil doğrulama yapılamadı." },
@@ -3928,7 +3928,7 @@ window.SAVASLAR = [
 { t:"1371-09-26", tur:"meydan", ad:"Çirmen",                    taraf_metin:"Sırp beyleri",      sonuc:"zafer",   seri:"hacli",   lat:41.72, lon:26.20, galip:"osmanli", taraf:["osmanli"] },
 { t:"1388-08-27", tur:"meydan", ad:"Bileća",                    taraf_metin:"Bosna",             sonuc:"yenilgi", seri:"hacli",   lat:42.87, lon:18.43, taraf:["osmanli","bosna-kralligi"], galip:"bosna-kralligi" },
 { t:"1389-06-15", tur:"meydan", ad:"I. Kosova",                 taraf_metin:"Balkan ittifakı",   sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","bosna-kralligi"], galip:"osmanli" },
-{ t:"1395-05-17", tur:"meydan", ad:"Rovine",                    taraf_metin:"Eflak",             sonuc:"belirsiz",seri:"hacli",   lat:44.85, lon:24.87, taraf:["osmanli","eflak"] },
+{ t:"1394-10-10", tur:"meydan", ad:"Rovine",                    taraf_metin:"Eflak",             sonuc:"belirsiz",seri:"hacli",   lat:44.85, lon:24.87, taraf:["osmanli","eflak"] },
 { t:"1396-09-25", tur:"meydan", ad:"Niğbolu",                   taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.70, lon:24.90, taraf:["osmanli","macaristan","fransa","eflak"], galip:"osmanli" },
 { t:"1402-07-28", tur:"meydan", ad:"Ankara",                    taraf_metin:"Timur",             sonuc:"yenilgi", seri:"",        lat:40.10, lon:32.95, taraf:["osmanli","timurlu"], galip:"timurlu" },
 { t:"1416-05-29", tur:"deniz", ad:"Gelibolu (deniz)",          taraf_metin:"Venedik",           sonuc:"yenilgi", seri:"venedik", lat:40.35, lon:26.60, taraf:["osmanli","venedik"], galip:"venedik" },

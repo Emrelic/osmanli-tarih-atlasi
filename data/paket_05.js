@@ -108,15 +108,15 @@ window.DEVLETLER = [
     { t:"1302-07-27", tur:"savas", b:"Koyunhisar'da Osmanlı'ya ilk yenilgi" },
     { t:"1326-04-06", tur:"toprak-kayip", b:"Bursa Osmanlı'ya düştü" },
     { t:"1331-03-02", tur:"toprak-kayip", b:"İznik Osmanlı'ya düştü" },
-    { t:"1347-01-01", tur:"isyan", b:"VI. İoannis Kantakuzenos - V. İoannis Palaiologos iç savaşı, Kara Ölüm salgınıyla üst üste" },
+    { t:"1347-01-01", tur:"isyan", b:"VI. İoannis Kantakuzenos - V. İoannis Palaiologos iç savaşı, Kara Ölüm salgınıyla üst üste", kaynak:"ÇELİŞKİ-1113 K2: gün YOK, yıl 1347 iç savaşın SONUNU işaretler (Kantakuzenos'un İstanbul'a girişi adayı 3 Şubat 1347; 8 Şubat antlaşma günü adayı) — hakemli kaynakla (Nicol, Gregoras, Kantakuzenos, Schreiner Kleinchroniken) teyit EDİLEMEDİ, OKUNMADI; Vikipedi/fhw.gr dayanak sayılmadı. Teyit çıkmadı → yıl hassasiyeti kalır [yalnız yıl teyitli; gün teyitsiz]. Başlangıç 15 Haziran 1341 (Andronikos III ölümü) bu maddede yok." },
     { t:"1354-03-02", tur:"toprak-kayip", b:"Gelibolu depreminden yararlanan Osmanlılar Rumeli'ye ilk kez yerleşti" },
     { t:"1373-01-01", tur:"antlasma", b:"V. İoannis, I. Murad'a vasal oldu, haraç ödemeye başladı" },
-    { t:"1391-01-01", tur:"savas", b:"Yıldırım Bayezid İstanbul'u kuşattı (1402'ye dek aralıklı)" },
+    { t:"1394-01-01", tur:"savas", b:"Yıldırım Bayezid İstanbul'u sıkı kuşatma altına aldı (abluka ~1387'den beri; 1402'ye dek aralıklı)", kaynak:"TDV bayezid-i (İnalcık): «yedi yıldır abluka altında tuttuğu İstanbul'u 1394 ilkbaharında yeniden sıkı kuşatma altına aldı» — YIL (ilkbahar), gün yok [yalnız yıl teyitli; gün teyitsiz]. ÇELİŞKİ-1113 K1: atlasın eski 1391-01-01 günü hiçbir okunan akademik kaynakta «kuşatma» olarak çıkmadı; Cambridge (Manuel II Palaiologos, «Vassal Emperor» bölümü) özeti de ablukanın başlangıcını Manuel–Bayezid Serez görüşmesine (1394) bağlıyor (yalnız özet okundu). OKUNMADI: Necipoğlu 2009, Barker 1969, Nicol, ODB, Kiel." },
     { t:"1422-06-10", tur:"savas", b:"II. Murad İstanbul'u kuşattı, kaldırdı" },
     { t:"1439-07-06", tur:"ittifak", b:"Floransa Konsili'nde Katolik-Ortodoks birliği ilan edildi (Batı yardımı arayışı)" },
     { t:"1449-01-06", tur:"hukumdar", b:"XI. Konstantinos Palaiologos son imparator oldu" },
     { t:"1453-05-29", tur:"son", b:"İstanbul'un fethi; Bizans İmparatorluğu sona erdi" },
-    { t:"1460-05-31", tur:"toprak-kayip", b:"Mora Despotluğu (son Bizans artığı) Osmanlı'ya katıldı" },
+    { t:"1460-05-30", tur:"toprak-kayip", b:"Mora Despotluğu (son Bizans artığı) Osmanlı'ya katıldı", kaynak:"TDV mezistre: Mistra «30 Mayıs 1460»da teslim oldu. ÇELİŞKİ-1113 K3: atlas eski günü 31 Mayıs kaynaksızdı; bağımsız ≥2 akademik kaynak TDV'ye karşı çıkmadı (Chalkokondyles, Sphrantzes, Kritoboulos, Setton, Zakythinos, Runciman, Babinger OKUNMADI; Vikipedi 29/30/31 Mayıs yan yana, dayanaksız) → TDV günü." },
     { odak_yer:["Trabzon"], t:"1461-08-15", tur:"son", b:"Trabzon Rum İmparatorluğu düştü — Bizans mirasının son parçası" }
   ]
 },
@@ -1058,7 +1058,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkanlar",
-  f:"1180-01-01", t:"1463-05-01", ic_not_f:"TDV 'bosna-hersek' 1377 öncesi banlık dönemini ANLATMAZ (yalnız Tvrtko 1353-1391 ve Osmanlı akınları) — bu yüzden HE kullanıldı; TDV 'bosna' slug'ı 302. Banlığın erken tanığı: Ban Borić 1154 (HE, Macar vasalı olarak atanmış) — ama 1166-80 Bizans hâkimiyeti arayı kestiği için süreklilik 1180'den (Kulin) alındı. HE 'Kulin' maddesi 'oko 1170' (yaklaşık) verir; ülke maddesi 1180. Gün yok.", baskent:"Jajce", harita:"bosna",
+  ic_not_t:"ÇELİŞKİ-1113 B1 — KARAR: iki tarih 1463-06-01'e BİRLEŞTİRİLDİ (künye t + kronoloji_balkan; olaylar_ek ve ~20 yerleşim dilimi zaten 06-01). 06-01 GÜN DEĞİL, yer tutucudur: yalnız 1463 yılı teyitli [gün teyitsiz]; makul pencere: Bobovac düşüşü ~19-23 Mayıs, Ključ teslimi tahmini 25-27 Mayıs (Pelidija, çıkarım), Milodraž 28 Mayıs (Fojnica ahidnamesi), idam ≤14 Haziran (Venedik mektubu, Holjevac) — idam günü hiçbir okunan kaynakta YOK; Wikipedia'daki 5 Haziran/25 Mayıs geriye hesaptan türetilmiş görünüyor, dayanak sayılmadı. Eski 1463-05-01 seferin başlangıcıydı (yıkılış değil). Ek okunan: Enes Pelidija, «Krallıktan Sancaklığa: Bosna'nın 1463 Yılında Fethi», İSAM bildirisi 2018, s.413-417; Ayşe Şeyhan, OSMED 4/7 (2018), s.152-161 (günsüz); TDV mehmed-ii, mahmud-pasa, bosna-hersek (gün yok). OKUNMADI: Babinger, Imber, Malcolm, Stavrides, Šabanović s.38-39, Ćirković, Thallóczy 1914, Mujadžević, Truhelka 1910. Önceki not (ilk tur): künye t 1463-05-01 ↔ olaylar_ek 1463-06-01 ('yaz 1463'). Krešimir Regan, «Kada je propalo Bosansko Kraljevstvo?», doi 10.47960/2712-1844.2025.11.213, s.218-219 (OKUNDU; Šabanović s.38-39, Ćirković s.329'a dayanır): Osmanlı ordusu «početkom svibnja 1463» Bosna'ya girdi, öncü 19 Mayıs'ta Bobovac önünde, Bobovac «oko 22. svibnja» düştü, kral Ključ'ta 4 günlük kuşatma sonrası teslim oldu, Jajce savaşsız alındı; idam günü YOK. Robert Holjevac (Zbornik Drage Roksandića, s.361-362; OKUNDU): Venedik dükü Moro'nun fethi bildiren mektubu 14 Haziran 1463 (sonuç Haziran başından ÖNCE). Marko Dragić, Školski vjesnik 60/3 (yalnız özet): ~22 Mayıs ordu girdi, kral «krajem svibnja» (Mayıs sonu) çöktü. TDV bosna-hersek fetih için gün/ay vermez. SONUÇ: 1463-05-01 seferin BAŞLANGICI (yıkılış değil), 1463-06-01 kanıtsız; Bobovac ~22 Mayıs, krallığın sonu Mayıs sonu (gün teyitsiz). İki yerdeki günler tek değere indirilmedi (1463-05-01 ve 1463-06-01 ~20 dosyaya işli); öneri 1463-05-22 (Bobovac) / 'Mayıs sonu' ay düzeyi. Okunmadı: Stavrides s.147-148, Babinger s.186-192, Malcolm, Fine, Mujadžević, Birin 2013.",
+  f:"1180-01-01", t:"1463-06-01",ic_not_f:"TDV 'bosna-hersek' 1377 öncesi banlık dönemini ANLATMAZ (yalnız Tvrtko 1353-1391 ve Osmanlı akınları) — bu yüzden HE kullanıldı; TDV 'bosna' slug'ı 302. Banlığın erken tanığı: Ban Borić 1154 (HE, Macar vasalı olarak atanmış) — ama 1166-80 Bizans hâkimiyeti arayı kestiği için süreklilik 1180'den (Kulin) alındı. HE 'Kulin' maddesi 'oko 1170' (yaklaşık) verir; ülke maddesi 1180. Gün yok.", baskent:"Jajce", harita:"bosna",
   ozet:"Kotromanić hanedanının krallığı (hanedan ömrü); Tvrtko I'in 1377 taç giymesiyle doğdu, son kral Tomašević'in haraç reddiyle Fâtih'in seferini davet etti, 1463'te hızla ilhak edildi.",
   kaynak:"bosna-hersek",
   kronoloji:[
@@ -1067,7 +1068,7 @@ window.DEVLETLER = [
     { odak_yer:["Yayça"], t:"1414-01-01", tur:"antlasma", b:"Osmanlı'ya ilk kez haraç ödemeyi kabul etti" },
     { odak_yer:["Yayça"], t:"1448-01-01", tur:"bolunme", b:"Stjepan Vukčić Kosača güney topraklarında ayrı Hersek Dukalığı'nı kurdu", ic_not_b:"eski b: Stjepan Vukčić Kosača güney topraklarında ayrı Hersek Dukalığı'nı kurdu (bkz. [[hersek]])" },
     { odak_yer:["Yayça"], t:"1461-11-01", tur:"hukumdar", b:"Son kral Stjepan Tomašević, Osmanlı'ya bağlılığı reddederek Papalık'tan yardım istedi" },
-    { odak_yer:["Yayça"], t:"1463-05-01", tur:"son", b:"Fatih'in seferiyle ilhak edildi" }
+    { odak_yer:["Yayça"], t:"1463-06-01", tur:"son", b:"Fatih'in seferiyle ilhak edildi", kaynak:"ÇELİŞKİ-1113 B1: yalnız 1463 yılı teyitli [gün teyitsiz]; bkz. künye ic_not_t" }
   ]
 },
 { id:"arnavutluk-iskenderbey", ad:"Arnavutluk (Kastriota Direnişi)", tur:"prenslik", bolge:"balkanlar",
@@ -1092,12 +1093,14 @@ window.DEVLETLER = [
 },
 { id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkanlar",
   f:"1330-01-01", t:"1859-02-05", baskent:"Bükreş", harita:"eflak",
-  tabi:[{f:"1462-06-01", t:"1859-02-05", ust:"osmanli"}],
+  tabi:[{f:"1417-01-01", t:"1859-02-05", ust:"osmanli"}],
+  ic_not_tabi:"ÇELİŞKİ-1113 E3 (UMIT, 13 Kasım 2026): künye tabi.f eskiden 1462-06-01 idi, kronoloji maddesi ise 1417 diyordu. TDV eflak (Karpat): Mircea «1417'de … Osmanlı hükümranlığını kabul etti»; Marius Diaconescu, Mediaevalia Transilvanica (1998; yalnız ÖZET okundu): 1417 baharı Dobruca sonrası Giurgiu saldırısı, Mircea tâbiiyet verdi → 1417 YIL iki kaynakta (TDV + Diaconescu özeti), GÜN YOK → 1417-01-01 [yalnız yıl teyitli; gün teyitsiz]. Madgearu, Revista de Istorie Militară 3-4/2023 (OKUNDU): 1393/1395/1396'da kalıcı hukuki tâbilik YOK (Mihai Maxim: 1394 öncesi tâbilik delili yok); TDV'nin 1396 'Bayezid'in hükümranlığı' ifadesi geçici/çatışmalı. 1462 (Vlad Tepeş seferi, Radu) ilk tâbilik değil, tâbiliğin SIKILAŞMASIDIR; 1456-62 Vlad dönemi tâbilik kesintisi ayrıca ölçülmedi. Yerleşimlerin v: dilimleri (1462-06-01) bu partide DEĞİŞMEDİ (tabi ⊇ v kuralı korunur). OKUNMADI: Papacostea, İnalcık, Cazacu, Giurescu.",
+  ic_not_t:"ÇELİŞKİ-1113 E5: Eflak'ta Cuza'nın seçimi 24 Ocak 1859 (Jülyen) = 5 Şubat 1859 (Gregoryen) — künye t 1859-02-05 Gregoryen olarak DOĞRU (hesap: 19. yy +12 gün). Boğdan'da seçim 5 Ocak J = 17 Ocak 1859 G. TDV bogdan'ın «5 Şubat 1859 Boğdan, 24 Şubat Eflak» ifadesi Jülyen/Gregoryen karışıklığına benziyor (24 Ocak J → 5 Şubat G); TDV bogdan metni doğrudan okundu (alıntı: «5 Şubat 1859'da … Boğdan prensliğine seçilen Alexandru Ion Cuza 24 Şubat günü Eflak'ta da seçilmiş»). Hakemli (Romen akademik / Hitchins) ikinci kaynak BULUNAMADI → çift teyit yok; künye günü korundu. Hukuken tek devlet 1862'de (Romanya adı 1862-02-21 maddesi).",
   ozet:"Tuna'nın kuzeyinde Osmanlı'ya vasal kalan voyvodalık; Boğdan ile birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kaynak:"eflak",
   kronoloji:[
     { odak_yer:["Bükreş"], t:"1330-11-09", tur:"kurulus", b:"Basarab I bağımsızlığını kazandı" },
-    { odak_yer:["Bükreş"], t:"1395-05-17", tur:"savas", b:"Rovine'de Osmanlı'ya karşı direndi" },
+    { odak_yer:["Bükreş"], t:"1394-10-10", tur:"savas", b:"Rovine'de Osmanlı'ya karşı direndi", kaynak:"ÇELİŞKİ-1113 E2 — AÇIK, EMRE KARARI: TDV eflak (Karpat) «Rovine'deki çetin savaşta (1394)» (yıl, gün yok). Alexandru Madgearu, «Campaniile otomane din Țara Românească, 1394-1395», Revista de Istorie Militară 3-4/2023, s.3-15 (OKUNDU): Rovine 10 Ekim 1394 (Sırp salnameleri); 17 Mayıs'ın tek dayanağı Hilandar el yazmasındaki bir not ve o not 1380'de ölen Ioan Dragaš'a ait (dipnot 24-25); Mayıs 1395'te ayrı bir çarpışma (Floransa anonim kroniği). 1395 savunucuları (Onciul, Panaitescu, N. Constantinescu 1990, D. Zamfirescu ed. 2009) Madgearu üzerinden; Diaconescu 1998 «1394 sonbaharı» (yalnız özet). Czamańska 2024: 17.5.1395 «yalnız gelenek» (özet). KARAR (KASA, 13 Kasım 2026): atlas referans değildir; TDV (yıl 1394) + Madgearu 2023 (10 Ekim 1394) ⇒ Rovine olayı 1394-10-10'a TAŞINDI (olaylar_ek, savaslar, savas_kunye_1, ekokuma_savas3, yer_yama, ceviri_*_olay anahtarları, bu madde). GÜN tek kaynakta (Madgearu; Sırp salnameleri). AYRI TUTULDU: Kral Marko ve Konstantin Dejanović'in ölüm günü 1395-05-17 (Hrvatska enciklopedija; Dejanović/Prilep künye t ve ~20 yerleşim v:/d: dilimi) kendi kaynaklı maddeleriyle durur, bu gün Rovine olay gününden DEVRALINMIŞTI; devralma bağı koptu — Mayıs 1395'te ayrı bir çarpışma var (Floransa anonim kroniği, Madgearu) ve ölümlerin hangi çarpışmada olduğu ölçülmedi. Okunmadı: Papacostea 1998, Imber, Fine s.423, İnalcık, Božilov, Atiya." },
     { odak_yer:["Bükreş"], t:"1417-01-01", tur:"antlasma", b:"Osmanlı vasalı (haraçgüzar) statüsü kabul edildi" },
     { odak_yer:["Bükreş"], t:"1821-01-01", tur:"isyan", b:"Tudor Vladimirescu isyanı" },
     { odak_yer:["Bükreş"], t:"1859-02-05", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
@@ -1106,6 +1109,8 @@ window.DEVLETLER = [
 { id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkanlar",
   f:"1359-01-01", t:"1859-02-05", baskent:"Suceava → Iaşi", harita:"bogdan",
   tabi:[{f:"1456-06-01", t:"1859-02-05", ust:"osmanli"}],
+  ic_not_tabi:"ÇELİŞKİ-1113 E1 (UMIT, 13 Kasım 2026): TDV bogdan (Özcan) «Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar'a yılda 2000 altın vermek suretiyle varlığını koruyabilmiştir». Radu Cârciumaru, Annales Univ. Valahia Târgoviște VIII-IX (2006-07), s.147-149 (OKUNDU; Papacostea 2001'e dayanır): boyun eğme belgesi 5 Ekim 1455 (2000 duka), 9 Haziran 1456 Mehmed II nişanı (ticaret/barış belgesi, haraç değil). Matei Cazacu, SMIM XLIII (2025), s.301-320 (yalnız ÖZET): Petru Aron 1455-56 Romen tarih yazımında genel kabul; kendisi ilk haracı 1454'e çekiyor. Gh. Zagoritz, Convorbiri Literare 1914: haraç Petru Aron'dan (1456) beri. SONUÇ: TDV'ye karşı ≥2 bağımsız akademik kaynak AYNI günü vermiyor (1455 Eylül ↔ 5 Ekim 1455 ↔ Haziran 1456 ↔ 1454) → teyit çıkmadı. Atlas f=1456-06-01 (9 Haziran 1456 nişanıyla ay düzeyinde örtüşür) KORUNDU, TDV'nin 1455 Eylül tarihi ve 5 Ekim 1455 belgesi alternatif olarak beyan edildi; KAĞIT ÜSTÜNDE tâbilik 1455 sonbaharı. Yerleşim s:/v: dilimleri (1456-06-01, ~60 yer) DEĞİŞMEDİ → Emre kararı: 1455-10-05'e çekilirse yer_yama_* dosyalarının toplu taşıması gerekir. Okunmadı: Papacostea 2001, Guboglu, Giurescu, İnalcık, Emecen.",
+  ic_not_t:"ÇELİŞKİ-1113 E5: Boğdan'da Cuza 5 Ocak 1859 J = 17 Ocak 1859 G seçildi; Eflak'ta 24 Ocak J = 5 Şubat G. Künye t 1859-02-05 çifte seçimin tamamlandığı Gregoryen gündür (bkz. eflak ic_not_t). TDV bogdan'ın «5 Şubat Boğdan / 24 Şubat Eflak» ifadesi takvim karışıklığı gibi görünüyor (doğrulanamadı: hakemli ikinci kaynak yok).",
   ozet:"Kuzey Tuna voyvodalığı (ülke sürekliliği, Romanya'nın çekirdeği); Osmanlı'ya 1455'te haraca, 1484'te kesin bağlandı; 1859'da Cuza'nın çifte seçimiyle Eflak'la birleşti.",
   kaynak:"bogdan",
   kronoloji:[
@@ -1143,7 +1148,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
-  f:"1349-01-01", t:"1460-05-31", baskent:"Mystras",
+  f:"1349-01-01", t:"1460-05-30", baskent:"Mystras",
+  ic_not_t:"ÇELİŞKİ-1113 K3 (UMIT, 13 Kasım 2026): TDV mezistre Mistra'nın teslimi 30 Mayıs 1460; atlas 31 Mayıs yazıyordu, dayanaksızdı. Teyit için okunması gereken ama OKUNMAYAN: Chalkokondyles, Sphrantzes, Kritoboulos, Setton (Papacy and the Levant II), Zakythinos (Despotat grec de Morée), Runciman (Mistra), Babinger. Teyit çıkmadı → TDV günü. NOT: 7 Mora yerleşiminin (Tripoliçe, Troizen, Methana, Hermione, Kranidi, Hidra vb.) s: dilimi 1460-05-29'da bitiyor — bu künye t ile 1-2 günlük fark bilinen bir ayrışmadır, bu partide taşınmadı (BALKAN-HALEF ile eşgüdüm).",
   ozet:"Bizans'ın son eyaleti (hanedan ömrü, Palaiologos kolu); 1349'da İmparator Kantakuzenos'un oğluna ayırdığı bölgeden doğdu, 1460'ta Despot Dimitrios'un teslimiyle Osmanlı'ya katıldı.",
   kaynak:"mora",
   kronoloji:[
@@ -1154,7 +1160,7 @@ window.DEVLETLER = [
     { odak_yer:["Balyabadra (Patras)"], t:"1449-01-01", tur:"hukumdar", b:"Konstantinos Bizans imparatoru oldu; Mora'yı kardeşleri Thomas ve Dimitrios yönetmeye başladı, çoğu kez birbirleriyle savaştılar.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl)" },
     { odak_yer:["Balyabadra (Patras)"], t:"1453-01-01", tur:"isyan", b:"Yaklaşık 30.000 Arnavut Palaiologos despotlarına karşı ayaklandı.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl)" },
     { odak_yer:["Balyabadra (Patras)"], t:"1458-01-01", tur:"toprak-kayip", b:"Thomas haracı ödemeyi reddedince II. Mehmed büyük ordusuyla Mora'ya girip Patras, Vostitsa, Kalavrita ve Korinthos dahil kuzey yarımadayı aldı.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl; gün yok)" },
-    { odak_yer:["Balyabadra (Patras)"], t:"1460-05-31", tur:"son", b:"Fatih tarafından ilhak edildi" }
+    { odak_yer:["Balyabadra (Patras)"], t:"1460-05-30", tur:"son", b:"Fatih tarafından ilhak edildi", kaynak:"TDV mezistre (30 Mayıs 1460 Mistra teslimi) — ÇELİŞKİ-1113 K3" }
   ]
 },
 { id:"atina-dukaligi", ad:"Atina Dukalığı", tur:"dukalik", bolge:"balkanlar",
