@@ -147,7 +147,7 @@ window.YER_YAMA_ANADOLU = [
 { dosya:"kronoloji_anadolu.js", t:"1257-01-01", b:"Moğollar bölgeye girdi, Hülâgû Meyyâfârikīn'in fethini emretti",
   eksik_nokta:{ ad:"Silvan (Meyyâfârikīn)", enlem:38.1394, boylam:41.0125, kaynak:"coğrafi konum — Silvan, Diyarbakır" } },
 
-{ dosya:"kronoloji_anadolu.js", t:"1515-06-12", b:"Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü",
+{ dosya:"kronoloji_anadolu.js", t:"1515-06-13", b:"Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü",
   eksik_nokta:{ ad:"Turnadağ", enlem:38.2, boylam:37.2, kaynak:"data/savaslar.js'teki 'Turnadağ' kaydından alındı (lat:38.20, lon:37.20) — mükerrer araştırma yapılmadı, proje içi zaten vetted" } },
 
 { dosya:"kronoloji_anadolu.js", t:"1335-01-01", b:"Umur Bey'in Mora seferi ve Alaşehir'in fethi",

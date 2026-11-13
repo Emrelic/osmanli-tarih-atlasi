@@ -410,7 +410,7 @@ window.DEVLETLER = [
   kaynak:"karamanogullari",
   kronoloji:[
     { odak_yer:["Karaman","Ermenek"], t:"1256-01-01", tur:"kurulus", b:"Karaman Bey, Ermenek-Mut yöresinde faaliyete başladı (kardeşi Nûre Sûfî ile)" },
-    { odak_yer:["Ermenek"], t:"1277-05-13", tur:"toprak-kazanc", b:"Mehmed Bey Konya'yı kısa süreliğine ele geçirip Türkçeyi resmî dil ilan etti" },
+    { odak_yer:["Ermenek"], t:"1277-05-14", tur:"toprak-kazanc", b:"Mehmed Bey Konya'yı kısa süreliğine ele geçirip Türkçeyi resmî dil ilan etti", kaynak:"ÇELİŞKİ-1113 BEYLİKLER: TDV «Karamanoğulları» Mehmed Bey'in Konya'yı alışını «9 Zilhicce 675 / 14 Mayıs 1277» verir (hicrî ve milâdî gün birlikte); atlasın eski 13 Mayıs günü kaynaksızdı (13 Mayıs günü başka maddelerde Karaman'dan «gün komşudan» devralınmıştı). ≥2 bağımsız akademik kaynak TDV'ye karşı çıkmadı (İnalcık, Emecen, Uzunçarşılı OKUNMADI) → TDV günü." },
     { odak_yer:["Konya"], t:"1366-01-01", tur:"toprak-kazanc", b:"Konya'yı kalıcı olarak ele geçirip başkent yaptı (İlhanlı/Selçuklu mirası sonrası)" },
     { odak_yer:["Ermenek"], t:"1387-01-01", tur:"ittifak", b:"I. Murad'ın kızıyla evlilik ittifakı (sık sık bozuldu)" },
     { odak_yer:["Ermenek"], t:"1397-01-01", tur:"toprak-kayip", b:"Yıldırım Bayezid beyliği ilk kez ilhak etti" },
@@ -501,7 +501,7 @@ window.DEVLETLER = [
     { odak_yer:["Elbistan"], t:"1337-01-01", tur:"kurulus", b:"Zeyneddin Karaca Bey tarafından kuruldu" },
     { odak_yer:["Elbistan"], t:"1479-01-01", tur:"hukumdar", b:"Alâüddevle Bozkurt Bey tahta çıktı, Memlûk-Osmanlı arasında dengeleyici siyaset izledi" },
     { odak_yer:["Elbistan"], t:"1507-01-01", tur:"savas", b:"Şah İsmâil'in Safevî ordusu Elbistan'ı yağmaladı" },
-    { odak_yer:["Elbistan"], t:"1515-06-12", tur:"savas", b:"Turnadağ Savaşı'nda Yavuz'a yenildi" },
+    { odak_yer:["Elbistan"], t:"1515-06-13", tur:"savas", ic_not_gun:"ÇELİŞKİ-1113 BEYLİKLER: TDV «Dulkadiroğulları» 13 Haziran 1515 (Ördekli, Göksun-Andırın) verir; olaylar_ek5 ve künye tabi zaten 13 Haziran; atlasın künye/kronoloji günü 12 Haziran'dı → TDV günü. Turnadağ adı TDV'de geçmez.", b:"Turnadağ Savaşı'nda Yavuz'a yenildi" },
     { odak_yer:["Elbistan"], t:"1522-01-01", tur:"son", b:"Kanunî tarafından kesin ilhak edildi" }
   ]
 },

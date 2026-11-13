@@ -142,7 +142,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Karaman Bey'in oğlu Mehmed Bey, Ermenek subaşılığına atanarak beyliğin başına geçti ve Akdeniz kıyısına doğru genişleme siyaseti izlemeye başladı.",
   kaynak:"karamanogullari" },
 
-{ t:"1277-05-13", b:"Mehmed Bey Konya'yı ele geçirip Türkçeyi resmî dil ilan etti", tur:"toprak-kazanc",
+{ t:"1277-05-14", b:"Mehmed Bey Konya'yı ele geçirip Türkçeyi resmî dil ilan etti", ic_not_gun:"ÇELİŞKİ-1113 BEYLİKLER: TDV «Karamanoğulları» Mehmed Bey'in Konya'yı alışını «9 Zilhicce 675 / 14 Mayıs 1277» verir (hicrî ve milâdî gün birlikte); atlasın eski 13 Mayıs günü kaynaksızdı (13 Mayıs günü başka maddelerde Karaman'dan «gün komşudan» devralınmıştı). ≥2 bağımsız akademik kaynak TDV'ye karşı çıkmadı (İnalcık, Emecen, Uzunçarşılı OKUNMADI) → TDV günü.", tur:"toprak-kazanc",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","idari","kultur","konu-askeri","konu-idari","konu-kultur"],
   yer_id:"Konya",
   d:"Mehmed Bey, Selçuklu tahtına Cimri lakaplı Alâeddin Siyavuş'u oturtarak Konya'yı ele geçirdi ve kendisi vezir oldu. Bu sırada divanda, medresede ve resmî dairelerde Türkçe dışında dil kullanılmasını yasakladığı rivayet edilir — Anadolu'da Türkçenin resmî dil ilanı olarak anılan en erken örneklerdendir. Hâkimiyet kısa sürdü.",
@@ -1419,7 +1419,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Yavuz Sultan Selim'in Safevîler üzerine düzenlediği Çaldıran seferi sırasında Alâüddevle Bozkurt Bey, istenen desteği göndermeyi reddetti. Bu tutum, Osmanlı-Dulkadır ilişkilerini bozarak bir yıl sonraki Turnadağ Savaşı'nın zeminini hazırladı.",
   kaynak:"dulkadirogullari" },
 
-{ t:"1515-06-12", b:"Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü", tur:"savas",
+{ t:"1515-06-13", ic_not_gun:"ÇELİŞKİ-1113 BEYLİKLER: TDV «Dulkadiroğulları» 13 Haziran 1515 (Ördekli, Göksun-Andırın) verir; olaylar_ek5 ve künye tabi zaten 13 Haziran; atlasın künye/kronoloji günü 12 Haziran'dı → TDV günü. Turnadağ adı TDV'de geçmez.", b:"Turnadağ Savaşı'nda Alâüddevle Yavuz'a yenilip öldürüldü", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["Turnadağ", "Yavuz", "Alâüddevle", "yenilgi", "konu-askeri", "konu-kisiler"],
   yer_id:"",
   d:"Çaldıran seferine destek vermeyi reddeden Alâüddevle Bozkurt Bey'e karşı Yavuz Sultan Selim'in gönderdiği ordu, Turnadağ'da Dulkadır kuvvetlerini ağır bir yenilgiye uğrattı; Alâüddevle savaş meydanında öldürüldü. Bu yenilgi, beyliğin bağımsızlığının fiilen sona erdiği dönüm noktasıdır — bir gün sonra yerine geçen Şehsuvaroğlu Ali Bey Osmanlı tâbiiyetini kabul edecekti.",
