@@ -30,6 +30,12 @@ UMIT > EMRELİC > LAB.
 **Kullanıcı bakışı:** mesaide LAB ekranı, evde EMRELİC.
 **Post-it oturumları:** araştırma + yazma makinelerinde (UMIT; EMRELİC açıkken o da). Notu
 alan oturum düzeltmeyi dalda commit'ler, `origin`e iter, KASA birleştirir.
+**Post-it dağıtıcısı (EMRELİC, 13 Kasım 2026):** EMRELİC'te tek bir dağıtıcı oturum
+`py arac/not.py sahipsiz-bekle` ile (arka planda, 3-5 dk'da bir yalnız GitHub'a bakar, model
+çalışmaz) yeni sahipsiz notu bekler; bulunca `/postit <no>` için yeni oturum açar — **aynı anda en
+çok 1 post-it oturumu**, motor/geometri notu Opus, öteki Sonnet. Oturum "yazma-makinesi kipi"nde
+denetle/paketle/damga/kapı koşturmaz; düzeltmeyi `postit-<no>` dalına iter ve KASA'ya bildirir
+(`.claude/skills/postit/SKILL.md` 0. adım). Dizüstü kapağı kapalıyken uyumaz (Emre ayarladı).
 
 ## Komuta zinciri ve haberleşme
 

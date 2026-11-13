@@ -493,6 +493,60 @@ def k_bekle(a):
         time.sleep(a.aralik)
 
 
+def sahipsiz_adaylar(atla=()):
+    """Dağıtıcının (yazma makinesi) alacağı notlar: AÇIK · `oturum:` etiketi YOK ·
+    `not:karar-bekliyor` YOK · sırası Emre'de değil (`son:claude` YOK: Claude son yazdıysa
+    top Emre'dedir, yeni oturum açmak boşuna olur). Sıra `al` ile aynı: Emre'nin son yazdığı
+    (`son:emre`) önce, sonra en eski numara. `atla`: bu dağıtıcı turunda zaten işleme
+    alınmış numaralar (etiket henüz düşmemiş olabilir)."""
+    cik = []
+    for i in notlar():
+        et = etiketler(i)
+        if sahip_etiketleri(i) or "not:karar-bekliyor" in et or i["number"] in atla:
+            continue
+        if son_yazan(i) == "claude":
+            continue
+        cik.append(i)
+    return sorted(cik, key=lambda i: (son_yazan(i) != "emre", i["number"]))
+
+
+def k_sahipsiz_bekle(a):
+    """DAĞITICI BEKLEMESİ (Emre/KASA, 13 Kasım 2026): yazma makinesinde (EMRELİC) sahipsiz
+    post-it düşene kadar ARKA PLANDA bekler; model beklerken çalışmaz → token harcanmaz.
+    Yeni not bulunca bir satırlık özet basıp çıkar: uygulama dağıtıcı oturumu uyandırır,
+    o da `/postit <no>` için yeni oturum açar (en çok 1 eşzamanlı post-it oturumu — skill).
+    Bu, yasak eski bekçi DEĞİLDİR: merkezî izleyici yok, tek bir `gh`/API sorgusu, kendi
+    sıradaki bildirimini bekleyen tek süreç.
+    Çıkış: 0 sahipsiz not bulundu (stdout: `SAHIPSIZ #<no> model=<opus|sonnet> son=<…> · <başlık>`)
+    · 3 `--bir-kez` ile bakıldı, not yok · 2 ölçülemedi (`--bir-kez`te; döngüde geçici hata sürer)."""
+    import time
+    atla = set(int(x) for x in re.split(r"[,\s]+", a.atla or "") if x.strip().isdigit())
+    aralik = max(60, min(a.aralik, 600))
+    if a.gecikme > 0:            # meşgul dağıtıcı: önce N dk sus, sonra bak (anlık yeniden uyanma yok)
+        sys.stdout.flush()
+        time.sleep(min(a.gecikme, 120) * 60)
+    while True:
+        try:
+            ad = sahipsiz_adaylar(atla)
+            if ad:
+                i = ad[0]
+                model = "opus" if MODEL_OPUS in etiketler(i) else "sonnet"
+                print("SAHIPSIZ #%d model=%s son=%s · %s" % (i["number"], model,
+                      son_yazan(i) or "?", (i.get("title") or "").strip()[:80]))
+                if len(ad) > 1:
+                    print("SIRADA: " + ", ".join("#%d" % x["number"] for x in ad[1:8]))
+                return 0
+            if a.bir_kez:
+                print("Sahipsiz (alınabilir) not yok.")
+                return BOS_YOK
+        except (Olculemedi, RuntimeError) as e:        # ağ/GitHub geçici: beklemeye devam
+            if a.bir_kez:
+                raise
+            print("geçici hata, sürüyor: %s" % e, file=sys.stderr)
+        sys.stdout.flush()
+        time.sleep(aralik)
+
+
 def k_son_doldur(a):
     n = 0
     for i in notlar():
@@ -543,6 +597,11 @@ def main():
     s = alt.add_parser("son-doldur"); s.set_defaults(f=k_son_doldur)
     s = alt.add_parser("bekle"); s.add_argument("no", type=int); s.add_argument("--kim")
     s.add_argument("--aralik", type=int, default=60); s.set_defaults(f=k_bekle)
+    s = alt.add_parser("sahipsiz-bekle"); s.add_argument("--aralik", type=int, default=240)
+    s.add_argument("--atla", help="virgüllü not numaraları: bu turda zaten işleme alınmışlar")
+    s.add_argument("--bir-kez", action="store_true", help="bir kez bak, bekleme (sınama)")
+    s.add_argument("--gecikme", type=int, default=0, help="ilk bakıştan önce N dakika sus (en çok 120)")
+    s.set_defaults(f=k_sahipsiz_bekle)
     s = alt.add_parser("durum"); s.add_argument("no", type=int); s.add_argument("durum", choices=DURUMLAR)
     s.set_defaults(f=k_durum)
     s = alt.add_parser("arsivle"); s.add_argument("no", type=int); s.set_defaults(f=k_arsivle)

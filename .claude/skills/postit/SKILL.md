@@ -9,6 +9,47 @@ Bu oturum **tek bir notun sahibidir** ve not arşive gidene kadar sahibi kalır.
 bırakmaz. Koordinatör yoktur, koordinasyonu etiketler yapar: `oturum:<id>` notun sahibini,
 `son:claude|emre` sıranın kimde olduğunu gösterir.
 
+## 0 · Yazma-makinesi kipi (EMRELİC / UMIT — 13 Kasım 2026, Emre + KASA)
+
+Post-it oturumları artık **yazma makinelerinde** (EMRELİC; UMIT hafif) çalışır, `main` onlarındır
+değil KASA'nındır. Oturumun ilk mesajı ya da `args`ı bu makinede açılmışsa (CLAUDE.md "Makineler
+ve roller") aşağıdaki kip geçerlidir; 2. ve 4. adımlardaki "denetle/paketle/push" satırlarının
+YERİNE şunlar uygulanır:
+- **KOŞTURMA:** `denetle.py` · `denetle_yayin.py` · `renk_olc.py` · `paketle.py yenile|topla` ·
+  `surum_damgala.py` · `push_kapisi.py`. (Ağırdırlar; paketleme/damga/kapı KASA'nın işidir.)
+- Düzeltmeyi **kendi worktree'nde** (`postit-<no>`) commit'le (dosya adıyla, `git add -- <ad>`).
+- Dalı origin'e it — `main`e DEĞİL: `git push origin HEAD:refs/heads/postit-<no>`.
+- Post-it cevabına (3. adım) **dal adını ve commit kısa kimliğini** yaz; ayrıca KASA'ya
+  `SendMessage` (to: `KASA 13 KASIM OTURUMU` ya da güncel KASA koordinasyon oturumu) ile tek
+  satır: `#<no> → postit-<no> (<commit>) · <ne düzeltildi> · denetle koşmadı`.
+- Cevap beklemesi (4. adım `bekle`) AYNEN sürer; sahiplik arşive kadar bu oturumdadır.
+- Veri değiştiyse raporda "denetle/paketle KASA kapısında ölçülecek" yaz; haritaya yansıması yine
+  HAVVA koşusunu bekler.
+
+### Dağıtıcı (yazma makinesinde TEK, uzun ömürlü oturum) — yeni post-it'e yeni oturum açar
+Bu bir `/postit` oturumu DEĞİLDİR; notu kendisi çözmez, yalnız oturum açar. Döngü:
+1. `py arac/not.py sahipsiz-bekle --atla "<işlenen numaralar>"` — **Bash `run_in_background: true`**
+   (3-5 dk aralıkla yalnız GitHub'a bakar; model çalışmaz). Çıkış 0 ve `SAHIPSIZ #N model=…` satırı
+   → uygulama dağıtıcıyı uyandırır.
+2. **Eşzamanlılık: en çok 1 post-it oturumu.** `mcp__ccd_session_mgmt__list_sessions`
+   `{"linked": true}` ile dağıtıcının başlattığı oturumlardan **çalışan (`isRunning`)** ya da
+   notunu hâlâ işleyen (başlığı `#<no>` ile başlayan, arşivlenmemiş) var mı bak. Varsa yenisini
+   açma ve o numarayı `--atla`ya EKLEME (sıra ona geri gelecek): 1. adımı
+   `--gecikme 10` ile (10 dk sustuktan sonra bak) yeniden başlat — aksi hâlde sahipsiz not
+   hemen yine bulunur ve dağıtıcı boşuna uyanır. (Çalışan oturumun notu `oturum:` etiketiyle
+   sahipli olduğundan listeye girmez; liste yalnız sıradaki sahipsizleri gösterir.)
+3. Yoksa `mcp__ccd_session__start_session` (yüklü değilse `ToolSearch`
+   `select:mcp__ccd_session__start_session`): `initiation: "user_asked"` (Emre post-it
+   oturumlarını EMRELİC'te açtırmayı kalıcı olarak istedi) · `context: "fresh"` ·
+   `model:` not `model=opus` ise güncel Opus kimliği, değilse `claude-sonnet-5-5` ·
+   `title: "#<no> post-it"` · `prompt:` `Skill aracıyla postit skill'ini args "<no>" ile çağır.
+   Bu bir yazma makinesi oturumu: skill'in 0. adımındaki yazma-makinesi kipini uygula.`
+   Not numarasını `--atla` listesine ekle, 1. adıma dön.
+4. `start_session` **reddedilirse** (uzaktan kumandalı/Remote Control oturumunda olabilir —
+   UMIT'te oldu): dağıtıcıyı masaüstü uygulaması oturumundan çalıştır; olmuyorsa KASA'ya yaz.
+5. Pilot ölçüm (ilk gerçek sahipsiz notta): oturum açılmadan önce ve işin ortasında CPU / RAM /
+   disk boşluğunu ölç, KASA'ya yaz.
+
 ## 1 · Notu al (ya da kendi notuna dön)
 
 Kendi modelini bil (sistem isteminde yazar) ve `--model`e ver: `opus` ya da `sonnet`.

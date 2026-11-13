@@ -51,6 +51,11 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   işini dalda commit'ler, `origin`e iter (main'e değil), dal adını KASA'ya bildirir. Komuta
   zinciri: KASA'nın günlük koordinasyon oturumu → her makinenin günlük oturumu → o makinedeki
   öteki oturumlar. Post-it oturumları araştırma + yazma makinelerinde (UMIT, EMRELİC) açılır.
+  **EMRELİC'te post-it dağıtıcısı** (13 Kasım 2026): tek dağıtıcı oturum `py arac/not.py sahipsiz-bekle`
+  ile sahipsiz notu arka planda bekler, `/postit <no>` için en çok 1 eşzamanlı yeni oturum açar
+  (motor notu Opus, öteki Sonnet). Post-it oturumu **yazma-makinesi kipinde** denetle / paketle /
+  surum_damgala / push_kapisi KOŞTURMAZ; düzeltmeyi `git push origin HEAD:refs/heads/postit-<no>` ile
+  iter, cevaba dal adını yazar, KASA'ya bildirir (`.claude/skills/postit/SKILL.md` 0. adım).
   Dal bir günden uzun yaşamaz; post-it yalnız `not.py al` ile alan oturumda çözülür.
 - 🔴 **Koşu biter bitmez iniş ve yayın** (Emre, 1 Kasım 2026): koşu bitince aynı oturum
   beklemeden `KOSU-YAYIN.md` iniş zincirini başlatır ve push kapısına kadar götürür; kimseden
