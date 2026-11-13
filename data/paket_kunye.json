@@ -479,11 +479,11 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "ab7104eeb7a51311",
-     "bayt": 77821
+     "sha": "6f9e389446b962c0",
+     "bayt": 80735
     }
    ],
-   "bayt": 3502775
+   "bayt": 3504839
   },
   {
    "paket": "data/paket_10.js",
@@ -693,8 +693,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "fa6049b924dab39f",
-     "bayt": 2708297
+     "sha": "a44341af44654610",
+     "bayt": 2713528
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -757,7 +757,7 @@
      "bayt": 22778
     }
    ],
-   "bayt": 1229336
+   "bayt": 1229204
   },
   {
    "paket": "data/paket_14.js",
@@ -1379,8 +1379,8 @@
     },
     {
      "yol": "data/yerlesimler_once1281_yt_anadolu_kafkas.js",
-     "sha": "25c749608c90ba4f",
-     "bayt": 32962
+     "sha": "1000bdcbdc6be71b",
+     "bayt": 33465
     },
     {
      "yol": "data/yerlesimler_once1281_yt_afrika_levant.js",
