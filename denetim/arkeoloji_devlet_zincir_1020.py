@@ -1,3 +1,7 @@
+# 🔴 ÇALIŞTIRMA — 21 Ekim 2026 tek seferlik içe aktarım; bugün çalışmıyor (denetim/arastirma/3-*.json
+# JSONDecodeError) ve çökmeden ÖNCE data/yerlesimler.js ile data/yerlesimler_mo_zincir.js'i kısmen
+# yeniden yazıyor. Koşu/kapı zincirinde ÇAĞRILMIYOR. Çıktıları (yerlesimler_mo_zincir.js, yerlesimler_mo_sumer.js,
+# olaylar_arkeoloji_zincir.js) artık ELLE DÜZENLENİR; çalıştırmak elle düzeltmeleri ezer. (13 Kasım 2026, EMRELIC)
 """MÖ DEVLET-ŞEHİR ZİNCİRLERİ: araştırma `sehir_kontrol` kayıtlarını motorun okuduğu yerleşimlere (s: devlet künyesi zinciri) çevirir.
 VERI-MO-ARKEO, 21 Ekim 2026 (Emre ek yönü: "Mezopotamya/Mısır devletleri künye+yerleşim+s: zinciriyle MÖ 3000–MS 1").
 

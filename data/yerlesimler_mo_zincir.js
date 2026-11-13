@@ -1,3 +1,4 @@
+// 🔴 ÜRETİCİ KULLANIM DIŞI (21 Ekim 2026 tek seferlik); ELLE DÜZENLENİR. Başlıktaki 'denetim/arkeoloji_devlet_zincir_1020.py' bugün ÇALIŞMIYOR (denetim/arastirma/3-*.json JSONDecodeError) ve koşu/kapı zincirinde ÇAĞRILMIYOR; çalıştırılırsa bu dosyadaki elle düzeltmeleri ezer. (13 Kasım 2026, ölçüm: EMRELIC)
 // MÖ DEVLET-ŞEHİR ZİNCİRLERİ — Mezopotamya/İran şehirleri · VERI-MO-ARKEO 21 Ekim 2026 · üretici denetim/arkeoloji_devlet_zincir_1020.py
 // s: = devlet künyeleri (devletler.js); kur: = ilk KAYNAKLI sahip dönemi (kuruluş DEĞİL); boşluk __BOSLUK__ beyanlı. Boya anahtarı: mevcut künye harita: alanları (yeni boya yok).
 window.YERLESIMLER_MO_ZINCIR = [
