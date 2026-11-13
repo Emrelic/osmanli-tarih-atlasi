@@ -89,7 +89,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["kultur","siyaset","konu-siyasi","konu-kultur"],
   d:"[Timurlu] Timur'un oğlu Şahruh'un 40 yıllık saltanatı, Herat'ı minyatür sanatı, mimari ve İran-Türk edebî geleneğinin merkezi hâline getirdi; bu dönem İran-Orta Asya kültür tarihinde bir \"rönesans\" olarak anılır.",
   kaynak:"Encyclopaedia Iranica, madde: SHAHRUKH", yer_id:"Herat" },
-{ t:"1447-03-13", b:"Şahruh'un ölümü — Timurlu toprakları parçalandı", tur:"kayip", onem:3, dunya:1, kapsam:"ic",
+{ t:"1447-03-12", b:"Şahruh'un ölümü — Timurlu toprakları parçalandı", ic_not_gun:"ÇELİŞKİ-1113 TIMURLU: TDV «Timurlular» Şâhruh'un ölümü 12 Mart 1447 (Rey yakınında); eski atlas günü 13 Mart kaynaksızdı (kronoloji_karakoyunlu.js 1447-03-12 ile de tutarsızdı) → TDV günü; ikinci akademik kaynak OKUNMADI", tur:"kayip", onem:3, dunya:1, kapsam:"ic",
   etiket:["siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   d:"[Timurlu] Şahruh'un ölümüyle Timurlu birliği çöktü; İran'ın batısı giderek Türkmen boy konfederasyonları olan Karakoyunlu ve ardından Akkoyunlu'nun eline geçerken Timurlular Horasan-Mâverâünnehir'e sıkıştı.",
   kaynak:"Encyclopaedia Iranica, madde: TIMURIDS", yer_kon:[35.5931,51.4342] },
