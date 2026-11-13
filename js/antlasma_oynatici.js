@@ -31,7 +31,8 @@
   function eslesen(o) {
     var b = String((o && (o.b || o.baslik)) || "");
     return (window.ANTLASMA_MADDELERI || []).filter(function (k) {
-      return b.indexOf(k.ad) >= 0 && gunFarki(o.t, k.t) <= 60;
+      var anahtarlar = (k.anahtarlar && k.anahtarlar.length) ? k.anahtarlar : [k.ad];
+      return anahtarlar.some(function (a) { return b.indexOf(a) >= 0; }) && gunFarki(o.t, k.t) <= 60;
     })[0] || null;
   }
   function hazirMi() {
@@ -73,7 +74,8 @@
     i = Math.max(0, Math.min(n - 1, i));
     AKTIF.i = i;
     var a = k.adimlar[i], p = AKTIF.panel;
-    p.querySelector(".amo-ust b").textContent = k.ad + " — md. " + a.no + "  (" + (i + 1) + "/" + n + ")";
+    // «md. » öneki yalnız düz sayısal başlıkta (27, 27-35); «Venedik md. 3», «Ek 1», «Venedik giriş» olduğu gibi gösterilir
+    p.querySelector(".amo-ust b").textContent = k.ad + " — " + (/^\d/.test(String(a.no)) ? "md. " : "") + a.no + "  (" + (i + 1) + "/" + n + ")";
     var m = p.querySelector(".amo-metin");
     m.textContent = a.dogrulanmadi ? "⚠ İÇERİK DOĞRULANMADI — " + a.ozet : a.ozet;
     m.style.background = a.dogrulanmadi ? "#fff3cd" : "";
