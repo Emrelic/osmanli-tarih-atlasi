@@ -1,0 +1,16 @@
+{"maddeler":[
+ {"no":"giriş","sira":0,"bolum":"Giriş","ozet":"Sultan ile Britanya Kraliçesi, iki imparatorluk arasındaki dostluğu pekiştirmek ve Sultan'ın Asya'daki topraklarını geleceğe karşı güvenceye almak için savunma ittifakı sözleşmesi yapar; murahhaslar Safvet Paşa ile Büyükelçi Layard'dır.","yer":["İstanbul"],"konu":"ittifak"},
+ {"no":1,"bolum":"Savunma taahhüdü ve Kıbrıs","ozet":"Rusya Batum, Ardahan, Kars'ı elinde tutar ya da Asya'daki başka Osmanlı toprağına saldırırsa İngiltere silahla savunmaya katılır; karşılığında Sultan reform sözü verir ve İngiltere'nin uygulayabilmesi için Kıbrıs'ı işgal ve idareye bırakır.","yer":["Batum","Ardahan","Kars","Kıbrıs","Anadolu"],"konu":"ittifak"},
+ {"no":2,"bolum":"Onay","ozet":"Sözleşme bildirilir ve onay belgeleri bir ay içinde, mümkünse daha erken değiştirilir; Safvet Paşa ile Layard 4 Haziran 1878'de İstanbul'da imza atar.","yer":["İstanbul"],"konu":"genel"},
+ {"no":"Anneks 1","sira":3,"bolum":"Ek: Şer'î mahkeme","ozet":"1 Temmuz 1878 tarihli ekin birinci hükmüne göre adada yalnız Müslüman nüfusun dinî işlerine bakacak bir şer'î mahkeme sürer.","yer":["Kıbrıs"],"konu":"idare"},
+ {"no":"Anneks 2","sira":4,"bolum":"Ek: Evkaf","ozet":"Cami, mezarlık, okul ve öteki dinî kurumların malı, Evkaf'ın atayacağı Müslüman bir görevli ile İngiliz makamların atayacağı delege tarafından birlikte yönetilir.","yer":["Kıbrıs"],"konu":"idare"},
+ {"no":"Anneks 3","sira":5,"bolum":"Ek: Yıllık ödeme","ozet":"İngiltere her yıl Bâbıâli'ye adanın gelir fazlasını öder; fazla son beş yılın ortalamasıyla yirmi iki bin dokuz yüz otuz altı kese olarak saptanır, kamu mallarının satış ve kira geliri bu hesaba katılmaz.","yer":["Kıbrıs"],"konu":"tazminat"},
+ {"no":"Anneks 4","sira":6,"bolum":"Ek: Devlet mallarının satışı","ozet":"Bâbıâli adadaki devlet ve hanedan arazi ile mülklerini, geliri ek 3'teki gelirlere girmeyenleri serbestçe satıp kiralayabilir.","yer":["Kıbrıs"],"konu":"idare"},
+ {"no":"Anneks 5","sira":7,"bolum":"Ek: Kamulaştırma","ozet":"İngiliz hükûmeti yetkili makamlarıyla, ekilmemiş arazi ve kamu yararına gerekli yerleri uygun fiyatla kamulaştırma hakkını kullanabilir.","yer":["Kıbrıs"],"konu":"idare"},
+ {"no":"Anneks 6","sira":8,"bolum":"Ek: Rusya Kars'ı iade ederse","ozet":"Rusya Kars'ı ve savaşta Ermenistan'da aldığı öteki yerleri Osmanlı'ya geri verirse İngiltere adayı boşaltır ve 4 Haziran 1878 sözleşmesi yürürlükten kalkar.","yer":["Kıbrıs","Kars"],"konu":"sinir"}
+],
+"ekler":[
+ {"ad":"İngiliz Büyükelçiliği beyanı (15 Temmuz 1878)","ozet":"Onay belgelerinin değiştirildiği gün Layard, Sultan'ın egemenlik haklarına hiçbir biçimde dokunulmayacağını bildirir (Terapya, 15 Temmuz 1878).","okundu":true,"yer":["İstanbul"],"madde_say":1},
+ {"ad":"Ek madde (14 Ağustos 1878)","ozet":"Sultan, adayı işgal ve idareye bırakırken Kraliçe'ye işgal süresince adanın idaresi, ticari ve konsolosluk işleri için Bâbıâli denetimi dışında yasa ve sözleşme yapma yetkisini devreder.","okundu":true,"yer":["Kıbrıs"],"madde_say":1},
+ {"ad":"Gelir beyanı (3 Şubat 1879)","ozet":"Ekin 4. maddesindeki Osmanlı gelir ve hakları yerine İngiltere işgal boyunca her yıl beş bin lira sabit ödeme yapar; Karatodori Paşa ile Layard imza atar.","okundu":true,"yer":["Kıbrıs"],"madde_say":1}
+]}

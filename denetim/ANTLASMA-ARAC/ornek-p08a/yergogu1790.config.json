@@ -1,0 +1,13 @@
+{
+ "id": "yergogu-1790",
+ "ad": "Yergöğü Mütarekesi",
+ "anahtarlar": ["Yergöğü Mütarekesi"],
+ "eslesme_kipi": "acik",
+ "t": "1790-09-19",
+ "kadraj": [20, 43, 29, 46.5],
+ "yerler_ek": {"Yergöğü (Giurgiu)": [25.97, 43.9], "Brăila": [27.97, 45.27], "Turnu": [24.87, 43.75], "Tuna Nehri": [27.5, 44.1], "Eflak": [25.0, 44.5], "Sırbistan": [20.5, 44.0], "Bosna": [18.0, 44.0]},
+ "kaynak": "Ham metin OKUNDU: Traité d'armistice de Giurgévo, 19 septembre 1790 (10 Mouharrem 1205), giriş + 6 madde + onay cümlesi — Fransızca, Testa, Recueil des traités de la Porte ottomane, t. IX (Autriche), Paris 1898, Appendice II (archive.org recueildestrait09turk, OCR; okunur). Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I-II dizininde (Textes dışı, yalnız kayıt) 'Septembre 19 — Convention d'armistice avec l'Autriche sous la médiation de la Prusse, signée à Giurgewo' (Martens, Neumann, Martens-Cussy kaynakçalı) okundu; metin Noradounghian'da yok. GÜN: Testa metni 19 Eylül + 10 Muharrem 1205 (cetvelde 1 Muharrem 1205 = 10 Eylül 1790 ⇒ 10 Muharrem = 19 Eylül, tutarlı), TDV 'Yergöğü' maddesi (islamansiklopedisi.org.tr/yergogu; doğru madde, gövde dolu ama maddeleri/arabulucuyu vermiyor) 19 Eylül; Noradounghian dizini de 19. Ana kronoloji maddesi (olaylar_p0068b) 18 Eylül yazar (TDV 'Ziştovi Antlaşması' maddesindeki gün; ic_not_gun beyanı o maddede) — iki bağımsız kaynak (Testa neşri, Noradounghian dizini) TDV yergogu ile 19'da birleşir; ana maddenin t'si bu çalışmada DEĞİŞTİRİLMEDİ (Değişmez 2 ±30 gün içinde), düzeltme önerilir. Testa md.1'de baskı hatası: '19 septembre 1791' yazılmış, bağlama göre 1790. Arabulucu: Prusya elçisi Kont Lusi. Osmanlı imzacısı Testa metninde sadrazam Şerif Hasan Paşa; ana maddenin kisiler alanında 'Koca Yûsuf Paşa' yazılı — ADI ÇELİŞKİSİ AÇIK (üçüncü kaynakla hakemlenmedi; oynatıcı özeti Testa'ya uyar, ana madde dokunulmadı). Martens ve Neumann OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (Avusturya-Osmanlı).",
+ "cikti": "data/antlasma_madde_yergogu1790.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/yergogu1790-girdi.json"],
+ "madde_sayisi": 6
+}

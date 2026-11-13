@@ -1,0 +1,12 @@
+{
+ "id": "prusya-ittifaki-1790",
+ "ad": "Osmanlı-Prusya İttifakı",
+ "anahtarlar": ["Osmanlı-Prusya İttifakı"],
+ "eslesme_kipi": "acik",
+ "t": "1790-01-31",
+ "kadraj": [14, 40, 33, 55],
+ "yerler_ek": {"Lehistan": [20.0, 52.0], "İsveç": [16.0, 60.0], "Tuna Nehri": [27.5, 44.1]},
+ "kaynak": "BEKLEYEN — Ham metin KISMEN OKUNDU (OCR'da sayfalar eksik): Traité d'alliance avec la Prusse, signé à Constantinople le 31 janvier 1790 (16 Djémazi-ul-ewel 1204), ratifié le 14 Mouharrem 1205 — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 2 (archive.org recueildactesin01turkgoog, OCR). Noradounghian dipnotu: Martens, Recueil (1re éd., IV, s. 560) çevirisi, Almanca metinden yapıldığı için Noradounghian'dan farklıdır. OCR'da md. 1'in devamı, md. 2'nin tamamı ve md. 3'ün başı EKSİK; okunan: giriş, md. 1 (başı), md. 2-3 (sonu), md. 4, md. 5 ve imzalar (Von Dietz, Mustafa Âşık Kazasker, Mehmed Raşid Reisülküttâb). Madde numaralarının sınırı OCR sırasıyla çıkarıldı, kesin değil. GÜN: Noradounghian 31 Ocak 1790 + TDV 'Prusya' maddesi (islamansiklopedisi.org.tr/prusya; doğru madde, 31 Ocak 1790 'saldırı ve savunma ittifakı', ayrıntı yok) — çift teyit, çelişki yok. İkinci akademik kaynak: Beydilli'nin '1790 Osmanlı-Prusya İttifâkı' çalışması (başka bir ansiklopedi maddesinde anılır) OKUNMADI. Martens, Neumann, Düstur OKUNMADI. Atlas kaynak sayılmadı. NEDEN BEKLEYEN: metin eksik, madde sayısı doğrulanamadı; ana kronoloji maddesine antlasma_id YAZILMADI.",
+ "cikti": "denetim/ANTLASMA-BEKLEYEN/antlasma_madde_prusya1790.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/prusya1790-girdi.json"]
+}

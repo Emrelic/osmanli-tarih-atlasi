@@ -1,0 +1,13 @@
+{
+ "id": "kibris-1878",
+ "ad": "Kıbrıs Sözleşmesi",
+ "anahtarlar": ["Kıbrıs Sözleşmesi"],
+ "eslesme_kipi": "acik",
+ "t": "1878-06-04",
+ "kadraj": [27, 33, 46, 43],
+ "yerler_ek": {"Ardahan": [42.7, 41.11], "Kars": [43.09, 40.6]},
+ "kaynak": "Ham metin OKUNDU: Convention d'alliance défensive avec l'Angleterre, dite de Chypre, signée à Constantinople le 4 juin 1878 (3 Djémazi-ul-Akhir 1295) — md. 1-2 + Annexe (1 Temmuz 1878, 6 madde) + İngiliz büyükelçilik beyanı (15 Temmuz 1878) + Ek madde (14 Ağustos 1878) + gelir beyanı (3 Şubat 1879) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. III (1856-1878), Paris 1902, Textes n° 855, s. 522-525 (archive.org recueildactesin01noragoog, OCR; okunur). Atlas 'Anneks 1-6' adımlarını Annexe'in 1°-6° hükümlerinden türetir. GÜN: Noradounghian 4 Haziran 1878 + TDV 'Kıbrıs' maddesi (islamansiklopedisi.org.tr/kibris; doğru madde, uzun gövde; 4 Haziran 1878, 1 Temmuz ek, 15 Temmuz onay; gün çakışır; hicrî yok) — çift teyit, çelişki yok. Not: TDV bu ittifakın Kars-Batum şartını vermiyor (kısmi), metin Noradounghian'dan alındı. Hertslet, Holland (1885), Düstur, Hurewitz OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (Britanya-Osmanlı). Oynatıcıda Kıbrıs yönetim devri harita türetmesine değil metne bağlıdır: egemenlik Osmanlı'da kalıp yönetim İngiltere'ye geçer; harita sahibi ayrı kronolojiyle sınanmalıdır.",
+ "cikti": "data/antlasma_madde_kibris1878.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/kibris1878-girdi.json"],
+ "madde_sayisi": 2
+}
