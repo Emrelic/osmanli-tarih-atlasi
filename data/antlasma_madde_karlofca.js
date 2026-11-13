@@ -1,5 +1,5 @@
 // ============================================================================
-// ANTLAŞMA MADDELERİ — KARLOFÇA ANTLAŞMASI (1699-01-26) · 53 adım · taraflar: Genel, Habsburg, Venedik, Lehistan, Rusya
+// ANTLAŞMA MADDELERİ — KARLOFÇA ANTLAŞMASI (1699-01-26) · 53 adım · taraflar: Habsburg, Venedik, Lehistan, Rusya
 // Üretildi: denetim/ANTLASMA-ARAC/uret_antlasma.js · tüketici: js/antlasma_oynatici.js
 // Özetler ham metinden, kendi cümlemizle (kopya yok). Kaynak/beyan: kayıt.kaynak.
 // `yerler`: ad → [boylam, enlem] YAKLAŞIK odak noktası (sınır çizgisi değil).
@@ -21,7 +21,6 @@ window.ANTLASMA_MADDELERI.push({
  ],
  "onceki_t": "1683-07-14",
  "taraflar": [
-  "Genel",
   "Habsburg",
   "Venedik",
   "Lehistan",
@@ -225,7 +224,6 @@ window.ANTLASMA_MADDELERI.push({
  "adimlar": [
   {
    "no": "Genel çerçeve",
-   "taraf": "Genel",
    "bolum": "Kongre ve genel çerçeve (Karlofça, Kasım 1698 – Ocak 1699)",
    "ozet": "Kongre, Edirne ön protokolünden sonra Kasım 1698'de Karlofça'da açıldı; arabulucular İngiltere ve Hollanda elçileri Paget ile Colyer idi. Osmanlı adına Râmi Mehmed Efendi ve Mavrokordato, Habsburg adına Oettingen ile Schlick görüştü. Üç ikili antlaşma ve Rusya ateşkesi 24-26 Ocak 1699'da bağlandı.",
    "yer": [
