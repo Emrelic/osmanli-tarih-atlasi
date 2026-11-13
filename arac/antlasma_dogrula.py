@@ -31,8 +31,8 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 import gun as G  # noqa: E402
 
 # Tavanlar: bugünkü ölçüm (sabitle aynı commit'te yazılır, yalnız gerileme bloke eder)
-BEKLENEN_ODAKSIZ = 211          # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~83 + Karlofça ~23; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder
-BEKLENEN_DOGRULANMADI = 9       # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr+Karlofça `dogrulanmadi:true` adımları)
+BEKLENEN_ODAKSIZ = 262          # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~90 + Karlofça 25 + Prut 11 + Pasarofça 22 + Belgrad 19 = 262; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder. ant18-p01: 211 → 262
+BEKLENEN_DOGRULANMADI = 10      # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr+Karlofça + Belgrad Ek 2 Niş sözleşmesi okundu:false) — ant18-p01: 9 → 10
 
 
 def yukle(kok):
