@@ -1,0 +1,8 @@
+[
+ {"no":"giriş","bolum":"Giriş","ozet":"Britanya, Avusturya, Fransa, Prusya ve Rusya hükümdarları, Sultan'ın daveti üzerine, boğazların barış sürdükçe yabancı savaş gemilerine kapalı olduğu eski Osmanlı kuralını ortaklaşa teyit etmek için Sultan'la sözleşme yapar.","yer":["Boğazlar"],"konu":"bogazlar"},
+ {"no":1,"bolum":"Boğazların kapalılığı","ozet":"Sultan, Porte barışta olduğu sürece Çanakkale ve İstanbul Boğazlarına hiçbir yabancı savaş gemisi sokmayacağını bildirir; beş devlet de bu karara saygı gösterip eski kurala uymayı üstlenir.","yer":["Boğazlar","İstanbul Boğazı","Çanakkale Boğazı"],"konu":"bogazlar"},
+ {"no":2,"bolum":"Boğazların kapalılığı","ozet":"Sultan, eskiden olduğu gibi yabancı elçiliklerin hizmetinde kullanılan hafif savaş bayraklı gemilere geçiş fermanı verme hakkını elinde tutar.","yer":["İstanbul Boğazı","Çanakkale Boğazı"],"konu":"bogazlar"},
+ {"no":3,"bolum":"Son hükümler","ozet":"Sultan, bu sözleşmeyi dostluk ilişkisi içinde olduğu bütün devletlere bildirip katılmaya davet etme hakkını saklı tutar.","yer":["İstanbul"],"konu":"onay"},
+ {"no":4,"bolum":"Son hükümler","ozet":"Sözleşme iki ay içinde ya da mümkünse daha erken onaylanacak, onay belgeleri Londra'da değiştirilecektir.","yer":[],"konu":"onay"},
+ {"no":"imza","bolum":"İmza","ozet":"Sözleşme Londra'da 13 Temmuz 1841'de Palmerston, Esterházy, Neumann, Bourqueney, Bülow, Brünnow ve Şekib tarafından imzalanır; öncesinde 10 Temmuz 1841 protokolü Fransa'yı davet etmişti.","yer":["Boğazlar"],"konu":"onay"}
+]
