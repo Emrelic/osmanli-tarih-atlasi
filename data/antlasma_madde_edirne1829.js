@@ -221,7 +221,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "8",
    "bolum": "Ticaret tazminatı",
    "ozet": "Akkirman Sözleşmesi'ndeki zarar tasfiyesi yürümediği ve Boğaz kısıtlamaları Rus ticaretine yeni zarar verdiği için Osmanlı, on sekiz ay içinde 1.500.000 Hollanda dukası ödeyecek; bununla karşılıklı talepler biter.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "tazminat",
    "dogrulanmadi": false
   },
