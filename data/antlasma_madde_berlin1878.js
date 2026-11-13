@@ -149,6 +149,14 @@ window.ANTLASMA_MADDELERI.push({
   "Kudüs": [
    35.22,
    31.77
+  ],
+  "Tuna Nehri": [
+   26.5,
+   44.2
+  ],
+  "Galatz": [
+   28.05,
+   45.43
   ]
  },
  "adimlar": [
@@ -231,7 +239,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "15-18",
    "bolum": "Doğu Rumeli",
    "ozet": "md. 15: Sultan eyaletin kara ve deniz sınırlarını tahkim edip asker bulundurabilir; iç düzeni yerli jandarma ve milis sağlar; sınır garnizonlarında başıbozuk ve Çerkez kullanılmaz. md. 16: Genel vali iç veya dış güvenlik tehdit altındaysa Osmanlı askerini çağırabilir; Babıâli bunu ve gerekçesini devletlerin İstanbul temsilcilerine bildirir. md. 17: Doğu Rumeli genel valisini Babıâli, devletlerin onayıyla beş yıllığına atar. md. 18: Onay belgelerinin değişiminden sonra Avrupa komisyonu Babıâli ile birlikte eyaletin örgütünü üç ay içinde belirler; düzenleme padişah fermanıyla devletlere bildirilir.",
-   "yer": [],
+   "yer": [
+    "Doğu Rumeli"
+   ],
    "konu": "askeri",
    "dogrulanmadi": false
   },
@@ -239,7 +249,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "19-21",
    "bolum": "Doğu Rumeli",
    "ozet": "md. 19: Yeni örgüt tamamlanana dek eyaletin maliyesini Avrupa komisyonu Babıâli ile birlikte yönetir. md. 20: Babıâli'nin bütün antlaşmaları Doğu Rumeli'de de geçerlidir; yabancıların dokunulmazlık ve imtiyazlarına saygı gösterilir; imparatorluğun din özgürlüğü kanunları burada da uygulanır. md. 21: Babıâli'nin Doğu Rumeli demiryollarındaki hak ve yükümlülükleri aynen korunur.",
-   "yer": [],
+   "yer": [
+    "Doğu Rumeli"
+   ],
    "konu": "mali",
    "dogrulanmadi": false
   },
@@ -388,7 +400,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "44",
    "bolum": "Romanya",
    "ozet": "Romanya'da din farkı hak ve görevler için engel olamaz; ibadet serbesttir; bütün devletlerin tebaası inançlarına bakılmaksızın eşit işlem görür.",
-   "yer": [],
+   "yer": [
+    "Romanya"
+   ],
    "konu": "din",
    "dogrulanmadi": false
   },
@@ -419,7 +433,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "47-50",
    "bolum": "Romanya",
    "ozet": "md. 47: Suların ve balıkçılığın paylaşımı Avrupa Tuna Komisyonu'nun hakemliğine bırakılır. md. 48: Romanya'dan geçen mallardan transit vergisi alınmaz. md. 49: Romanya konsolosların koruma yetkilerini sözleşmelerle belirleyebilir; mevcut haklar karşılıklı rıza olmadan değişmez. md. 50: Konsolosluk sözleşmesi yapılana dek Osmanlı'daki Romen tebaası ve Romanya'daki Osmanlı tebaası, öteki Avrupa devletlerinin tebaası gibi haklardan yararlanır.",
-   "yer": [],
+   "yer": [
+    "Romanya"
+   ],
    "konu": "tuna",
    "dogrulanmadi": false
   },
@@ -427,7 +443,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "51",
    "bolum": "Romanya",
    "ozet": "Devredilen topraklardaki kamu işleri ve girişimlerde Romanya, haklar ve yükümlülükler bakımından Babıâli'nin yerine geçer.",
-   "yer": [],
+   "yer": [
+    "Romanya"
+   ],
    "konu": "mali",
    "dogrulanmadi": false
   },
@@ -435,7 +453,10 @@ window.ANTLASMA_MADDELERI.push({
    "no": "52-55",
    "bolum": "Tuna",
    "ozet": "md. 52: Demirkapı'dan ağzına kadar Tuna'daki bütün kale ve tahkimat yıkılır, yenisi yapılmaz; nehirde hafif karakol gemileri dışında savaş gemisi dolaşmaz, devletlerin muhafız gemileri Galatz'a çıkabilir. md. 53: Romanya'nın da temsil edildiği Avrupa Tuna Komisyonu, yetkilerini Galatz'a kadar yerel makamlardan bağımsız kullanır; hakları ve önceki düzenlemeler teyit edilir. md. 54: Komisyonun süresi bitmeden bir yıl önce devletler yetkilerin uzatılması veya değişikliği için anlaşacaktır. md. 55: Demirkapı ile Galatz arasındaki seyrüsefer, nehir polisi ve denetim kurallarını Avrupa komisyonu, kıyıdaş devletlerin delegeleriyle birlikte hazırlar.",
-   "yer": [],
+   "yer": [
+    "Tuna Nehri",
+    "Galatz"
+   ],
    "konu": "tuna",
    "dogrulanmadi": false
   },
