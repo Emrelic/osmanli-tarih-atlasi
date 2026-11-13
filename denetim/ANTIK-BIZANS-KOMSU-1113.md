@@ -39,6 +39,14 @@ Dal: `emrelic-1113-antik-bizans-komsu`. Ağır araç (denetle/renk_olc/denetle_y
 
 Önce→sonra (hedef kümesinde): Bizans-komşu boşluk-yıl (Hemedan+Pliska+Tırnova): 1033+310+185=1528 yıl → 0931→1118 (187) + 1000-1018 (18) = 205 yıl (−1323). Peçenek s:'li nokta 0→5, Kıpçak (1091-1239) 2→7; Sâsânî çekirdek noktası 0→1 (Hemedan); Ani Bagratlı dönemi 45→83 yıl. Doğrulama: 4 yeni/yeniden yazılan zincirde çakışma yok, künye aşımı yok (betikle), `node --check` 0.
 
+## 3b. KASA turu (aynı gün, ikinci commit)
+
+- Maddesiz kırılma (hedef küme): 6 → 1. Kapanan: Sâsânî 0619 (+0629), Büyük Bulgaristan 0635, Birinci Bulgar 0681, Ani 1045, Kilikya 1266-08-24 — sinir dosyasına kaynaklı madde (İskenderiye/Phanagoria/Pliska/Ani/Misis yer adlı). AÇIK: Sâsânî 0500 (Merv/Nîşâbur/Serahs): kayıt zaten «UFUK SINIR İŞARETİ» beyanlı, 500 için kaynaklı olay bulunamadı, uydurulmadı.
+- Hemedan 931-1118 boşluğu kapandı (187 → 0 yıl; Hemedan'da toplam boşluk 1033 → 0 yıl, 224-1257): ziyari 931-935 · buveyhi 935-1023 (TDV Büveyhîler/Kâkûyîler) · kakuyi 1023-1043 · buyuk-selcuklu 1043-1118 (TDV Kâkûyîler 434/1042-43; Iranica Bosworth 437/1045-46 çelişkisi beyanlı). Hicrî yıl ilk günleri hesaplanmadı (YYYY-01-01 + yıl hassasiyeti, beyanlı).
+- Sâsânî çekirdek noktaları: Ktesiphon (mevcut `yerlesimler_mo_zincir.js`; sasani 224-04-28→637, bit 0637) ve İsfahan (sasani →644 · râşidîn · emevi · abbasi → 935 · buveyhi →1007, ardından mevcut kakuyi; TDV İsfahan/Medâin). Yeni nokta/dosya AÇILMADI. Sâsânî s:'li nokta: 1 → 3 (Hemedan, Ktesiphon, İsfahan; Horasan'dakilerle toplam 9).
+- Rey: TDV'de madde yok (rey = fıkıh terimi; Adududdevle/Abbâsîler maddelerinde yılsız geçer) → yazılmadı. Şiraz (693 Arap kuruluşu), Bağdat (762), Tebriz: Sâsânî dönemi için TDV tanığı bulunamadı → yazılmadı. Sırada: Iranica «Rayy», «Tabriz», «Shiraz» + TDV Rey şehri.
+- Ani 962 dönemi kaynağı Iranica yerine TDV «Kars» (künye 962 maddesi) olarak düzeltildi. +11 sınır maddesi (toplam 19).
+
 ## 4. Yapılmayanlar / ölçülemeyenler
 
 - Harita sonucu (koşu yok), tam `denetle`/Değişmez 3/8, `renk_olc`, `ceviri.py`: koşulmadı. Yeni 8 madde diğer dillerde YOK (çeviri tavan borcu).
