@@ -1576,7 +1576,8 @@ window.DEVLETLER = [
 { id:"fransiz-misir-seferi", ad:"Napolyon'un Mısır Seferi", tur:"gecici-isgal", bolge:"misir-sudan",
   f:"1798-07-01", t:"1801-10-02", baskent:"Kahire",
   ozet:"Fransız Devrim ordusunun kısa süreli Mısır işgali (geçici, hanedansız dönem); TDV'nin misir maddesinde yalnız başlık düzeyinde geçiyor (detay yok), standart akademik kaynağa göre 1798 Temmuz'unda başladı, İngiliz-Osmanlı ortak harekâtıyla 1801'de sona erdi.",
-  kaynak:"yetersiz — misir maddesi okundu, \"Fransız İşgali ve Sonrası\" başlığı var ama sefer detaylarını (tarih, olaylar) karşılamıyor; dayanak: standart akademik kaynak",
+  kaynak:"Hilal Görgün, MISIR maddesi, 'Fransız İşgali ve Sonrası' bölümü, TDV İslâm Ansiklopedisi, 2004, https://islamansiklopedisi.org.tr/misir; Seyyid Muhammed es-Seyyid, İSKENDERİYE maddesi, Osmanlı Dönemi, TDV İslâm Ansiklopedisi, 2000, https://islamansiklopedisi.org.tr/iskenderiye",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1798-07-01, t=1801-10-02. TDV Mısır: 'Fransızlar'ın Temmuz 1798'deki işgali' (gün yok) ve 'Ağustos 1801'de Mısır'ı terketmek zorunda kaldılar'; TDV İskenderiye: Fransızlar İskenderiye'yi 30 Haziran 1798'de ele geçirdi. Başlangıç günü (1 Temmuz) TDV'de teyit edilmedi (İskenderiye 30 Haziran der); bitiş 2 Ekim 1801 günü TDV'de yok, TDV tahliyeyi Ağustos 1801 verir. Gün ucları ayrı kaynakla teyit gerekir.",
   kronoloji:[
     { odak_yer:["Kahire"], t:"1798-07-21", tur:"isgal", b:"Ehram Savaşı'yla Kahire ele geçirildi" },
     { odak_yer:["Kahire"], t:"1798-08-01", tur:"savas", b:"Ebûkir deniz savaşında Nelson filoyu imha etti, Fransız ordusu kuşatıldı" },
@@ -2045,7 +2046,8 @@ window.DEVLETLER = [
 { id:"kaffa-kralligi", ad:"Kaffa Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1390-01-01", t:"1897-09-10", baskent:"Bonga", harita:"kaffa",
   ozet:"Güneybatı Habeşistan'da Gomara/Minjo hanedanınca kurulan, kahve bitkisinin adını aldığı söylenen krallık; Habeş İmparatoru II. Menelik'in seferiyle ilhak edildi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Eike Haberland, 'Sherocho, Gaki', Dictionary of African Christian Biography (dacb.org), Encyclopaedia Africana Dictionary of African Biography c.1, 1997: Menjo hanedanı 15. yy sonundan beri Kaffa'yı yönettiği söylenir; Gaki Sherocho 1890'da kral, Mart 1897'de Menilik'in orduları (Ras Walda Giyorgis) istila etti, Ekim 1897'de yakalandı/teslim oldu",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1390, t=1897-09-10. Haberland: hanedan 15. yy sonundan beri (1390 doğrulanmadı), ülke Mart 1897'de fethedildi, kral Ekim 1897'de teslim oldu; 10 Eylül günü bu kaynakta yok (başka kaynaklarda 10/11 Eylül 1897 yakalanma geçiyor, okunmadı).",
   kronoloji:[
     { odak_yer:["Bonga"], t:"1390-01-01", tur:"kurulus", b:"Minjo hanedanı tarafından kuruldu (gelenek)" },
     { odak_yer:["Bonga"], t:"1897-09-10", tur:"son", b:"Ras Wolde Giyorgis komutasındaki Habeş ordusu son kral Gaki Şeroço'yu esir aldı" }
@@ -2880,7 +2882,8 @@ window.DEVLETLER = [
 { id:"nube", ad:"Nûbe Krallıkları (Makurya-Alve)", tur:"krallik", bolge:"misir-sudan",
   f:"0543-01-01", t:"1504-01-01", baskent:"Dongola (Makurya) / Soba (Alve)", harita:"nube",
   ozet:"Nil vadisinde Hristiyan Nûbe krallıkları Makurya (Dongola merkezli) ve güneyindeki Alve (Soba merkezli); 651'de Araplarla imzalanan Bakt Antlaşması'yla asırlarca barış içinde yaşadılar, Memlük baskınları ve Arap göçleriyle önce Makurya sonra Alve yıkıldı. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"B. G. Trigger, 'Nubia', New Catholic Encyclopedia (encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/nubia): Nobatia c.543'te John of Ephesus'a göre Theodore ve Julian'ın misyonuyla Monofizit Hıristiyanlığa geçti; Makuria 569; 710'da Nobatia ve Makuria birleşti; Alwa c.1500'de Müslümanlarca ele geçirildi",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=543, t=1504. 543 devletin kuruluşu değil Nobatia'nın Hıristiyanlaşma tarihidir; kaynak sonu için 'c.1500' veriyor, 1504 doğrulanmadı (Funj/1504 bu sayfada yok).",
   kronoloji:[
     { odak_yer:["Dongola"], t:"0543-01-01", tur:"kurulus", b:"Makurya Krallığı Hristiyanlığı kabul etti (Dongola merkezli)" },
     { odak_yer:["Dongola"], t:"0651-01-01", tur:"antlasma", b:"Araplarla Bakt Antlaşması imzalandı, uzun bir barış dönemi başladı" },
@@ -3139,7 +3142,8 @@ window.DEVLETLER = [
 { id:"bundu", ad:"Bundu Emirliği", tur:"emirlik", bolge:"bati-afrika",
   f:"1690-01-01", t:"1858-01-01", baskent:"Bulebane",
   ozet:"Senegal ile Faleme arasında Malik Sî'nin kurduğu Fûlânî imamlığı; kervan yollarını denetleyen küçük ama sürekli bir devletti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Malik Sî'nin kurduğu Fûlânî imamlığı; başkenti Bulebane.",
+  kaynak:"Curtin, Jihad in West Africa: Early Phases and Interrelations in Mauritania and Senegal, Journal of African History (Cambridge, https://cambridge.org/core/journals/journal-of-african-history/article/jihad-in-west-africa-early-phases-and-interrelations-in-mauritania-and-senegal/B1B7744F882C2C1B9D67560C2DEBB48A)",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1690, t=1858. Okunan metin: Malik Sy'nin Bundu cihadı 1690'larda; dipnot: Rançon'a göre Malik Sy 1699'da öldü. t=1858 (Fransız denetimi) okunan metinde yok.",
   kronoloji:[
     { odak_yer:["Bulebane"], t:"1690-01-01", tur:"kurulus", b:"Malik Sî imamlığı kurdu" },
     { odak_yer:["Bulebane"], t:"1699-01-01", tur:"hukumdar", b:"Kurucu Mâlik Sî, Gajaaga ordusunun düzenlediği bir pusuda öldürüldü", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Malick Sy') doğrulandı." },
@@ -3776,7 +3780,8 @@ window.DEVLETLER = [
 { id:"ovimbundu", ad:"Ovimbundu Krallıkları (Bailundu · Viye · Vambu)", tur:"krallik", bolge:"orta-afrika",
   f:"1700-01-01", t:"1902-01-01", baskent:"Bailundo",
   ozet:"Angola platosunda Bailundu · Viye · Vambu gibi Ovimbundu krallıkları; iç bölge kervan ticaretini yürütüyorlardı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Angola platosunun ticaret krallıkları; Bailundu ayaklanması 1902.",
+  kaynak:"Wheeler & Christensen, Bailundu Revolt 1902-4 makale özeti (eHRAF World Cultures, https://ehrafworldcultures.yale.edu/cultures/fp13/documents/012)",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1700, t=1902. Okunan özet: Portekiz 1776'da Bailundu ve Bihe (Viye) yöneticilerini devirdi ama krallıklar ticaret gücüyle yarı bağımsız kaldı; 1890'da Bihe işgal edildi; Bailundu Ayaklanması 1902-4. Kuruluş yılı (1700) özette yok; sona erişin 1902 mi 1904 mü olduğu belirsiz (Bailundu 1904'te Portekiz Angolası'na katıldı denir, bu yalnız arama özetinde).",
   kronoloji:[
     { odak_yer:["Bailundo"], t:"1700-01-01", tur:"kurulus", b:"Ovimbundu krallıkları teşekkül etti" },
     { odak_yer:["Bailundo"], t:"1773-01-01", tur:"savas", b:"Mbailundu Savaşı (1773-1776) başlar; Portekiz kuvvetleri Bailundo'yu yener, Kral Chingui yakalanıp ömür boyu hapsedilir.", kaynak:"https://en.wikipedia.org/wiki/Bailundo_(kingdom) (Linda Heywood, Contested Power in Angola, 1830s to the Present, Univ. of Rochester Press, 2000'e dayalı)" },
@@ -3897,7 +3902,8 @@ window.DEVLETLER = [
 { id:"hehe", ad:"Hehe Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1850-01-01", t:"1898-07-19", baskent:"Kalenga",
   ozet:"Munyigumba ve Mkvava'nın kurduğu, Almanlara ağır kayıplar verdiren güney Tanzanya krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Munyigumba ve Mkvava; başkenti Kalenga; Mkvava 1898'de öldü.",
+  kaynak:"Alison Redmayne, 'Mkwawa and the Hehe Wars', Journal of African History 9(3), 1968, s.409-436 (Cambridge Core özeti okundu): Munyigumba 19. yy ortası Ng'uluhe şefi, c.1878'de öldü; Mwambambe'yi yenen Mkwawa 1883'te rakipsiz; Mkwawa 1898'e kadar direndi, yakalanmamak için kendini vurdu",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1850, t=1898-07-19. Redmayne yıl olarak 1898'i doğruluyor; 19 Temmuz günü okunan kaynakta yok (arama sonuçlarında 19 Temmuz/19 Haziran ayrılığı var, okunmadı). Kuruluş: Munyigumba 19. yy ortası, 1850 kesin doğrulanmadı.",
   kronoloji:[
     { odak_yer:["Kalenga"], t:"1850-01-01", tur:"kurulus", b:"Munyigumba Hehe birliğini kurdu" },
     { odak_yer:["Kalenga"], t:"1898-07-19", tur:"son", b:"Mkvava'nın ölümüyle direniş sona erdi" }
@@ -3990,7 +3996,8 @@ window.DEVLETLER = [
 { id:"kazembe", ad:"Mvata Kazembe Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1740-01-01", t:"1899-01-01", baskent:"Mvansabombve",
   ozet:"Lunda'nın Luapula koluna dayanan, bakır ve fildişi ticaretini denetleyen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Lunda'nın Luapula kolu; merkezi Mvansabombve.",
+  kaynak:"Ian Cunnison, 'Kazembe and the Portuguese 1798-1832', Journal of African History 2(1), 1961, s.61-76 (Cambridge Core özeti okundu: 'About 1740 he established his own capital near Lake Mweru in the lower Luapula valley')",
+  ic_not:"KUNYE-AFRIKA-1110: f=1740 yıl olarak Cunnison'la uyumlu ('About 1740'). t=1899 okunan kaynakta doğrulanmadı.",
   kronoloji:[
     { odak_yer:["Mvansabombve"], t:"1740-01-01", tur:"kurulus", b:"Mvata Kazembe krallığı kuruldu" },
     { odak_yer:["Mvansabombve"], t:"1780-01-01", tur:"hukumdar", b:"Kazembe III İlunga Lukveza döneminde krallık zirvesine ulaşıp Portekizli tüccarlarla doğrudan temasa geçti", kaynak:"bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('18. yüzyıl sonu'), YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Kazembe') doğrulandı." },
@@ -4033,7 +4040,8 @@ window.DEVLETLER = [
 { id:"yeke", ad:"Yeke Krallığı (Msiri)", tur:"devlet", bolge:"orta-afrika",
   f:"1856-01-01", t:"1891-12-20", baskent:"Bunkeya",
   ozet:"Msiri'nin Nyamvezi tüccarlarıyla Katanga'da kurduğu, bakır ve fildişi ticaretine dayanan devlet. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Msiri'nin Katanga devleti; merkezi Bunkeya; Msiri 1891'de öldürüldü.",
+  kaynak:"Maarten Couttenier, 'The Yeke and the Congo Free State, from confrontation to collaboration', Royal Museum for Central Africa (africamuseum.be), 2018: Yeke c.1850'de Tanganyika'nın batısına göçtü, Msiri Bunkeya'yı başkent yaptı; Msiri 20 Aralık 1891'de öldürüldü; Bunkeya'da Kongo Serbest Devleti bayrağı 30 Aralık 1891'de çekildi",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1856 (okunan kaynakta kuruluş yılı yok; göç c.1850), t=1891-12-20 (Msiri'nin öldürülme günüyle uyumlu; Couttenier).",
   kronoloji:[
     { odak_yer:["Bunkeya"], t:"1856-01-01", tur:"kurulus", b:"Msiri Yeke devletini kurdu" },
     { odak_yer:["Bunkeya"], t:"1870-01-01", tur:"toprak-kazanc", b:"Msiri, ~1870'te guney Katanga'daki bakir bolgesinin buyuk kismini, onceden hakim olan Lunda hukumdarlarindan ele gecirdi.", kaynak:"Encyclopaedia Britannica 'Msiri' (WebSearch ozeti, 403)" },
@@ -4097,7 +4105,8 @@ window.DEVLETLER = [
 { id:"matabele", ad:"Matabele (Ndebele) Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1840-01-01", t:"1893-11-04", baskent:"Bulavayo",
   ozet:"Mzilikazi'nin Zulu bölgesinden kuzeye göçüp kurduğu, Lobengula döneminde Bulavayo'yu başşehir yapan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Mzilikazi 1840'ta yerleşti, Lobengula 1870'te Bulavayo'yu kurdu; İngiliz fethi 1893.",
+  kaynak:"SAHO, Ndebele Kingdom, https://sahistory.org.za/node/16619; EBSCO Research Starters, British Subdue African Resistance in Rhodesia, https://www.ebsco.com/research-starters/military-history-and-science/british-subdue-african-resistance-rhodesia",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1840 (Mzilikazi yerleşimi), t=1893-11-04. SAHO: Mzilikazi 1836'da Voortrekker'lara yenildi, Limpopo-Zambezi arasına yerleşti (yıl vermiyor); Lobengula 9 Eylül 1868'de kral oldu. EBSCO: Ndebele Savaşı 1893, Ndebele devleti Lobengula'nın ölüm haberi (c. 1894) üzerine kaldırıldı; kesin bitiş günü verilmiyor. 1840 ve 1893-11-04 günü bu iki kaynakta doğrulanmadı; Bembesi savaşı 1 Kasım 1893 yalnız arama özetinde görüldü.",
   kronoloji:[
     { odak_yer:["Bulavayo"], t:"1840-01-01", tur:"kurulus", b:"Mzilikazi Matabeleland'a yerleşti" },
     { odak_yer:["Bulavayo"], t:"1888-10-30", tur:"antlasma", b:"Kral Lobengula, Rudd İmtiyazı'nı imzalayarak krallığındaki bütün maden ve madenî cevherlerin tekelini Rhodes ve ortaklarına verdi", kaynak:"South African History Online arşivi, 'Rudd Concession by King Lobengula of Matabeleland (1888)' ve Encyclopaedia Britannica 'Lobengula' — «On 30 October 1888 King Lobengula … signed the famous Rudd concession with C.D. Rudd … in return for a thousand Martini-Henry rifles, 100,000 rounds of ammunition, £1200 annually and a steamboat with guns»; imtiyaz 1889'da İngiliz hükûmetince kabul edilip British South Africa Company'nin beratına dayanak yapıldı." },
@@ -4120,7 +4129,8 @@ window.DEVLETLER = [
 { id:"pedi", ad:"Pedi Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1650-01-01", t:"1879-12-02", baskent:"Tjate",
   ozet:"Maroteng hânedanının Transvaal doğusunda kurduğu, Bur ve İngiliz seferlerine direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Maroteng hânedanı; Sekhukhune 1879'da esir alındı; merkezi Tjate.",
+  kaynak:"SAHO, Pedi / Anglo-Pedi Wars 1876-1879, https://www.sahistory.org.za/article/pedi-anglo-pedi-wars-1876-1879",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1650, t=1879-12-02. SAHO: Bapedi 1650'ler civarında kuzey eyaletine geldi; Sekhukhune Anglo-Pedi savaşında 1879'da yenildi ve yakalandı (gün vermiyor). 2 Aralık 1879 günü okunan kaynakta yok.",
   kronoloji:[
     { odak_yer:["Tjate"], t:"1650-01-01", tur:"kurulus", b:"Maroteng hânedanı Pedi birliğini kurdu" },
     { odak_yer:["Tjate"], t:"1861-01-01", tur:"hukumdar", b:"Sekhukhune Pedi krallığının başına geçti", kaynak:"South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «When Sekhukhune succeeded to the chieftainship in 1861»." },
@@ -4143,7 +4153,8 @@ window.DEVLETLER = [
 { id:"svazi", ad:"Svazi Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1815-01-01", t:"1903-01-01", baskent:"Lobamba",
   ozet:"Dlamini hânedanının Sobhuza ve Mswati dönemlerinde şekillendirdiği krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sobhuza ve Mswati; merkezi Lobamba; İngiliz idaresi 1903.",
+  kaynak:"South African History Online, 'Eswatini (formerly Swaziland)', https://sahistory.org.za/place/eswatini-formerly-swaziland",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1903-01-01. SAHO: 'in 1894 Swaziland became a protectorate of the Transvaal Colony' ve 'until 1906, when the kingdom became a High Commission Territory'; 1903 SAHO'da geçmez. Atlas f=1815 (Sobhuza I) SAHO'da teyit edilmedi (SAHO'da Sobhuza/Ngwane III için yıl yok; Mswati'nin dönemi 1868'de bitti der). Bitiş yılı kaynakla çelişkili: 1894 / 1903 / 1906.",
   kronoloji:[
     { odak_yer:["Lobamba"], t:"1815-01-01", tur:"kurulus", b:"Sobhuza Svazi krallığını kurdu" },
     { odak_yer:["Lobamba"], t:"1820-01-01", tur:"toprak-kazanc", b:"Kral I. Sobhuza önderliğinde Svaziler kuzeye, bugünkü ülkenin ortasına çekilerek burada güçlerini pekiştirdi ve Zulu yaş-bölüğü askerî düzenini benimsedi", kaynak:"Encyclopaedia Britannica, 'History of Eswatini' — «Under King Sobhuza I, the Swazi moved north in 1820 to central Eswatini, consolidating power and adopting the Zulu age-group military system»." },
@@ -4357,7 +4368,8 @@ window.DEVLETLER = [
 { id:"tuareg-accer", ad:"Kel Accer Tuareg Konfederasyonu", tur:"devlet", bolge:"kuzey-afrika",
   f:"1281-01-01", t:"1911-01-01", baskent:"Cânet",
   ozet:"Tâsîlî n'Accer platosunda Kel Accer Tuareg konfederasyonu; Gât ve Cânet vahalarını, Fizan ile Aïr arasındaki kervan yolunu denetlerdi. Fransız işgaliyle sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 t: DÜZELTİLDİ — M-2420'de '1911-11-27' yazmıştım, o GÜN kaynaklı DEĞİLDİ. `§4`: gün bilinmiyorsa YYYY-01-01. Yıl (1911) sağlam, gün değil ⇒ 1911-01-01. Kendi önerimdeki uydurma günü kendim çıkardım. ⚠️ Gât Libya tarafındadır ve LİBYA emsalini (hafsi/d/v/italya) kullanır; bu künye yalnız CEZAYİR tarafını kapsar.",
+  kaynak:"TDV İslâm Ansiklopedisi, 'Tevârik' (islamansiklopedisi.org.tr/tevarik, Ahmet Kavas): Canet Fransızlar'ca 1911'de işgal edildi (Şeyh Amud 1911'e kadar Osmanlı maaşı aldı); Fransızlar bölgeye 28 Ekim 1918'de yerleşti",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1911-01-01. TDV 'Ezgar (Azgar)' grubu için 1911'i veriyor, gün yok. Madde 'Kel Accer' adını kullanmıyor; Ezgar ile özdeşlik varsayıldı. f=1281 doğrulanmadı.",
   kronoloji:[
     { odak_yer:["Cânet"], t:"1281-01-01", tur:"kurulus", b:"Kel Accer Tuareg'i Tâsîlî platosunda", ic_not_b:"eski b: Kel Accer Tuareg'i Tâsîlî platosunda (atlas ufku)" },
     { odak_yer:["Cânet"], t:"1911-01-01", tur:"son", b:"Fransız işgaliyle bağımsızlık sona erdi" }
@@ -4382,7 +4394,8 @@ window.DEVLETLER = [
 { id:"bate", ad:"Baté Mandinka Devleti (Kankan)", tur:"devlet", bolge:"bati-afrika",
   f:"1650-01-01", t:"1879-01-01", baskent:"Kankan",
   ozet:"Yukarı Nijer'de Diafunu'dan gelen müslüman Mandinka yerleşimcilerin (Kaba soyu) kurduğu, Kankan merkezli ulemâ devleti; kola ve altın ticaretinin iç kavşağını tuttu, Samori Ture'nin Vâsûlû devletine katıldı. TDV gine maddesine dayanır.",
-  kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: Kankan — Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu; Gine'nin iç kesimindeki başlıca şehir oldu ve 'Baté — aynı Mandinka göç dalgasınca kuruldu'. 🔴 İKİ UCUN DA GÜNÜ KAYNAKLI DEĞİL (§4: YYYY-01-01): f: 1650 Kaba soyunun Baté'ye yerleşmesinin ANLAŞILAN yılıdır, TDV yıl vermez; t: 1879 Samori'nin Kankan'ı alışının standart yılıdır, günü bulunamadı. İkisi de YUVARLAK ve öyle olduğu BURADA yazılı. 📌 Bu künye BİR HATAYI KAPATIYOR: Kankan'a kur:1878 (vasulu'nun f'i) yazmıştım ve bu şehri 1650-1878 arası atlastan SİLİYORDU.",
+  kaynak:"TDV İslâm Ansiklopedisi, 'Gine' maddesi (II. Tarih ve İslâmiyet bölümü, Davut Dursun, islamansiklopedisi.org.tr/gine): 'Diafunu'dan gelen müslüman Mandinkalar Kankan, Bate, Kuafodie, Tintiule gibi şehirleri kurarak...'; Samori'nin topraklarının işgali ve esir alınması (1898)",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1650, t=1879. TDV Bate'nin kuruluşunu Mandinka yerleşimine bağlıyor, kesin yıl yok (okuma özeti 17. yy bağlamı diyor, metinde doğrudan yıl okunmadı); t=1879 TDV'de doğrulanmadı.",
   kronoloji:[
     { odak_yer:["Kankan"], t:"1650-01-01", tur:"kurulus", b:"Diafunu'dan gelen Kaba soyu Baté'ye yerleşti" },
     { odak_yer:["Kankan"], t:"1868-01-01", tur:"siyaset", b:"Samori Ture kendini dinî önder ilân edip Kankan bölgesinde bir şeflik kurdu; Baté'nin Kaba ulemâsı sonradan onunla ittifaka girip ondan zarar gördü.", kaynak:"Encyclopaedia Britannica, Samory, https://www.britannica.com/biography/Samory" },
@@ -6037,7 +6050,8 @@ window.DEVLETLER = [
 { id:"songhay-imparatorlugu", ad:"Songhay İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1464-01-01", t:"1591-04-13", baskent:"Gao",
   ozet:"Sünnî Ali'nin Mali'nin mirasını devralıp genişlettiği, Askiya Muhammed döneminde Timbuktu'yu bir İslâm ilim merkezine dönüştüren Batı Afrika imparatorluğu; Fas Sâdî ordusunun ateşli silahlarla kazandığı Tondibi zaferiyle yıkıldı. TDV'de ayrıntılı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"EBSCO Research Starters, Songhai Empire, https://ebsco.com/research-starters/history/songhai-empire",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1464, t=1591-04-13. EBSCO: Sonni Ali yaklaşık 1464'te tahta çıktı, imparatorluk c. 1464-1591; Tondibi Muharebesi Mart 1591'de (13 Nisan değil). Arama özetlerinde bazı kaynaklar Tondibi'yi 13 Mart 1591 veriyor; atlas t=04-13 ile çelişir, ay ve gün ayrıca TDV/Hunwick (Timbuktu and the Songhay Empire) ile teyit edilmeli.",
   kronoloji:[
     { odak_yer:["Gao"], t:"1464-01-01", tur:"kurulus", b:"Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı" },
     { odak_yer:["Timbuktu"], t:"1493-01-01", tur:"hukumdar", b:"Askiya Muhammed tahta çıkıp Timbuktu'yu ilim merkezi yaptı" },
@@ -6106,7 +6120,8 @@ window.DEVLETLER = [
 { id:"dahomey", ad:"Dahomey Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1625-01-01", t:"1894-01-01", baskent:"Abomey",
   ozet:"Fon halkının kurduğu, köle ticaretinde merkezî rol oynayan, kadın savaşçılarıyla (Amazonlar) tanınan Batı Afrika krallığı; Kral Béhanzin'in yenilgisiyle Fransız sömürgesi oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"Davut Dursun, BENİN maddesi (Dahomey Krallığı bölümü), TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/benin",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1625, t=1894. TDV: 'XVII. yüzyılın başlarında ciddi bir varlık gösteren Dahomey Krallığı' (kesin yıl yok); '1893'te ... Abomey'e giren Fransız birlikleri Kral Behanzin'in iktidarına son vererek' (1893; atlas 1894). Behanzin 1906'da sürgünde öldü. Atlas f=1625 ve t=1894 yılları TDV'de aynen yok: TDV 17. yüzyıl başı ve 1893 verir.",
   kronoloji:[
     { odak_yer:["Abomey"], t:"1625-01-01", tur:"kurulus", b:"Wegbaja, Abomey merkezli krallığı kurdu" },
     { odak_yer:["Abomey"], t:"1727-01-01", tur:"toprak-kazanc", b:"Kıyıdaki Whydah krallığını ele geçirip Atlantik ticaretine doğrudan eriştim kazandı" },
@@ -6241,7 +6256,8 @@ window.DEVLETLER = [
 { id:"zulu-kralligi", ad:"Zulu Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1816-01-01", t:"1879-07-04", baskent:"Ulundi",
   ozet:"Shaka'nın askerî reformlarıyla küçük bir beylikten büyük bir savaşçı krallığa dönüştürdüğü Güney Afrika devleti (\"Mfecane\" kargaşasını başlattı); Anglo-Zulu Savaşı'nda İngiliz'e yenilip ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"South African History Online, 'Anglo-Zulu Wars 1879-1896' (The destruction of the Zulu kingdom), https://sahistory.org.za/ts/article/anglo-zulu-wars-1879-1896",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1879-07-04. SAHO: Ulundi muharebesi 'Temmuz'da (Chelmsford oNdini'ye girdi), gün verilmez; Cetshwayo Ağustos'ta yakalandı; krallık 13 bölgeye bölündü; Cetshwayo 1883'te yeniden tahta çıkarıldı ve oNdini'de yenildi; Zululand 1887'de Kraliyet'e ilhak edildi. Yani SAHO'ya göre krallığın fiilî sonu 1879 değil 1883-1887 aralığıdır; 4 Temmuz günü SAHO'da yok. Atlas f=1816 SAHO'da yok (Şaka'nın kuruluş yılı verilmez).",
   kronoloji:[
     { odak_yer:["Ulundi"], t:"1816-01-01", tur:"kurulus", b:"Shaka, Zulu klanını askerî reformlarla büyük bir krallığa dönüştürdü" },
     { odak_yer:["Ulundi"], t:"1828-09-22", tur:"hukumdar", b:"Dingane, üvey kardeşi Mhlangana ve hizmetkârı Mbopha'nın yardımıyla Şaka'yı öldürerek Zulu tahtına geçti", kaynak:"South African History Online, 'King Dingane ka Senzangakhona' — «assassinated his brother and the then Chief of the Zulu – Shaka Zulu on the 22 of September 1828»; Encyclopaedia Britannica 'Shaka' BAĞIMSIZ olarak aynı günü veriyor: «died Sept. 22, 1828»." },
@@ -10239,7 +10255,8 @@ window.DEVLETLER = [
 { id:"fransiz-bati-afrika", harita:"fransa-cumhuriyet", ad:"Fransız Batı Afrikası (AOF)", bolge:"bati-afrika", f:"1895-06-16", t:"1959-01-01",
   baskent:"Saint-Louis → Dakar (1902)",
   ozet:"16 Haziran 1895 kararnamesiyle Senegal · Fransız Sudanı · Gine · Fildişi Sahili kolonilerini tek genel valilik altında toplayan koloniler federasyonu; 1902 ve 1904 kararnameleriyle kesin biçimini aldı (Dahomey · Yukarı Volta · Nijer · Moritanya). 1958 referandumundan sonra 1959'da dağıldı.",
-  kaynak:"f: Digithèque MJP, Université de Perpignan (mjp.univ-perp.fr/constit/aof.htm) — décret du 16 juin 1895: «Il est institué un gouvernement général de l'Afrique occidentale française» · décret du 1er octobre 1902: «Le siège du Gouvernement général est à Dakar» · décret du 18 octobre 1904. TDV `senegal` (200): 1895 federasyon, 1902 Dakar merkez (YIL). t: Columbia Encyclopedia 6th ed. 'French West Africa' (encyclopedia.com): «The federation was created in 1895» · «In 1958 the constituent territories became autonomous republics in the French Community, except for Guinea, which became independent. The federation was dissolved in 1959» (YIL; gün bulunamadı).",
+  kaynak:"Digithèque MJP, Univ. de Perpignan, 'Afrique-Occidentale française', décret du 16 juin 1895 art. 1 ('Il est institué un gouvernement général de l'Afrique occidentale française'), https://mjp.univ-perp.fr/constit/aof.htm",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1895-06-16 sayfadaki metinle teyit edildi (Fait à Paris, le 16 juin 1895). t=1959-01-01 için sayfa metni gün vermez; sayfa 28 Eylül 1958 referandumundan sonra Gine'nin bağımsızlığını, diğer bölgelerin Topluluk üyeliğini ve 1960 bağımsızlıklarını anlatır. 1959 bitiş ucu bu kaynakla teyit edilmedi.",
   not:"f GÜN, t YIL hassasiyetinde. tur önerisi: `koloni` (koloniler federasyonu; `federasyon` değeri sözlükte var ama tek kullanımlık, egemen devlet için). D-katmanı: d_sinirlar_afrika.js 6 kayıt, en erken f 1895-06-16 = kararname günü — pencere tutuyor. Renk YOK.",
   kronoloji:[
     { odak_yer:["Saint-Louis"], t:"1895-06-16", tur:"kurulus", b:"Fransız Batı Afrikası genel valiliği kararnameyle kuruldu", kaynak:"Digithèque MJP — décret du 16 juin 1895" },
