@@ -987,7 +987,7 @@ window.DEVLETLER = [
   kaynak:"isvec",
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
-    { t:"1709-08-01", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
+    { t:"1709-08-08", ic_not_gun:"ÇELİŞKİ-1113 ISVEC: künye maddesi 1709-08-01 idi, kaynaksızdı; TDV «İsveç»: XII. Karl Yûsuf Paşa ile buluştu (8 Ağustos 1709) — kronoloji_isvec.js zaten 1709-08-08. TDV günü.", tur:"ittifak", b:"Bender'de Osmanlı himayesinde kalarak Rusya'ya karşı savaş kışkırttı (Prut Seferi'ni tetikledi)" },
     { t:"1714-09-19", tur:"antlasma", b:"Osmanlı topraklarını terk etti (Dimetoka'dan yola çıktı)", ic_not_b:"eski t: 1714-02-01 · eski b: Osmanlı topraklarını terk etti — gün KAYNAKSIZ ve olayla uyuşmuyordu (KRONO-AKADEMIK-1006)", kaynak:"TDV `isvec`: \"12 Temmuz 1714 tarihli mektubu ile memleketine dönmeye hazır olduğunu bildirdiğinden Ağustos içinde kendisine dönüş izni verildi. 19 Eylül’de yola çıkıp 11 Ekim’de memleketine ulaştı.\" · BEYAN — ÇELİŞKİ (MGGP-NOT): kullanılan gün 1714-09-19 (TDV) · kullanılmayan kaynaklı gün 1714-09-20 (Encyclopaedia Britannica 1911, \"Charles XII.\": \"he quitted Demotika on the 20th of September 1714\") · neden: iki kaynak bir gün farklı; TDV esas (KRONO-AKADEMIK-1006)" },
     { odak_yer:["Gävle"], t:"1946-11-19", tur:"siyaset", b:"İsveç Birleşmiş Milletler'e üye oldu", kaynak:"https://www.un.org/en/about-us/member-states/sweden" },
     { odak_yer:["Gävle"], t:"1973-09-15", tur:"hukumdar", b:"XVI. Carl Gustaf tahta çıktı", kaynak:"https://www.kungahuset.se/" },
