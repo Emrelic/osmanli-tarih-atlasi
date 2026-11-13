@@ -102,25 +102,29 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # İtalya veri +5 madde, Mellifont Gregoryen 1603-04-09) ve UMIT antlaşma partileri (Refah/Katar madde metinleri)
 # yeni/yeniden yazılan Türkçe maddeler. Çeviri işleri site bitince tek seferde (Emre, 13 Kasım). Eski değerler:
 # eksik olay en/ar/es/de 320, pt 1434, ru 3527, fr 4427; bayat olay en/ar/es/de 70.
+# 14 Kasım 2026 (KASA batch 16): ÖLÇÜM — eksik arayuz 48→51 (+3 yeni arayüz metni), eksik olay +3 (UMIT Rus/İki Sicilya 1799 yeni
+# maddeleri, EMRELİC Kolhapûr 1675 yeni maddesi), bayat olay +1 (Kütahya Uzlaşması yeniden adlandırma, Yergöğü/Yûsuf düzeltmesi,
+# 1547 gün). Çeviri işi site bitince (Emre, 13 Kasım). Eski: eksik arayuz 48, olay en/ar/es/de 325, pt 1439, ru 3532, fr 4432;
+# bayat olay en/ar/es/de 72, pt 57, ru 31, fr 7.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 48, "devlet": 2, "olay": 325},
-    "ar": {"arayuz": 48, "devlet": 2, "olay": 325},
-    "es": {"arayuz": 48, "devlet": 2, "olay": 325},
-    "de": {"arayuz": 48, "devlet": 2, "olay": 325},
-    "pt": {"arayuz": 48, "devlet": 2, "olay": 1439},
-    "ru": {"arayuz": 48, "devlet": 2, "olay": 3532},
-    "fr": {"arayuz": 48, "devlet": 2, "olay": 4432},
+    "en": {"arayuz": 51, "devlet": 2, "olay": 328},
+    "ar": {"arayuz": 51, "devlet": 2, "olay": 328},
+    "es": {"arayuz": 51, "devlet": 2, "olay": 328},
+    "de": {"arayuz": 51, "devlet": 2, "olay": 328},
+    "pt": {"arayuz": 51, "devlet": 2, "olay": 1441},
+    "ru": {"arayuz": 51, "devlet": 2, "olay": 3534},
+    "fr": {"arayuz": 51, "devlet": 2, "olay": 4434},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
 BEKLENEN_CEVIRI_BAYAT = {
-    "en": {"arayuz": 0, "devlet": 1, "olay": 72},
-    "ar": {"arayuz": 0, "devlet": 1, "olay": 72},
-    "es": {"arayuz": 0, "devlet": 1, "olay": 72},
-    "de": {"arayuz": 0, "devlet": 1, "olay": 72},
-    "pt": {"arayuz": 0, "devlet": 1, "olay": 57},
-    "ru": {"arayuz": 0, "devlet": 1, "olay": 31},
-    "fr": {"arayuz": 0, "devlet": 1, "olay": 7},
+    "en": {"arayuz": 0, "devlet": 1, "olay": 73},
+    "ar": {"arayuz": 0, "devlet": 1, "olay": 73},
+    "es": {"arayuz": 0, "devlet": 1, "olay": 73},
+    "de": {"arayuz": 0, "devlet": 1, "olay": 73},
+    "pt": {"arayuz": 0, "devlet": 1, "olay": 58},
+    "ru": {"arayuz": 0, "devlet": 1, "olay": 32},
+    "fr": {"arayuz": 0, "devlet": 1, "olay": 8},
 }
 
 

@@ -891,7 +891,7 @@ window.ANTLASMA_HARITALARI = [
 },
 {
   "id": "kutahya-1833",
-  "antlasma_ad": "Kütahya Sözleşmesi",
+  "antlasma_ad": "Kütahya Uzlaşması",
   "tarih": "1833-05-06",
   "bolgeler": [
     {

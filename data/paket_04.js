@@ -287,6 +287,24 @@ window.OLAYLAR_EK17 = [
   d:"Şah Tahmasb'ın gönderdiği Elkas Mirza Şirvan'ı yağmalayıp Baykurd Kalesi'ni zaptetti ve on beş yaşındaki Şirvanşah Şâhruh'u esir alarak Tebriz'e götürdü. Bölgede uzun süre hâkimiyetini sürdüren Şirvanşahlar idaresi böylece sona erdi; Şirvan Safevî Devleti'nin bir vilâyeti oldu.",
   kaynak:"TDV sirvansahlar: 'Safevîler bölgeyi yağma edip 945 Cemâziyelevvelinde (Ekim 1538) Baykurd Kalesi’ni zaptettiler ve şiddetli savaşlardan sonra on beş yaşındaki Şâhruh’u esir alarak Tebriz’e götürdüler.' · TDV sirvan: 'Şah Tahmasb’ın 1538’de Şirvanşahlar’ın hâkimiyetine son vermesinin ardından bölge Safevî Devleti’nin bir vilâyeti haline geldi.'" },
 
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1799-01-03", k:"antlasma", etiket:["antlasma","diplomasi","ittifak","konu-diplomasi"], antlasma_id:"rus-ittifaki-1799",
+  b:"Osmanlı-Rus Savunma İttifakı — Fransa'ya karşı ortak savunma",
+  gun:"26 Receb 1213 / 23 Aralık 1798 Jülyen = 3 Ocak 1799 Gregoryen",
+  yer:"İstanbul", yer_id:"İstanbul",
+  kisiler:"III. Selim, I. Pavel",
+  d:"Napolyon'un Mısır'ı işgali üzerine III. Selim ile Rus Çarı I. Pavel, on dört maddelik sekiz yıllık bir savunma ittifakı kurdu. Taraflar ortak dost ve düşman edinmeyi, karşılıklı yardımı ve ayrı barış yapmamayı üstlendi.",
+  ic_not_gun:"Gün Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II, Textes n° 7: metin 'Signé à Constantinople le 23 Décembre 1798 (26 Redjeb 1213)' diye başlar, sonuç bölümü 26 Receb 1213 tarihini taşır; 23 Aralık 1798 Rus (Jülyen) takvimidir. Aynı eserde 28 Receb 1213 = 5 Ocak 1799 (İngiliz ittifakı, Textes n° 8) olduğundan 26 Receb 1213 = 3 Ocak 1799 Gregoryen; Jülyen 23 Aralık + 11 gün de aynı günü verir. TEYİTSİZ: ikinci bağımsız akademik kaynak bu çalışmada bulunamadı/okunamadı; TDV `selim-iii` (Beydilli) yalnız 'Ocak 1799' yazar (çelişmez, gün vermez). Jülyen/Gregoryen çeviri anahtarı KASA takvim partisinde toplu doğrulanacak.",
+  kaynak:"Noradounghian c. II Textes n° 7 (archive.org recueildactesin01turkgoog; md. 2-6 OCR'da eksik) · TDV selim-iii (yalnız 'Ocak 1799')", duygu:["🤝"] },
+
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1799-01-21", k:"antlasma", etiket:["antlasma","diplomasi","ittifak","konu-diplomasi"], antlasma_id:"iki-sicilya-ittifaki-1799",
+  b:"Osmanlı-İki Sicilya (Napoli) Savunma İttifakı — Fransa'ya karşı ortak dava",
+  gun:"14 Şaban 1213 / 21 Ocak 1799",
+  yer:"İstanbul", yer_id:"İstanbul",
+  kisiler:"III. Selim, IV. Ferdinand",
+  d:"Fransa'nın İtalya, Malta ve Mısır'ı işgali karşısında Osmanlı Devleti ile İki Sicilya Krallığı dokuz maddelik bir savunma ittifakı yaptı. Taraflar ortak savaş yürütmeyi, ayrı barış yapmamayı ve birbirine kara ile deniz yardımı vermeyi üstlendi.",
+  ic_not_gun:"Gün Noradounghian, c. II, Textes n° 9: 'Signé à Constantinople le 21 Janvier 1799 (14 Chaban 1213)'; dizin kaydı No 411 aynı günü verir ('ratifié le 3 Zilhidjé 1213'). Hicrî ile tutarlı: 28 Receb 1213 = 5 Ocak 1799 ise 14 Şaban 1213 = 21 Ocak 1799. TEYİTSİZ: TDV `selim-iii` Napoli'yi anmaz; ikinci bağımsız akademik kaynak bulunamadı/okunamadı. Jülyen/Gregoryen sorunu yok (metin Gregoryen yazar).",
+  kaynak:"Noradounghian c. II Textes n° 9 (archive.org recueildactesin01turkgoog)", duygu:["🤝"] },
+
 ];
 
 ;
