@@ -677,7 +677,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "47",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Fener, havuz ve rıhtım imtiyazları saklıdır; Komisyon gerekirse bunları satın alabilir, değiştirebilir ya da yeni imtiyaz verebilir.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -699,7 +701,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "49",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Türk kalan Boğaz bölgesinde Komisyon kurallarına aykırılıkları kapitülasyon sahibi devletlerin tebaası için konsolosluk mahkemeleri, öbürleri için Türk mahkemeleri görür; Yunan bölgesinde Yunan mahkemeleri.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -707,7 +711,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "50",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Komisyon yetki alanında suç işleyen gemi görevlilerini polisiyle yetkili adlî makama teslim eder.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -723,7 +729,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "52",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Seyrüsefer konularında 37. maddedeki bütün gemiler tam eşitlik esasıyla muamele görür.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -757,7 +765,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "56",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Savaş gemileri geçişte Komisyonun seyrüsefer ve sıhhi düzenlemelerine uyar.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -775,7 +785,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "58",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Ganimet gemileri harp gemileriyle aynı şartlara tabidir.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -783,7 +795,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "59",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "Savaşan taraflar Komisyon sularında asker, mühimmat veya savaş malzemesi indiremez; kazara engelde geçiş yeniden başlar.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -791,7 +805,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "60",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm II — Boğazlar (md. 37-61 ve Ek)",
    "ozet": "57, 58 ve 59. maddeler Milletler Cemiyeti Konseyi kararıyla hareket eden savaşan tarafların yetkisini sınırlamaz.",
-   "yer": [],
+   "yer": [
+    "Boğazlar"
+   ],
    "konu": "bogazlar",
    "dogrulanmadi": false
   },
@@ -1198,7 +1214,11 @@ window.ANTLASMA_MADDELERI.push({
    "no": "97",
    "bolum": "Kısım III — Siyasi Hükümler, Bölüm VII — Suriye, Mezopotamya, Filistin",
    "ozet": "Türkiye, 132. maddeye göre bu bölümdeki konularda alınacak her kararı kabul eder.",
-   "yer": [],
+   "yer": [
+    "Suriye",
+    "Mezopotamya",
+    "Filistin"
+   ],
    "konu": "genel",
    "dogrulanmadi": false
   },
