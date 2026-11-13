@@ -2259,8 +2259,8 @@
     },
     {
      "yol": "data/olaylar_antik_yakin_dogu.js",
-     "sha": "2656d8ea4e9a32b9",
-     "bayt": 193509
+     "sha": "811cb24c77b61b4a",
+     "bayt": 194032
     },
     {
      "yol": "data/olaylar_antik_akdeniz.js",
@@ -2278,7 +2278,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1389413
+   "bayt": 1389510
   },
   {
    "paket": "data/paket_34.js",
