@@ -79,14 +79,21 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # Zend/İsfahan, 1759-02-13 Kaçar yenilgisi; data/olaylar_2s_0919.js) + 1 yeni devlet adı (kacar-esterabad).
 # Her dilde olay +3, devlet +1. Çeviri işleri site bitince yapılacak (Emre, 13 Kasım). Eski değerler:
 # devlet 1 (her dil); olay en/ar/es/de 307, pt 1424, ru 3520, fr 4420.
+# 13 Kasım 2026 (KASA 13 KASIM, altıncı parti: P2 + Lozan-Sevr + ÇELİŞKİ-1113): tavan AÇILDI (Emre 1 Kasım
+# kararı: önce ölç, aç, raporla) — arayüz +10: Lozan-Sevr mikro oynatıcısı (Başa, İleri, Oynat / duraklat,
+# "adım)", "▶ Maddeleri tek tek oynat (", "⚠ İÇERİK DOĞRULANMADI —"), P2 "kayıt yok (boşluk beyanı)" ve hakemli
+# çözümlerden çıkan yeni gün-kalıpları (Lozan/Sevr karşılaştırma, Ekim/Ocak/Mayıs/Temmuz/Aralık ay hassasiyeti,
+# "# ilkbahar (…)"); olay +2: "Lozan–Sevr farkları" maddesi ve hakemli çözümde yeniden yazılan bir madde.
+# Çeviri işleri site bitince yapılacak (Emre, 13 Kasım). Eski değerler: arayüz 18 (her dil); olay en/ar/es/de 310,
+# pt 1427, ru 3523, fr 4423.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 18, "devlet": 2, "olay": 310},
-    "ar": {"arayuz": 18, "devlet": 2, "olay": 310},
-    "es": {"arayuz": 18, "devlet": 2, "olay": 310},
-    "de": {"arayuz": 18, "devlet": 2, "olay": 310},
-    "pt": {"arayuz": 18, "devlet": 2, "olay": 1427},
-    "ru": {"arayuz": 18, "devlet": 2, "olay": 3523},
-    "fr": {"arayuz": 18, "devlet": 2, "olay": 4423},
+    "en": {"arayuz": 28, "devlet": 2, "olay": 312},
+    "ar": {"arayuz": 28, "devlet": 2, "olay": 312},
+    "es": {"arayuz": 28, "devlet": 2, "olay": 312},
+    "de": {"arayuz": 28, "devlet": 2, "olay": 312},
+    "pt": {"arayuz": 28, "devlet": 2, "olay": 1429},
+    "ru": {"arayuz": 28, "devlet": 2, "olay": 3525},
+    "fr": {"arayuz": 28, "devlet": 2, "olay": 4425},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
