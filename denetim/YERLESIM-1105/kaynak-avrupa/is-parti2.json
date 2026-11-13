@@ -1,0 +1,956 @@
+[
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 177,
+  "ad": "Caen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1417-09-04",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1417-09-04",
+    "t": "1450-06-24",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.183,
+  "lon": -0.37
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 178,
+  "ad": "Cherbourg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1418-09-29",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1418-09-29",
+    "t": "1450-08-12",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.64,
+  "lon": -1.616
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 180,
+  "ad": "Le Havre",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.494,
+  "lon": 0.108
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 182,
+  "ad": "Calais",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1347-08-03",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 50.951,
+  "lon": 1.858
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 184,
+  "ad": "Amiens",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1435-09-21",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1435-09-21",
+    "t": "1477-01-05",
+    "devlet": "burgonya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.895,
+  "lon": 2.302
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 186,
+  "ad": "Arras",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 50.291,
+  "lon": 2.777
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 188,
+  "ad": "Lille",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 50.633,
+  "lon": 3.059
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 193,
+  "ad": "Reims",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1420-05-21",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1420-05-21",
+    "t": "1429-07-16",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.258,
+  "lon": 4.031
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 194,
+  "ad": "Troyes",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1420-05-21",
+    "t": "1429-07-10",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.297,
+  "lon": 4.074
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 195,
+  "ad": "Orléans",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.902,
+  "lon": 1.909
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 196,
+  "ad": "Tours",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.394,
+  "lon": 0.685
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 197,
+  "ad": "Bourges",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.081,
+  "lon": 2.399
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 198,
+  "ad": "Angers",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.474,
+  "lon": -0.554
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 199,
+  "ad": "Le Mans",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.006,
+  "lon": 0.199
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 200,
+  "ad": "Poitiers",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1360-10-24",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 46.58,
+  "lon": 0.34
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 201,
+  "ad": "Clermont-Ferrand",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.777,
+  "lon": 3.087
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 202,
+  "ad": "Périgueux",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.184,
+  "lon": 0.721
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 203,
+  "ad": "Cahors",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 44.448,
+  "lon": 1.441
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 204,
+  "ad": "Toulouse",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.604,
+  "lon": 1.444
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 206,
+  "ad": "La Rochelle",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1360-10-24",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1360-10-24",
+    "t": "1372-09-08",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 46.16,
+  "lon": -1.152
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 207,
+  "ad": "Limoges",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1360-10-24",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1360-10-24",
+    "t": "1370-01-01",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.834,
+  "lon": 1.262
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 209,
+  "ad": "Bayonne",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.493,
+  "lon": -1.475
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 211,
+  "ad": "Pau",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1479-01-01",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1479-01-01",
+    "t": "1620-10-19",
+    "devlet": "navarra"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.296,
+  "lon": -0.37
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 214,
+  "ad": "Dijon",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.322,
+  "lon": 5.041
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 216,
+  "ad": "Besançon",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1516-01-23",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.238,
+  "lon": 6.024
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 219,
+  "ad": "Metz",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1552-04-18",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1918-11-19",
+    "t": "1940-08-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1944-11-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.12,
+  "lon": 6.176
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 221,
+  "ad": "Nancy",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.692,
+  "lon": 6.184
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 222,
+  "ad": "Strazburg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1918-11-21",
+    "t": "1940-08-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1944-11-23",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.573,
+  "lon": 7.752
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 223,
+  "ad": "Colmar",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1918-11-18",
+    "t": "1940-08-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1945-02-02",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.079,
+  "lon": 7.358
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 225,
+  "ad": "Mulhouse",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1515-01-01",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1918-11-17",
+    "t": "1940-08-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1944-11-20",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.75,
+  "lon": 7.34
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 230,
+  "ad": "Aix-en-Provence",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.53,
+  "lon": 5.447
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 231,
+  "ad": "Toulon",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.1222,
+  "lon": 5.9384
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 232,
+  "ad": "Grenoble",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.188,
+  "lon": 5.724
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 234,
+  "ad": "Avignon",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1791-09-14",
+    "t": "1792-09-22",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.949,
+  "lon": 4.806
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 239,
+  "ad": "Carpentras",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1791-09-14",
+    "t": "1792-09-22",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 44.055,
+  "lon": 5.048
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 240,
+  "ad": "Nîmes",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.837,
+  "lon": 4.36
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 241,
+  "ad": "Arles",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.677,
+  "lon": 4.63
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 244,
+  "ad": "Nice",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-06-14",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.71,
+  "lon": 7.262
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 245,
+  "ad": "Chambéry",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-06-14",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.564,
+  "lon": 5.918
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 247,
+  "ad": "Montpellier",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.611,
+  "lon": 3.877
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 248,
+  "ad": "Narbonne",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 43.184,
+  "lon": 3.003
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 250,
+  "ad": "Perpignan",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1344-01-01",
+    "t": "1463-01-01",
+    "devlet": "aragon"
+   },
+   {
+    "alan": "s",
+    "f": "1463-01-01",
+    "t": "1493-01-19",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1493-01-19",
+    "t": "1659-11-07",
+    "devlet": "ispanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 42.699,
+  "lon": 2.895
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 266,
+  "ad": "Murcia",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1296-01-01",
+    "devlet": "kastilya"
+   },
+   {
+    "alan": "s",
+    "f": "1304-08-08",
+    "t": "1479-01-19",
+    "devlet": "kastilya"
+   }
+  ],
+  "lat": 37.984,
+  "lon": -1.129
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 270,
+  "ad": "Santiago de Compostela",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1230-09-24",
+    "t": "1281-01-01",
+    "devlet": "kastilya"
+   }
+  ],
+  "lat": 42.878,
+  "lon": -8.545
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 274,
+  "ad": "Málaga",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1487-08-18",
+    "devlet": "granada"
+   },
+   {
+    "alan": "s",
+    "f": "1487-08-18",
+    "t": "2000-12-31",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 36.721,
+  "lon": -4.421
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 275,
+  "ad": "Ronda",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1485-05-22",
+    "devlet": "granada"
+   },
+   {
+    "alan": "s",
+    "f": "1485-05-22",
+    "t": "2000-12-31",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 36.742,
+  "lon": -5.167
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 276,
+  "ad": "Almería",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1489-12-22",
+    "devlet": "granada"
+   }
+  ],
+  "lat": 36.834,
+  "lon": -2.464
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 278,
+  "ad": "Cebelitarık (Gibraltar)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1309-09-12",
+    "devlet": "granada"
+   },
+   {
+    "alan": "s",
+    "f": "1374-01-01",
+    "t": "1462-08-20",
+    "devlet": "granada"
+   },
+   {
+    "alan": "s",
+    "f": "1704-08-04",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 36.14,
+  "lon": -5.353
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 282,
+  "ad": "Teruel",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1939-04-01",
+    "t": "2000-12-31",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 40.344,
+  "lon": -1.106
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 288,
+  "ad": "Alicante",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1296-01-01",
+    "devlet": "kastilya"
+   }
+  ],
+  "lat": 38.345,
+  "lon": -0.481
+ }
+]

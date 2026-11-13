@@ -1,0 +1,944 @@
+[
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 298,
+  "ad": "Motril",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1489-12-22",
+    "devlet": "granada"
+   }
+  ],
+  "lat": 36.745,
+  "lon": -3.52
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 301,
+  "ad": "Mojácar",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1488-06-10",
+    "devlet": "granada"
+   },
+   {
+    "alan": "s",
+    "f": "1488-06-10",
+    "t": "2000-12-31",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 37.139,
+  "lon": -1.851
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 310,
+  "ad": "Lagos (Algarve)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 37.102,
+  "lon": -8.674
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 311,
+  "ad": "Setúbal",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 38.524,
+  "lon": -8.893
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 312,
+  "ad": "Aveiro",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 40.641,
+  "lon": -8.654
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 315,
+  "ad": "Pamplona",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1512-07-25",
+    "devlet": "navarra"
+   },
+   {
+    "alan": "s",
+    "f": "1512-07-25",
+    "t": "1936-07-19",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 42.813,
+  "lon": -1.646
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 320,
+  "ad": "Coimbra",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 40.203,
+  "lon": -8.41
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 321,
+  "ad": "Braga",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 41.545,
+  "lon": -8.427
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 322,
+  "ad": "Évora",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 38.571,
+  "lon": -7.907
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 323,
+  "ad": "Faro",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 37.019,
+  "lon": -7.93
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 324,
+  "ad": "Bragança",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1580-08-25",
+    "devlet": "portekiz"
+   }
+  ],
+  "lat": 41.806,
+  "lon": -6.757
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 327,
+  "ad": "Ribe",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 55.328,
+  "lon": 8.766
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 328,
+  "ad": "Viborg (Jutland)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 56.451,
+  "lon": 9.402
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 329,
+  "ad": "Aarhus",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 56.157,
+  "lon": 10.21
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 330,
+  "ad": "Aalborg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 57.048,
+  "lon": 9.919
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 331,
+  "ad": "Odense",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 55.396,
+  "lon": 10.389
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 332,
+  "ad": "Kolding",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 55.491,
+  "lon": 9.472
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 333,
+  "ad": "Nykøbing (Falster)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 54.766,
+  "lon": 11.876
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 337,
+  "ad": "Flensburg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1460-03-05",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 54.783,
+  "lon": 9.436
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 338,
+  "ad": "Aabenraa",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1460-03-05",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1864-10-30",
+    "t": "1920-06-15",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1920-06-15",
+    "t": "2000-12-31",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 55.044,
+  "lon": 9.417
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 339,
+  "ad": "Sønderborg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1460-03-05",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1864-10-30",
+    "t": "1920-06-15",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 54.9116,
+  "lon": 9.7932
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 340,
+  "ad": "Haderslev",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1460-03-05",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1864-10-30",
+    "t": "1920-06-15",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 55.249,
+  "lon": 9.49
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 341,
+  "ad": "Tønder",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1460-03-05",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1864-10-30",
+    "t": "1920-06-15",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 54.934,
+  "lon": 8.866
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 344,
+  "ad": "Uppsala",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 59.858,
+  "lon": 17.639
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 345,
+  "ad": "Örebro",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 59.274,
+  "lon": 15.207
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 346,
+  "ad": "Linköping",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 58.41,
+  "lon": 15.621
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 347,
+  "ad": "Kalmar",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 56.661,
+  "lon": 16.362
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 348,
+  "ad": "Jönköping",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 57.782,
+  "lon": 14.161
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 349,
+  "ad": "Karlstad",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 59.379,
+  "lon": 13.504
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 350,
+  "ad": "Gävle",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 60.675,
+  "lon": 17.142
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 351,
+  "ad": "Falun",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 60.606,
+  "lon": 15.626
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 356,
+  "ad": "Göteborg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 57.707,
+  "lon": 11.967
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 358,
+  "ad": "Sundsvall",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   },
+   {
+    "alan": "s",
+    "f": "1523-06-06",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 62.391,
+  "lon": 17.306
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 366,
+  "ad": "Uddevalla",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   }
+  ],
+  "lat": 58.348,
+  "lon": 11.938
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 369,
+  "ad": "Bergen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 60.393,
+  "lon": 5.324
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 372,
+  "ad": "Stavanger",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 58.94,
+  "lon": 5.68
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 373,
+  "ad": "Tønsberg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 59.268,
+  "lon": 10.407
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 375,
+  "ad": "Kristiansand",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1641-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 58.147,
+  "lon": 7.996
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 377,
+  "ad": "Trondheim",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 63.431,
+  "lon": 10.395
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 380,
+  "ad": "Turku (Åbo)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   }
+  ],
+  "lat": 60.452,
+  "lon": 22.267
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 382,
+  "ad": "Hämeenlinna",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   }
+  ],
+  "lat": 60.996,
+  "lon": 24.464
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 383,
+  "ad": "Viipuri (Vyborg)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1523-06-06",
+    "devlet": "isvec-birlik-oncesi"
+   }
+  ],
+  "lat": 60.713,
+  "lon": 28.733
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 387,
+  "ad": "Rotterdam",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 51.924,
+  "lon": 4.478
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 388,
+  "ad": "Utrecht",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 52.091,
+  "lon": 5.121
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 389,
+  "ad": "Groningen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1514-01-01",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1536-12-10",
+    "t": "1581-07-26",
+    "devlet": "habsburg-hollandasi"
+   },
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 53.219,
+  "lon": 6.567
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 390,
+  "ad": "Leeuwarden",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1515-01-01",
+    "t": "1581-07-26",
+    "devlet": "habsburg-hollandasi"
+   },
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 53.201,
+  "lon": 5.8
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 391,
+  "ad": "Nijmegen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 51.843,
+  "lon": 5.852
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 392,
+  "ad": "Middelburg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 51.498,
+  "lon": 3.61
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 393,
+  "ad": "Leiden",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 52.16,
+  "lon": 4.497
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 394,
+  "ad": "Delft",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 52.012,
+  "lon": 4.357
+ }
+]
