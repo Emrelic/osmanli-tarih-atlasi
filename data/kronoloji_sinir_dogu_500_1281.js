@@ -577,7 +577,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0895-01-01",
+  "t": "0896-01-01",
   "devlet": "tang-jin-shatuo-prensligi",
   "taraflar": [
    "tang-jin-shatuo-prensligi",
@@ -596,10 +596,10 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "dogu-500-1281"
   ],
   "d": "Wang Xingyu’nun yenilgisinin ardından Tang sarayı Hedong valisi Li Keyong’un unvanını Jin Prensi’ne yükseltti; Taiyuan (Jinyang) Shatuo prensliğinin merkezi oldu. (Taiyuan sahibi tang → tang-jin-shatuo-prensligi)",
-  "kaynak": "Sima Guang, Zizhi tongjian, juan 260 (zh.wikisource.org/wiki/資治通鑑/卷260; açıldı, okundu; Qianning 2 / 895 bölümü): «乙未，進李克用爵晉王，加李罕之兼侍中。»; Xin Wudai shi, juan 4 (zh.wikisource.org/wiki/新五代史/卷04; okundu): «拜克用「忠正平難功臣」，封晉王。»",
-  "gun": "895 (Qianning 2) — ay/gün yok (乙未 günü kaynakta ay belirtilmeden)",
-  "kesinlik": "yil",
-  "ic_not": "Ay/gün kaynakta yok; yıl 895. Künye (ms1) f=0902-01-01 diyor: künye f 0895-01-01 olmalı (öneri). Li Keyong Hedong valisi olarak 883’ten beri Taiyuan’dadır; Tang resmî egemen kaldı — BEYANLI YAKLAŞIKLIK.",
+  "kaynak": "Sima Guang, Zizhi tongjian, juan 260 (zh.wikisource.org/wiki/資治通鑑/卷260; açıldı, okundu; Qianning 2 (895) 12. ay, Jülyen 0896-01-01): «乙未，進李克用爵晉王，加李罕之兼侍中。»; Xin Wudai shi, juan 4 (zh.wikisource.org/wiki/新五代史/卷04; okundu): «拜克用「忠正平難功臣」，封晉王。»",
+  "gun": "1 Ocak 896 (Jülyen; Qianning 2, 12. ay, 乙未)",
+  "kesinlik": "gun",
+  "ic_not": "D4D-2 (14 Kasım 2026): ZZTJ juan 260 乾寧二年 12. ay 乙未 (aynı ayın 甲申'i Jülyen 895-12-21; gan-zhi→JDN) = Jülyen 0896-01-01; künye f 0902-01-01 → 0896-01-01 genişletildi (devletler.js ic_not_f). Eski not: yıl 895 (Çin yılı Qianning 2). Li Keyong Hedong valisi olarak 883’ten beri Taiyuan’dadır; Tang resmî egemen kaldı — BEYANLI YAKLAŞIKLIK.",
   "sinir_id": []
  },
  {
