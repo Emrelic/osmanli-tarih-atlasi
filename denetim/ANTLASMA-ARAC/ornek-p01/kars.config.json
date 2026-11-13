@@ -1,0 +1,13 @@
+{
+ "id": "kars-1921",
+ "ad": "Kars Antlaşması",
+ "anahtarlar": ["Kars Antlaşması"],
+ "onceki_t": "1921-03-16",
+ "t": "1921-10-13",
+ "kadraj": [40, 38.5, 50, 43.5],
+ "kaynak": "Ham metin (20 madde + Ek I-III, Türkçe resmî çeviri): İsmail Soysal, Türkiye'nin Siyasal Antlaşmaları I (1920-1945), TTK 1983, s.41-47 (tr.wikisource.org 'Kars Antlaşması' barındırıcısından HAM METİN okundu; Wikisource yalnız barındırıcıdır). Gün: metinde 'Kars, 13 Ekim 1921'. TDV: 'Kars Antlaşması' adlı ayrı madde YOK (islamansiklopedisi.org.tr/kars-antlasmasi arama sayfasına düşer, bulunamadı); TDV KARS maddesi (Tufan Gündüz) Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarını anar = aynı gün, çelişki yok. BEYAN: ikinci bağımsız metin neşri (Hurewitz/LNTS/Düstur) okunmadı; Ek I ve II kaynakta yalnız Moskova eklerine atıfla özetlenmiştir, Ek III metni okundu. Yer işaretleri yaklaşık odaktır.",
+ "cikti": "data/antlasma_madde_kars.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p01/kars-girdi.json"],
+ "yerler_ek": {"Kars": [43.09, 40.6], "Ardahan": [42.7, 41.11], "Sarp": [41.54, 41.51], "Arpaçay": [43.33, 40.85], "Nahçıvan": [45.41, 39.21], "Tiflis": [44.79, 41.72], "Erivan": [44.51, 40.18], "Moskova": [37.62, 55.75]},
+ "madde_sayisi": 20
+}

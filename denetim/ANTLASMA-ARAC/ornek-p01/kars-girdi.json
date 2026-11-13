@@ -1,0 +1,28 @@
+{"maddeler":[
+{"no":"giriş","bolum":"Giriş","ozet":"TBMM hükûmeti ile Ermenistan, Azerbaycan ve Gürcistan Sovyet cumhuriyetleri, Rusya'nın da katılımıyla, dostluk antlaşması için görüşmeye karar verir; temsilciler Kars'ta toplanmıştır.","yer":["Kars"],"konu":"giris"},
+{"no":1,"bolum":"Eski antlaşmaların geçersizliği","ozet":"Taraflar, kendi topraklarına ilişkin eski egemenler arasındaki ve üçüncü devletlerle Güney Kafkasya hakkında yapılmış antlaşmaları geçersiz sayar; 16 Mart 1921 Moskova Antlaşması bunun dışındadır.","yer":["Moskova"],"konu":"hukuk"},
+{"no":2,"bolum":"Zorla kabul ettirilen belgeler","ozet":"Taraflar zorla dayatılan hiçbir barış ya da uluslararası belgeyi tanımamayı üstlenir; «Türkiye» terimi Misak-ı Millî'nin kapsadığı toprakları ifade eder.","yer":["Türkiye"],"konu":"siyasi"},
+{"no":3,"bolum":"Kapitülasyonlar","ozet":"Üç Sovyet cumhuriyeti kapitülasyon rejimini egemenlikle bağdaşmaz bularak Türkiye'deki bu yöndeki bütün hak ve yetkileri geçersiz ve kaldırılmış sayar.","yer":["Türkiye"],"konu":"hukuk"},
+{"no":4,"bolum":"Kuzeydoğu sınırı","ozet":"Türkiye'nin kuzeydoğu sınırı Sarp köyünden başlar, Ardahan ve Kars sancaklarının kuzeyini izleyip Arpaçay ile Aras boyunca Karasu'nun döküldüğü yere uzanır; karma komisyon yerinde belirler.","yer":["Sarp","Kars","Ardahan","Arpaçay"],"konu":"sinir"},
+{"no":5,"bolum":"Nahçıvan","ozet":"Türkiye, Ermenistan ve Azerbaycan, III sayılı Ekteki sınırlar içinde Nahçıvan bölgesinin Azerbaycan'ın koruyuculuğunda özerk bir ülke olmasında anlaşır.","yer":["Nahçıvan","Azerbaycan"],"konu":"sinir"},
+{"no":6,"bolum":"Batum","ozet":"Türkiye, Batum livasının ve Batum kenti ile limanının egemenliğini, halka geniş özerklik ve Türkiye'ye serbest geçiş koşullarıyla Gürcistan'a bırakmayı kabul eder; uygulama komisyonu kurulur.","yer":["Batum","Gürcistan"],"konu":"sinir"},
+{"no":7,"bolum":"Sınır halkı","ozet":"Türkiye ile Gürcistan, ortak sınır bölgesi halklarının karma komisyonca konan gümrük, polis ve sağlık kurallarına uyarak sınırı geçmesini kolaylaştırmayı üstlenir.","yer":["Gürcistan"],"konu":"sinir"},
+{"no":8,"bolum":"Otlaklar","ozet":"Türkiye ve Gürcistan, sınır halklarının hayvanlarını sınırın öte yanındaki yaz ve kış otlaklarına geçirmesine izin verir; işlemleri karma komisyon belirler.","yer":["Gürcistan"],"konu":"sinir"},
+{"no":9,"bolum":"Boğazlar","ozet":"Türkiye ve Gürcistan, Karadeniz ve Boğazlar rejimini kıyı devletlerinin ilerideki konferansına bırakmayı uygun bulur; kararlar Türkiye'nin egemenliğine ve İstanbul'un güvenliğine zarar vermemelidir.","yer":["Boğazlar","Karadeniz","İstanbul"],"konu":"bogazlar"},
+{"no":10,"bolum":"Düşman örgütler","ozet":"Taraflar, karşı tarafın hükûmeti olma iddiasındaki örgütlerin ya da ona karşı savaşan grupların kendi topraklarında kurulmasına izin vermemeyi yükümlenir.","yer":[],"konu":"siyasi"},
+{"no":11,"bolum":"Uyrukların askerlik muafiyeti","ozet":"Bir tarafın uyrukları öbür tarafın topraklarında yerleşik yasalara tabi olur, ancak ulusal savunma yasalarından bağışıktır; aile ve ehliyet işleri özel anlaşmaya bırakılır.","yer":[],"konu":"hukuk"},
+{"no":12,"bolum":"En çok gözetilen ulus","ozet":"Taraflar birbirinin uyruklarına en çok gözetilen ulus işlemini uygular; Sovyet cumhuriyetlerinin birbirine ve Türkiye'nin Müslüman müttefiklerine tanıdığı haklar kapsam dışıdır.","yer":[],"konu":"ekonomik"},
+{"no":13,"bolum":"Uyrukluk seçimi","ozet":"Egemenliği doğrulanan topraklarda Türk uyrukluğundan çıkmak isteyenler ile Gürcistan'a bırakılan topraklarda Gürcü uyrukluğundan çıkmak isteyenler mallarını alarak ayrılma hakkına sahiptir.","yer":["Gürcistan"],"konu":"hukuk"},
+{"no":14,"bolum":"Mülteciler","ozet":"Taraflar, imzadan sonra altı ay içinde 1918 ve 1920 savaşlarının mültecileri hakkında özel bir anlaşma yapmayı yükümlenir.","yer":[],"konu":"siyasi"},
+{"no":15,"bolum":"Genel af","ozet":"Her taraf, Kafkas cephesindeki savaş nedeniyle işlenen suçlar için öbür tarafın uyrukları lehine imzadan hemen sonra genel af ilan eder.","yer":[],"konu":"siyasi"},
+{"no":16,"bolum":"Esirlerin dönüşü","ozet":"Taraflar, imzadan sonra iki ay içinde topraklarındaki eski asker ve sivil tutsakları karşılıklı olarak yurtlarına geri gönderir.","yer":[],"konu":"esirler"},
+{"no":17,"bolum":"Ulaşım","ozet":"Taraflar demiryolu, telgraf ve benzeri ulaşım ile iletişimi korumayı, kişi ve malların serbest geçişi için önlem almayı üstlenir; giriş çıkışta iç yasalar uygulanır.","yer":[],"konu":"ekonomik"},
+{"no":18,"bolum":"Ticaret komisyonu","ozet":"Ticaret, parasal ve ekonomik işleri çözmek üzere imzadan sonra Tiflis'te ilgili ülke temsilcilerinden bir komisyon toplanır.","yer":["Tiflis"],"konu":"ekonomik"},
+{"no":19,"bolum":"Konsolosluk sözleşmeleri","ozet":"Taraflar imzadan sonra üç ay içinde konsolosluk sözleşmeleri yapmayı yükümlenir.","yer":[],"konu":"siyasi"},
+{"no":20,"bolum":"Onay ve yürürlük","ozet":"Antlaşma onaya tâbidir; onay belgeleri Erivan'da verilir. 6, 14, 15, 16, 18 ve 19. maddeler imzayla, geri kalanı onay belgelerinin verilmesiyle yürürlüğe girer.","yer":["Erivan"],"konu":"usul"}
+],
+"ekler":[
+{"ad":"Ek I","ozet":"Sınır çizgisini tanımlar; 16 Mart 1921 tarihli Moskova Antlaşması'nın 1 (A) Ekiyle neredeyse aynıdır, farkı Gürcistan-Ermenistan ve Ermenistan-Azerbaycan sınırlarının kesiştiği yerlerin de belirtilmesidir (kaynakta kısa not olarak verilmiştir).","okundu":true,"yer":["Kars","Ardahan"],"madde_say":1},
+{"ad":"Ek II","ozet":"Metni, Moskova Antlaşması'nın 1 (B) Ekiyle aynıdır (kaynakta yalnız bu atıfla verilmiştir).","okundu":true,"yer":[],"madde_say":1},
+{"ad":"Ek III","ozet":"Nahçıvan topraklarının sınırını Urmiye köyünden eski Nahçıvan kazasının doğu idarî sınırına dek dağ ve köy adlarıyla tarif eder.","okundu":true,"yer":["Nahçıvan"],"madde_say":1}
+]}
