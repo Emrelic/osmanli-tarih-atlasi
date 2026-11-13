@@ -265,7 +265,8 @@
       '<div class="amo-dugmeler"><button type="button" class="amo-basa" title="Başa">⏮</button>' +
       '<button type="button" class="amo-geri" title="Geri">◀</button>' +
       '<button type="button" class="amo-oyna" title="Oynat / duraklat">▶</button>' +
-      '<button type="button" class="amo-ileri" title="İleri">▶▶</button></div>' +
+      '<button type="button" class="amo-ileri" title="İleri">▶▶</button>' +
+      '<button type="button" class="amo-fark" title="Haritayı el değiştiren bölgelere (yoksa antlaşma kadrajına) çerçevele">⌖ Farka odaklan</button></div>' +
       '<input type="range" class="amo-kayar" min="0" max="' + (kayit.adimlar.length - 1) + '" value="0">' +
       '<div class="amo-kaynak"></div>';
     kap.appendChild(p);
@@ -284,6 +285,14 @@
       var ky = AKTIF.panel.querySelector(".amo-kayar");
       ky.max = String(Math.max(0, AKTIF.liste.length - 1));
       adimGoster(0);
+    });
+    // «Farka odaklan» (app.js ANT_FARK ile aynı kutu): el değiştiren bölgelerin çerçevesi; ANT_FARK o an yoksa kayıt kadrajı
+    p.querySelector(".amo-fark").addEventListener("click", function () {
+      durdur();
+      if (!hazirMi()) return;
+      var kb = (typeof ANT_FARK !== "undefined" && ANT_FARK && ANT_FARK.madde && ANT_FARK.kutu) ? ANT_FARK.kutu : AKTIF.kayit.kadraj;
+      try { harita.fitBounds([[kb[0], kb[1]], [kb[2], kb[3]]], { padding: 50, duration: 900, maxZoom: 7, essential: true }); }
+      catch (err) { console.warn("[antlaşma oynatıcı] farka odaklan", err); }
     });
     p.querySelector(".amo-basa").addEventListener("click", function () { durdur(); adimGoster(0); });
     p.querySelector(".amo-geri").addEventListener("click", function () { durdur(); adimGoster(AKTIF.i - 1); });
