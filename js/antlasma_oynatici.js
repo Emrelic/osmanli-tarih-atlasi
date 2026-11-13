@@ -104,6 +104,35 @@
     var E = window.ANTLASMA_ESLESME;
     return donem === "savas" ? E.savasOncesiGun(k) : donem === "once" ? E.oncekiGun(k) : E.sonrakiGun(k);
   }
+  // 🔴 Harita boyaması güvencesi: app.js guncelle() petek verisini YALNIZ `haritaHazir && di !== aktifDonem`
+  // iken setData ile çizer; harita (stil) henüz hazır değilken tarihAyarla çağrılırsa ya da guncelle() içinde
+  // bir hata (örn. `points`) çizimi yarıda keserse aktifDonem yeni döneme işaretli kalıp harita ESKİ hâlde kalabilir.
+  // Burada: tarih değiştikten sonra aktifDonem ≠ donemBul(suanki) ise aktifDonem sıfırlanıp guncelle() yeniden
+  // çağrılır; harita hazır değilse hazır olana dek (≤ 8 sn) 400 ms aralıkla yeniden denenir. Hata yutulmaz, uyarılır.
+  function haritaYenidenCizGuvence(deneme) {
+    deneme = deneme || 0;
+    try {
+      if (typeof haritaHazir === "undefined" || typeof donemBul !== "function" || typeof guncelle !== "function") return;
+      var di = donemBul(suanki);
+      if (!haritaHazir) {
+        if (deneme < 20) setTimeout(function () { haritaYenidenCizGuvence(deneme + 1); }, 400);
+        return;
+      }
+      if (di >= 0 || di === -2 || di === -3) {
+        if (aktifDonem !== di) { guncelle(); }                 // normal yol zaten çizdiyse dokunma
+        else if (deneme === 0) {
+          // aktifDonem doğru görünüyor ama çizim yarıda kalmış olabilir: bir kez zorla yeniden çiz
+          var kaynak = harita && harita.getSource && harita.getSource("osmanli");
+          if (kaynak && kaynak._data && kaynak._data.features && !kaynak._data.features.length && di >= 0) {
+            aktifDonem = null; guncelle();
+          }
+        }
+      }
+    } catch (e) {
+      console.warn("[antlaşma oynatıcı] harita yeniden çizim güvencesi", e);
+      if ((deneme || 0) < 3) setTimeout(function () { haritaYenidenCizGuvence((deneme || 0) + 1); }, 600);
+    }
+  }
   function donemAyarla(donem) {
     if (!AKTIF || !tarihKullanilabilir()) return;
     var k = AKTIF.kayit;
@@ -112,6 +141,7 @@
     AKTIF.donemKilit = Date.now() + 4000;      // obGoster sarmalayıcısı bu süre içinde paneli kapatmaz (aşağıda)
     try { tarihAyarla(GUN.gun(donemGunu(k, donem))); AKTIF.tarihDegisti = true; }
     catch (e) { console.warn("[antlaşma oynatıcı] tarih", e); }
+    haritaYenidenCizGuvence();
     var p = AKTIF.panel;
     ["savas", "once", "sonra"].forEach(function (d) {
       var b = p.querySelector(".amo-" + d);

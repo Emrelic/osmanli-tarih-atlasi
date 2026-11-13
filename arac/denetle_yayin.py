@@ -2141,7 +2141,20 @@ def main():
         _ceviri_ihlali = True
         print("\n✗  ÇEVİRİ TAVANI ÖLÇÜLEMEDİ: %s" % str(_e)[:90])
 
-    if (_kapi_ihlali or _ceviri_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
+    # 🆕 ANTLAŞMA VERİ SÖZLEŞMESİ (EMRELIC 13 Kasım 2026): data/antlasma_madde_*.js şema/kaynak/kronoloji
+    # bağı. Çıkış 0 temiz · 1 ihlal · 2 ölçülemedi (ikisi de yayını durdurur; 2 temiz değildir).
+    try:
+        _ant = subprocess.run([sys.executable, os.path.join(KOK, "arac", "antlasma_dogrula.py")],
+                              cwd=KOK, capture_output=True, timeout=300)
+        _antlasma_ihlali = _ant.returncode != 0
+        _ant_son = (_ant.stdout.decode("utf-8", "replace").strip().splitlines() or ["(çıktı yok)"])[-1]
+        print()
+        print("%s  ANTLAŞMA VERİ SÖZLEŞMESİ (çıkış %d): %s" % ("✗" if _antlasma_ihlali else "✓", _ant.returncode, _ant_son))
+    except Exception as _e:                                 # noqa: BLE001
+        _antlasma_ihlali = True
+        print("\n✗  ANTLAŞMA DOĞRULAMA ÖLÇÜLEMEDİ: %s" % str(_e)[:90])
+
+    if (_kapi_ihlali or _ceviri_ihlali or _antlasma_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke
