@@ -34,6 +34,10 @@ Kıyı/çekirdek (40, uzatma kaldı): Achaea+Epirus 22 (hepsi Yunan çekirdeği)
 İç (17, BOŞLUK'a çevrildi; kesim yılı kaynaklı): 547 (TDV Sırbistan, ilk Slav akınları — kayıp yılı değil, BEYANLI): Niş, Belgrad, Vidin, Semendire, Ćuprija, Kurşunlu, Ürküp, Üsküp, Doclea · 681 (TDV Bulgaristan, Slav-Bulgar Devleti): Silistre, Tutrakan, Hırsova, Tulça, Maçin, Lofça · 831 (TDV Bulgaristan, Malamir Filibe'yi aldı; Eski Zağra Filibe'den devralındı): Filibe, Eski Zağra. Formül: «BOŞLUK BEYANI (arandı, bulunamadı)». 3 yeni madde (547, 681, 831; Değişmez 2). Pannonia (12) ve Dalmatia-Batı (10) zaten BOŞLUK.
 Ayırt edilemeyen: kıyı/iç sınırı koordinat+bölge ile verildi; Pleiades/DARE kıyıya uzaklık ölçülmedi; TDV 971 (Trakya+Kuzey Bulgaristan) ve 1018 (tüm Bulgar toprakları) Bizans dönüşleri şehre özgü olmadığından yazılmadı. Dacia: kaynaksız terk yılı, yazılmadı. Toplam madde 17.
 
+## 3c. REVİZYON-2 (KASA): şehir bazlı TDV el değişimi (Edirne, Dimetoka)
+Edirne: TDV Bulgaristan «Edirne (813) alındı» → bizans 395→813, sonra beyanlı BOŞLUK 813→1000 (birinci-bulgar kimliği BOYALAR'da var ama Bulgar diliminin bitişi yazılamadı: TDV Edirne Bizans dönüşünü yılsız verir, «zaptı 914» zapteden adsız; 971/1018 bölge düzeyi, şehre bağlanmadı). Dimetoka: TDV «Dimetoka» 813 Krum; 1230-1246 Bulgar (mevcut ilk dilim 1230) → aynı kalıp, BOŞLUK 813→1230. 1 yeni madde (813, Değişmez 2; toplam 18).
+Bulunamadı (TDV şehir/bölge maddesinde yıllı Bulgar-Bizans el değişimi yok, kıyıda Bizans uzatması KALDI): Lüleburgaz (yalnız yılsız «Bulgar Kralı Aleksandr geri aldı»), Çorlu, Silivri, Enez, Vize, Havsa, Babaeski, Mustafapaşa, İğneada, Ahtapolu (TDV'de ayrı madde yok/yılsız); Burgaz maddesi yok; Kırklareli yalnız yılsız Bulgar akınları. Tekirdağ/Gelibolu/Yanbolu/Sozopol bu turun yerleşimi değil (Gelibolu TDV: 1235 İznik geri aldı — ayrı iş).
+
 ## 4. Karar soruları
 1. Bizans'ın 395→1000/1281 sürekli uzatması (Slav/Bulgar 681/Frank 1204 atlanıyor) kabul mü, yoksa Pannonia gibi beyanlı boşluk mu?
 2. Dacia için Aurelianus yılı (271 vs 275) kabul edilebilir bir akademik kaynak (Brill's New Pauly / CAH XII) tam metin erişimi olan makinede yazılsın mı?
