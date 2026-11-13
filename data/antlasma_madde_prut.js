@@ -50,7 +50,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Genel çerçeve",
    "bolum": "Genel çerçeve",
-   "ozet": "Prut kıyısında kuşatılan Rus ordusunun barış istemesiyle, Baltacı Mehmed Paşa ile Çar adına Şafirov ve Şeremetev arasında yedi maddelik ön barış yapıldı; Osmanlı ve Rus nüshaları aynı değildir.",
+   "ozet": "Prut kıyısında kuşatılan Rus ordusunun barış istemesiyle, Baltacı Mehmed Paşa ile Çar adına Şafirov ve Mihail Şeremetev (general-majör; mareşal Boris Şeremetev değil) arasında yedi maddelik ön barış yapıldı; Osmanlı ve Rus nüshaları aynı değildir.",
    "yer": [
     "Prut Nehri"
    ],
@@ -113,7 +113,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Osmanlı nüshası md. 6",
    "taraf": "Osmanlı nüshası",
    "bolum": "Osmanlı nüshası (Sadrazamın padişaha sunduğu metin)",
-   "ozet": "Osmanlı’ya sığınan İsveç Kralı’nın Rusların engeli olmadan ülkesine dönmesine izin verilecek; kral isterse ayrıca Rusya ile barış yapabilecektir.",
+   "ozet": "Osmanlı’ya sığınan İsveç Kralı’nın Rusların engeli olmadan ülkesine dönmesine izin verilecek; iki taraf isterse (koşul karşılıklıdır) ayrıca Rusya ile barış yapabilecektir.",
    "yer": [],
    "konu": "siyasi",
    "dogrulanmadi": false
@@ -131,7 +131,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Osmanlı nüshası rehine",
    "taraf": "Osmanlı nüshası",
    "bolum": "Osmanlı nüshası (Sadrazamın padişaha sunduğu metin)",
-   "ozet": "Sözleşmenin yerine getirilmesi için Şafirov ile Şeremetev’in oğlu rehine tutulacak, hükümler uygulanınca bırakılacaklardır; ordu serbestçe dönebilecektir. Metin 6 Cemaziyelahir 1123 (21 Temmuz 1711) tarihlidir.",
+   "ozet": "Sözleşmenin yerine getirilmesi için Şafirov ile Şeremetev’in torunu (Dumont: petit-fils) rehine tutulacak (Çar’ın vereceği rehineler sonradan kararlaştırılır), hükümler uygulanınca bırakılacaklardır; ordu serbestçe dönebilecektir. Metin 6 Cemaziyelahir 1123 (21 Temmuz 1711) tarihlidir.",
    "yer": [],
    "konu": "genel",
    "dogrulanmadi": false

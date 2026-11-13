@@ -20,7 +20,7 @@ window.ANTLASMA_MADDELERI.push({
   "Küçük Kaynarca"
  ],
  "eslesme_kipi": "acik",
- "kaynak": "OKUNAN (ham/neşir metin): Fransızca neşir — Gabriel Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (1300-1789), No 36 «Traité de paix définitif avec la Russie conclu au camp près du village de Kutschuk Kaïnardji le 10/21 Juillet 1774 (14 Djemasi-ul-evvel 1188)», 28 madde + 2 ayrı madde (archive.org «recueildactesin03turkgoog», djvu OCR metni curl ile indirildi, satır satır okundu; OCR hatalı sözcükler özet dışı bırakıldı, madde numaraları metindeki sıradan alındı). TARİH: atlas günü 21 Temmuz 1774 Gregoryen = Rus/Jülyen 10 Temmuz 1774 (Noradounghian «10/21 juillet»; Davison, Slavic Review 35/3, 1976 ve Britannica da 21 Temmuz; TDV «Küçük Kaynarca Antlaşması» (WebFetch özetleyici aracıyla okundu, ham gövde görülmedi) imza 21 Temmuz, tasdik 26 Temmuz der; atlas olaylar/kronoloji_kirim 21 Temmuz ile uyumlu, kronoloji_cok_senkron_0930'daki 26 Temmuz kaydı tasdik günüdür). Hicrî 14 Cemaziyelevvel 1188 tablo (aritmetik) hesabıyla 23 Temmuz'a düşer (±2 gün gözlemsel takvim farkı); gün seçiminde KULLANILMADI. NÜSHALAR: Noradounghian metni Fransızcadır; md. 28'e göre mühürlü esas nüshalar Rusça-İtalyanca (Rumyantsev) ve Türkçe-İtalyanca (sadrazam) düzenlenmiştir. İtalyanca esas nüsha, Rusça metin ve Osmanlıca nüsha OKUNMADI; nüshalar arası farklar (özellikle md. 7 ve 14'te kilise ve himaye ifadesi) bu kayıtta karşılaştırılmadı. TDV (aynı özetleyici araç) md. 7/14'ün Rus resmî Fransızca çevirisinde özgün lafzın çarpıtıldığını, antlaşmanın Rusya'ya Osmanlı Ortodoksları üzerinde genel himaye hakkı vermediğini söylüyor; Davison da aynı tartışmayı «Rusya'nın hakkı vardı / belirsizdi / yoktu» diye üç görüş olarak özetliyor (makale ücretli, yalnız özet okundu). Madde numaralarındaki atıf tutarsızlıkları (md. 7/14 yerine 12/14 diyen eski atıflar) literatürde bilinir; esas numaralandırma Noradounghian sırasıdır. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi ve bibliyografyası, Osman Köse, 1774 Küçük Kaynarca Andlaşması (TTK 2006), Hurewitz, Martens, Rusça PSZRI metni. Özetler KENDİ cümlemizle.",
+ "kaynak": "OKUNAN (ham/neşir metin): Fransızca neşir — Gabriel Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (1300-1789), No 36 «Traité de paix définitif avec la Russie conclu au camp près du village de Kutschuk Kaïnardji le 10/21 Juillet 1774 (14 Djemasi-ul-evvel 1188)», 28 madde + 2 ayrı madde (archive.org «recueildactesin03turkgoog», djvu OCR metni curl ile indirildi, satır satır okundu; OCR hatalı sözcükler özet dışı bırakıldı, madde numaraları metindeki sıradan alındı). TARİH: atlas günü 21 Temmuz 1774 Gregoryen = Rus/Jülyen 10 Temmuz 1774 (Noradounghian «10/21 juillet»; Davison, Slavic Review 35/3, 1976 ve Britannica da 21 Temmuz; TDV «Küçük Kaynarca Antlaşması» (WebFetch özetleyici aracıyla okundu, ham gövde görülmedi) imza 21 Temmuz, tasdik 26 Temmuz der; atlas olaylar/kronoloji_kirim 21 Temmuz ile uyumlu, kronoloji_cok_senkron_0930'daki 26 Temmuz kaydı tasdik günüdür). Hicrî 14 Cemaziyelevvel 1188 tablo (aritmetik) hesabıyla 23 Temmuz'a düşer (±2 gün gözlemsel takvim farkı); gün seçiminde KULLANILMADI. NÜSHALAR: Noradounghian metni Fransızcadır; md. 28'e göre mühürlü esas nüshalar Rusça-İtalyanca (Rumyantsev) ve Türkçe-İtalyanca (sadrazam) düzenlenmiştir. İtalyanca esas nüsha, Rusça metin ve Osmanlıca nüsha OKUNMADI; nüshalar arası farklar (özellikle md. 7 ve 14'te kilise ve himaye ifadesi) bu kayıtta karşılaştırılmadı. TDV (aynı özetleyici araç) md. 7/14'ün Rus resmî Fransızca çevirisinde özgün lafzın çarpıtıldığını, antlaşmanın Rusya'ya Osmanlı Ortodoksları üzerinde genel himaye hakkı vermediğini söylüyor; Davison da aynı tartışmayı «Rusya'nın hakkı vardı / belirsizdi / yoktu» diye üç görüş olarak özetliyor (makale ücretli, yalnız özet okundu). Madde numaralarındaki atıf tutarsızlıkları (md. 7/14 yerine 12/14 diyen eski atıflar) literatürde bilinir; esas numaralandırma Noradounghian sırasıdır.  LAB BAĞIMSIZ DENETİM 14 Kasım 2026 (denetim/LAB-HAM-KARSILASTIRMA-1114.md): md. 6 sarhoşken verilen beyan, md. 11 boğaz geçişinin tek yönlü Rus hakkı olması ve md. 23 Gürcü/Megrelli tebaalığı ile kale sahipliği nüsha farkı (Noradounghian ↔ Holland 1877) ham metne göre düzeltildi. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi ve bibliyografyası, Osman Köse, 1774 Küçük Kaynarca Andlaşması (TTK 2006), Hurewitz, Martens, Rusça PSZRI metni. Özetler KENDİ cümlemizle.",
  "yerler": {
   "Küçük Kaynarca": [
    27.13,
@@ -222,7 +222,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "6",
    "bolum": "Diplomasi",
-   "ozet": "Rus elçisinin hizmetindeki biri suç işleyip cezadan kaçmak için Müslüman olmak isterse engellenmez, ancak önce cezasını çeker ve çaldığını öder; sarhoşken verilen din değiştirme beyanı hükümsüzdür.",
+   "ozet": "Rus elçisinin hizmetindeki biri suç işleyip cezadan kaçmak için Müslüman olmak isterse engellenmez, ancak önce cezasını çeker ve çaldığını öder; sarhoşken verilen din değiştirme beyanı ayılana kadar kabul edilmez; kişi ayıldıktan sonra elçinin tayin ettiği kişi ve tarafsız bir Müslüman önünde beyanı yeniden alınır.",
    "yer": [],
    "konu": "diplomasi",
    "dogrulanmadi": false
@@ -268,7 +268,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "11",
    "bolum": "Ticaret ve Boğazlar",
-   "ozet": "İki devletin ticaret gemileri Karadeniz ile Akdeniz arasında, aradaki geçit ve kanallardan serbestçe geçer; Ruslar Tuna'da da ticaret yapar. Fransız ve İngiliz kapitülasyonları Ruslara da uygulanır, konsolos atanabilir.",
+   "ozet": "Babıâli, Rus ticaret gemilerine Karadeniz ile Akdeniz arasında Boğazlardan ve aradaki geçit ve kanallardan serbest geçiş hakkı verir (geçiş hakkı tek yönlüdür; karşılıklı olan yalnız tarafların kendi kıyılarını yıkayan denizlerde serbest seyirdir); Ruslar Tuna'da da ticaret yapar. Fransız ve İngiliz kapitülasyonları Ruslara da uygulanır, konsolos atanabilir.",
    "yer": [
     "Karadeniz",
     "Boğazlar",
@@ -397,7 +397,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "23",
    "bolum": "Gürcistan ve Megrelya",
-   "ozet": "Rusların aldığı Gürcistan ve Megrelya kaleleri eski sahiplerine bırakılır, Rus ordusu bölgeden çekilir. Babıâli genel af verir, çocuk haracını ve başka haraçları ebediyen kaldırır, dinî özgürlüğü korur.",
+   "ozet": "Rusların aldığı Gürcistan ve Megrelya kaleleri bırakılır (nüsha farkı: Noradounghian metni kaleleri eski sahiplerine, Holland çevirisi eskiden Babıâli’nin elindeyse Babıâli’ye verir), Rus ordusu bölgeden çekilir; Gürcüler ve Megrelliler Babıâli’nin tebaası olarak kalır, Rusya bunların işine karışmaz. Babıâli genel af verir, çocuk haracını ve başka haraçları ebediyen kaldırır, dinî özgürlüğü korur.",
    "yer": [
     "Gürcistan",
     "Megrelya",

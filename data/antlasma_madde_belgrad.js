@@ -182,7 +182,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Habsburg md. 5",
    "taraf": "Habsburg",
    "bolum": "Osmanlı–Habsburg barışı",
-   "ozet": "Orşova adası ve kalesi ile Sent Elizabet kalesi Osmanlı’da kalır; Temeşvar Banatı Eflak sınırına dek Habsburg’a ait olup Orşova karşısındaki küçük ova ve Mehadiye kalesinin yıkımı özel olarak düzenlenir.",
+   "ozet": "Orşova adası ve kalesi ile Sent Elizabet kalesi Osmanlı’da kalır; Temeşvar Banatı Eflak sınırına dek Habsburg’a ait olup Orşova karşısındaki ova Osmanlı’da kalır; Mehadiye Habsburg’da kalır ama tahkimatı Osmanlılarca yıkılır ve yeniden yapılmaz; Çerna suyunun bir yıl içinde (Osmanlı hesabına) çevrilmesi şartıyla Eski Orşova Osmanlı’ya geçer.",
    "yer": [
     "Orşova",
     "Temeşvar",
@@ -477,7 +477,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Rusya md. 9",
    "taraf": "Rusya",
    "bolum": "Osmanlı–Rus barışı",
-   "ozet": "Osmanlı tüccarı bütün Rusya’da, Rus tüccarı da Osmanlı’da diğer devletlerle aynı gümrük ve koşullarda serbestçe ticaret yapar; Karadeniz’de Rus ticareti Türk gemileriyle yürütülür.",
+   "ozet": "Osmanlı tüccarı bütün Rusya’da diğer devletlerle aynı gümrük ve koşullarda ticaret yapar; Rus tüccarı da Osmanlı’da serbestçe ticaret yapar (gümrük eşitliği metinde yalnız Osmanlı tüccarının Rusya’daki durumu için açıktır); Karadeniz’de Rus ticareti Türk gemileriyle yürütülür.",
    "yer": [
     "Karadeniz"
    ],
