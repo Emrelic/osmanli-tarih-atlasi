@@ -1,0 +1,20 @@
+{
+ "id": "istanbul-protokolu-1913",
+ "ad": "İstanbul Protokolü",
+ "anahtarlar": [
+  "İstanbul Protokolü",
+  "Türk-İran sınırının tahdidi"
+ ],
+ "t": "1913-11-17",
+ "kadraj": [
+  42,
+  34,
+  50,
+  40
+ ],
+ "kaynak": "⚠ metin ulaşılamadı. Bu oturumda ham metin bulunamadı (protokol metni (IBS No. 28 Iran-Turkey 1964; Efe-Kızıl, ERZSOSDE X-I 2017) okunamadı; Wikisource ve Avalon'da sayfa yok). TDV okunmadı. Adım özetleri yalnız kronoloji maddesinin başlığına dayanır, madde madde değildir; atlas kaynak sayılmaz.",
+ "cikti": "data/antlasma_madde_istanbul_protokolu.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek-p02/istanbul_protokolu-girdi.json"
+ ]
+}

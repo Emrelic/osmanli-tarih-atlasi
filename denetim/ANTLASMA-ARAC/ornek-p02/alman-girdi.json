@@ -1,0 +1,10 @@
+[
+{"no":1,"bolum":"Tarafsızlık","ozet":"İki taraf, Avusturya-Macaristan ile Sırbistan arasındaki mevcut çatışmada kesin tarafsızlığı gözetmeyi kabul eder.","yer":[],"konu":"ittifak"},
+{"no":2,"bolum":"İttifak hâli (casus foederis)","ozet":"Rusya aktif askerî tedbirlerle araya girer ve Almanya'nın Avusturya-Macaristan'a karşı ittifak yükümlülüğü doğarsa, bu yükümlülük Osmanlı için de doğar.","yer":[],"konu":"ittifak"},
+{"no":3,"bolum":"Alman askerî heyeti","ozet":"Savaş hâlinde Almanya askerî heyetini Osmanlı emrine verir; Osmanlı da heyete ordunun genel sevk ve idaresinde etkin bir nüfuz sağlar.","yer":["İstanbul"],"konu":"askeri"},
+{"no":4,"bolum":"Osmanlı topraklarının korunması","ozet":"Almanya, gerekirse silah gücüyle, tehdit altındaki Osmanlı topraklarını korumayı üstlenir; fiil cümlesi şifre grubu eksik olduğu için metinde okunamıyor.","yer":[],"konu":"ittifak","belirsiz":true},
+{"no":5,"bolum":"Yürürlük ve süre","ozet":"Antlaşma iki imparatorluğu çatışmanın doğurabileceği sorunlardan korumak içindir; imzayla yürürlüğe girer ve benzeri anlaşmalarla birlikte 31 Aralık 1918'e kadar geçerlidir.","yer":[],"konu":"usul"},
+{"no":6,"bolum":"Uzatma","ozet":"Süre bitiminden altı ay önce taraflardan biri feshetmezse antlaşma beş yıl daha yürürlükte kalır.","yer":[],"konu":"usul"},
+{"no":7,"bolum":"Onay","ozet":"Antlaşma Alman İmparatoru ve Osmanlı Padişahı tarafından onaylanacak; onay belgeleri imzadan itibaren bir ay içinde değiştirilecektir.","yer":[],"konu":"usul"},
+{"no":8,"bolum":"Gizlilik","ozet":"Antlaşma gizli kalır; ancak iki yüksek taraf arasında varılacak bir anlaşmayla açıklanabilir. Metin Wangenheim ve Said Halim imzalarıyla biter.","yer":["İstanbul"],"konu":"usul"}
+]

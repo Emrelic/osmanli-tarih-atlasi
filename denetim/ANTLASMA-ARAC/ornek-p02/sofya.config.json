@@ -1,0 +1,20 @@
+{
+ "id": "sofya-1915",
+ "ad": "Sofya Sözleşmesi",
+ "anahtarlar": [
+  "Sofya Sözleşmesi",
+  "Osmanlı-Bulgar sınırının düzeltilmesi"
+ ],
+ "t": "1915-09-06",
+ "kadraj": [
+  22,
+  39,
+  32,
+  43
+ ],
+ "kaynak": "⚠ metin ulaşılamadı. Bu oturumda ham metin bulunamadı (sözleşme metni (IBS No. 49 Bulgaria-Turkey 1965) okunamadı; Wikisource ve Avalon'da sayfa yok). TDV okunmadı. Adım özetleri yalnız kronoloji maddesinin başlığına dayanır, madde madde değildir; atlas kaynak sayılmaz.",
+ "cikti": "data/antlasma_madde_sofya.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek-p02/sofya-girdi.json"
+ ]
+}
