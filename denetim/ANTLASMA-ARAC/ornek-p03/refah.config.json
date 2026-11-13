@@ -1,0 +1,13 @@
+{
+ "id": "refah-1906",
+ "ad": "Refah Anlaşması",
+ "anahtarlar": ["Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı", "Refah Anlaşması"],
+ "onceki_t": "1906-10-01",
+ "t": "1906-10-01",
+ "kadraj": [32, 27.5, 36, 32],
+ "yerler_ek": {"Ras Taba": [34.89, 29.49], "Refah": [34.25, 31.29], "Sina": [33.8, 29.5], "Akabe Körfezi": [34.9, 28.8]},
+ "kaynak": "Ham metin OKUNDU: 'Agreement signed and exchanged at Rafeh on (13 Shaban 1324, 18th Ailul 1322), 1st October 1906' md. 1-8 (İngilizce çeviri; asıl metin Türkçe, Türkçe asıl okunmadı), Egypt v. Israel, Case concerning boundary markers in Taba, Award of 29 September 1988, RIAA vol. XX, Appendix B s. 114-116 (legal.un.org/riaa/volumes/riaa_XX.pdf; md. 1 ayrıca Award par. 46, md. 2 par. 49). Tarih: metin 'Rafeh, 1 Ekim 1906' (Hicrî 13 Şaban 1324, Rumî 18 Eylül 1322) diye açıkça verir; kronoloji maddesinin 'gün kaynakta yok / kesinlik ay' notu bu kaynakla GÜNCELLENEBİLİR (1 Ekim 1906) — maddeye dokunulmadı. TDV: 'taba akabe 1906' aramasında başlık eşleşmesi yok (Akabe, Sina, Taba, Refah maddeleri yok): TDV'de bulunamadı; çelişki yok. İkinci bağımsız akademik kaynak (örn. Hurewitz, Troutbeck) okunmadı: 1 Ekim günü tek birincil kaynak neşrine (RIAA) dayanır. Mısır/Hidiv taraf eşitliği ve hattın uluslararası sınır niteliği tartışmalı (Taba kararı); atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_refah1906.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p03/refah-girdi.json"],
+ "madde_sayisi": 8
+}
