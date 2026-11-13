@@ -22,7 +22,7 @@ window.ANTLASMA_MADDELERI.push({
   "gizli ittifak antlaşma"
  ],
  "onceki_t": "1914-07-28",
- "kaynak": "Ham metin (8 madde, İngilizce): Avalon Project, Yale Law Library, 'Treaty of Alliance Between Germany and Turkey, 2 August 1914' (turkgerm.asp; HAM METİN okundu; md.4'te şifre grubu eksik). Gün: metin başlığı 'Constantinople, August 2, 1914'; imzacılar Baron von Wangenheim, Said Halim. BEYAN: TDV ve akademik ikinci neşir (Hurewitz, Düstur, Alman Auswärtiges Amt belgeleri) okunmadı; Osmanlı onay/yürürlük tartışması (Avalon metni md.5: imzayla yürürlük; md.7: onay şartı) kaynaklar arası sınanmadı. Md.3 sonundaki Wangenheim dipnotu özete alınmadı.",
+ "kaynak": "Ham metin (8 madde, İngilizce): Avalon Project, Yale Law Library, 'Treaty of Alliance Between Germany and Turkey, 2 August 1914' (turkgerm.asp; HAM METİN okundu; md.4'te şifre grubu eksik). Gün: metin başlığı 'Constantinople, August 2, 1914'; imzacılar Baron von Wangenheim, Said Halim. TDV karşılaştırıldı: 'Osmanlı-Alman ittifakı' başlıklı müstakil TDV maddesi bulunamadı (slug ölü; arama başlık eşleşmesi 0); Birinci Dünya Savaşı maddesi (/birinci-dunya-savasi) İstanbul'da 2 Ağustos 1914 gizli ittifak antlaşmasını verir, gün tutarlı; madde sayısı/hükümler TDV'de yok. BEYAN: akademik ikinci neşir (Hurewitz, Düstur, Alman Auswärtiges Amt belgeleri) okunmadı; Osmanlı onay/yürürlük tartışması (Avalon metni md.5: imzayla yürürlük; md.7: onay şartı) kaynaklar arası sınanmadı. Md.3 sonundaki Wangenheim dipnotu özete alınmadı.",
  "yerler": {
   "İstanbul": [
    28.98,

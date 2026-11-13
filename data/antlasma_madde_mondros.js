@@ -21,7 +21,7 @@ window.ANTLASMA_MADDELERI.push({
   "Mondros"
  ],
  "onceki_t": "1914-10-28",
- "kaynak": "Ham metin (25 madde, İngilizce): Sir Frederick Maurice, The Armistices of 1918, Oxford UP 1943, s.85-87 (GHDI/German Historical Institute neşri, germanhistorydocs.org doc-4012; HAM METİN okundu). Gün: 30 Ekim 1918 imza (HMS Agamemnon, Mondros), ateşkes 31 Ekim öğlen. BEYAN: TDV maddesi bu oturumda okunmadı; mfa.gov.tr sayfası içerik vermedi (okunmadı); ikinci bağımsız metin neşri (Hurewitz/Düstur/Türkçe neşir) okunmadı. Madde numaraları Maurice sıralamasıdır. Yer işaretleri yaklaşık odaktır.",
+ "kaynak": "Ham metin (25 madde, İngilizce): Sir Frederick Maurice, The Armistices of 1918, Oxford UP 1943, s.85-87 (GHDI/German Historical Institute neşri, germanhistorydocs.org doc-4012; HAM METİN okundu). Gün: 30 Ekim 1918 imza (HMS Agamemnon, Mondros), ateşkes 31 Ekim öğlen. TDV karşılaştırıldı: MONDROS MÜTAREKESİ (islamansiklopedisi.org.tr/mondros-mutarekesi), tutarlı: imza 30 Ekim 1918 (Agamemnon, Mondros; Rauf Orbay/Calthorpe); Boğazlar, demiryolu-liman, Toros tünelleri, ilişkinin kesilmesi, md.7 ve md.24 (altı vilayet) hükümleri aynı. TDV ayrı yürürlük günü ve madde sayısı vermez (31 Ekim öğlen yürürlük ve 25 madde sayısı Maurice 1943 metnine dayanır, TDV ile çelişki yok). BEYAN: mfa.gov.tr sayfası içerik vermedi (okunmadı); ikinci bağımsız metin neşri (Hurewitz/Düstur/Türkçe neşir) okunmadı. Madde numaraları Maurice sıralamasıdır. Yer işaretleri yaklaşık odaktır.",
  "yerler": {
   "Çanakkale Boğazı": [
    26.4,

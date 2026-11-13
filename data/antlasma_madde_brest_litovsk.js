@@ -20,7 +20,7 @@ window.ANTLASMA_MADDELERI.push({
   "Brest-Litovsk"
  ],
  "onceki_t": "1914-10-28",
- "kaynak": "Ham metin (14 madde, İngilizce çeviri, J. L. Magnes, Russia and Germany at Brest-Litovsk, Rand School 1919; Wikisource barındırıcısından HAM METİN okundu; ekler I-V ve ek antlaşmalar metne dahil değil, okunmadı). Gün: metin 'Executed ... at Brest-Litovsk, 3 March 1918'; Osmanlı imzacıları İbrahim Hakkı Paşa ve Zeki Paşa. BEYAN: TDV maddesi okunmadı; ikinci bağımsız neşir okunmadı; ekler (md.11 ve Ek V Rus-Osmanlı ekonomik hükümleri) okunmadı. Metinde Kühlmann ve Czernin imzalarının altında 'Bukarest 7. März 1918' notu vardır; Osmanlı imzaları tarihsizdir; onay belgeleri Berlin'de sonradan değişilir. Yer işaretleri yaklaşık odaktır.",
+ "kaynak": "Ham metin (14 madde, İngilizce çeviri, J. L. Magnes, Russia and Germany at Brest-Litovsk, Rand School 1919; Wikisource barındırıcısından HAM METİN okundu; ekler I-V ve ek antlaşmalar metne dahil değil, okunmadı). Gün: metin 'Executed ... at Brest-Litovsk, 3 March 1918'; Osmanlı imzacıları İbrahim Hakkı Paşa ve Zeki Paşa. TDV karşılaştırıldı: TDV'de 'Brest-Litovsk' başlıklı müstakil madde bulunamadı (arama başlık eşleşmesi 0); Birinci Dünya Savaşı maddesi (/birinci-dunya-savasi) 3 Mart 1918 verir, tutarlı. TDV Kars-Ardahan-Batum hükmünü okunan maddelerde açıkça vermedi (Elviye-i Selâse maddesi bu oturumda okunmadı); hüküm yalnız ham metne dayanır. BEYAN: ikinci bağımsız neşir okunmadı; ekler (md.11 ve Ek V Rus-Osmanlı ekonomik hükümleri) okunmadı. Metinde Kühlmann ve Czernin imzalarının altında 'Bukarest 7. März 1918' notu vardır; Osmanlı imzaları tarihsizdir; onay belgeleri Berlin'de sonradan değişilir. Yer işaretleri yaklaşık odaktır.",
  "yerler": {
   "Anadolu": [
    33,
