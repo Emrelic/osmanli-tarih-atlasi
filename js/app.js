@@ -13235,6 +13235,9 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
   ANT_FARK.kutu = (x1 >= x0) ? [x0 - 0.6, y0 - 0.6, x1 + 0.6, y1 + 0.6] : null;
   var dugmeler = document.createElement("div");
   dugmeler.className = "ant-dugmeler";
+  // POSTIT-188 (Emre): öncesi/sonrası/yakıp söndür düğmesi istenmiyor — toprak değişimi maddeye
+  // tıklanınca sahne olarak kendiliğinden yanıp söner (_eleGecirmeSahnesi). Öğeler kalır, görünmez.
+  dugmeler.style.display = "none";
   function dugme(metin, ipucu, fn) {
     var b = document.createElement("button");
     b.type = "button"; b.textContent = metin; b.title = ipucu;
