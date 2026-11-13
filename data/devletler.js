@@ -6915,7 +6915,7 @@ window.DEVLETLER = [
 // 1598-01-29'dan sonra "Modena ve Reggio Dükalığı" okunması içindir: BOYALAR'da zamana bağlı ad
 // yok (motor kodu), ayrı kimlik + aynı hex (renkler.py PAYLASIM #300c93) en az değişiklik.
 { id:"modena", ad:"Modena ve Reggio Dükalığı (Este)", tur:"dukalik", bolge:"italya",
-  f:"1598-01-29", t:"1859-01-01", baskent:"Modena", harita:"modena",
+  f:"1598-01-29", t:"1859-06-11", ic_not_t:"t: 1859-01-01 → 1859-06-11 (aynı polity sürüyor → künye GENİŞLETİLDİ, yıl başı yerine gün). Treccani, Enciclopedia Italiana «Modena»: «L'11 giugno 1859 l'ultimo duca Francesco V si ritirava a Mantova» (Estensi bir daha dönmedi); ardından Farini diktatörlüğü (Mart 1860'a dek) ve 12 Mart 1860 plebisiti ile Sardinya'ya katılma — bu aradönemin ardıl künyesi yok, yerleşim kayıtlarında beyanlı BOŞLUK. Künyenin kendi 'son' kronoloji maddesi (1859-01-01) bu oturumda taşınmadı (çeviri anahtarları tarihe bağlı) — borç.", baskent:"Modena", harita:"modena",
   ic_not_f:"Chiappini, «1598: diario di una svolta», Ferrara. Voci di una città (Fondazione Estense) 1997: son Este 28 Ocak 1598'de Ferrara'dan Porta degli Angeli'den çıktı, «ertesi gün» Kardinal Pietro Aldobrandini şehrin anahtarlarını aldı ⇒ papalık devri 29 Ocak; Este devleti o günden Modena merkezli.",
   ic_not_t:"`ferrara` künyesinin t'si DEVRALINDI (1859-01-01, yıl) — kaynak gün vermiyor; veride Modena dönemi 1860-03-18'e kadar sürüyor (ferrara künyesiyle aynı mevcut aşım, bu pakette değiştirilmedi).",
   ozet:"Este hanedanının Ferrara'yı Papalık Devleti'ne kaybettikten (1598) sonra Modena ve Reggio merkezli sürdürdüğü dükalık; 1859'da İtalyan birliği sürecinde sona erdi. Ana künye: [[ferrara]].",
