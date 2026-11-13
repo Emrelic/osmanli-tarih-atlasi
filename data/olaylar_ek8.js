@@ -247,6 +247,7 @@ window.OLAYLAR_EK8 = [
    "konu-askeri",
    "konu-diplomasi"
   ],
+  "antlasma_id": "londra-1830",
   "b": "Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması",
   "gun": "3 Şubat 1830",
   "yer": "Londra",

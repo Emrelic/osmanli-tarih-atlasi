@@ -1,0 +1,14 @@
+{
+ "id": "kalai-sultaniyye-1809",
+ "ad": "Kal'a-i Sultâniyye Antlaşması",
+ "anahtarlar": ["Kal'a-i Sultâniyye Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1807-02-19",
+ "t": "1809-01-05",
+ "kadraj": [22, 34, 32, 44],
+ "yerler_ek": {"Malta": [14.51, 35.9], "Bosna": [18.0, 44.0], "İskenderiye": [29.92, 31.2]},
+ "kaynak": "Ham metin OKUNDU: Traité de paix avec l'Angleterre, signé près des Châteaux des Dardanelles (19 Zilkade 1223) (giriş + md. 1-12 + sonuç) ve Gizli Savunma İttifakı (md. 1-4; 5 Ocak 1809) — Fransızca çeviri, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 27-28 (archive.org recueildactesin01turkgoog, OCR; md. sayısı '12 articles' ibaresiyle teyitli; OCR bazı sayıları bozmuştur: md. 1/2/12 süre rakamları okunamadığı için adımlarda yazılmadı). İki taraflı (Britanya-Osmanlı). GÜN: Noradounghian fihrist 'Janvier 5', Textes 28 başlığı '5 Janvier 1809 (19 Zilkadé 1223)' (Hicrî 19 Zilkade 1223 = 5 Ocak 1809 ile uyumlu); Textes 27 imza satırı OCR'da '3 janvier' okunuyor (OCR hatası kabul edildi, hicrî tarihle çelişir) + TDV: 'Boğazlar Meselesi' ve 'Çanakkale' maddelerinde '5 Ocak 1809' (WebFetch arama özeti; ayrı madde BULUNAMADI) — hakemli kural gerekmedi, TDV ve Noradounghian uyumlu. Hurewitz, Düstur, Martens okunmadı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_kalai1809.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/kalai1809-girdi.json"],
+ "madde_sayisi": 12
+}

@@ -1,0 +1,14 @@
+{
+ "id": "yedi-ada-1800",
+ "ad": "Yedi Ada Cumhuriyeti",
+ "anahtarlar": ["Yedi Ada Cumhuriyeti kuruldu"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1799-10-30",
+ "t": "1800-03-21",
+ "kadraj": [18, 36, 24, 41],
+ "yerler_ek": {"Yedi Ada": [20.2, 38.5], "Raguza": [18.09, 42.65], "Korfu": [19.92, 39.62], "Zakintos": [20.9, 37.79], "Kefalonya": [20.5, 38.25], "Ayamavra": [20.65, 38.7], "İthaka": [20.7, 38.37], "Paksos": [20.18, 39.2], "Kitera": [22.99, 36.15], "Preveze": [20.75, 38.96], "Parga": [20.4, 39.28], "Vonitsa": [20.9, 38.93], "Butrint": [20.02, 39.75], "Arnavutluk": [20.0, 41.0]},
+ "kaynak": "Ham metin OKUNDU: Convention avec la Russie concernant les Îles Ioniennes (Yedi Ada Cumhuriyeti'nin kuruluş sözleşmesi), signée à Constantinople le 21 mars 1800 (8 Zilkade 1214) (giriş + md. 1-12 + imza) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 11 (archive.org recueildactesin01turkgoog, OCR; sayfa sırası OCR'da karışık: md. 1-2 s.39, md. 3-5 s.38, md. 5 sonu-8 s.39, md. 9-12 s.40; 12 madde sayısı TDV'nin 'twelve-article' tanımıyla da uyumlu; md. 4 tutarı OCR'da '73.000' okunuyor, TDV 75.000 kuruş verir — adımda ikisi birlikte beyan edildi). İki taraflı (Rusya-Osmanlı). GÜN VE TAKVİM — BEYAN: Noradounghian ve TDV 'Yedi Ada Cumhuriyeti' (islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti, madde tam gövdeli; Ali Fuat Örenç) aynı günü '21 Mart 1800' verir; ancak Hicrî 8 Zilkade 1214 tablo hesabıyla 2-3 Nisan 1800 Gregoryen'e denk gelir (1 Zilkade 1214 ≈ 27 Mart 1800), yani 21 Mart Rus (Jülyen/Eski Üslup) günü olması güçlü olasılıktır (Jülyen 21 Mart 1800 = Gregoryen 2 Nisan 1800). CLAUDE.md 'Takvim' kuralına göre atlas günü Gregoryen olmalı → 2 Nisan 1800 ÖNERİLİR; ancak kronoloji maddesi t:1800-03-21 bu çalışmada DEĞİŞTİRİLMEDİ (Değişmez 2 sınır kırılması riski; karar KASA/EMRELİC). Eşleşme ±60 gün içinde olduğundan oynatıcı etkilenmez. Hurewitz, Martens, Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_yediada1800.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/yediada1800-girdi.json"],
+ "madde_sayisi": 12
+}

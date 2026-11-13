@@ -1,0 +1,14 @@
+{
+ "id": "hunkar-iskelesi-1833",
+ "ad": "Hünkâr İskelesi Antlaşması",
+ "anahtarlar": ["Hünkâr İskelesi Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1833-07-08",
+ "t": "1833-07-08",
+ "kadraj": [26, 39, 38, 43],
+ "yerler_ek": {},
+ "kaynak": "Ham metin OKUNDU (iki bağımsız neşir): ① Treaty of Defensive Alliance between Russia and Turkey, signed at Constantinople 8 July 1833, giriş + md. 1-6 + imza + Ayrı (gizli) Madde — Hertslet, The Map of Europe by Treaty, c. II, London 1875-91, no. 168, s. 925-928 (İngilizce, 'Translation as laid before Parliament'; archive.org MapOfEuropeByTreatyV2 OCR; Fransızca nüsha State Papers c. XX s. 1176'ya atıflıdır); ② 'Traité d'Alliance avec la Russie', Hunkiar-Iskélessi, 8 Juillet 1833 (20 Séfer 1249), G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris, Textes n° 75, md. 1-6 + 'Article séparé' (Fransızca; archive.org recueildactesin01turkgoog OCR, yer yer bozuk ama maddeler okunur). İki taraflı (Rusya-Osmanlı); Osmanlı adına Hüsrev Mehmed, Fevzi Ahmed ve Reis Efendi Âkif Paşa, Rusya adına Orlov ve Butenev. GÜN: Noradounghian başlığı '8 Juillet 1833 (20 Séfer 1249)' ve imza satırı '26 Juin/8 Juillet' (Rus eski takvimi 26 Haziran = Gregoryen 8 Temmuz); Hertslet '8th July, 1833 (20th of the moon Safer 1249)'; TDV 'Hünkâr İskelesi Antlaşması' maddesi (islamansiklopedisi.org.tr/hunkar-iskelesi-antlasmasi, WebFetch ile okundu, gövde dolu, doğru madde) 8 Temmuz 1833, Emirgân'daki Hüsrev Paşa köşkündeki ikinci görüşmede, görüşmeler 26 Haziran'da başlamış — dört kaynak 8 Temmuz'da birleşir, çelişki yok. Not: TDV gizli maddeyi 'madde 7' olarak anar, ham metinlerde ayrı 'Séparé/Separate Article'dır (numara farkı; esas ham metin). TDV ayrıca süreyi 8 yıl ve Çanakkale kapatma hükmünü doğrular. Rusça asıl nüsha ve Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_hunkar1833.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p06/hunkar1833-girdi.json"],
+ "madde_sayisi": 6
+}

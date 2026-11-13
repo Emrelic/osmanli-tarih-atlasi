@@ -1,0 +1,14 @@
+{
+ "id": "abd-1830",
+ "ad": "Amerika Birleşik Devletleri ile ilk antlaşma",
+ "anahtarlar": ["Amerika Birleşik Devletleri ile ilk antlaşma"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1830-05-07",
+ "t": "1830-05-07",
+ "kadraj": [26, 38, 32, 43],
+ "yerler_ek": {},
+ "kaynak": "Ham metin OKUNDU: Treaty of Commerce and Navigation between the United States of America and the Ottoman Empire, concluded May 7, 1830 — giriş + md. 1-9 + sonuç/imza (tamamı; İngilizce; 'Translation from the original, which is in the Turkish language'; U.S. Statutes at Large c. 8, s. 408 [govinfo.gov/link/statute/8/408]; okunan nüsha: Public Treaties, Ottoman Empire 1830, s. 583-585, dheller.org tarama PDF, OCR yer yer bozuk ama maddeler okunur). İki taraflı (Osmanlı-ABD); Osmanlı adına Reis Efendi Mehmed Hamid, ABD adına komiser Charles Rhind (öteki komiserler Biddle ve Offley İzmir'de, imzalarından sonra teati). Metinde md. 1-9 vardır; Osmanlı'nın Amerikan tersanelerinden gemi yaptırmasına dair GİZLİ MADDE bu metinde YOKTUR ve okunmadı (atlas ana maddesi Çağrı Erhan, Belleten 62/234, 1998, s. 457-466'ya dayanır; bu makale okunmadı). GÜN: metnin kendi tarihi '14th day of the moon Zilcaade 1245 = 7 May 1830' (OCR'da '183G'); tablo hesabı 14 Zilkade 1245 ≈ 5-7 Mayıs 1830 (±2 gün tablo belirsizliği) ile uyumlu, metnin kendi eşleştirmesi esas alındı → 7 Mayıs 1830. Statutes ayrıca onay 2 Şubat 1831, onayların İstanbul'da değişimi 5 Ekim 1831, ilân 4 Şubat 1832 der (yalnız başlık). İkinci bağımsız metin neşri okunmadı. TDV: 'Amerika Birleşik Devletleri' maddesi (islamansiklopedisi.org.tr/amerika-birlesik-devletleri, WebFetch ile okundu) bu antlaşmayı ANMIYOR (1830 yalnız göçmen sayısı); TDV'de ayrı madde bulunamadı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_abd1830.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p06/abd1830-girdi.json"],
+ "madde_sayisi": 9
+}

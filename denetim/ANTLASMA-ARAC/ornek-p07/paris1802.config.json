@@ -1,0 +1,13 @@
+{
+ "id": "paris-1802",
+ "ad": "Paris Antlaşması",
+ "anahtarlar": ["Paris Antlaşması — Fransa ile barışın yeniden kurulması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1801-10-09",
+ "t": "1802-06-25",
+ "kadraj": [20, 30, 45, 46],
+ "kaynak": "Ham metin OKUNDU: Traité de paix avec la République Française, signé à Paris le 25 juin 1802 (6 Messidor an X = 24 Safer 1217) (giriş + md. 1-10 + imza) ve Ek ve Gizli Madde — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 16 (archive.org recueildactesin01turkgoog, OCR; sayfa sırası OCR'da karışık, md. 1-3 s.52, md. 4-10 s.53, gizli madde s.54 birleştirildi; md. 10 'ratifications dans 80 jours' ibaresiyle sonlanır). Komşu metin Textes 15 (Amiens'e katılma, 13 Mayıs 1802) bu kayda alınmadı. İki taraflı (Fransa-Osmanlı). GÜN: Textes 16 başlığı '25 Juin 1802 (24 Séfer 1217)' ve imza satırı '6 Messidor an X' (= 25 Haziran 1802) + TDV: 'Galib Paşa, Mehmed Said' ('25 Haziran 1802'de Paris'te imzalanan antlaşma') ve 'Dârüttıbâa' ('25 Haziran 1802 tarihli Paris Antlaşması') maddeleri (WebFetch arama özeti; ayrı madde BULUNAMADI). Not: Noradounghian fihristi OCR'da 'Juin 23' okunuyor (OCR hatası; gövde ve TDV 25). Çelişki yok. Hurewitz, Martens, Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_paris1802.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/paris1802-girdi.json"],
+ "madde_sayisi": 10
+}

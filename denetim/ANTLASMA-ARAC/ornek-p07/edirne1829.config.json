@@ -1,0 +1,14 @@
+{
+ "id": "edirne-1829",
+ "ad": "Edirne Antlaşması",
+ "anahtarlar": ["Edirne Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1829-08-20",
+ "t": "1829-09-14",
+ "kadraj": [20, 39, 47, 48],
+ "yerler_ek": {"Eflak": [25.0, 44.5], "Boğdan": [27.0, 47.0], "Prut Nehri": [28.1, 46.8], "Tuna Nehri": [27.5, 44.1], "Silistre": [27.26, 44.12], "Varna": [27.92, 43.2], "Sulina": [29.66, 45.16], "Ahıska": [42.98, 41.64], "Ahılkelek": [43.34, 41.4], "Kars": [43.09, 40.6], "Beyazıt": [44.08, 39.55], "Erivan": [44.51, 40.18], "Nahçıvan": [45.41, 39.21], "Sırbistan": [20.5, 44.0], "Lüleburgaz": [27.35, 41.4]},
+ "kaynak": "Ham metin OKUNDU: Traité de paix entre la Russie et la Porte, signé à Andrinople le 2/14 septembre 1829 (giriş + md. 1-16 + imza) ve Ayrı Senet (Eflak-Boğdan; Textes n° 54, 15 Rebiülevvel 1245) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 53-54 (archive.org recueildactesin01turkgoog, OCR; okunurluk düşük, madde numaraları ve içerik tutarlı; 16 madde sayısı metindeki 'contenant seize articles' cümlesiyle teyitli). Fihristte (N° 488-490) aynı gün Tazminat Sözleşmesi de kayıtlı: metni OKUNMADI, ek adımı 'doğrulanmadı'. İki taraflı (Rusya-Osmanlı). GÜN: Noradounghian 2/14 Eylül 1829 (Jülyen/Gregoryen) + TDV 'Edirne Antlaşması' maddesi (islamansiklopedisi.org.tr/edirne-antlasmasi; doğru madde, gövde dolu: 14 Eylül 1829 = 15 Rebiülevvel 1245) — iki kaynak 14 Eylül Gregoryen'de birleşir, çelişki yok; atlas günü Gregoryen 14 Eylül. TDV tazminatı 1.500.000 dukat (ticaret) ve 10.000.000 dukat (savaş) diye anar; savaş tazminatı miktarı md. 9'da yazılı değildir (ayrı sözleşmeye bırakılmıştır). Hurewitz, Meray ve Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_edirne1829.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/edirne1829-girdi.json"],
+ "madde_sayisi": 16
+}

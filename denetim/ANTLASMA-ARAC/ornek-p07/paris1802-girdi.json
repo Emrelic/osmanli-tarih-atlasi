@@ -1,0 +1,16 @@
+{"maddeler":[
+ {"no":"giriş","sira":0,"bolum":"Giriş","ozet":"Fransa Birinci Konsülü ile Osmanlı Padişahı ilk barış ve dostluk ilişkilerini yeniden kurmak ister; Fransa adına Dışişleri Bakanı Talleyrand, Bâbıâli adına vekâleten Hariciye Nâzırı Mehmed Said Galib Efendi yetkili sayılır.","yer":[],"konu":"genel"},
+ {"no":1,"bolum":"Barış","ozet":"Fransa Cumhuriyeti ile Bâbıâli arasında bundan böyle barış ve dostluk olacak, iki devlet arasındaki düşmanlık bundan sonra ve kalıcı olarak sona erer.","yer":[],"konu":"barış"},
+ {"no":2,"bolum":"Kapitülasyonlar ve Karadeniz","ozet":"Savaştan önceki antlaşma ve kapitülasyonlar bütünüyle yenilenir; Fransız ticaret gemileri Karadeniz'e serbestçe girip seyredebilir, öteki devletlerin gemileriyle eşit sayılır, iki taraf denizleri korsanlardan arındırmak için birlikte tedbir alır.","yer":["Karadeniz"],"konu":"ticaret"},
+ {"no":3,"bolum":"Karadeniz kıyısı","ozet":"Fransa, Karadeniz kıyısındaki ve yakınındaki Osmanlı ülkelerinde ticareti ve ticaret ajanları için, eski kapitülasyonlarla Osmanlı'nın öteki yerlerinde sahip olduğu hak ve ayrıcalıkların aynısına kavuşur.","yer":["Karadeniz"],"konu":"ticaret"},
+ {"no":4,"bolum":"Amiens","ozet":"Bâbıâli, Fransa ile Britanya arasında 4 Germinal X tarihli Amiens Antlaşması'nı kendisini ilgilendiren kısımlarıyla kabul eder; ona ilişkin bütün maddeler bu antlaşmada resmen yenilenir.","yer":[],"konu":"genel"},
+ {"no":5,"bolum":"Toprak bütünlüğü","ozet":"Fransa Cumhuriyeti ile Bâbıâli birbirlerinin sahip olduğu toprakların bütünlüğünü karşılıklı olarak garanti eder.","yer":[],"konu":"sinir"},
+ {"no":6,"bolum":"Tazminat","ozet":"Savaşta el konulmuş ya da bloke edilmiş iki tarafın ajanlarına ve tebaasına ait mallar için iade ve tazminat, İstanbul'da yapılacak ayrı bir düzenlemeyle hakkaniyetle belirlenir.","yer":["İstanbul"],"konu":"tazminat"},
+ {"no":7,"bolum":"Gümrük","ozet":"Gümrük resimleriyle ilgili tartışmalara yeni düzenleme ortaklaşa yapılana dek iki ülke eski kapitülasyonlara uyar.","yer":[],"konu":"ticaret"},
+ {"no":8,"bolum":"Esirler","ozet":"Savaş yüzünden iki devlette hâlâ tutulan esir varsa fidyesiz ve gecikmeden serbest bırakılır.","yer":[],"konu":"esir"},
+ {"no":9,"bolum":"En çok gözetilen devlet","ozet":"İki taraf, birbirinin ülkesinde en çok kayırılan devlet konumuna girer; başka devletlere tanınmış ya da tanınacak bütün avantajlar, antlaşmada yazılıymış gibi karşılıklı verilir.","yer":[],"konu":"ticaret"},
+ {"no":10,"bolum":"Onay ve imza","ozet":"Onay belgeleri Paris'te seksen gün içinde ya da mümkünse daha önce değiştirilir; 6 Mesidor X (25 Haziran 1802) / 24 Safer 1217 tarihinde Paris'te Talleyrand ve Galib Efendi imzalar.","yer":[],"konu":"genel"}
+],
+"ekler":[
+ {"ad":"Ek ve Gizli Madde","ozet":"Antlaşmanın 5. maddesindeki karşılıklı toprak garantisi, Bâbıâli'yi Fransa'nın başka devletlerle yapacağı savaşlara ancak kendi isteğiyle sokabilir; iki murahhas aynı gün imzalamıştır, onay şartları ana metinle aynıdır.","okundu":true,"yer":[],"madde_say":1}
+]}

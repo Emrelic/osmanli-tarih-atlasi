@@ -1,0 +1,14 @@
+{
+ "id": "akkirman-1826",
+ "ad": "Akkirman Antlaşması",
+ "anahtarlar": ["Akkirman Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1826-08-01",
+ "t": "1826-10-07",
+ "kadraj": [20, 41, 32, 48],
+ "yerler_ek": {"Akkirman": [30.34, 46.19], "İsmail": [28.84, 45.35], "Kili": [29.27, 45.45], "Tuna Nehri": [27.5, 44.1], "Eflak": [25.0, 44.5], "Boğdan": [27.0, 47.0], "Sırbistan": [20.5, 44.0], "Cezayir": [3.06, 36.75], "Trablus": [13.18, 32.89], "İbrail": [27.97, 45.27], "Yerköy": [25.97, 43.9]},
+ "kaynak": "Ham metin OKUNDU: Convention explicative et confirmative du Traité de Bucarest, signée à Ackerman le 25 septembre/7 octobre 1826 (giriş + md. 1-8 + imza), Ayrı Senet (Eflak-Boğdan; Textes n° 39) ve Ayrı Senet (Sırbistan; Textes n° 40; 5 Rebiülevvel 1242) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 38-40 (archive.org recueildactesin01turkgoog, OCR; madde sayısı 'huit articles' ibaresiyle teyitli). İki taraflı (Rusya-Osmanlı). GÜN: Noradounghian 25 Eylül/7 Ekim 1826 (Jülyen/Gregoryen; atlas günü Gregoryen 7 Ekim) + TDV: 'Edirne Antlaşması' ve 'Boğazlar Meselesi' maddelerinde 7 Ekim 1826 geçer (WebFetch arama özetinden; ayrı bir 'Akkirman Antlaşması' maddesi BULUNAMADI — slug arama sayfasına düşer; 'Akkirman' şehir maddesi yalnız anar, gövdesi tam okunmadı). Çelişki yok. Hurewitz, Meray, Düstur OKUNMADI. Ayrı senetlerin ikinci okunuşunda OCR 'Octobre 1820' (=1826) hatası var, sürüm içi tutarlılıkla 1826 alındı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_akkirman1826.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/akkirman1826-girdi.json"],
+ "madde_sayisi": 8
+}
