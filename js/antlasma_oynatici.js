@@ -78,7 +78,9 @@
   // «Ek 1», «Venedik giriş», «Giriş» olduğu gibi gösterilir.
   function adimBaslik(a, kayit) {
     var x = adimTarafNo(a, kayit), sayisal = /^\d/.test(x.no);
-    return (x.taraf ? x.taraf + " " : "") + (sayisal ? "md. " : "") + x.no;
+    // üretici başlığa taraf adını zaten yazdıysa («Habsburg md. 1», «Genel çerçeve») ikinci kez ekleme
+    var zatenVar = x.taraf && x.no.toLocaleLowerCase("tr").indexOf(x.taraf.toLocaleLowerCase("tr")) === 0;
+    return (x.taraf && !zatenVar ? x.taraf + " " : "") + (sayisal ? "md. " : "") + x.no;
   }
   // Taraf süzgeci: kayıtta ≥ 2 farklı taraf varsa panelde "Tüm taraflar / Habsburg / Venedik …" seçici.
   function tarafSecici(kayit) {
@@ -246,6 +248,9 @@
     AKTIF = null;
     if (geriYukle === true && eski.tarihDegisti && eski.oncekiTarih != null && typeof tarihAyarla === "function") {
       try { tarihAyarla(eski.oncekiTarih); } catch (e) { console.warn("[antlaşma oynatıcı] tarih geri", e); }
+      // Kilit sırasında kart başka maddeyle yeniden kuruldu ve düğmesiz kaldı: ✕ sonrası açılış maddesi
+      // yeniden gösterilince düğmeyi geri koy (app tarihe göre maddeyi kendisi açar; gecikmeli beklenir).
+      setTimeout(function () { duguGeriKoy(eski.kayit); }, 900);
     }
   }
 
@@ -302,11 +307,19 @@
     adimGoster(0);
   }
 
+  var SON_MADDE = null;      // kilitsiz son obGoster maddesi (düğmenin sahibi)
+  function duguGeriKoy(kayit) {
+    if (AKTIF) return;
+    var oz = document.getElementById("ob-ozel"), bs = document.getElementById("ob-baslik");
+    if (!oz || !bs || oz.querySelector(".amo-dugme-kutu") || !SON_MADDE) return;
+    if (bs.textContent !== SON_MADDE.b) return;          // kart başka maddede: dokunma
+    if (eslesen(SON_MADDE) === kayit && kayit.adimlar && kayit.adimlar.length) dugmeEkle(kayit);
+  }
   function dugmeEkle(kayit) {
     var ozel = document.getElementById("ob-ozel");
     if (!ozel) return;
     var kutu = document.createElement("div");
-    kutu.className = "ob-kutu";
+    kutu.className = "ob-kutu amo-dugme-kutu";
     var btn = document.createElement("button");
     btn.type = "button";
     btn.style.cssText = "cursor:pointer;padding:4px 10px;border-radius:4px;border:1px solid #0a2f5c;background:#fff;color:#0a2f5c";
@@ -342,6 +355,7 @@
         return r;
       }
       kapat();   // madde değişince oynatıcı ve işaretler kalkar
+      SON_MADDE = o;
       var k = eslesen(o);
       if (k && k.adimlar && k.adimlar.length) dugmeEkle(k);   // adımsız (yarım) kayıtta düğme ÇIKMAZ
     } catch (e) { console.error("[antlaşma oynatıcı]", e); }
