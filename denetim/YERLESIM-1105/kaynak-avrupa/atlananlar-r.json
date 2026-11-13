@@ -1,0 +1,749 @@
+[
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "Tedmür (Palmyra)",
+  "f": "1832-06-15",
+  "t": "1841-02-25",
+  "alan": "v",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "Dûmetülcendel (Cevf)",
+  "f": "1921-11-02",
+  "t": "1932-09-18",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "Teymâ",
+  "f": "1921-11-02",
+  "t": "1932-09-18",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "Rın kumulları (Volga-Yayık arası)",
+  "f": "1917-11-07",
+  "t": "1991-12-16",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "İskeçe",
+  "f": "1281-01-01",
+  "t": "1373-01-01",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_seyrek.js",
+  "ad": "Karabiga",
+  "f": "1410-05-06",
+  "t": "1413-07-05",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "York",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Norwich",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Bristol",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Exeter",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Plymouth",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Southampton",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Dover",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Newcastle",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Carlisle",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Lincoln",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Nottingham",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Oxford",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Cambridge",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Manchester",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Liverpool",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Birmingham",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Hull",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Shrewsbury",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Penzance",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Cardiff",
+  "f": "1281-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberystwyth",
+  "f": "1281-01-01",
+  "t": "1404-01-01",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberystwyth",
+  "f": "1404-01-01",
+  "t": "1408-01-01",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberystwyth",
+  "f": "1408-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Harlech",
+  "f": "1283-01-01",
+  "t": "1404-01-01",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Harlech",
+  "f": "1404-01-01",
+  "t": "1409-01-01",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Harlech",
+  "f": "1409-01-01",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Glasgow",
+  "f": "1281-01-01",
+  "t": "1652-02-14",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Glasgow",
+  "f": "1660-06-08",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Glasgow",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberdeen",
+  "f": "1281-01-01",
+  "t": "1652-02-14",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberdeen",
+  "f": "1660-06-08",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Aberdeen",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Inverness",
+  "f": "1281-01-01",
+  "t": "1652-02-14",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Inverness",
+  "f": "1660-06-08",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Inverness",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Perth (İskoçya)",
+  "f": "1281-01-01",
+  "t": "1652-02-14",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Perth (İskoçya)",
+  "f": "1660-06-08",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Perth (İskoçya)",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Dumfries",
+  "f": "1281-01-01",
+  "t": "1652-02-14",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Dumfries",
+  "f": "1660-06-08",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Dumfries",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Wick",
+  "f": "1281-01-01",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Wick",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Stornoway",
+  "f": "1281-01-01",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Stornoway",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Kirkwall (Orkney)",
+  "f": "1472-02-20",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Kirkwall (Orkney)",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Lerwick (Shetland)",
+  "f": "1472-02-20",
+  "t": "1707-05-12",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Lerwick (Shetland)",
+  "f": "1707-05-12",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Sligo",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Athlone",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Donegal",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Tralee",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Belfast",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Belfast",
+  "f": "1603-03-30",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Derry",
+  "f": "1281-01-01",
+  "t": "1603-03-30",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Derry",
+  "f": "1603-03-30",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Rennes",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Rennes",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Nantes",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Nantes",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Brest",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Brest",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Quimper",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Quimper",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Vannes",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Vannes",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Saint-Malo",
+  "f": "1281-01-01",
+  "t": "1532-08-13",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Saint-Malo",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Rouen",
+  "f": "1281-01-01",
+  "t": "1419-01-19",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Rouen",
+  "f": "1419-01-19",
+  "t": "1449-10-29",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 1,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Rouen",
+  "f": "1792-09-22",
+  "t": "2000-12-31",
+  "alan": "s",
+  "neden": "donemde zaten kaynak var (UMIT/baska commit)"
+ },
+ {
+  "parti": 5,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "L'Aquila",
+  "f": "1281-01-01",
+  "t": "1861-02-13",
+  "alan": "s",
+  "neden": "f/t eslesmesi 0 (donem degismis olabilir)"
+ },
+ {
+  "parti": 5,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Bari",
+  "f": "1281-01-01",
+  "t": "1861-02-13",
+  "alan": "s",
+  "neden": "f/t eslesmesi 0 (donem degismis olabilir)"
+ },
+ {
+  "parti": 5,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Foggia",
+  "f": "1281-01-01",
+  "t": "1861-02-13",
+  "alan": "s",
+  "neden": "f/t eslesmesi 0 (donem degismis olabilir)"
+ },
+ {
+  "parti": 5,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Cosenza",
+  "f": "1281-01-01",
+  "t": "1861-02-13",
+  "alan": "s",
+  "neden": "f/t eslesmesi 0 (donem degismis olabilir)"
+ },
+ {
+  "parti": 5,
+  "dosya": "yerlesimler_avrupa.js",
+  "ad": "Reggio Calabria",
+  "f": "1281-01-01",
+  "t": "1861-02-13",
+  "alan": "s",
+  "neden": "f/t eslesmesi 0 (donem degismis olabilir)"
+ }
+]
