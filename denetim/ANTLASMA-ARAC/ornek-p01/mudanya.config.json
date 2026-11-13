@@ -1,0 +1,13 @@
+{
+ "id": "mudanya-1922",
+ "ad": "Mudanya Mütarekesi",
+ "anahtarlar": ["Mudanya Mütarekesi", "Mudanya"],
+ "onceki_t": "1922-09-09",
+ "t": "1922-10-11",
+ "kadraj": [24, 39.5, 32, 42.5],
+ "kaynak": "Ham metin (giriş + 14 madde, Türkçe çeviri): tr.wikisource.org 'Mudanya Askerî Sözleşmesi'; sayfa künyesi TC Genelkurmay Başkanlığı, Türk İstiklâl Harbi II. Cilt Batı Cephesi 6. Kısım 4. Kitap, Ankara 1995, s.141-144 (HAM METİN okundu; Wikisource barındırıcıdır). Gün: metin 'Mudanya'da dört nüsha, Fransızca, 11 Ekim 1922'de imza edilmiştir'; yürürlük 14/15 Ekim gece yarısı. TDV 'Mudanya Mütarekesi' maddesi (Cezmi Eraslan) okundu (islamansiklopedisi.org.tr/mudanya-mutarekesi, gövde dolu, doğru madde): '11 Ekim 1922 sabahı' imza, üç gün sonra yürürlük = aynı gün, çelişki yok; Nutuk (Mudanya Konferansı bölümü) da 11 Teşrinievvel der (birincil, okundu). BEYAN: md. 3 metinde dizgi nedeniyle yarım kalmıştır (belirsiz:true, ayrıntı özete alınmadı); ikinci bağımsız neşir (Düstur/Hurewitz/LNTS) okunmadı. Yer işaretleri yaklaşık odaktır.",
+ "cikti": "data/antlasma_madde_mudanya.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p01/mudanya-girdi.json"],
+ "yerler_ek": {},
+ "madde_sayisi": 14
+}
