@@ -1,0 +1,13 @@
+{
+ "id": "rus-ittifaki-1799",
+ "ad": "Osmanlı-Rus Savunma İttifakı",
+ "anahtarlar": ["Osmanlı-Rus Savunma İttifakı"],
+ "eslesme_kipi": "acik",
+ "t": "1799-01-03",
+ "kadraj": [24, 29, 45, 50],
+ "yerler_ek": {"İtalya": [12.5, 42.0]},
+ "kaynak": "Ham metin KISMEN OKUNDU: Traité d'alliance défensive avec la Russie, signé à Constantinople le 23 décembre 1798 (26 Redjeb 1213) — giriş, md. 1, md. 2 (başı), md. 7 (sonu), md. 8-14 ve sonuç/imzalar (Rumeli Kazaskeri İbrahim İsmet, Reisülküttâb Ahmed Atıf) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 7 (archive.org recueildactesin01turkgoog, OCR). OCR'da md. 2'nin devamı ile md. 3-6 ve md. 7'nin başı EKSİK (sayfa kaybı); bu adımlar belirsiz işaretli. Metin Martens çevirisinden farklı, Türkçe aslına daha uygun diye Noradounghian notunda belirtilir. GÜN: metindeki 23 Aralık 1798 Jülyen; hicrî 26 Receb 1213 (28 Receb 1213 = 5 Ocak 1799, Textes n° 8) ⇒ 3 Ocak 1799 Gregoryen; TEYİTSİZ — ikinci bağımsız akademik kaynak okunamadı; TDV 'III. Selim' (Beydilli) yalnız 'Ocak 1799' yazar. Martens (1re éd. VII s. 314), Medjmouaï IV s. 14 OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (Rusya-Osmanlı).",
+ "cikti": "data/antlasma_madde_rus1799.js",
+ "madde_sayisi": 14,
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p09/rus1799-girdi.json"]
+}

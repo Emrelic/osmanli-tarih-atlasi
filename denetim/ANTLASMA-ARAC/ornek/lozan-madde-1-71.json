@@ -273,7 +273,6 @@
    "Almanya",
    "Avusturya",
    "Bulgaristan",
-   "Yunanistan",
    "Macaristan",
    "Polonya",
    "Romanya",
@@ -437,9 +436,7 @@
   "no": 45,
   "bolum": "Part I. Political Clauses / Section III. Protection of Minorities",
   "ozet": "Bu bölümle Türkiye'deki gayrimüslim azınlıklara tanınan haklar, Yunanistan tarafından kendi topraklarındaki Müslüman azınlığa da aynı biçimde tanınır.",
-  "yer": [
-   "Yunanistan"
-  ],
+  "yer": [],
   "konu": "azinlik",
   "belirsiz": false
  },
@@ -630,7 +627,6 @@
   "bolum": "Part III. Economic Clauses / Section I. Property, Rights And Interests",
   "ozet": "Yunanistan, Romanya, Sırp-Hırvat-Sloven Devleti ve Türkiye, ordu ve idarelerince alınan veya el konulan taşınır malların aranıp iadesini kolaylaştırır; başvurular yürürlükten itibaren altı ay içinde yapılır.",
   "yer": [
-   "Yunanistan",
    "Romanya"
   ],
   "konu": "ekonomik",

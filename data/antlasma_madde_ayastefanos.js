@@ -126,6 +126,22 @@ window.ANTLASMA_MADDELERI.push({
   "Trabzon": [
    39.72,
    41
+  ],
+  "Tuna Nehri": [
+   26.5,
+   44.2
+  ],
+  "Athos": [
+   24.33,
+   40.16
+  ],
+  "Odesa": [
+   30.73,
+   46.48
+  ],
+  "Sivastopol": [
+   33.53,
+   44.62
   ]
  },
  "adimlar": [
@@ -241,7 +257,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "12",
    "bolum": "Tuna",
    "ozet": "Tuna kıyısındaki bütün kaleler yıkılır, yenisi yapılmaz, nehirde küçük karakol gemileri dışında savaş gemisi bulunmaz; Avrupa Tuna Komisyonu'nun hakları aynen sürer.",
-   "yer": [],
+   "yer": [
+    "Tuna Nehri"
+   ],
    "konu": "tuna",
    "dogrulanmadi": false
   },
@@ -339,7 +357,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "22",
    "bolum": "Rus tebaası ve ticaret",
    "ozet": "Rus din adamları, hacılar ve keşişler Osmanlı'da öteki yabancı din adamlarıyla aynı haklardan yararlanır; Rus elçilik ve konsolosluk himayesi ile Athos'taki Rus manastırlarının hakları tanınır.",
-   "yer": [],
+   "yer": [
+    "Athos"
+   ],
    "konu": "din",
    "dogrulanmadi": false
   },
@@ -392,7 +412,10 @@ window.ANTLASMA_MADDELERI.push({
    "no": "28",
    "bolum": "Tahliye ve esirler",
    "ozet": "Esirler onaydan hemen sonra Odesa ve Sivastopol'da karşılıklı teslim edilir; Osmanlı bakım masraflarını altı yılda on sekiz taksitle öder; Romanya, Sırbistan ve Karadağ esirleri aynı esasa bağlıdır.",
-   "yer": [],
+   "yer": [
+    "Odesa",
+    "Sivastopol"
+   ],
    "konu": "esirler",
    "dogrulanmadi": false
   },
