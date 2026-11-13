@@ -34,30 +34,57 @@
     if (window.ANTLASMA_ESLESME) return window.ANTLASMA_ESLESME.eslesen(o);
     var b = String((o && (o.b || o.baslik)) || "");
     return (window.ANTLASMA_MADDELERI || []).filter(function (k) {
-      return b.indexOf(k.ad) >= 0 && gunFarki(o.t, k.t) <= 60;
+      var anahtarlar = (k.anahtarlar && k.anahtarlar.length) ? k.anahtarlar : [k.ad];
+      return anahtarlar.some(function (a) { return b.indexOf(a) >= 0; }) && gunFarki(o.t, k.t) <= 60;
     })[0] || null;
   }
   // ---- ADIM BAŞLIĞI: çok taraflı antlaşmada `taraf` ayrı alan (LAB/Karlofça pilotu, KASA 13 Kasım) ----
   // adım.taraf="Venedik", no="3"  →  "Venedik md. 3";  taraf yoksa  →  "md. 3" (Lozan/Sevr: değişmedi).
   // ESKİ KAYIT uyumu: taraf yok ve no "Venedik 3" biçimindeyse (bölüm-başına string) taraf/no AYRIŞTIRILIR
   // (yalnız görüntü; veri değişmez): "Venedik 3" → "Venedik md. 3".
-  function adimTarafNo(a) {
+  var NON_TARAF = /^(ek|ekler|ek belge|protokol|madde|fıkra|annex|bölüm|kısım)$/i;
+  // kayıttaki taraflar: `taraf` alanı ya da «Taraf 3» biçimli eski `no`'lar (bir kez hesaplanır)
+  function bilinenTaraflar(kayit) {
+    if (!kayit) return [];
+    if (kayit._taraflar) return kayit._taraflar;
+    var t = [];
+    (kayit.adimlar || []).forEach(function (a) {
+      var x = a.taraf ? String(a.taraf).trim() : "";
+      if (!x) {
+        var m = /^([^\d]*[^\d\s])\s+(\d[\d–\-]*)$/.exec(String(a.no == null ? "" : a.no).trim());
+        if (m && !NON_TARAF.test(m[1])) x = m[1];
+      }
+      if (x && t.indexOf(x) < 0) t.push(x);
+    });
+    kayit._taraflar = t;
+    return t;
+  }
+  function adimTarafNo(a, kayit) {
     var taraf = a.taraf ? String(a.taraf).trim() : "", no = String(a.no == null ? "" : a.no).trim();
     if (!taraf) {
       var m = /^([^\d]*[^\d\s])\s+(\d[\d–\-]*)$/.exec(no);
-      if (m) { taraf = m[1]; no = m[2]; }
+      // «Ek 1», «Protokol 2», «Madde 5» taraf DEĞİLDİR (bölüm adı): olduğu gibi kalır
+      if (m && !NON_TARAF.test(m[1])) { taraf = m[1]; no = m[2]; }
+      else {                                   // «Venedik giriş», «Venedik onay»: tarafı kayıttan bilinen taraflardan
+        var b = bilinenTaraflar(kayit);
+        for (var i = 0; i < b.length; i++) {
+          if (no.indexOf(b[i] + " ") === 0) { taraf = b[i]; no = no.slice(b[i].length + 1); break; }
+        }
+      }
     }
     return { taraf: taraf, no: no };
   }
-  function adimBaslik(a) {
-    var x = adimTarafNo(a);
-    return (x.taraf ? x.taraf + " md. " : "md. ") + x.no;
+  // «md. » öneki YALNIZ sayısal numarada (UMIT 832beb5d6 kuralı): «Venedik md. 3», «md. 27-35»;
+  // «Ek 1», «Venedik giriş», «Giriş» olduğu gibi gösterilir.
+  function adimBaslik(a, kayit) {
+    var x = adimTarafNo(a, kayit), sayisal = /^\d/.test(x.no);
+    return (x.taraf ? x.taraf + " " : "") + (sayisal ? "md. " : "") + x.no;
   }
   // Taraf süzgeci: kayıtta ≥ 2 farklı taraf varsa panelde "Tüm taraflar / Habsburg / Venedik …" seçici.
   function tarafSecici(kayit) {
     var gor = [], taraflar = [];
     (kayit.adimlar || []).forEach(function (a) {
-      var t = adimTarafNo(a).taraf;
+      var t = adimTarafNo(a, kayit).taraf;
       if (t && gor.indexOf(t) < 0) { gor.push(t); taraflar.push(t); }
     });
     if (taraflar.length < 2) return "";
@@ -154,7 +181,7 @@
     i = Math.max(0, Math.min(n - 1, i));
     AKTIF.i = i;
     var a = L[i], p = AKTIF.panel;
-    p.querySelector(".amo-ust b").textContent = k.ad + " — " + adimBaslik(a) + "  (" + (i + 1) + "/" + n + ")";
+    p.querySelector(".amo-ust b").textContent = k.ad + " — " + adimBaslik(a, k) + "  (" + (i + 1) + "/" + n + ")";
     var m = p.querySelector(".amo-metin");
     m.textContent = a.dogrulanmadi ? "⚠ İÇERİK DOĞRULANMADI — " + a.ozet : a.ozet;
     m.style.background = a.dogrulanmadi ? "#fff3cd" : "";
@@ -253,7 +280,7 @@
       durdur();
       var t = e.target.value;
       AKTIF.taraf = t;
-      AKTIF.liste = t ? AKTIF.kayit.adimlar.filter(function (a) { return adimTarafNo(a).taraf === t; }) : AKTIF.kayit.adimlar.slice();
+      AKTIF.liste = t ? AKTIF.kayit.adimlar.filter(function (a) { return adimTarafNo(a, AKTIF.kayit).taraf === t; }) : AKTIF.kayit.adimlar.slice();
       var ky = AKTIF.panel.querySelector(".amo-kayar");
       ky.max = String(Math.max(0, AKTIF.liste.length - 1));
       adimGoster(0);

@@ -31,8 +31,8 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 import gun as G  # noqa: E402
 
 # Tavanlar: bugünkü ölçüm (sabitle aynı commit'te yazılır, yalnız gerileme bloke eder)
-BEKLENEN_ODAKSIZ = 188          # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr 83; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder
-BEKLENEN_DOGRULANMADI = 7       # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr `dogrulanmadi:true` adımları)
+BEKLENEN_ODAKSIZ = 211          # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~83 + Karlofça ~23; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder
+BEKLENEN_DOGRULANMADI = 9       # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr+Karlofça `dogrulanmadi:true` adımları)
 
 
 def yukle(kok):
@@ -71,15 +71,38 @@ def eslesen_mi(madde, k):
     return any(a and a in madde["b"] for a in ak)
 
 
-def taraf_no(a):
+NON_TARAF = re.compile(r"^(ek|ekler|ek belge|protokol|madde|fıkra|annex|bölüm|kısım)$", re.I)
+
+
+def bilinen_taraflar(k):
+    """js/antlasma_oynatici.js bilinenTaraflar ile AYNI: `taraf` alanı ya da «Taraf 3» biçimli eski no'lar."""
+    t = []
+    for a in k.get("adimlar") or []:
+        x = str(a.get("taraf") or "").strip()
+        if not x:
+            m = re.fullmatch(r"([^\d]*[^\d\s])\s+(\d[\d–\-]*)", str(a.get("no", "")).strip())
+            if m and not NON_TARAF.match(m.group(1)):
+                x = m.group(1)
+        if x and x not in t:
+            t.append(x)
+    return t
+
+
+def taraf_no(a, bilinen=()):
     """js/antlasma_oynatici.js adimTarafNo ile AYNI: (taraf, no). `taraf` alanı varsa o; yoksa ESKİ biçim «Venedik 3»
-    (bölüm başına string) taraf='Venedik', no='3' olarak ayrıştırılır; öteki durumda taraf=''. Tekrar no reddi taraf kapsamındadır."""
+    (bölüm başına string) taraf='Venedik', no='3'; «Venedik giriş» → bilinen tarafla başlıyorsa ayrılır; «Ek 1» taraf değildir.
+    Tekrar no reddi taraf kapsamındadır."""
     taraf = str(a.get("taraf") or "").strip()
     no = str(a.get("no", "")).strip()
     if not taraf:
         m = re.fullmatch(r"([^\d]*[^\d\s])\s+(\d[\d–\-]*)", no)
-        if m:
+        if m and not NON_TARAF.match(m.group(1)):
             taraf, no = m.group(1), m.group(2)
+        else:
+            for b in bilinen:
+                if no.startswith(b + " "):
+                    taraf, no = b, no[len(b) + 1:]
+                    break
     return taraf, no
 
 
@@ -112,8 +135,9 @@ def denetle_kayit(k, maddeler, ayrinti):
             ihlal.append("yer koordinatı geçersiz: %s %r" % (ad, c))
     adimlar = k.get("adimlar") or []
     gorulen, aralik = set(), {}
+    bilinen = bilinen_taraflar(k)
     for i, a in enumerate(adimlar):
-        taraf, no = taraf_no(a)
+        taraf, no = taraf_no(a, bilinen)
         et = ("%s md. %s" % (taraf, no)) if taraf else no
         if not no:
             ihlal.append("adım %d: no boş" % (i + 1))
