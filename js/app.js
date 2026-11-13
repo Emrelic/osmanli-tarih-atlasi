@@ -13745,6 +13745,7 @@ var _EKOKUMA_DOSYA_ADLARI = [
   "ekokuma_nasil",       // window.EKOKUMA_NASIL — 35 padişaha "nasıl bilirdiniz?" övgü/yergi kartı (KUTU-P1-1015, 0076/H-0009)
   // 🆕 18 Ekim 2026 — Emre: devlet makamları, klasik dönemden nezaretlere
   "ekokuma_makam",       // window.EKOKUMA_MAKAM — sadrazam·vezir·divan·şeyhülislam·kazasker/kadı·beylerbeyi·kapudan·reisülküttâb·serasker·Meclis-i Vükelâ·dönüşüm tablosu (11 kart)
+  "ekokuma_lozan",       // window.EKOKUMA_LOZAN — Lozan tartışmaları, 8 kart (Musul·Boğazlar·Oniki Ada·Hatay·mübadele·kapitülasyon·borçlar·Batı Trakya; UMIT 13 Kasım 2026)
   // GORSEL_MADDE burada yalnız BELLEĞE alınır — kartlarda GÖSTERİMİ ayrı
   // bir karar (KITA 12'nin kendi ölçümü, M-3651: ob-gorsel yuvası yalnız
   // padişah/vefat portresi için, madde görseli için AYRI bir DOM+lazy-load
