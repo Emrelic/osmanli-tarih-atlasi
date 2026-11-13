@@ -1373,7 +1373,8 @@ window.ANTLASMA_MADDELERI.push({
     "İstanbul",
     "Karadeniz"
    ],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 2",
@@ -1386,7 +1387,8 @@ window.ANTLASMA_MADDELERI.push({
     "Karadeniz",
     "Ege Denizi"
    ],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 3",
@@ -1399,7 +1401,8 @@ window.ANTLASMA_MADDELERI.push({
     "Bozcaada",
     "Edirne"
    ],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 4",
@@ -1414,7 +1417,8 @@ window.ANTLASMA_MADDELERI.push({
     "Musul",
     "Irak"
    ],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 5",
@@ -1425,84 +1429,96 @@ window.ANTLASMA_MADDELERI.push({
     "Batı Trakya",
     "Türkiye"
    ],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 6",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Mukim ve Ticaret Şartlarına ile Yargı Yetkisine İlişkin Sözleşme — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 7",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Ticaret Sözleşmesi — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 8",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Yunanistan ile Türkiye arasında sivil enterneler ve savaş esirlerinin değişimi anlaşması (30 Ocak 1923) — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 9",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Af Bildirisi ve Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 10",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Yunanistan'daki Müslüman Mallarına İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 11",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Sıhhi Konulara İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 12",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Türkiye'de Adaletin İdaresine İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 13",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Osmanlı İmparatorluğu'nda Verilen Bazı İmtiyazlara İlişkin Protokol ve Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 14",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Belçika ve Portekiz'in Lozan'da imzalanan belgelerin bazı hükümlerine katılmasına ilişkin Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 15",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Sevr'de Yunanistan'la imzalanan Azınlıkların Korunması Antlaşması ve Trakya Antlaşması'na ilişkin Protokol (24 Temmuz 1923) — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   },
   {
    "no": "Ek 16",
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Sırp-Hırvat-Sloven Devleti'nin imzasına ilişkin Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [],
-   "konu": "ek"
+   "konu": "ek",
+   "dogrulanmadi": true
   }
  ]
 });
