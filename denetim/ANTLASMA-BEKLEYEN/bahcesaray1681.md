@@ -18,6 +18,10 @@ Rus-Osmanlı-Kırım Hanlığı Bahçesaray barışı/ateşkesi (20 yıl, sını
 - Brif: «3 Ocak 1681 Gregoryen / 24 Aralık 1680 Jülyen» — bu gün okunan hiçbir kaynakta çıkmadı; 3 Ocak'ın Jülyen olduğu görülüyor (Gregoryen ile karıştırılmış olabilir).
 - Atlasın mevcut kronoloji maddesi: `data/kronoloji_kirim.js` s. 337, `t:"1681-01-01"` («Bahçesaray Antlaşması ile Osmanlı-Kırım ve Rusya arasında sınır ve barış düzenlendi») — yıl hassasiyetinde; gün yok. Düğme için `antlasma_id` bağlanacak ana madde bu olur; gün netleşince `t` kayıtta 13 Ocak 1681 (Kochegarov/RGADA Jülyen→Gregoryen) ya da TDV/Hammer günüyle ayrışması `ic_not`ta beyan edilmelidir.
 
+## EK — ant16-hepsi turu (13 Kasım 2026): GÜN HÂLÂ ÇÖZÜLMEDİ, DOKUNULMADI
+- Belleten 79/285 (2015), "Sultan I. Mahmud dönemi Osmanlı-Rus siyasi ilişkileri" (belleten.gov.tr/tam-metin/231, OKUNDU, ham HTML): "11 Şubat 1681 tarihinde ilk Türk-Rus barışı olan Bahçesaray / Edirne Antlaşması imzalandı" — dayanağı dn. 14 (okunmadı). Kochegarov (RGADA): 3 Ocak Jülyen = 13 Ocak Gregoryen (taslak); Noradounghian 8 Ocak; Encyclopedia of Ukraine 13 Ocak (ansiklopedi, akademik hakemli sayılmadı). Üç farklı gün (13 Ocak / 8 Ocak / 11 Şubat), iki bağımsız akademik kaynak aynı günü vermiyor → kayıt günü 13 Ocak yapılmadı; `kronoloji_kirim.js` 1681-01-01 aynen duruyor.
+- O. Köse (DergiPark article-file/853639, 1700 İstanbul Antl. makalesi): yalnız "1681'de Bahçesaray'da 20 yıllık antlaşma", gün yok.
+
 ## Sıradaki adım (KASA/araştırmacı)
 1. PSZ (Rus İmp. Kanunlar Külliyatı, c. II) ya da *Памятники дипломатических сношений Московского государства с Турцией* (PDSMG) neşri «шертная грамота 1681» madde metni; RGADA f. 89 (Сношения России с Турцией); Hammer'in İtalyanca metni (GOR XII s. 502-504).
 2. TDV «Çehrin Seferi» maddesinin barış bölümünün ham gövdesi (Cloudflare nedeniyle okunamadı).

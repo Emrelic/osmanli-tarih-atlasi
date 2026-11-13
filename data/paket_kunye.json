@@ -36,8 +36,8 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "da221d362f4bdb0b",
-     "bayt": 478046
+     "sha": "6885965d7d8c3c1f",
+     "bayt": 478968
     },
     {
      "yol": "data/olaylar_ek6.js",
@@ -181,8 +181,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_habsburg.js",
-     "sha": "d89af4505f61be1d",
-     "bayt": 87698
+     "sha": "ba55ac4d9cd48e71",
+     "bayt": 87765
     },
     {
      "yol": "data/kronoloji_rusya.js",

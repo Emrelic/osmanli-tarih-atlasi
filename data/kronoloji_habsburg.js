@@ -128,7 +128,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1547-01-01", gun:"Haziran 1547 (TDV ay verir, gün vermez)", b:"İstanbul Mütarekesi — Habsburg'un vergi karşılığı barışı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"Ferdinand, elinde tuttuğu Macaristan toprakları için Osmanlı'ya yıllık ödeme kabul ederek beş yıllık bir mütareke imzaladı. Habsburg tarihyazımı bunu, ayakta kalmak için ödenen bir bedel olarak anar.",
-  ic_not_d:"Çekirdekte olaylar_ek5.js 1547-06-18 günüyle aynı olayı tutuyor (elçilerin divana kabulü); TDV süleyman-i yalnız ayı veriyor. Ay bilindiği hâlde yıl başı yazıldı, çünkü CLAUDE.md §8: ay hassasiyetli tarih ayın 1'ine genişler ve senkronu bozar.",
+  ic_not_d:"Çekirdekte olaylar_ek5.js 1547-06-19 günüyle aynı olayı tutuyor (ahidname günü; hakemli karar 13 Kasım 2026, Petritsch 1985/2015 + Aktaş Kütükçü 2022); TDV süleyman-i yalnız ayı veriyor. Ay bilindiği hâlde yıl başı yazıldı, çünkü CLAUDE.md §8: ay hassasiyetli tarih ayın 1'ine genişler ve senkronu bozar.",
   kaynak:"TDV `suleyman-i` (sayfa okundu, KRONO-ORTA-AVRUPA-0929): \"Haziran 1547'de beş yıllık bir antlaşma yapıldı\" — gün yok, yıl damgası korundu" },
 
 { t:"1552-09-04", b:"Eğri kuşatmasının püskürtülmesi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Eğri",

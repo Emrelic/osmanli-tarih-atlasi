@@ -331,9 +331,9 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"Batıda sağlanan sükûnet sırasında Kanûnî doğuya yöneldi (1548 İran seferi). Barış Erdel'deki gelişmelerle sarsıldı: János Zsigmond'un vasisi Martinuzzi'nin (Frater György) entrikaları sonucu ilişkiler bozuldu; Osmanlı kuvvetleri Becs, Beçkerek, Çanad ve Lipva'yı alarak sınır boyunda yeni bir harekâta girişti. Avusturya maddesine göre Habsburglar bu ödemeyi uzun süre yapmak zorunda kaldı.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1547-06-18|Habsburg","1547-01-01|İstanbul Mütarekesi"],
+  olay:["1547-06-19|Habsburg","1547-01-01|İstanbul Mütarekesi"],
   kaynak:"TDV: suleyman-i (Veltwyck ve Sicco, Kasım 1545 mütarekesi, 18 Haziran 1547 divan kabulü, beş yıllık antlaşma, haraç hükmü, antlaşmanın önemi, Martinuzzi) · TDV: avusturya ('haraç' / 'munus honoriarium')",
-  ic_not:"TDV haraç MİKTARINI vermiyor (literatürdeki yıllık 30.000 duka OKUNMADI, yazılmadı). Madde t:1547-06-18 elçilerin divana kabul günüdür; imza günü TDV'de 'Haziran 1547'." },
+  ic_not:"TDV haraç MİKTARINI vermiyor (literatürdeki yıllık 30.000 duka OKUNMADI, yazılmadı). Madde t:1547-06-19 ahidname/imza günüdür (Petritsch 1985/2015 s.263 + Aktaş Kütükçü 2022 s.194; hakemli karar 13 Kasım 2026); 18 Haziran elçilerin divana kabul günüdür (TDV); TDV imza gününü yalnız 'Haziran 1547' verir." },
 
 // ── 1553 OSMANLI-FRANSIZ İTTİFAKI ──────────────────────────────────────────
 { id:"antlasma4-fransa-1553", tur:"sebep-sonuc",
