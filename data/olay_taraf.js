@@ -164,7 +164,7 @@ window.OLAY_TARAF = {
  "-0299-01-01|Selevkos I Antiokheia'yı (Antakya) kurdu": ["selevkos"],
  "-0300-01-01|Ipsos sonrası Ptolemaios Koile-Suriye'yi işgal etti; Seleukos itiraz etti (Suriye Savaşları'nın kökü)": ["ptolemai","selevkos"],
  "-0300-01-01|Lysimakhos hazinesini Bergama'ya koydu; Philetairos kalenin muhafızı oldu": ["lizimakhos"],
- "-0300-01-01|İpsos Savaşı: Selevkos ve Lysimakhos Antigonos'u yendi; Suriye Selevkos'a geçti": ["selevkos","lizimakhos","antigonos","antigonos-krallik"],
+ "-0300-01-01|İpsos Savaşı: Selevkos ve Lysimakhos Antigonos'u yendi; Suriye Selevkos'a geçti": ["selevkos","lizimakhos","antigonos-krallik"],
  "-0302-01-01|Dura-Europos: Selevkos Imparatorlugu dönemi başlar": ["selevkos"],
  "-0303-01-01|Demetrios Poliorketes'in Rodos kuşatması başarısızlıkla bitti": ["antigonos-krallik","rodos-polis"],
  "-0304-01-01|Ptolemaios kendini kral ilan etti; Ptolemaios hanedanı resmen kuruldu": ["ptolemai"],
