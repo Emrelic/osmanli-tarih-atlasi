@@ -162,6 +162,10 @@ function devletAdi(id) {
       if (d.harita && !_DEVLET_ADI[d.harita]) _DEVLET_ADI[d.harita] = d.ad;
     });
   }
+  // P2 (13 Kasım 2026, LAB/EMRELIC): Dizin penceresinin tarih satırlarında ham
+  // `__BOSLUK__` kimliği kullanıcıya görünüyordu (Kars, 375px). `__BOSLUK__` bir
+  // devlet değil BEYANLI BOŞLUK işaretidir (`_sahipAdi` aynı sözü veriyor).
+  if (id === "__BOSLUK__") return "kayıt yok (boşluk beyanı)";
   return _DEVLET_ADI[id] || id;
 }
 function karsiTaraf(k) {

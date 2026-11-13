@@ -7,7 +7,8 @@ dönemi) kuralların tam metni `arsiv/ESKI-PRENSIPLER-1012.md`dedir — yürürl
 
 Osmanlı Tarih Atlası: zaman ilerledikçe devlet sınırlarının değiştiği, yanında kronoloji ve
 dönemin hükümdarının aktığı **eğitim amaçlı statik web sitesi**. Sunucu, veritabanı, derleme
-yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
+yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 5.24.0 (`index.html`de unpkg'ye
+sabitli; sürüm değişikliği bilinçli yapılır).
 
 - Çekirdek: Osmanlı 1281–1923, **gün hassasiyetinde**. Hedef: bütün dünya (kademeli).
 - Yayın: https://emrelic.github.io/osmanli-tarih-atlasi/ — **`main`e push = yayın.**
@@ -84,6 +85,7 @@ py arac/denetle.py                    # değişmezler — her veri değişikliğ
 py arac/renk_olc.py                   # veri değiştiyse şart (palet verinin fonksiyonudur)
 py arac/odak_olc.py                   # kronoloji maddelerinin kamera odağı
 py arac/paketle.py yenile             # site paketlerini tazele — veri değiştiyse
+py arac/paketle.py topla [--kuru]     # index.html'e eklenen paket-dışı küçük data/*.js'leri paketle (idempotent)
 py arac/surum_damgala.py              # index.html ?v=rNN damgası
 py arac/denetle_yayin.py              # yayın kapısı (~9 dk)
 py arac/push_kapisi.py --kim "<AD>"   # main'e TEK yol (aşağıda)
