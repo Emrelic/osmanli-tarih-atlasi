@@ -140,7 +140,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
  { onem:3, dunya:2, bolge_onem:3, puan_s:"v2","kapsam": "dis", "bolge": 1, 
   "t": "-0311-01-01",
   "k": "diger",
-  "b": "Ekbatana, Hemedan, Seleukeia: Seleukos Nikator hâkimiyeti başlar (Medya ve Dicle)",
+  "b": "Ekbatana, Hemedan: Seleukos Nikator hâkimiyeti başlar (Medya)",
   "gun": "MÖ 312",
   "yer": "Ekbatana / Hemedan / Seleukeia (Dicle üzerinde)",
   "d": "Ekbatana, Hemedan noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Ekbatana Seleukos I Nikator'a (305-281) geçer | Kaynak: Brown, S. C., \"Ecbatana\", Encyclopaedia Iranica VIII/1, 1997 (rev. 2011) | https://web.archive.org/web/2025/https://www.iranicaonline.org/articles/ecbatana | «The city later fell to Seleucus I Nicator (305-281 B.C.E.)»",
@@ -148,8 +148,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
-   "Hemedan",
-   "Seleukeia"
+   "Hemedan"
   ]
  },
  { onem:4, dunya:3, bolge_onem:4, puan_s:"v2","kapsam": "dis", "bolge": 1, 
@@ -196,15 +195,15 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  { onem:4, dunya:4, bolge_onem:5, puan_s:"v2","kapsam": "dis", "bolge": 1, 
-  "t": "-0330-01-01",
+  "t": "-0330-10-22",
   "k": "diger",
   "b": "Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender Imparatorlugu",
-  "gun": "MÖ 331",
+  "gun": "MÖ 331 (22 Ekim; Livius)",
   "yer": "Babil / Uruk / Susa",
   "d": "Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
   "kaynak": "Arrianos, Anabasis 3.15.7, 3.16.4 (Perseus, CC BY-SA) — «Ἀλέξανδρος δὲ παρελθὼν εἰς τὴν Βαβυλῶνα τὰ ἱερὰ, ἃ Ξέρξης καθεῖλεν, ἀνοικοδομεῖν προσέταξε»", "ic_not_d":"DUNYA-1102 Perseus turu (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kayna) dayanak olamaz, değiştirildi. Arrianos 3.15.7: Gaugamela, arkon Aristophanes (331/0) Pyanepsion ayı; 3.16.4: ardından İskender Babil'e girdi, Mazaios'u satrap atadı. Yıl MÖ 331 sonu = -0330 uyumlu. Uruk bu metinde geçmez.",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil",
+  "kesinlik": "gun",
   "odak_yer": [
    "Babil",
    "Uruk (Warka)",
