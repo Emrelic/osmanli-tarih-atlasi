@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "3d28700625f3e2e6",
-     "bayt": 6205419
+     "sha": "53f96a5ec2b07ee0",
+     "bayt": 6205570
     }
    ],
-   "bayt": 6438168
+   "bayt": 6438319
   },
   {
    "paket": "data/paket_06.js",
@@ -479,8 +479,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_hitit.js",
-     "sha": "5a0682e80ca46c84",
-     "bayt": 1821
+     "sha": "db3a045757cf0c18",
+     "bayt": 1872
     }
    ],
    "bayt": 3444763
@@ -889,7 +889,7 @@
     },
     {
      "yol": "data/yerlesimler_ek25.js",
-     "sha": "d711fb0e7b13be8c",
+     "sha": "d4792fed21485e1e",
      "bayt": 39476
     },
     {
@@ -2244,7 +2244,7 @@
     },
     {
      "yol": "data/olaylar_antik_yakin_dogu.js",
-     "sha": "205bbe67a6277222",
+     "sha": "64c2ba60eff2de49",
      "bayt": 189652
     },
     {
