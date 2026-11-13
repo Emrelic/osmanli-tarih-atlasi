@@ -1,0 +1,12 @@
+{
+ "id": "fransiz-osmanli-1886",
+ "ad": "Fransız-Osmanlı düzenlemesi",
+ "anahtarlar": ["Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi"],
+ "onceki_t": "1885-12-31",
+ "t": "1886-01-01",
+ "kadraj": [8, 29, 13, 34],
+ "yerler_ek": {},
+ "kaynak": "METİN ULAŞILAMADI: 1886 Fransız-Osmanlı düzenlemesinin metni hiçbir ham kaynakta bulunamadı (Wikisource ve genel aramada metin yok). Tek dayanak, kronoloji maddesinin kendi kaynak alanıdır: IBS 121 (1972) s. 2 'An agreement in 1886 between France and Turkey delimited a boundary ... for a limited distance' — bu kaynak BU OTURUMDA okunmadı, atlas notundan aktarılır. İkincil: Wikipedia 'Libya-Tunisia border' ve ICJ 1994 Libya/Chad belgeleri 1886'yı anıyor ama aramada yalnız özet görüldü, madde okunmadı; bunlar dayanak sayılmadı. TDV'de bu düzenlemeye ayrı madde araması yapılmadı/bulunamadı. Gün: kaynak yalnız yıl veriyor, atlas 1886-01-01 (kesinlik yıl). Hat ve yer adları bilinmiyor. METNİ BULUNAMAYAN KAYIT: main'e girmesi önerilmez.",
+ "cikti": "data/antlasma_madde_fr1886.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p04/fr1886-girdi.json"]
+}

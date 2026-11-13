@@ -74,7 +74,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "3",
    "bolum": "Mütareke şartları (özet kaynaktan)",
-   "ozet": "⚠ Tam metin okunmadı; Times özetine dayanır. Ayırma hattı ve tarafsız bölge çizilir; Bulgaristan, Rumeli ve Trakya'nın çoğu İstanbul ile Gelibolu hatlarına dek Rus elinde kalır; tarafsız bölgede tahkimat yasaktır; Rusya Burgaz ve Midye'yi erzak için tutar.",
+   "ozet": "⚠ Tam metin okunmadı; Times özetine dayanır. Ayırma hattı ve tarafsız bölge çizilir; Bulgaristan, Rumeli ve Trakya'nın çoğu İstanbul ile Gelibolu hatlarına dek Rus elinde kalır; tarafsız bölgede tahkimat yasaktır; Rusya Burgaz ve Midye'yi tutar.",
    "yer": [
     "Edirne",
     "Çatalca",
