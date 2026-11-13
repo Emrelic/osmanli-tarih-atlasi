@@ -1,0 +1,12 @@
+{
+ "id": "katar-londra-1913",
+ "ad": "Katar'dan Osmanlı feragati",
+ "anahtarlar": ["Katar'dan Osmanlı feragati — Londra Sözleşmesi", "Katar'dan Osmanlı feragati"],
+ "onceki_t": "1913-07-29",
+ "t": "1913-07-29",
+ "kadraj": [49, 23, 55, 28],
+ "yerler_ek": {"Katar": [51.2, 25.3]},
+ "kaynak": "⚠ metin ulaşılamadı. Anglo-Osmanlı Basra Körfezi Sözleşmesi'nin (Londra, 29 Temmuz 1913; Kuveyt, Katar, Bahreyn bölümleri) ham metni bu oturumda bulunamadı: Wikisource'ta sayfa yok; ICJ Katar Memoryal PDF'i ve Qatar Digital Library 403 verdi; İngilizce/Fransızca aramalar yalnız ikincil özet döndürdü (Hurewitz c. I s. 567-570, Aitchison basılı kaynak, okunmadı). TDV 'Katar' maddesi okundu: sözleşme 29 Temmuz 1913'te Londra'da imzalandı, Osmanlı Katar yarımadasındaki taleplerinden feragat etti, yönetim Şeyh Câsim b. Sânî ve halefleri'nde; sözleşme yürürlüğe girmedi. Gün çelişkisi YOK (TDV ve ikincil kaynaklar aynı günü verir); ikinci bağımsız akademik kaynak metin düzeyinde okunamadı ('teyitsiz'). Not: kronoloji maddesindeki 'Şeyh Kāsım b. Sânî' yazımı TDV'de 'Câsim'dir. Adım özetleri yalnız TDV cümlesine dayanır, madde madde değildir; atlas kaynak sayılmaz.",
+ "cikti": "data/antlasma_madde_katar.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p03/katar-girdi.json"]
+}
