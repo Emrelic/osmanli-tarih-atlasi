@@ -18385,7 +18385,29 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "yer": "Dos Pilas",
   "ic_not": "Aguateca'nin tam terk yili makalede 'around 810' dalga olarak verilir; Dos Pilas'in 761 yenilgisi ms1 kunyesinde son maddesi olarak HAZIR (yeniden yazilmadi)."
  },
- { "odak_yer":["Cobá"], 
+ { "odak_yer":["Cobá"],
+  "t": "0613-05-12",
+  "b": "Cobá Stela 6: Initial Series 9.9.0.0.0 (Ruler A)",
+  "tur": "hukumdar",
+  "onem": 2,
+  "dunya": 1,
+  "kapsam": "dis",
+  "etiket": [
+   "konu-siyasi",
+   "dogu-500-1281"
+  ],
+  "taraflar": [
+   "coba"
+  ],
+  "d": "Cobá Stela 6, 9.9.0.0.0, 3 Ajaw 2 Sotz' Initial Series tarihiyle açılır; ikinci tarih 9.9.10.0.0 (2 Ajaw 13 Pohp, 21 Mart 623) ile birlikte Gronemeyer'in dizisinde Ruler A'ya bağlanır. Cobá Krallığı'nın künyesi bu yazıt tarihinden başlatılır.",
+  "kaynak": "Gronemeyer, S., 'A Preliminary Ruling Sequence of Coba, Quintana Roo', Wayeb Notes No. 14, 2004, https://www.wayeb.org/notes/wayeb_notes0014.pdf (pdftotext ile okundu, 14.11.2026) | «Stela 6 (Figure 1) opens in blocks A1-B7 with an Initial Series date 9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613).»",
+  "gun": "9.9.0.0.0, 3 Ajaw 2 Sotz' (May 12, 613)",
+  "kesinlik": "gun",
+  "yer": "Cobá",
+  "ic_not": "D2S-ACIK-1114: olay niteliği kaynakta yalnız yazıt tarihi (monument date); hükümdar adı okunmadı. Cobá'nın 613 öncesi siyasi durumu bu işte okunmadı.",
+  "ic_not_takvim": "Maya Uzun Sayim tarihi: kaynak Bati takvimi karsiligini ('May 12, 613' vb.) verir, hangi takvim (Julyen/Gregoryen) oldugunu belirtmez; kaynagin gunu aynen alindi, cevirisi yapilmadi."
+ },
+ { "odak_yer":["Cobá"],
   "t": "0653-01-31",
   "b": "Cobá Stela 1: Ruler B (9.11.0.5.9)",
   "tur": "hukumdar",
