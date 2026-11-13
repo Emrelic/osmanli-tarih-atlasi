@@ -72,7 +72,7 @@ window.OLAYLAR_ILIRYA0072 = [
 { tur:"savas", bolge:2, t:"1813-01-01", k:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"Zadar (Zara)",
   b:"Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı geri alması — Napolyon idaresinin sonu",
   gun:"1813 (kaynaklar YIL hassasiyetinde; \"potkraj 1813\" = 1813 sonu)",
-  yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Krk (Veglia), Cres (Cherso), Rab (Arbe), Karlovac, Sisak, Gospić, Udbina, Drežnik (Drežnik Grad), Cetin (Cetingrad), Kostayniçe (Kostajnica), Ljubljana, Trieste, İlirya Eyaletleri, Dalmaçya",
+  yer:"Zadar (Zara), Split (Spalato), Şibenik (Sebenico), Knin, Nadin, Vrana (Urana), Sin (Sinj), Klis, Pag (Pago), Uzunada (Dugi Otok), Brakya (Brač), Hvar (Lesina), Vis (Lissa), Korçula (Kurzola), Mliyet (Mljet), Krk (Veglia), Cres (Cherso), Rab (Arbe), Karlovac, Sisak, Gospić, Udbina, Drežnik (Drežnik Grad), Cetin (Cetingrad), Kostayniçe (Kostajnica), Ljubljana, İlirya Eyaletleri, Dalmaçya",
   kisiler:"Napolyon Bonapart",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"1813 sonunda Habsburg birlikleri Sava'nın güneyindeki bölgeyi geri aldı ve eski sınır örgütlenmesi yeniden kuruldu; Avusturya ordusu Ekim 1813'te İstriya'ya girdi. Karlovac o tarihten sonra Avusturya İlirya Krallığı'nın parçası oldu. Fransız idaresinin Dalmaçya'daki dönemi de 1813'te kapandı. Bölgenin Avusturya'ya aidiyeti 1814 Paris Barışı ve 1815 Viyana Kongresi kararlarıyla resmen onaylandı. Bu harekâtla Villach, Tarvis, Görz, Gradisca ve Pula (İlirya Eyaletleri) 1813 sonunda Avusturya'ya döndü.",
