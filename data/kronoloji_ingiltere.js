@@ -1413,7 +1413,7 @@ window.KRONOLOJI_INGILTERE = [
 
 { t:"1923-07-24", b:"Lozan Antlaşması imzalandı", tur:"antlasma",
   onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","diplomasi","birlesik-krallik","konu-diplomasi"],
-  yer_id:"Lozan",
+  odak_yer:["Edirne","Rodos"],
   d:"Britanya'nın da imzacıları arasında bulunduğu antlaşma, Sevr'in dayattığı paylaşım planını fiilen ortadan kaldırıp yeni Türkiye Cumhuriyeti'nin bugünkü sınırlarını uluslararası olarak tanıdı; boğazlar rejimi de yeniden düzenlendi. Antlaşma, üç buçuk yüzyıl süren İngiliz-Osmanlı ilişkisinin kapanışını ve modern Türkiye ile Britanya arasındaki ilişkinin başlangıcını simgeler.",
   kaynak:"ingiltere (TDV)" },
 

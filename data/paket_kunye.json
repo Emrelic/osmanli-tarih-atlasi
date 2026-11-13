@@ -11,8 +11,8 @@
     },
     {
      "yol": "data/olaylar.js",
-     "sha": "2a25e7b4bea9d37f",
-     "bayt": 83903
+     "sha": "9ef817f3705633ed",
+     "bayt": 83916
     },
     {
      "yol": "data/olaylar_ek.js",
@@ -55,7 +55,7 @@
      "bayt": 120476
     }
    ],
-   "bayt": 944620
+   "bayt": 944633
   },
   {
    "paket": "data/paket_02.js",
@@ -238,8 +238,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "020244e622a2411a",
-     "bayt": 255120
+     "sha": "9cf55bb59fdece85",
+     "bayt": 255133
     },
     {
      "yol": "data/kronoloji_fransa.js",
@@ -252,7 +252,7 @@
      "bayt": 102646
     }
    ],
-   "bayt": 463939
+   "bayt": 463952
   },
   {
    "paket": "data/paket_09.js",
