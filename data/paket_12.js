@@ -860,7 +860,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Büyük güçlerin onayıyla Bavyera Kralı'nın henüz reşit olmayan oğlu Otto, Londra Antlaşması ile 'Helenler'in kralı' sıfatıyla Yunanistan tahtına davet edildi; reşit oluncaya kadar bir naiblik konseyi kurulması da kararlaştırıldı.",
   kaynak:"TDV `yunanistan`: '1832'de büyük güçlerin onayıyla Yunan Millî Meclisi, Bavyera kralının henüz reşid olmayan oğlu Otto'yu \"Helenler'in kralı\" sıfatıyla Yunanistan'a davet etti.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Britannica/Treaty of Constantinople 1832)." },
 
-{ odak_yer:["Arta","Golos (Volos)","Anabolu (Nauplion)"], taraflar:["yunanistan"], t:"1832-07-21", b:"İstanbul Antlaşması — Arta-Volos sınırının çizilmesi", tur:"antlasma",
+{ odak_yer:["Arta","Golos (Volos)","Anabolu (Nauplion)"], taraflar:["yunanistan"], t:"1832-07-21", antlasma_id:"arta-volos-1832", b:"İstanbul Antlaşması — Arta-Volos sınırının çizilmesi", tur:"antlasma",
   onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
   d:"Osmanlı Devleti, büyük güçlerle imzaladığı antlaşmayla yeni Yunan Krallığı'nı resmen tanıdı ve kuzey sınırını Arta-Volos hattı olarak belirledi.",
   kaynak:"TDV `yunanistan`: 'Ülkenin ilk çekirdeği, Mora yarımadasından Golos (Volos) ve Arta körfezleri boyunca çekilecek bir çizginin güney kısmı ile Eğriboz ve Kiklad adalarını kapsar.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak." },

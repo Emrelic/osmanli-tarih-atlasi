@@ -11,8 +11,8 @@
     },
     {
      "yol": "data/olaylar.js",
-     "sha": "0df6401c70e2d11b",
-     "bayt": 84035
+     "sha": "65d37c415016185b",
+     "bayt": 84092
     },
     {
      "yol": "data/olaylar_ek.js",
@@ -21,8 +21,8 @@
     },
     {
      "yol": "data/olaylar_ek2.js",
-     "sha": "a155a4b1b0ab0f0e",
-     "bayt": 42551
+     "sha": "369940e069833282",
+     "bayt": 42584
     },
     {
      "yol": "data/olaylar_ek3.js",
@@ -36,8 +36,8 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "ccb2748573065eb8",
-     "bayt": 478106
+     "sha": "4bc2a2089d3ac7de",
+     "bayt": 478162
     },
     {
      "yol": "data/olaylar_ek6.js",
@@ -55,7 +55,7 @@
      "bayt": 120477
     }
    ],
-   "bayt": 947057
+   "bayt": 947208
   },
   {
    "paket": "data/paket_02.js",
@@ -238,8 +238,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_ingiltere.js",
-     "sha": "9cf55bb59fdece85",
-     "bayt": 255133
+     "sha": "aee1150118e77d12",
+     "bayt": 255197
     },
     {
      "yol": "data/kronoloji_fransa.js",
@@ -252,7 +252,7 @@
      "bayt": 102646
     }
    ],
-   "bayt": 463952
+   "bayt": 464018
   },
   {
    "paket": "data/paket_09.js",
@@ -577,8 +577,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "b3c813d9cec81a3f",
-     "bayt": 143392
+     "sha": "4251b0f01208dc66",
+     "bayt": 143423
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -701,7 +701,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 1938068
+   "bayt": 1938099
   },
   {
    "paket": "data/paket_13.js",
@@ -1566,8 +1566,8 @@
     },
     {
      "yol": "data/olaylar_p0068b.js",
-     "sha": "5e6bc1ba10e8d0a4",
-     "bayt": 29695
+     "sha": "5bd23ee1d91d6b48",
+     "bayt": 29723
     },
     {
      "yol": "data/olaylar_p0065.js",
@@ -1655,7 +1655,7 @@
      "bayt": 225751
     }
    ],
-   "bayt": 562314
+   "bayt": 562343
   },
   {
    "paket": "data/paket_27.js",
@@ -2655,11 +2655,11 @@
     },
     {
      "yol": "data/antlasma_madde_karlofca.js",
-     "sha": "c1a465aa283d95e8",
-     "bayt": 28428
+     "sha": "96c76c7a78092543",
+     "bayt": 29817
     }
    ],
-   "bayt": 42986
+   "bayt": 44375
   }
  ]
 }
