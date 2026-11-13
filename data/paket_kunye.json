@@ -479,8 +479,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "5d15ae45bdd2db91",
-     "bayt": 328193
+     "sha": "9627ab9353ac9fb3",
+     "bayt": 331735
     },
     {
      "yol": "data/kronoloji_sinir_antik_hitit.js",
@@ -498,7 +498,7 @@
      "bayt": 17249
     }
    ],
-   "bayt": 3722382
+   "bayt": 3724835
   },
   {
    "paket": "data/paket_10.js",
