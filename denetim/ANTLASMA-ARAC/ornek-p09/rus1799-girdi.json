@@ -1,0 +1,17 @@
+{"maddeler":[
+ {"no":"giriş","sira":0,"bolum":"Giriş","ozet":"Sultan III. Selim ile Çar I. Pavel, huzuru pekiştirmek ve Fransız tehdidine karşı savunma ittifakı kurmak ister; Rus elçisi Tamara ile Rumeli Kazaskeri İbrahim İsmet ve Reisülküttâb Ahmed Atıf müzakere eder.","yer":["İstanbul"],"konu":"ittifak"},
+ {"no":1,"bolum":"Ortak dost ve düşman","ozet":"İki devlet kara ve denizde kalıcı barış içinde olur, aynı dost ve düşmanlara sahip sayılır, güvenliklerini ilgilendiren her konuyu paylaşır ve saldırıyı birlikte önlemek için ortak karar alır.","yer":[],"konu":"ittifak"},
+ {"no":2,"bolum":"Eski antlaşmaların teyidi (metin yarım)","ozet":"Madde Yaş Antlaşması ve öteki eski antlaşmaların koşullarına gönderme yapar; OCR'da maddenin devamı yok, kapsamı doğrulanamadı.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":3,"bolum":"Metin OCR'da eksik","ozet":"Madde metni okunan kaynak taramasında yok; içeriği doğrulanamadı.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":4,"bolum":"Metin OCR'da eksik","ozet":"Madde metni okunan kaynak taramasında yok; içeriği doğrulanamadı.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":5,"bolum":"Metin OCR'da eksik","ozet":"Madde metni okunan kaynak taramasında yok; içeriği doğrulanamadı.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":6,"bolum":"Metin OCR'da eksik","ozet":"Madde metni okunan kaynak taramasında yok; içeriği doğrulanamadı.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":7,"bolum":"Ayrı barış yasağı (metin yarım)","ozet":"Metnin okunan sonu: taraflardan hiçbiri ötekini kapsamadan ve güvenliğini sağlamadan barış ya da ateşkes yapamaz; ittifak yüzünden biri saldırıya uğrarsa öbürü yükümlülüğünü sadakatle yerine getirir. Başı OCR'da yok.","yer":[],"konu":"ittifak","belirsiz":true},
+ {"no":8,"bolum":"Ortak savaşta plan paylaşımı","ozet":"Ortak savaşta yardım ya da asker gönderilirse taraflar sefer planlarını açıkça paylaşır, uygulamayı kolaylaştırır; savaşın uzatılması veya barış tasarılarını da danışarak ve ölçülü ilkelerle belirler.","yer":[],"konu":"yardim"},
+ {"no":9,"bolum":"Yardım birliklerinin donatımı","ozet":"Asker yardımı yapan devlet toplarını, cephanesini ve maaşını sağlar; yardım isteyen taraf yiyecek ve yemi uzlaşılan fiyatla verir, konaklama hazırlar ve birliklere kendi ordusu gibi davranır.","yer":[],"konu":"yardim"},
+ {"no":10,"bolum":"Gemi yardımı ve limanlar","ozet":"Gemi yardımı isteyen devlet, boğaza girdikleri günden itibaren gemilerin erzakını karşılar, onarım gereçlerini gecikmesiz ve cari fiyatla verir; ortak savaştaki gemiler iki tarafın limanlarında kışlayabilir.","yer":["Boğazlar"],"konu":"deniz"},
+ {"no":11,"bolum":"Ganimet","ozet":"Savaş sırasında düşmandan elde edilen ganimet, onu ele geçiren devlete kalır.","yer":[],"konu":"savas"},
+ {"no":12,"bolum":"Genişleme amacı yok; katılıma davet","ozet":"İttifakın toprak büyütme amacı yoktur; hedef sınırların bütünlüğünü korumak ve Avrupa dengesini sürdürmektir. Almanya imparatoru, İngiltere ve Prusya kralları ile öteki hükümdarlar ittifaka katılmaya çağrılır.","yer":[],"konu":"ittifak"},
+ {"no":13,"bolum":"Süre","ozet":"Antlaşma onayların değiş tokuşundan başlayarak sekiz yıl geçerlidir; süre dolmadan önce koşullara göre dostane biçimde gerekli değişiklikler görüşülür.","yer":[],"konu":"ittifak"},
+ {"no":14,"bolum":"Onay","ozet":"Antlaşma Sultan ve Rus Çarı tarafından onaylanır; onay belgeleri İstanbul'da en geç iki ay içinde, mümkünse daha erken değiştirilir.","yer":["İstanbul"],"konu":"ittifak"}
+]}

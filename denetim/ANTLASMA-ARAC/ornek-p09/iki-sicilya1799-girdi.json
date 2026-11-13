@@ -1,0 +1,12 @@
+{"maddeler":[
+ {"no":"giriş","sira":0,"bolum":"Giriş","ozet":"Fransa'nın Osmanlı topraklarını işgali ve İki Sicilya'yı tehdidi üzerine Sultan III. Selim ile Kral IV. Ferdinand ortak dava güder; Napoli elçisi Kont Ludolf, Kazasker İbrahim İsmet ve Reisülküttâb Ahmed Atıf müzakere eder.","yer":["İstanbul"],"konu":"ittifak"},
+ {"no":1,"bolum":"Ortak dava","ozet":"Fransızların İtalya'yı, Malta'yı ve Mısır'ı işgali iki devletin güvenliğiyle bağdaşmaz; taraflar Fransa'ya karşı ortak savaşmayı, düşmanca tasarılara karşı birlikte önlem almayı ve sınır komşu bölgeleri kurtarmayı üstlenir.","yer":["Mısır","Malta","İtalya"],"konu":"ittifak"},
+ {"no":2,"bolum":"Ayrı barış yasağı","ozet":"Taraflardan biri ortak düşmanla, öbürünü katmadan barış ya da ateşkes yapmayacağını taahhüt eder.","yer":[],"konu":"ittifak"},
+ {"no":3,"bolum":"Harekât uyumu ve Osmanlı yardımı","ozet":"Taraflar harekâtı eşgüdümle yürütür ve kara-deniz yardımı verir; Sicilya isterse Sultan yüz bin Arnavut askeri gönderir ve Adriyatik ile Akdeniz'de güçlü bir donanma bulundurur.","yer":["Adriyatik","Akdeniz"],"konu":"yardim"},
+ {"no":4,"bolum":"Saldırıda karşılıklı yardım","ozet":"Birinin kendi topraklarına saldırılırsa öbürü karşı harekâtla ona yardım eder; yardım isteyen taraf gelen kara ve deniz kuvvetlerinin iaşesini, nakliye gemilerini ve erzakını üstlenir.","yer":[],"konu":"yardim"},
+ {"no":5,"bolum":"Limanların Fransa'ya kapatılması","ozet":"Taraflar limanlarını Fransız savaş ve ticaret gemilerine kapatır, tebaasının Fransa ile ticaretini ve ona savaş malzemesi ihracını yasaklar; kendi donanmalarına limanlarını açar ve cari fiyatla ikmal sağlar.","yer":[],"konu":"deniz"},
+ {"no":6,"bolum":"Karşılıklı yarar","ozet":"Taraflar güvenlik ve huzur için gerekli karşılıklı yararları birbirine sağlamayı ve bu konuda dostça anlaşmayı taahhüt eder.","yer":[],"konu":"ittifak"},
+ {"no":7,"bolum":"Berberî ocaklarıyla barış","ozet":"Sicilya ile Berberî ocakları arasındaki savaş ortak çabayı zayıflatacağından Sultan, ocakları gecikmeden Sicilya ile barışa zorlamayı ve barışın sürmesine özen göstermeyi üstlenir.","yer":["Tunus"],"konu":"ittifak"},
+ {"no":8,"bolum":"Ticaret hükümlerinin yenilenmesi","ozet":"Huzur gelince taraflar, 1740 tarihli dostluk antlaşmasının ticarete ilişkin maddelerini iki tarafa en yararlı biçimde yenilemeyi vaat eder.","yer":[],"konu":"ticaret"},
+ {"no":9,"bolum":"Onay","ozet":"Antlaşma Napoli Kralı ile Osmanlı Sultanı tarafından onaylanır; onaylar İstanbul'da on hafta içinde, mümkünse daha erken değiştirilir.","yer":["İstanbul"],"konu":"ittifak"}
+]}

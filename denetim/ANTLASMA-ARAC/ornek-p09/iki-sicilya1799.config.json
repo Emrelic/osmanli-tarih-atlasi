@@ -1,0 +1,13 @@
+{
+ "id": "iki-sicilya-ittifaki-1799",
+ "ad": "Osmanlı-İki Sicilya (Napoli) Savunma İttifakı",
+ "anahtarlar": ["Osmanlı-İki Sicilya (Napoli) Savunma İttifakı"],
+ "eslesme_kipi": "acik",
+ "t": "1799-01-21",
+ "kadraj": [8, 33, 30, 46],
+ "yerler_ek": {"İtalya": [12.5, 42.0], "Malta": [14.4, 35.9], "Adriyatik": [16.0, 42.0]},
+ "kaynak": "Ham metin TAM OKUNDU: Traité d'alliance défensive avec le Royaume des Deux-Siciles, signé à Constantinople le 21 janvier 1799 (14 Chaban 1213), giriş + 9 madde + imza (Kont Constantin de Ludolf; Rumeli Kazaskeri İbrahim İsmet; Reisülküttâb Ahmed Atıf) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 9 (archive.org recueildactesin01turkgoog, OCR; okunur, md. 5-6 sayfa geçişi sağlam). Dizin: No 411, 1799 Janvier 21, signé 14 Chaban 1213, ratifié 3 Zilhidjé 1213. GÜN: hicrî tutarlı (28 Receb 1213 = 5 Ocak 1799 ⇒ 14 Şaban 1213 = 21 Ocak 1799). TEYİTSİZ: TDV 'III. Selim' Napoli ittifakını anmaz; ikinci bağımsız akademik kaynak okunamadı. Martens (1re éd. VII s. 337), Martens-Cussy II s. 174, Medjmouaï II s. 65 OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (İki Sicilya-Osmanlı).",
+ "cikti": "data/antlasma_madde_iki_sicilya1799.js",
+ "madde_sayisi": 9,
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p09/iki-sicilya1799-girdi.json"]
+}
