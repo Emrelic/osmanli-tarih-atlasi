@@ -75,7 +75,7 @@
     var a = k.adimlar[i], p = AKTIF.panel;
     p.querySelector(".amo-ust b").textContent = k.ad + " — md. " + a.no + "  (" + (i + 1) + "/" + n + ")";
     var m = p.querySelector(".amo-metin");
-    m.textContent = a.dogrulanmadi ? "⚠ İÇERİK DOĞRULANMADI — yalnız belge adı: " + a.ozet : a.ozet;
+    m.textContent = a.dogrulanmadi ? "⚠ İÇERİK DOĞRULANMADI — " + a.ozet : a.ozet;
     m.style.background = a.dogrulanmadi ? "#fff3cd" : "";
     m.style.borderLeft = a.dogrulanmadi ? "3px solid #b8860b" : "";
     m.style.paddingLeft = a.dogrulanmadi ? "6px" : "";
