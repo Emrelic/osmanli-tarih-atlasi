@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 import gun as G  # noqa: E402
 
 # Tavanlar: bugünkü ölçüm (sabitle aynı commit'te yazılır, yalnız gerileme bloke eder)
-BEKLENEN_ODAKSIZ = 211          # 13 Kasım 2026 ÖLÇÜM (Lozan 105 + Sevr ~83 + Karlofça ~23; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder
+BEKLENEN_ODAKSIZ = 223          # 13 Kasım 2026 ÖLÇÜM (ant18-p03: +12 Ziştovi 8 + Yaş 4; önce 211: Lozan 105 + Sevr ~83 + Karlofça ~23; genel/ek hüküm adımları meşru) — yalnız gerileme bloke eder
 BEKLENEN_DOGRULANMADI = 9       # 13 Kasım 2026 ÖLÇÜM (Lozan+Sevr+Karlofça `dogrulanmadi:true` adımları)
 
 
