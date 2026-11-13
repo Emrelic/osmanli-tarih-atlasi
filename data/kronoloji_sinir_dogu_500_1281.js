@@ -577,7 +577,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0895-01-01",
+  "t": "0896-01-01",
   "devlet": "tang-jin-shatuo-prensligi",
   "taraflar": [
    "tang-jin-shatuo-prensligi",
@@ -596,10 +596,10 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
    "dogu-500-1281"
   ],
   "d": "Wang Xingyu’nun yenilgisinin ardından Tang sarayı Hedong valisi Li Keyong’un unvanını Jin Prensi’ne yükseltti; Taiyuan (Jinyang) Shatuo prensliğinin merkezi oldu. (Taiyuan sahibi tang → tang-jin-shatuo-prensligi)",
-  "kaynak": "Sima Guang, Zizhi tongjian, juan 260 (zh.wikisource.org/wiki/資治通鑑/卷260; açıldı, okundu; Qianning 2 / 895 bölümü): «乙未，進李克用爵晉王，加李罕之兼侍中。»; Xin Wudai shi, juan 4 (zh.wikisource.org/wiki/新五代史/卷04; okundu): «拜克用「忠正平難功臣」，封晉王。»",
-  "gun": "895 (Qianning 2) — ay/gün yok (乙未 günü kaynakta ay belirtilmeden)",
-  "kesinlik": "yil",
-  "ic_not": "Ay/gün kaynakta yok; yıl 895. Künye (ms1) f=0902-01-01 diyor: künye f 0895-01-01 olmalı (öneri). Li Keyong Hedong valisi olarak 883’ten beri Taiyuan’dadır; Tang resmî egemen kaldı — BEYANLI YAKLAŞIKLIK.",
+  "kaynak": "Sima Guang, Zizhi tongjian, juan 260 (zh.wikisource.org/wiki/資治通鑑/卷260; açıldı, okundu; Qianning 2 (895) 12. ay, Jülyen 0896-01-01): «乙未，進李克用爵晉王，加李罕之兼侍中。»; Xin Wudai shi, juan 4 (zh.wikisource.org/wiki/新五代史/卷04; okundu): «拜克用「忠正平難功臣」，封晉王。»",
+  "gun": "1 Ocak 896 (Jülyen; Qianning 2, 12. ay, 乙未)",
+  "kesinlik": "gun",
+  "ic_not": "D4D-2 (14 Kasım 2026): ZZTJ juan 260 乾寧二年 12. ay 乙未 (aynı ayın 甲申'i Jülyen 895-12-21; gan-zhi→JDN) = Jülyen 0896-01-01; künye f 0902-01-01 → 0896-01-01 genişletildi (devletler.js ic_not_f). Eski not: yıl 895 (Çin yılı Qianning 2). Li Keyong Hedong valisi olarak 883’ten beri Taiyuan’dadır; Tang resmî egemen kaldı — BEYANLI YAKLAŞIKLIK. D4D-3 (14 Kasım 2026) HAKEMLİ KARAR (kaynak çelişkisi): Jiu Tangshu juan 20 上 (zh.wikisource.org/wiki/舊唐書/卷20上, okundu) 乾寧二年 «十二月甲申朔，制以李克用守太師、中書令，進封晉王» → ay başı = Jülyen 0895-12-21 (gan-zhi JDN formülüyle yeniden hesaplandı: 甲申 = 0895-12-21, 乙未 = 0896-01-01; ortalama yeni ay ≈ 20 Ara 895, 甲申朔'la uyumlu; NAOJ/Sinocal sorgulanamadı). Jiu Wudai shi juan 26 (Wuhuang ji; okundu) 乾寧二年 «乙未，天子賜武皇為忠貞平難功臣，進封晉王» ve ZZTJ 乙未 verir; Xin Wudai shi juan 4 yalnız «封晉王» (ay 11 diye okunur, gün yok); Xin Tangshu juan 10 (Zhaozong ji, okundu) 895 yazısında Jin wang cümlesi YOKTUR. Sonuç: 12. ay ay-başı fermanı 甲申朔 (0895-12-21, JTS) ile 乙未 (0896-01-01, ZZTJ + JWDS, gün 12) arasında 11 gün fark; ZZTJ ve JWDS aynı gün (ikisi de Shilu'dan türer — bağımsız çift teyit sayılmaz), JTS bir tek kaynak olarak 甲申 verir, gün eşitliği teyit çıkmadığından kayıttaki 乙未 = 0896-01-01 KALIR; 11 gün farkı, unvanın ferman günü (甲申朔?) ile ilanı/işlenişi (乙未) arasındaki fark olabilir — kesin hüküm verilemedi. Cambridge HC c.3/5, Wang Gungwu okunmadı. Karar DEĞİŞMEDİ (künye f 0896-01-01).",
   "sinir_id": []
  },
  {
