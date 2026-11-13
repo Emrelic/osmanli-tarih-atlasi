@@ -97,7 +97,7 @@ window.DEVLETLER = [
     { t:"1439-07-06", tur:"ittifak", b:"Floransa Konsili'nde Katolik-Ortodoks birliği ilan edildi (Batı yardımı arayışı)" },
     { t:"1449-01-06", tur:"hukumdar", b:"XI. Konstantinos Palaiologos son imparator oldu" },
     { t:"1453-05-29", tur:"son", b:"İstanbul'un fethi; Bizans İmparatorluğu sona erdi" },
-    { t:"1460-05-31", tur:"toprak-kayip", b:"Mora Despotluğu (son Bizans artığı) Osmanlı'ya katıldı" },
+    { t:"1460-05-30", tur:"toprak-kayip", b:"Mora Despotluğu (son Bizans artığı) Osmanlı'ya katıldı", kaynak:"TDV mezistre: Mistra «30 Mayıs 1460»da teslim oldu. ÇELİŞKİ-1113 K3: atlas eski günü 31 Mayıs kaynaksızdı; bağımsız ≥2 akademik kaynak TDV'ye karşı çıkmadı (Chalkokondyles, Sphrantzes, Kritoboulos, Setton, Zakythinos, Runciman, Babinger OKUNMADI; Vikipedi 29/30/31 Mayıs yan yana, dayanaksız) → TDV günü." },
     { odak_yer:["Trabzon"], t:"1461-08-15", tur:"son", b:"Trabzon Rum İmparatorluğu düştü — Bizans mirasının son parçası" }
   ]
 },
@@ -1118,7 +1118,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
-  f:"1349-01-01", t:"1460-05-31", baskent:"Mystras",
+  f:"1349-01-01", t:"1460-05-30", baskent:"Mystras",
+  ic_not_t:"ÇELİŞKİ-1113 K3 (UMIT, 13 Kasım 2026): TDV mezistre Mistra'nın teslimi 30 Mayıs 1460; atlas 31 Mayıs yazıyordu, dayanaksızdı. Teyit için okunması gereken ama OKUNMAYAN: Chalkokondyles, Sphrantzes, Kritoboulos, Setton (Papacy and the Levant II), Zakythinos (Despotat grec de Morée), Runciman (Mistra), Babinger. Teyit çıkmadı → TDV günü. NOT: 7 Mora yerleşiminin (Tripoliçe, Troizen, Methana, Hermione, Kranidi, Hidra vb.) s: dilimi 1460-05-29'da bitiyor — bu künye t ile 1-2 günlük fark bilinen bir ayrışmadır, bu partide taşınmadı (BALKAN-HALEF ile eşgüdüm).",
   ozet:"Bizans'ın son eyaleti (hanedan ömrü, Palaiologos kolu); 1349'da İmparator Kantakuzenos'un oğluna ayırdığı bölgeden doğdu, 1460'ta Despot Dimitrios'un teslimiyle Osmanlı'ya katıldı.",
   kaynak:"mora",
   kronoloji:[
@@ -1129,7 +1130,7 @@ window.DEVLETLER = [
     { odak_yer:["Balyabadra (Patras)"], t:"1449-01-01", tur:"hukumdar", b:"Konstantinos Bizans imparatoru oldu; Mora'yı kardeşleri Thomas ve Dimitrios yönetmeye başladı, çoğu kez birbirleriyle savaştılar.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl)" },
     { odak_yer:["Balyabadra (Patras)"], t:"1453-01-01", tur:"isyan", b:"Yaklaşık 30.000 Arnavut Palaiologos despotlarına karşı ayaklandı.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl)" },
     { odak_yer:["Balyabadra (Patras)"], t:"1458-01-01", tur:"toprak-kayip", b:"Thomas haracı ödemeyi reddedince II. Mehmed büyük ordusuyla Mora'ya girip Patras, Vostitsa, Kalavrita ve Korinthos dahil kuzey yarımadayı aldı.", kaynak:"TDV İslâm Ansiklopedisi, 'Mora', https://islamansiklopedisi.org.tr/mora (yıl; gün yok)" },
-    { odak_yer:["Balyabadra (Patras)"], t:"1460-05-31", tur:"son", b:"Fatih tarafından ilhak edildi" }
+    { odak_yer:["Balyabadra (Patras)"], t:"1460-05-30", tur:"son", b:"Fatih tarafından ilhak edildi", kaynak:"TDV mezistre (30 Mayıs 1460 Mistra teslimi) — ÇELİŞKİ-1113 K3" }
   ]
 },
 { id:"atina-dukaligi", ad:"Atina Dukalığı", tur:"dukalik", bolge:"balkanlar",

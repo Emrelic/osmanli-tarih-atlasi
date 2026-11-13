@@ -590,7 +590,7 @@ window.KRONOLOJI_BIZANS = [
   d:"Elli üç günlük kuşatmanın ardından şehir alındı; son imparator XI. Konstantinos surlarda savaşırken öldü ve cesedi kesin olarak teşhis edilemedi. Bin yüz yıllık Doğu Roma İmparatorluğu sona erdi. Bu tarih hem Osmanlı hem Bizans hem de Avrupa tarihyazımında bir çağın kapanışı sayılır — Osmanlı için bir dönüm noktası, Bizans için son, dünya için devletler sisteminin yeniden kurulduğu andır.",
   kaynak:"bizans" },
 
-{ odak_yer:["Karabiga"], t:"1460-05-31", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
+{ odak_yer:["Karabiga"], t:"1460-05-30", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"",
   d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı.", ic_not_d:"⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
