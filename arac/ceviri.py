@@ -86,14 +86,19 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # "# ilkbahar (…)"); olay +2: "Lozan–Sevr farkları" maddesi ve hakemli çözümde yeniden yazılan bir madde.
 # Çeviri işleri site bitince yapılacak (Emre, 13 Kasım). Eski değerler: arayüz 18 (her dil); olay en/ar/es/de 310,
 # pt 1427, ru 3523, fr 4423.
+# 13 Kasım 2026 (KASA 13 KASIM, sekizinci parti: EMRELİC künye/antik/Roma dalları + UMIT ÇELİŞKİ-2 + LAB kaynak-avrupa):
+# tavan AÇILDI (Emre 1 Kasım kararı) — arayüz +5: hakemli çözümlerden çıkan yeni gün-kalıpları (UMIT ÇELİŞKİ-2: Altın
+# Orda/Beylikler/Memlûk/Balkan-Halef/İsveç/Timurlu açıklamaları); olay +1 (UMIT ÇELİŞKİ-2'de yeniden yazılan bir madde;
+# EMRELİC'in yeni antik/Roma maddeleri data/kronoloji_sinir_antik_*.js çeviri evreninde değil). Çeviri işleri site
+# bitince tek seferde (Emre, 13 Kasım). Eski değerler: arayüz 28 (her dil); olay en/ar/es/de 312, pt 1429, ru 3525, fr 4425.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 28, "devlet": 2, "olay": 312},
-    "ar": {"arayuz": 28, "devlet": 2, "olay": 312},
-    "es": {"arayuz": 28, "devlet": 2, "olay": 312},
-    "de": {"arayuz": 28, "devlet": 2, "olay": 312},
-    "pt": {"arayuz": 28, "devlet": 2, "olay": 1429},
-    "ru": {"arayuz": 28, "devlet": 2, "olay": 3525},
-    "fr": {"arayuz": 28, "devlet": 2, "olay": 4425},
+    "en": {"arayuz": 33, "devlet": 2, "olay": 313},
+    "ar": {"arayuz": 33, "devlet": 2, "olay": 313},
+    "es": {"arayuz": 33, "devlet": 2, "olay": 313},
+    "de": {"arayuz": 33, "devlet": 2, "olay": 313},
+    "pt": {"arayuz": 33, "devlet": 2, "olay": 1430},
+    "ru": {"arayuz": 33, "devlet": 2, "olay": 3526},
+    "fr": {"arayuz": 33, "devlet": 2, "olay": 4426},
 }
 BEKLENEN_CEVIRI_BAYAT = {
     "en": {"arayuz": 0, "devlet": 1, "olay": 65},
