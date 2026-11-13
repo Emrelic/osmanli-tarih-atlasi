@@ -1,0 +1,11 @@
+[
+ {"no":"giriş","bolum":"Giriş","ozet":"Osmanlı komiserleri Ahmed Muzaffer ve Mehmed Fahmi ile Mısır Hidivliği komiserleri İbrahim Fethi Paşa ve R. C. R. Owen, Hicaz vilayeti ile Kudüs mutasarrıflığını Sina yarımadasından ayıran idarî hattı belirlemek üzere anlaştı.","yer":["Hicaz","Kudüs","Sina"],"konu":"giris"},
+ {"no":1,"bolum":"Ayırma hattı","ozet":"İdarî ayırma hattı Akabe Körfezi'nin batı kıyısındaki Ras Taba'dan başlar, Taba Vadisi'ne bakan doğu sırtını izleyip Cebel Fort'a çıkar, oradan numaralı noktalardan düz çizgilerle Refah yakınında Akdeniz'e ulaşır.","yer":["Ras Taba","Akabe Körfezi","Refah"],"konu":"sinir"},
+ {"no":2,"bolum":"Ayırma hattı","ozet":"Birinci maddedeki hat, antlaşmaya eklenen ve aynı anda imzalanıp değiştirilen çift nüsha haritalarda siyah kesik çizgiyle gösterilmiştir.","yer":[],"konu":"sinir"},
+ {"no":3,"bolum":"Sınır taşları","ozet":"Ortak komisyonun huzurunda, Akdeniz kıyısından Akabe Körfezi kıyısına kadar hat boyunca, birbirini gören noktalara sınır taşları dikilecektir.","yer":["Refah","Akabe Körfezi"],"konu":"sinir"},
+ {"no":4,"bolum":"Sınır taşları","ozet":"Bu sınır taşları Osmanlı sultanlığı ile Mısır hidivliğinin korumasındadır.","yer":[],"konu":"sinir"},
+ {"no":5,"bolum":"Sınır taşları","ozet":"Taşları yenilemek veya çoğaltmak gerekirse her taraf bir temsilci gönderir; yeni taşların yeri haritadaki hattın seyrine göre belirlenir.","yer":[],"konu":"sinir"},
+ {"no":6,"bolum":"Su ve aşiret hakları","ozet":"Her iki yanda yaşayan bütün aşiretler suyu eskisi gibi kullanma ve eski haklarını koruma hakkına sahiptir; Arap aşiretlere gereken güvenceler verilir. Osmanlı askerleri, yerli bireyleri ve jandarmalar da hattın batısında kalan sudan yararlanır.","yer":[],"konu":"genel"},
+ {"no":7,"bolum":"Su ve aşiret hakları","ozet":"Silahlı Osmanlı askerlerinin ve silahlı jandarmaların ayırma hattının batısına geçmesine izin verilmez.","yer":[],"konu":"askeri"},
+ {"no":8,"bolum":"Su ve aşiret hakları","ozet":"İki yandaki yerliler ve Araplar, sular, tarlalar ve topraklar üzerindeki yerleşik ve eski mülkiyet haklarını eskisi gibi korumaya devam eder.","yer":[],"konu":"ekonomik"}
+]

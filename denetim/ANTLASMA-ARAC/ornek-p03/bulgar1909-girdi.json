@@ -1,0 +1,12 @@
+[
+ {"no":"giriş","bolum":"Giriş","ozet":"Osmanlı Dışişleri Bakanı Rıfat Paşa ile Bulgar Ticaret ve Ziraat Bakanı Lyapçev, 3 Mart 1909 tarihli Rus-Osmanlı Petersburg protokolünü uygulamak üzere şu hükümlerde anlaştılar.","yer":["İstanbul"],"konu":"giris"},
+ {"no":1,"bolum":"Mali uzlaşma","ozet":"Bulgaristan Petersburg protokolünü tümüyle kabul eder, Rusçuk-Varna demiryolu konusundaki talebinden vazgeçer; Osmanlı da 5 Ekim 1908'e kadarki bütün maddî taleplerinden Bulgaristan ve Doğu Rumeli'ne karşı vazgeçer.","yer":["Doğu Rumeli"],"konu":"mali"},
+ {"no":2,"bolum":"Müslüman cemaatler","ozet":"Müslüman cemaatler ve vakıflara ilişkin ek düzenleme protokolün parçasıdır: ibadet özgürlüğü ve medenî-siyasî haklar sürer, halife olarak sultanın adı umumî dualarda anılır; mütesna vakıfları inceleyecek komisyon üç ayda kurulur.","yer":[],"konu":"azinlik"},
+ {"no":3,"bolum":"Mali uzlaşma","ozet":"Bulgaristan posta ve telgraf alacakları karşılığı 110.000 frank öder.","yer":[],"konu":"mali"},
+ {"no":4,"bolum":"Mali uzlaşma","ozet":"Bulgaristan ve Doğu Rumeli'ndeki fenerler için Bulgaristan Osmanlı'ya 180.307 frank öder; fener idaresinin bütün talepleri böylece kapanır.","yer":["Doğu Rumeli"],"konu":"mali"},
+ {"no":5,"bolum":"Mali uzlaşma","ozet":"Bulgaristan sıhhiye hizmeti alacaklarının haklılığını kabul eder ve 459.939,5 kuruş öder.","yer":[],"konu":"mali"},
+ {"no":6,"bolum":"Mali uzlaşma","ozet":"3-5. maddelerdeki tutarlar, frank hesabında 4,40 resmî kurla, onaydan sonra on beş gün içinde İstanbul'da ödenir; faiz de aynı koşulda ödenir.","yer":["İstanbul"],"konu":"mali"},
+ {"no":7,"bolum":"Mali uzlaşma","ozet":"Bulgaristan'ın Şark Demiryolları Şirketi'ne borçları ve işgal edilen hatlar için işletme tazminatı Bulgaristan ile şirket arasında ortak anlaşmayla çözülür.","yer":[],"konu":"mali"},
+ {"no":8,"bolum":"Tanıma","ozet":"Petersburg protokolünün 5. maddesindeki sorunlar böylece giderildiğinden Osmanlı Hükûmeti Bulgaristan'ın yeni siyasî durumunu tanıdığını bildirir.","yer":[],"konu":"siyasi"},
+ {"no":9,"bolum":"Onay","ozet":"Protokol onaylanacak, onay belgeleri İstanbul'da en geç bir ay içinde değiştirilecektir; metin 6/19 Nisan 1909'da çift nüsha düzenlendi.","yer":["İstanbul"],"konu":"usul"}
+]

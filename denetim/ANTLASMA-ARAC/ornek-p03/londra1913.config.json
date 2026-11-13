@@ -1,0 +1,13 @@
+{
+ "id": "londra-1913",
+ "ad": "Londra Antlaşması",
+ "anahtarlar": ["Londra Antlaşması — Rumeli'nin kaybı", "Londra Antlaşması — I. Balkan Savaşı sona erdi", "Londra Antlaşması"],
+ "onceki_t": "1913-05-30",
+ "t": "1913-05-30",
+ "kadraj": [20, 34, 30, 43],
+ "yerler_ek": {"Enez": [26.08, 40.72], "Midye": [28.12, 41.58], "Girit": [24.9, 35.2], "Arnavutluk": [20, 41], "Aynaroz": [24.33, 40.16]},
+ "kaynak": "Ham metin OKUNDU: Londra Barış Antlaşması, Osmanlı Devleti ile Yunanistan, Bulgaristan, Sırbistan, Karadağ, 17/30 Mayıs 1913, md. 1-7 (tamamı), Wikisource (en) 'Treaty of London - Peace Treaty between Greece, Bulgaria, Serbia, Montenegro and the Ottoman Empire' (kaynak notu: Israel (ed.), Major Peace Treaties of Modern History 1648-1967, c. II, Chelsea House 1967). TDV: 'Balkan Savaşı' (Cevdet Küçük) maddesi okundu; 'Londra Konferansı 30 Mayıs 1913'te antlaşmayla sona erdi' der; Midye-Enez hattı, md. 5 (adalar) anılır. Gün çelişkisi YOK: ham metin 17/30 Mayıs (Jülyen/Gregoryen), TDV 30 Mayıs; atlas günü 30 Mayıs 1913 (Gregoryen). Ayrı 'Londra Antlaşması' TDV maddesi yok (aramada başlık eşleşmesi çıkmadı; yalnız Balkan Savaşı maddesinde geçer). Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_londra1913.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p03/londra1913-girdi.json"],
+ "madde_sayisi": 7
+}

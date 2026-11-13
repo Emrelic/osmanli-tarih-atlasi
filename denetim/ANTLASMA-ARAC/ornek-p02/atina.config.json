@@ -1,0 +1,19 @@
+{
+ "id": "atina-1913",
+ "ad": "Atina Antlaşması",
+ "anahtarlar": [
+  "Atina Antlaşması"
+ ],
+ "t": "1913-11-14",
+ "kadraj": [
+  19,
+  34,
+  30,
+  42
+ ],
+ "kaynak": "⚠ metin ulaşılamadı. Bu oturumda ham metin bulunamadı (antlaşma metni (Hurewitz, Noradounghian, AJIL 1914) okunamadı; Wikisource ve Avalon'da sayfa yok). TDV okunmadı. Adım özetleri yalnız kronoloji maddesinin başlığına dayanır, madde madde değildir; atlas kaynak sayılmaz.",
+ "cikti": "data/antlasma_madde_atina.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek-p02/atina-girdi.json"
+ ]
+}

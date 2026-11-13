@@ -1,0 +1,13 @@
+{
+ "id": "turk-bulgar-protokolu-1909",
+ "ad": "Türk-Bulgar Protokolü",
+ "anahtarlar": ["İstanbul'da Türk-Bulgar Protokolü", "Türk-Bulgar Protokolü"],
+ "onceki_t": "1909-04-19",
+ "t": "1909-04-19",
+ "kadraj": [22, 39, 30, 45],
+ "yerler_ek": {"Doğu Rumeli": [25.5, 42.4]},
+ "kaynak": "Ham metin OKUNDU: 'Protocole de Constantinople du 6/19 avril 1909' (Giriş + md. 1-9; Osmanlı: Rıfat Paşa, Bulgaristan: Lyapçev), Fransızca; Digithèque MJP (Perpignan Üniv.) 'Indépendance de la Bulgarie, 1908', kaynak: Annuaires de 1908 ve 1909 (mjp.univ-perp.fr/constit/bg1908.htm). Aynı sayfadaki 3 Mart 1909 Petersburg protokolü ve Rus-Bulgar sözleşmesi bu antlaşmanın bağlamı olup adım değildir. Md. 2'deki 'ek düzenleme' (Müslüman cemaatler ve vakıflar) metni okunmadı. Ham metin neşri (Annuaire) MJP aktarımıdır, ikincil aktarım; G. Scelle, RGDIP 1909 s. 521-649 (metnin atıf verdiği makale) okunmadı. GÜN: protokol 6 Nisan (Jülyen)/19 Nisan (Gregoryen) 1909; atlas günü 19 Nisan. TDV: 'Bulgaristan' maddesi okundu (gövde dolu; bağımsızlık 5 Ekim 1908; '1909 tarihli İstanbul protokolü' yalnız vakıf belgesi olarak yıl düzeyinde anılır, gün vermez, tanımayı bu protokole bağlamaz); ayrı TDV maddesi yok. TDV günü vermediğinden çelişki YOK; gün TDV'de 'teyitsiz', ham metin tek kaynaktır (ikinci bağımsız akademik kaynak okunmadı). Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_bulgar1909.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p03/bulgar1909-girdi.json"],
+ "madde_sayisi": 9
+}

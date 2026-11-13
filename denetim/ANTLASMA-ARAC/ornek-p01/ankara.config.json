@@ -1,0 +1,13 @@
+{
+ "id": "ankara-itilafnamesi-1921",
+ "ad": "Ankara İtilâfnâmesi",
+ "anahtarlar": ["Ankara İtilâfnâmesi", "Ankara İtilafnamesi", "Ankara Antlaşması", "Franklin-Bouillon"],
+ "onceki_t": "1921-10-13",
+ "t": "1921-10-20",
+ "kadraj": [34, 35.5, 42, 38.2],
+ "kaynak": "Ham metin (13 madde, Türkçe, Osmanlıca-dönemi dilli metin): tr.wikisource.org '1921 Ankara Antlaşması' sayfası HAM METİN okundu; sayfa kaynak/dipnot, imza ve tarih satırı TAŞIMIYOR (neşir künyesi belirsiz; İsmail Soysal TTK neşriyle karşılaştırılmadı). GÜN BEYANI: metinde imza günü yoktur. Kronoloji ve genel kabul 20 Ekim 1921; TDV'de 'Ankara Antlaşması (1921)' adlı ayrı madde YOK (islamansiklopedisi.org.tr/ankara-antlasmasi-1921 arama sayfasına düşer, bulunamadı); TDV ANTAKYA maddesi (Halil Sahillioğlu) '21 Ekim 1921 Ankara Antlaşması ile Fransa ...' yazar = TDV 21, kronoloji 20: ÇELİŞKİ. Hakem kuralı: TDV'ye karşı aynı günü (20 Ekim) veren iki bağımsız hakemli akademik kaynak okunmadı (yalnız Britannica/Vikipedi özetleri arama sonucunda görüldü, bunlar sayılmaz) => TEYİTSİZ; günü hakemle çözmek LAB/KASA'ya bırakılmıştır. Atlas `t` kronolojiyle 20 Ekim tutuldu. BEYAN: ikinci bağımsız neşir (Hurewitz, LNTS 54, Soysal) okunmadı; 13. maddeden sonraki ek hükümler/mektuplar metinde yoktu (okunmadı). Yer işaretleri yaklaşık odaktır.",
+ "cikti": "data/antlasma_madde_ankara_itilafnamesi.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p01/ankara-girdi.json"],
+ "yerler_ek": {"Payas": [36.19, 36.76], "Kilis": [37.12, 36.72], "Nusaybin": [41.22, 37.07], "Caber Kalesi": [38.36, 35.9], "Pozantı": [34.87, 37.42], "Adana": [35.32, 37.0]},
+ "madde_sayisi": 13
+}

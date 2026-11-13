@@ -1,0 +1,21 @@
+{
+ "id": "istanbul-bulgaristan-1913",
+ "ad": "İstanbul Antlaşması",
+ "anahtarlar": [
+  "İstanbul Antlaşması: Bulgaristan",
+  "İstanbul Antlaşması",
+  "Bulgaristan ile barış"
+ ],
+ "t": "1913-09-29",
+ "kadraj": [
+  22,
+  39,
+  32,
+  43
+ ],
+ "kaynak": "⚠ metin ulaşılamadı. Bu oturumda ham metin bulunamadı (antlaşma metni (Hurewitz, Noradounghian, AJIL 1914 eki) okunamadı; gün: atlas 29 Eylül 1913 yazar, bir ikincil ansiklopedi özeti (1914-1918-online) 30 Eylül verir, TDV okunmadı, çelişki çözülmedi; Wikisource ve Avalon'da sayfa yok). TDV okunmadı. Adım özetleri yalnız kronoloji maddesinin başlığına dayanır, madde madde değildir; atlas kaynak sayılmaz.",
+ "cikti": "data/antlasma_madde_istanbul_bulgaristan.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek-p02/istanbul_bulgaristan-girdi.json"
+ ]
+}

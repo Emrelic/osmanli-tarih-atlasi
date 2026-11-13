@@ -1,0 +1,12 @@
+{
+ "id": "trablus-tunus-1910",
+ "ad": "Trablus Sözleşmesi",
+ "anahtarlar": ["Trablus Sözleşmesi — Tunus ile Trablusgarp vilayeti arasındaki sınır", "Trablus Sözleşmesi"],
+ "onceki_t": "1910-05-19",
+ "t": "1910-05-19",
+ "kadraj": [8, 29, 13, 34],
+ "yerler_ek": {"Ras Ecdir": [11.57, 33.14], "Gadames": [9.5, 30.13], "Dehibat": [10.69, 32.52], "Ben Gardane": [11.22, 33.14], "Nalut": [10.98, 30.88], "Trablusgarp": [13.19, 32.89]},
+ "kaynak": "Ham metin OKUNDU: 'Convention relative à la frontière entre la régence de Tunis et le vilayet de Tripoli ; signée à Tripoli, le 19 mai 1910' (md. 1-4 + Ek madde), Nouveau recueil général de traités (Martens/Triepel), série 3, t. 7, 1913, s. 91-97 (Wikisource fr, Page: djvu 95-97; metin Fransızca, tutanak Documents parlementaires, Chambre des Députés, 1910, s. 1281'e atfeden). Metin çevirisi bize aittir; madde 1 iki sayfaya bölünmüş olup tamamı okundu. GÜN: ham metin 19 Mayıs 1910 verir; kronoloji maddesindeki '12/19 Mayıs ikiliği'ndeki 12 Mayıs hiçbir okunan kaynakta doğrulanmadı; atlas günü 19 Mayıs. TDV: 'Trablusgarp' (A. Kavas) ve 'Tunus' maddeleri okundu (gövde dolu), 1910 sınır sözleşmesini ANMAZ; arama ('Tunus Trablusgarp sınır 1910') 1. sayfada da yok: TDV'de bulunamadı. İkinci bağımsız akademik kaynak (Martens dışı) okunamadı: 'teyitsiz'. Yer adı yazımları Fransızca metinden (Vazzin=Ouezzen vb. Türkçeleştirme bize ait, yaklaşık). Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_trablus1910.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p03/trablus-girdi.json"]
+}

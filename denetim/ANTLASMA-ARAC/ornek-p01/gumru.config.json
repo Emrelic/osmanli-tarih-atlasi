@@ -1,0 +1,13 @@
+{
+ "id": "gumru-1920",
+ "ad": "Gümrü Antlaşması",
+ "anahtarlar": ["Gümrü Antlaşması"],
+ "onceki_t": "1920-08-10",
+ "t": "1920-12-03",
+ "kadraj": [40, 38.5, 48, 42],
+ "kaynak": "Ham metin (18 madde, Türkçe resmî çeviri): İsmail Soysal, Türkiye'nin Siyasal Andlaşmaları I (1920-1945), TTK 1983, s.25-26 (tr.wikisource.org 'Gümrü Antlaşması' barındırıcısından HAM METİN okundu). GÜN ÇELİŞKİSİ: metin 'Gümrü (Alexandropol), 2 Aralık 1920' başlığını ve 'iki örnek olarak 2 Aralık 1920 günü ... düzenlenmiştir' ibaresini taşır; TDV KARS maddesi (Tufan Gündüz) 'Ermenilerle 3 Aralık 1920'de imzalanan Gümrü Antlaşması' der; kronoloji maddesi 3 Aralık. Antlaşmanın 2/3 Aralık gecesi imzalandığını söyleyen bir DergiPark makalesi arama özetinde görüldü ama tam metni okunmadı. CLAUDE.md hakemli kuralı: TDV'ye karşı aynı günü veren birbirinden bağımsız en az iki akademik kaynak teyit edilemedi (yalnız Soysal metni okundu) => TDV günü (3 Aralık) KALDI; 2 Aralık metindeki düzenleme günüdür, gece yarısı imza ihtimali beyan edilir. TDV'de 'Gümrü Antlaşması' adlı ayrı madde YOK (arama sayfasına düşer, bulunamadı). BEYAN: ikinci bağımsız neşir (Hurewitz, LNTS, Karabekir İstiklâl Harbimiz) okunmadı. Yer işaretleri yaklaşık odaktır.",
+ "cikti": "data/antlasma_madde_gumru.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p01/gumru-girdi.json"],
+ "yerler_ek": {"Gümrü": [43.84, 40.79], "Arpaçay": [43.33, 40.85], "Nahçıvan": [45.41, 39.21], "Erivan": [44.51, 40.18], "Ankara": [32.86, 39.93]},
+ "madde_sayisi": 18
+}
