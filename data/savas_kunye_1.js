@@ -126,7 +126,7 @@ window.SAVAS_KUNYE_1 = [
   ],
   kaynak:"TDV: murad-i · TDV: cirmen", bag_ekokuma:"savas-cirmen-1371" },
 
-{ id:"kunye-rovine-1395", savas_ad:"Rovine", savas_t:"1395-05-17", tur:"meydan",
+{ id:"kunye-rovine-1395", savas_ad:"Rovine", savas_t:"1394-10-10", tur:"meydan",
   baslik:"Rovine (Argeş) Savaşı (17 Mayıs 1395)",
   tarih_metin:"17 Mayıs 1395 (TDV I. Bayezid maddesi) · TDV Eflak maddesi 1394 der",
   uyari:"iki TDV maddesi (bayezid-i · eflak) savaşın yılında ayrılıyor (1395/1394); taraf seçilmedi (EKOKUMA_SAVAS3'ün kendi notu).",
