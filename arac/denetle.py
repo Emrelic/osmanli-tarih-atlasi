@@ -2923,7 +2923,7 @@ ATLAS_BASI = UFUK[0]   # ZAMAN-Z1-1008: motor ufkunun başı
 #   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
 #   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
 #   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
-BEKLENEN_ONCE = 325   # 9 EKIM (EPOK-SAHIP): 326 -> 325 · Malta napoli kaydi duzeldi — IYILESME, §3.4-3 · ONCESI: dalga 1 324 -> 326 (DOGU-1533, yeni SORU) · 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
+BEKLENEN_ONCE = 26   # 13 KASIM (P4-ZEND/ADAL/SOMALI + KUME2, EMRELIC): olculen 234 -> 26 · IYILESME, olculdu (tam denetle kasa-1113-batch8-aday + p4-zend-r, 17 dk 59 sn: D4d 26; zend/adal/somali 160 + kume2 48 donem kunye f'ye kisaltildi, arada beyanli __BOSLUK__); tavan 325 -> 26 · ONCESI: 9 EKIM (EPOK-SAHIP): 326 -> 325 · Malta napoli kaydi duzeldi — IYILESME, §3.4-3 · ONCESI: dalga 1 324 -> 326 (DOGU-1533, yeni SORU) · 1 EKIM 317 -> 324 KAPSAM GENISLEMESI
 # 🔴 +7'nin sebebi 4c ile AYNI: `degismez4` kimligi artik `id:` ∪ `harita:`
 #   ile cozuyor; once `harita:` takma adli donemler bu dala HIC girmiyordu.
 #   Yedisi (KASA olcumden ONCE bildirdi, birebir tuttu):
