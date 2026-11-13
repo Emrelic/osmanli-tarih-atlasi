@@ -1,0 +1,9 @@
+[
+ {"no":1,"bolum":"Barış antlaşması","ozet":"Onay belgeleri değiştirilince Osmanlı hükümdarı ile müttefik hükümdarlar arasında, mirasçıları, devletleri ve tebaaları için de ebedî barış ve dostluk kurulur.","yer":[],"konu":"siyasi"},
+ {"no":2,"bolum":"Barış antlaşması","ozet":"Osmanlı, Arnavutluk hariç, Avrupa'daki bütün topraklarını Ege kıyısındaki Enez ile Karadeniz kıyısındaki Midye arasındaki hattın batısında müttefiklere bırakır; kesin hattı uluslararası komisyon belirler.","yer":["Enez","Midye","Edirne","Trakya"],"konu":"sinir"},
+ {"no":3,"bolum":"Barış antlaşması","ozet":"Arnavutluk'un sınırlarının çizilmesi ve Arnavutluk'a ilişkin bütün öteki sorunlar, altı büyük devletin (Almanya, Avusturya-Macaristan, Fransa, İngiltere, İtalya, Rusya) kararına havale edilir.","yer":["Arnavutluk"],"konu":"sinir"},
+ {"no":4,"bolum":"Barış antlaşması","ozet":"Osmanlı Girit adasını müttefiklere bırakır ve ada üzerindeki egemenlik haklarıyla bütün öteki haklarından onlar lehine vazgeçer.","yer":["Girit"],"konu":"sinir"},
+ {"no":5,"bolum":"Barış antlaşması","ozet":"Girit dışındaki bütün Osmanlı Ege adalarının ve Aynaroz yarımadasının kime ait olacağını belirleme görevi altı büyük devlete bırakılır.","yer":["Ege Denizi","Aynaroz"],"konu":"sinir"},
+ {"no":6,"bolum":"Barış antlaşması","ozet":"Savaştan ve toprak devirlerinden doğan malî sorunların çözümü, Paris'te toplanmış Uluslararası Komisyon'a havale edilir; taraflar oraya temsilci atamıştır.","yer":[],"konu":"mali"},
+ {"no":7,"bolum":"Barış antlaşması","ozet":"Savaş esirleri, yargı yetkisi, uyrukluk ve ticaret konuları ayrı sözleşmelerle düzenlenecektir.","yer":[],"konu":"esirler"}
+]
