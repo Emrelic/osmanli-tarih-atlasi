@@ -1,0 +1,70 @@
+// ============================================================================
+// ANTLAŞMA MADDELERİ — KALAS (GALAÇ) MÜTAREKESI (1791-08-11) · 3 adım
+// Üretildi: denetim/ANTLASMA-ARAC/uret_antlasma.js · tüketici: js/antlasma_oynatici.js
+// Özetler ham metinden, kendi cümlemizle (kopya yok). Kaynak/beyan: kayıt.kaynak.
+// `yerler`: ad → [boylam, enlem] YAKLAŞIK odak noktası (sınır çizgisi değil).
+// ============================================================================
+window.ANTLASMA_MADDELERI = window.ANTLASMA_MADDELERI || [];
+window.ANTLASMA_MADDELERI.push({
+ "id": "kalas-1791",
+ "ad": "Kalas (Galaç) Mütarekesi",
+ "t": "1791-08-11",
+ "kadraj": [
+  24,
+  43,
+  32,
+  48.5
+ ],
+ "anahtarlar": [
+  "Kalas (Galaç) Mütarekesi"
+ ],
+ "eslesme_kipi": "acik",
+ "kaynak": "BEKLEYEN — HAM METİN BULUNAMADI. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, kronolojik dizini yalnız şunu kaydeder: '1791 Mai-Juillet 27 — Actes entre la Cour de Russie et celles d'Angleterre et de Prusse, qui ont servi de base au Traité des préliminaires de paix signé à Galatz le 11 août 1791 entre la Russie et la Porte Ottomane' (Martens, V, s. 277-291); Galatz ön barış metninin kendisi Noradounghian'da ve Testa (t. V, VII, IX) taramasında YOK. Özet TDV 'Yaş Antlaşması' (islamansiklopedisi.org.tr/yas-antlasmasi; doğru madde, gövde dolu; beş maddelik mukaddime-i sulhiyye özeti) metnine dayanır; TDV'de 'Galaç/Kalas' madde başlığı bulunamadı (arama 0 sonuç). GÜN: Noradounghian 11 Ağustos 1791 (Gregoryen) + TDV 11 Ağustos 1791 (dört TDV maddesi birleşir; ana maddenin ic_not_gun'u) — görev notundaki '31 Temmuz 1791' Jülyen karşılığıdır (31 Temmuz O.S. + 11 gün = 11 Ağustos N.S.); atlas günü Gregoryen 11 Ağustos 1791. Martens N.R. V, Schoell, Düstur OKUNMADI. Atlas kaynak sayılmadı. Ana kronoloji maddesine antlasma_id YAZILMADI.",
+ "yerler": {
+  "Kalas (Galaţi)": [
+   28.05,
+   45.43
+  ],
+  "Eflak": [
+   25,
+   44.5
+  ],
+  "Boğdan": [
+   27,
+   47
+  ]
+ },
+ "adimlar": [
+  {
+   "no": "giriş",
+   "bolum": "⚠ Metin ulaşılamadı",
+   "ozet": "Rus-Osmanlı ön barış ve ateşkes belgelerinin ham metni bu çalışmada bulunamadı; Noradounghian yalnız 11 Ağustos 1791 tarihli Kalas (Galatz) ön barış antlaşmasını kaydeder, TDV 'Yaş Antlaşması' maddesi özetini verir. Aşağıdaki adımlar o özete dayanır.",
+   "yer": [
+    "Kalas (Galaţi)"
+   ],
+   "konu": "ateşkes",
+   "dogrulanmadi": true
+  },
+  {
+   "no": "ön madde",
+   "bolum": "⚠ Ön barış maddeleri (TDV özeti)",
+   "ozet": "TDV'ye göre beş maddelik ön metin Küçük Kaynarca'yı teyit eder, Turla (Dinyester) sınırını koyar, Eflak ve Boğdan'ı eski imtiyazlarıyla geri verir, öbür sınırları savaş öncesine döndürür; tahkimat konusu sonraki heyete kalır.",
+   "yer": [
+    "Eflak",
+    "Boğdan"
+   ],
+   "konu": "sinir",
+   "dogrulanmadi": true
+  },
+  {
+   "no": "mütareke",
+   "bolum": "⚠ Ateşkes (TDV özeti)",
+   "ozet": "TDV'ye göre Rusya ile mütareke mühür gününden başlayarak sekiz ay sürer; iki taraf kuvvetlerini yerinde tutar, saldırıdan kaçınır ve tam barışa kadar silah kullanmaz. Belge, Prens Repnin ile Vâsıf Ahmed Efendi arasında imzalanır.",
+   "yer": [
+    "Kalas (Galaţi)"
+   ],
+   "konu": "ateşkes",
+   "dogrulanmadi": true
+  }
+ ]
+});

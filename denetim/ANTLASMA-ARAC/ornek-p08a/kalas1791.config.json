@@ -1,0 +1,12 @@
+{
+ "id": "kalas-1791",
+ "ad": "Kalas (Galaç) Mütarekesi",
+ "anahtarlar": ["Kalas (Galaç) Mütarekesi"],
+ "eslesme_kipi": "acik",
+ "t": "1791-08-11",
+ "kadraj": [24, 43, 32, 48.5],
+ "yerler_ek": {"Kalas (Galaţi)": [28.05, 45.43], "Eflak": [25.0, 44.5], "Boğdan": [27.0, 47.0]},
+ "kaynak": "BEKLEYEN — HAM METİN BULUNAMADI. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, kronolojik dizini yalnız şunu kaydeder: '1791 Mai-Juillet 27 — Actes entre la Cour de Russie et celles d'Angleterre et de Prusse, qui ont servi de base au Traité des préliminaires de paix signé à Galatz le 11 août 1791 entre la Russie et la Porte Ottomane' (Martens, V, s. 277-291); Galatz ön barış metninin kendisi Noradounghian'da ve Testa (t. V, VII, IX) taramasında YOK. Özet TDV 'Yaş Antlaşması' (islamansiklopedisi.org.tr/yas-antlasmasi; doğru madde, gövde dolu; beş maddelik mukaddime-i sulhiyye özeti) metnine dayanır; TDV'de 'Galaç/Kalas' madde başlığı bulunamadı (arama 0 sonuç). GÜN: Noradounghian 11 Ağustos 1791 (Gregoryen) + TDV 11 Ağustos 1791 (dört TDV maddesi birleşir; ana maddenin ic_not_gun'u) — görev notundaki '31 Temmuz 1791' Jülyen karşılığıdır (31 Temmuz O.S. + 11 gün = 11 Ağustos N.S.); atlas günü Gregoryen 11 Ağustos 1791. Martens N.R. V, Schoell, Düstur OKUNMADI. Atlas kaynak sayılmadı. Ana kronoloji maddesine antlasma_id YAZILMADI.",
+ "cikti": "denetim/ANTLASMA-BEKLEYEN/antlasma_madde_kalas1791.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/kalas1791-girdi.json"]
+}

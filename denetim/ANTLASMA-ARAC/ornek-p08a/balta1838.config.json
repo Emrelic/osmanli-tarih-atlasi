@@ -1,0 +1,13 @@
+{
+ "id": "balta-limani-1838",
+ "ad": "Balta Limanı Ticaret Antlaşması",
+ "anahtarlar": ["Balta Limanı Ticaret Antlaşması"],
+ "eslesme_kipi": "acik",
+ "t": "1838-08-16",
+ "kadraj": [22, 34, 42, 43],
+ "yerler_ek": {"Balta Limanı": [29.05, 41.05]},
+ "kaynak": "Ham metin OKUNDU (KISALTILMIŞ NEŞİR): Convention commerciale avec l'Angleterre et articles additionnels, signée à Balta-Liman le 16 août 1838 (md. 1-8 ve 3 ek madde; giriş ve md. 8 'etc., etc.' ile kısaltılmış) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 82 (archive.org recueildactesin01turkgoog, OCR; okunur). Metin neşirde tam değil: girişin devamı, md. 8'in devamı ve imza öncesi bazı kısımlar atlanmıştır; özetler yalnız basılı kısma dayanır. Neşrin dizin başlığındaki '10 Ağustos' ve hicrî ay OCR bozuğudur; metin gövdesi ('Fait à Balta-Liman ... le 16 août 1838') ve 27 Ağustos 1838 tarihli Textes n° 83 notu ('7 Djémazi-ul-Akhir 1254 = 27 août 1838') 16 Ağustos ile tutarlıdır. GÜN: Noradounghian metni 16 Ağustos 1838 + TDV 'Baltalimanı Muahedesi' (islamansiklopedisi.org.tr/baltalimani-muahedesi; doğru madde, gövde dolu; yalnız Gregoryen gün) 16 Ağustos 1838 — çelişki yok. TDV'ye göre sözleşme 1 Mart 1839'da yürürlüğe girdi (onay belgeleri Ekim-Kasım 1838); tarife yüzde 3 sabit ihracat/yüzde 9 iç gümrük (TDV: yüzde 9 ile Noradounghian md. 4 uyuşur). Ek maddeler Noradounghian'a göre sözleşmenin 'bütünleyici parçası' değil, İngiliz hükûmetinin onayına bırakılmış ayrı maddelerdir; atlas Ek 1-3 olarak gösterir. BALTA LİMANI 1849 ile karıştırılmadı (ayrı kayıt: baltalimani1849). Hertslet (British and Foreign State Papers XXVI, s. 688), Martens N.R. XV, Neumann, Düstur OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (Britanya-Osmanlı).",
+ "cikti": "data/antlasma_madde_balta1838.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/balta1838-girdi.json"],
+ "madde_sayisi": 8
+}

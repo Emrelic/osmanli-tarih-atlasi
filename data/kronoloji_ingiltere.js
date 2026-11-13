@@ -895,7 +895,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Amiral Nelson komutasındaki İngiliz filosu, Napolyon'un Mısır Seferi'ni destekleyen Fransız donanmasını Ebûkīr Körfezi'nde neredeyse tamamen imha etti. Zafer, Napolyon'un ordusunu Mısır'da tecrit ederek Doğu Akdeniz'deki Fransız stratejik planlarını çökertti.",
   kaynak:"A Dictionary of World History (OUP), «Nile, Battle of the (1 August 1798)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-2621 — «Nile, Battle of the (1 August 1798) A naval battle fought at Aboukir Bay» ; el-kitabi" },
 
-{ t:"1799-01-01", b:"Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak kuruldu", tur:"ittifak",
+{ t:"1799-01-01", antlasma_id:"ingiliz-ittifaki-1799", b:"Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak kuruldu", tur:"ittifak",
   onem:4, dunya:3, kapsam:"dis", etiket:["ittifak","askeri","buyuk-britanya","konu-askeri","konu-diplomasi"],
   yer_id:"İstanbul",
   gun:"Ocak 1799 (TDV `ingiltere`: \"Ocak 1799’da\"; gün yok)",
@@ -1197,7 +1197,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Disraeli hükümetinin çıkardığı yasayla Kraliçe Victoria'ya Hindistan İmparatoriçesi unvanı verildi; unvan resmen 1 Ocak 1877'de Delhi'de düzenlenen büyük bir törenle ilan edildi. Unvan, Britanya'nın Hindistan üzerindeki hâkimiyetini sembolik olarak da pekiştirdi.",
   kaynak:"el-kitabi" },
 
-{ t:"1878-06-04", b:"Kıbrıs Sözleşmesi — adanın idaresi Britanya'ya devredildi", tur:"toprak-kazanc",
+{ t:"1878-06-04", antlasma_id:"kibris-1878", b:"Kıbrıs Sözleşmesi — adanın idaresi Britanya'ya devredildi", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","toprak-kazanc","birlesik-krallik","konu-askeri","konu-diplomasi"],
   yer_id:"Lefkoşa",
   d:"Berlin Kongresi öncesinde imzalanan gizli sözleşmeyle Osmanlı Devleti, Rusya'ya karşı Britanya desteği karşılığında Kıbrıs'ın idaresini (egemenlik Osmanlı'da kalmak üzere) Britanya'ya devretti. Ada, 1914'te Osmanlı'nın Almanya yanında savaşa girmesiyle resmen ilhak edilecekti.",

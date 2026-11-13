@@ -1,0 +1,12 @@
+{
+ "id": "ingiliz-ittifaki-1799",
+ "ad": "Osmanlı-İngiliz Savunma İttifakı",
+ "anahtarlar": ["Osmanlı ile ittifak"],
+ "eslesme_kipi": "acik",
+ "t": "1799-01-05",
+ "kadraj": [24, 29, 40, 42],
+ "yerler_ek": {"Akdeniz": [28.0, 35.0]},
+ "kaynak": "Ham metin KISMEN OKUNDU: Traité d'alliance avec l'Angleterre, conclu à Constantinople le 5 janvier 1799 (28 Redjeb 1213) — giriş + md. 1-9 tam, md. 10 yarım; sonrası OCR'da YOK — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 8 (archive.org recueildactesin01turkgoog, OCR; sayfa sırası karışık, 'Art. 4'ün sonu ve 'Art. 5' satır atlamalı; md. 10'un devamı ve varsa sonraki maddeler eksik; toplam madde sayısı bu çalışmada TEYİT EDİLEMEDİ). Dizin kaydı: 'No 410, 1799 Janvier 5 — Traité d'alliance défensive avec l'Angleterre, signé à Constantinople (28 Redjeb 1213)'. GÜN: Noradounghian metni ve hicrî eşi 5 Ocak 1799 (28 Receb 1213; cetvelle 1 Receb 1213 = 9 Aralık 1798 ⇒ 28 Receb = 5 Ocak 1799, tutarlı). Rus ittifakı Noradounghian'da Jülyen '23 Aralık 1798 (26 Receb 1213)' = Gregoryen 3 Ocak 1799 olarak yazılıdır (bu kayıtta özetlenmedi). TDV 'III. Selim' maddesi (islamansiklopedisi.org.tr/selim-iii; doğru madde) Rus içeren ittifakı yalnız 'Ocak 1799' olarak anar, İngiliz ittifakını ayrıca anmaz — TDV'de ayrıntı bulunamadı; çelişki yok, günü yalnız Noradounghian veriyor (tek kaynak). Ana kronoloji maddesi (kronoloji_ingiltere, 'Napolyon'un Mısır Seferi'ne karşı Osmanlı ile ittifak kuruldu') t=1799-01-01'dir (yalnız yıl/ay hassasiyetinde); bu çalışmada t DEĞİŞTİRİLMEDİ, 5 Ocak'a çekilmesi önerilir. Hertslet, Martens (1re éd. VII, s. 330), Düstur OKUNMADI. Atlas kaynak sayılmadı. İki taraflı (Britanya-Osmanlı). 10. madde ve sonrası 'belirsiz' işaretlidir.",
+ "cikti": "data/antlasma_madde_ingiliz1799.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p08a/ingiliz1799-girdi.json"]
+}
