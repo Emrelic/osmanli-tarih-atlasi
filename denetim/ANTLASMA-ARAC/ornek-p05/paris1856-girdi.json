@@ -31,11 +31,11 @@
  {"no":30,"bolum":"Asya sınırı","ozet":"Rusya ile Sultan Asya'daki topraklarını savaştan önceki hukuki durumuyla korur; sınır, iki Rus, iki Osmanlı, birer İngiliz ve Fransız komiserden oluşan karma komisyonca yerinde doğrulanır.","yer":["Kars","Batum"],"konu":"sinir"},
  {"no":31,"bolum":"Tahliye","ozet":"Müttefik orduların 1854-1855 sözleşmeleriyle işgal ettiği Osmanlı toprakları onayların değişiminden sonra olabildiğince çabuk boşaltılır; süre ve araçlar Babıâli ile ilgili devletlerce kararlaştırılır.","yer":["İstanbul","Gelibolu Yarımadası"],"konu":"askeri"},
  {"no":32,"bolum":"Ticaret","ozet":"Savaş öncesi antlaşmalar yenilenene ya da yenileriyle değiştirilene dek ithalat ve ihracat savaş öncesi kurallara, öteki konular en çok kayrılan ulus esasına göre yürür.","yer":["Karadeniz"],"konu":"ticaret"},
- {"no":33,"bolum":"Aland Adaları","ozet":"Britanya, Fransa ve Rusya arasında aynı gün imzalanan Aland Adaları sözleşmesi bu antlaşmaya ektir ve aynı hükümdedir.","yer":["Aland Adaları"],"konu":"ek"},
+ {"no":33,"bolum":"Aland Adaları","ozet":"Britanya, Fransa ve Rusya arasında aynı gün imzalanan Aland Adaları sözleşmesi bu antlaşmaya ektir ve aynı hükümdedir.","yer":["Karadeniz"],"konu":"ek"},
  {"no":34,"bolum":"Onay","ozet":"Antlaşma dört hafta içinde ya da mümkünse daha erken Paris'te onaylanıp belgeleri değiştirilir; yedi devletin temsilcileri 30 Mart 1856'da imzalamıştır.","yer":["İstanbul"],"konu":"onay"}
 ],
 "ekler": [
  {"ad":"Boğazlar Sözleşmesi (30 Mart 1856)","ozet":"Osmanlı ile altı devlet arasında 1841 sözleşmesini yeniler: barışta yabancı savaş gemisi boğazlardan geçmez; Sultan elçilik hafif gemilerine ferman verir, Tuna ağzında her devlet iki hafif gemi tutabilir. Ek madde, boşaltma gemilerini istisna sayar.","okundu":true,"yer":["Boğazlar","İstanbul Boğazı","Çanakkale Boğazı"],"madde_say":4},
  {"ad":"Karadeniz deniz kuvvetleri sözleşmesi (Rusya-Osmanlı, 30 Mart 1856)","ozet":"İki devlet Karadeniz'de her biri altı buharlı ve dört hafif gemiyle yetinir: buharlılar en çok 50 metre ve 800 ton, hafif gemiler en çok 200 tondur.","okundu":true,"yer":["Karadeniz"],"madde_say":3},
- {"ad":"Aland Adaları sözleşmesi (Britanya-Fransa-Rusya, 30 Mart 1856)","ozet":"Metin okunan derlemede bulunmadığından içeriği doğrulanmadı.","okundu":false,"yer":["Aland Adaları"]}
+ {"ad":"Aland Adaları sözleşmesi (Britanya-Fransa-Rusya, 30 Mart 1856)","ozet":"Metin okunan derlemede bulunmadığından içeriği doğrulanmadı.","okundu":false,"yer":["Karadeniz"]}
 ]}

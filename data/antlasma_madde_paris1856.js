@@ -344,7 +344,7 @@ window.ANTLASMA_MADDELERI.push({
    "bolum": "Aland Adaları",
    "ozet": "Britanya, Fransa ve Rusya arasında aynı gün imzalanan Aland Adaları sözleşmesi bu antlaşmaya ektir ve aynı hükümdedir.",
    "yer": [
-    "Aland Adaları"
+    "Karadeniz"
    ],
    "konu": "ek",
    "dogrulanmadi": false
@@ -386,7 +386,7 @@ window.ANTLASMA_MADDELERI.push({
    "bolum": "Antlaşmaya ekli belge",
    "ozet": "Aland Adaları sözleşmesi (Britanya-Fransa-Rusya, 30 Mart 1856) — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
    "yer": [
-    "Aland Adaları"
+    "Karadeniz"
    ],
    "konu": "ek",
    "dogrulanmadi": true
