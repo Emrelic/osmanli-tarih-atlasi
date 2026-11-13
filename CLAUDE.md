@@ -20,8 +20,9 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
 - 🔴 **İşe başlamadan önce kendi worktree'ne geç:** dosya değiştirecek her oturum ilk iş
   `EnterWorktree` aracını işin kısa adıyla çağırır (`.claude/worktrees/<ad>/`, `origin/main`den
   yeni dal). Yalnız okuyan/soru cevaplayan oturum geçmez. Ayrıntı: "Worktree" bölümü.
-- Kullanıcı (Emre) işi doğrudan oturuma verir. Koordinatör, işçi oturum, hazır kıta, tahta,
-  bekçi **kullanılmaz.** Paket maddelerinin tek kaydı **kutu** uygulamasıdır.
+- Kullanıcı (Emre) işi doğrudan oturuma verir. İşçi oturum, hazır kıta, bekçi **kullanılmaz.**
+  **Tahta ve kutu EMEKLİ** (Emre, 13 Kasım 2026): sunucuları kapatıldı, zamanlanmış görevleri
+  devre dışı; post-it sistemiyle ilgileri yok. İş kaydı: GitHub Issues (post-it) + `origin` dalları.
 - **Site üstü notlar:** Emre sitede geliştirici kipinde (`?gelistirici=1` · Ctrl+Alt+G,
   `js/gelistirici.js`) haritaya / maddeye / düğmeye not düşer; notlar GitHub Issues'tadır
   (etiket `harita-notu`). Okuma ve cevap: `py arac/not.py liste|oku N|yanit N --dosya <yol>
@@ -42,11 +43,15 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   konuşması gereken iş için gerekir — o zaman Emre'den iste.
 - Birikmiş maddelerde önce **dokundukları dosyaya göre grupla**; aynı dosyaya dokunanları tek
   elden yap (dosya bir kez okunur).
-- Makineler (Emre, 1 Kasım 2026): **HAVVA** yalnız koşu + yayın inişi · **KASA** tek yazıcı
-  (araştırma, veri, kod, post-it, `main`e push; paralel iş alt ajanla, en çok 2-3 araç koşturan
-  ajan — 4 çekirdek) · **EMRELİC** koordinasyon + siteye bakış · **UMIT**'e dokunulmaz (eczane
-  SQL sunucusu boğulur) · **LAB** zayıf, en çok ufak iş. Dal bir günden uzun yaşamaz; post-it
-  yalnız `not.py al` ile alan oturumda çözülür.
+- **Makineler ve roller (Emre, 13 Kasım 2026 — donanım ve ayrıntı `MAKINELER.md`):**
+  **HAVVA** koşu + iniş (iniş push'unu kendisi yapar, KASA'dan sıra alır) · **KASA** birleştirme
+  + push kapısı + genel koordinasyon (içerik yazmaz; `main`e push yalnız buradan) · **EMRELİC**
+  araştırma + yazma ana hattı (kısıtsız) · **UMIT** araştırma + yazma hafif hattı (mesaide
+  Claude+Python ≤%25) · **LAB** denetleme (bağımsız göz) + Emre'nin mesai ekranı. Yazan makine
+  işini dalda commit'ler, `origin`e iter (main'e değil), dal adını KASA'ya bildirir. Komuta
+  zinciri: KASA'nın günlük koordinasyon oturumu → her makinenin günlük oturumu → o makinedeki
+  öteki oturumlar. Post-it oturumları araştırma + yazma makinelerinde (UMIT, EMRELİC) açılır.
+  Dal bir günden uzun yaşamaz; post-it yalnız `not.py al` ile alan oturumda çözülür.
 - 🔴 **Koşu biter bitmez iniş ve yayın** (Emre, 1 Kasım 2026): koşu bitince aynı oturum
   beklemeden `KOSU-YAYIN.md` iniş zincirini başlatır ve push kapısına kadar götürür; kimseden
   onay beklemez. (Koşu 31: bitiş 05:13, iniş 12:50 — 7,5 saat boş geçti.)
