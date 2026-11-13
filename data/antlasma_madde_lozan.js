@@ -16,7 +16,7 @@ window.ANTLASMA_MADDELERI.push({
   45,
   42.8
  ],
- "kaynak": "Ham metin: Lozan Antlaşması İngilizce resmî metni (UKTS 16; Wikisource barındırıcısı, BYU Kütüphanesi sürümü) md. 1-143 ve Dışişleri Bakanlığı (mfa.gov.tr) Boğazlar, Trakya sınırı, Karaağaç/İmroz-Bozcaada, boşaltma ve mübadele ekleri; özetler ham metinden KENDİ cümlemizle yazıldı. TDV «Lozan Antlaşması» ile karşılaştırma yapılamadı (sunucu engeli) — ölçülmedi. Türkçe yer adı eşlemeleri (İmroz, Bozcaada, Tavşan Adaları vb.) resmî Türkçe metinle teyit edilmedi. 11 ek belgenin içeriği okunmadı.",
+ "kaynak": "Ham metin: Lozan Antlaşması İngilizce resmî metni (UKTS 16; Wikisource barındırıcısı, BYU Kütüphanesi sürümü) md. 1-143 ve Dışişleri Bakanlığı (mfa.gov.tr) Boğazlar, Trakya sınırı, Karaağaç/İmroz-Bozcaada, boşaltma ve mübadele ekleri; özetler ham metinden KENDİ cümlemizle yazıldı. TDV «Lozan Antlaşması» ile karşılaştırma yapılamadı (sunucu engeli) — ölçülmedi. Türkçe yer adı eşlemeleri (İmroz, Bozcaada, Tavşan Adaları vb.) resmî Türkçe metinle teyit edilmedi. Ekler: Boğazlar, Trakya, Karaağaç/İmroz-Bozcaada, Boşaltma, Mübadele ek metinleri Dışişleri/Wikisource ham metninden; öteki 11 ek Dışişleri (mfa.gov.tr) ve Milletler Cemiyeti Antlaşma Dizisi (LNTS 28) ham metninden okunup özetlendi; Ticaret Sözleşmesi md.15-18 yalnız göz gezdirildi.",
  "yerler": {
   "Karadeniz": [
    34.5,
@@ -1435,90 +1435,129 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Ek 6",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Mukim ve Ticaret Şartlarına ile Yargı Yetkisine İlişkin Sözleşme — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Mukim ve Ticaret Şartlarına ile Yargı Yetkisine İlişkin Sözleşme — Türkiye'deki yabancıların giriş, ikamet ve mülk edinme hakkını karşılıklılık şartına bağlar; ticaret ve meslek serbestisini ayrı ikili sözleşmelere bırakır. Kapitülasyonların kalktığını teyit eder: yabancılar vergide Türklerle eşittir, askerlik muafiyeti ve sınır dışı hakkı düzenlenir. Mahkemelere erişim eşittir; gayrimüslim yabancıların kişi hâli kendi ulusal makamlarına bırakılır. Süre yedi yıl. (21 madde)",
+   "yer": [
+    "Türkiye",
+    "İstanbul",
+    "Edirne",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 7",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Ticaret Sözleşmesi — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Ticaret Sözleşmesi — Türkiye'ye ithalatta 1 Eylül 1916 Osmanlı spesifik tarifesinin uygulanmasını, kâğıt para harçlarına döviz kuruna göre ayarlanan katsayılar konmasını öngörür. İhracat/ithalat yasakları sınırlı nedenlerle tutulur; iç vergilerde ayrım yapılmaz. Kabotaj, balıkçılık ve liman hizmetleri ulusal bayrağa ayrılabilir. Haksız rekabet ve sınai mülkiyet hükümleri içerir. (19 madde)",
+   "yer": [
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 8",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Yunanistan ile Türkiye arasında sivil enterneler ve savaş esirlerinin değişimi anlaşması (30 Ocak 1923) — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Yunanistan ile Türkiye arasında sivil enterneler ve savaş esirlerinin değişimi anlaşması (30 Ocak 1923) — Yunanistan'daki Türk rehine ve sivil tutukluların, Anadolulular İzmir'e, Trakyalılar İstanbul'a olmak üzere geri verilmesini; sonra karşılıklı ve eşit sayıda savaş esiri değişimini düzenler. Tüm esirler için karşılıklı af ilan edilir. Kızılhaç temsilcileri ve iki hükümet delegesinden kurulu uluslararası komisyon uygulamayı yürütür; masraf eşit paylaşılır. (7 madde)",
+   "yer": [
+    "Türkiye",
+    "İstanbul",
+    "Anadolu",
+    "Trakya",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 9",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Af Bildirisi ve Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Af Bildirisi ve Protokol — 1 Ağustos 1914 - 20 Kasım 1922 arasındaki askerî ve siyasî eylemler nedeniyle Türkiye ve Yunanistan'da kimse rahatsız edilmez; bu dönemin siyasî suçları affedilir, mahkûmiyetler iptal edilir. Protokol, Türkiye'ye 150 kişinin ülkeye girişini yasaklama (ve mallarını dokuz ayda tasfiye ettirme) hakkını saklı tutar. (7 madde)",
+   "yer": [
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 10",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Yunanistan'daki Müslüman Mallarına İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Yunanistan'daki Müslüman Mallarına İlişkin Bildiri — Yunanistan, nüfus mübadelesi kapsamı dışındaki, 18 Ekim 1912'den önce Girit dâhil Yunanistan'dan ayrılmış veya hep dışarıda yaşamış Müslümanların mülkiyet haklarına dokunmamayı taahhüt eder. İstisnai tedbirler kaldırılır, toplanan gelirler ödenir; talepler Karma Komisyonca çözülür. Karşılıklılık şartı vardır.",
+   "yer": [
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 11",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Sıhhi Konulara İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Sıhhi Konulara İlişkin Bildiri — Türkiye, beş yıl için, Milletler Cemiyeti Sağlık Komitesi ile Uluslararası Halk Sağlığı Bürosu'nun hazırladığı listeden üç Avrupalı hekim uzmanı sınır sıhhi idaresine danışman olarak Sağlık Bakanlığı memuru sıfatıyla atayacaktır. Kıyı ve sınır sağlık tüzüğü uluslararası sözleşmelere ve Boğazlar Sözleşmesi'ne uygun olur; sağlık vergileri yalnızca sağlık hizmetine ayrılır.",
+   "yer": [
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 12",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Türkiye'de Adaletin İdaresine İlişkin Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Türkiye'de Adaletin İdaresine İlişkin Bildiri — Türkiye, yabancılara yargıda güvence sağlayabileceğini belirterek, en az beş yıl için Lahey Daimî Adalet Divanı'nın listesinden savaşa katılmamış ülkelerin hukukçularını Türk memuru olarak hukuk müşaviri alacağını bildirir. Müşavirler İstanbul ve İzmir'de görev yapar, şikâyetleri Adalet Bakanı'na iletir; kefaletle serbest bırakma ve tahkim hükümleri konur. (5 madde)",
+   "yer": [
+    "İstanbul",
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 13",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Osmanlı İmparatorluğu'nda Verilen Bazı İmtiyazlara İlişkin Protokol ve Bildiri — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Osmanlı İmparatorluğu'nda Verilen Bazı İmtiyazlara İlişkin Protokol ve Bildiri — 29 Ekim 1914'ten önceki imtiyaz sözleşmeleri korunur ve yeni ekonomik şartlara uyarlanır; uyuşmazlıkta uzmanlar karar verir. Armstrong-Vickers donanma/tersane anlaşması ile Samsun-Sivas demiryolu için yeni imtiyaz veya tazminat öngörülür. Osmanlı'dan ayrılan topraklarda devralan devlet haklara halef olur. Bildiri, 1914'teki yabancı sermayeli Osmanlı şirketlerini de kapsar. (13 madde)",
+   "yer": [
+    "Karadeniz",
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 14",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Belçika ve Portekiz'in Lozan'da imzalanan belgelerin bazı hükümlerine katılmasına ilişkin Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Belçika ve Portekiz'in Lozan'da imzalanan belgelerin bazı hükümlerine katılmasına ilişkin Protokol — Antlaşmayı imzalayan devletler, Belçika ve Portekiz'in barış antlaşmasının II. Kısım 1. Bölümü (mali) ile III. Kısmına (iktisadî) katılmasını, Belçika'nın ayrıca imtiyaz protokolüne katılmasını kabul eder. Ekli Belçika ve Portekiz bildirileriyle bu devletlerle Türkiye arasında barış ve resmî ilişkiler yeniden kurulmuş sayılır.",
+   "yer": [
+    "Türkiye",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 15",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Sevr'de Yunanistan'la imzalanan Azınlıkların Korunması Antlaşması ve Trakya Antlaşması'na ilişkin Protokol (24 Temmuz 1923) — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Sevr'de Yunanistan'la imzalanan Azınlıkların Korunması Antlaşması ve Trakya Antlaşması'na ilişkin Protokol (24 Temmuz 1923) — 10 Ağustos 1920 tarihli Sevr azınlık ve Trakya antlaşmalarının onay belgeleri, Lozan belgeleriyle aynı anda tevdi edilir. Azınlık antlaşmasının 7. maddesinin ikinci fıkrası ile 15. maddesi yürürlükten kalkar; Trakya antlaşmasının 1. maddesi Lozan Barış Antlaşması'nın 2(2). maddesi ölçüsünde sınırlanır. (3 madde)",
+   "yer": [
+    "Trakya",
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   },
   {
    "no": "Ek 16",
    "bolum": "Antlaşmaya ekli belge",
-   "ozet": "Sırp-Hırvat-Sloven Devleti'nin imzasına ilişkin Protokol — içeriği OKUNMADI (ölçülmedi); yalnız belge adı kayda geçti.",
-   "yer": [],
+   "ozet": "Sırp-Hırvat-Sloven Devleti'nin imzasına ilişkin Protokol — Lozan'da barış antlaşması, Boğazlar, Trakya sınırı, ikamet, ticaret, af, imtiyaz ve Belçika-Portekiz belgelerini imzalayanlar, Sırp-Hırvat-Sloven Devleti'nin bu belgeleri yürürlükten önce Paris'te, Lozan Nihai Senedi'nde adı geçen tam yetkililerden biri veya birkaçı aracılığıyla imzalamasını kabul eder.",
+   "yer": [
+    "Lozan"
+   ],
    "konu": "ek",
-   "dogrulanmadi": true
+   "dogrulanmadi": false
   }
  ]
 });
