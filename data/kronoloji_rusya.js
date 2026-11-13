@@ -281,7 +281,7 @@ window.KRONOLOJI_RUSYA = [
   yer_id:"St. Petersburg",
   d:"I. Petro, Neva Nehri deltasında yeni fethedilen bataklık arazide Batı'ya açılan \"pencere\" olarak Sankt-Peterburg'u kurdu; şehir 1712'de başkent oldu. Rus tarihyazımında Petro'nun Batılılaşma projesinin en somut ve kalıcı simgesidir.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
-{ t:"1709-06-27", b:"Poltava Muharebesi", tur:"savas", onem:4, dunya:4, kapsam:"dis",
+{ t:"1709-07-08", ic_not_takvim:"ÇELİŞKİ-1113 ISVEC: eski gün 1709-06-27 Jülyen idi (Rus takvimi); atlas kuralı (1582 sonrası Gregoryen; geç geçen yerlerin kaynak günü çevrilir): 27 Haziran Jülyen = 8 Temmuz 1709 Gregoryen (İsveç takvimi 28 Haziran). TDV «İsveç»: 8 Temmuz 1709; kronoloji_isvec.js ve İsveç künyesi zaten 07-08.", b:"Poltava Muharebesi", tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Poltava",
   d:"I. Petro'nun yeniden inşa edilmiş ordusu, İsveç kralı XII. Karl'ın kuvvetlerini Poltava'da ezici biçimde yendi; İsveç bir daha büyük güç statüsüne dönemedi. Rus tarihyazımında bu zafer, Rusya'nın Avrupa'nın büyük güçlerinden biri hâline gelişinin kesin dönüm noktasıdır — Narva'nın (1700) tam tersi ve intikamı.",

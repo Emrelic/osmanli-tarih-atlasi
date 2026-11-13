@@ -90,7 +90,7 @@ window.KRONOLOJI_KIRIM = [
   yer_id:"",
   d:"Hacı Giray'ın oğullarından Mengli Giray, kardeşleriyle giriştiği mücadele sonunda tahta çıktı; hanlık boyunca üç kez tahta çıkıp inecektir.",
   kaynak:"kirim (TDV)", yer_kon:[44.736,33.919] },
-{ t:"1475-06-01", b:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Kefe'yi ve Ceneviz kıyı kolonilerini fethetti", tur:"savas", onem:5, dunya:4, kapsam:"dis",
+{ t:"1475-06-06", b:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Kefe'yi ve Ceneviz kıyı kolonilerini fethetti", tur:"savas", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   yer_id:"Kefe",
   d:"Osmanlı donanması Kefe başta olmak üzere Kırım'ın güney kıyısındaki Ceneviz kolonilerini ele geçirdi; kıyı şeridi doğrudan Osmanlı sancağı haline getirildi. Cenevizliler tarafından hapiste tutulan Mengli Giray bu fetih sırasında serbest bırakıldı.",

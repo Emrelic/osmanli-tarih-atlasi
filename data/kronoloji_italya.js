@@ -449,7 +449,7 @@ window.KRONOLOJI_COK_ITALYA = [
   d:"Fatih Sultan Mehmed'in Karadeniz seferi sırasında Cenova'nın Anadolu kıyısındaki kolonisi Amasra, direnmeden Osmanlı'ya teslim oldu; Karadeniz kıyısındaki Ceneviz varlığının tasfiyesinin ilk adımlarından biriydi.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Amasra kolonisi Osmanlı'ya düştü\"", yer_id:"Amasra" },
 
-{ devlet:"cenova", t:"1475-06-01", b:"Kefe'nin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
+{ devlet:"cenova", t:"1475-06-06", b:"Kefe'nin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip","askeri","konu-askeri"],
   d:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Kefe'yi kuşatıp birkaç gün içinde teslim aldı; cumhuriyetin bir buçuk asırlık Kırım koloni ağının kalbi kayboldu. Kefe'nin düşüşü, Cenova'nın Karadeniz'deki ekonomik varlığının fiilen sonu anlamına geliyordu.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe, Osmanlı'ya düştü\"", yer_id:"Kefe" },
