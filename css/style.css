@@ -3838,6 +3838,17 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; padding: 0; border-radius: 9px;
   border: 1px solid #a33; background: #fff; color: #a33; font-size: 11px; line-height: 16px; cursor: pointer;
 }
+/* Resim ekle → galeri / çerçeveli ekran görüntüsü (POSTIT-RESIM-1113) */
+.gn-resim-secim { gap: 6px; flex-wrap: wrap; }
+#gn-kirp { position: fixed; inset: 0; z-index: 9700; background: rgba(20, 20, 20, .88); display: flex; flex-direction: column; touch-action: none; user-select: none; }
+.gn-kirp-ust { flex: 0 0 auto; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; padding: 6px 12px; color: #fff; font: 14px system-ui, sans-serif; }
+.gn-kirp-ust button { padding: 4px 12px; border-radius: 4px; border: 1px solid #888; background: #fff; color: #222; cursor: pointer; font-size: 14px; }
+.gn-kirp-ust button.gn-ana { background: #2bd10f; border-color: #1a8f08; color: #000; font-weight: 600; }
+.gn-kirp-ust button:disabled { opacity: .45; cursor: default; }
+.gn-kirp-sahne { position: relative; flex: 1 1 auto; display: flex; align-items: center; justify-content: center; overflow: hidden; cursor: crosshair; }
+.gn-kirp-sar { position: relative; line-height: 0; }
+.gn-kirp-tuval { display: block; box-shadow: 0 0 0 1px #555; }
+.gn-kirp-kutu { position: absolute; border: 2px dashed #2bd10f; box-shadow: 0 0 0 9999px rgba(0, 0, 0, .45); pointer-events: none; }
 
 
 /* ═══ TANITIM TURU (js/tanitim.js, Emre 7 Kasım 2026) ═══
