@@ -1,0 +1,14 @@
+{
+ "id": "bukres-1812",
+ "ad": "Bükreş Antlaşması",
+ "anahtarlar": ["Bükreş Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1812-05-01",
+ "t": "1812-05-28",
+ "kadraj": [20, 41, 32, 48.5],
+ "yerler_ek": {"Bükreş": [26.1, 44.43], "Besarabya": [29.0, 46.5], "Prut Nehri": [28.1, 46.8], "Tuna Nehri": [27.5, 44.1], "Kili": [29.27, 45.45], "İsmail": [28.84, 45.35], "Eflak": [25.0, 44.5], "Boğdan": [27.0, 47.0], "Sırbistan": [20.5, 44.0], "Cezayir": [3.06, 36.75], "Trablus": [13.18, 32.89]},
+ "kaynak": "Ham metin OKUNDU: Traité de paix avec la Russie, signé à Bucarest le 16/28 mai 1812 (giriş + md. 1-16 + imza; 'en seize articles' ibaresiyle teyitli) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 30 (archive.org recueildactesin01turkgoog, OCR; madde sırası ve sayısı tutarlı, OCR numara hataları 'Art. 3/9/13' vb. içerikten düzeltildi). Fihristte aynı gün 17 Cemaziyelevvel 1227, onay Cemaziyelahir 1227; Mediimouaï IV s.49, Martens NRG III s.397 atıflıdır (okunmadı). İki taraflı (Rusya-Osmanlı). GÜN: Noradounghian 16/28 Mayıs 1812 (Jülyen/Gregoryen; atlas günü Gregoryen 28 Mayıs) + TDV: 'Bucak', 'Galib Paşa, Mehmed Said', 'Hurşid Ahmed Paşa', 'Mahmud II' maddelerinde '28 Mayıs 1812' (WebFetch arama özeti; ayrı 'Bükreş Antlaşması' maddesi BULUNAMADI — slug arama sayfasına düşer) — çelişki yok; kronoloji maddesinde Jülyen 16 Mayıs notu mevcut. Hurewitz, Meray, Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_bukres1812.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p07/bukres1812-girdi.json"],
+ "madde_sayisi": 16
+}
