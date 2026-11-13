@@ -1,8 +1,71 @@
 [
-  { "taraf": "Habsburg", "no": 1, "bolum": "Osmanlı–Habsburg", "ozet": "ÖRNEK: Barış ve sınırların genel çerçevesi tanımlanır.", "yer": ["Karlofça"], "konu": "genel" },
-  { "taraf": "Habsburg", "no": 2, "bolum": "Osmanlı–Habsburg", "ozet": "ÖRNEK: Erdel'in Habsburg'a bırakılması.", "yer": ["Erdel"], "konu": "sinir" },
-  { "taraf": "Venedik", "no": "giriş", "sira": 0, "bolum": "Osmanlı–Venedik", "ozet": "ÖRNEK: Venedik adına bağlanma gerekçesi.", "yer": ["Karlofça"], "konu": "cerceve" },
-  { "taraf": "Venedik", "no": 1, "bolum": "Osmanlı–Venedik", "ozet": "ÖRNEK: Mora Venedik'te kalır.", "yer": ["Mora"], "konu": "sinir" },
-  { "taraf": "Venedik", "no": 2, "bolum": "Osmanlı–Venedik", "ozet": "ÖRNEK: Dalmaçya sınırı.", "yer": [], "konu": "sinir" },
-  { "taraf": "Lehistan", "no": 1, "bolum": "Osmanlı–Lehistan", "ozet": "ÖRNEK: Podolya Lehistan'a iade edilir.", "yer": ["Podolya"], "konu": "sinir" }
+  {
+    "taraf": "",
+    "no": "çerçeve",
+    "bolum": "Genel çerçeve",
+    "ozet": "ÖRNEK: Tüm taraflar için ortak giriş; Karlofça kongresi arabulucular önünde toplanır.",
+    "yer": [
+      "Karlofça"
+    ],
+    "konu": "cerceve"
+  },
+  {
+    "taraf": "Habsburg",
+    "no": 1,
+    "bolum": "Osmanlı–Habsburg",
+    "ozet": "ÖRNEK: Barış ve sınırların genel çerçevesi tanımlanır.",
+    "yer": [
+      "Karlofça"
+    ],
+    "konu": "genel"
+  },
+  {
+    "taraf": "Habsburg",
+    "no": 2,
+    "bolum": "Osmanlı–Habsburg",
+    "ozet": "ÖRNEK: Erdel'in Habsburg'a bırakılması.",
+    "yer": [
+      "Erdel"
+    ],
+    "konu": "sinir"
+  },
+  {
+    "taraf": "Venedik",
+    "no": "giriş",
+    "sira": 0,
+    "bolum": "Osmanlı–Venedik",
+    "ozet": "ÖRNEK: Venedik adına bağlanma gerekçesi.",
+    "yer": [
+      "Karlofça"
+    ],
+    "konu": "cerceve"
+  },
+  {
+    "taraf": "Venedik",
+    "no": 1,
+    "bolum": "Osmanlı–Venedik",
+    "ozet": "ÖRNEK: Mora Venedik'te kalır.",
+    "yer": [
+      "Mora"
+    ],
+    "konu": "sinir"
+  },
+  {
+    "taraf": "Venedik",
+    "no": 2,
+    "bolum": "Osmanlı–Venedik",
+    "ozet": "ÖRNEK: Dalmaçya sınırı.",
+    "yer": [],
+    "konu": "sinir"
+  },
+  {
+    "taraf": "Lehistan",
+    "no": 1,
+    "bolum": "Osmanlı–Lehistan",
+    "ozet": "ÖRNEK: Podolya Lehistan'a iade edilir.",
+    "yer": [
+      "Podolya"
+    ],
+    "konu": "sinir"
+  }
 ]

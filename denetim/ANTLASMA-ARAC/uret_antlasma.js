@@ -25,6 +25,8 @@
 //  - ÇOK TARAFLI antlaşma: her taraf kendi madde dizisini taşır, numaralandırma TARAF BAŞINADIR (Habsburg md.1-20, Venedik md.1-16…).
 //    Tekrar `no` yalnız (taraf, no) çiftine göre reddedilir. Adım başlığı «<Taraf> md. <no>» olur (taraf yoksa yalnız <no>).
 //    `no` metinse («giriş», «onay», «ateşkes») başlık «<Taraf> <metin>» olur ve sıra: `sira` varsa ona, yoksa dosyadaki sıraya göre.
+//  - TARAFSIZ genel/çerçeve adımı: `taraf:""` (boş dize) ⇒ başlık «Genel çerçeve» (no:"çerçeve"); tüm taraflardan ÖNCE gelir, `taraflar` listesine girmez,
+//    adımda `taraf` alanı olmaz (taraf seçicide «Tüm» altında). `taraf` HİÇ verilmezse tek taraflı antlaşma sayılır (başlık yalnız no).
 //  - belirsiz:true  => adımda dogrulanmadi:true (oynatıcıda sarı «⚠ İÇERİK DOĞRULANMADI»)
 //  - ekler[]: {ad, ozet, okundu:true|false, yer, madde_say} => 'Ek N' adımları; okundu:false => dogrulanmadi
 // yer: YALNIZ yerler tablosunda (yerler-ortak.json + yerler_ek) bulunan adlar haritada işaretlenir;
@@ -82,7 +84,10 @@ const bilinmeyen = new Set();
 const yf = (liste) => (liste || []).filter(y => { if (yerler[y]) return true; bilinmeyen.add(y); return false; });
 
 // 4) adımlar — başlık: «<Taraf> md. <no>» (sayısal) | «<Taraf> <metin>» (metin no) | «<no>» (taraf yok)
-const baslik = m => m.taraf ? (sayisalMi(m.no) ? m.taraf + ' md. ' + m.no : m.taraf + ' ' + m.no) : String(m.no);
+// taraf:'' (AÇIKÇA boş dize) = TARAFSIZ GENEL adım (çerçeve/giriş): başlık «Genel <no>» (ör. «Genel çerçeve»); adıma `taraf` yazılmaz,
+// `taraflar` listesine girmez (taraf seçicide «Tüm» altında kalır). taraf alanı HİÇ yoksa (tek taraflı antlaşma) başlık yalnız <no>.
+const baslik = m => m.taraf ? (sayisalMi(m.no) ? m.taraf + ' md. ' + m.no : m.taraf + ' ' + m.no)
+  : (m.taraf === '' ? 'Genel ' + (sayisalMi(m.no) ? 'md. ' + m.no : m.no) : String(m.no));
 const tek = (cfg.gruplama && cfg.gruplama.tekTek) || [];
 const tekMi = m => !cfg.gruplama || (sayisalMi(m.no) && tek.some(([a, b]) => Number(m.no) >= a && Number(m.no) <= b)) || !sayisalMi(m.no);
 const azami = (cfg.gruplama && cfg.gruplama.azamiGrup) || 1;
