@@ -1,0 +1,14 @@
+{
+ "id": "ittifak-1854",
+ "ad": "Osmanlı-Fransız-İngiliz İttifak Antlaşması",
+ "anahtarlar": ["İngiltere ve Fransa ile ittifak antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1854-03-12",
+ "t": "1854-03-12",
+ "kadraj": [24, 37, 45, 43],
+ "yerler_ek": {},
+ "kaynak": "Ham metin OKUNDU: 'Traité d'alliance avec l'Angleterre et la France', signé à Constantinople le 12 Mars 1854, giriş + md. 1-5 + imza (tamamı; Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. III (1789-1856), Paris 1902, N° 151; archive.org tam metin/OCR; Noradounghian listesinde Medjmouaï IV s.219, Martens NRG XV s.565, De Clercq VI s.422, Testa IV s.1-3 kaynak gösterilir). OCR bozuk olduğu için madde içeriği sezgisel düzeltmeyle okundu, kritik sayılar (altı hafta, kırk gün) açık okundu. Üç taraflı tek metin: taraf alanı kullanılmadı. İmzacılar: Fransa adına Baraguey d'Hilliers, İngiltere adına Stratford de Redcliffe, Osmanlı adına Mustafa Reşid Paşa. Metinde belirli yer adı yalnız 'Constantinople' ile 'Osmanlı topraklarında Avrupa ve Asya'dır; bu yüzden md. 2-5 adımlarına imza yeri İstanbul odak olarak verildi (yaklaşık, sınır değil). TDV: ayrı madde bulunamadı (arama 'Kırım Harbi ittifak 1854' ilgili madde döndürmedi: BATILILAŞMA, İSTANBUL, OSMANLILAR vb. 12 Mart 1854 antlaşmasını anmaz); 'Şark Meselesi' ve 'Boğazlar Meselesi' (Beydilli) 1854 ittifakını anmaz. GÜN: Noradounghian 12 Mart 1854 (13 Cemaziyelâhir 1270; Sardinya'nın katılış sözleşmesi 15 Mart 1855, metinde 12 Mart 1854'e atıf) + Paris Antlaşması md. 31 ('twelfth of March, 1854' Constantinople sözleşmesi; Holland) = iki bağımsız metinde aynı gün; çelişki yok. Atlas kaynak sayılmadı. TDV günü yok; ikinci akademik neşir (Hurewitz) okunmadı.",
+ "cikti": "data/antlasma_madde_ittifak1854.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p05/ittifak1854-girdi.json"],
+ "madde_sayisi": 5
+}
