@@ -460,7 +460,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"mentese", ad:"Menteşeoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1280-01-01", t:"1424-01-01", baskent:"Milas / Beçin", harita:"mentese",
+  f:"1280-01-01", t:"1424-01-01", ic_not_t:"ÇELİŞKİ-1113 BEYLİKLER: Menteşe sonu 1424 — ÜÇ hakemli kaynak: Kayapınar (ed.), İslâm Tarihi ve Medeniyeti 11: Anadolu Beylikleri (Siyer 2018): «1424 yılında da Osmanlılar, Menteşe Beyliği'ni ikinci kez ilhak ettiler» (Merçil DİA atfıyla); Meğri (Fethiye) Vakıfları, SDÜ FEF Sosyal Bilimler Dergisi 31 (2014) s.1-44: II. Murad 1424'de Osmanlı sınırlarına kattı; Ö. Yılmaz, Menteşe Sancağında Suhte İsyanları, DergiPark 3855548: II. Murad'ın 1424'te Menteşe topraklarını ele geçirmesiyle beylik fiilen sona erdi; TDV «Menteşe»: «1424'te kesin olarak zaptedildi». Yerleşim dilimlerinin bitişi eskiden 1425-06-01 idi (Aydın/Cüneyd ilhakıyla karışmıştı) → 1424-01-01 [yalnız yıl teyitli; gün yok]. OKUNMADI: Wittek, Menteşe Beyliği (TTK 1986).", baskent:"Milas / Beçin", harita:"mentese",
   ozet:"Güney Ege'de kurulan deniz beyliği (hanedan ömrü); 1389-91'de Yıldırım Bayezid'e katıldı, Ankara Savaşı sonrası kısa süre geri alındı, 1424'te kesin zaptedildi.",
   kaynak:"mentese",
   kronoloji:[
