@@ -476,9 +476,29 @@
      "yol": "data/yerlesimler_halef_1946.js",
      "sha": "f1e45a5e66df3a88",
      "bayt": 113997
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_roma.js",
+     "sha": "f9bdb79ca019bf75",
+     "bayt": 72048
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_hitit.js",
+     "sha": "db3a045757cf0c18",
+     "bayt": 1872
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_frig.js",
+     "sha": "f31948b8e65ae3d3",
+     "bayt": 3807
+    },
+    {
+     "yol": "data/kronoloji_sinir_antik_bizans_komsu.js",
+     "sha": "fafdaeb80e90d9f1",
+     "bayt": 17249
     }
    ],
-   "bayt": 3443545
+   "bayt": 3519868
   },
   {
    "paket": "data/paket_10.js",
