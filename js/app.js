@@ -162,6 +162,10 @@ function devletAdi(id) {
       if (d.harita && !_DEVLET_ADI[d.harita]) _DEVLET_ADI[d.harita] = d.ad;
     });
   }
+  // P2 (13 Kasım 2026, LAB/EMRELIC): Dizin penceresinin tarih satırlarında ham
+  // `__BOSLUK__` kimliği kullanıcıya görünüyordu (Kars, 375px). `__BOSLUK__` bir
+  // devlet değil BEYANLI BOŞLUK işaretidir (`_sahipAdi` aynı sözü veriyor).
+  if (id === "__BOSLUK__") return "kayıt yok (boşluk beyanı)";
   return _DEVLET_ADI[id] || id;
 }
 function karsiTaraf(k) {
@@ -2450,6 +2454,19 @@ var harita = new maplibregl.Map({
 // 2.5) ve Esri atfı `altlik` kaynağının `attribution` alanındadır ve bu
 // denetim onu okur — denetim yerine kendi metnimizi yazmak atfı iki yerde
 // tutmak olurdu (§11: iki yerde duran bilgi bayatlar).
+// P2 (13 Kasım 2026, KASA kararı) — AÇILIŞ YARIŞI GÜRÜLTÜSÜ: MapLibre 5.24.0, "devlet" kaynağının
+// ilk async yüklemesinde `Cannot read properties of undefined (reading 'points')` fırlatıyor
+// (LAB ölçümü: açılışta 4-5 kez + geo_coz sonrası 1; hareket/tıklamada tekrarlamıyor; harita çiziliyor,
+// işlev kaybı yok; kodumuzda `.points` yok → kaynak kütüphane içi). Hata dinleyicisi olmayınca
+// MapLibre bunu console.error'a basar; dinleyici eklenince varsayılan basım KAPANIR, bu yüzden
+// YALNIZ sourceId "devlet" + "points" mesajı yutulur, öteki her hata AYNEN console.error'a gider.
+harita.on("error", function (e) {
+  try {
+    var msg = String((e && e.error && e.error.message) || (e && e.message) || "");
+    if (e && e.sourceId === "devlet" && /reading 'points'/.test(msg)) return;
+  } catch (x) { /* süzme hatası gerçek hatayı gizlememeli */ }
+  console.error((e && e.error) || e);
+});
 var atifKontrol = new maplibregl.AttributionControl({ compact: true });
 harita.addControl(atifKontrol, "bottom-right");
 function _atifKap() { return atifKontrol._container || null; }

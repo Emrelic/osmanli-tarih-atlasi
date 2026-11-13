@@ -3882,3 +3882,15 @@ body.gn-oge-kipi * { cursor: crosshair !important; }
   border: 2px solid var(--osmanli-kirmizi); background: #fff; color: var(--osmanli-kirmizi);
   border-radius: 8px; touch-action: manipulation;
 }
+
+/* P2 · 13 Kasım 2026 (EMRELIC; LAB/Eksen 6 gözlemi, 375 px telefon) — DOSYANIN SONU: önceki
+   kuralları ezer. ① üst çubuk taşıyordu (#dil-secici x 327-414 > 375) → satır kırılır, dil
+   seçici daralır ② lejant haritanın alt yarısını örtüyordu → yüksekliği %38'e iner (kendi
+   kaydırması + kapat düğmesi var) ③ atıf kutusu 4 satırdı → kısa ve küçük. Yalnız ≤480 px;
+   masaüstü ve tablet DEĞİŞMEZ. Görsel doğrulama: LAB telefon genişliğinde bakacak. */
+@media (max-width: 480px) {
+  #ustbar { flex-wrap: wrap; gap: 6px; padding: 4px 8px; }
+  #ustbar #dil-secici { max-width: 5.5em; margin-left: 4px; }
+  .lejant { max-height: 38%; font-size: 11px; padding: 4px 8px; }
+  .maplibregl-ctrl-attrib { max-width: calc(100% - 16px); font-size: 10px; line-height: 1.25; }
+}
