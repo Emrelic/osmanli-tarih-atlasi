@@ -183,7 +183,7 @@ window.SAVASLAR = [
 { t:"1371-09-26", tur:"meydan", ad:"Çirmen",                    taraf_metin:"Sırp beyleri",      sonuc:"zafer",   seri:"hacli",   lat:41.72, lon:26.20, galip:"osmanli", taraf:["osmanli"] },
 { t:"1388-08-27", tur:"meydan", ad:"Bileća",                    taraf_metin:"Bosna",             sonuc:"yenilgi", seri:"hacli",   lat:42.87, lon:18.43, taraf:["osmanli","bosna-kralligi"], galip:"bosna-kralligi" },
 { t:"1389-06-15", tur:"meydan", ad:"I. Kosova",                 taraf_metin:"Balkan ittifakı",   sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","bosna-kralligi"], galip:"osmanli" },
-{ t:"1395-05-17", tur:"meydan", ad:"Rovine",                    taraf_metin:"Eflak",             sonuc:"belirsiz",seri:"hacli",   lat:44.85, lon:24.87, taraf:["osmanli","eflak"] },
+{ t:"1394-10-10", tur:"meydan", ad:"Rovine",                    taraf_metin:"Eflak",             sonuc:"belirsiz",seri:"hacli",   lat:44.85, lon:24.87, taraf:["osmanli","eflak"] },
 { t:"1396-09-25", tur:"meydan", ad:"Niğbolu",                   taraf_metin:"Haçlı ordusu",      sonuc:"zafer",   seri:"hacli",   lat:43.70, lon:24.90, taraf:["osmanli","macaristan","fransa","eflak"], galip:"osmanli" },
 { t:"1402-07-28", tur:"meydan", ad:"Ankara",                    taraf_metin:"Timur",             sonuc:"yenilgi", seri:"",        lat:40.10, lon:32.95, taraf:["osmanli","timurlu"], galip:"timurlu" },
 { t:"1416-05-29", tur:"deniz", ad:"Gelibolu (deniz)",          taraf_metin:"Venedik",           sonuc:"yenilgi", seri:"venedik", lat:40.35, lon:26.60, taraf:["osmanli","venedik"], galip:"venedik" },

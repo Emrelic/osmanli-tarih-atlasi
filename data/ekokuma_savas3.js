@@ -84,7 +84,7 @@ window.EKOKUMA_SAVAS3 = [
   kaynak:"TDV: murad-i (Çirmen öncesi ittifak, gece baskını, sonuçlar) · TDV: cirmen (zaferin anlamı)",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
-// ── 4 · 1395-05-17 Rovine ─────────────────────────────────────────────────
+// ── 4 · 1394-10-10 Rovine ─────────────────────────────────────────────────
 { id:"savas-rovine-1395", tur:"savas-hikayesi",
   baslik:"Rovine (Argeş) Savaşı (17 Mayıs 1395)",
   kisa:"Kosova'da Sırplara asker yollayan, Silistre'yi alan Eflak voyvodası cezalandırılacaktı: Mircea tahtını kaybetti, ama hesap Niğbolu'ya taşındı.",
@@ -99,9 +99,9 @@ window.EKOKUMA_SAVAS3 = [
   sonuc:"Bayezid ardından Tuna'yı geçip Niğbolu'ya ulaştı ve Bulgar Kralı Şişman'ı yakalatıp öldürttü (3 Haziran 1395). Bu hızlı fetihler Macarları ve Venediklileri yeni bir Haçlı ittifakına itti; 25 Eylül 1396'da Niğbolu'da Haçlı ordusu bozguna uğradı. Mircea, Eflak üzerinde hak iddiasını sürdüren Macar Kralı Sigismund'un desteğiyle iki yıl sonra yeniden harekete geçti; Niğbolu yenilgisinden sonra Bayezid'in hükümranlığını kabul etti ve 1402 Ankara Savaşı'nda onun yanında bulundu. Fetret yıllarında damadı Mûsâ Çelebi'yi, sonra Düzmece Mustafa'yı destekledi ve ancak 1417'de Osmanlı hükümranlığını kesin olarak tanıdı. Türklerle savaşları Romen tarihinde ve edebiyatında büyük yer tutar; Eminescu'nun en uzun tarihî şiirlerinden biri ona dairdir.",
   tartisma:"Yıl: TDV I. Bayezid maddesi savaşı Argeş yakınında 17 Mayıs 1395'e, TDV Eflak maddesi Rovine savaşını 1394'e koyar — aynı ansiklopedinin iki maddesi arasında bir yıllık ayrılık var; burada taraf seçilmedi.",
   kesinlik:"kesin",
-  olay:["1395-05-17"],
+  olay:["1394-10-10"],
   kaynak:"TDV: bayezid-i (Balkan harekâtı, Argeş, Vlad, Şişman) · TDV: eflak (Mircea'nın geçmişi ve sonrası, Rovine)",
-  ic_not:"Bağlanan olaylar_ek.js 1395-05-17 maddesinin kaynak alanı 'bulgaristan'; madde metni 'sonucu tartışmalı' diyor — okunan iki TDV maddesi bu nitelemeyi taşımıyor (ölçülmedi: bulgaristan gövdesi okunmadı). Yıl çelişkisi (1394/1395) madde sahibine (A3) raporda bildirildi.",
+  ic_not:"Bağlanan olaylar_ek.js 1394-10-10 maddesinin kaynak alanı 'bulgaristan'; madde metni 'sonucu tartışmalı' diyor — okunan iki TDV maddesi bu nitelemeyi taşımıyor (ölçülmedi: bulgaristan gövdesi okunmadı). Yıl çelişkisi (1394/1395) madde sahibine (A3) raporda bildirildi.",
   gorsel:null, gorsel_kaynak:"aranmadı" },
 
 // ── 5 · 1669 Kandiye / Girit ──────────────────────────────────────────────
