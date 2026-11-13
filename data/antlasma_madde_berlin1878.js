@@ -16,9 +16,9 @@ window.ANTLASMA_MADDELERI.push({
   47
  ],
  "anahtarlar": [
-  "Berlin Antlaşması",
-  "Berlin Kongresi"
+  "Berlin Antlaşması"
  ],
+ "eslesme_kipi": "acik",
  "onceki_t": "1878-03-03",
  "kaynak": "Ham metin OKUNDU: Treaty between Great Britain, Germany, Austria, France, Italy, Russia and Turkey for the Settlement of Affairs in the East, signed at Berlin 13 July 1878, md. 1-64 + imza (tamamı; İngilizce, Holland (ed.), The European Concert in the Eastern Question, Oxford 1885, s. 277-307; Parl. Papers 1878 Turkey No. 44 ve N.R.G. 2e sér. III, 449'a dayanır), Wikisource en, Page: djvu 293-323; ham metinde md. 62'nin ikinci yarısı ve md. 60'ın Kotur paragrafı ayrı sayfada olup ayrıca okundu. Çok taraflı antlaşma: taraf başına numaralandırma YOKTUR, 64 maddelik tek metin; 7 imzacı (Britanya, Almanya, Avusturya-Macaristan, Fransa, İtalya, Rusya, Osmanlı), bu yüzden taraf alanı ve Genel adım kullanılmadı. TDV 'Berlin Antlaşması' (Ali İhsan Gencer, DİA, 1992) okundu: 13 Temmuz 1878, 64 madde, Bulgaristan üç parçaya bölünür, Bosna-Hersek Avusturya'ya, Kars-Ardahan-Batum Rusya'ya, Beyazıt ve Eleşkirt vadisi Osmanlı'da, 802,5 milyon frank tazminat (bu rakam Berlin metninde yok, 1879 İstanbul Antlaşması'ndan; bu kayda alınmadı) — metinle uyumlu; Kıbrıs 4 Haziran 1878 ayrı sözleşmedir, bu kayda girmez. GÜN: Holland imza cümlesi 'Done at Berlin, the thirteenth day of the month of July, 1878' + TDV 13 Temmuz 1878 = çift teyit, çelişki yok; onayların değişimi 3 Ağustos 1878 (Holland notu). Rusya'nın Jülyen takvimindeki karşılığı 1 Temmuz 1878 olup kaynakta okunmadı, hesaptır. Maddelerin gruplanması: md. 1-2, 13-14, 22-26, 28-29, 34, 36, 43-46, 58-60 tek tek; öteki en çok 4'lü aralık adımı. Atlas kaynak sayılmadı. İkinci bağımsız akademik neşir (Hurewitz, Noradounghian) okunmadı.",
  "yerler": {

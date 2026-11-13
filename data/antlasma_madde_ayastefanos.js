@@ -19,6 +19,7 @@ window.ANTLASMA_MADDELERI.push({
   "Ayastefanos Antlaşması",
   "Ayastefanos (San Stefano) Antlaşması"
  ],
+ "eslesme_kipi": "acik",
  "onceki_t": "1878-01-31",
  "kaynak": "Ham metin OKUNDU: Preliminary Treaty of Peace, San Stefano, md. 1-29 + md. 11'e eklenen aynı gün paragrafı (İngilizce; Holland (ed.), The European Concert in the Eastern Question, Oxford 1885, Appendix II (1), s. 335-348; Parl. Papers 1878 Turkey No. 22 ve N.R.G. 2e sér. III, 246'ya dayanır), Wikisource en, Page: djvu 351-364. Köşeli parantezli maddeler Holland'a göre Berlin Antlaşması ile geçersizleşmiştir; bu kayıt 1878 Mart metnini verir. TDV 'Ayastefanos Antlaşması' (Ali İhsan Gencer, DİA c. 4, 1991, s. 225) okundu: 3 Mart 1878, Ayastefanos, 29 madde, 1.410 milyon ruble tazminat ve toprak devri (Kars, Ardahan, Batum, Doğubayazıt) — metinle uyumlu. GÜN: Holland imza kaydı 'nineteenth February / third March' (Jülyen/Gregoryen) = atlas günü 3 Mart 1878 (Gregoryen); TDV 3 Mart. Çelişki yok. Holland'ın başlığı belgeyi '17th March 1878' diye anar ve metnin imza cümlesiyle çelişir (muhtemelen onay/değişim tarihi); imza cümlesi esas alındı, 17 Mart ayrıca teyit edilmedi. Madde 14'ün '1 Mart 1880' tarihi ham metindendir. Atlas kaynak sayılmadı. İkinci bağımsız akademik kaynak (Hurewitz, Noradounghian) okunmadı; gün Holland + TDV ile iki kaynaktan teyitli.",
  "yerler": {
