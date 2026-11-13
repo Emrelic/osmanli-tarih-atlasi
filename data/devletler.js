@@ -211,13 +211,13 @@ window.DEVLETLER = [
 },
 
 { id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1441-01-01", t:"1783-04-19", ic_not_f:"ÇELİŞKİ-1113 ALTIN-ORDA: Hacı Giray'ın tahta çıkış/bağımsızlık günü TDV «Hacı Giray I»da «kesin olarak bilinmemektedir» (1427 sonrası, 1428, 1449 görüşleri; 845/1441-42 ve 847/1443 sikkeleri) — 1441 yalnız sikke terminus'u, ilan günü DEĞİL [yalnız yıl teyitli]. Kefe: TDV «Kefe» «Safer 880 / Haziran 1475», gün YOK; künye içi 1475-06-01 (kronoloji) ↔ 1475-06-06 (tabi f) tutarsız — ay teyitli, gün teyitsiz. 1502: kronoloji 01-01 ↔ olaylar_ek5 03-01 (ay/gün TDV'de yok).", baskent:"Bahçesaray", harita:"kirim",
+  f:"1441-01-01", t:"1783-04-19", ic_not_f:"ÇELİŞKİ-1113 ALTIN-ORDA: Hacı Giray'ın tahta çıkış/bağımsızlık günü TDV «Hacı Giray I»da «kesin olarak bilinmemektedir» (1427 sonrası, 1428, 1449 görüşleri; 845/1441-42 ve 847/1443 sikkeleri) — 1441 yalnız sikke terminus'u, ilan günü DEĞİL [yalnız yıl teyitli]. Kefe: TDV «Kefe» «Safer 880 / Haziran 1475», gün YOK; künye içi eski tutarsızlık (kronoloji 06-01 ↔ tabi f 06-06): TDV «Gedik Ahmed Paşa» Kefe'nin 6 Haziran 1475'te teslim olduğunu verir (TDV «Kefe» yalnız Haziran 1475) ⇒ iki yer de 1475-06-06'ya hizalandı [gün: TDV Gedik Ahmed Paşa; ikinci akademik kaynak OKUNMADI]. 1502: kronoloji 01-01 ↔ olaylar_ek5 03-01 (ay/gün TDV'de yok).", baskent:"Bahçesaray", harita:"kirim",
   tabi:[{f:"1475-06-06", t:"1774-07-21", ust:"osmanli"}],
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kaynak:"kirim",
   kronoloji:[
     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
-    { t:"1475-06-01", tur:"antlasma", b:"Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu" },
+    { t:"1475-06-06", tur:"antlasma", b:"Osmanlı Kefe'yi fethetti; Kırım Hanlığı Osmanlı'ya tâbi oldu", kaynak:"TDV «Gedik Ahmed Paşa»: Kefe 6 Haziran 1475'te teslim oldu (WebFetch/yerlesimler_ek2 alıntısı); TDV «Kefe»: Safer 880 / Haziran 1475. ÇELİŞKİ-1113: künye içi 06-01 ↔ 06-06 tutarsızlığı TDV günü 06-06'ya hizalandı" },
     { t:"1502-01-01", tur:"toprak-kazanc", b:"Büyük Orda'yı ortadan kaldırdı" },
     { t:"1648-05-01", tur:"ittifak", b:"Tugay Bey kuvvetleri Hetman Hmelnitski'nin Kazak ayaklanmasına destek verdi" },
     { t:"1687-01-01", tur:"savas", b:"Rus Kırım seferleri püskürtüldü (1689'a dek)" },
@@ -853,7 +853,7 @@ window.DEVLETLER = [
     { odak_yer:["Venedik"], t:"1380-06-24", tur:"savas", b:"Chioggia Savaşı'nda Venedik'e yenildi, deniz üstünlüğü Venedik'e geçti" },
     { odak_yer:["Sakız"], t:"1455-01-01", tur:"toprak-kazanc", b:"Sakız Adası Maona şirketi idaresine geçti" },
     { odak_yer:["Amasra"], t:"1459-06-20", tur:"toprak-kayip", b:"Amasra kolonisi Osmanlı'ya düştü", kaynak:"TDV mehmed-ii (İnalcık): '863’te (1459) Amasra’yı' ve Semendire'den sonra aynı yazda; gün Semendire'nin düşüşünden (TDV semendire, 20 Haziran 1459) alt sınırdır; TDV ceneviz/bartin 1461 der, TDV iç çelişkisi KUTU-H1-1015'te beyanlı" },
-    { odak_yer:["Kefe"], t:"1475-06-01", tur:"toprak-kayip", b:"Kefe, Osmanlı'ya düştü" },
+    { odak_yer:["Kefe"], t:"1475-06-06", tur:"toprak-kayip", b:"Kefe, Osmanlı'ya düştü", kaynak:"TDV «Gedik Ahmed Paşa»: 6 Haziran 1475 (ÇELİŞKİ-1113 hizalama)" },
     { odak_yer:["Cenova"], t:"1528-09-12", tur:"antlasma", b:"Andrea Doria, Fransız nüfuzunu kırıp aristokratik cumhuriyet anayasasını kurdu" },
     { odak_yer:["Sakız"], t:"1566-04-14", tur:"toprak-kayip", b:"Sakız Adası Osmanlı'ya ilhak edildi — son Ege kolonisi kayboldu" },
     { odak_yer:["Cenova"], t:"1797-06-14", tur:"son", b:"Napolyon tarafından ilga edildi" }

@@ -296,7 +296,7 @@ window.KRONOLOJI_ALTINORDA = [
   d:"Küçük Muhammed Han'ın torunu Kasım Han, İdil'in Hazar'a döküldüğü yerde Ejderhan'da kendi hanlığını kurdu. Kayıp yalnız toprak değildir: Astarhan, Hazar üzerinden İran ve Orta Asya'ya giden ticaretin gümrük kapısıydı. Kazan kuzey ticaretini, Kırım Karadeniz'i, Astarhan Hazar'ı aldı — Büyük Orda'ya bozkırın kendisi kaldı (bkz. [[astarhan]]).",
   kaynak:"TDV, madde: ejderhan-hanligi; data/devletler.js astarhan künyesi — 'Küçük Muhammed Han'ın torunu Kasım Han, Ejderhan'da hanlığını kurdu'" },
 
-{ t:"1475-06-01", b:"Osmanlı Kefe'yi fethetti — Karadeniz ticareti Altın Orda mirasının elinden çıktı", tur:"savas", onem:4, dunya:4, kapsam:"dis",
+{ t:"1475-06-06", b:"Osmanlı Kefe'yi fethetti — Karadeniz ticareti Altın Orda mirasının elinden çıktı", tur:"savas", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","ekonomi","toprak-kayip","konu-askeri","konu-ekonomi"],
   yer_id:"Kefe",
   d:"Gedik Ahmed Paşa komutasındaki yüz parçalık Osmanlı donanması Haziran 1475'te Kefe'yi ve Ceneviz kıyı kolonilerini fethetti. İki yüz yıldır Kıpçak bozkırını Akdeniz'e bağlayan İtalyan ticaret ağı böylece sona erdi ve Karadeniz bir Osmanlı içdenizine dönüştü. Altın Orda'nın ardılları için sonuç kesindir: kuzey bozkırının dünya ticaretine açılan kapısı artık İstanbul'un elindedir.",

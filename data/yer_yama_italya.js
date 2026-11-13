@@ -211,7 +211,7 @@ window.YER_YAMA_ITALYA = [
   yer_id:"Amasra",
   kaynak:"TDV ceneviz" },
 
-{ dosya:"kronoloji_italya.js", t:"1475-06-01",
+{ dosya:"kronoloji_italya.js", t:"1475-06-06",
   b:"Kefe'nin Osmanlı'ya düşmesi",
   yer_id:"Kefe",
   kaynak:"TDV kefe" },
