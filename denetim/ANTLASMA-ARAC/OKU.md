@@ -26,6 +26,7 @@ Amaç: bir antlaşmanın HAM METNİNDEN madde madde özet çıkarıp oynatıcıy
 ## ÇOK TARAFLI antlaşma (Karlofça: Habsburg/Venedik/Lehistan/Rusya)
 - Madde nesnesine `taraf:"Venedik"` yaz; **numaralandırma TARAF BAŞINA** (Habsburg md.1-20, Venedik md.1-16…). Tekrar `no` yalnız `(taraf, no)` çiftinde reddedilir; farklı tarafların aynı `no`'su serbesttir.
 - Adım başlığı **«Venedik md. 3»**; metin `no` («giriş», «onay», «ateşkes») «Venedik giriş» olur ve `sira` (sayı) ile ya da dosya sırasıyla yerleşir. `taraf` alanı adıma da yazılır.
+- **Tarafsız GENEL/çerçeve adımı:** `taraf:""` (boş dize) + `no:"çerçeve"` ⇒ başlık «Genel çerçeve»; tüm taraflardan ÖNCE gelir, `taraflar` listesine GİRMEZ, adımda `taraf` alanı olmaz (taraf seçicide «Tüm» altında). `taraf` hiç verilmezse tek taraflı antlaşmadır (başlık yalnız `no`). Örnek girdinin ilk maddesi.
 - Sıra: config `taraflar:[...]` (yoksa ilk görülme) → `sira` → sayısal `no` → dosya sırası. Gruplama (`gruplama`) taraf sınırını AŞMAZ.
 - `madde_sayisi` nesne olabilir: `{"Habsburg":20,"Venedik":16}` (taraf başına 1..N; yalnız sayısal `no` sayılır).
 - Oynatıcı eşleşmesi için `anahtarlar:["Karlofça Antlaşması","Karlofça"]` (verilmezse `ad`); `onceki_t` bilgi alanıdır.
