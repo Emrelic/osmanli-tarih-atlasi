@@ -29,6 +29,11 @@ Zincir: roma-cumhuriyeti/roma-imp (künye sınırları) → 395-01-17. Doğu pay
 3. Thracia 46, Pannonia 9 ve Moesia −0028 yalnız yıl teyitli (gün teyitsiz); Pannonia MS 9 = isyan sonu (asgari yıl), eyalet kuruluş yılı kaynaklı değil (BEYANLI).
 4. Bizans uzatması (395→mevcut ilk dilim) tarihsel olarak iddialı (örn. Filibe 395→1281); KASA talimatıyla beyanlı.
 
+## 3b. REVİZYON (KASA kararı): kıyı/Yunan çekirdeği Bizans uzatması KALDI, iç Balkan beyanlı BOŞLUK
+Kıyı/çekirdek (40, uzatma kaldı): Achaea+Epirus 22 (hepsi Yunan çekirdeği), Thracia 12 (Edirne, Dimetoka, Havsa, Babaeski, Lüleburgaz, Çorlu, Silivri, Vize, Enez, Mustafapaşa, İğneada, Ahtapolu: güney Trakya/Marmara/Karadeniz kıyısı; Edirne için TDV 813 Krum alışı beyan), Moesia kıyısı 4 (Varna, Köstence, Mangalya, Balçık), Dalmatia-Doğu kıyısı 2 (İşkodra, Leş).
+İç (17, BOŞLUK'a çevrildi; kesim yılı kaynaklı): 547 (TDV Sırbistan, ilk Slav akınları — kayıp yılı değil, BEYANLI): Niş, Belgrad, Vidin, Semendire, Ćuprija, Kurşunlu, Ürküp, Üsküp, Doclea · 681 (TDV Bulgaristan, Slav-Bulgar Devleti): Silistre, Tutrakan, Hırsova, Tulça, Maçin, Lofça · 831 (TDV Bulgaristan, Malamir Filibe'yi aldı; Eski Zağra Filibe'den devralındı): Filibe, Eski Zağra. Formül: «BOŞLUK BEYANI (arandı, bulunamadı)». 3 yeni madde (547, 681, 831; Değişmez 2). Pannonia (12) ve Dalmatia-Batı (10) zaten BOŞLUK.
+Ayırt edilemeyen: kıyı/iç sınırı koordinat+bölge ile verildi; Pleiades/DARE kıyıya uzaklık ölçülmedi; TDV 971 (Trakya+Kuzey Bulgaristan) ve 1018 (tüm Bulgar toprakları) Bizans dönüşleri şehre özgü olmadığından yazılmadı. Dacia: kaynaksız terk yılı, yazılmadı. Toplam madde 17.
+
 ## 4. Karar soruları
 1. Bizans'ın 395→1000/1281 sürekli uzatması (Slav/Bulgar 681/Frank 1204 atlanıyor) kabul mü, yoksa Pannonia gibi beyanlı boşluk mu?
 2. Dacia için Aurelianus yılı (271 vs 275) kabul edilebilir bir akademik kaynak (Brill's New Pauly / CAH XII) tam metin erişimi olan makinede yazılsın mı?
