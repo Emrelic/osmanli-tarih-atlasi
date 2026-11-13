@@ -237,6 +237,10 @@ window.ANTLASMA_MADDELERI.push({
   "Musul": [
    43.13,
    36.34
+  ],
+  "Süveyş Kanalı": [
+   32.35,
+   30.6
   ]
  },
  "adimlar": [
@@ -1013,7 +1017,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "99",
    "bolum": "Part III. Economic clauses — Section VI. Treaties",
    "ozet": "Denizaltı kabloları, gümrük tarifeleri, Süveyş Kanalı serbest kullanımı, Evrensel Posta Birliği ve telgraf sözleşmeleri gibi sekiz çok taraflı ekonomik-teknik anlaşma Türkiye bakımından yeniden yürürlüğe girer.",
-   "yer": [],
+   "yer": [
+    "Süveyş Kanalı"
+   ],
    "konu": "ekonomik"
   },
   {
