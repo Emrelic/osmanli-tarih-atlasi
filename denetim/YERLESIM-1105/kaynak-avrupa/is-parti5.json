@@ -1,0 +1,1082 @@
+[
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 512,
+  "ad": "Ravenna",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.418,
+  "lon": 12.203
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 513,
+  "ad": "Rimini",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.06,
+  "lon": 12.565
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 514,
+  "ad": "Ancona",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1532-01-01",
+    "t": "1808-04-02",
+    "devlet": "papalik"
+   },
+   {
+    "alan": "s",
+    "f": "1814-04-16",
+    "t": "1860-09-29",
+    "devlet": "papalik"
+   }
+  ],
+  "lat": 43.617,
+  "lon": 13.517
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 517,
+  "ad": "Siena",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1555-04-17",
+    "devlet": "siena"
+   },
+   {
+    "alan": "s",
+    "f": "1555-04-17",
+    "t": "1557-07-03",
+    "devlet": "ispanya"
+   },
+   {
+    "alan": "s",
+    "f": "1557-07-03",
+    "t": "1807-12-10",
+    "devlet": "toskana"
+   }
+  ],
+  "lat": 43.319,
+  "lon": 11.331
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 523,
+  "ad": "Pisa",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "0774-01-01",
+    "t": "0812-01-01",
+    "devlet": "karolenj-italya"
+   },
+   {
+    "alan": "s",
+    "f": "0812-01-01",
+    "t": "1000-01-01",
+    "devlet": "toskana-markizligi"
+   },
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1406-10-09",
+    "devlet": "piza"
+   },
+   {
+    "alan": "s",
+    "f": "1406-10-09",
+    "t": "1532-05-01",
+    "devlet": "floransa"
+   },
+   {
+    "alan": "s",
+    "f": "1532-05-01",
+    "t": "1807-12-10",
+    "devlet": "toskana"
+   }
+  ],
+  "lat": 43.716,
+  "lon": 10.397
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 527,
+  "ad": "Lucca",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "0774-01-01",
+    "t": "0812-01-01",
+    "devlet": "karolenj-italya"
+   },
+   {
+    "alan": "s",
+    "f": "0812-01-01",
+    "t": "1000-01-01",
+    "devlet": "toskana-markizligi"
+   }
+  ],
+  "lat": 43.843,
+  "lon": 10.505
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 530,
+  "ad": "L'Aquila",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "devlet": "napoli"
+   }
+  ],
+  "lat": 42.35,
+  "lon": 13.399
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 531,
+  "ad": "Bari",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "devlet": "napoli"
+   }
+  ],
+  "lat": 41.117,
+  "lon": 16.871
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 532,
+  "ad": "Foggia",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "devlet": "napoli"
+   }
+  ],
+  "lat": 41.462,
+  "lon": 15.544
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 533,
+  "ad": "Cosenza",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "1059-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "devlet": "napoli"
+   }
+  ],
+  "lat": 39.298,
+  "lon": 16.253
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 534,
+  "ad": "Reggio Calabria",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "1059-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1861-02-13",
+    "devlet": "napoli"
+   }
+  ],
+  "lat": 38.111,
+  "lon": 15.647
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 542,
+  "ad": "Terneuzen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "devlet": "burgonya"
+   }
+  ],
+  "lat": 51.336,
+  "lon": 3.828
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 550,
+  "ad": "Hulst",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "devlet": "burgonya"
+   }
+  ],
+  "lat": 51.28,
+  "lon": 4.053
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 569,
+  "ad": "Enschede",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1597-01-01",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 52.221,
+  "lon": 6.894
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 573,
+  "ad": "Clervaux",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1516-01-23",
+    "t": "1684-06-07",
+    "devlet": "ispanya"
+   }
+  ],
+  "lat": 50.055,
+  "lon": 6.031
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 62,
+  "ad": "Ålesund",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 62.47,
+  "lon": 6.4
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 64,
+  "ad": "Molde",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 62.737,
+  "lon": 7.159
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 66,
+  "ad": "Kristiansund",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 63,
+  "lon": 8.2
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 68,
+  "ad": "Røros",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 62.575,
+  "lon": 11.385
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 70,
+  "ad": "Sogndal",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 61.23,
+  "lon": 7.1
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 72,
+  "ad": "Lillehammer",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 61.115,
+  "lon": 10.466
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 74,
+  "ad": "Hamar",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 60.795,
+  "lon": 11.068
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 76,
+  "ad": "Skien",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 59.209,
+  "lon": 9.609
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 78,
+  "ad": "Haugesund",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   },
+   {
+    "alan": "s",
+    "f": "1537-01-01",
+    "t": "1814-01-14",
+    "devlet": "danimarka"
+   }
+  ],
+  "lat": 59.413,
+  "lon": 5.268
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 96,
+  "ad": "Kristianstad",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1658-03-08",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1658-03-08",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 56.031,
+  "lon": 14.152
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 98,
+  "ad": "Karlskrona",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1658-03-08",
+    "devlet": "danimarka"
+   },
+   {
+    "alan": "s",
+    "f": "1658-03-08",
+    "t": "2000-12-31",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 56.25,
+  "lon": 15.6
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 101,
+  "ad": "Östersund (Jämtland)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1537-01-01",
+    "devlet": "norvec-kralligi"
+   }
+  ],
+  "lat": 63.25,
+  "lon": 14.9
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 138,
+  "ad": "Cēsis (Wenden)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1918-11-18",
+    "devlet": "sovyet-rusya"
+   },
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 57.312,
+  "lon": 25.274
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 143,
+  "ad": "Daugavpils (Dünaburg)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1918-11-18",
+    "devlet": "sovyet-rusya"
+   },
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 55.875,
+  "lon": 26.536
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 147,
+  "ad": "Kaunas",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-24",
+    "t": "1915-08-18",
+    "devlet": "rusya"
+   },
+   {
+    "alan": "s",
+    "f": "1940-08-06",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 54.897,
+  "lon": 23.886
+ },
+ {
+  "dosya": "yerlesimler_ek7.js",
+  "satir": 149,
+  "ad": "Šiauliai",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1918-02-16",
+    "devlet": "sovyet-rusya"
+   },
+   {
+    "alan": "s",
+    "f": "1940-08-06",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 55.934,
+  "lon": 23.315
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 29,
+  "ad": "Petseri (Peçori)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1348-01-01",
+    "devlet": "novgorod"
+   },
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1920-02-02",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 57.815,
+  "lon": 27.609
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 32,
+  "ad": "Abrene (Pıtalovo)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1348-01-01",
+    "devlet": "novgorod"
+   }
+  ],
+  "lat": 57.067,
+  "lon": 27.917
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 36,
+  "ad": "Porkhov",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1478-01-15",
+    "devlet": "novgorod"
+   },
+   {
+    "alan": "s",
+    "f": "1478-01-15",
+    "t": "1547-01-16",
+    "devlet": "moskova"
+   }
+  ],
+  "lat": 57.767,
+  "lon": 29.557
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 40,
+  "ad": "Şelon havzası (Soltsı)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1478-01-15",
+    "devlet": "novgorod"
+   },
+   {
+    "alan": "s",
+    "f": "1478-01-15",
+    "t": "1547-01-16",
+    "devlet": "moskova"
+   }
+  ],
+  "lat": 58.12,
+  "lon": 30.32
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 43,
+  "ad": "Rēzekne (Rositten)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1918-11-18",
+    "devlet": "sovyet-rusya"
+   },
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 56.51,
+  "lon": 27.333
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 67,
+  "ad": "České Budějovice (Budweis)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1526-10-23",
+    "t": "1918-11-11",
+    "devlet": "avusturya"
+   },
+   {
+    "alan": "s",
+    "f": "1918-11-11",
+    "t": "1939-03-16",
+    "devlet": "cekoslovakya"
+   }
+  ],
+  "lat": 48.975,
+  "lon": 14.474
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 70,
+  "ad": "Třeboň (Wittingau)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1526-10-23",
+    "t": "1918-11-11",
+    "devlet": "avusturya"
+   },
+   {
+    "alan": "s",
+    "f": "1918-11-11",
+    "t": "1939-03-16",
+    "devlet": "cekoslovakya"
+   }
+  ],
+  "lat": 49.004,
+  "lon": 14.771
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 79,
+  "ad": "Kesriye (Kastoria)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1374-01-01",
+    "t": "1385-01-01",
+    "devlet": "__BOSLUK__"
+   }
+  ],
+  "lat": 40.519,
+  "lon": 21.269
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 89,
+  "ad": "Bregenz",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1805-12-26",
+    "t": "1814-06-03",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1814-06-03",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   }
+  ],
+  "lat": 47.503,
+  "lon": 9.747
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 92,
+  "ad": "Feldkirch",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1805-12-26",
+    "t": "1814-06-03",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1814-06-03",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   }
+  ],
+  "lat": 47.238,
+  "lon": 9.598
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 102,
+  "ad": "Landeck",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1805-12-26",
+    "t": "1814-06-03",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1814-06-03",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   }
+  ],
+  "lat": 47.14,
+  "lon": 10.567
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 105,
+  "ad": "Innsbruck",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1805-12-26",
+    "t": "1814-06-03",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1814-06-03",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   }
+  ],
+  "lat": 47.269,
+  "lon": 11.393
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 108,
+  "ad": "Lienz",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1805-12-26",
+    "t": "1814-06-03",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1814-06-03",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   }
+  ],
+  "lat": 46.829,
+  "lon": 12.769
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 122,
+  "ad": "Bourg-Saint-Maurice",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-06-14",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 45.619,
+  "lon": 6.769
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 125,
+  "ad": "Sion (Sitten)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1417-01-01",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1417-01-01",
+    "t": "2000-12-31",
+    "devlet": "isvicre"
+   }
+  ],
+  "lat": 46.233,
+  "lon": 7.361
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 128,
+  "ad": "Martigny (Martinach)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1475-01-01",
+    "devlet": "savoya"
+   },
+   {
+    "alan": "s",
+    "f": "1475-01-01",
+    "t": "2000-12-31",
+    "devlet": "isvicre"
+   }
+  ],
+  "lat": 46.103,
+  "lon": 7.073
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 133,
+  "ad": "Thonon",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-06-14",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 46.371,
+  "lon": 6.48
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 136,
+  "ad": "Annemasse",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-06-14",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 46.193,
+  "lon": 6.234
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 163,
+  "ad": "Jelgava (Mitau)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 56.6511,
+  "lon": 23.7214
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 164,
+  "ad": "Liepāja (Libau)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 56.5047,
+  "lon": 21.0108
+ },
+ {
+  "dosya": "yerlesimler_a78_avrupa.js",
+  "satir": 165,
+  "ad": "Ventspils (Windau)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1940-08-05",
+    "t": "1941-07-28",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 57.3894,
+  "lon": 21.5606
+ }
+]

@@ -1,0 +1,1088 @@
+[
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 395,
+  "ad": "Arnhem",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1581-07-26",
+    "t": "1795-01-19",
+    "devlet": "hollanda"
+   },
+   {
+    "alan": "s",
+    "f": "1813-11-30",
+    "t": "2000-12-31",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 51.985,
+  "lon": 5.899
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 399,
+  "ad": "Maastricht",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1516-01-23",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1632-08-22",
+    "t": "1673-07-01",
+    "devlet": "hollanda"
+   }
+  ],
+  "lat": 50.851,
+  "lon": 5.691
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 405,
+  "ad": "Brüj (Brugge)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "devlet": "burgonya"
+   },
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 51.209,
+  "lon": 3.225
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 406,
+  "ad": "Gent",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "devlet": "burgonya"
+   },
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 51.054,
+  "lon": 3.717
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 407,
+  "ad": "Ypres",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1384-01-30",
+    "t": "1482-03-27",
+    "devlet": "burgonya"
+   },
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.851,
+  "lon": 2.886
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 408,
+  "ad": "Anvers (Antwerpen)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 51.22,
+  "lon": 4.4
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 409,
+  "ad": "Brüksel",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.847,
+  "lon": 4.352
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 410,
+  "ad": "Namur",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1421-03-01",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.467,
+  "lon": 4.867
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 411,
+  "ad": "Mons",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.454,
+  "lon": 3.952
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 413,
+  "ad": "Tournai",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1521-11-30",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.607,
+  "lon": 3.389
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 415,
+  "ad": "Liège",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.633,
+  "lon": 5.567
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 416,
+  "ad": "Hasselt",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.931,
+  "lon": 5.333
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 417,
+  "ad": "Sint-Truiden",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.817,
+  "lon": 5.187
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 418,
+  "ad": "Huy",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.519,
+  "lon": 5.241
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 419,
+  "ad": "Dinant",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1795-10-01",
+    "t": "1814-02-02",
+    "devlet": "fransa-cumhuriyet"
+   },
+   {
+    "alan": "s",
+    "f": "1830-10-04",
+    "t": "2000-12-31",
+    "devlet": "belcika"
+   }
+  ],
+  "lat": 50.261,
+  "lon": 4.912
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 434,
+  "ad": "Stettin (Szczecin)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1648-10-24",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 53.428,
+  "lon": 14.553
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 435,
+  "ad": "Stralsund",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1648-10-24",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1648-10-24",
+    "t": "1815-06-09",
+    "devlet": "isvec"
+   }
+  ],
+  "lat": 54.309,
+  "lon": 13.082
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 436,
+  "ad": "Hannover",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 52.375,
+  "lon": 9.732
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 437,
+  "ad": "Münster",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 51.961,
+  "lon": 7.626
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 438,
+  "ad": "Dortmund",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 51.514,
+  "lon": 7.466
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 439,
+  "ad": "Aachen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 50.776,
+  "lon": 6.084
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 441,
+  "ad": "Koblenz",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 50.36,
+  "lon": 7.589
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 442,
+  "ad": "Düsseldorf",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 51.227,
+  "lon": 6.774
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 444,
+  "ad": "Trier",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 49.75,
+  "lon": 6.637
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 447,
+  "ad": "Magdeburg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 52.131,
+  "lon": 11.64
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 449,
+  "ad": "Erfurt",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 50.978,
+  "lon": 11.029
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 456,
+  "ad": "Freiburg",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1368-01-01",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 47.999,
+  "lon": 7.842
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 457,
+  "ad": "Konstanz",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1548-01-01",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 47.66,
+  "lon": 9.175
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 460,
+  "ad": "Luzern",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1332-11-07",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 47.05,
+  "lon": 8.31
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 461,
+  "ad": "Zürih",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1351-05-01",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 47.377,
+  "lon": 8.541
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 462,
+  "ad": "Bern",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1353-03-06",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 46.948,
+  "lon": 7.447
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 463,
+  "ad": "Basel",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1501-07-13",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 47.559,
+  "lon": 7.588
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 465,
+  "ad": "Cenevre",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1536-05-21",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 46.204,
+  "lon": 6.143
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 467,
+  "ad": "Lozan",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1536-01-01",
+    "devlet": "savoya"
+   }
+  ],
+  "lat": 46.52,
+  "lon": 6.632
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 472,
+  "ad": "Verona",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "1405-06-22",
+    "t": "1797-05-12",
+    "devlet": "venedik"
+   }
+  ],
+  "lat": 45.438,
+  "lon": 10.992
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 473,
+  "ad": "Padova",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   }
+  ],
+  "lat": 45.407,
+  "lon": 11.876
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 474,
+  "ad": "Brescia",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "1426-01-01",
+    "t": "1797-05-12",
+    "devlet": "venedik"
+   },
+   {
+    "alan": "s",
+    "f": "1859-06-04",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 45.539,
+  "lon": 10.221
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 475,
+  "ad": "Bergamo",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "1428-01-01",
+    "t": "1797-05-12",
+    "devlet": "venedik"
+   },
+   {
+    "alan": "s",
+    "f": "1859-06-04",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 45.698,
+  "lon": 9.677
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 481,
+  "ad": "Sondrio",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1859-06-04",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 46.17,
+  "lon": 9.872
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 482,
+  "ad": "Chiavenna",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1395-05-11",
+    "t": "1512-06-24",
+    "devlet": "milano-dukaligi"
+   },
+   {
+    "alan": "s",
+    "f": "1859-06-04",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 46.32,
+  "lon": 9.401
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 483,
+  "ad": "Bormio",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1395-05-11",
+    "t": "1512-06-24",
+    "devlet": "milano-dukaligi"
+   },
+   {
+    "alan": "s",
+    "f": "1859-06-04",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 46.467,
+  "lon": 10.371
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 485,
+  "ad": "Udine",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1420-06-07",
+    "devlet": "almanya"
+   },
+   {
+    "alan": "s",
+    "f": "1420-06-07",
+    "t": "1797-05-12",
+    "devlet": "venedik"
+   }
+  ],
+  "lat": 46.065,
+  "lon": 13.235
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 493,
+  "ad": "Villach",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1813-01-01",
+    "t": "1918-11-12",
+    "devlet": "avusturya"
+   },
+   {
+    "alan": "s",
+    "f": "1945-04-27",
+    "t": "2000-12-31",
+    "devlet": "avusturya-ikinci-cumhuriyet"
+   }
+  ],
+  "lat": 46.611,
+  "lon": 13.856
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 496,
+  "ad": "Trieste",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1382-09-30",
+    "devlet": "almanya"
+   }
+  ],
+  "lat": 45.65,
+  "lon": 13.77
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 500,
+  "ad": "Mantova",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1708-01-01",
+    "devlet": "mantua"
+   }
+  ],
+  "lat": 45.156,
+  "lon": 10.791
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 502,
+  "ad": "Parma",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "1395-05-11",
+    "t": "1512-06-24",
+    "devlet": "milano-dukaligi"
+   },
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.801,
+  "lon": 10.328
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 504,
+  "ad": "Piacenza",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   }
+  ],
+  "lat": 45.052,
+  "lon": 9.693
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 506,
+  "ad": "Ferrara",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1598-01-29",
+    "devlet": "ferrara"
+   },
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.836,
+  "lon": 11.619
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 507,
+  "ad": "Modena",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "devlet": "odoakar"
+   },
+   {
+    "alan": "s",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "devlet": "dogu-got"
+   },
+   {
+    "alan": "s",
+    "f": "0553-01-01",
+    "t": "0568-01-01",
+    "devlet": "bizans"
+   },
+   {
+    "alan": "s",
+    "f": "0568-01-01",
+    "t": "0774-01-01",
+    "devlet": "langobard"
+   },
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1598-01-29",
+    "devlet": "ferrara"
+   },
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.647,
+  "lon": 10.925
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 510,
+  "ad": "Bolonya",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1860-03-18",
+    "t": "1861-03-17",
+    "devlet": "sardinya-piyemonte"
+   }
+  ],
+  "lat": 44.494,
+  "lon": 11.343
+ }
+]

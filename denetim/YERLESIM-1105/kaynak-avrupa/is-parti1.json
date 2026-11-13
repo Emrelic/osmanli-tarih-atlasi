@@ -1,0 +1,920 @@
+[
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 86,
+  "ad": "Tedmür (Palmyra)",
+  "donemler": [
+   {
+    "alan": "v",
+    "f": "1832-06-15",
+    "t": "1841-02-25",
+    "devlet": ""
+   }
+  ],
+  "lat": 34.55,
+  "lon": 38.27
+ },
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 100,
+  "ad": "Dûmetülcendel (Cevf)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1921-11-02",
+    "t": "1932-09-18",
+    "devlet": "suud-ucuncu"
+   }
+  ],
+  "lat": 29.812,
+  "lon": 39.868
+ },
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 117,
+  "ad": "Teymâ",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1921-11-02",
+    "t": "1932-09-18",
+    "devlet": "suud-ucuncu"
+   }
+  ],
+  "lat": 27.632,
+  "lon": 38.545
+ },
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 159,
+  "ad": "Rın kumulları (Volga-Yayık arası)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1917-11-07",
+    "t": "1991-12-16",
+    "devlet": "sovyet-rusya"
+   }
+  ],
+  "lat": 49,
+  "lon": 47.5
+ },
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 197,
+  "ad": "İskeçe",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1373-01-01",
+    "devlet": "bizans"
+   }
+  ],
+  "lat": 41.14,
+  "lon": 24.89
+ },
+ {
+  "dosya": "yerlesimler_seyrek.js",
+  "satir": 316,
+  "ad": "Karabiga",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1410-05-06",
+    "t": "1413-07-05",
+    "devlet": "mehmed-celebi"
+   }
+  ],
+  "lat": 40.41,
+  "lon": 27.3
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 70,
+  "ad": "York",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 53.959,
+  "lon": -1.081
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 71,
+  "ad": "Norwich",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.628,
+  "lon": 1.297
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 72,
+  "ad": "Bristol",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 51.454,
+  "lon": -2.588
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 73,
+  "ad": "Exeter",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 50.718,
+  "lon": -3.534
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 74,
+  "ad": "Plymouth",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 50.376,
+  "lon": -4.143
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 75,
+  "ad": "Southampton",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 50.91,
+  "lon": -1.404
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 76,
+  "ad": "Dover",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 51.128,
+  "lon": 1.313
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 77,
+  "ad": "Newcastle",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 54.978,
+  "lon": -1.617
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 78,
+  "ad": "Carlisle",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 54.893,
+  "lon": -2.933
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 79,
+  "ad": "Lincoln",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 53.234,
+  "lon": -0.539
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 80,
+  "ad": "Nottingham",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.951,
+  "lon": -1.15
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 81,
+  "ad": "Oxford",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 51.752,
+  "lon": -1.258
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 82,
+  "ad": "Cambridge",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.205,
+  "lon": 0.119
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 83,
+  "ad": "Manchester",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 53.483,
+  "lon": -2.244
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 84,
+  "ad": "Liverpool",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 53.408,
+  "lon": -2.992
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 85,
+  "ad": "Birmingham",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.48,
+  "lon": -1.903
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 86,
+  "ad": "Hull",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 53.745,
+  "lon": -0.336
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 87,
+  "ad": "Shrewsbury",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.708,
+  "lon": -2.754
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 89,
+  "ad": "Penzance",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 50.119,
+  "lon": -5.537
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 92,
+  "ad": "Cardiff",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 51.482,
+  "lon": -3.179
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 97,
+  "ad": "Aberystwyth",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1404-01-01",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1404-01-01",
+    "t": "1408-01-01",
+    "devlet": "glyndwr-galler"
+   },
+   {
+    "alan": "s",
+    "f": "1408-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.4153,
+  "lon": -4.0829
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 102,
+  "ad": "Harlech",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1283-01-01",
+    "t": "1404-01-01",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1404-01-01",
+    "t": "1409-01-01",
+    "devlet": "glyndwr-galler"
+   },
+   {
+    "alan": "s",
+    "f": "1409-01-01",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 52.8606,
+  "lon": -4.1089
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 122,
+  "ad": "Glasgow",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1652-02-14",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1660-06-08",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 55.861,
+  "lon": -4.25
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 123,
+  "ad": "Aberdeen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1652-02-14",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1660-06-08",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 57.15,
+  "lon": -2.094
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 124,
+  "ad": "Inverness",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1652-02-14",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1660-06-08",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 57.478,
+  "lon": -4.225
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 125,
+  "ad": "Perth (İskoçya)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1652-02-14",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1660-06-08",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 56.396,
+  "lon": -3.437
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 126,
+  "ad": "Dumfries",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1652-02-14",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1660-06-08",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 55.07,
+  "lon": -3.603
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 127,
+  "ad": "Wick",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 58.439,
+  "lon": -3.093
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 129,
+  "ad": "Stornoway",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 58.2111,
+  "lon": -6.387
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 131,
+  "ad": "Kirkwall (Orkney)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1472-02-20",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 58.981,
+  "lon": -2.96
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 132,
+  "ad": "Lerwick (Shetland)",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1472-02-20",
+    "t": "1707-05-12",
+    "devlet": "iskocya"
+   },
+   {
+    "alan": "s",
+    "f": "1707-05-12",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 60.153,
+  "lon": -1.145
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 158,
+  "ad": "Sligo",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   }
+  ],
+  "lat": 54.27,
+  "lon": -8.472
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 159,
+  "ad": "Athlone",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   }
+  ],
+  "lat": 53.424,
+  "lon": -7.941
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 160,
+  "ad": "Donegal",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   }
+  ],
+  "lat": 54.654,
+  "lon": -8.11
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 161,
+  "ad": "Tralee",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   }
+  ],
+  "lat": 52.271,
+  "lon": -9.7
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 163,
+  "ad": "Belfast",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   },
+   {
+    "alan": "s",
+    "f": "1603-03-30",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 54.597,
+  "lon": -5.93
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 164,
+  "ad": "Derry",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1603-03-30",
+    "devlet": "irlanda"
+   },
+   {
+    "alan": "s",
+    "f": "1603-03-30",
+    "t": "2000-12-31",
+    "devlet": "ingiltere"
+   }
+  ],
+  "lat": 54.997,
+  "lon": -7.309
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 168,
+  "ad": "Rennes",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.114,
+  "lon": -1.68
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 169,
+  "ad": "Nantes",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.218,
+  "lon": -1.554
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 170,
+  "ad": "Brest",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.39,
+  "lon": -4.486
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 171,
+  "ad": "Quimper",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.996,
+  "lon": -4.102
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 172,
+  "ad": "Vannes",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 47.658,
+  "lon": -2.76
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 173,
+  "ad": "Saint-Malo",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1532-08-13",
+    "devlet": "bretanya"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 48.6479,
+  "lon": -2.0242
+ },
+ {
+  "dosya": "yerlesimler_avrupa.js",
+  "satir": 176,
+  "ad": "Rouen",
+  "donemler": [
+   {
+    "alan": "s",
+    "f": "1281-01-01",
+    "t": "1419-01-19",
+    "devlet": "fransa"
+   },
+   {
+    "alan": "s",
+    "f": "1419-01-19",
+    "t": "1449-10-29",
+    "devlet": "ingiltere"
+   },
+   {
+    "alan": "s",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "devlet": "fransa-cumhuriyet"
+   }
+  ],
+  "lat": 49.443,
+  "lon": 1.099
+ }
+]
