@@ -3137,7 +3137,8 @@ window.DEVLETLER = [
 { id:"valo", ad:"Valo (Waalo) Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1287-01-01", t:"1855-02-25", baskent:"Nder",
   ozet:"Senegal nehri ağzındaki Volof krallığı; Brak unvanlı hükümdarları kuzeyde Trarza emirliğiyle sürekli çatışma hâlindeydi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Senegal nehri ağzı; başkenti Nder. Fransız ilhakı 1855. TDV senegal maddesi Valo'yu adıyla anmıyor — TANECİK boşluğu (§4).",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 24 (States and peoples of Senegambia and Upper Guinea, Y. Person): 'Governor Faidherbe's first act was the complete annexation of Waalo in three military campaigns from January to June 1855'; UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 10 (Senegambia from the sixteenth to the eighteenth century, B. Barry): Amari Ngoone'nin Danki zaferinden sonra Waalo'nun Jolof'tan bağımsızlığını ilanı",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1855-02-25 ile yıl uyumlu; GHA Ocak-Haziran 1855 seferlerinin toplamından söz eder, 25 Şubat günü verilmez. Atlas f=1287; GHA Waalo'nun Jolof'tan kopuşunu 16. yy Senegambia dağılması bağlamında verir, 1287 desteklenmez. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Nder"], t:"1287-01-01", tur:"kurulus", b:"Volof krallığı olarak teşkilatlandı" },
     { odak_yer:["Nder"], t:"1855-02-25", tur:"son", b:"Fransa tarafından ilhak edildi" }
@@ -3233,7 +3234,8 @@ window.DEVLETLER = [
 { id:"solima-yalunka", ad:"Solima Yalunka Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1720-01-01", t:"1884-01-01", baskent:"Falaba",
   ozet:"Futa Callon'un güneydoğusunda Yalunka halkının kurduğu, Fûlânî imamlığına direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Yukarı Nijer; merkezi Falaba.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 10 (Senegambia from the sixteenth to the eighteenth century, B. Barry; Futa Jallon bölümü): 'Jallonke kingdom of Solimana' 1762'de Konde Burama karşısında anılır; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 24 (Y. Person): 'Solimana was organized around the fortress of Falaba and closed the route to the south for the Fulbe'; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A. A. Boahen, UNESCO/Heinemann 1985), ch. 6 (Gueye & Boahen): Samori 'After having occupied Falaba in 1884'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1720; GHA Solimana'yı 1762'de var, 19. yy başında Falaba çevresinde örgütlenmiş olarak anar, 1720 yazmaz. Atlas t=1884; Samori'nin 1884'te Falaba'yı işgali yıl düzeyinde uyumlu. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Falaba"], t:"1720-01-01", tur:"kurulus", b:"Solima krallığı teşekkül etti" },
     { odak_yer:["Falaba"], t:"1884-01-01", tur:"son", b:"Samori kuvvetlerince yıkıldı" }
@@ -3256,7 +3258,8 @@ window.DEVLETLER = [
 { id:"kenedugu", ad:"Kenedugu Krallığı (Sikasso)", tur:"krallik", bolge:"bati-afrika",
   f:"1650-01-01", t:"1898-05-01", baskent:"Sikasso",
   ozet:"Senufo ülkesinde kurulan, Tieba ve Babemba dönemlerinde surlarıyla ünlenen krallık; hem Samori'ye hem Fransa'ya direndi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Senufo krallığı; Tieba ve Babemba dönemi; Fransız fethi 1898.",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 25 (States and peoples of the Niger Bend and the Volta, K. Arhin & J. Ki-Zerbo): Traoré/Senufo grubu 'organized in the eighteenth century around Sikasso', Laula 1850-60, Kral Tieba 1875'ten, Samori kuşatması ve 1890 Sinematiali yenilgisi; UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 12 (From the Niger to the Volta, M. Izard & J. Ki-Zerbo): Senufo krallıkları 'about the nineteenth century', Traore hanedanı Kenedugu (Sikasso)",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1650; GHA VI sülâlenin 18. yy'da Sikasso çevresinde örgütlendiğini, 1850-60'ta Laula ile güç kazandığını, V ise Senufo krallıklarının ~19. yy'da kurulduğunu söyler: 1650 GHA'da desteklenmez. t=1898-05-01 için GHA'da Kenedugu'nun sonu okunmadı (Tieba 1887'de Samori'ye karşı Sikasso Faama'sı olarak geçer, cilt VII ch. 6). [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Sikasso"], t:"1650-01-01", tur:"kurulus", b:"Traore hânedanı krallığı kurdu" },
     { odak_yer:["Sikasso"], t:"1887-01-01", tur:"savas", b:"Kral Tiéba Traoré, Samori Ture'nin on beş ay süren Sikasso kuşatmasını üç sıra surlu kale sayesinde püskürttü", kaynak:"Journal of African History (hakemli) ve Britannica ('Sikasso') — «During Samory's unsuccessful siege—lasting fifteen months from March 1887 to June 1888—Sikasso had three concentric enclosures. The Fàama (king) of Sikasso, Tiéba Traoré, was able to repel Samori»; TDV `samori-ture` kuşatmanın 1887'de başladığını doğruluyor." },
@@ -3309,7 +3312,8 @@ window.DEVLETLER = [
 { id:"liptako", ad:"Liptako Emirliği (Dori)", tur:"emirlik", bolge:"bati-afrika",
   f:"1810-01-01", t:"1897-01-01", baskent:"Dori",
   ozet:"Sokoto cihadının Gurma kuzeyinde doğurduğu Fûlânî emirliği. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sokoto cihadının Gurma kuzeyindeki Fûlânî emirliği.",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.23 'Massina and the Torodbe (Tukuloor) empire until 1878' (M. Ly-Tall), yak. s.600: 'in Sokoto and Liptako, the traditional chieftaincies had just been overthrown, between 1804 and 1810'; ch.25 'States and peoples of the Niger Bend and the Volta' (K. Arhin & J. Ki-Zerbo), yak. s.680-682: Liptako Fulbe emirliği, Dori.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1810-01-01; kaynak 1804-1810 aralığı (geleneksel yönetimin devrilmesi; atlasın yılı aralığın son ucu). Atlas t=1897 için GHA'da destekleyen yıl bulunamadı. [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Dori"], t:"1810-01-01", tur:"kurulus", b:"Brahima Saidu emirliği kurdu" },
     { odak_yer:["Sokoto"], t:"1810-01-01", tur:"vassal", b:"Kurulan Liptako emirliği, Sokoto Halifeliği'nin batı kanadı Gwandu Emirliği'ne tâbi oldu", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Liptako', 'Gwandu Emirate') doğrulandı. AYNI YIL kurulus'la (Brahima Saidu'nun emirliği kurması) — iki ayrı olgu (kuruluş + tâbiiyet) aynı yılda gerçekleşmiş görünüyor." },
@@ -3332,7 +3336,8 @@ window.DEVLETLER = [
 { id:"kong-vattara", ad:"Kong Devleti (Vattara)", tur:"devlet", bolge:"bati-afrika",
   f:"1710-01-01", t:"1897-05-01", baskent:"Kong",
   ozet:"Seku Vattara'nın kurduğu, Dyula tüccarlarının kervan ağına dayanan ticaret devleti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Seku Vattara'nın Dyula ticaret devleti; Samori 1897'de yıktı.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.12 'From the Niger to the Volta' (M. Izard & J. Ki-Zerbo), yak. s.357: Kong 18. yy başında Mande-Juula Wattara'larca kuruldu/örgütlendi, Sekou Wattara 'eliminated the other Juula groups at the beginning of the eighteenth century', ölümü 1740; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A.A. Boahen, 1985), ch.6 'African initiatives and resistance in West Africa, 1880-1914' (M. Gueye & A.A. Boahen), yak. s.124: Samori 'destroyed Kong in May 1897'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1710-01-01; kaynak 'beginning of the eighteenth century' (kesin yıl yok; V ch.11 Abitbol 1739-45 Kong saldırısı, Sekou Wattara ölümü 1740/haber 1745). Atlas t=1897-05-01; kaynak 'May 1897' (ay uyuşuyor, gün yok). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Kong"], t:"1710-01-01", tur:"kurulus", b:"Seku Vattara Kong devletini kurdu" },
     { odak_yer:["Cenne"], t:"1739-01-01", tur:"savas", b:"Yerel kronike göre Seku Umar Watara'nın kuvvetleri Cenne (Jenne) hinterlandına ulaştı (Kasım 1739).", kaynak:"African History Extra, The Empire of Kong, c.1710-1915, https://www.africanhistoryextra.com/p/the-empire-of-kong-ca-1710-1915-a (yerel kronike atfen)" },
@@ -3347,7 +3352,8 @@ window.DEVLETLER = [
 { id:"gyaaman", ad:"Gyaaman Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1690-01-01", t:"1895-01-01", baskent:"Bondugu",
   ozet:"Kuzeydoğu Akan krallığı; Aşanti ile Kong arasında sürekli denge arayan bir tampon devletti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Akan krallığı; merkezi Bondugu.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 14 (The states and cultures of the Lower Guinean coast, A. A. Boahen): 'Aduana state of Gyaaman or Abron' kuzeye göçen Denkyira-Adansi göçmenlerince kuruldu; 'in the early 1700s, the state of Bron conquered the Kulango... Nafana... as far west as the Comoe'; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A. A. Boahen, UNESCO/Heinemann 1985), ch. 6 (M. Gueye & A. A. Boahen): Samori 'between July 1895 and January 1896... conquer the Abron (Gyaman) kingdom'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1690; GHA Bron/Gyaaman devletinin yükselişini 'erken 1700'ler' olarak verir (kuruluş yılı değil), 1690 tam doğrulanmaz. Atlas t=1895; GHA Samori fethi Temmuz 1895-Ocak 1896: yıl uyumlu, kesin gün yok. Asante'nin Gyaman'ı 1818'de yenmesi de geçer (cilt VI ch. 25). [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Bondugu"], t:"1690-01-01", tur:"kurulus", b:"Abron hânedanı krallığı kurdu" },
     { odak_yer:["Bondugu"], t:"1818-01-01", tur:"savas", b:"Aşanti orduları Asantehene Osei Bonsu önderliğinde Gyaman'ın Abron hânedanına karşı savaşa girişti", kaynak:"Encyclopaedia Britannica, 'Asante empire' ve 'Osei Bonsu' — «the Asante engaged in war against the Abron of Gyaman (today in the eastern Côte d'Ivoire) in 1818–19 under Asantehene Osei Bonsu»." },
@@ -3359,7 +3365,8 @@ window.DEVLETLER = [
 { id:"buna", ad:"Buna Krallığı (Kulango)", tur:"krallik", bolge:"bati-afrika",
   f:"1690-01-01", t:"1897-01-01", baskent:"Buna",
   ozet:"Kulango halkının Kara Volta doğusunda kurduğu, altın ve kola ticaretiyle yaşayan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kulango-Dyula devleti.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.12 'From the Niger to the Volta' (M. Izard & J. Ki-Zerbo), yak. s.356: Dagomba'nın modeliyle 'Kulango kingdom of Buna'; Lobi altını için Bron ile 17.-18. yy çatışmaları; Kulango ~1730 genişlemesi.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1690, t=1897; kaynak yıl vermez, yalnız 17.-18. yy'da var olduğunu gösterir. [yalnız yüzyıl düzeyi; yıl ve gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Buna"], t:"1690-01-01", tur:"kurulus", b:"Buna krallığı kuruldu" },
     { odak_yer:["Buna"], t:"1895-01-01", tur:"savas", b:"Samori Ture kuvvetleri doğuya çekilirken Buna'yı yakıp yıktı", kaynak:"standart akademik/ansiklopedik (Samory Touré'nin doğu kampanyası, 1895-96) — TDV kapsam dışı, gün DOĞRULANMADI" },
@@ -3369,7 +3376,8 @@ window.DEVLETLER = [
 { id:"gonja", ad:"Gonja Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1550-01-01", t:"1899-01-01", baskent:"Salaga",
   ozet:"Kuzey Volta'da Mande kökenli hânedanın kurduğu krallık; Salaga pazarı Batı Afrika'nın en büyük kola merkezlerindendi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Volta kuzeyi; Salaga pazarı ve Bole bölümü.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 12 (From the Niger to the Volta, M. Izard & J. Ki-Zerbo): 'in the second half of the sixteenth century a Mande chief (Naaba) established the kingdom of Gonja'; Lata-Jakpa (1622/3-1666/7) Dagomba'ya karşı; 1713 Tunuma bozgunu; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A. A. Boahen, UNESCO/Heinemann 1985), ch. 6 (African initiatives and resistance in West Africa, 1880-1914, M. Gueye & A. A. Boahen): Samori'nin Temmuz 1895-Ocak 1896'da Gonja'nın batı kısmını fethi",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1550; GHA '16. yy'ın ikinci yarısı' der (tam yıl verilmez, 1550 civarı ile kısmen örtüşür). Atlas t=1899; GHA'da Gonja'nın sonu için 1899 okunmadı, yalnız batı Gonja'nın Samori tarafından 1895-96'da fethi geçer. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Salaga"], t:"1550-01-01", tur:"kurulus", b:"Ndewura Jakpa krallığı kurdu" },
     { odak_yer:["Salaga"], t:"1744-01-01", tur:"toprak-kayip", b:"Aşanti Krallığı, Opoku Ware döneminde Gonja'yı istila edip yıllık haraca bağladı", kaynak:"standart akademik/ansiklopedik (Ashanti invasion of Gonja, ~1732-1744) — TDV kapsam dışı, gün DOĞRULANMADI" },
@@ -3421,7 +3429,8 @@ window.DEVLETLER = [
 { id:"ibadan", ad:"İbadan Devleti", tur:"devlet", bolge:"bati-afrika",
   f:"1829-01-01", t:"1893-08-15", baskent:"İbadan",
   ozet:"Oyo'nun çöküşünden sonra savaş reislerince kurulan, Yoruba içi savaşlara yön veren askerî şehir devleti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Oyo çöküşünden sonra doğan Yoruba askerî devleti; İngiliz himayesi 1893.",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.26 'Dahomey, Yorubaland, Borgu and Benin in the nineteenth century' (A.I. Asiwaju), yak. s.707: 'The foundation of Ibadan as a camp ... at Owu in c. 1829'; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A.A. Boahen, 1985), ch.6 (M. Gueye & A.A. Boahen), yak. s.132: 'between 1893 and 1899 Abeokuta, Ibadan, Ekiti-Ijesa and Oyo readily agreed to negotiate treaties and accepted British residents'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1829-01-01; kaynak 'c. 1829' (uyuşuyor). Atlas t=1893-08-15; kaynak 1893-1899 aralığı (kesin 1893 anlaşma günü yok). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["İbadan"], t:"1829-01-01", tur:"kurulus", b:"Yoruba savaşçıları İbadan'ı devlet merkezi yaptı" },
     { odak_yer:["İbadan"], t:"1893-08-15", tur:"son", b:"İngiliz himayesi kabul edildi" }
@@ -3433,7 +3442,8 @@ window.DEVLETLER = [
 { id:"aro-konfederasyonu", ad:"Aro Konfederasyonu", tur:"devlet", bolge:"bati-afrika",
   f:"1690-01-01", t:"1902-03-01", baskent:"Aroçukvu",
   ozet:"Igbo ülkesinde Ibini Ukpabi kâhin merkezine dayanan, ticaret ve hakemlikle geniş bir ağ kuran konfederasyon. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Arochukvu kâhin merkezli Igbo ticaret ağı; İngiliz seferi 1901-1902.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 15 (Fon and Yoruba: the Niger delta and the Cameroon, E. J. Alagoa; Igbo/Aro bölümü): Aro ticaret ağı 'developing rapidly from about the seventeenth century', Arochukwu kâhini ve köle ticareti; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 27 (The Niger delta and the Cameroon region, E. J. Alagoa): 'the Aro Expedition of 1900... converging on Bende and Arochuku'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1690; GHA 'yaklaşık 17. yy'dan itibaren hızla gelişti' der, 1690 yılı verilmez. Atlas t=1902-03-01; GHA Aro seferini 1900, VII (ch. 6 sonuç bölümü) Aro direnişini 1898-1902 olarak verir. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Aroçukvu"], t:"1690-01-01", tur:"kurulus", b:"Aro ticaret ve kâhin ağı kuruldu" },
     { odak_yer:["Aroçukvu"], t:"1902-03-01", tur:"son", b:"İngiliz Aro seferiyle dağıtıldı" }
@@ -3492,7 +3502,8 @@ window.DEVLETLER = [
 { id:"damagaram", ad:"Damagaram Sultanlığı (Zinder)", tur:"sultanlik", bolge:"bati-afrika",
   f:"1731-01-01", t:"1899-01-01", baskent:"Zinder",
   ozet:"Bornu'ya tâbi olarak kurulan, sonradan bağımsızlaşan Kanuri-Hausa sultanlığı; top dökümüyle tanınırdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Bornu'ya tâbi Kanuri-Hausa sultanlığı; Fransız fethi 1899.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 16 (The Hausa states, D. Laya): 'the Sultanate of Damagaram was founded towards the beginning of the eighteenth century'; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 22 (The Sokoto caliphate and Borno, M. Last): Damagaram 'a state formed north of the Caliphate in the early nineteenth century'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1731; cilt V 18. yy başı, cilt VI ise 19. yy başı der (iki cilt kendi arasında çelişir); 1731 hiçbirinde yer almaz. t=1899 için GHA'da yıl okunmadı. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Zinder"], t:"1731-01-01", tur:"kurulus", b:"Damagaram sultanlığı kuruldu" },
     { odak_yer:["Zinder"], t:"1736-01-01", tur:"kurulus", b:"Kanuri aristokratları Zinder'de Birni mahallesini kurup şehri Damagaram Sultanlığı'nın başkenti ilân etti", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sultanate of Damagaram') doğrulandı. Künyenin kendi kuruluşu (1731, Mallam Yunus) ile 1736 (başkentin kuruluşu) FARKLI ama İLİŞKİLİ iki olay — ikisi de kaynakta ayrı ayrı geçiyor." },
@@ -3711,7 +3722,8 @@ window.DEVLETLER = [
 { id:"zende", ad:"Zende (Azande) Sultanlıkları", tur:"sultanlik", bolge:"orta-afrika",
   f:"1750-01-01", t:"1912-01-01", baskent:"—",
   ozet:"Avungara hânedanının Ubangi-Uele havzasında kurduğu Azande sultanlıkları (Bangassu · Rafai · Zemio). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Avungara hânedanının Ubangi-Uele sultanlıkları (Bangassu · Rafai · Zemio · Obo). 🔴 Bu kimliğin YOKLUĞU veride ZATEN kayıtlı: birden çok `kasitli_bosluk` kaydının `neden:` alanı 'zende kimliği yok' diyor.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.3 'Population movements and emergence of new socio-political forms in Africa' (J. Vansina): 'after 1750 a new people, the Zande, were born'; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.12 'The Congo Basin and Angola' (J.L. Vellut), yak. s.296: Avungara 'only began to unify the area at the end of the eighteenth century'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1750-01-01 (Avungara sultanlıkları); V Vansina Zande halkının doğuşunu 1750 sonrası verir, VI Avungara'nın birleştirmesini 18. yy sonu verir (VI ch.14 Ibrahim: 18. yy'da merkezî devlet). Devlet kuruluşu yılı GHA'da yok. Atlas t=1912 için destekleyen yıl bulunamadı. [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Zemio"], t:"1750-01-01", tur:"kurulus", b:"Avungara sultanlıkları teşekkül etti" },
     { odak_yer:["Zemio"], t:"1870-01-01", tur:"hukumdar", b:"Gbudwe Azande krallığının başına geçer (1870-1905); kardeşleriyle iç savaşa girişir.", kaynak:"https://en.wikipedia.org/wiki/Azande_Kingdom ; E. E. Evans-Pritchard, The Azande: History and Political Institutions, Oxford 1971" },
@@ -3725,7 +3737,8 @@ window.DEVLETLER = [
 { id:"mangbetu", ad:"Mangbetu Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1815-01-01", t:"1895-01-01", baskent:"Nangazizi",
   ozet:"Uele yukarısında Mangbetu halkının kurduğu, saray sanatıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Uele yukarısı; merkezi Nangazizi.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.3 (J. Vansina): 'after the kingdom had been established about 1800' (Mangbetu); UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.12 (J.L. Vellut), yak. s.296-303: Mangbetu ve Zande krallıkları, Munza 1870.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1815-01-01; kaynak 'about 1800' (fark ~15 yıl). Atlas t=1895 için destekleyen yıl bulunamadı. [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Niangara (Mangbetu)"], t:"1815-01-01", tur:"kurulus", b:"Nabiembali krallığı birleştirdi" },
     { odak_yer:["Niangara (Mangbetu)"], t:"1859-01-01", tur:"bolunme", b:"Nabiembali'nin oğulları babalarına karşı ayaklanıp 1859'da onu öldürdü, kendi bağımsız krallıklarını kurdular; tek merkezli krallık parçalandı.", kaynak:"Encyclopedia.com 'Mangbetu'" },
@@ -3767,7 +3780,8 @@ window.DEVLETLER = [
 { id:"kasance", ad:"Kasance (Kasanje) Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1620-01-01", t:"1910-01-01", baskent:"Kasance",
   ozet:"Kvango vadisinde İmbangala savaşçılarının kurduğu, Portekiz köle ticaretinin iç pazarını elinde tutan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. İmbangala krallığı; Kvango vadisi.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 19 (The Kongo kingdom and its neighbours, J. Vansina): 'Kasanje found a base in the Kwango valley in 1626'; 'Kasanje had become a great power on the Kwango river because it controlled an increasing flow of slaves after 1648... Building its kingdom... from 1630 onwards'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1620; GHA Kasanje'nin Kwango vadisinde üssünü 1626, krallığın inşasını 1630 sonrası verir: yaklaşık uyum, 1620 yazmaz. Atlas t=1910; GHA'da yıl okunmadı. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Kasance"], t:"1620-01-01", tur:"kurulus", b:"İmbangala Kasance krallığını kurdu" },
     { odak_yer:["Matamba"], t:"1680-01-01", tur:"savas", b:"Matamba hükümdarı Kanini, Kasanje'nin içte hanedan bunalımında olduğu sırada ona saldırıp yendi; Portekiz bu genişlemeyi köle ticareti çıkarlarına tehdit saydı.", kaynak:"LoC Angola: A Country Study (Collelo 1991) (http://countrystudies.us/angola/8.htm)" },
@@ -3879,7 +3893,8 @@ window.DEVLETLER = [
 { id:"karagve", ad:"Karagve Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1450-01-01", t:"1890-07-01", baskent:"Bveranyange",
   ozet:"Victoria gölü batısında Hinda kökenli krallık; Zengibar kervanlarının başlıca durağıydı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Merkezi Bveranyange.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 26 (The Great Lakes region, 1500-1800, J. B. Webster, B. A. Ogot, J.-P. Chretien): 'Despite its prestigious origins (the Sita dynasty, the principal starting-point of the Ruhinda complex), Karagwe began to assert itself chiefly from the seventeenth century onwards'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1450; GHA Karagwe'nin esas yükselişini 17. yy'dan, kökenini Sita/Ruhinda sülâlesinden başlatır, 1450 yazmaz. t=1890-07-01 için GHA'da yıl okunmadı (cilt VI ch. 11 Rumanyika dönemini anar). [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Bveranyange"], t:"1450-01-01", tur:"kurulus", b:"Karagve krallığı kuruldu" },
     { odak_yer:["Bveranyange"], t:"1820-01-01", tur:"hukumdar", b:"Ndagara (Ntagara I) Karagve tahtına çıktı ve krallığın genişleme dönemini yönetti (yaklaşık 1820-1853).", kaynak:"Katoke, The Making of the Karagwe Kingdom (1970); Stewart, African States and Rulers (2006) (aktaran https://en.wikipedia.org/wiki/Kingdom_of_Karagwe)" },
@@ -4198,7 +4213,8 @@ window.DEVLETLER = [
 { id:"griqua", ad:"Griqua Devletleri (Griqualand Batı ve Doğu)", tur:"devlet", bolge:"guney-afrika",
   f:"1804-01-01", t:"1878-01-01", baskent:"Griquatown",
   ozet:"Kok ve Vaterboer hânedanlarının Orange havzasında kurduğu, karma kökenli Griqua devletleri. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kok ve Vaterboer hânedanları; Griquatown · Philippolis · Kokstad.",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 23 (Southern Africa, D. Denoon): Kora, Griqua, Nama toplulukları 1730-1780 arasında Orange nehri kuzeyinde oluştu, Griqua adı Chariguriqua'dan; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 7 (The British, Boers and Africans in South Africa, 1850-80, N. Bhebe): Adam Kok 'ceased to be a factor in 1861 when he sold his land rights to the Orange Free State and migrated to Nomansland and founded another East Griqualand'; Britain annexed Griqualand West 'on 27 October 1871'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1804, t=1878; GHA Griqua topluluklarını 1730-80'lerde oluşmuş olarak anar (devlet kuruluş yılı vermez). Adam Kok Philippolis topraklarını 1861'de sattı, Griqualand West 27 Ekim 1871'de ilhak edildi: atlas t=1878 bu olaylardan sonradır, GHA t=1878'i desteklemez. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Griquatown"], t:"1804-01-01", tur:"kurulus", b:"Griqua yerleşimleri devlet biçimi aldı" },
     { odak_yer:["Griquatown"], t:"1813-01-01", tur:"siyaset", b:"Misyoner John Campbell'ın önerisiyle topluluk 'Griqua' adını aldı ve Klaarwater yerleşimi Griquatown oldu; yalnız yıl biliniyor.", kaynak:"https://sahistory.org.za/article/griqua" },
@@ -4213,7 +4229,8 @@ window.DEVLETLER = [
 { id:"tsvana", ad:"Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)", tur:"krallik", bolge:"guney-afrika",
   f:"1700-01-01", t:"1885-03-31", baskent:"Şoşong",
   ozet:"Ngvato · Kvena · Ngvaketse · Kgatla · Tavana gibi Tsvana krallıkları; Khama gibi hükümdarları İngiliz himayesini kendileri istedi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Beçuanalend İngiliz himayesi 1885-03-31. Şoşong · Serove · Molepolole · Kanye · Moçudi · Maun.",
+  kaynak:"UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A.A. Boahen, 1985), ch.9 'African initiatives and resistance in Southern Africa' (D. Chanaiwa), yak. s.210: 'Britain declared a protectorate over northern Bechuanaland in 1885' (güney kısım 1884'te crown colony).",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1885-03-31; kaynak yalnız 1885 yılı (gün yok). Atlas f=1700-01-01 için GHA'da destekleyen yıl bulunamadı (Ngwato/Kwena/Kgatla devletleri 19. yy bağlamında geçiyor). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Şoşong"], t:"1700-01-01", tur:"kurulus", b:"Tsvana krallıkları teşekkül etti" },
     { odak_yer:["Şoşong"], t:"1800-01-01", tur:"siyaset", b:"19.yy ilk çeyreğinde 'difakane' (Zulu devletinin yükselişi ve Avrupa ticaretiyle bağlantılı büyük göç/savaş dalgası) Tsvana krallıklarında ciddi siyasi kargaşa ve yer değiştirmelere yol açtı (yalnız '19.yy ilk çeyreği' biliniyor).", kaynak:"Encyclopedia of World Cultures (Encyclopedia.com üzerinden), 'Tswana' — DOĞRUDAN WebFetch ile okundu" },
@@ -4378,7 +4395,8 @@ window.DEVLETLER = [
 { id:"tuareg-ahaggar", ad:"Kel Ahaggar Tuareg Konfederasyonu", tur:"devlet", bolge:"kuzey-afrika",
   f:"1281-01-01", t:"1902-05-07", baskent:"Tamanrasset",
   ozet:"Hoggar (Ahaggar) yaylasında Amenokal unvanlı reislerce yönetilen Tuareg konfederasyonu; Tin Hinan geleneğine dayanır, kervan yollarını ve tuz ticaretini denetlerdi. Tit muharebesinde Fransız kuvvetlerine yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 🔴 f: ATLAS UFKUDUR, kuruluş yılı DEĞİL. Atlasın kendi `Tamanrasset` kaydı 'Amenokal liderliğinde YAKLAŞIK 1750'den itibaren teşkilatlı; öncesinde de gevşek Tuareg…' diyor — yani 1750 TEŞKİLATLANMA, 1281 ise varlığın atlas ufkundaki başlangıcı. Bu ayrım gizlenmiyor. ⚠️ Tit muharebesi 1902-05-07 kesin gündür; Amenokal Musa ag Amastan'ın resmî tâbiiyeti 1905'tedir — künye ERKEN ucu, yani fiilî yenilgiyi alıyor.",
+  kaynak:"UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A.A. Boahen, 1985), ch.5 'African initiatives and resistance in North Africa and the Sahara' (A. Laroui), yak. s.105: 'At Tit on 7 May 1902, when the Tawarik of the Ahaggar were defeated'; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.20 'The Sahara in the nineteenth century' (S. Baier), yak. s.520: 'defeat of the Ahaggar in 1902'; amenukal al-Hadjdj Ahmed (1830-77) döneminde Ahaggar birliği, yak. s.523.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1902-05-07; kaynak metinde gün verilmiş: 7 May 1902 (Tit) — gün uyuşuyor. Atlas f=1281 atlas ufku, kuruluş yılı değil; GHA'da kuruluş yılı yok (confederation 19. yy'da birleşik eylem). Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Hoggar"], t:"1281-01-01", tur:"kurulus", b:"Kel Ahaggar Tuareg'i Hoggar yaylasında", ic_not_b:"eski b: Kel Ahaggar Tuareg'i Hoggar yaylasında (atlas ufku)" },
     { odak_yer:["Tamanrasset"], t:"1902-05-07", tur:"savas", b:"Tit muharebesinde Fransız kuvvetlerine yenildi" }
@@ -6094,7 +6112,8 @@ window.DEVLETLER = [
 { id:"hausa-sehir-devletleri", ad:"Hausa Şehir Devletleri", tur:"devlet", bolge:"bati-afrika",
   f:"1000-01-01", t:"1808-01-01", baskent:"Kano, Katsina, Zaria, Gobir (çeşitli merkezler)",
   ozet:"Bugünkü kuzey Nijerya'da yedi kardeş şehir (Hausa Bakwai) etrafında örgütlenen bağımsız ticaret devletleri topluluğu; Osman dan Fodio'nun cihad hareketiyle Sokoto Halifeliği'ne katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J. F. A. Ajayi, UNESCO/Heinemann 1989), ch. 22 (The Sokoto caliphate and Borno, M. Last): 'Formal war was declared in 1804 after Shaykh Uthman made the hidjra... to Gudu'; 'By January 1809, all the main Hausa states had capitulated'; Hausa devletlerinin tek tek düşüşü 1807-1808; UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 16 (The Hausa states, D. Laya): 1500-1800 Hausa devletleri",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1808-01-01; GHA cihadı 1804'te başlamış, Hausa devletlerinin 1807-1808'de tek tek düştüğünü, Ocak 1809'a dek hepsinin teslim olduğunu söyler: t yıl düzeyinde uyumlu (kesin gün yok). f=1000 için GHA V/VI/VII'de yıl okunmadı. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Katsina","Zaria","Kano"], t:"1000-01-01", tur:"kurulus", b:"Hausa şehir devletleri (Kano, Katsina, Zaria, Gobir vd.) bağımsız birimler olarak şekillendi" },
     { odak_yer:["Kano"], t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
@@ -6125,7 +6144,8 @@ window.DEVLETLER = [
 { id:"asanti", ad:"Aşanti İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1701-01-01", t:"1902-01-01", baskent:"Kumasi",
   ozet:"Osei Tutu'nun Denkyira'ya karşı zafer kazanarak kurduğu, altın ve köle ticaretiyle zenginleşen Batı Afrika krallığı; dört Anglo-Aşanti Savaşı sonunda İngiliz Altın Kıyı kolonisine katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 14 (The states and cultures of the Lower Guinean coast, A. A. Boahen): 'the defeat and overthrow of the Denkyira empire in a series of wars (1699-1701) by the young Asante confederation of states'; UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A. A. Boahen, UNESCO/Heinemann 1985), ch. 2 (European partition and conquest of Africa: an overview, G. N. Uzoigwe): 'The last Kumasi expedition (1900) was followed up in 1901 by the annexation of Asante, and Nana Prempeh was exiled to the Seychelles'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1701; GHA Asante konfederasyonunun Denkyira'yı 1699-1701 savaşlarıyla yıktığını söyler (yükseliş, kuruluş ilanı değil). Atlas t=1902-01-01; GHA ilhakı 1901 olarak verir, 1 yıl fark. [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Kumasi"], t:"1701-01-01", tur:"kurulus", b:"Osei Tutu, Denkyira'yı yenerek Aşanti Birliği'ni kurdu" },
     { odak_yer:["Kumasi"], t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Aşanti Savaşı'nda İngiliz valisini yendi" },
@@ -6156,7 +6176,8 @@ window.DEVLETLER = [
 { id:"benin-kralligi", ad:"Benin Krallığı (Nijerya)", tur:"krallik", bolge:"bati-afrika",
   f:"1180-01-01", t:"1897-02-18", baskent:"Benin Şehri",
   ozet:"Edo halkının Oba hanedanı altında kurduğu, tunç heykelleriyle ünlü Batı Afrika krallığı (bugünkü Benin ülkesiyle karıştırılmamalı); İngiliz \"Cezalandırma Seferi\" ile yağmalanıp sömürgeye katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt VII (Africa under Colonial Domination 1880-1935, ed. A.A. Boahen, 1985), ch.6 'African initiatives and resistance in West Africa, 1880-1914' (M. Gueye & A.A. Boahen), yak. s.132: British punitive expedition against Benin in 1897; UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.26 'Dahomey, Yorubaland, Borgu and Benin' (A.I. Asiwaju), yak. s.716: conquest of Benin 1897.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1897-02-18; kaynak yalnız 1897 (gün yok). Atlas f=1180: GHA'da kuruluş yılı yok; V ch.15 (E.J. Alagoa) Ogiso hanedanı sonrası Ife'li Oranmiyan efsanesi, 14. yy sonunda 6. oba Oguola. [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Benin Şehri"], t:"1180-01-01", tur:"kurulus", b:"Oba hanedanı Benin Şehri'nde krallığı kurdu" },
     { odak_yer:["Benin Şehri"], t:"1440-01-01", tur:"hukumdar", b:"Oba Ewuare döneminde krallık genişleyip merkezîleşti" },
@@ -6168,7 +6189,8 @@ window.DEVLETLER = [
 { id:"oyo-imparatorlugu", ad:"Oyo İmparatorluğu (Yoruba)", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1400-01-01", t:"1836-01-01", baskent:"Oyo-Ile (Eski Oyo)",
   ozet:"Yoruba halkının süvari gücüyle kurduğu, komşu Dahomey'i bile haraca bağlayan güçlü imparatorluk; iç taht kavgaları ve Fulani cihad baskısıyla çöktü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt VI (Africa in the Nineteenth Century until the 1880s, ed. J.F.A. Ajayi, 1989), ch.26 (A.I. Asiwaju), yak. s.705-706: Old Oyo'nun çöküşü 19. yy'ın üçüncü on yılında; Oyo-Borgu ittifakının Fulbe'ye karşı 'Eleduwe War of 1836'; UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.15 (E.J. Alagoa), yak. s.443: 'In the fifteenth century its rulers had been driven out of Old Oyo ... taken refuge in Kusu ... Igboho'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1836-01-01; kaynak çöküşü 1820'lerde/1830'larda anlatır, 1836 Eleduwe Savaşı'nı verir (bir gün yok). Atlas f=1400; kaynak 15. yy'da Oyo hanedanının Old Oyo'dan sürülüp Igboho'ya sığındığını söyler (kuruluş yılı değil, kesin tarih yok). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Oyo-İle"], t:"1400-01-01", tur:"kurulus", b:"Oyo-Ile'de Yoruba krallığı kuruldu" },
     { odak_yer:["Oyo-İle"], t:"1730-01-01", tur:"toprak-kazanc", b:"Dahomey Krallığı'nı yenip haraca bağladı" },
@@ -6179,7 +6201,8 @@ window.DEVLETLER = [
 { id:"kongo-kralligi", ad:"Kongo Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1390-01-01", t:"1914-01-01", baskent:"Mbanza Kongo (São Salvador)",
   ozet:"Kongo Nehri ağzında kurulan, Portekizlilerle erken temasla Hristiyanlığı devlet dini yapan Orta Afrika krallığı; Mbwila Savaşı'nda ağır darbe aldıktan sonra küçülerek Portekiz nüfuzu altında varlığını uzun süre sürdürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.19 'The Kongo kingdom and its neighbours' (J. Vansina), yak. s.547: 'Nimi Lukeni, the founder of the Kingdom of Kongo ... The date of the kingdom's creation is unknown ... around 1400 at the latest, and at least a century before that at the earliest'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1390-01-01; kaynak kesin yıl vermez: 'en geç ~1400, en erken ondan bir yüzyıl önce' (atlas bu aralıkta). Atlas t=1914 için GHA'da destekleyen yıl bulunamadı. [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Mbanza-Kongo (São Salvador)"], t:"1390-01-01", tur:"kurulus", b:"Lukeni lua Nimi, Kongo Krallığı'nı kurdu" },
     { odak_yer:["Mbanza-Kongo (São Salvador)"], t:"1491-01-01", tur:"hukumdar", b:"Kral I. João, Portekizlilerin etkisiyle Hristiyanlığı kabul etti" },
@@ -6190,7 +6213,8 @@ window.DEVLETLER = [
 { id:"ndongo", ad:"Ndongo Krallığı (Angola)", tur:"krallik", bolge:"orta-afrika",
   f:"1500-01-01", t:"1671-01-01", baskent:"Kabasa",
   ozet:"Kongo'nun güneyinde kurulan, Kraliçe Nzinga'nın Portekiz sömürgeciliğine karşı onlarca yıl direnişiyle tanınan krallık; Portekiz'in Pungo Andongo'yu almasıyla fiilen sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 19 (The Kongo kingdom and its neighbours, J. Vansina): 'the State of Ndongo... was taking shape about 1500'; 'In 1671 the last vestige of Ndongo was conquered'",
+  ic_not:"KUNYE-AFRIKA-1110: [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Kabasa"], t:"1500-01-01", tur:"kurulus", b:"Ngola hanedanı Ndongo Krallığı'nı kurdu" },
     { odak_yer:["Kabasa"], t:"1518-01-01", tur:"siyaset", b:"Ngola Kiluanje'nin elçileri Kongo kralı Afonso'ya, oradan Portekiz'e giderek Hristiyanlık için rahip istedi; Ndongo ile Portekiz arasındaki ilk temas.", kaynak:"African History Extra, 'The kingdom of Ndongo and the Portuguese' (isaac Samuel; Thornton ve Heywood'a dayanır) (https://www.africanhistoryextra.com/p/the-kingdom-of-ndongo-and-the-portuguese)" },
@@ -6210,7 +6234,8 @@ window.DEVLETLER = [
 { id:"loango", ad:"Loango Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1550-01-01", t:"1883-01-01", baskent:"Buali (Loango)",
   ozet:"Kongo Krallığı'nın kuzeyinde, Atlantik kıyısında kurulan Vili krallığı; bakır, fildişi ve dokuma ticaretiyle yükseldi, Kongo'dan bağımsız kaldı ve XIX. yüzyılda Fransız himayesine girdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok (`loango` slug'ı 302 döndürdü), dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B. A. Ogot, UNESCO/Heinemann 1992), ch. 18 (From the Cameroon grasslands to the Upper Nile, E. M'Bokolo; Loango bölümü): 'Kingdom of Loango was well established by about 1500', 16. yy başı gezgin kayıtlarında Mani Loango ve Mbanza Loango anılır; 'About 1780, Loango lost its importance to... Malemba and Cabinda'; ch. 19 (J. Vansina): 'Loango had become a great power even before 1600'",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1550; GHA krallığın ~1500'de yerleşmiş olduğunu söyler, kuruluşu belirsizdir. Atlas t=1883; GHA'da Loango'nun sonu için yıl okunmadı (yalnız ~1780 önem kaybı). [yalnız yıl teyitli; gün teyitsiz]",
   kronoloji:[
     { odak_yer:["Loango"], t:"1550-01-01", tur:"kurulus", b:"Vili hanedanı Loango Krallığı'nı kurdu; Buali başkent oldu" },
     { odak_yer:["Loango"], t:"1670-01-01", tur:"antlasma", b:"Hollanda Batı Hindistan Şirketi (WIC) Loango kıyısının en etkin Avrupalı ticaret ortağı oldu; Maloango, Portekiz ve Hollanda'yı birbirine karşı oynatarak ticaret şartlarını kendi belirledi (Phyllis Martin, 'The External Trade of the Loango Coast', Oxford 1972)" },
@@ -6243,7 +6268,8 @@ window.DEVLETLER = [
 { id:"lunda-imparatorlugu", ad:"Lunda İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
   f:"1665-01-01", t:"1887-01-01", baskent:"Musumba",
   ozet:"Orta Afrika'da (bugünkü Kongo-Zambiya-Angola sınır bölgesi) fildişi ve köle ticaretiyle zenginleşen, gevşek bağlı geniş bir konfederasyon kuran imparatorluk; Avrupa sömürge paylaşımıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.20 'The political system of the Luba and Lunda' (Ndaywel è Nziem), yak. s.588: Rund devleti 'cannot be dated by oral tradition but at least the state is mentioned in the traditions by 1680'; Lunda empire 18. yy'da şekillendi (s.600).",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas f=1665-01-01; kaynak kuruluşu tarihlemez, en geç 1680'de anıldığını söyler (fark: atlas 1665, kaynak ≤1680). Atlas t=1887 için GHA'da destekleyen yıl bulunamadı (VI ch.12 Vellut: Chokwe'nin Lunda'yı gölgelemesi, Mwant Yav Mbumba). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Musumba"], t:"1665-01-01", tur:"kurulus", b:"Mwata Yamvo hanedanı Lunda İmparatorluğu'nu kurdu" },
     { odak_yer:["Musumba"], t:"1695-01-01", tur:"hukumdar", b:"Nawej, kaynaklarca iyi belgelenmiş ilk Lunda hükümdarı olarak (yaklaşık 1695) iktidara gelir.", kaynak:"John K. Thornton, A History of West Central Africa to 1850, Cambridge UP, 2020, s. 215, 224 (yıl yaklaşık)" },
@@ -6304,7 +6330,8 @@ window.DEVLETLER = [
 { id:"svahili-sehirleri", ad:"Svahili Şehir Devletleri (Kıyı)", tur:"devlet", bolge:"dogu-afrika",
   f:"1000-01-01", t:"1698-12-13", baskent:"Kilwa, Mombasa, Zengibar (çeşitli merkezler)",
   ozet:"Doğu Afrika kıyısında Arap-Bantu ticaret kültürünün doğurduğu, altın ve fildişi ticaretiyle zenginleşen bağımsız İslâm liman şehirleri ağı; Portekiz istilası ve ardından Umman'ın kıyıyı ele geçirmesiyle bağımsızlıklarını kaybettiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"UNESCO General History of Africa, cilt V (Africa from the Sixteenth to the Eighteenth Century, ed. B.A. Ogot, UNESCO/Heinemann 1992), ch.25 'East Africa: the coast' (A.I. Salim), yak. s.769: Mart 1696'da Umman filosu Mombasa'ya çıktı; kuşatma 'until December 1698 when the fortress [Fort Jesus] finally surrendered'.",
+  ic_not:"KUNYE-AFRIKA-1110: Atlas t=1698-12-13; kaynak 'December 1698' (ay uyuşuyor, gün yok). Atlas f=1000: V giriş bölümlerinde (ch.1-2, sayfa belirsiz) 'East African ports had been known for their trading activities since the eleventh century' (kuruluş yılı değil). [yalnız yıl teyitli; gün teyitsiz] Sayfa numaraları OCR metninde olmadığından bölüm içi konumdan tahmindir (yak.).",
   kronoloji:[
     { odak_yer:["Mombasa","Malindi"], t:"1000-01-01", tur:"kurulus", b:"Kilwa, Mombasa, Malindi gibi bağımsız Svahili liman şehirleri gelişmeye başladı" },
     { odak_yer:["Mombasa"], t:"1498-01-01", tur:"isgal", b:"Vasco da Gama'nın gelişiyle Portekiz baskısı başladı" },
