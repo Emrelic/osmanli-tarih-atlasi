@@ -23,6 +23,15 @@ Amaç: bir antlaşmanın HAM METNİNDEN madde madde özet çıkarıp oynatıcıy
 ## config.json (özet; ayrıntı `uret_antlasma.js` başlığında)
 `id` (kebab+yıl) · `ad` (kronoloji maddesinin `b`sinde GEÇEN dize, eşleşme bununla: `b.indexOf(ad)>=0` ve `t` ±60 gün) · `t` (gün) · `kadraj` [batı,güney,doğu,kuzey] · `kaynak` (okunan/okunmayan beyanı) · `cikti` · `girdiler` (JSON dosyaları) · `yerler_ek` · `gruplama` {`tekTek`:[[a,b]], `azamiGrup`:6} (büyük antlaşmada toprak maddeleri tek tek, gerisi aralık adımı «md. a-b») · `madde_sayisi` (eksik denetimi).
 
+## ÇOK TARAFLI antlaşma (Karlofça: Habsburg/Venedik/Lehistan/Rusya)
+- Madde nesnesine `taraf:"Venedik"` yaz; **numaralandırma TARAF BAŞINA** (Habsburg md.1-20, Venedik md.1-16…). Tekrar `no` yalnız `(taraf, no)` çiftinde reddedilir; farklı tarafların aynı `no`'su serbesttir.
+- Adım başlığı **«Venedik md. 3»**; metin `no` («giriş», «onay», «ateşkes») «Venedik giriş» olur ve `sira` (sayı) ile ya da dosya sırasıyla yerleşir. `taraf` alanı adıma da yazılır.
+- Sıra: config `taraflar:[...]` (yoksa ilk görülme) → `sira` → sayısal `no` → dosya sırası. Gruplama (`gruplama`) taraf sınırını AŞMAZ.
+- `madde_sayisi` nesne olabilir: `{"Habsburg":20,"Venedik":16}` (taraf başına 1..N; yalnız sayısal `no` sayılır).
+- Oynatıcı eşleşmesi için `anahtarlar:["Karlofça Antlaşması","Karlofça"]` (verilmezse `ad`); `onceki_t` bilgi alanıdır.
+- `syntax_kontrol.js` adım başlığı tekrarını ve taraf ön eki eksikliğini yakalar. Örnek: `ornek/cok-tarafli.config.json`.
+- `js/antlasma_oynatici.js`: «md. » öneki yalnız düz sayısal başlıkta (27, 27-35); «Venedik md. 3», «Ek 1» olduğu gibi gösterilir; `anahtarlar` varsa eşleşme onlarla yapılır.
+
 ## Girdi JSON şeması
 Dizi ya da `{maddeler:[...], ekler:[...]}`. Madde: `{no, bolum, ozet, yer:[...], konu, belirsiz}`. Ek belge: `{ad, ozet, okundu, yer, madde_say}`; `okundu:false` ⇒ adımda sarı «⚠ İÇERİK DOĞRULANMADI».
 

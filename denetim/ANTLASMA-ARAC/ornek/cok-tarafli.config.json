@@ -1,0 +1,13 @@
+{
+  "id": "ornek-cok-tarafli-1699",
+  "ad": "Örnek Çok Taraflı Antlaşma",
+  "t": "1699-01-26",
+  "kadraj": [14, 35.5, 41, 50],
+  "kaynak": "ÖRNEK (test) — çok taraflı antlaşma desteğini sınamak içindir; gerçek veri DEĞİL.",
+  "cikti": "denetim/ANTLASMA-ARAC/ornek/cikti-cok-tarafli.js",
+  "girdiler": ["denetim/ANTLASMA-ARAC/ornek/cok-tarafli-girdi.json"],
+  "taraflar": ["Habsburg", "Venedik", "Lehistan"],
+  "madde_sayisi": { "Habsburg": 2, "Venedik": 2, "Lehistan": 1 },
+  "anahtarlar": ["Örnek Çok Taraflı Antlaşma"],
+  "yerler_ek": { "Karlofça": [19.93, 45.2], "Erdel": [23.6, 46.2], "Mora": [22.2, 37.5], "Podolya": [27, 48.8] }
+}

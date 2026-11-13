@@ -4,7 +4,7 @@
 //   node denetim/ANTLASMA-ARAC/uret_antlasma.js <config.json>
 // Çıktı: config.cikti (ör. data/antlasma_madde_karlofca.js) — window.ANTLASMA_MADDELERI.push(...)
 //
-// config.json alanları (hepsi zorunlu, ek/gruplama hariç):
+// config.json alanları (zorunlu: id ad t kadraj kaynak cikti girdiler):
 //   id            "karlofca-1699"                  (kebab-case + yıl; benzersiz)
 //   ad            "Karlofça Antlaşması"            (kronoloji maddesinin `b` alanında GEÇEN dize — eşleşme bununla)
 //   t             "1699-01-26"                     (antlaşmanın günü; kronoloji `t` ile ±60 gün içinde olmalı)
@@ -13,13 +13,20 @@
 //   cikti         "data/antlasma_madde_karlofca.js"
 //   girdiler      ["a.json", "b.json"]             (her biri dizi VEYA {maddeler:[...], ekler:[...]})
 //   yerler_ek     {"Ad":[boylam,enlem]}            (ortak tabloda olmayan yerler; opsiyonel)
-//   gruplama      {tekTek:[[27,139]], azamiGrup:6} (opsiyonel; verilmezse her madde ayrı adım)
-//   madde_sayisi  433                              (opsiyonel; eksik madde denetimi: 1..N hepsi var mı)
+//   gruplama      {tekTek:[[27,139]], azamiGrup:6} (opsiyonel; verilmezse her madde ayrı adım; gruplama taraf başınadır)
+//   madde_sayisi  433 | {"Habsburg":20,"Venedik":16}  (opsiyonel; eksik madde denetimi. Sayı = taraf yok;
+//                                                      nesne = TARAF BAŞINA 1..N, yalnız sayısal `no` kontrol edilir)
+//   taraflar      ["Habsburg","Venedik","Lehistan","Rusya"] (opsiyonel; çok taraflı antlaşmada adım SIRASI; yoksa ilk görülme)
+//   anahtarlar    ["Karlofça Antlaşması","Karlofça"]  (opsiyonel; oynatıcı eşleşmesi `ad` yerine bunlardan herhangi biri)
+//   onceki_t      "1683-07-14"                     (opsiyonel; bilgi alanı olarak çıktıya geçer)
 //
-// Girdi madde nesnesi: {no:<sayı>, bolum:"<Türkçe başlık>", ozet:"<Türkçe ≤35 kelime, kendi cümlen>",
-//                       yer:["Ad",...], konu:"sinir|bogazlar|...", belirsiz:false}
+// Girdi madde nesnesi: {no:<sayı|metin>, taraf:"Venedik" (opsiyonel), bolum:"<Türkçe başlık>", ozet:"<Türkçe ≤35 kelime, kendi cümlen>",
+//                       yer:["Ad",...], konu:"sinir|bogazlar|...", belirsiz:false, sira:<sayı, opsiyonel>}
+//  - ÇOK TARAFLI antlaşma: her taraf kendi madde dizisini taşır, numaralandırma TARAF BAŞINADIR (Habsburg md.1-20, Venedik md.1-16…).
+//    Tekrar `no` yalnız (taraf, no) çiftine göre reddedilir. Adım başlığı «<Taraf> md. <no>» olur (taraf yoksa yalnız <no>).
+//    `no` metinse («giriş», «onay», «ateşkes») başlık «<Taraf> <metin>» olur ve sıra: `sira` varsa ona, yoksa dosyadaki sıraya göre.
 //  - belirsiz:true  => adımda dogrulanmadi:true (oynatıcıda sarı «⚠ İÇERİK DOĞRULANMADI»)
-//  - ekler[]: {ad, ozet, okundu:true|false, yer:[...], madde_say} => 'Ek N' adımları; okundu:false => dogrulanmadi
+//  - ekler[]: {ad, ozet, okundu:true|false, yer, madde_say} => 'Ek N' adımları; okundu:false => dogrulanmadi
 // yer: YALNIZ yerler tablosunda (yerler-ortak.json + yerler_ek) bulunan adlar haritada işaretlenir;
 //      tabloda olmayan adlar sessizce atılır (aşağıda uyarı basılır).
 // ============================================================================
@@ -41,43 +48,63 @@ for (const g of cfg.girdiler) {
   if (Array.isArray(j)) maddeler = maddeler.concat(j);
   else { maddeler = maddeler.concat(j.maddeler || []); ekler = ekler.concat(j.ekler || []); }
 }
-maddeler.sort((a, b) => a.no - b.no);
+maddeler.forEach((m, i) => { m._i = i; });
 
-// 1) bütünlük
-const tekrar = maddeler.filter((m, i) => i && m.no === maddeler[i - 1].no).map(m => m.no);
-if (tekrar.length) { console.error('TEKRAR madde no:', tekrar.join(',')); process.exit(1); }
+// 1) sıralama: taraf sırası (config.taraflar ya da ilk görülme) → sira → sayısal no → dosya sırası
+const tarafSirasi = (cfg.taraflar || []).slice();
+maddeler.forEach(m => { if (m.taraf && !tarafSirasi.includes(m.taraf)) tarafSirasi.push(m.taraf); });
+const sayisalMi = n => typeof n === 'number' || /^\d+$/.test(String(n));
+const anahtar = m => [
+  m.taraf ? tarafSirasi.indexOf(m.taraf) : -1,
+  m.sira != null ? m.sira : (sayisalMi(m.no) ? Number(m.no) : 1e6 + m._i)
+];
+maddeler.sort((a, b) => { const x = anahtar(a), y = anahtar(b); return x[0] - y[0] || x[1] - y[1] || a._i - b._i; });
+
+// 2) bütünlük: tekrar (taraf, no) çifti reddedilir
+const gorulen = new Map(); const tekrar = [];
+maddeler.forEach(m => { const k = (m.taraf || '') + '|' + m.no; if (gorulen.has(k)) tekrar.push((m.taraf ? m.taraf + ' ' : '') + m.no); gorulen.set(k, 1); });
+if (tekrar.length) { console.error('TEKRAR (taraf,no):', tekrar.join(', ')); process.exit(1); }
 if (cfg.madde_sayisi) {
   const eksik = [];
-  for (let i = 1; i <= cfg.madde_sayisi; i++) if (!maddeler.find(m => m.no === i)) eksik.push(i);
-  if (eksik.length || maddeler.length !== cfg.madde_sayisi) { console.error('EKSİK madde:', eksik.join(',')); process.exit(1); }
+  const kontrol = (taraf, n) => {
+    const liste = maddeler.filter(m => (m.taraf || '') === taraf && sayisalMi(m.no));
+    for (let i = 1; i <= n; i++) if (!liste.find(m => Number(m.no) === i)) eksik.push((taraf ? taraf + ' ' : '') + 'md.' + i);
+  };
+  if (typeof cfg.madde_sayisi === 'number') {
+    kontrol('', cfg.madde_sayisi);
+    if (maddeler.filter(m => !m.taraf && sayisalMi(m.no)).length !== cfg.madde_sayisi) eksik.push('(sayı farkı)');
+  } else for (const [t, n] of Object.entries(cfg.madde_sayisi)) kontrol(t, n);
+  if (eksik.length) { console.error('EKSİK madde:', eksik.join(', ')); process.exit(1); }
 }
 
-// 2) yer süzgeci (tabloda olmayanı raporla)
+// 3) yer süzgeci (tabloda olmayanı raporla)
 const bilinmeyen = new Set();
 const yf = (liste) => (liste || []).filter(y => { if (yerler[y]) return true; bilinmeyen.add(y); return false; });
 
-// 3) adımlar
-const adimlar = [];
+// 4) adımlar — başlık: «<Taraf> md. <no>» (sayısal) | «<Taraf> <metin>» (metin no) | «<no>» (taraf yok)
+const baslik = m => m.taraf ? (sayisalMi(m.no) ? m.taraf + ' md. ' + m.no : m.taraf + ' ' + m.no) : String(m.no);
 const tek = (cfg.gruplama && cfg.gruplama.tekTek) || [];
-const tekMi = no => !cfg.gruplama || tek.some(([a, b]) => no >= a && no <= b);
+const tekMi = m => !cfg.gruplama || (sayisalMi(m.no) && tek.some(([a, b]) => Number(m.no) >= a && Number(m.no) <= b)) || !sayisalMi(m.no);
 const azami = (cfg.gruplama && cfg.gruplama.azamiGrup) || 1;
+const adimlar = [];
 let i = 0;
 while (i < maddeler.length) {
   const x = maddeler[i];
-  if (tekMi(x.no) || azami <= 1) {
-    adimlar.push({ no: String(x.no), bolum: x.bolum, ozet: x.ozet, yer: yf(x.yer), konu: x.konu, dogrulanmadi: !!x.belirsiz });
+  if (tekMi(x) || azami <= 1) {
+    adimlar.push({ no: baslik(x), taraf: x.taraf || undefined, bolum: x.bolum, ozet: x.ozet, yer: yf(x.yer), konu: x.konu, dogrulanmadi: !!x.belirsiz });
     i++; continue;
   }
   const grup = [x];
   while (grup.length < azami && i + grup.length < maddeler.length) {
     const y = maddeler[i + grup.length];
-    if (tekMi(y.no) || y.bolum !== x.bolum || !!y.belirsiz !== !!x.belirsiz) break;
+    if (tekMi(y) || y.bolum !== x.bolum || (y.taraf || '') !== (x.taraf || '') || !!y.belirsiz !== !!x.belirsiz) break;
     grup.push(y);
   }
   const yer = [];
   grup.forEach(g => yf(g.yer).forEach(p => { if (!yer.includes(p)) yer.push(p); }));
+  const son = grup[grup.length - 1];
   adimlar.push({
-    no: grup.length === 1 ? String(x.no) : x.no + '-' + grup[grup.length - 1].no, bolum: x.bolum,
+    no: grup.length === 1 ? baslik(x) : (x.taraf ? x.taraf + ' md. ' : '') + x.no + '-' + son.no, taraf: x.taraf || undefined, bolum: x.bolum,
     ozet: grup.map(g => (grup.length > 1 ? 'md. ' + g.no + ': ' : '') + g.ozet).join(' '),
     yer, konu: x.konu, dogrulanmadi: !!x.belirsiz
   });
@@ -90,15 +117,23 @@ ekler.forEach((e, k) => {
     yer: yf(e.yer), konu: 'ek', dogrulanmadi: !e.okundu
   });
 });
+// adım başlıkları kayıt içinde benzersiz olmalı
+const basliklar = new Set(); const cift = [];
+adimlar.forEach(a => { if (basliklar.has(a.no)) cift.push(a.no); basliklar.add(a.no); });
+if (cift.length) { console.error('Yinelenen adım başlığı:', cift.join(', ')); process.exit(1); }
 
-// 4) yalnız kullanılan yerleri çıktıya koy (dosya küçük kalsın)
+// 5) yalnız kullanılan yerleri çıktıya koy (dosya küçük kalsın)
 const kullanilan = {};
 adimlar.forEach(a => a.yer.forEach(y => { kullanilan[y] = yerler[y]; }));
 
-const kayit = { id: cfg.id, ad: cfg.ad, t: cfg.t, kadraj: cfg.kadraj, kaynak: cfg.kaynak, yerler: kullanilan, adimlar };
+const kayit = { id: cfg.id, ad: cfg.ad, t: cfg.t, kadraj: cfg.kadraj };
+if (cfg.anahtarlar) kayit.anahtarlar = cfg.anahtarlar;
+if (cfg.onceki_t) kayit.onceki_t = cfg.onceki_t;
+if (tarafSirasi.length) kayit.taraflar = tarafSirasi;
+Object.assign(kayit, { kaynak: cfg.kaynak, yerler: kullanilan, adimlar });
 const kod =
   '// ============================================================================\n' +
-  '// ANTLAŞMA MADDELERİ — ' + cfg.ad.toUpperCase() + ' (' + cfg.t + ') · ' + adimlar.length + ' adım\n' +
+  '// ANTLAŞMA MADDELERİ — ' + cfg.ad.toUpperCase() + ' (' + cfg.t + ') · ' + adimlar.length + ' adım' + (tarafSirasi.length ? ' · taraflar: ' + tarafSirasi.join(', ') : '') + '\n' +
   '// Üretildi: denetim/ANTLASMA-ARAC/uret_antlasma.js · tüketici: js/antlasma_oynatici.js\n' +
   '// Özetler ham metinden, kendi cümlemizle (kopya yok). Kaynak/beyan: kayıt.kaynak.\n' +
   '// `yerler`: ad → [boylam, enlem] YAKLAŞIK odak noktası (sınır çizgisi değil).\n' +
