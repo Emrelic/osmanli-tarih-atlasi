@@ -26,6 +26,14 @@ Kapsam (24 künye): karaman, germiyan, aydin, saruhan, mentese, hamid, candar, d
 7. Karaman 1277-05-13 komşu kayıtları (Sâhib Ata Altuntaş 1277-05-13, kronoloji_cok_once1281_anadolu notu) Karaman gününden «devralınmıştı» — Konya günü taşındı, bu iki kayıt TDV'ye göre yalnız «Mayıs 1277» ay düzeyinde; öneri: «gün komşudan» ibaresini kaldırıp ay beyanı.
 Okunmayan künyeler: Hacıemîroğulları (ordu--sehir), Şebinkarahisar/Gözleroğlu (kaynakları künyede beyanlı), Erzincan-Kemah (Mutahharten).
 
+## 2b. ÇÖZÜM (KASA kararı sonrası: hakemli ikinci kaynak aramasıyla; commit sırası bkz. git log)
+- **Teke Antalya geri alışı** 1373-01-01 → **1373-05-14** (TDV «Tekeoğulları» gün verir; atlas yıl yer tutucusuydu).
+- **Karaman:** üç ayrı olay — 1468 Konya/merkez (TDV Nisan 1468; Kılıç, Erdoğru OTAM 57 2025), 1474 Gedik Ahmed (TDV Kayseri/Karamanoğulları), 1483 Kasım Bey ölümü (Öden KMÜ KAMAM + Özyalvaç NEÜ 2018: iki bağımsız kaynak beylik sonu 1483), 1487 Mahmud Bey Halep'e kaçışı. Künye t 1487 → **1483-01-01**, 1483 «son» ve 1487 «Mahmud Bey kaçışı» ayrı maddeler; 1468 maddesinin gün alanında beyan.
+- **Saruhan:** beylik sonu **1410** (Acun, Manisa'daki Türbe Mimarisi + Ceylan CBÜ SBD 11/3 2013 + Art-Sanat 8 2017; TDV «1411-1415 arası», Akyol 1413 tek); künye t 1416-09-01 → **1410-01-01**, 3 yerleşim diliminin bitişi 1415-01-01 → 1410-01-01 (Değişmez 2: aynı gün «son» maddesi). Torlak Kemal 1416 ayrı olay. Orhan'ın 17 Ağustos 1402 günü tek akademik kaynakta («düşünülürse»).
+- **Aydın:** 1425-1426 yıl aralığı (Adak 2022, Akın) — künye/madde değişmedi, ic_not'ta beyan. **Menteşe 1424** (üç hakemli kaynak) — Menteşe dilimleri (1425-06-01) TAŞINMADI, açık borç.
+- **Kaynaksız başlangıçlar** (ic_not_f beyanı, f yıl düzeyinde kaldı): Hamid 1297 (yalnız TDV «muhtemelen»), Teke 1321 (≤1319, aralık 1308-1319), Eşrefoğulları 1277 (Konya işgali; kuruluş 1299-1300), Candar Eflani 1291 (kesin yıl yok), Karesi Yahşi 1336 (TDV'de yok).
+- Hâlâ **TEYİT ÇIKMADI:** Karaman Konya Nisan 1468'in günü (Yıldız 2009 tam metin), Kasım Bey'in ölüm günü, Saruhan 1410'un günü, Aydın 1425/1426 ayrımı.
+
 ## 3. Ölçülmedi
 - `denetle.py` (Değişmez 2/3/8); 45 «madde yok» grubunun tek tek incelenmesi.
 - Hakemli ikinci kaynak (İnalcık, Emecen, Uzunçarşılı, Şikârî, Neşrî, DergiPark) hiçbir satırda okunmadı; çelişkiler yalnız TDV'ye karşıdır. TDV metinleri WebFetch özeti: kritik günler TDV sayfasında gözle teyit edilmeli.

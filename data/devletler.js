@@ -405,7 +405,7 @@ window.DEVLETLER = [
 // ==================== TIER 2 — ANADOLU BEYLİKLERİ (kuruluş coğrafyası) ====================
 
 { id:"karaman", ad:"Karamanoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1256-01-01", t:"1487-01-01", baskent:"Ermenek → Konya (1366-67) / Larende", harita:"karaman",
+  f:"1256-01-01", t:"1483-01-01", ic_not_t:"ÇELİŞKİ-1113 BEYLİKLER: künye sonu eskiden 1487 idi. Anlam kontrolü: ÜÇ AYRI OLAY — (a) 1468 Fatih Konya ve merkez topraklar (TDV «Nisan 1468»; Kılıç, Fatih Devri Osmanlı-Akkoyunlu İlişkileri, DergiPark; Erdoğru, OTAM 57, 2025: 1468'de beylik toprakları büyük ölçüde ilhak), (b) 1474 Gedik Ahmed Paşa — TDV «Kayseri»/«Karamanoğulları»: 879/1474'te beyliğe son verdi (Erdoğru 2025 aynı DİA hattından), (c) 1483 Kasım Bey'in ölümü (888/1483) — Zerrin G. Öden, Karamanoğulları Beyliği (KMÜ KAMAM): «Karamanoğulları Beyliği sona ermiştir»; Öden Karaman ilinin kesin ilhakını 1476 verir; B. Özyalvaç, Orta Anadolu ve Akdeniz Beylikleri Sempozyumu IV (NEÜ 2018) dn.10-11: yıkılış Kasım Bey'in vefatı olarak gösterilir, kimi tarihçiler Mahmud Bey valiliğini devam sayar, (d) 1487 Turgutoğlu Mahmud Bey'in Halep'e firarı (892/1487; Tekindağ İA atfıyla). İki bağımsız akademik kaynak (Öden, Özyalvaç) beylik sonu için 1483'ü gösterir, TDV 1474 verir; künye t 1483-01-01 [yalnız yıl teyitli; Kasım Bey'in ölüm günü okunan kaynaklarda yok], 1474 ve 1487 ayrı kronoloji maddeleridir. OKUNMADI: Şikârî, Uzunçarşılı, Sümer DİA tam metni, Yıldız 2009 (Konya günü).", baskent:"Ermenek → Konya (1366-67) / Larende", harita:"karaman",
   ozet:"Selçuklu sonrası en güçlü Anadolu beyliği; Osmanlı'nın Anadolu birliğini kurmasının önündeki en inatçı engel. İlk yurdu Ermenek-Mut yöresiydi, Konya'yı ancak 1366-67'de aldı.",
   kaynak:"karamanogullari",
   kronoloji:[
@@ -418,7 +418,8 @@ window.DEVLETLER = [
     { odak_yer:["Ermenek"], t:"1424-01-01", tur:"hukumdar", b:"İkinci İbrâhim Bey tahta çıktı, 40 yıllık istikrarlı ama Osmanlı'yla çatışmalı dönem başladı" },
     { odak_yer:["Konya"], t:"1468-01-01", tur:"toprak-kayip", b:"Fatih, Konya'yı aldı" },
     { odak_yer:["Konya"], t:"1471-01-01", tur:"isyan", b:"Kasım Bey, Akkoyunlu desteğiyle Konya'yı kısa süre geri aldı" },
-    { odak_yer:["Ermenek"], t:"1487-01-01", tur:"son", b:"Son Karamanoğlu direnişleri bastırıldı" }
+    { odak_yer:["Ermenek"], t:"1483-01-01", tur:"son", b:"Kasım Bey'in ölümüyle Karamanoğulları Beyliği sona erdi (Karaman eyaleti)", kaynak:"Zerrin G. Öden, «Karamanoğulları Beyliği» (KMÜ KAMAM); B. Özyalvaç, Orta Anadolu ve Akdeniz Beylikleri Sempozyumu IV (NEÜ 2018) — 888/1483 [yalnız yıl teyitli]; TDV «Kayseri»/«Karamanoğulları» fiilî sonu 1474 verir, bkz. künye ic_not_t" },
+    { odak_yer:["Ermenek"], t:"1487-01-01", tur:"siyaset", b:"Turgutoğlu Mahmud Bey Memlûk tarafına geçip Halep'e kaçtı", kaynak:"TDV «Karamanoğulları»: 892/1487 (Mahmud Bey'in Halep'e kaçışı); Özyalvaç 2018 dn.11 (Tekindağ İA'ya atfıyla) [yalnız yıl teyitli]" }
   ]
 },
 { id:"germiyan", ad:"Germiyanoğulları", tur:"beylik", bolge:"anadolu",
@@ -434,7 +435,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"aydin", ad:"Aydınoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1308-01-01", t:"1425-06-01", baskent:"Birgi → İzmir (1329) / Tire, Ayasuluk", harita:"aydin",
+  f:"1308-01-01", t:"1425-06-01", ic_not_t:"ÇELİŞKİ-1113 BEYLİKLER: künye 1425-06-01, kronoloji 'son' 1425-01-01; kaynaklarda yıl ARALIĞI: Adak, Türk Armağan Dergisi 41/71 (2022) s.246-275: Cüneyd Bey 1425 yenilip İpsili'ne çekildi, teslim 1425-1426, ölüm 1425/1426; Akın, A.Ü. DTCF Dergisi (829 H = 1425-1426): Aydıneli tamamen Osmanlı mülküne katıldı; TDV «II. Murad» İpsili teslimi 1425. Gün yok; -06-01 gün yer tutucusudur [yalnız yıl teyitli; 1425-1426]. Menteşe: üç hakemli kaynak 1424 (Kayapınar ed. 2018; SDÜ FEF 31, 2014; Yılmaz DergiPark 3855548) — Menteşe dilimlerinin 1425-06-01 bitişi bu partide taşınmadı.", baskent:"Birgi → İzmir (1329) / Tire, Ayasuluk", harita:"aydin",
   ozet:"Ege'de güçlü donanmaya sahip beylik (hanedan ömrü, iki dönem); Mehmed Bey'in 1308'de bölgeyi ele geçirmesiyle doğdu, 1415'te Çelebi Mehmed ilhak etti, Cüneyd Bey 1421'de İzmir'i ikinci kez ele geçirdi, 1425-26'da yakalanıp idam edilmesiyle Osmanlı'ya tam bağlandı — künye dış zarfı verir, kesinti Timur restorasyonu değil Cüneyd'in ikinci eliyle ilgilidir.",
   kaynak:"aydinogullari",
   kronoloji:[
@@ -447,8 +448,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"saruhan", ad:"Saruhanoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1313-01-01", t:"1416-09-01", baskent:"Manisa", harita:"saruhan",
-  ozet:"Manisa merkezli Ege beyliği (hanedan ömrü, iki dönem); 1390'da Yıldırım Bayezid ilhak etti, beylik 1402'de Timur tarafından diriltildi ve 1416'da Torlak Kemal'in idamıyla kesin olarak sona erdi. Künye dış zarfı verir — arada 12 yıllık Osmanlı dönemi vardır.",
+  f:"1313-01-01", t:"1410-01-01", ic_not_t:"ÇELİŞKİ-1113 BEYLİKLER: künye sonu eskiden 1416-09-01 (Torlak Kemal isyanı, ayrı olay), yerleşim dilimleri 1415-01-01, kronoloji 'son' 1410 idi — üç değer. İKİ bağımsız akademik kaynak 1410 verir: Hüseyin Acun, Manisa'daki Türbe Mimarisi (DergiPark 1984026): «1410'da Çelebi Mehmet tarafından Saruhanoğulları Beyliğine son verilen» ve Hızır Şah 1402-1410; Ceylan, CBÜ SBD 11/3 (2013) Hızır Paşa 1402-1410 kitabesi; ayrıca Art-Sanat 8 (2017) Hızır Şah (1388-1410). TDV «Saruhanoğulları» «1411'den sonra, 1415'ten önce» der; H. Akyol, MCBÜ SBD 16/1 (2018) 1313-1413 yazar (tek). TDV penceresi 1410'u dışlar, iki bağımsız kaynak aynı farklı yılı verir ⇒ 1410-01-01 [yalnız yıl teyitli; gün yok]. Orhan Bey'in 17 Ağustos 1402 günü yalnız Akın (A.Ü. DTCF Dergisi, «düşünülürse» kaydıyla) ve TDV'de var. Torlak Kemal 1416 hiçbir okunan kaynakta beylik sonu değil. OKUNMADI: Şikârî, Emecen, Çelebi Mehmed'in Saruhan'ı alış günü.", baskent:"Manisa", harita:"saruhan",
+  ozet:"Manisa merkezli Ege beyliği (hanedan ömrü, iki dönem); 1390'da Yıldırım Bayezid ilhak etti, beylik 1402'de Timur tarafından diriltildi ve 1410'da (Hızır Şah dönemi sonu) kesin olarak Osmanlı'ya geçti; 1416 Torlak Kemal isyanı ayrı bir olaydır. Künye dış zarfı verir — arada 12 yıllık Osmanlı dönemi vardır.",
   kaynak:"saruhanogullari",
   kronoloji:[
     { odak_yer:["Manisa"], t:"1313-01-01", tur:"kurulus", b:"Saruhan Bey tarafından kuruldu" },
@@ -470,7 +471,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hamid", ad:"Hamîdoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1297-01-01", t:"1391-01-01", baskent:"Uluborlu (ilk merkez) → Eğirdir / Isparta", harita:"hamid",
+  f:"1297-01-01", t:"1391-01-01", ic_not_f:"ÇELİŞKİ-1113 BEYLİKLER: f 1297 TDV «Hamîdoğulları»da «muhtemelen 1297»; okunan akademik kaynakta (Kofoğlu, SEMA 4/4, 2019) 1297 yok, Hamid doktorası (İÜ 1993) OKUNMADI → yalnız TDV dayanaklı, yıl düzeyi [kesinlik: muhtemelen].", baskent:"Uluborlu (ilk merkez) → Eğirdir / Isparta", harita:"hamid",
   ozet:"Göller bölgesinde kurulmuş beylik (hanedan ömrü); 1297'de Hamîd Bey'in Uluborlu'yu merkez yapmasıyla doğdu; 1381-82'de bazı şehirler 80.000 altına satıldı, kalanı 1391'de ilhak edildi.",
   kaynak:"hamidogullari",
   kronoloji:[
@@ -481,7 +482,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"anadolu",
-  f:"1309-01-01", t:"1461-06-01", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
+  f:"1309-01-01", t:"1461-06-01", ic_not_f:"ÇELİŞKİ-1113 BEYLİKLER: kronolojideki Eflani 1291 TDV'de yok; M. Albayrak, Sosyal ve Kültürel Araştırmalar Dergisi 4/7 (2018) s.73-100: Yaman Candar'ın Eflani iktâsı Selçuklu taht savaşlarına bağlı, kesin yıl kaynak yetersizliğiyle verilmez (1291-1292 bağlamı). Künye f 1309 (Candarogullari/Çobanoğulları 1309) yıl düzeyinde kalır; 1461-06-01'in Haziran'ı TDV'de yok [yalnız yıl teyitli].", baskent:"Eflani (ilk merkez) → Kastamonu / Sinop", harita:"candar",
   ozet:"Karadeniz kıyısında en son ayakta kalan Anadolu beyliği (hanedan ömrü); TDV'ye göre erken XIV. yüzyılda (1309) Şemseddin Yaman Candar tarafından kuruldu, 1461'de Fâtih'in Mora karşılığı teklifiyle fiilen sona erdi.",
   kaynak:"candarogullari",
   kronoloji:[
@@ -530,7 +531,7 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Balıkesir"], t:"1297-01-01", tur:"kurulus", b:"Karesi Bey tarafından kuruldu" },
     { odak_yer:["Balıkesir"], t:"1330-01-01", tur:"hukumdar", b:"Demirhan Bey tahta çıktı" },
-    { odak_yer:["Balıkesir"], t:"1336-01-01", tur:"toprak-kayip", b:"Yahşi Bey, Orhan Gazi'nin safına geçerek beyliğin doğu kesimini Osmanlı'ya bıraktı" },
+    { odak_yer:["Balıkesir"], t:"1336-01-01", tur:"toprak-kayip", b:"Yahşi Bey, Orhan Gazi'nin safına geçerek beyliğin doğu kesimini Osmanlı'ya bıraktı", kaynak:"ÇELİŞKİ-1113 BEYLİKLER: 1336 TDV «Karesioğulları»da YOK (Yahşi Bey 1334'te donanmayla Edirne/Trakya akını; ilhak 746/1345 veya hemen sonrası); H. Kayhan, Çanakkale Araştırmaları Türk Yıllığı 15/22 (2017) s.53-62 Orhan'a geçiş yılı vermez. Kaynaksız yıl [yalnız yıl yer tutucusu]; Zachariadou/Belleten 80 OKUNMADI." },
     { odak_yer:["Balıkesir"], t:"1345-01-01", tur:"son", b:"Orhan Bey tarafından ilhak edildi — Osmanlı'nın ilk beylik ilhakı" }
   ]
 },
@@ -2244,7 +2245,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"esrefogullari", ad:"Eşrefoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1277-01-01", t:"1326-10-09", baskent:"Beyşehir", harita:"esrefogullari",
+  f:"1277-01-01", t:"1326-10-09", ic_not_f:"ÇELİŞKİ-1113 BEYLİKLER: f 1277 kuruluş değil Konya işgali (Süleyman Bey, 15 Mayıs 1277, Karaman ittifakı; S. Kofoğlu, Eşrefoğulları, SDÜ FEF SBD 19, 2009, s.49-60); bağımsızlık «1299 ya da 1300» (TDV «Eşrefoğulları» ile aynı hat, bağımsız sayılmaz). f yıl düzeyinde kaldı [kesinlik: 1277 Konya olayı; kuruluş 1299-1300].", baskent:"Beyşehir", harita:"esrefogullari",
   ozet:"Göller bölgesinde kurulan kısa ömürlü beylik; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı. (kaynak: TDV, madde: esrefogullari)",
   kaynak:"esrefogullari",
   kronoloji:[
@@ -2313,7 +2314,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"teke", ad:"Tekeoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1321-01-01", t:"1423-01-01", baskent:"Antalya", harita:"teke",
+  f:"1321-01-01", t:"1423-01-01", ic_not_f:"ÇELİŞKİ-1113 BEYLİKLER: 1321 kuruluş yılı olarak kaynaksız. S. Kofoğlu, SEMA 4/4 (2019) s.27-48: Antalya'nın alınışı 708/1308 ya da (medrese kitabesine göre) 719/1319, Dündar Bey'in alışı 1316-1318 civarı; 1321 yalnız Takvimü'l-Büldan'ın yazılışı (terminus ante quem). TDV 1308-1319 aralığı. f yıl düzeyinde kaldı, kuruluş ≤1319 [kesinlik: aralık 1308-1319].", baskent:"Antalya", harita:"teke",
   ozet:"Hamîdoğulları'ndan ayrılarak Antalya'da kurulan denizci beylik (hanedan ömrü, iki dönem); 1402'de kısa süreliğine Timur tarafından diriltildi, 1423'te Hamza Bey'in fethiyle kesin olarak Osmanlı'ya katıldı — künye dış zarfı verir, arada kısa bir Osmanlı kesintisi vardır.",
   kaynak:"tekeogullari",
   kronoloji:[
