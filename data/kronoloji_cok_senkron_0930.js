@@ -63,7 +63,7 @@ window.KRONOLOJI_COK_SENKRON_0930 = [
     taraflar:["kirim","rusya","kabartay"], odak_kimlik:"kirim", etiket:["konu-antlasma"],
     ic_not_t:"VERİ GÜNÜ İLE KAYNAK GÜNÜ ÇELİŞİYOR: veri 21 Temmuz 1774 (yaygın imza günü), TDV 26 Temmuz 1774. TDV birincil ⇒ madde 26 Temmuz'a yazıldı (5 gün, pencere içinde)." },
   { onem:4, dunya:2, bolge_onem:3, puan_s:"v2", t:"1923-07-24", k:"siyasi", b:"Lozan Antlaşması: Oniki Ada İtalya'da, Doğu Ege adaları Yunanistan'da kalır",
-    gun:"24 Temmuz 1923", yer:"Lozan", kisiler:"İsmet Paşa",
+    gun:"24 Temmuz 1923", yer:"Lozan", odak_yer:["Rodos","Sakız"], kisiler:"İsmet Paşa",
     d:"Türk Kurtuluş Savaşı'nı sona erdiren antlaşmayla Türkiye, Oniki Ada üzerindeki haklarından İtalya lehine, İmroz, Bozcaada ve Tavşan adaları dışındaki Doğu Ege adalarından (Limni, Midilli, Sakız, Sisam, Nikarya vb.) Yunanistan lehine vazgeçti.",
     kaynak:"TDV: lozan-antlasmasi (LOZAN ANTLAŞMASI) — gövde: \"24 Temmuz 1923’te imzalanan antlaşma\"",
     taraflar:["italya","yunanistan"], yer_id:"Rodos", etiket:["konu-antlasma"] },
