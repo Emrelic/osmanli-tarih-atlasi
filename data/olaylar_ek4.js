@@ -324,7 +324,7 @@ window.OLAYLAR_EK4 = [
   d:"Padişah fermanı valiliği hanedan içinde babadan oğula geçecek şekilde tanıdı; buna karşılık ordu mevcudu on sekiz bine indirildi, vergi İstanbul'a bağlandı, para basma ve antlaşma yapma yetkisi kaldırıldı. Mısır bir vilayet olarak kaldı ama artık ayrı bir hanedanın ülkesiydi. Hicaz ve Haremeyn idaresi Bâbıâli'ye geri döndü. Aynı tarihte tâbi katmandan doğrudan katmana dönen diğer yerleşimler: Mekke, Medine, Cidde, Yenbu.",
   statu_dogrudan:["Cidde","Yenbu"],
   kaynak:"misir", duygu:["📋"] },
-{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1841-07-13", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Londra Boğazlar Sözleşmesi", gun:"13 Temmuz 1841", yer:"Londra", yer_id:"Londra",
+{ onem:4, dunya:3, bolge_onem:4, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1841-07-13", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"], antlasma_id:"bogazlar-1841", b:"Londra Boğazlar Sözleşmesi", gun:"13 Temmuz 1841", yer:"Londra", yer_id:"Londra",
   kisiler:"Osmanlı, İngiltere, Rusya, Fransa, Avusturya, Prusya",
   d:"Hünkâr İskelesi'nin yerini alan sözleşme, barış zamanında boğazların bütün savaş gemilerine kapalı olmasını hükme bağladı. Rusya'nın tek başına kazandığı ayrıcalık böylece Avrupa'nın ortak güvencesine dönüştü; boğazlar meselesi uluslararası bir statüye kavuştu.",
   kaynak:"londra-antlasmasi", duygu:["🤝"] },

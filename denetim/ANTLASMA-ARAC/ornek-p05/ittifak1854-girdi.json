@@ -1,0 +1,8 @@
+[
+ {"no":"giriş","bolum":"Giriş","ozet":"Sultan'ın daveti üzerine Fransa imparatoru ve İngiltere kraliçesi, Rusya'nın Osmanlı topraklarına saldırısına karşı yardım etmeyi kabul eder; Osmanlı'nın mevcut sınırlarındaki varlığı Avrupa dengesi için gerekli sayılır.","yer":["İstanbul"],"konu":"siyasi"},
+ {"no":1,"bolum":"Askerî yardım","ozet":"Fransa ve İngiltere, donanmalarından sonra Osmanlı'nın Avrupa ve Asya topraklarının savunması için gereken kara birliklerini Sultan'la ortaklaşa gönderir; Osmanlı bu birliklere dostça karşılık verir.","yer":["İstanbul","Anadolu"],"konu":"askeri"},
+ {"no":2,"bolum":"Barış şartları","ozet":"Taraflar, Rus imparatorundan gelen ateşkes ya da barış önerilerini birbirine hemen bildirir; Sultan müttefiklerin bilgisi ve rızası olmadan ateşkes, barış görüşmesi, ön barış veya barış antlaşması yapmayacaktır.","yer":["İstanbul"],"konu":"siyasi"},
+ {"no":3,"bolum":"Barış şartları","ozet":"Savaşı bitiren barışın onay belgeleri değiştirildikten sonra Fransız ve İngiliz kuvvetleri çekilir; geçici işgal edilen kaleler ve mevziler kırk gün içinde ya da mümkünse daha erken Babıâli'ye teslim edilir.","yer":["İstanbul"],"konu":"askeri"},
+ {"no":4,"bolum":"Ordular ve komuta","ozet":"Yardımcı ordular harekâtta serbestçe yer alır, Osmanlı makamlarının denetimine tabi olmaz; Osmanlı makamları karaya çıkış, konaklama ve iaşede yardım eder, ordular disiplini ve mülkiyetin korunmasını üstlenir, sefer planı üç başkomutanca kararlaştırılır.","yer":["İstanbul"],"konu":"askeri"},
+ {"no":5,"bolum":"Onay","ozet":"Antlaşma imzadan itibaren altı hafta içinde ya da mümkünse daha erken İstanbul'da onaylanıp belgeleri değiştirilir; Baraguey d'Hilliers, Stratford de Redcliffe ve Mustafa Reşid Paşa imzalamıştır.","yer":["İstanbul"],"konu":"onay"}
+]

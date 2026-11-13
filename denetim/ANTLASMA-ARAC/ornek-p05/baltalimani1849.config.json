@@ -1,0 +1,14 @@
+{
+ "id": "baltalimani-1849",
+ "ad": "Baltalimanı Sözleşmesi",
+ "anahtarlar": ["Baltalimanı Sözleşmesi"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1849-05-01",
+ "t": "1849-05-01",
+ "kadraj": [22, 40.5, 31, 48.5],
+ "yerler_ek": {"Eflak": [25.0, 44.5], "Boğdan": [27.0, 47.0], "Yaş": [27.59, 47.16], "Bükreş": [26.1, 44.43], "Baltalimanı": [29.05, 41.09]},
+ "kaynak": "Ham metin OKUNDU: 'Traité avec la Russie au sujet des Principautés moldo-valaques', fait à Balta-Liman lès-Constantinople, le 19 Avril/1er Mai 1849 (8 Djémazi-ul-akhir 1265), giriş + md. 1-7 + imza (tamamı; Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. III, Paris 1902, N° 142; archive.org tam metin/OCR). Yedi madde sayısı metindeki 'Les sept articles qui précèdent' cümlesiyle teyitli. İki taraflı (Rusya-Osmanlı); imzacı Rus elçisi Vladimir Titov (Osmanlı karşılığı Sadrazam Reşid Paşa ve Hariciye Nazırı Âlî Paşa tarafından aynı içerikli belge verildi). Önemli ayrım: bu, 1838 Baltalimanı ticaret sözleşmesi değildir. TDV: 'Baltalimanı Sahilsarayı' maddesi (saray) sözleşmeyi anmaz; 'Batılılaşma' maddesinde İngiltere ile Baltalimanı Muahedesi (tarihsiz parça, İngiltere ile; 1849 değil) anılır; 'Eflak' maddesi 1849 düzenini ayrıntılandırmaz → TDV'de 1849 sözleşmesine ayrılmış madde BULUNAMADI. GÜN: Noradounghian 19 Nisan/1 Mayıs 1849 (Jülyen/Gregoryen; 8 Cemaziyelâhir 1265) ve ayrı bir dergi makalesi (DergiPark, Trakya Üniv., 'Eflak'ın 1848 ihtilalinden sonra yeniden yapılanması: Stirbei', 1 Mayıs 1849) aynı günü verir; çelişki yok. Atlas günü 1 Mayıs 1849 (Gregoryen), kaynak günü 19 Nisan (Jülyen) beyan edilir. İkinci tam metin neşri (Hertslet, Martens NRG) okunmadı; ek akademik makale yalnız arama sonucundan özet olarak görüldü, tam metni okunmadı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_baltalimani1849.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p05/baltalimani1849-girdi.json"],
+ "madde_sayisi": 7
+}

@@ -134,6 +134,7 @@ adimlar.forEach(a => a.yer.forEach(y => { kullanilan[y] = yerler[y]; }));
 const kayit = { id: cfg.id, ad: cfg.ad, t: cfg.t, kadraj: cfg.kadraj };
 if (cfg.anahtarlar) kayit.anahtarlar = cfg.anahtarlar;
 if (cfg.onceki_t) kayit.onceki_t = cfg.onceki_t;
+if (cfg.eslesme_kipi) kayit.eslesme_kipi = cfg.eslesme_kipi;   // "acik": dugme YALNIZ maddede acik antlasma_id varsa (js/antlasma_eslesme.js)
 if (tarafSirasi.length) kayit.taraflar = tarafSirasi;
 Object.assign(kayit, { kaynak: cfg.kaynak, yerler: kullanilan, adimlar });
 const kod =

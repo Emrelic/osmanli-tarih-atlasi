@@ -1,0 +1,15 @@
+{
+ "id": "bogazlar-1841",
+ "ad": "Londra Boğazlar Sözleşmesi",
+ "anahtarlar": ["Londra Boğazlar Sözleşmesi"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1841-07-13",
+ "t": "1841-07-13",
+ "kadraj": [24, 39.5, 32, 43],
+ "yerler_ek": {},
+ "gruplama": {"tekTek": [[1, 2]], "azamiGrup": 2},
+ "kaynak": "Ham metin OKUNDU: Convention between Great Britain, Austria, France, Prussia, Russia and Turkey (Straits Convention), signed at London, 13 July 1841, giriş + md. 1-4 + imza (tamamı; İngilizce, Holland (ed.), The European Concert in the Eastern Question, Oxford 1885, Wikisource en 'The European Concert in the Eastern Question/Chapter 4'; aynı yerde 10 Temmuz 1841 protokolü ve 15 Temmuz 1840 sözleşmesinin 4. maddesi de okundu, kayda girmedi). Çok taraflı: 6 imzacı (Britanya, Avusturya, Fransa, Prusya, Rusya, Osmanlı), 4 maddelik tek metin; taraf alanı kullanılmadı. Holland plenipotansiyer adlarını '&c.' ile kısaltır; imza sırası Palmerston, Esterházy, Neumann, Bourqueney, Bülow, Brünnow, Şekib'dir. Ek hükümler yoktur. TDV: 'Boğazlar Meselesi' (Kemal Beydilli, DİA 1992) '13 Temmuz 1841, Londra Boğazlar Antlaşması' der ve içeriği metinle uyumlu özetler (boğazlar barışta yabancı savaş gemilerine kapalı, hafif gemilere ferman istisnası); aynı yazarın 'Şark Meselesi' maddesi (2010) ise '15 Temmuz 1841 tarihli Boğazlar Mukavelenâmesi' yazar (TDV içi çelişki). GÜN: Holland imza cümlesi 'Done at London, the thirteenth day of July, 1841' + TDV Boğazlar Meselesi 13 Temmuz + Noradounghian kayıt listesi (c. III, 13 Temmuz 1841; Medjmouaï IV s.216, Martens NRG II s.128, Testa III s.20 atıflı; ancak parantez içi hicrî '19 Receb 1257' bu güne uymaz, kullanılmadı) = üç kaynak 13 Temmuz'da birleşir; 15 Temmuz sapması muhtemelen 15 Temmuz 1840 Londra Sözleşmesi tarihiyle karışmadır (varsayım, doğrulanmadı); hakemli karar: 13 Temmuz. Atlas günü 13 Temmuz 1841 (Gregoryen) korundu. md. 3-4 aralık adımıdır. İkinci tam metin neşri (Noradounghian gövde metni) yalnız başlık/gün doğrulamak için bakıldı, madde metni okunmadı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_bogazlar1841.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p05/bogazlar1841-girdi.json"],
+ "madde_sayisi": 4
+}
