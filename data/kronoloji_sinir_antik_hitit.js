@@ -1,0 +1,8 @@
+// -*- coding: utf-8 -*-
+// data/kronoloji_sinir_antik_hitit.js — HİTİT/YENİ HİTİT sınır maddeleri (ANTIK-HITIT-1113, 13 Kasım 2026)
+// Kaynak: Bryce, The Kingdom of the Hittites, 2. bs., Oxford UP 2005 (PDF metni bu oturumda okundu; Bryce orta kronolojisi).
+// Yıl hassasiyeti: Bryce Kuzi-Teşub krallığının başlangıcını yıllamaz; atlas künye ucuna (yeni-hitit f) hizalanır, beyanlı.
+
+window.KRONOLOJI_SINIR_ANTIK_HITIT = [
+{"t": "-1199-01-01", "gun": "MÖ 1200 (yaklaşık; künye hizası)", "kesinlik": "onyil", "devlet": "yeni-hitit", "taraflar": ["hitit", "yeni-hitit"], "b": "Hattuşa merkezli krallığın çöküşünün ardından Karkamış, Hitit hanedanının Kuzi-Teşub kolunun elinde Yeni Hitit krallıkları arasına geçti", "tur": "siyaset", "onem": 2, "dunya": 2, "kapsam": "dis", "etiket": ["sinir", "konu-siyasi"], "yer_id": "Cerablus", "odak_yer": ["Cerablus"], "d": "Merkezî Hitit krallığı çöktüğünde hanedanın yan kolundan Kuzi-Teşub, Karkamış'ta 'Büyük Kral' unvanıyla Malatya'dan Karkamış üzerinden Emar'a uzanan Fırat batı yakasını tuttu; Melid, Kummuh ve Hamat gibi Yeni Hitit krallıkları bu alandan doğdu.", "kaynak": "Bryce, The Kingdom of the Hittites, 2. bs., Oxford UP 2005, s.349-350 — «Kuzi-Teshub's domain extended through no more than part of the eastern territories of this kingdom, along the west bank of the Euphrates from Malatya through Carchemish to Emar»", "kaynak_turu": "yazili", "ic_not_d": "Bryce yıl vermez; atlas künye ucu (-1199, Hitit t ile Yeni Hitit f; KASA kararı 13 Kasım 2026, önceki değer -1179) kullanıldı. Karkamış'ın Hitit vekâlet merkezi oluşu Suppiluliuma I'e dayanır (s.179); yerleşim kaydında Hitit dönemi başlangıcı yazılmadı. Yıl yalnız onyıl hassasiyetinde; gün teyitsiz. · ANTIK-HITIT-1113 (EMRELİC, 13 Kasım 2026)." }
+];
