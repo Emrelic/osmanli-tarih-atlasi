@@ -5143,7 +5143,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"litvanya", ad:"Litvanya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
-  f:"1918-02-16", t:"1940-08-06", ic_not_t:"ARALIĞIN ÜST UCU: USHMM-KD 'annexes them as Soviet Republics on August 3–6' — Litvanya'nın kendi günü (3 Ağustos) yalnız LOC arama özetinde, sayfadan alıntılanamadı", baskent:"Kaunas (geçici) / Vilnius (iddia)", harita:"litvanya",
+  f:"1918-02-16", t:"1940-08-03", ic_not_t:"t 1940-08-06 → 1940-08-03 (HAVVA havva-1113-avrupa-kuzey): SSCB Yüksek Sovyeti Litvanya'yı 3 Ağustos 1940'ta kabul etti (Latvia 5, Estonya 6 Ağustos). Dayanak: ABD Dışişleri FRUS 1940 v.I d421 (Moskova telgrafı, 4 Ağustos 1940: Yüksek Sovyet «dün» Litvanya SSC'yi SSCB'ye kabul etti) + Rusya Başkanlık Kütüphanesi prlib.ru 'Lithuania becomes a part of the Soviet Union' (3 Ağustos). Önceki 08-06 değeri USHMM aralığının (3–6 Ağustos) üst ucuydu.", baskent:"Kaunas (geçici) / Vilnius (iddia)", harita:"litvanya",
   ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Vilnius'u Polonya'ya kaptırınca geçici başkent Kaunas oldu. (Ağustos 1940'ta SSCB'ye ilhak edildi — USHMM.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok (arama yalnız Lipkalar maddesine düşüyor), dayanak: standart akademik kaynak",
   kronoloji:[

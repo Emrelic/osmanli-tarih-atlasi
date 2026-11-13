@@ -97,20 +97,25 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # kaynak ve çelişki çözümlerinde yeniden yazılan olay metinleri (Rovine, Bosna, Mistra, Menteşe/Saruhan/Karaman
 # vb.) ve Roma/Hitit düzeltmeleri. Çeviri işleri site bitince tek seferde (Emre, 13 Kasım). Eski değerler: arayüz 33;
 # eksik olay en/ar/es/de 313, pt 1430, ru 3526, fr 4426; bayat olay en/ar/es/de 65, pt 53.
+# 13 Kasım 2026 (KASA 13 KASIM, on üçüncü parti): tavan AÇILDI (Emre 1 Kasım kararı) — olay +5 her dilde, bayat +1
+# (en/ar/es/de): HAVVA Avrupa koordinatörü (Groningen 1594 bölünmesi, Litvanya 1940-08-03, Sion/Martigny +4 madde,
+# İtalya veri +5 madde, Mellifont Gregoryen 1603-04-09) ve UMIT antlaşma partileri (Refah/Katar madde metinleri)
+# yeni/yeniden yazılan Türkçe maddeler. Çeviri işleri site bitince tek seferde (Emre, 13 Kasım). Eski değerler:
+# eksik olay en/ar/es/de 320, pt 1434, ru 3527, fr 4427; bayat olay en/ar/es/de 70.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 48, "devlet": 2, "olay": 320},
-    "ar": {"arayuz": 48, "devlet": 2, "olay": 320},
-    "es": {"arayuz": 48, "devlet": 2, "olay": 320},
-    "de": {"arayuz": 48, "devlet": 2, "olay": 320},
-    "pt": {"arayuz": 48, "devlet": 2, "olay": 1434},
-    "ru": {"arayuz": 48, "devlet": 2, "olay": 3527},
-    "fr": {"arayuz": 48, "devlet": 2, "olay": 4427},
+    "en": {"arayuz": 48, "devlet": 2, "olay": 325},
+    "ar": {"arayuz": 48, "devlet": 2, "olay": 325},
+    "es": {"arayuz": 48, "devlet": 2, "olay": 325},
+    "de": {"arayuz": 48, "devlet": 2, "olay": 325},
+    "pt": {"arayuz": 48, "devlet": 2, "olay": 1439},
+    "ru": {"arayuz": 48, "devlet": 2, "olay": 3532},
+    "fr": {"arayuz": 48, "devlet": 2, "olay": 4432},
 }
 BEKLENEN_CEVIRI_BAYAT = {
-    "en": {"arayuz": 0, "devlet": 1, "olay": 70},
-    "ar": {"arayuz": 0, "devlet": 1, "olay": 70},
-    "es": {"arayuz": 0, "devlet": 1, "olay": 70},
-    "de": {"arayuz": 0, "devlet": 1, "olay": 70},
+    "en": {"arayuz": 0, "devlet": 1, "olay": 71},
+    "ar": {"arayuz": 0, "devlet": 1, "olay": 71},
+    "es": {"arayuz": 0, "devlet": 1, "olay": 71},
+    "de": {"arayuz": 0, "devlet": 1, "olay": 71},
     "pt": {"arayuz": 0, "devlet": 1, "olay": 57},
     "ru": {"arayuz": 0, "devlet": 1, "olay": 31},
     "fr": {"arayuz": 0, "devlet": 1, "olay": 7},
