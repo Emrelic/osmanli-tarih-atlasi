@@ -140,7 +140,9 @@ window.ANTLASMA_MADDELERI.push({
    "no": "6",
    "bolum": "Öteki sınırlar",
    "ozet": "Prut'taki yeni sınır dışında, Asya dahil bütün sınırlar savaş öncesi gibi kalır; Rusya bu sınırlar içinde fethettiği kale ve yerleri olduğu gibi Osmanlı'ya geri verir.",
-   "yer": [],
+   "yer": [
+    "Prut Nehri"
+   ],
    "konu": "sinir",
    "dogrulanmadi": false
   },
