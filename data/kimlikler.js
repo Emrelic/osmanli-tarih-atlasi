@@ -324,7 +324,7 @@ window.KIMLIKLER = {
   "avustralya": { ad:"Avustralya Milletler Topluluğu", f:"1901-01-01", t:"1923-10-29", bolge:"okyanusya", harita:null },
   // --- Oturum 3'ün eklediği 16 yeni kayıt (girdi: oturumlar/OTURUM-12-KIMLIK.md) ---
   "iskocya": { ad:"İskoçya Krallığı", f:"843-01-01", t:"1707-05-01", bolge:"bati-avrupa", harita:null },
-  "irlanda": { ad:"İrlanda (Gal Beylikleri ve Krallığı)", f:"1200-01-01", t:"1603-03-30", bolge:"bati-avrupa", harita:null },
+  "irlanda": { ad:"İrlanda (Gal Beylikleri ve Krallığı)", f:"1200-01-01", t:"1603-04-09", bolge:"bati-avrupa", harita:null }, // ic_not_takvim: t = Jülyen 30 Mart 1603 (Mellifont, Tyrone'un teslimi; İngiliz idaresindeki İrlanda'da 1752'ye dek Jülyen; libraryireland «Hugh O'Neill's Submission», bazı neşirlerde 31 Mart) = Gregoryen 9 Nisan 1603 (+10 gün; HAVVA-1113, CLAUDE.md Takvim kuralı). DIB «O'Neill, Hugh» açılamadı: gün ±1 teyitsiz
   "irlanda-serbest-devlet": { ad:"İrlanda Serbest Devleti", f:"1922-12-06", t:"1923-10-29", bolge:"bati-avrupa", harita:null },
   "bretanya": { ad:"Bretanya Dükalığı", f:"939-01-01", t:"1532-08-13", bolge:"bati-avrupa", harita:null },
   "burgonya": { ad:"Burgonya Dükalığı (Valois)", f:"1032-01-01", t:"1482-03-27", bolge:"bati-avrupa", harita:null },
