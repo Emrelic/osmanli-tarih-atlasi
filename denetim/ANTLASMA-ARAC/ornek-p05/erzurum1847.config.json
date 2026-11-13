@@ -1,0 +1,14 @@
+{
+ "id": "erzurum-1847",
+ "ad": "II. Erzurum Antlaşması",
+ "anahtarlar": ["II. Erzurum Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1847-05-31",
+ "t": "1847-05-31",
+ "kadraj": [40, 29.5, 50, 40.5],
+ "yerler_ek": {"Zohab": [45.86, 34.46], "Süleymaniye": [45.43, 35.56], "Muhammere": [48.18, 30.43], "Hızır Adası": [48.3, 30.35], "Şattülarap": [48.0, 30.5]},
+ "kaynak": "Ham metin OKUNDU: 'Traité avec la Perse', conclu à Erzeroum le 16 Djémazi-ul-akhir 1263 (30/31 Mai 1847), md. 1-9 + imza (tamamı; Fransızca çeviri, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. III, Paris 1902, N° 140; Noradounghian bu çevirinin Martens-Cussy neşrinden farklı olduğunu belirtir; archive.org tam metin/OCR). Aynı ciltteki N° 141 (26 Şubat/9 Mart 1848 İngiliz-Rus ortak notu: Muhammere demirlemesi tanımı, sağ kıyının Osmanlı'da kaldığı beyanı) yardımcı olarak okundu, maddelere girmedi. İki taraflı (Osmanlı-İran; arabulucular İngiltere ve Rusya); Osmanlı adına Enverî Sa'dullah Efendi, İran adına Mirza Muhammed Taki Han. TDV: 'Erzurum Antlaşması' için ayrı madde YOK (arama 'madde başlığı bulunamadı'); 'Abadan' maddesi şehrin 1847 Erzurum Antlaşması'yla İran'a geçtiğini söyler (yalnız yıl, gün yok). GÜN ÇELİŞKİSİ (beyan): Noradounghian kayıt listesi 30 Mayıs 1847, ancak metin başlığı ve imza satırı '16 Djémazi-ul-akhir 1263' der; tablo hesabıyla 16 Cemaziyelâhir 1263 = 31 Mayıs 1847 (±1 gün tablo belirsizliği) ve Encyclopaedia Iranica ('Boundaries I', Ādamīyat'a atıfla) 16 Jomādā II 1263/31 Mayıs 1847 verir. İki kaynak 31 Mayıs'ta birleşir (Noradounghian'ın kendi hicrî tarihi dahil); TDV günü yok; atlas günü 31 Mayıs 1847 korundu. Osmanlı onayı 11 Receb 1263 (24 Haziran 1847; Noradounghian). İngiliz arşiv belgelerinde İran ve Osmanlı tarafının antlaşmayı 1847/1848 diye farklı tarihlediği anılır (belge okunmadı). Atlas kaynak sayılmadı. Iranica yalnız arama sonucu özeti olarak görüldü, tam metni okunmadı.",
+ "cikti": "data/antlasma_madde_erzurum1847.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p05/erzurum1847-girdi.json"],
+ "madde_sayisi": 9
+}
