@@ -227,7 +227,7 @@ window.OLAYLAR_EK17 = [
   d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
-{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:2, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"], antlasma_id:"yedi-ada-1800",
   b:"Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları",
   gun:"21 Mart 1800",
   yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
