@@ -198,20 +198,20 @@ window.DEVLETLER = [
 },
 
 { id:"altinorda", ad:"Altın Orda (Deşt-i Kıpçak Hanlığı)", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1242-01-01", t:"1502-01-01", baskent:"Saray", harita:"altinorda",
+  f:"1242-01-01", t:"1502-01-01", ic_not_f:"ÇELİŞKİ-1113 ALTIN-ORDA: TDV «Altın Orda Hanlığı» «1241-1502», Batu 1241'de Orda merkezini kurdu; atlas f 1242 (yıl) ↔ TDV 1241 [yalnız yıl teyitli; ≤1 yıl fark, ~50 yerleşim dilimi 1242-01-01'den başlıyor, taşınmadı]. 1441 «Kırım, Kazan, Astrahan, Sibir ayrıştı» tek tarih değil: Kazan 1437/1445, Sibir 1420-30, Astarhan 1466, Kırım 1441-43 (Hacı Giray; sikke yılı). 1395: bkz. kronoloji maddesi (Terek 15 Nisan 1395).", baskent:"Saray", harita:"altinorda",
   ozet:"Moğol kökenli bozkır imparatorluğu (hanedan ömrü, Cuci ulusu); Batu Han'ın 1241'de İdil'de kurduğu merkezden doğdu, Şeyh Ahmed Han döneminde parçalanarak Kırım, Kazan, Nogay, Astarhan ve Sibir hanlıklarına bölündü, 1502'de fiilen sona erdi.",
   kaynak:"altin-orda-hanligi",
   kronoloji:[
     { odak_yer:["Donets bozkırı"], t:"1242-01-01", tur:"kurulus", b:"Batu Han, Altın Orda'yı kurdu" },
     { t:"1380-09-08", tur:"toprak-kayip", b:"Kulikovo'da Moskova Knezliği'ne yenildi — Rus bağımsızlığının başlangıcı" },
-    { t:"1395-01-01", tur:"isgal", b:"Timur'un istilası, Saray tahrip edildi" },
+    { t:"1395-04-15", tur:"isgal", b:"Timur'un istilası, Saray tahrip edildi", kaynak:"ÇELİŞKİ-1113 ALTIN-ORDA: TDV «Toktamış Han»: Terek muharebesi 15 Nisan 1395 (23 Cemâziyelâhir 797); TDV «Altın Orda Hanlığı» «Nisan 1395». Atlasın yıl yer tutucusu 1395-01-01 → 15 Nisan. «Saray tahrip edildi» ifadesi TDV «Toktamış Han»da YOK (kaynaksız, ikinci akademik kaynak OKUNMADI) [gün: TDV Terek]." },
     { t:"1441-01-01", tur:"bolunme", b:"Kırım, Kazan, Astrahan ve Sibir hanlıkları ayrıştı" },
     { t:"1502-01-01", tur:"son", b:"Büyük Orda, Kırım Hanlığı tarafından dağıtıldı" }
   ]
 },
 
 { id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1441-01-01", t:"1783-04-19", baskent:"Bahçesaray", harita:"kirim",
+  f:"1441-01-01", t:"1783-04-19", ic_not_f:"ÇELİŞKİ-1113 ALTIN-ORDA: Hacı Giray'ın tahta çıkış/bağımsızlık günü TDV «Hacı Giray I»da «kesin olarak bilinmemektedir» (1427 sonrası, 1428, 1449 görüşleri; 845/1441-42 ve 847/1443 sikkeleri) — 1441 yalnız sikke terminus'u, ilan günü DEĞİL [yalnız yıl teyitli]. Kefe: TDV «Kefe» «Safer 880 / Haziran 1475», gün YOK; künye içi 1475-06-01 (kronoloji) ↔ 1475-06-06 (tabi f) tutarsız — ay teyitli, gün teyitsiz. 1502: kronoloji 01-01 ↔ olaylar_ek5 03-01 (ay/gün TDV'de yok).", baskent:"Bahçesaray", harita:"kirim",
   tabi:[{f:"1475-06-06", t:"1774-07-21", ust:"osmanli"}],
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kaynak:"kirim",
@@ -2696,7 +2696,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kazan", ad:"Kazan Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1437-01-01", t:"1552-10-02", baskent:"Kazan", harita:"kazan",
+  f:"1437-01-01", t:"1552-10-02", ic_not_t:"ÇELİŞKİ-1113 ALTIN-ORDA — AÇIK: Kazan'ın düşüşü atlas 1552-10-02 (~20 yerleşim dilimi) ↔ olaylar_dunya_bolge_1109 1552-10-15 (atlas içi) ↔ TDV «Kazan Hanlığı» «15 Ekim 1552». Rus kaynaklarında yaygın gün 2 Ekim 1552 (Jülyen; 1582 öncesi kaynak günü yazılır) = 12 Ekim Gregoryen — TDV'nin 15 Ekim'i Jülyen→Gregoryen çevirisiyle de tutmuyor. Hakemli ikinci kaynak (Kołodziejczyk, Halperin, İnalcık, Öztürk) OKUNAMADI → teyit çıkmadı; gün DEĞİŞMEDİ, TDV 15 Ekim alternatif.", baskent:"Kazan", harita:"kazan",
   ozet:"Altın Orda'nın dağılmasıyla Uluğ Muhammed'in kurduğu, İdil-Ural bölgesinin önemli bir İslâm ve ticaret merkezi olan hanlık; IV. İvan tarafından ilhak edildi. (kaynak: TDV, madde: kazan)",
   kaynak:"kazan-hanligi",
   kronoloji:[
@@ -2704,7 +2704,7 @@ window.DEVLETLER = [
     { odak_yer:["Suzdal"], t:"1445-07-07", tur:"savas", b:"Uluğ Muhammed Suzdal yakınında Rusları yener; Büyük Knez Vasili esir düşer, 200.000 ruble fidye öder ve Kâsım Hanlığı'nın kurulmasına izin verir.", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
     { odak_yer:["Kazan"], t:"1467-01-01", tur:"hukumdar", b:"İbrâhim, Halil'i tahttan indirerek Kazan hanı olur (1467-1478).", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
     { odak_yer:["Kazan"], t:"1467-01-01", tur:"savas", b:"Ekim 1467'de Kâsım'ın ve III. İvan'ın gönderdiği kuvvetler Kazan'a saldırır ve geri püskürtülür.", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
-    { odak_yer:["Moskova"], t:"1487-01-01", tur:"antlasma", b:"III. İvan'ın seferi sonucu Moskova yanlısı bir han tahta çıkarıldı, hanlık fiilen vasal oldu" },
+    { odak_yer:["Moskova"], t:"1487-07-09", tur:"antlasma", b:"III. İvan'ın seferi sonucu Moskova yanlısı bir han tahta çıkarıldı, hanlık fiilen vasal oldu", kaynak:"TDV İslâm Ansiklopedisi, «Kazan Hanlığı»: Kazan «9 Temmuz 1487 tarihinde» Ruslar'ın eline geçti (WebFetch özeti; ÇELİŞKİ-1113 ALTIN-ORDA: atlas yıl yer tutucusu 1487-01-01 → TDV günü; ikinci akademik kaynak OKUNMADI)" },
     { odak_yer:["Moskova","Kazan"], t:"1506-05-22", tur:"savas", b:"Muhammed Emin'in Moskova'ya karşı açtığı seferde Rus ordusu Kazan'da yenilir (22 Mayıs 1506).", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
     { odak_yer:["Kazan"], t:"1506-06-22", tur:"savas", b:"Rus orduları Kazan önünde ikinci kez yenilir (22 Haziran 1506).", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
     { odak_yer:["Moskova","Kazan"], t:"1519-01-01", tur:"hukumdar", b:"Moskova'nın adayı Şah Ali Kazan tahtına geçer.", kaynak:"https://islamansiklopedisi.org.tr/kazan-hanligi (TDV, Kazan Hanlığı)" },
@@ -7963,7 +7963,7 @@ window.DEVLETLER = [
 }
 ,
 { id:"sibir-hanligi", ad:"Sibir Hanlığı", tur:"hanlik", bolge:"orta-asya",
-  f:"1430-01-01", t:"1598-08-20", baskent:"Çimgi-Tura → Sibir (İsker)", harita:"sibir-hanligi",
+  f:"1430-01-01", t:"1598-08-20", ic_not_f:"ÇELİŞKİ-1113 ALTIN-ORDA: TDV «Sibir Hanlığı»: Şeybânî Hacı Muhammed (1420-1430), oğlu Mahmutek (1430-?) — 1430 kuruluş değil Mahmutek'in başlangıcı; kuruluş 1420 civarı [yalnız yıl teyitli; künye f yıl düzeyinde 1430 kaldı]. Yermak: Küçüm 25 Ekim 1581 gecesi İsker'den ayrıldı, Yermak 26 Ekim 1581 İsker'e girdi (TDV «Küçüm Han»; atlasta madde 1581-01-01 yıl düzeyinde).", baskent:"Çimgi-Tura → Sibir (İsker)", harita:"sibir-hanligi",
   ozet:"Altın Orda'nın dağılmasından sonra Tura, Tobul ve İşim nehirleri arasında kurulan Şeybânî hanlığı; başşehrin Sibir (İsker) şehrine taşınmasıyla bu adı aldı. Tayboğa ve Şeybânî hânedanları arasındaki çekişme 1563'te Küçüm Han'ın tahtı ele geçirmesiyle sonuçlandı. Stroganovlar'ın 1581'de gönderdiği Yermak önderliğindeki Kazak birliği hanlığın sonunu getiren süreci başlattı; Rusya'nın Sibirya'ya açılan kapısı burasıydı. ⚠️ VERİ DEVLET (7 Ağustos 2026) BİRLEŞTİRDİ: aynı devleti temsil eden mükerrer kayıt `sibir` (f:1420-01-01, t:1598-01-01, harita:'siz, renk YOK, veride 0 kullanım) kaldırıldı — bu kayıt zaten `harita:`/`kaynak:` ile bağlıydı ve TDV'nin verdiği \"1593-1604\" tamamlanma aralığıyla tutarlı, o yüzden bu kayıt tutuldu.",
   kaynak:"sibir-hanligi",
   kronoloji:[
