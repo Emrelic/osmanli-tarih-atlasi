@@ -52,9 +52,9 @@ window.OLAYLAR_P0917TARAF = [
   d:"İkinci bir Fransız-Osmanlı düzenlemesi, Tunus ile Trablusgarp vilayeti arasındaki sınırı öncekinden daha ayrıntılı biçimde ve iç kesimde Gadames'e kadar belirledi. Bugünkü sınırı çizen asıl belge on sekiz yıl sonra imzalanacak Trablus Sözleşmesi'dir.",
   kaynak:"IBS 121 (1972) s.2 ('A second agreement in 1892 delimited the boundary with greater accuracy ... as far as Ghudamis')", duygu:["🤝"] },
 
-{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", odak_yer:["Refah","Mısır","Taba"], t:"1906-10-01", kesinlik:"ay", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+{ onem:3, dunya:1, bolge_onem:3, puan_s:"v2", tur:"antlasma", kapsam:"ic", odak_yer:["Refah","Mısır","Taba"], t:"1906-10-01", kesinlik:"gun", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Refah Anlaşması — Osmanlı ile Mısır Hidivliği arasındaki Refah-Taba hattı tarif edildi",
-  gun:"Ekim 1906 (gün kaynakta yok)", yer:"Refah, Sina", yer_id:"", kisiler:"",
+  gun:"1 Ekim 1906", yer:"Refah, Sina", yer_id:"", kisiler:"",
   d:"1906 Akabe-Taba bunalımının ardından Osmanlı ve Hidiv komiserleri Refah'ta bir idarî ayırma hattı üzerinde anlaştı; hat Akabe Körfezi'ndeki Ras Taba'dan Refah'taki iki sütunun ortasına uzanıyordu. Karma heyet aynı yılın sonu ile ertesi yıl şubatı arasında hat boyunca doksan bir kâgir sütun dikti. Bu hat bugünkü Mısır-İsrail ve Mısır-Gazze sınırıdır.",
   kaynak:"Taba hakem kararı, RIAA XX (1988) Ek B s.114-116 (anlaşma metni) ve §54-59 (dikim) · IBS 46", duygu:["🤝"] },
 
