@@ -28,11 +28,89 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
     });
   }
+  // EMRELIC 13 Kasım 2026: eşleşme ORTAK yardımcıya taşındı (js/antlasma_eslesme.js: anahtarlar[],
+  // antlasma_id, pencere_gun). Yardımcı yoksa (script sırası/önbellek) ESKİ kural aynen çalışır.
   function eslesen(o) {
+    if (window.ANTLASMA_ESLESME) return window.ANTLASMA_ESLESME.eslesen(o);
     var b = String((o && (o.b || o.baslik)) || "");
     return (window.ANTLASMA_MADDELERI || []).filter(function (k) {
       return b.indexOf(k.ad) >= 0 && gunFarki(o.t, k.t) <= 60;
     })[0] || null;
+  }
+  // ---- ADIM BAŞLIĞI: çok taraflı antlaşmada `taraf` ayrı alan (LAB/Karlofça pilotu, KASA 13 Kasım) ----
+  // adım.taraf="Venedik", no="3"  →  "Venedik md. 3";  taraf yoksa  →  "md. 3" (Lozan/Sevr: değişmedi).
+  // ESKİ KAYIT uyumu: taraf yok ve no "Venedik 3" biçimindeyse (bölüm-başına string) taraf/no AYRIŞTIRILIR
+  // (yalnız görüntü; veri değişmez): "Venedik 3" → "Venedik md. 3".
+  function adimTarafNo(a) {
+    var taraf = a.taraf ? String(a.taraf).trim() : "", no = String(a.no == null ? "" : a.no).trim();
+    if (!taraf) {
+      var m = /^([^\d]*[^\d\s])\s+(\d[\d–\-]*)$/.exec(no);
+      if (m) { taraf = m[1]; no = m[2]; }
+    }
+    return { taraf: taraf, no: no };
+  }
+  function adimBaslik(a) {
+    var x = adimTarafNo(a);
+    return (x.taraf ? x.taraf + " md. " : "md. ") + x.no;
+  }
+  // Taraf süzgeci: kayıtta ≥ 2 farklı taraf varsa panelde "Tüm taraflar / Habsburg / Venedik …" seçici.
+  function tarafSecici(kayit) {
+    var gor = [], taraflar = [];
+    (kayit.adimlar || []).forEach(function (a) {
+      var t = adimTarafNo(a).taraf;
+      if (t && gor.indexOf(t) < 0) { gor.push(t); taraflar.push(t); }
+    });
+    if (taraflar.length < 2) return "";
+    return '<div class="amo-donem"><span>Taraf:</span><select class="amo-taraf"><option value="">Tüm taraflar</option>' +
+      taraflar.map(function (t) { return '<option value="' + esc(t) + '">' + esc(t) + "</option>"; }).join("") + "</select></div>";
+  }
+  // ---- ÖNCE | SONRA (harita tarihi) -----------------------------------------
+  // ÖNCE = kayıt.onceki_t (yoksa antlaşma günü − 1) · SONRA = kayıt.sonra_t (yoksa antlaşma günü).
+  // Harita tarihi app.js'in genel `tarihAyarla(gün)`ı ile değişir; oynatıcı ✕ ile KAPATILIRKEN açılıştaki
+  // tarih geri yüklenir (madde değişimiyle kapanışta DEĞİL: o zaman yeni madde kendi tarihine gitmiştir).
+  function tarihKullanilabilir() {
+    return typeof tarihAyarla === "function" && window.GUN && window.ANTLASMA_ESLESME;
+  }
+  function donemGunu(k, donem) {
+    var E = window.ANTLASMA_ESLESME;
+    return donem === "savas" ? E.savasOncesiGun(k) : donem === "once" ? E.oncekiGun(k) : E.sonrakiGun(k);
+  }
+  function donemAyarla(donem) {
+    if (!AKTIF || !tarihKullanilabilir()) return;
+    var k = AKTIF.kayit;
+    if (AKTIF.oncekiTarih == null && typeof suanki !== "undefined") AKTIF.oncekiTarih = suanki;
+    AKTIF.donem = donem;
+    AKTIF.donemKilit = Date.now() + 4000;      // obGoster sarmalayıcısı bu süre içinde paneli kapatmaz (aşağıda)
+    try { tarihAyarla(GUN.gun(donemGunu(k, donem))); AKTIF.tarihDegisti = true; }
+    catch (e) { console.warn("[antlaşma oynatıcı] tarih", e); }
+    var p = AKTIF.panel;
+    ["savas", "once", "sonra"].forEach(function (d) {
+      var b = p.querySelector(".amo-" + d);
+      if (b) b.classList.toggle("amo-ac", donem === d);
+    });
+    adimGoster(AKTIF.i);
+  }
+  // Bir yerin o günkü sahibi (haritadan TÜRETİLİR; veri yazılmaz). Yoksa null.
+  function sahipAdiGunde(yerAdi, gunStr) {
+    try {
+      var Y = (window.YERLESIMLER || []).filter(function (y) { return y.ad === yerAdi; })[0];
+      if (!Y || !window.SUZGEC || !SUZGEC.sahipAnahtari || typeof _sahipAdi !== "function") return null;
+      return _sahipAdi(SUZGEC.sahipAnahtari(Y, gunStr));
+    } catch (e) { return null; }
+  }
+  function etkiSatirlari(k, adim) {
+    var cik = [], E = window.ANTLASMA_ESLESME;
+    (adim.etki || []).forEach(function (e) {      // elle yazılmış etki (türetilemeyen durumlar)
+      cik.push(esc(e.yer) + ": " + esc(e.once || "?") + " → " + esc(e.sonra || "?") + (e.not ? " · " + esc(e.not) : ""));
+    });
+    if (cik.length || !E) return cik;
+    var o = E.etkiOnceGun(k), s = E.sonrakiGun(k);
+    (adim.yer || []).slice(0, 6).forEach(function (ad) {
+      var a = sahipAdiGunde(ad, o), b = sahipAdiGunde(ad, s);
+      if (a == null || b == null) return;
+      cik.push(esc(ad) + ": " + esc(a) + (a === b ? " (değişmedi)" : " → " + esc(b)));
+    });
+    return cik;
   }
   function hazirMi() {
     return typeof harita !== "undefined" && harita && typeof harita.fitBounds === "function";
@@ -48,6 +126,8 @@
       ".amo-dugmeler{display:flex;gap:6px;align-items:center}.amo-dugmeler button{cursor:pointer;padding:3px 9px;border:1px solid #0a2f5c;border-radius:4px;background:#fff;color:#0a2f5c;font-size:14px}" +
       ".amo-dugmeler button.amo-ac{background:#0a2f5c;color:#fff}.amo-kayar{width:100%;margin-top:4px}" +
       ".amo-kaynak{font-size:11px;color:#555;margin-top:4px}" +
+      ".amo-donem{display:flex;gap:6px;align-items:center;margin:4px 0;font-size:12px}.amo-donem button{cursor:pointer;padding:2px 10px;border:1px solid #0a2f5c;border-radius:4px;background:#fff;color:#0a2f5c}.amo-donem button.amo-ac{background:#0a2f5c;color:#fff}" +
+      ".amo-etki{font-size:12px;color:#333;margin:2px 0}" +
       ".amo-isaret{width:14px;height:14px;border-radius:50%;background:#c0392b;border:2px solid #fff;box-shadow:0 0 0 2px #c0392b;pointer-events:none}" +
       ".amo-etiket{position:absolute;left:18px;top:-4px;white-space:nowrap;font:600 12px sans-serif;color:#7b1d12;text-shadow:0 0 3px #fff,0 0 3px #fff}";
     document.head.appendChild(st);
@@ -69,11 +149,12 @@
 
   function adimGoster(i) {
     if (!AKTIF) return;
-    var k = AKTIF.kayit, n = k.adimlar.length;
+    var k = AKTIF.kayit, L = AKTIF.liste, n = L.length;     // L: taraf süzgecinden geçen görünür adımlar
+    if (!n) return;
     i = Math.max(0, Math.min(n - 1, i));
     AKTIF.i = i;
-    var a = k.adimlar[i], p = AKTIF.panel;
-    p.querySelector(".amo-ust b").textContent = k.ad + " — md. " + a.no + "  (" + (i + 1) + "/" + n + ")";
+    var a = L[i], p = AKTIF.panel;
+    p.querySelector(".amo-ust b").textContent = k.ad + " — " + adimBaslik(a) + "  (" + (i + 1) + "/" + n + ")";
     var m = p.querySelector(".amo-metin");
     m.textContent = a.dogrulanmadi ? "⚠ İÇERİK DOĞRULANMADI — " + a.ozet : a.ozet;
     m.style.background = a.dogrulanmadi ? "#fff3cd" : "";
@@ -82,6 +163,11 @@
     p.querySelector(".amo-bolum").textContent = a.bolum || "";
     p.querySelector(".amo-kaynak").textContent = "Kaynak: " + (a.kaynak || k.kaynak || "");
     p.querySelector(".amo-kayar").value = String(i);
+    var et = p.querySelector(".amo-etki");
+    if (et) {                                   // ÖNCE→SONRA sahiplik etiketleri (haritadan türetilir / adımda `etki[]`)
+      var satirlar = etkiSatirlari(k, a);
+      et.innerHTML = satirlar.length ? "<b>Haritada (ÖNCE → SONRA):</b><br>" + satirlar.join("<br>") : "";
+    }
     isaretleriTemizle();
     if (!hazirMi()) return;
     var pts = yerNoktalari(k, a);
@@ -119,15 +205,21 @@
     var b = AKTIF.panel.querySelector(".amo-oyna");
     b.textContent = "⏸"; b.classList.add("amo-ac");
     AKTIF.zaman = setInterval(function () {
-      if (AKTIF.i >= AKTIF.kayit.adimlar.length - 1) { durdur(); return; }
+      if (AKTIF.i >= AKTIF.liste.length - 1) { durdur(); return; }
       adimGoster(AKTIF.i + 1);
     }, ARALIK_MS);
   }
-  function kapat() {
+  // geriYukle=true: kullanıcı ✕/düğme ile KAPATTI → ÖNCE|SONRA yüzünden değişen harita tarihi açılıştaki değere döner.
+  // (Madde değişimiyle kapanışta geriYukle YOK: yeni madde kendi tarihine gitmiştir, ezilmemeli.)
+  function kapat(geriYukle) {
     if (!AKTIF) return;
+    var eski = AKTIF;
     durdur(); isaretleriTemizle();
     if (AKTIF.panel && AKTIF.panel.parentNode) AKTIF.panel.parentNode.removeChild(AKTIF.panel);
     AKTIF = null;
+    if (geriYukle === true && eski.tarihDegisti && eski.oncekiTarih != null && typeof tarihAyarla === "function") {
+      try { tarihAyarla(eski.oncekiTarih); } catch (e) { console.warn("[antlaşma oynatıcı] tarih geri", e); }
+    }
   }
 
   function panelKur(kayit, kap) {
@@ -136,7 +228,13 @@
     p.className = "amo-panel";
     p.innerHTML =
       '<div class="amo-ust"><b></b><button type="button" class="amo-kapat" title="Kapat" style="cursor:pointer;border:0;background:none;font-size:15px">✕</button></div>' +
-      '<div class="amo-bolum"></div><div class="amo-metin"></div>' +
+      '<div class="amo-bolum"></div><div class="amo-metin"></div><div class="amo-etki"></div>' +
+      ((kayit.onceki_yok || !tarihKullanilabilir()) ? "" :
+        '<div class="amo-donem"><span>Harita:</span>' +
+        (kayit.onceki_t ? '<button type="button" class="amo-savas" title="Savaştan önce (' + esc(donemGunu(kayit, "savas")) + ')">SAVAŞ ÖNCESİ</button>' : "") +
+        '<button type="button" class="amo-once" title="Antlaşmadan önceki gün (' + esc(donemGunu(kayit, "once")) + ')">' + (kayit.onceki_t ? "ANTLAŞMA ÖNCESİ" : "ÖNCE") + '</button>' +
+        '<button type="button" class="amo-sonra" title="Antlaşma günü (' + esc(donemGunu(kayit, "sonra")) + ')">SONRA</button></div>') +
+      tarafSecici(kayit) +
       '<div class="amo-dugmeler"><button type="button" class="amo-basa" title="Başa">⏮</button>' +
       '<button type="button" class="amo-geri" title="Geri">◀</button>' +
       '<button type="button" class="amo-oyna" title="Oynat / duraklat">▶</button>' +
@@ -144,8 +242,22 @@
       '<input type="range" class="amo-kayar" min="0" max="' + (kayit.adimlar.length - 1) + '" value="0">' +
       '<div class="amo-kaynak"></div>';
     kap.appendChild(p);
-    AKTIF = { kayit: kayit, i: 0, zaman: null, panel: p, isaretler: [] };
-    p.querySelector(".amo-kapat").addEventListener("click", kapat);
+    AKTIF = { kayit: kayit, i: 0, zaman: null, panel: p, isaretler: [], liste: kayit.adimlar.slice(), taraf: "" };
+    p.querySelector(".amo-kapat").addEventListener("click", function () { kapat(true); });
+    ["savas", "once", "sonra"].forEach(function (d) {
+      var b = p.querySelector(".amo-" + d);
+      if (b) b.addEventListener("click", function () { durdur(); donemAyarla(d); });
+    });
+    var ts = p.querySelector(".amo-taraf");
+    if (ts) ts.addEventListener("change", function (e) {
+      durdur();
+      var t = e.target.value;
+      AKTIF.taraf = t;
+      AKTIF.liste = t ? AKTIF.kayit.adimlar.filter(function (a) { return adimTarafNo(a).taraf === t; }) : AKTIF.kayit.adimlar.slice();
+      var ky = AKTIF.panel.querySelector(".amo-kayar");
+      ky.max = String(Math.max(0, AKTIF.liste.length - 1));
+      adimGoster(0);
+    });
     p.querySelector(".amo-basa").addEventListener("click", function () { durdur(); adimGoster(0); });
     p.querySelector(".amo-geri").addEventListener("click", function () { durdur(); adimGoster(AKTIF.i - 1); });
     p.querySelector(".amo-ileri").addEventListener("click", function () { durdur(); adimGoster(AKTIF.i + 1); });
@@ -164,7 +276,7 @@
     btn.style.cssText = "cursor:pointer;padding:4px 10px;border-radius:4px;border:1px solid #0a2f5c;background:#fff;color:#0a2f5c";
     btn.textContent = "▶ Maddeleri tek tek oynat (" + kayit.adimlar.length + " adım)";
     btn.addEventListener("click", function () {
-      if (AKTIF && AKTIF.kayit === kayit) { kapat(); return; }
+      if (AKTIF && AKTIF.kayit === kayit) { kapat(true); return; }
       kapat();
       panelKur(kayit, kutu);
     });
@@ -180,9 +292,22 @@
   window.obGoster = function (o) {
     var r = eski.apply(this, arguments);
     try {
+      // ÖNCE|SONRA haritanın tarihini değiştirir → uygulama o güne ait maddeyi KENDİSİ açar (obGoster başka madde
+      // ile çağrılır) ve eski kapat() oynatıcıyı kapatırdı (13 Kasım tarayıcı sınaması). Kilit süresince panel
+      // yeni kartın #ob-ozel'ine TAŞINIR, kapatılmaz; kullanıcı ✕ ile kapatır (tarih geri yüklenir).
+      if (AKTIF && AKTIF.donemKilit && Date.now() < AKTIF.donemKilit) {
+        var oz = document.getElementById("ob-ozel");
+        if (oz && AKTIF.panel) {
+          var kt = document.createElement("div");
+          kt.className = "ob-kutu";
+          kt.appendChild(AKTIF.panel);
+          oz.appendChild(kt);
+        }
+        return r;
+      }
       kapat();   // madde değişince oynatıcı ve işaretler kalkar
       var k = eslesen(o);
-      if (k) dugmeEkle(k);
+      if (k && k.adimlar && k.adimlar.length) dugmeEkle(k);   // adımsız (yarım) kayıtta düğme ÇIKMAZ
     } catch (e) { console.error("[antlaşma oynatıcı]", e); }
     return r;
   };
