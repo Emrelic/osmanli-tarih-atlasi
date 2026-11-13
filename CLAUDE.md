@@ -188,6 +188,14 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 - **Atlas referans değildir:** atlasın kendi dönemi, künye günü, koordinatı dayanak olamaz;
   çelişkide atlas düzelir. Komşu kaydın günü yalnız kendi kaynağına dayanıyorsa ve kayda
   "gün komşudan: …" yazılarak alınır; zincirleme devralma yok.
+- **Hakemli karar** (Emre, 13 Kasım 2026): bir kaynaktaki veri başka bir kaynakla çelişiyorsa
+  üçüncü, dördüncü kaynaklardan teyit alınarak hangisinin doğru olduğuna karar verilir. Kaynak
+  her dilden ve her devletten olabilir; tek koşul bilimsel/akademik olması (hakemli dergi,
+  akademik yayınevi, tez, birincil belge neşri). TDV ilk başvurudur ama çelişkide tek başına
+  hüküm vermez: birbirinden bağımsız (biri ötekinden kopya olmayan) en az iki akademik kaynak
+  TDV'ye karşı aynı günü veriyorsa o gün seçilir; teyit çıkmazsa ya da eşitse TDV günü kalır.
+  Karar `ic_not`a yazılır: çelişen kaynaklar + teyit edenler (dil, yazar, yıl, sayfa) + seçilen
+  gün + gerekçe. Okunamayan kaynak "okunmadı" diye yazılır, sayılmaz.
 - **Tarih uydurma.** Gün yoksa `YYYY-01-01`; **yıl bilinmiyorsa yıl yazılmaz.** Kaynak yıl
   diyorsa yıl yazılır. Hassasiyet açıklayan alandan okunur.
 - **Hicrî yıl:** `YYYY-01-01` yanlış güne düşer ⇒ hicrî aralık ∩ kaynağın mîlâdî yılı ∩ (varsa)
