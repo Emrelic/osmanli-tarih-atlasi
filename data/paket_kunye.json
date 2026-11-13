@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "32f0725e40659802",
-     "bayt": 6198895
+     "sha": "e1c8b35d2d7bea6a",
+     "bayt": 6201039
     }
    ],
-   "bayt": 6431644
+   "bayt": 6433788
   },
   {
    "paket": "data/paket_06.js",
@@ -688,8 +688,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "4b63497a0dc10406",
-     "bayt": 2602442
+     "sha": "a5746616081960ad",
+     "bayt": 2602886
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -752,7 +752,7 @@
      "bayt": 22778
     }
    ],
-   "bayt": 1215914
+   "bayt": 1215730
   },
   {
    "paket": "data/paket_14.js",
@@ -1329,8 +1329,8 @@
     },
     {
      "yol": "data/yerlesimler_mo_sumer.js",
-     "sha": "466bc3546635ae5c",
-     "bayt": 49440
+     "sha": "8ed2adc9bc8c9eed",
+     "bayt": 49866
     },
     {
      "yol": "data/yerlesimler_once1281_yt_amerika.js",
@@ -1399,8 +1399,8 @@
     },
     {
      "yol": "data/yerlesimler_mo_zincir.js",
-     "sha": "fcac0784d7cb6e7d",
-     "bayt": 49584
+     "sha": "f84aa695a50b9197",
+     "bayt": 51386
     },
     {
      "yol": "data/yerlesimler_mo_levant_anadolu.js",
@@ -1463,7 +1463,7 @@
      "bayt": 10147
     }
    ],
-   "bayt": 708097
+   "bayt": 707913
   },
   {
    "paket": "data/paket_25.js",
@@ -2239,8 +2239,8 @@
     },
     {
      "yol": "data/olaylar_antik_yakin_dogu.js",
-     "sha": "2102b655eb02124b",
-     "bayt": 190055
+     "sha": "a4e3c76cd0e039cf",
+     "bayt": 193509
     },
     {
      "yol": "data/olaylar_antik_akdeniz.js",
@@ -2258,7 +2258,7 @@
      "bayt": 6294
     }
    ],
-   "bayt": 1386692
+   "bayt": 1389425
   },
   {
    "paket": "data/paket_34.js",
@@ -2376,8 +2376,8 @@
     },
     {
      "yol": "data/olaylar_arkeoloji_zincir.js",
-     "sha": "81a7254c24e071e7",
-     "bayt": 117294
+     "sha": "55672473db50c0a0",
+     "bayt": 115837
     },
     {
      "yol": "data/kronoloji_cok_antik_frigya.js",
@@ -2396,11 +2396,11 @@
     },
     {
      "yol": "data/olay_taraf.js",
-     "sha": "d78336310be0a0f9",
-     "bayt": 287349
+     "sha": "6f833ef52d923f14",
+     "bayt": 287337
     }
    ],
-   "bayt": 508100
+   "bayt": 506831
   },
   {
    "paket": "data/paket_31.js",

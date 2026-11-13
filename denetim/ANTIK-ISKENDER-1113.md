@@ -47,3 +47,12 @@ Pella, Aigai, İskenderiye, Patna. Antigonos, Lizimakhos, Kassandros künyelerin
    ölüm (10/11 Haz 323) mevcut. Persepolis giriş (30 Ocak 330, Livius) ve Darius'un ölümü (c. 17 Temmuz 330) maddesi YOK — eklenmedi
    (künye ucuyla birlikte karar gerekir, madde 1).
 7. Motor tuzu dosyalarına dokunulmadı; paketler `paketle yenile` ile tazelendi (üç paket + kunye + index damgası).
+
+## 5. KASA kararları sonrası ikinci geçiş (ANTIK-ISKENDER-1113-B)
+
+- **(a) Künye uzatma:** `iskender-imparatorlugu` t −0322-06-10 → **−0309-01-01** (IV. Aleksandros'un öldürülmesi, MÖ 310; Livius «Alexander IV»; yıl düzeyi, gün YOK; MÖ 309 çelişkisi `ic_not_t`ta). Yeni künye açılmadı. Argead nominal süreklilik BEYANLI YAKLAŞIKLIK olarak her dönemin `kaynak:`ında.
+  Dolduranlar: Babil ve Uruk −0330-10-22…−0310-01-01 (Seleukos başı; BOSLUK kalktı) · Hemedan −0329-01-01…−0311-01-01 (BOSLUK −0329…−0327 ve −0322…−0311 kalktı) · Pasargad …−0309 (sonra BOSLUK −0279'a) · Susa …−0309 (bit −0309). Ptolemai/İskenderiye çakışmaz.
+  Kronoloji: IV. Aleksandros maddesi eklendi; üretilmiş dönem-kırılma maddeleri (−0327 silindi, −0329/−0310 yeniden adlandırıldı, −0322-06-10 → −0309 Pasargad/Susa) elle hizalandı.
+- **(b) antigonos / antigonos-krallik:** ölçüm — antigonos-krallik: 2 yerleşim dönemi (Kıbrıs şehirleri), 4 olay_taraf, 2 sınır maddesi, 7 çeviri, BOYALAR; antigonos: 1 olay_taraf (ortak), 7 çeviri, BOYALAR, 0 yerleşim. Birleştirme çeviri + renkler.py (motor tuzu) gerektirir ⇒ ayrıştırıldı: antigonos künyesine "mükerrer, yerleşim yazılmaz" ic_not'u, olay_taraf bağı antigonos-krallik'e çevrildi. Silme/birleştirme motor oturumu işi.
+- **(c) Ahamenis ucu:** −0329-07-17'ye ÇEKİLMEDİ. Darius ölümü gün kaynağı yalnız Livius (c. 17 Temmuz); Arrianos gün vermez; ≥2 bağımsız gün kaynağı bulunamadı ⇒ yıl düzeyi korundu, `ic_not_t` beyanı. Persepolis (Livius 30 Ocak 330, tek gün kaynağı) ve Darius ölümü (Temmuz 330) maddeleri **ay düzeyinde** eklendi (olaylar_antik_yakin_dogu.js).
+- **Borçlar:** yeni 3 maddenin çevirileri (çeviri eşitliği, 7 dil) yazılmadı; Persepolis noktası −0329'da bitiyor (Makedon dönemi yazılmadı); Sippar/Ur hâlâ Ahamenis'te; Diadokh fiilî sahipleri için `diadokh-asya` künyesi (BOYALAR) hâlâ öneri.
