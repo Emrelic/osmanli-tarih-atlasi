@@ -6771,14 +6771,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"irlanda", ad:"İrlanda (Gal Beylikleri ve Krallığı)", tur:"krallik", bolge:"bati-avrupa",
-  f:"1000-01-01", t:"1603-03-30", ic_not_t:"t'ye dokunulmadı.", ic_not_f:"1000-01-01 bir KURULUŞ tarihi değil, atlas kuşağının PENCERE UCUDUR (sınır işareti). Gal krallıkları 1000'den çok önce vardır (DIB, 997 Brian–Máel-Sechnaill uzlaşması, 999 Glenn Máma). Kaynaklı tek kuruluş günü yoktur; künye kuşak başına çekildi.", baskent:"(çok merkezli Gal beylikleri) → Dublin", harita:"irlanda",
+  f:"1000-01-01", t:"1603-04-09", ic_not_t:"t'ye dokunulmadı.", ic_not_takvim:"Jülyen 30 Mart 1603 (Mellifont, Tyrone'un teslimi; İngiliz idaresindeki İrlanda'da 1752'ye dek Jülyen; libraryireland «Hugh O'Neill's Submission», bazı neşirlerde 31 Mart) = Gregoryen 9 Nisan 1603 (+10 gün; HAVVA-1113, CLAUDE.md Takvim kuralı). DIB «O'Neill, Hugh» açılamadı: gün ±1 teyitsiz", ic_not_f:"1000-01-01 bir KURULUŞ tarihi değil, atlas kuşağının PENCERE UCUDUR (sınır işareti). Gal krallıkları 1000'den çok önce vardır (DIB, 997 Brian–Máel-Sechnaill uzlaşması, 999 Glenn Máma). Kaynaklı tek kuruluş günü yoktur; künye kuşak başına çekildi.", baskent:"(çok merkezli Gal beylikleri) → Dublin", harita:"irlanda",
   ozet:"Norman istilası sonrası İngiliz nüfuzuyla iç içe yaşayan Gal beylikleri ve krallığı; Dokuz Yıl Savaşları'nın Mellifont Antlaşması'yla bitmesiyle İngiliz fethi tamamlandı (1922'deki bağımsızlık dönüşü için bkz. [[irlanda-serbest-devlet]]).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { odak_yer:["Dublin"], t:"1171-01-01", tur:"isgal", b:"II. Henry'nin Norman-İngiliz seferi adaya ayak bastı" },
     { odak_yer:["Dublin"], t:"1541-01-01", tur:"bolunme", b:"VIII. Henry kendini \"İrlanda Kralı\" ilan etti" },
     { odak_yer:["Dublin"], t:"1594-01-01", tur:"isyan", b:"Dokuz Yıl Savaşları (Tyrone İsyanı) başladı" },
-    { odak_yer:["Dublin"], t:"1603-03-30", tur:"son", b:"Mellifont Antlaşması ile son Gal direnişi bitti, İngiliz fethi tamamlandı" }
+    { odak_yer:["Dublin"], t:"1603-04-09", ic_not_takvim:"Jülyen 30 Mart 1603 (Mellifont, Tyrone'un teslimi; İngiliz idaresindeki İrlanda'da 1752'ye dek Jülyen; libraryireland «Hugh O'Neill's Submission», bazı neşirlerde 31 Mart) = Gregoryen 9 Nisan 1603 (+10 gün; HAVVA-1113, CLAUDE.md Takvim kuralı). DIB «O'Neill, Hugh» açılamadı: gün ±1 teyitsiz", tur:"son", b:"Mellifont Antlaşması ile son Gal direnişi bitti, İngiliz fethi tamamlandı" }
   ]
 },
 { id:"irlanda-serbest-devlet", ad:"İrlanda Serbest Devleti", tur:"devlet", bolge:"bati-avrupa",
