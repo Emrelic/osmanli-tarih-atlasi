@@ -345,7 +345,7 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"Uppsalalı doğa bilimci Carl Linnaeus, canlıları sınıflandıran ilk sistematik eseri Systema Naturae'yi yayımladı. Eser, sonraki Species Plantarum (1753) ile birlikte modern taksonominin ve ikili adlandırma sisteminin temelini attı.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_kon:[52.16,4.497] },
-{ t:"1737-01-10", b:"Osmanlı-İsveç ilk ticaret ahidnâmesi imzalandı", tur:"ekonomi", onem:3, dunya:1, kapsam:"dis",
+{ t:"1737-01-10", b:"Osmanlı-İsveç ilk ticaret ahidnâmesi imzalandı", tur:"antlasma", onem:3, dunya:1, kapsam:"dis",
   etiket:["ekonomi","diplomasi","konu-diplomasi","konu-ekonomi"],
   d:"XII. Karl'ın Bender borcu meselesinin sürdüğü görüşmeler sonunda iki devlet arasında ilk resmî ticaret ahidnâmesi imzalandı. Antlaşma, İsveç tüccarlarına Osmanlı sularında ticaret hakkı tanıdı.",
   kaynak:"isvec (TDV, içerik okundu)", yer_id:"İstanbul" },
