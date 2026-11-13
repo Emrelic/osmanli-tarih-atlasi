@@ -24,7 +24,7 @@ window.ANTLASMA_MADDELERI.push({
   "Habsburg",
   "Venedik"
  ],
- "kaynak": "OKUNAN (ham/neşir metin): A General Collection of Treatys, Declarations of War, Manifestos… Vol. IV (Londra 1732; Latince asıldan İngilizce çeviri), s. 401-428, archive.org nüshası generalcollectio04whatuoft (djvu OCR metni, curl ile indirildi, satır satır okundu; OCR/İngilizce yer adı biçimleri: Parakin=Paraçin, Schachak=Şabaç, Unna=Una, Aluta=Olt, Carlowitz=Karlofça, 'Cerigo'=Çuka). ① Habsburg–Osmanlı barışı: giriş + md. 1-20 + imza (21 Temmuz 1718; Virmont/Talman, Ibrahim Aga/Mehmed Aga; arabulucular Robert Sutton ve James Colyer) + Habsburg beyanı (Kutsal İttifak sürer; 21 Temmuz 1718) + VI. Karl onayı (Viyana, 12 Ağustos 1718). ② Venedik–Osmanlı belgesi: giriş + md. 1-26 + imza (Carlo Ruzzini; 21 Temmuz 1718); bu metin Wikisource/benzeri başka bir ham nüshayla çapraz okunmadı. Noradounghian, Recueil d’actes internationaux de l’Empire ottoman, t. I (archive.org recueildactesin03turkgoog) Pasarofça’yı yalnız listeler ('1718 Juillet 21 … signé à Passarowitz'; Belgrad 1739 metnindeki bir göndermede 22 Temmuz yazılı) — metin vermez; 1739 temessükünde 'Passarowitz 21 juillet' geçer. GÜN: TDV 'Pasarofça Antlaşması' (WebFetch özetleyici aracıyla okundu, ham gövde değil): 22 Şaban 1130 (21 Temmuz 1718), Avusturya 20 madde / Venedik 26 madde (ham metinle birebir uyuşur), 24 yıl süre (ham metin: 24 kameri yıl), arabulucular İngiltere ve Hollanda, 27 Temmuz tarihli ayrı 20 maddelik ticaret antlaşması. Gün tüm kaynaklarda 21 Temmuz 1718; İngiliz kaynağında Jülyen 10 Temmuz (kronoloji kaydı ic_not’unda beyanlı) — atlas günü Gregoryen 21 Temmuz. ULAŞILAMAYAN/OKUNMAYAN: TDV ham gövde; 27 Temmuz 1718 ticaret antlaşması (TDV’den yalnız varlığı); Latince asıl; Venedik metninin ikinci nüshası; Hurewitz, Düstur; Habsburg/Venedik sınır komisyonu raporları. Maddelerdeki yer adları İngilizce çeviriden Türkçeleştirildi, yaklaşık odaktır. Özetler KENDİ cümlemizle.",
+ "kaynak": "OKUNAN (ham/neşir metin): A General Collection of Treatys, Declarations of War, Manifestos… Vol. IV (Londra 1732; Latince asıldan İngilizce çeviri), s. 401-428, archive.org nüshası generalcollectio04whatuoft (djvu OCR metni, curl ile indirildi, satır satır okundu; OCR/İngilizce yer adı biçimleri: Parakin=Paraçin, Schachak=Şabaç, Unna=Una, Aluta=Olt, Carlowitz=Karlofça, 'Cerigo'=Çuka). ① Habsburg–Osmanlı barışı: giriş + md. 1-20 + imza (21 Temmuz 1718; Virmont/Talman, Ibrahim Aga/Mehmed Aga; arabulucular Robert Sutton ve James Colyer) + Habsburg beyanı (Kutsal İttifak sürer; 21 Temmuz 1718) + VI. Karl onayı (Viyana, 12 Ağustos 1718). ② Venedik–Osmanlı belgesi: giriş + md. 1-26 + imza (Carlo Ruzzini; 21 Temmuz 1718); bu metin Wikisource/benzeri başka bir ham nüshayla çapraz okunmadı. Noradounghian, Recueil d’actes internationaux de l’Empire ottoman, t. I (archive.org recueildactesin03turkgoog) Pasarofça Habsburg metnini Latince olarak verir (nora1.txt ~15100-15175. satırlar; md. 10-12 LAB tarafından bu metinle doğrulandı); Venedik metni Noradounghian’da bulunamadı, Venedik maddeleri tek kaynaklıdır (1732 çeviri; ikinci kaynak aranıyor) (Belgrad 1739 metnindeki bir göndermede 22 Temmuz yazılı); 1739 temessükünde 'Passarowitz 21 juillet' geçer. GÜN: TDV 'Pasarofça Antlaşması' (WebFetch özetleyici aracıyla okundu, ham gövde değil): 22 Şaban 1130 (21 Temmuz 1718), Avusturya 20 madde / Venedik 26 madde (ham metinle birebir uyuşur), 24 yıl süre (ham metin: 24 kameri yıl), arabulucular İngiltere ve Hollanda, 27 Temmuz tarihli ayrı 20 maddelik ticaret antlaşması. Gün tüm kaynaklarda 21 Temmuz 1718; İngiliz kaynağında Jülyen 10 Temmuz (kronoloji kaydı ic_not’unda beyanlı) — atlas günü Gregoryen 21 Temmuz. ULAŞILAMAYAN/OKUNMAYAN: TDV ham gövde; 27 Temmuz 1718 ticaret antlaşması (TDV’den yalnız varlığı); Latince asıl; Venedik metninin ikinci nüshası; Hurewitz, Düstur; Habsburg/Venedik sınır komisyonu raporları. Maddelerdeki yer adları İngilizce çeviriden Türkçeleştirildi, yaklaşık odaktır. Özetler KENDİ cümlemizle.",
  "yerler": {
   "Pasarofça": [
    21.19,
@@ -353,7 +353,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Habsburg md. 12",
    "taraf": "Habsburg",
    "bolum": "Osmanlı–Habsburg barışı",
-   "ozet": "Esirler imzadan sonra 61 gün içinde serbest bırakılır; Eflak voyvodası Scarlatti ile oğulları, Yedikule’deki iki Habsburg baronuyla değiştirilir; özel kişilerdeki esirler makul fidyeyle kurtulur.",
+   "ozet": "Esirler imzadan sonra 61 gün içinde serbest bırakılır; voyvoda Scarlatti ile oğulları (metin yalnız «voyvoda» der; Latince metinde değişim için 31 günlük süre vardır, İngilizce çeviride yoktur), Yedikule’deki iki Habsburg baronuyla değiştirilir; özel kişilerdeki esirler makul fidyeyle kurtulur.",
    "yer": [
     "İstanbul",
     "Eflak"
@@ -486,7 +486,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Venedik md. 2",
    "taraf": "Venedik",
    "bolum": "Osmanlı–Venedik barışı",
-   "ozet": "Dubrovnik toprakları Osmanlı’ya bağlı kalır; Venedik’in elindeki Popovo, Zarine, Ottovo ve Subzi Osmanlı’ya geri verilir; Dubrovnik’in Osmanlı ile bağlantısı engellenmez.",
+   "ozet": "Dubrovnik toprakları Osmanlı topraklarına bitişik kalır (Castelnovo ve Risano tarafından kesilmez); Venedik’in elindeki Popovo, Zarine, Ottovo ve Subzi Osmanlı’ya geri verilir; Dubrovnik’in Osmanlı ile bağlantısı engellenmez.",
    "yer": [
     "Dubrovnik",
     "Popovo"
@@ -522,7 +522,7 @@ window.ANTLASMA_MADDELERI.push({
    "no": "Venedik md. 5",
    "taraf": "Venedik",
    "bolum": "Osmanlı–Venedik barışı",
-   "ozet": "Dalmaçya, Hersek, Arnavutluk ve Takımadalar’da sınırı belirlemek üzere iki tarafın eşit sayıdaki komiserleri imzadan üç ay sonra toplanır ve iki ayda görevlerini bitirir.",
+   "ozet": "Dalmaçya, Hersek, Arnavutluk ve Takımadalar’da sınırı belirlemek üzere iki tarafın eşit sayıda maiyetle gelen komiserleri imzadan üç ay sonra toplanır ve iki ayda görevlerini bitirir.",
    "yer": [
     "Dalmaçya",
     "Hersek",
