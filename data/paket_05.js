@@ -169,6 +169,12 @@ window.DEVLETLER = [
   ]
 },
 
+{ id:"kacar-esterabad", ad:"Kaçar Beyliği (Esterâbâd, Muhammed Hasan Han)", tur:"beylik", bolge:"iran",
+  f:"1747-06-20", t:"1759-02-13", baskent:"Esterâbâd", harita:"kacar-esterabad",
+  ozet:"Nâdir Şah'ın ölümü üzerine Esterâbâd'a dönen Kaçar reisi Muhammed Hasan Han'ın kurduğu beylik; 1750'de bağımsızlığını ilân edip Mâzenderan ve Gîlân'ı aldı, 1757'de Azerbaycan'a yöneldi; 13 Şubat 1759'da Kerim Han Zend'in ordusuna yenilip öldürülünce dağıldı. 1789'da Ağa Muhammed Han'ın kurduğu Kaçar devletinin (bkz. [[kacar]]) öncülüdür.",
+  kaynak:"f: TDV `kacarlar`: «Nâdir Şah’ın ölümü üzerine (1747) Muhammed Hasan Han Esterâbâd’a geldi» — yıl; gün Nâdir'in ölüm gününe bağlandı (1747-06-20, TDV nadir-sah--iran) · 1750: «Süleyman Şah’ın tahttan indirilmesi üzerine (1750) Muhammed Hasan Han bağımsızlığını ilân etti» · t: «kaçarken öldürüldü (15 Cemâziyelâhir 1172 / 13 Şubat 1759)» · post-it #173",
+  not:"f: YIL kaynaklı, gün Nâdir Şah'ın ölümüne bağlı (BEYANLI). TDV kerim-han-zend ölümü 1758 diye anar; TDV kacarlar günü verir (13 Şubat 1759) — gün kaynağı kacarlar.",
+  kronoloji:[] },
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
   f:"1789-03-21", t:"1925-10-31", baskent:"Tahran", harita:"kacar",
   ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. Ardılı için bkz. [[iran]]. `harita:` alanı ayrıca aynı gün `\"iran\"`den `\"kacar\"`a çekildi (bkz. `afsar` kaydındaki not — aylardır `afsar` ile aynı anahtarı paylaşıyordu). 🔴 ÇELİŞKİ ÇÖZÜLMEDİ, BİLDİRİLDİ (§4⑥, M-3555, 1.MURAT'ın kendi doğrulaması): (a) künyenin BEYAN ETTİĞİ kaynak `kacarlar` YALNIZ YIL veriyor — \"Kaçar hânedanı sona ermiş oldu (1925)\", gün yok ⇒ t: bu yüzden GÜN DEĞİL YIL hassasiyetinde (1925-01-01), §4'ün 'kaynağın desteklediği en kaba güvenli düzey' kuralı. (b) TDV `riza-sah-pehlevi` maddesi ise \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diyor — 1925 İLE ÇELİŞİYOR. (c) AMA aynı `riza-sah-pehlevi` maddesinin SONRAKİ iki tarihi (12 Aralık 1925 şehinşah ilanı · 25 Nisan 1926 taç giyme) yaygın tarihlemeyle BİREBİR uyuşuyor — yalnız İLK tarih (31 Ocak 1924 hal') ayrışıyor ve 12 Aralık 1925'e kadar 23 aylık bir boşluk bırakıyor. Hangisinin doğru olduğu BU KAYITTA ÇÖZÜLMÜYOR.",

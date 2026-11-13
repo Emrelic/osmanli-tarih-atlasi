@@ -1485,6 +1485,7 @@ BOYALAR = {
     #   edilebilir), LAFZI sağlanamıyor. Gizlenmiyor.
     "afsar":      ("Afşâr Devleti (Nâdir Şah)", "#f488fc"),
     "kacar":      ("Kaçar Hanedanı (İran)",     "#c840a8"),
+    "kacar-esterabad": ("Kaçar Beyliği (Esterâbâd)", "#e8507a"),
     # ═══ İLHANLI SONRASI BEŞ HANEDAN — RENK 2, 7 Ağustos 2026 ═══
     # Beşi de İran'ın 1155-1597 arası bölgesel hanedanları; hiçbirinin veride
     # penceresi YOK ⇒ `renk_olc.komsuluk()` beşini de ölçemez. Her biri için

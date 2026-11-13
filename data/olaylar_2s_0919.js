@@ -272,12 +272,21 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"J. H. Marsh, 'Toronto Feature: Fort Rouillé', The Canadian Encyclopedia (Historica Canada), https://www.thecanadianencyclopedia.ca/en/article/toronto-feature-fort-rouille — AYNEN: \"In 1750, they built a second post on the Humber, and in 1751 a fort, this time on the present grounds of Exhibition Place.\" · hassasiyet: YIL" },
 
 // ── 1751 ─────────────────────────────────────────────────────────────
+{ bolge:1, t:"1750-01-01", kesinlik:"yil", b:"Kaçar Muhammed Hasan Han bağımsızlığını ilân etti; Mâzenderan ve Gîlân'ı aldı", tur:"siyaset", onem:2, dunya:1, kapsam:"dis", yer_id:"Sârî",
+    etiket:["siyaset","toprak-kazanc","konu-siyasi"],
+    d:"Afşar Süleyman Şah'ın tahttan indirilmesi üzerine Esterâbâd'daki Kaçar reisi Muhammed Hasan Han bağımsızlığını ilân etti; Esterâbâd ve Cürcân'dan başka Mâzenderan ve Gîlân'ı da idaresine aldı.",
+    kaynak:"TDV `kacarlar` — «Süleyman Şah’ın tahttan indirilmesi üzerine (1750) Muhammed Hasan Han bağımsızlığını ilân etti» · hassasiyet: YIL · post-it #173" },
 { bolge:1, t:"1751-01-01", b:"Ahmed Şah Dürrânî Belh'i ülkesine kattı", tur:"fetih", onem:2, dunya:2, kapsam:"dis", yer_id:"Belh",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Afgan hükümdarı Ahmed Şah Dürrânî Belh'i kendi egemenlik alanına kattı.",
   kaynak:"TDV `belh` — AYNEN: \"1751'de Afgan Şahı Ahmed Dürrânî Belh'i kendi egemenlik alanı içine aldı.\" · hassasiyet: YIL" },
 
 // ── 1752 ─────────────────────────────────────────────────────────────
+{ bolge:1, t:"1751-01-01", kesinlik:"ay", b:"Kerim Han Zend İsfahan'a hâkim oldu — İran'da Afşar hâkimiyeti yerini Zend idaresine bıraktı", tur:"siyaset", onem:3, dunya:2, kapsam:"dis", yer_id:"Isfahan",
+    etiket:["siyaset","toprak-kazanc","konu-siyasi"],
+    d:"Nâdir Şah'ın ölümünden (1747) sonra İsfahan ve Irâk-ı Acem Afşar şahları Âdil Şah (6 Temmuz 1747) ve İbrâhim Şah (8 Aralık 1748) adına yönetildi. Kerim Han Zend 1751 Ocak'ında İsfahan'a dönerek duruma hâkim oldu. Horasan, Şâhruh idaresinde Afşarlar'da kaldı.",
+    kaynak:"TDV `kerim-han-zend` — «1751 yılının Ocak ayında İsfahan’a dönerek duruma hâkim oldu» · TDV `avsarlilar` (Âdil Şah 6 Temmuz 1747, İbrâhim Şah 8 Aralık 1748) · hassasiyet: AY (gün teyitsiz) · post-it #173",
+    ic_not:"Nâdir Şah'ın ölüm günü TDV maddeleri arasında çelişkili: `avsarlilar` 21 Mayıs 1747, `nadir-sah--iran` 20 Haziran 1747; atlas 20 Haziran'ı kullanır." },
 { bolge:1, t:"1752-01-01", b:"İşim boyunda Rus Petropavlovsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Petropavlovsk (Kızılcar)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Petropavlovsk bir Rus kalesi olarak kuruldu ve kısa sürede Rusya ile Orta Asya ve Kazak bozkırı arasındaki ticaretin önemli merkezi oldu.",
@@ -290,6 +299,11 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Encyclopaedia Iranica, 'ARĀK', https://www.iranicaonline.org/articles/arak — AYNEN: \"The present town was founded in 1223/1808 by the general Yūsof Khan Gorǰī, who named it Solṭānābād\" · hassasiyet: YIL" },
 
 // ── 1818 ─────────────────────────────────────────────────────────────
+{ bolge:1, t:"1759-02-13", b:"Kaçar Muhammed Hasan Han Kerim Han Zend'in ordusuna yenildi ve öldürüldü; Esterâbâd, Mâzenderan ve Gîlân Zend idaresine geçti", tur:"savas", onem:2, dunya:1, kapsam:"dis", yer_id:"Esterâbâd (Gürgân)",
+    etiket:["savas","toprak-kazanc","konu-askeri"],
+    d:"Kerim Han'ın ordusu Kaçarlar'ı ağır bir yenilgiye uğrattı; Muhammed Hasan Han kaçarken öldürüldü, oğlu Ağa Muhammed Şîraz'a götürüldü. Kaçar beyliğinin Hazar kıyısındaki toprakları Zend idaresine girdi.",
+    kaynak:"TDV `kacarlar` — «Yapılan savaşta Muhammed Hasan Han yenildi ve kaçarken öldürüldü (15 Cemâziyelâhir 1172 / 13 Şubat 1759)» · post-it #173",
+    ic_not:"TDV `kerim-han-zend` aynı olayı 1758 yılına koyar; gün TDV `kacarlar`dan (hicrî ve mîlâdî birlikte veriliyor)." },
 { bolge:1, t:"1818-01-01", b:"Beaufort (Beaufort West) kasabası kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Beaufort West",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"İngiliz Ümit Burnu Kolonisi'nde, Karoo'daki Hooyvlakte çiftliği üzerinde Beaufort kasabası kuruldu.",
