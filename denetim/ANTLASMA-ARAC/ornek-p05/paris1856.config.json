@@ -1,0 +1,15 @@
+{
+ "id": "paris-1856",
+ "ad": "Paris Antlaşması",
+ "anahtarlar": ["Paris Antlaşması"],
+ "eslesme_kipi": "acik",
+ "onceki_t": "1856-03-30",
+ "t": "1856-03-30",
+ "kadraj": [19, 39.5, 45, 47.5],
+ "yerler_ek": {"Kars": [43.09, 40.6], "Batum": [41.64, 41.65], "Sivastopol": [33.53, 44.62], "Balaklava": [33.6, 44.5], "Kamış": [33.45, 44.5], "Gözleve": [33.37, 45.2], "Kerç": [36.47, 45.36], "Yenikale": [36.6, 45.38], "Kinburn": [31.5, 46.55], "Tuna": [28.2, 44.95], "İsakça": [28.46, 45.27], "Akkerman": [30.35, 46.2], "Bolgrad": [28.62, 45.69], "Boğdan": [27.0, 47.0], "Eflak": [25.0, 44.5], "Bükreş": [26.1, 44.43], "Sırbistan": [20.9, 44.0], "Aland Adaları": [20.0, 60.2]},
+ "gruplama": {"tekTek": [[7, 14], [20, 22], [27, 27], [30, 34]], "azamiGrup": 5},
+ "kaynak": "Ham metin OKUNDU: General Treaty between Great Britain, Austria, France, Prussia, Russia, Sardinia and Turkey, signed at Paris, March 30, 1856, md. 1-34 + Ek ve Geçiş Maddesi + imza (tamamı; İngilizce, Holland (ed.), The European Concert in the Eastern Question, Oxford 1885, Wikisource en 'The European Concert in the Eastern Question/Chapter 6'); aynı kaynakta ekli Boğazlar Sözleşmesi (4 md) ve Rusya-Osmanlı Karadeniz Sözleşmesi (3 md) tam metin olarak okundu. Aland Sözleşmesi Holland'da 'Doğu Sorunu'nu ilgilendirmediği için çıkarılmıştır: içeriği OKUNMADI (Ek 3, işaretli). 15 Nisan 1856 Britanya-Avusturya-Fransa üçlü garanti antlaşması ayrı belge olup bu kayda girmedi. Çok taraflı antlaşma: taraf başına numaralandırma YOKTUR, 34 maddelik tek metin; 7 imzacı (Britanya, Avusturya, Fransa, Prusya, Rusya, Sardinya, Osmanlı), bu yüzden taraf alanı kullanılmadı. md. 33 Holland'da köşeli parantezli (sonradan eklenen) maddedir; metin imza günü Aland sözleşmesine atıf yapar. md. 2-6, 15-19, 23-26 ve 28-29 aralık adımıdır. TDV 'Paris Antlaşması' (Kemal Beydilli, DİA c. 34, 2007) okundu: 30 Mart 1856, 34 madde, onayların teatisi 27 Nisan 1856, Kars'ın geri verilmesi, Karadeniz'in tarafsızlaştırılması, Boğazlar sözleşmesinin yenilenmesi, Eflak-Boğdan'ın birleşme teklifinin reddi, Tuna komisyonu ve Aland'ın silahsızlandırılması metinle uyumlu; TDV 'Boğazlar Meselesi' (Beydilli, 1992) 1856 hükümlerini aynı biçimde özetler. GÜN: Holland imza cümlesi 'Done at Paris, the thirtieth day of the month of March, 1856' + TDV 30 Mart 1856 = çift teyit, çelişki yok. İkinci bağımsız akademik neşir (Noradounghian, Hurewitz) okunmadı. Atlas kaynak sayılmadı.",
+ "cikti": "data/antlasma_madde_paris1856.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p05/paris1856-girdi.json"],
+ "madde_sayisi": 34
+}
