@@ -14,6 +14,14 @@
 
 Yeni beyanlı BOŞLUK: Rengat 1590-1615. Beyanlı yaklaşıklıklar: Luoyang 1641-44 (Ming adı resmî), Kolhapûr 1659-60 işgali ve 1673-75 Panhala kalesi ayrı dilim yazılmadı, Taiyuan 895-896 dilimi yazılmadı.
 
+## D4D-3 (14 Kasım 2026) — üç zayıf kaynaklı kararın güçlendirilmesi (karar DEĞİŞMEDİ)
+
+Ölçüm (taze paket, ayrı worktree): d4d_liste ihlal 0 / once(4d) 0 / künyesiz 0; D1 306 (≤312); D1b beyansız 0. Yalnız `kaynak`/`ic_not` metni değişti.
+
+- **Vijaya künye f 1773-01-01:** Ku Boon Dar, «Tay Son Uprising (1771-1802) in Vietnam: Mandated by Heaven?», Univ. Sains Malaysia (eprints.usm.my/44429; PDF okundu; Liang Zhiming'e dayanır): Nhạc tutsak taklidiyle kapıyı açtırdı, «conquered it in 1773» — akademik **yıl** teyidi; ay/gün yok. Dutton (UH Press 2006) JSTOR içindekiler/özet düzeyinde: hile anlatımı var, tarih satırı ve sayfa okunmadı; Washington Üniv. 2001 Dutton tezi PDF'i 24 MB (okuma sınırı aştı, okunmadı). Taylor 2013, Li Tana okunmadı. Eylül 1773 (Quý Tỵ 9. ay) yalnız baonghean.vn'de; Tạp chí NCLS makalesi bulunamadı. Yıl hassasiyeti kalır.
+- **Luoyang 1641-44:** Ming shi 309 yeniden okundu: «十四年正月攻河南…城遂陷，福王常洵遇害»; 十六年 «河南、湖廣、江北諸賊莫不聽命»; 十七年 «山東、河南遍設官吏，所至無違者» (1644 Shun memurları Henan'da → 1644-04-25 sınırını destekler). 1641-43 için Luoyang'ın fiilî sahibini adıyla veren cümle yok. Parsons/Wakeman/Cambridge HC c.7/Struve erişilemedi (okunmadı); Ming adı beyanlı yaklaşıklık olarak kaldı.
+- **Taiyuan künye f 0896-01-01:** gan-zhi JDN formülü yeniden hesaplandı: 甲申 = Jülyen 895-12-21, 乙未 = 896-01-01 (ortalama yeni ay ~20 Ara 895 ile uyumlu). Kaynaklar: ZZTJ 260 乙未 (12. ay); Jiu Wudai shi 26 «乙未…進封晉王» (aynı gün; ZZTJ ile bağımsız sayılmaz, ikisi Shilu'dan); **Jiu Tangshu 20 上 «十二月甲申朔，制…進封晉王» (ferman günü 895-12-21 — 11 gün fark)**; Xin Wudai shi 4 yalnız «封晉王» (ay 11, gün yok); Xin Tangshu 10'da 895 yazısında Jin wang cümlesi yok. Hakem: iki kaynak 乙未, tek kaynak 甲申 → kayıt kalır, fark `ic_not`ta beyan. NAOJ/Sinocal sorgulanamadı; Cambridge HC c.3/5, Wang Gungwu okunmadı. Taiyuan 895-896 dilimi (Tang) yazılı değil, beyanlı.
+
 ## İlk tur (13 Kasım) — ÇÖZÜLEN 21 kayıt (sınıf)
 
 Ankara (selcuklu 1290'a uzatıldı), Reşt/Lâhîcan/Bender Enzeli ve Sârî/Âmül/Bârfurûş/Eşref (künye f'ye kısaltıldı + beyanlı BOŞLUK), Hotin, Bonga, Cimma, Colo, Transvaal, Oranj (kısaltma + beyanlı BOŞLUK), Mantova (bonacolsi 1281-1328-08-16), Cusco (kuzco-krallik 1438'e uzatıldı), Cirebon/Purwokerto (sunda-pajajaran künye t 1527-06-22'ye uzatıldı), Freistadt/Linz/Gmünd (almanya 1281-1282-12-27).

@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "69d09285fbd06c05",
-     "bayt": 6247771
+     "sha": "3a3aa793042e52c7",
+     "bayt": 6248352
     }
    ],
-   "bayt": 6480520
+   "bayt": 6481101
   },
   {
    "paket": "data/paket_06.js",
@@ -394,8 +394,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_dogu_500_1281.js",
-     "sha": "df82c27896405ab5",
-     "bayt": 846225
+     "sha": "2b5058b32d5d9728",
+     "bayt": 847527
     },
     {
      "yol": "data/kronoloji_sinir_cin_sanguo.js",
@@ -723,8 +723,8 @@
     },
     {
      "yol": "data/yerlesimler_asya.js",
-     "sha": "621b822f9079b5d4",
-     "bayt": 1368210
+     "sha": "bb2c8f4b456bf746",
+     "bayt": 1368858
     },
     {
      "yol": "data/yerlesimler_ek.js",
