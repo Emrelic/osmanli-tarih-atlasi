@@ -115,3 +115,12 @@ Aynı dosyaya dokunan paketler: **P1+P2** (js/app.js, css) tek el; **P8+P9** (ar
 
 ## Ek — denetle çıkış kodu
 `py arac/denetle.py` bu makinede (4 çekirdek, ağır araçlar paralel) 15+ dk içinde bitmedi; çıktı D4d'den sonrasına (D5+, D8) ulaşmadan kesildi. **Çıkış kodu OKUNAMADI = ölçülemedi (2 sayılır, temiz değil).** Okunan kısım `ANALIZ-1113-ham/denetle-kismi.txt`; D1–D4d ihlal vermedi (⚠️ yalnız tavan aşımları: D2sk 5735>2246, yıl-temsilî 440>151). Tam çıkış kodu için KASA'nın push kapısı ölçümü (ayrı worktree, boş makine) esastır.
+
+## DÜZELTME (13 Kasım, aynı gün — yukarıdaki "çıkış kodu okunamadı" ve D8 "ölçülemedi" ifadeleri GEÇERSİZ)
+
+Arka planda koşan tam `py arac/denetle.py` **f4b45bb0a** üzerinde (worktree `emrelic-1113-analiz`, üretilmiş `devletler_harita.js`/`donemler.js` `coz-c` ile çözülmüş) **20 dk 30 sn** sonra bitti: **`SONUÇ: temiz`, çıkış kodu 0.** Önceki ifade, koşunun bitmeden raporlanmasından doğdu (çıktı dosyası koşu sürerken boştu).
+- **D8 ölçüldü:** D8a şehir peteği D hattını aşıyor **270 birim (tavan 273)**, 800 (hat,gün); D8b Osmanlı bölgesi yabancı gövdede **0**; D8k 45 tam kör hat; D8m 460 hat = 409 ölçülen + 45 tam kör + 6 atlanan. Gövde damgası 2026-11-13 11:21, `uret_petek 318f5183`, bölge PENCERELİ.
+- **Tavan gevşeklikleri (denetle'nin kendi önerisi):** `BEKLENEN_D8A` 273 → **270** (3 puanlık gerileme görünmez); `BEKLENEN_BELGESIZ` 4 → **3**; `BEKLENEN_ASAN` 113 → **60**; D2sk tavanı AŞILMIŞ (5735 > 2246) ve yıl-temsilî 440 > 151 (ihlal değil, borç — yukarıdaki tabloda). Tavan düşürme `arac/denetle.py` değişikliğidir → KASA/kapı elinde, P3 paketine bağlı.
+- D7e: 2151 kopuk Osmanlı parçası, tavan inf; "iyileşme: tavan 2151 yapılabilir" önerisi var. D3b: 51/51 örnek günde gövde binmesi (717300 km²; tavan 51 gün · 742663 km²).
+- Şema uyarıları değişmedi: `konum_kesinlik` 126, `s.eksklav` 247 kayıt BILINEN_ALANLAR'da yok (P9).
+- Sonuç: **kapının ölçeceği şey artık belirsiz değil; ana dalda denetle temiz.** Ölçülemeyenler listesinden "denetle çıkış kodu" ve "D8" çıkarılır; geriye `durum_tablosu.py`, Osmanlı kapsamlı TDV'siz sayı ve MERAK.md kalır.
