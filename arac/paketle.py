@@ -44,6 +44,7 @@ KÜNYE VE TAZELİK — asıl tehlike burada:
 KOMUTLAR
     py arac/paketle.py kur      ilk kurulum: paketleri yaz + index.html'i çevir
     py arac/paketle.py yenile   kaynak değiştiyse paketleri yeniden üret
+    py arac/paketle.py topla    paket-dışı küçük data betiklerini paketle (--kuru: yalnız planı göster)
     py arac/paketle.py sina     tazelik denetimi (çıkış 1 = BAYAT) — kapı bunu çağırır
     py arac/paketle.py durum    ne paketlenmiş, kaç istek kazanılmış
 """
@@ -484,6 +485,207 @@ def ekle():
 
 
 # ---------------------------------------------------------------------------
+# TOPLA — paket-dışı küçük data betiklerini paketle (IDEMPOTENT)
+# ---------------------------------------------------------------------------
+# 🆕 13 Kasım 2026 (EMRELIC, P1 adım 1) — ÖLÇÜLDÜ, tahmin değil (f4b45bb0a):
+#   index.html'de 261 yerel <script src>: 30 paket + 19 js/ + 212 PAKET-DIŞI data.
+#   Paket-dışı 212'nin 193'ü <200 KB (toplam 7,6 MB). `kur` 29 Eylül'de bir kez
+#   koştu; CLAUDE.md "yeni data/*.js → index.html'e <script> satırı" dediği için
+#   sonradan gelen her dosya tek başına etiket oldu. Bu komut o birikimi eritir.
+# KURALLAR (sıra = anlam — `kur`un `_plan` kuralının aynısı + daha katı):
+#   · küme yalnız ardışık, ARASINDA YORUM/METİN OLMAYAN etiketlerden kurulur
+#   · etiket BİREBİR `<script src="data/x.js[?v=…]"></script>` olmalı; defer /
+#     async / type / crossorigin vb. HERHANGİ bir öznitelik → küme KAPANIR
+#   · `?v=` damgası kümeyi BÖLMEZ: damga dosya içeriğinden türeyen bir önbellek
+#     anahtarıdır, anlam taşımaz; paket kendi damgasını `surum_damgala`dan alır
+#   · data/ dışı, dış URL, ≥ TEK_BASINA, diskte olmayan, index'te iki kez geçen
+#     ya da zaten pakette olan dosya → küme KAPANIR (dokunulmaz)
+#   · yalnız TEK dosyalık küme paket olmaz (kazanç yok) — ama önceki paketin
+#     hemen ardından geliyorsa o PAKETE EKLENİR (istek sayısı düşer)
+# IDEMPOTENS: ikinci koşuda paket-dışı küçük dosya kalmadığı için hiçbir şey
+#   yapmaz; sonradan eklenen <script> satırları ya hemen önündeki pakete ya da
+#   yeni bir pakete girer (çoğalma yok: paket sayısı yalnız yeni küme kadar artar).
+SADE_ETIKET = re.compile(r'<script src="([^"?]+)(?:\?v=[^"]*)?"></script>')
+
+
+def _kosu_uretimi_mi(yol, tamyol):
+    """HAVVA'nın tam koşusunun (arac/uret_petek.py · kodla.py) her seferinde yeniden
+    ürettiği dosya mı? Pakete girerse her koşuda paket değişir, önbellek kazancı
+    yanar ve kapıda hep çatışır (CLAUDE.md: üretilen data/*.js yalnız HAVVA'nındır).
+    Başlıktaki "Otomatik üretildi" ibaresi + bilinen ad desenleri. Emin olunamayan
+    dosya PAKETLENMEZ (tek etiket olarak kalır — bir kazançtır, şart değildir)."""
+    if re.match(r"^data/(donemler|donem_|devletler_harita|devlet_harita|devlet_parca"
+                r"|bolge|petek|[\w\-]*_parca)", yol):
+        return True
+    try:
+        with io.open(tamyol, "rb") as f:
+            bas = f.read(600).decode("utf-8", "replace")
+    except OSError:
+        return True
+    return "Otomatik üretildi" in bas
+
+
+def _topla_kumeleri(html, kayitli):
+    """[(bas, son, [yol…], onceki_paket_no|None)] — html'deki konum sırasıyla."""
+    sayac = {}
+    for m in ETIKET.finditer(html):
+        y = m.group(1).split("?")[0]
+        sayac[y] = sayac.get(y, 0) + 1
+    kumeler, su = [], None
+    son_bitis, son_paket = None, None       # bir önceki etiketin bitişi / paketi
+
+    def kapat():
+        nonlocal su
+        if su and su["yollar"]:
+            kumeler.append((su["bas"], su["son"], su["yollar"], su["onceki"]))
+        su = None
+
+    for m in ETIKET.finditer(html):
+        tam = m.group(0)
+        s = SADE_ETIKET.fullmatch(tam)
+        y = m.group(1).split("?")[0]
+        bosluk = (son_bitis is not None
+                  and not html[son_bitis:m.start()].strip())
+        ok = False
+        if s and _yerel(y) and y.startswith("data/") and sayac.get(y) == 1 \
+                and not y.startswith(PAKET_ONEK) and y not in kayitli:
+            tamyol = os.path.join(KOK, y.replace("/", os.sep))
+            ok = os.path.exists(tamyol) and os.path.getsize(tamyol) < TEK_BASINA
+            if ok and _kosu_uretimi_mi(y, tamyol):
+                ok = False
+        if ok:
+            if su is not None and not bosluk:
+                kapat()
+            if su is None:
+                onceki = son_paket if (bosluk and son_paket) else None
+                su = {"bas": m.start(), "son": m.end(), "yollar": [], "onceki": onceki}
+            su["yollar"].append(y)
+            su["son"] = m.end()
+            son_paket = None
+        else:
+            kapat()
+            # bu etiket sade bir paket etiketi mi (sonraki küme ona eklenebilir)?
+            pm = re.fullmatch(r"data/paket_(\d+)\.js", y) if (s and _yerel(y)) else None
+            son_paket = int(pm.group(1)) if pm else None
+        son_bitis = m.end()
+    kapat()
+    return kumeler
+
+
+def _topla_isle(kumeler, k):
+    """Her küme için eylem listesi. -> [(bas, son, [(eylem, no, yollar)…], kalan_tek[…])]
+
+    eylem 'ekle' : kümenin TAMAMI hemen önündeki pakete eklenir (sığıyorsa)
+    eylem 'yeni' : ≥ 2 dosyalık parça yeni pakete girer
+    kalan_tek    : paketlenmeyip index.html'de olduğu gibi kalan (tek) dosyalar
+    """
+    def boyut(y):
+        return os.path.getsize(os.path.join(KOK, y.replace("/", os.sep)))
+
+    paket_ad = {int(re.search(r"(\d+)\.js$", p["paket"]).group(1)): p
+                for p in k["paketler"]}
+    sonraki = max(paket_ad) + 1 if paket_ad else 1
+    sonuc = []
+    for bas, son, yollar, onceki in kumeler:
+        yollar = list(yollar)
+        eylemler, kalan = [], []
+        if onceki in paket_ad:
+            dolu = sum(boyut(x["yol"]) for x in paket_ad[onceki]["kaynak"])
+            if dolu + sum(boyut(y) for y in yollar) <= TAVAN:
+                sonuc.append((bas, son, [("ekle", onceki, yollar)], []))
+                continue
+        parca, top = [], 0
+        for y in yollar + [None]:
+            if y is None or (parca and top + boyut(y) > TAVAN):
+                if len(parca) >= 2:
+                    eylemler.append(("yeni", sonraki, parca))
+                    sonraki += 1
+                else:
+                    kalan.extend(parca)
+                parca, top = [], 0
+            if y is not None:
+                parca.append(y)
+                top += boyut(y)
+        if eylemler or kalan:
+            sonuc.append((bas, son, eylemler, kalan))
+    return sonuc
+
+
+def topla():
+    kuru = "--kuru" in sys.argv
+    k = _kunye_oku()
+    if not k:
+        print("🔴 künye yok — önce: py arac/paketle.py kur")
+        return 2
+    html = io.open(INDEX, encoding="utf-8").read()
+    kayitli = {x["yol"] for p in k["paketler"] for x in p["kaynak"]}
+    onc = len(ETIKET.findall(html))
+    isler = _topla_isle(_topla_kumeleri(html, kayitli), k)
+    paketlenen = sum(len(y) for _, _, ey, _ in isler for _, _, y in ey)
+    if not paketlenen:
+        print("⚪ topla: paketlenecek paket-dışı küçük dosya yok (idempotent) — "
+              "etiket %d" % onc)
+        return 0
+    n_ekle = sum(1 for _, _, ey, _ in isler for e in ey if e[0] == "ekle")
+    n_yeni = sum(1 for _, _, ey, _ in isler for e in ey if e[0] == "yeni")
+    print("topla%s: %d dosya paketlenecek · %d 'ekle' + %d yeni paket · "
+          "tek bırakılan %d" % (" [KURU]" if kuru else "", paketlenen, n_ekle,
+                                n_yeni, sum(len(t) for _, _, _, t in isler)))
+    if kuru:
+        for _, _, ey, tek in isler:
+            for e, no, y in ey:
+                print("  %-5s paket_%02d  %3d dosya  ilk=%s" % (e, no, len(y), y[0]))
+        print("  index.html etiket %d → ~%d" % (onc, onc - paketlenen + n_yeni
+              + sum(len(t) for _, _, _, t in isler) * 0))
+        return 0
+
+    damga = _damga(html)
+    paket_ad = {int(re.search(r"(\d+)\.js$", p["paket"]).group(1)): p
+                for p in k["paketler"]}
+    yeni_html = html
+    guncel = {}                                  # no -> tüm yollar ('ekle' paketleri)
+    for bas, son, eylemler, tek in sorted(isler, key=lambda t: -t[0]):
+        blok = []
+        for e, no, yollar in eylemler:
+            if e == "ekle":
+                pk = paket_ad[no]
+                tum = guncel.get(no) or [x["yol"] for x in pk["kaynak"]]
+                tum = tum + yollar
+                kayit = _paket_yaz(no, tum)
+                pk["kaynak"], pk["bayt"] = kayit["kaynak"], kayit["bayt"]
+                guncel[no] = tum
+            else:
+                kayit = _paket_yaz(no, yollar)
+                k["paketler"].append(kayit)
+                paket_ad[no] = kayit
+                blok.append(_etiket_blogu_yeni(kayit, yollar, damga))
+        for y in tek:                            # paketlenmeyen tek dosya: etiketi KALIR
+            blok.append('<script src="%s"></script>' % y)
+        sonra = son + 1 if yeni_html[son:son + 1] == "\n" else son
+        yeni_html = (yeni_html[:bas] + "".join(b + "\n" for b in blok)
+                     + yeni_html[sonra:])
+    for no, tum in guncel.items():               # 'ekle': paketin yorum bloğunu tazele
+        pk = paket_ad[no]
+        i = yeni_html.find("<!-- ▼ %s" % pk["paket"])
+        j = yeni_html.find("</script>", i) if i >= 0 else -1
+        if i < 0 or j < 0:
+            print("⚠️ %s'in etiket bloğu index.html'de bulunamadı — yorum eski kaldı"
+                  % pk["paket"])
+            continue
+        yeni_html = (yeni_html[:i] + _etiket_blogu_yeni(pk, tum, damga)
+                     + yeni_html[j + len("</script>"):])
+    io.open(INDEX, "w", encoding="utf-8", newline="\n").write(yeni_html)
+    _kunye_yaz(k["paketler"])
+    son_say = len(ETIKET.findall(yeni_html))
+    print("✓ topla: index.html %d etiket → %d (−%d) · %d dosya paketlendi"
+          % (onc, son_say, onc - son_say, paketlenen))
+    print("  tahmini kazanç: %.1f saniye (ölçülen 56,3 ms/istek — LAB canlıda doğrular)"
+          % ((onc - son_say) * 0.0563))
+    print("  🔴 ŞİMDİ: py arac/surum_damgala.py · py arac/paketle.py sina")
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # SINA — kapının çağırdığı tazelik denetimi
 # ---------------------------------------------------------------------------
 def sina():
@@ -578,6 +780,8 @@ if __name__ == "__main__":
         sys.exit(yenile())
     if islem == "ekle":
         sys.exit(ekle())
+    if islem == "topla":
+        sys.exit(topla())
     if islem == "sina":
         sys.exit(sina())
     if islem == "durum":
