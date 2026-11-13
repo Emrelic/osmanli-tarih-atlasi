@@ -1,0 +1,18 @@
+{
+ "id": "lozan-1923",
+ "ad": "Lozan Antlaşması",
+ "t": "1923-07-24",
+ "kadraj": [
+  25.5,
+  35.5,
+  45,
+  42.8
+ ],
+ "kaynak": "ÖRNEK (test çıktısı) — gerçek Lozan kaydı data/antlasma_madde_lozan.js'tedir.",
+ "cikti": "denetim/ANTLASMA-ARAC/ornek/cikti-lozan.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek/lozan-madde-1-71.json",
+  "denetim/ANTLASMA-ARAC/ornek/lozan-madde-72-143-ekler.json"
+ ],
+ "madde_sayisi": 143
+}

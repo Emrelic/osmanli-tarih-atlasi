@@ -1,0 +1,869 @@
+{
+ "maddeler": [
+  {
+   "no": 72,
+   "bolum": "Part III. Economic clauses — Section I. Property, Rights And Interests",
+   "ozet": "Türkiye'de kalan topraklarda Almanya, Avusturya, Macaristan ve Bulgaristan'a ait mallar müttefiklerde kalır; ayrılan topraklarda bir yıl içinde tasfiye edilebilir. Türkiye bundan sorumlu tutulmaz.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 73,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Savaşla düşman olan taraflar arasında yapılmış gayrimenkul satışı, kira, maden, ipotek, şirket, aile ve bağış gibi sekiz tür sözleşme geçerliliğini korur; imtiyaz sözleşmeleri kapsam dışıdır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 74,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Sigorta sözleşmeleri bu bölümün ekindeki kurallara bağlıdır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 75,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "73 ve 74'te sayılmayan sözleşmeler düşmanlığın başladığı günden itibaren sona ermiş sayılır; taraflardan biri üç ay içinde tazminat ödeyerek yürütülmesini isteyebilir, bedeli Karma Hakem Mahkemesi belirler.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 76,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Taraf uyrukların bu sözleşmeler hakkında antlaşma öncesi yaptığı uzlaşmalar, para birimi ve kur anlaşmaları dahil, geçerli kabul edilir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 77,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "30 Ekim 1918 sonrası sözleşmeler genel hukuka tabidir; Mart 1920 sonrası İstanbul Hükümeti sözleşmeleri istek üzerine TBMM onayına sunulur, onaylanmazsa doğrudan zarar tazmin edilir. İmtiyazlar hariç.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 78,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Düşman olan taraflar arasındaki sözleşme uyuşmazlıkları, mahkemenin kuruluşundan altı ay içinde başvurulmak şartıyla Karma Hakem Mahkemesi'nde görülür; sonra olağan mahkemelere gidilir. Tarafsız ülke mahkemeleri istisnadır.",
+   "yer": [],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 79,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Düşmanlar arasında zamanaşımı ve dava süreleri 29 Ekim 1914'ten antlaşmanın yürürlüğünden üç ay sonrasına kadar durmuş sayılır; Romanya için başlangıç 27 Ağustos 1916'dır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 80,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Savaş öncesi senetler, süresinde ibraz edilmedi diye geçersiz sayılmaz; savaşta dolan süreler için antlaşmanın yürürlüğünden itibaren üç ay ek süre tanınır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 81,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Savaşta rehin ve ipoteklerin paraya çevrilmek üzere satışı geçerlidir; borçlu alacaklıyı hesap vermeye Karma Mahkeme'ye çağırabilir, kötü niyet halinde zarar tazmin ettirilir. 1 Mayıs 1923 sonrası işlemlere uygulanmaz.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 82,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Taraflar, aralarında ticaretin fiilen imkânsız veya yasak olduğu tarihten itibaren düşman sayılır; savaş boyunca aynı ülkede serbestçe kalmış taraflar arasındaki sözleşmeler genel hukuka tabidir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 83,
+   "bolum": "Part III. Economic clauses — Section II. Contracts, Prescriptions And Judgments",
+   "ozet": "Bu bölüm Japonya ile Türkiye arasında uygulanmaz; konular iki ülkede yerel hukuka göre çözülür.",
+   "yer": [
+    "Japonya"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 84,
+   "bolum": "Part III. Economic clauses — Section III. Debts",
+   "ozet": "Savaştan önceki sözleşmelerden doğup savaş yüzünden ödenmeyen borçlar, sözleşmedeki para birimiyle ve menşe ülkedeki kurla ödenir; savaşta başka parayla tahsil edilen tutarlar o parayla verilebilir.",
+   "yer": [],
+   "konu": "mali",
+   "belirsiz": false
+  },
+  {
+   "no": 85,
+   "bolum": "Part III. Economic clauses — Section III. Debts",
+   "ozet": "Osmanlı Düyun-ı Umumiyesi bu bölümün ve ekonomik hükümlerin diğer bölümlerinin kapsamı dışında bırakılmıştır.",
+   "yer": [],
+   "konu": "mali",
+   "belirsiz": false
+  },
+  {
+   "no": 86,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "1 Ağustos 1914'te var olan sınaî, edebî ve sanatsal mülkiyet hakları yürürlükten itibaren yeniden tesis edilir; savaşta alınan özel tedbirler ve verilen lisanslar geçerliliğini korur.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 87,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "Taraf uyruklara sınaî mülkiyet işlemleri için en az bir yıl ek süre verilir; kaybolan haklar canlanır, patent ve marka kullanmama nedeniyle iki yıl iptal edilemez.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 88,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "Savaş süresince karşı tarafın topraklarında yaşanan ve fikrî ya da sınaî mülkiyet ihlali sayılabilecek olaylar için dava veya talep açılamaz; hükümetlerin bu hakları kullanması da dahildir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 89,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "Savaş öncesi lisanslar savaşın başladığı tarihte sona erer; eski lisans sahibi altı ay içinde yeni lisans isteyebilir, şartları anlaşma olmazsa Karma Hakem Mahkemesi belirler.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 90,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "Türkiye'den ayrılan topraklarda yaşayanlar Osmanlı hukukundaki fikrî ve sınaî mülkiyet haklarını Türkiye'de sürdürür; bu topraklardaki haklar devreden devletçe aynı süreyle tanınır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 91,
+   "bolum": "Part III. Economic clauses — Section IV. Industrial, Literary And Artistic Property",
+   "ozet": "30 Ekim 1918'den sonra İstanbul'daki Osmanlı Hükümeti'nce yapılan patent ve marka tescilleri, üç ay içinde başvurulursa Türk Hükümeti'ne sunulup ilk tarihten geçerli olarak kaydedilir.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 92,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Her müttefik devletle Türkiye arasında üç ay içinde birer Karma Hakem Mahkemesi kurulur; üç üyeli olup başkan anlaşmayla, olmazsa Lahey'deki Daimî Adalet Divanı başkanınca tarafsız ülke uyruklarından seçilir.",
+   "yer": [
+    "Lahey"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 93,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Mahkemelerin merkezi İstanbul'dur; iş çoksa başka yerlerde ek bölümler açılabilir. Üç yılda iş bitmezse ev sahibi devletin isteğiyle merkez oradan kaldırılır.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 94,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Mahkemeler yetkili oldukları bütün konularda oy çokluğuyla karar verir; kararlar kesindir, uyruklar için bağlayıcıdır ve ayrıca icra kararı gerekmeden uygulanır.",
+   "yer": [],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 95,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Mahkemeler adalet, hakkaniyet ve iyi niyetle hareket eder; yazılı ve sözlü usul, delil toplama, altı aylık başvuru süresi, iki ay içinde hüküm ve açık duruşma gibi ilkeler sayılır.",
+   "yer": [],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 96,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Hükümetler her mahkeme için ortak bir genel sekreter atar; sekreterlik İstanbul'dadır ve işi bitince kayıtlar mahkemenin bulunduğu ülkenin arşivine bırakılır.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 97,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Her hükümet kendi atadığı üye, ajan ve sekreterin ücretini öder; başkan ile genel sekreterin ücreti ve genel giderler iki hükümetçe eşit paylaşılır.",
+   "yer": [],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 98,
+   "bolum": "Part III. Economic clauses — Section V. Mixed Arbitral Tribunal",
+   "ozet": "Bu bölüm Japonya ile Türkiye arasında uygulanmaz; Mahkeme yetkisine girecek işler iki hükümet arasında anlaşmayla çözülür.",
+   "yer": [
+    "Japonya"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 99,
+   "bolum": "Part III. Economic clauses — Section VI. Treaties",
+   "ozet": "Denizaltı kabloları, gümrük tarifeleri, Süveyş Kanalı serbest kullanımı, Evrensel Posta Birliği ve telgraf sözleşmeleri gibi sekiz çok taraflı ekonomik-teknik anlaşma Türkiye bakımından yeniden yürürlüğe girer.",
+   "yer": [
+    "Süveyş Kanalı",
+    "Paris",
+    "Roma"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 100,
+   "bolum": "Part III. Economic clauses — Section VI. Treaties",
+   "ozet": "Türkiye motorlu taşıt, deniz çarpışması, esrar, telsiz, havacılık, kibrit gibi on dört uluslararası sözleşmeye katılmayı veya onaylamayı üstlenir; yeni telgraf-telsiz sözleşmelerine de katılacaktır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 101,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, Barselona Konferansı'nın 1921 tarihli geçiş serbestliği ve uluslararası öneme sahip su yolları sözleşmelerine ve statülerine katılır ve yürürlüğe koyar.",
+   "yer": [
+    "Barselona"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 102,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, denizi olmayan devletlerin bayrak haklarını tanıyan 20 Nisan 1921 tarihli Barselona Bildirisi'ne katılmayı üstlenir.",
+   "yer": [
+    "Barselona"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 103,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, uluslararası rejime konacak limanlara ilişkin Barselona önerilerine katılır ve hangi limanların bu rejime gireceğini sonradan bildirir.",
+   "yer": [
+    "Barselona"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 104,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, uluslararası demiryollarına ilişkin Barselona önerilerini antlaşmanın yürürlüğe girmesiyle, karşılıklılık şartıyla uygular.",
+   "yer": [
+    "Barselona"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 105,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, demiryoluyla eşya taşımasına dair 1890-1906 arasında Bern'de imzalanan sözleşme ve düzenlemelere katılır.",
+   "yer": [
+    "Bern"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 106,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Yeni sınırlar bir demiryolunu başka ülkeden geçirirse işletme koşulları ilgili demiryolu idareleri arasında anlaşmayla, olmazsa hakemlikle belirlenir; yeni sınır istasyonları da böyle düzenlenir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 107,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Şark Demiryolları'nın Yunan-Bulgar sınırı ile Kuleli-Burgas yakınındaki Yunan-Türk sınırı arasındaki kesimlerinden transit yolcu ve eşya gümrük, pasaport ve harçtan muaf tutulur; Milletler Cemiyeti komiseri denetler.",
+   "yer": [
+    "Kuleli-Burgas",
+    "Edirne",
+    "İstanbul",
+    "Bosna-Köy"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 108,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye'den ayrılan topraklardaki demiryolu ve limanlar devredilirken tesisler eksiksiz bırakılır; tek devlete geçen hatların vagon ve lokomotifi 30 Ekim 1918 envanterine göre devredilir, bölünen hatlarda paylaşım anlaşmayla, olmazsa hakemlikle yapılır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 109,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Yeni sınırlar yüzünden bir devletin sulama, drenaj gibi su tesisleri başka devletin topraklarındaki işlere bağlı kalırsa, kazanılmış haklar için devletler anlaşır; anlaşılamazsa hakem karar verir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 110,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Romanya ve Türkiye, Köstence-İstanbul kablosunun işletme şartları için hakkaniyetli bir düzenleme yapar; anlaşamazlarsa konu hakeme gider.",
+   "yer": [
+    "Köstence",
+    "İstanbul"
+   ],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 111,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Türkiye, artık kendi topraklarına çıkmayan kablolar üzerindeki bütün haklarından kendisi ve uyrukları adına vazgeçer; özel kabloların sahiplerine devralan hükümetler tazminat öder.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 112,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Bir ucu Türk topraklarında kalan kabloların mülkiyeti Türkiye'de kalır; Türk dışı topraklardaki karaya çıkış hakları ve işletme koşulları ilgili devletlerce dostça, olmazsa hakemlikle düzenlenir.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 113,
+   "bolum": "Part IV. Communications and sanitary questions — Section I. Communications",
+   "ozet": "Bütün âkit devletler, Türkiye'deki yabancı postanelerin kaldırılmasını kendileri bakımından kabul eder.",
+   "yer": [],
+   "konu": "kapitulasyon",
+   "belirsiz": false
+  },
+  {
+   "no": 114,
+   "bolum": "Part IV. Communications and sanitary questions — Section II. Sanitary Questions",
+   "ozet": "İstanbul'daki Yüksek Sıhhiye Meclisi kaldırılır; Türkiye'nin kıyı ve sınırlarının sağlık örgütlenmesi Türk idaresine bırakılır.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "kapitulasyon",
+   "belirsiz": false
+  },
+  {
+   "no": 115,
+   "bolum": "Part IV. Communications and sanitary questions — Section II. Sanitary Questions",
+   "ozet": "Türk ve yabancı bayraklı bütün gemilere ve yabancı uyruklulara, Türk uyruklularla aynı şartlarda, hakkaniyetli tek bir sıhhi tarife uygulanır.",
+   "yer": [],
+   "konu": "ekonomik",
+   "belirsiz": false
+  },
+  {
+   "no": 116,
+   "bolum": "Part IV. Communications and sanitary questions — Section II. Sanitary Questions",
+   "ozet": "Türkiye, eski İstanbul Yüksek Sıhhiye Meclisi çalışanlarının tazminat ve diğer haklarına saygı gösterir; tasfiye işleri özel bir komisyonca, anlaşmazlıkta Milletler Cemiyeti Konseyi'nce çözülür.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "mali",
+   "belirsiz": false
+  },
+  {
+   "no": 117,
+   "bolum": "Part IV. Communications and sanitary questions — Section II. Sanitary Questions",
+   "ozet": "Kudüs ve Hicaz hac yolculuğu ile Hicaz demiryolunun denetimi için Türkiye ve ilgili devletler, Türk sağlık servisi ve Mısır Karantina Meclisi'nin de temsil edildiği bir Sıhhi Koordinasyon Komisyonu kurar.",
+   "yer": [
+    "Kudüs",
+    "Hicaz",
+    "Mısır"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 118,
+   "bolum": "Part IV. Communications and sanitary questions — Section II. Sanitary Questions",
+   "ozet": "Hac Koordinasyon Komisyonu'nun raporları Milletler Cemiyeti Sağlık Komitesi'ne, Uluslararası Halk Sağlığı Ofisi'ne ve isteyen hükümetlere gönderilir; komisyon sorulan her konuda görüş bildirir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 119,
+   "bolum": "Part V. Miscellaneous provisions — Section I. Prisoners of War",
+   "ozet": "Âkit devletler ellerindeki savaş esirleri ve sivil enterneleri hemen geri gönderir; Yunanistan ile Türkiye arasındaki değişim ayrı bir 30 Ocak 1923 anlaşmasıyla düzenlenmiştir.",
+   "yer": [
+    "Lozan"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 120,
+   "bolum": "Part V. Miscellaneous provisions — Section I. Prisoners of War",
+   "ozet": "Disiplin suçu nedeniyle yargılanan veya ceza çekenler cezaları bitmeden geri gönderilir; disiplin dışı suçlardan yargılananlar veya hükümlüler tutulabilir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 121,
+   "bolum": "Part V. Miscellaneous provisions — Section I. Prisoners of War",
+   "ozet": "Devletler kayıpların aranması ve geri dönmek istemediğini bildiren esirlerle sivillerin kimliklerinin belirlenmesi için kendi topraklarında her kolaylığı sağlar.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 122,
+   "bolum": "Part V. Miscellaneous provisions — Section I. Prisoners of War",
+   "ozet": "Esir ve internelere ait olup alıkonulan eşya, para, senet, belge ve kişisel eşyalar antlaşmanın yürürlüğe girmesiyle iade edilir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 123,
+   "bolum": "Part V. Miscellaneous provisions — Section I. Prisoners of War",
+   "ozet": "Âkit devletler, ordularının tuttuğu esirlerin bakım masrafları için karşılıklı olarak hiçbir geri ödeme istemez.",
+   "yer": [],
+   "konu": "mali",
+   "belirsiz": false
+  },
+  {
+   "no": 124,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Devletler 29 Ekim 1914'ten beri ölen asker, denizci, esir ve internelerin mezarlık ve anıtlarına saygı gösterir, bakımına izin verir, komisyonlara kolaylık sağlar ve cenazelerin ülkesine nakline yardım eder.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 125,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Devletler birbirine esaret sırasında ölenlerin tam listesini, kimlik bilgilerini ve kimliksiz gömülenlerin mezar sayısı ile yerlerine dair bilgileri verir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 126,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "27 Ağustos 1916'dan beri Romanya topraklarında ölen Türk asker ve esirlerinin mezarlarının bakımı, Romanya ile Türkiye arasında yapılacak özel bir düzenlemeye bırakılmıştır.",
+   "yer": [
+    "Romanya"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 127,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "İngiliz İmparatorluğu, Fransa, İtalya ile Türkiye ve Yunanistan, 124-125. maddeleri tamamlamak üzere 128-136. maddelerdeki özel hükümleri kabul eder.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 128,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Türkiye, İngiltere, Fransa ve İtalya'nın mezarlık ve anıtlarının bulunduğu araziyi daimî olarak bu hükümetlere bırakır, serbest erişim ve yol yapımına izin verir; Yunanistan da aynısını üstlenir. Türk ve Yunan egemenliği etkilenmez.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 129,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Bırakılacak arazi özellikle İngiltere için Anzac (Arıburnu) bölgesini kapsar; alan yalnız anma amacıyla kullanılır, askerî veya ticari kullanım, rıhtım, silahlı ziyaret yasaktır; Türkiye denetleyebilir, 150 kişiyi aşan gruplar bir hafta önce bildirilir.",
+   "yer": [
+    "Arıburnu",
+    "Çanakkale Boğazı",
+    "Ege Denizi"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 130,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "İngiltere, Fransa ve İtalya'nın her biri, Türk ve Yunan temsilcilerinin de katıldığı bir komisyon kurar; mezar bölgelerini tanır, mezar toplulaştırma ve yeni mezarlık yerlerini belirler, nihai planı iletir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 131,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Arazi verilen hükümet onu yalnız adanmış amaç için kullanır; kıyıdaysa sahil askerî, deniz veya ticari amaçla kullanılamaz. Kullanılmayan mezar alanları Türkiye veya Yunanistan'a iade edilir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 132,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Türkiye ve Yunanistan, arazinin tam, münhasır ve daimî kullanımı için gerekli yasal ve idari tedbirleri altı ay içinde alır; gerekirse kamulaştırma kendi masraflarıyla yapılır.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 133,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "İngiltere, Fransa ve İtalya mezarlıkların kurulmasını ve bakımını askerî nitelikte olmayan kuruluşlara verebilir; mezar nakli ve cenaze çıkarma yetkisi yalnız bu kuruluşlardadır.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 134,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Üç devlet mezarlıkların bakımını kendi uyruklarından bekçilere verebilir; Türk makamları bekçileri tanır ve yardım eder. Bekçiler askerî değildir, yalnız tabanca taşıyabilir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 135,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "Bu arazilere kira veya vergi uygulanmaz; temsilciler ve ziyaretçiler serbestçe girer, Türkiye ve Yunanistan yolları daimî bakımda tutar ve gerekli su temini ile sulama için kolaylık sağlar.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 136,
+   "bolum": "Part V. Miscellaneous provisions — Section II. Graves",
+   "ozet": "İngiltere, Fransa ve İtalya, Türkiye'den ayrılan topraklar dahil kendi yönetimlerindeki yerlerde bulunan Türk asker ve denizci mezarlıkları için aynı hükümlerden Türkiye'yi yararlandırır.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 137,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "İstanbul'u işgal eden devletlerin makamlarınca 30 Ekim 1918'den itibaren alınan kararlar, mal ve haklara ilişkin olarak kesin sayılır ve bu devletlere karşı talep doğurmaz; diğer zararlar Karma Mahkeme'ye gider.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 138,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "İşgal makamlarının mahkemelerinin ve 8 Aralık 1921'de kurulan Geçici Karma Adli Komisyon'un kararları kesin sayılır; askerî veya polis mahkemesi kararından zarar gören özel kişi Karma Mahkeme'ye başvurabilir.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "adli",
+   "belirsiz": false
+  },
+  {
+   "no": 139,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "Osmanlı'dan ayrılan topraklara ait idari, adli, mali ve vakıf arşivleri ile tapu belgeleri karşılıklı iade edilir; her iki taraf için önemliyse elde kalır ve onaylı kopya verilir. 1912'den sonra Yunanistan'a geçen yerler dahildir.",
+   "yer": [],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 140,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "30 Ekim 1918'den önce yapılan deniz ganimetleri ve işgalcilerin ateşkes ihlali gerekçesiyle el koymaları için talep doğmaz; küçük tekneler için de talep edilmez. Yunan kuvvetlerinin aldığı Türk bayraklı gemiler iade edilir.",
+   "yer": [
+    "İstanbul"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  },
+  {
+   "no": 141,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "Türkiye ve uyrukları, savaşta Almanya'nın müttefik izni olmadan Osmanlı'ya devrettiği ve şimdi müttefiklerin elinde bulunan Alman gemileri bakımından Almanya'ya karşı sorumluluktan kurtulur; aynısı Türkiye'nin yanında savaşan diğer devletler için de geçerlidir.",
+   "yer": [],
+   "konu": "mali",
+   "belirsiz": false
+  },
+  {
+   "no": 142,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "Yunanistan ile Türkiye arasında 30 Ocak 1923'te imzalanan Rum ve Türk nüfus mübadelesi sözleşmesi, bu iki taraf arasında antlaşmanın bir parçasıymış gibi aynı güç ve etkiye sahip olur.",
+   "yer": [
+    "Yunanistan",
+    "Türkiye"
+   ],
+   "konu": "mubadele",
+   "belirsiz": false
+  },
+  {
+   "no": 143,
+   "bolum": "Part V. Miscellaneous provisions — Section III. General Provisions",
+   "ozet": "Antlaşma mümkün olan en kısa sürede onaylanır, belgeler Paris'te tevdi edilir; Türkiye ile üç müttefik devletin tevdiinden sonra yürürlüğe girer. Yunanistan-Türkiye arasında 1, 2(2) ve 5-11. maddeler önce işler. Lozan'da 24 Temmuz 1923'te imzalandı.",
+   "yer": [
+    "Paris",
+    "Lozan"
+   ],
+   "konu": "genel",
+   "belirsiz": false
+  }
+ ],
+ "ekler": [
+  {
+   "ad": "Boğazlar Rejimine İlişkin Sözleşme (Convention relating to the Régime of the Straits), Lozan 24 Temmuz 1923",
+   "ozet": "20 madde ve ek kurallar. Çanakkale Boğazı, Marmara ve İstanbul Boğazı'nda barış ve savaşta ticaret gemilerine tam geçiş serbestisi; savaş gemileri için Karadeniz'deki en güçlü kıyıdaş donanmayla sınırlı güç (her zaman en çok üç gemi, her biri 10.000 tondan az) ve denizaltıların yüzeyden geçişi. Boğazların iki yakası (Gelibolu Yarımadası, Çanakkale ve İstanbul Boğazı kıyılarında 15-20 km derinlikli bölgeler), Marmara adaları (Emir Ali Adası hariç) ile Semadirek, Limni, İmroz, Bozcaada ve Tavşan Adaları silahsızlandırılır; yalnız jandarma-polis bulunur. İstanbul ve çevresinde 12.000 kişilik garnizon, tersane ve deniz üssüne izin verilir. İstanbul'da Türk başkanlı Boğazlar Komisyonu kurulur ve Milletler Cemiyeti'ne rapor verir. Serbest geçişe saldırı halinde Fransa, İngiltere, İtalya ve Japonya'nın Cemiyet kararıyla müdahalesi öngörülür.",
+   "okundu": true,
+   "madde_say": 20,
+   "yer": [
+    "Çanakkale Boğazı",
+    "Marmara Denizi",
+    "İstanbul Boğazı",
+    "Gelibolu Yarımadası",
+    "Semadirek",
+    "Limni",
+    "İmroz",
+    "Bozcaada",
+    "Tavşan Adaları",
+    "Emir Ali Adası",
+    "İstanbul",
+    "Bakla Burnu",
+    "Karabiga",
+    "Karadeniz"
+   ]
+  },
+  {
+   "ad": "Trakya Sınırına İlişkin Sözleşme (Convention respecting the Thracian frontier), Lozan 24 Temmuz 1923",
+   "ozet": "5 madde. Ege'den Karadeniz'e Türkiye-Yunanistan-Bulgaristan sınırının iki yanında yaklaşık 30 km derinlikte silahsız bölge: Türk tarafında İbrice Burnu'ndan Serbes Burnu'na (Kırklareli çevresi 5 km yarıçap dışarıda), Yunan tarafında Makri'den Meriç boyunca, Bulgar tarafında Harmanlı çevresi hariç. Güvenlik gücü Türk tarafında 5.000, Yunan ve Bulgar tarafında 2.500 kişiyle sınırlıdır; hava uçuşu yasaktır. Sınırı yerinde çizecek komisyon kurulur; şikâyetler Milletler Cemiyeti Konseyi'ne gider.",
+   "okundu": true,
+   "madde_say": 5,
+   "yer": [
+    "İbrice Burnu",
+    "Serbes Burnu",
+    "Kırklareli",
+    "Makri",
+    "Meriç Nehri",
+    "Tahtalı",
+    "Harmanlı",
+    "Edirne",
+    "Karadeniz",
+    "Ege Denizi"
+   ]
+  },
+  {
+   "ad": "Karaağaç Bölgesi ile İmroz ve Bozcaada Adalarına İlişkin Protokol, Lozan 24 Temmuz 1923",
+   "ozet": "5 madde. Meriç ile Yunan-Türk sınırı arasındaki toprak (Karaağaç) en geç 15 Eylül 1923'te Türk makamlarına devredilir; sınır tespiti tamamlanmasa da geçici çizgiyle teslim yapılır. Karaağaç Rumları mübadeleye tabidir ancak barıştan altı ay sonra göç ettirilir. Yunan askerî ve idari makamları İmroz ile Bozcaada'dan antlaşmanın onayından sonra çekilir ve antlaşmanın 14. maddesi Türk Hükümeti'nce uygulanır. Bölge halkına siyasi ve askerî tutumları nedeniyle dokunulmaz, genel af verilir.",
+   "okundu": true,
+   "madde_say": 5,
+   "yer": [
+    "Karaağaç",
+    "Meriç Nehri",
+    "İmroz",
+    "Bozcaada",
+    "Edirne"
+   ]
+  },
+  {
+   "ad": "Türk Topraklarının İngiliz, Fransız ve İtalyan Kuvvetlerince Boşaltılmasına İlişkin Protokol ve Bildiri, Lozan 24 Temmuz 1923",
+   "ozet": "7 madde ve ek bildiri. Antlaşmanın TBMM'ce onaylandığı bildirildiğinde işgal kuvvetleri ve Boğazlar'daki deniz birlikleri çekilir; boşaltma altı haftada tamamlanır. Hükümete ait taşınır-taşınmaz mallar, Yavuz Sultan Selim dahil Mondros'ta teslim edilmemiş savaş gemileri ve silahlar Türkiye'ye iade edilir. Mudanya Mütarekesi hükümleri bu sürede geçerlidir. Musul sınırı müzakereleri boşaltma biter bitmez başlar. Bildiriyle Boğazlar Sözleşmesi yürürlüğe girene kadar her müttefik devletin bir kruvazör ve iki muhripini Boğazlar'da bulundurması kabul edilir.",
+   "okundu": true,
+   "madde_say": 7,
+   "yer": [
+    "İstanbul",
+    "Çanakkale Boğazı",
+    "Marmara Denizi",
+    "İstanbul Boğazı",
+    "Mudanya",
+    "Musul",
+    "Irak"
+   ]
+  },
+  {
+   "ad": "Yunan ve Türk Halklarının Mübadelesine İlişkin Sözleşme ve Protokol, Lozan 30 Ocak 1923",
+   "ozet": "19 madde ve Türk heyetinin imzaladığı protokol. 1 Mayıs 1923'ten itibaren Türkiye'deki Rum Ortodoks Türk uyrukları ile Yunanistan'daki Müslüman Yunan uyrukları zorunlu mübadeleye tabidir; İstanbul Rumları (1918 öncesi yerleşikler) ve Batı Trakya Müslümanları hariçtir. 18 Ekim 1912'den beri ayrılanlar da kapsanır. Göçmenler uyrukluğunu yeni ülkeye varınca kazanır; malları tasfiye edilir ve değeri altın para esasıyla hesaplanır. Dört Yunan-Türk ve üç tarafsız üyeli Karma Komisyon göçü denetler, tasfiyeyi yürütür ve uyuşmazlıkları karara bağlar. Protokolle Türkiye, 4. maddedeki Rum erkeklerin bırakılmasını sözleşmeden önce yapacağını bildirir.",
+   "okundu": true,
+   "madde_say": 19,
+   "yer": [
+    "İstanbul",
+    "Batı Trakya",
+    "Yunanistan",
+    "Türkiye"
+   ]
+  },
+  {
+   "ad": "Mukim ve Ticaret Şartlarına ile Yargı Yetkisine İlişkin Sözleşme",
+   "ozet": "Türkiye'deki yabancıların giriş, ikamet ve mülk edinme hakkını karşılıklılık şartına bağlar; ticaret ve meslek serbestisini ayrı ikili sözleşmelere bırakır. Kapitülasyonların kalktığını teyit eder: yabancılar vergide Türklerle eşittir, askerlik muafiyeti ve sınır dışı hakkı düzenlenir. Mahkemelere erişim eşittir; gayrimüslim yabancıların kişi hâli kendi ulusal makamlarına bırakılır. Süre yedi yıl.",
+   "okundu": true,
+   "madde_say": 21,
+   "yer": [
+    "Türkiye",
+    "İstanbul",
+    "Atina",
+    "Roma",
+    "Bern",
+    "Edirne",
+    "Sinop",
+    "Trabzon",
+    "Paris",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Ticaret Sözleşmesi",
+   "ozet": "Türkiye'ye ithalatta 1 Eylül 1916 Osmanlı spesifik tarifesinin uygulanmasını, kâğıt para harçlarına döviz kuruna göre ayarlanan katsayılar konmasını öngörür. İhracat/ithalat yasakları sınırlı nedenlerle tutulur; iç vergilerde ayrım yapılmaz. Kabotaj, balıkçılık ve liman hizmetleri ulusal bayrağa ayrılabilir. Haksız rekabet ve sınai mülkiyet hükümleri içerir.",
+   "okundu": true,
+   "madde_say": 19,
+   "yer": [
+    "Türkiye",
+    "Paris",
+    "Bern",
+    "Berlin",
+    "Vaşington",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Yunanistan ile Türkiye arasında sivil enterneler ve savaş esirlerinin değişimi anlaşması (30 Ocak 1923)",
+   "ozet": "Yunanistan'daki Türk rehine ve sivil tutukluların, Anadolulular İzmir'e, Trakyalılar İstanbul'a olmak üzere geri verilmesini; sonra karşılıklı ve eşit sayıda savaş esiri değişimini düzenler. Tüm esirler için karşılıklı af ilan edilir. Kızılhaç temsilcileri ve iki hükümet delegesinden kurulu uluslararası komisyon uygulamayı yürütür; masraf eşit paylaşılır.",
+   "okundu": true,
+   "madde_say": 7,
+   "yer": [
+    "Yunanistan",
+    "Türkiye",
+    "İzmir",
+    "İstanbul",
+    "Anadolu",
+    "Trakya",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Af Bildirisi ve Protokol",
+   "ozet": "1 Ağustos 1914 - 20 Kasım 1922 arasındaki askerî ve siyasî eylemler nedeniyle Türkiye ve Yunanistan'da kimse rahatsız edilmez; bu dönemin siyasî suçları affedilir, mahkûmiyetler iptal edilir. Protokol, Türkiye'ye 150 kişinin ülkeye girişini yasaklama (ve mallarını dokuz ayda tasfiye ettirme) hakkını saklı tutar.",
+   "okundu": true,
+   "madde_say": 7,
+   "yer": [
+    "Türkiye",
+    "Yunanistan",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Yunanistan'daki Müslüman Mallarına İlişkin Bildiri",
+   "ozet": "Yunanistan, nüfus mübadelesi kapsamı dışındaki, 18 Ekim 1912'den önce Girit dâhil Yunanistan'dan ayrılmış veya hep dışarıda yaşamış Müslümanların mülkiyet haklarına dokunmamayı taahhüt eder. İstisnai tedbirler kaldırılır, toplanan gelirler ödenir; talepler Karma Komisyonca çözülür. Karşılıklılık şartı vardır.",
+   "okundu": true,
+   "madde_say": null,
+   "yer": [
+    "Yunanistan",
+    "Girit",
+    "Türkiye",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Sıhhi Konulara İlişkin Bildiri",
+   "ozet": "Türkiye, beş yıl için, Milletler Cemiyeti Sağlık Komitesi ile Uluslararası Halk Sağlığı Bürosu'nun hazırladığı listeden üç Avrupalı hekim uzmanı sınır sıhhi idaresine danışman olarak Sağlık Bakanlığı memuru sıfatıyla atayacaktır. Kıyı ve sınır sağlık tüzüğü uluslararası sözleşmelere ve Boğazlar Sözleşmesi'ne uygun olur; sağlık vergileri yalnızca sağlık hizmetine ayrılır.",
+   "okundu": true,
+   "madde_say": null,
+   "yer": [
+    "Türkiye",
+    "Boğazlar",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Türkiye'de Adaletin İdaresine İlişkin Bildiri",
+   "ozet": "Türkiye, yabancılara yargıda güvence sağlayabileceğini belirterek, en az beş yıl için Lahey Daimî Adalet Divanı'nın listesinden savaşa katılmamış ülkelerin hukukçularını Türk memuru olarak hukuk müşaviri alacağını bildirir. Müşavirler İstanbul ve İzmir'de görev yapar, şikâyetleri Adalet Bakanı'na iletir; kefaletle serbest bırakma ve tahkim hükümleri konur.",
+   "okundu": true,
+   "madde_say": 5,
+   "yer": [
+    "İstanbul",
+    "İzmir",
+    "Lahey",
+    "Türkiye",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Osmanlı İmparatorluğu'nda Verilen Bazı İmtiyazlara İlişkin Protokol ve Bildiri",
+   "ozet": "29 Ekim 1914'ten önceki imtiyaz sözleşmeleri korunur ve yeni ekonomik şartlara uyarlanır; uyuşmazlıkta uzmanlar karar verir. Armstrong-Vickers donanma/tersane anlaşması ile Samsun-Sivas demiryolu için yeni imtiyaz veya tazminat öngörülür. Osmanlı'dan ayrılan topraklarda devralan devlet haklara halef olur. Bildiri, 1914'teki yabancı sermayeli Osmanlı şirketlerini de kapsar.",
+   "okundu": true,
+   "madde_say": 13,
+   "yer": [
+    "Samsun",
+    "Sivas",
+    "Karadeniz",
+    "İsviçre",
+    "Türkiye",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Belçika ve Portekiz'in Lozan'da imzalanan belgelerin bazı hükümlerine katılmasına ilişkin Protokol",
+   "ozet": "Antlaşmayı imzalayan devletler, Belçika ve Portekiz'in barış antlaşmasının II. Kısım 1. Bölümü (mali) ile III. Kısmına (iktisadî) katılmasını, Belçika'nın ayrıca imtiyaz protokolüne katılmasını kabul eder. Ekli Belçika ve Portekiz bildirileriyle bu devletlerle Türkiye arasında barış ve resmî ilişkiler yeniden kurulmuş sayılır.",
+   "okundu": true,
+   "madde_say": null,
+   "yer": [
+    "Belçika",
+    "Portekiz",
+    "Türkiye",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Sevr'de Yunanistan'la imzalanan Azınlıkların Korunması Antlaşması ve Trakya Antlaşması'na ilişkin Protokol (24 Temmuz 1923)",
+   "ozet": "10 Ağustos 1920 tarihli Sevr azınlık ve Trakya antlaşmalarının onay belgeleri, Lozan belgeleriyle aynı anda tevdi edilir. Azınlık antlaşmasının 7. maddesinin ikinci fıkrası ile 15. maddesi yürürlükten kalkar; Trakya antlaşmasının 1. maddesi Lozan Barış Antlaşması'nın 2(2). maddesi ölçüsünde sınırlanır.",
+   "okundu": true,
+   "madde_say": 3,
+   "yer": [
+    "Yunanistan",
+    "Sevr",
+    "Trakya",
+    "Lozan"
+   ]
+  },
+  {
+   "ad": "Sırp-Hırvat-Sloven Devleti'nin imzasına ilişkin Protokol",
+   "ozet": "Lozan'da barış antlaşması, Boğazlar, Trakya sınırı, ikamet, ticaret, af, imtiyaz ve Belçika-Portekiz belgelerini imzalayanlar, Sırp-Hırvat-Sloven Devleti'nin bu belgeleri yürürlükten önce Paris'te, Lozan Nihai Senedi'nde adı geçen tam yetkililerden biri veya birkaçı aracılığıyla imzalamasını kabul eder.",
+   "okundu": true,
+   "madde_say": null,
+   "yer": [
+    "Lozan",
+    "Paris",
+    "Sırp-Hırvat-Sloven Devleti"
+   ]
+  }
+ ]
+}
