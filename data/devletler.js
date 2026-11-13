@@ -1487,7 +1487,7 @@ window.DEVLETLER = [
     { odak_yer:["Atina"], t:"1821-03-25", tur:"isyan", b:"Mora İsyanı başladı" },
     { odak_yer:["Atina"], t:"1827-10-20", tur:"savas", b:"Navarin'de müttefik donanma Osmanlı-Mısır filosunu yendi" },
     { odak_yer:["Londra"], t:"1830-02-03", tur:"kurulus", b:"Londra Protokolü ile bağımsızlık tanındı" },
-    { odak_yer:["Atina"], t:"1897-04-18", tur:"savas", b:"1897 Osmanlı-Yunan Savaşı (Dömeke)" },
+    { odak_yer:["Atina"], t:"1897-04-17", tur:"savas", b:"1897 Osmanlı-Yunan Savaşı (Dömeke)", kaynak:"ÇELİŞKİ-1113 BALKAN-HALEF: atlas içinde 04-17 (kronoloji_balkan, olaylar_ek5) ↔ 04-18 (bu künye maddesi). İlmez, Şarkiyat İlmi Araştırmalar Dergisi 1 (Nisan 2009): Osmanlı'nın savaş kararı ve Alasonya Ordusu'na emir 17 Nisan 1897 (5 Nisan 1313); 18 Nisan Yunan kuvvetlerinin Narda'yı geçtiği gün; Serbestoğlu, Belleten 78/283 (2014): 16 Nisan Yunan saldırısı, ertesi gün Osmanlı harekâtı → 17 Nisan (çift kaynak). TDV «Yunanistan» yalnız 1897 verir." },
     { odak_yer:["Selanik"], t:"1912-11-08", tur:"savas", b:"Yunan ordusu Selanik'e girdi (Balkan Savaşı)", kaynak:"Mahmut Akkor, ABAD 8(15) 2025 (DergiPark): Selanik 8 Kasım 1912; Britannica «Balkan Wars»", ic_not_t:"eski gün 1912-10-08 = Karadağ'ın savaş ilanı günü; Girit birleşmesi ayrı maddelerde (kron-balkan, 28 Eki 2026)" },
     { odak_yer:["İzmir"], t:"1919-05-15", tur:"isgal", b:"İzmir'i işgal etti (Millî Mücadele'nin başlangıç noktalarından)" },
     { odak_yer:["Atina"], t:"1924-03-25", tur:"siyaset", b:"Cumhuriyet ilan edildi (II. Yunan Cumhuriyeti)", kaynak:"TDV: yunanistan (özet, alıntı değil): 25 Mart 1924" },
@@ -1502,7 +1502,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"karadag", ad:"Karadağ (Montenegro)", tur:"prenslik", bolge:"balkanlar",
-  f:"1516-01-01", t:"1918-11-26", baskent:"Cetinje", harita:"karadag",
+  f:"1516-01-01", t:"1918-11-26", ic_not_t:"ÇELİŞKİ-1113 BALKAN-HALEF: Podgorica Büyük Millet Meclisi kararı — atlas 1918-11-26 (Gregoryen), TDV «Yugoslavya» «26 Ekim 1918». Karar günü Podgorica kayıtlarında Jülyen 13 Kasım = Gregoryen 26 Kasım 1918; TDV'nin «26 Ekim»i ay hatası görünümünde. Hakemli kaynak OKUNAMADI (Pavlović, Canadian Slavonic Papers 41/2, 1999; Prag Charles Üniv. tezi indirilemedi) → TDV'ye karşı ≥2 akademik kaynak yok, teyit çıkmadı; atlas günü [gün; takvim 13/26 Kasım, hakemli teyit çıkmadı] olarak korundu.", baskent:"Cetinje", harita:"karadag",
   tabi:[{f:"1516-01-01", t:"1852-01-01", ust:"osmanli"}],
   ozet:"Dağlık coğrafyası sayesinde fiilen hiç tam boyun eğmeyen küçük prenslik; 1878'de bağımsızlığı tanındı, 1910'da krallığa dönüştü, I. Dünya Savaşı sonunda Sırbistan'la birleşerek ortadan kalktı. `tabi:` 20 Eylül 2026'da eklendi (ENKLAV-0072'nin ölçümü, paket 0072 H-0005a): atlas 1697'den itibaren tam bağımsız yabancı devlet çiziyordu, oysa TDV `karadag` tâbilik bağının II. Danilo döneminde (1852-1860) koptuğunu, bağımsızlığın 1878 Berlin'e kadar tanınmadığını söylüyor — 155 yıllık ayrışma. Biçim `erdel`/`eflak`/`bogdan` emsali: kendi rengi + tâbi kaydı bir arada. Bitiş 1852-01-01 tâbiliğin koptuğu ARALIĞIN başıdır, gün değil eşik işaretidir.",
   kaynak:"karadag",
