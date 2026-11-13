@@ -9,6 +9,12 @@ KAPSAM (Emre, KASA'dan): dört ayak — (1) araştırma, (2) haritaya uygulama (
 - Eşleşme: kronoloji maddesinin `b` alanı kayıt `ad`ını içerir, `t` ±60 gün.
 - Özet ham metinden KENDİ cümlemizle; kaynak sırası TDV → İSAM/TTK/DergiPark → yabancı akademik → birincil neşir. Vikipedi tek dayanak olamaz. Uydurma yok; okunamayan "ölçülmedi"; doğrulanamayan "⚠ DOĞRULANMADI"; çelişkide hakemli karar.
 - Yeni `data/*.js` için `index.html`e `<script>` satırı; `denetle`/`paketle`/push yalnız KASA'da, push_kapisi ile.
+- **Yeni isteğe bağlı alanlar** (EMRELİC tasarımı: `denetim/ANTLASMA-OYNATICI-TASARIM-1113.md`, dal `emrelic-1113-antlasma-tasarim` bdc142d59; kod dalı `emrelic-1113-antlasma-oynatici`; hepsi geriye uyumlu):
+  - **Veri yazım kuralı (LAB/UMIT brifi):** her antlaşma kaydına `anahtarlar:[…]` yaz — kronoloji `b` başlığında geçen ad biçimleri (örn. "Küçük Kaynarca","Kaynarca"; parantezli/ekli adlar: "San Stefano"). Tasarım ölçümü: 12 antlaşmada 59 doğru eşleşme, 5 kaçan (ad biçimi) → anahtarla 64/64. Gerekirse `pencere_gun` (varsayılan 60).
+  - Savaş sürerken imzalanan antlaşmada ÖNCE (`t−1`) "savaş öncesi" değildir; "Savaştan önce" için `onceki_t` yaz (yoksa o düğme gizli). `sonra_t` yalnız antlaşma günü ≠ yürürlük günüyse; `onceki_yok:true` ÖNCE anahtarını gizler.
+  - Adımda `etki:[{yer, once, sonra, not}]` YALNIZ haritadan türetilemeyen durumda yaz (sahip kimlikleri `devletler.js` `id`si); sahiplik farkı normalde haritadan türetilir, yazma.
+  - Yeni kronoloji maddesinde açık bağ: `antlasma_id:"<kayıt id>"` (ad/gün kuralını atlar).
+  - Kayıttan sonra EMRELİC'in `arac/antlasma_dogrula.py` doğrulaması (şema, yer adı, eşleşme) koşar; kapıdan önce hatasız olmalı.
 
 ## 2. Sıralı iş listesi (envanterin sayı/önem/kaynak sütunları "kaba tahmin"; kaynak sayfası açılıp teyit edilir)
 **İlk dalga (önem≥4 + kaynak A):**
