@@ -47,3 +47,6 @@ Diocletianus bölünmeleri (Numidia 198, Byzacena/Tripolitania/Sitifensis 293-30
 1. Kirenayka için Livius.org (Lendering) tek kaynak olarak kabul edilsin mi, yoksa Brill's New Pauly/CAH/Laronde makalesi mi beklensin?
 2. Vandal ucu: TDV 440 mı, künye kaynağı 439 mu (gün 19 Ekim 439 kaynaklı doğrulanırsa künye f ve zincir güncellensin mi)?
 3. 429 sonrası Mauretania/Numidia/Tripolitania'da Bizans 533-534 fethi ve Berberî krallıkları şehir bazında ayrı bir turda mı yazılsın?
+
+## 6. DÜZELTME 13 Kasım 2026 (dokuzuncu parti D5)
+Hums (Lebde) noktası BUGÜNKÜ şehrin yeridir (kur 1893; Emre kararı: antik yer 3 km'den uzaksa AYRI nokta). Tripolitania Roma dilimleri (MÖ 46 → 429) bu noktadan KALDIRILDI (Değişmez 5: dönem kur'dan önce başlıyordu). Antik Lepcis Magna (Pleiades 344448, 3,57 km) için AYRI kayıt gerekir; açılana dek MÖ 46 ve 429 maddelerinin yer alanındaki «Hums (Lebde)» yalnız yön gösterir. Borç: KOSU39-BORC.
