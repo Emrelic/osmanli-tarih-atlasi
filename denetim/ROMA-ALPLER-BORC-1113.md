@@ -15,3 +15,8 @@ Noricum yılı: Treccani «Norico» MÖ 15 · Dio 54.20 (Thayer/Loeb) MÖ 16 kon
 
 ## Ölçüm (scratch; `denetle` modülünden)
 D1 sahipsiz 312 (tavan 312, değişmedi; 5 yerleşim sahipsiz listesinde değil) · D1b beyansız 0 (tavan 0) · D5 çelişki 0 (tavan 0) · D2 ihlal listesi 764 (önceden vardı; 5 yerleşim ve yeni 3 madde ihlalsiz) · paketle sina: TAZE.
+
+## 2. tur (koordinatör "devam et", aynı gün)
+Yazılan: 7 YENİ yerleşim (yerlesimler_once1281_yt_avrupa.js, her biri Pleiades tek sayfa JSON, 3 km/ad taraması temiz): Carnuntum (Pl. 128376, Pannonia 0009→395), Aventicum (177495) ve Augusta Raurica (177494) (Ren grubu -0049→-0026→395→476), Bonn (108818) ve Xanten/Castra Vetera (108867) (Ren grubu, -0026'dan; Pleiades kuruluşları MÖ ~11 / ~15, dilim başı beyanlı erken), Kempten/Cambodunum (187335, Raetia -0014→395→476), Celje/Celeia (197206, Noricum). Hepsi bit 1281, sonrası beyanlı __BOSLUK__ ile 1281'e. Viyana (Vindobona, Pl. 128537: Noricum'da Kelt yerleşimi, MS 1. yy ilk yarısında Roma askerî üssü) -0014→395 roma-imp, 395→1135 beyanlı __BOSLUK__ (Pannonia 395 maddesi). 12 mevcut kronoloji maddesinin yer listesi genişletildi (gün/devlet DEĞİŞMEDİ).
+Yazılamayan: Passau (Pleiades Batavis aramasında kayıt yok), Vindonissa (Pl. 177661: lejyon üssü ~MS 15; dilim başı için ayrı kuruluş maddesi gerekir), Győr (kayıt çok satırlı, Pl. 197141 yalnız BAtlas atfı), Zagreb (Andautonia ~8 km uzakta), Bratislava, Graz, Maribor, Ljubljana, Worms (s boş, bos veri-yok; Enns gibi), Regensburg (Castra Regina MS 179, öncesi kaynaklanmadı), Basel, Bern, Konstanz, Aosta, Trento, Udine, Trieste, Pula (İtalya Regio X/XI: başlangıç maddesi ve 476 Odoakar kolu ayrı ele alınmalı).
+Ölçüm (2. tur sonrası): D1 312/312, D1b 0/0, D5 0/0, D2 liste 764 (değişmedi), paketle sina TAZE.
