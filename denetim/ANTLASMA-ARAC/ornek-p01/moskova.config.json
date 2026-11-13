@@ -1,0 +1,13 @@
+{
+ "id": "moskova-1921",
+ "ad": "Moskova Antlaşması",
+ "anahtarlar": ["Moskova Antlaşması"],
+ "onceki_t": "1920-12-03",
+ "t": "1921-03-16",
+ "kadraj": [38, 38.5, 50, 43.5],
+ "kaynak": "Ham metin (16 madde + Ek 1 A/B/C, Türkçe resmî çeviri): İsmail Soysal, Türkiye'nin Siyasal Antlaşmaları I (1920-1945), TTK 1983, s.32-38 (tr.wikisource.org 'Moskova Antlaşması' barındırıcısından HAM METİN okundu). Gün: metinde 'Moskova, 16 Mart 1921'. TDV: 'Moskova Antlaşması' adlı ayrı madde YOK (islamansiklopedisi.org.tr/moskova-antlasmasi arama sayfasına düşer, bulunamadı); TDV KARS ve AHISKA maddeleri '16 Mart 1921 Moskova Antlaşması' der = aynı gün, çelişki yok. BEYAN: ikinci bağımsız metin neşri (Hurewitz/LNTS/Düstur) okunmadı. Metindeki OCR/dizgi bozuklukları (Aşağı Karasu, ek ölçüleri) özete taşınmadı. Yer işaretleri yaklaşık odaktır.",
+ "cikti": "data/antlasma_madde_moskova.js",
+ "girdiler": ["denetim/ANTLASMA-ARAC/ornek-p01/moskova-girdi.json"],
+ "yerler_ek": {"Kars": [43.09, 40.6], "Ardahan": [42.7, 41.11], "Sarp": [41.54, 41.51], "Arpaçay": [43.33, 40.85], "Nahçıvan": [45.41, 39.21], "Erivan": [44.51, 40.18], "Gümrü": [43.84, 40.79], "Moskova": [37.62, 55.75]},
+ "madde_sayisi": 16
+}
