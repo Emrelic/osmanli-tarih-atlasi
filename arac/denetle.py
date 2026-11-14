@@ -7127,8 +7127,17 @@ def main():
         print( "              iner, düşmüyorsa VERİ KRONOLOJİ'ye haber ver.")
 
     # ---- Değişmez 2'nin AYNADAKİ HÂLİ — kırılmasız madde
-    kir_isg, _ = degismez2(Y_cekirdek, O, ("isg",))
-    ksiz = kirilmasiz_madde(kir, kir_s, O, kir_isg)
+    # 14 Kasım 2026 (KASA kararı, denetim/D2T-EKSIK-KIRILMA-1114.md): 2t'nin
+    # kırılma havuzu KUYRUK dosyalarını da kapsar. Madde haritada kuyruk dosyasındaki
+    # bir noktanın kırılmasıyla görünüyorsa (Avignon, Montpellier, Tver…) "kırılmasız"
+    # değildir; çekirdek havuz onu göremediği için yanlış sayıyordu. YALNIZ 2t
+    # genişler: Değişmez 2/2s/2i ve öteki sayaçlar `Y_cekirdek`te kalır (ölçüt
+    # gevşetilmedi, 2t sayısı yalnız DÜŞER).
+    Y_tum_2t = Y_cekirdek + Y_kuyruk
+    kir_2t, _ = degismez2(Y_tum_2t, O)
+    kir_s_2t, _ = degismez2(Y_tum_2t, O, ("s",), yer_sarti=True)
+    kir_isg, _ = degismez2(Y_tum_2t, O, ("isg",))
+    ksiz = kirilmasiz_madde(kir_2t, kir_s_2t, O, kir_isg)
     durum2t = "✓" if len(ksiz) <= BEKLENEN_KIRILMASIZ else "✗"
     if len(ksiz) > BEKLENEN_KIRILMASIZ:
         ihlal = True
