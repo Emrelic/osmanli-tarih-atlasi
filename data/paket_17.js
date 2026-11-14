@@ -255,8 +255,8 @@ window.YERLESIMLER_E9353F = [
 //   §4'ün "gün bilinmiyorsa YYYY-01-01" kuralıyla yazdım.
 { ad:"Kano", tur:"sehir", lat:12.000, lon:8.517, g:1, k:1,
   s:[{f:"1000-01-01",t:"1281-01-01",d:"hausa-sehir-devletleri",kesinlik:"yuzyil",kaynak:"TDV İslâm Ansiklopedisi, hevsa (https://islamansiklopedisi.org.tr/hevsa; ham metin tdvc/hevsa.txt): «Başlıcaları Kano, Katsina, Gobir, Zaria, Biram, Rano ve Daura olan bu şehir devletlerinin» ; TDV İslâm Ansiklopedisi, hevsa (https://islamansiklopedisi.org.tr/hevsa; ham metin tdvc/hevsa.txt): «Onun XI. yüzyılın başlarında o güne kadar sihirbazlar tarafından yönetilen animist toplulukları birleştirdiği sanılmaktadır» || BEYANLI: Kano Kroniği (TDV: XIX. yy. sonu derlemesi) ilk hükümdar Bagoda'yı XI. yy. başına yerleştirir (\"sanılmaktadır\"); Kano Hausa şehir devleti olarak anılır. XI. yy. öncesi (1000-1001 civarı) kesinliği yok. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1281-01-01", t:"1807-01-01", d:"hausa-sehir-devletleri", kaynak:"kano"},
-     {f:"1807-01-01", t:"1903-01-01", d:"sokoto", kaynak:"kano"},
-     {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"kano"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1807-01-01", t:"1903-02-01", d:"sokoto", kesinlik:{f:"yil",t:"ay"}, kaynak:"kano · t DÜZELTME (Değişmez 2s): eski t 1903-01-01 (yıl tabanı); Britannica 11. basım 'Kano' (Wikisource metninden okundu): «In February 1903 the city was captured by a British force under Colonel T. L. N. Morland»; Britannica 'Nigeria' maddesi de Kano'nun Şubat'ta alındığını söyler — HASSASİYET AY. 3 Şubat 1903 günü yalnız Vikipedi künyesinde ve History Today 'The Fall of Kano'da (403, okunmadı) geçiyor; gün kaynakla DOĞRULANMADIĞI için kullanılmadı"},
+     {f:"1903-02-01", t:"1960-10-01", d:"ingiltere", kesinlik:{f:"ay",t:"gun"}, kaynak:"kano · f: Britannica 11. basım 'Kano', Şubat 1903 (ay hassasiyeti)"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // KATSİNA — Hausa'nın kuzey ticaret şehri, Sokoto emirliği.
@@ -275,8 +275,8 @@ window.YERLESIMLER_E9353F = [
 // Katsina ile aynı kaynak ve aynı çapa; slug'ı da aynı şekilde ÖLÜ (302).
 { ad:"Zaria (Zazzau)", tur:"sehir", lat:11.086, lon:7.720, g:0, k:2, m:"Kano",
   s:[{f:"1281-01-01", t:"1806-01-01", d:"hausa-sehir-devletleri", kaynak:"sokoto"},
-     {f:"1806-01-01", t:"1903-01-01", d:"sokoto", kaynak:"TDV osman-b-fudi: '1806’da Zaria ele geçirildi' — YIL · KRONO-2S-3 19 Eyl 2026"},
-     {f:"1903-01-01", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+     {f:"1806-01-01", t:"1902-03-01", d:"sokoto", kesinlik:{f:"yil",t:"ay"}, kaynak:"TDV osman-b-fudi: '1806’da Zaria ele geçirildi' — YIL · KRONO-2S-3 19 Eyl 2026 · t DÜZELTME (Değişmez 2s): eski t 1903-01-01 idi (Kano/Sokoto seferinin yılı); Britannica 11. basım 'Zaria' (Wikisource metninden okundu): «In March 1902 the province was taken under British administrative control.» — HASSASİYET AY (gün yok; ayın 1'ine yazıldı). BEYAN: bu 'idarî denetim' (Resident + garnizon) Zaria Emiri Kwasau'nun Temmuz 1902 teslimiyetinden ve Eylül 1902 tutuklanmasından önceye düşer; ikinci bağımsız akademik kaynak (Last, Adeleye, Lugard 1902 Yıllık Raporu) bu turda OKUNAMADI/okunmadı"},
+     {f:"1902-03-01", t:"1960-10-01", d:"ingiltere", kesinlik:{f:"ay",t:"gun"}, kaynak:"sokoto · f: Britannica 11. basım 'Zaria', Mart 1902 (ay hassasiyeti; bkz. önceki dönem)"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // SOKOTO — Fûlânî Halifeliği'nin başşehri.
