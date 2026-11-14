@@ -21,7 +21,7 @@
 //   onceki_t      "1683-07-14"                     (opsiyonel; bilgi alanı olarak çıktıya geçer)
 //
 // Girdi madde nesnesi: {no:<sayı|metin>, taraf:"Venedik" (opsiyonel), bolum:"<Türkçe başlık>", ozet:"<Türkçe ≤35 kelime, kendi cümlen>",
-//                       yer:["Ad",...], konu:"sinir|bogazlar|...", belirsiz:false, sira:<sayı, opsiyonel>}
+//                       yer:["Ad",...], kaynak:"<adım düzeyi kaynak/teyit notu, opsiyonel; adıma aynen yazılır>", konu:"sinir|bogazlar|...", belirsiz:false, sira:<sayı, opsiyonel>}
 //  - ÇOK TARAFLI antlaşma: her taraf kendi madde dizisini taşır, numaralandırma TARAF BAŞINADIR (Habsburg md.1-20, Venedik md.1-16…).
 //    Tekrar `no` yalnız (taraf, no) çiftine göre reddedilir. Adım başlığı «<Taraf> md. <no>» olur (taraf yoksa yalnız <no>).
 //    `no` metinse («giriş», «onay», «ateşkes») başlık «<Taraf> <metin>» olur ve sıra: `sira` varsa ona, yoksa dosyadaki sıraya göre.
@@ -96,7 +96,7 @@ let i = 0;
 while (i < maddeler.length) {
   const x = maddeler[i];
   if (tekMi(x) || azami <= 1) {
-    adimlar.push({ no: baslik(x), taraf: x.taraf || undefined, bolum: x.bolum, ozet: x.ozet, yer: yf(x.yer), konu: x.konu, dogrulanmadi: !!x.belirsiz });
+    adimlar.push({ no: baslik(x), taraf: x.taraf || undefined, kaynak: x.kaynak || undefined, bolum: x.bolum, ozet: x.ozet, yer: yf(x.yer), konu: x.konu, dogrulanmadi: !!x.belirsiz });
     i++; continue;
   }
   const grup = [x];
@@ -109,7 +109,8 @@ while (i < maddeler.length) {
   grup.forEach(g => yf(g.yer).forEach(p => { if (!yer.includes(p)) yer.push(p); }));
   const son = grup[grup.length - 1];
   adimlar.push({
-    no: grup.length === 1 ? baslik(x) : (x.taraf ? x.taraf + ' md. ' : '') + x.no + '-' + son.no, taraf: x.taraf || undefined, bolum: x.bolum,
+    no: grup.length === 1 ? baslik(x) : (x.taraf ? x.taraf + ' md. ' : '') + x.no + '-' + son.no, taraf: x.taraf || undefined,
+    kaynak: [...new Set(grup.map(g => g.kaynak).filter(Boolean))].join(' ') || undefined, bolum: x.bolum,
     ozet: grup.map(g => (grup.length > 1 ? 'md. ' + g.no + ': ' : '') + g.ozet).join(' '),
     yer, konu: x.konu, dogrulanmadi: !!x.belirsiz
   });
