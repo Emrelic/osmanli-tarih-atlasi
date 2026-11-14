@@ -238,4 +238,34 @@ window.OLAYLAR_2S_0918 = [
   d:"Venedik'in Macaristan'la savaştığı sırada kaptan-ı umumî Piero Loredan'ın donanmasının gelişiyle 22 Haziran 1420'de Trogir Venedik idaresine geçti; Dalmaçya şehirlerinin sonuncusu olarak Venedik'e katılan şehir 1797'ye dek Venedik bayrağı altında kaldı.",
   kaynak:"Treccani, Enciclopedia Italiana, «Traù» (treccani.it/enciclopedia/trau_(Enciclopedia-Italiana)/; okundu 14.11.2026): «Il 22 giugno di quest'anno, essendo Venezia in guerra con l'Ungheria, la flotta del capitano generale Piero Loredan» · bayrak «sventolò ininterrottamente fino alla caduta della Repubblica (1797)» · Hrvatska enciklopedija (LZMK) «Trogir» (enciklopedija.hr/clanak/trogir; okundu 14.11.2026): «naposljetku 1420., kao posljednji od dalmatinskih gradova, prihvatio mletačku vlast»",
   ic_not_d:"BALKAN-1114f (UMIT, KASA kararı): gün tek kaynak (Treccani 22 giugno); HE yalnız yıl 1420 ⇒ yıl iki bağımsız kaynakta uyumlu, gün tek kaynaklı beyan. Treccani cümlesi okuma aracıyla parça parça döndü (özne-yüklem arası kırpık); Venedik bayrağının «gonfalone marciano … fino alla caduta della Repubblica (1797)» dikildiği gün 22 Haziran olarak okundu, şehrin teslim biçimi (silah/anlaşma) bu maddede iddia edilmez. Split/Kotor/Šibenik 1420 uçları kendi yerlerinde." },
+
+{ bolge:2, t:"1466-01-01", b:"Fiume (Rijeka) Habsburg hâkimiyetine girdi", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Fiume (Rijeka)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Walsee ailesinin sona ermesiyle Fiume, Habsburg İmparatoru III. Friedrich'e geçti ve 1776'ya dek Habsburg Avusturya'sının eli altında kaldı.",
+  kaynak:"Giovanni Stelli, «Breve storia di Fiume» (Società di Studi Fiumani, fiume-rijeka.it/wp-content/uploads/2023/01/Giovanni-Stelli-BREVE-STORIA-DI-FIUME.pdf, 2022; okundu 14.11.2026, pdftotext): «gli Asburgo entrarono in possesso di Fiume» (1465 vasiyeti sonrası) · Hrvatska enciklopedija (LZMK) «Rijeka» (enciklopedija.hr/clanak/rijeka; okundu 14.11.2026, WebFetch): «od kojih su je 1466. preuzeli Habsburgovci»",
+  ic_not_d:"RIJEKA-1114g (UMIT, KASA kararı): YIL düzeyinde çift (HE 1466 ⟂ Stelli 1465 vasiyet + Habsburg'un mülke girişi, tarih vermez); ek: Dabbeni «nel 1466 circa». Gün YOK ⇒ 1466-01-01 [yalnız yıl teyitli; gün teyitsiz]. 1466 öncesi sahipler (Duino/Frankopan/Walsee) için atlas künyesi yok, kayıt 1466'dan başlar." },
+
+{ bolge:2, t:"1776-02-14", b:"Fiume'nin idaresi Macar tacına bağlı Hırvatistan'a devredildi", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Fiume (Rijeka)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"İmparatoriçe Maria Theresia 14 Şubat 1776 fermanıyla Fiume'nin idaresini Zagreb Konseyi aracılığıyla Macaristan'a verdi; 1779 Diploması şehri doğrudan Macar tacına bağlı ayrı bir cisim (corpus separatum) yaptı.",
+  kaynak:"Giovanni Stelli, «Breve storia di Fiume» (Società di Studi Fiumani, fiume-rijeka.it/wp-content/uploads/2023/01/Giovanni-Stelli-BREVE-STORIA-DI-FIUME.pdf, 2022; okundu 14.11.2026, pdftotext): «rescritto del 14 febbraio 1776: l'amministrazione di Fiume spettava all'Ungheria» · Hrvatska enciklopedija (LZMK) «Rijeka» (enciklopedija.hr/clanak/rijeka; okundu 14.11.2026, WebFetch): «inkorporirana u Kraljevinu Hrvatsku» (1776); «zasebnim tijelom pridruženim ugarskoj kruni» (1779)",
+  ic_not_d:"RIJEKA-1114g (UMIT, KASA kararı): yıl çift (HE 1776 ⟂ Stelli 1776); gün tek kaynak (Stelli). 1779 Diploması (23.IV, Stelli) aynı kimlikte kalır, kırılma yok." },
+
+{ bolge:2, t:"1809-10-14", b:"Fiume Schönbrunn Barışı ile Fransa'ya devredildi (İlirya Eyaletleri)", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Fiume (Rijeka)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"14 Ekim 1809 Schönbrunn Barışı ile Fiume Avusturya'dan Fransa'ya geçti ve 1813'e dek Napolyon'un İlirya Eyaletleri'nin parçası oldu.",
+  kaynak:"Giovanni Stelli, «Breve storia di Fiume» (Società di Studi Fiumani, fiume-rijeka.it/wp-content/uploads/2023/01/Giovanni-Stelli-BREVE-STORIA-DI-FIUME.pdf, 2022; okundu 14.11.2026, pdftotext): «Il 14 ottobre 1809 con il Trattato di Schönbrunn Fiume fu ceduta alla Francia» · Hrvatska enciklopedija (LZMK) «Rijeka» (enciklopedija.hr/clanak/rijeka; okundu 14.11.2026, WebFetch): 1809-1813 «sastavni dio Ilirskih pokrajina»",
+  ic_not_d:"RIJEKA-1114g (UMIT, KASA kararı): yıl çift (HE 1809 ⟂ Stelli 1809); gün tek kaynak (Stelli), Trogir 1809-10-14 ile ve Schönbrunn maddeleriyle aynı gün. Bu madde yalnız Fiume'nin taraf kolunu evrene taşır, olayı çoğaltmaz." },
+
+{ bolge:2, t:"1813-01-01", b:"Fiume'nin Fransız İlirya idaresinden Habsburg'a dönüşü", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Fiume (Rijeka)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"1813'te Napolyon'un Rusya yenilgisinin ardından Fiume İlirya Eyaletleri'nden çıkıp Avusturya İmparatorluğu'na döndü.",
+  kaynak:"Giovanni Stelli, «Breve storia di Fiume» (Società di Studi Fiumani, fiume-rijeka.it/wp-content/uploads/2023/01/Giovanni-Stelli-BREVE-STORIA-DI-FIUME.pdf, 2022; okundu 14.11.2026, pdftotext): «nel 1813, con la sconfitta di Napoleone ... la città quarnerina ritornò all'Impero d'Austria» · Hrvatska enciklopedija (LZMK) «Rijeka» (enciklopedija.hr/clanak/rijeka; okundu 14.11.2026, WebFetch): 1809-1813 İlirya, 1814'ten Trieste Gubernium",
+  ic_not_d:"RIJEKA-1114g (UMIT, KASA kararı): yıl çift; gün teyitsiz ⇒ 1813-01-01 [yalnız yıl teyitli; gün teyitsiz]. Stelli General Nugent'in girişini «alla fine di agosto 1813» verir (tek kaynak, gün yok): fiilî dönüş yıl içinde sonra. Bu madde yalnız Fiume'nin taraf kolunu evrene taşır; Zadar kökenli 1813-01-01 maddesi kendi yerinde kalır." },
+
+{ bolge:2, t:"1822-10-15", b:"Fiume, Macar Krallığı'na iade edildi", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Fiume (Rijeka)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"I. Franz'ın 5 Temmuz 1822 kararının ardından Macar hükümeti adına Kont György Majláth 15 Ekim 1822'de şehri teslim aldı; Fiume Macar Krallığı'na döndü.",
+  kaynak:"Giovanni Stelli, «Breve storia di Fiume» (Società di Studi Fiumani, fiume-rijeka.it/wp-content/uploads/2023/01/Giovanni-Stelli-BREVE-STORIA-DI-FIUME.pdf, 2022; okundu 14.11.2026, pdftotext): «il 15 ottobre 1822 il conte György Majláth giunto in città per prenderla in consegna in nome del Governo ungherese» · Hrvatska enciklopedija (LZMK) «Rijeka» (enciklopedija.hr/clanak/rijeka; okundu 14.11.2026, WebFetch): 1822 «vraćena civilnoj Hrvatskoj»",
+  ic_not_d:"RIJEKA-1114g (UMIT, KASA kararı): yıl çift (HE 1822 ⟂ Stelli 1822); gün tek kaynak (Stelli teslim günü; karar günü 5.VII.1822 ayrı). HE «Hırvatistan'a», Stelli «Macaristan'a» der: atlas Zagreb'de Hırvat/Macar tacı tek kimliktir (macaristan-habsburg), kimlik iki okumada aynı." },
 ];
