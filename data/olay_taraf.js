@@ -1939,6 +1939,8 @@ window.OLAY_TARAF = {
  "1386-01-01|Timur'un 'üç yıllık sefer'i: Azerbaycan ve Kuzey İran'ın alınması": ["timurlu","celayirli"],
  "1387-11-01|Timur'un İran'ın büyük bölümünü hakimiyeti altına alması": ["timurlu","muzafferi","kert"],
  "1388-09-28|Nice, Savoya Kontu VII. Amedeo'ya teslim oldu (Nice'in Savoya'ya 'dédition'u)": ["savoya","provence-kontlugu"],
+ "1390-06-01|I. Tvrtko Dalmaçya kıyı şehirlerinin (Šibenik dahil) hâkimiyetini aldı": ["macaristan","bosna-kralligi"],
+ "1391-01-01|I. Tvrtko'nun ölümü; Šibenik Macar hâkimiyetine döndü": ["bosna-kralligi","macaristan"],
  "1392-01-01|Draç (Durrës) Thopia'dan Venedik'e geçti": ["venedik"],
  "1392-01-01|I. Vasili Nijni Novgorod-Suzdal Knezliği'ni Moskova'ya kattı": ["moskova"],
  "1392-10-26|Mar'aşî Seyyidleri Mâhâneser'de Timur'a teslim oldu — Mâzenderan Timurlulara geçti": ["mazenderan-marasi","timurlu"],

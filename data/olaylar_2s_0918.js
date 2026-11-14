@@ -191,4 +191,16 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"Treccani, Enciclopedia Italiana, «Spalato» (treccani.it/enciclopedia/spalato_(Enciclopedia-Italiana)/; okundu 14.11.2026): Macar egemenliği «fino al 18 settembre 1327»; «Segue un trentennio di amministrazione veneziana» · Hrvatska enciklopedija (LZMK) «Split»: «Godine 1327–57. grad se nalazio pod mletačkom vlašću»",
   ic_not_d:"BALKAN-1114b: Treccani'nin 18 Eylül 1327 günü MACAR EGEMENLİĞİNİN SONA ERDİĞİ günü tarihler; Venedik'e teslim aktının/antlaşmasının günü ayrıca okunmadı (sonraki cümle Venedik idaresinin başladığını söyler). HE yalnız yıl (1327-57) ⇒ iki bağımsız kaynak (LZMK ⟂ Treccani) yılda uyuşur, gün tek kaynak. TDV, Fine, Ćirković okunamadı." },
 
+{ bolge:2, t:"1390-06-01", b:"I. Tvrtko Dalmaçya kıyı şehirlerinin (Šibenik dahil) hâkimiyetini aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Bosna Kralı I. Tvrtko 1390'da Zadar dışındaki Dalmaçya kıyı şehirlerinin hâkimiyetini aldı; Šibenik de Macar hâkimiyetinden çıkıp Bosna kralının üstünlüğünü tanıdı.",
+  kaynak:"Hrvatska enciklopedija (LZMK) «Šibenik» (enciklopedija.hr/clanak/sibenik; okundu 14.11.2026): «Od 1390. zajedno s ostalim gradovima Dalmacije (osim Zadra) priznavao je vlast bosanskoga kralja Tvrtka I. Kotromanića» · Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «di Tvarco re di Bosnia (1390-91)»",
+  ic_not_d:"BALKAN-1114c (KASA kararı): iki bağımsız kaynak (LZMK ⟂ Treccani) yılda uyuşur; gün kaynakta YOK, hassasiyet yıl. Gün komşudan: data/kronoloji_balkan.js:693 (aynı olay, «Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı»; o maddenin kendi kaynağı Fine, The Late Medieval Balkans, 'yaz 1390' için 06-01 seçilmiş) — zincirleme devralma yok. Aynı olay kronoloji_balkan.js:693'te Split/Trogir/Šibenik odağıyla var; bu madde YALNIZ Šibenik'in taraf kolunu (macaristan→bosna-kralligi) Değişmez 2 evrenine taşır, olayı çoğaltmaz." },
+
+{ bolge:2, t:"1391-01-01", b:"I. Tvrtko'nun ölümü; Šibenik Macar hâkimiyetine döndü", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"Bosna Kralı I. Tvrtko'nun 1391'de ölümüyle Šibenik'in Bosna üstünlüğü sona erdi; şehir Macar Kralı Sigismund'un hâkimiyetine girdi (1391-1402).",
+  kaynak:"Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «di Tvarco re di Bosnia (1390-91), di Sigismondo d'Ungheria (1391-1402)»",
+  ic_not_d:"BALKAN-1114c (KASA kararı): Treccani'de yıl (1391) var, gün yok; hassasiyet yıl (1391-01-01). Gün komşudan: data/kronoloji_balkan.js:698 (aynı olay, «Tvrtko I'in ölümü — taht kavgalarının başlaması», yıl düzeyi, o maddenin kendi kaynağı ile) — zincirleme devralma yok. Aynı olay kronoloji_balkan.js:698'de var; bu madde yalnız Šibenik'in taraf kolunu (bosna-kralligi→macaristan) Değişmez 2 evrenine taşır, olayı çoğaltmaz. LZMK bu dönüşün yılını ayrıca vermez (yalnız 1390 girişi): tek kaynak, yıl." },
+
 ];
