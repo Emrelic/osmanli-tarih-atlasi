@@ -1959,6 +1959,7 @@ window.OLAY_TARAF = {
  "1408-01-01|Erzurum ve Aşkale bölgesi Karakoyunlu-Timurlu çekişmesinde el değiştirdi": ["karakoyunlu","timurlu"],
  "1408-04-13|Serdrûd zaferi: Tebriz ve Azerbaycan Karakoyunlu'ya geçti": ["karakoyunlu","timurlu"],
  "1409-01-01|Artuklu hanedanının sonu: Mardin'in Karakoyunlulara teslimi": ["artuklu","karakoyunlu"],
+ "1409-07-31|Zadar Venedik idaresine girdi — Santa Intrada": ["macaristan","venedik"],
  "1410-01-01|Erzincan Karakoyunlu hâkimiyetine girdi": ["karakoyunlu","mutahharten"],
  "1411-01-01|Bağdat'ın Karakoyunlu eline geçişi — Celayirli Sultan Ahmed'in yenilgisi": ["karakoyunlu","celayirli"],
  "1412-01-01|Şibenik yeniden Venedik Cumhuriyeti'nin idaresine girdi": ["venedik"],
