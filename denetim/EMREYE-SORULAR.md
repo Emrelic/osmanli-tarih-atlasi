@@ -1,3 +1,5 @@
+> **İçerik EMRE-SORULARI-1114.md'ye birleştirildi (14 Kasım 2026, KASA kararı).** Yeni sorular orada; bu dosya geriye dönük izlek için korundu.
+
 # EMRE'YE SORULAR — 40 bekleyen karar, ~10 soruya toplandı
 
 > Sevk: 1.MURAT, M-2104 (2 Eylül 2026), `denetim/KARAR-MASASI.md`'nin B
