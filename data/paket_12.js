@@ -2909,6 +2909,72 @@ window.OLAYLAR_2S0920 = [
   d:"Tâhirîler'in son hükümdarı II. Âmir, Memlük donanmasıyla bozulan ilişkiler yüzünden başlayan savaşta, Yemen kabilelerinin ve Zeydîler'in Memlükler'i desteklemesiyle önce Zebîd yakınında yenildi (Kasım 1516), ardından San'a yakınındaki savaşta öldü. 1454'ten beri Yemen'e hükmeden Tâhirî hânedanı böylece sona erdi; hânedanın şehirleri (Taiz dahil) artık Tâhirî hükümdarlığına bağlı değildi.",
   ic_not_d:"D2s-ACIK-1114 (Taiz 1517-04-15, tahiri→yemen-zeydi): TDV 'Tâhirîler' ölüm günü 23 Rebîülevvel 923 (15 Nisan 1517) verir ve kimin öldürdüğünü yazmaz; Taiz'in 1517 sonrası sahibini TDV tahiriler maddesi VERMEZ — atlas kaydı yemen-zeydi (devralma TDV taiz 'Taiz'in fethi' 1547 öncesi) BEYANLI YAKLAŞIKLIK, bu maddede Taiz'in yeni sahibi iddia edilmedi.",
   kaynak:"TDV 'Tâhirîler' (tahiriler--yemen): «II. Âmir ... 23 Rebîülevvel 923 (15 Nisan 1517)» · TDV 'Resûlîler' (Tâhirî ele geçirişi 858/1454)", duygu:["😔"] },
+
+// ── DEGISMEZ2-1114-E · 14 Kasım 2026 · sekiz AÇIK 2s kırılmasından kaynakla çözülen altı madde ──
+// Çözülemeyenler (kaynak güne uymadı ya da okunamadı) bu dosyaya YAZILMADI: Labuan 1942-02-15, Bucaş 1941-06-30.
+// Çeviri borcu: aşağıdaki 6 madde yalnız Türkçe; en/ar/es/de/pt/ru/fr çevirisi yok.
+
+// ── 1723 · Yekaterinburg ─────────────────────────────────────────────
+{ tur:"kurulus", bolge:1, t:"1723-11-18", k:"kurulus", onem:3, dunya:2, kapsam:"dis", yer_id:"Yekaterinburg",
+  b:"Yekaterinburg demir fabrikası-kalesi kuruldu — Ural'ın maden bölgesinin merkezi",
+  gun:"7 Kasım 1723 (Jülyen) = 18 Kasım 1723 (Gregoryen)", yer:"Yekaterinburg",
+  kisiler:"Vasili Tatişçev, Wilhelm de Gennin",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Isetî nehri üzerinde Tatişçev'in seçtiği yerde de Gennin'in tamamladığı demir fabrikasının çekiç tezgâhları çalıştırıldı; Yekaterinburg bu günle kuruluş tarihini sayar. Ural'ın maden ve demir bölgesinin merkezi olacak yerleşim Rus Çarlığı'nın Sibirya yoluna açılan kapısı oldu.",
+  kaynak:"UrFU (Ural Federal Üniversitesi, İnEÜ) 'Yekaterinburg' sayfası — AYNEN: \"Основан 7 ноября 1723 года, как столица горнозаводского края.\" · Desyatov V. G., 'Старейшее сооружение на реке Исети', Akademicheskiy vestnik UralNIIproekt RAASN, 2013 — AYNEN: \"Годом основания города считается ноябрь 1723 г.\" (yalnız ay/yıl teyidi) · hassasiyet: GÜN",
+  ic_not_d:"JÜLYEN→GREGORYEN: UrFU gün olarak 7 Kasım 1723 (eski stil) verir; 1700-1800 arası fark 11 gündür ⇒ 18 Kasım 1723. Atlas kırılması zaten 1723-11-18. TEK GÜN KAYNAĞI kurumsal üniversite sayfasıdır (hakemli gün teyidi YOK); ikinci kaynak (Desyatov) yalnız Kasım 1723'ü teyit eder. Büyük Rus Ansiklopedisi (bigenc.ru) '7 (18) Kasım 1723' demektedir (arama özeti) ama sunucu bağlantıyı reddetti — OKUNMADI, sayılmadı. Çift teyit YOK. Yerleşim Rusya künyesine bu günden bağlıdır." },
+
+// ── 1941 · Ljubljana ────────────────────────────────────────────────
+{ tur:"ilhak", bolge:2, t:"1941-05-03", k:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Ljubljana",
+  b:"İtalya Ljubljana Eyaleti'ni Krallığa ilhak etti — Ljubljana Yugoslavya'dan koptu",
+  gun:"3 Mayıs 1941", yer:"Ljubljana",
+  kisiler:"III. Victor Emmanuel, Emilio Grazioli",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Nisan 1941'de Yugoslavya'nın çökmesiyle Ljubljana'yı ve Slovenya'nın batı yarısını işgal eden İtalya, 3 Mayıs 1941 tarihli kararnameyle bölgeyi Ljubljana Eyaleti adıyla Krallığa ilhak etti; yüksek komiser Grazioli oldu. Ljubljana Yugoslavya'dan çıkıp İtalyan idaresine girdi (Eylül 1943'e kadar).",
+  kaynak:"SIstory / Okupacijske meje, 'Occupied Ljubljana: a city at the border' sergisi — AYNEN: \"on 3 May 1941 the Province of Ljubljana was annexed by Italy.\" (okupacijskemeje.si/en-exh05-ch02.html, okundu) · Gazzetta Ufficiale 3 Mayıs 1941 içindekiler: 'REGIO DECRETO-LEGGE 3 maggio 1941-XIX, n. 291 — Costituzione della provincia di Lubiana' (OKUNMADI: arama özeti; PDF taranmış görüntü, metin katmanı yok) · hassasiyet: GÜN",
+  ic_not_d:"Atlas kırılması 1941-05-03; kaynak günle UYUŞUYOR. Tek OKUNAN kaynak SIstory'dir; Gazzetta/Normattiva doğrulaması okunamadı. Başka bir kaynağın (World Statesmen) 5 Mayıs vermesi akademik değildir, dikkate alınmadı." },
+
+// ── 1941 · Habeşistan'ın dönüşü ─────────────────────────────────────
+{ tur:"kurtulus", bolge:1, t:"1941-05-05", k:"kurtulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Sokota",
+  b:"Haile Selassie Addis Ababa'ya döndü — Habeşistan İtalyan Doğu Afrikası'ndan ayrıldı",
+  gun:"5 Mayıs 1941",
+  yer:"Sokota, Gimbî, Asella, Ağere Maryam, Moyale, Vukro, Negele Borana, Asosa",
+  kisiler:"Haile Selassie, Alan Cunningham",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"İngiliz-Habeş kuvvetlerinin Nisan başında Addis Ababa'yı almasından sonra İmparator Haile Selassie 5 Mayıs 1941'de başkente muzaffer döndü; İtalyan işgalinin (1936-41) resmî sonu bu gün sayılır. Atlas bu günü Habeşistan'ın İtalyan Doğu Afrikası'ndan dönüş sınırı olarak kullanır.",
+  kaynak:"Carlson, Andrew, 'Emperor Haile Selassie I Returns Triumphant to Ethiopia', Origins: Current Events in Historical Perspective (Ohio State University), Mayıs 2016 — AYNEN: \"On May 5, 1941, Haile Selassie I returned triumphantly to his beloved capital city, Addis Ababa.\" (okundu) · FRUS 1941, cilt III, belge 317 (Roosevelt'ten Haile Selassie'ye telgraf, 20 Mayıs 1941): \"informing me of your return to Addis Ababa\" (okundu; gün vermez) · TDV `etiyopya` (devletler.js künye-içi kronolojide 1941-05-05; bu oturumda okunmadı) · hassasiyet: GÜN",
+  ic_not_d:"GÜN BAŞKENTİN DÖNÜŞ GÜNÜDÜR; `yer` alanındaki sekiz yerleşim atlasın kırılma kümesinden (Sokota, Gimbî, Asella, Ağere Maryam, Moyale, Vukro, Negele Borana, Asosa): kaynak bunları tek tek anmaz, bu yerlerin FİİLEN İtalyan elinden çıkışı farklı bir günde olmuş olabilir (Gondar son kale olarak 27 Kasım 1941'de teslim oldu). Bu bir BEYANLI YAKLAŞIKLIKTIR, yerleşim tanıklığı değil. Marcus, 'Haile Sellassie and Italians, 1941–1943', Northeast African Studies 10/3 hakemli dergidir ama sunucu 403 verdi — OKUNMADI, sayılmadı." },
+
+// ── 1955 · Cocos (Keeling) ──────────────────────────────────────────
+{ tur:"ilhak", bolge:1, t:"1955-11-23", k:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Home Island (Cocos Keeling)",
+  b:"Cocos (Keeling) Adaları Singapur Kolonisi'nden çıkarılıp Avustralya'ya devredildi",
+  gun:"23 Kasım 1955", yer:"Home Island (Cocos Keeling)",
+  kisiler:"II. Elizabeth",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Britanya'nın 1955 tarihli Cocos Islands Act'i uyarınca çıkarılan Order in Council ve Avustralya'nın Cocos (Keeling) Islands Act 1955'inin ilan (Proclamation) günü olan 23 Kasım 1955'te adalar Singapur Kolonisi'nin parçası olmaktan çıktı ve Avustralya Topluluğu'nun yetkisi altına girdi. Home Island (Clunies-Ross ailesi mülkü ve Cocos-Malay yerleşimi) bu günden sonra Avustralya idaresindedir.",
+  kaynak:"Avustralya Federal Mevzuat Sicili, 'Cocos (Keeling) Islands Act 1955' (C1955A00034), preambül ve md. 2 — AYNEN: \"The date so fixed shall be the date on which the Cocos or Keeling Islands cease to form part of the Colony of Singapore and are placed under the authority of the Commonwealth.\"; son not 3: yürürlük 23 Kasım 1955 (Gazette 1955, s. 3665) (legislation.gov.au, okundu) · National Archives of Australia, 'The Cocos (Keeling) Islands' bilgi notu (FS 103) — 23 Kasım 1955 (sunucu zaman aşımı verdi; OKUNMADI) · hassasiyet: GÜN",
+  ic_not_d:"Atlas kırılması 1955-11-23; kaynak günle UYUŞUYOR. Kaynak okunan metin kanunun yürürlüğe giriş notudur: kanun md. 2 yürürlük gününü 'adaların Singapur'dan ayrıldığı gün' olarak tanımlar. Britanya Order in Council'in 28 Ekim 1955'te yapılıp günü 23 Kasım olarak belirlediği arama özetinde geçer, metni OKUNMADI." },
+
+// ── 1958 · Christmas Adası ──────────────────────────────────────────
+{ tur:"ilhak", bolge:1, t:"1958-10-01", k:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"Flying Fish Cove (Christmas Adası)",
+  b:"Christmas Adası Britanya'dan Avustralya'ya devredildi",
+  gun:"1 Ekim 1958", yer:"Flying Fish Cove (Christmas Adası)",
+  kisiler:"II. Elizabeth",
+  etiket:["siyasi","toprak-kazanc","konu-siyasi"],
+  d:"Britanya'nın The Christmas Island (Transfer to Australia) Order in Council 1958'i 1 Ekim 1958'de yürürlüğe girdi; adanın egemenliği Britanya Singapur Kolonisi'nden Avustralya Topluluğu'na geçti. Flying Fish Cove adanın yerleşim ve liman merkezidir.",
+  kaynak:"The Christmas Island (Transfer to Australia) Order in Council 1958, S.I. 1958 No. 1515, md. 1(2) — AYNEN: \"this Order shall come into operation on the first day of October, 1958\" (legislation.gov.uk, okundu; PDF OCR'dan elle çözüldü, devir maddesi görünen metinde kesikti) · National Archives of Australia, 'Christmas Island' bilgi notu (FS 157) ve Singapur NLB Infopedia 'Handover of Christmas Island to Australia' — 1 Ekim 1958 (arama özeti; OKUNMADI) · hassasiyet: GÜN",
+  ic_not_d:"Atlas kırılması 1958-10-01; kaynak günle UYUŞUYOR. TEK OKUNAN kaynak birincil belgedir (Order in Council yürürlük günü); akademik ikinci kaynak okunamadı, çift teyit YOK. Christmas Island Tourism Association sayfası aynı günü verir ama akademik değildir, sayılmadı." },
+
+// ── 1991 · Vukovar ──────────────────────────────────────────────────
+{ tur:"savas", bolge:2, t:"1991-11-18", k:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Vukovar",
+  b:"Vukovar düştü — JNA ve Sırp birlikleri üç aylık kuşatmadan sonra şehri ele geçirdi",
+  gun:"18 Kasım 1991", yer:"Vukovar",
+  kisiler:"Mile Mrkšić, Veselin Šljivančanin, Mile Dedaković",
+  etiket:["askeri","toprak-kaybi","konu-askeri"],
+  d:"Kuşatma altındaki Vukovar'ın kalan Hırvat savunmacıları 18 Kasım 1991'de teslim oldu; şehir Yugoslav Halk Ordusu ve Sırp güçlerinin eline geçti. Şehir sonradan BM Doğu Slavonya Geçiş Yönetimi (UNTAES) döneminden geçti.",
+  kaynak:"ICTY, Savcı v. Mrkšić, Radić, Šljivančanin (IT-95-13-R61), 20 Mart 1996 duruşma tutanağı, s. 13 — AYNEN: \"The remaining Croatian defenders then surrendered on 18 November 1991\" (icty.org/x/cases/mrksic/trans/en/960320IT.htm, okundu) · Hrvatska enciklopedija, 'Vukovar' — yalnız 'Studeni 1991' (gün YOK; okundu arama özetinden) · hassasiyet: GÜN",
+  ic_not_d:"Atlas kırılması 1991-11-18; kaynak günle UYUŞUYOR. UYARI: okunan kaynak savcılık açılış konuşmasıdır (yargı kaydı, akademik monografi değil); Hrvatska enciklopedija 'Slavonija' maddesi işgali '19-20 Kasım' olarak anıyor (arama özeti). 18 Kasım = savunmacıların teslimi; 19-20 Kasım = Ovčara/hastane olayları. Çift teyit YOK. ICTY Dokmanović iddianamesi ve Mrkšić hükmü aynı günü verir (okunamadı, sayılmadı)." },
+
 ];
 
 ;
