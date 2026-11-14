@@ -67,3 +67,23 @@ Kaynaklarda doğrulanamayan kırılmalar için madde UYDURULMADI; veriye dokunul
 | 1475-06-06 | Soçi (Sâşe), Tuapse, Maykop | → Kırım Hanlığı (gevşek tâbilik) | TDV cerkezler (yeniden okundu): Maykop yalnız resim altı yazısı; Soçi/Tuapse 1838 Rus ele geçirmesi bağlamında; Çerkesler hukuken Kırım Hanlığı'na tâbi ama 1475'e bağlanmaz | Üç yerin 1475'te Kırım Hanlığı'na tâbi olduğu kaynakta yok; GERİ ALINDI |
 | 1395-08-01 | Beykoz | Bizans → Osmanlı (Boğaz'ın Anadolu yakası) | TDV anadoluhisari (okundu 14.11.2026): Beykoz yalnız kalenin bugünkü ilçesi; hisar tarihi 793 (Âşıkpaşazâde) / 797 (Nişancı Mehmed Paşa) | Beykoz'un el değiştirmesi kaynakta yok; «Anadolu Hisarı'nın yapımı» maddesindeki Beykoz eklemesi GERİ ALINDI (KASA kararı) |
 | 1200-05-13 | Yenbu | Yenbu (boşluk) → Mekke Şerifliği | TDV mekke (okundu 14.11.2026): Yenbu‘ı anar ama Katâde Mekke'yi almadan önce de Yenbu‘ı kontrol ediyordu | Yenbu zaten Katâde'nindi; kaynak o gün el değiştirdiğini söylemiyor; yeni madde (olaylar_ortacag_ortadogu.js) tamamen SİLİNDİ (KASA kararı) |
+
+## YENİDEN DENEME 14 Kasım 2026 (umit-1113-bizans, TDV engelli makine)
+
+Bu turda yalnız web araması (özet düzeyi) yapılabildi; tam metin hakemli kaynak okunamadı. Hiçbir satır ÇÖZÜLMEDİ, veriye ve kronolojiye dokunulmadı.
+
+Bakılan satırlar ve yeni denenen kaynaklar:
+- 1345-09-25 Serez: Maksimović, Zbornik radova Vizantološkog instituta 41 (2004) (Doaj/CEEOL özeti): Serez'in Eylül 1345'te alındığı ve hemen ardından imparatorluğun ilanı; gün özetten okunmadı. Fine, The Late Medieval Balkans (1987) s. 292 alıntı olarak anılıyor, kitap tam metni OKUNMADI. 25 Eylül günü yalnız Vikipedi (dayanak değil). Sonuç: yıl teyitli (Eylül 1345, ay düzeyi), gün teyitsiz; madde yazılmadı.
+- 1451-06-30 Bordo: Gascon Rolls C 61/138 takvimi 23 Haziran; Mathieu d'Escouchy anlatımına dayanan ikincil özetler Dunois'nın girişini 30 Haziran verir; öteki özetler 12 (antlaşma), 14, 29 Haziran. Hakemli modern kaynak (TRHS 'The Last Years of English Gascony 1451-1453', Cambridge) OKUNAMADI (özet sayfası). Sonuç: çelişki sürüyor; üçüncü akademik kaynak yok; madde yazılmadı.
+- Öteki ~59 satıra bu turda BAKILMADI (kaynak erişimi: Treccani, GEC, DergiPark, archive.org tam metinleri bu turda fetch edilmedi).
+
+## TDV GEREKTİREN (KASA/EMRELİC üzerinden TDV günü/metni istenecek)
+
+- 0224-04-28 Isfahan (TDV «İsfahan», «Erdeşîr» yeniden okunmalı: İsfahan'ın Sâsânî'ye geçiş günü)
+- 1345-09-25 Serez (TDV «Serez», «Duşan»: gün)
+- 1355-12-20 Belgrad (TDV «Belgrad», «Duşan»: Macar idaresine geçiş yılı/günü)
+- 1404-03-01 Ankara, Ayaş (TDV «Ankara», «Süleyman Çelebi», «Çelebi Mehmed»)
+- 1405-02-18 Muş (TDV «Muş», «Karakoyunlular», «Timur»)
+- 1412-10-30 Şibenik (TDV «Dalmaçya», «Venedik»; ayrıca Hırvat/Venedik akademik kaynak)
+- 1413-07-05 Çankırı (TDV «Çankırı», «Candaroğulları», «Fetret devri»)
+- 1375-04-14 Sis/Kadirli, 1371-09-26 Burgaz çevresi, 1372-06-01 Hasköy/Klokotnitsa, 1381-06-01 İshaklı, 1383-09-19 Gevgili/Kılkış, 1387-04-09 Lanzaka, 1392-11-01 Candar kolu, 1393-06-01 Amasya zinciri, 1393-06-17 Gabrovo, 1439/1459 Hisarcık/Takova, 1455-06-01 Kosova Ovası, 1458-08-06 Sikyon, 1461-06-01 Candar yerleri, 1475-06-06 Soçi/Tuapse/Maykop (Osmanlı fetih/ilhak günleri: TDV ilgili şehir ve «Fetih» maddeleri)
