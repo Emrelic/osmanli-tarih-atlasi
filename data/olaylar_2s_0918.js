@@ -179,7 +179,7 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"standart akademik/ansiklopedik (Anadolu Selçuklu çözülüşü sonrası Alâiye'nin durumu — Cahen, Pre-Ottoman Turkey) — TDV kapsam dışı bu ayrıntı için, DÜŞÜK GÜVEN: kesin devir olayı ve tarihi BULUNAMADI, veri kaydıyla (1293) hizalandı, ayrıca araştırılmalı" },
 
 // ── BALKAN-1114b (UMIT, 14 Kasım 2026, KASA kararı): Dalmaçya şehirlerinin Venedik'e geçişi ──
-{ bolge:2, t:"1322-03-01", b:"Šibenik, Šubić kontları ile Venedik arasında kalıp Venedik'e bağlandı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+{ bolge:2, t:"1322-03-01", b:"Šibenik, Šubić kontları ile Venedik arasında kalıp Venedik'e bağlandı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Şibenik (Sebenico)",
   etiket:["toprak-kazanc","konu-siyasi"],
   d:"Hırvat derebeyi Bribirli Šubić kontları ile Venedik arasında kalan Šibenik, 1 Mart 1322'de kendini Venedik'e verdi ve 1357'ye dek Venedik idaresinde kaldı.",
   kaynak:"Treccani, Enciclopedia Italiana, «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «alla quale si dà il 1° marzo 1322, e sotto la quale rimane sino al 1357» · Hrvatska enciklopedija (LZMK) «Šibenik» (enciklopedija.hr/clanak/sibenik): «knezova Bribirskih (do 1322)»",
@@ -191,13 +191,13 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"Treccani, Enciclopedia Italiana, «Spalato» (treccani.it/enciclopedia/spalato_(Enciclopedia-Italiana)/; okundu 14.11.2026): Macar egemenliği «fino al 18 settembre 1327»; «Segue un trentennio di amministrazione veneziana» · Hrvatska enciklopedija (LZMK) «Split»: «Godine 1327–57. grad se nalazio pod mletačkom vlašću»",
   ic_not_d:"BALKAN-1114b: Treccani'nin 18 Eylül 1327 günü MACAR EGEMENLİĞİNİN SONA ERDİĞİ günü tarihler; Venedik'e teslim aktının/antlaşmasının günü ayrıca okunmadı (sonraki cümle Venedik idaresinin başladığını söyler). HE yalnız yıl (1327-57) ⇒ iki bağımsız kaynak (LZMK ⟂ Treccani) yılda uyuşur, gün tek kaynak. TDV, Fine, Ćirković okunamadı." },
 
-{ bolge:2, t:"1390-06-01", b:"I. Tvrtko Dalmaçya kıyı şehirlerinin (Šibenik dahil) hâkimiyetini aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+{ bolge:2, t:"1390-06-01", b:"I. Tvrtko Dalmaçya kıyı şehirlerinin (Šibenik dahil) hâkimiyetini aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Şibenik (Sebenico)",
   etiket:["toprak-kazanc","konu-siyasi"],
   d:"Bosna Kralı I. Tvrtko 1390'da Zadar dışındaki Dalmaçya kıyı şehirlerinin hâkimiyetini aldı; Šibenik de Macar hâkimiyetinden çıkıp Bosna kralının üstünlüğünü tanıdı.",
   kaynak:"Hrvatska enciklopedija (LZMK) «Šibenik» (enciklopedija.hr/clanak/sibenik; okundu 14.11.2026): «Od 1390. zajedno s ostalim gradovima Dalmacije (osim Zadra) priznavao je vlast bosanskoga kralja Tvrtka I. Kotromanića» · Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «di Tvarco re di Bosnia (1390-91)»",
   ic_not_d:"BALKAN-1114c (KASA kararı): iki bağımsız kaynak (LZMK ⟂ Treccani) yılda uyuşur; gün kaynakta YOK, hassasiyet yıl. Gün komşudan: data/kronoloji_balkan.js:693 (aynı olay, «Kral unvanının genişlemesi — Dalmaçya kıyı şehirlerinin alınışı»; o maddenin kendi kaynağı Fine, The Late Medieval Balkans, 'yaz 1390' için 06-01 seçilmiş) — zincirleme devralma yok. Aynı olay kronoloji_balkan.js:693'te Split/Trogir/Šibenik odağıyla var; bu madde YALNIZ Šibenik'in taraf kolunu (macaristan→bosna-kralligi) Değişmez 2 evrenine taşır, olayı çoğaltmaz." },
 
-{ bolge:2, t:"1391-01-01", b:"I. Tvrtko'nun ölümü; Šibenik Macar hâkimiyetine döndü", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+{ bolge:2, t:"1391-01-01", b:"I. Tvrtko'nun ölümü; Šibenik Macar hâkimiyetine döndü", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Şibenik (Sebenico)",
   etiket:["toprak-kayip","konu-siyasi"],
   d:"Bosna Kralı I. Tvrtko'nun 1391'de ölümüyle Šibenik'in Bosna üstünlüğü sona erdi; şehir Macar Kralı Sigismund'un hâkimiyetine girdi (1391-1402).",
   kaynak:"Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «di Tvarco re di Bosnia (1390-91), di Sigismondo d'Ungheria (1391-1402)»",
@@ -209,7 +209,7 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"Treccani, Enciclopedia Italiana «Spalato» (treccani.it/enciclopedia/spalato_(Enciclopedia-Italiana)/; okundu 14.11.2026): «Segue un trentennio di amministrazione veneziana, indi, dal 1357 al 1420, nuovamente la diretta sovranità ungherese» · Hrvatska enciklopedija (LZMK) «Split»: «Godine 1327–57. grad se nalazio pod mletačkom vlašću»",
   ic_not_d:"BALKAN-1114c (KASA kararı): iki bağımsız kaynak (LZMK ⟂ Treccani) yıl 1357'de uyuşur; GÜN YOK ⇒ yıl hassasiyeti 1357-01-01, [yalnız yıl teyitli; gün teyitsiz]. Zadar Antlaşması günü (1358-02-18) Split'e UYGULANMADI (Split'e özgü kaynağı yok). Bu 1 yıl-temsilî borç beyanlı kabuldür (kırılma ve madde aynı gün). Kronoloji sınır dosyalarında Split'e ait ayrı 1357 maddesi aranmadı (ölçülmedi)." },
 
-{ bolge:2, t:"1357-12-14", b:"Šibenik Venedik'ten ayrıldı — Macar hâkimiyetine geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+{ bolge:2, t:"1357-12-14", b:"Šibenik Venedik'ten ayrıldı — Macar hâkimiyetine geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Şibenik (Sebenico)",
   etiket:["toprak-kayip","konu-siyasi"],
   d:"Šibenik, Anjou'lu Lajos'un Dalmaçya'yı Venedik'ten koparmakta olduğu sırada 14 Aralık 1357'de Venedik'ten ayrıldı ve Macar hâkimiyetine girdi.",
   kaynak:"Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026, tam cümle YENİDEN OKUNDU): «Sebenico sceglie Venezia, alla quale si dà il 1° marzo 1322, e sotto la quale rimane sino al 1357, distaccandosi il 14 dicembre, quando Lodovico d'Angiò era in atto di strappare la Dalmazia a Venezia.» · Hrvatska enciklopedija «Šibenik»/«Zadarski mir»: Venedik 1358 Zadar Barışı'na dek",
