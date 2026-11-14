@@ -2787,7 +2787,7 @@ window.ETIKET_YAMA = {
    "guven": "KESIN"
   },
   {
-   "t": "1897-01-28",
+   "t": "1897-02-09",
    "b": "İlk genel nüfus sayımı yapıldı",
    "kume": "YAB",
    "mevcut_k": "idari",
@@ -3027,7 +3027,7 @@ window.ETIKET_YAMA = {
    "not": "Olcutu geciyor ama gerekcesi BAGLAMA bagli — koordinator karari."
   },
   {
-   "t": "1757-11-06",
+   "t": "1757-11-17",
    "b": "İmparatorluk Güzel Sanatlar Akademisi kuruldu",
    "kume": "YAB",
    "mevcut_k": "kultur",
@@ -3379,7 +3379,7 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1837-10-30",
+    "t": "1837-11-11",
     "b": "Sankt-Peterburg – Tsarskoye Selo demiryolu açıldı",
     "kume": "YAB",
     "etiket_ekle": [
