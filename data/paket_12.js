@@ -2974,6 +2974,43 @@ window.OLAYLAR_2S0920 = [
   d:"Kuşatma altındaki Vukovar'ın kalan Hırvat savunmacıları 18 Kasım 1991'de teslim oldu; şehir Yugoslav Halk Ordusu ve Sırp güçlerinin eline geçti. Şehir sonradan BM Doğu Slavonya Geçiş Yönetimi (UNTAES) döneminden geçti.",
   kaynak:"ICTY, Savcı v. Mrkšić, Radić, Šljivančanin (IT-95-13-R61), 20 Mart 1996 duruşma tutanağı, s. 13 — AYNEN: \"The remaining Croatian defenders then surrendered on 18 November 1991\" (icty.org/x/cases/mrksic/trans/en/960320IT.htm, okundu) · Hrvatska enciklopedija, 'Vukovar' — yalnız 'Studeni 1991' (gün YOK; okundu arama özetinden) · hassasiyet: GÜN",
   ic_not_d:"Atlas kırılması 1991-11-18; kaynak günle UYUŞUYOR. UYARI: okunan kaynak savcılık açılış konuşmasıdır (yargı kaydı, akademik monografi değil); Hrvatska enciklopedija 'Slavonija' maddesi işgali '19-20 Kasım' olarak anıyor (arama özeti). 18 Kasım = savunmacıların teslimi; 19-20 Kasım = Ovčara/hastane olayları. Çift teyit YOK. ICTY Dokmanović iddianamesi ve Mrkšić hükmü aynı günü verir (okunamadı, sayılmadı)." },
+// ── 1902-03 · Zaria İngiliz idaresine girdi (Değişmez 2s, Zaria/Kano 1903 düzeltmesi) ──
+{ tur:"fetih", bolge:1, t:"1902-03-01", k:"fetih", onem:2, dunya:2, yer_id:"Zaria (Zazzau)",
+  b:"Zaria (Zazzau) İngiliz idarî denetimine girdi — Sokoto Halifeliği'nin Zaria emirliği Kuzey Nijerya Himayesi'ne bağlandı",
+  gun:"Mart 1902", yer:"Zaria (Zazzau)",
+  kisiler:"Frederick Lugard",
+  etiket:["siyasi","toprak-kayip"],
+  d:"Sokoto Halifeliği'ne bağlı Zaria emirliği, Mart 1902'de İngiltere'nin Kuzey Nijerya idaresi altına alındı; İngilizler Zaria'ya bir Resident ve garnizon yerleştirdi. Emir Kwasau Temmuz 1902'de teslim oldu, Eylül'de görevden alındı.",
+  kaynak:"Encyclopædia Britannica 11. basım (1911), 'Zaria' — AYNEN: \"In March 1902 the province was taken under British administrative control.\" (Wikisource metninden okundu) · hassasiyet: AY (gün yok)",
+  ic_not_d:"HASSASİYET AY: gün kaynakta yok, ayın 1'ine yazıldı; atlas kırılması da 1902-03-01. Eski kayıt t 1903-01-01 idi (Kano-Sokoto seferi yılı) — Zaria Ocak 1903'te Morland seferinin ÜSSÜ olarak çıkıldı, o tarihte el değiştirmedi. Tek okunan kaynak EB 1911 (yaşlı genel ansiklopedi); Lugard 1902 Yıllık Raporu (dawodu.com, HTTP 500), Last/Adeleye okunmadı — çift teyit YOK. Kwasau'nun Temmuz-Eylül 1902 olayları araştırma sonucu özetten alındı, bu turda birincil okunmadı." },
+
+// ── 1903-02 · Kano İngilizlerce alındı ───────────────────────────────
+{ tur:"fetih", bolge:1, t:"1903-02-01", k:"fetih", onem:3, dunya:2, yer_id:"Kano",
+  b:"İngilizler Kano'yu aldı — Sokoto Halifeliği'nin en büyük emirliği Kuzey Nijerya Himayesi'ne geçti",
+  gun:"Şubat 1903", yer:"Kano",
+  kisiler:"Thomas Morland, Frederick Lugard",
+  etiket:["askeri","toprak-kayip"],
+  d:"Kuzey Nijerya Yüksek Komiseri Lugard'ın emrindeki Albay Morland'ın kuvveti Zaria'dan hareket edip Şubat 1903'te Kano'yu ele geçirdi; Sokoto Halifeliği'ne bağlı Kano emirliği İngiliz idaresine girdi. Sokoto bir ay sonra, 15 Mart 1903'te alındı.",
+  kaynak:"Encyclopædia Britannica 11. basım (1911), 'Kano' — AYNEN: \"In February 1903 the city was captured by a British force under Colonel T. L. N. Morland\" (Wikisource metninden okundu) · Encyclopaedia Britannica 'Nigeria' (The arrival of the British): Kano Şubat'ta alındı, Sokoto ertesi ay düştü (arama özetinden) · hassasiyet: AY",
+  ic_not_d:"HASSASİYET AY: 3 Şubat 1903 günü Vikipedi künyesinde ve History Today 'The Fall of Kano'da anılıyor; Vikipedi tek dayanak olamaz, History Today HTTP 403 ile okunmadı — gün KULLANILMADI. Hogben & Kirk-Greene, Last, Adeleye bu turda okunmadı. Eski kayıt t 1903-01-01 idi." },
+
+// ── 1942-01 · Labuan'ın Japon işgali ─────────────────────────────────
+{ tur:"isgal", bolge:2, t:"1942-01-01", k:"isgal", onem:2, dunya:2, yer_id:"Labuan (Victoria)",
+  b:"Japon kuvvetleri savunmasız Labuan Adası'nı işgal etti — İngiliz Malaya (Straits Settlements) kuzey Borneo'daki adasını yitirdi",
+  gun:"Ocak 1942", yer:"Labuan (Victoria)",
+  kisiler:"",
+  etiket:["askeri","toprak-kayip"],
+  d:"Borneo harekâtı sırasında küçük bir Japon kuvveti, savunulmayan Labuan Adası'na çıkıp onu ele geçirdi; ada Ocak 1942'den Eylül 1945'e kadar Japon askerî işgalinde kaldı. Gün kaynaklarda 1 ya da 3 Ocak olarak değişir (bkz. ic_not).",
+  kaynak:"Percival, Malaya Komutanlığı harekât raporu (London Gazette eki; 'Operations of Malaya Command', Borneo ve Christmas Adası bölümü, fepow.family aynasından okundu) — AYNEN: \"On the 3rd January, 1942, a small Japanese force took possession of the Island of Labuan, which was not defended.\" · Rosdianah Yacho & Arshad Islam, 'The Effects of Japanese Occupation in Sabah', Intellectual Discourse 28/2 (2020): 1 Ocak 1942 (BorneoHistory.net özetinden; makale okunmadı) · hassasiyet: AY",
+  ic_not_d:"ÇELİŞKİ 1 Ocak ↔ 3 Ocak 1942: Percival raporu (resmî) 3 Ocak der; Yacho & Islam 1 Ocak der ve bu tarih Vichy radyosunun Berlin'e dayandırdığı duyuruya bağlanıyor (propaganda olabilir). Bağımsız ikinci akademik kaynak bulunamadığından gün seçilmedi, ay hassasiyeti. Eski kayıt (Labuan, 1942-02-15) Singapur'un düştüğü güne bağlıydı — Labuan'a özgü değildi." },
+// ── 224 · Hürmüzgân: Part → Sâsânî (Isfahan) ─────────────────────────
+{ tur:"savas", bolge:1, t:"0224-04-28", k:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Isfahan",
+  b:"Hürmüzgân Savaşı: Erdeşîr Part hükümdarı V. Erdevân'ı yendi — Isfahan Sâsânî çekirdeğine girdi",
+  gun:"28 Nisan 224", yer:"Isfahan",
+  kisiler:"Erdeşîr-i Bâbekân; V. Erdevân (Artabanus)", etiket:["siyasi","savas","konu-askeri","konu-siyasi"],
+  d:"Fars'ta mahallî hükümdar Erdeşîr, Hürmüzgân'da Part hükümdarı V. Erdevân'ı yendi; Part (Eşkânî) hânedanı çöktü ve Sâsânî hânedanı yükseldi. Atlas Isfahan'ı bu günden itibaren Sâsânî toprağı sayar.",
+  kaynak:"TDV `erdesir` (Tahsin Yazıcı) — arama parçası AYNEN: \"Erdeşîr, 28 Nisan 224’te Medler…\"; madde gövdesi: Hürmüzcân (Medya) zaferi 28 Nisan 224, hükümdarlığını aynı yıl ilân etti; bazı kaynaklarda resmen 226'da Medâin'de tahta çıktı · TDV `sasaniler`: \"Erdeşîr 224’te Hürmüzdegân’da Part Hükümdarı V. Erdevân’ı (Artabanus) yenilgiye uğrattı\" · hassasiyet: GÜN",
+  ic_not_d:"D2s-ACIK-1114 (TDV okundu 14 Kasım 2026): GÜN TDV erdesir'den; atlas kırılması 0224-04-28 ile aynı gün. TDV `isfahan` Part→Sâsânî geçişini ve tarihini ANMAZ (yalnız \"Sâsânî döneminde önemli gelişme\", Yahudi cemaati); Isfahan'ın bu günde Sâsânî'ye geçtiği atlasın künye çıkarımıdır (BEYANLI YAKLAŞIKLIK) — savaş günü kaynaklı, Isfahan'a özgü teslim günü kaynaksız. TDV sasaniler taç giyme yılını 226 verir (resmî tahta çıkış); atlasın 224 künyesi savaş günüdür." },
 
 ];
 

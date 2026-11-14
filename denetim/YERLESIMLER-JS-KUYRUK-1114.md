@@ -353,3 +353,28 @@ data/yerlesimler.js'e dokunulmaz (UMIT/bu oturum); düzeltmeyi yerlesimler.js sa
 **İkinci kaynak adayları (okunmadı):** Treccani «Belgrado» (okundu, 14. yy'ı kapsamıyor — işe yaramaz); Ćirković, *The Serbs* (Blackwell 2004); Fine, *The Late Medieval Balkans* (U. Michigan 1987); Mađarska povijest (Engel, *The Realm of St Stephen*, 2001). Balcanica XLVII (2016) indirmesi bu konuyu içermiyordu.
 
 **Karar durumu:** hakemli karar için TDV'ye karşı bağımsız en az iki akademik kaynak gerekir; şu an yalnız Hrvatska enc. (iki madde, aynı yayıncı). Bu yüzden kayıt DEĞİŞTİRİLMEDİ, kuyruğa yazıldı.
+
+---
+
+## 8. Muş — `data/yerlesimler.js:234-239` (EMRELİC ekledi, 14 Kasım 2026)
+
+Mevcut: `timurlu` 1387-01-30 → 1405-02-18, ardından `karakoyunlu` 1405-02-18 → 1467-01-01.
+Sorun: 18 Şubat 1405 Timur'un ÖLÜM günüdür (TDV `timur`, 17 Şâban 807). Muş'un Karakoyunlu'ya fiilî devri TDV `karakoyunlular`'a göre Kara Yusuf'un 808 Muharreminde (Temmuz 1405) yola çıkıp Avnik'i almasıyla olur; ölüm gününde devir kaynakta yok.
+Öneri (koşu inişi sonrası): `timurlu` t ve `karakoyunlu` f = 1405-07 (ay hassasiyeti, `kesinlik` ay) + `ic_not`: eski gün 1405-02-18 Timur'un ölümüdür, devir Temmuz 1405; iki uç bitişik, künye aralıklarının içinde olduğu uygulamada yeniden ölçülmeli. Ardından ±30 günde kronoloji maddesi (Değişmez 2) gerekir: Kara Yusuf'un Temmuz 1405 Doğu Anadolu dönüşü kaynaklı madde (TDV `karakoyunlular`, `kara-yusuf`).
+Not: ilk turda yazılan "Timur Otrar'da öldü — Muş" maddesi KASA uyarısıyla (sayaç kapatma) GERİ ALINDI; ölüm maddesi `olaylar_dunya_bolge_1109.js`te zaten var.
+
+
+## 2t EKİ — D2T-EKSIK-KIRILMA-1114.md'den `yerlesimler.js` kuyruğuna giren satırlar (14 Kasım 2026)
+
+Ayrıntı, kaynak ve iki uç ölçümü `denetim/D2T-EKSIK-KIRILMA-1114.md`de. Aşağıdaki tablo o dosyanın `yerlesimler.js` içindeki kayıtlarının uygulama özetidir (koşu inişi sonrası tek commit).
+
+| # | Yerleşim | Dosya | Sınıf | Öneri | Güven / kalan |
+|---|---|---|---|---|---|
+| 8 | Muş | yerlesimler.js:234-239 | UYGULA | `timurlu` t + `karakoyunlu` f 1405-02-18 → **1405-07 (ay)**; 18 Şubat Timur'un ölümü, devir Temmuz 1405 (TDV `karakoyunlular`); ±30 günde Kara Yusuf Temmuz 1405 maddesi gerekir | ölüm maddesi GERİ ALINDI (sayaç kapatma) |
+| 9 | Beyrut | yerlesimler.js | UYGULA (gün çelişkisi) | `s` kudus-kralligi→memluk 1291-05-18 (Akka düşüş günü) → Beyrut teslimi Temmuz 1291 (Runciman, 1 Temmuz — web özeti); TDV yalnız 1291 | hakemli karar gerek; sayfa okunmadı |
+| 10 | Sivas | yerlesimler.js | UYGULA | `s` eretna→burhaneddin 1381-01-01 yıl-temsilî; kaynak «1381 sonbaharı» (TDV `kadi-burhaneddin`) | gün yok |
+| 11 | Yenbu | yerlesimler.js | UYGULA (ay çelişkisi) | `s` suud-birinci t / `v` f 1811-11-01 → Burckhardt «Ekim 1811» ile ay uyuşmuyor; ay hassasiyeti Ekim–Kasım | hakemli karar (TDV `yenbu`, Tosun Paşa) |
+| 12 | Peşte | yerlesimler.js | GERÇEK EKSİK | 1684 Haziran–Kasım Habsburg işgali (`isg` macaristan-habsburg) eklenmeli; giriş günü kaynaklarda 17/30 Haziran çelişkili | `d` kesintisiz 1541→1686 şimdi |
+| 13 | Lahsa | yerlesimler.js | GERÇEK EKSİK | Mısır (Mehmed Ali) işgali 1836-38 → çekiliş; başlangıç yılı ve çekiliş günü kaynaksız | `s` suud-ikinci 1830→1871 kesintisiz şimdi |
+| — | Modon, Yanova | (§3, §2) | zaten tabloda | — | — |
+| 14 | Safi / Azemmûr / Mazagan | **yerlesimler_ek3.js** | SERBEST | kaynak turu sürüyor (alt ajan); Mazagan 1769-03-11 hazır düzeltme | gün kaynağı bekleniyor |
