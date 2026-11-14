@@ -27,7 +27,7 @@ window.ANTLASMA_MADDELERI.push({
   "Lehistan",
   "Rusya"
  ],
- "kaynak": "OKUNAN (ham/neşir metin): ① Habsburg md. 1-20, Venedik giriş + md. 1-16 + Doge onayı (7 Şubat 1699) ve Lehistan md. 1-11 — A General Collection of Treatys, Declarations of War, Manifestos... Vol. IV (Londra 1732; İngilizce çeviri), s. 290-322, archive.org nüshası «generalcollectio04whatuoft» (djvu OCR metni, curl ile indirildi ve satır satır okundu; OCR hatalı yer adları işaretlendi). ② Lehistan–Osmanlı metni ayrıca Wikisource «Treaty of Karlowitz (Poland and Turkey)» (aynı 1732 çevirisi; Wikisource yalnız barındırıcı) ile çapraz okundu, 11 madde birebir örtüşür. TDV «Karlofça» maddesi (islamansiklopedisi.org.tr/karlofca) YALNIZ WebFetch özetleyici aracıyla okundu (curl Cloudflare engeli; ham sayfa gövdesi görülmedi): imza 24 Receb 1110 = 26 Ocak 1699, Rusya ateşkesi 22 Receb 1110 = 24 Ocak 1699, İstanbul 27 Muharrem 1112 = 14 Temmuz 1700, 25 yıllık süre ve Edirne protokolü/kongre tarihleri buradan; araç özetleri iki çağrıda ayrıntıda tutarsız olduğundan TDV yalnız tarihler için kullanıldı; ham metin sayılmadı. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi; Rusya ateşkesinin ve 1700 İstanbul Antlaşması'nın metni (⚠ DOĞRULANMADI); Noradounghian, Hurewitz, Dumont, Consolidated Treaty Series, Düstur, DergiPark/TTK çalışmaları (okunmadı; İKİNCİ KAYNAK TEYİDİ aşağıda). İKİNCİ BAĞIMSIZ KAYNAK TEYİDİ (EMRELIC ant17-pA, 13 Kasım 2026): ① Dumont, Corps universel diplomatique, t. VII, 2. kısım (Amsterdam-La Haye 1731; archive.org corpsuniverseldi72dumo) — «Instrumentum Caesareum Pacis ad XXV annos inter Leopoldum … et Mustapha Han … in Congressu Carlowitzii in Sirmio die 26 Januarii 1699», Venedik metni «die 26. Januarii 1699 … in Congressu Pacis facto Carlovitz» ve Doge onayı, Lehistan metni on bir madde; Venedik metninde roma rakamı XVI'ya dek on altı madde. ② Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (Paris 1897), dizin kayıtları (OCR numaraları 281-284) ve Texte No 16 (archive.org recueildactesin03turkgoog): «1699 Janvier 26 — Traité de paix pour vingt-cinq ans avec l'Autriche … [20 Redjeb 1110], ratifié le 29 Chaban 1110», 'Texte en vingt articles' (md. 20 = 25 yıl süre); Venedik ve Lehistan kayıtları aynı gün. SONUÇ: gün 26 Ocak 1699 ve madde sayıları (Habsburg 20, Venedik 16, Lehistan 11) ikinci kaynakla UYUMLU; veri değiştirilmedi. Tek fark hicrî gündedir: TDV 24 Receb 1110, Noradounghian 20 Redjeb 1110 (tablo hesabıyla 24 Receb 1110 = 26 Ocak 1699 Gregoryen; miladî gün aynı). Dumont/Noradounghian bağımsız sayılabilir (Noradounghian Dumont'u dizinde anar ama Medjmouaï/Viyana arşiv metnini de verir). Özetler KENDİ cümlemizle; 1732 İngilizce çevirisinden Türkçe yer adları karşılıkları resmî Türkçe metinle teyit edilmedi. Metin Habsburg barışını «armistice/truce» olarak çevirir; Osmanlı terminolojisinde sulhnâmedir. MADDE DÜZEYİ İKİNCİ KAYNAK KARŞILAŞTIRMASI (UMIT, 14 Kasım 2026): Dumont VII/2 (1731) s. 451-458'den Venedik md. I-XVI + giriş + Doge onayı ve Lehistan md. I-XI + giriş madde madde okundu; her adımın «kaynak» alanında madde numarası ve sayfasıyla teyit/çelişki yazılıdır. Sonuç: Venedik 16/16 madde UYUMLU (yer adı OCR şüpheleri Zaduara/Çiçlut doğrulandı; md. 11 ekinoks gününün sayısı Dumont OCR'ında okunmadı; Doge onayı yılı OCR'ı bozuk, okunmadı). Lehistan 11 maddenin 9'u UYUMLU; md. 2'de özet hatası düzeltildi («sondan bir önceki savaş»), md. 3'e 1732 çevirisinde bulunmayıp Dumont'ta bulunan Kazak hetmanı hükmü eklendi. Noradounghian ve Habsburg md. 1-20 madde düzeyinde bu turda karşılaştırılmadı (Habsburg Dumont s. 447-451 okunmadı).",
+ "kaynak": "OKUNAN (ham/neşir metin): ① Habsburg md. 1-20, Venedik giriş + md. 1-16 + Doge onayı (7 Şubat 1699) ve Lehistan md. 1-11 — A General Collection of Treatys, Declarations of War, Manifestos... Vol. IV (Londra 1732; İngilizce çeviri), s. 290-322, archive.org nüshası «generalcollectio04whatuoft» (djvu OCR metni, curl ile indirildi ve satır satır okundu; OCR hatalı yer adları işaretlendi). ② Lehistan–Osmanlı metni ayrıca Wikisource «Treaty of Karlowitz (Poland and Turkey)» (aynı 1732 çevirisi; Wikisource yalnız barındırıcı) ile çapraz okundu, 11 madde birebir örtüşür. TDV «Karlofça» maddesi (islamansiklopedisi.org.tr/karlofca) YALNIZ WebFetch özetleyici aracıyla okundu (curl Cloudflare engeli; ham sayfa gövdesi görülmedi): imza 24 Receb 1110 = 26 Ocak 1699, Rusya ateşkesi 22 Receb 1110 = 24 Ocak 1699, İstanbul 27 Muharrem 1112 = 14 Temmuz 1700, 25 yıllık süre ve Edirne protokolü/kongre tarihleri buradan; araç özetleri iki çağrıda ayrıntıda tutarsız olduğundan TDV yalnız tarihler için kullanıldı; ham metin sayılmadı. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi; Rusya ateşkesinin ve 1700 İstanbul Antlaşması'nın metni (⚠ DOĞRULANMADI); Noradounghian, Hurewitz, Dumont, Consolidated Treaty Series, Düstur, DergiPark/TTK çalışmaları (okunmadı; İKİNCİ KAYNAK TEYİDİ aşağıda). İKİNCİ BAĞIMSIZ KAYNAK TEYİDİ (EMRELIC ant17-pA, 13 Kasım 2026): ① Dumont, Corps universel diplomatique, t. VII, 2. kısım (Amsterdam-La Haye 1731; archive.org corpsuniverseldi72dumo) — «Instrumentum Caesareum Pacis ad XXV annos inter Leopoldum … et Mustapha Han … in Congressu Carlowitzii in Sirmio die 26 Januarii 1699», Venedik metni «die 26. Januarii 1699 … in Congressu Pacis facto Carlovitz» ve Doge onayı, Lehistan metni on bir madde; Venedik metninde roma rakamı XVI'ya dek on altı madde. ② Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (Paris 1897), dizin kayıtları (OCR numaraları 281-284) ve Texte No 16 (archive.org recueildactesin03turkgoog): «1699 Janvier 26 — Traité de paix pour vingt-cinq ans avec l'Autriche … [20 Redjeb 1110], ratifié le 29 Chaban 1110», 'Texte en vingt articles' (md. 20 = 25 yıl süre); Venedik ve Lehistan kayıtları aynı gün. SONUÇ: gün 26 Ocak 1699 ve madde sayıları (Habsburg 20, Venedik 16, Lehistan 11) ikinci kaynakla UYUMLU; veri değiştirilmedi. Tek fark hicrî gündedir: TDV 24 Receb 1110, Noradounghian 20 Redjeb 1110 (tablo hesabıyla 24 Receb 1110 = 26 Ocak 1699 Gregoryen; miladî gün aynı). Dumont/Noradounghian bağımsız sayılabilir (Noradounghian Dumont'u dizinde anar ama Medjmouaï/Viyana arşiv metnini de verir). Özetler KENDİ cümlemizle; 1732 İngilizce çevirisinden Türkçe yer adları karşılıkları resmî Türkçe metinle teyit edilmedi. Metin Habsburg barışını «armistice/truce» olarak çevirir; Osmanlı terminolojisinde sulhnâmedir. MADDE DÜZEYİ İKİNCİ KAYNAK KARŞILAŞTIRMASI (UMIT, 14 Kasım 2026): Dumont VII/2 (1731) s. 451-458'den Venedik md. I-XVI + giriş + Doge onayı ve Lehistan md. I-XI + giriş madde madde okundu; her adımın «kaynak» alanında madde numarası ve sayfasıyla teyit/çelişki yazılıdır. Sonuç: Venedik 16/16 madde UYUMLU (yer adı OCR şüpheleri Zaduara/Çiçlut doğrulandı; md. 11 ekinoks gününün sayısı Dumont OCR'ında okunmadı; Doge onayı yılı OCR'ı bozuk, okunmadı). Lehistan 11 maddenin 9'u UYUMLU; md. 2'de özet hatası düzeltildi («sondan bir önceki savaş»), md. 3'e 1732 çevirisinde bulunmayıp Dumont'ta bulunan Kazak hetmanı hükmü eklendi. HABSBURG MADDE DÜZEYİ KARŞILAŞTIRMA (UMIT, 14 Kasım 2026): Dumont VII/2 s.446-451 (CCVIII, Latince, archive.org corpsuniverseldi72dumo ham OCR) ile Noradounghian I Texte No 16 (Latince metin s.182-192 ve Türkçe metinden Fransızca özet s.193-196; archive.org recueildactesin03turkgoog) md. 1-20 madde madde okundu; her adımın «kaynak» alanında madde/sayfa teyidi yazılıdır. Sonuç: 20 maddenin 15'i UYUMLU, 3'ünde özet eksiği/ince hata düzeltildi (md. 4 Moravica ve tahkim yasağının kapsamı; md. 5 Doboj, Kostajnica, Brod yıkımı; md. 17 kıyafet/hizmetli), 1'inde ÇELİŞKİ hakemli kararla çözüldü (md. 19: onay değişimi 30 gün, önceki özet 50 gün yazıyordu), 1 madde (md. 2) UYUMLU ama özet kısaltmalı. Noradounghian'ın Latince metni Dumont ile sözü sözüne aynıdır (ortak türev; bağımsız sayılmaz); bağımsız teyit Noradounghian'ın Türkçe metinden verdiği Fransızca özettir. Okunmadı: Habsburg onay belgesi (Dumont'ta yok), 1732 baskısının görüntüsü, Noradounghian Latince md. 19 rakamı (OCR «40»), Kasım 1698 açılışı ve Edirne protokolü (TDV).",
  "yerler": {
   "Karlofça": [
    19.93,
@@ -225,6 +225,7 @@ window.ANTLASMA_MADDELERI.push({
  "adimlar": [
   {
    "no": "Genel çerçeve",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.446-447 başlık ve giriş (ilk sayfa numarası OCR'da yok; sayfa çıkarımdır): Latince giriş 26 Ocak 1699 tarihli antlaşmayı «Cum Plenipotentia Caesarea Vienn. 23 Junii 1698» başlığıyla verir; 16 yıllık savaş, arabulucular İngiltere Kralı III. Guillaume'un elçisi Paget (Baron de Beaudesert) ve Hollanda elçisi Jacobus Coljer, Habsburg tam yetkilileri Wolfgang Oettingen ve Leopold Schlick, Osmanlı tam yetkilileri Mehemmet Efendi (Reisülküttab, Venedik belgesinde imza «Mehemet Rami») ve Alexander (Aleksandros) Mavrokordato — UYUMLU. Kasım 1698'de açılış ve Edirne ön protokolü Dumont'un Habsburg metninde geçmez: TDV'ye dayanır, bu turda okunmadı. Dumont s.452-454: Lehistan ve Venedik belgeleri aynı 26 Ocak 1699 tarihli; Rusya ateşkesi Dumont VII/2 bu sayfalarında okunmadı. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Latince giriş (s.182-183) aynı isim ve unvanları verir; «20 madde» beyanı Dumont ile aynı — UYUMLU.",
    "bolum": "Kongre ve genel çerçeve (Karlofça, Kasım 1698 – Ocak 1699)",
    "ozet": "Kongre, Edirne ön protokolünden sonra Kasım 1698'de Karlofça'da açıldı; arabulucular İngiltere ve Hollanda elçileri Paget ile Colyer idi. Osmanlı adına Râmi Mehmed Efendi ve Mavrokordato, Habsburg adına Oettingen ile Schlick görüştü. Üç ikili antlaşma ve Rusya ateşkesi 24-26 Ocak 1699'da bağlandı.",
    "yer": [
@@ -236,6 +237,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 1",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.447 md. I: Erdel imparatorun elinde kalır; sınır Podolya hududundan Eflak sınırına, oradan Maros'a kadar eski dağ sınırlarıdır; iki yana genişleme yok. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Latince metin Dumont ile aynı; Türkçe metinden Fransızca özet (s.193) Podolya-Boğdan/Eflak-Maros hattını aynen verir — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Erdel, Habsburg elinde bulunduğu hâliyle kalır; sınırı Podolya hududundan Eflak ve Boğdan'dan ayıran savaş öncesi dağ sınırına, oradan Maros nehrine kadar eski sınırlardır. Her iki tarafta da genişleme yapılamaz.",
    "yer": [
@@ -251,6 +253,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 2",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.447-448 md. II: Temeşvar eyaleti Osmanlı'da; sınır Eflak ucundan Maros'a, Maros'tan Tisa'ya, Tisa'dan Tuna'ya her iki nehrin bu yakası boyunca; Karansebeş, Lugoş, Lipova, Çanad, Kiskanizsa, Becse, Becskerek ve benzeri yerler Habsburglarca yıkılır ve yeniden kurulmaz, kıyılarda kale görünümlü yeni yer yapılmaz; nehir kullanımı ortak, imparatorluk gemilerine seyrüsefer serbest, değirmen gemileri ancak vali onayıyla, Maros suyu başka yöne çevrilemez — UYUMLU (özet adları kısaltır: Kiskanizsa/Becse/Becskerek, değirmen ve su çevirme kuralı yok). Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Latince metin aynı; Fransızca özet (s.194) kıyılarda Habsburg kalesi yasağı ve ortak nehir kullanımını verir — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Temeşvar eyaleti, nahiyeleri ve nehirleriyle Osmanlı'da kalır; hudut Maros'tan Tisa'ya, Tisa'dan Tuna'ya uzanır. Aradaki Karansebeş, Lugoş, Lipova, Çanad gibi yerler Habsburglarca yıkılır, bir daha kurulmaz; Maros ve Tisa kullanımı ortak, gemicilik serbesttir.",
    "yer": [
@@ -269,6 +272,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 3",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.448 md. III: Tisa-Tuna arası Bačka (Batska) yalnız imparatorun elinde kalır; Titel şimdikinden fazla tahkim edilmez — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Tisa ile Tuna arasındaki Bačka bölgesi imparatorun tek hâkimiyetinde kalır. Titel kalesi mevcut hâlinden fazla tahkim edilmez.",
    "yer": [
@@ -283,8 +287,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 4",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.448 md. IV: Titel karşısındaki Tisa yakası ucundan Tuna kıyısına düz çizgi; ikinci çizgi Moravica (OCR «Moravizii») yakasında Bosut'a, oradan Bosut'un Sava'ya döküldüğü yere; Moravica tahkimsiz bırakılır, iki kıyıda yalnız açık köyler; hat hendek, taş ya da direkle işaretlenir; çizginin Belgrad yönü Osmanlı'da, dışı imparatorda — ÖZET EKSİK/GENİŞ: önceki özet «çizgi boyunca kale yapılmaz» diyordu, Latince metinde tahkim yasağı yalnız Moravica içindir; düzeltildi ve Moravica eklendi. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194): Tisa kıyısından Tuna'ya bir çizgi, Tuna kıyısından Bosut'ta Morawitza yanına ve Bosut'un Sava'ya düştüğü yere ikinci çizgi — Latince ile uyumlu (tek ayrıntı: ikinci çizginin başlangıcını Latince Tisa yakasından, Türkçe özet Tuna kıyısından anar; ikisi de aynı hattı verir).",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
-   "ozet": "Titel karşısında Tisa-Tuna kavşağından Tuna kıyısına, oradan Bosut ve Sava'ya dökülen kola uzanan çizgi sınır olur; Belgrad yönü Osmanlı'da, öte yanı Habsburg'dadır. Çizgi boyunca kale yapılmaz, yalnız köy kurulur; hat hendek, taş ya da direkle işaretlenir.",
+   "ozet": "Titel karşısındaki Tisa yakasından Tuna kıyısına düz bir çizgi çekilir; ikinci çizgi Moravica yakasında Bosut'a, oradan Bosut'un Sava'ya karıştığı yere uzanır. Belgrad yönü Osmanlı'da, öte yanı Habsburg'dadır; hat hendek, taş ya da direkle işaretlenir. Moravica tahkim edilmez, iki kıyıda yalnız açık köyler kurulur.",
    "yer": [
     "Titel",
     "Tisa Nehri",
@@ -298,8 +303,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 5",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.448-449 md. V: Bosut ağzından Una ağzına Sava'nın imparatorluk yakası imparatorda, öbür yakası Osmanlı'da; Sava ve adalar ortak kullanım; Osmanlı Bosna'sı Una'nın bu yakasıyla sınırlanır, Novi, Dubica, Jasenovac, Doboj ve Brod ile benzer yerlerden Habsburg garnizonu çekilir; Kostajnica, Novi altındaki ada ve Una'nın öte yakası imparatorda kalır; Una ötesindeki uzak yerler sahiplerinde kalır, Hırvatistan'da komisyon sınır koyar; Brod'un yeni tahkimatı boşaltmada yıkılır, kale biçimi verilmeden ticaret kenti kurulabilir — ÖZET EKSİK: Doboj, Kostajnica'nın imparatorda kalışı ve Brod'un yıkımı özette yoktu; eklendi. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194): Sava iki imparatorluk arasında Slavonya-Bosna sınırı, Una Hırvatistan-Bosna sınırı, imparator Bosna yakasındaki yerleri boşaltır, Brod tahkimatı yıkılır ve duvarla çevrilmiş ticaret yerleşimi olabilir — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
-   "ozet": "Sava'nın Habsburg toprağından geçen kısmı imparatora, öbür kısmı Osmanlı'ya aittir; iki devlet arasında kalan kısım ortak seyrüsefere açıktır. Osmanlı Bosna'sı Una'nın bu yakasına dek uzanır; Novi, Dubica, Jasenovac, Brod gibi yerlerden Habsburg garnizonu çekilir (yer adları OCR okunuşu).",
+   "ozet": "Sava'nın Habsburg yakası imparatora, öbür yakası Osmanlı'ya aittir; nehir ve adalar ortak kullanılır. Osmanlı Bosna'sı Una'nın bu yakasına dek uzanır; Novi, Dubica, Jasenovac, Doboj, Brod gibi yerlerden Habsburg garnizonu çekilir, Brod'un yeni tahkimatı yıkılır (kale biçimsiz ticaret kenti kurulabilir). Kostajnica ve Una'nın öte yakası imparatorda kalır (yer adları OCR okunuşu).",
    "yer": [
     "Sava",
     "Una Nehri",
@@ -316,6 +322,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 6",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.449 md. VI: çizilen ve komisyonlarca çizilecek sınırlar dinî titizlikle korunur, hiçbir gerekçeyle genişletilemez/yer değiştirilemez; öte yanda hak, vergi, haraç istenemez — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Bu maddelerle ve komisyonlarca belirlenecek sınırlar kutsal sayılır; hiçbir gerekçeyle genişletilemez, yer değiştirilemez. Taraflar öte yandaki topraklar üzerinde hak iddia edemez, öteki tarafın tebaasından vergi ya da haraç isteyemez.",
    "yer": [],
@@ -325,6 +332,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 7",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.449 md. VII: sınır kale ve palangalarını tahkim hakkı (adı geçen istisnalar hariç), halk için açık köy kurulabilir, yeni kale yasak — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194) kale tahkimi hakkını verir; açık köy ayrıntısı özette yok — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Taraflar, kendilerine bırakılan kale ve palangaları onarıp tahkim edebilir (yukarıda adı geçen istisnalar hariç); halkın rahatı için açık köyler kurulabilir, ancak bunun bahanesiyle yeni kale yapılamaz.",
    "yer": [],
@@ -334,6 +342,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 8",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.449 md. VIII: gizli baskın, istila, yağma, ahali yağması yasak; suçlular hapsedilir, malı sahibine iade edilir; sınır kumandanları adaleti noksansız uygulamakla yükümlü, ihmalde görev, can ve namus kaybıyla sorumlu — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194) yasağı verir — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Gizli baskın, istila, yağma ve ahali kaçırma yasaktır; suçlular yakalanır, hapsedilir ve cezalandırılır, alınan mal sahiplerine iade edilir. Hudut kumandanları ve valiler adaleti uygulamakla yükümlüdür.",
    "yer": [],
@@ -343,6 +352,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 9",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.449 md. IX: asi ve kötü niyetlilere, eşkıyaya sığınak/destek yasak, yakalananlar cezalandırılır; yağmayla geçinen, iki hükümdarın da maaşında olmayan Haydones/«plagiarii» (OCR «lagiarios»; Latince «plagiarius» = adam kaçıran) ve Pribek takımı beslenemez, ıslah beyanına inanılmaz, sınırdan uzağa nakledilir — UYUMLU («esir kaçıran» ifadesi Latince plagiarii ve 1732 «Man-stealers» ile örtüşür). Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.194-195) sığınak yasağı ve cezayı verir; Pribek ayrıntısı özette yok — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Asi, eşkıya ve hırsızlara iki tarafta da sığınak verilmez; yakalananlar cezalandırılır. Esir kaçıran «pribek» takımına destek yasaktır; ıslah olduğunu söyleyenler de sınırdan uzağa nakledilir.",
    "yer": [],
@@ -352,6 +362,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 10",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.449-450 md. X: savaşta Habsburg tabiiyetinden ayrılan Macar ve Erdelliler Osmanlı topraklarında sınırdan uzak yerleştirilir, eşleri onlara katılabilir; artık Osmanlı tebaası sayılırlar, ayrılıp dönmek isterlerse Habsburg onları barındırmaz, Osmanlı valilerine teslim eder — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195): sınırdan uzakta kalabilirler, Avusturya'ya yeniden kabul edilmezler — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Savaşta imparatorluktan ayrılıp Osmanlı sınırına geçen Macar ve Erdelliler güvenlik içinde yaşar, ancak sınırdan uzak yerlere yerleştirilir; eşleri onlara katılabilir. Artık Osmanlı tebaası sayılırlar; geri dönmek isteyenler Habsburg'ca korunmaz, Osmanlı valilerine teslim edilir.",
    "yer": [
@@ -363,6 +374,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 11",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XI: eşit sayıda tarafsız komisyoncu hudutta toplanıp ihtilafları çözer, çözülemeyen iki imparatora havale edilir; düello ve meydan okuma önceki ahidnamelerde olduğu gibi yasak — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Sınır ihtilafları için eşit sayıda tarafsız komisyoncu seçilir, hudutta toplanıp meseleleri çözer; çözülemeyenler iki imparatora havale edilir. Düello ve meydan okuma önceki ahidnamelerde olduğu gibi yasaktır.",
    "yer": [],
@@ -372,6 +384,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 12",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XII: esirler karşılıklı değişimle, özel kişilerin ve Tatarların elindekiler ılımlı fidyeyle serbest kalır; anlaşmazlıkta yerel hâkimler karar verir, yemin/tanıkla belirlenen fidyesini ödeyen serbest bırakılır; Habsburg valileri Osmanlı esirlerinin alış bedeliyle bırakılmasını sağlar; esirlere iyi muamele — UYUMLU (son iki hüküm özette kısaltılmıştır). Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195): esir değişimi ve makul fidye — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Savaşta tutulan esirler karşılıklı değişimle serbest bırakılır; özel kişilerin ya da Tatarların elindekiler ılımlı fidyeyle kurtulur, anlaşmazlıkta yerel hâkimler karar verir. Fidyesini ödediği yeminle anlaşılan esir serbest kalır.",
    "yer": [],
@@ -381,6 +394,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 13",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XIII: Roma Katolik rahipler ve ibadet için önceki padişahların ahidname/fermanla verdiği haklar teyit edilir, kiliseler onarılabilir, rahiplerden haksız para istenemez; imparatorun elçisi Kudüs'teki Hristiyan ziyaret yerleri için Babıali'ye başvurabilir — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195, birinci tekil kişiyle) aynı içerik — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Roma Katolik rahipler ve Hristiyan ibadeti için önceki padişahların verdiği ahidname, ferman ve beratlar teyit edilir; kiliseler onarılabilir, rahiplerden haksız para alınamaz. Habsburg elçisi, Kudüs'teki Hristiyan ziyaret yerleri için Babıali'ye başvurabilir.",
    "yer": [],
@@ -390,6 +404,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 14",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XIV: ticaret önceki ahidnamelere uygun serbest; usul elçilik zamanında işini bilen komisyonlarca belirlenecek; Habsburg tebaası Babıali'nin öteki dost uluslarıyla aynı imtiyazlardan yararlanır — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "İki imparatorluğun tebaası eski ahidnamelere uygun olarak serbestçe ticaret yapabilir; ticaret usulü, işini bilen komisyonların elçilik zamanında yapacağı düzenlemeyle belirlenecektir. Habsburg tebaası, Babıali'nin dost devletleri gibi imtiyazlardan yararlanır.",
    "yer": [],
@@ -399,6 +414,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 15",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XV: eski ahidnamelerin bu antlaşmaya ve sahiplerin serbest hâkimiyetine aykırı olmayan şartları sürer, aykırılar iptal — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Eski ahidnamelerin, bu antlaşmanın maddelerine ve sahiplerin serbest hâkimiyetine aykırı olmayan bütün şartları uygulanmaya devam eder; aykırı olanlar geçersiz sayılır.",
    "yer": [],
@@ -408,6 +424,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 16",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XVI: iki yana büyük elçiler, âdet üzere karşılanır ve ağırlanır, gönüllü hediye getirir; ilk yaz Haziran'da Srem sınırında aynı anda değiş tokuş edilir; elçiler saraylarda dilediklerini talep edebilir — UYUMLU (Haziran ve talep hakkı özette yok). Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.195-196) aynı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Dostluğun pekişmesi için iki tarafa da büyük elçiler gönderilir; hediyeyle gelir, âdet üzere ağırlanır ve Srem sınırında aynı anda değiş tokuş edilerek yola çıkarılır.",
    "yer": [],
@@ -417,8 +434,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 17",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450 md. XVII: elçilerin ağırlanması eski usule ve rütbe farkına göre; imparatorun elçileri, ikamet elçileri ve adamları dilediği kıyafeti giyebilir; öteki dost devletlerin elçilerinin hak ve dokunulmazlıklarından yararlanır, tercüman tutabilir; Viyana-Babıali kuryeleri güvenle geçer — ÖZET İNCE HATA: önceki özet «hizmetli konusunda serbest» diyordu; Latince metin kıyafet serbestîsini elçi ve adamlarına tanır (hizmetli serbestîsi yok); düzeltildi. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.196): kıyafet serbest, öteki dost devletlerin elçileri gibi haklar, tercüman, güvenli geçiş — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
-   "ozet": "Daimî elçi ve ikamet elçilerinin ağırlanması eski usule göre sürer; Habsburg elçileri kıyafet ve hizmetli konusunda serbesttir, diğer dost devletlerin elçileriyle aynı hak ve dokunulmazlıklara sahiptir. Viyana ile Babıali arasındaki kuryeler güvenle geçer.",
+   "ozet": "Elçilerin ağırlanması eski usule ve rütbe farkına göre sürer; Habsburg elçileri, ikamet elçileri ve adamları dilediği kıyafeti giyebilir, tercüman tutabilir, diğer dost devletlerin elçileriyle aynı hak ve dokunulmazlıklara sahiptir. Viyana ile Babıali arasındaki kuryeler güvenle geçer.",
    "yer": [],
    "konu": "diplomasi",
    "dogrulanmadi": false
@@ -426,6 +444,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 18",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.450-451 md. XVIII: barış, sınır çizimi, boşaltma ve yıkımlar tamamlanınca tam bağlayıcı olur; komisyonlar ekinoks gününde (22 Mart, eski takvimle 12 Mart 1699) toplanıp iki ay içinde sınırı işaretler — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.196): komisyonlar «Nevrouz 1110»da bir yerde toplanıp iki ay içinde sınırı belirler — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Antlaşma, sınırların çizilmesi, boşaltmalar ve yıkımlar tamamlanmadıkça tam yürürlüğe girmez. Komisyonlar ilkbahar ekinoksunda (22 Mart; eski takvimle 12 Mart 1699) toplanıp iki ay içinde sınırı belirgin işaretlerle ayırır.",
    "yer": [],
@@ -435,8 +454,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 19",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.451 md. XIX: onay belgeleri imza gününden itibaren «triginta dierum» (30 gün) içinde ya da daha erken, arabulucu elçilerin aracılığıyla sınırda değiştirilir — ÇELİŞKİ/ÖZET HATASI: önceki özet 50 gün yazıyordu (1732 İngilizce çevirisindeki «50 days»dan). HAKEMLİ KARAR (CLAUDE.md): Dumont Latince metni sayıyı yazıyla verir (triginta = 30); Noradounghian Türkçe metinden özeti «trente jours» (30) der; Noradounghian'ın Latince OCR'ı «40» okur, 1732 OCR'ı «50» okur (rakam OCR'ları güvenilmez, ikisi birbirini de tutmuyor). Bağımsız ikisi (Dumont Latince basma, Noradounghian Türkçe özet) 30 verdiğinden 30 SEÇİLDİ; 1732 baskısının görüntüsü okunmadı. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.196): «dans trente jours» — Dumont ile aynı.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
-   "ozet": "İki tarafın baş elçileri, antlaşmanın imparatorlarca onaylanmasını üstlenir; onay belgeleri, imza gününden itibaren en geç 50 gün içinde arabulucu elçilerin huzurunda sınırda değiştirilir.",
+   "ozet": "İki tarafın baş elçileri, antlaşmanın imparatorlarca onaylanmasını üstlenir; onay belgeleri, imza gününden itibaren en geç 30 gün içinde arabulucu elçilerin huzurunda sınırda değiştirilir.",
    "yer": [],
    "konu": "uygulama",
    "dogrulanmadi": false
@@ -444,6 +464,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Habsburg md. 20",
    "taraf": "Habsburg",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Habsburg belgesi (CCVIII, Latince), s.451 md. XX: barış imza gününden itibaren 25 yıl, süre dolmadan ya da dolunca uzatılabilir; Kırım Hanı ve bütün Tatar boyları bağlıdır; barış imza gününden başlar, düşmanlık ilanı için uzak sınırlara 20 gün tanınır; Latince nüsha 26 Ocak 1699'da Karlofça'da çadırlar altında imzalanmıştır (Oettingen, Schlick; Osmanlı tarafında Türkçe nüsha) — UYUMLU. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman I (Paris 1897), Texte No 16 (archive.org recueildactesin03turkgoog): Fransızca özet (s.196): 25 yıl, uzatılabilir, Kırım Hanı ve Tatarlar bağlı — UYUMLU.",
    "bolum": "Osmanlı–Habsburg (26 Ocak 1699)",
    "ozet": "Barış imza gününden itibaren 25 yıl sürer ve süre sonunda ya da öncesinde uzatılabilir. Kırım Hanı ve bütün Tatarlar da bağlıdır; düşmanlık imza gününde biter, uzak sınırlara haber için 20 gün tanınır. Latince ve Türkçe nüshalar 26 Ocak 1699'da Karlofça'da çadırda imzalandı.",
    "yer": [

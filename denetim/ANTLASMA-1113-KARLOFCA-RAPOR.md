@@ -41,3 +41,26 @@ Tümü kendi bilgimden, şehirler ±0.05°; ülke/bölge/nehir (Erdel, Podolya, 
 - **Lehistan giriş + md. 1-11: 10/12 UYUMLU, 2 düzeltme.** md. 2: hem Dumont («ante penultimum Bellum») hem 1732 («before the last War but one») «sondan bir önceki savaştan önce» der; önceki özet «son savaştan önceki» yazıyordu — özet HATASI düzeltildi. md. 3: Dumont Latince metninde «Ukrayna Kazak hetmanı, şimdi Boğdan'da, görevden alınır» hükmü var; 1732 çevirisinde yok (TDV özetiyle örtüşür) — özete eklendi, hakemli karar kayıt `kaynak` alanında.
 - **Yapılmadı:** Habsburg md. 1-20 (Dumont s. 447-451) madde düzeyinde karşılaştırılmadı; Noradounghian madde metni okunmadı; Rusya adımları değişmedi.
 - Her adımın `kaynak` alanında madde/sayfa teyidi yazılıdır (oynatıcı adım `kaynak`ını gösterir: `js/antlasma_oynatici.js` satır 223). `uret_antlasma.js` adım düzeyinde `kaynak` alanını henüz üretmez; yeniden üretimde bu alan kaybolur — üretici bir satırla genişletilmeli.
+
+## ⑧ Habsburg md. 1-20 madde düzeyinde ikinci kaynak karşılaştırması (UMIT, 14 Kasım 2026)
+Kaynaklar: ① Dumont, *Corps universel diplomatique* VII/2 (1731), belge CCVIII, s.446-451 (Latince; archive.org corpsuniverseldi72dumo ham OCR; sayfa numaraları OCR sayfa işaretlerinden çıkarıldı, ilk sayfa numarası OCR'da yok). ② Noradounghian, *Recueil d'actes internationaux de l'Empire ottoman* I (Paris 1897), Texte No 16, s.182-196 (archive.org recueildactesin03turkgoog): s.182-192 Latince metin, s.193-196 «Résumé du traité (d'après le texte turc)» Fransızca özet. Birinci kaynak: 1732 *General Collection of Treatys* IV (İngilizce). Bağımsızlık: Noradounghian'ın Latince metni Dumont'la sözü sözüne aynıdır (ortak türev, bağımsız SAYILMAZ); bağımsız teyit Türkçe metinden verilen Fransızca özettir (özet düzeyinde).
+
+| Madde | Sonuç | Not |
+|---|---|---|
+| Giriş / Genel çerçeve | UYUMLU | Heyetler ve arabulucular aynı; Kasım 1698 açılışı ve Edirne protokolü Dumont'un Habsburg metninde yok (TDV'ye dayanır, okunmadı) |
+| md. 1 | UYUMLU | |
+| md. 2 | UYUMLU (özet kısaltmalı) | Kiskanizsa/Becse/Becskerek, değirmen/su çevirme kuralı özette yok |
+| md. 3 | UYUMLU | |
+| md. 4 | ÖZET EKSİK/GENİŞ, düzeltildi | «Çizgi boyunca kale yapılmaz» fazlaydı: Latince metinde tahkim yasağı yalnız Moravica için; Moravica eklendi. İkinci çizginin başlangıcı Latince'de Tisa yakası, Türkçe özette Tuna kıyısı; aynı hat |
+| md. 5 | ÖZET EKSİK, düzeltildi | Doboj, Kostajnica'nın imparatorda kalışı, Brod tahkimatının yıkımı eklendi |
+| md. 6-16 | UYUMLU | md. 9 «esir kaçıran» = Latince plagiarii (OCR «lagiarios»), 1732 «Man-stealers»; md. 12, 16 özette kısaltmalı |
+| md. 17 | ÖZET İNCE HATA, düzeltildi | «Hizmetli konusunda serbest» yoktu: kıyafet serbestîsi elçi ve adamlarınadır, tercüman hakkı eklendi |
+| md. 18 | UYUMLU | 22 Mart / eski takvimle 12 Mart 1699, iki ay |
+| md. 19 | ÇELİŞKİ → hakemli karar | Onay değişimi: 1732 OCR «50 days», Noradounghian Latince OCR «40», Dumont «triginta dierum» (yazıyla 30), Noradounghian Türkçe özeti «trente jours». Bağımsız iki kaynak 30 verir; rakam OCR'ları güvenilmez; **30 gün SEÇİLDİ**, adım özeti 50 → 30 düzeltildi |
+| md. 20 | UYUMLU | 25 yıl, Kırım Hanı, 20 gün |
+
+- Sayım: 20 maddenin 15'i UYUMLU, md. 2 UYUMLU ama kısaltmalı, 3'ünde özet düzeltildi (md. 4, 5, 17), 1'inde çelişki hakemli kararla çözüldü (md. 19).
+- **Okunmadı:** Habsburg onay belgesi (Dumont'ta yok); 1732 baskısının görüntüsü (yalnız OCR); Noradounghian Latince md. 19 rakamı (OCR «40»); Noradounghian'ın Türkçe metni (yalnız Fransızca özeti); Rusya ateşkesi ve 1700 İstanbul Antlaşması metni (değişmedi, ⚠ DOĞRULANMADI).
+- Habsburg için ayrı «giriş»/«onay» adımı yoktur (Venedik'te var); Genel çerçeve adımı girişin heyet bilgisini taşır ve kaynak alanında teyit edildi. Yeni adım eklenmedi.
+- Her Habsburg adımının ve Genel çerçevenin `kaynak` alanına madde/sayfa teyidi yazıldı (51/53 adımda adım kaynağı var; yalnız iki Rusya adımında yok).
+- Üretici: `denetim/ANTLASMA-ARAC/uret_antlasma.js` adım `kaynak` alanını artık üretir (dal umit-1113-uretici); Karlofça config+girdisi `ornek-p06/` altındadır ve yeniden üretim data kaydıyla eşittir. Bu bölümdeki düzeltmeler uretici dalındaki girdiye ayrıca taşındı.
