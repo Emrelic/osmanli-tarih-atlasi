@@ -5,7 +5,7 @@ Kaynak liste: `origin/umit-1113-d2s` → `denetim/D2S-DOGRULANAMAYAN-1114.md` §
 | Satır | Sonuç | Dayanak / neden |
 |---|---|---|
 | 0224-04-28 Isfahan | ÇÖZÜLDÜ (madde: olaylar_2s_0920.js) | TDV `erdesir`: Hürmüzcân zaferi 28 Nisan 224; Isfahan'ın o gün geçişi künye çıkarımı, ic_not_d'de beyanlı yaklaşıklık |
-| 1405-02-18 Muş | ÇÖZÜLDÜ, beyanlı (olaylar_2s_0920.js) | TDV `timur`: ölüm 17 Şâban 807 = 18 Şubat 1405; Muş'un Karakoyunlu'ya fiilî devri Temmuz 1405 (TDV `karakoyunlular`), madde yalnız ölümü tanıklıyor |
+| 1405-02-18 Muş | AÇIK KALIR (madde GERİ ALINDI) | TDV `timur` 18 Şubat 1405 Timur'un ÖLÜM günüdür; Muş'un Karakoyunlu'ya fiilî devri Temmuz 1405 (TDV `karakoyunlular`: Kara Yusuf 808 Muharreminde yola çıktı, Avnik). Ölüm maddesi `olaylar_dunya_bolge_1109.js`te zaten var; devir kırılmasını anmayan günü sayaç kapatma sayılırdı. Kayıt `yerlesimler.js:234-239`; düzeltme `YERLESIMLER-JS-KUYRUK-1114.md` §8 |
 | 1439-08-27, 1459-06-20 Hisarcık | ÇÖZÜLDÜ (olaylar_2s_1019.js) | TDV `semendire`, `murad-ii`; abi merkez bağı ic_not_d'de beyanlı |
 | 1458-08-06 Sikyon | ÇÖZÜLDÜ (olaylar_2s_1019.js) | TDV `gordus` «6 Ağustos 1458» |
 | 1475-06-06 Soçi/Tuapse/Maykop | ÇÖZÜLDÜ, abi merkez Kefe (olaylar_2s_1019.js) | TDV `mehmed-ii` Kefe 6 Haziran 1475; Çerkezya bağı atlas modeli, beyanlı |

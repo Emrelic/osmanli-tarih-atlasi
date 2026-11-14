@@ -248,3 +248,10 @@ Uygulama notları (koşu inişi sonrası):
 2. Değişen tarihler kronoloji ile bire bir örtüşür (ölçüm yukarıda): Modon için madde 07-10→07-07 taşınmalı (SERBEST); Hürmüz/Kişm için künye aşımı kararı (SERBEST) ön koşuldur.
 3. Uygulamadan sonra `py arac/denetle.py`, `py arac/paketle.py yenile`, `py arac/surum_damgala.py`; D2 sapma azalması beklenir (Yanova 1693, Kasîm 1902→1906, Hürmüz/Kişm Merv ucunun kalkması) — ÖLÇÜLMEDİ.
 4. Tavan değişimi gerekirse (`BEKLENEN_*`) kaynağı raporlanır; Değişmez 2 ölçütü gevşetilmez.
+
+## 8. Muş — `data/yerlesimler.js:234-239` (EMRELİC ekledi, 14 Kasım 2026)
+
+Mevcut: `timurlu` 1387-01-30 → 1405-02-18, ardından `karakoyunlu` 1405-02-18 → 1467-01-01.
+Sorun: 18 Şubat 1405 Timur'un ÖLÜM günüdür (TDV `timur`, 17 Şâban 807). Muş'un Karakoyunlu'ya fiilî devri TDV `karakoyunlular`'a göre Kara Yusuf'un 808 Muharreminde (Temmuz 1405) yola çıkıp Avnik'i almasıyla olur; ölüm gününde devir kaynakta yok.
+Öneri (koşu inişi sonrası): `timurlu` t ve `karakoyunlu` f = 1405-07 (ay hassasiyeti, `kesinlik` ay) + `ic_not`: eski gün 1405-02-18 Timur'un ölümüdür, devir Temmuz 1405; iki uç bitişik, künye aralıklarının içinde olduğu uygulamada yeniden ölçülmeli. Ardından ±30 günde kronoloji maddesi (Değişmez 2) gerekir: Kara Yusuf'un Temmuz 1405 Doğu Anadolu dönüşü kaynaklı madde (TDV `karakoyunlular`, `kara-yusuf`).
+Not: ilk turda yazılan "Timur Otrar'da öldü — Muş" maddesi KASA uyarısıyla (sayaç kapatma) GERİ ALINDI; ölüm maddesi `olaylar_dunya_bolge_1109.js`te zaten var.
