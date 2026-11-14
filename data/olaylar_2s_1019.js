@@ -219,7 +219,7 @@ window.OLAYLAR_2S1019 = [
   kisiler:"",
   etiket:["siyaset", "toprak-kayip"],
   d:"Napolili Ladislas'ın Dalmaçya üzerindeki haklarını 1409'da Venedik'e satmasından sonra direnen Şibenik, 1412'de yeniden Venedik idaresine girdi. Şehir 1797'de Cumhuriyet yıkılana kadar Venedik'in Dalmaçya mülkü olarak kaldı.",
-  kaynak:"Hrvatska enciklopedija (LZMK) 'Šibenik' — AYNEN: \"a 1412. ponovno je došao pod vlast Mletačke Republike\" · hassasiyet: YIL" },
+  kaynak:"Hrvatska enciklopedija (LZMK) 'Šibenik' — AYNEN: \"a 1412. ponovno je došao pod vlast Mletačke Republike\" · hassasiyet: YIL · İKİNCİ KAYNAK (14.11.2026, tam metin okundu): Treccani «Sebenico» — \"Dal 1412 al 1797 S. tornò a Venezia\"; 1357-1412 Macar. Gün (30 Ekim 1412) hâlâ teyitsiz" },
 
 { t:"1417-02-18",
   k:"fetih",
