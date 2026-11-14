@@ -81,7 +81,7 @@ window.OLAYLAR_EK4 = [
   kaynak:"hicaz", duygu:["🐎"] },
 { onem:3, dunya:1, bolge_onem:2, puan_s:"v2", tur:"savas", kapsam:"ic", t:"1815-01-20", k:"savas", etiket:["savas","konu-askeri"], b:"Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı", gun:"Ocak 1815", yer:"Bisel, Hicaz",
   kisiler:"Kavalalı Mehmed Ali, Abdullah b. Suûd",
-  d:"Meydan savaşında ağır yenilgi alan Suûdîler iç bölgelere çekildi. Yapılan mütareke kalıcı olmadı; iki yıl sonra harekât Necid'in kalbine taşınacaktı.",
+  d:"Meydan savaşında ağır yenilgi alan Suûdîler iç bölgelere çekildi. Yapılan mütareke kalıcı olmadı; iki yıl sonra harekât Necid'in kalbine taşınacaktı. Atlas bu zaferin ardından Tâif doğusundaki Türabe ve Hurma'yı Suûdî elinden çıkmış sayar (olay kaynağı Lorimer, Gazetteer; yerleşimlere özgü tanıklık ve 13 Ocak günü beyanlı yaklaşıklıktır).",
   kaynak:"vehhabilik", duygu:["⚔️","😔"], yer_kon:[26,43.5] },
 { onem:3, dunya:1, bolge_onem:3, puan_s:"v2", kapsam:"ic", t:"1816-09-01", k:"sefer", etiket:["savas","konu-askeri"], b:"İbrâhim Paşa Necid seferine çıktı", gun:"Eylül 1816", yer:"Necid",
   kisiler:"İbrâhim Paşa (Kavalalı)",
