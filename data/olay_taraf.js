@@ -1994,7 +1994,6 @@ window.OLAY_TARAF = {
  "1452-10-23|Bordeaux'nun İngiltere tarafından geri alınışı — John Talbot'ın son Gaskonya seferi": ["ingiltere","fransa"],
  "1453-10-19|Bordeaux'nun Fransa'ya kalıcı dönüşü — Yüz Yıl Savaşları'nın fiilî sonu": ["fransa","ingiltere"],
  "1457-01-01|Uzun Hasan Erzincan'ı geri aldı — yeniden Akkoyunlu": ["akkoyunlu","karakoyunlu"],
- "1466-01-01|Fiume (Rijeka) Habsburg hâkimiyetine girdi": ["habsburg"],
  "1466-10-19|İkinci Thorn Antlaşması — Danzig (Gdańsk) ve Batı Prusya Lehistan'a bağlandı": ["polonya-erken","teuton-devleti","kraliyet-prusyasi"],
  "1467-01-01|Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık)": ["dulkadir","memluk"],
  "1467-01-01|Uzun Hasan Karakoyunlu Devleti'ne son verdi — Van gölü havzası Akkoyunlu'ya geçti": ["akkoyunlu","karakoyunlu"],
