@@ -301,6 +301,14 @@ BILINEN_ALANLAR = {
            "Bağlı evrende o gün 0 kayıt taşıyordu, yani zarar DOĞMADAN "
            "kapatıldı — `bos:`/`neden:`in Timbuktu'da doğurduğu vakanın "
            "tersi (orada alan araçta yoktu ve beyan SESSİZCE DÜŞTÜ)",
+    # KOŞU 39 HAZIRLIK (14 Kasım 2026, PALET-P8P9-ONERI-1114 §3): uyarı satırlarını susturan kayıtlar.
+    # Hepsi bilgi alanıdır; motor/denetim doğrulaması değişmez.
+    "konum_kesinlik": "konum güvenilirliği — 'yaklasik' (nehir/vadi/yöre) · 'bolge' (yalnız bölge, "
+                      "temsilci nokta). Motor/denetim OKUMAZ (bilgi alanı). Ölçüldü: bolge 75 · yaklasik 51.",
+    "dogrulanmis_bosluk": "beyanlı/doğrulanmış boşluk gerekçesi (bilgi alanı). Motor OKUMAZ.",
+    "ic_not": "kayıt içi not — gerekçe/çelişki beyanı. Motor OKUMAZ.",
+    "karar_notu": "kayıt için verilen karar notu (hakemli karar vb.). Motor OKUMAZ.",
+    "kaynak_kur": "kuruluş (kur) tarihinin kaynağı. Motor OKUMAZ.",
 }
 # 🔴 `baskent` BİLEREK EKLENMEDİ — 2 Eylül 2026'da ölçüldü ve REDDEDİLDİ.
 #   Tek kayıtta geçiyor (yerlesimler_amerika2.js: Comanchería) ve değeri
@@ -413,6 +421,14 @@ BILINEN_DONEM_ALANLARI = {
     "kesinlik": "tarih hassasiyeti — s:/d:/v:/isg: içinde. SKALER "
                 "(\"ay\") ya da uçları ayrı NESNE ({f:\"gun\",t:\"ay\"}); "
                 "değerler gun·ay·yil·onyil·yuzyil·belirsiz. Motor OKUMAZ.",
+    # KOŞU 39 HAZIRLIK (14 Kasım 2026, PALET-P8P9-ONERI-1114 §3): "UYARI alan: s.*" satırlarını
+    # susturan kayıt. Doğrulama DEĞİŞMEZ; motor bu alanları OKUMAZ (eksklav: yalnız denetle.py
+    # Değişmez 7 muafiyeti).
+    "eksklav": "True ise ana gövdeden KOPUK ama hinterlandı OLAN toprak (VERI-YAPISI.md #151). "
+               "Okuyan: denetle.py Değişmez 7 muafiyeti; motor OKUMAZ. Yalnız kaynaklı hükümle yazılır.",
+    "ic_not": "s: dönemi içi not — gerekçe/çelişki beyanı. Motor OKUMAZ.",
+    "ic_not_takvim": "s: dönemi için takvim çevirisinin izi — \"Jülyen <gün> (<kaynak>) = Gregoryen <gün>\" "
+                     "(VERI-YAPISI.md ic_not_takvim). Motor OKUMAZ.",
 }
 
 
