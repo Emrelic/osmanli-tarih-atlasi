@@ -48,6 +48,102 @@ from renkler import BOYALAR, ALTLIK, OPAKLIK
 from shapely.geometry import MultiPoint, Point, box
 from shapely.ops import voronoi_diagram
 from shapely.strtree import STRtree
+from renkler import PAYLASIM
+import gun as _gun
+
+
+# ═══════════ F3 — MÖ TARİH KIYASI (PALET-P8P9-ONERI-1114 §4) ═══════════
+# 🔴 Bu araç tarihleri DİZGİ olarak kıyaslıyordu: "-0201-01-01" < "-0770-01-01"
+#   Python'da True (kronolojik olarak yanlış). Komşuluk, aynı-hex, aynı-anahtar,
+#   engel kümesi ve yakın-renk ölçümlerinin hepsinde MÖ çiftler hem yanlış alarm
+#   hem gizli çakışma üretiyordu. 17 kıyas noktasını tek tek değiştirmek yerine
+#   `girdi`nin döndürdüğü f/t (ve kur/bit) alanları gün sayacıyla kıyaslayan bir
+#   `str` alt sınıfına sarılır; `girdi.py`ye (tuz dosyası) DOKUNULMAZ.
+#   Geçersiz dizgide `gun` fırlatır → o durumda eski dizgi kıyasına düşülür
+#   (ölçer ölmesin; veri denetimi başka yerde).
+class _T(str):
+    """Tarih dizgisi; <, <=, >, >= kronolojik (gün sayısı), ==/hash dizgi."""
+
+    def _n(self):
+        try:
+            return self.__dict__["_g"]
+        except KeyError:
+            try:
+                g = _gun.gun(str(self))
+            except (ValueError, TypeError):
+                g = None
+            self.__dict__["_g"] = g
+            return g
+
+    def _k(self, o):
+        a = self._n()
+        b = o._n() if isinstance(o, _T) else (
+            _T(o)._n() if isinstance(o, str) else None)
+        return (a, b) if a is not None and b is not None else None
+
+    def __lt__(self, o):
+        k = self._k(o)
+        return k[0] < k[1] if k else str.__lt__(self, o)
+
+    def __le__(self, o):
+        k = self._k(o)
+        return k[0] <= k[1] if k else str.__le__(self, o)
+
+    def __gt__(self, o):
+        k = self._k(o)
+        return k[0] > k[1] if k else str.__gt__(self, o)
+
+    def __ge__(self, o):
+        k = self._k(o)
+        return k[0] >= k[1] if k else str.__ge__(self, o)
+
+    __hash__ = str.__hash__
+    __eq__ = str.__eq__
+    __ne__ = str.__ne__
+
+
+_TARIH_ALANLARI = ("f", "t", "kur", "bit")
+
+
+def _tarihli(o):
+    if isinstance(o, list):
+        for x in o:
+            _tarihli(x)
+    elif isinstance(o, dict):
+        for a, v in list(o.items()):
+            if a in _TARIH_ALANLARI and isinstance(v, str) and not isinstance(v, _T):
+                try:
+                    _gun.gun(v)
+                except (ValueError, TypeError):
+                    continue
+                o[a] = _T(v)
+            elif isinstance(v, (list, dict)):
+                _tarihli(v)
+    return o
+
+
+def _yukle(sessiz=False):
+    return _tarihli(girdi.yukle(sessiz=sessiz))
+
+
+def _oku_devletler():
+    return _tarihli(girdi.oku_devletler())
+
+
+# ═══════════ F2 — BEYANLI "AYNI POLİTY" TAKMA ADLARI ═══════════
+# `renkler.PAYLASIM` gerekçesinde "ayni polity" geçen gruplar KASA'nın kasıtlı
+# eklediği takma adlardır (anahtar ↔ künye id çevirisi, harita değişmesin):
+# aynı hex orada kusur değil, beyandır. Ölçer bu beyanı tanımıyordu (5 çift ΔE 0).
+_ALIAS = set()
+for _hx, (_ger, _uyeler) in PAYLASIM.items():
+    if "ayni polity" in _ger.lower() or "aynı polity" in _ger.lower():
+        for _a, _b in itertools.combinations(sorted(_uyeler), 2):
+            _ALIAS.add(frozenset((_a, _b)))
+
+
+def _alias(a, b):
+    return frozenset((a, b)) in _ALIAS
+
 
 # ---- eşikler: bir yerde, adıyla
 DE_KOMSU   = 12.0     # komşu devletten ayrışma
@@ -323,7 +419,7 @@ def uyum(rgb):
 # ═══════════════ komşuluk — gerçek, gün düzeyinde ═══════════════
 def komsuluk(sessiz=True):
     """kimlik → aynı ANDA sınırdaş olduğu kimlikler"""
-    Y = girdi.yukle(sessiz=sessiz)
+    Y = _yukle(sessiz=sessiz)
     pts = [Point(y["lon"], y["lat"]) for y in Y]
     vd = voronoi_diagram(MultiPoint(pts), envelope=KUTU)
     huc = [None] * len(Y)
@@ -375,11 +471,14 @@ def ayni_anahtar():
     # hedefli bir yerel ayrıştırıcı vardı; aynı gün üç oturum üç ayrı geçici
     # çözüm yazıp yarısı yanlış cevap alınca okuyucu girdi.py'de
     # ortaklaştırıldı (gerekçesi orada). İki ayrıştırıcı = iki otorite.
-    D = girdi.oku_devletler()
+    D = _oku_devletler()
     grup = collections.defaultdict(list)
     for d in D:
-        if d.get("harita") and d.get("f") and d.get("t"):
-            grup[d["harita"]].append(d)
+        # F1: motorun ETKİN boya anahtarı (uret_petek.py:1141-1145, YOL A'):
+        # `id` BOYALAR'daysa `id`; yoksa `harita:` (o da BOYALAR'daysa).
+        _ek = d["id"] if d.get("id") in BOYALAR else d.get("harita")
+        if _ek in BOYALAR and d.get("f") and d.get("t"):
+            grup[_ek].append(d)
     ortusen, sessiz = [], 0
     for anahtar, kayitlar in sorted(grup.items()):
         if len(kayitlar) < 2:
@@ -426,7 +525,7 @@ def ayni_hex():
     gruplar = collections.defaultdict(list)
     for a, (_, hx) in BOYALAR.items():
         gruplar[hx.lower()].append(a)
-    Y = girdi.yukle(sessiz=True)
+    Y = _yukle(sessiz=True)
     nokta = collections.defaultdict(list)
     aralik = {}
     for y in Y:
@@ -447,6 +546,8 @@ def ayni_hex():
             if eksik:
                 olculemedi.append((hx, a, b, ", ".join(eksik)))
                 continue
+            if _alias(a, b):
+                continue                    # F2: beyanlı "ayni polity" takma adı
             fa, ta = aralik[a]
             fb, tb = aralik[b]
             if not (fa < tb and fb < ta):
@@ -523,7 +624,7 @@ def yakin_renk(k=None, kunye=False):
       basılacaksa o bir EKRAN'dır, bitirilecek bir iş değil. Eşik gibi
       davranırsa denetim sürekli kırmızı kalır ve kimse bakmaz."""
     import collections as _c, itertools as _it
-    Y = girdi.yukle(sessiz=True)
+    Y = _yukle(sessiz=True)
     nokta, zarf = _c.defaultdict(list), {}
     for y in Y:
         for kat in ("s", "v"):
@@ -537,7 +638,7 @@ def yakin_renk(k=None, kunye=False):
 
     pencere = dict(zarf)
     if kunye:
-        for dv in girdi.oku_devletler():
+        for dv in _oku_devletler():
             an = dv.get("harita") or dv.get("id")
             if not an or not dv.get("f") or not dv.get("t"):
                 continue
@@ -608,7 +709,7 @@ def _cie_evreni(k=None, kunye=False):
     import collections as _c, itertools as _it
     if k is None:
         k, _n = komsuluk()
-    Y = girdi.yukle(sessiz=True)
+    Y = _yukle(sessiz=True)
     nokta, zarf = _c.defaultdict(list), {}
     for y in Y:
         for kat in ("s", "v"):
@@ -621,7 +722,7 @@ def _cie_evreni(k=None, kunye=False):
                 zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
     pencere = dict(zarf)
     if kunye:
-        for dv in girdi.oku_devletler():
+        for dv in _oku_devletler():
             an = dv.get("harita") or dv.get("id")
             if not an or not dv.get("f") or not dv.get("t"):
                 continue
@@ -815,7 +916,7 @@ def denetle():
             if b <= a or b not in BOYALAR:
                 continue
             d = dE(La, gorunen(b))
-            if d < DE_KOMSU:
+            if d < DE_KOMSU and not _alias(a, b):
                 cakisan.append((d, a, b))
         for ad, o in OSM.items():
             d = dE(La, o)
@@ -955,6 +1056,10 @@ def denetle():
                        f" · {len(ortusen)} aynı-anahtar örtüşmesi"
                        f" · {len(hex_cak)} aynı-hex çakışması"
                        f" · {len(yak_i)} yakın-ama-değmeyen"))
+    # F4: deniz ve kabartma özette görünsün (rapor; TEMİZ/çıkış koşulunu ETKİLEMEZ)
+    print(f"  ℹ️ rapor (çıkış kodunu etkilemez): {len(deniz_birlesim)} denizle "
+          f"karışan (DAL1 {len(dal1)} + DAL2-ek {len(dal2_ek)}) · kabartma "
+          + " · ".join(f"{t.split()[0]} {len(v)}" for t, v in _kab.items()))
     return gorunmez, cakisan, ortusen, hex_cak, yak_i
 
 
@@ -989,7 +1094,7 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
     #   ⚠️ Önbellek SÜREÇ ÖMRÜ kadardır; veri değişirse yeni süreç açılır.
     _pb = engel_kumesi.__dict__.get("_onbellek")
     if _pb is None:
-        Y = girdi.yukle(sessiz=True)
+        Y = _yukle(sessiz=True)
         nokta, zarf = _c.defaultdict(list), {}
         for y in Y:
             for kat in ("s", "v"):
@@ -1002,7 +1107,7 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
                     zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
         pen = dict(zarf)
         _bol = {}
-        for dv in girdi.oku_devletler():
+        for dv in _oku_devletler():
             an = dv.get("harita") or dv.get("id")
             if not an:
                 continue
