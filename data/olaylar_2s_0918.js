@@ -178,4 +178,17 @@ window.OLAYLAR_2S_0918 = [
   d:"Anadolu Selçuklu Devleti'nin 1290'larda fiilen çözülmesiyle, Akdeniz kıyısındaki Alâiye (Alanya) limanı merkezi otoriteden bağımsızlaşarak bölgedeki beyliklerin (bu dönemde Karamanoğulları etki alanında) denetimine girdi; kesin tarih ve hangi beyliğin doğrudan hâkim olduğu kaynaklarda net değildir.",
   kaynak:"standart akademik/ansiklopedik (Anadolu Selçuklu çözülüşü sonrası Alâiye'nin durumu — Cahen, Pre-Ottoman Turkey) — TDV kapsam dışı bu ayrıntı için, DÜŞÜK GÜVEN: kesin devir olayı ve tarihi BULUNAMADI, veri kaydıyla (1293) hizalandı, ayrıca araştırılmalı" },
 
+// ── BALKAN-1114b (UMIT, 14 Kasım 2026, KASA kararı): Dalmaçya şehirlerinin Venedik'e geçişi ──
+{ bolge:2, t:"1322-03-01", b:"Šibenik, Šubić kontları ile Venedik arasında kalıp Venedik'e bağlandı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Hırvat derebeyi Bribirli Šubić kontları ile Venedik arasında kalan Šibenik, 1 Mart 1322'de kendini Venedik'e verdi ve 1357'ye dek Venedik idaresinde kaldı.",
+  kaynak:"Treccani, Enciclopedia Italiana, «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «alla quale si dà il 1° marzo 1322, e sotto la quale rimane sino al 1357» · Hrvatska enciklopedija (LZMK) «Šibenik» (enciklopedija.hr/clanak/sibenik): «knezova Bribirskih (do 1322)»",
+  ic_not_d:"BALKAN-1114b: gün Treccani'de var (1° marzo 1322, kendini verişin günü); HE yalnız yıl (1322) ⇒ çift teyit YIL düzeyinde, gün tek kaynak. TDV bu tanecikte kapsamıyor; İSAM/Fine/Ćirković okunamadı (Fine ve Ćirković tam metni kısıtlı). Bribirli Šubić için devlet kimliği yok; önceki sahip atlasta macaristan (BEYANLI YAKLAŞIKLIK)." },
+
+{ bolge:2, t:"1327-09-18", b:"Split'te Macar egemenliği sona erdi — Venedik idaresi başladı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Split (Spalato)",
+  etiket:["toprak-kazanc","konu-siyasi"],
+  d:"Split komününde 1133'ten beri süren Macar egemenliği 18 Eylül 1327'de sona erdi; şehir Venedik idaresine girdi ve 1357'ye dek orada kaldı.",
+  kaynak:"Treccani, Enciclopedia Italiana, «Spalato» (treccani.it/enciclopedia/spalato_(Enciclopedia-Italiana)/; okundu 14.11.2026): Macar egemenliği «fino al 18 settembre 1327»; «Segue un trentennio di amministrazione veneziana» · Hrvatska enciklopedija (LZMK) «Split»: «Godine 1327–57. grad se nalazio pod mletačkom vlašću»",
+  ic_not_d:"BALKAN-1114b: Treccani'nin 18 Eylül 1327 günü MACAR EGEMENLİĞİNİN SONA ERDİĞİ günü tarihler; Venedik'e teslim aktının/antlaşmasının günü ayrıca okunmadı (sonraki cümle Venedik idaresinin başladığını söyler). HE yalnız yıl (1327-57) ⇒ iki bağımsız kaynak (LZMK ⟂ Treccani) yılda uyuşur, gün tek kaynak. TDV, Fine, Ćirković okunamadı." },
+
 ];

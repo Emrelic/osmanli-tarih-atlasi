@@ -1879,6 +1879,8 @@ window.OLAY_TARAF = {
  "1322-01-03|V. Philippe öldü; IV. Charles Fransa kralı oldu": ["fransa"],
  "1325-01-01|Metropolitlik makamı Moskova'ya taşındı": ["moskova"],
  "1326-10-09|Eşrefoğulları Beyliği'nin sonu — Beyşehir ve Seydişehir Hamîdoğulları'na geçti": ["esrefogullari","hamid"],
+ "1322-03-01|Šibenik, Šubić kontları ile Venedik arasında kalıp Venedik'e bağlandı": ["venedik"],
+ "1327-09-18|Split'te Macar egemenliği sona erdi — Venedik idaresi başladı": ["macaristan","venedik"],
  "1328-01-01|Livonya Tarikatı Klaipėda (Memel) topraklarını Töton Tarikatı'nın Prusya koluna devretti": ["livonya-tarikati","teuton-devleti"],
  "1328-05-29|VI. Philippe (Valois) Reims'te taç giydi: Valois hanedanı başladı": ["fransa"],
  "1328-08-16|Mantova'da Luigi Gonzaga Bonacolsi signoriasına karşı ayaklanıp iktidarı aldı; Gonzaga dönemi başladı": ["bonacolsi","mantua"],
