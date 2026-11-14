@@ -59,3 +59,11 @@ Durum: UYGULAMA YOK. Liste uygulama oturumu icindir; yerlesimler.js satirlari "y
 - Kronoloji tarafi: kronoloji_balkan.js:1008 Atina Antlasmasi t "1913-11-14" ZATEN var.
 
 **yerlesimler.js kirilma gunu 11-14 mi 11-01 mi (yalniz okundu):** Bozcaada ve Imroz kirilmalari bugun 1913-11-01 (yerlesimler.js 4 uc + yamalar). 11-14'e tasinirsa 13 gun uzar. Degismez 2 acisindan 11-01 de kronoloji_balkan 11-14 maddesinin +-30 gunundedir (ihlal yok, hicbir yonde). Tavsiye: yerlesimler.js kirilmasi 11-14'e ancak "adalarin donusu Atina Antlasmasiyla oldu" iddiasi kaynakla dogrulanirsa tasinir; TDV 16 Aralik 1913 kararini esas aliyorsa dogru uc 11-14 degil 12-16'dir ve ana madde de oraya gider. Bu parti karar vermez, hakemli karar gerekir.
+
+### TAKVIM parti 3: Atina 1833-03-31 -> 1833-04-12 (YUN-161B, ana madde bu dalda tasindi)
+
+| yerlesim | mevcut gun | yeni gun | madde | kaynak |
+|---|---|---|---|---|
+| Atina (yerlesimler.js satir 495) d: {f:"1827-06-05",t:"1833-03-31",y:"kusatma"} t ucu | 1833-03-31 | 1833-04-12 | Atina'nin yeni Yunan devletine birakilmasi (olaylar_ek6.js:114) | W. St Clair, Who Saved the Parthenon? (OBP 2022) bol. 13: "12 April ... Bavarian troops took possession of the Acropolis" (Finlay, Journals and Letters I s.67, olayin tanigi); Yunan 31 Mart Julyen = 12 Nisan G (+12). Hakemli ikinci kaynak yok; ic_not_gun beyanli |
+
+Tek uc (satirda "1833-03-31" 1 kez). Bu dalda tasinanlar: olaylar_ek6 t/gun/ic_not_gun, yer_yama.js:106, ekokuma_antlasma4.js:780, 6 dil ceviri anahtari (OLAYLAR_EK6:1833-04-12:0). Uretilmis dosyalara (bolgeler.js, donemler_ust vb.) dokunulmadi.
