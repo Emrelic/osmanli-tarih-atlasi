@@ -1,0 +1,227 @@
+{
+ "id": "karlofca-1699",
+ "ad": "Karlofça Antlaşması",
+ "anahtarlar": [
+  "Karlofça Antlaşması",
+  "Karlofça"
+ ],
+ "onceki_t": "1683-07-14",
+ "eslesme_kipi": "acik",
+ "taraflar": [
+  "Habsburg",
+  "Venedik",
+  "Lehistan",
+  "Rusya"
+ ],
+ "t": "1699-01-26",
+ "kadraj": [
+  14,
+  35.5,
+  41,
+  50
+ ],
+ "kaynak": "OKUNAN (ham/neşir metin): ① Habsburg md. 1-20, Venedik giriş + md. 1-16 + Doge onayı (7 Şubat 1699) ve Lehistan md. 1-11 — A General Collection of Treatys, Declarations of War, Manifestos... Vol. IV (Londra 1732; İngilizce çeviri), s. 290-322, archive.org nüshası «generalcollectio04whatuoft» (djvu OCR metni, curl ile indirildi ve satır satır okundu; OCR hatalı yer adları işaretlendi). ② Lehistan–Osmanlı metni ayrıca Wikisource «Treaty of Karlowitz (Poland and Turkey)» (aynı 1732 çevirisi; Wikisource yalnız barındırıcı) ile çapraz okundu, 11 madde birebir örtüşür. TDV «Karlofça» maddesi (islamansiklopedisi.org.tr/karlofca) YALNIZ WebFetch özetleyici aracıyla okundu (curl Cloudflare engeli; ham sayfa gövdesi görülmedi): imza 24 Receb 1110 = 26 Ocak 1699, Rusya ateşkesi 22 Receb 1110 = 24 Ocak 1699, İstanbul 27 Muharrem 1112 = 14 Temmuz 1700, 25 yıllık süre ve Edirne protokolü/kongre tarihleri buradan; araç özetleri iki çağrıda ayrıntıda tutarsız olduğundan TDV yalnız tarihler için kullanıldı; ham metin sayılmadı. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi; Rusya ateşkesinin ve 1700 İstanbul Antlaşması'nın metni (⚠ DOĞRULANMADI); Noradounghian, Hurewitz, Dumont, Consolidated Treaty Series, Düstur, DergiPark/TTK çalışmaları (okunmadı; İKİNCİ KAYNAK TEYİDİ aşağıda). İKİNCİ BAĞIMSIZ KAYNAK TEYİDİ (EMRELIC ant17-pA, 13 Kasım 2026): ① Dumont, Corps universel diplomatique, t. VII, 2. kısım (Amsterdam-La Haye 1731; archive.org corpsuniverseldi72dumo) — «Instrumentum Caesareum Pacis ad XXV annos inter Leopoldum … et Mustapha Han … in Congressu Carlowitzii in Sirmio die 26 Januarii 1699», Venedik metni «die 26. Januarii 1699 … in Congressu Pacis facto Carlovitz» ve Doge onayı, Lehistan metni on bir madde; Venedik metninde roma rakamı XVI'ya dek on altı madde. ② Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (Paris 1897), dizin kayıtları (OCR numaraları 281-284) ve Texte No 16 (archive.org recueildactesin03turkgoog): «1699 Janvier 26 — Traité de paix pour vingt-cinq ans avec l'Autriche … [20 Redjeb 1110], ratifié le 29 Chaban 1110», 'Texte en vingt articles' (md. 20 = 25 yıl süre); Venedik ve Lehistan kayıtları aynı gün. SONUÇ: gün 26 Ocak 1699 ve madde sayıları (Habsburg 20, Venedik 16, Lehistan 11) ikinci kaynakla UYUMLU; veri değiştirilmedi. Tek fark hicrî gündedir: TDV 24 Receb 1110, Noradounghian 20 Redjeb 1110 (tablo hesabıyla 24 Receb 1110 = 26 Ocak 1699 Gregoryen; miladî gün aynı). Dumont/Noradounghian bağımsız sayılabilir (Noradounghian Dumont'u dizinde anar ama Medjmouaï/Viyana arşiv metnini de verir). Özetler KENDİ cümlemizle; 1732 İngilizce çevirisinden Türkçe yer adları karşılıkları resmî Türkçe metinle teyit edilmedi. Metin Habsburg barışını «armistice/truce» olarak çevirir; Osmanlı terminolojisinde sulhnâmedir. MADDE DÜZEYİ İKİNCİ KAYNAK KARŞILAŞTIRMASI (UMIT, 14 Kasım 2026): Dumont VII/2 (1731) s. 451-458'den Venedik md. I-XVI + giriş + Doge onayı ve Lehistan md. I-XI + giriş madde madde okundu; her adımın «kaynak» alanında madde numarası ve sayfasıyla teyit/çelişki yazılıdır. Sonuç: Venedik 16/16 madde UYUMLU (yer adı OCR şüpheleri Zaduara/Çiçlut doğrulandı; md. 11 ekinoks gününün sayısı Dumont OCR'ında okunmadı; Doge onayı yılı OCR'ı bozuk, okunmadı). Lehistan 11 maddenin 9'u UYUMLU; md. 2'de özet hatası düzeltildi («sondan bir önceki savaş»), md. 3'e 1732 çevirisinde bulunmayıp Dumont'ta bulunan Kazak hetmanı hükmü eklendi. Noradounghian ve Habsburg md. 1-20 madde düzeyinde bu turda karşılaştırılmadı (Habsburg Dumont s. 447-451 okunmadı).",
+ "cikti": "data/antlasma_madde_karlofca.js",
+ "girdiler": [
+  "denetim/ANTLASMA-ARAC/ornek-p06/karlofca-girdi.json"
+ ],
+ "yerler_ek": {
+  "Karlofça": [
+   19.93,
+   45.2
+  ],
+  "Erdel": [
+   23.6,
+   46.2
+  ],
+  "Eflak": [
+   25,
+   44.5
+  ],
+  "Boğdan": [
+   27,
+   47
+  ],
+  "Podolya": [
+   27,
+   48.8
+  ],
+  "Maros Nehri": [
+   21.5,
+   46.15
+  ],
+  "Temeşvar": [
+   21.23,
+   45.76
+  ],
+  "Tisa Nehri": [
+   20.15,
+   46
+  ],
+  "Tuna": [
+   20,
+   45.2
+  ],
+  "Karansebeş": [
+   22.22,
+   45.41
+  ],
+  "Lugoş": [
+   21.9,
+   45.69
+  ],
+  "Lipova": [
+   21.69,
+   46.09
+  ],
+  "Çanad": [
+   20.43,
+   46.16
+  ],
+  "Bačka": [
+   19.5,
+   45.8
+  ],
+  "Titel": [
+   20.3,
+   45.2
+  ],
+  "Sava": [
+   18,
+   45.1
+  ],
+  "Belgrad": [
+   20.457,
+   44.818
+  ],
+  "Una Nehri": [
+   16.4,
+   45
+  ],
+  "Bosna": [
+   17.8,
+   44
+  ],
+  "Kostajnica": [
+   16.55,
+   45.22
+  ],
+  "Novi": [
+   16.38,
+   45.04
+  ],
+  "Dubica": [
+   16.8,
+   45.18
+  ],
+  "Jasenovac": [
+   16.94,
+   45.27
+  ],
+  "Brod": [
+   18.02,
+   45.16
+  ],
+  "Kırım": [
+   34,
+   45.3
+  ],
+  "Mora": [
+   22.2,
+   37.5
+  ],
+  "Korint Kıstağı": [
+   22.95,
+   37.93
+  ],
+  "İnebahtı": [
+   21.83,
+   38.39
+  ],
+  "Rumeli Kalesi": [
+   21.77,
+   38.33
+  ],
+  "Preveze": [
+   20.75,
+   38.96
+  ],
+  "Ayamavra": [
+   20.65,
+   38.71
+  ],
+  "Dalmaçya": [
+   16.4,
+   43.8
+  ],
+  "Ege Adaları": [
+   25,
+   37.5
+  ],
+  "Zante": [
+   20.9,
+   37.79
+  ],
+  "Eğine": [
+   23.43,
+   37.75
+  ],
+  "Knin": [
+   16.2,
+   44.04
+  ],
+  "Vrlika": [
+   16.4,
+   43.9
+  ],
+  "Sinj": [
+   16.64,
+   43.7
+  ],
+  "Vrgorac": [
+   17.38,
+   43.2
+  ],
+  "Gabela": [
+   17.69,
+   43.1
+  ],
+  "Raguza": [
+   18.09,
+   42.65
+  ],
+  "Kastelnuovo": [
+   18.54,
+   42.45
+  ],
+  "Risan": [
+   18.7,
+   42.52
+  ],
+  "Kotor": [
+   18.77,
+   42.42
+  ],
+  "Kamaniçe": [
+   26.58,
+   48.68
+  ],
+  "Ukrayna": [
+   31,
+   49.5
+  ],
+  "Bucak": [
+   29.7,
+   46.4
+  ],
+  "Azak": [
+   39.42,
+   47.11
+  ]
+ },
+ "madde_sayisi": {
+  "Habsburg": 20,
+  "Venedik": 16,
+  "Lehistan": 11
+ }
+}
