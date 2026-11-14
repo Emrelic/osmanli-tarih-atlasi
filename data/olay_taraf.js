@@ -919,7 +919,7 @@ window.OLAY_TARAF = {
  "0926-05-15|Li Cunxu Luoyang'da isyancı askerlerce öldürüldü": ["sonraki-tang-5hanedan"],
  "0927-05-27|Çar Simeon öldü: Bulgaristan’ın büyük savaş dönemi kapandı": ["birinci-bulgar"],
  "0927-09-08|Bizans-Bulgar barışı: Simeon’un oğlu Petar Bizans prensesiyle evlendi": ["birinci-bulgar","bizans"],
- "0929-01-01|Karmatîler Mekke'yi işgal edip Hacerülesved'i Ahsâ'ya götürdü": ["karmati","abbasi"],
+ "0929-02-14|Karmatîler Mekke'yi işgal edip Hacerülesved'i Ahsâ'ya (Lahsâ) götürdü; Bahreyn Karmatî Devleti Lahsâ'nın sahibi olarak ilk tarihli tanıklıkta": ["karmati","abbasi"],
  "0929-01-01|Orta Cava Medang krallığının idari merkezi Wawa döneminde (927-28) doğuya taşındı; Sindok 929'da tahta çıktı (Doğu Cava dönemi)": ["medang"],
  "0930-01-01|İzlanda'nın ilk Althing'i Þingvellir'de toplandı": ["izlanda-serbest-devleti"],
  "0931-01-24|Ebû Tâhir, Bahreyn'in idaresini mehdî diye tanıttığı İranlı'ya devretti; yeni mehdî seksen gün sonra öldürüldü": ["karmati"],
