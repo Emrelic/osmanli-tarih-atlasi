@@ -1540,7 +1540,7 @@ window.ANTLASMA_HARITALARI = [
 {
   id: "stolbova-1617",
   antlasma_ad: "Stolbova Antlaşması",
-  tarih: "1617-02-27",
+  tarih: "1617-03-09",
   bolgeler: [
     { taraf: "isvec", etiket: "İsveç'te kalan (İngriya, Nöteborg)", noktalar: [
         { ad: "Oreşek (Nöteborg)", lat: 59.953, lon: 31.038, kaynak: "kart antlasma10-stolbova-1617 (lex.dk 'Stolbovofreden', SNL 'Freden i Stolbova'): İsveç Nöteborg ile birlikte İngriya'yı ve Kexholm bölgesini elinde tuttu" }

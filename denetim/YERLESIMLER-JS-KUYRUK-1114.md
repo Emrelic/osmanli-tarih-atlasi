@@ -26,3 +26,9 @@ Not: devletler.js septinsular kunyesi (f:"1800-03-21" ve ic olay t:"1800-03-21")
 | (devletler.js septinsular iç olay) t | 1800-03-21 | 1800-04-02 | aynı | aynı (yerlesimler.js ile birlikte) |
 
 Paksos kaydi (yerlesimler_ek_adalar.js) bu dalda tasindi.
+
+| yerlesim | mevcut gun | yeni gun | madde | kaynak |
+|---|---|---|---|---|
+| Novgorod (yerlesimler.js satir 1289) s: rusya f ({f:"1617-02-27",t:"1917-03-15",d:"rusya"}; onceki isvec parcasinin t'si de ayni gun) | 1617-02-27 | 1617-03-09 | Stolbova/Stolbovo Antlasmasi (olaylar_ek16 x2, kronoloji_isvec) | prlib.ru/history/619081 "27 февраля (9 марта) 1617 г." (Julyen 27 Subat = 9 Mart G); Yam, Koporye (yerlesimler_ek29.js) ve Oresek (yerlesimler_h2_rusya.js) bu dalda tasindi |
+
+Not: yer_yama_1923_1945.js (KARANTINA, aktive edilmiyor) icindeki Oresek 1617-02-27 kirilmasina dokunulmadi.
