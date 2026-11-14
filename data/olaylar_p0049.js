@@ -276,7 +276,7 @@ window.OLAYLAR_P0049 = [
   gun:"6 Mayıs 1724",
   ic_not_gun:"Bilgili & Beşe 2009 (Türk Kültürü ve Hacı Bektaş Velî Araştırma Dergisi 50): bölge '6 Mayıs 1724'de tekrar Osmanlı idaresine geçmiştir'; TD 911 (1140/1728) tahriri · TDV hoy '(1724)' YIL. Yerleşim: Hoy d.f 1724-09-28 → 1724-05-06. KUTU-A-1014 (0035/H-0076).",
   yer:"Hoy", yer_id:"Hoy", kisiler:"",
-  d:"1723'te başlayan İran seferi sırasında Hoy ile Kapan ve Karadağ yöresi 6 Mayıs 1724'te yeniden Osmanlı idaresine geçti ve 1728'de Osmanlı tahririne kaydedildi.",
+  d:"1723'te başlayan İran seferi sırasında Hoy ile Kapan ve Karadağ yöresi 6 Mayıs 1724'te yeniden Osmanlı idaresine geçti ve 1728'de Osmanlı tahririne kaydedildi. Atlas, Hoy'un 40 km güneybatısındaki Kotur'u da bu günde Safevî'den Osmanlı'ya geçmiş sayar (zincir Hoy'dan devralındı: Uluerler 2015, Turkish Studies 10/5, s. 6; Kotur'a özgü gün kaynakta yok — beyanlı yaklaşıklık).",
   kaynak:"hoy" },
 
 ];

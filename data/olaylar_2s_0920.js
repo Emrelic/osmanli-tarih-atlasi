@@ -199,4 +199,18 @@ window.OLAYLAR_2S0920 = [
   kaynak:"TDV `urdun` — AYNEN: \"kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\" · hassasiyet: AY (Şubat 1921)",
   ic_not_d:"HASSASİYET AY: TDV gün vermez; tarih ayın 1'ine yazıldı ve atlas kırılması da 1921-02-01'de duruyor. TDV kuruluş cümlesinde Amman ile Kerak'ı ANMAZ — bu adlar atlasın kırılma kümesinden." },
 
+{ bolge:4, t:"1506-07-08", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Münih",
+  etiket:["siyaset","konu-siyasi","konu-hanedan"],
+  b:"Albrecht IV. Wittelsbach Primogenitur Nizamnamesi'ni çıkardı — Bavyera dükalıkları birleşti, bölünmez tek dükalık oldu",
+  gun:"8 Temmuz 1506", yer:"Münih, Bavyera", kisiler:"IV. Albrecht (Bavyera Dükü)",
+  d:"Landshut Veraset Savaşı'nın (1503-1505) ardından Bavyera dükalıklarını yeniden tek elde toplayan Dük IV. Albrecht, 8 Temmuz 1506'da ülkenin bölünmezliğini ve tahtın en büyük erkek evlada geçmesini öngören Primogenitur Nizamnamesi'ni çıkardı. 1255'ten beri süren Bavyera bölünmeleri böylece sona erdi; Münih'in merkezi olduğu Bavyera, Alman devletleri içinde bölünmez tek bir dükalık olarak sürdü.",
+  ic_not_d:"D2s-ACIK-1114 (Münih 1506-07-08, almanya→bavyera): gün yerleşim kaydı ve devletler.js bavyera künyesiyle aynı; ayrıca Historisches Lexikon Bayerns arşiv atfı: Bayerische Landschaft Urkunden 1506 VII 8 (BayHStA). Kaynaklar nizamnamenin ayrıntısında (yalnız ilk doğan mı) kısmen ayrışır; atlas yalnız birleşme/bölünmezlik ve gün iddiasını taşır. Metindeki 1255 bölünme başlangıcı ve 1503-1505 Landshut Savaşı bağlamı HLB'nin ilgili maddeleriyle (Territorialentwicklung in Altbayern) teyide muhtaç — okunmadı, kaynak listesine alınmadı.",
+  kaynak:"HLB (Historisches Lexikon Bayerns), Immler, 'Wittelsbachische Primogeniturordnung (1506)', https://www.historisches-lexikon-bayerns.de/Lexikon/Wittelsbachische_Primogeniturordnung_(1506) · Bayerisches Hauptstaatsarchiv, Bayerische Landschaft Urkunden 1506 VII 8", duygu:["📜"] },
+{ bolge:4, t:"1517-04-15", k:"kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Taiz",
+  etiket:["siyaset","konu-siyasi","konu-askeri","toprak-kayip"],
+  b:"II. Âmir San'a yakınında öldürüldü — Tâhirî Hânedanı'nın sonu",
+  gun:"15 Nisan 1517 (23 Rebîülevvel 923)", yer:"San'a yakını, Taiz", kisiler:"el-Melikü'z-Zâfir II. Âmir",
+  d:"Tâhirîler'in son hükümdarı II. Âmir, Memlük donanmasıyla bozulan ilişkiler yüzünden başlayan savaşta, Yemen kabilelerinin ve Zeydîler'in Memlükler'i desteklemesiyle önce Zebîd yakınında yenildi (Kasım 1516), ardından San'a yakınındaki savaşta öldü. 1454'ten beri Yemen'e hükmeden Tâhirî hânedanı böylece sona erdi; hânedanın şehirleri (Taiz dahil) artık Tâhirî hükümdarlığına bağlı değildi.",
+  ic_not_d:"D2s-ACIK-1114 (Taiz 1517-04-15, tahiri→yemen-zeydi): TDV 'Tâhirîler' ölüm günü 23 Rebîülevvel 923 (15 Nisan 1517) verir ve kimin öldürdüğünü yazmaz; Taiz'in 1517 sonrası sahibini TDV tahiriler maddesi VERMEZ — atlas kaydı yemen-zeydi (devralma TDV taiz 'Taiz'in fethi' 1547 öncesi) BEYANLI YAKLAŞIKLIK, bu maddede Taiz'in yeni sahibi iddia edilmedi.",
+  kaynak:"TDV 'Tâhirîler' (tahiriler--yemen): «II. Âmir ... 23 Rebîülevvel 923 (15 Nisan 1517)» · TDV 'Resûlîler' (Tâhirî ele geçirişi 858/1454)", duygu:["😔"] },
 ];

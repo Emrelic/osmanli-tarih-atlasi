@@ -290,11 +290,11 @@ window.YERLESIMLER_E9353F = [
 //   sahnede bırakmamak (Değişmez 5) için `kur:` şart.
 // 📌 İngiliz devrini 1903-01-15'ten başlattım — TDV'nin verdiği GÜN.
 //   sokoto künyesi t:1903-07-27 (sultanın ölümü); ikisi çelişmiyor, biri
-//   askerî yenilgi öteki hânedanın sonu. Toprak 15 Ocak'ta el değiştirdi.
+//   askerî yenilgi öteki hânedanın sonu. Toprak el değiştirme günü DÜZELTİLDİ: 15 Mart 1903 (TDV sokoto; 15 Ocak alıntısı gövdede yok).
 { ad:"Sokoto", tur:"sehir", lat:13.062, lon:5.234, g:1, k:1,
   kur:"1812-01-01",
-  s:[{f:"1812-01-01", t:"1903-01-15", d:"sokoto", kaynak:"sokoto"},
-     {f:"1903-01-15", t:"1960-10-01", d:"ingiltere", kaynak:"sokoto"},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
+  s:[{f:"1812-01-01", t:"1903-03-15", d:"sokoto", kaynak:"sokoto"},
+     {f:"1903-03-15", t:"1960-10-01", d:"ingiltere", kaynak:"TDV sokoto: «İngilizler Sokoto ordusunu ağır bir yenilgiye uğratarak şehri işgal ettiler (15 Mart 1903)» — GÜN · atlas kronoloji maddesi 1903-03-15 (olaylar_2s_1019)", ic_not:"SOKOTO-DUZELTME (1114): eski gün 1903-01-15 (yanlış: yerlesimler_e9353f yorumundaki 'On January 15, 1903' alıntısı TDV sokoto gövdesinde bulunmadı; TDV şehrin işgalini 15 Mart 1903 verir) → yeni gün 1903-03-15. Öteki olaylar ayrıdır: Kano 1903-02-03 (kronoloji_cok_senkron_0930), Burmi 1903-07-27 (halifeliğin siyasî sonu, künye t; Bauci vb. kayıtlar o güne bağlı). Başka akademik teyit aranmadı (TDV tek kaynak, çelişen kaynak bulunmadı)."},{f:"1960-10-01",t:"2000-12-31",d:"nijerya",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   d:[], v:[] },
 
 // ═════════════════ KANEM-BORNU — ÇAD GÖLÜ KUŞAĞI ═════════════════
