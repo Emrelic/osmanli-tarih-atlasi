@@ -203,4 +203,16 @@ window.OLAYLAR_2S_0918 = [
   kaynak:"Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026): «di Tvarco re di Bosnia (1390-91), di Sigismondo d'Ungheria (1391-1402)»",
   ic_not_d:"BALKAN-1114c (KASA kararı): Treccani'de yıl (1391) var, gün yok; hassasiyet yıl (1391-01-01). Gün komşudan: data/kronoloji_balkan.js:698 (aynı olay, «Tvrtko I'in ölümü — taht kavgalarının başlaması», yıl düzeyi, o maddenin kendi kaynağı ile) — zincirleme devralma yok. Aynı olay kronoloji_balkan.js:698'de var; bu madde yalnız Šibenik'in taraf kolunu (bosna-kralligi→macaristan) Değişmez 2 evrenine taşır, olayı çoğaltmaz. LZMK bu dönüşün yılını ayrıca vermez (yalnız 1390 girişi): tek kaynak, yıl." },
 
+{ bolge:2, t:"1357-01-01", b:"Split'te Venedik idaresi sona erdi — Macar hâkimiyeti yeniden başladı", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Split (Spalato)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"Split'te 1327'de başlayan Venedik idaresi 1357'de sona erdi; şehir yeniden doğrudan Macar hâkimiyetine girdi (1420'ye dek).",
+  kaynak:"Treccani, Enciclopedia Italiana «Spalato» (treccani.it/enciclopedia/spalato_(Enciclopedia-Italiana)/; okundu 14.11.2026): «Segue un trentennio di amministrazione veneziana, indi, dal 1357 al 1420, nuovamente la diretta sovranità ungherese» · Hrvatska enciklopedija (LZMK) «Split»: «Godine 1327–57. grad se nalazio pod mletačkom vlašću»",
+  ic_not_d:"BALKAN-1114c (KASA kararı): iki bağımsız kaynak (LZMK ⟂ Treccani) yıl 1357'de uyuşur; GÜN YOK ⇒ yıl hassasiyeti 1357-01-01, [yalnız yıl teyitli; gün teyitsiz]. Zadar Antlaşması günü (1358-02-18) Split'e UYGULANMADI (Split'e özgü kaynağı yok). Bu 1 yıl-temsilî borç beyanlı kabuldür (kırılma ve madde aynı gün). Kronoloji sınır dosyalarında Split'e ait ayrı 1357 maddesi aranmadı (ölçülmedi)." },
+
+{ bolge:2, t:"1357-12-14", b:"Šibenik Venedik'ten ayrıldı — Macar hâkimiyetine geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Šibenik (Sebenico)",
+  etiket:["toprak-kayip","konu-siyasi"],
+  d:"Šibenik, Anjou'lu Lajos'un Dalmaçya'yı Venedik'ten koparmakta olduğu sırada 14 Aralık 1357'de Venedik'ten ayrıldı ve Macar hâkimiyetine girdi.",
+  kaynak:"Treccani, Enciclopedia Italiana «Sebenico» (treccani.it/enciclopedia/sebenico_(Enciclopedia-Italiana)/; okundu 14.11.2026, tam cümle YENİDEN OKUNDU): «Sebenico sceglie Venezia, alla quale si dà il 1° marzo 1322, e sotto la quale rimane sino al 1357, distaccandosi il 14 dicembre, quando Lodovico d'Angiò era in atto di strappare la Dalmazia a Venezia.» · Hrvatska enciklopedija «Šibenik»/«Zadarski mir»: Venedik 1358 Zadar Barışı'na dek",
+  ic_not_d:"BALKAN-1114c (KASA kararı): 14 Aralık'ın yılı cümlede açık yazılmaz; «rimane sino al 1357, distaccandosi il 14 dicembre» ⇒ 1357-12-14 (cümle bağlamından, açık yıl damgası yok — beyan). Çelişki: atlas Zadar Antlaşması 18.II.1358 (hukukî devir; Dubrovnik/Zadar maddeleri kendi yerinde kalır), Šibenik'in fiilî ayrılışı bundan 66 gün önce. Gün tek kaynak (Treccani); LZMK yıl 1358 (Zadar Barışı). Hakemli karar: ikinci bağımsız kaynak gün vermedi, Treccani günü tutuldu (tek kaynak, beyanlı)." },
+
 ];

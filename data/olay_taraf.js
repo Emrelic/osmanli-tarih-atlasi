@@ -1917,6 +1917,8 @@ window.OLAY_TARAF = {
  "1353-01-01|İbrâhim Şah'ın ölümüyle Diyarbekir Celâyirlilerin idaresine girdi": ["sutayogullari","celayirli"],
  "1355-01-01|Enez Ceneviz idaresine geçti (Gattilusi ailesi)": ["cenova","gattilusio","bizans"],
  "1356-01-01|Litvanya Büyük Dükü Algirdas (Olgerd) Bryansk'ı aldı": ["litvanya-buyuk-dukalik"],
+ "1357-01-01|Split'te Venedik idaresi sona erdi — Macar hâkimiyeti yeniden başladı": ["venedik","macaristan"],
+ "1357-12-14|Šibenik Venedik'ten ayrıldı — Macar hâkimiyetine geçti": ["venedik","macaristan"],
  "1358-02-18|Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti": ["macaristan","venedik","dubrovnik"],
  "1359-01-01|Mar'aşî Seyyidleri Âmül'ü aldı — Mazenderan'da seyyid hâkimiyeti": ["mazenderan-marasi"],
  "1360-01-01|Dulkadirli Halil Bey sınırlarını Zamantı'ya kadar genişletti": ["dulkadir","eretna"],
