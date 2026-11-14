@@ -2767,7 +2767,7 @@ window.ETIKET_YAMA = {
    "guven": "KESIN"
   },
   {
-   "t": "1703-01-02",
+   "t": "1703-01-13",
    "b": "İlk Rus gazetesi \"Vedomosti\" yayımlandı",
    "kume": "YAB",
    "mevcut_k": "kultur",
@@ -3016,7 +3016,7 @@ window.ETIKET_YAMA = {
    "not": "Olcutu geciyor ama gerekcesi BAGLAMA bagli — koordinator karari."
   },
   {
-   "t": "1724-01-28",
+   "t": "1724-02-08",
    "b": "Bilimler Akademisi kuruldu",
    "kume": "YAB",
    "mevcut_k": "bilim",
