@@ -4233,7 +4233,7 @@ window.SAVASLAR = [
 { t:"1659-02-16", tur:"isyan", ad:"Abaza Hasan Paşa",       taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:400, taraf:["osmanli"] },
 { t:"1795-03-01", tur:"isyan", ad:"Pazvandoğlu Osman",      taraf_metin:"iç isyan", sonuc:"belirsiz", seri:"ic", lat:43.99, lon:22.87, sure:1500, taraf:["osmanli"] },
 { t:"1804-02-14", tur:"isyan", ad:"Birinci Sırp isyanı",    taraf_metin:"Sırplar",  sonuc:"belirsiz", seri:"ic", lat:44.82, lon:20.46, sure:1200, taraf:["osmanli","sirbistan-prensligi"] },
-{ t:"1821-03-25", tur:"isyan", ad:"Mora isyanı",            taraf_metin:"Rumlar",   sonuc:"yenilgi", seri:"yunan", lat:37.51, lon:22.38, sure:1500, taraf:["osmanli","yunanistan"] },
+{ t:"1821-03-25", tur:"isyan", ad:"Mora isyanı",            taraf_metin:"Rumlar",   sonuc:"yenilgi", seri:"yunan", lat:37.51, lon:22.38, sure:1500, taraf:["osmanli","yunanistan"], ic_not_takvim:"TAKVİM-PARTİSİ-1114 (YUN-126B/174B): gün DEĞİŞTİRİLMEDİ, BELİRSİZ. 25 Mart 1821 geleneksel Yunan bayram günüdür (Jülyen; Gregoryen karşılığı 6 Nisan). Hakemli kaynak: Roderick Beaton, 'The Greek Revolution of 1821: An Overview' (Hellenic Society): başlangıcı 6 Mart 1821 Gregoryen (22 Şubat Jülyen, Prut geçişi) verir; 25 Mart Agia Lavra sahnesi 'almost certainly apocryphal' (17/21/25 Mart tartışmalı). Bu takvim değil olay-tanımı sorunudur; 19 yerleşim kırılması bu güne bağlıdır. Karar Emre'ye soruldu: denetim/EMRE-SORULARI-1114.md." },
 { t:"1875-06-19", tur:"isyan", ad:"Hersek isyanı",          taraf_metin:"Sırplar",  sonuc:"yenilgi", seri:"rus",  lat:43.34, lon:17.81, sure:900, taraf:["osmanli","sirbistan-prensligi"] },
 
 // --- Deniz muharebeleri (çapa) ---
