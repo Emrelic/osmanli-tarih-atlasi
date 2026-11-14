@@ -475,7 +475,7 @@ window.ANTLASMA_MADDELERI.push({
   "Lehistan",
   "Rusya"
  ],
- "kaynak": "OKUNAN (ham/neşir metin): ① Habsburg md. 1-20, Venedik giriş + md. 1-16 + Doge onayı (7 Şubat 1699) ve Lehistan md. 1-11 — A General Collection of Treatys, Declarations of War, Manifestos... Vol. IV (Londra 1732; İngilizce çeviri), s. 290-322, archive.org nüshası «generalcollectio04whatuoft» (djvu OCR metni, curl ile indirildi ve satır satır okundu; OCR hatalı yer adları işaretlendi). ② Lehistan–Osmanlı metni ayrıca Wikisource «Treaty of Karlowitz (Poland and Turkey)» (aynı 1732 çevirisi; Wikisource yalnız barındırıcı) ile çapraz okundu, 11 madde birebir örtüşür. TDV «Karlofça» maddesi (islamansiklopedisi.org.tr/karlofca) YALNIZ WebFetch özetleyici aracıyla okundu (curl Cloudflare engeli; ham sayfa gövdesi görülmedi): imza 24 Receb 1110 = 26 Ocak 1699, Rusya ateşkesi 22 Receb 1110 = 24 Ocak 1699, İstanbul 27 Muharrem 1112 = 14 Temmuz 1700, 25 yıllık süre ve Edirne protokolü/kongre tarihleri buradan; araç özetleri iki çağrıda ayrıntıda tutarsız olduğundan TDV yalnız tarihler için kullanıldı; ham metin sayılmadı. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi; Rusya ateşkesinin ve 1700 İstanbul Antlaşması'nın metni (⚠ DOĞRULANMADI); Noradounghian, Hurewitz, Dumont, Consolidated Treaty Series, Düstur, DergiPark/TTK çalışmaları (okunmadı; İKİNCİ KAYNAK TEYİDİ aşağıda). İKİNCİ BAĞIMSIZ KAYNAK TEYİDİ (EMRELIC ant17-pA, 13 Kasım 2026): ① Dumont, Corps universel diplomatique, t. VII, 2. kısım (Amsterdam-La Haye 1731; archive.org corpsuniverseldi72dumo) — «Instrumentum Caesareum Pacis ad XXV annos inter Leopoldum … et Mustapha Han … in Congressu Carlowitzii in Sirmio die 26 Januarii 1699», Venedik metni «die 26. Januarii 1699 … in Congressu Pacis facto Carlovitz» ve Doge onayı, Lehistan metni on bir madde; Venedik metninde roma rakamı XVI'ya dek on altı madde. ② Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (Paris 1897), dizin kayıtları (OCR numaraları 281-284) ve Texte No 16 (archive.org recueildactesin03turkgoog): «1699 Janvier 26 — Traité de paix pour vingt-cinq ans avec l'Autriche … [20 Redjeb 1110], ratifié le 29 Chaban 1110», 'Texte en vingt articles' (md. 20 = 25 yıl süre); Venedik ve Lehistan kayıtları aynı gün. SONUÇ: gün 26 Ocak 1699 ve madde sayıları (Habsburg 20, Venedik 16, Lehistan 11) ikinci kaynakla UYUMLU; veri değiştirilmedi. Tek fark hicrî gündedir: TDV 24 Receb 1110, Noradounghian 20 Redjeb 1110 (tablo hesabıyla 24 Receb 1110 = 26 Ocak 1699 Gregoryen; miladî gün aynı). Dumont/Noradounghian bağımsız sayılabilir (Noradounghian Dumont'u dizinde anar ama Medjmouaï/Viyana arşiv metnini de verir). Özetler KENDİ cümlemizle; 1732 İngilizce çevirisinden Türkçe yer adları karşılıkları resmî Türkçe metinle teyit edilmedi. Metin Habsburg barışını «armistice/truce» olarak çevirir; Osmanlı terminolojisinde sulhnâmedir.",
+ "kaynak": "OKUNAN (ham/neşir metin): ① Habsburg md. 1-20, Venedik giriş + md. 1-16 + Doge onayı (7 Şubat 1699) ve Lehistan md. 1-11 — A General Collection of Treatys, Declarations of War, Manifestos... Vol. IV (Londra 1732; İngilizce çeviri), s. 290-322, archive.org nüshası «generalcollectio04whatuoft» (djvu OCR metni, curl ile indirildi ve satır satır okundu; OCR hatalı yer adları işaretlendi). ② Lehistan–Osmanlı metni ayrıca Wikisource «Treaty of Karlowitz (Poland and Turkey)» (aynı 1732 çevirisi; Wikisource yalnız barındırıcı) ile çapraz okundu, 11 madde birebir örtüşür. TDV «Karlofça» maddesi (islamansiklopedisi.org.tr/karlofca) YALNIZ WebFetch özetleyici aracıyla okundu (curl Cloudflare engeli; ham sayfa gövdesi görülmedi): imza 24 Receb 1110 = 26 Ocak 1699, Rusya ateşkesi 22 Receb 1110 = 24 Ocak 1699, İstanbul 27 Muharrem 1112 = 14 Temmuz 1700, 25 yıllık süre ve Edirne protokolü/kongre tarihleri buradan; araç özetleri iki çağrıda ayrıntıda tutarsız olduğundan TDV yalnız tarihler için kullanıldı; ham metin sayılmadı. ULAŞILAMAYAN/OKUNMAYAN: TDV ham sayfa gövdesi; Rusya ateşkesinin ve 1700 İstanbul Antlaşması'nın metni (⚠ DOĞRULANMADI); Noradounghian, Hurewitz, Dumont, Consolidated Treaty Series, Düstur, DergiPark/TTK çalışmaları (okunmadı; İKİNCİ KAYNAK TEYİDİ aşağıda). İKİNCİ BAĞIMSIZ KAYNAK TEYİDİ (EMRELIC ant17-pA, 13 Kasım 2026): ① Dumont, Corps universel diplomatique, t. VII, 2. kısım (Amsterdam-La Haye 1731; archive.org corpsuniverseldi72dumo) — «Instrumentum Caesareum Pacis ad XXV annos inter Leopoldum … et Mustapha Han … in Congressu Carlowitzii in Sirmio die 26 Januarii 1699», Venedik metni «die 26. Januarii 1699 … in Congressu Pacis facto Carlovitz» ve Doge onayı, Lehistan metni on bir madde; Venedik metninde roma rakamı XVI'ya dek on altı madde. ② Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. I (Paris 1897), dizin kayıtları (OCR numaraları 281-284) ve Texte No 16 (archive.org recueildactesin03turkgoog): «1699 Janvier 26 — Traité de paix pour vingt-cinq ans avec l'Autriche … [20 Redjeb 1110], ratifié le 29 Chaban 1110», 'Texte en vingt articles' (md. 20 = 25 yıl süre); Venedik ve Lehistan kayıtları aynı gün. SONUÇ: gün 26 Ocak 1699 ve madde sayıları (Habsburg 20, Venedik 16, Lehistan 11) ikinci kaynakla UYUMLU; veri değiştirilmedi. Tek fark hicrî gündedir: TDV 24 Receb 1110, Noradounghian 20 Redjeb 1110 (tablo hesabıyla 24 Receb 1110 = 26 Ocak 1699 Gregoryen; miladî gün aynı). Dumont/Noradounghian bağımsız sayılabilir (Noradounghian Dumont'u dizinde anar ama Medjmouaï/Viyana arşiv metnini de verir). Özetler KENDİ cümlemizle; 1732 İngilizce çevirisinden Türkçe yer adları karşılıkları resmî Türkçe metinle teyit edilmedi. Metin Habsburg barışını «armistice/truce» olarak çevirir; Osmanlı terminolojisinde sulhnâmedir. MADDE DÜZEYİ İKİNCİ KAYNAK KARŞILAŞTIRMASI (UMIT, 14 Kasım 2026): Dumont VII/2 (1731) s. 451-458'den Venedik md. I-XVI + giriş + Doge onayı ve Lehistan md. I-XI + giriş madde madde okundu; her adımın «kaynak» alanında madde numarası ve sayfasıyla teyit/çelişki yazılıdır. Sonuç: Venedik 16/16 madde UYUMLU (yer adı OCR şüpheleri Zaduara/Çiçlut doğrulandı; md. 11 ekinoks gününün sayısı Dumont OCR'ında okunmadı; Doge onayı yılı OCR'ı bozuk, okunmadı). Lehistan 11 maddenin 9'u UYUMLU; md. 2'de özet hatası düzeltildi («sondan bir önceki savaş»), md. 3'e 1732 çevirisinde bulunmayıp Dumont'ta bulunan Kazak hetmanı hükmü eklendi. Noradounghian ve Habsburg md. 1-20 madde düzeyinde bu turda karşılaştırılmadı (Habsburg Dumont s. 447-451 okunmadı).",
  "yerler": {
   "Karlofça": [
    19.93,
@@ -904,6 +904,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik giriş",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 453-454: 16 madde, 15 günlük uzatma süresinin dolması, Ruzzini'nin kararsızlığı, Habsburg ve Lehistan elçilerinin Venedik adına bağlaması, Osmanlı nüshası «24 Receb 1110» günlü — UYUMLU. Hicrî gün: Dumont 24 Receb (TDV ile aynı), Noradounghian'ın Habsburg kaydı 20 Receb; Venedik belgesi için 24 Receb esas. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Venedik elçisi Ruzzini imzayı geciktirdiği için Habsburg ve Lehistan elçileri, arabulucuların onayıyla 16 maddelik belgeyi Venedik adına Osmanlı'yla bağladı; belge 24 Receb 1110 (26 Ocak 1699) tarihlidir. Venedik'e onay için 30 gün mühlet tanındı.",
    "yer": [
@@ -915,6 +916,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 1",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 454 md. I: Mora kendi şehir/kale/liman/dağ/nehir/gölleriyle Venedik'te; sınır deniz ve Korint Kıstağı'ndaki eski duvar izleri; iki yöne de genişleme yok — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Venedik'in elindeki bütün Mora, şehirleri, kaleleri ve limanlarıyla Cumhuriyet'te kalır; Korint Kıstağı'ndaki eski duvar kalıntılarıyla çevrili alan da buna dahildir. Mora'nın anakaraya doğru genişletilmesi yasaktır.",
    "yer": [
@@ -927,6 +929,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 2",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 454 md. II: anakara Osmanlı'da savaş başı hâliyle; İnebahtı boşaltılır, «Romelie» (Rumeli) kalesi ve Preveze yıkılır — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Anakara Osmanlı'da, savaş başındaki hâliyle kalır. Venedik İnebahtı'yı boşaltır; İnebahtı yanındaki Rumeli Kalesi ile Preveze kalesi yıkılır.",
    "yer": [
@@ -940,6 +943,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 3",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 454 md. III: Ayamavra (Santa Maura) kalesiyle, «Capo di Ponte detto Peraccia», anakarada genişleme yok, Levkada (Leucade) — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Ayamavra (Santa Maura) adası, kalesi ve köprübaşı ile ona bağlı Levkada, anakaraya uzanmamak şartıyla Venedik'te kalır.",
    "yer": [
@@ -951,6 +955,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 4",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 454-455 md. IV: boşaltma ve yıkım Dalmaçya hudutları belirlendikten hemen sonra; garnizonlar kale içinde, akın yok, halk kalmakta/gitmekte serbest — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "İnebahtı'nın boşaltılması ve iki kalenin yıkımı, Dalmaçya sınırı belirlendikten hemen sonra yapılır; o zamana dek garnizonlar kale içinde kalıp anakaraya akın yapmaz. Halk kalmakta ya da gitmekte serbesttir.",
    "yer": [
@@ -965,6 +970,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 5",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 455 md. V: körfezler ortak kullanım, iki taraf da temiz tutar — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Anakara ile Mora arasındaki körfezlerden iki devlet ortak yararlanır; ikisi de bu suları korsan ve zararlılardan temizlemeyi üstlenir.",
    "yer": [
@@ -976,6 +982,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 6",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 455 md. VI: Ege adaları savaş öncesi gibi Osmanlı'da; «Carazzi» (karaç) ve savaşta konan yükler kaldırılır — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Ege (Takımadalar) adaları, savaş öncesindeki gibi Osmanlı hâkimiyetinde kalır. Venedik tebaasından «karaçe» denilen vergiler ve savaş sırasında konulan bütün yükümler kaldırılır.",
    "yer": [
@@ -987,6 +994,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 7",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 455 md. VII: Zante için geçmiş/gelecek vergi yok; Eğine adası ve kalesi mevcut hâliyle Venedik'te — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Osmanlı, Zante adası için geçmiş ya da gelecek hiçbir vergi isteyemez. Mora'ya bitişik Eğine adası ve kalesi Venedik'te mevcut hâliyle kalır.",
    "yer": [
@@ -999,6 +1007,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 8",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 455-456 md. VIII: Knin, Sinj, Çiçlut («Ciclut»), Gabela Venedik'te; Knin–Vrlika («Verlica»)–Sinj–«Duare, detta Zadvaria»–Vrgorac («Vergoraz»)–Çiçlut/Gabela düz çizgiler; kalelerin önünde bir saatlik toprak — UYUMLU. Bu karşılaştırma OCR'dan kalan «Zaduara»/«Çiçlut» yazımlarını da doğruladı (Zaduara = Duare/Zadvar). Dumont ayrıca Çiçlut için yanda deniz yönüne iki saatlik toprak ve Knin'in Hırvatistan yönünde yan hakkı verir; özette yok (çelişki değil, eksik ayrıntı). BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Dalmaçya'da Knin, Sinj, Çiçlut ve Gabela kaleleri Venedik'te kalır. Knin-Vrlika-Sinj-Zaduara-Vrgorac-Çiçlut/Gabela arasında düz çizgilerle sınır çizilir; çizginin deniz yanı Venedik, öte yanı Osmanlı'dır. Kalelerin önünde bir saatlik yürüme genişliğinde arazi ayrılır.",
    "yer": [
@@ -1015,6 +1024,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 9",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 456 md. IX: Raguza toprakları Osmanlı topraklarına bitişik kalır, engeller kaldırılır — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Raguza (Dubrovnik) cumhuriyetinin toprakları Osmanlı topraklarına bağlı sayılır; Raguza ile Osmanlı arazisinin birleşmesine engel olan her şey kaldırılır.",
    "yer": [
@@ -1026,6 +1036,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 10",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 456 md. X: Kastelnuovo ve Risan Venedik'te, öteki fiilî elde tutulan kaleler aynı, komisyoncular dürüst kişilerden, Raguza–Osmanlı bağlantısı kesilmez — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Kotor yakınındaki Kastelnuovo ve Risan, fiilen Venedik elinde olduğu için Cumhuriyet'te kalır; aynı durumdaki öbür kaleler de öyle. Komisyonlar sınırı belirler, ancak Raguza ile Osmanlı arazisi arasındaki bağlantı kesilmez.",
    "yer": [
@@ -1040,6 +1051,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 11",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 456-457 md. XI: sınır tayini Dalmaçya ve Kotor'dan başlar, eşit sayıda silahlı ama barışçı eşlik, ekinoks gününden başlayıp iki ay; ekinoks gününün sayısı Dumont OCR'ında okunamadı (okunmadı) — UYUMLU, «Mart» düzeyinde. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Sınır tayinine Dalmaçya ve Kotor tarafında başlanır; komisyonlar ilkbahar ekinoksunda (Mart) eşit sayıda silahsız-barışçı eşlikle toplanır ve işi iki ay içinde bitirir.",
    "yer": [
@@ -1052,6 +1064,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 12",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 457 md. XII: hırsız ve kaçaklara iki tarafta sığınak yok — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Hudutlarda hırsızlık ve düşmanlık yapan kaçaklara iki tarafta da sığınak verilmez; yakalanıp hapsedilir ve cezalandırılır.",
    "yer": [],
@@ -1061,6 +1074,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 13",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 457 md. XIII: kaleler onarılıp tahkim edilir, sınırda yeni kale ve Venedik'in anakarada yıktıkları yok; köy ve kasaba serbest — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Taraflar ellerindeki kaleleri onarıp tahkim edebilir; sınırda yeni kale yapamaz, Venedik'in anakara sınırında yıktığı kaleleri yeniden kuramaz. Tebaa köy ve kasaba kurabilir.",
    "yer": [],
@@ -1070,6 +1084,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 14",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 457 md. XIV: din, esir değişimi, ticaret önceki antlaşma gibi; elçi yeni istem sunabilir; ferman ve imtiyazlar teyit — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Din, esir değişimi ve ticarette önceki antlaşmanın şartları aynen sürer; Venedik elçisi bu konuda yeni talep sunabilir. Cumhuriyet'e verilmiş ferman ve imtiyazlar teyit edilir, ticaret savaş öncesi gibi yürür.",
    "yer": [],
@@ -1079,6 +1094,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 15",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 457 md. XV: savaş durur; Bosna, Arnavutluk, Dalmaçya 30 gün; Girit, Mora ve komşu sınırlar 40 gün; genel af — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "İmza gününden itibaren kara ve denizde savaş durur; haberin ulaşması için Bosna, Arnavutluk ve Dalmaçya'ya 30, Girit, Mora ve aynı kıyıdaki sınırlara 40 gün tanınır. Savaş sırasındaki suçlar için genel af ilan edilir.",
    "yer": [
@@ -1092,6 +1108,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik md. 16",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 458 md. XVI + Latince ek: süre belgelerin teslimiyle belirlenir; Venedik elçisi hemen imzalayabilir, aksi hâlde 30 gün onay, Viyana'da iki ay (ek maddede ayrıca Osmanlı elçisinin Viyana'ya gelişinden altı aylık bir çerçeve de anılır; özet iki ayı yazar, çelişki değil) — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Antlaşmanın süresi, belgelerin teslimi ve imzalanması elçilerce sonradan belirlenecek; Venedik elçisi dilerse belgeyi hemen kabul edip imzalayabilir, aksi hâlde Cumhuriyet 30 gün içinde onaylar ve işi Viyana'da iki ay içinde tamamlar. Maddelerdeki yer ve sınır hükümleri değiştirilemez.",
    "yer": [],
@@ -1101,6 +1118,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Venedik onay",
    "taraf": "Venedik",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Venedik belgesi (CCX/CCXI), s. 458: Doge Sylvester Valerio onayı «in Ducali Palatio die 7. Februarii», imparatorluk hesabıyla 26 Ocak 1699 belge; 16 madde onaylı — gün/ay UYUMLU. Yıl hanesi Dumont OCR'ında «1659» okunur (bozuk) ve «M.V.» (more veneto: Venedik takvimi) işareti taşır; Venedik yılı biçimi ve yılın nihaî okunuşu teyitsiz (okunmadı), 7 Şubat 1699 değeri yalnız 1732 metnine ve ana kaynak sayfasına dayanır. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Venedik (26 Ocak 1699 belgesi; Venedik onayı 7 Şubat 1699)",
    "ozet": "Doge Silvestro Valier ve Senato, 16 maddelik belgeyi Dükal Saray'da 7 Şubat 1699'da onayladı ve Cumhuriyet adına uygulamayı taahhüt etti. Belgenin kendi tarihi, imparatorluk hesabıyla 26 Ocak 1699 olarak anılır.",
    "yer": [],
@@ -1110,6 +1128,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan giriş",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 451-452: 26 Ocak 1699, Karlofça çadırı, arabulucular Paget ve Coljer, Osmanlı murahhasları Râmi Mehmed Efendi ve Mavrokordato, 11 madde, Lehistan adına Stanisław Małachowski (Poznań voyvodası; vekâletname Lviv, 5 Eylül 1698) — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Antlaşma, Kral II. Augustus ve Lehistan Cumhuriyeti ile Sultan II. Mustafa arasında, İngiltere Kralı III. William ve Hollanda Genel Devletleri'nin arabuluculuğuyla 26 Ocak 1699'da Karlofça'da çadır kongresinde bağlandı. Lehistan adına Poznań voyvodası Stanisław Małachowski imzaladı; metin 11 maddedir.",
    "yer": [
@@ -1121,6 +1140,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 1",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. I: düşmanlık sona erer, hudutlar eski sınırlarla (Boğdan ve öbür Osmanlı toprakları ile) ayrılır, genişleme/daralma yok — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Eski dostluk yenilenir, düşmanlık sona erer; Lehistan eyaletlerinin sınırı, Boğdan ve öbür Osmanlı toprakları karşısında eski hudutlarla ayrılır. Sınır hiçbir tarafta genişletilemez ya da daraltılamaz.",
    "yer": [
@@ -1132,8 +1152,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 2",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. II: «ante penultimum Bellum» = sondan bir önceki savaştan önceki eski Boğdan sınırları içindeki Leh elindeki kale/yerler boşaltılır; Boğdan son savaş öncesi hâline döner. ÇELİŞKİ DEĞİL, ÖZET HATASI: 1732 metni de «before the last War but one» der; önceki özet «son savaştan önceki» yazıyordu, DÜZELTİLDİ. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
-   "ozet": "Son savaştan önceki eski Boğdan hudutları içinde bugüne dek Lehlilerin elinde bulunan bütün kaleler boşaltılır; Boğdan savaş öncesi sulh hâliyle tamamen serbest kalır.",
+   "ozet": "Sondan bir önceki savaştan önceki eski Boğdan hudutları içinde bugüne dek Lehlilerin elinde bulunan bütün kale ve yerler boşaltılır; Boğdan son savaş öncesindeki sulh hâliyle tamamen serbest kalır.",
    "yer": [
     "Boğdan"
    ],
@@ -1143,8 +1164,9 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 3",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. III: Kamaniçe «iki son savaştan önceki» eski Lehistan sınırları içinde, Osmanlı boşaltır; Podolya ve Ukrayna'dan talep yok; boşaltma Mart başında başlar, en geç 15 Mayıs; Leh elçisi bırakılan toplar için başvurur. ÇELİŞKİ (kısmî): Dumont Latince metni «Ukraine Kosacorum Hatmani nomine substitutus, qui modo in Moldavia residet Hatmanus, amoveatur» cümlesini içerir (Kazak hetmanı görevden alınır; TDV özetiyle de örtüşür); 1732 İngilizce çevirisinde bu cümle YOK. Hakemli karar: metin tarafından taşınan cümle (Dumont) + TDV özeti, tek çeviri atlamasına karşı — cümle özete EKLENDİ (md. 3), 1732 çevirisinin cümleyi atlamış olması esas alındı; Osmanlı/Leh özgün nüshası okunmadı. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
-   "ozet": "Kamaniçe, eski Lehistan sınırları içinde olduğundan Osmanlı tarafından tamamen boşaltılır; Babıali Podolya ve Ukrayna'dan bir daha talepte bulunmaz. Boşaltma Mart başında başlayıp en geç 15 Mayıs'ta biter; ahali eşyasıyla gitmekte ya da kalmakta serbesttir.",
+   "ozet": "Kamaniçe, eski Lehistan sınırları içinde olduğundan Osmanlı tarafından tamamen boşaltılır; Babıali Podolya ve Ukrayna'dan bir daha talepte bulunmaz. Boşaltma Mart başında başlayıp en geç 15 Mayıs'ta biter; ahali eşyasıyla gitmekte ya da kalmakta serbesttir. Ukrayna Kazaklarının hetmanı olarak atanıp o sırada Boğdan'da bulunan hetman görevden alınır (cümle Dumont'un Latince metninde var, 1732 çevirisinde yok).",
    "yer": [
     "Kamaniçe",
     "Podolya",
@@ -1157,6 +1179,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 4",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. IV: Osmanlı tebaası ve Tatarlar Leh sınırına saldırmaz; vezirler, beylerbeyleri, Kırım Hanı ve Boğdan voyvodasına ferman; ihlalciler cezalanır, yağma iade, Lehliler de uyar — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Osmanlı tebaası, özellikle Tatarlar, Lehistan sınırına saldırmaz, esir ve sığır almaz; vezirler, beylerbeyleri, Kırım Hanı ve Boğdan voyvodası fermanla uyarılır. İhlal edenler cezalanır, yağma geri verilir; Lehliler de barışa uyar.",
    "yer": [
@@ -1169,6 +1192,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 5",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. V: Lehistan Krallığı eskiden beri hür, hiçbir iddiayla rahatsız edilmez — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Lehistan Krallığı eskiden beri hür olduğundan Osmanlı ya da tâbi milletler hiçbir iddia ileri sürerek onu rahatsız edemez; bu barışa dayanarak da kendisine hiçbir talep yöneltilemez.",
    "yer": [],
@@ -1178,6 +1202,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 6",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. VI: Bucak Tatarları Boğdan'da yağma yaptığından, Boğdan'daki yerlerden çıkarılıp kendi yurtlarına döner — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Bucak Tatarları ve öbürleri savaşta Boğdan'a akın edip yağma yaptığından, Boğdan'da sahip oldukları ya da yeni yaptıkları bütün yerlerden çıkarılır ve kendi yurtlarında barış içinde yaşarlar.",
    "yer": [
@@ -1190,6 +1215,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 7",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452 md. VII: Katolik rahipler önceki fermanlara göre görevlerine devam; elçi din konusunda ek başvuru yapar — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Roma Katolik rahipler, Osmanlı ülkesinde önceki fermanlara göre kiliselerine ve görevlerine rahatsız edilmeden devam eder; Lehistan elçisi din konusunda ayrıca başvuru yapabilir.",
    "yer": [],
@@ -1199,6 +1225,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 8",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 452-453 md. VIII: tüccarlar açık yoldan gider gelir, eski gümrük, yeni vergi ve nakit gümrük yok; Lehistan-Litvanya tebaasından «haraç» alınmaz; miras ve borç hükümleri — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Her iki tarafın tüccarı açık yoldan gelip gider, eski gümrük resmini öder; yeni vergi ve nakit alınamaz. Lehistan-Litvanya tebaasından haraç alınmaz; ölen tüccarın malı mirasçıya gider, borç yalnız yazılı belgeyle tahsil edilir.",
    "yer": [],
@@ -1208,6 +1235,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 9",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 453 md. IX: esirler fidyeyle, uzun hizmette indirimle; barış sonrası alınanlar bedelsiz; hapishane esirleri karşılıklı değişir — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Savaşta tutulan esirler yasaya göre belirlenen fidyeyle serbest kalır; uzun süre hizmet etmiş olanın fidyesi indirilir, ihtilafı yerel hâkim çözer. Barıştan sonra alınanlar bedelsiz bırakılır; hapishanelerdeki esirler karşılıklı değişilir.",
    "yer": [],
@@ -1217,6 +1245,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 10",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 453 md. X: barışla elde edilen kalır; Boğdan voyvodası dost, Boğdan/Eflak kaçakları kabul edilmez; Leh tebaası (Kazaklar dahil) karışıklık çıkarırsa barındırılmaz — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Kralın barışla elde ettiği her şey yürürlükte kalır; Boğdan ve Eflak eskisi gibi Lehistan'la dosttur, oradan gelen kaçaklar kabul edilmez. Lehistan tebaası Kazaklar da dahil karışıklık çıkarırsa barındırılmaz, geri gönderilir.",
    "yer": [
@@ -1229,6 +1258,7 @@ window.ANTLASMA_MADDELERI.push({
   {
    "no": "Lehistan md. 11",
    "taraf": "Lehistan",
+   "kaynak": "İKİNCİ KAYNAK (madde düzeyinde okundu, 14.11.2026): Dumont, Corps universel diplomatique, t. VII/2 (1731), Lehistan belgesi (CCIX), s. 453 md. XI: önceki ahidnamelerin aykırı olmayan şartları geçerli, aykırılar iptal; 30 gün duyuru; önce Leh elçisi onay mektubuyla, sonra büyük elçi — UYUMLU. BİRİNCİ KAYNAK: A General Collection of Treatys IV (1732). Dumont Latince/İtalyanca/Fransızca neşirdir, 1732 çevirisi ise İngilizcedir; 1732 çevirisinin dayandığı nüsha belirtilmediğinden tam bağımsızlık kanıtlanamaz (md. 3 hetman cümlesi yalnız Dumont'ta olduğundan ortak türev değil).",
    "bolum": "Osmanlı–Lehistan (26 Ocak 1699)",
    "ozet": "Önceki ahidnamelerin bu antlaşmaya aykırı olmayan şartları geçerli, aykırı olanlar iptal edilir. Barışın duyurulması için 30 gün tanınır; önce Lehistan'dan bir elçi onay mektubuyla Babıali'ye gelir, ardından daimî elçi antlaşmayı tazelemeye gider.",
    "yer": [],
