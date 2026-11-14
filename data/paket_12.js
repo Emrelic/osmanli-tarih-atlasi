@@ -3003,6 +3003,23 @@ window.OLAYLAR_2S0920 = [
   d:"Borneo harekâtı sırasında küçük bir Japon kuvveti, savunulmayan Labuan Adası'na çıkıp onu ele geçirdi; ada Ocak 1942'den Eylül 1945'e kadar Japon askerî işgalinde kaldı. Gün kaynaklarda 1 ya da 3 Ocak olarak değişir (bkz. ic_not).",
   kaynak:"Percival, Malaya Komutanlığı harekât raporu (London Gazette eki; 'Operations of Malaya Command', Borneo ve Christmas Adası bölümü, fepow.family aynasından okundu) — AYNEN: \"On the 3rd January, 1942, a small Japanese force took possession of the Island of Labuan, which was not defended.\" · Rosdianah Yacho & Arshad Islam, 'The Effects of Japanese Occupation in Sabah', Intellectual Discourse 28/2 (2020): 1 Ocak 1942 (BorneoHistory.net özetinden; makale okunmadı) · hassasiyet: AY",
   ic_not_d:"ÇELİŞKİ 1 Ocak ↔ 3 Ocak 1942: Percival raporu (resmî) 3 Ocak der; Yacho & Islam 1 Ocak der ve bu tarih Vichy radyosunun Berlin'e dayandırdığı duyuruya bağlanıyor (propaganda olabilir). Bağımsız ikinci akademik kaynak bulunamadığından gün seçilmedi, ay hassasiyeti. Eski kayıt (Labuan, 1942-02-15) Singapur'un düştüğü güne bağlıydı — Labuan'a özgü değildi." },
+// ── 224 · Hürmüzgân: Part → Sâsânî (Isfahan) ─────────────────────────
+{ tur:"savas", bolge:1, t:"0224-04-28", k:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Isfahan",
+  b:"Hürmüzgân Savaşı: Erdeşîr Part hükümdarı V. Erdevân'ı yendi — Isfahan Sâsânî çekirdeğine girdi",
+  gun:"28 Nisan 224", yer:"Isfahan",
+  kisiler:"Erdeşîr-i Bâbekân; V. Erdevân (Artabanus)", etiket:["siyasi","savas","konu-askeri","konu-siyasi"],
+  d:"Fars'ta mahallî hükümdar Erdeşîr, Hürmüzgân'da Part hükümdarı V. Erdevân'ı yendi; Part (Eşkânî) hânedanı çöktü ve Sâsânî hânedanı yükseldi. Atlas Isfahan'ı bu günden itibaren Sâsânî toprağı sayar.",
+  kaynak:"TDV `erdesir` (Tahsin Yazıcı) — arama parçası AYNEN: \"Erdeşîr, 28 Nisan 224’te Medler…\"; madde gövdesi: Hürmüzcân (Medya) zaferi 28 Nisan 224, hükümdarlığını aynı yıl ilân etti; bazı kaynaklarda resmen 226'da Medâin'de tahta çıktı · TDV `sasaniler`: \"Erdeşîr 224’te Hürmüzdegân’da Part Hükümdarı V. Erdevân’ı (Artabanus) yenilgiye uğrattı\" · hassasiyet: GÜN",
+  ic_not_d:"D2s-ACIK-1114 (TDV okundu 14 Kasım 2026): GÜN TDV erdesir'den; atlas kırılması 0224-04-28 ile aynı gün. TDV `isfahan` Part→Sâsânî geçişini ve tarihini ANMAZ (yalnız \"Sâsânî döneminde önemli gelişme\", Yahudi cemaati); Isfahan'ın bu günde Sâsânî'ye geçtiği atlasın künye çıkarımıdır (BEYANLI YAKLAŞIKLIK) — savaş günü kaynaklı, Isfahan'a özgü teslim günü kaynaksız. TDV sasaniler taç giyme yılını 226 verir (resmî tahta çıkış); atlasın 224 künyesi savaş günüdür." },
+
+// ── 1405 · Timur'un ölümü (Muş) ──────────────────────────────────────
+{ tur:"hanedan", bolge:4, t:"1405-02-18", k:"taht", onem:4, dunya:4, kapsam:"dis", yer_id:"Muş",
+  b:"Timur Otrar'da öldü — atlasta Muş'un Timur idaresi bu günde bitiyor",
+  gun:"18 Şubat 1405", yer:"Muş, Otrar",
+  kisiler:"Timur", etiket:["siyasi","konu-siyasi","konu-hanedan"],
+  d:"Çin seferine çıkan Timur Sır Derya'yı buzların üstünden geçip Otrar'a vardı, orada hastalanarak öldü ve Semerkant'taki türbesine defnedildi; imparatorluğu oğulları ve torunları arasında bölündü. 1387'de Timur idaresine giren Muş'un Timur'a bağlılığı atlasta bu günde sona erer.",
+  kaynak:"TDV `timur` — AYNEN: \"fakat burada hastalanarak 17 Şâban 807’de (18 Şubat 1405) öldü ve Semerkant’taki türbesine defnedildi.\" · TDV `mus` — AYNEN: \"Moğol döneminin ardından Karakoyunlu yönetimine geçen Muş, 789’da (1387)\" … \"Timur’un idaresi altına girdi.\" · hassasiyet: GÜN (ölüm günü)",
+  ic_not_d:"D2s-ACIK-1114 (TDV okundu 14 Kasım 2026): ölüm günü TDV timur'dan, atlas kırılması 1405-02-18 ile aynı. AMA TDV `mus` ve `timur` Muş'un Timur'dan Karakoyunlu'ya GEÇİŞ gününü vermez; TDV `karakoyunlular`: Kara Yusuf Receb 807/Ocak 1405'te Şam hapsinden çıktı, \"808 Muharreminde (Temmuz 1405)\" yurduna dönmek üzere yola çıktı, Avnik'i alarak Doğu Anadolu topraklarını geri aldı — yani Muş'un fiilî devri ölümden aylar sonradır. Muş'un 18 Şubat'ta Karakoyunlu'ya geçmesi atlasın beyanlı yaklaşıklığıdır (bitiş günü hükümdarın ölümüne bağlandı); madde yalnız ölüm gününü tanıklar. Yıl düzeyi: Karakoyunlu→Timur 1387 (TDV mus)." },
 
 ];
 
