@@ -7079,6 +7079,16 @@ window.DEVLETLER = [
     { odak_yer:["Floransa"], t:"1406-10-09", tur:"son", b:"Floransa şehri kuşatıp ilhak etti" }
   ]
 },
+{ id:"piza-ikinci-cumhuriyet", ad:"Pisa İkinci Cumhuriyeti (1494-1509)", tur:"cumhuriyet", bolge:"italya",
+  f:"1494-11-09", ic_not_f:"9 Kasım 1494: Pisa halkının Floransa yönetimini devirip özgürlüğünü ilan ettiği gün (York Üniversitesi, 'Machiavelli and the Pisan War: Political Crisis and Cultural Creativity in Renaissance Florence, 1494-1509' özeti); gün düzeyi doğrudan akademik monografiden okunmadı (HAVVA-1113 raporu)", t:"1509-06-08", ic_not_t:"8 Haziran 1509: kıtlık ve kuşatma sonunda Pisa'nın Floransa'ya teslimi (Encyclopaedia Britannica 11. basım 'Pisa'); SNS Piazza dei Cavalieri 'Early Modern Period' yalnız 1509 verir", baskent:"Pisa", harita:"piza-ikinci-cumhuriyet",
+  ozet:"VIII. Charles'ın İtalya seferi sırasında Floransa yönetimini devirip Fransız himayesinde bağımsızlığını ilan eden Pisa, on beş yıl kuşatmaya direndi; 1509'da kıtlıkla Floransa'ya teslim oldu.",
+  kaynak:"Treccani Enciclopedia Italiana 'Pisa' (treccani.it/enciclopedia/pisa_(Enciclopedia-Italiana)/) — «Alla calata di Carlo VIII (1494), Pisa rivendica la libertà sotto la protezione francese ... si difende quindici anni tenacemente»; Encyclopaedia Britannica 11. basım 'Pisa' (8 Haziran 1509); SNS Piazza dei Cavalieri, 'Early Modern Period' (piazzadeicavalieri.sns.it); York Üniversitesi, Machiavelli and the Pisan War özeti (9 Kasım 1494). TDV: islamansiklopedisi.org.tr/arama/?q=pisa arandı (14.11.2026) — Pisa şehri/cumhuriyeti maddesi yok (yalnız Pisagor).",
+  ic_not:"emrelic-1113-tuz39 (KOŞU 39 hazırlık, 14 Kasım 2026): KOSU39-BORC #8. `piza` künyesi t=1406-10-09 ile ölmüş devlettir; 1494-1509 yeniden kurulan polity için ayrı künye açıldı (aynı kuruma iki kimlik değil: 1406-1494 arası Floransa egemenliği kesintisi var). Kaynaklar HAVVA-1113 İtalya-veri raporunda okundu, bu oturumda yeniden doğrulanmadı. Gün uçları: f York özeti, t EB 1911; çift bağımsız akademik teyit yok.",
+  kronoloji:[
+    { odak_yer:["Pisa"], t:"1494-11-09", tur:"kurulus", b:"Pisa, VIII. Charles'ın seferi sırasında Floransa yönetimini devirip Fransız himayesinde özgürlüğünü ilan etti.", kaynak:"York Üniversitesi, Machiavelli and the Pisan War özeti (9 Kasım 1494); Treccani, Pisa (Enciclopedia Italiana)" },
+    { odak_yer:["Pisa"], t:"1509-06-08", tur:"son", b:"Kıtlık ve kuşatma sonunda Pisa Floransa'ya teslim oldu; İkinci Pisa Cumhuriyeti sona erdi.", kaynak:"Encyclopaedia Britannica 11. basım, Pisa (8 Haziran 1509); SNS Piazza dei Cavalieri, Early Modern Period" }
+  ]
+},
 { id:"luksemburg", ad:"Lüksemburg Büyük Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
   f:"1890-11-23", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lüksemburg Şehri", harita:"luksemburg",
   ozet:"Hollanda kraliyet hanedanının erkek varisi kalmayınca Nassau-Weilburg koluna geçen, Hollanda'dan ayrı bağımsız büyük dükalık (1923 sonrasında da sürdü, I. Dünya Savaşı'nda Alman işgaline uğradı). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
