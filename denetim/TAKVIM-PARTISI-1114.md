@@ -180,3 +180,10 @@ Yeni (Gregoryen) gunde ZATEN kirilma bulunanlar (ana madde tasinirsa TUTARLI olu
 - Bulgaristan (1916), Sirbistan/Romanya (1919) tarafli 1916-1919 kayitlari yalniz notlulari tarandi; notsuzlar BELIRSIZ evrende.
 - Kirilma taramasi yerlesimler*.js d:/s:/kd: icindeki f/t degerlerini tam eslestirir (+-30 gun yakin sayilari ham veridedir, tabloya alinmadi); kirilmanin kaynaginin Julyen gune dayandigi, kirilma `kaynak:` metninden okunmadi — yalniz AYNI t degerinin tasindigi olculdu.
 - denetle/antlasma_dogrula/paketle/surum_damgala kosturulmadi; ana checkout'ta Degismez 2 olculmedi.
+
+## 8. PARTI 2 durumu (umit-1113-takvim2)
+
+UYGULANDI (15 olay, kronoloji_rusya + yer_yama + etiket_yama; Hive icin kronoloji_ozbek yansimasi): TK-RUS-044/045 (1725-02-08), 060, 062, 075, 080, 095, 105, 109, 113, 116, 123, 139, 148, 149, 150. Kaynak prlib.ru, hakemli ikinci kaynak okunmadi (ic_not_gun beyanli).
+BELIRSIZ BIRAKILDI (KASA karari: hakemsiz kaynak): TK-RUS-073 (yalniz Runivers); Yunan kayitlari YUN-126B/174B (1821-03-25, Vikipedi+sigmalive), 161B (Atina 1833, protothema), 54A, 56A, 58A, 59A, 63A, 69A, 73A (kaynak yok/ham), 24A (Sisam, Vikipedi); TK-RUS-152 (butce asildi, ertelendi).
+ERTELENDI (bagimlilik agi buyuk): YUN-153B Bozcaada/Imroz 1913-11-01: yerlesimler.js (satir 690-691), yer_yama*.js, ekokuma_antlasma4, ekokuma_p76c, bolge_pencere, donemler_ust/devlet_harita_ust (uretilmis), 6 dil ceviri anahtari; kaynak FRUS belge neşri (1/14 Nov 1913) ama ayri parti ister.
+Kalan AÇIK/uygulanmamis: 48 satirdan 15 parti 1 (002,003,004,012,019,028,039,040,043, Stolbovo x3, Tambov, Aynalikavak, Yedi Ada) + 16 parti 2 = 31 uygulandi; 17 kalir (Y-01, Y-03, TK-RUS-011 BELIRSIZ; 073, 152; 12 Yunan satiri 126B,174B,161B,54A,56A,58A,59A,63A,69A,73A,24A,153B).
