@@ -107,13 +107,13 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 1547 gün). Çeviri işi site bitince (Emre, 13 Kasım). Eski: eksik arayuz 48, olay en/ar/es/de 325, pt 1439, ru 3532, fr 4432;
 # bayat olay en/ar/es/de 72, pt 57, ru 31, fr 7.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 62, "devlet": 2, "olay": 358},
-    "ar": {"arayuz": 62, "devlet": 2, "olay": 358},
-    "es": {"arayuz": 62, "devlet": 2, "olay": 358},
-    "de": {"arayuz": 62, "devlet": 2, "olay": 358},
-    "pt": {"arayuz": 62, "devlet": 2, "olay": 1471},
-    "ru": {"arayuz": 62, "devlet": 2, "olay": 3563},
-    "fr": {"arayuz": 62, "devlet": 2, "olay": 4463},
+    "en": {"arayuz": 65, "devlet": 2, "olay": 364},
+    "ar": {"arayuz": 65, "devlet": 2, "olay": 364},
+    "es": {"arayuz": 65, "devlet": 2, "olay": 364},
+    "de": {"arayuz": 65, "devlet": 2, "olay": 364},
+    "pt": {"arayuz": 65, "devlet": 2, "olay": 1477},
+    "ru": {"arayuz": 65, "devlet": 2, "olay": 3569},
+    "fr": {"arayuz": 65, "devlet": 2, "olay": 4469},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).

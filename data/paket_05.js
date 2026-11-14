@@ -362,7 +362,7 @@ window.DEVLETLER = [
     { t:"1696-07-18", tur:"toprak-kazanc", b:"I. Petro Azak'ı aldı" },
     { t:"1700-01-01", tur:"savas", b:"Büyük Kuzey Savaşı — İsveç'i yenip Baltık'a açıldı (1721'e dek)" },
     { t:"1711-07-21", tur:"toprak-kayip", b:"Prut'ta Osmanlı'ya yenildi, Azak geri verildi" },
-    { t:"1721-10-22", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi" },
+    { t:"1721-11-02", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi" },
     { t:"1774-07-21", tur:"toprak-kazanc", b:"Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı" },
     { t:"1783-04-19", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1783-04-08 (Kırım'ın ilhakı; TDV kirim '8 Nisan 1783', eski takvim) = Gregoryen 1783-04-19", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
     { t:"1812-05-28", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1812-05-16 (Bükreş Antlaşması; ESBE «Бухарестский мир» 'подписан 16 мая 1812 г.', eski takvim) = Gregoryen 1812-05-28 (TDV bukres-antlasmasi)", tur:"toprak-kazanc", b:"Bükreş Antlaşması ile Besarabya alındı" },
