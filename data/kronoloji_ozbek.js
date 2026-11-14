@@ -8,7 +8,7 @@
 //   1569-01-01 Osmanlı'nın Astrahan seferi (kronoloji_rusya.js, dunya:2)
 //   1865-06-29 Taşkent'in fethi            (kronoloji_rusya.js, dunya:2)
 //   1868-06-02 Buhara himayeye alındı       (kronoloji_rusya.js, dunya:2)
-//   1873-08-12 Hîve himayeye alındı         (kronoloji_rusya.js, dunya:2)
+//   1873-08-24 Hîve himayeye alındı         (kronoloji_rusya.js, dunya:2)
 //   1876-02-19 Hokand ilhak edildi         (kronoloji_rusya.js, dunya:2)
 // Bu altı olayın `dunya` değeri KASITLI OLARAK kopyalandı — M-0873/M-0885'in
 // "aynı olay farklı dosyada farklı dunya = KUSUR" kuralı.
@@ -443,7 +443,7 @@ window.KRONOLOJI_OZBEK = [
   d:"Rus istilasının arifesinde tahta çıkan Seyyid Muhammed Rahim Bahadır Han, hanlığın Rus himayesine girişine (1873) ve devamında kırk altı yıl sürecek saltanatına şahitlik etti.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ odak_yer:["Hîve"], taraflar:["hive"], t:"1873-08-12",
+{ odak_yer:["Hîve"], taraflar:["hive"], t:"1873-08-24", gun:"24 Ağustos 1873 (Jülyen 12 Ağustos)", ic_not_gun:"TAKVİM-PARTİSİ-1114-2: kaynak günü Jülyen (eski üslup; kaynak parantezde Gregoryen karşılığını da verir). 1582-10-15 sonrası atlas günü Gregoryen: 12 Ağustos 1873 Jülyen = 24 Ağustos 1873 Gregoryen (+12). Kaynak: Rusya Devlet Başkanlığı Kütüphanesi (prlib.ru/history/619484) «12 (24) августа 1873 г. … подписали мирный договор между Россией и Хивинским ханством» (cümle TAKVİM-1104 teslimindeki alıntıdan alındı, sayfa bu turda yeniden okunmadı). Hakemli ikinci kaynak OKUNMADI (kayıttaki kaynak Riasanovsky & Steinberg, sayfası okunmadı) ⇒ çift teyit yok. Gendemiyan Antlaşması imza günü. Eski atlas günü 1873-08-12 Jülyen günüydü.",
   b:"Hîve Hanlığı Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],

@@ -1,5 +1,5 @@
 // ============================================================================
-// ANTLAŞMA MADDELERİ — YEDI ADA CUMHURIYETI (1800-03-21) · 13 adım
+// ANTLAŞMA MADDELERİ — YEDI ADA CUMHURIYETI (1800-04-02; Julyen 21 Mart) · 13 adım
 // Üretildi: denetim/ANTLASMA-ARAC/uret_antlasma.js · tüketici: js/antlasma_oynatici.js
 // Özetler ham metinden, kendi cümlemizle (kopya yok). Kaynak/beyan: kayıt.kaynak.
 // `yerler`: ad → [boylam, enlem] YAKLAŞIK odak noktası (sınır çizgisi değil).
@@ -8,7 +8,7 @@ window.ANTLASMA_MADDELERI = window.ANTLASMA_MADDELERI || [];
 window.ANTLASMA_MADDELERI.push({
  "id": "yedi-ada-1800",
  "ad": "Yedi Ada Cumhuriyeti",
- "t": "1800-03-21",
+ "t": "1800-04-02",
  "kadraj": [
   18,
   36,
@@ -20,7 +20,7 @@ window.ANTLASMA_MADDELERI.push({
  ],
  "onceki_t": "1799-10-30",
  "eslesme_kipi": "acik",
- "kaynak": "Ham metin OKUNDU: Convention avec la Russie concernant les Îles Ioniennes (Yedi Ada Cumhuriyeti'nin kuruluş sözleşmesi), signée à Constantinople le 21 mars 1800 (8 Zilkade 1214) (giriş + md. 1-12 + imza) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 11 (archive.org recueildactesin01turkgoog, OCR; sayfa sırası OCR'da karışık: md. 1-2 s.39, md. 3-5 s.38, md. 5 sonu-8 s.39, md. 9-12 s.40; 12 madde sayısı TDV'nin 'twelve-article' tanımıyla da uyumlu; md. 4 tutarı OCR'da '73.000' okunuyor, TDV 75.000 kuruş verir — adımda ikisi birlikte beyan edildi). İki taraflı (Rusya-Osmanlı). GÜN VE TAKVİM — BEYAN: Noradounghian ve TDV 'Yedi Ada Cumhuriyeti' (islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti, madde tam gövdeli; Ali Fuat Örenç) aynı günü '21 Mart 1800' verir; ancak Hicrî 8 Zilkade 1214 tablo hesabıyla 2-3 Nisan 1800 Gregoryen'e denk gelir (1 Zilkade 1214 ≈ 27 Mart 1800), yani 21 Mart Rus (Jülyen/Eski Üslup) günü olması güçlü olasılıktır (Jülyen 21 Mart 1800 = Gregoryen 2 Nisan 1800). CLAUDE.md 'Takvim' kuralına göre atlas günü Gregoryen olmalı → 2 Nisan 1800 ÖNERİLİR; ancak kronoloji maddesi t:1800-03-21 bu çalışmada DEĞİŞTİRİLMEDİ (Değişmez 2 sınır kırılması riski; karar KASA/EMRELİC). Eşleşme ±60 gün içinde olduğundan oynatıcı etkilenmez. Hurewitz, Martens, Düstur OKUNMADI. Atlas kaynak sayılmadı.",
+ "kaynak": "Ham metin OKUNDU: Convention avec la Russie concernant les Îles Ioniennes (Yedi Ada Cumhuriyeti'nin kuruluş sözleşmesi), signée à Constantinople le 21 mars 1800 (8 Zilkade 1214) (giriş + md. 1-12 + imza) — Fransızca, G. Noradounghian, Recueil d'actes internationaux de l'Empire ottoman, c. II (1789-1856), Paris 1900, Textes n° 11 (archive.org recueildactesin01turkgoog, OCR; sayfa sırası OCR'da karışık: md. 1-2 s.39, md. 3-5 s.38, md. 5 sonu-8 s.39, md. 9-12 s.40; 12 madde sayısı TDV'nin 'twelve-article' tanımıyla da uyumlu; md. 4 tutarı OCR'da '73.000' okunuyor, TDV 75.000 kuruş verir — adımda ikisi birlikte beyan edildi). İki taraflı (Rusya-Osmanlı). GÜN VE TAKVİM — BEYAN: Noradounghian ve TDV 'Yedi Ada Cumhuriyeti' (islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti, madde tam gövdeli; Ali Fuat Örenç) aynı günü '21 Mart 1800' verir; ancak Hicrî 8 Zilkade 1214 tablo hesabıyla 2-3 Nisan 1800 Gregoryen'e denk gelir (1 Zilkade 1214 ≈ 27 Mart 1800), yani 21 Mart Rus (Jülyen/Eski Üslup) günü olması güçlü olasılıktır (Jülyen 21 Mart 1800 = Gregoryen 2 Nisan 1800). CLAUDE.md 'Takvim' kuralına göre atlas günü Gregoryen olmalı → 2 Nisan 1800 SEÇİLDİ (TAKVİM-PARTİSİ-1114: ana madde olaylar_ek17 t=1800-04-02; TDV Korfu '3 Nisan' = aynı hicrî günün sivil-tablo çevirisi, bkz. ana madde ic_not_gun; devletler.js ve yerlesimler.js kırılmaları denetim/YERLESIMLER-JS-KUYRUK-1114.md'de beklemede). Eşleşme ±60 gün içinde olduğundan oynatıcı etkilenmez. Hurewitz, Martens, Düstur OKUNMADI. Atlas kaynak sayılmadı.",
  "yerler": {
   "Korfu": [
    19.92,
