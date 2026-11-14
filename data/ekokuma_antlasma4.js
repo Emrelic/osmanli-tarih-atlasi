@@ -619,7 +619,7 @@ window.EKOKUMA_ANTLASMA4 = [
   baslik:"Aynalıkavak Tenkihnâmesi (1779)",
   kisa:"Küçük Kaynarca'nın 'bağımsız Kırım'ı bir savaşa dönüşmek üzereydi; bir açıklama metni savaşı erteledi ama Kırım'ı Rusya'ya bir adım daha yaklaştırdı.",
   sebep:{ b:"Kırım hanlığına Rusya'nın Şâhin Giray'ı, Osmanlı'nın III. Selim Giray'ı çıkarmak istemesi", t:"1778" },
-  sonuc:{ b:"Aynalıkavak Kasrı'nda Tenkihnâme", t:"1779-03-10" },
+  sonuc:{ b:"Aynalıkavak Kasrı'nda Tenkihnâme", t:"1779-03-21" },
   bag:"Önemi: TDV'ye göre bu antlaşmayla Ruslar yalnız Kırım'da değil, Balkanlardaki bütün Hıristiyan ve özellikle Ortodoks tebaa üzerindeki hâmi rollerini de güçlendirdiler. Osmanlı'nın Rus adayını han tanıması, dört yıl sonraki ilhakın (1783) önünü açtı.",
   surec:"1774 Küçük Kaynarca Antlaşması Kırım'ı bağımsız ilân etmişti. Ruslar Şâhin Giray'ı hanlığa getirmek istedi; I. Abdülhamid ona hanlık menşuru göndermeyip III. Selim Giray'ı han yapmak istedi. Şâhin Giray, Kefe ve öteki limanları işgal eden Rusların desteğiyle 1777 kışında duruma hâkim oldu ve 1778'de III. Selim Giray'ın teşebbüslerini boşa çıkardı; pek çok Kırımlı Osmanlı topraklarına göç etti. İki devlet savaşın eşiğine gelmişken Fransızlar araya girdi. İki devletin temsilcileri, Küçük Kaynarca'nın bazı maddelerini açıklığa kavuşturmak için İstanbul'da Haliç kıyısındaki Aynalıkavak Kasrı'nda bir araya geldi.",
   hukumler:[
@@ -633,9 +633,9 @@ window.EKOKUMA_ANTLASMA4 = [
   metin:"TDV şâhin-giray maddesine göre tenkihnâme Şâhin Giray için önemli bir başarıydı, çünkü Ruslar da kuvvetlerini çekmişti; ama han halkın desteğini kazanmak yerine reformlarını hızlandırdı. Rusların asıl amacı artık Kırım'da doğrudan hâkimiyetti ve Rusya 1783'te yarımadayı ilhak etti. Osmanlı ise Rus siyasetine karşı Kafkasya'nın güneyini nüfuzu altına almayı düşünerek Doğu Karadeniz'de Soğucak ve Anapa kalelerini tamir ve tahkim etti.",
   kesinlik:"kesin",
   zincir:[],
-  olay:["1779-03-10|Aynalıkavak"],
+  olay:["1779-03-21|Aynalıkavak"],
   kaynak:"TDV: abdulhamid-i (menşur meselesi, Fransız aracılığı, Aynalıkavak Kasrı, hükümler, Rus hâmiliğinin güçlenmesi, Soğucak-Anapa) · TDV: sahin-giray (1777-1778 olayları, göç, 1779'da hanlığın tanınması, Rus askerinin çekilmesi) · TDV: aynalikavak-sarayi (Küçük Kaynarca maddelerinin açıklığa kavuşturulması için görüşmeler)",
-  ic_not:"TDV yalnız YIL veriyor (1779); madde t:1779-03-10 gün kaynaksız. Mora iadesi hükmü TDV'de 'Küçük Kaynarca Antlaşması'yla Mora'da ele geçirilen arazi' diye geçiyor; kartta anlam korunarak özetlendi." },
+  ic_not:"TDV yalnız YIL veriyor (1779); madde t:1779-03-21 (Jülyen 10 Mart 1779 = Gregoryen 21 Mart; bkz. olaylar_ek5 ic_not_gun). Mora iadesi hükmü TDV'de 'Küçük Kaynarca Antlaşması'yla Mora'da ele geçirilen arazi' diye geçiyor; kartta anlam korunarak özetlendi." },
 
 // ── 1790 OSMANLI-PRUSYA İTTİFAKI ───────────────────────────────────────────
 { id:"antlasma4-prusya-1790", tur:"sebep-sonuc",

@@ -181,7 +181,7 @@ window.EKOKUMA_TARTISMA = [
   not:"İdamın günü kaynakta yalnız \"Ağustosun ikinci haftası\" diye verilir. Konunun başlıca akademik incelemesi olarak TDV bibliyografyası Alan Fisher'ın 'The Russian Annexation of the Crimea 1772-1783' (Cambridge 1970) kitabını ve aynı yazarın Şahin Giray üzerine 1998 tarihli makalesini gösterir.",
   kesinlik:"tartismali",
   zincir:[],
-  olay:["1779-03-10|Aynalıkavak","1783-04-19|Kırım"],
+  olay:["1779-03-21|Aynalıkavak","1783-04-19|Kırım"],
   kaynak:"TDV: sahin-giray (Feridun Emecen, 2010)" },
 
 // ══ EKO-TARTISMA (18 Eylül 2026) · DALGA-0067 H-0004 · DALGA-0068 H-0016 + H-0021 ═══
