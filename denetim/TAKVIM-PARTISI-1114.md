@@ -187,3 +187,20 @@ UYGULANDI (15 olay, kronoloji_rusya + yer_yama + etiket_yama; Hive icin kronoloj
 BELIRSIZ BIRAKILDI (KASA karari: hakemsiz kaynak): TK-RUS-073 (yalniz Runivers); Yunan kayitlari YUN-126B/174B (1821-03-25, Vikipedi+sigmalive), 161B (Atina 1833, protothema), 54A, 56A, 58A, 59A, 63A, 69A, 73A (kaynak yok/ham), 24A (Sisam, Vikipedi); TK-RUS-152 (butce asildi, ertelendi).
 ERTELENDI (bagimlilik agi buyuk): YUN-153B Bozcaada/Imroz 1913-11-01: yerlesimler.js (satir 690-691), yer_yama*.js, ekokuma_antlasma4, ekokuma_p76c, bolge_pencere, donemler_ust/devlet_harita_ust (uretilmis), 6 dil ceviri anahtari; kaynak FRUS belge neşri (1/14 Nov 1913) ama ayri parti ister.
 Kalan AÇIK/uygulanmamis: 48 satirdan 15 parti 1 (002,003,004,012,019,028,039,040,043, Stolbovo x3, Tambov, Aynalikavak, Yedi Ada) + 16 parti 2 = 31 uygulandi; 17 kalir (Y-01, Y-03, TK-RUS-011 BELIRSIZ; 073, 152; 12 Yunan satiri 126B,174B,161B,54A,56A,58A,59A,63A,69A,73A,24A,153B).
+
+## 9. PARTI 3 durumu (umit-1113-takvim2)
+
+UYGULANDI (2 madde):
+- TK-RUS-152 kronoloji_rusya Romanov 300. yil: 1913-02-21 (J) -> 1913-03-06 (G, +13). Kaynak prlib.ru/item/438965 (KASA karari: kurumsal arsiv); kayit basligi TAKVIM-1104 alintisindan, sayfa yeniden okunmadi; hakemli ikinci kaynak yok (ic_not_gun beyanli). Anahtar: ceviri/olay_taraf/yer_yama/etiket_yama 0.
+- YUN-161B olaylar_ek6 Atina: 1833-03-31 (J) -> 1833-04-12 (G, +12). Kaynak W. St Clair, Who Saved the Parthenon? (Open Book Publishers 2022) bol. 13 + Finlay Journals and Letters I s.67 "12 April ... Bavarian troops took possession of the Acropolis". Anahtar: olaylar_ek6, yer_yama.js:106, ekokuma_antlasma4:780, 6 dil ceviri (1:1 yeniden adlandirma, idx 0). yerlesimler.js:495 Atina d t ucu KUYRUK'ta.
+
+HAZIRLIK (uygulanmadi): YUN-153B Bozcaada/Imroz, KUYRUK "TAKVIM parti 3" bolumu. FRUS 1913 ch.109 belge 1658: Atina antlasmasi 14 Kasim 1913 (G) imzalandi; ama belge adalarin donusunu dogrulamaz, TDV 16 Aralik 1913 karari der; gun alani "Kasim 1913" ay hassasiyeti. Hakemli karar gerekli.
+
+BELIRSIZ (10, hakemli gun yok):
+- YUN-126B/174B 1821-03-25: Beaton (Hellenic Society, Roderick Beaton, "The Greek Revolution of 1821: An Overview") baslangici 6 Mart 1821 G (22 Subat J, Prut gecisi) verir ve Agia Lavra 25 Mart sahnesini "almost certainly apocryphal" der; 25 Mart geleneksel bayram gunudur, olay baslangici gunu tartismali (17/21/25 Mart). Takvim degil olay tanimi sorunu; 19 yerlesim kirilmasi bagli. Hakemli karar ister.
+- YUN-54A Atina baskent 1834-09-18: 18/30 Eylul 1834 cift tarihi yalniz arama ozetinde (Genel Devlet Arsivi/Yunan), sayfa ve Cambridge/Bastea ornegi okunamadi.
+- YUN-56A 1843-09-03, 58A 1850-06-29, 59A 1862-10-10, 63A 1893-12-10, 69A 1901-11-08, 73A 1910-10-06: yalniz Vikipedi/haber/web ozeti; hakemli kaynak bulunamadi. 59A'da kaynaklar 10/11/22/23 Ekim arasi celisir; 73A'da bir kaynak Gregoryen 18 Ekim 1910 verir (atlas onerisi 19 Ekim ile celisir). 
+- YUN-24A Sisam 1912-11-11: yalniz Vikipedi (11/24 Kasim) ve Yunan portal sayfalari; hakemli kaynak yok.
+TDV (islamansiklopedisi.org.tr) bu makineden Cloudflare tarafindan engellendi, okunamadi.
+
+Toplam uygulanan: 2 (<=15). Kalan: Y-01, Y-03, TK-RUS-011, 073 BELIRSIZ; 10 Yunan BELIRSIZ; 153B hazirlik. denetle/paketle/surum_damgala kosturulmadi; node --check temiz.
