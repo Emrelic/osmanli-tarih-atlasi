@@ -3326,6 +3326,8 @@ BOYALAR = {
     "piza":          ("Piza Cumhuriyeti",          "#00600c"),
     # piza-ikinci-cumhuriyet (1494-11-09 → 1509-06-08): renk_olc --oner (3 komşu, 84 engel), en yakın engel ΔE 12,1 (KOŞU 39 hazırlık, emrelic-1113-tuz39)
     "piza-ikinci-cumhuriyet": ("Pisa İkinci Cumhuriyeti", "#182aea"),
+    # valais-cumhuriyeti (1802-09 → 1810-11-12): renk_olc --oner (3 komşu, 67 engel), en yakın engel ΔE 12,3 (KOŞU 39 hazırlık, emrelic-1113-tuz39)
+    "valais-cumhuriyeti": ("Valais (Rodan) Cumhuriyeti", "#1e2ae4"),
     "siena":         ("Siena Cumhuriyeti",         "#2478de"),
 
     # ═══ ZAPOROJYE — kullanıcı kararından doğdu, Parti 2'nin 16. kimliği ═══

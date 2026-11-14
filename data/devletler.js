@@ -7089,6 +7089,17 @@ window.DEVLETLER = [
     { odak_yer:["Pisa"], t:"1509-06-08", tur:"son", b:"Kıtlık ve kuşatma sonunda Pisa Floransa'ya teslim oldu; İkinci Pisa Cumhuriyeti sona erdi.", kaynak:"Encyclopaedia Britannica 11. basım, Pisa (8 Haziran 1509); SNS Piazza dei Cavalieri, Early Modern Period" }
   ]
 },
+{ id:"valais-cumhuriyeti", ad:"Valais (Rodan) Cumhuriyeti (1802-1810)", tur:"cumhuriyet", bolge:"orta-avrupa",
+  f:"1802-09-01", ic_not_f:"AY HASSASİYETİ: vallesiana.ch 5 Eylül 1802 der, en.wikipedia 28 Ağustos 1802 der (gün çelişkisi; Treccani Vallese yalnız «repubblica indipendente (1802-10)»); ay düzeyinde 1802-09 alındı, gün uydurulmadı (HAVVA-1113 Tirol-Sion dilimi)", t:"1810-11-12", ic_not_t:"12 Kasım 1810: Simplon départementı olarak Fransa'ya ilhak (vallesiana.ch Glossar Acte D; Treccani Vallese: «dipartimento francese del Sempione (1810-13)»); vs.ch: Napolyon ilhak kararı 3.11.1810, Valais Devlet Konseyi afişi 14.11.1810", baskent:"Sion",
+  harita:"valais-cumhuriyeti",
+  ozet:"Helvetik Cumhuriyeti'nden ayrılan Valais, Fransa'nın Simplon yolu üzerindeki çıkarı yüzünden nominal bağımsız bir cumhuriyet oldu; fiilen Fransız egemenliğinde kaldı ve 1810'da Simplon départementı olarak Fransa'ya katıldı.",
+  kaynak:"Treccani Enciclopedia Italiana 'Vallese' (https://www.treccani.it/enciclopedia/vallese/) — «poi furono repubblica indipendente (1802-10), quindi dipartimento francese del Sempione (1810-13), e infine di nuovo cantone, dal 1815 incorporato nella Confederazione»; Valais Kantonu (vs.ch) sanal sergi «Die Franzosenzeit und die Urkunde zum Beitritt des Wallis zur Eidgenossenschaft (1798–1815)» (nominal bağımsız, fiilen Fransız egemenliği); vallesiana.ch Glossar Acte D (12.11.1810 ilhak). Kaynaklar HAVVA-1113 raporunda okundu; HLS 'Wallis' 403 (okunamadı). TDV: islamansiklopedisi.org.tr/arama/?q=valais arandı (14.11.2026) — müstakil madde yok (yalnız İSVİÇRE ve İTALYA maddelerinde ad geçer; 1802-1810 tarihi okunmadı).",
+  ic_not:"emrelic-1113-tuz39 (KOŞU 39 hazırlık, 14 Kasım 2026): KOSU39-BORC #9. Sion ve Martigny'de 1802-09-01→1810-11-12 beyanlı __BOSLUK__ bu künyeyle kapandı; fransa-cumhuriyet (1810-11-12 →) ve helvetik-cumhuriyeti (→1802-09-01 dönem ucu) komşu uçları ölçüldü. isvicre DEĞİL: Valais Konfederasyon'a ancak 4.8.1815'te girdi. f ay düzeyindedir (gün çelişkisi 5 Eylül/28 Ağustos).",
+  kronoloji:[
+    { odak_yer:["Sion"], t:"1802-09-01", tur:"kurulus", b:"Valais nominal bağımsız Rodan (Valais) Cumhuriyeti olarak ilan edildi; fiilen Fransız egemenliğinde kaldı (ay düzeyinde; gün çelişkili).", kaynak:"Treccani, Vallese; vs.ch sanal sergi; vallesiana.ch (5 Eylül) / en.wikipedia (28 Ağustos) çelişkisi" },
+    { odak_yer:["Sion"], t:"1810-11-12", tur:"son", b:"Valais Simplon départementı olarak Fransa'ya katıldı; Rodan Cumhuriyeti sona erdi.", kaynak:"Treccani, Vallese; vallesiana.ch Glossar Acte D" }
+  ]
+},
 { id:"luksemburg", ad:"Lüksemburg Büyük Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
   f:"1890-11-23", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Lüksemburg Şehri", harita:"luksemburg",
   ozet:"Hollanda kraliyet hanedanının erkek varisi kalmayınca Nassau-Weilburg koluna geçen, Hollanda'dan ayrı bağımsız büyük dükalık (1923 sonrasında da sürdü, I. Dünya Savaşı'nda Alman işgaline uğradı). (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
