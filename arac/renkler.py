@@ -390,7 +390,6 @@ BOYALAR = {
     "atropatene": ("Atropatene (Med Atropatene) Krallığı", "#5eecb2"),
     "maurya": ("Maurya Imparatorlugu", "#08cdff"),
     "lizimakhos": ("Lizimakhos (Trakya) Krallığı", "#8fe878"),
-    "antigonos": ("Antigonos Monophthalmos Krallığı (Asya)", "#60aea2"),
     "antigonos-krallik": ("Antigonos ve Demetrios Krallığı (Antigonos Monophthalmos – Demetrios Poliorketes)", "#13b07e"),
     "iberya-kartli": ("İberya (Kartli) Krallığı", "#50cc84"),
     "bitinya": ("Bitinya Krallığı", "#6c8a78"),
