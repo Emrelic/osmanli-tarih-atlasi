@@ -1512,7 +1512,7 @@ window.DEVLETLER = [
   ozet:"Mora isyanıyla başlayıp Londra Protokolü'yle bağımsızlığa ulaşan, sonraki yüzyılda Osmanlı'dan toprak almaya devam eden devlet. (1945 ufkundan sonra da sürdü — t: pencere ucu. Künye ÜLKE sürekliliğidir: 25 Mart 1924 cumhuriyet, 1935 krallığın iadesi — TDV yunanistan.)",
   kaynak:"yunanistan",
   kronoloji:[
-    { odak_yer:["Atina"], t:"1821-03-25", tur:"isyan", b:"Mora İsyanı başladı" },
+    { odak_yer:["Atina"], t:"1821-04-02", tur:"isyan", b:"Mora İsyanı başladı" },
     { odak_yer:["Atina"], t:"1827-10-20", tur:"savas", b:"Navarin'de müttefik donanma Osmanlı-Mısır filosunu yendi" },
     { odak_yer:["Londra"], t:"1830-02-03", tur:"kurulus", b:"Londra Protokolü ile bağımsızlık tanındı" },
     { odak_yer:["Atina"], t:"1897-04-17", tur:"savas", b:"1897 Osmanlı-Yunan Savaşı (Dömeke)", kaynak:"ÇELİŞKİ-1113 BALKAN-HALEF: atlas içinde 04-17 (kronoloji_balkan, olaylar_ek5) ↔ 04-18 (bu künye maddesi). İlmez, Şarkiyat İlmi Araştırmalar Dergisi 1 (Nisan 2009): Osmanlı'nın savaş kararı ve Alasonya Ordusu'na emir 17 Nisan 1897 (5 Nisan 1313); 18 Nisan Yunan kuvvetlerinin Narda'yı geçtiği gün; Serbestoğlu, Belleten 78/283 (2014): 16 Nisan Yunan saldırısı, ertesi gün Osmanlı harekâtı → 17 Nisan (çift kaynak). TDV «Yunanistan» yalnız 1897 verir." },

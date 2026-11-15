@@ -170,7 +170,7 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "4ac20fe5adc9d9a5",
+     "sha": "6003a88e531b2ef6",
      "bayt": 6320902
     }
    ],
@@ -577,8 +577,8 @@
     },
     {
      "yol": "data/kronoloji_balkan.js",
-     "sha": "4251b0f01208dc66",
-     "bayt": 143423
+     "sha": "92299a487ff2c3d2",
+     "bayt": 143537
     },
     {
      "yol": "data/kronoloji_dogu_afrika.js",
@@ -701,7 +701,7 @@
      "bayt": 173288
     }
    ],
-   "bayt": 1970594
+   "bayt": 1970708
   },
   {
    "paket": "data/paket_13.js",

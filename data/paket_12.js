@@ -805,9 +805,9 @@ window.KRONOLOJI_BALKAN = [
   d:"Filiki Eterya'nın lideri Aleksandros İpsilantis, küçük bir kuvvetle Prut nehrini geçerek Osmanlı'ya tâbi Eflak-Boğdan'a girdi ve Rusya'nın desteğini ima eden bir bildiri yayımladı. Mora'daki asıl patlamadan bir ay önce isyanın ilk cephesi burada açıldı; Rus desteği gelmeyince hareket kısa sürede bastırıldı.",
   kaynak:"TDV `yunanistan` (M. Hacısalihoğlu): 'Nihayet 1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'War of Greek Independence')." },
 
-{ taraflar:["yunanistan"], t:"1821-03-25", b:"Mora İsyanı başladı", tur:"isyan",
+{ taraflar:["yunanistan"], t:"1821-04-02", b:"Mora İsyanı başladı", tur:"isyan",
   onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus","konu-siyasi","konu-isyan"], yer_id:"", odak_kimlik:["yunanistan"], kapsam_genis:true,
-  d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Bu tarih hem Yunanistan'ın modern devlet olarak doğuş anı hem de Yunan millî bayramı olarak kutlanır.",
+  d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Mora'daki ilk silahlı eylem Kalavrita'da 21 Mart (Jülyen) = 2 Nisan 1821 (Gregoryen); Yunan millî bayramı 25 Mart (Jülyen = 6 Nisan) bir anma geleneğidir, olay günü değil (hakem: denetim/HAKEM-YUNAN-1821-1114.md).",
   kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
 
 { taraflar:["yunanistan"], t:"1821-04-22", b:"Patrik V. Grigorios'un idamı", tur:"kayip",
