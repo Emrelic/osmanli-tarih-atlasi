@@ -271,7 +271,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","toprak-kazanc","buhara","hokand","konu-askeri"],
   yer_id:"Hokand",
   d:"Aynı yıl Nasrullah Han, komşu Hokand Hanlığı'nı istila edip hükümdarı Muhammed Ali Han'ı idam ettirdi ve hanlığı kısa süreliğine Buhara'ya bağladı; ancak Hokandlılar aynı yıl içinde ayaklanıp bağımsızlıklarını yeniden kazandı. Bu, üç Özbek hanlığı arasındaki rekabetin en şiddetli anlarından biriydi.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): Nasrullah Nisan 1842 ortasında Buhara'dan 18.000 askerle çıktı, Hokand'ı aldı (aynı yıl)" },
 
 { taraflar:["buhara"], t:"1860-01-01",
   b:"Nasrullah Han'ın ölümü, Muzafferüddin'in tahta çıkışı",
@@ -448,7 +448,7 @@ window.KRONOLOJI_OZBEK = [
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","hive","konu-askeri","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
-  d:"General Kaufmann'ın seferi Hîve'yi 29 Mayıs 1873'te teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
+  d:"General Kaufmann'ın seferi Hîve'yi 10 Haziran 1873'te (Jülyen 29 Mayıs) teslim olmaya zorladı; üç ay sonra imzalanan Gendemiyan Antlaşması'yla hanlık resmen Rusya'nın himayesine girdi, dış işlerini kaybetti ama iç yönetimini 1920'ye kadar sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
   kaynak:"TDV, madde: hive-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
 
 { taraflar:["hive"], t:"1873-01-01",
@@ -465,7 +465,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","son","hive","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
   d:"Kongirat hanedanının son hanı Seyyid Abdullah Han, Sovyet baskısı altında tahttan çekildi; hanlığın üç asırlık siyasi varlığı fiilen sona erdi.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» (islamansiklopedisi.org.tr/hive-hanligi; gövde okundu 15 Kasım 2026): Kongirat Hanı Seyyid Abdullah'ın 2 Şubat 1920'de tahttan çekildiği" },
 
 { t:"1920-04-26",
   b:"Harezm Halk Cumhuriyeti ilan edildi",
@@ -491,7 +491,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","hukumdar","hokand","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Hokand",
   d:"Kurucu Şahruh Bey'in ölümüyle kardeşi Abdülkerim tahta çıktı; genç hanlık ilk hükümdar geçişini nispeten sorunsuz atlattı.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026), s. 338: Şahruh Bey → Rahim Bey → Abdülkerim Bey (Hokand şehrini kuran) → Erdeni sıralaması; yıl VERİLMEZ («some time in the last century»)",
+  ic_not_kaynak:"UMIT-1115 ortaasya: 1721 yılı Schuyler'de YOK (okundu) → yıl teyitsiz, kaynak adlı ama tarih doğrulanamadı." },
 
 { taraflar:["hokand"], t:"1758-01-01",
   b:"Erdene Bey döneminde sınırların genişlemesi",
@@ -499,7 +500,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","toprak-kazanc","hokand","konu-askeri"],
   yer_id:"Hokand",
   d:"Erdene Bey, komşu Kırgız topraklarına doğru genişleyerek 1763'e kadar hanlığın sınırlarını önemli ölçüde büyüttü; Fergana vadisinin dışına taşan ilk büyük genişleme dalgasıydı.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026), s. 338: Erdeni (Erdene) Bey; Çin kaynaklarına göre diğer Fergana beyleri onun emrindeydi, 1759'da Çin imparatoruna bağlılık bildirdi, 1762'de Oş'a saldırdı, 1770'te öldü",
+  ic_not_kaynak:"UMIT-1115 ortaasya: Schuyler Erdeni dönemini 1759-1770 olarak veriyor; atlasın 1758'i yaklaşık (Taşkent'in Çin'e bağlanışı 1758 notu)." },
 
 { t:"1808-01-01",
   b:"Âlim Han, Taşkent'i fethetti",
@@ -523,7 +525,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","hukumdar","hokand","konu-siyasi","konu-hanedan"],
   yer_id:"Hokand",
   d:"Âlim Han'ın oğlu Muhammed Ali Han (Medeli Han) tahta çıktı; yirmi yıllık saltanatı hanlığın en geniş sınırlarına ulaştığı ama aynı zamanda Buhara ile yıkıcı bir savaşla sona ereceği dönem oldu.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): Ömer Han 1822'de öldü, Muhammed Ali (Madali) Han 1822'de han oldu" },
 
 { taraflar:["hokand"], t:"1826-01-01",
   b:"Doğu Türkistan'a askerî destek gönderilmesi",
@@ -531,7 +533,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","hokand","konu-askeri"],
   yer_id:"Kaşgar",
   d:"Muhammed Ali Han, Doğu Türkistan'daki (Kaşgar bölgesi) Çin karşıtı ayaklanmalara askerî destek gönderip Gülbağ kalesini güvence altına aldı; Hokand'ın Çin sınırındaki nüfuzunu artırma girişimiydi.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): 1826'da Madali, Kâşgar'ı geri almak isteyen Cihangir Hoca'ya katıldı (1827'de Cihangir Pekin'de idam edildi)" },
 
 { taraflar:["hokand"], t:"1831-01-01",
   b:"Çin (Qing) ile antlaşma — Doğu Türkistan'dan çekiliş",
@@ -539,7 +541,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","antlasma","hokand","konu-siyasi","konu-diplomasi"],
   yer_id:"Kaşgar",
   d:"Muhammed Ali Han, Buhara'nın artan baskısı karşısında Doğu Türkistan'daki ileri karakollarından çekilmeyi kabul edip Qing hanedanıyla bir antlaşma imzaladı; Hokand'ın Kaşgar üzerindeki iddiaları böylece resmen sona erdi.", ic_not_d:"(kronoloji_cin.js) · Ölçmedim ama bu olayın Çin kronolojisinde ayrı bir kaydı olup olmadığı bu oturumda karşılaştırılmadı.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): 1831'de Pekin'de Madali'nin elçisi Alim Paşa ile antlaşma — Hokand Kâşgar şehirlerinde gümrük alma ve aksakal bulundurma hakkı aldı",
+  ic_not_kaynak:"UMIT-1115 ortaasya: madde başlığındaki «çekiliş» Schuyler'le tam örtüşmüyor (antlaşma Hokand'a ticaret ayrıcalığı ve nüfuz verdi; askerî çekiliş 1827-1829 sonrasıdır). Başlık değişimi çeviri hash'ini bayatlatacağı için yapılmadı; KASA kararı." },
 
 { taraflar:["hokand"], t:"1840-01-01",
   b:"Buhara'ya karşı yenilgi",
@@ -547,7 +550,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","hokand","buhara","konu-askeri"],
   yer_id:"Hokand",
   d:"Muhammed Ali Han, komşu Buhara Emirliği'ne karşı giriştiği çatışmada yenilgiye uğradı; bu, iki yıl sonra Buhara Emiri Nasrullah'ın Hokand'ı doğrudan istila etmesinin zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): 1840 civarı Buhara Emiri'nin mektubu üzerine açılan savaşta Madali ordusu savaşmadan dağıldı",
+  ic_not_kaynak:"UMIT-1115 ortaasya: Schuyler yıl vermez («up to 1840 … at that time»); 1840 yaklaşık." },
 
 { taraflar:["hokand"], t:"1842-06-01",
   b:"Muhammed Ali Han'ın Buhara Emiri tarafından idamı",
@@ -555,7 +559,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","hukumdar","hokand","buhara","konu-askeri","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Hokand",
   d:"Buhara Emiri Nasrullah Han'ın istilası sırasında Muhammed Ali Han yakalanıp idam edildi; Hokand kısa süreliğine Buhara'ya bağlandıysa da aynı yıl içinde bir halk ayaklanmasıyla bağımsızlığını geri kazandı (bkz. Buhara dosyasındaki karşılık gelen madde).",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Appendix I «History of Khokand», s. 337-345 (archive.org turkistannotesof01schu; okundu 15 Kasım 2026): Nasrullah Hokand'a girince Madali'yi, annesini ve oğlu Madamin'i idam ettirdi (Nisan 1842 ortasından sonra, ay verilmez)",
+  ic_not_kaynak:"UMIT-1115 ortaasya: atlas ay hassasiyeti Haziran 1842 yazıyor; Schuyler yalnız seferin Nisan 1842 ortasında çıktığını ve şehre iki hafta sonra ulaştığını verir ⇒ idam Mayıs-Haziran; ay teyitsiz. TDV hokand-hanligi yalnız 1842 yılını verir (okundu)." },
 
 { taraflar:["hokand"], t:"1864-01-01",
   b:"Rus ilerleyişi — Evliyaata ve Çimkent'in kaybı",
@@ -571,7 +576,8 @@ window.KRONOLOJI_OZBEK = [
   etiket:["askeri","toprak-kayip","hokand","konu-askeri"],
   yer_id:"Taşkent",
   d:"[Hokand açısından] General Çernyayev'in kuvvetleri, hanlığın en zengin ve stratejik şehri Taşkent'i ele geçirdi; Hokand bu kayıpla en önemli ticaret merkezini ve ekonomik gücünün büyük bölümünü yitirdi.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
-  kaynak:"kronoloji_rusya.js ile çapraz doğrulandı (aynı olay, Rusya perspektifiyle orada da kayıtlı)" },
+  ic_not_t:"UMIT-1115 ortaasya 2. tur: gün 1865-06-29 TEYİT (okundu): E. Schuyler, Turkistan I (1877; archive.org turkistannotesof01schu): Taşkent hücumu 27 Haziran 1865 (Gregoryen) sabah 3'te, 28'inde sokak çatışması, «on the following morning» (29 Haziran) şehir koşulsuz teslim oldu. Jülyen karşılığı 17 Haziran; hücum 15 Haziran Jülyen (Rusça arama özeti, okunmadı). Yerleşim penceresi (yerlesimler_ek15.js Taşkent) önceden Jülyen 1865-06-17'ydi, 1865-06-29'a çevrildi.",
+  kaynak:"E. Schuyler, Turkistan: Notes of a Journey in Russian Turkistan, Khokand, Bukhara and Kuldja, I (New York 1877), Taşkent'in ele geçirilişi bölümü (hücum 27 Haziran, teslim 29 Haziran 1865) · kronoloji_rusya.js ile çapraz (atlas-içi, dayanak değil)" },
 
 { t:"1868-01-01",
   b:"Hudayâr Han, Rusya ile antlaşma imzaladı",

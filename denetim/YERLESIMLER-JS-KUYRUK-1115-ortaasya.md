@@ -1,0 +1,62 @@
+# YERLESIMLER-JS-KUYRUK-1115-ortaasya (UMIT, 15 Kasım 2026)
+
+`data/yerlesimler.js` ve diğer yerleşim dosyalarına bu oturumda dokunulmadı (YAYIN BAYAT duvarı). Hiçbir satırın kaynağı bu oturumda okunamadığı için **yazılabilir hazır kayıt yok**; aşağıda her madde için ne yapılacağı ve hangi kaynağın aranacağı var. Hepsi koşu inişinden sonra, kaynakla.
+
+## K1 — Yakub Bey pencereleri künye ömrü dışında (13 yerleşim)
+`yakub-beg` künyesi f 1865-01-01 (Yâkub Bey'in Kâşgar'a girişi, madde 1865-01-15); fakat Kaşgar, Yarkent (Şaçe), Hotan, Kuça (Kuqa), Turfan, Ürümçi (Dihua), Manas, Aksu (Tarım), Uçturfan, Karaşar (Yanqi), Keriya, Çerçen, Çarklık yerleşimlerinin `yakub-beg` penceresi **1864-06-04** (Kuça Döngen-Uygur hükûmetinin kuruluş günü) başlıyor. Gereken: 1864-06-04 → 1865-01-01 (Kaşgar/Yarkent/Hotan için ~1865-01-15) arası sahip (kuca-hocalari / Hokand Hocaları / Qing yıkıntısı) — TDV `kasgar`, `yakub-beg`, `dogu-turkistan`; Kim Hodong, *Holy War in China* (2004). Okunmadı.
+
+## K2 — Cungar pencereleri künye t'yi aşıyor (10 yerleşim)
+`cungar` künye t 1758-01-01; Kaşgar, Yarkent, Hotan, Kuça, Aksu, Uçturfan, Karaşar, Keriya, Çerçen, Çarklık 1705-01-01 → **1759-01-01** `cungar`. Qing'in Kaşgar/Yarkent'i alışı 1759 (yıl); Cungar'ın bitişi 1758. Gereken: 1758→1759 arası kaynakla (Qing/Cungar akademik kaynak, TDV `kalmuklar`) sahip; ya da künye t'yi 1759'a genişletme (devletler.js; KASA kararı).
+
+## K3 — Durrânî pencereleri künye f'den önce (7 yerleşim)
+`afgan-durrani` künye f 1747-10-01; Peşâver, Kâbil, Gazne, Herat, Attock, Râvalpindi, Srinagar pencereleri **1747-06-20** (Nâdir Şah'ın ölümü) başlıyor. Gereken: 1747-06-20→1747-10-01 arası sahip (afsar mı, boşluk mu) — TDV `ahmed-sah-dürrani`; Hint/Afgan akademik kaynak. Okunmadı.
+
+## K4 — Altın Orda pencereleri künye t'yi 59 gün aşıyor
+`altinorda` künye t 1502-01-01; Terek deltası (Kızlar), Astrahan, Ural eteği, Rın kumulları (Volga-Yayık arası), Syzran, Samara pencereleri 1502-03-01'de bitiyor. TDV `altin-orda` (1502 Büyük Orda'nın sonu): gün okunmadı. Bu 5 yerleşim `yerlesimler_h2_rusya.js` / `yerlesimler.js` içinde.
+
+## K5 — Semerkant Şeybânî geçişi 1500 mü, 1501 mi?
+Semerkant penceresi timurlu → buhara **1500-01-01**; kronoloji maddesi «Semerkant'ın fethi — Bâbür Mirza'nın kovulması» **1501-01-01** (`kronoloji_ozbek.js`, `kaynak: TDV seybaniler` — TDV yalnız 905-913/1500-1507 aralığını veriyor, Semerkant yılını vermiyor). Gereken: Semerkant'ın Şeybânî eline geçtiği yıl/gün (Bâbürnâme/Iranica «Bābor»/«Šaybānī Khan»; TDV `babur`). Okunmadı.
+
+## K6 — Taşkent/Hokand 1865-06-17 ve 1876-02-19 (Jülyen/Gregoryen)
+`Taşkent` hokand→rusya `1865-06-17` (`yerlesimler_ek15.js`); kronoloji `1865-06-29`; Rusça özet 15 Haziran 1865 (Jülyen). `hokand` künye t, Hokand/Andican/Oş/Alay vadisi pencereleri `1876-02-19`. Gereken: 1582+ Rusya için Gregoryen çeviri ve çift kaynak (Abashin; Becker; BRE). Okunmadı.
+
+## K11 — TDV hokand-hanligi (okundu) ile pencere uyuşmazlıkları
+- **Taşkent** hokand penceresi `1809-01-01` (yerlesimler_ek15.js); TDV «1808'de» Âlim Han Taşkent'i aldı; künye-içi kronoloji 1808-01-01. Gereken: buhara→hokand sınırı 1808-01-01 (D2: ±30 gün içinde yer anan madde şart; 1808 maddesi `taraflar:["hokand"]`, `yer_id: Taşkent`) — koşu sonrası tek elden (hem pencere hem Hucend 1802 hem Taşkent).
+- **Andican** (ve Oş) hokand→rusya `1876-02-19`; TDV «8 Ocak 1876 Endican'ın işgali», «Şubat 1876» ilga. Gereken: Andican'ın Ruslarca alındığı gün (8 Ocak 1876: Jülyen mi Gregoryen mi?) + Hokand şehri; Oş (Rus işgali günü). Okunmadı.
+- Rus fetih pencerelerinde takvim dağınık: Çimkent 1864-09-22, Taşkent 1865-06-17 (Jülyen), Hucend 1866-05-24, Semerkant 1868-05-14 (Gregoryen), Gulca 1871-07-04, Hive 1873 (madde Jülyen 29 Mayıs, antlaşma Gregoryen 24 Ağustos), Hokand 1876-02-19. Her biri için Jülyen/Gregoryen kontrolü (kaynak okunmadı).
+
+## K12 — İkiz künyeler: BİRLEŞTİRME ÖNERİSİ (KASA kararı: SİLME; yalnız öneri)
+Kimlikler değiştirilmedi. Öneri (koşu sonrası, tek elden): her çiftte «ana» künye kalır, öteki `ic_not`ta «bk <ana>» ile işaretlenir; yerleşim/madde bağları ana'ya taşınır; `s:` penceresi olan yoksa (22 yerleşimsiz künyenin hepsi) harita değişmez.
+| ana (kalacak) | ikiz | gerekçe | taşınacak madde (taraflar) |
+|---|---|---|---|
+| `kerait` (1007-1203) | `kerayit` (1199-1203) | aynı polity; `kerait` daha uzun ve 1007 Nasturî geçişi kaynaklı | `kerayit` maddeleri (5 künye-içi + `taraflar:kerayit` maddeleri) |
+| `naiman` (1199-1204; 9 madde) | `nayman` (1199-1204; 3 madde) | birebir aynı ömür; `naiman` madde sayısı fazla | `nayman` 3 madde + 4 künye-içi |
+| `xueyantuo-kaganligi` (627-646) | `xueyantuo` (628-646-10-29) | `xueyantuo` günü 646-10-29 Jiu Tang shu kaynaklı (daha kesin) → f/t'yi `xueyantuo` günlerine uydur | `xueyantuo-kaganligi` maddeleri |
+| `afrigoglu-harezm` (305-995-01-01; 5 madde) | `hivite-afrigid` (305-995-02-05; 5 madde) | aynı Afrigîler; sonu `hivite-afrigid` 995-02-05 (TDV memuniler 385/995 Kât'ın alınışı) günlü | ikisinin maddeleri birleşir; renk: `hivite-afrigid` #619370 grubunda |
+| `kirgiz-yenisey` (orta-asya, 840-920) | `yenisey-kirgiz` (sibirya-bozkir 840-1207), `kirgiz-erken` (630-680) | farklı bölge etiketli üç kayıt: Yenisey Kırgızları tek polity ise 630-1207 tek zincir; 840-920 yalnız Ötüken hâkimiyet evresi | KASA/Moğolistan ajanıyla birlikte karar |
+Kimlik silmek harita ve çeviri anahtarlarını kırar; bu yüzden yalnız `ic_not` bk işareti + madde taşıma önerildi.
+
+## K13 — Merv 1510-12-02 (hakem kararı: TDV günü 1 Aralık) — atomik taşıma gerekir
+Hakem (adım 2 C1, 2. tur): TDV `seybani-han` (okundu): ölüm «29 Şâban 916 (1 Aralık 1510)»; tabular hicrî dönüşümüyle 29 Şa'bân 916 = Jülyen 1 Aralık 1510 (tarafımdan doğrulandı) ⇒ TDV günü Jülyen ve atlas kuralıyla (1582 öncesi kaynak günü yazılır) **1510-12-01**. Karşı: A. S. Beveridge, *The Bābur-nāma in English* (1921; Gutenberg 44608; okundu), s. 350-351 n. 1335: Haidar'ın «roz-i-shakk of Ramazan» + Cuma ⇒ «Friday Sha'bān 29th 915[916] AH. (Friday December 2nd 1510)» — Beveridge'in 2 Aralık'ı Gregoryen-etiketli (Cuma tutuyor; Jülyen 2 Aralık 1510 Pazartesi'ye düşer) ve «curious differences … confusion between this and the day preliminary fighting began» diyerek günü kendisi de belirsiz sayıyor; Babur'a haber Ramazan'da (Aralık) ulaştı. Bağımsız ikinci okunmuş kaynak TDV'nin 1 Aralık'ını desteklemiyor, 2 Aralık'ı da tek başına bir kaynak (Beveridge) veriyor ⇒ CLAUDE.md «eşitse TDV günü kalır» ⇒ **karar 1510-12-01**.
+Taşınması gereken YER (hepsi aynı günde, atomik): `data/yerlesimler.js` Merv/Herat/Nesâ/Serahs/Nîşâbur/Tûs… (~60 pencere `1510-12-02`), `yerlesimler_ortaasya2.js` 166-167, `yerlesimler_sahne1108.js` 253-254, `yer_yama_once1281_z6.js`, `yer_yama_hayalet.js`, `yer_yama_1923_1945.js`, `yer_yama_zend_kacar.js` (Hürmüz/Kişm 1510-12-02 AYRI olay: Hürmüz'ün Safevî'ye geçişi 1510-12-02 değil başka bir gün olabilir — kontrol et, taşıma), `olaylar_ek11.js` 150-152 (+ `OLAYLAR_EK11:1510-12-02:0` çeviri anahtarı 6 dilde + `olay_taraf.js` 2042 `1510-12-02|Merv Savaşı…`), `kronoloji_iran.js` 128, `kronoloji_ozbek.js` 48, `ekokuma_savas3.js` 954, `savas_kunye_3.js` 772. `kronoloji_cok_senkron_0930.js` zaten 1510-12-01. Bu oturum yalnız belgeledi (yasak dosya + atomik taşıma).
+
+## K7 — Eksik yerleşim noktaları (yeni kayıt; mükerrer taraması bu belgede: ad + 3 km → hiçbiri yok)
+| yerleşim | neden gerekli | kaynak arayışı |
+|---|---|---|
+| Düşenbe (Dushanbe) | `buhara` künye t = 1921-02-21 (Kızıl Ordu Düşenbe'yi aldı; Iranica DUSHANBE) | Iranica «DUSHANBE»; TDV `tacikistan`; Doğu Buhara/Hisar beyliği |
+| Namangan, Margilan | Hokand Hanlığı şehirleri; Rus Fergana oblastı | TDV `hokand-hanligi`, `fergana` |
+| Bişkek (Pişpek) | Hokand kalesi 1825'ten; Rus 1862 | TDV; Kırgız akademik kaynaklar |
+| Kızılorda (Akmescid) | Hokand/Syr-Derya hattı; 1853 Rus alışı; `kronoloji_orta_asya.js` başlığında yer_id'siz bırakılmış | TDV `kazakistan`; Kazak akademik kaynaklar |
+| Nukus (Karakalpak), Çarcuy (Amul/Türkmenabat), Kerki, Tejen, Bayramali | Hârizm/Karakalpak ve Merv hattı | TDV; Türkmen/Özbek akademik kaynaklar |
+| Karaganda, Karakol | 19. yy Rus hattı | — |
+| Sokh, Şahimardan, Vorukh, Barak | Fergana vadisi dış-enklavları (adım 6) | 1991+ sınır antlaşmaları |
+| Kuşan/Eftalit/Soğd merkezleri: Penjikent, Afrasiyab öncesi | `semerkant-ihsid`, `kusan` yerleşimsiz | Soğd arkeoloji literatürü |
+
+## K8 — Yerleşimsiz künyeler için bağlantı (adım 1 A)
+22 yerleşimsiz künyeden yalnız **ogedey-ulusu (1267-1309)** ve **transkaspi-hukumeti (1918-07-14→1920)** 1281 çekirdeğinde; Aşkabat/Krasnovodsk/Kızıl Arvat/Merv yerleşimlerinin 1918-07-14→1920 penceresi `turkistan-ossc`/`rusya`'dan `transkaspi-hukumeti`'ne alınabilir (Sargent 2004: 14 Temmuz 1918 hükûmet; 1 Kasım 1918 Merv; 15 Temmuz 1919 Aşkabat boşaltıldı; 1920 Krasnovodsk). Bu işlem hem Değişmez 2 (madde: künye-içi kronoloji, D2 evreni değil) hem kaynak gerektirir; **yazılmadı**: kronoloji maddeleri `olaylar*.js`'te yok, D2 ±30 gün kuralı yeni açık üretir.
+
+## K9 — Mükerrer yerleşim şüphesi
+`Termez` (37,2K 67,3D) ↔ `Tirmiz` (37,3K 67,2D, `s:` yok): aynı şehir; birleştirme. (Ad+3 km kuralı; 0,15° ≈ 15 km, ek incelemesi: koordinatlar arası ~13 km — aynı yer mi, Antik Termez mi, kaynak okunmadı.)
+
+## K10 — `s:`'siz Orta Asya noktaları (29) — sahiplik penceresi yok
+Karakum, Uzboy, Üstyurt platosu (batı/doğu), Bactria, Tirmiz, Soğd, Tohâristân, Fergana, Tokmok, Suyab (Ak-Beshim), Özkent (Uzgen), Yahudiyye (Maymana), Cürcân, Deylem… (ayrıntı: BOLGE-ortaasya-4). Çoğu bölge/antik; sahiplik penceresi gerekiyor olabilir.

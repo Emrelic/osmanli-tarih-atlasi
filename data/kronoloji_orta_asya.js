@@ -805,10 +805,11 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV)" },
 
 { taraflar:["kazak-hanligi"], t:"1822-06-22", b:"Sibirya Kazakları nizamnamesi — 319 madde, hanlık kaldırıldı", tur:"kanun", onem:4, dunya:2, kapsam:"dis",
+  ic_not_t:"UMIT-1115 ortaasya 2. tur — HAKEM: gün 22 Haziran 1822 KORUNDU (1. turdaki 03 Ağustos düzeltmesi GERİ ALINDI). TDV «kazakistan» (gövde okundu 15 Kasım 2026) AYNEN: «22 Haziran 1822'de Rus hükümeti, 319 maddeden meydana gelen Sibirya Kazakları'nın statüsünü tebliğ etti.» Karşı veri: Мырзатаева-Каримова-Абдрахманов, Вестник КазНПУ им. Абая 2024 №83(4) (okundu): «22 июля 1822 года был введен «Устав о сибирских киргизах»» (22 Temmuz Jülyen = 3 Ağustos Gregoryen); Irkutsk İzvestiya 2017 (okundu) yalnız yıl. TDV'ye karşı gün için yalnız BİR okunmuş bağımsız kaynak var; CLAUDE.md hakem kuralı iki ister ⇒ TDV günü kalır. TDV'nin «tebliğ etti» (ilan) ile makalenin «введен» (yürürlüğe girdi/onay) fiilleri farklı olay olabilir; ikinci okunmuş kaynak bulunursa yenilenir. Takvim: TDV günü Jülyen mi Gregoryen mi belirtilmiyor.",
   etiket:["kanun","idari","reform","konu-idari","konu-islahat","konu-hukuk"],
   yer_id:"Omsk",
   d:"22 Haziran 1822'de Rus hükümeti, 319 maddeden oluşan Sibirya Kazaklarının statüsünü tebliğ etti. Orta cüzde han ve sultanlar tarafından yürütülen kabile esaslı idare kaldırıldı; yerine kendisine Rus binbaşısı rütbesi verilecek ve Rusların emriyle hareket edecek bir yönetici sultan (ağa sultan) seçme usulü getirildi. 1819'da Veli Han'ın ölümünden sonra zaten yasaklanmış olan han seçimi böylece hukuken de tarihe karıştı.",
-  kaynak:"kazakistan + kazaklar (TDV — kazaklar maddesi 1822, 1824, 1867, 1868 ve 1891 düzenlemelerini Rus yönetiminin temeli sayar)" },
+  kaynak:"TDV «kazakistan» (gövde okundu 15 Kasım 2026): «22 Haziran 1822'de Rus hükümeti, 319 maddeden meydana gelen Sibirya Kazakları'nın statüsünü tebliğ etti.» · TDV «kazaklar» 1822, 1824, 1867, 1868 ve 1891 düzenlemelerini Rus yönetiminin temeli sayar" },
 
 { taraflar:["kazak-hanligi"], t:"1824-01-01", b:"1824 düzenlemesi küçük cüzde de hanlığı kaldırdı", tur:"kanun", onem:3, dunya:1, kapsam:"dis",
   etiket:["kanun","idari","reform","konu-idari","konu-islahat","konu-hukuk"],
