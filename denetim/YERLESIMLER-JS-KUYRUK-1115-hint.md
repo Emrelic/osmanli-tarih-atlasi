@@ -19,3 +19,21 @@ Seçenek: künye `devletler.js` f/t genişletilir (aynı polity sürüyorsa) VEY
 
 ## D. Bilgi
 - 35 `s:`'siz Hint yerleşimi (Adım 4 §2); `kur:` boş 142.
+
+## E. İKİNCİ TUR — enklav kayıtları (kaynaklı bulgular; yerleşim yazımı KASA/yazan makine)
+Okunan kaynaklar (15 Kasım 2026): TDV «Diû» (islamansiklopedisi.org.tr/diu); «Treaty with Denmark for the transfer of the Danish Settlements on the Continent of India to the English, dated 22nd February 1845» (Aitchison türü antlaşma koleksiyonu listesi, archive.org dli.2015.116802 arama özeti — metin okunmadı); Nørregård, *The English purchase of the Danish possessions in the East Indies and Africa, 1845 and 1850* (archive.org englishpurchaseo00nr; yalnız künye okundu, günü okunmadı); «The Shape of ‘French India’ after the Treaties of Paris…» (*Interventions*, 2010, doi 10.1080/1369801X.2010.516092; yalnız özet okundu).
+
+| Yer | Kaynaklı olgu | Atlas durumu | Öneri (kaynakta yazılmayan değer yazılmadı) |
+|---|---|---|---|
+| **Serampore** (Danimarka) | Danimarka Hindistan yerleşimleri (Tranquebar + Serampore) 22 Şubat 1845 antlaşmasıyla İngilizlere devredildi; 1807'de İngilizlerce alındı, 1815'te Danimarka'ya iade (Cambridge/JRAS 'The Settlement of the Danes at Tranquebar and Serampore' özeti) | Serampore yerleşimi YOK; Tranquebar penceresi 1845-02-22'de bitiyor (uyumlu) | Yeni yerleşim Serampore: danimarka …→1845-02-22, ingiliz-hindistani; 1807–1815 İngiliz işgali gün kaynak gerek; başlangıç (1755) KAYNAK BULUNAMADI |
+| **Daman** | Portekiz 1559'da aldı iddiası **doğrulanamadı** (bulunamadı); TDV «Diû»: Goa-Dâmân-Diû 19 Aralık 1961 işgal, 14 Mart 1962 hukukî katılma | yerleşim YOK | Yeni yerleşim Daman: başlangıç günü kaynak gerek; bitiş 1961-12-19 (TDV, Diû ile aynı eylem) |
+| **Mahé, Karaikal, Yanam** (Fransız) | Beş comptoir (Pondichéry, Karikal, Mahé, Yanaon, Chandernagor): 1763 ve 1814 antlaşmalarıyla Fransa'ya iade; 1954 (fiilî devir Pondişeri/Karaikal/Mahé/Yanam 1 Kasım 1954) ve 1962 (hukukî); Chandernagor 1950 fiilî — *Interventions* 2010 makalesi (özet okundu) | yerleşimler YOK; Pondişeri 1954-11-01 ✓ | Üçü için yerleşim + pencere: fransa/fransa-cumhuriyet 1816-12-04 →1954-11-01; edinim günleri (1721/1731/1739 iddiası) **bulunamadı** |
+| **Chinsura** (Hollanda) | okunmadı | YOK | bulunamadı |
+| Çandernagor bitiş | de facto 1950, de jure 1962 (aynı makale) | pencere 1950-05-02 | gün (1950-05-02) kaynakla okunmadı; hukukî 1962 farkı `ic_not` |
+| Diu | TDV: 1535 anlaşması (yıl), 19 Aralık 1961 | pencereler 1535-10-25, 1961-12-19 ✓ | 1535 günü teyit edilmedi (yıl ✓) |
+
+## F. KASA'ya sorular (karar bekleyen künye işleri)
+1. `bhutan` (1616..2026-01-01) ve `butan` (1907-12-17..) mükerrer; ikisi de yerleşim/madde bağsız. Birleştir mi, `butan` sil mi?
+2. `fransiz-hindistani` / `danimarka-hindistani`: yerleşim pencereleri `fransa-cumhuriyet`/`danimarka` ile kodlu; künyeleri yerleşimlere bağla mı, kaldır mı?
+3. Şivâcî 1674-06-06 → 1674-06-16 (L2-1111) zinciri: devletler.js f/kronoloji, kimlikler.js, kronoloji_hindistan.js, yerlesimler_asya.js; Sarkar O.S. beyanı bu turda okundu (Adım 2 tur 2) — KASA PAZAR tek elden uygulasın.
+4. Künye f/t ↔ pencere gün farkları (Adım 3 §3): hangisi esas?

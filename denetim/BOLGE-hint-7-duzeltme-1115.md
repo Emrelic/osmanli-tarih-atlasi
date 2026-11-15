@@ -1,7 +1,10 @@
 # BOLGE hint — Adım 7: Düzeltme (15 Kasım 2026)
 
-## 1. Yazılan veri düzeltmesi: **0**
-Bu oturumda hiçbir `data/*.js` dosyası değiştirilmedi. Gerekçe (kural gereği, dürüstçe):
+## 0. İKİNCİ TUR (aşağıdaki §1–§4 birinci turdur; ikinci tur bunları ezer)
+`data/devletler.js` içinde 14 satır değişti (yalnız künye-içi `kronoloji:`; `node --check` ✓): **1 tarih düzeltmesi** (bengal-nevabligi#1 Sirâceddevle 1756-04-01 → 1756-04-10, Datta + «How the British Occupied Bengal», `ic_not_t`), **11 kaynaksız maddeye `kaynak:`** (TDV Hindistan/Tîpû Sultan/Haydar Ali/Âdilşâhîler/Gûlkünde), **Buxar'a çift teyit `ic_not`** (Oldham 1926 + Srivastava 1939: 23 Ekim 1764, gün değişmedi), **Goa/Diu 1961-12-19 kaynağı** zayıf beyandan TDV «Diû»ya yükseltildi. S3/S4 (Bîcâpûr/Golkonda) TDV'ye göre atlas doğru; S5 (Şivâcî) Jülyen → 06-16, KASA kuyruğunda (L2-1111) uygulanmadı. Çeviri/olay_taraf anahtarı taşınması gerekmedi (devletler.js künye-içi maddeleri o anahtarlara girmez; tarihi değişen tek madde künye-içi). Madde metni `b` değişmedi → çeviri hash'i etkilenmedi. `devletler.js` değişince `paketle.py yenile` + `surum_damgala` KASA'da (üretilmiş `paket_*.js` yasak). Ayrıntı: `BOLGE-hint-2-kronoloji-1115.md` «İKİNCİ TUR».
+
+## 1. Birinci tur: yazılan veri düzeltmesi **0**
+Birinci turda hiçbir `data/*.js` dosyası değiştirilmedi. Gerekçe (kural gereği, dürüstçe):
 - Düzeltme adaylarının hepsi ya (i) **gün/ay teyidi** ister (Adım 2 S1–S9; Adım 3 §3 künye↔pencere farkları) — web aramasının döndüğü ders-notu/Vikipedi düzeyi kaynaklar CLAUDE.md'ye göre kaynak değildir, ≥2 bağımsız akademik kaynak okunamadı; ya (ii) `yerlesimler*.js` içine düşer (yasak → `denetim/YERLESIMLER-JS-KUYRUK-1115-hint.md`); ya da (iii) `devletler.js` künye f/t'sini değiştirir ve hangi uçun (künye mi pencere mi) doğru olduğu kaynaksız belirlenemez.
 - "Kaynağın adlandırmadığı yeri beyanlı yaklaşıklık diye ekleme" kuralı: eksik devlet/yerleşim satırları (Adım 1 §3, kuyruk §C) kaynaksız yazılmadı.
 - Veri değişmediğinden `renkler.py`/üretilmiş dosya/`index.html` damgası da değişmedi; çeviri hash'i etkilenmedi.
