@@ -5866,11 +5866,11 @@ window.DEVLETLER = [
   ]
 },
 { id:"ayutthaya", ad:"Ayutthaya Krallığı (Siyam)", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1350-01-01", t:"1767-04-07", baskent:"Ayutthaya", harita:"ayutthaya",
+  f:"1351-03-04", t:"1767-04-07", baskent:"Ayutthaya", harita:"ayutthaya",
   ozet:"Chao Phraya vadisinde kurulan, Güneydoğu Asya'nın en güçlü krallıklarından biri olan Siyam devleti; Birmanya Konbaung ordularınca başkenti yakılıp yıkıldı (bkz. [[siyam-chakri]]).",
   kaynak:"tayland",
   kronoloji:[
-    { odak_yer:["Ayutthaya"], t:"1351-01-01", tur:"kurulus", b:"U Thong (I. Ramathibodi), Ayutthaya'yı kurdu" },
+    { odak_yer:["Ayutthaya"], t:"1351-03-04", tur:"kurulus", b:"U Thong (I. Ramathibodi), Ayutthaya'yı kurdu" },
     { odak_yer:["Toungoo"], t:"1569-01-01", tur:"toprak-kayip", b:"Birmanya Toungoo hanedanına yenilip geçici olarak vasal oldu" },
     { odak_yer:["Ayutthaya"], t:"1767-04-07", tur:"son", b:"Konbaung orduları başkenti yakıp yıktı" }
   ,
@@ -5878,7 +5878,7 @@ window.DEVLETLER = [
     { odak_yer:["Ayutthaya"], t:"1569-01-01", tur:"vassal", b:"İkinci büyük Birmanya saldırısı sonucu Ayutthaya, Birmanya üstünlüğünü kabul etmek zorunda kaldı", kaynak:"TDV: tayland (bu turda okundu, birebir alıntı)." }
   ]
 ,
-  ic_not:"DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; f: 1351-01-01 → 1350-01-01; örnek: Nakhon Pathom (Phra Pathom) 1350-01-01→1767-04-07 (erken 365 gün))"
+  ic_not:"HAKEMLİ KARAR (UMIT-1115 Çinhindi denetimi): Ayutthaya kuruluşu 1350 → 1351-03-04 (Jülyen; 1582 öncesi kaynak günü). Çelişen kaynaklar: TDV «Tayland» (1350, yalnız yıl), G. Coedès, The Indianized States of Southeast Asia (1968) (1350), W. A. R. Wood, A History of Siam (1924) (1350). Teyit edenler (üç bağımsız akademik kaynak, açıldı, okundu): (1) Chris Baker & Pasuk Phongpaichit, A History of Ayutthaya (Cambridge University Press, 2017), böl. 2 «Ayutthaya Rising»: «The date of establishing the city in the chronicle is equivalent to March 4, 1351» ve «The Thai chronicles report that Ayutthaya was founded … in 1351»; (2) Michael Vickery, review article, Journal of the Siam Society 67/2 (1979): «Ayudhya … suddenly founded in 1351» ve «cula 712, traditional date of the founding of Ayudhya» (712 = 1351); (3) Charnvit Kasetsiri, «Ayudhya: Capital-Port of Siam and its Chinese Connection», Journal of the Siam Society 80/1 (1992): «Ayudhya, founded in 1351»; «King Uthong ruled … (1351-1369)». Gün: Luang Prasoet kroniği «712 … Friday, the sixth waning day of the fifth month» = Jülyen 4 Mart 1351; hesaplanan hafta günü Cuma ✓ (kronik metniyle tutarlı). Gün tek kaynakta açık yazıyor (Baker-Pasuk); yıl üç kaynakta. Gerekçe: TDV günü yalnız yıl veriyor, üç bağımsız akademik kaynak 1351'de birleşiyor ve atlasın kendi Ayutthaya yerleşim penceresi zaten 1351-03-04 idi; önceki künye genişletmesi (f 1350) yalnız Nakhon Pathom penceresine uymak içindi. | ESKİ NOT (geçersiz): DOGU-500-1281 künye genişletme (kaynaklı dilimlere uyum; f: 1351-01-01 → 1350-01-01; örnek: Nakhon Pathom (Phra Pathom) 1350-01-01→1767-04-07 (erken 365 gün))"
 },
 { id:"siyam-chakri", ad:"Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", tur:"krallik", bolge:"guneydogu-asya",
   f:"1782-04-06", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Bangkok", harita:"siyam-chakri",
