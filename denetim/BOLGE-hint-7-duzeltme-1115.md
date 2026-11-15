@@ -9,6 +9,8 @@ Bu oturumda hiçbir `data/*.js` dosyası değiştirilmedi. Gerekçe (kural gere�
 ## 2. Önce / sonra ölçüm (veri aynı → önce = sonra)
 `py arac/odak_olc.py`: ÇÖZÜLMEYEN ODAK ATFI **0**. `py arac/denetle.py` (origin/main 8fb10bdf1 tabanı, bu worktree): Değişmez 1 ✓, 1b ✓ 0, 2 ✓ 760 kırılma/0 açık, 2s 154 açık (tavan inf), **2sk ⚠ tavan aşıldı 5927>5892 (tabandan gelen, bu iş değil)**, 2i ✓, 4/4c/4d/4s ✓ 0, 5 ✓ 0. Değişmez 8 ölçülemedi. Ayrıntı ve çıkış kodu bu belgenin altındaki "denetle sonu" satırında.
 
+**denetle sonu:** süreç Değişmez 7 satırından sonra çıktı üretmeyi bıraktı (~8 dk sessizlik), ben durdurdum; **çıkış kodu OKUNMADI → denetle "ölçülmedi" (tam koşu tamamlanmadı), yukarıdaki satırlar kısmî çıktıdır.** Veri değişmediği için `push_kapisi` bu dalı zaten ayrı worktree'de ölçer.
+
 ## 3. Sonraya devreden öncelikli iş listesi (kimin, ne)
 | # | İş | Neden | Kim |
 |---|---|---|---|
