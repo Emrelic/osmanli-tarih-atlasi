@@ -79,7 +79,7 @@ window.KRONOLOJI_ALMANYA = [
 { odak_yer:["Nürnberg","Metz"], t:"1356-01-10", devlet:"almanya", b:"Altın Ferman — yedi seçici prens sisteminin hukukîleşmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["idari","siyaset","kanun","kutsal-roma","konu-siyasi","konu-idari","konu-islahat","konu-hukuk"],
   d:"IV. Karl'ın Nürnberg ve Metz diyetlerinde ilan ettiği Altın Ferman, imparator seçimini yedi seçici prense (üç başpiskopos, Bohemya kralı, Ren Kontu, Sakson dükü, Brandenburg markgrafı) bıraktı ve seçim usulünü dört asır sürecek şekilde sabitledi. İmparatorluğun merkezî otoritesi zayıflarken prenslerin gücünü hukuken pekiştirdi.",
-  kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356" },
+  kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356 · UMIT-1115 ALMANYA ÇİFT TEYİT (gün 1356-01-10): ADB «Karl IV.» (de.wikisource, okundu): Goldene Bulle Nürnberg ve Metz Reichstag'ında «am 10. Januar und am 25. Decbr. 1356»; Meyers/MKL1888 «Bulle, Goldene» (de.wikisource.org/wiki/MKL1888:Bulle,_Goldene, okundu): «auf dem Reichstag zu Nürnberg (10. Jan. 1356) vorbereitet und auf dem Reichstag zu Metz (25. Dez. 1356) vollendet und veröffentlicht». Çift teyit. Not: 10 Ocak yalnız ilk 23 maddenin ilan günü (Zeumer: Nürnberg günü yalnız metnin kendi girişine dayanır); tam metin Metz 25 Aralık 1356." },
 
 { t:"1358-01-01", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
   etiket:["ekonomi","diplomasi","hansa","konu-siyasi","konu-diplomasi","konu-ekonomi"],
@@ -120,6 +120,21 @@ window.KRONOLOJI_ALMANYA = [
   etiket:["ekonomi","diplomasi","hansa","konu-diplomasi","konu-ekonomi"],
   d:"Dokuz yıl süren Anglo-Hanseatik Savaşı'nı sona erdiren Utrecht Antlaşması, Hansa tüccarlarına İngiltere'de geniş gümrük muafiyetleri ve Londra'da kendi ticaret merkezlerini (Stalhof) tanıdı. Antlaşma Hansa'nın Kuzey Avrupa ticaretindeki zirve gücünü perçinledi.",
   kaynak:"Schulze, Germany: A New History — Hansa'nın İngiltere ile 1474 Utrecht uzlaşması", yer_id:"Utrecht" },
+
+{ odak_yer:["Frankfurt"], t:"1486-02-16", devlet:"almanya", b:"I. Maximilian, babası III. Friedrich'in desteğiyle Frankfurt'ta Roma Kralı seçildi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Frankfurt",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Seçmenler, Matthias Corvinus'un Viyana'yı ve Avusturya'nın büyük bölümünü alması üzerine, Habsburg arşidüküsünü hayatta olan imparatorun yanında Roma Kralı seçti; Maximilian böylece Reich'ın fiilî ikinci başı oldu.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
+
+{ odak_yer:["Aachen"], t:"1486-04-09", devlet:"almanya", b:"Roma Kralı I. Maximilian Aachen'da taç giydi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Aachen",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Frankfurt'taki seçimden iki ay sonra Maximilian geleneksel taç giyme yeri Aachen'da krallık tacını aldı.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
+
+{ odak_yer:["Trento"], t:"1508-02-04", devlet:"almanya", b:"I. Maximilian Trient Katedrali'nde «Seçilmiş Roma İmparatoru» unvanını ilan etti", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Trento",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Venedik'in Roma yolunu kesmesi üzerine Maximilian papalık taç giymesini beklemeden Trient Katedrali'nde kendisini Erwählter Römischer Kaiser ilan etti; sonraki Habsburg imparatorları bu unvanı kullandı.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
 
 { odak_yer:["Worms"], t:"1495-08-07", devlet:"almanya", b:"Worms Diyeti — Reichskammergericht ve Ebedî Kamu Barışı", tur:"anayasa", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["idari","kanun","kutsal-roma","konu-idari","konu-islahat","konu-hukuk"],

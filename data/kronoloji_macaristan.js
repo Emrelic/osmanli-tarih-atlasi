@@ -203,7 +203,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","diplomasi","konu-diplomasi","konu-hanedan"],
   yer_id:"",
   d:"Macar kralı aynı zamanda Kutsal Roma İmparatorluğu'nun başına seçildi; bu çifte taç Macaristan'ı bir süreliğine Orta Avrupa diplomasisinin merkezine taşıdı ama Zsigmond'un dikkatini de imparatorluk meseleleriyle böldü.",
-  kaynak:"akademik: Engel (2001), s. 221-222", yer_id:"Frankfurt" },
+  kaynak:"akademik: Engel (2001), s. 221-222 · UMIT-1115 ALMANYA ÇİFT TEYİT (gün 1410-09-20): NDB «Sigismund» (deutsche-biographie.de/sfz56308.html, okundu): «Am 20.9.1410 einigten sich zwei Kurfürsten auf S. als neuen röm.dt. König» (rakip seçim 1 Ekim 1410 Jost); ADB «Sigmund (Kaiser)» (de.wikisource.org/wiki/ADB:Sigmund_(Kaiser), okundu): «erkoren am 20. September Pfalz, Trier und Friedrich S. zum Könige» (yeniden seçim 21 Temmuz 1411).", yer_id:"Frankfurt" },
 
 { t:"1414-11-05", devlet:"macaristan", b:"Konstanz Konsili'nin açılması — Zsigmond'un Büyük Skizma'ya son verme girişimi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
   etiket:["din","diplomasi","konu-diplomasi","konu-din"],
