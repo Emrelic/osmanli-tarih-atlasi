@@ -274,11 +274,12 @@ window.KRONOLOJI_CIN = [
   d:"Portekiz gemilerinin izinsiz ticaret ve tahkimat girişimlerine karşı Ming donanması Tunmen'de saldırıp filoyu geri püskürttü. Zafer, Portekizlileri güneyde daha temkinli bir yerleşim arayışına (nihayetinde Makao) yöneltti.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
-{ taraflar:["ming-hanedani"], t:"1521-04-19", b:"Jiajing İmparatoru tahta çıktı", tur:"hukumdar",
+{ taraflar:["ming-hanedani"], t:"1521-05-27", b:"Jiajing İmparatoru tahta çıktı", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"],
   yer_id:"Pekin (Hanbalık)",
   d:"Zhengde'nin varissiz ölümü üzerine kuzeni Zhu Houcong, Jiajing unvanıyla tahta çıktı. Kırk beş yıllık uzun saltanatı, hem Taocu inzivası hem de sarayın ihmaliyle anılacaktı.",
-  kaynak:"cin--ulke" },
+  kaynak:"Ming shi (Zhang Tingyu vd.) j.17 «Shizong 1» (zh.wikisource.org/wiki/明史/卷17; açıldı, okundu): Zhengde 16. yıl 3. ay «丙寅，武宗崩»; Jiajing'in Pekin'e girişi ve «即皇帝位» aynı gün 4. ay 癸卯 (metin gün adını anıyor)",
+  ic_not:"Takvim: Çin ay-güneş ganzhi gün adı 癸卯 (正德十六年四月) → Jülyen 1521-05-27 (JDN hesabı; sınama: 乙卯 = 0220-11-25, 丁酉 = 0311-07-13, arac/gun.py sayacından bağımsız); 1582 öncesi gün Jülyen kalır. ESKİ DEĞER 1521-04-19 YANLIŞTI: o tarih Zhengde'nin ölümünün (丙寅 = Jülyen 1521-04-20) bir gün öncesidir, tahta çıkış değil. Ming shi tek akademik kaynak okundu; ikinci bağımsız akademik kaynak (Cambridge History of China c.7/8, Geiss) OKUNMADI; Jiajing'in 27 Mayıs 1521 tahta çıkışı Vikipedi/Britannica türevi ikincil kaynaklarda da aynı (okundu, sayılmaz). Çeviri: madde metni (b) değişmedi, yalnız t; olay_taraf/çeviri anahtarı yok (grep)." },
 
 { taraflar:["ming-hanedani"], t:"1529-01-09", b:"Wang Yangming öldü", tur:"felsefe",
   onem:3, dunya:2, kapsam:"ic", etiket:["felsefe","konu-kisiler","konu-din"],
@@ -316,7 +317,8 @@ window.KRONOLOJI_CIN = [
   d:"İspanyolların Manila'yı kurmasıyla Meksika gümüşü, ipek ve porselen karşılığında düzenli olarak Çin'e akmaya başladı. Gümüş girişi, Ming'in vergi sistemini gümüş temelli tek para birimine (Single Whip) geçirecek malî dönüşümün itici gücüydü.",
   kaynak:"The Cambridge History of China, cilt 8 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Manila" },
 
-{ taraflar:["ming-hanedani"], t:"1572-07-05", b:"Wanli İmparatoru tahta çıktı, Zhang Juzheng reformları başladı", tur:"reform",
+{ taraflar:["ming-hanedani"], t:"1572-07-19", b:"Wanli İmparatoru tahta çıktı, Zhang Juzheng reformları başladı", tur:"reform",
+  ic_not:"Takvim: Ming shi j.20 «Shenzong 1» (zh.wikisource.org/wiki/明史/卷20; açıldı, okundu): «六年五月，穆宗崩» (gün adı yok); «甲子，即皇帝位» 6. ay 乙卯朔 içinde → 甲子 = Jülyen 1572-07-19 (JDN hesabı; sınama: 乙卯 = 0220-11-25); 1582 öncesi gün Jülyen kalır. ESKİ DEĞER 1572-07-05 Longqing'in ÖLÜM gününe (Vikipedi/Britannica türevi ikincil kaynaklar: 5 Temmuz 1572; Ming shi günü vermiyor) aitti, tahta çıkışa değil. İkinci bağımsız akademik kaynak (Cambridge History of China c.7, Huang Ray 1587) OKUNMADI. Çeviri: b değişmedi; olay_taraf/çeviri anahtarı yok (grep).",
   onem:4, dunya:1, kapsam:"ic", etiket:["reform","idari","mali","konu-idari","konu-hanedan","konu-ekonomi","konu-islahat"],
   yer_id:"Pekin (Hanbalık)",
   d:"On yaşındaki Wanli tahta çıkınca fiilî yönetimi başbakan Zhang Juzheng üstlendi; vergi denetimi, sınır tahkimatı ve bürokratik disiplin reformlarıyla hazineyi güçlü bir fazlaya taşıdı. Reformlar, Zhang'ın 1582'deki ölümünden sonra büyük ölçüde geri alınacaktı.",
