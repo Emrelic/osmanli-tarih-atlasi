@@ -14,6 +14,9 @@ Sorunlu odak: `urbino-dukaligi` maddeleri `odak_yer:["Rimini","Roma"]`/`["Rimini
 - **2sk: tavan aşıldı (5927 > 5892)**: "yer düzeyinde doğrulanmamış kapanış arttı". Bu oturumun değişiklikleri yalnız `devletler.js` künye-içi kronolojisidir (D2 evreni `olaylar*.js`/`kronoloji_sinir*.js`); `origin/main`de zaten aşım olup olmadığı AYRI worktree'de ölçülmedi — **aşımın kaynağı bu oturum değil** (D2 evrenine bir satır yazılmadı), ama kanıt olarak baseline ölçümü yapılmadı.
 - **2t: 167 kırılmasız madde**, tavan inf; İtalya'ya özgü satır süzülmedi.
 
+## 2b. ÜÇÜNCÜ TUR ÖLÇÜMÜ (tam `denetle`, `denetle-umit` kilidiyle, 15 Kasım 06:53-07:01, commit 54ecae1a6 ağacı)
+**Çıkış kodu 0.** D1 ✓ (306 sahipsiz = beklenen), 1c ✓, 1b ✓ (beyansız boşluk 0), **D2 760 kırılma / 0 açık**, 2i ✓ 0 açık, D4/4c/4d/4s ✓ 0, D5 ✓, 8a ✓ (270 = tavan 270), 8b ✓ 0, dönem sağlığı ✓. **2sk 5927 > tavan 5892 (⚠ TAVAN AŞILDI) — ilk tur ölçümüyle (Verona değişikliğinden önce) BİREBİR aynı 5927**: Verona/ferrara düzeltmeleri bu sayıyı değiştirmedi. `origin/main` baseline'ı ayrı worktree'de koşturulmadı → aşımın başka dalda/koşuda doğduğu varsayımı ölçülmedi; tavan açılmadı. "Önce" = ilk tur kısmi okuma (künye-içi düzeltmeler sonrası, Verona öncesi): D2 760/0, 2sk 5927; "sonra" = bu tam koşu: aynı.
+
 ## 3. Eksik / fazla kırılma (İtalya, adım 4 kaynaklı)
 **Eksik kırılma** (künye var, pencerede kırılma yok → haritada değişim görünmüyor):
 1. Verona 1164..1277 `__BOSLUK__` içinde verona-komunu→ezzelino→della-scala kırılmaları yok.
