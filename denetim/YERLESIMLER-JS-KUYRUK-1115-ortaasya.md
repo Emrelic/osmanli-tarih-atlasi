@@ -20,6 +20,11 @@ Semerkant penceresi timurlu → buhara **1500-01-01**; kronoloji maddesi «Semer
 ## K6 — Taşkent/Hokand 1865-06-17 ve 1876-02-19 (Jülyen/Gregoryen)
 `Taşkent` hokand→rusya `1865-06-17` (`yerlesimler_ek15.js`); kronoloji `1865-06-29`; Rusça özet 15 Haziran 1865 (Jülyen). `hokand` künye t, Hokand/Andican/Oş/Alay vadisi pencereleri `1876-02-19`. Gereken: 1582+ Rusya için Gregoryen çeviri ve çift kaynak (Abashin; Becker; BRE). Okunmadı.
 
+## K11 — TDV hokand-hanligi (okundu) ile pencere uyuşmazlıkları
+- **Taşkent** hokand penceresi `1809-01-01` (yerlesimler_ek15.js); TDV «1808'de» Âlim Han Taşkent'i aldı; künye-içi kronoloji 1808-01-01. Gereken: buhara→hokand sınırı 1808-01-01 (D2: ±30 gün içinde yer anan madde şart; 1808 maddesi `taraflar:["hokand"]`, `yer_id: Taşkent`) — koşu sonrası tek elden (hem pencere hem Hucend 1802 hem Taşkent).
+- **Andican** (ve Oş) hokand→rusya `1876-02-19`; TDV «8 Ocak 1876 Endican'ın işgali», «Şubat 1876» ilga. Gereken: Andican'ın Ruslarca alındığı gün (8 Ocak 1876: Jülyen mi Gregoryen mi?) + Hokand şehri; Oş (Rus işgali günü). Okunmadı.
+- Rus fetih pencerelerinde takvim dağınık: Çimkent 1864-09-22, Taşkent 1865-06-17 (Jülyen), Hucend 1866-05-24, Semerkant 1868-05-14 (Gregoryen), Gulca 1871-07-04, Hive 1873 (madde Jülyen 29 Mayıs, antlaşma Gregoryen 24 Ağustos), Hokand 1876-02-19. Her biri için Jülyen/Gregoryen kontrolü (kaynak okunmadı).
+
 ## K7 — Eksik yerleşim noktaları (yeni kayıt; mükerrer taraması bu belgede: ad + 3 km → hiçbiri yok)
 | yerleşim | neden gerekli | kaynak arayışı |
 |---|---|---|

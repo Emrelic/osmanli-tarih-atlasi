@@ -57,4 +57,4 @@ Hiçbiri D2'yi bozmaz (açık 0): çünkü başka bir yer/taraf anan madde ±30 
 Horog 1281-1883, Kala-i Vamar (Rûşan) 1281-1883, Gunt vadisi 1281-1883, İşkâşim 1281-1883-08-15, Serhad (Vahan) 1281-1883-08-15, Kala-i Pençe 1775-1883-08-15, Karakul (Pamir) 1281-1893, Alay vadisi 1281-1876-02-19, Taşkurgan 1281-1759 ve 1865-1878, Feyzâbâd (Bedahşan) 1680-1859, Kal'a-i Hum (Darvaz) 1281-1873. Beyanlı (denetle 1b: beyansız boşluk 0). Boşluk merdiveni: ② ③ basamaklar için TDV okunmadı; abi merkez önerisi kuyrukta.
 
 ## Denetle sonu
-Aşağıda ("SON") baseline çıkışı ve komutun çıkış kodu işlenecek.
+`py arac/denetle.py` taban koşusu (origin/main) ve adım 7 düzeltmelerinden sonraki koşu: ikisinde de son satır «SONUÇ: temiz»; D1 306 sahipsiz (=beklenen), D2 760/0 açık, D4/4c/4d/4s 0, D8a 270 (tavan 270), D8b 0. Çıkış kodu yakalanamadı (arka plan süreci) → "ölçülmedi"; hüküm çıktı satırından.

@@ -465,7 +465,7 @@ window.KRONOLOJI_OZBEK = [
   etiket:["siyaset","son","hive","konu-siyasi"],
   yer_id:"", odak_kimlik:["hive"],
   d:"Kongirat hanedanının son hanı Seyyid Abdullah Han, Sovyet baskısı altında tahttan çekildi; hanlığın üç asırlık siyasi varlığı fiilen sona erdi.",
-  kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
+  kaynak:"TDV İslâm Ansiklopedisi, «Hîve Hanlığı» (islamansiklopedisi.org.tr/hive-hanligi; gövde okundu 15 Kasım 2026): Kongirat Hanı Seyyid Abdullah'ın 2 Şubat 1920'de tahttan çekildiği" },
 
 { t:"1920-04-26",
   b:"Harezm Halk Cumhuriyeti ilan edildi",
