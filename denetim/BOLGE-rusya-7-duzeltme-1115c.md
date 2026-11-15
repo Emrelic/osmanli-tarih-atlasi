@@ -1,6 +1,8 @@
 # BOLGE-rusya · Adım 7 — Düzeltme (UMIT, 15 Kasım 2026)
 
-**Yazılan düzeltme: 0.** Veri dosyası değişmedi; yalnız `denetim/BOLGE-rusya-*-1115c.md` + `denetim/YERLESIMLER-JS-KUYRUK-1115c-rusya.md` + `denetim/RENK-ONERI-1115c-rusya.md`.
+**GÜNCELLEME (ikinci tur): 7 madde düzeltildi — bkz. `BOLGE-rusya-2b-hakem-1115c.md`** (Buz Savaşı, Roman Mstislaviç, 1612, 1645, 1730, 1755, 1775). Aşağıdaki "0" ilk turun durumudur.
+
+**Yazılan düzeltme (ilk tur): 0.** Veri dosyası değişmedi; yalnız `denetim/BOLGE-rusya-*-1115c.md` + `denetim/YERLESIMLER-JS-KUYRUK-1115c-rusya.md` + `denetim/RENK-ONERI-1115c-rusya.md`.
 
 Neden: hakem kuralı (≥2 bağımsız akademik kaynak) sağlanamadı; web aramasında akademik tam metne ulaşılamadı (prlib.ru tarayıcı kontrolü, NPL/DergiPark açılmadı). Hafıza/ansiklopedi ile gün yazmak "tarih uydurma"dır.
 
