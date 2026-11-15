@@ -1,0 +1,5 @@
+# AFRİKA — 6. Enklav / eksklav (UMIT, 3. dalga, 15 Kasım 2026)
+
+Ölçülen: Afrika `bolge:` künyeleri içinde adı enklav/eksklav olanlar (devletler.js tarama, `ad`/`id`): `ifni-ispanyol`, `cabo-juby-ispanyol`, `tanca-uluslararasi-bolge`, `tanca-bolgesi`, `ispanyol-oran-1/2`, `ispanyol-halkulvad`, `ingiliz-tanca`, `fransiz-somali`, `italyan-eritre`, `ingiliz-gambiya`/`gambiya-kolonisi` — **hepsi yerleşim penceresiz künye** (1. adım): yani haritada pencere yok, enklav modellenmemiş (Ifni, Cabo Juby, Tanca bölgesi, İspanyol Oran, La Goulette = Hristiyan kıyı kaleleri).
+- Değişmez 8 (şehir bölgesi ülke sınırını aşamaz) Afrika için ana checkout'ta ölçülemez; `denetle` koşulmadı → **ölçülmedi**.
+- Yeni pencere yazılmadı: bu enklavların yerleşim konumu/tarihi bu oturumda akademik kaynakla okunmadı. Öneri: İspanyol Oran (1509-05-17…1708, 1732…1792-09-12), Halkulvad (1535-07-01…1574-08-24), İngiliz Tanca (1661…1684-02) künyeleri için Osmanlı/Fas/Cezayir odaklı kaynaklı (TDV `Vehrân`, `Halkulvâd`, `Tanca`) pencere yazılması kuyrukta (K5) önerilir.
