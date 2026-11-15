@@ -1,0 +1,19 @@
+# BOLGE-cin / ADIM 4 — Yerleşim kronolojisi (15 Kasım 2026)
+
+Ölçüm: Çin künyesi sahibi **460** yerleşim (node/vm). `__BOSLUK__` dilimleri ve pencere zincirleri el ile örneklendi (≈ 35 yerleşim); tam 460 yerleşimin kurucu/ilk anılış tarihi karşılaştırması bu turda YAPILMADI (kaynak erişimi yok).
+
+## Bulgular (atlas pencereleri ↔ bağımsız bilgi; hepsi OLASI HATA/BORÇ, kaynak okunmadı)
+1. **Lhasa / Şigatse 1281-1354 = `yuan-hanedani`**, oysa `sakya` künyesi (1264-1354) 2 yerleşim tutuyor. Yuan Tibet'i doğrudan değil Sakya Dishi–Pönchen düzeniyle yönetti (Petech 1990; Sperling) — bölge sahibi Yuan mı, Sakya mı, kaynakta beyan gerek (CLAUDE: bölgeyi nominal egemene bağla ya da beyan et). Kronoloji maddesi 1264/1354 var (Sakya maddeleri). Karar bekleyen soru; **değiştirilmedi.**
+2. **Guge**: 0 yerleşim. `Tholing (Toding)` (`YERLESIMLER_ONCE1281_YT_HINT`) yerleşimi `s:[]` — Guge'ye bağlanmamış, haritada görünmez. **Tsaparang** ve **Purang (Taklakot)** yerleşimi yok. Guge künye-içi kronolojisi 10 madde (1000-1630); 1281-1630 arası Guge bölgesinin sahipliğini (Ngari) taşıyacak yerleşim eklenmeli. Kuyruk: `YERLESIMLER-JS-KUYRUK-1115-cin.md`.
+3. **Dunhuang 1691-05-30 → 1720-01-01 `__BOSLUK__`**: Kuzey Yuan künyesi t=1691; sonrası boşluk. Merdiven ①-⑤ uygulanmadı (bu tur kaynak yok). Ming Hami/Dunhuang durumu: 1524'te Ming Jiayu Geçidi'ne çekildi, Dunhuang `kuzey-yuan` ✓ (Turfan hanları) — ama 1524-1691 sahibi künyede `kuzey-yuan` yazılı, aslında Turfan/Moğulistan; BEYANLI olmalı.
+4. **Penghu 1644-04-25 → 1661-04-30 `__BOSLUK__`** (17 yıl): Ming sonrası Penghu'nun sahibi (Güney Ming/Zheng adası mı, yerel mi) kaynaksız. Koxinga 1650'de Xiamen'i üs aldı; Penghu garnizonu 1661 öncesi → merdiven ③/⑤ (abi merkez: Xiamen/Tungning öncülü).
+5. **Hong Kong noktası** `[22.32,114.17]` = **Kowloon yarımadası** koordinatı (Hong Kong Adası ≈ 22.27,114.17); `s:` 1842-08-29'dan itibaren İngiliz künyesi. Kowloon'un İngiliz olması 1860-10-24 (Pekin Sözleşmesi), Yeni Bölgeler 1898-06-09/07-01. Atlasta bu tarihlerde **kırılma yok**, nokta yalnız 1842'den itibaren İngiliz boyanıyor ⇒ petek Kowloon + muhtemelen NT'yi 1842-1860/1898 arasında İngiliz gösteriyor olabilir (Değişmez 8 benzeri; harita ölçülemedi). Adım 6'da.
+6. **Kumul/Hami** `s:`: 1513→1680 `mogulistan`, 1680→1697 `cungar`, 1697→1912 `qing`. 1696'dan itibaren Kumul Hanlığı (Qing vasalı, Çin kaynakları 1696/1697) künye yok; `qing` yazıldı (vasallık). Kumul künyesi yok (adım 1 #2).
+7. **Lhasa 1720-09-24 / Şigatse 1720-01-01** tutarsız (bkz. Adım 3 §3).
+8. **Lhasa 1912-02-12 → 1951-05-23 `tibet-ganden-phodrang`**: Tibet fiili bağımsızlığı (Amban kovma 1912; 13. Dalai Lama bildirisi Şubat 1913) ve Qing'in düşüşü (1912-02-12) arasında `1912-01-01` künye maddesi «Dalai Lama bağımsızlık ilan etti» Qing'in düşüşünden **önce**. 1912-01-01 yıl düzeyindedir; Şubat 1913 bildirisi daha yaygın (Goldstein c.1). Akademik OKUNMADI.
+9. **Ürümçi 1763 → Qing** (Dihua adlandırması 1760'lar ✓); 1864-06-04 yakub-beg → 1876-08-18 Qing geri alış (Urumqi 18 Ağustos 1876: Liu Jintang, ikincil kaynak). Yarkent/Kaşgar 1877-12-17/18 ✓ Qing ile Atlas 1877-12-18 maddesi uyumlu (bir gün farkı: `s:` ucu 12-17, madde 12-18) — **atlas içi 1 gün tutarsızlık**, Değişmez 2 etkilemez (±30).
+10. **Taipei 1709-01-01**: yerleşim penceresi 1709'dan; Qing 1683'ten Tayvan'ı idare etti, Taipei'nin Qing idaresine girmesi 1709'daki Chen Lai-zhang tapu/yerleşim girişimiyle ilişkilendirilmiş (genel bilgi; OKUNMADI).
+11. **Lanzhou 0618-11-30 → 1281-01-01 `__BOSLUK__`** (660 yıl, 1281 öncesi, bu görevin 1281 çıtası dışında) — Not düşüldü.
+
+## Genel yargı
+Pencere zincirleri 1281-1923'te **dolu** (Hanedan geçişlerinde gün hassasiyeti Ming shi tabanlı, çoğu `kaynak:` alanında birincil metin var — atlas bu bölgede kalite açısından iyi). Zayıf yerler: Tibet (Guge, Sakya-Yuan ayrımı), Kowloon/NT, Penghu boşluğu, Dunhuang boşluğu, 1720 üçlü tutarsızlığı. Düzeltmeler adım 7 / kuyrukta.
