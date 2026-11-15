@@ -70,3 +70,10 @@ TDV okumaları (özetten): `uzun-hasan`: Bağdat 1468 baharında 40 gün kuşat�
 3. Bağdat 1469: karar verilemedi (yukarıda).
 4. 13 Şubat 1759: TDV günü Gregoryen olarak hesapla doğrulandı, değişiklik yok.
 5. Serdrûd 13 Nisan 1408 (TDV `karakoyunlular` madde alıntısıyla; hesap ✓.); TDV özet çıktısı bir yerde «1410» demişti — **özet çıktısının yorumu, sayfa tam metni okunmadı; atlas maddesi doğrudan TDV alıntısı taşıdığı için 1408 korunur.**
+
+## 7. EK (koordinatör talimatı sonrası, 15 Kasım 2026) — ikinci kaynak taraması
+
+- **Taştan, T. K. (2021), «Hürmüz Sultanlığı'nın Portekizliler Tarafından Hâkimiyet Altına Alınması ve Portekiz'in İran Körfezi'ne Adım Atması», İRTAD 6, s. 100-117** (DergiPark PDF, tam metin okundu; Albuquerque'nin Commentaries'inin Gibbs/Birch çevirilerine dayanır): (a) Hürmüz sultanlığı Portekizliler gelmeden önce Safevîlere vergi veriyordu; 1507'de kale 24 Ekim 1507'de başladı, bitmedi; (b) Albuquerque 1514-15 kışını Hürmüz'de geçirdi, **1 Nisan 1515'te Portekizliler kaleyi teslim aldı**; (c) TDV Hürmüz (Bilge 1998) ilk denemenin 1507'de başarısız olduğunu söyler. Sonuç: Hürmüz Adası `portekiz` 1515-04-01 ucu teyitli (gün tam metinden; TDV'nin 1514'ü Portekiz girişiminin başı gibi okunur). Safevî tâbiliği 1507'de zaten var, bu yüzden atlas `safevi` 1510-12-02 ucu (Hürmüz için) kaynaksız ve muhtemelen geç. Kuyruk Q2: Hürmüz Adası 1281→1515 «Safevî tâbi sultanlık» (`v:` modeli) mi — Emre kararı.
+- Hürmüz 1622 günü: ikinci bağımsız akademik kaynak OKUNAMADI (Boxer/Subrahmanyam/Floor/Matthee tam metni bulunamadı; Taştan 1622'yi kapsamıyor). Karar değişmedi (Q3 KASA onayı).
+- Kişm 21 Şubat 1622, 1467 Cihan Şah/1469 ikinci kaynakları (Woods, Roemer, Minorsky), Kasîm 1744/1902/1906 (Winder, Vassiliev, Rentz): tam metne erişilemedi → hakemli karar yazılamadı.
+- Albuquerque odak_yer: 5 kayıt (devletler.js) düzeltildi: Malaka, Banda Neira, Lourenço Marques (Chaimite atlasta yok; en yakın Mozambik noktası, yaklaşık), Goa×2; odak_olc 0.
