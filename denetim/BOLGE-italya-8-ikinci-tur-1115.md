@@ -32,7 +32,8 @@ Yöntem: Treccani sayfaları `WebFetch` ile okundu (özetleyici model; aşağıd
 | Lucca 1369 | EI «Lucca» okundu | Diploma **7 Nisan 1369**, ertesi gün akt «definitivamente libera» (**8 Nisan**); 6 Nisan değil; 1316/1341/1342/1370 yalnız yıl veya yıl bile yok | `lucca-cumhuriyeti` madde 3: 1369-01-01 → **1369-04-08** |
 | Pisa 1288/1392/1399, Siena 1287/1355, Piombino 1501/1548, Sardinya | EI «Pisa», «Siena», «Piombino» okundu; «Sardegna» ilk 100 bin karakter | **Yalnız yıl** (gün YOK); Siena: Montalcino direnişi sonu «luglio 1559» (ay) | gün **yazılmadı** (kaynakta yok); Sardinya olayları okunan kısımda yok |
 | Saluzzo | (önceki tur) | DBI 1504'te bitiyor | okunmadı |
-| Pontecorvo | EI «Pontecorvo» sorgulanmadı (slug denenmedi) | — | okunmadı |
+| Pontecorvo | EI «Pontecorvo» okundu | 1463 Santa Sede'ye doğrudan bağlı (Benevento ile birlikte Napoli içinde papalık eksklavı); **6 Haziran 1806** Napolyon → Bernadotte prensliği (1810); **2 Eylül 1860** ayaklanma, 17 Eylül papalık geri aldı, **7 Aralık 1860** plebisit | yerleşim kuyruğu kalem 8 (yazılmadı) |
+| Saluzzo | EI «Saluzzo» okundu | Gabriele **1548**'de zehirle öldü; **1 Ağustos 1548** komünler Henri II'ye başvurdu; **1549** Dauphiné'ye birleşti; Lyon 1601; **Carlo I 1487** işgali. 1548-02-23 künye ucu **teyit EDİLEMEDİ** | künye t=1548-02-23 ve 1549 maddesi: EI yalnız 1548 yıl + 1-8-1548 (başvuru, ilhak değil); değişiklik **yapılmadı** (1 Ağustos ilhak günü değil) |
 | Malatesta DBI «Malatesta da Verucchio» | slug boş sayfa döndü | — | okunmadı |
 
 ## 2. Yeni künye taslakları (devletler.js'e YAZILMADI)
