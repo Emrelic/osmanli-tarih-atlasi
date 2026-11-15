@@ -7,4 +7,5 @@ Hiçbiri yazılmadı (yerlesimler.js'e dokunulmaz; kaynak günleri okunamadı). 
 3. **Hamburg 1510, Lübeck 1226, Bremen 1646**: imparatorluk/serbest şehir pencereleri (`hamburg-sehri`, `lubeck-sehri`, `bremen-sehri` künyeleri hazır, yerleşimsiz). Hanse künyesi f günü (1356-02-02 mi 1358 mi) önce çözülmeli.
 4. **Hessen Landgraflığı 1264-1567, Mecklenburg Dükalığı 1348-1815, Pomeranya 1121-1637** künyeleri yerleşimsiz: Kassel/Marburg, Schwerin/Rostock/Wismar, Stettin/Stralsund pencereleri. Kaynak: okunmadı.
 5. **Düzeltme adayı (gün)**: Luther Worms 1521-04-17 → 04-18 (çift teyit bekliyor); Bern ittifakı 1353-01-01 → 1353-03-06 (HLS okunmadı).
-6. `lihtenstayn` / `liechtenstein` mükerrer künye (devletler.js, KASA kararı).
+6. `lihtenstayn` / `liechtenstein` mükerrer künye (devletler.js). KASA kararı: SİLİNMEZ; kimlik birleştirmeyi KASA koşu 39 öncesi yapar.
+   **Birleştirme önerisi:** aynı polity (f 1719-01-23). Yerleşimli `liechtenstein` (1 yerleşim, 5 künye-içi madde) kimlik olarak kalsın; `lihtenstayn`'ın 8 künye-içi maddesi tekil t|b ile `liechtenstein`e taşınsın; `lihtenstayn` id'si kaldırılmadan önce ceviri_*_devlet.js, olay_taraf.js ve renkler.py BOYALAR referansları taranıp yeni kimliğe çevrilsin; yaşayan polity için `t` boş bırakılsın (2026-12-31 yer tutucudur).
