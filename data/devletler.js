@@ -8319,6 +8319,37 @@ window.DEVLETLER = [
     { odak_yer:["Vientiane"], t:"1827-01-01", tur:"isyan", b:"Vientiane Kralı Anouvong, Siam'a karşı ayaklanıp eski Lan Xang'ı yeniden birleştirmeye çalıştı; Siam karşı saldırısı sonucu Vientiane yıkıldı ve Laoslar zorla göç ettirildi", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Lao rebellion (1826-1828)', 'Anouvong') doğrulandı." }
   ]
 },
+{ id:"luang-prabang-krallik", ad:"Luang Prabang Krallığı (Lan Xang ardılı)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1707-01-01", t:"1893-10-03", baskent:"Luang Prabang", harita:"laos-kralliklari",
+  kesinlik:{"f": "yil", "t": "yil"},
+  ozet:"Lan Xang'ın 1707'de bölünmesiyle kuzeyde King-Kitsarat'ın kurduğu Lao krallığı; 1893 Fransız-Siyam antlaşmasıyla Fransız Çinhindi'ne katıldı.",
+  kaynak:"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II): «From 1707 Luang Prabang and Vientiane were the capitals of two separate and mutually hostile states»; King-Kitsarat Luang Prabang'ı T'ao-Nong'dan alıp kral ilan edildi (1707)",
+  ic_not:"UMIT-1115b: `laos-kralliklari` kolektif künyesinden ayrıştırıldı (üç Lao krallığı); renk `harita:` ile laos-kralliklari'na bağlı (renkler.py değişmedi). f yıl hassasiyeti (Hall 1707); t=1893-10-03 atlas penceresinin ucudur (Fransız-Siyam antlaşması), Hall bu bölümde tarihi vermiyor, kaynak okunmadı. Xieng Khouang, Savannakhet, Muang Sing laos-kralliklari altında kaldı (kaynakta hangi krallığa bağlı oldukları okunmadı).",
+  kronoloji:[
+    { odak_yer:["Luang Prabang"], t:"1707-01-01", tur:"kurulus", b:"King-Kitsarat, Sip-Song-Panas'ta toplanan güçle Luang Prabang'ı aldı; Chieng Khane'nin kuzeyi ayrı bağımsız krallık oldu", kaynak:"Hall 1981 (Laos bölümü), yıl 1707" }
+  ]
+},
+{ id:"vientiane-krallik", ad:"Vientiane Krallığı (Lan Xang ardılı)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1707-01-01", t:"1828-11-01", baskent:"Vientiane", harita:"laos-kralliklari",
+  kesinlik:{"f": "yil", "t": "yil"},
+  ozet:"Lan Xang'ın 1707'de bölünmesiyle güneyde Sai-Ong-Hué'nin hükmettiği Lao krallığı; 1778'de Siyam tâbiliği, Anou'nun 1827-28 ayaklanmasının bastırılmasıyla sona erdi.",
+  kaynak:"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II): «Vientiane under Sai-Ong-Hué (1707-35)»; «In 1778 Siam seized on a convenient pretext to invade Vientiane»; Anou 1828'de yakalandı, «That was the end of the kingdom of Vientiane»",
+  ic_not:"UMIT-1115b: `laos-kralliklari` kolektif künyesinden ayrıştırıldı; renk `harita:` ile laos-kralliklari'na bağlı. f yıl (Hall 1707); t=1828-11-01 atlas penceresi (Hall yalnız 1828 yılı); ay ve gün okunmadı. 1778 Siyam fethi sonrası Vientiane Siyam'a tâbi krallık olarak sürer (Hall), atlas pencerelerinde 1828'e kadar bu künyede kalır.",
+  kronoloji:[
+    { odak_yer:["Vientiane"], t:"1707-01-01", tur:"kurulus", b:"Sai-Ong-Hué Vientiane krallığının başına geçti; Lan Xang Luang Prabang ve Vientiane olarak ikiye ayrıldı", kaynak:"Hall 1981 (Laos bölümü), yıl 1707" },
+    { odak_yer:["Vientiane"], t:"1828-11-01", tur:"son", b:"Anou yakalandı, Vientiane Krallığı sona erdi", kaynak:"Hall 1981 (Laos bölümü): «In 1828 Anou …»; ay/gün okunmadı, t atlas penceresi" }
+  ]
+},
+{ id:"champasak-krallik", ad:"Champasak (Bassak) Krallığı (Lan Xang ardılı)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1713-01-01", t:"1778-01-01", baskent:"Champasak", harita:"laos-kralliklari",
+  kesinlik:{"f": "yil", "t": "yil"},
+  ozet:"Lan Xang'ın güneyinde Chao Soi-Sisamout'un 1713'te Vientiane'den ayrılarak kurduğu Lao krallığı; 1778'de Siyam/Thonburi egemenliğine girdi.",
+  kaynak:"Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm 'Laos' (Sixteenth Century to the End of the Eighteenth, Pt II): «With Bassak and the provinces in the far south Sai-Ong-Hué was less successful. Chao-Soi-Sisamout, who ruled there from 1713 …»",
+  ic_not:"UMIT-1115b: `laos-kralliklari` kolektif künyesinden ayrıştırıldı; renk `harita:` ile laos-kralliklari'na bağlı. f yıl (Hall 1713); t=1778-01-01 atlas penceresidir (Hall Vientiane'nin 1778 fethini verir, Champasak'ın aynı yıl düştüğü bu satırda okunmadı → t beyanlı yaklaşık).",
+  kronoloji:[
+    { odak_yer:["Champasak"], t:"1713-01-01", tur:"kurulus", b:"Chao Soi-Sisamout Bassak (Champasak) ve güney illerinde ayrı krallık kurdu", kaynak:"Hall 1981 (Laos bölümü), yıl 1713" }
+  ]
+},
 { id:"seylan-sinhala", ad:"Seylan Sinhala Krallıkları (Portekiz Öncesi)", tur:"krallik", bolge:"guney-asya",
   f:"1070-01-01", t:"1518-01-01", ic_not_f:"Sınıf ②: aynı Sinhala krallık geleneği (Polonnaruva → Dambadeniya → Yapahuva → Kurunegala → Gampola → Kotte). 1017-1070 Çola işgali künyenin DIŞINDA kalır (cola). 1214-1255 Magha dönemi künye İÇİNDEDİR — Kalinga kökenli Magha Polonnaruva tahtındaydı; ayrı künye önerilmedi.", baskent:"Dambadeniya → Gampola → Kotte (ardışık merkezler)",
   ozet:"Polonnaruwa'nın çöküşünden Portekiz'in gelişine kadar birbirini izleyen Sinhala krallıkları (Dambadeniya, Gampola, Kotte); Portekizlilerin Kolombo'ya yerleşmesiyle dış nüfuza açıldı. HANEDAN/ÜLKE karışık, BİRDEN FAZLA ardışık krallığı TEK kayıtta temsil eden bir kolektif kimliktir — `irlanda`/`somali` emsali gibi. ⚠️ 1281 tarihi bir hanedanın kuruluşu değil atlasın pencere başlangıcıdır. ⚠️ BULUNAMADI (TDV'de): `seylan` maddesi yalnız `sri-lanka`ya yönlendiriyor, dönem ayrıntısı yok; tarihler standart akademik kaynağa göredir.",
