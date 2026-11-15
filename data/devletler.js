@@ -10925,12 +10925,12 @@ window.DEVLETLER = [
   ozet:"Bogd Han'ın ölümünden sonra 26 Kasım 1924'te ilan edilen, Sovyet desteğindeki cumhuriyet; ardılı olduğu yapı [[mogolistan]]. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi'",
   kronoloji:[
-    { odak_yer:["Karakurum"], t:"1924-11-26", tur:"kurulus", b:"Moğolistan Halk Cumhuriyeti ilan edildi", kaynak:"TDV: mogolistan" },
-    { odak_yer:["Karakurum"], t:"1945-10-20", tur:"siyaset", b:"Moğolistan'da bağımsızlık referandumu yapıldı, oylar ezici çoğunlukla bağımsızlıktan yanaydı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
-    { odak_yer:["Karakurum"], t:"1946-01-05", tur:"siyaset", b:"Çin Millî Hükûmeti referandum sonucunu kabul edip Moğolistan'ın bağımsız statüsünü tanıdı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
-    { odak_yer:["Karakurum"], t:"1961-10-27", tur:"siyaset", b:"Moğolistan 101. üye olarak Birleşmiş Milletler'e kabul edildi (1946'dan beri engelleniyordu).", kaynak:"https://www.icao.int/sites/default/files/postalhistory/mongolia_60th_anniversary_of_admission_to_the_united_nations.htm" },
-    { odak_yer:["Karakurum"], t:"1990-03-09", tur:"siyaset", b:"Politbüro başkanı Batmönh Politbüro'yu feshedip istifa etti, çok partili seçimlerin yolu açıldı.", kaynak:"https://en.wikipedia.org/wiki/Mongolian_Revolution_of_1990 (tek başına dayanak değil; ikinci kaynak bulunamadı)" },
-    { odak_yer:["Karakurum"], t:"1992-02-12", tur:"siyaset", b:"Yeni anayasa yürürlüğe girdi: bağımsız, egemen cumhuriyet, tek meclisli yasama, halkoyuyla seçilen cumhurbaşkanı.", kaynak:"https://en.wikipedia.org/wiki/1992_Mongolian_parliamentary_election ; https://www.globalsecurity.org/military/world/mongolia/government.htm" }
+    { odak_yer:["Urga (Ulan Batur)"], t:"1924-11-26", tur:"kurulus", b:"Moğolistan Halk Cumhuriyeti ilan edildi", kaynak:"TDV: mogolistan" },
+    { odak_yer:["Urga (Ulan Batur)"], t:"1945-10-20", tur:"siyaset", b:"Moğolistan'da bağımsızlık referandumu yapıldı, oylar ezici çoğunlukla bağımsızlıktan yanaydı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
+    { odak_yer:["Urga (Ulan Batur)"], t:"1946-01-05", tur:"siyaset", b:"Çin Millî Hükûmeti referandum sonucunu kabul edip Moğolistan'ın bağımsız statüsünü tanıdı.", kaynak:"https://www.cia.gov/readingroom/document/cia-rdp80r01443r000400190003-6" },
+    { odak_yer:["Urga (Ulan Batur)"], t:"1961-10-27", tur:"siyaset", b:"Moğolistan 101. üye olarak Birleşmiş Milletler'e kabul edildi (1946'dan beri engelleniyordu).", kaynak:"https://www.icao.int/sites/default/files/postalhistory/mongolia_60th_anniversary_of_admission_to_the_united_nations.htm" },
+    { odak_yer:["Urga (Ulan Batur)"], t:"1990-03-09", tur:"siyaset", b:"Politbüro başkanı Batmönh Politbüro'yu feshedip istifa etti, çok partili seçimlerin yolu açıldı.", kaynak:"https://en.wikipedia.org/wiki/Mongolian_Revolution_of_1990 (tek başına dayanak değil; ikinci kaynak bulunamadı)" },
+    { odak_yer:["Urga (Ulan Batur)"], t:"1992-02-12", tur:"siyaset", b:"Yeni anayasa yürürlüğe girdi: bağımsız, egemen cumhuriyet, tek meclisli yasama, halkoyuyla seçilen cumhurbaşkanı.", kaynak:"https://en.wikipedia.org/wiki/1992_Mongolian_parliamentary_election ; https://www.globalsecurity.org/military/world/mongolia/government.htm" }
   ]
 },
 { id:"avusturya-ikinci-cumhuriyet", ad:"Avusturya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"orta-avrupa",
