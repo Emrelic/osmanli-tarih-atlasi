@@ -29,6 +29,8 @@ Yöntem: Treccani sayfaları `WebFetch` ile okundu (özetleyici model; aşağıd
 | Vicenza | EI «Vicenza» okundu | Cangrande **15 Nisan 1311**; Scaligeri sonu **Ekim 1387**; Venedik'e **1404** (gün yok) | künye taslağı; Vicenza yerleşimi yok |
 | Montalcino | EI «Siena», EI «Montalcino» okundu | 1555 sürgün cumhuriyet (Strozzi, Fransız yardımı), **1559** Cosimo I'e boyun eğdi | künye taslağı (gün yok) |
 | Floransa-Toskana | EI «Toscana» (ilk 100 bin karakter) okundu | 1532 anayasası ile Alessandro «duca di Firenze»; Pio V **1569** Cosimo I granduca; **1 Mayıs 1532 ve 27 Ağustos 1569 günleri metinde YOK** | günler **okunmadı**; atlas `toskana` f=1532-05-01 / floransa t=1532-05-01 tek kaynak yok (künye notuna bakılmalı) |
+| Lucca 1369 | EI «Lucca» okundu | Diploma **7 Nisan 1369**, ertesi gün akt «definitivamente libera» (**8 Nisan**); 6 Nisan değil; 1316/1341/1342/1370 yalnız yıl veya yıl bile yok | `lucca-cumhuriyeti` madde 3: 1369-01-01 → **1369-04-08** |
+| Pisa 1288/1392/1399, Siena 1287/1355, Piombino 1501/1548, Sardinya | EI «Pisa», «Siena», «Piombino» okundu; «Sardegna» ilk 100 bin karakter | **Yalnız yıl** (gün YOK); Siena: Montalcino direnişi sonu «luglio 1559» (ay) | gün **yazılmadı** (kaynakta yok); Sardinya olayları okunan kısımda yok |
 | Saluzzo | (önceki tur) | DBI 1504'te bitiyor | okunmadı |
 | Pontecorvo | EI «Pontecorvo» sorgulanmadı (slug denenmedi) | — | okunmadı |
 | Malatesta DBI «Malatesta da Verucchio» | slug boş sayfa döndü | — | okunmadı |

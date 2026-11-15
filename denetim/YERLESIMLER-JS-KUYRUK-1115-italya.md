@@ -21,4 +21,11 @@ Dosya: `yerlesimler.js` yalnız Palermo/Messina/Taranto/Torino/Cagliari/Sirakuza
 | 13 | Padova | yerlesimler_avrupa.js | `padova-carrara` (1318) ile `carrara` (1345) ikiz: tek künye seçilince 1318-07-25..1345-01-01 BOŞLUK beyanı kapanır | | DBI «Carrara» (künye) | ikiz birleştirme |
 | 14 | Modena | yerlesimler_avrupa.js | 1859-06-11..1860-03-18 `__BOSLUK__`: V. Francesco'nun ayrılışı ile 1860-03-18 ilhak arası (kaynak: ASMo, ilhak günü okunmadı) | | ASMo Austro-Estense envanteri | madde var mı kontrol |
 
+İkinci tur ek kalemler (Treccani okundu, ayrıntı `BOLGE-italya-8-ikinci-tur-1115.md`):
+- 15. **Lucca** (`yerlesimler_avrupa.js`): `piza`→`lucca-cumhuriyeti` kırılması 1369-01-01 (yıl); Treccani EI «Lucca»: diploma 7 Nisan, «libera» 8 Nisan 1369 → kırılma **1369-04-08**; D2 maddesi (`kronoloji_sinir*`/`olaylar*`) aynı güne taşınmalı.
+- 16. **Urbino** (YENİ yerleşim, kalem 7) için gün çıpaları (Treccani okundu): 1443-04-25 (EI «Urbino»; EI «Montefeltro» 26 — çelişki), 1502-06-22 Borgia, 1508-04-11 Guidubaldo ölümü.
+- 17. **Mantova/Casale** pencere kırılmaları: Gonzaga dükalığı unvanı 1530-04-08, Monferrato hükmü 1536-11-03 (Mantova `mantua` 1530 kırılması yok; Casale `montferrat-markizligi` 1000..1708 penceresi 1536'da Gonzaga'ya geçmeli mi — künye `montferrat` t=1708 ile çelişki: pencere kimliği KASA sorusu).
+- 18. **Vicenza** (YENİ yerleşim): 1311-04-15 Cangrande (EI «Vicenza»), 1387-10 Visconti, 1404 Venedik. **Treviso** (YENİ): 1312-12-15 Guecellone kovuldu, 1339 Scaligeri→Venedik, 1384-88 Carrara, 1388 Venedik.
+- 19. **Treviso/Vicenza/Verona civarı:** Verona 1277 sonrası `della-scala` pencerelerinde 1277-01-01 → Ekim 1277 (DBI «Alberto della Scala»: «ottobre 1277»; gün yok).
+
 Yeni künye adayları (devletler.js, gün okunmadı → yazılmadı): Malatesta/Rimini, Montefeltro, Ordelaffi, Manfredi, Da Polenta, Varano, Pico, Pio, Malaspina, Gorizia, Treviso/Vicenza komünleri, Bentivoglio (Bologna, 1401-02-27..1506-11-02 Treccani EI okundu → `bologna-komunu` içinde kalabilir).
