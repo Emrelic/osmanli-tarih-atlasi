@@ -5498,10 +5498,10 @@ window.DEVLETLER = [
   kronoloji:[
     { odak_yer:["Delhi"], t:"1526-04-21", tur:"kurulus", b:"Bâbür, Birinci Panipat Savaşı'nda Lûdî sultanlığını yenerek imparatorluğu kurdu", kaynak:"TDV, «Hindistan» maddesi (islamansiklopedisi.org.tr/hindistan), okundu 15 Kasım 2026: «21 Nisan 1526’da Pânîpet zaferini kazanarak Hindistan’a yerleşti» (Bâbür); ikinci akademik kaynak okunmadı" },
     { odak_yer:["Delhi"], t:"1556-01-01", tur:"hukumdar", b:"Ekber tahta çıktı, imparatorluğu Hindistan'ın büyük bölümüne yaydı" },
-    { odak_yer:["Delhi"], t:"1658-01-01", tur:"hukumdar", b:"Evrengzîb tahta çıktı, imparatorluk en geniş sınırlarına ulaştı" },
+    { odak_yer:["Delhi"], t:"1658-01-01", tur:"hukumdar", b:"Evrengzîb tahta çıktı, imparatorluk en geniş sınırlarına ulaştı", kaynak:"TDV çelişkisi (15 Kasım 2026, okundu): «Bâbürlüler» maddesi «Muhyiddin I. Âlemgîr unvanıyla 21 Temmuz 1658’de Agra’da tahta çıktı»; «Evrengzîb» maddesi «Delhi’de tahtı ele geçiren (31 Temmuz 1658)», ikinci cülus kutlaması 5 Haziran 1659. Aynı yıl (1658) iki TDV maddesinde teyitli; gün iki TDV maddesinde çelişir ve üçüncü akademik kaynak okunmadığı için gün SEÇİLMEDİ, yıl hassasiyeti kaldı [yalnız yıl teyitli; gün teyitsiz]" },
     { odak_yer:["Delhi"], t:"1739-01-01", tur:"savas", b:"İran'dan Nadir Şah Delhi'yi yağmaladı, imparatorluk fiilen zayıfladı" },
     { odak_yer:["Delhi"], t:"1803-01-01", tur:"toprak-kayip", b:"İngiliz Doğu Hindistan Şirketi Delhi'yi ele geçirdi, imparator adı bir sembole indirgendi" },
-    { odak_yer:["Delhi"], t:"1857-09-21", tur:"son", b:"1857 Büyük Ayaklanması bastırıldıktan sonra son imparator II. Bahadır Şah tahttan indirilip sürgüne gönderildi" }
+    { odak_yer:["Delhi"], t:"1857-09-21", tur:"son", b:"1857 Büyük Ayaklanması bastırıldıktan sonra son imparator II. Bahadır Şah tahttan indirilip sürgüne gönderildi", kaynak:"TDV, «Bahadır Şah II» maddesi (islamansiklopedisi.org.tr/bahadir-sah-ii), okundu 15 Kasım 2026: «20 Eylül’de Hümâyun’un türbesine sığınan II. Bahadır Şah» (alıntı doğrulandı); teslim günü 21 Eylül yalnız okuma özetinde var, cümle birebir doğrulanmadı — 21 Eylül günü ikinci kaynakla teyitsiz; Aralık 1858’de yargılanıp Rangun’a sürüldü; 6 Kasım 1862’de öldü (13 Cemâziyelevvel 1279)" }
   ]
 },
 { id:"behmeni", ad:"Behmenî Sultanlığı (Dekken)", tur:"sultanlik", bolge:"guney-asya",
