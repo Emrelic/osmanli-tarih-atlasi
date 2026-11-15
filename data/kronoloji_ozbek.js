@@ -7,7 +7,7 @@
 //   1510-12-02 Şeybânî Han'ın ölümü        (kronoloji_iran.js, dunya:2)
 //   1569-01-01 Osmanlı'nın Astrahan seferi (kronoloji_rusya.js, dunya:2)
 //   1865-06-29 Taşkent'in fethi            (kronoloji_rusya.js, dunya:2)
-//   1868-06-02 Buhara himayeye alındı       (kronoloji_rusya.js, dunya:2)
+//   1868-07-05 Buhara himayeye alındı       (kronoloji_rusya.js, dunya:2)
 //   1873-08-24 Hîve himayeye alındı         (kronoloji_rusya.js, dunya:2)
 //   1876-02-19 Hokand ilhak edildi         (kronoloji_rusya.js, dunya:2)
 // Bu altı olayın `dunya` değeri KASITLI OLARAK kopyalandı — M-0873/M-0885'in
@@ -281,13 +281,14 @@ window.KRONOLOJI_OZBEK = [
   d:"Nasrullah Han'ın ölümüyle oğlu Muzafferüddin tahta çıktı; saltanatı, Rus istilasının başlayıp emirliğin bağımsızlığını kaybettiği döneme denk geldi.",
   kaynak:"standart akademik kaynak (Cambridge History of Central Asia)" },
 
-{ taraflar:["buhara"], t:"1868-06-02",
+{ taraflar:["buhara"], t:"1868-07-05",
   b:"Buhara Emirliği Rus himayesine girdi",
   tur:"vassal", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","vassal","toprak-kayip","buhara","konu-askeri","konu-siyasi"],
   yer_id:"Buhara",
   d:"Semerkant'ın Rus kuvvetlerince ele geçirilmesinin ardından Emir Muzafferüddin, Rusya'nın himayesini kabul eden bir antlaşma imzaladı; Buhara dış politikada Rusya'ya bağlı ama iç yönetiminde özerk bir vasal devlet olarak 1920'ye kadar varlığını sürdürdü.", ic_not_d:"`dunya` değeri kronoloji_rusya.js'teki aynı olayla BİREBİR aynıdır.",
-  kaynak:"TDV, madde: buhara-hanligi + kronoloji_rusya.js ile çapraz doğrulandı" },
+  kaynak:"TDV, madde: buhara-hanligi + kronoloji_rusya.js ile çapraz doğrulandı · Schuyler, Turkistan II (1876) · Büyük Rus Ansiklopedisi, «Russko-bukharskii dogovor 1868» · Becker, Russia's Protectorates in Central Asia (1968) s.41-42",
+  ic_not_gun:"Hakem (15 Kas 2026): atlasın eski 1868-06-02 günü Zerabulak savaşının (Jülyen 2 Haziran = Gregoryen 14 Haziran) ve ateşkes süresinin bitiş günüdür, himaye/antlaşma günü değildir (Becker 1968 s.41). Antlaşma: Schuyler, Turkistan II (1876), Bukhara bölümü, «signed on June 23 (July 5), 1868» + Büyük Rus Ansiklopedisi «Russko-bukharskii dogovor 1868» (önleyici barış, Semerkant, 23 Haziran/5 Temmuz): bağımsız iki kaynak; Jülyen 23 Haziran 1868 = Gregoryen 5 Temmuz 1868 (Rusya, 1582 sonrası: Gregoryen yazıldı). Çelişen: Becker 1968 s.42 emirin barış koşullarını Karşı'da 18 Temmuz'da imzaladığını söyler (takvim belirtilmemiş; ayrı olay: emirin kendi imzası); mooflife 18 Haziran (akademik değil, sayılmadı). TDV buhara-hanligi bu oturumda okunamadı (sayfa gövdesi çekilemedi). Seçilen gün: 1868-07-05." },
 
 { taraflar:["buhara"], t:"1885-01-01",
   b:"Muzafferüddin'in ölümü, Abdülahad Han'ın tahta çıkışı",
