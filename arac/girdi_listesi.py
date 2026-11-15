@@ -761,4 +761,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_zincir64.js",
     # YERLESIM-SAHNE-1108 (9 Kasim 2026): kronolojide anilip atlasta olmayan yerlesimler (mukerrer taramali)
     "yerlesimler_sahne1108.js",
+    # ITALYA-1115b (15 Kasim 2026): yerlesimsiz kunye Urbino (urbino-dukaligi 1443-1631)
+    "yerlesimler_italya_1115b.js",
 ]
