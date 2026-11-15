@@ -763,4 +763,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_sahne1108.js",
     # BOLGE-CINb (15 Kasim 2026, UMIT ikinci dalga): Weihaiwei Ingiliz kira bolgesi 1898-1930 (kunye weihaiwei-ingiliz, harita:ingiltere)
     "yerlesimler_cin_1115b.js",
+    # ITALYA-1115b (15 Kasim 2026): yerlesimsiz kunye Urbino (urbino-dukaligi 1443-1631)
+    "yerlesimler_italya_1115b.js",
 ]
