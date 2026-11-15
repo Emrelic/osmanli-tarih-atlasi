@@ -4270,7 +4270,7 @@ window.SAVASLAR = [
 { t:"1659-02-16", tur:"isyan", ad:"Abaza Hasan Paşa",       taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:400, taraf:["osmanli"] },
 { t:"1795-03-01", tur:"isyan", ad:"Pazvandoğlu Osman",      taraf_metin:"iç isyan", sonuc:"belirsiz", seri:"ic", lat:43.99, lon:22.87, sure:1500, taraf:["osmanli"] },
 { t:"1804-02-14", tur:"isyan", ad:"Birinci Sırp isyanı",    taraf_metin:"Sırplar",  sonuc:"belirsiz", seri:"ic", lat:44.82, lon:20.46, sure:1200, taraf:["osmanli","sirbistan-prensligi"] },
-{ t:"1821-03-25", tur:"isyan", ad:"Mora isyanı",            taraf_metin:"Rumlar",   sonuc:"yenilgi", seri:"yunan", lat:37.51, lon:22.38, sure:1500, taraf:["osmanli","yunanistan"], ic_not_takvim:"TAKVİM-PARTİSİ-1114 (YUN-126B/174B): gün DEĞİŞTİRİLMEDİ, BELİRSİZ. 25 Mart 1821 geleneksel Yunan bayram günüdür (Jülyen; Gregoryen karşılığı 6 Nisan). Hakemli kaynak: Roderick Beaton, 'The Greek Revolution of 1821: An Overview' (Hellenic Society): başlangıcı 6 Mart 1821 Gregoryen (22 Şubat Jülyen, Prut geçişi) verir; 25 Mart Agia Lavra sahnesi 'almost certainly apocryphal' (17/21/25 Mart tartışmalı). Bu takvim değil olay-tanımı sorunudur; 19 yerleşim kırılması bu güne bağlıdır. Karar Emre'ye soruldu: denetim/EMRE-SORULARI-1114.md." },
+{ t:"1821-04-02", tur:"isyan", ad:"Mora isyanı",            taraf_metin:"Rumlar",   sonuc:"yenilgi", seri:"yunan", lat:37.51, lon:22.38, sure:1500, taraf:["osmanli","yunanistan"], ic_not_takvim:"HAKEM 14 Kasım 2026 (denetim/HAKEM-YUNAN-1821-1114.md): Mora'daki ilk silahlı eylem Kalavrita, 21 Mart 1821 Jülyen = 2 Nisan 1821 Gregoryen (Mathesis ders metni; Hellenic Parliament Foundation kronolojisi '21-24 Mart'; Akyay, ABAD 5(9) 2022, 'Mart ayı sonlarına doğru'; Feyzioğlu, TTK 2024, 'mart sonları'). Mora başlangıcı tek gün değil 17-24 Mart Jülyen kümesidir: Mani toplantısı 17 Mart J (= 1821-03-29), Patra 21-23 Mart J (= 04-02/04), Kalamata 23 Mart J (= 1821-04-04), Doğu Sterea 24 Mart J. ÇELİŞKİ (teyitsiz): Feyzioğlu (Cevdet C.11 s.8'e dayanarak) isyanın 17 Mart 1821'de (12 Cemâziye'l-âhir 1236 = 17 Mart Gregoryen) Argos'ta çıktığını yazar; Yunan kaynaklarla uyuşmaz, ikinci bağımsız akademik teyit bulunamadı, TDV gün vermez; seçilen gün Kalavrita 21 Mart J. 25 Mart (Jülyen = 6 Nisan) Agia Lavra geleneğidir, olay günü sayılmaz." },
 { t:"1875-06-19", tur:"isyan", ad:"Hersek isyanı",          taraf_metin:"Sırplar",  sonuc:"yenilgi", seri:"rus",  lat:43.34, lon:17.81, sure:900, taraf:["osmanli","sirbistan-prensligi"] },
 
 // --- Deniz muharebeleri (çapa) ---
@@ -4360,7 +4360,7 @@ window.ANTLASMALAR = [
 { t:"1829-09-14", ad:"Edirne", savas_basi:"1828-04-26",               taraf_metin:"Rusya",            ozet:"Tuna deltası kaybı; Yunanistan yolu",
   savas_basi_kaynak:"TDV edirne-antlasmasi — “Rusya … savaş açmıştı (26 Nisan 1828)”.",
   taraf:["osmanli","rusya"], topraklar:"Tuna deltasındaki adalar ve Ahıska-Ahılkelek Rusya'ya bırakıldı; Eflak ve Boğdan'da Rus işgali sona erdi ama özerklik genişledi; Yunanistan'ın bağımsızlığının önü açıldı." },
-{ t:"1830-02-03", ad:"Londra Protokolü", savas_basi:"1821-03-25",     taraf_metin:"İng-Fra-Rus",      ozet:"Bağımsız Yunanistan tanındı",
+{ t:"1830-02-03", ad:"Londra Protokolü", savas_basi:"1821-04-02",     taraf_metin:"İng-Fra-Rus",      ozet:"Bağımsız Yunanistan tanındı",
   taraf:["osmanli","ingiltere","rusya","yunanistan"], topraklar:"Mora ve orta Yunanistan Osmanlı'dan ayrılıp bağımsız Yunanistan Krallığı'na verildi." },
 { t:"1833-05-06", ad:"Kütahya Uzlaşması", savas_basi:"1831-10-31",   taraf_metin:"Mısır (Kavalalı)", ozet:"Suriye ve Adana Mehmed Ali ile İbrâhim Paşa'ya bırakıldı",
   taraf:["osmanli","misir-kavalali"], topraklar:"Suriye, Filistin, Adana ve Girit valilikleri Osmanlı merkezinden Mehmed Ali Paşa'nın oğlu İbrâhim Paşa'nın idaresine bırakıldı." },
@@ -5070,7 +5070,7 @@ window.SEFERLER = [
   f:"1815-04-23", t:"1815-04-23", yol:[[20.46,44.82],[20.93,44.66]] },
 // Olaylar.js: "İsyan Osmanlı kuvvetlerince mayısta bastırıldı" — bu harekâtın
 // kendisi (Prut'un geçilmesi) bastırıldığı için sonuc Osmanlı açısından zafer;
-// isyan ateşinin Mora'ya sıçraması ayrı maddededir (Yunan İsyanı, 1821-03-25).
+// isyan ateşinin Mora'ya sıçraması ayrı maddededir (Mora'da ilk silahlı ayaklanma, 1821-04-02).
 // ⚠️ Ad, kronoloji maddesinin (olaylar_ek5.js, t:1821-02-22) kendi başlığıyla
 // birebir eşleşecek şekilde "Eflak İsyanı" ile başlıyor — hatalar 16 md.10'da
 // kullanıcı bu adı arıyordu, eski ad ("İpsilanti'nin...") onu karşılamıyordu.

@@ -65,7 +65,7 @@
 //      Paksos     → `Korfu`nun zinciri (4 gün: 1797-10-17 · 1815-11-05 ·
 //                   1864-06-02 · ufuk)
 //      Elafonisos → `Mora (Tripoliçe)`nin zinciri (4 gün: 1460-05-29 ·
-//                   1687-08-01 · 1715-07-01 · 1821-03-25)
+//                   1687-08-01 · 1715-07-01 · 1821-04-02)
 //    Kasten böyle: ada ile bağlı olduğu gövde ayrı günler kullansaydı
 //    aralarında KURGUSAL bir sınır doğardı (yerlesimler_ek.js'in Dalmaçya
 //    kuyruğunda verilen kararın aynısı).
@@ -142,9 +142,9 @@ window.YERLESIMLER_EK_ADALAR = [
   kaynak:"mora — Elafonisos'un müstakil TDV maddesi YOK (slug 302); ada Mora'nın 400 m açığında ve Pasarofça'nın Venedik mülk listesinde geçmiyor. HÜKÜM ÇIKARIMDIR, ölçüm değildir; üç ayağı dosya başında açıkça yazılıdır.",
   s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Mora Despotluğu'nun kuruluşu — Manuel Kantakuzenos Mezistre'de» (1349-01-01, yer kolu) kaynağı — TDV mora: '1349’da İmparator Ioannes Kantakuzenos, oğlu Manuel için yeni bir bölge tahsis etmek istediğinde Mora’da önemli bir idarî değişim gerçekleşti ve Mora Despotluğu ortaya çıktı.' · 'Manuel 1380’e kadar yönetimi elinde tuttu' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1349-01-01",t:"1460-05-29",d:"mora-despotlugu",kesinlik:{f:"yil"},kaynak:"ABİ MERKEZ: Mora (Tripoliçe) — TDV mora: '1349’da İmparator Ioannes Kantakuzenos, oğlu Manuel için yeni bir bölge tahsis etmek istediğinde Mora’da önemli bir idarî değişim gerçekleşti ve Mora Despotluğu ortaya çıktı.' · zincir Mora (Tripoliçe)'den devralındı (Argolis/Saronik kıyısı Despotluk toprağı; şehir adlı tanık bulunamadı) · BEYANLI YAKLAŞIKLIK · DUNYA-1102 bizans t 1453 kararı (Emre, 2 Kasım 2026)"},
      {f:"1687-08-01",t:"1715-07-01",d:"venedik",eksklav:true,kaynak:"ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Venedik'in Mora krallığı — İtalya'daki gövdeden denizle ayrı denizaşırı mülk, kopukluğu tarihîdir · TDV mora: '1095 (1684) ile 1097 (1686) yılları arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir donanma Mora’ya çıkarma yaparak bütün yarımadayı ele geçirdi' · 'Osmanlılar, Damad Ali Paşa’nın askerî harekâtı sonucu (1127/1715 yazı) Mora’ya geri geldiklerinde' (şehir şehir giriş-çıkış günleri bu beyanla doğrulanmadı)"},
-     {f:"1821-03-25",t:"1973-06-01",d:"yunanistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Yunan İsyanı başladı» (1821-03-25, yer kolu) kaynağı — TDV İslâm Ansiklopedisi: mora · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
+     {f:"1821-04-02",t:"1973-06-01",d:"yunanistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mora'da ilk silahlı ayaklanma» (1821-04-02, yer kolu) kaynağı — TDV İslâm Ansiklopedisi: mora · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}],
   d:[{f:"1460-05-29",t:"1687-08-01"},
-     {f:"1715-07-01",t:"1821-03-25"}] },
+     {f:"1715-07-01",t:"1821-04-02"}] },
 
 ];
 
