@@ -313,6 +313,21 @@ window.KRONOLOJI_COK_INCE_GD_ASYA = [
   gun:"1828 (yıl)", yer:"Vientiane", yer_id:"Vientiane", kisiler:"Anouvong",
   d:"Kral Anouvong'un 1827'deki Siyam karşıtı ayaklanması bastırıldı; 1828'de Siyam orduları Vientiane'i yakıp yıktı, halkın büyük kısmını Siyam'ın kuzeydoğusuna sürdü. Vientiane krallığı fiilen sona erdi, Luang Prabang ve Champasak Siyam'a doğrudan bağlı kaldı.",
   kaynak:"Martin Stuart-Fox, A History of Laos (Cambridge UP, 1997) · David K. Wyatt, Thailand: A Short History (Yale UP, 2. bs., 2003). Sayfa verilmedi.",
-  taraflar:["laos-kralliklari","siyam-chakri"], etiket:["konu-askeri","konu-siyasi"] }
+  taraflar:["laos-kralliklari","siyam-chakri"], etiket:["konu-askeri","konu-siyasi"] },
+
+// ── UMIT-1115 maritim: Cava İngiliz ara dönemi ve Japon işgali (Ricklefs tam metni, archive.org) ──
+{ onem:4, dunya:2, bolge_onem:4, puan_s:"v2", t:"1811-08-04", k:"askeri", tur:"askeri", b:"İngiliz donanması Batavia önünde göründü — Cava'nın İngiliz fethi başladı",
+  gun:"4 Ağustos 1811", yer:"Batavia", yer_id:"Batavia (Cakarta)", kisiler:"Stamford Raffles",
+  d:"Hollanda Doğu Hint'inin başkenti Batavia önüne 4 Ağustos 1811'de 60 İngiliz gemisi geldi; şehir ve çevresi 26 Ağustos'a kadar İngiliz eline geçti, Vali Janssens 18 Eylül'de Salatiga yakınında teslim oldu. 1811-1816 İngiliz ara yönetimi başladı.",
+  kaynak:"M. C. Ricklefs, A History of Modern Indonesia since c.1200 (3. bs., Palgrave 2001), İngiliz fethi bölümü (archive.org tam metin okundu): «On 4 August 1811, 60 British ships appeared before Batavia, and the city and its surroundings were in British hands by 26 August … on 18 September Janssens capitulated near Salatiga»; TDV endonezya: «Raffles yönetiminde beş yıl (1811-1816)»",
+  ic_not:"Tek akademik kaynak günleri (4 Ağu, 26 Ağu, 18 Eyl) verir. Atlas yerleşim pencereleri 1811-08-18 / 1816-08-19 günlerini taşıyor: 1811-08-18 Ricklefs'in hiçbir gününe uymuyor (kaynaksız) → kuyruk. İkinci tam metin okunmadı (çift teyit yok).",
+  taraflar:["hollanda-dogu-hint","ingiltere"], etiket:["konu-askeri","konu-siyasi"] },
+
+{ onem:5, dunya:4, bolge_onem:5, puan_s:"v2", t:"1942-03-08", k:"askeri", tur:"askeri", b:"Cava'daki Hollanda kuvvetleri Japonya'ya teslim oldu — Hollanda Doğu Hint idaresi sona erdi",
+  gun:"8 Mart 1942", yer:"Batavia", yer_id:"Batavia (Cakarta)", kisiler:"Hein ter Poorten, Tjarda van Starkenborgh Stachouwer",
+  d:"Java Denizi savaşının ardından Cava'daki Hollanda kuvvetleri teslim oldu; Genel Vali van Starkenborgh tutuklandı. 1942-1945 Japon işgali başladı.",
+  kaynak:"M. C. Ricklefs, A History of Modern Indonesia since c.1200 (3. bs.), Japon işgali bölümü (archive.org tam metin okundu): «On 8 March 1942 the Dutch in Java surrendered and Governor-General van Starkenborgh was arrested»; TDV endonezya: «1942-1945 yılları arasındaki Japon dönemi»",
+  ic_not:"Gün çelişkisi: Ricklefs 8 Mart 1942; atlas yerleşim pencereleri 1942-03-09 (Hollanda Doğu Hint → Japonya, ~70 yerleşim). İkinci tam metin okunmadı (hakemli karar için bağımsız kaynak gerekir); madde Ricklefs gününde (1 gün fark, D2 ±30 içinde) bırakıldı, pencere günü değişmedi → kuyruk.",
+  taraflar:["hollanda-dogu-hint","meiji-japonya"], etiket:["konu-askeri","konu-siyasi"] }
 
 ];

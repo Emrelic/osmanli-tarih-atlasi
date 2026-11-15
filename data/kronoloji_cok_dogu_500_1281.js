@@ -8246,7 +8246,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "t": "1565-01-01",
+  "t": "1565-04-27",
   "tur": "isgal",
   "b": "Legazpi Cebu'ya çıkıp ilk İspanyol yerleşimini kurdu",
   "taraflar": [
@@ -8256,9 +8256,9 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "yer": "Cebu",
   "d": "Hall: Miguel Lopez de Legaspi 1564 sonunda Meksika'dan yola çıktı ve izleyen Nisan'da Cebu'ya çıkıp ilk İspanyol yerleşimini kurdu; 1572'deki ölümünden önce Cebu, Leyte, Panay, Mindoro ve Luzon ovasında İspanyol denetimini yaydı.",
   "kaynak": "Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981); archive.org/details/a-history-of-south-east-asia-4th-ed (djvu tam metni bu oturumda okundu), Bölüm İspanyollar Filipinler'de: «late in 1564, Miguel Lopez de Legaspi» · «landed on Cebu and planted the first Spanish settlement there»",
-  "gun": "1565 (Nisan; gün yok)",
-  "kesinlik": "yil",
-  "ic_not": "Gün yok."
+  "gun": "1565-04-27 (Cuma)",
+  "kesinlik": "gun",
+  "ic_not": "UMIT-1115 maritim: gün Legazpi'nin kendi seyir raporundan (Blair & Robertson, The Philippine Islands 1493-1803, cilt 2, Project Gutenberg #13280: «we reached the port of Çibu on Friday, April 27, 1565») ve aynı ciltteki Legazpi seferi anlatısından («did not reach their destination until the twenty-seventh and thirtieth of April»); iki ayrı belge, tam metin okundu. Hall yalnız 'Nisan' der, TDV filipinler yalnız 1565. Cebu kasabasının ele geçirilişi 28 Nisan (aynı cilt, özet)."
  },
  { "odak_yer":["Kaifeng"], 
   "onem": 2,

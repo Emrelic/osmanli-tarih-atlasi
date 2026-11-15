@@ -209,7 +209,8 @@ window.KRONOLOJI_PORTEKIZ = [
 { t:"1511-08-10", b:"Malaka'nın fethi — baharat yolunun boğazı ele geçirildi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Malaka",
   etiket:["askeri","toprak-kazanc","ticaret","konu-askeri","konu-ekonomi"],
   d:"Albuquerque, Malaka Boğazı'nı denetleyen zengin liman şehri Malaka'yı Malaka Sultanlığı'ndan aldı. Boğaz, Hint Okyanusu ile Güneydoğu Asya baharat adaları arasındaki tek deniz geçidiydi; onun ele geçirilmesi Portekiz'e baharat ticaretinin kaynağına doğrudan erişim sağladı.",
-  kaynak:"TDV `portekiz`: \"1511: Malezya zaptedildi\" (Malaka Sultanlığı kastediliyor)" },
+  kaynak:"TDV `portekiz`: \"1511: Malezya zaptedildi\" (Malaka Sultanlığı kastediliyor)",
+  ic_not:"UMIT-1115 maritim: gün 10 Ağustos 1511 — ÇİFT TEYİT: TDV malaka («10 Ağustos 1511 tarihinde Alfonso de Albuquerque tarafından ele geçirildi») ve TDV malezya (aynı gün) + Coedès, The Indianized States of Southeast Asia (1968, archive.org tam metin): «he seized it on August 10, 1511». Vikipedi'nin 15 Ağustos'u dayanak sayılmadı; Ricklefs (3. bs.) gün vermez ('Temmuz ve Ağustos başı çatışmalar')." },
 
 { odak_yer:["Lizbon"], t:"1512-01-01", b:"Ordenações Manuelinas — birleşik hukuk kodu yürürlüğe girdi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","konu-islahat","konu-hukuk"],

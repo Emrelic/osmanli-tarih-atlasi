@@ -34,3 +34,37 @@ Kaynak durumu: **TDV'den bu oturumda okunanlar:** malaka, bruney, bentem, ace, f
 ## C. Okunmadı / yapılamadı
 Coedès bağlı ~70 madde (500–1281): kaynak kitabı bu oturumda erişilemedi; atlas günleri çoğu yıl-01-01 (yıl hassasiyeti, beyan var). Ricklefs/Andaya/Hägerdal/Runciman/Tarling: okunmadı. TDV `cakarta`, `malezya`, `endonezya`, `sumatra`, `portekiz`: bu oturumda okunmadı (kaynak alanında "TDV:" yazan 1396 Malaka kuruluşu, 1405, 1450, 1521, 1522, 1527, 1530, 1552, 1571, 1578, 1585 maddelerinden TDV filipinler/ace/bentem/cava/bruney/malaka ile örtüşenler A'da).
 **1396 Malaka kuruluşu (SINIR_ASYA[11]) ≠ künye f=1400:** tdv malaka "1390'lı yılların ortaları" der; yerleşim penceresi `1400-01-01`'de başlar, madde 1396-01-01 — iç tutarsızlık (Johor/Muar/Bintan/Jambi 1400 'e kadar `malay-sultanliklari`). Düzeltme: künye f 1396'ya mı, madde 1400'e mi — TDV "ortaları" yıl vermez; **madde kaynaklı yıl yazamaz → bulunamadı** olarak bırakıldı.
+
+
+---
+# 2. TUR (15 Kasım 2026) — TDV ek okumalar + tam metinle hakemli karar
+
+## TDV'de okunan (2. tur)
+- **cakarta:** Portekizliler 1522'de Pajajaran ile anlaştı, «beş yıl sonra» döndüklerinde şehir Bentem'in elindeydi (yaklaşık 1527; gün yok); Batavya surları 1619; İngiliz ara dönemi 1811-1816; Japon dönemi 1942-1945. «Cayakarta»/22 Haziran metinde YOK.
+- **malezya:** Malaka kuruluşu «1396 [?]»; düşüş 10 Ağustos 1511; VOC Ocak 1641; Johor Mahmûd Şah'ın 1528 ölümünden «iki yıl sonra» (~1530); Penang adası 1785 (atlas 1786-08-11: TDV yıl çelişkisi; Light'ın günü için ikinci kaynak okunmadı); Straits Settlements 1826; FMS Temmuz 1896; Malaya Birliği Ocak 1946 planı, federasyon 1 Şubat 1948; bağımsızlık 31 Ağustos 1957; Malezya 16 Eylül 1963; 1909 İngiliz-Siyam.
+- **endonezya:** Majapahit «1478'de yıkılışı» (vekâyinâme), Demak 1478'de kuruldu (Trenggana 1521-46), Sultan Agung 1613-46; VOC Mart 1602; 1743 ve 1755 metinde yok; İngiliz 1811-1816; Japon 1942-45; bağımsızlık ilanı 17 Ağustos 1945; devir «1949 sonu». TDV içi çelişki: cava Majapahit «1300-1525»; demak: Demak kuruluşu «XV. yy son çeyrek» (yıl yok).
+- **sumatra:** Açe Ali Mugāyet Şah «1514-1530» (TDV ace 1521: TDV içi çelişki); Açe-Hollanda 1873-1903; Hollanda hakimiyeti sonu 27 Aralık 1949.
+- **singapur:** Raffles 1818 (atlas Singapur 1819-01-29; TDV yıl çelişkisi), 1824, 1826 SS, 1942-45, 1959, 1963, 9 Ağustos 1965.
+- **pasai, demak:** pasai: 1521 Portekiz; demak: Trenggana 1524'ten sultan, 1527 Tuban, 1546 ölüm, Demak 1578'de başka güçlerin hakimiyetine girdi.
+- **portekiz:** Malay/Malezya 1511, Goa 1510 (Makao tarihsiz); Timor/Flores 1859 yok.
+- **Çekilemedi / arama sayfasına düştü (okunmadı):** cohor, gova, ternate (yalnız 1495 İslâm kabulü, 1498), bancarmasin, tidore (ayrı madde slug'ı bulunamadı).
+
+## Tam metinle hakemli karar
+İndirilen metinler: Gutenberg #13280 ve #13616 (Blair & Robertson cilt 2-3); archive.org: Ricklefs, A History of Modern Indonesia since c.1200 (3. bs.); Coedès, The Indianized States of Southeast Asia.
+
+| satır | TDV | tam metin 1 | tam metin 2 | karar |
+|---|---|---|---|---|
+| Malaka düşüşü 1511-08-10 | 10 Ağu 1511 | Coedès «August 10, 1511» | Ricklefs: Temmuz–Ağustos başı çatışmalar (gün yok) | **çift teyit (TDV+Coedès)**; değişmedi |
+| Malaka kuruluşu | 1396[?]/1390'lar/1402 | Ricklefs c.1400 | Coedès 1403 | aynı yıl yok; madde (1396) ve künye (1400) olduğu gibi, ic_not hakem beyanı |
+| Cebu 1565-04-27 | yalnız 1565 | B&R c.2 Legazpi raporu «Friday, April 27, 1565» | B&R c.2 sefer anlatısı «twenty-seventh and thirtieth of April» | **madde 1565-04-27** |
+| Manila 1571-06-24 | 1571 | B&R c.3 Riquel belgesi (3 ve 24 Haziran 1571) | B&R c.3 yayıncı özeti (Mayıs 1571 / 1572 örgütlenme; editör tutarsız) | günü tek birincil belge verir; **madde 1571-06-24** (ic_not) |
+| Pajajaran sonu | Yûsuf 1570-80 | Ricklefs c.1579 | — | iki bağımsız kaynak → künye t 1579 |
+| Brunei 1405 | 1405-1415 | Ricklefs: 1368 yok | Coedès: Brunei sultanlığı başlangıcı yok | 1368 desteksiz → 1405 |
+| Singhasari sonu | — | Coedès 18 Mayıs–15 Haziran 1292 | Ricklefs'te ilgili sayfa okunmadı | atlas 1292-01-01 kaynaksız → kuyruk |
+| Majapahit sonu | 1525 / 1478 | Ricklefs c.1527 (1478 «later chronicles») | Coedès: 1478 istila bastırıldı, 1486 yeni hanedan | künye t 1527 korunur |
+| Mataram→VOC | — | Ricklefs «November 1743» | — | yalnız ay; gün ikinci kaynakta yok |
+| İngiliz ara dönemi 1811 | 1811-1816 | Ricklefs 4 Ağu / 26 Ağu / 18 Eyl 1811 | — | atlas 08-18 kaynaksız; madde 1811-08-04 eklendi |
+| 1942 teslim | — | Ricklefs 8 Mart 1942 | — | atlas pencere 03-09; madde 03-08 |
+| Sulu 1450/1457 | 1450[?] | Ricklefs «legendary sources» (tarihsiz) | — | karar verilemedi; değişmedi |
+
+DÜZELTME (ilk tur B1): "Sunda Kalapa 1527 Ricklefs günü" ifadesi hatalıydı; Ricklefs yalnız «showed up to build their post in 1527» der, gün vermez. 1. turdaki "künye t'yi 1579'a çekmek ikinci kaynak ister" ifadesi 2. turda karşılandı (TDV + Ricklefs).

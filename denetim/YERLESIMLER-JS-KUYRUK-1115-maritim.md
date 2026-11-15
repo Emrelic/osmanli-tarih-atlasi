@@ -27,3 +27,23 @@ Barus/Fansur (900–1200), Lamuri, Perlak, Kota Cina (Medan), Muara Takus, Dharm
 
 ## E. Eksklav bayrakları (BOLGE-maritim-6)
 Lifau (Oecussi) 1702/1860–1975, Singapur 1819–1826 (ingiltere), Penang 1786–1826, Batavia 1619–1811 (VOC; Banten çevre), Malaka 1511–1641/1825 (Johor çevre): mevcut `eksklav:` alanıyla; Değişmez 8 ölçümü koşu sonrası.
+
+
+---
+# 2. TUR EKİ (15 Kasım 2026) — dalda YAPILANLAR ve kalan kuyruk
+
+Yapıldı (bkz. BOLGE-maritim-7): Brunei künye f + 5 yerleşim penceresi 1405; Sunda-Pajajaran künye t 1579-01-01; Cebu / Manila madde günleri; iki yeni madde (1811-08-04, 1942-03-08); Malaka ic_not'ları. Bölüm A'daki A1 (Brunei) ve A3'ün künye ucu tamamlandı; A3 yerleşim pencereleri ve A4 bekliyor.
+
+## F. Yeni kuyruk satırları (yerlesimler_*.js / kd: / yer_yama / kademe; kaynaklı, tam metin okundu)
+| # | yerleşim(ler) | şimdiki | öneri | kaynak |
+|---|---|---|---|---|
+| F1 | Cava Singhasari sonu (~21 yerleşim: Demak, Semarang, Surabaya, Malang, Madiun, Pasuruan, Blitar, Tegal, Pekalongan, Rembang, Jepara, Kudus, Ponorogo, Bojonegoro, Sumenep, Bali (Klungkung), Mataram (Lombok), Sumbawa, Bima, Jambi 1275→1281 çevresi hariç) + singhasari künye t | 1292-01-01 | 1292-05-18 (Coedès aralığı 18 Mayıs–15 Haziran 1292'nin ilk günü; ic_not'ta aralık) ve kronoloji_sinir_asya[1] maddesi aynı güne | Coedès (1968) Singhasari/Kadiri bölümü, archive.org tam metin; çift teyit yok |
+| F2 | Cava `__BOSLUK__` sonu (15 yerleşim) | 1293-01-01 | Majapahit için Vijaya'nın iktidarı: Coedès Mayıs 1293 (Çinlilerin 31 Mayıs'ta ayrılışından sonrası); Trowulan'ın kaynaksız 1293-11-10'u (kd: + s: + yer_yama + kademe_f5c9a5) 1293-01-01 ya da kaynaklı güne | Coedès; sehir_tarihce_k12 ic_not itirafı |
+| F3 | Jayakatwang Kadiri'si (1292 – 26 Nisan 1293) | künye yok | yeni künye (renkler.py BOYALAR gerekli: KASA) | Coedès |
+| F4 | Banten, Cirebon, Purwokerto, Lampung `1527-06-22` | gün kaynaksız | TDV bentem Bentem'in alınışı 1522; Ricklefs c.1523-4; Sunda Kalapa ~1527 (TDV cakarta «beş yıl sonra»): yıl hassasiyeti 1527-01-01 ve banten f aynı; Purwokerto'nun Sunda'da olması şüpheli (Ricklefs'te anılmıyor) | TDV + Ricklefs |
+| F5 | Pakuan Pajajaran (Bogor) `s:` yok | — | sunda-pajajaran 1281→1579, sonra banten-sultanligi (künye t 1579'a uzatıldı, pencere yok) | TDV bentem + Ricklefs |
+| F6 | Cava 1811-08-18 / 1816-08-19 (≈40 geçiş) | 08-18 kaynaksız | Ricklefs: 26 Ağu 1811 (Batavia İngiliz elinde) ya da 18 Eyl 1811 (Janssens teslimi); 1816 ay/gün bulunamadı | Ricklefs 3. bs. |
+| F7 | Hollanda Doğu Hint → Japonya 1942-03-09 (~70 yerleşim) | 1942-03-09 | Ricklefs 8 Mart 1942 (ikinci kaynak bulunamadı) | Ricklefs |
+| F8 | Johor/Cohor künye f 1528 ve 7 yerleşim | 1528-01-01 | TDV malezya: Mahmûd Şah 1528'de öldü, Johor iki yıl sonra (~1530) kuruldu → künye f ~1530; boşluk uzar | TDV malezya |
+| F9 | Penang 1786-08-11 / Singapur 1819-01-29 | gün | TDV malezya 1785, TDV singapur 1818: yıl çelişkisi; Light/Raffles günleri için tam metin okunmadı | TDV |
+| F10 | Brunei çevresi Berau/Tarakan/Sukadana 1400, Kuching 1827, Sambas 1631 | pencere başları | kaynak bulunamadı (atlas kaynak alanı IBS 45 / yok) | — |
