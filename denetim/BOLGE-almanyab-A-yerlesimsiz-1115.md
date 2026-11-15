@@ -19,6 +19,13 @@ Dal `umit-1115b-almanya` (taban `origin/main` 8fb10bdf1). Yeni yerleşim AÇILMA
 | 13 | `lihtenstayn` / `liechtenstein` | **DOKUNULMADI** | — | — | Mükerrer künye; Vaduz `liechtenstein` sahipli; KASA kararı: silinmez, koşu 39 öncesi birleştirilir |
 | 14 | `orta-macar-kralligi` | **YANLIŞ POZİTİF** | (kayıt zaten var) | — | Yerleşimsiz değil: Kassa/Eperjes/Fülek/Ungvár `v:1682-09-16→1685-10-15`, Munkács `v:1682-09-16→1688-01-17` (`yerlesimler_ek.js`, `yerlesimler_ek_macaristan.js`); birinci dalga yalnız `s:` sahiplerine baktı |
 
+## Ölçüm (denetle ÖNCE/SONRA, aynı makine, `denetle-umit` kilidiyle; CIKIS sayısal)
+- ÖNCE (ebeveyn commit 8fb10bdf1 veri durumu, veri/künye/madde dosyaları geri alınarak): **CIKIS=0**, "SONUÇ: temiz"; D1 306 sahipsiz (beklenen 306), D2 760 kırılma / 0 açık, D2i 0 açık, D4 0, D4c 0, D5 0, D8a 270 (tavan 270), D2s 3698 yabancı kırılma / 154 açık, 2sk yalnız-taraf 5927 (tavan 5892 aşık — ÖNCEDEN VAR).
+- SONRA (commit 456f57da7): **CIKIS=0**, "SONUÇ: temiz"; D1 306 (aynı), D2 760 / 0 açık (aynı), D2i 0, D4 0, D4c 0, D5 0, D8a 270 (aynı), D2s 3699 yabancı kırılma / 154 açık (+1 kırılma, açık artmadı; YER ile kapanan 8816→8818), 2sk yalnız-taraf 5927 (değişmedi).
+- Yani **yeni D1/D2/D4c ihlali yok**; 2sk 5927 > 5892 tavan uyarısı birinci taban ölçümünde de aynıdır (bu dalın etkisi 0; KASA kaynağını ölçecek).
+- `odak_olc`: ÇÖZÜLMEYEN ODAK ATFI 0 (çalıştırıldı, SONRA durumunda).
+- `node --check`: yerlesimler_avrupa.js, yerlesimler_a78_avrupa.js, yerlesimler_halef_1946.js, devletler.js, olaylar_alm_1115b.js hepsi temiz.
+
 ## Kırılma maddeleri (Değişmez 2) — `data/olaylar_alm_1115b.js` (window.OLAYLAR_ALM1115B)
 Lübeck 1810-12-01 (ay) · 1813-01-01 (yıl) · 1937-04-01 (gün) · Bremen 1646-01-01 (yıl) · 1810-01-01 (yıl) · 1813-01-01 (yıl) · Kassel 1264-01-01 (yıl) · 1567-03-31 (gün) · Schwerin 1358-12-01 (gün) · 1815-01-01 (yıl) · Stettin 1637-03-10 (gün) · Bern 1218-01-01 (yıl). Klagenfurt 1335-05-01 kırılması mevcut `olaylar_ek16.js` maddesiyle kapalı (yer Klagenfurt).
 Çeviri anahtarı taşıma YOK (hiçbir mevcut madde tarihi değişmedi); yeni maddelerin çeviri hash'i yoktur (çeviri yenilemesi KASA'nın).
