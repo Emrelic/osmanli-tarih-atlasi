@@ -1118,5 +1118,86 @@ window.KRONOLOJI_SINIR_CIN_MS317 = [
   "sinir_id": [],
   "ic_not": "CIN2-MS317: sınır maddesi; dönem uçları k12 tarihçe birikiminden alındı ve ganzhi/JDN tutarlılığı betikle sınandı.",
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 乙未 → Jülyen 0963-03-10 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0963-03-15; 1582 öncesi gün Jülyen kalır"
+ },
+ {
+  "t": "1368-04-16",
+  "devlet": "ming-hanedani",
+  "taraflar": [
+   "yuan-hanedani",
+   "ming-hanedani"
+  ],
+  "b": "Henan'a doğru: Xu Da Bianliang'a (Kaifeng) girdi, Yuan komutanı Zuo Junbi teslim oldu",
+  "tur": "fetih",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer": "Kaifeng (Bianliang)",
+  "yer_id": "Kaifeng",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "cin-ming-1368"
+  ],
+  "d": "Ming ordusu Xu Da komutasında Bianliang'a (Kaifeng) girdi; Yuan'ın Henan'daki komutanı Zuo Junbi teslim oldu. Şehir bu günden itibaren Ming tarafındadır.",
+  "kaynak": "Ming shi (Zhang Tingyu vd.) j.2 «Taizu 2», zh.wikisource.org/wiki/明史/卷2 (açıldı, okundu; zh.wikisource neşiri): 洪武元年三月 «己亥，徐達徇汴梁，左君弼降»",
+  "gun": "1368-04-16 (Jülyen; ganzhi 己亥)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BOLGE-cin 1368-04-01 incelemesi (15 Kasım 2026): yerleşim `s:` ucunda 1368-04-01 toplu yer tutucudur (32 yerleşimde Yuan→Ming, çoğunda kaynak yok); Ming shi j.2 Henan seferini gün adıyla verir. Bu madde kaynaklı günü kayda geçirir; yerleşim ucunun bu güne çekilmesi yerlesimler*.js'e düşer (denetim/YERLESIMLER-JS-KUYRUK-1115-cin.md). İkinci bağımsız akademik kaynak (CHC c.7; Dreyer, Early Ming China) OKUNMADI.",
+  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 己亥 (洪武元年 三月) → Jülyen 1368-04-16 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13; ay sınırı 八月朔 己巳 = 1368-09-13'ten geri sayıldı); 1582 öncesi gün Jülyen kalır"
+ },
+ {
+  "t": "1368-04-25",
+  "devlet": "ming-hanedani",
+  "taraflar": [
+   "yuan-hanedani",
+   "ming-hanedani"
+  ],
+  "b": "Xu Da ve Chang Yuchun Luo Nehri kuzeyinde Yuan ordusunu bozdu; Prens Aluwen teslim oldu, Henan alındı",
+  "tur": "fetih",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer": "Luoyang, Henan",
+  "yer_id": "Luoyang",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "cin-ming-1368"
+  ],
+  "d": "Xu Da ve Chang Yuchun, Luo Nehri'nin kuzeyinde Yuan ordusunu yenip Henan'ı (Luoyang yöresi) kuşattı; Liang Prensi Aluwen teslim olunca Henan Ming'e geçti.",
+  "kaynak": "Ming shi (Zhang Tingyu vd.) j.2 «Taizu 2», zh.wikisource.org/wiki/明史/卷2 (açıldı, okundu; zh.wikisource neşiri): 洪武元年夏四月 «戊申，徐達、常遇春大破元兵於洛水北，遂圍河南。梁王阿魯溫降，河南平»",
+  "gun": "1368-04-25 (Jülyen; ganzhi 戊申)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BOLGE-cin 1368-04-01 incelemesi (15 Kasım 2026): yerleşim `s:` ucunda 1368-04-01 toplu yer tutucudur (32 yerleşimde Yuan→Ming, çoğunda kaynak yok); Ming shi j.2 Henan seferini gün adıyla verir. Bu madde kaynaklı günü kayda geçirir; yerleşim ucunun bu güne çekilmesi yerlesimler*.js'e düşer (denetim/YERLESIMLER-JS-KUYRUK-1115-cin.md). İkinci bağımsız akademik kaynak (CHC c.7; Dreyer, Early Ming China) OKUNMADI.",
+  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 戊申 (洪武元年 四月) → Jülyen 1368-04-25 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13; ay sınırı 八月朔 己巳 = 1368-09-13'ten geri sayıldı); 1582 öncesi gün Jülyen kalır"
+ },
+ {
+  "t": "1368-05-13",
+  "devlet": "ming-hanedani",
+  "taraflar": [
+   "yuan-hanedani",
+   "ming-hanedani"
+  ],
+  "b": "Feng Sheng Tongguan'ı aldı; Yuan komutanları Li Sitai ve Zhang Sidao kaçtı",
+  "tur": "fetih",
+  "onem": 2,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer": "Tongguan (Shaanxi kapısı)",
+  "yer_id": "Tongguan",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "cin-ming-1368"
+  ],
+  "d": "Feng Sheng, Shaanxi'nin doğu kapısı Tongguan'ı aldı; Yuan komutanları Li Sitai ile Zhang Sidao kaçtı. Xi'an ve Kuzeybatı bu günde henüz Ming'e geçmiş değildir.",
+  "kaynak": "Ming shi (Zhang Tingyu vd.) j.2 «Taizu 2», zh.wikisource.org/wiki/明史/卷2 (açıldı, okundu; zh.wikisource neşiri): 洪武元年夏四月 «丙寅，馮勝克潼關，李思齊、張思道遁»",
+  "gun": "1368-05-13 (Jülyen; ganzhi 丙寅)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "BOLGE-cin 1368-04-01 incelemesi (15 Kasım 2026): yerleşim `s:` ucunda 1368-04-01 toplu yer tutucudur (32 yerleşimde Yuan→Ming, çoğunda kaynak yok); Ming shi j.2 Henan seferini gün adıyla verir. Bu madde kaynaklı günü kayda geçirir; yerleşim ucunun bu güne çekilmesi yerlesimler*.js'e düşer (denetim/YERLESIMLER-JS-KUYRUK-1115-cin.md). İkinci bağımsız akademik kaynak (CHC c.7; Dreyer, Early Ming China) OKUNMADI.",
+  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 丙寅 (洪武元年 四月) → Jülyen 1368-05-13 (JDN hesabı; ganzhi/JDN tutarlılığı sınandı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13; ay sınırı 八月朔 己巳 = 1368-09-13'ten geri sayıldı); 1582 öncesi gün Jülyen kalır"
  }
 ];
