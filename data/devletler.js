@@ -5635,10 +5635,10 @@ window.DEVLETLER = [
   kaynak:"cin--ulke",
   kronoloji:[
     { odak_yer:["Pekin"], t:"1260-05-05", tur:"kurulus", b:"Kubilay Şangdu'da kurultayda han seçildi; Çin merkezli hanlık başladı", kaynak:"Britannica 'Kublai Khan'" },
-    { odak_yer:["Pekin"], t:"1271-01-01", tur:"siyaset", b:"Kubilay Han, Çince \"Yuan\" hanedan adını ilan etti" },
+    { odak_yer:["Pekin"], t:"1271-12-18", tur:"siyaset", b:"Kubilay Han, Çince \"Yuan\" hanedan adını ilan etti", kaynak:"Yuan shi (Song Lian vd.) j.7 «Shizu 4» (zh.wikisource.org/wiki/元史/卷007; açıldı, okundu): 至元八年十一月(朔 辛酉) «乙亥…建國號曰大元» → ganzhi 乙亥 = Jülyen 1271-12-18 (JDN hesabı; sınama 乙卯=0220-11-25); 1582 öncesi gün Jülyen kalır. Eski değer 1271-01-01 yıl düzeyiydi; ikincil kaynaklarda 5 Kasım varyantı görüldü (sayılmadı, Yuan shi ganzhi'siyle tutmuyor). İkinci bağımsız akademik kaynak (Rossabi, Khubilai Khan 1988; CHC c.6) OKUNMADI." },
     { odak_yer:["Pekin"], t:"1279-03-19", tur:"toprak-kazanc", b:"Güney Song'u tamamen ilhak ederek Çin'i birleştirdi" },
     { odak_yer:["Pekin"], t:"1351-01-01", tur:"isyan", b:"Kızıl Sarıklı isyanı başladı" },
-    { odak_yer:["Pekin"], t:"1368-09-14", tur:"son", b:"Zhu Yuanzhang Pekin'i aldı, Ming'i ilan etti; Moğollar kuzeye çekildi (Kuzey Yuan)" }
+    { odak_yer:["Pekin"], t:"1368-09-14", tur:"son", b:"Zhu Yuanzhang'ın orduları Pekin'i (Dadu) aldı; Moğollar kuzeye çekildi (Kuzey Yuan)", kaynak:"Ming shi j.2 «Taizu 2» (zh.wikisource.org/wiki/明史/卷2; açıldı, okundu): 洪武元年 8. ay «庚午，徐達入元都» → 庚午 = Jülyen 1368-09-14 (JDN hesabı). METİN DÜZELTMESİ: eski metin 'Ming'i ilan etti' diyordu; Ming 洪武元年正月乙亥 = 1368-01-23'te ilan edilmişti (aynı juan; ming-hanedani künye f=1368-01-23 ile uyumlu). Çeviri hash'i bu maddede bayatlar (KASA)." }
   ]
 },
 { id:"ming-hanedani", ad:"Ming Hanedanı", tur:"hanedanlik", bolge:"dogu-asya",
@@ -5646,7 +5646,7 @@ window.DEVLETLER = [
   ozet:"Moğol Yuan'ı devirip Çin'i yeniden Çin hanedanının eline veren, Zheng He'nin deniz seferleriyle tanınan hanedan; köylü isyanı ve ardından Mançu istilasıyla yıkıldı.",
   kaynak:"cin--ulke",
   kronoloji:[
-    { odak_yer:["Pekin"], t:"1368-01-23", tur:"kurulus", b:"Zhu Yuanzhang, Hongwu unvanıyla imparator ilan edildi" },
+    { odak_yer:["Pekin"], t:"1368-01-23", tur:"kurulus", b:"Zhu Yuanzhang, Hongwu unvanıyla imparator ilan edildi", kaynak:"Ming shi j.2 «Taizu 2» (zh.wikisource.org/wiki/明史/卷2; açıldı, okundu): 洪武元年 «春正月乙亥，祀天地於南郊，即皇帝位» → 乙亥 = Jülyen 1368-01-23 (JDN hesabı; sınama 乙卯=0220-11-25); gün Jülyen kalır. Teyit: tarih atlasın künye f'si ile aynı; ikinci akademik kaynak OKUNMADI." },
     { odak_yer:["Pekin"], t:"1405-01-01", tur:"antlasma", b:"Amiral Zheng He'nin büyük deniz seferleri başladı (1433'e dek)" },
     { odak_yer:["Pekin"], t:"1421-01-01", tur:"hukumdar", b:"Başkent Nanjing'den Pekin'e taşındı" },
     { odak_yer:["Pekin"], t:"1644-04-25", tur:"son", b:"Li Zicheng'in köylü ordusu Pekin'i aldı, son imparator intihar etti (Güney Ming 1662'ye dek direndi)" }
@@ -15552,8 +15552,8 @@ window.DEVLETLER = [
   ] },
 { id:"hong-kong-ingiliz", ad:"Hong Kong (İngiliz Kolonisi)", tur:"somurge", bolge:"dogu-asya", f:"1842-08-29", t:"1997-07-01", baskent:"Victoria", ozet:"29 Ağustos 1842 Nanking Antlaşması ile ada devredildi (tasdik/koloni statüsü 1843); Kowloon 1860, Yeni Bölgeler 1898 (99 yıl kira). 1 Temmuz 1997 devir.", kaynak:"Tsang, A Modern History of Hong Kong (2004); Treaty of Nanking", kronoloji:[
     { odak_yer:["Hong Kong","Nanking"], t:"1842-08-29", tur:"kurulus", b:"Nanking Antlaşması: Hong Kong Adası Britanya'ya terk edildi; 1843'te taç kolonisi oldu.", kaynak:"Treaty of Nanking (1842); Tsang, A Modern History of Hong Kong (2004)" },
-    { odak_yer:["Pekin"], t:"1860-10-18", tur:"toprak-kazanc", b:"Pekin Sözleşmesi ile Kowloon Yarımadası (Boundary Street'e kadar) Britanya'ya bırakıldı.", kaynak:"Convention of Peking (1860); Tsang, A Modern History of Hong Kong (2004)" },
-    { odak_yer:["Hong Kong"], t:"1898-06-09", tur:"toprak-kazanc", b:"Hong Kong Toprağının Genişletilmesi Sözleşmesi: Yeni Bölgeler 99 yıl kiralandı (kira 1 Temmuz 1898'den).", kaynak:"Convention for the Extension of Hong Kong Territory (1898); Tsang (2004)" },
+    { odak_yer:["Pekin"], t:"1860-10-24", tur:"toprak-kazanc", b:"Pekin Sözleşmesi ile Kowloon Yarımadası (Boundary Street'e kadar) Britanya'ya bırakıldı.", kaynak:"Convention of Peking (1860); Tsang, A Modern History of Hong Kong (2004). 1860-10-24: zh.wikisource.org/wiki/中英北京條約 (açıldı, okundu): sözleşme 咸豐十年九月十一日 = 24 Ekim 1860; 6. madde «茲大清大皇帝定即將該地界付與大英大君主並歷後嗣，並歸英屬香港界內». Eski değer 1860-10-18 Yuanmingyuan'ın yakıldığı gündü, sözleşme günü değil (Fransız sözleşmesi 25 Ekim: zh.wikisource 中法北京條約 咸豐十年九月十二日)." },
+    { odak_yer:["Hong Kong"], t:"1898-06-09", tur:"toprak-kazanc", b:"Hong Kong Toprağının Genişletilmesi Sözleşmesi: Yeni Bölgeler 99 yıl kiralandı (kira 1 Temmuz 1898'den).", kaynak:"Convention for the Extension of Hong Kong Territory (1898); Tsang (2004). Birincil: 展拓香港界址專條 (zh.wikisource.org/wiki/展拓香港界址專條; açıldı, okundu): «一八九八年六月九日，光緒二十四年四月二十一日，北京»; «以九十九年為限期»; «西曆七月初一號開辦施行» (1 Temmuz 1898); «其餘新租之地，專歸英國管轄» (idare İngiliz; egemenlik devri değil, KİRA)" },
     { odak_yer:["Hong Kong"], t:"1941-12-25", tur:"isgal", b:"Japon işgali: Hong Kong Japonya'ya teslim oldu.", kaynak:"Tsang, A Modern History of Hong Kong (2004)" },
     { odak_yer:["Britanya"], t:"1945-08-30", tur:"siyaset", b:"Japon teslimi sonrası Britanya yönetimi yeniden kuruldu.", kaynak:"Tsang, A Modern History of Hong Kong (2004)" },
     { odak_yer:["Britanya"], t:"1984-12-19", tur:"antlasma", b:"Çin-Britanya Ortak Bildirisi imzalandı; 1 Temmuz 1997'de Çin'e devir kararlaştırıldı.", kaynak:"Sino-British Joint Declaration (19 Aralık 1984); Tsang (2004)" },
