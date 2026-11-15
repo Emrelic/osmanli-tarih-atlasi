@@ -93,7 +93,6 @@ Ceviri.ekle("fr","devlet",{
 "antandroy":["les peuples antandroy et bara", "2357a2d6"],
 "antemoro":["le royaume antemoro", "e096f77f"],
 "antigonid-makedonya":["le royaume de Macédoine antigonide", "776769fa"],
-"antigonos":["le royaume d'Antigone le Borgne (Asie)", "b1865aa4"],
 "antigonos-krallik":["le royaume d'Antigone et de Démétrios (Antigone le Borgne – Démétrios Poliorcète)", "a5e5ec09"],
 "antigua-barbuda":["Antigua-et-Barbuda", "4ed8ecd2"],
 "anuradhapura":["le royaume d'Anuradhapura (Sri Lanka)", "43866576"],

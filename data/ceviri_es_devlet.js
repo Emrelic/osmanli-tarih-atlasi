@@ -93,7 +93,6 @@ Ceviri.ekle("es","devlet",{
 "antandroy":["Pueblos antandroy y bara", "2357a2d6"],
 "antemoro":["Reino antemoro", "e096f77f"],
 "antigonid-makedonya":["Reino de Macedonia antigónida", "776769fa"],
-"antigonos":["Reino de Antígono Monóftalmos (Asia)", "b1865aa4"],
 "antigonos-krallik":["Reino de Antígono y Demetrio (Antígono Monóftalmos – Demetrio Poliorcetes)", "a5e5ec09"],
 "antigua-barbuda":["Antigua y Barbuda", "4ed8ecd2"],
 "anuradhapura":["Reino de Anuradhapura (Sri Lanka)", "43866576"],

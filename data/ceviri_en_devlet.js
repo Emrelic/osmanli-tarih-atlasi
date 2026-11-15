@@ -93,7 +93,6 @@ Ceviri.ekle("en","devlet",{
 "antandroy":["Antandroy and Bara Peoples", "2357a2d6"],
 "antemoro":["Antemoro Kingdom", "e096f77f"],
 "antigonid-makedonya":["Antigonid Macedonian Kingdom", "776769fa"],
-"antigonos":["Kingdom of Antigonus Monophthalmus (Asia)", "b1865aa4"],
 "antigonos-krallik":["Kingdom of Antigonus and Demetrius (Antigonus Monophthalmus – Demetrius Poliorcetes)", "a5e5ec09"],
 "antigua-barbuda":["Antigua and Barbuda", "4ed8ecd2"],
 "anuradhapura":["Kingdom of Anuradhapura (Sri Lanka)", "43866576"],
