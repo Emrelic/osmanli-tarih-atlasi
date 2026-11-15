@@ -25,6 +25,21 @@ Semerkant penceresi timurlu → buhara **1500-01-01**; kronoloji maddesi «Semer
 - **Andican** (ve Oş) hokand→rusya `1876-02-19`; TDV «8 Ocak 1876 Endican'ın işgali», «Şubat 1876» ilga. Gereken: Andican'ın Ruslarca alındığı gün (8 Ocak 1876: Jülyen mi Gregoryen mi?) + Hokand şehri; Oş (Rus işgali günü). Okunmadı.
 - Rus fetih pencerelerinde takvim dağınık: Çimkent 1864-09-22, Taşkent 1865-06-17 (Jülyen), Hucend 1866-05-24, Semerkant 1868-05-14 (Gregoryen), Gulca 1871-07-04, Hive 1873 (madde Jülyen 29 Mayıs, antlaşma Gregoryen 24 Ağustos), Hokand 1876-02-19. Her biri için Jülyen/Gregoryen kontrolü (kaynak okunmadı).
 
+## K12 — İkiz künyeler: BİRLEŞTİRME ÖNERİSİ (KASA kararı: SİLME; yalnız öneri)
+Kimlikler değiştirilmedi. Öneri (koşu sonrası, tek elden): her çiftte «ana» künye kalır, öteki `ic_not`ta «bk <ana>» ile işaretlenir; yerleşim/madde bağları ana'ya taşınır; `s:` penceresi olan yoksa (22 yerleşimsiz künyenin hepsi) harita değişmez.
+| ana (kalacak) | ikiz | gerekçe | taşınacak madde (taraflar) |
+|---|---|---|---|
+| `kerait` (1007-1203) | `kerayit` (1199-1203) | aynı polity; `kerait` daha uzun ve 1007 Nasturî geçişi kaynaklı | `kerayit` maddeleri (5 künye-içi + `taraflar:kerayit` maddeleri) |
+| `naiman` (1199-1204; 9 madde) | `nayman` (1199-1204; 3 madde) | birebir aynı ömür; `naiman` madde sayısı fazla | `nayman` 3 madde + 4 künye-içi |
+| `xueyantuo-kaganligi` (627-646) | `xueyantuo` (628-646-10-29) | `xueyantuo` günü 646-10-29 Jiu Tang shu kaynaklı (daha kesin) → f/t'yi `xueyantuo` günlerine uydur | `xueyantuo-kaganligi` maddeleri |
+| `afrigoglu-harezm` (305-995-01-01; 5 madde) | `hivite-afrigid` (305-995-02-05; 5 madde) | aynı Afrigîler; sonu `hivite-afrigid` 995-02-05 (TDV memuniler 385/995 Kât'ın alınışı) günlü | ikisinin maddeleri birleşir; renk: `hivite-afrigid` #619370 grubunda |
+| `kirgiz-yenisey` (orta-asya, 840-920) | `yenisey-kirgiz` (sibirya-bozkir 840-1207), `kirgiz-erken` (630-680) | farklı bölge etiketli üç kayıt: Yenisey Kırgızları tek polity ise 630-1207 tek zincir; 840-920 yalnız Ötüken hâkimiyet evresi | KASA/Moğolistan ajanıyla birlikte karar |
+Kimlik silmek harita ve çeviri anahtarlarını kırar; bu yüzden yalnız `ic_not` bk işareti + madde taşıma önerildi.
+
+## K13 — Merv 1510-12-02 (hakem kararı: TDV günü 1 Aralık) — atomik taşıma gerekir
+Hakem (adım 2 C1, 2. tur): TDV `seybani-han` (okundu): ölüm «29 Şâban 916 (1 Aralık 1510)»; tabular hicrî dönüşümüyle 29 Şa'bân 916 = Jülyen 1 Aralık 1510 (tarafımdan doğrulandı) ⇒ TDV günü Jülyen ve atlas kuralıyla (1582 öncesi kaynak günü yazılır) **1510-12-01**. Karşı: A. S. Beveridge, *The Bābur-nāma in English* (1921; Gutenberg 44608; okundu), s. 350-351 n. 1335: Haidar'ın «roz-i-shakk of Ramazan» + Cuma ⇒ «Friday Sha'bān 29th 915[916] AH. (Friday December 2nd 1510)» — Beveridge'in 2 Aralık'ı Gregoryen-etiketli (Cuma tutuyor; Jülyen 2 Aralık 1510 Pazartesi'ye düşer) ve «curious differences … confusion between this and the day preliminary fighting began» diyerek günü kendisi de belirsiz sayıyor; Babur'a haber Ramazan'da (Aralık) ulaştı. Bağımsız ikinci okunmuş kaynak TDV'nin 1 Aralık'ını desteklemiyor, 2 Aralık'ı da tek başına bir kaynak (Beveridge) veriyor ⇒ CLAUDE.md «eşitse TDV günü kalır» ⇒ **karar 1510-12-01**.
+Taşınması gereken YER (hepsi aynı günde, atomik): `data/yerlesimler.js` Merv/Herat/Nesâ/Serahs/Nîşâbur/Tûs… (~60 pencere `1510-12-02`), `yerlesimler_ortaasya2.js` 166-167, `yerlesimler_sahne1108.js` 253-254, `yer_yama_once1281_z6.js`, `yer_yama_hayalet.js`, `yer_yama_1923_1945.js`, `yer_yama_zend_kacar.js` (Hürmüz/Kişm 1510-12-02 AYRI olay: Hürmüz'ün Safevî'ye geçişi 1510-12-02 değil başka bir gün olabilir — kontrol et, taşıma), `olaylar_ek11.js` 150-152 (+ `OLAYLAR_EK11:1510-12-02:0` çeviri anahtarı 6 dilde + `olay_taraf.js` 2042 `1510-12-02|Merv Savaşı…`), `kronoloji_iran.js` 128, `kronoloji_ozbek.js` 48, `ekokuma_savas3.js` 954, `savas_kunye_3.js` 772. `kronoloji_cok_senkron_0930.js` zaten 1510-12-01. Bu oturum yalnız belgeledi (yasak dosya + atomik taşıma).
+
 ## K7 — Eksik yerleşim noktaları (yeni kayıt; mükerrer taraması bu belgede: ad + 3 km → hiçbiri yok)
 | yerleşim | neden gerekli | kaynak arayışı |
 |---|---|---|

@@ -5390,7 +5390,7 @@ window.DEVLETLER = [
     { odak_yer:["Hîve"], t:"1512-01-01", tur:"kurulus", b:"Yadigâroğulları İlbars ve Bilbars, Özbek-Türkmen güçleriyle Harzem'i ele geçirdi" },
     { odak_yer:["Hîve"], t:"1603-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Hive'nin kalıcı başkent oluşu Arap Muhammed Han, 1603-1623 dönemi; yıl düzeyi)", ic_not_b:"eski t 1600-01-01 kaynaksızdı; TDV 1600'ü vermez, Arap Muhammed Han (1603-1623) dönemini verir." },
     { odak_yer:["Hîve"], t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi (Kaufmann kuvvetleri «Mart 1873»te Hive'ye ilerledi; ay hassasiyeti)" },
-    { odak_yer:["Hîve"], t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi («29 Mayıs 1873» Hive'nin ele geçirilişi)" },
+    { odak_yer:["Hîve"], t:"1873-06-10", ic_not_t:"UMIT-1115 ortaasya adım 7 (2. tur): t 1873-05-29 → 1873-06-10. TDV «Hîve Hanlığı» (okundu) «29 Mayıs 1873» der ve takvim belirtmez; Rus Jülyen takvimiyle 29 Mayıs = Gregoryen 10 Haziran (1873'te +12 gün). Doğrulama (okundu): E. Schuyler, Turkistan II (New York 1877, archive.org turkistannotesof02schu, Khiva seferi ekidir, «Turkistan» başlıklı sayfa 350 civarı): Kaufmann/Verevkin Hive'ye «the next morning (June 10)» girdi, şehir teslim oldu (Schuyler'in anlatı tarihleri Gregoryen: Hazarasp 4 Haziran, Aral kolu 11 Mart). İki bağımsız kaynak (TDV Jülyen günü + Schuyler Gregoryen günü) çevirmeyle uyuşuyor: çift teyit. Antlaşma günü 24 Ağustos 1873 (Schuyler aynı ek, «on August 24 … signed a treaty of peace») zaten Gregoryen.", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi", kaynak:"TDV İslâm Ansiklopedisi, Hîve Hanlığı maddesi, https://islamansiklopedisi.org.tr/hive-hanligi («29 Mayıs 1873» Hive'nin ele geçirilişi)" },
     { odak_yer:["Hîve"], t:"1920-04-26", tur:"son", b:"Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi" }
   ]
 },
@@ -5412,7 +5412,7 @@ window.DEVLETLER = [
   kaynak:"turkmenler",
   kronoloji:[
     { odak_yer:["Kızılarvat"], t:"1855-01-01", tur:"savas", b:"Teke başbuğu Kuşid Han, 1855 ve 1860'ta önemli zaferler kazanarak Tekeler'in gücünü pekiştirdi" },
-    { odak_yer:["Hîve"], t:"1873-05-29", tur:"toprak-kayip", b:"Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi", ic_not_b:"eski b: Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi (bkz. [[hive]])" },
+    { odak_yer:["Hîve"], t:"1873-06-10", ic_not_t:"UMIT-1115 ortaasya: t 1873-05-29 → 1873-06-10 (Jülyen→Gregoryen; bkz. hive künyesi aynı tarihli madde: TDV + Schuyler II).", tur:"toprak-kayip", b:"Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi", ic_not_b:"eski b: Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi (bkz. [[hive]])" },
     { odak_yer:["Kızılarvat"], t:"1879-09-01", tur:"savas", b:"Ruslar Göktepe'de ilk seferde ağır bir yenilgiye uğradı" },
     { odak_yer:["Kızılarvat"], t:"1881-01-24", tur:"toprak-kayip", b:"General Skobelev'in ikinci Göktepe seferiyle Ahal-Tekin Türkmenleri Rus İmparatorluğu'na katıldı" },
     { odak_yer:["Merv"], t:"1884-01-01", tur:"son", b:"Merv Türkmenleri Rusya'ya bağlılığını ilan etti; bölgedeki bağımsız Türkmen varlığı sona erdi" }
