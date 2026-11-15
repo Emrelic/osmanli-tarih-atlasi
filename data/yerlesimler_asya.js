@@ -2830,7 +2830,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Urga (Ulan Batur)", tur:"sehir", lat:47.8860, lon:106.9060, g:1, k:2,kd:[{f:"1911-12-29",t:"1923-10-29",k:1,m:"Urga (Ulan Batur)"}], d:[],
   kur:"1639-01-01",
   s:[{f:"1639-01-01", t:"1691-05-30", d:"kuzey-yuan"},
-     {f:"1691-05-30", t:"1911-12-29", d:"qing-hanedani"},
+     {f:"1691-05-30",t:"1911-12-29",d:"qing-halha-aymaklari",kaynak:"Qing Shilu (Shengzu shilu) juan 150, Kangxi 30 5. ay 戊子 (=1691-05-30; 干支 sayımı) Wikisource 清實錄/聖祖仁皇帝實錄/卷之150, bu oturumda okundu: «將爾等與朕四十九旗一例編設 … 土謝圖汗車臣汗名號俱著仍舊存留 … 去其濟農諾顏之名，皆封為多羅郡王» · Qing Shi gao juan 521 (Wikisource 清史稿/卷521, bu oturumda okundu): «自是始稱土謝圖汗部» ve Çeçen Han/Sain Noyan/Zasaktu bölümleri · BEYAN: Halha dört aymağı (Tüşetü Han, Çeçen Han, Sain Noyan, Zasaktu Han) Dış Moğolistan'ın tamamını kapsar; bu noktanın hangi aymağa düştüğü kaynakta yerleşim bazında okunmadı, künye dört aymağın şemsiyesidir · künye qing-halha-aymaklari harita:qing-hanedani (boya değişmez) · UMIT-1115b-mogolistan"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
      {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
