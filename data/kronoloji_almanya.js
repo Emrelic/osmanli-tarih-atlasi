@@ -79,12 +79,12 @@ window.KRONOLOJI_ALMANYA = [
 { odak_yer:["Nürnberg","Metz"], t:"1356-01-10", devlet:"almanya", b:"Altın Ferman — yedi seçici prens sisteminin hukukîleşmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["idari","siyaset","kanun","kutsal-roma","konu-siyasi","konu-idari","konu-islahat","konu-hukuk"],
   d:"IV. Karl'ın Nürnberg ve Metz diyetlerinde ilan ettiği Altın Ferman, imparator seçimini yedi seçici prense (üç başpiskopos, Bohemya kralı, Ren Kontu, Sakson dükü, Brandenburg markgrafı) bıraktı ve seçim usulünü dört asır sürecek şekilde sabitledi. İmparatorluğun merkezî otoritesi zayıflarken prenslerin gücünü hukuken pekiştirdi.",
-  kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356" },
+  kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356 · UMIT-1115 ALMANYA ÇİFT TEYİT (gün 1356-01-10): ADB «Karl IV.» (de.wikisource, okundu): Goldene Bulle Nürnberg ve Metz Reichstag'ında «am 10. Januar und am 25. Decbr. 1356»; Meyers/MKL1888 «Bulle, Goldene» (de.wikisource.org/wiki/MKL1888:Bulle,_Goldene, okundu): «auf dem Reichstag zu Nürnberg (10. Jan. 1356) vorbereitet und auf dem Reichstag zu Metz (25. Dez. 1356) vollendet und veröffentlicht». Çift teyit. Not: 10 Ocak yalnız ilk 23 maddenin ilan günü (Zeumer: Nürnberg günü yalnız metnin kendi girişine dayanır); tam metin Metz 25 Aralık 1356." },
 
-{ t:"1356-11-24", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
+{ t:"1358-01-01", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
   etiket:["ekonomi","diplomasi","hansa","konu-siyasi","konu-diplomasi","konu-ekonomi"],
   d:"Kuzey Alman ve Baltık liman şehirlerinin ticaret birliği Hansa, ilk belgelenmiş genel meclisini (Hansetag) Lübeck'te topladı ve gevşek bir ticaret ağından ortak çıkarları savunan bir kurumsal yapıya dönüştü. Zirve döneminde 200'e yakın şehri kapsayan birlik, Kuzey Denizi ve Baltık ticaretine üç asır egemen oldu.",
-  kaynak:"Schulze, Germany: A New History — Hansa'nın kurumsallaşması ve Lübeck'in merkezî rolü; gün belirsiz, yıl 1356 için genel kabul var" },
+  kaynak:"Hansischer Geschichtsverein, Lexikon, «Hansetag, Erster» ve «Hansetage» (hansischergeschichtsverein.de/lexikon?buchstabe=h, tam metin okundu 15 Kasım 2026): iki aday toplantı, ikisi de Lübeck — Şubat 1356 (yalnız Wend şehirleri elçileri; Brugge Kontoru'na heyet) ve Ocak 1358 (Wend, Sakson ve Prusya şehirleri; Flandern ablukası; ilk «stede van der dudeschen hense»); «Vorherrschend ist inzwischen das Verständnis von 1358 als erster hansestädtischer Versammlung». Gün kaynakta YOK. · UMIT-1115 ALMANYA hakemli karar: eski gün 1356-11-24 hiçbir akademik kaynakta yoktu (Lexikon Şubat 1356 ya da Ocak 1358 der, Kasım yok); Schulze yalnız yıl 1356 için gün belirsiz diyordu. Baskın görüş 1358 → t=1358-01-01 (yalnız yıl/ay teyitli; gün teyitsiz, YYYY-01-01). İkinci bağımsız akademik kaynak okunmadı." },
 
 { t:"1386-10-18", devlet:"pfalz", b:"Heidelberg Üniversitesi'nin kurulması", tur:"bilim", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["bilim","pfalz","konu-bilim","konu-egitim"],
@@ -121,6 +121,21 @@ window.KRONOLOJI_ALMANYA = [
   d:"Dokuz yıl süren Anglo-Hanseatik Savaşı'nı sona erdiren Utrecht Antlaşması, Hansa tüccarlarına İngiltere'de geniş gümrük muafiyetleri ve Londra'da kendi ticaret merkezlerini (Stalhof) tanıdı. Antlaşma Hansa'nın Kuzey Avrupa ticaretindeki zirve gücünü perçinledi.",
   kaynak:"Schulze, Germany: A New History — Hansa'nın İngiltere ile 1474 Utrecht uzlaşması", yer_id:"Utrecht" },
 
+{ odak_yer:["Frankfurt"], t:"1486-02-16", devlet:"almanya", b:"I. Maximilian, babası III. Friedrich'in desteğiyle Frankfurt'ta Roma Kralı seçildi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Frankfurt",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Seçmenler, Matthias Corvinus'un Viyana'yı ve Avusturya'nın büyük bölümünü alması üzerine, Habsburg arşidüküsünü hayatta olan imparatorun yanında Roma Kralı seçti; Maximilian böylece Reich'ın fiilî ikinci başı oldu.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
+
+{ odak_yer:["Aachen"], t:"1486-04-09", devlet:"almanya", b:"Roma Kralı I. Maximilian Aachen'da taç giydi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Aachen",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Frankfurt'taki seçimden iki ay sonra Maximilian geleneksel taç giyme yeri Aachen'da krallık tacını aldı.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
+
+{ odak_yer:["Trento"], t:"1508-02-04", devlet:"almanya", b:"I. Maximilian Trient Katedrali'nde «Seçilmiş Roma İmparatoru» unvanını ilan etti", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Trento",
+  etiket:["siyaset","kutsal-roma","konu-siyasi"],
+  d:"Venedik'in Roma yolunu kesmesi üzerine Maximilian papalık taç giymesini beklemeden Trient Katedrali'nde kendisini Erwählter Römischer Kaiser ilan etti; sonraki Habsburg imparatorları bu unvanı kullandı.",
+  kaynak:"UMIT-1115 ALMANYA ÇİFT TEYİT (gün): NDB «Maximilian I.» (Wiesflecker, 1990; deutsche-biographie.de/pnd118579371.html, okundu): «am 16.2.1486 wurde M. mit Unterstützung des Vaters in Frankfurt einstimmig gewählt … am 9. April in Aachen gekrönt … ließ sich am 4.2.1508 im Trienter Dom zum „Erwählten Röm. Kaiser“ ausrufen»; ADB «Maximilian I. (römisch-deutscher König)» (de.wikisource.org, okundu): «Am 16. Februar 1486 wählten zu Frankfurt die deutschen Kurfürsten den jungen Erzherzog zum römischen König … am 9. April … zu Aachen gekrönt» ve Trient 4 Şubat 1508. Takvim: 1582 öncesi, kaynak günü (Jülyen) yazıldı." },
+
 { odak_yer:["Worms"], t:"1495-08-07", devlet:"almanya", b:"Worms Diyeti — Reichskammergericht ve Ebedî Kamu Barışı", tur:"anayasa", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["idari","kanun","kutsal-roma","konu-idari","konu-islahat","konu-hukuk"],
   d:"İmparator Maximilian I'in çağırdığı Worms Diyeti, imparatorluk içi özel savaşları (Fehde) yasaklayan Ebedî Kamu Barışı'nı (Ewiger Landfriede) ilan etti ve anlaşmazlıkları çözecek daimî bir üst mahkeme, Reichskammergericht'i kurdu. Bu, parçalı imparatorluğun ilk kalıcı merkezî yargı kurumuydu.",
@@ -150,10 +165,10 @@ window.KRONOLOJI_ALMANYA = [
   d:"Wittenberg Üniversitesi'nde ilahiyat profesörü olan Martin Luther, endüljans satışını eleştiren 95 tezini yayımladı (geleneksel anlatıya göre şato kilisesi kapısına astı). Bu olay Protestan Reformu'nu başlattı, Batı Hıristiyanlığını kalıcı olarak böldü ve bir asır sürecek dinî-siyasî savaşların fitilini ateşledi.",
   kaynak:"Schulze, Germany: A New History; Whaley, Germany and the Holy Roman Empire I — 31 Ekim 1517 standart tarih. Wittenberg yerleşim kaydı yok, yer_id boş" },
 
-{ odak_yer:["Worms","Wartburg"], t:"1521-04-17", devlet:"almanya", b:"Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Worms","Wartburg"], t:"1521-04-18", devlet:"almanya", b:"Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","siyaset","kutsal-roma","konu-siyasi","konu-din"],
   d:"İmparator V. Karl'ın huzuruna çıkarılan Luther, öğretilerini geri çekmeyi reddetti; İmparator bir ay sonra (25 Mayıs) çıkardığı Worms Fermanı ile onu aforozlu ve fermana muhalif ilan etti. Ferman uygulanamadı — Saksonya Elektörü Bilge Friedrich, Luther'i Wartburg Kalesi'nde saklayarak korudu.",
-  kaynak:"Whaley, Germany and the Holy Roman Empire I — Worms Diyeti 17-18 Nisan 1521, Worms Fermanı 25 Mayıs 1521. Worms yerleşim kaydı yok, yer_id boş" },
+  kaynak:"Whaley, Germany and the Holy Roman Empire I — Worms Diyeti 17-18 Nisan 1521, Worms Fermanı 25 Mayıs 1521. Worms yerleşim kaydı yok, yer_id boş · UMIT-1115 ALMANYA hakemli karar (t 1521-04-17 → 1521-04-18): 17 Nisan'da Luther yalnız yazılarını tanıdı ve düşünme süresi istedi; reddetme ertesi gün. ADB «Luther, Martin» (de.wikisource.org/wiki/ADB:Luther,_Martin, okundu): «Tags darauf erklärte er in einer längeren Rede, daß er weder diejenigen seiner Bücher widerrufen könne…» (17. günü sonrası); MKL1888 «Luther» (de.wikisource.org/wiki/MKL1888:Luther, okundu): «zweimaliges Erscheinen vor dem Reichstag, 17. und 18. April, endigend mit mutiger Ablehnung des geforderten Widerrufs» (ret ikinci görünüşte). Reichstagsakten tam metni okunamadı." },
 
 { odak_yer:["Wartburg","Wittenberg"], t:"1522-09-21", devlet:"saksonya", b:"Luther'in Yeni Ahit'i Almancaya çevirmesi", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["kultur","din","saksonya","konu-din","konu-kultur"],
