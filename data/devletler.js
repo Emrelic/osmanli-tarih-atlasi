@@ -1107,7 +1107,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"erdel", ad:"Erdel Prensliği (Transilvanya)", tur:"prenslik", bolge:"orta-avrupa",
-  f:"1541-08-29", t:"1711-04-29", baskent:"Gyulafehérvár",
+  f:"1541-08-29", t:"1699-01-26", baskent:"Gyulafehérvár",
+  ic_not_t:"hakem 14 Kasım 2026 (denetim/HAKEM-ERDEL-1114.md): eski t 1711-04-29 (Szatmár) → 1699-01-26 (Karlofça). TDV Erdel + Köpeczi (ed.), History of Transylvania s.373-378 → Osmanlı'dan Habsburg'a sahip değişimi 26 Ocak 1699; Szatmár 1711 Kuruc isyanının sonu, sahip değişimi değil; fiilî Osmanlı denetimi 1690-91 sonu (Zernest 21 Ağustos 1690, Gubernium 1691). Aşağıdaki 1711 kronoloji maddesi Szatmár olayıdır, künye ömrünün ucu değil.",
   tabi:[{f:"1541-08-29", t:"1699-01-26", ust:"osmanli"}],
   ozet:"Mohaç sonrası Macaristan'ın üçe bölünmesiyle doğan, Osmanlı vasalı özerk prenslik. Tâbiiyeti kaydın kendi ömrünü aynalıyor (kayıt zaten Speyer Antlaşması'yla başlayıp Habsburg'a bağlanmayla bitiyor, arada özerk vasallık dışında bir dönem yok — bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AJ/§AK, 29 Eylül 2026 KUNYE-BIRLESTIR-0929: f: 1541-08-29'a GENİŞLETİLDİ — TDV `erdel` 1541 haraçgüzar voyvodalık, 1570 Speyer yalnız unvan değişimi; tâbilik 1699 Karlofça'da bitti).",
   kaynak:"erdel",
