@@ -5938,15 +5938,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"toungoo", ad:"Toungoo Hanedanı (Birmanya)", tur:"hanedanlik", bolge:"guneydogu-asya",
-  f:"1510-01-01", t:"1752-01-01", baskent:"Toungoo → Pegu → Ava", harita:"toungoo",
+  f:"1510-01-01", t:"1752-04-23", baskent:"Toungoo → Pegu → Ava", harita:"toungoo",
   ozet:"Pagan Krallığı'nın 1287 Moğol istilası sonrası parçalanmasından doğan küçük beyliklerden birinin (Toungoo) Birmanya'yı yeniden birleştirmesiyle kurulan hanedan; iç isyanlarla yıkıldı.",
   kaynak:"myanmar",
   kronoloji:[
     { odak_yer:["Pagan"], t:"1287-01-01", tur:"bolunme", b:"Moğol istilası Pagan Krallığı'nı parçaladı, küçük beylikler dönemi başladı" },
     { odak_yer:["Toungoo"], t:"1510-01-01", tur:"kurulus", b:"Tabinshwehti, Toungoo hanedanını kurdu" },
     { odak_yer:["Toungoo"], t:"1599-01-01", tur:"bolunme", b:"İç kavgalarla imparatorluk geçici olarak parçalandı" },
-    { odak_yer:["Toungoo"], t:"1752-01-01", tur:"son", b:"Mon isyanı başkenti düşürdü, hanedan sona erdi" }
-  ]
+    { odak_yer:["Toungoo"], t:"1752-04-23", tur:"son", b:"Mon isyanı başkenti düşürdü, hanedan sona erdi" }
+  ],
+  ic_not:"KÜNYE-PENCERE TUTARLILIĞI (UMIT-1115 Çinhindi ikinci tur): t 1752-01-01 → 1752-04-23. 22 yerleşim penceresi (Pagan, Ava, Toungoo, Prome, Chiang Mai vb.) Toungoo→Konbaung geçişini 1752-04-23 yazıyordu; künye t yıl-temsilîydi ve pencere künye ömrünü 112 gün aşıyordu. AY teyidi: G. E. Harvey, History of Burma (London 1925; archive.org in.ernet.dli.2015.32059; açıldı, okundu), s. 216: Talaing/Pegu kuvvetleri Ava'yı Nisan 1752'de aldı, şehri yağmalayıp yaktı. GÜN (23): atlasın kendi pencere günü; Hmannan/Glass Palace Chronicle 1752 günü bu oturumda OKUNMADI (çeviri 1287'de bitiyor), günü bağımsız ikinci tam metin teyit etmedi → BEYANLI: gün teyitsiz, ay teyitli. Konbaung f (1752-01-01) değişmedi: Alaungpaya'nın kral ilan günü (29 Şubat 1752 iddiası) okunmadı; Harvey s. 222 «hailed as king from the first»; Alaungmintaya'nın açıkça krallık iddiası Ekim 1754 sonrası diye bir çalışma var (okunmadı) → tartışmalı, dokunulmadı."
 },
 { id:"konbaung", ad:"Konbaung Hanedanı (Birmanya)", tur:"hanedanlik", bolge:"guneydogu-asya",
   f:"1752-01-01", t:"1886-01-01", baskent:"Ava → Mandalay", harita:"konbaung",
