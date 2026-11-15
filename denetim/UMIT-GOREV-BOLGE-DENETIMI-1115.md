@@ -21,3 +21,6 @@ Başlangıç verisi: `denetim/KAPSAM-OLCUM-1114.md` (künye/yerleşim/madde say�
 - Çeviri işi ertelendi (site bitene kadar); yeni arayüz metni yazma.
 - Tavan aşımı olursa ölç, aç, raporla (Emre 1 Kasım kuralı); Değişmez 2 ölçütünü gevşetme.
 - Sistemi boğma: ağır koşturma (`denetle` 13 dk, RAM) yalnız eczane yükü düşükken; aynı anda tek ağır süreç.
+
+## MESAİ DIŞI KİPİ (Emre, 15 Kasım 2026) — bu bölüm yukarıdaki işlemci/ajan kısıtını EZER
+Şu an mesai dışı; mesai **Pazartesi 16 Kasım 2026 09:00**da başlıyor. O saate kadar UMIT'te **kısıt yok**: bütün işlemciler, bütün RAM, istenen sayıda paralel ajan (alt ajan) kullanılabilir; `denetle` ve ağır ölçümler serbest. Bölgeleri sırayla değil **paralel** yürüt (bölge başına bir alt ajan, ayrı dosyalara yazan; aynı dosyaya yazanlar ayrı worktree'de). Pazartesi 09:00'da kısıt geri gelir (≤%25 işlemci, tek ajan): ağır süreçleri 08:45'te durdur, o saate kadar bitmeyen işi dalda commit'leyip `origin`e it ve KASA'ya bildir. Eczane yazılımı/SQL süreçlerine dokunma, yalnız kendi başlattığın süreçleri durdur.
