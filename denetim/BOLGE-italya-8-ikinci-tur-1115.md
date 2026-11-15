@@ -1,0 +1,61 @@
+# BOLGE italya — İkinci tur (15 Kasım 2026): Treccani tam metin okumaları, düzeltmeler, KASA soruları
+
+Yöntem: Treccani sayfaları `WebFetch` ile okundu (özetleyici model; aşağıda "okundu" = sayfa metni cevaba girdi, "arama özeti" = yalnız arama sonucu kısa alıntısı, tam metin okunmadı). **İkinci tam-metin kaynak (archive.org: Muratori RIS, Litta, Cambridge Medieval History, Hallam, Waley) bu turda ERİŞİLEMEDİ/OKUNMADI** — hiçbir satır "çift teyit" sayılmadı; Treccani'nin iki ayrı maddesi (EI + DBI) aynı günü verdiğinde "iki Treccani maddesi" diye yazıldı (bağımsız akademik kaynak sayılmaz, Treccani EI/DBI aynı kurum).
+
+## 1. Okunan Treccani maddeleri ve çıkan veri
+
+| Konu | Madde | Çıkan | Kullanım |
+|---|---|---|---|
+| Visconti 1385 | DBI «Gian Galeazzo Visconti» (Gamberini 2000) okundu | Bernabò **6 Mayıs 1385** yakalandı | `visconti` maddesi 1385-01-01 → **1385-05-06** |
+| Oddantonio öldürülmesi | EI «Montefeltro» okundu · DBI «Federico da Montefeltro» okundu | **22 Temmuz 1444**; Federico **23 Temmuz 1444**'te Urbino'ya girdi | `urbino-dukaligi` madde 1 kaynak çift Treccani (gün zaten 1444-07-22) |
+| Federico dük unvanı | DBI «Federico da Montefeltro» okundu | «già ottenuto il **23 marzo**» 1474 (EI «Montefeltro»: yalnız 1474) | `urbino` madde 2: 1474-01-01 → **1474-03-23** (21 Mart sık anılır; DBI 23) |
+| Oddantonio dük unvanı | EI «Urbino» (25 Nisan 1443) ↔ EI «Montefeltro» (**26** aprile 1443) | **Çelişki, aynı kurumun iki maddesi** | 25 Nisan korundu; **KASA sorusu 3** |
+| Borgia Urbino'da | DBI «Guidubaldo I» okundu (+ DBI «Francesco Maria I» arama özeti) | **22 Haziran 1502**; Guidubaldo 21 gecesi kaçtı. DBI «Cesare Borgia» (arama özeti): 20 Haziran | `urbino` madde 4: → **1502-06-22** (çelişki ic_not'ta) |
+| Guidubaldo'nun ölümü | DBI «Guidubaldo I» okundu | Fossombrone'de **11 Nisan 1508** | `urbino` madde 6: → **1508-04-11** |
+| Guidubaldo dönüşü 1503 | aynı | Alessandro VI'nın ölümü (18 Ağustos 1503) sonrası, «il 26 … nei pressi di Urbino»; ay yok | **yazılmadı** (gün/ay belirsiz) |
+| Gonzaga dükalığı | DBI «Federico II Gonzaga» (Benzoni 1995) okundu | Unvan **8 Nisan 1530** (25 Mart: imparatorun Mantova girişi) | `mantua` madde 2: → **1530-04-08** |
+| Monferrato 1536 | aynı DBI | Karl V hakem hükmü Cenova'da **3 Kasım** (yıl bağlamdan 1536; DBI «Luigi Gonzaga» arama özeti 1536); Federico 25 Kasım Casale'de | `mantua` madde 3 ve `montferrat-markizligi` madde 1: → **1536-11-03**; Wikipedia 1531 ile çelişki ic_not'ta |
+| Gonzaga markizliği 1433 | DBI «Gianfrancesco I Gonzaga» okundu | Sigismondo Parma'da **6 Mayıs** (1432) verdi, **bir yıl sonra** dönüşte yineledi; «storiografia oscilla tra il 1432 e il 1433». Atlas maddesi «120.000 florin»; DBI «Ludovico III» arama özeti **12.000 Ren florini** | **yazılmadı**; `mantua` madde 1 (1433-01-01) yıl çelişkili (1432/1433) ve tutar çelişkili → **KASA sorusu 5** |
+| Verona/Ezzelino/Scaligeri | EI «Verona» okundu · DBI «Ezzelino III» okundu · DBI «Alberto della Scala» okundu | 1164 Lega veronese; 1169 podestà; Ezzelino 1226 podestà, **Kasım 1236** Bonifacio da Panico ile Verona'yı yönetiyor, **1259** ölüm «forse il **1° ottobre**»; **1262** Mastino capitano del popolo (DBI «Guido della Scala» arama özeti: **Mart 1262**); Mastino **Ekim 1277**'de öldürüldü (gün yok) | Verona penceresi (bkz. §3) |
+| Faenza (Manfredi) | EI «Faenza» okundu | 1313 defensor, 1322 dominus, 1379 vikarlık (Astorgio I), 1405 idam, **1501** Astorgio III Borgia'ca atıldı, Venedik 1504-09 | künye taslağı (gün yok) |
+| Ravenna (Da Polenta) | EI «Ravenna» okundu | Venedik doğrudan «1449-1509» (EI), 1509 Kilise Devleti; Wikipedia/Britannica (arama özeti) **1441** | **Çelişki (yıl)**; künye taslağı |
+| Camerino (Varano) | EI «Camerino» okundu | ~üç yüzyıl; **1434-1444 komün ara**; dükalık **1502-03** (Borgia); «Dal **1545** soggetta direttamente alla Chiesa» | künye taslağı (başlangıç yılı verilmedi) |
+| Mirandola (Pico) | EI «Mirandola» okundu | 1311 vikarlık, 1354 imparatorluk fiefi, **1596** prenslik, **1617** dükalık, **1708** tahttan indirildi (1711 yalnız bibliyografyada) | künye taslağı |
+| Carpi (Pio) | EI «Carpi» okundu | Manfredo Pio **1319**; **1525**'e dek (Karl V Alberto III'ü mülksüzleştirdi) | künye taslağı |
+| Rimini (Malatesta) | EI «Rimini» okundu | **1295**'ten itibaren pekişti; 1334 Malatesta II hayat boyu; 1355 papal vikarlık; Borgia **1500-03**, Venedik **1503-09** | künye taslağı |
+| Forlì (Ordelaffi) | EI «Ordelaffi», EI «Forlì» okundu | Scarpetta 1307'de kaptan; Francesco **1333** genişleme, **1337** vikar; Albornoz **1357-58**; Pino III ölümü 1480; Caterina Sforza **1488-1500**; EI «Ordelaffi»: 1503-04 son | künye taslağı |
+| Gorizia | EI «Gorizia» okundu | 1001 Otto III bağışı; **1420** Friuli Venedik'e; **1500** Leonardo ölümü, Asburg miras; Venedik 1508; **1522** Karl V Ferdinand'a | künye taslağı |
+| Treviso | EI «Treviso» okundu | Da Camino 1283-1306; Rizzardo 1306-**1312**; Guecellone **15 Aralık 1312**'de kovuldu; Scaligeri 1329-**1339** (Venedik'e zorla); Habsburg Leopold 1381-84; Carrara 1384-88; Venedik **1388** | künye taslağı; 1312-12-15 günü kaynaklı |
+| Vicenza | EI «Vicenza» okundu | Cangrande **15 Nisan 1311**; Scaligeri sonu **Ekim 1387**; Venedik'e **1404** (gün yok) | künye taslağı; Vicenza yerleşimi yok |
+| Montalcino | EI «Siena», EI «Montalcino» okundu | 1555 sürgün cumhuriyet (Strozzi, Fransız yardımı), **1559** Cosimo I'e boyun eğdi | künye taslağı (gün yok) |
+| Floransa-Toskana | EI «Toscana» (ilk 100 bin karakter) okundu | 1532 anayasası ile Alessandro «duca di Firenze»; Pio V **1569** Cosimo I granduca; **1 Mayıs 1532 ve 27 Ağustos 1569 günleri metinde YOK** | günler **okunmadı**; atlas `toskana` f=1532-05-01 / floransa t=1532-05-01 tek kaynak yok (künye notuna bakılmalı) |
+| Saluzzo | (önceki tur) | DBI 1504'te bitiyor | okunmadı |
+| Pontecorvo | EI «Pontecorvo» sorgulanmadı (slug denenmedi) | — | okunmadı |
+| Malatesta DBI «Malatesta da Verucchio» | slug boş sayfa döndü | — | okunmadı |
+
+## 2. Yeni künye taslakları (devletler.js'e YAZILMADI)
+Neden yazılmadı: (a) hiçbirinin başlangıç/bitiş **günü** kaynakta yok (yalnız yıl); (b) `renkler.py` BOYALAR'da kimlikleri yok ve ben yazamam (tuz) → künye `s:` penceresinde kullanılmadan da BOYALAR eksikliği paketleme/denetim uyarısı doğurabilir; (c) yerleşim yok (Rimini var; Forlì/Faenza/Camerino/Mirandola/Carpi/Treviso/Vicenza yok). Taslak (yıl hassasiyeti, Treccani EI): `rimini-malatesta` 1295→1500; `forli-ordelaffi` 1307→1500 (Caterina Sforza/Riario 1480-1500 ayrı); `faenza-manfredi` 1322→1501; `ravenna-polenta` ?→1441/1449; `camerino-varano` ?→1502 (+1434-44 ara; 1502-03 Borgia dükalığı; 1545 Kilise); `mirandola-pico` 1311→1708 (1596 prenslik, 1617 dükalık); `carpi-pio` 1319→1525; `gorizia-kontlugu` 1001→1500 (Habsburg 1522); `siena-montalcino` 1555→1559; `treviso-komunu` (Da Camino 1283-1312) / `treviso-scaligeri` 1329→1339 / `treviso-carrara` 1384→1388. `harita:` anahtarı için `renkler.py` BOYALAR'a **yeni kimlik gerekir** (KASA/HAVVA tuz iş akışı).
+
+## 3. Verona 1164-1277 boşluk merdiveni (uygulandı — `data/yerlesimler_avrupa.js` Verona kaydı, `data/kronoloji_sinir_once1281_geriye.js`)
+Merdiven: ① TDV — Osmanlı dışı, madde yok (aranmadı: Cloudflare + kapsam) · ② Treccani EI «Verona» + DBI «Ezzelino III» okundu · ③ komşu/yerel akademik (Muratori/Litta/Waley) **okunmadı** · ④ yerleşim o devirde var mıydı: evet (Verona).
+Yazılan pencere: `__BOSLUK__` 1164..1277 yerine
+- 1164-01-01 → 1236-11-01 **verona-komunu** (künye 1136-1259 içinde; kesinlik yıl/ay)
+- 1236-11-01 → 1259-10-01 **ezzelino-signoria** (künye ömrü ile birebir; ay→gün; 1259-10-01 DBI «forse»)
+- 1259-10-01 → 1262-01-01 `__BOSLUK__` (BEYANLI: Arti iktidarı; kaynakta adlandırılmış devlet yok; komün künyesi t=1259-01-01 aşılmasın diye komün uzatılmadı → KASA sorusu 2)
+- 1262-01-01 → 1277-01-01 **verona-scaliger** (künye f=1262-01-01; ikiz della-scala f=1277 olduğu için D4d nedeniyle ikiz künye kullanıldı)
+D2: 3 yeni kronoloji_sinir maddesi (1236-11-01, 1259-10-01, 1262-01-01 + 1277 maddesinin `taraflar`ına verona-scaliger). Not: DBI «Guido della Scala» (arama özeti) Mastino'nun capitano'luğunu **Mart 1262** verir; EI «Della Scala Mastino I»: «eletto forse capitano del popolo nel 1262, … non significò l'inizio d'una vera signoria» → senyörlük başlangıcı tartışmalı, pencere yıl hassasiyetinde bırakıldı.
+
+## 4. Çeviri anahtarı sorusu (cevaplandı)
+`ceviri_*_olay_*.js` anahtarları `<DIZI>:<t>:<idx>` biçimindedir ve **yalnız `olaylar*.js`/`kronoloji*` dizilerini** anar (ör. `OLAYLAR_ANTIK_AKDENIZ`, `KRONOLOJI_COK_ARABISTAN2`); `ceviri_*_devlet.js` anahtarı **künye id**'sidir (`"ferrara"`, `"urbino-dukaligi"` — yalnız ad/özet çevirisi). `devletler.js` künye-içi `kronoloji:` maddeleri çeviri anahtarı taşımıyor → ferrara/urbino/visconti/mantua/montferrat/modena madde tarihi değişikliklerinde **anahtar taşıma gerekmedi**. `kronoloji_sinir_once1281_geriye.js`'e yeni 3 madde `olay_taraf.js`'e eklenmedi (`taraflar:` alanı maddede). `b` metni hiçbir mevcut maddede değişmedi.
+
+## 5. KASA soruları (net)
+1. **ferrara.t / modena çelişkisi:** `ferrara` künyesi "Este Devleti (Ferrara/Modena)" 1240-01-01..**1859-01-01** (yıl), `modena` künyesi "Modena ve Reggio Dükalığı (Este)" 1598-01-29..**1859-06-11**. Aynı hanedan/polity iki künyede; Ferrara penceresi `ferrara` kimliğini 1598-01-29'a kadar, Modena penceresi 1598-01-29 sonrası `modena` kimliğini kullanıyor. İki seçenek: (A) `ferrara` künyesini 1240→**1598-01-29**'a KISALT (kronoloji maddeleri ve "baskent: Ferrara → Modena" yeniden yazılır), `modena` Este'nin ardılı olur; (B) ikisini tek künyede birleştir, t=1859-06-11 (V. Francesco'nun ayrılışı; ilhak 1860-03-18). Öneri: **A** (D4 ailesi: dönem-künye uyumu bozulmaz; künye f/t pencere ömrüyle eşleşir). Modena ic_not_t'sindeki "1860-03-18'e kadar sürüyor" notu bayat.
+2. **İkiz künyeler:** (a) `della-scala` 1277-01-01..1387-10-18 ↔ `verona-scaliger` 1262-01-01..1387-10-19 (EI: «ufficialmente dal 1277»; Mastino 1262 capitanato) — hangisi esas? Öneri: tek künye `della-scala` f=**1262-01-01** (yıl; EI «forse 1262» beyanı), `verona-scaliger` sil/yönlendir; Verona 1262-1277 penceresi o zaman `della-scala` olur. (b) `carrara` 1345-01-01..1405-11-17 ↔ `padova-carrara` 1318-01-01..1405-11-22 (Jacopo I fiilî 1318; Padova penceresi 1318-07-25..1345-01-01 BOŞLUK). Öneri: `carrara` f=1318-07-25 (Padova komününün sonu, künye `padova-komunu` t) — 5 gün t farkı tek günde birleşmeli. (c) `visconti` (milanoduka) ↔ `visconti-signoria` 1277..1395 ↔ `della-torre-signoria` 1260-1277: Milano pencereleri `milano-dukaligi` 1097 → … `visconti` 1311-07-13; 1277-1311 Visconti signoria penceresi yazılmadı (Torriani 1260-77 / Ottone Visconti 1277). Öneri: iki künyeyi birleştir; Milano 1260-1311 zinciri kaynaklı yazılsın. (d) `sardinya-aragon` pencerede `aragon`/`ispanya` ikizi.
+3. **Oddantonio dük günü:** 25 Nisan 1443 (EI «Urbino», DBI «Oddantonio» künye notuna göre) ↔ 26 Nisan 1443 (EI «Montefeltro»). Üçüncü bağımsız kaynak (örn. Cambridge Medieval History / Litta «Famiglie celebri» Montefeltro) okunamadı. Karar: 25 korunsun mu?
+4. **Verona 1259-10-01→1262-01-01 beyanlı boşluk:** komün künyesi t=1259-01-01'i 1262-01-01'e uzatıp pencereyi doldurmak (EI: Arti = komün kurumları, Mastino komün makamı) kabul mü?
+5. **Gonzaga markizliği:** `mantua` madde 1 t=1433-01-01: DBI iki yıl (1432 Parma 6 Mayıs; 1433 yineleme) diyor; tutar atlasta 120.000 florin, DBI «Ludovico III» 12.000 Ren florini (arama özeti, tam metin okunmadı). Düzeltme için tam metin okuması gerek.
+6. **Ravenna Polenta sonu:** EI «Ravenna» Venedik'i 1449'dan, Wikipedia/Britannica 1441'den başlatıyor.
+7. **Bologna:** `bologna-komunu` t=1506-11-11 (papa girişi) ↔ Bentivoglio ayrılışı 2 Kasım 1506 gecesi (EI «Bentivoglio»); `t`'nin neyi tarihlediği künye notunda yok.
+
+## 6. İkinci turda değişen dosyalar (dal `umit-1115-bolge-italya`)
+`data/devletler.js` (visconti:4, urbino:1,2,4,6, mantua:2,3, montferrat:1 + önceki tur: ferrara, urbino:0, modena×2), `data/yerlesimler_avrupa.js` (yalnız Verona kaydı, tek satır), `data/kronoloji_sinir_once1281_geriye.js` (1 satır `taraflar` + 3 yeni madde). `yerlesimler.js`, üretilmiş dosyalar, `index.html`, tuz dosyaları DOKUNULMADI.
