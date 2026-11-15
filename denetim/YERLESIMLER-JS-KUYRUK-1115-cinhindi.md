@@ -14,3 +14,14 @@ Kuyrukta bekleyen, kaynağı okunamadığı için YAZILMAYAN kalemler (yerlesiml
 3. Lê→Mạc geri alışı `1592-01-01` (6 pencere): Lê'nin Thăng Long'u geri alışı 1592 sonu (**okunmadı**).
 4. Nguyễn `1801-06-15` (Huế, Quang Tri) sahibi `nguyen-hanedani` yerine `nguyen-beyligi` olabilir (künye f 1802-06-01).
 5. Chakri/Thonburi 1782-04-06 ↔ 1782-04-20 (Nakhon Pathom, Thonburi `t`): hakem kaynakları (Wyatt, Baker-Phongpaichit, TDV) **okunmadı**.
+
+
+## Ek (ikinci tur, KASA kararı): Ayutthaya yıl hassasiyeti ve ikiz künye birleştirme önerileri
+- Ayutthaya `f`: 1351-01-01 (yıl hassasiyeti). Gün 4 Mart 1351 TEK KAYNAK (Baker-Pasuk 2017); Vickery JSS 67 yalnız yıl (cula 712, aynı kronik geleneği), Charnvit JSS 80 yalnız yıl. Nakhon Pathom penceresi, kronoloji_sinir_dogu_500_1281 maddesi, kronoloji_sinir_asya maddesi ve künye-içi madde aynı hassasiyette (1351-01-01); Ayutthaya'nın kendi penceresi ve Lopburi geçişi 1351-03-04 olarak kaldı. İkinci bağımsız gün kaynağı (Wyatt, Coedès-Fr, Cushman) gelirse hepsi 1351-03-04'e çekilir.
+- İkiz/ardıl künye birleştirme ÖNERİLERİ (hiçbiri silinmedi; birleştirme KASA kararı):
+  1. `launggyet` (1237-1433) ile `arakan` (1281-1785) 1281-1433 arasında aynı toprakta çakışıyor: `arakan.f` 1430'a (Mrauk U kuruluşu, Leider okunmadı) çekilmeli ya da Launggyet'e katlanmalı.
+  2. `nguyen-beyligi` (1558-1802) ve `nguyen-hanedani` (1802-1945): aynı `harita:` anahtarı, tek hanedan; tek künye + iç dönem önerilir.
+  3. `angkor-kmer` / `kamboc-kralligi` / `khmer-cumhuriyeti` / `demokratik-kampucya` / `kampucya-halk-cumhuriyeti`: ortak `harita: kamboc-kralligi`; devlet kimliği ayrı kalmalı (rejim değişimi), ama renk ayrımı gerekebilir.
+  4. `ayutthaya` / `tonburi` / `siyam-chakri`: Siyam devamlılığı; Thonburi `t` 1782-04-20 ile Chakri `f` 1782-04-06 çakışması çözülmeden birleştirme önerilmez.
+  5. `hanthawaddy` (1287-1757, iki ayrı dönem) tek kayıt: 1539-1740 `toungoo`; "Birinci/İkinci Hanthawaddy" ayrımı önerilir.
+- Renk: Konbaung↔Ayutthaya/Chakri ΔE76 23,1 önerisi `denetim/BOLGE-cinhindi-5-renk-1115.md`'de duruyor; `renkler.py`'ye dokunulmadı.
