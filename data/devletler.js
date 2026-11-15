@@ -5478,8 +5478,9 @@ window.DEVLETLER = [
 
 { id:"delhi-sultanligi", ad:"Delhi Sultanlığı", tur:"devlet", bolge:"guney-asya",
   f:"1206-01-01", t:"1526-04-21", baskent:"Delhi", harita:"delhi-sultanligi",
-  ozet:"Kuzey Hindistan'da beş ardışık hanedanın (Memlûk/Köle, Halacî, Tuğluk, Seyyid, Lûdî) yönettiği İslâm devleti; Bâbür'ün Birinci Panipat zaferiyle sona erdi (bkz. [[babur-imparatorlugu]]). TDV'de bu adla ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ozet:"Kuzey Hindistan'da beş ardışık hanedanın (Memlûk/Köle, Halacî, Tuğluk, Seyyid, Lûdî) yönettiği İslâm devleti; Bâbür'ün Birinci Panipat zaferiyle sona erdi (bkz. [[babur-imparatorlugu]]). Hanedanlar ayrı künyelerdedir: delhi-memluk, delhi-halaci, delhi-tugluk, delhi-seyyid, delhi-ludi (hepsi bu künyenin `harita:` rengini paylaşır).",
+  kaynak:"TDV İslâm Ansiklopedisi, «Delhi Sultanlığı» (islamansiklopedisi.org.tr/delhi-sultanligi; WebFetch ile okundu 15 Kasım 2026): «21 Nisan 1526» Pânîpet; dönem aralığı 1206-1526; hanedan listesi Memlûk, Halacî, Tuğluk, Seyyid, Lûdî",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): önceki kaynak alanı «TDV'de müstakil maddesi yok» YANLIŞTI — TDV'de /delhi-sultanligi, /seyyidler, /ludiler, /hizir-han, /firuz-sah-halaci, /giyaseddin-tugluk, /aybeg-kutbuddin maddeleri var ve okundu. Künye f=1206-01-01 YIL hassasiyetli (TDV: «1206»); Aybeg'in Lahor'da tahta çıkışı 25 Haziran 1206 (TDV aybeg-kutbuddin). Hanedan künyeleri (delhi-memluk … delhi-ludi) bu künyenin ALT kümesidir; yerleşim pencerelerinde yalnız Delhi şehri hanedan künyelerine bağlandı, öteki yerleşimler bu künyede kaldı.",
   kronoloji:[
     { odak_yer:["Delhi"], t:"1206-01-01", tur:"kurulus", b:"Kutbüddin Aybek, Delhi'de bağımsızlığını ilan etti (Memlûk/Köle hanedanı)" },
     { odak_yer:["Delhi"], t:"1290-01-01", tur:"bolunme", b:"Halacî hanedanı iktidara geçti" },
@@ -5488,6 +5489,67 @@ window.DEVLETLER = [
     { odak_yer:["Delhi"], t:"1414-01-01", tur:"bolunme", b:"Seyyid hanedanı iktidara geçti" },
     { odak_yer:["Delhi"], t:"1451-01-01", tur:"bolunme", b:"Lûdî (Afgan kökenli) hanedanı iktidara geçti" },
     { odak_yer:["Delhi"], t:"1526-04-21", tur:"son", b:"Birinci Panipat Savaşı'nda Bâbür, son sultan İbrâhim Lûdî'yi yenerek sultanlığa son verdi" }
+  ]
+},
+{ id:"delhi-memluk", ad:"Delhi Sultanlığı — Memlûk (Muizzî/Köle) Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1206-01-01", t:"1290-06-13", baskent:"Delhi", harita:"delhi-sultanligi",
+  kesinlik:{ f:"yil", t:"gun" },
+  ozet:"Kutbüddin Aybeg'in Gurlu Muizzüddin'in ölümü üzerine Lahor'da tahta çıkmasıyla (1206) başlayan, Halacîlerin 1290'da tahtı almasıyla biten ilk Delhi hanedanı. delhi-sultanligi künyesinin alt kümesidir.",
+  kaynak:"TDV İslâm Ansiklopedisi, «Aybeg, Kutbüddin» (islamansiklopedisi.org.tr/aybeg-kutbuddin; okundu): «25 Haziran 1206’da Lahor’da tahta çıktı» · TDV, «Fîrûz Şah Halacî» (islamansiklopedisi.org.tr/firuz-sah-halaci; okundu): «3 Cemâziyelâhir 689 / 13 Haziran 1290» (Delhi sultanı ilânı; Muizzîler'e son verdi) · TDV, «Delhi Sultanlığı» (okundu): «1290’da … Fîrûz Şah Halacî bir darbe ile tahtı ele geçirdi»",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): f=1206-01-01 YIL hassasiyetlidir ve delhi-sultanligi künyesiyle (f=1206-01-01) ve Delhi şehrinin atlas penceresiyle (Gurlu→Delhi Sultanlığı 1206-01-01, yıl) AYNIDIR; Aybeg'in tahta çıkış GÜNÜ 1206-06-25 TDV aybeg-kutbuddin'de, kronoloji maddesi olaylar_ortacag_iran_hint_magrib'de (Lahor). Gün f'ye YAZILMADI çünkü Delhi'nin Gurlu→Memlûk penceresi yıl hassasiyetinde (tek ucu 1206-01-01; Muizzüddin 1206-03-15'te öldü). t=1290-06-13: TDV Fîrûz Şah Halacî «Kîlûgari’de Delhi sultanı ilân ettiler (3 Cemâziyelâhir 689 / 13 Haziran 1290)» — TDV Memlûk hanedanının bitiş gününü ayrıca vermez; Halacî ilânı günü hanedan sınırı alındı (BEYANLI: fiilî Delhi'ye giriş sonraki aylarda). Başka akademik kaynakla ikinci teyit YAPILMADI (Jackson 1999 okunmadı).",
+  kronoloji:[
+    { odak_yer:["Delhi"], t:"1206-01-01", tur:"kurulus", b:"Kutbüddin Aybeg'in sultanlığı: Gurlu Muizzüddin'in ölümüyle Delhi bağımsız sultanlığa dönüştü (yalnız yıl teyitli)", kaynak:"TDV «Delhi Sultanlığı» (1206) · TDV «Aybeg, Kutbüddin»: 25 Haziran 1206’da Lahor’da tahta çıktı" },
+    { odak_yer:["Delhi"], t:"1290-06-13", tur:"son", b:"Fîrûz Şah Halacî Delhi sultanı ilân edildi; Memlûk (Muizzî) hanedanı sona erdi", kaynak:"TDV «Fîrûz Şah Halacî»: 3 Cemâziyelâhir 689 / 13 Haziran 1290" }
+  ]
+},
+{ id:"delhi-halaci", ad:"Delhi Sultanlığı — Halacî Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1290-06-13", t:"1320-09-06", baskent:"Delhi", harita:"delhi-sultanligi",
+  kesinlik:{ f:"gun", t:"gun" },
+  ozet:"Celâleddin Fîrûz Şah Halacî'nin 1290'da kurduğu, Hüsrev Han'ın öldürülmesi ve Gıyâseddin Tuğluk'un tahta çıkmasıyla 1320'de biten hanedan. delhi-sultanligi künyesinin alt kümesidir.",
+  kaynak:"TDV, «Fîrûz Şah Halacî» (okundu): «Kîlûgari’de Delhi sultanı ilân ettiler (3 Cemâziyelâhir 689 / 13 Haziran 1290)» · TDV, «Gıyâseddin Tuğluk» (islamansiklopedisi.org.tr/giyaseddin-tugluk; okundu): «Hüsrev Han’ı öldürterek Gıyâseddin Tuğluk Şah unvanıyla tahta çıktı (6 Eylül 1320)»",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): iki uç da TDV'den GÜN hassasiyetinde. f: Hint hanedan ilânı günü (Kîlûgari); t: son Halacî Hüsrev Han'ın öldürüldüğü ve Tuğluk'un tahta çıktığı gün (Gregoryen yazılmış; 1582 öncesi Jülyen kalır, TDV Jülyen/Gregoryen ayrımı yapmaz — haftagünü ölçülmedi). Çift teyit YOK: kronoloji_hindistan.js'deki aynı iki gün Jackson 1999'a atıflı ama kitap okunmadı (atlas referans değildir). Hicrî 689 için hicrî yıl aralığı ∩ 1290 tutarlı (3 Cemâziyelâhir 689 = 1290 Haziran).",
+  kronoloji:[
+    { odak_yer:["Delhi"], t:"1290-06-13", tur:"kurulus", b:"Celâleddin Fîrûz Şah Halacî Delhi sultanı ilân edildi; Halacî hanedanı başladı", kaynak:"TDV «Fîrûz Şah Halacî»: 3 Cemâziyelâhir 689 / 13 Haziran 1290" },
+    { odak_yer:["Delhi"], t:"1296-07-19", tur:"hukumdar", b:"Alâeddin Halacî amcası Fîrûz Şah'ı öldürttü, Delhi'de tahta geçti", kaynak:"TDV «Fîrûz Şah Halacî»: 17 Ramazan 695 / 19 Temmuz 1296 (Alâeddin'in tahta çıkışı «beş ay sonra»; yalnız ölüm günü verilir)" },
+    { odak_yer:["Delhi"], t:"1320-09-06", tur:"son", b:"Hüsrev Han öldürüldü; Gıyâseddin Tuğluk tahta çıktı, Halacî hanedanı sona erdi", kaynak:"TDV «Gıyâseddin Tuğluk»: 6 Eylül 1320" }
+  ]
+},
+{ id:"delhi-tugluk", ad:"Delhi Sultanlığı — Tuğluk Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1320-09-06", t:"1414-05-28", baskent:"Delhi", harita:"delhi-sultanligi",
+  kesinlik:{ f:"gun", t:"gun" },
+  ozet:"Gıyâseddin Tuğluk'un 1320'de kurduğu, Timur'un 1398'de Delhi'yi talan ettiği ve Hızır Han'ın Delhi'yi almasıyla 1414'te sona eren hanedan. delhi-sultanligi künyesinin alt kümesidir.",
+  kaynak:"TDV, «Gıyâseddin Tuğluk» (okundu): «Gıyâseddin Tuğluk Şah unvanıyla tahta çıktı (6 Eylül 1320)»; hanedan «(1320-1414)» · TDV, «Hızır Han» (islamansiklopedisi.org.tr/hizir-han; okundu): «kendini Timurlular’ın vasalı ilân etti (28 Mayıs 1414)» · TDV, «Delhi Sultanlığı» (okundu): «son Tuğluk Sultanı Nâsırüddin Mahmûd’un ölümünden (1412)»",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): KÜNYE AŞIMI/SINIFLAMA — TDV iki ayrı uç verir: 'Tuğluk (1320-1414)' (Giyâseddin md. ilgili-madde özeti) ve 'son Tuğluk sultanı Nâsırüddin Mahmûd'un ölümü (1412)' (Delhi Sultanlığı md.). 1412-1414 arasında Delhi'nin sahibi TDV'de adlandırılmaz (O kaynakta Devlet Han Lûdî ara yönetimi okunmadı). t=1414-05-28 Delhi'nin Hızır Han'a geçtiği gündür; 1412-1414 ara dönemi Tuğluk künyesine DAHİL tutuldu (atlasın mevcut delhi-sultanligi sürekliliği korunsun diye) — BEYANLI yaklaşıklık, kaynak 'bu aralıkta Tuğluk sürdü' DEMİYOR. Timur'un 17 Aralık 1398-1 Ocak 1399 Delhi işgali ayrı Delhi penceresinde (timurlu). Çift teyit yok.",
+  kronoloji:[
+    { odak_yer:["Delhi"], t:"1320-09-06", tur:"kurulus", b:"Gıyâseddin Tuğluk Şah tahta çıktı; Tuğluk hanedanı başladı", kaynak:"TDV «Gıyâseddin Tuğluk»: 6 Eylül 1320" },
+    { odak_yer:["Delhi"], t:"1412-01-01", tur:"hukumdar", b:"Son Tuğluk sultanı Nâsırüddin Mahmûd öldü (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Delhi Sultanlığı»: 1412" },
+    { odak_yer:["Delhi"], t:"1414-05-28", tur:"son", b:"Hızır Han Delhi'yi ele geçirdi; Tuğluk hanedanı sona erdi", kaynak:"TDV «Hızır Han»: 28 Mayıs 1414" }
+  ]
+},
+{ id:"delhi-seyyid", ad:"Delhi Sultanlığı — Seyyid Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1414-05-28", t:"1451-01-01", baskent:"Delhi", harita:"delhi-sultanligi",
+  kesinlik:{ f:"gun", t:"yil" },
+  ozet:"Mültan valisi Hızır Han'ın 1414'te Delhi'yi alarak kurduğu, Timurlular'ın vasalı olarak başlayan, 1451'de Behlûl Lûdî'nin Delhi'yi almasıyla biten hanedan. delhi-sultanligi künyesinin alt kümesidir.",
+  kaynak:"TDV, «Hızır Han» (okundu): «kendini Timurlular’ın vasalı ilân etti (28 Mayıs 1414)»; ölüm «17 Cemâziyelevvel 824’te (20 Mayıs 1421)» · TDV, «Seyyidler» (islamansiklopedisi.org.tr/seyyidler; okundu): «15 Rebîülevvel 817’de (4 Haziran 1414) Delhi Sultanlığı tahtına çıktı»; «Behlül-i Lûdî (855/1451)» · TDV, «Delhi Sultanlığı» (okundu): Seyyid bitişi/Lûdî başı 1451",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): TDV İÇ ÇELİŞKİSİ (aynı ansiklopedide iki madde): f için «Hızır Han» md. 28 Mayıs 1414 (Timurlular'ın vasalı ilânı), «Seyyidler» md. 4 Haziran 1414 = 15 Rebîülevvel 817 (tahta çıkış). Aradaki fark 7 gün; hicrî 15 Rebîülevvel 817 ve 28 Mayıs 1414'ün haftagünü/hicrî ay dönüşümü bu oturumda ÖLÇÜLMEDİ. Hakemli karar: ikinci/üçüncü bağımsız akademik kaynak okunamadı (P. Jackson 1999, Cambridge History of India III okunmadı) ⇒ CLAUDE.md «teyit çıkmazsa TDV günü kalır»: kronoloji_hindistan.js'deki mevcut gün (1414-05-28, Hızır Han md. ile aynı) KORUNDU; 4 Haziran alternatifi burada beyan. t=1451-01-01: TDV Seyyidler/Lûdîler/Delhi Sultanlığı yalnız YIL 1451 verir; Behlûl Lûdî'nin 19 Nisan 1451 günü yalnız kronoloji_hindistan.js'de (kaynağı Jackson 1999 — okunmadı) ve Vikipedi aynalarında: akademik teyit YOK ⇒ [yalnız yıl teyitli; gün teyitsiz].",
+  kronoloji:[
+    { odak_yer:["Delhi"], t:"1414-05-28", tur:"kurulus", b:"Hızır Han Delhi'yi ele geçirip Seyyid hanedanını kurdu (Timurlu vasalı)", kaynak:"TDV «Hızır Han»: 28 Mayıs 1414 (TDV «Seyyidler»: 4 Haziran 1414 — iç çelişki, ic_not)" },
+    { odak_yer:["Delhi"], t:"1421-05-20", tur:"hukumdar", b:"Hızır Han öldü", kaynak:"TDV «Hızır Han»: 17 Cemâziyelevvel 824 (20 Mayıs 1421)" },
+    { odak_yer:["Delhi"], t:"1447-01-01", tur:"hukumdar", b:"Alâeddin Âlem Şah tahttan feragat edip Bedâûn'a çekildi (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Seyyidler»: 1447" },
+    { odak_yer:["Delhi"], t:"1451-01-01", tur:"son", b:"Behlûl-i Lûdî Delhi'yi aldı; Seyyid hanedanı Delhi'de sona erdi (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Seyyidler»: Behlül-i Lûdî (855/1451)" }
+  ]
+},
+{ id:"delhi-ludi", ad:"Delhi Sultanlığı — Lûdî Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1451-01-01", t:"1526-04-21", baskent:"Delhi / Agra", harita:"delhi-sultanligi",
+  kesinlik:{ f:"yil", t:"gun" },
+  ozet:"Afgan kökenli Behlûl Lûdî'nin 1451'de Delhi'de kurduğu, İskender Lûdî'nin 1489-1517 arası hüküm sürdüğü ve İbrâhîm Lûdî'nin Birinci Pânîpet'te yenilmesiyle 1526'da biten son Delhi hanedanı. delhi-sultanligi künyesinin alt kümesidir.",
+  kaynak:"TDV, «Lûdîler» (islamansiklopedisi.org.tr/ludiler; okundu): «Delhi Sultanlığı’nda Lûdîler dönemi başladı (1451)»; «İskender Şah’ın 1517’de ölümünden sonra tahta İbrâhîm-i Lûdî geçti» · TDV, «Delhi Sultanlığı» (okundu): «21 Nisan 1526» Pânîpet",
+  ic_not:"HINT-1115b (UMIT, 15 Kasım 2026): f yalnız YIL (TDV Lûdîler 1451; gün bulunamadı — TDV bu hanedan için gün vermez, Behlûl'ün tahta çıkış günü olarak dolaşan 19 Nisan 1451 akademik kaynakta okunamadı) ⇒ [yalnız yıl teyitli; gün teyitsiz]. t=1526-04-21 künye delhi-sultanligi'nin t'siyle aynı (TDV 21 Nisan 1526). İskender Lûdî'nin 1489'daki başa geçişi ve İbrâhîm Lûdî'nin 1517'deki başa geçişi yalnız yıl hassasiyetinde (TDV Lûdîler). Çift teyit yok.",
+  kronoloji:[
+    { odak_yer:["Delhi"], t:"1451-01-01", tur:"kurulus", b:"Behlûl-i Lûdî Delhi'yi aldı; Lûdî hanedanı başladı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Lûdîler»: (1451); TDV «Seyyidler»: 855/1451" },
+    { odak_yer:["Delhi"], t:"1489-01-01", tur:"hukumdar", b:"Behlûl Lûdî öldü; oğlu İskender Şah (Nizam Han) taht mücadelesini kazandı (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Lûdîler»: 1489" },
+    { odak_yer:["Delhi"], t:"1517-01-01", tur:"hukumdar", b:"İskender Şah öldü; İbrâhîm-i Lûdî tahta geçti (yalnız yıl teyitli; gün teyitsiz)", kaynak:"TDV «Lûdîler»: 1517" },
+    { odak_yer:["Delhi"], t:"1526-04-21", tur:"son", b:"Birinci Pânîpet Savaşı: Bâbür İbrâhîm-i Lûdî'yi yendi; Lûdî hanedanı ve Delhi Sultanlığı sona erdi", kaynak:"TDV «Delhi Sultanlığı»: 21 Nisan 1526" }
   ]
 },
 { id:"babur-imparatorlugu", ad:"Bâbürlü (Timurlu-Hint) İmparatorluğu", tur:"imparatorluk", bolge:"guney-asya",
