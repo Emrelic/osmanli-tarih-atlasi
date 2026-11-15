@@ -81,10 +81,10 @@ window.KRONOLOJI_ALMANYA = [
   d:"IV. Karl'ın Nürnberg ve Metz diyetlerinde ilan ettiği Altın Ferman, imparator seçimini yedi seçici prense (üç başpiskopos, Bohemya kralı, Ren Kontu, Sakson dükü, Brandenburg markgrafı) bıraktı ve seçim usulünü dört asır sürecek şekilde sabitledi. İmparatorluğun merkezî otoritesi zayıflarken prenslerin gücünü hukuken pekiştirdi.",
   kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356" },
 
-{ t:"1356-11-24", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
+{ t:"1358-01-01", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
   etiket:["ekonomi","diplomasi","hansa","konu-siyasi","konu-diplomasi","konu-ekonomi"],
   d:"Kuzey Alman ve Baltık liman şehirlerinin ticaret birliği Hansa, ilk belgelenmiş genel meclisini (Hansetag) Lübeck'te topladı ve gevşek bir ticaret ağından ortak çıkarları savunan bir kurumsal yapıya dönüştü. Zirve döneminde 200'e yakın şehri kapsayan birlik, Kuzey Denizi ve Baltık ticaretine üç asır egemen oldu.",
-  kaynak:"Schulze, Germany: A New History — Hansa'nın kurumsallaşması ve Lübeck'in merkezî rolü; gün belirsiz, yıl 1356 için genel kabul var" },
+  kaynak:"Hansischer Geschichtsverein, Lexikon, «Hansetag, Erster» ve «Hansetage» (hansischergeschichtsverein.de/lexikon?buchstabe=h, tam metin okundu 15 Kasım 2026): iki aday toplantı, ikisi de Lübeck — Şubat 1356 (yalnız Wend şehirleri elçileri; Brugge Kontoru'na heyet) ve Ocak 1358 (Wend, Sakson ve Prusya şehirleri; Flandern ablukası; ilk «stede van der dudeschen hense»); «Vorherrschend ist inzwischen das Verständnis von 1358 als erster hansestädtischer Versammlung». Gün kaynakta YOK. · UMIT-1115 ALMANYA hakemli karar: eski gün 1356-11-24 hiçbir akademik kaynakta yoktu (Lexikon Şubat 1356 ya da Ocak 1358 der, Kasım yok); Schulze yalnız yıl 1356 için gün belirsiz diyordu. Baskın görüş 1358 → t=1358-01-01 (yalnız yıl/ay teyitli; gün teyitsiz, YYYY-01-01). İkinci bağımsız akademik kaynak okunmadı." },
 
 { t:"1386-10-18", devlet:"pfalz", b:"Heidelberg Üniversitesi'nin kurulması", tur:"bilim", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["bilim","pfalz","konu-bilim","konu-egitim"],
@@ -150,10 +150,10 @@ window.KRONOLOJI_ALMANYA = [
   d:"Wittenberg Üniversitesi'nde ilahiyat profesörü olan Martin Luther, endüljans satışını eleştiren 95 tezini yayımladı (geleneksel anlatıya göre şato kilisesi kapısına astı). Bu olay Protestan Reformu'nu başlattı, Batı Hıristiyanlığını kalıcı olarak böldü ve bir asır sürecek dinî-siyasî savaşların fitilini ateşledi.",
   kaynak:"Schulze, Germany: A New History; Whaley, Germany and the Holy Roman Empire I — 31 Ekim 1517 standart tarih. Wittenberg yerleşim kaydı yok, yer_id boş" },
 
-{ odak_yer:["Worms","Wartburg"], t:"1521-04-17", devlet:"almanya", b:"Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ odak_yer:["Worms","Wartburg"], t:"1521-04-18", devlet:"almanya", b:"Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","siyaset","kutsal-roma","konu-siyasi","konu-din"],
   d:"İmparator V. Karl'ın huzuruna çıkarılan Luther, öğretilerini geri çekmeyi reddetti; İmparator bir ay sonra (25 Mayıs) çıkardığı Worms Fermanı ile onu aforozlu ve fermana muhalif ilan etti. Ferman uygulanamadı — Saksonya Elektörü Bilge Friedrich, Luther'i Wartburg Kalesi'nde saklayarak korudu.",
-  kaynak:"Whaley, Germany and the Holy Roman Empire I — Worms Diyeti 17-18 Nisan 1521, Worms Fermanı 25 Mayıs 1521. Worms yerleşim kaydı yok, yer_id boş" },
+  kaynak:"Whaley, Germany and the Holy Roman Empire I — Worms Diyeti 17-18 Nisan 1521, Worms Fermanı 25 Mayıs 1521. Worms yerleşim kaydı yok, yer_id boş · UMIT-1115 ALMANYA hakemli karar (t 1521-04-17 → 1521-04-18): 17 Nisan'da Luther yalnız yazılarını tanıdı ve düşünme süresi istedi; reddetme ertesi gün. ADB «Luther, Martin» (de.wikisource.org/wiki/ADB:Luther,_Martin, okundu): «Tags darauf erklärte er in einer längeren Rede, daß er weder diejenigen seiner Bücher widerrufen könne…» (17. günü sonrası); MKL1888 «Luther» (de.wikisource.org/wiki/MKL1888:Luther, okundu): «zweimaliges Erscheinen vor dem Reichstag, 17. und 18. April, endigend mit mutiger Ablehnung des geforderten Widerrufs» (ret ikinci görünüşte). Reichstagsakten tam metni okunamadı." },
 
 { odak_yer:["Wartburg","Wittenberg"], t:"1522-09-21", devlet:"saksonya", b:"Luther'in Yeni Ahit'i Almancaya çevirmesi", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["kultur","din","saksonya","konu-din","konu-kultur"],
