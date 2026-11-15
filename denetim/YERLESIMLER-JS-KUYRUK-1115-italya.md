@@ -21,6 +21,12 @@ Dosya: `yerlesimler.js` yalnız Palermo/Messina/Taranto/Torino/Cagliari/Sirakuza
 | 13 | Padova | yerlesimler_avrupa.js | `padova-carrara` (1318) ile `carrara` (1345) ikiz: tek künye seçilince 1318-07-25..1345-01-01 BOŞLUK beyanı kapanır | | DBI «Carrara» (künye) | ikiz birleştirme |
 | 14 | Modena | yerlesimler_avrupa.js | 1859-06-11..1860-03-18 `__BOSLUK__`: V. Francesco'nun ayrılışı ile 1860-03-18 ilhak arası (kaynak: ASMo, ilhak günü okunmadı) | | ASMo Austro-Estense envanteri | madde var mı kontrol |
 
+## İKİZ KÜNYE ÖNERİLERİ (KASA kararı: BİRLEŞTİRME/SİLME KASA'NIN, koşu 39 öncesi sırayla; ben yapmadım)
+1. `della-scala` (1277-01-01..1387-10-18) ↔ `verona-scaliger` (1262-01-01..1387-10-19): ÜÇÜNCÜ TUR sonrası Verona 1262-1277 penceresi `verona-komunu` olduğu için `verona-scaliger` pencerede yok. Öneri: tek künye `della-scala` (f=1277-01-01, EI «ufficialmente dal 1277»; Mastino resmî senyör değil — Enciclopedia Dantesca), t=1387-10-18 (DBI «Della Scala, Antonio»: 17-18 Ekim gecesi) ; `verona-scaliger` künyesi ve BOYALAR kaydı kaldırılır, kronoloji maddeleri `della-scala`ya taşınır.
+2. `carrara` (1345-01-01..1405-11-17) ↔ `padova-carrara` (1318-01-01..1405-11-22): öneri tek künye `carrara`, f=1318-07-25 (Padova Komünü'nün sonu, künye `padova-komunu` t) — kaynak: DBI «Carrara» (künye kaynağı); t=1405-11-17 (padova-carrara 11-22 ile 5 gün farkı kaynakla hakem ister).
+3. `visconti` (1311-07-13..1395-05-11, harita `milanoduka`) ↔ `visconti-signoria` (1277-01-01..1395-05-11) ↔ `della-torre-signoria` (1260-01-01..1277-01-01): öneri `visconti` + `della-torre-signoria` korunur, `visconti-signoria` silinir; Milano 1260-1311 zinciri (Torriani 1260-77, Visconti 1277-1311) kaynaklı yazılır.
+4. `sardinya-aragon` (1326-01-01..1720-08-24): Sardinya pencereleri `aragon`/`ispanya`/`sardinya` kimliklerini kullanıyor (Cagliari 1324-06-19, f farkı 1324/1326); öneri: `sardinya-aragon` künyesi pencerelere (Cagliari, Sassari, Alghero, Oristano) bağlanır ve `aragon` pencereleri ona çevrilir YA DA künye silinir; f kaynakla hakem.
+
 İkinci tur ek kalemler (Treccani okundu, ayrıntı `BOLGE-italya-8-ikinci-tur-1115.md`):
 - 15. **Lucca** (`yerlesimler_avrupa.js`): `piza`→`lucca-cumhuriyeti` kırılması 1369-01-01 (yıl); Treccani EI «Lucca»: diploma 7 Nisan, «libera» 8 Nisan 1369 → kırılma **1369-04-08**; D2 maddesi (`kronoloji_sinir*`/`olaylar*`) aynı güne taşınmalı.
 - 16. **Urbino** (YENİ yerleşim, kalem 7) için gün çıpaları (Treccani okundu): 1443-04-25 (EI «Urbino»; EI «Montefeltro» 26 — çelişki), 1502-06-22 Borgia, 1508-04-11 Guidubaldo ölümü.

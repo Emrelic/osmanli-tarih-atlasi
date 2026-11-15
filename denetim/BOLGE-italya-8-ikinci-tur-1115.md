@@ -60,5 +60,24 @@ D2: 3 yeni kronoloji_sinir maddesi (1236-11-01, 1259-10-01, 1262-01-01 + 1277 ma
 6. **Ravenna Polenta sonu:** EI «Ravenna» Venedik'i 1449'dan, Wikipedia/Britannica 1441'den başlatıyor.
 7. **Bologna:** `bologna-komunu` t=1506-11-11 (papa girişi) ↔ Bentivoglio ayrılışı 2 Kasım 1506 gecesi (EI «Bentivoglio»); `t`'nin neyi tarihlediği künye notunda yok.
 
+## 5b. ÜÇÜNCÜ TUR — KASA kararlarının uygulanması (15 Kasım 2026)
+**Bu bölüm §3 (Verona) ve §5 madde 1-2, 4'ü EZER.**
+
+**(1) İkiz künyeler:** hiçbiri silinmedi/birleştirilmedi; öneri kuyruk belgesinde ("İKİZ KÜNYE ÖNERİLERİ"), KASA koşu 39 öncesi yapacak.
+
+**(2) Ferrara t / Modena — kaynak merdiveniyle çözüldü: `ferrara` KISALTILMADI, t düzeltildi.**
+- Kaynaklar: Treccani EI «Ferrara» (okundu): Faenza Konvansiyonu **13 Ocak 1598**; Cesare d'Este «il **29 gennaio 1598** abbandonava Ferrara», Kardinal Aldobrandini Clemente VIII adına şehri teslim aldı. Chiappini 1997 (Fondazione Estense): Este 28 Ocak'ta çıktı, «ertesi gün» (29 Ocak) Aldobrandini anahtarları aldı. EI «Modena»: bir yerde «28 gennaio» çıkış, bir yerde «30 gennaio» Modena'ya varış (iç tutarsız). **29 Ocak = iki ayrı yayıncıda (EI Ferrara + Chiappini) örtüşüyor → çift teyit**; ferrara 1598 maddesi ve penceresi (1598-01-29) bununla uyumlu.
+- Papalık Devleti künyesi var: `papalik` 0756-01-01..1870-09-20; Ferrara penceresi 1598-01-29'da `papalik`'e geçiyor.
+- Estensi: EI «Modena»: «L'11 giugno 1859 l'ultimo duca Francesco V si ritirava a Mantova» + ASMo envanteri (11 Haziran) = çift teyit. EI «Modena»: Sardinya'ya katılma 12 Mart 1860 plebisit/dedizione (atlas penceresi 1860-03-18, yeniden okunmadı).
+- Karar: `ferrara` künyesi tek polity (Este) olarak kalır (D205 sınıf ②; 1848 Guastalla D2 maddesi `ferrara` kimliğini Este-Modena için kullanıyor — kısaltmak o D2 maddesinin tarafını bozar); `ferrara.t` 1859-01-01 → **1859-06-11**, "son" maddesi 1859-06-11 (metin düzeltildi: 1859'da Dük ayrıldı, katılma 1860), `kaynak` "bulunamadı" yerine EI/Chiappini/ASMo. `modena` künyesindeki tekrarlı, bayat `ic_not_t` silindi. `data/kronoloji_italya.js` (HENÜZ CANLI DEĞİL, `kronoloji_italya.js` türetilmiş) hâlâ `ferrara` 1598-01-01 / 1859-01-01 yıl tarihli satırlar taşır; dokunulmadı (canlı değil; KASA ileride yeniler).
+
+**(3) Verona 1259-10-01→1262-01-01 — kaynakla çözüldü, ikinci verona-scaliger penceresi KALDIRILDI.**
+- Okunan: Enciclopedia Dantesca «Della Scala» (Treccani): «1 ottobre 1259» Ezzelino ölür; Eylül sonu Mastino «di nuovo podestà, ma questa volta del popolo»; 1259-1277 «sostanziale continuità col periodo ezzeliniano», loncalar anayasal reform yapar; 1262 Mastino Domus mercatorum podestàsı + capitano del popolo; «Mastino non fu mai formalmente signore» (senyör unvanı 1277 suikastından sonra Alberto'ya). EI «Della Scala, Mastino I»: «Podestà di Verona nel genn. 1259»; «forse capitano del popolo nel 1262 … non significò l'inizio d'una vera e propria signoria»; komünde «posizione preminente»; m. 1277. DBI «Della Scala, Guido»: **Mart 1262** Mastino capitano del popolo, rejim «Mastino e delle arti». EI «Verona» / künye `verona-komunu` kaynağı: «Alla sua morte (1259), il potere fu tenuto dalle Arti».
+- Hüküm: Kaynaklar komün kurumlarının 1259'dan 1277'ye sürdüğünü gösteriyor (Mastino resmî senyör değil; senyörlük 1277); künye `della-scala` f=1277 («ufficialmente dal 1277») ile uyumlu. Uygulama: `verona-komunu` t 1259-01-01 → **1277-01-01** (ic_not_t'de kaynaklar ve beyan; künyenin "son" maddesi 1277'ye taşındı); Verona penceresi `verona-komunu` **1259-10-01 → 1277-01-01** (beyanlı boşluk ve verona-scaliger 1262 penceresi kaldırıldı; D2'de 1262 maddesi silindi, 1259-10-01 maddesi komüne dönüş olarak yeniden yazıldı, 1277 maddesinin `taraflar`ı ["della-scala","verona-komunu"]).
+- Beyan/çekince (KASA hakem): kaynak harfiyen «komün sürdü» cümlesi vermiyor; çıkarım ima üzerinedir. İkinci bağımsız kaynak (Muratori/Litta/Waley) okunmadı. 1262 gün/ay: DBI Mart 1262, EI «forse 1262» — pencerede kullanılmıyor artık.
+- Bu karar §5 madde 4'ü kapatır; ikiz `verona-scaliger` yine pencerede kullanılmaz (silme/birleştirme KASA'nın).
+
+**(4) Renk:** `mantua` ile `ferrara/modena` ΔE 19,6 önerisi `BOLGE-italya-5-renk-1115.md` §3'te kalır.
+
 ## 6. İkinci turda değişen dosyalar (dal `umit-1115-bolge-italya`)
 `data/devletler.js` (visconti:4, urbino:1,2,4,6, mantua:2,3, montferrat:1 + önceki tur: ferrara, urbino:0, modena×2), `data/yerlesimler_avrupa.js` (yalnız Verona kaydı, tek satır), `data/kronoloji_sinir_once1281_geriye.js` (1 satır `taraflar` + 3 yeni madde). `yerlesimler.js`, üretilmiş dosyalar, `index.html`, tuz dosyaları DOKUNULMADI.
