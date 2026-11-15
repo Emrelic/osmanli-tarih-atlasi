@@ -1,0 +1,17 @@
+# BOLGE-cinhindi-8-ikinci-tur-1115 — koordinatör talebiyle ikinci tur (açık kalemler)
+
+Dal `umit-1115-bolge-cinhindi`. Aynı yöntem sınırı: tam metne ulaşılabilen kaynaklar yalnız archive.org djvu metinleri (Harvey 1925) ve thesiamsociety.org JSS PDF'leri (yerel `pymupdf` ile okundu). Toàn thư, Taylor, Cushman, Wyatt, Hall, Lieberman, Cambridge History, BEFEO tam metni bu oturumda **bulunamadı/okunamadı**. Koordinatörün "her satır ≥2 tam metin" şartı bu kalemlerin çoğunda **karşılanamadı**; karşılanmayan satırda veri DEĞİŞMEDİ.
+
+| kalem | okunan tam metin | bulgu | karar |
+|---|---|---|---|
+| Toungoo→Konbaung 1752-04-23 | Harvey, *History of Burma* (1925), s. 216, 219, 222 (archive.org in.ernet.dli.2015.32059) | Talaing'ler Ava'yı **Nisan 1752**'de aldı, yağmalayıp yaktı; Alaungpaya Shwebo'da «hailed as king from the first» (gün yok). Glass Palace Chronicle çevirisi 1287'de bitiyor (Konbaung dönemini kapsamıyor). Aynı olayın günü (23) ikinci tam metinle bulunamadı. Alaungpaya'nın 29 Şubat 1752'de kral ilanı iddiası teyit edilemedi; bir çalışma açık krallık iddiasını Ekim 1754 sonrasına koyuyor (okunmadı). | **YAZILDI (kısmi):** Toungoo künye `t` 1752-01-01 → 1752-04-23 (ay Harvey ile teyitli, gün beyanlı teyitsiz); 22 pencere ile künye uyumu sağlandı. Konbaung `f` ve 2 yerleşimdeki (Lamphun, Halin) 1752-01-01 geçişi DEĞİŞMEDİ. |
+| Pagan 1287 / 1297 | Harvey s. 69-70, 75-77 | Pagan 1287'de Yunnan kuvvetlerine düştü («Thus perished Pagan…»). Kyawswa 1297'de Çin imparatorundan **tefviz** aldı, Shan kardeşler onu **1298**'de öldürdü/devirdi (Harvey; modern anlatım Aralık 1297). Atlas: künye `t` 1297-01-01, madde 1287. | **DEĞİŞMEDİ.** Künye `t` için aday 1297 (atlas) / 1298 (Harvey); ikinci tam metin (Than Tun, Aung-Thwin, Hmannan) bulunamadı. 1287 madde ile künye `t` farkı iki ayrı olay olarak açıklanabilir (Moğol fethi vs. Kyawswa'nın devrilişi) — hata değil, ayrı olay; adım 3'teki "kırılma yok" bulgusu kalır. |
+| Tayland adı 1939-06-05 / 06-24 | Charnvit Kasetsiri, JSS 62/2 (1974) (thesiamsociety.org PDF, okundu) | «the government established, for the first time, a National Day — June 24 … At the same time the name of the country was changed from Siam to Thailand»; gün açıkça yazılmıyor. | **DEĞİŞMEDİ.** 24 Haziran lehine zayıf ipucu; 5 Haziran'ı destekleyen akademik kaynak yok (madde EBSCO'ya dayanıyor). Kesin karar için Wyatt/Royal Gazette gerek → kuyrukta. |
+| Tây Sơn→Nguyễn 1802-06-20, Nguyễn 1801-06-15 | Taylor 2013, Toàn thư tam metni bulunamadı | — | DEĞİŞMEDİ (okunmadı). |
+| Mạc→Lê 1592, Vijaya 1471-03-02, Panduranga 1832 | Toàn thư tam metni bulunamadı | — | DEĞİŞMEDİ, madde eklenmedi. |
+| Chakri/Thonburi 1782-04-06 / 04-20 | Wyatt/Cushman bulunamadı | — | DEĞİŞMEDİ. |
+| Ayutthaya 1569 / 1584, Lan Xang 1707 maddeleri | tam metin bulunamadı | — | EKLENMEDİ (kaynaksız tarih yazılmaz). |
+| 1767-04-07..10-01 boşluğu | Wood 1924 (önceki oturum) | Taksin Ekim 1767'de Thonburi'yi aldı (gün yok); 28 Aralık 1767 taç giyme yalnız Vikipedi türevlerinde. | Pencere önerisi kuyruğa: boşluk → Thonburi'nin fiilî başlangıcına (Ekim 1767, gün yok) bağlı kalsın; akademik 28 Aralık teyidi gelirse künye `f` ve Bangkok `kur` hizalansın. |
+
+## Koordinatör mesajındaki iddialar hakkında
+Mesajdaki «Hanthawaddy Ava'yı 1752-04-23 aldı; Glass Palace Chronicle» ve «Alaungpaya 1752-02-29» ifadeleri tek başına kanıt sayılmadı (gözlenen içerik değil, aktarım): yalnız Harvey'in "Nisan 1752" ayı okundu ve uygulandı; Glass Palace çevirisi bu dönemi kapsamıyor.
