@@ -122,6 +122,7 @@ window.YERLESIMLER_HINDISTAN = [
 // Bofata [Gucerât Sultanlığı] on February 2, 1559, by the Portuguese under Dom Constantino de Bragança».
 { ad:"Daman", tur:"liman", lat:20.4150, lon:72.8330, g:1, k:3, d:[],
   kur:"1559-02-02",
+  kaynak:"The Imperial Gazetteer of India, XI (Oxford 1908), «Daman» (archive.org TheImperialGazetteerOfIndiaVolXI): Portekiz fethi 2 Şubat 1559 · TDV «Diû» (19 Aralık 1961) · ayrıntı s: penceresinde · HINT-1115b",
   s:[{f:"1559-02-02", t:"1961-12-19", d:"portekiz-hindistani-goa", enklav:true, kesinlik:{f:"gun",t:"gun"},
       kaynak:"HINT-1115b (UMIT, 15 Kasım 2026): f — The Imperial Gazetteer of India, XI (Oxford 1908) «Daman»: «Daman proper … was conquered from Bofata on February 2, 1559, by the Portuguese under Dom Constantino de [Bragança]» (archive.org TheImperialGazetteerOfIndiaVolXI, tam metin okundu; Volume11 kopyasında OCR 'February a, 1559' — iki taramanın karşılaştırılmasıyla 2 Şubat). Aynı madde kasabanın 1558'de geri alındığını da yazar (yıl; gün yok) — 1559-02-02 'Daman proper' fethi günüdür, ÇELİŞKİ/varyant beyanı. kur: KURULUŞ DEĞİL, atlas penceresi başlangıcı (yer 1559 öncesi vardı: IGI 'sacked 1531'). t — TDV İslâm Ansiklopedisi «Diû»: Goa-Dâmân-Diû 19 Aralık 1961 Hint işgali (aynı eylem Goa ve Diu pencereleriyle); kronoloji_sinir_halef_1923_2000.js 1961-12-19 maddesi Daman'ı adlandırır. Portekiz idaresine 1559'da geçmeden önceki sahip (Gucerât Sultanlığı) YAZILMADI: kur: 1559-02-02 öncesi pencere yok."},
      {f:"1961-12-19", t:"2000-12-31", d:"hindistan-cumhuriyeti", kesinlik:{f:"gun"},
@@ -133,6 +134,7 @@ window.YERLESIMLER_HINDISTAN = [
 // April 12, 1817» (Pondicherry ve Chandernagore 4 Aralık 1816).
 { ad:"Karaikal (Karikal)", tur:"liman", lat:10.9200, lon:79.8380, g:1, k:3, d:[],
   kur:"1817-01-14",
+  kaynak:"The Imperial Gazetteer of India, XV «Karikal» ve XII «French Possessions» (archive.org TheImperialGazetteerOfIndia-Volume15/-Volume12): Fransızlara iade 14 Ocak 1817 · ayrıntı s: penceresinde · HINT-1115b",
   s:[{f:"1817-01-14", t:"1954-11-01", d:"fransiz-hindistani", enklav:true, kesinlik:{f:"gun",t:"gun"},
       kaynak:"HINT-1115b (UMIT, 15 Kasım 2026): f — The Imperial Gazetteer of India, XV «Karikal» (archive.org TheImperialGazetteerOfIndia-Volume15, okundu): «finally restored to the French on January 14, 1817»; XII «French Possessions»: «Karikal on January 14, 1817». KAPSAM BEYANI: 1739 (Dumas) – 1817 arası Fransız/İngiliz değişimleri (1760-04-15 teslim; «three subsequent occasions») pencerelere YAZILMADI — IGI yalnız 1760 gününü verir, iade/işgal günleri okunmadı; kur: KURULUŞ DEĞİL, atlas penceresi başlangıcı. t — fransiz-hindistani künyesi t=1954-11-01 (fiilî devir; künye kaynakları: Historical Journal 'Imagining India, decolonizing l'Inde française' dipnotu + encyclopedia.com 'Puducherry'); kronoloji_sinir_halef_1923_2000.js 1954-11-01 maddesi Karaikal'i adlandırır. RENK BEYANI: pencere fransiz-hindistani künyesindedir (BOYALAR #3286b9); kardeş Pondişeri/Çandernagor pencereleri fransa-cumhuriyet (#09095a) kodludur (UMIT hint 1. dalga K1/G2) — renk birliği KASA kararı."},
      {f:"1954-11-01", t:"2000-12-31", d:"hindistan-cumhuriyeti", kesinlik:{f:"gun"},
@@ -142,6 +144,7 @@ window.YERLESIMLER_HINDISTAN = [
 // («In 1726 they obtained a footing in Mahe»); «thrice taken and thrice restored»; iade 22 Şubat 1817 (IGI XII).
 { ad:"Mahé", tur:"liman", lat:11.7010, lon:75.5360, g:1, k:3, d:[],
   kur:"1817-02-22",
+  kaynak:"The Imperial Gazetteer of India, XII «French Possessions» ve XVII «Mahe» (archive.org TheImperialGazetteerOfIndia-Volume12/-Volume17): Fransızlara iade 22 Şubat 1817 · ayrıntı s: penceresinde · HINT-1115b",
   s:[{f:"1817-02-22", t:"1954-11-01", d:"fransiz-hindistani", enklav:true, kesinlik:{f:"gun",t:"gun"},
       kaynak:"HINT-1115b (UMIT, 15 Kasım 2026): f — The Imperial Gazetteer of India, XII «French Possessions» (archive.org TheImperialGazetteerOfIndia-Volume12, okundu): «Mahe, on February 22, 1817»; XVII «Mahe»: 11°43' K 75°33' D, Malabar'da Fransız yerleşimi. KAPSAM BEYANI: 1726 tutunma (IGI XVII: 'In 1726 they obtained a footing in Mahe') ile 1817 arası (IGI: 'thrice taken and thrice restored'; 1761 İngiliz) pencerelere YAZILMADI (iade/işgal günleri okunmadı); kur: KURULUŞ DEĞİL. t — fransiz-hindistani künyesi t=1954-11-01; kronoloji_sinir_halef_1923_2000.js 1954-11-01 maddesi Mahé'yi adlandırır. RENK BEYANI: Karaikal kaydıyla aynı (fransiz-hindistani #3286b9 ↔ Pondişeri fransa-cumhuriyet)."},
      {f:"1954-11-01", t:"2000-12-31", d:"hindistan-cumhuriyeti", kesinlik:{f:"gun"},
@@ -152,6 +155,7 @@ window.YERLESIMLER_HINDISTAN = [
 // el konuldu, iki yıl sonra resmen devredildi; iade 12 Nisan 1817.
 { ad:"Yanam", tur:"liman", lat:16.7333, lon:82.2167, g:1, k:3, d:[],
   kur:"1817-04-12",
+  kaynak:"The Imperial Gazetteer of India, XII «French Possessions» ve «Godavari District» (archive.org TheImperialGazetteerOfIndia-Volume12): Fransızlara iade 12 Nisan 1817 · ayrıntı s: penceresinde · HINT-1115b",
   s:[{f:"1817-04-12", t:"1954-11-01", d:"fransiz-hindistani", enklav:true, kesinlik:{f:"gun",t:"gun"},
       kaynak:"HINT-1115b (UMIT, 15 Kasım 2026): f — The Imperial Gazetteer of India, XII «French Possessions» (okundu): «Yanam, on April 12, 1817». KAPSAM BEYANI: IGI Yanam için iki ilk-edinim tarihi verir (Godavari maddesi: yaklaşık 1708; French Possessions: 'taken possession of in 1750, formally ceded two years later') — ÇELİŞKİ, ikisi de yıl hassasiyetinde, 1817 öncesi pencere YAZILMADI; kur: KURULUŞ DEĞİL. t — fransiz-hindistani künyesi t=1954-11-01; kronoloji_sinir_halef_1923_2000.js 1954-11-01 maddesi Yanam'ı adlandırır. RENK BEYANI: Karaikal kaydıyla aynı."},
      {f:"1954-11-01", t:"2000-12-31", d:"hindistan-cumhuriyeti", kesinlik:{f:"gun"},
@@ -162,6 +166,7 @@ window.YERLESIMLER_HINDISTAN = [
 // British»; IGI XXII «Serampore Town»: 1845 antlaşmasıyla Tranquebar ve Serampore Şirket'e satıldı.
 { ad:"Serampore", tur:"sehir", lat:22.7500, lon:88.3400, g:1, k:3, d:[],
   kur:"1755-01-01",
+  kaynak:"Nationalmuseet (Danimarka Ulusal Müzesi), «The Danish trading post» / «The history of Serampore» (1755 koloni izni, 1845 satış) ve The Imperial Gazetteer of India, XXII «Serampore Town» (archive.org TheImperialGazetteerOfIndia-Volume22) · ayrıntı s: penceresinde · HINT-1115b",
   s:[{f:"1755-01-01", t:"1845-02-22", d:"danimarka-hindistani", enklav:true, kesinlik:{f:"yil",t:"gun"},
       kaynak:"HINT-1115b (UMIT, 15 Kasım 2026): f — Nationalmuseet (Danimarka Ulusal Müzesi), «The Danish trading post» (en.natmus.dk/historical-knowledge/…/the-history-of-serampore; okundu): «In 1755, the governor of the Indian Mughal Empire granted the Danish Asiatic Company permission to establish a colony in Serampore» [yalnız yıl teyitli; gün teyitsiz]; kur: KURULUŞ DEĞİL, ilk tanık/atlas penceresi başlangıcı. KAPSAM BEYANI: 1801-02 ve 1808-15 İngiliz işgalleri (kaynak okunmadı) YAZILMADI. t — 1845-02-22 Danimarka'nın Hint yerleşimlerinin İngilizlere devri antlaşması (Tranquebar penceresiyle aynı uç; gün yalnız ikincil kaynakta); IGI XXII «Serampore Town» (archive.org TheImperialGazetteerOfIndia-Volume22, okundu): «Serampore was originally a settlement of the Danes, who remained here until 1845, when by a treaty with the King of Denmark all the Danish possessions in India … were sold to the East India Company»; Serampore'un fiilî teslim günü Tranquebar'dan farklıdır (danimarka-hindistani künyesi ic_not: Jensen, Handels- og Søfartsmuseets årbog; gün akademik kaynakta BULUNAMADI) — BEYANLI. RENK BEYANI: pencere danimarka-hindistani (#03a6ff), Tranquebar penceresi danimarka (#b484e7) kodlu; renk birliği KASA kararı."},
      {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani", kesinlik:{f:"gun",t:"gun"},
