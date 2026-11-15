@@ -1,7 +1,8 @@
 {
- "_NOT": "Değişmez 8 KÖRLÜK defteri: `degismez8().olculemeyen` (hat, gün) çiftleri. Üyelik `hat¦gun`; tam_kor/yarim yalnız bilgi. 'Defterde var' ≠ 'incelendi ve kabul edildi': bu hatlar bugün de KÖRDÜ, kimse bilmiyordu — defter körlüğü GÖRÜNÜR kılar, kapatmaz. Yazıldığı gövde: 2026-11-08 19:43 · uret_petek 318f5183 · bölge PENCERELİ",
+ "_NOT": "Değişmez 8 KÖRLÜK defteri: `degismez8().olculemeyen` (hat, gün) çiftleri. Üyelik `hat¦gun`; tam_kor/yarim yalnız bilgi. 'Defterde var' ≠ 'incelendi ve kabul edildi': bu hatlar bugün de KÖRDÜ, kimse bilmiyordu — defter körlüğü GÖRÜNÜR kılar, kapatmaz. Yazıldığı gövde: 2026-11-15 05:34 · uret_petek 511ef9f6 · bölge PENCERELİ",
  "cift": [
   "d1639-osm-safevi-kasrisirin¦1728-09-21",
+  "d1751-osm-zend-kerden¦1751-01-01",
   "d1859-ru-rp-prut-kuzey¦1859-02-05",
   "d1878-de-ah-bohemya-2¦1918-11-10",
   "d1885-nijerya-kamerun-genel¦1885-04-01",
@@ -159,6 +160,7 @@
  ],
  "yarim": [
   "d1639-osm-safevi-kasrisirin",
+  "d1751-osm-zend-kerden",
   "d1859-ru-rp-prut-kuzey",
   "d1878-de-ah-bohemya-2",
   "d1886-angola-almanya-swa",
