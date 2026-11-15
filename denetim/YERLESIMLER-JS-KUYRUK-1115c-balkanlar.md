@@ -21,4 +21,7 @@ Mevcut: `sirbistan-nemanjic` 1281→1402, `sirp-despotlugu` 1402→1427: ŞEHİR
 
 ## 3. Açık
 - Satır 562 not'unda «Sırp 1281-1354 sahibi kaynakta kesin değil» beyanı kaldırılır (artık kaynaklı).
-- Ölçülmedi: Dušan'ın başka bir «Belgrad» (Berat?) varsayımı — TDV ham metni bu oturumda okunmadı.
+- Dušan'ın «Belgrad»ı Berat mi? DOĞRULANAMADI (Berat 1345'te alındı, 1350'de Muzaka geri aldı; TDV 1354 ve Belgrad der). TDV okundu 15.11.2026 (islamansiklopedisi.org.tr/belgrad, Djurić-Zamolo, C.5, 1992, s.407-409): «1354'te Sırp Kralı Stefan Duşan tarafından zaptedilen Belgrad … tekrar Macar idaresine girerek Maçva eyaletine bağlandı».
+
+## 4. Belgrad 1000-1199 dilimi (öneri; Kalić, Balcanica XLV 2014, tam metin)
+- Mevcut: 0547-01-01→1281-01-01 `__BOSLUK__` (BEYANLI). Kalić: 11. yy başı Bizans fethi (Samuil yenilgisi); 1127 Macar zaptı ve yıkım, barışla Bizans; 1182 Macar zaptı; 1185 Isaac II diplomasiyle geri; 1204 sonrası Macar (13. yy kısa kesintilerle). Yıl düzeyinde, gün kaynaksız. 1000-1199 kırılma maddeleri YAZILMADI (Değişmez 2: pencere uygulanınca ±30 günde madde gerekir); uygulama KASA'da.
