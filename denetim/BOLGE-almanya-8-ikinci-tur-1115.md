@@ -38,3 +38,7 @@ Toplam çift teyit: 7 gün (4 mevcut + 3 yeni). Hedef ~30: ulaşılamadı; engel
 
 ## E. KASA'ya sorulan (silinmedi)
 `lihtenstayn` (f 1719-01-23, t 2026-12-31, tur ?) ile `liechtenstein` (f 1719-01-23, t boş; 1 yerleşim) aynı polity. Hangisi kalacak? Soru: yerleşimli olan `liechtenstein` kalıp `lihtenstayn` mı silinecek, yoksa tersi mi? `lihtenstayn`'ın 8, `liechtenstein`'ın 5 künye-içi maddesi var (birleştirme ve çeviri/olay_taraf anahtar taşıması KASA'nın kararı).
+
+## F. Ölçüm (ikinci tur sonu)
+- node --check: devletler.js, kronoloji_almanya.js, kronoloji_macaristan.js temiz. odak_olc: ÇÖZÜLMEYEN ODAK ATFI 0 (yeni 3 madde sonrası).
+- denetle (worktree, coz-c sonrası): çıktı ek-denetim bölümünde kesildi, ÇIKIŞ KODU OKUNAMADI -> genel hüküm OLCULMEDI. Okunan satırlar: Değişmez 1 ✓ (306 sahipsiz = beklenen), 1b ✓ 0, 2 ✓ 760 kırılma 0 açık, 2i ✓, 4/4c/4d/4s ✓ 0, 5 ✓ 0. Değişmez 8 ölçülemez (ana ağaç kuralı).
