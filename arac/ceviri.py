@@ -110,14 +110,17 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # — kaynak: main'e göre eklenen yeni künyeler (Delhi hanedanları, Qing Halha, Lan Xang ardılları, İngiliz Guyanası vb.) ve 3 yeni olay
 # metni (UMIT 1115c 7 dalı + kasa-1115-umit-birlesim). ÖLÇÜM: devlet eksik 21->24, olay eksik +3 her dilde. Eski değerler: devlet 21;
 # olay en/ar/es/de 426, pt 1539, ru 3631, fr 4531. Çeviri işi site bitince (Emre, 13 Kasım).
+# 16 Kasım 2026 (EMRELİC postit-resim, Emre 1 Kasım kararı): ÖLÇÜM — eksik arayuz 72->78 her dilde. Kaynak: js/gelistirici.js
+# "Resim ekle → çerçeveli ekran görüntüsü" penceresinin 6 yeni düğme/ipucu dizgisi (✓ Ekle, ✕ Vazgeç, Tamamı, "Fareyle / parmakla
+# çerçeve çiz", "Beğenmediysen yeniden çiz · Enter: ekle", "Yalnız harita yakalandı …"); geliştirici kipini yalnız Emre görür.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 72, "devlet": 24, "olay": 429},
-    "ar": {"arayuz": 72, "devlet": 24, "olay": 429},
-    "es": {"arayuz": 72, "devlet": 24, "olay": 429},
-    "de": {"arayuz": 72, "devlet": 24, "olay": 429},
-    "pt": {"arayuz": 72, "devlet": 24, "olay": 1542},
-    "ru": {"arayuz": 72, "devlet": 24, "olay": 3634},
-    "fr": {"arayuz": 72, "devlet": 24, "olay": 4534},
+    "en": {"arayuz": 78, "devlet": 24, "olay": 429},
+    "ar": {"arayuz": 78, "devlet": 24, "olay": 429},
+    "es": {"arayuz": 78, "devlet": 24, "olay": 429},
+    "de": {"arayuz": 78, "devlet": 24, "olay": 429},
+    "pt": {"arayuz": 78, "devlet": 24, "olay": 1542},
+    "ru": {"arayuz": 78, "devlet": 24, "olay": 3634},
+    "fr": {"arayuz": 78, "devlet": 24, "olay": 4534},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
