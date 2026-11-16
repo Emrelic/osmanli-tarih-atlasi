@@ -133,6 +133,7 @@ denetim/_kaynak_denetim_*.json
 /*.txt
 /*.json
 /*.js
+!/sw.js
 /*.py
 /*.log
 /*.err
