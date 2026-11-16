@@ -122,7 +122,7 @@
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, CIZRE maddesi (islamansiklopedisi.org.tr/cizre; 16 Kas 2026'da okundu); hicrî 250 ∩ 864 kesişiminin ilk günü, tablo takvimi, Jülyen",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] şehri Hasan b. Ömer b. Hattâb et-Tağlibî kurdu (250/864)"
+   "tanik": "Ancak Cizre’nin kurulduğu tarihe yakın dönemde kaleme alınan kaynaklar, şehrin 250’den (864) önce Hasan b."
   },
   "kur": {
    "t": "0864-02-13",
@@ -228,7 +228,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1127-01-17'de 'zengi-musul' ile başlıyor; TDV Cizre'nin Zengî'ye geçişine tarih vermiyor (yalnız 1146 İmâdüddin Zengî'nin ölümü ve 1158 Mevdûd). Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV: 17/638 İyâz b. Ganm bölgeyi fethetti (şehir kurulmadan önce, bölge düzeyi) — başlangıç sayılmadı. Sonraki dönem (1158 Mevdûd, Eyyûbî, Timur 1394, Osmanlı...) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 318253 (37°19′48.86″ N, 42°11′05.42″ E), atlas tahmininden 0.4 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV: 17/638 İyâz b. Ganm bölgeyi fethetti (şehir kurulmadan önce, bölge düzeyi) — başlangıç sayılmadı. Sonraki dönem (1158 Mevdûd, Eyyûbî, Timur 1394, Osmanlı...) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 318253 (37°19′48.86″ N, 42°11′05.42″ E), atlas tahmininden 0.4 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "karaman-tr",
@@ -411,7 +411,7 @@
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, KATÎF maddesi (islamansiklopedisi.org.tr/katif; 16 Kas 2026'da okundu); hicrî 286 ∩ 899 ilk günü, tablo takvimi, Jülyen",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] 286/899'da Karmatîler Ebû Saîd el-Cennâbî önderliğinde bölgeyi ele geçirdi"
+   "tanik": "Katîf dahil bütün bölge, iki yüzyıl sonra kanlı savaşların ardından birkaç defa el değiştirerek Ebû Saîd el-Cennâbî idaresindeki Karmatîler tarafından zaptedildi (286/899)."
   },
   "kur": null,
   "ark": null,
@@ -436,7 +436,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Karmatî → sonraki sahip geçişine tarihli tanık yok (TDV'de Karmatî sonrası Ukaylî tarihi yok, 1330/731 Hürmüz alışı var). Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV Katîf'in ilk anılış tarihini vermiyor (İslâm öncesi Abdülkays yurdu, Alâ b. Hadramî'nin gönderilişi tarihsiz); en erken TARİHLİ bağlantı Karmatî fethidir (bölge düzeyi, şehir adı geçmez olabilir) — ilk anılış olarak zayıf. Sonrası (1330 Hürmüz, 1534 Osmanlı, 1792/1830 Suûdî) atlas sonrası. Koord: koord: GeoNames 108927 (26°33′55.51″ N, 50°00′32.04″ E), atlas tahmininden 2.3 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV Katîf'in ilk anılış tarihini vermiyor (İslâm öncesi Abdülkays yurdu, Alâ b. Hadramî'nin gönderilişi tarihsiz); en erken TARİHLİ bağlantı Karmatî fethidir (bölge düzeyi, şehir adı geçmez olabilir) — ilk anılış olarak zayıf. Sonrası (1330 Hürmüz, 1534 Osmanlı, 1792/1830 Suûdî) atlas sonrası. Koord: koord: GeoNames 108927 (26°33′55.51″ N, 50°00′32.04″ E), atlas tahmininden 2.3 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "yenbu-sa",
@@ -455,7 +455,7 @@
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, YENBU' maddesi (islamansiklopedisi.org.tr/yenbu; 16 Kas 2026'da okundu); hicrî 2 ∩ 623 ilk günü, tablo takvimi, Jülyen",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] Buvât ve Uşeyre seferleri (2/623) Yenbu' çevresinde"
+   "tanik": "Bu çerçevede yapılan Buvât ve Uşeyre gazveleri (2/623) ve Sîfülbahr Seriyyesi ile (8/629) Yenbu‘ ve çevresindeki Arap kabileleriyle ilişki kurularak onların güvenliklerinin sağlanmasına katkıda bulunulmuş"
   },
   "kur": null,
   "ark": null,
@@ -480,7 +480,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; bu dosyada da 1000'e kadar sahip bilinmiyor (beyanlı boşluk), dikiş çelişkisi yok.",
-  "ic_not": "Sefer yerinin Yenbu' şehriyle aynı nokta olup olmadığı TDV özetinde 'çevre' düzeyindedir; ilk anılış zayıf. Sonrası (1182 Renaud, 1200 Katâde...) atlas sonrası. Koord: koord: GeoNames 100425 (24°05′22.34″ N, 38°03′42.48″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Sefer yerinin Yenbu' şehriyle aynı nokta olup olmadığı TDV özetinde 'çevre' düzeyindedir; ilk anılış zayıf. Sonrası (1182 Renaud, 1200 Katâde...) atlas sonrası. Koord: koord: GeoNames 100425 (24°05′22.34″ N, 38°03′42.48″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "zebid-ye",
@@ -499,7 +499,7 @@
    "nicelik": "kurulus",
    "kesinlik": "ay",
    "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu); Şâban 204 (tablo takvimi 820-01-21..02-19) ∩ TDV'nin 'Şubat 820'si → ayın ilk günü, Jülyen",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] Halife Me'mûn'un emriyle Şâban 204'te (Şubat 820) şehir kuruldu"
+   "tanik": "Me’mûn’un emriyle Şâban 204’te (Şubat 820) Zebîd şehrini kurarak saraylar yaptırdı ve kanallar açtırdı."
   },
   "kur": {
    "t": "0820-02-01",
@@ -527,7 +527,7 @@
     "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "Atlas Zebîd'i 0820-01-01'de 'ziyadi' ile başlatıyor, TDV'ye göre şehir Şubat 820'de kuruldu — atlas başlangıcı kuruluştan ~1 ay ÖNCE (denetle uyarısı beklenir; sıfır zincir çünkü ilk.t atlas başlangıcından sonra). Atlas düzeltmesi önerisi: 0820-02-01 (ay hassasiyeti). Zincir yazılmadı: kuruluştan atlas başlangıcına zaman kalmadı. Sonrası (Ziyâdîler, Necâhîler 1022, Mehdîler 1159, Eyyûbî 1174, Resûlî, Tâhirî, Osmanlı 20 Haz 1516) atlas zincirinde. Koord: koord: GeoNames 69500 (14°11′42.36″ N, 43°18′54.65″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Atlas Zebîd'i 0820-01-01'de 'ziyadi' ile başlatıyor, TDV'ye göre şehir Şubat 820'de kuruldu — atlas başlangıcı kuruluştan ~1 ay ÖNCE (denetle uyarısı beklenir; sıfır zincir çünkü ilk.t atlas başlangıcından sonra). Atlas düzeltmesi önerisi: 0820-02-01 (ay hassasiyeti). Zincir yazılmadı: kuruluştan atlas başlangıcına zaman kalmadı. Sonrası (Ziyâdîler, Necâhîler 1022, Mehdîler 1159, Eyyûbî 1174, Resûlî, Tâhirî, Osmanlı 20 Haz 1516) atlas zincirinde. Koord: koord: GeoNames 69500 (14°11′42.36″ N, 43°18′54.65″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kilis-tr",
@@ -547,7 +547,7 @@
    "nicelik": "ilk_anilis",
    "kesinlik": "ay",
    "kaynak": "TDV İslâm Ansiklopedisi, KILIS maddesi (islamansiklopedisi.org.tr/kilis; 16 Kas 2026'da okundu); Safer 375 (tablo takvimi 985-06-23..07-22) ∩ TDV'nin 'Temmuz 985'i → ayın ilk günü, Jülyen",
-   "tanik": "[TDV metninden özet, aynen alıntı değil] Bardas Phokas Kilis'i alıp Bizans topraklarına kattı (375 Safer)"
+   "tanik": "375 Saferinde (Temmuz 985) Bardas Phokas Kilis’i alıp Bizans topraklarına kattı"
   },
   "kur": null,
   "ark": null,
@@ -572,7 +572,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Bizans'ın 985-1000 arası sürekliliği ve sonrası TDV'de tarihsiz (1124 Belek Gazi Artuklu, Eyyûbî/Memlük tarihsiz). Yer tutucu olay yazılmadı.",
-  "ic_not": "Kilizi (MÖ ~1100, I. Tiglat-pileser) eşitlemesi TDV'ce kesin değil → başlangıç SAYILMADI (VERİ-YAPISI: yeri kesin olmayan eşitleme). Roma yönetimi MÖ 64 (bölge) ve Ebû Ubeyde 15/636 fethi (bölge) şehir düzeyi tanık değil. Daha eski tanık aranmadı. Koord: koord: GeoNames 307864 (36°42′58.00″ N, 37°06′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Kilizi (MÖ ~1100, I. Tiglat-pileser) eşitlemesi TDV'ce kesin değil → başlangıç SAYILMADI (VERİ-YAPISI: yeri kesin olmayan eşitleme). Roma yönetimi MÖ 64 (bölge) ve Ebû Ubeyde 15/636 fethi (bölge) şehir düzeyi tanık değil. Daha eski tanık aranmadı. Koord: koord: GeoNames 307864 (36°42′58.00″ N, 37°06′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "sade-ye",
@@ -588,7 +588,7 @@
    "t": "0897-02-08",
    "gun": "284 (897)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu) (Zeydîlik/Sa'de bölümü); hicrî 284 ∩ 897 ilk günü, tablo takvimi, Jülyen",
    "tanik": "[TDV metninden özet, aynen alıntı değil] Hâdî ilâ'l-Hak Yahyâ b. Hüseyin Zeydî imâmetini kurmak üzere Sa'de'ye geldi (284/897)"
   },
@@ -614,6 +614,6 @@
     "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "'Yemen' maddesi (islamansiklopedisi.org.tr/yemen) okundu; ayrı 'Sa'de' maddesi bulunamadı (arama sonucu boş). 897 en erken tarihli tanık: şehrin daha eski anılışı (Hemdânî, Sıfatü Cezîreti'l-Arab) aranmadı. Sonrası (1027 Hâşid, Resûlî 1229...) atlas sonrası. Koord: koord: GeoNames 71334 (16°56′24.76″ N, 43°45′50.15″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "'Yemen' maddesi (islamansiklopedisi.org.tr/yemen) okundu; ayrı 'Sa'de' maddesi bulunamadı (arama sonucu boş). 897 en erken tarihli tanık: şehrin daha eski anılışı (Hemdânî, Sıfatü Cezîreti'l-Arab) aranmadı. Sonrası (1027 Hâşid, Resûlî 1229...) atlas sonrası. Koord: koord: GeoNames 71334 (16°56′24.76″ N, 43°45′50.15″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  }
 ]

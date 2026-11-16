@@ -43,7 +43,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
     "kaynak": "TDV İslâm Ansiklopedisi, BAYBURT maddesi (İsmet Miroğlu, c.5, s.225-228, 1992; islamansiklopedisi.org.tr/bayburt; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "TDV'nin sonraki zinciri (atlas başladıktan sonra, zincire alınmadı): 1054 Selçuklu akını; 1072-1202 Saltuklu/Danişmendli arası; 1202 Selçuklu (Erzurum Tuğrul Şah-Cihan Şah); 1243 sonrası İlhanlı; Eretnaoğulları, Akkoyunlu, Karakoyunlu; 1501 Safevî; Ekim 1514 Osmanlı fethi (gün yok), sancak merkezi. koord: GeoNames 750938 (40°15′22.72″ N, 40°13′22.40″ E), atlas tahmininden 0.2 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "TDV'nin sonraki zinciri (atlas başladıktan sonra, zincire alınmadı): 1054 Selçuklu akını; 1072-1202 Saltuklu/Danişmendli arası; 1202 Selçuklu (Erzurum Tuğrul Şah-Cihan Şah); 1243 sonrası İlhanlı; Eretnaoğulları, Akkoyunlu, Karakoyunlu; 1501 Safevî; Ekim 1514 Osmanlı fethi (gün yok), sancak merkezi. koord: GeoNames 750938 (40°15′22.72″ N, 40°13′22.40″ E), atlas tahmininden 0.2 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "bergama-tr",
@@ -117,7 +117,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    }
   ],
   "dikis_beyan": "Atlas -0281-01-01'de 'bergama' (Attalos) ile başlıyor; TDV Philetairos özerkliğini MÖ ~283 (-0282) yaklaşık verir, yani atlasın başlangıcı TDV'den 1 yıl geç. Yer tutucu olay yazılmadı; olay -0282'dedir.",
-  "ic_not": "Pergamon'un kuruluş tarihi bilinmiyor (TDV: kazılarda MÖ VII. yy surları). Sonraki zincir (atlas dışı): MÖ 133 Roma; Mithridates geçici; Bizans; 716 Emevî (Mesleme) kuşatması 1 yıl; Karesioğulları ~1302 sonrası; Osmanlı ~1341. koord: GeoNames 321426 (39°07′14.66″ N, 27°10′49.87″ E), atlas tahmininden 0.1 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "Pergamon'un kuruluş tarihi bilinmiyor (TDV: kazılarda MÖ VII. yy surları). Sonraki zincir (atlas dışı): MÖ 133 Roma; Mithridates geçici; Bizans; 716 Emevî (Mesleme) kuşatması 1 yıl; Karesioğulları ~1302 sonrası; Osmanlı ~1341. koord: GeoNames 321426 (39°07′14.66″ N, 27°10′49.87″ E), atlas tahmininden 0.1 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "doha-qa",
@@ -135,7 +135,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    "t": "1801-01-01",
    "gun": "19. yüzyıl başı (TDV: Bahreyn'e bağlı; bundan önceki tarihi çok az bilinir)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, DEVHA maddesi (İdris Bostan, c.9, s.228-229; islamansiklopedisi.org.tr/devha; 16 Kas 2026'da okundu)",
    "tanik": "XIX. yüzyıl başında Bahreyn'e bağlıydı (TDV özeti; kısa alıntı değil)"
   },
@@ -190,7 +190,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    }
   ],
   "dikis_beyan": "Atlas Doha'yı 1825-01-01'de __BOSLUK__ ile başlatıyor; Bahreyn→boşluk geçişine okunmuş tanık yok (TDV 1825'ten söz etmez). Yer tutucu olay yazılmadı. Atlasın 1825 başlangıcı kaynaksız (TDV'de 1825 yok).",
-  "ic_not": "Kuruluş: TDV 'eski balıkçı köyü Bid‘a'nın bulunduğu yerde kurulmuştur' der, tarih vermez; 'kur' bu yüzden boş. Bahreyn emiri Devha karşılığında Suudilere vergi ödüyordu (TDV, Osmanlı XVI. yy girişinden sonra); 1867'de Muhammed b. Sânî idareyi ele geçirdi (Bahreyn ve Ebûzabî saldırısı sonrası). 1871-1971 olayları atlas zinciri başladıktan sonra olduğu için sahip zincirine alınmadı, yalnız olay olarak yazıldı (atlas zinciri esastır). koord: GeoNames 290030 (25°17′07.62″ N, 51°31′51.46″ E), atlas tahmininden 0.1 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "Kuruluş: TDV 'eski balıkçı köyü Bid‘a'nın bulunduğu yerde kurulmuştur' der, tarih vermez; 'kur' bu yüzden boş. Bahreyn emiri Devha karşılığında Suudilere vergi ödüyordu (TDV, Osmanlı XVI. yy girişinden sonra); 1867'de Muhammed b. Sânî idareyi ele geçirdi (Bahreyn ve Ebûzabî saldırısı sonrası). 1871-1971 olayları atlas zinciri başladıktan sonra olduğu için sahip zincirine alınmadı, yalnız olay olarak yazıldı (atlas zinciri esastır). koord: GeoNames 290030 (25°17′07.62″ N, 51°31′51.46″ E), atlas tahmininden 0.1 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "havsa-tr",
@@ -206,7 +206,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    "t": "1576-03-31",
    "gun": "H 984 (1576-77), kayıp kitabe; kesişimin ilk günü, Jülyen",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, SOKULLU MEHMED PAŞA KÜLLİYESİ (Havsa) maddesi (Mehmet Fatih Müderrisoğlu, c.37, s.359-360, 2009; islamansiklopedisi.org.tr/sokullu-mehmed-pasa-kulliyesi--havsa; 16 Kas 2026'da okundu)",
    "tanik": "kayıp kitabeye göre külliye H 984'te tamamlandı (TDV özeti)"
   },
@@ -224,7 +224,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    }
   ],
   "dikis_beyan": "Atlas Havsa'yı 0046-01-01'de roma-imp ile başlatıyor; TDV 'XVI. yy üçüncü çeyreğinden önce kayda değer yerleşme yoktu' der. Atlasın 0046-1576 zinciri bu kaynakla ÇELİŞİYOR/doğrulanamadı; yazılmadı. İlk anılış 1576 külliye kitabesinden alındı (ad ilk geçişi aranmadı).",
-  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 1576-03-31..1900-01-01 osmanli (Osmanlı sahipliği külliye yapımından çıkarımdır; başka tanık yok.). Hicrî 984 = tablo takvimiyle 1576-03-31 - 1577-03-20 (Jülyen); kaynak 1576-77 verir, kesişimin ilk günü (tablo ±2 gün). 1780 çeşme eki TDV'de. Ad kökeni, Bizans/Roma dönemi, Osmanlı fethi tarihi TDV'de yok; web aramasında yalnız DergiPark PDF'leri çıktı, okunamadı. koord: GeoNames 745719 (41°32′56.33″ N, 26°49′19.45″ E), atlas tahmininden 0.3 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 1576-03-31..1900-01-01 osmanli (Osmanlı sahipliği külliye yapımından çıkarımdır; başka tanık yok.). Hicrî 984 = tablo takvimiyle 1576-03-31 - 1577-03-20 (Jülyen); kaynak 1576-77 verir, kesişimin ilk günü (tablo ±2 gün). 1780 çeşme eki TDV'de. Ad kökeni, Bizans/Roma dönemi, Osmanlı fethi tarihi TDV'de yok; web aramasında yalnız DergiPark PDF'leri çıktı, okunamadı. koord: GeoNames 745719 (41°32′56.33″ N, 26°49′19.45″ E), atlas tahmininden 0.3 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "kosova-ovasi-xk",
@@ -285,7 +285,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, CİSR-i MUSTAFA PAŞA maddesi (Semavi Eyice, c.8, s.32-33, 1993; islamansiklopedisi.org.tr/cisr-i-mustafa-pasa--kopru; 16 Kas 2026'da okundu); Semavi Eyice, 'Svilengrad'da Mustafa Paşa Köprüsü (Cisr-i Mustafa Paşa)', Belleten 28/112 (Ekim 1964), s.729-752 (belleten.gov.tr/tam-metin/3199/tur; 16 Kas 2026'da okundu)",
-   "tanik": "kitabe 'hasaneten ebediyye' ebced 935 (TDV özeti)"
+   "tanik": "Cisr-i Mustafa Paşa, 935’te (1528-29) Sultanzâde Hanım Hatun mülkü ile birlikte kayda geçmiş"
   },
   "kur": null,
   "ark": null,
@@ -301,7 +301,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    }
   ],
   "dikis_beyan": "Atlas 'Mustafapaşa (Svilengrad)' noktasını 0046-01-01'de roma-imp ile başlatıyor; okunan hiçbir kaynak 1528 öncesi bu noktada yerleşim anmıyor (köprü kitabesi 935 H, Karaağaç köyü gelir kaynağı). Atlasın 0046-1528 sahiplik zinciri bu kaynaklarla DOĞRULANAMADI; zincir yazılmadı.",
-  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 1528-09-15..1900-01-01 osmanli (Zincir ilk anılıştan 1900-01-01'e kadar osmanli (atlas 0046'dan başlıyor, bkz. dikis_beyan). Bulgaristan'a geçiş yılı TDV'de ve Belleten özetinde okunmadı; 1900'den sonrası zaten kapsam dışı.). Hicrî 935 = tablo takvimiyle 1528-09-15 (Jülyen) - 1529-09-04; TDV 'ebced hesabıyla 935 (1528-29)' der, kesişimin ilk günü alındı (tablo ±2 gün). Köprü H 935 (Belleten de aynı); öncesinde yakınında Karaağaç köyü (Çirmen) vardı (Belleten), ilk anılışı aranmadı. Çirmen sancağına bağlıydı. koord: GeoNames 726546 (41°46′06.10″ N, 26°11′51.90″ E), atlas tahmininden 0.8 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 1528-09-15..1900-01-01 osmanli (Zincir ilk anılıştan 1900-01-01'e kadar osmanli (atlas 0046'dan başlıyor, bkz. dikis_beyan). Bulgaristan'a geçiş yılı TDV'de ve Belleten özetinde okunmadı; 1900'den sonrası zaten kapsam dışı.). Hicrî 935 = tablo takvimiyle 1528-09-15 (Jülyen) - 1529-09-04; TDV 'ebced hesabıyla 935 (1528-29)' der, kesişimin ilk günü alındı (tablo ±2 gün). Köprü H 935 (Belleten de aynı); öncesinde yakınında Karaağaç köyü (Çirmen) vardı (Belleten), ilk anılışı aranmadı. Çirmen sancağına bağlıydı. koord: GeoNames 726546 (41°46′06.10″ N, 26°11′51.90″ E), atlas tahmininden 0.8 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "vize-tr",
@@ -318,7 +318,7 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    "t": "0933-01-01",
    "gun": "10. yüzyıl başı (güvenli uç: yüzyılın ilk üçte biri)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, AYASOFYA CAMİİ (Vize) maddesi (Semavi Eyice, c.4, s.223-224, 1991; islamansiklopedisi.org.tr/ayasofya-camii--vize; 16 Kas 2026'da okundu): X. yüzyıl başlarında varlığı bilinen piskoposluk kilisesi",
    "tanik": "X. yüzyıl başlarında Vize'de piskoposluk kilisesi bilinmektedir (TDV özeti)"
   },
@@ -350,6 +350,6 @@ window.SEHIR_TARIHCE_BALKANLAR_G = [
    }
   ],
   "dikis_beyan": "Atlas Vize'yi 0046-01-01'de roma-imp ile başlatıyor; okunan TDV maddesi Roma dönemini anmıyor (Bizye'nin antik/Roma varlığı Pleiades'te görüldü ama sayfa okunamadığı için kaynak gösterilmedi). 0046-0933 aralığı yazılamadı.",
-  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 0933-01-01..1453-01-01 bizans (X. yy başı - 1453 arası TDV tarihli sahip dilimi vermez; piskoposluk ve 'son Bizans kalelerinden' ifadesinden Bizans sahipliği çıkarılmıştır (beyanlı yaklaşıklık; Bulgar dönemleri bu kaynakta anılmıyor). 1368 geçici Türk fethi ve 1411-1413 Musa Çelebi ele geçirmesi süresi bilinmeyen kısa ele geçirmeler olduğundan dönem AÇILMADI, olay olarak yazıldı.); 1453-01-01..1900-01-01 osmanli (Gün yok; yıl düzeyi. Atlas sahibi 0046'da roma-imp başlıyor (dikis_beyan).). Fetih zinciri yalnız TDV Ayasofya Camii (Vize) maddesindendir; 'Vize' ayrı TDV maddesi yok (arama: yalnız Ayasofya ve Gazi Süleyman Paşa camileri). DergiPark makalesi (Vize sancağı/ilçe tarihi) PDF olduğundan okunamadı (indirme yasağı). Wikipedia özeti 1453 başı Karaca Paşa diyor — yalnız ipucu, kullanılmadı. koord: GeoNames 738154 (41°34′34.64″ N, 27°46′02.35″ E), atlas tahmininden 0.6 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı."
+  "ic_not": "SAHİP ZİNCİRİ YAZILMADI (şehir ilk anılışı atlas başlangıcından sonra; aracın kuralı: atlas başlangıcı düzeltilmeli). Kaynaklı bulgu, atlas düzeltilince zincire dönüşür: 0933-01-01..1453-01-01 bizans (X. yy başı - 1453 arası TDV tarihli sahip dilimi vermez; piskoposluk ve 'son Bizans kalelerinden' ifadesinden Bizans sahipliği çıkarılmıştır (beyanlı yaklaşıklık; Bulgar dönemleri bu kaynakta anılmıyor). 1368 geçici Türk fethi ve 1411-1413 Musa Çelebi ele geçirmesi süresi bilinmeyen kısa ele geçirmeler olduğundan dönem AÇILMADI, olay olarak yazıldı.); 1453-01-01..1900-01-01 osmanli (Gün yok; yıl düzeyi. Atlas sahibi 0046'da roma-imp başlıyor (dikis_beyan).). Fetih zinciri yalnız TDV Ayasofya Camii (Vize) maddesindendir; 'Vize' ayrı TDV maddesi yok (arama: yalnız Ayasofya ve Gazi Süleyman Paşa camileri). DergiPark makalesi (Vize sancağı/ilçe tarihi) PDF olduğundan okunamadı (indirme yasağı). Wikipedia özeti 1453 başı Karaca Paşa diyor — yalnız ipucu, kullanılmadı. koord: GeoNames 738154 (41°34′34.64″ N, 27°46′02.35″ E), atlas tahmininden 0.6 km. Kaynak basamakları: TDV okundu; İSAM/TTK/DergiPark/YÖK taraması web aramasıyla yapıldı, bulunan hakemli makalelerin tam metni okunamadı (PDF indirme yasağı) — bu yüzden kayıt TDV (+ belirtilen tek akademik kaynak) ile sınırlı; YÖK tez merkezi ve komşu-yerel kaynaklar bu partide okunmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  }
 ];

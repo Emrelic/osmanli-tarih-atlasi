@@ -14,7 +14,7 @@
    "t": "1100-01-01",
    "gun": "11. yüzyıl (güvenli uç 1100)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, NİĞBOLU maddesi (Machiel Kiel, c. 33, 2007, s. 87-89; https://islamansiklopedisi.org.tr/nigbolu; 16 Kas 2026'da okundu): ad ilk kez 11. yüzyıl Bulgar kroniklerinde geçer",
    "tanik": "ad 11. yüzyıl Bulgar kroniklerinde geçer (TDV özeti)"
   },
@@ -62,7 +62,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1281-01-01 'bulgar-carligi' der; 11.-13. yy sahibi ve 1281 günü için şehre özgü tarihli tanık bulunamadı (TDV yalnız 'Orta Çağ'da Bulgar şehri' der). Atlas iddiası TDV ile çelişmez ama 1281 günü kaynaksızdır.",
-  "ic_not": "KOORD: GeoNames 728782 (43°42′19.01″ N, 24°53′42.76″ E), atlas tahmininden 0.27 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV NİĞBOLU OKUNDU (Kiel, c. 33). TDV adın hangi Bulgar kroniğinde/yılında ilk geçtiğini vermez; yalnız '11. yüzyıl' der — ilk anılış bu yüzden yüzyıl düzeyinde güvenli uç (1100) yazıldı, TDV'nin 'Nikephoros II Phokas döneminde (963-969) kurulmuş olması muhtemel' yorumu kuruluş sayılmadı (muhtemel). TDV'nin Heraklios'a 629 kuruluşu 'zayıf dayanaklı' diye geçen iddiası alınmadı. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Bulgar akademik yayınları) BU PARTİDE YAPILMADI. 1396 Nikopol savaşı şehrin kendi el değişimi değil, yakınındaki savaştır. Atlasla çelişki yok: atlas 1395-06-03'te Osmanlı'ya geçiş (TDV: 'bazı Bulgar kroniklerine göre 3 Haziran 1395') ve 1810-10/1811-04 Rus işgali, 1877-07-16 Rus (atlas) ile TDV 4 Temmuz 1877 fethi: atlas günü 12 gün farklı (4 Temmuz fetih, atlas isg/s: 16 Temmuz) — hangisinin ne işaretlediği bu turda ölçülmedi."
+  "ic_not": "KOORD: GeoNames 728782 (43°42′19.01″ N, 24°53′42.76″ E), atlas tahmininden 0.27 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV NİĞBOLU OKUNDU (Kiel, c. 33). TDV adın hangi Bulgar kroniğinde/yılında ilk geçtiğini vermez; yalnız '11. yüzyıl' der — ilk anılış bu yüzden yüzyıl düzeyinde güvenli uç (1100) yazıldı, TDV'nin 'Nikephoros II Phokas döneminde (963-969) kurulmuş olması muhtemel' yorumu kuruluş sayılmadı (muhtemel). TDV'nin Heraklios'a 629 kuruluşu 'zayıf dayanaklı' diye geçen iddiası alınmadı. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Bulgar akademik yayınları) BU PARTİDE YAPILMADI. 1396 Nikopol savaşı şehrin kendi el değişimi değil, yakınındaki savaştır. Atlasla çelişki yok: atlas 1395-06-03'te Osmanlı'ya geçiş (TDV: 'bazı Bulgar kroniklerine göre 3 Haziran 1395') ve 1810-10/1811-04 Rus işgali, 1877-07-16 Rus (atlas) ile TDV 4 Temmuz 1877 fethi: atlas günü 12 gün farklı (4 Temmuz fetih, atlas isg/s: 16 Temmuz) — hangisinin ne işaretlediği bu turda ölçülmedi. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "yayca-ba",
@@ -120,7 +120,7 @@
    "t": "1400-01-01",
    "gun": "14. yüzyıl sonları (güvenli uç 1400)",
    "nicelik": "kurulus",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, YENİCE-i VARDAR maddesi (Machiel Kiel, c. 43, 2013, s. 445-448; https://islamansiklopedisi.org.tr/yenice-i-vardar; 16 Kas 2026'da okundu): Gazi Evrenos Bey tarafından XIV. yüzyılın sonlarında kurulmuştur",
    "tanik": "Gazi Evrenos Bey tarafından XIV. yüzyılın sonlarında kurulmuştur (TDV)"
   },
@@ -149,7 +149,7 @@
     "kaynak": "TDV YENİCE-i VARDAR (Kiel, c. 43; 16 Kas 2026'da okundu): 'Yannitsa savaşı esnasında (11 Kasım 1912)'; Yunanistan'a geçiş günü TDV metninde YOK"
    }
   ],
-  "ic_not": "KOORD: GeoNames 733776 (40°47′30.98″ N, 22°24′27.00″ E), atlas tahmininden 0.22 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV YENİCE-i VARDAR OKUNDU: yalnız 'XIV. yüzyıl sonları' verir, kuruluş yılı/günü yok; 'XIV. yüzyılın sonlarında' = güvenli uç 1400-01-01 (yüzyıl hassasiyeti). Fetih (Selânik 833/1430) başka şehrin olayıdır, bu şehre atfedilmedi. TDV EVRENOS BEY (Gazi Evrenos Bey) arama listesinde yalnız özet okunabildi; Evrenos'un Osmanlı uç beyi olduğu doğrulandı ('Rumeli'nin fethinde önemli rol oynayan akıncı beyi') ama Yenice'ye dair tarih verilmedi. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Kiel dışı akademik monografi) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: atlas noktası 1390-01-01'de başlıyor (atlas kur 1390 yıl düzeyi; TDV 'sonlarında' aralığı 1390'ı dışlamaz, 'güvenli uç' kuralı 1400 yazdırır) — atlas başlangıcı 1390 ile TDV güvenli ucu (1400) arasında 10 yıl fark kalır; kaynak yıl vermediği için çözülemedi. Yunanistan'a geçiş (atlas 1913-11-14, atlas isg 1912-11-02) bu kayıtta yazılmadı: atlas zinciri esastır."
+  "ic_not": "KOORD: GeoNames 733776 (40°47′30.98″ N, 22°24′27.00″ E), atlas tahmininden 0.22 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV YENİCE-i VARDAR OKUNDU: yalnız 'XIV. yüzyıl sonları' verir, kuruluş yılı/günü yok; 'XIV. yüzyılın sonlarında' = güvenli uç 1400-01-01 (yüzyıl hassasiyeti). Fetih (Selânik 833/1430) başka şehrin olayıdır, bu şehre atfedilmedi. TDV EVRENOS BEY (Gazi Evrenos Bey) arama listesinde yalnız özet okunabildi; Evrenos'un Osmanlı uç beyi olduğu doğrulandı ('Rumeli'nin fethinde önemli rol oynayan akıncı beyi') ama Yenice'ye dair tarih verilmedi. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Kiel dışı akademik monografi) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: atlas noktası 1390-01-01'de başlıyor (atlas kur 1390 yıl düzeyi; TDV 'sonlarında' aralığı 1390'ı dışlamaz, 'güvenli uç' kuralı 1400 yazdırır) — atlas başlangıcı 1390 ile TDV güvenli ucu (1400) arasında 10 yıl fark kalır; kaynak yıl vermediği için çözülemedi. Yunanistan'a geçiş (atlas 1913-11-14, atlas isg 1912-11-02) bu kayıtta yazılmadı: atlas zinciri esastır. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "visoko-ba",

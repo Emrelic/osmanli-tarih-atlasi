@@ -19,7 +19,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_I = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, ASKALÂN maddesi (Mustafa Fayda, c.3, 1991, s.487-488; islamansiklopedisi.org.tr/askalan; 16 Kas 2026'da okundu)",
-   "tanik": "Muʿâviye, Hz. Ömer'in emriyle Askalân'ı fethetti (özet, TDV; 19/640)"
+   "tanik": "Bu emir üzerine Muâviye 19 (640) yılında Askalân’ı fethetti ve oraya askerî birlikler yerleştirdi."
   },
   "kur": null,
   "ark": null,
@@ -137,7 +137,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_I = [
     "kaynak": "TDV ASKALÂN (Fayda, c.3, s.487-488)"
    }
   ],
-  "ic_not": "Kaynak basamakları: ① TDV ASKALÂN (Fayda) okundu; TDV maddesi Tevrat'ta Aşkelon'dan söz eder ama tarihsiz. İlk anılış 640 olarak yazıldı çünkü TDV'nin verdiği ilk TARİHLİ tanık budur; Eski Mısır (Execration metinleri, Amarna, Merneptah), Filistî dönemi, Asur/Pers/Helenistik/Roma/Bizans dönemleri bu turda okunamadı (Britannica 403; İSAM/TTK/DergiPark/YÖK denenmedi) — BORÇ: ilk anılış gerçekte çok daha eskidir, 640 'bulunabilen tarihli tanık'tır; sahip zinciri bu yüzden 640'tan başlar. Zincir 1900'e kadar (atlas_ad: null) — girdideki atlas kaydında s:/d:/v: yok, yalnız bit:1270 var, bu yüzden denetim 'atlas noktası' ile eşleştiremez; atlas bit 1270 ile TDV 1270 ÖRTÜŞÜR. TDV ile atlas açıklamasında Yafa mesafesi: TDV 60 km, ölçülen 47,4 km (atlas notu) — TDV yuvarlak sayısı. koord: GeoNames 293400 Tel Ashqelon (31°39′35.86″N 34°32′56.65″E), atlas tahmininden 0,6 km; sapma < 3 km."
+  "ic_not": "Kaynak basamakları: ① TDV ASKALÂN (Fayda) okundu; TDV maddesi Tevrat'ta Aşkelon'dan söz eder ama tarihsiz. İlk anılış 640 olarak yazıldı çünkü TDV'nin verdiği ilk TARİHLİ tanık budur; Eski Mısır (Execration metinleri, Amarna, Merneptah), Filistî dönemi, Asur/Pers/Helenistik/Roma/Bizans dönemleri bu turda okunamadı (Britannica 403; İSAM/TTK/DergiPark/YÖK denenmedi) — BORÇ: ilk anılış gerçekte çok daha eskidir, 640 'bulunabilen tarihli tanık'tır; sahip zinciri bu yüzden 640'tan başlar. Zincir 1900'e kadar (atlas_ad: null) — girdideki atlas kaydında s:/d:/v: yok, yalnız bit:1270 var, bu yüzden denetim 'atlas noktası' ile eşleştiremez; atlas bit 1270 ile TDV 1270 ÖRTÜŞÜR. TDV ile atlas açıklamasında Yafa mesafesi: TDV 60 km, ölçülen 47,4 km (atlas notu) — TDV yuvarlak sayısı. koord: GeoNames 293400 Tel Ashqelon (31°39′35.86″N 34°32′56.65″E), atlas tahmininden 0,6 km; sapma < 3 km. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "ife-ng",
@@ -191,7 +191,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_I = [
    "t": "1000-01-01",
    "gun": "10. yüzyıl (TDV: Bizans kalesi olarak X. yüzyılda ortaya çıktı; güvenli uç 1000)",
    "nicelik": "kurulus",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV İslâm Ansiklopedisi, PRAVADİ maddesi (Machiel Kiel, c.34, s.339-340; islamansiklopedisi.org.tr/pravadi; 16 Kas 2026'da okundu)",
    "tanik": "bir Bizans kalesi olarak X. yüzyılda ortaya çıktı"
   },
@@ -246,7 +246,7 @@ window.SEHIR_TARIHCE_BOLGESIZ_I = [
     "kaynak": "TDV PRAVADİ (Kiel, c.34, s.339-340)"
    }
   ],
-  "ic_not": "Kaynak basamakları: ① TDV PRAVADİ maddesi (Kiel) tam okundu — kuruluş yüzyıl hassasiyetinde (X. yy), gün yok. ② İSAM/TTK/DergiPark/YÖK aranmadı (TDV kuruluş + Osmanlı fethi + 1444 + 1878 için yeterli bulundu; gün hassasiyeti için daha aşağı basamak denenmedi — BORÇ). Sahip zinciri yalnız atlasın başlangıcı 1281'e kadardır (atlas zinciri 1281 sonrası esastır). TDV 1878'i 'bağımsızlık' diye yazar; de jure 1878 Berlin Antlaşması özerk Bulgaristan Prensliği (atlas v: 'vassal') — TDV ifadesi olarak taşındı, çelişki beyan. Mûsâ Çelebi'nin kuşatıp zaptetmesi TDV'de yılsız geçer (Fetret dönemi); tarih uydurulmadığı için olay olarak YAZILMADI. koord: GeoNames 727921 (43°10′59.99″N 27°25′59.99″E), atlas tahmininden 0,5 km; sapma < 3 km."
+  "ic_not": "Kaynak basamakları: ① TDV PRAVADİ maddesi (Kiel) tam okundu — kuruluş yüzyıl hassasiyetinde (X. yy), gün yok. ② İSAM/TTK/DergiPark/YÖK aranmadı (TDV kuruluş + Osmanlı fethi + 1444 + 1878 için yeterli bulundu; gün hassasiyeti için daha aşağı basamak denenmedi — BORÇ). Sahip zinciri yalnız atlasın başlangıcı 1281'e kadardır (atlas zinciri 1281 sonrası esastır). TDV 1878'i 'bağımsızlık' diye yazar; de jure 1878 Berlin Antlaşması özerk Bulgaristan Prensliği (atlas v: 'vassal') — TDV ifadesi olarak taşındı, çelişki beyan. Mûsâ Çelebi'nin kuşatıp zaptetmesi TDV'de yılsız geçer (Fetret dönemi); tarih uydurulmadığı için olay olarak YAZILMADI. koord: GeoNames 727921 (43°10′59.99″N 27°25′59.99″E), atlas tahmininden 0,5 km; sapma < 3 km. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "trebinye-ba",

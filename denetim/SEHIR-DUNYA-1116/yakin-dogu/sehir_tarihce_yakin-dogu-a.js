@@ -18,7 +18,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV EBÛZABİ",
-   "tanik": "Benî Yâs kabilesi ... Ebûzabî adasına 1761’de geldiler"
+   "tanik": "Benî Yâs kabilesi, o zamanın şartlarına göre karadan gelecek saldırılara karşı gayet emin bir limana sahip olan Ebûzabî adasına 1761’de geldiler; buraya yerleştiklerinde yirmi ev kadar bir topluluk oluşturmaktaydılar."
   },
   "kur": {
    "t": "1761-01-01",
@@ -53,7 +53,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV EBÛZABİ"
    }
   ],
-  "ic_not": "Kuruluş TDV'den (1761, yıl kesin, gün yok). XIX. yy başındaki Suûdî saldırıları püskürtüldü (TDV, tarihsiz) — tâbiyet yok. Parti koordinatı atlas noktasına 0.3 km. · koord: GeoNames 292968 (24.4512, 54.3969; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ZİNCİR BOŞ (atlas dikişi): atlas noktası 'Abu Dabi' 1761-01-01'de ebuzabi-seyhligi ile başlıyor = ilk.t; 1761-1820 şeyhlik sahipliği atlasta zaten var (önceki sürümde bu dosyada ebuzabi-seyhligi 1761→1820-01-08 yazılıydı). Atlasın 1820-01-08 'ingiltere' başlangıcı: TDV yalnız '1820'yi verir; himaye değil genel barış antlaşması (aşağıdaki ilk sürüm notu). · Önceki sürüm notu: Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl-i Bû Felâh / Nehyân) Ebûzabî şeyhliği, 1761–1971 (TDV EBÛZABİ). Dikiş: atlas 1820-01-08'de 'ingiltere' ile başlıyor; TDV yalnız '1820' yılını verir (gün atlas kaydından, kaynakta yok). Atlas düzeltmesi önerisi: 1820 Genel Barış Antlaşması bir HİMAYE kurmadı — şeyhlik iç işlerinde bağımsız kaldı; TDV'ye göre İngiltere şeyhlikleri 'kendi himayesi altında' 1892'de ilân etti. 1820 sonrası sahip için 'trucial-states' (künye 1820–1971) ya da şeyhlik künyesi + himaye daha doğru olabilir."
+  "ic_not": "Kuruluş TDV'den (1761, yıl kesin, gün yok). XIX. yy başındaki Suûdî saldırıları püskürtüldü (TDV, tarihsiz) — tâbiyet yok. Parti koordinatı atlas noktasına 0.3 km. · koord: GeoNames 292968 (24.4512, 54.3969; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ZİNCİR BOŞ (atlas dikişi): atlas noktası 'Abu Dabi' 1761-01-01'de ebuzabi-seyhligi ile başlıyor = ilk.t; 1761-1820 şeyhlik sahipliği atlasta zaten var (önceki sürümde bu dosyada ebuzabi-seyhligi 1761→1820-01-08 yazılıydı). Atlasın 1820-01-08 'ingiltere' başlangıcı: TDV yalnız '1820'yi verir; himaye değil genel barış antlaşması (aşağıdaki ilk sürüm notu). · Önceki sürüm notu: Önerilen künye: ebuzabi-seyhligi — Benî Yâs (Âl-i Bû Felâh / Nehyân) Ebûzabî şeyhliği, 1761–1971 (TDV EBÛZABİ). Dikiş: atlas 1820-01-08'de 'ingiltere' ile başlıyor; TDV yalnız '1820' yılını verir (gün atlas kaydından, kaynakta yok). Atlas düzeltmesi önerisi: 1820 Genel Barış Antlaşması bir HİMAYE kurmadı — şeyhlik iç işlerinde bağımsız kaldı; TDV'ye göre İngiltere şeyhlikleri 'kendi himayesi altında' 1892'de ilân etti. 1820 sonrası sahip için 'trucial-states' (künye 1820–1971) ya da şeyhlik künyesi + himaye daha doğru olabilir. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "ajman",
@@ -113,7 +113,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "t": "1700-01-01",
    "gun": "17. yüzyıl (güvenli uç 1700)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV AMÂRE (İ. Bostan) — J.-B. Tavernier, Les six voyages (ed. S. Yerasimos, Paris 1981) I, 304 atfıyla; Tavernier metni açılmadı",
    "tanik": "XVII. yüzyılda bir köy görünümünde olan Amâre"
   },
@@ -137,7 +137,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV AMÂRE (İ. Bostan)"
    }
   ],
-  "ic_not": "Zincir YOK: ilk tanık (XVII. yüzyıl köyü, güvenli uç 1700) atlas başlangıcıyla (1700-01-01, atlas sonradan güncellenmiş; önceki sürümde 1281 ilhanli) örtüşüyor ⇒ ATLAS DÜZELTMESİ ÖNERİSİ: 1700'ün 'güvenli uç' olduğu, sahip tanığının araştırılmadığı; nokta en erken XVII. yüzyıl (Osmanlı Basra/Bağdat idaresi, doğrudan sahip araştırılmadı) ya da bugünkü şehrin çekirdeği olan 1862 ordugâhından başlamalı. Belirsizlik: TDV'nin XVII. yüzyıl 'köyü' ile 1862 ordugâhının aynı nokta olduğu metinde açık değil; Tavernier'in seyahat yılı (1650'ler sanılır) doğrulanmadı — açılsa ilk.t yıla iner. EI2 'ʿAmāra' (Longrigg) açılmadı. Sancak merkezliği XIX. yy sonu–1914 (TDV). Koordinat doğru (Amâre sancağı merkezi; atlas noktasına 0,0 km). · koord: GeoNames 99608 (31.8356, 47.1448; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız)."
+  "ic_not": "Zincir YOK: ilk tanık (XVII. yüzyıl köyü, güvenli uç 1700) atlas başlangıcıyla (1700-01-01, atlas sonradan güncellenmiş; önceki sürümde 1281 ilhanli) örtüşüyor ⇒ ATLAS DÜZELTMESİ ÖNERİSİ: 1700'ün 'güvenli uç' olduğu, sahip tanığının araştırılmadığı; nokta en erken XVII. yüzyıl (Osmanlı Basra/Bağdat idaresi, doğrudan sahip araştırılmadı) ya da bugünkü şehrin çekirdeği olan 1862 ordugâhından başlamalı. Belirsizlik: TDV'nin XVII. yüzyıl 'köyü' ile 1862 ordugâhının aynı nokta olduğu metinde açık değil; Tavernier'in seyahat yılı (1650'ler sanılır) doğrulanmadı — açılsa ilk.t yıla iner. EI2 'ʿAmāra' (Longrigg) açılmadı. Sancak merkezliği XIX. yy sonu–1914 (TDV). Koordinat doğru (Amâre sancağı merkezi; atlas noktasına 0,0 km). · koord: GeoNames 99608 (31.8356, 47.1448; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "baabda",
@@ -200,7 +200,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "t": "0762-01-01",
    "gun": "762",
    "nicelik": "kurulus",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV BAĞDAT (A. ed-Dûrî): 'Ya‘kūbî Bağdat’ın planının 755’te çizildiğini nakleder. Ancak yapım çalışmaları 762’de başlamıştır'",
    "tanik": "Ancak yapım çalışmaları 762’de başlamıştır"
   },
@@ -286,7 +286,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV HÜLÂGÛ"
    }
   ],
-  "ic_not": "İslâm öncesi 'Bagdadu/Bagdadi' (Hammurabi dönemi, Nazimaruttaş ve Marduk-apla-iddina sınır taşları, II. Adad-nirari, III. Tiglat-pileser — TDV BAĞDAT, EI2'ye atfen) yeri kesin olmayan ad eşitlemesidir (Emre kuralı, Adana tipi) — başlangıç sayılmadı. TDV ayrıca Sarât kuzeyinde 'Bağdat köyü'nü anar (tarihsiz). Kuruluşun günü (geleneksel 30 Temmuz 762) TDV'de yok; yıl alındı. Atlas noktası (44.361, yuvarlak şehir/Kerh tarafı) ile parti koordinatı (Rusâfe tarafı) 3,7 km — kayık eşleşme, aynı şehir. Atlas 1258-02-10 ilhanli: el değiştirme tam atlas başlangıcında (dikiş olayı Müsta‘sım'ın teslimi). · koord: GeoNames 98182 (33.3406, 44.4009; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ZİNCİR BOŞ (atlas dikişi): atlas noktası 'Bağdat' 762-01-01'de abbasi ile başlıyor = ilk.t. Önceki sürümde bu dosyada yazılı zincir (kaynaklar olay listesinde ve p.kaynak'larda duruyor): 0762-01-01→0945-12-19 abbasi; 0945-12-19→1055-12-01 buveyhi; 1055-12-01→1059-01-01 buyuk-selcuklu; 1059-01-01→1059-12-14 fatimi; 1059-12-14→1118-05-06 buyuk-selcuklu; 1118-05-06→1152-04-08 irak-selcuklu; 1152-04-08→1258-02-10 abbasi. Atlas zinciri esastır. Atlas noktası ile GeoNames 3,7 km: 3 km kuralını aşıyor ama aynı şehir (atlas yuvarlak şehir/Kerh tarafı, GeoNames Rusâfe tarafı)."
+  "ic_not": "İslâm öncesi 'Bagdadu/Bagdadi' (Hammurabi dönemi, Nazimaruttaş ve Marduk-apla-iddina sınır taşları, II. Adad-nirari, III. Tiglat-pileser — TDV BAĞDAT, EI2'ye atfen) yeri kesin olmayan ad eşitlemesidir (Emre kuralı, Adana tipi) — başlangıç sayılmadı. TDV ayrıca Sarât kuzeyinde 'Bağdat köyü'nü anar (tarihsiz). Kuruluşun günü (geleneksel 30 Temmuz 762) TDV'de yok; yıl alındı. Atlas noktası (44.361, yuvarlak şehir/Kerh tarafı) ile parti koordinatı (Rusâfe tarafı) 3,7 km — kayık eşleşme, aynı şehir. Atlas 1258-02-10 ilhanli: el değiştirme tam atlas başlangıcında (dikiş olayı Müsta‘sım'ın teslimi). · koord: GeoNames 98182 (33.3406, 44.4009; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ZİNCİR BOŞ (atlas dikişi): atlas noktası 'Bağdat' 762-01-01'de abbasi ile başlıyor = ilk.t. Önceki sürümde bu dosyada yazılı zincir (kaynaklar olay listesinde ve p.kaynak'larda duruyor): 0762-01-01→0945-12-19 abbasi; 0945-12-19→1055-12-01 buveyhi; 1055-12-01→1059-01-01 buyuk-selcuklu; 1059-01-01→1059-12-14 fatimi; 1059-12-14→1118-05-06 buyuk-selcuklu; 1118-05-06→1152-04-08 irak-selcuklu; 1152-04-08→1258-02-10 abbasi. Atlas zinciri esastır. Atlas noktası ile GeoNames 3,7 km: 3 km kuralını aşıyor ama aynı şehir (atlas yuvarlak şehir/Kerh tarafı, GeoNames Rusâfe tarafı). | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "dubai",
@@ -305,7 +305,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "t": "1799-01-01",
    "gun": "1799",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV DÜBEY (M. L. Bilge): 'Lorimer'e göre Dübey bu tarihte Ebûzabî'ye bağlı olarak görülmektedir'",
    "tanik": "Lorimer'e göre Dübey bu tarihte Ebûzabî'ye bağlı olarak görülmektedir"
   },
@@ -355,7 +355,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV DÜBEY (M. L. Bilge)"
    }
   ],
-  "ic_not": "Atlasta nokta yok (en yakın Şârika 32,2 km) ⇒ zincir 1900-01-01'e gider. İlk anılış: TDV'nin Lorimer'den aktardığı 1799 kaydı. Daha erken aday: Gasparo Balbi'nin 1580 Körfez inci listesi ('Dibei', Viaggio dell'Indie Orientali, Venedik 1590) — yalnız sahaf/Vikipedi aktarımı bulundu, metin açılamadı: DOĞRULANAMADI, başlangıç sayılmadı. Vikipedi'deki İdrîsî/Bekrî (1095) iddiaları şehrin kendisini değil kıyıyı anıyor olabilir — kullanılmadı. 1799 öncesi sahip bilinmediği için zincir 1799'da başlar. Künye önerileri: ebuzabi-seyhligi, dubai-seyhligi (atlasın trucial-states/ingiltere boyamasıyla ilişkisi aktarımda karar ister). · koord: GeoNames 292223 (25.0772, 55.3093; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ATLAS DİKİŞİ: atlas noktası 'Dubay (Dubai)' (0 km) 1820-01-01 trucial-states ile başlıyor; önceki sürümde 1833-1900 dubai-seyhligi (kunye_yok, Âl Mektûm 1833'te Âl-i Bû Felâse ile — TDV DÜBEY) yazılıydı: TDV DÜBEY (M. L. Bilge): '1833'te Âl-i Bû Felâse ... Mektûm b. Batî ... kontrolü ele geçirmeleri üzerine müstakil emirlik oldu' — atlas 1820 sonrasına bu dosya karışmaz; 1833 olayı olay listesinde duruyor. Koordinat uyarısı: GeoNames 'Dubai' noktası modern şehir merkezi; tarihî Creek yerleşimi (Bur Dubai/Deira) bu noktanın kuzeydoğusunda ≈20 km — atlas noktası ile GeoNames aynı (modern merkez); tarihî çekirdek için ayrı teyit yok."
+  "ic_not": "Atlasta nokta yok (en yakın Şârika 32,2 km) ⇒ zincir 1900-01-01'e gider. İlk anılış: TDV'nin Lorimer'den aktardığı 1799 kaydı. Daha erken aday: Gasparo Balbi'nin 1580 Körfez inci listesi ('Dibei', Viaggio dell'Indie Orientali, Venedik 1590) — yalnız sahaf/Vikipedi aktarımı bulundu, metin açılamadı: DOĞRULANAMADI, başlangıç sayılmadı. Vikipedi'deki İdrîsî/Bekrî (1095) iddiaları şehrin kendisini değil kıyıyı anıyor olabilir — kullanılmadı. 1799 öncesi sahip bilinmediği için zincir 1799'da başlar. Künye önerileri: ebuzabi-seyhligi, dubai-seyhligi (atlasın trucial-states/ingiltere boyamasıyla ilişkisi aktarımda karar ister). · koord: GeoNames 292223 (25.0772, 55.3093; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ATLAS DİKİŞİ: atlas noktası 'Dubay (Dubai)' (0 km) 1820-01-01 trucial-states ile başlıyor; önceki sürümde 1833-1900 dubai-seyhligi (kunye_yok, Âl Mektûm 1833'te Âl-i Bû Felâse ile — TDV DÜBEY) yazılıydı: TDV DÜBEY (M. L. Bilge): '1833'te Âl-i Bû Felâse ... Mektûm b. Batî ... kontrolü ele geçirmeleri üzerine müstakil emirlik oldu' — atlas 1820 sonrasına bu dosya karışmaz; 1833 olayı olay listesinde duruyor. Koordinat uyarısı: GeoNames 'Dubai' noktası modern şehir merkezi; tarihî Creek yerleşimi (Bur Dubai/Deira) bu noktanın kuzeydoğusunda ≈20 km — atlas noktası ile GeoNames aynı (modern merkez); tarihî çekirdek için ayrı teyit yok. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "jeddah",
@@ -373,7 +373,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "t": "0656-01-01",
    "gun": "Hz. Osman devri (644–656)",
    "nicelik": "ilk_anilis",
-   "kesinlik": "onyil",
+   "kesinlik": "belirsiz",
    "kaynak": "TDV CİDDE",
    "tanik": "Hz. Osman zamanında güneyindeki Şuaybe Limanı’nın terkedilerek"
   },
@@ -502,7 +502,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV CİDDE; hicrî 667 ∩ 1268, çeviri: tablo takvimi, Jülyen"
    }
   ],
-  "ic_not": "İlk anılış: TDV CİDDE 'Hz. Osman zamanında' der, yıl vermez ⇒ aralığın güvenli ucu 656 (onyıl). Geleneksel tarih 26/646-47 yalnız ikincil (WikiShia) sayfalarda bulundu, EI2 'Djudda' maddesi açılamadı — yıl yazılmadı. İslâm öncesi Cidde: TDV 'çok az şey bilinmektedir' (tarihli tanık yok). TDV BAHRİYE 'Şuaybe’de (Cidde)' diyerek iki limanı eşitler; TDV CİDDE Şuaybe'yi Cidde'nin güneyinde ayrı liman sayar — CİDDE esas alındı. 661–1281 zinciri Mekke zincirinin (parti 08) bölge sahibi + beyan kopyasıdır; Cidde'ye özgü el değiştirme tanığı yok. ⚠️ Koordinat: parti koordinatı GeoNames 105343 (21.490, 39.186) tarihî Cidde (el-Beled) ile uyumlu; atlas noktası 'Cidde' (21.543, 39.173) 6,0 km kuzeyde — 3 km'yi aşıyor: atlas noktasının tarihî şehre taşınması önerilir. · koord: GeoNames 105343 (21.4901, 39.1862; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız).",
+  "ic_not": "İlk anılış: TDV CİDDE 'Hz. Osman zamanında' der, yıl vermez ⇒ aralığın güvenli ucu 656 (onyıl). Geleneksel tarih 26/646-47 yalnız ikincil (WikiShia) sayfalarda bulundu, EI2 'Djudda' maddesi açılamadı — yıl yazılmadı. İslâm öncesi Cidde: TDV 'çok az şey bilinmektedir' (tarihli tanık yok). TDV BAHRİYE 'Şuaybe’de (Cidde)' diyerek iki limanı eşitler; TDV CİDDE Şuaybe'yi Cidde'nin güneyinde ayrı liman sayar — CİDDE esas alındı. 661–1281 zinciri Mekke zincirinin (parti 08) bölge sahibi + beyan kopyasıdır; Cidde'ye özgü el değiştirme tanığı yok. ⚠️ Koordinat: parti koordinatı GeoNames 105343 (21.490, 39.186) tarihî Cidde (el-Beled) ile uyumlu; atlas noktası 'Cidde' (21.543, 39.173) 6,0 km kuzeyde — 3 km'yi aşıyor: atlas noktasının tarihî şehre taşınması önerilir. · koord: GeoNames 105343 (21.4901, 39.1862; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır.",
   "dikis_beyan": "Atlas Cidde'yi 1281-01-01'de 'memluk' ile başlatıyor; TDV MEKKE/CİDDE'ye göre Cidde gelirlerini ve Mekke'yi doğrudan tutan Hasenî şeriflerdir (358/969'dan; künye mekke-serifligi), Memlük metbudur (I. Baybars, 667/1268 Mekke nâibi). Memlüklerin Cidde'ye nâib koyduğu gün/yıl TDV'de yok ⇒ dikiş olayı yazılmadı. Atlas düzeltmesi önerisi: 1281 sahibi mekke-serifligi (+ tabi: memluk) ya da memluk dönemi beyanla korunur (Mekke ile aynı karar)."
  },
  {
@@ -1137,7 +1137,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV SÜLEYMANİYE (Irak) (A. Gündüz)",
-   "tanik": "buraya Süleymaniye adını vererek sancağın merkezi yaptı (1784)"
+   "tanik": "Bağdat Valisi Süleyman Paşa, 1197’de (1783) Baban ailesinden İbrâhim Bey’i mîr-i mîrânlıkla Baban sancağına mutasarrıf tayin edince o da Serçınar ovası civarındaki Mâlikkendi köyünün yerinde yeni bir kasaba kurdu ve Süleyman Paşa’nın adına izâfetle buraya Süleymaniye adını vererek sancağın merkezi yaptı (1784)."
   },
   "kur": {
    "t": "1784-01-01",
@@ -1193,7 +1193,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV SÜLEYMANİYE (Irak)"
    }
   ],
-  "ic_not": "ZİNCİR YOK — atlas düzeltmesi önerisi. Şehir 1784'te kuruldu (TDV; tayin 1197/1783), atlas noktası ise 1233-01-01'de 'abbasi' ile başlıyor. Atlas noktası 'Şehrizor' adını taşıyor ve Süleymaniye'ye 0,6 km; oysa TDV ŞEHRİZOR'a göre ortaçağ Şehrizor şehrinin 'yeri kesin olarak bilinemeyen' (Yasintepe, Kızkale ya da Gülanber Kalesi civarı) bir yerdir ve 1560 tahririnde adı geçmez. Atlasın 1233 başlangıcı Kökböri'nin ölümüyle (630/1233) Şehrizor BÖLGESİNİN Abbâsîlere dönüşüdür — Süleymaniye noktasına ait değil. Öneri: Süleymaniye noktası 1784'ten başlamalı (sahip: Osmanlı Bağdat valiliğine bağlı Baban sancağı/ocaklığı; Baban emirliği künyesi yok); ortaçağ Şehrizor ayrı kayıt olarak yeri belirlenince açılmalı. Mâlikkendi köyünün yaşı tarihsiz. · koord: GeoNames 98463 (35.565, 45.4329; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız)."
+  "ic_not": "ZİNCİR YOK — atlas düzeltmesi önerisi. Şehir 1784'te kuruldu (TDV; tayin 1197/1783), atlas noktası ise 1233-01-01'de 'abbasi' ile başlıyor. Atlas noktası 'Şehrizor' adını taşıyor ve Süleymaniye'ye 0,6 km; oysa TDV ŞEHRİZOR'a göre ortaçağ Şehrizor şehrinin 'yeri kesin olarak bilinemeyen' (Yasintepe, Kızkale ya da Gülanber Kalesi civarı) bir yerdir ve 1560 tahririnde adı geçmez. Atlasın 1233 başlangıcı Kökböri'nin ölümüyle (630/1233) Şehrizor BÖLGESİNİN Abbâsîlere dönüşüdür — Süleymaniye noktasına ait değil. Öneri: Süleymaniye noktası 1784'ten başlamalı (sahip: Osmanlı Bağdat valiliğine bağlı Baban sancağı/ocaklığı; Baban emirliği künyesi yok); ortaçağ Şehrizor ayrı kayıt olarak yeri belirlenince açılmalı. Mâlikkendi köyünün yaşı tarihsiz. · koord: GeoNames 98463 (35.565, 45.4329; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "umm-al-quwain",
@@ -1214,7 +1214,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge); hicrî 1189 ∩ 1775, çeviri: tablo takvimi, Jülyen",
-   "tanik": "Ümmülkayveyn 1189’da (1775) Şeyh Mâcid el-Muallâ başkanlığında bir kabile olarak tanınmaktaydı"
+   "tanik": "Ümmülkayveyn 1189’da (1775) Şeyh Mâcid el-Muallâ başkanlığında bir kabile olarak tanınmaktaydı ve Kavâsim Emirliği’ne bağlıydı."
   },
   "kur": null,
   "ark": null,
@@ -1270,7 +1270,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_A = [
     "kaynak": "TDV ÜMMÜLKAYVEYN (M. L. Bilge)"
    }
   ],
-  "ic_not": "Atlasta nokta yok (en yakın Şârika 28,3 km); zincir 1900-01-01'e gider. İlk anılış 'en geç' tanıktır: TDV yalnız 1775'te kabile olarak tanındığını söyler, kasabanın kuruluşu tarihlenmedi. Ed-Dûr antik şehri (TDV: MÖ 260 – MS 200 kalıntıları) ayrı yerdir (güneyde, mesafe ölçülmedi, > 3 km olduğu kesin) — ayrı kayıt önerisi. · koord: GeoNames 290594 (25.5647, 55.5552; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ATLAS DİKİŞİ: atlas noktası 'Ummu'l-Kuveyn' (0 km). Önceki sürümde trucial-states 1820-03-15→1900-01-01 yazılıydı: Doğrudan sahip Ümmülkayveyn şeyhi (Abdullah b. Râşid el-Muallâ, 1820-1853); trucial-states Sahil şeyhliklerinin ortak künyesidir — şeyhliğe ayrı künye açılırsa o yazılmalı. QDL dökümüne göre Acmân ve Ümmülkayveyn şeyhleri bu antlaşmayla 'bağımsız hükümdar' sayıldı (ön antlaşmada Şârika şeyhi onlar adına imzalamıştı). QDL sayfası 403 verdi — imza günü arama özetinden okundu, doğrulanmalı. Gerçek İngiliz himayesi 1892 (TDV).",
+  "ic_not": "Atlasta nokta yok (en yakın Şârika 28,3 km); zincir 1900-01-01'e gider. İlk anılış 'en geç' tanıktır: TDV yalnız 1775'te kabile olarak tanındığını söyler, kasabanın kuruluşu tarihlenmedi. Ed-Dûr antik şehri (TDV: MÖ 260 – MS 200 kalıntıları) ayrı yerdir (güneyde, mesafe ölçülmedi, > 3 km olduğu kesin) — ayrı kayıt önerisi. · koord: GeoNames 290594 (25.5647, 55.5552; geonames.org arama sayfası 16 Kasım 2026'da okundu — atlas tahmininden bağımsız). · ATLAS DİKİŞİ: atlas noktası 'Ummu'l-Kuveyn' (0 km). Önceki sürümde trucial-states 1820-03-15→1900-01-01 yazılıydı: Doğrudan sahip Ümmülkayveyn şeyhi (Abdullah b. Râşid el-Muallâ, 1820-1853); trucial-states Sahil şeyhliklerinin ortak künyesidir — şeyhliğe ayrı künye açılırsa o yazılmalı. QDL dökümüne göre Acmân ve Ümmülkayveyn şeyhleri bu antlaşmayla 'bağımsız hükümdar' sayıldı (ön antlaşmada Şârika şeyhi onlar adına imzalamıştı). QDL sayfası 403 verdi — imza günü arama özetinden okundu, doğrulanmalı. Gerçek İngiliz himayesi 1892 (TDV). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf).",
   "dikis_beyan": "Atlas Ümmülkayveyn'i 1820-01-01'de trucial-states ile başlatıyor; bu dosyadaki tanıklı imza günü 15 Mart 1820 (IOR/QDL arama özeti), TDV yalnız '1819 müdahalesi' ve '1820 antlaşması'nı yıl düzeyinde verir ⇒ 1820-01-01 için ±30 gün içinde tanıklı olay YOK; yer tutucu olay yazılmadı. Atlas düzeltme önerisi: başlangıç 1820-03-15 (imza günü) ya da kaynaklı gün."
  }
 ];

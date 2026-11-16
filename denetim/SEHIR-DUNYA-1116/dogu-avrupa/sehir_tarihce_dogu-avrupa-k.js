@@ -74,7 +74,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, AŞKABAD maddesi (Sargon Erdem; islamansiklopedisi.org.tr/askabad); Columbia Encyclopedia, Ashgabat maddesi (encyclopedia.com): 'Ashgabat was founded in 1881 as a fortress'",
-   "tanik": "Ashgabat was founded in 1881 as a fortress"
+   "tanik": "bölgenin 1881’de Ruslar tarafından ele geçirilmesinden sonra şehir haline getirilmiştir."
   },
   "kur": null,
   "ark": null,
@@ -134,7 +134,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    }
   ],
   "dikis_beyan": "Atlas 1881-01-30 'rusya' yazıyor (ele geçirme günü); TDV yalnız '1881'de Ruslarca ele geçirildi' der, gün vermez; 1881-01-30 için tarihli tanık bulunamadı, yer tutucu olay yazılmadı.",
-  "ic_not": "KURULUŞ: TDV 'Aşkabad' maddesi şehrin 1881'deki Rus ele geçirmesinden sonra şehir hâline getirildiğini söyler; öncesi Ahal Teke vahasının en önemli obasıdır (tarihsiz; ilk anılış alınamadı). 1881 öncesi oba için tarihli kaynak bulunamadı (TDV'nin ad geçen ilk tarihi 1881). Columbia'da Poltoratsk 1919-1927; TDV adın Bolşevik yönetim sonrası değiştiğini ve 1927'de geri döndüğünü yazar (yıl 1919 TDV'de yok). GEÇİŞ/ÇELİŞKİ: atlas '1881-01-30 rusya' (Gökdepe düşüşü civarı; gün kaynaksız). Denenen: TDV (okundu), Columbia (okundu), Treccani (başarısız). koord: GeoNames 162183 (37°57′00.00″N 58°22′59.99″E), atlas tahmininden 0,3 km."
+  "ic_not": "KURULUŞ: TDV 'Aşkabad' maddesi şehrin 1881'deki Rus ele geçirmesinden sonra şehir hâline getirildiğini söyler; öncesi Ahal Teke vahasının en önemli obasıdır (tarihsiz; ilk anılış alınamadı). 1881 öncesi oba için tarihli kaynak bulunamadı (TDV'nin ad geçen ilk tarihi 1881). Columbia'da Poltoratsk 1919-1927; TDV adın Bolşevik yönetim sonrası değiştiğini ve 1927'de geri döndüğünü yazar (yıl 1919 TDV'de yok). GEÇİŞ/ÇELİŞKİ: atlas '1881-01-30 rusya' (Gökdepe düşüşü civarı; gün kaynaksız). Denenen: TDV (okundu), Columbia (okundu), Treccani (başarısız). koord: GeoNames 162183 (37°57′00.00″N 58°22′59.99″E), atlas tahmininden 0,3 km. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "azak-ru",
@@ -155,7 +155,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, AZAK maddesi (M. L. Bilge, 1991; islamansiklopedisi.org.tr/azak): Azak adı sikkelerde 1317'den görülür",
-   "tanik": "[özet] Azak adı 1317 tarihli sikkelerde görülür"
+   "tanik": "Türkler tarafından verilen Azak adı 1317’den itibaren paralar üzerinde görülmeye başlanmıştır."
   },
   "kur": null,
   "ark": null,
@@ -226,7 +226,7 @@ window.SEHIR_TARIHCE_DOGU_AVRUPA_K = [
     "kaynak": "TDV AZAK maddesi (M. L. Bilge)"
    }
   ],
-  "ic_not": "İLK ANILIŞ: TDV'ye göre 'Azak' adı 1317'den sikkelerde geçer (Altın Orda dönemi). Zincir YAZILMADI: ilk.t (1317) atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ — atlas 1281-1475'i 'cenova' yazıyor, TDV Azak/Tana'da Ceneviz-Venedik TİCARET kolonilerinden söz eder (Altın Orda toprağında; egemenlik değil). Önceki adlar Tanais/Tana: TDV Tanais'i Yunan kolonisi sayar; modern Azov aynı nokta mı doğrulanmadı (antik Tanais yeri başka olabilir) — adlar'a 'doğrulanmadı' notuyla alındı. Atlasın günleri (1637-06-18, 1642-02-26, 1696-08-06, 1711-07-21, 1739-09-18, 1736-07-13) aynı yıllara denk; TDV günleri vermiyor (yalnız yıl). 1475 yılı: TDV metninin ilk okumasında 'Gedik Ahmed Paşa 1475' çıktı, ikinci okumada yıl görünmedi; atlas 1475-06-06 — yıl teyidi zayıf (belirsiz). TDV'nin kuruluş/ilk anılış yılı sikke tarihidir, şehir kuruluşu değil. koord: GeoNames 580054 (47°06′24.84″N 39°24′53.50″E), atlas tahmininden 0,9 km. Basamaklar: TDV (okundu). TDV maddesi gün vermediği için İSAM/TTK denenmedi."
+  "ic_not": "İLK ANILIŞ: TDV'ye göre 'Azak' adı 1317'den sikkelerde geçer (Altın Orda dönemi). Zincir YAZILMADI: ilk.t (1317) atlas başlangıcından (1281-01-01) sonra; ATLAS BAŞLANGICI DÜZELTİLMELİ — atlas 1281-1475'i 'cenova' yazıyor, TDV Azak/Tana'da Ceneviz-Venedik TİCARET kolonilerinden söz eder (Altın Orda toprağında; egemenlik değil). Önceki adlar Tanais/Tana: TDV Tanais'i Yunan kolonisi sayar; modern Azov aynı nokta mı doğrulanmadı (antik Tanais yeri başka olabilir) — adlar'a 'doğrulanmadı' notuyla alındı. Atlasın günleri (1637-06-18, 1642-02-26, 1696-08-06, 1711-07-21, 1739-09-18, 1736-07-13) aynı yıllara denk; TDV günleri vermiyor (yalnız yıl). 1475 yılı: TDV metninin ilk okumasında 'Gedik Ahmed Paşa 1475' çıktı, ikinci okumada yıl görünmedi; atlas 1475-06-06 — yıl teyidi zayıf (belirsiz). TDV'nin kuruluş/ilk anılış yılı sikke tarihidir, şehir kuruluşu değil. koord: GeoNames 580054 (47°06′24.84″N 39°24′53.50″E), atlas tahmininden 0,9 km. Basamaklar: TDV (okundu). TDV maddesi gün vermediği için İSAM/TTK denenmedi. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "bar-ua",

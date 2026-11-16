@@ -18,7 +18,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "t": "-0700-01-01",
    "gun": "MÖ 8. yüzyıl",
    "nicelik": "ilk_anilis",
-   "kesinlik": "yuzyil",
+   "kesinlik": "belirsiz",
    "kaynak": "Bilge, M. L., 'Kerek', TDV İslâm Ansiklopedisi, c.25 (2022), s.278-279, https://islamansiklopedisi.org.tr/kerek",
    "tanik": "Moab Krallığı'nın MÖ 13-8. yüzyıllarda başkenti",
    "ic_not": "TDV: Kerek MÖ 3. binyılda kuruldu (arkeolojik; yazılı tanık varken alınmaz) ve MÖ 13.-8. yy'da Moab Krallığı'nın başkentiydi; aralığın son ucu MÖ 8. yy (t=-0700, gun 'MÖ 8. yüzyıl'). Daha kesin yazılı tanık (Tevrat 2. Krallar 3; Meşa Steli) Britannica 'Al-Karak' arama özetinde anılır (Kir-Hareşet=Kerek eşitlemesi) ama tarihi ve ayrıntısı okunmadı; Meşa Steli'ndeki adın Kerek'le kesin eşitlendiği DOĞRULANMADI."
@@ -129,7 +129,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Bilge, M. L., 'Kerek', TDV İslâm Ansiklopedisi, c.25 (2022), s.278-279, https://islamansiklopedisi.org.tr/kerek"
    }
   ],
-  "ic_not": "koord: GeoNames 6946409 (Karak City, PPLA) 31.16368/35.76204. Girdi tahmin koordinatı yoktu. Atlas'ta Kerek/Karak noktası bulunamadı (atlas_ad null; 'Karakilise', 'Karakurum' vb. ilgisiz). Kaynak sayısı: 1 (TDV Kerek) + Britannica arama özeti (okunmadı). Haçlı kalesinin yapım tarihi (1140/1142), Selâhaddîn'in 1188 Kasım'daki zaptı ve Kerek Haçlı lordu Pagan'ın adı yalnız Vikipedi-türevi sayfalarda bulundu, akademik kaynakla doğrulanmadı; EI2 'al-Karak' maddesi ve Haçlı akademik kaynağı aranmadı. Eyyubi-kerek künyesi (1229-1249) var ama TDV bu yılları vermediği için kullanılmadı."
+  "ic_not": "koord: GeoNames 6946409 (Karak City, PPLA) 31.16368/35.76204. Girdi tahmin koordinatı yoktu. Atlas'ta Kerek/Karak noktası bulunamadı (atlas_ad null; 'Karakilise', 'Karakurum' vb. ilgisiz). Kaynak sayısı: 1 (TDV Kerek) + Britannica arama özeti (okunmadı). Haçlı kalesinin yapım tarihi (1140/1142), Selâhaddîn'in 1188 Kasım'daki zaptı ve Kerek Haçlı lordu Pagan'ın adı yalnız Vikipedi-türevi sayfalarda bulundu, akademik kaynakla doğrulanmadı; EI2 'al-Karak' maddesi ve Haçlı akademik kaynağı aranmadı. Eyyubi-kerek künyesi (1229-1249) var ama TDV bu yılları vermediği için kullanılmadı. | TANIK KURALI (16 Kas 2026, EMRELİC): tam gövdede yıl + şehir adı AYNI cümlede birebir bir cümle bulunamadı (TDV tam gövde tarayıcıyla tarandı); `ilk` güvenli uç/türev yıldır, kesinlik belirsiz sayılır."
  },
  {
   "id": "dogubayazit-tr",
@@ -150,7 +150,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "belirsiz",
    "kaynak": "Tuncel, M., 'Doğubayazıt', TDV İslâm Ansiklopedisi, c.9 (1994), s.492-494, https://islamansiklopedisi.org.tr/dogubayazit",
-   "tanik": "Dariunk adıyla Ebü'l-Kāsım Yûsuf Bağratlılardan aldı",
+   "tanik": "Daha sonra, 890-929 yılları arasında Azerbaycan’da hüküm sürmüş olan Türk asıllı Sacoğulları ailesinden Ebü’l-Kāsım Yûsuf, o zamanlar adı Dariunk olan",
    "ic_not": "TDV Doğubayazıt: Ebü'l-Kāsım Yûsuf (Sâcî; devletler künyesi 889-929) 'Dariunk'u Bağratlılardan aldı'; maddenin '890-929' paranteziyle verdiği aralık Yûsuf'un dönemini gösterir, alınış günü/yıl YOK. Güvenli uç olarak aralığın son ucu 0929-01-01 alındı. Dariunk=Bayazıt yer eşitlemesi TDV'nin kendi maddesindedir (aynı maddede ilgili kale için); ek kaynakla doğrulanmadı. Urartu kalesi (İshak Paşa Külliyesi yeri) arkeolojik, tarihsiz — yazılı tanık varken arkeolojik alınmaz."
   },
   "kur": null,
@@ -242,7 +242,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Tuncel, M., 'Doğubayazıt', TDV İslâm Ansiklopedisi, c.9 (1994), s.492-494, https://islamansiklopedisi.org.tr/dogubayazit"
    }
   ],
-  "ic_not": "koord: GeoNames 316411 (Doğubayazıt, PPLA2) 39.5469/44.0842; atlas tahmini 39.548/44.084 ile ~0,2 km uyumlu. Kaynak sayısı: 1 (TDV Doğubayazıt). Zincir 1900'e uzanmaz (atlas 1281'de başlar, atlas esastır). TDV 1900 durumunu doğrudan vermez: 19. yy'da Erzurum vilayeti bünyesinde sancak merkezi (girdi: Cuinet 1892 'Bayezid'); 1900'de Van değil Erzurum vilayeti — doğrulanmadı."
+  "ic_not": "koord: GeoNames 316411 (Doğubayazıt, PPLA2) 39.5469/44.0842; atlas tahmini 39.548/44.084 ile ~0,2 km uyumlu. Kaynak sayısı: 1 (TDV Doğubayazıt). Zincir 1900'e uzanmaz (atlas 1281'de başlar, atlas esastır). TDV 1900 durumunu doğrudan vermez: 19. yy'da Erzurum vilayeti bünyesinde sancak merkezi (girdi: Cuinet 1892 'Bayezid'); 1900'de Van değil Erzurum vilayeti — doğrulanmadı. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "elazig-tr",
@@ -265,7 +265,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "Halaçoğlu, Y. vd., 'Harput', TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/harput",
-   "tanik": "Reşid Mehmed Paşa Agavat'ı merkez yaptı (1834)",
+   "tanik": "1834’te doğu eyaletlerini ıslah etmek üzere görevlendirilen Reşid Mehmed Paşa ovada yer alan Agavat mezraasını merkez haline getirince daha sonra teşkil edilen Ma‘mûretülazîz (Elazığ) vilâyetinin merkezi Harput’tan buraya taşınmış, böylece şehrin çöküşü başlamıştır.",
    "ic_not": "TDV Harput maddesi (1834): Reşid Mehmed Paşa ovadaki Agavat'ı merkez yaptı ve vilayet merkezi Harput'tan buraya geçti (özet; birebir alıntı değil). TDV Elazığ maddesi kuruluş yılı VERMEZ ve 1834'ü desteklemez ('yeni şehrin planı sonra' der). 1834'ün Agavat mezraasında şehir kuruluşunu mu yoksa yalnız idarî merkez tayinini mi tarihlediği ikinci bir kaynakla doğrulanmadı; aynı oturumda İSAM/DergiPark kaynağı aranmadı. Atlas 'Harput (Elazığ)' noktası bu şehir değil Harput'tur (≈4,8 km kuzeydoğuda, 3 km eşiği aşılır) — atlas_ad bu yüzden null; girdi tahmin koordinatı Harput'un koordinatıdır, Elazığ şehrininki değil."
   },
   "kur": {
@@ -325,7 +325,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Halaçoğlu, A. - Tuncel, M., 'Elazığ', TDV İslâm Ansiklopedisi, c.10 (1994), s.551-554, https://islamansiklopedisi.org.tr/elazig"
    }
   ],
-  "ic_not": "koord: GeoNames 315808 (Elazığ, PPLA) 38°40′27.52″K 39°13′23.56″D (38.6743, 39.2232). Girdi koordinatı (38.714,39.245) Harput'tur; DÜZELTİLDİ. Kaynak sayısı: 2 (TDV Elazığ, TDV Harput). Harput kaydı ayrı yazılmalıdır (atlas 'Harput (Elazığ)' 1085 Çubukoğulları; TDV Harput: Osmanlı 26 Mart 1516 Hüsrev Paşa, 3 gün kuşatma — girdideki 1517 değil 1516). TDV Harput: Osmanlı fethi 26 Mart 1516. Cuinet 1891'de vali Mezre'de oturur (girdi notu), TDV Harput maddesi vilayet merkezinin Agavat'a geçtiğini 1834 verir; Mezre = Agavat mezrası olarak kabul edildi (ek kaynakla teyit edilmedi)."
+  "ic_not": "koord: GeoNames 315808 (Elazığ, PPLA) 38°40′27.52″K 39°13′23.56″D (38.6743, 39.2232). Girdi koordinatı (38.714,39.245) Harput'tur; DÜZELTİLDİ. Kaynak sayısı: 2 (TDV Elazığ, TDV Harput). Harput kaydı ayrı yazılmalıdır (atlas 'Harput (Elazığ)' 1085 Çubukoğulları; TDV Harput: Osmanlı 26 Mart 1516 Hüsrev Paşa, 3 gün kuşatma — girdideki 1517 değil 1516). TDV Harput: Osmanlı fethi 26 Mart 1516. Cuinet 1891'de vali Mezre'de oturur (girdi notu), TDV Harput maddesi vilayet merkezinin Agavat'a geçtiğini 1834 verir; Mezre = Agavat mezrası olarak kabul edildi (ek kaynakla teyit edilmedi). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "gumushane-tr",
@@ -345,7 +345,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Tuncel, M., 'Gümüşhane', TDV İslâm Ansiklopedisi, c.14 (1996), s.273-276, https://islamansiklopedisi.org.tr/gumushane",
-   "tanik": "1467'de Gümüşhane yöresi Akkoyunlular tarafından ele geçirildi",
+   "tanik": "1467’de Gümüşhane yöresi Akkoyunlular tarafından ele geçirildi.",
    "ic_not": "TDV'deki EN ESKİ TARİHLİ tanık budur; bu GERÇEK ilk anılış DEĞİL: TDV kuruluş yılını vermez, Bizans adı Argyropolis ve 7.-8. yy Arap akınları tarihsizdir; Pasinler Savaşı (18 Eylül 1048) bölgeyi anar, şehri değil. Gerçek ilk anılış ve kuruluş BULUNAMADI. Atlas 1281-01-01 İlhanlı iddiası bu tanıkla desteklenmiyor (TDV: İlhanlı dönemi tarihsiz) — atlas başlangıcı kaynaksız; zincir yazılmadı (ilk.t atlas başlangıcından sonra)."
   },
   "kur": null,
@@ -391,7 +391,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Tuncel, M., 'Gümüşhane', TDV İslâm Ansiklopedisi, c.14 (1996), s.273-276, https://islamansiklopedisi.org.tr/gumushane"
    }
   ],
-  "ic_not": "koord: GeoNames 746425 (Gümüşhane, PPLA) 40°27′36.04″K 39°28′18.34″D (40.4600, 39.4718); atlas 40.461/39.477 ile ~0,4 km uyumlu. Kaynak sayısı: 1 (TDV Gümüşhane). Sahiplik zinciri YAZILMADI: TDV tarihli geçiş (Mengücek, Anadolu Selçuklu, İlhanlı, Celayirli, Trabzon Rum) vermiyor; ilk tarihli tanık (1467) atlas başlangıcından (1281) sonra. Boşluk merdiveni basamakları (Trabzon Rum, Akkoyunlu kaynakları, Mengücekliler akademik) aranmadı."
+  "ic_not": "koord: GeoNames 746425 (Gümüşhane, PPLA) 40°27′36.04″K 39°28′18.34″D (40.4600, 39.4718); atlas 40.461/39.477 ile ~0,4 km uyumlu. Kaynak sayısı: 1 (TDV Gümüşhane). Sahiplik zinciri YAZILMADI: TDV tarihli geçiş (Mengücek, Anadolu Selçuklu, İlhanlı, Celayirli, Trabzon Rum) vermiyor; ilk tarihli tanık (1467) atlas başlangıcından (1281) sonra. Boşluk merdiveni basamakları (Trabzon Rum, Akkoyunlu kaynakları, Mengücekliler akademik) aranmadı. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "hofuf-sa",
@@ -412,7 +412,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "gun",
    "kaynak": "Bilge, M. L., 'Lahsâ', TDV İslâm Ansiklopedisi, c.27 (Ankara 2003), s.59-60, https://islamansiklopedisi.org.tr/lahsa ('Hüfûf' maddesi bu maddeye yönlendirir: https://islamansiklopedisi.org.tr/hufuf)",
-   "tanik": "Abdülazîz b. Suûd Lahsâ'yı alıp Hüfûf'a yerleşti (8 Temmuz 1913)",
+   "tanik": "Suûd Lahsâ bölgesine hâkim oldu ve merkezi Hüfûf’a yerleşti (8 Temmuz 1913).",
    "ic_not": "ZAYIF ve GERÇEK ilk anılış DEĞİL: TDV Lahsâ'da şehir adı 'Hüfûf' olarak yalnız bu olayda ve 'bölgenin büyük şehri/merkezi' ifadesinde geçer. Kuruluş yılı VERİLMEZ; TDV 'Ahsâ adı ilk Mü'miniye şehrinindi, sonra bölgeye yayıldı' der. Karmatîlerin başkenti Ahsâ/Mü'miniye ile Hüfûf'un aynı yerleşim olduğu kaynakla gösterilmediği için ('yeri kesin olmayan ad eşitlemesi başlangıç sayılmaz') 929 (hicrî 317, Hacerülesved Ahsâ'ya getirildi) başlangıç alınmadı. Atlas 'Lahsa' (929-02-14 karmati) noktası bu koordinatın ≈2 km kuzeyindedir; atlas_ad Lahsa yazıldı ama atlas başlangıcı kayda alınmadı → zincir yazılmadı. 1900 durumu (Basra vilayeti Necid/Lahsâ sancağı merkezi, Osmanlı) TDV: 1871 Mithat Paşa; 1913 öncesi Osmanlı, doğrudan 'Hüfûf' adıyla kanıt yok."
   },
   "kur": null,
@@ -473,7 +473,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "ic_not": "TDV tarihi 8 Temmuz 1913 verir; girdideki 'Mayıs 1913' değil."
    }
   ],
-  "ic_not": "koord: GeoNames 109571 (Al Hufūf, PPL) 25°21′52.81″K 49°35′15.50″D (25.3647, 49.5876). Girdi tahmin koordinatı yoktu. Kaynak sayısı: 1 (TDV Lahsâ; Hüfûf maddesi yönlendirme). Cuinet 'chef-lieu Houfouf' (girdi notu) okunmadı. Kayıt BÜYÜK ÖLÇÜDE BULUNAMADI: şehir kuruluşu, adın ilk anılışı, 1547-1913 arası şehir düzeyi sahiplik. Bölgesel Benî Hâlid (Âl-i Hamîd) hâkimiyeti TDV'de tarihsiz."
+  "ic_not": "koord: GeoNames 109571 (Al Hufūf, PPL) 25°21′52.81″K 49°35′15.50″D (25.3647, 49.5876). Girdi tahmin koordinatı yoktu. Kaynak sayısı: 1 (TDV Lahsâ; Hüfûf maddesi yönlendirme). Cuinet 'chef-lieu Houfouf' (girdi notu) okunmadı. Kayıt BÜYÜK ÖLÇÜDE BULUNAMADI: şehir kuruluşu, adın ilk anılışı, 1547-1913 arası şehir düzeyi sahiplik. Bölgesel Benî Hâlid (Âl-i Hamîd) hâkimiyeti TDV'de tarihsiz. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kars-tr",
@@ -492,7 +492,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Gündüz, T., 'Kars', TDV İslâm Ansiklopedisi, c.24 (İstanbul 2001), s.515-518, https://islamansiklopedisi.org.tr/kars",
-   "tanik": "merkezi Kars olmak üzere Vanand bölgesini verdi",
+   "tanik": "Aşot, 962’de beyliğinin merkezini Ani’ye taşıdıktan sonra kardeşi Muşeg’e merkezi Kars olmak üzere Vanand bölgesini verdi.",
    "ic_not": "TDV: III. Aşot 962'de Ani'yi merkez yapıp kardeşi Muşeg'e merkezi Kars olan Vanand'ı verdi. Daha eski anılışlar TDV'de TARİHSİZ: Konstantinos Porfirogennetos'un eserinde ilk geçiş (eser tarihi maddede yok) ve 8. yy'da Bağratlıların Arap desteğiyle Kars'ı alması. Tarihli en eski tanık 962 alındı; Porfirogennetos'un ilgili eserinin (De administrando imperio) tarihli neşrinden ilk anılış bu oturumda doğrulanmadı (bulunamadı)."
   },
   "kur": null,
@@ -618,7 +618,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Gündüz, T., 'Kars', TDV İslâm Ansiklopedisi, c.24 (İstanbul 2001), s.515-518, https://islamansiklopedisi.org.tr/kars"
    }
   ],
-  "ic_not": "koord: GeoNames 743952 (Kars, PPLA) 40°35′54″K 43°05′08″D (40.5983, 43.0855); atlas tahmini 40.602/43.095 ile ~0,9 km uyumlu. Kaynak sayısı: 2 (TDV Kars, TDV Kırklareli [yalnız Berlin günü]). Üst kaynak basamakları (İSAM/TTK/DergiPark) ve Vanand Krallığı'nın akademik kaynağı bu oturumda aranmadı. Kayıt 1900'e kadar uzamaz: zincir atlas başlangıcında (1000-01-01) biter, atlas zinciri esastır. Kars 1900'de Rus İmparatorluğu'nun Kars oblastının merkezi idi (TDV: 1878'de Rusya'ya bırakıldı)."
+  "ic_not": "koord: GeoNames 743952 (Kars, PPLA) 40°35′54″K 43°05′08″D (40.5983, 43.0855); atlas tahmini 40.602/43.095 ile ~0,9 km uyumlu. Kaynak sayısı: 2 (TDV Kars, TDV Kırklareli [yalnız Berlin günü]). Üst kaynak basamakları (İSAM/TTK/DergiPark) ve Vanand Krallığı'nın akademik kaynağı bu oturumda aranmadı. Kayıt 1900'e kadar uzamaz: zincir atlas başlangıcında (1000-01-01) biter, atlas zinciri esastır. Kars 1900'de Rus İmparatorluğu'nun Kars oblastının merkezi idi (TDV: 1878'de Rusya'ya bırakıldı). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kirklareli-tr",
@@ -639,7 +639,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Tuncel, M., 'Kırklareli', TDV İslâm Ansiklopedisi, c.25 (Ankara 2022), s.478-480, https://islamansiklopedisi.org.tr/kirklareli",
-   "tanik": "Edirne'nin 763'te (1361) fethinden sonra ele geçirildiği kabul edilmektedir",
+   "tanik": "Fetih tarihi ise 768 (1366) ve 770 (1368-69) yılları olarak gösterilir.",
    "ic_not": "GERÇEK ilk anılış DEĞİL: TDV kuruluşu 'bilinmiyor' der (çevredeki höyükler eski yerleşime işaret eder); Bizans adı Saranta Ekklesies ve Bulgarca Lozengrad tarihsiz. Tarihli en eski tanık Osmanlı fethidir. TDV fetih için çelişkili tarihler sayar: genel kabul Edirne'nin 763 (1361) fethinden sonra; ayrıca 768 (1366) ve 770 (1368-69). Güvenli uç (en son) 1369-01-01 alındı. Bizans/Bulgar dönemi ilk anılışı (Notitiae episcopatuum, Oxford Dictionary of Byzantium) bulunamadı. Atlas 1281-01-01'de Kırklareli 'bizans' yazıyor; kaynak desteği bu oturumda yok, zincir yazılmadı."
   },
   "kur": null,
@@ -698,7 +698,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Tuncel, M., 'Kırklareli', TDV İslâm Ansiklopedisi, c.25 (Ankara 2022), s.478-480, https://islamansiklopedisi.org.tr/kirklareli"
    }
   ],
-  "ic_not": "koord: GeoNames 743166 (Kırklareli, PPLA) 41.7351/27.2252; atlas 41.735/27.225 uyumlu. Girdideki 41.943/27.401 DEĞERİ YANLIŞ (Dereköy'ün koordinatı, ~28 km KD) — düzeltildi. Kaynak sayısı: 1 (TDV Kırklareli). Osmanlı döneminde Vize sancağı kazası; Tanzimat sonrası Edirne vilayetine bağlı sancak merkezi (TDV; yıl yok). Atlas başlangıcı (1281 'bizans') kaynaksız: dikiş/zincir yazılmadı."
+  "ic_not": "koord: GeoNames 743166 (Kırklareli, PPLA) 41.7351/27.2252; atlas 41.735/27.225 uyumlu. Girdideki 41.943/27.401 DEĞERİ YANLIŞ (Dereköy'ün koordinatı, ~28 km KD) — düzeltildi. Kaynak sayısı: 1 (TDV Kırklareli). Osmanlı döneminde Vize sancağı kazası; Tanzimat sonrası Edirne vilayetine bağlı sancak merkezi (TDV; yıl yok). Atlas başlangıcı (1281 'bizans') kaynaksız: dikiş/zincir yazılmadı. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "kozan-tr",
@@ -717,7 +717,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Besni maddesi arama özeti: 'Sultanı Baybars 1266'da Kilikya'ya inerek Sîs Kralı Hethum'un…' — TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/besni (arama sonucu özeti; tam madde okunmadı)",
-   "tanik": "Baybars 1266'da Kilikya'ya inerek Sîs Kralı Hethum'un",
+   "tanik": "Memlük Sultanı Baybars 1266’da Kilikya’ya inerek Sîs Kralı Hethum’un oğlu Leyfon’u esir aldı.",
    "ic_not": "GERÇEK ilk anılış DEĞİL ve ZAYIF: tek cümlelik arama özeti. TDV'de 'Sis/Kozan' için ayrı şehir maddesi bulunamadı ('kozan' aramasında yalnız Kozanoğulları ve Fırka-i Islâhiyye; 'sis' aramasında ŞÎS/Sîstan vb.). Sis'in Kilikya Ermeni Krallığı'nın başkenti oluş yılı için kaynaklar çelişir (Vikipedi-türevi sayfalar 1173, 1180-90, 1198 der; Vikipedi tek dayanak olamaz — yalnız İPUCU, akademik kaynakla doğrulanmadı); 1375'te Memlûk fethi de aynı biçimde yalnız ipucu. Atlas 1185-01-01'de __BOSLUK__ ile başlıyor ve 'Sis'in Ermeni başkent olduğu ~1185 öncesi' zincir bu yüzden yazılamadı."
   },
   "kur": null,
@@ -742,7 +742,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "ic_not": "Sis/Kozan şehrine doğrudan değil, bölgeye ait."
    }
   ],
-  "ic_not": "koord: GeoNames 306112 (Kozan, PPLA2) 37°27′18.61″K 35°48′56.63″D (37.4552, 35.8157); atlas 'Sis (Kozan)' 37.4489/35.8164 ile ~0,8 km uyumlu. Girdi tahmini koordinat yoktu. Kaynak sayısı: 1 (özet) — kayıt BÜYÜK ÖLÇÜDE BULUNAMADI. 1900 durumu: Cuinet 1891 'Sis' sancak merkezi (Adana vilayeti) — girdi notu, okunmadı. Atlas başlangıcının (1185 __BOSLUK__) çözümü için Kilikya Ermeni Krallığı akademik kaynağı (Boase, ed., The Cilician Kingdom of Armenia, 1978) gerekir; aranmadı."
+  "ic_not": "koord: GeoNames 306112 (Kozan, PPLA2) 37°27′18.61″K 35°48′56.63″D (37.4552, 35.8157); atlas 'Sis (Kozan)' 37.4489/35.8164 ile ~0,8 km uyumlu. Girdi tahmini koordinat yoktu. Kaynak sayısı: 1 (özet) — kayıt BÜYÜK ÖLÇÜDE BULUNAMADI. 1900 durumu: Cuinet 1891 'Sis' sancak merkezi (Adana vilayeti) — girdi notu, okunmadı. Atlas başlangıcının (1185 __BOSLUK__) çözümü için Kilikya Ermeni Krallığı akademik kaynağı (Boase, ed., The Cilician Kingdom of Armenia, 1978) gerekir; aranmadı. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "lahij-ye",
@@ -981,7 +981,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "Halaçoğlu, Y., 'Cebelibereket', TDV İslâm Ansiklopedisi, c.7 (İstanbul 1993), s.185-186, https://islamansiklopedisi.org.tr/cebelibereket",
-   "tanik": "Cebelibereket üzerinde hâkim bir noktada bulunan Yarpuz'a",
+   "tanik": "Sancak merkezi 1880’de Payas’tan, Cebelibereket üzerinde hâkim bir noktada bulunan Yarpuz’a nakledilmiştir.",
    "ic_not": "GERÇEK ilk anılış DEĞİL: TDV Cebelibereket maddesindeki en eski tarihli Yarpuz tanığı (merkezin Payas'tan Yarpuz'a taşınması, 1880). Yarpuz'un daha eski tarihi (Ramazanoğulları/Dulkadir/Osmanlı kuruluşu, kale) TDV'de YOK; DergiPark arama sonuçlarında da bulunamadı. Başka kaynaklarda taşınma yılı çelişkili (1874, 1879 — arama sonucu özetleri, okunmadı; TDV 1880 esas)."
   },
   "kur": null,
@@ -1036,6 +1036,6 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_B = [
     "kaynak": "Halaçoğlu, Y., 'Cebelibereket', TDV İslâm Ansiklopedisi, c.7 (İstanbul 1993), s.185-186, https://islamansiklopedisi.org.tr/cebelibereket"
    }
   ],
-  "ic_not": "koord: GeoNames 297624 (Yarpuz, PPLA3, Osmaniye) 37°02′53.66″K 36°25′50.38″D (37.0482, 36.4307). Girdi tahmin koordinatı yoktu. Atlas'ta Yarpuz noktası yok; atlas 'Osmaniye' (37.074/36.251) ≈15 km uzakta. Kaynak sayısı: 1 (TDV Cebelibereket). Girdi notu 'merkezin Osmaniye'ye taşındığı tarih doğrulanmadı' — TDV: 1908. 1900'de Yarpuz Cebelibereket sancağı merkezi (girdi). Kayıt BÜYÜK ÖLÇÜDE BULUNAMADI (1880 öncesi)."
+  "ic_not": "koord: GeoNames 297624 (Yarpuz, PPLA3, Osmaniye) 37°02′53.66″K 36°25′50.38″D (37.0482, 36.4307). Girdi tahmin koordinatı yoktu. Atlas'ta Yarpuz noktası yok; atlas 'Osmaniye' (37.074/36.251) ≈15 km uzakta. Kaynak sayısı: 1 (TDV Cebelibereket). Girdi notu 'merkezin Osmaniye'ye taşındığı tarih doğrulanmadı' — TDV: 1908. 1900'de Yarpuz Cebelibereket sancağı merkezi (girdi). Kayıt BÜYÜK ÖLÇÜDE BULUNAMADI (1880 öncesi). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  }
 ];

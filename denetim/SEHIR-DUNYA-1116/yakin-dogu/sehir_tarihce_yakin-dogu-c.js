@@ -202,7 +202,7 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, UZUNKÖPRÜ [Ergene] (N. Çiçek Akçıl, c. 42, 2012, s. 266-267): köprü inşası başlangıcı Ravzatü'l-ebrâr'a göre 831 (1427-28), Âşıkpaşazâde ve Hoca Sâdeddin'e göre 829 (1426)",
-   "tanik": "Sultan II. Murad köprüyü ve Cisr-i Ergene yerleşimini yaptırdı (TDV özeti)"
+   "tanik": "Eski adı Ergene olan bugünkü Uzunköprü ilçesine adını veren köprü, Âşıkpaşazâde’ye ve ondan naklen Hoca Sâdeddin Efendi’nin Tâcü’t-tevârîh’ine göre 829 (1426), Ravzatü’l-ebrâr’a göre ise 831’de (1427-28) yapımına başlanmış"
   },
   "kur": null,
   "ark": null,
@@ -233,6 +233,6 @@ window.SEHIR_TARIHCE_YAKIN_DOGU_C = [
     "kaynak": "TDV İslâm Ansiklopedisi, UZUNKÖPRÜ [Ergene]; hicrî 847/1/1, çeviri: tablo takvimi, Jülyen; 1443 yılı ile kesişimin ilk günü"
    }
   ],
-  "ic_not": "Zincir atlasın ilk gününde (1443-01-01 osmanli) bitiyor, atlas başlangıcıyla aynı sahip. TDV'nin 'Uzunköprü' maddesi şehrin kuruluş gününü vermez; ilk anılış köprü inşası (yapı/ yerleşim anlatısı) olarak alındı. Kitabe yerinde olduğu için yazılı tanıktır ama 1443 > 1428. Gün teyitsiz (yalnız yıl). Hicrî 847/1/1 tablo takvimiyle 1443-05-10; Kitabe tarihi gün düzeyinde değil. Koordinat: GeoNames 738251 (Uzunköprü PPPLA2, 41°16'09\" K 26°41'10\" D); atlas tahminine ~0,3 km. ARAŞTIRILMADI: Latif Bağman 'Uzunköprü Tarihi ve Belgeleri' (2005), İ. H. Balkas (1958) birincil/ikincil kaynakları; II. Murad vakfiyesi tarihi (kure ansiklopedi kaynaklı, doğrulanmadı)."
+  "ic_not": "Zincir atlasın ilk gününde (1443-01-01 osmanli) bitiyor, atlas başlangıcıyla aynı sahip. TDV'nin 'Uzunköprü' maddesi şehrin kuruluş gününü vermez; ilk anılış köprü inşası (yapı/ yerleşim anlatısı) olarak alındı. Kitabe yerinde olduğu için yazılı tanıktır ama 1443 > 1428. Gün teyitsiz (yalnız yıl). Hicrî 847/1/1 tablo takvimiyle 1443-05-10; Kitabe tarihi gün düzeyinde değil. Koordinat: GeoNames 738251 (Uzunköprü PPPLA2, 41°16'09\" K 26°41'10\" D); atlas tahminine ~0,3 km. ARAŞTIRILMADI: Latif Bağman 'Uzunköprü Tarihi ve Belgeleri' (2005), İ. H. Balkas (1958) birincil/ikincil kaynakları; II. Murad vakfiyesi tarihi (kure ansiklopedi kaynaklı, doğrulanmadı). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  }
 ];

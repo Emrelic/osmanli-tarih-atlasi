@@ -20,7 +20,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
    "nicelik": "ilk_anilis",
    "kesinlik": "gun",
    "kaynak": "TDV İslâm Ansiklopedisi, İBRÂİL maddesi (Mihai Maxim, c. 21, s. 363-366; https://islamansiklopedisi.org.tr/ibrail; 16 Kas 2026'da okundu): Eflak voyvodasının Braşov tüccarlarına 20 Ocak 1368 tarihli ticaret ayrıcalığında mallar 'Berâyil yoluyla' anılır",
-   "tanik": "Berâyil yoluyla (20 Ocak 1368 Eflak voyvodası ayrıcalığı; TDV özeti)"
+   "tanik": "Ancak bu ada kesin olarak, Eflak voyvodası tarafından Transilvanya’daki (Erdel) Braşov tüccarlarına verilen 20 Ocak 1368 tarihli ticaret imtiyazı belgesinde rastlanır."
   },
   "kur": null,
   "ark": null,
@@ -35,7 +35,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
     "kaynak": "TDV İslâm Ansiklopedisi, İBRÂİL maddesi (https://islamansiklopedisi.org.tr/ibrail; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 683902 (45°16′17.47″ N, 27°58′27.44″ E), atlas tahmininden 0.25 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV İBRÂİL OKUNDU (aynı 20 Ocak 1368 belgesi; 'Drinago' önerisi; 1538-1540 Osmanlı alışı bu dosyanın kapsamı dışı: atlas zinciri esastır). ② Atlasın kendi kaydındaki ikinci kaynak (Biblioteca Județeană Brăila, Luceafărul 1/2018) bu turda yeniden OKUNMADI. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Rumen akademik DRH B I neşri) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış günü (1368-01-20) atlasın başlangıç gününe eşit; atlasta sahiplik de aynı günden başlıyor, bu yüzden şehir tarihçesine ek sahiplik dönemi yazılmadı (denetim uyarısı beklenir). Belge İbrail'i şehir değil 'yol' olarak anar (iskele/ticaret noktası olması mümkün; kuruluş değil). Aşağıdaki sahiplik atlas zincirindedir."
+  "ic_not": "KOORD: GeoNames 683902 (45°16′17.47″ N, 27°58′27.44″ E), atlas tahmininden 0.25 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV İBRÂİL OKUNDU (aynı 20 Ocak 1368 belgesi; 'Drinago' önerisi; 1538-1540 Osmanlı alışı bu dosyanın kapsamı dışı: atlas zinciri esastır). ② Atlasın kendi kaydındaki ikinci kaynak (Biblioteca Județeană Brăila, Luceafărul 1/2018) bu turda yeniden OKUNMADI. Üst basamaklar (İSAM/TTK/DergiPark/YÖK, Rumen akademik DRH B I neşri) BU PARTİDE YAPILMADI. ZİNCİR BOŞ: ilk anılış günü (1368-01-20) atlasın başlangıç gününe eşit; atlasta sahiplik de aynı günden başlıyor, bu yüzden şehir tarihçesine ek sahiplik dönemi yazılmadı (denetim uyarısı beklenir). Belge İbrail'i şehir değil 'yol' olarak anar (iskele/ticaret noktası olması mümkün; kuruluş değil). Aşağıdaki sahiplik atlas zincirindedir. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "naksa-gr",
@@ -130,7 +130,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, ÜSKÜDAR maddesi (M. Hanefi Bostan / Enis Karakaya; https://islamansiklopedisi.org.tr/uskudar; 16 Kas 2026'da okundu): Konstantin ile Licinius arasındaki 324 savaşı burada yapıldı",
-   "tanik": "324'te Konstantin ile Licinius arasındaki savaş burada yapıldı (TDV özeti)"
+   "tanik": "Bizans İmparatorluğu’nun kurucusu kabul edilen Büyük Konstantinos ile muhalifi Licinius arasındaki meşhur Üsküdar savaşı 324 yılında burada cereyan etti ve savaş Licinius’un öldürülmesiyle sonuçlandı."
   },
   "kur": null,
   "ark": null,
@@ -164,7 +164,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
     "kaynak": "TDV İslâm Ansiklopedisi, ÜSKÜDAR maddesi (https://islamansiklopedisi.org.tr/uskudar; 16 Kas 2026'da okundu): '781-782' (yılların ilki; güvenli uç değil, aralığın başı)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 738329 (41°01′21.86″ N, 29°00′49.18″ E), atlas tahmininden 0.14 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV ÜSKÜDAR OKUNDU (324 savaşı, 781-782, Bizans'ta kasaba; Kız Kulesi ile ilgili 'MÖ 410' cümlesi özette geçti ama bu turda alıntı olarak doğrulanmadı, ilk anılış olarak kullanılmadı — Atina'nın 410'daki Khrysopolis hamlesi Xenophon Hellenika 1.1.22 ile aranmak istendi, Perseus sayfası metni vermedi: ilk anılış daha eskiye gidebilir, BEYAN). Üst basamaklar (İSAM/TTK/DergiPark/YÖK) BU PARTİDE YAPILMADI. 'Khrysopolis = Üsküdar' özdeşliği TDV'de adın muhtemel kökeni olarak geçer, kesin teyit değildir; 324 savaşının yeri TDV'ye göre Üsküdar'dır. 1078'de Bizans'ın Türk askerlerini İzmit-Üsküdar garnizonlarına yerleştirmesi (TDV İZMİT) atlasın başka kaydında ve zincirde bulunmaktadır. Atlasla çelişki: yok (atlas 1000'de bizans)."
+  "ic_not": "KOORD: GeoNames 738329 (41°01′21.86″ N, 29°00′49.18″ E), atlas tahmininden 0.14 km; sapma yok. KAYNAK BASAMAKLARI: ① TDV ÜSKÜDAR OKUNDU (324 savaşı, 781-782, Bizans'ta kasaba; Kız Kulesi ile ilgili 'MÖ 410' cümlesi özette geçti ama bu turda alıntı olarak doğrulanmadı, ilk anılış olarak kullanılmadı — Atina'nın 410'daki Khrysopolis hamlesi Xenophon Hellenika 1.1.22 ile aranmak istendi, Perseus sayfası metni vermedi: ilk anılış daha eskiye gidebilir, BEYAN). Üst basamaklar (İSAM/TTK/DergiPark/YÖK) BU PARTİDE YAPILMADI. 'Khrysopolis = Üsküdar' özdeşliği TDV'de adın muhtemel kökeni olarak geçer, kesin teyit değildir; 324 savaşının yeri TDV'ye göre Üsküdar'dır. 1078'de Bizans'ın Türk askerlerini İzmit-Üsküdar garnizonlarına yerleştirmesi (TDV İZMİT) atlasın başka kaydında ve zincirde bulunmaktadır. Atlasla çelişki: yok (atlas 1000'de bizans). | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "yenipazar-rs",
@@ -186,7 +186,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, YENİPAZAR (Sırbistan) maddesi (Muhammed Aruçi, c. 43, 2013, s. 468-471; https://islamansiklopedisi.org.tr/yenipazar--sirbistan; 16 Kas 2026'da okundu): şehri İshakbeyoğlu Gazi Îsâ Bey 'büyük ihtimalle 1459'da' kurdu",
-   "tanik": "İshakbeyoğlu Îsâ Bey büyük ihtimalle 1459'da kurdu (TDV özeti)"
+   "tanik": "İshakbeyoğlu Gazi Îsâ Bey Trgovište, Pazar veya Pazarište şeklinde adlandırılan bu yerde büyük ihtimalle 1459’da Yenipazar’ı kurdu (Yenice-i Pazar / Novi Pazar), Trgovište ise Eskipazar adıyla anılmaya başlandı."
   },
   "kur": {
    "t": "1459-01-01",
@@ -206,7 +206,7 @@ window.SEHIR_TARIHCE_BALKANLAR_H = [
     "kaynak": "TDV İslâm Ansiklopedisi, YENİPAZAR (Sırbistan) maddesi (https://islamansiklopedisi.org.tr/yenipazar--sirbistan; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "KOORD: GeoNames 787595 (43°08′12.01″ N, 20°30′43.99″ E), atlas tahmininden 0.54 km; sapma yok. 🔴 ATLASLA ÇELİŞKİ: atlas Yenipazar'ı 1281-01-01'den sahipli (sirbistan-nemanjic 1281-1402, sirp-despotlugu 1402-1455) tutuyor; TDV'ye göre bu şehir 1459'da (büyük ihtimalle) KURULMUŞTUR, 1281-1459 arası modern şehir yoktu. Eski yerleşimler Ras (Bizans sınır kalesi) ve Trgovište/Pazar (sonradan Eskipazar) ayrı yerleşimlerdir (TDV; aralarındaki mesafe bu turda ölçülmedi, GeoNames'te Stari Ras/Pazarište ayrıca aranmadı); atlas noktası (kayıt 1281'den) muhtemelen bu eski yerleşimleri temsil ediyor — 'antik/eski yerleşim modern noktadan >3 km ise burada yazılmaz, ayrı kayıt önerilir' kuralı uygulandı: ayrı kayıt önerisi Ras/Trgovište (Stari Ras, Novi Pazar yakını). ZİNCİR BOŞ: kuruluş atlasın başlangıcından sonra olduğundan şehir tarihçesine sahiplik dönemi yazılmadı (denetim uyarısı beklenir: 'atlas başlangıcı düzeltilmeli'). TDV ek: bölge 1392-1402 ve 1439-1444 arası kısa süreli Osmanlı idaresine girdi; kesin hâkimiyet 1454 Osmanlı-Sırp anlaşmasıyla (atlas 1455-06-01'de bitirir; ±1 yıl TDV 'anlaşma 1454' yalnız yıl); 1878 Berlin Antlaşması m. 25 ve Nisan 1879 sözleşmesiyle Avusturya sancakta asker bulundurma hakkı; Yenipazar 23 Ekim 1912'de Osmanlı'dan ayrıldı (atlas 1912-10-23 ile aynı gün; TDV doğrular). KAYNAK BASAMAKLARI: ① TDV OKUNDU; üst basamaklar (İSAM/TTK/DergiPark: ör. Sinan Koçak JUHIS 2(1) 2019; Hazim Šabanović, Bosanski Pašaluk 1959) BU PARTİDE YAPILMADI."
+  "ic_not": "KOORD: GeoNames 787595 (43°08′12.01″ N, 20°30′43.99″ E), atlas tahmininden 0.54 km; sapma yok. 🔴 ATLASLA ÇELİŞKİ: atlas Yenipazar'ı 1281-01-01'den sahipli (sirbistan-nemanjic 1281-1402, sirp-despotlugu 1402-1455) tutuyor; TDV'ye göre bu şehir 1459'da (büyük ihtimalle) KURULMUŞTUR, 1281-1459 arası modern şehir yoktu. Eski yerleşimler Ras (Bizans sınır kalesi) ve Trgovište/Pazar (sonradan Eskipazar) ayrı yerleşimlerdir (TDV; aralarındaki mesafe bu turda ölçülmedi, GeoNames'te Stari Ras/Pazarište ayrıca aranmadı); atlas noktası (kayıt 1281'den) muhtemelen bu eski yerleşimleri temsil ediyor — 'antik/eski yerleşim modern noktadan >3 km ise burada yazılmaz, ayrı kayıt önerilir' kuralı uygulandı: ayrı kayıt önerisi Ras/Trgovište (Stari Ras, Novi Pazar yakını). ZİNCİR BOŞ: kuruluş atlasın başlangıcından sonra olduğundan şehir tarihçesine sahiplik dönemi yazılmadı (denetim uyarısı beklenir: 'atlas başlangıcı düzeltilmeli'). TDV ek: bölge 1392-1402 ve 1439-1444 arası kısa süreli Osmanlı idaresine girdi; kesin hâkimiyet 1454 Osmanlı-Sırp anlaşmasıyla (atlas 1455-06-01'de bitirir; ±1 yıl TDV 'anlaşma 1454' yalnız yıl); 1878 Berlin Antlaşması m. 25 ve Nisan 1879 sözleşmesiyle Avusturya sancakta asker bulundurma hakkı; Yenipazar 23 Ekim 1912'de Osmanlı'dan ayrıldı (atlas 1912-10-23 ile aynı gün; TDV doğrular). KAYNAK BASAMAKLARI: ① TDV OKUNDU; üst basamaklar (İSAM/TTK/DergiPark: ör. Sinan Koçak JUHIS 2(1) 2019; Hazim Šabanović, Bosanski Pašaluk 1959) BU PARTİDE YAPILMADI. | TANIK: TDV tam gövdesinden birebir cümle (16 Kas 2026, tarayıcı; yıl+şehir aynı cümlede ya da maddenin konusu şehre açık atıf)."
  },
  {
   "id": "zagreb-hr",
