@@ -36,3 +36,5 @@ akademik makaleler web aramasıyla çıkmıyor; TDV maddeleri WebFetch özetinde
 Delhi 736 ↔ TDV 1911 (Delhi madde) ↔ TDV Kalküta 1912 (iki TDV maddesi çelişir) · Agra: TDV Sikender Lûdî 1495, atlas 1504 · Dakka: TDV başkent 1608, Banglapedia 1610 ·
 Ahmedâbâd Marata: TDV 1758, atlas 1753-04-01 · Atlas başlangıcı kaynaklı ilk tanıktan ÖNCE ya da aynı gün (`sahip:[]`): Delhi, Lahor, Ecmîr, Kalküta, Bahâvelpûr, Amritsar, Dakka ·
 Multan 712→903 ve Agra 1081→1504 `__BOSLUK__` dikiş beyanı · gorev.tsv'deki Haydarâbâd (Sind) eşleşmesi yanlış yerleşimdi (düzeltildi).
+
+## PARTİ 2 SONUCU (16 Kasım, TDV tam gövde): yukarıdaki 28'den 8'i yazıldı: Gvalyar, Gaur, Leknev, Patna, Bîcâpur, Golkonda, Bîdar, Bhopâl (data/sehir_tarihce_hint.js artık 20 şehir). Kalan 20: TDV'de ayrı madde yok (Kannauc, Siyâlkot, Srinagar [yalnız Keşmir], Çitor, Udeypûr, Codhpûr, Caypûr, Evrengâbâd, Madurai, Trivandrum, Kolam, Pûne, Baroda, Kandy, Kotte) ya da madde var ama şehre özgü tarih yok (Katmandu, Malé, Seringapatam, Tatta — bölge/savaş anılışı şehrin ilk anılışı sayılmadı). Kalan işler için TDV dışı erişim (PDF/kitap) gerekir; indirme için kullanıcı onayı beklenir.
