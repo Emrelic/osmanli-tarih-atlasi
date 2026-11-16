@@ -149,7 +149,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "gun": "MS 7. yüzyıl sonu",
    "kesinlik": "yuzyil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Gao' (Rıza Kurtuluş), c. 13, İstanbul 1996, s. 357, https://islamansiklopedisi.org.tr/gao",
-   "tanik": "Sorko-Fârân balıkçıları kurdu (muhtemelen)"
+   "tanik": "Muhtemelen VII. yüzyılın son yıllarında Songaylar’ın Kukia’dan (Gugia) çıkardıkları Sorko-Fârân balıkçıları tarafından kurulan Gao,"
   },
   "ark": null,
   "bit": null,
@@ -193,7 +193,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Gao' (Rıza Kurtuluş), c. 13, İstanbul 1996, s. 357, https://islamansiklopedisi.org.tr/gao"
    }
   ],
-  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın."
+  "ic_not": "Kaynak yalnız TDV Gao maddesi (Rıza Kurtuluş, c. 13) ve TDV Mali maddesi; çift teyit YOK. TDV Mali: 1430'da Tevârikler Gao'yu aldı; TDV Gao: 1324 Mali hâkimiyeti — ikisi de yıl hassasiyetinde. Atlas 0801'de __BOSLUK__ ile başlıyor ve künyeli sahip yazmıyor; 1324 sonrası zincir atlasın. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (kur.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "hamdullahi-ml",
@@ -249,7 +249,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (Ahmet Kavas), c. 27, İstanbul 2003, s. 493-504, https://islamansiklopedisi.org.tr/mali"
    }
   ],
-  "ic_not": "TDV'nin iki ayrı maddesi (Fûlânîler 1815; Ahmedü Lobbo 1862'de el-Hâc Ömer'in zaptı) okundu."
+  "ic_not": "TDV'nin iki ayrı maddesi (Fûlânîler 1815; Ahmedü Lobbo 1862'de el-Hâc Ömer'in zaptı) okundu. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "kano-ng",
@@ -267,7 +267,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yuzyil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Kano' (Davut Dursun), c. 24, İstanbul 2001, s. 312-313, https://islamansiklopedisi.org.tr/kano",
-   "tanik": "XII. yüzyılda surlarla çevrildi, kervan ticaret merkezi oldu",
+   "tanik": "XII. yüzyılda etrafı surlarla çevrilen Kano, ... bir ticaret merkezi olarak da gelişti",
    "ic_not": "Güvenli uç: yüzyılın sonu 1200. TDV IX. yüzyılda Gaya kabilesinden Kano'nun kurduğu anlatısını 'efsane' olarak verir — kuruluş tanığı sayılmadı. Kano Chronicle (Palmer, JRAI 38, 1908 / Sudanese Memoirs III, 1928) ve Arap kaynaklarındaki ilk anılış bu oturumda kaynakla bağlanamadı; bu yüzden gerçek ilk tarih daha erken olabilir. Atlas Kano'yu 1000-01-01'den başlatıyor (hausa-sehir-devletleri) — ilk.t atlas başlangıcından SONRA olduğundan zincir yazılmadı (denetim uyarısı beklenir): atlas başlangıcının dayanağı bulunamadı."
   },
   "kur": null,
@@ -290,7 +290,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Kano' (Davut Dursun), c. 24, İstanbul 2001, s. 312-313, https://islamansiklopedisi.org.tr/kano"
    }
   ],
-  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı."
+  "ic_not": "Yalnız TDV Kano maddesi (Davut Dursun, c. 24); TDV İngiliz fethi için kesin yıl vermez (Emir Aliyu 1894-1903 dönemi), olay yazılmadı. Atlas başlangıcı (1000) için kaynak aranmalı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "monrovia-lr",
@@ -309,7 +309,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Liberya' (Davut Dursun), c. 27, Ankara 2003, s. 173-174, https://islamansiklopedisi.org.tr/liberya",
-   "tanik": "1822'de 181 Afrikalı-Amerikalıyı Cape Mesurado kıyısına yerleştirdi",
+   "tanik": "1822’de 181 kişilik ilk Amerikalı zenciler grubunu Cape Mesurado sahil kesimine yerleştirmeyi başardı",
    "ic_not": "TDV: American Colonization Society (1816) ilk grubu 1822'de Cape Mesurado'ya yerleştirdi; Monrovia adının verildiği günü TDV vermez. Atlas Monrovia'yı 1822-04-25'ten başlatır (atlas referans değil; gün TDV'de yok). Öncesinde Dei/yerel halk toprağı: TDV'de ad/tarih yok, yazılmadı."
   },
   "kur": {
@@ -346,7 +346,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Liberya' (Davut Dursun), c. 27, Ankara 2003, s. 173-174, https://islamansiklopedisi.org.tr/liberya"
    }
   ],
-  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı."
+  "ic_not": "Yalnız TDV Liberya maddesi; Monrovia'ya özel bir TDV maddesi yok. Cape Montserado satın alma (1821) ve 'Christopolis' adı kaynakla bağlanamadığı için yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "pretoria-za",
@@ -433,7 +433,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto",
-   "tanik": "Osman b. Fûdî oğlu Muhammed Bello'ya kasaba yakınında askerî üs kurdurdu",
+   "tanik": "1804’te oğlu Muhammed Bello’ya kasabanın civarında askerî bir karargâh kurmasını emretmesiyle",
    "ic_not": "TDV: 1804'te üs, 1812'de Sokoto Halifeliği kuruluşu, 1817'de Osman b. Fûdî Sokoto'da ölür. 'Kasaba'nın (town) 1804 öncesi varlığı TDV'de yazılı değil; daha eski anılış bulunamadı. Künye `sokoto` 1804-01-01'den başlıyor, atlas 1812-01-01."
   },
   "kur": null,
@@ -486,7 +486,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Sokoto' (Ahmet Kavas), c. 37, İstanbul 2009, s. 351-352, https://islamansiklopedisi.org.tr/sokoto"
    }
   ],
-  "ic_not": "Yalnız TDV; çift teyit yok."
+  "ic_not": "Yalnız TDV; çift teyit yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "tombouctou-ml",
@@ -561,7 +561,7 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
    }
   ],
   "dikis_beyan": "Atlas Timbuktu'yu 1281-01-01'den Mali'ye bağlıyor; TDV Tinbüktü'nün Mali'ye geçişini Mansa Mûsâ dönemine (1329) bağlar ve 1281 için tanık vermez. 1281'e ±30 gün olay bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir."
+  "ic_not": "Kaynak: yalnız TDV (Tinbüktü, Mali, Gâne maddeleri okundu). Başka akademik kaynakla (ör. Hunwick, Timbuktu and the Songhay Empire, 1999) çift teyit YAPILMADI. 1430 sonrası zincir atlas esasıdır (burada yazılmadı); TDV'de 1430, 1468, 1591, 1750 (Arma), 1760 (Tevârik), ~1770 (Segu Bambara), 1792 (Tevârik), 1894 (Fransız) günleri yalnız yıl hassasiyetindedir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "windhoek-na",
@@ -669,6 +669,6 @@ window.SEHIR_TARIHCE_AFRIKA_GB = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Adamava', https://islamansiklopedisi.org.tr/adamava (yalnız yıl)"
    }
   ],
-  "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde)."
+  "ic_not": "Yalnız TDV 'Adamava' maddesi okundu; akademik ikinci kaynak (örn. Cambridge History of Africa c.5 / Burnham-Kirk-Smith Adamawa çalışmaları) ile çift teyit yapılmadı. Not: atlasın Yola için 'sokoto → ingiltere 1901' zinciri TDV'nin 1901 paylaşımıyla uyumlu; ancak Alman sınırı ötesinde kalan Adamawa kısmı Yola'yı etkilemedi (TDV: Yola emiri İngiliz bölgesinde). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  }
 ];

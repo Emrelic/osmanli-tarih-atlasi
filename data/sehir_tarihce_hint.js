@@ -17,7 +17,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Âgra', https://islamansiklopedisi.org.tr/agra (16 Kasım 2026'da okundu; özet okuma): Gazneli Seyfüddevle Mahmud Âgra'yı 1081'de aldı",
-   "tanik": "(özet) Gazneli hükümdarı Seyfüddevle Mahmud 1081'de Âgra'yı aldı"
+   "tanik": "oğlu Seyfüddevle Mahmud tarafından 1081’de Çavhanlar’dan alındı"
   },
   "kur": null,
   "ark": null,
@@ -67,7 +67,7 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "dikis_beyan": "Atlas Âgra'yı 1504-01-01'de delhi-sultanligi ile başlatır; TDV Sikender Lûdî'nin Âgra'yı 1495'te yeniden kurup hükümet merkezi yaptığını söyler (1504 ≠ 1495); 1504 için tanık bulunamadı, yer tutucu olay yazılmadı.",
-  "ic_not": "TDV 'Âgra' özet okuma: Sikender Lûdî 1495, Bâbür 1526 (başkent), 1803 İngiliz; XVIII. yy'da Cat ve Marathalar. Atlas 1504'ü 'kur' olarak taşır (atlas referans değil); TDV'de 1495 vardır — çelişki atlas düzeltmesi önerisidir. 1081 olayı gün verilmeyen yıl; 'Seyfüddevle Mahmud' Gazneli şehzâde/vali olabilir (Sultan Mahmud değil, 1030'da ölmüştür). Gazneli künyesinin 1081'de sürdüğü (devletler.js gazneli 0963-1186) doğrulandı. 'Sûrisana' adı TDV'de yazım olarak geçer (Şûrasena)."
+  "ic_not": "TDV 'Âgra' özet okuma: Sikender Lûdî 1495, Bâbür 1526 (başkent), 1803 İngiliz; XVIII. yy'da Cat ve Marathalar. Atlas 1504'ü 'kur' olarak taşır (atlas referans değil); TDV'de 1495 vardır — çelişki atlas düzeltmesi önerisidir. 1081 olayı gün verilmeyen yıl; 'Seyfüddevle Mahmud' Gazneli şehzâde/vali olabilir (Sultan Mahmud değil, 1030'da ölmüştür). Gazneli künyesinin 1081'de sürdüğü (devletler.js gazneli 0963-1186) doğrulandı. 'Sûrisana' adı TDV'de yazım olarak geçer (Şûrasena). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "ahmedabad-in",
@@ -85,7 +85,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Ahmedâbâd' (Mustafa Oğuz), c. 2, İstanbul 1989, s. 164-165, https://islamansiklopedisi.org.tr/ahmedabad",
-   "tanik": "(özet) Gucerât Devleti'nin ikinci hükümdarı I. Ahmed Şah (1411-1442) Sabarmati kıyısında, eski Asâval şehrinin yakınında kurdu; 1411'den itibaren başşehir"
+   "tanik": "Sabarmati nehrinin kıyısında, eski Asâval şehrinin yakınında kuruldu (1411)"
   },
   "kur": null,
   "ark": null,
@@ -130,7 +130,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV, 'Ahmedâbâd' (M. Oğuz), c. 2, s. 164-165"
    }
   ],
-  "ic_not": "ÇELİŞKİ: TDV Maratalar'ın hâkimiyetini 1758 olarak verir; atlas 1753-04-01'de `maratha` başlatıyor — atlas düzeltilmeli ya da 1753 için başka kaynak aranmalı. Eski Asâval (Asâvel) yakın ayrı yerleşimdir, aynı koordinat sayılmadı (adlara yazılmadı); Karnavati adı TDV'de geçmez. Maddenin metni WebFetch özetiyle okundu, 'tanik' paraphrase'dir."
+  "ic_not": "ÇELİŞKİ: TDV Maratalar'ın hâkimiyetini 1758 olarak verir; atlas 1753-04-01'de `maratha` başlatıyor — atlas düzeltilmeli ya da 1753 için başka kaynak aranmalı. Eski Asâval (Asâvel) yakın ayrı yerleşimdir, aynı koordinat sayılmadı (adlara yazılmadı); Karnavati adı TDV'de geçmez. Maddenin metni WebFetch özetiyle okundu, 'tanik' paraphrase'dir. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "amritsar-in",
@@ -149,7 +149,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Amritsar', https://islamansiklopedisi.org.tr/amritsar (16 Kasım 2026'da okundu; özet okuma): Guru Ram Das 1577'de Ekber'in bağışladığı arazide Amrita-saras havuzunu başlattı; yerleşim önce Ramdaspur diye anıldı",
-   "tanik": "(özet) 1577'de Guru Ram Das, Ekber'in verdiği arazide Amrita-saras havuzunu başlattı"
+   "tanik": "1577 yılında dördüncü guru ... Râm Dâs tarafından, Hint-Türk İmparatoru Ekber’in (1556-1605) kendisine verdiği topraklar üzerinde"
   },
   "kur": {
    "t": "1577-01-01",
@@ -178,7 +178,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Amritsar' (özet okuma; gün bu oturumda kaynaklanmadı)"
    }
   ],
-  "ic_not": "Atlas Amritsar'ı 1577-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). Kuruluş TDV'de 'havuz 1577'de başlatıldı' olarak geçer; şehrin kuruluş günü yok (yalnız yıl). Altın Tapınak'ın tamamlanışı (Guru Arjan) ve Ranjit Singh'in altın kaplaması TDV özetinde yıl vermez, yazılmadı. Atlasın 1752/1765/1801/1849 günleri TDV'de olmadığından olay yazılmadı. TDV özetinden 1947 Bölünme şiddetinden de söz edilir; gün/yıl olay olarak yazılmadı."
+  "ic_not": "Atlas Amritsar'ı 1577-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). Kuruluş TDV'de 'havuz 1577'de başlatıldı' olarak geçer; şehrin kuruluş günü yok (yalnız yıl). Altın Tapınak'ın tamamlanışı (Guru Arjan) ve Ranjit Singh'in altın kaplaması TDV özetinde yıl vermez, yazılmadı. Atlasın 1752/1765/1801/1849 günleri TDV'de olmadığından olay yazılmadı. TDV özetinden 1947 Bölünme şiddetinden de söz edilir; gün/yıl olay olarak yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. Not: TDV Amritsar katliamını \"14 Nisan 1919\" olarak verir (olay1 yıl hassasiyetinde bırakıldı; tarihsel kayıtlarda 13 Nisan 1919 anılır — TDV içi/dış çelişki, gün yazılmadı)."
  },
  {
   "id": "bahavelpur-pk",
@@ -250,7 +250,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Bahâvelpûr' (M. Naeem Qureshi, 1991, özet okuma)"
    }
   ],
-  "ic_not": "Atlas Bahâvelpûr'u 1748-01-01'de başlatır; ilk.t aynıdır, zincir atlasındır (sahip:[]). TDV 'Bahâvelpûr' şehir ve devleti aynı madde içinde anlatır; 1748 şehrin kuruluşu olarak verilir (tarih TDV'de yalnız yıl). Atlasın 1955-10-14 günü TDV'de yok (yalnız 1955). 1900 listesinde yok (kat1900 null). TDV özetinden 1833/1838/1947/1955 yılları okundu; cümleler kelimesi kelimesine alınmadı. Nevvâblığın Babürlü/Dürrânî vasallığı (1748-1833) TDV özetinde yok: sahip yazılmadı."
+  "ic_not": "Atlas Bahâvelpûr'u 1748-01-01'de başlatır; ilk.t aynıdır, zincir atlasındır (sahip:[]). TDV 'Bahâvelpûr' şehir ve devleti aynı madde içinde anlatır; 1748 şehrin kuruluşu olarak verilir (tarih TDV'de yalnız yıl). Atlasın 1955-10-14 günü TDV'de yok (yalnız 1955). 1900 listesinde yok (kat1900 null). TDV özetinden 1833/1838/1947/1955 yılları okundu; cümleler kelimesi kelimesine alınmadı. Nevvâblığın Babürlü/Dürrânî vasallığı (1748-1833) TDV özetinde yok: sahip yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "dakka-bd",
@@ -300,7 +300,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "Banglapedia 'Dhaka': East Pakistan became an independent state and came to be known as Bangladesh on 16 December 1971; TDV 'Dakka': Aralık 1971'de Bangladeş başkenti"
    }
   ],
-  "ic_not": "Atlas Dakka'yı 1026-01-01'de başlatır (varman-vanga, yüzyıl hassasiyeti); bu çalışmada Dakka'ya özgü en eski tanık 1456 tarihli cami olduğundan ilk.t atlas başlangıcından SONRA — atlas başlangıcı kaynaksız olabilir, düzeltilmeli (sahip:[]). Banglapedia 'Dhaka' Mughal öncesi varlığı için 'Its existence in the pre-Muslim period cannot be ascertained with certainty' der; Vikramapura'nın 10-13. yy'da öne çıktığını belirtir (Vikramapura Dakka'dan ayrı, ≈30 km). Ad kökeni (dhak ağacı, Durga, davul) tartışmalıdır, yazılmadı. ÇELİŞKİLER (TDV esas): başkent oluş 1608 (TDV) / 1610 (Banglapedia); Mürşidâbâd'a taşınma 1706 (TDV) / 1717 (Banglapedia — 'officially'; Murşidâbâd'da diwani 1702'de taşınmıştı). Atlasın kd penceresi (1608-1706) TDV ile uyumludur; atlas sahip zinciri bengal-nevabligi'ni 1717'den başlatır."
+  "ic_not": "Atlas Dakka'yı 1026-01-01'de başlatır (varman-vanga, yüzyıl hassasiyeti); bu çalışmada Dakka'ya özgü en eski tanık 1456 tarihli cami olduğundan ilk.t atlas başlangıcından SONRA — atlas başlangıcı kaynaksız olabilir, düzeltilmeli (sahip:[]). Banglapedia 'Dhaka' Mughal öncesi varlığı için 'Its existence in the pre-Muslim period cannot be ascertained with certainty' der; Vikramapura'nın 10-13. yy'da öne çıktığını belirtir (Vikramapura Dakka'dan ayrı, ≈30 km). Ad kökeni (dhak ağacı, Durga, davul) tartışmalıdır, yazılmadı. ÇELİŞKİLER (TDV esas): başkent oluş 1608 (TDV) / 1610 (Banglapedia); Mürşidâbâd'a taşınma 1706 (TDV) / 1717 (Banglapedia — 'officially'; Murşidâbâd'da diwani 1702'de taşınmıştı). Atlasın kd penceresi (1608-1706) TDV ile uyumludur; atlas sahip zinciri bengal-nevabligi'ni 1717'den başlatır. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. Kapsam: yalnız TDV kaynaklı öğeler; Banglapedia/Majumdar kaynaklı öğeler TDV DIŞI, doğrulanmadı."
  },
  {
   "id": "delhi-in",
@@ -371,7 +371,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV İslâm Ansiklopedisi, 'Delhi' maddesi, https://islamansiklopedisi.org.tr/delhi (16 Kasım 2026'da okundu; yalnız yıl)"
    }
   ],
-  "ic_not": "Atlas Delhi'yi 0736-01-01'de başlatır; ilk.t o güne eşittir, zincir atlasındır (sahip:[]). 736 Majumdar'ın aktardığı RİVAYETtir (Tuar/Tomara), arkeolojik/kitabeli tanık değildir; Delhi'nin 736 öncesi sahibi/varlığı bu oturumda kaynaklanmadı. TDV 'Delhi' maddesi (1994) şehrin 'yedi tarihî şehir'inin Lalkot (1192)'ten Şâhcihânâbâd (1638)'e dizildiğini söyler; Şâhcihânâbâd 1638 ayrı bir kent çekirdeği olduğundan ad olarak yazılmadı. ÇELİŞKİ (iki TDV maddesi): 'Delhi' idarenin Kalküta'dan Delhi'ye taşınışını 1911 yazar; 'Kalküta' maddesi Yeni Delhi'nin merkez oluşunu 1912 yazar — olayda 'Delhi' maddesinin yılı alındı. Delhi'nin Halacî (1290), Tuğluk (1320), Seyyid (1414), Lûdî (1451) ve Babür (1526) geçişlerinin TDV günleri bu oturumda doğrulanamadı; atlas zincirindedirler, buraya yazılmadılar. Timur'un Delhi'si TDV'de yalnız 'XIV. yüzyıl sonu' diye geçtiğinden olay yazılmadı."
+  "ic_not": "Atlas Delhi'yi 0736-01-01'de başlatır; ilk.t o güne eşittir, zincir atlasındır (sahip:[]). 736 Majumdar'ın aktardığı RİVAYETtir (Tuar/Tomara), arkeolojik/kitabeli tanık değildir; Delhi'nin 736 öncesi sahibi/varlığı bu oturumda kaynaklanmadı. TDV 'Delhi' maddesi (1994) şehrin 'yedi tarihî şehir'inin Lalkot (1192)'ten Şâhcihânâbâd (1638)'e dizildiğini söyler; Şâhcihânâbâd 1638 ayrı bir kent çekirdeği olduğundan ad olarak yazılmadı. ÇELİŞKİ (iki TDV maddesi): 'Delhi' idarenin Kalküta'dan Delhi'ye taşınışını 1911 yazar; 'Kalküta' maddesi Yeni Delhi'nin merkez oluşunu 1912 yazar — olayda 'Delhi' maddesinin yılı alındı. Delhi'nin Halacî (1290), Tuğluk (1320), Seyyid (1414), Lûdî (1451) ve Babür (1526) geçişlerinin TDV günleri bu oturumda doğrulanamadı; atlas zincirindedirler, buraya yazılmadılar. Timur'un Delhi'si TDV'de yalnız 'XIV. yüzyıl sonu' diye geçtiğinden olay yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. Kapsam: yalnız TDV kaynaklı öğeler; Banglapedia/Majumdar kaynaklı öğeler TDV DIŞI, doğrulanmadı. Not: TDV Delhi, 1192 yılını Kuvvetü'l-İslâm Mescidi'nin yapımına ve Lâlkot'a bağlar; Aybeg'in fethinin yılı metinde açıkça ayrıca verilmez (fetih \"1192 civarı\" okuması; olay1 yıl hassasiyetinde kalır)."
  },
  {
   "id": "ecmir-in",
@@ -430,7 +430,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Ecmîr' (Rıza Kurtuluş, 1994), özet okuma"
    }
   ],
-  "ic_not": "Atlas Ecmîr'i 0682-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). TDV 682'yi 'Târîh-i Firişte' kaydı olarak verir; takvim türünü (hicrî/milâdî) belirtmediği, hicrî 682 (=1283) ise Çahamana/Lahor racası bağlamına uymadığı için milâdî okundu — beyan. TDV şehrin 'II. yüzyılda Racpûtların Cauhan kabilesinin dinî ve siyasî merkezi olarak kurulduğunu' söyler; bu bir kuruluş TANIKLIĞI değil gelenektir (yazılı tanık yok), kur yazılmadı. TDV 987 ve 1008'de prensin Hindu birliklerine yardımını da anar (özet okumada doğrulanamadı, yazılmadı). Delhi Sultanlığı'na geçiş (Aybeg, 1206-1210) ve Racput/Mevar dönemi (1365-1559) tarihleri TDV özetinde yıl düzeyinde bile okunamadı, olay yazılmadı. 1818 'anlaşma' İngiliz-Maratha anlaşmasıdır; gün yok."
+  "ic_not": "Atlas Ecmîr'i 0682-01-01'de başlatır; ilk.t aynı yıldır, zincir atlasındır (sahip:[]). TDV 682'yi 'Târîh-i Firişte' kaydı olarak verir; takvim türünü (hicrî/milâdî) belirtmediği, hicrî 682 (=1283) ise Çahamana/Lahor racası bağlamına uymadığı için milâdî okundu — beyan. TDV şehrin 'II. yüzyılda Racpûtların Cauhan kabilesinin dinî ve siyasî merkezi olarak kurulduğunu' söyler; bu bir kuruluş TANIKLIĞI değil gelenektir (yazılı tanık yok), kur yazılmadı. TDV 987 ve 1008'de prensin Hindu birliklerine yardımını da anar (özet okumada doğrulanamadı, yazılmadı). Delhi Sultanlığı'na geçiş (Aybeg, 1206-1210) ve Racput/Mevar dönemi (1365-1559) tarihleri TDV özetinde yıl düzeyinde bile okunamadı, olay yazılmadı. 1818 'anlaşma' İngiliz-Maratha anlaşmasıdır; gün yok. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "haydarabad-dekken-in",
@@ -449,7 +449,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "kurulus",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Haydarâbâd' (Enver Konukçu), c. 17, İstanbul 1998, s. 30-31, https://islamansiklopedisi.org.tr/haydarabad--hindistan",
-   "tanik": "(özet) Kutubşâhî sultanı Muhammed Kulı Kutubşah şehri kurdu; hazırlıklar 1590'da tamamlandı ve ızgara planlı inşa başladı"
+   "tanik": "Yeni başşehrin kuruluş hazırlıkları 1590 yılında tamamlandı"
   },
   "kur": null,
   "ark": null,
@@ -487,7 +487,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV, 'Haydarâbâd' (E. Konukçu), c. 17, s. 30-31 (özet: 'Nizamlığın kurulmasından (1724) sonra gelişti')"
    }
   ],
-  "ic_not": "TDV Haydarâbâd maddesi yalnız yıl verir (kuruluş günü yok). Atlas ilk sahiplik 1591-01-01 (golkonda); TDV 1590-1591 aralığındaki 1591 ucu ile örtüşür. 1724 Nizam dönemi atlasta 1724-10-11 (günlü) — bu dosya günü doğrulayamadı, olay yıl hassasiyetinde yazıldı. Enver Konukçu maddesinin metni bu oturumda özet olarak okundu (WebFetch özeti), ilgili cümleler birebir değil paraphrase: sayfa numaraları sayfa üstbilgisinden. Başka akademik kaynakla çift teyit yapılamadı (Iranica 'Hyderabad' 403/erişilemedi)."
+  "ic_not": "TDV Haydarâbâd maddesi yalnız yıl verir (kuruluş günü yok). Atlas ilk sahiplik 1591-01-01 (golkonda); TDV 1590-1591 aralığındaki 1591 ucu ile örtüşür. 1724 Nizam dönemi atlasta 1724-10-11 (günlü) — bu dosya günü doğrulayamadı, olay yıl hassasiyetinde yazıldı. Enver Konukçu maddesinin metni bu oturumda özet olarak okundu (WebFetch özeti), ilgili cümleler birebir değil paraphrase: sayfa numaraları sayfa üstbilgisinden. Başka akademik kaynakla çift teyit yapılamadı (Iranica 'Hyderabad' 403/erişilemedi). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "kalkuta-in",
@@ -553,7 +553,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Kalküta': «1912'de Yeni Delhi merkez oluncaya kadar bu durumunu korudu.» (ÇELİŞKİ: TDV 'Delhi' 1911 verir, ic_not)"
    }
   ],
-  "ic_not": "Atlas Kalküta'yı 1690-08-24'te başlatır; ilk.t aynı gündür (zincir atlasındır, sahip:[]). 'Kuruluş' İngiliz Doğu Hindistan Şirketi YERLEŞİMİNİN kuruluşudur: üç köy (Sutanuti, Kalikata, Gobindapur) öncesinde vardı ve Kalküta Yüksek Mahkemesi 2003'te Charnock'ın 'kurucu' sayılmaması gerektiğine hükmetti (bu oturumda yalnız arama özetinde görüldü, birincil kaynağı okunmadı); köylerin daha eski yazılı anılışı (ör. Ain-i Ekberî) bu oturumda doğrulanamadı — varsa ilk ve nicelik değişir. Gün (24 Ağustos) yalnız Banglapedia'dan; TDV yıl verir (tarih çelişkisi yok). ÇELİŞKİ (iki TDV maddesi): 'Kalküta' başkentliğin sonunu 1912'de, 'Delhi' idarenin Delhi'ye taşınışını 1911'de verir. 1772 (TDV Kalküta: Warren Hastings'in yönetim merkezini Mürşidâbâd'dan Kalküta'ya taşıması) ile 1773 (Banglapedia/TDV Mürşidâbâd) farkı: 1773 yazıldı. Plassey (1757) ve Kalküta'nın Ocak 1757'de geri alınışı TDV 'Kalküta'da yok; günler bu oturumda kaynaklanamadı. kat1900: 1900 listesindeki 'Calcutta' (kat 2)."
+  "ic_not": "Atlas Kalküta'yı 1690-08-24'te başlatır; ilk.t aynı gündür (zincir atlasındır, sahip:[]). 'Kuruluş' İngiliz Doğu Hindistan Şirketi YERLEŞİMİNİN kuruluşudur: üç köy (Sutanuti, Kalikata, Gobindapur) öncesinde vardı ve Kalküta Yüksek Mahkemesi 2003'te Charnock'ın 'kurucu' sayılmaması gerektiğine hükmetti (bu oturumda yalnız arama özetinde görüldü, birincil kaynağı okunmadı); köylerin daha eski yazılı anılışı (ör. Ain-i Ekberî) bu oturumda doğrulanamadı — varsa ilk ve nicelik değişir. Gün (24 Ağustos) yalnız Banglapedia'dan; TDV yıl verir (tarih çelişkisi yok). ÇELİŞKİ (iki TDV maddesi): 'Kalküta' başkentliğin sonunu 1912'de, 'Delhi' idarenin Delhi'ye taşınışını 1911'de verir. 1772 (TDV Kalküta: Warren Hastings'in yönetim merkezini Mürşidâbâd'dan Kalküta'ya taşıması) ile 1773 (Banglapedia/TDV Mürşidâbâd) farkı: 1773 yazıldı. Plassey (1757) ve Kalküta'nın Ocak 1757'de geri alınışı TDV 'Kalküta'da yok; günler bu oturumda kaynaklanamadı. kat1900: 1900 listesindeki 'Calcutta' (kat 2). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. Kapsam: yalnız TDV kaynaklı öğeler; Banglapedia/Majumdar kaynaklı öğeler TDV DIŞI, doğrulanmadı. Not: TDV Kalküta 1912 (Yeni Delhi), TDV Delhi 1911 verir; çelişki kaynakta, mevcut beyan korunur."
  },
  {
   "id": "lahor-pk",
@@ -571,7 +571,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Lahor' (Seyyid Athar Abbas Rizvî), c. 27, İstanbul 2003, s. 57-58, https://islamansiklopedisi.org.tr/lahor (16 Kasım 2026'da okundu; cümle kelimesi kelimesine doğrulandı)",
-   "tanik": "372'de (982) yazılan Hudûdü'l-âlem'de de Lahor'un Mültan emîrinin hâkimiyetinde bulunduğu kaydedilir"
+   "tanik": "372’de (982) yazılan Ḥudûdü’l-ʿâlem’de de Lahor’un Mültan emîrinin hâkimiyetinde bulunduğu kaydedilir"
   },
   "kur": null,
   "ark": null,
@@ -587,7 +587,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Lahor': «Şehir 991'den sonra Hindûşâhîler'in, 1013-1014'te Gazneli Mahmud'un eline geçti.» (aralık verir; başı yazıldı)"
    },
    {
-    "t": "1186-01-01",
+    "t": "1186-03-24",
     "gun": "582 (1186)",
     "k": "fetih",
     "b": "Gur Sultanı Muizzüddin Muhammed Lahor'a hâkim oldu",
@@ -611,7 +611,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Lahor': «1566'da Ekber Şah Lahor Kalesi'nin yeniden inşasını başlattı;» ve «Ekber ayrıca şehrin etrafını on üç kapılı bir surla çevirtmiştir.»"
    }
   ],
-  "ic_not": "Atlas Lahor'u 0982-06-26'da başlatır; hicrî 372 (982-83) ∩ milâdî 982'nin ilk günü (aritmetik sivil takvim, Jülyen, ±2 gün) aynı güne düşer, ilk.t bu yüzden o gündür (kesinlik yıl; tanıklık yılı alt sınırdır, yazım günü değil). Zincir atlasındır (sahip:[]). TDV 'Hâkimiyet' diyor; vasallık düzeyinde olabilir. 'Lahor' adının kökeni TDV'ye göre bilinmiyor (Hindu tarihçiler Ramacandra'nın oğlu Lava/Loh'a bağlar) — ad olarak yazılmadı. 991 sonrası Hindûşâhî dönemi TDV'de 'sonra' ifadesiyle geçer, yıl yok: olay yazılmadı. Sihler: TDV 'XVIII. yüzyılın sonlarından 1850'lere kadar' der (yıl yok, atlasın 1765/1799 günleri TDV'de değil) — olay yazılmadı; 1947 sonrası Pakistan'a katılış TDV'de yalnız '1947'den sonra'."
+  "ic_not": "Atlas Lahor'u 0982-06-26'da başlatır; hicrî 372 (982-83) ∩ milâdî 982'nin ilk günü (aritmetik sivil takvim, Jülyen, ±2 gün) aynı güne düşer, ilk.t bu yüzden o gündür (kesinlik yıl; tanıklık yılı alt sınırdır, yazım günü değil). Zincir atlasındır (sahip:[]). TDV 'Hâkimiyet' diyor; vasallık düzeyinde olabilir. 'Lahor' adının kökeni TDV'ye göre bilinmiyor (Hindu tarihçiler Ramacandra'nın oğlu Lava/Loh'a bağlar) — ad olarak yazılmadı. 991 sonrası Hindûşâhî dönemi TDV'de 'sonra' ifadesiyle geçer, yıl yok: olay yazılmadı. Sihler: TDV 'XVIII. yüzyılın sonlarından 1850'lere kadar' der (yıl yok, atlasın 1765/1799 günleri TDV'de değil) — olay yazılmadı; 1947 sonrası Pakistan'a katılış TDV'de yalnız '1947'den sonra'. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. TARİH UYUŞMUYOR (olay1.t): eski → 1186-03-24. Gur Lahor 582 (1186): 582 h. = 1186-03-24..1187-03-12; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1186-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "multan-pk",
@@ -629,7 +629,7 @@ window.SEHIR_TARIHCE_HINT = [
    "nicelik": "ilk_anilis",
    "kesinlik": "yil",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Mültan' (Azmi Özcan), c. 31, 2020, https://islamansiklopedisi.org.tr/multan (16 Kasım 2026'da okundu; özet okuma): Muhammed b. Kâsım 712'de (94) Mültan'ı fethetti",
-   "tanik": "(özet) Muhammed b. Kâsım es-Sekafî 94/712'de Mültan'ı fethetti"
+   "tanik": "müslümanlar tarafından fethi 94 (712) yılında Sind fâtihi Muhammed b. Kāsım es-Sekafî tarafından gerçekleştirildi"
   },
   "kur": null,
   "ark": null,
@@ -662,7 +662,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Mültan' (özet okuma): 1006 ve 1010 fetihleri; ayrıntı cümle (396/1006, 400/1010) bu oturumda yalnız özet olarak doğrulandı; ÇELİŞKİ: Majumdar VI 1010 verir, TDV esas"
    },
    {
-    "t": "1175-01-01",
+    "t": "1175-07-22",
     "gun": "571 (1175-1176)",
     "k": "fetih",
     "b": "Gurlu Muizzüddin Muhammed b. Sâm Mültan'da kesin Sünnî hâkimiyeti kurdu",
@@ -670,7 +670,7 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "TDV 'Mültan': 571 (1175-76) — aralığın başı yazıldı"
    },
    {
-    "t": "1228-01-01",
+    "t": "1228-11-30",
     "gun": "1228",
     "k": "diger",
     "b": "İltutmuş Mültan'ı Delhi Sultanlığı'nın eyalet merkezi yaptı",
@@ -695,7 +695,7 @@ window.SEHIR_TARIHCE_HINT = [
    }
   ],
   "dikis_beyan": "Atlas Mültan'ı 0903-01-01'de multan-emirligi ile başlatır; 903 TDV'de değil (atlas kaynağı Majumdar VI 'Sind: The Sumras', Saffârî sonu 903 — bu oturumda okunmadı). 903 için ±30 gün olay bulunamadı; yer tutucu olay yazılmadı.",
-  "ic_not": "TDV 'Mültan' en eski olay olarak İskender'in M.Ö. 326 seferini anar ama bu seferin Mültan'a (Malli/Mallî) eşitlendiğini söylemez: yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. İlk güvenli tanık 712 (94). Hicrî 94: aritmetik sivil takvimde 712-10-07…713-09-25; milâdî 712 ile kesişimin ilk günü 712-10-07 (Jülyen, ±2 gün). Sahip dilimi 712-903 __BOSLUK__ (kaynaksız). TDV 'Mültan' tam gövdesi bu oturumda özet olarak okundu (doğrudan alıntı çıkmadı); 1006/1010/1175/1228/1818/1848 tarihleri o özetteki yıllardır — 1848 için 'itibaren' ifadesi, 1849 ilhakı ayrıca yazılmadı. 1750 Dürrânî ve Langah (1451-1527) TDV'de yıl düzeyinde geçer ('c. 1451-1527', 1750); atlasın 1752/1451 uçlarıyla uyumu ölçülmedi."
+  "ic_not": "TDV 'Mültan' en eski olay olarak İskender'in M.Ö. 326 seferini anar ama bu seferin Mültan'a (Malli/Mallî) eşitlendiğini söylemez: yeri kesin olmayan ad eşitlemesi başlangıç sayılmadı. İlk güvenli tanık 712 (94). Hicrî 94: aritmetik sivil takvimde 712-10-07…713-09-25; milâdî 712 ile kesişimin ilk günü 712-10-07 (Jülyen, ±2 gün). Sahip dilimi 712-903 __BOSLUK__ (kaynaksız). TDV 'Mültan' tam gövdesi bu oturumda özet olarak okundu (doğrudan alıntı çıkmadı); 1006/1010/1175/1228/1818/1848 tarihleri o özetteki yıllardır — 1848 için 'itibaren' ifadesi, 1849 ilhakı ayrıca yazılmadı. 1750 Dürrânî ve Langah (1451-1527) TDV'de yıl düzeyinde geçer ('c. 1451-1527', 1750); atlasın 1752/1451 uçlarıyla uyumu ölçülmedi. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: ALINTI DÜZELTİLDİ (ilk.tanik): olgu doğru, önceki alıntı WebFetch özetinden/paraphrase idi; TDV gövdesindeki gerçek cümle yazıldı. TARİH UYUŞMUYOR (olay2.t): eski → 1175-07-22. Mültan Gurlu 571 (1175-76): 571 h. 1175-07-22 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1175-01-01 hicrî yılın dışında kalıyordu; Herat olay5 ile aynı kesişim. TARİH UYUŞMUYOR (olay3.t): eski → 1228-11-30. Mültan İltutmuş 626 (1228): 626 h. 1228-11-30 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1228-01-01 hicrî yılın dışında kalıyordu. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
   "id": "mursidabad-in",
@@ -754,6 +754,6 @@ window.SEHIR_TARIHCE_HINT = [
     "kaynak": "Banglapedia 'Murshidabad': «The transfer of the diwani and the khalsa to Calcutta in 1773»; TDV 'Mürşidâbâd': 1773'te idare merkezi Kalküta'ya taşındı"
    }
   ],
-  "ic_not": "Atlas Murşidâbâd'ı 1704-01-01'de başlatır (kur); bu kaynak ilk anılışı 1621'e çeker (İngiliz acentelerinin 'orada' ipek raporu; cümlede 'there' Makhsudabad olacak yeri gösterir, ad geçmez — ÇOK GÜVENLİ DEĞİL; ad eşitlemesi Banglapedia makalesinin çerçevesine dayanır). Bhavisya Purana'daki 'Morasudabad' (geç XVI. yy, tarihsiz) ve Valentyn haritası (1658-64, 'Moxudabath') tarihsiz/geç tanık olarak yazılmadı. TDV 'Mürşidâbâd': şehir XVI. yy sonlarında Ekber zamanında Bhagirathi'nin doğu yakasında kuruldu, ilk adı Maksûdâbâd (Riyâzü's-selâtîn'e göre tüccar Maksûd Han); Mürşid Kulî Han 1705'te Bengal nevvâbı oldu ve ad bu dönemde Mürşidâbâd'a çevrildi. ÇELİŞKİ: TDV nevvâb olmayı 1705, Banglapedia 1716 verir (ve 1702'de Divan olarak taşıma); TDV esas olduğu için adın değişme yılı 1705 civarı, ama olay yazılmadı (TDV'de gün yok, yalnız 'bu döneme rastlar'). Sahip dilimi 1621-1704 Babür, 1704'te atlas aynı sahiple devralır (dikiş yok). Plassey (1757) TDV'de 'ertesi yıl' bağlamında geçer, tarihi bu oturumda yazılmadı. kat1900: 1900 listesinde yok (Baharampur kat 3 yakın — ayrı yer)."
+  "ic_not": "Atlas Murşidâbâd'ı 1704-01-01'de başlatır (kur); bu kaynak ilk anılışı 1621'e çeker (İngiliz acentelerinin 'orada' ipek raporu; cümlede 'there' Makhsudabad olacak yeri gösterir, ad geçmez — ÇOK GÜVENLİ DEĞİL; ad eşitlemesi Banglapedia makalesinin çerçevesine dayanır). Bhavisya Purana'daki 'Morasudabad' (geç XVI. yy, tarihsiz) ve Valentyn haritası (1658-64, 'Moxudabath') tarihsiz/geç tanık olarak yazılmadı. TDV 'Mürşidâbâd': şehir XVI. yy sonlarında Ekber zamanında Bhagirathi'nin doğu yakasında kuruldu, ilk adı Maksûdâbâd (Riyâzü's-selâtîn'e göre tüccar Maksûd Han); Mürşid Kulî Han 1705'te Bengal nevvâbı oldu ve ad bu dönemde Mürşidâbâd'a çevrildi. ÇELİŞKİ: TDV nevvâb olmayı 1705, Banglapedia 1716 verir (ve 1702'de Divan olarak taşıma); TDV esas olduğu için adın değişme yılı 1705 civarı, ama olay yazılmadı (TDV'de gün yok, yalnız 'bu döneme rastlar'). Sahip dilimi 1621-1704 Babür, 1704'te atlas aynı sahiple devralır (dikiş yok). Plassey (1757) TDV'de 'ertesi yıl' bağlamında geçer, tarihi bu oturumda yazılmadı. kat1900: 1900 listesinde yok (Baharampur kat 3 yakın — ayrı yer). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir. Kapsam: yalnız TDV kaynaklı öğeler; Banglapedia/Majumdar kaynaklı öğeler TDV DIŞI, doğrulanmadı."
  }
 ];
