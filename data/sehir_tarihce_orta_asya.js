@@ -2,6 +2,53 @@
 // Motor/denetle/site OKUMAZ — araştırma birikimi. Elle düzenleme: JSON'u düzelt, yeniden üret.
 window.SEHIR_TARIHCE_ORTA_ASYA = [
  {
+  "id": "akmescid-ua",
+  "ad": "Akmescid (Simferopol)",
+  "atlas_ad": "Akmescid",
+  "lat": 44.9521,
+  "lon": 34.1024,
+  "kat1900": null,
+  "adlar": [
+   "Neapolis (antik, TDV)",
+   "Kirmencik",
+   "Akmescid",
+   "Simferopol"
+  ],
+  "ilk": {
+   "t": "1500-01-01",
+   "gun": "15. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «AKMESCİD» md. (Muzaffer Üreklî), Baskı Tarihi 1989 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/akmescid (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "XV. yüzyılda Kırım Türkleri tarafından da Kirmencik (küçük kale) adlı bir kale inşa edildi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1736-01-01",
+    "gun": "1736",
+    "k": "yikim",
+    "b": "Akmescid ilk defa büyük bir Rus tahribatına uğradı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «AKMESCİD» md. (Muzaffer Üreklî), Baskı Tarihi 1989 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/akmescid (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "İlk defa 1736’da büyük bir Rus tahribatına uğrayan şehir"
+   },
+   {
+    "t": "1784-01-01",
+    "gun": "1784",
+    "k": "idari",
+    "b": "Rus yönetiminde Kırım'ın Tavrida bölgesinin başşehri oldu",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «AKMESCİD» md. (Muzaffer Üreklî), Baskı Tarihi 1989 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/akmescid (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1784’te Kırım’ın Tavrida bölgesinin başşehri oldu"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'XV. yüzyılda Kırım Türkleri Kirmencik kalesini inşa etti ve bölge iskâna açıldı; şehir muhtemelen bu sıralarda kuruldu' der — 'muhtemelen' olduğundan kur yazılmadı, ilk_anilis (güvenli uç 1500-01-01). TDV Strabon'a dayanarak İskit Kralı Skiluros'un burada Neapolis kalesini kurduğunu söyler (MÖ, tarihsiz, antik; yazılmadı). Mengli Giray (ö. 1514) adına cami ve oğlu Mehmed Giray'ın kalgay sultan/merkez yapılması (hanlığının son yılları, gün yok) yazılmadı. Atlas Akmescid'i 1281'de altinorda ile başlatır; TDV ilk iskânı XV. yy'a koyar — atlas başlangıcı düzeltme adayı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
   "id": "almalik-cn",
   "ad": "Almalık",
   "atlas_ad": "Almalık (Almalığ)",
@@ -106,6 +153,70 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Kaynak: TDV 'Alma Ata' TAM METİN (Mustafa L. Bilge). Çift teyit YOK. TDV: 'Şimdiki yerleşim merkezi, Almatı denilen eski Kazak yerleşim yeri üzerinde bulunmaktadır' — bu eski yerleşimin tarihi TDV'de YOK; ilk.t kuruluş (Verniy kalesi 1854). Atlas 'Almatı (Vernıy)'ı 1281 cagatay ile başlatır; şehir 1854 → sahip:[], 'atlas başlangıcı düzeltilmeli'. TDV: 1887 ve 1911 depremleri (günsüz), 1930 Türkistan-Sibirya demiryolu istasyonu, 1934/1945 kurumlar zincire bağlanmadı."
+ },
+ {
+  "id": "anapa-ru",
+  "ad": "Anapa",
+  "atlas_ad": "Anapa",
+  "lat": 44.894,
+  "lon": 37.316,
+  "kat1900": null,
+  "adlar": [
+   "Gorkipaya (TDV)",
+   "Napa",
+   "Anapa"
+  ],
+  "ilk": {
+   "t": "1400-01-01",
+   "gun": "14. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "XIII ve XIV. yüzyıllarda önce Gorkipaya adlı Bizans kolonisi iken"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1791-07-26",
+    "gun": "26 Temmuz 1791",
+    "k": "fetih",
+    "b": "Üç kuşatmanın sonunda Anapa Kalesi Ruslar tarafından işgal edildi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "26 Temmuz 1791’de işgal edildi"
+   },
+   {
+    "t": "1792-01-10",
+    "gun": "10 Ocak 1792",
+    "k": "antlasma",
+    "b": "Yaş Antlaşması ile Kafkasya'da eski sınırlar kabul edildiğinden Anapa Osmanlı Devleti'ne geri verildi",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Yaş Antlaşması ile (10 Ocak 1792) Kafkasya’da eski sınırlar kabul edildiğinden"
+   },
+   {
+    "t": "1828-06-24",
+    "gun": "24 Haziran 1828",
+    "k": "fetih",
+    "b": "Kale komutanı Osman Paşa Anapa'yı Ruslar'a teslim etti",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Osman Paşa 24 Haziran 1828’de Ruslar’a teslim oldu"
+   },
+   {
+    "t": "1829-01-01",
+    "gun": "1829",
+    "k": "kayip",
+    "b": "Edirne Antlaşması ile Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ANAPA» md. (Cengiz Fedakar), Baskı Tarihi 2020 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/anapa (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1829 Edirne Antlaşması ile de Anapa ve Kafkasya Osmanlı hâkimiyetinden çıktı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'nin tek erken dayanağı yüzyıl düzeyindedir ('XIII ve XIV. yüzyıllarda ... Gorkipaya adlı Bizans kolonisi, sonra Ceneviz ticaret iskelesi ve kalesi'); güvenli uç (XIV. yy sonu) 1400-01-01 alındı. Anapa'nın yerinde antik Gorgippia vardır; TDV'nin 'Bizans kolonisi' ifadesi olduğu gibi aktarıldı, antik/ortaçağ ayrımı ve 3 km sınaması yapılmadı. TDV: Fâtih dönemi Gedik Ahmed Paşa seferiyle Osmanlı ilgisi başladı (yıl yok → yazılmadı); Anapa Kalesi Ferah Ali Paşa eliyle Soğucak'a benzer inşa edildi (1783-1786'da tamamlandı, aralık → yazılmadı); 1809 sonbaharında Rus saldırısı ve Bükreş Antlaşması (16 Mayıs 1812) ile Kuban hududu → şehre özgü teslim günü verilmediğinden olay yazılmadı. TDV 1853-56 Kırım Savaşı'nda kalenin müttefikler tarafından yıkıldığını söyler (gün yok). Atlas Anapa'yı 1281'de altinorda ile başlatır; TDV bunu desteklemez, çürütmez. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
   "id": "andican-uz",
@@ -254,6 +365,95 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Kaynak: TDV 'Aşkābâd' TAM METİN (Sargon Erdem). Çift teyit YOK. ilk.t: TDV obanın daha eski varlığını belirtir ama tarih vermez; ilk TARİHLİ olgu 1881 (Rus ele geçirmesi ve şehirleştirme). Atlas Aşkabad'ı 1881-01-30 rusya ile başlatır; TDV yalnız yıl der → dilim BOŞLUK ve 1881 olayı ±30 gün içinde. Atlas Nesâ (17 km batı) ile ayrı kayıttır. TDV: Aralık 1917 Bolşevik yönetim, Temmuz 1918 karşı-devrimcilerin eline geçiş (Beyaz Rus-Türkmen), Kızıl Ordu'nun geri alışı (tarihsiz), 1919 Poltoratsk adı (TDV 'Poltoratsk'ın adıyla değiştirildi', yıl yazılmaz; 1927'de ad geri döndü) zincire bağlanmadı."
+ },
+ {
+  "id": "babadagi-ro",
+  "ad": "Babadağı (Babadag)",
+  "atlas_ad": "Babadağı (Babadag)",
+  "lat": 44.8917,
+  "lon": 28.7169,
+  "kat1900": null,
+  "adlar": [
+   "Babadağı"
+  ],
+  "ilk": {
+   "t": "1416-01-01",
+   "gun": "1416",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Osmanlı hâkimiyetine girdi (819/1416)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1416-01-01",
+    "gun": "1416 (hicrî 819)",
+    "k": "ilhak",
+    "b": "Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea'yı mağlûp etmesinden sonra Babadağı ve çevresi Osmanlı hâkimiyetine girdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Osmanlı hâkimiyetine girdi (819/1416)"
+   },
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "diger",
+    "b": "Kanûnî Sultan Süleyman Boğdan seferi sırasında Babadağı'nda birkaç gün kaldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Boğdan seferi sırasında (1538) burada birkaç gün kalmış"
+   },
+   {
+    "t": "1771-11-01",
+    "gun": "Kasım 1771",
+    "k": "fetih",
+    "b": "Ruslar Babadağı'nı geçici bir zaman için işgal etti",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "ilk defa Kasım 1771’de Babadağı’nı geçici bir zaman için işgal ettiler"
+   },
+   {
+    "t": "1774-01-01",
+    "gun": "1774",
+    "k": "antlasma",
+    "b": "Küçük Kaynarca Antlaşması'yla Babadağı yeniden Osmanlılar'ın eline geçti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1774 Küçük Kaynarca Antlaşması’yla tekrar Osmanlılar’ın eline geçen Babadağı"
+   },
+   {
+    "t": "1809-01-01",
+    "gun": "1809",
+    "k": "fetih",
+    "b": "1809 Osmanlı-Rus savaşı sırasında Babadağı yine Ruslar'ın eline düştü",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1809 Osmanlı-Rus savaşları sırasında yine Ruslar’ın eline düşen Babadağı 1812’de geri alındı"
+   },
+   {
+    "t": "1812-01-01",
+    "gun": "1812",
+    "k": "fetih",
+    "b": "Babadağı 1812'de Rusların elinden geri alındı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1809 Osmanlı-Rus savaşları sırasında yine Ruslar’ın eline düşen Babadağı 1812’de geri alındı"
+   },
+   {
+    "t": "1878-01-01",
+    "gun": "1878",
+    "k": "kayip",
+    "b": "Berlin Antlaşması ile Dobruca Romanya'ya terkedilince Babadağı Osmanlı Devleti'nden ayrıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BABADAĞI» md. (M. Münir Aktepe), Baskı Tarihi 1991 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/babadagi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1878 Berlin Antlaşması ile Dobruca bölgesinin Romanya’ya terkedilmesi üzerine Osmanlı Devleti’nden ayrıldı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Babadağı'nın XIV. yy başlarında Sarı Saltuk Türkmenleri'nin göçü bağlamında Türkmenlerce yurt edinildiğini 'anlaşılır' diye çıkarım olarak verir (tanık sayılmadı); ilk TARİHLİ tanık 819/1416 Osmanlı hâkimiyeti (TDV mîlâdî karşılığı 1416 verir; hicrî 819'un kesişim ilk günü gerekmedi, yıl düzeyi 1416-01-01). Atlas Babadağı'nı 1281'de altinorda ile başlatır; TDV'nin 1416 öncesi sahip tanığı yok, zincir atlasa bırakıldı (öneri: 1416 Osmanlı geçişi atlas dönemine kaynaklı eklenebilir: Çelebi Mehmed). 1594-1596 Mihai Viteazul yağması, 1773 yazı yakıp yıkma ve IV. Murad/Evliya Çelebi bilgileri aralık/tarihsiz olduğundan yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
   "id": "belh-af",
@@ -534,6 +734,42 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Kaynak: TDV 'Çimkent' TAM METİN (Mehmet Saray). Çift teyit YOK. ilk.t: TDV 'ne zaman kurulduğu bilinmemektedir' der; Nizâmüddin Şâmî'nin Zafernâme'sinde adı Çîkend, Sayram yakınında küçük köy (s. 57) — Zafernâme'nin yılı TDV'de verilmediğinden YAZILMADI. 'XVI ve XVII. yüzyıllarda büyük köy ve kale' → yüzyıl aralığının SON ucu (17. yy sonu, t=1699). TDV: 1700'lerde Hokand Hanlığı'nın kurulmasıyla gelişti (yüzyıl düzeyi), sonra Buhara emîrinin Hokand'a saldırısı üzerine 'şehri teslim etmek zorunda kaldılar' — Rus işgal yılı/günü TDV metninde YAZILMIYOR (7 Temmuz 1864 hücum günüdür; teslim günü uydurulmadı). Atlas 1281 cagatay ile başlar → sahip:[], 'atlas başlangıcı düzeltilmeli' uyarısı beklenir."
  },
  {
+  "id": "eski-kirim-solhat-ua",
+  "ad": "Eski Kırım (Solhat)",
+  "atlas_ad": "Eski Kırım (Solhat)",
+  "lat": 45.0281,
+  "lon": 35.1078,
+  "kat1900": null,
+  "adlar": [
+   "Solhat",
+   "Eski Kırım"
+  ],
+  "ilk": {
+   "t": "1340-12-31",
+   "gun": "1313-1340 (Özbek Han dönemi)",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «ÖZBEK HAN CAMİİ» md. (Nicole Kançal-Ferrari), Baskı Tarihi 2007 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/ozbek-han-camii (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Eski Kırım (Solhat) şehrinde Altın Orda hükümdarı Özbek Han döneminde (1313-1340) inşa edilmiştir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1340-12-31",
+    "gun": "1313-1340 (Özbek Han dönemi)",
+    "k": "diger",
+    "b": "Altın Orda hükümdarı Özbek Han döneminde (1313-1340) Solhat'ta Özbek Han Camii inşa edildi (güvenli uç: dönem sonu)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «ÖZBEK HAN CAMİİ» md. (Nicole Kançal-Ferrari), Baskı Tarihi 2007 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/ozbek-han-camii (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Eski Kırım (Solhat) şehrinde Altın Orda hükümdarı Özbek Han döneminde (1313-1340) inşa edilmiştir"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: 'Özbek Han döneminde (1313-1340)' aralığıdır; güvenli uç (dönemin son yılı) 1340-12-31 alındı (inşa gününün daha erken olabileceği beyan edilir). TDV «Kırım» md.: Memlük tüccarlarının Solhat'ta Sultan Baybars Camii yaptırdığı (tarihsiz), İbn Battûta'nın Solhat'ı anması (yıl yok) ve Evliya Çelebi'nin açıklamaları yazılmadı. Atlas Eski Kırım'ı 1281'de altinorda ile başlatır (ilk.t sonra). Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
   "id": "gazne-af",
   "ad": "Gazne",
   "atlas_ad": "Gazne",
@@ -640,6 +876,62 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Kaynak: TDV 'Gazne' (özet okuma). Kısmî çift teyit (YALNIZ yıl, gün DEĞİL): Encyclopaedia Iranica 'Alptigin' maddesi 351/962 verir (web arama özeti; sayfa 403 olduğundan okunamadı); 351 H = Şubat 962-Ocak 963 ve TDV'nin 13 Zilhicce 351 = 12 Ocak 963'ü ile uyumlu; Iranica 'Ḡazni i' ayrıca 961/966 farkı anar (Bosworth, Ghaznavids atfıyla) — gün için TDV esastır. ilk: TDV'de en eski tarih 'VIII. yüzyıl başı' (Çinli seyyah Huei-ch'ao ziyareti); gün/yıl yok → yüzyıl kesinliği (t=0701 yüzyıl başı). Kuruluş TDV'de 'milâttan önce, arkeolojik kazılara göre' (yıl yok), kur yazılmadı. Atlas Gazne'yi 0500'de eftalit ile başlatır; 701 > 500 → sahip:[] (atlas zinciri esas), atlas 500-963 dilimi (eftalit→__BOSLUK__) TDV'de tarihsiz (Baktria/Yuezhi/Saka/Akhun; IX. yy Saffârî nüfuzu); Gazneli 963-1186 aralığı TDV'de var ('Gazneliler zamanında yaşadı (963-1186)'). Olay gün hesabı: 12 Ocak 963 ve 26 Ekim 965 TDV'nin verdiği Jülyen güneler; 545 H ∩ 1150-51: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 965 olayında öznenin Ebû Ali'den geri alma anlatımı özetleyiciden; TDV özet doğrulaması sınırlı. Alt bölge adı Zâbülistan bölge adıdır, şehir adı olarak yazılmadı. Sebük Tegin dönemi, Oğuz/Yıldız/Celâleddin vb. TDV'de tarihsiz — yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+ },
+ {
+  "id": "hami-kumul-cn",
+  "ad": "Hâmi (Kumul)",
+  "atlas_ad": "Hâmi (Kumul)",
+  "lat": 42.828,
+  "lon": 93.515,
+  "kat1900": null,
+  "adlar": [
+   "Igu (TDV: ipek yolu ilk adı)",
+   "Hami",
+   "Komul",
+   "Kumul"
+  ],
+  "ilk": {
+   "t": "1868-01-01",
+   "gun": "1868",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «TURFAN» md. (Ahmet Taşağıl), Baskı Tarihi 2012 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/turfan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1866’da Hoten’i, 1867’de Kuça’yı ele geçirdikten sonra 1868’de Turfan ve Kumul’u kendine bağladı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1868-01-01",
+    "gun": "1868",
+    "k": "fetih",
+    "b": "Yâkub Beg Turfan ile birlikte Kumul'u kendine bağladı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «TURFAN» md. (Ahmet Taşağıl), Baskı Tarihi 2012 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/turfan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1866’da Hoten’i, 1867’de Kuça’yı ele geçirdikten sonra 1868’de Turfan ve Kumul’u kendine bağladı"
+   },
+   {
+    "t": "1877-01-01",
+    "gun": "1877 (bahar)",
+    "k": "fetih",
+    "b": "Çin ordusu (General Zuo Zontang ve Liu Cintang, 1877 baharı) Kumul ve Urumçi'yi işgal etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «YÂKUB BEG» md. (Muallâ Uydu Yücel), Baskı Tarihi 2013 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/yakub-beg (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Kumul ve Urumçi’yi işgal edip Kâşgar’a doğru ilerlemeye başlayınca"
+   },
+   {
+    "t": "1931-01-01",
+    "gun": "1931",
+    "k": "isyan",
+    "b": "Doğu Türkistan Türkleri Kumul'da (Hami) direniş başlattı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1931’de Kumul’da (Hami) bir direniş başlattılar"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV'de Hami'ye özgü en erken TARİHLİ tanık 1868'dir (Turfan md.); 'Timur'un elçilerinin Hami taraflarında Budist manastır yanında cami' ve 'Çin'den ilk meskûn nokta Igu/Hami (Komul)' (İpek Yolu md.) tarihsizdir ve yazılmadı. 1877 olayında 'baharında' gün vermediğinden yıl düzeyi (1877-01-01) alındı; tanık cümlesi 1877 baharını önceki cümleden (Çin'in Mançu hükümetinin 1877 baharında ... yolladığı ordu) devralır. Atlas Hâmi'yi 1281-01-01'de yuan-hanedani ile başlatır; TDV'nin Hami'ye özgü Yuan/Çağatay tanığı yok. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
   "id": "herat-af",
@@ -872,6 +1164,97 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Tek kaynak TDV 'Hokand' (WebFetch özet aracı). Çift teyit yok. TDV kuruluş tarihi vermez: 'Şehrin ne zaman kurulduğu hakkında bir bilgi bulunmamakla beraber' (alıntı aracın verdiği); ilk anılış X. yy, güvenli uç 0999-01-01 (yuzyil). Hokand Hanlığı'nın 1710 başlangıcı ve Şahruh Bî TDV 'Hokand' maddesinde YOK (fetch sonucu: yalnız 'XVIII. yüzyılın ortalarından sonra Özbek Ming hânedanının' başşehri) → yazılmadı; atlas kd 1710 kaynak bu oturumda doğrulanamadı. Atlas 0500'de başladığı için sahip:[]. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+ },
+ {
+  "id": "hotan-cn",
+  "ad": "Hotan (Hoten)",
+  "atlas_ad": "Hotan",
+  "lat": 37.117,
+  "lon": 79.928,
+  "kat1900": null,
+  "adlar": [
+   "Yotkan (TDV: ilk ad)",
+   "Hoten",
+   "Hotan"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya on beş günlük mesafede olduğunu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1128-01-01",
+    "gun": "1128",
+    "k": "savas",
+    "b": "Karahıtaylar bölgeye ilk defa hücum edip Hoten'e de saldırdı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Bölgeye ilk defa 1128 yılında hücum eden Karahıtaylar Hoten ile birlikte İmil, Balasagun ve Kâşgar’a da saldırdılar"
+   },
+   {
+    "t": "1266-01-01",
+    "gun": "1266",
+    "k": "savas",
+    "b": "Kubilay ile Barak Han mücadeleleri sırasında Hoten Çağatay kuvvetlerince yağmalandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Kubilay ile Çağatay Hükümdarı Barak Han arasındaki mücadeleler sırasında Hoten Çağatay kuvvetlerince yağmalandı (1266)"
+   },
+   {
+    "t": "1270-01-01",
+    "gun": "1270 yılları",
+    "k": "diger",
+    "b": "Hoten Kubilay Han'a bağlıydı (Yârkend Çağatay Hükümdarı Kaydu Han'a)",
+    "kesinlik": "onyil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1270 yıllarında Hoten Kubilay Han’a, Yârkend ise Çağatay Hükümdarı Kaydu Han’a bağlı idi"
+   },
+   {
+    "t": "1422-05-18",
+    "gun": "18 Mayıs 1422",
+    "k": "diger",
+    "b": "Şâhruh'un Çin'e gönderdiği elçi Gıyâseddin Nakkaş dönüşünde Hoten'e ulaştı",
+    "kesinlik": "gun",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "18 Mayıs 1422’de Hoten’e, 13 Haziran’da da Kâşgar’a ulaşmıştı"
+   },
+   {
+    "t": "1866-01-01",
+    "gun": "1866",
+    "k": "fetih",
+    "b": "Yâkub Beg Hoten'i ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «YÂKUB BEG» md. (Muallâ Uydu Yücel), Baskı Tarihi 2013 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/yakub-beg (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Yenihisar’ı, Kâşgar Yenişehiri’ni, Yârkend ve Hoten’i ele geçirdi (1866)"
+   },
+   {
+    "t": "1848-01-01",
+    "gun": "1848",
+    "k": "kayip",
+    "b": "Hoten yeniden Çinliler'in eline düştü",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Hoten Çin hâkimiyetinden tekrar kurtulma imkânı bulduysa da 1848’de yeniden Çinliler’in eline düştü"
+   },
+   {
+    "t": "1877-01-01",
+    "gun": "1877",
+    "k": "isyan",
+    "b": "Yâkub Beg'in ölümü üzerine Hoten Valisi Niyaz Beg bağımsızlığını ilân etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1877’de Yâkub Beg’in ölümü üzerine Hoten Valisi Niyaz Beg bağımsızlığını ilân etti"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'Gerdîzî (XI. yy) Hoten'in Çin sınırında büyük bir şehir olduğunu ... anlatır' — yüzyıl düzeyi, güvenli uç 1100-01-01. TDV ayrıca Hoten'in eski adının Yotkan olduğunu, MÖ II. yy Çin etkisini ve 8,5 km batıdaki harabelerde (modern Hoten'in 8,5 km batısı → >3 km; antik yer BU kayda alınmadı, ayrı kayıt önerilir) Budist kalıntıları söyler (tarihsiz). Yâkub Beg tarihinde TDV 1866 (Yâkub Beg md.) ve 1866-1867 (Hoten md.) der; 1866 alındı. 1877 olayı kısa süreli bağımsızlık ve Ekim 1877 geri alınış (zincir açmadı). Atlas Hotan'ı 500-01-01'de khotan ile başlatır (khotan künyesi 1006'ya kadar); TDV'nin 1100'deki tanığı atlas başlangıcından sonradır. Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
   "id": "hucend-tj",
@@ -1170,6 +1553,77 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Kaynak: TDV 'Karakorum' (özet okuma). Çift teyit YOK (Atwood/Rossabi erişilmedi). KONUM: bu kayıt MOĞOL şehri içindir (1220); atlas noktası (47.198, 102.833) Erdene Zuu/Harhorin Moğol şehri alanındadır (<3 km). TDV'nin Uygur dönemi şehri (Bögü Kağan 759-779; X. yy'da harabe; 'Ordubalık/Mubalık') ayrı bir yerdir (atlas 'Ordu-Balık', ~47.41, 102.63, ~25 km KB) → ayrı kayıt olarak ÖNERİLİR (Ordu-Balık yazılmadı; 759-779 kuruluş TDV'de 'tarafından', gün yok). Atlas Karakurum'u 0500-01-01'de başlatır (__BOSLUK__→göktürk…) ve 1380'de bitirir: 1220 öncesi bu noktada Moğol Karakurum'u yoktur — atlas başlangıcı 1220'ye çekilmeli (öneri, atlas referans değildir). Atlas bit=1380; TDV 1388'de Ming yağması verir, terk günü TDV'de yok. Zincir yazılmadı (1220 > 500, sahip:[]); Karakurum'un sahipleri Moğol İmparatorluğu → Yuan → Kuzey Yuan künyeleri ile örtüşür ama TDV 'XVI. yy'da Dayan Han başkent yaptı; sonra Börçigin/Oyrat el değiştirdi' tarihsiz olduğundan yazılmadı. 1235 sur/saray ('ertesi yıl'), 1260 'aynı yıl Arıkboğa' çıkarım/türetme; yazılmadı. TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
+  "id": "karasubazar-ua",
+  "ad": "Karasubazar (Belogorsk)",
+  "atlas_ad": "Karasubazar",
+  "lat": 45.0556,
+  "lon": 34.6,
+  "kat1900": null,
+  "adlar": [
+   "Karasubazar"
+  ],
+  "ilk": {
+   "t": "1300-01-01",
+   "gun": "13. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Karasubazar adıyla en geç XIII. yüzyıldan itibaren bir yerleşim yeri olarak mevcut olduğu bilinmektedir"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1655-01-01",
+    "gun": "1655",
+    "k": "diger",
+    "b": "Hanın başağası Sefer Gazi Ağa Büyük Taşhan'ı yaptırdı (kitâbede hicrî 1065)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "hanın başağası Sefer Gazi Ağa tarafından 1065 (1655) yılında yaptırılmıştı"
+   },
+   {
+    "t": "1727-01-01",
+    "gun": "1727",
+    "k": "diger",
+    "b": "II. Mengli Giray Han Han Camii'ni ve bitişiğindeki tekkeyi inşa ettirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "tekkeyi ise 1727’de II. Mengli Giray Han inşa ettirmişti"
+   },
+   {
+    "t": "1736-01-01",
+    "gun": "1736",
+    "k": "idari",
+    "b": "Bahçesaray'ın Rus ordusunca istilâ ve tahribi üzerine Feth Giray Han başşehrini geçici olarak Karasubazar'a taşıdı (yıl aynı cümlede: 1736)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Feth Giray Han geçici olarak başşehrini Karasubazar’a taşımış"
+   },
+   {
+    "t": "1737-08-01",
+    "gun": "Ağustos 1737",
+    "k": "savas",
+    "b": "Douglas komutasındaki Rus birlikleri Karasubazar'a hücum edip büyük tahribata sebep oldu",
+    "kesinlik": "ay",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "General Douglas’ın idaresindeki Rus birlikleri Ağustos 1737’de Karasubazar’a hücum ederek"
+   },
+   {
+    "t": "1783-01-01",
+    "gun": "1783",
+    "k": "ilhak",
+    "b": "Katerina'nın Kırım'ın Rusya'ya ilhakına dair 1783 tarihli fermanı (Karasubazar Beyannâmesi) burada ilân edildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KARASUBAZAR» md. (Hakan Kırımlı), Baskı Tarihi 2001 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/karasubazar (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1783 tarihli fermanının (Karasubazar Beyannâmesi) General Potemkin tarafından ilân edildiği yer"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV 'en geç XIII. yüzyıldan itibaren' der (yüzyıl düzeyi; güvenli uç 1300-01-01). 1736 olayının yılı TDV cümlesinin başındadır ('1736’da Bahçesaray’ın ... istilâ ... üzerine Feth Giray Han ...'), tanık 15 kelimeyi aşmamak için cümlenin ikinci yarısıyla sınırlandı. 1783 ferman günü TDV'de yok (yıl). Atlas Karasubazar'ı 1281'de kirim değil altinorda ile başlatır olarak ölçüldü; TDV Kırım Hanlığı devrini şehrin asıl yükselişi sayar. 1624-1675 Zaporog baskınları (aralık) ve 1944 sürgün (bölgesel) yazılmadı. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
   "id": "kasgar-cn",
   "ad": "Kâşgar",
   "atlas_ad": "Kaşgar",
@@ -1299,6 +1753,133 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Kaynak: TDV 'Kâşgar' (özet okuma; parçalar ayrı bir ikinci okumada özetleyicinin sayfadan verdiği alıntılardır). Çift teyit YOK (Millward/Iranica/Hotan-Kâşgar akademik kaynakları bu oturumda erişilemedi/aranmadı). ilk=715: TDV'de en eski TARİHLİ olgu. TDV 'şehrin tarihi Han hânedanına (MÖ 206-MS 220) kadar gider' ve Çin kaynaklarında Han'dan Tang'a (618-907) 'Şule' adıyla anıldığını söyler — tarihsiz (aralık) olduğundan ilk olarak yazılmadı; gerçek en eski anılış bu olabilir (Han shu, okunamadı). Atlas Kaşgar'ı 0500-01-01'de kasgar-shule ile başlatır (715 > 500 → sahip:[], atlas zinciri esas); 500-715 dilimi bu kayıtta doğrulanmadı. TDV 629'dan beri Çin hâkimiyeti der (715'te Kuteybe 'Çinlilerden aldı') — atlas 'tang' 649-692 ile uyum ayrıca ölçülmeli. Hicrî olaylar: Hicrî→mîlâdî: TDV'nin verdiği mîlâdî yıl ile hicrî yılın kesişiminin ilk günü, tablo takvimiyle (Jülyen, ±1-2 gün); kesinlik yıl. 1130 olayı türetmedir (1128 + 'iki yıl sonra'); TDV '1130' yazmaz → kesinlik belirsiz. 1499/1514 için TDV iki yıl verir, güvenli uç 1514. Satuk Buğra (955) yönetici ölümüdür, devir değil. Karahanlı dönemi (Kâşgar siyasî-kültürel merkez; Togan Han; 405/1014 sikke) TDV'de var ama sahip zinciri açılmadığından olay yazılmadı. Atlas ek: kat1900=3 (LISTE.tsv 'Shuleh (Kashgar)'). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
+ },
+ {
+  "id": "kuca-cn",
+  "ad": "Kuça (Kuqa)",
+  "atlas_ad": "Kuça (Kuqa)",
+  "lat": 41.717,
+  "lon": 82.962,
+  "kat1900": null,
+  "adlar": [
+   "Kücâ",
+   "Kuça"
+  ],
+  "ilk": {
+   "t": "1100-01-01",
+   "gun": "11. yüzyıl",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yuzyil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «HOTEN» md. (Ahmet Taşağıl), Baskı Tarihi 1998 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/hoten (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Gerdîzî ise Hoten’in Çin sınırında büyük bir şehir olan Kücâ’ya on beş günlük mesafede olduğunu"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1867-01-01",
+    "gun": "1867",
+    "k": "fetih",
+    "b": "Yâkub Beg Kuça'yı ele geçirdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «TURFAN» md. (Ahmet Taşağıl), Baskı Tarihi 2012 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/turfan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1866’da Hoten’i, 1867’de Kuça’yı ele geçirdikten sonra 1868’de Turfan ve Kumul’u kendine bağladı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Hoten» md. Gerdîzî'nin (XI. yy müellifi) Hoten'in 'Çin sınırında büyük bir şehir olan Kücâ'ya' 15 günlük mesafede olduğunu yazdığını aktarır — yüzyıl düzeyi (güvenli uç 1100-01-01); alıntı Hoten'in mesafesi cümlesinden, Kücâ'nın 'büyük şehir' tanığıdır. TDV «Turfan» md.: Yâkub Beg 1867'de Kuça'yı ele geçirdi; «Yâkub Beg» md. Aksu-Kuça-Karaşehir alımını 1867 hükümdarlık ilanıyla birlikte verir. TDV'de 'Kuça' ayrı madde bulunamadı (arama noktaları: Kuça sorgusu alakasız). Atlas Kuça'yı 500-01-01'de kuca künyesiyle başlatır (kuca 649'da biter). Atlas bu noktayı 500-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
+  "id": "mankup-ua",
+  "ad": "Mankup (Mangub)",
+  "atlas_ad": "Mankup",
+  "lat": 44.5942,
+  "lon": 33.8044,
+  "kat1900": null,
+  "adlar": [
+   "Mangub",
+   "Mankup"
+  ],
+  "ilk": {
+   "t": "1629-01-01",
+   "gun": "1629",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1629’da Karasubazar, Mangub yağmalandı ve yakıldı"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1629-01-01",
+    "gun": "1629",
+    "k": "yikim",
+    "b": "Mangub (Mankup), Karasubazar ile birlikte yağmalandı ve yakıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1629’da Karasubazar, Mangub yağmalandı ve yakıldı"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi: TDV «Kırım» md.'nin 'Mangub' kaydı atlasın Mankup (Mangup) noktasıyla aynı yer sayıldı (TDV 'Mangub'u Kırım güney kıyı/dağ yerleşmesi olarak anar; ayrı koordinat TDV'de yok) — kesin olmayan eşitleme olarak beyan edilir. ilk.t TDV'nin bu maddedeki ilk TARİHLİ tanığıdır (Evliya Çelebi'nin XVII. yy açıklamaları ve 'kıyı boyunca Mangub ... Osmanlı bölgesinde kaldı' tarihsiz, yazılmadı). Mankup'un Hristiyan/Gotia dönemi TDV'de yok. Atlas 1281'de altinorda ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
+  "id": "sehrisebz-kes-uz",
+  "ad": "Şehrisebz (Keş)",
+  "atlas_ad": "Şehrisebz (Kiş)",
+  "lat": 39.058,
+  "lon": 66.833,
+  "kat1900": null,
+  "adlar": [
+   "Keş",
+   "Kiş",
+   "Şehrisebz"
+  ],
+  "ilk": {
+   "t": "1380-01-01",
+   "gun": "1380",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «KEŞ» md. (Ahmet Taşağıl), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kes (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Yapılan binaların en dikkat çekicisi 1380 tarihli Ak Saray’dır"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1380-01-01",
+    "gun": "1380",
+    "k": "diger",
+    "b": "Timur döneminde şehirde Ak Saray yapıldı (1380 tarihli)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KEŞ» md. (Ahmet Taşağıl), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kes (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Yapılan binaların en dikkat çekicisi 1380 tarihli Ak Saray’dır"
+   },
+   {
+    "t": "1387-01-01",
+    "gun": "1387",
+    "k": "savas",
+    "b": "Şehir Altın Orda Hanı Toktamış tarafından yağma edildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KEŞ» md. (Ahmet Taşağıl), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kes (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1387’de şehir Altın Orda Hanı Toktamış tarafından yağma edildi"
+   },
+   {
+    "t": "1437-01-01",
+    "gun": "1437",
+    "k": "diger",
+    "b": "Uluğ Bey Kök-Gumbaz Camii'ni yaptırdı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KEŞ» md. (Ahmet Taşağıl), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kes (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1437’de Uluğ Bey’in yaptırdığı Kök-Gumbaz Camii"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV Keş'in Orta Çağ başı tarihi (Mühelleb b. Ebû Sufre karargâhı, 780'li yıllarda Türgiş/Karluk gelişi, 617/1220 Moğol teslimi) tarihsiz-onyıl-çıkarımdır ('herhalde teslim olmasıdır' — tanık sayılmadı); TDV 1220'yi bir sebep olarak çıkarımla verir, olgu değildir. 1865 Rus ele geçirmesi ve 1860 Buhara Hanı Nasrullah Han ifadeleri TDV'de vardır ancak literatürde Rus ele geçirmesi 1870 olarak anıldığından (ikinci TDV/akademik kaynak sınanmadı) YAZILMADI. 1404 'tekrar buraya gelerek' cümlesinin öznesi (Timur) cümlede açık olmadığından yazılmadı. Atlas Şehrisebz'i 1281-01-01'de cagatay ile başlatır; TDV'nin 1281-1380 arası Çağatay hanlarına kışlak vazi... ifadesi tarihsizdir. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  },
  {
   "id": "semerkant-uz",
@@ -1464,6 +2045,87 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
   "ic_not": "Tek kaynak TDV 'Serahs' (WebFetch özet aracı). Çift teyit yok. TDV kuruluşu 'milâttan önce VI-IV. yüzyıllarda Persler devrinde kurulduğu tahmin edilmektedir' diye verir: tahmin, yazılı tanık/kuruluş tarihi değil → kur/ark yazılmadı; ilk anılış olarak fetih tarihi (651-52, aralığın son ucu) alındı, daha eski tanık bulunamadı. Atlas Serahs'ı 0500'den başlatır → sahip:[]. 'Serahs' adının kökeni TDV'de Serahs b. Hûzrez iktâsı olarak anlatılır (tarihsiz). Atlas'ta TDV Serahs'tan alıntı zaten vardır; 1157/1193 olayları Serahs'a özgü sahip değişimi değil bölge olaylarıdır (Sencer ölümü sonrası Oğuz hâkimiyeti dilimi TDV'de yıl vermiyor). TDV alıntıları tam metne karşı doğrulandı (tarayıcı, 16 Kasım 2026). Uyuşmayanlar: TARİH UYUŞMUYOR (olay0.t): eski → 1157-02-13. Serahs 552 (1157): 552 h. 1157-02-13 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1157-01-01 hicrî yılın dışında kalıyordu; Herat olay4 ile aynı kesişim. TARİH UYUŞMUYOR (olay2.t): eski → 1221-02-25. Serahs 618 (1221): 618 h. 1221-02-25 başlar; Hicrî ∩ milâdî kesişim ilk günü (aritmetik sivil takvim ±2 gün); eski 1221-01-01 hicrî yılın dışında kalıyordu; Herat olay7 ile aynı kesişim. Önceki notlardaki \"WebFetch özeti / özet okuma / paraphrase / tam metinle karşılaştırılmadı\" ifadeleri bu doğrulamayla giderilmiştir."
  },
  {
+  "id": "sucava-ro",
+  "ad": "Suçava (Suceava)",
+  "atlas_ad": "Suçava (Suceava)",
+  "lat": 47.633,
+  "lon": 26.25,
+  "kat1900": null,
+  "adlar": [
+   "Suceava",
+   "Suçava"
+  ],
+  "ilk": {
+   "t": "1538-01-01",
+   "gun": "1538",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «BOĞDAN» md. (Abdülkadir Özcan), Baskı Tarihi 1992 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/bogdan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "padişah Boğdan seferine çıkmak zorunda kalmış (1538) ve bu sefer sırasında Suceava zaptedilerek"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1538-01-01",
+    "gun": "1538",
+    "k": "fetih",
+    "b": "Kanûnî'nin Boğdan seferi sırasında Suceava zaptedildi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «BOĞDAN» md. (Abdülkadir Özcan), Baskı Tarihi 1992 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/bogdan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "padişah Boğdan seferine çıkmak zorunda kalmış (1538) ve bu sefer sırasında Suceava zaptedilerek"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: TDV «Boğdan» md. Fâtih'in Boğdan seferinde (Vaslui'den 'ertesi yıl') Suceava'ya girdiğini ama kalesini alamadığını anlatır; yıl cümlede yoktur (yalnız 'ertesi yıl') → yazılmadı, 1538 en erken TARİHLİ tanık. Beyliğin merkezi olduğu TDV'de geçer. Atlas Suçava'yı 1281'de altinorda ile başlatır; Boğdan beyliği künyesi (bogdan 1359-1859) ile atlas zinciri karşılaştırılmalıdır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
+  "id": "sudak-ua",
+  "ad": "Sudak (Suğdak)",
+  "atlas_ad": "Sudak (Suğdak)",
+  "lat": 44.8494,
+  "lon": 34.9747,
+  "kat1900": null,
+  "adlar": [
+   "Suğdak",
+   "Sudak"
+  ],
+  "ilk": {
+   "t": "1237-12-31",
+   "gun": "1220-1237",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Alâeddin Keykubad zamanında (1220-1237) Hüsâmeddin Çoban idaresindeki kuvvetler Kırım’ın en önemli ticaret şehri olan Suğdak’ı ele geçirdi"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1237-12-31",
+    "gun": "1220-1237",
+    "k": "fetih",
+    "b": "Anadolu Selçuklu Sultanı Alâeddin Keykubad zamanında (1220-1237) Hüsâmeddin Çoban komutasındaki kuvvetler Suğdak'ı ele geçirdi (güvenli uç: saltanat sonu)",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Alâeddin Keykubad zamanında (1220-1237) Hüsâmeddin Çoban idaresindeki kuvvetler Kırım’ın en önemli ticaret şehri olan Suğdak’ı ele geçirdi"
+   },
+   {
+    "t": "1365-01-01",
+    "gun": "1365",
+    "k": "fetih",
+    "b": "Suğdak Ceneviz kontrolüne girdi",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KIRIM» md. (DİA), Baskı Tarihi 2022 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kirim (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Suğdak 1365’te Ceneviz kontrolüne girmişti"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Selçuklu ele geçirmesi Keykubad'ın saltanat aralığına (1220-1237) bağlıdır, güne değil; güvenli uç 1237-12-31. TDV Suğdak'ı Kıpçak limanı olarak (1253 Rubruk gezisi: Suğdak pazar yeri) da anar (tarihli ama sahiplik/varlık dışı, yazılmadı). 1380 Ceneviz-Altın Orda anlaşmasında Balıklava-Suğdak aralığının Ceneviz'e bağlı sayılması TDV'de vardır (tek tanık, şehre özgü değil; yazılmadı). Atlas Sudak'ı 1000-01-01'de __BOSLUK__ ile başlatır; Selçuklu (1237 öncesi, aralık) ve Ceneviz (1365) tanıkları atlas zincirine öneridir: 'Sudak 1220-1237 selcuklu, 1365 ceneviz' ve zincir 1281 sonrası kaynakla gözden geçirilmeli. Atlas bu noktayı 1000-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
   "id": "taskent-uz",
   "ad": "Taşkent",
   "atlas_ad": "Taşkent",
@@ -1586,5 +2248,134 @@ window.SEHIR_TARIHCE_ORTA_ASYA = [
    }
   ],
   "ic_not": "Kaynak: TDV 'Tirmiz' TAM METİN (Abdullah Muhammedcanov). ANTİK/ESKİ YER KURALI: TDV eski Tirmiz'i (Emevî fethi 56/676, 704, Tirmizşahlar, 1220 Moğol tahribi, 1407 Halil Sultan tahkimi, XVI. yy Şeybânîler, 1646 Bâbürlüler, 1758 Mangıt) 'harabeler' olarak yeni şehirden 8 km uzakta anlatır; modern Termez Toprakkorgan çevresinde 1894'te doğdu. 8 km > 3 km → eski olgular BURADA YAZILMADI; ayrı kayıt (Eski Termez / Tirmiz harabeleri) önerilir (koordinatı ÖLÇÜLMEDİ). Atlas noktası (37.224, 67.278) modern şehirdir; TDV 8 km tarifini koordinatla ÖLÇMEDİM. Atlas Termez'i 1000-01-01'de __BOSLUK__ ile başlatır; modern şehir 1894'te kurulduğundan atlas başlangıcı düzeltilmeli/eski-yer kaydına devredilmeli (KASA'ya). Çift teyit YOK."
+ },
+ {
+  "id": "turkistan-yesi-kz",
+  "ad": "Türkistan (Yesi / Yassı)",
+  "atlas_ad": "Türkistan (Yesi)",
+  "lat": 43.302,
+  "lon": 68.253,
+  "kat1900": null,
+  "adlar": [
+   "Yassı",
+   "Yesi",
+   "Türkistan (Hazret-i Türkistan)"
+  ],
+  "ilk": {
+   "t": "1396-01-01",
+   "gun": "1396",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «AHMED YESEVÎ KÜLLİYESİ» md. (Emel Esin), Baskı Tarihi 1989 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/ahmed-yesevi-kulliyesi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "Ubeydullah (bazı kaynaklarda ise Abdullah) Sadr tarafından 1396 yılında çalışmalara başlanmış"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1396-01-01",
+    "gun": "1396",
+    "k": "diger",
+    "b": "Timur'un emriyle Yassı'daki Ahmed Yesevî Külliyesi'nin yeniden inşasına başlandı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «AHMED YESEVÎ KÜLLİYESİ» md. (Emel Esin), Baskı Tarihi 1989 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/ahmed-yesevi-kulliyesi (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Ubeydullah (bazı kaynaklarda ise Abdullah) Sadr tarafından 1396 yılında çalışmalara başlanmış"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Yassı/Türkistan şehrine özgü en erken TARİHLİ tanık külliye inşasıdır (1396); aynı madde şehrin XIV. yüzyılda Çağatay, Cucioğulları ve Timur arasında el değiştirdiğini söyler (yüzyıl düzeyi; sahip tarihi vermez, yazılmadı), Yâkût'tan (XIII. yy) bahseder. 1557-1583 Abdullah Kazan Han imarı (aralık), 1510 Şah İsmâil istilâsı (bölgesel) ve 1864 'Türkistan'ın Rusya'ya ilhakı' (şehir mi bölge mi belirsiz) yazılmadı. Atlas 1281'de cagatay ile başlatır. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
+  "id": "uc-turfan-cn",
+  "ad": "Uçturfan (Uç Turfan)",
+  "atlas_ad": "Uçturfan (Uç Turfan)",
+  "lat": 41.21,
+  "lon": 79.05,
+  "kat1900": null,
+  "adlar": [
+   "Uc (TDV)",
+   "Uç Turfan"
+  ],
+  "ilk": {
+   "t": "1756-01-01",
+   "gun": "1756",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «TURFAN» md. (Ahmet Taşağıl), Baskı Tarihi 2012 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/turfan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "1756’da Aksu’nun batısındaki Uc şehrinin halkı isyan ettiği gerekçesiyle Çinliler tarafından öldürüldü"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1756-01-01",
+    "gun": "1756",
+    "k": "diger",
+    "b": "İsyan ettiği gerekçesiyle Uc şehrinin halkı Çinliler tarafından öldürüldü",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «TURFAN» md. (Ahmet Taşağıl), Baskı Tarihi 2012 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/turfan (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1756’da Aksu’nun batısındaki Uc şehrinin halkı isyan ettiği gerekçesiyle Çinliler tarafından öldürüldü"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. Ad eşitlemesi (kabul edilir, kesin değil): TDV «Turfan» md. 'Aksu'nun batısındaki Uc şehri' der; atlasın Uç Turfan (41.21, 79.05) noktası Aksu'nun yaklaşık 60-70 km batısındadır — TDV'de ek koordinat/ad yok, eşitleme beyan edilir. Atlas Uç Turfan'ı 1281-01-01'de cagatay ile başlatır; sahip_devlet sütununda qing-hanedani göründü (atlasın ilk sahip ölçümü ayrı); ilk.t sonradır → sahip:[]. Atlas bu noktayı 1281-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
+ },
+ {
+  "id": "urumci-cn",
+  "ad": "Ürümçi (Dihua)",
+  "atlas_ad": "Ürümçi (Dihua)",
+  "lat": 43.826,
+  "lon": 87.616,
+  "kat1900": null,
+  "adlar": [
+   "Urumçi",
+   "Tihua (TDV)",
+   "Dihua",
+   "Ürümçi"
+  ],
+  "ilk": {
+   "t": "1870-01-01",
+   "gun": "1870",
+   "nicelik": "ilk_anilis",
+   "kesinlik": "yil",
+   "kaynak": "TDV İslâm Ansiklopedisi, «YÂKUB BEG» md. (Muallâ Uydu Yücel), Baskı Tarihi 2013 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/yakub-beg (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+   "tanik": "onları Urumçi’den uzaklaştırdı (1870)"
+  },
+  "kur": null,
+  "ark": null,
+  "bit": null,
+  "sahip": [],
+  "olay": [
+   {
+    "t": "1870-01-01",
+    "gun": "1870",
+    "k": "fetih",
+    "b": "Yâkub Beg Çinliler ve Dunganlar'ı Urumçi'den uzaklaştırdı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «YÂKUB BEG» md. (Muallâ Uydu Yücel), Baskı Tarihi 2013 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/yakub-beg (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "onları Urumçi’den uzaklaştırdı (1870)"
+   },
+   {
+    "t": "1877-01-01",
+    "gun": "1877 (bahar)",
+    "k": "fetih",
+    "b": "Çin ordusu 1877 baharında Kumul ve Urumçi'yi işgal etti",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «YÂKUB BEG» md. (Muallâ Uydu Yücel), Baskı Tarihi 2013 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/yakub-beg (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "Kumul ve Urumçi’yi işgal edip Kâşgar’a doğru ilerlemeye başlayınca"
+   },
+   {
+    "t": "1882-01-01",
+    "gun": "1882",
+    "k": "idari",
+    "b": "Doğu Türkistan 1882'den itibaren merkezi Urumçi olan Sinkiang eyaleti yapıldı",
+    "kesinlik": "yil",
+    "kaynak": "TDV İslâm Ansiklopedisi, «KULCA» md. (Ahmet Taşağıl), Baskı Tarihi 2002 (cilt/sayfa tam metinde yok), https://islamansiklopedisi.org.tr/kulca (TDV tam metin (tarayıcı), 16 Kasım 2026)",
+    "tanik": "1882 yılından başlayarak Sinkiang (Sincan: “yeni dominyon”) adı altında merkezi Urumçi"
+   }
+  ],
+  "ic_not": "Kaynak: TDV tam gövde (tarayıcı), çift teyit YOK (ikinci akademik kaynak açılmadı). Tüm tanık alıntıları gövdede includes() ile birebir doğrulandı. ilk.t: Urumçi'ye özgü en erken TARİHLİ tanık TDV «Yâkub Beg» md.'dir (1870); Cungarya Devleti'nin Urumçi'yi kapsaması (XVII. yy sonu, 'ikinci yarısında') yıl düzeyi yüzyıl-yarı olup şehre özgü olmadığından yazılmadı. Atlas Ürümçi'yi 1763-01-01'de qing-hanedani ile başlatır; ilk.t sonra olduğu için sahip:[] ve uyarı beklenir (TDV'de 1763 öncesi tanık yok). Atlas bu noktayı 1763-01-01'de başlatır; ilk.t sonra olduğundan sahip:[] (atlas zinciri esas), 'atlas başlangıcı düzeltilmeli' uyarısı beklenen davranıştır — TDV'de daha erken TARİHLİ tanık bulunamadı."
  }
 ];
