@@ -113,14 +113,17 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # 16 Kasım 2026 (EMRELİC postit-resim, Emre 1 Kasım kararı): ÖLÇÜM — eksik arayuz 72->78 her dilde. Kaynak: js/gelistirici.js
 # "Resim ekle → çerçeveli ekran görüntüsü" penceresinin 6 yeni düğme/ipucu dizgisi (✓ Ekle, ✕ Vazgeç, Tamamı, "Fareyle / parmakla
 # çerçeve çiz", "Beğenmediysen yeniden çiz · Enter: ekle", "Yalnız harita yakalandı …"); geliştirici kipini yalnız Emre görür.
+# 17 Kasım 2026 (KASA 16 KASIM, post-it/kronoloji birleşimi): tavan AÇILDI (Emre 1 Kasım kuralı: önce ölç, aç, raporla)
+# — ÖLÇÜM: arayüz eksik 78->79 (post-it Resim ekleme: js/gelistirici.js yeni dış dizge; dal tavanı 78 ölçmüştu, birleşimde +1),
+# olay eksik +1 her dilde (postit-194 Yalova-Karamürsel 1323->1326 madde metni/günü değişti). Eski: arayüz 78; olay en/ar/es/de 429, pt 1542, ru 3634, fr 4534.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 78, "devlet": 24, "olay": 429},
-    "ar": {"arayuz": 78, "devlet": 24, "olay": 429},
-    "es": {"arayuz": 78, "devlet": 24, "olay": 429},
-    "de": {"arayuz": 78, "devlet": 24, "olay": 429},
-    "pt": {"arayuz": 78, "devlet": 24, "olay": 1542},
-    "ru": {"arayuz": 78, "devlet": 24, "olay": 3634},
-    "fr": {"arayuz": 78, "devlet": 24, "olay": 4534},
+    "en": {"arayuz": 79, "devlet": 24, "olay": 430},
+    "ar": {"arayuz": 79, "devlet": 24, "olay": 430},
+    "es": {"arayuz": 79, "devlet": 24, "olay": 430},
+    "de": {"arayuz": 79, "devlet": 24, "olay": 430},
+    "pt": {"arayuz": 79, "devlet": 24, "olay": 1543},
+    "ru": {"arayuz": 79, "devlet": 24, "olay": 3635},
+    "fr": {"arayuz": 79, "devlet": 24, "olay": 4535},
 }
 # 13 Kasım 2026 (KASA batch 15): bayat olay en/ar/es/de 71→72 (ÖLÇÜM) — UMIT p08 / EMRELİC ant17 ana maddelere `antlasma_id` yazdı
 # (Zitvatorok/Buçaş/Vasvar/İstanbul 1700, Yergöğü, İngiliz 1799). Kaynak ölçüldü; çeviri işi site bitince (Emre, 13 Kasım).
