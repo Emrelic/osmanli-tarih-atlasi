@@ -1,0 +1,110 @@
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_var	yer_kat_var	kaynak_1900	not
+cetinje	1	Karadağ	Cetinje	Cetinje	42.391	18.914	atlas-yerlesim-ad-eslesmesi	1	1	SYB1896 Montenegro	
+bucuresti	1	Romanya	Bucuresci	București				0	0	statoids uro (1900 tablosu)	ayrıca Ilfov județ merkezi
+beograd	1	Sırbistan	Beograd	Beograd				0	0	SYB1896 Servia; statoids urs	özel statülü şehir; 1890-1900 Podunavlje okrugu içinde (vikipedi)
+athina	1	Yunanistan	Athenai	Athina				0	0	SYB1896 Greece; statoids ugr	ayrıca Attika nomosu merkezi
+bjelovar	2	Hırvatistan	Bjelovar	Bjelovar				0	0	en.wikipedia Bjelovar-Križevci County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)
+ogulin	2	Hırvatistan	Ogulin	Ogulin				0	0	en.wikipedia Modruš-Rijeka County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)
+porec	2	Hırvatistan	Parenzo	Poreč				0	0	en.wikipedia Margraviate of Istria (diet Parenzo'da)	yalnız diyet (Landtag) merkezi; Statthalterei Triest'te
+pozega	2	Hırvatistan	Požega	Požega				0	0	en.wikipedia Požega County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)
+rijeka	2	Hırvatistan	Fiume	Rijeka				0	0	statoids uhu (Kingdom of Hungary = Hungary proper + Croatia-Slavonia + province of Fiume)	Macar tacına doğrudan bağlı ayrı birim
+vukovar	2	Hırvatistan	Vukovar	Vukovar	45.351	19.002	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Srijem County (infobox capital)	8 županija listesi: en.wikipedia Kingdom of Croatia-Slavonia (1886 düzeni)
+zagreb	2	Hırvatistan	Agram / Zagreb	Zagreb	45.815	15.982	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Kingdom of Croatia-Slavonia (Zemaljska vlada Zagreb'de)	ayrıca Zagreb županijası merkezi; Macar tacına bağlı özerk
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+bulunamadi	2	Karadağ	bulunamadı					0	0	SYB1896 Montenegro ('80 districts and eight military commands', 1879)	birim adları ve merkezleri bulunamadı; en.wikipedia 10 nahiye sayar (çelişki)
+aiud	2	Romanya	Nagyenyed	Aiud				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+arad	2	Romanya	Arad	Arad	46.18333	21.31667	atlas-yerlesim-ad-eslesmesi	1	0	statoids uhu (64 comitate: County|Capital tablosu)	
+bacau	2	Romanya	Bacău	Bacău				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+bistrita	2	Romanya	Beszterce	Bistrița				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+botosani	2	Romanya	Botoșani	Botoșani	47.7486	26.6694	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+braila	2	Romanya	Brăila	Brăila				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+buzau	2	Romanya	Buzău	Buzău	45.15	26.817	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+barlad	2	Romanya	Bârlad	Bârlad	46.23	27.667	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+caracal	2	Romanya	Caracal	Caracal				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+carei	2	Romanya	Nagykároly	Carei				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+cluj-napoca	2	Romanya	Kolozsvár	Cluj-Napoca				0	0	statoids uhu (64 comitate: County|Capital tablosu)	statoids birimi 'Kolozsvár' adıyla verir
+constanta	2	Romanya	Constanța	Constanța				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+campulung	2	Romanya	Câmpulung	Câmpulung	45.269	25.045	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+calarasi	2	Romanya	Călărași	Călărași	44.2	27.33	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+dej	2	Romanya	Dés	Dej				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+deva	2	Romanya	Déva	Deva				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+dorohoi	2	Romanya	Dorohoi	Dorohoi	47.9594	26.3978	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+drobeta-turnu-severin	2	Romanya	Turnu Severin	Drobeta-Turnu Severin	44.632	22.656	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+dumbraveni	2	Romanya	Erzsébetváros	Dumbrăveni				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+focsani	2	Romanya	Focșani	Focșani				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+fagaras	2	Romanya	Fogaras	Făgăraș				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+falticeni	2	Romanya	Fălticeni	Fălticeni				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+galati	2	Romanya	Galați	Galați				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+giurgiu	2	Romanya	Giurgiu	Giurgiu	43.904	25.97	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+husi	2	Romanya	Huși	Huși				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+iasi	2	Romanya	Iași	Iași				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+lugoj	2	Romanya	Lugos	Lugoj	45.688	21.903	atlas-yerlesim-ad-eslesmesi	1	0	statoids uhu (64 comitate: County|Capital tablosu)	
+miercurea-ciuc	2	Romanya	Csíkszereda	Miercurea Ciuc				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+odorheiu-secuiesc	2	Romanya	Székelyudvarhely	Odorheiu Secuiesc				0	0	statoids uhu (64 comitate: County|Capital tablosu)	statoids merkez adını bozuk yazar ('Szent Egyhazas-Olahfalu'), modern karşılığı Odorheiu Secuiesc; 1900 adı genel bilgi
+piatra-neamt	2	Romanya	Piatra	Piatra Neamț				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+pitesti	2	Romanya	Pitești	Pitești	44.857	24.869	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+ploiesti	2	Romanya	Ploești	Ploiești				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+roman	2	Romanya	Roman	Roman	46.925	26.93	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+ramnicu-sarat	2	Romanya	Râmnicu Sărat	Râmnicu Sărat	45.383	27.056	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+ramnicu-valcea	2	Romanya	Râmnicu Vâlcea	Râmnicu Vâlcea	45.105	24.375	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+sfantu-gheorghe	2	Romanya	Sepsiszentgyörgy	Sfântu Gheorghe				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+sibiu	2	Romanya	Nagyszeben	Sibiu				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+sighetu-marmatiei	2	Romanya	Máramarossziget	Sighetu Marmației				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+sighisoara	2	Romanya	Segesvár	Sighișoara	46.2197	24.7925	atlas-yerlesim-ad-eslesmesi	1	0	statoids uhu (64 comitate: County|Capital tablosu)	
+slatina	2	Romanya	Slatina	Slatina	44.427	24.371	atlas-yerlesim-ad-eslesmesi	1	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+tecuci	2	Romanya	Tecuci	Tecuci				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+tulcea	2	Romanya	Tulcea	Tulcea				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+turda	2	Romanya	Torda	Turda				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+turnu-magurele	2	Romanya	Turnu Măgurele	Turnu Măgurele				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+targoviste	2	Romanya	Târgoviște	Târgoviște				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+targu-jiu	2	Romanya	Târgu Jiu	Târgu Jiu				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+targu-mures	2	Romanya	Marosvásárhely	Târgu Mureș				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+vaslui	2	Romanya	Vaslui	Vaslui				0	0	statoids uro ('1900: … District|Capital' tablosu); SYB1896 Roumania (32)	
+zalau	2	Romanya	Zilah	Zalău				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+ljubljana	2	Slovenya	Laibach	Ljubljana	46.056	14.506	atlas-yerlesim-ad-eslesmesi	1	0	statoids uat (değişiklik tarihçesi: A-M dönemi başkentleri)	
+bulunamadi	2	Sırbistan	bulunamadı					0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez bulunamadı
+gornji-milanovac	2	Sırbistan	Gornji Milanovac	Gornji Milanovac				0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	Čačak 1902'de ayrıldı; 1900 merkezi Čačak da olabilir
+kragujevac	2	Sırbistan	Kragujevac	Kragujevac	44.013	20.911	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	
+negotin	2	Sırbistan	Negotin	Negotin				0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez statoids urs 1910
+pozarevac	2	Sırbistan	Požarevac	Požarevac	44.6213	21.1878	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	
+prokuplje	2	Sırbistan	Prokuplje	Prokuplje	43.234	21.588	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez statoids urs 1910
+smederevo	2	Sırbistan	Smederevo	Smederevo				0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	1900'de Beograd ve Smederevo okruglarına bölündü (tarih: 1900, gün bilinmiyor); merkez doğrulanmadı
+sombor	2	Sırbistan	Zombor	Sombor				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+uzice	2	Sırbistan	Užice	Užice				0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	
+valjevo	2	Sırbistan	Valjevo	Valjevo	44.2751	19.8982	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	
+vranje	2	Sırbistan	Vranje	Vranje	42.551	21.9	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	
+zajecar	2	Sırbistan	Zaječar	Zaječar				0	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez statoids urs 1910; 1890-1900 için doğrulanmadı
+zrenjanin	2	Sırbistan	Nagybecskerek	Zrenjanin				0	0	statoids uhu (64 comitate: County|Capital tablosu)	
+cuprija	2	Sırbistan	Ćuprija	Ćuprija	43.9275	21.37	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez statoids urs 1910
+sabac	2	Sırbistan	Šabac	Šabac	44.75	19.694	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Okrug (1890: 15 okrug listesi); statoids urs (1910 merkezleri); SYB1896 Servia (15)	merkez statoids urs 1910
+amfissa	2	Yunanistan	Amfissa	Amfissa				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+argostoli	2	Yunanistan	Argostolion	Argostoli				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+arta	2	Yunanistan	Arta	Arta	39.161	20.985	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+chalkida	2	Yunanistan	Chalkis	Chalkida				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+ermoupoli	2	Yunanistan	Ermoupolis	Ermoupoli				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+gytheio	2	Yunanistan	Gytheion	Gytheio				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+kalamata	2	Yunanistan	Kalamai	Kalamata				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+karditsa	2	Yunanistan	Karditsa	Karditsa				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+karpenisi	2	Yunanistan	Karpenisi	Karpenisi				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+kerkyra	2	Yunanistan	Kerkyra	Kerkyra				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+korinthos	2	Yunanistan	Korinthos	Korinthos				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+kyparissia	2	Yunanistan	Kyparissia	Kyparissia				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+lamia	2	Yunanistan	Lamia	Lamia	38.9	22.434	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+larisa	2	Yunanistan	Larisa	Larisa				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+livadeia	2	Yunanistan	Livadia	Livadeia				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+mesolongi	2	Yunanistan	Mesolongi	Mesolongi				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+nafplio	2	Yunanistan	Nafplion	Nafplio				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+patra	2	Yunanistan	Patrai	Patra				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+pyrgos	2	Yunanistan	Pyrgos	Pyrgos				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+sparti	2	Yunanistan	Sparti	Sparti				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+trikala	2	Yunanistan	Trikala	Trikala				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+volos	2	Yunanistan	Volos	Volos				0	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+zakynthos	2	Yunanistan	Zakynthos	Zakynthos	37.788	20.775	atlas-yerlesim-ad-eslesmesi	1	0	en.wikipedia Prefectures of Greece (1899'da kurulan 14 nomos); SYB1896 Greece (16 nomarşi)	1899 reformu, 25 nomos (Lefkada ayrı mıydı belirsiz — 26 sayılırsa eksik); merkezler doğrulanmadı
+bulunamadi	2	Bulgaristan	bulunamadı	bulunamadı				0	0	SYB1896 (22 okrug; 1897 kanunu 22 okrujie)	bg WP 1885-1901 listesi 23 ad verir, Trın, Rahova (Oryahovo), Lofça (Lovech) ve 1889'da kaldırılan Orhaniye karışık; bu üçünden ikisi olmalı
+bulunamadi	2	Bulgaristan	bulunamadı	bulunamadı				0	0	SYB1896 (22 okrug; 1897 kanunu 22 okrujie)	bg WP 1885-1901 listesi 23 ad verir, Trın, Rahova (Oryahovo), Lofça (Lovech) ve 1889'da kaldırılan Orhaniye karışık; bu üçünden ikisi olmalı

@@ -1,0 +1,113 @@
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not
+ha'il	1	Suudi Arabistan	Hâil	Ha'il	27.521	41.691	atlas-yerlesim-ad-eslesmesi	Hâil		ha-il		statoids usa	Osmanlı'ya gevşek bağlı; bağımsız sayılması karara bağlı
+istanbul	1	Türkiye	İstanbul (Konstantiniyye)	İstanbul	41.008	28.98	atlas-yerlesim-ad-eslesmesi	İstanbul		istanbul		SYB1896 s.1015	Şehremaneti; vilayet sayılmadı
+muscat	1	Umman	Maskat	Muscat	23.588	58.408	atlas-yerlesim-ad-eslesmesi	Maskat		muscat		SYB1896 Oman; statoids uom	İngiliz nüfuzu
+abu-dhabi	2	BAE	Ebûzabi	Abu Dhabi	24.451	54.397	tarihce-kaydi (bagimsiz teyit YOK)			abu-dhabi		statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+ajman	2	BAE	Acmân	Ajman	25.402	55.479	tarihce-kaydi (bagimsiz teyit YOK)			ajman		statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+dubai	2	BAE	Dubai	Dubai	25.077	55.309	tarihce-kaydi (bagimsiz teyit YOK)			dubai		statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+sharjah	2	BAE	Şârika	Sharjah	25.3573	55.3911	atlas-yerlesim-ad-eslesmesi	Şârika		sharjah		statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+umm-al-quwain	2	BAE	Ümmülkayveyn	Umm al-Quwain	25.565	55.555	tarihce-kaydi (bagimsiz teyit YOK)			umm-al-quwain		statoids uom (genel)	1900 şeyhlik sayısı (5) doğrulanmadı; Re'sülhayme Şârika'ya bağlı
+muharraq	2	Bahreyn	Muharrak	Muharraq	26.257	50.612	tarihce-kaydi (bagimsiz teyit YOK)			muharraq		SYB1896 Bahrein ('seat of government is Moharek')	
+baghdad	2	Irak	Bağdat	Baghdad	33.34	44.361	atlas-yerlesim-ad-eslesmesi	Bağdat		baghdad		Cuinet TdA c.3 (3 sancak) + TDV BAĞDAT	
+basra	2	Irak	Basra	Basra	30.508	47.783	atlas-yerlesim-ad-eslesmesi	Basra		basra		Cuinet TdA c.3 + TDV BASRA	
+mosul	2	Irak	Musul	Mosul	36.34	43.13	atlas-yerlesim-ad-eslesmesi	Musul		mosul		Cuinet TdA c.2 (1891) (3 sancak)	
+kuwait-city	2	Kuveyt	Kuveyt	Kuwait City	29.376	47.977	atlas-yerlesim-ad-eslesmesi	Kuveyt		kuwait-city		genel bilgi	nominal Osmanlı kazası; 23 Ocak 1899 İngiliz antlaşması
+famagusta	2	Kıbrıs	Mağusa	Famagusta	35.125	33.941	tarihce-kaydi (bagimsiz teyit YOK)			famagusta		SYB1896 Cyprus	
+kyrenia	2	Kıbrıs	Girne	Kyrenia	35.3375	33.3187	atlas-yerlesim-ad-eslesmesi	Girne (Kyrenia)		kyrenia		SYB1896 Cyprus	
+larnaca	2	Kıbrıs	Larnaka	Larnaca	34.917	33.63	atlas-yerlesim-ad-eslesmesi	Tuzla (Larnaka)		larnaca		SYB1896 Cyprus	
+limassol	2	Kıbrıs	Limasol	Limassol	34.707	33.023	atlas-yerlesim-ad-eslesmesi	Limasol		limassol		SYB1896 Cyprus	
+nicosia	2	Kıbrıs	Lefkoşa	Nicosia	35.17	33.36	atlas-yerlesim-ad-eslesmesi	Lefkoşa		nicosia		SYB1896 Cyprus ('capital and seat of government'; 6 district aynı adlı şehirler)	hukuken Osmanlı
+paphos	2	Kıbrıs	Baf (Ktima)	Paphos	34.776	32.424	atlas-yerlesim-ad-eslesmesi	Baf (Paphos)		paphos		SYB1896 Cyprus	
+baabda	2	Lübnan	Bâbdâ	Baabda	33.834	35.544	tarihce-kaydi (bagimsiz teyit YOK)			baabda		Cuinet Syrie (1896) s.229 (palais de Ba'abda, résidence d'hiver)	kış merkezi Bâbdâ, yaz Beytüddin (Beiteddine); mutasarrıf kışın Beyrut'ta da oturur
+beirut	2	Lübnan	Beyrut	Beirut	33.888	35.495	atlas-yerlesim-ad-eslesmesi	Beyrut		beirut		Cuinet Syrie (1896) (5 sandjak) + TDV BEYRUT	
+aleppo	2	Suriye	Halep	Aleppo	36.202	37.161	atlas-yerlesim-ad-eslesmesi	Halep		aleppo		Cuinet TdA c.2 (1891) + TDV HALEP	
+damascus	2	Suriye	Şam	Damascus	33.513	36.292	atlas-yerlesim-ad-eslesmesi	Şam		damascus		Cuinet Syrie (1896) (4 sandjaq)	
+deir-ez-zor	2	Suriye	Deyrizor	Deir ez-Zor	35.336	40.141	atlas-yerlesim-ad-eslesmesi	Deyrizor		deir-ez-zor		SYB1896; TDV HALEP (1882); TDV ZOR	
+mecca	2	Suudi Arabistan	Mekke	Mecca	21.423	39.826	atlas-yerlesim-ad-eslesmesi	Mekke		mecca		TDV HİCAZ	vali yazın Taif'te
+adana	2	Türkiye	Adana	Adana	37.0	35.321	atlas-yerlesim-ad-eslesmesi	Adana		adana		Cuinet TdA c.2 (1891) + TDV MERSİN	1900'de 5 sancak (Mersin 1888)
+ankara	2	Türkiye	Ankara (Engürü)	Ankara	39.933	32.86	atlas-yerlesim-ad-eslesmesi	Ankara		ankara		Cuinet TdA c.1 (1892) (4 sancak) + TDV ÇORUM (1893)	1900'de 5 sancak
+bitlis	2	Türkiye	Bitlis	Bitlis	38.401	42.108	atlas-yerlesim-ad-eslesmesi	Bitlis		bitlis		Cuinet TdA c.2 (1891)	
+bursa	2	Türkiye	Bursa	Bursa	40.188	29.061	atlas-yerlesim-ad-eslesmesi	Bursa		bursa		Cuinet TdA c.4 (5 sancak)	
+diyarbakir	2	Türkiye	Diyarbekir	Diyarbakır	37.911	40.237	atlas-yerlesim-ad-eslesmesi	Diyarbakır		diyarbakir		Cuinet TdA c.2 (1891)	
+edirne	2	Türkiye	Edirne	Edirne	41.677	26.556	atlas-yerlesim-ad-eslesmesi	Edirne		edirne		TDV EDİRNE; TDV GELİBOLU (Edirne salnamesi 1309)	
+elazig	2	Türkiye	Mamuretülaziz (Harput-Mezre)	Elazığ	38.714	39.245	atlas-yerlesim-ad-eslesmesi	Harput (Elazığ)		elazig		Cuinet TdA c.2 (1891) (Kharpout-Mezré)	vali Mezre'de; Harput eski merkez
+erzurum	2	Türkiye	Erzurum	Erzurum	39.905	41.266	atlas-yerlesim-ad-eslesmesi	Erzurum		erzurum		Cuinet TdA c.1 (1892) (3 sancak)	
+kastamonu	2	Türkiye	Kastamonu (Kastamuni)	Kastamonu	41.377	33.777	atlas-yerlesim-ad-eslesmesi	Kastamonu		kastamonu		Cuinet TdA c.4 (4 sancak)	
+konya	2	Türkiye	Konya	Konya	37.872	32.492	atlas-yerlesim-ad-eslesmesi	Konya		konya		Cuinet TdA c.1 (1892) (5 sancak)	
+sivas	2	Türkiye	Sivas	Sivas	39.75	37.015	atlas-yerlesim-ad-eslesmesi	Sivas		sivas		Cuinet TdA c.1 (1892) (4 sancak)	
+trabzon	2	Türkiye	Trabzon	Trabzon	41.005	39.723	atlas-yerlesim-ad-eslesmesi	Trabzon		trabzon		Cuinet TdA c.1 (1892) (4 sancak)	
+van	2	Türkiye	Van	Van	38.502	43.393	atlas-yerlesim-ad-eslesmesi	Van		van		Cuinet TdA c.2 (1891); TDV HAKKÂRİ (1908'de 2 sancak)	
+canakkale	2	Türkiye	Kal'a-i Sultaniye	Çanakkale	40.147	26.409	atlas-yerlesim-ad-eslesmesi	Çanakkale		canakkale		SYB1896 'Bigha (Mutessarifat)'	
+catalca	2	Türkiye	Çatalca	Çatalca	41.1436	28.4611	atlas-yerlesim-ad-eslesmesi	Çatalca		catalca		statoids utr	SYB1896'da İstanbul içinde; TDV'de madde yok
+izmir	2	Türkiye	İzmir	İzmir	38.419	27.129	atlas-yerlesim-ad-eslesmesi	İzmir		izmir		Cuinet TdA c.3 (Smyrne)	
+izmit	2	Türkiye	İzmit	İzmit	40.766	29.917	atlas-yerlesim-ad-eslesmesi	İzmit		izmit		SYB1896 'Ismid (Mutessarifat)'; TDV İZMİT	
+aden	2	Yemen	Aden	Aden	12.786	45.019	atlas-yerlesim-ad-eslesmesi	Aden		aden		SYB1896 Aden; statoids uye	Bombay'a bağlı
+lahij	2	Yemen	Lahic (el-Hûta)	Lahij	13.057	44.882	tarihce-kaydi (bagimsiz teyit YOK)			lahij		genel bilgi	Aden protektorasındaki ~9 kabile devletinden yalnız büyükleri; tam liste bulunamadı
+mukalla	2	Yemen	Mükellâ	Mukalla	14.5329	49.1248	atlas-yerlesim-ad-eslesmesi	Mukalla		mukalla		genel bilgi	Aden protektorasındaki ~9 kabile devletinden yalnız büyükleri; tam liste bulunamadı
+sanaa	2	Yemen	San'a	Sanaa	15.369	44.191	atlas-yerlesim-ad-eslesmesi	Sana		sanaa		TDV YEMEN (1872 düzeni)	
+seiyun	2	Yemen	Seyûn	Seiyun	15.9433	48.7933	atlas-yerlesim-ad-eslesmesi	Seyûn (Sayvan)		seiyun		genel bilgi	Aden protektorasındaki ~9 kabile devletinden yalnız büyükleri; tam liste bulunamadı
+jerusalem	2	İsrail/Filistin	Kudüs	Jerusalem	31.777	35.234	atlas-yerlesim-ad-eslesmesi	Kudüs		jerusalem		TDV SURİYE (1872); TDV KUDÜS; SYB1896	
+nablus	3	Filistin	Nablus	Nablus	32.221	35.254	atlas-yerlesim-ad-eslesmesi	Nablus		nablus		Cuinet Syrie (1896)	
+amarah	3	Irak	Amâre	Amarah	31.836	47.145	tarihce-kaydi (bagimsiz teyit YOK)			amarah		Cuinet TdA c.3 + TDV BASRA	
+hillah	3	Irak	Hille	Hillah	32.4828	44.4353	atlas-yerlesim-ad-eslesmesi	Hille		hillah		Cuinet TdA c.3 (Hillé merkez-caza); TDV BAĞDAT ('Dîvâniye ve Kerbelâ')	TDV sancağı Dîvâniye adıyla anar; 1900'de merkez Hille mi Divaniye mi belirsiz
+karbala	3	Irak	Kerbelâ	Karbala	32.616	44.025	atlas-yerlesim-ad-eslesmesi	Kerbelâ		karbala		Cuinet TdA c.3	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kirkuk	3	Irak	Kerkük	Kirkuk	35.468	44.392	atlas-yerlesim-ad-eslesmesi	Kerkük		kirkuk		Cuinet TdA c.2 (1891) (chef-lieu Kerkouk)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+nasiriyah	3	Irak	Nasıriye	Nasiriyah	31.0439	46.2572	atlas-yerlesim-ad-eslesmesi	Nâsıriye		nasiriyah		Cuinet TdA c.3 (chef-lieu Nasériyé) + TDV BASRA	
+sulaymaniyah	3	Irak	Süleymaniye	Sulaymaniyah	35.565	45.433	tarihce-kaydi (bagimsiz teyit YOK)			sulaymaniyah		Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+tripoli	3	Lübnan	Trablusşam	Tripoli	34.436	35.844	atlas-yerlesim-ad-eslesmesi	Trablusşam		tripoli-2		Cuinet Syrie (1896)	
+hama	3	Suriye	Hama	Hama	35.132	36.75	atlas-yerlesim-ad-eslesmesi	Hama		hama		Cuinet Syrie (1896)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+latakia	3	Suriye	Lazkiye	Latakia	35.531	35.791	tarihce-kaydi (bagimsiz teyit YOK)			latakia		Cuinet Syrie (1896)	
+sheikh-saad	3	Suriye	Şeyh Saad	Sheikh Saad						sheikh-saad		Cuinet Syrie (1896) ('Chéïkh-Sa'ad, chef-lieu du sandjaq du Haourân')	1896'da merkez Şeyh Saad (Mzerib); önceden Dera; iskelette Dera yazılmıştı; 1900'de Dera'ya dönüş doğrulanmadı
+abha	3	Suudi Arabistan	Ebhâ	Abha	18.216	42.505	atlas-yerlesim-ad-eslesmesi	Ebha (Asir)		abha		TDV YEMEN (sancak); merkez adı genel bilgi	sancak kaynaklı, merkez adı (Ebhâ) kaynakta sancak merkezi olarak okunmadı
+hofuf	3	Suudi Arabistan	Hufuf	Hofuf	25.365	49.588	tarihce-kaydi (bagimsiz teyit YOK)			hofuf		Cuinet TdA c.3 (chef-lieu Houfouf) + TDV BASRA	
+jeddah	3	Suudi Arabistan	Cidde	Jeddah	21.543	39.173	atlas-yerlesim-ad-eslesmesi	Cidde		jeddah		TDV HİCAZ	vali kaymakamlığı
+medina	3	Suudi Arabistan	Medine	Medina	24.47	39.612	atlas-yerlesim-ad-eslesmesi	Medine		medina		TDV HİCAZ	1910'da müstakil
+afyonkarahisar	3	Türkiye	Karahisar-ı Sahib	Afyonkarahisar	38.757	30.538	atlas-yerlesim-ad-eslesmesi	Karahisâr-ı Sâhib (Afyon)		afyonkarahisar		Cuinet TdA c.4	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+amasya	3	Türkiye	Amasya	Amasya	40.65	35.833	atlas-yerlesim-ad-eslesmesi	Amasya		amasya		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+antalya	3	Türkiye	Antalya	Antalya	36.887	30.703	atlas-yerlesim-ad-eslesmesi	Antalya		antalya		Cuinet TdA c.1 (1892) (Adalia/Tekké)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+aydin	3	Türkiye	Aydın	Aydın	37.845	27.84	atlas-yerlesim-ad-eslesmesi	Aydın		aydin		Cuinet TdA c.3	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+balikesir	3	Türkiye	Balıkesir	Balıkesir	39.649	27.886	atlas-yerlesim-ad-eslesmesi	Balıkesir		balikesir		Cuinet TdA c.4 (chef-lieu Balikesser)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+bilecik	3	Türkiye	Bilecik	Bilecik	40.142	29.979	atlas-yerlesim-ad-eslesmesi	Bilecik		bilecik		Cuinet TdA c.4	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+bolu	3	Türkiye	Bolu	Bolu	40.736	31.606	atlas-yerlesim-ad-eslesmesi	Bolu		bolu		Cuinet TdA c.4	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+burdur	3	Türkiye	Burdur	Burdur	37.72	30.29	atlas-yerlesim-ad-eslesmesi	Burdur		burdur		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+denizli	3	Türkiye	Denizli	Denizli	37.783	29.094	atlas-yerlesim-ad-eslesmesi	Denizli		denizli		Cuinet TdA c.3	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+dogubayazit	3	Türkiye	Bayezid	Doğubayazıt	39.548	44.084	atlas-yerlesim-ad-eslesmesi	Doğubayazıt		dogubayazit		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+erzincan	3	Türkiye	Erzincan	Erzincan	39.75	39.492	atlas-yerlesim-ad-eslesmesi	Erzincan		erzincan		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+gelibolu	3	Türkiye	Gelibolu	Gelibolu	40.4156	26.6636	atlas-yerlesim-ad-eslesmesi	Gelibolu		gelibolu		TDV GELİBOLU (Edirne salnamesi 1309)	
+gumushane	3	Türkiye	Gümüşhane	Gümüşhane	40.461	39.477	atlas-yerlesim-ad-eslesmesi	Gümüşhane		gumushane		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+hakkari	3	Türkiye	Çölemerik	Hakkâri	37.5744	43.7408	atlas-yerlesim-ad-eslesmesi	Çölemerik (Hakkâri)		hakkari		TDV HAKKÂRİ; Cuinet TdA c.2 (1891) (Djulamérik merkez-caza)	iskelette Başkale yazılmıştı; TDV ve Cuinet merkez olarak Çölemerik verir
+hozat	3	Türkiye	Hozat	Hozat	39.108	39.219	atlas-yerlesim-ad-eslesmesi	Hozat		hozat		Cuinet TdA c.2 (1891) (Khozat chef-lieu)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+isparta	3	Türkiye	Isparta	Isparta	37.765	30.554	atlas-yerlesim-ad-eslesmesi	Isparta		isparta		Cuinet TdA c.1 (1892) (Hamid-Abad, Izbarta)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kahramanmaras	3	Türkiye	Maraş	Kahramanmaraş	37.575	36.937	atlas-yerlesim-ad-eslesmesi	Maraş		kahramanmaras		Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kayseri	3	Türkiye	Kayseri	Kayseri	38.734	35.48	atlas-yerlesim-ad-eslesmesi	Kayseri		kayseri		Cuinet TdA c.1 (1892) (Césarée)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kozan	3	Türkiye	Sis	Kozan	37.455	35.816	tarihce-kaydi (bagimsiz teyit YOK)			kozan		Cuinet TdA c.2 (1891) (chef-lieu Sis)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kutahya	3	Türkiye	Kütahya	Kütahya	39.424	29.983	atlas-yerlesim-ad-eslesmesi	Kütahya		kutahya		Cuinet TdA c.4	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+kirklareli	3	Türkiye	Kırkkilise	Kırklareli	41.943	27.401	atlas-yerlesim-ad-eslesmesi	Dereköy (Kırklareli)		kirklareli		TDV KIRKLARELİ	
+kirsehir	3	Türkiye	Kırşehir	Kırşehir	39.146	34.164	atlas-yerlesim-ad-eslesmesi	Kırşehir		kirsehir		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+maden-(elazig)	3	Türkiye	Ergani Madeni	Maden (Elazığ)	38.714	39.245	atlas-yerlesim-ad-eslesmesi	Harput (Elazığ)				Cuinet TdA c.2 (1891) (Arghana-ma'aden, chef-lieu du sandjak)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+malatya	3	Türkiye	Malatya	Malatya	38.353	38.334	atlas-yerlesim-ad-eslesmesi	Malatya		malatya		Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+manisa	3	Türkiye	Manisa (Magnisa)	Manisa	38.614	27.429	atlas-yerlesim-ad-eslesmesi	Manisa		manisa		Cuinet TdA c.3 (chef-lieu Magnésie)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+mardin	3	Türkiye	Mardin	Mardin	37.312	40.735	atlas-yerlesim-ad-eslesmesi	Mardin		mardin		Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+mersin	3	Türkiye	Mersin	Mersin	36.8	34.633	atlas-yerlesim-ad-eslesmesi	Mersin		mersin		TDV MERSİN (1888'de sancak merkezi)	Cuinet 1891 Mersin'i Adana merkez sancağında sayar
+mugla	3	Türkiye	Muğla	Muğla	37.215	28.363	atlas-yerlesim-ad-eslesmesi	Muğla		mugla		Cuinet TdA c.3 (chef-lieu Mougla)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+mus	3	Türkiye	Muş	Muş	38.732	41.49	atlas-yerlesim-ad-eslesmesi	Muş		mus		Cuinet TdA c.2 (1891)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+nigde	3	Türkiye	Niğde	Niğde	37.966	34.679	atlas-yerlesim-ad-eslesmesi	Niğde		nigde		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+rize	3	Türkiye	Rize	Rize	41.02	40.523	atlas-yerlesim-ad-eslesmesi	Rize		rize		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+samsun	3	Türkiye	Samsun	Samsun	41.286	36.331	atlas-yerlesim-ad-eslesmesi	Samsun		samsun		Cuinet TdA c.1 (1892) (Samsoun/Djanik)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+siirt	3	Türkiye	Siirt	Siirt	37.93	41.94	atlas-yerlesim-ad-eslesmesi	Siirt		siirt		Cuinet TdA c.2 (1891) (Seert)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+silifke	3	Türkiye	Silifke	Silifke	36.309	33.938	atlas-yerlesim-ad-eslesmesi	Silifke		silifke		Cuinet TdA c.2 (1891) (chef-lieu Selefké)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+sinop	3	Türkiye	Sinop	Sinop	42.027	35.151	atlas-yerlesim-ad-eslesmesi	Sinop		sinop		Cuinet TdA c.4	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+tekirdag	3	Türkiye	Tekfurdağı	Tekirdağ	40.9838	27.5084	atlas-yerlesim-ad-eslesmesi	Tekirdağ		tekirdag		TDV TEKİRDAĞ	
+tokat	3	Türkiye	Tokat	Tokat	40.314	36.554	atlas-yerlesim-ad-eslesmesi	Tokat		tokat		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+yarpuz-(osmaniye)	3	Türkiye	Yarpuz	Yarpuz (Osmaniye)	37.0482	36.4307	tarihce-kaydi (bagimsiz teyit YOK)			yarpuz-osmaniye		Cuinet TdA c.2 (1891) (chef-lieu Yarpout)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor; merkezin sonradan Osmaniye'ye taşındığı tarih doğrulanmadı
+yozgat	3	Türkiye	Yozgat	Yozgat	39.822	34.808	atlas-yerlesim-ad-eslesmesi	Yozgat		yozgat		Cuinet TdA c.1 (1892) (Yuzgat)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+bulunamadi-(genc/bingol-yoresi)	3	Türkiye	Gernik	bulunamadı (Genç/Bingöl yöresi)								Cuinet TdA c.2 (1891) ('Guernik, chef-lieu du sandjak et du merkez-caza de Guendj')	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor; Gernik'in bugünkü karşılığı doğrulanmadı (Darahini/Genç olabilir)
+cankiri	3	Türkiye	Kengırı	Çankırı	40.601	33.616	atlas-yerlesim-ad-eslesmesi	Çankırı		cankiri		Cuinet TdA c.4 (Kanghéri)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+corum	3	Türkiye	Çorum	Çorum	40.55	34.955	atlas-yerlesim-ad-eslesmesi	Çorum		corum		TDV ÇORUM	1893'te yeniden sancak
+sanliurfa	3	Türkiye	Urfa	Şanlıurfa	37.159	38.796	atlas-yerlesim-ad-eslesmesi	Urfa		sanliurfa		Cuinet TdA c.2 (1891) (Orfa)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+sebinkarahisar	3	Türkiye	Karahisar-ı Şarkî	Şebinkarahisar	40.2886	38.4247	atlas-yerlesim-ad-eslesmesi	Karahisâr-ı Şarkî (Şebinkarahisar)		sebinkarahisar		Cuinet TdA c.1 (1892)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+hodeidah	3	Yemen	Hudeyde	Hodeidah	14.798	42.954	atlas-yerlesim-ad-eslesmesi	Hudeyde		hodeidah		TDV YEMEN	
+taiz	3	Yemen	Taiz	Taiz	13.579	44.022	atlas-yerlesim-ad-eslesmesi	Taiz		taiz		TDV YEMEN	
+al-karak	3	Ürdün	Kerek	Al-Karak	31.182	35.7	tarihce-kaydi (bagimsiz teyit YOK)			al-karak		Cuinet Syrie (1896) (Karak Mart 1894'ten sandjaq merkezi)	
+acre-('akko)	3	İsrail	Akkâ	Acre ('Akko)	32.928	35.082	atlas-yerlesim-ad-eslesmesi	Akkâ		acre-akko		Cuinet Syrie (1896)	
+kars	2	Türkiye	Kars	Kars	40.602	43.095	atlas-yerlesim-ad-eslesmesi	Kars				Statoids uru (Rus İmp. il tablosu)	kiril: Карс

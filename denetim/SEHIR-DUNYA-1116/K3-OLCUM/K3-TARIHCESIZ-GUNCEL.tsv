@@ -1,0 +1,1502 @@
+id	ad	lat	lon	bolge	sahip_devlet	tarihce_tanik	kronoloji_yer_id	kat	kanit
+yerlesimler.js:14	Mudanya	40.373	28.883	balkanlar	bizans	var	var(3)	3	kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:18	Gemlik (Kios)	40.43	29.157	balkanlar	bizans	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler.js:20	Brindisi	40.639	17.945	italya	sicilya-kralligi	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler.js:21	Taranto	40.472	17.243	balkanlar	bizans	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler.js:22	Lecce	40.352	18.169	italya	sicilya-kralligi	var	var(2)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler.js:25	Bodrum	37.034	27.43	anadolu	karya-hekatomnid	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:35	Eskişehir	39.776	30.52		mehmed-celebi	var	var(14)	3	sehir_tarihce_k3:3km
+yerlesimler.js:37	İznik	40.429	29.721	balkanlar	bizans	var	var(23)	3	kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:38	İzmit	40.766	29.917	balkanlar	bizans	var	var(15)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:40	Balıkesir	39.649	27.886		mehmed-celebi	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:41	Çanakkale	40.147	26.409		mehmed-celebi	var	var(4)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:42	Bergama	39.121	27.18	balkanlar	bizans	var	var(5)	kd3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler.js:45	Isparta	37.765	30.554	anadolu	selcuklu	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:46	Manisa	38.614	27.429	balkanlar	bizans	var	var(7)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:49	Aydın	37.845	27.84	balkanlar	bizans	var	var(4)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:50	Denizli	37.783	29.094	anadolu	germiyan	var	var(4)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:54	Karaman	37.181	33.215	anadolu	selcuklu	var	var(11)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:56	Niğde	37.966	34.679	anadolu	selcuklu	var	var(1)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:57	Alanya	36.5502	31.9997	anadolu	selcuklu	var	var(6)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:60	Kayseri	38.734	35.48	anadolu	karaman	var	var(24)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:61	Muş	38.732	41.49	iran	karakoyunlu	var	var(5)	3	sehir_tarihce_osm:3km
+yerlesimler.js:62	Bingöl (Çapakçur)	38.886	40.498	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:64	Hozat	39.108	39.219	anadolu	tbmm-turkiye	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler.js:66	Yozgat	39.822	34.808	anadolu	tbmm-turkiye	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler.js:74	Kastamonu	41.377	33.777	anadolu	candar	var	var(10)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:75	Sinop	42.027	35.151	balkanlar	bizans	var	var(19)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:79	Samsun	41.286	36.331	anadolu	selcuklu	var	var(6)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:80	Amasya	40.65	35.833	anadolu	danismendli	var	var(9)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:81	Tokat	40.314	36.554	balkanlar	bizans	var	var(6)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:88	Erzincan	39.75	39.492	anadolu	mutahharten	var	var(25)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:90	Kars	40.602	43.095	kafkasya	kars-vanand-kralligi	var	var(31)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-b:3km
+yerlesimler.js:94	Bitlis	38.401	42.108	misir-sudan	eyyubi	var	var(13)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:96	Mardin	37.312	40.735	iran	buyuk-selcuklu	var	var(37)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:97	Urfa	37.159	38.796	mezopotamya	osrhoene	var	var(24)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:98	Malatya	38.353	38.334	anadolu	tbmm-turkiye	var	var(9)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:102	Tarsus	36.917	34.895	balkanlar	bizans	yok	var(21)	3	
+yerlesimler.js:103	Antakya	36.202	36.161	balkanlar	bizans	var	var(37)	3	sehir_tarihce_k3_g1:3km
+yerlesimler.js:118	Gelibolu	40.4156	26.6636	balkanlar	bizans	var	var(22)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:125	Filibe	42.144	24.75		suleyman-celebi	var	var(7)	3	sehir_tarihce_osm:3km
+yerlesimler.js:127	Niş	43.321	21.896		suleyman-celebi	var	var(13)	3	sehir_tarihce_k3:3km
+yerlesimler.js:128	Vidin	43.992	22.873	balkanlar	bizans	var	var(15)	3	sehir_tarihce_osm:3km kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:130	Varna	43.214	27.915	balkanlar	bizans	var	var(8)	3	sehir_tarihce_osm:3km
+yerlesimler.js:131	Şumnu	43.271	26.936		suleyman-celebi	var	var(4)	3	sehir_tarihce_osm:3km
+yerlesimler.js:133	Niğbolu	43.706	24.892		suleyman-celebi	var	var(11)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler.js:134	Rusçuk	43.856	25.971		suleyman-celebi	var	var(5)	3	sehir_tarihce_osm:3km
+yerlesimler.js:136	Serez	41.089	23.545	balkanlar	bizans	var	var(10)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:139	Manastır	41.031	21.335	balkanlar	bizans	var	var(6)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:143	Yenişehir (Larissa)	39.639	22.418	balkanlar	bizans	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler.js:144	Tırhala	39.555	21.768	balkanlar	bizans	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler.js:147	Modon	36.8207	21.7075	italya	venedik	var	var(11)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:148	Balyabadra (Patras)	38.246	21.735	italya	roma-imp	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler.js:149	Gördüs (Korint)	37.89	22.869	italya	roma-imp	yok	var(5)	3	
+yerlesimler.js:152	Anabolu (Nauplion)	37.567	22.8	italya	venedik	var	var(4)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:157	İnebahtı	38.399	21.827	balkanlar	bizans	var	var(11)	3	sehir_tarihce_k3:3km
+yerlesimler.js:158	Eğriboz	38.4631	23.6023	balkanlar	bizans	var	var(13)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:163	Akçahisar (Kruja)	41.509	19.793	balkanlar	topia	var	var(13)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:166	Draç	41.323	19.455	italya	sicilya-kralligi	var	var(12)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:167	Avlonya	40.466	19.489	italya	sicilya-kralligi	var	var(9)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:168	Priştine	42.663	21.162	balkanlar	sirbistan-nemanjic	var	var(6)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:169	Semendire	44.663	20.93	balkanlar	sirp-despotlugu	var	var(15)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:173	Mostar	43.343	17.808	balkanlar	yugoslavya	var	var(7)	3	sehir_tarihce_osm:3km
+yerlesimler.js:174	Banaluka	44.772	17.191	balkanlar	yugoslavya	var	var(8)	3	sehir_tarihce_osm:3km
+yerlesimler.js:177	Akkirman	46.1968	30.3431	dogu-avrupa	sovyet-rusya	var	var(14)	3	yer_kat:3km
+yerlesimler.js:178	Kili	45.451	29.271	dogu-avrupa	sovyet-rusya	var	var(6)	3	kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:179	Suçava (Suceava)	47.633	26.25	sibirya-bozkir	altinorda	var	var(5)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler.js:184	İbrail	45.27	27.972	balkanlar	eflak	var	var(9)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-h:3km
+yerlesimler.js:185	Özi	46.6247	31.5421	sibirya-bozkir	altinorda	var	var(3)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:189	Peçuy	46.073	18.233	orta-avrupa	macaristan-habsburg	var	var(9)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:190	Estergon	47.795	18.74	orta-avrupa	macaristan-habsburg	var	var(10)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:191	Eğri	47.902	20.377	orta-avrupa	macaristan-habsburg	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler.js:192	Kanije	46.454	16.989	orta-avrupa	macaristan-habsburg	var	var(4)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:193	Uyvar	47.986	18.162	orta-avrupa	macaristan-habsburg	var	var(3)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:199	Sakız	38.368	26.135	balkanlar	bizans	var	var(16)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:200	Midilli	39.106	26.554	balkanlar	bizans	var	var(5)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:201	Limni	39.876	25.156	balkanlar	bizans	var	var(7)	3	sehir_tarihce_osm:ad+30km
+yerlesimler.js:203	Hanya	35.512	24.019	balkanlar	bizans	var	var(8)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:205	Magosa	35.125	33.94	anadolu	kibris-krallik	var	var(7)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:208	Bozcaada	39.833	26.045	balkanlar	bizans	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler.js:211	İstanköy	36.893	27.288	balkanlar	bizans	yok	var(3)	3	
+yerlesimler.js:212	Nakşa	37.097	25.3825	balkanlar	naksa-dukaligi	var	var(27)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-h:3km
+yerlesimler.js:220	Girit (Resmo)	35.365	24.482	balkanlar	bizans	var	var(9)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:224	Kerç	45.356	36.467	dogu-avrupa	rusya	var	var(5)	3	yer_kat:3km
+yerlesimler.js:225	Azak	47.113	39.423	dogu-avrupa	rusya	var	var(13)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:226	Taman	45.2029	36.7172	italya	cenova	yok	var(1)	3	
+yerlesimler.js:227	Anapa	44.894	37.316	sibirya-bozkir	altinorda	var	var(4)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler.js:228	Sohum	43.001	41.023	kafkasya	gurcistan	var	var(8)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:229	Soçi (Sâşe)	43.585	39.723	kafkasya	cerkez	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:230	Tuapse	44.103	39.08	kafkasya	cerkez	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:231	Kuban (Yekaterinodar)	45.035	38.975	sibirya-bozkir	altinorda	yok	var(2)	3	
+yerlesimler.js:234	Tarki (Tarku)	42.98	47.5	iran	safevi	yok	var(1)	3	
+yerlesimler.js:238	Nahçıvan	39.209	45.412	iran	buyuk-selcuklu	var	var(11)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz) kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:240	Zagem (Kaheti)	41.7	45.78	kafkasya	gurcistan	var	var(1)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:242	Gence	40.683	46.36	dogu-asya	mogol-imparatorlugu	var	var(21)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:244	Bakü	40.372	49.867	kafkasya	sirvansah	var	var(11)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz) kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:245	Derbend	42.058	48.29	iran	safevi	var	var(23)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:246	Kabala	40.984	47.845	iran	ilhanli	yok	yok	3	
+yerlesimler.js:247	Ereş	40.74	47.31	iran	ilhanli	yok	yok	3	
+yerlesimler.js:248	Şâbüran	41.21	48.98	iran	safevi	yok	yok	3	
+yerlesimler.js:249	Mahmudâbâd	39.38	49.24	iran	safevi	yok	yok	3	
+yerlesimler.js:251	Kirmanşah	34.314	47.065	iran	annazi	var	var(13)	3	kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:252	Luristan	33.487	48.356	iran	ilhanli	var	var(7)	3	sehir_tarihce_osm:3km kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:255	Hama	35.132	36.75	suriye-filistin	eyyubi-hama	var	var(14)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:257	Beyrut	33.888	35.495	suriye-filistin	kudus-kralligi	var	var(15)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:260	Gazze	31.502	34.466	misir-sudan	memluk	yok	var(10)	3	
+yerlesimler.js:261	Akkâ	32.928	35.082	suriye-filistin	kudus-kralligi	var	var(18)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:263	Kerkük	35.468	44.392	iran	safevi	var	var(4)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_bagdat:ad(koordinatsiz)
+yerlesimler.js:265	Kerbelâ	32.616	44.025	iran	safevi	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:268	Lahsa	25.383	49.588	arabistan	benihalid	var	var(19)	3	sehir_tarihce_osm:3km sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-b:3km yer_kat:3km
+yerlesimler.js:271	Cidde	21.543	39.173	misir-sudan	memluk	var	var(16)	3	sehir_tarihce_osm:ad+30km sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-a:ad+30km
+yerlesimler.js:272	Yenbu	24.089	38.063	arabistan	mekke-serifligi	var	var(5)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:273	Dir'iye (Necid)	24.733	46.575	arabistan	suud-birinci	var	var(6)	3	kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:276	Zebîd	14.195	43.317	arabistan	resuli	var	var(26)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:277	Aden	12.786	45.019	arabistan	tahiri	var	var(16)	3	sehir_tarihce_osm:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:280	Taiz	13.579	44.022	arabistan	yemen-zeydi	var	var(7)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:281	Hudeyde	14.798	42.954	arabistan	yemen-zeydi	var	var(4)	3	sehir_tarihce_osm:3km
+yerlesimler.js:282	Ebha (Asir)	18.216	42.505	arabistan	eyyubi-yemen	var	var(3)	3	sehir_tarihce_osm:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:285	İskenderiye	31.2	29.919	balkanlar	bizans	var	var(48)	3	sehir_tarihce_arkeoloji_d3-misir-afrika:3km sehir_tarihce_k3_g1:3km sehir_tarihce_osm:3km
+yerlesimler.js:286	Dimyat	31.418	31.814	misir-sudan	eyyubi	var	var(11)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:287	Asyut	27.181	31.183	mezopotamya	abbasi	var	var(13)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:288	Asvan	24.089	32.899	mezopotamya	abbasi	var	var(11)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_misir:3km
+yerlesimler.js:290	Dongola	19.169	30.474	misir-sudan	nube	yok	var(9)	3	
+yerlesimler.js:292	Sennar	13.551	33.616	misir-sudan	nube	yok	var(7)	3	
+yerlesimler.js:293	Kordofan (Ubeyyid)	13.184	30.218	misir-sudan	funj	var	var(9)	3	sehir_tarihce_osm:3km
+yerlesimler.js:295	Masavva	15.6117	39.4723	dogu-afrika	dahlak-sultanligi	var	var(26)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:297	Misrata	32.378	15.092	kuzey-afrika	hafsi	yok	var(2)	3	
+yerlesimler.js:299	Derne	32.766	22.639	italya	italya	var	var(5)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:302	Kayrevan	35.678	10.096	kuzey-afrika	hafsi	var	var(19)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km
+yerlesimler.js:303	Gabes	33.881	10.098	kuzey-afrika	hafsi	yok	var(4)	3	
+yerlesimler.js:305	Konstantin	36.365	6.615	kuzey-afrika	hafsi	var	var(9)	3	sehir_tarihce_osm:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip2:3km
+yerlesimler.js:306	Oran	35.699	-0.634	kuzey-afrika	zeyyani	var	var(10)	3	sehir_tarihce_osm:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:307	Tilimsan	34.882	-1.315	kuzey-afrika	zeyyani	var	var(51)	3	sehir_tarihce_osm:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:308	Batum	41.6439	41.642	dogu-avrupa	sovyet-rusya	var	var(17)	3	kaynakli_halka_fetih:ad(koordinatsiz) kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:309	Ahıska	41.643	42.986	iran	ilhanli	var	var(10)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:310	Sayda	33.563	35.369	suriye-filistin	kudus-kralligi	yok	var(10)	3	
+yerlesimler.js:311	Yafa	32.054	34.755	misir-sudan	memluk	yok	var(5)	3	
+yerlesimler.js:312	Nablus	32.221	35.254	misir-sudan	memluk	var	var(9)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:315	Rakka	35.953	39.008	misir-sudan	memluk	yok	var(1)	3	
+yerlesimler.js:321	Zeyla	11.355	43.473	dogu-afrika	zeyla-emirlik	yok	var(28)	3	
+yerlesimler.js:322	Hacıbey (Odessa)	46.485	30.733	dogu-avrupa	sovyet-rusya	var	var(12)	3	yer_kat:3km
+yerlesimler.js:324	Graz	47.071	15.439	orta-avrupa	almanya	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler.js:325	Zagreb	45.815	15.982	balkanlar	yugoslavya	var	var(7)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-h:3km
+yerlesimler.js:326	Ljubljana	46.056	14.506		avusturya	var	var(4)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler.js:327	Bratislava	48.146	17.107	orta-avrupa	cekoslovakya	var	var(19)	3	sehir_tarihce_k3:3km
+yerlesimler.js:329	Lvov	49.84	24.03	dogu-avrupa	sovyet-rusya	var	var(13)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:330	Kiev	50.451	30.524	dogu-avrupa	sovyet-rusya	var	var(50)	3	sehir_tarihce_k3_g2:3km
+yerlesimler.js:331	Harkov	49.994	36.231	dogu-avrupa	sovyet-rusya	var	var(9)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:332	Voronej	51.672	39.184	sibirya-bozkir	altinorda	yok	var(1)	3	
+yerlesimler.js:337	Palermo	38.116	13.361	italya	sicilya-kralligi	var	var(37)	3	sehir_tarihce_k3_g2:3km yer_kat:3km
+yerlesimler.js:347	Addis	9.03	38.74	dogu-afrika	habesistan	var	var(14)	3	yer_kat:3km
+yerlesimler.js:348	Ndjamena	12.107	15.045	bati-avrupa	fransa-cumhuriyet	yok	var(1)	3	
+yerlesimler.js:349	Agadez	16.973	7.991	bati-afrika	agadez-sultanligi	var	var(5)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_afrika_gb:3km
+yerlesimler.js:356	Lyon	45.76	4.836	italya	roma-cumhuriyeti	yok	var(8)	3	
+yerlesimler.js:357	Marsilya	43.297	5.37	bati-avrupa	massalia	yok	var(11)	3	
+yerlesimler.js:358	Bordo	44.838	-0.579	bati-avrupa	ingiltere	var	var(10)	3	sehir_tarihce_k3:3km
+yerlesimler.js:361	Porto	41.15	-8.611	iberya	portekiz	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler.js:363	Sevilla	37.389	-5.984	iberya	kastilya	var	var(16)	3	sehir_tarihce_k3:3km
+yerlesimler.js:366	Valensiya	39.47	-0.377	iberya	aragon	yok	var(13)	3	
+yerlesimler.js:372	Hamburg	53.551	9.994	orta-avrupa	almanya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:373	Münih	48.137	11.575	orta-avrupa	almanya	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler.js:374	Frankfurt	50.11	8.682	orta-avrupa	almanya	var	var(13)	3	sehir_tarihce_k3:3km
+yerlesimler.js:375	Köln	50.938	6.96	orta-avrupa	almanya	var	var(6)	3	sehir_tarihce_k3_g2:3km
+yerlesimler.js:376	Dresden	51.05	13.738	orta-avrupa	saksonya	yok	var(3)	3	
+yerlesimler.js:377	Łódź	51.759	19.457	orta-avrupa	almanya	yok	var(2)	3	
+yerlesimler.js:378	Częstochowa	50.811	19.121	dogu-avrupa	polonya-erken	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:379	Kielce	50.874	20.628		avusturya	yok	var(8)	3	
+yerlesimler.js:380	Radom (Polonya)	51.403	21.147		avusturya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler.js:381	Hradec Králové	50.209	15.833	orta-avrupa	cekoslovakya	yok	yok	3	
+yerlesimler.js:382	Olomouc	49.594	17.251	orta-avrupa	bohemya	yok	yok	3	
+yerlesimler.js:383	Brno	49.195	16.608	orta-avrupa	bohemya	yok	var(3)	3	
+yerlesimler.js:384	Breslau (Wrocław)	51.11	17.032	orta-avrupa	silezya-piast	yok	var(3)	3	
+yerlesimler.js:385	Liegnitz (Legnica)	51.211	16.161	dogu-avrupa	polonya-erken	yok	var(4)	3	
+yerlesimler.js:386	Oppeln (Opole)	50.672	17.926	orta-avrupa	silezya-piast	yok	yok	3	
+yerlesimler.js:387	Glatz (Kłodzko)	50.437	16.657	orta-avrupa	bohemya	yok	yok	3	
+yerlesimler.js:388	Gleiwitz (Gliwice)	50.294	18.666	orta-avrupa	silezya-piast	yok	yok	3	
+yerlesimler.js:389	Kattowitz (Katowice)	50.259	19.02	orta-avrupa	almanya	yok	var(2)	3	
+yerlesimler.js:390	Broumov (Braunau)	50.586	16.331	orta-avrupa	cekoslovakya	yok	var(1)	3	
+yerlesimler.js:391	Jeseník (Freiwaldau)	50.229	17.204	orta-avrupa	cekoslovakya	yok	yok	3	
+yerlesimler.js:398	Königsberg	54.71	20.512	orta-avrupa	teuton-devleti	yok	var(11)	3	
+yerlesimler.js:399	Gdansk	54.352	18.646	dogu-avrupa	polonya-erken	var	var(11)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:400	Poznan	52.409	16.932	dogu-avrupa	polonya-erken	yok	var(8)	3	
+yerlesimler.js:403	Minsk	53.904	27.561	dogu-avrupa	sovyet-rusya	yok	var(5)	3	
+yerlesimler.js:406	St. Petersburg	59.934	30.335	dogu-avrupa	rusya	var	var(70)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:407	Smolensk	54.783	32.045	dogu-avrupa	rusya	yok	var(13)	3	
+yerlesimler.js:408	Tula	54.193	37.617	dogu-avrupa	cernigov-knezligi	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:409	Nijniy Novgorod	56.296	43.936	sibirya-bozkir	altinorda	yok	var(4)	3	
+yerlesimler.js:410	Vologda	59.22	39.891	dogu-avrupa	novgorod	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:412	Ufa	54.738	55.972	dogu-avrupa	rusya	var	yok	kd3	sehir_tarihce_k12:3km
+yerlesimler.js:413	Perm	58.01	56.229	dogu-avrupa	rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:414	Saratov	51.533	46.034	dogu-avrupa	rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:ad+30km
+yerlesimler.js:415	Tsaritsyn	48.708	44.514	dogu-avrupa	rusya	var	var(3)	3	yer_kat:3km
+yerlesimler.js:416	Rostov (Don)	47.236	39.712	dogu-avrupa	rusya	var	var(1)	3	yer_kat:3km
+yerlesimler.js:417	Poltava	49.589	34.551	sibirya-bozkir	altinorda	yok	var(5)	3	
+yerlesimler.js:422	Kum	34.64	50.876	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:427	Kuveyt	29.376	47.977	arabistan	benihalid	var	var(5)	3	sehir_tarihce_osm:3km
+yerlesimler.js:429	Doha (Katar)	25.285	51.531	arabistan	katar	var	var(6)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler.js:432	Salala	17.02	54.09	arabistan	nebhani	yok	yok	3	
+yerlesimler.js:433	Mukalla	14.5329	49.1248	bati-avrupa	ingiltere	var	var(1)	3	sehir_tarihce_osm:3km
+yerlesimler.js:434	Berbera	10.44	45.014	dogu-afrika	adal	var	var(11)	3	yer_kat:3km
+yerlesimler.js:438	Rabat	34.021	-6.841	italya	roma-imp	var	var(7)	3	sehir_tarihce_k3:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km
+yerlesimler.js:439	Tanca	35.777	-5.804	italya	roma-imp	var	var(15)	3	sehir_tarihce_k3:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km
+yerlesimler.js:440	Agadir	30.428	-9.598	kuzey-afrika	merini	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler.js:465	İstolni Belgrad	47.19	18.411	orta-avrupa	macaristan-habsburg	var	var(11)	3	sehir_tarihce_k3:3km
+yerlesimler.js:466	Peşte	47.494	19.06	orta-avrupa	macaristan-habsburg	var	var(42)	3	sehir_tarihce_k12:3km sehir_tarihce_k3:3km
+yerlesimler.js:468	Varad (Oradea)	47.053	21.941	orta-avrupa	macaristan-habsburg	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler.js:470	Hotin	48.51	26.492	dogu-avrupa	sovyet-rusya	var	var(12)	3	yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:471	Bender	46.831	29.481	dogu-avrupa	sovyet-rusya	var	var(12)	3	yer_kat:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:474	Bar (Podolya)	49.074	27.674	dogu-avrupa	lehistan	var	var(5)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler.js:475	Meciboj (Mejibuji)	49.431	27.415	dogu-avrupa	lehistan	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler.js:476	Yazlofça (Yazlovets)	48.951	25.435	dogu-avrupa	lehistan	yok	var(1)	3	
+yerlesimler.js:477	Plevne	43.417	24.617		suleyman-celebi	var	var(5)	3	sehir_tarihce_osm:3km
+yerlesimler.js:478	Yenipazar (Novi Pazar)	43.14	20.517	balkanlar	sirbistan-nemanjic	var	var(5)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-h:3km
+yerlesimler.js:479	Korfu	39.624	19.922	italya	sicilya-kralligi	var	var(15)	3	sehir_tarihce_k3:3km
+yerlesimler.js:480	Ayamavra (Lefkada)	38.716	20.643	italya	venedik	var	var(3)	kd3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:486	Antep	37.066	37.383	misir-sudan	memluk	yok	var(2)	3	
+yerlesimler.js:492	Gümülcine	41.122	25.406		suleyman-celebi	var	var(8)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:499	Karahisâr-ı Sâhib (Afyon)	38.757	30.538	anadolu	germiyan	var	var(7)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler.js:542	Ösek (Osijek)	45.554	18.695	italya	roma-imp	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler.js:544	Varadin (Petrovaradin)	45.248	19.862	italya	roma-imp	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler.js:547	Segedin (Szeged)	46.253	20.148	orta-avrupa	macaristan-habsburg	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler.js:551	Solnok (Szolnok)	47.174	20.198	orta-avrupa	macaristan-habsburg	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler.js:552	Zigetvar	46.049	17.804	orta-avrupa	macaristan-habsburg	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler.js:599	Kalyari (Cagliari)	39.22	9.12	italya	roma-cumhuriyeti	var	var(9)	3	yer_kat:3km
+yerlesimler.js:600	Sasari (Sassari)	40.73	8.56	italya	cenova	var	var(2)	3	yer_kat:3km
+yerlesimler.js:601	Bastia (Korsika)	42.7	9.45	bati-avrupa	fransa-cumhuriyet	yok	var(8)	3	
+yerlesimler.js:602	Ayacyo (Ajaccio)	41.9322	8.7391	bati-avrupa	fransa-cumhuriyet	yok	var(1)	3	
+yerlesimler.js:603	Mayorka (Palma)	39.57	2.65	iberya	aragon	yok	var(5)	3	
+yerlesimler.js:604	Menorka (Mahon)	39.89	4.26	iberya	ispanya	yok	var(3)	3	
+yerlesimler.js:605	İbiza	38.91	1.43	iberya	mayorka	yok	yok	3	
+yerlesimler.js:623	Messina	38.194	15.554	italya	sicilya-kralligi	var	var(14)	3	yer_kat:3km
+yerlesimler.js:624	Sirakuza	37.075	15.287	italya	sicilya-kralligi	var	var(9)	3	yer_kat:3km
+yerlesimler.js:625	Trapani	38.017	12.537	italya	roma-cumhuriyeti	var	var(2)	3	yer_kat:3km
+yerlesimler.js:660	Hoy	38.5503	44.9521	iran	afsar	var	var(4)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:661	Selmâs (Dilman)	38.1983	44.7654	iran	afsar	yok	var(1)	3	
+yerlesimler.js:662	Merend	38.4328	45.775	iran	afsar	var	var(2)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:663	Culfa	38.955	45.63	iran	ilhanli	yok	yok	3	
+yerlesimler.js:667	Mâku	39.2942	44.5142	iran	afsar	var	var(2)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:668	Halhâl	37.6167	48.5333	iran	afsar	yok	yok	3	
+yerlesimler.js:669	Mîyandoab	36.9694	46.1028	iran	ilhanli	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:670	Sakkız	36.2461	46.2631	iran	ilhanli	yok	yok	3	
+yerlesimler.js:671	Senendec (Sine)	35.3111	46.9961	iran	safevi	var	var(1)	3	sehir_tarihce_osm:3km
+yerlesimler.js:672	Merîvan	35.5214	46.1772	iran	ilhanli	yok	yok	3	
+yerlesimler.js:673	Bîcâr	35.8728	47.6053	iran	kacar	yok	yok	3	
+yerlesimler.js:678	Hille	32.4828	44.4353	mezopotamya	mezyedi	var	var(12)	3	sehir_tarihce_osm:3km yer_kat:3km kaynakli_halka_bagdat:ad(koordinatsiz)
+yerlesimler.js:679	Necef	31.9956	44.3153	iran	safevi	yok	var(2)	3	
+yerlesimler.js:683	Erbil	36.1911	44.0092	iran	safevi	yok	var(8)	3	
+yerlesimler.js:704	Kâşân	33.9831	51.41	iran	irak-selcuklu	yok	var(2)	3	
+yerlesimler.js:705	Sâve	35.0213	50.3566	iran	ilhanli	yok	var(2)	3	
+yerlesimler.js:707	Dâmgan	36.1683	54.3481	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:708	Bistâm	36.4831	55.01	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:709	Erâk (Sultânâbâd)	34.0917	49.6892	iran	kacar	yok	var(1)	3	
+yerlesimler.js:710	Gulpâygân	33.455	50.2881	iran	ilhanli	yok	yok	3	
+yerlesimler.js:711	Erdistan	33.3769	52.3697	iran	ilhanli	yok	yok	3	
+yerlesimler.js:712	Nâin	32.8597	53.085	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:714	Dizfûl	32.3831	48.4014	iran	ilhanli	yok	yok	3	
+yerlesimler.js:716	Ahvaz	31.32	48.6692	iran	ilhanli	yok	var(2)	3	
+yerlesimler.js:717	Havîza	31.4572	48.075	iran	ilhanli	var	var(2)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:718	Râmhürmüz	31.2803	49.6039	iran	ilhanli	yok	yok	3	
+yerlesimler.js:719	Behbehân	30.5956	50.2417	iran	ilhanli	yok	yok	3	
+yerlesimler.js:720	Abâdân	30.3392	48.3042	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:722	Erdekân	32.31	54.0169	iran	ilhanli	yok	yok	3	
+yerlesimler.js:723	Kâin	33.7272	59.1831	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:724	Bîrcend	32.865	59.2211	iran	ilhanli	yok	yok	3	
+yerlesimler.js:726	Mînâb	27.1467	57.08	iran	ilhanli	yok	yok	3	
+yerlesimler.js:727	Lâr	27.6811	54.3175	iran	muzafferi	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler.js:728	Kâzerûn	29.6186	51.6542	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:729	Fesâ	28.9383	53.6483	iran	ilhanli	yok	yok	3	
+yerlesimler.js:730	Dârâb	28.7519	54.5444	iran	ilhanli	yok	yok	3	
+yerlesimler.js:731	Cehrom	28.5	53.56	iran	ilhanli	yok	yok	3	
+yerlesimler.js:732	Firûzâbâd	28.8438	52.5713	iran	ilhanli	yok	yok	3	
+yerlesimler.js:733	Ebrekûh	31.1281	53.2814	iran	ilhanli	yok	yok	3	
+yerlesimler.js:734	Buşehr	28.9684	50.8385	iran	safevi	yok	yok	3	
+yerlesimler.js:735	Bender Rîg	29.4975	50.6451	iran	ilhanli	yok	yok	3	
+yerlesimler.js:736	Bender Lengeh	26.5578	54.8811	iran	ilhanli	yok	yok	3	
+yerlesimler.js:738	Bem	29.1061	58.3572	iran	ilhanli	yok	yok	3	
+yerlesimler.js:739	Rafsencân	30.4078	55.9944	iran	ilhanli	yok	yok	3	
+yerlesimler.js:740	Cîruft	28.675	57.7372	iran	ilhanli	yok	var(1)	3	
+yerlesimler.js:741	Câsk	25.645	57.7742	iran	ilhanli	yok	yok	3	
+yerlesimler.js:742	Çâhbahâr	25.2919	60.6431	iran	ilhanli	yok	yok	3	
+yerlesimler.js:744	Hâş	28.2211	61.2158	iran	ilhanli	yok	yok	3	
+yerlesimler.js:747	Tûs	36.4869	59.5222	iran	buyuk-selcuklu	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler.js:748	Sebzevâr	36.2133	57.6792	iran	ilhanli	var	var(17)	3	sehir_tarihce_k3:3km
+yerlesimler.js:749	Turşiz (Kâşmer)	35.2383	58.4658	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:750	Turbet-i Haydariye	35.2739	59.2189	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:751	Turbet-i Câm	35.2439	60.6242	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:752	Serahs	36.5386	61.1611	iran	sasani	var	var(5)	3	sehir_tarihce_k3:3km sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler.js:754	Kûçân	37.1	58.51	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:755	Bocnûrd	37.4744	57.3292	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:756	Esferâyin	37.0769	57.51	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:758	Bender Enzeli	37.4728	49.4622	iran	safevi	yok	yok	3	
+yerlesimler.js:760	Âmül	36.4697	52.3508	iran	mazenderan-marasi	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler.js:761	Bârfurûş (Bâbil)	36.5461	52.6789	iran	mazenderan-marasi	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:762	Ferahâbâd	36.72	52.86	iran	afsar	yok	var(1)	3	
+yerlesimler.js:763	Eşref (Behşehr)	36.6942	53.5522	iran	mazenderan-marasi	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:764	Esterâbâd (Gürgân)	36.8381	54.4342	iran	ilhanli	var	var(21)	3	sehir_tarihce_k3:3km
+yerlesimler.js:765	Astara	38.4292	48.8728	iran	safevi	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:766	Lenkeran	38.7539	48.8508	iran	safevi	var	var(4)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:767	Salyan	39.5958	48.98	iran	safevi	yok	var(2)	3	
+yerlesimler.js:768	Kuba	41.3603	48.5158	iran	ilhanli	yok	yok	3	
+yerlesimler.js:772	Ordubad	38.9053	46.0242	iran	ilhanli	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler.js:773	Katîf	26.557	49.9873	arabistan	benihalid	var	var(7)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler.js:779	Suhâr	24.3472	56.7092	arabistan	nebhani	yok	var(1)	3	
+yerlesimler.js:780	Sûr	22.555	59.52	arabistan	nebhani	yok	var(2)	3	
+yerlesimler.js:783	Şârika	25.3573	55.3911	bati-avrupa	ingiltere	var	var(1)	3	sehir_tarihce_osm:ad+30km sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-a:ad+30km
+yerlesimler.js:784	Krasnovodsk (Türkmenbaşı)	40.022	52.96	dogu-avrupa	rusya	var	var(2)	3	yer_kat:3km
+yerlesimler.js:796	Küngrat	43.0833	58.8333	orta-asya	hive	yok	yok	3	
+yerlesimler.js:797	Nesâ	37.9667	58.1833	iran	ilhanli	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler.js:798	Ebîverd	37.9	59.6167	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler.js:812	Tırgovişte	44.925	25.457	orta-avrupa	macaristan	yok	var(2)	3	
+yerlesimler.js:817	Krayova (Craiova)	44.33	23.795	orta-avrupa	macaristan	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler.js:826	Aksaray	38.3687	34.037	anadolu	selcuklu	var	var(10)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-c:3km
+yerlesimler.js:827	Travnik	44.226	17.665		bosna	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler.js:828	İzvornik (Zvornik)	44.386	19.103		bosna	var	var(1)	3	kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler.js:829	Foça (Foča)	43.506	18.779		bosna	var	var(2)	3	sehir_tarihce_k3:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler.js:831	Yayça (Jajce)	44.342	17.271		bosna	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler.js:834	Dubrovnik	42.65	18.094	italya	venedik	var	var(16)	3	sehir_tarihce_k3:3km
+yerlesimler.js:835	Elbing (Elbląg)	54.1522	19.4088	orta-avrupa	teuton-devleti	yok	yok	3	
+yerlesimler.js:836	Torun (Toruń)	53.0103	18.6047	orta-avrupa	prusya	yok	var(4)	3	
+yerlesimler.js:837	Askalân	31.6648	34.55052			var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-i:3km
+yerlesimler.js:838	Dvin	40.01186	44.58079			yok	var(11)	3	
+yerlesimler_kirim.js:2	Akmescid	44.9521	34.1024	sibirya-bozkir	kirim	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_kirim.js:3	Karasubazar	45.0556	34.6	sibirya-bozkir	kirim	var	var(3)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_kirim.js:4	Eski Kırım (Solhat)	45.0281	35.1078	sibirya-bozkir	kirim	var	var(3)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_kirim.js:5	Sudak (Suğdak)	44.8494	34.9747	sibirya-bozkir	altinorda	var	var(8)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_seyrek.js:7	Trebinye	42.711	18.344		bosna	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-i:3km
+yerlesimler_seyrek.js:8	Vişegrad	43.783	19.288		bosna	yok	var(1)	3	
+yerlesimler_seyrek.js:9	Tuzla (Bosna)	44.538	18.676		avusturya	var	var(7)	3	sehir_tarihce_osm:3km
+yerlesimler_ek2.js:0	Koniçe (Konjic)	43.652	17.962		bosna	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_ek2.js:1	Visoko	43.989	18.179		bosna	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler_ek2.js:3	Mankup	44.5942	33.8044	sibirya-bozkir	altinorda	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ek3.js:0	Sebte (Ceuta)	35.889	-5.318	kuzey-afrika	merini	var	var(7)	3	sehir_tarihce_k3:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip2:3km
+yerlesimler_ek3.js:1	Melîle (Melilla)	35.292	-2.938	italya	roma-imp	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek3.js:6	Safi (Asfi)	32.299	-9.237	kuzey-afrika	sadi	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ek3.js:7	Azemmûr	33.289	-8.342	kuzey-afrika	merini	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek3.js:8	Arzila (Asilah)	35.466	-6.036	kuzey-afrika	merini	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_ek5.js:0	Gyula (Göle)	46.65	21.277	orta-avrupa	macaristan-habsburg	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_afrika.js:0	Demenhûr (Damanhur)	31.034	30.47	mezopotamya	abbasi	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:5	Mahalletülkübrâ	30.97	31.168	misir-sudan	memluk	yok	yok	3	
+yerlesimler_afrika.js:6	Şibînülkûm (Menûfiye)	30.552	31.011	misir-sudan	memluk	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:8	Mansûre	31.038	31.38	misir-sudan	eyyubi	var	var(4)	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:11	Bilbîs (Şarkiye)	30.417	31.567	mezopotamya	abbasi	yok	var(1)	3	
+yerlesimler_afrika.js:22	Benî Süveyf	29.074	31.098	misir-sudan	memluk	var	yok	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_afrika.js:23	Feyyûm	29.309	30.842	mezopotamya	abbasi	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:25	Minye	28.109	30.75	misir-sudan	memluk	var	yok	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_afrika.js:30	Cirge (Girga)	26.34	31.891	misir-sudan	memluk	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:32	Kına	26.164	32.716	mezopotamya	abbasi	var	yok	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_afrika.js:43	Benzert (Bizerte)	37.276	9.858	italya	roma-cumhuriyeti	yok	var(9)	3	
+yerlesimler_afrika.js:49	Kef	36.174	8.705	italya	roma-cumhuriyeti	yok	var(1)	3	
+yerlesimler_afrika.js:53	Sûse	35.826	10.638	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip:3km
+yerlesimler_afrika.js:57	Kafsa	34.425	8.784	kuzey-afrika	hafsi	yok	var(7)	3	
+yerlesimler_afrika.js:68	Garyân	32.172	13.02	kuzey-afrika	hafsi	yok	yok	3	
+yerlesimler_afrika.js:83	Mustagānim	35.931	0.089	kuzey-afrika	zeyyani	var	var(2)	3	sehir_tarihce_osm:3km sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_afrika_magrip2:3km
+yerlesimler_afrika.js:107	Adua	14.17	38.898	dogu-afrika	habesistan	var	var(2)	3	yer_kat:3km
+yerlesimler_afrika.js:108	Şire	14.103	38.283	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:109	Adigrat	14.277	39.462	dogu-afrika	habesistan	yok	var(1)	3	
+yerlesimler_afrika.js:110	Mekelle	13.497	39.475	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:112	Lalibela	12.032	39.047	dogu-afrika	habesistan	yok	var(1)	3	
+yerlesimler_afrika.js:113	Sokota	12.628	39.033	dogu-afrika	habesistan	yok	var(1)	3	
+yerlesimler_afrika.js:114	Debre Tabor	11.855	38.017	dogu-afrika	habesistan	yok	var(2)	3	
+yerlesimler_afrika.js:115	Bahır Dar	11.56	37.4	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:117	Dese	11.133	39.633	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:118	Debre Berhan	9.68	39.532	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:119	Ankober	9.583	39.733	dogu-afrika	habesistan	yok	var(3)	3	
+yerlesimler_afrika.js:120	Cîcîga	9.35	42.8	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_afrika.js:122	Tacûra	11.788	42.882	dogu-afrika	adal	yok	var(1)	3	
+yerlesimler_afrika.js:123	Merka	1.716	44.772	dogu-afrika	makdisu-sultanligi	yok	var(1)	3	
+yerlesimler_afrika.js:124	Beledveyne	4.735	45.204	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:125	Baydoa	3.114	43.649	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:126	Obbiya	5.351	48.527	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:127	Galkayo	6.77	47.431	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:128	Garove	8.406	48.483	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:129	Ayl	7.98	49.816	dogu-afrika	somali	yok	yok	3	
+yerlesimler_afrika.js:130	Bender Kāsım (Bosaso)	11.284	49.183	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:131	Alula	11.968	50.75	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:132	Hafun	10.437	51.259	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:133	Bulhar	10.401	44.458	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:134	Hargeysa	9.56	44.065	dogu-afrika	adal	yok	var(3)	3	
+yerlesimler_afrika.js:135	Burao	9.522	45.534	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:136	Lasanod	8.477	47.361	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:137	Erigavo	10.616	47.368	dogu-afrika	adal	yok	yok	3	
+yerlesimler_afrika.js:142	Berber	18.017	33.983	misir-sudan	nube	yok	var(2)	3	
+yerlesimler_afrika.js:143	Şendî	16.691	33.433	misir-sudan	nube	yok	var(2)	3	
+yerlesimler_afrika.js:144	Vad Medenî	14.401	33.519	misir-sudan	nube	yok	yok	3	
+yerlesimler_afrika.js:152	Kesela	15.451	36.4	misir-sudan	mehdi	var	var(1)	3	sehir_tarihce_osm:3km
+yerlesimler_afrika.js:160	Cimma (Jiren)	7.673	36.834		kaffa	yok	var(2)	3	
+yerlesimler_afrika.js:161	Sodo (Vollayta)	6.86	37.762	dogu-afrika	habesistan	yok	var(1)	3	
+yerlesimler_afrika.js:162	Yirgalem (Sidamo)	6.75	38.41	dogu-afrika	habesistan	yok	var(1)	3	
+yerlesimler_ek.js:3	Sopron	47.685	16.59	italya	roma-imp	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ek.js:5	Şibenik (Sebenico)	43.734	15.894	orta-avrupa	macaristan	yok	var(6)	3	
+yerlesimler_ek.js:6	Split (Spalato)	43.511	16.439	orta-avrupa	macaristan	yok	var(9)	3	
+yerlesimler_ek.js:7	Kotor (Cattaro)	42.421	18.768		avusturya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ek.js:8	Knin	44.041	16.197	orta-avrupa	macaristan	var	var(7)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler_ek.js:14	Bihaç (Bihać)	44.817	15.871	orta-avrupa	macaristan	var	var(3)	kd3	sehir_tarihce_osm:3km kaynakli_halka_fetih:ad(koordinatsiz)
+yerlesimler_ortaasya2.js:0	Kızılarvat	38.9833	56.2833	orta-asya	turkmen	yok	var(1)	3	
+yerlesimler_ortaasya2.js:1	Aşkabad	37.95	58.38	dogu-avrupa	sovyet-rusya	var	var(5)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ortaasya2.js:6	Guryev (Atyrau)	47.11	51.92	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_avrupa.js:0	York	53.959	-1.081	bati-avrupa	ingiltere	yok	var(8)	3	
+yerlesimler_avrupa.js:1	Norwich	52.628	1.297	bati-avrupa	ingiltere	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:2	Bristol	51.454	-2.588	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_avrupa.js:3	Exeter	50.718	-3.534	italya	roma-imp	yok	var(1)	3	
+yerlesimler_avrupa.js:4	Plymouth	50.376	-4.143	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_avrupa.js:5	Southampton	50.91	-1.404	italya	roma-imp	yok	var(1)	3	
+yerlesimler_avrupa.js:6	Dover	51.128	1.313	bati-avrupa	ingiltere	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:7	Newcastle	54.978	-1.617	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:8	Carlisle	54.893	-2.933	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:9	Lincoln	53.234	-0.539	italya	roma-imp	yok	var(1)	3	
+yerlesimler_avrupa.js:10	Nottingham	52.951	-1.15	bati-avrupa	ingiltere	yok	var(1)	3	
+yerlesimler_avrupa.js:11	Oxford	51.752	-1.258	bati-avrupa	ingiltere	yok	var(1)	3	
+yerlesimler_avrupa.js:12	Cambridge	52.205	0.119	italya	roma-imp	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:13	Manchester	53.483	-2.244	italya	roma-imp	yok	var(1)	3	
+yerlesimler_avrupa.js:14	Liverpool	53.408	-2.992	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:15	Birmingham	52.48	-1.903	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:16	Hull	53.745	-0.336	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:17	Shrewsbury	52.708	-2.754	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_avrupa.js:18	Penzance	50.119	-5.537	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:19	Cardiff	51.482	-3.179	italya	roma-imp	yok	yok	3	
+yerlesimler_avrupa.js:21	Aberystwyth	52.4153	-4.0829	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:22	Harlech	52.8606	-4.1089	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:23	Douglas (Man)	54.15	-4.482	bati-avrupa	iskocya	yok	yok	3	
+yerlesimler_avrupa.js:25	Glasgow	55.861	-4.25	bati-avrupa	iskocya	yok	var(1)	3	
+yerlesimler_avrupa.js:26	Aberdeen	57.15	-2.094	bati-avrupa	iskocya	yok	yok	3	
+yerlesimler_avrupa.js:27	Inverness	57.478	-4.225	bati-avrupa	iskocya	yok	yok	3	
+yerlesimler_avrupa.js:28	Perth (İskoçya)	56.396	-3.437	bati-avrupa	iskocya	yok	var(6)	3	
+yerlesimler_avrupa.js:29	Dumfries	55.07	-3.603	bati-avrupa	iskocya	yok	var(1)	3	
+yerlesimler_avrupa.js:30	Wick	58.439	-3.093	bati-avrupa	iskocya	yok	yok	3	
+yerlesimler_avrupa.js:31	Stornoway	58.2111	-6.387	bati-avrupa	iskocya	yok	yok	3	
+yerlesimler_avrupa.js:32	Kirkwall (Orkney)	58.981	-2.96	kuzey-avrupa	orkney-kontlugu	yok	var(3)	3	
+yerlesimler_avrupa.js:33	Lerwick (Shetland)	60.153	-1.145	kuzey-avrupa	orkney-kontlugu	yok	yok	3	
+yerlesimler_avrupa.js:34	Cork	51.898	-8.471	bati-avrupa	ingiltere	yok	var(3)	3	
+yerlesimler_avrupa.js:35	Waterford	52.259	-7.11	bati-avrupa	ingiltere	yok	var(1)	3	
+yerlesimler_avrupa.js:36	Limerick	52.664	-8.623	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_avrupa.js:37	Galway	53.272	-9.049	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:38	Dundalk	54.005	-6.401	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:39	Drogheda	53.715	-6.352	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:40	Mullingar	53.526	-7.341	bati-avrupa	ingiltere	yok	yok	3	
+yerlesimler_avrupa.js:41	Ennis	52.844	-8.984	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:42	Castlebar	53.857	-9.298	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:43	Tuam	53.515	-8.851	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:44	Monaghan	54.249	-6.969	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:45	Cavan	53.991	-7.36	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:46	Armagh	54.348	-6.654	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:47	Newry	54.178	-6.338	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:48	Enniskillen	54.345	-7.639	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:49	Omagh	54.599	-7.303	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:50	Kilkenny	52.654	-7.244	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_avrupa.js:51	Wexford	52.336	-6.463	bati-avrupa	ingiltere	yok	var(1)	3	
+yerlesimler_avrupa.js:52	Sligo	54.27	-8.472	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:53	Athlone	53.424	-7.941	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:54	Donegal	54.654	-8.11	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:55	Tralee	52.271	-9.7	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:56	Belfast	54.597	-5.93	bati-avrupa	irlanda	yok	var(1)	3	
+yerlesimler_avrupa.js:57	Derry	54.997	-7.309	bati-avrupa	irlanda	yok	yok	3	
+yerlesimler_avrupa.js:60	Brest	48.39	-4.486	italya	roma-cumhuriyeti	yok	var(1)	3	
+yerlesimler_avrupa.js:61	Quimper	47.996	-4.102	italya	roma-cumhuriyeti	yok	yok	3	
+yerlesimler_avrupa.js:62	Vannes	47.658	-2.76	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:63	Saint-Malo	48.6479	-2.0242	bati-avrupa	bretanya	yok	yok	3	
+yerlesimler_avrupa.js:64	Rouen	49.443	1.099	bati-avrupa	fransa	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:65	Caen	49.183	-0.37	bati-avrupa	fransa	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:66	Cherbourg	49.64	-1.616	bati-avrupa	fransa	yok	yok	3	
+yerlesimler_avrupa.js:67	Le Havre	49.494	0.108	bati-avrupa	fransa	yok	yok	3	
+yerlesimler_avrupa.js:68	Calais	50.951	1.858	bati-avrupa	fransa	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:69	Amiens	49.895	2.302	bati-avrupa	fransa	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:70	Arras	50.291	2.777	bati-avrupa	fransa	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:71	Lille	50.633	3.059	bati-avrupa	fransa	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:72	Reims	49.258	4.031	bati-avrupa	fransa	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:73	Troyes	48.297	4.074	bati-avrupa	fransa	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:74	Orléans	47.902	1.909	italya	roma-cumhuriyeti	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:75	Tours	47.394	0.685	bati-avrupa	fransa	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:76	Bourges	47.081	2.399	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:77	Angers	47.474	-0.554	bati-avrupa	fransa	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:78	Le Mans	48.006	0.199	bati-avrupa	fransa	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:79	Poitiers	46.58	0.34	bati-avrupa	fransa	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:80	Clermont-Ferrand	45.777	3.087	italya	roma-cumhuriyeti	yok	yok	3	
+yerlesimler_avrupa.js:81	Périgueux	45.184	0.721	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:82	Cahors	44.448	1.441	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:83	Toulouse	43.604	1.444	bati-avrupa	fransa	var	var(10)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:84	La Rochelle	46.16	-1.152	bati-avrupa	fransa	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:85	Limoges	45.834	1.262	bati-avrupa	fransa	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:86	Bayonne	43.493	-1.475	italya	roma-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:87	Pau	43.296	-0.37	bati-avrupa	fransa	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:89	Besançon	47.238	6.024	orta-avrupa	almanya	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:91	Metz	49.12	6.176	orta-avrupa	almanya	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:92	Nancy	48.692	6.184	bati-avrupa	lorraine-dukaligi	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:93	Strazburg	48.573	7.752	orta-avrupa	almanya	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:94	Colmar	48.079	7.358	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:95	Mulhouse	47.75	7.34	orta-avrupa	almanya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:96	Aix-en-Provence	43.53	5.447	italya	roma-cumhuriyeti	yok	var(1)	3	
+yerlesimler_avrupa.js:97	Toulon	43.1222	5.9384	italya	roma-cumhuriyeti	yok	var(3)	3	
+yerlesimler_avrupa.js:98	Grenoble	45.188	5.724	italya	roma-cumhuriyeti	yok	var(1)	3	
+yerlesimler_avrupa.js:99	Avignon	43.949	4.806	bati-avrupa	provence-kontlugu	yok	var(5)	3	
+yerlesimler_avrupa.js:103	Nice	43.71	7.262	italya	sardinya-piyemonte	yok	var(2)	3	
+yerlesimler_avrupa.js:105	Montpellier	43.611	3.877	iberya	mayorka	yok	var(1)	3	
+yerlesimler_avrupa.js:106	Narbonne	43.184	3.003	italya	roma-cumhuriyeti	yok	var(10)	3	
+yerlesimler_avrupa.js:107	Perpignan	42.699	2.895	bati-avrupa	fransa	yok	var(2)	3	
+yerlesimler_avrupa.js:110	Burgos	42.344	-3.697	iberya	kastilya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:111	Salamanca	40.965	-5.664	iberya	kastilya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:112	León	42.599	-5.567	iberya	kastilya	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:113	Oviedo	43.362	-5.849	iberya	kastilya	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:114	Santander	43.4667	-3.8115	iberya	kastilya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:115	Bilbao	43.263	-2.935	iberya	ispanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:116	San Sebastián	43.318	-1.981	iberya	kastilya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:117	Cuenca	40.071	-2.134	iberya	kastilya	yok	yok	3	
+yerlesimler_avrupa.js:118	Badajoz	38.879	-6.97	iberya	kastilya	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:119	Kurtuba (Córdoba)	37.888	-4.779	iberya	kastilya	var	var(31)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:120	Jaén	37.779	-3.79	iberya	endulus-emevi	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:121	Murcia	37.984	-1.129	iberya	kastilya	yok	var(14)	3	
+yerlesimler_avrupa.js:122	Cartagena	37.606	-0.986	iberya	kastilya	yok	var(4)	3	
+yerlesimler_avrupa.js:123	Cádiz	36.527	-6.289	iberya	kastilya	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:124	A Coruña	43.371	-8.396	iberya	ispanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:125	Santiago de Compostela	42.878	-8.545	iberya	kastilya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:126	Vigo	42.24	-8.72	italya	roma-imp	yok	var(5)	3	
+yerlesimler_avrupa.js:127	Málaga	36.721	-4.421	iberya	granada	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:128	Ronda	36.742	-5.167	italya	roma-imp	yok	yok	3	
+yerlesimler_avrupa.js:129	Almería	36.834	-2.464	iberya	granada	yok	var(5)	3	
+yerlesimler_avrupa.js:132	Teruel	40.344	-1.106	iberya	ispanya	yok	yok	3	
+yerlesimler_avrupa.js:133	Tarragona	41.119	1.245	iberya	aragon	yok	var(1)	3	
+yerlesimler_avrupa.js:134	Lleida	41.617	0.62	iberya	aragon	yok	var(1)	3	
+yerlesimler_avrupa.js:135	Girona	41.983	2.824	iberya	aragon	yok	var(1)	3	
+yerlesimler_avrupa.js:136	Alicante	38.345	-0.481	iberya	kastilya	yok	yok	3	
+yerlesimler_avrupa.js:137	Motril	36.745	-3.52	iberya	granada	yok	yok	3	
+yerlesimler_avrupa.js:138	Mojácar	37.139	-1.851	iberya	granada	yok	yok	3	
+yerlesimler_avrupa.js:139	Dénia	38.841	0.107	italya	roma-imp	yok	yok	3	
+yerlesimler_avrupa.js:140	Castellón	39.986	-0.037	iberya	aragon	yok	yok	3	
+yerlesimler_avrupa.js:141	Tortosa	40.812	0.521	iberya	aragon	yok	var(2)	3	
+yerlesimler_avrupa.js:142	Huelva	37.261	-6.944	italya	roma-imp	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:143	Lagos (Algarve)	37.102	-8.674	iberya	portekiz	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:144	Setúbal	38.524	-8.893	iberya	portekiz	yok	yok	3	
+yerlesimler_avrupa.js:145	Aveiro	40.641	-8.654	iberya	portekiz	yok	yok	3	
+yerlesimler_avrupa.js:147	Coimbra	40.203	-8.41	iberya	portekiz	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:148	Braga	41.545	-8.427	iberya	portekiz	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:149	Évora	38.571	-7.907	iberya	portekiz	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:150	Faro	37.019	-7.93	iberya	portekiz	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:151	Bragança	41.806	-6.757	iberya	portekiz	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:152	Ribe	55.328	8.766	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:153	Viborg (Jutland)	56.451	9.402	kuzey-avrupa	danimarka	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:154	Aarhus	56.157	10.21	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:155	Aalborg	57.048	9.919	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:156	Odense	55.396	10.389	kuzey-avrupa	danimarka	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:157	Kolding	55.491	9.472	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:158	Nykøbing (Falster)	54.766	11.876	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:159	Rønne (Bornholm)	55.1	14.702	kuzey-avrupa	danimarka	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:160	Flensburg	54.783	9.436	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:161	Aabenraa	55.044	9.417	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:162	Sønderborg	54.9116	9.7932	kuzey-avrupa	danimarka	yok	yok	3	
+yerlesimler_avrupa.js:163	Haderslev	55.249	9.49	kuzey-avrupa	danimarka	yok	yok	3	
+yerlesimler_avrupa.js:164	Tønder	54.934	8.866	kuzey-avrupa	danimarka	yok	yok	3	
+yerlesimler_avrupa.js:165	Uppsala	59.858	17.639	kuzey-avrupa	isvec-birlik-oncesi	var	var(11)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:166	Örebro	59.274	15.207	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:167	Linköping	58.41	15.621	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:168	Kalmar	56.661	16.362	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:169	Jönköping	57.782	14.161	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_1:3km
+yerlesimler_avrupa.js:170	Karlstad	59.379	13.504	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:171	Gävle	60.675	17.142	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_1:3km
+yerlesimler_avrupa.js:172	Falun	60.606	15.626	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:173	Göteborg	57.707	11.967	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:174	Sundsvall	62.391	17.306	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_avrupa.js:175	Visby (Gotland)	57.635	18.294	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:176	Malmö	55.605	13	kuzey-avrupa	danimarka	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:177	Helsingborg	56.05	12.7005	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:178	Halmstad	56.674	12.857	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:179	Uddevalla	58.348	11.938	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_avrupa.js:181	Stavanger	58.94	5.68	kuzey-avrupa	norvec-kralligi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:ad+30km
+yerlesimler_avrupa.js:182	Tønsberg	59.268	10.407	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:183	Kristiansand	58.147	7.996	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:184	Trondheim	63.431	10.395	kuzey-avrupa	norvec-kralligi	var	var(6)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:185	Turku (Åbo)	60.452	22.267	kuzey-avrupa	isvec-birlik-oncesi	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_avrupa.js:188	Rotterdam	51.924	4.478	bati-avrupa	hollanda	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:189	Utrecht	52.091	5.121	orta-avrupa	almanya	var	var(12)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:190	Groningen	53.219	6.567	bati-avrupa	hollanda	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:191	Leeuwarden	53.201	5.8	bati-avrupa	hollanda	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:192	Nijmegen	51.843	5.852	orta-avrupa	almanya	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:193	Middelburg	51.498	3.61	bati-avrupa	hollanda	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:194	Leiden	52.16	4.497	bati-avrupa	hollanda-kontlugu	yok	var(3)	3	
+yerlesimler_avrupa.js:195	Delft	52.012	4.357	bati-avrupa	hollanda	yok	yok	3	
+yerlesimler_avrupa.js:196	Arnhem	51.985	5.899	bati-avrupa	hollanda	yok	var(1)	3	
+yerlesimler_avrupa.js:197	's-Hertogenbosch	51.698	5.304	bati-avrupa	hollanda	yok	var(2)	3	
+yerlesimler_avrupa.js:198	Breda	51.572	4.768	bati-avrupa	hollanda	yok	var(3)	3	
+yerlesimler_avrupa.js:199	Maastricht	50.851	5.691	bati-avrupa	hollanda	var	var(12)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:200	Brüj (Brugge)	51.209	3.225	bati-avrupa	flandre	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:201	Gent	51.054	3.717	bati-avrupa	flandre	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:202	Ypres	50.851	2.886	bati-avrupa	flandre	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:203	Anvers (Antwerpen)	51.22	4.4	bati-avrupa	brabant-dukaligi	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:205	Namur	50.467	4.867	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:206	Mons	50.454	3.952	bati-avrupa	hainaut-kontlugu	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:207	Tournai	50.607	3.389	bati-avrupa	fransa	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:208	Liège	50.633	5.567	bati-avrupa	liege-piskoposlugu	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:209	Hasselt	50.931	5.333	orta-avrupa	almanya	yok	var(4)	3	
+yerlesimler_avrupa.js:210	Sint-Truiden	50.817	5.187	bati-avrupa	liege-piskoposlugu	yok	yok	3	
+yerlesimler_avrupa.js:211	Huy	50.519	5.241	bati-avrupa	liege-piskoposlugu	yok	yok	3	
+yerlesimler_avrupa.js:212	Dinant	50.261	4.912	bati-avrupa	liege-piskoposlugu	yok	yok	3	
+yerlesimler_avrupa.js:213	Tongeren	50.78	5.465	italya	roma-imp	yok	var(2)	3	
+yerlesimler_avrupa.js:214	Eupen	50.628	6.036	orta-avrupa	almanya	yok	var(6)	3	
+yerlesimler_avrupa.js:215	Malmedy	50.425	6.028	orta-avrupa	almanya	yok	var(1)	3	
+yerlesimler_avrupa.js:217	Bremen	53.076	8.807	orta-avrupa	almanya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:218	Lübeck	53.866	10.687	orta-avrupa	lubeck-sehri	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:219	Kiel	54.323	10.14	orta-avrupa	almanya	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:220	Rostock	54.089	12.14	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:221	Stettin (Szczecin)	53.428	14.553	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:222	Stralsund	54.309	13.082	orta-avrupa	almanya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:223	Hannover	52.375	9.732	orta-avrupa	braunschweig-luneburg-dukaligi	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:224	Münster	51.961	7.626	orta-avrupa	almanya	var	var(7)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:225	Dortmund	51.514	7.466	orta-avrupa	almanya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:226	Aachen	50.776	6.084	orta-avrupa	almanya	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:229	Saarbrücken	49.233	6.997	orta-avrupa	almanya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:230	Trier	49.75	6.637	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:231	Mainz	49.999	8.273	orta-avrupa	almanya	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:232	Kassel	51.313	9.492	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:233	Magdeburg	52.131	11.64	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:234	Leipzig	51.34	12.375	orta-avrupa	saksonya	yok	var(7)	3	
+yerlesimler_avrupa.js:235	Erfurt	50.978	11.029	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:236	Würzburg	49.791	9.953	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:237	Nürnberg	49.454	11.077	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:238	Regensburg	49.019	12.097	orta-avrupa	almanya	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:239	Augsburg	48.371	10.898	orta-avrupa	almanya	var	var(8)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:240	Ulm	48.401	9.987	orta-avrupa	almanya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:241	Stuttgart	48.776	9.183	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:242	Freiburg	47.999	7.842	orta-avrupa	almanya	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:243	Konstanz	47.66	9.175	orta-avrupa	almanya	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:244	Luzern	47.05	8.31	orta-avrupa	isvicre	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:245	Zürih	47.377	8.541	orta-avrupa	almanya	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:246	Bern	46.948	7.447	orta-avrupa	isvicre	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:247	Basel	47.559	7.588	orta-avrupa	almanya	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:248	Cenevre	46.204	6.143	orta-avrupa	almanya	yok	var(14)	3	
+yerlesimler_avrupa.js:249	Lozan	46.52	6.632	orta-avrupa	isvicre	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_avrupa.js:250	Verona	45.438	10.992	orta-avrupa	almanya	var	var(8)	3	yer_kat:3km
+yerlesimler_avrupa.js:251	Padova	45.407	11.876	orta-avrupa	almanya	var	var(12)	3	yer_kat:3km
+yerlesimler_avrupa.js:257	Udine	46.065	13.235		avusturya	var	var(2)	3	yer_kat:3km
+yerlesimler_avrupa.js:263	Trieste	45.65	13.77		avusturya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler_avrupa.js:264	Trento	46.067	11.121	orta-avrupa	almanya	yok	var(6)	3	
+yerlesimler_avrupa.js:271	Ravenna	44.418	12.203	italya	papalik	var	var(15)	3	yer_kat:3km
+yerlesimler_avrupa.js:272	Rimini	44.06	12.565	italya	papalik	yok	var(4)	3	
+yerlesimler_avrupa.js:273	Ancona	43.617	13.517	italya	ancona-cumhuriyeti	var	var(10)	3	yer_kat:3km
+yerlesimler_avrupa.js:274	Perugia	43.111	12.389	italya	perugia-komunu	var	var(2)	3	yer_kat:3km
+yerlesimler_avrupa.js:278	L'Aquila	42.35	13.399	italya	sicilya-kralligi	var	yok	3	yer_kat:3km
+yerlesimler_avrupa.js:279	Bari	41.117	16.871	italya	sicilya-kralligi	var	var(5)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_avrupa.js:280	Foggia	41.462	15.544	italya	sicilya-kralligi	var	var(1)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_avrupa.js:281	Cosenza	39.298	16.253	italya	sicilya-kralligi	var	var(2)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_avrupa.js:282	Reggio Calabria	38.111	15.647	italya	sicilya-kralligi	var	var(5)	3	yer_kat:3km
+yerlesimler_avrupa.js:283	Katanya (Catania)	37.502	15.087	italya	sicilya-kralligi	var	var(2)	3	yer_kat:3km
+yerlesimler_asya.js:2	Mathura	27.492	77.673	guney-asya	babur-imparatorlugu	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:3	Mîrat (Meerut)	28.984	77.706	guney-asya	babur-imparatorlugu	yok	var(1)	3	
+yerlesimler_asya.js:4	Pânipat	29.39	76.977	guney-asya	babur-imparatorlugu	yok	var(4)	3	
+yerlesimler_asya.js:7	Etâve (Etawah)	26.776	79.015	guney-asya	babur-imparatorlugu	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:8	Kannauc	27.055	79.916	guney-asya	delhi-sultanligi	var	var(13)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:9	Kanpûr	26.45	80.332	guney-asya	delhi-sultanligi	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:15	Gorakhpûr	26.76	83.373	guney-asya	delhi-sultanligi	yok	yok	3	
+yerlesimler_asya.js:19	Amritsar	31.634	74.873	guney-asya	babur-imparatorlugu	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km yer_kat:3km
+yerlesimler_asya.js:21	Câlandhar (Jalandhar)	31.326	75.576	guney-asya	babur-imparatorlugu	yok	yok	3	
+yerlesimler_asya.js:22	Ludhiyana	30.901	75.857	guney-asya	babur-imparatorlugu	yok	yok	3	
+yerlesimler_asya.js:23	Siyâlkot	32.494	74.531	guney-asya	delhi-sultanligi	yok	var(6)	3	
+yerlesimler_asya.js:25	Râvalpindi	33.598	73.048	guney-asya	babur-imparatorlugu	yok	yok	3	
+yerlesimler_asya.js:26	Peşâver	34.008	71.578	orta-asya	kusan	var	var(6)	3	yer_kat:3km
+yerlesimler_asya.js:38	Karaçi	24.861	67.01	guney-asya	sind	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:39	Şikârpûr	27.955	68.638	guney-asya	babur-imparatorlugu	yok	var(2)	3	
+yerlesimler_asya.js:41	Ecmîr (Ajmer)	26.45	74.639	guney-asya	cahamana	var	var(7)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:47	Bikaner	28.022	73.312	guney-asya	racput	yok	var(2)	3	
+yerlesimler_asya.js:50	Sûrat	21.17	72.831	guney-asya	racput	var	var(1)	3	yer_kat:3km
+yerlesimler_asya.js:51	Kanbâyet (Khambhat)	22.317	72.62	guney-asya	racput	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:54	Bhuc (Kutch)	23.242	69.667	guney-asya	racput	yok	yok	3	
+yerlesimler_asya.js:55	Patan (Anhilvâda)	23.85	72.126	guney-asya	caulukya	yok	var(3)	3	
+yerlesimler_asya.js:57	Broaç (Bharuch)	21.7153	72.995	guney-asya	racput	yok	yok	3	
+yerlesimler_asya.js:59	Uccayn (Ujjain)	23.179	75.785	guney-asya	sakalar-bati-satraplar	var	var(4)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:60	İndor (Indore)	22.72	75.858	guney-asya	babur-imparatorlugu	yok	var(2)	3	
+yerlesimler_asya.js:63	Nagpûr	21.146	79.088	guney-asya	gond-kralliklari	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:64	Cabalpûr (Jabalpur)	23.181	79.987	guney-asya	gond-kralliklari	yok	yok	3	
+yerlesimler_asya.js:66	Gayâ	24.796	85.001	guney-asya	bengal-sultanligi	yok	yok	3	
+yerlesimler_asya.js:68	Bhâgalpûr	25.244	86.982	guney-asya	bengal-sultanligi	yok	yok	3	
+yerlesimler_asya.js:71	Râcmahal	25.052	87.836	guney-asya	babur-imparatorlugu	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:74	Sonârgâon	23.646	90.599	guney-asya	bengal-sultanligi	yok	var(1)	3	
+yerlesimler_asya.js:75	Çatgam (Chittagong)	22.335	91.834	guney-asya	delhi-sultanligi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:77	Hûglî (Hooghly)	22.897	88.39	guney-asya	bengal-sultanligi	yok	yok	3	
+yerlesimler_asya.js:78	Çandernagor	22.862	88.357	bati-avrupa	fransa	yok	var(1)	3	
+yerlesimler_asya.js:80	Puri	19.813	85.831	guney-asya	orissa	yok	yok	3	
+yerlesimler_asya.js:81	Bâlâsor (Balasore)	21.494	86.933	guney-asya	orissa	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:82	Gauhâtî (Guwahati)	26.145	91.736	guney-asya	ahom	yok	yok	3	
+yerlesimler_asya.js:86	Evrengâbâd	19.877	75.343	guney-asya	ahmednagar	var	var(3)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:97	Satâra	17.686	74.007	guney-asya	yadava	yok	yok	3	
+yerlesimler_asya.js:98	Kolhapûr	16.705	74.243	guney-asya	yadava	yok	var(3)	3	
+yerlesimler_asya.js:99	Nâsik	19.998	73.79	guney-asya	yadava	yok	yok	3	
+yerlesimler_asya.js:101	Çaul (Chaul)	18.56	72.92	guney-asya	yadava	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:102	Goa	15.503	73.912	guney-asya	yadava	var	var(4)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:103	Mangalor	12.914	74.856	guney-asya	hoysala	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:106	Kurnûl (Kurnool)	15.828	78.037	guney-asya	kakatiya	yok	yok	3	
+yerlesimler_asya.js:107	Bangalor	12.972	77.594	guney-asya	vijayanagara	yok	var(1)	3	
+yerlesimler_asya.js:109	Meysûr (Mysore)	12.295	76.639	guney-asya	vijayanagara	yok	var(1)	3	
+yerlesimler_asya.js:111	Pondişeri	11.934	79.83	bati-avrupa	fransa	yok	var(2)	3	
+yerlesimler_asya.js:112	Nagapatnam	10.766	79.843	guney-asya	pandya	yok	yok	3	
+yerlesimler_asya.js:113	Tranquebar (Tharangambadi)	11.029	79.851	guney-asya	pandya	yok	yok	3	
+yerlesimler_asya.js:122	Kannûr (Cannanore)	11.868	75.355	guney-asya	kalikut	yok	yok	3	
+yerlesimler_asya.js:123	Kolam (Quilon)	8.893	76.614	guney-asya	travankur	var	var(5)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_asya.js:125	Masulipatnam	16.19	81.13	guney-asya	kakatiya	yok	yok	3	
+yerlesimler_asya.js:126	Râcahmundry	17.005	81.777	guney-asya	kakatiya	yok	yok	3	
+yerlesimler_asya.js:127	Vişâkapatnam	17.687	83.219	guney-asya	kakatiya	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:128	Kolombo	6.927	79.861	guney-asya	seylan-sinhala	var	var(1)	3	yer_kat:3km
+yerlesimler_asya.js:130	Yafna (Jaffna)	9.661	80.026	guney-asya	yafna	yok	yok	3	
+yerlesimler_asya.js:132	Tiencin (Tianjin)	39.084	117.201	dogu-asya	ming-hanedani	yok	var(1)	3	
+yerlesimler_asya.js:133	Baoding	38.874	115.464	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:134	Zhengding	38.144	114.573	dogu-asya	yuan-hanedani	var	var(4)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:136	Cehol (Chengde)	40.976	117.939	dogu-asya	qing-hanedani	yok	var(1)	3	
+yerlesimler_asya.js:138	Taiyuan	37.87	112.548	dogu-asya	song	var	var(10)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:139	Pingyao	37.201	112.175	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:141	Luoyang	34.663	112.434	dogu-asya	tang	var	var(32)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:142	Kaifeng	34.797	114.307	dogu-asya	song	var	var(27)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:143	Zhengzhou	34.746	113.625	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:144	Anyang	36.097	114.393	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:145	Jinan	36.651	117.12	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:146	Qufu	35.597	116.991	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:147	Qingdao (Tsingtau)	36.067	120.383	orta-avrupa	almanya	yok	var(2)	3	
+yerlesimler_asya.js:148	Yantai (Chefoo)	37.464	121.448	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:151	Yangzhou	32.394	119.413	dogu-asya	yuan-hanedani	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:152	Suzhou	31.299	120.585	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:153	Hangzhou	30.274	120.155	dogu-asya	song	var	var(11)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:154	Shaoxing	30.03	120.58	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:155	Şanghay	31.23	121.474	dogu-asya	yuan-hanedani	var	var(7)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:156	Ningbo	29.868	121.544	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:157	Wenzhou	27.994	120.699	dogu-asya	dongou	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:158	Hefei	31.821	117.227	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:160	Wuchang (Wuhan)	30.5657	114.3337	dogu-asya	yuan-hanedani	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:164	Nanchang	28.682	115.858	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:165	Jiujiang	29.705	116.001	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:166	Çengdu (Chengdu)	30.572	104.066	dogu-asya	yuan-hanedani	var	var(11)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:167	Çongqing (Chongqing)	29.563	106.552	dogu-asya	yuan-hanedani	var	var(2)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:170	Guiyang	26.647	106.63	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:171	Lanzhou	36.061	103.834	dogu-asya	sui-qin-xue-ju	var	var(2)	3	yer_kat:3km
+yerlesimler_asya.js:174	Dunhuang	40.142	94.662	dogu-asya	yuan-hanedani	yok	var(3)	3	
+yerlesimler_asya.js:175	Xining	36.617	101.778	dogu-asya	yuan-hanedani	var	var(8)	3	yer_kat:3km
+yerlesimler_asya.js:177	Kanton (Guangzhou)	23.129	113.264	dogu-asya	yuan-hanedani	var	var(15)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:178	Makao (Macau)	22.199	113.544	dogu-asya	yuan-hanedani	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:179	Hong Kong	22.32	114.17	bati-avrupa	ingiltere	yok	var(2)	3	
+yerlesimler_asya.js:180	Zeytun (Quanzhou)	24.876	118.6653	dogu-asya	qing-hanedani	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:183	Zhangzhou	24.513	117.647	dogu-asya	qing-hanedani	var	var(1)	3	yer_kat:3km
+yerlesimler_asya.js:184	Chaozhou	23.657	116.622	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:185	Swatow (Shantou)	23.363	116.6798	dogu-asya	yuan-hanedani	yok	yok	3	
+yerlesimler_asya.js:186	Guilin	25.274	110.29	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:187	Nanning	22.817	108.367	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_asya.js:188	Beihai (Pakhoi)	21.481	109.12	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:189	Qiongzhou (Haikou)	20.044	110.199	dogu-asya	cin-cumhuriyeti	yok	var(2)	3	
+yerlesimler_asya.js:190	Danzhou (Zhonghe)	19.7428	109.3449	dogu-asya	cin-cumhuriyeti	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:191	Yazhou (Yacheng)	18.3759	109.1647	dogu-asya	cin-cumhuriyeti	yok	yok	3	
+yerlesimler_asya.js:192	Wanzhou (Wancheng)	18.7989	110.3816	dogu-asya	cin-cumhuriyeti	yok	yok	3	
+yerlesimler_asya.js:193	Wuzhou	23.477	111.279	dogu-asya	yuan-hanedani	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:195	Taipei	25.033	121.565	dogu-asya	qing-hanedani	yok	var(2)	3	
+yerlesimler_asya.js:196	Penghu (Pescadores)	23.571	119.579	dogu-asya	ming-hanedani	yok	var(2)	3	
+yerlesimler_asya.js:202	Kinmen (Jincheng / Quemoy)	24.43	118.32	dogu-asya	yuan-hanedani	yok	var(1)	3	
+yerlesimler_asya.js:203	Matsu (Nangan)	26.16	119.95	dogu-asya	yuan-hanedani	yok	yok	3	
+yerlesimler_asya.js:212	Cilin (Jilin)	43.837	126.55	dogu-asya	qing-hanedani	yok	var(1)	3	
+yerlesimler_asya.js:215	Harbin	45.803	126.534	dogu-asya	qing-hanedani	yok	var(2)	3	
+yerlesimler_asya.js:216	Lüşun (Port Arthur)	38.813	121.216	dogu-asya	yuan-hanedani	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:221	Hohhot (Kuku-hoto)	40.842	111.75	dogu-asya	kuzey-yuan	yok	var(1)	3	
+yerlesimler_asya.js:224	Hotan	37.117	79.928	orta-asya	khotan	var	var(7)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_asya.js:225	Kuça (Kuqa)	41.717	82.962	dogu-asya	tang	var	var(6)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_asya.js:227	Hâmi (Kumul)	42.828	93.515	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_asya.js:228	Ürümçi (Dihua)	43.826	87.616	dogu-asya	qing-hanedani	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_asya.js:233	Çamdo (Chamdo)	31.14	97.178	dogu-asya	tibet-ganden-phodrang	yok	yok	3	
+yerlesimler_asya.js:236	Yan'an	36.585	109.49	dogu-asya	yuan-hanedani	var	var(1)	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:237	Wuhu	31.326	118.376	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:238	Şaoguan	24.801	113.591	dogu-asya	yuan-hanedani	var	yok	3	yer_kat:3km
+yerlesimler_asya.js:239	Leizhou	20.914	110.096	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km yer_kat:3km
+yerlesimler_asya.js:240	Baotou	40.657	109.84	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_asya.js:245	Nara	34.685	135.805	dogu-asya	kamakura	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:246	Sakai	34.573	135.483	dogu-asya	kamakura	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:249	Sunpu (Şizuoka)	34.976	138.383	dogu-asya	kamakura	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:250	Nagoya	35.181	136.907	dogu-asya	edo-bakufu	yok	yok	3	
+yerlesimler_asya.js:252	Kanazawa	36.562	136.649	dogu-asya	muromachi	yok	yok	3	
+yerlesimler_asya.js:253	Fukui	36.064	136.22	dogu-asya	azuchi-momoyama	yok	yok	3	
+yerlesimler_asya.js:254	Niigata	37.916	139.036	dogu-asya	kamakura	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:255	Matsue	35.468	133.049	dogu-asya	edo-bakufu	yok	yok	3	
+yerlesimler_asya.js:257	Okayama	34.655	133.919	dogu-asya	kamakura	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:258	Hiroşima	34.385	132.455	dogu-asya	azuchi-momoyama	yok	var(1)	3	
+yerlesimler_asya.js:259	Yamaguchi	34.186	131.471	dogu-asya	muromachi	yok	yok	3	
+yerlesimler_asya.js:260	Matsuyama	33.839	132.766	dogu-asya	azuchi-momoyama	yok	yok	3	
+yerlesimler_asya.js:262	Hakata (Fukuoka)	33.59	130.402	dogu-asya	kamakura	var	var(11)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:263	Nagazaki	32.75	129.878	dogu-asya	azuchi-momoyama	yok	var(4)	3	
+yerlesimler_asya.js:265	Funai (Ōita)	33.238	131.613	dogu-asya	kamakura	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:266	Kagoşima	31.596	130.557	dogu-asya	kamakura	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:267	Tsuşima (İzuhara)	34.203	129.289	dogu-asya	kamakura	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:268	Sendai	38.268	140.87	dogu-asya	azuchi-momoyama	yok	yok	3	
+yerlesimler_asya.js:270	Morioka	39.702	141.155	dogu-asya	azuchi-momoyama	yok	yok	3	
+yerlesimler_asya.js:274	Sapporo	43.062	141.354	dogu-asya	meiji-japonya	yok	yok	3	
+yerlesimler_asya.js:278	Pyongyang	39.019	125.738	dogu-asya	goryeo	var	var(10)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:279	Pusan	35.18	129.076	dogu-asya	goryeo	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:280	İnçon (Incheon)	37.456	126.705	dogu-asya	goryeo	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:282	Kyongcu (Gyeongju)	35.856	129.225	dogu-asya	goryeo	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:283	Taegu (Daegu)	35.872	128.601	dogu-asya	goryeo	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:284	Concu (Jeonju)	35.824	127.148	dogu-asya	goryeo	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:285	Kongcu (Gongju)	36.455	127.119	dogu-asya	goryeo	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:286	Çungcu (Chungju)	36.991	127.926	dogu-asya	goryeo	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:288	Hamhung	39.918	127.536	dogu-asya	goryeo	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:289	Wonsan	39.147	127.444	dogu-asya	yuan-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:291	Ceccu (Jeju)	33.5	126.531	dogu-asya	goryeo	var	var(10)	3	sehir_tarihce_k3:3km
+yerlesimler_asya.js:296	Rangun (Yangon)	16.871	96.199	guneydogu-asya	hanthawaddy	yok	var(1)	3	
+yerlesimler_asya.js:300	Moulmein (Mawlamyine)	16.4821	97.6462	guneydogu-asya	pagan	var	var(1)	3	yer_kat:3km
+yerlesimler_asya.js:301	Tavoy (Dawei)	14.084	98.199	guneydogu-asya	ingiliz-burma	yok	yok	3	
+yerlesimler_asya.js:302	Mergui (Myeik)	12.4361	98.613	guneydogu-asya	ingiliz-burma	yok	yok	3	
+yerlesimler_asya.js:308	Nakhon Si Thammarat	8.432	99.964	guneydogu-asya	srivijaya	yok	var(3)	3	
+yerlesimler_asya.js:313	Battambang	13.096	103.203	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_asya.js:315	Oudong	11.808	104.744	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_asya.js:321	Hội An (Faifo)	15.88	108.335	guneydogu-asya	campa	yok	yok	3	
+yerlesimler_asya.js:322	Đà Nẵng (Tourane)	16.054	108.202	guneydogu-asya	campa	yok	yok	3	
+yerlesimler_asya.js:329	Penang (George Town)	5.414	100.329	guneydogu-asya	ingiliz-malaya	yok	var(1)	3	
+yerlesimler_asya.js:330	Kedah (Alor Setar)	6.121	100.36	guneydogu-asya	ingiliz-malaya	yok	var(1)	3	
+yerlesimler_asya.js:331	Patani	6.869	101.25	guneydogu-asya	langkasuka	yok	var(1)	3	
+yerlesimler_asya.js:332	Perak (Kuala Kangsar)	4.767	100.937	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_asya.js:333	Kuala Lumpur	3.139	101.687	guneydogu-asya	ingiliz-malaya	yok	var(3)	3	
+yerlesimler_asya.js:336	Padang	-0.947	100.417	guneydogu-asya	hollanda-dogu-hint	yok	var(1)	3	
+yerlesimler_asya.js:338	Bengkulu (Bencoolen)	-3.7961	102.2722	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_asya.js:341	Semarang	-6.966	110.417	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_asya.js:342	Surabaya	-7.257	112.752	guneydogu-asya	hollanda-dogu-hint	yok	var(7)	3	
+yerlesimler_asya.js:348	Mataram (Lombok)	-8.583	116.117	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_asya.js:349	Brunei	4.903	114.939	guneydogu-asya	poni	yok	var(2)	3	
+yerlesimler_asya.js:353	Manado	1.474	124.842	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_asya.js:356	Ambon	-3.695	128.181	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_asya.js:358	Kupang	-10.178	123.597	guneydogu-asya	hollanda-dogu-hint	yok	var(1)	3	
+yerlesimler_asya.js:359	Dili	-8.556	125.56	guneydogu-asya	portekiz-timor	yok	var(5)	3	
+yerlesimler_asya.js:360	Manila	14.599	120.984	guneydogu-asya	ispanyol-filipinler	var	var(7)	3	yer_kat:3km
+yerlesimler_asya.js:361	Cebu	10.317	123.891	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_ek7.js:0	Ålesund	62.47	6.4	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek7.js:1	Molde	62.737	7.159	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:2	Kristiansund	63	8.2	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek7.js:3	Røros	62.575	11.385	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek7.js:4	Sogndal	61.23	7.1	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek7.js:5	Lillehammer	61.115	10.466	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:6	Hamar	60.795	11.068	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:7	Skien	59.209	9.609	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:8	Haugesund	59.413	5.268	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek7.js:9	Umeå	63.826	20.263	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:10	Härnösand	62.632	17.941	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:11	Mora	61.006	14.542	kuzey-avrupa	isvec-birlik-oncesi	yok	var(17)	3	
+yerlesimler_ek7.js:12	Västerås	59.6132	16.545	kuzey-avrupa	isvec-birlik-oncesi	var	var(2)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:13	Norrköping	58.588	16.186	kuzey-avrupa	isvec-birlik-oncesi	yok	var(1)	3	
+yerlesimler_ek7.js:14	Nyköping	58.753	17.009	kuzey-avrupa	isvec-birlik-oncesi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:15	Borås	57.721	12.94	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:16	Växjö	56.878	14.809	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:17	Kristianstad	56.031	14.152	kuzey-avrupa	danimarka	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek7.js:18	Karlskrona	56.25	15.6	kuzey-avrupa	danimarka	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_1:ad+30km
+yerlesimler_ek7.js:19	Östersund (Jämtland)	63.25	14.9	kuzey-avrupa	norvec-kralligi	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:ad+30km
+yerlesimler_ek7.js:20	Vaasa	63.096	21.616	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:21	Kokkola	63.838	23.132	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:22	Pori	61.487	21.797	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:23	Tampere	61.498	23.761	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:24	Jyväskylä	62.242	25.747	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:25	Kuopio	62.893	27.678	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:26	Iisalmi	63.558	27.188	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:27	Nurmes	63.6	29.4	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:28	Joensuu	62.601	29.763	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek7.js:30	Mikkeli	61.688	27.273	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek7.js:35	Šiauliai	55.934	23.315	dogu-avrupa	sovyet-rusya	var	var(2)	3	yer_kat:3km
+yerlesimler_ek7.js:36	Klaipėda (Memel)	55.703	21.144	dogu-avrupa	livonya-tarikati	var	var(5)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ek7.js:37	Polotsk	55.485	28.786	dogu-avrupa	polotsk-knezligi	var	var(1)	3	yer_kat:3km
+yerlesimler_ek7.js:38	Vitebsk	55.191	30.206	dogu-avrupa	sovyet-rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ek8.js:0	Mosjøen	65.837	13.192	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek8.js:1	Bodø	67.2933	14.4446	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:ad+30km
+yerlesimler_ek8.js:2	Tromsø	69.6527	19.0119	kuzey-avrupa	norvec-kralligi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek8.js:3	Alta	69.9689	23.2717	kuzey-avrupa	norvec-kralligi	yok	yok	3	
+yerlesimler_ek8.js:5	Luleå	65.6042	22.1547	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek8.js:6	Jokkmokk	66.6069	19.8265	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:7	Jukkasjärvi	67.8693	20.6737	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:8	Tornio	65.8482	24.1436	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:9	Oulu	65.0121	25.4651	kuzey-avrupa	isvec-birlik-oncesi	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_ek8.js:10	Rovaniemi	66.5039	25.7294	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:11	Sodankylä	67.4167	26.5833	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:12	İnari	68.9257	27.0337	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
+yerlesimler_ek8.js:13	Petsamo (Peçenga)	69.55	31.22	dogu-avrupa	sovyet-rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:ad+30km
+yerlesimler_ek8.js:15	Kandalakşa	67.155	32.4117	dogu-avrupa	novgorod	yok	yok	3	
+yerlesimler_ek8.js:16	Ponoy	67.0833	41.15	dogu-avrupa	novgorod	yok	yok	3	
+yerlesimler_ek8.js:17	Arhangelsk	64.5401	40.5433	dogu-avrupa	novgorod	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ek8.js:18	Mezen	65.8447	44.2394	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_ek8.js:20	Ust-Tsilma	65.4392	52.1508	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_ek14.js:3	Şehrisebz (Kiş)	39.058	66.833	orta-asya	cagatay	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ek14.js:4	Termez	37.224	67.278	iran	buyuk-selcuklu	var	var(6)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ek14.js:6	Külâb (Kulob)	37.91	69.78	orta-asya	cagatay	yok	yok	3	
+yerlesimler_ek15.js:2	Andican	40.783	72.35	orta-asya	cagatay	var	var(8)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km yer_kat:3km
+yerlesimler_ek15.js:3	Oş	40.514	72.804	orta-asya	cagatay	var	yok	3	yer_kat:3km
+yerlesimler_ek15.js:4	Hucend	40.284	69.622	dogu-asya	mogol-imparatorlugu	var	var(7)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km yer_kat:3km
+yerlesimler_ek15.js:5	Türkistan (Yesi)	43.302	68.253	orta-asya	cagatay	var	var(12)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ek17.js:0	Çernigov	51.4982	31.2893	dogu-avrupa	rusya	var	var(8)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ek17.js:1	Novgorod-Seversk	51.9874	33.262	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_ek17.js:3	Bryansk	53.2436	34.3639	dogu-avrupa	sovyet-rusya	yok	var(6)	3	
+yerlesimler_ek17.js:4	Kursk	51.7304	36.1926	dogu-avrupa	sovyet-rusya	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ek17.js:5	Orel	52.97	36.07	dogu-avrupa	sovyet-rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ek20.js:0	Çöçek (Tarbagatay)	46.75	82.98	orta-asya	cagatay	yok	yok	3	
+yerlesimler_ek20.js:1	Altay (Şara Sume)	47.87	88.12	orta-asya	cagatay	yok	yok	3	
+yerlesimler_ek19.js:0	Kerulen (Çoybalsan)	48.07	114.54	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek19.js:2	Öndörhaan (Hentiy)	47.32	110.66	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek19.js:4	Bulgan	48.81	103.53	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek19.js:5	Mörön (Hövsgöl)	49.63	100.16	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek21.js:0	Gobi-Altay (Yösönbulag)	46.37	96.26	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek21.js:1	Bayanhongor	46.19	100.72	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek21.js:2	Ömnögovi (Dalanzadgad)	43.57	104.42	dogu-asya	mogolistan	yok	yok	3	
+yerlesimler_ek21.js:3	Ejin (Hara-Hoto)	41.95	101.07	dogu-asya	yuan-hanedani	yok	yok	3	
+yerlesimler_ek24.js:0	Uzunköprü	41.267	26.688	anadolu	tbmm-turkiye	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-c:3km
+yerlesimler_ek24.js:1	Havsa	41.552	26.821	balkanlar	bizans	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler_ek24.js:2	Meriç (İpsala kuzeyi)	41.191	26.421		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:3	Orestiada (Kumçiftliği)	41.503	26.531		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:4	Sofulu (Soufli)	41.193	26.298		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:5	Dedeağaç (Alexandroupoli)	40.849	25.874	balkanlar	bulgaristan-kralligi	var	var(1)	3	sehir_tarihce_osm:3km
+yerlesimler_ek24.js:6	Lalapaşa	41.836	26.741		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:7	Kofçaz	41.936	27.176		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:8	Dereköy (Kırklareli)	41.943	27.401		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:9	Demirköy	41.822	27.762		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:10	İğneada	41.889	28.0258	balkanlar	bizans	yok	yok	3	
+yerlesimler_ek24.js:11	Mustafapaşa (Svilengrad)	41.766	26.207	balkanlar	bizans	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler_ek24.js:12	Elhova (Elhovo)	42.17	26.573		suleyman-celebi	yok	var(1)	3	
+yerlesimler_ek24.js:13	Malko Tırnova	41.983	27.525		suleyman-celebi	yok	yok	3	
+yerlesimler_ek24.js:14	Ahtapolu (Ahtopol)	42.099	27.937	balkanlar	bizans	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek24.js:15	Rezve (Rezovo)	41.9935	28.0192	balkanlar	bizans	yok	var(1)	3	
+yerlesimler_ek25.js:0	Kilis	36.716	37.115	mezopotamya	urfa-kontlugu	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler_ek25.js:1	Suruç	36.976	38.427	mezopotamya	urfa-kontlugu	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek25.js:2	Akçakale	36.71	38.947	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek25.js:3	Ceylanpınar	36.845	40.043	anadolu	artuklu	var	yok	3	sehir_tarihce_arkeoloji_mezopotamya:3km
+yerlesimler_ek25.js:4	Nusaybin	37.077	41.215	anadolu	artuklu	var	var(7)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler_ek25.js:5	Silopi	37.246	42.47	anadolu	cizre-botan	yok	yok	3	
+yerlesimler_ek25.js:6	Azez (A'zâz)	36.586	37.045	misir-sudan	memluk	yok	var(1)	3	
+yerlesimler_ek25.js:7	Münbiç	36.528	37.955	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek25.js:8	Cerablus	36.825	38.014	anadolu	yeni-hitit	yok	var(1)	3	
+yerlesimler_ek25.js:9	Ayn el-Arab (Kobani)	36.891	38.353	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek25.js:10	Malikiye (Derik)	37.176	42.145	anadolu	artuklu	yok	yok	3	
+yerlesimler_ek26.js:0	Şavşat	41.245	42.36	kafkasya	gurcistan	yok	yok	3	
+yerlesimler_ek26.js:1	Posof	41.51	42.72	kafkasya	gurcistan	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek26.js:2	Hanak	41.23	42.855	kafkasya	gurcistan	yok	yok	3	
+yerlesimler_ek26.js:3	Hulo (Acara)	41.645	42.31	dogu-avrupa	sovyet-rusya	var	var(1)	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler_ek26.js:4	Arpaçay (Akyaka)	40.845	43.325	iran	ilhanli	yok	yok	3	
+yerlesimler_ek26.js:5	Digor	40.375	43.41	iran	ilhanli	yok	yok	3	
+yerlesimler_ek26.js:6	Iğdır	39.92	44.045	iran	ilhanli	yok	var(3)	3	
+yerlesimler_ek26.js:7	Gümrü (Aleksandropol)	40.789	43.847	iran	ilhanli	yok	var(3)	3	
+yerlesimler_ek26.js:8	Eçmiyadzin	40.162	44.293	iran	ilhanli	yok	var(1)	3	
+yerlesimler_ek26.js:9	Doğubayazıt	39.548	44.084	iran	safevi	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-b:3km yer_kat:3km sehir_tarihce_osm:ad(koordinatsiz)
+yerlesimler_ek26.js:10	Diyadin	39.5406	43.6717	anadolu	tbmm-turkiye	var	yok	kd3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek26.js:11	Karakilise (Karaköse, Ağrı)	39.7191	43.0503	anadolu	tbmm-turkiye	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek26.js:12	Eleşkirt	39.7996	42.6741	anadolu	tbmm-turkiye	var	yok	kd3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek26.js:13	Çaldıran	39.145	43.91	iran	ilhanli	yok	var(2)	3	
+yerlesimler_ek26.js:14	Özalp (Saray)	38.658	43.998	iran	ilhanli	yok	yok	3	
+yerlesimler_ek26.js:15	Başkale	38.045	44.01	iran	ilhanli	yok	yok	3	
+yerlesimler_ek26.js:16	Yüksekova (Gever)	37.573	44.29	iran	ilhanli	yok	yok	3	
+yerlesimler_ek27.js:0	Artvin	41.183	41.822	iran	buyuk-selcuklu	yok	var(6)	3	
+yerlesimler_ek27.js:1	Hopa	41.39	41.427	kafkasya	gurcistan	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_borc-n:3km
+yerlesimler_ek27.js:2	Sarp	41.517	41.545	dogu-avrupa	sovyet-rusya	yok	var(1)	3	
+yerlesimler_ek27.js:3	Mersin	36.8	34.633	bati-avrupa	fransa-cumhuriyet	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_ek27.js:4	İskenderun	36.587	36.173	suriye-filistin	antakya-prinkipsligi	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-c:3km
+yerlesimler_ek28.js:0	Payas	36.755	36.213	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek28.js:1	Dörtyol	36.845	36.221	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek28.js:6	Sarıkamış	40.328	42.578	iran	ilhanli	yok	var(2)	3	
+yerlesimler_ek28.js:7	Ahılkelek (Akhalkalaki)	41.403	43.484	kafkasya	gurcistan	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler_ek29.js:2	Segesvár (Sighişoara)	46.2197	24.7925	orta-avrupa	erdel	yok	yok	3	
+yerlesimler_ek29.js:4	Komárom (Komárno)	47.7625	18.125	orta-avrupa	macaristan-naiplik	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:6	Léva (Levice)	48.2172	18.6069	orta-avrupa	macaristan-habsburg	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:7	Trencsén (Trenčín)	48.8945	18.0444	orta-avrupa	cekoslovakya	yok	var(1)	3	
+yerlesimler_ek29.js:8	Varasd (Varaždin)	46.3057	16.3366	orta-avrupa	macaristan	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:9	Sisak	45.4658	16.3783	orta-avrupa	macaristan-habsburg	yok	yok	3	
+yerlesimler_ek29.js:10	Karlovac	45.487	15.5478		avusturya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler_ek29.js:11	Kostayniçe (Kostajnica)	45.232	16.539	orta-avrupa	macaristan-habsburg	yok	var(1)	3	
+yerlesimler_ek29.js:12	Bosna Dubiçası (Bosanska Dubica)	45.174	16.81	orta-avrupa	macaristan-habsburg	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:13	Bosna Novi'si (Bosanski Novi)	45.048	16.377	orta-avrupa	macaristan	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:14	Jasenovaç (Jasenovac)	45.281	16.917	orta-avrupa	macaristan-habsburg	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:15	Bosna Brod'u (Bosanski Brod)	45.138	17.988	orta-avrupa	macaristan-habsburg	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:16	Üsküdar	41.0227	29.0153	balkanlar	bizans	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-h:3km
+yerlesimler_ek29.js:26	Vize	41.5714	27.7658	balkanlar	bizans	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler_ek29.js:27	Prevadi (Provadia)	43.1789	27.4331		suleyman-celebi	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-i:3km
+yerlesimler_ek29.js:28	Babadağı (Babadag)	44.8917	28.7169	sibirya-bozkir	altinorda	var	var(1)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ek29.js:38	Deyrülkamer (Dayr al-Kamer)	33.6989	35.5619	misir-sudan	memluk	yok	var(2)	3	
+yerlesimler_ek29.js:39	Ba'lebek (Baalbek)	34.0059	36.2181	iran	ilhanli	yok	var(1)	3	
+yerlesimler_ek29.js:40	Sûr (Tyre) — Lübnan	33.2704	35.2038	suriye-filistin	kudus-kralligi	yok	var(4)	3	
+yerlesimler_ek29.js:41	Krupa (Bosanska Krupa)	44.882	16.158	orta-avrupa	macaristan	yok	var(1)	3	
+yerlesimler_ek29.js:42	Ostrovica (Stara Ostrovica, Kulen Vakuf)	44.558	16.081	orta-avrupa	macaristan	yok	var(1)	3	
+yerlesimler_ek29.js:43	Udbina	44.532	15.767	orta-avrupa	macaristan-habsburg	yok	var(2)	3	
+yerlesimler_ek29.js:44	Gospić	44.546	15.375	orta-avrupa	macaristan-habsburg	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:45	Cetin (Cetingrad)	45.138	15.732	orta-avrupa	macaristan-habsburg	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:46	Drežnik (Drežnik Grad)	44.943	15.669	orta-avrupa	macaristan-habsburg	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ek29.js:61	İslimye (Sliven)	42.686	26.326		suleyman-celebi	var	yok	3	sehir_tarihce_osm:3km
+yerlesimler_epir.js:0	Aydonat (Paramythia)	39.4667	20.5167	balkanlar	bizans	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_epir.js:2	Delvine	39.95	20.0972	balkanlar	bizans	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_epir.js:3	Ergiri (Ergirikasrı)	40.0758	20.1389	balkanlar	bizans	var	yok	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_serhat.js:0	Şehirköy (Pirot)	43.1531	22.5861		suleyman-celebi	var	var(3)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler_serhat.js:1	Alacahisar (Kruševac)	43.58	21.327	balkanlar	sirp-despotlugu	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_kdmacar.js:0	Debrecen	47.5316	21.6273	orta-avrupa	macaristan-habsburg	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_amerika.js:7	Xochimilco	19.2647	-99.1031	orta-amerika-karayip	nahua-sehir-devletleri	yok	yok	3	
+yerlesimler_amerika.js:8	Chalco	19.2667	-98.8833	orta-amerika-karayip	nahua-sehir-devletleri	yok	yok	3	
+yerlesimler_amerika.js:9	Tepeaca	18.9667	-97.9	orta-amerika-karayip	nahua-sehir-devletleri	yok	var(1)	3	
+yerlesimler_amerika.js:17	Chichén Itzá	20.6843	-88.5678	orta-amerika	chichen-itza	yok	var(3)	3	
+yerlesimler_amerika.js:31	Campeche (San Francisco de Campeche)	19.8301	-90.5349	orta-amerika	yeni-ispanya	yok	var(1)	3	
+yerlesimler_amerika.js:33	Colima (San Sebastián de Colima)	19.2433	-103.725	orta-amerika	yeni-ispanya-ilk-donem	yok	var(1)	3	
+yerlesimler_amerika.js:39	Tumbes	-3.5669	-80.4515	guney-amerika	inka-imparatorlugu	yok	yok	3	
+yerlesimler_amerika.js:40	Ollantaytambo	-13.2583	-72.2636	guney-amerika	inka-imparatorlugu	yok	yok	3	
+yerlesimler_amerika.js:41	Vilcabamba (Espíritu Pampa)	-12.8167	-73.2667	guney-amerika	inka-imparatorlugu	yok	var(1)	3	
+yerlesimler_amerika.js:42	Huánuco Pampa (Huánuco Viejo)	-9.9333	-76.5333	guney-amerika	inka-imparatorlugu	yok	yok	3	
+yerlesimler_amerika.js:43	Vilcashuamán	-13.6667	-73.95	guney-amerika	inka-imparatorlugu	yok	yok	3	
+yerlesimler_amerika.js:48	Arequipa	-16.409	-71.5375	iberya	ispanya	var	var(1)	3	yer_kat:3km
+yerlesimler_amerika.js:49	Trujillo (Peru)	-8.1116	-79.029	iberya	ispanya	var	yok	3	yer_kat:3km
+yerlesimler_amerika.js:50	Cartagena de Indias	10.391	-75.4794	guney-amerika	ispanyol-peru	var	var(3)	3	sehir_tarihce_zz_sehir-emrelic-1116_sehir_tarihce_guney_amerika:ad+30km
+yerlesimler_amerika.js:51	Popayán	2.4448	-76.6147	guney-amerika	ispanyol-peru	yok	var(1)	3	
+yerlesimler_amerika.js:53	Mérida (Venezuela)	8.5933	-71.1739	guney-amerika	ispanyol-peru	yok	var(2)	3	
+yerlesimler_amerika.js:55	Concepción (Şili)	-36.827	-73.0503	guney-amerika	ispanyol-peru	var	var(1)	3	yer_kat:3km
+yerlesimler_amerika.js:58	São Paulo	-23.5505	-46.6333	guney-amerika	portekiz-brezilyasi	var	var(2)	3	sehir_tarihce_zz_sehir-emrelic-1116_sehir_tarihce_guney_amerika:3km
+yerlesimler_amerika.js:60	São Luís	-2.53	-44.3015	bati-avrupa	fransa	var	yok	3	sehir_tarihce_zz_sehir-emrelic-1116_sehir_tarihce_guney_amerika:3km
+yerlesimler_amerika.js:61	Belém	-1.4558	-48.4902	guney-amerika	portekiz-brezilyasi	var	var(2)	3	sehir_tarihce_zz_sehir-emrelic-1116_sehir_tarihce_guney_amerika:3km
+yerlesimler_amerika.js:64	Túcume	-6.5167	-79.8167	guney-amerika	sican	yok	var(1)	3	
+yerlesimler_amerika.js:65	Hatun Colla	-15.4667	-70.0333	guney-amerika	aymara-senyorlukler	yok	yok	3	
+yerlesimler_amerika.js:66	Chucuito	-15.8884	-69.7666	guney-amerika	aymara-senyorlukler	yok	var(1)	3	
+yerlesimler_amerika.js:110	Baracoa	20.3467	-74.4958	iberya	ispanya	yok	var(1)	3	
+yerlesimler_amerika.js:114	Caparra	18.4255	-66.1111	iberya	ispanya	yok	yok	3	
+yerlesimler_amerika.js:133	Antofagasta	-23.646	-70.392	guney-amerika	bolivya-cumhuriyeti	yok	yok	3	
+yerlesimler_amerika.js:134	San Miguel de Tucumán	-26.8083	-65.2176	iberya	ispanya	yok	yok	3	
+yerlesimler_amerika.js:135	Tacna	-18.0146	-70.2536	guney-amerika	peru-cumhuriyeti	yok	var(5)	3	
+yerlesimler_amerika.js:136	Arica	-18.476	-70.311	iberya	ispanya	yok	yok	3	
+yerlesimler_amerika.js:137	Iquique	-20.216	-70.147	guney-amerika	ispanyol-peru	yok	yok	3	
+yerlesimler_amerika.js:139	Callao	-12.06	-77.115	iberya	ispanya	yok	yok	3	
+yerlesimler_amerika.js:140	Pisco	-13.712	-76.202	guney-amerika	ispanyol-peru	yok	yok	3	
+yerlesimler_amerika.js:141	Villarrica (Şili)	-39.287	-72.225	guney-amerika	sili-cumhuriyeti	yok	yok	3	
+yerlesimler_amerika.js:142	Santa Marta	11.24	-74.195	guney-amerika	ispanyol-peru	yok	yok	3	
+yerlesimler_amerika.js:143	Maracaibo	10.6667	-71.6125	guney-amerika	ispanyol-peru	yok	yok	3	
+yerlesimler_amerika.js:145	Ciudad Bolívar (Angostura)	8.118	-63.542	guney-amerika	yeni-granada-valiligi	yok	yok	3	
+yerlesimler_h2_afrika.js:5	Ümmü Dermân	15.645	32.477	misir-sudan	nube	yok	var(1)	3	
+yerlesimler_h2_afrika.js:33	Bûr Sûdân	19.617	37.216	misir-sudan	ingiliz-sudani	yok	yok	3	
+yerlesimler_h2_afrika.js:34	Ağordat	15.549	37.889	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:35	Barentu	15.106	37.59	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:36	Nakfa	16.667	38.475	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:37	Tesseney	15.11	36.66	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:38	Adi Kayh	14.845	39.377	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:39	Ğındâ	15.5	39	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:41	Cibûtî	11.588	43.145	bati-avrupa	fransa-cumhuriyet	var	var(1)	3	yer_kat:3km
+yerlesimler_h2_afrika.js:42	Obok	11.993	43.278	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:43	Alî Sabîh	11.156	42.712	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:44	Dikhil	11.104	42.37	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:45	Debârek	13.157	37.9	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:46	Debre Markos	10.35	37.717	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:47	Mota	11.083	37.867	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:48	Bure (Gocam)	10.7	37.067	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:49	Völdiya	11.83	39.6	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:51	Ambo	8.983	37.85	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:52	Fiçe	9.8	38.733	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:53	Avaş	8.983	40.167	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:54	Bâtî	11.192	40.017	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:55	Hosaena	7.55	37.85	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:56	Arba Minç	6.033	37.55	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:57	Dire Dava	9.593	41.866	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:58	Dagahbûr	8.217	43.567	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:59	Asâyita (Avsa)	11.567	41.44	dogu-afrika	adal	yok	var(1)	3	
+yerlesimler_h2_afrika.js:71	Gambela	8.25	34.588	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:72	Kebrî Dehar	6.733	44.267	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:73	Verder	6.96	45.35	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:74	Gode	5.95	43.55	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:75	Kelâfo	5.6	44.2	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:76	Dolo Odo	4.167	42.05	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:77	Şeyh (Somaliland)	9.933	45.183	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:78	Odveyne	9.41	45.062	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:79	Borama	9.936	43.183	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:80	Buhodle	8.24	46.32	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:82	Kandala	11.47	49.868	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:83	İskuşubân	10.283	50.233	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:84	Bender Beyla	9.494	50.812	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:85	Berâve	1.106	44.031	dogu-afrika	makdisu-sultanligi	yok	var(3)	3	
+yerlesimler_h2_afrika.js:86	Afgoye	2.138	45.12	dogu-afrika	makdisu-sultanligi	yok	yok	3	
+yerlesimler_h2_afrika.js:87	Bulo Burte	3.848	45.567	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:88	Bardere	2.348	42.278	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:89	Luuk	3.802	42.545	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:90	Garbahârey	3.328	42.22	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:91	Cilib	0.489	42.797	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:93	Mirbât	16.993	54.7	arabistan	nebhani	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-c:3km
+yerlesimler_h2_afrika.js:94	Tâka (Zufâr)	17.057	54.404	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:95	Hâsik	17.383	55.283	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:96	Şüveymiye	17.946	55.969	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:97	Dukm	19.66	57.707	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:98	Muhût	20.7	58.1	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:99	Tumreyt	17.667	54.024	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:100	Şisr	18.257	53.647	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:145	Vukro	13.79	39.6	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:146	Alamata	12.42	39.55	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:147	Nazret	8.54	39.27	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:148	Cinka	6.783	36.667	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:155	İmi	6.47	42.17	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:156	Filtu	5.13	40.75	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:157	Zula	15.283	39.7	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:158	Adi Kuala	14.68	38.83	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:159	Lâs Hore	11.158	48.198	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:160	Mayd	11	47.1	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:161	Hîs	10.9	46.9	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_afrika.js:162	Dusa Mareb	5.536	46.386	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:163	Ceel Buur	4.687	46.618	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:164	Ceel Dheere	3.845	47.163	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:165	Cadale	2.752	46.31	dogu-afrika	makdisu-sultanligi	yok	yok	3	
+yerlesimler_h2_afrika.js:166	Vanlaveyn	2.62	44.89	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:167	Diinsoor	2.406	42.972	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:168	Hudur	4.12	43.89	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:169	Ceel Barde	4.57	43.49	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:170	Ceel Vaak	2.8	41.15	dogu-afrika	somali	yok	yok	3	
+yerlesimler_h2_afrika.js:171	Cezîr (Sevkıra)	18.161	56.537	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:172	Râs Medreke	19.002	57.792	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:173	Rahbût	16.762	53.418	arabistan	nebhani	yok	yok	3	
+yerlesimler_h2_afrika.js:178	İncibara	10.95	36.93	dogu-afrika	habesistan	yok	yok	3	
+yerlesimler_h2_afrika.js:179	Ceel Afveyn	9.83	47.2	dogu-afrika	adal	yok	yok	3	
+yerlesimler_h2_rusya.js:1	Staraya Russa	57.99	31.362	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:4	Tihvin	59.645	33.518	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:5	Belozersk	60.031	37.783	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:7	Kargopol	61.507	38.945	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:9	Petrozavodsk	61.789	34.351	dogu-avrupa	rusya	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_h2_rusya.js:11	Kem	64.951	34.594	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:12	Onega	63.907	38.099	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:13	Holmogorı	64.223	41.653	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:14	Pinega	64.7	43.392	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:15	Şenkursk	62.106	42.897	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:16	Velsk	61.066	42.104	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:17	Veliki Ustyug	60.762	46.31	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:18	Solvıçegodsk	61.339	46.917	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:19	Yarensk	62.166	49.098	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:20	Ust-Sısolsk (Sıktıvkar)	61.668	50.836	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:21	Totma	59.973	42.759	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:22	Hlınov (Vyatka)	58.604	49.668	dogu-avrupa	novgorod	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_h2_rusya.js:23	Kotelniç	58.302	48.343	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:24	Slobodskoy	58.733	50.18	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:25	Çerdın	60.4	56.48	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:26	Solikamsk	59.649	56.771	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:28	Kostroma	57.758	40.905	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_h2_rusya.js:29	Yaroslavl	57.626	39.894	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_h2_rusya.js:30	Rostov Veliki	57.185	39.414	dogu-avrupa	rostov-knezligi	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_h2_rusya.js:31	Uglich	57.526	38.32	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:32	Galiç (Kostroma)	58.383	42.35	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:33	Kineşma	57.443	42.168	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:34	Şuya	56.856	41.383	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:35	Vetluga	57.851	45.782	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:37	Torjok	57.041	34.96	dogu-avrupa	tver	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:39	Vladimir	56.129	40.407	sibirya-bozkir	altinorda	yok	var(2)	3	
+yerlesimler_h2_rusya.js:40	Suzdal	56.419	40.449	sibirya-bozkir	altinorda	var	var(2)	3	yer_kat:3km
+yerlesimler_h2_rusya.js:41	Glazov	58.139	52.66	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:42	Murom	55.575	42.052	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:43	Arzamas	55.394	43.84	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:45	Temnikov	54.633	43.223	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:46	Kaluga	54.513	36.261	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_h2_rusya.js:52	Dmitrov	56.344	37.521	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:54	Bulgar (Bolgar)	54.976	49.03	sibirya-bozkir	altinorda	var	var(11)	3	yer_kat:3km
+yerlesimler_h2_rusya.js:57	Buinsk	54.966	48.288	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:58	Çistopol	55.362	50.635	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:59	Çeboksarı	56.146	47.251	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:62	Malmıj	56.526	50.678	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:63	Yelabuga	55.763	52.061	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:65	Sarapul	56.47	53.804	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:68	Buğulma	54.536	52.797	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:71	Ukek (Uvek)	51.47	45.95	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_h2_rusya.js:72	Beldjamen	49.02	44.75	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_h2_rusya.js:76	Hvalınsk	52.497	48.101	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:77	Volsk	52.045	47.387	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:84	Sterlitamak	53.63	55.95	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:86	Hluhiv	51.678	33.917	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_h2_rusya.js:87	Taganrog	47.237	38.897	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_h2_kuzeyafrika.js:1	Tıtvân (Tetuan)	35.578	-5.368	kuzey-afrika	merini	yok	var(4)	3	
+yerlesimler_h2_kuzeyafrika.js:2	el-Arâiş (Larache)	35.193	-6.156	kuzey-afrika	merini	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:3	Kasrülkebîr	35.001	-5.906	italya	roma-imp	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:4	Tâze (Taza)	34.21	-4.01	kuzey-afrika	merini	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:5	Vecde (Oujda)	34.681	-1.9	kuzey-afrika	murabitlar	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:6	Sicilmâse (Tâfilelt)	31.281	-4.283	kuzey-afrika	merini	var	var(26)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:7	Tarûdant	30.471	-8.877	kuzey-afrika	merini	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:8	Sûvayra (Mogador)	31.513	-9.77	kuzey-afrika	fas	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:9	Şefşâven	35.171	-5.269	kuzey-afrika	fas	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:10	Vezzân (Ouezzane)	34.796	-5.583	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:14	Debdû	34.098	-3.032	kuzey-afrika	merini	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:15	Fîgîg (Figuig)	32.109	-1.227	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:16	Dârülbeyzâ (Anfa)	33.573	-7.59	kuzey-afrika	merini	var	var(3)	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:17	Zâgûre (Dr'a)	30.332	-5.838	kuzey-afrika	merini	yok	var(1)	3	
+yerlesimler_h2_kuzeyafrika.js:18	Verzâzât	30.92	-6.91	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:19	Tinğîr	31.515	-5.533	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:20	Benî Mellâl	32.337	-6.36	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:21	Hunayfire (Khenifra)	32.936	-5.668	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:22	Sefrû	33.83	-4.836	kuzey-afrika	merini	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:23	Îfnî (Sîdî İfnî)	29.379	-10.173	kuzey-afrika	merini	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:24	Tîznît	29.699	-9.732	kuzey-afrika	merini	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_h2_kuzeyafrika.js:25	Ğulmîm (Vâdî Nûn)	28.987	-10.057	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:26	Tâtâ	29.744	-7.972	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:35	Advâr (Tuvât)	27.874	-0.294	kuzey-afrika	merini	yok	var(1)	3	
+yerlesimler_h2_kuzeyafrika.js:36	Tîmîmûn (Gûrâre)	29.256	0.231	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:37	Aynı Sâlih (Tîdîkelt)	27.194	2.48	kuzey-afrika	merini	yok	var(1)	3	
+yerlesimler_h2_kuzeyafrika.js:38	Reggân	26.719	0.17	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:39	Benî Abbâs (Sâvre)	30.13	-2.17	kuzey-afrika	merini	yok	yok	3	
+yerlesimler_h2_kuzeyafrika.js:40	Beşşâr (Béchar)	31.617	-2.216	kuzey-afrika	merini	yok	var(1)	3	
+yerlesimler_gdasya.js:0	Pathein (Bassein)	16.78	94.73	guneydogu-asya	hanthawaddy	var	yok	3	yer_kat:3km
+yerlesimler_gdasya.js:1	Thaton	16.92	97.37	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:2	Bhamo	24.27	97.23	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:3	Shwebo	22.57	95.7	guneydogu-asya	ava	yok	yok	3	
+yerlesimler_gdasya.js:4	Taungdwingyi	20.01	95.4	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:5	Myingyan	21.46	95.38	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:6	Yenangyaung	20.47	94.87	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:7	Katha	24.19	96.33	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:8	Meiktila	20.87	95.86	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:9	Lopburi	14.8	100.62	guneydogu-asya	ayutthaya	yok	var(3)	3	
+yerlesimler_gdasya.js:10	Phitsanulok	16.82	100.26	guneydogu-asya	ayutthaya	yok	yok	3	
+yerlesimler_gdasya.js:11	Nakhon Ratchasima	14.97	102.1	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:12	Songkhla	7.2079	100.597	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:13	Phuket (Thalang)	7.89	98.4	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:14	Chiang Rai	19.91	99.83	guneydogu-asya	lan-na	yok	var(1)	3	
+yerlesimler_gdasya.js:15	Chanthaburi	12.61	102.1	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:16	Nan	18.78	100.77	guneydogu-asya	lan-na	yok	yok	3	
+yerlesimler_gdasya.js:17	Kratie	12.49	106.02	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:18	Kampot	10.61	104.18	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:19	Pursat	12.53	103.92	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:20	Kompong Cham	12	105.46	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:21	Xieng Khouang	19.45	103.15	guneydogu-asya	lan-xang	yok	yok	3	
+yerlesimler_gdasya.js:22	Savannakhet	16.56	104.75	guneydogu-asya	lan-xang	yok	yok	3	
+yerlesimler_gdasya.js:23	Hai Phong	20.86	106.68	guneydogu-asya	le-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_gdasya.js:24	Nam Dinh	20.42	106.17	guneydogu-asya	le-hanedani	yok	yok	3	
+yerlesimler_gdasya.js:26	Vinh	18.67	105.69	guneydogu-asya	vietnam-dc	yok	yok	3	
+yerlesimler_gdasya.js:27	Nha Trang (Kauthara)	12.24	109.19	guneydogu-asya	campa	yok	yok	3	
+yerlesimler_gdasya.js:28	Pahang (Pekan)	3.5	103.4	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_gdasya.js:29	Kelantan (Kota Bharu)	6.13	102.24	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_gdasya.js:30	Terengganu (Kuala Terengganu)	5.33	103.14	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_gdasya.js:31	Negeri Sembilan (Seremban)	2.72	101.94	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_gdasya.js:32	Lampung	-5.4489	105.269	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:33	Bintan (Riau)	0.92	104.45	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:34	Barus	2.06	98.39	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:35	Cirebon	-6.71	108.55	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:36	Malang	-7.98	112.63	guneydogu-asya	hollanda-dogu-hint	yok	var(3)	3	
+yerlesimler_gdasya.js:37	Madiun	-7.63	111.52	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:38	Pasuruan	-7.65	112.9	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:39	Blitar	-8.1	112.17	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:40	Sambas	1.37	109.3	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:41	Kotawaringin	-2.85	111.67	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:42	Gorontalo	0.54	123.06	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:43	Iloilo	10.72	122.56	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:44	Vigan	17.57	120.39	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:45	Zamboanga	6.91	122.08	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:46	Butuan	8.95	125.54	guneydogu-asya	filipin-commonwealth	yok	var(1)	3	
+yerlesimler_gdasya.js:47	Larantuka	-8.3411	122.99	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:48	Sumbawa	-8.49	117.42	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:49	Seram (Ceram)	-3.1	129.5	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:50	Minbu	20.18	94.88	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:51	Pakokku	21.33	95.08	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:52	Myitkyina	25.38	97.4	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:53	Kanchanaburi	14.02	99.53	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:54	Phetchaburi	13.11	99.94	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:55	Trang	7.56	99.61	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:56	Son Tay	21.14	105.5	guneydogu-asya	le-hanedani	yok	yok	3	
+yerlesimler_gdasya.js:57	Ninh Binh	20.25	105.97	guneydogu-asya	vietnam-dc	yok	yok	3	
+yerlesimler_gdasya.js:58	Bac Giang	21.27	106.19	guneydogu-asya	le-hanedani	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_gdasya.js:59	Tegal	-6.87	109.14	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:60	Pekalongan	-6.89	109.68	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:61	Rembang	-6.713	111.34	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:62	Stung Treng	13.53	105.97	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:63	Sisophon	13.59	102.98	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:64	Klang	3.04	101.45	guneydogu-asya	ingiliz-malaya	yok	yok	3	
+yerlesimler_gdasya.js:65	Meulaboh	4.14	96.13	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:66	Berau	2.13	117.43	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:67	Naga (Camarines)	13.62	123.18	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:68	Alor	-8.22	124.58	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:69	Sandoway (Thandwe)	18.48	94.35	guneydogu-asya	ingiliz-burma	yok	yok	3	
+yerlesimler_gdasya.js:70	Kamphaeng Phet	16.48	99.52	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:71	Uthai Thani	15.38	100.02	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:72	Preah Vihear	14.39	104.68	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:73	Muang Sing	21.18	101.15	guneydogu-asya	lan-xang	yok	yok	3	
+yerlesimler_gdasya.js:74	Vinh Long	10.25	105.97	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:75	Can Tho	10.03	105.79	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:76	Muar	2.05	102.57	guneydogu-asya	federe-olmayan-malay-devletleri	yok	yok	3	
+yerlesimler_gdasya.js:77	Sibolga	1.74	98.78	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:78	Jepara	-6.59	110.67	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:79	Tarakan	3.3	117.63	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:80	Bantaeng	-5.53	119.96	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:81	Batangas	13.76	121.06	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:82	Ende (Flores)	-8.84	121.66	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:83	Pyinmana	19.73	96.22	guneydogu-asya	ingiliz-burma	yok	yok	3	
+yerlesimler_gdasya.js:84	Henzada (Hinthada)	17.64	95.46	guneydogu-asya	hanthawaddy	yok	yok	3	
+yerlesimler_gdasya.js:85	Chumphon	10.49	99.18	guneydogu-asya	sukhothai	yok	var(1)	3	
+yerlesimler_gdasya.js:86	Surat Thani	9.14	99.32	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:87	Attapeu	14.81	106.83	guneydogu-asya	champasak-krallik	yok	yok	3	
+yerlesimler_gdasya.js:88	Quang Tri	16.75	107.19	guneydogu-asya	campa	yok	yok	3	
+yerlesimler_gdasya.js:89	Quang Ngai	15.12	108.8	guneydogu-asya	campa	yok	yok	3	
+yerlesimler_gdasya.js:90	Indrapura	-2.2	101.11	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:91	Sumenep (Madura)	-7.02	113.87	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:92	Sukadana	-1.25	109.95	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:93	Legazpi	13.14	123.74	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:94	Waingapu (Sumba)	-9.66	120.26	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:95	Loikaw	19.67	97.21	guneydogu-asya	ingiliz-burma	yok	yok	3	
+yerlesimler_gdasya.js:96	Suphan Buri	14.47	100.12	guneydogu-asya	angkor-kmer	yok	var(1)	3	
+yerlesimler_gdasya.js:97	Takeo	10.99	104.79	guneydogu-asya	kamboc-kralligi	yok	var(1)	3	
+yerlesimler_gdasya.js:98	Tra Vinh	9.93	106.35	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:99	Ben Tre	10.24	106.38	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:100	Kuala Simpang	4.31	98	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:101	Kudus	-6.81	110.84	guneydogu-asya	hollanda-dogu-hint	yok	var(38)	3	
+yerlesimler_gdasya.js:102	Purwokerto	-7.42	109.23	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:103	Tuguegarao	17.61	121.73	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:104	Maumere (Flores)	-8.62	122.21	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:105	Mogok	22.92	96.5	guneydogu-asya	pagan	yok	yok	3	
+yerlesimler_gdasya.js:106	Loei	17.49	101.72	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:107	Kompong Thom	12.71	104.89	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:108	Tay Ninh	11.31	106.1	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:109	Painan	-1.33	100.6	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:110	Ponorogo	-7.87	111.46	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:111	Dagupan	16.04	120.33	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:112	Bima (Sumbawa)	-8.47	118.72	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:113	Kalaw	20.63	96.57	guneydogu-asya	san-devletleri	yok	yok	3	
+yerlesimler_gdasya.js:114	Roi Et	16.05	103.65	guneydogu-asya	sukhothai	yok	yok	3	
+yerlesimler_gdasya.js:115	Svay Rieng	11.09	105.8	guneydogu-asya	kamboc-kralligi	yok	yok	3	
+yerlesimler_gdasya.js:116	Rach Gia	10.01	105.08	guneydogu-asya	nguyen-beyligi	yok	yok	3	
+yerlesimler_gdasya.js:117	Bojonegoro	-7.15	111.88	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:118	Puerto Princesa (Palawan)	9.74	118.74	guneydogu-asya	filipin-commonwealth	yok	yok	3	
+yerlesimler_gdasya.js:119	Rote	-10.71	123.13	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:120	Jambi	-1.61	103.61	guneydogu-asya	hollanda-dogu-hint	yok	var(5)	3	
+yerlesimler_gdasya.js:121	Siak Sri Indrapura	0.82	102.03	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:122	Medan (Deli)	3.595	98.672	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:123	Rengat (Indragiri)	-0.35	102.55	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:126	Watampone (Bone)	-4.54	120.33	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_gdasya.js:127	Sengkang (Wajo)	-4.13	120.02	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_emilme.js:3	Malindi	-3.2192	40.1169	dogu-afrika	svahili-sehirleri	yok	yok	3	
+yerlesimler_emilme.js:4	Sofala	-20.1667	34.75	dogu-afrika	svahili-sehirleri	yok	yok	3	
+yerlesimler_emilme.js:5	Mozambik Adası	-15.0601	40.7016	dogu-afrika	portekiz-mozambik	yok	var(1)	3	
+yerlesimler_emilme.js:6	Angoche	-16.2325	39.9086	dogu-afrika	svahili-sehirleri	yok	yok	3	
+yerlesimler_emilme.js:7	Pate	-2.101	41.05	dogu-afrika	svahili-sehirleri	yok	yok	3	
+yerlesimler_emilme.js:8	Lamu	-2.2613	40.9129	dogu-afrika	svahili-sehirleri	var	yok	3	yer_kat:3km
+yerlesimler_emilme.js:9	Quelimane	-17.8786	36.8883	dogu-afrika	portekiz-mozambik	yok	yok	3	
+yerlesimler_emilme.js:10	Bagamoyo	-6.4431	38.9006	dogu-afrika	svahili-sehirleri	yok	var(1)	3	
+yerlesimler_emilme.js:12	Tanga	-5.0689	39.0988	dogu-afrika	svahili-sehirleri	yok	var(1)	3	
+yerlesimler_emilme.js:17	Luanda	-8.84	13.23	orta-afrika	portekiz-angola	yok	var(1)	3	
+yerlesimler_emilme.js:22	Mushenge (Kuba)	-5.42	20.85	orta-afrika	kuba	yok	yok	3	
+yerlesimler_emilme.js:23	Kabongo (Luba)	-6.5	25.5	orta-afrika	luba	yok	yok	3	
+yerlesimler_emilme.js:24	Jayapura (Hollandia)	-2.53	140.72	guneydogu-asya	hollanda-dogu-hint	yok	var(2)	3	
+yerlesimler_emilme.js:25	Manokwari	-0.86	134.06	guneydogu-asya	hollanda-dogu-hint	yok	yok	3	
+yerlesimler_sibirya.js:6	Petropavlovsk-Kamçatskiy	53.0113	158.6514	dogu-avrupa	rusya	yok	var(1)	3	
+yerlesimler_kalite4.js:0	Meşkinşehr (Hiyav)	38.4	47.68	iran	ilhanli	yok	yok	3	
+yerlesimler_kalite4.js:1	Mahabad (Sâvücbulak)	36.77	45.72	iran	safevi	yok	yok	3	
+yerlesimler_kalite4.js:2	Bâne	35.99	45.88	iran	safevi	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler_kalite4.js:3	Serdeşt (Sardasht)	36.16	45.48	iran	safevi	yok	yok	3	
+yerlesimler_kalite4.js:4	Şerur (Sharur)	39.55	44.95	iran	ilhanli	var	yok	3	kaynakli_halka_ferhatpasa:ad(koordinatsiz)
+yerlesimler_ek11.js:2	Tartu (Dorpat)	58.378	26.729	dogu-avrupa	sovyet-rusya	var	var(8)	3	yer_kat:3km
+yerlesimler_ek11.js:3	Pärnu	58.386	24.497	dogu-avrupa	sovyet-rusya	var	yok	3	yer_kat:3km
+yerlesimler_ek12.js:1	Akureyri	65.7008	-18.0635	kuzey-avrupa	izlanda-serbest-devleti	var	yok	3	sehir_tarihce_zz_sehir-afrika-kuzey-dogu-1116_sehir_tarihce_kuzey_avrupa_2:3km
+yerlesimler_e9353f.js:1	Valata (Oualata)	17.3	-7.033	bati-afrika	mali-imparatorlugu	yok	yok	3	
+yerlesimler_e9353f.js:12	İfe (Ile-Ife)	7.467	4.567			var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-i:3km
+yerlesimler_e9353f.js:25	Mapungubwe	-22.194	29.389	guney-afrika	mapungubwe	yok	var(1)	3	
+yerlesimler_ek_ferhadpasa.js:0	Çölemerik (Hakkâri)	37.5744	43.7408	iran	ilhanli	var	yok	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_ek_ferhadpasa.js:1	Hoşap (Mahmudi)	38.2222	43.7439	iran	ilhanli	yok	yok	3	
+yerlesimler_ek_ferhadpasa.js:2	Bargiri (Muradiye)	38.9931	43.7669	iran	ilhanli	var	yok	3	kaynakli_halka_tekil:ad(koordinatsiz)
+yerlesimler_ek_ferhadpasa.js:3	Kotur	38.475	44.3958	iran	safevi	var	yok	3	kaynakli_halka_tekil:ad(koordinatsiz)
+yerlesimler_ek_macaristan.js:3	Szatmár (Satu Mare)	47.7892	22.8726	orta-avrupa	macaristan-habsburg	var	var(9)	3	sehir_tarihce_k3:3km
+yerlesimler_ek_macaristan.js:8	Zilah (Zalău)	47.1994	23.0572	orta-avrupa	macaristan-habsburg	yok	yok	3	
+yerlesimler_ek_bosluk.js:0	Birecik	37.025	37.977	misir-sudan	memluk	yok	yok	3	
+yerlesimler_ek_bosluk.js:2	Dimitrofça (Sremska Mitrovica)	44.976	19.612	italya	roma-imp	yok	yok	3	
+yerlesimler_hindistan.js:2	Daman	20.415	72.833	guney-asya	portekiz-hindistani-goa	yok	var(1)	3	
+yerlesimler_hindistan.js:3	Karaikal (Karikal)	10.92	79.838	guney-asya	fransiz-hindistani	yok	var(1)	3	
+yerlesimler_hindistan.js:4	Mahé	11.701	75.536	guney-asya	fransiz-hindistani	yok	var(1)	3	
+yerlesimler_hindistan.js:5	Yanam	16.7333	82.2167	guney-asya	fransiz-hindistani	yok	var(1)	3	
+yerlesimler_hindistan.js:6	Serampore	22.75	88.34	guney-asya	danimarka-hindistani	yok	var(2)	3	
+yerlesimler_ok104.js:1	Leş (Alessio)	41.783	19.644	italya	roma-imp	var	var(2)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
+yerlesimler_ok104.js:2	Debre (Dibra)	41.524	20.531		suleyman-celebi	var	var(3)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_ok104.js:3	Sa'de	16.94	43.764	arabistan	yemen-zeydi	var	var(9)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler_ok106.js:1	Uman	48.7484	30.2219	dogu-avrupa	sovyet-rusya	var	var(2)	3	yer_kat:3km
+yerlesimler_ok106.js:3	Kremençuk	49.07	33.42	dogu-avrupa	lehistan	var	var(1)	3	yer_kat:3km
+yerlesimler_ok106.js:4	Lubnı	50.02	33	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_ok106.js:5	Sumı	50.91	34.8	dogu-avrupa	rusya	var	var(1)	3	yer_kat:3km
+yerlesimler_ok106.js:6	Çuguyev	49.83	36.68	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ok106.js:7	İzyum	49.21	37.29	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_ok106.js:8	Bahmut	48.6	38	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
+yerlesimler_ok106.js:10	Herson	46.6383	32.6158	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ok106.js:11	Mariupol	47.0971	37.5434	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ok106.js:14	Akyar (Sivastopol)	44.6138	33.5254	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ok106.js:15	Berdyansk	46.7558	36.7885	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ok106.js:17	Melitopol	46.8489	35.3675	dogu-avrupa	rusya	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-l:3km
+yerlesimler_ok106.js:19	Ostrogojsk	50.86	39.07	dogu-avrupa	rusya	var	var(1)	3	yer_kat:3km
+yerlesimler_ek_karayip_adalar.js:0	Bayamo	20.3792	-76.6433	iberya	ispanya	yok	yok	3	
+yerlesimler_ek_karayip_adalar.js:1	Trinidad (Küba)	21.8022	-79.9847	iberya	ispanya	yok	yok	3	
+yerlesimler_ek_karayip_adalar.js:2	Matanzas (Küba)	23.0411	-81.5775	iberya	ispanya	yok	yok	3	
+yerlesimler_ek_karayip_adalar.js:3	Cienfuegos	22.1461	-80.4364	iberya	ispanya	yok	yok	3	
+yerlesimler_ek_karayip_adalar.js:4	Santiago de los Caballeros	19.4517	-70.697	iberya	ispanya	yok	yok	3	
+yerlesimler_ortaasya3.js:2	Narın (Naryn)	41.43	75.99	orta-asya	cagatay	yok	var(1)	3	
+yerlesimler_ortaasya3.js:3	Kopal (Kapal)	45.117	79.05	orta-asya	cagatay	yok	var(1)	3	
+yerlesimler_ortaasya3.js:6	Uçturfan (Uç Turfan)	41.21	79.05	dogu-asya	qing-hanedani	var	yok	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_orta_asya:3km
+yerlesimler_ortaasya3.js:7	Karaşar (Yanqi)	42.06	86.57	orta-asya	cagatay	yok	var(6)	3	
+yerlesimler_ortaasya3.js:8	Keriya (Yutian)	36.85	81.67	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_ortaasya3.js:9	Çerçen (Qiemo)	38.14	85.53	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_ortaasya3.js:10	Çarklık (Ruoqiang)	39.02	88.17	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_ortaasya3.js:11	Manas (Cungarya)	44.3	86.21	dogu-asya	qing-hanedani	yok	yok	3	
+yerlesimler_ortaasya3.js:12	Petropavlovsk (Kızılcar)	54.87	69.15	sibirya-bozkir	altinorda	var	var(1)	3	yer_kat:3km
+yerlesimler_ortaasya3.js:13	Kökçetav (Kokçetav)	53.28	69.39	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_ortaasya3.js:14	Akmola (Akmolinsk)	51.13	71.43	sibirya-bozkir	altinorda	yok	var(1)	3	
+yerlesimler_ortaasya3.js:15	Karkaralinsk (Karkaralı)	49.41	75.48	sibirya-bozkir	altinorda	yok	var(1)	3	
+yerlesimler_ortaasya3.js:16	Ayagöz (Sergiopol)	47.96	80.43	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_ortaasya3.js:17	Irgiz (Irgız)	48.61	61.27	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_ortaasya3.js:18	Kazalinsk (Kazalı)	45.76	62.11	sibirya-bozkir	altinorda	var	yok	3	yer_kat:3km
+yerlesimler_ortaasya3.js:20	Suzak (Sozak)	44.13	68.47	sibirya-bozkir	altinorda	yok	yok	3	
+yerlesimler_ortaasya3.js:21	Ak-Meçit (Perovsk)	44.85	65.51	sibirya-bozkir	altinorda	var	var(1)	3	yer_kat:3km
+yerlesimler_ok107.js:0	Cizre	37.33	42.19	anadolu	cizre-botan	var	var(3)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_yakin-dogu-d:3km
+yerlesimler_ok107.js:1	Siirt	37.93	41.94	iran	buyuk-selcuklu	var	var(6)	3	sehir_tarihce_osm:3km yer_kat:3km
+yerlesimler_ok107.js:2	Hasankeyf	37.714	41.412	iran	buyuk-selcuklu	yok	var(11)	3	
+yerlesimler_ok107.js:6	Taraz (Evliya-Ata)	42.9	71.367	orta-asya	cagatay	var	var(10)	3	yer_kat:3km
+yerlesimler_ok107.js:9	Dikva (Dikeo)	12.04	13.917	orta-afrika	kanem-bornu	yok	var(2)	3	
+yerlesimler_ok107.js:11	Zinder	13.803	8.988	orta-afrika	kanem-bornu	yok	var(1)	3	
+yerlesimler_ok107.js:12	Köprülü (Veles)	41.716	21.775		suleyman-celebi	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ok107.js:13	İştip (Štip)	41.746	22.195		suleyman-celebi	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ok107.js:14	Ustrumca (Strumica)	41.437	22.643		suleyman-celebi	var	var(4)	3	sehir_tarihce_k3:3km
+yerlesimler_ok107.js:18	Vodina (Edessa)	40.803	22.047	balkanlar	bizans	var	var(6)	3	sehir_tarihce_k3:3km
+yerlesimler_ok107.js:19	Karaferye (Veria)	40.524	22.203	balkanlar	bizans	var	var(2)	3	sehir_tarihce_k3:3km
+yerlesimler_ok107.js:20	Yenice-i Vardar	40.79	22.407		suleyman-celebi	var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler_kamerika.js:381	Tegucigalpa	14.0723	-87.1921	orta-amerika	yeni-ispanya	yok	yok	3	
+yerlesimler_ukrayna_0916.js:0	Vinnitsa (Vinnytsia)	49.232	28.469	dogu-avrupa	lehistan	var	var(1)	3	yer_kat:3km
+yerlesimler_ukrayna_0916.js:1	Braslav (Bratslav)	48.823	28.938	dogu-avrupa	lehistan	var	yok	3	yer_kat:3km
+yerlesimler_ukrayna_0916.js:2	Kostantinov (Starokostiantyniv)	49.755	27.212	dogu-avrupa	lehistan	var	yok	3	yer_kat:3km
+yerlesimler_ukrayna_0916.js:3	Jitomir (Zhytomyr)	50.262	28.679	dogu-avrupa	sovyet-rusya	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ukrayna_0916.js:4	Berdiçev (Berdychiv)	49.894	28.582	dogu-avrupa	sovyet-rusya	var	var(1)	3	yer_kat:3km
+yerlesimler_ukrayna_0916.js:5	Bila Tserkva (Belaya Tserkov)	49.795	30.131	dogu-avrupa	sovyet-rusya	var	var(2)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_ukrayna_0916.js:6	Çerkasi (Cherkasy)	49.444	32.06	dogu-avrupa	sovyet-rusya	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_anadolu_0914.js:0	Bayburt	40.2552	40.2249	balkanlar	bizans	var	var(6)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:3km
+yerlesimler_nokta_amerika_0917.js:0	Diamantina (Arraial do Tijuco)	-18.2413	-43.6031	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:1	Serro (Vila do Príncipe)	-18.6048	-43.3794	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:2	Rio de Contas (Minas do Rio de Contas)	-13.5794	-41.8111	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:3	Caetité (Vila Nova do Príncipe)	-14.0694	-42.4861	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:4	Pirenópolis (Meia Ponte)	-15.8507	-48.9592	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:5	Casa Branca	-21.7742	-47.0858	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:6	Caxias do Sul (Colônia de Caxias)	-29.1678	-51.1794	guney-amerika	brezilya-imparatorlugu	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:7	Viana (Maranhão)	-3.2204	-44.9918	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:8	Chaves (Marajó)	-0.1644	-49.987	guney-amerika	portekiz-brezilyasi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:9	Oruro (Villa de San Felipe de Austria)	-17.9667	-67.1167	guney-amerika	ispanyol-peru	var	var(1)	3	yer_kat:3km
+yerlesimler_nokta_amerika_0917.js:10	Cochabamba (Villa de Oropesa)	-17.3895	-66.1568	guney-amerika	ispanyol-peru	var	var(1)	3	yer_kat:3km
+yerlesimler_nokta_amerika_0917.js:11	Barinas (Altamira de Cáceres)	8.6226	-70.2075	guney-amerika	ispanyol-peru	yok	var(1)	3	
+yerlesimler_nokta_amerika_0917.js:12	Guanare	9.0418	-69.7421	guney-amerika	ispanyol-peru	yok	var(1)	3	
+yerlesimler_nokta_amerika_0917.js:13	Calabozo (Villa de Nuestra Señora de la Candelaria)	8.9239	-67.4294	guney-amerika	yeni-granada-valiligi	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:14	San Ignacio Guazú	-26.8876	-57.0283	iberya	ispanya	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:15	Encarnación (Itapúa)	-27.3306	-55.8667	iberya	ispanya	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:16	Junín (Fuerte Federación)	-34.5856	-60.9589	guney-amerika	arjantin-cumhuriyeti	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:17	Río Cuarto (Villa de la Concepción del Río Cuarto)	-33.1232	-64.3493	iberya	ispanya	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:18	San Rafael (Fuerte San Rafael del Diamante)	-34.6177	-68.3301	iberya	ispanya	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:19	Treinta y Tres	-33.2333	-54.3833	guney-amerika	uruguay-cumhuriyeti	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:20	Minas (Villa de la Concepción de las Minas)	-34.3759	-55.2377	iberya	ispanya	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:21	Columbia (Missouri)	38.9517	-92.3341	kuzey-amerika	abd	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:22	Morganton	35.7454	-81.6848	kuzey-amerika	abd	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:23	Rawlins	41.7911	-107.2387	kuzey-amerika	abd	yok	yok	3	
+yerlesimler_nokta_amerika_0917.js:24	Traverse City	44.7631	-85.6206	kuzey-amerika	abd	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:0	Dilem (Harc)	23.991	47.162	arabistan	suud-ikinci	yok	var(1)	3	
+yerlesimler_nokta_ortadogu_0917.js:1	Havta (Havtat Benî Temîm)	23.496	46.878	arabistan	suud-ikinci	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:2	Leylâ (Eflâc)	22.292	46.724	arabistan	suud-ikinci	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:3	Türabe	21.214	41.633	misir-sudan	memluk	yok	var(2)	3	
+yerlesimler_nokta_ortadogu_0917.js:4	Hurma (Tâif doğusu)	21.911	42.031	misir-sudan	memluk	yok	yok	3	
+yerlesimler_nokta_ortadogu_0917.js:5	Seyûn (Sayvan)	15.9433	48.7933	arabistan	kesiri-sultanligi	yok	var(4)	3	
+yerlesimler_a78_avrupa.js:36	Ventspils (Windau)	57.3894	21.5606	dogu-avrupa	sovyet-rusya	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_dogu-avrupa-k:3km
+yerlesimler_p77_avrupa.js:1	Čakovec (Csáktornya)	46.3844	16.4339	orta-avrupa	macaristan	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_p77_avrupa.js:2	Ptuj (Pettau)	46.42	15.87	italya	roma-imp	var	var(1)	3	sehir_tarihce_k3:3km
+yerlesimler_p77_avrupa.js:4	Hartberg	47.2833	15.9667	orta-avrupa	almanya	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_p77_avrupa.js:5	Szombathely (Steinamanger)	47.2309	16.6216	italya	roma-imp	var	yok	3	sehir_tarihce_k3:3km
+yerlesimler_dogu_500_1281.js:0	Yarlung (Nêdong/Tsetang)	29.2466	91.7834	dogu-asya	yarlung-krallik	yok	var(6)	3	
+yerlesimler_dogu_500_1281.js:1	Leshou (Xianxian)	38.1902	116.1205	dogu-asya	sui-xia-dou-jiande	yok	var(10)	3	
+yerlesimler_dogu_500_1281.js:2	Xiazhou (Tongwancheng)	37.999	108.849	dogu-asya	xiazhou-dangxiang	yok	var(6)	3	
+yerlesimler_dogu_500_1281.js:3	Gimhae	35.234	128.881	dogu-asya	gaya-konfederasyonu	yok	var(1)	3	
+yerlesimler_dogu_500_1281.js:5	Sabi (Buyeo)	36.275	126.91	dogu-asya	baekje	yok	var(3)	3	
+yerlesimler_dogu_500_1281.js:7	Nakhon Pathom (Phra Pathom)	13.8196	100.0443	guneydogu-asya	dvaravati	yok	var(6)	3	
+yerlesimler_dogu_500_1281.js:8	Halin (Hanlin)	22.4506	95.8125	guneydogu-asya	ava	yok	var(7)	3	
+yerlesimler_dogu_500_1281.js:9	Phayao	19.1668	99.9021	guneydogu-asya	lan-na	yok	var(7)	3	
+yerlesimler_dogu_500_1281.js:10	Banavasi	14.5341	75.0177	guney-asya	hoysala	yok	var(12)	3	
+yerlesimler_dogu_500_1281.js:11	Chamba	32.5553	76.1265	guney-asya	chamba	yok	var(2)	3	
+yerlesimler_dogu_500_1281.js:13	Kalyani (Basavakalyan)	17.8745	76.9497	guney-asya	bati-calukya	var	var(9)	3	sehir_tarihce_zz_sehir-afrika-1116_sehir_tarihce_hint:3km
+yerlesimler_dogu_500_1281.js:14	Thane	19.197	72.9636	guney-asya	yadava	yok	var(7)	3	
+yerlesimler_dogu_500_1281.js:16	Dambadeniya	7.3675	80.1497	guney-asya	seylan-sinhala	yok	var(4)	3	
+yerlesimler_dogu_500_1281.js:17	Dholka	22.727	72.4412	guney-asya	babur-imparatorlugu	yok	var(7)	3	
+yerlesimler_dogu_500_1281.js:19	Sadiya	27.832	95.6725	guney-asya	ahom	yok	var(3)	3	
+yerlesimler_dogu_500_1281.js:21	Kumbî Sâlih (Gāne)	15.7657	-7.9687	kuzey-afrika	murabitlar	yok	var(4)	3	
+yerlesimler_dogu_500_1281.js:22	Tikal	17.2221	-89.6236	orta-amerika	tikal-mutul	var	var(4)	3	sehir_tarihce_arkeoloji_d3-amerika-pasifik:3km
+yerlesimler_dogu_500_1281.js:23	Copán	14.838	-89.1424	orta-amerika	copan	yok	var(2)	3	
+yerlesimler_dogu_500_1281.js:24	Palenque	17.4842	-92.0464	orta-amerika	palenque-baak	yok	var(2)	3	
+yerlesimler_dogu_500_1281.js:25	Quiriguá	15.2694	-89.0403	orta-amerika	quirigua	yok	var(2)	3	
+yerlesimler_dogu_500_1281.js:26	Batán Grande (Sicán)	-6.47	-79.796	guney-amerika	sican	yok	var(1)	3	
+yerlesimler_dogu_500_1281.js:27	Tilantongo	17.2833	-97.3389	orta-amerika	tilantongo-mixtek	yok	var(5)	3	
+yerlesimler_dogu_500_1281.js:28	El Tajín	20.4481	-97.3782	orta-amerika	el-tajin	yok	var(2)	3	
+yerlesimler_ek_atlantik_adalar.js:2	Hvalsey (Qaqortukulooq)	60.7925	-45.8344	kuzey-amerika	norse-gronland	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:3	Garðar (Igaliku)	60.9917	-45.4167	kuzey-amerika	norse-gronland	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:4	Sandnes (Vestribygð)	64.2189	-51.4127	kuzey-amerika	norse-gronland	yok	var(2)	3	
+yerlesimler_ek_atlantik_adalar.js:6	San Cristóbal de La Laguna (Tenerife)	28.4874	-16.3141	kuzey-afrika	guanche-politileri	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:7	Santa Cruz de La Palma	28.6835	-17.7642	kuzey-afrika	guanche-politileri	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:8	San Sebastián de La Gomera	28.0916	-17.1133	iberya	ispanya	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:10	Teguise (Lanzarote)	29.0605	-13.564	kuzey-afrika	guanche-politileri	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:11	Betancuria (Fuerteventura)	28.422	-14.056	kuzey-afrika	guanche-politileri	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:14	Ponta Delgada (São Miguel)	37.7435	-25.6755	iberya	portekiz	yok	yok	3	
+yerlesimler_ek_atlantik_adalar.js:19	Georgetown (Ascension)	-7.9322	-14.412	bati-avrupa	ingiltere	yok	var(4)	3	
+yerlesimler_ek_atlantik_adalar.js:21	Port Louis (Falkland)	-51.5524	-58.1366	bati-avrupa	fransa	yok	var(1)	3	
+yerlesimler_sahne1108.js:0	Canberra	-35.2809	149.13	okyanusya	avustralya	yok	yok	3	
+yerlesimler_sahne1108.js:1	Leticia	-4.2153	-69.9406	guney-amerika	kolombiya-cumhuriyeti	yok	yok	3	
+yerlesimler_sahne1108.js:2	Managua	12.1364	-86.2514	orta-amerika-karayip	nikaragua-cumhuriyeti	yok	yok	3	
+yerlesimler_sahne1108.js:3	Andong (Andong, 安東)	36.5592	128.7289	dogu-asya	goryeo	yok	yok	3	
+yerlesimler_sahne1108.js:4	Sangju (Sangju, 尙州)	36.4107	128.159	dogu-asya	goryeo	yok	yok	3	
+yerlesimler_sahne1108.js:5	Uljin (Uljin, 蔚珍)	36.9931	129.4005	dogu-asya	goryeo	yok	yok	3	
+yerlesimler_sahne1108.js:6	Consuegra	39.4619	-3.6064	italya	roma-imp	yok	yok	3	
+yerlesimler_sahne1108.js:7	Autun	46.952	4.299	italya	roma-cumhuriyeti	yok	yok	3	
+yerlesimler_sahne1108.js:8	Chalon-sur-Saône	46.7806	4.8531	italya	roma-cumhuriyeti	yok	yok	3	
+yerlesimler_sahne1108.js:9	Beaune	47.025	4.8398	bati-avrupa	burgonya	yok	yok	3	
+yerlesimler_sahne1108.js:10	Mâcon	46.3069	4.8286	bati-avrupa	fransa	yok	var(1)	3	
+yerlesimler_sahne1108.js:11	Klokotnitsa	41.992578	25.495366		suleyman-celebi	yok	yok	3	
+yerlesimler_sahne1108.js:12	Gabrovo	42.874242	25.31784		suleyman-celebi	yok	yok	3	
+yerlesimler_sahne1108.js:13	Steenvoorde	50.809444	2.582778	bati-avrupa	flandre	yok	yok	3	
+yerlesimler_sahne1108.js:14	Nieuwpoort	51.129444	2.751389	bati-avrupa	flandre	yok	yok	3	
+yerlesimler_sahne1108.js:15	Hoogstraten	51.40215	4.7618	bati-avrupa	brabant-dukaligi	yok	yok	3	
+yerlesimler_sahne1108.js:16	Wageningen	51.964444	5.663056	bati-avrupa	hollanda	yok	yok	3	
+yerlesimler_sahne1108.js:17	Dorestad (Wijk bij Duurstede)	51.975	5.34	orta-avrupa	almanya	yok	yok	3	
+yerlesimler_sahne1108.js:18	Kosova Ovası (Kosovo Polje)	42.7175	21.085	balkanlar	sirbistan-nemanjic	var	yok	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_balkanlar-g:ad+30km
+yerlesimler_sahne1108.js:19	Orašac (Aranđelovac)	44.32888889	20.58527778	balkanlar	yugoslavya	yok	yok	3	
+yerlesimler_sahne1108.js:20	Takova (Takovo)	44.04277778	20.3875	balkanlar	sirp-despotlugu	yok	yok	3	
+yerlesimler_sahne1108.js:21	Noyon	49.581111	2.998889	bati-avrupa	fransa	yok	var(7)	3	
+yerlesimler_sahne1108.js:22	Világos (Şiria)	46.261132	21.595591	orta-avrupa	macaristan-habsburg	yok	var(1)	3	
+yerlesimler_sahne1108.js:23	Aricia (Ariccia)	41.721399649999995	12.673347150000001	italya	papalik	yok	var(1)	3	
+yerlesimler_sahne1108.js:24	Hysiai (Argolis)	37.5200016	22.5862423			var	var(1)	3	sehir_tarihce_zz_sehir-yakindogu-1116_sehir_tarihce_bolgesiz-j:3km
+yerlesimler_sahne1108.js:25	Hawikuh (Hawikku, Zuni)	34.93222	-108.98456	kuzey-amerika	zuni	yok	var(1)	3	
+yerlesimler_sahne1108.js:26	Chocontá	5.14667	-73.6825	iberya	ispanya	yok	var(1)	3	
+yerlesimler_sahne1108.js:27	Haldighati	24.8921711	73.6978065	guney-asya	racput	yok	var(1)	3	
+yerlesimler_sahne1108.js:28	Charaideo	26.94194	94.87611	guney-asya	ahom	yok	var(1)	3	
+yerlesimler_sahne1108.js:29	Chapultepec	19.41306	-99.19778	orta-amerika-karayip	nahua-sehir-devletleri	yok	var(1)	3	
+yerlesimler_sahne1108.js:30	Kolaçel (Colachel)	8.1786	77.2561	guney-asya	travankur	yok	yok	3	
+yerlesimler_sahne1108.js:31	Göktepe (Gökdepe / Geok Tepe)	38.15778	57.96639	iran	ilhanli	yok	yok	3	
+yerlesimler_sahne1108.js:32	Teouma (Efate, Lapita mezarlığı)	-17.7856	168.3862	okyanusya	yeni-hebridler-kondominyumu	yok	yok	3	
+yerlesimler_sahne1108.js:33	Kailua-Kona	19.65	-155.99417	okyanusya	hawaii-kralligi	yok	var(1)	3	
+yerlesimler_cin_1115b.js:0	Weihaiwei	37.513	122.1204	dogu-asya	weihaiwei-ingiliz	yok	var(2)	3	
+yerlesimler_iskandinav_1115c.js:0	Lund	55.7047	13.191	kuzey-avrupa	danimarka	yok	yok	3	
+yerlesimler_iskandinav_1115c.js:1	Sigtuna	59.6258	17.7198	kuzey-avrupa	isvec-birlik-oncesi	yok	yok	3	
