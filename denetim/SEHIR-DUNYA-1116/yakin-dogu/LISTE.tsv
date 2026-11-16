@@ -12,6 +12,12 @@ baghdad	2	Irak	Bağdat	Baghdad	33.34	44.361	atlas-yerlesim-ad-eslesmesi	Bağdat	
 basra	2	Irak	Basra	Basra	30.508	47.783	atlas-yerlesim-ad-eslesmesi	Basra		basra		Cuinet TdA c.3 + TDV BASRA	
 mosul	2	Irak	Musul	Mosul	36.34	43.13	atlas-yerlesim-ad-eslesmesi	Musul		mosul		Cuinet TdA c.2 (1891) (3 sancak)	
 kuwait-city	2	Kuveyt	Kuveyt	Kuwait City	29.376	47.977	atlas-yerlesim-ad-eslesmesi	Kuveyt		kuwait-city		genel bilgi	nominal Osmanlı kazası; 23 Ocak 1899 İngiliz antlaşması
+famagusta	2	Kıbrıs	Mağusa	Famagusta								SYB1896 Cyprus	
+kyrenia	2	Kıbrıs	Girne	Kyrenia	35.3375	33.3187	atlas-yerlesim-ad-eslesmesi	Girne (Kyrenia)		kyrenia		SYB1896 Cyprus	
+larnaca	2	Kıbrıs	Larnaka	Larnaca	34.917	33.63	atlas-yerlesim-ad-eslesmesi	Tuzla (Larnaka)		larnaca		SYB1896 Cyprus	
+limassol	2	Kıbrıs	Limasol	Limassol	34.707	33.023	atlas-yerlesim-ad-eslesmesi	Limasol		limassol		SYB1896 Cyprus	
+nicosia	2	Kıbrıs	Lefkoşa	Nicosia	35.17	33.36	atlas-yerlesim-ad-eslesmesi	Lefkoşa		nicosia		SYB1896 Cyprus ('capital and seat of government'; 6 district aynı adlı şehirler)	hukuken Osmanlı
+paphos	2	Kıbrıs	Baf (Ktima)	Paphos	34.776	32.424	atlas-yerlesim-ad-eslesmesi	Baf (Paphos)		paphos		SYB1896 Cyprus	
 baabda	2	Lübnan	Bâbdâ	Baabda								Cuinet Syrie (1896) s.229 (palais de Ba'abda, résidence d'hiver)	kış merkezi Bâbdâ, yaz Beytüddin (Beiteddine); mutasarrıf kışın Beyrut'ta da oturur
 beirut	2	Lübnan	Beyrut	Beirut	33.888	35.495	atlas-yerlesim-ad-eslesmesi	Beyrut		beirut		Cuinet Syrie (1896) (5 sandjak) + TDV BEYRUT	
 aleppo	2	Suriye	Halep	Aleppo	36.202	37.161	atlas-yerlesim-ad-eslesmesi	Halep		aleppo		Cuinet TdA c.2 (1891) + TDV HALEP	

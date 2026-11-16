@@ -24,11 +24,16 @@ sys.path.insert(0, os.path.join(KOK, "arac"))
 
 BLOK = {
     "yakin-dogu": ["Türkiye", "Suriye", "Ürdün", "İsrail", "Filistin", "Suudi", "Katar",
-                   "BAE", "Birleşik Arap", "Kuveyt", "Bahreyn", "Umman", "Yemen", "Lübnan", "Irak"],
+                   "BAE", "Birleşik Arap", "Kuveyt", "Bahreyn", "Umman", "Yemen", "Lübnan", "Irak", "Kıbrıs"],
     "balkanlar": ["Sırbistan", "Hırvatistan", "Bosna", "Slovenya", "Karadağ", "Makedonya",
                   "Kosova", "Romanya", "Bulgaristan", "Yunanistan", "Arnavutluk", "Yugoslavya"],
-    "dogu-avrupa": ["Litvanya", "Letonya", "Estonya", "Ukrayna", "Belarus", "Beyaz Rusya", "Rusya"],
+    "dogu-avrupa": ["Litvanya", "Letonya", "Estonya", "Ukrayna", "Belarus", "Beyaz Rusya", "Rusya",
+                    "Moldova"],
 }
+# Sibirya / Uzak Doğu: EMRELİC'in bloğu (Emre, 16 Kasım 2026); Kuzey Kafkasya bizde kalır.
+SIBIRYA_UST = {"Tobolskaya guberniya", "Tomskaya guberniya", "Eniseyskaya guberniya",
+               "Irkutskaya guberniya", "Yakutskaya oblast", "Zabaykalskaya oblast",
+               "Primorskaya oblast", "ostrov Sakhalin"}
 _ESL = str.maketrans({"ı": "i", "İ": "i", "ş": "s", "Ş": "s", "ğ": "g", "Ğ": "g", "ç": "c",
                       "Ç": "c", "ö": "o", "Ö": "o", "ü": "u", "Ü": "u", "â": "a", "Â": "a",
                       "î": "i", "Î": "i", "û": "u", "Û": "u", "’": "'", "‘": "'"})
@@ -79,6 +84,8 @@ def main(blok, cikti):
     kolon = ["id", "kat", "ulke", "ad_1900", "ad_modern", "lat", "lon", "koord_kaynak",
              "atlas_ad", "atlas_km", "tarihce_id", "adlar_tarih_sirali", "kaynak_1900", "not"]
     n_k = n_t = 0
+    sib = []
+    n_sel = 0
     with open(cikti, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(kolon)
@@ -100,11 +107,28 @@ def main(blok, cikti):
                 if yak:
                     tid = min(yak)[1]
                     n_t += 1
-            w.writerow([norm(r["ad_modern"] or r["ad_1900"]).replace(" ", "-"), r["kat"], r["modern_ulke"],
-                        r["ad_1900"], r["ad_modern"], lat, lon, kk, atl_ad, "", tid, "", r["kaynak"],
-                        r["not"]])
+            satir = [norm(r["ad_modern"] or r["ad_1900"]).replace(" ", "-"), r["kat"], r["modern_ulke"],
+                     r["ad_1900"], r["ad_modern"], lat, lon, kk, atl_ad, "", tid, "", r["kaynak"],
+                     r["not"]]
+            # Urallar'ın doğusu (Sibirya/Uzak Doğu) EMRELİC'in bloğu: ayrı dosya
+            if blok == "dogu-avrupa" and "Rusya" in r["modern_ulke"]:
+                dogu = r["ust_birim"] in SIBIRYA_UST or (lat != "" and lon >= 60)
+                if dogu:
+                    sib.append(satir)
+                    n_k -= 1 if lat != "" else 0
+                    n_t -= 1 if tid else 0
+                    continue
+            n_sel += 1
+            w.writerow(satir)
+    if sib:
+        yol = os.path.join(os.path.dirname(os.path.abspath(cikti)), "LISTE-SIBIRYA-UZAKDOGU.tsv")
+        with open(yol, "w", encoding="utf-8", newline="") as f:
+            w2 = csv.writer(f, delimiter="\t", lineterminator="\n")
+            w2.writerow(kolon)
+            w2.writerows(sib)
+        print("  Urallar'ın doğusu (EMRELİC bloğu): %d şehir → %s" % (len(sib), yol))
     print("%s: %d şehir · koordinatı atlas eşleşmesinden bulunan %d · tarihçe kaydı (3 km) olan %d · "
-          "koordinatsız %d → %s" % (blok, len(sel), n_k, n_t, len(sel) - n_k, cikti))
+          "koordinatsız %d → %s" % (blok, n_sel, n_k, n_t, n_sel - n_k, cikti))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,59 @@
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_ad	atlas_km	tarihce_id	adlar_tarih_sirali	kaynak_1900	not
+irkutsk	2	Rusya	Irkutsk	Irkutsk	52.287	104.281	atlas-yerlesim-ad-eslesmesi	İrkutsk				Statoids uru (Rus İmp. il tablosu)	kiril: Иркутск
+krasnoyarsk	2	Rusya	Krasnoyarsk	Krasnoyarsk	56.0106	92.8526	atlas-yerlesim-ad-eslesmesi	Krasnoyarsk				Statoids uru (Rus İmp. il tablosu)	Yenisey; kiril: Красноярск
+omsk	2	Rusya	Omsk	Omsk	54.9885	73.3242	atlas-yerlesim-ad-eslesmesi	Omsk				Statoids uru (Rus İmp. il tablosu)	Akmola obl.; aynı zamanda Omsk uyezdi merkezi; kiril: Омск
+tobolsk	2	Rusya	Tobolsk	Tobolsk	58.199	68.256	atlas-yerlesim-ad-eslesmesi	Tobolsk (İsker)		tobolsk		Statoids uru (Rus İmp. il tablosu)	kiril: Тобольск
+tomsk	2	Rusya	Tomsk	Tomsk	56.4884	84.948	atlas-yerlesim-ad-eslesmesi	Tomsk				Statoids uru (Rus İmp. il tablosu)	kiril: Томск
+vladivostok	2	Rusya	Vladivostok	Vladivostok	43.115	131.885	atlas-yerlesim-ad-eslesmesi	Vladivostok				ESBE Приморская область	Primorskaya; ESBE: oblast idaresi 1888'de Habarovka'dan Vladivostok'a taşındı. Statoids tablosu Khabarovsk yazar (çelişki — ESBE esas). Aynı zamanda Güney-Ussuri okrugu merkezi; kiril: Владивосток
+yakutsk	2	Rusya	Yakutsk	Yakutsk	62.0281	129.7325	atlas-yerlesim-ad-eslesmesi	Yakutsk				Statoids uru (Rus İmp. il tablosu)	kiril: Якутск
+bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=73)	Demoscope: городов нет; kiril birim: Усинский округ
+bulunamadi	3	Rusya	bulunamadı									Demoscope 1897 (rus_gub_97 reg=76)	Demoscope: города нет; kiril birim: Уссурийская округа
+achinsk	3	Rusya	Achinsk	Achinsk								Demoscope 1897 (rus_gub_97 reg=73)	kiril: Ачинск
+aksha	3	Rusya	Aksha	Aksha								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Акша
+balagansk	3	Rusya	Balagansk	Balagansk	54.0	103.05	atlas-yerlesim-ad-eslesmesi	Balagansk				Demoscope 1897 (rus_gub_97 reg=75)	kiril: Балаганск
+barguzin	3	Rusya	Barguzin	Barguzin	53.62	109.65	atlas-yerlesim-ad-eslesmesi	Barguzin				Demoscope 1897 (rus_gub_97 reg=74)	kiril: Баргузин
+barnaul	3	Rusya	Barnaul	Barnaul	53.348	83.778	atlas-yerlesim-ad-eslesmesi	Barnaul				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Барнаул
+beryozovo	3	Rusya	Berezovo	Beryozovo								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Березово
+biysk	3	Rusya	Biysk	Biysk	52.539	85.214	atlas-yerlesim-ad-eslesmesi	Biysk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Бийск
+eniseysk	3	Rusya	Eniseysk	Eniseysk								Demoscope 1897 (rus_gub_97 reg=73)	kiril: Енисейск
+gizhiga-(terk-edilmis)	3	Rusya	Gizhiga	Gizhiga (terk edilmiş)								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Гижига
+irbit	3	Rusya	Irbit	Irbit	57.68	63.06	atlas-yerlesim-ad-eslesmesi	Irbit				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Ирбит
+ishim	3	Rusya	Ishim	Ishim								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Ишим
+kansk	3	Rusya	Kansk	Kansk	56.2	95.71	atlas-yerlesim-ad-eslesmesi	Kansk				Demoscope 1897 (rus_gub_97 reg=73)	kiril: Канск
+khabarovsk	3	Rusya	Khabarovsk	Khabarovsk								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Хабаровск
+kirensk	3	Rusya	Kirensk	Kirensk	57.78	108.11	atlas-yerlesim-ad-eslesmesi	Kirensk				Demoscope 1897 (rus_gub_97 reg=75)	birimdeki öteki şehirler: Илимск; kiril: Киренск
+kirovskoye-(sahalin)	3	Rusya	Rykovskoe	Kirovskoye (Sahalin)	50.707	142.727	atlas-yerlesim-ad-eslesmesi	Rykovskoye (Kirovskoye)				Demoscope 1897 (rus_gub_97 reg=77)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Рыковское
+korsakov	3	Rusya	Korsakovskiy post	Korsakov	46.633	142.786	atlas-yerlesim-ad-eslesmesi	Korsakov (Güney Sahalin)				Demoscope 1897 (rus_gub_97 reg=77)	kiril: Корсаковский пост
+kurgan	3	Rusya	Kurgan	Kurgan	55.45	65.34	atlas-yerlesim-ad-eslesmesi	Kurgan				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Курган
+kuybyshev	3	Rusya	Kainsk	Kuybyshev	55.36	78.36	atlas-yerlesim-ad-eslesmesi	Kainsk (Baraba)				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Каинск
+kuznetsk	3	Rusya	Kuznetsk	Kuznetsk	53.757	87.136	atlas-yerlesim-ad-eslesmesi	Kuznetsk				Demoscope 1897 (rus_gub_97 reg=38)	kiril: Кузнецк
+kyakhta	3	Rusya	Troitskosavsk	Kyakhta								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Троицкосавск
+mariinsk	3	Rusya	Mariinsk	Mariinsk								Demoscope 1897 (rus_gub_97 reg=79)	kiril: Мариинск
+markovo	3	Rusya	Markovo	Markovo	64.68	170.42	atlas-yerlesim-ad-eslesmesi	Markovo				Demoscope 1897 (rus_gub_97 reg=76)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Марково
+minusinsk	3	Rusya	Minusinsk	Minusinsk	53.71	91.69	atlas-yerlesim-ad-eslesmesi	Minusinsk				Demoscope 1897 (rus_gub_97 reg=73)	kiril: Минусинск
+nerchinsk	3	Rusya	Nerchinsk	Nerchinsk								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Нерчинск
+nerchinsky-zavod	3	Rusya	Nerchinsko-Zavodskoe	Nerchinsky Zavod								Demoscope 1897 (rus_gub_97 reg=74)	Demoscope yerleşim türü: с; kiril: Нерчинско-Заводское
+nikolayevsk-on-amur	3	Rusya	Nikolaevsk	Nikolayevsk-on-Amur								Demoscope 1897 (rus_gub_97 reg=76)	"merkez adı birim adından farklı; Demoscope yazımı ""Николевск"" = Николаевск; kiril: Николевск"
+nikolskoe	3	Rusya	Nikolskoe	Nikolskoe								Demoscope 1897 (rus_gub_97 reg=76)	merkez adı birim adından farklı; Demoscope yerleşim türü: с.; kiril: Никольское
+nizhneudinsk	3	Rusya	Nizhneudinsk	Nizhneudinsk								Demoscope 1897 (rus_gub_97 reg=75)	kiril: Нижнеудинск
+novokuznetsk	3	Rusya	Kuznetsk	Novokuznetsk	53.757	87.136	atlas-yerlesim-ad-eslesmesi	Kuznetsk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Кузнецк
+novoselenginsk	3	Rusya	Selenginsk	Novoselenginsk	51.1	106.6	atlas-yerlesim-ad-eslesmesi	Selenginsk				Demoscope 1897 (rus_gub_97 reg=74)	kiril: Селенгинск
+okhotsk	3	Rusya	Okhotsk	Okhotsk								Demoscope 1897 (rus_gub_97 reg=76)	kiril: Охотск
+olekminsk	3	Rusya	Olekminsk	Olekminsk								Demoscope 1897 (rus_gub_97 reg=80)	kiril: Олекминск
+petropavlovsk-kamchatsky	3	Rusya	Petropavlovsk	Petropavlovsk-Kamchatsky	54.87	69.15	atlas-yerlesim-ad-eslesmesi	Petropavlovsk (Kızılcar)				Demoscope 1897 (rus_gub_97 reg=76)	kiril: Петропавловск
+polyarny	3	Rusya	Aleksandrovsk	Polyarny	50.9	142.16	atlas-yerlesim-ad-eslesmesi	Aleksandrovsk (Kuzey Sahalin)				Demoscope 1897 (rus_gub_97 reg=1)	1897 sayımında merkez Kola; 1899'da uyezd Aleksandrovsk adını aldı, merkez yeni kurulan Aleksandrovsk'a (bugün Polyarny) geçti — iskelet notu, doğrulanmadı; kiril: Кола
+srednekolymsk	3	Rusya	Sredne-Kolymsk	Srednekolymsk								Demoscope 1897 (rus_gub_97 reg=80)	merkez adı birim adından farklı; kiril: Средне-Колымск
+staroturukhansk	3	Rusya	Turukhansk	Staroturukhansk								Demoscope 1897 (rus_gub_97 reg=73)	1897 Turuhansk = bugünkü Staroturukhansk köyü (doğrulanmadı); kiril: Туруханск
+surgut	3	Rusya	Surgut	Surgut	61.254	73.3962	atlas-yerlesim-ad-eslesmesi	Surgut				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Сургут
+tara	3	Rusya	Tara	Tara	56.9021	74.3714	atlas-yerlesim-ad-eslesmesi	Tara				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тара
+troitsk	3	Rusya	Troitsk	Troitsk	54.09	61.56	atlas-yerlesim-ad-eslesmesi	Troitsk				Demoscope 1897 (rus_gub_97 reg=28)	kiril: Троицк
+turinsk	3	Rusya	Turinsk	Turinsk	58.05	63.7	atlas-yerlesim-ad-eslesmesi	Turinsk				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Туринск
+tyukalinsk	3	Rusya	Tyukalinsk	Tyukalinsk								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тюкалинск
+tyumen	3	Rusya	Tyumen	Tyumen								Demoscope 1897 (rus_gub_97 reg=78)	kiril: Тюмень
+ulan-ude	3	Rusya	Verkhneudinsk	Ulan-Ude								Demoscope 1897 (rus_gub_97 reg=74)	kiril: Верхнеудинск
+verkholensk	3	Rusya	Verkholensk	Verkholensk								Demoscope 1897 (rus_gub_97 reg=75)	kiril: Верхоленск
+verkhoyansk	3	Rusya	Verkhoyansk	Verkhoyansk								Demoscope 1897 (rus_gub_97 reg=80)	kiril: Верхоянск
+vilyuysk	3	Rusya	Vilyuysk	Vilyuysk	63.75	121.63	atlas-yerlesim-ad-eslesmesi	Vilyuysk				Demoscope 1897 (rus_gub_97 reg=80)	kiril: Вилюйск
+yalutorovsk	3	Rusya	Yalutorovsk	Yalutorovsk	56.66	66.31	atlas-yerlesim-ad-eslesmesi	Yalutorovsk				Demoscope 1897 (rus_gub_97 reg=78)	kiril: Ялуторовск
+yekaterinburg	3	Rusya	Ekaterinburg	Yekaterinburg	56.84	60.61	atlas-yerlesim-ad-eslesmesi	Yekaterinburg				Demoscope 1897 (rus_gub_97 reg=31)	kiril: Екатеринбург
+zmeinogorsk	3	Rusya	Zmeinogorsk	Zmeinogorsk	51.158	82.188	atlas-yerlesim-ad-eslesmesi	Zmeinogorsk				Demoscope 1897 (rus_gub_97 reg=79)	kiril: Змеиногорск
