@@ -1,16 +1,16 @@
 kaynak_liste	kat	ad_modern	ad_1900	ulke	lat	lon	koord	atlas_aday	kron_anma	adlar
-1900-liste	1	Addis Ababa	Addis Abeba	Etiyopya	9.030	38.740	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		46	F2
-1900-liste	2	Cibuti	Djibouti	Cibuti	11.589	43.145	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Cibûtî	13	F2
-1900-liste	2	Asmara	Asmara	Eritre	15.339	38.931	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Asmara	74	F2
-1900-liste	2	Adwa	Adua	Etiyopya	14.165	38.894	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Adua	19	F2
-1900-liste	2	Debre Markos	Debra Markos	Etiyopya	10.330	37.725	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Debre Markos	1	F2
-1900-liste	2	Gondar	Gondar	Etiyopya	12.600	37.467	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Gondar	92	F2
-1900-liste	2	Harar	Harar	Etiyopya	9.311	42.118	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Harar	204	F2
-1900-liste	2	Kismayo	Kismayu	Somali	-0.358	42.545	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Kısmâyû	4	F2
-1900-liste	2	Mogadişu	Mogadiscio	Somali	2.047	45.342	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Mogadişu	45	F2
-1900-liste	2	Berbera	Berbera	Somali (Somaliland)	10.435	45.014	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Berbera	52	F2
+1900-liste	1	Addis Ababa	Addis Abeba	Etiyopya	9.02497	38.74689	GeoNames (okundu): None		46	F2
+1900-liste	2	Cibuti	Djibouti	Cibuti	11.58901	43.14503	GeoNames (okundu): None	Cibûtî	13	F2
+1900-liste	2	Asmara	Asmara	Eritre	15.33805	38.93184	GeoNames (okundu): None	Asmara	74	F2
+1900-liste	2	Adwa	Adua	Etiyopya	14.16347	38.89924	GeoNames (okundu): None	Adua	19	F2
+1900-liste	2	Debre Markos	Debra Markos	Etiyopya	10.35000	37.73333	GeoNames (okundu): None	Debre Markos	1	F2
+1900-liste	2	Gondar	Gondar	Etiyopya	12.60000	37.46667	GeoNames (okundu): None	Gondar	92	F2
+1900-liste	2	Harar	Harar	Etiyopya	9.31387	42.11815	GeoNames (okundu): None	Harar	204	F2
+1900-liste	2	Kismayo	Kismayu	Somali	-0.35817	42.54536	GeoNames (okundu): None	Kısmâyû	4	F2
+1900-liste	2	Mogadişu	Mogadiscio	Somali	2.03711	45.34375	GeoNames (okundu): None	Mogadişu	45	F2
+1900-liste	2	Berbera	Berbera	Somali (Somaliland)	10.43959	45.01432	GeoNames (okundu): None	Berbera	52	F2
 1900-liste	1	Fès	Fas	Fas	34.03313	-5.00028	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Fes&country=MA	Fas (Fez)	589	F2
-1900-liste	1	El Fasher	el-Fâşir	Sudan	13.629	25.349	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	El-Fâşir	0	F2
+1900-liste	1	El Fasher	el-Fâşir	Sudan	13.62793	25.34936	GeoNames (okundu): None	El-Fâşir	0	F2
 1900-liste	2	Algiers	Cezayir	Cezayir	36.73225	3.08746	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Algiers&country=DZ	Cezayir	430	F2
 1900-liste	2	Constantine	Kostantîne	Cezayir	36.36500	6.61472	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Constantine&country=DZ		58	F2
 1900-liste	2	Oran	Vehran	Cezayir	35.69906	-0.63588	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Oran&country=DZ	Oran	146	F2
@@ -36,15 +36,15 @@ kaynak_liste	kat	ad_modern	ad_1900	ulke	lat	lon	koord	atlas_aday	kron_anma	adlar
 1900-liste	2	Shibin el-Kom	Şibin el-Kom	Mısır	30.55258	31.00904	"GeoNames (okundu): https://www.geonames.org/search.html?q=Shibin+el+Kom&country=EG&featureClass=P (30°33'09.29""N 31°00'32.54""E)"		0	F2
 1900-liste	2	Tanta	Tanta	Mısır	30.78847	31.00192	"GeoNames (okundu): https://www.geonames.org/search.html?q=Tanta&country=EG&featureClass=P (30°47'18.49""N 31°00'06.91""E)"	Tanta	38	F2
 1900-liste	2	Zagazig	Zagazig	Mısır	30.58768	31.50200	"GeoNames (okundu): https://www.geonames.org/search.html?q=Zagazig&country=EG&featureClass=P (30°35'15.65""N 31°30'07.20""E)"		0	F2
-1900-liste	2	Ed Damer	ed-Dâmer	Sudan	17.590	33.959	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Ed-Dâmer	0	F2
-1900-liste	2	El Obeid	el-Ubeyyid	Sudan	13.184	30.217	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		0	F2
-1900-liste	2	Kassala	Kassala	Sudan	15.451	36.400	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		2	F2
-1900-liste	2	Khartoum	Hartum	Sudan	15.501	32.560	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Hartum	60	F2
-1900-liste	2	Kodok	Kodok (Faşoda)	Sudan	9.883	32.117	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Fâşoda	0	F2
-1900-liste	2	Merowe	Merowe	Sudan	18.483	31.817	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		0	F2
-1900-liste	2	Singa	Senga	Sudan	13.150	33.933	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		63	F2
-1900-liste	2	Suakin	Sevâkin	Sudan	19.106	37.332	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Sevâkin	65	F2
-1900-liste	2	Wadi Halfa	Halfa (Vâdî Halfa)	Sudan	21.800	31.350	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)	Vâdî Halfâ	0	F2
+1900-liste	2	Ed Damer	ed-Dâmer	Sudan	17.59898	33.97205	GeoNames (okundu): None	Ed-Dâmer	0	F2
+1900-liste	2	El Obeid	el-Ubeyyid	Sudan	13.18421	30.21669	GeoNames (okundu): None		0	F2
+1900-liste	2	Kassala	Kassala	Sudan	15.45099	36.39998	GeoNames (okundu): None		2	F2
+1900-liste	2	Khartoum	Hartum	Sudan	15.55177	32.53241	GeoNames (okundu): None	Hartum	60	F2
+1900-liste	2	Kodok	Kodok (Faşoda)	Sudan	9.88889	32.10944	GeoNames (okundu): None	Fâşoda	0	F2
+1900-liste	2	Merowe	Merowe	Sudan	18.47036	31.81126	GeoNames (okundu): None		0	F2
+1900-liste	2	Singa	Senga	Sudan	13.14830	33.93117	GeoNames (okundu): None		63	F2
+1900-liste	2	Suakin	Sevâkin	Sudan	19.10590	37.33210	GeoNames (okundu): None	Sevâkin	65	F2
+1900-liste	2	Wadi Halfa	Halfa (Vâdî Halfa)	Sudan	21.79577	31.37129	GeoNames (okundu): None	Vâdî Halfâ	0	F2
 1900-liste	2	Tunis	Tunus	Tunus	36.81897	10.16579	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Tunis&country=TN	Tunus	668	F2
 1900-liste	3	Annaba	Bône	Cezayir	36.90000	7.76667	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Annaba&country=DZ	Annaba | Watampone (Bone)	43	F2
 1900-liste	3	Aïn Sefra	Aïn Sefra	Cezayir	32.75000	-0.58333	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Ain+Sefra&country=DZ		0	F2
@@ -73,7 +73,7 @@ kronolojiden-ek		Fustat		Mısır	30.00737	31.23927	GeoNames (okundu): https://ww
 kronolojiden-ek		Tanca		Fas	35.76727	-5.79975	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Tangier&country=MA		152	F2
 kronolojiden-ek		Sebte (Ceuta)		İspanya (Fas ç.)	35.88919	-5.32042	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Ceuta&country=ES		105	F2
 kronolojiden-ek		Rabat		Fas	34.01325	-6.83255	GeoNames (okundu): https://www.geonames.org/advanced-search.html?q=Rabat&country=MA		82	F2
-kronolojiden-ek		Meroe		Sudan	16.938	33.750	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		31	F2
-kronolojiden-ek		Dongola		Sudan	19.168	30.480	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		48	F2
+kronolojiden-ek		Meroe		Sudan	16.93779	33.71008	GeoNames (okundu): None		31	F2
+kronolojiden-ek		Dongola		Sudan	19.18163	30.47689	GeoNames (okundu): None		48	F2
 kronolojiden-ek		Asvan (Aswan)		Mısır	24.09082	32.89942	GeoNames (okundu): https://www.geonames.org/search.html?q=Aswan&country=EG&featureClass=P		123	F2
-kronolojiden-ek		Aksum		Etiyopya	14.130	38.720	TAHMİN (bilgi-tabanlı ±2-5 km; kaynaktan okunmadı)		73	F2
+kronolojiden-ek		Aksum		Etiyopya	14.12109	38.72337	GeoNames (okundu): None		73	F2
