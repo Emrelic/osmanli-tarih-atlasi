@@ -48,3 +48,8 @@ orta-asya-mogolistan	3	Katta-Kurgan	Kattakurgan	Rus İmparatorluğu	Özbekistan	
 orta-asya-mogolistan	3	Kokand	Kokand	Rus İmparatorluğu	Özbekistan	40.5286	70.9425	modern-alt	Hokand	0.1	atlasta	Demoscope 1897 (rus_gub_97 reg=89)	kaynakli			kiril: Коканд	1900-liste
 orta-asya-mogolistan	3	Namangan	Namangan	Rus İmparatorluğu	Özbekistan	40.9983	71.6726	modern-ana	Andican	61.8	atlasta-yok	Demoscope 1897 (rus_gub_97 reg=89)	kaynakli			birimdeki öteki şehirler: Чуст; kiril: Наманган	1900-liste
 orta-asya-mogolistan	3	Petro-Aleksandrovsk	Turtkul	Rus İmparatorluğu	Özbekistan			bulunamadi			koordinat-yok	Demoscope 1897 (rus_gub_97 reg=86)	kaynakli			merkez adı birim adından farklı; kiril: Петро-Александровск	1900-liste
+orta-asya-mogolistan	3	Hwotien (Khotan)	Hotan	Çin (Qing)	Çin	37.1093	79.9343	modern-alt	Hotan	1.0	atlasta	Richard 1908 s.524	tahmin			Sincan (koordinatör eki 16 Kasım; Çin listesinden)	1900-liste
+orta-asya-mogolistan	3	Shuleh (Kashgar)	Kashgar	Çin (Qing)	Çin	39.4672	75.9868	modern-ana	Kaşgar	0.4	atlasta	Richard 1908 s.524	tahmin			Sincan (koordinatör eki 16 Kasım; Çin listesinden)	1900-liste
+orta-asya-mogolistan	3	Wushih (Uch-Turfan)	Uqturpan	Çin (Qing)	Çin	41.2146	79.2317	modern-alt	Uçturfan (Uç Turfan)	15.2	atlasta-yok	Richard 1908 s.524	tahmin			Sincan (koordinatör eki 16 Kasım; Çin listesinden)	1900-liste
+orta-asya-mogolistan		Turfan		Çin (Qing)	Çin						koordinat-yok					Sincan; 1900 listesinde YOK — koordinatör eki, F2'de kaynakla (koordinat uydurulmadı)	ek-istek
+orta-asya-mogolistan		Urumçi		Çin (Qing)	Çin						koordinat-yok					Sincan; 1900 listesinde YOK — koordinatör eki, F2'de kaynakla (koordinat uydurulmadı)	ek-istek

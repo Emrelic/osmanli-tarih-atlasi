@@ -239,7 +239,7 @@ bati-afrika	2	Karene	Karene	Sierra Leone (Britanya)	Sierra Leone			bulunamadi			
 bati-afrika	2	Kwelu	Kwelu	Sierra Leone (Britanya)	Sierra Leone			bulunamadi			koordinat-yok	STAT usl (1900)	kaynakli			~1901 merkezler taşındı	1900-liste
 bati-afrika	2	Panguma	Panguma	Sierra Leone (Britanya)	Sierra Leone	8.1851	-11.1329	modern-ana	Falaba	186.0	atlasta-yok	STAT usl (1900)	kaynakli			~1901 merkezler taşındı	1900-liste
 bati-afrika	2	Jamestown	Jamestown	St Helena (Britanya)	St Helena (BK)	-15.9249	-5.7182	modern-ana	Mosamedes (Namibe)	1915.7	atlasta-yok	SYB1899	kaynakli				1900-liste
-orta-afrika	2	São Thomé	São Tomé	São Tomé ve Príncipe (Portekiz)	São Tomé ve Príncipe	0.3376	6.7299	modern-ana	Librevil (Libreville)	302.5	atlasta-yok	SYB1899	kaynakli				1900-liste
+bati-afrika	2	São Thomé	São Tomé	São Tomé ve Príncipe (Portekiz)	São Tomé ve Príncipe	0.3376	6.7299	modern-ana	Librevil (Libreville)	302.5	atlasta-yok	SYB1899	kaynakli				1900-liste
 bati-afrika	2	Atakpame	Atakpamé	Togo	Togo	7.5333	1.1333	modern-ana	Atakpamé	0.1	atlasta	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Bassari	Bassar	Togo	Togo	9.2502	0.7821	modern-ana	Sokodé	48.7	atlasta-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Bismarckburg	Bismarckburg (Adélé)	Togo	Togo			bulunamadi			koordinat-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
@@ -403,3 +403,4 @@ bati-afrika						7.701	-1.846	atlas-yerlesim	Bono-Manso (Techiman kuzeyi)	0	atla
 bati-afrika						6.154	7.037	atlas-yerlesim	Nri (Agukwu Nri)	0	atlasta			1		kronolojide yer_id: Nri (Agukwu Nri) (1911-1911)	kronoloji
 bati-afrika						18.686	12.919	atlas-yerlesim	Bilma	0	atlasta			1		kronolojide yer_id: Bilma (1759-1759)	kronoloji
 orta-afrika						-6.135	12.369	atlas-yerlesim	Soyo	0	atlasta			1		kronolojide yer_id: Soyo (1885-1885)	kronoloji
+bati-afrika	2	Villa Cisneros	Dakhla	Río de Oro (İspanya)	Batı Sahra	23.6848	-15.9580	modern-ana	Villa Cisneros (Dahla)	1.8	atlasta	SYB1899	kaynakli			Batı Sahra (koordinatör eki 16 Kasım)	1900-liste
