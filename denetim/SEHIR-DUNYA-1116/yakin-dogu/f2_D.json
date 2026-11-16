@@ -3,8 +3,8 @@
   "id": "alanya-tr",
   "ad": "Alanya",
   "atlas_ad": "Alanya",
-  "lat": 36.5502,
-  "lon": 31.9997,
+  "lat": 36.544,
+  "lon": 32.0,
   "kat1900": 3,
   "adlar": [
    "Korakesion/Coracesium (Grekçe/Latince, antik; Strabon, TDV)",
@@ -57,14 +57,14 @@
     "kaynak": "TDV İslâm Ansiklopedisi, ALANYA maddesi (islamansiklopedisi.org.tr/alanya; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Bizans adı Kalonoros ve 1221 TDV'den. Sonraki olaylar (1293 Karamanoğlu, 1471 Osmanlı...) atlas zinciri başladığı için bu dosyaya alınmadı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Koord: koord: GeoNames 324190 (36°32′37.50″ N, 31°59′59.35″ E), atlas tahmininden 0.7 km. Bizans adı Kalonoros ve 1221 TDV'den. Sonraki olaylar (1293 Karamanoğlu, 1471 Osmanlı...) atlas zinciri başladığı için bu dosyaya alınmadı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "bodrum-tr",
   "ad": "Bodrum",
   "atlas_ad": "Bodrum",
-  "lat": 37.034,
-  "lon": 27.43,
+  "lat": 37.038,
+  "lon": 27.429,
   "kat1900": 3,
   "adlar": [
    "Halikarnassos (Grekçe, antik; Herodotos, TDV)",
@@ -101,14 +101,14 @@
    }
   ],
   "dikis_beyan": "Atlas -0390-01-01'de 'karya-hekatomnid' ile başlıyor; Pers (ahamenis) → Hekatomnid geçişine okunmuş bir tanık yok (TDV Bodrum Karya/Hekatomnos'tan söz etmez). Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV: kent MÖ VII. yüzyıldan itibaren gelişmiş, ad yerli Anadolu dillerine ait (ilk anılış tarihi verilmez); bu yüzden yazılı en erken tanık olarak okunabilen Herodotos alındı, daha eski tanık aranmadı. Sonraki dönem (Rodos Şövalyeleri 1415, Osmanlı 1522 vb. TDV) atlas zinciri başladığı için alınmadı. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV: kent MÖ VII. yüzyıldan itibaren gelişmiş, ad yerli Anadolu dillerine ait (ilk anılış tarihi verilmez); bu yüzden yazılı en erken tanık olarak okunabilen Herodotos alındı, daha eski tanık aranmadı. Sonraki dönem (Rodos Şövalyeleri 1415, Osmanlı 1522 vb. TDV) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 320995 (37°02′17.99″ N, 27°25′45.01″ E), atlas tahmininden 0.5 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "cizre-tr",
   "ad": "Cizre",
   "atlas_ad": "Cizre",
   "lat": 37.33,
-  "lon": 42.19,
+  "lon": 42.185,
   "kat1900": 3,
   "adlar": [
    "Bâzabdâ (eski çağ kalesi/Dicle geçidi; TDV)",
@@ -228,7 +228,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1127-01-17'de 'zengi-musul' ile başlıyor; TDV Cizre'nin Zengî'ye geçişine tarih vermiyor (yalnız 1146 İmâdüddin Zengî'nin ölümü ve 1158 Mevdûd). Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV: 17/638 İyâz b. Ganm bölgeyi fethetti (şehir kurulmadan önce, bölge düzeyi) — başlangıç sayılmadı. Sonraki dönem (1158 Mevdûd, Eyyûbî, Timur 1394, Osmanlı...) atlas zinciri başladığı için alınmadı. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV: 17/638 İyâz b. Ganm bölgeyi fethetti (şehir kurulmadan önce, bölge düzeyi) — başlangıç sayılmadı. Sonraki dönem (1158 Mevdûd, Eyyûbî, Timur 1394, Osmanlı...) atlas zinciri başladığı için alınmadı. Koord: koord: GeoNames 318253 (37°19′48.86″ N, 42°11′05.42″ E), atlas tahmininden 0.4 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "karaman-tr",
@@ -281,13 +281,13 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor (kaynaksız yer tutucu); Bizans sürekliliği 1000'e kadar kanıtlı değil. Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV: Hititler, Frigyalılar (MÖ VII.), Lidyalılar (MÖ VI.), Persler'in hâkimiyeti sayılır ama Laranda adıyla anılış tarihi yok; Strabon'dan okunan en erken yazılı tanık alındı (Cicero vb. aranmadı). Sonraki: 1165 Selçuklu, 1216, 1256 Karamanoğulları, 1471 Osmanlı (TDV) atlas sonrasıdır. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV: Hititler, Frigyalılar (MÖ VII.), Lidyalılar (MÖ VI.), Persler'in hâkimiyeti sayılır ama Laranda adıyla anılış tarihi yok; Strabon'dan okunan en erken yazılı tanık alındı (Cicero vb. aranmadı). Sonraki: 1165 Selçuklu, 1216, 1256 Karamanoğulları, 1471 Osmanlı (TDV) atlas sonrasıdır. Koord: koord: GeoNames 309527 (37°10′52.00″ N, 33°12′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "nusaybin-tr",
   "ad": "Nusaybin",
   "atlas_ad": "Nusaybin",
-  "lat": 37.077,
+  "lat": 37.07,
   "lon": 41.215,
   "kat1900": 3,
   "adlar": [
@@ -393,14 +393,14 @@
    }
   ],
   "dikis_beyan": "Atlas 1183-06-11'de 'zengi-musul' ile başlıyor; TDV Artuklu→Zengî geçişine ve Selâhaddîn'e tarih vermiyor. Yer tutucu olay yazılmadı.",
-  "ic_not": "Sasanî 363 → 639 sürekliliği YAZILMADI (Herakleios dönemi Bizans'ın 628 sonrası dönüşü TDV'de yok). İlk anılış aralığının (912-889) güvenli ucu alındı. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Sasanî 363 → 639 sürekliliği YAZILMADI (Herakleios dönemi Bizans'ın 628 sonrası dönüşü TDV'de yok). İlk anılış aralığının (912-889) güvenli ucu alındı. Koord: koord: GeoNames 303750 (37°04′13.01″ N, 41°12′52.74″ E), atlas tahmininden 0.8 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "katif-sa",
   "ad": "Katîf",
   "atlas_ad": "Katîf",
-  "lat": 26.557,
-  "lon": 49.9873,
+  "lat": 26.565,
+  "lon": 50.009,
   "kat1900": 3,
   "adlar": [
    "el-Katîf (Arapça)"
@@ -436,14 +436,14 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Karmatî → sonraki sahip geçişine tarihli tanık yok (TDV'de Karmatî sonrası Ukaylî tarihi yok, 1330/731 Hürmüz alışı var). Yer tutucu olay yazılmadı.",
-  "ic_not": "TDV Katîf'in ilk anılış tarihini vermiyor (İslâm öncesi Abdülkays yurdu, Alâ b. Hadramî'nin gönderilişi tarihsiz); en erken TARİHLİ bağlantı Karmatî fethidir (bölge düzeyi, şehir adı geçmez olabilir) — ilk anılış olarak zayıf. Sonrası (1330 Hürmüz, 1534 Osmanlı, 1792/1830 Suûdî) atlas sonrası. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "TDV Katîf'in ilk anılış tarihini vermiyor (İslâm öncesi Abdülkays yurdu, Alâ b. Hadramî'nin gönderilişi tarihsiz); en erken TARİHLİ bağlantı Karmatî fethidir (bölge düzeyi, şehir adı geçmez olabilir) — ilk anılış olarak zayıf. Sonrası (1330 Hürmüz, 1534 Osmanlı, 1792/1830 Suûdî) atlas sonrası. Koord: koord: GeoNames 108927 (26°33′55.51″ N, 50°00′32.04″ E), atlas tahmininden 2.3 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "yenbu-sa",
   "ad": "Yenbu",
   "atlas_ad": "Yenbu",
-  "lat": 24.089,
-  "lon": 38.063,
+  "lat": 24.09,
+  "lon": 38.062,
   "kat1900": 3,
   "adlar": [
    "Nera/Negra (TDV: Yunan kaynaklarında bu adla anıldığı söylenir; tarihsiz)",
@@ -480,14 +480,14 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; bu dosyada da 1000'e kadar sahip bilinmiyor (beyanlı boşluk), dikiş çelişkisi yok.",
-  "ic_not": "Sefer yerinin Yenbu' şehriyle aynı nokta olup olmadığı TDV özetinde 'çevre' düzeyindedir; ilk anılış zayıf. Sonrası (1182 Renaud, 1200 Katâde...) atlas sonrası. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Sefer yerinin Yenbu' şehriyle aynı nokta olup olmadığı TDV özetinde 'çevre' düzeyindedir; ilk anılış zayıf. Sonrası (1182 Renaud, 1200 Katâde...) atlas sonrası. Koord: koord: GeoNames 100425 (24°05′22.34″ N, 38°03′42.48″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "zebid-ye",
   "ad": "Zebîd",
   "atlas_ad": "Zebîd",
   "lat": 14.195,
-  "lon": 43.317,
+  "lon": 43.315,
   "kat1900": 3,
   "adlar": [
    "Husayb (bölgedeki eski yerleşim; TDV)",
@@ -527,7 +527,7 @@
     "kaynak": "TDV İslâm Ansiklopedisi, ZEBÎD maddesi (islamansiklopedisi.org.tr/zebid; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "Atlas Zebîd'i 0820-01-01'de 'ziyadi' ile başlatıyor, TDV'ye göre şehir Şubat 820'de kuruldu — atlas başlangıcı kuruluştan ~1 ay ÖNCE (denetle uyarısı beklenir; sıfır zincir çünkü ilk.t atlas başlangıcından sonra). Atlas düzeltmesi önerisi: 0820-02-01 (ay hassasiyeti). Zincir yazılmadı: kuruluştan atlas başlangıcına zaman kalmadı. Sonrası (Ziyâdîler, Necâhîler 1022, Mehdîler 1159, Eyyûbî 1174, Resûlî, Tâhirî, Osmanlı 20 Haz 1516) atlas zincirinde. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Atlas Zebîd'i 0820-01-01'de 'ziyadi' ile başlatıyor, TDV'ye göre şehir Şubat 820'de kuruldu — atlas başlangıcı kuruluştan ~1 ay ÖNCE (denetle uyarısı beklenir; sıfır zincir çünkü ilk.t atlas başlangıcından sonra). Atlas düzeltmesi önerisi: 0820-02-01 (ay hassasiyeti). Zincir yazılmadı: kuruluştan atlas başlangıcına zaman kalmadı. Sonrası (Ziyâdîler, Necâhîler 1022, Mehdîler 1159, Eyyûbî 1174, Resûlî, Tâhirî, Osmanlı 20 Haz 1516) atlas zincirinde. Koord: koord: GeoNames 69500 (14°11′42.36″ N, 43°18′54.65″ E), atlas tahmininden 0.2 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "kilis-tr",
@@ -572,7 +572,7 @@
    }
   ],
   "dikis_beyan": "Atlas 1000-01-01'de __BOSLUK__ ile başlıyor; Bizans'ın 985-1000 arası sürekliliği ve sonrası TDV'de tarihsiz (1124 Belek Gazi Artuklu, Eyyûbî/Memlük tarihsiz). Yer tutucu olay yazılmadı.",
-  "ic_not": "Kilizi (MÖ ~1100, I. Tiglat-pileser) eşitlemesi TDV'ce kesin değil → başlangıç SAYILMADI (VERİ-YAPISI: yeri kesin olmayan eşitleme). Roma yönetimi MÖ 64 (bölge) ve Ebû Ubeyde 15/636 fethi (bölge) şehir düzeyi tanık değil. Daha eski tanık aranmadı. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "Kilizi (MÖ ~1100, I. Tiglat-pileser) eşitlemesi TDV'ce kesin değil → başlangıç SAYILMADI (VERİ-YAPISI: yeri kesin olmayan eşitleme). Roma yönetimi MÖ 64 (bölge) ve Ebû Ubeyde 15/636 fethi (bölge) şehir düzeyi tanık değil. Daha eski tanık aranmadı. Koord: koord: GeoNames 307864 (36°42′58.00″ N, 37°06′54.00″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  },
  {
   "id": "sade-ye",
@@ -614,6 +614,6 @@
     "kaynak": "TDV İslâm Ansiklopedisi, YEMEN maddesi (islamansiklopedisi.org.tr/yemen; 16 Kas 2026'da okundu)"
    }
   ],
-  "ic_not": "'Yemen' maddesi (islamansiklopedisi.org.tr/yemen) okundu; ayrı 'Sa'de' maddesi bulunamadı (arama sonucu boş). 897 en erken tarihli tanık: şehrin daha eski anılışı (Hemdânî, Sıfatü Cezîreti'l-Arab) aranmadı. Sonrası (1027 Hâşid, Resûlî 1229...) atlas sonrası. Koord: KOORDİNAT TAHMİN — bağımsız teyit yok (GeoNames/TGN sorgusu bu oturumda yapılamadı: api.geonames.org sertifika hatası, secure.geonames.org demo kotası dolu); atlas noktası aynen alındı. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
+  "ic_not": "'Yemen' maddesi (islamansiklopedisi.org.tr/yemen) okundu; ayrı 'Sa'de' maddesi bulunamadı (arama sonucu boş). 897 en erken tarihli tanık: şehrin daha eski anılışı (Hemdânî, Sıfatü Cezîreti'l-Arab) aranmadı. Sonrası (1027 Hâşid, Resûlî 1229...) atlas sonrası. Koord: koord: GeoNames 71334 (16°56′24.76″ N, 43°45′50.15″ E), atlas tahmininden 0.0 km. Üst basamaklar: İSAM/TTK/DergiPark/YÖK taraması BU PARTİDE YAPILMADI (yalnız TDV maddesi + belirtilen Perseus metni okundu); çok kaynaklı teyit yok."
  }
 ]
