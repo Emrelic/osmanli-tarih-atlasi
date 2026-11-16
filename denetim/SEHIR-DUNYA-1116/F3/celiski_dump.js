@@ -4,7 +4,7 @@ var fs = require('fs'), vm = require('vm'), path = require('path');
 var KOK = path.resolve(__dirname, '..', '..', '..'); var DATA = path.join(KOK, 'data') + path.sep;
 function run(f) { var win = {}, ctx = vm.createContext({ window: win, console: { log: function () {}, warn: function () {}, error: function () {} } }); try { vm.runInContext(fs.readFileSync(DATA + f, 'utf8'), ctx, { timeout: 120000 }); } catch (e) {} return win; }
 var re = new RegExp(process.argv[2] || 'sehir_tarihce_(hint|orta_asya|afrika_gb)'), bas = +(process.argv[3] || 0), adet = +(process.argv[4] || 999);
-var tsv = fs.readFileSync(path.join(__dirname, 'f3_celiski.tsv'), 'utf8').split('\n').slice(1).filter(Boolean).map(function (l) { return l.split('\t'); }).filter(function (c) { return re.test(c[0]); });
+var tsv = fs.readFileSync(path.join(__dirname, 'f3_celiski.tsv'), 'utf8').split('\n').slice(1).filter(Boolean).map(function (l) { return l.split('\t'); }).filter(function (c) { return re.test(c[0]) && (!process.env.ONCELIK || (+c[8] >= 3 && Math.abs(+c[7]) <= 400)); });
 var sehirler = {}; var kr = {};
 tsv.forEach(function (c) { if (!sehirler[c[0]]) { var w = run(c[0]); Object.keys(w).forEach(function (k) { (w[k] || []).forEach && w[k].forEach(function (s) { if (s && s.id) sehirler[c[0] + '|' + s.id] = s; }); }); sehirler[c[0]] = 1; } });
 var kd = fs.readdirSync(DATA).filter(function (f) { return /^(olaylar|kronoloji)\w*\.js$/.test(f) && !/parca/.test(f); });
