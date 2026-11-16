@@ -1,0 +1,299 @@
+Washington, D.C.|Washington City;Washington, D.C.|ABD|District of Columbia|1|38.895|-77.036|L
+Philadelphia|Philadelphia;Quaker City|ABD|Pennsylvania|1|39.953|-75.165|T
+New York|Lenapehoking (Manhattan);Nieuw Amsterdam;New York|ABD|New York|1|40.713|-74.006|T
+Montgomery|Montgomery|ABD|Alabama|2|32.377|-86.300|L
+Juneau|Dzantik'i Heeni;Juneau|ABD|Alaska|2|58.302|-134.420|T
+Sitka|Sheetʼká;Novo-Arkhangelsk;Sitka|ABD|Alaska|2|57.053|-135.330|L
+Phoenix|Phoenix|ABD|Arizona|2|33.448|-112.074|L
+Little Rock|Little Rock|ABD|Arkansas|2|34.746|-92.290|L
+Sacramento|Nueva Helvetia;Sutter's Fort;Sacramento|ABD|California|2|38.576|-121.494|L
+Denver|Denver City;Denver|ABD|Colorado|2|39.739|-104.990|L
+Hartford|Hartford|ABD|Connecticut|2|41.764|-72.685|L
+Dover|Dover|ABD|Delaware|2|39.158|-75.524|L
+Tallahassee|Tallahassee|ABD|Florida|2|30.438|-84.281|L
+Atlanta|Terminus;Marthasville;Atlanta|ABD|Georgia|2|33.749|-84.388|L
+Honolulu|Kou;Honolulu|ABD|Hawaii|2|21.307|-157.858|L
+Boise|Boise|ABD|Idaho|2|43.615|-116.202|L
+Springfield|Springfield|ABD|Illinois|2|39.799|-89.644|L
+Indianapolis|Indianapolis|ABD|Indiana|2|39.768|-86.158|L
+Des Moines|Fort Des Moines;Des Moines|ABD|Iowa|2|41.591|-93.604|L
+Topeka|Topeka|ABD|Kansas|2|39.048|-95.678|L
+Frankfort|Frankfort|ABD|Kentucky|2|38.200|-84.873|L
+Baton Rouge|Istrouma;Baton Rouge|ABD|Louisiana|2|30.451|-91.187|L
+Augusta|Augusta|ABD|Maine|2|44.311|-69.779|L
+Annapolis|Providence (Severn);Anne Arundel Town;Annapolis|ABD|Maryland|2|38.979|-76.490|L
+Boston|Shawmut;Trimountaine;Boston|ABD|Massachusetts|2|42.360|-71.058|L
+Lansing|Lansing|ABD|Michigan|2|42.733|-84.555|L
+Saint Paul|Pig's Eye Landing;St. Paul|ABD|Minnesota|2|44.954|-93.091|L
+Jackson|Le Fleur's Bluff;Jackson|ABD|Mississippi|2|32.299|-90.185|L
+Jefferson City|Jefferson City|ABD|Missouri|2|38.577|-92.174|L
+Helena|Last Chance Gulch;Helena|ABD|Montana|2|46.589|-112.039|L
+Lincoln|Lancaster;Lincoln|ABD|Nebraska|2|40.814|-96.703|L
+Carson City|Carson City|ABD|Nevada|2|39.164|-119.766|L
+Concord|Penacook;Rumford;Concord|ABD|New Hampshire|2|43.208|-71.538|L
+Trenton|Trent-towne;Trenton|ABD|New Jersey|2|40.220|-74.756|L
+Santa Fe|Oga P'ogeh;Santa Fe de Nuevo México;Santa Fe|ABD|New Mexico|2|35.687|-105.938|L
+Albany|Fort Orange;Beverwijck;Albany|ABD|New York|2|42.653|-73.757|L
+Raleigh|Raleigh|ABD|North Carolina|2|35.780|-78.639|L
+Bismarck|Edwinton;Bismarck|ABD|North Dakota|2|46.808|-100.784|L
+Columbus|Columbus|ABD|Ohio|2|39.961|-82.999|L
+Guthrie|Guthrie|ABD|Oklahoma|2|35.879|-97.425|L
+Salem|Chemeketa;Salem|ABD|Oregon|2|44.943|-123.035|L
+Harrisburg|Harris' Ferry;Harrisburg|ABD|Pennsylvania|2|40.274|-76.884|L
+Providence|Providence|ABD|Rhode Island|2|41.824|-71.413|L
+Newport|Newport|ABD|Rhode Island|2|41.490|-71.313|L
+Columbia|Columbia|ABD|South Carolina|2|34.000|-81.035|L
+Pierre|Fort Pierre (karşı yaka);Pierre|ABD|South Dakota|2|44.368|-100.351|L
+Nashville|French Lick;Fort Nashborough;Nashville|ABD|Tennessee|2|36.163|-86.781|L
+Austin|Waterloo;Austin|ABD|Texas|2|30.267|-97.743|L
+Salt Lake City|Great Salt Lake City;Salt Lake City|ABD|Utah|2|40.761|-111.891|L
+Montpelier|Montpelier|ABD|Vermont|2|44.260|-72.575|L
+Richmond|Richmond;Henricus yakını|ABD|Virginia|2|37.541|-77.436|L
+Olympia|Smithter;Olympia|ABD|Washington|2|47.038|-122.900|L
+Charleston|Charleston (Kanawha)|ABD|West Virginia|2|38.350|-81.633|L
+Madison|Madison|ABD|Wisconsin|2|43.073|-89.401|L
+Cheyenne|Cheyenne|ABD|Wyoming|2|41.140|-104.820|L
+Oklahoma City|Oklahoma City|ABD|Oklahoma|3|35.468|-97.516|T
+Muskogee|Muskogee|ABD|Indian Territory|2|35.748|-95.370|L
+Okmulgee|Okmulgee|ABD|Muscogee (Creek) Nation|2|35.623|-95.966|L
+Tahlequah|Tahlequah|ABD|Cherokee Nation|2|35.915|-94.970|L
+Tishomingo|Tishomingo|ABD|Chickasaw Nation|2|34.236|-96.678|L
+Tuskahoma|Tuskahoma|ABD|Choctaw Nation|2|34.620|-95.270|L
+Wewoka|Wewoka|ABD|Seminole Nation|2|35.159|-96.494|L
+Chicago|Checagou;Fort Dearborn;Chicago|ABD|Illinois|3|41.878|-87.630|T
+St. Louis|Laclède's Village;St. Louis|ABD|Missouri|3|38.627|-90.199|T
+Baltimore|Baltimore Town;Baltimore|ABD|Maryland|3|39.290|-76.612|T
+Cleveland|Cleaveland;Cleveland|ABD|Ohio|3|41.499|-81.694|T
+Buffalo|Buffalo Creek;New Amsterdam (Buffalo);Buffalo|ABD|New York|3|42.887|-78.879|T
+San Francisco|Yerba Buena;San Francisco|ABD|California|3|37.775|-122.419|T
+Cincinnati|Losantiville;Cincinnati|ABD|Ohio|3|39.103|-84.512|T
+Pittsburgh|Fort Duquesne;Fort Pitt;Pittsburgh|ABD|Pennsylvania|3|40.441|-79.996|T
+New Orleans|La Nouvelle-Orléans;Nueva Orleans;New Orleans|ABD|Louisiana|3|29.951|-90.072|T
+Detroit|Fort Pontchartrain du Détroit;Detroit|ABD|Michigan|3|42.331|-83.046|T
+Milwaukee|Milwaukee|ABD|Wisconsin|3|43.039|-87.907|T
+Newark|Newark|ABD|New Jersey|3|40.736|-74.172|T
+Jersey City|Bergen;Jersey City|ABD|New Jersey|3|40.728|-74.078|T
+Louisville|Louisville|ABD|Kentucky|3|38.253|-85.759|T
+Minneapolis|Minneapolis|ABD|Minnesota|3|44.978|-93.265|T
+Kansas City|Westport Landing;Kansas City|ABD|Missouri|3|39.100|-94.579|T
+Rochester|Rochester|ABD|New York|3|43.157|-77.609|T
+Toledo|Toledo|ABD|Ohio|3|41.654|-83.536|T
+Worcester|Worcester|ABD|Massachusetts|3|42.263|-71.802|T
+Syracuse|Syracuse|ABD|New York|3|43.048|-76.147|T
+New Haven|Quinnipiac;New Haven|ABD|Connecticut|3|41.308|-72.928|T
+Paterson|Paterson|ABD|New Jersey|3|40.917|-74.172|T
+Fall River|Fall River|ABD|Massachusetts|3|41.702|-71.155|T
+St. Joseph|Blacksnake Hills;Joseph Robidoux Post;St. Joseph|ABD|Missouri|3|39.767|-94.847|T
+Omaha|Omaha|ABD|Nebraska|3|41.257|-95.935|T
+Los Angeles|Yaanga;El Pueblo de Nuestra Señora la Reina de los Ángeles;Los Angeles|ABD|California|3|34.052|-118.244|T
+Memphis|Chickasaw Bluffs;Memphis|ABD|Tennessee|3|35.150|-90.049|T
+Scranton|Scranton|ABD|Pennsylvania|3|41.409|-75.662|T
+Lowell|Lowell|ABD|Massachusetts|3|42.633|-71.317|T
+Cambridge|Newtowne;Cambridge|ABD|Massachusetts|3|42.373|-71.110|T
+Portland|Portland (Oregon)|ABD|Oregon|3|45.523|-122.676|T
+Grand Rapids|Grand Rapids|ABD|Michigan|3|42.963|-85.668|T
+Dayton|Dayton|ABD|Ohio|3|39.759|-84.192|T
+Seattle|Duwamish;Seattle|ABD|Washington|3|47.606|-122.332|T
+Reading|Reading|ABD|Pennsylvania|3|40.336|-75.927|T
+Wilmington|Fort Christina;Wilmington (Delaware)|ABD|Delaware|3|39.746|-75.547|T
+Camden|Camden|ABD|New Jersey|3|39.926|-75.120|T
+Bridgeport|Bridgeport|ABD|Connecticut|3|41.186|-73.195|T
+Oakland|Oakland|ABD|California|3|37.804|-122.271|T
+Utica|Fort Schuyler;Utica|ABD|New York|3|43.101|-75.233|T
+Springfield (Massachusetts)|Springfield|ABD|Massachusetts|3|42.101|-72.590|T
+Savannah|Savannah|ABD|Georgia|3|32.081|-81.091|T
+Peoria|Fort Crèvecoeur;Peoria|ABD|Illinois|3|40.694|-89.589|T
+Fort Wayne|Kekionga;Fort Miamis;Fort Wayne|ABD|Indiana|3|41.079|-85.139|T
+Houston|Houston|ABD|Texas|3|29.760|-95.370|T
+Dallas|Dallas|ABD|Texas|3|32.777|-96.797|T
+San Antonio|Yanaguana;San Antonio de Béxar;San Antonio|ABD|Texas|3|29.425|-98.494|T
+Mobile|Fort Louis de la Louisiane (Old Mobile);Mobile|ABD|Alabama|3|30.695|-88.040|T
+Charleston (South Carolina)|Charles Town;Charleston|ABD|South Carolina|3|32.777|-79.931|T
+Norfolk|Norfolk|ABD|Virginia|3|36.851|-76.286|T
+Birmingham|Birmingham|ABD|Alabama|3|33.521|-86.802|T
+Spokane|Spokane Falls;Spokane|ABD|Washington|3|47.659|-117.426|T
+Tacoma|Commencement Bay;Tacoma|ABD|Washington|3|47.253|-122.444|T
+Duluth|Fond du Lac (Duluth);Duluth|ABD|Minnesota|3|46.787|-92.100|T
+Sioux City|Sioux City|ABD|Iowa|3|42.497|-96.400|T
+Wichita|Wichita|ABD|Kansas|3|37.687|-97.330|T
+El Paso|El Paso del Norte (kuzey yaka);Franklin;El Paso|ABD|Texas|3|31.760|-106.487|T
+Tucson|Chuk-Shon;San Agustín del Tucsón;Tucson|ABD|Arizona|3|32.222|-110.975|T
+Albuquerque|Bernalillo yakını;Alburquerque;Albuquerque|ABD|New Mexico|3|35.084|-106.651|T
+Portland (Maine)|Casco;Falmouth;Portland|ABD|Maine|3|43.659|-70.259|T
+Manchester|Derryfield;Amoskeag;Manchester|ABD|New Hampshire|3|42.996|-71.455|T
+Erie|Presque Isle;Erie|ABD|Pennsylvania|3|42.129|-80.085|T
+Wheeling|Fort Henry;Wheeling|ABD|West Virginia|3|40.064|-80.721|T
+Chattanooga|Ross's Landing;Chattanooga|ABD|Tennessee|3|35.046|-85.310|T
+Knoxville|White's Fort;Knoxville|ABD|Tennessee|3|35.961|-83.921|T
+Lexington|Lexington|ABD|Kentucky|3|38.040|-84.503|T
+Galveston|Galveston|ABD|Texas|3|29.301|-94.797|T
+Pueblo|El Pueblo;Fort Pueblo;Pueblo|ABD|Colorado|3|38.254|-104.609|T
+Colorado Springs|Colorado City;Colorado Springs|ABD|Colorado|3|38.834|-104.821|T
+Reno|Lake's Crossing;Reno|ABD|Nevada|3|39.530|-119.814|T
+Las Vegas|Las Vegas|ABD|Nevada|3|36.170|-115.140|T
+Lewiston|Lewiston|ABD|Idaho|3|46.417|-117.018|T
+Oregon City|Oregon City|ABD|Oregon|3|45.357|-122.607|T
+Walla Walla|Walla Walla;Fort Walla Walla|ABD|Washington|3|46.065|-118.343|T
+Independence|Independence|ABD|Missouri|3|39.091|-94.415|T
+Fort Leavenworth|Fort Leavenworth|ABD|Kansas|3|39.350|-94.920|T
+Council Bluffs|Kanesville;Council Bluffs|ABD|Iowa|3|41.262|-95.861|T
+Tampa|Fort Brooke;Tampa|ABD|Florida|3|27.951|-82.457|T
+Miami|Fort Dallas;Miami|ABD|Florida|3|25.762|-80.192|T
+Key West|Cayo Hueso;Key West|ABD|Florida|3|24.555|-81.780|T
+Pensacola|Presidio Santa María de Galve;Pensacola|ABD|Florida|3|30.421|-87.217|T
+St. Augustine|San Agustín;St. Augustine|ABD|Florida|2|29.894|-81.314|T
+Jacksonville|Cowford;Jacksonville|ABD|Florida|3|30.332|-81.656|T
+Fort Caroline|La Caroline|ABD|Florida|3|30.390|-81.500|T
+San Luis de Apalachee|Anhaica yakını;Misión San Luis|ABD|Florida|3|30.440|-84.320|T
+Jamestown|James Fort;Jamestown|ABD|Virginia|1|37.209|-76.775|T
+Williamsburg|Middle Plantation;Williamsburg|ABD|Virginia|2|37.271|-76.707|T
+Werowocomoco|Werowocomoco|ABD|Virginia|1|37.390|-76.630|T
+Plymouth|Patuxet;Plymouth|ABD|Massachusetts|2|41.958|-70.667|T
+Salem (Massachusetts)|Naumkeag;Salem|ABD|Massachusetts|3|42.520|-70.896|T
+Pemaquid|Pemaquid|ABD|Maine|3|43.887|-69.520|T
+Portsmouth|Strawbery Banke;Portsmouth|ABD|New Hampshire|3|43.072|-70.763|T
+Norwich|Norwich|ABD|Connecticut|3|41.524|-72.076|T
+New Castle|Fort Casimir;Nieuw Amstel;New Castle|ABD|Delaware|2|39.662|-75.566|T
+Burlington|Burlington|ABD|New Jersey|2|40.071|-74.865|T
+Perth Amboy|Perth Amboy|ABD|New Jersey|2|40.507|-74.265|T
+Schenectady|Schenectady|ABD|New York|3|42.814|-73.940|T
+Kingston|Esopus;Wiltwyck;Kingston|ABD|New York|3|41.927|-73.997|T
+Oswego|Fort Oswego;Oswego|ABD|New York|3|43.455|-76.511|T
+Fort Stanwix|Fort Stanwix;Rome|ABD|New York|3|43.213|-75.456|T
+Fort Ticonderoga|Carillon;Ticonderoga|ABD|New York|3|43.842|-73.389|T
+Fort Niagara|Fort Niagara|ABD|New York|3|43.262|-79.060|T
+Onondaga|Onondaga (Haudenosaunee konsey ateşi)|ABD|New York|1|42.980|-76.150|K
+Saint Mary's City|St. Mary's City|ABD|Maryland|2|38.190|-76.430|T
+New Bern|Tryon Sarayı;New Bern|ABD|North Carolina|2|35.108|-77.044|T
+Edenton|Edenton|ABD|North Carolina|2|36.060|-76.608|T
+Wilmington (North Carolina)|New Carthage;Wilmington|ABD|North Carolina|3|34.226|-77.945|T
+Augusta (Georgia)|Fort Augusta;Augusta|ABD|Georgia|3|33.474|-81.975|T
+Milledgeville|Milledgeville|ABD|Georgia|2|33.080|-83.232|T
+Frederica|Frederica|ABD|Georgia|3|31.220|-81.390|T
+Natchez|Natchez (Fort Rosalie);Natchez|ABD|Mississippi|2|31.560|-91.403|T
+Natchez Grand Village|Grand Village of the Natchez|ABD|Mississippi|1|31.540|-91.380|K
+Biloxi|Fort Maurepas;Biloxi|ABD|Mississippi|2|30.396|-88.885|T
+Natchitoches|Natchitoches|ABD|Louisiana|3|31.761|-93.086|T
+Los Adaes|Nuestra Señora del Pilar de los Adaes|ABD|Louisiana|2|31.740|-93.360|T
+Arkansas Post|Poste de Arkansea;Arkansas Post|ABD|Arkansas|3|33.990|-91.340|T
+Kaskaskia|Kaskaskia;Fort Kaskaskia|ABD|Illinois|2|37.924|-89.917|K
+Fort de Chartres|Fort de Chartres|ABD|Illinois|3|38.090|-90.170|T
+Cahokia (Holy Family)|Cahokia;Holy Family|ABD|Illinois|3|38.570|-90.190|T
+Sainte Genevieve|Sainte-Geneviève|ABD|Missouri|3|37.981|-90.040|T
+Vincennes|Poste Vincennes;Vincennes|ABD|Indiana|2|38.677|-87.529|K
+Chillicothe|Chillicothe;Şavni merkezi|ABD|Ohio|2|39.333|-82.982|K
+Marietta|Marietta|ABD|Ohio|3|39.416|-81.455|T
+Green Bay|La Baye;Fort Howard;Green Bay|ABD|Wisconsin|3|44.519|-88.020|K
+Prairie du Chien|Prairie du Chien|ABD|Wisconsin|3|43.051|-91.141|K
+La Pointe|Chequamegon;La Pointe|ABD|Wisconsin|3|46.780|-90.790|K
+Michilimackinac|Michilimackinac;Fort Michilimackinac;Mackinaw City|ABD|Michigan|3|45.787|-84.728|K
+Saginaw|Saginaw|ABD|Michigan|3|43.419|-83.951|K
+Fort Snelling|Bdote;Fort Snelling|ABD|Minnesota|3|44.893|-93.180|K
+Fort Abercrombie|Fort Abercrombie|ABD|North Dakota|3|46.450|-96.720|K
+Pembina|Pembina|ABD|North Dakota|3|48.965|-97.241|T
+Fort Union|Fort Union Trading Post|ABD|North Dakota|3|47.998|-104.040|K
+Knife River|Hidatsa köyleri (Knife River)|ABD|North Dakota|3|47.340|-101.380|K
+Fort Benton|Fort Benton|ABD|Montana|3|47.820|-110.668|K
+Fort Pierre|Fort Pierre|ABD|South Dakota|3|44.360|-100.370|K
+Sioux Falls|Sioux Falls|ABD|South Dakota|3|43.550|-96.700|K
+Deadwood|Deadwood|ABD|South Dakota|3|44.376|-103.730|K
+Fort Laramie|Fort William;Fort John;Fort Laramie|ABD|Wyoming|3|42.210|-104.520|K
+Fort Bridger|Fort Bridger|ABD|Wyoming|3|41.318|-110.390|K
+Fort Washakie|Fort Washakie|ABD|Wyoming|3|43.000|-108.880|K
+Fort Hall|Fort Hall|ABD|Idaho|3|43.030|-112.430|K
+Fort Boise|Fort Boise|ABD|Idaho|3|43.830|-117.020|K
+Lapwai|Lapwai|ABD|Idaho|3|46.400|-116.800|K
+Bent's Old Fort|Bent's Fort|ABD|Colorado|3|38.040|-103.430|K
+Taos|Taos Pueblo;San Gerónimo de Taos|ABD|New Mexico|3|36.438|-105.546|K
+San Gabriel (Ohkay Owingeh)|San Gabriel del Yunque;Ohkay Owingeh|ABD|New Mexico|2|36.070|-106.070|T
+Pecos Pueblo|Cicuye;Pecos|ABD|New Mexico|3|35.550|-105.690|K
+Acoma Pueblo|Haaku;Acoma;Sky City|ABD|New Mexico|3|34.990|-107.580|K
+Zuni (Halona:wa)|Halona:wa;Zuni|ABD|New Mexico|3|35.070|-108.850|K
+Hawikuh|Hawikuh;Hawikku|ABD|New Mexico|3|34.930|-108.980|K
+Las Vegas (New Mexico)|Las Vegas|ABD|New Mexico|3|35.594|-105.223|K
+Pueblo Bonito (Chaco)|Pueblo Bonito|ABD|New Mexico|1|36.060|-107.961|K
+Mesa Verde (Cliff Palace)|Cliff Palace|ABD|Colorado|3|37.167|-108.472|T
+Oraibi|Oraibi;Orayvi|ABD|Arizona|3|35.890|-110.630|K
+Canyon de Chelly (Tsegi)|Tseyi;Canyon de Chelly|ABD|Arizona|3|36.150|-109.470|K
+Prescott|Prescott|ABD|Arizona|2|34.540|-112.469|T
+Casa Grande|Casa Grande|ABD|Arizona|3|32.997|-111.531|T
+Snaketown|Snaketown|ABD|Arizona|3|33.190|-111.900|K
+Tubac|Presidio San Ignacio de Tubac;Tubac|ABD|Arizona|3|31.610|-111.050|K
+Yuma Crossing|La Purísima Concepción;Fort Yuma;Yuma|ABD|Arizona|3|32.730|-114.620|K
+Fort Mohave|Fort Mohave|ABD|Arizona|3|34.950|-114.600|K
+Fort Sumner (Bosque Redondo)|Bosque Redondo;Fort Sumner|ABD|New Mexico|3|34.470|-104.240|K
+Santa Rita del Cobre|Santa Rita del Cobre|ABD|New Mexico|3|32.800|-108.070|K
+San Diego|Kumeyaay Kosa;San Diego de Alcalá;San Diego|ABD|California|2|32.716|-117.161|T
+Monterey|Monterey (Alta California başkenti)|ABD|California|2|36.600|-121.894|K
+San José|Pueblo de San José de Guadalupe;San Jose|ABD|California|3|37.339|-121.894|K
+Santa Barbara|Presidio Santa Bárbara;Santa Barbara|ABD|California|3|34.420|-119.700|K
+Misión San Gabriel Arcángel|San Gabriel Mission|ABD|California|3|34.100|-118.106|T
+Sonoma|Sonoma|ABD|California|3|38.292|-122.458|T
+Fort Ross|Fort Ross;Rossiya|ABD|California|3|38.514|-123.245|K
+Benicia|Benicia|ABD|California|2|38.049|-122.158|T
+Vallejo|Vallejo|ABD|California|2|38.104|-122.256|T
+Cahokia Mounds|Cahokia (Mississippi kültürü merkezi)|ABD|Illinois|1|38.655|-90.062|K
+Bishop (Owens Valley)|Owens Vadisi;Bishop|ABD|California|3|37.360|-118.395|K
+Timbisha (Death Valley)|Timbisha;Furnace Creek|ABD|California|3|36.460|-116.870|K
+Fort Klamath|Fort Klamath|ABD|Oregon|3|42.710|-121.990|K
+Astoria|Fort Astoria;Astoria|ABD|Oregon|3|46.188|-123.830|K
+Fort Vancouver|Fort Vancouver|ABD|Washington|2|45.624|-122.665|K
+Fort Nisqually|Fort Nisqually|ABD|Washington|3|47.100|-122.640|T
+Fort Nez Percés|Fort Walla Walla;Fort Nez Percés|ABD|Washington|3|46.050|-118.900|K
+Fort Colvile|Fort Colvile|ABD|Washington|3|48.620|-118.100|K
+Spokane House|Spokane House|ABD|Washington|3|47.790|-117.500|K
+Port Townsend|Port Townsend|ABD|Washington|3|48.117|-122.760|T
+Celilo Falls (Wayám)|Wayám;Celilo|ABD|Oregon|3|45.650|-121.000|K
+Provo|Timpanogos;Provo|ABD|Utah|3|40.234|-111.658|K
+Parowan|Parowan;Fort Louisa|ABD|Utah|3|37.842|-112.830|K
+St. George|St. George|ABD|Utah|3|37.100|-113.584|K
+Ogden|Fort Buenaventura;Ogden|ABD|Utah|3|41.223|-111.974|T
+Fort Robidoux|Fort Uintah;Fort Robidoux|ABD|Utah|3|40.200|-109.750|K
+Virginia City (Nevada)|Virginia City|ABD|Nevada|3|39.310|-119.650|K
+Genoa (Nevada)|Mormon Station;Genoa|ABD|Nevada|3|39.000|-119.850|K
+Fort Smith|Belle Point;Fort Smith|ABD|Arkansas|3|35.386|-94.399|K
+Spiro|Spiro Mounds|ABD|Oklahoma|1|35.305|-94.568|K
+Fort Sill|Fort Sill|ABD|Oklahoma|3|34.660|-98.400|K
+Fort Supply|Fort Supply|ABD|Oklahoma|3|36.570|-99.570|K
+Fort Riley|Fort Riley|ABD|Kansas|3|39.090|-96.790|K
+Fort Wallace|Fort Wallace|ABD|Kansas|3|38.910|-101.600|K
+Fort Atkinson|Fort Atkinson|ABD|Nebraska|3|41.510|-96.040|K
+North Platte|Fort McPherson;North Platte|ABD|Nebraska|3|41.124|-100.766|K
+Fort Fetterman|Fort Fetterman|ABD|Wyoming|3|42.840|-105.470|K
+Rawlins|Rawlins|ABD|Wyoming|3|41.791|-107.239|K
+Miles City|Fort Keogh;Miles City|ABD|Montana|3|46.408|-105.840|K
+Fort Belknap|Fort Belknap|ABD|Montana|3|48.480|-108.760|K
+Crow Agency|Crow Agency;Apsáalooke|ABD|Montana|3|45.600|-107.460|K
+Goliad|La Bahía;Presidio La Bahía;Goliad|ABD|Texas|3|28.670|-97.390|T
+Nacogdoches|Nacogdoches;Misión Nuestra Señora de Guadalupe de los Nacogdoches|ABD|Texas|3|31.603|-94.655|K
+San Felipe de Austin|San Felipe de Austin|ABD|Texas|2|29.800|-96.110|K
+Washington-on-the-Brazos|Washington-on-the-Brazos|ABD|Texas|1|30.328|-96.150|T
+Presidio La Junta|La Junta de los Ríos;Presidio|ABD|Texas|3|29.560|-104.370|K
+Fort Worth|Fort Worth|ABD|Texas|3|32.760|-97.330|K
+Fort Concho|Fort Concho;San Angelo|ABD|Texas|3|31.450|-100.440|K
+Fort Stockton|Comanche Springs;Fort Stockton|ABD|Texas|3|30.890|-102.880|K
+Laredo|Laredo;San Agustín de Laredo|ABD|Texas|3|27.506|-99.507|K
+Isleta del Sur|Isleta del Sur;Ysleta|ABD|Texas|3|31.670|-106.330|T
+Anchorage|Anchorage|ABD|Alaska|3|61.218|-149.900|K
+Fairbanks|Fairbanks|ABD|Alaska|3|64.838|-147.716|K
+Nome|Nome|ABD|Alaska|3|64.501|-165.406|K
+Valdez|Valdez|ABD|Alaska|3|61.130|-146.350|K
+Skagway|Skagway|ABD|Alaska|3|59.458|-135.314|K
+Wrangell|Redut Sv. Dionisiy;Fort Stikine;Wrangell|ABD|Alaska|3|56.470|-132.380|K
+Kodiak|Pavlovskaya Gavan;Kodiak|ABD|Alaska|3|57.790|-152.407|K
+Unalaska|Iliuliuk;Unalaska|ABD|Alaska|3|53.874|-166.540|K
+Yakutat|Novorossiysk;Yakutat|ABD|Alaska|3|59.547|-139.727|K
+Kenai|Redut Nikolayevskiy;Kenai|ABD|Alaska|3|60.554|-151.258|K
+Bethel|Mumtrekhlagamute;Bethel|ABD|Alaska|3|60.792|-161.756|K
+Kotzebue|Qikiqtaġruk;Kotzebue|ABD|Alaska|3|66.898|-162.597|K
+Utqiaġvik|Nuvuk;Barrow;Utqiaġvik|ABD|Alaska|3|71.290|-156.789|K
+Fort Yukon|Gwichyaa Zhee;Fort Yukon|ABD|Alaska|3|66.565|-145.275|K
+Seward|Seward|ABD|Alaska|3|60.104|-149.442|T
+St. Michael|Mihaylovskiy Redut;St. Michael|ABD|Alaska|3|63.480|-162.040|K
+Nulato|Nulato|ABD|Alaska|3|64.720|-158.100|K
+Eagle|Fort Egbert;Eagle|ABD|Alaska|3|64.788|-141.200|K
+Lahaina|Lahaina|ABD|Hawaii|1|20.872|-156.677|K
+Hilo|Hilo|ABD|Hawaii|3|19.720|-155.090|K
+Kailua-Kona|Kailua;Kailua-Kona|ABD|Hawaii|3|19.640|-155.990|K
+Kealakekua|Kealakekua|ABD|Hawaii|3|19.480|-155.930|T
+Wailuku|Wailuku|ABD|Hawaii|3|20.891|-156.505|T
