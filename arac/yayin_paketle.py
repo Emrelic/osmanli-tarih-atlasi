@@ -13,6 +13,11 @@ SİTE KÜMESİ (allowlist — çalışma zamanı yalnız bunları okur; js/*.js'
 `denetim/…` `oturumlar/…` anmaları YORUMDUR, ölçüldü 16 Kasım):
   kök: index.html · sw.js · manifest.webmanifest · (varsa) CNAME · .nojekyll
   klasör: css/ js/ data/ assets/
+📌 P1 ② (16 Kasım 2026): `data/parca_manifest.js` varken site tam havuzları
+  (`data/devlet_parcalar.js` 76 MB, `data/donem_parcalar.js` 15 MB) İSTEMEZ — yalnız
+  `?parca=0` ve manifestsiz eski düzen ister. Sonraki fazda bu ikisi (ve katman 1
+  dosyaları değil!) yayın paketinden DIŞLANABİLİR (~91 MB); bu fazda bilerek dokunulmadı
+  (geri dönüş yolu ve araç girdisi olarak duruyorlar).
 YENİ KLASÖR gerekirse (ör. yeni bir `fonts/`) BURAYA eklenmeli; yoksa canlıda 404.
 """
 import os, shutil, sys
