@@ -252,7 +252,9 @@
   //   Kullanıcı zaman çubuğunu katman 2 inmeden oynatırsa o günün bazı
   //   gövdeleri henüz yoktur; `app.js`in `parcaCoz`u eksik halkayı ATLAR
   //   (çökmez), katman 2 gelince tam hâli çizilir.
-  function seyrekCoz(u8) {
+  // `hedef` verilirse (zaman dilimli parça) halkalar o MEVCUT seyrek havuza
+  // ÖZGÜN indeksleriyle yerleştirilir; verilmezse yeni bir seyrek dizi döner.
+  function seyrekCoz(u8, hedef) {
     var i = 0;
     function v() {
       var z = 0, k = 0, c;
@@ -266,7 +268,7 @@
       throw new Error("geo_coz: seyrek katmanda " + n + " indeks ama " +
                       halkalar.length + " halka");
     }
-    var seyrek = [];
+    var seyrek = hedef || [];
     for (var m = 0; m < n; m++) seyrek[idx[m]] = halkalar[m];
     return seyrek;
   }
@@ -345,6 +347,190 @@
     kok.document.head.appendChild(s);
   }
 
+  // ── ZAMAN DİLİMLİ PARÇA (P1 ②, 16 Kasım 2026) ─────────────────────────
+  // ÖLÇÜLDÜ (HAVVA prototipi, gzip): tam havuz devlet ~41 MB + dönem ~8 MB telde,
+  // oysa bir tarihte havuzun yalnız %0,6–2'si gerekiyor. `arac/kodla.py dilim-yaz`
+  // havuzu halkaların KULLANIM ARALIĞINA göre parçalara böler; dizin
+  // `data/parca_manifest.js` (window.PARCA_MANIFEST). Tarih yılı Y için her
+  // katmanda (W = kat[k]) yalnız Y//W−1 ve Y//W pencereleri gerekir (kanıt:
+  // kodla.py "ZAMAN DİLİMLİ PARÇA" notu; `kodla.py dilim-sina` ölçer).
+  // Manifest VARSA tam havuz (`tamHavuzuGetir`) HİÇ İSTENMEZ; app.js `guncelle()`
+  // her gün değişiminde `window.parcaGerek(yıl)` çağırır. Parça gelince halkaları
+  // aynı seyrek havuza (özgün indeksle) yerleşir ve kanca (`__govdeYenile` /
+  // `__donemYenile`) çağrılır. Manifest YOKSA (ya da `?parca=0`) eski yol aynen.
+  // Parça biçimi katman 1'inkidir (`seyrekCoz`). `?v=<sha12>` damgası: değişmeyen
+  // parça sürüm değişse de AYNI adreste kalır ⇒ sw.js önbelleğinden gelir.
+  var MAN = kok.PARCA_MANIFEST;
+  var parcaKapali = !!kok.__PARCA_KAPALI;
+  try { if (/[?&]parca=0(&|$)/.test(kok.location.search)) parcaKapali = true; } catch (e) { }
+  var PD = {
+    devlet: { m: MAN && MAN.devlet, kuresel: "DEVLET_PARCALAR", kanca: "__govdeYenile",
+              ad: "devlet", zaman: null },
+    donem:  { m: MAN && MAN.donem, kuresel: "PARCALAR", kanca: "__donemYenile",
+              ad: "dönem", zaman: null }
+  };
+  var PARCA_KIP = !!(MAN && MAN.kok && !parcaKapali && kok.document &&
+                     (PD.devlet.m || PD.donem.m));
+  if (!PARCA_KIP) { PD.devlet.m = null; PD.donem.m = null; }
+  var pDurum = {};          // ad → 0 inmekte · 1 indi
+  var pKuyruk = [], pUcta = 0, P_ESZAMAN = 4;
+  var pSayfaHazir = false, pBekleyenYil = null, pSonYil = null;
+  // Ölçüm (tarayıcı sınavı ve teşhis için; arayüz metni DEĞİL):
+  kok.__PARCA_OLCUM = { istenen: 0, inen: 0, bayt: 0, hata: 0, ms: 0, kip: PARCA_KIP };
+
+  function pGerekenler(H, yil) {
+    var m = H.m, out = [];
+    if (!m) return out;
+    for (var k = 0; k < m.kat.length; k++) {
+      var W = m.kat[k], w = Math.floor(yil / W);
+      for (var j = w - 1; j <= w; j++) {
+        var ad = m.onek + "_" + k + "_" + j;
+        if (m.p[ad]) out.push({ H: H, ad: ad });
+      }
+    }
+    return out;
+  }
+
+  function pKancaPlanla(H) {
+    if (H.zaman) return;
+    // Aynı anda inen parçalar TEK yeniden kurmada birleşsin.
+    H.zaman = setTimeout(function () {
+      H.zaman = null;
+      if (typeof kok[H.kanca] === "function") {
+        try { kok[H.kanca](); } catch (e) {
+          if (kok.console) console.error("🔴 geo_coz parça kancası attı [" + H.ad + "]:", e);
+        }
+      } else {
+        kok.__PARCA_HATA = "app.js kancası (" + H.kanca + ") YOK";
+        if (kok.console) console.error("🔴 " + kok.__PARCA_HATA);
+      }
+    }, 30);
+  }
+
+  function pGetir(is, deneme) {
+    var H = is.H, ad = is.ad, kayit = H.m.p[ad];
+    var s = kok.document.createElement("script");
+    s.src = MAN.kok + ad + ".js?v=" + kayit[3] + (deneme ? "&d=" + deneme : "");
+    s.async = true;
+    s.onload = function () {
+      if (s.parentNode) s.parentNode.removeChild(s);
+      var t = (kok.performance && kok.performance.now) ? kok.performance.now() : 0;
+      try {
+        var d = kok.__DILIM && kok.__DILIM[ad];
+        if (!d) throw new Error(ad + " gelmedi");
+        delete kok.__DILIM[ad];
+        // Manifest ile dosya AYNI üretimden mi? (önbellekte eski kopya kalmasın)
+        if (String(d.sha).slice(0, 12) !== kayit[3]) {
+          throw new Error(ad + " damgası manifestle tutmuyor (" +
+                          String(d.sha).slice(0, 12) + " ≠ " + kayit[3] + ")");
+        }
+        if (!kok[H.kuresel]) kok[H.kuresel] = [];
+        seyrekCoz(b64Coz(d.b64), kok[H.kuresel]);
+        pDurum[ad] = 1;
+        kok.__PARCA_OLCUM.inen++;
+        kok.__PARCA_OLCUM.bayt += kayit[4];
+        if (t) kok.__PARCA_OLCUM.ms += Math.round(kok.performance.now() - t);
+        pKancaPlanla(H);
+      } catch (e) {
+        delete pDurum[ad];
+        pSonYil = null;
+        kok.__PARCA_OLCUM.hata++;
+        kok.__PARCA_HATA = String(e);
+        if (kok.console) console.error("🔴 geo_coz parça BAŞARISIZ [" + H.ad + "]:", e);
+      }
+      pUcta--;
+      pPompala();
+    };
+    s.onerror = function () {
+      if (s.parentNode) s.parentNode.removeChild(s);
+      kok.__PARCA_HATA = (ad + ".js") + " İNDİRİLEMEDİ";   // tam havuzdaki dizgiyle AYNI (yeni çeviri metni doğmasın)
+      kok.__PARCA_HATA_DENEME = deneme + 1;
+      if (kok.console) console.error("🔴 " + kok.__PARCA_HATA);
+      // Tam havuzdaki YENİDEN DENEME düzeni (DENEME_ARA_MS) parça başına aynen.
+      if (deneme < DENEME_ARA_MS.length) {
+        setTimeout(function () { pGetir(is, deneme + 1); }, DENEME_ARA_MS[deneme]);
+        return;                                  // yuva (pUcta) denemede tutulur
+      }
+      delete pDurum[ad];                         // sonraki tarih değişimi yeniden ister
+      pSonYil = null;
+      kok.__PARCA_OLCUM.hata++;
+      pUcta--;
+      pPompala();
+    };
+    kok.document.head.appendChild(s);
+  }
+
+  function pPompala() {
+    while (pUcta < P_ESZAMAN && pKuyruk.length) {
+      var is = pKuyruk.shift();
+      if (pDurum[is.ad] !== undefined) continue;
+      pDurum[is.ad] = 0;
+      pUcta++;
+      kok.__PARCA_OLCUM.istenen++;
+      pGetir(is, 0);
+    }
+  }
+
+  // Dışa açık: `yil` ASTRONOMİK yıl (app.js idxTarih(suanki).y). Önce o yılın
+  // parçaları, sonra ileri/geri oynatma için ±L0 yılın parçaları (önyükleme)
+  // kuyruğa girer. İnmiş/inmekte olan parça yeniden istenmez; hızlı kaydırmada
+  // henüz başlamamış eski istekler yeni yılın listesiyle DEĞİŞTİRİLİR.
+  function parcaGerek(yil) {
+    if (!PARCA_KIP) return false;
+    yil = Math.floor(+yil);
+    if (!isFinite(yil)) return false;
+    if (!pSayfaHazir) { pBekleyenYil = yil; return true; }
+    if (yil === pSonYil) return true;
+    pSonYil = yil;
+    var liste = [], gor = {};
+    function ekle(is) {
+      if (gor[is.ad] || pDurum[is.ad] !== undefined) return;
+      gor[is.ad] = 1;
+      liste.push(is);
+    }
+    var H, L0;
+    for (H in PD) pGerekenler(PD[H], yil).forEach(ekle);
+    for (H in PD) {
+      if (!PD[H].m) continue;
+      L0 = PD[H].m.l0 || 8;
+      pGerekenler(PD[H], yil + L0).forEach(ekle);
+      pGerekenler(PD[H], yil - L0).forEach(ekle);
+    }
+    pKuyruk = liste;
+    pPompala();
+    return true;
+  }
+  kok.parcaGerek = parcaGerek;
+  // Teşhis: o yıl için GEREKEN parçaların hepsi indi mi?
+  kok.parcaHazirMi = function (yil) {
+    if (!PARCA_KIP) return true;
+    var hepsi = pGerekenler(PD.devlet, yil).concat(pGerekenler(PD.donem, yil));
+    for (var i = 0; i < hepsi.length; i++) if (pDurum[hepsi[i].ad] !== 1) return false;
+    return true;
+  };
+
+  if (PARCA_KIP) {
+    // app.js PARCALAR / DEVLET_PARCALAR'sız AÇILMAZ (geometriKapisi) — katman 1
+    // yoksa boş seyrek havuzla açılır, parçalar `load`dan sonra dolar.
+    if (PD.devlet.m && !kok.DEVLET_PARCALAR && !kok.__DP_ON_B64 && !kok.__DP_B64) kok.DEVLET_PARCALAR = [];
+    if (PD.donem.m && !kok.PARCALAR && !kok.__PR_ON_B64 && !kok.__PR_B64) kok.PARCALAR = [];
+    // İlk boyamayı bekletmemek için parçalar `load`dan SONRA istenir (tam havuz gibi).
+    var pBasla = function () {
+      pSayfaHazir = true;
+      var y = pBekleyenYil;
+      if (y === null) {                          // app.js henüz çağırmadıysa katman 1 günü
+        var g = String(kok.__DP_ON_GUN || kok.__PR_ON_GUN || "1281");
+        y = parseInt(g.replace(/^([+-]?\d+).*$/, "$1"), 10);
+      }
+      parcaGerek(y);
+    };
+    if (kok.addEventListener) {
+      kok.addEventListener("load", function () { setTimeout(pBasla, 0); });
+    } else {
+      pBasla();
+    }
+  }
+
   // DÖNEM KATMAN 1 — `donem_parca_on.js` varsa PARCALAR seyrek kurulur, tam havuz
   // `load`dan sonra gelir. Dosya YOKSA (eski düzen) aşağıdaki eşzamanlı döngü
   // `__PR_B64`ü aynen eskisi gibi çözer.
@@ -365,7 +551,9 @@
       // yukarıda haykırıldı ve tam havuz (aşağıda) hemen istenir.
       kok.PARCALAR = [];
     }
-    if (donemKatman1) {
+    if (PD.donem.m) {
+      // ZAMAN DİLİMLİ PARÇA kipi: tam havuz İSTENMEZ, parcaGerek getirir.
+    } else if (donemKatman1) {
       // Tam havuzu ilk boyamadan SONRA iste.
       if (kok.addEventListener) {
         kok.addEventListener("load", function () {
@@ -392,7 +580,10 @@
       if (kok.console) console.error("🔴 geo_coz katman1 BAŞARISIZ:", e);
     }
     // Tam havuzu ilk boyamadan SONRA iste — `load` olayı beklenir.
-    if (kok.addEventListener) {
+    // ZAMAN DİLİMLİ PARÇA kipinde tam havuz İSTENMEZ (parcaGerek getirir).
+    if (PD.devlet.m) {
+      /* parça kipi */
+    } else if (kok.addEventListener) {
       kok.addEventListener("load", function () { setTimeout(tamHavuzuGetir, 0); });
     } else {
       tamHavuzuGetir();

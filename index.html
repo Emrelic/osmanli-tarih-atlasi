@@ -2157,7 +2157,15 @@
      Üretim: py arac/kodla.py on-dilim-donem data  (havuz değişince YENİDEN
      koşturulmalı; `kodla.py kapi` bayatlığı yakalar). -->
 <script src="data/donem_parca_on.js?v=r18454023"></script>
-<script src="js/geo_coz.js?v=r263255028"></script>
+<!-- ▼ ZAMAN DİLİMLİ PARÇA (P1 ②, 16 Kasım 2026): tam havuzlar (devlet_parcalar.js
+     ~41 MB + donem_parcalar.js ~8 MB telde) artık İSTENMEZ. Bu küçük dizin
+     (window.PARCA_MANIFEST) varsa js/geo_coz.js yalnız o tarihin parçalarını
+     data/dilim/ altından indirir (parcaGerek; app.js guncelle çağırır).
+     geo_coz.js'ten ÖNCE yüklenmeli. Üretim: py arac/kodla.py dilim-yaz data <hedef>
+     (kodla.py yay kendiliğinden yeniler). Sınav: kodla.py dilim-sina data <hedef>.
+     Eski yol: ?parca=0 ya da bu satır yoksa tam havuz eskisi gibi iner. -->
+<script src="data/parca_manifest.js?v=r238809722"></script>
+<script src="js/geo_coz.js?v=r103657046"></script>
 <script src="data/sehirler.js?v=r21470183"></script>
 <!-- Ⓑ DOLGU KATMANI (arac/dolgu.py) — window.DOLGU + DOLGU_PARCALAR +
      DOLGU_PARCA_HALKA. Üretilmemişse dosya YOKTUR ve yükleyici satırı
@@ -2387,7 +2395,7 @@
      metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
 <script src="data/ceviri_dizin.js?v=r2168401"></script>
 <script src="js/ceviri.js?v=r224473008"></script>
-<script src="js/app.js?v=r66459253"></script>
+<script src="js/app.js?v=r93430250"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
 <!-- ▼ data/paket_28.js — aşağıdaki 10 dosya buraya PAKETLENDİ (arac/paketle.py).

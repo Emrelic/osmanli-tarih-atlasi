@@ -50,6 +50,12 @@ py arac/surum_damgala.py  # index.html'deki ?v=rNN damgasını yükselt
   bayat `donem_parca_on.js` kendi çıktısını siler) · `kodla.py on-dilim-donem data` ·
   `kodla.py on-dilim data` **(devlet katman 1 — `devlet_parca_on.js`; eksikse kapı "KODLAMA KAPISI —
   devlet_parca_on.js BAYAT" verir)** · `yay petek_govde.js data govde` · `yay ufuk_bantlari.js data bant`
+  ①b 🆕 **ZAMAN DİLİMLİ PARÇA (P1 ②, 16 Kasım 2026):** `yay … devlet` / `yay … donem` parçaları
+  (`data/dilim/*.js`, `*_onek.json`) ve `data/parca_manifest.js`i KENDİSİ yeniler; `yay` dışında
+  havuza dokunulduysa elle: `kodla.py dilim-yaz data devlet` + `dilim-yaz data donem`. Sınav:
+  `py arac/denetle_dilim.py data` (0 değilse DUR). Commit: `kodla.py dilim-liste data <liste.txt>`
+  → `git add --pathspec-from-file=<liste.txt>` + aynı listeyle commit (silinen eski parçalar dâhil;
+  dizin pathspec'i YASAK). Bayat manifest `kodla.py kapi`da "dilim … BAYAT" diye durur.
   ② `coz-c` ×2 (devletler_harita.js, donemler.js `donem`) — yay'ların HEPSİ çıkış 0 verdikten sonra
   ③ `uret_devirler.py` · `uret_bolge_pencere.py` · `renk_olc.py` · `uret_altlik.py`
   ④ **`uret_bekleyenler.py`** (`BEKLEYENLER.md` koşudan beri değiştiyse `bekleyenler.js` bayatlar ve
