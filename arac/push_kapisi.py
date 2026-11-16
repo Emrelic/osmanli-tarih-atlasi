@@ -105,6 +105,9 @@ def kos(adim, komut, cwd):
         kuyruk = (r.stdout or "").strip().splitlines()[-12:]
         for s in kuyruk:
             print("      | " + s)
+        # çökme (Traceback) stderr'e düşer ve çıkış 1 verir — ihlalden ayırt edilsin diye göster
+        for s in (r.stderr or "").strip().splitlines()[-8:]:
+            print("      ! " + s)
     return r.returncode
 
 
@@ -219,7 +222,15 @@ def olc(dosyalar, kabul=None):
         print("   denetle_yayin.py atlandı — site dosyası değişmedi")
     if not kosacak:
         return
-    yer = tempfile.mkdtemp(prefix="atlas-push-")
+    # 16 Kasım 2026 (Emre): ölçüm worktree'si Temp'te AÇILMAZ — Windows Defender Temp'teki taze
+    # checkout'ta data/yerlesimler_hint_adalar.js'i "Trojan:Script/ObfusScript.A!ml" (yanlış pozitif)
+    # diye karantinaya alıyordu; denetle Errno 22 ile çöküp İHLAL (1) gibi görünüyordu. Yer: ana
+    # deponun .claude/olcum/ klasörü (.claude/* gitignore'da; C:\atlas altındaki kopyalar işaretlenmedi).
+    ortak = os.path.abspath(os.path.join(KOK, git("rev-parse", "--git-common-dir").stdout.strip()))
+    kok_ana = os.path.dirname(ortak)
+    ana = os.path.join(kok_ana, ".claude", "olcum")
+    os.makedirs(ana, exist_ok=True)
+    yer = tempfile.mkdtemp(prefix="atlas-push-", dir=ana)
     os.rmdir(yer)
     print("④ ölçüm worktree'si: %s (taban %s)" % (yer, git("rev-parse", "--short", "HEAD").stdout.strip()))
     git("worktree", "add", "--detach", yer, "HEAD")
