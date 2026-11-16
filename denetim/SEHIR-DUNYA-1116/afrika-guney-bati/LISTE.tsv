@@ -22,7 +22,7 @@ bati-afrika	2	Grand-Bassam	Grand-Bassam	Fransız Batı Afrikası	Fildişi Sahili
 orta-afrika	2	Libreville	Libreville	Fransız Kongosu	Gabon	0.3924	9.4536	modern-ana	Librevil (Libreville)	0.5	atlasta	SYB1899	kaynakli	1		katman1 bulunamadı	1900-liste
 bati-afrika	2	Bathurst	Banjul	Gambiya (Britanya)	Gambiya	13.4527	-16.5780	modern-ana	Bathurst (Banjul)	1.1	atlasta	SYB1899	kaynakli	1			1900-liste
 bati-afrika	2	Accra	Accra	Altın Kıyısı (Britanya)	Gana	5.5560	-0.1969	modern-ana	Akra (Accra)	0.8	atlasta	SYB1899	kaynakli				1900-liste
-bati-afrika	2	Gambaga	Gambaga	Altın Kıyısı (Britanya)	Gana			bulunamadi			koordinat-yok	SYB1899; STAT ugh	tahmin			resmî statü 1901-02	1900-liste
+bati-afrika	2	Gambaga	Gambaga	Altın Kıyısı (Britanya)	Gana	10.5322	-0.43783	geonames-sayfa(16Kas)			koordinat-yok	SYB1899; STAT ugh	tahmin			resmî statü 1901-02	1900-liste
 bati-afrika	2	Kete-Kratschi	Kete-Krachi	Togo	Gana	7.7939	-0.0498	modern-ana	Hohoe	91.7	atlasta-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Kpando	Kpandu	Togo	Gana	6.9954	0.2931	modern-ana	Kpando	0.0	atlasta	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Kumasi	Kumasi	Altın Kıyısı (Britanya)	Gana	6.6885	-1.6244	modern-ana	Kumasi	0.1	atlasta	SYB1899; STAT ugh	kaynakli	2		resmî ilhak 1901	1900-liste
@@ -42,7 +42,7 @@ guney-afrika	2	Bethulie	Bethulie	Orange Free State	Güney Afrika	-30.4986	25.974
 guney-afrika	2	Bloemhof	Bloemhof	Güney Afrika Cumhuriyeti (Transvaal)	Güney Afrika	-27.6469	25.6070	modern-ana	Vryburg	116.2	atlasta-yok	nlwiki Zuid-Afrikaansche Republiek (Bossenbroek/Lion Cachet atıflı); SYB1899 '20 districts'	vikipedi			nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)	1900-liste
 guney-afrika	2	Boshof	Boshof	Orange Free State	Güney Afrika	-28.5391	25.2397	modern-ana	Kimberley	51.0	atlasta-yok	nlwiki Oranje Vrijstaat (1892 listesi); COL1902	vikipedi			nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate merkezi olarak geçer	1900-liste
 guney-afrika	2	Bredasdorp	Bredasdorp	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-34.5322	20.0403	modern-ana	Svellendam	67.8	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
-guney-afrika	2	Britstown	Britstown	Ümit Burnu Kolonisi (Britanya)	Güney Afrika			bulunamadi			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
+guney-afrika	2	Britstown	Britstown	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-30.58746	23.50391	geonames-sayfa(16Kas)			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Burghersdorp	Burgersdorp	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-30.9977	26.3286	modern-ana	Colesberg	121.3	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	tahmin			division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez	1900-liste
 guney-afrika	2	Cala	Cala	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-31.5236	27.6952	modern-ana	Butterworth	99.1	atlasta-yok	COL1899 s.101-102; COL1901	kaynakli			Transkei bölgesi bağımlılık district'i (Native Territories); magistracy adı Xalanga	1900-liste
 guney-afrika	2	Caledon	Caledon	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-34.2300	19.4265	modern-ana	Stellenbosch	61.9	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
@@ -76,13 +76,13 @@ guney-afrika	2	George	George	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-33.9
 guney-afrika	2	Port Elizabeth	Gqeberha	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-33.9611	25.6149	modern-ana	Port Elizabeth	1.4	atlasta	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Graaff-Reinet	Graaff-Reinet	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-32.2522	24.5308	modern-ana	Graaff-Reinet	0.2	atlasta	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Greytown	Greytown	Natal (Britanya)	Güney Afrika	-29.0642	30.5928	modern-ana	Pietermaritzburg	63.1	atlasta-yok	iskelet (county adları bilgi — doğrulanmadı)	tahmin			county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)	1900-liste
-guney-afrika	2	Griquatown	Griekwastad	Ümit Burnu Kolonisi (Britanya)	Güney Afrika			bulunamadi			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	tahmin			division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez; Griqualand West'in 4 division'ından	1900-liste
+guney-afrika	2	Griquatown	Griekwastad	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-28.85141	23.25248	geonames-sayfa(16Kas)			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	tahmin			division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez; Griqualand West'in 4 division'ından	1900-liste
 guney-afrika	2	Hanover	Hanover	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-32.8190	27.4806	modern-ana	Bisho	4.8	yakin-incele	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Harding	Harding	Natal (Britanya)	Güney Afrika	-30.5764	29.8840	modern-ana	Kokstad	44.5	atlasta-yok	iskelet (county adları bilgi — doğrulanmadı)	tahmin			county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)	1900-liste
 guney-afrika	2	Harrismith	Harrismith	Orange Free State	Güney Afrika	-28.2728	29.1295	modern-ana	Nevkasl (Newcastle)	97.1	atlasta-yok	nlwiki Oranje Vrijstaat (1892 listesi); COL1902	vikipedi			nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate merkezi olarak geçer	1900-liste
 guney-afrika	2	Heidelberg	Heidelberg	Güney Afrika Cumhuriyeti (Transvaal)	Güney Afrika	-26.5048	28.3592	modern-ana	Transvaal (Bur cumhuriyeti)	86.1	atlasta-yok	nlwiki Zuid-Afrikaansche Republiek (Bossenbroek/Lion Cachet atıflı); SYB1899 '20 districts'	vikipedi			nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si)	1900-liste
 guney-afrika	2	Heilbron	Heilbron	Orange Free State	Güney Afrika	-27.2812	27.9709	modern-ana	Potchefstroom	106.5	atlasta-yok	nlwiki Oranje Vrijstaat (1892 listesi); COL1902	vikipedi			nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi)	1900-liste
-guney-afrika	2	Herschel	Herschel	Ümit Burnu Kolonisi (Britanya)	Güney Afrika			bulunamadi			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
+guney-afrika	2	Herschel	Herschel	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-30.61535	27.16408	geonames-sayfa(16Kas)			koordinat-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Hoopstad	Hoopstad	Orange Free State	Güney Afrika	-27.8327	25.9083	modern-ana	Oranj (Bur cumhuriyeti)	146.2	atlasta-yok	nlwiki Oranje Vrijstaat (1892 listesi); COL1902	vikipedi			nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi); COL1902 ORC'de Resident Magistrate merkezi olarak geçer	1900-liste
 guney-afrika	2	Hope Town	Hopetown	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-29.6246	24.0852	modern-ana	Griquatown	117.6	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Humansdorp	Humansdorp	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-34.0290	24.7691	modern-ana	Port Elizabeth	77.0	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
@@ -161,13 +161,13 @@ guney-afrika	2	Thaba Nchu	Thaba Nchu	Orange Free State	Güney Afrika	-29.2093	26
 guney-afrika	2	Tsolo	Tsolo	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-31.3078	28.7554	modern-ana	Umtata	31.5	atlasta-yok	COL1899 s.101-102; COL1901	kaynakli			Transkei bölgesi bağımlılık district'i (Native Territories)	1900-liste
 guney-afrika	2	Tsomo	Tsomo	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-32.0368	27.8199	modern-ana	Butterworth	44.4	atlasta-yok	COL1899 s.101-102; COL1901	kaynakli			Transkei bölgesi bağımlılık district'i (Native Territories)	1900-liste
 guney-afrika	2	Tulbagh	Tulbagh	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-33.2860	19.1412	modern-ana	Stellenbosch	76.2	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
-guney-afrika	2	Umzimkulu	Umzimkulu	Ümit Burnu Kolonisi (Britanya)	Güney Afrika			bulunamadi			koordinat-yok	COL1899 s.101-102; COL1901	kaynakli			Transkei bölgesi bağımlılık district'i (Native Territories)	1900-liste
+guney-afrika	2	Umzimkulu	Umzimkulu	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-30.26081	29.94022	geonames-sayfa(16Kas)			koordinat-yok	COL1899 s.101-102; COL1901	kaynakli			Transkei bölgesi bağımlılık district'i (Native Territories)	1900-liste
 guney-afrika	2	Umzinto	Umzinto	Natal (Britanya)	Güney Afrika	-30.3100	30.6627	modern-alt	Durban	60.7	atlasta-yok	iskelet (county adları bilgi — doğrulanmadı)	tahmin			county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)	1900-liste
 guney-afrika	2	Uniondale	Uniondale	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-33.6589	23.1232	modern-ana	Beaufort West	154.1	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Upington	Upington	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-28.4478	21.2561	modern-ana	Upington	1.6	atlasta	COL1900 s.78-80 'Divisional Courts and Offices'	tahmin			division adı kasaba adından farklı; merkez kasaba bilgi — COL division adını verir, merkezi vermez; eski British Bechuanaland (1895 ilhak)	1900-liste
 guney-afrika	2	Utrecht	Utrecht	Güney Afrika Cumhuriyeti (Transvaal)	Güney Afrika	-27.6586	30.3217	modern-ana	Nevkasl (Newcastle)	40.2	atlasta-yok	nlwiki Zuid-Afrikaansche Republiek (Bossenbroek/Lion Cachet atıflı); SYB1899 '20 districts'	vikipedi			nlwiki: 1899'da Svaziland hariç 19 district (+Svaziland = SYB'nin 20'si); 1903'te Natal'a	1900-liste
 guney-afrika	2	Van Rhynsdorp	Vanrhynsdorp	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-31.6089	18.7397	modern-ana	Kalvinia	99.8	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
-guney-afrika	2	Verulam	Verulam	Natal (Britanya)	Güney Afrika			bulunamadi			koordinat-yok	iskelet (county adları bilgi — doğrulanmadı)	tahmin			county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)	1900-liste
+guney-afrika	2	Verulam	Verulam	Natal (Britanya)	Güney Afrika	-29.6434	31.04709	geonames-sayfa(16Kas)			koordinat-yok	iskelet (county adları bilgi — doğrulanmadı)	tahmin			county merkezi kavramı zayıf; asıl idarî birim 38 magisterial district (kat 3 listesinde değil)	1900-liste
 guney-afrika	2	Victoria West	Victoria West	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-31.4036	23.1146	modern-ana	Beaufort West	116.7	atlasta-yok	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli				1900-liste
 guney-afrika	2	Vrede	Vrede	Orange Free State	Güney Afrika	-27.4257	29.1658	modern-ana	Nevkasl (Newcastle)	84.0	atlasta-yok	nlwiki Oranje Vrijstaat (1892 listesi); COL1902	vikipedi			nlwiki: 1892'de 19 district; SYB1899 18 der (fark çözülmedi)	1900-liste
 guney-afrika	2	Vryburg	Vryburg	Ümit Burnu Kolonisi (Britanya)	Güney Afrika	-26.9566	24.7284	modern-ana	Vryburg	0.7	atlasta	COL1900 s.78-80 'Divisional Courts and Offices'	kaynakli			eski British Bechuanaland (1895 ilhak)	1900-liste
@@ -194,7 +194,7 @@ orta-afrika	2	Lusambo	Lusambo	Kongo Serbest Devleti	Kongo DC	-4.9750	23.4439	mod
 orta-afrika	2	Nouvelle-Anvers	Makanza	Kongo Serbest Devleti	Kongo DC			bulunamadi			koordinat-yok	enwiki Districts of the Congo Free State (Omasombo Tshonda 2014 atıflı); SYB1899 15 district adı	tahmin			1888 Ubangi-Uele merkezi Nouvelle-Anvers idi; Bangala'ya geçtiği çıkarım	1900-liste
 orta-afrika	2	Matadi	Matadi	Kongo Serbest Devleti	Kongo DC	-5.8386	13.4631	modern-ana	Matadi	2.3	atlasta	enwiki Districts of the Congo Free State (Omasombo Tshonda 2014 atıflı); SYB1899 15 district adı	vikipedi				1900-liste
 orta-afrika	2	Coquilhatville	Mbandaka	Kongo Serbest Devleti	Kongo DC	0.0486	18.2603	modern-ana	Mbandaka	0.2	atlasta	enwiki Districts of the Congo Free State (Omasombo Tshonda 2014 atıflı); SYB1899 15 district adı	vikipedi			merkez 1888 kararnamesinden	1900-liste
-orta-afrika	2	Niangara	Niangara	Kongo Serbest Devleti	Kongo DC			bulunamadi			koordinat-yok	enwiki Districts of the Congo Free State (Omasombo Tshonda 2014 atıflı); SYB1899 15 district adı	vikipedi			1895 bölünmesi	1900-liste
+orta-afrika	2	Niangara	Niangara	Kongo Serbest Devleti	Kongo DC	3.69277	27.8952	geonames-sayfa(16Kas)			koordinat-yok	enwiki Districts of the Congo Free State (Omasombo Tshonda 2014 atıflı); SYB1899 15 district adı	vikipedi			1895 bölünmesi	1900-liste
 guney-afrika	2	Leribe	Hlotse	Basutoland (Britanya)	Lesotho	-28.8718	28.0450	modern-ana	Thaba Bosiu	60.4	atlasta-yok	SYB1899 s.181 (district adları)	kaynakli				1900-liste
 guney-afrika	2	Mafeteng	Mafeteng	Basutoland (Britanya)	Lesotho	-29.8230	27.2374	modern-ana	Maseru	61.7	atlasta-yok	SYB1899 s.181 (district adları)	kaynakli				1900-liste
 guney-afrika	2	Maseru	Maseru	Basutoland (Britanya)	Lesotho	-29.3167	27.4833	modern-ana	Maseru	0.8	atlasta	SYB1899 s.181	kaynakli	1		Maseru district merkezi de	1900-liste
@@ -208,7 +208,7 @@ bati-afrika	2	Harper	Harper	Liberya	Liberya	4.3782	-7.7108	modern-ana	Harper	1.0
 bati-afrika	2	Robertsport	Robertsport	Liberya	Liberya	6.7533	-11.3671	modern-ana	Monrovia	80.4	atlasta-yok	STAT ulr (1847 anayasası)	tahmin			fiilî county statüsü 1900'de belirsiz; iskelet 4 county sayar	1900-liste
 guney-afrika	2	Bandawe	Bandawe	British Central Africa Prot. (Britanya)	Malavi			bulunamadi			koordinat-yok	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
 guney-afrika	2	Blantyre	Blantyre	British Central Africa Prot. (Britanya)	Malavi	-15.7850	35.0085	modern-ana	Blantyre	0.6	atlasta	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
-guney-afrika	2	Chiromo	Chiromo	British Central Africa Prot. (Britanya)	Malavi			bulunamadi			koordinat-yok	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
+guney-afrika	2	Chiromo	Chiromo	British Central Africa Prot. (Britanya)	Malavi	-16.54675	35.15566	geonames-sayfa(16Kas)			koordinat-yok	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
 guney-afrika	2	Karonga	Karonga	British Central Africa Prot. (Britanya)	Malavi	-9.9333	33.9333	modern-ana	Karonga	0.5	atlasta	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
 guney-afrika	2	Fort Johnston	Mangochi	British Central Africa Prot. (Britanya)	Malavi	-14.4781	35.2645	modern-ana	Mangoçi	0.5	atlasta	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
 guney-afrika	2	Kotakota	Nkhotakota	British Central Africa Prot. (Britanya)	Malavi	-12.9274	34.2961	modern-ana	Nkhotakota (Cumbe)	0.5	atlasta	SYB1899 s.193 (yerleşim olarak)	tahmin			SYB yerleşim diye sayar; district merkezi olduğu çıkarım	1900-liste
@@ -244,7 +244,7 @@ bati-afrika	2	Atakpame	Atakpamé	Togo	Togo	7.5333	1.1333	modern-ana	Atakpamé	0.
 bati-afrika	2	Bassari	Bassar	Togo	Togo	9.2502	0.7821	modern-ana	Sokodé	48.7	atlasta-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Bismarckburg	Bismarckburg (Adélé)	Togo	Togo			bulunamadi			koordinat-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Lome	Lomé	Togo	Togo	6.1287	1.2215	modern-ana	Lomé	0.3	atlasta	SYB1899	kaynakli	5		kıyı istasyonu	1900-liste
-bati-afrika	2	Misahöhe	Misahöhe (Kpalimé yak.)	Togo	Togo			bulunamadi			koordinat-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
+bati-afrika	2	Misahöhe	Misahöhe (Kpalimé yak.)	Togo	Togo	6.95	0.58333	geonames-sayfa(16Kas)			koordinat-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Sansanne-Mangu	Sansanné-Mango	Togo	Togo	10.3592	0.4708	modern-alt	Yendi (Dagbon)	115.0	atlasta-yok	SYB1899 (istasyon listesi)	kaynakli			istasyon = fiilî idarî merkez	1900-liste
 bati-afrika	2	Praia	Praia	Yeşil Burun Adaları (Portekiz)	Yeşil Burun	14.9315	-23.5125	modern-ana	Praia	0.2	atlasta	SYB1899	kaynakli	1			1900-liste
 guney-afrika	2	bulunamadı		Rodezya (BSAC)	Zambiya			bulunamadi			koordinat-yok	SYB1899 (5 district adı)	tahmin			district adı kaynaklı	1900-liste
@@ -268,7 +268,7 @@ bati-afrika	3	Savalou	Savalou	Fransız Batı Afrikası	Benin	7.9281	1.9756	moder
 bati-afrika	3	Dyebougou	Diébougou	Fransız Batı Afrikası	Burkina Faso	10.9621	-3.2497	modern-ana	Bobo-Diulasso	117.2	atlasta-yok	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Dori	Dori	Fransız Batı Afrikası	Burkina Faso	14.0333	-0.0333	modern-ana	Dori	0.5	atlasta	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Fada N'Gourma	Fada N'Gourma	Fransız Batı Afrikası	Burkina Faso	12.0616	0.3584	modern-ana	Fada Ngurma (Gurma)	0.2	atlasta	Brunet-Giethlen 1900 s.176; IBS097	tahmin			cercle Gourma/Koala; 1899 Soudan'dan; 1900'de askerî bölgeye geri	1900-liste
-bati-afrika	3	Kori	Koury	Fransız Batı Afrikası	Burkina Faso			bulunamadi			koordinat-yok	SEN1900 s.127	kaynakli				1900-liste
+bati-afrika	3	Kori	Koury	Fransız Batı Afrikası	Burkina Faso	12.74211	-3.49539	geonames-sayfa(16Kas)			koordinat-yok	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Léo	Léo	Fransız Batı Afrikası	Burkina Faso	11.1003	-2.1065	modern-ana	Vagadugu (Ouagadougou)	154.5	atlasta-yok	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Ouagadougou	Ouagadougou	Fransız Batı Afrikası	Burkina Faso	12.3657	-1.5339	modern-ana	Vagadugu (Ouagadougou)	0.6	atlasta	SEN1900 s.127	kaynakli	3			1900-liste
 bati-afrika	3	Ouahigouya	Ouahigouya	Fransız Batı Afrikası	Burkina Faso	13.5769	-2.4179	modern-ana	Vahiguya (Yatenga)	0.4	atlasta	SEN1900 s.127	kaynakli				1900-liste
@@ -291,7 +291,7 @@ bati-afrika	3	Boffa	Boffa	Fransız Batı Afrikası	Gine	10.1667	-14.0333	modern-
 bati-afrika	3	Boké	Boké	Fransız Batı Afrikası	Gine	10.9322	-14.2905	modern-ana	Konakri (Conakry)	170.3	atlasta-yok	GUI1900 s.121	kaynakli			cercle Rio-Nunez	1900-liste
 bati-afrika	3	Dinguiraye	Dinguiraye	Fransız Batı Afrikası	Gine	11.2906	-10.7121	modern-ana	Dingiray (Dinguiraye)	0.7	atlasta	GUI1900 s.122; IBS097	kaynakli				1900-liste
 bati-afrika	3	Faranah	Faranah	Fransız Batı Afrikası	Gine	10.0404	-10.7434	modern-ana	Falaba	64.5	atlasta-yok	GUI1900 s.121; IBS078	kaynakli			1895'te Soudan'dan	1900-liste
-bati-afrika	3	Friguiagbé	Friguiagbé	Fransız Batı Afrikası	Gine			bulunamadi			koordinat-yok	GUI1900 s.121	kaynakli				1900-liste
+bati-afrika	3	Friguiagbé	Friguiagbé	Fransız Batı Afrikası	Gine	9.95	-12.93333	geonames-sayfa(16Kas)			koordinat-yok	GUI1900 s.121	kaynakli				1900-liste
 bati-afrika	3	Kadé	Kadé	Fransız Batı Afrikası	Gine			bulunamadi			koordinat-yok	GUI1900 s.121	kaynakli				1900-liste
 bati-afrika	3	Kankan	Kankan	Fransız Batı Afrikası	Gine	10.3854	-9.3057	modern-ana	Kankan	0.7	atlasta	GUI1900 s.122; IBS097	kaynakli				1900-liste
 bati-afrika	3	Kissidougou	Kissidougou	Fransız Batı Afrikası	Gine	9.1848	-10.0999	modern-ana	Bisandugu	144.4	atlasta-yok	GUI1900 s.122; IBS097	kaynakli				1900-liste
@@ -313,7 +313,7 @@ bati-afrika	3	San	San	Fransız Batı Afrikası	Mali	13.2970	-4.8963	modern-ana	C
 bati-afrika	3	Satadougou	Sathiadougou (Satadougou)	Fransız Batı Afrikası	Mali			bulunamadi			koordinat-yok	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Sikasso	Sikasso	Fransız Batı Afrikası	Mali	11.3176	-5.6665	modern-ana	Sikasso (Kenedugu)	0.5	atlasta	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Sokolo	Sokolo	Fransız Batı Afrikası	Mali	14.7328	-6.1219	modern-ana	Segu (Ségou)	145.0	atlasta-yok	SEN1900 s.127	kaynakli				1900-liste
-bati-afrika	3	Sumpi	Soumpi	Fransız Batı Afrikası	Mali			bulunamadi			koordinat-yok	SEN1900 s.127	kaynakli			OCR 'lumpi'	1900-liste
+bati-afrika	3	Sumpi	Soumpi	Fransız Batı Afrikası	Mali	15.8436	-4.3255	geonames-sayfa(16Kas)			koordinat-yok	SEN1900 s.127	kaynakli			OCR 'lumpi'	1900-liste
 bati-afrika	3	Ségou	Ségou	Fransız Batı Afrikası	Mali	13.4403	-6.2595	modern-ana	Segu (Ségou)	4.8	atlasta-kayik	SEN1900 s.127	kaynakli				1900-liste
 bati-afrika	3	Kaédi	Kaédi	Fransız Batı Afrikası	Moritanya	16.1507	-13.5058	modern-ana	Kaedi	0.6	atlasta	SEN1900 ('cercles de Kaédi, Matam')	kaynakli				1900-liste
 bati-afrika	3	Say	Say	Fransız Batı Afrikası	Nijer	13.1007	2.3689	modern-ana	Say	0.1	atlasta	IBS097	kaynakli			1899'da Soudan'dan; 1900'de askerî bölgeye geri	1900-liste
