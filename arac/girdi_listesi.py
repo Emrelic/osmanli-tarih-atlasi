@@ -765,4 +765,6 @@ GIRDI_DOSYALARI = [
     "yerlesimler_cin_1115b.js",
     # ITALYA-1115b (15 Kasim 2026): yerlesimsiz kunye Urbino (urbino-dukaligi 1443-1631)
     "yerlesimler_italya_1115b.js",
+    # ISKANDINAV-1115c (15 Kasim 2026): C dilimi 1000-1199 - Lund (dansk ~1000, 1103 ark.), Sigtuna (~970, ilk piskoposluk)
+    "yerlesimler_iskandinav_1115c.js",
 ]
