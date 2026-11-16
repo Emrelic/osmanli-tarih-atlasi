@@ -283,7 +283,7 @@ yerlesimler.js:748	Sebzevâr	36.2133	57.6792	iran	ilhanli	var	var(17)	3	sehir_ta
 yerlesimler.js:749	Turşiz (Kâşmer)	35.2383	58.4658	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
 yerlesimler.js:750	Turbet-i Haydariye	35.2739	59.2189	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
 yerlesimler.js:751	Turbet-i Câm	35.2439	60.6242	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
-yerlesimler.js:752	Serahs	36.5386	61.1611	iran	sasani	var	var(5)	3	sehir_tarihce_k3:3km
+yerlesimler.js:752	Serahs	36.5386	61.1611	iran	sasani	var	var(5)	3	sehir_tarihce_k3:3km sehir_tarihce_orta_asya:3km
 yerlesimler.js:754	Kûçân	37.1	58.51	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
 yerlesimler.js:755	Bocnûrd	37.4744	57.3292	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
 yerlesimler.js:756	Esferâyin	37.0769	57.51	iran	ilhanli	var	yok	3	sehir_tarihce_k3:3km
@@ -392,7 +392,7 @@ yerlesimler_ek.js:7	Kotor (Cattaro)	42.421	18.768		avusturya	var	var(2)	3	sehir_
 yerlesimler_ek.js:8	Knin	44.041	16.197	orta-avrupa	macaristan	var	var(7)	3	sehir_tarihce_k3:3km kaynakli_halka_kronoloji:ad(koordinatsiz)
 yerlesimler_ek.js:14	Bihaç (Bihać)	44.817	15.871	orta-avrupa	macaristan	var	var(3)	kd3	sehir_tarihce_osm:3km kaynakli_halka_fetih:ad(koordinatsiz)
 yerlesimler_ortaasya2.js:0	Kızılarvat	38.9833	56.2833	orta-asya	turkmen	yok	var(1)	3	
-yerlesimler_ortaasya2.js:1	Aşkabad	37.95	58.38	dogu-avrupa	sovyet-rusya	yok	var(5)	3	
+yerlesimler_ortaasya2.js:1	Aşkabad	37.95	58.38	dogu-avrupa	sovyet-rusya	var	var(5)	3	sehir_tarihce_orta_asya:3km
 yerlesimler_ortaasya2.js:6	Guryev (Atyrau)	47.11	51.92	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
 yerlesimler_avrupa.js:0	York	53.959	-1.081	bati-avrupa	ingiltere	yok	var(8)	3	
 yerlesimler_avrupa.js:1	Norwich	52.628	1.297	bati-avrupa	ingiltere	var	yok	3	sehir_tarihce_k3:3km
@@ -644,7 +644,7 @@ yerlesimler_asya.js:7	Etâve (Etawah)	26.776	79.015	guney-asya	babur-imparatorlu
 yerlesimler_asya.js:8	Kannauc	27.055	79.916	guney-asya	delhi-sultanligi	yok	var(13)	3	
 yerlesimler_asya.js:9	Kanpûr	26.45	80.332	guney-asya	delhi-sultanligi	var	yok	3	yer_kat:3km
 yerlesimler_asya.js:15	Gorakhpûr	26.76	83.373	guney-asya	delhi-sultanligi	yok	yok	3	
-yerlesimler_asya.js:19	Amritsar	31.634	74.873	guney-asya	babur-imparatorlugu	var	var(2)	3	yer_kat:3km
+yerlesimler_asya.js:19	Amritsar	31.634	74.873	guney-asya	babur-imparatorlugu	var	var(2)	3	sehir_tarihce_hint:3km yer_kat:3km
 yerlesimler_asya.js:21	Câlandhar (Jalandhar)	31.326	75.576	guney-asya	babur-imparatorlugu	yok	yok	3	
 yerlesimler_asya.js:22	Ludhiyana	30.901	75.857	guney-asya	babur-imparatorlugu	yok	yok	3	
 yerlesimler_asya.js:23	Siyâlkot	32.494	74.531	guney-asya	delhi-sultanligi	yok	var(6)	3	
@@ -652,7 +652,7 @@ yerlesimler_asya.js:25	Râvalpindi	33.598	73.048	guney-asya	babur-imparatorlugu	
 yerlesimler_asya.js:26	Peşâver	34.008	71.578	orta-asya	kusan	var	var(6)	3	yer_kat:3km
 yerlesimler_asya.js:38	Karaçi	24.861	67.01	guney-asya	sind	yok	var(2)	3	
 yerlesimler_asya.js:39	Şikârpûr	27.955	68.638	guney-asya	babur-imparatorlugu	yok	var(2)	3	
-yerlesimler_asya.js:41	Ecmîr (Ajmer)	26.45	74.639	guney-asya	cahamana	yok	var(7)	3	
+yerlesimler_asya.js:41	Ecmîr (Ajmer)	26.45	74.639	guney-asya	cahamana	var	var(7)	3	sehir_tarihce_hint:3km
 yerlesimler_asya.js:47	Bikaner	28.022	73.312	guney-asya	racput	yok	var(2)	3	
 yerlesimler_asya.js:50	Sûrat	21.17	72.831	guney-asya	racput	var	var(1)	3	yer_kat:3km
 yerlesimler_asya.js:51	Kanbâyet (Khambhat)	22.317	72.62	guney-asya	racput	yok	yok	3	
@@ -867,11 +867,11 @@ yerlesimler_ek8.js:17	Arhangelsk	64.5401	40.5433	dogu-avrupa	novgorod	yok	yok	3
 yerlesimler_ek8.js:18	Mezen	65.8447	44.2394	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
 yerlesimler_ek8.js:20	Ust-Tsilma	65.4392	52.1508	dogu-avrupa	novgorod	var	yok	3	yer_kat:3km
 yerlesimler_ek14.js:3	Şehrisebz (Kiş)	39.058	66.833	orta-asya	cagatay	yok	yok	3	
-yerlesimler_ek14.js:4	Termez	37.224	67.278	iran	buyuk-selcuklu	yok	var(6)	3	
+yerlesimler_ek14.js:4	Termez	37.224	67.278	iran	buyuk-selcuklu	var	var(6)	3	sehir_tarihce_orta_asya:3km
 yerlesimler_ek14.js:6	Külâb (Kulob)	37.91	69.78	orta-asya	cagatay	yok	yok	3	
-yerlesimler_ek15.js:2	Andican	40.783	72.35	orta-asya	cagatay	var	var(8)	3	yer_kat:3km
+yerlesimler_ek15.js:2	Andican	40.783	72.35	orta-asya	cagatay	var	var(8)	3	sehir_tarihce_orta_asya:3km yer_kat:3km
 yerlesimler_ek15.js:3	Oş	40.514	72.804	orta-asya	cagatay	var	yok	3	yer_kat:3km
-yerlesimler_ek15.js:4	Hucend	40.284	69.622	dogu-asya	mogol-imparatorlugu	var	var(7)	3	yer_kat:3km
+yerlesimler_ek15.js:4	Hucend	40.284	69.622	dogu-asya	mogol-imparatorlugu	var	var(7)	3	sehir_tarihce_orta_asya:3km yer_kat:3km
 yerlesimler_ek15.js:5	Türkistan (Yesi)	43.302	68.253	orta-asya	cagatay	yok	var(12)	3	
 yerlesimler_ek17.js:0	Çernigov	51.4982	31.2893	dogu-avrupa	rusya	yok	var(8)	3	
 yerlesimler_ek17.js:1	Novgorod-Seversk	51.9874	33.262	dogu-avrupa	rusya	var	yok	3	yer_kat:3km
