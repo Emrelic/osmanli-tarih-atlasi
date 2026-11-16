@@ -372,7 +372,7 @@ window.SEHIR_TARIHCE_AFRIKA_MAGRIP2 = [
     "gun": "1145 (539-540 h.)",
     "k": "diger",
     "b": "Künye geçişi: Murâbıt → Muvahhid (BEYANLI YAKLAŞIKLIK, abi merkez Tilimsân/Vehrân).",
-    "kaynak": "ABİ MERKEZ: Tilimsân — TDV TİLİMSÂN (540/1145); Vehrân — TDV VEHRÂN (539/1145); bkz. data/sehir_tarihce_afrika_magrip.js tlemcen-dz ve oran-dz",
+    "kaynak": "ABİ MERKEZ: Tilimsân — TDV TİLİMSÂN (540/1145); Vehrân — TDV VEHRÂN (539/1145); bkz. data/sehir_tarihce_afrika_magrip.js tlemcen-dz ve oran-dz, https://islamansiklopedisi.org.tr/tilimsan, https://islamansiklopedisi.org.tr/vehran",
     "ic_not": "Müstegānim'e özgü Muvahhid tanığı yoktur; tarih abi merkezlerden alındı."
    },
    {
