@@ -21,7 +21,7 @@ akademik makaleler web aramasıyla çıkmıyor; TDV maddeleri WebFetch özetinde
 | Bîdar | TDV en eski 1322; Muhammedâbâd 1424 olgusu var | Epigraphia Indo-Moslemica; Sherwani *Bahmanis* |
 | Golkonda | TDV en eski 1363 (Kanhayya) | Sherwani *Qutb Shahis*; Kakatiya kitabeleri |
 | Vijayanagara (Hampi) | TDV'de ayrı madde yok; Sewell metnine 503 | Sewell *A Forgotten Empire*; Stein *Vijayanagara*; Sastri |
-| Evrengâbâd (Aurangabad) | Britannica 403; Iranica kuruluş yılı vermiyor | Sarkar; Iranica Khuldābād; Mehmet Gazetteer |
+| Evrengâbâd (Aurangabad) | Britannica 403; Iranica kuruluş yılı vermiyor | Sarkar; Iranica Khuldābād; Imperial Gazetteer of India (Aurangabad) |
 | Çitor (Chittorgarh) | yalnız Vikipedi/turizm yansıları | Hooja *A History of Rajasthan*; Tod *Annals* |
 | Udeypûr (Udaipur) | aynı; 1553 ↔ 1559 çelişkisi | Hooja; Sharma *Mewar and the Mughal Emperors* |
 | Codhpûr (Jodhpur) | aynı | Hooja; Marwar kronikleri neşri |
