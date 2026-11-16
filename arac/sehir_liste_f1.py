@@ -63,13 +63,30 @@ def atlas_indeks():
 
 def tarihce_noktalari():
     """data/sehir_tarihce_*.js içindeki (id, lat, lon)."""
+    import json
     out = []
     for p in glob.glob(os.path.join(KOK, "data", "sehir_tarihce_*.js")):
         with open(p, encoding="utf-8") as f:
             s = f.read()
-        for m in re.finditer(r'"?id"?:\s*"([^"]+)".{0,400}?"?lat"?:\s*(-?[\d.]+)\s*,\s*"?lon"?:\s*(-?[\d.]+)', s, re.S):
-            out.append((m.group(1), float(m.group(2)), float(m.group(3))))
+        i = s.index("=") + 1
+        k = s.rindex("]") + 1
+        for e in json.loads(re.sub(r",\s*([\]}])", r"\1", s[i:k])):
+            out.append((e["id"], e.get("lat"), e.get("lon"), e.get("ad", ""), e.get("atlas_ad") or ""))
     return out
+
+
+def tarihce_bul(th, adlar, lat, lon):
+    """(tarihçe kaydı, kaynak notu): önce 3 km, sonra ad eşleşmesi (koordinat varsa ≤30 km)."""
+    if lat != "":
+        yak = [(km(lat, lon, e[1], e[2]), e) for e in th if e[1] is not None and km(lat, lon, e[1], e[2]) <= 3]
+        if yak:
+            return min(yak, key=lambda x: x[0])[1], "3km"
+    adset = {norm(a) for a in adlar if a}
+    for e in th:
+        if norm(e[3]) in adset or norm(e[4]) in adset or norm(e[0]) in adset:
+            if lat == "" or e[1] is None or km(lat, lon, e[1], e[2]) <= 30:
+                return e, "ad"
+    return None, ""
 
 
 def main(blok, cikti):
@@ -102,11 +119,14 @@ def main(blok, cikti):
                 kk = "atlas-yerlesim-ad-eslesmesi"
                 n_k += 1
             tid = ""
-            if lat != "":
-                yak = [(km(lat, lon, a, b), i) for i, a, b in th if km(lat, lon, a, b) <= 3]
-                if yak:
-                    tid = min(yak)[1]
-                    n_t += 1
+            e, nasil = tarihce_bul(th, (r["ad_modern"], r["ad_1900"], atl_ad), lat, lon)
+            if e:
+                tid = e[0]
+                n_t += 1
+                if lat == "" and e[1] is not None:
+                    lat, lon = e[1], e[2]
+                    kk = "tarihce-kaydi (bagimsiz teyit YOK)"
+                    n_k += 1
             satir = [norm(r["ad_modern"] or r["ad_1900"]).replace(" ", "-"), r["kat"], r["modern_ulke"],
                      r["ad_1900"], r["ad_modern"], lat, lon, kk, atl_ad, "", tid, "", r["kaynak"],
                      r["not"]]
