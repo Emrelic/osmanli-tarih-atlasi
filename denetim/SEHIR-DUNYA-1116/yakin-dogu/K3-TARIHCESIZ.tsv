@@ -1,0 +1,4 @@
+id	kat	ulke	ad_1900	ad_modern	lat	lon	koord_kaynak	atlas_var	yer_kat_var	kaynak_1900	not
+maden-(elazig)	3	Türkiye	Ergani Madeni	Maden (Elazığ)	38.714	39.245	atlas-yerlesim-ad-eslesmesi	1	0	Cuinet TdA c.2 (1891) (Arghana-ma'aden, chef-lieu du sandjak)	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor
+bulunamadi-(genc/bingol-yoresi)	3	Türkiye	Gernik	bulunamadı (Genç/Bingöl yöresi)				0	0	Cuinet TdA c.2 (1891) ('Guernik, chef-lieu du sandjak et du merkez-caza de Guendj')	Cuinet 1891-96 durumu; 1900'e kadar değişiklik bilinmiyor; Gernik'in bugünkü karşılığı doğrulanmadı (Darahini/Genç olabilir)
+kars	2	Türkiye	Kars	Kars	40.602	43.095	atlas-yerlesim-ad-eslesmesi	1	0	Statoids uru (Rus İmp. il tablosu)	kiril: Карс
