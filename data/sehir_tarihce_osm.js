@@ -291,7 +291,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1187-07-09",
-    "t": "1191-01-01",
+    "t": "1191-07-11",
     "d": "eyyubi",
     "kesinlik": {
      "f": "gun",
@@ -301,7 +301,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "TDV yalnız yıl verir; teslim günü (genel kronolojide 12 Temmuz 1191) doğrulanmadı."
    },
    {
-    "f": "1191-01-01",
+    "f": "1191-07-11",
     "t": "1281-01-01",
     "d": "kudus-kralligi",
     "kesinlik": "yil",
@@ -521,8 +521,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV AKKÂ (F. Emecen)"
    },
    {
-    "t": "1191-01-01",
-    "gun": "1191",
+    "t": "1191-07-11",
+    "gun": "11 Temmuz 1191",
     "k": "kusatma",
     "b": "III. Haçlı Seferi kuşatması sonunda müdafiler teslim oldu; şehir Henri de Champagne'a verildi",
     "kaynak": "TDV AKKÂ (F. Emecen)"
@@ -4443,7 +4443,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -4452,7 +4452,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -4642,8 +4642,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -5136,7 +5136,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -5145,7 +5145,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -5307,8 +5307,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Babilon Kalesi’nin fethiyle de (20/641) ... deltanın güneyle ilişkisini kestiler'; hicrî 20 ∩ 641 ilk gün — bölge sahibi + beyan"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -8794,7 +8794,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -8804,8 +8804,8 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "t: hicrî 254 (28 Aralık 867 – 16 Aralık 868) ∩ 868 → 868-01-01."
    },
    {
-    "f": "0868-01-01",
-    "t": "0905-01-01",
+    "f": "0868-09-15",
+    "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
      "f": "yil",
@@ -8814,7 +8814,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu): Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
    },
    {
-    "f": "0905-01-01",
+    "f": "0905-01-11",
     "t": "0935-08-01",
     "d": "abbasi",
     "kesinlik": "ay",
@@ -8832,7 +8832,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0969-07-06",
-    "t": "1171-09-04",
+    "t": "1171-09-13",
     "d": "fatimi",
     "kesinlik": {
      "f": "gun",
@@ -8842,7 +8842,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "t: hicrî 567 (4 Eylül 1171 – 22 Ağustos 1172) ∩ 1171 → 1171-09-04, tablo takvimi Jülyen."
    },
    {
-    "f": "1171-09-04",
+    "f": "1171-09-13",
     "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": {
@@ -8910,15 +8910,15 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "gün genel kronoloji (ayrıca doğrulanmadı) (künye geçişi; atlas emevi bitişi)"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254/868",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a geldi; Tolunoğulları dönemi",
     "kaynak": "TDV MISIR (tarih bölümleri)"
    },
    {
-    "t": "0905-01-01",
-    "gun": "Ocak 905",
+    "t": "0905-01-11",
+    "gun": "1 Rebîülevvel 292 / 11 Ocak 905",
     "k": "fetih",
     "b": "Abbâsî ordusu Fustat'a girdi; Tolunoğulları sona erdi",
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
@@ -8938,8 +8938,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR (tarih bölümleri)"
    },
    {
-    "t": "1171-09-04",
-    "gun": "567/1171",
+    "t": "1171-09-13",
+    "gun": "10 Muharrem 567 / 13 Eylül 1171",
     "k": "diger",
     "b": "Selâhaddîn-i Eyyûbî Fâtımî Devleti'ni kaldırdı",
     "kaynak": "TDV MISIR (tarih bölümleri); hicrî 567 kesişimin ilk günü"
@@ -10418,7 +10418,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1095-01-11",
-    "t": "1183-04-26",
+    "t": "1183-04-29",
     "d": "inalogullari",
     "kesinlik": {
      "f": "yil",
@@ -10428,7 +10428,7 @@ window.SEHIR_TARIHCE_OSM = [
     "ic_not": "Hicrî 488 (Tutuş'un ölümü) ∩ 1095 ⇒ 1095-01-11. Denetim 'hayalet' uyarısı verir: künye ömrü düzeltilmeli — inalogullari künyesi 1098'de (İnal'in geçişi, 491/1098) başlıyor; Sadr (1095–1098) aynı hanedanın kurucu halkası (İnal'in kardeşi ya da babası, TDV) ⇒ künye f 1095 önerilir. 1151'den Artuklu tâbiiyeti (TDV)."
    },
    {
-    "f": "1183-04-26",
+    "f": "1183-04-29",
     "t": "1232-10-18",
     "d": "artuklu",
     "kesinlik": "ay",
@@ -10658,8 +10658,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV DİYARBAKIR (N. Göyünç); TDV İNALOĞULLARI (A. Sevim); hicrî 488/1/1, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "1183-04-26",
-    "gun": "579 (1183) yılı başı",
+    "t": "1183-04-29",
+    "gun": "4 Muharrem 579 / 29 Nisan 1183",
     "k": "fetih",
     "b": "Selâhaddîn-i Eyyûbî Âmid'i aldı, Hısnıkeyfâ Artuklu Nûreddin Muhammed'e verdi",
     "kaynak": "TDV DİYARBAKIR (N. Göyünç); hicrî 579/1/1, çeviri: tablo takvimi, Jülyen"
@@ -12441,7 +12441,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -12450,7 +12450,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II; TDV TOLUNOĞULLARI (N. Özkuyumcu): 'Ahmed b. Tolun 254 (868)'; hicrî 254 ∩ 868 ilk gün"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -12606,8 +12606,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV FEYYÛM; TDV MERVÂN II"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'da; Tolunoğulları dönemi",
     "kaynak": "TDV TOLUNOĞULLARI (N. Özkuyumcu)"
@@ -12835,14 +12835,14 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0979-01-01",
-    "t": "0987-01-01",
+    "t": "0987-05-03",
     "d": "__BOSLUK__",
     "kesinlik": "yil",
     "kaynak": "TDV ZÎRÎ b. ATIYYE; TDV MAĞRÂVE",
     "ic_not": "Bulukkîn b. Zîrî 979-984 seferlerinde Fas'ı zaptetti (yıl yok); Mağrâve (Muhammed b. Hayr el-Asgar, Zîrî b. Atıyye) ile Sanhâce/Fâtımî arasında mücadele; 985'te Zîrî b. Atıyye Fas yakınında Mansûr b. Bulukkîn'i yendi. Şehrin bu yıllardaki doğrudan sahibi ve geçiş günleri tarihlenemedi — beyanlı boşluk. t = 377/987 Zîrî b. Atıyye'nin Fas valiliğine tayini (TDV MAĞRÂVE)."
    },
    {
-    "f": "0987-01-01",
+    "f": "0987-05-03",
     "t": "0993-02-26",
     "d": "endulus-emevi",
     "kesinlik": "yil",
@@ -12991,22 +12991,22 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV ZÎRÎ b. ATIYYE"
    },
    {
-    "t": "0985-01-01",
-    "gun": "375 (985)",
+    "t": "0985-05-24",
+    "gun": "375 H (985)",
     "k": "savas",
     "b": "Zîrî b. Atıyye, Fas yakınında Mansûr b. Bulukkîn'in ordusunu ağır yenilgiye uğrattı",
     "kaynak": "TDV ZÎRÎ b. ATIYYE"
    },
    {
-    "t": "0987-01-01",
-    "gun": "377 (987)",
+    "t": "0987-05-03",
+    "gun": "377 H (987)",
     "k": "diger",
     "b": "Hâcib el-Mansûr, Zîrî b. Atıyye'yi Fas valiliğine tayin etti",
     "kaynak": "TDV MAĞRÂVE"
    },
    {
-    "t": "0992-01-01",
-    "gun": "382 (992)",
+    "t": "0992-03-09",
+    "gun": "382 H (992)",
     "k": "fetih",
     "b": "Zîrî Kurtuba'dayken Fâtımî valisi Yeddû b. Ya‘lâ (Benî İfren) Fas'ı işgal etti (kısa)",
     "kaynak": "TDV MAĞRÂVE; TDV ZÎRÎ b. ATIYYE"
@@ -16799,8 +16799,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV KÂBİL; hicrî 44 ∩ 664, çeviri: tablo takvimi, Jülyen"
    },
    {
-    "t": "0697-01-01",
-    "gun": "78 (697)",
+    "t": "0697-03-30",
+    "gun": "78 H (697)",
     "k": "sefer",
     "b": "Haccâc'ın gönderdiği İbn Ebû Bekre'nin Kâbil seferi ağır kayıpla başarısız oldu",
     "kaynak": "TDV KÂBİL"
@@ -22151,8 +22151,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II (H. Kurt); TDV MEKKE (M. S. Küçükaşcı)"
    },
    {
-    "t": "0930-01-01",
-    "gun": "317 (930)",
+    "t": "0930-01-12",
+    "gun": "8 Zilhicce 317 / 12 Ocak 930",
     "k": "kayip",
     "b": "Karmatîler hac mevsiminde Mekke'ye baskın yapıp hacıları katletti, Hacerülesved'i götürdü",
     "kaynak": "TDV MEKKE (M. S. Küçükaşcı)"
@@ -27750,7 +27750,7 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "0750-08-05",
-    "t": "0868-01-01",
+    "t": "0868-09-15",
     "d": "abbasi",
     "kesinlik": {
      "f": "gun",
@@ -27759,7 +27759,7 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MERVÂN II: Bûsîr'de öldürüldü '26 Zilhicce 132 / 5 Ağustos 750'"
    },
    {
-    "f": "0868-01-01",
+    "f": "0868-09-15",
     "t": "0905-01-11",
     "d": "tolunogullari",
     "kesinlik": {
@@ -27794,13 +27794,13 @@ window.SEHIR_TARIHCE_OSM = [
    },
    {
     "f": "1171-09-13",
-    "t": "1250-05-04",
+    "t": "1250-04-30",
     "d": "eyyubi",
     "kesinlik": "gun",
     "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
    },
    {
-    "f": "1250-05-04",
+    "f": "1250-04-30",
     "t": "1281-01-01",
     "d": "memluk",
     "kesinlik": "gun",
@@ -27837,8 +27837,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV MISIR, 4. bölüm (C. Tomar): 'Bu sırada İslâm ordusunun diğer kısmı Feyyûm’u ve buradan hareketle Asvan’a kadar Yukarı Mısır’ı (Saîd) ele geçirdi'; TDV ASYÛT (M. L. Bilge): 'Amr b. Âs’ın Mısır’ı fethi sırasında müslümanların idaresine geçen'"
    },
    {
-    "t": "0868-01-01",
-    "gun": "254 (868)",
+    "t": "0868-09-15",
+    "gun": "15 Eylül 868",
     "k": "kurulus",
     "b": "Ahmed b. Tolun Mısır'a vali vekili olarak girdi; Tolunoğulları dönemi başladı",
     "kaynak": "TDV TOLUNOĞULLARI: Ahmed b. Tolun Mısır'a girdi (254/868); Şeybân teslim oldu (Rebîülevvel 292 / Ocak 905)"
@@ -27900,8 +27900,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV EYYÛBÎLER: Abbâsîler adına hutbe '10 Muharrem 567 / 13 Eylül 1171'"
    },
    {
-    "t": "1250-05-04",
-    "gun": "30 Muharrem 648 / 4 Mayıs 1250",
+    "t": "1250-04-30",
+    "gun": "30 Nisan 1250",
     "k": "darbe",
     "b": "Turan Şah öldürüldü, Şecerüddür sultan; Mısır'da Memlûk dönemi başladı",
     "kaynak": "TDV ŞECERÜDDÜR: Turan Şah öldürüldü, Şecerüddür sultan '30 Muharrem 648 / 4 Mayıs 1250'"
@@ -28509,8 +28509,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "Diodoros 18.8.1 (metin okunmadı); iskender-imparatorlugu künyesi"
    },
    {
-    "t": "-0304-01-01",
-    "gun": "MÖ 305",
+    "t": "-0303-01-01",
+    "gun": "303 (MÖ 304)",
     "k": "kusatma",
     "b": "Demetrios Poliorketes'in kuşatması püskürtüldü; zafer anısına Rodos Heykeli dikildi",
     "kaynak": "TDV RODOS"
@@ -35505,8 +35505,8 @@ window.SEHIR_TARIHCE_OSM = [
     "kaynak": "TDV TRABLUSŞAM (C. Tomar); hicrî 495 ∩ 1102"
    },
    {
-    "t": "1105-01-01",
-    "gun": "1105",
+    "t": "1105-02-28",
+    "gun": "28 Şubat 1105",
     "k": "kusatma",
     "b": "Raymond de Saint-Gilles uzun kuşatma sırasında öldü",
     "kaynak": "TDV TRABLUSŞAM (C. Tomar)"

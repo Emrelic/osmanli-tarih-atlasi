@@ -142,7 +142,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
   kaynak:"TDV: muvahhidler — 'Ebû Ya‘kūb Yûsuf b. Abdülmü’min (1163-1184)'; TDV: hafsiler — Abdülmü'min dönemi '(1130-1163)'",
   gun:"1163 — TDV yalnız saltanat aralığı verir; gün yok" },
 
-{ t:"1184-01-01", b:"Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti", tur:"toprak-kayip", onem:3, dunya:1, kapsam:"ic",
+{ t:"1184-04-14", b:"Benî Gāniye Mağrib'e geçip Bicâye, Cezayir, Milyâne ve Tunus'u istilâ etti", tur:"toprak-kayip", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kayip","konu-askeri"], yer:"Bicâye · Cezayir · Tunus", taraflar:["muvahhidler"],
   yer_id:"Bicâye", odak_yer:["Bicâye","Cezayir","Tunus"],
   d:"Murâbıtlar'ın devamı olarak Balear adalarını elinde tutan Benî Gāniye, Ebû Ya'kūb Yûsuf'un Portekiz seferinde aldığı yarayla ölmesinden cesaret aldı. Abbâsîler'e bağlandıktan sonra Mağrib'e geçerek Bicâye, Cezayir, Milyâne ve Tunus'u ele geçirdi; İfrîkıye'deki mücadele yarım asır sürdü.",
@@ -232,7 +232,7 @@ window.KRONOLOJI_COK_ONCE1281_AFRIKA = [
 
 // ─── MAĞRİB: Hafsîler (İfrîkıye) ────────────────────────────────────
 
-{ t:"1230-01-01", b:"Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
+{ t:"1230-11-09", b:"Ebû Zekeriyyâ Kosantîne ve Bicâye'yi zaptetti", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"ic",
   etiket:["toprak-kazanc","konu-askeri"], yer:"Kosantîne · Bicâye", taraflar:["hafsi","muvahhidler"],
   odak_yer:["Konstantin","Bicâye"],
   d:"Muvahhidler'den bağımsızlığını ilân eden Ebû Zekeriyyâ, İfrîkıye'nin sınırlarını batıya genişletmek amacıyla Kosantîne ve Bicâye'yi aldı. Eski Hammâdî toprakları böylece Hafsî devletine katıldı.",

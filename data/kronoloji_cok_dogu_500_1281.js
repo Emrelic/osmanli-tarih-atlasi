@@ -14199,7 +14199,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "etiket": [
    "konu-siyasi"
   ],
-  "t": "0710-01-01",
+  "t": "0709-01-01",
   "b": "Eftalit Prensi Tarhan Nîzek yabgunun desteğiyle Belh’i aldı; Kuteybe onu yok etti",
   "tur": "isyan",
   "taraflar": [
@@ -15831,7 +15831,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
    "konu-siyasi",
    "dogu-500-1281"
   ],
-  "t": "1059-01-01",
+  "t": "1059-02-17",
   "b": "Batı Karahanlı Tamgaç Han İbrâhim Şâş'ı Doğu Karahanlılardan aldı",
   "tur": "savas",
   "taraflar": [

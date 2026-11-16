@@ -36,7 +36,7 @@
     },
     {
      "yol": "data/olaylar_ek5.js",
-     "sha": "93212dbec3302432",
+     "sha": "7271e3cc8152ff50",
      "bayt": 485562
     },
     {
@@ -264,7 +264,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_komsu.js",
-     "sha": "9759d8c200a23750",
+     "sha": "e199747d96dbdf49",
      "bayt": 68352
     },
     {
@@ -359,7 +359,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_once1281_yerlesim_asya_iran.js",
-     "sha": "c6dcfe081b41688f",
+     "sha": "6f205d1d98cfa238",
      "bayt": 52290
     },
     {
@@ -369,7 +369,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_once1281_geriye.js",
-     "sha": "e18fd3fe64d027d1",
+     "sha": "13645c18c998fbc1",
      "bayt": 513885
     },
     {
@@ -394,7 +394,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_dogu_500_1281.js",
-     "sha": "cdd5c3fbf5d1cd9a",
+     "sha": "6c370d3f2a968969",
      "bayt": 849979
     },
     {
@@ -479,7 +479,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_roma.js",
-     "sha": "6d7d14806f774244",
+     "sha": "2eb7cfa66fb02a77",
      "bayt": 336199
     },
     {
@@ -494,7 +494,7 @@
     },
     {
      "yol": "data/kronoloji_sinir_antik_bizans_komsu.js",
-     "sha": "fafdaeb80e90d9f1",
+     "sha": "954ee36218607a5b",
      "bayt": 17249
     }
    ],
@@ -2164,12 +2164,12 @@
    "kaynak": [
     {
      "yol": "data/olaylar_t5_1000a.js",
-     "sha": "9e105e75dc1f0f8d",
+     "sha": "1ee07e02d85765f1",
      "bayt": 59689
     },
     {
      "yol": "data/olaylar_t5_1000b.js",
-     "sha": "a9b2d1114883765f",
+     "sha": "068dc762ddb0bee6",
      "bayt": 32915
     },
     {
@@ -2194,12 +2194,12 @@
     },
     {
      "yol": "data/olaylar_ortacag_ortadogu.js",
-     "sha": "9c04ee5a67f668c8",
+     "sha": "ebaa13a57604560c",
      "bayt": 133347
     },
     {
      "yol": "data/olaylar_ortacag_iran_turan.js",
-     "sha": "577647ec93aa5442",
+     "sha": "11484a014430ba24",
      "bayt": 159637
     },
     {
@@ -2269,7 +2269,7 @@
     },
     {
      "yol": "data/olaylar_ortacag_bekleyen_acik.js",
-     "sha": "ef4f16a7626a5fe7",
+     "sha": "879c89b32ea9d3a6",
      "bayt": 154189
     },
     {
@@ -2442,12 +2442,12 @@
     },
     {
      "yol": "data/kronoloji_cok_once1281_ortadogu.js",
-     "sha": "096867060864c488",
+     "sha": "5b7a762ae93bb3d9",
      "bayt": 173580
     },
     {
      "yol": "data/kronoloji_cok_ms1_1000_ortadogu.js",
-     "sha": "45c8a304da688a4d",
+     "sha": "b01b9d6ba20f8188",
      "bayt": 632905
     },
     {
@@ -2457,7 +2457,7 @@
     },
     {
      "yol": "data/kronoloji_cok_once1281_iran.js",
-     "sha": "7d0fa34ddb7256d3",
+     "sha": "f4aba4d14334a933",
      "bayt": 118765
     },
     {
@@ -2477,12 +2477,12 @@
     },
     {
      "yol": "data/kronoloji_cok_once1281_hint_amerika.js",
-     "sha": "395667259ce3f702",
+     "sha": "63751c3411e13f93",
      "bayt": 45254
     },
     {
      "yol": "data/kronoloji_cok_once1281_afrika.js",
-     "sha": "3f2a76aa4cde148e",
+     "sha": "d698e350f80f64d1",
      "bayt": 45754
     },
     {
@@ -2507,7 +2507,7 @@
     },
     {
      "yol": "data/kronoloji_cok_ms1_1000_iber_balkan.js",
-     "sha": "26721ad7045a5054",
+     "sha": "6a8b97be00583150",
      "bayt": 123324
     },
     {
@@ -2517,7 +2517,7 @@
     },
     {
      "yol": "data/kronoloji_cok_dogu_500_1281.js",
-     "sha": "053a51260aa5915c",
+     "sha": "b300216dd4ed2a1b",
      "bayt": 1096282
     },
     {

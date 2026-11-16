@@ -2083,7 +2083,7 @@ window.SEHIR_TARIHCE_K3_G2 = [
    },
    {
     "f": "1043-01-01",
-    "t": "1156-09-18",
+    "t": "1156-09-17",
     "d": "almanya",
     "kesinlik": {
      "f": "yil",
@@ -2094,7 +2094,7 @@ window.SEHIR_TARIHCE_K3_G2 = [
     "ic_not": "f en geç tanıktan: 1043 Heinrich III. Hoftag zu Wien ve Adalbert'in sınırı Leitha'ya itmesi (Wien Geschichte Wiki \"Babenberger\"); önceki dönem __BOSLUK__ 1043'e uzar (BEYAN). Babenberg Mark'ı Kutsal Roma (almanya künyesi) içinde; \"Um die Mitte der 30er Jahre des 12. Jahrhunderts kamen die Babenberger in den Besitz von Wien\" (aynı sayfa) ve 1137 Mautern Tauschvertrag. Kaynaklar Viyana'nın 1043 öncesi Reich/Mark mı Macar mı olduğunu bu sayfalarda netleştirmiyor."
    },
    {
-    "f": "1156-09-18",
+    "f": "1156-09-17",
     "t": "1276-11-25",
     "d": "avusturya-dukaligi",
     "kesinlik": "gun",
@@ -2178,8 +2178,8 @@ window.SEHIR_TARIHCE_K3_G2 = [
     "tanik": "Wien wird erstmals im Mauterner Tauschvertrag aus dem Jahr 1137 als civitas bezeichnet"
    },
    {
-    "t": "1156-09-18",
-    "gun": "18 Eylül 1156",
+    "t": "1156-09-17",
+    "gun": "17 Eylül 1156",
     "k": "diger",
     "b": "Privilegium minus: Avusturya Markı Dukalığa yükseltildi, Bavyera'dan ayrıldı",
     "kaynak": "Wien Geschichte Wiki (Czeike), \"Privilegium minus\" (https://www.geschichtewiki.wien.gv.at/Privilegium_minus); Wien Geschichte Wiki (Czeike, Historisches Lexikon Wien), \"Babenberger\" (https://www.geschichtewiki.wien.gv.at/Babenberger)",
